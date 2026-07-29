@@ -3,358 +3,58 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Interaktive Lernplattform für die 3. Klausur des Steuerberaterexamens: Buchführung und Bilanzwesen.">
   <meta name="theme-color" content="#12365e">
   <title>StB Lernplattform · Klausur 3 Bilanzen</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%2312365e'/><path d='M15 18h34v7H15zm0 13h22v7H15zm0 13h34v7H15z' fill='%23fff'/></svg>" type="image/svg+xml">
-  <style>body{margin:0;background:#f4f7fb;color:#15202d;font-family:Inter,system-ui,sans-serif}#asset-status{position:fixed;z-index:9999;left:50%;top:1rem;transform:translateX(-50%);padding:.75rem 1rem;border-radius:10px;background:#12365e;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.18);font-size:.85rem}#asset-status.error{background:#a8341f;max-width:min(92vw,760px);white-space:pre-wrap}</style>
+  <style>
+    :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#12365e;background:#eef3f9}
+    *{box-sizing:border-box}body{min-height:100vh;margin:0;display:grid;place-items:center;padding:24px}.loader{width:min(560px,100%);padding:34px;border:1px solid #c3ccd8;border-radius:18px;background:#fff;box-shadow:0 24px 60px rgba(18,54,94,.14)}.mark{display:inline-grid;place-items:center;width:54px;height:54px;border-radius:15px;background:#12365e;color:#fff;font-weight:800;font-size:20px}.loader h1{margin:22px 0 8px;font-size:clamp(24px,5vw,38px);letter-spacing:-.04em}.loader p{margin:0;color:#526173;line-height:1.55}.bar{height:7px;margin-top:24px;overflow:hidden;border-radius:99px;background:#e5ebf2}.bar::after{content:"";display:block;width:42%;height:100%;border-radius:inherit;background:#1d6b46;animation:load 1.15s ease-in-out infinite alternate}@keyframes load{to{transform:translateX(138%)}}.error{color:#a8341f;white-space:pre-wrap}
+  </style>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
-
-  <div class="app-shell">
-    <header class="topbar">
-      <a class="brand" href="#dashboard" aria-label="Zur Übersicht">
-        <span class="brand-mark" aria-hidden="true">StB</span>
-        <span>
-          <strong>Examenscampus</strong>
-          <small>Steuerberaterexamen 2026</small>
-        </span>
-      </a>
-
-      <div class="topbar-actions">
-        <div class="global-search-wrap">
-          <label class="sr-only" for="global-search">Themen durchsuchen</label>
-          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
-          <input id="global-search" type="search" placeholder="Thema oder Fundstelle suchen …" autocomplete="off">
-          <kbd>/</kbd>
-        </div>
-        <button class="icon-button" id="theme-toggle" type="button" aria-label="Darstellung wechseln" title="Darstellung wechseln">
-          <svg class="sun-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3V1m0 22v-2m9-9h2M1 12h2m15.4-6.4 1.4-1.4M4.2 19.8l1.4-1.4m12.8 0 1.4 1.4M4.2 4.2l1.4 1.4M17 12a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"/></svg>
-          <svg class="moon-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 15.4A9 9 0 0 1 8.6 3a9 9 0 1 0 12.4 12.4Z"/></svg>
-        </button>
-      </div>
-    </header>
-
-    <section class="exam-tabs" aria-label="Klausurarten">
-      <button class="exam-tab is-disabled" type="button" data-exam="1">
-        <span class="exam-number">01</span>
-        <span><strong>Verfahrensrecht</strong><small>und andere Steuerrechtsgebiete</small></span>
-        <span class="status-badge">später</span>
-      </button>
-      <button class="exam-tab is-disabled" type="button" data-exam="2">
-        <span class="exam-number">02</span>
-        <span><strong>Ertragsteuern</strong><small>ESt · KSt · GewSt</small></span>
-        <span class="status-badge">später</span>
-      </button>
-      <button class="exam-tab is-active" type="button" data-exam="3" aria-current="page">
-        <span class="exam-number">03</span>
-        <span><strong>Buchführung &amp; Bilanzwesen</strong><small>Tag 3 · 6 Stunden · 100 Punkte</small></span>
-        <span class="status-badge status-live">aktiv</span>
-      </button>
-    </section>
-
-    <aside class="sidebar" aria-label="Bereichsnavigation">
-      <nav class="side-nav">
-        <a href="#dashboard" class="side-link is-active" data-view-link="dashboard">
-          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 13h6V4H4v9Zm0 7h6v-4H4v4Zm10 0h6v-9h-6v9Zm0-16v4h6V4h-6Z"/></svg>
-          Übersicht
-        </a>
-        <a href="#lernen" class="side-link" data-view-link="lernen">
-          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11a2 2 0 0 1 2 2v16a3 3 0 0 0-3-3H4V5.5Zm16 0A2.5 2.5 0 0 0 17.5 3H13v18a3 3 0 0 1 3-3h4V5.5Z"/></svg>
-          Lernmodule
-          <span class="nav-count" id="topic-count">0</span>
-        </a>
-        <a href="#schema" class="side-link" data-view-link="schema">
-          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v18m0-14H7a3 3 0 0 0-3 3v0a3 3 0 0 0 3 3h10a3 3 0 0 1 3 3v0a3 3 0 0 1-3 3h-5"/></svg>
-          Universalschema
-        </a>
-        <a href="#training" class="side-link" data-view-link="training">
-          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 3h8l1 3h3v15H4V6h3l1-3Zm1 8 2 2 4-4m-6 9h6"/></svg>
-          Training
-        </a>
-        <a href="#lernplan" class="side-link" data-view-link="lernplan">
-          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 2v3m10-3v3M4 9h16M5 4h14a1 1 0 0 1 1 1v16H4V5a1 1 0 0 1 1-1Zm3 9h3v3H8v-3Z"/></svg>
-          8-Wochen-Plan
-        </a>
-      </nav>
-
-      <div class="sidebar-card">
-        <span class="eyebrow">Prüfungstakt</span>
-        <strong>3,6 Minuten</strong>
-        <p>pro Punkt. Zeit nach Punkten verteilen, nicht nach Bauchgefühl.</p>
-        <a href="#training" data-view-link="training">Zeitbudget rechnen →</a>
-      </div>
-
-      <button class="reset-button" id="reset-progress" type="button">Lernstand zurücksetzen</button>
-    </aside>
-
-    <main id="main-content" class="main-content" tabindex="-1">
-      <section class="view is-visible" id="view-dashboard" data-view="dashboard">
-        <div class="page-heading">
-          <div>
-            <span class="eyebrow">Klausur 3 · Buchführung und Bilanzwesen</span>
-            <h1>Dein Bilanz-Cockpit</h1>
-            <p>Vom sicheren Grundschema bis zur technischen Umsetzung – getrennt nach Einzelunternehmen, Personengesellschaft und Kapitalgesellschaft.</p>
-          </div>
-          <div class="legal-state"><span></span>Rechtsstand der Lernbasis: 27.07.2026</div>
-        </div>
-
-        <div class="hero-grid">
-          <article class="hero-card hero-primary">
-            <div class="hero-copy">
-              <span class="eyebrow light">Universalschema</span>
-              <h2>WER? → WAS? → WIE VIEL? → WOHIN?</h2>
-              <p>Vier Fragen für jeden Einzelsachverhalt. Wer sie konsequent abarbeitet, sichert Ansatz-, Bewertungs- und Technikpunkte.</p>
-              <div class="button-row">
-                <a class="button button-light" href="#schema" data-view-link="schema">Schema öffnen</a>
-                <a class="button button-ghost-light" href="#lernen" data-view-link="lernen">Module ansehen</a>
-              </div>
-            </div>
-            <div class="schema-mini" aria-label="Vier Stufen des Universalschemas">
-              <span>WER?<small>Zurechnung</small></span>
-              <span>WAS?<small>Ansatz</small></span>
-              <span>WIE VIEL?<small>Bewertung</small></span>
-              <span>WOHIN?<small>Technik</small></span>
-            </div>
-          </article>
-
-          <article class="progress-card card">
-            <div class="progress-ring" id="progress-ring" style="--progress: 0deg">
-              <div><strong id="progress-percent">0 %</strong><span>gelernt</span></div>
-            </div>
-            <div>
-              <span class="eyebrow">Dein Lernstand</span>
-              <h2><span id="completed-count">0</span> von <span id="total-count">0</span> Modulen</h2>
-              <p id="progress-message">Starte mit den Grundlagen des Einzelunternehmens.</p>
-            </div>
-          </article>
-        </div>
-
-        <section class="section-block">
-          <div class="section-heading">
-            <div><span class="eyebrow">Klausuraufbau</span><h2>Die drei typischen Teile</h2></div>
-            <p>Die Lernplattform bildet den Aufbau der Bilanzklausur direkt ab.</p>
-          </div>
-          <div class="area-grid" id="area-overview"></div>
-        </section>
-
-        <section class="dashboard-split section-block">
-          <article class="card continue-card">
-            <div class="section-heading compact">
-              <div><span class="eyebrow">Nächster Schritt</span><h2>Weiterlernen</h2></div>
-            </div>
-            <div id="continue-learning"></div>
-          </article>
-
-          <article class="card risk-card">
-            <div class="section-heading compact">
-              <div><span class="eyebrow">Punktesicherung</span><h2>Die sechs teuersten Fehler</h2></div>
-            </div>
-            <ol class="risk-list">
-              <li><span>01</span><div><strong>Direkt bewerten</strong><small>Immer zuerst Ansatz dem Grunde nach.</small></div></li>
-              <li><span>02</span><div><strong>HB und StB vermischen</strong><small>Zwei getrennte Blöcke schreiben.</small></div></li>
-              <li><span>03</span><div><strong>Fundstellen vergessen</strong><small>Richtlinien und Hinweise mitzitieren.</small></div></li>
-              <li><span>04</span><div><strong>Technik vertagen</strong><small>Buchung und Gewinnauswirkung sofort.</small></div></li>
-              <li><span>05</span><div><strong>Sondernorm übersehen</strong><small>§ 6b, R 6.6, § 7g, § 6 Abs. 5 reflexartig prüfen.</small></div></li>
-              <li><span>06</span><div><strong>Vorspann überlesen</strong><small>Wünsche, Größenklasse und Bilanzstichtag markieren.</small></div></li>
-            </ol>
-          </article>
-        </section>
-      </section>
-
-      <section class="view" id="view-lernen" data-view="lernen" hidden>
-        <div class="page-heading">
-          <div>
-            <span class="eyebrow">Wissensbasis</span>
-            <h1>Lernmodule Bilanzen</h1>
-            <p>Filtere nach Klausurteil, suche Fundstellen und hake beherrschte Themen ab.</p>
-          </div>
-        </div>
-
-        <div class="module-toolbar card">
-          <div class="filter-group" role="group" aria-label="Klausurteil filtern">
-            <button class="filter-chip is-active" type="button" data-area-filter="alle">Alle</button>
-            <button class="filter-chip" type="button" data-area-filter="Einzelunternehmen">Einzelunternehmen</button>
-            <button class="filter-chip" type="button" data-area-filter="Personengesellschaft">Personengesellschaft</button>
-            <button class="filter-chip" type="button" data-area-filter="Kapitalgesellschaft">Kapitalgesellschaft</button>
-            <button class="filter-chip" type="button" data-area-filter="Technik & Querschnitt">Technik</button>
-          </div>
-          <div class="module-meta"><span id="filtered-count">0</span> Treffer</div>
-        </div>
-
-        <div class="module-list" id="module-list"></div>
-        <div class="empty-state" id="module-empty" hidden>
-          <strong>Kein Thema gefunden.</strong>
-          <p>Ändere den Suchbegriff oder den Klausurteil.</p>
-        </div>
-      </section>
-
-      <section class="view" id="view-schema" data-view="schema" hidden>
-        <div class="page-heading">
-          <div>
-            <span class="eyebrow">Das Universalschema</span>
-            <h1>Vier Fragen. Immer dieselbe Reihenfolge.</h1>
-            <p>Das Schreibgerüst für jeden Einzelsachverhalt – vom Grundstück bis zur verdeckten Gewinnausschüttung.</p>
-          </div>
-        </div>
-
-        <div class="schema-stepper" role="tablist" aria-label="Stufen des Universalschemas">
-          <button class="schema-tab is-active" type="button" role="tab" aria-selected="true" data-schema-step="0"><span>01</span>WER?</button>
-          <button class="schema-tab" type="button" role="tab" aria-selected="false" data-schema-step="1"><span>02</span>WAS?</button>
-          <button class="schema-tab" type="button" role="tab" aria-selected="false" data-schema-step="2"><span>03</span>WIE VIEL?</button>
-          <button class="schema-tab" type="button" role="tab" aria-selected="false" data-schema-step="3"><span>04</span>WOHIN?</button>
-        </div>
-        <article class="schema-detail card" id="schema-detail"></article>
-
-        <div class="schema-support-grid section-block">
-          <article class="card treasure-card">
-            <span class="eyebrow">Sachverhaltsvorspann</span>
-            <h2>Die sieben Schätze</h2>
-            <p class="mnemonic">„Wer viel gewinnt, will vor Tagesbeginn buchen.“</p>
-            <div class="treasure-list">
-              <span><strong>W</strong>irtschaftsjahr</span>
-              <span><strong>V</strong>orsteuerabzug</span>
-              <span><strong>G</strong>rößenmerkmale</span>
-              <span><strong>W</strong>ünsche des Steuerpflichtigen</span>
-              <span><strong>V</strong>orläufiger Jahresüberschuss</span>
-              <span><strong>T</strong>ag der Bilanzaufstellung</span>
-              <span><strong>B</strong>uchungskreise</span>
-            </div>
-          </article>
-
-          <article class="card timing-card">
-            <span class="eyebrow">Die ersten 30 Minuten</span>
-            <h2>Feste Routine</h2>
-            <div class="timeline-list">
-              <div><span>0–5</span><p>Klausur durchblättern, Punkte und Zeitbudget notieren.</p></div>
-              <div><span>5–20</span><p>Vorspänne und Aufgabenstellung lesen, Schätze markieren.</p></div>
-              <div><span>20–25</span><p>Je Sachverhalt ein Randstichwort als Landkarte.</p></div>
-              <div><span>25–30</span><p>Reihenfolge nach Punkten pro Aufwand festlegen.</p></div>
-            </div>
-          </article>
-        </div>
-
-        <article class="card writing-card section-block">
-          <div class="section-heading compact">
-            <div><span class="eyebrow">Schreibroutine</span><h2>Formulierungsbausteine</h2></div>
-          </div>
-          <div class="template-grid" id="writing-templates"></div>
-        </article>
-      </section>
-
-      <section class="view" id="view-training" data-view="training" hidden>
-        <div class="page-heading">
-          <div>
-            <span class="eyebrow">Aktives Abrufen</span>
-            <h1>Prüfungstraining</h1>
-            <p>Teste die Kernregeln, trainiere Entscheidungen und rechne dein Zeitbudget.</p>
-          </div>
-        </div>
-
-        <div class="training-grid">
-          <article class="quiz-card card">
-            <div id="quiz-start">
-              <span class="eyebrow">10 Fragen · gemischt</span>
-              <h2>Bilanz-Check</h2>
-              <p>Zehn zufällige Fragen aus allen drei Klausurteilen. Nach jeder Antwort erhältst du eine kurze Begründung.</p>
-              <button class="button button-primary" id="start-quiz" type="button">Training starten</button>
-            </div>
-            <div id="quiz-run" hidden>
-              <div class="quiz-topline"><span id="quiz-progress-label">Frage 1 von 10</span><span id="quiz-score-label">0 richtig</span></div>
-              <div class="quiz-progress"><span id="quiz-progress-bar"></span></div>
-              <div class="quiz-question" id="quiz-question"></div>
-              <div class="quiz-options" id="quiz-options"></div>
-              <div class="quiz-feedback" id="quiz-feedback" hidden></div>
-              <button class="button button-primary" id="next-question" type="button" hidden>Nächste Frage</button>
-            </div>
-            <div id="quiz-result" hidden></div>
-          </article>
-
-          <aside class="training-side">
-            <article class="card calculator-card">
-              <span class="eyebrow">3,6-Minuten-Regel</span>
-              <h2>Zeitbudget-Rechner</h2>
-              <label for="points-input">Punkte des Klausurteils</label>
-              <div class="input-suffix"><input id="points-input" type="number" min="1" max="100" value="25"><span>Punkte</span></div>
-              <div class="calculation-result"><strong id="minutes-result">90</strong><span>Minuten</span></div>
-              <p id="clock-result">entspricht 1 Std. 30 Min.</p>
-            </article>
-
-            <article class="card exam-rule-card">
-              <span class="eyebrow">Abbruchregel</span>
-              <h2>Zeit ist eine Punkteentscheidung.</h2>
-              <p>Ist das Budget eines Sachverhalts verbraucht, weitergehen – auch bei einer unvollständigen Lösung.</p>
-            </article>
-          </aside>
-        </div>
-      </section>
-
-      <section class="view" id="view-lernplan" data-view="lernplan" hidden>
-        <div class="page-heading">
-          <div>
-            <span class="eyebrow">Vorbereitung bis zur Prüfung</span>
-            <h1>8-Wochen-Plan</h1>
-            <p>Ein kompakter Lernpfad mit mindestens sechs vollständigen Klausuren unter Originalbedingungen.</p>
-          </div>
-          <div class="plan-progress"><strong id="plan-progress-count">0/8</strong><span>Wochen abgeschlossen</span></div>
-        </div>
-        <div class="plan-list" id="plan-list"></div>
-      </section>
-    </main>
-  </div>
-
-  <dialog class="topic-dialog" id="topic-dialog" aria-labelledby="dialog-title">
-    <button class="dialog-close" id="dialog-close" type="button" aria-label="Dialog schließen">×</button>
-    <div id="dialog-content"></div>
-  </dialog>
-
-  <dialog class="placeholder-dialog" id="placeholder-dialog" aria-labelledby="placeholder-title">
-    <button class="dialog-close" id="placeholder-close" type="button" aria-label="Dialog schließen">×</button>
-    <span class="eyebrow">Ausbaustufe</span>
-    <h2 id="placeholder-title">Diese Klausur folgt später.</h2>
-    <p>Die Navigation ist bereits für alle drei Klausurarten vorbereitet. Inhaltlich ist zunächst nur Klausur 3 – Buchführung und Bilanzwesen – umgesetzt.</p>
-    <button class="button button-primary" id="placeholder-ok" type="button">Verstanden</button>
-  </dialog>
-
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
-
-  <footer class="site-footer">
-    <p>Lernplattform auf Grundlage der bereitgestellten Übersichten. Kein Ersatz für Gesetzestext, Hilfsmittelerlass und Klausurtraining.</p>
-    <p>Statisches Projekt · GitHub Pages geeignet · Fortschritt bleibt lokal im Browser.</p>
-  </footer>
-
-  <div id="asset-status" role="status">Lernplattform wird geladen …</div>
+  <main class="loader" id="loader" aria-live="polite">
+    <span class="mark">StB</span>
+    <h1>Examenscampus wird geladen</h1>
+    <p>Die Lernmodule für Buchführung und Bilanzwesen werden vorbereitet.</p>
+    <div class="bar" aria-hidden="true"></div>
+  </main>
+  <noscript>Diese Lernplattform benötigt JavaScript.</noscript>
   <script>
-  (async () => {
-    const status = document.getElementById("asset-status");
-    if (!("DecompressionStream" in window)) throw new Error("Dieser Browser unterstützt DecompressionStream nicht.");
-    async function unpack(path) {
-      const response = await fetch(path, { cache: "no-store" });
-      if (!response.ok || !response.body) throw new Error(`Datei konnte nicht geladen werden: ${path} (${response.status})`);
-      return new Response(response.body.pipeThrough(new DecompressionStream("gzip"))).text();
-    }
-    const [css, data, app] = await Promise.all([
-      unpack("source/assets/styles.css.gz"),
-      unpack("source/data/bilanzen.js.gz"),
-      unpack("source/assets/app.js.gz")
-    ]);
-    const style = document.createElement("style");
-    style.textContent = css;
-    document.head.appendChild(style);
-    const dataScript = document.createElement("script");
-    dataScript.textContent = data;
-    document.body.appendChild(dataScript);
-    const appScript = document.createElement("script");
-    appScript.textContent = app;
-    document.body.appendChild(appScript);
-    status.remove();
-  })().catch((error) => {
-    const status = document.getElementById("asset-status");
-    status.className = "error";
-    status.textContent = "Ladefehler: " + (error instanceof Error ? error.message : String(error));
-    console.error(error);
-  });
+    (async () => {
+      async function unpack(path) {
+        const response = await fetch(path, { cache: "no-store" });
+        if (!response.ok) throw new Error(`Datei konnte nicht geladen werden: ${path} (${response.status})`);
+        const bytes = new Uint8Array(await response.arrayBuffer());
+        const isGzip = bytes.length >= 2 && bytes[0] === 0x1f && bytes[1] === 0x8b;
+        if (!isGzip) return new TextDecoder("utf-8").decode(bytes);
+        if (!("DecompressionStream" in window)) throw new Error("Dieser Browser kann gzip-Dateien nicht entpacken.");
+        const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
+        return new Response(stream).text();
+      }
+
+      const [page, styles, data, app] = await Promise.all([
+        unpack("source/index.html.gz"),
+        unpack("source/assets/styles.css.gz"),
+        unpack("source/data/bilanzen.js.gz"),
+        unpack("source/assets/app.js.gz")
+      ]);
+
+      const styleUrl = URL.createObjectURL(new Blob([styles], { type: "text/css" }));
+      const dataUrl = URL.createObjectURL(new Blob([data], { type: "text/javascript" }));
+      const appUrl = URL.createObjectURL(new Blob([app], { type: "text/javascript" }));
+      const hydratedPage = page
+        .replace("assets/styles.css", styleUrl)
+        .replace("data/bilanzen.js", dataUrl)
+        .replace("assets/app.js", appUrl);
+
+      document.open();
+      document.write(hydratedPage);
+      document.close();
+    })().catch((error) => {
+      const loader = document.getElementById("loader");
+      loader.innerHTML = '<span class="mark">StB</span><h1>Die Seite konnte nicht geladen werden</h1><p class="error"></p>';
+      loader.querySelector(".error").textContent = error instanceof Error ? error.message : String(error);
+      console.error(error);
+    });
   </script>
 </body>
 </html>
