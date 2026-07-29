@@ -1,12 +1,12 @@
 import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import { componentTagger } from "lovable-tagger";
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   server: {
-    host: "0.0.0.0",
+    host: "::",
     port: 8080,
+    hmr: { overlay: false },
   },
-  preview: {
-    host: "0.0.0.0",
-    port: 4173,
-  },
-});
+  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+}));
