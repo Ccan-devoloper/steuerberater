@@ -6,10 +6,8 @@
   <meta name="description" content="Interaktive Lernplattform für die 3. Klausur des Steuerberaterexamens: Buchführung und Bilanzwesen.">
   <meta name="theme-color" content="#12365e">
   <title>StB Lernplattform · Klausur 3 Bilanzen</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css">
-  <script defer src="data/bilanzen.js"></script>
-  <script defer src="assets/app.js"></script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%2312365e'/><path d='M15 18h34v7H15zm0 13h22v7H15zm0 13h34v7H15z' fill='%23fff'/></svg>" type="image/svg+xml">
+  <style>body{margin:0;background:#f4f7fb;color:#15202d;font-family:Inter,system-ui,sans-serif}#asset-status{position:fixed;z-index:9999;left:50%;top:1rem;transform:translateX(-50%);padding:.75rem 1rem;border-radius:10px;background:#12365e;color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.18);font-size:.85rem}#asset-status.error{background:#a8341f;max-width:min(92vw,760px);white-space:pre-wrap}</style>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
@@ -325,5 +323,38 @@
     <p>Lernplattform auf Grundlage der bereitgestellten Übersichten. Kein Ersatz für Gesetzestext, Hilfsmittelerlass und Klausurtraining.</p>
     <p>Statisches Projekt · GitHub Pages geeignet · Fortschritt bleibt lokal im Browser.</p>
   </footer>
+
+  <div id="asset-status" role="status">Lernplattform wird geladen …</div>
+  <script>
+  (async () => {
+    const status = document.getElementById("asset-status");
+    if (!("DecompressionStream" in window)) throw new Error("Dieser Browser unterstützt DecompressionStream nicht.");
+    async function unpack(path) {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok || !response.body) throw new Error(`Datei konnte nicht geladen werden: ${path} (${response.status})`);
+      return new Response(response.body.pipeThrough(new DecompressionStream("gzip"))).text();
+    }
+    const [css, data, app] = await Promise.all([
+      unpack("source/assets/styles.css.gz"),
+      unpack("source/data/bilanzen.js.gz"),
+      unpack("source/assets/app.js.gz")
+    ]);
+    const style = document.createElement("style");
+    style.textContent = css;
+    document.head.appendChild(style);
+    const dataScript = document.createElement("script");
+    dataScript.textContent = data;
+    document.body.appendChild(dataScript);
+    const appScript = document.createElement("script");
+    appScript.textContent = app;
+    document.body.appendChild(appScript);
+    status.remove();
+  })().catch((error) => {
+    const status = document.getElementById("asset-status");
+    status.className = "error";
+    status.textContent = "Ladefehler: " + (error instanceof Error ? error.message : String(error));
+    console.error(error);
+  });
+  </script>
 </body>
 </html>
