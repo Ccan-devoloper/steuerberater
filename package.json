@@ -1,11 +1,11 @@
 {
   "name": "stb-examenscampus",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node prepare.mjs && vite --host 0.0.0.0 --port 8080",
-    "build": "node prepare.mjs && vite build",
+    "dev": "vite --host 0.0.0.0 --port 8080",
+    "build": "vite build",
     "preview": "vite preview --host 0.0.0.0 --port 4173"
   },
   "devDependencies": {
