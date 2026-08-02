@@ -81,3 +81,4 @@ html[data-theme=dark] .hero,html[data-theme=dark] .exampleCard,html[data-theme=d
 .exampleCard>.sectionNumber{color:#ffffff8c;border-left-color:#ffffff8c}
 .checkList li:before{content:"";width:9px;height:9px;top:6px;border-radius:0;border:1.5px solid var(--green);background:transparent}
 @media(max-width:760px){.lessonSection{padding-left:30px}.bookingScroll,.hbstbScroll{overflow-x:auto}}
+.lessonGrid,.lessonMain,.lessonSection{min-width:0}.lessonSection p,.lessonSection li{overflow-wrap:anywhere}
