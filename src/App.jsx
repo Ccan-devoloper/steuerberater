@@ -3,10 +3,16 @@ import euModules from "./data/modules-eu";
 import persgModules from "./data/modules-persg";
 import kapgModules from "./data/modules-kapg";
 import technikModules from "./data/modules-technik";
+import falleModules from "./data/modules-faelle";
+import Diagram, { AbbaSchema, Buchungskreise } from "./components/diagrams";
+import BookingEntry from "./components/BookingEntry";
+import HbStbTable from "./components/HbStbTable";
+import { NormChain, Merksatz } from "./components/NormChip";
+import { IconOverview, IconModules, IconSchema, IconTraining, IconPlan, IconSearch, IconSun, IconMoon } from "./components/icons";
 import { researchNote, sourceCatalog } from "./data/sources";
 
-const modules = [...euModules, ...persgModules, ...kapgModules, ...technikModules];
-const areaNames = { EU: "Einzelunternehmen", PersG: "Personengesellschaft", KapG: "Kapitalgesellschaft", Technik: "Technik & Querschnitt" };
+const modules = [...falleModules, ...euModules, ...persgModules, ...kapgModules, ...technikModules];
+const areaNames = { Fall: "Fallsammlung", EU: "Einzelunternehmen", PersG: "Personengesellschaft", KapG: "Kapitalgesellschaft", Technik: "Technik & Querschnitt" };
 const questions = [
   ["Welche Frage steht im Universalschema zuerst?", ["Bewertung", "Zurechnung", "Buchung", "AfA"], 1, "Zuerst wird die steuerliche Zurechnung geklärt."],
   ["Welche Norm regelt das wirtschaftliche Eigentum?", ["§ 39 AO", "§ 7g EStG", "§ 249 HGB", "§ 27 KStG"], 0, "§ 39 AO ist die zentrale Zurechnungsnorm."],
@@ -14,6 +20,16 @@ const questions = [
   ["Wo wird Sonderbetriebsvermögen abgebildet?", ["Gesamthandsbilanz", "Sonderbilanz", "Nur außerbilanziell", "Privatvermögen"], 1, "Sonderbetriebsvermögen gehört in die Sonderbilanz."],
   ["Welche Norm betrifft die Reinvestitionsrücklage?", ["§ 6b EStG", "§ 8 KStG", "§ 15a EStG", "§ 5 UStG"], 0, "Die Übertragung stiller Reserven ist in § 6b EStG geregelt."],
   ["Womit endet jeder Einzelsachverhalt?", ["Nur mit einer Norm", "Nur mit dem Ergebnis", "Mit Technik und Gewinnauswirkung", "Mit einer neuen Frage"], 2, "Bilanzposten, Buchung und Gewinnauswirkung sichern Technikpunkte."],
+  ["Wie lautet die Summenformel der Zinsstaffelmethode?", ["n × (n + 1)", "n / 2 × (n + 1)", "n / 2 × n", "(n + 1) / 2"], 1, "Bei 10 Raten: 10/2 × 11 = 55. Der Nenner bleibt unverändert."],
+  ["Welche Norm verbietet die Drohverlustrückstellung in der Steuerbilanz?", ["§ 5 Abs. 4a S. 1 EStG", "§ 249 Abs. 1 S. 1 HGB", "§ 5 Abs. 2 EStG", "§ 6 Abs. 1 Nr. 3a EStG"], 0, "§ 5 Abs. 4a S. 1 EStG enthält das Ansatzverbot."],
+  ["Selbst geschaffene immaterielle Vermögensgegenstände des AV sind handelsrechtlich …", ["ansatzpflichtig", "ansatzverboten", "aktivierungsfähig nach Wahlrecht", "nur mit Gutachten ansetzbar"], 2, "§ 248 Abs. 2 S. 1 HGB gewährt ein Wahlrecht; § 5 Abs. 2 EStG verbietet den Ansatz."],
+  ["Grundmietzeit unter 40 % oder über 90 % der Nutzungsdauer bedeutet …", ["Zurechnung beim Leasinggeber", "Zurechnung beim Leasingnehmer", "keine Zurechnung", "Wahlrecht"], 1, "Außerhalb der 40/90-Spanne wird stets dem Leasingnehmer zugerechnet."],
+  ["Auf welche Basis wird die Pauschalwertberichtigung gerechnet?", ["Bruttobestand", "Nettobestand ohne Umsatzsteuer", "Bestand inklusive EWB-Forderungen", "Gesamtumsatz"], 1, "Für die Umsatzsteuer besteht kein Ausfallrisiko (UStAE 17.1 Abs. 5 S. 9)."],
+  ["Wann entsteht die Umsatzsteuer bei einer erhaltenen Anzahlung?", ["mit Lieferung", "mit Rechnung", "mit Vereinnahmung", "mit Vertragsschluss"], 2, "§ 13 Abs. 1 Nr. 1 a) S. 4 UStG: bereits mit Vereinnahmung der Anzahlung."],
+  ["Welche Norm schließt die Abgeltungswirkung im Betriebsvermögen aus?", ["§ 43 Abs. 5 S. 2 EStG", "§ 3 Nr. 40 EStG", "§ 20 Abs. 8 EStG", "§ 12 Nr. 3 EStG"], 0, "§ 43 Abs. 5 S. 2 EStG: keine Abgeltung bei Betriebsvermögen."],
+  ["Mit welchem Zinssatz werden Rückstellungen steuerlich abgezinst?", ["2 %", "3 %", "5,5 %", "6 %"], 2, "§ 6 Abs. 1 Nr. 3a Buchst. e) EStG: 5,5 %."],
+  ["Wie wird ein Disagio beim Fälligkeitsdarlehen aufgelöst?", ["Zinsstaffel", "linear", "sofort", "degressiv-geometrisch"], 1, "Das Kapital bleibt konstant, daher lineare Auflösung."],
+  ["Welche latenten Steuern sind nach § 274 HGB Pflicht?", ["aktive", "passive", "beide", "keine"], 1, "Passive latente Steuern sind Pflicht (§ 274 Abs. 1 S. 1 HGB), aktive ein Wahlrecht."],
 ];
 const weeks = ["Grundlagen und Universalschema", "Aktivseite und AfA", "Passivseite und Rückstellungen", "§ 6b, R 6.6 und § 7g EStG", "Personengesellschaft", "Kapitalgesellschaft", "Technik und Zeitmanagement", "Klausursimulation"];
 const readSet = (key) => { try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); } catch { return new Set(); } };
@@ -44,6 +60,16 @@ function ModuleDetail({ module, done, onToggle, onBack, onOpen }) {
           {module.intro.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </section>
 
+        {module.normchain && <section className="lessonSection card">
+          <span className="sectionNumber">01a</span><div><span className="eyebrow">Normenkette</span><h2>Die Normen dieses Falls</h2></div>
+          <NormChain items={module.normchain} />
+        </section>}
+
+        {module.diagram && <section className="lessonSection card">
+          <span className="sectionNumber">01b</span><div><span className="eyebrow">Schaubild</span><h2>Struktur auf einen Blick</h2></div>
+          <Diagram id={module.diagram} />
+        </section>}
+
         <section className="lessonSection card">
           <span className="sectionNumber">02</span><div><span className="eyebrow">Lernziele</span><h2>Das solltest du danach können</h2></div>
           <ul className="checkList">{module.goals.map((goal) => <li key={goal}>{goal}</li>)}</ul>
@@ -60,6 +86,17 @@ function ModuleDetail({ module, done, onToggle, onBack, onOpen }) {
           <div className="solution"><strong>Lösungsschritte</strong><ol>{module.example.solution.map((step) => <li key={step}>{step}</li>)}</ol></div>
           <div className="result"><strong>Ergebnis</strong><p>{module.example.result}</p></div>
         </section>
+
+        {module.hbstb && <section className="lessonSection card">
+          <span className="sectionNumber">04a</span><div><span className="eyebrow">Wertansatz</span><h2>Handelsbilanz und Steuerbilanz</h2></div>
+          <HbStbTable data={module.hbstb} />
+        </section>}
+
+        {module.booking && <section className="lessonSection card">
+          <span className="sectionNumber">04b</span><div><span className="eyebrow">Technik</span><h2>Buchungssätze in drei Buchungskreisen</h2></div>
+          {module.booking.map((entry, i) => <BookingEntry key={i} entry={entry} />)}
+          {module.merksatz && <Merksatz>{module.merksatz}</Merksatz>}
+        </section>}
 
         <section className="lessonSection card">
           <span className="sectionNumber">05</span><div><span className="eyebrow">Examensbezug</span><h2>Warum das klausurrelevant ist</h2></div>
@@ -116,7 +153,7 @@ export default function App() {
   const q = typeof quiz === "number" ? questions[quiz] : null;
   const choose = (i) => { if (answer !== null) return; setAnswer(i); if (i === q[2]) setScore((s) => s + 1); };
   const nextQuestion = () => { if (quiz === questions.length - 1) setQuiz("result"); else { setQuiz(quiz + 1); setAnswer(null); } };
-  const nav = [["home", "⌂", "Übersicht"], ["learn", "▤", "Lernmodule"], ["schema", "◎", "Schema"], ["train", "☑", "Training"], ["plan", "✓", "Lernplan"]];
+  const nav = [["home", IconOverview, "Übersicht"], ["learn", IconModules, "Lernmodule"], ["schema", IconSchema, "Schema"], ["train", IconTraining, "Training"], ["plan", IconPlan, "Lernplan"]];
   const openModule = (module) => { setSelectedId(module.id); setView("learn"); window.scrollTo({ top: 0, behavior: "smooth" }); };
   const changeView = (nextView) => { setView(nextView); if (nextView !== "learn") setSelectedId(null); window.scrollTo({ top: 0, behavior: "smooth" }); };
   const continueModule = modules.find((module) => !done.has(module.id)) || modules[0];
@@ -124,14 +161,14 @@ export default function App() {
   return <div className="app" id="lesson-top">
     <header>
       <button className="brand" onClick={() => changeView("home")}><b>StB</b><span><strong>Examenscampus</strong><small>Steuerberaterexamen · Klausur 3</small></span></button>
-      <div className="actions"><label>⌕<input value={search} onChange={(e) => setSearch(e.target.value)} onFocus={() => { setView("learn"); setSelectedId(null); }} placeholder="Thema, Norm oder Stichwort suchen …" /></label><button className="icon" onClick={() => setDark(!dark)}>{dark ? "☀" : "◐"}</button></div>
+      <div className="actions"><label><IconSearch /><input value={search} onChange={(e) => setSearch(e.target.value)} onFocus={() => { setView("learn"); setSelectedId(null); }} placeholder="Thema, Norm oder Stichwort suchen …" /></label><button className="icon" onClick={() => setDark(!dark)}>{dark ? <IconSun /> : <IconMoon />}</button></div>
     </header>
     <section className="tabs"><button onClick={() => alert("Klausur 1 folgt später.")}>01 <strong>Verfahrensrecht</strong><small>folgt später</small></button><button onClick={() => alert("Klausur 2 folgt später.")}>02 <strong>Ertragsteuern</strong><small>folgt später</small></button><button className="active">03 <strong>Buchführung & Bilanzwesen</strong><small>6 Stunden · 100 Punkte</small></button></section>
-    <aside><nav>{nav.map((item) => <button key={item[0]} className={view === item[0] ? "active" : ""} onClick={() => changeView(item[0])}><i>{item[1]}</i><span>{item[2]}</span></button>)}</nav><div className="pace"><small>PRÜFUNGSTAKT</small><strong>3,6 Minuten</strong><p>pro Punkt. Zeit nach Punkten verteilen.</p></div></aside>
+    <aside><nav>{nav.map((item) => <button key={item[0]} className={view === item[0] ? "active" : ""} onClick={() => changeView(item[0])}><i>{React.createElement(item[1])}</i><span>{item[2]}</span></button>)}</nav><div className="pace"><small>PRÜFUNGSTAKT</small><strong>3,6 Minuten</strong><p>pro Punkt. Zeit nach Punkten verteilen.</p></div></aside>
 
     <main>
       {view === "home" && <>
-        <div className="heading"><div><span className="eyebrow">Klausur 3 · Buchführung und Bilanzwesen</span><h1>Dein Bilanz-Cockpit</h1><p>Strukturiert lernen, prüfen und wiederholen – mit ausführlichen Modulen, Beispielen und Quellen.</p></div><em>20 recherchierte Module</em></div>
+        <div className="heading"><div><span className="eyebrow">Klausur 3 · Buchführung und Bilanzwesen</span><h1>Dein Bilanz-Cockpit</h1><p>Strukturiert lernen, prüfen und wiederholen – mit ausführlichen Modulen, Beispielen und Quellen.</p></div><em>{modules.length} recherchierte Module</em></div>
         <div className="heroGrid"><article className="hero"><span>UNIVERSALSCHEMA</span><h2>WER? → WAS? → WIE VIEL? → WOHIN?</h2><p>Vier Leitfragen für jeden Einzelsachverhalt. Damit sicherst du Ansatz-, Bewertungs- und Technikpunkte.</p><button onClick={() => changeView("schema")}>Schema öffnen</button><button className="ghost" onClick={() => { setSelectedId(null); setView("learn"); }}>Module ansehen</button></article><article className="card progress"><div className="ring" style={{ "--p": pct + "%" }}><b>{pct}%</b></div><h3>{done.size} von {modules.length} Modulen</h3><p>Der Fortschritt bleibt lokal im Browser gespeichert.</p></article></div>
         <section className="section"><span className="eyebrow">Weiterlernen</span><h2>Dein nächstes offenes Modul</h2><button className="continueCard card" onClick={() => openModule(continueModule)}><span>{areaNames[continueModule.area]}</span><h3>{continueModule.title}</h3><p>{continueModule.intro[0]}</p><strong>Modul öffnen →</strong></button></section>
         <section className="section"><span className="eyebrow">Klausuraufbau</span><h2>Die drei typischen Teile</h2><div className="areas">{[["EU", "Einzelunternehmen", "Aktiva, Passiva, AfA, Rückstellungen, § 6b und § 7g EStG."], ["PersG", "Personengesellschaft", "Gesamthand, Sonderbetriebsvermögen und Ergänzungsbilanz."], ["KapG", "Kapitalgesellschaft", "Eigenkapital, Ausschüttungen, vGA und verdeckte Einlage."]].map((area) => <article className="card area" key={area[0]}><b>{area[0]}</b><h3>{area[1]}</h3><p>{area[2]}</p><button onClick={() => { setFilter(area[0]); setSelectedId(null); setView("learn"); }}>Module öffnen →</button></article>)}</div></section>
@@ -140,11 +177,11 @@ export default function App() {
       {view === "learn" && (selected ? <ModuleDetail module={selected} done={done.has(selected.id)} onToggle={(id) => toggle(setDone, id)} onBack={() => setSelectedId(null)} onOpen={openModule} /> : <>
         <div className="heading"><div><span className="eyebrow">Wissensbasis</span><h1>Lernmodule Bilanzen</h1><p>Klicke ein Modul an: Einführung, Prüfungsschema, Rechenbeispiel, Examensbezug und zitierte Quellen.</p></div><em>{shown.length} Treffer</em></div>
         <div className="researchBanner card"><strong>Recherchebasis</strong><p>{researchNote}</p></div>
-        <div className="filters card">{["Alle", "EU", "PersG", "KapG", "Technik"].map((item) => <button className={filter === item ? "active" : ""} onClick={() => setFilter(item)} key={item}>{item === "Alle" ? item : areaNames[item]}</button>)}</div>
+        <div className="filters card">{["Alle", "Fall", "EU", "PersG", "KapG", "Technik"].map((item) => <button className={filter === item ? "active" : ""} onClick={() => setFilter(item)} key={item}>{item === "Alle" ? item : areaNames[item]}</button>)}</div>
         <div className="moduleList">{shown.map((module) => <article className={`card module ${done.has(module.id) ? "done" : ""}`} key={module.id} onClick={() => openModule(module)} tabIndex="0" onKeyDown={(e) => { if (e.key === "Enter") openModule(module); }}><button className="moduleCheck" onClick={(e) => { e.stopPropagation(); toggle(setDone, module.id); }} aria-label={`${module.title} als beherrscht markieren`}>{done.has(module.id) ? "✓" : ""}</button><div><div className="moduleTop"><span>{areaNames[module.area]}</span><small>{module.difficulty} · {module.minutes} Min.</small></div><h3>{module.title}</h3><p>{module.law}</p><div className="modulePreview">{module.intro[0]}</div></div><strong className="openArrow">Öffnen →</strong></article>)}</div>
       </>)}
 
-      {view === "schema" && <><div className="heading"><div><span className="eyebrow">Universalschema</span><h1>Sechs Schritte. Immer dieselbe Reihenfolge.</h1></div></div><div className="schema">{[["1", "WER?", "Zurechnung"], ["2", "WAS?", "Ansatz"], ["3", "HB", "Handelsbilanz"], ["4", "StB", "Steuerbilanz"], ["5", "WIE VIEL?", "Bewertung"], ["6", "WOHIN?", "Technik"]].map((step) => <article className="card step" key={step[0]}><b>{step[0]}</b><span>{step[1]}</span><h2>{step[2]}</h2><p>Zurechnung, Ansatz, Bewertung und technische Umsetzung klar und getrennt darstellen.</p></article>)}</div><article className="card formula"><b>Prüfungssatz:</b> Zurechnung → Ansatz HB → Ansatz StB → Bewertung → Bilanzposten → Buchung → Gewinnauswirkung.</article></>}
+      {view === "schema" && <><div className="heading"><div><span className="eyebrow">Universalschema</span><h1>Sechs Schritte. Immer dieselbe Reihenfolge.</h1></div></div><div className="schema">{[["1", "WER?", "Zurechnung"], ["2", "WAS?", "Ansatz"], ["3", "HB", "Handelsbilanz"], ["4", "StB", "Steuerbilanz"], ["5", "WIE VIEL?", "Bewertung"], ["6", "WOHIN?", "Technik"]].map((step) => <article className="card step" key={step[0]}><b>{step[0]}</b><span>{step[1]}</span><h2>{step[2]}</h2><p>Zurechnung, Ansatz, Bewertung und technische Umsetzung klar und getrennt darstellen.</p></article>)}</div><section className="section"><span className="eyebrow">Fallsammlung</span><h2>Das ABBA-Schema</h2><article className="card diagramCard"><AbbaSchema /></article><article className="card diagramCard"><Buchungskreise /></article></section><article className="card formula"><b>Prüfungssatz:</b> Zurechnung → Ansatz HB → Ansatz StB → Bewertung → Bilanzposten → Buchung → Gewinnauswirkung.</article></>}
 
       {view === "train" && <><div className="heading"><div><span className="eyebrow">Aktives Abrufen</span><h1>Prüfungstraining</h1></div></div><div className="training"><article className="card quiz">{quiz === null && <div className="center"><h2>Bilanz-Check</h2><p>{questions.length} Fragen mit direkter Begründung.</p><button onClick={() => { setQuiz(0); setScore(0); setAnswer(null); }}>Training starten</button></div>}{typeof quiz === "number" && <><div className="meta"><span>Frage {quiz + 1}/{questions.length}</span><span>{score} richtig</span></div><h2>{q[0]}</h2><div className="options">{q[1].map((option, i) => <button key={option} className={answer === null ? "" : i === q[2] ? "right" : answer === i ? "wrong" : ""} onClick={() => choose(i)}>{option}</button>)}</div>{answer !== null && <div className="feedback"><b>{answer === q[2] ? "Richtig." : "Noch nicht."}</b> {q[3]}<button onClick={nextQuestion}>{quiz === questions.length - 1 ? "Ergebnis" : "Nächste Frage"}</button></div>}</>}{quiz === "result" && <div className="center"><h2>{score} von {questions.length} richtig</h2><p>Wiederhole offene Themen und trainiere anschließend unter Zeitdruck.</p><button onClick={() => { setQuiz(0); setScore(0); setAnswer(null); }}>Noch einmal</button></div>}</article><section><article className="card calc"><span className="eyebrow">3,6-Minuten-Regel</span><h2>Zeitbudget</h2><input type="number" min="1" max="100" value={points} onChange={(e) => setPoints(e.target.value)} /><strong>{Math.round(points * 3.6)} Minuten</strong><p>{Math.floor(points * 3.6 / 60)} Std. {Math.round(points * 3.6) % 60} Min.</p></article></section></div></>}
 
