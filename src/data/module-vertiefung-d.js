@@ -28,6 +28,7 @@ export default [
     normchain: [
       "§ 246 Abs. 1 S. 2 Hs. 2 HGB", "§ 39 Abs. 2 Nr. 1 AO", "§ 246 Abs. 1 S. 1 HGB", "§ 247 Abs. 2 HGB",
       "§ 5 Abs. 1 S. 1 Hs. 1 EStG", "§ 253 Abs. 1 S. 1 HGB", "§ 6 Abs. 1 Nr. 1 EStG",
+      "§ 253 Abs. 1 S. 2 HGB", "§ 6 Abs. 1 Nr. 3 EStG",
       "§ 255 Abs. 1 S. 1 HGB", "§ 9b Abs. 1 EStG", "§ 15 Abs. 1 S. 1 Nr. 1 UStG", "R 6.2 S. 2 EStR",
       "R 6.5 Abs. 4 EStR", "§ 5 Abs. 1 S. 1 Hs. 2, S. 2, 3 EStG",
       "§ 253 Abs. 3 S. 1, 2 HGB", "§ 7 Abs. 1 S. 1, 2, 4 EStG", "§ 7g Abs. 5, Abs. 6 Nr. 1, 2 EStG",
@@ -45,7 +46,7 @@ export default [
         "Verbindlichkeit am 31.12.2025: Restlaufzeit ein Jahr und ein Monat; 150.000 € × 0,944 = 141.600 €. Die Randrechnung 150.000 € ÷ 1,055^(1 + 1/12) ergibt 141.547 €, angesetzt wird der Tabellenwert 141.600 €.",
         "Aufzinsung vom Zugangswert 134.700 € auf 141.600 €: 6.900 € Aufwand für den Zeitraum Februar bis Dezember 2025.",
       ],
-      result: "Anhänger zum 31.12.2025: HB 173.413 €, StB 88.755 €; Verbindlichkeit 141.600 € und Aufzinsungsaufwand 6.900 €.",
+      result: "Aktivposten Anhänger zum 31.12.2025: HB 173.413 €, StB 88.755 €. Passivposten Kaufpreisverbindlichkeit zum 31.12.2025: HB und StB 141.600 €; Aufzinsungsaufwand 6.900 €.",
     },
     hbstb: {
       datum: "31.12.2025",
@@ -166,13 +167,13 @@ export default [
     ],
     example: {
       title: "Lösung Fall 12 – fertige und unfertige Türen",
-      facts: "Der Materialgemeinkostenzuschlag beträgt 350.000 € ÷ 5.000.000 € = 7,6 %, der Fertigungsgemeinkostenzuschlag 430.000 € ÷ 2.000.000 € = 21,5 %. Für fertige Türen fallen MEK 110.000 € und FEK 200.000 € an; für unfertige Türen MEK 220.000 € und FEK 230.000 €.",
+      facts: "Der Materialgemeinkostenzuschlag beträgt 380.000 € ÷ 5.000.000 € = 7,6 %, der Fertigungsgemeinkostenzuschlag 430.000 € ÷ 2.000.000 € = 21,5 %. Für fertige Türen fallen MEK 110.000 € und FEK 200.000 € an; für unfertige Türen MEK 220.000 € und FEK 230.000 €.",
       solution: [
         "Fertige Türen: MGK 110.000 € × 7,6 % = 8.360 €; FGK 200.000 € × 21,5 % = 43.000 €.",
         "Herstellungskosten fertige Türen: 110.000 € + 8.360 € + 200.000 € + 43.000 € = 361.360 €.",
         "Unfertige Türen: MGK 220.000 € × 7,6 % = 16.720 €; FGK 230.000 € × 21,5 % = 49.450 €.",
         "Herstellungskosten unfertige Türen: 220.000 € + 16.720 € + 230.000 € + 49.450 € = 516.170 €.",
-        "Das Wahlrecht für Verwaltungskosten, soziale Einrichtungen und Leistungen sowie betriebliche Altersversorgung wird nicht ausgeübt.",
+        "Das steuerliche Wahlrecht nach § 6 Abs. 1 Nr. 1b EStG für Verwaltungskosten, soziale Einrichtungen und Leistungen sowie betriebliche Altersversorgung darf nur in Übereinstimmung mit der Handelsbilanz ausgeübt werden; im Fall wird es nicht ausgeübt.",
         "Die Korrektur erfolgt über WBUÄ: fertige Türen 51.360 €, unfertige Türen 66.170 €.",
       ],
       result: "Zum 31.12.2025 stehen fertige Türen mit 361.360 € und unfertige Türen mit 516.170 € in HB und StB.",
@@ -190,6 +191,7 @@ export default [
     merksatz: "Fertige und unfertige Erzeugnisse bleiben getrennt; für beide gilt: Einzelkosten plus zwingende Gemeinkosten, Wahlkosten nur bei ausgeübtem Wahlrecht.",
     exam: [
       "Die Zuschlagssätze sind identisch, die Bezugsgrößen der fertigen und unfertigen Türen jedoch verschieden.",
+      "Das Wahlrecht nach § 6 Abs. 1 Nr. 1b EStG darf nur in Übereinstimmung mit der Handelsbilanz ausgeübt werden.",
       "Die Bestandskorrektur entspricht nicht den gesamten Herstellungskosten, sondern nur der im Sachverhalt erforderlichen Erhöhung von 51.360 € bzw. 66.170 €.",
     ],
     traps: [
