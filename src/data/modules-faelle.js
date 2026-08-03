@@ -1,5 +1,5 @@
-// Fallsammlung aus Original-Kursmitschriften (Steuerberaterexamen, Klausur 3 Bilanzen).
-// Erweiterte Datenstruktur: normchain, booking, hbstb, diagram, merksatz.
+// Fallsammlung aus den Original-Kursmitschriften (Steuerberaterexamen, Klausur 3 Bilanzen).
+// Datenstruktur wie alle übrigen Module: normchain, booking, hbstb, diagram, merksatz.
 
 export default [
   {
@@ -197,6 +197,7 @@ export default [
     },
     hbstb: {
       datum: "31.12.2025",
+      passivposten: true,
       hb: [
         { label: "Erhaltene Anzahlungen", value: 12000 },
         { label: "Drohverlustrückstellung", value: 1700 },
@@ -355,7 +356,7 @@ export default [
     scheme: [
       "Darlehen ansetzen und nach Tilgung zum Stichtag bewerten.",
       "Disagio ermitteln und Wahlrecht bzw. Pflicht feststellen.",
-      "Rattenzahl n bestimmen und Summe n / 2 × (n + 1) berechnen.",
+      "Ratenzahl n bestimmen und Summe n / 2 × (n + 1) berechnen.",
       "Zinsanteil des Jahres mit Zähler n berechnen.",
       "ARAP als Restbetrag zum 31.12. ausweisen.",
     ],
@@ -515,6 +516,7 @@ export default [
     },
     hbstb: {
       datum: "31.12.2025",
+      passivposten: true,
       hb: [
         { label: "Erfüllungsbetrag künftige Preise", value: 210000 },
         { label: "Ansammlung 1/10", value: 21000, subtotal: true },
