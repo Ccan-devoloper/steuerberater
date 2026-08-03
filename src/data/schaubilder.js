@@ -58,6 +58,17 @@ const schaubilder = {
     ],
     legende: "Der Eigentumsvorbehalt dient nur der Kreditsicherung und hindert das wirtschaftliche Eigentum nicht. Ein Mietverhältnis begründet dagegen weder zivilrechtliches noch wirtschaftliches Eigentum.",
   },
+  grundstuecke: {
+    typ: "stufen",
+    titel: "Grundstücksteile nach der Nutzung",
+    stufen: [
+      { stufe: "1", text: "eigene Wohnzwecke", norm: "", ton: "rot", ergebnis: "notwendiges Privatvermögen" },
+      { stufe: "2", text: "fremde Wohnzwecke", norm: "R 4.2 Abs. 9 EStR", ton: "orange", ergebnis: "gewillkürtes Betriebsvermögen" },
+      { stufe: "3", text: "fremdbetrieblich genutzt", norm: "R 4.2 Abs. 9 EStR", ton: "orange", ergebnis: "gewillkürtes Betriebsvermögen" },
+      { stufe: "4", text: "eigenbetrieblich genutzt", norm: "Ausnahme R 4.2 Abs. 8 EStR, § 8 EStDV", ton: "gruen", ergebnis: "notwendiges Betriebsvermögen" },
+    ],
+    legende: "Jeder unterschiedlich genutzte Gebäudeteil ist ein eigenes Wirtschaftsgut nach R 4.2 Abs. 3 S. 3 Nr. 5, Abs. 4 EStR; der anteilige Grund und Boden folgt der Nutzung des jeweiligen Gebäudeteils.",
+  },
   akhk: {
     typ: "stufen",
     titel: "Aufbau der Anschaffungskosten",
