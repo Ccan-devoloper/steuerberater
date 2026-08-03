@@ -1,0 +1,47 @@
+name: Run Relaunch Import
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/run-relaunch-import.yml
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Relaunch-Branch auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: relaunch-v3
+          path: target
+
+      - name: Archiv rekonstruieren
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat target/.import/chunk-*.b64 | base64 -d > /tmp/stb-project.tar.xz
+          mkdir -p /tmp/unpack
+          tar -xJf /tmp/stb-project.tar.xz -C /tmp/unpack
+          test -f /tmp/unpack/stb-examenscampus/package.json
+
+      - name: Produktionsbuild prüfen
+        working-directory: /tmp/unpack/stb-examenscampus
+        run: |
+          npm ci
+          npm run build
+
+      - name: Finalen Stand nach relaunch-v3 schreiben
+        shell: bash
+        run: |
+          set -euo pipefail
+          rsync -a --delete --exclude='.git/' /tmp/unpack/stb-examenscampus/ target/
+          cd target
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Relaunch v3: neues Designsystem, 46 Module, 26 Schaubilder, Normenregister, Formelsammlung"
+          git push origin HEAD:relaunch-v3
