@@ -57,9 +57,15 @@ export default function App() {
     document.documentElement.dataset.theme = dunkel ? "dark" : "light";
     sichern("stb-dunkel", dunkel);
   }, [dunkel]);
-  useEffect(() => sichern("stb-erledigt", erledigt), [erledigt]);
-  useEffect(() => sichern("stb-plan", planFertig), [planFertig]);
-  useEffect(() => window.scrollTo({ top: 0, behavior: "auto" }), [ansicht, modulId]);
+  useEffect(() => {
+    sichern("stb-erledigt", erledigt);
+  }, [erledigt]);
+  useEffect(() => {
+    sichern("stb-plan", planFertig);
+  }, [planFertig]);
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, [ansicht, modulId]);
 
   const umschalten = (id) =>
     setErledigt((alt) => (alt.includes(id) ? alt.filter((x) => x !== id) : [...alt, id]));
