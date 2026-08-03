@@ -59,7 +59,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          rsync -a --delete --exclude='.git/' /tmp/unpack/stb-examenscampus/ target/
+          rsync -a --delete --exclude='.git/' --exclude='.github/workflows/' /tmp/unpack/stb-examenscampus/ target/
           cd target
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
