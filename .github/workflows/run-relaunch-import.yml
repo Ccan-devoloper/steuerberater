@@ -27,15 +27,25 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for datei in target/.import/chunk-[0-9][0-9].b64; do
-            printf '%s: ' "$(basename "$datei")"
-            wc -c < "$datei"
-            sha256sum "$datei"
+          mkdir -p /tmp/chunks /tmp/unpack
+          for nummer in 00 01 02 03 04 05 06; do
+            head -c 14000 "target/.import/chunk-${nummer}.b64" > "/tmp/chunks/chunk-${nummer}.b64"
           done
-          cat target/.import/chunk-[0-9][0-9].b64 \
-            | LC_ALL=C tr -cd 'A-Za-z0-9+/=' \
-            | base64 -d > /tmp/stb-project.tar.xz
-          mkdir -p /tmp/unpack
+          head -c 10008 target/.import/chunk-07.b64 > /tmp/chunks/chunk-07.b64
+
+          cat > /tmp/chunks/SHA256SUMS <<'SUMMEN'
+          3b124611f3f6254fa1c2c308bed0b89b6827b619c0465f06d0365b6bbd1a82a0  chunk-00.b64
+          07c1ebc17e213e97790c69361af133eb709e5e06daceb31bbcaa534adf7260a4  chunk-01.b64
+          fc818bd72a35440bf3fdf773edebedcb23cd1d9b682f811b2ef5277495fd3020  chunk-02.b64
+          d82178233d34ad8ea16549a20944b3ecf2cb837cde13bf489fc53b9511c174e7  chunk-03.b64
+          b2f5a4fbca6365c53544e8e6ea92d235c6870060e1c575d0ea5a67b46e2049dc  chunk-04.b64
+          7460539bdf3f30607bf347943aa744c0f8b0e8105701e13937349e79d6622aa7  chunk-05.b64
+          43e1fd6b0dee2a9d4f992ce4f7ce3495e3f9d910b363a71a73ca49acf6620347  chunk-06.b64
+          547c12eb08c5c8af0af1d41629fc46af03383533f03f300f4dda5e73c38caaa7  chunk-07.b64
+          SUMMEN
+          (cd /tmp/chunks && sha256sum -c SHA256SUMS)
+
+          cat /tmp/chunks/chunk-[0-9][0-9].b64 | base64 -d > /tmp/stb-project.tar.xz
           tar -xJf /tmp/stb-project.tar.xz -C /tmp/unpack
           test -f /tmp/unpack/stb-examenscampus/package.json
 
