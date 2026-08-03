@@ -1,1 +1,0 @@
-Import anhand der lokalen SHA-256-Prüfsummen erneut auslösen.
