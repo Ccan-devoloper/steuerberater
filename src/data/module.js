@@ -31,7 +31,7 @@ export const bereichName = {
    Normenregister: wird aus den normchain- und law-Feldern aller Module erzeugt.
    Sortiert nach Gesetz und Paragraf.
    --------------------------------------------------------------------------- */
-const gesetzReihenfolge = ["HGB", "EStG", "EStDV", "EStR", "EStH", "AO", "KStG", "UStG", "UStAE", "KStR", "BMF", "Sonstiges"];
+const gesetzReihenfolge = ["HGB", "EStG", "EStDV", "EStR", "EStH", "AO", "BewG", "KStG", "UStG", "UStAE", "KStR", "BMF", "Sonstiges"];
 
 function gesetzVon(norm) {
   const treffer = gesetzReihenfolge.find((g) => norm.includes(g));
