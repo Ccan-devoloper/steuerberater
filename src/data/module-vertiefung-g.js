@@ -29,7 +29,7 @@ export default [
       "§ 6b Abs. 1 S. 1 EStG", "§ 6b Abs. 2 EStG", "§ 6b Abs. 3 S. 1 EStG", "§ 6b Abs. 3 S. 3, 5 EStG", "§ 6b Abs. 4 S. 1 Nr. 2 EStG",
       "§ 5 Abs. 1 S. 1 Hs. 1 EStG", "§ 5 Abs. 1 S. 1 Hs. 2, S. 2, 3 EStG", "§ 252 Abs. 1 Nr. 4, 5 HGB",
       "§ 253 Abs. 3 S. 1, 2 HGB", "§ 7 Abs. 4 S. 1 Nr. 1 EStG", "§ 7 Abs. 1 S. 4 EStG",
-      "§ 274 Abs. 1 S. 1 HGB", "§ 274 Abs. 2 HGB",
+      "§ 274 Abs. 1 S. 1 HGB", "§ 274 Abs. 2 HGB", "§ 15a UStG",
     ],
     example: {
       title: "Lösung Fall I – Verkauf von Grund und Boden und Lagerhalle",
@@ -65,6 +65,7 @@ export default [
     exam: [
       "Veräußerungspreis und Veräußerungskosten müssen im selben Verhältnis auf Grund und Boden und Gebäude verteilt werden.",
       "Die § 6b-Rücklage ist ein steuerliches Wahlrecht; die Handelsbilanz zeigt stattdessen den vollen Gewinn und die passive latente Steuer.",
+      "Die Mitschrift weist zusätzlich auf eine Prüfung nach § 15a UStG hin; ein Berichtigungsbetrag wird dort nicht berechnet.",
     ],
     traps: [
       "Die Sechsjahresfrist des Grund und Bodens ungeprüft auf das Gebäude übertragen.",
