@@ -7,10 +7,11 @@ import vertiefungD from "./module-vertiefung-d";
 import vertiefungE from "./module-vertiefung-e";
 import vertiefungF from "./module-vertiefung-f";
 import vertiefungG from "./module-vertiefung-g";
+import vertiefungH from "./module-vertiefung-h";
 import faelle from "./modules-faelle"; // unveränderte Fallsammlung aus den Kursmitschriften
 
 /* Reihenfolge: erst Grundlagen und Vertiefung, dann die Originalfälle. */
-export const module = [...basisA, ...basisB, ...vertiefungA, ...vertiefungB, ...vertiefungC, ...vertiefungD, ...vertiefungE, ...vertiefungF, ...vertiefungG, ...faelle];
+export const module = [...basisA, ...basisB, ...vertiefungA, ...vertiefungB, ...vertiefungC, ...vertiefungD, ...vertiefungE, ...vertiefungF, ...vertiefungG, ...vertiefungH, ...faelle];
 
 export const bereiche = [
   { id: "alle", label: "Alle Module" },
