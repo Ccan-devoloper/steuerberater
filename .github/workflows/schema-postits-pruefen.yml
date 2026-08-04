@@ -1,0 +1,77 @@
+name: Schema-Paragraphen-Post-its prüfen
+
+on:
+  push:
+    branches:
+      - agent/schema-paragraphen-postits
+    paths:
+      - '.github/workflows/schema-postits-pruefen.yml'
+      - 'src/**'
+      - 'tools/schema-postits-einbauen.mjs'
+      - 'tools/pruefen-schema-postits.mjs'
+      - 'package.json'
+      - 'package-lock.json'
+
+permissions:
+  contents: write
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: agent/schema-paragraphen-postits
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Paragraphen-Post-its einbauen
+        run: node tools/schema-postits-einbauen.mjs
+      - name: Abhängigkeiten installieren
+        run: npm ci
+      - name: Fallsammlung prüfen
+        run: npm run check:fallsammlung
+      - name: Produktionsbuild
+        run: npm run build
+      - name: Chromium für Darstellungsprüfung installieren
+        run: |
+          npm install --no-save --package-lock=false playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Vorschau starten
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm run preview -- --host 127.0.0.1 --port 4173 > /tmp/schema-preview.log 2>&1 &
+          for versuch in $(seq 1 60); do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/schema-preview.log
+          exit 1
+      - name: Post-its mobil und am Desktop prüfen
+        run: node tools/pruefen-schema-postits.mjs
+      - name: Prüfbilder hochladen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: schema-paragraphen-postits
+          path: /tmp/schema-postits
+          if-no-files-found: ignore
+      - name: Geprüften Produktstand festschreiben
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/components/Pruefungsschemata.jsx src/index.css
+          if git diff --cached --quiet; then
+            echo "Keine Produktänderungen festzuschreiben."
+            exit 0
+          fi
+          git commit -m "Paragraphen in Prüfungsschemata als Post-its hervorheben"
+          git push origin HEAD:agent/schema-paragraphen-postits
