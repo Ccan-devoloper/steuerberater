@@ -1,0 +1,51 @@
+name: Fallsammlung inventarisieren
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/fallsammlung-inventar.yml'
+      - 'src/data/**'
+
+permissions:
+  contents: read
+
+jobs:
+  inventar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Lernmodule ausgeben
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          const dir = 'src/data';
+          const files = fs.readdirSync(dir)
+            .filter(f => /^module(?:-basis|-vertiefung).*\.js$/.test(f))
+            .sort();
+          const rows = [];
+          for (const file of files) {
+            const text = fs.readFileSync(path.join(dir, file), 'utf8');
+            const starts = [...text.matchAll(/\bid\s*:\s*(\d+)\s*,/g)];
+            for (let i = 0; i < starts.length; i++) {
+              const start = starts[i].index;
+              const end = i + 1 < starts.length ? starts[i + 1].index : text.length;
+              const block = text.slice(start, end);
+              const id = Number(starts[i][1]);
+              const area = block.match(/\barea\s*:\s*["']([^"']+)["']/)?.[1] || '';
+              const title = block.match(/\btitle\s*:\s*["']([^"']+)["']/)?.[1] || '';
+              const law = block.match(/\blaw\s*:\s*["']([^"']+)["']/)?.[1] || '';
+              if (title) rows.push({ id, area, title, law, file });
+            }
+          }
+          rows.sort((a,b) => a.id-b.id);
+          console.log('MODULINVENTAR_JSON_BEGIN');
+          console.log(JSON.stringify(rows, null, 2));
+          console.log('MODULINVENTAR_JSON_END');
+          console.log(`Anzahl Lernmodule: ${rows.length}`);
+          NODE
