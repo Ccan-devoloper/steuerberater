@@ -1,5 +1,5 @@
 .hausaufgaben-aktiv > :not(.hausaufgaben-view) { display: none !important; }
-.hausaufgaben-nav { order: 4; }
+.hausaufgaben-nav-host { display: contents; }
 .hausaufgaben-view { display: block; }
 .hausaufgaben-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; margin-bottom: 1.5rem; }
 .hausaufgaben-head h1 { margin: .25rem 0 .5rem; }
