@@ -14,17 +14,27 @@ const GESETZ_ABKUERZUNGEN = [
   "BGB",
   "UmwStG",
   "KStR",
-  "EStR",
   "BewG",
   "AStG",
   "InvStG",
   "ErbStG",
 ];
+
 const GESETZE = `(?:${GESETZ_ABKUERZUNGEN.join("|")})`;
-const NORM_QUELLE = `§{1,2}\\s*[^;\\n!?]*?\\b${GESETZE}\\b`;
+const GESETZ_NORM_QUELLE = `§{1,2}\\s*[^;\\n!?]*?\\b${GESETZE}\\b`;
+const ESTR_EXPLIZIT_QUELLE = `\\bR\\s*\\d+[a-z]?(?:\\.\\d+)?[^;()]*?\\s*EStR\\b`;
+const ESTR_IMPLIZIT_QUELLE = `\\bR\\s*\\d+[a-z]?(?:\\.\\d+)?(?=\\s*(?:[,;)]|$))`;
+const QUELLEN_QUELLE = `${ESTR_EXPLIZIT_QUELLE}|${ESTR_IMPLIZIT_QUELLE}|${GESETZ_NORM_QUELLE}`;
 const GESETZ_AM_ENDE = new RegExp(`\\b(${GESETZE})\\b\\s*$`);
 const EXPLIZITER_PARAGRAPH = /§{1,2}\s*(\d+[a-z]*)/gi;
 const IMPLIZITER_PARAGRAPH = /,\s*(\d+[a-z]*)(?=\s+(?:Abs\.|S\.|Nr\.))/gi;
+const ESTR_NUMMER = /\bR\s*(\d+[a-z]?(?:\.\d+)?)/i;
+const ESTR_BASIS = "https://esth.bundesfinanzministerium.de/esth/2025/A-Einkommensteuergesetz/II-Einkommen-2-24b/3-Gewinn-4-7i";
+const ESTR_ZIELE = {
+  4: `${ESTR_BASIS}/Paragraf-4/paragraf-4.html`,
+  5: `${ESTR_BASIS}/Paragraf-5/paragraph-5.html`,
+  6: `${ESTR_BASIS}/Paragraf-6/inhalt.html`,
+};
 
 function tonAusTitel(titel) {
   if (/^ansatz\s*:/i.test(titel)) return "ansatz";
@@ -37,21 +47,60 @@ function dejureUrl(gesetz, paragraph) {
   return `https://dejure.org/gesetze/${encodeURIComponent(gesetz)}/${encodeURIComponent(paragraph)}.html`;
 }
 
-function inlinePostitErstellen(text, ton, gesetz, paragraph) {
-  const postit = document.createElement("a");
-  const normbezeichnung = `${text.trim()}${new RegExp(`\\b${gesetz}\\b`).test(text) ? "" : ` ${gesetz}`}`;
+function estrUrl(richtlinie) {
+  const hauptnummer = richtlinie.match(/^\d+/)?.[0];
+  return ESTR_ZIELE[hauptnummer] || `${ESTR_BASIS}/inhalt.html`;
+}
 
-  postit.className = `schema-norm-postit schema-norm-postit--${ton}`;
+function postitErstellen({ text, bezeichnung = text, ton, quelle, href, zielname, referenz }) {
+  const postit = document.createElement("a");
+  const istHgb = quelle === "HGB";
+  const klassen = [
+    "schema-norm-postit",
+    `schema-norm-postit--${ton}`,
+    istHgb ? "schema-norm-postit--hgb" : "schema-norm-postit--nicht-hgb",
+  ];
+
+  postit.className = klassen.join(" ");
   postit.dataset.schemaNormPostit = "";
-  postit.dataset.dejureGesetz = gesetz;
-  postit.dataset.dejureParagraph = paragraph;
-  postit.href = dejureUrl(gesetz, paragraph);
+  postit.dataset.schemaQuelle = quelle;
+  postit.dataset.schemaReferenz = referenz;
+  postit.href = href;
   postit.target = "_blank";
   postit.rel = "noopener noreferrer";
-  postit.title = `${normbezeichnung} auf dejure.org öffnen`;
-  postit.setAttribute("aria-label", `${normbezeichnung} auf dejure.org in einem neuen Tab öffnen`);
+  postit.title = `${bezeichnung.trim()} ${zielname} öffnen`;
+  postit.setAttribute("aria-label", `${bezeichnung.trim()} ${zielname} in einem neuen Tab öffnen`);
   postit.textContent = text;
   return postit;
+}
+
+function gesetzPostitErstellen(text, ton, gesetz, paragraph) {
+  const normbezeichnung = `${text.trim()}${new RegExp(`\\b${gesetz}\\b`).test(text) ? "" : ` ${gesetz}`}`;
+  return postitErstellen({
+    text,
+    bezeichnung: normbezeichnung,
+    ton,
+    quelle: gesetz,
+    href: dejureUrl(gesetz, paragraph),
+    zielname: "auf dejure.org",
+    referenz: `${gesetz}/${paragraph}`,
+  });
+}
+
+function estrPostitErstellen(text, ton) {
+  const richtlinie = text.match(ESTR_NUMMER)?.[1];
+  if (!richtlinie) return document.createTextNode(text);
+
+  const bezeichnung = /\bEStR\b/.test(text) ? text : `${text} EStR`;
+  return postitErstellen({
+    text,
+    bezeichnung,
+    ton,
+    quelle: "EStR",
+    href: estrUrl(richtlinie),
+    zielname: "im amtlichen EStH 2025",
+    referenz: `EStR/R ${richtlinie}`,
+  });
 }
 
 function paragraphStarts(zitat) {
@@ -74,7 +123,7 @@ function paragraphStarts(zitat) {
   return starts.sort((a, b) => a.index - b.index);
 }
 
-function normgruppeErstellen(normgruppe, ton) {
+function gesetzNormgruppeErstellen(normgruppe, ton) {
   const gesetzTreffer = normgruppe.match(GESETZ_AM_ENDE);
   const ersterParagraph = normgruppe.match(/§{1,2}\s*(\d+[a-z]*)/i)?.[1];
 
@@ -88,7 +137,7 @@ function normgruppeErstellen(normgruppe, ton) {
   const starts = paragraphStarts(zitat);
 
   if (starts.length <= 1) {
-    return inlinePostitErstellen(normgruppe, ton, gesetz, ersterParagraph);
+    return gesetzPostitErstellen(normgruppe, ton, gesetz, ersterParagraph);
   }
 
   const fragment = document.createDocumentFragment();
@@ -108,16 +157,23 @@ function normgruppeErstellen(normgruppe, ton) {
       segment += normgruppe.slice(gesetzIndex);
     }
 
-    fragment.append(inlinePostitErstellen(segment, ton, gesetz, start.paragraph));
+    fragment.append(gesetzPostitErstellen(segment, ton, gesetz, start.paragraph));
     if (trenner) fragment.append(document.createTextNode(trenner));
   });
 
   return fragment;
 }
 
+function quelleErstellen(quelle, ton) {
+  if (ESTR_NUMMER.test(quelle)) {
+    return estrPostitErstellen(quelle, ton);
+  }
+  return gesetzNormgruppeErstellen(quelle, ton);
+}
+
 function textknotenErsetzen(textknoten, ton) {
   const text = textknoten.nodeValue || "";
-  const muster = new RegExp(NORM_QUELLE, "g");
+  const muster = new RegExp(QUELLEN_QUELLE, "g");
   const fragment = document.createDocumentFragment();
   let letzterIndex = 0;
   let treffer;
@@ -128,7 +184,7 @@ function textknotenErsetzen(textknoten, ton) {
     if (treffer.index > letzterIndex) {
       fragment.append(document.createTextNode(text.slice(letzterIndex, treffer.index)));
     }
-    fragment.append(normgruppeErstellen(treffer[0], ton));
+    fragment.append(quelleErstellen(treffer[0], ton));
     letzterIndex = muster.lastIndex;
   }
 
@@ -158,8 +214,10 @@ function blockAktualisieren(block) {
     acceptNode(knoten) {
       const text = knoten.nodeValue || "";
       const parent = knoten.parentElement;
-      if (!parent || !text.includes("§")) return NodeFilter.FILTER_REJECT;
-      if (parent.closest("h3, [data-schema-norm-postit], [data-schema-postits]")) {
+      if (!parent || (!text.includes("§") && !/\bR\s*\d/.test(text))) {
+        return NodeFilter.FILTER_REJECT;
+      }
+      if (parent.closest("a, h3, [data-schema-norm-postit], [data-schema-postits]")) {
         return NodeFilter.FILTER_REJECT;
       }
       return NodeFilter.FILTER_ACCEPT;
