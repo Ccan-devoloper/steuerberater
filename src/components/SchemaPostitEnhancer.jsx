@@ -1,8 +1,30 @@
 import { useEffect } from "react";
 import "./SchemaPostitEnhancer.css";
 
-const GESETZE = "(?:HGB|EStG|AO|EStDV|KStG|UStG|GewStG|GmbHG|AktG|BGB|UmwStG|KStR|EStR|BewG|AStG|InvStG|ErbStG)";
+const GESETZ_ABKUERZUNGEN = [
+  "HGB",
+  "EStG",
+  "AO",
+  "EStDV",
+  "KStG",
+  "UStG",
+  "GewStG",
+  "GmbHG",
+  "AktG",
+  "BGB",
+  "UmwStG",
+  "KStR",
+  "EStR",
+  "BewG",
+  "AStG",
+  "InvStG",
+  "ErbStG",
+];
+const GESETZE = `(?:${GESETZ_ABKUERZUNGEN.join("|")})`;
 const NORM_QUELLE = `§{1,2}\\s*[^;\\n!?]*?\\b${GESETZE}\\b`;
+const GESETZ_AM_ENDE = new RegExp(`\\b(${GESETZE})\\b\\s*$`);
+const EXPLIZITER_PARAGRAPH = /§{1,2}\s*(\d+[a-z]*)/gi;
+const IMPLIZITER_PARAGRAPH = /,\s*(\d+[a-z]*)(?=\s+(?:Abs\.|S\.|Nr\.))/gi;
 
 function tonAusTitel(titel) {
   if (/^ansatz\s*:/i.test(titel)) return "ansatz";
@@ -11,12 +33,86 @@ function tonAusTitel(titel) {
   return null;
 }
 
-function inlinePostitErstellen(norm, ton) {
-  const postit = document.createElement("span");
+function dejureUrl(gesetz, paragraph) {
+  return `https://dejure.org/gesetze/${encodeURIComponent(gesetz)}/${encodeURIComponent(paragraph)}.html`;
+}
+
+function inlinePostitErstellen(text, ton, gesetz, paragraph) {
+  const postit = document.createElement("a");
+  const normbezeichnung = `${text.trim()}${new RegExp(`\\b${gesetz}\\b`).test(text) ? "" : ` ${gesetz}`}`;
+
   postit.className = `schema-norm-postit schema-norm-postit--${ton}`;
   postit.dataset.schemaNormPostit = "";
-  postit.textContent = norm;
+  postit.dataset.dejureGesetz = gesetz;
+  postit.dataset.dejureParagraph = paragraph;
+  postit.href = dejureUrl(gesetz, paragraph);
+  postit.target = "_blank";
+  postit.rel = "noopener noreferrer";
+  postit.title = `${normbezeichnung} auf dejure.org öffnen`;
+  postit.setAttribute("aria-label", `${normbezeichnung} auf dejure.org in einem neuen Tab öffnen`);
+  postit.textContent = text;
   return postit;
+}
+
+function paragraphStarts(zitat) {
+  const starts = [];
+  let treffer;
+
+  EXPLIZITER_PARAGRAPH.lastIndex = 0;
+  while ((treffer = EXPLIZITER_PARAGRAPH.exec(zitat)) !== null) {
+    starts.push({ index: treffer.index, paragraph: treffer[1] });
+  }
+
+  IMPLIZITER_PARAGRAPH.lastIndex = 0;
+  while ((treffer = IMPLIZITER_PARAGRAPH.exec(zitat)) !== null) {
+    const index = treffer.index + treffer[0].lastIndexOf(treffer[1]);
+    if (!starts.some((start) => start.index === index)) {
+      starts.push({ index, paragraph: treffer[1] });
+    }
+  }
+
+  return starts.sort((a, b) => a.index - b.index);
+}
+
+function normgruppeErstellen(normgruppe, ton) {
+  const gesetzTreffer = normgruppe.match(GESETZ_AM_ENDE);
+  const ersterParagraph = normgruppe.match(/§{1,2}\s*(\d+[a-z]*)/i)?.[1];
+
+  if (!gesetzTreffer || !ersterParagraph) {
+    return document.createTextNode(normgruppe);
+  }
+
+  const gesetz = gesetzTreffer[1];
+  const gesetzIndex = gesetzTreffer.index;
+  const zitat = normgruppe.slice(0, gesetzIndex);
+  const starts = paragraphStarts(zitat);
+
+  if (starts.length <= 1) {
+    return inlinePostitErstellen(normgruppe, ton, gesetz, ersterParagraph);
+  }
+
+  const fragment = document.createDocumentFragment();
+
+  starts.forEach((start, index) => {
+    const naechsterStart = starts[index + 1]?.index ?? zitat.length;
+    let segment = zitat.slice(start.index, naechsterStart);
+    let trenner = "";
+
+    if (index < starts.length - 1) {
+      const trennerTreffer = segment.match(/([,\/]\s*)$/);
+      if (trennerTreffer) {
+        trenner = trennerTreffer[1];
+        segment = segment.slice(0, -trenner.length);
+      }
+    } else {
+      segment += normgruppe.slice(gesetzIndex);
+    }
+
+    fragment.append(inlinePostitErstellen(segment, ton, gesetz, start.paragraph));
+    if (trenner) fragment.append(document.createTextNode(trenner));
+  });
+
+  return fragment;
 }
 
 function textknotenErsetzen(textknoten, ton) {
@@ -32,7 +128,7 @@ function textknotenErsetzen(textknoten, ton) {
     if (treffer.index > letzterIndex) {
       fragment.append(document.createTextNode(text.slice(letzterIndex, treffer.index)));
     }
-    fragment.append(inlinePostitErstellen(treffer[0], ton));
+    fragment.append(normgruppeErstellen(treffer[0], ton));
     letzterIndex = muster.lastIndex;
   }
 
