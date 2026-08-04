@@ -52,3 +52,28 @@ jobs:
           console.log(`Anzahl fachliche Lernmodule: ${lernmodule.length}`);
           console.log(`Anzahl vorhandene Fallmodule: ${rows.length - lernmodule.length}`);
           NODE
+      - name: Quellfälle ausgeben
+        shell: bash
+        run: |
+          node <<'NODE'
+          const base = 'https://raw.githubusercontent.com/Ccan-devoloper/steuernorm/main/faelle';
+          const index = await (await fetch(`${base}/index.json`)).json();
+          const out = [];
+          for (const meta of index.module) {
+            const data = await (await fetch(`https://raw.githubusercontent.com/Ccan-devoloper/steuernorm/main/${meta.datei}`)).json();
+            for (const fall of data.faelle || []) {
+              out.push({
+                id: fall.id,
+                titel: fall.titel,
+                quellmodul_id: meta.id,
+                quellmodul: meta.titel,
+                fall_seite: fall.quelle?.fall_seite ?? null,
+                loesung_seite: fall.quelle?.loesung_seite ?? null
+              });
+            }
+          }
+          console.log('QUELLFAELLE_JSON_BEGIN');
+          console.log(JSON.stringify(out, null, 2));
+          console.log('QUELLFAELLE_JSON_END');
+          console.log(`Anzahl Quellfälle: ${out.length}`);
+          NODE
