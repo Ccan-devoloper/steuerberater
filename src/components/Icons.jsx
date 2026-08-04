@@ -4,6 +4,7 @@ const b = { width: 18, height: 18, viewBox: "0 0 24 24", fill: "none", stroke: "
 
 export const IconCockpit = () => <svg {...b}><path d="M4 12h5v8H4zM10 4h4v16h-4zM15 9h5v11h-5z" /></svg>;
 export const IconModule = () => <svg {...b}><path d="M4 6h16M4 11h16M4 16h11M4 21h11" /></svg>;
+export const IconFaelle = () => <svg {...b}><path d="M6 3h12v18H6zM9 7h6M9 11h6M9 15h4" /><path d="M3 6v15h12" /></svg>;
 export const IconSchema = () => <svg {...b}><rect x="9" y="3" width="6" height="4.5" /><rect x="2.5" y="16.5" width="6" height="4.5" /><rect x="15.5" y="16.5" width="6" height="4.5" /><path d="M12 7.5v4M5.5 16.5V11.5h13v5" /></svg>;
 export const IconFormel = () => <svg {...b}><path d="M5 6h9M5 6c3 4 3 8 0 12M14 10l6 8M20 10l-6 8" /></svg>;
 export const IconRegister = () => <svg {...b}><path d="M5 3h11l3 3v15H5zM8 8h8M8 12h8M8 16h5" /></svg>;
