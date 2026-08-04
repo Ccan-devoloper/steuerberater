@@ -1,0 +1,1 @@
+Abnahmekriterien: genau 90 importierte Fälle, eindeutige IDs, jeder eingebundene Fall genau einem Lernmodul zugeordnet, offene Fälle separat, Sachverhalt und Lösung nicht leer, Produktionsbuild erfolgreich.
