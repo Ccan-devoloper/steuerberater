@@ -15,10 +15,28 @@
   font-size: .88em;
   font-weight: 500;
   line-height: 1.65;
+  text-decoration: none;
   white-space: normal;
   overflow-wrap: anywhere;
+  cursor: pointer;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+  transition: box-shadow 120ms ease, filter 120ms ease;
+}
+
+.schema-norm-postit:visited {
+  color: var(--ink);
+}
+
+.schema-norm-postit:hover {
+  color: var(--ink);
+  filter: saturate(1.08) brightness(.99);
+  box-shadow: 0 .25em .55em color-mix(in srgb, var(--ink) 17%, transparent);
+}
+
+.schema-norm-postit:focus-visible {
+  outline: 2px solid var(--postit-rand);
+  outline-offset: 3px;
 }
 
 .schema-norm-postit--ansatz {
