@@ -75,3 +75,5 @@ jobs:
           fi
           git commit -m "Paragraphen in Prüfungsschemata als Post-its hervorheben"
           git push origin HEAD:agent/schema-paragraphen-postits
+
+# Zweiter Push nach Anlage des Workflows löst die Prüfung zuverlässig aus.
