@@ -52,7 +52,7 @@ function estrUrl(richtlinie) {
   return ESTR_ZIELE[hauptnummer] || `${ESTR_BASIS}/inhalt.html`;
 }
 
-function postitErstellen({ text, ton, quelle, href, zielname, referenz }) {
+function postitErstellen({ text, bezeichnung = text, ton, quelle, href, zielname, referenz }) {
   const postit = document.createElement("a");
   const istHgb = quelle === "HGB";
   const klassen = [
@@ -68,8 +68,8 @@ function postitErstellen({ text, ton, quelle, href, zielname, referenz }) {
   postit.href = href;
   postit.target = "_blank";
   postit.rel = "noopener noreferrer";
-  postit.title = `${text.trim()} ${zielname} öffnen`;
-  postit.setAttribute("aria-label", `${text.trim()} ${zielname} in einem neuen Tab öffnen`);
+  postit.title = `${bezeichnung.trim()} ${zielname} öffnen`;
+  postit.setAttribute("aria-label", `${bezeichnung.trim()} ${zielname} in einem neuen Tab öffnen`);
   postit.textContent = text;
   return postit;
 }
@@ -78,12 +78,12 @@ function gesetzPostitErstellen(text, ton, gesetz, paragraph) {
   const normbezeichnung = `${text.trim()}${new RegExp(`\\b${gesetz}\\b`).test(text) ? "" : ` ${gesetz}`}`;
   return postitErstellen({
     text,
+    bezeichnung: normbezeichnung,
     ton,
     quelle: gesetz,
     href: dejureUrl(gesetz, paragraph),
     zielname: "auf dejure.org",
     referenz: `${gesetz}/${paragraph}`,
-    normbezeichnung,
   });
 }
 
@@ -91,9 +91,10 @@ function estrPostitErstellen(text, ton) {
   const richtlinie = text.match(ESTR_NUMMER)?.[1];
   if (!richtlinie) return document.createTextNode(text);
 
-  const anzeige = /\bEStR\b/.test(text) ? text : `${text} EStR`;
+  const bezeichnung = /\bEStR\b/.test(text) ? text : `${text} EStR`;
   return postitErstellen({
-    text: anzeige,
+    text,
+    bezeichnung,
     ton,
     quelle: "EStR",
     href: estrUrl(richtlinie),
@@ -165,10 +166,8 @@ function gesetzNormgruppeErstellen(normgruppe, ton) {
 
 function quelleErstellen(quelle, ton) {
   if (ESTR_NUMMER.test(quelle)) {
-    ESTR_NUMMER.lastIndex = 0;
     return estrPostitErstellen(quelle, ton);
   }
-  ESTR_NUMMER.lastIndex = 0;
   return gesetzNormgruppeErstellen(quelle, ton);
 }
 
