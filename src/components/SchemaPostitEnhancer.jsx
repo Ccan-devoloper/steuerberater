@@ -2,13 +2,7 @@ import { useEffect } from "react";
 import "./SchemaPostitEnhancer.css";
 
 const GESETZE = "(?:HGB|EStG|AO|EStDV|KStG|UStG|GewStG|GmbHG|AktG|BGB|UmwStG|KStR|EStR|BewG|AStG|InvStG|ErbStG)";
-const NORM_MUSTER = new RegExp(`§{1,2}\\s*[^;\\n!?]*?\\b${GESETZE}\\b`, "g");
-
-const POSTIT_TITEL = {
-  ansatz: "Paragraphen zum Ansatz",
-  bewertung: "Paragraphen zur Bewertung",
-  ausserbilanz: "Paragraphen außerhalb der Bilanz",
-};
+const NORM_QUELLE = `§{1,2}\\s*[^;\\n!?]*?\\b${GESETZE}\\b`;
 
 function tonAusTitel(titel) {
   if (/^ansatz\s*:/i.test(titel)) return "ansatz";
@@ -17,50 +11,72 @@ function tonAusTitel(titel) {
   return null;
 }
 
-function paragraphenAusText(text) {
-  NORM_MUSTER.lastIndex = 0;
-  const treffer = text.match(NORM_MUSTER) || [];
-  return [...new Set(treffer.map((norm) => norm.replace(/\s+/g, " ").trim()))];
+function inlinePostitErstellen(norm, ton) {
+  const postit = document.createElement("span");
+  postit.className = `schema-norm-postit schema-norm-postit--${ton}`;
+  postit.dataset.schemaNormPostit = "";
+  postit.textContent = norm;
+  return postit;
 }
 
-function postitBereichErstellen(ton, paragraphen) {
-  const aside = document.createElement("aside");
-  aside.className = `schema-postits schema-postits--${ton}`;
-  aside.dataset.schemaPostits = "";
-  aside.setAttribute("aria-label", POSTIT_TITEL[ton]);
+function textknotenErsetzen(textknoten, ton) {
+  const text = textknoten.nodeValue || "";
+  const muster = new RegExp(NORM_QUELLE, "g");
+  const fragment = document.createDocumentFragment();
+  let letzterIndex = 0;
+  let treffer;
+  let gefunden = false;
 
-  const titel = document.createElement("span");
-  titel.className = "schema-postits__titel";
-  titel.textContent = POSTIT_TITEL[ton];
-  aside.append(titel);
+  while ((treffer = muster.exec(text)) !== null) {
+    gefunden = true;
+    if (treffer.index > letzterIndex) {
+      fragment.append(document.createTextNode(text.slice(letzterIndex, treffer.index)));
+    }
+    fragment.append(inlinePostitErstellen(treffer[0], ton));
+    letzterIndex = muster.lastIndex;
+  }
 
-  const liste = document.createElement("div");
-  liste.className = "schema-postits__liste";
+  if (!gefunden) return;
+  if (letzterIndex < text.length) {
+    fragment.append(document.createTextNode(text.slice(letzterIndex)));
+  }
+  textknoten.replaceWith(fragment);
+}
 
-  paragraphen.forEach((norm) => {
-    const postit = document.createElement("span");
-    postit.className = "schema-postit";
-    postit.textContent = norm;
-    liste.append(postit);
+function blockZuruecksetzen(block) {
+  block.querySelectorAll("[data-schema-postits]").forEach((element) => element.remove());
+  block.querySelectorAll("[data-schema-norm-postit]").forEach((postit) => {
+    postit.replaceWith(document.createTextNode(postit.textContent || ""));
+  });
+  block.normalize();
+}
+
+function blockAktualisieren(block) {
+  const ueberschrift = block.querySelector(":scope > h3");
+  const ton = tonAusTitel(ueberschrift?.textContent?.trim() || "");
+
+  blockZuruecksetzen(block);
+  if (!ton) return;
+
+  const walker = document.createTreeWalker(block, NodeFilter.SHOW_TEXT, {
+    acceptNode(knoten) {
+      const text = knoten.nodeValue || "";
+      const parent = knoten.parentElement;
+      if (!parent || !text.includes("§")) return NodeFilter.FILTER_REJECT;
+      if (parent.closest("h3, [data-schema-norm-postit], [data-schema-postits]")) {
+        return NodeFilter.FILTER_REJECT;
+      }
+      return NodeFilter.FILTER_ACCEPT;
+    },
   });
 
-  aside.append(liste);
-  return aside;
+  const textknoten = [];
+  while (walker.nextNode()) textknoten.push(walker.currentNode);
+  textknoten.forEach((knoten) => textknotenErsetzen(knoten, ton));
 }
 
 function schemaBloeckeAktualisieren(root) {
-  root.querySelectorAll("[data-schema-postits]").forEach((element) => element.remove());
-
-  root.querySelectorAll("article.panel > div > section").forEach((block) => {
-    const ueberschrift = block.querySelector(":scope > h3");
-    const ton = tonAusTitel(ueberschrift?.textContent?.trim() || "");
-    if (!ton || !ueberschrift) return;
-
-    const paragraphen = paragraphenAusText(block.textContent || "");
-    if (paragraphen.length === 0) return;
-
-    ueberschrift.insertAdjacentElement("afterend", postitBereichErstellen(ton, paragraphen));
-  });
+  root.querySelectorAll("article.panel > div > section").forEach(blockAktualisieren);
 }
 
 export default function SchemaPostitEnhancer({ root }) {
@@ -86,7 +102,11 @@ export default function SchemaPostitEnhancer({ root }) {
     return () => {
       cancelAnimationFrame(frame);
       observer.disconnect();
+      root.querySelectorAll("[data-schema-norm-postit]").forEach((postit) => {
+        postit.replaceWith(document.createTextNode(postit.textContent || ""));
+      });
       root.querySelectorAll("[data-schema-postits]").forEach((element) => element.remove());
+      root.normalize();
     };
   }, [root]);
 
