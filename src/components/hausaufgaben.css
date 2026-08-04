@@ -1,0 +1,38 @@
+.hausaufgaben-aktiv > :not(.hausaufgaben-view) { display: none !important; }
+.hausaufgaben-nav { order: 4; }
+.hausaufgaben-view { display: block; }
+.hausaufgaben-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; margin-bottom: 1.5rem; }
+.hausaufgaben-head h1 { margin: .25rem 0 .5rem; }
+.hausaufgaben-tools { display: grid; grid-template-columns: minmax(220px, 1fr) minmax(190px, 280px) auto; gap: .75rem; align-items: center; margin-bottom: 1.5rem; }
+.hausaufgaben-tools input, .hausaufgaben-tools select { width: 100%; border: 1px solid var(--line); border-radius: .7rem; background: var(--panel); color: var(--text); padding: .8rem .9rem; font: inherit; }
+.hausaufgaben-tools > span { color: var(--muted); white-space: nowrap; }
+.hausaufgaben-list { display: grid; gap: 1.25rem; }
+.hausaufgabe { scroll-margin-top: 8rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--panel); padding: 1.4rem; box-shadow: var(--shadow); }
+.hausaufgabe__kopf { display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; border-bottom: 1px solid var(--line); padding-bottom: 1rem; }
+.hausaufgabe__kopf h2 { margin: .25rem 0 .35rem; }
+.hausaufgabe__kopf p { margin: 0; color: var(--muted); }
+.hausaufgabe__nummer { width: 3rem; height: 3rem; flex: 0 0 3rem; display: grid; place-items: center; border-radius: 50%; background: var(--accent); color: white; font-weight: 800; font-size: 1.2rem; }
+.hausaufgabe__module { margin: 1rem 0; padding: 1rem; border-radius: .8rem; background: var(--soft); }
+.hausaufgabe__module > b { display: block; margin-bottom: .6rem; }
+.hausaufgabe__links { display: flex; flex-wrap: wrap; gap: .5rem; }
+.hausaufgabe__links button, .hausaufgaben-modulbox button { border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--text); padding: .55rem .8rem; text-align: left; cursor: pointer; }
+.hausaufgabe__links button:hover, .hausaufgaben-modulbox button:hover { border-color: var(--accent); color: var(--accent); }
+.hausaufgabe__chips { display: flex; flex-wrap: wrap; gap: .45rem; margin: 1rem 0; }
+.hausaufgabe__chips span, .hausaufgabe__normen span { display: inline-flex; border-radius: 999px; background: var(--soft); color: var(--text); padding: .35rem .65rem; font-size: .88rem; }
+.hausaufgabe__spalten { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.hausaufgabe__spalten h3 { margin-bottom: .55rem; }
+.hausaufgabe__spalten ul { margin: 0; padding-left: 1.15rem; }
+.hausaufgabe__spalten li + li { margin-top: .55rem; }
+.hausaufgabe details { border-top: 1px solid var(--line); margin-top: 1rem; padding-top: 1rem; }
+.hausaufgabe summary { cursor: pointer; font-weight: 700; }
+.hausaufgabe__normen { display: flex; flex-wrap: wrap; gap: .45rem; margin: .9rem 0; }
+.hausaufgabe__anker { margin-top: 1rem; border: 0; background: none; color: var(--accent); padding: 0; cursor: pointer; font-weight: 700; }
+.hausaufgaben-modulbox { border: 1px solid var(--line); border-radius: 1rem; background: var(--panel); padding: 1.25rem; margin: 1.5rem 0; }
+.hausaufgaben-modulbox h2 { margin: .25rem 0 .8rem; }
+.hausaufgaben-modulbox > div { display: flex; flex-wrap: wrap; gap: .55rem; }
+@media (max-width: 850px) {
+  .hausaufgaben-head { display: block; }
+  .hausaufgaben-head .btn { margin-top: 1rem; }
+  .hausaufgaben-tools { grid-template-columns: 1fr; }
+  .hausaufgabe__spalten { grid-template-columns: 1fr; }
+}
