@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./SchemaPostitEnhancer.css";
 
 const GESETZE = "(?:HGB|EStG|AO|EStDV|KStG|UStG|GewStG|GmbHG|AktG|BGB|UmwStG|KStR|EStR|BewG|AStG|InvStG|ErbStG)";
-const NORM_MUSTER = new RegExp(`§{1,2}\\s*[^;\\n.!?]*?\\b${GESETZE}\\b`, "g");
+const NORM_MUSTER = new RegExp(`§{1,2}\\s*[^;\\n!?]*?\\b${GESETZE}\\b`, "g");
 
 const POSTIT_TITEL = {
   ansatz: "Paragraphen zum Ansatz",
@@ -18,6 +18,7 @@ function tonAusTitel(titel) {
 }
 
 function paragraphenAusText(text) {
+  NORM_MUSTER.lastIndex = 0;
   const treffer = text.match(NORM_MUSTER) || [];
   return [...new Set(treffer.map((norm) => norm.replace(/\s+/g, " ").trim()))];
 }
