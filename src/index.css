@@ -470,3 +470,27 @@ html[data-theme="dark"] .these p { color: var(--ink-weich); }
 .fallsammlung__loesungsinhalt { padding: 4px 20px 22px; }
 .fallsammlung__fall footer { padding: 10px 20px; border-top: 1px solid var(--linie-fein); color: var(--ink-weich); font-family: var(--mono); font-size: .72rem; }
 @media (max-width: 640px) { .fallsammlung__kopf { display: block; } .fallsammlung__kopf code { display: inline-block; margin-top: 10px; } }
+
+
+/* Fallübersicht · zentrale Navigation */
+.falluebersicht__steuerung { display: grid; grid-template-columns: minmax(260px, 1fr) auto; gap: 18px; align-items: end; padding: 18px; border: 1px solid var(--linie); background: var(--papier); }
+.falluebersicht__suche { display: grid; gap: 6px; }
+.falluebersicht__suche span { font-family: var(--mono); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-weich); }
+.falluebersicht__suche input { width: 100%; min-height: 42px; padding: 8px 12px; border: 1px solid var(--linie); background: var(--feld); color: var(--ink); }
+.falluebersicht__filter { display: flex; gap: 7px; flex-wrap: wrap; justify-content: flex-end; }
+.falluebersicht__filter button { min-height: 42px; padding: 8px 12px; border: 1px solid var(--linie); background: var(--papier); cursor: pointer; }
+.falluebersicht__filter button[aria-pressed="true"] { border-color: var(--tinte); background: var(--tinte-feld); color: var(--tinte-dunkel); font-weight: 700; }
+.falluebersicht__treffer { margin: 14px 0 0; color: var(--ink-weich); font-family: var(--mono); font-size: 12px; }
+.falluebersicht__leer { margin-top: 22px; }
+.fallsammlung__verknuepfung { padding: 12px 20px; border-bottom: 1px solid var(--linie-fein); background: var(--feld); }
+.fallsammlung__modullink { width: 100%; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 10px 12px; border: 1px solid var(--tinte); background: var(--papier); color: var(--tinte-dunkel); text-align: left; cursor: pointer; }
+.fallsammlung__modullink span { font-family: var(--mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-weich); }
+.fallsammlung__modullink strong { overflow-wrap: anywhere; }
+.fallsammlung__modullink:hover { background: var(--tinte-feld); }
+.fallsammlung__ohne-modul { display: inline-block; padding: 7px 10px; border-left: 3px solid var(--orange); background: var(--orange-feld); color: var(--orange); font-weight: 700; }
+@media (max-width: 760px) {
+  .falluebersicht__steuerung { grid-template-columns: 1fr; }
+  .falluebersicht__filter { justify-content: flex-start; }
+  .fallsammlung__modullink { grid-template-columns: 1fr auto; }
+  .fallsammlung__modullink span { grid-column: 1 / -1; }
+}

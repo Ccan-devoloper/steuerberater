@@ -1,13 +1,16 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { module as alleModule, bereiche, bereichName, normenregister } from "./data/module";
+import { zugeordneteFaelle } from "./data/fallsammlung";
+import offeneFaelle from "./data/faelle-offen";
 import { sourceCatalog, researchNote } from "./data/sources";
 import { formeln, karteikarten, quizfragen, wochenplan, glossar } from "./data/lernstoff";
 import Schaubild from "./components/Schaubild";
 import Fallsammlungsfaelle from "./components/Fallsammlungsfaelle";
+import Falluebersicht from "./components/Falluebersicht";
 import { Norm, Normkette, Notiz, Buchungssatz, Bilanzspiegel } from "./components/Bausteine";
 import {
   IconCockpit, IconModule, IconSchema, IconFormel, IconRegister, IconTraining,
-  IconPlan, IconSuche, IconSonne, IconMond, IconHaken,
+  IconFaelle, IconPlan, IconSuche, IconSonne, IconMond, IconHaken,
 } from "./components/Icons";
 
 /* -------------------------------------------------------------- Speicher */
@@ -30,6 +33,7 @@ const sichern = (schluessel, wert) => {
 const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Lernmodule", Icon: IconModule },
+  { id: "faelle", label: "Fälle", Icon: IconFaelle },
   { id: "schema", label: "Prüfungsschema", Icon: IconSchema },
   { id: "formeln", label: "Rechenwege", Icon: IconFormel },
   { id: "register", label: "Normenregister", Icon: IconRegister },
@@ -183,6 +187,14 @@ export default function App() {
             umschalten={umschalten}
             zurueck={() => setModulId(null)}
             oeffnen={oeffnen}
+          />
+        )}
+        {ansicht === "faelle" && (
+          <Falluebersicht
+            zugeordneteFaelle={zugeordneteFaelle}
+            offeneFaelle={offeneFaelle}
+            module={alleModule}
+            oeffnenModul={oeffnen}
           />
         )}
         {ansicht === "schema" && <Schemaseite />}
