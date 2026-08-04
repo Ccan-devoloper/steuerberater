@@ -10,9 +10,14 @@ import vertiefungG from "./module-vertiefung-g";
 import vertiefungH from "./module-vertiefung-h";
 import vertiefungI from "./module-vertiefung-i";
 import faelle from "./modules-faelle"; // unveränderte Fallsammlung aus den Kursmitschriften
+import { faelleNachModul } from "./fallsammlung";
 
 /* Reihenfolge: erst Grundlagen und Vertiefung, dann die Originalfälle. */
-export const module = [...basisA, ...basisB, ...vertiefungA, ...vertiefungB, ...vertiefungC, ...vertiefungD, ...vertiefungE, ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI, ...faelle];
+const grundmodule = [...basisA, ...basisB, ...vertiefungA, ...vertiefungB, ...vertiefungC, ...vertiefungD, ...vertiefungE, ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI, ...faelle];
+export const module = grundmodule.map((m) => ({
+  ...m,
+  fallsammlung: faelleNachModul[m.id] || [],
+}));
 
 export const bereiche = [
   { id: "alle", label: "Alle Module" },
