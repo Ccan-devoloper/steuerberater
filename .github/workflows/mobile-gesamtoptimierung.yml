@@ -1,0 +1,79 @@
+name: Mobile-Gesamtoptimierung prüfen
+
+on:
+  push:
+    branches:
+      - agent/mobile-gesamtoptimierung
+    paths:
+      - '.github/workflows/mobile-gesamtoptimierung.yml'
+      - 'src/**'
+      - 'index.html'
+      - 'tools/mobile-layout-einbauen.mjs'
+      - 'tools/pruefen-mobile.mjs'
+      - 'package.json'
+      - 'package-lock.json'
+
+permissions:
+  contents: write
+
+jobs:
+  mobil:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: agent/mobile-gesamtoptimierung
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Responsive Änderungen einbauen
+        run: node tools/mobile-layout-einbauen.mjs
+      - name: Abhängigkeiten installieren
+        run: npm ci
+      - name: Fachliche Daten prüfen
+        run: npm run check:fallsammlung
+      - name: Produktionsbuild
+        run: npm run build
+      - name: Browser für mobile Layoutprüfung installieren
+        run: |
+          npm install --no-save --package-lock=false playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Vorschau starten
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm run preview -- --host 127.0.0.1 --port 4173 > /tmp/vite-preview.log 2>&1 &
+          echo $! > /tmp/vite-preview.pid
+          for versuch in $(seq 1 60); do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/vite-preview.log
+          exit 1
+      - name: Mobile Ansichten bei 320 bis 768 px prüfen
+        run: node tools/pruefen-mobile.mjs
+      - name: Mobile Prüfbilder hochladen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mobile-pruefbilder
+          path: /tmp/mobile-screens
+          if-no-files-found: ignore
+      - name: Geprüften Produktstand festschreiben
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/index.css index.html
+          if git diff --cached --quiet; then
+            echo "Keine Produktänderungen festzuschreiben."
+            exit 0
+          fi
+          git commit -m "Gesamte Anwendung mobil optimieren"
+          git push origin HEAD:agent/mobile-gesamtoptimierung
