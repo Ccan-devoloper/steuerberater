@@ -29,23 +29,26 @@ jobs:
             .filter(f => /^module(?:-basis|-vertiefung).*\.js$/.test(f))
             .sort();
           const rows = [];
+          const key = name => new RegExp(`["']?${name}["']?\\s*:\\s*`);
           for (const file of files) {
             const text = fs.readFileSync(path.join(dir, file), 'utf8');
-            const starts = [...text.matchAll(/\bid\s*:\s*(\d+)\s*,/g)];
+            const starts = [...text.matchAll(/["']?id["']?\s*:\s*(\d+)\s*,/g)];
             for (let i = 0; i < starts.length; i++) {
               const start = starts[i].index;
               const end = i + 1 < starts.length ? starts[i + 1].index : text.length;
               const block = text.slice(start, end);
               const id = Number(starts[i][1]);
-              const area = block.match(/\barea\s*:\s*["']([^"']+)["']/)?.[1] || '';
-              const title = block.match(/\btitle\s*:\s*["']([^"']+)["']/)?.[1] || '';
-              const law = block.match(/\blaw\s*:\s*["']([^"']+)["']/)?.[1] || '';
+              const area = block.match(new RegExp(key('area').source + `["']([^"']+)["']`))?.[1] || '';
+              const title = block.match(new RegExp(key('title').source + `["']([^"']+)["']`))?.[1] || '';
+              const law = block.match(new RegExp(key('law').source + `["']([^"']+)["']`))?.[1] || '';
               if (title) rows.push({ id, area, title, law, file });
             }
           }
           rows.sort((a,b) => a.id-b.id);
+          const lernmodule = rows.filter(r => r.area !== 'Fall');
           console.log('MODULINVENTAR_JSON_BEGIN');
-          console.log(JSON.stringify(rows, null, 2));
+          console.log(JSON.stringify(lernmodule, null, 2));
           console.log('MODULINVENTAR_JSON_END');
-          console.log(`Anzahl Lernmodule: ${rows.length}`);
+          console.log(`Anzahl fachliche Lernmodule: ${lernmodule.length}`);
+          console.log(`Anzahl vorhandene Fallmodule: ${rows.length - lernmodule.length}`);
           NODE
