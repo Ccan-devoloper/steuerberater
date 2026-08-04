@@ -454,3 +454,19 @@ html[data-theme="dark"] .these p { color: var(--ink-weich); }
   .page { margin: 0; padding: 0; }
   body { background: #fff; }
 }
+
+
+/* Fallsammlung · modulbezogene Fälle */
+.fallsammlung { display: grid; gap: 22px; margin-top: 22px; }
+.fallsammlung__fall { border: 1px solid var(--linie); background: var(--papier); }
+.fallsammlung__kopf { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; padding: 18px 20px; border-bottom: 1px solid var(--linie-fein); }
+.fallsammlung__kopf h3 { margin-top: 5px; font-size: 1.12rem; }
+.fallsammlung__kopf code { color: var(--ink-weich); font-family: var(--mono); font-size: .75rem; white-space: nowrap; }
+.fallsammlung__sachverhalt { padding: 20px; }
+.fallsammlung__sachverhalt h4, .fallsammlung__loesungsinhalt h4 { margin: 0 0 10px; color: var(--tinte-dunkel); }
+.fallsammlung__text { white-space: pre-wrap; overflow-wrap: anywhere; }
+.fallsammlung__loesung { border-top: 1px solid var(--linie-fein); background: var(--tinte-feld); }
+.fallsammlung__loesung summary { cursor: pointer; padding: 14px 20px; font-weight: 700; color: var(--tinte-dunkel); }
+.fallsammlung__loesungsinhalt { padding: 4px 20px 22px; }
+.fallsammlung__fall footer { padding: 10px 20px; border-top: 1px solid var(--linie-fein); color: var(--ink-weich); font-family: var(--mono); font-size: .72rem; }
+@media (max-width: 640px) { .fallsammlung__kopf { display: block; } .fallsammlung__kopf code { display: inline-block; margin-top: 10px; } }

@@ -3,6 +3,7 @@ import { module as alleModule, bereiche, bereichName, normenregister } from "./d
 import { sourceCatalog, researchNote } from "./data/sources";
 import { formeln, karteikarten, quizfragen, wochenplan, glossar } from "./data/lernstoff";
 import Schaubild from "./components/Schaubild";
+import Fallsammlungsfaelle from "./components/Fallsammlungsfaelle";
 import { Norm, Normkette, Notiz, Buchungssatz, Bilanzspiegel } from "./components/Bausteine";
 import {
   IconCockpit, IconModule, IconSchema, IconFormel, IconRegister, IconTraining,
@@ -75,7 +76,8 @@ export default function App() {
     return alleModule.filter((m) => {
       if (bereich !== "alle" && m.area !== bereich) return false;
       if (!q) return true;
-      const heu = [m.title, m.law, m.merksatz, (m.normchain || []).join(" "), (m.intro || []).join(" ")]
+      const falltext = (m.fallsammlung || []).flatMap((fall) => [fall.titel, fall.quellmodul, fall.sachverhalt, fall.loesung]).join(" ");
+      const heu = [m.title, m.law, m.merksatz, (m.normchain || []).join(" "), (m.intro || []).join(" "), falltext]
         .join(" ")
         .toLowerCase();
       return heu.includes(q);
@@ -447,6 +449,13 @@ function Modulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen }) {
               <p>{m.example.result}</p>
             </div>
           </div>
+        </Tz>
+      )}
+
+      {m.fallsammlung?.length > 0 && (
+        <Tz nummer={n()} label="Fallsammlung" titel="Fälle & Lösungen" art="bewertung">
+          <p>Die folgenden Fälle sind ausschließlich diesem fachlich einschlägigen Lernmodul zugeordnet. Der Sachverhalt ist direkt sichtbar; die Lösung lässt sich einzeln öffnen.</p>
+          <Fallsammlungsfaelle faelle={m.fallsammlung} />
         </Tz>
       )}
 
