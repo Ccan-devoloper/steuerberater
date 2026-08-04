@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import Pruefungsschemata from "./Pruefungsschemata";
+import SchemaPostitEnhancer from "./SchemaPostitEnhancer";
 
 const ATTRIBUT = "data-pruefungsschemata-portal";
 
@@ -52,5 +53,11 @@ export default function PruefungsschemataPortal() {
     };
   }, []);
 
-  return ziel ? createPortal(<Pruefungsschemata />, ziel) : null;
+  return ziel ? createPortal(
+    <>
+      <Pruefungsschemata />
+      <SchemaPostitEnhancer root={ziel} />
+    </>,
+    ziel,
+  ) : null;
 }
