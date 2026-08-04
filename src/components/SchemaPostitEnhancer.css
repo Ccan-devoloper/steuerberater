@@ -41,6 +41,14 @@
   outline-offset: 3px;
 }
 
+.schema-norm-postit[data-schema-quelle="EStR"] {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: var(--gruen);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .14em;
+}
+
 .schema-norm-postit--ansatz {
   --postit-basis-flaeche: var(--rot-feld);
   --postit-basis-rand: var(--rot);
