@@ -11,7 +11,7 @@ on:
       - 'package-lock.json'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   integrieren:
@@ -32,16 +32,24 @@ jobs:
         run: npm run check:fallsammlung
       - name: Produktionsbuild
         run: npm run build
-      - name: Geprüften Stand festschreiben
+      - name: Geprüften Endstand bündeln
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "Keine Änderungen festzuschreiben."
-            exit 0
-          fi
-          git commit -m "Fallsammlung modulbezogen integrieren"
-          git push origin HEAD:agent/fallsammlung-richtig
+          tar -czf /tmp/fallsammlung-endstand.tar.gz \
+            src/App.jsx \
+            src/index.css \
+            src/components/Fallsammlungsfaelle.jsx \
+            src/data/module.js \
+            src/data/fallsammlung.js \
+            src/data/faelle-offen.js \
+            tools/pruefen-fallsammlung.mjs \
+            package.json
+          sha256sum /tmp/fallsammlung-endstand.tar.gz | tee /tmp/fallsammlung-endstand.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fallsammlung-endstand
+          path: |
+            /tmp/fallsammlung-endstand.tar.gz
+            /tmp/fallsammlung-endstand.sha256
+          if-no-files-found: error
