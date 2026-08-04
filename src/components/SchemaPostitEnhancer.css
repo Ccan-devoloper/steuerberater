@@ -1,6 +1,8 @@
 .schema-norm-postit {
-  --postit-flaeche: var(--tinte-feld);
-  --postit-rand: var(--tinte);
+  --postit-basis-flaeche: var(--tinte-feld);
+  --postit-basis-rand: var(--tinte);
+  --postit-flaeche: var(--postit-basis-flaeche);
+  --postit-rand: var(--postit-basis-rand);
   --postit-falte: color-mix(in srgb, var(--postit-rand) 25%, var(--postit-flaeche));
   display: inline;
   padding: .08em .9em .16em .4em;
@@ -40,18 +42,23 @@
 }
 
 .schema-norm-postit--ansatz {
-  --postit-flaeche: var(--rot-feld);
-  --postit-rand: var(--rot);
+  --postit-basis-flaeche: var(--rot-feld);
+  --postit-basis-rand: var(--rot);
 }
 
 .schema-norm-postit--bewertung {
-  --postit-flaeche: var(--orange-feld);
-  --postit-rand: var(--orange);
+  --postit-basis-flaeche: var(--orange-feld);
+  --postit-basis-rand: var(--orange);
 }
 
 .schema-norm-postit--ausserbilanz {
-  --postit-flaeche: var(--gruen-feld);
-  --postit-rand: var(--gruen);
+  --postit-basis-flaeche: var(--gruen-feld);
+  --postit-basis-rand: var(--gruen);
+}
+
+.schema-norm-postit--nicht-hgb {
+  --postit-flaeche: color-mix(in srgb, var(--postit-basis-flaeche) 76%, var(--postit-basis-rand));
+  --postit-rand: color-mix(in srgb, var(--postit-basis-rand) 82%, var(--ink));
 }
 
 @media (max-width: 700px) {
