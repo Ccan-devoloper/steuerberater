@@ -42,11 +42,19 @@
 }
 
 .schema-norm-postit[data-schema-quelle="EStR"] {
-  text-decoration-line: underline;
-  text-decoration-style: double;
-  text-decoration-color: var(--gruen);
-  text-decoration-thickness: 1px;
-  text-underline-offset: .14em;
+  padding-bottom: .24em;
+  border-bottom-width: 4px;
+  border-bottom-style: double;
+  border-bottom-color: color-mix(in srgb, var(--gruen) 88%, var(--ink));
+  box-shadow:
+    inset 0 -.18em 0 color-mix(in srgb, var(--gruen) 24%, transparent),
+    0 .18em .42em color-mix(in srgb, var(--ink) 12%, transparent);
+}
+
+.schema-norm-postit[data-schema-quelle="EStR"]:hover {
+  box-shadow:
+    inset 0 -.2em 0 color-mix(in srgb, var(--gruen) 34%, transparent),
+    0 .25em .55em color-mix(in srgb, var(--ink) 17%, transparent);
 }
 
 .schema-norm-postit--ansatz {
