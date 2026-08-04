@@ -5,25 +5,25 @@
   --postit-rand: var(--postit-basis-rand);
   --postit-falte: color-mix(in srgb, var(--postit-rand) 25%, var(--postit-flaeche));
   display: inline;
-  padding: .08em .9em .16em .4em;
-  margin: 0 .08em;
+  padding: .12em .78em .2em .44em;
+  margin: .04em .1em;
   border: 1px solid color-mix(in srgb, var(--postit-rand) 56%, var(--linie));
   background:
     linear-gradient(135deg, transparent 0 52%, var(--postit-falte) 53% 100%) bottom right / .72em .72em no-repeat,
     var(--postit-flaeche);
   color: var(--ink);
-  box-shadow: 0 .18em .42em color-mix(in srgb, var(--ink) 12%, transparent);
+  box-shadow: 0 .16em .38em color-mix(in srgb, var(--ink) 11%, transparent);
   font-family: var(--mono);
-  font-size: .88em;
-  font-weight: 500;
-  line-height: 1.65;
+  font-size: .9em;
+  font-weight: 600;
+  line-height: 1.78;
   text-decoration: none;
   white-space: normal;
   overflow-wrap: anywhere;
   cursor: pointer;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-  transition: box-shadow 120ms ease, filter 120ms ease;
+  transition: box-shadow 120ms ease, filter 120ms ease, transform 120ms ease;
 }
 
 .schema-norm-postit:visited {
@@ -33,7 +33,7 @@
 .schema-norm-postit:hover {
   color: var(--ink);
   filter: saturate(1.08) brightness(.99);
-  box-shadow: 0 .25em .55em color-mix(in srgb, var(--ink) 17%, transparent);
+  box-shadow: 0 .24em .52em color-mix(in srgb, var(--ink) 16%, transparent);
 }
 
 .schema-norm-postit:focus-visible {
@@ -42,19 +42,19 @@
 }
 
 .schema-norm-postit[data-schema-quelle="EStR"] {
-  padding-bottom: .24em;
+  padding-bottom: .26em;
   border-bottom-width: 4px;
   border-bottom-style: double;
   border-bottom-color: color-mix(in srgb, var(--gruen) 88%, var(--ink));
   box-shadow:
     inset 0 -.18em 0 color-mix(in srgb, var(--gruen) 24%, transparent),
-    0 .18em .42em color-mix(in srgb, var(--ink) 12%, transparent);
+    0 .16em .38em color-mix(in srgb, var(--ink) 11%, transparent);
 }
 
 .schema-norm-postit[data-schema-quelle="EStR"]:hover {
   box-shadow:
     inset 0 -.2em 0 color-mix(in srgb, var(--gruen) 34%, transparent),
-    0 .25em .55em color-mix(in srgb, var(--ink) 17%, transparent);
+    0 .24em .52em color-mix(in srgb, var(--ink) 16%, transparent);
 }
 
 .schema-norm-postit--ansatz {
@@ -77,12 +77,225 @@
   --postit-rand: color-mix(in srgb, var(--postit-basis-rand) 82%, var(--ink));
 }
 
+/* Lesefreundliches Layout für die sechs Prüfungsschemata */
+[data-pruefungsschemata-portal] > .abschnitt {
+  width: min(100%, 1280px);
+  margin-inline: auto;
+  padding-inline: clamp(0px, 1.2vw, 16px);
+}
+
+[data-pruefungsschemata-portal] > .abschnitt > div:first-child {
+  margin-bottom: 20px !important;
+}
+
+[data-pruefungsschemata-portal] > .abschnitt > div:first-child h2 {
+  max-width: 28ch;
+  line-height: 1.16;
+  text-wrap: balance;
+}
+
+[data-pruefungsschemata-portal] .filter {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 20px !important;
+  padding: 8px;
+  border: 1px solid var(--linie);
+  background: color-mix(in srgb, var(--feld) 78%, var(--papier));
+}
+
+[data-pruefungsschemata-portal] .filter button {
+  min-height: 54px;
+  padding: 10px 14px;
+  border: 1px solid color-mix(in srgb, var(--linie) 88%, var(--tinte));
+  background: var(--papier);
+  color: var(--tinte);
+  font: inherit;
+  font-size: .92rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-align: left;
+  text-wrap: pretty;
+  cursor: pointer;
+  transition: background 140ms ease, border-color 140ms ease, transform 140ms ease;
+}
+
+[data-pruefungsschemata-portal] .filter button:hover {
+  border-color: color-mix(in srgb, var(--tinte) 42%, var(--linie));
+  background: color-mix(in srgb, var(--feld) 72%, var(--papier));
+  transform: translateY(-1px);
+}
+
+[data-pruefungsschemata-portal] .filter button[aria-pressed="true"] {
+  border-color: var(--tinte);
+  background: var(--tinte);
+  color: var(--papier);
+}
+
+[data-pruefungsschemata-portal] .filter button:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--tinte) 48%, transparent);
+  outline-offset: 2px;
+}
+
+[data-pruefungsschemata-portal] article.panel {
+  overflow: clip !important;
+  border-color: color-mix(in srgb, var(--linie) 82%, var(--tinte));
+  box-shadow: 0 12px 32px color-mix(in srgb, var(--tinte) 8%, transparent);
+}
+
+[data-pruefungsschemata-portal] article.panel > header {
+  padding: clamp(24px, 3vw, 38px) clamp(22px, 3.6vw, 46px) !important;
+}
+
+[data-pruefungsschemata-portal] article.panel > header h2 {
+  max-width: 34ch;
+  font-size: clamp(1.45rem, 2.15vw, 2rem);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+[data-pruefungsschemata-portal] article.panel > div {
+  width: min(100%, 1140px);
+  margin-inline: auto;
+  padding: clamp(22px, 3vw, 38px) !important;
+}
+
+[data-pruefungsschemata-portal] article.panel > div > section {
+  padding: clamp(22px, 2.7vw, 32px) clamp(20px, 3.1vw, 38px) !important;
+  margin-bottom: 20px !important;
+  border-left-width: 7px !important;
+  background: color-mix(in srgb, var(--papier) 96%, var(--feld)) !important;
+}
+
+[data-pruefungsschemata-portal] article.panel > div > section:last-child {
+  margin-bottom: 0 !important;
+}
+
+[data-pruefungsschemata-portal] article.panel > div > section > h3 {
+  margin: 0 0 20px !important;
+  font-size: clamp(1.2rem, 1.35vw, 1.42rem);
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+[data-pruefungsschemata-portal] article.panel p,
+[data-pruefungsschemata-portal] article.panel li {
+  font-size: clamp(1rem, .34vw + .94rem, 1.08rem);
+  line-height: 1.82;
+  text-wrap: pretty;
+  hyphens: auto;
+}
+
+[data-pruefungsschemata-portal] article.panel p {
+  max-width: 94ch;
+  margin-bottom: 14px !important;
+}
+
+[data-pruefungsschemata-portal] article.panel h4 {
+  max-width: 70ch;
+  margin: 26px 0 10px !important;
+  font-size: clamp(1.05rem, .45vw + .98rem, 1.18rem);
+  line-height: 1.42;
+  text-wrap: balance;
+}
+
+[data-pruefungsschemata-portal] article.panel h3 + h4 {
+  margin-top: 0 !important;
+}
+
+[data-pruefungsschemata-portal] article.panel ul,
+[data-pruefungsschemata-portal] article.panel ol {
+  max-width: 92ch;
+  padding-left: 1.65rem !important;
+  margin-top: 10px !important;
+  margin-bottom: 18px !important;
+}
+
+[data-pruefungsschemata-portal] article.panel li {
+  padding-left: .18rem;
+  margin-bottom: 8px !important;
+}
+
+[data-pruefungsschemata-portal] article.panel li::marker {
+  font-weight: 700;
+  color: color-mix(in srgb, var(--tinte) 78%, var(--leise));
+}
+
+[data-pruefungsschemata-portal] article.panel section > div {
+  max-width: 94ch;
+  padding: 15px 18px !important;
+  margin: 18px 0 !important;
+  line-height: 1.68;
+}
+
+[data-pruefungsschemata-portal] article.panel section > div strong {
+  display: block;
+  line-height: 1.65;
+  text-wrap: pretty;
+}
+
+[data-pruefungsschemata-portal] article.panel > footer {
+  padding: 14px clamp(22px, 3.6vw, 46px) !important;
+  line-height: 1.5;
+}
+
+@media (max-width: 980px) {
+  [data-pruefungsschemata-portal] .filter {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  [data-pruefungsschemata-portal] article.panel > div {
+    width: 100%;
+  }
+}
+
 @media (max-width: 700px) {
+  [data-pruefungsschemata-portal] > .abschnitt {
+    padding-inline: 0;
+  }
+
+  [data-pruefungsschemata-portal] .filter {
+    grid-template-columns: 1fr;
+    gap: 7px;
+    padding: 7px;
+  }
+
+  [data-pruefungsschemata-portal] .filter button {
+    min-height: 48px;
+    font-size: .9rem;
+  }
+
+  [data-pruefungsschemata-portal] article.panel > header {
+    padding: 22px 18px !important;
+  }
+
+  [data-pruefungsschemata-portal] article.panel > div {
+    padding: 14px !important;
+  }
+
+  [data-pruefungsschemata-portal] article.panel > div > section {
+    padding: 20px 17px !important;
+    margin-bottom: 14px !important;
+  }
+
+  [data-pruefungsschemata-portal] article.panel p,
+  [data-pruefungsschemata-portal] article.panel li {
+    font-size: 1rem;
+    line-height: 1.74;
+  }
+
   .schema-norm-postit {
-    padding-right: .82em;
-    margin-left: .04em;
-    margin-right: .04em;
+    padding: .12em .72em .22em .42em;
+    margin-left: .05em;
+    margin-right: .05em;
     font-size: .9em;
-    line-height: 1.75;
+    line-height: 1.86;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-pruefungsschemata-portal] .filter button,
+  .schema-norm-postit {
+    transition: none;
   }
 }
