@@ -1,0 +1,1 @@
+Die bestehenden Originalfälle in `src/data/modules-faelle.js` bleiben unverändert. Die 90 Fälle der neuen Fallsammlung werden als modulbezogene Ergänzungen geführt und nicht als weitere globale Fallmodule angelegt.
