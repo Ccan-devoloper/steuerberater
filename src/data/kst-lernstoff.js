@@ -1,0 +1,101 @@
+export const kstQuizfragen = [
+  {
+    frage: "Wann beginnt im Gründungsfall die unbeschränkte Körperschaftsteuerpflicht der GmbH?",
+    optionen: ["Mit dem ersten Gründungsbeschluss", "Mit der notariellen Beurkundung", "Mit der Handelsregistereintragung", "Mit dem ersten Gewinn"],
+    richtig: 1,
+    erklaerung: "Die Vorgesellschaft wird ab notarieller Beurkundung in die Körperschaftsteuer einbezogen.",
+  },
+  {
+    frage: "Welche Phase wird im Übungsfall nicht der späteren GmbH zugerechnet?",
+    optionen: ["Vorgesellschaft", "eingetragene GmbH", "Vorgründungsgesellschaft", "Rumpfwirtschaftsjahr"],
+    richtig: 2,
+    erklaerung: "Die Vorgründungsgesellschaft ist weder mit der Vorgesellschaft noch mit der GmbH identisch.",
+  },
+  {
+    frage: "Wer hat bei einer vGA typischerweise den Vorteil?",
+    optionen: ["die Gesellschaft", "der Gesellschafter oder eine nahestehende Person", "das Finanzamt", "der Organträger"],
+    richtig: 1,
+    erklaerung: "Die Vorprüfung der Unterlagen lautet: Vorteil beim Gesellschafter → vGA.",
+  },
+  {
+    frage: "Welche Aussage zur vGA ist richtig?",
+    optionen: ["Sie wird immer als Eigenkapitalbuchung erfasst", "Sie wird außerbilanziell hinzugerechnet", "Sie setzt stets eine Barzahlung voraus", "Sie erhöht das steuerliche Einlagekonto"],
+    richtig: 1,
+    erklaerung: "Die zugrunde liegende Buchung bleibt; die vGA wird nach § 8 Abs. 3 S. 2 KStG ADB hinzugerechnet.",
+  },
+  {
+    frage: "Was ist regelmäßig kein einlagefähiger Vermögensvorteil?",
+    optionen: ["Maschine", "Forderung", "Grundstück", "unentgeltliche Arbeits- oder Nutzungsleistung"],
+    richtig: 3,
+    erklaerung: "Nutzungsvorteile sind nach dem Schema keine verdeckte Einlage.",
+  },
+  {
+    frage: "Wie wird ein gebuchter Ertrag aus einer verdeckten Einlage bei der Gesellschaft behandelt?",
+    optionen: ["ADB hinzugerechnet", "ADB gekürzt", "als Spende behandelt", "gar nicht geprüft"],
+    richtig: 1,
+    erklaerung: "§ 8 Abs. 3 S. 3 KStG neutralisiert den Ertrag außerbilanziell.",
+  },
+  {
+    frage: "Welche Beteiligungsquote ist für die Streubesitzdividende des § 8b Abs. 4 KStG zentral?",
+    optionen: ["1 %", "10 %", "25 %", "50 %"],
+    richtig: 1,
+    erklaerung: "Unter 10 % zu Beginn des Kalenderjahres greift die Streubesitzregel.",
+  },
+  {
+    frage: "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?",
+    optionen: ["1 %", "5 %", "10 %", "15 %"],
+    richtig: 1,
+    erklaerung: "5 % gelten im Grundfall als nichtabziehbare Betriebsausgaben.",
+  },
+  {
+    frage: "Gilt die 10-%-Streubesitzgrenze auch für Veräußerungsgewinne nach § 8b Abs. 2 KStG?",
+    optionen: ["ja, immer", "nur bei GmbHs", "nein", "nur bei Auslandsbeteiligungen"],
+    richtig: 2,
+    erklaerung: "Die in den Unterlagen behandelte Mindestquote betrifft Dividenden, nicht Veräußerungsgewinne.",
+  },
+  {
+    frage: "Kann das steuerliche Einlagekonto negativ werden?",
+    optionen: ["ja", "nur im Gründungsjahr", "nein", "nur bei vGA"],
+    richtig: 2,
+    erklaerung: "§ 27 Abs. 1 S. 4 KStG begrenzt den Abgang auf den vorhandenen Bestand.",
+  },
+  {
+    frage: "Wann liegt nach § 8c Abs. 1 KStG im Schema ein schädlicher Beteiligungserwerb vor?",
+    optionen: ["mehr als 10 %", "mehr als 25 %", "mehr als 50 % innerhalb von fünf Jahren", "jede Kapitalerhöhung"],
+    richtig: 2,
+    erklaerung: "Das hochgeladene Schema beginnt mit der Schwelle von mehr als 50 % innerhalb von fünf Jahren.",
+  },
+  {
+    frage: "Welche Voraussetzung gehört nicht zur ertragsteuerlichen Organschaft?",
+    optionen: ["finanzielle Eingliederung", "Gewinnabführungsvertrag", "tatsächliche Durchführung", "identischer Firmenname"],
+    richtig: 3,
+    erklaerung: "Ein identischer Firmenname ist keine Voraussetzung.",
+  },
+  {
+    frage: "Welcher Vereinsbereich ist nach dem hochgeladenen Schema steuerpflichtig?",
+    optionen: ["Vermögensverwaltung", "Zweckbetrieb", "wirtschaftlicher Geschäftsbetrieb", "ideeller Bereich"],
+    richtig: 2,
+    erklaerung: "Der wirtschaftliche Geschäftsbetrieb wird aus der Steuerbefreiung herausgelöst.",
+  },
+  {
+    frage: "Wie hoch ist das zvE der CS-GmbH in der hochgeladenen Lösung?",
+    optionen: ["0 €", "5.000 €", "5.150 €", "6.050 €"],
+    richtig: 2,
+    erklaerung: "Die Schlussrechnung der Lösung endet bei 5.150 €.",
+  },
+];
+
+export const kstKarteikarten = [
+  { vorn: "Vorgründung vs. Vorgesellschaft", hinten: "Vorgründungsgesellschaft: transparent und nicht identisch mit der GmbH. Vorgesellschaft: ab notarieller Beurkundung körperschaftsteuerpflichtig." },
+  { vorn: "vGA – Vorprüfung", hinten: "Wer hat den Vorteil? Gesellschafter/nahestehende Person → R 8.5 KStR und § 8 Abs. 3 S. 2 KStG." },
+  { vorn: "vE – Vorprüfung", hinten: "Wer hat den Vorteil? Gesellschaft → Einlagefähigkeit prüfen, R 8.9 KStR und § 8 Abs. 3 S. 3 KStG." },
+  { vorn: "Nutzungsvorteil", hinten: "Reine Arbeits- oder Nutzungsüberlassung ist regelmäßig kein einlagefähiger Vermögensvorteil." },
+  { vorn: "§ 8b Dividende", hinten: "10-%-Quote zu Beginn des Kalenderjahres prüfen; bei Freistellung Ertrag abziehen und 5 % hinzurechnen." },
+  { vorn: "§ 8b Veräußerung", hinten: "Keine 10-%-Mindestquote; Gewinn grundsätzlich steuerfrei, 5 % bleiben im Grundfall steuerpflichtig." },
+  { vorn: "§ 27 KStG", hinten: "Außerbilanzielle Nebenrechnung. Leistung zuerst aus ausschüttbarem Gewinn; Einlagekonto niemals negativ." },
+  { vorn: "§ 8c KStG", hinten: "Mehr als 50 % in fünf Jahren: vollständiger Verlustuntergang, danach Rettungsklauseln prüfen." },
+  { vorn: "Organschaft – Zeit", hinten: "Finanzielle Eingliederung vom Beginn des Wirtschaftsjahres an; GAV muss wirksam und tatsächlich durchgeführt sein." },
+  { vorn: "Vereinsbesteuerung", hinten: "Vermögensverwaltung und Zweckbetrieb steuerfrei; wirtschaftlicher Geschäftsbetrieb steuerpflichtig; § 24 KStG prüfen." },
+  { vorn: "CS-GmbH Ausgangsgröße", hinten: "Nur Ergebnisse ab 15.05.: ./. 5.000 € + 10.000 € = 5.000 €." },
+  { vorn: "CS-GmbH Ergebnis", hinten: "zvE 2025 nach der hochgeladenen Lösung: 5.150 €." },
+];
