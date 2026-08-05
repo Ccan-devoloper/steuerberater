@@ -1,0 +1,100 @@
+.fallsammlung__fall {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 92px;
+}
+
+.fallsammlung__kopf--button {
+  width: 100%;
+  border: 0;
+  background: var(--papier);
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.fallsammlung__kopf--button:hover {
+  background: var(--feld);
+}
+
+.fallsammlung__kopf--button:focus-visible {
+  outline: 2px solid var(--tinte);
+  outline-offset: -2px;
+}
+
+.fallsammlung__kopf-rechts {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: none;
+}
+
+.fallsammlung__kopf-rechts b {
+  width: 1.6rem;
+  height: 1.6rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--linie);
+  font-family: var(--mono);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.fallsammlung__oeffnen {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--tinte);
+  font-family: var(--mono);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.fallsammlung__inhalt {
+  border-top: 1px solid var(--linie-fein);
+}
+
+.fallsammlung__fall--offen {
+  contain-intrinsic-size: auto;
+}
+
+.fallsammlung__ladehinweis {
+  margin: 0;
+  padding: .8rem 1rem;
+  border-left: 3px solid var(--tinte);
+  background: var(--tinte-feld);
+  color: var(--ink-weich);
+  font-family: var(--mono);
+  font-size: .78rem;
+}
+
+.fallsammlung__mehr {
+  width: 100%;
+  margin-top: 16px;
+  padding: 14px 18px;
+  border: 1px solid var(--tinte);
+  background: var(--papier);
+  color: var(--tinte-dunkel);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.fallsammlung__mehr:hover {
+  background: var(--tinte-feld);
+}
+
+.fallsammlung__mehr small {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink-weich);
+  font-family: var(--mono);
+  font-size: .7rem;
+  font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  .fallsammlung__kopf-rechts {
+    margin-top: 9px;
+    justify-content: space-between;
+  }
+}
