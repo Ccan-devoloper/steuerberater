@@ -16,5 +16,6 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check:fallsammlung
+      - run: npm run check:fallsammlung-format
       - run: npm run check:hausaufgaben
       - run: npm run build
