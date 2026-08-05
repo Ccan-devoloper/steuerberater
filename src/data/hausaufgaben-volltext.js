@@ -44,8 +44,9 @@ export async function ladeHausaufgabenVolltext() {
     const text = daten[String(termin)];
     if (typeof text !== "string") throw new Error(`Volltext für Fachtermin ${termin} fehlt.`);
     const erwartet = volltextMeta[termin]?.zeichen;
-    if (erwartet && text.length !== erwartet) {
-      throw new Error(`Volltext für Fachtermin ${termin} ist unvollständig (${text.length} statt ${erwartet} Zeichen).`);
+    const zeichen = Array.from(text).length;
+    if (erwartet && zeichen !== erwartet) {
+      throw new Error(`Volltext für Fachtermin ${termin} ist unvollständig (${zeichen} statt ${erwartet} Zeichen).`);
     }
   }
 
