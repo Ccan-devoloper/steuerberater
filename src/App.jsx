@@ -783,7 +783,8 @@ function Trainingsseite() {
           <h1>Abfragen, wiederholen, Zeit rechnen</h1>
           <p className="lead">
             Kurze Einheiten für die Wiederholung: Multiple Choice zu den Kernnormen, Karteikarten für
-            Definitionen und ein Zeitrechner für die Klausurplanung.
+            Definitionen und ein Zeitrechner für die Klausurplanung. Jeder Durchlauf wird neu gemischt,
+            damit nicht die Reihenfolge mitgelernt wird.
           </p>
         </div>
       </div>
@@ -811,42 +812,151 @@ function Trainingsseite() {
   );
 }
 
+/* Fisher-Yates. Die Kopie bleibt stabil, solange der Durchlauf läuft. */
+function mischen(liste) {
+  const kopie = [...liste];
+  for (let i = kopie.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [kopie[i], kopie[j]] = [kopie[j], kopie[i]];
+  }
+  return kopie;
+}
+
+const trainingsbereiche = [
+  { id: "alle", label: "Alle" },
+  { id: "EU", label: "Einzelunternehmen" },
+  { id: "PersG", label: "Personengesellschaft" },
+  { id: "KapG", label: "Kapitalgesellschaft" },
+  { id: "Technik", label: "Technik" },
+];
+
+/* ================================================================== Quiz */
 function Quiz() {
+  const [bereich, setBereich] = useState("alle");
+  const [nurFehler, setNurFehler] = useState(false);
+  const [fehler, setFehler] = useState(() => {
+    const roh = laden("stb-quiz-fehler", []);
+    return Array.isArray(roh) ? roh : [];
+  });
+  const [durchlauf, setDurchlauf] = useState(0);
   const [nr, setNr] = useState(0);
   const [gewaehlt, setGewaehlt] = useState(null);
   const [punkte, setPunkte] = useState(0);
   const [fertig, setFertig] = useState(false);
 
-  if (fertig) {
+  useEffect(() => {
+    sichern("stb-quiz-fehler", fehler);
+  }, [fehler]);
+
+  const fehlerMenge = useMemo(() => new Set(fehler), [fehler]);
+
+  /* Die Auswahl wird pro Durchlauf einmal gemischt. `durchlauf` erzwingt die
+     Neuberechnung, wenn erneut gestartet oder der Filter gewechselt wird. */
+  const fragen = useMemo(() => {
+    const auswahl = quizfragen.filter(
+      ([frage, , , , b]) => (bereich === "alle" || b === bereich) && (!nurFehler || fehlerMenge.has(frage))
+    );
+    return mischen(auswahl);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [bereich, nurFehler, durchlauf]);
+
+  const neuStarten = (weitereAenderung) => {
+    weitereAenderung?.();
+    setDurchlauf((d) => d + 1);
+    setNr(0);
+    setGewaehlt(null);
+    setPunkte(0);
+    setFertig(false);
+  };
+
+  const steuerung = (
+    <>
+      <div className="filter filter--klein">
+        {trainingsbereiche.map((b) => (
+          <button
+            key={b.id}
+            aria-pressed={bereich === b.id}
+            onClick={() => neuStarten(() => setBereich(b.id))}
+          >
+            {b.label}
+          </button>
+        ))}
+      </div>
+      <div className="training__schalter">
+        <button
+          className="btn btn--klein btn--linie"
+          aria-pressed={nurFehler}
+          disabled={fehler.length === 0}
+          title={fehler.length === 0 ? "Noch keine falsch beantworteten Fragen gespeichert" : undefined}
+          onClick={() => neuStarten(() => setNurFehler((w) => !w))}
+        >
+          Nur Fehler wiederholen ({fehler.length})
+        </button>
+        {fehler.length > 0 && (
+          <button className="training__loeschen" onClick={() => neuStarten(() => { setFehler([]); setNurFehler(false); })}>
+            Fehlerspeicher leeren
+          </button>
+        )}
+      </div>
+    </>
+  );
+
+  if (fragen.length === 0) {
     return (
       <section className="panel quiz">
+        {steuerung}
         <div className="mitte">
-          <h2>{punkte} von {quizfragen.length} richtig</h2>
+          <h2>Keine Fragen</h2>
           <p>
-            {punkte === quizfragen.length
-              ? "Vollständig. Die Kernnormen sitzen."
-              : punkte >= quizfragen.length * 0.7
-                ? "Solide Basis. Die verbliebenen Lücken gezielt über die Module schließen."
-                : "Noch Luft nach oben – am besten die Module zu den falsch beantworteten Themen erneut durchgehen."}
+            {nurFehler
+              ? "In diesem Bereich sind keine falsch beantworteten Fragen gespeichert."
+              : "Für diesen Bereich sind noch keine Fragen hinterlegt."}
           </p>
-          <button className="btn" style={{ marginTop: 12 }} onClick={() => { setNr(0); setPunkte(0); setGewaehlt(null); setFertig(false); }}>
-            Noch einmal
-          </button>
         </div>
       </section>
     );
   }
 
-  const [frage, optionen, richtig, erklaerung] = quizfragen[nr];
+  if (fertig) {
+    return (
+      <section className="panel quiz">
+        {steuerung}
+        <div className="mitte">
+          <h2>{punkte} von {fragen.length} richtig</h2>
+          <p>
+            {punkte === fragen.length
+              ? "Vollständig. Die Kernnormen sitzen."
+              : punkte >= fragen.length * 0.7
+                ? "Solide Basis. Die verbliebenen Lücken gezielt über die Module schließen."
+                : "Noch Luft nach oben – am besten die Module zu den falsch beantworteten Themen erneut durchgehen."}
+          </p>
+          {fehler.length > 0 && <p className="quiz__hinweis">{fehler.length} Fragen im Fehlerspeicher.</p>}
+          <button className="btn" style={{ marginTop: 12 }} onClick={() => neuStarten()}>Noch einmal</button>
+        </div>
+      </section>
+    );
+  }
+
+  const [frage, optionen, richtig, erklaerung] = fragen[nr];
+  const antworten = (i) => {
+    setGewaehlt(i);
+    if (i === richtig) {
+      setPunkte((p) => p + 1);
+      setFehler((alt) => alt.filter((f) => f !== frage));
+    } else {
+      setFehler((alt) => (alt.includes(frage) ? alt : [...alt, frage]));
+    }
+  };
   const weiter = () => {
-    if (nr + 1 >= quizfragen.length) setFertig(true);
+    if (nr + 1 >= fragen.length) setFertig(true);
     else { setNr(nr + 1); setGewaehlt(null); }
   };
 
   return (
     <section className="panel quiz">
+      {steuerung}
       <div className="quiz__meta">
-        <span>Frage {nr + 1} von {quizfragen.length}</span>
+        <span>Frage {nr + 1} von {fragen.length}{nurFehler ? " · Fehlerwiederholung" : ""}</span>
         <span>{punkte} richtig</span>
       </div>
       <h2>{frage}</h2>
@@ -858,12 +968,7 @@ function Quiz() {
             else if (i === gewaehlt) klasse = "falsch";
           }
           return (
-            <button
-              key={i}
-              className={klasse}
-              disabled={gewaehlt !== null}
-              onClick={() => { setGewaehlt(i); if (i === richtig) setPunkte(punkte + 1); }}
-            >
+            <button key={i} className={klasse} disabled={gewaehlt !== null} onClick={() => antworten(i)}>
               {o}
             </button>
           );
@@ -874,7 +979,7 @@ function Quiz() {
           <b>{gewaehlt === richtig ? "Richtig." : "Nicht ganz."}</b>
           <p>{erklaerung}</p>
           <button className="btn btn--klein" style={{ marginTop: 10 }} onClick={weiter}>
-            {nr + 1 >= quizfragen.length ? "Auswertung" : "Nächste Frage"}
+            {nr + 1 >= fragen.length ? "Auswertung" : "Nächste Frage"}
           </button>
         </div>
       )}
@@ -882,28 +987,103 @@ function Quiz() {
   );
 }
 
+/* ========================================================== Karteikarten */
 function Karteikartenstapel() {
-  const [nr, setNr] = useState(0);
+  const [gruppe, setGruppe] = useState("alle");
+  const [stand, setStand] = useState(() => {
+    const roh = laden("stb-karten-stand", {});
+    return roh && typeof roh === "object" && !Array.isArray(roh) ? roh : {};
+  });
+  const [durchlauf, setDurchlauf] = useState(0);
+  const [warteschlange, setWarteschlange] = useState([]);
   const [offen, setOffen] = useState(false);
-  const karte = karteikarten[nr];
-  const weiter = (schritt) => {
+  const [erledigt, setErledigt] = useState(0);
+
+  useEffect(() => {
+    sichern("stb-karten-stand", stand);
+  }, [stand]);
+
+  const gruppen = useMemo(
+    () => ["alle", ...[...new Set(karteikarten.map((k) => k.gruppe))].sort((a, b) => a.localeCompare(b, "de"))],
+    []
+  );
+
+  const auswahl = useMemo(
+    () => karteikarten.filter((k) => gruppe === "alle" || k.gruppe === gruppe),
+    [gruppe]
+  );
+
+  /* Der Stapel wird pro Durchlauf gemischt; „saß nicht“ hängt die Karte hinten
+     wieder an, „saß“ nimmt sie aus dem Durchlauf. */
+  useEffect(() => {
+    setWarteschlange(mischen(auswahl));
     setOffen(false);
-    setNr((alt) => (alt + schritt + karteikarten.length) % karteikarten.length);
+    setErledigt(0);
+  }, [auswahl, durchlauf]);
+
+  const karte = warteschlange[0];
+  const gesamt = auswahl.length;
+
+  const bewerten = (sicher) => {
+    if (!karte) return;
+    setStand((alt) => ({ ...alt, [karte.frage]: sicher ? "sicher" : "unsicher" }));
+    setOffen(false);
+    setWarteschlange((alt) => (sicher ? alt.slice(1) : [...alt.slice(1), alt[0]]));
+    if (sicher) setErledigt((z) => z + 1);
   };
+
+  const steuerung = (
+    <div className="filter filter--klein">
+      {gruppen.map((g) => (
+        <button key={g} aria-pressed={gruppe === g} onClick={() => { setGruppe(g); setDurchlauf((d) => d + 1); }}>
+          {g === "alle" ? "Alle Gruppen" : g}
+        </button>
+      ))}
+    </div>
+  );
+
+  if (!karte) {
+    const sicher = auswahl.filter((k) => stand[k.frage] === "sicher").length;
+    return (
+      <section className="panel">
+        {steuerung}
+        <div className="mitte">
+          <h2>Stapel durchgearbeitet</h2>
+          <p>{gesamt} Karten bearbeitet, {sicher} davon als „saß“ markiert.</p>
+          <button className="btn" style={{ marginTop: 12 }} onClick={() => setDurchlauf((d) => d + 1)}>
+            Neuer Durchlauf
+          </button>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section className="panel">
+      {steuerung}
       <div className="quiz__meta">
-        <span>Karte {nr + 1} von {karteikarten.length}</span>
-        <span>{karte.gruppe}</span>
+        <span>{erledigt} von {gesamt} sitzen · {warteschlange.length} im Stapel</span>
+        <span>
+          {karte.gruppe}
+          {stand[karte.frage] && ` · zuletzt ${stand[karte.frage] === "sicher" ? "saß" : "saß nicht"}`}
+        </span>
       </div>
       <div className="karte">
         <p className="karte__frage">{karte.frage}</p>
         {offen && <div className="karte__antwort">{karte.antwort}</div>}
       </div>
       <div className="karte__steuerung">
-        <button className="btn" onClick={() => setOffen((o) => !o)}>{offen ? "Antwort verbergen" : "Antwort zeigen"}</button>
-        <button className="btn btn--linie" onClick={() => weiter(-1)}>← zurück</button>
-        <button className="btn btn--linie" onClick={() => weiter(1)}>weiter →</button>
+        {offen ? (
+          <>
+            <button className="btn" onClick={() => bewerten(true)}>saß</button>
+            <button className="btn btn--linie" onClick={() => bewerten(false)}>saß nicht</button>
+          </>
+        ) : (
+          <button className="btn" onClick={() => setOffen(true)}>Antwort zeigen</button>
+        )}
+        <button className="btn btn--linie" onClick={() => { setOffen(false); setWarteschlange((a) => [...a.slice(1), a[0]]); }}>
+          zurückstellen →
+        </button>
       </div>
     </section>
   );
