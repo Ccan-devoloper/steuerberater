@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { parseFallsammlungsText } from "../src/lib/fallsammlungsFormat.js";
 import { zugeordneteFaelle } from "../src/data/fallsammlung.js";
 import offeneFaelle from "../src/data/faelle-offen.js";
+import { fallsammlungsTabellenGeometrie } from "../src/data/fallsammlungTabellenGeometrie.js";
 
 const originalBuchung = parseFallsammlungsText(
   "Technische Anlagen und 2.650.000 € an Bank 1.150.000 € Maschinen Verbindlichkeiten LuL 1.500.000 €",
@@ -51,6 +52,13 @@ for (const fall of alleFaelle) {
     if (block.original) gefundeneLoesungen.add(block.sourceId);
   }
 }
+
+const erwarteteSachverhalte = new Set(fallsammlungsTabellenGeometrie.sachverhalt.map(([id]) => id));
+const erwarteteLoesungen = new Set(fallsammlungsTabellenGeometrie.loesung.map(([id]) => id));
+const fehlendeSachverhalte = [...erwarteteSachverhalte].filter((id) => !gefundeneSachverhalte.has(id));
+const fehlendeLoesungen = [...erwarteteLoesungen].filter((id) => !gefundeneLoesungen.has(id));
+if (fehlendeSachverhalte.length) console.error("Fehlende Falltabellen:", fehlendeSachverhalte.join(", "));
+if (fehlendeLoesungen.length) console.error("Fehlende Lösungstabellen:", fehlendeLoesungen.join(", "));
 
 assert.equal(gefundeneSachverhalte.size, 46, `46 Falltabellen erwartet, erkannt: ${gefundeneSachverhalte.size}`);
 assert.equal(gefundeneLoesungen.size, 204, `204 Lösungstabellen erwartet, erkannt: ${gefundeneLoesungen.size}`);
