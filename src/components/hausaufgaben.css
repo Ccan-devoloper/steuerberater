@@ -1,5 +1,8 @@
 .hausaufgaben-aktiv > :not(.hausaufgaben-view) { display: none !important; }
 .hausaufgaben-nav-host { display: contents; }
+.hausaufgaben-nav { width: 100%; min-width: 0; }
+.hausaufgaben-nav > svg { width: 18px; height: 18px; max-width: none; flex: 0 0 18px; }
+.hausaufgaben-nav > span { min-width: 0; white-space: nowrap; }
 .hausaufgaben-view { display: block; }
 .hausaufgaben-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; margin-bottom: 1.5rem; }
 .hausaufgaben-head h1 { margin: .25rem 0 .5rem; }
@@ -7,7 +10,7 @@
 .hausaufgaben-tools input, .hausaufgaben-tools select { width: 100%; border: 1px solid var(--line); border-radius: .7rem; background: var(--panel); color: var(--text); padding: .8rem .9rem; font: inherit; }
 .hausaufgaben-tools > span { color: var(--muted); white-space: nowrap; }
 .hausaufgaben-list { display: grid; gap: 1.25rem; }
-.hausaufgabe { scroll-margin-top: 8rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--panel); padding: 1.4rem; box-shadow: var(--shadow); }
+.hausaufgabe { scroll-margin-top: 8rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--panel); padding: 1.4rem; box-shadow: var(--shadow); content-visibility: auto; contain-intrinsic-size: 0 760px; }
 .hausaufgabe__kopf { display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; border-bottom: 1px solid var(--line); padding-bottom: 1rem; }
 .hausaufgabe__kopf h2 { margin: .25rem 0 .35rem; }
 .hausaufgabe__kopf p { margin: 0; color: var(--muted); }
@@ -42,6 +45,6 @@
   .hausaufgaben-head .btn { margin-top: 1rem; }
   .hausaufgaben-tools { grid-template-columns: 1fr; }
   .hausaufgabe__spalten { grid-template-columns: 1fr; }
-  .hausaufgabe { padding: 1rem; }
+  .hausaufgabe { padding: 1rem; contain-intrinsic-size: 0 980px; }
   .hausaufgabe__volltext { font-size: .75rem; max-height: 65vh; }
 }
