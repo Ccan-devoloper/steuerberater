@@ -9,6 +9,8 @@ import Fallsammlungsfaelle from "./components/Fallsammlungsfaelle";
 import Falluebersicht from "./components/Falluebersicht";
 import Hausaufgabenseite, { HausaufgabenZuModul, IconHausaufgabe } from "./components/Hausaufgaben";
 import { Norm, Normkette, Notiz, Buchungssatz, Bilanzspiegel } from "./components/Bausteine";
+import Pruefungsschemata, { schemata as pruefungsschemata } from "./components/Pruefungsschemata";
+import SchemaPostitEnhancer from "./components/SchemaPostitEnhancer";
 import { laden, sichern, useFortschritt, anteil } from "./lib/fortschritt";
 import {
   IconCockpit, IconModule, IconSchema, IconFormel, IconRegister, IconTraining,
@@ -39,7 +41,7 @@ const abbaFelder = [
 ];
 
 /* =========================================================== Hauptkomponente */
-export default function App() {
+export default function App({ onKlausurwechsel }) {
   const [ansicht, setAnsicht] = useState("cockpit");
   const [modulId, setModulId] = useState(null);
   const [suche, setSuche] = useState("");
@@ -129,9 +131,17 @@ export default function App() {
           <b>K1</b>
           <span><strong>Verfahrensrecht</strong> <small>und andere Steuerarten</small></span>
         </button>
-        <button className="klausur" disabled>
+        <button
+          className="klausur"
+          onClick={onKlausurwechsel ? () => onKlausurwechsel("kst") : undefined}
+          disabled={!onKlausurwechsel}
+          title={onKlausurwechsel ? "Körperschaftsteuer-Campus öffnen" : undefined}
+        >
           <b>K2</b>
-          <span><strong>Ertragsteuerrecht</strong> <small>ESt · KSt · GewSt</small></span>
+          <span>
+            <strong>Ertragsteuerrecht</strong>{" "}
+            <small>{onKlausurwechsel ? "ESt · KSt verfügbar · GewSt" : "ESt · KSt · GewSt"}</small>
+          </span>
         </button>
         <button className="klausur" aria-current="true">
           <b>K3</b>
@@ -568,6 +578,22 @@ function Modulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen, oeffnenH
 }
 
 /* =========================================================== Schemaseite */
+/* Die sechs großen Prüfungsschemata werden regulär hier gerendert. Das Attribut
+   data-pruefungsschemata-portal bleibt als Stil-Anker erhalten — SchemaPostitEnhancer.css
+   hängt sein Lesefreundlich-Layout daran auf. */
+function Schemablock() {
+  /* Als Zustand, nicht als Ref: SchemaPostitEnhancer braucht den Knoten als
+     Abhängigkeit seines Effekts, und ref.current löst kein erneutes Rendern aus. */
+  const [behaelter, setBehaelter] = useState(null);
+  const [schema, setSchema] = useState(pruefungsschemata[0].id);
+  return (
+    <div data-pruefungsschemata-portal ref={setBehaelter}>
+      <Pruefungsschemata aktiv={schema} onWechsel={setSchema} />
+      <SchemaPostitEnhancer root={behaelter} signal={schema} />
+    </div>
+  );
+}
+
 function Schemaseite() {
   return (
     <>
@@ -583,6 +609,7 @@ function Schemaseite() {
       </div>
 
       <AbbaLeiste />
+      <Schemablock />
 
       <section className="panel">
         <h2>Schritt für Schritt</h2>

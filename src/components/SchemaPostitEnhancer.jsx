@@ -233,36 +233,25 @@ function schemaBloeckeAktualisieren(root) {
   root.querySelectorAll("article.panel > div > section").forEach(blockAktualisieren);
 }
 
-export default function SchemaPostitEnhancer({ root }) {
+/* `signal` ist die Kennung des gerade angezeigten Schemas. Ändert sie sich, hat
+   React neuen Text gerendert und die Post-its werden neu gesetzt. Das erledigte
+   früher ein MutationObserver, der sich vor jeder eigenen Änderung abmelden und
+   danach wieder anmelden musste — ein Umweg, der nur nötig war, solange die
+   Komponente per Portal neben der App hing. */
+export default function SchemaPostitEnhancer({ root, signal }) {
   useEffect(() => {
     if (!root) return undefined;
 
-    let frame = 0;
-    let observer;
-
-    const aktualisieren = () => {
-      cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(() => {
-        observer.disconnect();
-        schemaBloeckeAktualisieren(root);
-        observer.observe(root, { childList: true, subtree: true, characterData: true });
-      });
-    };
-
-    observer = new MutationObserver(aktualisieren);
     schemaBloeckeAktualisieren(root);
-    observer.observe(root, { childList: true, subtree: true, characterData: true });
 
     return () => {
-      cancelAnimationFrame(frame);
-      observer.disconnect();
       root.querySelectorAll("[data-schema-norm-postit]").forEach((postit) => {
         postit.replaceWith(document.createTextNode(postit.textContent || ""));
       });
       root.querySelectorAll("[data-schema-postits]").forEach((element) => element.remove());
       root.normalize();
     };
-  }, [root]);
+  }, [root, signal]);
 
   return null;
 }

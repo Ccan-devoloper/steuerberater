@@ -8,7 +8,7 @@ const farben = {
   neutral: "var(--tinte)",
 };
 
-const schemata = [
+export const schemata = [
   {
     id: "vermoegensgegenstand-wirtschaftsgut",
     titel: "Prüfungsschema Vermögensgegenstand (HB) / Wirtschaftsgut (StB)",
@@ -391,8 +391,14 @@ function SchemaBlock({ block }) {
   );
 }
 
-export default function Pruefungsschemata() {
-  const [aktiv, setAktiv] = useState(schemata[0].id);
+/* `aktiv` und `onWechsel` können von außen gesetzt werden. Dadurch weiß
+   SchemaPostitEnhancer, wann sich der angezeigte Text geändert hat, und braucht
+   keinen MutationObserver mehr, um das selbst herauszufinden. Ohne die Props
+   verhält sich die Komponente wie bisher. */
+export default function Pruefungsschemata({ aktiv: aktivVonAussen, onWechsel }) {
+  const [aktivIntern, setAktivIntern] = useState(schemata[0].id);
+  const aktiv = aktivVonAussen ?? aktivIntern;
+  const setAktiv = onWechsel ?? setAktivIntern;
   const schema = schemata.find((s) => s.id === aktiv) || schemata[0];
 
   return (
