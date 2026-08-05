@@ -5,13 +5,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 ## Was drin ist
 
-- **75 Lernmodule**: 22 Einzelunternehmen, 5 Personengesellschaft, 5 Kapitalgesellschaft,
+- **81 Lernmodule**: 27 Einzelunternehmen, 5 Personengesellschaft, 6 Kapitalgesellschaft,
   5 Klausurtechnik, 38 durchgerechnete Originalfälle
-- **Fallsammlung** mit 90 Fällen und Lösungen — 74 einem Lernmodul zugeordnet, 16 offen
+- **Fallsammlung** mit 90 Fällen und Lösungen, alle einem Lernmodul zugeordnet
 - **Hausaufgaben**: neun Fachtermine mit Aufgabenüberblick, Lösungsschwerpunkten, Normen und
   1:1 übernommenem Volltext (wird erst beim Aufklappen nachgeladen)
 - **27 datengetriebene Schaubilder** (SVG, dunkelmodusfähig) — Flussdiagramme, Entscheidungsbäume, Zeitstrahlen, Säulen, HB/StB-Gegenüberstellungen, Stufenschemata
-- **Normenregister** mit 334 Vorschriften, automatisch aus den Normenketten aller Module erzeugt
+- **Normenregister** mit 370 Vorschriften, automatisch aus den Normenketten aller Module erzeugt
 - **Formelsammlung** mit 12 Rechenwegen inkl. belegter Beispielrechnungen
 - **Training**: 24 Quizfragen, 24 Karteikarten, Zeitrechner (3,6 Minuten je Punkt)
 - **Lernplan** über acht Wochen, Fortschritt via `localStorage`
@@ -57,6 +57,8 @@ src/
     module-vertiefung-c.js    Module 35–38 und Fälle 113–115
     module-vertiefung-d.js … -i.js
                               Fälle 116–137 aus den weiteren Kursmitschriften
+    module-vertiefung-j.js    Module 39–44 (latente Steuern, Einlagen/Entnahmen,
+                              Schuldzinsen, § 4f/§ 5 Abs. 7 EStG, Bewertungseinheiten)
     modules-faelle.js         Fälle 101–112 aus den Kursmitschriften
     fallsammlung.js           90 Fälle mit Lösungen, nach Modul gruppiert
     faelle-offen.js           Fälle ohne eindeutig einschlägiges Lernmodul

@@ -76,7 +76,10 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
         <div className="falluebersicht__filter">
           <button type="button" aria-pressed={filter === "alle"} onClick={() => setFilter("alle")}>Alle {alleFaelle.length}</button>
           <button type="button" aria-pressed={filter === "verknuepft"} onClick={() => setFilter("verknuepft")}>Mit Modul {zugeordneteFaelle.length}</button>
-          <button type="button" aria-pressed={filter === "offen"} onClick={() => setFilter("offen")}>Ohne Modul {offeneFaelle.length}</button>
+          {/* Der Filter erscheint nur, solange es überhaupt nicht zugeordnete Fälle gibt. */}
+          {offeneFaelle.length > 0 && (
+            <button type="button" aria-pressed={filter === "offen"} onClick={() => setFilter("offen")}>Ohne Modul {offeneFaelle.length}</button>
+          )}
         </div>
       </section>
 

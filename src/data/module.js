@@ -9,6 +9,7 @@ import vertiefungF from "./module-vertiefung-f.js";
 import vertiefungG from "./module-vertiefung-g.js";
 import vertiefungH from "./module-vertiefung-h.js";
 import vertiefungI from "./module-vertiefung-i.js";
+import vertiefungJ from "./module-vertiefung-j.js";
 import faelle from "./modules-faelle.js"; // unveränderte Fallsammlung aus den Kursmitschriften
 import { faelleNachModul } from "./fallsammlung.js";
 
@@ -20,7 +21,7 @@ import { faelleNachModul } from "./fallsammlung.js";
 const grundmodule = [
   ...basisA, ...basisB,
   ...vertiefungA, ...vertiefungB, ...vertiefungC, ...vertiefungD, ...vertiefungE,
-  ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI,
+  ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI, ...vertiefungJ,
   ...faelle,
 ].sort((a, b) => a.id - b.id);
 export const module = grundmodule.map((m) => ({

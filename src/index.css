@@ -252,9 +252,11 @@ html[data-theme="dark"] .these p { color: var(--ink-weich); }
 .abba__feld span { display: block; font-family: var(--mono); font-size: 11px; color: var(--ink-weich); line-height: 1.45; margin-top: 3px; }
 
 /* Textziffern */
-.tz { display: grid; grid-template-columns: 62px minmax(0, 1fr); gap: 0 18px; padding: 22px 0; border-top: 1px solid var(--linie-fein); }
+.tz { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 0 18px; padding: 22px 0; border-top: 1px solid var(--linie-fein); }
 .tz:first-child { border-top: 0; }
-.tz__no { font-family: var(--mono); font-size: 11.5px; color: var(--ink-weich); padding-top: 4px; border-right: 1px solid var(--linie-fein); }
+/* Die Spalte trägt Wörter wie „Fallsammlung“. Ohne die Umbruchsperre greift
+   das globale overflow-wrap: anywhere und zerlegt sie mitten im Wort. */
+.tz__no { font-family: var(--mono); font-size: 11.5px; color: var(--ink-weich); padding-top: 4px; border-right: 1px solid var(--linie-fein); overflow-wrap: normal; word-break: keep-all; hyphens: none; }
 .tz__no b { display: block; color: var(--tinte); font-weight: 600; }
 .tz__titel { font-size: 20px; margin-bottom: 10px; }
 .tz__body > *:last-child { margin-bottom: 0; }
@@ -722,3 +724,10 @@ svg { max-width: 100%; }
   .rail__link { padding-left: 8px; padding-right: 8px; }
   .page { padding-left: 10px; padding-right: 10px; }
 }
+
+
+/* Fortschritt je Bereich und Zurücksetzen */
+.bereich__balken { height: 5px; border: 1px solid var(--linie); background: var(--feld); margin-top: 4px; }
+.bereich__balken span { display: block; height: 100%; background: var(--gruen); }
+.bereich__stand { font-family: var(--mono); font-size: 11px; color: var(--ink-weich); margin-top: 4px; }
+.rail__box-reset { margin-top: 8px; padding: 0; border: 0; background: none; color: var(--tinte); font-family: var(--mono); font-size: 11px; text-decoration: underline; text-underline-offset: 2px; }

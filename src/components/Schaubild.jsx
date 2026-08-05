@@ -44,12 +44,38 @@ function Zeilen({ x, y, lines, size = 11.5, fill = F.weich, mono, lh = 13 }) {
   ));
 }
 
+/* Bricht eine Kastenüberschrift an Wortgrenzen um, damit sie im Rechteck
+   bleibt. Ohne den Umbruch läuft ein langer Titel seitlich heraus und
+   überdeckt im Entscheidungsbaum den Zweigpfeil samt Beschriftung.
+   0,56 em ist die mittlere Zeichenbreite der Sans in diesem Schnitt. */
+function umbrechen(text, breite, size) {
+  const proZeile = Math.max(8, Math.floor((breite - 16) / (size * 0.56)));
+  const worte = String(text).split(" ");
+  const zeilen = [];
+  let aktuell = "";
+  for (const wort of worte) {
+    if (!aktuell) aktuell = wort;
+    else if ((aktuell + " " + wort).length <= proZeile) aktuell += " " + wort;
+    else { zeilen.push(aktuell); aktuell = wort; }
+  }
+  if (aktuell) zeilen.push(aktuell);
+  return zeilen;
+}
+
 function Kasten({ x, y, w, h, titel, zeilen = [], ton = "papier", mono }) {
-  const start = zeilen.length ? y + h / 2 - (zeilen.length * 13) / 2 + 2 : 0;
+  const size = 13, zh = size + 2;
+  const titelZeilen = titel ? umbrechen(titel, w, size) : [];
+  const versatz = ((titelZeilen.length - 1) * zh) / 2;
+  const start = zeilen.length ? y + h / 2 - (zeilen.length * 13) / 2 + 2 + versatz : 0;
+  const ersteZeile = zeilen.length
+    ? start - 6 - (titelZeilen.length - 1) * zh
+    : y + h / 2 + 4.5 - versatz;
   return (
     <g>
       <rect x={x} y={y} width={w} height={h} fill={flaeche[ton]} stroke={strich[ton]} strokeWidth="1.4" />
-      {titel && <Text x={x + w / 2} y={zeilen.length ? start - 6 : y + h / 2 + 4.5} size={13} weight={600}>{titel}</Text>}
+      {titelZeilen.map((zeile, i) => (
+        <Text key={i} x={x + w / 2} y={ersteZeile + i * zh} size={size} weight={600}>{zeile}</Text>
+      ))}
       {zeilen.length > 0 && <Zeilen x={x + w / 2} y={start + 12} lines={zeilen} mono={mono} />}
     </g>
   );
@@ -93,9 +119,9 @@ function Entscheidung({ spec }) {
         return (
           <g key={i}>
             <Kasten x={xFrage} y={y} w={bw} h={bh} titel={e.frage} zeilen={e.hinweis ? [e.hinweis] : []} ton="neutral" />
-            <line x1={xFrage + bw} y1={y + bh / 2} x2={xFrage + bw + 42} y2={y + bh / 2} stroke={F.ink} strokeWidth="1.3" markerEnd="url(#sb-pfeil)" />
-            <Text x={xFrage + bw + 21} y={y + bh / 2 - 7} size={11} mono fill={F.rot}>{e.zweigLabel || "ja"}</Text>
-            <Kasten x={xFrage + bw + 48} y={y + 6} w={220} h={bh - 12} titel={e.zweig} ton={e.zweigTon || "rot"} />
+            <line x1={xFrage + bw} y1={y + bh / 2} x2={xFrage + bw + 56} y2={y + bh / 2} stroke={F.ink} strokeWidth="1.3" markerEnd="url(#sb-pfeil)" />
+            <Text x={xFrage + bw + 28} y={y + bh / 2 - 7} size={11} mono fill={F.rot}>{e.zweigLabel || "ja"}</Text>
+            <Kasten x={xFrage + bw + 62} y={y + 6} w={220} h={bh - 12} titel={e.zweig} ton={e.zweigTon || "rot"} />
             {i < ebenen.length - 1 && (
               <>
                 <line x1={xFrage + bw / 2} y1={y + bh} x2={xFrage + bw / 2} y2={y + dy - 2} stroke={F.ink} strokeWidth="1.3" markerEnd="url(#sb-pfeil)" />

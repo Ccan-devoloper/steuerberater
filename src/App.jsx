@@ -9,27 +9,15 @@ import Fallsammlungsfaelle from "./components/Fallsammlungsfaelle";
 import Falluebersicht from "./components/Falluebersicht";
 import Hausaufgabenseite, { HausaufgabenZuModul, IconHausaufgabe } from "./components/Hausaufgaben";
 import { Norm, Normkette, Notiz, Buchungssatz, Bilanzspiegel } from "./components/Bausteine";
+import { laden, sichern, useFortschritt, anteil } from "./lib/fortschritt";
 import {
   IconCockpit, IconModule, IconSchema, IconFormel, IconRegister, IconTraining,
   IconFaelle, IconPlan, IconSuche, IconSonne, IconMond, IconHaken,
 } from "./components/Icons";
 
-/* -------------------------------------------------------------- Speicher */
-const laden = (schluessel, standard) => {
-  try {
-    const roh = localStorage.getItem(schluessel);
-    return roh ? JSON.parse(roh) : standard;
-  } catch {
-    return standard;
-  }
-};
-const sichern = (schluessel, wert) => {
-  try {
-    localStorage.setItem(schluessel, JSON.stringify(wert));
-  } catch {
-    /* Speicher nicht verfügbar – Fortschritt gilt dann nur für diese Sitzung. */
-  }
-};
+/* Gültige Kennungen für die Bereinigung des gespeicherten Fortschritts. */
+const modulIds = new Set(alleModule.map((m) => m.id));
+const wochenIds = wochenplan.map((_, i) => i);
 
 const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
@@ -57,26 +45,21 @@ export default function App() {
   const [suche, setSuche] = useState("");
   const [bereich, setBereich] = useState("alle");
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
-  const [erledigt, setErledigt] = useState(() => laden("stb-erledigt", []));
-  const [planFertig, setPlanFertig] = useState(() => laden("stb-plan", []));
   const [hausaufgabenAnker, setHausaufgabenAnker] = useState(null);
+
+  /* Beide Stände werden beim Laden gegen den heutigen Bestand bereinigt. */
+  const module = useFortschritt("stb-erledigt", modulIds);
+  const plan = useFortschritt("stb-plan", (i) => wochenIds.includes(i));
+  const erledigt = module.werte;
+  const umschalten = module.umschalten;
 
   useEffect(() => {
     document.documentElement.dataset.theme = dunkel ? "dark" : "light";
     sichern("stb-dunkel", dunkel);
   }, [dunkel]);
   useEffect(() => {
-    sichern("stb-erledigt", erledigt);
-  }, [erledigt]);
-  useEffect(() => {
-    sichern("stb-plan", planFertig);
-  }, [planFertig]);
-  useEffect(() => {
     window.scrollTo({ top: 0, behavior: "auto" });
   }, [ansicht, modulId]);
-
-  const umschalten = (id) =>
-    setErledigt((alt) => (alt.includes(id) ? alt.filter((x) => x !== id) : [...alt, id]));
 
   const gefiltert = useMemo(() => {
     const q = suche.trim().toLowerCase();
@@ -92,7 +75,7 @@ export default function App() {
   }, [suche, bereich]);
 
   const modul = modulId ? alleModule.find((m) => m.id === modulId) : null;
-  const quote = Math.round((erledigt.length / alleModule.length) * 100);
+  const quote = anteil(erledigt.length, alleModule.length);
 
   const oeffnen = (id) => {
     setModulId(id);
@@ -174,6 +157,16 @@ export default function App() {
           <b>Fortschritt</b>
           <strong>{erledigt.length} / {alleModule.length}</strong>
           <p>Module als bearbeitet markiert</p>
+          {erledigt.length > 0 && (
+            <button
+              className="rail__box-reset"
+              onClick={() => {
+                if (window.confirm("Bearbeitungsstand aller Module zurücksetzen?")) module.zuruecksetzen();
+              }}
+            >
+              zurücksetzen
+            </button>
+          )}
         </div>
       </aside>
 
@@ -220,7 +213,7 @@ export default function App() {
         {ansicht === "formeln" && <Formelseite />}
         {ansicht === "register" && <Registerseite oeffnen={oeffnen} />}
         {ansicht === "training" && <Trainingsseite />}
-        {ansicht === "plan" && <Planseite fertig={planFertig} setFertig={setPlanFertig} />}
+        {ansicht === "plan" && <Planseite fertig={plan.werte} umschalten={plan.umschalten} />}
       </main>
     </div>
   );
@@ -269,14 +262,22 @@ function Cockpit({ quote, erledigt, oeffnen, setAnsicht, setBereich }) {
       <section className="abschnitt">
         <h2>Aufbau der Plattform</h2>
         <div className="raster raster--3">
-          {["EU", "PersG", "KapG", "Technik", "Fall"].map((id) => (
-            <article className="bereich" key={id}>
-              <b>{zahl(id)} Module</b>
-              <h3>{bereichName[id]}</h3>
-              <p>{bereichBeschreibung[id]}</p>
-              <button onClick={() => { setBereich(id); setAnsicht("module"); }}>Module öffnen →</button>
-            </article>
-          ))}
+          {["EU", "PersG", "KapG", "Technik", "Fall"].map((id) => {
+            const gesamt = zahl(id);
+            const fertig = alleModule.filter((m) => m.area === id && erledigt.includes(m.id)).length;
+            return (
+              <article className="bereich" key={id}>
+                <b>{gesamt} Module</b>
+                <h3>{bereichName[id]}</h3>
+                <p>{bereichBeschreibung[id]}</p>
+                <div className="bereich__balken" role="img" aria-label={`${fertig} von ${gesamt} bearbeitet`}>
+                  <span style={{ width: `${anteil(fertig, gesamt)}%` }} />
+                </div>
+                <small className="bereich__stand">{fertig} von {gesamt} bearbeitet</small>
+                <button onClick={() => { setBereich(id); setAnsicht("module"); }}>Module öffnen →</button>
+              </article>
+            );
+          })}
           <article className="bereich">
             <b>{formeln.length} Rechenwege</b>
             <h3>Formelsammlung</h3>
@@ -903,9 +904,7 @@ function Zeitrechner() {
 }
 
 /* ============================================================== Planseite */
-function Planseite({ fertig, setFertig }) {
-  const umschalten = (i) =>
-    setFertig((alt) => (alt.includes(i) ? alt.filter((x) => x !== i) : [...alt, i]));
+function Planseite({ fertig, umschalten }) {
   return (
     <>
       <div className="pagehead">
