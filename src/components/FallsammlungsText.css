@@ -6,17 +6,9 @@
   line-height: 1.56;
 }
 
-.fallsammlung__absatz {
-  margin: 0;
-}
-
-.fallsammlung__absatz--kursiv {
-  font-style: italic;
-}
-
-.fallsammlung__absatz strong {
-  font-weight: 700;
-}
+.fallsammlung__absatz { margin: 0; }
+.fallsammlung__absatz--kursiv { font-style: italic; }
+.fallsammlung__absatz strong { font-weight: 700; }
 
 .fallsammlung__zwischenkopf {
   margin: .42rem 0 -.1rem;
@@ -27,14 +19,8 @@
   color: var(--ink);
 }
 
-.fallsammlung__liste {
-  margin: 0;
-  padding-left: 1.35rem;
-}
-
-.fallsammlung__liste li + li {
-  margin-top: .22rem;
-}
+.fallsammlung__liste { margin: 0; padding-left: 1.35rem; }
+.fallsammlung__liste li + li { margin-top: .22rem; }
 
 .fallsammlung__formel {
   width: max-content;
@@ -76,31 +62,54 @@
   border: 1px solid currentColor;
   vertical-align: top;
   color: var(--ink);
+  font-weight: 400;
 }
 
-.fallsammlung__tabelle td:first-child {
+.fallsammlung__tabelle:not(.fallsammlung__tabelle--original) td:first-child {
   min-width: min(22rem, 52vw);
 }
 
+.fallsammlung__tabelle--original {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.fallsammlung__tabelle--original td {
+  min-width: 0;
+  white-space: pre-line;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.fallsammlung__tabellenzelle--leer {
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+.fallsammlung__tabellenzelle--left { text-align: left; }
+.fallsammlung__tabellenzelle--center { text-align: center; }
+.fallsammlung__tabellenzelle--right { text-align: right; }
+.fallsammlung__tabellenzelle--top { vertical-align: top !important; }
+.fallsammlung__tabellenzelle--middle { vertical-align: middle !important; }
+.fallsammlung__tabellenzelle--bottom { vertical-align: bottom !important; }
+.fallsammlung__tabellenzelle--fett { font-weight: 700 !important; }
+.fallsammlung__tabellenzelle--kursiv { font-style: italic; }
+
 .fallsammlung__tabellenzelle--zahl {
   text-align: right;
-  white-space: nowrap;
+  white-space: nowrap !important;
 }
 
 .fallsammlung__tabellenzelle--operator {
   min-width: 2.25rem !important;
-  width: 2.25rem;
   text-align: center;
-  white-space: nowrap;
+  white-space: nowrap !important;
 }
 
-.fallsammlung__tabellenzeile--summe {
-  font-weight: 700;
-}
-
-.fallsammlung__loesung .fallsammlung__tabelle {
-  background: var(--papier);
-}
+.fallsammlung__tabellenzeile--summe { font-weight: 700; }
+.fallsammlung__tabellenzeile--summe td { font-weight: inherit; }
+.fallsammlung__loesung .fallsammlung__tabelle { background: var(--papier); }
 
 @media (max-width: 640px) {
   .fallsammlung__text.fallsammlung__dokument {
@@ -108,28 +117,26 @@
     line-height: 1.5;
   }
 
-  .fallsammlung__tabelle {
+  .fallsammlung__tabelle:not(.fallsammlung__tabelle--original) {
     width: max-content;
     min-width: 100%;
     font-size: .91em;
   }
 
   .fallsammlung__tabelle td {
-    min-width: 4.75rem;
     padding: .25rem .42rem;
   }
 
-  .fallsammlung__tabelle td:first-child {
+  .fallsammlung__tabelle:not(.fallsammlung__tabelle--original) td {
+    min-width: 4.75rem;
+  }
+
+  .fallsammlung__tabelle:not(.fallsammlung__tabelle--original) td:first-child {
     min-width: 13rem;
   }
 }
 
 @media print {
-  .fallsammlung__tabelle-rahmen {
-    overflow: visible;
-  }
-
-  .fallsammlung__tabelle {
-    min-width: 0;
-  }
+  .fallsammlung__tabelle-rahmen { overflow: visible; }
+  .fallsammlung__tabelle { min-width: 0 !important; }
 }

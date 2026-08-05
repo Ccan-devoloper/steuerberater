@@ -28,7 +28,7 @@ function Absatz({ block }) {
   );
 }
 
-function Tabelle({ block, index }) {
+function StandardTabelle({ block, index }) {
   return (
     <div className="fallsammlung__tabelle-rahmen" role="region" aria-label={`Tabelle ${index + 1}`} tabIndex={0}>
       <table className="fallsammlung__tabelle">
@@ -54,8 +54,77 @@ function Tabelle({ block, index }) {
   );
 }
 
-function FallsammlungsText({ wert, variante }) {
-  const blocks = useMemo(() => parseFallsammlungsText(wert, variante), [wert, variante]);
+function OriginalTabelle({ block, index }) {
+  const startCells = new Map();
+  const coveredCells = new Set();
+
+  block.cells.forEach((cell) => {
+    startCells.set(`${cell.row}:${cell.col}`, cell);
+    for (let row = cell.row; row < cell.row + cell.rowSpan; row += 1) {
+      for (let col = cell.col; col < cell.col + cell.colSpan; col += 1) {
+        if (row !== cell.row || col !== cell.col) coveredCells.add(`${row}:${col}`);
+      }
+    }
+  });
+
+  return (
+    <div className="fallsammlung__tabelle-rahmen" role="region" aria-label={`Tabelle ${index + 1}`} tabIndex={0}>
+      <table className="fallsammlung__tabelle fallsammlung__tabelle--original" data-source-table={block.sourceId}>
+        <colgroup>
+          {block.columns.map((width, columnIndex) => (
+            <col style={{ width: `${width}%` }} key={columnIndex} />
+          ))}
+        </colgroup>
+        <tbody>
+          {Array.from({ length: block.rowCount }, (_, row) => (
+            <tr key={row}>
+              {block.columns.map((_, col) => {
+                const key = `${row}:${col}`;
+                const cell = startCells.get(key);
+                if (coveredCells.has(key)) return null;
+                if (!cell) {
+                  return <td className="fallsammlung__tabellenzelle--leer" aria-hidden="true" key={key} />;
+                }
+
+                const klassen = [
+                  `fallsammlung__tabellenzelle--${cell.align}`,
+                  `fallsammlung__tabellenzelle--${cell.valign}`,
+                  cell.bold ? "fallsammlung__tabellenzelle--fett" : "",
+                  cell.italic ? "fallsammlung__tabellenzelle--kursiv" : "",
+                  cell.numeric ? "fallsammlung__tabellenzelle--zahl" : "",
+                  cell.operator ? "fallsammlung__tabellenzelle--operator" : "",
+                ].filter(Boolean).join(" ");
+
+                return (
+                  <td
+                    className={klassen}
+                    colSpan={cell.colSpan > 1 ? cell.colSpan : undefined}
+                    rowSpan={cell.rowSpan > 1 ? cell.rowSpan : undefined}
+                    key={key}
+                  >
+                    <TextMitUmbruch text={cell.text} />
+                  </td>
+                );
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function Tabelle({ block, index }) {
+  return block.original
+    ? <OriginalTabelle block={block} index={index} />
+    : <StandardTabelle block={block} index={index} />;
+}
+
+function FallsammlungsText({ wert, variante, sourcePage }) {
+  const blocks = useMemo(
+    () => parseFallsammlungsText(wert, variante, { sourcePage }),
+    [wert, variante, sourcePage],
+  );
   let tabellenIndex = 0;
 
   return (
