@@ -40,7 +40,10 @@ const daten = JSON.parse(json);
 for (const [termin, [zeichen, hash]] of Object.entries(erwartet)) {
   const text = daten[termin];
   if (typeof text !== "string") throw new Error(`Fachtermin ${termin} fehlt.`);
-  if (text.length !== zeichen) throw new Error(`Fachtermin ${termin}: ${text.length} statt ${zeichen} Zeichen.`);
+  const unicodeZeichen = Array.from(text).length;
+  if (unicodeZeichen !== zeichen) {
+    throw new Error(`Fachtermin ${termin}: ${unicodeZeichen} statt ${zeichen} Unicode-Zeichen.`);
+  }
   const istHash = createHash("sha256").update(text).digest("hex");
   if (istHash !== hash) throw new Error(`Fachtermin ${termin}: SHA-256 stimmt nicht.`);
 }
