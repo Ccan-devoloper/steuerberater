@@ -1,6 +1,5 @@
 import React from "react";
-
-const text = (wert) => Array.isArray(wert) ? wert.join("\n\n") : String(wert || "");
+import FallsammlungsText from "./FallsammlungsText.jsx";
 
 export default function Fallsammlungsfaelle({
   faelle,
@@ -36,13 +35,13 @@ export default function Fallsammlungsfaelle({
             )}
             <section className="fallsammlung__sachverhalt">
               <h4>Sachverhalt</h4>
-              <div className="fallsammlung__text">{text(fall.sachverhalt)}</div>
+              <FallsammlungsText wert={fall.sachverhalt} variante="sachverhalt" />
             </section>
             <details className="fallsammlung__loesung">
               <summary>Lösung anzeigen</summary>
               <div className="fallsammlung__loesungsinhalt">
                 <h4>Lösung</h4>
-                <div className="fallsammlung__text">{text(fall.loesung)}</div>
+                <FallsammlungsText wert={fall.loesung} variante="loesung" />
               </div>
             </details>
             <footer>Fallsammlung S. {fall.quelle?.fall_seite ?? "–"} · Lösung S. {fall.quelle?.loesung_seite ?? "–"}</footer>
