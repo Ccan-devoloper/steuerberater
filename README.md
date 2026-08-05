@@ -5,16 +5,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 ## Was drin ist
 
-- **81 Lernmodule**: 27 Einzelunternehmen, 5 Personengesellschaft, 6 Kapitalgesellschaft,
-  5 Klausurtechnik, 38 durchgerechnete Originalfälle
+- **87 Lernobjekte**: 27 Einzelunternehmen, 9 Personengesellschaft, 7 Kapitalgesellschaft,
+  6 Klausurtechnik, 38 durchgerechnete Originalfälle
 - **Fallsammlung** mit 90 Fällen und Lösungen, alle einem Lernmodul zugeordnet
 - **Hausaufgaben**: neun Fachtermine mit Aufgabenüberblick, Lösungsschwerpunkten, Normen und
   1:1 übernommenem Volltext (wird erst beim Aufklappen nachgeladen)
-- **27 datengetriebene Schaubilder** (SVG, dunkelmodusfähig) — Flussdiagramme, Entscheidungsbäume, Zeitstrahlen, Säulen, HB/StB-Gegenüberstellungen, Stufenschemata
-- **Normenregister** mit 370 Vorschriften, automatisch aus den Normenketten aller Module erzeugt
-- **Formelsammlung** mit 12 Rechenwegen inkl. belegter Beispielrechnungen
-- **Training**: 24 Quizfragen, 24 Karteikarten, Zeitrechner (3,6 Minuten je Punkt)
-- **Lernplan** über acht Wochen, Fortschritt via `localStorage`
+- **35 datengetriebene Schaubilder** (SVG, dunkelmodusfähig) — Flussdiagramme, Entscheidungsbäume, Zeitstrahlen, Säulen, HB/StB-Gegenüberstellungen, Stufenschemata
+- **Normenregister** mit 420 Vorschriften, automatisch aus den Normenketten aller Module erzeugt
+- **Formelsammlung** mit 19 Rechenwegen inkl. belegter Beispielrechnungen
+- **Training**: 46 Quizfragen und 40 Karteikarten mit Themenfilter, Fehlerspeicher und
+  Selbsteinschätzung, Zeitrechner (3,6 Minuten je Punkt)
+- **Klausurmodus**: Fälle unter Zeitbedingungen — Punkte aus der veranschlagten Zeit,
+  laufende Uhr, gesperrte Lösung, dreistufige Selbstbewertung und Auswertung mit Modullinks
+- **Lernplan** über zwölf Wochen, Fortschritt via `localStorage`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
@@ -36,8 +39,9 @@ als auch unter GitHub Pages in einem Unterverzeichnis. Der Workflow unter
 
 ```
 src/
-  App.jsx                     Alle Ansichten: Cockpit, Module, Fälle, Hausaufgaben,
-                              Schema, Formeln, Normenregister, Training, Lernplan
+  App.jsx                     Alle Ansichten: Cockpit, Module, Fälle, Klausurmodus,
+                              Hausaufgaben, Schema, Formeln, Normenregister,
+                              Training, Lernplan
   index.css                   Designsystem (ein Block, keine Überschreibungen)
   components/
     Schaubild.jsx             SVG-Renderer für sechs Diagrammtypen
@@ -47,6 +51,7 @@ src/
     Fallsammlungsfaelle.jsx   einzelne Fallkarte, Lösung erst auf Klick
     FallsammlungsText.jsx     PDF-getreue Wiedergabe von Text und Tabellen
     Hausaufgaben.jsx          Hausaufgabenansicht + Rückverweis auf der Modulseite
+    Klausurmodus.jsx          Klausurlauf mit Uhr, Selbstbewertung und Auswertung
     Pruefungsschemata.jsx     die sechs großen Prüfungsschemata
   data/
     module.js                 Sammelindex (nach Kennziffer sortiert) + Normenregister
@@ -59,6 +64,9 @@ src/
                               Fälle 116–137 aus den weiteren Kursmitschriften
     module-vertiefung-j.js    Module 39–44 (latente Steuern, Einlagen/Entnahmen,
                               Schuldzinsen, § 4f/§ 5 Abs. 7 EStG, Bewertungseinheiten)
+    module-vertiefung-k.js    Module 45–50 (§ 15a EStG, Gesellschafterwechsel,
+                              Betriebsveräußerung/§ 34 EStG, Realteilung,
+                              Gewerbesteuerrückstellung, § 8b KStG)
     modules-faelle.js         Fälle 101–112 aus den Kursmitschriften
     fallsammlung.js           90 Fälle mit Lösungen, nach Modul gruppiert
     faelle-offen.js           Fälle ohne eindeutig einschlägiges Lernmodul

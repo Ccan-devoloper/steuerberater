@@ -8,6 +8,7 @@ import Schaubild from "./components/Schaubild";
 import Fallsammlungsfaelle from "./components/Fallsammlungsfaelle";
 import Falluebersicht from "./components/Falluebersicht";
 import Hausaufgabenseite, { HausaufgabenZuModul, IconHausaufgabe } from "./components/Hausaufgaben";
+import Klausurmodus, { IconKlausur } from "./components/Klausurmodus";
 import { Norm, Normkette, Notiz, Buchungssatz, Bilanzspiegel } from "./components/Bausteine";
 import Pruefungsschemata, { schemata as pruefungsschemata } from "./components/Pruefungsschemata";
 import SchemaPostitEnhancer from "./components/SchemaPostitEnhancer";
@@ -25,6 +26,7 @@ const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Lernmodule", Icon: IconModule },
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
+  { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
   { id: "schema", label: "Prüfungsschema", Icon: IconSchema },
   { id: "formeln", label: "Rechenwege", Icon: IconFormel },
@@ -78,6 +80,16 @@ export default function App({ onKlausurwechsel }) {
 
   const modul = modulId ? alleModule.find((m) => m.id === modulId) : null;
   const quote = anteil(erledigt.length, alleModule.length);
+
+  /* Zweite Kennzahl: Fälle, die im Klausurmodus tatsächlich bearbeitet wurden.
+     Gezählt wird jeder Fall einmal, egal wie oft er vorkam. */
+  const gerechnet = useMemo(() => {
+    const laeufe = laden("stb-klausurlauf", []);
+    const liste = Array.isArray(laeufe) ? laeufe : [];
+    const gesamt = alleModule.filter((m) => m.area === "Fall" && m.example?.facts).length;
+    const ids = new Set(liste.flatMap((l) => (l.faelle || []).map((f) => f.modulId)));
+    return { anzahl: ids.size, gesamt, quote: anteil(ids.size, gesamt), letzter: liste[0] || null };
+  }, [ansicht]);
 
   const oeffnen = (id) => {
     setModulId(id);
@@ -181,7 +193,7 @@ export default function App({ onKlausurwechsel }) {
       </aside>
 
       <main className="page">
-        {ansicht === "cockpit" && <Cockpit quote={quote} erledigt={erledigt} oeffnen={oeffnen} setAnsicht={setAnsicht} setBereich={setBereich} />}
+        {ansicht === "cockpit" && <Cockpit quote={quote} gerechnet={gerechnet} erledigt={erledigt} oeffnen={oeffnen} setAnsicht={setAnsicht} setBereich={setBereich} />}
         {ansicht === "module" && !modul && (
           <Modulliste
             liste={gefiltert}
@@ -211,6 +223,7 @@ export default function App({ onKlausurwechsel }) {
             oeffnenModul={oeffnen}
           />
         )}
+        {ansicht === "klausur" && <Klausurmodus module={alleModule} oeffnenModul={oeffnen} />}
         {ansicht === "hausaufgaben" && (
           <Hausaufgabenseite
             module={alleModule}
@@ -230,7 +243,7 @@ export default function App({ onKlausurwechsel }) {
 }
 
 /* ================================================================= Cockpit */
-function Cockpit({ quote, erledigt, oeffnen, setAnsicht, setBereich }) {
+function Cockpit({ quote, gerechnet, erledigt, oeffnen, setAnsicht, setBereich }) {
   const naechstes = alleModule.find((m) => !erledigt.includes(m.id)) || alleModule[0];
   const zahl = (bereichId) => alleModule.filter((m) => m.area === bereichId).length;
 
@@ -251,11 +264,28 @@ function Cockpit({ quote, erledigt, oeffnen, setAnsicht, setBereich }) {
           </div>
         </section>
         <section className="panel fortschritt">
-          <div className="ring" style={{ "--p": `${quote}%` }}>
-            <b>{quote}%</b>
+          <div className="fortschritt__ringe">
+            <div>
+              <div className="ring" style={{ "--p": `${quote}%` }}><b>{quote}%</b></div>
+              <h3>Bearbeitungsstand</h3>
+              <p>{erledigt.length} von {alleModule.length} Modulen abgehakt</p>
+            </div>
+            <div>
+              <div className="ring ring--gerechnet" style={{ "--p": `${gerechnet.quote}%` }}>
+                <b>{gerechnet.quote}%</b>
+              </div>
+              <h3>Selbst gerechnet</h3>
+              <p>{gerechnet.anzahl} von {gerechnet.gesamt} Fällen im Klausurmodus bearbeitet</p>
+            </div>
           </div>
-          <h3>Bearbeitungsstand</h3>
-          <p>{erledigt.length} von {alleModule.length} Modulen abgehakt</p>
+          {gerechnet.letzter && (
+            <p className="fortschritt__lauf">
+              Letzter Klausurlauf: {gerechnet.letzter.erreicht} von {gerechnet.letzter.moeglich} Punkten,{" "}
+              {gerechnet.letzter.minuten > gerechnet.letzter.sollminuten
+                ? `${gerechnet.letzter.minuten - gerechnet.letzter.sollminuten} Minuten über Sollzeit`
+                : `${gerechnet.letzter.sollminuten - gerechnet.letzter.minuten} Minuten unter Sollzeit`}
+            </p>
+          )}
         </section>
       </div>
 
@@ -1117,10 +1147,11 @@ function Planseite({ fertig, umschalten }) {
       <div className="pagehead">
         <div>
           <span className="kicker">Lernplan</span>
-          <h1>Acht Wochen bis zur Klausursimulation</h1>
+          <h1>{wochenplan.length} Wochen bis zur Klausursimulation</h1>
           <p className="lead">
             Ein Vorschlag, der die Module in der Reihenfolge bündelt, in der sie aufeinander aufbauen.
             Die letzte Woche gehört einer vollständigen Originalklausur unter Zeitbedingungen.
+            Der Plan verweist auf konkrete Modul- und Fallnummern des heutigen Bestands.
           </p>
         </div>
         <span className="zaehler">{fertig.length} / {wochenplan.length} Wochen</span>

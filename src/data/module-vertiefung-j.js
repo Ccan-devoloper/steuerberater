@@ -4,7 +4,7 @@
 
 export default [
   {
-    id: 39, area: "KapG", title: "Latente Steuern",
+    id: 39, area: "Technik", title: "Latente Steuern",
     law: "§ 274 HGB · § 274a Nr. 4 HGB · § 268 Abs. 8 HGB", difficulty: "Klassiker", minutes: 30,
     diagram: "latenteSteuern",
     intro: [
