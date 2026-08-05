@@ -35,13 +35,21 @@ export default function Fallsammlungsfaelle({
             )}
             <section className="fallsammlung__sachverhalt">
               <h4>Sachverhalt</h4>
-              <FallsammlungsText wert={fall.sachverhalt} variante="sachverhalt" />
+              <FallsammlungsText
+                wert={fall.sachverhalt}
+                variante="sachverhalt"
+                sourcePage={fall.quelle?.fall_seite}
+              />
             </section>
             <details className="fallsammlung__loesung">
               <summary>Lösung anzeigen</summary>
               <div className="fallsammlung__loesungsinhalt">
                 <h4>Lösung</h4>
-                <FallsammlungsText wert={fall.loesung} variante="loesung" />
+                <FallsammlungsText
+                  wert={fall.loesung}
+                  variante="loesung"
+                  sourcePage={fall.quelle?.loesung_seite}
+                />
               </div>
             </details>
             <footer>Fallsammlung S. {fall.quelle?.fall_seite ?? "–"} · Lösung S. {fall.quelle?.loesung_seite ?? "–"}</footer>
