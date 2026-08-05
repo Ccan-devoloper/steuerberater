@@ -1,3 +1,5 @@
+import { fallsammlungsTabellenGeometrie } from "../data/fallsammlungTabellenGeometrie.js";
+
 const TASK_START = /^(?:Wie\b|Ist\b|Sind\b|Kann\b|Können\b|Ermitteln\b|Ergänzen\b|Beurteilen\b|Erläutern\b|Bestimmen\b|Stellen\b|Nehmen\b|Aufgabe\b|Gewünscht\b|In der Handelsbilanz\b|Es ist in der Handelsbilanz\b|Die Buchhaltung ist\b|Buchungssätze sind\b|Es ist davon auszugehen\b|Die Voraussetzungen\b|A (?:wünscht|erfüllt)\b|P wünscht\b|Umsatzsteuer ist\b|Soweit nichts anderes)/i;
 
 const CASE_HEADING = /^(?:Abwandlung(?: des Fall(?:e?s)?)?|Fortsetzung des Falls?|Allgemeiner Sachverhalt(?: für die Fälle \d+ bis \d+)?|Sachverhalt|Aufgaben?|Hinweise?|Einzelsachverhalte|„?Auszug“?(?: aus den Prüfungsfeststellungen)?|Steuerbilanz(?: A)?|Prüferbilanz|Aktiva|Passiva|Warenbestand|Rückstellung aufgrund von .+|Grundstück mit .+|Fall(?: \d+(?: \(Exkurs\))?)?|\d+(?:\.\d+)+\.?\s+.+):?$/i;
@@ -10,8 +12,198 @@ const VALUE_RE = /(?:^|\s)[+\-./]*\s*\d[\d.\s]*(?:,\d+)?\s*(?:€|%|Jahre?|Monat
 const AMOUNT_RE = /\d[\d.\s]*(?:,\d+)?\s*(?:€|%|kg|Stück|Jahre?|Monate?)\b|\d[\d.\s]*(?:,\d+)?\s*€/i;
 const TOTAL_LABEL_RE = /^(?:Gesamt(?:betrag)?|Summe|Bilanzansatz|Restbetrag|zu zahlen|31\.12\.|BW\b|Buchwert|Endbestand|Anschaffungskosten|Herstellungskosten|Einlagewert|Gewinn|Kapital|Saldo)/i;
 
+const ALIGN = ["left", "center", "right"];
+const VALIGN = ["top", "middle", "bottom"];
+
 export function fallsammlungsText(wert) {
   return Array.isArray(wert) ? wert.join("\n\n") : String(wert || "");
+}
+
+function normalizeSource(wert) {
+  return fallsammlungsText(wert)
+    .replace(/\r\n?/g, "\n")
+    .replace(/\u00a0/g, " ")
+    .replace(/[ \t]+$/gm, "")
+    .trim();
+}
+
+function normalizeTokenKey(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .replace(/\u00ad/g, "")
+    .replace(/[−–—]/g, "-")
+    .replace(/×/g, "x")
+    .toLocaleLowerCase("de-DE");
+}
+
+function sourceTokens(source) {
+  const raw = [];
+  const matcher = /\S+/g;
+  let match;
+  while ((match = matcher.exec(source))) {
+    raw.push({ text: match[0], key: normalizeTokenKey(match[0]), start: match.index, end: matcher.lastIndex });
+  }
+
+  const merged = [];
+  for (let index = 0; index < raw.length; index += 1) {
+    const current = raw[index];
+    const next = raw[index + 1];
+    if (current.key === "a" && next?.key === "n") {
+      merged.push({ text: "an", key: "an", start: current.start, end: next.end });
+      index += 1;
+    } else {
+      merged.push(current);
+    }
+  }
+  return merged;
+}
+
+function signatureTokens(signature) {
+  return String(signature || "")
+    .split(/\s+/)
+    .map(normalizeTokenKey)
+    .filter(Boolean);
+}
+
+function parseDelimited(value, delimiter, mapper = (part) => part) {
+  if (!value) return [];
+  return value.split(delimiter).filter(Boolean).map(mapper);
+}
+
+function decodeCell(specification, index) {
+  const [row, col, rowSpan, colSpan, tokenCount, flags, breaks = ""] = specification.split(",");
+  const numericFlags = Number(flags);
+  return {
+    index,
+    row: Number(row),
+    col: Number(col),
+    rowSpan: Number(rowSpan),
+    colSpan: Number(colSpan),
+    tokenCount: Number(tokenCount),
+    align: ALIGN[numericFlags & 3] || "left",
+    valign: VALIGN[(numericFlags >> 2) & 3] || "top",
+    bold: Boolean(numericFlags & 16),
+    italic: Boolean(numericFlags & 32),
+    numeric: Boolean(numericFlags & 64),
+    operator: Boolean(numericFlags & 128),
+    breaks: breaks ? breaks.split(".").map(Number) : [],
+    text: "",
+  };
+}
+
+function layoutPage(id) {
+  const match = String(id).match(/^[FL](\d{3})-/);
+  return match ? Number(match[1]) : 0;
+}
+
+function decodeLayout(entry) {
+  const [id, widths, rowCount, startSignature, endSignature, sourceTokenCount, cellData, scheduleData] = entry;
+  return {
+    id,
+    page: layoutPage(id),
+    widths: widths.split(".").map(Number),
+    rowCount: Number(rowCount),
+    startSignature: signatureTokens(startSignature),
+    endSignature: signatureTokens(endSignature),
+    sourceTokenCount: Number(sourceTokenCount),
+    cells: parseDelimited(cellData, ";", decodeCell),
+    schedule: parseDelimited(scheduleData, ";", (part) => part.split(",").map(Number)),
+  };
+}
+
+const decodedLayouts = {
+  sachverhalt: fallsammlungsTabellenGeometrie.sachverhalt.map(decodeLayout),
+  loesung: fallsammlungsTabellenGeometrie.loesung.map(decodeLayout),
+};
+
+function tokensEqual(tokens, start, signature) {
+  if (start < 0 || start + signature.length > tokens.length) return false;
+  return signature.every((key, offset) => tokens[start + offset]?.key === key);
+}
+
+function expectedPdfPage(options) {
+  const printedPage = Number(options?.sourcePage);
+  return Number.isFinite(printedPage) ? printedPage + 3 : null;
+}
+
+function findOriginalTableMatches(source, variant, options = {}) {
+  const tokens = sourceTokens(source);
+  if (!tokens.length) return { tokens, matches: [] };
+
+  const layouts = decodedLayouts[variant] || [];
+  const expectedPage = expectedPdfPage(options);
+  const byFirstToken = new Map();
+  layouts.forEach((layout) => {
+    const first = layout.startSignature[0];
+    if (!first) return;
+    if (!byFirstToken.has(first)) byFirstToken.set(first, []);
+    byFirstToken.get(first).push(layout);
+  });
+
+  const candidates = [];
+  tokens.forEach((token, start) => {
+    const possible = byFirstToken.get(token.key) || [];
+    possible.forEach((layout) => {
+      const end = start + layout.sourceTokenCount;
+      const endStart = end - layout.endSignature.length;
+      if (end > tokens.length) return;
+      if (!tokensEqual(tokens, start, layout.startSignature)) return;
+      if (!tokensEqual(tokens, endStart, layout.endSignature)) return;
+      candidates.push({
+        layout,
+        start,
+        end,
+        pageDistance: expectedPage == null ? 0 : Math.abs(layout.page - expectedPage),
+      });
+    });
+  });
+
+  candidates.sort((left, right) => (
+    left.start - right.start
+    || left.pageDistance - right.pageDistance
+    || right.layout.sourceTokenCount - left.layout.sourceTokenCount
+    || left.layout.id.localeCompare(right.layout.id)
+  ));
+
+  const matches = [];
+  let lastEnd = -1;
+  for (const candidate of candidates) {
+    if (candidate.start < lastEnd) continue;
+    matches.push(candidate);
+    lastEnd = candidate.end;
+  }
+  return { tokens, matches };
+}
+
+function tableBlock(match, tokens) {
+  const { layout, start, end } = match;
+  const cells = layout.cells.map((cell) => ({ ...cell, text: "" }));
+  let cursor = start;
+
+  for (const [cellIndex, tokenCount] of layout.schedule) {
+    const cell = cells[cellIndex];
+    if (!cell || tokenCount < 1 || cursor + tokenCount > end) return null;
+    const line = tokens.slice(cursor, cursor + tokenCount).map((token) => token.text).join(" ");
+    cell.text = cell.text ? `${cell.text}\n${line}` : line;
+    cursor += tokenCount;
+  }
+  if (cursor !== end) return null;
+
+  return {
+    type: "table",
+    original: true,
+    sourceId: layout.id,
+    columns: layout.widths,
+    rowCount: layout.rowCount,
+    cells: cells.map(({ index, tokenCount, breaks, ...cell }) => cell),
+  };
+}
+
+export function matchFallsammlungsTabellen(wert, variant = "sachverhalt", options = {}) {
+  const source = normalizeSource(wert);
+  if (!source) return [];
+  const { tokens, matches } = findOriginalTableMatches(source, variant, options);
+  return matches.map((match) => tableBlock(match, tokens)).filter(Boolean);
 }
 
 function splitColumns(line) {
@@ -137,7 +329,7 @@ function parseTable(lines) {
     while (cells.length < columns) cells.push("");
     rows.push({
       cells,
-      total: cells.some((cell) => TOTAL_LABEL_RE.test(cell.trim())) || (cells.filter(Boolean).length <= 2 && cells.filter(Boolean).every(isNumericCell)),
+      total: cells.some((cell) => TOTAL_LABEL_RE.test(cell.trim())),
     });
   });
 
@@ -170,15 +362,8 @@ function paragraphLead(text) {
   return match ? match[0].trim() : "";
 }
 
-export function parseFallsammlungsText(wert, variant = "sachverhalt") {
-  const source = fallsammlungsText(wert)
-    .replace(/\r\n?/g, "\n")
-    .replace(/\u00a0/g, " ")
-    .replace(/[ \t]+$/gm, "")
-    .trim();
-
-  if (!source) return [];
-
+function parseFallbackText(source, variant) {
+  if (!source.trim()) return [];
   const lines = source.split("\n");
   const blocks = [];
   let paragraph = [];
@@ -264,5 +449,27 @@ export function parseFallsammlungsText(wert, variant = "sachverhalt") {
 
   flushParagraph();
   flushList();
+  return blocks;
+}
+
+export function parseFallsammlungsText(wert, variant = "sachverhalt", options = {}) {
+  const source = normalizeSource(wert);
+  if (!source) return [];
+
+  const { tokens, matches } = findOriginalTableMatches(source, variant, options);
+  if (!matches.length) return parseFallbackText(source, variant);
+
+  const blocks = [];
+  let sourceCursor = 0;
+  for (const match of matches) {
+    const startOffset = tokens[match.start]?.start ?? sourceCursor;
+    const endOffset = tokens[match.end - 1]?.end ?? startOffset;
+    blocks.push(...parseFallbackText(source.slice(sourceCursor, startOffset), variant));
+    const table = tableBlock(match, tokens);
+    if (table) blocks.push(table);
+    else blocks.push(...parseFallbackText(source.slice(startOffset, endOffset), variant));
+    sourceCursor = endOffset;
+  }
+  blocks.push(...parseFallbackText(source.slice(sourceCursor), variant));
   return blocks;
 }
