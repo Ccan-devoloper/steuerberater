@@ -1,3 +1,4 @@
+import "../data/kst-einheit-2-register.js";
 import React, { useCallback, useState } from "react";
 import App from "../App";
 import KstCampus from "./KstCampus";
