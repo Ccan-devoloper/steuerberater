@@ -5,15 +5,18 @@ import { tableLayoutLoesungen3 } from "./fallsammlungTabellenGeometrieLoesungen3
 import { tableLayoutLoesungen4 } from "./fallsammlungTabellenGeometrieLoesungen4.js";
 import { tableLayoutLoesungen5 } from "./fallsammlungTabellenGeometrieLoesungen5.js";
 import { tableLayoutLoesungen6 } from "./fallsammlungTabellenGeometrieLoesungen6.js";
+import { tableLayoutKorrekturenLoesungen } from "./fallsammlungTabellenGeometrieKorrekturen.js";
+
+const loesungen = [
+  ...tableLayoutLoesungen1,
+  ...tableLayoutLoesungen2,
+  ...tableLayoutLoesungen3,
+  ...tableLayoutLoesungen4,
+  ...tableLayoutLoesungen5,
+  ...tableLayoutLoesungen6,
+].filter(([id]) => id !== "L037-02");
 
 export const fallsammlungsTabellenGeometrie = {
   sachverhalt: tableLayoutFaelle,
-  loesung: [
-    ...tableLayoutLoesungen1,
-    ...tableLayoutLoesungen2,
-    ...tableLayoutLoesungen3,
-    ...tableLayoutLoesungen4,
-    ...tableLayoutLoesungen5,
-    ...tableLayoutLoesungen6,
-  ],
+  loesung: [...loesungen, ...tableLayoutKorrekturenLoesungen],
 };
