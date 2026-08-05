@@ -731,3 +731,8 @@ svg { max-width: 100%; }
 .bereich__balken span { display: block; height: 100%; background: var(--gruen); }
 .bereich__stand { font-family: var(--mono); font-size: 11px; color: var(--ink-weich); margin-top: 4px; }
 .rail__box-reset { margin-top: 8px; padding: 0; border: 0; background: none; color: var(--tinte); font-family: var(--mono); font-size: 11px; text-decoration: underline; text-underline-offset: 2px; }
+
+/* Zweite Filterzeile der Fallübersicht (Fachgebiet) */
+.falluebersicht__filter--thema { margin-top: 7px; }
+.falluebersicht__filter--thema button { font-size: 12.5px; min-height: 34px; padding: 5px 10px; }
+.falluebersicht__leer strong { font-weight: 600; }

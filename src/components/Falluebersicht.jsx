@@ -3,9 +3,28 @@ import Fallsammlungsfaelle from "./Fallsammlungsfaelle";
 
 const FAELLE_PRO_SCHRITT = 12;
 
+/* Fachgebiete für die zweite Filterzeile. Sie werden fest angeboten, auch wenn
+   ein Gebiet derzeit keinen Fall enthält — sonst verschwindet der Filter beim
+   Nachliefern von Fällen wieder und die Auswahl wirkt zufällig. */
+const themen = [
+  { id: "alle", label: "Alle Gebiete" },
+  { id: "EU", label: "Einzelunternehmen" },
+  { id: "PersG", label: "Personengesellschaft" },
+  { id: "KapG", label: "Kapitalgesellschaft" },
+  { id: "Technik", label: "Klausurtechnik" },
+];
+
+/* Das Fachgebiet eines Falls ergibt sich aus seinem Ziellernmodul: bei den
+   Originalfällen aus deren optionalem `thema`, sonst aus dem Bereich. */
+function themaVon(zielmodul) {
+  if (!zielmodul) return null;
+  return zielmodul.area === "Fall" ? zielmodul.thema || "EU" : zielmodul.area;
+}
+
 export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module, oeffnenModul }) {
   const [suche, setSuche] = useState("");
   const [filter, setFilter] = useState("alle");
+  const [thema, setThema] = useState("alle");
   const [anzahl, setAnzahl] = useState(FAELLE_PRO_SCHRITT);
   const verzögerteSuche = useDeferredValue(suche);
 
@@ -20,6 +39,7 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
         const zielmodul = fall.zielmodul_id ? modulMap.get(fall.zielmodul_id) : null;
         return {
           ...fall,
+          thema: themaVon(zielmodul),
           suchtext: [
             fall.id,
             fall.titel,
@@ -38,13 +58,20 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
     const q = verzögerteSuche.trim().toLowerCase();
     return alleFaelle.filter((fall) => {
       if (filter !== "alle" && fall.verknuepfungsstatus !== filter) return false;
+      if (thema !== "alle" && fall.thema !== thema) return false;
       return !q || fall.suchtext.includes(q);
     });
-  }, [alleFaelle, filter, verzögerteSuche]);
+  }, [alleFaelle, filter, thema, verzögerteSuche]);
+
+  const jeThema = useMemo(() => {
+    const zaehler = {};
+    for (const fall of alleFaelle) if (fall.thema) zaehler[fall.thema] = (zaehler[fall.thema] || 0) + 1;
+    return zaehler;
+  }, [alleFaelle]);
 
   useEffect(() => {
     setAnzahl(FAELLE_PRO_SCHRITT);
-  }, [filter, verzögerteSuche]);
+  }, [filter, thema, verzögerteSuche]);
 
   const sichtbar = gefiltert.slice(0, anzahl);
   const weitere = Math.max(0, gefiltert.length - sichtbar.length);
@@ -81,6 +108,18 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
             <button type="button" aria-pressed={filter === "offen"} onClick={() => setFilter("offen")}>Ohne Modul {offeneFaelle.length}</button>
           )}
         </div>
+        <div className="falluebersicht__filter falluebersicht__filter--thema">
+          {themen.map((t) => (
+            <button
+              key={t.id}
+              type="button"
+              aria-pressed={thema === t.id}
+              onClick={() => setThema(t.id)}
+            >
+              {t.label} {t.id === "alle" ? alleFaelle.length : jeThema[t.id] || 0}
+            </button>
+          ))}
+        </div>
       </section>
 
       <p className="falluebersicht__treffer">
@@ -107,7 +146,18 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
           )}
         </>
       ) : (
-        <p className="panel falluebersicht__leer">Keine Fälle entsprechen der aktuellen Suche und Filterauswahl.</p>
+        <p className="panel falluebersicht__leer">
+          {thema !== "alle" && !jeThema[thema] ? (
+            <>
+              Zum Gebiet <strong>{themen.find((t) => t.id === thema)?.label}</strong> enthält die
+              Fallsammlung derzeit keinen Fall. Die Lernmodule dieses Gebiets sind über
+              „Lernmodule“ erreichbar; die Originalfälle der Kursmitschriften decken bisher
+              vor allem das Einzelunternehmen ab.
+            </>
+          ) : (
+            "Keine Fälle entsprechen der aktuellen Suche und Filterauswahl."
+          )}
+        </p>
       )}
     </>
   );

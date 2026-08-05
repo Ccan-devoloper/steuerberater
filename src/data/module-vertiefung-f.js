@@ -2,7 +2,7 @@
 
 export default [
   {
-    id: 122, area: "Fall", title: "Lüftungsanlage ohne Entschädigungsanspruch",
+    id: 122, area: "Fall", thema: "EU", title: "Lüftungsanlage ohne Entschädigungsanspruch",
     law: "§ 248 Abs. 2 HGB · § 5 Abs. 2 EStG · § 253 Abs. 3 HGB", difficulty: "Examensniveau", minutes: 34,
     diagram: "mietereinbauten",
     intro: [
@@ -67,7 +67,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "estr4", "estr6", "esth7", "bstbk24"],
   },
   {
-    id: 123, area: "Fall", title: "Baumaßnahmen auf dem Grundstück des Ehegatten",
+    id: 123, area: "Fall", thema: "EU", title: "Baumaßnahmen auf dem Grundstück des Ehegatten",
     law: "§ 951 BGB · § 7 Abs. 4 EStG · BMF-Schreiben zu Ehegattengrundstücken", difficulty: "Examensniveau", minutes: 40,
     diagram: "zurechnung",
     intro: [
@@ -135,7 +135,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "estr4", "estr6", "esth7", "bstbk24"],
   },
   {
-    id: 124, area: "Fall", title: "Erwerb mit Abbruchabsicht und Neubau",
+    id: 124, area: "Fall", thema: "EU", title: "Erwerb mit Abbruchabsicht und Neubau",
     law: "H 6.4 'Abbruchkosten' EStH · § 255 Abs. 2 HGB · § 7 Abs. 4 EStG", difficulty: "Examensniveau", minutes: 38,
     diagram: "abbruchkosten",
     intro: [
@@ -203,7 +203,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "estr6", "esth7", "bstbk24"],
   },
   {
-    id: 125, area: "Fall", title: "Teilabbruch des Dachgeschosses und Gebäudeerweiterung",
+    id: 125, area: "Fall", thema: "EU", title: "Teilabbruch des Dachgeschosses und Gebäudeerweiterung",
     law: "H 6.4 EStH · R 7.4 Abs. 9 EStR · § 7 Abs. 1 S. 7 EStG", difficulty: "Examensniveau", minutes: 46,
     diagram: "abbruchkosten",
     intro: [

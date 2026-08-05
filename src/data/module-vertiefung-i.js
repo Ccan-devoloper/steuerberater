@@ -2,7 +2,7 @@
 
 export default [
   {
-    id: 132, area: "Fall", title: "Bilanzberichtigung, Grundstücksverkauf und verdeckte Gewinnausschüttung",
+    id: 132, area: "Fall", thema: "KapG", title: "Bilanzberichtigung, Grundstücksverkauf und verdeckte Gewinnausschüttung",
     law: "§ 4 Abs. 2 EStG · R 4.4 EStR · § 3 Nr. 40 Buchst. d EStG", difficulty: "Examensniveau", minutes: 58,
     diagram: "buchungskreise",
     intro: [
@@ -88,7 +88,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr4", "estr6", "topics24"],
   },
   {
-    id: 133, area: "Fall", title: "Erwerb eigener Anteile durch eine GmbH",
+    id: 133, area: "Fall", thema: "KapG", title: "Erwerb eigener Anteile durch eine GmbH",
     law: "§ 33 Abs. 2 GmbHG · § 272 Abs. 1a HGB", difficulty: "Klassiker", minutes: 32,
     diagram: "buchungskreise",
     intro: [
@@ -152,7 +152,7 @@ export default [
     sourceIds: ["hgb", "estg", "kstg", "bstbk24"],
   },
   {
-    id: 134, area: "Fall", title: "Rückstellung für unterlassene Instandhaltung",
+    id: 134, area: "Fall", thema: "EU", title: "Rückstellung für unterlassene Instandhaltung",
     law: "§ 249 Abs. 1 S. 2 Nr. 1 HGB · § 6 Abs. 1 Nr. 3a EStG", difficulty: "Klassiker", minutes: 28,
     diagram: "rueckstellungHbStb",
     intro: [
@@ -214,7 +214,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "bstbk24"],
   },
   {
-    id: 135, area: "Fall", title: "Rückstellung wegen Verletzung eines Patentrechts",
+    id: 135, area: "Fall", thema: "EU", title: "Rückstellung wegen Verletzung eines Patentrechts",
     law: "§ 249 Abs. 1 S. 1 HGB · § 5 Abs. 3 EStG", difficulty: "Examensniveau", minutes: 30,
     diagram: "rueckstellungPruefung",
     intro: [
@@ -276,7 +276,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "bstbk24"],
   },
   {
-    id: 136, area: "Fall", title: "Rückstellung für sonstigen Schadensersatz und Anwaltskosten",
+    id: 136, area: "Fall", thema: "EU", title: "Rückstellung für sonstigen Schadensersatz und Anwaltskosten",
     law: "§ 249 Abs. 1 S. 1 HGB · R 5.7 Abs. 2 EStR", difficulty: "Examensniveau", minutes: 30,
     diagram: "rueckstellungPruefung",
     intro: [
@@ -336,7 +336,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "bstbk24"],
   },
   {
-    id: 137, area: "Fall", title: "Rückstellung für die Aufbewahrung von Geschäftsunterlagen",
+    id: 137, area: "Fall", thema: "EU", title: "Rückstellung für die Aufbewahrung von Geschäftsunterlagen",
     law: "§ 249 Abs. 1 S. 1 HGB · H 5.7 EStH · § 147 AO", difficulty: "Examensniveau", minutes: 34,
     diagram: "rueckstellungHbStb",
     intro: [

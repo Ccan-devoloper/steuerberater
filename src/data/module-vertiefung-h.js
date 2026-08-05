@@ -2,7 +2,7 @@
 
 export default [
   {
-    id: 129, area: "Fall", title: "Gratisaktien, Aktienverkauf und Übertragung nach § 6b Abs. 10 EStG",
+    id: 129, area: "Fall", thema: "EU", title: "Gratisaktien, Aktienverkauf und Übertragung nach § 6b Abs. 10 EStG",
     law: "§ 6b Abs. 10 EStG · § 3 Nr. 40 EStG · § 3c Abs. 2 EStG", difficulty: "Examensniveau", minutes: 48,
     diagram: "massgeblichkeit",
     intro: [
@@ -81,7 +81,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "esth6b", "bstbk24"],
   },
   {
-    id: 130, area: "Fall", title: "Kapitalanpassungsbuchung nach einer Betriebsprüfung",
+    id: 130, area: "Fall", thema: "EU", title: "Kapitalanpassungsbuchung nach einer Betriebsprüfung",
     law: "§ 252 Abs. 1 Nr. 1 HGB · § 5 Abs. 1 S. 1 EStG · § 4 Abs. 1 EStG", difficulty: "Examensniveau", minutes: 36,
     diagram: "buchungskreise",
     intro: [
@@ -148,7 +148,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "bstbk24"],
   },
   {
-    id: 131, area: "Fall", title: "Verkauf Holzgasse und rückwirkende § 6b-Übertragung",
+    id: 131, area: "Fall", thema: "EU", title: "Verkauf Holzgasse und rückwirkende § 6b-Übertragung",
     law: "§ 6b Abs. 1, 5 EStG · R 6b.2 EStR · § 7 Abs. 4 EStG", difficulty: "Examensniveau", minutes: 50,
     diagram: "gebaeudeAfa",
     intro: [

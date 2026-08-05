@@ -327,7 +327,7 @@ export default [
     sourceIds: ["bstbkinfo", "knoll24", "topics25"],
   },
   {
-    id: 34, area: "Fall", title: "Maschine im Mietverhältnis – Zurechnung ohne Bilanzansatz",
+    id: 34, area: "Fall", thema: "EU", title: "Maschine im Mietverhältnis – Zurechnung ohne Bilanzansatz",
     law: "§ 39 Abs. 1, Abs. 2 Nr. 1 AO · § 4 Abs. 4 EStG", difficulty: "Grundlage", minutes: 18,
     diagram: "zurechnung",
     intro: [

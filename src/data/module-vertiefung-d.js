@@ -2,7 +2,7 @@
 
 export default [
   {
-    id: 116, area: "Fall", title: "Anhänger mit Kaufpreisstundung, Zuschussrücklage und Sonder-AfA",
+    id: 116, area: "Fall", thema: "EU", title: "Anhänger mit Kaufpreisstundung, Zuschussrücklage und Sonder-AfA",
     law: "R 6.2 S. 2 EStR · R 6.5 Abs. 4 EStR · § 7g Abs. 5 EStG", difficulty: "Examensniveau", minutes: 48,
     diagram: "akhk",
     intro: [
@@ -77,7 +77,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "estr6", "estr62", "esth7g", "bstbk24"],
   },
   {
-    id: 117, area: "Fall", title: "Selbst hergestellte Möbel und Gemeinkostenzuschläge",
+    id: 117, area: "Fall", thema: "EU", title: "Selbst hergestellte Möbel und Gemeinkostenzuschläge",
     law: "§ 255 Abs. 2 HGB · § 6 Abs. 1 Nr. 2 EStG", difficulty: "Examensniveau", minutes: 34,
     diagram: "akhk",
     intro: [
@@ -138,7 +138,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "bstbk24"],
   },
   {
-    id: 118, area: "Fall", title: "Fertige und unfertige Türen mit Herstellungskosten",
+    id: 118, area: "Fall", thema: "EU", title: "Fertige und unfertige Türen mit Herstellungskosten",
     law: "§ 255 Abs. 2 HGB · § 6 Abs. 1 Nr. 1b und Nr. 2 EStG", difficulty: "Examensniveau", minutes: 42,
     diagram: "akhk",
     intro: [
@@ -204,7 +204,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "bstbk24"],
   },
   {
-    id: 119, area: "Fall", title: "Holzlatten: FIFO, LIFO und Durchschnittsbewertung",
+    id: 119, area: "Fall", thema: "EU", title: "Holzlatten: FIFO, LIFO und Durchschnittsbewertung",
     law: "§ 256 HGB · § 240 Abs. 4 HGB · § 6 Abs. 1 Nr. 2a EStG", difficulty: "Examensniveau", minutes: 44,
     diagram: "vorraete",
     intro: [

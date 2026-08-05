@@ -212,7 +212,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "estr62", "estr6", "esth7", "bstbk24"],
   },
   {
-    id: 113, area: "Fall", title: "Elektro-Pkw mit Privatnutzung und Fahrten Wohnung–Betriebsstätte",
+    id: 113, area: "Fall", thema: "EU", title: "Elektro-Pkw mit Privatnutzung und Fahrten Wohnung–Betriebsstätte",
     law: "§ 6 Abs. 1 Nr. 4 EStG · § 4 Abs. 5 S. 1 Nr. 6 EStG · § 7g Abs. 6 EStG", difficulty: "Examensniveau", minutes: 44,
     diagram: "buchungskreise",
     intro: [
@@ -282,7 +282,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "estr4", "esth7", "esth7g", "bstbk24"],
   },
   {
-    id: 114, area: "Fall", title: "Tausch-Vito mit Investitionszuschuss und Sonderabschreibung",
+    id: 114, area: "Fall", thema: "EU", title: "Tausch-Vito mit Investitionszuschuss und Sonderabschreibung",
     law: "§ 6 Abs. 6 EStG · R 6.5 EStR · § 7g Abs. 5 EStG", difficulty: "Examensniveau", minutes: 46,
     diagram: "akhk",
     intro: [
@@ -352,7 +352,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "estr6", "estr62", "esth7g", "bstbk24"],
   },
   {
-    id: 115, area: "Fall", title: "Grund und Boden, Betriebsgebäude und Rentenverpflichtung",
+    id: 115, area: "Fall", thema: "EU", title: "Grund und Boden, Betriebsgebäude und Rentenverpflichtung",
     law: "§ 255 HGB · R 6.2 EStR · § 7 Abs. 4 EStG", difficulty: "Examensniveau", minutes: 42,
     diagram: "gebaeudeAfa",
     intro: [

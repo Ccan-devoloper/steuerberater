@@ -2,7 +2,7 @@
 
 export default [
   {
-    id: 120, area: "Fall", title: "Gemischt genutztes Gebäude, Betriebsvorrichtung und Zaun",
+    id: 120, area: "Fall", thema: "EU", title: "Gemischt genutztes Gebäude, Betriebsvorrichtung und Zaun",
     law: "§ 255 HGB · § 7 Abs. 4 EStG · § 7g Abs. 5 EStG", difficulty: "Examensniveau", minutes: 52,
     diagram: "grundstuecke",
     intro: [
@@ -99,7 +99,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "estr4", "estr6", "esth7", "esth7g", "bstbk24"],
   },
   {
-    id: 121, area: "Fall", title: "Mietereinbauten: Förderband, Türen und Lüftungsanlage",
+    id: 121, area: "Fall", thema: "EU", title: "Mietereinbauten: Förderband, Türen und Lüftungsanlage",
     law: "§ 39 Abs. 2 Nr. 1 AO · R 4.2 Abs. 3 EStR · § 4 Abs. 4 EStG", difficulty: "Examensniveau", minutes: 34,
     diagram: "mietereinbauten",
     intro: [

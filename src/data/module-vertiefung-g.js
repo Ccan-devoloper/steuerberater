@@ -2,7 +2,7 @@
 
 export default [
   {
-    id: 126, area: "Fall", title: "Grundstücksverkauf mit § 6b-Rücklage und latenten Steuern",
+    id: 126, area: "Fall", thema: "EU", title: "Grundstücksverkauf mit § 6b-Rücklage und latenten Steuern",
     law: "§ 6b Abs. 1–4 EStG · § 274 HGB", difficulty: "Examensniveau", minutes: 46,
     diagram: "massgeblichkeit",
     intro: [
@@ -77,7 +77,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "esth6b", "bstbk24"],
   },
   {
-    id: 127, area: "Fall", title: "Übertragung stiller Reserven auf ein Ersatzgrundstück",
+    id: 127, area: "Fall", thema: "EU", title: "Übertragung stiller Reserven auf ein Ersatzgrundstück",
     law: "§ 6b Abs. 1 EStG · R 6.6 EStR · § 7 Abs. 4 EStG", difficulty: "Examensniveau", minutes: 48,
     diagram: "gebaeudeAfa",
     intro: [
@@ -152,7 +152,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "estr6", "esth6b", "bstbk24"],
   },
   {
-    id: 128, area: "Fall", title: "Aktienveräußerung mit Rücklage nach § 6b Abs. 10 EStG",
+    id: 128, area: "Fall", thema: "EU", title: "Aktienveräußerung mit Rücklage nach § 6b Abs. 10 EStG",
     law: "§ 6b Abs. 10 EStG · § 3 Nr. 40 EStG · § 3c Abs. 2 EStG", difficulty: "Examensniveau", minutes: 42,
     diagram: "massgeblichkeit",
     intro: [

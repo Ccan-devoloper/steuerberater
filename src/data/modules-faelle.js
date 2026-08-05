@@ -3,7 +3,7 @@
 
 export default [
   {
-    id: 101, area: "Fall", title: "Lieferwagen mit Eigentumsvorbehalt und § 7g-Sonderabschreibung",
+    id: 101, area: "Fall", thema: "EU", title: "Lieferwagen mit Eigentumsvorbehalt und § 7g-Sonderabschreibung",
     law: "§ 39 Abs. 2 Nr. 1 AO · § 255 Abs. 1 HGB · § 7g Abs. 5 EStG", difficulty: "Aufbau", minutes: 35,
     diagram: "buchungskreise",
     intro: [
@@ -79,7 +79,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "esth7g", "bstbk24"],
   },
   {
-    id: 102, area: "Fall", title: "Selbst geschaffenes Patent und passive latente Steuern",
+    id: 102, area: "Fall", thema: "EU", title: "Selbst geschaffenes Patent und passive latente Steuern",
     law: "§ 248 Abs. 2 HGB · § 5 Abs. 2 EStG · § 274 HGB", difficulty: "Aufbau", minutes: 32,
     diagram: "latenteSteuern",
     intro: [
@@ -153,7 +153,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "bstbk23", "topics25"],
   },
   {
-    id: 103, area: "Fall", title: "Erhaltene Anzahlungen und Drohverlustrückstellung",
+    id: 103, area: "Fall", thema: "EU", title: "Erhaltene Anzahlungen und Drohverlustrückstellung",
     law: "§ 266 Abs. 3 C. 3 HGB · § 249 Abs. 1 S. 1 HGB · § 5 Abs. 4a EStG", difficulty: "Aufbau", minutes: 30,
     diagram: "buchungskreise",
     intro: [
@@ -227,7 +227,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "bstbk22", "topics24"],
   },
   {
-    id: 104, area: "Fall", title: "Aktiver Rechnungsabgrenzungsposten – Grundfall Miete",
+    id: 104, area: "Fall", thema: "EU", title: "Aktiver Rechnungsabgrenzungsposten – Grundfall Miete",
     law: "§ 250 Abs. 1 HGB · § 5 Abs. 5 S. 1 Nr. 1 EStG", difficulty: "Grundlage", minutes: 18,
     diagram: "arapZeitstrahl",
     intro: [
@@ -282,7 +282,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr4", "bstbk23"],
   },
   {
-    id: 105, area: "Fall", title: "Disagio beim Fälligkeitsdarlehen – lineare Auflösung",
+    id: 105, area: "Fall", thema: "EU", title: "Disagio beim Fälligkeitsdarlehen – lineare Auflösung",
     law: "§ 250 Abs. 3 HGB · § 5 Abs. 5 S. 1 Nr. 1 EStG", difficulty: "Aufbau", minutes: 24,
     diagram: "disagioLinear",
     intro: [
@@ -340,7 +340,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr4", "bstbk24"],
   },
   {
-    id: 106, area: "Fall", title: "Disagio beim Tilgungsdarlehen – Zinsstaffelmethode",
+    id: 106, area: "Fall", thema: "EU", title: "Disagio beim Tilgungsdarlehen – Zinsstaffelmethode",
     law: "§ 250 Abs. 3 HGB · § 5 Abs. 5 S. 1 Nr. 1 EStG", difficulty: "Vertiefung", minutes: 30,
     diagram: "zinsstaffel",
     intro: [
@@ -400,7 +400,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr4", "bstbk22"],
   },
   {
-    id: 107, area: "Fall", title: "Forderungsbewertung – Einzel- und Pauschalwertberichtigung",
+    id: 107, area: "Fall", thema: "EU", title: "Forderungsbewertung – Einzel- und Pauschalwertberichtigung",
     law: "§ 253 Abs. 4 HGB · § 6 Abs. 1 Nr. 2 EStG · § 17 Abs. 2 Nr. 1 UStG", difficulty: "Vertiefung", minutes: 34,
     diagram: "forderungEwbPwb",
     intro: [
@@ -475,7 +475,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "bstbk23", "nwb23"],
   },
   {
-    id: 108, area: "Fall", title: "Rückstellung mit Abzinsung – HB gegen StB",
+    id: 108, area: "Fall", thema: "EU", title: "Rückstellung mit Abzinsung – HB gegen StB",
     law: "§ 253 Abs. 2 S. 1 HGB · § 6 Abs. 1 Nr. 3a EStG · § 5 Abs. 6 EStG", difficulty: "Vertiefung", minutes: 36,
     diagram: "rueckstellungHbStb",
     intro: [
@@ -547,7 +547,7 @@ export default [
     sourceIds: ["hgb", "estg", "estr6", "esth7", "bstbk24"],
   },
   {
-    id: 109, area: "Fall", title: "Einlage von Grundstück und Gebäude bei Miteigentum von Ehegatten",
+    id: 109, area: "Fall", thema: "EU", title: "Einlage von Grundstück und Gebäude bei Miteigentum von Ehegatten",
     law: "§ 39 Abs. 1 AO · § 4 Abs. 1 S. 8 EStG · § 6 Abs. 1 Nr. 5 EStG", difficulty: "Aufbau", minutes: 28,
     diagram: "abba",
     intro: [
@@ -608,7 +608,7 @@ export default [
     sourceIds: ["estg", "ao39", "estr42", "esth7", "bstbk23"],
   },
   {
-    id: 110, area: "Fall", title: "Leasing – Vollamortisationsvertrag mit Kaufoption",
+    id: 110, area: "Fall", thema: "EU", title: "Leasing – Vollamortisationsvertrag mit Kaufoption",
     law: "BMF v. 19.4.1971 · § 39 Abs. 2 Nr. 1 AO · § 250 Abs. 1 HGB", difficulty: "Examensniveau", minutes: 48,
     diagram: "leasingBaum",
     intro: [
@@ -687,7 +687,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "esth7g", "bstbk24", "knoll24"],
   },
   {
-    id: 111, area: "Fall", title: "Mietkauf – Kaufoption mit voller Mietanrechnung",
+    id: 111, area: "Fall", thema: "EU", title: "Mietkauf – Kaufoption mit voller Mietanrechnung",
     law: "§ 39 Abs. 1 AO · § 255 Abs. 1 S. 1 HGB · UStAE 3.5 Abs. 5, 7", difficulty: "Vertiefung", minutes: 34,
     diagram: "abba",
     intro: [
@@ -757,7 +757,7 @@ export default [
     sourceIds: ["hgb", "estg", "ao39", "esth7g", "bstbk22"],
   },
   {
-    id: 112, area: "Fall", title: "Beteiligung, Dividende, Kapitalertragsteuer und Teileinkünfteverfahren",
+    id: 112, area: "Fall", thema: "EU", title: "Beteiligung, Dividende, Kapitalertragsteuer und Teileinkünfteverfahren",
     law: "§ 43 Abs. 5 S. 2 EStG · § 3 Nr. 40 EStG · § 3c Abs. 2 EStG", difficulty: "Vertiefung", minutes: 32,
     diagram: "dividendeFluss",
     intro: [
