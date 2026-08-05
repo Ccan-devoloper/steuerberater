@@ -26,6 +26,13 @@
 .hausaufgabe details { border-top: 1px solid var(--line); margin-top: 1rem; padding-top: 1rem; }
 .hausaufgabe summary { cursor: pointer; font-weight: 700; }
 .hausaufgabe__normen { display: flex; flex-wrap: wrap; gap: .45rem; margin: .9rem 0; }
+.hausaufgabe__volltext-details[open] summary { margin-bottom: 1rem; }
+.hausaufgabe__volltext-hinweis { padding: 1rem; border: 1px solid var(--line); border-radius: .8rem; background: var(--soft); margin-bottom: 1rem; }
+.hausaufgabe__volltext-hinweis p { margin: .35rem 0 .5rem; }
+.hausaufgabe__volltext-hinweis small { color: var(--muted); }
+.hausaufgabe__volltext { max-height: 72vh; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; padding: 1.1rem; border: 1px solid var(--line); border-radius: .8rem; background: var(--bg); color: var(--text); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: .82rem; line-height: 1.55; tab-size: 4; }
+.hausaufgabe__status { padding: .9rem; border-radius: .7rem; background: var(--soft); }
+.hausaufgabe__status--fehler { border: 1px solid #b42318; color: #b42318; }
 .hausaufgabe__anker { margin-top: 1rem; border: 0; background: none; color: var(--accent); padding: 0; cursor: pointer; font-weight: 700; }
 .hausaufgaben-modulbox { border: 1px solid var(--line); border-radius: 1rem; background: var(--panel); padding: 1.25rem; margin: 1.5rem 0; }
 .hausaufgaben-modulbox h2 { margin: .25rem 0 .8rem; }
@@ -35,4 +42,6 @@
   .hausaufgaben-head .btn { margin-top: 1rem; }
   .hausaufgaben-tools { grid-template-columns: 1fr; }
   .hausaufgabe__spalten { grid-template-columns: 1fr; }
+  .hausaufgabe { padding: 1rem; }
+  .hausaufgabe__volltext { font-size: .75rem; max-height: 65vh; }
 }
