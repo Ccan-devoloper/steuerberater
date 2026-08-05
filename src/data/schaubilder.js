@@ -103,6 +103,27 @@ const schaubilder = {
     ],
     fussnote: "Kürzere tatsächliche Nutzungsdauer ist nach § 7 Abs. 4 S. 2 EStG nachweisbar. Die AfA beginnt mit Fertigstellung, im Erstjahr zeitanteilig.",
   },
+  mietereinbauten: {
+    typ: "entscheidung",
+    titel: "Einbauten des Mieters in fremde Gebäude",
+    ebenen: [
+      { frage: "Einbau nur zu einem vorübergehenden Zweck?", hinweis: "Rückbau von vornherein beabsichtigt", zweig: "Scheinbestandteil, § 95 BGB", zweigTon: "gruen", zweigLabel: "ja", weiterLabel: "nein" },
+      { frage: "Dient der Einbau unmittelbar dem Betriebsablauf?", hinweis: "Maschinenfundament, Lastenaufzug", zweig: "Betriebsvorrichtung, § 68 Abs. 2 BewG", zweigTon: "rot", zweigLabel: "ja", weiterLabel: "nein" },
+      { frage: "Wirtschaftliches Eigentum: Entschädigungsanspruch oder ND kürzer als Mietdauer?", hinweis: "§ 951, § 812 BGB prüfen", zweig: "sonstiger Mietereinbau, R 4.2 III 3 Nr. 4", zweigTon: "orange", zweigLabel: "ja", weiterLabel: "nein" },
+      { frage: "Verbleibt nur ein Nutzungsrecht für die Mietdauer?", hinweis: "selbst geschaffen, immateriell", zweig: "HB Wahlrecht, StB Verbot § 5 II EStG", zweigTon: "magenta", zweigLabel: "ja" },
+    ],
+    legende: "Die Reihenfolge ist zwingend: Scheinbestandteil vor Betriebsvorrichtung, Betriebsvorrichtung vor sonstigem Mietereinbau. Beim sonstigen Mietereinbau läuft die AfA nach § 7 Abs. 4 S. 2 EStG über die betriebsgewöhnliche Nutzungsdauer — nicht über die Mietdauer. Nur beim bloßen Nutzungsrecht ist die Restmietdauer maßgeblich.",
+  },
+  abbruchkosten: {
+    typ: "entscheidung",
+    titel: "Abbruch eines erworbenen Gebäudes (H 6.4 EStH)",
+    ebenen: [
+      { frage: "Wurde das Gebäude in Abbruchabsicht erworben?", hinweis: "Absicht im Zeitpunkt des Erwerbs", zweig: "weiter mit der Dreijahresfrist", zweigTon: "orange", zweigLabel: "ja", weiterLabel: "nein: ohne Abbruchabsicht" },
+      { frage: "Ohne Abbruchabsicht: Restbuchwert und Abbruchkosten", hinweis: "auch bei Abbruch nach 3 Jahren", zweig: "AfaA + laufender Aufwand", zweigTon: "gruen", zweigLabel: "Ergebnis", weiterLabel: "Fall mit Absicht" },
+      { frage: "Erfolgt der Abbruch innerhalb von drei Jahren nach dem Kaufvertrag?", hinweis: "widerlegbare Vermutung", zweig: "Gebäudewert → Grund und Boden, Abbruchkosten → HK Neubau", zweigTon: "rot", zweigLabel: "ja" },
+    ],
+    legende: "Mit Abbruchabsicht gilt das alte Gebäude als wertlos: Sein Buchwert erhöht die Anschaffungskosten des Grund und Bodens, die Abbruchkosten gehören zu den Herstellungskosten des Neubaus. Ohne Abbruchabsicht bleibt der Restbuchwert eine Absetzung für außergewöhnliche Abnutzung und der Abbruch laufender Aufwand.",
+  },
   forderungEwbPwb: {
     typ: "stufen",
     titel: "Reihenfolge der Forderungsbewertung",
@@ -121,6 +142,16 @@ const schaubilder = {
     links: { titel: "Handelsbilanz", norm: "§ 256 HGB", ton: "gruen", punkte: ["Durchschnittsmethode", "Lifo zulässig", "Fifo zulässig", "strenges Niederstwertprinzip (§ 253 Abs. 4)"] },
     rechts: { titel: "Steuerbilanz", norm: "§ 6 Abs. 1 Nr. 2a EStG", ton: "rot", punkte: ["Durchschnittsmethode", "Lifo zulässig", "Fifo unzulässig", "Teilwertabschreibung nur bei dauernder Minderung"] },
     fussnote: "Lifo setzt handelsrechtliche GoB-Konformität voraus; die einmal gewählte Methode ist stetig fortzuführen (§ 252 Abs. 1 Nr. 6 HGB).",
+  },
+  stilleReservenVergleich: {
+    typ: "stufen",
+    titel: "Drei Wege für stille Reserven im Vergleich",
+    stufen: [
+      { stufe: "§ 6b", text: "Veräußerung von Grund und Boden, Gebäude, Aufwuchs und Anteilen; 6 Jahre Zugehörigkeit; Übertragung oder Rücklage für 4 bzw. 6 Jahre", norm: "§ 6b Abs. 1, 3, 4 EStG", ton: "tinte", ergebnis: "freiwillig, Wahlrecht" },
+      { stufe: "R 6.6", text: "Unfreiwilliges Ausscheiden durch höhere Gewalt oder behördlichen Eingriff; Ersatzwirtschaftsgut muss funktionsgleich sein", norm: "R 6.6 EStR", ton: "orange", ergebnis: "kein Katalog, aber Zwang" },
+      { stufe: "§ 7g", text: "Investitionsabzugsbetrag und Sonderabschreibung für bewegliche Wirtschaftsgüter; Gewinngrenze 200.000 €; fast ausschließlich betriebliche Nutzung", norm: "§ 7g Abs. 1, 5, 6 EStG", ton: "gruen", ergebnis: "Vorverlagerung statt Übertragung" },
+    ],
+    legende: "§ 6b und R 6.6 verlagern vorhandene stille Reserven auf ein Ersatzwirtschaftsgut; § 7g verlagert dagegen künftigen Aufwand nach vorn. Nur § 6b hat einen abschließenden Wirtschaftsgutkatalog, nur R 6.6 verlangt Funktionsgleichheit, nur § 7g verlangt eine Gewinngrenze und eine Nutzungsquote.",
   },
 
   /* ---------------------------------------------------------- Passivseite */
@@ -259,6 +290,41 @@ const schaubilder = {
     ],
     legende: "Notwendiges SBV ist zwingend zu erfassen; gewillkürtes SBV setzt eine dokumentierte Widmung voraus. Passives SBV (z. B. Refinanzierungsdarlehen) nicht vergessen.",
   },
+  kapitalkonto15a: {
+    typ: "stufen",
+    titel: "Verlustausgleich beim Kommanditisten (§ 15a EStG)",
+    stufen: [
+      { stufe: "1", text: "Kapitalkonto zum 1.1.: Gesamthandsbilanz + Ergänzungsbilanz", norm: "H 15a „Kapitalkonto\" EStH", ton: "tinte" },
+      { stufe: "2", text: "Sonderbilanz bleibt außen vor — Sonderbetriebsergebnis ist unbeschränkt ausgleichsfähig", norm: "H 15a „Sonderbetriebsvermögen\" EStH", ton: "neutral" },
+      { stufe: "3", text: "Verlustanteil bis zur Höhe des positiven Kapitalkontos", norm: "§ 15a Abs. 1 S. 1 EStG", ton: "gruen", ergebnis: "ausgleichsfähig" },
+      { stufe: "4", text: "Erweiterung um die eingetragene, noch nicht geleistete Haftsumme", norm: "§ 15a Abs. 1 S. 2, 3 EStG", ton: "orange", ergebnis: "zusätzlich ausgleichsfähig" },
+      { stufe: "5", text: "Übersteigender Betrag: nur gegen spätere Gewinne aus derselben Beteiligung", norm: "§ 15a Abs. 2, Abs. 4 EStG", ton: "rot", ergebnis: "verrechenbar" },
+    ],
+    legende: "Der verrechenbare Verlust ist kein Bilanzposten, sondern wird nach § 15a Abs. 4 EStG gesondert festgestellt. Eine spätere Einlage- oder Haftungsminderung führt nach § 15a Abs. 3 EStG zu einer Gewinnhinzurechnung.",
+  },
+  betriebsaufgabe: {
+    typ: "stufen",
+    titel: "Vom Aufgabegewinn zum Tarif",
+    stufen: [
+      { stufe: "1", text: "Veräußerungspreis der verkauften Wirtschaftsgüter", norm: "§ 16 Abs. 2 S. 1 EStG", ton: "tinte" },
+      { stufe: "+", text: "gemeiner Wert der in das Privatvermögen überführten Wirtschaftsgüter", norm: "§ 16 Abs. 3 S. 7 EStG", ton: "tinte" },
+      { stufe: "./.", text: "Veräußerungs- bzw. Aufgabekosten", norm: "§ 16 Abs. 2 S. 1 EStG", ton: "rot" },
+      { stufe: "./.", text: "Buchwert des Betriebsvermögens einschließlich Sonderbetriebsvermögen", norm: "§ 16 Abs. 2 S. 2 EStG", ton: "rot", ergebnis: "= Aufgabegewinn" },
+      { stufe: "./.", text: "Freibetrag 45.000 €, Abschmelzung um den 136.000 € übersteigenden Betrag", norm: "§ 16 Abs. 4 EStG", ton: "orange", ergebnis: "ab 181.000 € null" },
+      { stufe: "=", text: "Fünftelregelung oder auf Antrag ermäßigter Steuersatz (56 %, einmal im Leben)", norm: "§ 34 Abs. 1, Abs. 3 EStG", ton: "gruen" },
+    ],
+    legende: "Freibetrag und Tarifermäßigung setzen beide das vollendete 55. Lebensjahr oder dauernde Berufsunfähigkeit voraus und werden jeweils nur einmal im Leben gewährt. Laufende Geschäftsvorfälle bis zum Aufgabestichtag bleiben unbegünstigter laufender Gewinn.",
+  },
+  realteilung: {
+    typ: "entscheidung",
+    titel: "Realteilung einer Mitunternehmerschaft",
+    ebenen: [
+      { frage: "Wird die Mitunternehmerschaft aufgelöst und das Betriebsvermögen aufgeteilt?", hinweis: "sonst Sachwertabfindung eines Einzelnen", zweig: "keine Realteilung", zweigTon: "neutral", zweigLabel: "nein", weiterLabel: "ja" },
+      { frage: "Gelangen die Wirtschaftsgüter in ein Betriebsvermögen der Realteiler?", hinweis: "Privatvermögen = gemeiner Wert", zweig: "Buchwert zwingend", zweigTon: "gruen", zweigLabel: "§ 16 III 2", weiterLabel: "Sonderfälle" },
+      { frage: "Übertragung auf eine Körperschaft oder Ausgleichszahlung vereinbart?", hinweis: "Sperrfrist 3 Jahre beachten", zweig: "gemeiner Wert bzw. laufender Gewinn", zweigTon: "rot", zweigLabel: "§ 16 III 3, 4" },
+    ],
+    legende: "Die Buchwertfortführung ist zwingend, kein Wahlrecht. Ein Spitzenausgleich ist insoweit eine Veräußerung und führt zu laufendem, nicht nach § 34 EStG begünstigtem Gewinn. Die Sperrfrist läuft drei Jahre ab Abgabe der Feststellungserklärung.",
+  },
 
   /* -------------------------------------------------- Kapitalgesellschaft */
   vga: {
@@ -293,6 +359,46 @@ const schaubilder = {
       { stufe: "4", text: "Bescheinigung und gesonderte Feststellung", norm: "§ 27 Abs. 2, 3 KStG", ton: "neutral" },
     ],
     legende: "Das steuerliche Einlagekonto ist kein Bilanzposten und nicht mit der handelsrechtlichen Kapitalrücklage identisch.",
+  },
+  gewerbesteuer: {
+    typ: "stufen",
+    titel: "Gewerbesteuerrückstellung und Hinzurechnung",
+    stufen: [
+      { stufe: "1", text: "Gewinn aus Gewerbebetrieb als Ausgangsgröße", norm: "§ 7 S. 1 GewStG", ton: "tinte" },
+      { stufe: "2", text: "Hinzurechnungen und Kürzungen, Abrundung auf volle 100 €", norm: "§§ 8, 9, 11 Abs. 1 S. 3 GewStG", ton: "tinte", ergebnis: "Gewerbeertrag" },
+      { stufe: "3", text: "Steuermesszahl 3,5 % (Freibetrag 24.500 € nur für EU und PersG)", norm: "§ 11 Abs. 1, 2 GewStG", ton: "orange", ergebnis: "Messbetrag" },
+      { stufe: "4", text: "Messbetrag × Hebesatz der Gemeinde", norm: "§ 16 Abs. 1 GewStG", ton: "orange", ergebnis: "Jahresschuld" },
+      { stufe: "5", text: "./. geleistete Vorauszahlungen — Rest als Rückstellung in HB und StB", norm: "§ 249 Abs. 1 S. 1 HGB", ton: "gruen", ergebnis: "Bilanzansatz" },
+      { stufe: "6", text: "gesamter Gewerbesteueraufwand außerbilanziell hinzurechnen", norm: "§ 4 Abs. 5b EStG", ton: "rot", ergebnis: "permanente Differenz" },
+    ],
+    legende: "Der Abzugsausschluss betrifft nur das Einkommen, nicht den Ansatz: Die Schuld ist und bleibt eine Rückstellung. Weil die Gewerbesteuer ihre eigene Bemessungsgrundlage nicht mehr mindert, entfällt jede Rückrechnung. Permanente Differenz — keine latenten Steuern.",
+  },
+  achtB: {
+    typ: "gegenueber",
+    titel: "§ 8b KStG: Dividende und Veräußerung",
+    links: {
+      titel: "Bezüge (Dividende, vGA)",
+      norm: "§ 8b Abs. 1, 4, 5 KStG",
+      ton: "orange",
+      punkte: [
+        "10-%-Quote zu Beginn des Kalenderjahres entscheidet",
+        "unter 10 %: voll steuerpflichtig, keine Pauschale",
+        "ab 10 %: 100 % außerbilanziell abziehen",
+        "5 % des Ertrags als nichtabziehbare BA hinzurechnen",
+      ],
+    },
+    rechts: {
+      titel: "Veräußerungsgewinn",
+      norm: "§ 8b Abs. 2, 3 KStG",
+      ton: "gruen",
+      punkte: [
+        "keine Mindestbeteiligungsquote",
+        "100 % außerbilanziell abziehen",
+        "5 % des Gewinns hinzurechnen",
+        "Verluste und Teilwert-AfA: § 8b Abs. 3 S. 3 KStG",
+      ],
+    },
+    fussnote: "Zuerst bilanzieren, dann außerbilanziell korrigieren. Die Streubesitzgrenze des § 8b Abs. 4 KStG gilt ausdrücklich nur für Bezüge, niemals für Veräußerungsgewinne. Alle § 8b-Korrekturen sind permanente Differenzen und lösen keine latenten Steuern aus.",
   },
 };
 

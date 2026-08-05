@@ -4,7 +4,7 @@ export default [
   {
     id: 122, area: "Fall", title: "Lüftungsanlage ohne Entschädigungsanspruch",
     law: "§ 248 Abs. 2 HGB · § 5 Abs. 2 EStG · § 253 Abs. 3 HGB", difficulty: "Examensniveau", minutes: 34,
-    diagram: "zurechnung",
+    diagram: "mietereinbauten",
     intro: [
       "Die Fallabwandlung zur Lüftungsanlage verändert allein die Zurechnung: Ein Entschädigungsanspruch wird ausdrücklich ausgeschlossen und die Anlage wäre wegen des modernen Gebäudezustands unabhängig vom Betrieb des MN eingebaut worden. Damit fehlen sowohl wirtschaftliches Eigentum als auch ein besonderer betrieblicher Zweck des Einbaus.",
       "MN verbleibt lediglich ein Nutzungsrecht für die Restmietdauer an der selbst eingebauten Lüftungsanlage. Handelsrechtlich wird dieses selbst geschaffene immaterielle Anlagegut aktiviert; steuerlich greift dagegen das Aktivierungsverbot des § 5 Abs. 2 EStG.",
@@ -137,7 +137,7 @@ export default [
   {
     id: 124, area: "Fall", title: "Erwerb mit Abbruchabsicht und Neubau",
     law: "H 6.4 'Abbruchkosten' EStH · § 255 Abs. 2 HGB · § 7 Abs. 4 EStG", difficulty: "Examensniveau", minutes: 38,
-    diagram: "gebaeudeAfa",
+    diagram: "abbruchkosten",
     intro: [
       "Wird ein bebautes Grundstück mit Abbruchabsicht erworben und das Gebäude innerhalb von drei Jahren nach dem Kaufvertrag abgebrochen, gilt das alte Gebäude als wertlos. Seine Anschaffungskosten werden dem Grund und Boden zugerechnet; die Abbruchkosten gehören zu den Herstellungskosten des neuen Gebäudes.",
       "Der Fall trennt deshalb drei Werte: den auf 180.000 € erhöhten Grund und Boden, die Herstellungskosten des Neubaus von 210.000 € und die zeitanteilige Gebäude-AfA von 525 € für Dezember 2025.",
@@ -205,7 +205,7 @@ export default [
   {
     id: 125, area: "Fall", title: "Teilabbruch des Dachgeschosses und Gebäudeerweiterung",
     law: "H 6.4 EStH · R 7.4 Abs. 9 EStR · § 7 Abs. 1 S. 7 EStG", difficulty: "Examensniveau", minutes: 46,
-    diagram: "gebaeudeAfa",
+    diagram: "abbruchkosten",
     intro: [
       "Beim Erwerb ohne Abbruchabsicht und einem Abbruch außerhalb des Dreijahreszeitraums bleiben der Restbuchwert des abgebrochenen Gebäudeteils und die Abbruchkosten von den Herstellungskosten der Erweiterung getrennt. Der anteilige Restbuchwert des Dachgeschosses wird außerplanmäßig abgeschrieben; die Abbruchkosten bleiben Aufwand.",
       "Die Erweiterung um zwei Etagen führt zu nachträglichen Herstellungskosten von 180.000 €. Für die laufende AfA 2025 behandelt R 7.4 Abs. 9 S. 3 EStR die nachträglichen Herstellungskosten so, als seien sie zu Beginn des Jahres entstanden.",

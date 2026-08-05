@@ -101,7 +101,7 @@ export default [
   {
     id: 121, area: "Fall", title: "Mietereinbauten: Förderband, Türen und Lüftungsanlage",
     law: "§ 39 Abs. 2 Nr. 1 AO · R 4.2 Abs. 3 EStR · § 4 Abs. 4 EStG", difficulty: "Examensniveau", minutes: 34,
-    diagram: "zurechnung",
+    diagram: "mietereinbauten",
     intro: [
       "Baumaßnahmen des Mieters gehören zivilrechtlich grundsätzlich dem Grundstückseigentümer, wenn sie wesentliche Bestandteile des Grundstücks werden. Ein Entschädigungsanspruch des Mieters kann jedoch dazu führen, dass der Mieter wirtschaftlicher Eigentümer des eingebauten Wirtschaftsguts bleibt.",
       "Die Mitschrift grenzt drei Maßnahmen voneinander ab: ein Förderband als Betriebsvorrichtung, den bloßen Austausch von Türen als laufenden Erhaltungsaufwand und eine Lüftungsanlage als sonstigen Mietereinbau. Die vorgeschaltete Schwimmbad-Skizze erklärt die zivilrechtliche Eigentumsfolge und den Entschädigungsanspruch.",

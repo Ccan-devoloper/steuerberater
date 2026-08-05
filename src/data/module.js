@@ -10,6 +10,7 @@ import vertiefungG from "./module-vertiefung-g.js";
 import vertiefungH from "./module-vertiefung-h.js";
 import vertiefungI from "./module-vertiefung-i.js";
 import vertiefungJ from "./module-vertiefung-j.js";
+import vertiefungK from "./module-vertiefung-k.js";
 import faelle from "./modules-faelle.js"; // unveränderte Fallsammlung aus den Kursmitschriften
 import { faelleNachModul } from "./fallsammlung.js";
 
@@ -21,7 +22,7 @@ import { faelleNachModul } from "./fallsammlung.js";
 const grundmodule = [
   ...basisA, ...basisB,
   ...vertiefungA, ...vertiefungB, ...vertiefungC, ...vertiefungD, ...vertiefungE,
-  ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI, ...vertiefungJ,
+  ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI, ...vertiefungJ, ...vertiefungK,
   ...faelle,
 ].sort((a, b) => a.id - b.id);
 export const module = grundmodule.map((m) => ({
@@ -50,7 +51,7 @@ export const bereichName = {
    Normenregister: wird aus den normchain- und law-Feldern aller Module erzeugt.
    Sortiert nach Gesetz und Paragraf.
    --------------------------------------------------------------------------- */
-const gesetzReihenfolge = ["HGB", "EStG", "EStDV", "EStR", "EStH", "AO", "BewG", "KStG", "UStG", "UStAE", "KStR", "BMF", "Sonstiges"];
+const gesetzReihenfolge = ["HGB", "EStG", "EStDV", "EStR", "EStH", "AO", "BewG", "KStG", "GewStG", "UmwStG", "UStG", "UStAE", "KStR", "BGB", "BMF", "Sonstiges"];
 
 function gesetzVon(norm) {
   const treffer = gesetzReihenfolge.find((g) => norm.includes(g));
