@@ -313,7 +313,7 @@ export default [
     ],
     normchain: [
       "R 6.6 Abs. 1 EStR", "R 6.6 Abs. 3 EStR", "R 6.6 Abs. 4 EStR", "R 6.6 Abs. 5 EStR",
-      "§ 5 Abs. 1 S. 1 Hs. 2 EStG", "§ 6b EStG", "§ 254 HGB (aufgehoben, kein HB-Ansatz)",
+      "§ 5 Abs. 1 S. 1 Hs. 2 EStG", "§ 6b EStG",
     ],
     example: {
       title: "Brandschaden an einer Maschine",

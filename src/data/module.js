@@ -1,19 +1,28 @@
-import basisA from "./module-basis-a";
-import basisB from "./module-basis-b";
-import vertiefungA from "./module-vertiefung-a";
-import vertiefungB from "./module-vertiefung-b";
-import vertiefungC from "./module-vertiefung-c";
-import vertiefungD from "./module-vertiefung-d";
-import vertiefungE from "./module-vertiefung-e";
-import vertiefungF from "./module-vertiefung-f";
-import vertiefungG from "./module-vertiefung-g";
-import vertiefungH from "./module-vertiefung-h";
-import vertiefungI from "./module-vertiefung-i";
-import faelle from "./modules-faelle"; // unveränderte Fallsammlung aus den Kursmitschriften
-import { faelleNachModul } from "./fallsammlung";
+import basisA from "./module-basis-a.js";
+import basisB from "./module-basis-b.js";
+import vertiefungA from "./module-vertiefung-a.js";
+import vertiefungB from "./module-vertiefung-b.js";
+import vertiefungC from "./module-vertiefung-c.js";
+import vertiefungD from "./module-vertiefung-d.js";
+import vertiefungE from "./module-vertiefung-e.js";
+import vertiefungF from "./module-vertiefung-f.js";
+import vertiefungG from "./module-vertiefung-g.js";
+import vertiefungH from "./module-vertiefung-h.js";
+import vertiefungI from "./module-vertiefung-i.js";
+import faelle from "./modules-faelle.js"; // unveränderte Fallsammlung aus den Kursmitschriften
+import { faelleNachModul } from "./fallsammlung.js";
 
-/* Reihenfolge: erst Grundlagen und Vertiefung, dann die Originalfälle. */
-const grundmodule = [...basisA, ...basisB, ...vertiefungA, ...vertiefungB, ...vertiefungC, ...vertiefungD, ...vertiefungE, ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI, ...faelle];
+/* Reihenfolge: aufsteigend nach Kennziffer. Weil die Lernmodule 1–38 und die
+   Originalfälle 1xx nummeriert sind, ergibt das automatisch erst Grundlagen
+   und Vertiefung, dann die Fälle. Ohne die Sortierung richtet sich die
+   Reihenfolge nach den Dateinamen: Die Fälle 113–137 stehen in den
+   vertiefung-Dateien und liefen dadurch vor den Fällen 101–112. */
+const grundmodule = [
+  ...basisA, ...basisB,
+  ...vertiefungA, ...vertiefungB, ...vertiefungC, ...vertiefungD, ...vertiefungE,
+  ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI,
+  ...faelle,
+].sort((a, b) => a.id - b.id);
 export const module = grundmodule.map((m) => ({
   ...m,
   fallsammlung: faelleNachModul[m.id] || [],

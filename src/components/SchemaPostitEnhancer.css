@@ -218,7 +218,7 @@
 
 [data-pruefungsschemata-portal] article.panel li::marker {
   font-weight: 700;
-  color: color-mix(in srgb, var(--tinte) 78%, var(--leise));
+  color: color-mix(in srgb, var(--tinte) 78%, var(--ink-weich));
 }
 
 [data-pruefungsschemata-portal] article.panel section > div {

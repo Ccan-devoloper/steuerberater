@@ -7,6 +7,7 @@ import { formeln, karteikarten, quizfragen, wochenplan, glossar } from "./data/l
 import Schaubild from "./components/Schaubild";
 import Fallsammlungsfaelle from "./components/Fallsammlungsfaelle";
 import Falluebersicht from "./components/Falluebersicht";
+import Hausaufgabenseite, { HausaufgabenZuModul, IconHausaufgabe } from "./components/Hausaufgaben";
 import { Norm, Normkette, Notiz, Buchungssatz, Bilanzspiegel } from "./components/Bausteine";
 import {
   IconCockpit, IconModule, IconSchema, IconFormel, IconRegister, IconTraining,
@@ -34,6 +35,7 @@ const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Lernmodule", Icon: IconModule },
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
+  { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
   { id: "schema", label: "Prüfungsschema", Icon: IconSchema },
   { id: "formeln", label: "Rechenwege", Icon: IconFormel },
   { id: "register", label: "Normenregister", Icon: IconRegister },
@@ -57,6 +59,7 @@ export default function App() {
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
   const [erledigt, setErledigt] = useState(() => laden("stb-erledigt", []));
   const [planFertig, setPlanFertig] = useState(() => laden("stb-plan", []));
+  const [hausaufgabenAnker, setHausaufgabenAnker] = useState(null);
 
   useEffect(() => {
     document.documentElement.dataset.theme = dunkel ? "dark" : "light";
@@ -94,6 +97,13 @@ export default function App() {
   const oeffnen = (id) => {
     setModulId(id);
     setAnsicht("module");
+  };
+
+  /* Sprung von einer Modulseite zu einer bestimmten Hausaufgabe. */
+  const oeffnenHausaufgabe = (id) => {
+    setHausaufgabenAnker(id);
+    setModulId(null);
+    setAnsicht("hausaufgaben");
   };
 
   return (
@@ -187,6 +197,7 @@ export default function App() {
             umschalten={umschalten}
             zurueck={() => setModulId(null)}
             oeffnen={oeffnen}
+            oeffnenHausaufgabe={oeffnenHausaufgabe}
           />
         )}
         {ansicht === "faelle" && (
@@ -194,6 +205,14 @@ export default function App() {
             zugeordneteFaelle={zugeordneteFaelle}
             offeneFaelle={offeneFaelle}
             module={alleModule}
+            oeffnenModul={oeffnen}
+          />
+        )}
+        {ansicht === "hausaufgaben" && (
+          <Hausaufgabenseite
+            module={alleModule}
+            anker={hausaufgabenAnker}
+            setAnker={setHausaufgabenAnker}
             oeffnenModul={oeffnen}
           />
         )}
@@ -383,7 +402,7 @@ function Tz({ nummer, label, titel, art, children }) {
   );
 }
 
-function Modulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen }) {
+function Modulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen, oeffnenHausaufgabe }) {
   const fertig = erledigt.includes(m.id);
   const index = alleModule.findIndex((x) => x.id === m.id);
   const vorher = alleModule[index - 1];
@@ -522,6 +541,12 @@ function Modulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen }) {
           <p className="rechtsstand">{researchNote}</p>
         </Tz>
       )}
+
+      <HausaufgabenZuModul
+        modulId={m.id}
+        module={alleModule}
+        oeffnenHausaufgabe={oeffnenHausaufgabe}
+      />
 
       <nav className="blaettern">
         {vorher ? (

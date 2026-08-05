@@ -5,12 +5,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 ## Was drin ist
 
-- **46 Lernmodule**: 18 Einzelunternehmen, 5 Personengesellschaft, 5 Kapitalgesellschaft, 5 Klausurtechnik, 13 durchgerechnete Originalfälle
-- **26 datengetriebene Schaubilder** (SVG, dunkelmodusfähig) — Flussdiagramme, Entscheidungsbäume, Zeitstrahlen, Säulen, HB/StB-Gegenüberstellungen, Stufenschemata
-- **Normenregister** mit 224 Vorschriften, automatisch aus den Normenketten aller Module erzeugt
+- **75 Lernmodule**: 22 Einzelunternehmen, 5 Personengesellschaft, 5 Kapitalgesellschaft,
+  5 Klausurtechnik, 38 durchgerechnete Originalfälle
+- **Fallsammlung** mit 90 Fällen und Lösungen — 74 einem Lernmodul zugeordnet, 16 offen
+- **Hausaufgaben**: neun Fachtermine mit Aufgabenüberblick, Lösungsschwerpunkten, Normen und
+  1:1 übernommenem Volltext (wird erst beim Aufklappen nachgeladen)
+- **27 datengetriebene Schaubilder** (SVG, dunkelmodusfähig) — Flussdiagramme, Entscheidungsbäume, Zeitstrahlen, Säulen, HB/StB-Gegenüberstellungen, Stufenschemata
+- **Normenregister** mit 334 Vorschriften, automatisch aus den Normenketten aller Module erzeugt
 - **Formelsammlung** mit 12 Rechenwegen inkl. belegter Beispielrechnungen
 - **Training**: 24 Quizfragen, 24 Karteikarten, Zeitrechner (3,6 Minuten je Punkt)
 - **Lernplan** über acht Wochen, Fortschritt via `localStorage`
+
+Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
+gegen die Daten prüfen.
 
 ## Starten
 
@@ -29,24 +36,40 @@ als auch unter GitHub Pages in einem Unterverzeichnis. Der Workflow unter
 
 ```
 src/
-  App.jsx                     Alle Ansichten: Cockpit, Module, Schema, Formeln,
-                              Normenregister, Training, Lernplan
+  App.jsx                     Alle Ansichten: Cockpit, Module, Fälle, Hausaufgaben,
+                              Schema, Formeln, Normenregister, Training, Lernplan
   index.css                   Designsystem (ein Block, keine Überschreibungen)
   components/
     Schaubild.jsx             SVG-Renderer für sechs Diagrammtypen
     Bausteine.jsx             Norm, Normkette, Notiz, Rechnung, Buchungssatz, Bilanzspiegel
     Icons.jsx                 Icon-Set
+    Falluebersicht.jsx        zentrale Fallsammlung mit Suche und Filter
+    Fallsammlungsfaelle.jsx   einzelne Fallkarte, Lösung erst auf Klick
+    FallsammlungsText.jsx     PDF-getreue Wiedergabe von Text und Tabellen
+    Hausaufgaben.jsx          Hausaufgabenansicht + Rückverweis auf der Modulseite
+    Pruefungsschemata.jsx     die sechs großen Prüfungsschemata
   data/
-    module.js                 Sammelindex + Erzeugung des Normenregisters
-    module-basis-a.js         Module 1–13  (Einzelunternehmen, Personengesellschaft)
-    module-basis-b.js         Module 14–20 (Kapitalgesellschaft, Technik)
-    module-vertiefung-a.js    Module 21–27 (Gewinnrealisierung … Verbindlichkeiten)
-    module-vertiefung-b.js    Module 28–34 (Pensionsrückstellung … Klausurtechnik)
+    module.js                 Sammelindex (nach Kennziffer sortiert) + Normenregister
+    module-basis-a.js         Module 1–13   (Einzelunternehmen, Personengesellschaft)
+    module-basis-b.js         Module 14–20  (Kapitalgesellschaft, Technik)
+    module-vertiefung-a.js    Module 21–27  (Gewinnrealisierung … Verbindlichkeiten)
+    module-vertiefung-b.js    Module 28–34  (Pensionsrückstellung … Klausurtechnik)
+    module-vertiefung-c.js    Module 35–38 und Fälle 113–115
+    module-vertiefung-d.js … -i.js
+                              Fälle 116–137 aus den weiteren Kursmitschriften
     modules-faelle.js         Fälle 101–112 aus den Kursmitschriften
+    fallsammlung.js           90 Fälle mit Lösungen, nach Modul gruppiert
+    faelle-offen.js           Fälle ohne eindeutig einschlägiges Lernmodul
+    hausaufgaben.js           die neun Fachtermine (Metadaten und Zusammenfassung)
+    hausaufgaben-meta.js      Seiten- und Zeichenzahl der Volltexte
+    hausaufgaben-volltext.js  Volltexte, per dynamischem Import nachgeladen
     schaubilder.js            Alle Schaubilder als Daten
     lernstoff.js              Formeln, Karteikarten, Quiz, Lernplan, Glossar
     sources.js                Quellenkatalog und Rechtsstand
 ```
+
+Die Modulreihenfolge ergibt sich in `module.js` aus der aufsteigenden Kennziffer, nicht aus der
+Reihenfolge der Importe. Neue Dateien können daher an beliebiger Stelle eingehängt werden.
 
 ## Designentscheidungen
 
@@ -63,6 +86,26 @@ Block mit einer klaren Bildsprache:
   Randziffernspalte
 - **ABBA-Leiste** als Signaturelement — das Aufbauschema als Vier-Feld-Raster
 - Keine Schatten, keine Farbverläufe, Radien nahe null
+
+### Farbtoken
+
+Alle Farben und Schriften kommen aus den CSS-Variablen in `src/index.css` — sie heißen **deutsch**:
+`--papier`, `--grund`, `--feld`, `--linie`, `--linie-fein`, `--ink`, `--ink-weich`, `--tinte`,
+`--tinte-dunkel`, `--tinte-feld`, `--rot`, `--orange`, `--magenta`, `--gruen`, `--marker`,
+`--serif`, `--sans`, `--mono`.
+
+Nur diese Namen verwenden. Englische Namen wie `--panel`, `--line`, `--text`, `--muted`, `--accent`
+oder `--bg` sind **nicht** definiert. Eine Regel wie `border: 1px solid var(--line)` fällt still aus
+— die Deklaration wird bei der Wertberechnung ungültig, `border-style` fällt auf `none` zurück und
+die Fläche bleibt transparent. Der Fehler ist im Editor nicht sichtbar, nur im Browser.
+
+Gegenprobe vor dem Commit:
+
+```bash
+grep -ohE 'var\(--[a-z0-9-]+' -r src | sed 's/var(//' | sort -u > /tmp/used.txt
+grep -ohE '^\s*--[a-z0-9-]+:' src/index.css | tr -d ' :' | sort -u > /tmp/def.txt
+comm -23 /tmp/used.txt /tmp/def.txt   # erwartet: nur lokal gesetzte Variablen
+```
 
 ## Neue Inhalte ergänzen
 
@@ -139,15 +182,19 @@ Zahl an Seiten verarbeitet werden kann:
 2. Als Auftrag genügt: *„Erstelle aus dieser Mitschrift Module im Schema von
    `src/data/module-vertiefung-a.js`, mit `normchain`, `example`, `booking`, `hbstb`, `merksatz`
    und `traps`. Nur die fertige Datei ausgeben."*
-3. Die erzeugte Datei als `src/data/module-vertiefung-c.js` (bzw. `-d`, `-e` …) ablegen und in
-   `src/data/module.js` importieren:
+3. Die erzeugte Datei als nächste freie `src/data/module-vertiefung-*.js` ablegen und in
+   `src/data/module.js` importieren — mit `.js`-Endung, damit auch die Prüfskripte unter Node
+   laufen, und in die Sammelliste aufnehmen:
 
    ```js
-   import vertiefungC from "./module-vertiefung-c";
-   export const module = [...basisA, ...basisB, ...vertiefungA, ...vertiefungB, ...vertiefungC, ...faelle];
+   import vertiefungJ from "./module-vertiefung-j.js";
+   const grundmodule = [..., ...vertiefungJ, ...faelle].sort((a, b) => a.id - b.id);
    ```
 
-4. IDs fortlaufend vergeben (35, 36, … bzw. 113, 114, … für Fälle), damit das Register eindeutig bleibt.
+4. IDs fortlaufend vergeben (39, 40, … für Lernmodule, 138, 139, … für Fälle), damit das
+   Register eindeutig bleibt. Die Position im Import ist gleichgültig — sortiert wird nach `id`.
+5. `npm run check:fallsammlung` ausführen: Das Skript prüft die Zielmodule gegen den
+   tatsächlichen Bestand.
 
 Neue Normen erscheinen automatisch im Normenregister, neue Schaubilder automatisch im Modul —
 es ist an keiner weiteren Stelle etwas anzupassen.

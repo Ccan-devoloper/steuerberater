@@ -421,7 +421,7 @@ export default function Pruefungsschemata() {
         <div style={{ padding: "18px" }}>
           {schema.bloecke.map((block, i) => <SchemaBlock key={i} block={block} />)}
         </div>
-        <footer style={{ padding: "10px 18px", borderTop: "1px solid var(--linie)", fontSize: 12, color: "var(--leise)" }}>
+        <footer style={{ padding: "10px 18px", borderTop: "1px solid var(--linie)", fontSize: 12, color: "var(--ink-weich)" }}>
           Quelle: © Markus Nöthen · B-S25-Bilanz-Termin 1-Schema-(Noethen)-0425
         </footer>
       </article>

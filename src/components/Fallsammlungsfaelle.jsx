@@ -20,8 +20,8 @@ function Fallkarte({ fall, zielmodul, oeffnenModul, zeigeModulLink }) {
         onClick={() => setOffen((wert) => !wert)}
       >
         <div>
-          <span className="kicker">{fall.quellmodul} · {fall.titel}</span>
-          <h3>{fall.quellmodul} – {fall.titel}</h3>
+          <span className="kicker">{fall.quellmodul}</span>
+          <h3>{fall.titel}</h3>
           <span className="fallsammlung__oeffnen">{offen ? "Fall schließen" : "Fall öffnen"}</span>
         </div>
         <span className="fallsammlung__kopf-rechts">

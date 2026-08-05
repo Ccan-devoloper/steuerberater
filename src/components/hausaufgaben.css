@@ -1,50 +1,152 @@
-.hausaufgaben-aktiv > :not(.hausaufgaben-view) { display: none !important; }
-.hausaufgaben-nav-host { display: contents; }
-.hausaufgaben-nav { width: 100%; min-width: 0; }
-.hausaufgaben-nav > svg { width: 18px; height: 18px; max-width: none; flex: 0 0 18px; }
-.hausaufgaben-nav > span { min-width: 0; white-space: nowrap; }
-.hausaufgaben-view { display: block; }
-.hausaufgaben-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; margin-bottom: 1.5rem; }
-.hausaufgaben-head h1 { margin: .25rem 0 .5rem; }
-.hausaufgaben-tools { display: grid; grid-template-columns: minmax(220px, 1fr) minmax(190px, 280px) auto; gap: .75rem; align-items: center; margin-bottom: 1.5rem; }
-.hausaufgaben-tools input, .hausaufgaben-tools select { width: 100%; border: 1px solid var(--line); border-radius: .7rem; background: var(--panel); color: var(--text); padding: .8rem .9rem; font: inherit; }
-.hausaufgaben-tools > span { color: var(--muted); white-space: nowrap; }
-.hausaufgaben-list { display: grid; gap: 1.25rem; }
-.hausaufgabe { scroll-margin-top: 8rem; border: 1px solid var(--line); border-radius: 1rem; background: var(--panel); padding: 1.4rem; box-shadow: var(--shadow); content-visibility: auto; contain-intrinsic-size: 0 760px; }
-.hausaufgabe__kopf { display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; border-bottom: 1px solid var(--line); padding-bottom: 1rem; }
-.hausaufgabe__kopf h2 { margin: .25rem 0 .35rem; }
-.hausaufgabe__kopf p { margin: 0; color: var(--muted); }
-.hausaufgabe__nummer { width: 3rem; height: 3rem; flex: 0 0 3rem; display: grid; place-items: center; border-radius: 50%; background: var(--accent); color: white; font-weight: 800; font-size: 1.2rem; }
-.hausaufgabe__module { margin: 1rem 0; padding: 1rem; border-radius: .8rem; background: var(--soft); }
-.hausaufgabe__module > b { display: block; margin-bottom: .6rem; }
-.hausaufgabe__links { display: flex; flex-wrap: wrap; gap: .5rem; }
-.hausaufgabe__links button, .hausaufgaben-modulbox button { border: 1px solid var(--line); border-radius: 999px; background: var(--panel); color: var(--text); padding: .55rem .8rem; text-align: left; cursor: pointer; }
-.hausaufgabe__links button:hover, .hausaufgaben-modulbox button:hover { border-color: var(--accent); color: var(--accent); }
-.hausaufgabe__chips { display: flex; flex-wrap: wrap; gap: .45rem; margin: 1rem 0; }
-.hausaufgabe__chips span, .hausaufgabe__normen span { display: inline-flex; border-radius: 999px; background: var(--soft); color: var(--text); padding: .35rem .65rem; font-size: .88rem; }
-.hausaufgabe__spalten { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-.hausaufgabe__spalten h3 { margin-bottom: .55rem; }
-.hausaufgabe__spalten ul { margin: 0; padding-left: 1.15rem; }
-.hausaufgabe__spalten li + li { margin-top: .55rem; }
-.hausaufgabe details { border-top: 1px solid var(--line); margin-top: 1rem; padding-top: 1rem; }
-.hausaufgabe summary { cursor: pointer; font-weight: 700; }
-.hausaufgabe__normen { display: flex; flex-wrap: wrap; gap: .45rem; margin: .9rem 0; }
-.hausaufgabe__volltext-details[open] summary { margin-bottom: 1rem; }
-.hausaufgabe__volltext-hinweis { padding: 1rem; border: 1px solid var(--line); border-radius: .8rem; background: var(--soft); margin-bottom: 1rem; }
-.hausaufgabe__volltext-hinweis p { margin: .35rem 0 .5rem; }
-.hausaufgabe__volltext-hinweis small { color: var(--muted); }
-.hausaufgabe__volltext { max-height: 72vh; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; padding: 1.1rem; border: 1px solid var(--line); border-radius: .8rem; background: var(--bg); color: var(--text); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: .82rem; line-height: 1.55; tab-size: 4; }
-.hausaufgabe__status { padding: .9rem; border-radius: .7rem; background: var(--soft); }
-.hausaufgabe__status--fehler { border: 1px solid #b42318; color: #b42318; }
-.hausaufgabe__anker { margin-top: 1rem; border: 0; background: none; color: var(--accent); padding: 0; cursor: pointer; font-weight: 700; }
-.hausaufgaben-modulbox { border: 1px solid var(--line); border-radius: 1rem; background: var(--panel); padding: 1.25rem; margin: 1.5rem 0; }
-.hausaufgaben-modulbox h2 { margin: .25rem 0 .8rem; }
-.hausaufgaben-modulbox > div { display: flex; flex-wrap: wrap; gap: .55rem; }
-@media (max-width: 850px) {
-  .hausaufgaben-head { display: block; }
-  .hausaufgaben-head .btn { margin-top: 1rem; }
+/* =========================================================================
+   Hausaufgaben — auf das Designsystem aus index.css gesetzt.
+   Verwendet ausschließlich die dort definierten Variablen (--papier, --feld,
+   --linie, --ink, --tinte …). Keine Schatten, Radien nahe null, Meta-Angaben
+   in var(--mono), Überschriften in var(--serif) über die globalen h1–h4.
+   ========================================================================= */
+
+.hausaufgaben-list { display: grid; gap: 14px; }
+
+.hausaufgabe {
+  scroll-margin-top: 96px;
+  border: 1px solid var(--linie);
+  background: var(--papier);
+  content-visibility: auto;
+  contain-intrinsic-size: 0 760px;
+}
+
+.hausaufgabe__kopf {
+  display: flex; justify-content: space-between; gap: 16px; align-items: flex-start;
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--linie);
+  background: var(--feld);
+}
+.hausaufgabe__kopf h2 { font-size: 20px; margin: 5px 0 4px; }
+.hausaufgabe__kopf p { margin: 0; font-family: var(--mono); font-size: 11.5px; color: var(--ink-weich); }
+
+.hausaufgabe__nummer {
+  width: 38px; height: 38px; flex: 0 0 38px;
+  display: grid; place-items: center;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--papier);
+  font-family: var(--serif); font-size: 18px; font-weight: 700;
+}
+
+.hausaufgabe__module { padding: 14px 20px; border-bottom: 1px solid var(--linie-fein); background: var(--tinte-feld); }
+.hausaufgabe__module > b {
+  display: block; margin-bottom: 8px;
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--ink-weich);
+}
+.hausaufgabe__links { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.hausaufgabe__links button,
+.hausaufgaben-modulbox button {
+  border: 1px solid var(--tinte);
+  background: var(--papier);
+  color: var(--tinte-dunkel);
+  padding: 7px 11px;
+  font-size: 13.5px;
+  text-align: left;
+}
+.hausaufgabe__links button:hover,
+.hausaufgaben-modulbox button:hover { background: var(--tinte-feld); }
+
+.hausaufgabe__chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 14px 20px 0; }
+.hausaufgabe__chips span,
+.hausaufgabe__normen span {
+  display: inline-block;
+  border: 1px solid var(--linie);
+  background: var(--feld);
+  color: var(--ink-weich);
+  padding: 2px 8px;
+  font-family: var(--mono); font-size: 11px; letter-spacing: .04em;
+}
+
+.hausaufgabe__spalten { display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: 16px 0 0; }
+.hausaufgabe__spalten > section { padding: 0 20px 18px; }
+.hausaufgabe__spalten > section + section { border-left: 1px solid var(--linie-fein); }
+.hausaufgabe__spalten h3 { font-size: 16.5px; margin-bottom: 8px; }
+.hausaufgabe__spalten ul { margin: 0; padding-left: 20px; }
+.hausaufgabe__spalten li { margin: 5px 0; }
+
+.hausaufgabe details { border-top: 1px solid var(--linie-fein); padding: 14px 20px; }
+.hausaufgabe summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--tinte); }
+.hausaufgabe details p { margin: 10px 0 0; font-size: 13.5px; color: var(--ink-weich); }
+.hausaufgabe__normen { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+
+.hausaufgabe__volltext-details[open] > summary { margin-bottom: 14px; }
+.hausaufgabe__volltext-hinweis { border-left: 3px solid var(--tinte); background: var(--tinte-feld); padding: 12px 16px; }
+.hausaufgabe__volltext-hinweis > b {
+  display: block; margin-bottom: 3px;
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--tinte);
+}
+.hausaufgabe__volltext-hinweis p { margin: 0 0 6px; font-size: 13.5px; }
+.hausaufgabe__volltext-hinweis small { font-family: var(--mono); font-size: 11px; color: var(--ink-weich); }
+
+.hausaufgabe__volltext {
+  max-height: 72vh; overflow: auto;
+  white-space: pre-wrap; overflow-wrap: anywhere;
+  margin: 14px 0 0; padding: 14px 16px;
+  border: 1px solid var(--linie);
+  background: var(--feld);
+  color: var(--ink);
+  font-family: var(--mono); font-size: 12.5px; line-height: 1.6; tab-size: 4;
+}
+
+.hausaufgabe__status {
+  margin: 12px 0 0; padding: 10px 14px;
+  border-left: 3px solid var(--tinte);
+  background: var(--feld);
+  font-family: var(--mono); font-size: 12.5px;
+}
+.hausaufgabe__status--fehler { border-left-color: var(--rot); background: var(--rot-feld); color: var(--rot); }
+
+.hausaufgabe__anker {
+  display: block; width: 100%; text-align: left;
+  padding: 11px 20px;
+  border: 0; border-top: 1px solid var(--linie-fein);
+  background: var(--papier);
+  color: var(--tinte);
+  font-family: var(--mono); font-size: 12px; font-weight: 600;
+}
+.hausaufgabe__anker:hover { background: var(--feld); }
+
+/* Werkzeugleiste */
+.hausaufgaben-tools {
+  display: grid; grid-template-columns: minmax(220px, 1fr) minmax(190px, 280px) auto;
+  gap: 10px; align-items: center;
+  border: 1px solid var(--linie); background: var(--papier);
+  padding: 14px 16px; margin-bottom: 14px;
+}
+.hausaufgaben-tools input,
+.hausaufgaben-tools select {
+  width: 100%; height: 42px; padding: 0 12px;
+  border: 1px solid var(--linie); background: var(--feld); color: var(--ink);
+}
+.hausaufgaben-tools input { font-family: var(--mono); font-size: 13px; }
+.hausaufgaben-tools > span { font-family: var(--mono); font-size: 12px; color: var(--ink-weich); white-space: nowrap; }
+
+/* Rückverweis auf der Modulseite */
+.hausaufgaben-modulbox { border: 1px solid var(--linie); border-left: 4px solid var(--tinte); background: var(--papier); padding: 18px 20px; margin-top: 22px; }
+.hausaufgaben-modulbox h2 { font-size: 20px; margin: 5px 0 12px; }
+.hausaufgaben-modulbox > div { display: flex; flex-wrap: wrap; gap: 6px; }
+
+@media (max-width: 900px) {
   .hausaufgaben-tools { grid-template-columns: 1fr; }
   .hausaufgabe__spalten { grid-template-columns: 1fr; }
-  .hausaufgabe { padding: 1rem; contain-intrinsic-size: 0 980px; }
-  .hausaufgabe__volltext { font-size: .75rem; max-height: 65vh; }
+  .hausaufgabe__spalten > section + section { border-left: 0; border-top: 1px solid var(--linie-fein); padding-top: 16px; }
+}
+@media (max-width: 700px) {
+  .hausaufgabe__kopf,
+  .hausaufgabe__module,
+  .hausaufgabe details,
+  .hausaufgabe__anker { padding-left: 15px; padding-right: 15px; }
+  .hausaufgabe__chips { padding-left: 15px; padding-right: 15px; }
+  .hausaufgabe__spalten > section { padding-left: 15px; padding-right: 15px; }
+  .hausaufgabe { contain-intrinsic-size: 0 980px; }
+  .hausaufgabe__volltext { font-size: 11.5px; max-height: 65vh; }
+  .hausaufgaben-modulbox { padding: 15px 16px; }
 }

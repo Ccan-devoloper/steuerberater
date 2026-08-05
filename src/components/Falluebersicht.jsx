@@ -56,8 +56,8 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
           <span className="kicker">Fallsammlung</span>
           <h1>Alle Fälle und Lösungen</h1>
           <p className="lead">
-            Sämtliche 90 Fälle sind hier zentral erreichbar. Die Karten werden schrittweise geladen;
-            Sachverhalt und Lösung werden erst beim Öffnen aufbereitet.
+            Sämtliche {alleFaelle.length} Fälle sind hier zentral erreichbar. Die Karten werden schrittweise
+            geladen; Sachverhalt und Lösung werden erst beim Öffnen aufbereitet.
           </p>
         </div>
         <span className="zaehler">{alleFaelle.length} Fälle</span>

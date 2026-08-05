@@ -1,4 +1,5 @@
-// Noch keinem bestehenden Lernmodul eindeutig zuordenbare Fälle. Nicht in der Oberfläche eingebunden.
+// Fälle ohne eindeutig einschlägiges Lernmodul. Sie sind über die Fallübersicht
+// (Filter „Ohne Modul“) erreichbar und tragen jeweils einen offen_grund.
 const offeneFaelle = [
   {
     "id": "m01-f01",
