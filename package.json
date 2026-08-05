@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "check:fallsammlung": "node tools/pruefen-fallsammlung.mjs",
+    "check:fallsammlung-format": "node tools/pruefen-fallsammlung-format.mjs",
     "check:hausaufgaben": "node tools/pruefen-hausaufgaben-volltext.mjs"
   },
   "dependencies": {
