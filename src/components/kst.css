@@ -1,0 +1,90 @@
+/* Körperschaftsteuer-Ausbaustufe: Ergänzungen zum bestehenden Designsystem. */
+.kst-campus .brand__mark { border-color: var(--marker); color: var(--marker); }
+.kst-campus .kst-these { background: #172447; }
+html[data-theme="dark"] .kst-campus .kst-these { background: var(--feld); }
+
+.kst-pruefpfad {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: 1px solid var(--linie);
+  background: var(--papier);
+  margin-bottom: 18px;
+}
+.kst-pruefpfad__stufe {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  gap: 10px;
+  padding: 17px 16px;
+  border-right: 1px solid var(--linie-fein);
+}
+.kst-pruefpfad__stufe:last-child { border-right: 0; }
+.kst-pruefpfad__stufe > b {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--tinte);
+  color: var(--tinte);
+  font-family: var(--mono);
+}
+.kst-pruefpfad__stufe h3 { font-size: 16px; margin-bottom: 4px; }
+.kst-pruefpfad__stufe p { color: var(--ink-weich); font-size: 13px; }
+
+.kst-quellenliste { margin: 0; padding-left: 20px; }
+.kst-quellenliste li { margin: 4px 0; }
+
+.kst-faelle, .kst-schemata, .kst-quellenraster { display: grid; gap: 14px; }
+.kst-fallkarte { margin-top: 0 !important; }
+.kst-fallquelle { color: var(--ink-weich); font-family: var(--mono); font-size: 11px; }
+.kst-sachverhalt { padding: 15px; background: var(--feld); border-left: 3px solid var(--tinte); margin: 14px 0; }
+.kst-sachverhalt > b { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 6px; }
+.kst-fallkarte details { border-top: 1px solid var(--linie); padding-top: 12px; }
+.kst-fallkarte summary { cursor: pointer; color: var(--tinte); font-weight: 700; }
+.kst-loesung { margin: 14px 0 0; padding-left: 22px; }
+.kst-loesung li { margin: 7px 0; }
+.kst-schemahinweis { margin-top: 14px; }
+
+.kst-optionen { display: grid; gap: 8px; margin-top: 16px; }
+.kst-option {
+  padding: 11px 13px;
+  border: 1px solid var(--linie);
+  background: var(--papier);
+  text-align: left;
+}
+.kst-option:hover { background: var(--feld); }
+.kst-option.richtig { border-color: var(--gruen); background: var(--gruen-feld); }
+.kst-option.falsch { border-color: var(--rot); background: var(--rot-feld); }
+.kst-erklaerung { margin-top: 14px; padding: 14px; border-left: 3px solid var(--gruen); background: var(--gruen-feld); }
+
+.kst-karte {
+  width: 100%; min-height: 210px;
+  display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 12px;
+  padding: 28px; border: 1px solid var(--linie); background: var(--papier); text-align: center;
+}
+.kst-karte strong { max-width: 65ch; font-family: var(--serif); font-size: clamp(21px, 3vw, 30px); }
+.kst-karte small { color: var(--ink-weich); }
+.kst-karte--gedreht { border-color: var(--tinte); background: var(--tinte-feld); }
+.kst-kartensteuerung { display: flex; justify-content: space-between; gap: 8px; margin-top: 10px; }
+
+.kst-quellenraster { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.kst-quelle p { color: var(--ink-weich); }
+.kst-status {
+  display: inline-block; margin-bottom: 7px; padding: 2px 7px;
+  font-family: var(--mono); font-size: 10px; letter-spacing: .08em; text-transform: uppercase;
+  border: 1px solid currentColor;
+}
+.kst-status--fertig { color: var(--gruen); background: var(--gruen-feld); }
+.kst-status--k3 { color: var(--orange); background: var(--orange-feld); }
+
+@media (max-width: 980px) {
+  .kst-pruefpfad { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .kst-pruefpfad__stufe:nth-child(2) { border-right: 0; }
+  .kst-pruefpfad__stufe:nth-child(-n+2) { border-bottom: 1px solid var(--linie-fein); }
+}
+
+@media (max-width: 700px) {
+  .kst-pruefpfad, .kst-quellenraster { grid-template-columns: 1fr; }
+  .kst-pruefpfad__stufe { border-right: 0; border-bottom: 1px solid var(--linie-fein); }
+  .kst-pruefpfad__stufe:last-child { border-bottom: 0; }
+  .kst-kartensteuerung { flex-direction: column; }
+}
