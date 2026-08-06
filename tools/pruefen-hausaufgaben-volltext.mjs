@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { gunzipSync } from "node:zlib";
 import { readFileSync } from "node:fs";
+import { teileHausaufgabenVolltext } from "../src/data/hausaufgaben-volltext-teilen.js";
 
 const chunkHashes = [
   "405dcf85e0f79f82234283fd9756d708f1fcf0d7b9cb71bf1d15b0bad419d184",
@@ -46,7 +47,11 @@ for (const [termin, [zeichen, hash]] of Object.entries(erwartet)) {
   }
   const istHash = createHash("sha256").update(text).digest("hex");
   if (istHash !== hash) throw new Error(`Fachtermin ${termin}: SHA-256 stimmt nicht.`);
+
+  const { aufgabe, loesung } = teileHausaufgabenVolltext(termin, text);
+  if (aufgabe.length < 500) throw new Error(`Fachtermin ${termin}: Aufgabenteil wurde nicht zuverlässig erkannt.`);
+  if (loesung.length < 500) throw new Error(`Fachtermin ${termin}: Lösungsteil wurde nicht zuverlässig erkannt.`);
 }
 
 if (Object.keys(daten).length !== 9) throw new Error(`Unerwartete Anzahl Fachtermine: ${Object.keys(daten).length}`);
-console.log("Hausaufgaben-Volltexte vollständig: 9 Fachtermine, alle Chunk- und Textprüfsummen stimmen.");
+console.log("Hausaufgaben-Volltexte vollständig: 9 Fachtermine, alle Chunk- und Textprüfsummen stimmen; Aufgaben und Lösungen sind getrennt erkannt.");
