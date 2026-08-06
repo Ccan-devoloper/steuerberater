@@ -1,7 +1,9 @@
 import React, { useDeferredValue, useEffect, useMemo, useState } from "react";
 import hausaufgaben, { passendeModule } from "../data/hausaufgaben";
 import { volltextMeta } from "../data/hausaufgaben-meta";
+import { findePdfSeiteFuerTeil } from "../data/hausaufgaben-seiten";
 import { teileHausaufgabenVolltext } from "../data/hausaufgaben-volltext-teilen";
+import HausaufgabenDokument from "./HausaufgabenDokument";
 import "./hausaufgaben.css";
 
 /* Der Volltext wird erst geladen, wenn ihn jemand aufklappt. Das Promise wird
@@ -38,6 +40,10 @@ function Volltext({ termin, text, laden, fehler, onLoad }) {
     () => (text ? teileHausaufgabenVolltext(termin, text) : { aufgabe: "", loesung: "" }),
     [termin, text],
   );
+  const loesungsseite = useMemo(
+    () => (text && teile.loesung ? findePdfSeiteFuerTeil(text, teile.loesung) : null),
+    [text, teile.loesung],
+  );
 
   return (
     <details
@@ -48,11 +54,11 @@ function Volltext({ termin, text, laden, fehler, onLoad }) {
     >
       <summary>Vollständige Aufgabe öffnen</summary>
       <div className="hausaufgabe__volltext-hinweis">
-        <b>1:1-Textübernahme</b>
+        <b>PDF-getreue Layoutansicht</b>
         <p>
-          Der Volltext wird erst beim Öffnen geladen. Die Aufgabe erscheint sofort; die vollständige
-          Lösung bleibt wie in der Fallsammlung in einem eigenen Aufklapper verborgen.
-          Das personenbezogene PDF-Wasserzeichen wurde aus Datenschutzgründen entfernt.
+          Zeilenumbrüche, Einrückungen, Spalten und Tabellen werden unverändert aus der PDF-Textquelle
+          übernommen. Breite Seiten lassen sich horizontal verschieben. Die vollständige Lösung bleibt
+          wie in der Fallsammlung separat aufklappbar. Das personenbezogene PDF-Wasserzeichen wurde entfernt.
         </p>
         {meta && (
           <small>
@@ -66,7 +72,7 @@ function Volltext({ termin, text, laden, fehler, onLoad }) {
         <>
           <section className="hausaufgabe__volltext-bereich">
             <h3>Vollständige Aufgabe</h3>
-            <div className="hausaufgabe__volltext">{teile.aufgabe}</div>
+            <HausaufgabenDokument text={teile.aufgabe} bezeichnung="Aufgabe" />
           </section>
 
           {teile.loesung ? (
@@ -76,8 +82,12 @@ function Volltext({ termin, text, laden, fehler, onLoad }) {
             >
               <summary>Vollständige Lösung anzeigen</summary>
               {loesungOffen && (
-                <div className="hausaufgabe__volltext hausaufgabe__volltext--loesung">
-                  {teile.loesung}
+                <div className="hausaufgabe__loesungsdokument">
+                  <HausaufgabenDokument
+                    text={teile.loesung}
+                    bezeichnung="Lösung"
+                    ersteSeite={loesungsseite}
+                  />
                 </div>
               )}
             </details>
