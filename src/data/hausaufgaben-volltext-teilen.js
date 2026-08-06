@@ -8,7 +8,10 @@ const loesungsseiten = {
   8: 10,
 };
 
-const loesungsueberschrift = /(?:^|\n)(?:LÖSUNGSHINWEIS|Lösung(?:sskizze)?(?:\s+zur\s+[^\n]+)?|Musterlösung|Lösungen?)\s*:?\s*(?=\n|$)/im;
+/* PDF-Textzeilen können eingerückt sein. Deshalb werden vor und nach der
+   Überschrift nur horizontale Leerzeichen zugelassen; Zeilenumbrüche gehören
+   ausdrücklich nicht zum Treffer. */
+const loesungsueberschrift = /(?:^|\n)[ \t]*(?:LÖSUNGSHINWEIS|Lösung(?:sskizze)?(?:[ \t]+zur[ \t]+[^\r\n]+)?|Musterlösung|Lösungen?)[ \t]*:?[ \t]*(?=\r?\n|$)/im;
 
 export function teileHausaufgabenVolltext(termin, text) {
   if (typeof text !== "string" || text.length === 0) return { aufgabe: "", loesung: "" };
