@@ -1,6 +1,7 @@
 import React, { useDeferredValue, useEffect, useMemo, useState } from "react";
 import hausaufgaben, { passendeModule } from "../data/hausaufgaben";
 import { volltextMeta } from "../data/hausaufgaben-meta";
+import { teileHausaufgabenVolltext } from "../data/hausaufgaben-volltext-teilen";
 import "./hausaufgaben.css";
 
 /* Der Volltext wird erst geladen, wenn ihn jemand aufklappt. Das Promise wird
@@ -32,6 +33,12 @@ export function IconHausaufgabe() {
 
 function Volltext({ termin, text, laden, fehler, onLoad }) {
   const meta = volltextMeta[termin];
+  const [loesungOffen, setLoesungOffen] = useState(false);
+  const teile = useMemo(
+    () => (text ? teileHausaufgabenVolltext(termin, text) : { aufgabe: "", loesung: "" }),
+    [termin, text],
+  );
+
   return (
     <details
       className="hausaufgabe__volltext-details"
@@ -39,11 +46,12 @@ function Volltext({ termin, text, laden, fehler, onLoad }) {
         if (event.currentTarget.open && !text && !laden && !fehler) onLoad();
       }}
     >
-      <summary>Vollständige Aufgabe und Lösung öffnen</summary>
+      <summary>Vollständige Aufgabe öffnen</summary>
       <div className="hausaufgabe__volltext-hinweis">
         <b>1:1-Textübernahme</b>
         <p>
-          Der Volltext wird erst beim Öffnen geladen. Dadurch bleibt die Hausaufgabenübersicht sofort bedienbar.
+          Der Volltext wird erst beim Öffnen geladen. Die Aufgabe erscheint sofort; die vollständige
+          Lösung bleibt wie in der Fallsammlung in einem eigenen Aufklapper verborgen.
           Das personenbezogene PDF-Wasserzeichen wurde aus Datenschutzgründen entfernt.
         </p>
         {meta && (
@@ -54,7 +62,32 @@ function Volltext({ termin, text, laden, fehler, onLoad }) {
       </div>
       {laden && <p className="hausaufgabe__status" role="status">Volltext wird geladen und geprüft …</p>}
       {fehler && <p className="hausaufgabe__status hausaufgabe__status--fehler">{fehler}</p>}
-      {text && <pre className="hausaufgabe__volltext">{text}</pre>}
+      {text && (
+        <>
+          <section className="hausaufgabe__volltext-bereich">
+            <h3>Vollständige Aufgabe</h3>
+            <div className="hausaufgabe__volltext">{teile.aufgabe}</div>
+          </section>
+
+          {teile.loesung ? (
+            <details
+              className="hausaufgabe__loesung-details hausaufgabe__loesung-details--volltext"
+              onToggle={(event) => setLoesungOffen(event.currentTarget.open)}
+            >
+              <summary>Vollständige Lösung anzeigen</summary>
+              {loesungOffen && (
+                <div className="hausaufgabe__volltext hausaufgabe__volltext--loesung">
+                  {teile.loesung}
+                </div>
+              )}
+            </details>
+          ) : (
+            <p className="hausaufgabe__status hausaufgabe__status--fehler">
+              Für diesen Fachtermin konnte keine getrennte Lösung erkannt werden.
+            </p>
+          )}
+        </>
+      )}
     </details>
   );
 }
@@ -169,14 +202,17 @@ export default function Hausaufgabenseite({ module, anker, setAnker, oeffnenModu
               <div className="hausaufgabe__chips">{h.themen.map((t) => <span key={t}>{t}</span>)}</div>
 
               <div className="hausaufgabe__spalten">
-                <section>
+                <section className="hausaufgabe__aufgabenblock">
                   <h3>Aufgabenüberblick</h3>
                   <ul>{h.aufgaben.map((x, i) => <li key={i}>{x}</li>)}</ul>
                 </section>
-                <section>
-                  <h3>Lösungsschwerpunkte</h3>
-                  <ul>{h.loesung.map((x, i) => <li key={i}>{x}</li>)}</ul>
-                </section>
+
+                <details className="hausaufgabe__loesung-details hausaufgabe__loesung-details--ueberblick">
+                  <summary>Lösungsschwerpunkte anzeigen</summary>
+                  <div className="hausaufgabe__loesungsinhalt">
+                    <ul>{h.loesung.map((x, i) => <li key={i}>{x}</li>)}</ul>
+                  </div>
+                </details>
               </div>
 
               <details>
