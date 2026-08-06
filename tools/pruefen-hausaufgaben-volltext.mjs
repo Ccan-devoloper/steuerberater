@@ -1,6 +1,8 @@
 import { createHash } from "node:crypto";
 import { gunzipSync } from "node:zlib";
 import { readFileSync } from "node:fs";
+import { volltextMeta } from "../src/data/hausaufgaben-meta.js";
+import { teileHausaufgabenSeiten } from "../src/data/hausaufgaben-seiten.js";
 import { teileHausaufgabenVolltext } from "../src/data/hausaufgaben-volltext-teilen.js";
 
 const chunkHashes = [
@@ -48,10 +50,32 @@ for (const [termin, [zeichen, hash]] of Object.entries(erwartet)) {
   const istHash = createHash("sha256").update(text).digest("hex");
   if (istHash !== hash) throw new Error(`Fachtermin ${termin}: SHA-256 stimmt nicht.`);
 
+  const seiten = teileHausaufgabenSeiten(text);
+  const erwarteteSeitenzahl = volltextMeta[termin]?.seiten;
+  if (seiten.length !== erwarteteSeitenzahl) {
+    throw new Error(`Fachtermin ${termin}: ${seiten.length} statt ${erwarteteSeitenzahl} PDF-Seiten erkannt.`);
+  }
+  seiten.forEach((seite, index) => {
+    if (seite.nummer !== index + 1) {
+      throw new Error(`Fachtermin ${termin}: PDF-Seite ${index + 1} ist falsch nummeriert.`);
+    }
+    if (!seite.text || !seite.text.includes("\n")) {
+      throw new Error(`Fachtermin ${termin}: PDF-Seite ${seite.nummer} enthält keinen vollständigen Layouttext.`);
+    }
+  });
+
   const { aufgabe, loesung } = teileHausaufgabenVolltext(termin, text);
   if (aufgabe.length < 500) throw new Error(`Fachtermin ${termin}: Aufgabenteil wurde nicht zuverlässig erkannt.`);
   if (loesung.length < 500) throw new Error(`Fachtermin ${termin}: Lösungsteil wurde nicht zuverlässig erkannt.`);
 }
 
+const layoutCss = readFileSync(new URL("../src/components/HausaufgabenDokument.css", import.meta.url), "utf8");
+if (!/\.hausaufgabe__pdf-text[\s\S]*white-space:\s*pre\s*;/.test(layoutCss)) {
+  throw new Error("PDF-Layoutprüfung: Leerzeichen und Tabellen werden nicht unverändert erhalten.");
+}
+if (/\.hausaufgabe__pdf-text[\s\S]*white-space:\s*pre-wrap\s*;/.test(layoutCss)) {
+  throw new Error("PDF-Layoutprüfung: Automatischer Zeilenumbruch verschiebt Tabellen.");
+}
+
 if (Object.keys(daten).length !== 9) throw new Error(`Unerwartete Anzahl Fachtermine: ${Object.keys(daten).length}`);
-console.log("Hausaufgaben-Volltexte vollständig: 9 Fachtermine, alle Chunk- und Textprüfsummen stimmen; Aufgaben und Lösungen sind getrennt erkannt.");
+console.log("Hausaufgaben-Volltexte vollständig: 9 Fachtermine, alle PDF-Seiten, Einrückungen und Tabellenzeilen bleiben erhalten; Aufgaben und Lösungen sind getrennt erkannt.");
