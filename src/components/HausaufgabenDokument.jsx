@@ -1,5 +1,6 @@
 import React, { memo, useMemo } from "react";
 import { teileHausaufgabenSeiten } from "../data/hausaufgaben-seiten";
+import "./HausaufgabenDokument.css";
 
 function HausaufgabenDokument({ text, bezeichnung, ersteSeite = null }) {
   const seiten = useMemo(
