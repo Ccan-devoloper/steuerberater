@@ -18,6 +18,7 @@ const GESETZ_ABKUERZUNGEN = [
   "AStG",
   "InvStG",
   "ErbStG",
+  "SolzG",
 ];
 
 const GESETZE = `(?:${GESETZ_ABKUERZUNGEN.join("|")})`;
@@ -36,6 +37,64 @@ const ESTR_ZIELE = {
   6: `${ESTR_BASIS}/Paragraf-6/inhalt.html`,
 };
 
+const NORM_UEBERSCHRIFTEN = {
+  "HGB/246": "Vollständigkeit. Verrechnungsverbot",
+  "HGB/247": "Inhalt der Bilanz",
+  "HGB/248": "Bilanzierungsverbote und -wahlrechte",
+  "HGB/249": "Rückstellungen",
+  "HGB/250": "Rechnungsabgrenzungsposten",
+  "HGB/251": "Haftungsverhältnisse",
+  "HGB/252": "Allgemeine Bewertungsgrundsätze",
+  "HGB/253": "Zugangs- und Folgebewertung",
+  "HGB/255": "Bewertungsmaßstäbe",
+  "HGB/256": "Bewertungsvereinfachungsverfahren",
+  "HGB/256a": "Währungsumrechnung",
+  "HGB/266": "Gliederung der Bilanz",
+  "HGB/268": "Vorschriften zu einzelnen Posten der Bilanz. Bilanzvermerke",
+  "HGB/271": "Beteiligungen. Verbundene Unternehmen",
+  "HGB/274": "Latente Steuern",
+  "HGB/275": "Gliederung",
+  "HGB/277": "Vorschriften zu einzelnen Posten der Gewinn- und Verlustrechnung",
+  "EStG/3": "Steuerfreie Einnahmen",
+  "EStG/3c": "Anteilige Abzüge",
+  "EStG/4": "Gewinnbegriff im Allgemeinen",
+  "EStG/5": "Gewinn bei Kaufleuten und bei bestimmten anderen Gewerbetreibenden",
+  "EStG/5b": "Elektronische Übermittlung von Bilanzen sowie Gewinn- und Verlustrechnungen",
+  "EStG/6": "Bewertung",
+  "EStG/6a": "Pensionsrückstellung",
+  "EStG/6b": "Übertragung stiller Reserven bei der Veräußerung bestimmter Anlagegüter",
+  "EStG/7": "Absetzung für Abnutzung oder Substanzverringerung",
+  "EStG/7b": "Sonderabschreibung für Mietwohnungsneubau",
+  "EStG/7g": "Investitionsabzugsbeträge und Sonderabschreibungen zur Förderung kleiner und mittlerer Betriebe",
+  "EStG/9b": "Umsatzsteuerrechtlicher Vorsteuerabzug",
+  "EStG/12": "Nicht abzugsfähige Ausgaben",
+  "EStG/15": "Einkünfte aus Gewerbebetrieb",
+  "EStG/20": "Einkünfte aus Kapitalvermögen",
+  "EStG/36": "Entstehung und Tilgung der Einkommensteuer",
+  "EStG/43": "Kapitalerträge mit Steuerabzug",
+  "EStG/43a": "Bemessung der Kapitalertragsteuer",
+  "EStG/44": "Entrichtung der Kapitalertragsteuer",
+  "AO/39": "Zurechnung",
+  "AO/153": "Berichtigung von Erklärungen",
+  "EStDV/60": "Unterlagen zur Steuererklärung",
+  "KStG/8": "Ermittlung des Einkommens",
+  "KStG/8b": "Beteiligung an anderen Körperschaften und Personenvereinigungen",
+  "UStG/3": "Lieferung, sonstige Leistung",
+  "UStG/10": "Bemessungsgrundlage für Lieferungen, sonstige Leistungen und innergemeinschaftliche Erwerbe",
+  "UStG/15": "Vorsteuerabzug",
+  "SolzG/4": "Zuschlagssatz",
+  "EStR/R 4.2": "Betriebsvermögen",
+  "EStR/R 4.4": "Bilanzberichtigung und Bilanzänderung",
+  "EStR/R 5.7": "Rückstellungen",
+  "EStR/R 6.5": "Zuschüsse für Anlagegüter",
+  "EStR/R 6.6": "Übertragung stiller Reserven bei Ersatzbeschaffung",
+  "EStR/R 6.7": "Teilwertabschreibung und Wertaufholungsgebot",
+  "EStR/R 6.9": "Bewertung nach unterstellten Verbrauchs- und Veräußerungsfolgen",
+  "EStR/R 6.11": "Bewertung von Rückstellungen",
+};
+
+const SCHWEINCHEN_REFERENZEN = new Set(["EStG/6b", "EStG/7b", "EStG/7g"]);
+
 function tonAusTitel(titel) {
   if (/^ansatz\s*:/i.test(titel)) return "ansatz";
   if (/^bewertung\s*:/i.test(titel)) return "bewertung";
@@ -52,24 +111,50 @@ function estrUrl(richtlinie) {
   return ESTR_ZIELE[hauptnummer] || `${ESTR_BASIS}/inhalt.html`;
 }
 
+function ueberschriftFuerReferenz(referenz) {
+  const titel = NORM_UEBERSCHRIFTEN[referenz];
+  if (referenz.startsWith("EStR/R ")) {
+    const richtlinie = referenz.replace("EStR/", "");
+    return titel ? `${richtlinie} EStR – ${titel}` : `${richtlinie} EStR`;
+  }
+
+  const [gesetz, paragraph] = referenz.split("/");
+  if (!gesetz || !paragraph) return titel || referenz;
+  return titel ? `§ ${paragraph} ${gesetz} – ${titel}` : `§ ${paragraph} ${gesetz}`;
+}
+
+function istSchweinchenPostit({ text, referenz }) {
+  if (SCHWEINCHEN_REFERENZEN.has(referenz)) return true;
+  if (referenz !== "EStG/5") return false;
+
+  const normalisiert = text.replace(/\s+/g, " ").trim();
+  return /Abs\.\s*1\s*S\.\s*1\s*Hs\.\s*2/i.test(normalisiert)
+    || /Abs\.\s*1\s*S\.\s*2\s*und\s*3/i.test(normalisiert);
+}
+
 function postitErstellen({ text, bezeichnung = text, ton, quelle, href, zielname, referenz }) {
   const postit = document.createElement("a");
   const istHgb = quelle === "HGB";
+  const istSchweinchen = istSchweinchenPostit({ text, referenz });
+  const ueberschrift = ueberschriftFuerReferenz(referenz);
   const klassen = [
     "schema-norm-postit",
     `schema-norm-postit--${ton}`,
     istHgb ? "schema-norm-postit--hgb" : "schema-norm-postit--nicht-hgb",
   ];
 
+  if (istSchweinchen) klassen.push("schema-norm-postit--schweinchen");
+
   postit.className = klassen.join(" ");
   postit.dataset.schemaNormPostit = "";
   postit.dataset.schemaQuelle = quelle;
   postit.dataset.schemaReferenz = referenz;
+  postit.dataset.schemaUeberschrift = ueberschrift;
+  if (istSchweinchen) postit.dataset.schemaSchweinchen = "";
   postit.href = href;
   postit.target = "_blank";
   postit.rel = "noopener noreferrer";
-  postit.title = `${bezeichnung.trim()} ${zielname} öffnen`;
-  postit.setAttribute("aria-label", `${bezeichnung.trim()} ${zielname} in einem neuen Tab öffnen`);
+  postit.setAttribute("aria-label", `${bezeichnung.trim()}: ${ueberschrift}. ${zielname} in einem neuen Tab öffnen`);
   postit.textContent = text;
   return postit;
 }
@@ -233,18 +318,109 @@ function schemaBloeckeAktualisieren(root) {
   root.querySelectorAll("article.panel > div > section").forEach(blockAktualisieren);
 }
 
+function tooltipPositionieren(tooltip, postit) {
+  const abstand = 10;
+  const rand = 12;
+  const postitRechteck = postit.getBoundingClientRect();
+
+  tooltip.style.left = "0px";
+  tooltip.style.top = "0px";
+  const tooltipRechteck = tooltip.getBoundingClientRect();
+
+  let links = postitRechteck.left + (postitRechteck.width - tooltipRechteck.width) / 2;
+  links = Math.max(rand, Math.min(links, window.innerWidth - tooltipRechteck.width - rand));
+
+  let oben = postitRechteck.top - tooltipRechteck.height - abstand;
+  let position = "oben";
+  if (oben < rand) {
+    oben = postitRechteck.bottom + abstand;
+    position = "unten";
+  }
+
+  tooltip.style.left = `${Math.round(links)}px`;
+  tooltip.style.top = `${Math.round(oben)}px`;
+  tooltip.dataset.position = position;
+}
+
 /* `signal` ist die Kennung des gerade angezeigten Schemas. Ändert sie sich, hat
-   React neuen Text gerendert und die Post-its werden neu gesetzt. Das erledigte
-   früher ein MutationObserver, der sich vor jeder eigenen Änderung abmelden und
-   danach wieder anmelden musste — ein Umweg, der nur nötig war, solange die
-   Komponente per Portal neben der App hing. */
+   React neuen Text gerendert und die Post-its werden neu gesetzt. */
 export default function SchemaPostitEnhancer({ root, signal }) {
   useEffect(() => {
     if (!root) return undefined;
 
     schemaBloeckeAktualisieren(root);
 
+    const tooltip = document.createElement("div");
+    const tooltipId = `schema-norm-tooltip-${Math.random().toString(36).slice(2)}`;
+    tooltip.id = tooltipId;
+    tooltip.className = "schema-norm-tooltip";
+    tooltip.setAttribute("role", "tooltip");
+    tooltip.hidden = true;
+    document.body.append(tooltip);
+
+    let aktivesPostit = null;
+
+    const tooltipAusblenden = () => {
+      if (aktivesPostit) {
+        aktivesPostit.removeAttribute("aria-describedby");
+        delete aktivesPostit.dataset.schemaTooltipAktiv;
+      }
+      aktivesPostit = null;
+      tooltip.hidden = true;
+    };
+
+    const tooltipAnzeigen = (postit) => {
+      const ueberschrift = postit.dataset.schemaUeberschrift;
+      if (!ueberschrift || postit === aktivesPostit) return;
+
+      tooltipAusblenden();
+      aktivesPostit = postit;
+      postit.setAttribute("aria-describedby", tooltipId);
+      postit.dataset.schemaTooltipAktiv = "";
+      tooltip.textContent = ueberschrift;
+      tooltip.hidden = false;
+      tooltipPositionieren(tooltip, postit);
+    };
+
+    const beiPointerOver = (event) => {
+      const postit = event.target.closest?.("[data-schema-norm-postit]");
+      if (postit && root.contains(postit)) tooltipAnzeigen(postit);
+    };
+
+    const beiPointerOut = (event) => {
+      const postit = event.target.closest?.("[data-schema-norm-postit]");
+      if (!postit || postit !== aktivesPostit) return;
+      if (event.relatedTarget && postit.contains(event.relatedTarget)) return;
+      tooltipAusblenden();
+    };
+
+    const beiFocusIn = (event) => {
+      const postit = event.target.closest?.("[data-schema-norm-postit]");
+      if (postit && root.contains(postit)) tooltipAnzeigen(postit);
+    };
+
+    const beiFocusOut = (event) => {
+      const postit = event.target.closest?.("[data-schema-norm-postit]");
+      if (postit === aktivesPostit) tooltipAusblenden();
+    };
+
+    root.addEventListener("pointerover", beiPointerOver);
+    root.addEventListener("pointerout", beiPointerOut);
+    root.addEventListener("focusin", beiFocusIn);
+    root.addEventListener("focusout", beiFocusOut);
+    window.addEventListener("scroll", tooltipAusblenden, true);
+    window.addEventListener("resize", tooltipAusblenden);
+
     return () => {
+      root.removeEventListener("pointerover", beiPointerOver);
+      root.removeEventListener("pointerout", beiPointerOut);
+      root.removeEventListener("focusin", beiFocusIn);
+      root.removeEventListener("focusout", beiFocusOut);
+      window.removeEventListener("scroll", tooltipAusblenden, true);
+      window.removeEventListener("resize", tooltipAusblenden);
+      tooltipAusblenden();
+      tooltip.remove();
+
       root.querySelectorAll("[data-schema-norm-postit]").forEach((postit) => {
         postit.replaceWith(document.createTextNode(postit.textContent || ""));
       });
