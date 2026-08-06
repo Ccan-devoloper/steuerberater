@@ -99,6 +99,7 @@ function tonAusTitel(titel) {
   if (/^ansatz\s*:/i.test(titel)) return "ansatz";
   if (/^bewertung\s*:/i.test(titel)) return "bewertung";
   if (/außerbilanz/i.test(titel)) return "ausserbilanz";
+  if (/^(wichtig|beachte|vorüberlegung)\s*:/i.test(titel)) return "hinweis";
   return null;
 }
 
