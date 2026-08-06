@@ -1,8 +1,8 @@
 /* =========================================================================
    Hausaufgaben — auf das Designsystem aus index.css gesetzt.
    Verwendet ausschließlich die dort definierten Variablen (--papier, --feld,
-   --linie, --ink, --tinte …). Keine Schatten, Radien nahe null, Meta-Angaben
-   in var(--mono), Überschriften in var(--serif) über die globalen h1–h4.
+   --linie, --ink, --tinte …). Aufgaben- und Lösungstexte übernehmen exakt die
+   Sans-Serif-Schrift, Größe und Zeilenhöhe der Fälle aus der Fallsammlung.
    ========================================================================= */
 
 .hausaufgaben-list { display: grid; gap: 14px; }
@@ -64,17 +64,36 @@
   font-family: var(--mono); font-size: 11px; letter-spacing: .04em;
 }
 
-.hausaufgabe__spalten { display: grid; grid-template-columns: 1fr 1fr; gap: 0; padding: 16px 0 0; }
-.hausaufgabe__spalten > section { padding: 0 20px 18px; }
-.hausaufgabe__spalten > section + section { border-left: 1px solid var(--linie-fein); }
-.hausaufgabe__spalten h3 { font-size: 16.5px; margin-bottom: 8px; }
-.hausaufgabe__spalten ul { margin: 0; padding-left: 20px; }
-.hausaufgabe__spalten li { margin: 5px 0; }
+/* Aufgabenüberblick und Lösungsschwerpunkte folgen jetzt derselben Lesetypografie
+   wie Sachverhalt und Lösung in der Fallsammlung. */
+.hausaufgabe__spalten { padding: 16px 20px 18px; }
+.hausaufgabe__aufgabenblock h3 { font-size: 16.5px; margin-bottom: 8px; }
+.hausaufgabe__aufgabenblock ul,
+.hausaufgabe__loesungsinhalt ul { margin: 0; padding-left: 20px; }
+.hausaufgabe__aufgabenblock li,
+.hausaufgabe__loesungsinhalt li {
+  margin: 5px 0;
+  font-family: var(--sans);
+  font-size: 15.5px;
+  line-height: 1.62;
+}
 
 .hausaufgabe details { border-top: 1px solid var(--linie-fein); padding: 14px 20px; }
 .hausaufgabe summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--tinte); }
 .hausaufgabe details p { margin: 10px 0 0; font-size: 13.5px; color: var(--ink-weich); }
 .hausaufgabe__normen { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+
+.hausaufgabe__loesung-details {
+  background: var(--tinte-feld);
+}
+.hausaufgabe__loesung-details--ueberblick {
+  margin-top: 16px;
+  padding: 0 !important;
+  border: 1px solid var(--linie) !important;
+}
+.hausaufgabe__loesung-details--ueberblick > summary { padding: 14px 16px; }
+.hausaufgabe__loesung-details--ueberblick[open] > summary { border-bottom: 1px solid var(--linie-fein); }
+.hausaufgabe__loesungsinhalt { padding: 2px 16px 14px; background: var(--papier); }
 
 .hausaufgabe__volltext-details[open] > summary { margin-bottom: 14px; }
 .hausaufgabe__volltext-hinweis { border-left: 3px solid var(--tinte); background: var(--tinte-feld); padding: 12px 16px; }
@@ -86,15 +105,27 @@
 .hausaufgabe__volltext-hinweis p { margin: 0 0 6px; font-size: 13.5px; }
 .hausaufgabe__volltext-hinweis small { font-family: var(--mono); font-size: 11px; color: var(--ink-weich); }
 
+.hausaufgabe__volltext-bereich { margin-top: 14px; }
+.hausaufgabe__volltext-bereich h3 { margin-bottom: 10px; font-size: 16.5px; }
 .hausaufgabe__volltext {
   max-height: 72vh; overflow: auto;
   white-space: pre-wrap; overflow-wrap: anywhere;
-  margin: 14px 0 0; padding: 14px 16px;
+  margin: 0; padding: 20px;
   border: 1px solid var(--linie);
-  background: var(--feld);
+  background: var(--papier);
   color: var(--ink);
-  font-family: var(--mono); font-size: 12.5px; line-height: 1.6; tab-size: 4;
+  font-family: var(--sans); font-size: 15.5px; line-height: 1.62;
+  tab-size: 4;
 }
+
+.hausaufgabe__loesung-details--volltext {
+  margin-top: 14px;
+  padding: 0 !important;
+  border: 1px solid var(--linie) !important;
+}
+.hausaufgabe__loesung-details--volltext > summary { padding: 14px 16px; }
+.hausaufgabe__loesung-details--volltext[open] > summary { border-bottom: 1px solid var(--linie-fein); }
+.hausaufgabe__volltext--loesung { border: 0; background: var(--papier); }
 
 .hausaufgabe__status {
   margin: 12px 0 0; padding: 10px 14px;
@@ -136,8 +167,6 @@
 
 @media (max-width: 900px) {
   .hausaufgaben-tools { grid-template-columns: 1fr; }
-  .hausaufgabe__spalten { grid-template-columns: 1fr; }
-  .hausaufgabe__spalten > section + section { border-left: 0; border-top: 1px solid var(--linie-fein); padding-top: 16px; }
 }
 @media (max-width: 700px) {
   .hausaufgabe__kopf,
@@ -145,8 +174,11 @@
   .hausaufgabe details,
   .hausaufgabe__anker { padding-left: 15px; padding-right: 15px; }
   .hausaufgabe__chips { padding-left: 15px; padding-right: 15px; }
-  .hausaufgabe__spalten > section { padding-left: 15px; padding-right: 15px; }
+  .hausaufgabe__spalten { padding-left: 15px; padding-right: 15px; }
   .hausaufgabe { contain-intrinsic-size: 0 980px; }
-  .hausaufgabe__volltext { font-size: 11.5px; max-height: 65vh; }
+  .hausaufgabe__aufgabenblock li,
+  .hausaufgabe__loesungsinhalt li,
+  .hausaufgabe__volltext { font-size: 15px; }
+  .hausaufgabe__volltext { max-height: 65vh; padding: 15px; }
   .hausaufgaben-modulbox { padding: 15px 16px; }
 }
