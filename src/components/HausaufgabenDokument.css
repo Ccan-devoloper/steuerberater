@@ -1,0 +1,85 @@
+.hausaufgabe__pdf-dokument {
+  display: grid;
+  gap: 18px;
+  min-width: 0;
+}
+
+.hausaufgabe__pdf-seite {
+  min-width: 0;
+  border: 1px solid var(--linie);
+  background: var(--papier);
+}
+
+.hausaufgabe__pdf-seitenkopf {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--linie-fein);
+  background: var(--feld);
+  color: var(--ink-weich);
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.hausaufgabe__pdf-seitenkopf b {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.hausaufgabe__pdf-scroll {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: visible;
+  overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch;
+  background: var(--papier);
+}
+
+.hausaufgabe__pdf-scroll:focus-visible {
+  outline: 2px solid var(--tinte);
+  outline-offset: -2px;
+}
+
+.hausaufgabe__pdf-text {
+  display: block;
+  width: max-content;
+  min-width: 100%;
+  margin: 0;
+  padding: 22px 24px 26px;
+  white-space: pre;
+  overflow-wrap: normal;
+  word-break: normal;
+  tab-size: 8;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 400;
+  font-variant-ligatures: none;
+  letter-spacing: 0;
+  line-height: 1.48;
+  color: var(--ink);
+  background: var(--papier);
+}
+
+.hausaufgabe__loesungsdokument {
+  padding: 16px;
+  background: var(--papier);
+}
+
+@media (max-width: 700px) {
+  .hausaufgabe__pdf-dokument { gap: 14px; }
+  .hausaufgabe__pdf-seitenkopf { display: block; padding: 8px 10px; }
+  .hausaufgabe__pdf-seitenkopf b { display: block; margin-top: 2px; }
+  .hausaufgabe__pdf-text { padding: 16px 14px 20px; font-size: 11px; line-height: 1.45; }
+  .hausaufgabe__loesungsdokument { padding: 12px; }
+}
+
+@media print {
+  .hausaufgabe__pdf-scroll { overflow: visible; }
+  .hausaufgabe__pdf-seite { break-after: page; border: 0; }
+  .hausaufgabe__pdf-seitenkopf { display: none; }
+  .hausaufgabe__pdf-text { width: auto; min-width: 0; padding: 0; font-size: 9pt; }
+}
