@@ -23,7 +23,8 @@ import { faelleNachModul } from "./fallsammlung.js";
 const grundmodule = [
   ...basisA, ...basisB,
   ...vertiefungA, ...vertiefungB, ...vertiefungC, ...vertiefungD, ...vertiefungE,
-  ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI, ...vertiefungJ, ...vertiefungK, ...vertiefungL,
+  ...vertiefungF, ...vertiefungG, ...vertiefungH, ...vertiefungI, ...vertiefungJ, ...vertiefungK,
+  ...vertiefungL,
   ...faelle,
 ].sort((a, b) => a.id - b.id);
 export const module = grundmodule.map((m) => ({
