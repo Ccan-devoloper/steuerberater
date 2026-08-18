@@ -13,6 +13,14 @@ for (const [idText, ergaenzung] of Object.entries(k1Einheit6Ergaenzungen)) {
   if (ziel) Object.assign(ziel, ergaenzung);
 }
 
+/* Die Quellenlösung zu Beispiel 10 setzt für die erste Vermietungsphase 0 %
+   Vorsteuerabzug und für die Nutzung ab 1.9.26 100 % an. Diese Formulierung
+   vermeidet eine darüber hinausgehende Wertung der ersten Vermietungsphase. */
+const beispiel10 = k1UstEinheit6.find((inhalt) => inhalt.id === 219);
+if (beispiel10) {
+  beispiel10.intro[0] = "Beispiel 10 eröffnet den eigentlichen §-15a-Block der sechsten Einheit. Ein neues Geschäftshaus wird zunächst nach der Quellenlösung mit 0 % Vorsteuerabzug genutzt und noch im Jahr der Fertigstellung an einen anderen Mieter überlassen, für dessen Nutzung die Quelle 100 % ansetzt.";
+}
+
 const vorhandeneIds = new Set(k1UstEinheit2.map((inhalt) => inhalt.id));
 for (const inhalt of k1UstEinheit6) {
   if (!vorhandeneIds.has(inhalt.id)) {
