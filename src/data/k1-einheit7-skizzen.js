@@ -33,6 +33,15 @@ const k1Einheit7Skizzen = {
     ],
     note: "Die Quelle verbindet die zurückbehaltene, weiter überlassene wesentliche Betriebsgrundlage mit der später eintretenden organisatorischen Eingliederung.",
   },
+  235: {
+    titel: "Lösungsskizze · Teil-GiG des Vermietungsgebäudes",
+    spuren: [
+      ["oben: Vermietung an RA", "Verkauf 1.12.26", "Nöhring führt Vermietung fort", "Teil-GiG"],
+      ["unten: Vermietung an StB Nöhring", "Nöhring wird Eigentümer", "Vermietung endet", "keine GiG"],
+      ["VorSt-Anteil 95.000 €", "2026: 8,33 % → 791,67 € → keine Korrektur", "2027: 100 % → 9.500 €", "791,67 € je VAZ 01–12/27"],
+    ],
+    note: "Die Skizze folgt dem zweigeteilten Haus der Tafel: gleicher Grundstücksverkauf, aber unterschiedliche Fortführung und unterschiedliche umsatzsteuerliche Folgen je Gebäudeteil.",
+  },
 };
 
 export default k1Einheit7Skizzen;
