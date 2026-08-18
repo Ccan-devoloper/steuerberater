@@ -1,10 +1,13 @@
 import { useEffect } from "react";
 import k1OriginalfallAufgaben from "../data/k1-originalfall-aufgaben";
+import k1OriginalfallAufgabenEinheit5 from "../data/k1-originalfall-aufgaben-einheit5";
 import k1Einheit3Skizzen from "../data/k1-einheit3-skizzen";
 import k1Einheit4Skizzen from "../data/k1-einheit4-skizzen";
+import k1Einheit5Skizzen from "../data/k1-einheit5-skizzen";
 import "./k1-originalfall-aufgaben.css";
 
-const k1Quellskizzen = { ...k1Einheit3Skizzen, ...k1Einheit4Skizzen };
+const k1OriginalfallAufgabenAlle = { ...k1OriginalfallAufgaben, ...k1OriginalfallAufgabenEinheit5 };
+const k1Quellskizzen = { ...k1Einheit3Skizzen, ...k1Einheit4Skizzen, ...k1Einheit5Skizzen };
 
 function fallIdAusText(text, muster) {
   const treffer = String(text || "").match(muster);
@@ -47,6 +50,12 @@ function aufgabenblockBauen(daten, schemaButtons) {
     }
     block.appendChild(liste);
   } else if (daten.hinweis) {
+    const hinweis = document.createElement("p");
+    hinweis.textContent = daten.hinweis;
+    block.appendChild(hinweis);
+  }
+
+  if (daten.hinweis && daten.fragen.length > 0) {
     const hinweis = document.createElement("p");
     hinweis.textContent = daten.hinweis;
     block.appendChild(hinweis);
@@ -133,7 +142,7 @@ function quellskizzeAnreichern(scope, fallId) {
 function fallkarteAnreichern(karte) {
   const kicker = karte.querySelector(".panel__head .kicker")?.textContent;
   const fallId = fallIdAusText(kicker, /Fall\s+(\d+)/i);
-  const daten = k1OriginalfallAufgaben[fallId];
+  const daten = k1OriginalfallAufgabenAlle[fallId];
   const sachverhalt = karte.querySelector(".kst-sachverhalt");
   if (!daten || !sachverhalt) return;
 
@@ -147,7 +156,7 @@ function fallkarteAnreichern(karte) {
 function modulseiteAnreichern(lesson) {
   const kicker = lesson.querySelector(".lesson__kopf .kicker")?.textContent;
   const fallId = fallIdAusText(kicker, /Originalfall\s+(\d+)/i);
-  const daten = k1OriginalfallAufgaben[fallId];
+  const daten = k1OriginalfallAufgabenAlle[fallId];
   const sachverhalt = lesson.querySelector(".fall__sachverhalt");
   if (!daten || !sachverhalt) return;
 
@@ -161,22 +170,26 @@ function modulseiteAnreichern(lesson) {
 function einheitenTextAktualisieren() {
   const beschreibung = document.querySelector(".kst-these p");
   if (beschreibung?.textContent?.includes("USt-Einheiten 1 und 2")) {
-    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 und 2", "USt-Einheiten 1 bis 4");
+    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 und 2", "USt-Einheiten 1 bis 5");
   } else if (beschreibung?.textContent?.includes("USt-Einheiten 1 bis 3")) {
-    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 bis 3", "USt-Einheiten 1 bis 4");
+    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 bis 3", "USt-Einheiten 1 bis 5");
+  } else if (beschreibung?.textContent?.includes("USt-Einheiten 1 bis 4")) {
+    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 bis 4", "USt-Einheiten 1 bis 5");
   }
 
   const listenKopf = document.querySelector("main.page .pagehead");
   const titel = listenKopf?.querySelector("h1");
-  if (["USt-Einheiten 1–2", "USt-Einheiten 1–3"].includes(titel?.textContent?.trim())) {
-    titel.textContent = "USt-Einheiten 1–4";
+  if (["USt-Einheiten 1–2", "USt-Einheiten 1–3", "USt-Einheiten 1–4"].includes(titel?.textContent?.trim())) {
+    titel.textContent = "USt-Einheiten 1–5";
   }
 
   const lead = listenKopf?.querySelector(".lead");
   if (lead?.textContent?.includes("aus beiden Einheiten")) {
-    lead.textContent = lead.textContent.replace("aus beiden Einheiten", "aus allen vier Einheiten");
+    lead.textContent = lead.textContent.replace("aus beiden Einheiten", "aus allen fünf Einheiten");
   } else if (lead?.textContent?.includes("aus allen drei Einheiten")) {
-    lead.textContent = lead.textContent.replace("aus allen drei Einheiten", "aus allen vier Einheiten");
+    lead.textContent = lead.textContent.replace("aus allen drei Einheiten", "aus allen fünf Einheiten");
+  } else if (lead?.textContent?.includes("aus allen vier Einheiten")) {
+    lead.textContent = lead.textContent.replace("aus allen vier Einheiten", "aus allen fünf Einheiten");
   }
 }
 
