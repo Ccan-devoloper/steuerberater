@@ -2,8 +2,8 @@
   margin-top: 14px;
   padding: 12px 14px;
   border: 1px solid var(--linie);
-  border-left: 3px solid var(--akzent);
-  background: var(--feld);
+  border-left: 3px solid var(--tinte);
+  background: var(--papier);
 }
 
 .k1-originalfall-aufgabe__kopf {
@@ -20,7 +20,7 @@
 
 .k1-originalfall-aufgabe__kopf small {
   flex: 0 0 auto;
-  color: var(--muted);
+  color: var(--ink-weich);
   font-family: var(--mono);
   font-size: 11px;
 }
