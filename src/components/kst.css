@@ -15,8 +15,15 @@ html[data-theme="dark"] .kst-campus .kst-these { background: var(--feld); }
   grid-template-columns: 38px minmax(0, 1fr);
   gap: 10px;
   padding: 17px 16px;
+  border: 0;
   border-right: 1px solid var(--linie-fein);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
 }
+.kst-pruefpfad__stufe:hover { background: var(--tinte-feld); }
 .kst-pruefpfad__stufe:last-child { border-right: 0; }
 .kst-pruefpfad__stufe > b {
   width: 30px;
@@ -29,6 +36,16 @@ html[data-theme="dark"] .kst-campus .kst-these { background: var(--feld); }
 }
 .kst-pruefpfad__stufe h3 { font-size: 16px; margin-bottom: 4px; }
 .kst-pruefpfad__stufe p { color: var(--ink-weich); font-size: 13px; }
+.kst-pruefpfad__stufe small { color: var(--tinte); font-family: var(--mono); font-size: 10px; }
+.kst-abschnitt-kopf { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; }
+.kst-schema-alle {
+  border: 0;
+  background: transparent;
+  color: var(--tinte);
+  font: 600 11px var(--mono);
+  cursor: pointer;
+  white-space: nowrap;
+}
 
 .kst-quellenliste { margin: 0; padding-left: 20px; }
 .kst-quellenliste li { margin: 4px 0; }
@@ -43,6 +60,34 @@ html[data-theme="dark"] .kst-campus .kst-these { background: var(--feld); }
 .kst-loesung { margin: 14px 0 0; padding-left: 22px; }
 .kst-loesung li { margin: 7px 0; }
 .kst-schemahinweis { margin-top: 14px; }
+
+/* Verweise aus allen K1-Inhalten auf die jeweils passende Stelle im Prüfschema. */
+.kst-schema-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin: 7px 0 0 8px;
+  vertical-align: baseline;
+}
+.kst-schema-links--compact { gap: 4px; margin-top: 4px; }
+.kst-schema-link,
+.kst-norm-link {
+  border: 1px solid color-mix(in srgb, var(--tinte) 35%, var(--linie));
+  background: var(--tinte-feld);
+  color: var(--tinte);
+  font-family: var(--mono);
+  cursor: pointer;
+}
+.kst-schema-link {
+  padding: 2px 6px;
+  font-size: 10px;
+  line-height: 1.35;
+}
+.kst-schema-link:hover,
+.kst-norm-link:hover { border-color: var(--tinte); background: var(--feld); }
+.kst-norm-link { padding: 3px 7px; white-space: normal; text-align: left; }
+.kst-normkette-verlinkt li { min-width: 0; }
 
 /* K1-Lösungen können lange Normketten und großformatige Skizzen enthalten.
    Jeder Inhaltsblock darf deshalb in Grid/Flex-Kontexten schrumpfen; die SVGs
@@ -90,6 +135,97 @@ html[data-theme="dark"] .kst-campus .kst-these { background: var(--feld); }
   line-height: 1.45;
 }
 
+/* Vollständiges Umsatzsteuer-Prüfschema. */
+.ust-schema { min-width: 0; }
+.ust-schema__kopf { margin-bottom: 14px; }
+.ust-schema__direkt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid var(--linie);
+  background: var(--papier);
+}
+.ust-schema__direkt a {
+  padding: 5px 8px;
+  border: 1px solid var(--linie);
+  background: var(--feld);
+  color: var(--tinte);
+  font: 600 10.5px var(--mono);
+  text-decoration: none;
+}
+.ust-schema__direkt a:hover { border-color: var(--tinte); }
+.ust-schema__inhalt {
+  padding: clamp(18px, 3vw, 34px);
+  border: 1px solid var(--linie);
+  background: var(--papier);
+}
+.ust-schema__inhalt > :first-child { margin-top: 0; }
+.ust-schema__inhalt p { max-width: 92ch; line-height: 1.62; }
+.ust-schema__inhalt hr { border: 0; border-top: 1px solid var(--linie); margin: 30px 0; }
+.ust-schema__heading {
+  position: relative;
+  scroll-margin-top: 150px;
+  max-width: 34ch;
+  line-height: 1.18;
+}
+.ust-schema__inhalt h2.ust-schema__heading { margin: 34px 0 15px; font-size: clamp(24px, 3vw, 33px); }
+.ust-schema__inhalt h3.ust-schema__heading { margin: 28px 0 13px; font-size: clamp(20px, 2.3vw, 26px); }
+.ust-schema__inhalt h4.ust-schema__heading { margin: 22px 0 10px; font-size: 18px; }
+.ust-schema__heading > a {
+  position: absolute;
+  right: calc(100% + 8px);
+  color: var(--linie);
+  font-family: var(--mono);
+  text-decoration: none;
+}
+.ust-schema__heading:hover > a { color: var(--tinte); }
+.ust-schema__liste { max-width: 92ch; padding-left: 24px; }
+.ust-schema__liste li { margin: 7px 0; line-height: 1.52; }
+.ust-schema__tablewrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 16px 0 22px;
+  border: 1px solid var(--linie);
+}
+.ust-schema__table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.ust-schema__table th,
+.ust-schema__table td {
+  padding: 10px 12px;
+  border-right: 1px solid var(--linie-fein);
+  border-bottom: 1px solid var(--linie-fein);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.45;
+}
+.ust-schema__table th { background: var(--feld); font-family: var(--mono); font-size: 11px; }
+.ust-schema__table tr:last-child td { border-bottom: 0; }
+.ust-schema__table th:last-child,
+.ust-schema__table td:last-child { border-right: 0; }
+.ust-schema__ascii {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 16px;
+  border: 1px solid var(--linie);
+  background: var(--feld);
+  font: 12px/1.45 var(--mono);
+}
+.ust-schema__inhalt blockquote {
+  max-width: 88ch;
+  margin: 16px 0;
+  padding: 12px 16px;
+  border-left: 3px solid var(--tinte);
+  background: var(--tinte-feld);
+  line-height: 1.55;
+}
+.ust-schema__inhalt code { font-family: var(--mono); }
+
 .kst-optionen { display: grid; gap: 8px; margin-top: 16px; }
 .kst-option {
   padding: 11px 13px;
@@ -134,4 +270,11 @@ html[data-theme="dark"] .kst-campus .kst-these { background: var(--feld); }
   .kst-pruefpfad__stufe:last-child { border-bottom: 0; }
   .kst-kartensteuerung { flex-direction: column; }
   .kst-campus .schaubild svg { min-width: 560px; }
+  .kst-abschnitt-kopf { align-items: flex-start; flex-direction: column; }
+  .kst-schema-links { display: flex; margin-left: 0; }
+  .ust-schema__direkt { gap: 5px; padding: 9px; }
+  .ust-schema__inhalt { padding: 18px 14px; }
+  .ust-schema__heading { scroll-margin-top: 120px; }
+  .ust-schema__heading > a { display: none; }
+  .ust-schema__ascii { font-size: 10.5px; }
 }
