@@ -49,7 +49,7 @@ export default [
     exam: [
       "Die Mitschrift markiert den Prüfungsgang ausdrücklich als wiederkehrendes Grundschema: § 1, §§ 4–9, § 12, § 10, § 13 und § 15 UStG.",
       "Für die nächste Stufe der Prüfung werden bei § 4 UStG insbesondere Nr. 8 Banken- und Finanzumsätze, Nr. 10 Buchst. a Versicherung, Nr. 11 Versicherungsmakler/-vertreter, Nr. 14 Ärzte, Nr. 16 Betreuung/Pflege, Nr. 21 Bildungsleistungen und Nr. 28 Verkauf von Anlagevermögen durch steuerbefreite Berufe vorgemerkt; als Beispiel steht dort ein HNO-Arzt, der ein Röntgengerät verkauft.",
-      "UStAE-Post-it-Liste der Mitschrift: A 1.5 GiG; A 1.6 Gründung Gesellschaft; A 1a.2 i.g. Verbringen (dauerhaft/vorübergehend); A 2.8 Organschaft; A 3.10 Haupt-/Nebenleistungen; A 3.14 Reihengeschäfte; A 9.2 (3) S. 2 Verzicht auf Steuerbefreiung (95 %); A 15.2b (2) S. 6 „wenn für uWA beabsichtigt, keine VorSt“; A 15.2c Zuordnung zum Unternehmen; A 15.23 PKW-Nutzung; A 15a.1 (6) Einlage ins UV, kein § 15a möglich. Zusätzlich sind A 2.3 (2) und A 14c.1 (1a) handschriftlich markiert.",
+      "UStAE-Post-it-Liste der Mitschrift: A 1.5 GiG; A 1.6 Gründung Gesellschaft; A 1a.2 i.g. Verbringen (dauerhaft/vorübergehend); A 2.8 Organschaft; A 3.10 Haupt-/Nebenleistungen; A 3.14 Reihengeschäfte; A 9.2 (3) S. 2 Verzicht auf Steuerbefreiung (95 %); A 15.2b (2) S. 6 „wenn für uWA beabsichtigt, keine VorSt“; A 15.2c Zuordnung zum Unternehmen; A 15.23 PKW-Nutzung; A 15a.1 (6) Einlage ins UV, kein § 15a möglich. Zusätzlich sind A 2.3 (2), A 14c.1 (1a) und im Gesetzesregister Anlage 2 handschriftlich markiert.",
       "Als Hausaufgabe nennt die letzte Seite die Fälle 1–4 aus der Fallsammlung Meurer; Sachverhalte oder Lösungen dieser Fälle enthält die Mitschrift nicht.",
     ],
     traps: [
@@ -475,7 +475,7 @@ export default [
     diagram: null,
     intro: [
       "Die Mitschrift ordnet die Geschäftsreise mit Hotel und Frühstück als einheitlichen Beherbergungsvorgang ein und bezeichnet das Frühstück als Nebenleistung. Für den Steuersatz verlangt § 12 Abs. 2 Nr. 11 UStG dennoch eine Trennung zwischen unmittelbar der Beherbergung dienender Leistung und Frühstück.",
-      "Daneben steht ein hervorgehobener Exkurs zum Rechtsstand seit 2026: Restaurant- und Verpflegungsdienstleistungen mit Essen werden mit 7 % markiert, Getränke mit 19 %. Für die Aufteilung übernimmt die Mitschrift 70 % Essen und 30 % Getränke und verweist auf A 10.1 Abs. 12 UStAE.",
+      "Daneben steht ein hervorgehobener Exkurs zum Rechtsstand seit 2026: Restaurant- und Verpflegungsdienstleistungen mit Essen werden mit 7 % markiert, Getränke mit 19 %. Eine Randrechnung zu A 10.1 Abs. 12 UStAE verwendet 12 € als Ausgangsbetrag und teilt ihn mit 70 % auf Essen und 30 % auf Getränke auf.",
     ],
     goals: [
       "Übernachtung und Frühstück als zusammengehörigen Beherbergungssachverhalt würdigen",
@@ -506,7 +506,7 @@ export default [
         "Steuersatz Frühstück: 19 %; die Mitschrift verweist auf § 12 Abs. 2 Nr. 11 S. 2 UStG.",
         "Der Leistungsort der Beherbergung liegt nach § 3a Abs. 3 Nr. 1 S. 1, 2 Buchst. a UStG in Wien.",
         "Weil der Leistungsort nicht im Inland liegt, kennzeichnet die Mitschrift den Umsatz im Rahmen des § 1 Abs. 1 Nr. 1 S. 1 UStG als nicht steuerbar.",
-        "Hervorgehobener Exkurs der Mitschrift „seit 2026“: Essen 7 % nach § 12 Abs. 2 Nr. 15 UStG, Getränke 19 %. Als Aufteilung sind 70 % Essen und 30 % Getränke sowie A 10.1 Abs. 12 UStAE notiert.",
+        "Hervorgehobener Exkurs der Mitschrift „seit 2026“: Essen 7 % nach § 12 Abs. 2 Nr. 15 UStG, Getränke 19 %. Die Randrechnung zu A 10.1 Abs. 12 UStAE setzt 12 € an und teilt 70 % dem Essen und 30 % den Getränken zu.",
       ],
       result: "Leistungsort Wien, daher nicht im Inland steuerbar; innerhalb des Hotelpakets notiert die Mitschrift 7 % für die Übernachtung und 19 % für das Frühstück.",
     },
