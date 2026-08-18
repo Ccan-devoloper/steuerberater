@@ -240,7 +240,7 @@ function K1Liste({ liste, suche, erledigt, umschalten, oeffnen }) {
           return (
             <div
               key={m.id}
-              className={`modul${fertig ? " modul--fertig" : ""}`
+              className={`modul${fertig ? " modul--fertig" : ""}`}
               role="button"
               tabIndex={0}
               onClick={() => oeffnen(m.id)}
