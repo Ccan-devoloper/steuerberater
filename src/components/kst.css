@@ -44,6 +44,52 @@ html[data-theme="dark"] .kst-campus .kst-these { background: var(--feld); }
 .kst-loesung li { margin: 7px 0; }
 .kst-schemahinweis { margin-top: 14px; }
 
+/* K1-Lösungen können lange Normketten und großformatige Skizzen enthalten.
+   Jeder Inhaltsblock darf deshalb in Grid/Flex-Kontexten schrumpfen; die SVGs
+   bleiben lesbar und werden auf schmalen Ansichten horizontal gescrollt statt
+   abgeschnitten oder über Nachbartexte gelegt. */
+.kst-campus .kst-fallkarte,
+.kst-campus .kst-fallkarte details,
+.kst-campus .kst-fallkarte .fall,
+.kst-campus .kst-fallkarte .fall__block,
+.kst-campus .lesson,
+.kst-campus .lesson .fall,
+.kst-campus .lesson .fall__block,
+.kst-campus .tz__body {
+  min-width: 0;
+  max-width: 100%;
+}
+.kst-campus .kst-fallkarte details[open] { overflow: visible; }
+.kst-campus .fall__block p,
+.kst-campus .fall__block li,
+.kst-campus .kst-sachverhalt p,
+.kst-campus .schaubild__legende {
+  overflow-wrap: anywhere;
+}
+.kst-campus .fall__block ol { padding-left: 24px; }
+.kst-campus .fall__block li { padding-left: 2px; }
+.kst-campus .normkette { max-width: 100%; flex-wrap: wrap; }
+.kst-campus .normkette .norm { white-space: normal; overflow-wrap: anywhere; }
+.kst-campus .schaubild { max-width: 100%; }
+.kst-campus .schaubild .scroll-x {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  padding-bottom: 4px;
+}
+.kst-campus .schaubild svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 640px;
+}
+.kst-campus .schaubild__legende {
+  max-width: 100%;
+  line-height: 1.45;
+}
+
 .kst-optionen { display: grid; gap: 8px; margin-top: 16px; }
 .kst-option {
   padding: 11px 13px;
@@ -87,4 +133,5 @@ html[data-theme="dark"] .kst-campus .kst-these { background: var(--feld); }
   .kst-pruefpfad__stufe { border-right: 0; border-bottom: 1px solid var(--linie-fein); }
   .kst-pruefpfad__stufe:last-child { border-bottom: 0; }
   .kst-kartensteuerung { flex-direction: column; }
+  .kst-campus .schaubild svg { min-width: 560px; }
 }
