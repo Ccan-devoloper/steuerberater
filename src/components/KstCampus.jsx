@@ -1,9 +1,10 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { kstBereiche, kstBereichName, kstModule, kstQuellen, kstSchemata } from "../data/kst-module";
 import { kstFaelle } from "../data/kst-faelle";
 import { kstKarteikarten, kstQuizfragen } from "../data/kst-lernstoff";
 import { Normkette, Notiz } from "./Bausteine";
 import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
+import { erfasseSeitenzustand, stelleSeitenzustandWiederHer } from "../lib/campus-navigation";
 import {
   IconCockpit, IconModule, IconSchema, IconRegister, IconTraining,
   IconFaelle, IconSuche, IconSonne, IconMond, IconHaken,
@@ -26,6 +27,11 @@ export default function KstCampus({ onKlausurwechsel }) {
   const [modulId, setModulId] = useState(null);
   const [suche, setSuche] = useState("");
   const [bereich, setBereich] = useState("alle");
+  const [navVerlauf, setNavVerlauf] = useState([
+    { ansicht: "cockpit", modulId: null, bereich: "alle", scrollY: 0, offeneDetails: [] },
+  ]);
+  const [navIndex, setNavIndex] = useState(0);
+  const wiederherstellenRef = useRef(null);
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
   const fortschritt = useFortschritt("stb-kst-erledigt", modulIds);
   const erledigt = fortschritt.werte;
@@ -36,7 +42,11 @@ export default function KstCampus({ onKlausurwechsel }) {
   }, [dunkel]);
 
   useEffect(() => {
+    const snapshot = wiederherstellenRef.current;
+    wiederherstellenRef.current = null;
+    if (snapshot) return stelleSeitenzustandWiederHer(snapshot);
     window.scrollTo({ top: 0, behavior: "auto" });
+    return undefined;
   }, [ansicht, modulId]);
 
   const gefiltert = useMemo(() => {
@@ -60,21 +70,96 @@ export default function KstCampus({ onKlausurwechsel }) {
 
   const modul = modulId ? kstModule.find((m) => m.id === modulId) : null;
   const quote = anteil(erledigt.length, kstModule.length);
-  const oeffnen = (id) => {
-    setModulId(id);
-    setAnsicht("module");
+
+  const ort = () => ({ ansicht, modulId, bereich, ...erfasseSeitenzustand() });
+
+  const anwenden = (ziel, wiederherstellen = false) => {
+    wiederherstellenRef.current = wiederherstellen ? ziel : null;
+    setAnsicht(ziel.ansicht);
+    setModulId(ziel.modulId ?? null);
+    setBereich(ziel.bereich ?? bereich);
   };
+
+  const navigiere = (ziel) => {
+    const naechster = {
+      ansicht: ziel.ansicht,
+      modulId: ziel.modulId ?? null,
+      bereich: ziel.bereich ?? bereich,
+      scrollY: 0,
+      offeneDetails: [],
+    };
+    if (naechster.ansicht === ansicht && naechster.modulId === modulId && naechster.bereich === bereich) return;
+    const aktuell = ort();
+    setNavVerlauf((alt) => {
+      const neu = alt.slice(0, navIndex + 1);
+      neu[navIndex] = aktuell;
+      neu.push(naechster);
+      return neu;
+    });
+    setNavIndex(navIndex + 1);
+    anwenden(naechster);
+  };
+
+  const navZurueck = () => {
+    if (navIndex <= 0) return;
+    const aktuell = ort();
+    const ziel = navVerlauf[navIndex - 1];
+    setNavVerlauf((alt) => {
+      const neu = [...alt];
+      neu[navIndex] = aktuell;
+      return neu;
+    });
+    setNavIndex(navIndex - 1);
+    anwenden(ziel, true);
+  };
+
+  const navVor = () => {
+    if (navIndex >= navVerlauf.length - 1) return;
+    const aktuell = ort();
+    const ziel = navVerlauf[navIndex + 1];
+    setNavVerlauf((alt) => {
+      const neu = [...alt];
+      neu[navIndex] = aktuell;
+      return neu;
+    });
+    setNavIndex(navIndex + 1);
+    anwenden(ziel, true);
+  };
+
+  useEffect(() => {
+    const tastatur = (event) => {
+      if (!event.altKey) return;
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        navZurueck();
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        navVor();
+      }
+    };
+    window.addEventListener("keydown", tastatur);
+    return () => window.removeEventListener("keydown", tastatur);
+  }, [navIndex, navVerlauf, ansicht, modulId, bereich]);
+
+  const ansichtOeffnen = (ziel) => navigiere({ ansicht: ziel });
+  const bereichOeffnen = (ziel) => navigiere({ ansicht: "module", bereich: ziel });
+  const oeffnen = (id) => navigiere({ ansicht: "module", modulId: id });
 
   return (
     <div className="kst-campus">
       <header className="topbar">
-        <button className="brand" onClick={() => { setAnsicht("cockpit"); setModulId(null); }}>
+        <button className="brand" onClick={() => ansichtOeffnen("cockpit")}>
           <span className="brand__mark">K</span>
           <span className="brand__text">
             <strong>Examenscampus Körperschaftsteuer</strong>
             <span>Klausur 2 · Ertragsteuerrecht · KSt</span>
           </span>
         </button>
+        <div role="group" aria-label="Navigation in Klausur 2" style={{ display: "flex", gap: 4 }}>
+          <button type="button" className="iconbtn" onClick={navZurueck} disabled={navIndex <= 0} aria-label="Zurück zur vorherigen Seite" title="Zurück (Alt + Pfeil links)">←</button>
+          <button type="button" className="iconbtn" onClick={navVor} disabled={navIndex >= navVerlauf.length - 1} aria-label="Vor zur nächsten Seite" title="Vor (Alt + Pfeil rechts)">→</button>
+        </div>
         <span className="topbar__spacer" />
         <label className="search">
           <IconSuche />
@@ -85,8 +170,7 @@ export default function KstCampus({ onKlausurwechsel }) {
             aria-label="Körperschaftsteuer-Module durchsuchen"
             onChange={(e) => {
               setSuche(e.target.value);
-              setAnsicht("module");
-              setModulId(null);
+              if (ansicht !== "module" || modulId !== null) ansichtOeffnen("module");
             }}
           />
         </label>
@@ -105,7 +189,7 @@ export default function KstCampus({ onKlausurwechsel }) {
           <b>K1</b>
           <span><strong>Verfahrensrecht</strong> <small>und andere Steuerarten</small></span>
         </button>
-        <button className="klausur" aria-current="true" onClick={() => { setAnsicht("cockpit"); setModulId(null); }}>
+        <button className="klausur" aria-current="true" onClick={() => ansichtOeffnen("cockpit")}>
           <b>K2</b>
           <span><strong>Ertragsteuerrecht</strong> <small>KSt verfügbar · ESt/GewSt folgen</small></span>
         </button>
@@ -122,7 +206,7 @@ export default function KstCampus({ onKlausurwechsel }) {
               key={id}
               className="rail__link"
               aria-current={ansicht === id ? "true" : undefined}
-              onClick={() => { setAnsicht(id); setModulId(null); }}
+              onClick={() => ansichtOeffnen(id)}
             >
               <Icon />
               {label}
@@ -152,8 +236,8 @@ export default function KstCampus({ onKlausurwechsel }) {
             quote={quote}
             erledigt={erledigt}
             oeffnen={oeffnen}
-            setAnsicht={setAnsicht}
-            setBereich={setBereich}
+            ansichtOeffnen={ansichtOeffnen}
+            bereichOeffnen={bereichOeffnen}
           />
         )}
         {ansicht === "module" && !modul && (
@@ -172,7 +256,7 @@ export default function KstCampus({ onKlausurwechsel }) {
             modul={modul}
             erledigt={erledigt}
             umschalten={fortschritt.umschalten}
-            zurueck={() => setModulId(null)}
+            zurueck={() => ansichtOeffnen("module")}
             oeffnen={oeffnen}
           />
         )}
@@ -185,7 +269,7 @@ export default function KstCampus({ onKlausurwechsel }) {
   );
 }
 
-function KstCockpit({ quote, erledigt, oeffnen, setAnsicht, setBereich }) {
+function KstCockpit({ quote, erledigt, oeffnen, ansichtOeffnen, bereichOeffnen }) {
   const naechstes = kstModule.find((m) => !erledigt.includes(m.id)) || kstModule[0];
   const fachbereiche = kstBereiche.filter((b) => b.id !== "alle");
 
@@ -202,7 +286,7 @@ function KstCockpit({ quote, erledigt, oeffnen, setAnsicht, setBereich }) {
           </p>
           <div className="these__aktionen">
             <button className="btn" onClick={() => oeffnen(naechstes.id)}>Weiterlernen</button>
-            <button className="btn btn--linie" onClick={() => setAnsicht("schema")}>KSt-Schemata öffnen</button>
+            <button className="btn btn--linie" onClick={() => ansichtOeffnen("schema")}>KSt-Schemata öffnen</button>
           </div>
         </section>
         <section className="panel fortschritt">
@@ -237,7 +321,7 @@ function KstCockpit({ quote, erledigt, oeffnen, setAnsicht, setBereich }) {
                   <span style={{ width: `${anteil(fertig, gesamt)}%` }} />
                 </div>
                 <small className="bereich__stand">{fertig} von {gesamt} bearbeitet</small>
-                <button onClick={() => { setBereich(b.id); setAnsicht("module"); }}>Module öffnen →</button>
+                <button onClick={() => bereichOeffnen(b.id)}>Module öffnen →</button>
               </article>
             );
           })}
