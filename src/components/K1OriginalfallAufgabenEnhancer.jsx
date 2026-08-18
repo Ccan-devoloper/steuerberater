@@ -160,6 +160,17 @@ function einheitenTextAktualisieren() {
   if (beschreibung?.textContent?.includes("USt-Einheiten 1 und 2")) {
     beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 und 2", "USt-Einheiten 1 bis 3");
   }
+
+  const listenKopf = document.querySelector("main.page .pagehead");
+  const titel = listenKopf?.querySelector("h1");
+  if (titel?.textContent?.trim() === "USt-Einheiten 1–2") {
+    titel.textContent = "USt-Einheiten 1–3";
+  }
+
+  const lead = listenKopf?.querySelector(".lead");
+  if (lead?.textContent?.includes("aus beiden Einheiten")) {
+    lead.textContent = lead.textContent.replace("aus beiden Einheiten", "aus allen drei Einheiten");
+  }
 }
 
 function anreichern() {
