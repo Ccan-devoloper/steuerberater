@@ -118,6 +118,66 @@ const k1OriginalfallAufgaben = {
     seiten: "Einheit 2 · Teil 2 · S. 92–128",
     fragen: ["Beurteilen Sie B!"],
   },
+  165: {
+    seiten: "Einheit 3 · Beispiel 1 · PDF-S. 1–4",
+    fragen: [
+      "Beurteilen Sie U!",
+      "Abwandlung: Beurteilen Sie U!",
+    ],
+  },
+  166: {
+    seiten: "Einheit 3 · Beispiel 2 · PDF-S. 16–29",
+    fragen: [
+      "Wer ist Steuerschuldner?",
+      "Abwandlung: Wer ist Steuerschuldner?",
+    ],
+  },
+  167: {
+    seiten: "Einheit 3 · Beispiel 3 · PDF-S. 30–39",
+    fragen: ["Wer ist Steuerschuldner?"],
+  },
+  168: {
+    seiten: "Einheit 3 · Beispiel 4 · PDF-S. 30, 155",
+    fragen: ["Liegt ein Reihengeschäft vor?"],
+  },
+  169: {
+    seiten: "Einheit 3 · Beispiel 5 · PDF-S. 155",
+    fragen: ["Liegt ein Reihengeschäft vor?"],
+  },
+  170: {
+    seiten: "Einheit 3 · Beispiel 6 · PDF-S. 155",
+    fragen: ["Liegt ein Reihengeschäft vor?"],
+  },
+  171: {
+    seiten: "Einheit 3 · Beispiel 7 · PDF-S. 162",
+    fragen: ["Bestimmen Sie für alle Lieferungen den Ort!"],
+  },
+  172: {
+    seiten: "Einheit 3 · Beispiel 8 · PDF-S. 162",
+    fragen: ["Bestimmen Sie für alle Lieferungen den Ort!"],
+  },
+  173: {
+    seiten: "Einheit 3 · Beispiel 9 · PDF-S. 162",
+    fragen: ["Bestimmen Sie für alle Lieferungen den Ort!"],
+  },
+  174: {
+    seiten: "Einheit 3 · Beispiel 10",
+    fragen: ["Welche Lieferungen sind steuerfrei?"],
+  },
+  175: {
+    seiten: "Einheit 3 · Beispiel 11 · PDF-S. 395 ff.",
+    fragen: [
+      "Beurteilen Sie alle Beteiligten!",
+      "Abwandlung: Beurteilen Sie alle Beteiligten!",
+    ],
+  },
+  176: {
+    seiten: "Einheit 3 · Beispiel 12 · PDF-S. 395/501 ff.",
+    fragen: [
+      "Beurteilen Sie U1!",
+      "Abwandlung: Beurteilen Sie U1!",
+    ],
+  },
 };
 
 export default k1OriginalfallAufgaben;
