@@ -38,19 +38,20 @@ function Text({ x, y, children, size = 12.5, weight = 500, fill = F.ink, anchor 
 }
 
 /* Mehrzeiliger Text im Kasten */
-function Zeilen({ x, y, lines, size = 11.5, fill = F.weich, mono, lh = 13 }) {
+function Zeilen({ x, y, lines, size = 11.5, fill = F.weich, mono, lh = 13, anchor = "middle", weight = 400 }) {
   return lines.map((line, i) => (
-    <Text key={i} x={x} y={y + i * lh} size={size} fill={fill} mono={mono} weight={400}>{line}</Text>
+    <Text key={i} x={x} y={y + i * lh} size={size} fill={fill} mono={mono} weight={weight} anchor={anchor}>{line}</Text>
   ));
 }
 
-/* Bricht eine Kastenüberschrift an Wortgrenzen um, damit sie im Rechteck
-   bleibt. Ohne den Umbruch läuft ein langer Titel seitlich heraus und
-   überdeckt im Entscheidungsbaum den Zweigpfeil samt Beschriftung.
-   0,56 em ist die mittlere Zeichenbreite der Sans in diesem Schnitt. */
+/* Bricht SVG-Texte an Wortgrenzen um. SVG-Text besitzt kein automatisches
+   Wrapping; ohne diese Hilfsfunktion laufen längere Falltexte aus Kästen und
+   verdecken benachbarte Spalten. 0,56 em ist eine konservative mittlere
+   Zeichenbreite der verwendeten Sans-Schrift. */
 function umbrechen(text, breite, size) {
+  if (text === undefined || text === null || text === "") return [];
   const proZeile = Math.max(8, Math.floor((breite - 16) / (size * 0.56)));
-  const worte = String(text).split(" ");
+  const worte = String(text).split(/\s+/);
   const zeilen = [];
   let aktuell = "";
   for (const wort of worte) {
@@ -62,29 +63,47 @@ function umbrechen(text, breite, size) {
   return zeilen;
 }
 
+function vieleUmbrechen(lines, breite, size) {
+  return (lines || []).flatMap((line) => umbrechen(line, breite, size));
+}
+
 function Kasten({ x, y, w, h, titel, zeilen = [], ton = "papier", mono }) {
-  const size = 13, zh = size + 2;
-  const titelZeilen = titel ? umbrechen(titel, w, size) : [];
-  const versatz = ((titelZeilen.length - 1) * zh) / 2;
-  const start = zeilen.length ? y + h / 2 - (zeilen.length * 13) / 2 + 2 + versatz : 0;
-  const ersteZeile = zeilen.length
-    ? start - 6 - (titelZeilen.length - 1) * zh
-    : y + h / 2 + 4.5 - versatz;
+  const titelSize = 13, bodySize = 11.5, titelLh = 15, bodyLh = 13;
+  const titelZeilen = titel ? umbrechen(titel, w - 14, titelSize) : [];
+  const bodyZeilen = vieleUmbrechen(zeilen, w - 18, bodySize);
+  const inhaltHoehe = titelZeilen.length * titelLh + (bodyZeilen.length ? 5 + bodyZeilen.length * bodyLh : 0);
+  const oben = y + Math.max(8, (h - inhaltHoehe) / 2);
   return (
     <g>
       <rect x={x} y={y} width={w} height={h} fill={flaeche[ton]} stroke={strich[ton]} strokeWidth="1.4" />
       {titelZeilen.map((zeile, i) => (
-        <Text key={i} x={x + w / 2} y={ersteZeile + i * zh} size={size} weight={600}>{zeile}</Text>
+        <Text key={i} x={x + w / 2} y={oben + 12 + i * titelLh} size={titelSize} weight={600}>{zeile}</Text>
       ))}
-      {zeilen.length > 0 && <Zeilen x={x + w / 2} y={start + 12} lines={zeilen} mono={mono} />}
+      {bodyZeilen.length > 0 && (
+        <Zeilen
+          x={x + w / 2}
+          y={oben + titelZeilen.length * titelLh + 12}
+          lines={bodyZeilen}
+          size={bodySize}
+          lh={bodyLh}
+          mono={mono}
+        />
+      )}
     </g>
   );
+}
+
+function kastenHoehe(titel, zeilen, breite, minimum = 78) {
+  const titelZeilen = umbrechen(titel, breite - 14, 13).length;
+  const bodyZeilen = vieleUmbrechen(zeilen, breite - 18, 11.5).length;
+  return Math.max(minimum, 20 + titelZeilen * 15 + (bodyZeilen ? 5 + bodyZeilen * 13 : 0));
 }
 
 /* ---------------------------------------------------------------- Fluss */
 function Fluss({ spec }) {
   const n = spec.schritte.length;
-  const bw = 168, bh = 78, lucke = 34;
+  const bw = 168, lucke = 34;
+  const bh = Math.max(...spec.schritte.map((s) => kastenHoehe(s.titel, s.zeilen || [], bw, 78)));
   const w = n * bw + (n - 1) * lucke + 24;
   const h = bh + 46;
   return (
@@ -107,14 +126,14 @@ function Fluss({ spec }) {
 /* --------------------------------------------------------- Entscheidung */
 function Entscheidung({ spec }) {
   const ebenen = spec.ebenen;
-  const bw = 250, bh = 62, dy = 104;
+  const bw = 250, bh = 88, dy = 126;
   const w = 700;
-  const h = 30 + ebenen.length * dy;
+  const h = 24 + ebenen.length * dy;
   return (
     <svg viewBox={`0 0 ${w} ${h}`} role="img" aria-label={spec.titel}>
       <Pfeilspitzen />
       {ebenen.map((e, i) => {
-        const y = 16 + i * dy;
+        const y = 12 + i * dy;
         const xFrage = (w - bw) / 2 - 130;
         return (
           <g key={i}>
@@ -125,7 +144,7 @@ function Entscheidung({ spec }) {
             {i < ebenen.length - 1 && (
               <>
                 <line x1={xFrage + bw / 2} y1={y + bh} x2={xFrage + bw / 2} y2={y + dy - 2} stroke={F.ink} strokeWidth="1.3" markerEnd="url(#sb-pfeil)" />
-                <Text x={xFrage + bw / 2 + 8} y={y + bh + 24} anchor="start" size={11} mono fill={F.weich}>{e.weiterLabel || "nein / weiter"}</Text>
+                <Text x={xFrage + bw / 2 + 8} y={y + bh + 22} anchor="start" size={11} mono fill={F.weich}>{e.weiterLabel || "nein / weiter"}</Text>
               </>
             )}
           </g>
@@ -171,7 +190,7 @@ function Zeitstrahl({ spec }) {
 
 /* -------------------------------------------------------------- Säulen */
 function Saeulen({ spec }) {
-  const w = 700, h = 260, boden = 200, links = 60;
+  const w = 700, h = 240, boden = 190, links = 60;
   const max = Math.max(...spec.werte.map((s) => s.wert));
   const bw = Math.min(96, (w - links - 40) / spec.werte.length - 22);
   return (
@@ -188,56 +207,136 @@ function Saeulen({ spec }) {
           </g>
         );
       })}
-      {spec.fussnote && <Text x={links - 14} y={h - 12} anchor="start" size={11.5} fill={F.weich} weight={400}>{spec.fussnote}</Text>}
     </svg>
   );
 }
 
 /* ----------------------------------------------------- Gegenüberstellung */
 function Gegenueber({ spec }) {
-  const w = 720, kopf = 44;
+  const w = 720, luecke = 30;
+  const sw = (w - luecke) / 2;
   const zeilen = Math.max(spec.links.punkte.length, spec.rechts.punkte.length);
-  const h = kopf + zeilen * 30 + 30;
-  const sw = (w - 30) / 2;
-  const Spalte = ({ x, daten, ton }) => (
+  const titelLinks = umbrechen(spec.links.titel, sw - 22, 14);
+  const titelRechts = umbrechen(spec.rechts.titel, sw - 22, 14);
+  const normLinks = umbrechen(spec.links.norm, sw - 22, 10.5);
+  const normRechts = umbrechen(spec.rechts.norm, sw - 22, 10.5);
+  const kopf = Math.max(
+    58,
+    18 + Math.max(titelLinks.length, titelRechts.length) * 17 + Math.max(normLinks.length, normRechts.length) * 13,
+  );
+  const linksZeilen = spec.links.punkte.map((p) => umbrechen(p, sw - 24, 12));
+  const rechtsZeilen = spec.rechts.punkte.map((p) => umbrechen(p, sw - 24, 12));
+  const zeilenHoehen = Array.from({ length: zeilen }, (_, i) => {
+    const anzahl = Math.max(linksZeilen[i]?.length || 0, rechtsZeilen[i]?.length || 0, 1);
+    return Math.max(34, 16 + anzahl * 15);
+  });
+  const yStarts = [];
+  let laufend = 8 + kopf;
+  for (const hoehe of zeilenHoehen) {
+    yStarts.push(laufend);
+    laufend += hoehe;
+  }
+  const h = laufend + 8;
+
+  const Spalte = ({ x, daten, ton, titelZeilen, normZeilen, punktZeilen }) => (
     <g>
       <rect x={x} y="8" width={sw} height={kopf} fill={flaeche[ton]} stroke={strich[ton]} strokeWidth="1.3" />
-      <Text x={x + sw / 2} y={30} size={14} weight={700} fill={strich[ton]}>{daten.titel}</Text>
-      <Text x={x + sw / 2} y={45} size={11} mono fill={F.weich} weight={400}>{daten.norm}</Text>
-      {daten.punkte.map((p, i) => (
-        <g key={i}>
-          <rect x={x} y={kopf + 8 + i * 30} width={sw} height="30" fill={F.papier} stroke={F.linie} strokeWidth="1" />
-          <Text x={x + 12} y={kopf + 27 + i * 30} anchor="start" size={12} weight={400}>{p}</Text>
-        </g>
-      ))}
+      <Zeilen x={x + sw / 2} y={27} lines={titelZeilen} size={14} lh={17} weight={700} fill={strich[ton]} />
+      {normZeilen.length > 0 && (
+        <Zeilen
+          x={x + sw / 2}
+          y={27 + titelZeilen.length * 17}
+          lines={normZeilen}
+          size={10.5}
+          lh={13}
+          mono
+          fill={F.weich}
+        />
+      )}
+      {Array.from({ length: zeilen }).map((_, i) => {
+        const rowY = yStarts[i];
+        const rowH = zeilenHoehen[i];
+        const lines = punktZeilen[i] || [];
+        const textY = rowY + rowH / 2 - ((Math.max(lines.length, 1) - 1) * 15) / 2 + 4;
+        return (
+          <g key={i}>
+            <rect x={x} y={rowY} width={sw} height={rowH} fill={F.papier} stroke={F.linie} strokeWidth="1" />
+            {lines.length > 0 && (
+              <Zeilen x={x + 12} y={textY} lines={lines} size={12} lh={15} anchor="start" fill={F.ink} />
+            )}
+          </g>
+        );
+      })}
     </g>
   );
+
   return (
     <svg viewBox={`0 0 ${w} ${h}`} role="img" aria-label={spec.titel}>
-      <Spalte x="0" daten={spec.links} ton={spec.links.ton || "gruen"} />
-      <Spalte x={sw + 30} daten={spec.rechts} ton={spec.rechts.ton || "rot"} />
-      {spec.fussnote && <Text x="0" y={h - 8} anchor="start" size={11.5} fill={F.weich} weight={400}>{spec.fussnote}</Text>}
+      <Spalte
+        x={0}
+        daten={spec.links}
+        ton={spec.links.ton || "gruen"}
+        titelZeilen={titelLinks}
+        normZeilen={normLinks}
+        punktZeilen={linksZeilen}
+      />
+      <Spalte
+        x={sw + luecke}
+        daten={spec.rechts}
+        ton={spec.rechts.ton || "rot"}
+        titelZeilen={titelRechts}
+        normZeilen={normRechts}
+        punktZeilen={rechtsZeilen}
+      />
     </svg>
   );
 }
 
 /* -------------------------------------------------------------- Stufen */
 function Stufen({ spec }) {
-  const w = 720, sh = 56;
-  const h = spec.stufen.length * (sh + 12) + 16;
+  const w = 720;
+  const linksBreite = 430;
+  const rechtsBreite = 235;
+  const rows = spec.stufen.map((s) => {
+    const text = umbrechen(s.text, linksBreite - 30, 12);
+    const norm = s.norm ? umbrechen(s.norm, rechtsBreite, 10.5) : [];
+    const ergebnis = s.ergebnis ? umbrechen(s.ergebnis, rechtsBreite, 11.5) : [];
+    const linksH = 36 + Math.max(text.length, 1) * 14;
+    const rechtsH = 18 + norm.length * 13 + (ergebnis.length ? 5 + ergebnis.length * 14 : 0);
+    return { s, text, norm, ergebnis, h: Math.max(64, linksH, rechtsH + 16) };
+  });
+  const yStarts = [];
+  let laufend = 8;
+  for (const row of rows) {
+    yStarts.push(laufend);
+    laufend += row.h + 12;
+  }
+  const h = laufend + 4;
+
   return (
     <svg viewBox={`0 0 ${w} ${h}`} role="img" aria-label={spec.titel}>
       <Pfeilspitzen />
-      {spec.stufen.map((s, i) => {
-        const y = 8 + i * (sh + 12);
+      {rows.map(({ s, text, norm, ergebnis, h: rowH }, i) => {
+        const y = yStarts[i];
         return (
           <g key={i}>
-            <rect x="0" y={y} width={w} height={sh} fill={flaeche[s.ton || "neutral"]} stroke={strich[s.ton || "neutral"]} strokeWidth="1.3" />
-            <Text x="16" y={y + 24} anchor="start" size={13} weight={700} fill={strich[s.ton || "neutral"]}>{s.stufe}</Text>
-            <Text x="16" y={y + 42} anchor="start" size={12} weight={400} fill={F.ink}>{s.text}</Text>
-            {s.norm && <Text x={w - 14} y={y + 24} anchor="end" size={11} mono fill={F.weich} weight={400}>{s.norm}</Text>}
-            {s.ergebnis && <Text x={w - 14} y={y + 42} anchor="end" size={11.5} weight={600} fill={strich[s.ton || "neutral"]}>{s.ergebnis}</Text>}
-            {i < spec.stufen.length - 1 && <line x1={w / 2} y1={y + sh} x2={w / 2} y2={y + sh + 10} stroke={F.ink} strokeWidth="1.3" markerEnd="url(#sb-pfeil)" />}
+            <rect x="0" y={y} width={w} height={rowH} fill={flaeche[s.ton || "neutral"]} stroke={strich[s.ton || "neutral"]} strokeWidth="1.3" />
+            <Text x="16" y={y + 22} anchor="start" size={13} weight={700} fill={strich[s.ton || "neutral"]}>{s.stufe}</Text>
+            <Zeilen x="16" y={y + 43} lines={text} size={12} lh={14} anchor="start" fill={F.ink} />
+            {norm.length > 0 && <Zeilen x={w - 14} y={y + 22} lines={norm} size={10.5} lh={13} anchor="end" mono fill={F.weich} />}
+            {ergebnis.length > 0 && (
+              <Zeilen
+                x={w - 14}
+                y={y + 22 + norm.length * 13 + 7}
+                lines={ergebnis}
+                size={11.5}
+                lh={14}
+                anchor="end"
+                fill={strich[s.ton || "neutral"]}
+                weight={600}
+              />
+            )}
+            {i < rows.length - 1 && <line x1={w / 2} y1={y + rowH} x2={w / 2} y2={y + rowH + 10} stroke={F.ink} strokeWidth="1.3" markerEnd="url(#sb-pfeil)" />}
           </g>
         );
       })}
@@ -256,6 +355,7 @@ export default function Schaubild({ id, spec: eigenesSpec }) {
     <figure className="schaubild">
       {spec.titel && <figcaption className="schaubild__titel">Schaubild · {spec.titel}</figcaption>}
       <div className="scroll-x"><Render spec={spec} /></div>
+      {spec.fussnote && <p className="schaubild__legende">{spec.fussnote}</p>}
       {spec.legende && <p className="schaubild__legende">{spec.legende}</p>}
     </figure>
   );
