@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import k1OriginalfallAufgaben from "../data/k1-originalfall-aufgaben";
 import k1Einheit3Skizzen from "../data/k1-einheit3-skizzen";
+import k1Einheit4Skizzen from "../data/k1-einheit4-skizzen";
 import "./k1-originalfall-aufgaben.css";
+
+const k1Quellskizzen = { ...k1Einheit3Skizzen, ...k1Einheit4Skizzen };
 
 function fallIdAusText(text, muster) {
   const treffer = String(text || "").match(muster);
@@ -116,7 +119,7 @@ function loesungsblockFinden(scope) {
 }
 
 function quellskizzeAnreichern(scope, fallId) {
-  const spec = k1Einheit3Skizzen[fallId];
+  const spec = k1Quellskizzen[fallId];
   if (!spec) return;
   const loesung = loesungsblockFinden(scope);
   if (!loesung || loesung.querySelector("[data-k1-quellskizze='true']")) return;
@@ -158,18 +161,22 @@ function modulseiteAnreichern(lesson) {
 function einheitenTextAktualisieren() {
   const beschreibung = document.querySelector(".kst-these p");
   if (beschreibung?.textContent?.includes("USt-Einheiten 1 und 2")) {
-    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 und 2", "USt-Einheiten 1 bis 3");
+    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 und 2", "USt-Einheiten 1 bis 4");
+  } else if (beschreibung?.textContent?.includes("USt-Einheiten 1 bis 3")) {
+    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 bis 3", "USt-Einheiten 1 bis 4");
   }
 
   const listenKopf = document.querySelector("main.page .pagehead");
   const titel = listenKopf?.querySelector("h1");
-  if (titel?.textContent?.trim() === "USt-Einheiten 1–2") {
-    titel.textContent = "USt-Einheiten 1–3";
+  if (["USt-Einheiten 1–2", "USt-Einheiten 1–3"].includes(titel?.textContent?.trim())) {
+    titel.textContent = "USt-Einheiten 1–4";
   }
 
   const lead = listenKopf?.querySelector(".lead");
   if (lead?.textContent?.includes("aus beiden Einheiten")) {
-    lead.textContent = lead.textContent.replace("aus beiden Einheiten", "aus allen drei Einheiten");
+    lead.textContent = lead.textContent.replace("aus beiden Einheiten", "aus allen vier Einheiten");
+  } else if (lead?.textContent?.includes("aus allen drei Einheiten")) {
+    lead.textContent = lead.textContent.replace("aus allen drei Einheiten", "aus allen vier Einheiten");
   }
 }
 
