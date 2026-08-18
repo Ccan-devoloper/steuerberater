@@ -26,6 +26,11 @@ const k1OriginalfallAufgabenEinheit7 = {
     ],
     hinweis: "Die Aufzeichnung zeigt und markiert den vollständigen Sachverhalt, entwickelt anschließend aber keine vollständige klausurmäßige Quellenlösung.",
   },
+  235: {
+    seiten: "Einheit 7 · Tafelfall Teil-GiG / § 15a · PDF-S. 253–355",
+    fragen: [],
+    hinweis: "Die Quelle formuliert keine gesonderte Aufgabenfrage; der Gebäudefall wird unmittelbar anhand der gezeichneten Vermietungs- und Verkaufsskizze entwickelt.",
+  },
 };
 
 export default k1OriginalfallAufgabenEinheit7;
