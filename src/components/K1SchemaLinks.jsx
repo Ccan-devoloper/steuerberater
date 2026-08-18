@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect, useRef } from "react";
 
 const ziele = [
   { id: "schema-ig-erwerb", label: "ig. Erwerb", patterns: [/§\s*1a\b/i, /§\s*1b\b/i, /§\s*2a\b/i, /§\s*3d\b/i, /§\s*4b\b/i, /§\s*1\s*Abs\.\s*1\s*Nr\.\s*5/i, /innergemeinschaftlich(?:er|en)?\s+Erwerb/i] },
@@ -22,6 +22,12 @@ const ziele = [
   { id: "schema-steuerbarkeit", label: "I. Steuerbarkeit", patterns: [/§\s*1\b/i, /Steuerbarkeit/i, /steuerbar/i, /nicht steuerbar/i, /gegen Entgelt/i] },
 ];
 
+/* Die aufklappbaren Lösungen der Originalfall-Übersicht werden beim Wechsel
+   ins Prüfschema unmontiert. Dieser Sitzungszustand merkt sich deshalb, welche
+   Falllösungen offen waren, damit die K1-Verlaufspfeile die Ansicht wirklich
+   so wiederherstellen, wie sie verlassen wurde. */
+const offeneOriginalfallLoesungen = new Set();
+
 export const grundschema = [
   ["1", "Steuerbarkeit", "§ 1 UStG", "schema-steuerbarkeit"],
   ["2", "Steuerbefreiung", "§§ 4–9 UStG", "schema-befreiung"],
@@ -40,11 +46,42 @@ export function schemaZieleFuerText(text) {
   return treffer.slice(0, 5);
 }
 
+function useOriginalfallLoesungszustand(markerRef) {
+  useLayoutEffect(() => {
+    const marker = markerRef.current;
+    const karte = marker?.closest(".kst-fallkarte");
+    if (!karte) return undefined;
+
+    /* Nur der erste Schema-Verweis einer Fallkarte verwaltet den Zustand. So
+       entstehen trotz weiterer Verweise innerhalb der aufgeklappten Lösung
+       keine doppelten Toggle-Listener. */
+    if (karte.querySelector(".kst-schema-links") !== marker) return undefined;
+
+    const details = Array.from(karte.children).find((element) => element.tagName === "DETAILS");
+    const kicker = karte.querySelector(".panel__head .kicker")?.textContent || "";
+    const fallTreffer = kicker.match(/Fall\s+(\d+)/i);
+    if (!details || !fallTreffer) return undefined;
+
+    const schluessel = fallTreffer[1];
+    details.open = offeneOriginalfallLoesungen.has(schluessel);
+
+    const merken = () => {
+      if (details.open) offeneOriginalfallLoesungen.add(schluessel);
+      else offeneOriginalfallLoesungen.delete(schluessel);
+    };
+
+    details.addEventListener("toggle", merken);
+    return () => details.removeEventListener("toggle", merken);
+  }, [markerRef]);
+}
+
 export function SchemaVerweise({ text, onOpen, compact = false, stopPropagation = false }) {
   const treffer = schemaZieleFuerText(text);
+  const markerRef = useRef(null);
+  useOriginalfallLoesungszustand(markerRef);
   if (!treffer.length) return null;
   return (
-    <span className={`kst-schema-links${compact ? " kst-schema-links--compact" : ""}`} aria-label="Passende Stellen im Umsatzsteuer-Prüfschema">
+    <span ref={markerRef} className={`kst-schema-links${compact ? " kst-schema-links--compact" : ""}`} aria-label="Passende Stellen im Umsatzsteuer-Prüfschema">
       {treffer.map((ziel) => (
         <button
           key={ziel.id}
