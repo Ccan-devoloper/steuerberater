@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import k1UstFaelle from "../data/module-vertiefung-m.js";
 import Schaubild from "./Schaubild";
 import UstPruefschema from "./UstPruefschema";
@@ -215,6 +215,11 @@ export default function K1Campus({ onKlausurwechsel }) {
   const [fallId, setFallId] = useState(null);
   const [suche, setSuche] = useState("");
   const [schemaZiel, setSchemaZiel] = useState(null);
+  const [navVerlauf, setNavVerlauf] = useState([
+    { ansicht: "cockpit", fallId: null, schemaZiel: null, scrollY: 0 },
+  ]);
+  const [navIndex, setNavIndex] = useState(0);
+  const scrollWiederherstellen = useRef(null);
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
   const fortschritt = useFortschritt("stb-k1-ust-erledigt", fallIds);
   const erledigt = fortschritt.werte;
@@ -225,16 +230,21 @@ export default function K1Campus({ onKlausurwechsel }) {
   }, [dunkel]);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "auto" });
-  }, [ansicht, fallId]);
-
-  useEffect(() => {
-    if (ansicht !== "schema" || !schemaZiel) return;
+    const gespeicherterScroll = scrollWiederherstellen.current;
+    scrollWiederherstellen.current = null;
     const timer = window.setTimeout(() => {
-      document.getElementById(schemaZiel)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (typeof gespeicherterScroll === "number") {
+        window.scrollTo({ top: gespeicherterScroll, behavior: "auto" });
+        return;
+      }
+      if (ansicht === "schema" && schemaZiel) {
+        document.getElementById(schemaZiel)?.scrollIntoView({ behavior: "smooth", block: "start" });
+        return;
+      }
+      window.scrollTo({ top: 0, behavior: "auto" });
     }, 0);
     return () => window.clearTimeout(timer);
-  }, [ansicht, schemaZiel]);
+  }, [ansicht, fallId, schemaZiel]);
 
   const gefiltert = useMemo(() => {
     const q = suche.trim().toLowerCase();
@@ -258,26 +268,123 @@ export default function K1Campus({ onKlausurwechsel }) {
 
   const fall = fallId ? k1UstFaelle.find((m) => m.id === fallId) : null;
   const quote = anteil(erledigt.length, k1UstFaelle.length);
-  const oeffnen = (id) => {
-    setFallId(id);
-    setAnsicht("module");
+
+  const ort = () => ({
+    ansicht,
+    fallId,
+    schemaZiel,
+    scrollY: window.scrollY,
+  });
+
+  const anwenden = (ziel, scrollY = null) => {
+    scrollWiederherstellen.current = scrollY;
+    setAnsicht(ziel.ansicht);
+    setFallId(ziel.fallId ?? null);
+    setSchemaZiel(ziel.schemaZiel ?? null);
   };
-  const schemaOeffnen = (ziel = "schema-architektur") => {
-    setSchemaZiel(ziel);
-    setFallId(null);
-    setAnsicht("schema");
+
+  const navigiere = (ziel) => {
+    const naechster = {
+      ansicht: ziel.ansicht,
+      fallId: ziel.fallId ?? null,
+      schemaZiel: ziel.schemaZiel ?? null,
+      scrollY: 0,
+    };
+    if (
+      naechster.ansicht === ansicht
+      && naechster.fallId === fallId
+      && naechster.schemaZiel === schemaZiel
+    ) return;
+
+    const aktuell = ort();
+    setNavVerlauf((alt) => {
+      const neu = alt.slice(0, navIndex + 1);
+      neu[navIndex] = aktuell;
+      neu.push(naechster);
+      return neu;
+    });
+    setNavIndex(navIndex + 1);
+    anwenden(naechster);
   };
+
+  const navZurueck = () => {
+    if (navIndex <= 0) return;
+    const aktuell = ort();
+    const ziel = navVerlauf[navIndex - 1];
+    setNavVerlauf((alt) => {
+      const neu = [...alt];
+      neu[navIndex] = aktuell;
+      return neu;
+    });
+    setNavIndex(navIndex - 1);
+    anwenden(ziel, ziel.scrollY ?? 0);
+  };
+
+  const navVor = () => {
+    if (navIndex >= navVerlauf.length - 1) return;
+    const aktuell = ort();
+    const ziel = navVerlauf[navIndex + 1];
+    setNavVerlauf((alt) => {
+      const neu = [...alt];
+      neu[navIndex] = aktuell;
+      return neu;
+    });
+    setNavIndex(navIndex + 1);
+    anwenden(ziel, ziel.scrollY ?? 0);
+  };
+
+  useEffect(() => {
+    const tastatur = (event) => {
+      if (!event.altKey) return;
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        navZurueck();
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        navVor();
+      }
+    };
+    window.addEventListener("keydown", tastatur);
+    return () => window.removeEventListener("keydown", tastatur);
+  }, [navIndex, navVerlauf, ansicht, fallId, schemaZiel]);
+
+  const ansichtOeffnen = (ziel) => navigiere({ ansicht: ziel });
+  const oeffnen = (id) => navigiere({ ansicht: "module", fallId: id });
+  const schemaOeffnen = (ziel = "schema-architektur") => navigiere({ ansicht: "schema", schemaZiel: ziel });
 
   return (
     <div className="kst-campus">
       <header className="topbar">
-        <button className="brand" onClick={() => { setAnsicht("cockpit"); setFallId(null); }}>
+        <button className="brand" onClick={() => ansichtOeffnen("cockpit")}>
           <span className="brand__mark">1</span>
           <span className="brand__text">
             <strong>Examenscampus Klausur 1</strong>
             <span>Verfahrensrecht · andere Steuerarten · Umsatzsteuer</span>
           </span>
         </button>
+        <div role="group" aria-label="Navigation in Klausur 1" style={{ display: "flex", gap: 4 }}>
+          <button
+            type="button"
+            className="iconbtn"
+            onClick={navZurueck}
+            disabled={navIndex <= 0}
+            aria-label="Zurück zur vorherigen Seite"
+            title="Zurück (Alt + Pfeil links)"
+          >
+            ←
+          </button>
+          <button
+            type="button"
+            className="iconbtn"
+            onClick={navVor}
+            disabled={navIndex >= navVerlauf.length - 1}
+            aria-label="Vor zur nächsten Seite"
+            title="Vor (Alt + Pfeil rechts)"
+          >
+            →
+          </button>
+        </div>
         <span className="topbar__spacer" />
         <label className="search">
           <IconSuche />
@@ -288,8 +395,7 @@ export default function K1Campus({ onKlausurwechsel }) {
             aria-label="Umsatzsteuer-Fälle durchsuchen"
             onChange={(e) => {
               setSuche(e.target.value);
-              setAnsicht("module");
-              setFallId(null);
+              if (ansicht !== "module" || fallId !== null) ansichtOeffnen("module");
             }}
           />
         </label>
@@ -304,7 +410,7 @@ export default function K1Campus({ onKlausurwechsel }) {
       </header>
 
       <nav className="klausuren" aria-label="Klausuren des schriftlichen Examens">
-        <button className="klausur" aria-current="true" onClick={() => { setAnsicht("cockpit"); setFallId(null); }}>
+        <button className="klausur" aria-current="true" onClick={() => ansichtOeffnen("cockpit")}>
           <b>K1</b>
           <span><strong>Verfahrensrecht</strong> <small>USt verfügbar · weitere Steuerarten folgen</small></span>
         </button>
@@ -325,7 +431,7 @@ export default function K1Campus({ onKlausurwechsel }) {
               key={id}
               className="rail__link"
               aria-current={ansicht === id ? "true" : undefined}
-              onClick={() => { setAnsicht(id); setFallId(null); setSchemaZiel(null); }}
+              onClick={() => ansichtOeffnen(id)}
             >
               <Icon />
               {label}
@@ -350,7 +456,7 @@ export default function K1Campus({ onKlausurwechsel }) {
       </aside>
 
       <main className="page">
-        {ansicht === "cockpit" && <K1Cockpit quote={quote} erledigt={erledigt} oeffnen={oeffnen} setAnsicht={setAnsicht} schemaOeffnen={schemaOeffnen} />}
+        {ansicht === "cockpit" && <K1Cockpit quote={quote} erledigt={erledigt} oeffnen={oeffnen} ansichtOeffnen={ansichtOeffnen} schemaOeffnen={schemaOeffnen} />}
         {ansicht === "module" && !fall && (
           <K1Liste
             liste={gefiltert}
@@ -366,7 +472,7 @@ export default function K1Campus({ onKlausurwechsel }) {
             fall={fall}
             erledigt={erledigt}
             umschalten={fortschritt.umschalten}
-            zurueck={() => setFallId(null)}
+            zurueck={() => ansichtOeffnen("module")}
             oeffnen={oeffnen}
             schemaOeffnen={schemaOeffnen}
           />
@@ -378,7 +484,7 @@ export default function K1Campus({ onKlausurwechsel }) {
   );
 }
 
-function K1Cockpit({ quote, erledigt, oeffnen, setAnsicht, schemaOeffnen }) {
+function K1Cockpit({ quote, erledigt, oeffnen, ansichtOeffnen, schemaOeffnen }) {
   const naechstes = k1UstFaelle.find((m) => !erledigt.includes(m.id)) || k1UstFaelle[0];
   return (
     <>
@@ -392,7 +498,7 @@ function K1Cockpit({ quote, erledigt, oeffnen, setAnsicht, schemaOeffnen }) {
           </p>
           <div className="these__aktionen">
             <button className="btn" onClick={() => oeffnen(naechstes.id)}>Weiterlernen</button>
-            <button className="btn btn--linie" onClick={() => setAnsicht("faelle")}>Originalfälle öffnen</button>
+            <button className="btn btn--linie" onClick={() => ansichtOeffnen("faelle")}>Originalfälle öffnen</button>
             <button className="btn btn--linie" onClick={() => schemaOeffnen("schema-architektur")}>Prüfschema öffnen</button>
           </div>
         </section>
