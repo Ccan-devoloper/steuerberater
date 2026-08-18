@@ -45,10 +45,70 @@
   margin-top: 10px;
 }
 
+.k1-quellskizze {
+  margin: 18px 0 8px;
+  padding: 14px;
+  border: 1px solid var(--linie);
+  background: var(--feld);
+}
+
+.k1-quellskizze figcaption {
+  margin-bottom: 11px;
+  font-weight: 700;
+}
+
+.k1-quellskizze__raster {
+  display: grid;
+  gap: 8px;
+}
+
+.k1-quellskizze__spur {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: stretch;
+  gap: 8px;
+}
+
+.k1-quellskizze__spur span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 8px 10px;
+  border: 1px solid var(--linie);
+  background: var(--papier);
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.k1-quellskizze__spur i {
+  align-self: center;
+  color: var(--tinte);
+  font-style: normal;
+  font-size: 20px;
+}
+
+.k1-quellskizze > p {
+  margin: 10px 0 0;
+  color: var(--ink-weich);
+  font-size: 12px;
+}
+
 @media (max-width: 720px) {
   .k1-originalfall-aufgabe__kopf {
     align-items: flex-start;
     flex-direction: column;
     gap: 3px;
+  }
+
+  .k1-quellskizze__spur {
+    grid-template-columns: 1fr;
+  }
+
+  .k1-quellskizze__spur i {
+    justify-self: center;
+    transform: rotate(90deg);
   }
 }
