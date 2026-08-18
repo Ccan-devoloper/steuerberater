@@ -15,6 +15,194 @@ const ansichten = [
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
 ];
 
+/* Skizzen aus der handschriftlichen Mitschrift. Die Darstellung übernimmt
+   ausschließlich die dort notierten Beziehungen, Beträge, Zeitpunkte und
+   Normhinweise; sie rechnet keine Werte neu. */
+const loesungsskizzen = {
+  141: [
+    {
+      typ: "fluss",
+      titel: "Sony – Media Markt – Endkundin",
+      schritte: [
+        { titel: "Sony · München", zeilen: ["24.4. TV", "1.000 € + 190 € USt", "Rg. 2.5."], ton: "neutral" },
+        { titel: "Media Markt · FFM", zeilen: ["Eingangsumsatz", "→ Ausgangsumsatz"], ton: "tinte" },
+        { titel: "Kundin · Wetzlar", zeilen: ["24.6. TV", "2.000 € + 380 € USt", "Rg. 24.6."], ton: "neutral" },
+      ],
+      legende: "Skizze S. 3–12: Ausgangsumsatz zuerst prüfen; Vorsteuer 190 € auf der Eingangsseite. USt 380 € entsteht im VAZ 06, Vorsteuerabzug 190 € im VAZ 05.",
+    },
+  ],
+  142: [
+    {
+      typ: "gegenueber",
+      titel: "Ein Unternehmer – ein Unternehmen",
+      links: {
+        titel: "Unternehmensbereich",
+        norm: "§ 2 Abs. 1 UStG",
+        ton: "tinte",
+        punkte: [
+          "sämtliche Tätigkeitszweige gehören zum einen Unternehmen",
+          "Grundgeschäft, Hilfsgeschäft und Nebengeschäft erfassen",
+          "natürliche, juristische Personen und Personengesellschaften möglich",
+        ],
+      },
+      rechts: {
+        titel: "Abgrenzung",
+        norm: "§ 1 Abs. 1 Nr. 1 UStG",
+        ton: "orange",
+        punkte: [
+          "private Wohncouch: nicht im Rahmen des Unternehmens",
+          "Umsätze zwischen eigenen Unternehmensteilen: Innenumsätze",
+          "Innenumsätze sind nicht steuerbare Außenumsätze",
+        ],
+      },
+      fussnote: "Skizze S. 18–20: Die Mitschrift zeichnet sämtliche Tätigkeitszweige in einen gemeinsamen Unternehmenskreis und markiert Vorgänge zwischen ihnen als nicht steuerbare Innenumsätze.",
+    },
+  ],
+  143: [
+    {
+      typ: "stufen",
+      titel: "Maschinenabholung in Dortmund",
+      stufen: [
+        { stufe: "1", text: "Kaufvertrag am 30.7.26", norm: "Vertrag", ton: "neutral" },
+        { stufe: "2", text: "K holt die Maschine am 1.8.26 in Dortmund ab", norm: "Abholung", ton: "tinte" },
+        { stufe: "3", text: "Verfügungsmacht an einem Gegenstand", norm: "§ 3 Abs. 1 UStG", ton: "tinte", ergebnis: "Lieferung" },
+        { stufe: "4", text: "bewegte Lieferung beginnt in Dortmund", norm: "§ 3 Abs. 6 S. 1, 2 UStG", ton: "gruen", ergebnis: "Ort: Dortmund" },
+      ],
+      legende: "Skizze S. 23–25: Lieferung = Verschaffung der Verfügungsmacht an einem Gegenstand; bei der Abholung liegt der Beginn der Warenbewegung in Dortmund.",
+    },
+  ],
+  146: [
+    {
+      typ: "fluss",
+      titel: "Maschine mit Transport und Übernachtung",
+      schritte: [
+        { titel: "U · Aachen", zeilen: ["Maschine 238.000 €", "Transport 1.000 €", "Übernachtung 100 €"], ton: "tinte" },
+        { titel: "Beförderung", zeilen: ["eigener Lkw", "Aachen → München"], ton: "neutral" },
+        { titel: "K · München", zeilen: ["eine Hauptleistung", "Transport + Übernachtung", "= Nebenleistungen"], ton: "gruen" },
+      ],
+      legende: "Skizze S. 32–37: Maschine ist die Hauptleistung; Transport und die weiterbelastete Übernachtung teilen als Nebenleistungen deren umsatzsteuerliches Schicksal. Die Mitschrift verweist hierzu auf A 3.10 Abs. 5 UStAE.",
+    },
+  ],
+  147: [
+    {
+      typ: "gegenueber",
+      titel: "Zeitpunkt der sonstigen Leistung",
+      links: {
+        titel: "Grundsatz",
+        norm: "mit Vollendung",
+        ton: "tinte",
+        punkte: [
+          "Baggervermietung 1.1.26 bis 30.6.26",
+          "ohne Teilleistungsvereinbarung: Vollendung am 30.6.",
+        ],
+      },
+      rechts: {
+        titel: "Ausnahme: Teilleistungen",
+        norm: "§ 13 Abs. 1 Nr. 1 Buchst. a S. 2, 3 UStG",
+        ton: "orange",
+        punkte: [
+          "monatliche Miete im Voraus vereinbart",
+          "monatliche Teilleistungen",
+          "jeweils eigener VAZ 01–06",
+        ],
+      },
+      fussnote: "Skizzen S. 38 und 41–42: Die Mitschrift stellt Grundsatz und Ausnahme als zwei Äste gegenüber.",
+    },
+  ],
+  148: [
+    {
+      typ: "gegenueber",
+      titel: "Fliesenleger: Materialstellung entscheidet",
+      links: {
+        titel: "a) F stellt Material",
+        norm: "§ 3 Abs. 4, § 3 Abs. 7 S. 1 UStG",
+        ton: "tinte",
+        punkte: [
+          "Werklieferung",
+          "unbewegte Lieferung",
+          "Ort: Karlsruhe",
+        ],
+      },
+      rechts: {
+        titel: "b) K stellt Material",
+        norm: "§ 3 Abs. 9 S. 1, § 3a Abs. 3 Nr. 1 UStG",
+        ton: "gruen",
+        punkte: [
+          "sonstige Leistung",
+          "Grundstücksleistung am Bürogebäude",
+          "Ort: Karlsruhe",
+        ],
+      },
+      fussnote: "Lösung S. 45; die vorgelagerte Skizze S. 43 trennt bei sonstigen Leistungen außerdem B2B (§ 3a Abs. 2 UStG) und B2C (§ 3a Abs. 1 UStG).",
+    },
+  ],
+  150: [
+    {
+      typ: "gegenueber",
+      titel: "Hotel Wien: Übernachtung und Frühstück",
+      links: {
+        titel: "Übernachtung",
+        norm: "§ 12 Abs. 2 Nr. 11 UStG",
+        ton: "gruen",
+        punkte: [
+          "7 %",
+          "Beherbergungsleistung",
+          "Ort Wien: § 3a Abs. 3 Nr. 1 UStG",
+        ],
+      },
+      rechts: {
+        titel: "Frühstück",
+        norm: "§ 12 Abs. 1 UStG",
+        ton: "orange",
+        punkte: [
+          "19 % nach der Mitschrift",
+          "Nebenleistung, aber Aufteilungsgebot",
+          "ab 2026 notiert: Essen 7 % / Getränke 19 %",
+        ],
+      },
+      fussnote: "Box S. 53–54: Für den 2026-Exkurs sind 70 % Essen mit 7 % und 30 % Getränke mit 19 % notiert. Diese Quoten werden unverändert wiedergegeben.",
+    },
+  ],
+  153: [
+    {
+      typ: "fluss",
+      titel: "Leistungsaustausch gegen Entgelt",
+      schritte: [
+        { titel: "Unternehmer U", zeilen: ["Leistung"], ton: "tinte" },
+        { titel: "Leistungsaustausch", zeilen: ["gegen Entgelt"], ton: "neutral" },
+        { titel: "Kunde K", zeilen: ["Gegenleistung", "i. d. R. Geld"], ton: "gruen" },
+      ],
+      legende: "Skizze S. 64: Leistung des Unternehmers an den Kunden und Gegenleistung des Kunden bilden den Leistungsaustausch. Die Zeichnung ergänzt die Ortsprüfung des Telekommunikationsfalls.",
+    },
+  ],
+};
+
+function Loesungsskizzen({ fallId }) {
+  const skizzen = loesungsskizzen[fallId] || [];
+  if (!skizzen.length) return null;
+  return (
+    <div>
+      {skizzen.map((spec, index) => <Schaubild key={`${fallId}-${index}`} spec={spec} />)}
+    </div>
+  );
+}
+
+function Loesungsblock({ m }) {
+  return (
+    <div className="fall__block">
+      <b>Lösung</b>
+      <ol>{(m.example?.solution || []).map((s, i) => <li key={i}>{s}</li>)}</ol>
+      <Loesungsskizzen fallId={m.id} />
+      {(m.normchain || []).length > 0 && (
+        <div>
+          <b>Normen der Lösung</b>
+          <Normkette normen={m.normchain} />
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function K1Campus({ onKlausurwechsel }) {
   const [ansicht, setAnsicht] = useState("cockpit");
   const [fallId, setFallId] = useState(null);
@@ -333,7 +521,7 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen }) {
         <Tz nummer={n()} label="Originalfall" titel={m.example.title} art="bewertung">
           <div className="fall">
             <div className="fall__block fall__sachverhalt"><b>Sachverhalt</b><p>{m.example.facts}</p></div>
-            <div className="fall__block"><b>Lösung</b><ol>{m.example.solution.map((s, i) => <li key={i}>{s}</li>)}</ol></div>
+            <Loesungsblock m={m} />
             <div className="fall__block fall__ergebnis"><b>Ergebnis</b><p>{m.example.result}</p></div>
           </div>
         </Tz>
@@ -360,7 +548,7 @@ function K1Originalfaelle({ oeffnen }) {
         <div>
           <span className="kicker">Klausur 1 · Fallsammlung</span>
           <h1>Originalfälle der USt-Mitschrift</h1>
-          <p className="lead">Sachverhalt und Ergebnis stammen aus der aufbereiteten Mitschrift; die vollständige Lösung steht im jeweiligen Fall.</p>
+          <p className="lead">Sachverhalt, vollständige Lösung, Lösungsskizzen und zitierte Normen sind direkt in jeder Fallkarte aufklappbar.</p>
         </div>
         <span className="zaehler">{k1UstFaelle.length} Fälle</span>
       </div>
@@ -377,8 +565,11 @@ function K1Originalfaelle({ oeffnen }) {
               <p>{m.example?.facts}</p>
             </div>
             <details>
-              <summary>Ergebnis anzeigen</summary>
-              <p>{m.example?.result}</p>
+              <summary>Lösung anzeigen</summary>
+              <div className="fall">
+                <Loesungsblock m={m} />
+                <div className="fall__block fall__ergebnis"><b>Ergebnis</b><p>{m.example?.result}</p></div>
+              </div>
             </details>
           </article>
         ))}
