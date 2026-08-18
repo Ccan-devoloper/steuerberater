@@ -178,6 +178,53 @@ const k1OriginalfallAufgaben = {
       "Abwandlung: Beurteilen Sie U1!",
     ],
   },
+  182: {
+    seiten: "Einheit 4 · Beispiel 13 · PDF-S. 11–68",
+    fragen: [
+      "Beurteilen Sie CH und U1!",
+      "Abwandlung: Die Lieferung des CH erfolgt „unverzollt und unversteuert“. Beurteilen Sie CH und U1!",
+    ],
+  },
+  183: {
+    seiten: "Einheit 4 · Beispiel 14 · PDF-S. 97–150",
+    fragen: ["Beurteilen Sie K!"],
+  },
+  184: {
+    seiten: "Einheit 4 · Tag 4 · Beispiel 1 · PDF-S. 159–204",
+    fragen: ["Beurteilen Sie D!"],
+  },
+  185: {
+    seiten: "Einheit 4 · Tag 4 · Beispiel 2 · PDF-S. 159 ff.",
+    fragen: [
+      "Beurteilen Sie D!",
+      "Abwandlung: D tritt mit seiner belgischen USt-IdNr. auf! Beurteilen Sie D!",
+    ],
+  },
+  186: {
+    seiten: "Einheit 4 · Tag 4 · Beispiel 3 · PDF-S. 319 ff.",
+    fragen: [
+      "Beurteilen Sie D!",
+      "Abwandlung: Beurteilen Sie D!",
+    ],
+  },
+  187: {
+    seiten: "Einheit 4 · Tag 4 · Beispiel 4 · PDF-S. 399 ff.",
+    fragen: ["Beurteilen Sie K und D!"],
+  },
+  188: {
+    seiten: "Einheit 4 · Tag 4 · Beispiel 5 · PDF-S. 577 ff.",
+    fragen: ["Umsatzsteuerrechtliche Würdigung?"],
+  },
+  189: {
+    seiten: "Einheit 4 · Tag 4 · Beispiel 6 · PDF-S. 577",
+    fragen: ["Umsatzsteuerrechtliche Konsequenzen für U?"],
+    hinweis: "Die Aufgabe wird in der vorliegenden PDF eingeblendet, aber bis zum Ende der Aufzeichnung nicht mehr ausformuliert gelöst.",
+  },
+  190: {
+    seiten: "Einheit 4 · Tag 4 · Beispiel 7 · PDF-S. 577",
+    fragen: ["Umsatzsteuerrechtliche Konsequenzen für U?"],
+    hinweis: "Die Aufgabe wird in der vorliegenden PDF eingeblendet, aber bis zum Ende der Aufzeichnung nicht mehr ausformuliert gelöst.",
+  },
 };
 
 export default k1OriginalfallAufgaben;
