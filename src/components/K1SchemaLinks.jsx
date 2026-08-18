@@ -54,6 +54,7 @@ export function SchemaVerweise({ text, onOpen, compact = false, stopPropagation 
             if (stopPropagation) e.stopPropagation();
             onOpen(ziel.id);
           }}
+          onKeyDown={(e) => { if (stopPropagation) e.stopPropagation(); }}
         >
           ↗ {ziel.label}
         </button>
