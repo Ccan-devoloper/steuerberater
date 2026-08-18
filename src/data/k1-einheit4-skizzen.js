@@ -44,18 +44,18 @@ const k1Einheit4Skizzen = {
   186: {
     titel: "Tomaten-Reihengeschäft Paris → Köln",
     spuren: [
-      ["P · Paris", "P transportiert", "D · Düsseldorf", "K · Köln"],
-      ["P → D: bewegt", "14.000 €", "D: ig. Erwerb · 980 €", "D → K: ruhend in Köln"],
-      ["Abwandlung", "D transportiert · FR-USt-IdNr.", "P → D: ruhend FR", "D → K: bewegt ab Paris"],
+      ["P · Paris", "P transportiert", "K · Köln"],
+      ["P → D: bewegt · 14.000 €", "D: ig. Erwerb · 980 €", "D → K: ruhend in Köln"],
+      ["Abwandlung: D transportiert", "FR-USt-IdNr. · P → D ruhend", "D → K bewegt ab Paris"],
     ],
-    note: "Quelle: Tag-4-Beispiel 3. Die Abwandlung ändert durch Zwischenhändlertransport und französische USt-IdNr. die Zuordnung der bewegten Lieferung.",
+    note: "Quelle: Tag-4-Beispiel 3. D aus Düsseldorf ist Zwischenhändler; die Abwandlung ändert durch seinen Transport und die französische USt-IdNr. die Zuordnung der bewegten Lieferung.",
   },
   187: {
     titel: "Bananen-Reihengeschäft Köln → Paris",
     spuren: [
-      ["K · Köln", "K → D: ruhend in Köln", "D · Düsseldorf", "D → P: bewegt", "P · Paris"],
-      ["14.000 € brutto", "BMG 13.084,11 €", "USt/VSt 915,89 €", "§ 6a / § 4 Nr. 1 b", "15.000 €"],
-      ["D transportiert", "deutsche USt-IdNr.", "10.10.26", "Warenbewegung DE → FR", "franz. USt-IdNr."],
+      ["K · Köln", "D · Düsseldorf transportiert", "P · Paris"],
+      ["K → D: ruhend in Köln", "BMG 13.084,11 € · USt/VSt 915,89 €", "D → P: bewegt · § 6a"],
+      ["14.000 € brutto", "10.10.26 · deutsche USt-IdNr.", "15.000 € · französische USt-IdNr."],
     ],
     note: "Quelle: Tag-4-Beispiel 4. Die Quellenwerte 13.084,11 € und 915,89 € werden unverändert wiedergegeben.",
   },
