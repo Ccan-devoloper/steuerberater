@@ -30,7 +30,7 @@ function aufgabenblockBauen(daten, schemaButtons) {
   kopf.appendChild(titel);
 
   const quelle = document.createElement("small");
-  quelle.textContent = `PDF S. ${daten.seiten}`;
+  quelle.textContent = `Quelle: ${daten.seiten}`;
   kopf.appendChild(quelle);
   block.appendChild(kopf);
 
