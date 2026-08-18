@@ -1,13 +1,24 @@
 import { useEffect } from "react";
 import k1OriginalfallAufgaben from "../data/k1-originalfall-aufgaben";
+import k1OriginalfallAufgabenEinheit2Nachtrag from "../data/k1-originalfall-aufgaben-einheit2-nachtrag";
 import k1OriginalfallAufgabenEinheit5 from "../data/k1-originalfall-aufgaben-einheit5";
+import k1Einheit2NachtragSkizzen from "../data/k1-einheit2-nachtrag-skizzen";
 import k1Einheit3Skizzen from "../data/k1-einheit3-skizzen";
 import k1Einheit4Skizzen from "../data/k1-einheit4-skizzen";
 import k1Einheit5Skizzen from "../data/k1-einheit5-skizzen";
 import "./k1-originalfall-aufgaben.css";
 
-const k1OriginalfallAufgabenAlle = { ...k1OriginalfallAufgaben, ...k1OriginalfallAufgabenEinheit5 };
-const k1Quellskizzen = { ...k1Einheit3Skizzen, ...k1Einheit4Skizzen, ...k1Einheit5Skizzen };
+const k1OriginalfallAufgabenAlle = {
+  ...k1OriginalfallAufgaben,
+  ...k1OriginalfallAufgabenEinheit2Nachtrag,
+  ...k1OriginalfallAufgabenEinheit5,
+};
+const k1Quellskizzen = {
+  ...k1Einheit2NachtragSkizzen,
+  ...k1Einheit3Skizzen,
+  ...k1Einheit4Skizzen,
+  ...k1Einheit5Skizzen,
+};
 
 function fallIdAusText(text, muster) {
   const treffer = String(text || "").match(muster);

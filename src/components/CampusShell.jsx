@@ -1,6 +1,7 @@
 import "../data/kst-einheit-2-register.js";
 import "../data/kst-einheit-5-register.js";
 import "../data/kst-einheit-6-register.js";
+import "../data/k1-ust-einheit-2-nachtrag-register.js";
 import "../data/k1-ust-einheit-3-register.js";
 import "../data/k1-ust-einheit-4-register.js";
 import "../data/k1-ust-einheit-5-register.js";
