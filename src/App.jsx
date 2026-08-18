@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { module as alleModule, bereiche, bereichName, normenregister } from "./data/module";
 import { zugeordneteFaelle } from "./data/fallsammlung";
 import offeneFaelle from "./data/faelle-offen";
@@ -13,6 +13,7 @@ import { Norm, Normkette, Notiz, Buchungssatz, Bilanzspiegel } from "./component
 import Pruefungsschemata, { schemata as pruefungsschemata } from "./components/Pruefungsschemata";
 import SchemaPostitEnhancer from "./components/SchemaPostitEnhancer";
 import { laden, sichern, useFortschritt, anteil } from "./lib/fortschritt";
+import { erfasseSeitenzustand, stelleSeitenzustandWiederHer } from "./lib/campus-navigation";
 import {
   IconCockpit, IconModule, IconSchema, IconFormel, IconRegister, IconTraining,
   IconFaelle, IconPlan, IconSuche, IconSonne, IconMond, IconHaken,
@@ -50,6 +51,11 @@ export default function App({ onKlausurwechsel }) {
   const [bereich, setBereich] = useState("alle");
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
   const [hausaufgabenAnker, setHausaufgabenAnker] = useState(null);
+  const [navVerlauf, setNavVerlauf] = useState([
+    { ansicht: "cockpit", modulId: null, bereich: "alle", hausaufgabenAnker: null, scrollY: 0, offeneDetails: [] },
+  ]);
+  const [navIndex, setNavIndex] = useState(0);
+  const wiederherstellenRef = useRef(null);
 
   /* Beide Stände werden beim Laden gegen den heutigen Bestand bereinigt. */
   const module = useFortschritt("stb-erledigt", modulIds);
@@ -61,8 +67,13 @@ export default function App({ onKlausurwechsel }) {
     document.documentElement.dataset.theme = dunkel ? "dark" : "light";
     sichern("stb-dunkel", dunkel);
   }, [dunkel]);
+
   useEffect(() => {
+    const snapshot = wiederherstellenRef.current;
+    wiederherstellenRef.current = null;
+    if (snapshot) return stelleSeitenzustandWiederHer(snapshot);
     window.scrollTo({ top: 0, behavior: "auto" });
+    return undefined;
   }, [ansicht, modulId]);
 
   const gefiltert = useMemo(() => {
@@ -91,28 +102,105 @@ export default function App({ onKlausurwechsel }) {
     return { anzahl: ids.size, gesamt, quote: anteil(ids.size, gesamt), letzter: liste[0] || null };
   }, [ansicht]);
 
-  const oeffnen = (id) => {
-    setModulId(id);
-    setAnsicht("module");
+  const ort = () => ({ ansicht, modulId, bereich, hausaufgabenAnker, ...erfasseSeitenzustand() });
+
+  const anwenden = (ziel, wiederherstellen = false) => {
+    wiederherstellenRef.current = wiederherstellen ? ziel : null;
+    setAnsicht(ziel.ansicht);
+    setModulId(ziel.modulId ?? null);
+    setBereich(ziel.bereich ?? bereich);
+    setHausaufgabenAnker(ziel.hausaufgabenAnker ?? null);
   };
 
-  /* Sprung von einer Modulseite zu einer bestimmten Hausaufgabe. */
-  const oeffnenHausaufgabe = (id) => {
-    setHausaufgabenAnker(id);
-    setModulId(null);
-    setAnsicht("hausaufgaben");
+  const navigiere = (ziel) => {
+    const naechster = {
+      ansicht: ziel.ansicht,
+      modulId: ziel.modulId ?? null,
+      bereich: ziel.bereich ?? bereich,
+      hausaufgabenAnker: ziel.hausaufgabenAnker ?? null,
+      scrollY: 0,
+      offeneDetails: [],
+    };
+    if (
+      naechster.ansicht === ansicht
+      && naechster.modulId === modulId
+      && naechster.bereich === bereich
+      && naechster.hausaufgabenAnker === hausaufgabenAnker
+    ) return;
+    const aktuell = ort();
+    setNavVerlauf((alt) => {
+      const neu = alt.slice(0, navIndex + 1);
+      neu[navIndex] = aktuell;
+      neu.push(naechster);
+      return neu;
+    });
+    setNavIndex(navIndex + 1);
+    anwenden(naechster);
   };
+
+  const navZurueck = () => {
+    if (navIndex <= 0) return;
+    const aktuell = ort();
+    const ziel = navVerlauf[navIndex - 1];
+    setNavVerlauf((alt) => {
+      const neu = [...alt];
+      neu[navIndex] = aktuell;
+      return neu;
+    });
+    setNavIndex(navIndex - 1);
+    anwenden(ziel, true);
+  };
+
+  const navVor = () => {
+    if (navIndex >= navVerlauf.length - 1) return;
+    const aktuell = ort();
+    const ziel = navVerlauf[navIndex + 1];
+    setNavVerlauf((alt) => {
+      const neu = [...alt];
+      neu[navIndex] = aktuell;
+      return neu;
+    });
+    setNavIndex(navIndex + 1);
+    anwenden(ziel, true);
+  };
+
+  useEffect(() => {
+    const tastatur = (event) => {
+      if (!event.altKey) return;
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        navZurueck();
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        navVor();
+      }
+    };
+    window.addEventListener("keydown", tastatur);
+    return () => window.removeEventListener("keydown", tastatur);
+  }, [navIndex, navVerlauf, ansicht, modulId, bereich, hausaufgabenAnker]);
+
+  const ansichtOeffnen = (ziel) => navigiere({ ansicht: ziel });
+  const bereichOeffnen = (ziel) => navigiere({ ansicht: "module", bereich: ziel });
+  const oeffnen = (id) => navigiere({ ansicht: "module", modulId: id });
+
+  /* Sprung von einer Modulseite zu einer bestimmten Hausaufgabe. */
+  const oeffnenHausaufgabe = (id) => navigiere({ ansicht: "hausaufgaben", hausaufgabenAnker: id });
 
   return (
     <div>
       <header className="topbar">
-        <button className="brand" onClick={() => { setAnsicht("cockpit"); setModulId(null); }}>
+        <button className="brand" onClick={() => ansichtOeffnen("cockpit")}>
           <span className="brand__mark">B</span>
           <span className="brand__text">
             <strong>Examenscampus Bilanzen</strong>
             <span>Klausur 3 · Buchführung und Bilanzwesen</span>
           </span>
         </button>
+        <div role="group" aria-label="Navigation in Klausur 3" style={{ display: "flex", gap: 4 }}>
+          <button type="button" className="iconbtn" onClick={navZurueck} disabled={navIndex <= 0} aria-label="Zurück zur vorherigen Seite" title="Zurück (Alt + Pfeil links)">←</button>
+          <button type="button" className="iconbtn" onClick={navVor} disabled={navIndex >= navVerlauf.length - 1} aria-label="Vor zur nächsten Seite" title="Vor (Alt + Pfeil rechts)">→</button>
+        </div>
         <span className="topbar__spacer" />
         <label className="search">
           <IconSuche />
@@ -123,8 +211,7 @@ export default function App({ onKlausurwechsel }) {
             aria-label="Module durchsuchen"
             onChange={(e) => {
               setSuche(e.target.value);
-              setAnsicht("module");
-              setModulId(null);
+              if (ansicht !== "module" || modulId !== null) ansichtOeffnen("module");
             }}
           />
         </label>
@@ -155,7 +242,7 @@ export default function App({ onKlausurwechsel }) {
             <small>{onKlausurwechsel ? "ESt · KSt verfügbar · GewSt" : "ESt · KSt · GewSt"}</small>
           </span>
         </button>
-        <button className="klausur" aria-current="true">
+        <button className="klausur" aria-current="true" onClick={() => ansichtOeffnen("cockpit")}>
           <b>K3</b>
           <span><strong>Buchführung und Bilanzwesen</strong> <small>diese Plattform</small></span>
         </button>
@@ -168,7 +255,7 @@ export default function App({ onKlausurwechsel }) {
               key={id}
               className="rail__link"
               aria-current={ansicht === id ? "true" : undefined}
-              onClick={() => { setAnsicht(id); setModulId(null); }}
+              onClick={() => ansichtOeffnen(id)}
             >
               <Icon />
               {label}
@@ -193,7 +280,7 @@ export default function App({ onKlausurwechsel }) {
       </aside>
 
       <main className="page">
-        {ansicht === "cockpit" && <Cockpit quote={quote} gerechnet={gerechnet} erledigt={erledigt} oeffnen={oeffnen} setAnsicht={setAnsicht} setBereich={setBereich} />}
+        {ansicht === "cockpit" && <Cockpit quote={quote} gerechnet={gerechnet} erledigt={erledigt} oeffnen={oeffnen} ansichtOeffnen={ansichtOeffnen} bereichOeffnen={bereichOeffnen} />}
         {ansicht === "module" && !modul && (
           <Modulliste
             liste={gefiltert}
@@ -210,7 +297,7 @@ export default function App({ onKlausurwechsel }) {
             modul={modul}
             erledigt={erledigt}
             umschalten={umschalten}
-            zurueck={() => setModulId(null)}
+            zurueck={() => ansichtOeffnen("module")}
             oeffnen={oeffnen}
             oeffnenHausaufgabe={oeffnenHausaufgabe}
           />
@@ -243,7 +330,7 @@ export default function App({ onKlausurwechsel }) {
 }
 
 /* ================================================================= Cockpit */
-function Cockpit({ quote, gerechnet, erledigt, oeffnen, setAnsicht, setBereich }) {
+function Cockpit({ quote, gerechnet, erledigt, oeffnen, ansichtOeffnen, bereichOeffnen }) {
   const naechstes = alleModule.find((m) => !erledigt.includes(m.id)) || alleModule[0];
   const zahl = (bereichId) => alleModule.filter((m) => m.area === bereichId).length;
 
@@ -260,7 +347,7 @@ function Cockpit({ quote, gerechnet, erledigt, oeffnen, setAnsicht, setBereich }
           </p>
           <div className="these__aktionen">
             <button className="btn" onClick={() => oeffnen(naechstes.id)}>Weiterlernen</button>
-            <button className="btn btn--linie" onClick={() => setAnsicht("schema")}>Prüfungsschema ansehen</button>
+            <button className="btn btn--linie" onClick={() => ansichtOeffnen("schema")}>Prüfungsschema ansehen</button>
           </div>
         </section>
         <section className="panel fortschritt">
@@ -314,7 +401,7 @@ function Cockpit({ quote, gerechnet, erledigt, oeffnen, setAnsicht, setBereich }
                   <span style={{ width: `${anteil(fertig, gesamt)}%` }} />
                 </div>
                 <small className="bereich__stand">{fertig} von {gesamt} bearbeitet</small>
-                <button onClick={() => { setBereich(id); setAnsicht("module"); }}>Module öffnen →</button>
+                <button onClick={() => bereichOeffnen(id)}>Module öffnen →</button>
               </article>
             );
           })}
@@ -322,7 +409,7 @@ function Cockpit({ quote, gerechnet, erledigt, oeffnen, setAnsicht, setBereich }
             <b>{formeln.length} Rechenwege</b>
             <h3>Formelsammlung</h3>
             <p>Zinsstaffel, Abzinsung, PWB, Sonder-AfA und Zeitbudget mit belegten Beispielrechnungen.</p>
-            <button onClick={() => setAnsicht("formeln")}>Rechenwege öffnen →</button>
+            <button onClick={() => ansichtOeffnen("formeln")}>Rechenwege öffnen →</button>
           </article>
         </div>
       </section>
