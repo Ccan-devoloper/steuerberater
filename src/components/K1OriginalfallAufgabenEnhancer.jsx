@@ -2,22 +2,26 @@ import { useEffect } from "react";
 import k1OriginalfallAufgaben from "../data/k1-originalfall-aufgaben";
 import k1OriginalfallAufgabenEinheit2Nachtrag from "../data/k1-originalfall-aufgaben-einheit2-nachtrag";
 import k1OriginalfallAufgabenEinheit5 from "../data/k1-originalfall-aufgaben-einheit5";
+import k1OriginalfallAufgabenEinheit6 from "../data/k1-originalfall-aufgaben-einheit6";
 import k1Einheit2NachtragSkizzen from "../data/k1-einheit2-nachtrag-skizzen";
 import k1Einheit3Skizzen from "../data/k1-einheit3-skizzen";
 import k1Einheit4Skizzen from "../data/k1-einheit4-skizzen";
 import k1Einheit5Skizzen from "../data/k1-einheit5-skizzen";
+import k1Einheit6Skizzen from "../data/k1-einheit6-skizzen";
 import "./k1-originalfall-aufgaben.css";
 
 const k1OriginalfallAufgabenAlle = {
   ...k1OriginalfallAufgaben,
   ...k1OriginalfallAufgabenEinheit2Nachtrag,
   ...k1OriginalfallAufgabenEinheit5,
+  ...k1OriginalfallAufgabenEinheit6,
 };
 const k1Quellskizzen = {
   ...k1Einheit2NachtragSkizzen,
   ...k1Einheit3Skizzen,
   ...k1Einheit4Skizzen,
   ...k1Einheit5Skizzen,
+  ...k1Einheit6Skizzen,
 };
 
 function fallIdAusText(text, muster) {
@@ -181,26 +185,30 @@ function modulseiteAnreichern(lesson) {
 function einheitenTextAktualisieren() {
   const beschreibung = document.querySelector(".kst-these p");
   if (beschreibung?.textContent?.includes("USt-Einheiten 1 und 2")) {
-    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 und 2", "USt-Einheiten 1 bis 5");
+    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 und 2", "USt-Einheiten 1 bis 6");
   } else if (beschreibung?.textContent?.includes("USt-Einheiten 1 bis 3")) {
-    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 bis 3", "USt-Einheiten 1 bis 5");
+    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 bis 3", "USt-Einheiten 1 bis 6");
   } else if (beschreibung?.textContent?.includes("USt-Einheiten 1 bis 4")) {
-    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 bis 4", "USt-Einheiten 1 bis 5");
+    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 bis 4", "USt-Einheiten 1 bis 6");
+  } else if (beschreibung?.textContent?.includes("USt-Einheiten 1 bis 5")) {
+    beschreibung.textContent = beschreibung.textContent.replace("USt-Einheiten 1 bis 5", "USt-Einheiten 1 bis 6");
   }
 
   const listenKopf = document.querySelector("main.page .pagehead");
   const titel = listenKopf?.querySelector("h1");
-  if (["USt-Einheiten 1–2", "USt-Einheiten 1–3", "USt-Einheiten 1–4"].includes(titel?.textContent?.trim())) {
-    titel.textContent = "USt-Einheiten 1–5";
+  if (["USt-Einheiten 1–2", "USt-Einheiten 1–3", "USt-Einheiten 1–4", "USt-Einheiten 1–5"].includes(titel?.textContent?.trim())) {
+    titel.textContent = "USt-Einheiten 1–6";
   }
 
   const lead = listenKopf?.querySelector(".lead");
   if (lead?.textContent?.includes("aus beiden Einheiten")) {
-    lead.textContent = lead.textContent.replace("aus beiden Einheiten", "aus allen fünf Einheiten");
+    lead.textContent = lead.textContent.replace("aus beiden Einheiten", "aus allen sechs Einheiten");
   } else if (lead?.textContent?.includes("aus allen drei Einheiten")) {
-    lead.textContent = lead.textContent.replace("aus allen drei Einheiten", "aus allen fünf Einheiten");
+    lead.textContent = lead.textContent.replace("aus allen drei Einheiten", "aus allen sechs Einheiten");
   } else if (lead?.textContent?.includes("aus allen vier Einheiten")) {
-    lead.textContent = lead.textContent.replace("aus allen vier Einheiten", "aus allen fünf Einheiten");
+    lead.textContent = lead.textContent.replace("aus allen vier Einheiten", "aus allen sechs Einheiten");
+  } else if (lead?.textContent?.includes("aus allen fünf Einheiten")) {
+    lead.textContent = lead.textContent.replace("aus allen fünf Einheiten", "aus allen sechs Einheiten");
   }
 }
 
