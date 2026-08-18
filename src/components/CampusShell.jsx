@@ -4,6 +4,7 @@ import "../data/kst-einheit-6-register.js";
 import React, { useCallback, useEffect, useState } from "react";
 import App from "../App";
 import K1Campus from "./K1Campus";
+import K1OriginalfallAufgabenEnhancer from "./K1OriginalfallAufgabenEnhancer";
 import KstCampus from "./KstCampus";
 import { kstQuellen } from "../data/kst-module";
 import { laden, sichern } from "../lib/fortschritt";
@@ -50,7 +51,14 @@ export default function CampusShell() {
     };
   }, [campus, wechseln]);
 
-  if (campus === "k1") return <K1Campus onKlausurwechsel={wechseln} />;
+  if (campus === "k1") {
+    return (
+      <>
+        <K1Campus onKlausurwechsel={wechseln} />
+        <K1OriginalfallAufgabenEnhancer />
+      </>
+    );
+  }
   if (campus === "kst") return <KstCampus onKlausurwechsel={wechseln} />;
 
   return <App onKlausurwechsel={wechseln} />;

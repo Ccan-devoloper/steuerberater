@@ -1,0 +1,54 @@
+.k1-originalfall-aufgabe {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--linie);
+  border-left: 3px solid var(--tinte);
+  background: var(--papier);
+}
+
+.k1-originalfall-aufgabe__kopf {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.k1-originalfall-aufgabe__kopf strong {
+  font-weight: 700;
+}
+
+.k1-originalfall-aufgabe__kopf small {
+  flex: 0 0 auto;
+  color: var(--ink-weich);
+  font-family: var(--mono);
+  font-size: 11px;
+}
+
+.k1-originalfall-aufgabe ol {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.k1-originalfall-aufgabe li + li {
+  margin-top: 5px;
+}
+
+.k1-originalfall-aufgabe p {
+  margin: 0;
+}
+
+.k1-originalfall-aufgabe__schema {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+@media (max-width: 720px) {
+  .k1-originalfall-aufgabe__kopf {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+  }
+}
