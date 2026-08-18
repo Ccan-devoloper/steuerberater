@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import k1UstFaelle from "../data/module-vertiefung-m.js";
+import k1UstEinheit1 from "../data/module-vertiefung-m.js";
+import k1UstEinheit2 from "../data/module-vertiefung-n.js";
 import Schaubild from "./Schaubild";
 import UstPruefschema from "./UstPruefschema";
 import { Notiz } from "./Bausteine";
@@ -10,7 +11,10 @@ import {
 } from "./Icons";
 import "./kst.css";
 
-const fallIds = new Set(k1UstFaelle.map((fall) => fall.id));
+const k1UstInhalte = [...k1UstEinheit1, ...k1UstEinheit2];
+const k1UstFaelle = k1UstInhalte.filter((inhalt) => inhalt.area === "Fall");
+const k1UstModule = k1UstInhalte.filter((inhalt) => inhalt.area !== "Fall");
+const inhaltIds = new Set(k1UstInhalte.map((inhalt) => inhalt.id));
 const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
@@ -18,7 +22,7 @@ const ansichten = [
   { id: "schema", label: "Prüfschema", Icon: IconSchema },
 ];
 
-/* Skizzen aus der handschriftlichen Mitschrift. Die Darstellung übernimmt
+/* Skizzen aus den handschriftlichen Mitschriften. Die Darstellung übernimmt
    ausschließlich die dort notierten Beziehungen, Beträge, Zeitpunkte und
    Normhinweise; sie rechnet keine Werte neu. */
 const loesungsskizzen = {
@@ -120,21 +124,13 @@ const loesungsskizzen = {
         titel: "a) F stellt Material",
         norm: "§ 3 Abs. 4, § 3 Abs. 7 S. 1 UStG",
         ton: "tinte",
-        punkte: [
-          "Werklieferung",
-          "unbewegte Lieferung",
-          "Ort: Karlsruhe",
-        ],
+        punkte: ["Werklieferung", "unbewegte Lieferung", "Ort: Karlsruhe"],
       },
       rechts: {
         titel: "b) K stellt Material",
         norm: "§ 3 Abs. 9 S. 1, § 3a Abs. 3 Nr. 1 UStG",
         ton: "gruen",
-        punkte: [
-          "sonstige Leistung",
-          "Grundstücksleistung am Bürogebäude",
-          "Ort: Karlsruhe",
-        ],
+        punkte: ["sonstige Leistung", "Grundstücksleistung am Bürogebäude", "Ort: Karlsruhe"],
       },
       fussnote: "Lösung S. 45; die vorgelagerte Skizze S. 43 trennt bei sonstigen Leistungen außerdem B2B (§ 3a Abs. 2 UStG) und B2C (§ 3a Abs. 1 UStG).",
     },
@@ -147,21 +143,13 @@ const loesungsskizzen = {
         titel: "Übernachtung",
         norm: "§ 12 Abs. 2 Nr. 11 UStG",
         ton: "gruen",
-        punkte: [
-          "7 %",
-          "Beherbergungsleistung",
-          "Ort Wien: § 3a Abs. 3 Nr. 1 UStG",
-        ],
+        punkte: ["7 %", "Beherbergungsleistung", "Ort Wien: § 3a Abs. 3 Nr. 1 UStG"],
       },
       rechts: {
         titel: "Frühstück",
         norm: "§ 12 Abs. 1 UStG",
         ton: "orange",
-        punkte: [
-          "19 % nach der Mitschrift",
-          "Nebenleistung, aber Aufteilungsgebot",
-          "ab 2026 notiert: Essen 7 % / Getränke 19 %",
-        ],
+        punkte: ["19 % nach der Mitschrift", "Nebenleistung, aber Aufteilungsgebot", "ab 2026 notiert: Essen 7 % / Getränke 19 %"],
       },
       fussnote: "Box S. 53–54: Für den 2026-Exkurs sind 70 % Essen mit 7 % und 30 % Getränke mit 19 % notiert. Diese Quoten werden unverändert wiedergegeben.",
     },
@@ -176,6 +164,84 @@ const loesungsskizzen = {
         { titel: "Kunde K", zeilen: ["Gegenleistung", "i. d. R. Geld"], ton: "gruen" },
       ],
       legende: "Skizze S. 64: Leistung des Unternehmers an den Kunden und Gegenleistung des Kunden bilden den Leistungsaustausch. Die Zeichnung ergänzt die Ortsprüfung des Telekommunikationsfalls.",
+    },
+  ],
+  154: [
+    {
+      typ: "fluss",
+      titel: "Zwei Leistungsstufen beim Bauträgerfall",
+      schritte: [
+        { titel: "G · Generalunternehmer", zeilen: ["Werklieferung", "§ 3 Abs. 4 S. 1 UStG", "19 %"], ton: "tinte" },
+        { titel: "B · Bauträger", zeilen: ["Grundstück in Kiel", "Eingangs- ↔ Ausgangsseite"], ton: "neutral" },
+        { titel: "K · Kunde", zeilen: ["bebautes Grundstück", "§ 4 Nr. 9 Buchst. a UStG", "steuerfrei"], ton: "gruen" },
+      ],
+      legende: "Teil 1, Skizzen S. 25–57: Die Leistung G → B und der Grundstücksverkauf B → K werden getrennt geprüft. Der steuerfreie Ausgangsumsatz des B führt in der Mitschrift zum Vorsteuerausschluss auf der Eingangsseite.",
+    },
+  ],
+  155: [
+    {
+      typ: "stufen",
+      titel: "Option beim Grundstücksverkauf",
+      stufen: [
+        { stufe: "1", text: "Grundstücksverkauf grundsätzlich steuerfrei", norm: "§ 4 Nr. 9 Buchst. a UStG", ton: "neutral" },
+        { stufe: "2", text: "Verkauf an Unternehmer für dessen Unternehmen", norm: "§ 9 Abs. 1 UStG", ton: "tinte" },
+        { stufe: "3", text: "Option im notariellen Vertrag", norm: "§ 9 Abs. 3 UStG", ton: "tinte" },
+        { stufe: "4", text: "Option wirksam", norm: "§ 12 Abs. 1 UStG", ton: "gruen", ergebnis: "19 %" },
+      ],
+      legende: "Teil 1, Lösung S. 63–71: Die Mitschrift bejaht die Option beim Verkauf an den Pflegedienst; die Vermietungsschranke des § 9 Abs. 2 wird nicht auf den Verkaufsfall übertragen.",
+    },
+  ],
+  156: [
+    {
+      typ: "stufen",
+      titel: "Drei Vermietungsvarianten",
+      stufen: [
+        { stufe: "a", text: "Wohnung + Pkw-Stellplatz: eine Leistung, Stellplatz als Nebenleistung", norm: "§ 4 Nr. 12 S. 1 Buchst. a", ton: "gruen", ergebnis: "steuerfrei" },
+        { stufe: "b", text: "Pkw-Stellplatz selbständig vermietet", norm: "§ 4 Nr. 12 S. 2", ton: "orange", ergebnis: "steuerpflichtig" },
+        { stufe: "c1", text: "Ladenlokal", norm: "§ 4 Nr. 12 S. 1 Buchst. a", ton: "gruen", ergebnis: "steuerfrei" },
+        { stufe: "c2", text: "Betriebsvorrichtungen als gesonderte Leistung", norm: "§ 4 Nr. 12 S. 2", ton: "orange", ergebnis: "steuerpflichtig" },
+      ],
+      legende: "Teil 1, Lösung S. 83–103: Die Skizzen unterscheiden Haupt-/Nebenleistung und zwei selbständige Leistungen; die Betriebsvorrichtung wird separat behandelt.",
+    },
+  ],
+  157: [
+    {
+      typ: "stufen",
+      titel: "Vermietungsoption bei 3 % / 97 %",
+      stufen: [
+        { stufe: "1", text: "Grundstücksvermietung an Bildungseinrichtung B", norm: "§ 4 Nr. 12 S. 1 Buchst. a", ton: "neutral" },
+        { stufe: "2", text: "B nutzt für 3 % steuerfreie und 97 % steuerpflichtige Umsätze", norm: "§ 9 Abs. 2 UStG", ton: "tinte" },
+        { stufe: "3", text: "mindestens 95 % vorsteuerunschädliche Verwendung", norm: "A 9.2 Abs. 3 S. 2 UStAE", ton: "tinte" },
+        { stufe: "4", text: "97 % ≥ 95 %", norm: "Option", ton: "gruen", ergebnis: "wirksam · 19 %" },
+      ],
+      legende: "Teil 1, Lösung S. 118–127: Die in der Mitschrift verwendete 95-%-Grenze wird mit 97 % erreicht. Zahlen und Quote werden unverändert übernommen.",
+    },
+  ],
+  158: [
+    {
+      typ: "stufen",
+      titel: "Bemessungsgrundlage beim Kfz-Verkauf",
+      stufen: [
+        { stufe: "1", text: "Autopreis i.H.v. 11.900 €", norm: "Brutto", ton: "neutral" },
+        { stufe: "2", text: "+ 100 € Überführungskosten = 12.000 €", norm: "Entgelt", ton: "tinte" },
+        { stufe: "3", text: "75 € Zulassungsgebühren bleiben draußen", norm: "durchlaufender Posten", ton: "orange" },
+        { stufe: "4", text: "12.000 / 1,19 = 10.084,03", norm: "§ 10 Abs. 1 UStG", ton: "gruen", ergebnis: "BMG 10.084,03 €" },
+        { stufe: "5", text: "Umsatzsteuer", norm: "§ 12 Abs. 1 UStG", ton: "gruen", ergebnis: "1.915,97 €" },
+      ],
+      legende: "Teil 2, Lösung S. 60–64: Die Werte 10.084,03 € und 1.915,97 € werden exakt aus der Mitschrift übernommen und nicht neu berechnet.",
+    },
+  ],
+  159: [
+    {
+      typ: "stufen",
+      titel: "Ausstellungshalle: Leistung und Steuerentstehung",
+      stufen: [
+        { stufe: "19.6.", text: "Vorausrechnung 100.000 € + 19.000 € USt", norm: "Rechnung", ton: "neutral" },
+        { stufe: "2.7.", text: "Zahlung 25.000 € vor Leistungsausführung", norm: "§ 13 Abs. 1 Nr. 1 Buchst. a UStG", ton: "tinte", ergebnis: "3.991,60 € USt · VAZ 07" },
+        { stufe: "31.8.", text: "Abnahme der Halle = Leistungsausführung", norm: "Werklieferung", ton: "gruen", ergebnis: "15.008,40 € USt · VAZ 08" },
+        { stufe: "2.9.", text: "Zahlung nach bereits ausgeführter Leistung", norm: "kein neuer Entstehungszeitpunkt", ton: "orange" },
+      ],
+      legende: "Teil 2, Lösung S. 98–128: Die Septemberzahlung ist für die Steuerentstehung gestrichen. Die Steuerbeträge 3.991,60 € und 15.008,40 € bleiben exakt wie in der Quelle.",
     },
   ],
 };
@@ -221,7 +287,7 @@ export default function K1Campus({ onKlausurwechsel }) {
   const [navIndex, setNavIndex] = useState(0);
   const scrollWiederherstellen = useRef(null);
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
-  const fortschritt = useFortschritt("stb-k1-ust-erledigt", fallIds);
+  const fortschritt = useFortschritt("stb-k1-ust-erledigt", inhaltIds);
   const erledigt = fortschritt.werte;
 
   useEffect(() => {
@@ -248,11 +314,12 @@ export default function K1Campus({ onKlausurwechsel }) {
 
   const gefiltert = useMemo(() => {
     const q = suche.trim().toLowerCase();
-    if (!q) return k1UstFaelle;
-    return k1UstFaelle.filter((m) => [
+    if (!q) return k1UstInhalte;
+    return k1UstInhalte.filter((m) => [
       m.title,
       m.law,
       m.difficulty,
+      m.area,
       ...(m.intro || []),
       ...(m.goals || []),
       ...(m.scheme || []),
@@ -266,8 +333,8 @@ export default function K1Campus({ onKlausurwechsel }) {
     ].filter(Boolean).join(" ").toLowerCase().includes(q));
   }, [suche]);
 
-  const fall = fallId ? k1UstFaelle.find((m) => m.id === fallId) : null;
-  const quote = anteil(erledigt.length, k1UstFaelle.length);
+  const fall = fallId ? k1UstInhalte.find((m) => m.id === fallId) : null;
+  const quote = anteil(erledigt.length, k1UstInhalte.length);
 
   const ort = () => ({
     ansicht,
@@ -391,8 +458,8 @@ export default function K1Campus({ onKlausurwechsel }) {
           <input
             type="search"
             value={suche}
-            placeholder="USt-Fall, Norm oder Stichwort suchen"
-            aria-label="Umsatzsteuer-Fälle durchsuchen"
+            placeholder="USt-Fall, Modul, Norm oder Stichwort suchen"
+            aria-label="Umsatzsteuer-Inhalte durchsuchen"
             onChange={(e) => {
               setSuche(e.target.value);
               if (ansicht !== "module" || fallId !== null) ansichtOeffnen("module");
@@ -440,13 +507,13 @@ export default function K1Campus({ onKlausurwechsel }) {
         </nav>
         <div className="rail__box">
           <b>USt-Fortschritt</b>
-          <strong>{erledigt.length} / {k1UstFaelle.length}</strong>
-          <p>Originalfälle als bearbeitet markiert</p>
+          <strong>{erledigt.length} / {k1UstInhalte.length}</strong>
+          <p>Fälle und Lernmodule als bearbeitet markiert</p>
           {erledigt.length > 0 && (
             <button
               className="rail__box-reset"
               onClick={() => {
-                if (window.confirm("Bearbeitungsstand der USt-Fälle zurücksetzen?")) fortschritt.zuruecksetzen();
+                if (window.confirm("Bearbeitungsstand der USt-Inhalte zurücksetzen?")) fortschritt.zuruecksetzen();
               }}
             >
               zurücksetzen
@@ -485,7 +552,8 @@ export default function K1Campus({ onKlausurwechsel }) {
 }
 
 function K1Cockpit({ quote, erledigt, oeffnen, ansichtOeffnen, schemaOeffnen }) {
-  const naechstes = k1UstFaelle.find((m) => !erledigt.includes(m.id)) || k1UstFaelle[0];
+  const naechstes = k1UstInhalte.find((m) => !erledigt.includes(m.id)) || k1UstInhalte[0];
+  const typ = naechstes.area === "Fall" ? "Originalfall" : "Lernmodul";
   return (
     <>
       <div className="cockpit">
@@ -493,8 +561,8 @@ function K1Cockpit({ quote, erledigt, oeffnen, ansichtOeffnen, schemaOeffnen }) 
           <span className="kicker">Klausur 1 · andere Steuerarten · Umsatzsteuer</span>
           <h2>Umsatzsteuer systematisch: <em>Steuerbarkeit bis Vorsteuer.</em></h2>
           <p>
-            Die erste USt-Einheit ist vollständig in Klausur 1 eingeordnet: {k1UstFaelle.length} Originalfälle aus der
-            Mitschrift mit Normketten, Prüfungsschemata, konkreten Zahlen und vollständigen Lösungswegen.
+            Die USt-Einheiten 1 und 2 sind in Klausur 1 eingeordnet: {k1UstFaelle.length} Originalfälle und {k1UstModule.length} Lernmodule
+            mit Normketten, Prüfungsschemata, konkreten Zahlen und vollständigen Lösungswegen.
           </p>
           <div className="these__aktionen">
             <button className="btn" onClick={() => oeffnen(naechstes.id)}>Weiterlernen</button>
@@ -505,14 +573,14 @@ function K1Cockpit({ quote, erledigt, oeffnen, ansichtOeffnen, schemaOeffnen }) 
         <section className="panel fortschritt">
           <div className="ring" style={{ "--p": `${quote}%` }}><b>{quote}%</b></div>
           <h3>Bearbeitungsstand</h3>
-          <p>{erledigt.length} von {k1UstFaelle.length} Fällen abgehakt</p>
+          <p>{erledigt.length} von {k1UstInhalte.length} Inhalten abgehakt</p>
         </section>
       </div>
 
       <section className="abschnitt">
-        <span className="kicker">Weiter in der USt-Einheit</span>
+        <span className="kicker">Weiter im USt-Stoff</span>
         <button className="weiter" onClick={() => oeffnen(naechstes.id)}>
-          <span className="kicker">Originalfall {naechstes.id} · {naechstes.difficulty}</span>
+          <span className="kicker">{typ} {naechstes.id} · {naechstes.difficulty}</span>
           <h3>{naechstes.title}</h3>
           <p>{naechstes.intro[0]}</p>
           <span className="norm">{naechstes.law}</span>
@@ -544,15 +612,16 @@ function K1Liste({ liste, suche, erledigt, umschalten, oeffnen, schemaOeffnen })
       <div className="pagehead">
         <div>
           <span className="kicker">Klausur 1 · Umsatzsteuer</span>
-          <h1>{suche ? `Treffer für „${suche}“` : "USt-Einheit 1"}</h1>
-          <p className="lead">Die 13 Sachverhalte der Mitschrift sind ausschließlich hier in Klausur 1 eingeordnet.</p>
+          <h1>{suche ? `Treffer für „${suche}“` : "USt-Einheiten 1–2"}</h1>
+          <p className="lead">Originalfälle und systematische Lernmodule aus beiden Einheiten sind ausschließlich hier in Klausur 1 eingeordnet.</p>
         </div>
-        <span className="zaehler">{liste.length} Fälle</span>
+        <span className="zaehler">{liste.length} Inhalte</span>
       </div>
 
       <div className="modules">
         {liste.map((m) => {
           const fertig = erledigt.includes(m.id);
+          const typ = m.area === "Fall" ? "Fall" : "Lernmodul";
           return (
             <div
               key={m.id}
@@ -576,7 +645,7 @@ function K1Liste({ liste, suche, erledigt, umschalten, oeffnen, schemaOeffnen })
               <div>
                 <div className="modul__kopf">
                   <span>Umsatzsteuer</span>
-                  <span>Fall {m.id}</span>
+                  <span>{typ} {m.id}</span>
                   <span>{m.difficulty}</span>
                   <span>{m.minutes} Min.</span>
                 </div>
@@ -605,9 +674,12 @@ function Tz({ nummer, label, titel, art, children }) {
 
 function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOeffnen }) {
   const fertig = erledigt.includes(m.id);
-  const index = k1UstFaelle.findIndex((x) => x.id === m.id);
-  const vorher = k1UstFaelle[index - 1];
-  const nachher = k1UstFaelle[index + 1];
+  const index = k1UstInhalte.findIndex((x) => x.id === m.id);
+  const vorher = k1UstInhalte[index - 1];
+  const nachher = k1UstInhalte[index + 1];
+  const istFall = m.area === "Fall";
+  const typ = istFall ? "Originalfall" : "Lernmodul";
+  const kurzTyp = istFall ? "Fall" : "Modul";
   let tz = 0;
   const n = () => ++tz;
 
@@ -616,7 +688,7 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOe
       <button className="zurueck" onClick={zurueck}>← Zurück zur USt-Übersicht</button>
       <header className="lesson__kopf">
         <div>
-          <span className="kicker">Klausur 1 · Umsatzsteuer · Originalfall {m.id}</span>
+          <span className="kicker">Klausur 1 · Umsatzsteuer · {typ} {m.id}</span>
           <h1>{m.title}</h1>
           <div className="tags">
             <span className="tag tag--fach">{m.difficulty}</span>
@@ -648,9 +720,9 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOe
       </Tz>
 
       {m.example && (
-        <Tz nummer={n()} label="Originalfall" titel={m.example.title} art="bewertung">
+        <Tz nummer={n()} label={istFall ? "Originalfall" : "Vertiefung"} titel={m.example.title} art="bewertung">
           <div className="fall">
-            <div className="fall__block fall__sachverhalt"><b>Sachverhalt</b><VerlinkterText as="p" text={m.example.facts} onOpen={schemaOeffnen} compact /></div>
+            <div className="fall__block fall__sachverhalt"><b>{istFall ? "Sachverhalt" : "Ausgangspunkt"}</b><VerlinkterText as="p" text={m.example.facts} onOpen={schemaOeffnen} compact /></div>
             <Loesungsblock m={m} onSchema={schemaOeffnen} />
             <div className="fall__block fall__ergebnis"><b>Ergebnis</b><VerlinkterText as="p" text={m.example.result} onOpen={schemaOeffnen} compact /></div>
           </div>
@@ -664,8 +736,8 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOe
       </Tz>
 
       <nav className="blaettern">
-        {vorher ? <button onClick={() => oeffnen(vorher.id)}><small>← Fall {vorher.id}</small><strong>{vorher.title}</strong></button> : <span />}
-        {nachher ? <button onClick={() => oeffnen(nachher.id)}><small>Fall {nachher.id} →</small><strong>{nachher.title}</strong></button> : <span />}
+        {vorher ? <button onClick={() => oeffnen(vorher.id)}><small>← {vorher.area === "Fall" ? "Fall" : "Modul"} {vorher.id}</small><strong>{vorher.title}</strong></button> : <span />}
+        {nachher ? <button onClick={() => oeffnen(nachher.id)}><small>{nachher.area === "Fall" ? "Fall" : "Modul"} {nachher.id} →</small><strong>{nachher.title}</strong></button> : <span />}
       </nav>
     </article>
   );
@@ -677,8 +749,8 @@ function K1Originalfaelle({ oeffnen, schemaOeffnen }) {
       <div className="pagehead">
         <div>
           <span className="kicker">Klausur 1 · Fallsammlung</span>
-          <h1>Originalfälle der USt-Mitschrift</h1>
-          <p className="lead">Sachverhalt, vollständige Lösung, Lösungsskizzen und zitierte Normen sind direkt in jeder Fallkarte aufklappbar.</p>
+          <h1>Originalfälle der USt-Mitschriften</h1>
+          <p className="lead">Sachverhalt, Aufgabenstellung, vollständige Lösung, Lösungsskizzen und zitierte Normen sind direkt in jeder Fallkarte aufklappbar.</p>
         </div>
         <span className="zaehler">{k1UstFaelle.length} Fälle</span>
       </div>
