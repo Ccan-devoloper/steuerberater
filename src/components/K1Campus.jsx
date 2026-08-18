@@ -1,10 +1,12 @@
 import React, { useEffect, useMemo, useState } from "react";
 import k1UstFaelle from "../data/module-vertiefung-m.js";
 import Schaubild from "./Schaubild";
-import { Normkette, Notiz } from "./Bausteine";
+import UstPruefschema from "./UstPruefschema";
+import { Notiz } from "./Bausteine";
+import { SchemaVerweise, VerlinkteNormkette, VerlinkterText, grundschema } from "./K1SchemaLinks";
 import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
 import {
-  IconCockpit, IconModule, IconFaelle, IconSuche, IconSonne, IconMond, IconHaken,
+  IconCockpit, IconModule, IconFaelle, IconSchema, IconSuche, IconSonne, IconMond, IconHaken,
 } from "./Icons";
 import "./kst.css";
 
@@ -13,6 +15,7 @@ const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
+  { id: "schema", label: "Prüfschema", Icon: IconSchema },
 ];
 
 /* Skizzen aus der handschriftlichen Mitschrift. Die Darstellung übernimmt
@@ -187,16 +190,20 @@ function Loesungsskizzen({ fallId }) {
   );
 }
 
-function Loesungsblock({ m }) {
+function Loesungsblock({ m, onSchema }) {
   return (
     <div className="fall__block">
       <b>Lösung</b>
-      <ol>{(m.example?.solution || []).map((s, i) => <li key={i}>{s}</li>)}</ol>
+      <ol>
+        {(m.example?.solution || []).map((s, i) => (
+          <li key={i}><VerlinkterText text={s} onOpen={onSchema} compact /></li>
+        ))}
+      </ol>
       <Loesungsskizzen fallId={m.id} />
       {(m.normchain || []).length > 0 && (
         <div>
           <b>Normen der Lösung</b>
-          <Normkette normen={m.normchain} />
+          <VerlinkteNormkette normen={m.normchain} onOpen={onSchema} />
         </div>
       )}
     </div>
@@ -207,6 +214,7 @@ export default function K1Campus({ onKlausurwechsel }) {
   const [ansicht, setAnsicht] = useState("cockpit");
   const [fallId, setFallId] = useState(null);
   const [suche, setSuche] = useState("");
+  const [schemaZiel, setSchemaZiel] = useState(null);
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
   const fortschritt = useFortschritt("stb-k1-ust-erledigt", fallIds);
   const erledigt = fortschritt.werte;
@@ -219,6 +227,14 @@ export default function K1Campus({ onKlausurwechsel }) {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "auto" });
   }, [ansicht, fallId]);
+
+  useEffect(() => {
+    if (ansicht !== "schema" || !schemaZiel) return;
+    const timer = window.setTimeout(() => {
+      document.getElementById(schemaZiel)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [ansicht, schemaZiel]);
 
   const gefiltert = useMemo(() => {
     const q = suche.trim().toLowerCase();
@@ -245,6 +261,11 @@ export default function K1Campus({ onKlausurwechsel }) {
   const oeffnen = (id) => {
     setFallId(id);
     setAnsicht("module");
+  };
+  const schemaOeffnen = (ziel = "schema-architektur") => {
+    setSchemaZiel(ziel);
+    setFallId(null);
+    setAnsicht("schema");
   };
 
   return (
@@ -304,7 +325,7 @@ export default function K1Campus({ onKlausurwechsel }) {
               key={id}
               className="rail__link"
               aria-current={ansicht === id ? "true" : undefined}
-              onClick={() => { setAnsicht(id); setFallId(null); }}
+              onClick={() => { setAnsicht(id); setFallId(null); setSchemaZiel(null); }}
             >
               <Icon />
               {label}
@@ -329,7 +350,7 @@ export default function K1Campus({ onKlausurwechsel }) {
       </aside>
 
       <main className="page">
-        {ansicht === "cockpit" && <K1Cockpit quote={quote} erledigt={erledigt} oeffnen={oeffnen} setAnsicht={setAnsicht} />}
+        {ansicht === "cockpit" && <K1Cockpit quote={quote} erledigt={erledigt} oeffnen={oeffnen} setAnsicht={setAnsicht} schemaOeffnen={schemaOeffnen} />}
         {ansicht === "module" && !fall && (
           <K1Liste
             liste={gefiltert}
@@ -337,6 +358,7 @@ export default function K1Campus({ onKlausurwechsel }) {
             erledigt={erledigt}
             umschalten={fortschritt.umschalten}
             oeffnen={oeffnen}
+            schemaOeffnen={schemaOeffnen}
           />
         )}
         {ansicht === "module" && fall && (
@@ -346,15 +368,17 @@ export default function K1Campus({ onKlausurwechsel }) {
             umschalten={fortschritt.umschalten}
             zurueck={() => setFallId(null)}
             oeffnen={oeffnen}
+            schemaOeffnen={schemaOeffnen}
           />
         )}
-        {ansicht === "faelle" && <K1Originalfaelle oeffnen={oeffnen} />}
+        {ansicht === "faelle" && <K1Originalfaelle oeffnen={oeffnen} schemaOeffnen={schemaOeffnen} />}
+        {ansicht === "schema" && <UstPruefschema />}
       </main>
     </div>
   );
 }
 
-function K1Cockpit({ quote, erledigt, oeffnen, setAnsicht }) {
+function K1Cockpit({ quote, erledigt, oeffnen, setAnsicht, schemaOeffnen }) {
   const naechstes = k1UstFaelle.find((m) => !erledigt.includes(m.id)) || k1UstFaelle[0];
   return (
     <>
@@ -369,6 +393,7 @@ function K1Cockpit({ quote, erledigt, oeffnen, setAnsicht }) {
           <div className="these__aktionen">
             <button className="btn" onClick={() => oeffnen(naechstes.id)}>Weiterlernen</button>
             <button className="btn btn--linie" onClick={() => setAnsicht("faelle")}>Originalfälle öffnen</button>
+            <button className="btn btn--linie" onClick={() => schemaOeffnen("schema-architektur")}>Prüfschema öffnen</button>
           </div>
         </section>
         <section className="panel fortschritt">
@@ -386,23 +411,20 @@ function K1Cockpit({ quote, erledigt, oeffnen, setAnsicht }) {
           <p>{naechstes.intro[0]}</p>
           <span className="norm">{naechstes.law}</span>
         </button>
+        <SchemaVerweise text={naechstes.law} onOpen={schemaOeffnen} />
       </section>
 
       <section className="abschnitt">
-        <h2>USt-Grundschema der Mitschrift</h2>
+        <div className="kst-abschnitt-kopf">
+          <h2>USt-Grundschema der Mitschrift</h2>
+          <button className="kst-schema-alle" onClick={() => schemaOeffnen("schema-architektur")}>Gesamtes Prüfschema ↗</button>
+        </div>
         <div className="kst-pruefpfad">
-          {[
-            ["1", "Steuerbarkeit", "§ 1 UStG"],
-            ["2", "Steuerbefreiung", "§§ 4–9 UStG"],
-            ["3", "Steuersatz", "§ 12 UStG"],
-            ["4", "Bemessungsgrundlage", "§ 10 UStG"],
-            ["5", "Steuerentstehung", "§ 13 UStG"],
-            ["6", "Vorsteuerabzug", "§ 15 UStG"],
-          ].map(([nummer, titel, text]) => (
-            <div className="kst-pruefpfad__stufe" key={nummer}>
+          {grundschema.map(([nummer, titel, text, ziel]) => (
+            <button className="kst-pruefpfad__stufe" key={nummer} onClick={() => schemaOeffnen(ziel)}>
               <b>{nummer}</b>
-              <div><h3>{titel}</h3><p>{text}</p></div>
-            </div>
+              <div><h3>{titel}</h3><p>{text}</p><small>im Prüfschema ↗</small></div>
+            </button>
           ))}
         </div>
       </section>
@@ -410,7 +432,7 @@ function K1Cockpit({ quote, erledigt, oeffnen, setAnsicht }) {
   );
 }
 
-function K1Liste({ liste, suche, erledigt, umschalten, oeffnen }) {
+function K1Liste({ liste, suche, erledigt, umschalten, oeffnen, schemaOeffnen }) {
   return (
     <>
       <div className="pagehead">
@@ -454,6 +476,7 @@ function K1Liste({ liste, suche, erledigt, umschalten, oeffnen }) {
                 </div>
                 <h3>{m.title}</h3>
                 <div className="modul__norm">{m.law}</div>
+                <SchemaVerweise text={m.law} onOpen={schemaOeffnen} compact stopPropagation />
               </div>
               <span className="modul__an">öffnen →</span>
             </div>
@@ -474,7 +497,7 @@ function Tz({ nummer, label, titel, art, children }) {
   );
 }
 
-function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen }) {
+function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOeffnen }) {
   const fertig = erledigt.includes(m.id);
   const index = k1UstFaelle.findIndex((x) => x.id === m.id);
   const vorher = k1UstFaelle[index - 1];
@@ -494,6 +517,7 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen }) {
             <span className="tag">{m.minutes} Minuten</span>
             <span className="tag">{m.law}</span>
           </div>
+          <SchemaVerweise text={m.law} onOpen={schemaOeffnen} />
         </div>
         <button className="gemeistert" aria-pressed={fertig} onClick={() => umschalten(m.id)}>
           {fertig ? "✓ bearbeitet" : "Als bearbeitet markieren"}
@@ -501,36 +525,36 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen }) {
       </header>
 
       <Tz nummer={n()} label="Einordnung" titel="Worum es geht">
-        {(m.intro || []).map((p, i) => <p key={i}>{p}</p>)}
+        {(m.intro || []).map((p, i) => <VerlinkterText key={i} as="p" text={p} onOpen={schemaOeffnen} compact />)}
       </Tz>
 
       <Tz nummer={n()} label="Lernziele" titel="Das können Sie danach">
-        <ul className="liste liste--haken">{(m.goals || []).map((g, i) => <li key={i}>{g}</li>)}</ul>
+        <ul className="liste liste--haken">{(m.goals || []).map((g, i) => <li key={i}><VerlinkterText text={g} onOpen={schemaOeffnen} compact /></li>)}</ul>
       </Tz>
 
       <Tz nummer={n()} label="Schema" titel="Prüfungsreihenfolge" art="ansatz">
-        <ol className="schritte">{(m.scheme || []).map((s, i) => <li key={i}><span>{s}</span></li>)}</ol>
+        <ol className="schritte">{(m.scheme || []).map((s, i) => <li key={i}><VerlinkterText text={s} onOpen={schemaOeffnen} compact /></li>)}</ol>
         {m.diagram && <Schaubild id={m.diagram} />}
       </Tz>
 
       <Tz nummer={n()} label="Normen" titel="Normenkette für die Klausur">
-        <Normkette normen={m.normchain || []} />
+        <VerlinkteNormkette normen={m.normchain || []} onOpen={schemaOeffnen} />
       </Tz>
 
       {m.example && (
         <Tz nummer={n()} label="Originalfall" titel={m.example.title} art="bewertung">
           <div className="fall">
-            <div className="fall__block fall__sachverhalt"><b>Sachverhalt</b><p>{m.example.facts}</p></div>
-            <Loesungsblock m={m} />
-            <div className="fall__block fall__ergebnis"><b>Ergebnis</b><p>{m.example.result}</p></div>
+            <div className="fall__block fall__sachverhalt"><b>Sachverhalt</b><VerlinkterText as="p" text={m.example.facts} onOpen={schemaOeffnen} compact /></div>
+            <Loesungsblock m={m} onSchema={schemaOeffnen} />
+            <div className="fall__block fall__ergebnis"><b>Ergebnis</b><VerlinkterText as="p" text={m.example.result} onOpen={schemaOeffnen} compact /></div>
           </div>
         </Tz>
       )}
 
       <Tz nummer={n()} label="Sichern" titel="Merksatz, Prüfungsrelevanz und Fallen">
-        <Notiz><p>{m.merksatz}</p></Notiz>
-        {m.exam?.length > 0 && <Notiz art="exkurs" titel="Prüfungsrelevanz"><ul className="liste">{m.exam.map((e, i) => <li key={i}>{e}</li>)}</ul></Notiz>}
-        {m.traps?.length > 0 && <Notiz art="falle"><ul>{m.traps.map((t, i) => <li key={i}>{t}</li>)}</ul></Notiz>}
+        <Notiz><VerlinkterText as="p" text={m.merksatz} onOpen={schemaOeffnen} compact /></Notiz>
+        {m.exam?.length > 0 && <Notiz art="exkurs" titel="Prüfungsrelevanz"><ul className="liste">{m.exam.map((e, i) => <li key={i}><VerlinkterText text={e} onOpen={schemaOeffnen} compact /></li>)}</ul></Notiz>}
+        {m.traps?.length > 0 && <Notiz art="falle"><ul>{m.traps.map((t, i) => <li key={i}><VerlinkterText text={t} onOpen={schemaOeffnen} compact /></li>)}</ul></Notiz>}
       </Tz>
 
       <nav className="blaettern">
@@ -541,7 +565,7 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen }) {
   );
 }
 
-function K1Originalfaelle({ oeffnen }) {
+function K1Originalfaelle({ oeffnen, schemaOeffnen }) {
   return (
     <>
       <div className="pagehead">
@@ -560,15 +584,16 @@ function K1Originalfaelle({ oeffnen }) {
               <button className="btn btn--klein btn--linie" onClick={() => oeffnen(m.id)}>Fall öffnen</button>
             </div>
             <p className="kst-fallquelle">{m.law}</p>
+            <SchemaVerweise text={m.law} onOpen={schemaOeffnen} compact />
             <div className="kst-sachverhalt">
               <b>Sachverhalt</b>
-              <p>{m.example?.facts}</p>
+              <VerlinkterText as="p" text={m.example?.facts} onOpen={schemaOeffnen} compact />
             </div>
             <details>
               <summary>Lösung anzeigen</summary>
               <div className="fall">
-                <Loesungsblock m={m} />
-                <div className="fall__block fall__ergebnis"><b>Ergebnis</b><p>{m.example?.result}</p></div>
+                <Loesungsblock m={m} onSchema={schemaOeffnen} />
+                <div className="fall__block fall__ergebnis"><b>Ergebnis</b><VerlinkterText as="p" text={m.example?.result} onOpen={schemaOeffnen} compact /></div>
               </div>
             </details>
           </article>
