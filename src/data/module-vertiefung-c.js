@@ -8,6 +8,7 @@ export default [
     intro: [
       "Wird ein zu mehr als 50 % betrieblich genutzter Pkw auch privat verwendet, bleibt das Fahrzeug notwendiges Betriebsvermögen. Die Privatfahrten werden nicht durch eine anteilige Ausbuchung, sondern durch eine Nutzungsentnahme nach § 4 Abs. 1 S. 2 EStG erfasst.",
       "Beim reinen Elektrofahrzeug führen Einkommensteuer und Umsatzsteuer zu unterschiedlichen Bemessungsgrundlagen. Im Mitschriftsfall wird der Bruttolistenpreis von 82.220 € für die 1-%-Methode zunächst auf volle hundert Euro abgerundet und anschließend halbiert; bei der unentgeltlichen Wertabgabe wird dagegen nicht halbiert, sondern ein Abschlag von 20 % vorgenommen.",
+      "Ob halbiert oder geviertelt wird, entscheidet die Bruttolistenpreisgrenze im Anschaffungszeitpunkt: Für Anschaffungen bis zum 30.6.2025 gilt die Viertelung nur bis 70.000 €, für Anschaffungen nach dem 30.6.2025 wurde die Grenze durch das Investitionssofortprogramm vom Juli 2025 auf 100.000 € angehoben – ein Fahrzeug mit 82.220 € Listenpreis würde dann geviertelt statt halbiert.",
     ],
     goals: [
       "die private Pkw-Nutzung als Nutzungsentnahme erfassen",
@@ -17,7 +18,7 @@ export default [
     ],
     scheme: [
       "Betriebliche Nutzung von mehr als 50 % feststellen.",
-      "Bruttolistenpreis und Fahrzeugart prüfen.",
+      "Bruttolistenpreis, Fahrzeugart und Anschaffungsdatum prüfen (Viertelungsgrenze 70.000 € bis 30.6.2025, danach 100.000 €).",
       "Ertragsteuer: begünstigten Listenpreis bestimmen, abrunden und 1 % je Monat ansetzen.",
       "Umsatzsteuer: keine Halbierung; 20-%-Abschlag und anschließend 19 % Umsatzsteuer.",
       "Entnahme mit ertragsteuerlichem Nutzungswert zuzüglich Umsatzsteuer buchen.",
@@ -28,7 +29,7 @@ export default [
     ],
     example: {
       title: "Elektro-Pkw mit Bruttolistenpreis 82.220 €",
-      facts: "MN nutzt einen reinen Elektro-Pkw des notwendigen Betriebsvermögens ganzjährig auch privat. Der Bruttolistenpreis beträgt 82.220 € und liegt über 70.000 €. Ein Fahrtenbuch wird nicht geführt.",
+      facts: "MN nutzt einen reinen Elektro-Pkw des notwendigen Betriebsvermögens (Anschaffung im Dezember 2024) ganzjährig auch privat. Der Bruttolistenpreis beträgt 82.220 € und liegt über der für Anschaffungen bis zum 30.6.2025 maßgeblichen Viertelungsgrenze von 70.000 €; es bleibt bei der Halbierung. Ein Fahrtenbuch wird nicht geführt.",
       solution: [
         "Nutzungsentnahme nach § 4 Abs. 1 S. 2 EStG.",
         "Ertragsteuer: 82.220 € → 82.200 € (Abrundung auf volle hundert Euro nach § 6 Abs. 1 Nr. 4 S. 2 EStG) → 41.100 € (Halbierung).",
@@ -51,11 +52,13 @@ export default [
     merksatz: "Beim Elektro-Pkw die ertragsteuerliche Begünstigung nicht in die Umsatzsteuer übernehmen: Einkommensteuer halbiert, Umsatzsteuer mit 20-%-Abschlag.",
     exam: [
       "Die zwei Bemessungsgrundlagen sind getrennt herzuleiten und erst in der Entnahmebuchung zusammenzuführen.",
+      "Seit Juli 2025 zusätzlich prüfbar: Viertelung bei Bruttolistenpreis bis 100.000 € für Anschaffungen nach dem 30.6.2025 (§ 6 Abs. 1 Nr. 4 S. 2 Nr. 3 EStG) sowie die 75-%-Staffel-AfA nach § 7 Abs. 2a EStG.",
     ],
     traps: [
       "Den Bruttolistenpreis auch für die Umsatzsteuer halbieren.",
       "Die Umsatzsteuer auf 4.932 € statt auf 7.891 € berechnen.",
       "Die Privatnutzung durch anteilige Ausbuchung des Pkw erfassen.",
+      "Bei Anschaffungen nach dem 30.6.2025 die alte 70.000-€-Grenze anwenden – seitdem gilt 100.000 €, sodass häufig geviertelt statt halbiert wird.",
     ],
     sourceIds: ["estg", "estr4", "bstbk24"],
   },

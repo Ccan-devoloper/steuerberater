@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { kstBereiche, kstBereichName, kstModule, kstQuellen, kstSchemata } from "../data/kst-module";
 import { kstFaelle } from "../data/kst-faelle";
 import { kstKarteikarten, kstQuizfragen } from "../data/kst-lernstoff";
+import { REDAKTIONSSTAND } from "../data/redaktion";
 import { Normkette, Notiz } from "./Bausteine";
 import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
 import { erfasseSeitenzustand, stelleSeitenzustandWiederHer } from "../lib/campus-navigation";
@@ -150,10 +151,10 @@ export default function KstCampus({ onKlausurwechsel }) {
     <div className="kst-campus">
       <header className="topbar">
         <button className="brand" onClick={() => ansichtOeffnen("cockpit")}>
-          <span className="brand__mark">K</span>
+          <span className="brand__mark">2</span>
           <span className="brand__text">
-            <strong>Examenscampus Körperschaftsteuer</strong>
-            <span>Klausur 2 · Ertragsteuerrecht · KSt</span>
+            <strong>Examenscampus Klausur 2</strong>
+            <span>Ertragsteuerrecht · Körperschaftsteuer</span>
           </span>
         </button>
         <div role="group" aria-label="Navigation in Klausur 2" style={{ display: "flex", gap: 4 }}>
@@ -185,9 +186,14 @@ export default function KstCampus({ onKlausurwechsel }) {
       </header>
 
       <nav className="klausuren" aria-label="Klausuren des schriftlichen Examens">
-        <button className="klausur" disabled>
+        <button
+          className="klausur"
+          onClick={onKlausurwechsel ? () => onKlausurwechsel("k1") : undefined}
+          disabled={!onKlausurwechsel}
+          title={onKlausurwechsel ? "Klausur 1 öffnen" : undefined}
+        >
           <b>K1</b>
-          <span><strong>Verfahrensrecht</strong> <small>und andere Steuerarten</small></span>
+          <span><strong>Verfahrensrecht</strong> <small>USt verfügbar · AO/ErbSt folgen</small></span>
         </button>
         <button className="klausur" aria-current="true" onClick={() => ansichtOeffnen("cockpit")}>
           <b>K2</b>
@@ -277,11 +283,11 @@ function KstCockpit({ quote, erledigt, oeffnen, ansichtOeffnen, bereichOeffnen }
     <>
       <div className="cockpit">
         <section className="these kst-these">
-          <span className="kicker">Klausur 2 · KSt-Teil · Ausbaustufe 1</span>
+          <span className="kicker">Klausur 2 · KSt-Teil</span>
           <h2>Immer zwei Ebenen: <em>Gesellschaft und Gesellschafter.</em></h2>
           <p>
-            Die erste KSt-Ausbaustufe übernimmt die hochgeladenen Schemata, Mitschriften und den vollständigen
-            Gründungsfall in die Struktur der Klausur-3-Plattform: {kstModule.length} Module, {kstFaelle.length} Fälle,
+            Der KSt-Campus übernimmt die hochgeladenen Schemata, Mitschriften und den vollständigen
+            Gründungsfall in die gemeinsame Campus-Struktur: {kstModule.length} Module, {kstFaelle.length} Fälle,
             feste Normketten, Prüfungsschemata und Training. Weitere Unterlagen lassen sich datengetrieben ergänzen.
           </p>
           <div className="these__aktionen">
@@ -496,7 +502,7 @@ function KstModulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen }) {
 
       <Tz nummer={n()} label="Quellen" titel="Verarbeitete Unterlagen">
         <ul className="kst-quellenliste">{m.sources.map((s) => <li key={s}>{s}</li>)}</ul>
-        <p className="rechtsstand">Redaktionelle Ausbaustufe: 05.08.2026. Inhaltlich auf die hochgeladenen Unterlagen beschränkt; weitere Dokumente können als zusätzliche Module und Fälle ergänzt werden.</p>
+        <p className="rechtsstand">Redaktionsstand: {REDAKTIONSSTAND}. Inhaltlich auf die hochgeladenen Unterlagen beschränkt; weitere Dokumente können als zusätzliche Module und Fälle ergänzt werden.</p>
       </Tz>
 
       <nav className="blaettern">
@@ -592,7 +598,7 @@ function KstTraining() {
   return (
     <>
       <div className="pagehead">
-        <div><span className="kicker">Training</span><h1>Quiz und Karteikarten</h1><p className="lead">Die Fragen prüfen ausschließlich Inhalte der ersten KSt-Ausbaustufe.</p></div>
+        <div><span className="kicker">Training</span><h1>Quiz und Karteikarten</h1><p className="lead">Die Fragen prüfen ausschließlich Inhalte der eingearbeiteten KSt-Einheiten.</p></div>
         <span className="zaehler">{punkte} richtige Antworten</span>
       </div>
 

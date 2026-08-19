@@ -479,7 +479,7 @@ export default function K1Campus({ onKlausurwechsel }) {
       <nav className="klausuren" aria-label="Klausuren des schriftlichen Examens">
         <button className="klausur" aria-current="true" onClick={() => ansichtOeffnen("cockpit")}>
           <b>K1</b>
-          <span><strong>Verfahrensrecht</strong> <small>USt verfügbar · weitere Steuerarten folgen</small></span>
+          <span><strong>Verfahrensrecht</strong> <small>USt verfügbar · AO/ErbSt folgen</small></span>
         </button>
         <button className="klausur" onClick={() => onKlausurwechsel("kst")}>
           <b>K2</b>
@@ -561,7 +561,7 @@ function K1Cockpit({ quote, erledigt, oeffnen, ansichtOeffnen, schemaOeffnen }) 
           <span className="kicker">Klausur 1 · andere Steuerarten · Umsatzsteuer</span>
           <h2>Umsatzsteuer systematisch: <em>Steuerbarkeit bis Vorsteuer.</em></h2>
           <p>
-            Die USt-Einheiten 1 und 2 sind in Klausur 1 eingeordnet: {k1UstFaelle.length} Originalfälle und {k1UstModule.length} Lernmodule
+            Die USt-Einheiten 1–8 sind in Klausur 1 eingeordnet: {k1UstFaelle.length} Originalfälle und {k1UstModule.length} Lernmodule
             mit Normketten, Prüfungsschemata, konkreten Zahlen und vollständigen Lösungswegen.
           </p>
           <div className="these__aktionen">
@@ -612,7 +612,7 @@ function K1Liste({ liste, suche, erledigt, umschalten, oeffnen, schemaOeffnen })
       <div className="pagehead">
         <div>
           <span className="kicker">Klausur 1 · Umsatzsteuer</span>
-          <h1>{suche ? `Treffer für „${suche}“` : "USt-Einheiten 1–2"}</h1>
+          <h1>{suche ? `Treffer für „${suche}“` : "USt-Einheiten 1–8"}</h1>
           <p className="lead">Originalfälle und systematische Lernmodule aus beiden Einheiten sind ausschließlich hier in Klausur 1 eingeordnet.</p>
         </div>
         <span className="zaehler">{liste.length} Inhalte</span>

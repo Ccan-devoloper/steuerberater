@@ -1,7 +1,7 @@
 /* Körperschaftsteuer-Ausbaustufe: Ergänzungen zum bestehenden Designsystem. */
 .kst-campus .brand__mark { border-color: var(--marker); color: var(--marker); }
-.kst-campus .kst-these { background: #172447; }
-html[data-theme="dark"] .kst-campus .kst-these { background: var(--feld); }
+/* Der Hero nutzt in allen drei Campussen die Basisregel von .these –
+   keine eigene Hintergrundfarbe mehr, damit K1, K2 und K3 identisch sind. */
 
 .kst-pruefpfad {
   display: grid;

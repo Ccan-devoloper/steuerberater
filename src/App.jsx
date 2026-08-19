@@ -191,10 +191,10 @@ export default function App({ onKlausurwechsel }) {
     <div>
       <header className="topbar">
         <button className="brand" onClick={() => ansichtOeffnen("cockpit")}>
-          <span className="brand__mark">B</span>
+          <span className="brand__mark">3</span>
           <span className="brand__text">
-            <strong>Examenscampus Bilanzen</strong>
-            <span>Klausur 3 · Buchführung und Bilanzwesen</span>
+            <strong>Examenscampus Klausur 3</strong>
+            <span>Buchführung und Bilanzwesen</span>
           </span>
         </button>
         <div role="group" aria-label="Navigation in Klausur 3" style={{ display: "flex", gap: 4 }}>
@@ -226,9 +226,14 @@ export default function App({ onKlausurwechsel }) {
       </header>
 
       <nav className="klausuren" aria-label="Klausuren des schriftlichen Examens">
-        <button className="klausur" disabled>
+        <button
+          className="klausur"
+          onClick={onKlausurwechsel ? () => onKlausurwechsel("k1") : undefined}
+          disabled={!onKlausurwechsel}
+          title={onKlausurwechsel ? "Klausur 1 öffnen" : undefined}
+        >
           <b>K1</b>
-          <span><strong>Verfahrensrecht</strong> <small>und andere Steuerarten</small></span>
+          <span><strong>Verfahrensrecht</strong> <small>USt verfügbar · AO/ErbSt folgen</small></span>
         </button>
         <button
           className="klausur"
@@ -237,10 +242,7 @@ export default function App({ onKlausurwechsel }) {
           title={onKlausurwechsel ? "Körperschaftsteuer-Campus öffnen" : undefined}
         >
           <b>K2</b>
-          <span>
-            <strong>Ertragsteuerrecht</strong>{" "}
-            <small>{onKlausurwechsel ? "ESt · KSt verfügbar · GewSt" : "ESt · KSt · GewSt"}</small>
-          </span>
+          <span><strong>Ertragsteuerrecht</strong> <small>KSt verfügbar · ESt/GewSt folgen</small></span>
         </button>
         <button className="klausur" aria-current="true" onClick={() => ansichtOeffnen("cockpit")}>
           <b>K3</b>
