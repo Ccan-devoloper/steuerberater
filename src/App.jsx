@@ -16,8 +16,9 @@ import { laden, sichern, useFortschritt, anteil } from "./lib/fortschritt";
 import { erfasseSeitenzustand, stelleSeitenzustandWiederHer } from "./lib/campus-navigation";
 import {
   IconCockpit, IconModule, IconSchema, IconFormel, IconRegister, IconTraining,
-  IconFaelle, IconPlan, IconSuche, IconSonne, IconMond, IconHaken,
+  IconFaelle, IconPlan, IconHaken,
 } from "./components/Icons";
+import { CampusTopbar, KlausurenLeiste } from "./components/CampusKopf";
 
 /* Gültige Kennungen für die Bereinigung des gespeicherten Fortschritts. */
 const modulIds = new Set(alleModule.map((m) => m.id));
@@ -189,66 +190,28 @@ export default function App({ onKlausurwechsel }) {
 
   return (
     <div>
-      <header className="topbar">
-        <button className="brand" onClick={() => ansichtOeffnen("cockpit")}>
-          <span className="brand__mark">3</span>
-          <span className="brand__text">
-            <strong>Examenscampus Klausur 3</strong>
-            <span>Buchführung und Bilanzwesen</span>
-          </span>
-        </button>
-        <div role="group" aria-label="Navigation in Klausur 3" style={{ display: "flex", gap: 4 }}>
-          <button type="button" className="iconbtn" onClick={navZurueck} disabled={navIndex <= 0} aria-label="Zurück zur vorherigen Seite" title="Zurück (Alt + Pfeil links)">←</button>
-          <button type="button" className="iconbtn" onClick={navVor} disabled={navIndex >= navVerlauf.length - 1} aria-label="Vor zur nächsten Seite" title="Vor (Alt + Pfeil rechts)">→</button>
-        </div>
-        <span className="topbar__spacer" />
-        <label className="search">
-          <IconSuche />
-          <input
-            type="search"
-            value={suche}
-            placeholder="Modul, Norm oder Stichwort suchen"
-            aria-label="Module durchsuchen"
-            onChange={(e) => {
-              setSuche(e.target.value);
-              if (ansicht !== "module" || modulId !== null) ansichtOeffnen("module");
-            }}
-          />
-        </label>
-        <button
-          className="iconbtn"
-          onClick={() => setDunkel((d) => !d)}
-          aria-label={dunkel ? "Helles Design" : "Dunkles Design"}
-          title={dunkel ? "Helles Design" : "Dunkles Design"}
-        >
-          {dunkel ? <IconSonne /> : <IconMond />}
-        </button>
-      </header>
+      <CampusTopbar
+        klausur="3"
+        marke="3"
+        name="Examenscampus Klausur 3"
+        untertitel="Buchführung und Bilanzwesen"
+        aufCockpit={() => ansichtOeffnen("cockpit")}
+        navZurueck={navZurueck}
+        navVor={navVor}
+        zurueckMoeglich={navIndex > 0}
+        vorMoeglich={navIndex < navVerlauf.length - 1}
+        suche={suche}
+        sucheSetzen={(wert) => {
+          setSuche(wert);
+          if (ansicht !== "module" || modulId !== null) ansichtOeffnen("module");
+        }}
+        suchePlatzhalter="Modul, Norm oder Stichwort suchen"
+        sucheAria="Module durchsuchen"
+        dunkel={dunkel}
+        dunkelUmschalten={() => setDunkel((d) => !d)}
+      />
 
-      <nav className="klausuren" aria-label="Klausuren des schriftlichen Examens">
-        <button
-          className="klausur"
-          onClick={onKlausurwechsel ? () => onKlausurwechsel("k1") : undefined}
-          disabled={!onKlausurwechsel}
-          title={onKlausurwechsel ? "Klausur 1 öffnen" : undefined}
-        >
-          <b>K1</b>
-          <span><strong>Verfahrensrecht</strong> <small>USt verfügbar · AO/ErbSt folgen</small></span>
-        </button>
-        <button
-          className="klausur"
-          onClick={onKlausurwechsel ? () => onKlausurwechsel("kst") : undefined}
-          disabled={!onKlausurwechsel}
-          title={onKlausurwechsel ? "Körperschaftsteuer-Campus öffnen" : undefined}
-        >
-          <b>K2</b>
-          <span><strong>Ertragsteuerrecht</strong> <small>KSt verfügbar · ESt/GewSt folgen</small></span>
-        </button>
-        <button className="klausur" aria-current="true" onClick={() => ansichtOeffnen("cockpit")}>
-          <b>K3</b>
-          <span><strong>Buchführung und Bilanzwesen</strong> <small>diese Plattform</small></span>
-        </button>
-      </nav>
+      <KlausurenLeiste aktiv="k3" aufCockpit={() => ansichtOeffnen("cockpit")} onKlausurwechsel={onKlausurwechsel} />
 
       <aside className="rail">
         <nav className="rail__nav" aria-label="Hauptnavigation">

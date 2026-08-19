@@ -7,9 +7,6 @@ import { laden, sichern } from "../lib/fortschritt";
 const App = lazy(() => import("../App"));
 const K1Campus = lazy(() => import("./K1Campus"));
 const KstCampus = lazy(() => import("./KstCampus"));
-const K1OriginalfallAufgabenEnhancer = lazy(() => import("./K1OriginalfallAufgabenEnhancer"));
-const K1Einheit7Enhancer = lazy(() => import("./K1Einheit7Enhancer"));
-const K1Einheit8Enhancer = lazy(() => import("./K1Einheit8Enhancer"));
 
 const Laden = () => (
   <div className="campus-laden" role="status" aria-live="polite">Campus wird geladen …</div>
@@ -27,9 +24,6 @@ export default function CampusShell() {
     return (
       <Suspense fallback={<Laden />}>
         <K1Campus onKlausurwechsel={wechseln} />
-        <K1OriginalfallAufgabenEnhancer />
-        <K1Einheit7Enhancer />
-        <K1Einheit8Enhancer />
       </Suspense>
     );
   }
