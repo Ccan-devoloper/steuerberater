@@ -40,6 +40,30 @@ const ansichten = [
   { id: "training", label: "Training", Icon: IconTraining },
 ];
 
+const k1UstFallKategorien = [
+  { id: "alle", label: "Alle Kategorien", faelle: [] },
+  { id: "grundlagen", label: "Steuerbarkeit & Unternehmer", faelle: [141, 142] },
+  { id: "leistungsart-ort", label: "Lieferung, sonstige Leistung & Leistungsort", faelle: [143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153] },
+  { id: "grundstuecke", label: "Grundstücke, Vermietung & Option", faelle: [154, 155, 156, 157] },
+  { id: "bmg-entstehung", label: "Bemessungsgrundlage, Steuerentstehung & § 17", faelle: [158, 159, 196, 197, 198, 207] },
+  { id: "rechnung-14c", label: "Rechnung & § 14c", faelle: [214] },
+  { id: "reverse-charge", label: "Reverse Charge & Steuerschuldnerschaft", faelle: [165, 166, 167] },
+  { id: "reihengeschaefte", label: "Reihengeschäfte", faelle: [168, 169, 170, 171, 172, 173] },
+  { id: "drittland", label: "Drittland, Ausfuhr & Einfuhr", faelle: [174, 175, 176, 182, 183, 217] },
+  { id: "ig-warenverkehr", label: "Innergemeinschaftlicher Warenverkehr", faelle: [184, 185, 186, 187, 188, 189, 190] },
+  { id: "vorsteuer-15a", label: "Vorsteuer, Zuordnung & § 15a", faelle: [200, 201, 202, 216, 219, 220, 221, 222, 223] },
+  { id: "uwa", label: "Unentgeltliche Wertabgaben & Geschenke", faelle: [199, 203, 204, 205, 206, 215] },
+  { id: "sonderregelungen", label: "Sonderregelungen & Margenbesteuerung", faelle: [194, 195, 228] },
+  { id: "gesellschaften", label: "GiG, Gesellschaften & Organschaft", faelle: [229, 230, 231, 235, 236, 237] },
+  { id: "kleinunternehmer", label: "Kleinunternehmer", faelle: [238, 239] },
+  { id: "klausurfaelle", label: "Klausurübergreifende Fälle", faelle: [240, 241, 242] },
+];
+const k1UstFallbackKategorie = { id: "sonstige", label: "Weitere USt-Fälle", faelle: [] };
+const k1UstFallKategorieById = new Map(
+  k1UstFallKategorien.flatMap((kategorie) => kategorie.faelle.map((id) => [id, kategorie])),
+);
+const k1UstFallKategorie = (fall) => k1UstFallKategorieById.get(fall.id) || k1UstFallbackKategorie;
+
 const klausurGebiete = [
   { id: "alle", label: "Alle Einheiten" },
   ...[1, 2, 3, 4, 5, 6, 7, 8].map((e) => ({ id: `E${e}`, label: `Einheit ${e}` })),
@@ -828,29 +852,30 @@ function K1Training() {
 }
 
 function K1Originalfaelle({ oeffnen, schemaOeffnen }) {
-  const [einheit, setEinheit] = useState("alle");
-  const faelle = einheit === "alle" ? k1UstFaelle : k1UstFaelle.filter((m) => m.einheit === einheit);
+  const [kategorie, setKategorie] = useState("alle");
+  const faelle = kategorie === "alle"
+    ? k1UstFaelle
+    : k1UstFaelle.filter((m) => k1UstFallKategorie(m).id === kategorie);
   return (
     <>
       <div className="pagehead">
         <div>
           <span className="kicker">Klausur 1 · Fallsammlung</span>
           <h1>Originalfälle der USt-Mitschriften</h1>
-          <p className="lead">Sachverhalt, Aufgabenstellung, vollständige Lösung, Lösungsskizzen und zitierte Normen sind direkt in jeder Fallkarte aufklappbar.</p>
+          <p className="lead">Die Originalfälle sind nach umsatzsteuerlichen Prüfungsthemen kategorisiert. Sachverhalt, Aufgabenstellung, vollständige Lösung, Lösungsskizzen und zitierte Normen sind direkt in jeder Fallkarte aufklappbar.</p>
         </div>
         <span className="zaehler">{faelle.length} Fälle</span>
       </div>
-      <div className="filter" aria-label="Fälle nach Einheit filtern">
-        <button aria-pressed={einheit === "alle"} onClick={() => setEinheit("alle")}>Alle Einheiten</button>
-        {k1EinheitenListe.map((e) => (
-          <button key={e} aria-pressed={einheit === e} onClick={() => setEinheit(e)}>Einheit {e}</button>
+      <div className="filter" aria-label="Fälle nach Kategorie filtern">
+        {k1UstFallKategorien.map(({ id, label }) => (
+          <button key={id} aria-pressed={kategorie === id} onClick={() => setKategorie(id)}>{label}</button>
         ))}
       </div>
       <div className="kst-faelle">
         {faelle.map((m) => (
           <article className="panel kst-fallkarte" key={m.id}>
             <div className="panel__head">
-              <div><span className="kicker">Fall {m.id} · Einheit {m.einheit} · {m.minutes} Min.</span><h2>{m.title}</h2></div>
+              <div><span className="kicker">Fall {m.id} · {k1UstFallKategorie(m).label} · {m.minutes} Min.</span><h2>{m.title}</h2></div>
               <button className="btn btn--klein btn--linie" onClick={() => oeffnen(m.id)}>Fall öffnen</button>
             </div>
             <p className="kst-fallquelle">{m.law}</p>
