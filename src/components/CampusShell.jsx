@@ -6,6 +6,7 @@ import { laden, sichern } from "../lib/fortschritt";
    als jeweils erste Importe). Das hält den Start-Chunk klein. */
 const App = lazy(() => import("../App"));
 const K1Campus = lazy(() => import("./K1Campus"));
+const K1ThemenEnhancer = lazy(() => import("./K1ThemenEnhancer"));
 const K1FallsammlungEnhancer = lazy(() => import("./K1FallsammlungEnhancer"));
 const K1HausaufgabenEnhancer = lazy(() => import("./K1HausaufgabenEnhancer"));
 const KstCampus = lazy(() => import("./KstCampus"));
@@ -26,6 +27,7 @@ export default function CampusShell() {
     return (
       <Suspense fallback={<Laden />}>
         <K1Campus onKlausurwechsel={wechseln} />
+        <K1ThemenEnhancer />
         <K1FallsammlungEnhancer />
         <K1HausaufgabenEnhancer />
       </Suspense>
