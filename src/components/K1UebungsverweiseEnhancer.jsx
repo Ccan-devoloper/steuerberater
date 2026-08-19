@@ -70,18 +70,14 @@ function inputSetzen(input, wert) {
   input.dispatchEvent(new Event("change", { bubbles: true }));
 }
 
-/* Öffnet einen beliebigen K1-USt-Inhalt über die native K1-Liste.
-
-   Die alte Fassung übersprang den Wechsel zur Übersicht, sobald der Rail-Link
-   „Umsatzsteuer“ bereits aria-current=true war. Genau das ist auf jeder offenen
-   Modulseite der Fall; deshalb konnten verlinkte Originalfälle nicht geöffnet
-   werden. Jetzt wird eine offene Detailseite zuerst über ihren echten
-   Zurück-zur-USt-Übersicht-Button verlassen. Anschließend werden Such-/Einheiten-
-   und Typfilter neutralisiert und erst dann die native Zielkarte geklickt. */
-function k1InhaltOeffnen(id) {
+/* Lernmodule werden weiterhin über die native K1-USt-Liste geöffnet. Dieser
+   Weg ist ausschließlich für Modulziele gedacht. Originalfälle haben weiter
+   unten einen eigenen Navigationsweg in den Reiter „Originalfälle“. */
+function lernmodulOeffnen(id) {
   const zielId = Number(id);
+  const ziel = inhaltById.get(zielId);
   const campus = document.querySelector(".kst-campus");
-  if (!campus || !inhaltById.has(zielId)) return;
+  if (!campus || !ziel || ziel.area === "Fall") return;
 
   const detailZurueck = campus.querySelector("main.page .lesson > .zurueck");
   if (detailZurueck) {
@@ -96,8 +92,6 @@ function k1InhaltOeffnen(id) {
     const page = aktuell?.querySelector("main.page");
     if (!aktuell || !page || versuch > 55) return;
 
-    /* Solange noch die alte Detailseite im DOM steht, ist React mit dem
-       Zustandswechsel zur Übersicht noch nicht fertig. */
     if (page.querySelector(".lesson")) {
       window.setTimeout(() => versuchen(versuch + 1), 45);
       return;
@@ -124,10 +118,6 @@ function k1InhaltOeffnen(id) {
       return;
     }
 
-    /* Die K3-artige Themenansicht liegt nur optisch über der nativen Liste.
-       Für die bestehende K1-Navigation klicken wir gezielt die native, von
-       K1Campus gerenderte Karte – auch wenn sie durch den Enhancer ausgeblendet
-       ist. So bleiben Zurück/Vor und Fortschritt weiterhin in einer Routinglogik. */
     const nativeModules = Array.from(page.querySelectorAll(".modules"))
       .find((liste) => !liste.closest(".k1-themen-root"));
     const karte = Array.from(nativeModules?.querySelectorAll(".modul") || [])
@@ -138,6 +128,54 @@ function k1InhaltOeffnen(id) {
     }
 
     window.setTimeout(() => versuchen(versuch + 1), 60);
+  };
+
+  window.setTimeout(() => versuchen(), 35);
+}
+
+/* Originalfall-Links führen bewusst NICHT in die gemeinsame Detailseiten-
+   Komponente. Sie wechseln in den eigenständigen Reiter „Originalfälle“ und
+   springen dort direkt zur Karte des verlinkten Falls. Dadurch landet der
+   Nutzer genau dort, wo Sachverhalt, Aufgabenstellung und aufklappbare Lösung
+   der Originalfallsammlung zusammenstehen. */
+function originalfallOeffnen(id) {
+  const zielId = Number(id);
+  const ziel = inhaltById.get(zielId);
+  const campus = document.querySelector(".kst-campus");
+  if (!campus || !ziel || ziel.area !== "Fall") return;
+
+  const originalfaelleTab = nativeRailButton(campus, "Originalfälle");
+  if (!originalfaelleTab) return;
+  originalfaelleTab.click();
+
+  const versuchen = (versuch = 0) => {
+    const aktuell = document.querySelector(".kst-campus");
+    const page = aktuell?.querySelector("main.page");
+    if (!aktuell || !page || versuch > 60) return;
+
+    const aktiverRail = nativeRailButton(aktuell, "Originalfälle");
+    if (aktiverRail?.getAttribute("aria-current") !== "true") {
+      window.setTimeout(() => versuchen(versuch + 1), 45);
+      return;
+    }
+
+    const alleKategorien = textButton(page, "Alle Kategorien");
+    if (alleKategorien && alleKategorien.getAttribute("aria-pressed") !== "true") {
+      alleKategorien.click();
+      window.setTimeout(() => versuchen(versuch + 1), 45);
+      return;
+    }
+
+    const karte = Array.from(page.querySelectorAll(".kst-faelle .kst-fallkarte"))
+      .find((element) => idAusText(element.querySelector(".panel__head .kicker")?.textContent) === zielId);
+    if (karte) {
+      karte.scrollIntoView({ behavior: "smooth", block: "start" });
+      karte.setAttribute("tabindex", "-1");
+      window.setTimeout(() => karte.focus({ preventScroll: true }), 250);
+      return;
+    }
+
+    window.setTimeout(() => versuchen(versuch + 1), 55);
   };
 
   window.setTimeout(() => versuchen(), 35);
@@ -224,7 +262,7 @@ function blockBauen(element, info) {
     verwandteInhalte,
     (ziel) => linkButton(
       `${istFall ? "Modul" : "Originalfall"} ${ziel.id}: ${ziel.title} ↗`,
-      () => k1InhaltOeffnen(ziel.id),
+      () => (istFall ? lernmodulOeffnen(ziel.id) : originalfallOeffnen(ziel.id)),
     ),
   );
   if (verwandteGruppe) raster.appendChild(verwandteGruppe);
