@@ -1,6 +1,7 @@
 import "./k1-ust-einheit-7-register.js";
 import k1UstEinheit2 from "./module-vertiefung-n.js";
 import k1UstEinheit8, { k1Einheit8Ergaenzungen } from "./module-vertiefung-u.js";
+import { meurerNeueLernmodule } from "./k1-ust-kurzskript-meurer.js";
 
 /* Einheit 8 führt Fall 230 mit der nun vorhandenen Quellenlösung fort und
    ergänzt anschließend neue Originalfälle und Lernmodule. */
@@ -11,7 +12,7 @@ for (const [idText, ergaenzung] of Object.entries(k1Einheit8Ergaenzungen)) {
 }
 
 const vorhandeneIds = new Set(k1UstEinheit2.map((inhalt) => inhalt.id));
-for (const inhalt of k1UstEinheit8) {
+for (const inhalt of [...k1UstEinheit8, ...meurerNeueLernmodule]) {
   if (!vorhandeneIds.has(inhalt.id)) {
     k1UstEinheit2.push(inhalt);
     vorhandeneIds.add(inhalt.id);
