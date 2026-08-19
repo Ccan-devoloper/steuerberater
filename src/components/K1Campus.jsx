@@ -18,8 +18,12 @@ import { Notiz } from "./Bausteine";
 import { SchemaVerweise, VerlinkteNormkette, VerlinkterText, grundschema } from "./K1SchemaLinks";
 import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
 import { k1Karteikarten, k1Quizfragen } from "../data/k1-lernstoff.js";
+import { k1Aufgaben, k1Quellskizzen } from "../data/k1-fall-extras.js";
+import { K1Aufgabenblock, K1Quellskizze } from "./K1FallExtras";
+import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
+import Klausurmodus, { IconKlausur } from "./Klausurmodus";
 import {
-  IconCockpit, IconModule, IconFaelle, IconSchema, IconSuche, IconSonne, IconMond, IconHaken, IconTraining,
+  IconCockpit, IconModule, IconFaelle, IconSchema, IconHaken, IconTraining,
 } from "./Icons";
 import "./kst.css";
 
@@ -31,8 +35,14 @@ const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
+  { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "schema", label: "Prüfschema", Icon: IconSchema },
   { id: "training", label: "Training", Icon: IconTraining },
+];
+
+const klausurGebiete = [
+  { id: "alle", label: "Alle Einheiten" },
+  ...[1, 2, 3, 4, 5, 6, 7, 8].map((e) => ({ id: `E${e}`, label: `Einheit ${e}` })),
 ];
 
 /* Skizzen aus den handschriftlichen Mitschriften. Die Darstellung übernimmt
@@ -278,6 +288,7 @@ function Loesungsblock({ m, onSchema }) {
           <li key={i}><VerlinkterText text={s} onOpen={onSchema} compact /></li>
         ))}
       </ol>
+      <K1Quellskizze spec={k1Quellskizzen[m.id]} />
       <Loesungsskizzen fallId={m.id} />
       {(m.normchain || []).length > 0 && (
         <div>
@@ -349,6 +360,9 @@ export default function K1Campus({ onKlausurwechsel }) {
         m.merksatz,
         ...(m.exam || []),
         ...(m.traps || []),
+        ...(k1Aufgaben[m.id]?.fragen || []),
+        k1Aufgaben[m.id]?.hinweis,
+        k1Quellskizzen[m.id]?.titel,
       ].filter(Boolean).join(" ").toLowerCase().includes(q);
     });
   }, [suche, einheitFilter, typFilter]);
@@ -442,74 +456,28 @@ export default function K1Campus({ onKlausurwechsel }) {
 
   return (
     <div className="kst-campus">
-      <header className="topbar">
-        <button className="brand" onClick={() => ansichtOeffnen("cockpit")}>
-          <span className="brand__mark">1</span>
-          <span className="brand__text">
-            <strong>Examenscampus Klausur 1</strong>
-            <span>Verfahrensrecht · andere Steuerarten · Umsatzsteuer</span>
-          </span>
-        </button>
-        <div role="group" aria-label="Navigation in Klausur 1" style={{ display: "flex", gap: 4 }}>
-          <button
-            type="button"
-            className="iconbtn"
-            onClick={navZurueck}
-            disabled={navIndex <= 0}
-            aria-label="Zurück zur vorherigen Seite"
-            title="Zurück (Alt + Pfeil links)"
-          >
-            ←
-          </button>
-          <button
-            type="button"
-            className="iconbtn"
-            onClick={navVor}
-            disabled={navIndex >= navVerlauf.length - 1}
-            aria-label="Vor zur nächsten Seite"
-            title="Vor (Alt + Pfeil rechts)"
-          >
-            →
-          </button>
-        </div>
-        <span className="topbar__spacer" />
-        <label className="search">
-          <IconSuche />
-          <input
-            type="search"
-            value={suche}
-            placeholder="USt-Fall, Modul, Norm oder Stichwort suchen"
-            aria-label="Umsatzsteuer-Inhalte durchsuchen"
-            onChange={(e) => {
-              setSuche(e.target.value);
-              if (ansicht !== "module" || fallId !== null) ansichtOeffnen("module");
-            }}
-          />
-        </label>
-        <button
-          className="iconbtn"
-          onClick={() => setDunkel((d) => !d)}
-          aria-label={dunkel ? "Helles Design" : "Dunkles Design"}
-          title={dunkel ? "Helles Design" : "Dunkles Design"}
-        >
-          {dunkel ? <IconSonne /> : <IconMond />}
-        </button>
-      </header>
+      <CampusTopbar
+        klausur="1"
+        marke="1"
+        name="Examenscampus Klausur 1"
+        untertitel="Verfahrensrecht · andere Steuerarten · Umsatzsteuer"
+        aufCockpit={() => ansichtOeffnen("cockpit")}
+        navZurueck={navZurueck}
+        navVor={navVor}
+        zurueckMoeglich={navIndex > 0}
+        vorMoeglich={navIndex < navVerlauf.length - 1}
+        suche={suche}
+        sucheSetzen={(wert) => {
+          setSuche(wert);
+          if (ansicht !== "module" || fallId !== null) ansichtOeffnen("module");
+        }}
+        suchePlatzhalter="USt-Fall, Modul, Norm oder Stichwort suchen"
+        sucheAria="Umsatzsteuer-Inhalte durchsuchen"
+        dunkel={dunkel}
+        dunkelUmschalten={() => setDunkel((d) => !d)}
+      />
 
-      <nav className="klausuren" aria-label="Klausuren des schriftlichen Examens">
-        <button className="klausur" aria-current="true" onClick={() => ansichtOeffnen("cockpit")}>
-          <b>K1</b>
-          <span><strong>Verfahrensrecht</strong> <small>USt verfügbar · AO/ErbSt folgen</small></span>
-        </button>
-        <button className="klausur" onClick={() => onKlausurwechsel("kst")}>
-          <b>K2</b>
-          <span><strong>Ertragsteuerrecht</strong> <small>KSt verfügbar · ESt/GewSt folgen</small></span>
-        </button>
-        <button className="klausur" onClick={() => onKlausurwechsel("k3")}>
-          <b>K3</b>
-          <span><strong>Buchführung und Bilanzwesen</strong> <small>zur Plattform wechseln</small></span>
-        </button>
-      </nav>
+      <KlausurenLeiste aktiv="k1" aufCockpit={() => ansichtOeffnen("cockpit")} onKlausurwechsel={onKlausurwechsel} />
 
       <aside className="rail">
         <nav className="rail__nav" aria-label="Klausur-1-Hauptnavigation">
@@ -569,6 +537,18 @@ export default function K1Campus({ onKlausurwechsel }) {
           />
         )}
         {ansicht === "faelle" && <K1Originalfaelle oeffnen={oeffnen} schemaOeffnen={schemaOeffnen} />}
+        {ansicht === "klausur" && (
+          <Klausurmodus
+            module={k1UstInhalte}
+            oeffnenModul={oeffnen}
+            gebiete={klausurGebiete}
+            gebietVon={(m) => `E${m.einheit}`}
+            speicherKey="stb-k1-klausurlauf"
+            sperrtext="Erst selbst lösen: Steuerbarkeit, Steuerbefreiung, Bemessungsgrundlage, Steuersatz, Steuerschuldner, Entstehung und Vorsteuer. Danach die Musterlösung aufdecken und ehrlich bewerten."
+            modulWort="Fall"
+            sachverhaltExtra={(fall) => <K1Aufgabenblock daten={k1Aufgaben[fall.id]} />}
+          />
+        )}
         {ansicht === "schema" && <UstPruefschema />}
         {ansicht === "training" && <K1Training />}
       </main>
@@ -759,7 +739,11 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOe
       {m.example && (
         <Tz nummer={n()} label={istFall ? "Originalfall" : "Vertiefung"} titel={m.example.title} art="bewertung">
           <div className="fall">
-            <div className="fall__block fall__sachverhalt"><b>{istFall ? "Sachverhalt" : "Ausgangspunkt"}</b><VerlinkterText as="p" text={m.example.facts} onOpen={schemaOeffnen} compact /></div>
+            <div className="fall__block fall__sachverhalt">
+              <b>{istFall ? "Sachverhalt" : "Ausgangspunkt"}</b>
+              <VerlinkterText as="p" text={m.example.facts} onOpen={schemaOeffnen} compact />
+              {istFall && <K1Aufgabenblock daten={k1Aufgaben[m.id]} law={m.law} onSchema={schemaOeffnen} />}
+            </div>
             <Loesungsblock m={m} onSchema={schemaOeffnen} />
             <div className="fall__block fall__ergebnis"><b>Ergebnis</b><VerlinkterText as="p" text={m.example.result} onOpen={schemaOeffnen} compact /></div>
           </div>
@@ -874,6 +858,7 @@ function K1Originalfaelle({ oeffnen, schemaOeffnen }) {
             <div className="kst-sachverhalt">
               <b>Sachverhalt</b>
               <VerlinkterText as="p" text={m.example?.facts} onOpen={schemaOeffnen} compact />
+              <K1Aufgabenblock daten={k1Aufgaben[m.id]} law={m.law} onSchema={schemaOeffnen} />
             </div>
             <details>
               <summary>Lösung anzeigen</summary>

@@ -49,7 +49,16 @@ function useTimer(laeuft) {
 }
 
 /* ================================================================ Ansicht */
-export default function Klausurmodus({ module, oeffnenModul }) {
+export default function Klausurmodus({
+  module,
+  oeffnenModul,
+  gebiete = bereiche,
+  gebietVon = (m) => m.thema || "EU",
+  speicherKey = "stb-klausurlauf",
+  sperrtext = "Erst selbst lösen: Zurechnung, Zuordnung, Bewertung, Wertansatz, Buchungssatz und Gewinnauswirkung. Danach die Musterlösung aufdecken und ehrlich bewerten.",
+  modulWort = "Modul",
+  sachverhaltExtra = null,
+}) {
   const [lauf, setLauf] = useState(null);
   const [schritt, setSchritt] = useState(0);
   const [aufgedeckt, setAufgedeckt] = useState(false);
@@ -62,12 +71,12 @@ export default function Klausurmodus({ module, oeffnenModul }) {
   const [sekunden, setSekunden] = useTimer(Boolean(lauf) && !pause && !auswertung);
 
   const [historie, setHistorie] = useState(() => {
-    const roh = laden("stb-klausurlauf", []);
+    const roh = laden(speicherKey, []);
     return Array.isArray(roh) ? roh : [];
   });
   useEffect(() => {
-    sichern("stb-klausurlauf", historie);
-  }, [historie]);
+    sichern(speicherKey, historie);
+  }, [historie, speicherKey]);
 
   /* Fälle mit Sachverhalt und Musterlösung: die Originalfälle der Kursmitschriften. */
   const vorrat = useMemo(
@@ -77,12 +86,12 @@ export default function Klausurmodus({ module, oeffnenModul }) {
 
   const jeBereich = useMemo(() => {
     const z = {};
-    for (const m of vorrat) z[m.thema || "EU"] = (z[m.thema || "EU"] || 0) + 1;
+    for (const m of vorrat) z[gebietVon(m)] = (z[gebietVon(m)] || 0) + 1;
     return z;
-  }, [vorrat]);
+  }, [vorrat, gebietVon]);
 
   const starten = useCallback(() => {
-    const auswahl = vorrat.filter((m) => bereich === "alle" || (m.thema || "EU") === bereich);
+    const auswahl = vorrat.filter((m) => bereich === "alle" || gebietVon(m) === bereich);
     const faelle = mischen(auswahl).slice(0, Math.min(anzahl, auswahl.length));
     if (faelle.length === 0) return;
     setLauf({ faelle, sollminuten: faelle.reduce((s, f) => s + punkteFuer(f.minutes) * MINUTEN_JE_PUNKT, 0) });
@@ -92,7 +101,7 @@ export default function Klausurmodus({ module, oeffnenModul }) {
     setBewertungen([]);
     setAuswertung(null);
     setSekunden(0);
-  }, [vorrat, bereich, anzahl, setSekunden]);
+  }, [vorrat, bereich, anzahl, setSekunden, gebietVon]);
 
   const bewerten = (id) => {
     const fall = lauf.faelle[schritt];
@@ -121,7 +130,7 @@ export default function Klausurmodus({ module, oeffnenModul }) {
 
   /* ------------------------------------------------------------ Auswahl */
   if (!lauf) {
-    const auswahlFuerBereich = vorrat.filter((m) => bereich === "alle" || (m.thema || "EU") === bereich);
+    const auswahlFuerBereich = vorrat.filter((m) => bereich === "alle" || gebietVon(m) === bereich);
     const verfuegbar = auswahlFuerBereich.length;
     const letzter = historie[0];
     return (
@@ -130,7 +139,7 @@ export default function Klausurmodus({ module, oeffnenModul }) {
         <section className="panel klausur-auswahl">
           <h2>Lauf zusammenstellen</h2>
           <div className="filter filter--klein">
-            {bereiche.map((b) => (
+            {gebiete.map((b) => (
               <button key={b.id} aria-pressed={bereich === b.id} onClick={() => setBereich(b.id)}>
                 {b.label} {b.id === "alle" ? vorrat.length : jeBereich[b.id] || 0}
               </button>
@@ -203,7 +212,7 @@ export default function Klausurmodus({ module, oeffnenModul }) {
                 <span className={`klausur-stufe klausur-stufe--${f.stufe}`}>
                   {BEWERTUNGEN.find((b) => b.id === f.stufe)?.label}
                 </span>
-                <button onClick={() => oeffnenModul(f.modulId)}>Modul {f.modulId}: {f.titel}</button>
+                <button onClick={() => oeffnenModul(f.modulId)}>{modulWort} {f.modulId}: {f.titel}</button>
                 <span className="klausur-punkte">{Math.round(f.punkte * f.anteil * 10) / 10} / {f.punkte}</span>
               </div>
             ))}
@@ -262,15 +271,13 @@ export default function Klausurmodus({ module, oeffnenModul }) {
             <div className="fall__block fall__sachverhalt">
               <b>Sachverhalt</b>
               <p>{fall.example.facts}</p>
+              {sachverhaltExtra?.(fall)}
             </div>
           </section>
 
           {!aufgedeckt ? (
             <section className="panel klausur-sperre">
-              <p>
-                Erst selbst lösen: Zurechnung, Zuordnung, Bewertung, Wertansatz, Buchungssatz und
-                Gewinnauswirkung. Danach die Musterlösung aufdecken und ehrlich bewerten.
-              </p>
+              <p>{sperrtext}</p>
               <button className="btn" onClick={() => setAufgedeckt(true)}>Lösung aufdecken</button>
             </section>
           ) : (
