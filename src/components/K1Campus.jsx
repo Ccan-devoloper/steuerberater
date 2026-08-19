@@ -17,8 +17,9 @@ import UstPruefschema from "./UstPruefschema";
 import { Notiz } from "./Bausteine";
 import { SchemaVerweise, VerlinkteNormkette, VerlinkterText, grundschema } from "./K1SchemaLinks";
 import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
+import { k1Karteikarten, k1Quizfragen } from "../data/k1-lernstoff.js";
 import {
-  IconCockpit, IconModule, IconFaelle, IconSchema, IconSuche, IconSonne, IconMond, IconHaken,
+  IconCockpit, IconModule, IconFaelle, IconSchema, IconSuche, IconSonne, IconMond, IconHaken, IconTraining,
 } from "./Icons";
 import "./kst.css";
 
@@ -31,6 +32,7 @@ const ansichten = [
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
   { id: "schema", label: "Prüfschema", Icon: IconSchema },
+  { id: "training", label: "Training", Icon: IconTraining },
 ];
 
 /* Skizzen aus den handschriftlichen Mitschriften. Die Darstellung übernimmt
@@ -568,6 +570,7 @@ export default function K1Campus({ onKlausurwechsel }) {
         )}
         {ansicht === "faelle" && <K1Originalfaelle oeffnen={oeffnen} schemaOeffnen={schemaOeffnen} />}
         {ansicht === "schema" && <UstPruefschema />}
+        {ansicht === "training" && <K1Training />}
       </main>
     </div>
   );
@@ -782,6 +785,61 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOe
         {nachher ? <button onClick={() => oeffnen(nachher.id)}><small>{nachher.area === "Fall" ? "Fall" : "Modul"} {nachher.id} →</small><strong>{nachher.title}</strong></button> : <span />}
       </nav>
     </article>
+  );
+}
+
+function K1Training() {
+  const [index, setIndex] = useState(0);
+  const [antwort, setAntwort] = useState(null);
+  const [punkte, setPunkte] = useState(0);
+  const [karte, setKarte] = useState(0);
+  const [gedreht, setGedreht] = useState(false);
+  const frage = k1Quizfragen[index];
+
+  const waehlen = (i) => {
+    if (antwort !== null) return;
+    setAntwort(i);
+    if (i === frage.richtig) setPunkte((p) => p + 1);
+  };
+  const weiter = () => {
+    setAntwort(null);
+    setIndex((i) => (i + 1) % k1Quizfragen.length);
+  };
+
+  return (
+    <>
+      <div className="pagehead">
+        <div><span className="kicker">Training</span><h1>Quiz und Karteikarten</h1><p className="lead">Die Fragen prüfen ausschließlich Stoff der USt-Einheiten 1–8; Rechtsstand wie im Prüfschema.</p></div>
+        <span className="zaehler">{punkte} richtige Antworten</span>
+      </div>
+
+      <section className="panel kst-quiz">
+        <div className="panel__head"><span className="kicker">Frage {index + 1} / {k1Quizfragen.length}</span></div>
+        <h2>{frage.frage}</h2>
+        <div className="kst-optionen">
+          {frage.optionen.map((o, i) => {
+            const status = antwort === null ? "" : i === frage.richtig ? " richtig" : i === antwort ? " falsch" : "";
+            return <button className={`kst-option${status}`} key={o} onClick={() => waehlen(i)}>{o}</button>;
+          })}
+        </div>
+        {antwort !== null && (
+          <div className="kst-erklaerung"><p>{frage.erklaerung}</p><button className="btn btn--klein" onClick={weiter}>Nächste Frage</button></div>
+        )}
+      </section>
+
+      <section className="abschnitt">
+        <h2>Karteikarten</h2>
+        <button className={`kst-karte${gedreht ? " kst-karte--gedreht" : ""}`} onClick={() => setGedreht((g) => !g)}>
+          <span className="kicker">Karte {karte + 1} / {k1Karteikarten.length}</span>
+          <strong>{gedreht ? k1Karteikarten[karte].hinten : k1Karteikarten[karte].vorn}</strong>
+          <small>{gedreht ? "nochmals klicken für Vorderseite" : "klicken zum Umdrehen"}</small>
+        </button>
+        <div className="kst-kartensteuerung">
+          <button className="btn btn--linie" onClick={() => { setKarte((k) => (k - 1 + k1Karteikarten.length) % k1Karteikarten.length); setGedreht(false); }}>← vorherige</button>
+          <button className="btn" onClick={() => { setKarte((k) => (k + 1) % k1Karteikarten.length); setGedreht(false); }}>nächste →</button>
+        </div>
+      </section>
+    </>
   );
 }
 
