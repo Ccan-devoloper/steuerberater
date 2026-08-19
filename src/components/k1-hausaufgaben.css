@@ -127,8 +127,19 @@
 }
 
 .k1-ha-overlap--inline {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   margin-bottom: 14px;
   border-left: 3px solid var(--marker);
+  font-size: 0.82rem;
+}
+
+/* .modul ist ein dreispaltiges Grid (Checkbox | Inhalt | Öffnen). Der per
+   Enhancer angehängte Hausaufgaben-Querverweis ist ein viertes Grid-Item und
+   würde ohne feste Spaltenbelegung in der 26-px-Checkboxspalte landen. */
+.modul > .k1-ha-overlap--inline {
+  grid-column: 1 / -1;
 }
 
 .k1-ha-querverweise > b,
