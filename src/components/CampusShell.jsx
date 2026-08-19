@@ -9,6 +9,7 @@ const K1Campus = lazy(() => import("./K1Campus"));
 const K1ThemenEnhancer = lazy(() => import("./K1ThemenEnhancer"));
 const K1FallsammlungEnhancer = lazy(() => import("./K1FallsammlungEnhancer"));
 const K1HausaufgabenEnhancer = lazy(() => import("./K1HausaufgabenEnhancer"));
+const K1UebungsverweiseEnhancer = lazy(() => import("./K1UebungsverweiseEnhancer"));
 const KstCampus = lazy(() => import("./KstCampus"));
 
 const Laden = () => (
@@ -30,6 +31,7 @@ export default function CampusShell() {
         <K1ThemenEnhancer />
         <K1FallsammlungEnhancer />
         <K1HausaufgabenEnhancer />
+        <K1UebungsverweiseEnhancer />
       </Suspense>
     );
   }
