@@ -10,7 +10,8 @@
     "check:fallsammlung": "node tools/pruefen-fallsammlung.mjs",
     "check:fallsammlung-format": "node tools/pruefen-fallsammlung-format.mjs",
     "check:hausaufgaben": "node tools/pruefen-hausaufgaben-volltext.mjs",
-    "check:k1-ust-hausaufgaben": "node tools/pruefen-k1-ust-hausaufgaben.mjs"
+    "check:k1-ust-hausaufgaben": "node tools/pruefen-k1-ust-hausaufgaben.mjs",
+    "check:k1-ust-themen": "node tools/pruefen-k1-ust-themen.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
