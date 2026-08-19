@@ -1,0 +1,112 @@
+.k1-meurer-tz {
+  border-top-color: var(--tinte);
+}
+
+.k1-meurer-tz > .tz__no b {
+  color: var(--tinte);
+}
+
+.k1-meurer-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 16px;
+}
+
+.k1-meurer-head p {
+  max-width: 850px;
+  margin: 6px 0 0;
+  color: var(--ink-weich);
+  line-height: 1.55;
+}
+
+.k1-meurer-head__count {
+  flex: 0 0 auto;
+  border: 1px solid var(--linie);
+  padding: 6px 9px;
+  font: 700 10px var(--mono);
+  color: var(--ink-weich);
+  background: var(--papier);
+}
+
+.k1-meurer-bloecke {
+  display: grid;
+  gap: 14px;
+}
+
+.k1-meurer-block {
+  min-width: 0;
+  border: 1px solid var(--linie);
+  border-left: 3px solid var(--tinte);
+  background: var(--feld);
+  padding: 15px 16px;
+}
+
+.k1-meurer-block__kopf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.k1-meurer-block__kopf span,
+.k1-meurer-block__kopf b {
+  font: 700 10px var(--mono);
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.k1-meurer-block__kopf span { color: var(--tinte); }
+.k1-meurer-block__kopf b { color: var(--ink-weich); }
+
+.k1-meurer-block h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.k1-meurer-block__punkte {
+  margin-bottom: 12px;
+}
+
+.k1-meurer-visual,
+.k1-meurer-klausur {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--linie-fein);
+  background: var(--papier);
+}
+
+.k1-meurer-visual strong,
+.k1-meurer-klausur strong {
+  display: block;
+  margin-bottom: 5px;
+  font: 700 10px var(--mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.k1-meurer-visual p,
+.k1-meurer-klausur ul {
+  margin: 0;
+  color: var(--ink-weich);
+  line-height: 1.5;
+}
+
+.k1-meurer-klausur ul {
+  padding-left: 18px;
+}
+
+.k1-meurer-block .schema-verweise,
+.k1-meurer-block .k1-schema-verweise {
+  margin-top: 10px;
+}
+
+@media (max-width: 760px) {
+  .k1-meurer-head,
+  .k1-meurer-block__kopf {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
