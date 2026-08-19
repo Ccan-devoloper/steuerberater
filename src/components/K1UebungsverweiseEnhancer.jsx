@@ -1,7 +1,11 @@
 /* Vereinheitlicht die Hinweise auf Originalfälle, Hausaufgaben und die
    Meurer-Fallsammlung. Die beiden bestehenden Enhancer bleiben für ihre
-   Navigation zuständig; ihre Einzelboxen werden bei einem vereinten Block nur
-   optisch ausgeblendet und dienen weiterhin als zuverlässige Sprungziele. */
+   Navigation zuständig; ihre Einzelboxen werden auf der Detailseite bei einem
+   vereinten Block optisch ausgeblendet und dienen weiterhin als Sprungziele.
+
+   Wichtig: Übungsverweise gehören bewusst NICHT in die Modul-/Fallübersichten.
+   Sie werden ausschließlich auf einer geöffneten Detailseite ganz unten – nach
+   dem fachlichen Inhalt und unmittelbar vor der Blätternavigation – ergänzt. */
 import "../data/k1-ust-einheit-2-nachtrag-register.js";
 import "../data/k1-ust-einheit-3-register.js";
 import "../data/k1-ust-einheit-4-register.js";
@@ -33,11 +37,9 @@ function idAusText(text) {
   return treffer ? Number(treffer[1]) : null;
 }
 
-function infoFuerElement(element) {
-  let text = "";
-  if (element.matches(".lesson")) text = element.querySelector(".lesson__kopf .kicker")?.textContent || "";
-  if (element.matches(".kst-fallkarte")) text = element.querySelector(".panel__head .kicker")?.textContent || "";
-  if (element.matches(".modul")) text = element.querySelector(".modul__kopf")?.textContent || "";
+function infoFuerDetailseite(element) {
+  if (!element?.matches(".lesson")) return null;
+  const text = element.querySelector(".lesson__kopf .kicker")?.textContent || "";
   const id = idAusText(text);
   if (!id) return null;
   const inhalt = inhaltById.get(id);
@@ -68,20 +70,38 @@ function inputSetzen(input, wert) {
   input.dispatchEvent(new Event("change", { bubbles: true }));
 }
 
-/* Nutzt bewusst die native K1-Liste als Navigationsbrücke. So laufen Zurück/Vor,
-   Scroll-Wiederherstellung und Detailseite weiterhin über K1Campus statt über
-   eine zweite parallele Routing-Logik. */
+/* Öffnet einen beliebigen K1-USt-Inhalt über die native K1-Liste.
+
+   Die alte Fassung übersprang den Wechsel zur Übersicht, sobald der Rail-Link
+   „Umsatzsteuer“ bereits aria-current=true war. Genau das ist auf jeder offenen
+   Modulseite der Fall; deshalb konnten verlinkte Originalfälle nicht geöffnet
+   werden. Jetzt wird eine offene Detailseite zuerst über ihren echten
+   Zurück-zur-USt-Übersicht-Button verlassen. Anschließend werden Such-/Einheiten-
+   und Typfilter neutralisiert und erst dann die native Zielkarte geklickt. */
 function k1InhaltOeffnen(id) {
   const zielId = Number(id);
   const campus = document.querySelector(".kst-campus");
-  if (!campus) return;
-  const ust = nativeRailButton(campus, "Umsatzsteuer");
-  if (ust?.getAttribute("aria-current") !== "true") ust?.click();
+  if (!campus || !inhaltById.has(zielId)) return;
+
+  const detailZurueck = campus.querySelector("main.page .lesson > .zurueck");
+  if (detailZurueck) {
+    detailZurueck.click();
+  } else {
+    const ust = nativeRailButton(campus, "Umsatzsteuer");
+    if (ust?.getAttribute("aria-current") !== "true") ust.click();
+  }
 
   const versuchen = (versuch = 0) => {
     const aktuell = document.querySelector(".kst-campus");
     const page = aktuell?.querySelector("main.page");
-    if (!aktuell || !page || versuch > 45) return;
+    if (!aktuell || !page || versuch > 55) return;
+
+    /* Solange noch die alte Detailseite im DOM steht, ist React mit dem
+       Zustandswechsel zur Übersicht noch nicht fertig. */
+    if (page.querySelector(".lesson")) {
+      window.setTimeout(() => versuchen(versuch + 1), 45);
+      return;
+    }
 
     const suchfeld = aktuell.querySelector('input[aria-label="Umsatzsteuer-Inhalte durchsuchen"]');
     if (suchfeld?.value) {
@@ -96,6 +116,7 @@ function k1InhaltOeffnen(id) {
       window.setTimeout(() => versuchen(versuch + 1), 45);
       return;
     }
+
     const alleTypen = textButton(page, "Fälle und Module");
     if (alleTypen && alleTypen.getAttribute("aria-pressed") !== "true") {
       alleTypen.click();
@@ -103,6 +124,10 @@ function k1InhaltOeffnen(id) {
       return;
     }
 
+    /* Die K3-artige Themenansicht liegt nur optisch über der nativen Liste.
+       Für die bestehende K1-Navigation klicken wir gezielt die native, von
+       K1Campus gerenderte Karte – auch wenn sie durch den Enhancer ausgeblendet
+       ist. So bleiben Zurück/Vor und Fortschritt weiterhin in einer Routinglogik. */
     const nativeModules = Array.from(page.querySelectorAll(".modules"))
       .find((liste) => !liste.closest(".k1-themen-root"));
     const karte = Array.from(nativeModules?.querySelectorAll(".modul") || [])
@@ -111,6 +136,7 @@ function k1InhaltOeffnen(id) {
       karte.click();
       return;
     }
+
     window.setTimeout(() => versuchen(versuch + 1), 60);
   };
 
@@ -125,7 +151,7 @@ function vorhandenenSpezialLinkKlicken(element, selector, text) {
       button.click();
       return;
     }
-    if (versuch < 12) window.setTimeout(() => versuchen(versuch + 1), 45);
+    if (versuch < 15) window.setTimeout(() => versuchen(versuch + 1), 45);
   };
   versuchen();
 }
@@ -175,7 +201,7 @@ function blockBauen(element, info) {
   if (!verwandteInhalte.length && !passendeHausaufgaben.length && !passendeFallsammlung.length) return null;
 
   const block = document.createElement("aside");
-  block.className = "k1-uebung-overlap";
+  block.className = "k1-uebung-overlap k1-uebung-overlap--detail";
   block.dataset.k1UebungOverlap = String(id);
 
   const kopf = document.createElement("div");
@@ -185,7 +211,7 @@ function blockBauen(element, info) {
   const hinweis = document.createElement("p");
   hinweis.textContent = istFall
     ? "Vertiefung und Nacharbeit zum selben oder eng überlappenden Prüfungsstoff."
-    : "Originalfälle und Zusatzfälle zum selben oder eng überlappenden Prüfungsstoff.";
+    : "Originalfälle, Hausaufgaben und Zusatzfälle zum selben oder eng überlappenden Prüfungsstoff.";
   kopf.append(titel, hinweis);
   block.appendChild(kopf);
 
@@ -230,26 +256,21 @@ function blockBauen(element, info) {
 }
 
 function blockEinsetzen(element) {
+  if (!element?.matches(".lesson")) return;
   if (element.querySelector(":scope > [data-k1-uebung-overlap]")) return;
-  const info = infoFuerElement(element);
+  const info = infoFuerDetailseite(element);
   if (!info) return;
   const block = blockBauen(element, info);
   if (!block) return;
 
   element.classList.add("k1-uebung-vereint");
-  if (element.matches(".lesson")) {
-    const kopf = element.querySelector(".lesson__kopf");
-    if (kopf) kopf.insertAdjacentElement("afterend", block);
-    else element.prepend(block);
-    return;
-  }
-  if (element.matches(".kst-fallkarte")) {
-    const sachverhalt = element.querySelector(".kst-sachverhalt");
-    if (sachverhalt) element.insertBefore(block, sachverhalt);
-    else element.prepend(block);
-    return;
-  }
-  element.appendChild(block);
+
+  /* Erst nach allen Tz.-Abschnitten und Quellen, aber vor der vorhandenen
+     Vorher/Nachher-Navigation. Damit bleibt der Lernfluss ungestört und die
+     Übungsfälle stehen tatsächlich am Ende der Modulseite. */
+  const blaettern = element.querySelector(":scope > .blaettern");
+  if (blaettern) element.insertBefore(block, blaettern);
+  else element.appendChild(block);
 }
 
 export default function K1UebungsverweiseEnhancer() {
@@ -258,7 +279,8 @@ export default function K1UebungsverweiseEnhancer() {
     const scan = () => {
       frame = null;
       const page = document.querySelector(".kst-campus main.page");
-      page?.querySelectorAll(".lesson, .kst-fallkarte, .modul").forEach(blockEinsetzen);
+      const detail = page?.querySelector(":scope > .lesson");
+      if (detail) blockEinsetzen(detail);
     };
     const planen = () => {
       if (frame !== null) return;
