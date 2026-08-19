@@ -1,0 +1,169 @@
+.k1-hausaufgaben-root[hidden] { display: none !important; }
+
+.k1-hausaufgaben-aktiv main.page > :not(.k1-hausaufgaben-root) {
+  display: none !important;
+}
+
+.k1-hausaufgaben-root,
+.k1-ha-page,
+.k1-ha-termin,
+.k1-ha-liste,
+.k1-ha-karte {
+  width: 100%;
+  min-width: 0;
+}
+
+.k1-ha-page { padding-bottom: 48px; }
+
+.k1-ha-termin {
+  margin: 34px 0 42px;
+}
+
+.k1-ha-termin__kopf {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid currentColor;
+}
+
+.k1-ha-termin__kopf h2 { margin: 3px 0 0; }
+.k1-ha-termin__kopf > span {
+  white-space: nowrap;
+  color: var(--ink-weich);
+  font: 11px var(--mono);
+}
+
+.k1-ha-quelle {
+  margin: 0 0 16px !important;
+  border-left: 3px solid var(--marker);
+}
+
+.k1-ha-quelle > b {
+  display: block;
+  margin-bottom: 8px;
+  font: 700 11px var(--mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.k1-ha-quelle p {
+  max-width: 94ch;
+  margin: 7px 0;
+  line-height: 1.55;
+}
+
+.k1-ha-quelle small,
+.k1-ha-fundstelle {
+  color: var(--ink-weich);
+  font: 10px/1.45 var(--mono);
+}
+
+.k1-ha-liste {
+  display: grid;
+  gap: 16px;
+}
+
+.k1-ha-karte {
+  margin: 0 !important;
+  scroll-margin-top: 92px;
+}
+
+.k1-ha-karte .panel__head h3 {
+  margin: 4px 0 0;
+  font-size: clamp(20px, 2.3vw, 27px);
+}
+
+.k1-ha-themen {
+  margin: 10px 0 2px;
+}
+
+.k1-ha-aufgabe {
+  margin-top: 14px;
+}
+
+.k1-ha-aufgabe p,
+.k1-ha-loesung p,
+.k1-ha-querverweise p {
+  overflow-wrap: anywhere;
+  line-height: 1.56;
+}
+
+.k1-ha-karte details {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--linie);
+}
+
+.k1-ha-karte summary {
+  cursor: pointer;
+  color: var(--tinte);
+  font-weight: 800;
+}
+
+.k1-ha-loesung {
+  margin-top: 14px;
+  min-width: 0;
+}
+
+.k1-ha-loesung .fall__block {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.k1-ha-querverweise {
+  margin-top: 16px;
+  padding: 14px;
+  border: 1px solid var(--linie);
+  background: var(--feld);
+}
+
+.k1-ha-querverweise > b {
+  display: block;
+  font: 700 11px var(--mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.k1-ha-querverweise p {
+  margin: 6px 0 10px;
+  color: var(--ink-weich);
+  font-size: 13px;
+}
+
+.k1-ha-querverweise__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.k1-ha-querverweise__links button {
+  border: 1px solid color-mix(in srgb, var(--tinte) 35%, var(--linie));
+  background: var(--papier);
+  color: var(--tinte);
+  padding: 6px 9px;
+  font: 600 10.5px/1.35 var(--mono);
+  text-align: left;
+  cursor: pointer;
+}
+
+.k1-ha-querverweise__links button:hover {
+  border-color: var(--tinte);
+  background: var(--tinte-feld);
+}
+
+.k1-ha-fundstelle {
+  margin-top: 12px;
+  padding-top: 9px;
+  border-top: 1px solid var(--linie-fein);
+}
+
+@media (max-width: 760px) {
+  .k1-ha-termin__kopf {
+    align-items: start;
+    flex-direction: column;
+  }
+  .k1-ha-termin__kopf > span { white-space: normal; }
+}
