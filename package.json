@@ -12,7 +12,8 @@
     "check:hausaufgaben": "node tools/pruefen-hausaufgaben-volltext.mjs",
     "check:k1-ust-hausaufgaben": "node tools/pruefen-k1-ust-hausaufgaben.mjs",
     "check:k1-ust-themen": "node tools/pruefen-k1-ust-themen.mjs",
-    "check:k1-ust-uebungsverweise": "node tools/pruefen-k1-ust-uebungsverweise.mjs"
+    "check:k1-ust-uebungsverweise": "node tools/pruefen-k1-ust-uebungsverweise.mjs",
+    "check:k1-ust-kurzskript": "node tools/pruefen-k1-ust-kurzskript-meurer.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
