@@ -1,3 +1,8 @@
+/* Die Register müssen vor allen Datenimporten laufen, weil sie die Einheiten
+   2, 5 und 6 in die gemeinsamen KSt-Arrays einspeisen. */
+import "../data/kst-einheit-2-register.js";
+import "../data/kst-einheit-5-register.js";
+import "../data/kst-einheit-6-register.js";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { kstBereiche, kstBereichName, kstModule, kstQuellen, kstSchemata } from "../data/kst-module";
 import { kstFaelle } from "../data/kst-faelle";
@@ -11,6 +16,11 @@ import {
   IconFaelle, IconSuche, IconSonne, IconMond, IconHaken,
 } from "./Icons";
 import "./kst.css";
+
+/* Reiner Bilanzstoff gehört ausschließlich in Klausur 3 und erscheint daher
+   auch nicht als bloßer Quellenhinweis im KSt-Campus. */
+const kstQuellenOhneK3 = kstQuellen.filter((quelle) => quelle.title !== "Notiz 30.07.2026");
+kstQuellen.splice(0, kstQuellen.length, ...kstQuellenOhneK3);
 
 const modulIds = new Set(kstModule.map((m) => m.id));
 
@@ -63,8 +73,13 @@ export default function KstCampus({ onKlausurwechsel }) {
         ...(m.goals || []),
         ...(m.scheme || []),
         ...(m.normchain || []),
+        m.example?.facts,
+        ...(m.example?.solution || []),
+        m.example?.result,
         m.merksatz,
-      ].join(" ").toLowerCase();
+        ...(m.exam || []),
+        ...(m.traps || []),
+      ].filter(Boolean).join(" ").toLowerCase();
       return text.includes(q);
     });
   }, [bereich, suche]);
@@ -529,7 +544,7 @@ function KstFallseite({ oeffnen }) {
         {kstFaelle.map((fall) => (
           <article className="panel kst-fallkarte" key={fall.id}>
             <div className="panel__head">
-              <div><span className="kicker">Fall {fall.id} · {fall.points} Punkte</span><h2>{fall.title}</h2></div>
+              <div><span className="kicker">Fall {fall.id} · {fall.points} Punkte{kstModule.find((m) => m.id === fall.moduleId)?.minutes ? ` · ${kstModule.find((m) => m.id === fall.moduleId).minutes} Min.` : ""}</span><h2>{fall.title}</h2></div>
               <button className="btn btn--klein btn--linie" onClick={() => oeffnen(fall.moduleId)}>Modul {fall.moduleId}</button>
             </div>
             <p className="kst-fallquelle">Quelle: {fall.source}</p>

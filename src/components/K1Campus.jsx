@@ -1,6 +1,17 @@
+/* Die Register müssen vor allen Datenimporten laufen, weil sie die Einheiten
+   3–8 in den gemeinsamen Array der Einheit 2 einspeisen. */
+import "../data/k1-ust-einheit-2-nachtrag-register.js";
+import "../data/k1-ust-einheit-3-register.js";
+import "../data/k1-ust-einheit-4-register.js";
+import "../data/k1-ust-einheit-5-register.js";
+import "../data/k1-ust-einheit-6-register.js";
+import "../data/k1-ust-einheit-7-register.js";
+import "../data/k1-ust-einheit-8-register.js";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import k1UstEinheit1 from "../data/module-vertiefung-m.js";
 import k1UstEinheit2 from "../data/module-vertiefung-n.js";
+import { k1EinheitenListe } from "../data/k1-einheiten.js";
+import { REDAKTIONSSTAND } from "../data/redaktion.js";
 import Schaubild from "./Schaubild";
 import UstPruefschema from "./UstPruefschema";
 import { Notiz } from "./Bausteine";
@@ -280,6 +291,8 @@ export default function K1Campus({ onKlausurwechsel }) {
   const [ansicht, setAnsicht] = useState("cockpit");
   const [fallId, setFallId] = useState(null);
   const [suche, setSuche] = useState("");
+  const [einheitFilter, setEinheitFilter] = useState("alle");
+  const [typFilter, setTypFilter] = useState("alle");
   const [schemaZiel, setSchemaZiel] = useState(null);
   const [navVerlauf, setNavVerlauf] = useState([
     { ansicht: "cockpit", fallId: null, schemaZiel: null, scrollY: 0 },
@@ -314,24 +327,29 @@ export default function K1Campus({ onKlausurwechsel }) {
 
   const gefiltert = useMemo(() => {
     const q = suche.trim().toLowerCase();
-    if (!q) return k1UstInhalte;
-    return k1UstInhalte.filter((m) => [
-      m.title,
-      m.law,
-      m.difficulty,
-      m.area,
-      ...(m.intro || []),
-      ...(m.goals || []),
-      ...(m.scheme || []),
-      ...(m.normchain || []),
-      m.example?.facts,
-      ...(m.example?.solution || []),
-      m.example?.result,
-      m.merksatz,
-      ...(m.exam || []),
-      ...(m.traps || []),
-    ].filter(Boolean).join(" ").toLowerCase().includes(q));
-  }, [suche]);
+    return k1UstInhalte.filter((m) => {
+      if (einheitFilter !== "alle" && m.einheit !== einheitFilter) return false;
+      if (typFilter === "fall" && m.area !== "Fall") return false;
+      if (typFilter === "modul" && m.area === "Fall") return false;
+      if (!q) return true;
+      return [
+        m.title,
+        m.law,
+        m.difficulty,
+        m.area,
+        ...(m.intro || []),
+        ...(m.goals || []),
+        ...(m.scheme || []),
+        ...(m.normchain || []),
+        m.example?.facts,
+        ...(m.example?.solution || []),
+        m.example?.result,
+        m.merksatz,
+        ...(m.exam || []),
+        ...(m.traps || []),
+      ].filter(Boolean).join(" ").toLowerCase().includes(q);
+    });
+  }, [suche, einheitFilter, typFilter]);
 
   const fall = fallId ? k1UstInhalte.find((m) => m.id === fallId) : null;
   const quote = anteil(erledigt.length, k1UstInhalte.length);
@@ -528,6 +546,10 @@ export default function K1Campus({ onKlausurwechsel }) {
           <K1Liste
             liste={gefiltert}
             suche={suche}
+            einheitFilter={einheitFilter}
+            setEinheitFilter={setEinheitFilter}
+            typFilter={typFilter}
+            setTypFilter={setTypFilter}
             erledigt={erledigt}
             umschalten={fortschritt.umschalten}
             oeffnen={oeffnen}
@@ -606,16 +628,28 @@ function K1Cockpit({ quote, erledigt, oeffnen, ansichtOeffnen, schemaOeffnen }) 
   );
 }
 
-function K1Liste({ liste, suche, erledigt, umschalten, oeffnen, schemaOeffnen }) {
+function K1Liste({ liste, suche, einheitFilter, setEinheitFilter, typFilter, setTypFilter, erledigt, umschalten, oeffnen, schemaOeffnen }) {
   return (
     <>
       <div className="pagehead">
         <div>
           <span className="kicker">Klausur 1 · Umsatzsteuer</span>
-          <h1>{suche ? `Treffer für „${suche}“` : "USt-Einheiten 1–8"}</h1>
-          <p className="lead">Originalfälle und systematische Lernmodule aus beiden Einheiten sind ausschließlich hier in Klausur 1 eingeordnet.</p>
+          <h1>{suche ? `Treffer für „${suche}“` : einheitFilter === "alle" ? "USt-Einheiten 1–8" : `USt-Einheit ${einheitFilter}`}</h1>
+          <p className="lead">Originalfälle und systematische Lernmodule aller Einheiten sind ausschließlich hier in Klausur 1 eingeordnet.</p>
         </div>
         <span className="zaehler">{liste.length} Inhalte</span>
+      </div>
+
+      <div className="filter" aria-label="Nach Einheit filtern">
+        <button aria-pressed={einheitFilter === "alle"} onClick={() => setEinheitFilter("alle")}>Alle Einheiten</button>
+        {k1EinheitenListe.map((e) => (
+          <button key={e} aria-pressed={einheitFilter === e} onClick={() => setEinheitFilter(e)}>Einheit {e}</button>
+        ))}
+      </div>
+      <div className="filter" aria-label="Nach Inhaltstyp filtern">
+        <button aria-pressed={typFilter === "alle"} onClick={() => setTypFilter("alle")}>Fälle und Module</button>
+        <button aria-pressed={typFilter === "fall"} onClick={() => setTypFilter("fall")}>Nur Originalfälle</button>
+        <button aria-pressed={typFilter === "modul"} onClick={() => setTypFilter("modul")}>Nur Lernmodule</button>
       </div>
 
       <div className="modules">
@@ -644,7 +678,7 @@ function K1Liste({ liste, suche, erledigt, umschalten, oeffnen, schemaOeffnen })
               </span>
               <div>
                 <div className="modul__kopf">
-                  <span>Umsatzsteuer</span>
+                  <span>Einheit {m.einheit}</span>
                   <span>{typ} {m.id}</span>
                   <span>{m.difficulty}</span>
                   <span>{m.minutes} Min.</span>
@@ -735,6 +769,14 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOe
         {m.traps?.length > 0 && <Notiz art="falle"><ul>{m.traps.map((t, i) => <li key={i}><VerlinkterText text={t} onOpen={schemaOeffnen} compact /></li>)}</ul></Notiz>}
       </Tz>
 
+      <Tz nummer={n()} label="Quellen" titel="Fundstellen und Rechtsstand">
+        <ul className="liste">
+          <li>USt-Kursmitschrift Einheit {m.einheit}{istFall ? " · Originalfall mit Quellenlösung" : " · systematisches Lernmodul"}</li>
+          <li>Maßgebliche Normen: {m.law}</li>
+        </ul>
+        <p className="rechtsstand">Redaktionsstand: {REDAKTIONSSTAND}. Kleinunternehmer-Reform und E-Rechnungspflicht 2025 sind im Prüfschema eingearbeitet.</p>
+      </Tz>
+
       <nav className="blaettern">
         {vorher ? <button onClick={() => oeffnen(vorher.id)}><small>← {vorher.area === "Fall" ? "Fall" : "Modul"} {vorher.id}</small><strong>{vorher.title}</strong></button> : <span />}
         {nachher ? <button onClick={() => oeffnen(nachher.id)}><small>{nachher.area === "Fall" ? "Fall" : "Modul"} {nachher.id} →</small><strong>{nachher.title}</strong></button> : <span />}
@@ -744,6 +786,8 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOe
 }
 
 function K1Originalfaelle({ oeffnen, schemaOeffnen }) {
+  const [einheit, setEinheit] = useState("alle");
+  const faelle = einheit === "alle" ? k1UstFaelle : k1UstFaelle.filter((m) => m.einheit === einheit);
   return (
     <>
       <div className="pagehead">
@@ -752,13 +796,19 @@ function K1Originalfaelle({ oeffnen, schemaOeffnen }) {
           <h1>Originalfälle der USt-Mitschriften</h1>
           <p className="lead">Sachverhalt, Aufgabenstellung, vollständige Lösung, Lösungsskizzen und zitierte Normen sind direkt in jeder Fallkarte aufklappbar.</p>
         </div>
-        <span className="zaehler">{k1UstFaelle.length} Fälle</span>
+        <span className="zaehler">{faelle.length} Fälle</span>
+      </div>
+      <div className="filter" aria-label="Fälle nach Einheit filtern">
+        <button aria-pressed={einheit === "alle"} onClick={() => setEinheit("alle")}>Alle Einheiten</button>
+        {k1EinheitenListe.map((e) => (
+          <button key={e} aria-pressed={einheit === e} onClick={() => setEinheit(e)}>Einheit {e}</button>
+        ))}
       </div>
       <div className="kst-faelle">
-        {k1UstFaelle.map((m) => (
+        {faelle.map((m) => (
           <article className="panel kst-fallkarte" key={m.id}>
             <div className="panel__head">
-              <div><span className="kicker">Fall {m.id} · {m.minutes} Min.</span><h2>{m.title}</h2></div>
+              <div><span className="kicker">Fall {m.id} · Einheit {m.einheit} · {m.minutes} Min.</span><h2>{m.title}</h2></div>
               <button className="btn btn--klein btn--linie" onClick={() => oeffnen(m.id)}>Fall öffnen</button>
             </div>
             <p className="kst-fallquelle">{m.law}</p>

@@ -1,27 +1,19 @@
-import "../data/kst-einheit-2-register.js";
-import "../data/kst-einheit-5-register.js";
-import "../data/kst-einheit-6-register.js";
-import "../data/k1-ust-einheit-2-nachtrag-register.js";
-import "../data/k1-ust-einheit-3-register.js";
-import "../data/k1-ust-einheit-4-register.js";
-import "../data/k1-ust-einheit-5-register.js";
-import "../data/k1-ust-einheit-6-register.js";
-import "../data/k1-ust-einheit-7-register.js";
-import "../data/k1-ust-einheit-8-register.js";
-import React, { useCallback, useState } from "react";
-import App from "../App";
-import K1Campus from "./K1Campus";
-import K1OriginalfallAufgabenEnhancer from "./K1OriginalfallAufgabenEnhancer";
-import K1Einheit7Enhancer from "./K1Einheit7Enhancer";
-import K1Einheit8Enhancer from "./K1Einheit8Enhancer";
-import KstCampus from "./KstCampus";
-import { kstQuellen } from "../data/kst-module";
+import React, { Suspense, lazy, useCallback, useState } from "react";
 import { laden, sichern } from "../lib/fortschritt";
 
-/* Reiner Bilanzstoff gehört ausschließlich in Klausur 3 und erscheint daher
-   auch nicht als bloßer Quellenhinweis im KSt-Campus. */
-const kstQuellenOhneK3 = kstQuellen.filter((quelle) => quelle.title !== "Notiz 30.07.2026");
-kstQuellen.splice(0, kstQuellen.length, ...kstQuellenOhneK3);
+/* Jeder Campus lädt als eigener Chunk erst beim Aufruf – inklusive seiner
+   Daten und Register (die Einheiten-Register importieren die Campusse selbst
+   als jeweils erste Importe). Das hält den Start-Chunk klein. */
+const App = lazy(() => import("../App"));
+const K1Campus = lazy(() => import("./K1Campus"));
+const KstCampus = lazy(() => import("./KstCampus"));
+const K1OriginalfallAufgabenEnhancer = lazy(() => import("./K1OriginalfallAufgabenEnhancer"));
+const K1Einheit7Enhancer = lazy(() => import("./K1Einheit7Enhancer"));
+const K1Einheit8Enhancer = lazy(() => import("./K1Einheit8Enhancer"));
+
+const Laden = () => (
+  <div className="campus-laden" role="status" aria-live="polite">Campus wird geladen …</div>
+);
 
 export default function CampusShell() {
   const [campus, setCampus] = useState(() => laden("stb-campus", "k3"));
@@ -33,15 +25,25 @@ export default function CampusShell() {
 
   if (campus === "k1") {
     return (
-      <>
+      <Suspense fallback={<Laden />}>
         <K1Campus onKlausurwechsel={wechseln} />
         <K1OriginalfallAufgabenEnhancer />
         <K1Einheit7Enhancer />
         <K1Einheit8Enhancer />
-      </>
+      </Suspense>
     );
   }
-  if (campus === "kst") return <KstCampus onKlausurwechsel={wechseln} />;
+  if (campus === "kst") {
+    return (
+      <Suspense fallback={<Laden />}>
+        <KstCampus onKlausurwechsel={wechseln} />
+      </Suspense>
+    );
+  }
 
-  return <App onKlausurwechsel={wechseln} />;
+  return (
+    <Suspense fallback={<Laden />}>
+      <App onKlausurwechsel={wechseln} />
+    </Suspense>
+  );
 }
