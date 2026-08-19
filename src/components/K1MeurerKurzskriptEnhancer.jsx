@@ -8,6 +8,7 @@ import {
   meurerKurzskriptFuerModul,
 } from "../data/k1-ust-kurzskript-meurer.js";
 import { SchemaVerweise, VerlinkterText } from "./K1SchemaLinks";
+import K1MeurerVisual from "./K1MeurerVisual";
 import "./k1-meurer-kurzskript.css";
 
 const inhaltById = new Map(
@@ -44,12 +45,7 @@ function KurzskriptBlock({ block, onSchema }) {
           <li key={index}><VerlinkterText text={text} onOpen={onSchema} compact /></li>
         ))}
       </ul>
-      {block.visual && (
-        <div className="k1-meurer-visual">
-          <strong>Schaubilder / Tabellen der Quelle</strong>
-          <p>{block.visual}</p>
-        </div>
-      )}
+      <K1MeurerVisual blockId={block.id} sourceHint={block.visual} />
       {block.klausur?.length > 0 && (
         <div className="k1-meurer-klausur">
           <strong>Klausurtechnik</strong>
@@ -82,8 +78,8 @@ function KurzskriptSektion({ modulId, onSchema }) {
             <h2 className="tz__titel">{MEURER_KURZSKRIPT_META.titel}</h2>
             <p>
               {MEURER_KURZSKRIPT_META.autor} · Stand {MEURER_KURZSKRIPT_META.stand}. Die hier
-              zugeordneten Seiten ergänzen dieses Lernmodul; Schaubilder und Tabellen sind
-              inhaltlich in den Hinweisen mitberücksichtigt.
+              zugeordneten Seiten ergänzen dieses Lernmodul; die visuellen Strukturen der Quelle
+              werden direkt darunter als eigenständig aufgebaute Schaubilder und Tabellen dargestellt.
             </p>
           </div>
           <span className="k1-meurer-head__count">{bloecke.length} {bloecke.length === 1 ? "Block" : "Blöcke"}</span>
