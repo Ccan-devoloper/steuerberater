@@ -71,6 +71,11 @@
   scroll-margin-top: 92px;
 }
 
+.k1-ha-karte--ziel {
+  outline: 3px solid var(--tinte);
+  outline-offset: 3px;
+}
+
 .k1-ha-karte .panel__head h3 {
   margin: 4px 0 0;
   font-size: clamp(20px, 2.3vw, 27px);
@@ -113,33 +118,44 @@
   max-width: 100%;
 }
 
-.k1-ha-querverweise {
+.k1-ha-querverweise,
+.k1-ha-overlap--inline {
   margin-top: 16px;
   padding: 14px;
   border: 1px solid var(--linie);
   background: var(--feld);
 }
 
-.k1-ha-querverweise > b {
+.k1-ha-overlap--inline {
+  margin-bottom: 14px;
+  border-left: 3px solid var(--marker);
+}
+
+.k1-ha-querverweise > b,
+.k1-ha-overlap--inline > strong {
   display: block;
   font: 700 11px var(--mono);
   letter-spacing: .08em;
   text-transform: uppercase;
 }
 
-.k1-ha-querverweise p {
+.k1-ha-querverweise p,
+.k1-ha-overlap--inline p {
   margin: 6px 0 10px;
   color: var(--ink-weich);
   font-size: 13px;
+  line-height: 1.5;
 }
 
-.k1-ha-querverweise__links {
+.k1-ha-querverweise__links,
+.k1-ha-overlap__links {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
 }
 
-.k1-ha-querverweise__links button {
+.k1-ha-querverweise__links button,
+.k1-ha-overlap__links button {
   border: 1px solid color-mix(in srgb, var(--tinte) 35%, var(--linie));
   background: var(--papier);
   color: var(--tinte);
@@ -149,7 +165,8 @@
   cursor: pointer;
 }
 
-.k1-ha-querverweise__links button:hover {
+.k1-ha-querverweise__links button:hover,
+.k1-ha-overlap__links button:hover {
   border-color: var(--tinte);
   background: var(--tinte-feld);
 }
