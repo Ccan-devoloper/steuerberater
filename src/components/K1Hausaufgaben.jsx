@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { k1UstHausaufgaben, k1UstHausaufgabenDidaktik } from "../data/k1-ust-hausaufgaben.js";
 import { SchemaVerweise, VerlinkteNormkette, VerlinkterText } from "./K1SchemaLinks";
 
@@ -6,7 +6,7 @@ function Inhaltsart(inhalt) {
   return inhalt?.area === "Fall" ? "Originalfall" : "Lernmodul";
 }
 
-export default function K1Hausaufgaben({ onOpenInhalt, onOpenSchema, inhaltById }) {
+export default function K1Hausaufgaben({ ziel, onOpenInhalt, onOpenSchema, inhaltById }) {
   const [fachtermin, setFachtermin] = useState("alle");
   const termine = useMemo(
     () => fachtermin === "alle"
@@ -15,6 +15,21 @@ export default function K1Hausaufgaben({ onOpenInhalt, onOpenSchema, inhaltById 
     [fachtermin],
   );
   const fallzahl = termine.reduce((summe, termin) => summe + termin.faelle.length, 0);
+
+  useEffect(() => {
+    const id = ziel?.id;
+    if (!id) return undefined;
+    const termin = k1UstHausaufgaben.find((eintrag) => eintrag.faelle.some((fall) => fall.id === id));
+    if (!termin) return undefined;
+    setFachtermin(String(termin.fachtermin));
+    const timer = window.setTimeout(() => {
+      const element = document.querySelector(`[data-k1-ha-id='${id}']`);
+      element?.scrollIntoView({ behavior: "smooth", block: "start" });
+      element?.classList.add("k1-ha-karte--ziel");
+      window.setTimeout(() => element?.classList.remove("k1-ha-karte--ziel"), 1800);
+    }, 80);
+    return () => window.clearTimeout(timer);
+  }, [ziel]);
 
   return (
     <div className="k1-ha-page">
