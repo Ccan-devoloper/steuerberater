@@ -1,3 +1,16 @@
+/* In Übersichtslisten werden keinerlei Übungs-Querverweise gezeigt. Die alten
+   Hausaufgaben-/Fallsammlungs-Enhancer können ihre Navigationsanker dort noch
+   erzeugen; sie bleiben aber unsichtbar. Sichtbar ist der vereinte Block nur
+   auf der geöffneten Detailseite. */
+.modul > .k1-fs-overlap--inline,
+.modul > .k1-ha-overlap--inline,
+.modul > .k1-uebung-overlap,
+.kst-fallkarte > .k1-fs-overlap--inline,
+.kst-fallkarte > .k1-ha-overlap--inline,
+.kst-fallkarte > .k1-uebung-overlap {
+  display: none !important;
+}
+
 .k1-uebung-vereint > .k1-fs-overlap--inline,
 .k1-uebung-vereint > .k1-ha-overlap--inline {
   display: none !important;
@@ -14,8 +27,11 @@
   box-sizing: border-box;
 }
 
-.modul > .k1-uebung-overlap {
-  grid-column: 1 / -1;
+/* Detailseite: bewusst erst nach Quellen/inhaltlichen Tz. und unmittelbar vor
+   der Blätternavigation. Der größere obere Abstand trennt Übungstransfer vom
+   eigentlichen Lernmodul. */
+.lesson > .k1-uebung-overlap--detail {
+  margin: 30px 0 20px;
 }
 
 .k1-uebung__kopf {
@@ -92,11 +108,17 @@
   font: 600 10.5px/1.4 var(--mono);
   text-align: left;
   overflow-wrap: anywhere;
+  cursor: pointer;
 }
 
 .k1-uebung__links button:hover {
   border-color: var(--tinte);
   background: var(--tinte-feld);
+}
+
+.k1-uebung__links button:focus-visible {
+  outline: 2px solid var(--tinte);
+  outline-offset: 2px;
 }
 
 .k1-uebung__gruppe[data-typ="originalfaelle"],
