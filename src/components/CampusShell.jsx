@@ -7,6 +7,7 @@ import { laden, sichern } from "../lib/fortschritt";
 const App = lazy(() => import("../App"));
 const K1Campus = lazy(() => import("./K1Campus"));
 const K1FallsammlungEnhancer = lazy(() => import("./K1FallsammlungEnhancer"));
+const K1HausaufgabenEnhancer = lazy(() => import("./K1HausaufgabenEnhancer"));
 const KstCampus = lazy(() => import("./KstCampus"));
 
 const Laden = () => (
@@ -26,6 +27,7 @@ export default function CampusShell() {
       <Suspense fallback={<Laden />}>
         <K1Campus onKlausurwechsel={wechseln} />
         <K1FallsammlungEnhancer />
+        <K1HausaufgabenEnhancer />
       </Suspense>
     );
   }
