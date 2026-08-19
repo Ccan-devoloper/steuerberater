@@ -1,0 +1,42 @@
+export default {
+  "id": "7.5",
+  "seminartag": 7,
+  "kategorie": "Umstrukturierung, Reise & Sonderbesteuerung",
+  "title": "Skireise",
+  "aufgabeQuelle": "Aufgaben-PDF S. 27",
+  "loesungQuelle": "Lösungs-PDF S. 45–46",
+  "aufgabe": [
+    "Beurteilen Sie Hans Glück!",
+    "Schon seit Jahren hat Hans Glück (HG) als zweites Standbein neben seinem Sportgeschäft in Aachen auch Skireisen zum Pauschalpreis in seinem Angebot.",
+    "Die Skireisen umfassen den Bustransfer, die Unterbringung im Hotel mit Halbpension, einen Skipass für eine Woche und einen Skikurs.",
+    "In der Zeit vom 10. bis 18.03.27 nahm eine 15-köpfige Reisegruppe aus Aachen das Angebot von HG wahr. Den Pauschalpreis von 2.400 € pro Person entrichtete die Gruppe – wie vereinbart – bei Buchung am 02.01.27.",
+    "Die Kalkulation des Reisepreises von 2.400 € pro Person resultierte aus den Preisabsprachen, die HG vor Beginn der Wintersaison im Juli 26 mit seinen Partnern getroffen hatte. Bei den vereinbarten Preisen handelt es sich um Nettobeträge, also ohne die gesetzliche Umsatzsteuer: • Reisebusunternehmen Schröders aus Düren für den Transfer von Aachen nach Oberstdorf und zurück in einem 15-Personen-Reisebus: 4.000 €. • Hotel Piste in Oberstdorf: Übernachtung mit Halbpension pro Person und Nacht: 160 € (darin enthalten insgesamt 40 € für Verpflegung). • Liftbetreiber Zug: Skipass für die Nutzung sämtlicher Lifte pro Person und Woche: 200 €. • Skikurs bei Maria Höflich aus Oberstdorf pro Person und Woche: 400 €.",
+    "Die Abrechnung mit den Partnern erfolgte auf der Grundlage der im Juli 26 getroffenen Preisabsprachen in der ersten Aprilwoche 27. Es wurden zutreffende Rechnungen erteilt."
+  ],
+  "loesung": [
+    "Eingangsleistung: Bustransfer durch Schröders Schröders erbringt eine sonstige Leistung gem. § 3 Abs. 9 S. 1 UStG, eine Beförderungsleistung, gegenüber HG. Leistungsort für die Personenbeförderungsleistung ist gem. § 3b Abs. 1 S. 1 und 2 UStG die Strecke; diese befindet sich vollständig im Inland. Da die Beförderungsleistung auch gegen Entgelt ausgeführt wird, ist sie steuerbar gem. § 1 Abs. 1 Nr. 1 S. 1 UStG, und mangels Steuerbefreiung auch steuerpflichtig.",
+    "Die Bemessungsgrundlage, das Entgelt gem. § 10 Abs. 1 S. 1 und 2 UStG beträgt 4.000 €. Damit ergibt sich bei einem Steuersatz von 19% (§ 12 Abs. 1 UStG) eine Umsatzsteuer von 760 €.",
+    "Eingangsleistung: Hotel Piste Das Hotel erbringt eine einheitliche sonstige Leistung, § 3 Abs. 9 S. 1 UStG. Die Verpflegung teilt als Nebenleistung das Schicksal der Hauptleistung Beherbergung. Der Leistungsort bestimmt sich nach dem Belegenheitsprinzip des § 3a Abs. 3 Nr. 1 S. 1 und S. 2 Buchst. a UStG und ist somit in Oberstdorf. Da die Beherbergungsleistung auch gegen Entgelt ausgeführt wird, ist sie steuerbar gem. § 1 Abs. 1 Nr. 1 S. 1 UStG und mangels Steuerbefreiung auch steuerpflichtig. Insbesondere die Steuerbefreiung des § 4 Nr. 12 S. 1 Buchst. a UStG kommt nicht zur Anwendung, da es sich um eine kurzfristige Vermietung von Wohn- und Schlafräumen handelt (§ 4 Nr. 12 S. 2 UStG).",
+    "Die Bemessungsgrundlage für die Beherbergungsleistung, das Entgelt gem. § 10 Abs. 1 S. 1 und 2 UStG, beträgt 120 € pro Person und Übernachtung. Bei einem Steuersatz von 7% (§ 12 Abs. 2 Nr. 11 S. 1 UStG) ergibt sich eine Umsatzsteuer von 8,40 € pro Person und Übernachtung. Da die Verpflegung nicht unmittelbar der Beherbergung dient, ist insoweit der ermäßigte Steuersatz nicht anzuwenden (§ 12 Abs. 2 Nr. 11 S. 2 i.V.m. Abs. 1 UStG). Für die 40 € entstehen deshalb Umsatzsteuer i.H.v. 7,60 € pro Person pro Tag.",
+    "Eingangsleistung: Lifttransport durch Lifte Lifte erbringt eine sonstige Leistung gem. § 3 Abs. 9 S. 1 UStG. Der Leistungsort bestimmt sich, da es sich um eine Beförderungsleistung handelt, nach § 3b Abs. 1 S. 1 und 2 UStG. Leistungsort ist danach die Strecke, die sich vollständig im Inland befindet. Die Leistung, die auch gegen Entgelt ausgeführt wird, ist steuerbar gem. § 1 Abs. 1 Nr. 1 S. 1 UStG, und mangels Steuerbefreiung auch steuerpflichtig.",
+    "Die Bemessungsgrundlage, das Entgelt gem. § 10 Abs. 1 S. 1 und 2 UStG, beträgt 200 € pro Person. Unter Berücksichtigung des Steuersatzes von 7% gem. § 12 Abs. 2 Nr. 10 Buchst. b UStG ergibt sich eine Umsatzsteuer von 14 € pro Person.",
+    "Eingangsleistung: Skikurs durch Maria Höflich Maria Höflich erbringt eine sonstige Leistung gem. § 3 Abs. 9 S. 1 UStG. Der Leistungsort ist nach § 3a Abs. 2 Satz 1 UStG dort, wo der Leistungsempfänger, also HG, sein Unternehmen betreibt; dies ist im Inland (Aachen). Da die Leistung auch gegen Entgelt ausgeführt wird, ist sie steuerbar gem. § 1 Abs. 1 Nr. 1 S. 1 UStG, und mangels Steuerbefreiung auch steuerpflichtig.",
+    "Die Bemessungsgrundlage, das Entgelt gem. § 10 Abs. 1 S. 1 und 2 UStG, beträgt 400 € pro Kursteilnehmer. Unter Berücksichtigung des Steuersatzes von 19% (§ 12 Abs. 1 UStG) ergibt sich eine Umsatzsteuer von 76 € pro Kursteilnehmer.",
+    "Skireise des HG HG erbringt eine Reiseleistung im Sinne von § 25 Abs. 1 S. 1 UStG. HG tritt gegenüber den Leistungsempfängern im eigenen Namen auf und nimmt Reisevorleistungen (Bustransfer, Unterbringung, Verpflegung, Skipass, Skikurs) in Anspruch. Es handelt sich um Reisevorleistungen, da diese Leistungen der Dritten den Reisenden unmittelbar zugutekommen (§ 25 Abs. 1 Satz 5 UStG). Somit sind die Voraussetzungen des § 25 Abs. 1 UStG erfüllt.",
+    "Die Pauschalreise des HG stellt eine einheitliche sonstige Leistung gem. § 25 Abs. 1 S. 2 und 3 UStG dar. Der Leistungsort bestimmt sich nach § 3a Abs. 1 UStG und ist am Sitzort des leistenden Unternehmers, also in Aachen / Inland (§ 25 Abs. 1 S. 4 UStG). Damit ist die Leistung, die auch gegen Entgelt ausgeführt wird, steuerbar gem. § 1 Abs. 1 Nr. 1 S. 1 UStG, und mangels Steuerbefreiung auch steuerpflichtig.",
+    "Bemessungsgrundlage für die Reiseleistung ist gem. § 25 Abs. 3 Satz 1 UStG die Differenz zwischen den Aufwendungen der Leistungsempfänger für die Reise und dem Betrag, den der Unternehmer für die Reisevorleistungen aufwendet.",
+    "Reisevorleistungen: Bustransfer",
+    "4.760 € Hotel Übernachtung: 7 Tage x 15 Personen x 128,40 € =",
+    "13.482 € Verpflegung: 7 Tage x 15 Personen x 47,60 € =",
+    "4.998 € Lifttransport: 15 Personen x 214 € =",
+    "3.210 € Skikurs: 15 Personen x 476 € =",
+    "7.140 € Summe Reisevorleistungen",
+    "33.590 €",
+    "Aufwendungen der Reiseteilnehmer: 15 Personen x 2.400 € =",
+    "36.000 € Differenz = Bruttobetrag (§ 25 Abs. 3 Satz 2 UStG) =",
+    "2.410 €",
+    "Es ergibt sich eine Bemessungsgrundlage gem. § 25 Abs. 3 S. 1, 2 UStG in Höhe von 2.025,21 € (2.410 € : 1,19), demnach 135,01 € pro Person. Unter Berücksichtigung des Steuersatzes von 19% (§ 12 Abs. 1 UStG) ergibt sich eine Umsatzsteuer von 384,79 €, demnach 26,65 € pro Person. Die Umsatzsteuer entsteht gem. § 13 Abs. 1 Nr. 1 Buchst. a S. 1 UStG grundsätzlich mit Ablauf des VAZ der Leistungsausführung, also mit Ablauf März 27. Da die Teilnehmer bereits bei Buchung im Januar 27 gezahlt haben, entsteht die Umsatzsteuer gem. § 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG bereits mit Ablauf des VAZ der Vereinnahmung, also mit Ablauf Januar 27.",
+    "Ein Vorsteuerabzug der Umsatzsteuerbeträge, die auf Reisevorleistungen entfallen, ist gem. § 25 Abs. 4 Satz 1 UStG nicht möglich."
+  ],
+  "overlapIds": [151, 228, 232]
+};
