@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "check:fallsammlung": "node tools/pruefen-fallsammlung.mjs",
     "check:fallsammlung-format": "node tools/pruefen-fallsammlung-format.mjs",
-    "check:hausaufgaben": "node tools/pruefen-hausaufgaben-volltext.mjs"
+    "check:hausaufgaben": "node tools/pruefen-hausaufgaben-volltext.mjs",
+    "check:k1-ust-hausaufgaben": "node tools/pruefen-k1-ust-hausaufgaben.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
