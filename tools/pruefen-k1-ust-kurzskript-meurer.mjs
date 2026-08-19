@@ -6,6 +6,8 @@ import {
   meurerKurzskriptBloecke,
   meurerNeueLernmodule,
 } from "../src/data/k1-ust-kurzskript-meurer.js";
+import { meurerVisualsABC } from "../src/data/k1-ust-kurzskript-visuals-abc.js";
+import { meurerVisualsDEF } from "../src/data/k1-ust-kurzskript-visuals-def.js";
 
 const assert = (bedingung, meldung) => {
   if (!bedingung) throw new Error(meldung);
@@ -16,6 +18,8 @@ const module = inhalte.filter((inhalt) => inhalt.area !== "Fall");
 const faelle = inhalte.filter((inhalt) => inhalt.area === "Fall");
 const modulIds = new Set(module.map((modul) => Number(modul.id)));
 const fallIds = new Set(faelle.map((fall) => Number(fall.id)));
+const nativeVisuals = { ...meurerVisualsABC, ...meurerVisualsDEF };
+const erlaubteVisualArten = new Set(["chain", "steps", "compare", "tree", "table", "timeline"]);
 
 assert(MEURER_KURZSKRIPT_META.pdfSeiten === 124, "Meurer-Kurzskript: erwartet werden 124 PDF-Seiten.");
 assert(MEURER_KURZSKRIPT_META.redaktion[0] === 1 && MEURER_KURZSKRIPT_META.redaktion[1] === 6, "Redaktionelle Seiten 1–6 fehlen im Nachweis.");
@@ -31,6 +35,14 @@ for (const block of meurerKurzskriptBloecke) {
   assert(!fallIds.has(Number(block.zielId)), `${block.id}: Ziel ${block.zielId} verweist fälschlich auf einen Originalfall.`);
   assert(block.kernaussagen.length > 0, `${block.id}: keine fachlichen Kernaussagen.`);
   assert(block.klausur.length > 0, `${block.id}: keine Klausurtechnik hinterlegt.`);
+
+  const visuals = nativeVisuals[block.id];
+  assert(Array.isArray(visuals) && visuals.length > 0, `${block.id}: natives Schaubild / Tabelle fehlt.`);
+  for (const visual of visuals) {
+    assert(erlaubteVisualArten.has(visual.kind), `${block.id}: unbekannter Visual-Typ ${visual.kind}.`);
+    assert(typeof visual.title === "string" && visual.title.trim().length > 0, `${block.id}: Visual ohne Titel.`);
+  }
+
   for (let seite = von; seite <= bis; seite += 1) deckung[seite] += 1;
 }
 
@@ -53,6 +65,7 @@ for (const modul of meurerNeueLernmodule) {
 
 const fachseiten = meurerKurzskriptBloecke.reduce((summe, block) => summe + block.pdf[1] - block.pdf[0] + 1, 0);
 assert(fachseiten === 118, `Erwartet 118 fachliche PDF-Seiten (7–124), gefunden ${fachseiten}.`);
+assert(Object.keys(nativeVisuals).length === meurerKurzskriptBloecke.length, "Visual-Register und Kurzskript-Blöcke haben unterschiedliche Umfänge.");
 
 const zielStatistik = new Map();
 for (const block of meurerKurzskriptBloecke) {
@@ -61,5 +74,5 @@ for (const block of meurerKurzskriptBloecke) {
 
 console.log(
   `Meurer-USt-Kurzskript vollständig: 124/124 PDF-Seiten erfasst, ${meurerKurzskriptBloecke.length} fachliche Blöcke, ` +
-  `${meurerNeueLernmodule.length} neue Unterthemen, ${zielStatistik.size} Lernmodule mit Kurzskript-Vertiefung.`,
+  `${meurerNeueLernmodule.length} neue Unterthemen, ${zielStatistik.size} Lernmodule und ${Object.keys(nativeVisuals).length} native Visual-Sets.`,
 );
