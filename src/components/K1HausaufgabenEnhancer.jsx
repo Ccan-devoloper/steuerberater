@@ -11,6 +11,7 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import k1UstEinheit1 from "../data/module-vertiefung-m.js";
 import k1UstEinheit2 from "../data/module-vertiefung-n.js";
+import { k1UstHausaufgaben } from "../data/k1-ust-hausaufgaben.js";
 import { IconTraining } from "./Icons";
 import K1Hausaufgaben from "./K1Hausaufgaben";
 import "./k1-hausaufgaben.css";
@@ -19,8 +20,17 @@ const k1UstInhaltById = new Map(
   [...k1UstEinheit1, ...k1UstEinheit2].map((inhalt) => [inhalt.id, inhalt]),
 );
 
+const k1HausaufgabenFaelle = k1UstHausaufgaben.flatMap((termin) =>
+  termin.faelle.map((fall) => ({ ...fall, fachtermin: termin.fachtermin })),
+);
+
+function hausaufgabenNachInhalt(inhaltId) {
+  const id = Number(inhaltId);
+  return k1HausaufgabenFaelle.filter((fall) => (fall.querverweise || []).includes(id));
+}
+
 function idAusText(text) {
-  const treffer = String(text || "").match(/(?:Fall|Lernmodul)\s+(\d+)/i);
+  const treffer = String(text || "").match(/(?:Originalfall|Fall|Lernmodul)\s+(\d+)/i);
   return treffer ? Number(treffer[1]) : null;
 }
 
@@ -37,9 +47,80 @@ function inputSetzen(input, wert) {
   input.dispatchEvent(new Event("change", { bubbles: true }));
 }
 
+function inhaltIdFuerElement(element) {
+  if (element.matches(".lesson")) {
+    return idAusText(element.querySelector(".lesson__kopf .kicker")?.textContent);
+  }
+  if (element.matches(".kst-fallkarte")) {
+    return idAusText(element.querySelector(".panel__head .kicker")?.textContent);
+  }
+  if (element.matches(".modul")) {
+    return idAusText(element.querySelector(".modul__kopf")?.textContent);
+  }
+  return null;
+}
+
+function overlapBlockBauen(inhaltId, onOpen) {
+  const faelle = hausaufgabenNachInhalt(inhaltId);
+  if (!faelle.length) return null;
+
+  const block = document.createElement("aside");
+  block.className = "k1-ha-overlap--inline";
+  block.dataset.k1HaOverlap = String(inhaltId);
+
+  const titel = document.createElement("strong");
+  titel.textContent = faelle.length === 1
+    ? "Passende USt-Hausaufgabe"
+    : "Passende USt-Hausaufgaben";
+  block.appendChild(titel);
+
+  const hinweis = document.createElement("p");
+  hinweis.textContent = "Diese Hausaufgabe greift denselben oder eng überlappenden Prüfungsstoff auf.";
+  block.appendChild(hinweis);
+
+  const links = document.createElement("div");
+  links.className = "k1-ha-overlap__links";
+  for (const fall of faelle) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = `${fall.fachtermin}. Fachtermin · Fall ${fall.nummer}: ${fall.titel} ↗`;
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      onOpen(fall.id);
+    });
+    links.appendChild(button);
+  }
+  block.appendChild(links);
+  return block;
+}
+
+function overlapEinsetzen(element, onOpen) {
+  if (element.querySelector(":scope > [data-k1-ha-overlap]")) return;
+  const id = inhaltIdFuerElement(element);
+  if (!id) return;
+  const block = overlapBlockBauen(id, onOpen);
+  if (!block) return;
+
+  if (element.matches(".lesson")) {
+    const kopf = element.querySelector(".lesson__kopf");
+    if (kopf) kopf.insertAdjacentElement("afterend", block);
+    else element.prepend(block);
+    return;
+  }
+  if (element.matches(".kst-fallkarte")) {
+    const sachverhalt = element.querySelector(".kst-sachverhalt");
+    if (sachverhalt) element.insertBefore(block, sachverhalt);
+    else element.prepend(block);
+    return;
+  }
+  element.appendChild(block);
+}
+
 export default function K1HausaufgabenEnhancer() {
   const [aktiv, setAktiv] = useState(false);
   const [modus, setModus] = useState("none");
+  const [ziel, setZiel] = useState(null);
   const [mounts, setMounts] = useState({ nav: null, page: null });
   const aktivRef = useRef(false);
   const modusRef = useRef("none");
@@ -60,10 +141,15 @@ export default function K1HausaufgabenEnhancer() {
     window.setTimeout(() => window.scrollTo({ top: haScrollRef.current || 0, behavior: "auto" }), 40);
   }, [aktivSetzen]);
 
-  const hausaufgabenOeffnen = useCallback(() => {
+  const hausaufgabenOeffnen = useCallback((fallId = null) => {
     modusSetzen("none");
+    if (fallId) {
+      setZiel({ id: String(fallId), token: Date.now() });
+    } else {
+      setZiel(null);
+      window.setTimeout(() => window.scrollTo({ top: 0, behavior: "auto" }), 20);
+    }
     aktivSetzen(true);
-    window.setTimeout(() => window.scrollTo({ top: 0, behavior: "auto" }), 20);
   }, [aktivSetzen, modusSetzen]);
 
   const k1InhaltOeffnen = useCallback((inhaltId) => {
@@ -118,7 +204,7 @@ export default function K1HausaufgabenEnhancer() {
     window.setTimeout(() => versucheOeffnen(), 30);
   }, [aktivSetzen, modusSetzen]);
 
-  const schemaOeffnen = useCallback((ziel) => {
+  const schemaOeffnen = useCallback((schemaZiel) => {
     haScrollRef.current = window.scrollY;
     aktivSetzen(false);
     modusSetzen("back-ha");
@@ -133,7 +219,7 @@ export default function K1HausaufgabenEnhancer() {
         window.setTimeout(() => versucheSchema(versuch + 1), 45);
         return;
       }
-      const element = document.getElementById(ziel);
+      const element = document.getElementById(schemaZiel);
       if (element) {
         element.scrollIntoView({ behavior: "smooth", block: "start" });
         return;
@@ -152,6 +238,7 @@ export default function K1HausaufgabenEnhancer() {
       const nav = campus?.querySelector(".rail__nav") || null;
       const page = campus?.querySelector("main.page") || null;
       setMounts((alt) => (alt.nav === nav && alt.page === page ? alt : { nav, page }));
+      page?.querySelectorAll(".lesson, .kst-fallkarte, .modul").forEach((element) => overlapEinsetzen(element, hausaufgabenOeffnen));
     };
     const planen = () => {
       if (frame !== null) return;
@@ -164,7 +251,7 @@ export default function K1HausaufgabenEnhancer() {
       observer.disconnect();
       if (frame !== null) window.cancelAnimationFrame(frame);
     };
-  }, []);
+  }, [hausaufgabenOeffnen]);
 
   useEffect(() => {
     const campus = document.querySelector(".kst-campus");
@@ -263,7 +350,8 @@ export default function K1HausaufgabenEnhancer() {
       if (aktivRef.current) {
         const andererRail = event.target.closest?.(".rail__link:not(.k1-hausaufgaben-tab)");
         const brand = event.target.closest?.(".topbar .brand");
-        if (andererRail || brand) {
+        const suche = event.target.closest?.('input[aria-label="Umsatzsteuer-Inhalte durchsuchen"]');
+        if (andererRail || brand || suche) {
           haScrollRef.current = window.scrollY;
           aktivSetzen(false);
           modusSetzen("back-ha");
@@ -302,7 +390,7 @@ export default function K1HausaufgabenEnhancer() {
       type="button"
       className="rail__link k1-hausaufgaben-tab"
       aria-current={aktiv ? "true" : undefined}
-      onClick={hausaufgabenOeffnen}
+      onClick={() => hausaufgabenOeffnen()}
       title="USt-Hausaufgaben öffnen"
     >
       <IconTraining />
@@ -314,6 +402,7 @@ export default function K1HausaufgabenEnhancer() {
   const inhalt = mounts.page ? createPortal(
     <div className="k1-hausaufgaben-root" hidden={!aktiv}>
       <K1Hausaufgaben
+        ziel={ziel}
         onOpenInhalt={k1InhaltOeffnen}
         onOpenSchema={schemaOeffnen}
         inhaltById={k1UstInhaltById}
