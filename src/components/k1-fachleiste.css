@@ -1,3 +1,11 @@
+.k1-fachleiste-mount {
+  min-height: 42px;
+  position: sticky;
+  top: calc(var(--kopf) + 41px);
+  z-index: 29;
+  background: var(--papier);
+}
+
 .k1-fachleiste {
   grid-column: 1 / -1;
   display: grid;
@@ -11,7 +19,12 @@
   z-index: 29;
 }
 
-.kst-campus > .k1-fachleiste ~ .rail {
+.k1-fachleiste-mount .k1-fachleiste {
+  position: static;
+}
+
+.kst-campus > .k1-fachleiste ~ .rail,
+.kst-campus > .k1-fachleiste-mount ~ .rail {
   top: calc(var(--kopf) + 83px);
 }
 
