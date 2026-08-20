@@ -1,0 +1,9 @@
+[data-ao-links] { display: contents; }
+.ao-links-tz { border-top-color: var(--gruen); }
+.ao-links-tz > .tz__no b { color: var(--gruen); }
+.ao-linkcards { display: grid; gap: 9px; margin-top: 12px; }
+.ao-linkcards button { border: 1px solid var(--linie); border-left: 3px solid var(--gruen); background: var(--papier); text-align: left; padding: 11px 13px; display: grid; gap: 3px; }
+.ao-linkcards button:hover { background: var(--gruen-feld); border-color: var(--gruen); }
+.ao-linkcards b { font: 700 11px var(--mono); color: var(--gruen); }
+.ao-linkcards span { font-weight: 650; }
+.ao-linkcards small { color: var(--tinte); font: 10px var(--mono); }
