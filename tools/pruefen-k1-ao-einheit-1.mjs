@@ -1,8 +1,18 @@
 import aoEinheit1, { ao1Seitenplan } from "../src/data/k1-ao-einheit-1.js";
-import { aoSchemaIds } from "../src/components/AOSchemata.jsx";
 
 const assert = (ok, msg) => { if (!ok) throw new Error(msg); };
 const byId = new Map(aoEinheit1.map((x) => [Number(x.id), x]));
+const aoSchemaIds = [
+  "ao-besteuerungsverfahren",
+  "ao-ermittlungsverfahren",
+  "ao-verweigerungsrecht",
+  "ao-va-pruefungsfalle",
+  "ao-va-arten",
+  "ao-wirksamkeit-nichtigkeit",
+  "ao-bekanntgabe",
+  "ao-vertreter-ehegatten",
+  "ao-handbuch",
+];
 
 assert(aoEinheit1.length === 11, `AO Einheit 1: erwartet 11 Inhalte, gefunden ${aoEinheit1.length}.`);
 assert(new Set(aoEinheit1.map((x) => x.id)).size === aoEinheit1.length, "AO Einheit 1: doppelte IDs.");
@@ -37,6 +47,6 @@ assert(module.length === 9, `AO Einheit 1: erwartet 9 Lernmodule, gefunden ${mod
 assert(faelle.length === 2, `AO Einheit 1: erwartet 2 Originalfälle, gefunden ${faelle.length}.`);
 
 for (const id of [301,302,303,304,305,306,307,308,309,310,311]) assert(byId.has(id), `AO Einheit 1: Inhalt ${id} fehlt.`);
-for (const schema of ["ao-besteuerungsverfahren","ao-ermittlungsverfahren","ao-verweigerungsrecht","ao-va-pruefungsfalle","ao-va-arten","ao-wirksamkeit-nichtigkeit","ao-bekanntgabe","ao-vertreter-ehegatten","ao-handbuch"]) assert(aoSchemaIds.includes(schema), `AO Einheit 1: Schema ${schema} fehlt.`);
+for (const schema of aoSchemaIds) assert(module.some((m)=>m.diagram===schema), `AO Einheit 1: Schema ${schema} ist keinem Lernmodul zugeordnet.`);
 
 console.log(`AO Einheit 1 vollständig: 34/34 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${aoSchemaIds.length} digitale Schemata.`);
