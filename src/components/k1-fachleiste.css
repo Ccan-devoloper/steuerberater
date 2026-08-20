@@ -6,8 +6,13 @@
   border-bottom: 1px solid var(--linie);
   background: var(--papier);
   padding: 0 4px;
-  position: relative;
-  z-index: 3;
+  position: sticky;
+  top: calc(var(--kopf) + 41px);
+  z-index: 29;
+}
+
+.kst-campus > .k1-fachleiste ~ .rail {
+  top: calc(var(--kopf) + 83px);
 }
 
 .k1-fachleiste__tab {
