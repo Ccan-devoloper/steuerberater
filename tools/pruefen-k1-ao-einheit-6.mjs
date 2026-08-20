@@ -62,8 +62,8 @@ assert(byId.get(364).diagram==="ao6-fall-saldierung"&&byId.get(365).diagram==="a
 
 for(const marker of ["10.000 €","3.000 €","1.500 €","2.100 €","14.500 €","7.900 €","9.700 €"])assert(renderer.includes(marker),`AO Einheit 6: Quellenwert fehlt im §177-Fall: ${marker}`);
 for(const marker of ["SFFEB","D.B.E.W.W","N.O.N.B.H","RRAG","7.7.26","§ 351 Abs. 1 AO"])assert(renderer.includes(marker),`AO Einheit 6: Quellenmarker fehlt in der Einspruchsabwandlung: ${marker}`);
-for(const marker of ["kein Ermittlungsfehler FA","kein grobes Verschulden","Kompensationsverbot","Bindungswirkung ∞","Rückwirkendes Ereignis","Spinnenregel","Obj. Tatbestand","Subj. T","Selbstanzeige","Vollstreckung","FGO-Fahrtroute"])assert(renderer.includes(marker),`AO Einheit 6: Quellen-/Schema-Marker fehlt: ${marker}`);
-for(const marker of ["§ 249 Abs. 1","§ 251 Abs. 1","§ 361","§ 254 Abs. 1","§ 220","§ 259","§ 281 Abs. 1","§ 286","§ 263","§ 295"])assert(renderer.includes(marker),`AO Einheit 6: Vollstreckungsnorm fehlt: ${marker}`);
+for(const marker of ["kein Ermittlungsfehler FA","kein grobes Verschulden","Kompensationsverbot","Bindungswirkung ∞","Rückwirkendes Ereignis","Spinnenregel","Obj. Tatbest.","Subj. T.","Selbstanz.","Vollstreckung","FGO-Fahrtroute"])assert(renderer.includes(marker),`AO Einheit 6: Quellen-/Schema-Marker fehlt: ${marker}`);
+for(const marker of ["§ 249 (1)","§ 251 (1)","§ 361","§ 254 (1)","§ 220","§ 259","§ 281 (1)","§ 286","§ 263","§ 295"])assert(renderer.includes(marker),`AO Einheit 6: Vollstreckungsnorm fehlt: ${marker}`);
 for(const marker of ["§ 33 FGO","§ 35 FGO","§ 38 FGO","§§ 57, 62 FGO","§ 58 FGO","§ 63 FGO","§§ 40, 41 FGO","§ 44 FGO","§ 40(2) FGO","§ 47 FGO / § 54 FGO"])assert(renderer.includes(marker),`AO Einheit 6: FGO-Station fehlt: ${marker}`);
 
 for(const id of ["ao-schema-173-verschulden","ao-schema-173-rechtserheblichkeit","ao-schema-172","ao-schema-175-grundlagen","ao-schema-175-rueckwirkend","ao-schema-177","ao-schema-handbuch","ao-schema-vollstreckung","ao-schema-fgo"])assert(pruefschema.includes(id),`AO Einheit 6: Prüfschema-Ziel ${id} fehlt.`);
