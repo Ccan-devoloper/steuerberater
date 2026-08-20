@@ -1,6 +1,13 @@
 import React from "react";
 
 const ZIELE = [
+  [/§\s*171\s*Abs\.\s*14\b|§\s*37\s*Abs\.\s*2\b|§§?\s*228\b/i, "ao-schema-erstattung"],
+  [/§\s*171\s*Abs\.\s*12\b|§\s*1922\b|§\s*1942\b/i, "ao-schema-erbe"],
+  [/§\s*179\s*Abs\.\s*3\b/i, "ao-schema-ergaenzungsbescheid"],
+  [/§\s*181\s*Abs\.\s*5\b|§\s*181\s*Abs\.\s*1\b|AEAO\s+zu\s+§\s*179/i, "ao-schema-feststellungsbescheid-181"],
+  [/§\s*171\s*Abs\.\s*10\b|§\s*175\s*Abs\.\s*1\s*Nr\.\s*1\b|§\s*182\s*Abs\.\s*1\b/i, "ao-schema-grundlagenbescheid"],
+  [/§\s*171\s*Abs\.\s*5\b|§\s*171\s*Abs\.\s*9\b|§\s*169\s*Abs\.\s*2\s*S\.\s*2\b/i, "ao-schema-ao4-paerchen"],
+  [/§\s*171\s*Abs\.\s*4\b|§\s*196\b|AEAO\s+zu\s+§\s*171\s+Nr\.\s*3\.2/i, "ao-schema-aussenpruefung"],
   [/§\s*357\s*Abs\.\s*2\b|AEAO\s+zu\s+§\s*110/i, "ao-schema-einspruch-falsches-fa"],
   [/§\s*350\b|§\s*358\b/i, "ao-schema-beschwer"],
   [/§\s*351\s*Abs\.\s*1\b/i, "ao-schema-begruendetheit"],
@@ -11,7 +18,7 @@ const ZIELE = [
   [/§\s*169\s*Abs\.\s*2\b/i, "ao-schema-ff-dauer"],
   [/§\s*170\b/i, "ao-schema-ff-beginn"],
   [/§\s*169\s*Abs\.\s*1\b/i, "ao-schema-ff-ende"],
-  [/§\s*171\s*Abs\.\s*3a\b|§\s*171\s*Abs\.\s*4\b/i, "ao-schema-ablaufhemmungen"],
+  [/§\s*171\s*Abs\.\s*3a\b/i, "ao-schema-ablaufhemmungen"],
   [/§\s*171\s*Abs\.\s*2\b|§\s*171\s*Abs\.\s*3\b|§\s*173a\b/i, "ao-schema-korrekturpaerchen"],
   [/§\s*38\b/i, "ao-schema-ablauf"],
   [/§§?\s*85|§\s*88\b|§\s*92\b/i, "ao-schema-ermittlung"],
