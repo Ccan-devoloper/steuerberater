@@ -11,7 +11,9 @@ const MODUL_ZU_FAELLEN = {
   312: [{ id:320, titel:"Ordnungsgemäße Bekanntgabe in vier Varianten" }],
   313: [{ id:320, titel:"Ordnungsgemäße Bekanntgabe in vier Varianten" }, { id:321, titel:"Ende der Einspruchsfrist" }],
   314: [{ id:321, titel:"Ende der Einspruchsfrist" }],
-  319: [{ id:321, titel:"Ende der Einspruchsfrist" }],
+  318: [{ id:365, titel:"Abwandlung: Einspruch gegen Änderungsbescheid – § 351 AO und Anfechtungsrahmen" }],
+  319: [{ id:321, titel:"Ende der Einspruchsfrist" }, { id:365, titel:"Abwandlung: Einspruch gegen Änderungsbescheid – § 351 AO und Anfechtungsrahmen" }],
+  324: [{ id:365, titel:"Abwandlung: Einspruch gegen Änderungsbescheid – § 351 AO und Anfechtungsrahmen" }],
   329: [{ id:334, titel:"Festsetzungsfrist und § 129 AO" }],
   330: [{ id:334, titel:"Festsetzungsfrist und § 129 AO" }],
   331: [{ id:334, titel:"Festsetzungsfrist und § 129 AO" }],
@@ -23,6 +25,12 @@ const MODUL_ZU_FAELLEN = {
     { id:355, titel:"Januar-Miete 2023 bereits am 30.12.2022 gezahlt" },
     { id:356, titel:"Zweifamilienhaus – tatsächliche Wohnflächen später bekannt" },
     { id:357, titel:"Vollständig neue vermietete Wohnung mit Verlustsaldo" },
+    { id:364, titel:"Saldierungsfall 2024: Honorar, Zahlendreher, Feststellungsbescheid und VuV" },
+  ],
+  361: [{ id:364, titel:"Saldierungsfall 2024: Honorar, Zahlendreher, Feststellungsbescheid und VuV" }],
+  363: [
+    { id:364, titel:"Saldierungsfall 2024: Honorar, Zahlendreher, Feststellungsbescheid und VuV" },
+    { id:365, titel:"Abwandlung: Einspruch gegen Änderungsbescheid – § 351 AO und Anfechtungsrahmen" },
   ],
 };
 const FALL_ZU_MODULEN = {
@@ -36,6 +44,17 @@ const FALL_ZU_MODULEN = {
   355: [{ id:354, titel:"§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2" }],
   356: [{ id:354, titel:"§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2" }],
   357: [{ id:354, titel:"§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2" }],
+  364: [
+    { id:354, titel:"§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2" },
+    { id:361, titel:"§ 175 Abs. 1 Nr. 1 AO: Anpassung an Grundlagen-/Feststellungsbescheide" },
+    { id:363, titel:"§ 177 AO: Plan C – Saldierung, materieller Fehler und Ober-/Untergrenze" },
+  ],
+  365: [
+    { id:318, titel:"Einspruchsverfahren: Zulässigkeit" },
+    { id:319, titel:"Einspruchsfrist, Ende und fristwahrender Eingang" },
+    { id:324, titel:"Begründetheit des Einspruchs" },
+    { id:363, titel:"§ 177 AO: Plan C – Saldierung, materieller Fehler und Ober-/Untergrenze" },
+  ],
 };
 
 function rail(text) { return Array.from(document.querySelectorAll(".ao-campus .rail__link")).find((b)=>b.textContent?.trim()===text); }
