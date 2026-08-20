@@ -18,13 +18,25 @@ const BLOECKE = [
   ["ao-schema-einspruch", "Einspruchsverfahren und Erfolgsformel", "ao-einspruch-grundlagen", "Einheit 2 · PDF-S. 25–28"],
   ["ao-schema-einspruch-zulaessigkeit", "Zulässigkeit: Statthaftigkeit und Form", "ao-einspruch-zulaessigkeit-form", "Einheit 2 · PDF-S. 29–32"],
   ["ao-schema-einspruch-frist", "Einspruchsfrist, Ende und fristwahrender Eingang", "ao-einspruch-frist-wirkung", "Einheit 2 · PDF-S. 33–38"],
+  ["ao-schema-einspruch-falsches-fa", "Einspruch beim falschen Finanzamt und Wiedereinsetzung", "ao3-falsches-fa", "Einheit 3 · PDF-S. 1–2"],
+  ["ao-schema-beschwer", "Einspruchsbefugnis und Beschwer", "ao3-beschwer", "Einheit 3 · PDF-S. 3–8"],
+  ["ao-schema-begruendetheit", "Begründetheit des Einspruchs", "ao3-begruendetheit", "Einheit 3 · PDF-S. 9–15"],
+  ["ao-schema-einspruch-besonderheiten", "Besonderheiten: Gesamtaufrollung, Verböserung und Rücknahme", "ao3-einspruch-besonderheiten", "Einheit 3 · PDF-S. 16–20"],
+  ["ao-schema-einspruch-erledigung", "Erledigung des Einspruchs", "ao3-einspruch-erledigung", "Einheit 3 · PDF-S. 21–25"],
+  ["ao-schema-plan-abc", "Gesamtstrategie Plan A / Plan B / Plan C", "ao3-plan-abc", "Einheit 3 · PDF-S. 26"],
+  ["ao-schema-korrekturformel", "Korrekturformel und Schlüssel-Schrank-Schema", "ao3-korrekturformel", "Einheit 3 · PDF-S. 27–36"],
+  ["ao-schema-ff-beginn", "Festsetzungsfrist: Beginn", "ao3-ff-beginn", "Einheit 3 · PDF-S. 37–38"],
+  ["ao-schema-ff-dauer", "Festsetzungsfrist: Dauer", "ao3-ff-dauer", "Einheit 3 · PDF-S. 39"],
+  ["ao-schema-ff-ende", "Festsetzungsfrist: reguläres Ende", "ao3-ff-ende", "Einheit 3 · PDF-S. 40–41"],
+  ["ao-schema-korrekturpaerchen", "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist", "ao3-korrekturpaerchen", "Einheit 3 · PDF-S. 44–50"],
+  ["ao-schema-ablaufhemmungen", "Ablaufhemmungen bei Einspruch und Außenprüfung", "ao3-ablaufhemmungen", "Einheit 3 · PDF-S. 51–53"],
 ];
 
 export default function AOPruefschema() {
   return <>
-    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–2</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
+    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–3</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Normreiter und farbliche Hervorhebungen bleiben als Lernstruktur erhalten.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
     <div className="ao-schema-stack">
-      {BLOECKE.map(([id, titel, schema, quelle]) => <section className="abschnitt ao-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2></div></div><AOSchema id={schema} /></section>)}
+      {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2></div></div><AOSchema id={schema}/></section>)}
     </div>
   </>;
 }
