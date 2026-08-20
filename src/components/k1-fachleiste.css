@@ -1,0 +1,51 @@
+.k1-fachleiste {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  min-height: 42px;
+  border-bottom: 1px solid var(--linie);
+  background: var(--papier);
+  padding: 0 4px;
+  position: relative;
+  z-index: 3;
+}
+
+.k1-fachleiste__tab {
+  appearance: none;
+  border: 0;
+  border-right: 1px solid var(--linie);
+  border-left: 1px solid transparent;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: var(--ink-weich);
+  min-width: 0;
+  padding: 9px 18px 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 9px;
+  font: inherit;
+}
+
+.k1-fachleiste__tab:first-child { border-left-color: var(--linie); }
+.k1-fachleiste__tab:hover { background: var(--feld); color: var(--ink); }
+.k1-fachleiste__tab[aria-current="true"] {
+  color: var(--ink);
+  background: var(--feld);
+  border-bottom-color: var(--tinte);
+}
+
+.k1-fachleiste__kurz {
+  font: 800 11px var(--mono);
+  letter-spacing: .08em;
+  color: var(--tinte);
+}
+
+.k1-fachleiste__lang { font-weight: 650; }
+
+@media (max-width: 760px) {
+  .k1-fachleiste__tab { padding-inline: 8px; }
+  .k1-fachleiste__lang { display: none; }
+  .k1-fachleiste__kurz { font-size: 12px; }
+}
