@@ -12,7 +12,12 @@ assert(module.length===9,`AO Einheit 4: erwartet 9 Lernmodule, gefunden ${module
 assert(faelle.length===2,`AO Einheit 4: erwartet 2 Originalfälle, gefunden ${faelle.length}.`);
 for(const id of [335,336,337,338,339,340,341,342,343,344,345])assert(byId.has(id),`AO Einheit 4: Inhalt ${id} fehlt.`);
 const renderer=fs.readFileSync(new URL("../src/components/AOSchemataEinheit4.jsx",import.meta.url),"utf8");
+const style=fs.readFileSync(new URL("../src/components/ao-einheit4.css",import.meta.url),"utf8");
 for(const schema of ao4SchemaIds)assert(renderer.includes(`\"${schema}\"`),`AO Einheit 4: Schema ${schema} fehlt im React-Renderer.`);
+assert(renderer.includes('import "./ao-einheit3.css"'),"AO Einheit 4: gemeinsamer AO-3-Schemastil ist nicht eingebunden.");
+for(const shared of ["ao3-sheet","ao3-title","ao3-box","ao3-arrow","ao3-big-note"])assert(renderer.includes(shared),`AO Einheit 4: gemeinsamer Darstellungsbaustein ${shared} fehlt.`);
+assert(!renderer.includes("const c={")&&!renderer.includes("const card={")&&!renderer.includes("style={{...card"),"AO Einheit 4: alter Inline-Sonderstil wurde wieder eingeführt.");
+for(const token of ["--b","--g","--y","--r","--p"])assert(style.includes(`var(${token})`),`AO Einheit 4: Farblogik ${token} wird im Zusatzstil nicht aus dem gemeinsamen AO-Schema übernommen.`);
 assert(faelle.some(x=>x.id===344&&x.sourcePages.includes(12)&&x.diagram==="ao4-ap-beispiel"),"AO Einheit 4: AP-Zeitstrahl-Fall 344 / S. 12 fehlt oder hat falsches Schema.");
 for(const p of [13,14,15,16,17])assert(ao4Seitenplan[p]===336,`AO Einheit 4: Unterbrechungsschema muss S. ${p} abdecken.`);
 for(const p of [25,26,27,28,29,30])assert(ao4Seitenplan[p]===338,`AO Einheit 4: Grundlagenbescheid-Grundschema muss S. ${p} abdecken.`);
@@ -26,4 +31,4 @@ const alleZuordnungen=aoEinheit4.flatMap(x=>x.sourcePages.map(p=>`${p}:${x.id}`)
 assert(alleZuordnungen.length===72,"AO Einheit 4: Jede PDF-Seite muss genau einmal primär zugeordnet sein.");
 assert(new Set(alleZuordnungen.map(x=>x.split(":")[0])).size===72,"AO Einheit 4: doppelte/fehlende Seiten in sourcePages.");
 for(const marker of ["10.7.09","Aufhebung des VdN","§ 361 Abs. 3 S. 2 AO","§ 164 Abs. 4 S. 1 AO","eingebauter Selbstzerstörungsmodus","§ 179 Abs. 3 AO","(ESt-Bescheid)"])assert(renderer.includes(marker),`AO Einheit 4: Detail aus der Quellenskizze fehlt im Renderer: ${marker}`);
-console.log(`AO Einheit 4 vollständig: 72/72 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${ao4SchemaIds.length} digitale Schemata; Detailmarker geprüft.`);
+console.log(`AO Einheit 4 vollständig und visuell vereinheitlicht: 72/72 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${ao4SchemaIds.length} digitale Schemata; gemeinsamer AO-Schemastil geprüft.`);
