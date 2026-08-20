@@ -12,16 +12,18 @@ assert(module.length===9,`AO Einheit 5: erwartet 9 Lernmodule, gefunden ${module
 assert(faelle.length===3,`AO Einheit 5: erwartet 3 Originalfälle, gefunden ${faelle.length}.`);
 for(const id of [346,347,348,349,350,351,352,353,354,355,356,357])assert(byId.has(id),`AO Einheit 5: Inhalt ${id} fehlt.`);
 const renderer=fs.readFileSync(new URL("../src/components/AOSchemataEinheit5.jsx",import.meta.url),"utf8");
+const detail173=fs.readFileSync(new URL("../src/components/AO5NeueTatsachenSchema.jsx",import.meta.url),"utf8");
 const style=fs.readFileSync(new URL("../src/components/ao-einheit5.css",import.meta.url),"utf8");
 const campus=fs.readFileSync(new URL("../src/components/AOCampusV3.jsx",import.meta.url),"utf8");
 const schemaAll=fs.readFileSync(new URL("../src/components/AOSchemataAlle.jsx",import.meta.url),"utf8");
 const pruefschema=fs.readFileSync(new URL("../src/components/AOPruefschema.jsx",import.meta.url),"utf8");
 const links=fs.readFileSync(new URL("../src/components/AOQuerverweiseEnhancer.jsx",import.meta.url),"utf8");
 for(const schema of ao5SchemaIds)assert(renderer.includes(`\"${schema}\"`),`AO Einheit 5: Schema ${schema} fehlt im Renderer.`);
-assert(renderer.includes('import "./ao-einheit3.css"'),"AO Einheit 5: gemeinsamer AO-Schemastil fehlt.");
+assert(renderer.includes('import "./ao-einheit3.css"')&&detail173.includes('import "./ao-einheit3.css"'),"AO Einheit 5: gemeinsamer AO-Schemastil fehlt.");
 for(const shared of ["ao3-sheet","ao3-title","ao3-box","ao3-arrow","ao3-card"])assert(renderer.includes(shared),`AO Einheit 5: gemeinsamer Darstellungsbaustein ${shared} fehlt.`);
 for(const token of ["var(--b)","var(--g)","var(--y)","var(--r)","var(--p)"])assert(style.includes(token),`AO Einheit 5: gemeinsame Farblogik ${token} fehlt.`);
 assert(schemaAll.includes("AO5_SCHEMATA")&&schemaAll.includes("ao5SchemaIds"),"AO Einheit 5: Schemas nicht global registriert.");
+assert(schemaAll.includes("AO5NeueTatsachenSchema")&&schemaAll.includes('id === "ao5-173"'),"AO Einheit 5: präzises §173-Spezialschema ist nicht aktiviert.");
 assert(campus.includes('import aoEinheit5 from"../data/k1-ao-einheit-5.js"')&&campus.includes("...aoEinheit5"),"AO Einheit 5: nicht im Campus registriert.");
 assert(campus.includes("34+38+53+72+44"),"AO Einheit 5: Gesamtseitenzahl im Campus nicht auf 241 erweitert.");
 assert(campus.includes("Einheiten 1–5")&&campus.includes('id:"E5"'),"AO Einheit 5: Cockpit/Klausurmodus nicht erweitert.");
@@ -30,8 +32,9 @@ assert(campus.includes("351")&&campus.includes("Grundlagen- & Feststellungsbesch
 for(const [p,id] of [[1,346],[6,347],[11,348],[18,349],[21,350],[22,351],[24,352],[31,353],[36,354],[40,355],[41,356],[42,357],[43,354],[44,354]])assert(Number(ao5Seitenplan[p])===id,`AO Einheit 5: Leitseite ${p} muss ID ${id} zugeordnet sein.`);
 assert(byId.get(355).diagram==="ao5-fall6"&&byId.get(356).diagram==="ao5-fall7"&&byId.get(357).diagram==="ao5-fall8","AO Einheit 5: Fall-Schemata 6–8 fehlen.");
 for(const marker of ["24.000 €","2.000 €","26.000 €","100 m²","50 m²","12.000 €","21.500 €","-9.500 €"])assert(renderer.includes(marker),`AO Einheit 5: Quellenwert fehlt im Fall-Renderer: ${marker}`);
-for(const marker of ["Generalschlüssel","Unzerstörbarer-VdN","Skalpell","§ 171 Abs. 8 S. 1 AO","§ 171 Abs. 8 S. 2 AO","Übernahmefehler","RMS-Prüfhinweis","§ 173 Abs. 1 Nr. 1 AO ↑","§ 173 Abs. 1 Nr. 2 AO ↓","Spinnenregel"])assert(renderer.includes(marker),`AO Einheit 5: Quellenmarker fehlt im Schema: ${marker}`);
+for(const marker of ["Generalschlüssel","Unzerstörbarer-VdN","Skalpell","§ 171 Abs. 8 S. 1 AO","§ 171 Abs. 8 S. 2 AO","Übernahmefehler","RMS-Prüfhinweis","Spinnenregel"])assert(renderer.includes(marker),`AO Einheit 5: Quellenmarker fehlt im Schema: ${marker}`);
 for(const marker of ["nicht","NICHTIG"])assert(renderer.includes(marker),`AO Einheit 5: Wirksamkeitsformel-Teil fehlt: ${marker}`);
+for(const marker of ["§ 173 Abs. 1 Nr. 1 AO ↑","§ 173 Abs. 1 Nr. 2 AO ↓","§ 175 Abs. 1 Nr. 2 AO","StErkl. + Anlagen + Akte","RMS-Prüfhinweis","Reg. FF"])assert(detail173.includes(marker),`AO Einheit 5: Detail aus S. 36–44 fehlt im präzisen §173-Schema: ${marker}`);
 assert(byId.get(347).title.includes("Unzerstörbarer-VdN")&&byId.get(347).intro.join(" ").includes("Unzerstörbarer-VdN"),"AO Einheit 5: Quellenbegriff 'Unzerstörbarer-VdN' ist in den Metadaten nicht exakt übernommen.");
 assert(byId.get(354).law.includes("§ 175 Abs. 1 Nr. 2 AO")&&byId.get(354).scheme.join(" ").includes("§ 175 Abs. 1 Nr. 2 AO"),"AO Einheit 5: Quellenquerverweis § 175 Abs. 1 Nr. 2 AO von S. 43 fehlt.");
 for(const id of ["ao-schema-vdn-grundlagen","ao-schema-vdn-dauer","ao-schema-vorlaeufig","ao-schema-vorlaeufig-dauer","ao-schema-ao5-paerchen","ao-schema-fbescheid-wirksamkeit","ao-schema-129","ao-schema-173a","ao-schema-173"])assert(pruefschema.includes(id),`AO Einheit 5: Prüfschema-Ziel ${id} fehlt.`);
@@ -40,4 +43,4 @@ assert(links.includes("354:")&&links.includes("id:354"),"AO Einheit 5: Lernmodul
 const alle=aoEinheit5.flatMap(x=>x.sourcePages.map(p=>`${p}:${x.id}`));
 assert(alle.length===44,"AO Einheit 5: Jede Seite muss genau einmal primär zugeordnet sein.");
 assert(new Set(alle.map(x=>x.split(":")[0])).size===44,"AO Einheit 5: doppelte/fehlende Seiten in sourcePages.");
-console.log(`AO Einheit 5 vollständig: 44/44 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${ao5SchemaIds.length} digitale Schemata; Quellenwerte, Querverweise und gemeinsamer AO-Schemastil geprüft.`);
+console.log(`AO Einheit 5 vollständig: 44/44 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${ao5SchemaIds.length} digitale Schemata; Quellenwerte, §173-Details, Querverweise und gemeinsamer AO-Schemastil geprüft.`);
