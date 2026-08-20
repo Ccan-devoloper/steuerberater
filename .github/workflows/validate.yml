@@ -24,4 +24,5 @@ jobs:
       - run: npm run check:k1-ao-einheit-4
       - run: npm run check:k1-ao-einheit-5
       - run: npm run check:k1-ao-einheit-6
+      - run: npm run check:k1-ao-einheit-7
       - run: npm run build
