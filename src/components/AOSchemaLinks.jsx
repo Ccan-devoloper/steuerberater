@@ -1,6 +1,13 @@
 import React from "react";
 
 const ZIELE = [
+  [/§\s*173a\b/i, "ao-schema-173a"],
+  [/§\s*173\s*Abs\.\s*1\s*Nr\.\s*[12]\b|§\s*173\s*Abs\.\s*2\b|AEAO\s+zu\s+§\s*173/i, "ao-schema-173"],
+  [/§\s*129\b/i, "ao-schema-129"],
+  [/§\s*171\s*Abs\.\s*8\b|§\s*165\s*Abs\.\s*2\b/i, "ao-schema-vorlaeufig-dauer"],
+  [/§\s*165\s*Abs\.\s*1\b|§\s*165\b/i, "ao-schema-vorlaeufig"],
+  [/§\s*164\s*Abs\.\s*[34]\b|§\s*168\b/i, "ao-schema-vdn-dauer"],
+  [/§\s*164\s*Abs\.\s*[12]\b|§\s*164\b/i, "ao-schema-vdn-grundlagen"],
   [/§\s*171\s*Abs\.\s*14\b|§\s*37\s*Abs\.\s*2\b|§§?\s*228\b/i, "ao-schema-erstattung"],
   [/§\s*171\s*Abs\.\s*12\b|§\s*1922\b|§\s*1942\b/i, "ao-schema-erbe"],
   [/§\s*179\s*Abs\.\s*3\b/i, "ao-schema-ergaenzungsbescheid"],
@@ -14,17 +21,16 @@ const ZIELE = [
   [/§\s*367\s*Abs\.\s*2\s*S\.\s*2\b|§\s*362\b/i, "ao-schema-einspruch-besonderheiten"],
   [/§\s*367\s*Abs\.\s*2\s*S\.\s*3\b|§\s*366\b/i, "ao-schema-einspruch-erledigung"],
   [/§\s*177\b/i, "ao-schema-plan-abc"],
-  [/§\s*129\b/i, "ao-schema-korrekturpaerchen"],
   [/§\s*169\s*Abs\.\s*2\b/i, "ao-schema-ff-dauer"],
   [/§\s*170\b/i, "ao-schema-ff-beginn"],
   [/§\s*169\s*Abs\.\s*1\b/i, "ao-schema-ff-ende"],
   [/§\s*171\s*Abs\.\s*3a\b/i, "ao-schema-ablaufhemmungen"],
-  [/§\s*171\s*Abs\.\s*2\b|§\s*171\s*Abs\.\s*3\b|§\s*173a\b/i, "ao-schema-korrekturpaerchen"],
+  [/§\s*171\s*Abs\.\s*2\b|§\s*171\s*Abs\.\s*3\b/i, "ao-schema-korrekturpaerchen"],
   [/§\s*38\b/i, "ao-schema-ablauf"],
   [/§§?\s*85|§\s*88\b|§\s*92\b/i, "ao-schema-ermittlung"],
   [/§\s*93\b|§\s*97\b|§\s*101\b|§\s*102\b|§\s*104\b|§\s*15\b/i, "ao-schema-auskunft"],
   [/§\s*118\b/i, "ao-schema-va"],
-  [/§\s*155\b|§§?\s*167|§\s*168\b|§\s*179\b|§\s*239\b|§\s*196\b|§\s*191\b|§\s*152\b/i, "ao-schema-va-arten"],
+  [/§\s*155\b|§§?\s*167|§\s*179\b|§\s*239\b|§\s*196\b|§\s*191\b|§\s*152\b/i, "ao-schema-va-arten"],
   [/§\s*124\s*Abs\.\s*1\b|AEAO\s+zu\s+§\s*124\s+Nr\.\s*4/i, "ao-schema-bekanntgabewille"],
   [/§\s*79\b/i, "ao-schema-bekanntgabewille"],
   [/§\s*122a\b|§\s*122\s*Abs\.\s*2a\b|§\s*122\s*Abs\.\s*5\b|§\s*122\s*Abs\.\s*2\b|§§?\s*177[–-]182\s*ZPO/i, "ao-schema-bekanntgabe-zeitpunkt"],
@@ -37,7 +43,7 @@ const ZIELE = [
   [/§\s*124\b|§\s*125\b|§\s*119\b|§\s*157\b/i, "ao-schema-wirksamkeit"],
   [/§\s*122\b|§\s*183\b|§\s*183a\b|§\s*8\s*VwZG/i, "ao-schema-bekanntgabe"],
   [/§\s*80\b|§\s*44\b|§\s*365\b/i, "ao-schema-vertreter"],
-  [/§\s*128\b|§\s*130\b|§\s*131\b|§\s*164\b|§\s*165\b/i, "ao-schema-va-arten"],
+  [/§\s*128\b|§\s*130\b|§\s*131\b/i, "ao-schema-va-arten"],
   [/§\s*171\b/i, "ao-schema-ff-ende"],
 ];
 
