@@ -1,6 +1,14 @@
 import React from "react";
 
 const ZIELE = [
+  [/§\s*371\b|§\s*398a\b/i, "ao-schema-371"],
+  [/§\s*378\b|§\s*369\s*Abs\.\s*2\b|§\s*15\s*StGB\b/i, "ao-schema-370-subjektiv"],
+  [/§\s*370\s*Abs\.\s*4\b|§\s*370\s*Abs\.\s*1\b/i, "ao-schema-370-objektiv"],
+  [/§\s*169\s*Abs\.\s*2\s*S\.\s*2\b|§\s*235\b|§\s*238\b/i, "ao-schema-370-folgen"],
+  [/§\s*69\b|§\s*34\b|§\s*35\s*Abs\.\s*1\s*GmbHG\b/i, "ao-schema-69"],
+  [/§\s*71\b/i, "ao-schema-71"],
+  [/§\s*74\b/i, "ao-schema-74"],
+  [/§\s*191\b|§\s*219\b|§§?\s*69[–-]76\b/i, "ao-schema-haftung"],
   [/§\s*110\s*Abs\.\s*[23]\b/i, "ao-schema-110-antrag"],
   [/§\s*110\b|§\s*109\b|§\s*364b\b/i, "ao-schema-110"],
   [/§\s*351\s*Abs\.\s*1\b/i, "ao-schema-351"],
@@ -10,8 +18,8 @@ const ZIELE = [
   [/§\s*8\s*VwZG\b/i, "ao-schema-zwei-einsprueche"],
   [/§\s*173\s*Abs\.\s*1\s*Nr\.\s*2\s*S\.\s*2\b|AEAO\s+zu\s+§\s*173\s+Nr\.\s*[45]\b/i, "ao-schema-173-verschulden"],
   [/§\s*173\s*Abs\.\s*2\b|AEAO\s+zu\s+§\s*173\s+Nr\.\s*3\b|§\s*363\s*Abs\.\s*2\b/i, "ao-schema-173-rechtserheblichkeit"],
-  [/§\s*172\s*Abs\.\s*1\s*Nr\.\s*2\s*(?:Buchst\.\s*)?[ac]\b|§\s*370\s*Abs\.\s*4\s*S\.\s*3\b/i, "ao-schema-172"],
-  [/§\s*370\s*(?:Abs\.\s*1\b)?|§\s*153\b/i, "ao-schema-steuerhinterziehung"],
+  [/§\s*172\s*Abs\.\s*1\s*Nr\.\s*2\s*(?:Buchst\.\s*)?[ac]\b/i, "ao-schema-172"],
+  [/§\s*370\b|§\s*153\b/i, "ao-schema-steuerhinterziehung"],
   [/§\s*175\s*Abs\.\s*1\s*Nr\.\s*2\b|§\s*175\s*Abs\.\s*1\s*S\.\s*2\b|§\s*175\s*Abs\.\s*2\b|§\s*171\s*Abs\.\s*10a\b|§\s*175b\b/i, "ao-schema-175-rueckwirkend"],
   [/§\s*175\s*Abs\.\s*1\s*Nr\.\s*1\b/i, "ao-schema-175-grundlagen"],
   [/§\s*177\b|AEAO\s+zu\s+§\s*177/i, "ao-schema-177"],
@@ -29,7 +37,7 @@ const ZIELE = [
   [/§\s*179\s*Abs\.\s*3\b/i, "ao-schema-ergaenzungsbescheid"],
   [/§\s*181\s*Abs\.\s*5\b|§\s*181\s*Abs\.\s*1\b|AEAO\s+zu\s+§\s*179/i, "ao-schema-feststellungsbescheid-181"],
   [/§\s*171\s*Abs\.\s*10\b|§\s*182\s*Abs\.\s*1\b/i, "ao-schema-grundlagenbescheid"],
-  [/§\s*171\s*Abs\.\s*5\b|§\s*171\s*Abs\.\s*9\b|§\s*169\s*Abs\.\s*2\s*S\.\s*2\b/i, "ao-schema-ao4-paerchen"],
+  [/§\s*171\s*Abs\.\s*5\b|§\s*171\s*Abs\.\s*9\b/i, "ao-schema-ao4-paerchen"],
   [/§\s*171\s*Abs\.\s*4\b|§\s*196\b|AEAO\s+zu\s+§\s*171\s+Nr\.\s*3\.2/i, "ao-schema-aussenpruefung"],
   [/§\s*357\s*Abs\.\s*2\b|AEAO\s+zu\s+§\s*110/i, "ao-schema-einspruch-falsches-fa"],
   [/§\s*350\b|§\s*358\b/i, "ao-schema-beschwer"],
@@ -44,7 +52,7 @@ const ZIELE = [
   [/§§?\s*85|§\s*88\b|§\s*92\b/i, "ao-schema-ermittlung"],
   [/§\s*93\b|§\s*97\b|§\s*101\b|§\s*102\b|§\s*104\b|§\s*15\b/i, "ao-schema-auskunft"],
   [/§\s*118\b/i, "ao-schema-va"],
-  [/§\s*155\b|§§?\s*167|§\s*179\b|§\s*239\b|§\s*196\b|§\s*191\b|§\s*152\b/i, "ao-schema-va-arten"],
+  [/§\s*155\b|§§?\s*167|§\s*179\b|§\s*239\b|§\s*196\b|§\s*152\b/i, "ao-schema-va-arten"],
   [/§\s*124\s*Abs\.\s*1\b|AEAO\s+zu\s+§\s*124\s+Nr\.\s*4/i, "ao-schema-bekanntgabewille"],
   [/§\s*79\b/i, "ao-schema-bekanntgabewille"],
   [/§\s*122a\b|§\s*122\s*Abs\.\s*2a\b|§\s*122\s*Abs\.\s*5\b|§\s*122\s*Abs\.\s*2\b|§§?\s*177[–-]182\s*ZPO/i, "ao-schema-bekanntgabe-zeitpunkt"],
@@ -78,5 +86,5 @@ export function AONormkette({ normen = [], onOpen }) {
 
 export function AOVerlinkterText({ text, as: Tag = "span", onOpen, compact = false }) {
   if (!text) return null;
-  return <Tag className={compact?"ao-linktext ao-linktext--compact":"ao-linktext"}>{String(text).split(/(§{1,2}\s*\d+[a-z]?(?:\s*(?:Abs\.|S\.|Nr\.)\s*\d+[a-z]?)?(?:\s*(?:AO|FGO|VwZG))?)/g).map((teil,i)=>{const ziel=zielFuer(teil);return ziel?<button key={i} type="button" className="ao-inline-norm" onClick={()=>onOpen?.(ziel)}>{teil}</button>:<React.Fragment key={i}>{teil}</React.Fragment>;})}</Tag>;
+  return <Tag className={compact?"ao-linktext ao-linktext--compact":"ao-linktext"}>{String(text).split(/(§{1,2}\s*\d+[a-z]?(?:\s*(?:Abs\.|S\.|Nr\.)\s*\d+[a-z]?)?(?:\s*(?:AO|FGO|VwZG|StGB))?)/g).map((teil,i)=>{const ziel=zielFuer(teil);return ziel?<button key={i} type="button" className="ao-inline-norm" onClick={()=>onOpen?.(ziel)}>{teil}</button>:<React.Fragment key={i}>{teil}</React.Fragment>;})}</Tag>;
 }
