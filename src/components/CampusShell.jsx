@@ -9,6 +9,7 @@ const K1Campus = lazy(() => import("./K1Campus"));
 const AOCampus = lazy(() => import("./AOCampusV2"));
 const AOQuerverweiseEnhancer = lazy(() => import("./AOQuerverweiseEnhancer"));
 const AOFall311Tabelle = lazy(() => import("./AOFall311Tabelle"));
+const AOEinheit2RandseitenEnhancer = lazy(() => import("./AOEinheit2RandseitenEnhancer"));
 const K1ErbStCampus = lazy(() => import("./K1ErbStCampus"));
 const K1FachleisteEnhancer = lazy(() => import("./K1FachleisteEnhancer"));
 const K1ThemenEnhancer = lazy(() => import("./K1ThemenEnhancer"));
@@ -43,6 +44,7 @@ export default function CampusShell() {
           <AOCampus onKlausurwechsel={wechseln} onFachwechsel={k1FachWechseln} />
           <AOQuerverweiseEnhancer />
           <AOFall311Tabelle />
+          <AOEinheit2RandseitenEnhancer />
         </Suspense>
       );
     }
