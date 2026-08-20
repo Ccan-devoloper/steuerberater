@@ -49,11 +49,20 @@ const BLOECKE = [
   ["ao-schema-129", "§ 129 AO: offenbare Unrichtigkeit und Übernahmefehler", "ao5-129", "Einheit 5 · PDF-S. 24–30"],
   ["ao-schema-173a", "§ 173a AO: Schreib-/Rechenfehler des Steuerpflichtigen", "ao5-173a", "Einheit 5 · PDF-S. 31–35"],
   ["ao-schema-173", "§ 173 AO: neue Tatsachen – Nr. 1 / Nr. 2", "ao5-173", "Einheit 5 · PDF-S. 36–39, 43–44"],
+  ["ao-schema-173-verschulden", "§ 173 AO: Ermittlungsfehler, grobes Verschulden und Zusammenhangsklausel", "ao6-173-verschulden", "Einheit 6 · PDF-S. 1–7"],
+  ["ao-schema-173-rechtserheblichkeit", "§ 173 AO: Rechtserheblichkeit und Änderungssperre", "ao6-173-rechtserheblichkeit", "Einheit 6 · PDF-S. 8–13"],
+  ["ao-schema-172", "§ 172 AO: Zustimmung, schlichte Änderung und soweit StHi", "ao6-172", "Einheit 6 · PDF-S. 14–20"],
+  ["ao-schema-175-grundlagen", "§ 175 Abs. 1 Nr. 1 AO: Anpassung an Grundlagenbescheide", "ao6-175-grundlagenbescheid", "Einheit 6 · PDF-S. 21–25"],
+  ["ao-schema-175-rueckwirkend", "§ 175 Abs. 1 Nr. 2 AO: rückwirkendes Ereignis und punktuelle Frist", "ao6-175-rueckwirkend", "Einheit 6 · PDF-S. 26–30"],
+  ["ao-schema-177", "§ 177 AO: Plan C, Saldierung und Ober-/Untergrenze", "ao6-177-saldierung", "Einheit 6 · PDF-S. 31–38"],
+  ["ao-schema-handbuch", "AO-/FGO-Handbuch: Reiter und Fahrtrouten", "ao6-handbuch-reiter", "Einheit 6 · PDF-S. 71–74"],
+  ["ao-schema-vollstreckung", "Vollstreckung: allgemeine und maßnahmenspezifische Voraussetzungen", "ao6-vollstreckung", "Einheit 6 · PDF-S. 75"],
+  ["ao-schema-fgo", "FGO-Fahrtroute: Zulässigkeits-/Sachurteilsvoraussetzungen", "ao6-fgo-fahrtroute", "Einheit 6 · PDF-S. 76–77"],
 ];
 
 export default function AOPruefschema() {
   return <>
-    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–5</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
+    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–6</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
     <div className="ao-schema-stack">
       {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2></div></div><AOSchema id={schema}/></section>)}
     </div>
