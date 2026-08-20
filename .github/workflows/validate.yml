@@ -18,4 +18,6 @@ jobs:
       - run: npm run check:fallsammlung
       - run: npm run check:fallsammlung-format
       - run: npm run check:hausaufgaben
+      - run: npm run check:k1-ao-einheit-1
+      - run: npm run check:k1-ao-einheit-2
       - run: npm run build
