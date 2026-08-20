@@ -6,7 +6,7 @@ import { laden, sichern } from "../lib/fortschritt";
    als jeweils erste Importe). Das hält den Start-Chunk klein. */
 const App = lazy(() => import("../App"));
 const K1Campus = lazy(() => import("./K1Campus"));
-const AOCampus = lazy(() => import("./AOCampusV2"));
+const AOCampus = lazy(() => import("./AOCampusV3"));
 const AOQuerverweiseEnhancer = lazy(() => import("./AOQuerverweiseEnhancer"));
 const AOFall311Tabelle = lazy(() => import("./AOFall311Tabelle"));
 const AOEinheit2RandseitenEnhancer = lazy(() => import("./AOEinheit2RandseitenEnhancer"));
