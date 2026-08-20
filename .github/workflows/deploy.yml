@@ -24,6 +24,7 @@ jobs:
           node-version: 20
       - run: npm ci || npm install
       - run: npm run check:k1-ao-einheit-5
+      - run: npm run check:k1-ao-einheit-6
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
