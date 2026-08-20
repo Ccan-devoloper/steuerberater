@@ -4,6 +4,7 @@ import { AO2_SCHEMATA, ao2SchemaIds } from "./AOSchemataEinheit2";
 import { AO3_SCHEMATA, ao3SchemaIds } from "./AOSchemataEinheit3";
 import { AO4_SCHEMATA, ao4SchemaIds } from "./AOSchemataEinheit4";
 import { AO5_SCHEMATA, ao5SchemaIds } from "./AOSchemataEinheit5";
+import AO5NeueTatsachenSchema from "./AO5NeueTatsachenSchema";
 import AOTortenstueckSchema from "./AOTortenstueckSchema";
 import AO3FestsetzungsfristBeginn from "./AO3FestsetzungsfristBeginn";
 import AO3AblaufhemmungenSchema from "./AO3AblaufhemmungenSchema";
@@ -12,6 +13,7 @@ export default function AOSchema({ id }) {
   if (id === "ao-tortenstueckfehlerlehre") return <AOTortenstueckSchema />;
   if (id === "ao3-ff-beginn") return <AO3FestsetzungsfristBeginn />;
   if (id === "ao3-ablaufhemmungen") return <AO3AblaufhemmungenSchema />;
+  if (id === "ao5-173") return <AO5NeueTatsachenSchema />;
   const Einheit5 = AO5_SCHEMATA[id];
   if (Einheit5) return <Einheit5 />;
   const Einheit4 = AO4_SCHEMATA[id];
