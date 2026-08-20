@@ -30,11 +30,21 @@ const BLOECKE = [
   ["ao-schema-ff-ende", "Festsetzungsfrist: reguläres Ende", "ao3-ff-ende", "Einheit 3 · PDF-S. 40–41"],
   ["ao-schema-korrekturpaerchen", "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist", "ao3-korrekturpaerchen", "Einheit 3 · PDF-S. 44–50"],
   ["ao-schema-ablaufhemmungen", "Ablaufhemmungen bei Einspruch und Außenprüfung", "ao3-ablaufhemmungen", "Einheit 3 · PDF-S. 51–53"],
+  ["ao-schema-aussenpruefung", "Außenprüfung: Beginn, Ende und Reichweite der Ablaufhemmung", "ao4-aussenpruefung", "Einheit 4 · PDF-S. 1–12"],
+  ["ao-schema-aussenpruefung-unterbrechung", "Außenprüfung: Unterbrechung und Wiederaufnahme", "ao4-ap-unterbrechung", "Einheit 4 · PDF-S. 13–17"],
+  ["ao-schema-ao4-paerchen", "Ablaufhemmungs- und Korrekturpärchen", "ao4-paerchen", "Einheit 4 · PDF-S. 18–24"],
+  ["ao-schema-grundlagenbescheid", "Wirksamer Grundlagen-/Feststellungsbescheid und § 171 Abs. 10", "ao4-grundlagenbescheid", "Einheit 4 · PDF-S. 25–30"],
+  ["ao-schema-grundlagenbescheid-einspruch", "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung und Einspruch", "ao4-grundlagenbescheid-einspruch", "Einheit 4 · PDF-S. 31–43"],
+  ["ao-schema-feststellungsbescheid-181", "§ 181 Abs. 5 AO und einschränkender Wirksamkeitsvermerk", "ao4-feststellungsbescheid-181", "Einheit 4 · PDF-S. 44–61"],
+  ["ao-schema-ergaenzungsbescheid", "Ergänzungsbescheid", "ao4-ergaenzungsbescheid", "Einheit 4 · PDF-S. 62"],
+  ["ao-schema-erbe", "Annahme Erbschaft und § 171 Abs. 12 AO", "ao4-erbe-fall", "Einheit 4 · PDF-S. 63–69"],
+  ["ao-schema-erstattung", "Erstattungsanspruch und § 171 Abs. 14 AO", "ao4-erstattung", "Einheit 4 · PDF-S. 70–71"],
+  ["ao-schema-ao4-master", "Masterübersicht der Ablaufhemmungs- und Korrekturpärchen", "ao4-master", "Einheit 4 · PDF-S. 72"],
 ];
 
 export default function AOPruefschema() {
   return <>
-    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–3</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Normreiter und farbliche Hervorhebungen bleiben als Lernstruktur erhalten.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
+    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–4</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
     <div className="ao-schema-stack">
       {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2></div></div><AOSchema id={schema}/></section>)}
     </div>
