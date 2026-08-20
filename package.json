@@ -20,7 +20,8 @@
     "check:k1-ao-einheit-4": "node tools/pruefen-k1-ao-einheit-4.mjs",
     "check:k1-ao-einheit-5": "node tools/pruefen-k1-ao-einheit-5.mjs",
     "check:k1-ao-einheit-6": "node tools/pruefen-k1-ao-einheit-6.mjs",
-    "check:k1-ao-einheit-7": "node tools/pruefen-k1-ao-einheit-7.mjs"
+    "check:k1-ao-einheit-7": "node tools/pruefen-k1-ao-einheit-7.mjs",
+    "check:k1-ao-einheit-8": "node tools/pruefen-k1-ao-einheit-8.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
