@@ -3,13 +3,21 @@ import { createPortal } from "react-dom";
 import "./ao-links.css";
 
 const MODUL_ZU_FAELLEN = {
-  301: [{ id: 310, titel: "Pflichtverstöße im Besteuerungsverfahren" }],
-  302: [{ id: 311, titel: "Auskunftsersuchen: zu Recht und verwertbar?" }],
-  303: [{ id: 311, titel: "Auskunftsersuchen: zu Recht und verwertbar?" }],
+  301: [{ id:310, titel:"Pflichtverstöße im Besteuerungsverfahren" }],
+  302: [{ id:311, titel:"Auskunftsersuchen: zu Recht und verwertbar?" }],
+  303: [{ id:311, titel:"Auskunftsersuchen: zu Recht und verwertbar?" }],
+  307: [{ id:320, titel:"Ordnungsgemäße Bekanntgabe in vier Varianten" }, { id:321, titel:"Ende der Einspruchsfrist" }],
+  308: [{ id:320, titel:"Ordnungsgemäße Bekanntgabe in vier Varianten" }],
+  312: [{ id:320, titel:"Ordnungsgemäße Bekanntgabe in vier Varianten" }],
+  313: [{ id:320, titel:"Ordnungsgemäße Bekanntgabe in vier Varianten" }, { id:321, titel:"Ende der Einspruchsfrist" }],
+  314: [{ id:321, titel:"Ende der Einspruchsfrist" }],
+  319: [{ id:321, titel:"Ende der Einspruchsfrist" }],
 };
 const FALL_ZU_MODULEN = {
-  310: [{ id: 301, titel: "Ablauf des Besteuerungsverfahrens" }],
-  311: [{ id: 302, titel: "Ermittlungsverfahren: Untersuchungsgrundsatz und Beweismittel" }, { id: 303, titel: "Auskunfts- und Vorlageersuchen: Verweigerungsrechte und Verwertbarkeit" }],
+  310: [{ id:301, titel:"Ablauf des Besteuerungsverfahrens" }],
+  311: [{ id:302, titel:"Ermittlungsverfahren: Untersuchungsgrundsatz und Beweismittel" }, { id:303, titel:"Auskunfts- und Vorlageersuchen: Verweigerungsrechte und Verwertbarkeit" }],
+  320: [{ id:307, titel:"Bekanntgabe: Zugang, Machtbereich und richtiger Empfänger" }, { id:308, titel:"Bekanntgabe an Steuerberater und Ehegatten" }, { id:312, titel:"Bekanntgabewille und Handlungsfähigkeit" }, { id:313, titel:"Zeitpunkt der Bekanntgabe" }],
+  321: [{ id:313, titel:"Zeitpunkt der Bekanntgabe" }, { id:314, titel:"Fristenberechnung nach § 108 AO und BGB" }, { id:319, titel:"Einspruchsfrist, Ende und fristwahrender Eingang" }],
 };
 
 function rail(text) {
