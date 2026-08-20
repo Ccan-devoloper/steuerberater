@@ -1,9 +1,17 @@
 import React from "react";
 
 const ZIELE = [
+  [/§\s*110\s*Abs\.\s*[23]\b/i, "ao-schema-110-antrag"],
+  [/§\s*110\b|§\s*109\b|§\s*364b\b/i, "ao-schema-110"],
+  [/§\s*351\s*Abs\.\s*1\b/i, "ao-schema-351"],
+  [/§\s*352\b/i, "ao-schema-gue-einspruch"],
+  [/§\s*183a\b|§\s*183\b|§\s*14a\b/i, "ao-schema-gue-bekanntgabe"],
+  [/§\s*(?:130|131)\b/i, "ao-schema-sonstige-va"],
+  [/§\s*8\s*VwZG\b/i, "ao-schema-zwei-einsprueche"],
   [/§\s*173\s*Abs\.\s*1\s*Nr\.\s*2\s*S\.\s*2\b|AEAO\s+zu\s+§\s*173\s+Nr\.\s*[45]\b/i, "ao-schema-173-verschulden"],
   [/§\s*173\s*Abs\.\s*2\b|AEAO\s+zu\s+§\s*173\s+Nr\.\s*3\b|§\s*363\s*Abs\.\s*2\b/i, "ao-schema-173-rechtserheblichkeit"],
   [/§\s*172\s*Abs\.\s*1\s*Nr\.\s*2\s*(?:Buchst\.\s*)?[ac]\b|§\s*370\s*Abs\.\s*4\s*S\.\s*3\b/i, "ao-schema-172"],
+  [/§\s*370\s*(?:Abs\.\s*1\b)?|§\s*153\b/i, "ao-schema-steuerhinterziehung"],
   [/§\s*175\s*Abs\.\s*1\s*Nr\.\s*2\b|§\s*175\s*Abs\.\s*1\s*S\.\s*2\b|§\s*175\s*Abs\.\s*2\b|§\s*171\s*Abs\.\s*10a\b|§\s*175b\b/i, "ao-schema-175-rueckwirkend"],
   [/§\s*175\s*Abs\.\s*1\s*Nr\.\s*1\b/i, "ao-schema-175-grundlagen"],
   [/§\s*177\b|AEAO\s+zu\s+§\s*177/i, "ao-schema-177"],
@@ -25,7 +33,6 @@ const ZIELE = [
   [/§\s*171\s*Abs\.\s*4\b|§\s*196\b|AEAO\s+zu\s+§\s*171\s+Nr\.\s*3\.2/i, "ao-schema-aussenpruefung"],
   [/§\s*357\s*Abs\.\s*2\b|AEAO\s+zu\s+§\s*110/i, "ao-schema-einspruch-falsches-fa"],
   [/§\s*350\b|§\s*358\b/i, "ao-schema-beschwer"],
-  [/§\s*351\s*Abs\.\s*1\b/i, "ao-schema-begruendetheit"],
   [/§\s*367\s*Abs\.\s*2\s*S\.\s*2\b|§\s*362\b/i, "ao-schema-einspruch-besonderheiten"],
   [/§\s*367\s*Abs\.\s*2\s*S\.\s*3\b|§\s*366\b/i, "ao-schema-einspruch-erledigung"],
   [/§\s*169\s*Abs\.\s*2\b/i, "ao-schema-ff-dauer"],
@@ -46,11 +53,11 @@ const ZIELE = [
   [/§§?\s*172\b/i, "ao-schema-fehlerhafter-va"],
   [/§\s*367\b|§\s*361\b/i, "ao-schema-einspruch"],
   [/§\s*347\b|§\s*348\b|§\s*357\s*Abs\.\s*1\b|§\s*357\s*Abs\.\s*3\b/i, "ao-schema-einspruch-zulaessigkeit"],
-  [/§\s*355\b|§\s*356\b|§\s*110\b|§\s*351\s*Abs\.\s*2\b/i, "ao-schema-einspruch-frist"],
+  [/§\s*355\b|§\s*356\b|§\s*351\s*Abs\.\s*2\b/i, "ao-schema-einspruch-frist"],
   [/§\s*124\b|§\s*125\b|§\s*119\b|§\s*157\b/i, "ao-schema-wirksamkeit"],
-  [/§\s*122\b|§\s*183\b|§\s*183a\b|§\s*8\s*VwZG/i, "ao-schema-bekanntgabe"],
+  [/§\s*122\b/i, "ao-schema-bekanntgabe"],
   [/§\s*80\b|§\s*44\b|§\s*365\b/i, "ao-schema-vertreter"],
-  [/§\s*128\b|§\s*130\b|§\s*131\b/i, "ao-schema-va-arten"],
+  [/§\s*128\b/i, "ao-schema-va-arten"],
   [/§\s*171\b/i, "ao-schema-ff-ende"],
 ];
 
@@ -71,5 +78,5 @@ export function AONormkette({ normen = [], onOpen }) {
 
 export function AOVerlinkterText({ text, as: Tag = "span", onOpen, compact = false }) {
   if (!text) return null;
-  return <Tag className={compact?"ao-linktext ao-linktext--compact":"ao-linktext"}>{String(text).split(/(§{1,2}\s*\d+[a-z]?(?:\s*(?:Abs\.|S\.|Nr\.)\s*\d+[a-z]?)?(?:\s*(?:AO|FGO))?)/g).map((teil,i)=>{const ziel=zielFuer(teil);return ziel?<button key={i} type="button" className="ao-inline-norm" onClick={()=>onOpen?.(ziel)}>{teil}</button>:<React.Fragment key={i}>{teil}</React.Fragment>;})}</Tag>;
+  return <Tag className={compact?"ao-linktext ao-linktext--compact":"ao-linktext"}>{String(text).split(/(§{1,2}\s*\d+[a-z]?(?:\s*(?:Abs\.|S\.|Nr\.)\s*\d+[a-z]?)?(?:\s*(?:AO|FGO|VwZG))?)/g).map((teil,i)=>{const ziel=zielFuer(teil);return ziel?<button key={i} type="button" className="ao-inline-norm" onClick={()=>onOpen?.(ziel)}>{teil}</button>:<React.Fragment key={i}>{teil}</React.Fragment>;})}</Tag>;
 }
