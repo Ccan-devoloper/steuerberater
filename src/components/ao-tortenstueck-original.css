@@ -1,0 +1,24 @@
+.ao-torte-original{overflow:hidden;padding:24px 28px 28px}
+.ao-torte-title{margin:0 0 12px;text-align:center;color:#244fa7;font:800 27px "Comic Sans MS","Segoe Print",cursive;text-decoration:underline;text-underline-offset:5px}
+.ao-torte-top{display:grid;grid-template-columns:minmax(620px,1.2fr) minmax(310px,.8fr);gap:24px;align-items:start}
+.ao-torte-svgwrap{min-width:0;overflow-x:auto}
+.ao-torte-svg{display:block;width:100%;min-width:620px;height:auto;overflow:visible}
+.ao-torte-hand{font-family:"Comic Sans MS","Segoe Print",cursive;font-weight:800}
+.ao-torte-plane{stroke:#244a92;stroke-width:2.2;vector-effect:non-scaling-stroke}
+.ao-torte-plane--green{fill:#88c96d}.ao-torte-plane--yellow{fill:#edd16a}.ao-torte-plane--red{fill:#c9574f}
+.ao-torte-topblock{fill:rgba(184,86,83,.65);stroke:#8a211d;stroke-width:2.2;vector-effect:non-scaling-stroke}
+.ao-torte-outline{fill:none;stroke-width:2.3;vector-effect:non-scaling-stroke}.ao-torte-outline--left{stroke:#b7aa2f}.ao-torte-outline--blue{stroke:#2451a4}
+.ao-torte-level{font-size:18px}.ao-torte-level--21{fill:#35a84b}.ao-torte-level--22{fill:#b58a16}.ao-torte-level--23{fill:#9d201b}
+.ao-torte-green-text{fill:#18782a;font-size:25px}.ao-torte-yellow-text{fill:#9f7508;font-size:23px}.ao-torte-red-text{fill:#8c1712;font-size:24px}.ao-torte-small{font-size:16px}.ao-torte-skull{fill:#9c211c;font-size:31px;font-family:Arial,sans-serif}
+.ao-torte-guide{stroke-width:2.3;vector-effect:non-scaling-stroke}.ao-torte-guide--green{stroke:#a2a523}.ao-torte-guide--red{stroke:#a42d27}.ao-torte-guide--purple{stroke:#8b3fa0}.ao-torte-label{font-size:19px}.ao-torte-label--wirksam{fill:#8a981b}.ao-torte-label--unwirksam{fill:#a62820}.ao-torte-label--begr,.ao-torte-label--unbegr{fill:#8b3fa0}.ao-torte-bracket{fill:none;stroke:#8b3fa0;stroke-width:3;vector-effect:non-scaling-stroke}
+.ao-torte-arrow{stroke-width:3;vector-effect:non-scaling-stroke}.ao-torte-arrow--green{stroke:#35a84b}.ao-torte-arrow--orange{stroke:#c58a20}.ao-torte-note-red{fill:#a62820;font-size:20px}.ao-torte-note-line{stroke:#a62820;stroke-width:2;vector-effect:non-scaling-stroke}
+.ao-torte-question{fill:#173d70;font:800 28px "Comic Sans MS","Segoe Print",cursive}.ao-torte-figure,.ao-torte-paper{fill:none;stroke:#234b70;stroke-width:2.2;vector-effect:non-scaling-stroke}
+.ao-torte-green-notes{padding:55px 4px 0;color:#32a14a;font:800 18px/1.45 "Comic Sans MS","Segoe Print",cursive}
+.ao-torte-green-notes ul{margin:0;padding-left:23px}.ao-torte-green-notes li{margin:9px 0}.ao-torte-green-notes small{display:block;margin-top:3px;color:#49644e;font-size:13px}
+.ao-torte-green-rule{margin-top:22px;padding-left:16px;border-left:4px solid #35a84b}.ao-torte-heal-rule{margin-top:24px;padding:10px 12px;border:2px solid rgba(53,168,75,.45);background:rgba(255,255,255,.72)}
+.ao-torte-bottom{display:grid;grid-template-columns:190px minmax(420px,1fr);gap:26px;margin-top:-8px;align-items:end}
+.ao-torte-wound{display:grid;justify-items:center;gap:4px;color:#183d61;font:700 14px/1.15 "Comic Sans MS","Segoe Print",cursive;text-align:center}.ao-torte-wound>div{display:flex;align-items:center;gap:10px}.ao-torte-wound>b{font-size:22px;color:#183d61}.ao-torte-woundmark{width:42px;height:14px;background:#a31313;border-radius:50% 45% 45% 50%;display:block;transform:rotate(-8deg)}.ao-torte-bandage{width:38px;height:24px;border:2px solid #2a4d66;background:linear-gradient(90deg,#fff 0 28%,#558e56 28% 72%,#fff 72%);display:block}.ao-torte-scar{width:42px;height:15px;background:#d68a98;border-radius:50%;display:block;opacity:.8}
+.ao-torte-orange-notes{color:#b77b16;font:800 18px/1.45 "Comic Sans MS","Segoe Print",cursive}.ao-torte-orange-notes ul{margin:0 0 10px;padding-left:24px}.ao-torte-orange-notes li{margin:8px 0}.ao-torte-boxed{width:max-content;max-width:100%;margin:7px 0;padding:3px 9px;border:2px solid rgba(77,132,84,.45);background:rgba(255,255,255,.65)}
+.ao-torte-merke{margin-top:22px;padding:12px 15px;border-left:5px solid #a82c24;background:rgba(255,255,255,.78);color:#8f211c;font:800 17px/1.45 "Comic Sans MS","Segoe Print",cursive}.ao-torte-merke b{color:#244fa7}
+@media(max-width:1050px){.ao-torte-top{grid-template-columns:1fr}.ao-torte-green-notes{padding-top:0}.ao-torte-bottom{margin-top:14px}}
+@media(max-width:760px){.ao-torte-original{padding:18px 14px}.ao-torte-title{text-align:left;font-size:23px}.ao-torte-svgwrap{margin:0 -4px}.ao-torte-svg{min-width:690px}.ao-torte-bottom{grid-template-columns:1fr;align-items:start}.ao-torte-wound{justify-items:start;text-align:left}.ao-torte-green-notes,.ao-torte-orange-notes{font-size:16px}}
