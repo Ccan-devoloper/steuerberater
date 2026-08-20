@@ -23,6 +23,10 @@ jobs:
         with:
           node-version: 20
       - run: npm ci || npm install
+      - run: npm run check:k1-ao-einheit-1
+      - run: npm run check:k1-ao-einheit-2
+      - run: npm run check:k1-ao-einheit-3
+      - run: npm run check:k1-ao-einheit-4
       - run: npm run check:k1-ao-einheit-5
       - run: npm run check:k1-ao-einheit-6
       - run: npm run check:k1-ao-einheit-7
