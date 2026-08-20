@@ -40,11 +40,20 @@ const BLOECKE = [
   ["ao-schema-erbe", "Annahme Erbschaft und § 171 Abs. 12 AO", "ao4-erbe-fall", "Einheit 4 · PDF-S. 63–69"],
   ["ao-schema-erstattung", "Erstattungsanspruch und § 171 Abs. 14 AO", "ao4-erstattung", "Einheit 4 · PDF-S. 70–71"],
   ["ao-schema-ao4-master", "Masterübersicht der Ablaufhemmungs- und Korrekturpärchen", "ao4-master", "Einheit 4 · PDF-S. 72"],
+  ["ao-schema-vdn-grundlagen", "Vorbehalt der Nachprüfung: Generalschlüssel, Zweck und Wirkung", "ao5-vdn-grundlagen", "Einheit 5 · PDF-S. 1–5"],
+  ["ao-schema-vdn-dauer", "VdN: Mehrweg-/Einweg-VdN, Steueranmeldung und Ende", "ao5-vdn-arten-dauer", "Einheit 5 · PDF-S. 6–10"],
+  ["ao-schema-vorlaeufig", "Vorläufige Festsetzung: Skalpell, Umfang und Fallgruppen", "ao5-vorlaeufig-grundlagen", "Einheit 5 · PDF-S. 11–17"],
+  ["ao-schema-vorlaeufig-dauer", "Vorläufigkeit: Fortbestand, Änderungsbescheid und § 171 Abs. 8 AO", "ao5-vorlaeufig-dauer", "Einheit 5 · PDF-S. 18–20"],
+  ["ao-schema-ao5-paerchen", "Korrekturpärchen erweitert um § 165 / § 171 Abs. 8 AO", "ao5-korrekturpaerchen", "Einheit 5 · PDF-S. 21"],
+  ["ao-schema-fbescheid-wirksamkeit", "Wirksamkeitsformel Feststellungsbescheide", "ao5-fbescheid-wirksamkeit", "Einheit 5 · PDF-S. 22–23"],
+  ["ao-schema-129", "§ 129 AO: offenbare Unrichtigkeit und Übernahmefehler", "ao5-129", "Einheit 5 · PDF-S. 24–30"],
+  ["ao-schema-173a", "§ 173a AO: Schreib-/Rechenfehler des Steuerpflichtigen", "ao5-173a", "Einheit 5 · PDF-S. 31–35"],
+  ["ao-schema-173", "§ 173 AO: neue Tatsachen – Nr. 1 / Nr. 2", "ao5-173", "Einheit 5 · PDF-S. 36–39, 43–44"],
 ];
 
 export default function AOPruefschema() {
   return <>
-    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–4</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
+    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–5</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
     <div className="ao-schema-stack">
       {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2></div></div><AOSchema id={schema}/></section>)}
     </div>
