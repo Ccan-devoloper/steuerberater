@@ -1,0 +1,45 @@
+import React from "react";
+
+const ZIELE = [
+  [/§\s*38\b/i, "ao-schema-ablauf"],
+  [/§§?\s*85|§\s*88\b|§\s*92\b/i, "ao-schema-ermittlung"],
+  [/§\s*93\b|§\s*97\b|§\s*101\b|§\s*102\b|§\s*104\b|§\s*15\b/i, "ao-schema-auskunft"],
+  [/§\s*118\b/i, "ao-schema-va"],
+  [/§\s*155\b|§§?\s*167|§\s*168\b|§\s*179\b|§\s*239\b|§\s*196\b|§\s*191\b|§\s*152\b/i, "ao-schema-va-arten"],
+  [/§\s*124\b|§\s*125\b|§\s*119\b|§\s*157\b/i, "ao-schema-wirksamkeit"],
+  [/§\s*122\b|§\s*122a\b|§\s*183\b|§\s*183a\b|§\s*8\s*VwZG/i, "ao-schema-bekanntgabe"],
+  [/§\s*80\b|§\s*44\b|§\s*365\b/i, "ao-schema-vertreter"],
+  [/§\s*128\b|§\s*130\b|§\s*131\b|§\s*164\b|§\s*165\b|§§?\s*172/i, "ao-schema-va-arten"],
+  [/§\s*347\b/i, "ao-schema-va-arten"],
+  [/§§?\s*169|§\s*170\b|§\s*171\b/i, "ao-schema-ablauf"],
+];
+
+function zielFuer(text) {
+  return ZIELE.find(([regex]) => regex.test(text))?.[1] || null;
+}
+
+export function AOSchemaVerweise({ text, onOpen, compact = false, stopPropagation = false }) {
+  if (!text || !onOpen) return null;
+  const teile = String(text).split(/\s*·\s*/).filter(Boolean);
+  const gesehen = new Set();
+  const links = teile.map((teil) => [teil, zielFuer(teil)]).filter(([, ziel]) => ziel && !gesehen.has(ziel) && gesehen.add(ziel));
+  if (!links.length) return null;
+  return <div className={`schema-verweise${compact ? " schema-verweise--compact" : ""}`}>
+    {links.map(([label, ziel]) => <button key={`${ziel}-${label}`} type="button" onClick={(e) => { if (stopPropagation) e.stopPropagation(); onOpen(ziel); }}>↗ {label}</button>)}
+  </div>;
+}
+
+export function AONormkette({ normen = [], onOpen }) {
+  return <div className="normkette">{normen.map((norm, i) => {
+    const ziel = zielFuer(norm);
+    return <React.Fragment key={`${norm}-${i}`}>{i > 0 && <span>→</span>}{ziel ? <button type="button" onClick={() => onOpen?.(ziel)}>{norm}</button> : <b>{norm}</b>}</React.Fragment>;
+  })}</div>;
+}
+
+export function AOVerlinkterText({ text, as: Tag = "span", onOpen, compact = false }) {
+  if (!text) return null;
+  return <Tag className={compact ? "ao-linktext ao-linktext--compact" : "ao-linktext"}>{String(text).split(/(§{1,2}\s*\d+[a-z]?(?:\s*(?:Abs\.|S\.|Nr\.)\s*\d+[a-z]?)?(?:\s*AO)?)/g).map((teil, i) => {
+    const ziel = zielFuer(teil);
+    return ziel ? <button key={i} type="button" className="ao-inline-norm" onClick={() => onOpen?.(ziel)}>{teil}</button> : <React.Fragment key={i}>{teil}</React.Fragment>;
+  })}</Tag>;
+}
