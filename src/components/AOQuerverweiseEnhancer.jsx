@@ -26,6 +26,11 @@ function originalfallOeffnen(id) {
 function modulOeffnen(id) {
   rail("Abgabenordnung")?.click();
   const versuchen=(n=0)=>{
+    const alle=Array.from(document.querySelectorAll(".ao-campus .ao-topic-filter button")).find((x)=>x.textContent?.trim()==="Alle Oberthemen");
+    if(alle && alle.getAttribute("aria-pressed") !== "true") {
+      alle.click();
+      if(n<30) return setTimeout(()=>versuchen(n+1),50);
+    }
     const karte=Array.from(document.querySelectorAll(".ao-campus .modules .modul")).find((x)=>x.textContent?.includes(`Modul ${id}`));
     if(karte){karte.click();return;} if(n<30)setTimeout(()=>versuchen(n+1),50);
   }; setTimeout(()=>versuchen(),30);
