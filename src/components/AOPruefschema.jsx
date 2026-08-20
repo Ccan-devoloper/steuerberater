@@ -68,11 +68,20 @@ const BLOECKE = [
   ["ao-schema-plan-abc-7", "Plan A / B / C mit sonstigen VA", "ao7-plan-abc", "Einheit 7 · PDF-S. 332–334"],
   ["ao-schema-steuerhinterziehung", "Steuerhinterziehung: Prüfschema des § 370 AO", "ao7-steuerhinterziehung", "Einheit 7 · PDF-S. 335–367"],
   ["ao-schema-vollstreckung-7", "Vollstreckung: Quellenwiederholung", "ao7-vollstreckung", "Einheit 7 · PDF-S. 368"],
+  ["ao-schema-370-objektiv", "§ 370 AO: objektiver Tatbestand und Taterfolg", "ao8-370-objektiv", "Einheit 8 · PDF-S. 1–15"],
+  ["ao-schema-370-subjektiv", "§ 370 AO: Vorsatz und § 378 AO: Leichtfertigkeit", "ao8-370-subjektiv", "Einheit 8 · PDF-S. 16–29"],
+  ["ao-schema-370-folgen", "Steuerhinterziehung: Rechtswidrigkeit, Schuld und Steuerfolgen", "ao8-370-folgen", "Einheit 8 · PDF-S. 30–42"],
+  ["ao-schema-371", "§ 371 AO: Selbstanzeige und Sperrgründe", "ao8-371-selbstanzeige", "Einheit 8 · PDF-S. 43–67"],
+  ["ao-schema-haftung", "Haftung: Fahrtroute und allgemeine Prüfung", "ao8-haftung-fahrtroute", "Einheit 8 · PDF-S. 68–90"],
+  ["ao-schema-69", "§ 69 AO: Vertreterhaftung, Quotentilgung und kausaler Schaden", "ao8-69-vertreterhaftung", "Einheit 8 · PDF-S. 91–116"],
+  ["ao-schema-mehrere-gf", "§ 69 AO: mehrere Geschäftsführer und Ressortverteilung", "ao8-mehrere-gf", "Einheit 8 · PDF-S. 117–130"],
+  ["ao-schema-71", "§ 71 AO: Haftung des Steuerhinterziehers", "ao8-71-sth-haftung", "Einheit 8 · PDF-S. 131–140"],
+  ["ao-schema-74", "§ 74 AO: Haftung des Eigentümers von Gegenständen", "ao8-74-eigentuemerhaftung", "Einheit 8 · PDF-S. 141–150"],
 ];
 
 export default function AOPruefschema() {
   return <>
-    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–7</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
+    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–8</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
     <div className="ao-schema-stack">
       {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2></div></div><AOSchema id={schema}/></section>)}
     </div>
