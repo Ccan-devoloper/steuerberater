@@ -16,13 +16,26 @@ const MODUL_ZU_FAELLEN = {
   330: [{ id:334, titel:"Festsetzungsfrist und § 129 AO" }],
   331: [{ id:334, titel:"Festsetzungsfrist und § 129 AO" }],
   332: [{ id:334, titel:"Festsetzungsfrist und § 129 AO" }],
+  335: [{ id:344, titel:"Außenprüfung 2015: Schlussbesprechung, Änderungsbescheide und Einspruch" }],
+  343: [{ id:345, titel:"Annahme Erbschaft und Ablaufhemmung" }],
+  352: [{ id:334, titel:"Festsetzungsfrist und § 129 AO" }],
+  354: [
+    { id:355, titel:"Januar-Miete 2023 bereits am 30.12.2022 gezahlt" },
+    { id:356, titel:"Zweifamilienhaus – tatsächliche Wohnflächen später bekannt" },
+    { id:357, titel:"Vollständig neue vermietete Wohnung mit Verlustsaldo" },
+  ],
 };
 const FALL_ZU_MODULEN = {
   310: [{ id:301, titel:"Ablauf des Besteuerungsverfahrens" }],
   311: [{ id:302, titel:"Ermittlungsverfahren: Untersuchungsgrundsatz und Beweismittel" }, { id:303, titel:"Auskunfts- und Vorlageersuchen: Verweigerungsrechte und Verwertbarkeit" }],
   320: [{ id:307, titel:"Bekanntgabe: Zugang, Machtbereich und richtiger Empfänger" }, { id:308, titel:"Bekanntgabe an Steuerberater und Ehegatten" }, { id:312, titel:"Bekanntgabewille und Handlungsfähigkeit" }, { id:313, titel:"Zeitpunkt der Bekanntgabe" }],
   321: [{ id:313, titel:"Zeitpunkt der Bekanntgabe" }, { id:314, titel:"Fristenberechnung nach § 108 AO und BGB" }, { id:319, titel:"Einspruchsfrist, Ende und fristwahrender Eingang" }],
-  334: [{ id:329, titel:"Festsetzungsfrist: Beginn nach § 170 AO" }, { id:330, titel:"Dauer der Festsetzungsfrist" }, { id:331, titel:"Reguläres Ende der Festsetzungsfrist" }, { id:332, titel:"Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist" }],
+  334: [{ id:329, titel:"Festsetzungsfrist: Beginn nach § 170 AO" }, { id:330, titel:"Dauer der Festsetzungsfrist" }, { id:331, titel:"Reguläres Ende der Festsetzungsfrist" }, { id:332, titel:"Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist" }, { id:352, titel:"§ 129 AO: offenbare Unrichtigkeit und Übernahmefehler" }],
+  344: [{ id:335, titel:"Außenprüfung: Ablaufhemmung nach § 171 Abs. 4 AO" }],
+  345: [{ id:343, titel:"Masterübersicht der Ablaufhemmungs- und Korrekturpärchen" }],
+  355: [{ id:354, titel:"§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2" }],
+  356: [{ id:354, titel:"§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2" }],
+  357: [{ id:354, titel:"§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2" }],
 };
 
 function rail(text) { return Array.from(document.querySelectorAll(".ao-campus .rail__link")).find((b)=>b.textContent?.trim()===text); }
