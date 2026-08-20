@@ -16,6 +16,7 @@ const style=fs.readFileSync(new URL("../src/components/ao-einheit5.css",import.m
 const campus=fs.readFileSync(new URL("../src/components/AOCampusV3.jsx",import.meta.url),"utf8");
 const schemaAll=fs.readFileSync(new URL("../src/components/AOSchemataAlle.jsx",import.meta.url),"utf8");
 const pruefschema=fs.readFileSync(new URL("../src/components/AOPruefschema.jsx",import.meta.url),"utf8");
+const links=fs.readFileSync(new URL("../src/components/AOQuerverweiseEnhancer.jsx",import.meta.url),"utf8");
 for(const schema of ao5SchemaIds)assert(renderer.includes(`\"${schema}\"`),`AO Einheit 5: Schema ${schema} fehlt im Renderer.`);
 assert(renderer.includes('import "./ao-einheit3.css"'),"AO Einheit 5: gemeinsamer AO-Schemastil fehlt.");
 for(const shared of ["ao3-sheet","ao3-title","ao3-box","ao3-arrow","ao3-card"])assert(renderer.includes(shared),`AO Einheit 5: gemeinsamer Darstellungsbaustein ${shared} fehlt.`);
@@ -29,9 +30,14 @@ assert(campus.includes("351")&&campus.includes("Grundlagen- & Feststellungsbesch
 for(const [p,id] of [[1,346],[6,347],[11,348],[18,349],[21,350],[22,351],[24,352],[31,353],[36,354],[40,355],[41,356],[42,357],[43,354],[44,354]])assert(Number(ao5Seitenplan[p])===id,`AO Einheit 5: Leitseite ${p} muss ID ${id} zugeordnet sein.`);
 assert(byId.get(355).diagram==="ao5-fall6"&&byId.get(356).diagram==="ao5-fall7"&&byId.get(357).diagram==="ao5-fall8","AO Einheit 5: Fall-Schemata 6–8 fehlen.");
 for(const marker of ["24.000 €","2.000 €","26.000 €","100 m²","50 m²","12.000 €","21.500 €","-9.500 €"])assert(renderer.includes(marker),`AO Einheit 5: Quellenwert fehlt im Fall-Renderer: ${marker}`);
-for(const marker of ["Generalschlüssel","Unzerstörbarer-VdN","Skalpell","§ 171 Abs. 8 S. 1 AO","§ 171 Abs. 8 S. 2 AO","nicht NICHTIG","Übernahmefehler","RMS-Prüfhinweis","§ 173 Abs. 1 Nr. 1 AO ↑","§ 173 Abs. 1 Nr. 2 AO ↓","Spinnenregel"])assert(renderer.includes(marker),`AO Einheit 5: Quellenmarker fehlt im Schema: ${marker}`);
+for(const marker of ["Generalschlüssel","Unzerstörbarer-VdN","Skalpell","§ 171 Abs. 8 S. 1 AO","§ 171 Abs. 8 S. 2 AO","Übernahmefehler","RMS-Prüfhinweis","§ 173 Abs. 1 Nr. 1 AO ↑","§ 173 Abs. 1 Nr. 2 AO ↓","Spinnenregel"])assert(renderer.includes(marker),`AO Einheit 5: Quellenmarker fehlt im Schema: ${marker}`);
+for(const marker of ["nicht","NICHTIG"])assert(renderer.includes(marker),`AO Einheit 5: Wirksamkeitsformel-Teil fehlt: ${marker}`);
+assert(byId.get(347).title.includes("Unzerstörbarer-VdN")&&byId.get(347).intro.join(" ").includes("Unzerstörbarer-VdN"),"AO Einheit 5: Quellenbegriff 'Unzerstörbarer-VdN' ist in den Metadaten nicht exakt übernommen.");
+assert(byId.get(354).law.includes("§ 175 Abs. 1 Nr. 2 AO")&&byId.get(354).scheme.join(" ").includes("§ 175 Abs. 1 Nr. 2 AO"),"AO Einheit 5: Quellenquerverweis § 175 Abs. 1 Nr. 2 AO von S. 43 fehlt.");
 for(const id of ["ao-schema-vdn-grundlagen","ao-schema-vdn-dauer","ao-schema-vorlaeufig","ao-schema-vorlaeufig-dauer","ao-schema-ao5-paerchen","ao-schema-fbescheid-wirksamkeit","ao-schema-129","ao-schema-173a","ao-schema-173"])assert(pruefschema.includes(id),`AO Einheit 5: Prüfschema-Ziel ${id} fehlt.`);
+for(const id of [355,356,357])assert(links.includes(`id:${id}`),`AO Einheit 5: Originalfall ${id} fehlt im bidirektionalen Querverweis-System.`);
+assert(links.includes("354:")&&links.includes("id:354"),"AO Einheit 5: Lernmodul 354 / § 173 ist nicht bidirektional mit den Fällen verlinkt.");
 const alle=aoEinheit5.flatMap(x=>x.sourcePages.map(p=>`${p}:${x.id}`));
 assert(alle.length===44,"AO Einheit 5: Jede Seite muss genau einmal primär zugeordnet sein.");
 assert(new Set(alle.map(x=>x.split(":")[0])).size===44,"AO Einheit 5: doppelte/fehlende Seiten in sourcePages.");
-console.log(`AO Einheit 5 vollständig: 44/44 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${ao5SchemaIds.length} digitale Schemata; Quellenwerte und gemeinsamer AO-Schemastil geprüft.`);
+console.log(`AO Einheit 5 vollständig: 44/44 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${ao5SchemaIds.length} digitale Schemata; Quellenwerte, Querverweise und gemeinsamer AO-Schemastil geprüft.`);
