@@ -58,11 +58,21 @@ const BLOECKE = [
   ["ao-schema-handbuch", "AO-/FGO-Handbuch: Reiter und Fahrtrouten", "ao6-handbuch-reiter", "Einheit 6 · PDF-S. 71–74"],
   ["ao-schema-vollstreckung", "Vollstreckung: allgemeine und maßnahmenspezifische Voraussetzungen", "ao6-vollstreckung", "Einheit 6 · PDF-S. 75"],
   ["ao-schema-fgo", "FGO-Fahrtroute: Zulässigkeits-/Sachurteilsvoraussetzungen", "ao6-fgo-fahrtroute", "Einheit 6 · PDF-S. 76–77"],
+  ["ao-schema-351", "§ 351 Abs. 1 AO: Anfechtungsbeschränkung und Zwei-Schritt-Rahmen", "ao7-351-anfechtung", "Einheit 7 · PDF-S. 1–25"],
+  ["ao-schema-110", "§ 110 AO: gesetzliche Frist und fehlendes Verschulden", "ao7-110-voraussetzungen", "Einheit 7 · PDF-S. 53–76"],
+  ["ao-schema-110-antrag", "§ 110 Abs. 2 AO: Monatsfrist, Nachholung und Antrag", "ao7-110-antrag", "Einheit 7 · PDF-S. 102–113"],
+  ["ao-schema-zwei-einsprueche", "Zwei Einsprüche: Empfangsvollmacht, Heilung und Rechtsschutzbedürfnis", "ao7-fall-zwei-einsprueche", "Einheit 7 · PDF-S. 114–134"],
+  ["ao-schema-gue-bekanntgabe", "GuE-Bescheide: Bekanntgabe nach §§ 183/183a AO", "ao7-gue-bekanntgabe", "Einheit 7 · PDF-S. 135–213 und 369–371"],
+  ["ao-schema-gue-einspruch", "GuE-Bescheide: besondere Einspruchsbefugnis nach § 352 AO", "ao7-gue-einspruchsbefugnis", "Einheit 7 · PDF-S. 214–270"],
+  ["ao-schema-sonstige-va", "Sonstige Verwaltungsakte: § 129 / Rücknahme § 130 / Widerruf § 131", "ao7-korrektur-sonstiger-va", "Einheit 7 · PDF-S. 271–301"],
+  ["ao-schema-plan-abc-7", "Plan A / B / C mit sonstigen VA", "ao7-plan-abc", "Einheit 7 · PDF-S. 332–334"],
+  ["ao-schema-steuerhinterziehung", "Steuerhinterziehung: Prüfschema des § 370 AO", "ao7-steuerhinterziehung", "Einheit 7 · PDF-S. 335–367"],
+  ["ao-schema-vollstreckung-7", "Vollstreckung: Quellenwiederholung", "ao7-vollstreckung", "Einheit 7 · PDF-S. 368"],
 ];
 
 export default function AOPruefschema() {
   return <>
-    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–6</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
+    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–7</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
     <div className="ao-schema-stack">
       {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2></div></div><AOSchema id={schema}/></section>)}
     </div>
