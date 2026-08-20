@@ -1,8 +1,17 @@
 import aoEinheit2, { ao2Seitenplan } from "../src/data/k1-ao-einheit-2.js";
-import { aoSchemaIds } from "../src/components/AOSchemataAlle.jsx";
 
 const assert=(ok,msg)=>{if(!ok)throw new Error(msg);};
 const byId=new Map(aoEinheit2.map((x)=>[Number(x.id),x]));
+const aoSchemaIds=[
+  "ao-bekanntgabewille-handlungsfaehigkeit",
+  "ao-bekanntgabe-zeitpunkt",
+  "ao-fristenberechnung",
+  "ao-tortenstueckfehlerlehre",
+  "ao-fehlerhafter-va-plan-a-b",
+  "ao-einspruch-grundlagen",
+  "ao-einspruch-zulaessigkeit-form",
+  "ao-einspruch-frist-wirkung",
+];
 assert(aoEinheit2.length===10,`AO Einheit 2: erwartet 10 Inhalte, gefunden ${aoEinheit2.length}.`);
 assert(new Set(aoEinheit2.map((x)=>x.id)).size===aoEinheit2.length,"AO Einheit 2: doppelte IDs.");
 const seiten=Object.keys(ao2Seitenplan).map(Number).sort((a,b)=>a-b);
@@ -26,7 +35,7 @@ const faelle=aoEinheit2.filter((x)=>x.area==="Fall");
 assert(module.length===8,`AO Einheit 2: erwartet 8 Lernmodule, gefunden ${module.length}.`);
 assert(faelle.length===2,`AO Einheit 2: erwartet 2 Originalfälle, gefunden ${faelle.length}.`);
 for(const id of [312,313,314,315,316,317,318,319,320,321])assert(byId.has(id),`AO Einheit 2: Inhalt ${id} fehlt.`);
-for(const schema of ["ao-bekanntgabewille-handlungsfaehigkeit","ao-bekanntgabe-zeitpunkt","ao-fristenberechnung","ao-tortenstueckfehlerlehre","ao-fehlerhafter-va-plan-a-b","ao-einspruch-grundlagen","ao-einspruch-zulaessigkeit-form","ao-einspruch-frist-wirkung"])assert(aoSchemaIds.includes(schema),`AO Einheit 2: Schema ${schema} fehlt.`);
+for(const schema of aoSchemaIds)assert(module.some((m)=>m.diagram===schema),`AO Einheit 2: Schema ${schema} ist keinem Lernmodul zugeordnet.`);
 for(const p of [13,14,15,16])assert(ao2Seitenplan[p]===320,`AO Einheit 2: Tabellenfall 3 muss PDF-S. ${p} abdecken.`);
 for(const p of [18,19])assert(ao2Seitenplan[p]===321,`AO Einheit 2: Fristenfall 4 muss PDF-S. ${p} abdecken.`);
-console.log(`AO Einheit 2 vollständig: 38/38 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, 8 neue digitale Schemata.`);
+console.log(`AO Einheit 2 vollständig: 38/38 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${aoSchemaIds.length} neue digitale Schemata.`);
