@@ -1,3 +1,4 @@
+import fs from"node:fs";
 import aoEinheit4,{ao4Seitenplan,ao4SchemaIds}from"../src/data/k1-ao-einheit-4.js";
 const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
 const byId=new Map(aoEinheit4.map(x=>[Number(x.id),x]));
@@ -10,11 +11,19 @@ const module=aoEinheit4.filter(x=>x.area!=="Fall"),faelle=aoEinheit4.filter(x=>x
 assert(module.length===9,`AO Einheit 4: erwartet 9 Lernmodule, gefunden ${module.length}.`);
 assert(faelle.length===2,`AO Einheit 4: erwartet 2 Originalfälle, gefunden ${faelle.length}.`);
 for(const id of [335,336,337,338,339,340,341,342,343,344,345])assert(byId.has(id),`AO Einheit 4: Inhalt ${id} fehlt.`);
-assert(faelle.some(x=>x.id===344&&x.sourcePages.includes(12)),"AO Einheit 4: AP-Zeitstrahl-Fall 344 / S. 12 fehlt.");
-for(const p of [63,64,65,66,67,68,69])assert(ao4Seitenplan[p]===345,`AO Einheit 4: Erbfall 345 muss S. ${p} abdecken.`);
+const renderer=fs.readFileSync(new URL("../src/components/AOSchemataEinheit4.jsx",import.meta.url),"utf8");
+for(const schema of ao4SchemaIds)assert(renderer.includes(`\"${schema}\"`),`AO Einheit 4: Schema ${schema} fehlt im React-Renderer.`);
+assert(faelle.some(x=>x.id===344&&x.sourcePages.includes(12)&&x.diagram==="ao4-ap-beispiel"),"AO Einheit 4: AP-Zeitstrahl-Fall 344 / S. 12 fehlt oder hat falsches Schema.");
+for(const p of [13,14,15,16,17])assert(ao4Seitenplan[p]===336,`AO Einheit 4: Unterbrechungsschema muss S. ${p} abdecken.`);
+for(const p of [25,26,27,28,29,30])assert(ao4Seitenplan[p]===338,`AO Einheit 4: Grundlagenbescheid-Grundschema muss S. ${p} abdecken.`);
+for(const p of [31,32,33,34,35,36,37,38,39,40,41,42,43])assert(ao4Seitenplan[p]===339,`AO Einheit 4: § 171-Abs.-10-/EE-Block muss S. ${p} abdecken.`);
 for(const p of [44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61])assert(ao4Seitenplan[p]===340,`AO Einheit 4: § 181-Block muss S. ${p} abdecken.`);
-assert(ao4Seitenplan[72]===343,"AO Einheit 4: Masterübersicht muss S. 72 abdecken.");
+assert(ao4Seitenplan[62]===341,"AO Einheit 4: Ergänzungsbescheid muss S. 62 abdecken.");
+for(const p of [63,64,65,66,67,68,69])assert(ao4Seitenplan[p]===345,`AO Einheit 4: Erbfall 345 muss S. ${p} abdecken.`);
+for(const p of [70,71])assert(ao4Seitenplan[p]===342,`AO Einheit 4: Erstattungsblock muss S. ${p} abdecken.`);
+assert(ao4Seitenplan[72]===343&&byId.get(343)?.diagram==="ao4-master","AO Einheit 4: Masterübersicht / Schema muss S. 72 abdecken.");
 const alleZuordnungen=aoEinheit4.flatMap(x=>x.sourcePages.map(p=>`${p}:${x.id}`));
 assert(alleZuordnungen.length===72,"AO Einheit 4: Jede PDF-Seite muss genau einmal primär zugeordnet sein.");
 assert(new Set(alleZuordnungen.map(x=>x.split(":")[0])).size===72,"AO Einheit 4: doppelte/fehlende Seiten in sourcePages.");
-console.log(`AO Einheit 4 vollständig: 72/72 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${ao4SchemaIds.length} digitale Schemata.`);
+for(const marker of ["10.7.09","Aufhebung des VdN","§ 361 Abs. 3 S. 2 AO","§ 164 Abs. 4 S. 1 AO","eingebauter Selbstzerstörungsmodus","nicht per Ergänzungsbescheid","(ESt-Bescheid)"])assert(renderer.includes(marker),`AO Einheit 4: Detail aus der Quellenskizze fehlt im Renderer: ${marker}`);
+console.log(`AO Einheit 4 vollständig: 72/72 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${ao4SchemaIds.length} digitale Schemata; Detailmarker geprüft.`);
