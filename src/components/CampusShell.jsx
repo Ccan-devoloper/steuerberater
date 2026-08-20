@@ -8,6 +8,7 @@ const App = lazy(() => import("../App"));
 const K1Campus = lazy(() => import("./K1Campus"));
 const AOCampus = lazy(() => import("./AOCampus"));
 const AOQuerverweiseEnhancer = lazy(() => import("./AOQuerverweiseEnhancer"));
+const AOFall311Tabelle = lazy(() => import("./AOFall311Tabelle"));
 const K1ErbStCampus = lazy(() => import("./K1ErbStCampus"));
 const K1FachleisteEnhancer = lazy(() => import("./K1FachleisteEnhancer"));
 const K1ThemenEnhancer = lazy(() => import("./K1ThemenEnhancer"));
@@ -37,7 +38,13 @@ export default function CampusShell() {
 
   if (campus === "k1") {
     if (k1Fach === "ao") {
-      return <Suspense fallback={<Laden />}><AOCampus onKlausurwechsel={wechseln} onFachwechsel={k1FachWechseln} /><AOQuerverweiseEnhancer /></Suspense>;
+      return (
+        <Suspense fallback={<Laden />}>
+          <AOCampus onKlausurwechsel={wechseln} onFachwechsel={k1FachWechseln} />
+          <AOQuerverweiseEnhancer />
+          <AOFall311Tabelle />
+        </Suspense>
+      );
     }
     if (k1Fach === "erbst") {
       return <Suspense fallback={<Laden />}><K1ErbStCampus onKlausurwechsel={wechseln} onFachwechsel={k1FachWechseln} /></Suspense>;
