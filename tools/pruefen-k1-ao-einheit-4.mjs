@@ -25,5 +25,5 @@ assert(ao4Seitenplan[72]===343&&byId.get(343)?.diagram==="ao4-master","AO Einhei
 const alleZuordnungen=aoEinheit4.flatMap(x=>x.sourcePages.map(p=>`${p}:${x.id}`));
 assert(alleZuordnungen.length===72,"AO Einheit 4: Jede PDF-Seite muss genau einmal primär zugeordnet sein.");
 assert(new Set(alleZuordnungen.map(x=>x.split(":")[0])).size===72,"AO Einheit 4: doppelte/fehlende Seiten in sourcePages.");
-for(const marker of ["10.7.09","Aufhebung des VdN","§ 361 Abs. 3 S. 2 AO","§ 164 Abs. 4 S. 1 AO","eingebauter Selbstzerstörungsmodus","nicht per Ergänzungsbescheid","(ESt-Bescheid)"])assert(renderer.includes(marker),`AO Einheit 4: Detail aus der Quellenskizze fehlt im Renderer: ${marker}`);
+for(const marker of ["10.7.09","Aufhebung des VdN","§ 361 Abs. 3 S. 2 AO","§ 164 Abs. 4 S. 1 AO","eingebauter Selbstzerstörungsmodus","§ 179 Abs. 3 AO","(ESt-Bescheid)"])assert(renderer.includes(marker),`AO Einheit 4: Detail aus der Quellenskizze fehlt im Renderer: ${marker}`);
 console.log(`AO Einheit 4 vollständig: 72/72 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${ao4SchemaIds.length} digitale Schemata; Detailmarker geprüft.`);
