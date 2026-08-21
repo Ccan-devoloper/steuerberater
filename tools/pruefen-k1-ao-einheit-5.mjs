@@ -25,8 +25,8 @@ for(const token of ["var(--b)","var(--g)","var(--y)","var(--r)","var(--p)"])asse
 assert(schemaAll.includes("AO5_SCHEMATA")&&schemaAll.includes("ao5SchemaIds"),"AO Einheit 5: Schemas nicht global registriert.");
 assert(schemaAll.includes("AO5NeueTatsachenSchema")&&schemaAll.includes('id === "ao5-173"'),"AO Einheit 5: präzises §173-Spezialschema ist nicht aktiviert.");
 assert(campus.includes('import aoEinheit5 from"../data/k1-ao-einheit-5.js"')&&campus.includes("...aoEinheit5"),"AO Einheit 5: nicht im Campus registriert.");
-assert(campus.includes("34+38+53+72+44"),"AO Einheit 5: Gesamtseitenzahl im Campus nicht auf 241 erweitert.");
-assert(campus.includes("Einheiten 1–5")&&campus.includes('id:"E5"'),"AO Einheit 5: Cockpit/Klausurmodus nicht erweitert.");
+assert(campus.includes("34+38+53+72+44"),"AO Einheit 5: kumulative Seitenzahl enthält Einheit 5 nicht.");
+assert(campus.includes("AO-Einheiten 1–")&&campus.includes('id:"E5",label:"AO Einheit 5"'),"AO Einheit 5: Cockpit/Klausurmodus nicht registriert.");
 for(const id of [346,347,348,349,350,352,353,354])assert(campus.includes(String(id)),`AO Einheit 5: Modul ${id} fehlt in Oberthemenzuordnung.`);
 assert(campus.includes("351")&&campus.includes("Grundlagen- & Feststellungsbescheide"),"AO Einheit 5: F-Bescheid-Modul nicht im Feststellungs-Oberthema angebunden.");
 for(const [p,id] of [[1,346],[6,347],[11,348],[18,349],[21,350],[22,351],[24,352],[31,353],[36,354],[40,355],[41,356],[42,357],[43,354],[44,354]])assert(Number(ao5Seitenplan[p])===id,`AO Einheit 5: Leitseite ${p} muss ID ${id} zugeordnet sein.`);
