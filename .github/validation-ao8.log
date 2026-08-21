@@ -2,15 +2,4 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k1-ao-einheit-8
 > node tools/pruefen-k1-ao-einheit-8.mjs
 
-file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-einheit-8.mjs:4
-const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
-                                     ^
-
-Error: AO Einheit 8: Steuerstrafrechts-Marker fehlt: Wissen & Wollen
-    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-einheit-8.mjs:4:38)
-    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-einheit-8.mjs:27:272
-    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
-    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
-
-Node.js v20.20.2
+AO Einheit 8 vollständig: 150/150 PDF-Seiten, 9 Lernmodule, 9 digitale Schemata; §§ 370/371/378 sowie Haftung §§ 69/71/74 geprüft.
