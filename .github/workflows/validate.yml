@@ -5,6 +5,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -14,16 +17,119 @@ jobs:
         with:
           node-version: 20
           cache: npm
-      - run: npm ci
-      - run: npm run check:fallsammlung
-      - run: npm run check:fallsammlung-format
-      - run: npm run check:hausaufgaben
-      - run: npm run check:k1-ao-einheit-1
-      - run: npm run check:k1-ao-einheit-2
-      - run: npm run check:k1-ao-einheit-3
-      - run: npm run check:k1-ao-einheit-4
-      - run: npm run check:k1-ao-einheit-5
-      - run: npm run check:k1-ao-einheit-6
-      - run: npm run check:k1-ao-einheit-7
-      - run: npm run check:k1-ao-einheit-8
-      - run: npm run build
+
+      - id: npmci
+        name: npm ci
+        continue-on-error: true
+        run: npm ci
+      - id: fallsammlung
+        name: Fallsammlung
+        continue-on-error: true
+        run: npm run check:fallsammlung
+      - id: fallsammlung_format
+        name: Fallsammlungsformat
+        continue-on-error: true
+        run: npm run check:fallsammlung-format
+      - id: hausaufgaben
+        name: Hausaufgaben
+        continue-on-error: true
+        run: npm run check:hausaufgaben
+      - id: ao1
+        name: AO Einheit 1
+        continue-on-error: true
+        run: npm run check:k1-ao-einheit-1
+      - id: ao2
+        name: AO Einheit 2
+        continue-on-error: true
+        run: npm run check:k1-ao-einheit-2
+      - id: ao3
+        name: AO Einheit 3
+        continue-on-error: true
+        run: npm run check:k1-ao-einheit-3
+      - id: ao4
+        name: AO Einheit 4
+        continue-on-error: true
+        run: npm run check:k1-ao-einheit-4
+      - id: ao5
+        name: AO Einheit 5
+        continue-on-error: true
+        run: npm run check:k1-ao-einheit-5
+      - id: ao6
+        name: AO Einheit 6
+        continue-on-error: true
+        run: npm run check:k1-ao-einheit-6
+      - id: ao7
+        name: AO Einheit 7
+        continue-on-error: true
+        run: npm run check:k1-ao-einheit-7
+      - id: ao8
+        name: AO Einheit 8
+        continue-on-error: true
+        run: npm run check:k1-ao-einheit-8
+      - id: build
+        name: Produktions-Build
+        continue-on-error: true
+        run: npm run build
+
+      - name: Validierungsbericht auf main schreiben
+        if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          S_NPMCI: ${{ steps.npmci.outcome }}
+          S_FALLSAMMLUNG: ${{ steps.fallsammlung.outcome }}
+          S_FALLSAMMLUNG_FORMAT: ${{ steps.fallsammlung_format.outcome }}
+          S_HAUSAUFGABEN: ${{ steps.hausaufgaben.outcome }}
+          S_AO1: ${{ steps.ao1.outcome }}
+          S_AO2: ${{ steps.ao2.outcome }}
+          S_AO3: ${{ steps.ao3.outcome }}
+          S_AO4: ${{ steps.ao4.outcome }}
+          S_AO5: ${{ steps.ao5.outcome }}
+          S_AO6: ${{ steps.ao6.outcome }}
+          S_AO7: ${{ steps.ao7.outcome }}
+          S_AO8: ${{ steps.ao8.outcome }}
+          S_BUILD: ${{ steps.build.outcome }}
+        run: |
+          cat > .github/validation-last.json <<EOF
+          {
+            "validated_sha": "${GITHUB_SHA}",
+            "npm_ci": "${S_NPMCI}",
+            "fallsammlung": "${S_FALLSAMMLUNG}",
+            "fallsammlung_format": "${S_FALLSAMMLUNG_FORMAT}",
+            "hausaufgaben": "${S_HAUSAUFGABEN}",
+            "ao_einheit_1": "${S_AO1}",
+            "ao_einheit_2": "${S_AO2}",
+            "ao_einheit_3": "${S_AO3}",
+            "ao_einheit_4": "${S_AO4}",
+            "ao_einheit_5": "${S_AO5}",
+            "ao_einheit_6": "${S_AO6}",
+            "ao_einheit_7": "${S_AO7}",
+            "ao_einheit_8": "${S_AO8}",
+            "build": "${S_BUILD}"
+          }
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/validation-last.json
+          git commit -m "ci: Validierungsstatus ${GITHUB_SHA}" || true
+          git push
+
+      - name: Validierung endgültig bewerten
+        if: always()
+        env:
+          RESULTS: ${{ join(steps.*.outcome, ' ') }}
+          S_NPMCI: ${{ steps.npmci.outcome }}
+          S_FALLSAMMLUNG: ${{ steps.fallsammlung.outcome }}
+          S_FALLSAMMLUNG_FORMAT: ${{ steps.fallsammlung_format.outcome }}
+          S_HAUSAUFGABEN: ${{ steps.hausaufgaben.outcome }}
+          S_AO1: ${{ steps.ao1.outcome }}
+          S_AO2: ${{ steps.ao2.outcome }}
+          S_AO3: ${{ steps.ao3.outcome }}
+          S_AO4: ${{ steps.ao4.outcome }}
+          S_AO5: ${{ steps.ao5.outcome }}
+          S_AO6: ${{ steps.ao6.outcome }}
+          S_AO7: ${{ steps.ao7.outcome }}
+          S_AO8: ${{ steps.ao8.outcome }}
+          S_BUILD: ${{ steps.build.outcome }}
+        run: |
+          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_BUILD"; do
+            test "$value" = "success" || exit 1
+          done
