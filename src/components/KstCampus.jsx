@@ -1,8 +1,9 @@
 /* Die Register müssen vor allen Datenimporten laufen, weil sie die Einheiten
-   2, 5 und 6 in die gemeinsamen KSt-Arrays einspeisen. */
+   2, 5, 6 und 7 in die gemeinsamen KSt-Arrays einspeisen. */
 import "../data/kst-einheit-2-register.js";
 import "../data/kst-einheit-5-register.js";
 import "../data/kst-einheit-6-register.js";
+import "../data/kst-einheit-7-register.js";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { kstBereiche, kstBereichName, kstModule, kstQuellen, kstSchemata } from "../data/kst-module";
 import { kstFaelle } from "../data/kst-faelle";
