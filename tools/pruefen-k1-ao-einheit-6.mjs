@@ -52,8 +52,8 @@ for(const token of ["var(--b)","var(--g)","var(--y)","var(--r)","var(--p)"])asse
 
 assert(schemaAll.includes("AO6_SCHEMATA")&&schemaAll.includes("ao6SchemaIds"),"AO Einheit 6: Schemas nicht global registriert.");
 assert(campus.includes('import aoEinheit6 from"../data/k1-ao-einheit-6.js"')&&campus.includes("...aoEinheit6"),"AO Einheit 6: nicht im Campus registriert.");
-assert(campus.includes("34+38+53+72+44+77"),"AO Einheit 6: Gesamtseitenzahl im Campus nicht auf 318 erweitert.");
-assert(campus.includes("AO-Einheiten 1–6")&&campus.includes('id:"E6"'),"AO Einheit 6: Cockpit/Klausurmodus nicht erweitert.");
+assert(campus.includes("34+38+53+72+44+77"),"AO Einheit 6: kumulative Seitenzahl enthält Einheit 6 nicht.");
+assert(campus.includes("AO-Einheiten 1–")&&campus.includes('id:"E6",label:"AO Einheit 6"'),"AO Einheit 6: Cockpit/Klausurmodus nicht registriert.");
 for(const id of [358,359,360,361,362,363,366,367,368])assert(campus.includes(String(id)),`AO Einheit 6: Modul ${id} fehlt in Oberthemenzuordnung.`);
 assert(campus.includes("Saldierung & § 177 AO")&&campus.includes("FGO & Vollstreckung"),"AO Einheit 6: neue Oberthemen fehlen.");
 
