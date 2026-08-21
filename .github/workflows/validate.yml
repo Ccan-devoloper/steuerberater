@@ -61,11 +61,17 @@ jobs:
       - id: ao7
         name: AO Einheit 7
         continue-on-error: true
-        run: npm run check:k1-ao-einheit-7
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run check:k1-ao-einheit-7 2>&1 | tee /tmp/ao7.log
       - id: ao8
         name: AO Einheit 8
         continue-on-error: true
-        run: npm run check:k1-ao-einheit-8
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run check:k1-ao-einheit-8 2>&1 | tee /tmp/ao8.log
       - id: build
         name: Produktions-Build
         continue-on-error: true
@@ -106,16 +112,17 @@ jobs:
             "build": "${S_BUILD}"
           }
           EOF
+          cp /tmp/ao7.log .github/validation-ao7.log 2>/dev/null || true
+          cp /tmp/ao8.log .github/validation-ao8.log 2>/dev/null || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/validation-last.json
+          git add .github/validation-last.json .github/validation-ao7.log .github/validation-ao8.log
           git commit -m "ci: Validierungsstatus ${GITHUB_SHA}" || true
           git push
 
       - name: Validierung endgültig bewerten
         if: always()
         env:
-          RESULTS: ${{ join(steps.*.outcome, ' ') }}
           S_NPMCI: ${{ steps.npmci.outcome }}
           S_FALLSAMMLUNG: ${{ steps.fallsammlung.outcome }}
           S_FALLSAMMLUNG_FORMAT: ${{ steps.fallsammlung_format.outcome }}
