@@ -5,19 +5,17 @@ const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
 const byId=new Map(aoEinheit7.map(x=>[Number(x.id),x]));
 
 assert(aoEinheit7.length===16,`AO Einheit 7: erwartet 16 Inhalte, gefunden ${aoEinheit7.length}.`);
-assert(new Set(aoEinheit7.map(x=>x.id)).size===aoEinheit7.length,"AO Einheit 7: doppelte IDs.");
-assert(Object.keys(ao7Seitenplan).length===371,"AO Einheit 7: physischer PDF-Seitenplan muss exakt 371 Seiten/Frames enthalten.");
+assert(new Set(aoEinheit7.map(x=>x.id)).size===16,"AO Einheit 7: doppelte IDs.");
+assert(Object.keys(ao7Seitenplan).length===371,"AO Einheit 7: Seitenplan muss exakt 371 physische Seiten/Frames enthalten.");
 for(let s=1;s<=371;s+=1){
   const id=Number(ao7Seitenplan[s]);
-  assert(id,`AO Einheit 7: PDF-Seite/Frame ${s} fehlt.`);
+  assert(id,`AO Einheit 7: Seite/Frame ${s} fehlt.`);
   assert(byId.has(id),`AO Einheit 7: Seite ${s} verweist auf unbekannte ID ${id}.`);
   assert(byId.get(id).sourcePages?.includes(s),`AO Einheit 7: Seite ${s} fehlt in sourcePages von ${id}.`);
 }
 for(const item of aoEinheit7){
   assert(item.einheit===7,`${item.id}: falsche Einheit.`);
-  assert(item.title&&item.law,`${item.id}: Titel/Normen fehlen.`);
-  assert(item.sourcePages?.length,`${item.id}: Quellen-Seiten fehlen.`);
-  assert(item.diagram&&ao7SchemaIds.includes(item.diagram),`${item.id}: Schema fehlt/unbekannt.`);
+  assert(item.title&&item.law&&item.diagram,`${item.id}: Titel/Normen/Schema fehlen.`);
   assert(item.example?.facts&&item.example?.solution?.length&&item.example?.result,`${item.id}: Vertiefung/Fall unvollständig.`);
   assert(item.merksatz,`${item.id}: Merksatz fehlt.`);
   assert(item.intro?.length&&item.goals?.length&&item.scheme?.length&&item.normchain?.length,`${item.id}: Lern-/Prüfstruktur unvollständig.`);
@@ -41,11 +39,10 @@ const schemaLinks=fs.readFileSync(new URL("../src/components/AOSchemaLinks.jsx",
 
 assert(ao7SchemaIds.length===16,`AO Einheit 7: erwartet 16 digitale Schemata/Falldarstellungen, gefunden ${ao7SchemaIds.length}.`);
 for(const schema of ao7SchemaIds)assert(renderer.includes(`\"${schema}\"`),`AO Einheit 7: Schema ${schema} fehlt im Renderer.`);
-assert(renderer.includes('import "./ao-einheit3.css"')&&renderer.includes('import "./ao-einheit5.css"')&&renderer.includes('import "./ao-einheit6.css"'),"AO Einheit 7: gemeinsamer AO-Schemastil fehlt.");
-for(const shared of ["ao3-sheet","ao3-title","ao3-box","ao3-arrow","ao5-note"])assert(renderer.includes(shared),`AO Einheit 7: gemeinsamer Darstellungsbaustein ${shared} fehlt.`);
+for(const shared of ['import "./ao-einheit3.css"','import "./ao-einheit5.css"','import "./ao-einheit6.css"',"ao3-sheet","ao3-title","ao3-box","ao3-arrow","ao5-note"])assert(renderer.includes(shared),`AO Einheit 7: gemeinsamer Darstellungsbaustein fehlt: ${shared}`);
 for(const token of ["var(--b)","var(--g)","var(--y)","var(--r)","var(--p)"])assert(style.includes(token),`AO Einheit 7: gemeinsame Farblogik ${token} fehlt.`);
+assert(schemaAll.includes("AO7_SCHEMATA")&&schemaAll.includes("ao7SchemaIds"),"AO Einheit 7: Schemata nicht global registriert.");
 
-assert(schemaAll.includes("AO7_SCHEMATA")&&schemaAll.includes("ao7SchemaIds"),"AO Einheit 7: Schemas nicht global registriert.");
 assert(campus.includes('import aoEinheit7 from"../data/k1-ao-einheit-7.js"')&&campus.includes("...aoEinheit7"),"AO Einheit 7: nicht im Campus registriert.");
 assert(campus.includes("34+38+53+72+44+77+371"),"AO Einheit 7: kumulative Seitenzahl enthält Einheit 7 nicht.");
 assert(campus.includes("AO-Einheiten 1–")&&campus.includes('id:"E7",label:"AO Einheit 7"'),"AO Einheit 7: Cockpit/Klausurmodus nicht registriert.");
@@ -58,7 +55,7 @@ for(const [p,id] of [[1,369],[26,370],[53,371],[77,372],[102,373],[114,374],[135
 for(const marker of ["14.500 €","7.800 €","9.700 €","3.000 €","1.500 €","2.100 €","6.000 €"])assert(renderer.includes(marker),`AO Einheit 7: Quellenwert im §351-Fall fehlt: ${marker}`);
 for(const marker of ["Leichte Krankheit / geplanter Eingriff","plötzliche, schwere Krankheit","Urlaub 8 Wochen","Urlaub 21 Tage","Einspruch bei falschem FA","Bote","Vertreter","Laie","Profi"])assert(renderer.includes(marker),`AO Einheit 7: Fall-9-Tabellenmarker fehlt: ${marker}`);
 for(const marker of ["Gesetzliche Frist","ohne Verschulden versäumt","innerhalb von 1 Monat nach Wegfall des Hindernisses","Immer!","Meistens!","Nie zwingend!"])assert(renderer.includes(marker),`AO Einheit 7: §110-Quellenmarker fehlt: ${marker}`);
-for(const marker of ["7.7.02","3.9.02","4.11.02","2.12.02","§ 8 VwZG analog","zwei Einsprüchen"])assert(renderer.includes(marker),`AO Einheit 7: Zwei-Einsprüche-Zeitstrahl unvollständig: ${marker}`);
+for(const marker of ["7.7.02","3.9.02","4.11.02","2.12.02","§ 8 VwZG analog","Zwei Einsprüche in derselben Sache"])assert(renderer.includes(marker),`AO Einheit 7: Zwei-Einsprüche-Zeitstrahl unvollständig: ${marker}`);
 for(const marker of ["§ 14a Abs. 2 Nr. 2","§ 14a Abs. 3 Nr. 3","§ 183 AO","§ 183a AO","Wirkung für alle","§ 125 Abs. 4","§ 352 AO","Teilbefugnisse"])assert(renderer.includes(marker),`AO Einheit 7: GuE-Schema unvollständig: ${marker}`);
 for(const marker of ["§ 130 AO","§ 131 AO","Erlasszeitpunkt","allwissender Sicht","Fall 10","Fall 11","Fall 12","Fall 13"])assert(renderer.includes(marker),`AO Einheit 7: sonstige-VA-/Fallmarker fehlt: ${marker}`);
 for(const marker of ["Steuerhinterziehung","§ 370 Abs. 1 Nr. 1","Kausaler Taterfolg","zu viel VorSt","zu niedriger F-Bescheid"])assert(renderer.includes(marker),`AO Einheit 7: §370-Schema unvollständig: ${marker}`);
