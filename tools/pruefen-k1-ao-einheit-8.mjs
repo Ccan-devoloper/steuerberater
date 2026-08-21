@@ -29,10 +29,10 @@ for(const marker of ["Einstehenmüssen für eine fremde Schuld","§§ 69–76 AO
 
 assert(all.includes("AO8_SCHEMATA")&&all.includes("ao8SchemaIds"),"AO Einheit 8: Schemata nicht global registriert.");
 assert(campus.includes('import aoEinheit8 from"../data/k1-ao-einheit-8.js"')&&campus.includes("...aoEinheit8"),"AO Einheit 8: nicht im Campus registriert.");
-assert(campus.includes("34+38+53+72+44+77+371+150"),"AO Einheit 8: Gesamtseitenzahl muss 839 sein.");
-assert(campus.includes("AO-Einheiten 1–8")&&campus.includes('id:"E8"'),"AO Einheit 8: Cockpit/Klausurmodus nicht erweitert.");
+assert(campus.includes("34+38+53+72+44+77+371+150"),"AO Einheit 8: kumulative Seitenzahl enthält Einheit 8 nicht.");
+assert(campus.includes("AO-Einheiten 1–")&&campus.includes('id:"E8",label:"AO Einheit 8"'),"AO Einheit 8: Cockpit/Klausurmodus nicht registriert.");
 for(const id of [385,386,387,388,389,390,391,392,393])assert(campus.includes(String(id)),`AO Einheit 8: Modul ${id} fehlt in Oberthemenzuordnung.`);
-assert(campus.includes("Haftung & §§ 69–76 AO")&&campus.includes("Steuerstrafrecht, Selbstanzeige & §§ 370/371/378 AO"),"AO Einheit 8: Oberthemen fehlen.");
+assert(campus.includes('id:"haftung"')&&campus.includes('id:"steuerstrafrecht"'),"AO Einheit 8: Oberthemen fehlen.");
 for(const id of ["ao-schema-370-objektiv","ao-schema-370-subjektiv","ao-schema-370-folgen","ao-schema-371","ao-schema-haftung","ao-schema-69","ao-schema-mehrere-gf","ao-schema-71","ao-schema-74"])assert(pruefschema.includes(id),`AO Einheit 8: Prüfschema-Ziel ${id} fehlt.`);
 for(const target of ["ao-schema-370-objektiv","ao-schema-370-subjektiv","ao-schema-370-folgen","ao-schema-371","ao-schema-haftung","ao-schema-69","ao-schema-71","ao-schema-74"])assert(links.includes(target),`AO Einheit 8: Normsprung ${target} fehlt.`);
 
