@@ -2,15 +2,4 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k1-ao-einheit-7
 > node tools/pruefen-k1-ao-einheit-7.mjs
 
-file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-einheit-7.mjs:4
-const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
-                                     ^
-
-Error: AO Einheit 7: sonstige-VA-/Fallmarker fehlt: Fall 10
-    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-einheit-7.mjs:4:38)
-    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-einheit-7.mjs:60:124
-    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
-    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
-
-Node.js v20.20.2
+AO Einheit 7 vollständig: 371/371 physische PDF-Seiten/Frames, 9 Lernmodule, 7 Originalfälle, 16 digitale Schemata/Falldarstellungen; §351, §110, GuE/§352, §§130/131, Fälle 9–13, §370, Vollstreckung und Querverweise geprüft.
