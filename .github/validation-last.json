@@ -1,0 +1,16 @@
+{
+  "validated_sha": "94251e71db8bae1cce6fabd89e1b8f46d7436a17",
+  "npm_ci": "success",
+  "fallsammlung": "success",
+  "fallsammlung_format": "success",
+  "hausaufgaben": "success",
+  "ao_einheit_1": "success",
+  "ao_einheit_2": "success",
+  "ao_einheit_3": "success",
+  "ao_einheit_4": "success",
+  "ao_einheit_5": "success",
+  "ao_einheit_6": "success",
+  "ao_einheit_7": "failure",
+  "ao_einheit_8": "failure",
+  "build": "success"
+}
