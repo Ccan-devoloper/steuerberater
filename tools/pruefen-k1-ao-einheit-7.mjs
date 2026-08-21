@@ -47,10 +47,10 @@ for(const token of ["var(--b)","var(--g)","var(--y)","var(--r)","var(--p)"])asse
 
 assert(schemaAll.includes("AO7_SCHEMATA")&&schemaAll.includes("ao7SchemaIds"),"AO Einheit 7: Schemas nicht global registriert.");
 assert(campus.includes('import aoEinheit7 from"../data/k1-ao-einheit-7.js"')&&campus.includes("...aoEinheit7"),"AO Einheit 7: nicht im Campus registriert.");
-assert(campus.includes("34+38+53+72+44+77+371"),"AO Einheit 7: Gesamtseitenzahl im Campus nicht auf 689 erweitert.");
-assert(campus.includes("AO-Einheiten 1–7")&&campus.includes('id:"E7"'),"AO Einheit 7: Cockpit/Klausurmodus nicht erweitert.");
+assert(campus.includes("34+38+53+72+44+77+371"),"AO Einheit 7: kumulative Seitenzahl enthält Einheit 7 nicht.");
+assert(campus.includes("AO-Einheiten 1–")&&campus.includes('id:"E7",label:"AO Einheit 7"'),"AO Einheit 7: Cockpit/Klausurmodus nicht registriert.");
 for(const id of [369,371,373,375,376,377,382,383,384])assert(campus.includes(String(id)),`AO Einheit 7: Modul ${id} fehlt in Oberthemenzuordnung.`);
-for(const topic of ["Wiedereinsetzung & Fristversäumnis","GuE-Bescheide & § 352 AO","Sonstige VA: §§ 129–131 AO","Steuerhinterziehung & § 370 AO"])assert(campus.includes(topic),`AO Einheit 7: Oberthema fehlt: ${topic}`);
+for(const topicId of ['id:"wiedereinsetzung"','id:"gue"','id:"sonstigeva"','id:"steuerstrafrecht"'])assert(campus.includes(topicId),`AO Einheit 7: Oberthemen-ID fehlt: ${topicId}`);
 assert(campus.includes("m.einheit===7"),"AO Einheit 7: native Falllösungen nicht direkt im Fallreiter aktiviert.");
 
 for(const [p,id] of [[1,369],[26,370],[53,371],[77,372],[102,373],[114,374],[135,375],[214,376],[271,377],[302,378],[311,379],[323,380],[326,381],[332,382],[335,383],[368,384],[369,375],[371,375]])assert(Number(ao7Seitenplan[p])===id,`AO Einheit 7: Leitseite ${p} muss ID ${id} zugeordnet sein.`);
