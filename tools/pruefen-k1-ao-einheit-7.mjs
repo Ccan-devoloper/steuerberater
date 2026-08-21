@@ -57,7 +57,8 @@ for(const marker of ["Leichte Krankheit / geplanter Eingriff","plötzliche, schw
 for(const marker of ["Gesetzliche Frist","ohne Verschulden versäumt","innerhalb von 1 Monat nach Wegfall des Hindernisses","Immer!","Meistens!","Nie zwingend!"])assert(renderer.includes(marker),`AO Einheit 7: §110-Quellenmarker fehlt: ${marker}`);
 for(const marker of ["7.7.02","3.9.02","4.11.02","2.12.02","§ 8 VwZG analog","Zwei Einsprüche in derselben Sache"])assert(renderer.includes(marker),`AO Einheit 7: Zwei-Einsprüche-Zeitstrahl unvollständig: ${marker}`);
 for(const marker of ["§ 14a Abs. 2 Nr. 2","§ 14a Abs. 3 Nr. 3","§ 183 AO","§ 183a AO","Wirkung für alle","§ 125 Abs. 4","§ 352 AO","Teilbefugnisse"])assert(renderer.includes(marker),`AO Einheit 7: GuE-Schema unvollständig: ${marker}`);
-for(const marker of ["§ 130 AO","§ 131 AO","Erlasszeitpunkt","allwissender Sicht","Fall 10","Fall 11","Fall 12","Fall 13"])assert(renderer.includes(marker),`AO Einheit 7: sonstige-VA-/Fallmarker fehlt: ${marker}`);
+for(const marker of ["§ 130 AO","§ 131 AO","Erlasszeitpunkt","allwissender Sicht"])assert(renderer.includes(marker),`AO Einheit 7: sonstige-VA-Marker fehlt: ${marker}`);
+for(const nr of ["10","11","12","13"])assert(renderer.includes(`nr=\"${nr}\"`),`AO Einheit 7: parametrisierte Fallkarte ${nr} fehlt.`);
 for(const marker of ["Steuerhinterziehung","§ 370 Abs. 1 Nr. 1","Kausaler Taterfolg","zu viel VorSt","zu niedriger F-Bescheid"])assert(renderer.includes(marker),`AO Einheit 7: §370-Schema unvollständig: ${marker}`);
 for(const marker of ["§ 249 (1)","§ 251 (1)","§ 361","§ 254 (1)","§ 220","§ 259","§ 281 (1)","§ 286","§ 263","§ 295"])assert(renderer.includes(marker),`AO Einheit 7: Vollstreckungswiederholung unvollständig: ${marker}`);
 
