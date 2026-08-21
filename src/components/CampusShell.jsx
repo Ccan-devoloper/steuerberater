@@ -18,6 +18,7 @@ const K1HausaufgabenEnhancer = lazy(() => import("./K1HausaufgabenEnhancer"));
 const K1UebungsverweiseEnhancer = lazy(() => import("./K1UebungsverweiseEnhancer"));
 const K1MeurerKurzskriptEnhancer = lazy(() => import("./K1MeurerKurzskriptEnhancer"));
 const KstCampus = lazy(() => import("./KstCampus"));
+const KstOriginalSchemataEnhancer = lazy(() => import("./KstOriginalSchemataEnhancer"));
 
 const Laden = () => (
   <div className="campus-laden" role="status" aria-live="polite">Campus wird geladen …</div>
@@ -67,6 +68,7 @@ export default function CampusShell() {
     return (
       <Suspense fallback={<Laden />}>
         <KstCampus onKlausurwechsel={wechseln} />
+        <KstOriginalSchemataEnhancer />
       </Suspense>
     );
   }
