@@ -79,7 +79,10 @@ jobs:
       - id: aohausaufgaben
         name: AO Hausaufgabe 1.+2. Fachtermin · 9/9 Seiten
         continue-on-error: true
-        run: npm run check:k1-ao-hausaufgaben
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run check:k1-ao-hausaufgaben 2>&1 | tee /tmp/aohausaufgaben.log
       - id: build
         name: Produktions-Build
         continue-on-error: true
@@ -129,7 +132,8 @@ jobs:
           EOF
           cp /tmp/ao7.log .github/validation-ao7.log 2>/dev/null || true
           cp /tmp/ao8.log .github/validation-ao8.log 2>/dev/null || true
-          git add .github/validation-last.json .github/validation-ao7.log .github/validation-ao8.log
+          cp /tmp/aohausaufgaben.log .github/validation-aohausaufgaben.log 2>/dev/null || true
+          git add .github/validation-last.json .github/validation-ao7.log .github/validation-ao8.log .github/validation-aohausaufgaben.log
           git commit -m "ci: Validierungsstatus ${GITHUB_SHA}" || true
           git push || (git pull --rebase origin main && git push)
 
