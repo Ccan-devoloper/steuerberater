@@ -76,6 +76,10 @@ jobs:
         name: AO Short-Skript 2025 · 49/49 Seiten
         continue-on-error: true
         run: npm run check:k1-ao-shortskript-2025
+      - id: aohausaufgaben
+        name: AO Hausaufgabe 1.+2. Fachtermin · 9/9 Seiten
+        continue-on-error: true
+        run: npm run check:k1-ao-hausaufgaben
       - id: build
         name: Produktions-Build
         continue-on-error: true
@@ -97,6 +101,7 @@ jobs:
           S_AO7: ${{ steps.ao7.outcome }}
           S_AO8: ${{ steps.ao8.outcome }}
           S_AOSCRIPT: ${{ steps.aoscript.outcome }}
+          S_AOHAUSAUFGABEN: ${{ steps.aohausaufgaben.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
           git config user.name "github-actions[bot]"
@@ -118,6 +123,7 @@ jobs:
             "ao_einheit_7": "${S_AO7}",
             "ao_einheit_8": "${S_AO8}",
             "ao_shortskript_2025": "${S_AOSCRIPT}",
+            "ao_hausaufgaben": "${S_AOHAUSAUFGABEN}",
             "build": "${S_BUILD}"
           }
           EOF
@@ -143,8 +149,9 @@ jobs:
           S_AO7: ${{ steps.ao7.outcome }}
           S_AO8: ${{ steps.ao8.outcome }}
           S_AOSCRIPT: ${{ steps.aoscript.outcome }}
+          S_AOHAUSAUFGABEN: ${{ steps.aohausaufgaben.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
-          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_AOSCRIPT" "$S_BUILD"; do
+          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_AOSCRIPT" "$S_AOHAUSAUFGABEN" "$S_BUILD"; do
             test "$value" = "success" || exit 1
           done
