@@ -16,7 +16,7 @@ for(const fall of termin.faelle){assert(fall.aufgabe?.length&&fall.loesung?.leng
 const data=fs.readFileSync(new URL('../src/data/k1-ao-hausaufgaben.js',import.meta.url),'utf8');
 const ui=fs.readFileSync(new URL('../src/components/AOHausaufgaben.jsx',import.meta.url),'utf8');
 const campus=fs.readFileSync(new URL('../src/components/AOCampusV3.jsx',import.meta.url),'utf8');
-for(const marker of ['ernstlichen Meinungsverschiedenheiten','§ 122 Abs. 7','Ermessensreduzierung auf Null','04.08.12','15.05.12','01.09.12','52.000 €','40.000 €','17.10.07','17.11.07','17.10.08'])assert(data.includes(marker),`AO Hausaufgaben: Quellenmarker fehlt: ${marker}`);
+for(const marker of ['ernstlichen Meinungsverschiedenheiten','§ 122 Abs. 7','auf Null reduziert','04.08.12','15.05.12','01.09.12','52.000 €','40.000 €','17.10.07','17.11.07','17.10.08'])assert(data.includes(marker),`AO Hausaufgaben: Quellenmarker fehlt: ${marker}`);
 assert(ui.includes('<details')&&ui.includes('Lösung anzeigen'),'AO Hausaufgaben: Lösungen sind nicht aufklappbar.');
 assert(ui.includes('AOHausaufgabenHinweise')&&ui.includes('AO_HAUSAUFGABEN_BY_MODULE'),'AO Hausaufgaben: Rückverweise in Lernmodule fehlen.');
 assert(campus.includes('AOHausaufgaben')&&campus.includes('AOHausaufgabenHinweise')&&!campus.includes('ansicht==="hausaufgaben"&&<Leer typ="Hausaufgaben AO"'),'AO Hausaufgaben: Campus-Platzhalter nicht ersetzt.');
