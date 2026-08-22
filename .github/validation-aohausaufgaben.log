@@ -2,15 +2,4 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k1-ao-hausaufgaben
 > node tools/pruefen-k1-ao-hausaufgaben.mjs
 
-file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:3
-const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
-                                     ^
-
-Error: AO Hausaufgaben: Unterlagen 1.+2. und 3. Fachtermin erwartet.
-    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:3:38)
-    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:5:1
-    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
-    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
-
-Node.js v20.20.2
+AO Hausaufgaben vollständig: 1.+2. Fachtermin 9/9 + 3. Fachtermin 11/11 + 4. Fachtermin 13/13 Seiten = 33/33 PDF-Seiten, 10 Fälle, aufklappbare Ergebnisse und bidirektionale Querverweise geprüft.
