@@ -1,4 +1,6 @@
+import fs from "node:fs";
 import aoEinheit1, { ao1Seitenplan } from "../src/data/k1-ao-einheit-1.js";
+import {aoFallNummer,aoFallAnzeige,AO_FALLID_BY_NUMMER} from "../src/data/ao-originalfall-nummern.js";
 
 const assert = (ok, msg) => { if (!ok) throw new Error(msg); };
 const byId = new Map(aoEinheit1.map((x) => [Number(x.id), x]));
@@ -49,4 +51,12 @@ assert(faelle.length === 2, `AO Einheit 1: erwartet 2 Originalfälle, gefunden $
 for (const id of [301,302,303,304,305,306,307,308,309,310,311]) assert(byId.has(id), `AO Einheit 1: Inhalt ${id} fehlt.`);
 for (const schema of aoSchemaIds) assert(module.some((m)=>m.diagram===schema), `AO Einheit 1: Schema ${schema} ist keinem Lernmodul zugeordnet.`);
 
-console.log(`AO Einheit 1 vollständig: 34/34 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${aoSchemaIds.length} digitale Schemata.`);
+assert(aoFallNummer(310)===1&&aoFallAnzeige(310)==="Fall 1", "AO Einheit 1: interne ID 310 muss sichtbar als Fall 1 erscheinen.");
+assert(aoFallNummer(311)===2&&aoFallAnzeige(311)==="Fall 2", "AO Einheit 1: interne ID 311 muss sichtbar als Fall 2 erscheinen.");
+assert(AO_FALLID_BY_NUMMER.get(1)===310&&AO_FALLID_BY_NUMMER.get(2)===311, "AO Einheit 1: Rückauflösung Fall 1/2 auf interne IDs fehlerhaft.");
+const enhancer=fs.readFileSync(new URL("../src/components/AOQuerverweiseEnhancer.jsx",import.meta.url),"utf8");
+assert(enhancer.includes("ao-inline-fall-link")&&enhancer.includes("verlinkeFallreferenzenInSchemata"), "AO Prüfschema: direkte Fallverlinkung fehlt.");
+assert(enhancer.includes('302: [{ id:310'), "AO Prüfschema Ermittlungsverfahren muss Fall 1 zugeordnet sein.");
+assert(!enhancer.includes('`Originalfall ${r.id}`'), "AO Originalfälle: interne 3xx-ID wird noch als sichtbare Fallnummer ausgegeben.");
+
+console.log(`AO Einheit 1 vollständig: 34/34 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${aoSchemaIds.length} digitale Schemata; Fall 1/2 sichtbar quellengetreu nummeriert und aus Prüfschemata verlinkt.`);
