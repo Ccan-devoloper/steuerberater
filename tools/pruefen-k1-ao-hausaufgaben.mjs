@@ -1,9 +1,7 @@
 import fs from 'node:fs';
-import {k1AoHausaufgaben,k1AoHausaufgabenDidaktik,AO_HAUSAUFGABEN_PAGE_PLANS,AO_HAUSAUFGABEN_BY_MODULE} from '../src/data/k1-ao-hausaufgaben-alle.js';
+import {k1AoHausaufgaben,AO_HAUSAUFGABEN_PAGE_PLANS,AO_HAUSAUFGABEN_BY_MODULE} from '../src/data/k1-ao-hausaufgaben-alle.js';
+import {AO_HAUSAUFGABEN_ORIGINALSEITEN,AO_HAUSAUFGABEN_ORIGINAL_SEITENZAHL} from '../src/data/k1-ao-hausaufgaben-originaltexte.js';
 const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
-
-assert(k1AoHausaufgaben.length===7,'AO Hausaufgaben: Unterlagen 1.+2. sowie 3.–8. Fachtermin erwartet.');
-assert(k1AoHausaufgabenDidaktik.length>=3,'AO Hausaufgaben: didaktischer Hinweis S. 1 fehlt.');
 
 const erwartet=new Map([
   ['AO-HA-1-2',{seiten:9,faelle:4,ids:['AO-HA12-1','AO-HA12-2','AO-HA12-3','AO-HA12-4']}],
@@ -15,49 +13,74 @@ const erwartet=new Map([
   ['AO-HA-8',{seiten:25,faelle:3,ids:['AO-HA8-1','AO-HA8-2','AO-HA8-3']}],
 ]);
 
+const expandPages=text=>{
+  const out=[];
+  for(const token of String(text||'').match(/\d+(?:\s*[–-]\s*\d+)?/g)||[]){
+    const nums=token.split(/[–-]/).map(x=>Number(x.trim()));
+    if(nums.length===2&&Number.isFinite(nums[0])&&Number.isFinite(nums[1]))for(let p=nums[0];p<=nums[1];p++)out.push(p);
+    else if(Number.isFinite(nums[0]))out.push(nums[0]);
+  }
+  return [...new Set(out)];
+};
+const fallQuellseiten=seiten=>{
+  const parts=String(seiten||'').split('·');
+  return {
+    aufgabe:expandPages(parts.find(x=>/Aufgabe/i.test(x))||''),
+    loesung:expandPages(parts.find(x=>/Lösung/i.test(x))||''),
+  };
+};
+
+assert(k1AoHausaufgaben.length===7,'AO Hausaufgaben: 7 Unterlagen (1.+2. sowie 3.–8.) erwartet.');
+assert(AO_HAUSAUFGABEN_ORIGINAL_SEITENZAHL===103,'AO Hausaufgaben: Originaltext-Ebene muss exakt 103 PDF-Seiten enthalten.');
+assert(AO_HAUSAUFGABEN_ORIGINALSEITEN.size===7,'AO Hausaufgaben: Originaltext-Ebene muss alle 7 Unterlagen enthalten.');
+
 for(const termin of k1AoHausaufgaben){
   const soll=erwartet.get(termin.id);
   assert(soll,`AO Hausaufgaben: unbekannte Unterlage ${termin.id}.`);
   assert(termin.rechtsstand==='2025'&&termin.seiten===soll.seiten,`AO Hausaufgaben: Quellenmetadaten ${termin.id} falsch.`);
   assert(termin.faelle.length===soll.faelle,`AO Hausaufgaben: Fallzahl ${termin.id} falsch.`);
+
+  const original=AO_HAUSAUFGABEN_ORIGINALSEITEN.get(termin.id);
+  assert(original?.length===soll.seiten,`AO Hausaufgaben ${termin.id}: Originaltext nicht ${soll.seiten}/${soll.seiten}.`);
+  original.forEach((text,i)=>assert(typeof text==='string'&&text.trim().length>80,`AO Hausaufgaben ${termin.id}: Originaltext PDF-S. ${i+1} fehlt/ist leer.`));
+  assert(original[0].includes('Hausaufgabe mit Lösung')&&original[0].includes('Didaktischer Hinweis'),`AO Hausaufgaben ${termin.id}: Originalseite 1 nicht wortgetreu hinterlegt.`);
+
   const plan=AO_HAUSAUFGABEN_PAGE_PLANS.get(termin.id);
   assert(plan&&Object.keys(plan).length===termin.seiten,`AO Hausaufgaben: Seitenplan ${termin.id} nicht ${termin.seiten}/${termin.seiten}.`);
   for(let p=1;p<=termin.seiten;p++)assert(plan[p],`AO Hausaufgaben ${termin.id}: PDF-Seite ${p} fehlt im Seitenplan.`);
+
   const byId=new Map(termin.faelle.map(f=>[f.id,f]));
   for(const id of soll.ids)assert(byId.has(id),`AO Hausaufgaben: ${id} fehlt.`);
-  const covered=new Set([1,...termin.faelle.flatMap(f=>f.sourcePages||[])]);
-  for(let p=1;p<=termin.seiten;p++)assert(covered.has(p),`AO Hausaufgaben ${termin.id}: PDF-Seite ${p} ist keinem Fall/Didaktikblock zugeordnet.`);
-  for(const fall of termin.faelle)assert(fall.aufgabe?.length&&fall.loesung?.length&&fall.ergebnis&&fall.normen?.length&&fall.querverweise?.length,`AO Hausaufgaben: ${fall.id} unvollständig.`);
+  for(const fall of termin.faelle)assert(fall.normen?.length&&fall.querverweise?.length,`AO Hausaufgaben: Navigation ${fall.id} unvollständig.`);
+
+  const displayed=new Set([1]);
+  for(const fall of termin.faelle){
+    const q=fallQuellseiten(fall.seiten);
+    assert(q.aufgabe.length>0&&q.loesung.length>0,`AO Hausaufgaben ${fall.id}: Aufgabe-/Lösungsfundstelle nicht auswertbar.`);
+    for(const p of [...q.aufgabe,...q.loesung])displayed.add(p);
+  }
+  for(let p=1;p<=termin.seiten;p++)assert(displayed.has(p),`AO Hausaufgaben ${termin.id}: PDF-S. ${p} wird in der 1:1-Anzeige nicht dargestellt.`);
 }
 
 assert(k1AoHausaufgaben.reduce((s,t)=>s+t.seiten,0)===103,'AO Hausaufgaben: Gesamtseitenzahl muss 103/103 betragen.');
 assert(k1AoHausaufgaben.reduce((s,t)=>s+t.faelle.length,0)===23,'AO Hausaufgaben: insgesamt 23 Fälle erwartet.');
 
-const dataAlt=fs.readFileSync(new URL('../src/data/k1-ao-hausaufgaben.js',import.meta.url),'utf8');
-const data3=fs.readFileSync(new URL('../src/data/k1-ao-hausaufgaben-3.js',import.meta.url),'utf8');
-const data4=fs.readFileSync(new URL('../src/data/k1-ao-hausaufgaben-4.js',import.meta.url),'utf8');
-const data5=fs.readFileSync(new URL('../src/data/k1-ao-hausaufgaben-5.js',import.meta.url),'utf8');
-const data6=fs.readFileSync(new URL('../src/data/k1-ao-hausaufgaben-6.js',import.meta.url),'utf8');
-const data7=fs.readFileSync(new URL('../src/data/k1-ao-hausaufgaben-7.js',import.meta.url),'utf8');
-const data8=fs.readFileSync(new URL('../src/data/k1-ao-hausaufgaben-8.js',import.meta.url),'utf8');
+const allOriginal=Array.from(AO_HAUSAUFGABEN_ORIGINALSEITEN.values()).flat().join('\n');
+for(const marker of [
+  'ernstlichen Meinungsverschiedenheiten','Ursula Middendorf','Schülerskifreizeit','900.000 €','KölnArena KG','198.400 €',
+  '6.820 €','Ernie & Bert OHG','Edgar Schönling','Bayer-Münch-Str. 7','1.000.000 € ./. 2.600.000 € = 38,5 %','Nichtzulassungsbeschwerde (NZB)'
+])assert(allOriginal.includes(marker),`AO Hausaufgaben 1:1: Quellenmarker fehlt: ${marker}`);
+
 const ui=fs.readFileSync(new URL('../src/components/AOHausaufgaben.jsx',import.meta.url),'utf8');
 const campus=fs.readFileSync(new URL('../src/components/AOCampusV3.jsx',import.meta.url),'utf8');
-
-for(const marker of ['ernstlichen Meinungsverschiedenheiten','§ 122 Abs. 7','auf Null reduziert','04.08.12','15.05.12','01.09.12','52.000 €','40.000 €'])assert(dataAlt.includes(marker),`AO Hausaufgaben 1.+2.: Quellenmarker fehlt: ${marker}`);
-for(const marker of ['31.12.2024 geltenden Fassung','Kurzbescheid','23.880 €','2.880 €','19.600 €'])assert(data3.includes(marker),`AO Hausaufgabe 3: Quellenmarker fehlt: ${marker}`);
-for(const marker of ['900.000 €','800.000 €','60.000 €','25.000 €','120.000 €','90.000 €','elf selbständige sonstige Verwaltungsakte','§ 69 Abs. 4 FGO'])assert(data4.includes(marker),`AO Hausaufgabe 4: Quellenmarker fehlt: ${marker}`);
-for(const marker of ['250.000 €','96.000 €','100.000 €','24.08.03','500.000 €','420.000 €','23.07.15','24.09.14','+800 €','160.000 €','10.02.18'])assert(data5.includes(marker),`AO Hausaufgabe 5: Quellenmarker fehlt: ${marker}`);
-for(const marker of ['40.000 €','34.000 €','6.000 €','21.06.02','1.000 €','5.000 €','35.000 €','4.800 €','31.12.23','13.08.18','198.400 €','39.800 €','06.04.11','96.400 €'])assert(data6.includes(marker),`AO Hausaufgabe 6: Quellenmarker fehlt: ${marker}`);
-for(const marker of ['6.820 €','6.020 €','13.08.03','25.03.04','600.000 €','17.04.04','5.000 €','-30.000 €','151.200 €','03.02.11','§ 171 Abs. 3a','150.000 €'])assert(data7.includes(marker),`AO Hausaufgabe 7: Quellenmarker fehlt: ${marker}`);
-for(const marker of ['18.000 €','24.10.07','§ 371 Abs. 2 Nr. 1a AO','30.11.10','34.500 €','31.416 €','96.000 €','38,5 %','2.600.000 €','300.000 €','240.000 €','20.11.09','12.01.11'])assert(data8.includes(marker),`AO Hausaufgabe 8: Quellenmarker fehlt: ${marker}`);
-assert(data8.includes('USt-Voranmeldungen August bis November 06')&&data8.includes('250.000 €')&&data8.includes('51.500 €'),'AO Hausaufgabe 8: USt-Tabelle S. 7 nicht vollständig erfasst.');
-
-assert(ui.includes('<details')&&ui.includes('Ergebnis anzeigen'),'AO Hausaufgaben: Lösung und Ergebnis sind nicht aufklappbar.');
-assert(ui.includes('AOHausaufgabenTabelle')&&ui.includes('ao-ha-table'),'AO Hausaufgaben: quellengetreue Tabellenanzeige fehlt.');
+assert(ui.includes('AO_HAUSAUFGABEN_ORIGINALSEITEN')&&ui.includes('OriginalSeiten')&&ui.includes('<pre>'),'AO Hausaufgaben: Originaltext-Ebene wird nicht gerendert.');
+assert(ui.includes('<details')&&ui.includes('Lösung &amp; Ergebnis anzeigen'),'AO Hausaufgaben: Original-Lösung ist nicht aufklappbar.');
+assert(!ui.includes('(fall.aufgabe||[]).map')&&!ui.includes('(fall.loesung||[]).map')&&!ui.includes('text={fall.ergebnis}'),'AO Hausaufgaben: paraphrasierte Aufgaben-/Lösungstexte werden noch gerendert.');
+assert(ui.includes('wortgetreu 1:1')&&ui.includes('Originalquelle · PDF-S.'),'AO Hausaufgaben: 1:1-Quellenkennzeichnung fehlt.');
 assert(ui.includes('Alle Fachtermine')&&ui.includes('k1AoHausaufgaben.map'),'AO Hausaufgaben: Fachterminfilter fehlt.');
 assert(ui.includes('AOHausaufgabenHinweise')&&ui.includes('AO_HAUSAUFGABEN_BY_MODULE'),'AO Hausaufgaben: Rückverweise in Lernmodule fehlen.');
-assert(campus.includes('AOHausaufgaben')&&campus.includes('AOHausaufgabenHinweise')&&!campus.includes('ansicht==="hausaufgaben"&&<Leer typ="Hausaufgaben AO"'),'AO Hausaufgaben: Campus-Platzhalter nicht ersetzt.');
+assert(campus.includes('AOHausaufgaben')&&campus.includes('AOHausaufgabenHinweise'),'AO Hausaufgaben: Campus-Einbindung fehlt.');
 assert(campus.includes('hausaufgabenOeffnen')&&campus.includes('inhaltById={AO_BY_ID}'),'AO Hausaufgaben: bidirektionale Navigation fehlt.');
 for(const id of [301,307,319,335,346,347,352,353,354,358,360,367,369,371,373,375,376,385,386,387,388,389,390,391,392,393])assert(AO_HAUSAUFGABEN_BY_MODULE.get(id)?.length,`AO Hausaufgaben: Modul-Rückverweis ${id} fehlt.`);
 
-console.log('AO Hausaufgaben vollständig: 1.+2. sowie 3.–8. Fachtermin = 103/103 PDF-Seiten, 23 Fälle, aufklappbare Ergebnisse, Tabellen und bidirektionale Querverweise geprüft.');
+console.log('AO Hausaufgaben 1:1 geprüft: 103/103 Original-PDF-Seiten, 23 Fälle, Aufgaben- und Lösungstexte ausschließlich aus der Originaltext-Ebene, aufklappbare Lösungen und bidirektionale Querverweise.');
