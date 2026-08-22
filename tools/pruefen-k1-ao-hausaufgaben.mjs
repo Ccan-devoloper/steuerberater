@@ -49,7 +49,7 @@ for(const marker of ['900.000 €','800.000 €','60.000 €','25.000 €','120.
 for(const marker of ['250.000 €','96.000 €','100.000 €','24.08.03','500.000 €','420.000 €','23.07.15','24.09.14','+800 €','160.000 €','10.02.18'])assert(data5.includes(marker),`AO Hausaufgabe 5: Quellenmarker fehlt: ${marker}`);
 for(const marker of ['40.000 €','34.000 €','6.000 €','21.06.02','1.000 €','5.000 €','35.000 €','4.800 €','31.12.23','13.08.18','198.400 €','39.800 €','06.04.11','96.400 €'])assert(data6.includes(marker),`AO Hausaufgabe 6: Quellenmarker fehlt: ${marker}`);
 for(const marker of ['6.820 €','6.020 €','13.08.03','25.03.04','600.000 €','17.04.04','5.000 €','-30.000 €','151.200 €','03.02.11','§ 171 Abs. 3a','150.000 €'])assert(data7.includes(marker),`AO Hausaufgabe 7: Quellenmarker fehlt: ${marker}`);
-for(const marker of ['18.000 €','24.10.07','§ 371 Abs. 2 Nr. 1a AO','30.11.10','34.500 €','31.416 €','96.000 €','38,5 %','2.600.000 €','Bayer-Münch-Str. 7','20.11.09','12.01.11'])assert(data8.includes(marker),`AO Hausaufgabe 8: Quellenmarker fehlt: ${marker}`);
+for(const marker of ['18.000 €','24.10.07','§ 371 Abs. 2 Nr. 1a AO','30.11.10','34.500 €','31.416 €','96.000 €','38,5 %','2.600.000 €','300.000 €','240.000 €','20.11.09','12.01.11'])assert(data8.includes(marker),`AO Hausaufgabe 8: Quellenmarker fehlt: ${marker}`);
 assert(data8.includes('USt-Voranmeldungen August bis November 06')&&data8.includes('250.000 €')&&data8.includes('51.500 €'),'AO Hausaufgabe 8: USt-Tabelle S. 7 nicht vollständig erfasst.');
 
 assert(ui.includes('<details')&&ui.includes('Ergebnis anzeigen'),'AO Hausaufgaben: Lösung und Ergebnis sind nicht aufklappbar.');
