@@ -72,6 +72,17 @@ jobs:
         run: |
           set -o pipefail
           npm run check:k1-ao-einheit-8 2>&1 | tee /tmp/ao8.log
+      - id: aoscript
+        name: AO Short-Skript 2025 · 49/49 Seiten
+        continue-on-error: true
+        run: npm run check:k1-ao-shortskript-2025
+      - id: aohausaufgaben
+        name: AO Hausaufgabe 1.+2. Fachtermin · 9/9 Seiten
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run check:k1-ao-hausaufgaben 2>&1 | tee /tmp/aohausaufgaben.log
       - id: build
         name: Produktions-Build
         continue-on-error: true
@@ -92,6 +103,8 @@ jobs:
           S_AO6: ${{ steps.ao6.outcome }}
           S_AO7: ${{ steps.ao7.outcome }}
           S_AO8: ${{ steps.ao8.outcome }}
+          S_AOSCRIPT: ${{ steps.aoscript.outcome }}
+          S_AOHAUSAUFGABEN: ${{ steps.aohausaufgaben.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
           git config user.name "github-actions[bot]"
@@ -112,12 +125,15 @@ jobs:
             "ao_einheit_6": "${S_AO6}",
             "ao_einheit_7": "${S_AO7}",
             "ao_einheit_8": "${S_AO8}",
+            "ao_shortskript_2025": "${S_AOSCRIPT}",
+            "ao_hausaufgaben": "${S_AOHAUSAUFGABEN}",
             "build": "${S_BUILD}"
           }
           EOF
           cp /tmp/ao7.log .github/validation-ao7.log 2>/dev/null || true
           cp /tmp/ao8.log .github/validation-ao8.log 2>/dev/null || true
-          git add .github/validation-last.json .github/validation-ao7.log .github/validation-ao8.log
+          cp /tmp/aohausaufgaben.log .github/validation-aohausaufgaben.log 2>/dev/null || true
+          git add .github/validation-last.json .github/validation-ao7.log .github/validation-ao8.log .github/validation-aohausaufgaben.log
           git commit -m "ci: Validierungsstatus ${GITHUB_SHA}" || true
           git push || (git pull --rebase origin main && git push)
 
@@ -136,8 +152,10 @@ jobs:
           S_AO6: ${{ steps.ao6.outcome }}
           S_AO7: ${{ steps.ao7.outcome }}
           S_AO8: ${{ steps.ao8.outcome }}
+          S_AOSCRIPT: ${{ steps.aoscript.outcome }}
+          S_AOHAUSAUFGABEN: ${{ steps.aohausaufgaben.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
-          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_BUILD"; do
+          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_AOSCRIPT" "$S_AOHAUSAUFGABEN" "$S_BUILD"; do
             test "$value" = "success" || exit 1
           done

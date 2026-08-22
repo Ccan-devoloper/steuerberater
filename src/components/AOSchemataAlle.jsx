@@ -11,6 +11,7 @@ import AO5NeueTatsachenSchema from "./AO5NeueTatsachenSchema";
 import AOTortenstueckSchema from "./AOTortenstueckSchema";
 import AO3FestsetzungsfristBeginn from "./AO3FestsetzungsfristBeginn";
 import AO3AblaufhemmungenSchema from "./AO3AblaufhemmungenSchema";
+import "./AOShortSkript2025Auto";
 
 export default function AOSchema({ id }) {
   if (id === "ao-tortenstueckfehlerlehre") return <AOTortenstueckSchema />;

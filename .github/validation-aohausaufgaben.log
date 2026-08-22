@@ -1,0 +1,5 @@
+
+> stb-examenscampus-bilanzen@3.0.0 check:k1-ao-hausaufgaben
+> node tools/pruefen-k1-ao-hausaufgaben.mjs
+
+AO Hausaufgabe 1.+2. Fachtermin vollständig: 9/9 PDF-Seiten, 4 Fälle, aufklappbare Lösungen und bidirektionale Querverweise geprüft.
