@@ -2,4 +2,15 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k1-ao-hausaufgaben
 > node tools/pruefen-k1-ao-hausaufgaben.mjs
 
-AO Hausaufgaben vollständig: 1.+2. sowie 3.–8. Fachtermin = 103/103 PDF-Seiten, 23 Fälle, aufklappbare Ergebnisse, Tabellen und bidirektionale Querverweise geprüft.
+file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:3
+const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
+                                     ^
+
+Error: AO Hausaufgaben: quellengetreue Tabellenanzeige fehlt.
+    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:3:38)
+    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:56:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v20.20.2
