@@ -19,6 +19,7 @@ import {
   IconFaelle, IconPlan, IconHaken,
 } from "./components/Icons";
 import { CampusTopbar, KlausurenLeiste } from "./components/CampusKopf";
+import K3Fachleiste from "./components/K3Fachleiste";
 
 /* Gültige Kennungen für die Bereinigung des gespeicherten Fortschritts. */
 const modulIds = new Set(alleModule.map((m) => m.id));
@@ -45,7 +46,7 @@ const abbaFelder = [
 ];
 
 /* =========================================================== Hauptkomponente */
-export default function App({ onKlausurwechsel }) {
+export default function App({ onKlausurwechsel, onFachwechsel }) {
   const [ansicht, setAnsicht] = useState("cockpit");
   const [modulId, setModulId] = useState(null);
   const [suche, setSuche] = useState("");
@@ -212,6 +213,8 @@ export default function App({ onKlausurwechsel }) {
       />
 
       <KlausurenLeiste aktiv="k3" aufCockpit={() => ansichtOeffnen("cockpit")} onKlausurwechsel={onKlausurwechsel} />
+
+      <K3Fachleiste aktiv="allgemein" onWechsel={onFachwechsel} />
 
       <aside className="rail">
         <nav className="rail__nav" aria-label="Hauptnavigation">

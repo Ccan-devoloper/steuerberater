@@ -1,21 +1,25 @@
 .k1-fachleiste-mount {
-  min-height: 42px;
+  min-height: var(--fachleiste-h);
   position: sticky;
-  top: calc(var(--kopf) + 41px);
+  top: calc(var(--kopf) + var(--klausuren-h));
   z-index: 29;
   background: var(--papier);
 }
 
+/* Unterreiter der Klausuren: bewusst schmaler als die Klausur-Kacheln und in
+   Gelb abgesetzt, damit die Hierarchie Klausur → Fach sofort erkennbar ist. */
 .k1-fachleiste {
   grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  min-height: var(--fachleiste-h);
   border-bottom: 1px solid var(--linie);
   background: var(--papier);
-  padding: 0 4px;
+  padding: 4px 12px;
   position: sticky;
-  top: calc(var(--kopf) + 41px);
+  top: calc(var(--kopf) + var(--klausuren-h));
   z-index: 29;
 }
 
@@ -23,41 +27,36 @@
   position: static;
 }
 
-.kst-campus > .k1-fachleiste ~ .rail,
-.kst-campus > .k1-fachleiste-mount ~ .rail {
-  top: calc(var(--kopf) + 83px);
+.k1-fachleiste ~ .rail,
+.k1-fachleiste-mount ~ .rail {
+  top: calc(var(--kopf) + var(--klausuren-h) + var(--fachleiste-h));
 }
 
 .k1-fachleiste__tab {
   appearance: none;
-  border: 0;
-  border-right: 1px solid var(--linie);
-  border-left: 1px solid transparent;
-  border-bottom: 3px solid transparent;
-  background: transparent;
-  color: var(--ink-weich);
+  border: 1px solid var(--fach-gelb-linie);
+  background: var(--fach-gelb);
+  color: var(--ink);
   min-width: 0;
-  padding: 9px 18px 8px;
+  padding: 5px 13px 4px;
   cursor: pointer;
   display: flex;
   align-items: baseline;
   justify-content: center;
-  gap: 9px;
+  gap: 8px;
   font: inherit;
 }
 
-.k1-fachleiste__tab:first-child { border-left-color: var(--linie); }
-.k1-fachleiste__tab:hover { background: var(--feld); color: var(--ink); }
+.k1-fachleiste__tab:hover { background: var(--fach-gelb-hover); }
 .k1-fachleiste__tab[aria-current="true"] {
-  color: var(--ink);
-  background: var(--feld);
-  border-bottom-color: var(--tinte);
+  background: var(--fach-gelb-aktiv);
+  box-shadow: inset 0 -3px 0 var(--fach-gelb-tinte);
 }
 
 .k1-fachleiste__kurz {
   font: 800 11px var(--mono);
   letter-spacing: .08em;
-  color: var(--tinte);
+  color: var(--fach-gelb-tinte);
 }
 
 .k1-fachleiste__lang { font-weight: 650; }
