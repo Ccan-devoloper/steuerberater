@@ -6,7 +6,7 @@
 
 /* Feststehende Zeitleiste über der Aufgabe */
 .klausur-leiste {
-  position: sticky; top: calc(var(--kopf) + 41px); z-index: 25;
+  position: sticky; top: calc(var(--kopf) + var(--klausuren-h) + var(--fachleiste-h)); z-index: 25;
   display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
   margin: -30px calc(-1 * clamp(16px, 3.5vw, 46px)) 22px;
   padding: 10px clamp(16px, 3.5vw, 46px);

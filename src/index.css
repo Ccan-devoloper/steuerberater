@@ -24,6 +24,13 @@
   --gruen: #12704a;
   --marker: #ffe97a;
 
+  /* Fachleiste (Unterreiter der Klausuren) */
+  --fach-gelb: #fdf3c9;
+  --fach-gelb-hover: #fae9a4;
+  --fach-gelb-aktiv: #f6df85;
+  --fach-gelb-linie: #e0c35a;
+  --fach-gelb-tinte: #8a6a14;
+
   /* Flächen der Korrekturfarben */
   --rot-feld: #fbeceb;
   --orange-feld: #fdf2e3;
@@ -38,6 +45,8 @@
 
   --rail: 232px;
   --kopf: 62px;
+  --klausuren-h: 53px;
+  --fachleiste-h: 42px;
   color-scheme: light;
 }
 
@@ -56,6 +65,11 @@ html[data-theme="dark"] {
   --magenta: #ef8ac6;
   --gruen: #6cc79b;
   --marker: #6c5a12;
+  --fach-gelb: #332b10;
+  --fach-gelb-hover: #423816;
+  --fach-gelb-aktiv: #57491c;
+  --fach-gelb-linie: #6e5d24;
+  --fach-gelb-tinte: #ecd06b;
   --rot-feld: #2c1a18;
   --orange-feld: #2c2415;
   --magenta-feld: #2b1826;
@@ -128,7 +142,7 @@ html[data-theme="dark"] .topbar { background: #0a101c; border-bottom: 1px solid 
 
 /* Klausurleiste */
 .klausuren { display: grid; grid-template-columns: repeat(3, 1fr); background: var(--papier); border-bottom: 1px solid var(--linie); position: sticky; top: var(--kopf); z-index: 30; }
-.klausur { display: flex; align-items: baseline; gap: 9px; padding: 9px 16px; border: 0; border-right: 1px solid var(--linie-fein); background: none; text-align: left; color: var(--ink-weich); }
+.klausur { display: flex; align-items: baseline; gap: 9px; padding: 15px 16px; border: 0; border-right: 1px solid var(--linie-fein); background: none; text-align: left; color: var(--ink-weich); }
 .klausur b { font-family: var(--mono); font-size: 11px; }
 .klausur strong { font-family: var(--serif); font-weight: 600; font-size: 14.5px; }
 .klausur small { font-family: var(--mono); font-size: 10.5px; }
@@ -137,7 +151,7 @@ html[data-theme="dark"] .topbar { background: #0a101c; border-bottom: 1px solid 
 
 /* --------------------------------------------------------------- Rail */
 .rail {
-  position: fixed; left: 0; top: calc(var(--kopf) + 41px); bottom: 0; width: var(--rail);
+  position: fixed; left: 0; top: calc(var(--kopf) + var(--klausuren-h)); bottom: 0; width: var(--rail);
   padding: 18px 14px; background: var(--papier); border-right: 1px solid var(--linie);
   display: flex; flex-direction: column; gap: 18px; overflow-y: auto;
 }
