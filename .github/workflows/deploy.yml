@@ -31,6 +31,7 @@ jobs:
       - run: npm run check:k1-ao-einheit-6
       - run: npm run check:k1-ao-einheit-7
       - run: npm run check:k1-ao-einheit-8
+      - run: npm run check:k1-ao-shortskript-2025
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
