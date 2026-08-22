@@ -2,12 +2,14 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k1-ao-hausaufgaben
 > node tools/pruefen-k1-ao-hausaufgaben.mjs
 
-file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:4
-import {AO_HAUSAUFGABEN_ORIGINALSEITEN,AO_HAUSAUFGABEN_ORIGINAL_SEITENZAHL} from '../src/data/k1-ao-hausaufgaben-originaltexte.js';
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-SyntaxError: The requested module '../src/data/k1-ao-hausaufgaben-originaltexte.js' does not provide an export named 'AO_HAUSAUFGABEN_ORIGINALSEITEN'
-    at ModuleJob._instantiate (node:internal/modules/esm/module_job:213:21)
-    at async ModuleJob.run (node:internal/modules/esm/module_job:320:5)
+file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:5
+const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
+                                     ^
+
+Error: AO Hausaufgaben AO-HA-5: 1:1-Quelltext weicht vom PDF-Fingerprint ab.
+    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:5:38)
+    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:31:3
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
     at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
 
