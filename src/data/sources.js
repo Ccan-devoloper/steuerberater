@@ -1,3 +1,5 @@
+import { REDAKTIONSSTAND } from "./redaktion";
+
 export const sourceCatalog = {
   hgb: { title: "Handelsgesetzbuch (HGB)", publisher: "Gesetze im Internet / BMJ", url: "https://www.gesetze-im-internet.de/hgb/", note: "Amtlicher Gesetzestext; insbesondere §§ 238, 242, 246, 250, 252, 253, 255, 256a, 266, 272 und 274 HGB." },
   estg: { title: "Einkommensteuergesetz (EStG)", publisher: "Gesetze im Internet / BMJ", url: "https://www.gesetze-im-internet.de/estg/", note: "Amtlicher Gesetzestext; insbesondere §§ 4, 5, 6, 6a, 6b, 7, 7g und 15 EStG." },
@@ -25,4 +27,4 @@ export const sourceCatalog = {
 };
 
 export const researchNote =
-  "Inhalte auf Grundlage amtlicher Gesetze, BMF-Handbücher, veröffentlichter BStBK-Lösungsvorschläge 2021/2022 bis 2023/2024 sowie öffentlich zugänglicher Klausurauswertungen von Kursanbietern und der eigenen Kursmitschriften. Rechtsstand der redaktionellen Aufbereitung: 29.07.2026. Bei Gesetzesänderungen ist der aktuelle amtliche Text vorrangig.";
+  `Inhalte auf Grundlage amtlicher Gesetze, BMF-Handbücher, veröffentlichter BStBK-Lösungsvorschläge 2021/2022 bis 2023/2024 sowie öffentlich zugänglicher Klausurauswertungen von Kursanbietern und der eigenen Kursmitschriften. Rechtsstand der redaktionellen Aufbereitung: ${REDAKTIONSSTAND}. Bei Gesetzesänderungen ist der aktuelle amtliche Text vorrangig.`;

@@ -1,4 +1,7 @@
-export const KST_SEITENAUDIT_STAND = "21.08.2026";
+import { REDAKTIONSSTAND } from "./redaktion";
+
+/* Folgt dem zentralen Redaktionsstand aus redaktion.js. */
+export const KST_SEITENAUDIT_STAND = REDAKTIONSSTAND;
 
 export const KST_SEITENAUDIT_METHODE =
   "Jede PDF-Seite wurde in vollständiger Seitenfolge visuell berücksichtigt. Bei bildbasierten Unterrichtsexporten wurden Wiederholungs-, Navigations- und Progressionsframes erst nach Sichtung als Wiederholung klassifiziert; fachlich neue oder veränderte Seiten wurden gegen die KSt-Module, Fälle, Schemata und Trainingsdaten im Repository abgeglichen.";
