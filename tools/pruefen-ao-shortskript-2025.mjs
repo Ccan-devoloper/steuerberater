@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+import {AO_SHORT_2025_META,AO_SHORT_2025_PAGE_PLAN,AO_SHORT_2025_BLOCKS,AO_SHORT_2025_BY_MODULE} from '../src/data/ao-shortskript-2025.js';
+const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
+assert(AO_SHORT_2025_META.pages===49,'AO Short-Skript 2025: Metadaten müssen 49 Seiten ausweisen.');
+assert(Object.keys(AO_SHORT_2025_PAGE_PLAN).length===49,'AO Short-Skript 2025: Primärplan muss exakt 49 Seiten enthalten.');
+for(let p=1;p<=49;p++)assert(Number(AO_SHORT_2025_PAGE_PLAN[p])>0,`AO Short-Skript 2025: PDF-Seite ${p} fehlt im Primärplan.`);
+const primaryModules=new Set(Object.values(AO_SHORT_2025_PAGE_PLAN).map(Number));
+const covered=new Set(AO_SHORT_2025_BLOCKS.flatMap(x=>x.sourcePages));
+for(let p=1;p<=49;p++)assert(covered.has(p),`AO Short-Skript 2025: PDF-Seite ${p} ist in keinem Ergänzungsblock berücksichtigt.`);
+for(const b of AO_SHORT_2025_BLOCKS){assert(primaryModules.has(Number(b.moduleId))||Object.values(AO_SHORT_2025_PAGE_PLAN).includes(b.moduleId),`AO Short-Skript 2025: Modul ${b.moduleId} ist nicht im Seitenplan verankert.`);assert(b.sourcePages?.length&&b.title&&b.points?.length,`AO Short-Skript 2025: Block ${b.moduleId}/${b.title} unvollständig.`);for(const p of b.sourcePages)assert(p>=1&&p<=49,`AO Short-Skript 2025: ungültige Seite ${p}.`);}
+const data=fs.readFileSync(new URL('../src/data/ao-shortskript-2025.js',import.meta.url),'utf8');
+const auto=fs.readFileSync(new URL('../src/components/AOShortSkript2025Auto.js',import.meta.url),'utf8');
+const css=fs.readFileSync(new URL('../src/components/ao-shortskript-2025.css',import.meta.url),'utf8');
+const all=fs.readFileSync(new URL('../src/components/AOSchemataAlle.jsx',import.meta.url),'utf8');
+const campus=fs.readFileSync(new URL('../src/components/AOCampusV3.jsx',import.meta.url),'utf8');
+for(const id of primaryModules)assert(campus.includes(String(id)),`AO Short-Skript 2025: Ziel-Lernmodul ${id} existiert nicht im AO-Campus.`);
+assert(all.includes('AOShortSkript2025Auto'),'AO Short-Skript 2025: Auto-Integration ist nicht aktiviert.');
+assert(auto.includes('Lernmodul')&&auto.includes('data-ao-short-2025')&&auto.includes('49/49 Seiten geprüft'),'AO Short-Skript 2025: Einblendelogik unvollständig.');
+for(const cls of ['ao-short-block--flow','ao-short-block--decision','ao-short-block--columns','ao-short-block--case','ao-short-block--exam'])assert(css.includes(cls),`AO Short-Skript 2025: Darstellungsart ${cls} fehlt.`);
+for(const marker of ['Aufgabenstellung','AEAO','BpO','VollstrA','Gutachtenstil','Vier-Tage-Bekanntgabefiktion','§ 181 Abs. 5','10.000 €','12.600 €','§ 177 AO','Prüfungsjahr 2021','Prüfungsjahre 2019/2017','Prüfungsjahr 2018'])assert(data.includes(marker),`AO Short-Skript 2025: Quellenmarker fehlt: ${marker}`);
+for(const id of [301,307,318,324,329,335,338,340,342,346,360,362,363,369,371,375,382,384])assert(AO_SHORT_2025_BY_MODULE[id]?.length,`AO Short-Skript 2025: erwartete Einbindung in Modul ${id} fehlt.`);
+assert(AO_SHORT_2025_PAGE_PLAN[1]===301&&AO_SHORT_2025_PAGE_PLAN[13]===307&&AO_SHORT_2025_PAGE_PLAN[22]===340&&AO_SHORT_2025_PAGE_PLAN[29]===369&&AO_SHORT_2025_PAGE_PLAN[38]===363&&AO_SHORT_2025_PAGE_PLAN[49]===363,'AO Short-Skript 2025: Leitseiten falsch zugeordnet.');
+console.log(`AO Short-Skript 2025 vollständig integriert: 49/49 PDF-Seiten in ${primaryModules.size} bestehenden AO-Lernmodulen; Klausurtechnik, Wirksamkeit/Bekanntgabe, Feststellung, Verjährung, Einspruch, Korrektur und Examenshistorie geprüft.`);
