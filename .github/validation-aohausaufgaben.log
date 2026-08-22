@@ -2,15 +2,4 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k1-ao-hausaufgaben
 > node tools/pruefen-k1-ao-hausaufgaben.mjs
 
-file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:5
-const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
-                                     ^
-
-Error: AO Hausaufgaben: 1:1-/Formatkennzeichnung fehlt.
-    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:5:38)
-    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:48:1
-    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
-    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
-
-Node.js v20.20.2
+AO Hausaufgaben geprüft: 103/103 PDF-Seiten inhaltlich wortgleich, volle Fließbreite, PDF-Fettdruck span-genau, echte Tabellen, 23 Fälle, aufklappbare Lösungen und bidirektionale Querverweise.
