@@ -7,6 +7,7 @@
 .ao-linkcards b { font: 700 11px var(--mono); color: var(--gruen); }
 .ao-linkcards span { font-weight: 650; }
 .ao-linkcards small { color: var(--tinte); font: 10px var(--mono); }
+.ao-inline-fall-link{appearance:none;border:0;border-bottom:1px solid currentColor;background:transparent;color:#064fe4;padding:0 1px;margin:0;font:inherit;font-weight:700;line-height:inherit;cursor:pointer;vertical-align:baseline}.ao-inline-fall-link:hover{background:#eaf0ff;color:#0039b8}.ao-inline-fall-link:focus-visible{outline:2px solid #1454e8;outline-offset:2px;border-radius:2px}
 
 /* Zwei kleine Quellskizzen der AO-Einheit werden zusätzlich zum großen
    Prüfschema sichtbar nachgezeichnet. Es werden nur die eindeutig lesbaren
