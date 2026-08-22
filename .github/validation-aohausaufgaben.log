@@ -6,7 +6,7 @@ file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausauf
 const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
                                      ^
 
-Error: AO Hausaufgaben AO-HA-5: Zeicheninhalt weicht vom PDF-Wortlaut ab.
+Error: AO Hausaufgaben AO-HA-5: Inhaltswortlaut weicht vom PDF ab.
     at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:5:38)
     at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k1-ao-hausaufgaben.mjs:31:3
     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
