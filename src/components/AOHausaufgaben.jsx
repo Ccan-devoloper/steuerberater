@@ -1,14 +1,38 @@
 import React from "react";
-import {k1AoHausaufgaben,k1AoHausaufgabenDidaktik,AO_HAUSAUFGABEN_BY_MODULE} from "../data/k1-ao-hausaufgaben-alle.js";
-import {AONormkette,AOSchemaVerweise,AOVerlinkterText} from "./AOSchemaLinks";
+import {k1AoHausaufgaben,AO_HAUSAUFGABEN_BY_MODULE} from "../data/k1-ao-hausaufgaben-alle.js";
+import {AO_HAUSAUFGABEN_ORIGINALSEITEN} from "../data/k1-ao-hausaufgaben-originaltexte.js";
+import {AONormkette,AOSchemaVerweise} from "./AOSchemaLinks";
 import "./k1-hausaufgaben.css";
 import "./ao-hausaufgaben.css";
 
 const Art=inhalt=>inhalt?.area==="Fall"?"Originalfall":"Lernmodul";
 
-function AOHausaufgabenTabelle({tabelle}){
-  if(!tabelle?.spalten?.length||!tabelle?.zeilen?.length)return null;
-  return <div className="ao-ha-table-wrap"><b>{tabelle.titel}</b><div className="ao-ha-table-scroll"><table className="ao-ha-table"><thead><tr>{tabelle.spalten.map((s,i)=><th key={i}>{s}</th>)}</tr></thead><tbody>{tabelle.zeilen.map((zeile,ri)=><tr key={ri}>{zeile.map((z,ci)=><td key={ci}>{z}</td>)}</tr>)}</tbody></table></div></div>;
+const expandPages=text=>{
+  const out=[];
+  for(const token of String(text||"").match(/\d+(?:\s*[–-]\s*\d+)?/g)||[]){
+    const nums=token.split(/[–-]/).map(x=>Number(x.trim()));
+    if(nums.length===2&&Number.isFinite(nums[0])&&Number.isFinite(nums[1]))for(let p=nums[0];p<=nums[1];p++)out.push(p);
+    else if(Number.isFinite(nums[0]))out.push(nums[0]);
+  }
+  return [...new Set(out)];
+};
+
+const fallQuellseiten=seiten=>{
+  const parts=String(seiten||"").split("·");
+  const aufgabe=parts.find(x=>/Aufgabe/i.test(x))||"";
+  const loesung=parts.find(x=>/Lösung/i.test(x))||"";
+  return {aufgabe:expandPages(aufgabe),loesung:expandPages(loesung)};
+};
+
+function OriginalSeiten({terminId,pages,typ}){
+  const original=AO_HAUSAUFGABEN_ORIGINALSEITEN.get(terminId)||[];
+  return <div className={`ao-ha-originalseiten ao-ha-originalseiten--${typ}`}>{pages.map(seite=>{
+    const text=original[seite-1]||"";
+    return <section className="ao-ha-originalseite" key={`${terminId}-${typ}-${seite}`}>
+      <div className="ao-ha-originalseite__kopf"><b>Originalquelle · PDF-S. {seite}</b><span>wortgetreu 1:1</span></div>
+      <pre>{text}</pre>
+    </section>;
+  })}</div>;
 }
 
 export function AOHausaufgabenHinweise({moduleId,onOpenHausaufgabe}){
@@ -39,28 +63,33 @@ export default function AOHausaufgaben({onOpenInhalt,onOpenSchema,inhaltById,zie
   },[ziel]);
 
   return <div className="k1-ha-page ao-ha-page">
-    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Nacharbeit</span><h1>Hausaufgaben AO</h1><p className="lead">Die AO-Hausaufgaben der bisher vorliegenden Fachtermine sind vollständig aus {gesamtSeiten} PDF-Seiten erfasst. Sachverhalt, Aufgaben und quellenrelevante Tabellen bleiben sichtbar; Quellenlösung und Ergebnis werden erst beim bewussten Aufklappen angezeigt.</p></div><span className="zaehler">{fallzahl} von {gesamtFaelle} Hausaufgabenfällen</span></div>
+    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Nacharbeit</span><h1>Hausaufgaben AO</h1><p className="lead">Alle {gesamtSeiten} PDF-Seiten werden wortgetreu angezeigt. Aufgaben-/Sachverhaltstext und Lösungshinweise stammen 1:1 aus den Quellen; die Lösung bleibt bis zum bewussten Aufklappen verborgen. Tags, Normsprünge und Querverweise sind ausschließlich zusätzliche digitale Navigation.</p></div><span className="zaehler">{fallzahl} von {gesamtFaelle} Hausaufgabenfällen</span></div>
 
     <div className="filter" aria-label="AO-Hausaufgaben nach Fachtermin filtern">
       <button aria-pressed={terminId==="alle"} onClick={()=>setTerminId("alle")}>Alle Fachtermine</button>
       {k1AoHausaufgaben.map(t=><button key={t.id} aria-pressed={terminId===t.id} onClick={()=>setTerminId(t.id)}>{t.fachtermin} Fachtermin</button>)}
     </div>
 
-    {termine.map(termin=><section className="k1-ha-termin" key={termin.id}>
-      <div className="k1-ha-termin__kopf"><div><span className="kicker">Abgabenordnung · {termin.fachtermin} Fachtermin</span><h2>Hausaufgabe {termin.fachtermin.replace(".","")}</h2></div><span>{termin.seiten} PDF-Seiten · Rechtsstand {termin.rechtsstand}</span></div>
-      <aside className="panel k1-ha-quelle"><b>Didaktischer Hinweis der Unterlage · PDF-S. 1</b>{k1AoHausaufgabenDidaktik.map((t,i)=><p key={i}>{t}</p>)}<small>Quelle vollständig berücksichtigt: {termin.quellentitel} · {termin.quelle} · PDF-S. 1–{termin.seiten}</small></aside>
-      <div className="k1-ha-liste">{termin.faelle.map(fall=>{
-        const refs=(fall.querverweise||[]).map(id=>inhaltById?.get?.(id)).filter(Boolean);
-        const schemaText=[...(fall.themen||[]),...(fall.normen||[])].join(" · ");
-        return <article className="panel k1-ha-karte ao-ha-karte" key={fall.id} data-ao-ha-id={fall.id}>
-          <div className="panel__head"><div><span className="kicker">{termin.fachtermin} Fachtermin · Fall {fall.nummer} · {fall.seiten}</span><h3>{fall.titel}</h3></div></div>
-          <div className="tags k1-ha-themen">{(fall.themen||[]).map(t=><span className="tag" key={t}>{t}</span>)}</div>
-          <AOSchemaVerweise text={schemaText} onOpen={onOpenSchema} compact/>
-          <div className="kst-sachverhalt k1-ha-aufgabe"><b>Aufgabenstellung / Sachverhalt</b>{(fall.aufgabe||[]).map((t,i)=><AOVerlinkterText key={i} as="p" text={t} onOpen={onOpenSchema} compact/>)}{(fall.tabellen||[]).map((t,i)=><AOHausaufgabenTabelle key={i} tabelle={t}/>)}</div>
-          <details className="ao-ha-details"><summary>Lösung &amp; Ergebnis anzeigen</summary><div className="fall k1-ha-loesung">{(fall.loesung||[]).map((b,bi)=><div className="fall__block" key={bi}><b>{b.titel}</b>{(b.texte||[]).map((t,i)=><AOVerlinkterText key={i} as="p" text={t} onOpen={onOpenSchema} compact/>)}</div>)}<div className="fall__block fall__ergebnis"><b>Ergebnis</b><AOVerlinkterText as="p" text={fall.ergebnis} onOpen={onOpenSchema} compact/></div><div className="fall__block"><b>Normen der Quellenlösung</b><AONormkette normen={fall.normen||[]} onOpen={onOpenSchema}/></div></div></details>
-          {refs.length>0&&<aside className="k1-ha-querverweise"><b>Querverweise in den AO-Lernmodulen</b><p>Direkt zu den fachlich passenden Lernmodulen wechseln:</p><div className="k1-ha-querverweise__links">{refs.map(m=><button type="button" key={m.id} onClick={()=>onOpenInhalt?.(m.id)}>{Art(m)} {m.id}: {m.title} ↗</button>)}</div></aside>}
-          <div className="k1-ha-fundstelle">Quelle: {termin.fachtermin} Fachtermin · {fall.seiten} · Rechtsstand {termin.rechtsstand}</div>
-        </article>})}</div>
-    </section>)}
+    {termine.map(termin=>{
+      const original=AO_HAUSAUFGABEN_ORIGINALSEITEN.get(termin.id)||[];
+      return <section className="k1-ha-termin" key={termin.id}>
+        <div className="k1-ha-termin__kopf"><div><span className="kicker">Abgabenordnung · {termin.fachtermin} Fachtermin</span><h2>Hausaufgabe {termin.fachtermin.replace(".","")}</h2></div><span>{termin.seiten} PDF-Seiten · Rechtsstand {termin.rechtsstand}</span></div>
+        <aside className="panel k1-ha-quelle ao-ha-original-didaktik"><div className="ao-ha-originalseite__kopf"><b>Originalquelle · PDF-S. 1 · Didaktischer Hinweis</b><span>wortgetreu 1:1</span></div><pre>{original[0]||""}</pre><small>Quelle: {termin.quellentitel} · {termin.quelle} · PDF-S. 1–{termin.seiten}</small></aside>
+        <div className="k1-ha-liste">{termin.faelle.map(fall=>{
+          const refs=(fall.querverweise||[]).map(id=>inhaltById?.get?.(id)).filter(Boolean);
+          const schemaText=[...(fall.themen||[]),...(fall.normen||[])].join(" · ");
+          const quellseiten=fallQuellseiten(fall.seiten);
+          return <article className="panel k1-ha-karte ao-ha-karte" key={fall.id} data-ao-ha-id={fall.id}>
+            <div className="panel__head"><div><span className="kicker">{termin.fachtermin} Fachtermin · Fall {fall.nummer} · {fall.seiten}</span><h3>{fall.titel}</h3></div></div>
+            <div className="tags k1-ha-themen">{(fall.themen||[]).map(t=><span className="tag" key={t}>{t}</span>)}</div>
+            <AOSchemaVerweise text={schemaText} onOpen={onOpenSchema} compact/>
+            <div className="kst-sachverhalt k1-ha-aufgabe"><b>Aufgabenstellung / Sachverhalt · Originaltext</b><OriginalSeiten terminId={termin.id} pages={quellseiten.aufgabe} typ="aufgabe"/></div>
+            <details className="ao-ha-details"><summary>Lösung &amp; Ergebnis anzeigen</summary><div className="fall k1-ha-loesung"><OriginalSeiten terminId={termin.id} pages={quellseiten.loesung} typ="loesung"/><div className="fall__block ao-ha-digitale-links"><b>Zusätzliche digitale Normsprünge</b><AONormkette normen={fall.normen||[]} onOpen={onOpenSchema}/></div></div></details>
+            {refs.length>0&&<aside className="k1-ha-querverweise"><b>Querverweise in den AO-Lernmodulen</b><p>Zusätzliche Navigation – nicht Bestandteil des Originaltexts:</p><div className="k1-ha-querverweise__links">{refs.map(m=><button type="button" key={m.id} onClick={()=>onOpenInhalt?.(m.id)}>{Art(m)} {m.id}: {m.title} ↗</button>)}</div></aside>}
+            <div className="k1-ha-fundstelle">Quelle: {termin.fachtermin} Fachtermin · {fall.seiten} · Rechtsstand {termin.rechtsstand} · Aufgaben- und Lösungstext wortgetreu 1:1</div>
+          </article>;
+        })}</div>
+      </section>;
+    })}
   </div>;
 }
