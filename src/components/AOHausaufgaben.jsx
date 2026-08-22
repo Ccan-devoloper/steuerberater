@@ -1,6 +1,7 @@
 import React from "react";
 import {k1AoHausaufgaben,AO_HAUSAUFGABEN_BY_MODULE} from "../data/k1-ao-hausaufgaben-alle.js";
 import {AO_HAUSAUFGABEN_ORIGINALSEITEN} from "../data/k1-ao-hausaufgaben-originaltexte.js";
+import {AO_HAUSAUFGABEN_FONTSTIL} from "../data/k1-ao-hausaufgaben-richtext.js";
 import {AONormkette,AOSchemaVerweise} from "./AOSchemaLinks";
 import "./k1-hausaufgaben.css";
 import "./ao-hausaufgaben.css";
@@ -25,40 +26,65 @@ const fallQuellseiten=seiten=>{
   };
 };
 
+const normLine=text=>String(text||"").trim().replace(/\s+/g," ");
+
 const quellzeilen=text=>String(text||"")
   .replace(/\r/g,"")
   .split("\n")
   .filter(line=>!/^\s*Abgabenordnung\/FGO\s+Übungsfälle\s+Teil\s+\d+\s*$/.test(line))
+  .filter(line=>!/^\s*Abgabenordnung\/FGO\s+Lösungshinweise Übungsfälle\s+Teil\s+\d+\s*$/.test(line))
   .filter(line=>!/^\s*StB-Lehrgang\s+Seite\s+\d+\s+Hans-Jürgen Jacobs\s*$/.test(line));
 
-const blockText=lines=>lines.reduce((out,line)=>{
-  const s=line.trim().replace(/\s{2,}/g," ");
-  if(!s)return out;
-  if(!out)return s;
-  return out.endsWith("-")?`${out}${s}`:`${out} ${s}`;
-},"");
+const pageFontLines=(terminId,seite)=>AO_HAUSAUFGABEN_FONTSTIL.get(terminId)?.[Number(seite)-1]||[];
 
-const quellbloecke=text=>{
+function findFontLine(terminId,seite,line){
+  const wanted=normLine(line);
+  if(!wanted)return null;
+  const meta=pageFontLines(terminId,seite);
+  const exact=meta.find(x=>normLine(x.l)===wanted);
+  if(exact)return exact;
+  const compact=wanted.replace(/\s/g,"");
+  return meta.find(x=>normLine(x.l).replace(/\s/g,"")===compact)||null;
+}
+
+function styledLine(terminId,seite,line){
+  const clean=normLine(line);
+  const meta=findFontLine(terminId,seite,line);
+  if(!meta)return {clean,parts:[{text:clean,bold:false}],allBold:false};
+  const parts=(meta.p||[]).map(([text,bold])=>({text:normLine(text),bold:Boolean(bold)})).filter(x=>x.text);
+  const allBold=parts.length>0&&parts.every(x=>x.bold);
+  return {clean,parts:parts.length?parts:[{text:clean,bold:false}],allBold};
+}
+
+function sourceBlocks(text,terminId,seite){
   const blocks=[];
-  let current=[];
-  for(const line of quellzeilen(text)){
-    if(!line.trim()){
-      if(current.length){blocks.push(blockText(current));current=[];}
-    }else current.push(line);
+  let current=null;
+  const flush=()=>{if(current?.lines?.length)blocks.push(current);current=null;};
+  for(const raw of quellzeilen(text)){
+    if(!raw.trim()){flush();continue;}
+    const line=styledLine(terminId,seite,raw);
+    const kind=line.allBold?"bold":"normal";
+    if(!current||current.kind!==kind){flush();current={kind,lines:[]};}
+    current.lines.push(line);
   }
-  if(current.length)blocks.push(blockText(current));
-  return blocks.filter(Boolean);
-};
+  flush();
+  return blocks;
+}
 
-const istUeberschrift=text=>/^(Fall\s+\d+|Aufgabe(?:nstellung)?\b|Lösungshinweise\b|Bearbeitungshinweise\b|Chronologische Darstellung\b|Sachverhalt\b|Auszug aus dem internen Protokoll\b|Übersicht über\b)/i.test(text)||(/^[^.!?]{1,95}$/.test(text)&&/:$/.test(text));
-const istDatum=text=>/^\d{2}\.\d{2}\.\d{2,4}$/.test(text.trim());
+function RenderStyledLine({line}){
+  return <>{line.parts.map((part,i)=>{
+    const text=`${i?" ":""}${part.text}`;
+    return part.bold?<strong key={i}>{text}</strong>:<React.Fragment key={i}>{text}</React.Fragment>;
+  })}</>;
+}
 
-function OriginalFliesstext({text}){
-  return <div className="ao-ha-source-body">{quellbloecke(text).map((block,i)=>{
-    if(istDatum(block))return <div className="ao-ha-source-date" key={i}>{block}</div>;
-    if(istUeberschrift(block))return <h4 className="ao-ha-source-heading" key={i}>{block}</h4>;
-    return <p key={i}>{block}</p>;
-  })}</div>;
+function RenderSourceBlock({block}){
+  const Tag=block.kind==="bold"?"p":"p";
+  return <Tag className={block.kind==="bold"?"ao-ha-source-bold":undefined}>{block.lines.map((line,i)=><React.Fragment key={i}>{i&&!(block.lines[i-1]?.clean||"").endsWith("-")?" ":null}<RenderStyledLine line={line}/></React.Fragment>)}</Tag>;
+}
+
+function OriginalFliesstext({text,terminId,seite}){
+  return <div className="ao-ha-source-body">{sourceBlocks(text,terminId,seite).map((block,i)=><RenderSourceBlock block={block} key={i}/>)}</div>;
 }
 
 function SourceTable({title,columns,rows,compact=false}){
@@ -73,10 +99,10 @@ function AO8Seite7({text}){
   const tail=text.includes(marker)?text.slice(text.indexOf(marker)):"";
   const introEnd="berechnet:";
   const intro=tail.includes(introEnd)?tail.slice(0,tail.indexOf(introEnd)+introEnd.length):tail;
-  return <div className="ao-ha-source-body">
-    <h4 className="ao-ha-source-heading">Übersicht über die Daten der jeweils zum 10. des Folgemonats eingereichten USt-Voranmeldungen für die VA-Zeiträume August bis November 06</h4>
+  return <div className="ao-ha-source-body ao-ha-source-body--tablepage">
+    <p className="ao-ha-source-bold">Übersicht über die Daten der jeweils zum 10. des Folgemonats eingereichten USt-Voranmeldungen für die VA-Zeiträume August bis November 06</p>
     <SourceTable
-      columns={["Erläuterungen","August 06 -€-","September 06 -€-","Oktober 06 -€-","November 06 -€-"]}
+      columns={["Erläuterungen","August 06\n-€-","September 06\n-€-","Oktober 06\n-€-","November 06\n-€-"]}
       rows={[
         ["Stpfl. Umsätze lt. Voranmeldung nach Abstimmung von BS und LP","100.000","250.000","80.000","60.000"],
         ["USt lt. VA","19.000","47.500","15.200","11.400"],
@@ -85,7 +111,7 @@ function AO8Seite7({text}){
         ["Nicht erklärte USt aus den in den VAen wissentlich nicht erfassten stpfl. Umsätzen","56.000","./.","19.200","6.400"],
       ]}
     />
-    <OriginalFliesstext text={intro}/>
+    <OriginalFliesstext text={intro} terminId="AO-HA-8" seite={7}/>
     <SourceTable
       compact
       columns={["USt laut Voranmeldungen / Berechnung","Betrag"]}
@@ -111,8 +137,8 @@ function OriginalSeiten({terminId,pages,typ,fall}){
     const text=original[seite-1]||"";
     const spezial=terminId==="AO-HA-8"&&fall?.id==="AO-HA8-2"&&seite===7;
     return <section className="ao-ha-originalseite" key={`${terminId}-${typ}-${seite}`}>
-      <div className="ao-ha-originalseite__kopf"><b>Originalquelle · PDF-S. {seite}</b><span>Wortlaut 1:1 · digital formatiert</span></div>
-      {spezial?<AO8Seite7 text={text}/>:<OriginalFliesstext text={text}/>} 
+      <div className="ao-ha-originalseite__kopf"><b>Originalquelle · PDF-S. {seite}</b><span>Wortlaut 1:1 · PDF-Fettdruck · digital formatiert</span></div>
+      {spezial?<AO8Seite7 text={text}/>:<OriginalFliesstext text={text} terminId={terminId} seite={seite}/>} 
     </section>;
   })}</div>;
 }
@@ -145,7 +171,7 @@ export default function AOHausaufgaben({onOpenInhalt,onOpenSchema,inhaltById,zie
   },[ziel]);
 
   return <div className="k1-ha-page ao-ha-page">
-    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Nacharbeit</span><h1>Hausaufgaben AO</h1><p className="lead">Der Wortlaut der Aufgaben und Lösungen bleibt 1:1 erhalten. Die Darstellung ist dagegen bewusst digital: normale Website-Typografie, saubere Absätze und echte Tabellen. Lösungen bleiben bis zum bewussten Aufklappen verborgen; Tags, Normsprünge und Querverweise sind zusätzliche Navigation.</p></div><span className="zaehler">{fallzahl} von {gesamtFaelle} Hausaufgabenfällen</span></div>
+    <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Nacharbeit</span><h1>Hausaufgaben AO</h1><p className="lead">Der Wortlaut der Aufgaben und Lösungen bleibt 1:1 erhalten. Die Darstellung ist digital: Fließtext nutzt die volle Inhaltsbreite, Tabellen bleiben echte Tabellen und Fettdruck wird aus den Schriftinformationen der PDF-Quelle übernommen. Lösungen bleiben bis zum bewussten Aufklappen verborgen.</p></div><span className="zaehler">{fallzahl} von {gesamtFaelle} Hausaufgabenfällen</span></div>
 
     <div className="filter" aria-label="AO-Hausaufgaben nach Fachtermin filtern">
       <button aria-pressed={terminId==="alle"} onClick={()=>setTerminId("alle")}>Alle Fachtermine</button>
@@ -156,7 +182,7 @@ export default function AOHausaufgaben({onOpenInhalt,onOpenSchema,inhaltById,zie
       const original=AO_HAUSAUFGABEN_ORIGINALSEITEN.get(termin.id)||[];
       return <section className="k1-ha-termin" key={termin.id}>
         <div className="k1-ha-termin__kopf"><div><span className="kicker">Abgabenordnung · {termin.fachtermin} Fachtermin</span><h2>Hausaufgabe {termin.fachtermin.replace(".","")}</h2></div><span>{termin.seiten} PDF-Seiten · Rechtsstand {termin.rechtsstand}</span></div>
-        <aside className="panel k1-ha-quelle ao-ha-original-didaktik"><div className="ao-ha-originalseite__kopf"><b>Originalquelle · PDF-S. 1 · Didaktischer Hinweis</b><span>Wortlaut 1:1 · digital formatiert</span></div><OriginalFliesstext text={original[0]||""}/><small>Quelle: {termin.quellentitel} · {termin.quelle} · PDF-S. 1–{termin.seiten}</small></aside>
+        <aside className="panel k1-ha-quelle ao-ha-original-didaktik"><div className="ao-ha-originalseite__kopf"><b>Originalquelle · PDF-S. 1 · Didaktischer Hinweis</b><span>Wortlaut 1:1 · PDF-Fettdruck · digital formatiert</span></div><OriginalFliesstext text={original[0]||""} terminId={termin.id} seite={1}/><small>Quelle: {termin.quellentitel} · {termin.quelle} · PDF-S. 1–{termin.seiten}</small></aside>
         <div className="k1-ha-liste">{termin.faelle.map(fall=>{
           const refs=(fall.querverweise||[]).map(id=>inhaltById?.get?.(id)).filter(Boolean);
           const schemaText=[...(fall.themen||[]),...(fall.normen||[])].join(" · ");
@@ -168,7 +194,7 @@ export default function AOHausaufgaben({onOpenInhalt,onOpenSchema,inhaltById,zie
             <div className="kst-sachverhalt k1-ha-aufgabe"><b>Aufgabenstellung / Sachverhalt · Originaltext</b><OriginalSeiten terminId={termin.id} pages={quellseiten.aufgabe} typ="aufgabe" fall={fall}/></div>
             <details className="ao-ha-details"><summary>Lösung &amp; Ergebnis anzeigen</summary><div className="fall k1-ha-loesung"><OriginalSeiten terminId={termin.id} pages={quellseiten.loesung} typ="loesung" fall={fall}/><div className="fall__block ao-ha-digitale-links"><b>Zusätzliche digitale Normsprünge</b><AONormkette normen={fall.normen||[]} onOpen={onOpenSchema}/></div></div></details>
             {refs.length>0&&<aside className="k1-ha-querverweise"><b>Querverweise in den AO-Lernmodulen</b><p>Zusätzliche Navigation – nicht Bestandteil des Originaltexts:</p><div className="k1-ha-querverweise__links">{refs.map(m=><button type="button" key={m.id} onClick={()=>onOpenInhalt?.(m.id)}>{Art(m)} {m.id}: {m.title} ↗</button>)}</div></aside>}
-            <div className="k1-ha-fundstelle">Quelle: {termin.fachtermin} Fachtermin · {fall.seiten} · Rechtsstand {termin.rechtsstand} · Wortlaut 1:1, digital formatiert</div>
+            <div className="k1-ha-fundstelle">Quelle: {termin.fachtermin} Fachtermin · {fall.seiten} · Rechtsstand {termin.rechtsstand} · Wortlaut 1:1, PDF-Fettdruck übernommen</div>
           </article>;
         })}</div>
       </section>;
