@@ -17,6 +17,7 @@ import UstPruefschema from "./UstPruefschema";
 import { Notiz } from "./Bausteine";
 import { SchemaVerweise, VerlinkteNormkette, VerlinkterText, grundschema } from "./K1SchemaLinks";
 import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
+import { erfasseSeitenzustand, stelleSeitenzustandWiederHer } from "../lib/campus-navigation";
 import { k1Karteikarten, k1Quizfragen } from "../data/k1-lernstoff.js";
 import { k1Aufgaben, k1Quellskizzen } from "../data/k1-fall-extras.js";
 import { K1Aufgabenblock, K1Quellskizze } from "./K1FallExtras";
@@ -346,13 +347,10 @@ export default function K1Campus({ onKlausurwechsel }) {
   }, [dunkel]);
 
   useEffect(() => {
-    const gespeicherterScroll = scrollWiederherstellen.current;
+    const schnappschuss = scrollWiederherstellen.current;
     scrollWiederherstellen.current = null;
+    if (schnappschuss) return stelleSeitenzustandWiederHer(schnappschuss);
     const timer = window.setTimeout(() => {
-      if (typeof gespeicherterScroll === "number") {
-        window.scrollTo({ top: gespeicherterScroll, behavior: "auto" });
-        return;
-      }
       if (ansicht === "schema" && schemaZiel) {
         document.getElementById(schemaZiel)?.scrollIntoView({ behavior: "smooth", block: "start" });
         return;
@@ -398,11 +396,11 @@ export default function K1Campus({ onKlausurwechsel }) {
     ansicht,
     fallId,
     schemaZiel,
-    scrollY: window.scrollY,
+    ...erfasseSeitenzustand(),
   });
 
-  const anwenden = (ziel, scrollY = null) => {
-    scrollWiederherstellen.current = scrollY;
+  const anwenden = (ziel, wiederherstellen = false) => {
+    scrollWiederherstellen.current = wiederherstellen ? ziel : null;
     setAnsicht(ziel.ansicht);
     setFallId(ziel.fallId ?? null);
     setSchemaZiel(ziel.schemaZiel ?? null);
@@ -442,7 +440,7 @@ export default function K1Campus({ onKlausurwechsel }) {
       return neu;
     });
     setNavIndex(navIndex - 1);
-    anwenden(ziel, ziel.scrollY ?? 0);
+    anwenden(ziel, true);
   };
 
   const navVor = () => {
@@ -455,7 +453,7 @@ export default function K1Campus({ onKlausurwechsel }) {
       return neu;
     });
     setNavIndex(navIndex + 1);
-    anwenden(ziel, ziel.scrollY ?? 0);
+    anwenden(ziel, true);
   };
 
   useEffect(() => {
