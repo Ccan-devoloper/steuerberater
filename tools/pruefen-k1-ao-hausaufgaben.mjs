@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {k1AoHausaufgaben,AO_HAUSAUFGABEN_PAGE_PLANS,AO_HAUSAUFGABEN_BY_MODULE} from '../src/data/k1-ao-hausaufgaben-alle.js';
 import {AO_HAUSAUFGABEN_ORIGINALSEITEN,AO_HAUSAUFGABEN_ORIGINAL_SEITENZAHL} from '../src/data/k1-ao-hausaufgaben-originaltexte.js';
+import {AO_HAUSAUFGABEN_FONTSTIL} from '../src/data/k1-ao-hausaufgaben-richtext.js';
 const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
 
 const erwartet=new Map([
@@ -21,6 +22,7 @@ const fallQuellseiten=seiten=>{const parts=String(seiten||'').split('·');return
 assert(k1AoHausaufgaben.length===7,'AO Hausaufgaben: 7 Unterlagen (1.+2. sowie 3.–8.) erwartet.');
 assert(AO_HAUSAUFGABEN_ORIGINAL_SEITENZAHL===103,'AO Hausaufgaben: Originaltext-Ebene muss exakt 103 PDF-Seiten enthalten.');
 assert(AO_HAUSAUFGABEN_ORIGINALSEITEN.size===7,'AO Hausaufgaben: Originaltext-Ebene muss alle 7 Unterlagen enthalten.');
+assert(AO_HAUSAUFGABEN_FONTSTIL.size===7,'AO Hausaufgaben: PDF-Fettdruckdaten müssen alle 7 Unterlagen enthalten.');
 for(const termin of k1AoHausaufgaben){
   const soll=erwartet.get(termin.id);assert(soll,`AO Hausaufgaben: unbekannte Unterlage ${termin.id}.`);
   assert(termin.rechtsstand==='2025'&&termin.seiten===soll.seiten,`AO Hausaufgaben: Quellenmetadaten ${termin.id} falsch.`);
@@ -29,6 +31,8 @@ for(const termin of k1AoHausaufgaben){
   assert(original?.length===soll.seiten,`AO Hausaufgaben ${termin.id}: Originaltext nicht ${soll.seiten}/${soll.seiten}.`);
   original.forEach((text,i)=>assert(typeof text==='string'&&text.trim().length>80,`AO Hausaufgaben ${termin.id}: Originaltext PDF-S. ${i+1} fehlt/ist leer.`));
   assert(digest(original)===soll.sha,`AO Hausaufgaben ${termin.id}: Inhaltswortlaut weicht vom PDF ab.`);
+  const fontPages=AO_HAUSAUFGABEN_FONTSTIL.get(termin.id);
+  assert(fontPages?.length===soll.seiten,`AO Hausaufgaben ${termin.id}: PDF-Fettdruckdaten nicht ${soll.seiten}/${soll.seiten}.`);
   const plan=AO_HAUSAUFGABEN_PAGE_PLANS.get(termin.id);assert(plan&&Object.keys(plan).length===termin.seiten,`AO Hausaufgaben: Seitenplan ${termin.id} nicht ${termin.seiten}/${termin.seiten}.`);
   for(let p=1;p<=termin.seiten;p++)assert(plan[p],`AO Hausaufgaben ${termin.id}: PDF-Seite ${p} fehlt im Seitenplan.`);
   const byId=new Map(termin.faelle.map(f=>[f.id,f]));for(const id of soll.ids)assert(byId.has(id),`AO Hausaufgaben: ${id} fehlt.`);
@@ -37,18 +41,32 @@ for(const termin of k1AoHausaufgaben){
 }
 assert(k1AoHausaufgaben.reduce((s,t)=>s+t.seiten,0)===103,'AO Hausaufgaben: Gesamtseitenzahl muss 103/103 betragen.');
 assert(k1AoHausaufgaben.reduce((s,t)=>s+t.faelle.length,0)===23,'AO Hausaufgaben: insgesamt 23 Fälle erwartet.');
+
+// Regression: 8. Fachtermin, PDF-S. 4 – nur die im PDF tatsächlich fett gesetzten Teile.
+const p4=AO_HAUSAUFGABEN_FONTSTIL.get('AO-HA-8')[3];
+const byLine=new Map(p4.map(x=>[x.l,x.p]));
+assert(byLine.get('Aufgabe 1')?.every(([,b])=>b===1),'AO Hausaufgaben: PDF-S. 4 „Aufgabe 1“ muss fett bleiben.');
+assert(byLine.get('Bearbeitungshinweise')?.every(([,b])=>b===1),'AO Hausaufgaben: PDF-S. 4 „Bearbeitungshinweise“ muss fett bleiben.');
+const anlage=byLine.get('Auf die als Anlage beigefügten Auszüge aus dem Strafgesetzbuch (StGB) wird');
+assert(anlage?.some(([t,b])=>t==='Anlage'&&b===1)&&anlage?.some(([t,b])=>t==='Auf die als'&&b===0),'AO Hausaufgaben: PDF-S. 4 „Anlage“ muss nur inline fett sein.');
+const alle=byLine.get('ursprünglich erlassenen 18.000 € zurückfordern darf. Gehen Sie auf alle in Betracht');
+assert(alle?.some(([t,b])=>t==='alle'&&b===1)&&alle?.some(([t,b])=>t.includes('Gehen Sie auf')&&b===0),'AO Hausaufgaben: PDF-S. 4 „alle“ muss nur inline fett sein.');
+
 const ui=fs.readFileSync(new URL('../src/components/AOHausaufgaben.jsx',import.meta.url),'utf8');
 const css=fs.readFileSync(new URL('../src/components/ao-hausaufgaben.css',import.meta.url),'utf8');
 const campus=fs.readFileSync(new URL('../src/components/AOCampusV3.jsx',import.meta.url),'utf8');
-assert(ui.includes('AO_HAUSAUFGABEN_ORIGINALSEITEN')&&ui.includes('OriginalSeiten')&&ui.includes('OriginalFliesstext'),'AO Hausaufgaben: Originaltext-Ebene wird nicht gerendert.');
-assert(!ui.includes('<pre>')&&!css.includes('originalseite pre'),'AO Hausaufgaben: PDF-Rohlayout/Monospace darf nicht mehr gerendert werden.');
+assert(ui.includes('AO_HAUSAUFGABEN_ORIGINALSEITEN')&&ui.includes('AO_HAUSAUFGABEN_FONTSTIL')&&ui.includes('OriginalSeiten')&&ui.includes('OriginalFliesstext'),'AO Hausaufgaben: Originaltext-/PDF-Font-Ebene wird nicht gerendert.');
+assert(!ui.includes('istUeberschrift')&&!ui.includes('<pre>')&&!css.includes('originalseite pre'),'AO Hausaufgaben: heuristischer Fettdruck oder PDF-Rohlayout darf nicht gerendert werden.');
+assert(ui.includes('styledLine')&&ui.includes('RenderStyledLine')&&ui.includes('part.bold'),'AO Hausaufgaben: PDF-Fettdruck wird nicht span-genau gerendert.');
 assert(ui.includes('SourceTable')&&ui.includes('AO8Seite7')&&ui.includes('USt-Voranmeldungen für die VA-Zeiträume August bis November 06'),'AO Hausaufgaben: strukturierte Originaltabelle des 8. Fachtermins fehlt.');
 assert(ui.includes('<details')&&ui.includes('Lösung &amp; Ergebnis anzeigen'),'AO Hausaufgaben: Original-Lösung ist nicht aufklappbar.');
 assert(!ui.includes('(fall.aufgabe||[]).map')&&!ui.includes('(fall.loesung||[]).map')&&!ui.includes('text={fall.ergebnis}'),'AO Hausaufgaben: paraphrasierte Aufgaben-/Lösungstexte werden noch gerendert.');
-assert(ui.includes('Wortlaut 1:1 · digital formatiert')&&ui.includes('Originalquelle · PDF-S.'),'AO Hausaufgaben: 1:1-/Formatkennzeichnung fehlt.');
+assert(ui.includes('Wortlaut 1:1 · PDF-Fettdruck · digital formatiert')&&ui.includes('Originalquelle · PDF-S.'),'AO Hausaufgaben: 1:1-/PDF-Font-Kennzeichnung fehlt.');
 assert(css.includes('system-ui')&&css.includes('ao-ha-source-table'),'AO Hausaufgaben: digitale Typografie/Tabellenstil fehlt.');
+assert(css.includes('max-width:none')&&!css.includes('max-width:92ch'),'AO Hausaufgaben: Fließtext ist noch künstlich in der Breite begrenzt.');
+assert(css.includes('.ao-ha-source-table td:first-child{font-weight:400'),'AO Hausaufgaben: erste Tabellenspalte wird fälschlich pauschal fett dargestellt.');
 assert(ui.includes('Alle Fachtermine')&&ui.includes('k1AoHausaufgaben.map'),'AO Hausaufgaben: Fachterminfilter fehlt.');
 assert(ui.includes('AOHausaufgabenHinweise')&&ui.includes('AO_HAUSAUFGABEN_BY_MODULE'),'AO Hausaufgaben: Rückverweise in Lernmodule fehlen.');
 assert(campus.includes('AOHausaufgaben')&&campus.includes('AOHausaufgabenHinweise')&&campus.includes('hausaufgabenOeffnen'),'AO Hausaufgaben: Campus/Navigation fehlt.');
 for(const id of [301,307,319,335,346,347,352,353,354,358,360,367,369,371,373,375,376,385,386,387,388,389,390,391,392,393])assert(AO_HAUSAUFGABEN_BY_MODULE.get(id)?.length,`AO Hausaufgaben: Modul-Rückverweis ${id} fehlt.`);
-console.log('AO Hausaufgaben geprüft: 103/103 PDF-Seiten inhaltlich wortgleich, digital formatiert, echte Tabellen, 23 Fälle, aufklappbare Lösungen und bidirektionale Querverweise.');
+console.log('AO Hausaufgaben geprüft: 103/103 PDF-Seiten inhaltlich wortgleich, volle Fließbreite, PDF-Fettdruck span-genau, echte Tabellen, 23 Fälle, aufklappbare Lösungen und bidirektionale Querverweise.');
