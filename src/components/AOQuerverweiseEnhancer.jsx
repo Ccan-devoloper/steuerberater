@@ -75,8 +75,14 @@ function originalfallOeffnen(id) {
   const versuchen=(n=0)=>{
     const meta=AO_FALL_BY_ID.get(Number(id));
     const karte=Array.from(document.querySelectorAll(".ao-campus .kst-fallkarte")).find((x)=>Number(x.dataset.aoFallId)===Number(id)||(meta?.title&&x.textContent?.includes(meta.title))||x.textContent?.includes(`Fall ${id}`));
-    const btn=karte?.querySelector("button");
-    if(btn){btn.click();return;}
+    if(karte){
+      karte.classList.add("ao-fall-ziel");
+      karte.setAttribute("tabindex","-1");
+      karte.scrollIntoView({behavior:"smooth",block:"start"});
+      try{karte.focus({preventScroll:true});}catch{}
+      setTimeout(()=>karte.classList.remove("ao-fall-ziel"),2400);
+      return;
+    }
     if(n<40)setTimeout(()=>versuchen(n+1),50);
   };
   setTimeout(()=>versuchen(),30);
