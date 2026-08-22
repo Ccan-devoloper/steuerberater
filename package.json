@@ -23,7 +23,8 @@
     "check:k1-ao-einheit-7": "node tools/pruefen-k1-ao-einheit-7.mjs",
     "check:k1-ao-einheit-8": "node tools/pruefen-k1-ao-einheit-8.mjs",
     "check:k1-ao-shortskript-2025": "node tools/pruefen-ao-shortskript-2025.mjs",
-    "check:k1-ao-hausaufgaben": "node tools/pruefen-k1-ao-hausaufgaben.mjs"
+    "check:k1-ao-hausaufgaben": "node tools/pruefen-k1-ao-hausaufgaben.mjs",
+    "check:k3-persg-tag1": "node tools/pruefen-k3-persg-tag1.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
