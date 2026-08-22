@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
+import {AO_FALL_BY_ID,AO_FALLID_BY_NUMMER,aoFallAnzeige,aoOriginalfallAnzeige} from "../data/ao-originalfall-nummern.js";
 import "./ao-links.css";
 
 const MODUL_ZU_FAELLEN = {
   301: [{ id:310, titel:"Pflichtverstöße im Besteuerungsverfahren" }],
-  302: [{ id:311, titel:"Auskunftsersuchen: zu Recht und verwertbar?" }],
+  302: [{ id:310, titel:"Pflichtverstöße im Besteuerungsverfahren" }],
   303: [{ id:311, titel:"Auskunftsersuchen: zu Recht und verwertbar?" }],
   307: [{ id:320, titel:"Ordnungsgemäße Bekanntgabe in vier Varianten" }, { id:321, titel:"Ende der Einspruchsfrist" }],
   308: [{ id:320, titel:"Ordnungsgemäße Bekanntgabe in vier Varianten" }],
@@ -62,13 +63,109 @@ const FALL_ZU_MODULEN = {
   381: [{id:377,titel:"Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme § 130 und Widerruf § 131 AO"},{id:382,titel:"Prüfungsreihenfolge bei vermeintlich fehlerhaftem Verwaltungsakt: Plan A, B und C"}],
 };
 
+const interneIds=[...AO_FALL_BY_ID.keys()].sort((a,b)=>b-a);
+const interneIdPattern=interneIds.join("|");
+const reOriginalfall=new RegExp(`\\bOriginalfall\\s+(${interneIdPattern})\\b`,"g");
+const reFall=new RegExp(`\\bFall\\s+(${interneIdPattern})\\b`,"g");
+
 function rail(text) { return Array.from(document.querySelectorAll(".ao-campus .rail__link")).find((b)=>b.textContent?.trim()===text); }
-function originalfallOeffnen(id) { rail("Originalfälle")?.click(); const versuchen=(n=0)=>{const karte=Array.from(document.querySelectorAll(".ao-campus .kst-fallkarte")).find((x)=>x.textContent?.includes(`Fall ${id}`));const btn=karte?.querySelector("button");if(btn){btn.click();return;}if(n<30)setTimeout(()=>versuchen(n+1),50);};setTimeout(()=>versuchen(),30); }
+function findeFallIdImText(text){for(const id of interneIds){if(new RegExp(`\\b(?:Originalfall|Fall)\\s+${id}\\b`).test(text||""))return id;}return null;}
+function originalfallOeffnen(id) {
+  rail("Originalfälle")?.click();
+  const versuchen=(n=0)=>{
+    const meta=AO_FALL_BY_ID.get(Number(id));
+    const karte=Array.from(document.querySelectorAll(".ao-campus .kst-fallkarte")).find((x)=>Number(x.dataset.aoFallId)===Number(id)||(meta?.title&&x.textContent?.includes(meta.title))||x.textContent?.includes(`Fall ${id}`));
+    const btn=karte?.querySelector("button");
+    if(btn){btn.click();return;}
+    if(n<40)setTimeout(()=>versuchen(n+1),50);
+  };
+  setTimeout(()=>versuchen(),30);
+}
 function modulOeffnen(id) { rail("Abgabenordnung")?.click(); const versuchen=(n=0)=>{const alle=Array.from(document.querySelectorAll(".ao-campus .ao-topic-filter button")).find((x)=>x.textContent?.trim()==="Alle Oberthemen");if(alle&&alle.getAttribute("aria-pressed")!=="true"){alle.click();if(n<30)return setTimeout(()=>versuchen(n+1),50);}const karte=Array.from(document.querySelectorAll(".ao-campus .modules .modul")).find((x)=>x.textContent?.includes(`Modul ${id}`));if(karte){karte.click();return;}if(n<30)setTimeout(()=>versuchen(n+1),50);};setTimeout(()=>versuchen(),30); }
+
+function ersetzeInterneFallnummern(root){
+  if(!root||typeof document==="undefined")return;
+  for(const card of root.querySelectorAll?.(".kst-fallkarte")||[]){
+    const id=Number(card.dataset.aoFallId)||findeFallIdImText(card.textContent);
+    if(id&&AO_FALL_BY_ID.has(id))card.dataset.aoFallId=String(id);
+  }
+  const lesson=root.querySelector?.("main.page > .ao-lesson");
+  if(lesson){
+    const id=Number(lesson.dataset.aoFallId)||findeFallIdImText(lesson.querySelector(".lesson__kopf .kicker")?.textContent);
+    if(id&&AO_FALL_BY_ID.has(id))lesson.dataset.aoFallId=String(id);
+  }
+  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+  const nodes=[];let node;
+  while((node=walker.nextNode()))nodes.push(node);
+  for(const textNode of nodes){
+    if(textNode.parentElement?.closest("script,style,[data-ao-inline-fall-link]"))continue;
+    let text=textNode.nodeValue||"";
+    if(!/\b(?:Originalfall|Fall)\s+\d{3}\b/.test(text))continue;
+    text=text.replace(reOriginalfall,(_,id)=>aoOriginalfallAnzeige(Number(id)));
+    text=text.replace(reFall,(_,id)=>aoFallAnzeige(Number(id)));
+    textNode.nodeValue=text;
+  }
+}
+
+function verlinkeFallreferenzenInSchemata(root){
+  if(!root||typeof document==="undefined")return;
+  const schemaRoots=root.querySelectorAll?.(".ao-schema-section .ao-original, .ao-lesson .ao-original")||[];
+  for(const schemaRoot of schemaRoots){
+    const walker=document.createTreeWalker(schemaRoot,NodeFilter.SHOW_TEXT);
+    const nodes=[];let node;
+    while((node=walker.nextNode()))nodes.push(node);
+    for(const textNode of nodes){
+      if(textNode.parentElement?.closest("button,a,[data-ao-inline-fall-link]"))continue;
+      const text=textNode.nodeValue||"";
+      const matches=[...text.matchAll(/\bFall\s+(\d+)\b/g)].filter(m=>AO_FALLID_BY_NUMMER.has(Number(m[1])));
+      if(!matches.length)continue;
+      const frag=document.createDocumentFragment();
+      let pos=0;
+      for(const match of matches){
+        frag.append(text.slice(pos,match.index));
+        const nr=Number(match[1]),id=AO_FALLID_BY_NUMMER.get(nr);
+        const btn=document.createElement("button");
+        btn.type="button";
+        btn.className="ao-inline-fall-link";
+        btn.dataset.aoInlineFallLink=String(id);
+        btn.textContent=`Fall ${nr}`;
+        btn.title=`Originalfall ${nr} öffnen`;
+        btn.addEventListener("click",()=>originalfallOeffnen(id));
+        frag.append(btn);
+        pos=match.index+match[0].length;
+      }
+      frag.append(text.slice(pos));
+      textNode.replaceWith(frag);
+    }
+  }
+}
 
 export default function AOQuerverweiseEnhancer() {
   const [ziel,setZiel]=useState({mount:null,typ:null,id:null});
-  useEffect(()=>{let frame=null,host=null;const scan=()=>{frame=null;const lesson=document.querySelector(".ao-campus main.page > .ao-lesson"),text=lesson?.querySelector(".lesson__kopf .kicker")?.textContent||"",modulTreffer=text.match(/Lernmodul\s+(\d+)/i),fallTreffer=text.match(/Originalfall\s+(\d+)/i),typ=modulTreffer?"modul":fallTreffer?"fall":null,id=Number(modulTreffer?.[1]||fallTreffer?.[1]||0),refs=typ==="modul"?(MODUL_ZU_FAELLEN[id]||[]):typ==="fall"?(FALL_ZU_MODULEN[id]||[]):[];if(!lesson||!refs.length){if(host?.isConnected)host.remove();host=null;setZiel({mount:null,typ:null,id:null});return;}let h=lesson.querySelector(":scope > [data-ao-links]");if(!h){h=document.createElement("div");h.dataset.aoLinks=String(id);const quellen=Array.from(lesson.querySelectorAll(":scope > .tz")).find((s)=>/Quellen/i.test(s.querySelector(".tz__no")?.textContent||""));if(quellen)lesson.insertBefore(h,quellen);else lesson.appendChild(h);}host=h;setZiel((alt)=>alt.mount===h&&alt.id===id&&alt.typ===typ?alt:{mount:h,typ,id});};const plan=()=>{if(frame===null)frame=requestAnimationFrame(scan);};plan();const obs=new MutationObserver(plan);obs.observe(document.body,{childList:true,subtree:true});return()=>{obs.disconnect();if(frame!==null)cancelAnimationFrame(frame);if(host?.isConnected)host.remove();};},[]);
-  if(!ziel.mount||!ziel.id)return null;const refs=ziel.typ==="modul"?(MODUL_ZU_FAELLEN[ziel.id]||[]):(FALL_ZU_MODULEN[ziel.id]||[]),istModul=ziel.typ==="modul";
-  return createPortal(<section className="tz ao-links-tz"><div className="tz__no"><b>{istModul?"Üben":"Lernen"}</b>Querverweise</div><div className="tz__body"><h2 className="tz__titel">{istModul?"Passende Originalfälle":"Passende Lernmodule"}</h2><p>{istModul?"Direkter Sprung zu kursinternen Fällen mit demselben oder eng überlappendem Prüfungsstoff.":"Direkter Rücksprung zu den Lernmodulen, die den Fall systematisch vorbereiten."}</p><div className="ao-linkcards">{refs.map((r)=><button key={r.id} onClick={()=>istModul?originalfallOeffnen(r.id):modulOeffnen(r.id)}><b>{istModul?`Originalfall ${r.id}`:`Lernmodul ${r.id}`}</b><span>{r.titel}</span><small>{istModul?"Fall":"Modul"} öffnen ↗</small></button>)}</div></div></section>,ziel.mount);
+  useEffect(()=>{let frame=null,host=null;const scan=()=>{
+    frame=null;
+    const campus=document.querySelector(".ao-campus");
+    if(!campus)return;
+    const lesson=campus.querySelector("main.page > .ao-lesson"),kicker=lesson?.querySelector(".lesson__kopf .kicker")?.textContent||"";
+    const modulTreffer=kicker.match(/Lernmodul\s+(\d+)/i);
+    const rawFallTreffer=kicker.match(/Originalfall\s+(\d+)/i);
+    const gespeicherteFallId=Number(lesson?.dataset?.aoFallId)||0;
+    const rawFallId=Number(rawFallTreffer?.[1]||0);
+    const interneFallId=AO_FALL_BY_ID.has(rawFallId)?rawFallId:gespeicherteFallId;
+    if(lesson&&interneFallId)lesson.dataset.aoFallId=String(interneFallId);
+    const typ=modulTreffer?"modul":interneFallId?"fall":null;
+    const id=Number(modulTreffer?.[1]||interneFallId||0);
+    const refs=typ==="modul"?(MODUL_ZU_FAELLEN[id]||[]):typ==="fall"?(FALL_ZU_MODULEN[id]||[]):[];
+    if(!lesson||!refs.length){if(host?.isConnected)host.remove();host=null;setZiel({mount:null,typ:null,id:null});}
+    else{
+      let h=lesson.querySelector(":scope > [data-ao-links]");
+      if(!h){h=document.createElement("div");h.dataset.aoLinks=String(id);const quellen=Array.from(lesson.querySelectorAll(":scope > .tz")).find((s)=>/Quellen/i.test(s.querySelector(".tz__no")?.textContent||""));if(quellen)lesson.insertBefore(h,quellen);else lesson.appendChild(h);}
+      host=h;setZiel((alt)=>alt.mount===h&&alt.id===id&&alt.typ===typ?alt:{mount:h,typ,id});
+    }
+    ersetzeInterneFallnummern(campus);
+    verlinkeFallreferenzenInSchemata(campus);
+  };const plan=()=>{if(frame===null)frame=requestAnimationFrame(scan);};plan();const obs=new MutationObserver(plan);obs.observe(document.body,{childList:true,subtree:true});return()=>{obs.disconnect();if(frame!==null)cancelAnimationFrame(frame);if(host?.isConnected)host.remove();};},[]);
+  if(!ziel.mount||!ziel.id)return null;
+  const refs=ziel.typ==="modul"?(MODUL_ZU_FAELLEN[ziel.id]||[]):(FALL_ZU_MODULEN[ziel.id]||[]),istModul=ziel.typ==="modul";
+  return createPortal(<section className="tz ao-links-tz"><div className="tz__no"><b>{istModul?"Üben":"Lernen"}</b>Querverweise</div><div className="tz__body"><h2 className="tz__titel">{istModul?"Passende Originalfälle":"Passende Lernmodule"}</h2><p>{istModul?"Direkter Sprung zu kursinternen Fällen mit demselben oder eng überlappendem Prüfungsstoff.":"Direkter Rücksprung zu den Lernmodulen, die den Fall systematisch vorbereiten."}</p><div className="ao-linkcards">{refs.map((r)=><button key={r.id} onClick={()=>istModul?originalfallOeffnen(r.id):modulOeffnen(r.id)}><b>{istModul?aoFallAnzeige(r.id):`Lernmodul ${r.id}`}</b><span>{r.titel}</span><small>{istModul?"Fall":"Modul"} öffnen ↗</small></button>)}</div></div></section>,ziel.mount);
 }
