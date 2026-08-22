@@ -21,9 +21,13 @@ for(const id of targetModules)assert(campus.includes(String(id)),`AO Short-Skrip
 assert(all.includes('AOShortSkript2025Auto'),'AO Short-Skript 2025: Auto-Integration ist nicht aktiviert.');
 assert(auto.includes('AO_SHORT_2025_DETAIL_BY_MODULE')&&auto.includes('moduleBlocks'),'AO Short-Skript 2025: Detailblöcke werden nicht in die Lernmodule eingeblendet.');
 assert(auto.includes('Lernmodul')&&auto.includes('data-ao-short-2025')&&auto.includes('49/49 Seiten geprüft'),'AO Short-Skript 2025: Einblendelogik unvollständig.');
-assert(auto.includes('__aoShort2025Runtime')&&auto.includes('disconnect')&&auto.includes('createRuntime'),'AO Short-Skript 2025: globaler Singleton-Observer fehlt.');
-assert(auto.includes('aoShortSignature')&&auto.includes('correct.length===1&&existing.length===1'),'AO Short-Skript 2025: idempotenter Render-Schlüssel fehlt.');
-assert(auto.includes('existing.forEach(n=>n.remove())'),'AO Short-Skript 2025: Duplikatbereinigung pro Lernmodul fehlt.');
+assert(auto.includes('__aoShort2025Runtime')&&auto.includes('disconnect')&&auto.includes('createRuntime'),'AO Short-Skript 2025: globale Runtime fehlt.');
+assert(auto.includes('SHORT_SELECTOR')&&auto.includes('document.querySelectorAll(SHORT_SELECTOR)'),'AO Short-Skript 2025: dokumentweite Singleton-Suche fehlt.');
+assert(auto.includes('observer.disconnect()')&&auto.includes('scanning')&&auto.includes('observe()'),'AO Short-Skript 2025: Observer wird während eigener DOM-Änderungen nicht pausiert.');
+assert(auto.includes('correct.length===1&&allExisting.length===1'),'AO Short-Skript 2025: globaler idempotenter Render-Schlüssel fehlt.');
+assert(auto.includes('allExisting.forEach(n=>n.remove())'),'AO Short-Skript 2025: globale Duplikatbereinigung fehlt.');
+assert(auto.includes('ao-short-2025-singleton')&&auto.includes('aoShortRuntime="4"'),'AO Short-Skript 2025: Singleton-Sentinel fehlt.');
+assert(css.includes('[data-ao-short-2025]~[data-ao-short-2025]')&&css.includes('display:none!important'),'AO Short-Skript 2025: visuelle Duplikat-Failsafe fehlt.');
 assert(auto.includes('ao-short-table')&&css.includes('.ao-short-table'),'AO Short-Skript 2025: Originaltabelle S. 33 wird nicht tabellarisch dargestellt.');
 for(const cls of ['ao-short-block--flow','ao-short-block--decision','ao-short-block--columns','ao-short-block--case','ao-short-block--exam','ao-short-block--table'])assert(css.includes(cls),`AO Short-Skript 2025: Darstellungsart ${cls} fehlt.`);
 for(const marker of ['Aufgabenstellung','AEAO','BpO','VollstrA','Gutachtenstil','Vier-Tage-Bekanntgabefiktion','§ 181 Abs. 5','10.000 €','12.600 €','§ 177 AO','Prüfungsjahr 2021','Prüfungsjahre 2019/2017','Prüfungsjahr 2018'])assert(data.includes(marker),`AO Short-Skript 2025: Quellenmarker fehlt: ${marker}`);
@@ -35,4 +39,4 @@ assert(AO_SHORT_2025_DETAIL_BY_MODULE[382]?.some(b=>b.sourcePages.includes(33)&&
 assert(AO_SHORT_2025_DETAIL_BY_MODULE[382]?.some(b=>b.sourcePages.includes(40)&&b.sourcePages.includes(42)),'AO Short-Skript 2025: Prüfungsjahr 2024 S. 40–42 fehlt.');
 assert(AO_SHORT_2025_DETAIL_BY_MODULE[371]?.some(b=>b.sourcePages.includes(43)&&b.sourcePages.includes(44)),'AO Short-Skript 2025: Prüfungsjahr 2023 S. 43–44 fehlt.');
 assert(AO_SHORT_2025_PAGE_PLAN[1]===301&&AO_SHORT_2025_PAGE_PLAN[13]===307&&AO_SHORT_2025_PAGE_PLAN[22]===340&&AO_SHORT_2025_PAGE_PLAN[29]===369&&AO_SHORT_2025_PAGE_PLAN[38]===363&&AO_SHORT_2025_PAGE_PLAN[49]===363,'AO Short-Skript 2025: Leitseiten falsch zugeordnet.');
-console.log(`AO Short-Skript 2025 vollständig integriert: 49/49 PDF-Seiten in ${primaryModules.size} primären und ${targetModules.size} insgesamt angereicherten bestehenden AO-Lernmodulen; Originalfälle S. 14–17, § 181 Abs. 5 S. 22–24, Tabelle S. 33, Examensjahre 2024–2016, Singleton-Inserter und Produktionsdarstellung geprüft.`);
+console.log(`AO Short-Skript 2025 vollständig integriert: 49/49 PDF-Seiten in ${primaryModules.size} primären und ${targetModules.size} insgesamt angereicherten bestehenden AO-Lernmodulen; globale Singleton-Bereinigung, visuelle Duplikat-Failsafe, Originalfälle S. 14–17, § 181 Abs. 5 S. 22–24, Tabelle S. 33 und Examensjahre 2024–2016 geprüft.`);
