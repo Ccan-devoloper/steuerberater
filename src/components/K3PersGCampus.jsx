@@ -1,20 +1,187 @@
-import React, { useEffect, useState } from "react";
-import { laden, sichern } from "../lib/fortschritt";
+import React, { useEffect, useMemo, useState } from "react";
+import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K3Fachleiste from "./K3Fachleiste";
 import { IconCockpit, IconModule, IconFaelle, IconSchema, IconTraining } from "./Icons";
 import { IconKlausur } from "./Klausurmodus";
+import K3PersGVisuals from "./K3PersGVisuals";
+import {
+  persgQuelle, persgBereiche, persgBereichName, persgSeitenplan,
+  persgModule, persgFaelle, persgSchemata, persgQuizfragen,
+} from "../data/k3-persg-tag1";
 import "./kst.css";
+import "./k3-persg.css";
 
-/* Platzhalter für den künftigen PersG-Reiter der Bilanzklausur – gleicher
-   Aufbau wie die Platzhalter in Klausur 1 (ErbSt) und Klausur 2 (ESt/GewSt). */
 const nav = [
-  ["cockpit","Cockpit",IconCockpit],["module","Personengesellschaften",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["hausaufgaben","Hausaufgaben PersG",IconModule],
+  ["cockpit", "Cockpit", IconCockpit],
+  ["module", "Personengesellschaften", IconModule],
+  ["faelle", "Originalfälle", IconFaelle],
+  ["klausur", "Klausurmodus", IconKlausur],
+  ["schema", "Prüfschema", IconSchema],
+  ["training", "Training", IconTraining],
+  ["fallsammlung", "Fallsammlung", IconFaelle],
+  ["hausaufgaben", "Hausaufgaben PersG", IconModule],
 ];
+const modulIds = new Set(persgModule.map((m) => m.id));
 
 export default function K3PersGCampus({ onKlausurwechsel, onFachwechsel }) {
-  const verlauf=useAnsichtVerlauf(); const [dunkel,setDunkel]=useState(()=>laden("stb-dunkel",false));
-  useEffect(()=>{document.documentElement.dataset.theme=dunkel?"dark":"light";sichern("stb-dunkel",dunkel);},[dunkel]);
-  return <div className="kst-campus"><CampusTopbar klausur="3" marke="3" name="Examenscampus Klausur 3" untertitel="Buchführung und Bilanzwesen · Personengesellschaften" aufCockpit={()=>verlauf.oeffnen("cockpit")} navZurueck={verlauf.zurueck} navVor={verlauf.vor} zurueckMoeglich={verlauf.zurueckMoeglich} vorMoeglich={verlauf.vorMoeglich} suche="" sucheSetzen={()=>{}} suchePlatzhalter="PersG-Inhalte suchen" sucheAria="Personengesellschafts-Inhalte durchsuchen" dunkel={dunkel} dunkelUmschalten={()=>setDunkel((d)=>!d)} /><KlausurenLeiste aktiv="k3" aufCockpit={()=>verlauf.oeffnen("cockpit")} onKlausurwechsel={onKlausurwechsel}/><K3Fachleiste aktiv="persg" onWechsel={onFachwechsel}/><aside className="rail"><nav className="rail__nav">{nav.map(([id,label,Icon])=><button key={id} className="rail__link" aria-current={verlauf.ansicht===id?"true":undefined} onClick={()=>verlauf.oeffnen(id)}><Icon />{label}</button>)}</nav><div className="rail__box"><b>PersG-Fortschritt</b><strong>0 / 0</strong><p>Quellen folgen</p></div></aside><main className="page"><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>{verlauf.ansicht==="cockpit"?"Personengesellschafts-Cockpit":nav.find(([id])=>id===verlauf.ansicht)?.[1]}</h1><p className="lead">Dieser Reiter bündelt künftig den Personengesellschafts-Stoff der Bilanzklausur. Die bereits vorhandenen PersG-Lernmodule bleiben bis dahin im Reiter „Allgemein" (Bereich Personengesellschaft) erreichbar.</p></div></div><section className="panel"><h2>Noch keine eigenen Quelldaten</h2><p>Es wurden bewusst keine Inhalte ergänzt, die nicht aus einer bereitgestellten Quelle stammen.</p></section></main></div>;
+  const verlauf = useAnsichtVerlauf();
+  const [modulId, setModulId] = useState(null);
+  const [suche, setSuche] = useState("");
+  const [bereich, setBereich] = useState("alle");
+  const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
+  const fortschritt = useFortschritt("stb-k3-persg-erledigt", modulIds);
+  const erledigt = fortschritt.werte;
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = dunkel ? "dark" : "light";
+    sichern("stb-dunkel", dunkel);
+  }, [dunkel]);
+
+  useEffect(() => { window.scrollTo({ top: 0, behavior: "auto" }); }, [verlauf.ansicht, modulId]);
+
+  const gefiltert = useMemo(() => {
+    const q = suche.trim().toLowerCase();
+    return persgModule.filter((m) => {
+      if (bereich !== "alle" && m.area !== bereich) return false;
+      if (!q) return true;
+      return [m.title, m.law, ...(m.intro || []), ...(m.goals || []), ...(m.scheme || []), ...(m.normchain || []), m.merksatz]
+        .filter(Boolean).join(" ").toLowerCase().includes(q);
+    });
+  }, [bereich, suche]);
+
+  const modul = persgModule.find((m) => m.id === modulId) || null;
+  const quote = anteil(erledigt.length, persgModule.length);
+  const ansichtOeffnen = (id) => { setModulId(null); verlauf.oeffnen(id); };
+  const modulOeffnen = (id) => { setModulId(id); if (verlauf.ansicht !== "module") verlauf.oeffnen("module"); };
+  const fallOeffnen = (id) => {
+    setModulId(null);
+    if (verlauf.ansicht !== "faelle") verlauf.oeffnen("faelle");
+    setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
+  };
+
+  return (
+    <div className="kst-campus persg-campus">
+      <CampusTopbar
+        klausur="3" marke="3" name="Examenscampus Klausur 3"
+        untertitel="Buchführung und Bilanzwesen · Personengesellschaften"
+        aufCockpit={() => ansichtOeffnen("cockpit")}
+        navZurueck={verlauf.zurueck} navVor={verlauf.vor}
+        zurueckMoeglich={verlauf.zurueckMoeglich} vorMoeglich={verlauf.vorMoeglich}
+        suche={suche}
+        sucheSetzen={(v) => { setSuche(v); setModulId(null); if (verlauf.ansicht !== "module") verlauf.oeffnen("module"); }}
+        suchePlatzhalter="PersG-Modul, Norm oder Stichwort suchen"
+        sucheAria="Personengesellschafts-Inhalte durchsuchen"
+        dunkel={dunkel} dunkelUmschalten={() => setDunkel((d) => !d)}
+      />
+      <KlausurenLeiste aktiv="k3" aufCockpit={() => ansichtOeffnen("cockpit")} onKlausurwechsel={onKlausurwechsel} />
+      <K3Fachleiste aktiv="persg" onWechsel={onFachwechsel} />
+
+      <aside className="rail">
+        <nav className="rail__nav" aria-label="PersG-Hauptnavigation">
+          {nav.map(([id, label, Icon]) => (
+            <button key={id} className="rail__link" aria-current={verlauf.ansicht === id ? "true" : undefined} onClick={() => ansichtOeffnen(id)}>
+              <Icon />{label}
+            </button>
+          ))}
+        </nav>
+        <div className="rail__box">
+          <b>PersG-Fortschritt</b><strong>{erledigt.length} / {persgModule.length}</strong><p>Module als bearbeitet markiert</p>
+          {erledigt.length > 0 && <button className="rail__box-reset" onClick={() => window.confirm("PersG-Fortschritt zurücksetzen?") && fortschritt.zuruecksetzen()}>zurücksetzen</button>}
+        </div>
+      </aside>
+
+      <main className="page">
+        {verlauf.ansicht === "cockpit" && <Cockpit quote={quote} erledigt={erledigt} modulOeffnen={modulOeffnen} ansichtOeffnen={ansichtOeffnen} setBereich={(x) => { setBereich(x); ansichtOeffnen("module"); }} />}
+        {verlauf.ansicht === "module" && !modul && <Modulliste liste={gefiltert} bereich={bereich} setBereich={setBereich} suche={suche} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} />}
+        {verlauf.ansicht === "module" && modul && <Modulseite modul={modul} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} zurueck={() => setModulId(null)} />}
+        {verlauf.ansicht === "faelle" && <Fallseite modulOeffnen={modulOeffnen} />}
+        {verlauf.ansicht === "klausur" && <KlausurmodusPersG fallOeffnen={fallOeffnen} />}
+        {verlauf.ansicht === "schema" && <Schemaseite modulOeffnen={modulOeffnen} />}
+        {verlauf.ansicht === "training" && <Training />}
+        {verlauf.ansicht === "fallsammlung" && <Platzhalter titel="Fallsammlung Personengesellschaften" text="Die eigenständige PersG-Fallsammlung wird mit den angekündigten Fallunterlagen ergänzt. Der Originalfall des 1. Unterrichtstags ist bereits unter „Originalfälle“ vollständig eingebaut." />}
+        {verlauf.ansicht === "hausaufgaben" && <Platzhalter titel="Hausaufgaben Personengesellschaften" text="Hausaufgaben werden als eigener Reiter mit aufklappbaren Lösungen ergänzt, sobald die Unterlagen vorliegen." />}
+      </main>
+    </div>
+  );
+}
+
+function Cockpit({ quote, erledigt, modulOeffnen, ansichtOeffnen, setBereich }) {
+  const naechstes = persgModule.find((m) => !erledigt.includes(m.id)) || persgModule[0];
+  const themen = persgBereiche.filter((x) => x.id !== "alle");
+  return <>
+    <div className="cockpit">
+      <section className="these">
+        <span className="kicker">Klausur 3 · Personengesellschaften · Tag 1</span>
+        <h2>Vom Mitunternehmerbegriff bis zum <em>Sonderbetriebsvermögen.</em></h2>
+        <p>Alle {persgQuelle.pages} Seiten des ersten PersG-Unterrichtstags sind in {persgModule.length} Lernmodule, {persgFaelle.length} Originalfall und {persgSchemata.length} digitale Prüfschemata überführt. Die handschriftlichen Übersichten werden als native Tabellen und Schemata nachgebaut.</p>
+        <div className="these__aktionen"><button className="btn" onClick={() => modulOeffnen(naechstes.id)}>Weiterlernen</button><button className="btn btn--linie" onClick={() => ansichtOeffnen("schema")}>Prüfschemata öffnen</button></div>
+        <p className="persg-source-note">Quelle: {persgQuelle.title} · {persgQuelle.stand} · PDF-S. 1–14</p>
+      </section>
+      <section className="panel fortschritt"><div className="ring" style={{ "--p": `${quote}%` }}><b>{quote}%</b></div><h3>Bearbeitungsstand</h3><p>{erledigt.length} von {persgModule.length} Modulen abgehakt</p></section>
+    </div>
+    <section className="abschnitt"><span className="kicker">Nächster Schritt</span><button className="weiter" onClick={() => modulOeffnen(naechstes.id)}><span className="kicker">{persgBereichName[naechstes.area]} · Modul {naechstes.id}</span><h3>{naechstes.title}</h3><p>{naechstes.intro[0]}</p><span className="norm">{naechstes.law}</span></button></section>
+    <section className="abschnitt"><h2>Oberthemen des 1. Unterrichtstags</h2><div className="raster raster--3">{themen.map((t) => { const mods = persgModule.filter((m) => m.area === t.id); const done = mods.filter((m) => erledigt.includes(m.id)).length; return <article className="bereich" key={t.id}><b>{mods.length} Module</b><h3>{t.label}</h3><p>{bereichText[t.id]}</p><div className="bereich__balken"><span style={{ width: `${anteil(done, mods.length)}%` }} /></div><small className="bereich__stand">{done} von {mods.length} bearbeitet</small><button onClick={() => setBereich(t.id)}>Module öffnen →</button></article>; })}</div></section>
+    <section className="abschnitt"><h2>Quellenabdeckung 14/14</h2><div className="panel"><div className="persg-chiprow">{persgSeitenplan.map((s) => <span key={s.page} className="persg-chip">S. {s.page} · M{s.moduleId}</span>)}</div></div></section>
+  </>;
+}
+
+const bereichText = {
+  Grundlagen: "§ 15 EStG, Abfärbung/Prägung sowie Mitunternehmerrisiko und -initiative.",
+  Gewinn: "Zweistufige Gewinnermittlung, Gewinnverteilung und Kapitalkonten.",
+  BV: "Gesamthandsvermögen, Privatvermögen und steuerliche Zuordnung.",
+  SBV: "SBV I/II, Sonderbilanz, korrespondierende Bilanzierung und Konkurrenzfragen.",
+};
+
+function Modulliste({ liste, bereich, setBereich, suche, erledigt, umschalten, modulOeffnen }) {
+  return <>
+    <div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Lernmodule · 1. Unterrichtstag</h1><p className="lead">Quellengetreu aus allen 14 PDF-Seiten – vom Mitunternehmerbegriff bis zum Vorrang des Sonderbetriebsvermögens.</p></div><span className="kicker">{liste.length} Inhalte</span></div>
+    <div className="persg-filter">{persgBereiche.map((b) => <button key={b.id} aria-pressed={bereich === b.id} onClick={() => setBereich(b.id)}>{b.label}</button>)}</div>
+    {suche && <p className="persg-source-note">Suche: „{suche}“</p>}
+    <div className="persg-module-grid">{liste.map((m) => <article className="persg-module-card" key={m.id} onClick={() => modulOeffnen(m.id)}><button className={`persg-check ${erledigt.includes(m.id) ? "done" : ""}`} aria-label={`${m.title} als bearbeitet markieren`} onClick={(e) => { e.stopPropagation(); umschalten(m.id); }} /><div><div className="persg-meta"><span>{persgBereichName[m.area]}</span><span>Modul {m.id}</span><span>PDF-S. {m.sourcePages.join(", ")}</span><span>{m.minutes} Min.</span></div><h3>{m.title}</h3><p>{m.intro[0]}</p><div className="persg-chiprow"><span className="persg-chip">{m.law}</span></div></div><span className="persg-open">öffnen →</span></article>)}</div>
+  </>;
+}
+
+function Modulseite({ modul, erledigt, umschalten, modulOeffnen, fallOeffnen, zurueck }) {
+  const pos = persgModule.findIndex((m) => m.id === modul.id);
+  const prev = persgModule[pos - 1], next = persgModule[pos + 1];
+  return <>
+    <div className="persg-lesson-head"><div><button className="zurueck" onClick={zurueck}>← alle PersG-Module</button><span className="kicker">{persgBereichName[modul.area]} · Modul {modul.id} · PDF-S. {modul.sourcePages.join(", ")}</span><h1>{modul.title}</h1><p className="lead">{modul.law}</p></div><div className="persg-lesson-actions"><button className="btn btn--linie" onClick={() => umschalten(modul.id)}>{erledigt.includes(modul.id) ? "✓ bearbeitet" : "als bearbeitet markieren"}</button></div></div>
+    <K3PersGVisuals type={modul.visual} />
+    <section className="persg-block"><h2>Einordnung</h2>{modul.intro.map((p) => <p key={p}>{p}</p>)}</section>
+    <section className="persg-block"><h2>Lernziele</h2><ul className="persg-list">{modul.goals.map((x) => <li key={x}>{x}</li>)}</ul></section>
+    <section className="persg-block"><h2>Prüfreihenfolge</h2><ol className="persg-list">{modul.scheme.map((x) => <li key={x}>{x}</li>)}</ol><div className="persg-normchain">{modul.normchain.map((n) => <span key={n}>{n}</span>)}</div></section>
+    {modul.examples && <section className="persg-block"><h2>Anwendungsvarianten</h2><div className="persg-mini-cases">{modul.examples.map((e) => <article key={e.label}><b>{e.label}</b><p>{e.text}</p><strong>{e.result}</strong></article>)}</div></section>}
+    {modul.example && <section className="persg-block"><h2>{modul.example.title}</h2><div className="persg-facts"><p>{modul.example.facts}</p></div><ol className="persg-list">{(modul.example.solution || []).map((x) => <li key={x}>{x}</li>)}</ol><div className="persg-result"><b>Ergebnis</b><p>{modul.example.result}</p></div></section>}
+    {modul.followUp && <section className="persg-block"><h2>Wenn die Mitunternehmerstellung fehlt</h2><div className="persg-inline-chips">{modul.followUp.map((x) => <span key={x}>{x}</span>)}</div></section>}
+    <section className="persg-block persg-merksatz"><h2>Merksatz</h2><p>{modul.merksatz}</p></section>
+    {modul.originalCaseId && <div className="persg-case-link"><div><span className="kicker">Passender Originalfall</span><b>Fall 1 · ABC-OHG</b></div><button onClick={() => fallOeffnen(modul.originalCaseId)}>Originalfall öffnen →</button></div>}
+    <div className="persg-navcards"><button disabled={!prev} onClick={() => prev && modulOeffnen(prev.id)}>{prev ? `← Modul ${prev.id} · ${prev.title}` : "Beginn"}</button><button disabled={!next} onClick={() => next && modulOeffnen(next.id)}>{next ? `Modul ${next.id} · ${next.title} →` : "Ende Tag 1"}</button></div>
+  </>;
+}
+
+function Fallseite({ modulOeffnen }) {
+  return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Originalfälle</h1><p className="lead">Der 1. Unterrichtstag enthält einen vollständigen Aufgabenfall zur ABC-OHG. Die Lösung bleibt standardmäßig zugeklappt.</p></div><span className="kicker">{persgFaelle.length} Fall</span></div><div className="persg-faelle">{persgFaelle.map((f) => <article className="persg-fall" id={f.id} key={f.id}><span className="kicker">Fall {f.nr} · PDF-S. {f.sourcePages.join(", ")}</span><h2>{f.title}</h2><p className="lead">{f.law}</p><div className="persg-facts">{f.facts.map((x) => <p key={x}>{x}</p>)}</div><section className="persg-block"><h3>Aufgabe</h3><ol className="persg-list">{f.tasks.map((x) => <li key={x}>{x}</li>)}</ol></section><details><summary>Lösung anzeigen</summary><ol className="persg-list">{f.solution.map((x) => <li key={x}>{x}</li>)}</ol><K3PersGVisuals type="abc" /><div className="persg-result"><b>Ergebnis</b><p>{f.result}</p></div></details><div className="persg-crosslinks"><span className="kicker">Passende Lernmodule</span>{f.moduleIds.map((id) => <button key={id} onClick={() => modulOeffnen(id)}>Modul {id} ↗</button>)}</div></article>)}</div></>;
+}
+
+function KlausurmodusPersG({ fallOeffnen }) {
+  const [sekunden, setSekunden] = useState(48 * 60);
+  const [laeuft, setLaeuft] = useState(false);
+  useEffect(() => { if (!laeuft || sekunden <= 0) return undefined; const t = setInterval(() => setSekunden((s) => Math.max(0, s - 1)), 1000); return () => clearInterval(t); }, [laeuft, sekunden]);
+  const mm = String(Math.floor(sekunden / 60)).padStart(2, "0"), ss = String(sekunden % 60).padStart(2, "0");
+  return <><div className="pagehead"><div><span className="kicker">Klausurmodus · Tag 1</span><h1>ABC-OHG unter Zeitdruck</h1><p className="lead">48 Minuten für Gewinnkorrektur, Verteilung und Kapitalkonten. Lösung erst nach eigener Bearbeitung öffnen.</p></div></div><section className="panel"><span className="kicker">Timer</span><h2>{mm}:{ss}</h2><div className="these__aktionen"><button className="btn" onClick={() => setLaeuft((v) => !v)}>{laeuft ? "Pause" : "Start"}</button><button className="btn btn--linie" onClick={() => { setLaeuft(false); setSekunden(48 * 60); }}>Reset</button><button className="btn btn--linie" onClick={() => fallOeffnen("persg-fall-1")}>Fall 1 öffnen</button></div></section></>;
+}
+
+function Schemaseite({ modulOeffnen }) {
+  return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Prüfschemata</h1><p className="lead">Die zentralen Tafelschemata des 1. Unterrichtstags sind digital nachgebaut und mit den Lernmodulen verknüpft.</p></div><span className="kicker">{persgSchemata.length} Schemata</span></div><div className="persg-schema-grid">{persgSchemata.map((s) => <section key={s.id} id={`persg-schema-${s.id}`} className="persg-schema-card"><div className="persg-schema-head"><div><span className="kicker">{s.law}</span><h2>{s.title}</h2></div><div>{s.moduleIds.map((id) => <button key={id} onClick={() => modulOeffnen(id)}>Modul {id} ↗</button>)}</div></div><K3PersGVisuals type={s.visual} /></section>)}</div></>;
+}
+
+function Training() {
+  const [antworten, setAntworten] = useState({});
+  return <><div className="pagehead"><div><span className="kicker">Training · Tag 1</span><h1>PersG-Schnellcheck</h1><p className="lead">Sechs Fragen ausschließlich aus den 14 Seiten des ersten Unterrichtstags.</p></div></div><div className="persg-training">{persgQuizfragen.map((q, i) => { const chosen = antworten[i]; return <article className="persg-quiz" key={q.q}><span className="kicker">Frage {i + 1}</span><h3>{q.q}</h3><div className="persg-options">{q.options.map((o, oi) => { const status = chosen == null ? "" : oi === q.answer ? "good" : oi === chosen ? "bad" : ""; return <button className={status} key={o} onClick={() => setAntworten((a) => ({ ...a, [i]: oi }))}>{o}</button>; })}</div>{chosen != null && <p className="persg-explanation"><b>{chosen === q.answer ? "Richtig." : "Noch nicht."}</b> {q.explanation}</p>}</article>; })}</div></>;
+}
+
+function Platzhalter({ titel, text }) {
+  return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>{titel}</h1></div></div><section className="panel"><p>{text}</p></section></>;
 }
