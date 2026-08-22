@@ -1,0 +1,5 @@
+
+> stb-examenscampus-bilanzen@3.0.0 check:k3-persg-tag1
+> node tools/pruefen-k3-persg-tag1.mjs
+
+K3 PersG · Tag 1 OK: 14/14 Seiten, 8 Lernmodule, 1 Originalfall, Prüfschemata und Training vollständig integriert.
