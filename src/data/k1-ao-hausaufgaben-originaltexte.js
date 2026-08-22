@@ -1,5 +1,6 @@
 import {ORIGINALSEITEN_1_2} from "./k1-ao-hausaufgaben-original-1-2.js";
-import {ORIGINALSEITEN_3} from "./k1-ao-hausaufgaben-original-3.js";
+import {ORIGINALSEITEN_3_P1} from "./k1-ao-hausaufgaben-original-3a.js";
+import {ORIGINALSEITEN_3_P2} from "./k1-ao-hausaufgaben-original-3b.js";
 import {ORIGINALSEITEN_4_P1} from "./k1-ao-hausaufgaben-original-4a.js";
 import {ORIGINALSEITEN_4_P2} from "./k1-ao-hausaufgaben-original-4b.js";
 import {ORIGINALSEITEN_5_P1} from "./k1-ao-hausaufgaben-original-5a.js";
@@ -16,7 +17,7 @@ import {ORIGINALSEITEN_8_22_25} from "./k1-ao-hausaufgaben-original-8c2.js";
 
 export const AO_HAUSAUFGABEN_ORIGINALSEITEN=new Map([
   ["AO-HA-1-2",ORIGINALSEITEN_1_2],
-  ["AO-HA-3",ORIGINALSEITEN_3],
+  ["AO-HA-3",[...ORIGINALSEITEN_3_P1,...ORIGINALSEITEN_3_P2]],
   ["AO-HA-4",[...ORIGINALSEITEN_4_P1,...ORIGINALSEITEN_4_P2]],
   ["AO-HA-5",[...ORIGINALSEITEN_5_P1,...ORIGINALSEITEN_5_P2]],
   ["AO-HA-6",[...ORIGINALSEITEN_6_P1,...ORIGINALSEITEN_6_P2]],
@@ -25,5 +26,4 @@ export const AO_HAUSAUFGABEN_ORIGINALSEITEN=new Map([
 ]);
 
 export const aoHausaufgabeOriginalSeite=(terminId,seite)=>AO_HAUSAUFGABEN_ORIGINALSEITEN.get(terminId)?.[Number(seite)-1]||"";
-
 export const AO_HAUSAUFGABEN_ORIGINAL_SEITENZAHL=Array.from(AO_HAUSAUFGABEN_ORIGINALSEITEN.values()).reduce((sum,pages)=>sum+pages.length,0);
