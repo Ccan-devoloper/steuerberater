@@ -1,5 +1,5 @@
 {
-  "validated_sha": "b6c499f8affa4cbf785fbb4ddc7745cd3b941e5c",
+  "validated_sha": "4a2031fde5c087e016bfceafd27a56a1f3368411",
   "npm_ci": "success",
   "fallsammlung": "success",
   "fallsammlung_format": "success",
@@ -12,6 +12,6 @@
   "ao_einheit_6": "success",
   "ao_einheit_7": "success",
   "ao_einheit_8": "success",
-  "ao_shortskript_2025": "success",
+  "ao_shortskript_2025": "failure",
   "build": "success"
 }
