@@ -58,5 +58,7 @@ const enhancer=fs.readFileSync(new URL("../src/components/AOQuerverweiseEnhancer
 assert(enhancer.includes("ao-inline-fall-link")&&enhancer.includes("verlinkeFallreferenzenInSchemata"), "AO Prüfschema: direkte Fallverlinkung fehlt.");
 assert(enhancer.includes('302: [{ id:310'), "AO Prüfschema Ermittlungsverfahren muss Fall 1 zugeordnet sein.");
 assert(!enhancer.includes('`Originalfall ${r.id}`'), "AO Originalfälle: interne 3xx-ID wird noch als sichtbare Fallnummer ausgegeben.");
+assert(enhancer.includes('rail("Originalfälle")?.click()')&&enhancer.includes('karte.scrollIntoView({behavior:"smooth",block:"start"})'), "AO Prüfschema: Falllink muss in den Reiter Originalfälle zur Zielkarte springen.");
+assert(!enhancer.includes('const btn=karte?.querySelector("button")')&&!enhancer.includes('if(btn){btn.click();return;}'), "AO Prüfschema: Falllink darf nicht mehr den allgemeinen 'Fall öffnen'-Button auslösen, der in die Modulansicht führt.");
 
-console.log(`AO Einheit 1 vollständig: 34/34 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${aoSchemaIds.length} digitale Schemata; Fall 1/2 sichtbar quellengetreu nummeriert und aus Prüfschemata verlinkt.`);
+console.log(`AO Einheit 1 vollständig: 34/34 PDF-Seiten, ${module.length} Lernmodule, ${faelle.length} Originalfälle, ${aoSchemaIds.length} digitale Schemata; Fall 1/2 sichtbar quellengetreu nummeriert und Prüfschema-Links springen direkt zur Originalfall-Karte.`);
