@@ -19,6 +19,7 @@ const K1UebungsverweiseEnhancer = lazy(() => import("./K1UebungsverweiseEnhancer
 const K1MeurerKurzskriptEnhancer = lazy(() => import("./K1MeurerKurzskriptEnhancer"));
 const KstCampus = lazy(() => import("./KstCampus"));
 const KstOriginalSchemataEnhancer = lazy(() => import("./KstOriginalSchemataEnhancer"));
+const K2PlatzhalterCampus = lazy(() => import("./K2PlatzhalterCampus"));
 
 const Laden = () => (
   <div className="campus-laden" role="status" aria-live="polite">Campus wird geladen …</div>
@@ -27,6 +28,7 @@ const Laden = () => (
 export default function CampusShell() {
   const [campus, setCampus] = useState(() => laden("stb-campus", "k3"));
   const [k1Fach, setK1Fach] = useState(() => laden("stb-k1-fach", "ust"));
+  const [k2Fach, setK2Fach] = useState(() => laden("stb-k2-fach", "kst"));
 
   const wechseln = useCallback((ziel) => {
     setCampus(ziel);
@@ -36,6 +38,11 @@ export default function CampusShell() {
   const k1FachWechseln = useCallback((ziel) => {
     setK1Fach(ziel);
     sichern("stb-k1-fach", ziel);
+  }, []);
+
+  const k2FachWechseln = useCallback((ziel) => {
+    setK2Fach(ziel);
+    sichern("stb-k2-fach", ziel);
   }, []);
 
   if (campus === "k1") {
@@ -65,9 +72,12 @@ export default function CampusShell() {
     );
   }
   if (campus === "kst") {
+    if (k2Fach === "est" || k2Fach === "gewst") {
+      return <Suspense fallback={<Laden />}><K2PlatzhalterCampus fach={k2Fach} onKlausurwechsel={wechseln} onFachwechsel={k2FachWechseln} /></Suspense>;
+    }
     return (
       <Suspense fallback={<Laden />}>
-        <KstCampus onKlausurwechsel={wechseln} />
+        <KstCampus onKlausurwechsel={wechseln} onFachwechsel={k2FachWechseln} />
         <KstOriginalSchemataEnhancer />
       </Suspense>
     );

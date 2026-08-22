@@ -17,6 +17,7 @@ import {
   IconFaelle, IconHaken,
 } from "./Icons";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
+import K2Fachleiste from "./K2Fachleiste";
 import "./kst.css";
 
 /* Reiner Bilanzstoff gehört ausschließlich in Klausur 3 und erscheint daher
@@ -35,7 +36,7 @@ const ansichten = [
   { id: "quellen", label: "Quellenstand", Icon: IconRegister },
 ];
 
-export default function KstCampus({ onKlausurwechsel }) {
+export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
   const [ansicht, setAnsicht] = useState("cockpit");
   const [modulId, setModulId] = useState(null);
   const [suche, setSuche] = useState("");
@@ -188,6 +189,8 @@ export default function KstCampus({ onKlausurwechsel }) {
       />
 
       <KlausurenLeiste aktiv="kst" aufCockpit={() => ansichtOeffnen("cockpit")} onKlausurwechsel={onKlausurwechsel} />
+
+      <K2Fachleiste aktiv="kst" onWechsel={onFachwechsel} />
 
       <aside className="rail">
         <nav className="rail__nav" aria-label="KSt-Hauptnavigation">
