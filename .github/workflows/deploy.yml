@@ -33,6 +33,7 @@ jobs:
       - run: npm run check:k1-ao-einheit-8
       - run: npm run check:k1-ao-shortskript-2025
       - run: npm run check:k1-ao-hausaufgaben
+      - run: npm run check:k3-persg-tag1
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
