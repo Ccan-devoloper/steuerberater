@@ -90,6 +90,13 @@ jobs:
         run: |
           set -o pipefail
           npm run check:k3-persg-tag1 2>&1 | tee /tmp/persg1.log
+      - id: persg2
+        name: K3 PersG Tag 2 · 39/39 Seiten
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run check:k3-persg-tag2 2>&1 | tee /tmp/persg2.log
       - id: build
         name: Produktions-Build
         continue-on-error: true
@@ -113,6 +120,7 @@ jobs:
           S_AOSCRIPT: ${{ steps.aoscript.outcome }}
           S_AOHAUSAUFGABEN: ${{ steps.aohausaufgaben.outcome }}
           S_PERSG1: ${{ steps.persg1.outcome }}
+          S_PERSG2: ${{ steps.persg2.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
           git config user.name "github-actions[bot]"
@@ -136,6 +144,7 @@ jobs:
             "ao_shortskript_2025": "${S_AOSCRIPT}",
             "ao_hausaufgaben": "${S_AOHAUSAUFGABEN}",
             "k3_persg_tag1": "${S_PERSG1}",
+            "k3_persg_tag2": "${S_PERSG2}",
             "build": "${S_BUILD}"
           }
           EOF
@@ -143,7 +152,8 @@ jobs:
           cp /tmp/ao8.log .github/validation-ao8.log 2>/dev/null || true
           cp /tmp/aohausaufgaben.log .github/validation-aohausaufgaben.log 2>/dev/null || true
           cp /tmp/persg1.log .github/validation-persg1.log 2>/dev/null || true
-          git add .github/validation-last.json .github/validation-ao7.log .github/validation-ao8.log .github/validation-aohausaufgaben.log .github/validation-persg1.log
+          cp /tmp/persg2.log .github/validation-persg2.log 2>/dev/null || true
+          git add .github/validation-last.json .github/validation-ao7.log .github/validation-ao8.log .github/validation-aohausaufgaben.log .github/validation-persg1.log .github/validation-persg2.log
           git commit -m "ci: Validierungsstatus ${GITHUB_SHA}" || true
           git push || (git pull --rebase origin main && git push)
 
@@ -165,8 +175,9 @@ jobs:
           S_AOSCRIPT: ${{ steps.aoscript.outcome }}
           S_AOHAUSAUFGABEN: ${{ steps.aohausaufgaben.outcome }}
           S_PERSG1: ${{ steps.persg1.outcome }}
+          S_PERSG2: ${{ steps.persg2.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
-          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_AOSCRIPT" "$S_AOHAUSAUFGABEN" "$S_PERSG1" "$S_BUILD"; do
+          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_AOSCRIPT" "$S_AOHAUSAUFGABEN" "$S_PERSG1" "$S_PERSG2" "$S_BUILD"; do
             test "$value" = "success" || exit 1
           done
