@@ -1,8 +1,12 @@
 
 > stb-examenscampus-bilanzen@3.0.0 check:k3-persg-tag4
-> node tools/pruefen-k3-persg-tag4.mjs
+> node tools/pruefen-k3-persg-tag4.mjs && node tools/pruefen-k3-querverweise.mjs
 
 K3 Personengesellschaften · 4. Unterrichtstag ✅
 Tagesnotiz: 20/20 Seiten ✅
 Einheitsfassung: 471/471 Seiten ✅
 M30–M37 · Fall 14–17 · digitale §24-Schemata ✅
+K3 Querverweissystem ✅
+Allgemein: 91 Module · 90 verknüpfte Fälle · 9 Hausaufgaben ✅
+PersG: 37 Module · 17 Originalfälle · 28 Prüfschemata ✅
+Lernmodule ↔ Fälle ↔ Prüfschemata ↔ Hausaufgaben + Allgemein ↔ PersG ✅
