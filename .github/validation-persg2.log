@@ -1,0 +1,9 @@
+
+> stb-examenscampus-bilanzen@3.0.0 check:k3-persg-tag2
+> node tools/pruefen-k3-persg-tag2.mjs
+
+K3 Personengesellschaften · 2. Unterrichtstag ✅
+PDF-Seiten: 39/39 ✅
+Neue Lernmodule: 12/12 (M9–M20) ✅
+Neue Originalfälle: 6/6 (Fall 2–7) ✅
+Digitale Schemata/Tabellen und bidirektionale Querverweise ✅
