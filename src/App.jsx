@@ -19,6 +19,7 @@ import {
   IconFaelle, IconPlan, IconHaken,
 } from "./components/Icons";
 import { CampusTopbar, KlausurenLeiste } from "./components/CampusKopf";
+import Erklaervideo from "./components/Erklaervideo";
 import K3Fachleiste from "./components/K3Fachleiste";
 
 /* Gültige Kennungen für die Bereinigung des gespeicherten Fortschritts. */
@@ -526,6 +527,8 @@ function Modulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen, oeffnenH
       </header>
 
       {m.area === "Fall" && <AbbaLeiste />}
+
+      <Erklaervideo modul={m} bereichName={bereichName[m.area]} />
 
       <Tz nummer={n()} label="Einordnung" titel="Worum es geht">
         {m.intro.map((p, i) => <p key={i}>{p}</p>)}
