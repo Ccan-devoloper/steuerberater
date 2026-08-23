@@ -2,12 +2,4 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k3-persg-tag1
 > node tools/pruefen-k3-persg-tag1.mjs
 
-file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag1.mjs:20
-const assert = (ok, msg) => { if (!ok) throw new Error(`PersG Tag 1: ${msg}`); };
-                                             ^
-
-Error: PersG Tag 1: Campusintegration fehlt: persg-fall-1
-    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag1.mjs:20:46)
-    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag1.mjs:48:3
-
-Node.js v20.20.2
+K3 PersG · Tag 1 OK: isolierte Quelle 14/14 Seiten; Inhalte im gemeinsamen Tag-1+2-Campus weiter vollständig integriert.
