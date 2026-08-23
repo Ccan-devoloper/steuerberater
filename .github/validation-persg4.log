@@ -2,11 +2,12 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k3-persg-tag4
 > node tools/pruefen-k3-persg-tag4.mjs && node tools/pruefen-k3-querverweise.mjs
 
-K3 Personengesellschaften · 4. Unterrichtstag ✅
-Tagesnotiz: 20/20 Seiten ✅
-Einheitsfassung: 471/471 Seiten ✅
-M30–M37 · Fall 14–17 · digitale §24-Schemata ✅
-K3 Querverweissystem ✅
-Allgemein: 91 Module · 90 verknüpfte Fälle · 9 Hausaufgaben ✅
-PersG: 37 Module · 17 Originalfälle · 28 Prüfschemata ✅
-Lernmodule ↔ Fälle ↔ Prüfschemata ↔ Hausaufgaben + Allgemein ↔ PersG ✅
+file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag4.mjs:14
+const assert=(ok,msg)=>{if(!ok)throw new Error(`PersG Tag 4: ${msg}`);};
+                                     ^
+
+Error: PersG Tag 4: Tag-4-Cockpit fehlt
+    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag4.mjs:14:38)
+    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag4.mjs:22:137
+
+Node.js v20.20.2

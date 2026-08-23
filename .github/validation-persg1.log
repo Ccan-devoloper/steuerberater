@@ -2,4 +2,12 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k3-persg-tag1
 > node tools/pruefen-k3-persg-tag1.mjs
 
-K3 PersG · Tag 1 OK: 14/14 Seiten isoliert und im gemeinsamen Campus dynamisch integriert.
+file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag1.mjs:6
+const {persgQuelle,persgSeitenplan,persgModule,persgFaelle,persgSchemata,persgQuizfragen}=await import(pathToFileURL(dataPath));const campus=fs.readFileSync(campusPath,"utf8"),visuals=fs.readFileSync(visualPath,"utf8"),css=fs.readFileSync(cssPath,"utf8");const assert=(ok,msg)=>{if(!ok)throw new Error(`PersG Tag 1: ${msg}`);};
+                                                                                                                                                                                                                                                                                                    ^
+
+Error: PersG Tag 1: generische Quellenkarte für Tag 1 fehlt
+    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag1.mjs:6:293)
+    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag1.mjs:10:213
+
+Node.js v20.20.2
