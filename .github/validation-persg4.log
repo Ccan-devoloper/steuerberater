@@ -1,0 +1,13 @@
+
+> stb-examenscampus-bilanzen@3.0.0 check:k3-persg-tag4
+> node tools/pruefen-k3-persg-tag4.mjs
+
+file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag4.mjs:14
+const assert=(ok,msg)=>{if(!ok)throw new Error(`PersG Tag 4: ${msg}`);};
+                                     ^
+
+Error: PersG Tag 4: Quellenmarker fehlt: 1.240.000
+    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag4.mjs:14:38)
+    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag4.mjs:22:327
+
+Node.js v20.20.2
