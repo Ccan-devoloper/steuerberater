@@ -37,6 +37,8 @@ jobs:
             'Quellenstand: Unterrichtstage 1–4 bis 06.08.2026 · Begleitfassungen Tag 3 und Tag 4 lückenlos erfasst.':'Quellenstand: Unterrichtstage 1–5 · Einheitsfassungen Tag 3, Tag 4 und Tag 5 lückenlos erfasst; Tag 5 umfasst 487/487 physische Seiten.'
           }
           for a,b in replacements.items(): s=s.replace(a,b)
+          # Einheitsfassung ohne Tagesnotiz nicht als 0/0-Tageskarte anzeigen.
+          s=s.replace('{tags.map((t)=>{const pp=', '{tags.filter((t)=>t.pages>0).map((t)=>{const pp=')
           p.write_text(s)
           PY
           git config user.name "github-actions[bot]"
