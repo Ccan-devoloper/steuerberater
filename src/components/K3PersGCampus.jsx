@@ -1,4 +1,5 @@
 import "../data/k3-persg-tag2-register.js";
+import "../data/k3-persg-tag3-register.js";
 import React, { useEffect, useMemo, useState } from "react";
 import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
@@ -8,6 +9,7 @@ import { IconCockpit, IconModule, IconFaelle, IconSchema, IconTraining } from ".
 import { IconKlausur } from "./Klausurmodus";
 import K3PersGVisuals from "./K3PersGVisuals";
 import K3PersGTag2Visuals from "./K3PersGTag2Visuals";
+import K3PersGTag3Visuals from "./K3PersGTag3Visuals";
 import {
   persgQuelle, persgBereiche, persgBereichName, persgSeitenplan,
   persgModule, persgFaelle, persgSchemata, persgQuizfragen,
@@ -26,10 +28,13 @@ const nav = [
   ["hausaufgaben", "Hausaufgaben PersG", IconModule],
 ];
 const modulIds = new Set(persgModule.map((m) => m.id));
-const sourceLabel = (m) => `Tag ${m.sourceTag || 1} · PDF-S. ${(m.sourcePages || []).join(", ")}`;
+const sourceLabel = (m) => {
+  const base = `Tag ${m.sourceTag || 1} · PDF-S. ${(m.sourcePages || []).join(", ")}`;
+  return m.capturePages?.length ? `${base} · Einheit S. ${m.capturePages.join(", ")}` : base;
+};
 
 function PersGVisual({ type }) {
-  return <><K3PersGVisuals type={type} /><K3PersGTag2Visuals type={type} /></>;
+  return <><K3PersGVisuals type={type} /><K3PersGTag2Visuals type={type} /><K3PersGTag3Visuals type={type} /></>;
 }
 
 export default function K3PersGCampus({ onKlausurwechsel, onFachwechsel }) {
@@ -52,7 +57,7 @@ export default function K3PersGCampus({ onKlausurwechsel, onFachwechsel }) {
     return persgModule.filter((m) => {
       if (bereich !== "alle" && m.area !== bereich) return false;
       if (!q) return true;
-      return [m.title, m.law, ...(m.intro || []), ...(m.goals || []), ...(m.scheme || []), ...(m.normchain || []), m.merksatz]
+      return [m.title, m.law, ...(m.intro || []), ...(m.goals || []), ...(m.scheme || []), ...(m.normchain || []), ...(m.sourceNotes || []), m.merksatz]
         .filter(Boolean).join(" ").toLowerCase().includes(q);
     });
   }, [bereich, suche]);
@@ -90,7 +95,7 @@ export default function K3PersGCampus({ onKlausurwechsel, onFachwechsel }) {
       {verlauf.ansicht === "klausur" && <KlausurmodusPersG fallOeffnen={fallOeffnen} />}
       {verlauf.ansicht === "schema" && <Schemaseite modulOeffnen={modulOeffnen} />}
       {verlauf.ansicht === "training" && <Training />}
-      {verlauf.ansicht === "fallsammlung" && <Platzhalter titel="Fallsammlung Personengesellschaften" text="Die eigenständige PersG-Fallsammlung wird ergänzt, sobald die angekündigten Fallunterlagen vorliegen. Die Unterrichtsfälle aus Tag 1 und 2 sind bereits unter „Originalfälle“ verknüpft." />}
+      {verlauf.ansicht === "fallsammlung" && <Platzhalter titel="Fallsammlung Personengesellschaften" text="Die eigenständige PersG-Fallsammlung wird ergänzt, sobald weitere angekündigte Fallunterlagen vorliegen. Die Unterrichtsfälle aus Tag 1 bis 3 sind bereits unter „Originalfälle“ vollständig querverschaltet." />}
       {verlauf.ansicht === "hausaufgaben" && <Platzhalter titel="Hausaufgaben Personengesellschaften" text="Hausaufgaben werden als eigener Reiter mit aufklappbaren Lösungen ergänzt, sobald die Unterlagen vorliegen." />}
     </main>
   </div>;
@@ -99,20 +104,27 @@ export default function K3PersGCampus({ onKlausurwechsel, onFachwechsel }) {
 function Cockpit({ quote, erledigt, modulOeffnen, ansichtOeffnen, setBereich }) {
   const naechstes = persgModule.find((m) => !erledigt.includes(m.id)) || persgModule[0];
   const themen = persgBereiche.filter((x) => x.id !== "alle");
+  const tag1Pages = persgSeitenplan.filter((s) => !s.tag || s.tag === 1);
   const tag2Pages = persgSeitenplan.filter((s) => s.tag === 2);
+  const tag3Pages = persgSeitenplan.filter((s) => s.tag === 3);
+  const captureRanges = persgQuelle.tag3CaptureRanges || [];
   return <>
     <div className="cockpit">
-      <section className="these"><span className="kicker">Klausur 3 · Personengesellschaften · Tag 1 + 2</span>
-        <h2>Vom Mitunternehmerbegriff bis zur <em>Spiegelbild- und Übertragungstechnik.</em></h2>
-        <p>{persgQuelle.pages} Quellseiten sind inzwischen in {persgModule.length} Lernmodule, {persgFaelle.length} Originalfälle und {persgSchemata.length} digitale Prüfschemata überführt. Tag 2 ergänzt MU-BAS, Kapitalkonten, Spiegelbildmethode, § 15a, Zebra-/Doppelstockfälle, § 6b und die Einbringung einzelner Wirtschaftsgüter.</p>
+      <section className="these"><span className="kicker">Klausur 3 · Personengesellschaften · Tag 1 + 2 + 3</span>
+        <h2>Vom Mitunternehmerbegriff bis zur <em>§-6-Abs.-5- und Ergänzungsbilanztechnik.</em></h2>
+        <p>{persgQuelle.pages} Kernseiten der drei Unterrichtstage sind inzwischen in {persgModule.length} Lernmodule, {persgFaelle.length} Originalfälle und {persgSchemata.length} digitale Prüfschemata überführt. Tag 3 ergänzt § 6 Abs. 5 EStG, Kapitalkonto-I/II-Fälle, Satz 4, Trennungstheorie, Statusregeln und den großen AfA-/Ergänzungsbilanzfall. Zusätzlich ist die 459-seitige Einheitsfassung lückenlos über Quellencluster erfasst.</p>
         <div className="these__aktionen"><button className="btn" onClick={() => modulOeffnen(naechstes.id)}>Weiterlernen</button><button className="btn btn--linie" onClick={() => ansichtOeffnen("schema")}>Prüfschemata öffnen</button></div>
-        <p className="persg-source-note">Quellen: 1. Tag PersG · 14 Seiten · 31.07.2026 sowie 2. Tag PersG · 39 Seiten · 04.08.2026</p>
+        <p className="persg-source-note">Quellen: Tag 1 · 14 Seiten · 31.07.2026 · Tag 2 · 39 Seiten · 04.08.2026 · Tag 3 · 10 Seiten · 05.08.2026 · Einheitsfassung Tag 3 · 459 Seiten.</p>
       </section>
       <section className="panel fortschritt"><div className="ring" style={{"--p":`${quote}%`}}><b>{quote}%</b></div><h3>Bearbeitungsstand</h3><p>{erledigt.length} von {persgModule.length} Modulen abgehakt</p></section>
     </div>
     <section className="abschnitt"><span className="kicker">Nächster Schritt</span><button className="weiter" onClick={() => modulOeffnen(naechstes.id)}><span className="kicker">{persgBereichName[naechstes.area]} · Modul {naechstes.id}</span><h3>{naechstes.title}</h3><p>{naechstes.intro[0]}</p><span className="norm">{naechstes.law}</span></button></section>
     <section className="abschnitt"><h2>Oberthemen Personengesellschaften</h2><div className="raster raster--3">{themen.map((t) => {const mods=persgModule.filter((m)=>m.area===t.id);const done=mods.filter((m)=>erledigt.includes(m.id)).length;return <article className="bereich" key={t.id}><b>{mods.length} Module</b><h3>{t.label}</h3><p>{bereichText[t.id]}</p><div className="bereich__balken"><span style={{width:`${anteil(done,mods.length)}%`}} /></div><small className="bereich__stand">{done} von {mods.length} bearbeitet</small><button onClick={() => setBereich(t.id)}>Module öffnen →</button></article>;})}</div></section>
-    <section className="abschnitt"><h2>Quellenabdeckung</h2><div className="raster raster--2"><div className="panel"><span className="kicker">Tag 1</span><h3>14 / 14 Seiten</h3><div className="persg-chiprow">{persgSeitenplan.filter((s)=>s.tag!==2).map((s)=><span key={`t1-${s.page}`} className="persg-chip">S. {s.page} · M{s.moduleId}</span>)}</div></div><div className="panel"><span className="kicker">Tag 2</span><h3>{tag2Pages.length} / 39 Seiten</h3><div className="persg-chiprow">{tag2Pages.map((s)=><span key={`t2-${s.pdfPage}`} className="persg-chip">S. {s.pdfPage} · M{s.moduleId}</span>)}</div></div></div></section>
+    <section className="abschnitt"><h2>Quellenabdeckung</h2><div className="raster raster--3">
+      <div className="panel"><span className="kicker">Tag 1</span><h3>{tag1Pages.length} / 14 Seiten</h3><div className="persg-chiprow">{tag1Pages.map((s)=><span key={`t1-${s.page}`} className="persg-chip">S. {s.page} · M{s.moduleId}</span>)}</div></div>
+      <div className="panel"><span className="kicker">Tag 2</span><h3>{tag2Pages.length} / 39 Seiten</h3><div className="persg-chiprow">{tag2Pages.map((s)=><span key={`t2-${s.pdfPage}`} className="persg-chip">S. {s.pdfPage} · M{s.moduleId}</span>)}</div></div>
+      <div className="panel"><span className="kicker">Tag 3 · Tagesnotiz</span><h3>{tag3Pages.length} / 10 Seiten</h3><div className="persg-chiprow">{tag3Pages.map((s)=><span key={`t3-${s.pdfPage}`} className="persg-chip">S. {s.pdfPage} · M{s.moduleId}</span>)}</div></div>
+    </div><div className="panel" style={{marginTop:"1rem"}}><span className="kicker">Tag 3 · Personengesellschaften in Bilanz, 3. Einheit</span><h3>459 / 459 Seiten erfasst</h3><p className="persg-source-note">Wiederholungs- und Scrollframes werden nicht als künstliche Doppelmodule angelegt, sondern lückenlos dem fachlich passenden Quellencluster zugeordnet.</p><div className="persg-chiprow">{captureRanges.map((r)=><span key={`${r.start}-${r.end}`} className="persg-chip">S. {r.start}{r.end!==r.start?`–${r.end}`:""} · {r.moduleIds.length?r.moduleIds.map((id)=>`M${id}`).join("/"):"technisch"}</span>)}</div></div></section>
   </>;
 }
 
@@ -124,11 +136,11 @@ const bereichText = {
   Spiegel:"Transparenzprinzip, Spiegelbildmethode und Abstimmung von GHB-, Ergänzungs- und Sonderbilanz.",
   Verlust:"§ 15a EStG, ausgleichsfähige/verrechenbare Verluste und außerbilanzielle Merkposten.",
   Sonderfall:"Zebragesellschaften sowie doppelstöckige Personengesellschaften und Durchstockung.",
-  Uebertragung:"§ 6b EStG und Einbringung einzelner Wirtschaftsgüter gegen Gesellschaftsrechte oder als Einlage.",
+  Uebertragung:"§ 6b EStG, § 6 Abs. 5 EStG, Einbringung, Sperrfristen, Trennungstheorie und Ergänzungsbilanztechnik.",
 };
 
 function Modulliste({ liste, bereich, setBereich, suche, erledigt, umschalten, modulOeffnen }) {
-  return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Lernmodule · 1. + 2. Unterrichtstag</h1><p className="lead">Gemeinsame Lernstrecke aus 53 Quellseiten – von den Grundlagen bis Spiegelbildmethode, § 15a, Doppelstock und Übertragungstechnik.</p></div><span className="kicker">{liste.length} Inhalte</span></div>
+  return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Lernmodule · 1. + 2. + 3. Unterrichtstag</h1><p className="lead">Gemeinsame Lernstrecke aus 63 Kernseiten plus 459 Seiten Einheitsfassung – von den Grundlagen bis § 6 Abs. 5, Statusregeln, Ergänzungsbilanz und AfA-Korrektur.</p></div><span className="kicker">{liste.length} Inhalte</span></div>
     <div className="persg-filter">{persgBereiche.map((b)=><button key={b.id} aria-pressed={bereich===b.id} onClick={()=>setBereich(b.id)}>{b.label}</button>)}</div>{suche&&<p className="persg-source-note">Suche: „{suche}“</p>}
     <div className="persg-module-grid">{liste.map((m)=><article className="persg-module-card" key={m.id} onClick={()=>modulOeffnen(m.id)}><button className={`persg-check ${erledigt.includes(m.id)?"done":""}`} aria-label={`${m.title} als bearbeitet markieren`} onClick={(e)=>{e.stopPropagation();umschalten(m.id);}}/><div><div className="persg-meta"><span>{persgBereichName[m.area]}</span><span>Modul {m.id}</span><span>{sourceLabel(m)}</span><span>{m.minutes} Min.</span></div><h3>{m.title}</h3><p>{m.intro[0]}</p><div className="persg-chiprow"><span className="persg-chip">{m.law}</span></div></div><span className="persg-open">öffnen →</span></article>)}</div></>;
 }
@@ -141,16 +153,17 @@ function Modulseite({ modul, erledigt, umschalten, modulOeffnen, fallOeffnen, zu
     <section className="persg-block"><h2>Einordnung</h2>{modul.intro.map((p)=><p key={p}>{p}</p>)}</section>
     <section className="persg-block"><h2>Lernziele</h2><ul className="persg-list">{modul.goals.map((x)=><li key={x}>{x}</li>)}</ul></section>
     <section className="persg-block"><h2>Prüfreihenfolge</h2><ol className="persg-list">{modul.scheme.map((x)=><li key={x}>{x}</li>)}</ol><div className="persg-normchain">{(modul.normchain||[]).map((n)=><span key={n}>{n}</span>)}</div></section>
+    {modul.sourceNotes?.length>0&&<section className="persg-block"><h2>Quellenhinweis Einheitsfassung</h2><ul className="persg-list">{modul.sourceNotes.map((x)=><li key={x}>{x}</li>)}</ul></section>}
     {modul.examples&&<section className="persg-block"><h2>Anwendungsvarianten</h2><div className="persg-mini-cases">{modul.examples.map((e)=><article key={e.label}><b>{e.label}</b><p>{e.text}</p><strong>{e.result}</strong></article>)}</div></section>}
     {modul.example&&<section className="persg-block"><h2>{modul.example.title}</h2><div className="persg-facts"><p>{modul.example.facts}</p></div><ol className="persg-list">{(modul.example.solution||[]).map((x)=><li key={x}>{x}</li>)}</ol><div className="persg-result"><b>Ergebnis</b><p>{modul.example.result}</p></div></section>}
     {modul.followUp&&<section className="persg-block"><h2>Weiterführende Zuordnung</h2><div className="persg-inline-chips">{modul.followUp.map((x)=><span key={x}>{x}</span>)}</div></section>}
     <section className="persg-block persg-merksatz"><h2>Merksatz</h2><p>{modul.merksatz}</p></section>
     {faelle.length>0&&<div className="persg-case-link"><div><span className="kicker">Passende Originalfälle</span><b>{faelle.map((f)=>`Fall ${f.nr}: ${f.title}`).join(" · ")}</b></div><div className="persg-inline-chips">{faelle.map((f)=><button key={f.id} onClick={()=>fallOeffnen(f.id)}>Fall {f.nr} öffnen →</button>)}</div></div>}
-    <div className="persg-navcards"><button disabled={!prev} onClick={()=>prev&&modulOeffnen(prev.id)}>{prev?`← Modul ${prev.id} · ${prev.title}`:"Beginn"}</button><button disabled={!next} onClick={()=>next&&modulOeffnen(next.id)}>{next?`Modul ${next.id} · ${next.title} →`:"Ende Tag 2"}</button></div></>;
+    <div className="persg-navcards"><button disabled={!prev} onClick={()=>prev&&modulOeffnen(prev.id)}>{prev?`← Modul ${prev.id} · ${prev.title}`:"Beginn"}</button><button disabled={!next} onClick={()=>next&&modulOeffnen(next.id)}>{next?`Modul ${next.id} · ${next.title} →`:"Ende Tag 3"}</button></div></>;
 }
 
 function Fallseite({ modulOeffnen }) {
-  return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Originalfälle</h1><p className="lead">Unterrichtsfälle aus Tag 1 und 2. Sachverhalt und Aufgaben sind sichtbar; die Lösung bleibt standardmäßig zugeklappt.</p></div><span className="kicker">{persgFaelle.length} Fälle</span></div><div className="persg-faelle">{persgFaelle.map((f)=>{const visual=persgModule.find((m)=>(f.moduleIds||[]).includes(m.id)&&m.visual)?.visual;return <article className="persg-fall" id={f.id} key={f.id}><span className="kicker">Fall {f.nr} · Tag {f.sourceTag||1} · PDF-S. {f.sourcePages.join(", ")}</span><h2>{f.title}</h2><p className="lead">{f.law}</p><div className="persg-facts">{f.facts.map((x)=><p key={x}>{x}</p>)}</div><section className="persg-block"><h3>Aufgabe</h3><ol className="persg-list">{f.tasks.map((x)=><li key={x}>{x}</li>)}</ol></section><details><summary>Lösung anzeigen</summary><ol className="persg-list">{f.solution.map((x)=><li key={x}>{x}</li>)}</ol><PersGVisual type={visual}/><div className="persg-result"><b>Ergebnis</b><p>{f.result}</p></div></details><div className="persg-crosslinks"><span className="kicker">Passende Lernmodule</span>{f.moduleIds.map((id)=><button key={id} onClick={()=>modulOeffnen(id)}>Modul {id} ↗</button>)}</div></article>;})}</div></>;
+  return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Originalfälle</h1><p className="lead">Unterrichtsfälle aus Tag 1 bis 3. Sachverhalt und Aufgaben sind sichtbar; die Lösung bleibt standardmäßig zugeklappt.</p></div><span className="kicker">{persgFaelle.length} Fälle</span></div><div className="persg-faelle">{persgFaelle.map((f)=>{const visual=persgModule.find((m)=>(f.moduleIds||[]).includes(m.id)&&m.visual)?.visual;return <article className="persg-fall" id={f.id} key={f.id}><span className="kicker">Fall {f.nr} · {sourceLabel(f)}</span><h2>{f.title}</h2><p className="lead">{f.law}</p><div className="persg-facts">{f.facts.map((x)=><p key={x}>{x}</p>)}</div><section className="persg-block"><h3>Aufgabe</h3><ol className="persg-list">{f.tasks.map((x)=><li key={x}>{x}</li>)}</ol></section><details><summary>Lösung anzeigen</summary><ol className="persg-list">{f.solution.map((x)=><li key={x}>{x}</li>)}</ol><PersGVisual type={visual}/><div className="persg-result"><b>Ergebnis</b><p>{f.result}</p></div></details><div className="persg-crosslinks"><span className="kicker">Passende Lernmodule</span>{f.moduleIds.map((id)=><button key={id} onClick={()=>modulOeffnen(id)}>Modul {id} ↗</button>)}</div></article>;})}</div></>;
 }
 
 function KlausurmodusPersG({ fallOeffnen }) {
@@ -161,12 +174,12 @@ function KlausurmodusPersG({ fallOeffnen }) {
 }
 
 function Schemaseite({ modulOeffnen }) {
-  return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Prüfschemata</h1><p className="lead">Schemata beider Unterrichtstage – digital nachgebaut und direkt mit den Lernmodulen verknüpft.</p></div><span className="kicker">{persgSchemata.length} Schemata</span></div><div className="persg-schema-grid">{persgSchemata.map((s)=><section key={s.id} id={`persg-schema-${s.id}`} className="persg-schema-card"><div className="persg-schema-head"><div><span className="kicker">{s.law}</span><h2>{s.title}</h2></div><div>{s.moduleIds.map((id)=><button key={id} onClick={()=>modulOeffnen(id)}>Modul {id} ↗</button>)}</div></div><PersGVisual type={s.visual}/></section>)}</div></>;
+  return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Prüfschemata</h1><p className="lead">Schemata aus drei Unterrichtstagen – digital nachgebaut und direkt mit den Lernmodulen verknüpft.</p></div><span className="kicker">{persgSchemata.length} Schemata</span></div><div className="persg-schema-grid">{persgSchemata.map((s)=><section key={s.id} id={`persg-schema-${s.id}`} className="persg-schema-card"><div className="persg-schema-head"><div><span className="kicker">{s.law}</span><h2>{s.title}</h2></div><div>{s.moduleIds.map((id)=><button key={id} onClick={()=>modulOeffnen(id)}>Modul {id} ↗</button>)}</div></div><PersGVisual type={s.visual}/></section>)}</div></>;
 }
 
 function Training() {
   const [antworten,setAntworten]=useState({});
-  return <><div className="pagehead"><div><span className="kicker">Training · Tag 1 + 2</span><h1>PersG-Schnellcheck</h1><p className="lead">Fragen aus den bislang integrierten 53 Quellseiten.</p></div></div><div className="persg-training">{persgQuizfragen.map((q,i)=>{const chosen=antworten[i];if(q.options){return <article className="persg-quiz" key={`${i}-${q.q}`}><span className="kicker">Frage {i+1}</span><h3>{q.q}</h3><div className="persg-options">{q.options.map((o,oi)=>{const status=chosen==null?"":oi===q.answer?"good":oi===chosen?"bad":"";return <button className={status} key={o} onClick={()=>setAntworten((a)=>({...a,[i]:oi}))}>{o}</button>;})}</div>{chosen!=null&&<p className="persg-explanation"><b>{chosen===q.answer?"Richtig.":"Noch nicht."}</b> {q.explanation}</p>}</article>;}return <article className="persg-quiz" key={`${i}-${q.q}`}><span className="kicker">Frage {i+1}</span><h3>{q.q}</h3><button className="btn btn--linie" onClick={()=>setAntworten((a)=>({...a,[i]:!a[i]}))}>{chosen?"Antwort ausblenden":"Antwort anzeigen"}</button>{chosen&&<p className="persg-explanation"><b>Antwort:</b> {q.a}</p>}</article>;})}</div></>;
+  return <><div className="pagehead"><div><span className="kicker">Training · Tag 1 + 2 + 3</span><h1>PersG-Schnellcheck</h1><p className="lead">Fragen aus 63 Kernseiten sowie den fachlichen Quellenclustern der 459-seitigen Tag-3-Einheitsfassung.</p></div></div><div className="persg-training">{persgQuizfragen.map((q,i)=>{const chosen=antworten[i];if(q.options){return <article className="persg-quiz" key={`${i}-${q.q}`}><span className="kicker">Frage {i+1}</span><h3>{q.q}</h3><div className="persg-options">{q.options.map((o,oi)=>{const status=chosen==null?"":oi===q.answer?"good":oi===chosen?"bad":"";return <button className={status} key={o} onClick={()=>setAntworten((a)=>({...a,[i]:oi}))}>{o}</button>;})}</div>{chosen!=null&&<p className="persg-explanation"><b>{chosen===q.answer?"Richtig.":"Noch nicht."}</b> {q.explanation}</p>}</article>;}return <article className="persg-quiz" key={`${i}-${q.q}`}><span className="kicker">Frage {i+1}</span><h3>{q.q}</h3><button className="btn btn--linie" onClick={()=>setAntworten((a)=>({...a,[i]:!a[i]}))}>{chosen?"Antwort ausblenden":"Antwort anzeigen"}</button>{chosen&&<p className="persg-explanation"><b>Antwort:</b> {q.a}</p>}</article>;})}</div></>;
 }
 
 function Platzhalter({ titel, text }) { return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>{titel}</h1></div></div><section className="panel"><p>{text}</p></section></>; }
