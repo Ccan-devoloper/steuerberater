@@ -61,7 +61,7 @@ function Spiegel15a(){return <Box title="§ 15a EStG innerhalb der Spiegelbildme
 
 function Zebra(){return <Box title="Zebragesellschaft">
   <div className="p2-hierarchy"><div>vermögensverwaltende C-KG<br/><small>§§ 20/21 EStG auf Gesellschaftsebene</small></div><span>→</span><div>A-GmbH als betriebliche Beteiligte<br/><small>Umqualifizierung beim Beteiligten</small></div></div>
-  <div className="p2-compare"><article><h4>Beteiligung 8 %</h4><p>Vereinfachung auf Antrag möglich.</p><T head={["Beteiligungskonto","€"]} rows={[["Einlage","25.000"],["Verlust 2008","-5.000"],["Verlust 2009","-4.000"],["Auskehrung","-1.500"],["Verlust 2010","-3.000"],["Buchwert","11.500"]]} /></article><article><h4>Abwandlung 20 %</h4><p>Keine <10-%-Vereinfachung; A-GmbH muss aus den Unterlagen der PersG eine fiktive Gewinnermittlung nach § 4 Abs. 1 / § 5 Abs. 1 EStG erstellen.</p><b>„Schattenrechnung“</b></article></div>
+  <div className="p2-compare"><article><h4>Beteiligung 8 %</h4><p>Vereinfachung auf Antrag möglich.</p><T head={["Beteiligungskonto","€"]} rows={[["Einlage","25.000"],["Verlust 2008","-5.000"],["Verlust 2009","-4.000"],["Auskehrung","-1.500"],["Verlust 2010","-3.000"],["Buchwert","11.500"]]} /></article><article><h4>Abwandlung 20 %</h4><p>Keine Vereinfachungsregel für Beteiligungen unter 10 %; A-GmbH muss aus den Unterlagen der PersG eine fiktive Gewinnermittlung nach § 4 Abs. 1 / § 5 Abs. 1 EStG erstellen.</p><b>„Schattenrechnung“</b></article></div>
   <div className="p2-callout"><b>KSt 2010 Beispiel 1</b><span>-3.000 € Verlustanteil + 40.000 € Erlös - 11.500 € Buchwert = 25.500 € Einkünfte aus Gewerbebetrieb.</span></div>
 </Box>}
 
