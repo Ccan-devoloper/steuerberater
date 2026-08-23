@@ -77,7 +77,7 @@ jobs:
         continue-on-error: true
         run: npm run check:k1-ao-shortskript-2025
       - id: aohausaufgaben
-        name: AO Hausaufgabe 1.+2. Fachtermin · 9/9 Seiten
+        name: AO Hausaufgaben
         continue-on-error: true
         shell: bash
         run: |
@@ -104,6 +104,13 @@ jobs:
         run: |
           set -o pipefail
           npm run check:k3-persg-tag3 2>&1 | tee /tmp/persg3.log
+      - id: persg4
+        name: K3 PersG Tag 4 · 20/20 + 471/471 Seiten
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run check:k3-persg-tag4 2>&1 | tee /tmp/persg4.log
       - id: build
         name: Produktions-Build
         continue-on-error: true
@@ -129,6 +136,7 @@ jobs:
           S_PERSG1: ${{ steps.persg1.outcome }}
           S_PERSG2: ${{ steps.persg2.outcome }}
           S_PERSG3: ${{ steps.persg3.outcome }}
+          S_PERSG4: ${{ steps.persg4.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
           git config user.name "github-actions[bot]"
@@ -154,6 +162,7 @@ jobs:
             "k3_persg_tag1": "${S_PERSG1}",
             "k3_persg_tag2": "${S_PERSG2}",
             "k3_persg_tag3": "${S_PERSG3}",
+            "k3_persg_tag4": "${S_PERSG4}",
             "build": "${S_BUILD}"
           }
           EOF
@@ -163,7 +172,8 @@ jobs:
           cp /tmp/persg1.log .github/validation-persg1.log 2>/dev/null || true
           cp /tmp/persg2.log .github/validation-persg2.log 2>/dev/null || true
           cp /tmp/persg3.log .github/validation-persg3.log 2>/dev/null || true
-          git add .github/validation-last.json .github/validation-ao7.log .github/validation-ao8.log .github/validation-aohausaufgaben.log .github/validation-persg1.log .github/validation-persg2.log .github/validation-persg3.log
+          cp /tmp/persg4.log .github/validation-persg4.log 2>/dev/null || true
+          git add .github/validation-last.json .github/validation-ao7.log .github/validation-ao8.log .github/validation-aohausaufgaben.log .github/validation-persg1.log .github/validation-persg2.log .github/validation-persg3.log .github/validation-persg4.log
           git commit -m "ci: Validierungsstatus ${GITHUB_SHA}" || true
           git push || (git pull --rebase origin main && git push)
 
@@ -187,8 +197,9 @@ jobs:
           S_PERSG1: ${{ steps.persg1.outcome }}
           S_PERSG2: ${{ steps.persg2.outcome }}
           S_PERSG3: ${{ steps.persg3.outcome }}
+          S_PERSG4: ${{ steps.persg4.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
-          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_AOSCRIPT" "$S_AOHAUSAUFGABEN" "$S_PERSG1" "$S_PERSG2" "$S_PERSG3" "$S_BUILD"; do
+          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_AOSCRIPT" "$S_AOHAUSAUFGABEN" "$S_PERSG1" "$S_PERSG2" "$S_PERSG3" "$S_PERSG4" "$S_BUILD"; do
             test "$value" = "success" || exit 1
           done
