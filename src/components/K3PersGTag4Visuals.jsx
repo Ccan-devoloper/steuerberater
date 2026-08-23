@@ -1,5 +1,9 @@
 import React from "react";
+import { registerPersGTag5 } from "../data/k3-persg-tag5-register.js";
+import K3PersGTag5Visuals from "./K3PersGTag5Visuals.jsx";
 import "./k3-persg-tag4.css";
+
+registerPersGTag5();
 
 const Box=({title,children,accent=false})=><section className={`p4-box ${accent?"p4-box--accent":""}`}>{title&&<h3>{title}</h3>}{children}</section>;
 const Table=({head,rows})=><div className="p4-tablewrap"><table className="p4-table"><thead><tr>{head.map((x)=><th key={x}>{x}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={i}>{r.map((x,j)=><td key={j}>{x}</td>)}</tr>)}</tbody></table></div>;
@@ -66,4 +70,4 @@ const visuals={
   "umw24-zwischenwert":Zwischenwert,
   "umw24-muanteil":MuAnteil,
 };
-export default function K3PersGTag4Visuals({type}){const C=visuals[type];return C?<C/>:null;}
+export default function K3PersGTag4Visuals({type}){const C=visuals[type];return C?<C/>:<K3PersGTag5Visuals type={type}/>;}
