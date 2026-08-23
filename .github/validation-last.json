@@ -1,5 +1,5 @@
 {
-  "validated_sha": "70c8f6c020e1ac7805523cf96312f7156f2fffbe",
+  "validated_sha": "2260b2b63c8fa10cf0e9256e213165a83d460179",
   "npm_ci": "success",
   "fallsammlung": "success",
   "fallsammlung_format": "success",
@@ -16,6 +16,6 @@
   "ao_hausaufgaben": "success",
   "k3_persg_tag1": "failure",
   "k3_persg_tag2": "failure",
-  "k3_persg_tag3": "failure",
+  "k3_persg_tag3": "success",
   "build": "success"
 }

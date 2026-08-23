@@ -2,12 +2,6 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k3-persg-tag3
 > node tools/pruefen-k3-persg-tag3.mjs
 
-file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag3.mjs:19
-const assert = (ok,msg) => { if (!ok) throw new Error(`PersG Tag 3: ${msg}`); };
-                                            ^
-
-Error: PersG Tag 3: Tag-3-Gesamtstrecke fehlt im Campus
-    at assert (file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag3.mjs:19:45)
-    at file:///home/runner/work/steuerberater/steuerberater/tools/pruefen-k3-persg-tag3.mjs:65:1
-
-Node.js v20.20.2
+K3 Personengesellschaften · 3. Unterrichtstag ✅
+Tagesnotiz: 10/10 Seiten ✅
+Einheitsfassung: 459/459 Seiten ✅
