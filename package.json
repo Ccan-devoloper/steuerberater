@@ -27,7 +27,7 @@
     "check:k3-persg-tag1": "node tools/pruefen-k3-persg-tag1.mjs",
     "check:k3-persg-tag2": "node tools/pruefen-k3-persg-tag2.mjs",
     "check:k3-persg-tag3": "node tools/pruefen-k3-persg-tag3.mjs",
-    "check:k3-persg-tag4": "node tools/pruefen-k3-persg-tag4.mjs",
+    "check:k3-persg-tag4": "node tools/pruefen-k3-persg-tag4.mjs && node tools/pruefen-k3-querverweise.mjs",
     "check:k3-querverweise": "node tools/pruefen-k3-querverweise.mjs"
   },
   "dependencies": {
