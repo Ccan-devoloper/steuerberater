@@ -1,5 +1,5 @@
 {
-  "validated_sha": "0a6000130c8290baeb037a1c7d09cd5af3e0e211",
+  "validated_sha": "f7739d8e0ebd7a0ddd6daeb09a82841d1641bbaa",
   "npm_ci": "success",
   "fallsammlung": "success",
   "fallsammlung_format": "success",
@@ -17,6 +17,6 @@
   "k3_persg_tag1": "success",
   "k3_persg_tag2": "success",
   "k3_persg_tag3": "success",
-  "k3_persg_tag4": "failure",
+  "k3_persg_tag4": "success",
   "build": "success"
 }
