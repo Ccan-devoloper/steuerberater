@@ -19,7 +19,7 @@ const css = fs.readFileSync(cssPath, "utf8");
 
 const assert = (ok, msg) => { if (!ok) throw new Error(`PersG Tag 1: ${msg}`); };
 
-assert(persgQuelle.pages === 14, "Quellenumfang ist nicht 14 Seiten.");
+assert(persgQuelle.pages === 14, "Quellenumfang der isolierten Tag-1-Daten ist nicht 14 Seiten.");
 assert(persgSeitenplan.length === 14, `Seitenplan hat ${persgSeitenplan.length} statt 14 Einträge.`);
 const pages = persgSeitenplan.map((x) => x.page).sort((a, b) => a - b);
 assert(pages.every((p, i) => p === i + 1), `Seitenplan ist nicht lückenlos 1–14: ${pages.join(", ")}`);
@@ -44,11 +44,11 @@ assert(visuals.includes("persg-table--stufen"), "Zweistufige Gewinnermittlung is
 assert(visuals.includes("Sonder-GuV A"), "Sonder-GuV aus Seite 11 fehlt.");
 assert(visuals.includes("SBV hat stets Vorrang") || allData.includes("SBV hat stets Vorrang"), "Schlussregel Seite 14 fehlt.");
 
-for (const marker of ["Originalfälle", "Klausurmodus", "Prüfschema", "Training", "persg-fall-1", "fallOeffnen", "K3PersGVisuals", "useFortschritt"]) {
+for (const marker of ["Originalfälle", "Klausurmodus", "Prüfschema", "Training", "persgFaelle.map", "fallOeffnen", "K3PersGVisuals", "useFortschritt"]) {
   assert(campus.includes(marker), `Campusintegration fehlt: ${marker}`);
 }
 assert(!campus.includes("Noch keine eigenen Quelldaten"), "Alter PersG-Platzhalter ist noch aktiv.");
-assert(campus.includes("PDF-S. 1–14") || campus.includes("PDF-S. 1-14"), "14-Seiten-Hinweis fehlt im Cockpit.");
+assert(campus.includes("1. Tag PersG · 14 Seiten") || campus.includes("14 / 14 Seiten"), "14-Seiten-Hinweis für Tag 1 fehlt im gemeinsamen Cockpit.");
 assert(css.includes(".persg-sheet") && css.includes(".persg-table") && css.includes(".persg-finalrules"), "PersG-Schemastile unvollständig.");
 
-console.log("K3 PersG · Tag 1 OK: 14/14 Seiten, 8 Lernmodule, 1 Originalfall, Prüfschemata und Training vollständig integriert.");
+console.log("K3 PersG · Tag 1 OK: isolierte Quelle 14/14 Seiten; Inhalte im gemeinsamen Tag-1+2-Campus weiter vollständig integriert.");
