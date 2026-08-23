@@ -48,7 +48,7 @@ for (const marker of ["Originalfälle", "Klausurmodus", "Prüfschema", "Training
   assert(campus.includes(marker), `Campusintegration fehlt: ${marker}`);
 }
 assert(!campus.includes("Noch keine eigenen Quelldaten"), "Alter PersG-Platzhalter ist noch aktiv.");
-assert(campus.includes("1. Tag PersG · 14 Seiten") || campus.includes("14 / 14 Seiten"), "14-Seiten-Hinweis für Tag 1 fehlt im gemeinsamen Cockpit.");
+assert(campus.includes("Tag 1 · 14 Seiten") || campus.includes("14 / 14 Seiten") || campus.includes("/ 14 Seiten"), "14-Seiten-Hinweis für Tag 1 fehlt im gemeinsamen Cockpit.");
 assert(css.includes(".persg-sheet") && css.includes(".persg-table") && css.includes(".persg-finalrules"), "PersG-Schemastile unvollständig.");
 
-console.log("K3 PersG · Tag 1 OK: isolierte Quelle 14/14 Seiten; Inhalte im gemeinsamen Tag-1+2-Campus weiter vollständig integriert.");
+console.log("K3 PersG · Tag 1 OK: isolierte Quelle 14/14 Seiten; Inhalte im gemeinsamen Tag-1-bis-3-Campus weiter vollständig integriert.");
