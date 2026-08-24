@@ -1,5 +1,6 @@
 import React from "react";
 import "../data/k3-persg-originalfaelle-register.js";
+import "../data/k3-persg-kurzskript-2025.js";
 import "./k3-persg-tag5.css";
 
 const Box=({title,children,accent=false})=><section className={`p5-box ${accent?"p5-box--accent":""}`}>{title&&<h3>{title}</h3>}{children}</section>;
