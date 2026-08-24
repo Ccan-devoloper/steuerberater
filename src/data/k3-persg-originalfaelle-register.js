@@ -95,6 +95,7 @@ function formatOriginalPdfPage(el,specs){
     if(!body.length)return;
     const span=document.createElement("span");
     span.className="persg-original-pdf-body";
+    span.style.cssText="display:block;width:100%;max-width:none;margin:0 0 13px;line-height:1.62";
     let text="";
     for(const part of body){
       if(!part)continue;
@@ -113,6 +114,7 @@ function formatOriginalPdfPage(el,specs){
       flushBody();
       const strong=document.createElement("strong");
       strong.className="persg-original-pdf-heading";
+      strong.style.cssText="display:block;width:100%;max-width:none;margin:17px 0 9px;font-weight:800;font-size:1rem;line-height:1.4;color:inherit";
       strong.textContent=line;
       fragment.appendChild(strong);
     }else body.push(line);
