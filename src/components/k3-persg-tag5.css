@@ -11,3 +11,11 @@
 .p5-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:14px}.p5-steps>div{padding:13px;border:1px solid var(--linie);background:var(--feld)}.p5-steps b,.p5-steps span{display:block}.p5-steps b{color:var(--tinte);margin-bottom:5px}
 .p5-comp article{min-width:190px;padding:14px;border:2px solid var(--linie);background:var(--papier);text-align:center}.p5-comp b,.p5-comp strong,.p5-comp small{display:block}.p5-comp strong{font-size:22px;margin:4px 0}.p5-comp small{color:var(--ink-weich)}
 @media(max-width:900px){.p5-guidegrid,.p5-three,.p5-two,.p5-facts,.p5-steps{grid-template-columns:1fr}.p5-flow{grid-template-columns:1fr}.p5-flow i{transform:rotate(90deg);text-align:center}.p5-real__bottom{grid-template-columns:1fr;gap:10px}.p5-real__arrows{gap:60px}}
+
+/* Vollständige Original-PDF-Fälle 4A–4H: Seitenumbrüche, Zeilenumbrüche und Tabellenabstände sichtbar erhalten. */
+.persg-campus [id^="persg-original-"] .persg-facts{display:grid;gap:14px;background:transparent;border-left:0;padding:0}
+.persg-campus [id^="persg-original-"] .persg-facts p,.persg-campus [id^="persg-original-"] details .persg-list li{white-space:pre-wrap;overflow-x:auto;font:12px/1.55 var(--mono);tab-size:4}
+.persg-campus [id^="persg-original-"] .persg-facts p{margin:0;padding:14px;border:1px solid var(--linie);border-left:3px solid var(--tinte);background:var(--feld)}
+.persg-campus [id^="persg-original-"] details .persg-list{list-style:none;padding-left:0;display:grid;gap:14px}
+.persg-campus [id^="persg-original-"] details .persg-list li{margin:0;padding:14px;border:1px solid var(--linie);background:var(--feld)}
+.persg-campus [id^="persg-original-"] .persg-block:has(.persg-list:empty),.persg-campus [id^="persg-original-"] .persg-result{display:none}
