@@ -21,6 +21,7 @@ const KstCampus = lazy(() => import("./KstCampus"));
 const KstOriginalSchemataEnhancer = lazy(() => import("./KstOriginalSchemataEnhancer"));
 const K2PlatzhalterCampus = lazy(() => import("./K2PlatzhalterCampus"));
 const K3PersGCampus = lazy(() => import("./K3PersGCampus"));
+const K3UmwStRCampus = lazy(() => import("./K3UmwStRCampus"));
 
 const Laden = () => (
   <div className="campus-laden" role="status" aria-live="polite">Campus wird geladen …</div>
@@ -90,6 +91,9 @@ export default function CampusShell() {
     );
   }
 
+  if (k3Fach === "umwstr") {
+    return <Suspense fallback={<Laden />}><K3UmwStRCampus onKlausurwechsel={wechseln} onFachwechsel={k3FachWechseln} /></Suspense>;
+  }
   if (k3Fach === "persg") {
     return <Suspense fallback={<Laden />}><K3PersGCampus onKlausurwechsel={wechseln} onFachwechsel={k3FachWechseln} /></Suspense>;
   }

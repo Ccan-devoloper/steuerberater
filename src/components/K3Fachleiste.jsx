@@ -5,6 +5,7 @@ import "./k1-fachleiste.css";
 const FAECHER = [
   { id: "allgemein", label: "Allgemein", kurz: "Allg" },
   { id: "persg", label: "Personengesellschaften", kurz: "PersG" },
+  { id: "umwstr", label: "UmwStR", kurz: "UmwStR" },
 ];
 
 export default function K3Fachleiste({ aktiv, onWechsel }) {
