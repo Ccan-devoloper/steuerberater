@@ -20,6 +20,7 @@ import {
 } from "./components/Icons";
 import { CampusTopbar, KlausurenLeiste } from "./components/CampusKopf";
 import Erklaervideo from "./components/Erklaervideo";
+import Modulvideo from "./components/Modulvideo";
 import K3Fachleiste from "./components/K3Fachleiste";
 
 /* Gültige Kennungen für die Bereinigung des gespeicherten Fortschritts. */
@@ -528,6 +529,7 @@ function Modulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen, oeffnenH
 
       {m.area === "Fall" && <AbbaLeiste />}
 
+      <Modulvideo campus="k3" modul={m} />
       <Erklaervideo modul={m} bereichName={bereichName[m.area]} />
 
       <Tz nummer={n()} label="Einordnung" titel="Worum es geht">

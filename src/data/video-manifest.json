@@ -1,0 +1,5 @@
+{
+  "hinweis": "Wird vom Renderer gepflegt (tools/video/rendern.mjs). Schlüssel: <campus>-<modulId>.",
+  "stand": null,
+  "videos": {}
+}
