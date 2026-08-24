@@ -19,6 +19,9 @@ const originalfall4c = {
   result:"", verbatim:true,
 };
 
+// Realteilungsfälle verweisen zusätzlich auf die Sperrfrist-/Verwaltungsgrundsätze (Modul 45).
+for (const fall of originalfaelle_4g4h) fall.moduleIds = [44,45,46];
+
 // Die komprimierten Tag-5-Unterrichtsfälle werden durch die vollständigen Original-PDF-Fälle ersetzt.
 persgFaelle.splice(0, persgFaelle.length, ...persgFaelle.filter((fall)=>fall.sourceTag!==5));
 persgFaelle.push(
