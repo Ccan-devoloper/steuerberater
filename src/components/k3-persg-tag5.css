@@ -12,10 +12,163 @@
 .p5-comp article{min-width:190px;padding:14px;border:2px solid var(--linie);background:var(--papier);text-align:center}.p5-comp b,.p5-comp strong,.p5-comp small{display:block}.p5-comp strong{font-size:22px;margin:4px 0}.p5-comp small{color:var(--ink-weich)}
 @media(max-width:900px){.p5-guidegrid,.p5-three,.p5-two,.p5-facts,.p5-steps{grid-template-columns:1fr}.p5-flow{grid-template-columns:1fr}.p5-flow i{transform:rotate(90deg);text-align:center}.p5-real__bottom{grid-template-columns:1fr;gap:10px}.p5-real__arrows{gap:60px}}
 
-/* Vollständige Original-PDF-Fälle 4A–4H: Seitenumbrüche, Zeilenumbrüche und Tabellenabstände sichtbar erhalten. */
-.persg-campus [id^="persg-original-"] .persg-facts{display:grid;gap:14px;background:transparent;border-left:0;padding:0}
-.persg-campus [id^="persg-original-"] .persg-facts p,.persg-campus [id^="persg-original-"] details .persg-list li{white-space:pre-wrap;overflow-x:auto;font:12px/1.55 var(--mono);tab-size:4}
-.persg-campus [id^="persg-original-"] .persg-facts p{margin:0;padding:14px;border:1px solid var(--linie);border-left:3px solid var(--tinte);background:var(--feld)}
-.persg-campus [id^="persg-original-"] details .persg-list{list-style:none;padding-left:0;display:grid;gap:14px}
-.persg-campus [id^="persg-original-"] details .persg-list li{margin:0;padding:14px;border:1px solid var(--linie);background:var(--feld)}
-.persg-campus [id^="persg-original-"] .persg-block:has(.persg-list:empty),.persg-campus [id^="persg-original-"] .persg-result{display:none}
+/* Original-PDF-Fälle 4A–4H: gleiche visuelle Logik wie die AO-Hausaufgaben. */
+.persg-campus [id^="persg-original-"]{
+  margin:0!important;
+  padding:20px;
+  border:1px solid var(--linie);
+  border-left:4px solid #1454e8;
+  background:var(--papier);
+  scroll-margin-top:92px;
+}
+.persg-campus [id^="persg-original-"] h2{
+  margin:4px 0 8px;
+  font-size:clamp(20px,2.3vw,27px);
+}
+.persg-campus [id^="persg-original-"]>p.lead{
+  display:inline-block;
+  max-width:100%;
+  margin:4px 0 2px;
+  padding:5px 8px;
+  border:1px solid #b7c5dc;
+  background:#f5f8ff;
+  color:#034bd8;
+  font:600 .76rem/1.35 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+.persg-campus [id^="persg-original-"] .persg-facts{
+  display:grid;
+  gap:14px;
+  margin-top:16px;
+  padding:0;
+  border-left:0;
+  background:transparent;
+  counter-reset:persg-aufgabe;
+}
+.persg-campus [id^="persg-original-"] .persg-facts:before{
+  content:"Aufgabenstellung / Sachverhalt · Originaltext";
+  display:block;
+  margin-bottom:-5px;
+  color:inherit;
+  font-weight:800;
+}
+.persg-campus [id^="persg-original-"] .persg-facts p{
+  counter-increment:persg-aufgabe;
+  box-sizing:border-box;
+  width:100%;
+  max-width:none;
+  margin:0;
+  padding:16px 18px;
+  overflow:hidden;
+  border:1px solid #c3cedf;
+  background:#fff;
+  color:#172033;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  font:400 .96rem/1.62 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.persg-campus [id^="persg-original-"] .persg-facts p:before{
+  content:"Originalquelle · Aufgabe · PDF-S. " counter(persg-aufgabe) " · Wortlaut 1:1 · digital formatiert";
+  display:block;
+  margin:-16px -18px 14px;
+  padding:9px 12px;
+  border-bottom:1px solid #c3cedf;
+  background:#eef3fb;
+  color:#172033;
+  font:700 .76rem/1.35 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+.persg-campus [id^="persg-original-"] .persg-block:has(.persg-list:empty){display:none}
+.persg-campus [id^="persg-original-"] details{
+  margin-top:16px;
+  padding-top:0;
+  border-top:1px solid #c7d1e0;
+  counter-reset:persg-loesung;
+}
+.persg-campus [id^="persg-original-"] details>summary{
+  cursor:pointer;
+  padding:13px 4px;
+  color:#0f49d1;
+  font-weight:800;
+  list-style:none;
+}
+.persg-campus [id^="persg-original-"] details>summary::-webkit-details-marker{display:none}
+.persg-campus [id^="persg-original-"] details>summary:before{
+  content:"▸";
+  display:inline-block;
+  margin-right:8px;
+  transition:transform .18s ease;
+}
+.persg-campus [id^="persg-original-"] details[open]>summary:before{transform:rotate(90deg)}
+.persg-campus [id^="persg-original-"] details .persg-list{
+  display:grid;
+  gap:14px;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.persg-campus [id^="persg-original-"] details .persg-list li{
+  counter-increment:persg-loesung;
+  box-sizing:border-box;
+  width:100%;
+  max-width:none;
+  margin:0;
+  padding:16px 18px;
+  overflow:hidden;
+  border:1px solid #c3cedf;
+  border-left:4px solid #16865c;
+  background:#fff;
+  color:#172033;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  font:400 .96rem/1.62 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.persg-campus [id^="persg-original-"] details .persg-list li:before{
+  content:"Originalquelle · Lösung · PDF-S. " counter(persg-loesung) " · Wortlaut 1:1 · digital formatiert";
+  display:block;
+  margin:-16px -18px 14px;
+  padding:9px 12px;
+  border-bottom:1px solid #c3cedf;
+  background:#eefaf5;
+  color:#172033;
+  font:700 .76rem/1.35 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+/* Digitale Visuals sind Zusatzmaterial und stehen nicht innerhalb des Original-Lösungstextes. */
+.persg-campus [id^="persg-original-"] details>.p5-box,
+.persg-campus [id^="persg-original-"] details>.p4-box,
+.persg-campus [id^="persg-original-"] details>.persg-sheet,
+.persg-campus [id^="persg-original-"] .persg-result{display:none}
+.persg-campus [id^="persg-original-"] .persg-crosslinks{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  margin-top:16px;
+  padding:14px 16px;
+  border:1px solid #b7c5dc;
+  border-left:4px solid #1454e8;
+  background:#f5f8ff;
+}
+.persg-campus [id^="persg-original-"] .persg-crosslinks:before{
+  content:"Querverweise in den PersG-Lernmodulen";
+  flex:0 0 100%;
+  margin-bottom:2px;
+  color:#172033;
+  font:700 11px ui-monospace,SFMono-Regular,Menlo,monospace;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.persg-campus [id^="persg-original-"] .persg-crosslinks .kicker{display:none}
+.persg-campus [id^="persg-original-"] .persg-crosslinks button{
+  padding:7px 10px;
+  border:1px solid #7595ed;
+  background:#fff;
+  color:#034bd8;
+  cursor:pointer;
+  font:600 .78rem ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+.persg-campus [id^="persg-original-"] .persg-crosslinks button:hover{background:#edf3ff}
+@media(max-width:760px){
+  .persg-campus [id^="persg-original-"]{padding:16px}
+  .persg-campus [id^="persg-original-"] .persg-facts p,
+  .persg-campus [id^="persg-original-"] details .persg-list li{font-size:.9rem;padding:13px 14px}
+  .persg-campus [id^="persg-original-"] .persg-facts p:before,
+  .persg-campus [id^="persg-original-"] details .persg-list li:before{margin:-13px -14px 12px}
+}
