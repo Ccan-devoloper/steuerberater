@@ -50,7 +50,7 @@ export function CampusTopbar({
 const KLAUSUREN = [
   { id: "k1", kuerzel: "K1", fach: "Verfahrensrecht", status: "AO/USt verfügbar · ErbSt folgt", titel: "Klausur 1 öffnen" },
   { id: "kst", kuerzel: "K2", fach: "Ertragsteuerrecht", status: "KSt verfügbar · ESt/GewSt folgen", titel: "Klausur 2 öffnen" },
-  { id: "k3", kuerzel: "K3", fach: "Buchführung und Bilanzwesen", status: "Allgemein verfügbar · PersG folgt", titel: "Klausur 3 öffnen" },
+  { id: "k3", kuerzel: "K3", fach: "Buchführung und Bilanzwesen", status: "Allgemein · PersG · UmwStR verfügbar", titel: "Klausur 3 öffnen" },
 ];
 
 export function KlausurenLeiste({ aktiv, aufCockpit, onKlausurwechsel }) {
