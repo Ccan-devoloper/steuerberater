@@ -1,0 +1,112 @@
+name: Erklärvideos rendern
+
+# Rendert Modulvideos und lädt sie in den Objektspeicher.
+# Wird nur von Hand gestartet – nie automatisch, weil ein Lauf je nach Umfang
+# Stunden dauert.
+on:
+  workflow_dispatch:
+    inputs:
+      campus:
+        description: "Campus (k3, ao oder kst)"
+        required: true
+        default: "k3"
+        type: choice
+        options: [k3, ao, kst]
+      modul:
+        description: "Einzelnes Modul (Nummer) – leer lassen für alle"
+        required: false
+        default: "1"
+      hochladen:
+        description: "Nach R2 hochladen (sonst nur als Artefakt zum Herunterladen)"
+        required: false
+        default: true
+        type: boolean
+
+# Ein Lauf nach dem anderen, damit sich zwei Läufe nicht ins Gehege kommen.
+concurrency:
+  group: videos
+  cancel-in-progress: false
+
+jobs:
+  rendern:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350   # GitHub bricht Jobs nach 6 Stunden ab
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Werkzeuge installieren
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          python3 -m pip install --quiet piper-tts
+          npm ci || npm install
+          npm install --no-save playwright-core
+          npx playwright install --with-deps chromium
+
+      - name: Stimmmodell laden
+        run: |
+          curl -sSL -o stimme.tar.gz \
+            https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-thorsten-low.tar.gz
+          tar xzf stimme.tar.gz
+          ls -lh de-thorsten-low.onnx
+
+      - name: Videos rendern
+        env:
+          PIPER_MODELL: ${{ github.workspace }}/de-thorsten-low.onnx
+          FFMPEG: ffmpeg
+        run: |
+          CHROMIUM=$(node -e "console.log(require('playwright-core').chromium.executablePath())")
+          echo "Chromium: $CHROMIUM"
+          export CHROMIUM_PFAD="$CHROMIUM"
+          if [ -n "${{ inputs.modul }}" ]; then
+            node tools/video/rendern.mjs --campus ${{ inputs.campus }} --modul ${{ inputs.modul }} --ziel video-ausgabe
+          else
+            node tools/video/rendern.mjs --campus ${{ inputs.campus }} --alle --ziel video-ausgabe
+          fi
+          ls -lh video-ausgabe/
+
+      - name: Nach R2 hochladen
+        if: ${{ inputs.hochladen }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ZUGRIFFSSCHLUESSEL }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_GEHEIMSCHLUESSEL }}
+          AWS_DEFAULT_REGION: auto
+        run: |
+          if [ -z "$AWS_ACCESS_KEY_ID" ]; then
+            echo "::error::R2-Zugangsdaten fehlen. Siehe docs/erklaervideos.md."
+            exit 1
+          fi
+          aws s3 sync video-ausgabe/ s3://${{ vars.R2_BUCKET }}/ \
+            --endpoint-url ${{ vars.R2_ENDPUNKT }} \
+            --exclude "*" --include "*.mp4" --content-type video/mp4
+          aws s3 sync video-ausgabe/ s3://${{ vars.R2_BUCKET }}/ \
+            --endpoint-url ${{ vars.R2_ENDPUNKT }} \
+            --exclude "*" --include "*.jpg" --content-type image/jpeg
+
+      - name: Videos als Artefakt bereitstellen
+        if: ${{ !inputs.hochladen }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: erklaervideos-${{ inputs.campus }}
+          path: video-ausgabe/
+          retention-days: 7
+
+      - name: Manifest zurückschreiben
+        if: ${{ inputs.hochladen }}
+        run: |
+          if git diff --quiet src/data/video-manifest.json; then
+            echo "Manifest unverändert."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/video-manifest.json
+          git commit -m "Videomanifest: ${{ inputs.campus }} aktualisiert"
+          # Bei parallelen Pushes anderer Läufe bis zu dreimal erneut versuchen
+          for i in 1 2 3; do
+            git pull --rebase origin ${{ github.ref_name }} && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "::warning::Manifest konnte nicht zurückgeschrieben werden."

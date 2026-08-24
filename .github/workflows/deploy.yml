@@ -39,6 +39,11 @@ jobs:
       - run: npm run check:k3-persg-tag4
       - run: npm run check:k3-persg-tag5
       - run: npm run build
+        env:
+          # Adresse des Objektspeichers mit den Erklärvideos. Ist die
+          # Variable nicht gesetzt, baut die Seite ohne Videos – siehe
+          # docs/erklaervideos.md.
+          VITE_VIDEO_BASIS: ${{ vars.VIDEO_BASIS }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
