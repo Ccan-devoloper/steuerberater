@@ -7,47 +7,6 @@ import { IconCockpit, IconSchema } from "./Icons";
 import "./kst.css";
 import "./k3-umwstr.css";
 
-const ATLAS = {
-  "1-1": [0, 0, 424], "1-2": [600, 0, 424], "1-3": [0, 424, 424], "1-4": [600, 424, 424],
-  "2-1": [0, 848, 424], "2-2": [600, 848, 424], "2-3": [0, 1272, 424], "2-4": [600, 1272, 424],
-  "3-1": [0, 1696, 338], "3-2": [600, 1696, 338], "3-3": [0, 2034, 338],
-  "4-1": [600, 2034, 338], "4-2": [0, 2372, 338],
-  "5-1": [600, 2372, 338], "5-2": [0, 2710, 338],
-  "6-1": [600, 2710, 338], "6-2": [0, 3048, 338],
-  "7-1": [600, 3048, 338], "7-2": [0, 3386, 338],
-  "8-1": [600, 3386, 338], "8-2": [0, 3724, 338],
-  "9-1": [600, 3724, 424], "9-2": [0, 4148, 424],
-  "10-1": [600, 4148, 424], "10-2": [0, 4572, 424],
-  "11-1": [600, 4572, 424], "11-2": [0, 4996, 424],
-  "12-1": [600, 4996, 424], "12-2": [0, 5420, 424],
-  "13-1": [600, 5420, 424], "13-2": [0, 5844, 424],
-};
-
-const atlasUrl = `${import.meta.env.BASE_URL}umwstr/atlas.webp`;
-
-function UmwStRSchemaPage({ nr, page, compact = false }) {
-  const crop = ATLAS[`${nr}-${page}`];
-  if (!crop) return null;
-  const [x, y, height] = crop;
-  return (
-    <div
-      className={`umw-source-page ${compact ? "umw-source-page--compact" : ""}`}
-      style={{ aspectRatio: `600 / ${height}` }}
-      role="img"
-      aria-label={`Prüfschema ${nr}, Seite ${page}`}
-    >
-      <img
-        src={atlasUrl}
-        alt=""
-        aria-hidden="true"
-        loading={compact || page > 1 ? "lazy" : "eager"}
-        decoding="async"
-        style={{ left: `${-(x / 600) * 100}%`, top: `${-(y / height) * 100}%` }}
-      />
-    </div>
-  );
-}
-
 const SCHEMATA = [
   {
     nr: 1,
@@ -143,6 +102,29 @@ const SCHEMATA = [
 ];
 
 const TOTAL_PAGES = SCHEMATA.reduce((sum, schema) => sum + schema.pages, 0);
+const assetUrl = (nr) => `${import.meta.env.BASE_URL}umwstr/schema-${String(nr).padStart(2, "0")}.webp`;
+const pageSizeFor = (nr) => (nr <= 2 || nr >= 9 ? [400, 283] : [400, 225]);
+
+function UmwStRSchemaPage({ nr, page, compact = false }) {
+  const [width, height] = pageSizeFor(nr);
+  return (
+    <div
+      className={`umw-source-page ${compact ? "umw-source-page--compact" : ""}`}
+      style={{ aspectRatio: `${width} / ${height}` }}
+      role="img"
+      aria-label={`Prüfschema ${nr}, Seite ${page}`}
+    >
+      <img
+        src={assetUrl(nr)}
+        alt=""
+        aria-hidden="true"
+        loading={compact || page > 1 ? "lazy" : "eager"}
+        decoding="async"
+        style={{ top: `-${(page - 1) * 100}%` }}
+      />
+    </div>
+  );
+}
 
 export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
   const verlauf = useAnsichtVerlauf("schema");
@@ -238,7 +220,7 @@ function Cockpit({ schemaOeffnen }) {
           <h2>Umwandlungssteuerrecht <em>seitengetreu nach den bereitgestellten Prüfschemata.</em></h2>
           <p>
             Alle {SCHEMATA.length} bereitgestellten Prüfschemata sind mit sämtlichen {TOTAL_PAGES} PDF-Seiten übernommen.
-            Titelblätter, Übersichten, Pfeilstrukturen, Farbcodierungen und Folgeseiten bleiben als originale Seitenansicht erhalten.
+            Titelblätter, Übersichten, Pfeilstrukturen, Farbcodierungen und Folgeseiten bleiben als Seitenansicht erhalten.
           </p>
           <div className="these__aktionen">
             <button className="btn" onClick={() => schemaOeffnen(1)}>Mit Prüfschema 1 starten</button>
@@ -279,7 +261,7 @@ function SchemaIndex({ liste, suche, schemaOeffnen }) {
         <div>
           <span className="kicker">Klausur 3 · UmwStR</span>
           <h1>Prüfschemata 1–13</h1>
-          <p className="lead">Originalgetreue Seitenansichten aller bereitgestellten Unterlagen · {TOTAL_PAGES} von {TOTAL_PAGES} Seiten erfasst.</p>
+          <p className="lead">Seitenansichten aller bereitgestellten Unterlagen · {TOTAL_PAGES} von {TOTAL_PAGES} Seiten erfasst.</p>
         </div>
         <span className="kicker">{liste.length} Schemata</span>
       </div>
@@ -326,7 +308,7 @@ function SchemaDetail({ schema, zurueck }) {
             <div className="umwstr-page-meta">
               <span>Prüfschema {schema.nr}</span>
               <b>Seite {page} / {schema.pages}</b>
-              <small>Seitengetreue Ansicht</small>
+              <small>Seitenansicht</small>
             </div>
             <UmwStRSchemaPage nr={schema.nr} page={page} />
           </figure>
