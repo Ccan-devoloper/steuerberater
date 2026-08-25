@@ -7,142 +7,116 @@ import { IconCockpit, IconSchema } from "./Icons";
 import "./kst.css";
 import "./k3-umwstr.css";
 
-const ATLAS = {
-  "1-1": [0, 0, 424], "1-2": [600, 0, 424], "1-3": [0, 424, 424], "1-4": [600, 424, 424],
-  "2-1": [0, 848, 424], "2-2": [600, 848, 424], "2-3": [0, 1272, 424], "2-4": [600, 1272, 424],
-  "3-1": [0, 1696, 338], "3-2": [600, 1696, 338], "3-3": [0, 2034, 338],
-  "4-1": [600, 2034, 338], "4-2": [0, 2372, 338],
-  "5-1": [600, 2372, 338], "5-2": [0, 2710, 338],
-  "6-1": [600, 2710, 338], "6-2": [0, 3048, 338],
-  "7-1": [600, 3048, 338], "7-2": [0, 3386, 338],
-  "8-1": [600, 3386, 338], "8-2": [0, 3724, 338],
-  "9-1": [600, 3724, 424], "9-2": [0, 4148, 424],
-  "10-1": [600, 4148, 424], "10-2": [0, 4572, 424],
-  "11-1": [600, 4572, 424], "11-2": [0, 4996, 424],
-  "12-1": [600, 4996, 424], "12-2": [0, 5420, 424],
-  "13-1": [600, 5420, 424], "13-2": [0, 5844, 424],
-};
+/**
+ * Jede Seite der gelieferten PDF-Unterlagen liegt als eigenes, seitengetreu
+ * gerendertes Bild unter public/umwstr/schema-<nr>-<seite>.webp.
+ * breite/hoehe sind die Pixelmasse des Renders und liefern das Seitenverhaeltnis,
+ * damit im Layout kein Springen entsteht, bevor das Bild geladen ist.
+ * vorschauSeite bestimmt, welche Seite als Kachelvorschau dient - Seite 1 ist in
+ * allen Unterlagen ein reines Titelblatt, das Schaubild steht dahinter.
+ */
+const SCHEMATA = [
+  {
+    nr: 2,
+    vorschauSeite: 3,
+    title: "Vorschriften des EStG und KStG zur Aufdeckung der stillen Reserven",
+    subtitle: "Übertragung von Wirtschaftsgütern aus dem PV oder BV in eine Kapitalgesellschaft",
+    focus: "EStG/KStG · Einzelwirtschaftsgüter · Sachgesamtheiten · §§ 17, 20, 23 EStG · § 8 Abs. 3 S. 2 KStG",
+    seiten: [
+      { breite: 1800, hoehe: 1273, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1273, titel: "Ausgangsfrage außerhalb §§ 20, 21 UmwStG" },
+      { breite: 1800, hoehe: 1273, titel: "Übertragung einzelner Wirtschaftsgüter unter dem wahren Wert" },
+      { breite: 1800, hoehe: 1273, titel: "Übertragung von Sachgesamtheiten unter dem wahren Wert" },
+    ],
+  },
+  {
+    nr: 3,
+    vorschauSeite: 2,
+    title: "Voraussetzungen für Anwendung § 20 UmwStG",
+    subtitle: "Grundvoraussetzungen des § 20 Abs. 1 UmwStG und Folgen zurückbehaltener Wirtschaftsgüter",
+    focus: "§ 20 Abs. 1 UmwStG · funktional wesentliche Betriebsgrundlagen · Ausgabe neuer Anteile · SBV",
+    seiten: [
+      { breite: 1800, hoehe: 1013, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1013, titel: "Grundvoraussetzungen des § 20 Abs. 1 UmwStG" },
+      { breite: 1800, hoehe: 1013, titel: "Übertragene und zurückbehaltene Wirtschaftsgüter" },
+    ],
+  },
+  {
+    nr: 4,
+    vorschauSeite: 2,
+    title: "(Zivilrechtliche) Formen der Umwandlung in GmbH bei § 20 UmwStG",
+    subtitle: "Einzelrechtsnachfolge, Ausgliederung, Formwechsel und Option nach § 1a KStG – mit Rechtsfolgen",
+    focus: "§ 20 UmwStG · § 25 UmwStG · § 1a KStG · § 1 Abs. 3 UmwStG · § 123 Abs. 3 UmwG",
+    seiten: [
+      { breite: 1800, hoehe: 1013, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1013, titel: "Wichtigste Übertragungsformen bei Einbringung in GmbH" },
+    ],
+  },
+  {
+    nr: 5,
+    vorschauSeite: 2,
+    title: "Gesetzliche Ausnahmen vom Buchwertansatz bei § 20 UmwStG",
+    subtitle: "Trotz Buchwertantrag der übernehmenden KapGes · § 20 Abs. 2 S. 2 Nr. 2 u. Nr. 4 UmwStG",
+    focus: "negativer Buchwert · sonstige Gegenleistung · 25 % / 500.000 € · Zwischenwertansatz",
+    seiten: [
+      { breite: 1800, hoehe: 1013, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1013, titel: "Wichtigste Ausnahmen von der Zulässigkeit des BW-Ansatzes" },
+    ],
+  },
+  {
+    nr: 6,
+    vorschauSeite: 2,
+    title: "Folgen der Veräußerung der sperrfristbehafteten Anteile",
+    subtitle: "Veräußerung der bei § 20 UmwStG erhaltenen Anteile oder Ersatztatbestände · § 22 Abs. 1 UmwStG",
+    focus: "Einbringungsgewinn I · 7-Jahresfrist · § 22 Abs. 1 S. 1-4 u. S. 6 UmwStG · § 17 EStG",
+    seiten: [
+      { breite: 1800, hoehe: 1013, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1013, titel: "Folgen bei Einbringendem und übernehmender KapGes" },
+    ],
+  },
+];
 
-const atlasUrl = `${import.meta.env.BASE_URL}umwstr/atlas.webp`;
+const TOTAL_PAGES = SCHEMATA.reduce((sum, schema) => sum + schema.seiten.length, 0);
 
-function UmwStRSchemaPage({ nr, page, compact = false }) {
-  const crop = ATLAS[`${nr}-${page}`];
-  if (!crop) return null;
-  const [x, y, height] = crop;
+export const UMWSTR_SCHEMATA = SCHEMATA;
+export const seitenPfad = (nr, seite) =>
+  `umwstr/schema-${String(nr).padStart(2, "0")}-${String(seite).padStart(2, "0")}.webp`;
+
+function UmwStRSchemaPage({ schema, page, compact = false }) {
+  const [fehler, setFehler] = useState(false);
+  const daten = schema.seiten[page - 1];
+  if (!daten) return null;
+
+  const quelle = `${import.meta.env.BASE_URL}${seitenPfad(schema.nr, page)}`;
+
+  if (fehler) {
+    return (
+      <div className="umw-source-page umw-source-page--fehler" style={{ aspectRatio: `${daten.breite} / ${daten.hoehe}` }}>
+        <p>
+          <b>Seitenansicht nicht ladbar</b>
+          <span>Prüfschema {schema.nr}, Seite {page}</span>
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div
       className={`umw-source-page ${compact ? "umw-source-page--compact" : ""}`}
-      style={{ aspectRatio: `600 / ${height}` }}
-      role="img"
-      aria-label={`Prüfschema ${nr}, Seite ${page}`}
+      style={{ aspectRatio: `${daten.breite} / ${daten.hoehe}` }}
     >
       <img
-        src={atlasUrl}
-        alt=""
-        aria-hidden="true"
+        src={quelle}
+        width={daten.breite}
+        height={daten.hoehe}
+        alt={`Prüfschema ${schema.nr}, Seite ${page}: ${daten.titel}`}
         loading={compact || page > 1 ? "lazy" : "eager"}
         decoding="async"
-        style={{ left: `${-(x / 600) * 100}%`, top: `${-(y / height) * 100}%` }}
+        onError={() => setFehler(true)}
       />
     </div>
   );
 }
-
-const SCHEMATA = [
-  {
-    nr: 1,
-    title: "Grundsätze zur Aufdeckung stiller Reserven bei Einlage und Einbringung in KapGes",
-    subtitle: "Abgrenzung zu §§ 20, 21 UmwStG",
-    pages: 4,
-    focus: "Grundlagen · Einzelwirtschaftsgüter · Sachgesamtheiten · §§ 20, 21 UmwStG",
-  },
-  {
-    nr: 2,
-    title: "Vorschriften des EStG und KStG zur Aufdeckung stiller Reserven",
-    subtitle: "Übertragung von Wirtschaftsgütern aus PV oder BV in eine Kapitalgesellschaft",
-    pages: 4,
-    focus: "EStG/KStG · EWG · Sachgesamtheiten · Aufdeckung stiller Reserven",
-  },
-  {
-    nr: 3,
-    title: "Voraussetzungen für Anwendung § 20 UmwStG",
-    subtitle: "Grundvoraussetzungen und Folgen zurückbehaltener Wirtschaftsgüter",
-    pages: 3,
-    focus: "§ 20 Abs. 1 UmwStG · funktional wesentliche Betriebsgrundlagen · neue Anteile",
-  },
-  {
-    nr: 4,
-    title: "Formen der Umwandlung in GmbH bei § 20 UmwStG",
-    subtitle: "Einzelrechtsnachfolge, Ausgliederung, Formwechsel und Option nach § 1a KStG",
-    pages: 2,
-    focus: "§ 20 UmwStG · § 25 UmwStG · § 1a KStG · UmwG",
-  },
-  {
-    nr: 5,
-    title: "Gesetzliche Ausnahmen vom Buchwertansatz bei § 20 UmwStG",
-    subtitle: "§ 20 Abs. 2 S. 2 Nr. 2 und Nr. 4 UmwStG",
-    pages: 2,
-    focus: "negativer Buchwert · sonstige Gegenleistung · Zwischenwertansatz",
-  },
-  {
-    nr: 6,
-    title: "Veräußerung sperrfristbehafteter Anteile nach § 20 UmwStG",
-    subtitle: "Folgen beim Einbringenden und bei der übernehmenden KapGes · § 22 Abs. 1 UmwStG",
-    pages: 2,
-    focus: "Einbringungsgewinn I · 7-Jahresfrist · § 17 EStG · § 23 UmwStG",
-  },
-  {
-    nr: 7,
-    title: "Einlage und Einbringung von Anteilen an KapGes in eine andere KapGes",
-    subtitle: "Abgrenzung zu § 21 UmwStG",
-    pages: 2,
-    focus: "§ 21 UmwStG · § 17 EStG · § 6 Abs. 6 S. 2 EStG",
-  },
-  {
-    nr: 8,
-    title: "Veräußerung der gem. § 21 UmwStG erhaltenen Anteile",
-    subtitle: "Folgen der Veräußerung durch die übernehmende KapGes · § 22 Abs. 2 UmwStG",
-    pages: 2,
-    focus: "Einbringungsgewinn II · 7-Jahresfrist · § 23 UmwStG · § 8b KStG",
-  },
-  {
-    nr: 9,
-    title: "Verschmelzung von Kapitalgesellschaften – übertragende KapGes",
-    subtitle: "Steuerliche Folgen nach § 11 UmwStG",
-    pages: 2,
-    focus: "§ 11 UmwStG · Buchwert-/Zwischenwertansatz · steuerliche Rückwirkung",
-  },
-  {
-    nr: 10,
-    title: "Verschmelzung von Kapitalgesellschaften – übernehmende KapGes",
-    subtitle: "Steuerliche Folgen nach § 12 UmwStG",
-    pages: 2,
-    focus: "§ 12 UmwStG · Einbuchung · Verschmelzungsgewinn · Einlagekonto",
-  },
-  {
-    nr: 11,
-    title: "Formwechsel von KapGes auf PersGes – übertragende KapGes",
-    subtitle: "Steuerliche Folgen nach §§ 9 S. 1, 3 UmwStG",
-    pages: 2,
-    focus: "§§ 3, 9 UmwStG · Schlussbilanz · Zwischenwert · Rückwirkung",
-  },
-  {
-    nr: 12,
-    title: "Formwechsel von KapGes in PersGes – PersGes und Gesellschafter",
-    subtitle: "Steuerliche Folgen nach § 9 S. 1 i.V.m. §§ 4, 5 und 7 UmwStG",
-    pages: 2,
-    focus: "§§ 4, 5, 7, 9 UmwStG · Übernahmegewinn/-verlust · Einkünfte aus Kapitalvermögen",
-  },
-  {
-    nr: 13,
-    title: "Abspaltung nach § 15 UmwStG im Unterschied zur Ausgliederung",
-    subtitle: "Abspaltung aus KapGes auf eine andere KapGes vs. Ausgliederung nach § 20 UmwStG",
-    pages: 2,
-    focus: "§ 15 UmwStG · § 20 UmwStG · § 123 Abs. 2/3 UmwG",
-  },
-];
-
-const TOTAL_PAGES = SCHEMATA.reduce((sum, schema) => sum + schema.pages, 0);
 
 export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
   const verlauf = useAnsichtVerlauf("schema");
@@ -162,7 +136,7 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
   const gefiltert = useMemo(() => {
     const q = suche.trim().toLowerCase();
     if (!q) return SCHEMATA;
-    return SCHEMATA.filter((schema) => [schema.nr, schema.title, schema.subtitle, schema.focus]
+    return SCHEMATA.filter((schema) => [schema.nr, schema.title, schema.subtitle, schema.focus, ...schema.seiten.map((s) => s.titel)]
       .join(" ")
       .toLowerCase()
       .includes(q));
@@ -216,7 +190,7 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
         <div className="rail__box">
           <b>Quellenabdeckung</b>
           <strong>{TOTAL_PAGES} / {TOTAL_PAGES}</strong>
-          <p>PDF-Seiten vollständig als Seitenansicht erfasst</p>
+          <p>PDF-Seiten der Prüfschemata 2–6 seitengetreu erfasst</p>
         </div>
       </aside>
 
@@ -234,14 +208,15 @@ function Cockpit({ schemaOeffnen }) {
     <>
       <div className="cockpit">
         <section className="these">
-          <span className="kicker">Klausur 3 · UmwStR · Prüfschemata 1–13</span>
+          <span className="kicker">Klausur 3 · UmwStR · Prüfschemata 2–6</span>
           <h2>Umwandlungssteuerrecht <em>seitengetreu nach den bereitgestellten Prüfschemata.</em></h2>
           <p>
-            Alle {SCHEMATA.length} bereitgestellten Prüfschemata sind mit sämtlichen {TOTAL_PAGES} PDF-Seiten übernommen.
-            Titelblätter, Übersichten, Pfeilstrukturen, Farbcodierungen und Folgeseiten bleiben als originale Seitenansicht erhalten.
+            Alle {SCHEMATA.length} bereitgestellten Prüfschemata (RA/StB U. Breier) sind mit sämtlichen {TOTAL_PAGES} PDF-Seiten
+            als 1:1-Seitenansicht übernommen. Titelblätter, Pfeilstrukturen, Farbcodierungen und Folgeseiten bleiben
+            unverändert erhalten.
           </p>
           <div className="these__aktionen">
-            <button className="btn" onClick={() => schemaOeffnen(1)}>Mit Prüfschema 1 starten</button>
+            <button className="btn" onClick={() => schemaOeffnen(2)}>Mit Prüfschema 2 starten</button>
           </div>
         </section>
         <section className="panel umwstr-coverage">
@@ -255,7 +230,7 @@ function Cockpit({ schemaOeffnen }) {
         <div className="pagehead umwstr-pagehead-compact">
           <div>
             <span className="kicker">Direkteinstieg</span>
-            <h2>Prüfschemata 1–13</h2>
+            <h2>Prüfschemata 2–6</h2>
           </div>
         </div>
         <div className="umwstr-quickgrid">
@@ -263,10 +238,14 @@ function Cockpit({ schemaOeffnen }) {
             <button key={schema.nr} className="umwstr-quick" onClick={() => schemaOeffnen(schema.nr)}>
               <span>Schema {schema.nr}</span>
               <b>{schema.title}</b>
-              <small>{schema.pages} {schema.pages === 1 ? "Seite" : "Seiten"}</small>
+              <small>{schema.seiten.length} {schema.seiten.length === 1 ? "Seite" : "Seiten"}</small>
             </button>
           ))}
         </div>
+        <p className="umwstr-hinweis">
+          Die Nummerierung folgt den Originalunterlagen. Weitere Prüfschemata werden ergänzt, sobald die
+          zugehörigen PDF-Unterlagen vorliegen.
+        </p>
       </section>
     </>
   );
@@ -278,7 +257,7 @@ function SchemaIndex({ liste, suche, schemaOeffnen }) {
       <div className="pagehead">
         <div>
           <span className="kicker">Klausur 3 · UmwStR</span>
-          <h1>Prüfschemata 1–13</h1>
+          <h1>Prüfschemata 2–6</h1>
           <p className="lead">Originalgetreue Seitenansichten aller bereitgestellten Unterlagen · {TOTAL_PAGES} von {TOTAL_PAGES} Seiten erfasst.</p>
         </div>
         <span className="kicker">{liste.length} Schemata</span>
@@ -288,10 +267,10 @@ function SchemaIndex({ liste, suche, schemaOeffnen }) {
         {liste.map((schema) => (
           <article className="umwstr-schema-card" key={schema.nr}>
             <button className="umwstr-schema-preview" onClick={() => schemaOeffnen(schema.nr)} aria-label={`Prüfschema ${schema.nr} öffnen`}>
-              <UmwStRSchemaPage nr={schema.nr} page={1} compact />
+              <UmwStRSchemaPage schema={schema} page={schema.vorschauSeite} compact />
             </button>
             <div className="umwstr-schema-card__body">
-              <span className="kicker">Prüfschema {schema.nr} · {schema.pages} {schema.pages === 1 ? "Seite" : "Seiten"}</span>
+              <span className="kicker">Prüfschema {schema.nr} · {schema.seiten.length} {schema.seiten.length === 1 ? "Seite" : "Seiten"}</span>
               <h3>{schema.title}</h3>
               <p>{schema.subtitle}</p>
               <small>{schema.focus}</small>
@@ -306,29 +285,31 @@ function SchemaIndex({ liste, suche, schemaOeffnen }) {
 }
 
 function SchemaDetail({ schema, zurueck }) {
-  const pages = Array.from({ length: schema.pages }, (_, index) => index + 1);
+  const anzahl = schema.seiten.length;
   return (
     <>
       <div className="pagehead umwstr-detail-head">
         <div>
           <button className="umwstr-back" onClick={zurueck}>← Alle Prüfschemata</button>
-          <span className="kicker">Prüfschema {schema.nr} · {schema.pages} {schema.pages === 1 ? "Seite" : "Seiten"}</span>
+          <span className="kicker">Prüfschema {schema.nr} · {anzahl} {anzahl === 1 ? "Seite" : "Seiten"}</span>
           <h1>{schema.title}</h1>
           <p className="lead">{schema.subtitle}</p>
         </div>
       </div>
       <nav className="umwstr-pagechips" aria-label={`Seiten in Prüfschema ${schema.nr}`}>
-        {pages.map((page) => <a key={page} href={`#umwstr-${schema.nr}-${page}`}>Seite {page}</a>)}
+        {schema.seiten.map((seite, index) => (
+          <a key={index} href={`#umwstr-${schema.nr}-${index + 1}`}>Seite {index + 1}</a>
+        ))}
       </nav>
       <div className="umwstr-pages">
-        {pages.map((page) => (
-          <figure className="umwstr-page-card" id={`umwstr-${schema.nr}-${page}`} key={page}>
+        {schema.seiten.map((seite, index) => (
+          <figure className="umwstr-page-card" id={`umwstr-${schema.nr}-${index + 1}`} key={index}>
             <div className="umwstr-page-meta">
               <span>Prüfschema {schema.nr}</span>
-              <b>Seite {page} / {schema.pages}</b>
-              <small>Seitengetreue Ansicht</small>
+              <b>Seite {index + 1} / {anzahl}</b>
+              <small>{seite.titel}</small>
             </div>
-            <UmwStRSchemaPage nr={schema.nr} page={page} />
+            <UmwStRSchemaPage schema={schema} page={index + 1} />
           </figure>
         ))}
       </div>
