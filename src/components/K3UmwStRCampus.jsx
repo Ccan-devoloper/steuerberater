@@ -215,7 +215,9 @@ function UmwStRSchemaPage({ schema, page, compact = false }) {
 
 export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
   const verlauf = useAnsichtVerlauf("schema");
-  const [schemaNr, setSchemaNr] = useState(null);
+  /* Das geoeffnete Pruefschema gehoert in den Verlauf, sonst erzeugt das
+     Oeffnen keinen Schritt und der Zurueck-Pfeil bliebe deaktiviert. */
+  const schemaNr = verlauf.eintrag.schemaNr ?? null;
   const [suche, setSuche] = useState("");
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
 
@@ -238,14 +240,9 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
   }, [suche]);
 
   const schema = SCHEMATA.find((item) => item.nr === schemaNr) || null;
-  const ansichtOeffnen = (id) => {
-    setSchemaNr(null);
-    verlauf.oeffnen(id);
-  };
-  const schemaOeffnen = (nr) => {
-    setSchemaNr(nr);
-    if (verlauf.ansicht !== "schema") verlauf.oeffnen("schema");
-  };
+  const ansichtOeffnen = (id) => verlauf.oeffnen({ ansicht: id, schemaNr: null });
+  const schemaOeffnen = (nr) => verlauf.oeffnen({ ansicht: "schema", schemaNr: nr });
+  const uebersichtOeffnen = () => verlauf.oeffnen({ ansicht: "schema", schemaNr: null });
 
   return (
     <div className="kst-campus umwstr-campus">
@@ -262,8 +259,8 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
         suche={suche}
         sucheSetzen={(wert) => {
           setSuche(wert);
-          setSchemaNr(null);
-          if (verlauf.ansicht !== "schema") verlauf.oeffnen("schema");
+          /* Tippen darf keinen Verlaufsschritt je Zeichen erzeugen. */
+          verlauf.ersetzen({ ansicht: "schema", schemaNr: null });
         }}
         suchePlatzhalter="UmwStR-Schema, Norm oder Stichwort suchen"
         sucheAria="Umwandlungssteuerrecht-Prüfschemata durchsuchen"
@@ -292,7 +289,7 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
       <main className="page">
         {verlauf.ansicht === "cockpit" && <Cockpit schemaOeffnen={schemaOeffnen} />}
         {verlauf.ansicht === "schema" && !schema && <SchemaIndex liste={gefiltert} suche={suche} schemaOeffnen={schemaOeffnen} />}
-        {verlauf.ansicht === "schema" && schema && <SchemaDetail schema={schema} zurueck={() => setSchemaNr(null)} />}
+        {verlauf.ansicht === "schema" && schema && <SchemaDetail schema={schema} zurueck={uebersichtOeffnen} />}
       </main>
     </div>
   );
