@@ -3,7 +3,10 @@ import { laden, sichern } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K3Fachleiste from "./K3Fachleiste";
-import { IconCockpit, IconSchema } from "./Icons";
+import { IconCockpit, IconSchema, IconHausaufgabe } from "./Icons";
+import K3UmwStRHausaufgaben from "./K3UmwStRHausaufgaben";
+import { umwstrHausaufgaben } from "../data/k3-umwstr-hausaufgaben";
+import { umwstrHausaufgabenMeta } from "../data/k3-umwstr-hausaufgaben-volltext-meta";
 import "./kst.css";
 import "./k3-umwstr.css";
 
@@ -172,6 +175,7 @@ const SCHEMATA_ROH = [
 const SCHEMATA = [...SCHEMATA_ROH].sort((a, b) => a.nr - b.nr);
 
 const TOTAL_PAGES = SCHEMATA.reduce((sum, schema) => sum + schema.seiten.length, 0);
+const HAUSAUFGABEN_SEITEN = Object.values(umwstrHausaufgabenMeta).reduce((sum, m) => sum + m.seiten, 0);
 
 export const UMWSTR_SCHEMATA = SCHEMATA;
 export const seitenPfad = (nr, seite) =>
@@ -259,8 +263,10 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
         suche={suche}
         sucheSetzen={(wert) => {
           setSuche(wert);
-          /* Tippen darf keinen Verlaufsschritt je Zeichen erzeugen. */
-          verlauf.ersetzen({ ansicht: "schema", schemaNr: null });
+          /* Tippen darf keinen Verlaufsschritt je Zeichen erzeugen. In der
+             Hausaufgabenansicht filtert die Suche dort weiter, statt in die
+             Prüfschemata zu springen. */
+          if (verlauf.ansicht !== "hausaufgaben") verlauf.ersetzen({ ansicht: "schema", schemaNr: null });
         }}
         suchePlatzhalter="UmwStR-Schema, Norm oder Stichwort suchen"
         sucheAria="Umwandlungssteuerrecht-Prüfschemata durchsuchen"
@@ -278,24 +284,28 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
           <button className="rail__link" aria-current={verlauf.ansicht === "schema" ? "true" : undefined} onClick={() => ansichtOeffnen("schema")}>
             <IconSchema />Prüfschemata
           </button>
+          <button className="rail__link" aria-current={verlauf.ansicht === "hausaufgaben" ? "true" : undefined} onClick={() => ansichtOeffnen("hausaufgaben")}>
+            <IconHausaufgabe />Hausaufgaben
+          </button>
         </nav>
         <div className="rail__box">
           <b>Quellenabdeckung</b>
-          <strong>{TOTAL_PAGES} / {TOTAL_PAGES}</strong>
-          <p>PDF-Seiten der Prüfschemata 1–13 seitengetreu erfasst</p>
+          <strong>{TOTAL_PAGES + HAUSAUFGABEN_SEITEN} / {TOTAL_PAGES + HAUSAUFGABEN_SEITEN}</strong>
+          <p>{TOTAL_PAGES} Seiten Prüfschemata 1–13 und {HAUSAUFGABEN_SEITEN} Seiten Hausaufgaben 1–3 erfasst</p>
         </div>
       </aside>
 
       <main className="page">
-        {verlauf.ansicht === "cockpit" && <Cockpit schemaOeffnen={schemaOeffnen} />}
+        {verlauf.ansicht === "cockpit" && <Cockpit schemaOeffnen={schemaOeffnen} hausaufgabenOeffnen={() => ansichtOeffnen("hausaufgaben")} />}
         {verlauf.ansicht === "schema" && !schema && <SchemaIndex liste={gefiltert} suche={suche} schemaOeffnen={schemaOeffnen} />}
         {verlauf.ansicht === "schema" && schema && <SchemaDetail schema={schema} zurueck={uebersichtOeffnen} />}
+        {verlauf.ansicht === "hausaufgaben" && <K3UmwStRHausaufgaben suche={suche} />}
       </main>
     </div>
   );
 }
 
-function Cockpit({ schemaOeffnen }) {
+function Cockpit({ schemaOeffnen, hausaufgabenOeffnen }) {
   return (
     <>
       <div className="cockpit">
@@ -324,6 +334,14 @@ function Cockpit({ schemaOeffnen }) {
             <span className="kicker">Direkteinstieg</span>
             <h2>Prüfschemata 1–13</h2>
           </div>
+        </div>
+        <div className="umwstr-hausaufgaben-hinweis">
+          <div>
+            <span className="kicker">Hausaufgaben</span>
+            <b>{umwstrHausaufgaben.length} Hausaufgaben mit Lösung · {HAUSAUFGABEN_SEITEN} Seiten</b>
+            <small>Fachtermine 1 bis 3, wörtlich aus den Originalunterlagen übernommen.</small>
+          </div>
+          <button className="btn btn--linie" onClick={() => hausaufgabenOeffnen()}>Hausaufgaben öffnen</button>
         </div>
         <div className="umwstr-quickgrid">
           {SCHEMATA.map((schema) => (
