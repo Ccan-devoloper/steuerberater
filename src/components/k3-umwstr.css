@@ -67,15 +67,78 @@
   overflow: hidden;
 }
 .umwstr-schema-preview {
+  position: relative;
   width: 100%;
-  display: block;
-  padding: 0;
-  border: 0;
+  /* Seitliche Rinnen fuer die Blaetterpfeile: sie liegen damit neben statt auf
+     dem Schaubild und verdecken auf dichten Seiten keine Kaesten. */
+  padding: 0 42px 34px;
   border-bottom: 1px solid var(--linie);
   background: #fff;
-  cursor: pointer;
   overflow: hidden;
 }
+.umwstr-schema-preview__flaeche {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* Blaetterpfeile in den seitlichen Rinnen. Die Seiten sind durchgehend weiss,
+   deshalb brauchen die Knoepfe einen sichtbaren Rahmen - ohne ihn waeren sie
+   auf dem Papierweiss nicht auffindbar. */
+.umwstr-blaettern {
+  position: absolute;
+  top: calc(50% - 17px);
+  transform: translateY(-50%);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 46px;
+  padding: 0;
+  border: 1px solid var(--linie);
+  background: var(--papier);
+  color: var(--tinte);
+  font: 400 24px/1 var(--mono);
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease;
+}
+.umwstr-blaettern:hover { background: var(--feld); border-color: var(--tinte); }
+.umwstr-blaettern:focus-visible {
+  outline: 2px solid var(--tinte);
+  outline-offset: 1px;
+}
+.umwstr-blaettern--zurueck { left: 4px; }
+.umwstr-blaettern--vor { right: 4px; }
+
+/* Seitenzaehler im unteren Streifen, ebenfalls ausserhalb des Schaubilds.
+   Der Vorschaustreifen ist in beiden Themes weiss (Papier der Originalseite),
+   deshalb sind die Textfarben hier bewusst fest und folgen nicht var(--tinte):
+   die hellen Tinten des Dunkelmodus kaemen auf Weiss nur auf 2,3:1. */
+.umwstr-seitenzaehler {
+  position: absolute;
+  left: 42px;
+  right: 42px;
+  bottom: 7px;
+  z-index: 2;
+  margin: 0;
+  color: #1b2a4a;
+  font: 700 10px/1.35 var(--mono);
+  text-align: center;
+  pointer-events: none;
+}
+.umwstr-seitenzaehler span {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #4d5768;
+  font-weight: 500;
+}
+
+
 .umwstr-schema-card__body { padding: 16px; }
 .umwstr-schema-card__body h3 { margin: 7px 0 8px; font-size: clamp(18px, 2vw, 23px); line-height: 1.2; }
 .umwstr-schema-card__body p { color: var(--ink-weich); line-height: 1.45; }
@@ -190,5 +253,5 @@
   color: var(--ink-weich);
 }
 .umw-source-page--fehler b { display: block; color: var(--tinte); }
-.umwstr-schema-preview .umw-source-page { transition: transform .18s ease; }
-.umwstr-schema-preview:hover .umw-source-page { transform: scale(1.008); }
+.umwstr-schema-preview__flaeche .umw-source-page { transition: transform .18s ease; }
+.umwstr-schema-preview__flaeche:hover .umw-source-page { transform: scale(1.008); }

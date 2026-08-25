@@ -52,6 +52,23 @@ Zum Ergänzen eines Schemas sind drei Stellen anzupassen:
 3. In `tools/pruefen-k3-umwstr.mjs` die erwartete Schemazahl, die
    Nummernfolge und `erwarteteSeiten` aktualisieren.
 
+## Übersichtskachel
+
+Jede Kachel der Übersicht lässt sich an Ort und Stelle durchblättern, ohne das
+Schema zu öffnen. Die Kachel startet auf `vorschauSeite` (dem Schaubild, nicht
+dem Titelblatt) und blättert umlaufend — bei zwei bis vier Seiten sind tote
+Pfeile an den Enden störender als der Sprung, den der Seitenzähler ohnehin
+anzeigt. Die Bildfläche selbst bleibt der Einstieg in die vollständige Ansicht.
+
+Die Pfeile liegen in seitlichen Rinnen **neben** dem Bild, nicht darüber: Auf
+dichten Schaubildern verdeckten überlagerte Pfeile sonst einzelne Kästen.
+
+Der Vorschaustreifen ist in beiden Themes weiß, weil er das Papier der
+Originalseite zeigt. Seitenzähler und Seitentitel verwenden deshalb feste
+dunkle Farben statt `var(--tinte)`: Die hellen Tinten des Dunkelmodus kämen auf
+Weiß nur auf 2,3:1 und wären damit unlesbar. Mit den festen Werten liegen sie
+bei 14,2:1 bzw. 7,3:1.
+
 ## Seitenrenders
 
 Jede PDF-Seite liegt als eigener Render unter
