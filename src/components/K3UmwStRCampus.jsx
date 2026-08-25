@@ -342,6 +342,65 @@ function Cockpit({ schemaOeffnen }) {
   );
 }
 
+/* Kachel der Uebersicht: blaettert die Seiten des Schemas an Ort und Stelle durch,
+   damit alle Seiten sichtbar sind, ohne das Schema zu oeffnen. Die Bildflaeche
+   selbst bleibt der Einstieg in die vollstaendige Ansicht. */
+function SchemaKarte({ schema, schemaOeffnen }) {
+  const anzahl = schema.seiten.length;
+  const [seite, setSeite] = useState(schema.vorschauSeite);
+  const mehrseitig = anzahl > 1;
+
+  /* Umlaufend blaettern: bei nur zwei bis vier Seiten sind tote Pfeile an den
+     Enden stoerender als der Sprung, den der Seitenzaehler ohnehin anzeigt. */
+  const blaettern = (richtung) => setSeite((aktuell) => ((aktuell - 1 + richtung + anzahl) % anzahl) + 1);
+
+  return (
+    <article className="umwstr-schema-card">
+      <div className="umwstr-schema-preview">
+        <button
+          type="button"
+          className="umwstr-schema-preview__flaeche"
+          onClick={() => schemaOeffnen(schema.nr)}
+          aria-label={`Prüfschema ${schema.nr} öffnen`}
+        >
+          <UmwStRSchemaPage key={seite} schema={schema} page={seite} compact />
+        </button>
+        {mehrseitig && (
+          <>
+            <button
+              type="button"
+              className="umwstr-blaettern umwstr-blaettern--zurueck"
+              onClick={() => blaettern(-1)}
+              aria-label={`Prüfschema ${schema.nr}: vorherige Seite`}
+            >
+              <span aria-hidden="true">‹</span>
+            </button>
+            <button
+              type="button"
+              className="umwstr-blaettern umwstr-blaettern--vor"
+              onClick={() => blaettern(1)}
+              aria-label={`Prüfschema ${schema.nr}: nächste Seite`}
+            >
+              <span aria-hidden="true">›</span>
+            </button>
+            <p className="umwstr-seitenzaehler" aria-live="polite">
+              Seite {seite} / {anzahl}
+              <span>{schema.seiten[seite - 1].titel}</span>
+            </p>
+          </>
+        )}
+      </div>
+      <div className="umwstr-schema-card__body">
+        <span className="kicker">Prüfschema {schema.nr} · {anzahl} {anzahl === 1 ? "Seite" : "Seiten"}</span>
+        <h3>{schema.title}</h3>
+        <p>{schema.subtitle}</p>
+        <small>{schema.focus}</small>
+        <button className="btn btn--linie" onClick={() => schemaOeffnen(schema.nr)}>Alle Seiten öffnen</button>
+      </div>
+    </article>
+  );
+}
+
 function SchemaIndex({ liste, suche, schemaOeffnen }) {
   return (
     <>
@@ -356,18 +415,7 @@ function SchemaIndex({ liste, suche, schemaOeffnen }) {
       {suche && <p className="umwstr-search-note">Suche: „{suche}“</p>}
       <div className="umwstr-schema-grid">
         {liste.map((schema) => (
-          <article className="umwstr-schema-card" key={schema.nr}>
-            <button className="umwstr-schema-preview" onClick={() => schemaOeffnen(schema.nr)} aria-label={`Prüfschema ${schema.nr} öffnen`}>
-              <UmwStRSchemaPage schema={schema} page={schema.vorschauSeite} compact />
-            </button>
-            <div className="umwstr-schema-card__body">
-              <span className="kicker">Prüfschema {schema.nr} · {schema.seiten.length} {schema.seiten.length === 1 ? "Seite" : "Seiten"}</span>
-              <h3>{schema.title}</h3>
-              <p>{schema.subtitle}</p>
-              <small>{schema.focus}</small>
-              <button className="btn btn--linie" onClick={() => schemaOeffnen(schema.nr)}>Alle Seiten öffnen</button>
-            </div>
-          </article>
+          <SchemaKarte key={schema.nr} schema={schema} schemaOeffnen={schemaOeffnen} />
         ))}
       </div>
       {liste.length === 0 && <div className="panel"><h3>Kein Prüfschema gefunden</h3><p>Bitte einen anderen Suchbegriff verwenden.</p></div>}

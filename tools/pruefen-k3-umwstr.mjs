@@ -163,10 +163,20 @@ assert(!fs.existsSync(path.join(bilderVerzeichnis, "atlas.webp")), "veraltete at
 assert(!campus.includes("atlas"), "Campus referenziert noch den alten Bild-Atlas");
 assert(!css.includes("width: 200%"), "CSS enthält noch die Atlas-Verschiebung");
 
-for (const marker of ["umw-source-page--fehler", "object-fit: contain"]) {
+for (const marker of ["umw-source-page--fehler", "object-fit: contain", ".umwstr-blaettern {", ".umwstr-seitenzaehler {"]) {
   assert(css.includes(marker), `CSS-Marker fehlt: ${marker}`);
 }
-for (const marker of ["onError={() => setFehler(true)}", "seitenPfad", "aspectRatio", "page={schema.vorschauSeite}"]) {
+// Die Uebersichtskachel startet auf der Vorschauseite und laesst alle Seiten
+// des Schemas an Ort und Stelle durchblaettern.
+for (const marker of [
+  "onError={() => setFehler(true)}",
+  "seitenPfad",
+  "aspectRatio",
+  "useState(schema.vorschauSeite)",
+  "umwstr-blaettern--zurueck",
+  "umwstr-blaettern--vor",
+  "umwstr-seitenzaehler",
+]) {
   assert(campus.includes(marker), `Campus-Marker fehlt: ${marker}`);
 }
 
