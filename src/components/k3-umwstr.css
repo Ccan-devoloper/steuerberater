@@ -41,6 +41,14 @@
 .umwstr-quick b { display: block; margin: 7px 0; line-height: 1.25; }
 .umwstr-quick small { color: var(--ink-weich); letter-spacing: .03em; text-transform: none; }
 
+.umwstr-hinweis {
+  margin: 14px 0 0;
+  padding: 11px 13px;
+  border-left: 2px solid var(--linie);
+  color: var(--ink-weich);
+  font: 500 12px/1.55 var(--mono);
+}
+
 .umwstr-search-note {
   margin: -6px 0 15px;
   color: var(--ink-weich);
@@ -149,7 +157,7 @@
   .umwstr-page-meta small { width: 100%; margin-left: 0; }
 }
 
-/* 1:1-Seitenabbildung aus den gelieferten PDF-Renders. */
+/* 1:1-Seitenabbildung: je PDF-Seite ein eigener Render aus public/umwstr/. */
 .umw-source-page {
   position: relative;
   width: 100%;
@@ -159,16 +167,28 @@
   isolation: isolate;
 }
 .umw-source-page > img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 200%;
-  height: auto;
-  max-width: none;
   display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
   user-select: none;
   -webkit-user-drag: none;
 }
 .umw-source-page--compact { width: 100%; }
+.umw-source-page--fehler {
+  display: grid;
+  place-items: center;
+  background: var(--feld);
+  border: 1px dashed var(--linie);
+}
+.umw-source-page--fehler p {
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+  font: 600 11px/1.6 var(--mono);
+  color: var(--ink-weich);
+}
+.umw-source-page--fehler b { display: block; color: var(--tinte); }
 .umwstr-schema-preview .umw-source-page { transition: transform .18s ease; }
 .umwstr-schema-preview:hover .umw-source-page { transform: scale(1.008); }
