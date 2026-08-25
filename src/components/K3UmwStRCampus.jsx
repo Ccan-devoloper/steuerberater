@@ -15,7 +15,7 @@ import "./k3-umwstr.css";
  * vorschauSeite bestimmt, welche Seite als Kachelvorschau dient - Seite 1 ist in
  * allen Unterlagen ein reines Titelblatt, das Schaubild steht dahinter.
  */
-const SCHEMATA = [
+const SCHEMATA_ROH = [
   {
     nr: 2,
     vorschauSeite: 3,
@@ -75,6 +75,11 @@ const SCHEMATA = [
     ],
   },
 ];
+
+/* Nach Schemanummer sortiert: die Uebersicht zeigt die Pruefschemata immer in der
+   Reihenfolge der Originalunterlagen, unabhaengig davon, an welcher Stelle ein
+   nachgereichtes Schema oben eingetragen wird. */
+const SCHEMATA = [...SCHEMATA_ROH].sort((a, b) => a.nr - b.nr);
 
 const TOTAL_PAGES = SCHEMATA.reduce((sum, schema) => sum + schema.seiten.length, 0);
 

@@ -49,6 +49,13 @@ assert(
   `Prüfschemata müssen der Originalnummerierung 2–6 folgen, gefunden: ${schemata.map((s) => s.nr).join(",")}`,
 );
 
+// Die Uebersicht muss chronologisch nach Schemanummer sortiert erscheinen; an welcher
+// Stelle im Quelltext ein Schema eingetragen ist, spielt dadurch keine Rolle.
+assert(
+  campus.includes("[...SCHEMATA_ROH].sort((a, b) => a.nr - b.nr)"),
+  "Campus sortiert die Prüfschemata nicht nach Schemanummer",
+);
+
 const erwarteteSeiten = { 2: 4, 3: 3, 4: 2, 5: 2, 6: 2 };
 let seitenGesamt = 0;
 

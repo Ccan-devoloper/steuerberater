@@ -16,8 +16,25 @@ Nummerierung unverändert.
 
 Summe: **13 Seiten**, alle als 1:1-Seitenansicht erfasst.
 
-Ein „1. Prüfschema“ sowie Schemata ab Nr. 7 liegen nicht vor. Sie werden
-ergänzt, sobald die zugehörigen PDF-Unterlagen bereitgestellt werden.
+Ein „1. Prüfschema“ sowie Schemata ab Nr. 7 liegen **nicht** vor — für sie wurden
+nie Quellunterlagen bereitgestellt. Sie werden ergänzt, sobald die zugehörigen
+PDFs vorliegen.
+
+## Reihenfolge
+
+Die Übersicht zeigt die Prüfschemata immer aufsteigend nach Schemanummer. Der
+Campus sortiert `SCHEMATA_ROH` dafür zur Laufzeit nach `nr`; ein nachgereichtes
+Schema kann deshalb an beliebiger Stelle im Array eingetragen werden und
+erscheint trotzdem an der richtigen Position. `npm run check:k3-umwstr` stellt
+sicher, dass diese Sortierung nicht versehentlich entfernt wird.
+
+Zum Ergänzen eines Schemas sind drei Stellen anzupassen:
+
+1. Seitenrenders nach `public/umwstr/` legen (Parameter siehe unten).
+2. Eintrag in `SCHEMATA_ROH` in `src/components/K3UmwStRCampus.jsx` mit `nr`,
+   Titeln, `vorschauSeite` und je Seite `breite`/`hoehe`/`titel`.
+3. In `tools/pruefen-k3-umwstr.mjs` die erwartete Schemazahl, die
+   Nummernfolge und `erwarteteSeiten` aktualisieren.
 
 ## Seitenrenders
 
