@@ -2,4 +2,4 @@
 > stb-examenscampus-bilanzen@3.0.0 check:k3-umwstr
 > node tools/pruefen-k3-umwstr.mjs
 
-K3 UmwStR OK: 5 Prüfschemata, 13 Seitenrenders vollständig und dekodierbar.
+K3 UmwStR OK: 13 Prüfschemata, 31 Seitenrenders vollständig und dekodierbar.
