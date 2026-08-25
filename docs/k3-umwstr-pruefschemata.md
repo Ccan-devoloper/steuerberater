@@ -123,3 +123,40 @@ Zwei Konsequenzen daraus:
 Zusätzlich blendet der Campus bei einem Ladefehler eines Bildes einen
 sichtbaren Hinweis anstelle einer leeren Fläche ein
 (`.umw-source-page--fehler`).
+
+## Hausaufgaben 1–3
+
+Neben den Prüfschemata liegen drei Hausaufgaben mit Lösung von RA/StB U. Breier
+vor, erreichbar über den Reiter **Hausaufgaben**:
+
+| Hausaufgabe | Thema | Seiten | Lösung ab Seite |
+| --- | --- | --- | --- |
+| 1 | Einlage und Einbringung in die KapGes, Option § 1a KStG | 24 | 10 |
+| 2 | Einbringung gem. §§ 20 und 21 UmwStG | 23 | 8 |
+| 3 | Verschmelzung und Umwandlung in ein Personenunternehmen | 29 | 8 |
+
+Summe: **76 Seiten**, wörtlich 1:1 übernommen.
+
+Der Aufbau folgt den Bilanz-Hausaufgaben: eine strukturierte Kurzfassung für
+Übersicht, Suche und Themenfilter, dazu der Volltext, der erst beim Aufklappen
+geladen wird. Die Ansicht nutzt `HausaufgabenDokument`, die Seitenaufteilung und
+das Stylesheet der bestehenden Hausaufgaben unverändert mit.
+
+| Datei | Inhalt |
+| --- | --- |
+| `src/components/K3UmwStRHausaufgaben.jsx` | Ansicht |
+| `src/data/k3-umwstr-hausaufgaben.js` | Kurzfassung je Hausaufgabe |
+| `src/data/k3-umwstr-hausaufgaben-volltext-meta.js` | Seiten, Zeichen, SHA-256 |
+| `src/data/k3-umwstr-hausaufgaben-volltext.js` | Loader mit Integritätsprüfung |
+| `src/data/k3-umwstr-hausaufgaben-volltext/*.b64` | gzip-komprimierte Textblöcke |
+| `src/data/k3-umwstr-hausaufgaben-teilen.js` | Trennung Aufgabe/Lösung |
+
+Die Volltexte werden mit `page.get_text("text", sort=True)` aus PyMuPDF
+extrahiert. Gegengeprüft: Gegenüber der einfachen Extraktion geht dabei kein
+Token verloren, die Spalten- und Tabellenausrichtung bleibt aber erhalten – was
+für die `<pre>`-Darstellung entscheidend ist.
+
+Die Personalisierungszeile der Quell-PDFs ist entfernt, wie bei allen übrigen
+Hausaufgaben. `npm run check:k3-umwstr-hausaufgaben` entpackt die ausgelieferten
+Textblöcke und prüft Zeichenzahl, SHA-256, lückenlose Seitenmarken, die
+Trennstelle zur Lösung und die Abwesenheit der Personalisierungszeile.

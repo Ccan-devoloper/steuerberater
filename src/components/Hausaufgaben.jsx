@@ -22,16 +22,7 @@ function volltexteBeiBedarfLaden() {
   return volltextPromise;
 }
 
-export function IconHausaufgabe() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <path
-        d="M5 3.5h10.5L19 7v13.5H5zM15.5 3.5V7H19M8 11h8M8 14.5h8M8 18h5"
-        fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
+export { IconHausaufgabe } from "./Icons";
 
 function Volltext({ termin, text, laden, fehler, onLoad }) {
   const meta = volltextMeta[termin];

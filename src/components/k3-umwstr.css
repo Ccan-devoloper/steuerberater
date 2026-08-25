@@ -41,6 +41,21 @@
 .umwstr-quick b { display: block; margin: 7px 0; line-height: 1.25; }
 .umwstr-quick small { color: var(--ink-weich); letter-spacing: .03em; text-transform: none; }
 
+/* Verweis vom Cockpit auf die Hausaufgaben. */
+.umwstr-hausaufgaben-hinweis {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 18px;
+  margin: 0 0 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--linie);
+  background: var(--feld);
+}
+.umwstr-hausaufgaben-hinweis b { display: block; margin: 6px 0 3px; }
+.umwstr-hausaufgaben-hinweis small { color: var(--ink-weich); }
+
 .umwstr-hinweis {
   margin: 14px 0 0;
   padding: 11px 13px;

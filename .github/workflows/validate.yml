@@ -122,6 +122,10 @@ jobs:
         name: Kopfnavigation aller Campusse
         continue-on-error: true
         run: npm run check:kopfnavigation
+      - id: umwstrha
+        name: K3 UmwStR Hausaufgaben · 76/76 Seiten
+        continue-on-error: true
+        run: npm run check:k3-umwstr-hausaufgaben
       - id: build
         name: Produktions-Build
         continue-on-error: true
@@ -150,6 +154,7 @@ jobs:
           S_PERSG4: ${{ steps.persg4.outcome }}
           S_UMWSTR: ${{ steps.umwstr.outcome }}
           S_KOPFNAV: ${{ steps.kopfnav.outcome }}
+          S_UMWSTRHA: ${{ steps.umwstrha.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
           git config user.name "github-actions[bot]"
@@ -178,6 +183,7 @@ jobs:
             "k3_persg_tag4": "${S_PERSG4}",
             "k3_umwstr": "${S_UMWSTR}",
             "kopfnavigation": "${S_KOPFNAV}",
+            "k3_umwstr_hausaufgaben": "${S_UMWSTRHA}",
             "build": "${S_BUILD}"
           }
           EOF
@@ -216,8 +222,9 @@ jobs:
           S_PERSG4: ${{ steps.persg4.outcome }}
           S_UMWSTR: ${{ steps.umwstr.outcome }}
           S_KOPFNAV: ${{ steps.kopfnav.outcome }}
+          S_UMWSTRHA: ${{ steps.umwstrha.outcome }}
           S_BUILD: ${{ steps.build.outcome }}
         run: |
-          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_AOSCRIPT" "$S_AOHAUSAUFGABEN" "$S_PERSG1" "$S_PERSG2" "$S_PERSG3" "$S_PERSG4" "$S_UMWSTR" "$S_KOPFNAV" "$S_BUILD"; do
+          for value in "$S_NPMCI" "$S_FALLSAMMLUNG" "$S_FALLSAMMLUNG_FORMAT" "$S_HAUSAUFGABEN" "$S_AO1" "$S_AO2" "$S_AO3" "$S_AO4" "$S_AO5" "$S_AO6" "$S_AO7" "$S_AO8" "$S_AOSCRIPT" "$S_AOHAUSAUFGABEN" "$S_PERSG1" "$S_PERSG2" "$S_PERSG3" "$S_PERSG4" "$S_UMWSTR" "$S_KOPFNAV" "$S_UMWSTRHA" "$S_BUILD"; do
             test "$value" = "success" || exit 1
           done
