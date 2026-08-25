@@ -2,23 +2,39 @@
 
 ## Quellenlage
 
-Vorliegend sind fünf PDF-Unterlagen von RA/StB U. Breier, die im Original mit
-**2. bis 6. Prüfschema** nummeriert sind. Der Campus übernimmt diese
-Nummerierung unverändert.
+Vorliegend sind dreizehn PDF-Unterlagen von RA/StB U. Breier, im Original mit
+**1. bis 13. Prüfschema** nummeriert. Der Campus übernimmt diese Nummerierung
+unverändert.
 
 | Schema | Titel | Seiten | Seitenformat |
 | --- | --- | --- | --- |
-| 2 | Vorschriften des EStG und KStG zur Aufdeckung der stillen Reserven | 4 | A4 quer (842×595 pt) |
-| 3 | Voraussetzungen für Anwendung § 20 UmwStG | 3 | 16:9 (960×540 pt) |
-| 4 | (Zivilrechtliche) Formen der Umwandlung in GmbH bei § 20 UmwStG | 2 | 16:9 (960×540 pt) |
-| 5 | Gesetzliche Ausnahmen vom Buchwertansatz bei § 20 UmwStG | 2 | 16:9 (960×540 pt) |
-| 6 | Folgen der Veräußerung der sperrfristbehafteten Anteile | 2 | 16:9 (960×540 pt) |
+| 1 | Grundsätze zur Aufdeckung stiller Reserven bei Einlage und Einbringung in KapGes | 4 | A4 quer |
+| 2 | Vorschriften des EStG und KStG zur Aufdeckung der stillen Reserven | 4 | A4 quer |
+| 3 | Voraussetzungen für Anwendung § 20 UmwStG | 3 | 16:9 |
+| 4 | (Zivilrechtliche) Formen der Umwandlung in GmbH bei § 20 UmwStG | 2 | 16:9 |
+| 5 | Gesetzliche Ausnahmen vom Buchwertansatz bei § 20 UmwStG | 2 | 16:9 |
+| 6 | Folgen der Veräußerung der sperrfristbehafteten Anteile (§ 22 Abs. 1) | 2 | 16:9 |
+| 7 | Einlage und Einbringung von Anteilen an KapGes in eine andere KapGes | 2 | 16:9 |
+| 8 | Veräußerung der gem. § 21 UmwStG erhaltenen Anteile (§ 22 Abs. 2) | 2 | 16:9 |
+| 9 | Verschmelzung von KapGes – übertragende KapGes (§ 11) | 2 | A4 quer |
+| 10 | Verschmelzung von KapGes – übernehmende KapGes (§ 12) | 2 | A4 quer |
+| 11 | Formwechsel KapGes auf PersGes – formgewechselte KapGes (§ 3) | 2 | A4 quer |
+| 12 | Formwechsel KapGes in PersGes – PersGes und Gesellschafter (§§ 4, 5, 7) | 2 | A4 quer |
+| 13 | Abspaltung nach § 15 UmwStG im Unterschied zur Ausgliederung | 2 | A4 quer |
 
-Summe: **13 Seiten**, alle als 1:1-Seitenansicht erfasst.
+Summe: **31 Seiten**, alle als 1:1-Seitenansicht erfasst.
 
-Ein „1. Prüfschema“ sowie Schemata ab Nr. 7 liegen **nicht** vor — für sie wurden
-nie Quellunterlagen bereitgestellt. Sie werden ergänzt, sobald die zugehörigen
-PDFs vorliegen.
+## Personalisierungszeile
+
+Die Unterlagen zu Prüfschema 8 und 10 tragen im Original unten die Fußzeile
+„Persönliches PDF für …“ mit Name und Wohnort des Kursteilnehmers. Repository
+und veröffentlichte Seite sind öffentlich, deshalb weißt das Renderskript
+diesen Streifen vor dem Rastern. Er steht als Fußzeile deutlich unterhalb der
+Schaubilder; Lerninhalt geht nicht verloren.
+
+Weil die Renders bit-reproduzierbar sind, hält `tools/pruefen-k3-umwstr.mjs`
+die SHA-256-Prüfsummen dieser vier Seiten fest. Ein erneutes Rendern ohne
+Bereinigung erzeugt andere Bytes und lässt den Check fehlschlagen.
 
 ## Reihenfolge
 
@@ -46,7 +62,15 @@ Jede PDF-Seite liegt als eigener Render unter
 - keinerlei Beschnitt, Skalierungsverzerrung oder Nachbearbeitung – die
   Seite wird vollständig und unverändert abgebildet
 
-Neu-Erzeugung (benötigt `pymupdf` und `pillow`):
+Neu-Erzeugung über `tools/rendern-k3-umwstr.py` (benötigt `pymupdf` und `pillow`):
+
+```
+python3 tools/rendern-k3-umwstr.py <schema-nr> <pfad-zur-pdf>
+```
+
+Das Skript schreibt die Seitenrenders, prüft jeden geschriebenen WebP auf einen
+vollständigen RIFF-Container und gibt den fertigen `SCHEMATA_ROH`-Eintrag aus.
+Die zugrundeliegenden Schritte:
 
 ```python
 import pymupdf

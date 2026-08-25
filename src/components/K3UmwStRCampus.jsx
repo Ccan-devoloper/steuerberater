@@ -17,6 +17,19 @@ import "./k3-umwstr.css";
  */
 const SCHEMATA_ROH = [
   {
+    nr: 1,
+    vorschauSeite: 2,
+    title: "Grundsätze zur Aufdeckung stiller Reserven bei Einlage und Einbringung in KapGes",
+    subtitle: "Abgrenzung zu §§ 20, 21 UmwStG",
+    focus: "Einzelwirtschaftsgüter · Sachgesamtheiten · übertragender und übernehmender Rechtsträger · §§ 20, 21 UmwStG",
+    seiten: [
+      { breite: 1800, hoehe: 1273, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1273, titel: "Übertragungsgegenstände und übertragende Rechtsträger" },
+      { breite: 1800, hoehe: 1273, titel: "Steuerliche Folgen der Übertragung auf KapGes – Grundsätze" },
+      { breite: 1800, hoehe: 1273, titel: "Einzige Ausnahmen: §§ 20, 21 UmwStG" },
+    ],
+  },
+  {
     nr: 2,
     vorschauSeite: 3,
     title: "Vorschriften des EStG und KStG zur Aufdeckung der stillen Reserven",
@@ -72,6 +85,83 @@ const SCHEMATA_ROH = [
     seiten: [
       { breite: 1800, hoehe: 1013, titel: "Titelblatt" },
       { breite: 1800, hoehe: 1013, titel: "Folgen bei Einbringendem und übernehmender KapGes" },
+    ],
+  },
+  {
+    nr: 7,
+    vorschauSeite: 2,
+    title: "Einlage und Einbringung von Anteilen an KapGes in eine andere KapGes",
+    subtitle: "§§ 17, 20 Abs. 2 Nr. 1 EStG und § 6 Abs. 6 S. 2 EStG in Abgrenzung zu § 21 UmwStG",
+    focus: "§ 21 UmwStG · § 17 EStG · § 6 Abs. 6 S. 2 EStG · Anteile im PV und BV",
+    seiten: [
+      { breite: 1800, hoehe: 1013, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1013, titel: "Grundsätze zur Übertragung von Anteilen auf eine andere KapGes" },
+    ],
+  },
+  {
+    nr: 8,
+    vorschauSeite: 2,
+    title: "Veräußerung der gem. § 21 UmwStG erhaltenen Anteile durch die übernehmende KapGes",
+    subtitle: "Folgen der Veräußerung sperrfristbehafteter Anteile · § 22 Abs. 2 S. 1 ff. UmwStG",
+    focus: "Einbringungsgewinn II · 7-Jahresfrist · Folgen beim Einbringenden und bei der Übernehmerin",
+    seiten: [
+      { breite: 1800, hoehe: 1013, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1013, titel: "Folgen der Veräußerung innerhalb von 7 Jahren" },
+    ],
+  },
+  {
+    nr: 9,
+    vorschauSeite: 2,
+    title: "Verschmelzung von KapGes aufeinander – übertragende KapGes",
+    subtitle: "Steuerliche Folgen bei der eingeschmolzenen KapGes · §§ 11–13 UmwStG",
+    focus: "§ 11 UmwStG · Buchwertansatz in der Schlussbilanz · Zwischenwert bei Verlustvortrag",
+    seiten: [
+      { breite: 1800, hoehe: 1273, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1273, titel: "Folgen bei der übertragenden KapGes (§ 11 UmwStG)" },
+    ],
+  },
+  {
+    nr: 10,
+    vorschauSeite: 2,
+    title: "Verschmelzung von KapGes – übernehmende KapGes",
+    subtitle: "Steuerliche Folgen bei der übernehmenden KapGes · § 12 UmwStG",
+    focus: "§ 12 UmwStG · Einbuchung zum Übertragungsstichtag · Buchungssatz · Übernahmeergebnis",
+    seiten: [
+      { breite: 1800, hoehe: 1273, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1273, titel: "Folgen bei der übernehmenden KapGes (§ 12 UmwStG)" },
+    ],
+  },
+  {
+    nr: 11,
+    vorschauSeite: 2,
+    title: "Formwechsel von KapGes auf PersGes – formgewechselte KapGes",
+    subtitle: "Steuerliche Folgen bei der übertragenden KapGes · §§ 9 S. 1, 3 UmwStG",
+    focus: "§§ 3, 9 UmwStG · Buchwertansatz auf Antrag · Zwischenwert bei Verlustvortrag",
+    seiten: [
+      { breite: 1800, hoehe: 1273, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1273, titel: "Folgen beim Formwechsel bei der KapGes (§ 3 UmwStG)" },
+    ],
+  },
+  {
+    nr: 12,
+    vorschauSeite: 2,
+    title: "Formwechsel von KapGes in PersGes – PersGes und Gesellschafter",
+    subtitle: "Steuerliche Folgen bei entstehender PersGes · § 9 S. 1 i.V.m. §§ 4, 5 und 7 UmwStG",
+    focus: "§§ 4, 5, 7, 9 UmwStG · Einbuchung in der Eröffnungsbilanz · Übernahmeergebnis",
+    seiten: [
+      { breite: 1800, hoehe: 1273, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1273, titel: "Folgen bei der PersGes und den Gesellschaftern" },
+    ],
+  },
+  {
+    nr: 13,
+    vorschauSeite: 2,
+    title: "Abspaltung nach § 15 UmwStG im Unterschied zur Ausgliederung",
+    subtitle: "Abspaltung von Vermögen einer KapGes auf eine Schwestergesellschaft · § 123 Abs. 2 UmwG",
+    focus: "§ 15 UmwStG · § 20 UmwStG · § 123 Abs. 2/3 UmwG · Teilbetriebserfordernis",
+    seiten: [
+      { breite: 1800, hoehe: 1273, titel: "Titelblatt" },
+      { breite: 1800, hoehe: 1273, titel: "Folgen der Abspaltung im Unterschied zur Ausgliederung" },
     ],
   },
 ];
@@ -195,7 +285,7 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
         <div className="rail__box">
           <b>Quellenabdeckung</b>
           <strong>{TOTAL_PAGES} / {TOTAL_PAGES}</strong>
-          <p>PDF-Seiten der Prüfschemata 2–6 seitengetreu erfasst</p>
+          <p>PDF-Seiten der Prüfschemata 1–13 seitengetreu erfasst</p>
         </div>
       </aside>
 
@@ -213,7 +303,7 @@ function Cockpit({ schemaOeffnen }) {
     <>
       <div className="cockpit">
         <section className="these">
-          <span className="kicker">Klausur 3 · UmwStR · Prüfschemata 2–6</span>
+          <span className="kicker">Klausur 3 · UmwStR · Prüfschemata 1–13</span>
           <h2>Umwandlungssteuerrecht <em>seitengetreu nach den bereitgestellten Prüfschemata.</em></h2>
           <p>
             Alle {SCHEMATA.length} bereitgestellten Prüfschemata (RA/StB U. Breier) sind mit sämtlichen {TOTAL_PAGES} PDF-Seiten
@@ -221,7 +311,7 @@ function Cockpit({ schemaOeffnen }) {
             unverändert erhalten.
           </p>
           <div className="these__aktionen">
-            <button className="btn" onClick={() => schemaOeffnen(2)}>Mit Prüfschema 2 starten</button>
+            <button className="btn" onClick={() => schemaOeffnen(1)}>Mit Prüfschema 1 starten</button>
           </div>
         </section>
         <section className="panel umwstr-coverage">
@@ -235,7 +325,7 @@ function Cockpit({ schemaOeffnen }) {
         <div className="pagehead umwstr-pagehead-compact">
           <div>
             <span className="kicker">Direkteinstieg</span>
-            <h2>Prüfschemata 2–6</h2>
+            <h2>Prüfschemata 1–13</h2>
           </div>
         </div>
         <div className="umwstr-quickgrid">
@@ -247,10 +337,6 @@ function Cockpit({ schemaOeffnen }) {
             </button>
           ))}
         </div>
-        <p className="umwstr-hinweis">
-          Die Nummerierung folgt den Originalunterlagen. Weitere Prüfschemata werden ergänzt, sobald die
-          zugehörigen PDF-Unterlagen vorliegen.
-        </p>
       </section>
     </>
   );
@@ -262,7 +348,7 @@ function SchemaIndex({ liste, suche, schemaOeffnen }) {
       <div className="pagehead">
         <div>
           <span className="kicker">Klausur 3 · UmwStR</span>
-          <h1>Prüfschemata 2–6</h1>
+          <h1>Prüfschemata 1–13</h1>
           <p className="lead">Originalgetreue Seitenansichten aller bereitgestellten Unterlagen · {TOTAL_PAGES} von {TOTAL_PAGES} Seiten erfasst.</p>
         </div>
         <span className="kicker">{liste.length} Schemata</span>

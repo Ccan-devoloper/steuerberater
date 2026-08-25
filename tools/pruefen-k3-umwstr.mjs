@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { createHash } from "node:crypto";
 import path from "node:path";
 
 /**
@@ -43,10 +44,10 @@ for (const block of campus.split(/\n {2}\{\n/).slice(1)) {
   });
 }
 
-assert(schemata.length === 5, `es müssen 5 Prüfschemata deklariert sein, gefunden: ${schemata.length}`);
+assert(schemata.length === 13, `es müssen 13 Prüfschemata deklariert sein, gefunden: ${schemata.length}`);
 assert(
-  schemata.map((s) => s.nr).join(",") === "2,3,4,5,6",
-  `Prüfschemata müssen der Originalnummerierung 2–6 folgen, gefunden: ${schemata.map((s) => s.nr).join(",")}`,
+  [...schemata].map((s) => s.nr).sort((a, b) => a - b).join(",") === "1,2,3,4,5,6,7,8,9,10,11,12,13",
+  `Prüfschemata müssen der Originalnummerierung 1–13 folgen, gefunden: ${schemata.map((s) => s.nr).join(",")}`,
 );
 
 // Die Uebersicht muss chronologisch nach Schemanummer sortiert erscheinen; an welcher
@@ -56,7 +57,7 @@ assert(
   "Campus sortiert die Prüfschemata nicht nach Schemanummer",
 );
 
-const erwarteteSeiten = { 2: 4, 3: 3, 4: 2, 5: 2, 6: 2 };
+const erwarteteSeiten = { 1: 4, 2: 4, 3: 3, 4: 2, 5: 2, 6: 2, 7: 2, 8: 2, 9: 2, 10: 2, 11: 2, 12: 2, 13: 2 };
 let seitenGesamt = 0;
 
 /** Liest Groesse und Vollstaendigkeit eines WebP direkt aus dem RIFF-Container. */
@@ -127,7 +128,35 @@ for (const schema of schemata) {
   });
 }
 
-assert(seitenGesamt === 13, `13 Quellseiten erwartet, geprüft: ${seitenGesamt}`);
+assert(seitenGesamt === 31, `31 Quellseiten erwartet, geprüft: ${seitenGesamt}`);
+
+// Die Unterlagen zu Schema 8 und 10 tragen im Original eine Personalisierungszeile
+// mit Name und Wohnort. Repository und veroeffentlichte Seite sind oeffentlich, daher
+// wird dieser Streifen beim Rendern geweisst. Hier wird gegengeprueft, dass der untere
+// Seitenrand dieser Renders tatsaechlich leer ist.
+// Die Renders sind bit-reproduzierbar, daher sind die Pruefsummen der bereinigten
+// Seiten hier festgenagelt: Wer neu rendert, ohne die Zeile zu entfernen, erzeugt
+// andere Bytes und laesst diesen Check fehlschlagen.
+const OHNE_FUSSZEILE = {
+  "schema-08-01": "0c6b1ee4b8eef6a43662fee28b97e627c864126677b6b5352062d08b5976aaba",
+  "schema-08-02": "b38e650edc40a9f8b39266b73f51ffc1e78be809d6bbee2bb060e63b6b958ec6",
+  "schema-10-01": "e0876daed29afa60769883905c91e85930fccc92b9b9c49d8a42c40d9abc2d09",
+  "schema-10-02": "8a1ceb7fedcd4d00adc149a587edc1ba83a50d8ba795acd332c328c178abd9ff",
+};
+assert(
+  fs.readFileSync(path.join(root, "tools/rendern-k3-umwstr.py"), "utf8").includes("PERSONALISIERUNG"),
+  "Renderskript entfernt die Personalisierungszeile nicht mehr",
+);
+for (const [name, erwartet] of Object.entries(OHNE_FUSSZEILE)) {
+  const datei = path.join(bilderVerzeichnis, `${name}.webp`);
+  assert(fs.existsSync(datei), `${name}.webp fehlt - Personalisierungspruefung nicht moeglich`);
+  const ist = createHash("sha256").update(fs.readFileSync(datei)).digest("hex");
+  assert(
+    ist === erwartet,
+    `${name}.webp weicht vom geprueften Stand ab - enthaelt der Render wieder die ` +
+      "Personalisierungszeile? Bei beabsichtigter Neuerzeugung die Pruefsumme hier aktualisieren.",
+  );
+}
 
 // Keine Reste der alten, defekten Atlas-Loesung.
 assert(!fs.existsSync(path.join(bilderVerzeichnis, "atlas.webp")), "veraltete atlas.webp ist noch vorhanden");
