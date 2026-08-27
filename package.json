@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run check:k2-istr && vite build",
     "preview": "vite preview",
     "check:fallsammlung": "node tools/pruefen-fallsammlung.mjs",
     "check:fallsammlung-format": "node tools/pruefen-fallsammlung-format.mjs",
