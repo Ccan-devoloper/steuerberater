@@ -5,6 +5,7 @@ const FAECHER = [
   { id: "kst", label: "Körperschaftsteuer", kurz: "KSt" },
   { id: "est", label: "Einkommensteuer", kurz: "ESt" },
   { id: "gewst", label: "Gewerbesteuer", kurz: "GewSt" },
+  { id: "istr", label: "Internationales Steuerrecht", kurz: "IStR" },
 ];
 
 export default function K2Fachleiste({ aktiv, onWechsel }) {
