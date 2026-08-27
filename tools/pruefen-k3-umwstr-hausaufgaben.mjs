@@ -1,16 +1,14 @@
 import fs from "node:fs";
 import path from "node:path";
-import zlib from "node:zlib";
-import { createHash } from "node:crypto";
 
 /**
  * Prueft die drei UmwStR-Hausaufgaben.
  *
- * Der Kern ist eine echte Inhaltspruefung: Die ausgelieferten Textbloecke
- * werden dekodiert, entpackt und gegen Zeichenzahl und SHA-256 aus dem
- * Metamodul gehalten. Zusaetzlich wird geprueft, dass jede PDF-Seite als
- * Marke vorhanden ist, dass die Trennstelle zwischen Aufgabe und Loesung
- * existiert und dass keine Personalisierungszeile uebernommen wurde.
+ * Darstellung wie bei den AO-Hausaufgaben: Seitentexte 1:1 plus zeilenweise
+ * Schriftinformation, aus der die Ansicht den Fettdruck des Originals
+ * wiederherstellt. Geprueft werden Vollstaendigkeit der Seiten, Abdeckung durch
+ * die Fallgliederung, die Fettdruckdaten und die Abwesenheit der
+ * Personalisierungszeile.
  */
 
 const root = process.cwd();
@@ -21,125 +19,105 @@ const lies = (p) => {
   return fs.readFileSync(voll, "utf8");
 };
 
-const metaQuelle = lies("src/data/k3-umwstr-hausaufgaben-volltext-meta.js");
-const daten = lies("src/data/k3-umwstr-hausaufgaben.js");
-const teilen = lies("src/data/k3-umwstr-hausaufgaben-teilen.js");
+/* Die Datendateien sind reine JS-Literale; das Array laesst sich direkt aus der
+   Zuweisung loesen, ohne die Datei auszufuehren. */
+const ladeArray = (datei, name) => {
+  const quelle = lies(datei);
+  const start = quelle.indexOf("[", quelle.indexOf(name));
+  assert(start > 0, `${datei}: ${name} nicht gefunden`);
+  const ende = quelle.lastIndexOf("]");
+  return JSON.parse(quelle.slice(start, ende + 1));
+};
+
+const HAUSAUFGABEN = [
+  { id: "UMW-HA-1", nr: 1, seiten: 24 },
+  { id: "UMW-HA-2", nr: 2, seiten: 23 },
+  { id: "UMW-HA-3", nr: 3, seiten: 29 },
+];
+
+const faelleQuelle = lies("src/data/k3-umwstr-ha-faelle.js");
 const ansicht = lies("src/components/K3UmwStRHausaufgaben.jsx");
 const campus = lies("src/components/K3UmwStRCampus.jsx");
-
-// 1. Metadaten einlesen
-const meta = {};
-for (const [, nr, zeichen, seiten, sha] of metaQuelle.matchAll(
-  /(\d+): \{ zeichen: (\d+), seiten: (\d+), sha256: "([0-9a-f]{64})" \}/g,
-)) {
-  meta[Number(nr)] = { zeichen: Number(zeichen), seiten: Number(seiten), sha256: sha };
-}
-const termine = Object.keys(meta).map(Number).sort((a, b) => a - b);
-assert(termine.join(",") === "1,2,3", `es müssen die Hausaufgaben 1–3 deklariert sein, gefunden: ${termine.join(",")}`);
-
-// 2. Trennstellen einlesen
-const loesungsseiten = {};
-for (const [, nr, seite] of teilen.matchAll(/^\s{2}(\d+): (\d+),/gm)) {
-  loesungsseiten[Number(nr)] = Number(seite);
-}
-assert(Object.keys(loesungsseiten).length === 3, "für jede Hausaufgabe muss eine Lösungsseite hinterlegt sein");
-
-// 3. Ausgelieferte Volltexte dekodieren und pruefen
-const verzeichnis = path.join(root, "src/data/k3-umwstr-hausaufgaben-volltext");
-assert(fs.existsSync(verzeichnis), "Verzeichnis der Textblöcke fehlt");
-const bloecke = fs.readdirSync(verzeichnis)
-  .filter((f) => f.endsWith(".b64"))
-  .sort((a, b) => Number(a.match(/\d+/)[0]) - Number(b.match(/\d+/)[0]));
-assert(bloecke.length > 0, "keine Textblöcke gefunden");
-
-const loader = lies("src/data/k3-umwstr-hausaufgaben-volltext.js");
-for (const block of bloecke) {
-  assert(loader.includes(`chunk-${block.match(/\d+/)[0]}.b64`), `${block} wird vom Loader nicht eingebunden`);
-}
-assert(
-  (loader.match(/\.b64\?raw/g) || []).length === bloecke.length,
-  `Loader bindet ${(loader.match(/\.b64\?raw/g) || []).length} Blöcke ein, vorhanden sind ${bloecke.length}`,
-);
-
-const base64 = bloecke.map((f) => fs.readFileSync(path.join(verzeichnis, f), "utf8")).join("").replace(/\s+/g, "");
-let volltexte;
-try {
-  volltexte = JSON.parse(zlib.gunzipSync(Buffer.from(base64, "base64")).toString("utf8"));
-} catch (fehler) {
-  throw new Error(`K3 UmwStR Hausaufgaben: Textblöcke lassen sich nicht entpacken (${fehler.message})`);
-}
+const css = lies("src/components/k3-umwstr-hausaufgaben.css");
 
 let seitenGesamt = 0;
-for (const termin of termine) {
-  const text = volltexte[String(termin)];
-  assert(typeof text === "string", `Volltext für Hausaufgabe ${termin} fehlt`);
+let faelleGesamt = 0;
 
-  const zeichen = Array.from(text).length;
+for (const { id, nr, seiten } of HAUSAUFGABEN) {
+  const texte = ladeArray(`src/data/k3-umwstr-ha-original-${nr}.js`, `UMWSTR_HA_SEITEN_${nr}`);
+  const fonts = ladeArray(`src/data/k3-umwstr-ha-font-${nr}.js`, `UMWSTR_HA_FONT_${nr}`);
+
+  assert(texte.length === seiten, `${id}: ${texte.length} Seitentexte statt ${seiten}`);
+  assert(fonts.length === seiten, `${id}: ${fonts.length} Font-Seiten statt ${seiten}`);
+
+  texte.forEach((text, i) => {
+    assert(typeof text === "string" && text.trim().length > 40, `${id}: Seite ${i + 1} ist leer oder zu kurz`);
+    assert(!/Persönliches PDF für/.test(text), `${id}: Seite ${i + 1} enthält die personenbezogene Zeile`);
+  });
+
+  let fettZeilen = 0;
+  fonts.forEach((zeilen, i) => {
+    assert(Array.isArray(zeilen) && zeilen.length > 0, `${id}: Seite ${i + 1} ohne Schriftinformation`);
+    for (const z of zeilen) {
+      assert(typeof z.l === "string" && Array.isArray(z.p), `${id}: Seite ${i + 1} hat eine fehlerhafte Zeile`);
+      assert(!/Persönliches PDF für/.test(z.l), `${id}: Seite ${i + 1} führt die personenbezogene Zeile im Fontstil`);
+      if (z.p.length > 0 && z.p.every(([, fett]) => fett)) fettZeilen += 1;
+    }
+  });
+  assert(fettZeilen >= 20, `${id}: nur ${fettZeilen} durchgehend fette Zeilen – Schriftinformation prüfen`);
+
+  // Fallgliederung: jede Seite ab 2 muss einem Sachverhalt zugeordnet sein.
+  /* Blockgrenze am naechsten Hausaufgaben-Eintrag, nicht nach fester Laenge -
+     sonst laufen die Seitenbereiche der Nachbarn mit hinein. */
+  const beginn = faelleQuelle.indexOf(`id: "${id}"`);
+  assert(beginn > 0, `${id}: Eintrag in der Fallgliederung fehlt`);
+  const naechster = faelleQuelle.indexOf('id: "UMW-HA-', beginn + 10);
+  const block = faelleQuelle.slice(beginn, naechster > 0 ? naechster : undefined);
+  const bereiche = [...block.matchAll(/(aufgabeSeiten|loesungSeiten): \[([\d, ]+)\]/g)]
+    .map((m) => m[2].split(",").map((x) => Number(x.trim())));
+  assert(bereiche.length >= 4, `${id}: zu wenige Seitenbereiche in der Fallgliederung`);
+
+  const abgedeckt = new Set(bereiche.flat());
+  for (let s = 2; s <= seiten; s += 1) {
+    assert(abgedeckt.has(s), `${id}: Seite ${s} ist keinem Sachverhalt zugeordnet`);
+  }
+  for (const s of abgedeckt) {
+    assert(s >= 2 && s <= seiten, `${id}: Fallgliederung verweist auf Seite ${s} außerhalb von 2–${seiten}`);
+  }
+
+  // Die Lösung muss dort beginnen, wo die Quelle sie ankündigt.
+  const ersteLoesung = Math.min(...[...block.matchAll(/loesungSeiten: \[(\d+)/g)].map((m) => Number(m[1])));
   assert(
-    zeichen === meta[termin].zeichen,
-    `Hausaufgabe ${termin}: ${zeichen} Zeichen, im Metamodul stehen ${meta[termin].zeichen}`,
+    /Lösungshinweise/.test(texte[ersteLoesung - 1]),
+    `${id}: auf Seite ${ersteLoesung} beginnen keine Lösungshinweise – Fallgliederung prüfen`,
   );
 
-  const summe = createHash("sha256").update(text, "utf8").digest("hex");
-  assert(
-    summe === meta[termin].sha256,
-    `Hausaufgabe ${termin}: SHA-256 weicht ab – Volltext und Metamodul passen nicht zusammen`,
-  );
-
-  // Jede PDF-Seite muss als Marke vorhanden sein.
-  const marken = [...text.matchAll(/^===== PDF-Seite (\d+) =====$/gm)].map((m) => Number(m[1]));
-  const erwartet = Array.from({ length: meta[termin].seiten }, (_, i) => i + 1);
-  assert(
-    marken.join(",") === erwartet.join(","),
-    `Hausaufgabe ${termin}: Seitenmarken ${marken.join(",") || "keine"} statt 1–${meta[termin].seiten}`,
-  );
-
-  // Trennstelle zwischen Aufgabe und Loesung muss existieren und im Dokument liegen.
-  const trennseite = loesungsseiten[termin];
-  assert(trennseite, `Hausaufgabe ${termin}: keine Lösungsseite hinterlegt`);
-  assert(
-    trennseite > 1 && trennseite <= meta[termin].seiten,
-    `Hausaufgabe ${termin}: Lösungsseite ${trennseite} liegt außerhalb von 2–${meta[termin].seiten}`,
-  );
-  const position = text.indexOf(`===== PDF-Seite ${trennseite} =====`);
-  assert(position > 0, `Hausaufgabe ${termin}: Trennstelle auf Seite ${trennseite} nicht gefunden`);
-  assert(
-    /Lösungshinweise/.test(text.slice(position, position + 900)),
-    `Hausaufgabe ${termin}: auf Seite ${trennseite} beginnen keine Lösungshinweise – Trennstelle prüfen`,
-  );
-
-  // Personalisierungszeile darf nicht uebernommen sein.
-  assert(
-    !/Persönliches PDF für/.test(text) && !/Karaman/.test(text),
-    `Hausaufgabe ${termin}: enthält die personenbezogene Zeile aus der Quell-PDF`,
-  );
-
-  seitenGesamt += meta[termin].seiten;
+  seitenGesamt += seiten;
+  faelleGesamt += (block.match(/id: "UMW-HA\d-\d"/g) || []).length;
 }
 
 assert(seitenGesamt === 76, `76 PDF-Seiten erwartet, gezählt: ${seitenGesamt}`);
+assert(faelleGesamt === 7, `7 Sachverhalte erwartet, gezählt: ${faelleGesamt}`);
 
-// 4. Uebersichtsdaten
-const eintraege = [...daten.matchAll(/id: "umwstr-ha-(\d+)"/g)].map((m) => Number(m[1]));
-assert(eintraege.join(",") === "1,2,3", `Übersicht muss die Hausaufgaben 1–3 führen, gefunden: ${eintraege.join(",")}`);
-for (const feld of ["titel", "untertitel", "quelle", "themen", "aufgaben", "loesung", "normen"]) {
-  const treffer = (daten.match(new RegExp(`^\\s+${feld}:`, "gm")) || []).length;
-  assert(treffer === 3, `Feld ${feld} fehlt bei mindestens einer Hausaufgabe (${treffer} von 3)`);
+// Darstellung nach dem Vorbild der AO-Hausaufgaben.
+for (const marker of ["ao-hausaufgaben.css", "k1-hausaufgaben.css", "ao-ha-source-bold", "ao-ha-originalseite", "RenderStyledLine", "UMWSTR_HA_FONTSTIL"]) {
+  assert(ansicht.includes(marker), `Ansicht folgt nicht dem AO-Muster, Marker fehlt: ${marker}`);
 }
+assert(!/<pre>\{teile/.test(ansicht), "Ansicht darf den Fließtext nicht als Monospace-Block ausgeben");
 
-// 5. Verdrahtung im Campus und in der Ansicht
-for (const marker of ['ansichtOeffnen("hausaufgaben")', "K3UmwStRHausaufgaben", "IconHausaufgabe"]) {
+// Spaltenaufstellungen behalten ihre Ausrichtung.
+for (const marker of ["istTabellenzeile", "SPALTENABSTAND", "umw-ha-tabelle", "ohneGemeinsameEinrueckung"]) {
+  assert(ansicht.includes(marker), `Tabellenerkennung fehlt: ${marker}`);
+}
+assert(css.includes("white-space: pre"), "Aufstellungen müssen ihren Leerraum behalten");
+assert(css.includes("overflow-x: auto"), "Breite Aufstellungen müssen horizontal scrollen können");
+
+// Verdrahtung im Campus, Ansicht erst beim Öffnen laden.
+for (const marker of ['ansichtOeffnen("hausaufgaben")', "K3UmwStRHausaufgaben", 'lazy(() => import("./K3UmwStRHausaufgaben"))']) {
   assert(campus.includes(marker), `Campus-Marker fehlt: ${marker}`);
 }
-for (const marker of ["ladeUmwStRHausaufgabenVolltext", "HausaufgabenDokument", "teileUmwStRHausaufgabe", "Integritätsprüfung beim Laden"]) {
-  assert(ansicht.includes(marker), `Ansichts-Marker fehlt: ${marker}`);
-}
-assert(
-  ansicht.includes('import("../data/k3-umwstr-hausaufgaben-volltext.js")'),
-  "Volltexte müssen per dynamischem Import erst beim Aufklappen geladen werden",
-);
 
 console.log(
-  `K3 UmwStR Hausaufgaben OK: 3 Hausaufgaben, ${seitenGesamt} PDF-Seiten, ` +
-  "Zeichenzahl und SHA-256 stimmen, Seitenmarken lückenlos, keine Personalisierungszeile.",
+  `K3 UmwStR Hausaufgaben OK: 3 Hausaufgaben, ${faelleGesamt} Sachverhalte, ${seitenGesamt} PDF-Seiten ` +
+  "mit Schriftinformation, alle Seiten zugeordnet, keine Personalisierungszeile.",
 );
