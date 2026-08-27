@@ -38,6 +38,29 @@ for (const marker of [
   assert(schema.includes(marker), `Bilanzen-nahe Darstellungsmarke fehlt: ${marker}`);
 }
 
+/* Die nummerierten Hauptpruefschritte sollen als einzelne Karten erfassbar sein. */
+for (const marker of [
+  'borderRadius: 10',
+  'background: "var(--feld)"',
+  'fontWeight: 700',
+  'display: "grid"',
+]) {
+  assert(schema.includes(marker), `Prüfschritt-Hervorhebung fehlt: ${marker}`);
+}
+
+/* DBA-Merkschema A-A-V-V: jeder Buchstabe muss blau und einzeln umkreist sein. */
+const aavvBadges = [...schema.matchAll(/badge:\s*"([AV])"/g)].map((treffer) => treffer[1]);
+assert(aavvBadges.join("") === "AAVV", `DBA-AAVV-Badges erwartet, gefunden: ${aavvBadges.join("") || "keine"}`);
+for (const marker of [
+  'const aavvBlau = "#2563eb";',
+  'data-aavv-schritt={element.badge || undefined}',
+  'borderRadius: "50%"',
+  'border: `2px solid ${aavvBlau}`',
+  'color: aavvBlau',
+]) {
+  assert(schema.includes(marker), `AAVV-Kreis-/Farbmarkierung fehlt: ${marker}`);
+}
+
 const seiten = [...schema.matchAll(/seite:\s*(\d+),/g)].map((treffer) => Number(treffer[1]));
 assert(seiten.join(",") === "1,2", `Quellseiten 1 und 2 erwartet, gefunden: ${seiten.join(",") || "keine"}`);
 
@@ -88,4 +111,4 @@ for (const marker of seite2) assert(schema.includes(marker), `Quellseite 2 unvol
 assert(!schema.includes("Persönliches PDF für"), "Personalisierungszeile aus dem PDF wurde veröffentlicht");
 assert(!campus.includes("Persönliches PDF für"), "Personalisierungszeile aus dem PDF wurde im Campus veröffentlicht");
 
-console.log(`K2 IStR OK: 1 Prüfschema, ${seiten.length}/2 Quellseiten, ${seite1.length + seite2.length} fachliche Vollständigkeitsmarker.`);
+console.log(`K2 IStR OK: 1 Prüfschema, ${seiten.length}/2 Quellseiten, AAVV visuell markiert und ${seite1.length + seite2.length} fachliche Vollständigkeitsmarker.`);
