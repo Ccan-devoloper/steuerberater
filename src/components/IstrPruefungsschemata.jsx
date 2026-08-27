@@ -47,7 +47,7 @@ export const istrSchemata = [
               },
             ],
           },
-          { typ: "verweis", text: "⇒ Schema § 1 Abs. 3 EStG siehe § 1 Abs. 4 EStG", ziel: "istr-dba" },
+          { typ: "verweis", text: "⇒ Schema § 1 Abs. 3 EStG siehe § 1 Abs. 4 EStG" },
           { typ: "uebergang", text: "Falls kein § 1 Abs. 3 EStG:" },
           {
             typ: "nummernKomplex",
@@ -143,15 +143,7 @@ function Inhalt({ element }) {
   }
   if (element.typ === "text") return <p style={{ margin: "0 0 10px", whiteSpace: "pre-line" }}>{element.text}</p>;
   if (element.typ === "uebergang") return <p style={{ margin: "14px 0 10px", fontStyle: "italic" }}>{element.text}</p>;
-  if (element.typ === "verweis") {
-    return (
-      <p style={{ margin: "10px 0 14px", paddingLeft: 30 }}>
-        <a href={`#${element.ziel}`} style={{ color: "inherit", textDecorationThickness: "1px", textUnderlineOffset: "3px" }}>
-          {element.text}
-        </a>
-      </p>
-    );
-  }
+  if (element.typ === "verweis") return <p style={{ margin: "10px 0 14px", paddingLeft: 30 }}>{element.text}</p>;
   if (element.typ === "schritt") {
     return (
       <p style={{ margin: "0 0 4px" }}>
