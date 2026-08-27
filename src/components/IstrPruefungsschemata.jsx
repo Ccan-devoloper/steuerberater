@@ -10,6 +10,8 @@ const farben = {
   neutral: "var(--tinte)",
 };
 
+const aavvBlau = "#2563eb";
+
 export const istrSchemata = [
   {
     id: "internationales-steuerrecht",
@@ -86,11 +88,10 @@ export const istrSchemata = [
         titel: "Schema DBA",
         ton: "bewertung",
         inhalt: [
-          { typ: "schritt", label: "Anwendbarkeit:", text: "Art. 1 persönlich und Art. 2 Abs. 1 sachlich" },
-          { typ: "schritt", label: "Ansässigkeit:", text: "Art. 4 Abs. 1" },
-          { typ: "schritt", label: "Verteilung:", text: "Wer besteuert? Art. 6 ff. („Meine Oma Prinzip“)" },
-          { typ: "untertitel", text: "Vermeidung" },
-          { typ: "text", text: "(nur durch Ansässigkeitsstaat): Art. 22 oder Art. 23 oder Art. 24" },
+          { typ: "schritt", badge: "A", label: "Anwendbarkeit:", text: "Art. 1 persönlich und Art. 2 Abs. 1 sachlich" },
+          { typ: "schritt", badge: "A", label: "Ansässigkeit:", text: "Art. 4 Abs. 1" },
+          { typ: "schritt", badge: "V", label: "Verteilung:", text: "Wer besteuert? Art. 6 ff. („Meine Oma Prinzip“)" },
+          { typ: "schritt", badge: "V", label: "Vermeidung", text: "(nur durch Ansässigkeitsstaat): Art. 22 oder Art. 23 oder Art. 24" },
           {
             typ: "liste",
             punkte: [
@@ -120,11 +121,20 @@ function Listenpunkt({ punkt }) {
 
 function KomplexerPunkt({ punkt }) {
   return (
-    <li style={{ marginBottom: 10 }}>
-      <span style={{ whiteSpace: "pre-line" }}>{punkt.text}</span>
-      {punkt.absatz && <p style={{ margin: "6px 0 0", whiteSpace: "pre-line" }}>{punkt.absatz}</p>}
+    <li
+      style={{
+        marginBottom: 4,
+        padding: "13px 15px",
+        border: "1px solid var(--linie)",
+        borderRadius: 10,
+        background: "var(--feld)",
+        boxShadow: "0 1px 0 rgba(0, 0, 0, 0.04)",
+      }}
+    >
+      <span style={{ whiteSpace: "pre-line", fontWeight: 700 }}>{punkt.text}</span>
+      {punkt.absatz && <p style={{ margin: "8px 0 0", whiteSpace: "pre-line" }}>{punkt.absatz}</p>}
       {punkt.kinder?.length > 0 && (
-        <ul className="liste" style={{ marginTop: 8 }}>
+        <ul className="liste" style={{ marginTop: 10 }}>
           {punkt.kinder.map((kind, i) => <Listenpunkt key={i} punkt={kind} />)}
         </ul>
       )}
@@ -142,21 +152,96 @@ function Inhalt({ element }) {
     return <h4 style={{ margin: "14px 0 6px", fontFamily: "var(--serif)", textDecoration: "underline" }}>{element.text}</h4>;
   }
   if (element.typ === "text") return <p style={{ margin: "0 0 10px", whiteSpace: "pre-line" }}>{element.text}</p>;
-  if (element.typ === "uebergang") return <p style={{ margin: "14px 0 10px", fontStyle: "italic" }}>{element.text}</p>;
-  if (element.typ === "verweis") return <p style={{ margin: "10px 0 14px", paddingLeft: 30 }}>{element.text}</p>;
-  if (element.typ === "schritt") {
+  if (element.typ === "uebergang") {
     return (
-      <p style={{ margin: "0 0 4px" }}>
-        <strong style={{ textDecoration: "underline" }}>{element.label}</strong> {element.text}
+      <p
+        style={{
+          margin: "14px 0 10px",
+          padding: "9px 12px",
+          borderLeft: `4px solid ${farben.hinweis}`,
+          background: "var(--feld)",
+          fontStyle: "italic",
+          fontWeight: 650,
+        }}
+      >
+        {element.text}
       </p>
     );
   }
+  if (element.typ === "verweis") {
+    return (
+      <p
+        style={{
+          margin: "10px 0 14px",
+          padding: "8px 12px",
+          border: "1px dashed var(--linie)",
+          borderRadius: 8,
+          fontWeight: 650,
+        }}
+      >
+        {element.text}
+      </p>
+    );
+  }
+  if (element.typ === "schritt") {
+    return (
+      <div
+        data-aavv-schritt={element.badge || undefined}
+        style={{
+          display: "grid",
+          gridTemplateColumns: element.badge ? "42px minmax(0, 1fr)" : "1fr",
+          gap: 12,
+          alignItems: "start",
+          margin: "0 0 10px",
+          padding: "12px 14px",
+          border: "1px solid var(--linie)",
+          borderRadius: 10,
+          background: "var(--feld)",
+          boxShadow: "0 1px 0 rgba(0, 0, 0, 0.04)",
+        }}
+      >
+        {element.badge && (
+          <span
+            aria-label={`AAVV ${element.badge}`}
+            style={{
+              width: 34,
+              height: 34,
+              borderRadius: "50%",
+              border: `2px solid ${aavvBlau}`,
+              color: aavvBlau,
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontWeight: 850,
+              fontSize: 17,
+              lineHeight: 1,
+              background: "rgba(37, 99, 235, 0.08)",
+            }}
+          >
+            {element.badge}
+          </span>
+        )}
+        <p style={{ margin: "5px 0 0", lineHeight: 1.5 }}>
+          <strong style={{ textDecoration: "underline", textUnderlineOffset: "3px" }}>{element.label}</strong>{" "}
+          <span style={{ whiteSpace: "pre-line" }}>{element.text}</span>
+        </p>
+      </div>
+    );
+  }
   if (element.typ === "liste") {
-    return <ul className="liste" style={{ marginTop: 8 }}>{element.punkte.map((p, i) => <Listenpunkt key={i} punkt={p} />)}</ul>;
+    return <ul className="liste" style={{ marginTop: 10, padding: "10px 14px 4px 34px" }}>{element.punkte.map((p, i) => <Listenpunkt key={i} punkt={p} />)}</ul>;
   }
   if (element.typ === "nummernKomplex") {
     return (
-      <ol start={element.start || 1} style={{ paddingLeft: 26, margin: "8px 0 12px" }}>
+      <ol
+        start={element.start || 1}
+        style={{
+          paddingLeft: 30,
+          margin: "8px 0 12px",
+          display: "grid",
+          gap: 8,
+        }}
+      >
         {element.punkte.map((p, i) => <KomplexerPunkt key={i} punkt={p} />)}
       </ol>
     );
