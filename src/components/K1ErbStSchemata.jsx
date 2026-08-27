@@ -93,7 +93,6 @@ function Erwerb() {
     ["=", "Bereicherung", ""],
     ["−", "persönlicher Freibetrag", "§ 16 ErbStG"],
     ["+", "Vorerwerbe ≤ 10 Jahre", "§ 14 Abs. 1 S. 1 ErbStG"],
-    ["−", "ggf. persönlicher Freibetrag im §-14-Mechanismus", "§ 16 ErbStG"],
     ["−", "ggf. Versorgungsfreibetrag", "§ 17 ErbStG"],
     ["−", "ggf. Zugewinnregel", "§ 5 ErbStG"],
     ["=", "steuerpflichtiger Erwerb", ""],
