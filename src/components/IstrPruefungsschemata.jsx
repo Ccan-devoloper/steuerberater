@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import "./istr-merkhilfe.css";
 
 /* Darstellung bewusst eng an src/components/Pruefungsschemata.jsx (Bilanzen):
    gleiche Farblogik, Filterzeile, Kartenkopf, Blockaufbau und Quellenfuß. */
@@ -60,11 +61,13 @@ export const istrSchemata = [
               },
               {
                 text: "§ 1 Abs. 4 EStG?",
+                merkhilfe: "eis",
                 buchstaben: [
-                  { text: "1 der 7" },
-                  { text: "Inländische Einkünfte § 49 EStG" },
+                  { text: "1 der 7", merk: "E" },
+                  { text: "Inländische Einkünfte § 49 EStG", merk: "I" },
                   {
                     text: "Wie kommt der Staat an die Kohle?",
+                    merk: "S",
                     kinder: [
                       {
                         text: "Steuerabzug: § 38 ff. EStG, § 43 ff. EStG, § 50a EStG",
@@ -105,10 +108,30 @@ export const istrSchemata = [
   },
 ];
 
+/* Handgezeichnetes Eis als Merkbild zu "EIS". Reine Gedächtnisstütze, deshalb
+   aria-hidden - die Bedeutung tragen die Buchstaben und der Hinweistext. */
+function EisBild() {
+  return (
+    <svg className="istr-eis" viewBox="0 0 90 120" aria-hidden="true" focusable="false">
+      <g fill="none" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="46" cy="22" r="16" stroke="#2f6fd0" />
+        <circle cx="27" cy="39" r="14" stroke="#e03b3b" />
+        <circle cx="58" cy="40" r="16" stroke="#2fbf5f" />
+        <g stroke="#b98a5e">
+          <path d="M16 54 L72 54 L44 112 Z" />
+          <path d="M24 68 L50 94 M34 59 L62 87 M50 58 L68 76" />
+          <path d="M64 68 L38 94 M54 59 L26 87 M38 58 L20 76" />
+        </g>
+      </g>
+    </svg>
+  );
+}
+
 function Listenpunkt({ punkt }) {
   if (typeof punkt === "string") return <li style={{ marginBottom: 6, whiteSpace: "pre-line" }}>{punkt}</li>;
   return (
-    <li style={{ marginBottom: 6 }}>
+    <li style={{ marginBottom: 6, position: punkt.merk ? "relative" : undefined }}>
+      {punkt.merk && <span className="istr-merk" aria-hidden="true">{punkt.merk}</span>}
       <span style={{ whiteSpace: "pre-line" }}>{punkt.text}</span>
       {punkt.kinder?.length > 0 && (
         <ul className="liste" style={{ marginTop: 8 }}>
@@ -139,9 +162,26 @@ function KomplexerPunkt({ punkt }) {
         </ul>
       )}
       {punkt.buchstaben?.length > 0 && (
-        <ol type="a" style={{ paddingLeft: 24, margin: "10px 0 4px" }}>
-          {punkt.buchstaben.map((kind, i) => <Listenpunkt key={i} punkt={kind} />)}
-        </ol>
+        punkt.merkhilfe === "eis" ? (
+          <div style={{ position: "relative" }}>
+            <EisBild />
+            <ol
+              type="a"
+              className="istr-merkliste"
+              style={{ paddingLeft: 58, margin: "10px 90px 4px 0" }}
+              aria-describedby="istr-merk-eis"
+            >
+              {punkt.buchstaben.map((kind, i) => <Listenpunkt key={i} punkt={kind} />)}
+            </ol>
+            <p className="istr-merk-hinweis" id="istr-merk-eis">
+              Merkhilfe EIS: Einkunftsart · Inländische Einkünfte · Steuerabzug
+            </p>
+          </div>
+        ) : (
+          <ol type="a" style={{ paddingLeft: 24, margin: "10px 0 4px" }}>
+            {punkt.buchstaben.map((kind, i) => <Listenpunkt key={i} punkt={kind} />)}
+          </ol>
+        )
       )}
     </li>
   );

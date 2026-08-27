@@ -103,6 +103,8 @@ const seite2 = [
   "Rückausnahme kein PVB nach § 32b Abs. 1 S. 2 … EStG",
 ];
 
+const merkCss = fs.readFileSync(path.join(root, "src/components/istr-merkhilfe.css"), "utf8");
+
 for (const marker of seite1) assert(schema.includes(marker), `Quellseite 1 unvollständig; fehlt: ${marker}`);
 for (const marker of seite2) assert(schema.includes(marker), `Quellseite 2 unvollständig; fehlt: ${marker}`);
 
@@ -111,4 +113,19 @@ for (const marker of seite2) assert(schema.includes(marker), `Quellseite 2 unvol
 assert(!schema.includes("Persönliches PDF für"), "Personalisierungszeile aus dem PDF wurde veröffentlicht");
 assert(!campus.includes("Persönliches PDF für"), "Personalisierungszeile aus dem PDF wurde im Campus veröffentlicht");
 
-console.log(`K2 IStR OK: 1 Prüfschema, ${seiten.length}/2 Quellseiten, AAVV visuell markiert und ${seite1.length + seite2.length} fachliche Vollständigkeitsmarker.`);
+/* Merkhilfe EIS zu § 1 Abs. 4 EStG: Die drei Buchstaben gehoeren an die Punkte
+   a bis c, das Merkbild ist reine Gedaechtnisstuetze. */
+const merk = [...schema.matchAll(/merk: "([EIS])"/g)].map((m) => m[1]);
+assert(merk.join("") === "EIS", `Merkbuchstaben müssen E, I, S in dieser Reihenfolge sein, gefunden: ${merk.join("") || "keine"}`);
+assert(schema.includes('merkhilfe: "eis"'), "Merkhilfe ist nicht am Punkt § 1 Abs. 4 EStG hinterlegt");
+assert(schema.includes("function EisBild"), "Merkbild fehlt");
+assert(
+  schema.includes("Merkhilfe EIS: Einkunftsart · Inländische Einkünfte · Steuerabzug"),
+  "Der Merkhilfe fehlt die ausgeschriebene Auflösung",
+);
+assert(
+  merkCss.includes("color: var(--gruen)"),
+  "Die Merkbuchstaben müssen das Grün des Designsystems nutzen, damit sie in beiden Themes lesbar bleiben",
+);
+
+console.log(`K2 IStR OK: 1 Prüfschema, ${seiten.length}/2 Quellseiten, AAVV visuell markiert, Merkhilfe EIS vorhanden und ${seite1.length + seite2.length} fachliche Vollständigkeitsmarker.`);

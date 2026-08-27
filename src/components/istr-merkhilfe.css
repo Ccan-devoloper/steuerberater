@@ -1,0 +1,44 @@
+/* Merkhilfe "EIS" am Prüfungsschema Internationales Steuerrecht.
+
+   Die Buchstaben stehen in einer eigenen Randspalte links neben den
+   Buchstabenpunkten. Sie hängen jeweils am zugehörigen Listenpunkt, nicht an
+   einer festen Höhe - dadurch bleiben sie ausgerichtet, egal wie hoch der
+   Punkt umbricht. */
+
+.istr-merkliste { position: relative; }
+
+/* Der Buchstabe steht links vom a./b./c.-Marker, nicht darauf: Die Liste
+   bekommt dafür zusätzliche linke Einrückung. */
+.istr-merk {
+  position: absolute;
+  left: -52px;
+  top: -2px;
+  width: 30px;
+  text-align: center;
+  font: 700 21px/1.2 var(--serif, Georgia, serif);
+  color: var(--gruen);
+  user-select: none;
+}
+
+/* Das Eis steht rechts neben den ersten Punkten, wie in der Vorlage.
+   Es ist reine Merkhilfe und wird deshalb bei schmalen Spalten ausgeblendet,
+   statt den Text zu verdrängen. */
+.istr-eis {
+  position: absolute;
+  right: 6px;
+  top: 0;
+  width: 74px;
+  height: auto;
+  pointer-events: none;
+}
+
+.istr-merk-hinweis {
+  margin: 10px 0 0;
+  font: 600 11px/1.5 var(--mono);
+  color: var(--gruen);
+  letter-spacing: .02em;
+}
+
+@media (max-width: 900px) {
+  .istr-eis { display: none; }
+}
