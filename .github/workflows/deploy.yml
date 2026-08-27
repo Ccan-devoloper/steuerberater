@@ -79,4 +79,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .github/deploy-last.json
           git commit -m "ci: Pages-Deploy ${DEPLOYED_SHA}" || true
-          git push
+          # Zwischen dem Rebase oben und dem Push kann ein weiterer Commit auf main
+          # landen; dann lehnt GitHub den Push ab. Einmal nachziehen und erneut
+          # pushen - dieselbe Absicherung wie beim Validierungsstatus.
+          git push || (git pull --rebase origin main && git push)
