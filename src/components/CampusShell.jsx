@@ -20,6 +20,7 @@ const K1MeurerKurzskriptEnhancer = lazy(() => import("./K1MeurerKurzskriptEnhanc
 const KstCampus = lazy(() => import("./KstCampus"));
 const KstOriginalSchemataEnhancer = lazy(() => import("./KstOriginalSchemataEnhancer"));
 const K2PlatzhalterCampus = lazy(() => import("./K2PlatzhalterCampus"));
+const K2IStRCampus = lazy(() => import("./K2IStRCampus"));
 const K3PersGCampus = lazy(() => import("./K3PersGCampus"));
 const K3UmwStRCampus = lazy(() => import("./K3UmwStRCampus"));
 
@@ -80,6 +81,9 @@ export default function CampusShell() {
     );
   }
   if (campus === "kst") {
+    if (k2Fach === "istr") {
+      return <Suspense fallback={<Laden />}><K2IStRCampus onKlausurwechsel={wechseln} onFachwechsel={k2FachWechseln} /></Suspense>;
+    }
     if (k2Fach === "est" || k2Fach === "gewst") {
       return <Suspense fallback={<Laden />}><K2PlatzhalterCampus fach={k2Fach} onKlausurwechsel={wechseln} onFachwechsel={k2FachWechseln} /></Suspense>;
     }
