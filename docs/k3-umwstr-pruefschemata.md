@@ -126,37 +126,49 @@ sichtbaren Hinweis anstelle einer leeren Fläche ein
 
 ## Hausaufgaben 1–3
 
-Neben den Prüfschemata liegen drei Hausaufgaben mit Lösung von RA/StB U. Breier
-vor, erreichbar über den Reiter **Hausaufgaben**:
+Drei Hausaufgaben mit Lösung von RA/StB U. Breier, erreichbar über den Reiter
+**Hausaufgaben**, gegliedert nach Sachverhalten wie die AO-Hausaufgaben:
 
-| Hausaufgabe | Thema | Seiten | Lösung ab Seite |
-| --- | --- | --- | --- |
-| 1 | Einlage und Einbringung in die KapGes, Option § 1a KStG | 24 | 10 |
-| 2 | Einbringung gem. §§ 20 und 21 UmwStG | 23 | 8 |
-| 3 | Verschmelzung und Umwandlung in ein Personenunternehmen | 29 | 8 |
+| Hausaufgabe | Sachverhalte | Seiten |
+| --- | --- | --- |
+| 1 | Dr. Finke (S. 2–6 / 10–16) · A-OHG mit § 1a KStG (S. 7–9 / 16–24) | 24 |
+| 2 | Dr. Franke (S. 2–3 / 8–12) · Bauer und Schmidt (S. 3–5 / 12–19) · Z-GmbH-Anteile (S. 5–7 / 19–23) | 23 |
+| 3 | Aufwärtsverschmelzung (S. 2–5 / 8–17) · Formwechsel M-GmbH (S. 5–7 / 17–29) | 29 |
 
-Summe: **76 Seiten**, wörtlich 1:1 übernommen.
+Summe: **76 Seiten**, wörtlich 1:1, in **7 Sachverhalten**.
 
-Der Aufbau folgt den Bilanz-Hausaufgaben: eine strukturierte Kurzfassung für
-Übersicht, Suche und Themenfilter, dazu der Volltext, der erst beim Aufklappen
-geladen wird. Die Ansicht nutzt `HausaufgabenDokument`, die Seitenaufteilung und
-das Stylesheet der bestehenden Hausaufgaben unverändert mit.
+### Darstellung
+
+Übernommen von den AO-Hausaufgaben: kein Monospace-Abbild der PDF, sondern
+digitaler Fließtext in der Dokumentschrift über die volle Inhaltsbreite. Der
+**Fettdruck stammt aus den Schriftinformationen der Quelle** und wird nicht
+geraten; aufeinanderfolgende Zeilen gleicher Auszeichnung bilden einen Absatz.
+Die Aufgabe steht offen, die Lösung bleibt bis zum Aufklappen verborgen.
+
+Eine Ergänzung gegenüber den AO-Hausaufgaben war nötig: Die UmwStR-Aufgaben
+enthalten deutlich mehr Bilanzen und Berechnungen. Als Fließtext wird daraus
+„Grundstück 10.000 Darlehensverb. Bank 440.000" – unlesbar. Solche Zeilen
+werden deshalb erkannt und behalten in einem eigenen Block ihre Ausrichtung.
+
+Die Erkennung verlangt einen Abstand von **mindestens drei** Leerzeichen, hinter
+dem ein Zahlenfeld steht, oder eine reine Zahlenzeile. Ein Doppelabstand genügt
+bewusst nicht: Der Blocksatz der Quellen erzeugt solche Lücken auch mitten im
+Satz. Eine einzelne Zahlenzeile gilt nicht als Aufstellung, weil sie meist die
+Fortsetzung des vorangehenden Satzes ist.
 
 | Datei | Inhalt |
 | --- | --- |
 | `src/components/K3UmwStRHausaufgaben.jsx` | Ansicht |
-| `src/data/k3-umwstr-hausaufgaben.js` | Kurzfassung je Hausaufgabe |
-| `src/data/k3-umwstr-hausaufgaben-volltext-meta.js` | Seiten, Zeichen, SHA-256 |
-| `src/data/k3-umwstr-hausaufgaben-volltext.js` | Loader mit Integritätsprüfung |
-| `src/data/k3-umwstr-hausaufgaben-volltext/*.b64` | gzip-komprimierte Textblöcke |
-| `src/data/k3-umwstr-hausaufgaben-teilen.js` | Trennung Aufgabe/Lösung |
+| `src/components/k3-umwstr-hausaufgaben.css` | Gestaltung der Aufstellungen |
+| `src/data/k3-umwstr-ha-faelle.js` | Gliederung nach Sachverhalten |
+| `src/data/k3-umwstr-ha-original-N.js` | Seitentexte je Hausaufgabe |
+| `src/data/k3-umwstr-ha-font-N.js` | Zeilenweise Schriftinformation |
 
-Die Volltexte werden mit `page.get_text("text", sort=True)` aus PyMuPDF
-extrahiert. Gegengeprüft: Gegenüber der einfachen Extraktion geht dabei kein
-Token verloren, die Spalten- und Tabellenausrichtung bleibt aber erhalten – was
-für die `<pre>`-Darstellung entscheidend ist.
+Die Ansicht wird per `lazy()` erst beim Öffnen des Reiters geladen; die
+Originaltexte samt Schriftinformation liegen damit nicht im Campus-Chunk.
 
 Die Personalisierungszeile der Quell-PDFs ist entfernt, wie bei allen übrigen
-Hausaufgaben. `npm run check:k3-umwstr-hausaufgaben` entpackt die ausgelieferten
-Textblöcke und prüft Zeichenzahl, SHA-256, lückenlose Seitenmarken, die
-Trennstelle zur Lösung und die Abwesenheit der Personalisierungszeile.
+Hausaufgaben. `npm run check:k3-umwstr-hausaufgaben` prüft Seitenzahl,
+Vollständigkeit der Texte und Schriftinformationen, lückenlose Zuordnung jeder
+Seite zu einem Sachverhalt, den Beginn der Lösung und die Abwesenheit der
+Personalisierungszeile.
