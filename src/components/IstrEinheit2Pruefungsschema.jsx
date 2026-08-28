@@ -81,7 +81,7 @@ export const istrEinheit2Schemata = [
         badge: "A",
         inhalt: [
           { typ: "schritt", nummer: "A3", label: "Art. 4 Abs. 1", text: "Ansässigkeit nach den im Abkommen genannten Anknüpfungsmerkmalen bestimmen." },
-          { typ: "untertitel", text: "Doppelansässigkeit: Tie-Breaker in dieser Reihenfolge" },
+          { typ: "untertitel", text: "Art. 4 Abs. 2 – Doppelansässigkeit: Tie-Breaker in dieser Reihenfolge" },
           { typ: "tieBreaker", punkte: [
             "ständige Wohnstätte",
             "Mittelpunkt der Lebensinteressen",
