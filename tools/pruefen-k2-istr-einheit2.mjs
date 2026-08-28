@@ -31,7 +31,6 @@ assert(module.length === 9, `9 Lernmodule erwartet, gefunden: ${module.length}`)
 assert(faelle.length === 5, `5 Fall-/Transferstrecken erwartet, gefunden: ${faelle.length}`);
 assert(training.length >= 8, `mindestens 8 Trainingsfragen erwartet, gefunden: ${training.length}`);
 
-/* Jede physische PDF-Seite muss exakt einmal einem Quellenbereich zugeordnet sein. */
 assert(ranges.length > 0, "Quellenbereiche fehlen");
 assert(ranges[0].start === 1, `Quellenzuordnung beginnt bei ${ranges[0].start} statt 1`);
 let gezaehlt = 0;
@@ -66,7 +65,6 @@ for (const f of faelle) {
   assert(ranges.some((r) => (r.caseIds || []).includes(f.id)), `${f.id}: in der 453-Frame-Zuordnung nicht verankert`);
 }
 
-/* Fachliche Marker, die aus den über alle 453 Frames geprüften Themenclustern stammen. */
 for (const marker of [
   "§ 1 Abs. 3 EStG", "90-%", "Grundfreibetrag", "§ 1 Abs. 4 EStG", "EIS",
   "§ 49 Abs. 1 Nr. 5 EStG", "§ 50 Abs. 2 EStG", "9 K 1179/20",
@@ -77,9 +75,8 @@ for (const marker of [
   assert(datenText.includes(marker), `fachlicher Quellenmarker fehlt: ${marker}`);
 }
 
-/* Campus muss jetzt dieselbe Struktur wie die anderen gebietsübergreifenden Fächer anbieten. */
 for (const marker of [
-  '["cockpit",',
+  '{ id: "cockpit"',
   'id: "module"',
   'id: "faelle"',
   'id: "schema"',
@@ -96,7 +93,6 @@ for (const marker of [
   assert(campus.includes(marker), `Campus-Marker fehlt: ${marker}`);
 }
 
-/* Schemata: Bilanzen-nahe Filter/Panel/Blockdarstellung, EIS und blau umkreistes AAVV. */
 for (const marker of [
   'id: "istr2-schema-eis"',
   'id: "istr2-schema-aavv"',
@@ -125,7 +121,6 @@ for (const marker of [
   assert(css.includes(marker), `CSS-Marker fehlt: ${marker}`);
 }
 
-/* Der öffentliche Campus soll keine Screenshots mit privaten Notability-/Personenansichten veröffentlichen. */
 for (const text of [campus, schema, datenText]) {
   assert(!/\.webp|\.jpe?g|\.png/i.test(text), "Einheit 2 referenziert unerwartet ein Screenshot-Bild");
   assert(!text.includes("Persönliches PDF für"), "Personalisierungszeile wurde übernommen");
