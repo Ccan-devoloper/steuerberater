@@ -7,6 +7,7 @@ import {
 import {
   istrEinheit3Quelle, istrEinheit3Module, istrEinheit3Faelle, istrEinheit3Training, istrEinheit3CaptureRanges,
 } from "./istr-einheit-3.js";
+import { verknuepfeIstrOriginalfall } from "./istr-originalfaelle.js";
 
 export const istrBereiche = [
   { id: "alle", label: "Alle" },
@@ -63,10 +64,41 @@ export const istrModule = [
   ...istrEinheit3Module,
 ];
 
+function fallMitOriginaldarstellung(fall) {
+  const verknuepft = verknuepfeIstrOriginalfall(fall);
+  if (!verknuepft.originalCase) return verknuepft;
+
+  const original = verknuepft.originalCase;
+  const facts = [];
+  if (original.preface) facts.push(original.preface);
+  for (const abschnitt of original.sections || []) {
+    if (abschnitt.heading) facts.push(abschnitt.heading);
+    facts.push(...(abschnitt.paragraphs || []));
+  }
+  facts.push("Aufgabe:", ...(original.task || []));
+
+  const solution = [];
+  if (verknuepft.solutionNote) solution.push(verknuepft.solutionNote);
+  for (const abschnitt of verknuepft.solutionSections || []) {
+    solution.push(abschnitt.title, ...(abschnitt.steps || []));
+  }
+
+  return {
+    ...verknuepft,
+    title: original.title,
+    facts,
+    solution,
+    originalSource: original.source,
+    originalCopyright: original.copyright,
+    sourceNote: original.sourceNote || null,
+    wortlautgetreu: true,
+  };
+}
+
 export const istrFaelle = [
-  ...istrEinheit1Faelle.map((f) => ({ ...f, unit: 1 })),
-  ...istrEinheit2Faelle.map((f) => ({ ...f, unit: 2 })),
-  ...istrEinheit3Faelle,
+  ...istrEinheit1Faelle.map((f) => fallMitOriginaldarstellung({ ...f, unit: 1 })),
+  ...istrEinheit2Faelle.map((f) => fallMitOriginaldarstellung({ ...f, unit: 2 })),
+  ...istrEinheit3Faelle.map((f) => fallMitOriginaldarstellung({ ...f, unit: f.unit || 3 })),
 ];
 
 export const istrTraining = [
