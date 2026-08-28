@@ -1,9 +1,9 @@
 import {
   istrEinheit1Quelle, istrEinheit1Module, istrEinheit1Faelle, istrEinheit1Training, istrEinheit1CaptureRanges,
-} from "./istr-einheit-1";
+} from "./istr-einheit-1.js";
 import {
   istrEinheit2Quelle, istrEinheit2Module, istrEinheit2Faelle, istrEinheit2Training, istrEinheit2CaptureRanges,
-} from "./istr-einheit-2";
+} from "./istr-einheit-2.js";
 
 export const istrBereiche = [
   { id: "alle", label: "Alle" },
