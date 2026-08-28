@@ -62,13 +62,21 @@ for (const r of ranges) {
   for (const id of r.moduleIds || []) assert(alleModulIds.has(id), `Quellenbereich ${r.start}–${r.end} referenziert unbekanntes Modul ${id}`);
   for (const id of r.caseIds || []) assert(alleFallIds.has(id), `Quellenbereich ${r.start}–${r.end} referenziert unbekannten Fall ${id}`);
 }
+const seiteIstZugeordnet = (seite) => ranges.some((r) => r.start <= seite && r.end >= seite);
 for (const m of module) {
   assert(m.unit === 1, `${m.id}: Einheit nicht als 1 markiert`);
   assert(m.sourceFrames?.length > 0, `${m.id}: Quellenframes fehlen`);
   assert(m.normchain?.length > 0 && m.scheme?.length > 0 && m.goals?.length > 0, `${m.id}: Normkette, Prüfschritte oder Lernziele fehlen`);
   for (const id of m.links || []) assert(alleModulIds.has(id), `${m.id}: unbekannter Modul-Querverweis ${id}`);
   for (const id of m.caseIds || []) assert(alleFallIds.has(id), `${m.id}: unbekannter Fall-Querverweis ${id}`);
-  assert(ranges.some((r) => (r.moduleIds || []).includes(m.id)), `${m.id}: in der 342-Seiten-Zuordnung nicht verankert`);
+  for (const [a, b] of m.sourceFrames) {
+    assert(Number.isInteger(a) && Number.isInteger(b) && a >= 1 && b <= 342 && a <= b, `${m.id}: ungültiger Quellenbereich ${a}–${b}`);
+    assert(seiteIstZugeordnet(a) && seiteIstZugeordnet(b), `${m.id}: Quellenbereich ${a}–${b} liegt außerhalb der 342-Seiten-Zuordnung`);
+  }
+  /* Ein Modul kann direkt im Quellenregister oder über einen Originalfall auf denselben Seiten verankert sein. */
+  const direkt = ranges.some((r) => (r.moduleIds || []).includes(m.id));
+  const ueberFall = (m.caseIds || []).some((fallId) => ranges.some((r) => (r.caseIds || []).includes(fallId)));
+  assert(direkt || ueberFall, `${m.id}: weder direkt noch über einen Quellenfall verankert`);
 }
 for (const f of faelle) {
   assert(f.unit === 1, `${f.id}: Einheit nicht als 1 markiert`);
