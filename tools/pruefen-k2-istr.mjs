@@ -25,7 +25,7 @@ assert(
 assert(shell.includes('const K2IStRCampus = lazy(() => import("./K2IStRCampus"));'), "IStR-Campus wird nicht lazy geladen");
 assert(shell.includes('if (k2Fach === "istr")'), "IStR-Routing in CampusShell fehlt");
 assert(campus.includes('<K2Fachleiste aktiv="istr"'), "IStR-Campus markiert den Fachreiter nicht aktiv");
-assert(campus.includes('useAnsichtVerlauf("schema")'), "IStR-Campus startet nicht beim derzeit einzigen Fachinhalt, dem Prüfschema");
+assert(campus.includes('useAnsichtVerlauf("cockpit")'), "IStR-Campus startet nach Ergänzung der Lernstrecke nicht im Cockpit");
 assert(campus.includes("<SchemaPostitEnhancer"), "Norm-/Querverweis-Anreicherung wie bei Bilanzen fehlt");
 
 for (const marker of [
@@ -38,7 +38,6 @@ for (const marker of [
   assert(schema.includes(marker), `Bilanzen-nahe Darstellungsmarke fehlt: ${marker}`);
 }
 
-/* Die nummerierten Hauptpruefschritte sollen als einzelne Karten erfassbar sein. */
 for (const marker of [
   'borderRadius: 10',
   'background: "var(--feld)"',
@@ -48,7 +47,6 @@ for (const marker of [
   assert(schema.includes(marker), `Prüfschritt-Hervorhebung fehlt: ${marker}`);
 }
 
-/* DBA-Merkschema A-A-V-V: jeder Buchstabe muss blau und einzeln umkreist sein. */
 const aavvBadges = [...schema.matchAll(/badge:\s*"([AV])"/g)].map((treffer) => treffer[1]);
 assert(aavvBadges.join("") === "AAVV", `DBA-AAVV-Badges erwartet, gefunden: ${aavvBadges.join("") || "keine"}`);
 for (const marker of [
@@ -108,24 +106,14 @@ const merkCss = fs.readFileSync(path.join(root, "src/components/istr-merkhilfe.c
 for (const marker of seite1) assert(schema.includes(marker), `Quellseite 1 unvollständig; fehlt: ${marker}`);
 for (const marker of seite2) assert(schema.includes(marker), `Quellseite 2 unvollständig; fehlt: ${marker}`);
 
-/* Die Personalisierungs-/Adresszeile des gelieferten PDFs ist kein Fachinhalt und
-   darf nicht versehentlich im öffentlichen Repository landen. */
 assert(!schema.includes("Persönliches PDF für"), "Personalisierungszeile aus dem PDF wurde veröffentlicht");
 assert(!campus.includes("Persönliches PDF für"), "Personalisierungszeile aus dem PDF wurde im Campus veröffentlicht");
 
-/* Merkhilfe EIS zu § 1 Abs. 4 EStG: Die drei Buchstaben gehoeren an die Punkte
-   a bis c, das Merkbild ist reine Gedaechtnisstuetze. */
 const merk = [...schema.matchAll(/merk: "([EIS])"/g)].map((m) => m[1]);
 assert(merk.join("") === "EIS", `Merkbuchstaben müssen E, I, S in dieser Reihenfolge sein, gefunden: ${merk.join("") || "keine"}`);
 assert(schema.includes('merkhilfe: "eis"'), "Merkhilfe ist nicht am Punkt § 1 Abs. 4 EStG hinterlegt");
 assert(schema.includes("function EisBild"), "Merkbild fehlt");
-assert(
-  schema.includes("Merkhilfe EIS: Einkunftsart · Inländische Einkünfte · Steuerabzug"),
-  "Der Merkhilfe fehlt die ausgeschriebene Auflösung",
-);
-assert(
-  merkCss.includes("color: var(--gruen)"),
-  "Die Merkbuchstaben müssen das Grün des Designsystems nutzen, damit sie in beiden Themes lesbar bleiben",
-);
+assert(schema.includes("Merkhilfe EIS: Einkunftsart · Inländische Einkünfte · Steuerabzug"), "Der Merkhilfe fehlt die ausgeschriebene Auflösung");
+assert(merkCss.includes("color: var(--gruen)"), "Die Merkbuchstaben müssen das Grün des Designsystems nutzen, damit sie in beiden Themes lesbar bleiben");
 
-console.log(`K2 IStR OK: 1 Prüfschema, ${seiten.length}/2 Quellseiten, AAVV visuell markiert, Merkhilfe EIS vorhanden und ${seite1.length + seite2.length} fachliche Vollständigkeitsmarker.`);
+console.log(`K2 IStR Basis OK: 1 Basisschema, ${seiten.length}/2 Quellseiten, AAVV visuell markiert und Merkhilfe EIS vorhanden.`);
