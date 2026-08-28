@@ -9,9 +9,7 @@ const campusPath = path.join(root, "src/components/K2IStRCampus.jsx");
 const schemaPath = path.join(root, "src/components/IstrEinheit1Pruefungsschema.jsx");
 const assert = (ok, msg) => { if (!ok) throw new Error(`K2 IStR Einheit 1: ${msg}`); };
 
-for (const datei of [dataPath, gesamtPath, campusPath, schemaPath]) {
-  assert(fs.existsSync(datei), `Datei fehlt: ${path.relative(root, datei)}`);
-}
+for (const datei of [dataPath, gesamtPath, campusPath, schemaPath]) assert(fs.existsSync(datei), `Datei fehlt: ${path.relative(root, datei)}`);
 
 const data = await import(`${pathToFileURL(dataPath).href}?t=${Date.now()}`);
 const gesamt = await import(`${pathToFileURL(gesamtPath).href}?t=${Date.now()}`);
@@ -34,7 +32,6 @@ assert(module.length === 12, `12 Lernmodule erwartet, gefunden: ${module.length}
 assert(faelle.length === 11, `11 Fall-/Transferstrecken erwartet, gefunden: ${faelle.length}`);
 assert(training.length >= 12, `mindestens 12 Trainingsfragen erwartet, gefunden: ${training.length}`);
 
-/* Jede physische Seite muss exakt einmal einem Quellenbereich zugeordnet sein. */
 assert(ranges.length > 0, "Quellenbereiche fehlen");
 assert(ranges[0].start === 1, `Quellenzuordnung beginnt bei ${ranges[0].start} statt 1`);
 let gezaehlt = 0;
@@ -73,7 +70,6 @@ for (const m of module) {
     assert(Number.isInteger(a) && Number.isInteger(b) && a >= 1 && b <= 342 && a <= b, `${m.id}: ungültiger Quellenbereich ${a}–${b}`);
     assert(seiteIstZugeordnet(a) && seiteIstZugeordnet(b), `${m.id}: Quellenbereich ${a}–${b} liegt außerhalb der 342-Seiten-Zuordnung`);
   }
-  /* Ein Modul kann direkt im Quellenregister oder über einen Originalfall auf denselben Seiten verankert sein. */
   const direkt = ranges.some((r) => (r.moduleIds || []).includes(m.id));
   const ueberFall = (m.caseIds || []).some((fallId) => ranges.some((r) => (r.caseIds || []).includes(fallId)));
   assert(direkt || ueberFall, `${m.id}: weder direkt noch über einen Quellenfall verankert`);
@@ -85,59 +81,39 @@ for (const f of faelle) {
   assert(ranges.some((r) => (r.caseIds || []).includes(f.id)), `${f.id}: in der 342-Seiten-Zuordnung nicht verankert`);
 }
 
-/* Fachliche Vollständigkeitsmarker aus dem gesamten 342-Seiten-Mitschnitt. */
 for (const marker of [
-  "§ 1 Abs. 1 EStG", "§ 8 AO", "§ 9 AO",
-  "§ 34c", "§ 32d Abs. 5 EStG",
-  "§ 2a EStG", "§ 7 AStG",
-  "§ 1a EStG", "§ 26 EStG",
-  "§ 1 Abs. 3 EStG", "90 %", "Grundfreibetrag",
-  "§ 1 Abs. 4 EStG", "EIS",
-  "§ 49 EStG", "R 49.3",
-  "§ 50a EStG", "§ 50 EStG", "§ 50c EStG",
-  "§ 2 Nr. 1 KStG", "§ 6 AStG",
-  "Mohamed Nihad", "Shakira", "B-Limitada",
-  "Brasilien", "Chile", "Frankreich", "Italien",
-  "Klausur E 2022", "Klausurtransfer 2019", "Klausurtransfer 2021",
+  "§ 1 Abs. 1 EStG", "§ 8 AO", "§ 9 AO", "§ 34c", "§ 32d Abs. 5 EStG",
+  "§ 2a EStG", "§ 7 AStG", "§ 1a EStG", "§ 26 EStG", "§ 1 Abs. 3 EStG", "90 %", "Grundfreibetrag",
+  "§ 1 Abs. 4 EStG", "EIS", "§ 49 EStG", "R 49.3", "§ 50a EStG", "§ 50 EStG", "§ 50c EStG",
+  "§ 2 Nr. 1 KStG", "§ 6 AStG", "Mohamed Nihad", "Shakira", "B-Limitada",
+  "Brasilien", "Chile", "Frankreich", "Italien", "Klausur E 2022", "Klausurtransfer 2019", "Klausurtransfer 2021",
 ]) assert(datenText.includes(marker), `fachlicher Quellenmarker fehlt: ${marker}`);
 
-/* Sechs Einheit-1-Schemata, Bilanzen-nahe Karten und EIS-Darstellung. */
 for (const marker of [
-  'id: "istr1-schema-auslandseinkuenfte"',
-  'id: "istr1-schema-2a"',
-  'id: "istr1-schema-1a"',
-  'id: "istr1-schema-1abs3"',
-  'id: "istr1-schema-eis"',
-  'id: "istr1-schema-wegzug"',
-  'className="filter istr2-schema-filter"',
-  'className="panel istr2-schema-panel"',
-  'className="istr2-schema-block"',
-  'className="istr2-pruefschritt"',
+  'id: "istr1-schema-auslandseinkuenfte"', 'id: "istr1-schema-2a"', 'id: "istr1-schema-1a"',
+  'id: "istr1-schema-1abs3"', 'id: "istr1-schema-eis"', 'id: "istr1-schema-wegzug"',
+  'className="filter istr2-schema-filter"', 'className="panel istr2-schema-panel"',
+  'className="istr2-schema-block"', 'className="istr2-pruefschritt"',
   'badge: "E"', 'badge: "I"', 'badge: "S"',
   "§ 34c", "§ 32d Abs. 5", "§ 2a", "§ 1a", "§ 1 Abs. 3", "§ 49", "§ 50a", "§ 50", "Wegzug",
   'schemaId: "istr1-schema-eis"',
 ]) assert(schema.includes(marker), `Schema-/Darstellungsmarker fehlt: ${marker}`);
 
-/* Campus: tatsächliche Einheit 1 steht vor Einheit 2 und beide sind gemeinsam navigierbar. */
 for (const marker of [
-  "IstrEinheit1Pruefungsschema",
-  "IstrEinheit2Pruefungsschema",
+  "IstrEinheit1Pruefungsschema", "IstrEinheit2Pruefungsschema",
   "istrModule", "istrFaelle", "istrTraining", "istrQuellen",
   "Einheit 1 + 2", "Alle Einheiten",
-  "342", "453",
-  "<SchemaPostitEnhancer",
-  "Querverweise",
+  "istrEinheit1Quelle.pages", "istrEinheit2Quelle.pages",
+  "<SchemaPostitEnhancer", "Querverweise",
 ]) assert(campus.includes(marker), `Campus-Marker fehlt: ${marker}`);
 assert(campus.indexOf("<IstrEinheit1Pruefungsschema") < campus.indexOf("<IstrEinheit2Pruefungsschema"), "Einheit-1-Schemata stehen nicht vor Einheit 2");
 
-/* Aggregation: beide Einheiten und echte Querverweise in beide Richtungen. */
 for (const marker of ["...istrEinheit1Module", "...istrEinheit2Module", '"istr2-01": ["istr1-05"', '"istr2-04": ["istr1-01"']) {
   assert(gesamtText.includes(marker), `Einheiten-/Querverweis-Aggregation fehlt: ${marker}`);
 }
 assert(alleModule.filter((m) => m.unit === 1).length === 12, "Gesamtregister enthält nicht 12 Module aus Einheit 1");
 assert(alleModule.some((m) => m.unit === 2), "Einheit 2 ging bei der Neuordnung verloren");
 
-/* Keine privaten Unterrichtsscreenshots/Personalisierungszeilen ins öffentliche Repo übernehmen. */
 for (const text of [campus, schema, datenText, gesamtText]) {
   assert(!/\.webp|\.jpe?g|\.png/i.test(text), "unerwartete Screenshot-Bildreferenz im öffentlichen Einheit-1-Code");
   assert(!text.includes("Persönliches PDF für"), "Personalisierungszeile wurde übernommen");
