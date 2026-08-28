@@ -1,5 +1,5 @@
 {
-  "validated_sha": "4dfbae22a44e92d95ee78c8f5c163c211ac88dc8",
+  "validated_sha": "2823975a829c94fed90f75734fbdd6ab18bf84b1",
   "npm_ci": "success",
   "fallsammlung": "success",
   "fallsammlung_format": "success",
@@ -12,7 +12,7 @@
   "ao_einheit_6": "success",
   "ao_einheit_7": "success",
   "ao_einheit_8": "success",
-  "ao_shortskript_2025": "success",
+  "ao_shortskript_2025": "failure",
   "ao_hausaufgaben": "success",
   "k3_persg_tag1": "success",
   "k3_persg_tag2": "success",
