@@ -7,13 +7,15 @@ const dataPath = path.join(root, "src/data/istr-einheit-2.js");
 const campusPath = path.join(root, "src/components/K2IStRCampus.jsx");
 const schemaPath = path.join(root, "src/components/IstrEinheit2Pruefungsschema.jsx");
 const cssPath = path.join(root, "src/components/istr-einheit2.css");
+const gesamtPath = path.join(root, "src/data/istr-gesamt.js");
 const assert = (ok, msg) => { if (!ok) throw new Error(`K2 IStR Einheit 2: ${msg}`); };
 
-for (const datei of [dataPath, campusPath, schemaPath, cssPath]) {
+for (const datei of [dataPath, campusPath, schemaPath, cssPath, gesamtPath]) {
   assert(fs.existsSync(datei), `Datei fehlt: ${path.relative(root, datei)}`);
 }
 
 const data = await import(`${pathToFileURL(dataPath).href}?t=${Date.now()}`);
+const gesamt = await import(`${pathToFileURL(gesamtPath).href}?t=${Date.now()}`);
 const {
   istrEinheit2Quelle: quelle,
   istrEinheit2Module: module,
@@ -25,6 +27,7 @@ const campus = fs.readFileSync(campusPath, "utf8");
 const schema = fs.readFileSync(schemaPath, "utf8");
 const css = fs.readFileSync(cssPath, "utf8");
 const datenText = fs.readFileSync(dataPath, "utf8");
+const gesamtText = fs.readFileSync(gesamtPath, "utf8");
 
 assert(quelle.pages === 453, `453 Quellframes erwartet, deklariert: ${quelle.pages}`);
 assert(module.length === 9, `9 Lernmodule erwartet, gefunden: ${module.length}`);
@@ -55,7 +58,7 @@ for (const r of ranges) {
 for (const m of module) {
   assert(m.sourceFrames?.length > 0, `${m.id}: Quellenframes fehlen`);
   assert(m.normchain?.length > 0 && m.scheme?.length > 0, `${m.id}: Normkette oder Prüfschritte fehlen`);
-  for (const id of m.links || []) assert(modulIds.has(id), `${m.id}: unbekannter Modul-Querverweis ${id}`);
+  for (const id of m.links || []) assert(modulIds.has(id), `${m.id}: unbekannter interner Modul-Querverweis ${id}`);
   for (const id of m.caseIds || []) assert(fallIds.has(id), `${m.id}: unbekannter Fall-Querverweis ${id}`);
   assert(ranges.some((r) => (r.moduleIds || []).includes(m.id)), `${m.id}: in der 453-Frame-Zuordnung nicht verankert`);
 }
@@ -71,55 +74,29 @@ for (const marker of [
   "München", "Kitzbühel", "Graz", "Bonn", "Berlin Property", "Panama",
   "Art. 4 Abs. 2", "Mittelpunkt der Lebensinteressen", "Art. 5", "Art. 6", "Art. 7", "Art. 13", "Art. 15",
   "Art. 23", "§ 32b Abs. 1 S. 2 EStG",
-]) {
-  assert(datenText.includes(marker), `fachlicher Quellenmarker fehlt: ${marker}`);
-}
+]) assert(datenText.includes(marker), `fachlicher Quellenmarker fehlt: ${marker}`);
+
+/* Einheit 2 bleibt im gemeinsamen Campus vollständig erreichbar. */
+for (const marker of [
+  '{ id: "cockpit"', 'id: "module"', 'id: "faelle"', 'id: "schema"', 'id: "training"', 'id: "quellen"',
+  "istrModule", "istrFaelle", "istrTraining", "istrQuellen",
+  "istrEinheit2Quelle", "Einheit 1 + 2", "Alle Einheiten",
+  "<SchemaPostitEnhancer", "<IstrEinheit2Pruefungsschema", "Querverweise",
+]) assert(campus.includes(marker), `Campus-Marker fehlt: ${marker}`);
+assert(gesamt.istrModule.filter((m) => m.unit === 2).length === 9, "Gesamtcampus enthält nicht alle 9 Einheit-2-Module");
+assert(gesamt.istrFaelle.filter((f) => f.unit === 2).length === 5, "Gesamtcampus enthält nicht alle 5 Einheit-2-Fälle");
+assert(gesamtText.includes("...istrEinheit2Module"), "Einheit 2 wird nicht in das Gesamtregister aggregiert");
 
 for (const marker of [
-  '{ id: "cockpit"',
-  'id: "module"',
-  'id: "faelle"',
-  'id: "schema"',
-  'id: "training"',
-  'id: "quellen"',
-  "istrEinheit2Module",
-  "istrEinheit2Faelle",
-  "istrEinheit2CaptureRanges",
-  "453/453",
-  "<SchemaPostitEnhancer",
-  "<IstrEinheit2Pruefungsschema",
-  "Querverweise",
-]) {
-  assert(campus.includes(marker), `Campus-Marker fehlt: ${marker}`);
-}
-
+  'id: "istr2-schema-eis"', 'id: "istr2-schema-aavv"',
+  'className="filter istr2-schema-filter"', 'className="panel istr2-schema-panel"', 'className="istr2-schema-block"',
+  'badge: "E"', 'badge: "I"', 'badge: "S"', '["A", "A", "V", "V"]',
+  'const aavvBlau = "#2563eb";', "Art. 4 Abs. 2", "ständige Wohnstätte", "Mittelpunkt der Lebensinteressen",
+  "gewöhnlicher Aufenthalt", "Staatsangehörigkeit", "Verständigungsverfahren", "Art. 7 + Art. 5", "Art. 15", "§ 32b Abs. 1 S. 2 EStG",
+]) assert(schema.includes(marker), `Schema-Marker fehlt: ${marker}`);
 for (const marker of [
-  'id: "istr2-schema-eis"',
-  'id: "istr2-schema-aavv"',
-  'className="filter istr2-schema-filter"',
-  'className="panel istr2-schema-panel"',
-  'className="istr2-schema-block"',
-  'badge: "E"', 'badge: "I"', 'badge: "S"',
-  '["A", "A", "V", "V"]',
-  'const aavvBlau = "#2563eb";',
-  "Art. 4 Abs. 2",
-  "ständige Wohnstätte",
-  "Mittelpunkt der Lebensinteressen",
-  "gewöhnlicher Aufenthalt",
-  "Staatsangehörigkeit",
-  "Verständigungsverfahren",
-  "Art. 7 + Art. 5",
-  "Art. 15",
-  "§ 32b Abs. 1 S. 2 EStG",
-]) {
-  assert(schema.includes(marker), `Schema-Marker fehlt: ${marker}`);
-}
-for (const marker of [
-  ".istr2-aavv-badge", "border-radius: 50%", "#2563eb",
-  ".istr2-pruefschritt", ".istr2-schema-raster", ".istr2-tiebreaker", ".istr2-querverweis",
-]) {
-  assert(css.includes(marker), `CSS-Marker fehlt: ${marker}`);
-}
+  ".istr2-aavv-badge", "border-radius: 50%", "#2563eb", ".istr2-pruefschritt", ".istr2-schema-raster", ".istr2-tiebreaker", ".istr2-querverweis",
+]) assert(css.includes(marker), `CSS-Marker fehlt: ${marker}`);
 
 for (const text of [campus, schema, datenText]) {
   assert(!/\.webp|\.jpe?g|\.png/i.test(text), "Einheit 2 referenziert unerwartet ein Screenshot-Bild");
@@ -127,4 +104,4 @@ for (const text of [campus, schema, datenText]) {
 }
 assert(datenText.includes("Video- und Personenansicht – nicht reproduziert"), "private Abschlussframes sind nicht ausdrücklich technisch zugeordnet");
 
-console.log(`K2 IStR Einheit 2 OK: ${module.length} Module, ${faelle.length} Fälle/Transfers, ${ranges.length} Quellenbereiche und ${gezaehlt}/453 Frames lückenlos zugeordnet.`);
+console.log(`K2 IStR Einheit 2 OK: ${module.length} Module, ${faelle.length} Fälle/Transfers, ${ranges.length} Quellenbereiche und ${gezaehlt}/453 Frames lückenlos zugeordnet; im gemeinsamen Campus erhalten.`);
