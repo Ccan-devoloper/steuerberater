@@ -41,11 +41,41 @@ for (const marker of [
 for (const marker of [
   'borderRadius: 10',
   'background: "var(--feld)"',
-  'fontWeight: 700',
   'display: "grid"',
 ]) {
   assert(schema.includes(marker), `Prüfschritt-Hervorhebung fehlt: ${marker}`);
 }
+
+/* Die Hervorhebung der Prüfungspunkte liegt seit der Post-it-Darstellung im
+   Stylesheet statt im Inline-Stil. Geprueft wird daher die Wirkung, nicht mehr
+   die frühere Schreibweise fontWeight: 700. */
+const postitCss = fs.readFileSync(path.join(root, "src/components/istr-postit.css"), "utf8");
+assert(
+  /\.istr-postit__titel\s*\{[^}]*font-weight:\s*700/s.test(postitCss),
+  "Der Titel eines Prüfungspunktes muss weiterhin fett hervorgehoben sein",
+);
+
+/* Farbige Post-its an den Punkten 1, 2 und 4 - wie in der Vorlage; Punkt 3
+   (Wegzug) bleibt bewusst unmarkiert. */
+const postits = [...schema.matchAll(/postit: "(rot|orange|gruen)"/g)].map((m) => m[1]);
+assert(
+  postits.join(",") === "rot,orange,gruen",
+  `Post-it-Farben müssen rot, orange, grün in dieser Reihenfolge sein, gefunden: ${postits.join(",") || "keine"}`,
+);
+assert(
+  schema.includes('istr-postit istr-postit--${punkt.postit || "neutral"}'),
+  "Prüfungspunkte werden nicht als Post-it dargestellt",
+);
+for (const variante of ["--rot-feld", "--orange-feld", "--gruen-feld"]) {
+  assert(
+    postitCss.includes(`var(${variante})`),
+    `Post-it-Farbe ${variante} muss aus dem Designsystem kommen, damit beide Themes funktionieren`,
+  );
+}
+assert(
+  !/#[0-9a-f]{3,6}/i.test(postitCss),
+  "Post-it-Stylesheet darf keine festen Farbwerte enthalten - sonst bricht der Dunkelmodus",
+);
 
 const aavvBadges = [...schema.matchAll(/badge:\s*"([AV])"/g)].map((treffer) => treffer[1]);
 assert(aavvBadges.join("") === "AAVV", `DBA-AAVV-Badges erwartet, gefunden: ${aavvBadges.join("") || "keine"}`);
