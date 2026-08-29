@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from "react";
 import "./istr-merkhilfe.css";
+import "./istr-postit.css";
 
 /* Darstellung bewusst eng an src/components/Pruefungsschemata.jsx (Bilanzen):
    gleiche Farblogik, Filterzeile, Kartenkopf, Blockaufbau und Quellenfuß. */
@@ -29,6 +30,7 @@ export const istrSchemata = [
             punkte: [
               {
                 text: "§ 1 Abs. 1 S. 1 EStG?",
+                postit: "rot",
                 kinder: [
                   "DBA (AAVV)",
                   "§ 34c EStG / § 32d Abs. 5 EStG falls kein DBA",
@@ -46,6 +48,7 @@ export const istrSchemata = [
             punkte: [
               {
                 text: "§ 1 Abs. 3 EStG?",
+                postit: "orange",
                 absatz: "Antrag auf unb. Stpfl. mit inl. Einkünften nach § 49 EStG, damit Grundfreibetrag, Sonderausgaben und agB berücksichtigt werden, denn diese werden bei § 1 Abs. 4 EStG nicht berücksichtigt (§ 50 Abs. 1 S. 2, 4 EStG)",
               },
             ],
@@ -61,6 +64,7 @@ export const istrSchemata = [
               },
               {
                 text: "§ 1 Abs. 4 EStG?",
+                postit: "gruen",
                 merkhilfe: "eis",
                 buchstaben: [
                   { text: "1 der 7", merk: "E" },
@@ -144,17 +148,8 @@ function Listenpunkt({ punkt }) {
 
 function KomplexerPunkt({ punkt }) {
   return (
-    <li
-      style={{
-        marginBottom: 4,
-        padding: "13px 15px",
-        border: "1px solid var(--linie)",
-        borderRadius: 10,
-        background: "var(--feld)",
-        boxShadow: "0 1px 0 rgba(0, 0, 0, 0.04)",
-      }}
-    >
-      <span style={{ whiteSpace: "pre-line", fontWeight: 700 }}>{punkt.text}</span>
+    <li className={`istr-postit istr-postit--${punkt.postit || "neutral"}`}>
+      <span className="istr-postit__titel">{punkt.text}</span>
       {punkt.absatz && <p style={{ margin: "8px 0 0", whiteSpace: "pre-line" }}>{punkt.absatz}</p>}
       {punkt.kinder?.length > 0 && (
         <ul className="liste" style={{ marginTop: 10 }}>
