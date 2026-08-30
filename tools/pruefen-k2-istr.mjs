@@ -63,8 +63,9 @@ assert(
    IStR-Schema trägt seine Überschrift in einer Flex-Zeile und muss ihn
    deshalb ausdrücklich als data-schema-ton mitgeben. */
 const enhancer = fs.readFileSync(path.join(root, "src/components/SchemaPostitEnhancer.jsx"), "utf8");
+const postitCss = fs.readFileSync(path.join(root, "src/components/SchemaPostitEnhancer.css"), "utf8");
 assert(
-  schema.includes("data-schema-ton={block.ton}"),
+  schema.includes("data-schema-ton={block.postitTon || block.ton}"),
   "Ohne data-schema-ton reichert SchemaPostitEnhancer die IStR-Normen nicht an",
 );
 assert(
@@ -72,15 +73,60 @@ assert(
   "SchemaPostitEnhancer wertet data-schema-ton nicht aus",
 );
 assert(
-  enhancer.includes('const TOENE = new Set(["ansatz", "bewertung", "ausserbilanz", "hinweis"])'),
+  /TOENE\.has\(/.test(enhancer),
   "Ein unbekannter Ton muss verworfen werden, sonst entstehen Post-its ohne Farbe",
 );
 
-const toene = [...schema.matchAll(/ton: "(\w+)"/g)].map((m) => m[1]);
+const toene = [...schema.matchAll(/^\s*ton: "(\w+)"/gm)].map((m) => m[1]);
 assert(
   toene.join(",") === "ansatz,bewertung",
-  `Die beiden Quellseiten müssen die Töne ansatz und bewertung tragen, gefunden: ${toene.join(",") || "keine"}`,
+  `Der Blockakzent der beiden Quellseiten muss ansatz und bewertung bleiben, gefunden: ${toene.join(",") || "keine"}`,
 );
+
+/* Farben der Norm-Post-its: grundsätzlich grün, § 1 Abs. 3 EStG gelb, die
+   Normen in der Wegzugs-Klammer rosa. Blockakzent und Post-it-Farbe sind
+   bewusst getrennt - sonst kippt mit der Post-it-Farbe der Seitenrahmen. */
+const postitToene = [...schema.matchAll(/postitTon: "(\w+)"/g)].map((m) => m[1]);
+assert(
+  postitToene.join(",") === "gruen,rosa,gruen",
+  `Post-it-Farben erwartet: gruen, rosa, gruen - gefunden: ${postitToene.join(",") || "keine"}`,
+);
+assert(
+  schema.includes('postitTonNormen: { "§ 1 Abs. 3 EStG": "gelb" }'),
+  "§ 1 Abs. 3 EStG muss als einzige Fundstelle gelb sein",
+);
+assert(
+  schema.includes("data-schema-ton={punkt.postitTon}"),
+  "Ein Prüfungspunkt kann seinen Normen keine eigene Farbe geben",
+);
+assert(
+  schema.includes("data-schema-ton-normen={block.postitTonNormen"),
+  "Die fundstellengenaue Farbzuordnung wird nicht an den Enhancer übergeben",
+);
+
+for (const [name, quelle] of [
+  ["gruen", "--gruen-feld"],
+  ["gelb", "--fach-gelb"],
+]) {
+  assert(
+    new RegExp(`\\.schema-norm-postit--${name}\\s*\\{[^}]*var\\(${quelle}\\)`, "s").test(postitCss),
+    `Der Ton ${name} muss ${quelle} aus dem Designsystem nutzen, damit beide Themes funktionieren`,
+  );
+}
+assert(
+  /\.schema-norm-postit--schweinchen,\s*\n\.schema-norm-postit--rosa \{/.test(postitCss),
+  "Rosa muss sich die Palette mit den Schweinchen-Normen teilen, sonst weichen die Farben voneinander ab",
+);
+assert(
+  !/\.schema-norm-postit--rosa::before/.test(postitCss),
+  "Das Schweinchen-Zeichen ist den Schweinchen-Normen vorbehalten und darf nicht an rosa Post-its hängen",
+);
+for (const ton of ["gruen", "gelb", "rosa"]) {
+  assert(
+    new RegExp(`"${ton}"`).test(enhancer.match(/const TOENE = new Set\(\[[^\]]*\]\)/s)?.[0] || ""),
+    `Der Ton ${ton} fehlt in TOENE und würde stillschweigend verworfen`,
+  );
+}
 
 /* Die im Schema zitierten Gesetze müssen der Enhancer-Erkennung bekannt sein,
    sonst bleibt die Norm stummer Fließtext. */

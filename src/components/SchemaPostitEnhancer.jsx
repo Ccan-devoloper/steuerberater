@@ -108,7 +108,9 @@ const NORM_UEBERSCHRIFTEN = {
 
 const SCHWEINCHEN_REFERENZEN = new Set(["EStG/6b", "EStG/7b", "EStG/7g"]);
 
-const TOENE = new Set(["ansatz", "bewertung", "ausserbilanz", "hinweis"]);
+/* ansatz/bewertung/ausserbilanz/hinweis benennen den Prüfungsschritt (Bilanzen),
+   gruen/gelb/rosa benennen unmittelbar die Farbe (IStR). */
+const TOENE = new Set(["ansatz", "bewertung", "ausserbilanz", "hinweis", "gruen", "gelb", "rosa"]);
 
 function tonAusTitel(titel) {
   if (/^ansatz\s*:/i.test(titel)) return "ansatz";
@@ -272,7 +274,7 @@ function quelleErstellen(quelle, ton) {
   return gesetzNormgruppeErstellen(quelle, ton);
 }
 
-function textknotenErsetzen(textknoten, ton) {
+function textknotenErsetzen(textknoten, ton, normtoene) {
   const text = textknoten.nodeValue || "";
   const muster = new RegExp(QUELLEN_QUELLE, "g");
   const fragment = document.createDocumentFragment();
@@ -285,7 +287,7 @@ function textknotenErsetzen(textknoten, ton) {
     if (treffer.index > letzterIndex) {
       fragment.append(document.createTextNode(text.slice(letzterIndex, treffer.index)));
     }
-    fragment.append(quelleErstellen(treffer[0], ton));
+    fragment.append(quelleErstellen(treffer[0], tonFuerNorm(treffer[0], normtoene, ton)));
     letzterIndex = muster.lastIndex;
   }
 
@@ -316,6 +318,37 @@ function tonAusBlock(block) {
   return tonAusTitel(ueberschrift?.textContent?.trim() || "");
 }
 
+/* Einzelne Textstellen dürfen den Blockton überschreiben: Das nächstgelegene
+   Elternelement mit data-schema-ton gewinnt - so bekommt etwa die Klammer
+   hinter "Bei Wegzug" eine eigene Farbe. */
+function tonFuerKnoten(knoten, standard) {
+  const traeger = knoten.parentElement?.closest("[data-schema-ton]");
+  const ton = traeger?.dataset.schemaTon;
+  return ton && TOENE.has(ton) ? ton : standard;
+}
+
+/* data-schema-ton-normen bildet einzelne Fundstellen auf eine Farbe ab, wenn
+   sie sich nicht am Elternelement festmachen lassen - etwa § 1 Abs. 3 EStG,
+   das an drei verschiedenen Stellen im Fließtext steht. */
+function normtoeneLesen(block) {
+  const roh = block.dataset.schemaTonNormen;
+  if (!roh) return null;
+
+  try {
+    const karte = JSON.parse(roh);
+    return karte && typeof karte === "object" ? karte : null;
+  } catch {
+    /* Eine fehlerhafte Angabe darf die Anreicherung nicht sprengen. */
+    return null;
+  }
+}
+
+function tonFuerNorm(zitat, karte, standard) {
+  if (!karte) return standard;
+  const ton = karte[zitat.replace(/\s+/g, " ").trim()];
+  return ton && TOENE.has(ton) ? ton : standard;
+}
+
 function blockAktualisieren(block) {
   const ton = tonAusBlock(block);
 
@@ -338,7 +371,8 @@ function blockAktualisieren(block) {
 
   const textknoten = [];
   while (walker.nextNode()) textknoten.push(walker.currentNode);
-  textknoten.forEach((knoten) => textknotenErsetzen(knoten, ton));
+  const normtoene = normtoeneLesen(block);
+  textknoten.forEach((knoten) => textknotenErsetzen(knoten, tonFuerKnoten(knoten, ton), normtoene));
 }
 
 function schemaBloeckeAktualisieren(root) {

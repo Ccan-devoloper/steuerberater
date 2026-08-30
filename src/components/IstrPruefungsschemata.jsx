@@ -23,6 +23,8 @@ export const istrSchemata = [
         seite: 1,
         titel: "Schema Internationales Steuerrecht",
         ton: "ansatz",
+        postitTon: "gruen",
+        postitTonNormen: { "§ 1 Abs. 3 EStG": "gelb" },
         inhalt: [
           {
             typ: "nummernKomplex",
@@ -58,6 +60,7 @@ export const istrSchemata = [
             punkte: [
               {
                 text: "Bei Wegzug (§§ 2 Abs. 7 S. 3, 32b Abs. 1 S. 1 Nr. 2 EStG, §§ 2, 6 AStG, § 19 Abs. 3 InvStG)",
+                postitTon: "rosa",
               },
               {
                 text: "§ 1 Abs. 4 EStG?",
@@ -90,6 +93,7 @@ export const istrSchemata = [
         id: "istr-dba",
         titel: "Schema DBA",
         ton: "bewertung",
+        postitTon: "gruen",
         inhalt: [
           { typ: "schritt", badge: "A", label: "Anwendbarkeit:", text: "Art. 1 persönlich und Art. 2 Abs. 1 sachlich" },
           { typ: "schritt", badge: "A", label: "Ansässigkeit:", text: "Art. 4 Abs. 1" },
@@ -145,6 +149,7 @@ function Listenpunkt({ punkt }) {
 function KomplexerPunkt({ punkt }) {
   return (
     <li
+      data-schema-ton={punkt.postitTon}
       style={{
         marginBottom: 4,
         padding: "13px 15px",
@@ -293,7 +298,8 @@ function SchemaBlock({ block }) {
   return (
     <section
       id={block.id}
-      data-schema-ton={block.ton}
+      data-schema-ton={block.postitTon || block.ton}
+      data-schema-ton-normen={block.postitTonNormen ? JSON.stringify(block.postitTonNormen) : undefined}
       style={{
         border: "1px solid var(--linie)",
         borderLeft: `6px solid ${farben[block.ton] || farben.neutral}`,

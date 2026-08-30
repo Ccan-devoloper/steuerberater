@@ -72,6 +72,17 @@
   --postit-basis-rand: var(--gruen);
 }
 
+/* Unmittelbar benannte Farben - genutzt vom IStR-Schema */
+.schema-norm-postit--gruen {
+  --postit-basis-flaeche: var(--gruen-feld);
+  --postit-basis-rand: var(--gruen);
+}
+
+.schema-norm-postit--gelb {
+  --postit-basis-flaeche: var(--fach-gelb);
+  --postit-basis-rand: var(--fach-gelb-linie);
+}
+
 .schema-norm-postit--nicht-hgb {
   --postit-flaeche: color-mix(in srgb, var(--postit-basis-flaeche) 76%, var(--postit-basis-rand));
   --postit-rand: color-mix(in srgb, var(--postit-basis-rand) 82%, var(--ink));
@@ -300,8 +311,11 @@
   }
 }
 
-/* Sondermarkierung für die fünf „Schweinchen“-Normen */
-.schema-norm-postit--schweinchen {
+/* Sondermarkierung für die fünf „Schweinchen“-Normen; --rosa nutzt dieselbe
+   Palette ohne das Schweinchen-Zeichen, damit die Farbe identisch bleibt, die
+   Kennzeichnung der Schweinchen-Normen aber eindeutig bleibt. */
+.schema-norm-postit--schweinchen,
+.schema-norm-postit--rosa {
   --postit-flaeche: #ffd2e1;
   --postit-rand: #c72f70;
   border-color: #d64b82;
@@ -311,7 +325,8 @@
     0 .18em .44em rgb(91 25 54 / 18%);
 }
 
-.schema-norm-postit--schweinchen:visited {
+.schema-norm-postit--schweinchen:visited,
+.schema-norm-postit--rosa:visited {
   color: #4e1830;
 }
 
@@ -328,7 +343,9 @@
 }
 
 .schema-norm-postit--schweinchen:hover,
-.schema-norm-postit--schweinchen[data-schema-tooltip-aktiv] {
+.schema-norm-postit--schweinchen[data-schema-tooltip-aktiv],
+.schema-norm-postit--rosa:hover,
+.schema-norm-postit--rosa[data-schema-tooltip-aktiv] {
   border-color: #b6225f;
   color: #3f1027;
   filter: saturate(1.08) brightness(1.01);
@@ -361,7 +378,7 @@
   display: none;
 }
 
-.schema-norm-postit[data-schema-tooltip-aktiv]:not(.schema-norm-postit--schweinchen) {
+.schema-norm-postit[data-schema-tooltip-aktiv]:not(.schema-norm-postit--schweinchen):not(.schema-norm-postit--rosa) {
   outline: 2px solid color-mix(in srgb, var(--postit-rand) 68%, transparent);
   outline-offset: 2px;
 }
