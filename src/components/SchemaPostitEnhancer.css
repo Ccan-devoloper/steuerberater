@@ -73,6 +73,11 @@
 }
 
 /* Unmittelbar benannte Farben - genutzt vom IStR-Schema */
+.schema-norm-postit--rot {
+  --postit-basis-flaeche: var(--rot-feld);
+  --postit-basis-rand: var(--rot);
+}
+
 .schema-norm-postit--gruen {
   --postit-basis-flaeche: var(--gruen-feld);
   --postit-basis-rand: var(--gruen);

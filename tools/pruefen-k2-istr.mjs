@@ -88,8 +88,8 @@ assert(
    bewusst getrennt - sonst kippt mit der Post-it-Farbe der Seitenrahmen. */
 const postitToene = [...schema.matchAll(/postitTon: "(\w+)"/g)].map((m) => m[1]);
 assert(
-  postitToene.join(",") === "gruen,rosa,gruen",
-  `Post-it-Farben erwartet: gruen, rosa, gruen - gefunden: ${postitToene.join(",") || "keine"}`,
+  postitToene.join(",") === "rot,rosa,rot",
+  `Post-it-Farben erwartet: rot, rosa, rot - gefunden: ${postitToene.join(",") || "keine"}`,
 );
 assert(
   schema.includes('postitTonNormen: { "§ 1 Abs. 3 EStG": "gelb" }'),
@@ -105,6 +105,7 @@ assert(
 );
 
 for (const [name, quelle] of [
+  ["rot", "--rot-feld"],
   ["gruen", "--gruen-feld"],
   ["gelb", "--fach-gelb"],
 ]) {
@@ -121,7 +122,7 @@ assert(
   !/\.schema-norm-postit--rosa::before/.test(postitCss),
   "Das Schweinchen-Zeichen ist den Schweinchen-Normen vorbehalten und darf nicht an rosa Post-its hängen",
 );
-for (const ton of ["gruen", "gelb", "rosa"]) {
+for (const ton of ["rot", "gruen", "gelb", "rosa"]) {
   assert(
     new RegExp(`"${ton}"`).test(enhancer.match(/const TOENE = new Set\(\[[^\]]*\]\)/s)?.[0] || ""),
     `Der Ton ${ton} fehlt in TOENE und würde stillschweigend verworfen`,

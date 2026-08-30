@@ -23,7 +23,7 @@ export const istrSchemata = [
         seite: 1,
         titel: "Schema Internationales Steuerrecht",
         ton: "ansatz",
-        postitTon: "gruen",
+        postitTon: "rot",
         postitTonNormen: { "§ 1 Abs. 3 EStG": "gelb" },
         inhalt: [
           {
@@ -93,7 +93,7 @@ export const istrSchemata = [
         id: "istr-dba",
         titel: "Schema DBA",
         ton: "bewertung",
-        postitTon: "gruen",
+        postitTon: "rot",
         inhalt: [
           { typ: "schritt", badge: "A", label: "Anwendbarkeit:", text: "Art. 1 persönlich und Art. 2 Abs. 1 sachlich" },
           { typ: "schritt", badge: "A", label: "Ansässigkeit:", text: "Art. 4 Abs. 1" },
