@@ -46,35 +46,69 @@ for (const marker of [
   assert(schema.includes(marker), `Prüfschritt-Hervorhebung fehlt: ${marker}`);
 }
 
-/* Die Hervorhebung der Prüfungspunkte liegt seit der Post-it-Darstellung im
-   Stylesheet statt im Inline-Stil. Geprueft wird daher die Wirkung, nicht mehr
-   die frühere Schreibweise fontWeight: 700. */
-const postitCss = fs.readFileSync(path.join(root, "src/components/istr-postit.css"), "utf8");
+/* Prüfungspunkte bleiben fett hervorgehoben - die Karte selbst trägt keine
+   Farbe mehr, farbig sind nur noch die einzelnen Norm-Post-its. */
 assert(
-  /\.istr-postit__titel\s*\{[^}]*font-weight:\s*700/s.test(postitCss),
+  schema.includes('fontWeight: 700'),
   "Der Titel eines Prüfungspunktes muss weiterhin fett hervorgehoben sein",
 );
+assert(
+  !schema.includes("istr-postit"),
+  "Die flächige Post-it-Umrandung ganzer Prüfungspunkte ist ersetzt worden und darf nicht zurückkehren",
+);
 
-/* Farbige Post-its an den Punkten 1, 2 und 4 - wie in der Vorlage; Punkt 3
-   (Wegzug) bleibt bewusst unmarkiert. */
-const postits = [...schema.matchAll(/postit: "(rot|orange|gruen)"/g)].map((m) => m[1]);
+/* Jede Norm bekommt ein eigenes Post-it - wie in den Bilanzen-Schemata:
+   Hover zeigt die amtliche Überschrift, ein Klick öffnet dejure.org.
+   SchemaPostitEnhancer erkennt die anzureichernden Blöcke am Ton; das
+   IStR-Schema trägt seine Überschrift in einer Flex-Zeile und muss ihn
+   deshalb ausdrücklich als data-schema-ton mitgeben. */
+const enhancer = fs.readFileSync(path.join(root, "src/components/SchemaPostitEnhancer.jsx"), "utf8");
 assert(
-  postits.join(",") === "rot,orange,gruen",
-  `Post-it-Farben müssen rot, orange, grün in dieser Reihenfolge sein, gefunden: ${postits.join(",") || "keine"}`,
+  schema.includes("data-schema-ton={block.ton}"),
+  "Ohne data-schema-ton reichert SchemaPostitEnhancer die IStR-Normen nicht an",
 );
 assert(
-  schema.includes('istr-postit istr-postit--${punkt.postit || "neutral"}'),
-  "Prüfungspunkte werden nicht als Post-it dargestellt",
+  /function tonAusBlock\(block\)\s*\{[^}]*dataset\.schemaTon/s.test(enhancer),
+  "SchemaPostitEnhancer wertet data-schema-ton nicht aus",
 );
-for (const variante of ["--rot-feld", "--orange-feld", "--gruen-feld"]) {
+assert(
+  enhancer.includes('const TOENE = new Set(["ansatz", "bewertung", "ausserbilanz", "hinweis"])'),
+  "Ein unbekannter Ton muss verworfen werden, sonst entstehen Post-its ohne Farbe",
+);
+
+const toene = [...schema.matchAll(/ton: "(\w+)"/g)].map((m) => m[1]);
+assert(
+  toene.join(",") === "ansatz,bewertung",
+  `Die beiden Quellseiten müssen die Töne ansatz und bewertung tragen, gefunden: ${toene.join(",") || "keine"}`,
+);
+
+/* Die im Schema zitierten Gesetze müssen der Enhancer-Erkennung bekannt sein,
+   sonst bleibt die Norm stummer Fließtext. */
+for (const gesetz of ["EStG", "AStG", "InvStG"]) {
   assert(
-    postitCss.includes(`var(${variante})`),
-    `Post-it-Farbe ${variante} muss aus dem Designsystem kommen, damit beide Themes funktionieren`,
+    new RegExp(`^\\s*"${gesetz}",$`, "m").test(enhancer),
+    `${gesetz} fehlt in GESETZ_ABKUERZUNGEN - Normen dieses Gesetzes bekommen kein Post-it`,
   );
 }
+
+/* Stichproben: Überschriften der tragenden IStR-Normen, damit der Tooltip mehr
+   zeigt als die Fundstelle selbst. */
+for (const [referenz, ueberschrift] of [
+  ["EStG/1", "Steuerpflicht"],
+  ["EStG/49", "Beschränkt steuerpflichtige Einkünfte"],
+  ["EStG/50", "Sondervorschriften für beschränkt Steuerpflichtige"],
+  ["EStG/34c", "Steuerermäßigung bei ausländischen Einkünften"],
+  ["AStG/6", "Besteuerung des Vermögenszuwachses"],
+]) {
+  assert(
+    enhancer.includes(`"${referenz}": "${ueberschrift}"`),
+    `Normüberschrift fehlt: ${referenz}`,
+  );
+}
+
 assert(
-  !/#[0-9a-f]{3,6}/i.test(postitCss),
-  "Post-it-Stylesheet darf keine festen Farbwerte enthalten - sonst bricht der Dunkelmodus",
+  enhancer.includes("https://dejure.org/gesetze/"),
+  "Der Klick auf ein Norm-Post-it muss dejure.org öffnen",
 );
 
 const aavvBadges = [...schema.matchAll(/badge:\s*"([AV])"/g)].map((treffer) => treffer[1]);

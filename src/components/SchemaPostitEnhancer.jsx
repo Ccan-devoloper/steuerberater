@@ -55,6 +55,9 @@ const NORM_UEBERSCHRIFTEN = {
   "HGB/274": "Latente Steuern",
   "HGB/275": "Gliederung",
   "HGB/277": "Vorschriften zu einzelnen Posten der Gewinn- und Verlustrechnung",
+  "EStG/1": "Steuerpflicht",
+  "EStG/2": "Umfang der Besteuerung, Begriffsbestimmungen",
+  "EStG/2a": "Negative Einkünfte mit Bezug zu Drittstaaten",
   "EStG/3": "Steuerfreie Einnahmen",
   "EStG/3c": "Anteilige Abzüge",
   "EStG/4": "Gewinnbegriff im Allgemeinen",
@@ -70,10 +73,20 @@ const NORM_UEBERSCHRIFTEN = {
   "EStG/12": "Nicht abzugsfähige Ausgaben",
   "EStG/15": "Einkünfte aus Gewerbebetrieb",
   "EStG/20": "Einkünfte aus Kapitalvermögen",
+  "EStG/25": "Veranlagungszeitraum, Steuererklärungspflicht",
+  "EStG/32b": "Progressionsvorbehalt",
+  "EStG/32d": "Gesonderter Steuertarif für Einkünfte aus Kapitalvermögen",
+  "EStG/34c": "Steuerermäßigung bei ausländischen Einkünften",
   "EStG/36": "Entstehung und Tilgung der Einkommensteuer",
+  "EStG/38": "Erhebung der Lohnsteuer",
   "EStG/43": "Kapitalerträge mit Steuerabzug",
   "EStG/43a": "Bemessung der Kapitalertragsteuer",
   "EStG/44": "Entrichtung der Kapitalertragsteuer",
+  "EStG/49": "Beschränkt steuerpflichtige Einkünfte",
+  "EStG/50": "Sondervorschriften für beschränkt Steuerpflichtige",
+  "EStG/50a": "Steuerabzug bei beschränkt Steuerpflichtigen",
+  "AStG/2": "Einkommensteuer",
+  "AStG/6": "Besteuerung des Vermögenszuwachses",
   "AO/39": "Zurechnung",
   "AO/153": "Berichtigung von Erklärungen",
   "EStDV/60": "Unterlagen zur Steuererklärung",
@@ -94,6 +107,8 @@ const NORM_UEBERSCHRIFTEN = {
 };
 
 const SCHWEINCHEN_REFERENZEN = new Set(["EStG/6b", "EStG/7b", "EStG/7g"]);
+
+const TOENE = new Set(["ansatz", "bewertung", "ausserbilanz", "hinweis"]);
 
 function tonAusTitel(titel) {
   if (/^ansatz\s*:/i.test(titel)) return "ansatz";
@@ -289,9 +304,20 @@ function blockZuruecksetzen(block) {
   block.normalize();
 }
 
-function blockAktualisieren(block) {
+/* Die Bilanzenschemata leiten den Ton aus der Blocküberschrift ab ("Ansatz:",
+   "Bewertung:"). Schemata mit eigener Kopfzeile - etwa das IStR-Schema, dessen
+   h3 in einer Flex-Zeile neben dem Seitenzähler steht - geben ihn stattdessen
+   als data-schema-ton mit. */
+function tonAusBlock(block) {
+  const explizit = block.dataset.schemaTon;
+  if (explizit) return TOENE.has(explizit) ? explizit : null;
+
   const ueberschrift = block.querySelector(":scope > h3");
-  const ton = tonAusTitel(ueberschrift?.textContent?.trim() || "");
+  return tonAusTitel(ueberschrift?.textContent?.trim() || "");
+}
+
+function blockAktualisieren(block) {
+  const ton = tonAusBlock(block);
 
   blockZuruecksetzen(block);
   if (!ton) return;
