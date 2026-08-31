@@ -64,17 +64,17 @@
   z-index: 3;
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
-  gap: 1cqw;
+  justify-content: center;
+  gap: 1.4cqw;
   padding: 0 3cqw;
-  margin-bottom: -5.4cqw;
+  margin-bottom: -4.6cqw;
 }
 
 .hgb-reiter {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1cqw;
+  gap: .25cqw;
   margin-bottom: var(--tiefe, 0cqw);
   transform: rotate(var(--neigung, 0deg));
   transform-origin: bottom center;
@@ -90,15 +90,15 @@
 .hgb-zettel {
   display: grid;
   place-items: center;
-  min-width: 15cqw;
-  min-height: 13cqw;
-  padding: 1.1cqw 1.2cqw;
+  width: 11cqw;
+  min-height: 21cqw;
+  padding: 1.4cqw .5cqw;
   background: var(--zettel);
   color: var(--zettel-schrift);
   font-family: "Segoe Print", "Bradley Hand", "Comic Sans MS", var(--sans);
-  font-size: 2.4cqw;
+  font-size: 2.2cqw;
   font-weight: 650;
-  line-height: 1.24;
+  line-height: 1.3;
   letter-spacing: -.02em;
   text-align: center;
   text-decoration: none;
@@ -111,6 +111,11 @@
     .2cqw .8cqw 1.1cqw rgb(20 14 8 / 26%);
   transform: rotate(var(--neigung, 0deg));
   transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.hgb-zettel-hochkant {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 
 .hgb-zettel:visited {
@@ -131,11 +136,12 @@
   outline-offset: .3cqw;
 }
 
+/* Die Stichwortzettel sitzen quer beschriftet oben auf dem Streifen. */
 .hgb-zettel--marke {
-  min-width: 12cqw;
-  min-height: 6.2cqw;
-  padding: .6cqw .9cqw;
-  font-size: 2cqw;
+  width: 11cqw;
+  min-height: 6.8cqw;
+  padding: .6cqw .5cqw;
+  font-size: 1.9cqw;
 }
 
 .hgb-zettel--ansatz {
@@ -314,16 +320,17 @@
 
   .hgb-reiterleiste {
     padding: 0 3cqw;
-    gap: .7cqw;
+    gap: 1.1cqw;
   }
 
   .hgb-zettel {
-    min-width: 14cqw;
-    font-size: 2.2cqw;
+    width: 12cqw;
+    font-size: 2.4cqw;
   }
 
   .hgb-zettel--marke {
-    font-size: 1.9cqw;
+    width: 12cqw;
+    font-size: 2cqw;
   }
 }
 

@@ -318,7 +318,7 @@ export const HGB_REITER = [
     ton: "ansatz",
     paragraph: "246",
     zeilen: ["§ 246 (1) 2", "HGB"],
-    neigung: "-2.4deg",
+    neigung: "-.8deg",
     tiefe: "0cqw",
     schritt: "Ansatz I – Zurechnung",
   },
@@ -326,38 +326,38 @@ export const HGB_REITER = [
     ton: "ansatz",
     paragraph: "246",
     zeilen: ["§ 246 (1) 1", "§ 247 (2)", "HGB"],
-    neigung: "1.4deg",
-    tiefe: "1.1cqw",
+    neigung: ".5deg",
+    tiefe: ".5cqw",
     schritt: "Ansatz II – Zuordnung",
     marken: [
-      { text: "Beteiligung", paragraph: "271", titel: "§ 271 Abs. 1 HGB – Beteiligungen", neigung: "-2.6deg" },
+      { text: "Beteiligung", zeilen: ["Beteili-", "gung"], paragraph: "271", titel: "§ 271 Abs. 1 HGB – Beteiligungen", neigung: "-.6deg" },
     ],
   },
   {
     ton: "bewertung",
     paragraph: "253",
     zeilen: ["§ 253 (1) 1", "HGB"],
-    neigung: "-1.2deg",
-    tiefe: "0.3cqw",
+    neigung: "-.4deg",
+    tiefe: ".2cqw",
     schritt: "Bewertung I – Maßstab",
   },
   {
     ton: "bewertung",
     paragraph: "255",
     zeilen: ["§ 255", "HGB"],
-    neigung: "1.1deg",
-    tiefe: "0.9cqw",
+    neigung: ".6deg",
+    tiefe: ".4cqw",
     schritt: "Bewertung II – Höhe",
     marken: [
-      { text: "BVE § 256", paragraph: "256", titel: "§ 256 HGB – Bewertungsvereinfachung", neigung: "-2.2deg" },
+      { text: "BVE § 256", zeilen: ["BVE", "§ 256"], paragraph: "256", titel: "§ 256 HGB – Bewertungsvereinfachung", neigung: ".7deg" },
     ],
   },
   {
     ton: "bewertung",
     paragraph: "253",
     zeilen: ["§ 253 (3)", "S. 1 + 2", "HGB"],
-    neigung: "2deg",
-    tiefe: "0.1cqw",
+    neigung: "-.5deg",
+    tiefe: ".1cqw",
     schritt: "Bewertung III – Fortführung",
   },
 ];
@@ -393,7 +393,9 @@ function Zettel({ reiter }) {
               title={marke.titel}
               aria-label={`${marke.text} – ${marke.titel}`}
             >
-              {marke.text}
+              {marke.zeilen.map((zeile, i) => (
+                <React.Fragment key={zeile}>{i > 0 && <br />}{zeile}</React.Fragment>
+              ))}
             </a>
           ))}
         </div>
@@ -406,9 +408,11 @@ function Zettel({ reiter }) {
         title={`${beschriftung} · ${reiter.schritt}`}
         aria-label={`${beschriftung} – ${reiter.schritt}. Norm auf dejure.org öffnen`}
       >
-        {reiter.zeilen.map((zeile, i) => (
-          <React.Fragment key={zeile}>{i > 0 && <br />}{zeile}</React.Fragment>
-        ))}
+        <span className="hgb-zettel-hochkant">
+          {reiter.zeilen.map((zeile, i) => (
+            <React.Fragment key={zeile}>{i > 0 && <br />}{zeile}</React.Fragment>
+          ))}
+        </span>
       </a>
     </div>
   );
