@@ -23,7 +23,7 @@ export const istrSchemata = [
         seite: 1,
         titel: "Schema Internationales Steuerrecht",
         ton: "ansatz",
-        postitTon: "rot",
+        postitTon: "gruen",
         postitTonNormen: { "§ 1 Abs. 3 EStG": "gelb" },
         inhalt: [
           {
@@ -31,6 +31,7 @@ export const istrSchemata = [
             punkte: [
               {
                 text: "§ 1 Abs. 1 S. 1 EStG?",
+                postitTon: "rot",
                 kinder: [
                   "DBA (AAVV)",
                   "§ 34c EStG / § 32d Abs. 5 EStG falls kein DBA",
@@ -41,7 +42,7 @@ export const istrSchemata = [
               },
             ],
           },
-          { typ: "uebergang", text: "Falls kein § 1 Abs. 1 S. 1 EStG:" },
+          { typ: "uebergang", text: "Falls kein § 1 Abs. 1 S. 1 EStG:", postitTon: "rot" },
           {
             typ: "nummernKomplex",
             start: 2,
@@ -93,7 +94,7 @@ export const istrSchemata = [
         id: "istr-dba",
         titel: "Schema DBA",
         ton: "bewertung",
-        postitTon: "rot",
+        postitTon: "gruen",
         inhalt: [
           { typ: "schritt", badge: "A", label: "Anwendbarkeit:", text: "Art. 1 persönlich und Art. 2 Abs. 1 sachlich" },
           { typ: "schritt", badge: "A", label: "Ansässigkeit:", text: "Art. 4 Abs. 1" },
@@ -200,6 +201,7 @@ function Inhalt({ element }) {
   if (element.typ === "uebergang") {
     return (
       <p
+        data-schema-ton={element.postitTon}
         style={{
           margin: "14px 0 10px",
           padding: "9px 12px",
