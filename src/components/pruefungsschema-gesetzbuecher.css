@@ -66,6 +66,24 @@
    damit Deckel und Zettel gemeinsam skalieren. */
 .buch-buehne {
   container-type: inline-size;
+  /* Weit gesetzt: die Kippung soll Tiefe andeuten, den Deckel aber nicht zum
+     Trapez verzerren. */
+  perspective: 2200px;
+  perspective-origin: 50% 0%;
+}
+
+/* Der Buchkörper ist leicht nach vorn gekippt - dadurch bekommen die Zettel
+   eine Tiefe, und die aus der zweiten Reihe sind als solche zu erkennen. */
+.buch-koerper {
+  transform: rotateX(3.5deg);
+  transform-origin: 50% 0%;
+  transform-style: preserve-3d;
+}
+
+.buch-reiterleiste,
+.buch-reiter,
+.buch-marken {
+  transform-style: preserve-3d;
 }
 
 /* Die Zettel liegen im normalen Fluss und stoßen mit ihrer Unterkante bündig
@@ -148,8 +166,11 @@
   box-shadow:
     inset 0 -.5cqw 0 color-mix(in srgb, var(--zettel-tief) 55%, transparent),
     inset 0 .3cqw 0 rgb(255 255 255 / 22%),
-    .2cqw .8cqw 1.1cqw rgb(20 14 8 / 26%);
-  transition: transform 150ms ease, box-shadow 150ms ease;
+      .2cqw .8cqw 1.1cqw rgb(20 14 8 / 26%);
+  /* --tiefe hält die Reihe im Buch fest, damit auch der Hover sie behält. */
+  --tiefe: translateZ(0);
+  transform: var(--tiefe);
+  transition: transform 150ms ease, box-shadow 150ms ease, filter 150ms ease;
 }
 
 /* Die Norm steht hochkant auf dem Streifen, von unten nach oben. */
@@ -185,7 +206,8 @@
 .buch-zettel:hover,
 .buch-zettel:focus-visible {
   z-index: 4;
-  transform: translateY(-.6cqw) scale(1.06);
+  transform: var(--tiefe) translateY(-.6cqw) scale(1.06);
+  filter: none;
   box-shadow:
     inset 0 -.5cqw 0 color-mix(in srgb, var(--zettel-tief) 55%, transparent),
     inset 0 .3cqw 0 rgb(255 255 255 / 26%),
@@ -206,6 +228,15 @@
   font-size: calc(var(--zettel-schriftgrad) * .72);
   white-space: normal;
   overflow-wrap: break-word;
+}
+
+/* Zettel aus einem anderen Gesetz stecken an ganz anderer Stelle im Buch: sie
+   stehen weiter hinten, rücken dabei ein Stück in den Vordermann und liegen
+   im Schatten der vorderen Reihe. */
+.buch-zettel[style*="--reihe"] {
+  /* Etwas höher heraus, damit der Vordermann die Beschriftung nicht anschneidet. */
+  --tiefe: translateZ(calc(var(--reihe) * -16cqw)) translateY(calc(var(--reihe) * -.7cqw));
+  filter: brightness(calc(1 - var(--reihe) * .07));
 }
 
 .buch-zettel--ansatz {
@@ -458,6 +489,6 @@
 
   .buch-zettel:hover,
   .buch-zettel:focus-visible {
-    transform: none;
+    transform: var(--tiefe);
   }
 }

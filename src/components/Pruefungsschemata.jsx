@@ -400,7 +400,7 @@ export const GESETZBUECHER = [
         zeilen: ["VStA", "§ 9b (1)"],
         schritt: "Bewertung II – Vorsteuerabzug",
         marken: [
-          { text: "§ 15 (1) 1 Nr. 1 UStG", zeilen: ["§ 15 (1) 1", "Nr. 1", "UStG"], gesetz: "UStG", paragraph: "15", titel: "§ 15 Abs. 1 S. 1 Nr. 1 UStG – Vorsteuerabzug" },
+          { text: "§ 15 (1) 1 Nr. 1 UStG", reihe: 2, zeilen: ["§ 15 (1) 1", "Nr. 1", "UStG"], gesetz: "UStG", paragraph: "15", titel: "§ 15 Abs. 1 S. 1 Nr. 1 UStG – Vorsteuerabzug" },
         ],
       },
       {
@@ -432,7 +432,7 @@ export const GESETZBUECHER = [
         zeilen: ["AfA", "§ 7 (1)"],
         schritt: "Bewertung III – Regel-AfA",
         marken: [
-          { text: "§ 11c (2) 1 EStDV", zeilen: ["§ 11c (2) 1", "EStDV", "Gebäude"], gesetz: "EStDV", paragraph: "11c", titel: "§ 11c Abs. 2 S. 1 EStDV – AfA bei Gebäuden" },
+          { text: "§ 11c (2) 1 EStDV", reihe: 2, zeilen: ["§ 11c (2) 1", "EStDV", "Gebäude"], gesetz: "EStDV", paragraph: "11c", titel: "§ 11c Abs. 2 S. 1 EStDV – AfA bei Gebäuden" },
           { text: "§ 7 (2), (4), (5a)", zeilen: ["(2) (4)", "(5a)"], paragraph: "7", titel: "§ 7 Abs. 2, Abs. 4 und Abs. 5a EStG" },
         ],
       },
@@ -523,6 +523,7 @@ function Nebenzettel({ zettel, ton, gesetz }) {
   return (
     <a
       className={`buch-zettel buch-zettel--marke buch-zettel--${zettel.ton || ton}`}
+      style={zettel.reihe ? { "--reihe": zettel.reihe } : undefined}
       href={normUrl(zettel.gesetz || gesetz, zettel.paragraph)}
       target="_blank"
       rel="noopener noreferrer"
@@ -544,6 +545,7 @@ function Gesetzbuch({ buch }) {
         "--zettel-breiten": buch.reiter.reduce((summe, r) => summe + (r.breit || 1), 0),
       }}
     >
+      <div className="buch-koerper">
       <div className="buch-reiterleiste">
         {buch.reiter.map((reiter) => (
           <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} gesetz={buch.gesetz} />
@@ -567,6 +569,7 @@ function Gesetzbuch({ buch }) {
             ))}
           </div>
         )}
+      </div>
       </div>
     </div>
   );
