@@ -318,46 +318,36 @@ export const HGB_REITER = [
     ton: "ansatz",
     paragraph: "246",
     zeilen: ["§ 246 (1) 2", "HGB"],
-    neigung: "-.8deg",
-    tiefe: "0cqw",
     schritt: "Ansatz I – Zurechnung",
   },
   {
     ton: "ansatz",
     paragraph: "246",
     zeilen: ["§ 246 (1) 1", "§ 247 (2)", "HGB"],
-    neigung: ".5deg",
-    tiefe: ".5cqw",
     schritt: "Ansatz II – Zuordnung",
     marken: [
-      { text: "Beteiligung", zeilen: ["Beteili-", "gung"], paragraph: "271", titel: "§ 271 Abs. 1 HGB – Beteiligungen", neigung: "-.6deg" },
+      { text: "Beteiligung", zeilen: ["Beteili-", "gung"], paragraph: "271", titel: "§ 271 Abs. 1 HGB – Beteiligungen" },
     ],
   },
   {
     ton: "bewertung",
     paragraph: "253",
     zeilen: ["§ 253 (1) 1", "HGB"],
-    neigung: "-.4deg",
-    tiefe: ".2cqw",
     schritt: "Bewertung I – Maßstab",
   },
   {
     ton: "bewertung",
     paragraph: "255",
     zeilen: ["§ 255", "HGB"],
-    neigung: ".6deg",
-    tiefe: ".4cqw",
     schritt: "Bewertung II – Höhe",
     marken: [
-      { text: "BVE § 256", zeilen: ["BVE", "§ 256"], paragraph: "256", titel: "§ 256 HGB – Bewertungsvereinfachung", neigung: ".7deg" },
+      { text: "BVE § 256", zeilen: ["BVE", "§ 256"], paragraph: "256", titel: "§ 256 HGB – Bewertungsvereinfachung" },
     ],
   },
   {
     ton: "bewertung",
     paragraph: "253",
     zeilen: ["§ 253 (3)", "S. 1 + 2", "HGB"],
-    neigung: "-.5deg",
-    tiefe: ".1cqw",
     schritt: "Bewertung III – Fortführung",
   },
 ];
@@ -379,14 +369,13 @@ function hgbUrl(paragraph) {
 function Zettel({ reiter }) {
   const beschriftung = reiter.zeilen.join(" ");
   return (
-    <div className="hgb-reiter" style={{ "--neigung": reiter.neigung, "--tiefe": reiter.tiefe }}>
+    <div className="hgb-reiter">
       {reiter.marken?.length > 0 && (
         <div className="hgb-marken">
           {reiter.marken.map((marke) => (
             <a
               key={marke.text}
               className={`hgb-zettel hgb-zettel--marke hgb-zettel--${reiter.ton}`}
-              style={{ "--neigung": marke.neigung }}
               href={hgbUrl(marke.paragraph)}
               target="_blank"
               rel="noopener noreferrer"

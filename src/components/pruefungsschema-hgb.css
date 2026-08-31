@@ -57,17 +57,16 @@
   container-type: inline-size;
 }
 
-/* Die Zettel liegen im normalen Fluss über dem Buch und rutschen mit einem
-   negativen Rand auf dessen Oberkante - kein Pixelgefummel, alles responsiv. */
+/* Die Zettel liegen im normalen Fluss und stoßen mit ihrer Unterkante bündig
+   an die Oberkante des Buches - kein Pixelgefummel, alles responsiv. */
 .hgb-reiterleiste {
   position: relative;
   z-index: 3;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1.4cqw;
-  padding: 0 3cqw;
-  margin-bottom: -4.6cqw;
+  padding-left: 8cqw;
 }
 
 .hgb-reiter {
@@ -75,9 +74,6 @@
   flex-direction: column;
   align-items: center;
   gap: .25cqw;
-  margin-bottom: var(--tiefe, 0cqw);
-  transform: rotate(var(--neigung, 0deg));
-  transform-origin: bottom center;
 }
 
 .hgb-marken {
@@ -109,7 +105,6 @@
     inset 0 -.5cqw 0 color-mix(in srgb, var(--zettel-tief) 55%, transparent),
     inset 0 .3cqw 0 rgb(255 255 255 / 22%),
     .2cqw .8cqw 1.1cqw rgb(20 14 8 / 26%);
-  transform: rotate(var(--neigung, 0deg));
   transition: transform 150ms ease, box-shadow 150ms ease;
 }
 
@@ -124,7 +119,7 @@
 
 .hgb-zettel:hover,
 .hgb-zettel:focus-visible {
-  transform: rotate(0deg) translateY(-.6cqw) scale(1.06);
+  transform: translateY(-.6cqw) scale(1.05);
   box-shadow:
     inset 0 -.5cqw 0 color-mix(in srgb, var(--zettel-tief) 55%, transparent),
     inset 0 .3cqw 0 rgb(255 255 255 / 26%),
@@ -319,7 +314,7 @@
   }
 
   .hgb-reiterleiste {
-    padding: 0 3cqw;
+    padding-left: 4cqw;
     gap: 1.1cqw;
   }
 
@@ -342,6 +337,6 @@
 
   .hgb-zettel:hover,
   .hgb-zettel:focus-visible {
-    transform: rotate(var(--neigung, 0deg));
+    transform: none;
   }
 }
