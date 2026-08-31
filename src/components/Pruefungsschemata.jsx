@@ -471,15 +471,23 @@ function normUrl(gesetz, paragraph) {
 
 function Zeilen({ zeilen }) {
   return zeilen.map((zeile, i) => (
-    <React.Fragment key={zeile}>{i > 0 && <br />}{zeile}</React.Fragment>
+    <React.Fragment key={i}>{i > 0 && <br />}{zeile}</React.Fragment>
   ));
+}
+
+/* Auf dem Zettel steht die nackte Norm - das Paragrafenzeichen kostet nur
+   Platz. Tooltip und Vorlesetext behalten es. */
+const PARAGRAFZEICHEN = /§{1,2}\s*/g;
+
+function Zettelzeilen({ zeilen }) {
+  return <Zeilen zeilen={zeilen.map((zeile) => zeile.replace(PARAGRAFZEICHEN, ""))} />;
 }
 
 function Zettel({ reiter, gesetz }) {
   /* Auf dem Zettel steht das Gesetz nicht - im Tooltip und für Screenreader
      gehört es dazu. */
   const beschriftung = `${reiter.zeilen.join(" ")} ${gesetz}`;
-  const inhalt = <Zeilen zeilen={reiter.zeilen} />;
+  const inhalt = <Zettelzeilen zeilen={reiter.zeilen} />;
   return (
     <div className="buch-reiter" style={{ "--breit": reiter.breit }}>
       {reiter.marken?.length > 0 && (
@@ -522,7 +530,7 @@ function Nebenzettel({ zettel, ton, gesetz }) {
       title={zettel.titel}
       aria-label={`${zettel.text} – ${zettel.titel}`}
     >
-      <Zeilen zeilen={zettel.zeilen} />
+      <Zettelzeilen zeilen={zettel.zeilen} />
     </a>
   );
 }

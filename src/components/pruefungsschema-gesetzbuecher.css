@@ -120,10 +120,10 @@
 /* Die Breite richtet sich nach der Zahl der Zettel, damit die Reihe in jedem
    Buch auf die Deckelbreite passt. */
 .buch-buehne {
-  --zettel-breite: min(11cqw, calc((93cqw - var(--zettel-anzahl) * .9cqw) / var(--zettel-breiten)));
+  --zettel-breite: min(12cqw, calc((93cqw - var(--zettel-anzahl) * .9cqw) / var(--zettel-breiten)));
   /* Die Schrift füllt den Streifen aus: bei zwei hochkanten Zeilen bleibt sie
      lesbar, ohne über die Zettelbreite zu laufen. */
-  --zettel-schriftgrad: max(12px, calc(var(--zettel-breite) * .3));
+  --zettel-schriftgrad: max(13px, calc(var(--zettel-breite) * .33));
 }
 
 .buch-reiter {
