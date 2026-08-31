@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./pruefungsschema-hgb.css";
 
 const farben = {
   ansatz: "var(--rot)",
@@ -308,6 +309,128 @@ export const schemata = [
   },
 ];
 
+/* Die Reiter, die im HGB der Textausgabe oben rechts kleben: rot für den Ansatz,
+   orange für die Bewertung, in der Reihenfolge der Paragrafen. Kleine
+   Stichwortreiter sitzen wie im Buch oben auf dem jeweiligen Hauptreiter. */
+export const HGB_REITER = [
+  {
+    ton: "ansatz",
+    beschriftung: "§ 246 (1) 2 HGB",
+    paragraph: "246",
+    schritt: "Ansatz I – Zurechnung",
+    erlaeuterung: "Wirtschaftliches Eigentum – im Schema zusammen mit § 39 AO.",
+  },
+  {
+    ton: "ansatz",
+    beschriftung: "§ 246 (1) 1, § 247 (2) HGB",
+    paragraph: "246",
+    schritt: "Ansatz II – Zuordnung",
+    erlaeuterung: "Vollständigkeitsgebot und Abgrenzung Anlage-/Umlaufvermögen.",
+    zusatz: [
+      { text: "IWG", beschriftung: "§ 248 (2) HGB", paragraph: "248", erlaeuterung: "Bilanzierungsverbot für selbst geschaffene immaterielle WG." },
+      { text: "Beteiligung", beschriftung: "§ 271 (1) HGB", paragraph: "271", erlaeuterung: "Beteiligungsbegriff bei Anteilen an anderen Unternehmen." },
+    ],
+  },
+  {
+    ton: "bewertung",
+    beschriftung: "§ 253 (1) 1 HGB",
+    paragraph: "253",
+    schritt: "Bewertung I – Maßstab",
+    erlaeuterung: "Zugangsbewertung mit den (fortgeführten) Ak / Hk.",
+  },
+  {
+    ton: "bewertung",
+    beschriftung: "§ 255 HGB",
+    paragraph: "255",
+    schritt: "Bewertung II – Höhe",
+    erlaeuterung: "Ermittlung der Anschaffungs- und Herstellungskosten.",
+    zusatz: [
+      { text: "BVE 256", beschriftung: "§ 256 HGB", paragraph: "256", erlaeuterung: "Bewertungsvereinfachung über unterstellte Verbrauchsfolgen." },
+    ],
+  },
+  {
+    ton: "bewertung",
+    beschriftung: "§ 253 (3) 1, 2 HGB",
+    paragraph: "253",
+    schritt: "Bewertung III – Fortführung",
+    erlaeuterung: "Planmäßige Abschreibung in der Handelsbilanz.",
+  },
+];
+
+/* Nur das erste Schema hat die HGB-Reiteransicht - dort steckt die ganze
+   Ansatz-/Bewertungsstrecke, die im Buch als Reiter klebt. */
+export const HGB_REITER_SCHEMA = "vermoegensgegenstand-wirtschaftsgut";
+
+function hgbUrl(paragraph) {
+  return `https://dejure.org/gesetze/HGB/${paragraph}.html`;
+}
+
+function Reiterfahne({ beschriftung, paragraph, ton, klein = false }) {
+  return (
+    <a
+      className={`hgb-reiter-fahne hgb-reiter-fahne--${ton}${klein ? " hgb-reiter-fahne--klein" : ""}`}
+      href={hgbUrl(paragraph)}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {beschriftung}
+    </a>
+  );
+}
+
+function HgbReiterzeile({ reiter }) {
+  return (
+    <li className={`hgb-reiter-zeile hgb-reiter-zeile--${reiter.ton}`}>
+      <div className="hgb-reiter-fahnen">
+        {reiter.zusatz?.length > 0 && (
+          <div className="hgb-reiter-stichworte">
+            {reiter.zusatz.map((z) => (
+              <Reiterfahne key={z.beschriftung} beschriftung={z.text} paragraph={z.paragraph} ton={reiter.ton} klein />
+            ))}
+          </div>
+        )}
+        <Reiterfahne beschriftung={reiter.beschriftung} paragraph={reiter.paragraph} ton={reiter.ton} />
+      </div>
+      <div className="hgb-reiter-text">
+        <b>{reiter.schritt}</b>
+        <span>{reiter.erlaeuterung}</span>
+        {reiter.zusatz?.map((z) => (
+          <small key={z.beschriftung}>
+            <em>{z.text}</em> · {z.beschriftung} – {z.erlaeuterung}
+          </small>
+        ))}
+      </div>
+    </li>
+  );
+}
+
+/* Bildet das Schema allein über das HGB ab: die Reiter der Textausgabe, in
+   Buchreihenfolge, mit dem Prüfungsschritt, für den sie stehen. */
+function HgbReiterAnsicht() {
+  return (
+    <div className="hgb-reiter">
+      <div className="hgb-reiter-kopf">
+        <span className="kicker">Wichtige Wirtschaftsgesetze · HGB</span>
+        <h3>Was im HGB oben rechts klebt</h3>
+        <p>
+          Dasselbe Schema, allein über das Handelsgesetzbuch gelesen – jeder Reiter steht für
+          einen Prüfungsschritt.
+        </p>
+        <div className="hgb-reiter-legende">
+          <span className="hgb-reiter-legende--ansatz">Ansatz</span>
+          <span className="hgb-reiter-legende--bewertung">Bewertung</span>
+        </div>
+      </div>
+      <div className="hgb-reiter-buch">
+        <div className="hgb-reiter-block" aria-hidden="true" />
+        <ol className="hgb-reiter-liste">
+          {HGB_REITER.map((reiter) => <HgbReiterzeile key={reiter.beschriftung} reiter={reiter} />)}
+        </ol>
+      </div>
+    </div>
+  );
+}
+
 function Listenpunkt({ punkt }) {
   if (typeof punkt === "string") return <li>{punkt}</li>;
   return (
@@ -395,11 +518,15 @@ function SchemaBlock({ block }) {
    SchemaPostitEnhancer, wann sich der angezeigte Text geändert hat, und braucht
    keinen MutationObserver mehr, um das selbst herauszufinden. Ohne die Props
    verhält sich die Komponente wie bisher. */
-export default function Pruefungsschemata({ aktiv: aktivVonAussen, onWechsel }) {
+export default function Pruefungsschemata({ aktiv: aktivVonAussen, onWechsel, nurHgb: nurHgbVonAussen, onHgbWechsel }) {
   const [aktivIntern, setAktivIntern] = useState(schemata[0].id);
+  const [nurHgbIntern, setNurHgbIntern] = useState(false);
   const aktiv = aktivVonAussen ?? aktivIntern;
   const setAktiv = onWechsel ?? setAktivIntern;
   const schema = schemata.find((s) => s.id === aktiv) || schemata[0];
+  const hatReiter = schema.id === HGB_REITER_SCHEMA;
+  const nurHgb = hatReiter && (nurHgbVonAussen ?? nurHgbIntern);
+  const setNurHgb = onHgbWechsel ?? setNurHgbIntern;
 
   return (
     <section className="abschnitt">
@@ -421,11 +548,22 @@ export default function Pruefungsschemata({ aktiv: aktivVonAussen, onWechsel }) 
 
       <article className="panel" style={{ padding: 0, overflow: "hidden" }}>
         <header style={{ padding: "20px 22px", borderBottom: "1px solid var(--linie)", background: "var(--feld)" }}>
-          <span className="kicker">Prüfungsschema {schemata.findIndex((s) => s.id === schema.id) + 1} von 6</span>
+          {/* Ein einziger Textknoten: das normalize() im Cleanup von
+              SchemaPostitEnhancer würde mehrere Knoten verschmelzen und damit
+              Reacts Referenz auf die Zahl kappen - der Zähler bliebe stehen. */}
+          <span className="kicker">{`Prüfungsschema ${schemata.findIndex((s) => s.id === schema.id) + 1} von 6`}</span>
           <h2 style={{ margin: "6px 0 0" }}>{schema.titel}</h2>
+          {hatReiter && (
+            <div className="hgb-schalter" role="group" aria-label="Darstellung des Schemas">
+              <button type="button" aria-pressed={!nurHgb} onClick={() => setNurHgb(false)}>Ausformuliert</button>
+              <button type="button" aria-pressed={nurHgb} onClick={() => setNurHgb(true)}>Nur HGB</button>
+            </div>
+          )}
         </header>
         <div style={{ padding: "18px" }}>
-          {schema.bloecke.map((block, i) => <SchemaBlock key={i} block={block} />)}
+          {nurHgb
+            ? <HgbReiterAnsicht />
+            : schema.bloecke.map((block, i) => <SchemaBlock key={i} block={block} />)}
         </div>
         <footer style={{ padding: "10px 18px", borderTop: "1px solid var(--linie)", fontSize: 12, color: "var(--ink-weich)" }}>
           Quelle: © Markus Nöthen · B-S25-Bilanz-Termin 1-Schema-(Noethen)-0425

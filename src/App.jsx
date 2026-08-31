@@ -674,10 +674,13 @@ function Schemablock() {
      Abhängigkeit seines Effekts, und ref.current löst kein erneutes Rendern aus. */
   const [behaelter, setBehaelter] = useState(null);
   const [schema, setSchema] = useState(pruefungsschemata[0].id);
+  /* Auch die HGB-Reiteransicht tauscht den angezeigten Text aus - deshalb geht
+     sie in das Signal für SchemaPostitEnhancer mit ein. */
+  const [nurHgb, setNurHgb] = useState(false);
   return (
     <div data-pruefungsschemata-portal ref={setBehaelter}>
-      <Pruefungsschemata aktiv={schema} onWechsel={setSchema} />
-      <SchemaPostitEnhancer root={behaelter} signal={schema} />
+      <Pruefungsschemata aktiv={schema} onWechsel={setSchema} nurHgb={nurHgb} onHgbWechsel={setNurHgb} />
+      <SchemaPostitEnhancer root={behaelter} signal={`${schema}·${nurHgb}`} />
     </div>
   );
 }
