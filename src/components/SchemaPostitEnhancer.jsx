@@ -226,9 +226,9 @@ function estrPostitErstellen(text, ton) {
   });
 }
 
-/* BMF-Schreiben bekommen unabhängig vom Blockton immer den orangenen Bewertungs-
-   ton, damit sie in allen Schemata gleich aussehen. */
-function bmfPostitErstellen(text) {
+/* BMF-Schreiben übernehmen wie alle anderen Fundstellen die Farbe ihres Blocks;
+   erkennbar sind sie an der grünen Unterstreichung. */
+function bmfPostitErstellen(text, ton) {
   const treffer = text.match(BMF_NUMMER);
   if (!treffer) return document.createTextNode(text);
 
@@ -237,7 +237,7 @@ function bmfPostitErstellen(text) {
   return postitErstellen({
     text,
     bezeichnung,
-    ton: "bewertung",
+    ton,
     quelle: "BMF",
     href: estrUrl(paragraph),
     zielname: "im amtlichen EStH 2025",
@@ -308,7 +308,7 @@ function gesetzNormgruppeErstellen(normgruppe, ton) {
 
 function quelleErstellen(quelle, ton) {
   if (BMF_NUMMER.test(quelle) && /\bRn\./.test(quelle)) {
-    return bmfPostitErstellen(quelle);
+    return bmfPostitErstellen(quelle, ton);
   }
   if (ESTR_NUMMER.test(quelle)) {
     return estrPostitErstellen(quelle, ton);
