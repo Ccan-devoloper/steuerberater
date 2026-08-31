@@ -77,7 +77,7 @@
   align-items: flex-end;
   justify-content: flex-start;
   gap: .9cqw;
-  padding-left: 5cqw;
+  padding-left: 3.5cqw;
 }
 
 .buch-reiter {
@@ -88,12 +88,16 @@
   flex: none;
 }
 
-/* Mehrere Stichwortzettel stapeln sich wie im Buch übereinander. */
+/* Mehrere Stichwortzettel stapeln sich wie im Buch übereinander. Sie dürfen
+   seitlich überstehen und liegen dabei vor den Nachbarstreifen. */
 .buch-marken {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: .25cqw;
+  width: 100%;
 }
 
 /* Streifen, die den Zettel nach unten fortsetzen, kleben ohne Fuge aneinander -
@@ -116,8 +120,10 @@
 /* Die Breite richtet sich nach der Zahl der Zettel, damit die Reihe in jedem
    Buch auf die Deckelbreite passt. */
 .buch-buehne {
-  --zettel-breite: min(11cqw, calc((88cqw - var(--zettel-anzahl) * .9cqw) / var(--zettel-breiten)));
-  --zettel-schriftgrad: max(1.7cqw, calc(var(--zettel-breite) * .21));
+  --zettel-breite: min(11cqw, calc((93cqw - var(--zettel-anzahl) * .9cqw) / var(--zettel-breiten)));
+  /* Die Schrift füllt den Streifen aus: bei zwei hochkanten Zeilen bleibt sie
+     lesbar, ohne über die Zettelbreite zu laufen. */
+  --zettel-schriftgrad: max(12px, calc(var(--zettel-breite) * .3));
 }
 
 .buch-reiter {
@@ -128,8 +134,8 @@
   display: grid;
   place-items: center;
   width: 100%;
-  min-height: 23cqw;
-  padding: 1.4cqw .4cqw;
+  min-height: 26cqw;
+  padding: 1.4cqw .3cqw;
   background: var(--zettel);
   color: var(--zettel-schrift);
   font-family: "Segoe Print", "Bradley Hand", "Comic Sans MS", var(--sans);
@@ -163,11 +169,14 @@
 
 /* Trägt der Zettel unten Streifen, teilen sie sich die gemeinsame Höhe. */
 .buch-zettel--kopf {
-  min-height: 11cqw;
+  min-height: 13cqw;
 }
 
 .buch-streifen .buch-zettel {
-  min-height: 4cqw;
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  min-height: 4.3cqw;
   padding: .35cqw .4cqw;
   white-space: normal;
 }
@@ -193,9 +202,14 @@
 
 /* Die Stichwortzettel sitzen quer beschriftet oben auf dem Streifen. */
 .buch-zettel--marke {
+  width: max-content;
+  min-width: 100%;
+  max-width: 180%;
   min-height: 6.4cqw;
-  padding: .5cqw .4cqw;
-  font-size: calc(var(--zettel-schriftgrad) * .86);
+  padding: .5cqw .5cqw;
+  font-size: calc(var(--zettel-schriftgrad) * .78);
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .buch-zettel--ansatz {

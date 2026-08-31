@@ -332,13 +332,13 @@ export const GESETZBUECHER = [
       {
         ton: "ansatz",
         paragraph: "246",
-        zeilen: ["§ 246 (1) 2", "HGB"],
+        zeilen: ["§ 246 (1) 2"],
         schritt: "Ansatz I – Zurechnung",
       },
       {
         ton: "ansatz",
         paragraph: "246",
-        zeilen: ["§ 246 (1) 1", "§ 247 (2)", "HGB"],
+        zeilen: ["§ 246 (1) 1", "§ 247 (2)"],
         schritt: "Ansatz II – Zuordnung",
         marken: [
           { text: "Beteiligung", zeilen: ["Beteili-", "gung"], paragraph: "271", titel: "§ 271 Abs. 1 HGB – Beteiligungen" },
@@ -347,13 +347,13 @@ export const GESETZBUECHER = [
       {
         ton: "bewertung",
         paragraph: "253",
-        zeilen: ["§ 253 (1) 1", "HGB"],
+        zeilen: ["§ 253 (1) 1"],
         schritt: "Bewertung I – Maßstab",
       },
       {
         ton: "bewertung",
         paragraph: "255",
-        zeilen: ["§ 255", "HGB"],
+        zeilen: ["§ 255"],
         schritt: "Bewertung II – Höhe",
         marken: [
           { text: "BVE § 256", zeilen: ["BVE", "§ 256"], paragraph: "256", titel: "§ 256 HGB – Bewertungsvereinfachung" },
@@ -362,7 +362,7 @@ export const GESETZBUECHER = [
       {
         ton: "bewertung",
         paragraph: "253",
-        zeilen: ["§ 253 (3)", "S. 1 + 2", "HGB"],
+        zeilen: ["§ 253 (3)", "S. 1 + 2"],
         schritt: "Bewertung III – Fortführung",
       },
     ],
@@ -380,14 +380,14 @@ export const GESETZBUECHER = [
       {
         ton: "ansatz",
         paragraph: "5",
-        zeilen: ["§ 5 (1) 1", "Hs. 1", "EStG"],
+        zeilen: ["§ 5 (1) 1", "Hs. 1"],
         schritt: "Ansatz – Maßgeblichkeit",
       },
       {
         ton: "bewertung",
         paragraph: "6",
-        breit: 1.5,
-        zeilen: ["§ 6 (1) EStG", "Bewertung"],
+        breit: 1.3,
+        zeilen: ["§ 6 (1)", "Bewertung"],
         schritt: "Bewertung I und II",
         marken: [
           { text: "§ 6 (6) 1", zeilen: ["§ 6 (6) 1"], paragraph: "6", titel: "§ 6 Abs. 6 S. 1 EStG – Tausch" },
@@ -408,8 +408,8 @@ export const GESETZBUECHER = [
         ton: "sonder",
         paragraph: "7g",
         quer: true,
-        breit: 1.5,
-        zeilen: ["Sonder-", "AfA", "§ 7g (5) / (6)"],
+        breit: 1.6,
+        zeilen: ["Sonder-AfA", "§ 7g (5) / (6)"],
         schritt: "Bewertung III – Sonderabschreibung",
         marken: [
           { text: "1 + 3 KapErhStG", ton: "hinweis", zeilen: ["1 + 3", "KapErhStG"], gesetz: "KapErhStG", paragraph: "1", titel: "§§ 1 und 3 KapErhStG – Kapitalerhöhung aus Gesellschaftsmitteln" },
@@ -423,13 +423,13 @@ export const GESETZBUECHER = [
       {
         ton: "sonder",
         paragraph: "7a",
-        zeilen: ["§ 7a (9)", "EStG"],
+        zeilen: ["§ 7a (9)"],
         schritt: "Sonderabschreibungen – Restwert-AfA",
       },
       {
         ton: "bewertung",
         paragraph: "7",
-        breit: 1.4,
+        breit: 1.25,
         zeilen: ["AfA", "§ 7 (1)"],
         schritt: "Bewertung III – Regel-AfA",
         marken: [
@@ -440,13 +440,13 @@ export const GESETZBUECHER = [
       {
         ton: "hinweis",
         paragraph: "5",
-        zeilen: ["§ 5 (1) 1 Hs. 2", "S. 2 + 3", "EStG"],
+        zeilen: ["§ 5 (1) 1 Hs. 2", "S. 2 + 3"],
         schritt: "Merke – steuerliches Wahlrecht mit Verzeichnis",
       },
       {
         ton: "ausserbilanz",
         paragraph: "3",
-        zeilen: ["§ 3 Nr. 40", "§ 3c (2) 1", "EStG"],
+        zeilen: ["§ 3 Nr. 40", "§ 3c (2) 1"],
         schritt: "Außerbilanzielle Korrektur",
       },
     ],
@@ -476,7 +476,9 @@ function Zeilen({ zeilen }) {
 }
 
 function Zettel({ reiter, gesetz }) {
-  const beschriftung = reiter.zeilen.join(" ");
+  /* Auf dem Zettel steht das Gesetz nicht - im Tooltip und für Screenreader
+     gehört es dazu. */
+  const beschriftung = `${reiter.zeilen.join(" ")} ${gesetz}`;
   const inhalt = <Zeilen zeilen={reiter.zeilen} />;
   return (
     <div className="buch-reiter" style={{ "--breit": reiter.breit }}>
