@@ -88,8 +88,16 @@ assert(
    bewusst getrennt - sonst kippt mit der Post-it-Farbe der Seitenrahmen. */
 const postitToene = [...schema.matchAll(/postitTon: "(\w+)"/g)].map((m) => m[1]);
 assert(
-  postitToene.join(",") === "rot,rosa,rot",
-  `Post-it-Farben erwartet: rot, rosa, rot - gefunden: ${postitToene.join(",") || "keine"}`,
+  postitToene.join(",") === "gruen,rot,rot,rosa,gruen",
+  `Post-it-Farben erwartet: gruen (Standard), rot (Prüfungspunkt 1), rot (Übergang darunter), rosa (Wegzug), gruen (Schema DBA) - gefunden: ${postitToene.join(",") || "keine"}`,
+);
+assert(
+  schema.includes('{ typ: "uebergang", text: "Falls kein § 1 Abs. 1 S. 1 EStG:", postitTon: "rot" }'),
+  "Der Übergang unter Prüfungspunkt 1 gehört farblich zu diesem Punkt",
+);
+assert(
+  /return \(\n\s*<p\n\s*data-schema-ton=\{element\.postitTon\}/.test(schema),
+  "Ein Übergang kann seinen Normen keine eigene Farbe geben",
 );
 assert(
   schema.includes('postitTonNormen: { "§ 1 Abs. 3 EStG": "gelb" }'),
