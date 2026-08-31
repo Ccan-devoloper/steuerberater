@@ -448,6 +448,51 @@ export const GESETZBUECHER = [
         zeilen: ["§ 3 Nr. 40", "§ 3c (2) 1"],
         schritt: "Außerbilanzielle Korrektur",
       },
+      {
+        ton: "ansatz",
+        paragraph: "4",
+        zeilen: ["§ 4 (1) 8"],
+        schritt: "Einlage",
+        marken: [
+          { text: "§ 7 (1) 5, (4) 1 Hs. 1", zeilen: ["§ 7 (1) 5", "(4) 1", "Hs. 1"], ton: "bewertung", paragraph: "7", titel: "§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 1 EStG – AfA-Bemessungsgrundlage nach Einlage" },
+          { text: "§ 6 (1) Nr. 5", zeilen: ["§ 6 (1)", "Nr. 5"], ton: "bewertung", paragraph: "6", titel: "§ 6 Abs. 1 Nr. 5 EStG – Bewertung der Einlage" },
+        ],
+      },
+      {
+        ton: "ansatz",
+        paragraph: "4",
+        zeilen: ["§ 4 (1) 2"],
+        schritt: "Entnahme",
+        marken: [
+          { text: "§ 12 Nr. 3", zeilen: ["§ 12", "Nr. 3"], ton: "bewertung", paragraph: "12", titel: "§ 12 Nr. 3 EStG – nicht abziehbare Steuern" },
+          { text: "§ 6 (1) Nr. 4", zeilen: ["§ 6 (1)", "Nr. 4"], ton: "bewertung", paragraph: "6", titel: "§ 6 Abs. 1 Nr. 4 EStG – Bewertung der Entnahme" },
+        ],
+      },
+      {
+        /* Die Umsatzsteuer zur Entnahme steht in einem anderen Gesetz und
+           steckt daher weiter hinten im Block. */
+        ton: "bewertung",
+        reihe: 2,
+        gesetz: "UStG",
+        paragraph: "3",
+        zeilen: ["§ 3 (1b) 1", "S. 2", "UStG"],
+        schritt: "Unentgeltliche Wertabgabe",
+        marken: [
+          { text: "§ 3 (9a) Nr. 1 UStG", reihe: 2, zeilen: ["§ 3 (9a)", "Nr. 1"], gesetz: "UStG", paragraph: "3", titel: "§ 3 Abs. 9a Nr. 1 UStG – unentgeltliche Wertabgabe" },
+        ],
+      },
+      {
+        ton: "ausserbilanz",
+        paragraph: "4",
+        zeilen: ["§ 4 (5) 1", "Nr. 6 S. 3"],
+        schritt: "Außerbilanziell – Fahrten Wohnung/Betrieb",
+      },
+      {
+        ton: "ansatz",
+        paragraph: "4",
+        zeilen: ["§ 4 (4)"],
+        schritt: "Betriebsausgaben",
+      },
     ],
   },
 ];
@@ -485,7 +530,7 @@ function Zettelzeilen({ zeilen }) {
 function Zettel({ reiter, gesetz }) {
   /* Auf dem Zettel steht das Gesetz nicht - im Tooltip und für Screenreader
      gehört es dazu. */
-  const beschriftung = `${reiter.zeilen.join(" ")} ${gesetz}`;
+  const beschriftung = `${reiter.zeilen.join(" ")} ${reiter.gesetz || gesetz}`;
   const inhalt = <Zettelzeilen zeilen={reiter.zeilen} />;
   return (
     <div className="buch-reiter" style={{ "--breit": reiter.breit }}>
@@ -498,7 +543,8 @@ function Zettel({ reiter, gesetz }) {
       )}
       <a
         className={`buch-zettel buch-zettel--${reiter.ton}${reiter.quer ? " buch-zettel--quer" : ""}${reiter.streifen ? " buch-zettel--kopf" : ""}`}
-        href={normUrl(gesetz, reiter.paragraph)}
+        style={reiter.reihe ? { "--reihe": reiter.reihe } : undefined}
+        href={normUrl(reiter.gesetz || gesetz, reiter.paragraph)}
         target="_blank"
         rel="noopener noreferrer"
         title={`${beschriftung} · ${reiter.schritt}`}
@@ -669,7 +715,16 @@ function GesetzbuchAnsicht() {
   )))];
   return (
     <div className="buch-ansicht">
-      <div className="buch-regal">
+      {/* Das Buch mit mehr Zetteln bekommt mehr Breite, damit die Streifen in
+          beiden Büchern ähnlich breit bleiben. */}
+      <div
+        className="buch-regal"
+        style={{
+          gridTemplateColumns: GESETZBUECHER
+            .map((buch) => `minmax(0, ${5 + buch.reiter.length}fr)`)
+            .join(" "),
+        }}
+      >
         {GESETZBUECHER.map((buch) => <Gesetzbuch key={buch.id} buch={buch} />)}
       </div>
       <p className="buch-legende">

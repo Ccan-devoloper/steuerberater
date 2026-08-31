@@ -61,6 +61,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: end;
+  align-items: end;
   gap: clamp(16px, 3vw, 38px);
   width: 100%;
 }
