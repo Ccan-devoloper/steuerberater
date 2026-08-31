@@ -309,124 +309,143 @@ export const schemata = [
   },
 ];
 
-/* Die Reiter, die im HGB der Textausgabe oben rechts kleben: rot für den Ansatz,
-   orange für die Bewertung, in der Reihenfolge der Paragrafen. Kleine
-   Stichwortreiter sitzen wie im Buch oben auf dem jeweiligen Hauptreiter. */
+/* Die Zettel, die in der Textausgabe oben aus dem HGB herausragen: rot für den
+   Ansatz, orange für die Bewertung, von links nach rechts in Paragrafen-
+   reihenfolge. `marken` sind die kleinen Stichwortzettel, die im Buch oben auf
+   dem jeweiligen Hauptzettel kleben. */
 export const HGB_REITER = [
   {
     ton: "ansatz",
-    beschriftung: "§ 246 (1) 2 HGB",
     paragraph: "246",
+    zeilen: ["§ 246 (1) 2", "HGB"],
+    neigung: "-2.4deg",
+    tiefe: "0cqw",
     schritt: "Ansatz I – Zurechnung",
-    erlaeuterung: "Wirtschaftliches Eigentum – im Schema zusammen mit § 39 AO.",
   },
   {
     ton: "ansatz",
-    beschriftung: "§ 246 (1) 1, § 247 (2) HGB",
     paragraph: "246",
+    zeilen: ["§ 246 (1) 1", "§ 247 (2)", "HGB"],
+    neigung: "1.4deg",
+    tiefe: "1.1cqw",
     schritt: "Ansatz II – Zuordnung",
-    erlaeuterung: "Vollständigkeitsgebot und Abgrenzung Anlage-/Umlaufvermögen.",
-    zusatz: [
-      { text: "IWG", beschriftung: "§ 248 (2) HGB", paragraph: "248", erlaeuterung: "Bilanzierungsverbot für selbst geschaffene immaterielle WG." },
-      { text: "Beteiligung", beschriftung: "§ 271 (1) HGB", paragraph: "271", erlaeuterung: "Beteiligungsbegriff bei Anteilen an anderen Unternehmen." },
+    marken: [
+      { text: "Beteiligung", paragraph: "271", titel: "§ 271 Abs. 1 HGB – Beteiligungen", neigung: "-2.6deg" },
     ],
   },
   {
     ton: "bewertung",
-    beschriftung: "§ 253 (1) 1 HGB",
     paragraph: "253",
+    zeilen: ["§ 253 (1) 1", "HGB"],
+    neigung: "-1.2deg",
+    tiefe: "0.3cqw",
     schritt: "Bewertung I – Maßstab",
-    erlaeuterung: "Zugangsbewertung mit den (fortgeführten) Ak / Hk.",
   },
   {
     ton: "bewertung",
-    beschriftung: "§ 255 HGB",
     paragraph: "255",
+    zeilen: ["§ 255", "HGB"],
+    neigung: "1.1deg",
+    tiefe: "0.9cqw",
     schritt: "Bewertung II – Höhe",
-    erlaeuterung: "Ermittlung der Anschaffungs- und Herstellungskosten.",
-    zusatz: [
-      { text: "BVE 256", beschriftung: "§ 256 HGB", paragraph: "256", erlaeuterung: "Bewertungsvereinfachung über unterstellte Verbrauchsfolgen." },
+    marken: [
+      { text: "BVE § 256", paragraph: "256", titel: "§ 256 HGB – Bewertungsvereinfachung", neigung: "-2.2deg" },
     ],
   },
   {
     ton: "bewertung",
-    beschriftung: "§ 253 (3) 1, 2 HGB",
     paragraph: "253",
+    zeilen: ["§ 253 (3)", "S. 1 + 2", "HGB"],
+    neigung: "2deg",
+    tiefe: "0.1cqw",
     schritt: "Bewertung III – Fortführung",
-    erlaeuterung: "Planmäßige Abschreibung in der Handelsbilanz.",
   },
 ];
 
-/* Nur das erste Schema hat die HGB-Reiteransicht - dort steckt die ganze
-   Ansatz-/Bewertungsstrecke, die im Buch als Reiter klebt. */
+/* Nur das erste Schema hat die HGB-Ansicht - dort steckt die ganze
+   Ansatz-/Bewertungsstrecke, die im Buch als Zettel klebt. */
 export const HGB_REITER_SCHEMA = "vermoegensgegenstand-wirtschaftsgut";
+
+const HGB_VERZEICHNIS = [
+  "AktG", "EGAktG", "AnfG", "BGB", "DMBilG", "DrittelbG", "EWIV-VO", "EWIV-AG",
+  "GenG", "GmbHG", "EGGmbHG", "HGB", "EGHGB", "InsO", "MgVG", "MitbestG",
+  "PartGG", "PublG", "SchG", "SE-VO", "SEAG", "SpruchG", "UmwG", "WG", "WpHG",
+];
 
 function hgbUrl(paragraph) {
   return `https://dejure.org/gesetze/HGB/${paragraph}.html`;
 }
 
-function Reiterfahne({ beschriftung, paragraph, ton, klein = false }) {
+function Zettel({ reiter }) {
+  const beschriftung = reiter.zeilen.join(" ");
   return (
-    <a
-      className={`hgb-reiter-fahne hgb-reiter-fahne--${ton}${klein ? " hgb-reiter-fahne--klein" : ""}`}
-      href={hgbUrl(paragraph)}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {beschriftung}
-    </a>
-  );
-}
-
-function HgbReiterzeile({ reiter }) {
-  return (
-    <li className={`hgb-reiter-zeile hgb-reiter-zeile--${reiter.ton}`}>
-      <div className="hgb-reiter-fahnen">
-        {reiter.zusatz?.length > 0 && (
-          <div className="hgb-reiter-stichworte">
-            {reiter.zusatz.map((z) => (
-              <Reiterfahne key={z.beschriftung} beschriftung={z.text} paragraph={z.paragraph} ton={reiter.ton} klein />
-            ))}
-          </div>
-        )}
-        <Reiterfahne beschriftung={reiter.beschriftung} paragraph={reiter.paragraph} ton={reiter.ton} />
-      </div>
-      <div className="hgb-reiter-text">
-        <b>{reiter.schritt}</b>
-        <span>{reiter.erlaeuterung}</span>
-        {reiter.zusatz?.map((z) => (
-          <small key={z.beschriftung}>
-            <em>{z.text}</em> · {z.beschriftung} – {z.erlaeuterung}
-          </small>
+    <div className="hgb-reiter" style={{ "--neigung": reiter.neigung, "--tiefe": reiter.tiefe }}>
+      {reiter.marken?.length > 0 && (
+        <div className="hgb-marken">
+          {reiter.marken.map((marke) => (
+            <a
+              key={marke.text}
+              className={`hgb-zettel hgb-zettel--marke hgb-zettel--${reiter.ton}`}
+              style={{ "--neigung": marke.neigung }}
+              href={hgbUrl(marke.paragraph)}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={marke.titel}
+              aria-label={`${marke.text} – ${marke.titel}`}
+            >
+              {marke.text}
+            </a>
+          ))}
+        </div>
+      )}
+      <a
+        className={`hgb-zettel hgb-zettel--${reiter.ton}`}
+        href={hgbUrl(reiter.paragraph)}
+        target="_blank"
+        rel="noopener noreferrer"
+        title={`${beschriftung} · ${reiter.schritt}`}
+        aria-label={`${beschriftung} – ${reiter.schritt}. Norm auf dejure.org öffnen`}
+      >
+        {reiter.zeilen.map((zeile, i) => (
+          <React.Fragment key={zeile}>{i > 0 && <br />}{zeile}</React.Fragment>
         ))}
-      </div>
-    </li>
+      </a>
+    </div>
   );
 }
 
-/* Bildet das Schema allein über das HGB ab: die Reiter der Textausgabe, in
-   Buchreihenfolge, mit dem Prüfungsschritt, für den sie stehen. */
+/* Bildet das Schema allein über das HGB ab: die Zettel, die oben aus der
+   Textausgabe ragen - ihre Farbe sagt, für welchen Prüfungsschritt sie stehen. */
 function HgbReiterAnsicht() {
   return (
-    <div className="hgb-reiter">
-      <div className="hgb-reiter-kopf">
-        <span className="kicker">Wichtige Wirtschaftsgesetze · HGB</span>
-        <h3>Was im HGB oben rechts klebt</h3>
-        <p>
-          Dasselbe Schema, allein über das Handelsgesetzbuch gelesen – jeder Reiter steht für
-          einen Prüfungsschritt.
-        </p>
-        <div className="hgb-reiter-legende">
-          <span className="hgb-reiter-legende--ansatz">Ansatz</span>
-          <span className="hgb-reiter-legende--bewertung">Bewertung</span>
+    <div className="hgb-ansicht">
+      <div className="hgb-buehne">
+        <div className="hgb-reiterleiste">
+          {HGB_REITER.map((reiter) => <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} />)}
+        </div>
+        <div className="hgb-buch">
+          <div className="hgb-buch-band">Textausgabe</div>
+          <div className="hgb-buch-jahr">2026</div>
+          <div className="hgb-buch-titel">
+            <b>Wichtige<br />Wirtschaftsgesetze</b>
+            <span>39. Auflage</span>
+          </div>
+          <div className="hgb-buch-fuss">
+            <b>Drittes Buch · Handelsbücher</b>
+            <span>§§ 238 – 342e HGB</span>
+          </div>
+          <div className="hgb-buch-register" aria-hidden="true">
+            {HGB_VERZEICHNIS.map((gesetz) => (
+              <span key={gesetz} className={gesetz === "HGB" ? "ist-hgb" : undefined}>{gesetz}</span>
+            ))}
+          </div>
         </div>
       </div>
-      <div className="hgb-reiter-buch">
-        <div className="hgb-reiter-block" aria-hidden="true" />
-        <ol className="hgb-reiter-liste">
-          {HGB_REITER.map((reiter) => <HgbReiterzeile key={reiter.beschriftung} reiter={reiter} />)}
-        </ol>
-      </div>
+      <p className="hgb-legende">
+        <span className="hgb-legende--ansatz">Ansatz</span>
+        <span className="hgb-legende--bewertung">Bewertung</span>
+        Dasselbe Schema, allein über das HGB gelesen. Jeder Zettel öffnet seine Norm.
+      </p>
     </div>
   );
 }
