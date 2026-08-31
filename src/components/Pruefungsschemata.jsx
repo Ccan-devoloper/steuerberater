@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./pruefungsschema-hgb.css";
+import "./pruefungsschema-gesetzbuecher.css";
 
 const farben = {
   ansatz: "var(--rot)",
@@ -309,135 +309,247 @@ export const schemata = [
   },
 ];
 
-/* Die Zettel, die in der Textausgabe oben aus dem HGB herausragen: rot für den
-   Ansatz, orange für die Bewertung, von links nach rechts in Paragrafen-
-   reihenfolge. `marken` sind die kleinen Stichwortzettel, die im Buch oben auf
-   dem jeweiligen Hauptzettel kleben. */
-export const HGB_REITER = [
+/* Die beiden Gesetzbücher, die das erste Schema tragen, mit den Zetteln, die
+   oben aus ihnen herausragen. Die Farbe sagt, für welchen Prüfungsschritt ein
+   Zettel steht; `marken` sind die kleinen Stichwortzettel, die im Buch oben auf
+   dem jeweiligen Streifen kleben. */
+export const GESETZBUECHER = [
   {
-    ton: "ansatz",
-    paragraph: "246",
-    zeilen: ["§ 246 (1) 2", "HGB"],
-    schritt: "Ansatz I – Zurechnung",
-  },
-  {
-    ton: "ansatz",
-    paragraph: "246",
-    zeilen: ["§ 246 (1) 1", "§ 247 (2)", "HGB"],
-    schritt: "Ansatz II – Zuordnung",
-    marken: [
-      { text: "Beteiligung", zeilen: ["Beteili-", "gung"], paragraph: "271", titel: "§ 271 Abs. 1 HGB – Beteiligungen" },
+    id: "wirtschaftsgesetze",
+    stil: "nwb",
+    gesetz: "HGB",
+    band: "Textausgabe",
+    jahr: "2026",
+    titel: ["Wichtige", "Wirtschaftsgesetze"],
+    auflage: "39. Auflage",
+    register: [
+      "AktG", "EGAktG", "AnfG", "BGB", "DMBilG", "DrittelbG", "EWIV-VO", "EWIV-AG",
+      "GenG", "GmbHG", "EGGmbHG", "HGB", "EGHGB", "InsO", "MgVG", "MitbestG",
+      "PartGG", "PublG", "SchG", "SE-VO", "SEAG", "SpruchG", "UmwG", "WG", "WpHG",
+    ],
+    fuss: { links: "Drittes Buch · Handelsbücher", rechts: "§§ 238 – 342e HGB" },
+    reiter: [
+      {
+        ton: "ansatz",
+        paragraph: "246",
+        zeilen: ["§ 246 (1) 2", "HGB"],
+        schritt: "Ansatz I – Zurechnung",
+      },
+      {
+        ton: "ansatz",
+        paragraph: "246",
+        zeilen: ["§ 246 (1) 1", "§ 247 (2)", "HGB"],
+        schritt: "Ansatz II – Zuordnung",
+        marken: [
+          { text: "Beteiligung", zeilen: ["Beteili-", "gung"], paragraph: "271", titel: "§ 271 Abs. 1 HGB – Beteiligungen" },
+        ],
+      },
+      {
+        ton: "bewertung",
+        paragraph: "253",
+        zeilen: ["§ 253 (1) 1", "HGB"],
+        schritt: "Bewertung I – Maßstab",
+      },
+      {
+        ton: "bewertung",
+        paragraph: "255",
+        zeilen: ["§ 255", "HGB"],
+        schritt: "Bewertung II – Höhe",
+        marken: [
+          { text: "BVE § 256", zeilen: ["BVE", "§ 256"], paragraph: "256", titel: "§ 256 HGB – Bewertungsvereinfachung" },
+        ],
+      },
+      {
+        ton: "bewertung",
+        paragraph: "253",
+        zeilen: ["§ 253 (3)", "S. 1 + 2", "HGB"],
+        schritt: "Bewertung III – Fortführung",
+      },
     ],
   },
   {
-    ton: "bewertung",
-    paragraph: "253",
-    zeilen: ["§ 253 (1) 1", "HGB"],
-    schritt: "Bewertung I – Maßstab",
-  },
-  {
-    ton: "bewertung",
-    paragraph: "255",
-    zeilen: ["§ 255", "HGB"],
-    schritt: "Bewertung II – Höhe",
-    marken: [
-      { text: "BVE § 256", zeilen: ["BVE", "§ 256"], paragraph: "256", titel: "§ 256 HGB – Bewertungsvereinfachung" },
+    id: "steuergesetze",
+    stil: "beck",
+    gesetz: "EStG",
+    band: "Beck'sche Textausgaben",
+    titel: ["Steuergesetze"],
+    fuss: { links: "Einkommensteuergesetz", rechts: "EStG" },
+    reiter: [
+      {
+        ton: "ausserbilanz",
+        paragraph: "3",
+        zeilen: ["§ 3 Nr. 40 a)", "§ 3c (2) 1", "EStG"],
+        schritt: "Außerbilanzielle Korrektur",
+      },
+      {
+        ton: "ansatz",
+        paragraph: "5",
+        zeilen: ["§ 5 (1) 1", "Hs. 1", "EStG"],
+        schritt: "Ansatz – Maßgeblichkeit",
+        marken: [
+          { text: "Verzeichnis", ton: "hinweis", zeilen: ["§ 5 (1)", "2 + 3"], paragraph: "5", titel: "§ 5 Abs. 1 S. 2 und 3 EStG – gesondertes Verzeichnis" },
+        ],
+      },
+      {
+        ton: "bewertung",
+        paragraph: "6",
+        zeilen: ["§ 6 (1)", "EStG", "Bewertung"],
+        schritt: "Bewertung I und II",
+        marken: [
+          { text: "§ 6 (1) Nr. 1b", zeilen: ["§ 6 (1)", "Nr. 1b"], paragraph: "6", titel: "§ 6 Abs. 1 Nr. 1b EStG – Wahlrecht bei den Herstellungskosten" },
+          { text: "§ 6 (6) 1", zeilen: ["§ 6 (6) 1"], paragraph: "6", titel: "§ 6 Abs. 6 S. 1 EStG – Tausch" },
+        ],
+      },
+      {
+        ton: "sonder",
+        paragraph: "6b",
+        zeilen: ["§ 6b", "EStG"],
+        schritt: "Übertragung stiller Reserven",
+        marken: [
+          { text: "§ 6b (6)", zeilen: ["§ 6b (6)"], paragraph: "6b", titel: "§ 6b Abs. 6 EStG" },
+        ],
+      },
+      {
+        ton: "bewertung",
+        paragraph: "7",
+        zeilen: ["AfA", "§ 7 (1)"],
+        schritt: "Bewertung III – Regel-AfA",
+        marken: [
+          { text: "§ 7 (4), (5a)", zeilen: ["§ 7 (4)", "(5a)"], paragraph: "7", titel: "§ 7 Abs. 4 / Abs. 5a EStG – Gebäude-AfA" },
+        ],
+      },
+      {
+        ton: "sonder",
+        paragraph: "7a",
+        zeilen: ["§ 7a (9)", "EStG"],
+        schritt: "Sonderabschreibungen",
+      },
+      {
+        ton: "sonder",
+        paragraph: "7b",
+        zeilen: ["§ 7b", "EStG"],
+        schritt: "Sonderabschreibung Mietwohnungsneubau",
+      },
+      {
+        ton: "sonder",
+        paragraph: "7g",
+        zeilen: ["Sonder-AfA", "§ 7g (5)", "(6)"],
+        schritt: "Sonderabschreibung kleiner und mittlerer Betriebe",
+      },
+      {
+        ton: "bewertung",
+        paragraph: "9b",
+        zeilen: ["VStA", "§ 9b (1)"],
+        schritt: "Bewertung II – Vorsteuerabzug",
+      },
     ],
   },
-  {
-    ton: "bewertung",
-    paragraph: "253",
-    zeilen: ["§ 253 (3)", "S. 1 + 2", "HGB"],
-    schritt: "Bewertung III – Fortführung",
-  },
 ];
 
-/* Nur das erste Schema hat die HGB-Ansicht - dort steckt die ganze
-   Ansatz-/Bewertungsstrecke, die im Buch als Zettel klebt. */
-export const HGB_REITER_SCHEMA = "vermoegensgegenstand-wirtschaftsgut";
+/* Nur das erste Schema hat die Gesetzbuchansicht - dort steckt die ganze
+   Ansatz-/Bewertungsstrecke, die in den Büchern als Zettel klebt. */
+export const GESETZBUCH_SCHEMA = "vermoegensgegenstand-wirtschaftsgut";
 
-const HGB_VERZEICHNIS = [
-  "AktG", "EGAktG", "AnfG", "BGB", "DMBilG", "DrittelbG", "EWIV-VO", "EWIV-AG",
-  "GenG", "GmbHG", "EGGmbHG", "HGB", "EGHGB", "InsO", "MgVG", "MitbestG",
-  "PartGG", "PublG", "SchG", "SE-VO", "SEAG", "SpruchG", "UmwG", "WG", "WpHG",
-];
+const TON_BESCHRIFTUNG = {
+  ansatz: "Ansatz",
+  bewertung: "Bewertung",
+  sonder: "Sonder-AfA",
+  ausserbilanz: "Außerbilanziell",
+  hinweis: "Merke",
+};
 
-function hgbUrl(paragraph) {
-  return `https://dejure.org/gesetze/HGB/${paragraph}.html`;
+function normUrl(gesetz, paragraph) {
+  return `https://dejure.org/gesetze/${gesetz}/${paragraph}.html`;
 }
 
-function Zettel({ reiter }) {
+function Zeilen({ zeilen }) {
+  return zeilen.map((zeile, i) => (
+    <React.Fragment key={zeile}>{i > 0 && <br />}{zeile}</React.Fragment>
+  ));
+}
+
+function Zettel({ reiter, gesetz }) {
   const beschriftung = reiter.zeilen.join(" ");
   return (
-    <div className="hgb-reiter">
+    <div className="buch-reiter">
       {reiter.marken?.length > 0 && (
-        <div className="hgb-marken">
+        <div className="buch-marken">
           {reiter.marken.map((marke) => (
             <a
               key={marke.text}
-              className={`hgb-zettel hgb-zettel--marke hgb-zettel--${reiter.ton}`}
-              href={hgbUrl(marke.paragraph)}
+              className={`buch-zettel buch-zettel--marke buch-zettel--${marke.ton || reiter.ton}`}
+              href={normUrl(gesetz, marke.paragraph)}
               target="_blank"
               rel="noopener noreferrer"
               title={marke.titel}
               aria-label={`${marke.text} – ${marke.titel}`}
             >
-              {marke.zeilen.map((zeile, i) => (
-                <React.Fragment key={zeile}>{i > 0 && <br />}{zeile}</React.Fragment>
-              ))}
+              <Zeilen zeilen={marke.zeilen} />
             </a>
           ))}
         </div>
       )}
       <a
-        className={`hgb-zettel hgb-zettel--${reiter.ton}`}
-        href={hgbUrl(reiter.paragraph)}
+        className={`buch-zettel buch-zettel--${reiter.ton}`}
+        href={normUrl(gesetz, reiter.paragraph)}
         target="_blank"
         rel="noopener noreferrer"
         title={`${beschriftung} · ${reiter.schritt}`}
         aria-label={`${beschriftung} – ${reiter.schritt}. Norm auf dejure.org öffnen`}
       >
-        <span className="hgb-zettel-hochkant">
-          {reiter.zeilen.map((zeile, i) => (
-            <React.Fragment key={zeile}>{i > 0 && <br />}{zeile}</React.Fragment>
-          ))}
-        </span>
+        <span className="buch-zettel-hochkant"><Zeilen zeilen={reiter.zeilen} /></span>
       </a>
     </div>
   );
 }
 
-/* Bildet das Schema allein über das HGB ab: die Zettel, die oben aus der
-   Textausgabe ragen - ihre Farbe sagt, für welchen Prüfungsschritt sie stehen. */
-function HgbReiterAnsicht() {
+function Gesetzbuch({ buch }) {
   return (
-    <div className="hgb-ansicht">
-      <div className="hgb-buehne">
-        <div className="hgb-reiterleiste">
-          {HGB_REITER.map((reiter) => <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} />)}
+    <div className={`buch-buehne buch-buehne--${buch.stil}`} style={{ "--zettel-anzahl": buch.reiter.length }}>
+      <div className="buch-reiterleiste">
+        {buch.reiter.map((reiter) => (
+          <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} gesetz={buch.gesetz} />
+        ))}
+      </div>
+      <div className="buch-deckel">
+        <div className="buch-band">{buch.band}</div>
+        {buch.jahr && <div className="buch-jahr">{buch.jahr}</div>}
+        <div className="buch-titel">
+          <b><Zeilen zeilen={buch.titel} /></b>
+          {buch.auflage && <span>{buch.auflage}</span>}
         </div>
-        <div className="hgb-buch">
-          <div className="hgb-buch-band">Textausgabe</div>
-          <div className="hgb-buch-jahr">2026</div>
-          <div className="hgb-buch-titel">
-            <b>Wichtige<br />Wirtschaftsgesetze</b>
-            <span>39. Auflage</span>
-          </div>
-          <div className="hgb-buch-fuss">
-            <b>Drittes Buch · Handelsbücher</b>
-            <span>§§ 238 – 342e HGB</span>
-          </div>
-          <div className="hgb-buch-register" aria-hidden="true">
-            {HGB_VERZEICHNIS.map((gesetz) => (
-              <span key={gesetz} className={gesetz === "HGB" ? "ist-hgb" : undefined}>{gesetz}</span>
+        <div className="buch-fuss">
+          <b>{buch.fuss.links}</b>
+          <span>{buch.fuss.rechts}</span>
+        </div>
+        {buch.register && (
+          <div className="buch-register" aria-hidden="true">
+            {buch.register.map((gesetz) => (
+              <span key={gesetz} className={gesetz === buch.gesetz ? "ist-aktiv" : undefined}>{gesetz}</span>
             ))}
           </div>
-        </div>
+        )}
       </div>
-      <p className="hgb-legende">
-        <span className="hgb-legende--ansatz">Ansatz</span>
-        <span className="hgb-legende--bewertung">Bewertung</span>
-        Dasselbe Schema, allein über das HGB gelesen. Jeder Zettel öffnet seine Norm.
+    </div>
+  );
+}
+
+/* Bildet das Schema allein über die Gesetzestexte ab: die Zettel, die oben aus
+   den beiden Textausgaben ragen. */
+function GesetzbuchAnsicht() {
+  const toene = [...new Set(GESETZBUECHER.flatMap((buch) => buch.reiter.flatMap(
+    (r) => [r.ton, ...(r.marken || []).map((m) => m.ton || r.ton)],
+  )))];
+  return (
+    <div className="buch-ansicht">
+      <div className="buch-regal">
+        {GESETZBUECHER.map((buch) => <Gesetzbuch key={buch.id} buch={buch} />)}
+      </div>
+      <p className="buch-legende">
+        {toene.map((ton) => (
+          <span key={ton} className={`buch-legende--${ton}`}>{TON_BESCHRIFTUNG[ton]}</span>
+        ))}
+        Dasselbe Schema, allein über die Gesetzestexte gelesen. Jeder Zettel öffnet seine Norm.
       </p>
     </div>
   );
@@ -536,7 +648,7 @@ export default function Pruefungsschemata({ aktiv: aktivVonAussen, onWechsel, nu
   const aktiv = aktivVonAussen ?? aktivIntern;
   const setAktiv = onWechsel ?? setAktivIntern;
   const schema = schemata.find((s) => s.id === aktiv) || schemata[0];
-  const hatReiter = schema.id === HGB_REITER_SCHEMA;
+  const hatReiter = schema.id === GESETZBUCH_SCHEMA;
   const nurHgb = hatReiter && (nurHgbVonAussen ?? nurHgbIntern);
   const setNurHgb = onHgbWechsel ?? setNurHgbIntern;
 
@@ -566,15 +678,15 @@ export default function Pruefungsschemata({ aktiv: aktivVonAussen, onWechsel, nu
           <span className="kicker">{`Prüfungsschema ${schemata.findIndex((s) => s.id === schema.id) + 1} von 6`}</span>
           <h2 style={{ margin: "6px 0 0" }}>{schema.titel}</h2>
           {hatReiter && (
-            <div className="hgb-schalter" role="group" aria-label="Darstellung des Schemas">
+            <div className="buch-schalter" role="group" aria-label="Darstellung des Schemas">
               <button type="button" aria-pressed={!nurHgb} onClick={() => setNurHgb(false)}>Ausformuliert</button>
-              <button type="button" aria-pressed={nurHgb} onClick={() => setNurHgb(true)}>Nur HGB</button>
+              <button type="button" aria-pressed={nurHgb} onClick={() => setNurHgb(true)}>Nur Gesetze</button>
             </div>
           )}
         </header>
         <div style={{ padding: "18px" }}>
           {nurHgb
-            ? <HgbReiterAnsicht />
+            ? <GesetzbuchAnsicht />
             : schema.bloecke.map((block, i) => <SchemaBlock key={i} block={block} />)}
         </div>
         <footer style={{ padding: "10px 18px", borderTop: "1px solid var(--linie)", fontSize: 12, color: "var(--ink-weich)" }}>

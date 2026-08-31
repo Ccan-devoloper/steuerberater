@@ -1,0 +1,414 @@
+/* Gesetzbuchansicht des ersten Prüfungsschemas: die beiden Textausgaben mit den
+   Zetteln, die oben aus ihnen ragen. Die Farbe eines Zettels nennt den
+   Prüfungsschritt, für den er steht. */
+
+.buch-schalter {
+  display: inline-flex;
+  gap: 2px;
+  margin-top: 14px;
+  padding: 3px;
+  border: 1px solid color-mix(in srgb, var(--linie) 88%, var(--tinte));
+  background: var(--papier);
+}
+
+.buch-schalter button {
+  padding: 7px 15px;
+  border: 0;
+  background: transparent;
+  color: var(--tinte);
+  font-family: var(--mono);
+  font-size: .82rem;
+  font-weight: 650;
+  letter-spacing: .02em;
+  cursor: pointer;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.buch-schalter button:hover {
+  background: color-mix(in srgb, var(--feld) 60%, var(--papier));
+}
+
+.buch-schalter button[aria-pressed="true"] {
+  background: var(--tinte);
+  color: var(--papier);
+}
+
+.buch-schalter button:focus-visible {
+  outline: 2px solid var(--tinte);
+  outline-offset: 2px;
+}
+
+.buch-ansicht {
+  --zettel-ansatz: #e34a52;
+  --zettel-ansatz-tief: #c22f3c;
+  --zettel-bewertung: #f0913f;
+  --zettel-bewertung-tief: #d06f1c;
+  --zettel-sonder: #ef5ba4;
+  --zettel-sonder-tief: #c72f78;
+  --zettel-ausserbilanz: #6cc978;
+  --zettel-ausserbilanz-tief: #38984c;
+  --zettel-hinweis: #c48ce0;
+  --zettel-hinweis-tief: #9152b6;
+  --zettel-schrift: #2a221c;
+  padding: clamp(10px, 2vw, 26px) 0 4px;
+}
+
+/* Beide Bücher stehen nebeneinander und schließen unten bündig ab. */
+.buch-regal {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: end;
+  gap: clamp(16px, 3vw, 38px);
+  width: 100%;
+}
+
+/* Jedes Buch ist sein eigener Bezugsrahmen: alle Maße darin rechnen in cqw,
+   damit Deckel und Zettel gemeinsam skalieren. */
+.buch-buehne {
+  container-type: inline-size;
+}
+
+/* Die Zettel liegen im normalen Fluss und stoßen mit ihrer Unterkante bündig
+   an die Oberkante des Buches - kein Pixelgefummel, alles responsiv. */
+.buch-reiterleiste {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: .9cqw;
+  padding-left: 5cqw;
+}
+
+.buch-reiter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .25cqw;
+}
+
+/* Mehrere Stichwortzettel stapeln sich wie im Buch übereinander. */
+.buch-marken {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .25cqw;
+}
+
+/* Die Breite richtet sich nach der Zahl der Zettel, damit die Reihe in jedem
+   Buch auf die Deckelbreite passt. */
+.buch-buehne {
+  --zettel-breite: min(11cqw, calc((88cqw - var(--zettel-anzahl) * .9cqw) / var(--zettel-anzahl)));
+  --zettel-schriftgrad: max(1.7cqw, calc(var(--zettel-breite) * .21));
+}
+
+.buch-zettel {
+  display: grid;
+  place-items: center;
+  width: var(--zettel-breite);
+  min-height: 23cqw;
+  padding: 1.4cqw .4cqw;
+  background: var(--zettel);
+  color: var(--zettel-schrift);
+  font-family: "Segoe Print", "Bradley Hand", "Comic Sans MS", var(--sans);
+  font-size: var(--zettel-schriftgrad);
+  font-weight: 650;
+  line-height: 1.3;
+  letter-spacing: -.02em;
+  text-align: center;
+  text-decoration: none;
+  /* Umbrochen wird nur an den vorgesehenen Stellen, nicht mitten in der Norm. */
+  white-space: nowrap;
+  /* Die untere Kante liegt satter auf: der Zettel ist unten angeklebt. */
+  box-shadow:
+    inset 0 -.5cqw 0 color-mix(in srgb, var(--zettel-tief) 55%, transparent),
+    inset 0 .3cqw 0 rgb(255 255 255 / 22%),
+    .2cqw .8cqw 1.1cqw rgb(20 14 8 / 26%);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+/* Die Norm steht hochkant auf dem Streifen, von unten nach oben. */
+.buch-zettel-hochkant {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.buch-zettel:visited {
+  color: var(--zettel-schrift);
+}
+
+.buch-zettel:hover,
+.buch-zettel:focus-visible {
+  z-index: 4;
+  transform: translateY(-.6cqw) scale(1.06);
+  box-shadow:
+    inset 0 -.5cqw 0 color-mix(in srgb, var(--zettel-tief) 55%, transparent),
+    inset 0 .3cqw 0 rgb(255 255 255 / 26%),
+    .3cqw 1.3cqw 1.8cqw rgb(20 14 8 / 34%);
+}
+
+.buch-zettel:focus-visible {
+  outline: .4cqw solid var(--tinte);
+  outline-offset: .3cqw;
+}
+
+/* Die Stichwortzettel sitzen quer beschriftet oben auf dem Streifen. */
+.buch-zettel--marke {
+  min-height: 6.4cqw;
+  padding: .5cqw .4cqw;
+  font-size: calc(var(--zettel-schriftgrad) * .86);
+}
+
+.buch-zettel--ansatz {
+  --zettel: var(--zettel-ansatz);
+  --zettel-tief: var(--zettel-ansatz-tief);
+}
+
+.buch-zettel--bewertung {
+  --zettel: var(--zettel-bewertung);
+  --zettel-tief: var(--zettel-bewertung-tief);
+}
+
+.buch-zettel--sonder {
+  --zettel: var(--zettel-sonder);
+  --zettel-tief: var(--zettel-sonder-tief);
+}
+
+.buch-zettel--ausserbilanz {
+  --zettel: var(--zettel-ausserbilanz);
+  --zettel-tief: var(--zettel-ausserbilanz-tief);
+}
+
+.buch-zettel--hinweis {
+  --zettel: var(--zettel-hinweis);
+  --zettel-tief: var(--zettel-hinweis-tief);
+}
+
+.buch-deckel {
+  position: relative;
+  aspect-ratio: .735;
+  overflow: hidden;
+  border-radius: 1cqw 1cqw 1.6cqw 1cqw;
+  background: var(--deckel);
+  color: var(--deckel-schrift);
+  box-shadow:
+    inset 0 0 0 .3cqw var(--deckel-kante),
+    1.4cqw 1.3cqw 0 color-mix(in srgb, var(--papier) 82%, var(--ink)),
+    2.1cqw 2cqw 0 color-mix(in srgb, var(--papier) 64%, var(--ink)),
+    0 2.4cqw 3.4cqw rgb(16 12 6 / 26%);
+}
+
+/* Angedeuteter Blockschnitt an der Unterkante. */
+.buch-deckel::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 2.2cqw;
+  background: linear-gradient(color-mix(in srgb, var(--papier) 94%, var(--ink)), color-mix(in srgb, var(--papier) 72%, var(--ink)));
+}
+
+/* Die gelbe nwb-Textausgabe: blaues Band, Jahr, Register am Vorderschnitt. */
+.buch-buehne--nwb {
+  --deckel: linear-gradient(158deg, #f5da05 0 62%, #dcc300);
+  --deckel-kante: rgb(255 255 255 / 40%);
+  --deckel-schrift: #23281f;
+  --deckel-linie: rgb(35 40 31 / 34%);
+  --deckel-weich: rgb(35 40 31 / 78%);
+}
+
+.buch-buehne--nwb .buch-band {
+  left: 8.4cqw;
+  right: 16cqw;
+  top: 6.4cqw;
+  padding: 6.4cqw 3.4cqw;
+  background: #55708a;
+  color: rgb(255 255 255 / 84%);
+  font-size: 4.4cqw;
+  font-weight: 300;
+}
+
+/* Die rote Beck'sche Textausgabe: Ledereinband, Titel in Serife. */
+.buch-buehne--beck {
+  --deckel: linear-gradient(152deg, #c0242c 0 58%, #a4171f);
+  --deckel-kante: rgb(255 255 255 / 16%);
+  --deckel-schrift: #fdf6f2;
+  --deckel-linie: rgb(255 255 255 / 34%);
+  --deckel-weich: rgb(253 246 242 / 76%);
+}
+
+/* Die umlaufende Ziernaht des Ledereinbands. */
+.buch-buehne--beck .buch-deckel::before {
+  content: "";
+  position: absolute;
+  inset: 2.4cqw;
+  border: .22cqw dashed rgb(255 255 255 / 26%);
+  border-radius: .6cqw;
+  pointer-events: none;
+}
+
+.buch-buehne--beck .buch-band {
+  left: 9cqw;
+  top: 30cqw;
+  font-family: var(--serif);
+  font-size: 3.3cqw;
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+
+.buch-buehne--beck .buch-titel {
+  top: 38cqw;
+}
+
+.buch-buehne--beck .buch-titel b {
+  font-family: var(--serif);
+  font-size: 8cqw;
+  font-weight: 700;
+  letter-spacing: -.02em;
+}
+
+.buch-band {
+  position: absolute;
+  font-family: var(--sans);
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.buch-jahr {
+  position: absolute;
+  top: 23.8cqw;
+  left: 51cqw;
+  padding: .4cqw 1.5cqw .6cqw;
+  background: rgb(216 190 0 / 82%);
+  color: #241f05;
+  font-family: var(--sans);
+  font-size: 4cqw;
+  font-weight: 650;
+}
+
+.buch-titel {
+  position: absolute;
+  left: 8.9cqw;
+  top: 34cqw;
+  width: 74cqw;
+  font-family: var(--sans);
+}
+
+.buch-titel b {
+  display: block;
+  font-size: 5.4cqw;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: -.03em;
+}
+
+.buch-titel span {
+  display: block;
+  margin-top: 4cqw;
+  font-size: 2.2cqw;
+  color: var(--deckel-weich);
+}
+
+.buch-fuss {
+  position: absolute;
+  left: 8.9cqw;
+  right: 8.9cqw;
+  bottom: 7.4cqw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1cqw;
+  padding-top: 1.4cqw;
+  border-top: .28cqw solid var(--deckel-linie);
+  font-family: var(--sans);
+}
+
+.buch-fuss b {
+  font-size: 2.5cqw;
+  font-weight: 650;
+  letter-spacing: -.01em;
+}
+
+.buch-fuss span {
+  font-size: 2.1cqw;
+  color: var(--deckel-weich);
+}
+
+.buch-register {
+  position: absolute;
+  top: 16.8cqw;
+  right: 1.1cqw;
+  width: 14cqw;
+  font-family: var(--sans);
+  font-size: 1.72cqw;
+  line-height: 1.58;
+  color: var(--deckel-weich);
+}
+
+.buch-register span {
+  display: block;
+  padding-left: .6cqw;
+  border-bottom: .1cqw solid var(--deckel-linie);
+  white-space: nowrap;
+}
+
+/* Das Gesetz, um das es in diesem Buch geht. */
+.buch-register .ist-aktiv {
+  background: rgb(255 255 255 / 46%);
+  font-weight: 700;
+  color: #1d2118;
+}
+
+.buch-legende {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  max-width: 76ch;
+  margin: 30px auto 0 !important;
+  color: var(--ink-weich);
+  font-size: .92rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.buch-legende span {
+  padding: 3px 11px;
+  color: var(--zettel-schrift);
+  font-family: var(--mono);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.buch-legende--ansatz { background: var(--zettel-ansatz); }
+.buch-legende--bewertung { background: var(--zettel-bewertung); }
+.buch-legende--sonder { background: var(--zettel-sonder); }
+.buch-legende--ausserbilanz { background: var(--zettel-ausserbilanz); }
+.buch-legende--hinweis { background: var(--zettel-hinweis); }
+
+/* Nebeneinander wird zu untereinander, sobald die Bücher zu schmal würden. */
+@media (max-width: 860px) {
+  .buch-regal {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    gap: 34px;
+  }
+
+  .buch-buehne {
+    width: min(100%, 460px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .buch-schalter button,
+  .buch-zettel {
+    transition: none;
+  }
+
+  .buch-zettel:hover,
+  .buch-zettel:focus-visible {
+    transform: none;
+  }
+}
