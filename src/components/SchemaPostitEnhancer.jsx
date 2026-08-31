@@ -25,11 +25,15 @@ const GESETZE = `(?:${GESETZ_ABKUERZUNGEN.join("|")})`;
 const GESETZ_NORM_QUELLE = `§{1,2}\\s*[^;\\n!?]*?\\b${GESETZE}\\b`;
 const ESTR_EXPLIZIT_QUELLE = `\\bR\\s*\\d+[a-z]?(?:\\.\\d+)?[^;()]*?\\s*EStR\\b`;
 const ESTR_IMPLIZIT_QUELLE = `\\bR\\s*\\d+[a-z]?(?:\\.\\d+)?(?=\\s*(?:[,;)]|$))`;
-const QUELLEN_QUELLE = `${ESTR_EXPLIZIT_QUELLE}|${ESTR_IMPLIZIT_QUELLE}|${GESETZ_NORM_QUELLE}`;
+/* BMF-Schreiben werden im EStH als "§ 6/12 Rn. …" bzw. "BMF § 6/23, Rn. 18"
+   zitiert - Paragraf/laufende Nummer, danach die Randnummer. */
+const BMF_QUELLE = "(?:BMF\\s*)?§\\s*\\d+[a-z]?/\\d+[a-z]?,?\\s*Rn\\.\\s*(?:\\d+[a-z]?|…|\\.{3})";
+const QUELLEN_QUELLE = `${BMF_QUELLE}|${ESTR_EXPLIZIT_QUELLE}|${ESTR_IMPLIZIT_QUELLE}|${GESETZ_NORM_QUELLE}`;
 const GESETZ_AM_ENDE = new RegExp(`\\b(${GESETZE})\\b\\s*$`);
 const EXPLIZITER_PARAGRAPH = /§{1,2}\s*(\d+[a-z]*)/gi;
 const IMPLIZITER_PARAGRAPH = /,\s*(\d+[a-z]*)(?=\s+(?:Abs\.|S\.|Nr\.))/gi;
 const ESTR_NUMMER = /\bR\s*(\d+[a-z]?(?:\.\d+)?)/i;
+const BMF_NUMMER = /§\s*(\d+[a-z]?)\/(\d+[a-z]?)/;
 const ESTR_BASIS = "https://esth.bundesfinanzministerium.de/esth/2025/A-Einkommensteuergesetz/II-Einkommen-2-24b/3-Gewinn-4-7i";
 const ESTR_ZIELE = {
   4: `${ESTR_BASIS}/Paragraf-4/paragraf-4.html`,
@@ -131,6 +135,10 @@ function estrUrl(richtlinie) {
 
 function ueberschriftFuerReferenz(referenz) {
   const titel = NORM_UEBERSCHRIFTEN[referenz];
+  if (referenz.startsWith("BMF/")) {
+    const [, paragraph, nummer] = referenz.split("/");
+    return `BMF-Schreiben Nr. ${nummer} zu § ${paragraph} EStG`;
+  }
   if (referenz.startsWith("EStR/R ")) {
     const richtlinie = referenz.replace("EStR/", "");
     return titel ? `${richtlinie} EStR – ${titel}` : `${richtlinie} EStR`;
@@ -150,10 +158,20 @@ function istSchweinchenPostit({ text, referenz }) {
     || /Abs\.\s*1\s*S\.\s*2\s*und\s*3/i.test(normalisiert);
 }
 
+/* § 5 Abs. 1 S. 1 Hs. 1 EStG ist die Maßgeblichkeit der Handelsbilanz und zieht
+   sich als tragende Norm durch alle Schemata - daher die blaue Umrandung. */
+function istMassgeblichkeitsPostit({ text, referenz }) {
+  if (referenz !== "EStG/5") return false;
+
+  const normalisiert = text.replace(/\s+/g, " ").trim();
+  return /Abs\.\s*1\s*S\.\s*1\s*Hs\.\s*1\b/i.test(normalisiert);
+}
+
 function postitErstellen({ text, bezeichnung = text, ton, quelle, href, zielname, referenz }) {
   const postit = document.createElement("a");
   const istHgb = quelle === "HGB";
   const istSchweinchen = istSchweinchenPostit({ text, referenz });
+  const istMassgeblichkeit = istMassgeblichkeitsPostit({ text, referenz });
   const ueberschrift = ueberschriftFuerReferenz(referenz);
   const klassen = [
     "schema-norm-postit",
@@ -162,6 +180,7 @@ function postitErstellen({ text, bezeichnung = text, ton, quelle, href, zielname
   ];
 
   if (istSchweinchen) klassen.push("schema-norm-postit--schweinchen");
+  if (istMassgeblichkeit) klassen.push("schema-norm-postit--massgeblichkeit");
 
   postit.className = klassen.join(" ");
   postit.dataset.schemaNormPostit = "";
@@ -169,6 +188,7 @@ function postitErstellen({ text, bezeichnung = text, ton, quelle, href, zielname
   postit.dataset.schemaReferenz = referenz;
   postit.dataset.schemaUeberschrift = ueberschrift;
   if (istSchweinchen) postit.dataset.schemaSchweinchen = "";
+  if (istMassgeblichkeit) postit.dataset.schemaMassgeblichkeit = "";
   postit.href = href;
   postit.target = "_blank";
   postit.rel = "noopener noreferrer";
@@ -203,6 +223,25 @@ function estrPostitErstellen(text, ton) {
     href: estrUrl(richtlinie),
     zielname: "im amtlichen EStH 2025",
     referenz: `EStR/R ${richtlinie}`,
+  });
+}
+
+/* BMF-Schreiben übernehmen wie alle anderen Fundstellen die Farbe ihres Blocks;
+   erkennbar sind sie an der grünen Unterstreichung. */
+function bmfPostitErstellen(text, ton) {
+  const treffer = text.match(BMF_NUMMER);
+  if (!treffer) return document.createTextNode(text);
+
+  const [, paragraph, nummer] = treffer;
+  const bezeichnung = /\bBMF\b/.test(text) ? text : `BMF ${text}`;
+  return postitErstellen({
+    text,
+    bezeichnung,
+    ton,
+    quelle: "BMF",
+    href: estrUrl(paragraph),
+    zielname: "im amtlichen EStH 2025",
+    referenz: `BMF/${paragraph}/${nummer}`,
   });
 }
 
@@ -268,6 +307,9 @@ function gesetzNormgruppeErstellen(normgruppe, ton) {
 }
 
 function quelleErstellen(quelle, ton) {
+  if (BMF_NUMMER.test(quelle) && /\bRn\./.test(quelle)) {
+    return bmfPostitErstellen(quelle, ton);
+  }
   if (ESTR_NUMMER.test(quelle)) {
     return estrPostitErstellen(quelle, ton);
   }

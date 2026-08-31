@@ -41,19 +41,37 @@
   outline-offset: 3px;
 }
 
+/* EStR-Fundstellen tragen eine fette lila Unterstreichung. */
 .schema-norm-postit[data-schema-quelle="EStR"] {
-  padding-bottom: .26em;
-  border-bottom-width: 4px;
-  border-bottom-style: double;
-  border-bottom-color: color-mix(in srgb, var(--gruen) 88%, var(--ink));
+  padding-bottom: .28em;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: color-mix(in srgb, var(--lila) 92%, var(--ink));
   box-shadow:
-    inset 0 -.18em 0 color-mix(in srgb, var(--gruen) 24%, transparent),
+    inset 0 -.2em 0 color-mix(in srgb, var(--lila) 26%, transparent),
     0 .16em .38em color-mix(in srgb, var(--ink) 11%, transparent);
 }
 
 .schema-norm-postit[data-schema-quelle="EStR"]:hover {
   box-shadow:
-    inset 0 -.2em 0 color-mix(in srgb, var(--gruen) 34%, transparent),
+    inset 0 -.22em 0 color-mix(in srgb, var(--lila) 36%, transparent),
+    0 .24em .52em color-mix(in srgb, var(--ink) 16%, transparent);
+}
+
+/* BMF-Schreiben ("§ 6/12 Rn. …") tragen eine fette grüne Unterstreichung. */
+.schema-norm-postit[data-schema-quelle="BMF"] {
+  padding-bottom: .28em;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: color-mix(in srgb, var(--gruen) 92%, var(--ink));
+  box-shadow:
+    inset 0 -.2em 0 color-mix(in srgb, var(--gruen) 26%, transparent),
+    0 .16em .38em color-mix(in srgb, var(--ink) 11%, transparent);
+}
+
+.schema-norm-postit[data-schema-quelle="BMF"]:hover {
+  box-shadow:
+    inset 0 -.22em 0 color-mix(in srgb, var(--gruen) 36%, transparent),
     0 .24em .52em color-mix(in srgb, var(--ink) 16%, transparent);
 }
 
@@ -359,6 +377,23 @@
     0 .28em .62em rgb(91 25 54 / 24%);
 }
 
+/* Maßgeblichkeit der Handelsbilanz: Post-its zu § 5 Abs. 1 S. 1 Hs. 1 EStG
+   bekommen zusätzlich zur Tonfarbe eine fette blaue Umrandung. */
+.schema-norm-postit--massgeblichkeit {
+  border: 3px solid var(--tinte);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--tinte) 20%, transparent),
+    0 .18em .44em color-mix(in srgb, var(--ink) 14%, transparent);
+}
+
+.schema-norm-postit--massgeblichkeit:hover,
+.schema-norm-postit--massgeblichkeit[data-schema-tooltip-aktiv] {
+  border-color: color-mix(in srgb, var(--tinte) 86%, var(--ink));
+  box-shadow:
+    0 0 0 2px color-mix(in srgb, var(--tinte) 30%, transparent),
+    0 .26em .58em color-mix(in srgb, var(--ink) 18%, transparent);
+}
+
 /* Schwebender Tooltip mit der amtlichen Normüberschrift */
 .schema-norm-tooltip {
   position: fixed;
@@ -383,7 +418,7 @@
   display: none;
 }
 
-.schema-norm-postit[data-schema-tooltip-aktiv]:not(.schema-norm-postit--schweinchen):not(.schema-norm-postit--rosa) {
+.schema-norm-postit[data-schema-tooltip-aktiv]:not(.schema-norm-postit--schweinchen):not(.schema-norm-postit--rosa):not(.schema-norm-postit--massgeblichkeit) {
   outline: 2px solid color-mix(in srgb, var(--postit-rand) 68%, transparent);
   outline-offset: 2px;
 }
