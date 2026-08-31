@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./pruefungsschema-gesetzbuecher.css";
 
 const farben = {
@@ -535,7 +535,72 @@ function Nebenzettel({ zettel, ton, gesetz }) {
   );
 }
 
+const RUHELAGE = { kipp: 3.5, dreh: 0 };
+
+function begrenzen(wert, min, max) {
+  return Math.min(max, Math.max(min, wert));
+}
+
+/* Das Buch lässt sich mit der Maus greifen und drehen. Dabei treten die Zettel
+   der hinteren Reihe hervor - sie stecken tiefer im Buchblock. */
 function Gesetzbuch({ buch }) {
+  const [lage, setLage] = useState(RUHELAGE);
+  const [zieht, setZieht] = useState(false);
+  const griff = useRef(null);
+  const bewegt = useRef(false);
+
+  const beiPointerDown = (event) => {
+    if (event.button !== 0 && event.pointerType === "mouse") return;
+    griff.current = { x: event.clientX, y: event.clientY, ...lage };
+    bewegt.current = false;
+    event.currentTarget.setPointerCapture(event.pointerId);
+    setZieht(true);
+  };
+
+  const beiPointerMove = (event) => {
+    if (!griff.current) return;
+    const dx = event.clientX - griff.current.x;
+    const dy = event.clientY - griff.current.y;
+    if (Math.abs(dx) > 4 || Math.abs(dy) > 4) bewegt.current = true;
+    setLage({
+      dreh: begrenzen(griff.current.dreh + dx * 0.32, -58, 58),
+      kipp: begrenzen(griff.current.kipp - dy * 0.26, -14, 58),
+    });
+  };
+
+  const beiPointerUp = () => {
+    griff.current = null;
+    setZieht(false);
+  };
+
+  /* Ein gezogenes Buch soll keinen Zettel öffnen. */
+  const beiClickCapture = (event) => {
+    if (!bewegt.current) return;
+    event.preventDefault();
+    event.stopPropagation();
+    bewegt.current = false;
+  };
+
+  const beiKeyDown = (event) => {
+    const schritt = event.shiftKey ? 12 : 5;
+    const tasten = {
+      ArrowLeft: { dreh: -schritt }, ArrowRight: { dreh: schritt },
+      ArrowUp: { kipp: schritt }, ArrowDown: { kipp: -schritt },
+    };
+    if (event.key === "Escape" || event.key === "Home") {
+      setLage(RUHELAGE);
+      event.preventDefault();
+      return;
+    }
+    const zug = tasten[event.key];
+    if (!zug) return;
+    event.preventDefault();
+    setLage((alt) => ({
+      dreh: begrenzen(alt.dreh + (zug.dreh || 0), -58, 58),
+      kipp: begrenzen(alt.kipp + (zug.kipp || 0), -14, 58),
+    }));
+  };
+
   return (
     <div
       className={`buch-buehne buch-buehne--${buch.stil}`}
@@ -543,33 +608,54 @@ function Gesetzbuch({ buch }) {
         "--zettel-anzahl": buch.reiter.length,
         /* Breite Zettel zählen mehrfach, damit die Reihe auf den Deckel passt. */
         "--zettel-breiten": buch.reiter.reduce((summe, r) => summe + (r.breit || 1), 0),
+        "--kipp": `${lage.kipp}deg`,
+        "--dreh": `${lage.dreh}deg`,
       }}
+      data-zieht={zieht ? "" : undefined}
+      onPointerDown={beiPointerDown}
+      onPointerMove={beiPointerMove}
+      onPointerUp={beiPointerUp}
+      onPointerCancel={beiPointerUp}
+      onClickCapture={beiClickCapture}
+      onDoubleClick={() => setLage(RUHELAGE)}
+      onKeyDown={beiKeyDown}
+      tabIndex={0}
+      role="group"
+      aria-label={`${buch.titel.join(" ")} drehen – Pfeiltasten kippen und drehen, Escape stellt zurück`}
     >
       <div className="buch-koerper">
-      <div className="buch-reiterleiste">
-        {buch.reiter.map((reiter) => (
-          <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} gesetz={buch.gesetz} />
-        ))}
-      </div>
-      <div className="buch-deckel">
-        <div className="buch-band">{buch.band}</div>
-        {buch.jahr && <div className="buch-jahr">{buch.jahr}</div>}
-        <div className="buch-titel">
-          <b><Zeilen zeilen={buch.titel} /></b>
-          {buch.auflage && <span>{buch.auflage}</span>}
+        <div className="buch-reiterleiste">
+          {buch.reiter.map((reiter) => (
+            <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} gesetz={buch.gesetz} />
+          ))}
         </div>
-        <div className="buch-fuss">
-          <b>{buch.fuss.links}</b>
-          <span>{buch.fuss.rechts}</span>
-        </div>
-        {buch.register && (
-          <div className="buch-register" aria-hidden="true">
-            {buch.register.map((gesetz) => (
-              <span key={gesetz} className={gesetz === buch.gesetz ? "ist-aktiv" : undefined}>{gesetz}</span>
-            ))}
+        <div className="buch-stapel">
+          {/* Rückdeckel, Schnittflächen und Oberkante machen aus dem Deckel
+              einen Körper mit Dicke. */}
+          <div className="buch-block" aria-hidden="true" />
+          <div className="buch-kante buch-kante--links" aria-hidden="true" />
+          <div className="buch-kante buch-kante--rechts" aria-hidden="true" />
+          <div className="buch-kante buch-kante--oben" aria-hidden="true" />
+          <div className="buch-deckel">
+            <div className="buch-band">{buch.band}</div>
+            {buch.jahr && <div className="buch-jahr">{buch.jahr}</div>}
+            <div className="buch-titel">
+              <b><Zeilen zeilen={buch.titel} /></b>
+              {buch.auflage && <span>{buch.auflage}</span>}
+            </div>
+            <div className="buch-fuss">
+              <b>{buch.fuss.links}</b>
+              <span>{buch.fuss.rechts}</span>
+            </div>
+            {buch.register && (
+              <div className="buch-register" aria-hidden="true">
+                {buch.register.map((gesetz) => (
+                  <span key={gesetz} className={gesetz === buch.gesetz ? "ist-aktiv" : undefined}>{gesetz}</span>
+                ))}
+              </div>
+            )}
           </div>
-        )}
-      </div>
+        </div>
       </div>
     </div>
   );
@@ -590,7 +676,7 @@ function GesetzbuchAnsicht() {
         {toene.map((ton) => (
           <span key={ton} className={`buch-legende--${ton}`}>{TON_BESCHRIFTUNG[ton]}</span>
         ))}
-        Dasselbe Schema, allein über die Gesetzestexte gelesen. Jeder Zettel öffnet seine Norm.
+        Dasselbe Schema, allein über die Gesetzestexte gelesen. Jeder Zettel öffnet seine Norm; die Bücher lassen sich ziehend drehen, Doppelklick stellt sie zurück.
       </p>
     </div>
   );

@@ -39,6 +39,9 @@
 }
 
 .buch-ansicht {
+  /* Wie tief der Buchblock hinter dem Deckel liegt - daran hängen auch die
+     Zettelreihen. */
+  --buchdicke: 17cqw;
   --zettel-ansatz: #e34a52;
   --zettel-ansatz-tief: #c22f3c;
   --zettel-bewertung: #f0913f;
@@ -66,24 +69,94 @@
    damit Deckel und Zettel gemeinsam skalieren. */
 .buch-buehne {
   container-type: inline-size;
-  /* Weit gesetzt: die Kippung soll Tiefe andeuten, den Deckel aber nicht zum
-     Trapez verzerren. */
-  perspective: 2200px;
-  perspective-origin: 50% 0%;
+  /* Weit genug für eine ruhige Grundstellung, nah genug, dass die Drehung
+     wirklich Tiefe zeigt. */
+  perspective: 1500px;
+  perspective-origin: 50% 20%;
+  cursor: grab;
+  touch-action: pan-y;
 }
 
-/* Der Buchkörper ist leicht nach vorn gekippt - dadurch bekommen die Zettel
-   eine Tiefe, und die aus der zweiten Reihe sind als solche zu erkennen. */
+.buch-buehne[data-zieht] {
+  cursor: grabbing;
+}
+
+.buch-buehne:focus-visible {
+  outline: 2px solid var(--tinte);
+  outline-offset: 6px;
+}
+
+/* Der Buchkörper hängt an --kipp und --dreh; beide setzt die Komponente beim
+   Ziehen. In Ruhe steht er leicht nach vorn gekippt. */
 .buch-koerper {
-  transform: rotateX(3.5deg);
-  transform-origin: 50% 0%;
+  transform: rotateX(var(--kipp, 3.5deg)) rotateY(var(--dreh, 0deg));
+  transform-origin: 50% 34%;
   transform-style: preserve-3d;
+  transition: transform 260ms ease;
+}
+
+.buch-buehne[data-zieht] .buch-koerper {
+  transition: none;
 }
 
 .buch-reiterleiste,
 .buch-reiter,
-.buch-marken {
+.buch-marken,
+.buch-stapel {
   transform-style: preserve-3d;
+}
+
+/* Deckel und Buchblock stehen hintereinander - daher hat das Buch beim Drehen
+   eine sichtbare Dicke. */
+.buch-stapel {
+  position: relative;
+}
+
+/* Rückdeckel */
+.buch-block {
+  position: absolute;
+  inset: 0;
+  transform: translateZ(calc(var(--buchdicke) * -1));
+  border-radius: 1cqw;
+  background: var(--deckel);
+  box-shadow: 0 1.6cqw 2.6cqw rgb(16 12 6 / 22%);
+}
+
+/* Die drei sichtbaren Schnittflächen des Buchblocks. */
+.buch-kante {
+  position: absolute;
+  background: var(--schnitt);
+}
+
+.buch-kante--links {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--buchdicke);
+  transform-origin: 0 50%;
+  transform: rotateY(90deg);
+}
+
+.buch-kante--rechts {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: var(--buchdicke);
+  transform-origin: 100% 50%;
+  transform: rotateY(-90deg);
+}
+
+/* Aus dieser Kante ragen die Zettel heraus - sie zeigt den Blätterschnitt. */
+.buch-kante--oben {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--buchdicke);
+  transform-origin: 50% 0;
+  transform: rotateX(-90deg);
+  background:
+    repeating-linear-gradient(90deg, rgb(120 108 84 / 16%) 0 .12cqw, transparent .12cqw .5cqw),
+    var(--schnitt);
 }
 
 /* Die Zettel liegen im normalen Fluss und stoßen mit ihrer Unterkante bündig
@@ -168,7 +241,7 @@
     inset 0 .3cqw 0 rgb(255 255 255 / 22%),
       .2cqw .8cqw 1.1cqw rgb(20 14 8 / 26%);
   /* --tiefe hält die Reihe im Buch fest, damit auch der Hover sie behält. */
-  --tiefe: translateZ(0);
+  --tiefe: translateZ(-3cqw);
   transform: var(--tiefe);
   transition: transform 150ms ease, box-shadow 150ms ease, filter 150ms ease;
 }
@@ -233,9 +306,10 @@
 /* Zettel aus einem anderen Gesetz stecken an ganz anderer Stelle im Buch: sie
    stehen weiter hinten, rücken dabei ein Stück in den Vordermann und liegen
    im Schatten der vorderen Reihe. */
+/* Zettel aus einem anderen Gesetz stecken tiefer im Block - beim Drehen treten
+   sie hinter dem Vordermann hervor. */
 .buch-zettel[style*="--reihe"] {
-  /* Etwas höher heraus, damit der Vordermann die Beschriftung nicht anschneidet. */
-  --tiefe: translateZ(calc(var(--reihe) * -16cqw)) translateY(calc(var(--reihe) * -.7cqw));
+  --tiefe: translateZ(calc(-3cqw - var(--reihe) * 5cqw)) translateY(calc(var(--reihe) * -.7cqw));
   filter: brightness(calc(1 - var(--reihe) * .07));
 }
 
@@ -294,6 +368,7 @@
   --deckel-schrift: #23281f;
   --deckel-linie: rgb(35 40 31 / 34%);
   --deckel-weich: rgb(35 40 31 / 78%);
+  --schnitt: linear-gradient(100deg, #f4efe1 0 45%, #ded6c4);
 }
 
 .buch-buehne--nwb .buch-band {
@@ -314,6 +389,7 @@
   --deckel-schrift: #fdf6f2;
   --deckel-linie: rgb(255 255 255 / 34%);
   --deckel-weich: rgb(253 246 242 / 76%);
+  --schnitt: linear-gradient(100deg, #f6f1e6 0 45%, #ddd4c2);
 }
 
 /* Die umlaufende Ziernaht des Ledereinbands. */
@@ -483,6 +559,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .buch-schalter button,
+  .buch-koerper,
   .buch-zettel {
     transition: none;
   }
