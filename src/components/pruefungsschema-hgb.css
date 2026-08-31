@@ -1,0 +1,233 @@
+/* HGB-Reiteransicht des ersten Prüfungsschemas: bildet die Klebereiter nach,
+   die in der Textausgabe oben rechts im HGB stecken - rot für den Ansatz,
+   orange für die Bewertung, in der Reihenfolge der Paragrafen. */
+
+.hgb-schalter {
+  display: inline-flex;
+  gap: 2px;
+  margin-top: 14px;
+  padding: 3px;
+  border: 1px solid color-mix(in srgb, var(--linie) 88%, var(--tinte));
+  background: var(--papier);
+}
+
+.hgb-schalter button {
+  padding: 7px 15px;
+  border: 0;
+  background: transparent;
+  color: var(--tinte);
+  font-family: var(--mono);
+  font-size: .82rem;
+  font-weight: 650;
+  letter-spacing: .02em;
+  cursor: pointer;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.hgb-schalter button:hover {
+  background: color-mix(in srgb, var(--feld) 60%, var(--papier));
+}
+
+.hgb-schalter button[aria-pressed="true"] {
+  background: var(--tinte);
+  color: var(--papier);
+}
+
+.hgb-schalter button:focus-visible {
+  outline: 2px solid var(--tinte);
+  outline-offset: 2px;
+}
+
+.hgb-reiter-kopf {
+  max-width: 70ch;
+  margin-bottom: 22px;
+}
+
+.hgb-reiter-kopf h3 {
+  margin: 4px 0 8px;
+  font-size: clamp(1.2rem, 1.35vw, 1.42rem);
+}
+
+.hgb-reiter-kopf p {
+  margin: 0;
+  color: var(--ink-weich);
+  line-height: 1.7;
+}
+
+.hgb-reiter-legende {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.hgb-reiter-legende span {
+  padding: 3px 11px;
+  border: 1px solid;
+  font-family: var(--mono);
+  font-size: .74rem;
+  font-weight: 650;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.hgb-reiter-legende--ansatz {
+  border-color: var(--rot);
+  background: var(--rot-feld);
+  color: var(--rot);
+}
+
+.hgb-reiter-legende--bewertung {
+  border-color: var(--orange);
+  background: var(--orange-feld);
+  color: var(--orange);
+}
+
+/* Der Buchblock links, die Reiter stehen wie im Buch nach rechts über. */
+.hgb-reiter-buch {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  border: 1px solid var(--linie);
+  background: color-mix(in srgb, var(--feld) 55%, var(--papier));
+}
+
+.hgb-reiter-block {
+  border-right: 2px solid color-mix(in srgb, var(--linie) 70%, var(--tinte));
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--papier) 96%, var(--ink)) 0 3px,
+      color-mix(in srgb, var(--feld) 88%, var(--ink)) 3px 6px
+    );
+}
+
+.hgb-reiter-liste {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.hgb-reiter-zeile {
+  display: grid;
+  grid-template-columns: minmax(150px, 232px) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 16px 20px 16px 0 !important;
+  margin: 0 !important;
+  border-bottom: 1px solid var(--linie-fein);
+}
+
+.hgb-reiter-zeile:last-child {
+  border-bottom: 0;
+}
+
+.hgb-reiter-fahnen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.hgb-reiter-stichworte {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-left: 10px;
+}
+
+.hgb-reiter-fahne {
+  display: inline-block;
+  padding: 7px 13px;
+  border: 1px solid;
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: .82rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+  box-shadow: 0 .14em .34em color-mix(in srgb, var(--ink) 12%, transparent);
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.hgb-reiter-fahne:visited {
+  color: var(--ink);
+}
+
+.hgb-reiter-fahne:hover {
+  transform: translateX(3px);
+  box-shadow: 0 .2em .48em color-mix(in srgb, var(--ink) 18%, transparent);
+}
+
+.hgb-reiter-fahne:focus-visible {
+  outline: 2px solid var(--tinte);
+  outline-offset: 2px;
+}
+
+.hgb-reiter-fahne--klein {
+  padding: 3px 9px;
+  font-size: .7rem;
+  font-weight: 700;
+}
+
+.hgb-reiter-fahne--ansatz {
+  border-color: color-mix(in srgb, var(--rot) 82%, var(--ink));
+  background: color-mix(in srgb, var(--rot-feld) 70%, var(--rot));
+}
+
+.hgb-reiter-fahne--bewertung {
+  border-color: color-mix(in srgb, var(--orange) 82%, var(--ink));
+  background: color-mix(in srgb, var(--orange-feld) 70%, var(--orange));
+}
+
+.hgb-reiter-text {
+  display: grid;
+  gap: 5px;
+  padding-top: 2px;
+}
+
+.hgb-reiter-text b {
+  font-family: var(--serif);
+  font-size: 1.02rem;
+}
+
+.hgb-reiter-text span {
+  color: var(--ink-weich);
+  line-height: 1.65;
+}
+
+.hgb-reiter-text small {
+  padding-left: 11px;
+  border-left: 2px solid var(--linie);
+  color: var(--ink-weich);
+  font-size: .86rem;
+  line-height: 1.6;
+}
+
+.hgb-reiter-text small em {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+@media (max-width: 700px) {
+  .hgb-reiter-buch {
+    grid-template-columns: 18px minmax(0, 1fr);
+  }
+
+  .hgb-reiter-zeile {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    padding: 14px 14px 14px 12px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hgb-schalter button,
+  .hgb-reiter-fahne {
+    transition: none;
+  }
+
+  .hgb-reiter-fahne:hover {
+    transform: none;
+  }
+}
