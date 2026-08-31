@@ -85,6 +85,7 @@
   flex-direction: column;
   align-items: center;
   gap: .25cqw;
+  flex: none;
 }
 
 /* Mehrere Stichwortzettel stapeln sich wie im Buch übereinander. */
@@ -95,17 +96,38 @@
   gap: .25cqw;
 }
 
+/* Streifen, die den Zettel nach unten fortsetzen, kleben ohne Fuge aneinander -
+   getrennt nur durch den Strich, den man von Hand zieht. */
+.buch-streifen {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  /* Kein Spalt zum Kopfzettel: die Streifen kleben direkt an. */
+  margin-top: -.25cqw;
+}
+
+.buch-streifen .buch-zettel {
+  width: 100%;
+  border-top: .3cqw solid color-mix(in srgb, var(--zettel-tief) 80%, #000);
+  box-shadow: .2cqw .5cqw .8cqw rgb(20 14 8 / 20%);
+}
+
 /* Die Breite richtet sich nach der Zahl der Zettel, damit die Reihe in jedem
    Buch auf die Deckelbreite passt. */
 .buch-buehne {
-  --zettel-breite: min(11cqw, calc((88cqw - var(--zettel-anzahl) * .9cqw) / var(--zettel-anzahl)));
+  --zettel-breite: min(11cqw, calc((88cqw - var(--zettel-anzahl) * .9cqw) / var(--zettel-breiten)));
   --zettel-schriftgrad: max(1.7cqw, calc(var(--zettel-breite) * .21));
+}
+
+.buch-reiter {
+  width: calc(var(--zettel-breite) * var(--breit, 1));
 }
 
 .buch-zettel {
   display: grid;
   place-items: center;
-  width: var(--zettel-breite);
+  width: 100%;
   min-height: 23cqw;
   padding: 1.4cqw .4cqw;
   background: var(--zettel);
@@ -131,6 +153,23 @@
 .buch-zettel-hochkant {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+}
+
+/* Breite Zettel sind quer beschriftet, so wie man sie von Hand beschriftet. */
+.buch-zettel--quer {
+  white-space: normal;
+  line-height: 1.22;
+}
+
+/* Trägt der Zettel unten Streifen, teilen sie sich die gemeinsame Höhe. */
+.buch-zettel--kopf {
+  min-height: 11cqw;
+}
+
+.buch-streifen .buch-zettel {
+  min-height: 4cqw;
+  padding: .35cqw .4cqw;
+  white-space: normal;
 }
 
 .buch-zettel:visited {

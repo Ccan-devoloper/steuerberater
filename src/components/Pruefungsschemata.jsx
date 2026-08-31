@@ -374,73 +374,80 @@ export const GESETZBUECHER = [
     band: "Beck'sche Textausgaben",
     titel: ["Steuergesetze"],
     fuss: { links: "Einkommensteuergesetz", rechts: "EStG" },
+    /* Reihenfolge, Form und Beschriftung wie im Buch: breite Zettel sind quer
+       beschriftet, schmale Streifen hochkant. */
     reiter: [
-      {
-        ton: "ausserbilanz",
-        paragraph: "3",
-        zeilen: ["§ 3 Nr. 40 a)", "§ 3c (2) 1", "EStG"],
-        schritt: "Außerbilanzielle Korrektur",
-      },
       {
         ton: "ansatz",
         paragraph: "5",
         zeilen: ["§ 5 (1) 1", "Hs. 1", "EStG"],
         schritt: "Ansatz – Maßgeblichkeit",
-        marken: [
-          { text: "Verzeichnis", ton: "hinweis", zeilen: ["§ 5 (1)", "2 + 3"], paragraph: "5", titel: "§ 5 Abs. 1 S. 2 und 3 EStG – gesondertes Verzeichnis" },
-        ],
       },
       {
         ton: "bewertung",
         paragraph: "6",
-        zeilen: ["§ 6 (1)", "EStG", "Bewertung"],
+        breit: 1.5,
+        zeilen: ["§ 6 (1) EStG", "Bewertung"],
         schritt: "Bewertung I und II",
         marken: [
-          { text: "§ 6 (1) Nr. 1b", zeilen: ["§ 6 (1)", "Nr. 1b"], paragraph: "6", titel: "§ 6 Abs. 1 Nr. 1b EStG – Wahlrecht bei den Herstellungskosten" },
           { text: "§ 6 (6) 1", zeilen: ["§ 6 (6) 1"], paragraph: "6", titel: "§ 6 Abs. 6 S. 1 EStG – Tausch" },
+          { text: "§ 6 (1) Nr. 1b", zeilen: ["§ 6 (1) Nr. 1b"], paragraph: "6", titel: "§ 6 Abs. 1 Nr. 1b EStG – Wahlrecht bei den Herstellungskosten" },
         ],
-      },
-      {
-        ton: "sonder",
-        paragraph: "6b",
-        zeilen: ["§ 6b", "EStG"],
-        schritt: "Übertragung stiller Reserven",
-        marken: [
-          { text: "§ 6b (6)", zeilen: ["§ 6b (6)"], paragraph: "6b", titel: "§ 6b Abs. 6 EStG" },
-        ],
-      },
-      {
-        ton: "bewertung",
-        paragraph: "7",
-        zeilen: ["AfA", "§ 7 (1)"],
-        schritt: "Bewertung III – Regel-AfA",
-        marken: [
-          { text: "§ 7 (4), (5a)", zeilen: ["§ 7 (4)", "(5a)"], paragraph: "7", titel: "§ 7 Abs. 4 / Abs. 5a EStG – Gebäude-AfA" },
-        ],
-      },
-      {
-        ton: "sonder",
-        paragraph: "7a",
-        zeilen: ["§ 7a (9)", "EStG"],
-        schritt: "Sonderabschreibungen",
-      },
-      {
-        ton: "sonder",
-        paragraph: "7b",
-        zeilen: ["§ 7b", "EStG"],
-        schritt: "Sonderabschreibung Mietwohnungsneubau",
-      },
-      {
-        ton: "sonder",
-        paragraph: "7g",
-        zeilen: ["Sonder-AfA", "§ 7g (5)", "(6)"],
-        schritt: "Sonderabschreibung kleiner und mittlerer Betriebe",
       },
       {
         ton: "bewertung",
         paragraph: "9b",
         zeilen: ["VStA", "§ 9b (1)"],
         schritt: "Bewertung II – Vorsteuerabzug",
+        marken: [
+          { text: "§ 15 (1) 1 Nr. 1 UStG", zeilen: ["§ 15 (1) 1", "Nr. 1 UStG"], gesetz: "UStG", paragraph: "15", titel: "§ 15 Abs. 1 S. 1 Nr. 1 UStG – Vorsteuerabzug" },
+          { text: "§ 10 (2) S. 2 + 3", zeilen: ["§ 10 (2)", "S. 2 + 3"], gesetz: "UStG", paragraph: "10", titel: "§ 10 Abs. 2 S. 2 und 3 UStG" },
+        ],
+      },
+      {
+        ton: "sonder",
+        paragraph: "7g",
+        quer: true,
+        breit: 1.5,
+        zeilen: ["Sonder-", "AfA", "§ 7g (5) / (6)"],
+        schritt: "Bewertung III – Sonderabschreibung",
+        marken: [
+          { text: "1 + 3 KapErhStG", ton: "hinweis", zeilen: ["1 + 3", "KapErhStG"], gesetz: "KapErhStG", paragraph: "1", titel: "§§ 1 und 3 KapErhStG – Kapitalerhöhung aus Gesellschaftsmitteln" },
+        ],
+        streifen: [
+          { text: "§ 7b", zeilen: ["§ 7b"], paragraph: "7b", titel: "§ 7b EStG – Sonderabschreibung Mietwohnungsneubau" },
+          { text: "§ 7 (2a)", zeilen: ["§ 7 (2a)"], paragraph: "7", titel: "§ 7 Abs. 2a EStG" },
+          { text: "§ 6b (6)", zeilen: ["§ 6b (6)"], paragraph: "6b", titel: "§ 6b Abs. 6 EStG – Übertragung stiller Reserven" },
+        ],
+      },
+      {
+        ton: "sonder",
+        paragraph: "7a",
+        zeilen: ["§ 7a (9)", "EStG"],
+        schritt: "Sonderabschreibungen – Restwert-AfA",
+      },
+      {
+        ton: "bewertung",
+        paragraph: "7",
+        breit: 1.4,
+        zeilen: ["AfA", "§ 7 (1)"],
+        schritt: "Bewertung III – Regel-AfA",
+        marken: [
+          { text: "§ 11c (2) 1 EStDV", zeilen: ["§ 11c (2) 1 EStDV", "AfA Gebäude"], gesetz: "EStDV", paragraph: "11c", titel: "§ 11c Abs. 2 S. 1 EStDV – AfA bei Gebäuden" },
+          { text: "§ 7 (2), (4), (5a)", zeilen: ["(2) (4) (5a)"], paragraph: "7", titel: "§ 7 Abs. 2, Abs. 4 und Abs. 5a EStG" },
+        ],
+      },
+      {
+        ton: "hinweis",
+        paragraph: "5",
+        zeilen: ["§ 5 (1) 1 Hs. 2", "S. 2 + 3", "EStG"],
+        schritt: "Merke – steuerliches Wahlrecht mit Verzeichnis",
+      },
+      {
+        ton: "ausserbilanz",
+        paragraph: "3",
+        zeilen: ["§ 3 Nr. 40", "§ 3c (2) 1", "EStG"],
+        schritt: "Außerbilanzielle Korrektur",
       },
     ],
   },
@@ -470,42 +477,64 @@ function Zeilen({ zeilen }) {
 
 function Zettel({ reiter, gesetz }) {
   const beschriftung = reiter.zeilen.join(" ");
+  const inhalt = <Zeilen zeilen={reiter.zeilen} />;
   return (
-    <div className="buch-reiter">
+    <div className="buch-reiter" style={{ "--breit": reiter.breit }}>
       {reiter.marken?.length > 0 && (
         <div className="buch-marken">
           {reiter.marken.map((marke) => (
-            <a
-              key={marke.text}
-              className={`buch-zettel buch-zettel--marke buch-zettel--${marke.ton || reiter.ton}`}
-              href={normUrl(gesetz, marke.paragraph)}
-              target="_blank"
-              rel="noopener noreferrer"
-              title={marke.titel}
-              aria-label={`${marke.text} – ${marke.titel}`}
-            >
-              <Zeilen zeilen={marke.zeilen} />
-            </a>
+            <Nebenzettel key={marke.text} zettel={marke} ton={reiter.ton} gesetz={gesetz} />
           ))}
         </div>
       )}
       <a
-        className={`buch-zettel buch-zettel--${reiter.ton}`}
+        className={`buch-zettel buch-zettel--${reiter.ton}${reiter.quer ? " buch-zettel--quer" : ""}${reiter.streifen ? " buch-zettel--kopf" : ""}`}
         href={normUrl(gesetz, reiter.paragraph)}
         target="_blank"
         rel="noopener noreferrer"
         title={`${beschriftung} · ${reiter.schritt}`}
         aria-label={`${beschriftung} – ${reiter.schritt}. Norm auf dejure.org öffnen`}
       >
-        <span className="buch-zettel-hochkant"><Zeilen zeilen={reiter.zeilen} /></span>
+        {reiter.quer ? inhalt : <span className="buch-zettel-hochkant">{inhalt}</span>}
       </a>
+      {reiter.streifen?.length > 0 && (
+        <div className="buch-streifen">
+          {reiter.streifen.map((streifen) => (
+            <Nebenzettel key={streifen.text} zettel={streifen} ton={reiter.ton} gesetz={gesetz} />
+          ))}
+        </div>
+      )}
     </div>
+  );
+}
+
+/* Die kleinen Zettel, die oben auf einem Streifen kleben oder ihn unten
+   ergänzen - immer quer beschriftet, mit eigenem Ton und Gesetz. */
+function Nebenzettel({ zettel, ton, gesetz }) {
+  return (
+    <a
+      className={`buch-zettel buch-zettel--marke buch-zettel--${zettel.ton || ton}`}
+      href={normUrl(zettel.gesetz || gesetz, zettel.paragraph)}
+      target="_blank"
+      rel="noopener noreferrer"
+      title={zettel.titel}
+      aria-label={`${zettel.text} – ${zettel.titel}`}
+    >
+      <Zeilen zeilen={zettel.zeilen} />
+    </a>
   );
 }
 
 function Gesetzbuch({ buch }) {
   return (
-    <div className={`buch-buehne buch-buehne--${buch.stil}`} style={{ "--zettel-anzahl": buch.reiter.length }}>
+    <div
+      className={`buch-buehne buch-buehne--${buch.stil}`}
+      style={{
+        "--zettel-anzahl": buch.reiter.length,
+        /* Breite Zettel zählen mehrfach, damit die Reihe auf den Deckel passt. */
+        "--zettel-breiten": buch.reiter.reduce((summe, r) => summe + (r.breit || 1), 0),
+      }}
+    >
       <div className="buch-reiterleiste">
         {buch.reiter.map((reiter) => (
           <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} gesetz={buch.gesetz} />
@@ -538,7 +567,7 @@ function Gesetzbuch({ buch }) {
    den beiden Textausgaben ragen. */
 function GesetzbuchAnsicht() {
   const toene = [...new Set(GESETZBUECHER.flatMap((buch) => buch.reiter.flatMap(
-    (r) => [r.ton, ...(r.marken || []).map((m) => m.ton || r.ton)],
+    (r) => [r.ton, ...[...(r.marken || []), ...(r.streifen || [])].map((z) => z.ton || r.ton)],
   )))];
   return (
     <div className="buch-ansicht">
