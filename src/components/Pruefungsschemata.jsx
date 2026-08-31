@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./pruefungsschema-gesetzbuecher.css";
 
 const farben = {
@@ -332,13 +332,13 @@ export const GESETZBUECHER = [
       {
         ton: "ansatz",
         paragraph: "246",
-        zeilen: ["§ 246 (1) 2", "HGB"],
+        zeilen: ["§ 246 (1) 2"],
         schritt: "Ansatz I – Zurechnung",
       },
       {
         ton: "ansatz",
         paragraph: "246",
-        zeilen: ["§ 246 (1) 1", "§ 247 (2)", "HGB"],
+        zeilen: ["§ 246 (1) 1", "§ 247 (2)"],
         schritt: "Ansatz II – Zuordnung",
         marken: [
           { text: "Beteiligung", zeilen: ["Beteili-", "gung"], paragraph: "271", titel: "§ 271 Abs. 1 HGB – Beteiligungen" },
@@ -347,13 +347,13 @@ export const GESETZBUECHER = [
       {
         ton: "bewertung",
         paragraph: "253",
-        zeilen: ["§ 253 (1) 1", "HGB"],
+        zeilen: ["§ 253 (1) 1"],
         schritt: "Bewertung I – Maßstab",
       },
       {
         ton: "bewertung",
         paragraph: "255",
-        zeilen: ["§ 255", "HGB"],
+        zeilen: ["§ 255"],
         schritt: "Bewertung II – Höhe",
         marken: [
           { text: "BVE § 256", zeilen: ["BVE", "§ 256"], paragraph: "256", titel: "§ 256 HGB – Bewertungsvereinfachung" },
@@ -362,7 +362,7 @@ export const GESETZBUECHER = [
       {
         ton: "bewertung",
         paragraph: "253",
-        zeilen: ["§ 253 (3)", "S. 1 + 2", "HGB"],
+        zeilen: ["§ 253 (3)", "S. 1 + 2"],
         schritt: "Bewertung III – Fortführung",
       },
     ],
@@ -380,18 +380,18 @@ export const GESETZBUECHER = [
       {
         ton: "ansatz",
         paragraph: "5",
-        zeilen: ["§ 5 (1) 1", "Hs. 1", "EStG"],
+        zeilen: ["§ 5 (1) 1", "Hs. 1"],
         schritt: "Ansatz – Maßgeblichkeit",
       },
       {
         ton: "bewertung",
         paragraph: "6",
-        breit: 1.5,
-        zeilen: ["§ 6 (1) EStG", "Bewertung"],
+        breit: 1.3,
+        zeilen: ["§ 6 (1)", "Bewertung"],
         schritt: "Bewertung I und II",
         marken: [
           { text: "§ 6 (6) 1", zeilen: ["§ 6 (6) 1"], paragraph: "6", titel: "§ 6 Abs. 6 S. 1 EStG – Tausch" },
-          { text: "§ 6 (1) Nr. 1b", zeilen: ["§ 6 (1) Nr. 1b"], paragraph: "6", titel: "§ 6 Abs. 1 Nr. 1b EStG – Wahlrecht bei den Herstellungskosten" },
+          { text: "§ 6 (1) Nr. 1b", zeilen: ["§ 6 (1)", "Nr. 1b"], paragraph: "6", titel: "§ 6 Abs. 1 Nr. 1b EStG – Wahlrecht bei den Herstellungskosten" },
         ],
       },
       {
@@ -400,16 +400,15 @@ export const GESETZBUECHER = [
         zeilen: ["VStA", "§ 9b (1)"],
         schritt: "Bewertung II – Vorsteuerabzug",
         marken: [
-          { text: "§ 15 (1) 1 Nr. 1 UStG", zeilen: ["§ 15 (1) 1", "Nr. 1 UStG"], gesetz: "UStG", paragraph: "15", titel: "§ 15 Abs. 1 S. 1 Nr. 1 UStG – Vorsteuerabzug" },
-          { text: "§ 10 (2) S. 2 + 3", zeilen: ["§ 10 (2)", "S. 2 + 3"], gesetz: "UStG", paragraph: "10", titel: "§ 10 Abs. 2 S. 2 und 3 UStG" },
+          { text: "§ 15 (1) 1 Nr. 1 UStG", reihe: 2, zeilen: ["§ 15 (1) 1", "Nr. 1", "UStG"], gesetz: "UStG", paragraph: "15", titel: "§ 15 Abs. 1 S. 1 Nr. 1 UStG – Vorsteuerabzug" },
         ],
       },
       {
         ton: "sonder",
         paragraph: "7g",
         quer: true,
-        breit: 1.5,
-        zeilen: ["Sonder-", "AfA", "§ 7g (5) / (6)"],
+        breit: 1.6,
+        zeilen: ["Sonder-AfA", "§ 7g (5) / (6)"],
         schritt: "Bewertung III – Sonderabschreibung",
         marken: [
           { text: "1 + 3 KapErhStG", ton: "hinweis", zeilen: ["1 + 3", "KapErhStG"], gesetz: "KapErhStG", paragraph: "1", titel: "§§ 1 und 3 KapErhStG – Kapitalerhöhung aus Gesellschaftsmitteln" },
@@ -423,30 +422,30 @@ export const GESETZBUECHER = [
       {
         ton: "sonder",
         paragraph: "7a",
-        zeilen: ["§ 7a (9)", "EStG"],
+        zeilen: ["§ 7a (9)"],
         schritt: "Sonderabschreibungen – Restwert-AfA",
       },
       {
         ton: "bewertung",
         paragraph: "7",
-        breit: 1.4,
+        breit: 1.25,
         zeilen: ["AfA", "§ 7 (1)"],
         schritt: "Bewertung III – Regel-AfA",
         marken: [
-          { text: "§ 11c (2) 1 EStDV", zeilen: ["§ 11c (2) 1 EStDV", "AfA Gebäude"], gesetz: "EStDV", paragraph: "11c", titel: "§ 11c Abs. 2 S. 1 EStDV – AfA bei Gebäuden" },
-          { text: "§ 7 (2), (4), (5a)", zeilen: ["(2) (4) (5a)"], paragraph: "7", titel: "§ 7 Abs. 2, Abs. 4 und Abs. 5a EStG" },
+          { text: "§ 11c (2) 1 EStDV", reihe: 2, zeilen: ["§ 11c (2) 1", "EStDV", "Gebäude"], gesetz: "EStDV", paragraph: "11c", titel: "§ 11c Abs. 2 S. 1 EStDV – AfA bei Gebäuden" },
+          { text: "§ 7 (2), (4), (5a)", zeilen: ["(2) (4)", "(5a)"], paragraph: "7", titel: "§ 7 Abs. 2, Abs. 4 und Abs. 5a EStG" },
         ],
       },
       {
         ton: "hinweis",
         paragraph: "5",
-        zeilen: ["§ 5 (1) 1 Hs. 2", "S. 2 + 3", "EStG"],
+        zeilen: ["§ 5 (1) 1 Hs. 2", "S. 2 + 3"],
         schritt: "Merke – steuerliches Wahlrecht mit Verzeichnis",
       },
       {
         ton: "ausserbilanz",
         paragraph: "3",
-        zeilen: ["§ 3 Nr. 40", "§ 3c (2) 1", "EStG"],
+        zeilen: ["§ 3 Nr. 40", "§ 3c (2) 1"],
         schritt: "Außerbilanzielle Korrektur",
       },
     ],
@@ -471,13 +470,23 @@ function normUrl(gesetz, paragraph) {
 
 function Zeilen({ zeilen }) {
   return zeilen.map((zeile, i) => (
-    <React.Fragment key={zeile}>{i > 0 && <br />}{zeile}</React.Fragment>
+    <React.Fragment key={i}>{i > 0 && <br />}{zeile}</React.Fragment>
   ));
 }
 
+/* Auf dem Zettel steht die nackte Norm - das Paragrafenzeichen kostet nur
+   Platz. Tooltip und Vorlesetext behalten es. */
+const PARAGRAFZEICHEN = /§{1,2}\s*/g;
+
+function Zettelzeilen({ zeilen }) {
+  return <Zeilen zeilen={zeilen.map((zeile) => zeile.replace(PARAGRAFZEICHEN, ""))} />;
+}
+
 function Zettel({ reiter, gesetz }) {
-  const beschriftung = reiter.zeilen.join(" ");
-  const inhalt = <Zeilen zeilen={reiter.zeilen} />;
+  /* Auf dem Zettel steht das Gesetz nicht - im Tooltip und für Screenreader
+     gehört es dazu. */
+  const beschriftung = `${reiter.zeilen.join(" ")} ${gesetz}`;
+  const inhalt = <Zettelzeilen zeilen={reiter.zeilen} />;
   return (
     <div className="buch-reiter" style={{ "--breit": reiter.breit }}>
       {reiter.marken?.length > 0 && (
@@ -514,18 +523,84 @@ function Nebenzettel({ zettel, ton, gesetz }) {
   return (
     <a
       className={`buch-zettel buch-zettel--marke buch-zettel--${zettel.ton || ton}`}
+      style={zettel.reihe ? { "--reihe": zettel.reihe } : undefined}
       href={normUrl(zettel.gesetz || gesetz, zettel.paragraph)}
       target="_blank"
       rel="noopener noreferrer"
       title={zettel.titel}
       aria-label={`${zettel.text} – ${zettel.titel}`}
     >
-      <Zeilen zeilen={zettel.zeilen} />
+      <Zettelzeilen zeilen={zettel.zeilen} />
     </a>
   );
 }
 
+const RUHELAGE = { kipp: 3.5, dreh: 0 };
+
+function begrenzen(wert, min, max) {
+  return Math.min(max, Math.max(min, wert));
+}
+
+/* Das Buch lässt sich mit der Maus greifen und drehen. Dabei treten die Zettel
+   der hinteren Reihe hervor - sie stecken tiefer im Buchblock. */
 function Gesetzbuch({ buch }) {
+  const [lage, setLage] = useState(RUHELAGE);
+  const [zieht, setZieht] = useState(false);
+  const griff = useRef(null);
+  const bewegt = useRef(false);
+
+  const beiPointerDown = (event) => {
+    if (event.button !== 0 && event.pointerType === "mouse") return;
+    griff.current = { x: event.clientX, y: event.clientY, ...lage };
+    bewegt.current = false;
+    event.currentTarget.setPointerCapture(event.pointerId);
+    setZieht(true);
+  };
+
+  const beiPointerMove = (event) => {
+    if (!griff.current) return;
+    const dx = event.clientX - griff.current.x;
+    const dy = event.clientY - griff.current.y;
+    if (Math.abs(dx) > 4 || Math.abs(dy) > 4) bewegt.current = true;
+    setLage({
+      dreh: begrenzen(griff.current.dreh + dx * 0.32, -58, 58),
+      kipp: begrenzen(griff.current.kipp - dy * 0.26, -14, 58),
+    });
+  };
+
+  const beiPointerUp = () => {
+    griff.current = null;
+    setZieht(false);
+  };
+
+  /* Ein gezogenes Buch soll keinen Zettel öffnen. */
+  const beiClickCapture = (event) => {
+    if (!bewegt.current) return;
+    event.preventDefault();
+    event.stopPropagation();
+    bewegt.current = false;
+  };
+
+  const beiKeyDown = (event) => {
+    const schritt = event.shiftKey ? 12 : 5;
+    const tasten = {
+      ArrowLeft: { dreh: -schritt }, ArrowRight: { dreh: schritt },
+      ArrowUp: { kipp: schritt }, ArrowDown: { kipp: -schritt },
+    };
+    if (event.key === "Escape" || event.key === "Home") {
+      setLage(RUHELAGE);
+      event.preventDefault();
+      return;
+    }
+    const zug = tasten[event.key];
+    if (!zug) return;
+    event.preventDefault();
+    setLage((alt) => ({
+      dreh: begrenzen(alt.dreh + (zug.dreh || 0), -58, 58),
+      kipp: begrenzen(alt.kipp + (zug.kipp || 0), -14, 58),
+    }));
+  };
+
   return (
     <div
       className={`buch-buehne buch-buehne--${buch.stil}`}
@@ -533,31 +608,54 @@ function Gesetzbuch({ buch }) {
         "--zettel-anzahl": buch.reiter.length,
         /* Breite Zettel zählen mehrfach, damit die Reihe auf den Deckel passt. */
         "--zettel-breiten": buch.reiter.reduce((summe, r) => summe + (r.breit || 1), 0),
+        "--kipp": `${lage.kipp}deg`,
+        "--dreh": `${lage.dreh}deg`,
       }}
+      data-zieht={zieht ? "" : undefined}
+      onPointerDown={beiPointerDown}
+      onPointerMove={beiPointerMove}
+      onPointerUp={beiPointerUp}
+      onPointerCancel={beiPointerUp}
+      onClickCapture={beiClickCapture}
+      onDoubleClick={() => setLage(RUHELAGE)}
+      onKeyDown={beiKeyDown}
+      tabIndex={0}
+      role="group"
+      aria-label={`${buch.titel.join(" ")} drehen – Pfeiltasten kippen und drehen, Escape stellt zurück`}
     >
-      <div className="buch-reiterleiste">
-        {buch.reiter.map((reiter) => (
-          <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} gesetz={buch.gesetz} />
-        ))}
-      </div>
-      <div className="buch-deckel">
-        <div className="buch-band">{buch.band}</div>
-        {buch.jahr && <div className="buch-jahr">{buch.jahr}</div>}
-        <div className="buch-titel">
-          <b><Zeilen zeilen={buch.titel} /></b>
-          {buch.auflage && <span>{buch.auflage}</span>}
+      <div className="buch-koerper">
+        <div className="buch-reiterleiste">
+          {buch.reiter.map((reiter) => (
+            <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} gesetz={buch.gesetz} />
+          ))}
         </div>
-        <div className="buch-fuss">
-          <b>{buch.fuss.links}</b>
-          <span>{buch.fuss.rechts}</span>
-        </div>
-        {buch.register && (
-          <div className="buch-register" aria-hidden="true">
-            {buch.register.map((gesetz) => (
-              <span key={gesetz} className={gesetz === buch.gesetz ? "ist-aktiv" : undefined}>{gesetz}</span>
-            ))}
+        <div className="buch-stapel">
+          {/* Rückdeckel, Schnittflächen und Oberkante machen aus dem Deckel
+              einen Körper mit Dicke. */}
+          <div className="buch-block" aria-hidden="true" />
+          <div className="buch-kante buch-kante--links" aria-hidden="true" />
+          <div className="buch-kante buch-kante--rechts" aria-hidden="true" />
+          <div className="buch-kante buch-kante--oben" aria-hidden="true" />
+          <div className="buch-deckel">
+            <div className="buch-band">{buch.band}</div>
+            {buch.jahr && <div className="buch-jahr">{buch.jahr}</div>}
+            <div className="buch-titel">
+              <b><Zeilen zeilen={buch.titel} /></b>
+              {buch.auflage && <span>{buch.auflage}</span>}
+            </div>
+            <div className="buch-fuss">
+              <b>{buch.fuss.links}</b>
+              <span>{buch.fuss.rechts}</span>
+            </div>
+            {buch.register && (
+              <div className="buch-register" aria-hidden="true">
+                {buch.register.map((gesetz) => (
+                  <span key={gesetz} className={gesetz === buch.gesetz ? "ist-aktiv" : undefined}>{gesetz}</span>
+                ))}
+              </div>
+            )}
           </div>
-        )}
+        </div>
       </div>
     </div>
   );
@@ -578,7 +676,7 @@ function GesetzbuchAnsicht() {
         {toene.map((ton) => (
           <span key={ton} className={`buch-legende--${ton}`}>{TON_BESCHRIFTUNG[ton]}</span>
         ))}
-        Dasselbe Schema, allein über die Gesetzestexte gelesen. Jeder Zettel öffnet seine Norm.
+        Dasselbe Schema, allein über die Gesetzestexte gelesen. Jeder Zettel öffnet seine Norm; die Bücher lassen sich ziehend drehen, Doppelklick stellt sie zurück.
       </p>
     </div>
   );
