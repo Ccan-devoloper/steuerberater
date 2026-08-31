@@ -22,6 +22,7 @@
   --orange: #b2610a;
   --magenta: #b8127c;
   --gruen: #12704a;
+  --lila: #6d21a8;
   --marker: #ffe97a;
 
   /* Fachleiste (Unterreiter der Klausuren) */
@@ -64,6 +65,7 @@ html[data-theme="dark"] {
   --orange: #e5a850;
   --magenta: #ef8ac6;
   --gruen: #6cc79b;
+  --lila: #c9a3f7;
   --marker: #6c5a12;
   --fach-gelb: #332b10;
   --fach-gelb-hover: #423816;
