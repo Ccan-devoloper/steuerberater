@@ -88,11 +88,8 @@
   flex: none;
 }
 
-/* Mehrere Stichwortzettel stapeln sich wie im Buch übereinander. Sie dürfen
-   seitlich überstehen und liegen dabei vor den Nachbarstreifen. */
+/* Mehrere Stichwortzettel stapeln sich wie im Buch übereinander. */
 .buch-marken {
-  position: relative;
-  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -200,16 +197,15 @@
   outline-offset: .3cqw;
 }
 
-/* Die Stichwortzettel sitzen quer beschriftet oben auf dem Streifen. */
+/* Die Stichwortzettel sitzen quer beschriftet oben auf dem Streifen - nie
+   breiter als der Streifen darunter. */
 .buch-zettel--marke {
-  width: max-content;
-  min-width: 100%;
-  max-width: 180%;
+  width: 100%;
   min-height: 6.4cqw;
-  padding: .5cqw .5cqw;
-  font-size: calc(var(--zettel-schriftgrad) * .78);
+  padding: .5cqw .35cqw;
+  font-size: calc(var(--zettel-schriftgrad) * .72);
   white-space: normal;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 .buch-zettel--ansatz {

@@ -391,7 +391,7 @@ export const GESETZBUECHER = [
         schritt: "Bewertung I und II",
         marken: [
           { text: "§ 6 (6) 1", zeilen: ["§ 6 (6) 1"], paragraph: "6", titel: "§ 6 Abs. 6 S. 1 EStG – Tausch" },
-          { text: "§ 6 (1) Nr. 1b", zeilen: ["§ 6 (1) Nr. 1b"], paragraph: "6", titel: "§ 6 Abs. 1 Nr. 1b EStG – Wahlrecht bei den Herstellungskosten" },
+          { text: "§ 6 (1) Nr. 1b", zeilen: ["§ 6 (1)", "Nr. 1b"], paragraph: "6", titel: "§ 6 Abs. 1 Nr. 1b EStG – Wahlrecht bei den Herstellungskosten" },
         ],
       },
       {
@@ -400,8 +400,8 @@ export const GESETZBUECHER = [
         zeilen: ["VStA", "§ 9b (1)"],
         schritt: "Bewertung II – Vorsteuerabzug",
         marken: [
-          { text: "§ 15 (1) 1 Nr. 1 UStG", zeilen: ["§ 15 (1) 1", "Nr. 1 UStG"], gesetz: "UStG", paragraph: "15", titel: "§ 15 Abs. 1 S. 1 Nr. 1 UStG – Vorsteuerabzug" },
-          { text: "§ 10 (2) S. 2 + 3", zeilen: ["§ 10 (2)", "S. 2 + 3"], gesetz: "UStG", paragraph: "10", titel: "§ 10 Abs. 2 S. 2 und 3 UStG" },
+          { text: "§ 15 (1) 1 Nr. 1 UStG", zeilen: ["§ 15 (1) 1", "Nr. 1", "UStG"], gesetz: "UStG", paragraph: "15", titel: "§ 15 Abs. 1 S. 1 Nr. 1 UStG – Vorsteuerabzug" },
+          { text: "§ 10 (2) S. 2 + 3", zeilen: ["§ 10 (2)", "S. 2+3"], gesetz: "UStG", paragraph: "10", titel: "§ 10 Abs. 2 S. 2 und 3 UStG" },
         ],
       },
       {
@@ -433,8 +433,8 @@ export const GESETZBUECHER = [
         zeilen: ["AfA", "§ 7 (1)"],
         schritt: "Bewertung III – Regel-AfA",
         marken: [
-          { text: "§ 11c (2) 1 EStDV", zeilen: ["§ 11c (2) 1 EStDV", "AfA Gebäude"], gesetz: "EStDV", paragraph: "11c", titel: "§ 11c Abs. 2 S. 1 EStDV – AfA bei Gebäuden" },
-          { text: "§ 7 (2), (4), (5a)", zeilen: ["(2) (4) (5a)"], paragraph: "7", titel: "§ 7 Abs. 2, Abs. 4 und Abs. 5a EStG" },
+          { text: "§ 11c (2) 1 EStDV", zeilen: ["§ 11c (2) 1", "EStDV", "Gebäude"], gesetz: "EStDV", paragraph: "11c", titel: "§ 11c Abs. 2 S. 1 EStDV – AfA bei Gebäuden" },
+          { text: "§ 7 (2), (4), (5a)", zeilen: ["(2) (4)", "(5a)"], paragraph: "7", titel: "§ 7 Abs. 2, Abs. 4 und Abs. 5a EStG" },
         ],
       },
       {
