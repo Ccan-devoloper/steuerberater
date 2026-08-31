@@ -57,27 +57,23 @@
   container-type: inline-size;
 }
 
-/* Die Zettel liegen im normalen Fluss über dem Buch und rutschen mit einem
-   negativen Rand auf dessen Oberkante - kein Pixelgefummel, alles responsiv. */
+/* Die Zettel liegen im normalen Fluss und stoßen mit ihrer Unterkante bündig
+   an die Oberkante des Buches - kein Pixelgefummel, alles responsiv. */
 .hgb-reiterleiste {
   position: relative;
   z-index: 3;
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
-  gap: 1cqw;
-  padding: 0 3cqw;
-  margin-bottom: -5.4cqw;
+  justify-content: flex-start;
+  gap: 1.4cqw;
+  padding-left: 8cqw;
 }
 
 .hgb-reiter {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1cqw;
-  margin-bottom: var(--tiefe, 0cqw);
-  transform: rotate(var(--neigung, 0deg));
-  transform-origin: bottom center;
+  gap: .25cqw;
 }
 
 .hgb-marken {
@@ -90,15 +86,15 @@
 .hgb-zettel {
   display: grid;
   place-items: center;
-  min-width: 15cqw;
-  min-height: 13cqw;
-  padding: 1.1cqw 1.2cqw;
+  width: 11cqw;
+  min-height: 21cqw;
+  padding: 1.4cqw .5cqw;
   background: var(--zettel);
   color: var(--zettel-schrift);
   font-family: "Segoe Print", "Bradley Hand", "Comic Sans MS", var(--sans);
-  font-size: 2.4cqw;
+  font-size: 2.2cqw;
   font-weight: 650;
-  line-height: 1.24;
+  line-height: 1.3;
   letter-spacing: -.02em;
   text-align: center;
   text-decoration: none;
@@ -109,8 +105,12 @@
     inset 0 -.5cqw 0 color-mix(in srgb, var(--zettel-tief) 55%, transparent),
     inset 0 .3cqw 0 rgb(255 255 255 / 22%),
     .2cqw .8cqw 1.1cqw rgb(20 14 8 / 26%);
-  transform: rotate(var(--neigung, 0deg));
   transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.hgb-zettel-hochkant {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
 
 .hgb-zettel:visited {
@@ -119,7 +119,7 @@
 
 .hgb-zettel:hover,
 .hgb-zettel:focus-visible {
-  transform: rotate(0deg) translateY(-.6cqw) scale(1.06);
+  transform: translateY(-.6cqw) scale(1.05);
   box-shadow:
     inset 0 -.5cqw 0 color-mix(in srgb, var(--zettel-tief) 55%, transparent),
     inset 0 .3cqw 0 rgb(255 255 255 / 26%),
@@ -131,11 +131,12 @@
   outline-offset: .3cqw;
 }
 
+/* Die Stichwortzettel sitzen quer beschriftet oben auf dem Streifen. */
 .hgb-zettel--marke {
-  min-width: 12cqw;
-  min-height: 6.2cqw;
-  padding: .6cqw .9cqw;
-  font-size: 2cqw;
+  width: 11cqw;
+  min-height: 6.8cqw;
+  padding: .6cqw .5cqw;
+  font-size: 1.9cqw;
 }
 
 .hgb-zettel--ansatz {
@@ -313,17 +314,18 @@
   }
 
   .hgb-reiterleiste {
-    padding: 0 3cqw;
-    gap: .7cqw;
+    padding-left: 4cqw;
+    gap: 1.1cqw;
   }
 
   .hgb-zettel {
-    min-width: 14cqw;
-    font-size: 2.2cqw;
+    width: 12cqw;
+    font-size: 2.4cqw;
   }
 
   .hgb-zettel--marke {
-    font-size: 1.9cqw;
+    width: 12cqw;
+    font-size: 2cqw;
   }
 }
 
@@ -335,6 +337,6 @@
 
   .hgb-zettel:hover,
   .hgb-zettel:focus-visible {
-    transform: rotate(var(--neigung, 0deg));
+    transform: none;
   }
 }
