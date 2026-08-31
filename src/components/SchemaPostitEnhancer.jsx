@@ -110,7 +110,7 @@ const SCHWEINCHEN_REFERENZEN = new Set(["EStG/6b", "EStG/7b", "EStG/7g"]);
 
 /* ansatz/bewertung/ausserbilanz/hinweis benennen den Prüfungsschritt (Bilanzen),
    gruen/gelb/rosa benennen unmittelbar die Farbe (IStR). */
-const TOENE = new Set(["ansatz", "bewertung", "ausserbilanz", "hinweis", "gruen", "gelb", "rosa"]);
+const TOENE = new Set(["ansatz", "bewertung", "ausserbilanz", "hinweis", "rot", "gruen", "gelb", "rosa"]);
 
 function tonAusTitel(titel) {
   if (/^ansatz\s*:/i.test(titel)) return "ansatz";
