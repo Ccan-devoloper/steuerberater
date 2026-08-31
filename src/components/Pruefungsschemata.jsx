@@ -448,14 +448,18 @@ export const GESETZBUECHER = [
         zeilen: ["§ 3 Nr. 40", "§ 3c (2) 1"],
         schritt: "Außerbilanzielle Korrektur",
       },
+    ],
+    /* Diese Zettel stecken nicht oben, sondern am Vorderschnitt - sie ragen
+       nach rechts aus dem Buch. */
+    reiterRechts: [
       {
         ton: "ansatz",
         paragraph: "4",
         zeilen: ["§ 4 (1) 8"],
         schritt: "Einlage",
         marken: [
-          { text: "§ 7 (1) 5, (4) 1 Hs. 1", zeilen: ["§ 7 (1) 5", "(4) 1", "Hs. 1"], ton: "bewertung", paragraph: "7", titel: "§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 1 EStG – AfA-Bemessungsgrundlage nach Einlage" },
-          { text: "§ 6 (1) Nr. 5", zeilen: ["§ 6 (1)", "Nr. 5"], ton: "bewertung", paragraph: "6", titel: "§ 6 Abs. 1 Nr. 5 EStG – Bewertung der Einlage" },
+          { text: "§ 6 (1) Nr. 5", zeilen: ["§ 6 (1) Nr. 5"], ton: "bewertung", paragraph: "6", titel: "§ 6 Abs. 1 Nr. 5 EStG – Bewertung der Einlage" },
+          { text: "§ 7 (1) 5, (4) 1 Hs. 1", zeilen: ["§ 7 (1) 5,", "(4) 1 Hs. 1"], ton: "bewertung", paragraph: "7", titel: "§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 1 EStG – AfA-Bemessungsgrundlage nach Einlage" },
         ],
       },
       {
@@ -464,8 +468,8 @@ export const GESETZBUECHER = [
         zeilen: ["§ 4 (1) 2"],
         schritt: "Entnahme",
         marken: [
-          { text: "§ 12 Nr. 3", zeilen: ["§ 12", "Nr. 3"], ton: "bewertung", paragraph: "12", titel: "§ 12 Nr. 3 EStG – nicht abziehbare Steuern" },
-          { text: "§ 6 (1) Nr. 4", zeilen: ["§ 6 (1)", "Nr. 4"], ton: "bewertung", paragraph: "6", titel: "§ 6 Abs. 1 Nr. 4 EStG – Bewertung der Entnahme" },
+          { text: "§ 6 (1) Nr. 4", zeilen: ["§ 6 (1) Nr. 4"], ton: "bewertung", paragraph: "6", titel: "§ 6 Abs. 1 Nr. 4 EStG – Bewertung der Entnahme" },
+          { text: "§ 12 Nr. 3", zeilen: ["§ 12 Nr. 3"], ton: "bewertung", paragraph: "12", titel: "§ 12 Nr. 3 EStG – nicht abziehbare Steuern" },
         ],
       },
       {
@@ -475,10 +479,10 @@ export const GESETZBUECHER = [
         reihe: 2,
         gesetz: "UStG",
         paragraph: "3",
-        zeilen: ["§ 3 (1b) 1", "S. 2", "UStG"],
+        zeilen: ["§ 3 (1b) 1,", "S. 2 UStG"],
         schritt: "Unentgeltliche Wertabgabe",
         marken: [
-          { text: "§ 3 (9a) Nr. 1 UStG", reihe: 2, zeilen: ["§ 3 (9a)", "Nr. 1"], gesetz: "UStG", paragraph: "3", titel: "§ 3 Abs. 9a Nr. 1 UStG – unentgeltliche Wertabgabe" },
+          { text: "§ 3 (9a) Nr. 1 UStG", reihe: 2, zeilen: ["§ 3 (9a) Nr. 1"], gesetz: "UStG", paragraph: "3", titel: "§ 3 Abs. 9a Nr. 1 UStG – unentgeltliche Wertabgabe" },
         ],
       },
       {
@@ -527,13 +531,13 @@ function Zettelzeilen({ zeilen }) {
   return <Zeilen zeilen={zeilen.map((zeile) => zeile.replace(PARAGRAFZEICHEN, ""))} />;
 }
 
-function Zettel({ reiter, gesetz }) {
+function Zettel({ reiter, gesetz, rechts = false }) {
   /* Auf dem Zettel steht das Gesetz nicht - im Tooltip und für Screenreader
      gehört es dazu. */
   const beschriftung = `${reiter.zeilen.join(" ")} ${reiter.gesetz || gesetz}`;
   const inhalt = <Zettelzeilen zeilen={reiter.zeilen} />;
   return (
-    <div className="buch-reiter" style={{ "--breit": reiter.breit }}>
+    <div className={`buch-reiter${rechts ? " buch-reiter--rechts" : ""}`} style={{ "--breit": reiter.breit }}>
       {reiter.marken?.length > 0 && (
         <div className="buch-marken">
           {reiter.marken.map((marke) => (
@@ -550,7 +554,7 @@ function Zettel({ reiter, gesetz }) {
         title={`${beschriftung} · ${reiter.schritt}`}
         aria-label={`${beschriftung} – ${reiter.schritt}. Norm auf dejure.org öffnen`}
       >
-        {reiter.quer ? inhalt : <span className="buch-zettel-hochkant">{inhalt}</span>}
+        {reiter.quer || rechts ? inhalt : <span className="buch-zettel-hochkant">{inhalt}</span>}
       </a>
       {reiter.streifen?.length > 0 && (
         <div className="buch-streifen">
@@ -676,6 +680,13 @@ function Gesetzbuch({ buch }) {
           ))}
         </div>
         <div className="buch-stapel">
+          {buch.reiterRechts?.length > 0 && (
+            <div className="buch-reiterleiste buch-reiterleiste--rechts">
+              {buch.reiterRechts.map((reiter) => (
+                <Zettel key={reiter.zeilen.join(" ")} reiter={reiter} gesetz={buch.gesetz} rechts />
+              ))}
+            </div>
+          )}
           {/* Rückdeckel, Schnittflächen und Oberkante machen aus dem Deckel
               einen Körper mit Dicke. */}
           <div className="buch-block" aria-hidden="true" />
@@ -710,21 +721,12 @@ function Gesetzbuch({ buch }) {
 /* Bildet das Schema allein über die Gesetzestexte ab: die Zettel, die oben aus
    den beiden Textausgaben ragen. */
 function GesetzbuchAnsicht() {
-  const toene = [...new Set(GESETZBUECHER.flatMap((buch) => buch.reiter.flatMap(
+  const toene = [...new Set(GESETZBUECHER.flatMap((buch) => [...buch.reiter, ...(buch.reiterRechts || [])].flatMap(
     (r) => [r.ton, ...[...(r.marken || []), ...(r.streifen || [])].map((z) => z.ton || r.ton)],
   )))];
   return (
     <div className="buch-ansicht">
-      {/* Das Buch mit mehr Zetteln bekommt mehr Breite, damit die Streifen in
-          beiden Büchern ähnlich breit bleiben. */}
-      <div
-        className="buch-regal"
-        style={{
-          gridTemplateColumns: GESETZBUECHER
-            .map((buch) => `minmax(0, ${5 + buch.reiter.length}fr)`)
-            .join(" "),
-        }}
-      >
+      <div className="buch-regal">
         {GESETZBUECHER.map((buch) => <Gesetzbuch key={buch.id} buch={buch} />)}
       </div>
       <p className="buch-legende">
