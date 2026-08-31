@@ -401,7 +401,6 @@ export const GESETZBUECHER = [
         schritt: "Bewertung II – Vorsteuerabzug",
         marken: [
           { text: "§ 15 (1) 1 Nr. 1 UStG", zeilen: ["§ 15 (1) 1", "Nr. 1", "UStG"], gesetz: "UStG", paragraph: "15", titel: "§ 15 Abs. 1 S. 1 Nr. 1 UStG – Vorsteuerabzug" },
-          { text: "§ 10 (2) S. 2 + 3", zeilen: ["§ 10 (2)", "S. 2+3"], gesetz: "UStG", paragraph: "10", titel: "§ 10 Abs. 2 S. 2 und 3 UStG" },
         ],
       },
       {
