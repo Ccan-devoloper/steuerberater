@@ -1,0 +1,295 @@
+/* IStR-Fallsammlung – Optik nach dem Vorbild der USt-Fallsammlung in K1.
+   Farben ausschließlich aus den deutschen Tokens in src/index.css. */
+
+.istr-fs-page {
+  width: 100%;
+  min-width: 0;
+  padding-bottom: 48px;
+}
+
+.istr-fs-source {
+  margin-bottom: 22px;
+}
+
+.istr-fs-source p {
+  margin: 8px 0 0;
+  max-width: 90ch;
+  line-height: 1.55;
+}
+
+.istr-fs-steuerung {
+  display: grid;
+  gap: 14px;
+  margin: 0 0 28px;
+}
+
+.istr-fs-suche {
+  display: grid;
+  gap: 6px;
+  max-width: 760px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.istr-fs-suche input {
+  width: 100%;
+  min-height: 42px;
+  border: 1px solid var(--linie);
+  background: var(--papier);
+  color: inherit;
+  padding: 9px 12px;
+  font: inherit;
+}
+
+.istr-fs-kategorien {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.istr-fs-kategorien button,
+.istr-fs-crossrefs button {
+  border: 1px solid var(--linie);
+  background: var(--feld);
+  color: inherit;
+  font: inherit;
+  font-size: 0.82rem;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+.istr-fs-kategorien button[aria-pressed="true"] {
+  background: var(--tinte);
+  border-color: var(--tinte);
+  color: var(--papier);
+}
+
+.istr-fs-gruppe {
+  margin: 0 0 34px;
+}
+
+.istr-fs-gruppe__kopf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--tinte);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.istr-fs-gruppe__kopf h2 {
+  margin: 2px 0 0;
+}
+
+.istr-fs-gruppe__kopf > span {
+  font-size: 0.82rem;
+  color: var(--ink-weich);
+}
+
+.istr-fs-liste-faelle {
+  display: grid;
+  gap: 16px;
+}
+
+.istr-fs-fall {
+  border-left: 6px solid var(--tinte);
+}
+
+.istr-fs-fall__kopf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.istr-fs-fall__kopf h3 {
+  margin: 4px 0 0;
+}
+
+.istr-fs-quellen {
+  display: grid;
+  gap: 3px;
+  justify-items: end;
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--ink-weich);
+  text-align: right;
+}
+
+.istr-fs-normen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0 0;
+}
+
+.istr-fs-aufgabe {
+  margin-top: 16px;
+}
+
+.istr-fs-aufgabe > b,
+.istr-fs-loesung > b {
+  display: block;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-weich);
+  margin-bottom: 8px;
+}
+
+.istr-fs-aufgabe p,
+.istr-fs-loesung p {
+  margin: 0 0 10px;
+  max-width: 92ch;
+  line-height: 1.62;
+}
+
+.istr-fs-untertitel {
+  margin: 16px 0 8px;
+  font-family: var(--serif);
+  font-size: 1rem;
+  color: var(--tinte);
+}
+
+.istr-fs-liste {
+  margin: 0 0 10px;
+  max-width: 92ch;
+  line-height: 1.62;
+}
+
+.istr-fs-details {
+  margin-top: 14px;
+  border-top: 1px solid var(--linie-fein);
+  padding-top: 12px;
+}
+
+.istr-fs-details > summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--tinte);
+  list-style: none;
+}
+
+.istr-fs-details > summary::marker,
+.istr-fs-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.istr-fs-details > summary::before {
+  content: "＋ ";
+  font-family: var(--mono);
+}
+
+.istr-fs-details[open] > summary::before {
+  content: "－ ";
+}
+
+.istr-fs-loesung {
+  margin-top: 14px;
+  border-left: 3px solid var(--gruen);
+  padding-left: 14px;
+}
+
+.istr-fs-loesung small {
+  display: block;
+  margin-top: 10px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-weich);
+}
+
+.istr-fs-tabelle__rahmen {
+  overflow-x: auto;
+  margin: 0 0 14px;
+}
+
+.istr-fs-tabelle {
+  border-collapse: collapse;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  min-width: 420px;
+}
+
+.istr-fs-tabelle th,
+.istr-fs-tabelle td {
+  border-bottom: 1px solid var(--linie-fein);
+  padding: 5px 14px 5px 0;
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.istr-fs-tabelle th[scope="row"] {
+  text-align: left;
+  font-weight: 400;
+  white-space: normal;
+  padding-right: 26px;
+}
+
+.istr-fs-tabelle thead th {
+  border-bottom: 1px solid var(--linie);
+  font-weight: 700;
+}
+
+.istr-fs-crossrefs {
+  margin-top: 16px;
+  border-top: 1px solid var(--linie-fein);
+  padding-top: 12px;
+}
+
+.istr-fs-crossrefs > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 7px;
+}
+
+.istr-fs-anlagen__hinweis {
+  margin: 0 0 14px;
+  max-width: 90ch;
+  color: var(--ink-weich);
+}
+
+.istr-fs-anlage {
+  margin-bottom: 10px;
+}
+
+.istr-fs-anlage > summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--tinte);
+}
+
+.istr-fs-anlage__body {
+  margin-top: 14px;
+  display: grid;
+  gap: 18px;
+}
+
+.istr-fs-anlage__body h4 {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  color: var(--tinte);
+}
+
+.istr-fs-anlage__body p {
+  margin: 0 0 8px;
+  max-width: 92ch;
+  line-height: 1.6;
+}
+
+.istr-fs-anlage__leer {
+  color: var(--ink-weich);
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .istr-fs-quellen {
+    justify-items: start;
+    text-align: left;
+  }
+}

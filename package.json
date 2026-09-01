@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run check:k2-istr && npm run check:k2-istr-einheit1 && npm run check:k2-istr-einheit2 && npm run check:k2-istr-einheit3 && npm run check:k2-istr-einheit4 && npm run check:k2-istr-originalfaelle && vite build",
+    "build": "npm run check:k2-istr && npm run check:k2-istr-einheit1 && npm run check:k2-istr-einheit2 && npm run check:k2-istr-einheit3 && npm run check:k2-istr-einheit4 && npm run check:k2-istr-fallsammlung && npm run check:k2-istr-originalfaelle && vite build",
     "preview": "vite preview",
     "check:fallsammlung": "node tools/pruefen-fallsammlung.mjs",
     "check:fallsammlung-format": "node tools/pruefen-fallsammlung-format.mjs",
@@ -30,6 +30,7 @@
     "check:k2-istr-einheit2": "node tools/pruefen-k2-istr-einheit2.mjs",
     "check:k2-istr-einheit3": "node tools/pruefen-k2-istr-einheit3.mjs",
     "check:k2-istr-einheit4": "node tools/pruefen-k2-istr-einheit4.mjs",
+    "check:k2-istr-fallsammlung": "node tools/pruefen-k2-istr-fallsammlung.mjs",
     "check:k2-istr-originalfaelle": "node tools/pruefen-k2-istr-originalfaelle.mjs",
     "check:k3-persg-tag1": "node tools/pruefen-k3-persg-tag1.mjs",
     "check:k3-persg-tag2": "node tools/pruefen-k3-persg-tag2.mjs",
