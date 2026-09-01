@@ -56,13 +56,15 @@
   padding: clamp(10px, 2vw, 26px) 0 4px;
 }
 
-/* Beide Bücher stehen nebeneinander und schließen unten bündig ab. */
+/* Beide Bücher stehen nebeneinander und schließen unten bündig ab. Rechts
+   bleibt Platz für die Zettel, die am Vorderschnitt herausragen. */
 .buch-regal {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: end;
   gap: clamp(16px, 3vw, 38px);
   width: 100%;
+  padding-right: clamp(56px, 11%, 132px);
 }
 
 /* Jedes Buch ist sein eigener Bezugsrahmen: alle Maße darin rechnen in cqw,
@@ -177,6 +179,52 @@
   align-items: center;
   gap: .25cqw;
   flex: none;
+}
+
+/* Die Zettel am Vorderschnitt: sie stecken rechts im Block und ragen zur Seite
+   heraus, quer beschriftet. Der Hauptzettel sitzt am Buch, seine
+   Stichwortzettel liegen weiter außen. */
+.buch-reiterleiste--rechts {
+  position: absolute;
+  z-index: 2;
+  left: 100%;
+  top: 14%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4cqw;
+  padding: 0;
+  /* Ein Stück steckt unter dem Deckel. */
+  transform: translateX(-4cqw);
+}
+
+/* Doppelte Klasse: die allgemeine Breitenregel für .buch-reiter steht weiter
+   unten und würde sonst gewinnen. */
+.buch-reiter.buch-reiter--rechts {
+  width: 20cqw;
+}
+
+.buch-reiter--rechts .buch-zettel {
+  /* Der linke Teil steckt unter dem Deckel - die Schrift beginnt erst dahinter
+     und steht rechtsbündig. */
+  place-items: center end;
+  min-height: 7.4cqw;
+  padding: .7cqw 1cqw .7cqw 6cqw;
+  white-space: normal;
+  line-height: 1.24;
+  text-align: right;
+  font-size: calc(var(--zettel-schriftgrad) * .8);
+}
+
+.buch-reiter--rechts .buch-zettel--marke {
+  min-height: 5.4cqw;
+  font-size: calc(var(--zettel-schriftgrad) * .68);
+}
+
+/* Am Vorderschnitt weicht die hintere Reihe zur Seite aus statt nach oben -
+   sonst schöbe der Deckel ihre Beschriftung an. */
+.buch-reiter--rechts .buch-zettel[style*="--reihe"] {
+  --tiefe: translateZ(calc(-3cqw - var(--reihe) * 5cqw)) translateX(calc(var(--reihe) * 1.6cqw));
 }
 
 /* Mehrere Stichwortzettel stapeln sich wie im Buch übereinander. */
@@ -548,12 +596,14 @@
 @media (max-width: 860px) {
   .buch-regal {
     grid-template-columns: minmax(0, 1fr);
-    justify-items: center;
+    justify-items: stretch;
     gap: 34px;
+    /* Genug Rand, damit die Zettel am Vorderschnitt nicht angeschnitten werden. */
+    padding-right: 86px;
   }
 
   .buch-buehne {
-    width: min(100%, 460px);
+    width: 100%;
   }
 }
 
