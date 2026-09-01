@@ -1,0 +1,55 @@
+/* Ergänzungen zum Fallsammlungs-Layout für die Hausaufgaben:
+   Punkte am Absatzrand, Themenzeile und Anlagenblock. */
+
+.istr-ha-thema {
+  margin: 6px 0 0;
+  color: var(--ink-weich);
+  max-width: 70ch;
+}
+
+.istr-ha-karte {
+  border-left-color: var(--magenta);
+}
+
+.istr-ha-absatz {
+  position: relative;
+}
+
+.istr-ha-punkte {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 1px 7px;
+  border: 1px solid var(--linie);
+  background: var(--feld);
+  color: var(--ink-weich);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  white-space: nowrap;
+  vertical-align: 2px;
+}
+
+.istr-fs-tabelle__rahmen .istr-ha-punkte {
+  margin: 8px 0 0;
+  vertical-align: baseline;
+}
+
+.istr-ha-summe {
+  margin-top: 16px;
+  padding-top: 10px;
+  border-top: 1px solid var(--linie-fein);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-weich);
+}
+
+.istr-ha-anlage {
+  margin-top: 14px;
+}
+
+@media (max-width: 700px) {
+  .istr-ha-punkte {
+    display: block;
+    margin: 6px 0 0;
+    width: fit-content;
+  }
+}

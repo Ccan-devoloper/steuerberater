@@ -3,13 +3,14 @@ import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
-import { IconCockpit, IconModule, IconFaelle, IconSchema, IconTraining, IconRegister, IconPlan } from "./Icons";
+import { IconCockpit, IconModule, IconFaelle, IconSchema, IconTraining, IconRegister, IconPlan, IconHausaufgabe } from "./Icons";
 import IstrPruefungsschemata, { istrSchemata } from "./IstrPruefungsschemata";
 import IstrEinheit1Pruefungsschema, { istrEinheit1Schemata } from "./IstrEinheit1Pruefungsschema";
 import IstrEinheit2Pruefungsschema, { istrEinheit2Schemata } from "./IstrEinheit2Pruefungsschema";
 import IstrEinheit3Pruefungsschema, { istrEinheit3Schemata } from "./IstrEinheit3Pruefungsschema";
 import IstrEinheit4Pruefungsschema, { istrEinheit4Schemata } from "./IstrEinheit4Pruefungsschema";
 import IstrFallsammlung from "./IstrFallsammlung";
+import IstrHausaufgaben from "./IstrHausaufgaben";
 import SchemaPostitEnhancer from "./SchemaPostitEnhancer";
 import {
   istrBereiche, istrBereichName, istrModule, istrFaelle, istrTraining, istrQuellen,
@@ -23,6 +24,7 @@ const ansichten = [
   { id: "module", label: "Lernmodule", Icon: IconModule },
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
   { id: "fallsammlung", label: "Fallsammlung", Icon: IconPlan },
+  { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
   { id: "training", label: "Training", Icon: IconTraining },
   { id: "quellen", label: "Quellenstand", Icon: IconRegister },
@@ -104,6 +106,7 @@ export default function K2IStRCampus({ onKlausurwechsel, onFachwechsel }) {
         {verlauf.ansicht === "module" && modul && <IstrModulseite modul={modul} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} zurueck={() => verlauf.oeffnen({ ansicht: "module", modulId: null, fallId: null })} />}
         {verlauf.ansicht === "faelle" && <IstrFallseite aktiv={fallId} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} />}
         {verlauf.ansicht === "fallsammlung" && <IstrFallsammlung onModulOeffnen={modulOeffnen} />}
+        {verlauf.ansicht === "hausaufgaben" && <IstrHausaufgaben onModulOeffnen={modulOeffnen} />}
         {verlauf.ansicht === "schema" && <IstrSchemaSeite suche={suche} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} />}
         {verlauf.ansicht === "training" && <IstrTraining />}
         {verlauf.ansicht === "quellen" && <IstrQuellenstand />}
