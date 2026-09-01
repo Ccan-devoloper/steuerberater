@@ -286,13 +286,28 @@ html[data-theme="dark"] .these p { color: var(--ink-weich); }
 .liste--haken li { position: relative; padding-left: 22px; }
 .liste--haken li::before { content: ""; position: absolute; left: 2px; top: .58em; width: 9px; height: 9px; border: 1.5px solid var(--gruen); }
 
+/* Aufzählung, in der ein Punkt einen eingerückten Unterblock trägt: die oberste
+   Ebene bekommt einen eigenen, kräftigen Punkt an fester Position, damit
+   sichtbar bleibt, welche Punkte gleichrangig sind. */
+.liste--gestuft { list-style: none; }
+.liste--gestuft > li { position: relative; margin: 10px 0; }
+.liste--gestuft > li::before { content: ""; position: absolute; left: -1.05rem; top: .62em; width: 9px; height: 9px; border-radius: 50%; background: var(--tinte); }
+.liste--gestuft > li.hat-einzug { margin-bottom: 16px; }
+
 /* Eingerückter Unterblock innerhalb eines Listenpunkts: macht sichtbar, dass
    Untertitel, Aufzählung und Merkkasten nur zu diesem Punkt gehören. */
-.schema-einzug { margin: 8px 0 10px; padding-left: 14px; border-left: 2px solid var(--linie); }
+.schema-einzug { margin: 10px 0 2px; padding: 2px 0 2px 16px; border-left: 3px solid var(--tinte); }
 .schema-einzug > *:first-child { margin-top: 0; }
 .schema-einzug > *:last-child { margin-bottom: 0; }
 .schema-einzug h4 { font-size: .95em; }
+.schema-einzug > h4:first-child::before { content: "\21B3\00A0"; color: var(--tinte); }
 .schema-einzug .liste { margin-bottom: 10px; }
+
+/* Rechenschritt innerhalb eines Listenpunkts */
+.schema-formel { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; width: fit-content; max-width: 100%; margin: 8px 0 2px; padding: 5px 10px; background: var(--gruen-feld); border-left: 3px solid var(--gruen); font-family: var(--mono); font-size: .92em; }
+.schema-formel__label { font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--gruen); }
+.schema-formel__term { color: var(--ink); }
+.schema-formel sup { font-size: .78em; }
 
 .schritte { list-style: none; margin: 0; padding: 0; counter-reset: s; }
 .schritte li { counter-increment: s; display: grid; grid-template-columns: 28px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px dashed var(--linie); }

@@ -126,13 +126,17 @@ export const schemata = [
       {
         titel: "Bewertung:", ton: "bewertung", inhalt: [
           { typ: "text", text: "Die Bewertung erfolgt nach § 253 Abs. 1 S. 2 HGB mit dem notwendigen Erfüllungsbetrag (Zukunftswert) inklusive ratierlicher Ansammlung." },
-          { typ: "liste", punkte: ["Bei RLZ > 1 Jahr muss Abzinsung erfolgen, § 253 Abs. 2 S. 1 HGB (Zinssatz steht in Klausur); Formel: Erfüllungsbetrag : (1+ Zinssatz)^Restlaufzeit"] },
+          { typ: "liste", punkte: [{
+            text: "Bei RLZ > 1 Jahr muss Abzinsung erfolgen, § 253 Abs. 2 S. 1 HGB (Zinssatz steht in Klausur)",
+            formel: "Erfüllungsbetrag / (1 + Zinssatz)^Restlaufzeit",
+          }] },
           { typ: "text", text: "In der StB ist die Rückstellung grds. nach Maßgabe § 6 Abs. 1 Nr. 3a EStG zu bewerten:" },
           { typ: "untertitel", text: "Insbesondere:" },
           { typ: "liste", punkte: [
             "§ 6 Abs. 1 Nr. 3a d) EStG = ratierlich (= wirtschaftliche Verursachung)",
             {
-              text: "§ 6 Abs. 1 Nr. 3a e) EStG = Abzinsung: Erlass 6/19 Tabelle 2 mit Vervielfältiger suchen (= interpolieren) oder Erfüllungsbetrag : (1+ 0,055)^Restlaufzeit",
+              text: "§ 6 Abs. 1 Nr. 3a e) EStG = Abzinsung: Erlass 6/19 Tabelle 2 mit Vervielfältiger suchen (= interpolieren) oder rechnen",
+              formel: "Erfüllungsbetrag / (1 + 0,055)^Restlaufzeit",
               /* Die Ausnahmen gehören allein zur Abzinsung nach Buchstabe e)
                  und stehen deshalb eingerückt in diesem Punkt – nicht zwischen
                  den Buchstaben e) und f). */
@@ -746,11 +750,26 @@ function GesetzbuchAnsicht() {
   );
 }
 
+/* Rechenschritt eines Listenpunkts: Mono-Schrift, eigener Rahmen, „^“ wird als
+   echter Exponent hochgestellt. */
+function Formel({ text, beschriftung = "Formel" }) {
+  const teile = text.split(/\^([^\s)]+)/);
+  return (
+    <span className="schema-formel">
+      <span className="schema-formel__label">{beschriftung}</span>
+      <span className="schema-formel__term">
+        {teile.map((teil, i) => (i % 2 === 1 ? <sup key={i}>{teil}</sup> : <span key={i}>{teil}</span>))}
+      </span>
+    </span>
+  );
+}
+
 function Listenpunkt({ punkt }) {
   if (typeof punkt === "string") return <li>{punkt}</li>;
   return (
-    <li>
+    <li className={punkt.unterblock?.length > 0 ? "hat-einzug" : undefined}>
       {punkt.text}
+      {punkt.formel && <Formel text={punkt.formel} beschriftung={punkt.formelBeschriftung} />}
       {punkt.kinder?.length > 0 && (
         <ul style={{ marginTop: 8 }}>
           {punkt.kinder.map((kind, i) => <Listenpunkt key={i} punkt={kind} />)}
@@ -802,7 +821,15 @@ function Inhalt({ element }) {
     );
   }
   if (element.typ === "liste") {
-    return <ul className="liste" style={{ marginTop: 8 }}>{element.punkte.map((p, i) => <Listenpunkt key={i} punkt={p} />)}</ul>;
+    /* Sobald ein Punkt einen eingerückten Unterblock trägt, bekommen alle
+       Punkte dieser Ebene einen eigenen, kräftigen Aufzählungspunkt – so
+       bleibt erkennbar, welche Punkte gleichrangig sind. */
+    const gestuft = element.punkte.some((p) => p?.unterblock?.length > 0);
+    return (
+      <ul className={gestuft ? "liste liste--gestuft" : "liste"} style={{ marginTop: 8 }}>
+        {element.punkte.map((p, i) => <Listenpunkt key={i} punkt={p} />)}
+      </ul>
+    );
   }
   if (element.typ === "nummern") {
     return <ol style={{ paddingLeft: 24, margin: "8px 0 12px" }}>{element.punkte.map((p, i) => <li key={i} style={{ marginBottom: 6 }}>{p}</li>)}</ol>;
