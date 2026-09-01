@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run check:k1-erbst-einheit-1 && npm run check:k1-erbst-einheit-2 && npm run check:k2-istr && npm run check:k2-istr-einheit1 && npm run check:k2-istr-einheit2 && npm run check:k2-istr-einheit3 && npm run check:k2-istr-einheit4 && npm run check:k2-istr-fallsammlung && npm run check:k2-istr-hausaufgaben && npm run check:k2-istr-originalfaelle && vite build",
+    "build": "npm run check:k1-erbst-einheit-1 && npm run check:k1-erbst-einheit-2 && npm run check:k1-erbst-einheit-3 && npm run check:k2-istr && npm run check:k2-istr-einheit1 && npm run check:k2-istr-einheit2 && npm run check:k2-istr-einheit3 && npm run check:k2-istr-einheit4 && npm run check:k2-istr-fallsammlung && npm run check:k2-istr-hausaufgaben && npm run check:k2-istr-originalfaelle && vite build",
     "preview": "vite preview",
     "check:fallsammlung": "node tools/pruefen-fallsammlung.mjs",
     "check:fallsammlung-format": "node tools/pruefen-fallsammlung-format.mjs",
@@ -26,6 +26,7 @@
     "check:k1-ao-hausaufgaben": "node tools/pruefen-k1-ao-hausaufgaben.mjs",
     "check:k1-erbst-einheit-1": "node tools/pruefen-k1-erbst-einheit-1.mjs",
     "check:k1-erbst-einheit-2": "node tools/pruefen-k1-erbst-einheit-2.mjs",
+    "check:k1-erbst-einheit-3": "node tools/pruefen-k1-erbst-einheit-3.mjs",
     "check:k2-istr": "node tools/pruefen-k2-istr.mjs",
     "check:k2-istr-einheit1": "node tools/pruefen-k2-istr-einheit1.mjs",
     "check:k2-istr-einheit2": "node tools/pruefen-k2-istr-einheit2.mjs",
