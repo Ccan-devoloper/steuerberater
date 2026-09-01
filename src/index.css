@@ -286,6 +286,14 @@ html[data-theme="dark"] .these p { color: var(--ink-weich); }
 .liste--haken li { position: relative; padding-left: 22px; }
 .liste--haken li::before { content: ""; position: absolute; left: 2px; top: .58em; width: 9px; height: 9px; border: 1.5px solid var(--gruen); }
 
+/* Eingerückter Unterblock innerhalb eines Listenpunkts: macht sichtbar, dass
+   Untertitel, Aufzählung und Merkkasten nur zu diesem Punkt gehören. */
+.schema-einzug { margin: 8px 0 10px; padding-left: 14px; border-left: 2px solid var(--linie); }
+.schema-einzug > *:first-child { margin-top: 0; }
+.schema-einzug > *:last-child { margin-bottom: 0; }
+.schema-einzug h4 { font-size: .95em; }
+.schema-einzug .liste { margin-bottom: 10px; }
+
 .schritte { list-style: none; margin: 0; padding: 0; counter-reset: s; }
 .schritte li { counter-increment: s; display: grid; grid-template-columns: 28px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px dashed var(--linie); }
 .schritte li:last-child { border-bottom: 0; }

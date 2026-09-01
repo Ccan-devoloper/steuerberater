@@ -131,12 +131,19 @@ export const schemata = [
           { typ: "untertitel", text: "Insbesondere:" },
           { typ: "liste", punkte: [
             "§ 6 Abs. 1 Nr. 3a d) EStG = ratierlich (= wirtschaftliche Verursachung)",
-            "§ 6 Abs. 1 Nr. 3a e) EStG = Abzinsung: Erlass 6/19 Tabelle 2 mit Vervielfältiger suchen (= interpolieren) oder Erfüllungsbetrag : (1+ 0,055)^Restlaufzeit",
+            {
+              text: "§ 6 Abs. 1 Nr. 3a e) EStG = Abzinsung: Erlass 6/19 Tabelle 2 mit Vervielfältiger suchen (= interpolieren) oder Erfüllungsbetrag : (1+ 0,055)^Restlaufzeit",
+              /* Die Ausnahmen gehören allein zur Abzinsung nach Buchstabe e)
+                 und stehen deshalb eingerückt in diesem Punkt – nicht zwischen
+                 den Buchstaben e) und f). */
+              unterblock: [
+                { typ: "untertitel", text: "Ausnahmen der Abzinsung:" },
+                { typ: "liste", punkte: ["Verzinslich; Laufzeit < 12 Monate; Anzahlung"] },
+                { typ: "hinweis", text: "Beachte: Bei Sachleistungsverpflichtungen Zeitraum bis Beginn der Erfüllung maßgeblich, § 6 Abs. 1 Nr. 3a e) S. 2 EStG, falls < 12 Monate, keine Abzinsung" },
+              ],
+            },
+            "§ 6 Abs. 1 Nr. 3a f) EStG = Stichtagsprinzip (Abweichung zu HB)",
           ] },
-          { typ: "untertitel", text: "Ausnahmen der Abzinsung:" },
-          { typ: "liste", punkte: ["Verzinslich; Laufzeit < 12 Monate; Anzahlung"] },
-          { typ: "hinweis", text: "Beachte: Bei Sachleistungsverpflichtungen Zeitraum bis Beginn der Erfüllung maßgeblich, § 6 Abs. 1 Nr. 3a e) S. 2 EStG, falls < 12 Monate, keine Abzinsung" },
-          { typ: "liste", punkte: ["§ 6 Abs. 1 Nr. 3a f) EStG = Stichtagsprinzip (Abweichung zu HB)"] },
           { typ: "text", text: "→ maximal Wert laut HB R 6.11 Abs. 3 S. 1 EStR" },
           { typ: "untertitel", text: "Bilanzansatz 31.12. …" },
         ],
@@ -748,6 +755,11 @@ function Listenpunkt({ punkt }) {
         <ul style={{ marginTop: 8 }}>
           {punkt.kinder.map((kind, i) => <Listenpunkt key={i} punkt={kind} />)}
         </ul>
+      )}
+      {punkt.unterblock?.length > 0 && (
+        <div className="schema-einzug">
+          {punkt.unterblock.map((element, i) => <Inhalt key={i} element={element} />)}
+        </div>
       )}
     </li>
   );
