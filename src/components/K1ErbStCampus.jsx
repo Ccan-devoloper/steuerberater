@@ -1,1 +1,1 @@
-export { default } from "./K1ErbStCampusV2";
+export { default } from "./K1ErbStCampusV3";
