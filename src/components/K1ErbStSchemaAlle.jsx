@@ -1,0 +1,2 @@
+import React from"react";import K1ErbStSchema1 from"./K1ErbStSchemata";import K1ErbStSchema2,{erbst2SchemaIds}from"./K1ErbStSchemataEinheit2";import{erbstSchemaIds as erbst1SchemaIds}from"./K1ErbStSchemata";
+const SET2=new Set(erbst2SchemaIds);export const erbstSchemaIds=[...erbst1SchemaIds,...erbst2SchemaIds];export default function K1ErbStSchemaAlle({id}){return SET2.has(id)?<K1ErbStSchema2 id={id}/>:<K1ErbStSchema1 id={id}/>}
