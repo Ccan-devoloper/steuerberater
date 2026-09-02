@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 /* Eigener K2-Reiter für die IStR-Fallsammlung 2026 – Aufbau wie die USt-Fallsammlung in K1:
    Sachverhalt offen, Lösung erst auf Klick, Wortlaut 1:1 aus den beiden Original-PDFs. */
 import React, { useMemo, useState } from "react";
@@ -48,6 +49,7 @@ function Fallkarte({ fall, onModulOeffnen }) {
         <div>
           <span className="kicker">Fall {fall.nummer} · {fall.kategorie}</span>
           <h3>{fall.title}</h3>
+          <PrioBadge fach="istr" inhalt={fall} typ="fallsammlung" id={fall.id} />
         </div>
         <div className="istr-fs-quellen" aria-label="Quellenstellen">
           <span>{fall.aufgabeQuelle}</span>

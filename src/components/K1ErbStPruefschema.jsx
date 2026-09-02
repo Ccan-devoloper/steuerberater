@@ -1,3 +1,4 @@
+import{PrioBadge}from"./Prioritaet";
 import React from "react";
 import K1ErbStSchema from "./K1ErbStSchemata";
 
@@ -18,7 +19,7 @@ export default function K1ErbStPruefschema() {
   return <>
     <div className="pagehead"><div><span className="kicker">Klausur 1 · Erbschaftsteuer · Prüfschema</span><h1>ErbSt-Schemata der 1. Einheit</h1><p className="lead">Die Schemata folgen der handschriftlichen Quelle möglichst eng: Reihenfolge, Kreis-/Pfeillogik, Copy-&-Paste-Bausteine, Tabellen, Reiterfahrroute und die Kürzel WSV/NNAS bleiben erhalten. Unausgeschriebene Kürzel werden nicht künstlich umgedeutet.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
     <div className="ao-schema-stack">
-      {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section erbst-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2></div></div><K1ErbStSchema id={schema}/></section>)}
+      {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section erbst-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2><PrioBadge fach="erbst" inhalt={{title:titel}} mitThema nurBeiTreffer/></div></div><K1ErbStSchema id={schema}/></section>)}
     </div>
   </>;
 }

@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 /* Eigener K2-Reiter für die IStR-Hausaufgaben 2026 – Aufbau wie die IStR-Fallsammlung:
    Sachverhalt und Aufgabe offen, Lösungshinweise erst auf Klick, Wortlaut 1:1 aus den PDFs.
    Die am Rand der Musterlösung ausgewiesenen Punkte stehen an ihrem Absatz. */
@@ -57,6 +58,7 @@ function Hausaufgabenkarte({ ha, onModulOeffnen }) {
         <div>
           <span className="kicker">{ha.termin}. Fachtermin · {ha.punkte} Punkte</span>
           <h3>{ha.title}</h3>
+          <PrioBadge fach="istr" inhalt={ha} typ="hausaufgabe" id={ha.id} />
           <p className="istr-ha-thema">{ha.thema}</p>
         </div>
         <div className="istr-fs-quellen" aria-label="Quellenangabe">

@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import "../data/k1-ust-einheit-8-register.js";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
@@ -39,7 +40,7 @@ function KurzskriptBlock({ block, onSchema }) {
           {seitenText(block.pdf, "PDF-S.")} · {seitenText(block.skript, "Skript-S.")}
         </b>
       </header>
-      <h3>{block.titel}</h3>
+      <h3>{block.titel} <PrioBadge fach="ust" inhalt={block} typ="skript" id={block.id} kompakt /></h3>
       <ul className="liste k1-meurer-block__punkte">
         {block.kernaussagen.map((text, index) => (
           <li key={index}><VerlinkterText text={text} onOpen={onSchema} compact /></li>

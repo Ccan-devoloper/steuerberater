@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import React, { useMemo, useState } from "react";
 import "./istr-einheit2.css";
 
@@ -240,6 +241,7 @@ export default function IstrEinheit2Pruefungsschema({ suche = "", onModulOeffnen
           <span className="kicker">Prüfungsschema {istrEinheit2Schemata.findIndex((s) => s.id === schema.id) + 1} von {istrEinheit2Schemata.length}</span>
           <h2>{schema.titel}</h2>
           <p>{schema.fokus}</p>
+          <PrioBadge fach="istr" inhalt={{ title: schema.titel, subtitle: schema.fokus }} mitThema nurBeiTreffer />
         </header>
         <div className="istr2-schema-panel__body">
           {schema.bloecke.map((block, i) => <SchemaBlock key={i} block={block} onModulOeffnen={onModulOeffnen} onFallOeffnen={onFallOeffnen} onSchemaOeffnen={schemaOeffnen} />)}

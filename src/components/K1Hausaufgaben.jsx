@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { k1UstHausaufgaben, k1UstHausaufgabenDidaktik } from "../data/k1-ust-hausaufgaben.js";
 import { SchemaVerweise, VerlinkteNormkette, VerlinkterText } from "./K1SchemaLinks";
+import { PrioBadge } from "./Prioritaet";
 
 function Inhaltsart(inhalt) {
   return inhalt?.area === "Fall" ? "Originalfall" : "Lernmodul";
@@ -88,6 +89,7 @@ export default function K1Hausaufgaben({ ziel, onOpenInhalt, onOpenSchema, inhal
                     <div>
                       <span className="kicker">Fachtermin {termin.fachtermin} · Fall {fall.nummer} · {fall.seiten}</span>
                       <h3>{fall.titel}</h3>
+                      <PrioBadge fach="ust" inhalt={fall} typ="hausaufgabe" id={fall.id} />
                     </div>
                   </div>
 

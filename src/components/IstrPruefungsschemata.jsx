@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import React, { useMemo, useState } from "react";
 import "./istr-merkhilfe.css";
 
@@ -373,6 +374,7 @@ export default function IstrPruefungsschemata({ aktiv: aktivVonAussen, onWechsel
         <header style={{ padding: "20px 22px", borderBottom: "1px solid var(--linie)", background: "var(--feld)" }}>
           <span className="kicker">Prüfungsschema {istrSchemata.findIndex((s) => s.id === schema.id) + 1} von {istrSchemata.length}</span>
           <h2 style={{ margin: "6px 0 0" }}>{schema.titel}</h2>
+          <div className="prio-kopfzeile"><PrioBadge fach="istr" inhalt={{ title: schema.titel }} mitThema nurBeiTreffer /></div>
         </header>
         <div style={{ padding: "18px" }}>
           {schema.bloecke.map((block, i) => <SchemaBlock key={block.id || i} block={block} />)}

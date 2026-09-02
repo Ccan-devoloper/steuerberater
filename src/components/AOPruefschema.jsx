@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import React from "react";
 import AOSchema from "./AOSchemataAlle";
 
@@ -83,7 +84,7 @@ export default function AOPruefschema() {
   return <>
     <div className="pagehead"><div><span className="kicker">Klausur 1 · Abgabenordnung · Prüfschema</span><h1>AO-Schemata der Einheiten 1–8</h1><p className="lead">Die Schemata sind digital entlang der Originaldarstellungen nachgebaut: Verzweigungen, Tabellenlogik, Kästen, Zeitachsen, Normreiter, Herz-Pärchen und farbliche Hervorhebungen bleiben als Lernstruktur erhalten. Offene Fragezeichen der Quelle bleiben offen.</p></div><span className="zaehler">{BLOECKE.length} Schemata</span></div>
     <div className="ao-schema-stack">
-      {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2></div></div><AOSchema id={schema}/></section>)}
+      {BLOECKE.map(([id,titel,schema,quelle])=><section className="abschnitt ao-schema-section" id={id} key={id}><div className="kst-abschnitt-kopf"><div><span className="kicker">{quelle}</span><h2>{titel}</h2><PrioBadge fach="ao" inhalt={{title:titel}} mitThema nurBeiTreffer/></div></div><AOSchema id={schema}/></section>)}
     </div>
   </>;
 }

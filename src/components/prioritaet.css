@@ -1,0 +1,126 @@
+/* ==========================================================================
+   Examensprioritäten – Marker, Legende, Filter, Tabellen
+   Farben: 🔴 Rot = am häufigsten, 🟠 Orange = mittel, 🟢 Grün = selten.
+   Die Token stammen aus index.css und sind dunkelmodusfähig.
+   ========================================================================== */
+
+.prio {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 2px 8px 2px 6px;
+  border: 1px solid var(--linie);
+  background: var(--feld);
+  color: var(--ink);
+  line-height: 1.5;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+.prio b { font-weight: 700; }
+.prio small { font-family: var(--sans); text-transform: none; letter-spacing: 0; color: var(--ink-weich); font-size: 11px; }
+.prio__emoji { font-size: 11px; line-height: 1; }
+.prio--kompakt { padding: 1px 5px; gap: 0; }
+.prio--hoch { border-color: var(--rot); background: var(--rot-feld); color: var(--rot); }
+.prio--mittel { border-color: var(--orange); background: var(--orange-feld); color: var(--orange); }
+.prio--selten { border-color: var(--gruen); background: var(--gruen-feld); color: var(--gruen); }
+button.prio { cursor: pointer; }
+button.prio:hover { filter: brightness(.95); }
+
+.prio-dot {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 9px;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: help;
+}
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* Marker in Modulkarten und Kopfzeilen */
+.modul__kopf .prio, .persg-meta .prio, .tags .prio, .kicker + .prio { margin-left: 2px; }
+.modul__kopf .prio { text-transform: uppercase; }
+.lesson__kopf .prio, .pagehead .prio { margin-bottom: 6px; }
+.prio-kopfzeile { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 6px; }
+.prio-kopfzeile .kicker { margin: 0; }
+h2 .prio, h3 .prio { margin-left: 8px; font-size: 10px; vertical-align: middle; }
+.panel__head .prio { margin-top: 4px; }
+
+/* Filterzeile */
+.prio-filter button[aria-pressed="true"].prio-filter__hoch { background: var(--rot); border-color: var(--rot); color: #fff; }
+.prio-filter button[aria-pressed="true"].prio-filter__mittel { background: var(--orange); border-color: var(--orange); color: #fff; }
+.prio-filter button[aria-pressed="true"].prio-filter__selten { background: var(--gruen); border-color: var(--gruen); color: #fff; }
+
+/* Legende */
+.prio-legende { border: 1px solid var(--linie); background: var(--papier); padding: 16px 18px; }
+.prio-legende--kompakt { padding: 10px 14px; }
+.prio-legende__kopf p { margin: 6px 0 0; color: var(--ink-weich); font-size: 13.5px; line-height: 1.5; }
+.prio-legende__liste { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 10px; }
+.prio-legende__eintrag { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 12px; align-items: start; padding: 8px 10px; border-left: 3px solid var(--linie); background: var(--feld); }
+.prio-legende__eintrag--hoch { border-left-color: var(--rot); }
+.prio-legende__eintrag--mittel { border-left-color: var(--orange); }
+.prio-legende__eintrag--selten { border-left-color: var(--gruen); }
+.prio-legende__eintrag strong { display: block; font-family: var(--serif); font-weight: 600; font-size: 14px; }
+.prio-legende__eintrag span:not(.prio) { display: block; color: var(--ink-weich); font-size: 13px; line-height: 1.5; margin-top: 2px; }
+.prio-legende--kompakt .prio-legende__liste { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.prio-legende--kompakt .prio-legende__eintrag { grid-template-columns: 1fr; gap: 4px; }
+.prio-legende__kette { margin-top: 14px; padding: 10px 12px; background: var(--tinte-feld); border-left: 3px solid var(--tinte); font-size: 13.5px; line-height: 1.55; }
+.prio-legende__kette b { display: block; margin-bottom: 2px; }
+.prio-legende__kette span { font-family: var(--mono); font-size: 12.5px; }
+.prio-legende__exoten { margin-top: 12px; font-size: 13.5px; }
+.prio-legende__exoten ul { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.prio-legende__exoten li { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 4px 8px; background: var(--orange-feld); border-left: 3px solid var(--orange); min-width: 0; }
+.prio-legende__exoten li span { min-width: 0; overflow-wrap: anywhere; }
+.prio-legende__exoten small { flex: none; }
+.prio-legende__exoten small { font-family: var(--mono); color: var(--ink-weich); white-space: nowrap; }
+.prio-legende__quellen { margin: 12px 0 0; font-size: 12px; color: var(--ink-weich); line-height: 1.5; }
+
+/* Schmale Leiste unter der Klausuren-Leiste. Sie klebt wie die Klausuren-Leiste
+   oben fest; Fachleiste und fixierte Seitenleiste rücken um ihre Höhe nach unten.
+   Die aufgeklappte Legende liegt als Ausklappfeld über der Seite, damit die
+   feste Höhe der Leiste erhalten bleibt. */
+:root { --prio-leiste-h: 36px; }
+.prio-leiste { position: sticky; top: calc(var(--kopf) + var(--klausuren-h)); z-index: 30; min-height: var(--prio-leiste-h); border-bottom: 1px solid var(--linie); background: var(--feld); }
+.prio-leiste ~ .k1-fachleiste, .prio-leiste ~ .k1-fachleiste-mount { top: calc(var(--kopf) + var(--klausuren-h) + var(--prio-leiste-h)); }
+.prio-leiste ~ .rail { top: calc(var(--kopf) + var(--klausuren-h) + var(--prio-leiste-h)); }
+.prio-leiste ~ .k1-fachleiste ~ .rail, .prio-leiste ~ .k1-fachleiste-mount ~ .rail { top: calc(var(--kopf) + var(--klausuren-h) + var(--prio-leiste-h) + var(--fachleiste-h)); }
+.prio-leiste__zeile { display: flex; flex-wrap: nowrap; align-items: center; gap: 8px; height: var(--prio-leiste-h); overflow: hidden; padding: 0 16px 0 calc(var(--rail) + 16px); }
+.prio-leiste__titel { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--tinte); white-space: nowrap; }
+.prio-leiste__hinweis { font-size: 12px; color: var(--ink-weich); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.prio-leiste__toggle { margin-left: auto; flex: none; border: 1px solid var(--linie); background: var(--papier); color: var(--tinte); font-size: 12px; padding: 3px 10px; cursor: pointer; }
+.prio-leiste__toggle:hover { border-color: var(--tinte); }
+.prio-leiste__detail { position: absolute; left: 0; right: 0; top: 100%; padding: 12px 16px 16px calc(var(--rail) + 16px); background: var(--papier); border-bottom: 1px solid var(--linie); box-shadow: 0 10px 24px rgba(0, 0, 0, .14); max-height: calc(100vh - var(--kopf) - var(--klausuren-h) - var(--prio-leiste-h) - 16px); overflow: auto; }
+.prio-leiste__detail .prio-legende { max-width: 1100px; }
+
+/* Tabellen */
+.prio-tabelle { border: 1px solid var(--linie); background: var(--papier); padding: 14px 16px; overflow-x: auto; }
+.prio-tabelle__kopf h3 { margin: 4px 0 10px; font-size: 16px; }
+.prio-tabelle table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.prio-tabelle th, .prio-tabelle td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--linie-fein); vertical-align: top; }
+.prio-tabelle th { font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-weich); }
+.prio-tabelle td:nth-child(3) { font-family: var(--mono); white-space: nowrap; }
+.prio-tabelle td:nth-child(4) { color: var(--ink-weich); }
+.prio-tabelle small { display: block; margin-top: 8px; color: var(--ink-weich); font-size: 12px; }
+
+/* Cockpit-Abschnitt */
+.prio-cockpit__zaehlung { display: flex; flex-wrap: wrap; gap: 6px; }
+.prio-cockpit__zaehlung .prio b { margin-right: 2px; }
+.prio-cockpit__luecke { margin: 0 0 12px; padding: 10px 12px; background: var(--rot-feld); border-left: 3px solid var(--rot); font-size: 13.5px; line-height: 1.5; }
+.prio-cockpit__raster { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+
+@media (max-width: 900px) {
+  .prio-leiste__zeile { padding-left: 16px; }
+  .prio-leiste__detail { padding-left: 16px; }
+  .prio-leiste ~ .rail, .prio-leiste ~ .k1-fachleiste ~ .rail, .prio-leiste ~ .k1-fachleiste-mount ~ .rail { top: auto; }
+}
+@media (max-width: 1000px) {
+  .prio-cockpit__raster { grid-template-columns: 1fr; }
+  .prio-legende--kompakt .prio-legende__liste { grid-template-columns: 1fr; }
+  .prio-legende__eintrag { grid-template-columns: 1fr; }
+  .prio-leiste__hinweis { display: none; }
+}

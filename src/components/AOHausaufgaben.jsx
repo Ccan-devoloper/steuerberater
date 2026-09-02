@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import React from "react";
 import {k1AoHausaufgaben,AO_HAUSAUFGABEN_BY_MODULE} from "../data/k1-ao-hausaufgaben-alle.js";
 import {AO_HAUSAUFGABEN_ORIGINALSEITEN} from "../data/k1-ao-hausaufgaben-originaltexte.js";
@@ -188,7 +189,7 @@ export default function AOHausaufgaben({onOpenInhalt,onOpenSchema,inhaltById,zie
           const schemaText=[...(fall.themen||[]),...(fall.normen||[])].join(" · ");
           const quellseiten=fallQuellseiten(fall.seiten);
           return <article className="panel k1-ha-karte ao-ha-karte" key={fall.id} data-ao-ha-id={fall.id}>
-            <div className="panel__head"><div><span className="kicker">{termin.fachtermin} Fachtermin · Fall {fall.nummer} · {fall.seiten}</span><h3>{fall.titel}</h3></div></div>
+            <div className="panel__head"><div><span className="kicker">{termin.fachtermin} Fachtermin · Fall {fall.nummer} · {fall.seiten}</span><h3>{fall.titel}</h3><PrioBadge fach="ao" inhalt={fall} typ="hausaufgabe" id={fall.id}/></div></div>
             <div className="tags k1-ha-themen">{(fall.themen||[]).map(t=><span className="tag" key={t}>{t}</span>)}</div>
             <AOSchemaVerweise text={schemaText} onOpen={onOpenSchema} compact/>
             <div className="kst-sachverhalt k1-ha-aufgabe"><b>Aufgabenstellung / Sachverhalt · Originaltext</b><OriginalSeiten terminId={termin.id} pages={quellseiten.aufgabe} typ="aufgabe" fall={fall}/></div>

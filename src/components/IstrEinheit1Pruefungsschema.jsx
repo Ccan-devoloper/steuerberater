@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import React, { useMemo, useState } from "react";
 import "./istr-einheit2.css";
 
@@ -202,7 +203,7 @@ export default function IstrEinheit1Pruefungsschema({ suche = "", onModulOeffnen
       <div className="istr2-schema-kopf"><div><span className="kicker">IStR · Einheit 1 · digitale Prüfschemata</span><h2>Prüfungsschemata aus der 342-Seiten-Einheit</h2></div><span className="zaehler">{istrEinheit1Schemata.length} Schemata</span></div>
       <div className="filter istr2-schema-filter">{sichtbar.map((s, i) => <button key={s.id} aria-pressed={s.id === schema.id} onClick={() => setAktiv(s.id)}>{i + 1}. {s.titel}</button>)}</div>
       <article className="panel istr2-schema-panel">
-        <header className="istr2-schema-panel__head"><span className="kicker">Prüfungsschema {istrEinheit1Schemata.findIndex((s) => s.id === schema.id) + 1} von {istrEinheit1Schemata.length}</span><h2>{schema.titel}</h2><p>{schema.fokus}</p></header>
+        <header className="istr2-schema-panel__head"><span className="kicker">Prüfungsschema {istrEinheit1Schemata.findIndex((s) => s.id === schema.id) + 1} von {istrEinheit1Schemata.length}</span><h2>{schema.titel}</h2><p>{schema.fokus}</p><PrioBadge fach="istr" inhalt={{ title: schema.titel, subtitle: schema.fokus }} mitThema nurBeiTreffer /></header>
         <div className="istr2-schema-panel__body">{schema.bloecke.map((block, i) => <SchemaBlock key={i} block={block} onSchemaOeffnen={schemaOeffnen} onModulOeffnen={onModulOeffnen} onFallOeffnen={onFallOeffnen} />)}</div>
         <footer className="istr2-schema-panel__footer">Quelle: {schema.quelle}</footer>
       </article>

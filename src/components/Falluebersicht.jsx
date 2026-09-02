@@ -1,5 +1,6 @@
 import React, { useDeferredValue, useEffect, useMemo, useState } from "react";
 import Fallsammlungsfaelle from "./Fallsammlungsfaelle";
+import { PrioFilter, usePrioFilter, prioritaetFuer } from "./Prioritaet";
 
 const FAELLE_PRO_SCHRITT = 12;
 
@@ -25,6 +26,7 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
   const [suche, setSuche] = useState("");
   const [filter, setFilter] = useState("alle");
   const [thema, setThema] = useState("alle");
+  const [prio, setPrio] = usePrioFilter("stb-k3-fall-prio");
   const [anzahl, setAnzahl] = useState(FAELLE_PRO_SCHRITT);
   const verzögerteSuche = useDeferredValue(suche);
 
@@ -40,6 +42,9 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
         return {
           ...fall,
           thema: themaVon(zielmodul),
+          prio: zielmodul
+            ? prioritaetFuer("bilanz", zielmodul, { typ: "modul", id: zielmodul.id })
+            : prioritaetFuer("bilanz", { title: fall.titel, subtitle: fall.quellmodul }),
           suchtext: [
             fall.id,
             fall.titel,
@@ -59,19 +64,25 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
     return alleFaelle.filter((fall) => {
       if (filter !== "alle" && fall.verknuepfungsstatus !== filter) return false;
       if (thema !== "alle" && fall.thema !== thema) return false;
+      if (prio !== "alle" && fall.prio.stufe !== prio) return false;
       return !q || fall.suchtext.includes(q);
     });
-  }, [alleFaelle, filter, thema, verzögerteSuche]);
+  }, [alleFaelle, filter, thema, prio, verzögerteSuche]);
 
   const jeThema = useMemo(() => {
     const zaehler = {};
     for (const fall of alleFaelle) if (fall.thema) zaehler[fall.thema] = (zaehler[fall.thema] || 0) + 1;
     return zaehler;
   }, [alleFaelle]);
+  const jePrio = useMemo(() => {
+    const zaehler = { hoch: 0, mittel: 0, selten: 0 };
+    for (const fall of alleFaelle) zaehler[fall.prio.stufe] += 1;
+    return zaehler;
+  }, [alleFaelle]);
 
   useEffect(() => {
     setAnzahl(FAELLE_PRO_SCHRITT);
-  }, [filter, thema, verzögerteSuche]);
+  }, [filter, thema, prio, verzögerteSuche]);
 
   const sichtbar = gefiltert.slice(0, anzahl);
   const weitere = Math.max(0, gefiltert.length - sichtbar.length);
@@ -120,6 +131,7 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
             </button>
           ))}
         </div>
+        <PrioFilter wert={prio} setWert={setPrio} zaehlung={jePrio} />
       </section>
 
       <p className="falluebersicht__treffer">

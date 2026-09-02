@@ -11,6 +11,7 @@ import k1UstEinheit1 from "../data/module-vertiefung-m.js";
 import k1UstEinheit2 from "../data/module-vertiefung-n.js";
 import { k1Fallsammlung, k1FallsammlungKategorien } from "../data/k1-fallsammlung.js";
 import "./k1-fallsammlung.css";
+import { PrioBadge } from "./Prioritaet";
 
 const k1Inhalte = [...k1UstEinheit1, ...k1UstEinheit2];
 export const k1FallsammlungInhaltById = new Map(k1Inhalte.map((inhalt) => [inhalt.id, inhalt]));
@@ -29,6 +30,7 @@ function Fallkarte({ fall, onOpenInhalt }) {
         <div>
           <span className="kicker">Fall {fall.id} · Seminartag {fall.seminartag}</span>
           <h3>{fall.title}</h3>
+          <PrioBadge fach="ust" inhalt={fall} typ="fallsammlung" id={fall.id} />
         </div>
         <div className="k1-fs-quellen" aria-label="Quellenstellen">
           <span>{fall.aufgabeQuelle}</span>

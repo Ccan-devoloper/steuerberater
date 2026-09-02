@@ -18,6 +18,12 @@ import {
 } from "../data/istr-gesamt";
 import "./kst.css";
 import "./istr-einheit2.css";
+import { PrioBadge, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./Prioritaet";
+
+/* Examenspriorität je IStR-Modul nach der Beck-Auswertung Tag 2 (2013–2024). */
+const prioModul = (m) => prioritaetFuer("istr", m, { typ: "modul", id: m.id });
+const prioZaehlung = prioZaehlen(istrModule, prioModul);
+const prioFall = (f) => prioritaetFuer("istr", { title: f.title, normchain: (f.moduleIds || []).map((id) => istrModule.find((m) => m.id === id)?.law).filter(Boolean) }, { typ: "fall", id: f.id });
 
 const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
@@ -42,6 +48,7 @@ export default function K2IStRCampus({ onKlausurwechsel, onFachwechsel }) {
   const [suche, setSuche] = useState("");
   const [bereich, setBereich] = useState("alle");
   const [einheit, setEinheit] = useState("alle");
+  const [prio, setPrio] = usePrioFilter("stb-k2-istr-prio");
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
   const fortschritt = useFortschritt("stb-k2-istr-erledigt", modulIds);
   const erledigt = fortschritt.werte;
@@ -57,11 +64,12 @@ export default function K2IStRCampus({ onKlausurwechsel, onFachwechsel }) {
     return istrModule.filter((m) => {
       if (einheit !== "alle" && m.unit !== Number(einheit)) return false;
       if (bereich !== "alle" && m.area !== bereich) return false;
+      if (prio !== "alle" && prioModul(m).stufe !== prio) return false;
       if (!q) return true;
       return [m.title, m.law, ...(m.intro || []), ...(m.goals || []), ...(m.scheme || []), ...(m.normchain || []), ...(m.sourceNotes || []), m.merksatz]
         .filter(Boolean).join(" ").toLowerCase().includes(q);
     });
-  }, [bereich, einheit, suche]);
+  }, [bereich, einheit, suche, prio]);
 
   const modul = istrModule.find((m) => m.id === modulId) || null;
   const quote = anteil(erledigt.length, istrModule.length);
@@ -102,7 +110,7 @@ export default function K2IStRCampus({ onKlausurwechsel, onFachwechsel }) {
 
       <main className="page">
         {verlauf.ansicht === "cockpit" && <IstrCockpit quote={quote} erledigt={erledigt} modulOeffnen={modulOeffnen} ansichtOeffnen={ansichtOeffnen} setBereich={(id) => { setBereich(id); ansichtOeffnen("module"); }} setEinheit={(id) => { setEinheit(id); ansichtOeffnen("module"); }} />}
-        {verlauf.ansicht === "module" && !modul && <IstrModulliste liste={gefiltert} bereich={bereich} setBereich={setBereich} einheit={einheit} setEinheit={setEinheit} suche={suche} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} />}
+        {verlauf.ansicht === "module" && !modul && <IstrModulliste liste={gefiltert} bereich={bereich} setBereich={setBereich} einheit={einheit} setEinheit={setEinheit} prio={prio} setPrio={setPrio} suche={suche} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} />}
         {verlauf.ansicht === "module" && modul && <IstrModulseite modul={modul} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} zurueck={() => verlauf.oeffnen({ ansicht: "module", modulId: null, fallId: null })} />}
         {verlauf.ansicht === "faelle" && <IstrFallseite aktiv={fallId} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} />}
         {verlauf.ansicht === "fallsammlung" && <IstrFallsammlung onModulOeffnen={modulOeffnen} />}
@@ -156,6 +164,8 @@ function IstrCockpit({ quote, erledigt, modulOeffnen, ansichtOeffnen, setBereich
       {[{q:istrEinheit1Quelle,u:1},{q:istrEinheit2Quelle,u:2},{q:istrEinheit3Quelle,u:3},{q:istrEinheit4Quelle,u:4}].map(({q,u}) => <article className="panel" key={u}><span className="kicker">Einheit {u}</span><h3>{q.pages} / {q.pages} Frames</h3><p>{u === 4 ? "Hinzurechnungsbesteuerung §§ 7 bis 12 AStG: jeder Frame fachlich, als Fall/Transfer oder technisch zugeordnet." : u === 3 ? "Spezialfälle bis Entstrickung: jede physische Seite fachlich, als Fall/Transfer oder technisch zugeordnet." : "Vollständig und lückenlos zugeordnet."}</p></article>)}
       <article className="panel"><span className="kicker">Prüfungsschemata</span><h3>{istrSchemata.length + istrEinheit1Schemata.length + istrEinheit2Schemata.length + istrEinheit3Schemata.length + istrEinheit4Schemata.length} Schemata</h3><p>Basis-Schema plus Spezial-, EIS-, DBA-, Wegzugs-, KSt-, Entstrickungs- und Hinzurechnungsschemata.</p></article>
     </div></section>
+
+    <PrioCockpit fach="istr" zaehlung={prioZaehlung} />
   </>;
 }
 
@@ -178,13 +188,14 @@ const bereichText = {
   technik: "Nationaler Zugriff → Spezialnorm → Einkunftsquelle → Erhebung → DBA → Entlastung.",
 };
 
-function IstrModulliste({ liste, bereich, setBereich, einheit, setEinheit, suche, erledigt, umschalten, modulOeffnen }) {
+function IstrModulliste({ liste, bereich, setBereich, einheit, setEinheit, prio, setPrio, suche, erledigt, umschalten, modulOeffnen }) {
   return <>
     <div className="pagehead"><div><span className="kicker">Klausur 2 · IStR · Einheit 1 + 2 + 3 + 4</span><h1>Lernmodule</h1><p className="lead">Chronologisch geordnete Lernstrecke aus allen vollständigen Unterrichtseinheiten.</p></div><span className="kicker">{liste.length} Inhalte</span></div>
     <EinheitenFilter einheit={einheit} setEinheit={setEinheit} />
     <div className="filter">{istrBereiche.filter((b) => b.id === "alle" || istrModule.some((m) => m.area === b.id && (einheit === "alle" || m.unit === Number(einheit)))).map((b) => <button key={b.id} aria-pressed={bereich === b.id} onClick={() => setBereich(b.id)}>{b.label}</button>)}</div>
+    <PrioFilter wert={prio} setWert={setPrio} zaehlung={prioZaehlung} />
     {suche && <p className="istr2-source-note">Suche: „{suche}“ · {liste.length} Treffer</p>}
-    <div className="raster raster--2">{liste.map((m) => <article className="panel" key={m.id}><span className="kicker">{unitLabel(m.unit)} · {istrBereichName[m.area]} · {m.id}</span><h3>{m.title}</h3><p>{m.intro[0]}</p><div className="istr2-modul-meta"><span className="norm">{m.law}</span><span className="istr2-source-range">{frames(m.sourceFrames, m.unit)}</span></div><div className="kartenfuss"><button className="btn btn--linie" onClick={() => modulOeffnen(m.id)}>Öffnen</button><label><input type="checkbox" checked={erledigt.includes(m.id)} onChange={() => umschalten(m.id)} /> bearbeitet</label></div></article>)}</div>
+    <div className="raster raster--2">{liste.map((m) => <article className="panel" key={m.id}><span className="kicker">{unitLabel(m.unit)} · {istrBereichName[m.area]} · {m.id}</span> <PrioBadge prio={prioModul(m)} /><h3>{m.title}</h3><p>{m.intro[0]}</p><div className="istr2-modul-meta"><span className="norm">{m.law}</span><span className="istr2-source-range">{frames(m.sourceFrames, m.unit)}</span></div><div className="kartenfuss"><button className="btn btn--linie" onClick={() => modulOeffnen(m.id)}>Öffnen</button><label><input type="checkbox" checked={erledigt.includes(m.id)} onChange={() => umschalten(m.id)} /> bearbeitet</label></div></article>)}</div>
   </>;
 }
 
@@ -193,7 +204,7 @@ function IstrModulseite({ modul, erledigt, umschalten, modulOeffnen, fallOeffnen
   const querFaelle = (modul.caseIds || []).map((id) => istrFaelle.find((f) => f.id === id)).filter(Boolean);
   return <>
     <button className="zurueck" onClick={zurueck}>← Alle IStR-Module</button>
-    <div className="pagehead"><div><span className="kicker">{unitLabel(modul.unit)} · {istrBereichName[modul.area]} · {modul.id}</span><h1>{modul.title}</h1><p className="lead">{modul.intro[0]}</p></div><button className="btn" onClick={() => umschalten(modul.id)}>{erledigt.includes(modul.id) ? "✓ Bearbeitet" : "Als bearbeitet markieren"}</button></div>
+    <div className="pagehead"><div><span className="kicker">{unitLabel(modul.unit)} · {istrBereichName[modul.area]} · {modul.id}</span> <PrioBadge prio={prioModul(modul)} mitThema /><h1>{modul.title}</h1><p className="lead">{modul.intro[0]}</p></div><button className="btn" onClick={() => umschalten(modul.id)}>{erledigt.includes(modul.id) ? "✓ Bearbeitet" : "Als bearbeitet markieren"}</button></div>
     <section className="raster raster--2"><article className="panel"><span className="kicker">Lernziele</span><h3>Das muss sitzen</h3><ul className="liste">{modul.goals.map((x) => <li key={x}>{x}</li>)}</ul></article><article className="panel"><span className="kicker">Normkette</span><h3>Gesetzespfad</h3><div className="istr2-chiprow">{modul.normchain.map((n) => <span className="norm" key={n}>{n}</span>)}</div><p><b>Merksatz:</b> {modul.merksatz}</p></article></section>
     <section className="abschnitt"><h2>Prüfungsweg</h2><article className="panel"><ol>{modul.scheme.map((s) => <li key={s} style={{ marginBottom: 10 }}>{s}</li>)}</ol></article></section>
     <section className="abschnitt"><h2>Quellenbezug</h2><article className="panel"><div className="istr2-chiprow">{modul.sourceFrames.map(([a,b]) => <span className="istr2-chip" key={`${a}-${b}`}>{unitLabel(modul.unit)} · {a === b ? `Frame ${a}` : `Frames ${a}–${b}`}</span>)}</div><ul className="liste">{modul.sourceNotes.map((n) => <li key={n}>{n}</li>)}</ul></article></section>
@@ -208,7 +219,7 @@ function IstrFallseite({ aktiv, modulOeffnen, fallOeffnen }) {
   return <>
     <div className="pagehead"><div><span className="kicker">IStR · Einheit 1 + 2 + 3 + 4</span><h1>Originalfälle und Klausurtransfer</h1><p className="lead">Fälle aller Einheiten mit direkten Querverweisen zu den dazugehörigen Lernmodulen.</p></div><span className="kicker">{liste.length} Fallstrecken</span></div>
     <EinheitenFilter einheit={einheit} setEinheit={setEinheit} />
-    <div style={{ display: "grid", gap: 12 }}>{liste.map((fall) => <details className="panel istr2-fall" id={fall.id} key={fall.id} open={aktiv === fall.id || undefined}><summary onClick={() => fallOeffnen(fall.id)}><div><span className="kicker">{unitLabel(fall.unit)} · {frames(fall.sourceFrames)}</span><h3 style={{ margin: "5px 0 0" }}>{fall.title}</h3></div><span aria-hidden="true">＋</span></summary><div className="istr2-fall__body"><h4>Sachverhalt / Quellenkern</h4><ul className="liste">{fall.facts.map((x) => <li key={x}>{x}</li>)}</ul><h4>Lösungsweg aus der Einheit</h4><ol>{fall.solution.map((x) => <li key={x} style={{ marginBottom: 9 }}>{x}</li>)}</ol><h4>Querverweise</h4><div className="istr2-crossrefs">{fall.moduleIds.map((id) => { const m = istrModule.find((x) => x.id === id); return m ? <button key={id} onClick={() => modulOeffnen(id)}>↗ {unitLabel(m.unit)} · {id} · {m.title}</button> : null; })}</div></div></details>)}</div>
+    <div style={{ display: "grid", gap: 12 }}>{liste.map((fall) => <details className="panel istr2-fall" id={fall.id} key={fall.id} open={aktiv === fall.id || undefined}><summary onClick={() => fallOeffnen(fall.id)}><div><span className="kicker">{unitLabel(fall.unit)} · {frames(fall.sourceFrames)}</span> <PrioBadge prio={prioFall(fall)} /><h3 style={{ margin: "5px 0 0" }}>{fall.title}</h3></div><span aria-hidden="true">＋</span></summary><div className="istr2-fall__body"><h4>Sachverhalt / Quellenkern</h4><ul className="liste">{fall.facts.map((x) => <li key={x}>{x}</li>)}</ul><h4>Lösungsweg aus der Einheit</h4><ol>{fall.solution.map((x) => <li key={x} style={{ marginBottom: 9 }}>{x}</li>)}</ol><h4>Querverweise</h4><div className="istr2-crossrefs">{fall.moduleIds.map((id) => { const m = istrModule.find((x) => x.id === id); return m ? <button key={id} onClick={() => modulOeffnen(id)}>↗ {unitLabel(m.unit)} · {id} · {m.title}</button> : null; })}</div></div></details>)}</div>
   </>;
 }
 
