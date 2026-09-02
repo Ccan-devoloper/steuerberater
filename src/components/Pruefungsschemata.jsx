@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import React, { useRef, useState } from "react";
 import "./pruefungsschema-gesetzbuecher.css";
 
@@ -888,7 +889,7 @@ export default function Pruefungsschemata({ aktiv: aktivVonAussen, onWechsel, nu
       <div className="filter" style={{ marginBottom: 14 }}>
         {schemata.map((s, i) => (
           <button key={s.id} aria-pressed={aktiv === s.id} onClick={() => setAktiv(s.id)}>
-            {i + 1}. {s.titel.replace("Prüfungsschema ", "")}
+            {i + 1}. {s.titel.replace("Prüfungsschema ", "")} <PrioBadge fach="bilanz" inhalt={{ title: s.titel }} typ="schema" id={s.id} kompakt nurBeiTreffer />
           </button>
         ))}
       </div>
@@ -900,6 +901,7 @@ export default function Pruefungsschemata({ aktiv: aktivVonAussen, onWechsel, nu
               Reacts Referenz auf die Zahl kappen - der Zähler bliebe stehen. */}
           <span className="kicker">{`Prüfungsschema ${schemata.findIndex((s) => s.id === schema.id) + 1} von 6`}</span>
           <h2 style={{ margin: "6px 0 0" }}>{schema.titel}</h2>
+          <div className="prio-kopfzeile"><PrioBadge fach="bilanz" inhalt={{ title: schema.titel }} typ="schema" id={schema.id} mitThema nurBeiTreffer /></div>
           {hatReiter && (
             <div className="buch-schalter" role="group" aria-label="Darstellung des Schemas">
               <button type="button" aria-pressed={!nurHgb} onClick={() => setNurHgb(false)}>Ausformuliert</button>

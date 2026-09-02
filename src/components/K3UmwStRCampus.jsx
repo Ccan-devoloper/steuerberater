@@ -11,6 +11,10 @@ import { UMWSTR_HA_SEITEN_GESAMT, UMWSTR_HA_FAELLE_GESAMT } from "../data/k3-umw
 const K3UmwStRHausaufgaben = lazy(() => import("./K3UmwStRHausaufgaben"));
 import "./kst.css";
 import "./k3-umwstr.css";
+import { PrioBadge, PrioCockpit, prioritaetFuer } from "./Prioritaet";
+
+/* Examenspriorität je Prüfschema nach der Beck-Auswertung Tag 2/3 (UmwStG). */
+const prioSchema = (s) => prioritaetFuer("umwstg", s, { typ: "schema", id: s.nr });
 
 /**
  * Jede Seite der gelieferten PDF-Unterlagen liegt als eigenes, seitengetreu
@@ -352,11 +356,14 @@ function Cockpit({ schemaOeffnen, hausaufgabenOeffnen }) {
             <button key={schema.nr} className="umwstr-quick" onClick={() => schemaOeffnen(schema.nr)}>
               <span>Schema {schema.nr}</span>
               <b>{schema.title}</b>
+              <PrioBadge prio={prioSchema(schema)} kompakt />
               <small>{schema.seiten.length} {schema.seiten.length === 1 ? "Seite" : "Seiten"}</small>
             </button>
           ))}
         </div>
       </section>
+
+      <PrioCockpit fach="umwstg" />
     </>
   );
 }
@@ -411,6 +418,7 @@ function SchemaKarte({ schema, schemaOeffnen }) {
       </div>
       <div className="umwstr-schema-card__body">
         <span className="kicker">Prüfschema {schema.nr} · {anzahl} {anzahl === 1 ? "Seite" : "Seiten"}</span>
+        <PrioBadge prio={prioSchema(schema)} />
         <h3>{schema.title}</h3>
         <p>{schema.subtitle}</p>
         <small>{schema.focus}</small>
@@ -450,6 +458,7 @@ function SchemaDetail({ schema, zurueck }) {
         <div>
           <button className="umwstr-back" onClick={zurueck}>← Alle Prüfschemata</button>
           <span className="kicker">Prüfschema {schema.nr} · {anzahl} {anzahl === 1 ? "Seite" : "Seiten"}</span>
+          <PrioBadge prio={prioSchema(schema)} mitThema />
           <h1>{schema.title}</h1>
           <p className="lead">{schema.subtitle}</p>
         </div>

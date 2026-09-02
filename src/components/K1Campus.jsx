@@ -27,11 +27,15 @@ import {
   IconCockpit, IconModule, IconFaelle, IconSchema, IconHaken, IconTraining,
 } from "./Icons";
 import "./kst.css";
+import { PrioBadge, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./Prioritaet";
 
 const k1UstInhalte = [...k1UstEinheit1, ...k1UstEinheit2];
 const k1UstFaelle = k1UstInhalte.filter((inhalt) => inhalt.area === "Fall");
 const k1UstModule = k1UstInhalte.filter((inhalt) => inhalt.area !== "Fall");
 const inhaltIds = new Set(k1UstInhalte.map((inhalt) => inhalt.id));
+/* Examenspriorität je USt-Inhalt nach den Beck-Auswertungen (Tag 1). */
+const prioInhalt = (m) => prioritaetFuer("ust", m, { typ: m.area === "Fall" ? "fall" : "modul", id: m.id });
+const prioZaehlung = prioZaehlen(k1UstInhalte, prioInhalt);
 const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
@@ -331,6 +335,7 @@ export default function K1Campus({ onKlausurwechsel }) {
   const [suche, setSuche] = useState("");
   const [einheitFilter, setEinheitFilter] = useState("alle");
   const [typFilter, setTypFilter] = useState("alle");
+  const [prio, setPrio] = usePrioFilter("stb-k1-ust-prio");
   const [schemaZiel, setSchemaZiel] = useState(null);
   const [navVerlauf, setNavVerlauf] = useState([
     { ansicht: "cockpit", fallId: null, schemaZiel: null, scrollY: 0 },
@@ -366,6 +371,7 @@ export default function K1Campus({ onKlausurwechsel }) {
       if (einheitFilter !== "alle" && m.einheit !== einheitFilter) return false;
       if (typFilter === "fall" && m.area !== "Fall") return false;
       if (typFilter === "modul" && m.area === "Fall") return false;
+      if (prio !== "alle" && prioInhalt(m).stufe !== prio) return false;
       if (!q) return true;
       return [
         m.title,
@@ -387,7 +393,7 @@ export default function K1Campus({ onKlausurwechsel }) {
         k1Quellskizzen[m.id]?.titel,
       ].filter(Boolean).join(" ").toLowerCase().includes(q);
     });
-  }, [suche, einheitFilter, typFilter]);
+  }, [suche, einheitFilter, typFilter, prio]);
 
   const fall = fallId ? k1UstInhalte.find((m) => m.id === fallId) : null;
   const quote = anteil(erledigt.length, k1UstInhalte.length);
@@ -542,6 +548,8 @@ export default function K1Campus({ onKlausurwechsel }) {
             setEinheitFilter={setEinheitFilter}
             typFilter={typFilter}
             setTypFilter={setTypFilter}
+            prio={prio}
+            setPrio={setPrio}
             erledigt={erledigt}
             umschalten={fortschritt.umschalten}
             oeffnen={oeffnen}
@@ -608,6 +616,7 @@ function K1Cockpit({ quote, erledigt, oeffnen, ansichtOeffnen, schemaOeffnen }) 
         <span className="kicker">Weiter im USt-Stoff</span>
         <button className="weiter" onClick={() => oeffnen(naechstes.id)}>
           <span className="kicker">{typ} {naechstes.id} · {naechstes.difficulty}</span>
+          <PrioBadge prio={prioInhalt(naechstes)} />
           <h3>{naechstes.title}</h3>
           <p>{naechstes.intro[0]}</p>
           <span className="norm">{naechstes.law}</span>
@@ -629,11 +638,13 @@ function K1Cockpit({ quote, erledigt, oeffnen, ansichtOeffnen, schemaOeffnen }) 
           ))}
         </div>
       </section>
+
+      <PrioCockpit fach="ust" zaehlung={prioZaehlung} />
     </>
   );
 }
 
-function K1Liste({ liste, suche, einheitFilter, setEinheitFilter, typFilter, setTypFilter, erledigt, umschalten, oeffnen, schemaOeffnen }) {
+function K1Liste({ liste, suche, einheitFilter, setEinheitFilter, typFilter, setTypFilter, prio, setPrio, erledigt, umschalten, oeffnen, schemaOeffnen }) {
   return (
     <>
       <div className="pagehead">
@@ -656,6 +667,7 @@ function K1Liste({ liste, suche, einheitFilter, setEinheitFilter, typFilter, set
         <button aria-pressed={typFilter === "fall"} onClick={() => setTypFilter("fall")}>Nur Originalfälle</button>
         <button aria-pressed={typFilter === "modul"} onClick={() => setTypFilter("modul")}>Nur Lernmodule</button>
       </div>
+      <PrioFilter wert={prio} setWert={setPrio} zaehlung={prioZaehlung} />
 
       <div className="modules">
         {liste.map((m) => {
@@ -687,6 +699,7 @@ function K1Liste({ liste, suche, einheitFilter, setEinheitFilter, typFilter, set
                   <span>{typ} {m.id}</span>
                   <span>{m.difficulty}</span>
                   <span>{m.minutes} Min.</span>
+                  <PrioBadge prio={prioInhalt(m)} stopPropagation />
                 </div>
                 <h3>{m.title}</h3>
                 <div className="modul__norm">{m.law}</div>
@@ -730,6 +743,7 @@ function K1Fallseite({ fall: m, erledigt, umschalten, zurueck, oeffnen, schemaOe
           <span className="kicker">Klausur 1 · Umsatzsteuer · {typ} {m.id}</span>
           <h1>{m.title}</h1>
           <div className="tags">
+            <PrioBadge prio={prioInhalt(m)} mitThema />
             <span className="tag tag--fach">{m.difficulty}</span>
             <span className="tag">{m.minutes} Minuten</span>
             <span className="tag">{m.law}</span>
@@ -873,7 +887,7 @@ function K1Originalfaelle({ oeffnen, schemaOeffnen }) {
         {faelle.map((m) => (
           <article className="panel kst-fallkarte" key={m.id}>
             <div className="panel__head">
-              <div><span className="kicker">Fall {m.id} · {k1UstFallKategorie(m).label} · {m.minutes} Min.</span><h2>{m.title}</h2></div>
+              <div><span className="kicker">Fall {m.id} · {k1UstFallKategorie(m).label} · {m.minutes} Min.</span> <PrioBadge prio={prioInhalt(m)} /><h2>{m.title}</h2></div>
               <button className="btn btn--klein btn--linie" onClick={() => oeffnen(m.id)}>Fall öffnen</button>
             </div>
             <p className="kst-fallquelle">{m.law}</p>

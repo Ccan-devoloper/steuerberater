@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import React from "react";
 import { umwstrHausaufgaben, UMWSTR_HA_FAELLE_GESAMT } from "../data/k3-umwstr-ha-faelle.js";
 import { UMWSTR_HA_ORIGINALSEITEN } from "../data/k3-umwstr-ha-originaltexte.js";
@@ -213,6 +214,7 @@ export default function K3UmwStRHausaufgaben() {
                     <div>
                       <span className="kicker">{termin.fachtermin} Fachtermin · Sachverhalt {fall.nummer} · {fall.seiten}</span>
                       <h3>{fall.titel}</h3>
+                      <PrioBadge fach="umwstg" inhalt={fall} typ="hausaufgabe" id={fall.id} />
                     </div>
                   </div>
                   <div className="tags k1-ha-themen">

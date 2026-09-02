@@ -1,5 +1,6 @@
 import React from "react";
 import { IconSuche, IconSonne, IconMond } from "./Icons";
+import { PrioLeiste } from "./Prioritaet";
 
 /* Gemeinsame Kopfleiste und Klausuren-Leiste aller drei Campusse.
    Beschriftungen und Reihenfolge leben ausschließlich hier, damit
@@ -55,6 +56,7 @@ const KLAUSUREN = [
 
 export function KlausurenLeiste({ aktiv, aufCockpit, onKlausurwechsel }) {
   return (
+    <>
     <nav className="klausuren" aria-label="Klausuren des schriftlichen Examens">
       {KLAUSUREN.map((k) => {
         const istAktiv = k.id === aktiv;
@@ -73,5 +75,8 @@ export function KlausurenLeiste({ aktiv, aufCockpit, onKlausurwechsel }) {
         );
       })}
     </nav>
+    {/* Legende der Examensprioritäten – in allen Campussen an derselben Stelle. */}
+    <PrioLeiste />
+    </>
   );
 }

@@ -41,6 +41,7 @@ jobs:
       - run: npm run check:k3-umwstr
       - run: npm run check:kopfnavigation
       - run: npm run check:k3-umwstr-hausaufgaben
+      - run: npm run check:examensprioritaet
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

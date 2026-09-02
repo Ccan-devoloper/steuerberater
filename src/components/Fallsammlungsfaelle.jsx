@@ -1,5 +1,6 @@
 import React, { lazy, Suspense, useState } from "react";
 import "./fallsammlung-performance.css";
+import { PrioBadge, prioritaetFuer } from "./Prioritaet";
 
 const FallsammlungsText = lazy(() => import("./FallsammlungsText.jsx"));
 
@@ -9,6 +10,10 @@ function Ladehinweis({ text = "Inhalt wird aufbereitet …" }) {
 
 function Fallkarte({ fall, zielmodul, oeffnenModul, zeigeModulLink }) {
   const [offen, setOffen] = useState(false);
+  /* Priorität aus dem Ziellernmodul; ohne Modul aus Titel und Quellmodul des Falls. */
+  const prio = fall.prio || (zielmodul
+    ? prioritaetFuer("bilanz", zielmodul, { typ: "modul", id: zielmodul.id })
+    : prioritaetFuer("bilanz", { title: fall.titel, subtitle: fall.quellmodul }));
   const [loesungOffen, setLoesungOffen] = useState(false);
 
   return (
@@ -22,6 +27,7 @@ function Fallkarte({ fall, zielmodul, oeffnenModul, zeigeModulLink }) {
         <div>
           <span className="kicker">{fall.quellmodul}</span>
           <h3>{fall.titel}</h3>
+          <PrioBadge prio={prio} />
           <span className="fallsammlung__oeffnen">{offen ? "Fall schließen" : "Fall öffnen"}</span>
         </div>
         <span className="fallsammlung__kopf-rechts">

@@ -22,6 +22,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
 
+## Examenspriorität: Legende
+
+Alle Lerninhalte aller Campusse (K1 AO/USt/ErbSt, K2 KSt/ESt/GewSt/IStR, K3 Bilanz/PersG/UmwStR)
+tragen einen von drei Markern. Grundlage sind die Auswertungen der Original-Musterlösungen der
+Finanzverwaltung 2013–2024: Neunzig, DStR 2025, 1825 (Tag 1) · Neunzig/Zeck, DStR 2025, 1961 (Tag 2)
+· Neunzig/Zeck, DStR 2025, 2097 (Tag 3); Langzeit-Gegencheck Herzig/Watrin, DStR 1994, 1282.
+
+| Marker | Stufe | Bedeutung | Lernzeit |
+| --- | --- | --- | --- |
+| 🔴 | **Am häufigsten** (Dauerbrenner) | nahezu jährlich geprüft; Prüfungsschema muss ohne Nachdenken laufen | ca. 60 % |
+| 🟠 | **Mittel** (regelmäßig) | regelmäßig, aber nicht jährlich – oder selten, dann aber zweistellig bepunktet („gefährliche Exoten“) | ca. 25 % |
+| 🟢 | **Selten** (Exot) | 0–2-mal in zwölf Jahren; erst vertiefen, wenn die Kernblöcke sitzen | ca. 15 % |
+
+Die Marker stehen an jeder Modul- und Fallkarte, in jeder Modul-/Fallseite, an Hausaufgaben,
+Prüfschemata, Skriptblöcken, Rechenwegen, Karteikarten, Quizfragen, Lernwochen und als Punkt
+hinter jeder Norm im Normenregister; Modullisten und die Fallsammlung lassen sich danach filtern.
+Die Legende ist unter der Klausuren-Leiste in jedem Campus aufklappbar; das Cockpit jedes Campus
+zeigt Legende, Prüfungskette und Häufigkeitstabelle des Fachs. Regelwerk und Fundstellen:
+`src/data/examensprioritaet.js`; Methodik und Tabellen: [`docs/examensprioritaet.md`](docs/examensprioritaet.md);
+vollständige Zuordnung aller Inhalte: [`docs/examensprioritaet-inventar.md`](docs/examensprioritaet-inventar.md)
+(`npm run check:examensprioritaet` prüft, `npm run inventar:examensprioritaet` erzeugt).
+
 ## Starten
 
 ```bash
@@ -53,6 +75,7 @@ src/
     Hausaufgaben.jsx          Hausaufgabenansicht + Rückverweis auf der Modulseite
     Klausurmodus.jsx          Klausurlauf mit Uhr, Selbstbewertung und Auswertung
     Pruefungsschemata.jsx     die sechs großen Prüfungsschemata
+    Prioritaet.jsx            Examensprioritäts-Marker, Filter, Legende, Cockpit-Abschnitt
   data/
     module.js                 Sammelindex (nach Kennziffer sortiert) + Normenregister
     module-basis-a.js         Module 1–13   (Einzelunternehmen, Personengesellschaft)
@@ -76,6 +99,7 @@ src/
     schaubilder.js            Alle Schaubilder als Daten
     lernstoff.js              Formeln, Karteikarten, Quiz, Lernplan, Glossar
     sources.js                Quellenkatalog und Rechtsstand
+    examensprioritaet.js      Regelwerk 🔴/🟠/🟢 aus den Beck-Auswertungen, Fachtabellen
 ```
 
 Die Modulreihenfolge ergibt sich in `module.js` aus der aufsteigenden Kennziffer, nicht aus der

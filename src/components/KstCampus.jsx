@@ -19,6 +19,11 @@ import {
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
 import "./kst.css";
+import { PrioBadge, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./Prioritaet";
+
+/* Examenspriorität je KSt-Modul nach der Beck-Auswertung Tag 2 (2013–2024). */
+const prioModul = (m) => prioritaetFuer("kst", m, { typ: "modul", id: m.id });
+const prioZaehlung = prioZaehlen(kstModule, prioModul);
 
 /* Reiner Bilanzstoff gehört ausschließlich in Klausur 3 und erscheint daher
    auch nicht als bloßer Quellenhinweis im KSt-Campus. */
@@ -41,6 +46,7 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
   const [modulId, setModulId] = useState(null);
   const [suche, setSuche] = useState("");
   const [bereich, setBereich] = useState("alle");
+  const [prio, setPrio] = usePrioFilter("stb-kst-prio");
   const [navVerlauf, setNavVerlauf] = useState([
     { ansicht: "cockpit", modulId: null, bereich: "alle", scrollY: 0, offeneDetails: [] },
   ]);
@@ -67,6 +73,7 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
     const q = suche.trim().toLowerCase();
     return kstModule.filter((m) => {
       if (bereich !== "alle" && m.area !== bereich) return false;
+      if (prio !== "alle" && prioModul(m).stufe !== prio) return false;
       if (!q) return true;
       const text = [
         m.title,
@@ -85,7 +92,7 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
       ].filter(Boolean).join(" ").toLowerCase();
       return text.includes(q);
     });
-  }, [bereich, suche]);
+  }, [bereich, suche, prio]);
 
   const modul = modulId ? kstModule.find((m) => m.id === modulId) : null;
   const quote = anteil(erledigt.length, kstModule.length);
@@ -238,6 +245,8 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
             liste={gefiltert}
             bereich={bereich}
             setBereich={setBereich}
+            prio={prio}
+            setPrio={setPrio}
             suche={suche}
             erledigt={erledigt}
             umschalten={fortschritt.umschalten}
@@ -293,6 +302,7 @@ function KstCockpit({ quote, erledigt, oeffnen, ansichtOeffnen, bereichOeffnen }
         <span className="kicker">Weiter im KSt-Stoff</span>
         <button className="weiter" onClick={() => oeffnen(naechstes.id)}>
           <span className="kicker">{kstBereichName[naechstes.area]} · Modul {naechstes.id}</span>
+          <PrioBadge prio={prioModul(naechstes)} />
           <h3>{naechstes.title}</h3>
           <p>{naechstes.intro[0]}</p>
           <span className="norm">{naechstes.law}</span>
@@ -325,6 +335,8 @@ function KstCockpit({ quote, erledigt, oeffnen, ansichtOeffnen, bereichOeffnen }
         <h2>Das KSt-Grundgerüst</h2>
         <KstPruefpfad />
       </section>
+
+      <PrioCockpit fach="kst" zaehlung={prioZaehlung} />
     </>
   );
 }
@@ -358,7 +370,7 @@ function KstPruefpfad() {
   );
 }
 
-function KstModulliste({ liste, bereich, setBereich, suche, erledigt, umschalten, oeffnen }) {
+function KstModulliste({ liste, bereich, setBereich, prio, setPrio, suche, erledigt, umschalten, oeffnen }) {
   return (
     <>
       <div className="pagehead">
@@ -375,6 +387,7 @@ function KstModulliste({ liste, bereich, setBereich, suche, erledigt, umschalten
           <button key={b.id} aria-pressed={bereich === b.id} onClick={() => setBereich(b.id)}>{b.label}</button>
         ))}
       </div>
+      <PrioFilter wert={prio} setWert={setPrio} zaehlung={prioZaehlung} />
 
       <div className="modules">
         {liste.map((m) => {
@@ -405,6 +418,7 @@ function KstModulliste({ liste, bereich, setBereich, suche, erledigt, umschalten
                   <span>Modul {m.id}</span>
                   <span>{m.difficulty}</span>
                   <span>{m.minutes} Min.</span>
+                  <PrioBadge prio={prioModul(m)} stopPropagation />
                 </div>
                 <h3>{m.title}</h3>
                 <div className="modul__norm">{m.law}</div>
@@ -444,6 +458,7 @@ function KstModulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen }) {
           <span className="kicker">{kstBereichName[m.area]} · Modul {m.id}</span>
           <h1>{m.title}</h1>
           <div className="tags">
+            <PrioBadge prio={prioModul(m)} mitThema />
             <span className="tag tag--fach">{m.difficulty}</span>
             <span className="tag">{m.minutes} Minuten</span>
             <span className="tag">{m.law}</span>
@@ -516,7 +531,7 @@ function KstFallseite({ oeffnen }) {
         {kstFaelle.map((fall) => (
           <article className="panel kst-fallkarte" key={fall.id}>
             <div className="panel__head">
-              <div><span className="kicker">Fall {fall.id} · {fall.points} Punkte{kstModule.find((m) => m.id === fall.moduleId)?.minutes ? ` · ${kstModule.find((m) => m.id === fall.moduleId).minutes} Min.` : ""}</span><h2>{fall.title}</h2></div>
+              <div><span className="kicker">Fall {fall.id} · {fall.points} Punkte{kstModule.find((m) => m.id === fall.moduleId)?.minutes ? ` · ${kstModule.find((m) => m.id === fall.moduleId).minutes} Min.` : ""}</span><h2>{fall.title}</h2><PrioBadge fach="kst" inhalt={{ title: fall.title, law: kstModule.find((m) => m.id === fall.moduleId)?.law, normchain: kstModule.find((m) => m.id === fall.moduleId)?.normchain }} typ="fall" id={fall.id} /></div>
               <button className="btn btn--klein btn--linie" onClick={() => oeffnen(fall.moduleId)}>Modul {fall.moduleId}</button>
             </div>
             <p className="kst-fallquelle">Quelle: {fall.source}</p>
@@ -550,7 +565,7 @@ function KstSchemaseite({ oeffnen }) {
       <div className="kst-schemata">
         {kstSchemata.map((schema) => (
           <section className="panel" key={schema.id}>
-            <div className="panel__head"><div><span className="kicker">{schema.law}</span><h2>{schema.title}</h2></div></div>
+            <div className="panel__head"><div><span className="kicker">{schema.law}</span><h2>{schema.title}</h2><PrioBadge fach="kst" inhalt={schema} typ="schema" id={schema.id} mitThema /></div></div>
             <ol className="schritte">{schema.steps.map((s, i) => <li key={i}><span>{s}</span></li>)}</ol>
           </section>
         ))}

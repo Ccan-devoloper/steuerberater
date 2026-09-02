@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import React, { useMemo } from "react";
 import schemaText from "../data/USt-Pruefschema.md?raw";
 
@@ -185,7 +186,7 @@ function Block({ block }) {
   if (block.type === "code") return <pre className="ust-schema__ascii"><code>{block.text}</code></pre>;
   if (block.type === "heading") {
     const Tag = block.level === 1 ? "h2" : block.level === 2 ? "h3" : "h4";
-    return <Tag id={block.id} className="ust-schema__heading"><a href={`#${block.id}`} aria-label="Direktlink zu diesem Abschnitt">#</a><Inline text={block.text} /></Tag>;
+    return <Tag id={block.id} className="ust-schema__heading"><a href={`#${block.id}`} aria-label="Direktlink zu diesem Abschnitt">#</a><Inline text={block.text} />{block.level >= 2 && <PrioBadge fach="ust" inhalt={normalisierenUeberschrift(block.text)} kompakt nurBeiTreffer />}</Tag>;
   }
   if (block.type === "p") return <p><Inline text={block.text} /></p>;
   if (block.type === "quote") return <blockquote><Inline text={block.text} /></blockquote>;

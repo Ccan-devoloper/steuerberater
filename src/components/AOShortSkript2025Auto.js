@@ -1,6 +1,7 @@
 import {AO_SHORT_2025_BY_MODULE,AO_SHORT_2025_META} from "../data/ao-shortskript-2025.js";
 import {AO_SHORT_2025_DETAIL_BY_MODULE} from "../data/ao-shortskript-2025-details.js";
 import "./ao-shortskript-2025.css";
+import {prioritaetFuer} from "../data/examensprioritaet.js";
 
 const SHORT_SELECTOR="[data-ao-short-2025],.ao-short-2025,#ao-short-2025-singleton";
 const SHORT_SCAN_SELECTOR=".ao-campus .ao-lesson > .tz,[data-ao-short-2025],.ao-short-2025,#ao-short-2025-singleton";
@@ -35,12 +36,13 @@ function tableHtml(table){
   return `<div class="ao-short-table-wrap"><table class="ao-short-table"><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
+const prioHtml=(x)=>{const p=prioritaetFuer("ao",{title:x.title},{typ:"skript",id:x.moduleId});return `<span class="prio prio--${p.stufe}" title="${esc(`${p.emoji} ${p.label} · ${p.thema} · ${p.befund} [${p.fundstelle}]`)}"><span class="prio__emoji" aria-hidden="true">${p.emoji}</span><b>${esc(p.label)}</b></span>`;};
 function blockHtml(x){
   const cls=`ao-short-block ao-short-block--${esc(x.kind)}`;
   const items=(x.points||[]).map((p,i)=>`<li><span class="ao-short-num">${i+1}</span><div>${esc(p)}</div></li>`).join("");
   const links=(x.links||[]).map(id=>`<button type="button" class="ao-short-link" data-ao-short-module="${id}">Modul ${id} ↗</button>`).join("");
   const body=`${items?`<ol>${items}</ol>`:""}${tableHtml(x.table)}`;
-  return `<article class="${cls}"><header><div><span class="ao-short-kicker">Short-Skript 2025 · PDF-S. ${seiten(x.sourcePages)}</span><h3>${esc(x.title)}</h3></div><span class="ao-short-count">${x.sourcePages.length} S.</span></header>${body}${x.note?`<div class="ao-short-note">${esc(x.note)}</div>`:""}${links?`<div class="ao-short-links"><span>Querverweise im AO-Campus</span>${links}</div>`:""}</article>`;
+  return `<article class="${cls}"><header><div><span class="ao-short-kicker">Short-Skript 2025 · PDF-S. ${seiten(x.sourcePages)}</span><h3>${esc(x.title)}</h3>${prioHtml(x)}</div><span class="ao-short-count">${x.sourcePages.length} S.</span></header>${body}${x.note?`<div class="ao-short-note">${esc(x.note)}</div>`:""}${links?`<div class="ao-short-links"><span>Querverweise im AO-Campus</span>${links}</div>`:""}</article>`;
 }
 
 function render(moduleId,blocks,key){

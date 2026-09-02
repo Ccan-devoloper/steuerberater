@@ -1,5 +1,7 @@
 # Prüfschema Umsatzsteuer
 
+*Examenspriorität nach den Musterlösungen 2013–2023 (Neunzig, DStR 2025, 1825): 🔴 am häufigsten (i.g. Erwerb 11/11, § 13b 10/11, § 15a 10/11, § 9 9/11, Reihengeschäft 8/11, Vermietung 8/11, GiG 7/11) · 🟠 mittel (§ 6a 5/11, § 25a und § 19 selten, aber bis 15 bzw. 10 Punkte) · 🟢 selten (§ 25b, Ist-Versteuerung, Ausfuhr, Reise, Beförderung, Fernverkauf, Verfahren). Die Marker an den Überschriften werden aus diesem Befund abgeleitet.*
+
 ---
 
 ## Teil A — Die Architektur

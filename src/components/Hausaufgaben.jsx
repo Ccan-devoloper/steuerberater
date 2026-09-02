@@ -1,3 +1,4 @@
+import { PrioBadge } from "./Prioritaet";
 import React, { useDeferredValue, useEffect, useMemo, useState } from "react";
 import hausaufgaben, { passendeModule } from "../data/hausaufgaben";
 import { volltextMeta } from "../data/hausaufgaben-meta";
@@ -182,6 +183,7 @@ export default function Hausaufgabenseite({ module, anker, setAnker, oeffnenModu
                 <div>
                   <span className="kicker">Fachtermin {h.termin} · Rechtsstand {h.rechtsstand}</span>
                   <h2>{h.titel}</h2>
+                  <PrioBadge fach="bilanz" inhalt={h} typ="hausaufgabe" id={h.id} mitThema />
                   <p>{h.zeit} · Quelle: {h.quelle}</p>
                 </div>
                 <span className="hausaufgabe__nummer" aria-hidden="true">{h.termin}</span>

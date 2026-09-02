@@ -21,6 +21,11 @@ import {
 import { CampusTopbar, KlausurenLeiste } from "./components/CampusKopf";
 import Erklaervideo from "./components/Erklaervideo";
 import K3Fachleiste from "./components/K3Fachleiste";
+import { PrioBadge, PrioNorm, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./components/Prioritaet";
+
+/* Examenspriorität eines Bilanz-Moduls (🔴/🟠/🟢) nach den Beck-Auswertungen. */
+const prioModul = (m) => prioritaetFuer("bilanz", m, { typ: "modul", id: m.id });
+const prioZaehlung = prioZaehlen(alleModule, prioModul);
 
 /* Gültige Kennungen für die Bereinigung des gespeicherten Fortschritts. */
 const modulIds = new Set(alleModule.map((m) => m.id));
@@ -52,6 +57,7 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
   const [modulId, setModulId] = useState(null);
   const [suche, setSuche] = useState("");
   const [bereich, setBereich] = useState("alle");
+  const [prio, setPrio] = usePrioFilter("stb-k3-prio");
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
   const [hausaufgabenAnker, setHausaufgabenAnker] = useState(null);
   const [navVerlauf, setNavVerlauf] = useState([
@@ -83,6 +89,7 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
     const q = suche.trim().toLowerCase();
     return alleModule.filter((m) => {
       if (bereich !== "alle" && m.area !== bereich) return false;
+      if (prio !== "alle" && prioModul(m).stufe !== prio) return false;
       if (!q) return true;
       const falltext = (m.fallsammlung || []).flatMap((fall) => [fall.titel, fall.quellmodul, fall.sachverhalt, fall.loesung]).join(" ");
       const heu = [m.title, m.law, m.merksatz, (m.normchain || []).join(" "), (m.intro || []).join(" "), falltext]
@@ -90,7 +97,7 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
         .toLowerCase();
       return heu.includes(q);
     });
-  }, [suche, bereich]);
+  }, [suche, bereich, prio]);
 
   const modul = modulId ? alleModule.find((m) => m.id === modulId) : null;
   const quote = anteil(erledigt.length, alleModule.length);
@@ -249,12 +256,14 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
       </aside>
 
       <main className="page">
-        {ansicht === "cockpit" && <Cockpit quote={quote} gerechnet={gerechnet} erledigt={erledigt} oeffnen={oeffnen} ansichtOeffnen={ansichtOeffnen} bereichOeffnen={bereichOeffnen} />}
+        {ansicht === "cockpit" && <Cockpit quote={quote} gerechnet={gerechnet} erledigt={erledigt} oeffnen={oeffnen} ansichtOeffnen={ansichtOeffnen} bereichOeffnen={bereichOeffnen} prioOeffnen={(stufe) => { setPrio(stufe); bereichOeffnen("alle"); }} />}
         {ansicht === "module" && !modul && (
           <Modulliste
             liste={gefiltert}
             bereich={bereich}
             setBereich={setBereich}
+            prio={prio}
+            setPrio={setPrio}
             suche={suche}
             erledigt={erledigt}
             umschalten={umschalten}
@@ -299,7 +308,7 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
 }
 
 /* ================================================================= Cockpit */
-function Cockpit({ quote, gerechnet, erledigt, oeffnen, ansichtOeffnen, bereichOeffnen }) {
+function Cockpit({ quote, gerechnet, erledigt, oeffnen, ansichtOeffnen, bereichOeffnen, prioOeffnen }) {
   const naechstes = alleModule.find((m) => !erledigt.includes(m.id)) || alleModule[0];
   const zahl = (bereichId) => alleModule.filter((m) => m.area === bereichId).length;
 
@@ -349,6 +358,7 @@ function Cockpit({ quote, gerechnet, erledigt, oeffnen, ansichtOeffnen, bereichO
         <span className="kicker">Weiter im Stoff</span>
         <button className="weiter" onClick={() => oeffnen(naechstes.id)}>
           <span className="kicker">{bereichName[naechstes.area]} · Modul {naechstes.id}</span>
+          <PrioBadge prio={prioModul(naechstes)} />
           <h3>{naechstes.title}</h3>
           <p>{naechstes.intro[0]}</p>
           <span className="norm">{naechstes.law}</span>
@@ -383,6 +393,8 @@ function Cockpit({ quote, gerechnet, erledigt, oeffnen, ansichtOeffnen, bereichO
         </div>
       </section>
 
+      <PrioCockpit fach="bilanz" zaehlung={prioZaehlung} onFilter={prioOeffnen} />
+
       <section className="abschnitt">
         <h2>Das Aufbauschema</h2>
         <AbbaLeiste />
@@ -415,7 +427,7 @@ function AbbaLeiste() {
 }
 
 /* ============================================================= Modulliste */
-function Modulliste({ liste, bereich, setBereich, suche, erledigt, umschalten, oeffnen }) {
+function Modulliste({ liste, bereich, setBereich, prio, setPrio, suche, erledigt, umschalten, oeffnen }) {
   return (
     <>
       <div className="pagehead">
@@ -437,6 +449,7 @@ function Modulliste({ liste, bereich, setBereich, suche, erledigt, umschalten, o
           </button>
         ))}
       </div>
+      <PrioFilter wert={prio} setWert={setPrio} zaehlung={prioZaehlung} />
 
       <div className="modules">
         {liste.map((m) => {
@@ -467,6 +480,7 @@ function Modulliste({ liste, bereich, setBereich, suche, erledigt, umschalten, o
                   <span>Modul {m.id}</span>
                   <span>{m.difficulty}</span>
                   <span>{m.minutes} Min.</span>
+                  <PrioBadge prio={prioModul(m)} stopPropagation />
                 </div>
                 <h3>{m.title}</h3>
                 <div className="modul__norm">{m.law}</div>
@@ -516,6 +530,7 @@ function Modulseite({ modul: m, erledigt, umschalten, zurueck, oeffnen, oeffnenH
           <span className="kicker">{bereichName[m.area]} · Modul {m.id}</span>
           <h1>{m.title}</h1>
           <div className="tags">
+            <PrioBadge prio={prioModul(m)} mitThema />
             <span className="tag tag--fach">{m.difficulty}</span>
             <span className="tag">{m.minutes} Minuten</span>
             <span className="tag">{m.law}</span>
@@ -738,7 +753,7 @@ function Schemaseite() {
             <div className="register__zeile" key={g.begriff}>
               <div>
                 <strong>{g.begriff}</strong>
-                <div><Norm>{g.norm}</Norm></div>
+                <div><Norm>{g.norm}</Norm><PrioNorm fach="bilanz" norm={g.norm} /></div>
               </div>
               <div><span>{g.text}</span></div>
             </div>
@@ -780,7 +795,7 @@ function Formelseite() {
           <div className="raster raster--2">
             {liste.map((f) => (
               <article className="formel" key={f.id}>
-                <h3>{f.titel}</h3>
+                <h3>{f.titel} <PrioBadge fach="bilanz" inhalt={f} typ="formel" id={f.id} kompakt /></h3>
                 <div className="formel__ausdruck">{f.ausdruck}</div>
                 <p>{f.erklaerung}</p>
                 <div className="formel__bsp">{f.beispiel}</div>
@@ -845,11 +860,11 @@ function Registerseite({ oeffnen }) {
           <div className="register">
             {g.eintraege.map((e) => (
               <div className="register__zeile" key={e.norm}>
-                <div><Norm>{e.norm}</Norm></div>
+                <div><Norm>{e.norm}</Norm><PrioNorm fach="bilanz" norm={e.norm} /></div>
                 <div>
                   {e.treffer.map((t) => (
                     <button className="register__treffer" key={t.id} onClick={() => oeffnen(t.id)}>
-                      {t.id} · {t.title}
+                      {t.id} · {t.title} <PrioBadge prio={prioModul(t)} kompakt />
                     </button>
                   ))}
                 </div>
@@ -1047,7 +1062,7 @@ function Quiz() {
     <section className="panel quiz">
       {steuerung}
       <div className="quiz__meta">
-        <span>Frage {nr + 1} von {fragen.length}{nurFehler ? " · Fehlerwiederholung" : ""}</span>
+        <span>Frage {nr + 1} von {fragen.length}{nurFehler ? " · Fehlerwiederholung" : ""} <PrioBadge fach="bilanz" inhalt={{ title: frage, tags: [fragen[nr][4]] }} kompakt /></span>
         <span>{punkte} richtig</span>
       </div>
       <h2>{frage}</h2>
@@ -1155,7 +1170,7 @@ function Karteikartenstapel() {
       <div className="quiz__meta">
         <span>{erledigt} von {gesamt} sitzen · {warteschlange.length} im Stapel</span>
         <span>
-          {karte.gruppe}
+          <PrioBadge fach="bilanz" inhalt={{ title: karte.frage, tags: [karte.gruppe] }} kompakt /> {karte.gruppe}
           {stand[karte.frage] && ` · zuletzt ${stand[karte.frage] === "sicher" ? "saß" : "saß nicht"}`}
         </span>
       </div>
@@ -1224,7 +1239,7 @@ function Planseite({ fertig, umschalten }) {
             <input type="checkbox" checked={fertig.includes(i)} onChange={() => umschalten(i)} />
             <b>W {i + 1}</b>
             <div>
-              <h3>{w.titel}</h3>
+              <h3>{w.titel} <PrioBadge fach="bilanz" inhalt={{ title: w.titel, subtitle: w.inhalt }} typ="woche" id={i + 1} kompakt /></h3>
               <p>{w.inhalt}</p>
             </div>
           </label>

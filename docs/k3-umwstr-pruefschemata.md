@@ -6,23 +6,25 @@ Vorliegend sind dreizehn PDF-Unterlagen von RA/StB U. Breier, im Original mit
 **1. bis 13. Prüfschema** nummeriert. Der Campus übernimmt diese Nummerierung
 unverändert.
 
-| Schema | Titel | Seiten | Seitenformat |
-| --- | --- | --- | --- |
-| 1 | Grundsätze zur Aufdeckung stiller Reserven bei Einlage und Einbringung in KapGes | 4 | A4 quer |
-| 2 | Vorschriften des EStG und KStG zur Aufdeckung der stillen Reserven | 4 | A4 quer |
-| 3 | Voraussetzungen für Anwendung § 20 UmwStG | 3 | 16:9 |
-| 4 | (Zivilrechtliche) Formen der Umwandlung in GmbH bei § 20 UmwStG | 2 | 16:9 |
-| 5 | Gesetzliche Ausnahmen vom Buchwertansatz bei § 20 UmwStG | 2 | 16:9 |
-| 6 | Folgen der Veräußerung der sperrfristbehafteten Anteile (§ 22 Abs. 1) | 2 | 16:9 |
-| 7 | Einlage und Einbringung von Anteilen an KapGes in eine andere KapGes | 2 | 16:9 |
-| 8 | Veräußerung der gem. § 21 UmwStG erhaltenen Anteile (§ 22 Abs. 2) | 2 | 16:9 |
-| 9 | Verschmelzung von KapGes – übertragende KapGes (§ 11) | 2 | A4 quer |
-| 10 | Verschmelzung von KapGes – übernehmende KapGes (§ 12) | 2 | A4 quer |
-| 11 | Formwechsel KapGes auf PersGes – formgewechselte KapGes (§ 3) | 2 | A4 quer |
-| 12 | Formwechsel KapGes in PersGes – PersGes und Gesellschafter (§§ 4, 5, 7) | 2 | A4 quer |
-| 13 | Abspaltung nach § 15 UmwStG im Unterschied zur Ausgliederung | 2 | A4 quer |
+| Schema | Prio | Titel | Seiten | Seitenformat |
+| --- | --- | --- | --- | --- |
+| 1 | 🔴 | Grundsätze zur Aufdeckung stiller Reserven bei Einlage und Einbringung in KapGes | 4 | A4 quer |
+| 2 | 🔴 | Vorschriften des EStG und KStG zur Aufdeckung der stillen Reserven | 4 | A4 quer |
+| 3 | 🔴 | Voraussetzungen für Anwendung § 20 UmwStG | 3 | 16:9 |
+| 4 | 🔴 | (Zivilrechtliche) Formen der Umwandlung in GmbH bei § 20 UmwStG | 2 | 16:9 |
+| 5 | 🔴 | Gesetzliche Ausnahmen vom Buchwertansatz bei § 20 UmwStG | 2 | 16:9 |
+| 6 | 🔴 | Folgen der Veräußerung der sperrfristbehafteten Anteile (§ 22 Abs. 1) | 2 | 16:9 |
+| 7 | 🔴 | Einlage und Einbringung von Anteilen an KapGes in eine andere KapGes | 2 | 16:9 |
+| 8 | 🔴 | Veräußerung der gem. § 21 UmwStG erhaltenen Anteile (§ 22 Abs. 2) | 2 | 16:9 |
+| 9 | 🔴 | Verschmelzung von KapGes – übertragende KapGes (§ 11) | 2 | A4 quer |
+| 10 | 🔴 | Verschmelzung von KapGes – übernehmende KapGes (§ 12) | 2 | A4 quer |
+| 11 | 🟠 | Formwechsel KapGes auf PersGes – formgewechselte KapGes (§ 3) | 2 | A4 quer |
+| 12 | 🟠 | Formwechsel KapGes in PersGes – PersGes und Gesellschafter (§§ 4, 5, 7) | 2 | A4 quer |
+| 13 | 🟢 | Abspaltung nach § 15 UmwStG im Unterschied zur Ausgliederung | 2 | A4 quer |
 
 Summe: **31 Seiten**, alle als 1:1-Seitenansicht erfasst.
+
+Prio = Examenspriorität nach Neunzig/Zeck, DStR 2025, 2097 (UmwStG in 8/12 Jahren; §§ 20–24 und Verschmelzung mit 22–39 Punkten 🔴, Formwechsel KapG → PersG am ESt-Tag 4–11 Punkte 🟠, Spaltung ohne Nennung 🟢). Legende und Methodik: [examensprioritaet.md](examensprioritaet.md).
 
 ## Personalisierungszeile
 
@@ -131,9 +133,9 @@ Drei Hausaufgaben mit Lösung von RA/StB U. Breier, erreichbar über den Reiter
 
 | Hausaufgabe | Sachverhalte | Seiten |
 | --- | --- | --- |
-| 1 | Dr. Finke (S. 2–6 / 10–16) · A-OHG mit § 1a KStG (S. 7–9 / 16–24) | 24 |
-| 2 | Dr. Franke (S. 2–3 / 8–12) · Bauer und Schmidt (S. 3–5 / 12–19) · Z-GmbH-Anteile (S. 5–7 / 19–23) | 23 |
-| 3 | Aufwärtsverschmelzung (S. 2–5 / 8–17) · Formwechsel M-GmbH (S. 5–7 / 17–29) | 29 |
+| 1 | 🔴 | Dr. Finke (S. 2–6 / 10–16) · A-OHG mit § 1a KStG (S. 7–9 / 16–24) | 24 |
+| 2 | 🔴 | Dr. Franke (S. 2–3 / 8–12) · Bauer und Schmidt (S. 3–5 / 12–19) · Z-GmbH-Anteile (S. 5–7 / 19–23) | 23 |
+| 3 | 🔴 | Aufwärtsverschmelzung (S. 2–5 / 8–17) · Formwechsel M-GmbH (S. 5–7 / 17–29) | 29 |
 
 Summe: **76 Seiten**, wörtlich 1:1, in **7 Sachverhalten**.
 
