@@ -31,6 +31,9 @@
 }
 
 .schema-zeitspalte__kasten {
+  /* Beginnt der Kasten erst weiter unten (siehe --zeit-versatz), schrumpft er
+     von oben - unten bleibt er auf Höhe des letzten Schritts. */
+  margin-top: var(--zeit-versatz, 0px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,6 +82,7 @@
   }
 
   .schema-zeitspalte__kasten {
+    margin-top: 0;
     writing-mode: horizontal-tb;
     padding: 6px 12px;
   }
