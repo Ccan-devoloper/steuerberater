@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { IconSuche, IconSonne, IconMond } from "./Icons";
 import { PrioLeiste } from "./Prioritaet";
 
@@ -54,10 +54,28 @@ const KLAUSUREN = [
   { id: "k3", kuerzel: "K3", fach: "Buchführung und Bilanzwesen", status: "Allgemein · PersG · UmwStR verfügbar", titel: "Klausur 3 öffnen" },
 ];
 
+/* Die tatsächliche Höhe der Klausuren-Leiste als CSS-Variable. Bei schmalen
+   Fenstern bricht die Beschriftung um; dann stimmen die festen Abstände der
+   darunterliegenden Leisten und der Seitenleiste sonst nicht mehr. */
+function useKlausurenHoehe(ref) {
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || typeof ResizeObserver === "undefined") return undefined;
+    const wurzel = document.documentElement;
+    const setzen = () => wurzel.style.setProperty("--klausuren-h", `${Math.round(el.getBoundingClientRect().height)}px`);
+    setzen();
+    const beobachter = new ResizeObserver(setzen);
+    beobachter.observe(el);
+    return () => { beobachter.disconnect(); wurzel.style.removeProperty("--klausuren-h"); };
+  }, [ref]);
+}
+
 export function KlausurenLeiste({ aktiv, aufCockpit, onKlausurwechsel }) {
+  const leiste = useRef(null);
+  useKlausurenHoehe(leiste);
   return (
     <>
-    <nav className="klausuren" aria-label="Klausuren des schriftlichen Examens">
+    <nav className="klausuren" aria-label="Klausuren des schriftlichen Examens" ref={leiste}>
       {KLAUSUREN.map((k) => {
         const istAktiv = k.id === aktiv;
         return (

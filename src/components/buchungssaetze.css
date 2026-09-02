@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Buchungssätze üben – Reiter im Bilanz-Campus
+   Nutzt die Token aus index.css (dunkelmodusfähig) und die vorhandenen
+   Klassen .panel, .filter, .schritte, .buchung, .quiz, .optionen, .antwort.
+   ========================================================================== */
+
+.buchungen__teile { margin-bottom: 18px; }
+.buchungen__teile button { font-size: 14px; padding: 7px 14px; }
+.buchungen__teile small, .buchungen__beispielkopf .filter small { font-family: var(--mono); font-size: 11px; opacity: .75; }
+
+/* ---------------------------------------------------------------- Grundlagen */
+.buchungen__grundlagen { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 14px; align-items: start; }
+.buchungen__lektionen { position: sticky; top: calc(var(--kopf) + var(--klausuren-h) + var(--prio-leiste-h, 0px) + var(--fachleiste-h, 0px) + 14px); padding: 16px 14px; }
+.buchungen__lektionen ol { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 3px; }
+.buchungen__lektionen button { width: 100%; display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 8px; align-items: baseline; text-align: left; border: 1px solid transparent; background: none; color: var(--ink); padding: 7px 8px; font-size: 13.5px; line-height: 1.35; border-radius: 2px; }
+.buchungen__lektionen button:hover { border-color: var(--linie); background: var(--feld); }
+.buchungen__lektionen button[aria-current="true"] { background: var(--tinte-feld); border-color: var(--tinte); color: var(--tinte); font-weight: 600; }
+.buchungen__lektionen button.gelesen .buchungen__nr { color: var(--gruen); }
+.buchungen__lektionen button.gelesen .buchungen__nr::after { content: " ✓"; }
+.buchungen__nr { font-family: var(--mono); font-size: 11px; color: var(--ink-weich); }
+.buchungen__balken { height: 4px; background: var(--feld); border: 1px solid var(--linie); margin-top: 8px; }
+.buchungen__balken span { display: block; height: 100%; background: var(--gruen); transition: width .3s; }
+
+.buchungen__lektion h2 { font-size: 26px; margin: 4px 0 4px; }
+.buchungen__kurz { font-family: var(--serif); font-style: italic; color: var(--ink-weich); margin: 0 0 16px; font-size: 16px; }
+.buchungen__absatz { font-size: 15.5px; line-height: 1.65; max-width: 76ch; margin: 0 0 12px; }
+.buchungen__tabelle { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 8px 0 14px; }
+.buchungen__tabelle th, .buchungen__tabelle td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--linie-fein); vertical-align: top; }
+.buchungen__tabelle th { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-weich); background: var(--feld); }
+.buchungen__schritte { margin: 6px 0 14px; }
+.buchungen__schritte li { font-size: 15px; line-height: 1.55; }
+.buchungen__steuerung { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--linie); }
+.buchungen__haken { display: inline-flex; align-items: center; gap: 8px; font-size: 13.5px; color: var(--ink-weich); cursor: pointer; }
+.buchungen__haken input { accent-color: var(--gruen); width: 16px; height: 16px; }
+
+/* ---------------------------------------------------------------- Kontenplan */
+.buchungen__arten { margin-bottom: 14px; }
+.buchungen__art { border-top: 3px solid var(--linie); }
+.buchungen__art--aktiv { border-top-color: var(--tinte); }
+.buchungen__art--passiv { border-top-color: var(--magenta); }
+.buchungen__art--aufwand { border-top-color: var(--rot); }
+.buchungen__art--ertrag { border-top-color: var(--gruen); }
+.buchungen__art h2 { margin: 4px 0 10px; }
+.buchungen__tkonto { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--ink); margin: 0 0 12px; font-family: var(--mono); }
+.buchungen__tkonto > div { padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; }
+.buchungen__tkonto > div:first-child { border-right: 1px solid var(--ink); }
+.buchungen__tkonto b { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; border-bottom: 1px solid var(--ink); padding-bottom: 4px; margin-bottom: 4px; }
+.buchungen__tkonto span { font-size: 15px; }
+.buchungen__tkonto .plus span { color: var(--gruen); font-weight: 700; }
+.buchungen__tkonto .minus span { color: var(--rot); }
+.buchungen__merksatz { font-weight: 500; margin: 0 0 6px; }
+.buchungen__beispiele { font-family: var(--mono); font-size: 12px; color: var(--ink-weich); margin: 0; }
+.buchungen__suche { border: 1px solid var(--linie); background: var(--papier); color: var(--ink); padding: 6px 10px; font-size: 13.5px; min-width: 220px; }
+.buchungen__kontenliste td:nth-child(3), .buchungen__kontenliste td:nth-child(4) { font-family: var(--mono); white-space: nowrap; }
+.buchungen__hinweis { color: var(--ink-weich); font-size: 13px; }
+.buchungen__artmarke { display: inline-block; font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; padding: 1px 6px; border: 1px solid var(--linie); white-space: nowrap; }
+.buchungen__artmarke--aktiv { color: var(--tinte); border-color: var(--tinte); background: var(--tinte-feld); }
+.buchungen__artmarke--passiv { color: var(--magenta); border-color: var(--magenta); background: var(--magenta-feld); }
+.buchungen__artmarke--aufwand { color: var(--rot); border-color: var(--rot); background: var(--rot-feld); }
+.buchungen__artmarke--ertrag { color: var(--gruen); border-color: var(--gruen); background: var(--gruen-feld); }
+
+/* ------------------------------------------------------------------ Beispiele */
+.buchungen__beispielkopf { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; flex-wrap: wrap; }
+.buchungen__beispielkopf .filter { margin-bottom: 0; flex: 1 1 520px; }
+.buchungen__beispielkopf > .btn { flex: none; margin-bottom: 14px; }
+.buchungen__beispielkopf > .btn[aria-pressed="true"] { background: var(--tinte); border-color: var(--tinte); color: var(--papier); }
+.buchungen__beispielliste { display: grid; gap: 14px; margin-top: 14px; }
+.buchungen__beispiel h3 { font-size: 19px; margin: 0 0 8px; }
+.buchungen__sachverhalt { font-size: 15px; line-height: 1.6; margin: 0 0 6px; padding: 10px 14px; background: var(--feld); border-left: 3px solid var(--ink); }
+.buchungen__herleitung { margin-top: 10px; }
+.buchungen__herleitung .schritte li { font-size: 14px; }
+.buchungen__fuss { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 12px; }
+.buchungen__grundfall { font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border: 1px solid var(--linie); background: var(--feld); color: var(--ink-weich); cursor: help; }
+.buchungen__grundfall--aufwand { color: var(--rot); border-color: var(--rot); background: var(--rot-feld); }
+.buchungen__grundfall--ertrag { color: var(--gruen); border-color: var(--gruen); background: var(--gruen-feld); }
+.buchungen__verdeckt { margin-top: 12px; padding: 14px; border: 1px dashed var(--linie); background: var(--feld); display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.buchungen__verdeckt p { margin: 0; color: var(--ink-weich); font-style: italic; }
+
+/* ----------------------------------------------------------------------- Üben */
+.buchungen__quiz { min-height: 460px; }
+.buchungen__uebungskopf .filter { margin-bottom: 8px; }
+.buchungen__uebungskopf .training__schalter { margin-bottom: 16px; }
+.buchungen__quiz h2 { font-size: 20px; line-height: 1.4; }
+.buchungen__anleitung { color: var(--ink-weich); font-size: 13.5px; margin: -6px 0 14px; }
+.buchungen__kontenwahl { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 8px; margin-bottom: 14px; }
+.buchungen__kontochip { display: flex; justify-content: space-between; align-items: center; gap: 10px; border: 1px solid var(--linie); background: var(--papier); padding: 8px 8px 8px 12px; min-width: 0; }
+.buchungen__kontochip.ist-soll { border-color: var(--tinte); background: var(--tinte-feld); }
+.buchungen__kontochip.ist-haben { border-color: var(--magenta); background: var(--magenta-feld); }
+.buchungen__kontoname { display: flex; flex-direction: column; gap: 3px; font-size: 14px; font-weight: 500; min-width: 0; overflow-wrap: anywhere; }
+.buchungen__kontoname small { align-self: flex-start; }
+.buchungen__seitenwahl { display: inline-flex; flex: none; }
+.buchungen__seitenwahl button { border: 1px solid var(--linie); background: var(--papier); color: var(--ink-weich); font-family: var(--mono); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; padding: 5px 9px; cursor: pointer; }
+.buchungen__seitenwahl button + button { border-left: 0; }
+.buchungen__seitenwahl button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--papier); }
+.buchungen__seitenwahl button:disabled { cursor: default; opacity: .7; }
+.buchungen__entwurf { display: grid; grid-template-columns: minmax(0, 1fr) 40px minmax(0, 1fr); gap: 10px; align-items: start; border: 1px solid var(--ink); padding: 12px 14px; font-family: var(--mono); font-size: 13.5px; margin-bottom: 14px; background: var(--papier); }
+.buchungen__entwurf ul { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; }
+.buchungen__entwurf em { display: block; margin-top: 6px; color: var(--ink-weich); }
+.buchungen__an { align-self: center; text-align: center; color: var(--rot); font-style: italic; font-family: var(--serif); font-size: 16px; }
+.buchungen__pruefen { display: flex; gap: 8px; flex-wrap: wrap; }
+.buchungen__pruefen .btn:disabled { opacity: .45; cursor: not-allowed; }
+.antwort--falsch { border-left-color: var(--rot); }
+.buchungen__abweichung { margin: 4px 0 8px; padding-left: 18px; font-size: 13.5px; }
+.buchungen__summen { font-family: var(--mono); font-size: 12.5px; color: var(--ink-weich); margin: 4px 0 8px; }
+.buchungen__weiter { margin-top: 16px; display: flex; justify-content: flex-end; }
+
+@media (max-width: 1000px) {
+  .buchungen__grundlagen { grid-template-columns: 1fr; }
+  .buchungen__lektionen { position: static; }
+  .buchungen__lektionen ol { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .buchungen__arten.raster--2 { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .buchungen__entwurf { grid-template-columns: 1fr; }
+  .buchungen__an { text-align: left; }
+  .buchungen__kontenwahl { grid-template-columns: 1fr; }
+}

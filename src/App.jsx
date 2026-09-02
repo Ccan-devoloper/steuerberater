@@ -16,10 +16,12 @@ import { laden, sichern, useFortschritt, anteil } from "./lib/fortschritt";
 import { erfasseSeitenzustand, stelleSeitenzustandWiederHer } from "./lib/campus-navigation";
 import {
   IconCockpit, IconModule, IconSchema, IconFormel, IconRegister, IconTraining,
-  IconFaelle, IconPlan, IconHaken,
+  IconFaelle, IconPlan, IconHaken, IconBuchung,
 } from "./components/Icons";
 import { CampusTopbar, KlausurenLeiste } from "./components/CampusKopf";
 import Erklaervideo from "./components/Erklaervideo";
+import Buchungssaetze from "./components/Buchungssaetze";
+import { BEISPIELE, UEBUNGEN } from "./data/buchungssaetze";
 import K3Fachleiste from "./components/K3Fachleiste";
 import { PrioBadge, PrioNorm, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./components/Prioritaet";
 
@@ -39,6 +41,7 @@ const ansichten = [
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
   { id: "schema", label: "Prüfungsschema", Icon: IconSchema },
   { id: "formeln", label: "Rechenwege", Icon: IconFormel },
+  { id: "buchungen", label: "Buchungssätze", Icon: IconBuchung },
   { id: "register", label: "Normenregister", Icon: IconRegister },
   { id: "training", label: "Training", Icon: IconTraining },
   { id: "plan", label: "Lernplan", Icon: IconPlan },
@@ -299,6 +302,7 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
         )}
         {ansicht === "schema" && <Schemaseite />}
         {ansicht === "formeln" && <Formelseite />}
+        {ansicht === "buchungen" && <Buchungssaetze />}
         {ansicht === "register" && <Registerseite oeffnen={oeffnen} />}
         {ansicht === "training" && <Trainingsseite />}
         {ansicht === "plan" && <Planseite fertig={plan.werte} umschalten={plan.umschalten} />}
@@ -389,6 +393,12 @@ function Cockpit({ quote, gerechnet, erledigt, oeffnen, ansichtOeffnen, bereichO
             <h3>Formelsammlung</h3>
             <p>Zinsstaffel, Abzinsung, PWB, Sonder-AfA und Zeitbudget mit belegten Beispielrechnungen.</p>
             <button onClick={() => ansichtOeffnen("formeln")}>Rechenwege öffnen →</button>
+          </article>
+          <article className="bereich">
+            <b>{BEISPIELE.length} Beispiele · {UEBUNGEN.length}+ Übungen</b>
+            <h3>Buchungssätze üben</h3>
+            <p>Soll an Haben von null an: Lektionen, Kontenplan, Beispiele mit Herleitung und ein Frage-Antwort-Trainer mit Fehlerspeicher.</p>
+            <button onClick={() => ansichtOeffnen("buchungen")}>Buchungssätze öffnen →</button>
           </article>
         </div>
       </section>

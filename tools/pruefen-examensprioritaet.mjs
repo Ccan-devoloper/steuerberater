@@ -41,6 +41,33 @@ const add = (fach, typ, id, obj, campus) => inhalte.push({ fach, typ, id: String
   for (const g of L.glossar) add("bilanz", "glossar", g.begriff, { title: g.begriff, norm: g.norm }, "K3 Bilanzen");
   const S = (await import(R + "schaubilder.js")).default;
   for (const [id, s] of Object.entries(S)) add("bilanz", "schaubild", id, { title: s.titel || s.title || id }, "K3 Bilanzen");
+  /* Reiter „Buchungssätze“: Lektionen und Grundlagenfragen sind Buchungstechnik,
+     Beispiele und Buchungssatz-Aufgaben werden nach Titel und Normen eingestuft. */
+  const B = await import(R + "buchungssaetze.js");
+  for (const l of B.LEKTIONEN) add("bilanz", "buchungslektion", l.id, { title: l.titel, tags: ["Buchungstechnik"] }, "K3 Bilanzen");
+  for (const b of B.BEISPIELE) add("bilanz", "beispiel", b.id, { title: b.titel, normen: b.normen || [] }, "K3 Bilanzen");
+  for (const u of B.UEBUNGEN) add("bilanz", "uebung", u.id, u.typ === "satz" ? { title: u.sachverhalt } : { title: u.frage, tags: ["Buchungstechnik"] }, "K3 Bilanzen");
+  /* Jeder Buchungssatz des Reiters muss Soll = Haben erfüllen. */
+  const unausgeglichen = [];
+  for (const b of B.BEISPIELE) {
+    if (!B.istAusgeglichen(b.buchung)) unausgeglichen.push(`Beispiel ${b.id}`);
+    if (b.zweiteBuchung && !B.istAusgeglichen(b.zweiteBuchung)) unausgeglichen.push(`Beispiel ${b.id} (2. Buchung)`);
+  }
+  for (const l of B.LEKTIONEN) if (l.beispiel && !B.istAusgeglichen(l.beispiel)) unausgeglichen.push(`Lektion ${l.id}`);
+  for (const u of B.UEBUNGEN) {
+    if (u.typ === "satz" && !B.istAusgeglichen(u.loesung)) unausgeglichen.push(`Übung ${u.id}`);
+    if (u.typ === "satz") {
+      const konten = new Set(u.konten);
+      for (const z of [...u.loesung.soll, ...u.loesung.haben]) if (!konten.has(z.konto)) unausgeglichen.push(`Übung ${u.id}: Lösungskonto „${z.konto}“ fehlt in der Auswahl`);
+      for (const kk of u.konten) if (!(kk in B.KONTO_ART)) unausgeglichen.push(`Übung ${u.id}: unbekanntes Konto „${kk}“`);
+    }
+    if (u.typ !== "satz" && (u.richtig < 0 || u.richtig >= u.optionen.length)) unausgeglichen.push(`Übung ${u.id}: Index der richtigen Antwort außerhalb der Optionen`);
+  }
+  for (const b of B.BEISPIELE) for (const z of [...b.buchung.soll, ...b.buchung.haben, ...(b.zweiteBuchung?.soll || []), ...(b.zweiteBuchung?.haben || [])]) if (!(z.konto in B.KONTO_ART)) unausgeglichen.push(`Beispiel ${b.id}: unbekanntes Konto „${z.konto}“`);
+  if (unausgeglichen.length) {
+    console.error("Buchungssätze fehlerhaft:\n  " + unausgeglichen.join("\n  "));
+    process.exit(1);
+  }
 }
 
 /* ------------------------------------------------------------------- K1 AO */

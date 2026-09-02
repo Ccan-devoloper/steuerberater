@@ -364,7 +364,7 @@ html[data-theme="dark"] .these p { color: var(--ink-weich); }
 .buchung td { padding: 8px 14px; vertical-align: top; border-bottom: 1px solid var(--linie-fein); }
 .buchung tr:last-child td { border-bottom: 0; }
 .buchung .betrag { text-align: right; white-space: nowrap; }
-.buchung .an { text-align: center; color: var(--rot); font-style: italic; width: 34px; }
+.buchung .an { text-align: center; color: var(--rot); font-style: italic; width: 34px; white-space: nowrap; }
 .buchung__note { padding: 9px 14px; font-size: 12.5px; color: var(--ink-weich); border-top: 1px solid var(--linie-fein); background: var(--feld); }
 
 /* HB/StB-Gegenüberstellung */

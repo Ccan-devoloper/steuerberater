@@ -12,7 +12,7 @@ Automatisch erzeugt von `node tools/pruefen-examensprioritaet.mjs --inventar`. N
 
 Quellen: [T1] Neunzig, DStR 2025, 1825 · [T2] Neunzig/Zeck, DStR 2025, 1961 · [T3] Neunzig/Zeck, DStR 2025, 2097 · [HW] Herzig/Watrin, DStR 1994, 1282
 
-## Übersicht (970 Inhalte)
+## Übersicht (1119 Inhalte)
 
 | Fach | Inhalte | 🔴 | 🟠 | 🟢 |
 | --- | ---: | ---: | ---: | ---: |
@@ -21,10 +21,10 @@ Quellen: [T1] Neunzig, DStR 2025, 1825 · [T2] Neunzig/Zeck, DStR 2025, 1961 · 
 | Erbschaftsteuer / Bewertung | 51 | 24 | 26 | 1 |
 | Körperschaftsteuer | 127 | 58 | 53 | 16 |
 | Internationales Steuerrecht | 78 | 63 | 12 | 3 |
-| Buchführung und Bilanzwesen | 274 | 186 | 83 | 5 |
+| Buchführung und Bilanzwesen | 423 | 292 | 96 | 35 |
 | Personengesellschaften (Bilanz) | 102 | 46 | 48 | 8 |
 | Umwandlungssteuerrecht | 20 | 15 | 4 | 1 |
-| **Gesamt** | **970** | **586** | **306** | **78** |
+| **Gesamt** | **1119** | **692** | **319** | **108** |
 
 ## K3 Bilanzen
 
@@ -341,6 +341,170 @@ Quellen: [T1] Neunzig, DStR 2025, 1825 · [T2] Neunzig/Zeck, DStR 2025, 1961 · 
 | 🔴 Am häufigsten | einlagekonto | Verwendungsreihenfolge nach § 27 KStG | Steuerliches Einlagekonto § 27 KStG / Ausschüttung | 6/12 insgesamt, seit 2021 aber in jedem Jahr | T3 |
 | 🟠 Mittel | gewerbesteuer | Gewerbesteuerrückstellung und Hinzurechnung | Gewerbesteuerrückstellung | Rückstellungsunterfall (10/12) mit Bezug zu § 11 GewStG (9/12 am ESt-Tag) | T2/T3 |
 | 🔴 Am häufigsten | achtB | § 8b KStG: Dividende und Veräußerung | § 8b KStG in der Bilanzklausur / Beteiligungen | § 8b an Tag 3 nur 4/12, an Tag 2 aber 12/12 – absolute Pflichtmaterie | T3 |
+
+### buchungslektion (11)
+
+| Prio | Kennung | Inhalt | Thema laut Auswertung | Befund | Quelle |
+| --- | --- | --- | --- | --- | --- |
+| 🔴 Am häufigsten | was-ist | Was ist ein Buchungssatz überhaupt? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | bilanz | Die Bilanz: Woher kommt das Geld, wohin ist es geflossen? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | kontenarten | Die vier Kontenarten – und warum Bank im Haben „weniger“ heißt | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | vier-schritte | Der Vier-Schritte-Trick für jeden Buchungssatz | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | grundfaelle | Die vier Grundfälle und die Gewinnauswirkung | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | umsatzsteuer | Umsatzsteuer und Vorsteuer: Der Dreizeiler | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | privat | Einlagen und Entnahmen: Das Privatkonto | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🔴 Am häufigsten | abschluss | Abschreibung, Rückstellung, Abgrenzung: Die Abschlussbuchungen | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | buchungskreise | Buchungskreise: Handelsbilanz, Steuerbilanz, beide | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🔴 Am häufigsten | storno | Fehler, Storno und Bilanzberichtigung | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🔴 Am häufigsten | fehler | Die zehn häufigsten Anfängerfehler | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+
+### beispiel (72)
+
+| Prio | Kennung | Inhalt | Thema laut Auswertung | Befund | Quelle |
+| --- | --- | --- | --- | --- | --- |
+| 🟠 Mittel | g01 | Bareinzahlung auf das Bankkonto | Tausch und Inzahlungnahme | Regelmäßiger AK-Sonderfall ohne eigene Frequenzangabe | T3 |
+| 🔴 Am häufigsten | g02 | Darlehensaufnahme | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | g03 | Tilgung eines Darlehens | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🟢 Selten | g04 | Zinszahlung | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | g05 | Zinsgutschrift | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | g06 | Lieferantenschuld bezahlen | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | g07 | Kunde bezahlt | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | g08 | Umschuldung | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | g09 | Löhne zahlen | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | g10 | Barkauf von Büromaterial (Kleinunternehmer ohne Vorsteuerabzug) | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | u01 | Wareneinkauf auf Ziel | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🟢 Selten | u02 | Warenverkauf gegen Bank | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | u03 | Kauf einer Maschine mit Nebenkosten | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | u04 | Skonto beim Einkauf | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | u05 | Skonto beim Verkauf | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | u06 | Umsatzsteuer-Zahllast ans Finanzamt | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🟢 Selten | u07 | Geschenk an Geschäftsfreund über 50 € | Umsatzsteuerlicher Querverweis | Querschnittsthema ohne eigene Frequenz am Bilanz-Tag | T3 |
+| 🔴 Am häufigsten | u08 | Erhaltene Anzahlung | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | u09 | Geleistete Anzahlung | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | a01 | Lineare AfA | AfA / Gebäude-AfA / Sonder-AfA | AfA nahezu jährlich | T3 |
+| 🔴 Am häufigsten | a02 | Zeitanteilige AfA | AfA / Gebäude-AfA / Sonder-AfA | AfA nahezu jährlich | T3 |
+| 🔴 Am häufigsten | a03 | Gebäude-AfA | Grundstücke und Gebäude | 11/12 Klausuren | T3 |
+| 🔴 Am häufigsten | a04 | Sonder-AfA nach § 7g EStG (nur Steuerbilanz) | AfA / Gebäude-AfA / Sonder-AfA | AfA nahezu jährlich | T3 |
+| 🟢 Selten | a05 | Verkauf einer Maschine über Buchwert | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | a06 | Verkauf einer Maschine unter Buchwert | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | a07 | Teilwertabschreibung | AfA / Gebäude-AfA / Sonder-AfA | AfA nahezu jährlich | T3 |
+| 🔴 Am häufigsten | a08 | Zuschreibung (Wertaufholung) | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🟠 Mittel | a09 | Geringwertiges Wirtschaftsgut | GWG und Sammelposten | Zweimal | T3 |
+| 🔴 Am häufigsten | a10 | Nachträgliche Herstellungskosten | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🟢 Selten | a11 | Erhaltungsaufwand | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | v01 | Wareneinsatz beim Jahresabschluss | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | v02 | Mehrbestand an fertigen Erzeugnissen | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | v03 | Niederstwerttest bei Waren | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🔴 Am häufigsten | v04 | Einzelwertberichtigung | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | v05 | Forderung fällt endgültig aus | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | v06 | Pauschalwertberichtigung | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | v07 | Zahlung auf eine abgeschriebene Forderung | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | r01 | Rückstellung für Prozesskosten bilden | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | r02 | Rückstellung wird in Anspruch genommen (genau passend) | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | r03 | Rückstellung zu hoch – Auflösung | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | r04 | Rückstellung zu niedrig | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | r05 | Drohverlustrückstellung (nur Handelsbilanz) | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | r06 | Rückstellung für unterlassene Instandhaltung | Rückstellungen | 10/12 Klausuren | T3 |
+| 🟠 Mittel | r07 | Gewerbesteuerrückstellung | Gewerbesteuerrückstellung | Rückstellungsunterfall (10/12) mit Bezug zu § 11 GewStG (9/12 am ESt-Tag) | T2/T3 |
+| 🟠 Mittel | p01 | Vorausbezahlte Miete (ARAP) | Rechnungsabgrenzungsposten | 7/12 Klausuren | T3 |
+| 🟠 Mittel | p02 | Auflösung des ARAP im Folgejahr | Rechnungsabgrenzungsposten | 7/12 Klausuren | T3 |
+| 🟠 Mittel | p03 | Vorab erhaltene Miete (PRAP) | Rechnungsabgrenzungsposten | 7/12 Klausuren | T3 |
+| 🔴 Am häufigsten | p04 | Darlehen mit Disagio | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🟢 Selten | p05 | Zinsen für das abgelaufene Jahr noch nicht bezahlt | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | p06 | Fremdwährungsverbindlichkeit am Stichtag | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | e01 | Barentnahme | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🔴 Am häufigsten | e02 | Privateinlage | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🔴 Am häufigsten | e03 | Warenentnahme | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🟢 Selten | e04 | Private Pkw-Nutzung (1-%-Methode) | Elektro-Pkw / private Nutzung / Fahrten Wohnung–Betrieb | Pkw/1-%-Methode 5/12 am ESt-Tag; in den Bilanz-Häufigkeitstabellen nicht ausgewiesen | T2/T3 |
+| 🟠 Mittel | e05 | Einlage einer Maschine aus dem Privatvermögen | Einlage aus dem Privatvermögen (§ 6 Abs. 1 Nr. 5, § 23 EStG) | § 23 EStG 6/12 am ESt-Tag mit geringer Punktzahl; Einlagebewertung Standardbaustein | T2/T3 |
+| 🔴 Am häufigsten | k01 | Gewinnausschüttung beschlossen | Steuerliches Einlagekonto § 27 KStG / Ausschüttung | 6/12 insgesamt, seit 2021 aber in jedem Jahr | T3 |
+| 🔴 Am häufigsten | k02 | Auszahlung der Ausschüttung mit Kapitalertragsteuer | Steuerliches Einlagekonto § 27 KStG / Ausschüttung | 6/12 insgesamt, seit 2021 aber in jedem Jahr | T3 |
+| 🔴 Am häufigsten | k03 | Offene Einlage in die Kapitalrücklage | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🔴 Am häufigsten | k04 | Verdeckte Gewinnausschüttung: Überhöhte Miete | Verdeckte Gewinnausschüttung / verdeckte Einlage / nachträgliche AK | vGA/vE in 10/12 Bilanzklausuren, bis zu zehn Punkte; nachträgliche AK bei vE seit 2019 fast jährlich | T3 |
+| 🔴 Am häufigsten | k05 | Verdeckte Einlage: Gesellschafter verzichtet auf werthaltige Forderung | Verdeckte Gewinnausschüttung / verdeckte Einlage / nachträgliche AK | vGA/vE in 10/12 Bilanzklausuren, bis zu zehn Punkte; nachträgliche AK bei vE seit 2019 fast jährlich | T3 |
+| 🟠 Mittel | k06 | Erwerb eigener Anteile | Eigenkapital der Kapitalgesellschaft, eigene Anteile | Teil III Kapitalgesellschaft (~29 Punkte) baut regelmäßig auf der EK-Gliederung auf | T3 |
+| 🔴 Am häufigsten | k07 | Dividende aus Beteiligung | § 8b KStG in der Bilanzklausur / Beteiligungen | § 8b an Tag 3 nur 4/12, an Tag 2 aber 12/12 – absolute Pflichtmaterie | T3 |
+| 🟠 Mittel | s01 | Passive latente Steuern (nur HB) | Latente Steuern § 274 HGB | Handelsrechtlicher Nebenpunkt in Kapitalgesellschaftsteilen; keine eigene Frequenzangabe | T3 |
+| 🔴 Am häufigsten | s02 | Disagio sofort als Aufwand (nur HB) und Korrektur in der StB | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | s03 | Abzinsung einer Rückstellung (unterschiedliche Sätze) | Rückstellungen | 10/12 Klausuren | T3 |
+| 🟠 Mittel | s04 | Selbst geschaffenes Patent (nur HB aktiviert) | Immaterielle Wirtschaftsgüter, Firmenwert, Forschung und Entwicklung | Regelmäßiger Ansatzfall, ohne eigene Nennung in den Häufigkeitstabellen | T3 |
+| 🟢 Selten | x01 | Storno einer Doppelbuchung | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | x02 | Aktivierung statt Aufwand vergessen | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | x03 | Zu hohe AfA im laufenden Jahr | AfA / Gebäude-AfA / Sonder-AfA | AfA nahezu jährlich | T3 |
+| 🔴 Am häufigsten | x04 | Bilanzberichtigung nach Betriebsprüfung (Vorjahr bestandskräftig) | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🟢 Selten | x05 | Privatanteil einer Reise nachbuchen | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | x06 | Umsatzsteuer statt Vorsteuer gebucht | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+
+### uebung (66)
+
+| Prio | Kennung | Inhalt | Thema laut Auswertung | Befund | Quelle |
+| --- | --- | --- | --- | --- | --- |
+| 🔴 Am häufigsten | q01 | Was bedeutet das Wort „an“ im Buchungssatz „Maschinen an Bank“? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | q02 | Auf welcher Seite wird ein Zugang auf einem Aktivkonto gebucht? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | q03 | Das Konto „Bank“ steht im Haben. Was ist passiert? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | q04 | Welche Aussage über Aufwandskonten ist richtig? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🟠 Mittel | q05 | Welcher Buchungssatz ist ein Aktivtausch? | Tausch und Inzahlungnahme | Regelmäßiger AK-Sonderfall ohne eigene Frequenzangabe | T3 |
+| 🔴 Am häufigsten | q06 | Welcher Buchungssatz verlängert die Bilanz? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | q07 | Beim Einkauf zahlen wir Umsatzsteuer an den Lieferanten. Auf welchem Konto wird sie gebucht? | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | q08 | Ein vorsteuerabzugsberechtigter Unternehmer kauft eine Maschine für 10.000 € + 1.900 € USt. Mit welchem Betrag wird die Maschine aktiviert? | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | q09 | Wie lautet der Buchungssatz für die planmäßige Abschreibung einer Maschine? | AfA / Gebäude-AfA / Sonder-AfA | AfA nahezu jährlich | T3 |
+| 🔴 Am häufigsten | q10 | Eine Rückstellung von 20.000 € wird gebildet. Was passiert mit dem Gewinn? | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | q11 | Im Dezember wird die Januar-Miete überwiesen. Was wird zum 31.12. gebucht? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | q12 | Wir haben im Dezember die Januar-Miete unseres Mieters erhalten. Was wird gebucht? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | q13 | Der Inhaber hebt 500 € für private Zwecke vom Geschäftskonto ab. Welches Konto steht im Soll? | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | q14 | Welche Aussage ist richtig? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | q15 | Eine Drohverlustrückstellung wird gebildet. In welchem Buchungskreis? | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | q16 | Die Sonderabschreibung nach § 7g EStG wird gebucht. In welchem Buchungskreis? | AfA / Gebäude-AfA / Sonder-AfA | AfA nahezu jährlich | T3 |
+| 🔴 Am häufigsten | q17 | Warum entstehen bei der Sonder-AfA passive latente Steuern? | AfA / Gebäude-AfA / Sonder-AfA | AfA nahezu jährlich | T3 |
+| 🔴 Am häufigsten | q18 | Ein Kunde zahlt eine Forderung über 1.190 € mit 2 % Skonto. Wie hoch ist die Umsatzsteuerkorrektur? | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | q19 | Eine Forderung über 2.380 € brutto ist zu 50 % zweifelhaft. Wie hoch ist die Einzelwertberichtigung? | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | q20 | Wie storniert man eine falsche Buchung „Mietaufwand an Bank 1.000“? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | q21 | Die GmbH zahlt ihrem Gesellschafter eine überhöhte Miete. Wie wird die verdeckte Gewinnausschüttung erfasst? | Verdeckte Gewinnausschüttung / verdeckte Einlage / nachträgliche AK | vGA/vE in 10/12 Bilanzklausuren, bis zu zehn Punkte; nachträgliche AK bei vE seit 2019 fast jährlich | T3 |
+| 🟠 Mittel | q22 | Die GmbH kauft eigene Anteile. Wo erscheinen sie in der Bilanz? | Eigenkapital der Kapitalgesellschaft, eigene Anteile | Teil III Kapitalgesellschaft (~29 Punkte) baut regelmäßig auf der EK-Gliederung auf | T3 |
+| 🔴 Am häufigsten | q23 | Eine Maschine (Restbuchwert 10.000 €) wird für 12.000 € netto verkauft. Wie hoch ist die Gewinnauswirkung? | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | q24 | Die Rückstellung betrug 8.000 €, tatsächlich werden 6.500 € gezahlt. Was wird zusätzlich gebucht? | Rückstellungen | 10/12 Klausuren | T3 |
+| 🟢 Selten | s01 | Der Unternehmer kauft einen Lieferwagen für 30.000 € netto + 5.700 € USt und überweist den Betrag. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | s02 | Ein Kunde kauft Waren für 2.000 € netto + 380 € USt auf Rechnung. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | s03 | Die Miete für das Büro (1.500 €, keine USt) wird per Bank bezahlt. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | s04 | Die Bank zahlt ein Darlehen über 80.000 € aus. | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🟢 Selten | s05 | Eine Lieferantenrechnung über 4.760 € wird überwiesen. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | s06 | Jahresabschluss: Die Maschine (AK 40.000 €, 10 Jahre, ganzjährig genutzt) wird planmäßig abgeschrieben. | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | s07 | Für einen laufenden Prozess wird mit Kosten von 15.000 € gerechnet. Bilden Sie die Rückstellung. | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | s08 | Der Prozess aus der Vorübung endet mit Kosten von 12.000 €, die per Bank gezahlt werden (Rückstellung 15.000 €). | Rückstellungen | 10/12 Klausuren | T3 |
+| 🟢 Selten | s09 | Am 1. Dezember werden 6.000 € Versicherungsbeitrag für Dezember bis Mai überwiesen. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | s10 | Wir erhalten am 20. Dezember 3.000 € Miete für Januar von unserem Untermieter. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | s11 | Der Inhaber entnimmt 2.000 € vom Geschäftskonto für seinen Urlaub. | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | s12 | Der Inhaber legt 10.000 € privates Geld ins Geschäftskonto ein. | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🟢 Selten | s13 | Der Inhaber nimmt Waren (Einkaufspreis 300 € netto) für den Eigenbedarf mit. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | s14 | Eine Forderung über 5.950 € brutto ist zu 40 % zweifelhaft. Buchen Sie die Einzelwertberichtigung. | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | s15 | Eine Forderung über 2.380 € brutto fällt wegen Insolvenz vollständig aus (keine EWB gebildet). | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🟢 Selten | s16 | Ein Pkw (Restbuchwert 8.000 €) wird für 10.000 € netto + 1.900 € USt gegen Bank verkauft. Buchen Sie den Verkauf und den Buchwertabgang zusammen. | Elektro-Pkw / private Nutzung / Fahrten Wohnung–Betrieb | Pkw/1-%-Methode 5/12 am ESt-Tag; in den Bilanz-Häufigkeitstabellen nicht ausgewiesen | T2/T3 |
+| 🟢 Selten | s17 | Die Reparatur der Heizung (2.000 € netto + 380 € USt) wird überwiesen. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | s18 | Das Lagergebäude wird um einen Anbau erweitert: 60.000 € netto + 11.400 € USt, Zahlung per Bank. | Grundstücke und Gebäude | 11/12 Klausuren | T3 |
+| 🔴 Am häufigsten | s19 | Nur Steuerbilanz: Für eine neue Maschine (AK 50.000 €) wird die Sonder-AfA von 40 % genutzt. | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | s20 | Nur Handelsbilanz: Aus einem schwebenden Einkaufsvertrag droht ein Verlust von 4.000 €. | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🔴 Am häufigsten | s21 | Ein Computer für 1.500 € netto wurde fälschlich als Aufwand gebucht (Vorsteuer richtig). Korrigieren Sie (ohne AfA). | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🟢 Selten | s22 | Die Betriebsprüfung stellt fest: Im bestandskräftigen Vorjahr wurden Waren um 5.000 € zu niedrig bewertet. Der Bestand ist noch vorhanden. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | s23 | Die GmbH beschließt eine Ausschüttung von 20.000 € an ihre Gesellschafter (Auszahlung folgt später). | Steuerliches Einlagekonto § 27 KStG / Ausschüttung | 6/12 insgesamt, seit 2021 aber in jedem Jahr | T3 |
+| 🔴 Am häufigsten | s24 | Ein Gesellschafter verzichtet auf ein werthaltiges Darlehen über 25.000 € gegenüber der GmbH (verdeckte Einlage). | Verdeckte Gewinnausschüttung / verdeckte Einlage / nachträgliche AK | vGA/vE in 10/12 Bilanzklausuren, bis zu zehn Punkte; nachträgliche AK bei vE seit 2019 fast jährlich | T3 |
+| 🔴 Am häufigsten | s25 | Monatsende: Umsatzsteuer 7.000 €, Vorsteuer 4.500 €. Die Zahllast wird überwiesen. | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | s26 | Eine Lieferantenrechnung über 5.950 € (5.000 netto) wird mit 2 % Skonto bezahlt. | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
+| 🔴 Am häufigsten | s27 | Das Disagio eines Darlehens (Auszahlung 95.000 €, Rückzahlung 100.000 €) wird bei Auszahlung gebucht. | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🔴 Am häufigsten | s28 | Zum 31.12. sind 1.500 € Darlehenszinsen aufgelaufen, die erst im Januar abgebucht werden. | Verbindlichkeiten, Forderungen, Disagio, Darlehen | Passivseite und Forderungsbewertung gehören zum Kernstoff jeder Einzelunternehmer-Aufgabe (Teil I ~38 Punkte) | T3 |
+| 🟢 Selten | s29 | Der Warenbestand laut Inventur (12.000 €) liegt 3.000 € unter dem Buchwert, weil Waren verbraucht wurden (Bestandsbuchung). | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🟢 Selten | s30 | Die Marktpreise für einen Rohstoffbestand (Buchwert 9.000 €) sind auf 7.500 € gefallen. | Nicht in den Häufigkeitstabellen der Auswertungen | Im Untersuchungszeitraum 2013–2024 nicht als eigener Prüfungsschwerpunkt belegt | T1/T2/T3 |
+| 🔴 Am häufigsten | w01 | Buchung: Maschinen an Bank 10.000 € | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | w02 | Buchung: Abschreibungen an Maschinen 2.000 € | AfA / Gebäude-AfA / Sonder-AfA | AfA nahezu jährlich | T3 |
+| 🔴 Am häufigsten | w03 | Buchung: Bank an Zinserträge 150 € | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | w04 | Buchung: Privatentnahmen an Bank 1.000 € | Maßgeblichkeit, Ansatz, Zurechnung, Bewertung (Grundschema HB → StB) | Bearbeitungsschema Handelsbilanz → Steuerbilanz → Ansatz → Bewertung → Differenz → Buchung läuft in jeder Klausur | T3 |
+| 🔴 Am häufigsten | w05 | Buchung: Rückstellungen an Bank 20.000 € (Rückstellung passte genau) | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | w06 | Buchung: Rückstellungen 10.000 an Bank 8.000 und Sonstige betriebliche Erträge 2.000 | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | w07 | Storno: Bank an Mietaufwand 1.000 € | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🟠 Mittel | w08 | Buchung: ARAP an Bank 2.000 € | Rechnungsabgrenzungsposten | 7/12 Klausuren | T3 |
+| 🔴 Am häufigsten | w09 | Buchung: Fertige Erzeugnisse an Bestandsveränderungen 15.000 € | Buchungstechnik (Soll an Haben, Gewinnauswirkung) | Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben | T3 |
+| 🔴 Am häufigsten | w10 | Buchung: Gewinnrücklagen an Sonstige Verbindlichkeiten 50.000 € (Ausschüttungsbeschluss) | Steuerliches Einlagekonto § 27 KStG / Ausschüttung | 6/12 insgesamt, seit 2021 aber in jedem Jahr | T3 |
+| 🔴 Am häufigsten | w11 | Buchung: Rückstellungen an Eigenkapital 10.000 € (Kapitalanpassung) | Rückstellungen | 10/12 Klausuren | T3 |
+| 🔴 Am häufigsten | w12 | Buchung: Umsatzsteuer an Vorsteuer und Bank (Zahllast) | § 9b EStG / Vorsteuer in AK/HK | § 9b in 11/12 Klausuren; AK/HK-Aufbau ist Kernmaterie jedes Aktivpostens | T3 |
 
 ## K1 AO
 
