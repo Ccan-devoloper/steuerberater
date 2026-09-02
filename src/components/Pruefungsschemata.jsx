@@ -1,6 +1,7 @@
 import { PrioBadge } from "./Prioritaet";
 import React, { useRef, useState } from "react";
 import "./pruefungsschema-gesetzbuecher.css";
+import "./pruefungsschema-zeitspalte.css";
 
 const farben = {
   ansatz: "var(--rot)",
@@ -285,7 +286,7 @@ export const schemata = [
         ],
       },
       {
-        titel: "Vergangenheit", ton: "ansatz", inhalt: [
+        zeit: "Vergangenheit", ton: "ansatz", inhalt: [
           { typ: "nummernKomplex", punkte: [
             { text: "Rechtliche Beurteilung des Fehlers mit §§ und Begründung" },
             { text: "Bilanzberichtigung", kinderBuchstaben: [
@@ -303,7 +304,7 @@ export const schemata = [
         ],
       },
       {
-        titel: "Gegenwart", ton: "technik", inhalt: [
+        zeit: "Gegenwart", ton: "technik", inhalt: [
           { typ: "nummernKomplex", start: 3, punkte: [
             { text: "Anpassung der Anfangsbilanz der laufenden Buchführung durch Kapitalangleichungsbuchungen, § 252 Abs. 1 Nr. 1 HGB, § 5 Abs. 1 S. 1 Hs. 1 EStG, § 4 Abs. 1 S. 1 EStG" },
             { text: "ABBA (was bereits unter Prüfungspunkt 1. angesprochen wurde, kann weggelassen werden)" },
@@ -311,7 +312,7 @@ export const schemata = [
         ],
       },
       {
-        titel: "Vergangenheit", ton: "bewertung", inhalt: [
+        zeit: "Vergangenheit", ton: "bewertung", inhalt: [
           { typ: "nummernKomplex", start: 5, punkte: [
             { text: "ggf. Prüfung Bilanzänderung § 4 Abs. 2 S. 2 EStG in Vergangenheit (aus richtig wird richtig)" },
           ] },
@@ -845,19 +846,39 @@ function Inhalt({ element }) {
   return null;
 }
 
+/* Blöcke mit `zeit` tragen ihre Überschrift nicht oben, sondern - wie im PDF -
+   links als hochkant beschrifteten Kasten mit Klammer daneben. */
 function SchemaBlock({ block }) {
+  const farbe = farben[block.ton] || farben.neutral;
+  const inhalt = block.inhalt.map((element, i) => <Inhalt key={i} element={element} />);
+
   return (
     <section
       style={{
         border: "1px solid var(--linie)",
-        borderLeft: `6px solid ${farben[block.ton] || farben.neutral}`,
+        borderLeft: `6px solid ${farbe}`,
         background: "var(--papier)",
         padding: "16px 18px",
         marginBottom: 12,
       }}
     >
-      <h3 style={{ margin: "0 0 12px", color: farben[block.ton] || farben.neutral }}>{block.titel}</h3>
-      {block.inhalt.map((element, i) => <Inhalt key={i} element={element} />)}
+      {block.zeit ? (
+        <div className="schema-zeitzeile" style={{ "--zeit-farbe": farbe }}>
+          <div className="schema-zeitspalte" aria-hidden="true">
+            <span className="schema-zeitspalte__klammer" />
+            <span className="schema-zeitspalte__kasten">{block.zeit}</span>
+          </div>
+          <div className="schema-zeitzeile__inhalt">
+            <h3 className="schema-zeit-titel">{block.zeit}</h3>
+            {inhalt}
+          </div>
+        </div>
+      ) : (
+        <>
+          <h3 style={{ margin: "0 0 12px", color: farbe }}>{block.titel}</h3>
+          {inhalt}
+        </>
+      )}
     </section>
   );
 }
