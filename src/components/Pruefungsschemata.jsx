@@ -1,5 +1,5 @@
 import { PrioBadge } from "./Prioritaet";
-import React, { useRef, useState } from "react";
+import React, { useLayoutEffect, useRef, useState } from "react";
 import "./pruefungsschema-gesetzbuecher.css";
 import "./pruefungsschema-zeitspalte.css";
 
@@ -289,7 +289,7 @@ export const schemata = [
         zeit: "Vergangenheit", ton: "ansatz", inhalt: [
           { typ: "nummernKomplex", punkte: [
             { text: "Rechtliche Beurteilung des Fehlers mit §§ und Begründung" },
-            { text: "Bilanzberichtigung", kinderBuchstaben: [
+            { text: "Bilanzberichtigung", zeitStart: true, kinderBuchstaben: [
               "HB ist nur bei schwerwiegenden Fehlern zu berichtigen, die zur Nichtigkeit des Jahresabschlusses führen. (= in der Klausur NIE)\n\nDie HB ist daher in der laufenden Buchführung grds. erfolgswirksam zu berichtigen. (Vgl. IDW RS HFA 6)",
               "Die StB ist zu berichtigen, wenn sie den Grundsätzen ordnungsgemäßer Buchführung nicht entspricht, § 4 Abs. 2 S. 1 EStG, § 153 Abs. 1 S. 1 Nr. 1 AO.",
               "Grds. ist an der Fehlerquelle zu berichtigen. Da das Jahr … nicht mehr geändert werden kann, ist der Fehler in der Schlussbilanz des ersten offenen Jahres … zu korrigieren, R 4.4 Abs. 1 S. 9 EStR",
@@ -312,7 +312,7 @@ export const schemata = [
         ],
       },
       {
-        zeit: "Vergangenheit", ton: "bewertung", inhalt: [
+        ton: "bewertung", inhalt: [
           { typ: "nummernKomplex", start: 5, punkte: [
             { text: "ggf. Prüfung Bilanzänderung § 4 Abs. 2 S. 2 EStG in Vergangenheit (aus richtig wird richtig)" },
           ] },
@@ -791,7 +791,8 @@ function KomplexerPunkt({ punkt }) {
     <li>
       <span style={{ whiteSpace: "pre-line" }}>{punkt.text}</span>
       {punkt.kinderBuchstaben?.length > 0 && (
-        <ol type="a" style={{ marginTop: 10 }}>
+        /* Der Kasten der Zeitspalte beginnt auf Höhe dieser Unterliste. */
+        <ol type="a" data-zeit-start={punkt.zeitStart ? "" : undefined} style={{ marginTop: 10 }}>
           {punkt.kinderBuchstaben.map((kind, i) => (
             <li key={i} style={{ marginBottom: 10 }}>
               {typeof kind === "string" ? (
@@ -847,10 +848,32 @@ function Inhalt({ element }) {
 }
 
 /* Blöcke mit `zeit` tragen ihre Überschrift nicht oben, sondern - wie im PDF -
-   links als hochkant beschrifteten Kasten mit Klammer daneben. */
+   links als hochkant beschrifteten Kasten mit Klammer daneben. Trägt ein Punkt
+   `zeitStart`, beginnt der Kasten erst auf Höhe von dessen Unterliste; die
+   Klammer umfasst weiterhin alle Schritte des Blocks. Weil der Text umbricht,
+   wird der Versatz gemessen statt geschätzt. */
 function SchemaBlock({ block }) {
   const farbe = farben[block.ton] || farben.neutral;
   const inhalt = block.inhalt.map((element, i) => <Inhalt key={i} element={element} />);
+  const inhaltRef = useRef(null);
+  const [versatz, setVersatz] = useState(0);
+
+  useLayoutEffect(() => {
+    const wurzel = inhaltRef.current;
+    if (!wurzel) return undefined;
+    const ziel = wurzel.querySelector("[data-zeit-start]");
+    if (!ziel) {
+      setVersatz(0);
+      return undefined;
+    }
+    const messen = () => setVersatz(Math.max(0, ziel.getBoundingClientRect().top - wurzel.getBoundingClientRect().top));
+    messen();
+    if (typeof ResizeObserver !== "function") return undefined;
+    const beobachter = new ResizeObserver(messen);
+    beobachter.observe(wurzel);
+    beobachter.observe(ziel);
+    return () => beobachter.disconnect();
+  }, [block]);
 
   return (
     <section
@@ -863,19 +886,19 @@ function SchemaBlock({ block }) {
       }}
     >
       {block.zeit ? (
-        <div className="schema-zeitzeile" style={{ "--zeit-farbe": farbe }}>
+        <div className="schema-zeitzeile" style={{ "--zeit-farbe": farbe, "--zeit-versatz": `${versatz}px` }}>
           <div className="schema-zeitspalte" aria-hidden="true">
             <span className="schema-zeitspalte__klammer" />
             <span className="schema-zeitspalte__kasten">{block.zeit}</span>
           </div>
-          <div className="schema-zeitzeile__inhalt">
+          <div className="schema-zeitzeile__inhalt" ref={inhaltRef}>
             <h3 className="schema-zeit-titel">{block.zeit}</h3>
             {inhalt}
           </div>
         </div>
       ) : (
         <>
-          <h3 style={{ margin: "0 0 12px", color: farbe }}>{block.titel}</h3>
+          {block.titel && <h3 style={{ margin: "0 0 12px", color: farbe }}>{block.titel}</h3>}
           {inhalt}
         </>
       )}
