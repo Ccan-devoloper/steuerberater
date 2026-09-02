@@ -390,6 +390,8 @@ export const PRIORITAET_REGELN = [
   r("bilanz", "mittel", "Latente Steuern § 274 HGB", [/latente steuern/i, /latenz/i, /§ 274/], "Handelsrechtlicher Nebenpunkt in Kapitalgesellschaftsteilen; keine eigene Frequenzangabe", "T3", true),
   r("bilanz", "mittel", "Tausch und Inzahlungnahme", [/tausch/i, /inzahlung/i, /§ 6 Abs\. 6/], "Regelmäßiger AK-Sonderfall ohne eigene Frequenzangabe", "T3", true),
   r("bilanz", "selten", "Bilanzänderung", [/bilanzänderung/i, /§ 4 Abs\. 2 S\. 2/], "Nie geprüft (Bilanzberichtigung dagegen Kernstoff)", "T3", true),
+  r("bilanz", "hoch", "Buchungstechnik (Soll an Haben, Gewinnauswirkung)", [/\bbuchungstechnik\b/i, /\bsoll an haben\b/i],
+    "Jede Textziffer des Bilanz-Tags endet mit Buchung/Korrektur und Gewinnauswirkung; Grundlage aller Bilanzaufgaben", "T3", true),
   r("bilanz", "selten", "Kommissionsgeschäfte", [/kommission/i], "Nie geprüft", "T3", true),
   r("bilanz", "selten", "Poolabschreibung / Zins-/Lizenzschranke", [/poolabschreibung/i, /zinsschranke/i, /lizenzschranke/i], "Nie geprüft", "T3", true),
   r("bilanz", "selten", "Schuldzinsenabzug § 4 Abs. 4a EStG", [/schuldzinsen/i, /überentnahme/i, /§ 4 Abs\. 4a/], "Keine Nennung in den Häufigkeitstabellen", "T3", true),

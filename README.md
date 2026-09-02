@@ -13,6 +13,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **35 datengetriebene Schaubilder** (SVG, dunkelmodusfähig) — Flussdiagramme, Entscheidungsbäume, Zeitstrahlen, Säulen, HB/StB-Gegenüberstellungen, Stufenschemata
 - **Normenregister** mit 420 Vorschriften, automatisch aus den Normenketten aller Module erzeugt
 - **Formelsammlung** mit 19 Rechenwegen inkl. belegter Beispielrechnungen
+- **Buchungssätze üben** (Reiter im Bilanz-Campus): elf Lektionen von „Was ist Soll und Haben?“
+  bis Storno und Buchungskreise, Kontenplan mit T-Konten, 72 Beispiele mit Herleitung in
+  Schritten und Grundfall, dazu ein Frage-Antwort-Trainer (Multiple Choice, Buchungssatz
+  bauen, Soll oder Haben?, Kontenart, Gewinnauswirkung) mit Fehlerspeicher
 - **Training**: 46 Quizfragen und 40 Karteikarten mit Themenfilter, Fehlerspeicher und
   Selbsteinschätzung, Zeitrechner (3,6 Minuten je Punkt)
 - **Klausurmodus**: Fälle unter Zeitbedingungen — Punkte aus der veranschlagten Zeit,
@@ -62,8 +66,8 @@ als auch unter GitHub Pages in einem Unterverzeichnis. Der Workflow unter
 ```
 src/
   App.jsx                     Alle Ansichten: Cockpit, Module, Fälle, Klausurmodus,
-                              Hausaufgaben, Schema, Formeln, Normenregister,
-                              Training, Lernplan
+                              Hausaufgaben, Schema, Formeln, Buchungssätze,
+                              Normenregister, Training, Lernplan
   index.css                   Designsystem (ein Block, keine Überschreibungen)
   components/
     Schaubild.jsx             SVG-Renderer für sechs Diagrammtypen
@@ -76,6 +80,7 @@ src/
     Klausurmodus.jsx          Klausurlauf mit Uhr, Selbstbewertung und Auswertung
     Pruefungsschemata.jsx     die sechs großen Prüfungsschemata
     Prioritaet.jsx            Examensprioritäts-Marker, Filter, Legende, Cockpit-Abschnitt
+    Buchungssaetze.jsx        Reiter „Buchungssätze“: Lektionen, Kontenplan, Beispiele, Übungen
   data/
     module.js                 Sammelindex (nach Kennziffer sortiert) + Normenregister
     module-basis-a.js         Module 1–13   (Einzelunternehmen, Personengesellschaft)
@@ -98,6 +103,7 @@ src/
     hausaufgaben-volltext.js  Volltexte, per dynamischem Import nachgeladen
     schaubilder.js            Alle Schaubilder als Daten
     lernstoff.js              Formeln, Karteikarten, Quiz, Lernplan, Glossar
+    buchungssaetze.js         Lektionen, Kontenplan, Beispiele und Übungen des Reiters „Buchungssätze“
     sources.js                Quellenkatalog und Rechtsstand
     examensprioritaet.js      Regelwerk 🔴/🟠/🟢 aus den Beck-Auswertungen, Fachtabellen
 ```
