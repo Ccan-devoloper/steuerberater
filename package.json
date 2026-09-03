@@ -41,6 +41,7 @@
     "check:k3-persg-tag4": "node tools/pruefen-k3-persg-tag4.mjs && node tools/pruefen-k3-querverweise.mjs",
     "check:k3-persg-tag5": "node tools/pruefen-k3-persg-tag5.mjs && node tools/pruefen-k3-querverweise.mjs",
     "check:k3-querverweise": "node tools/pruefen-k3-querverweise.mjs",
+    "check:k3-persg-uebersicht": "node tools/pruefen-k3-persg-uebersicht.mjs",
     "check:k3-umwstr": "node tools/pruefen-k3-umwstr.mjs",
     "check:kopfnavigation": "node tools/pruefen-kopfnavigation.mjs",
     "check:k3-umwstr-hausaufgaben": "node tools/pruefen-k3-umwstr-hausaufgaben.mjs",

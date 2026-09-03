@@ -1,0 +1,29 @@
+/* K3 · PersG – genereller Überblick (Eintritt/Wechsel/Ausscheiden/Beendigung). */
+.persg-ueb { margin-top: 4px; }
+.persg-ueb-raster { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.persg-ueb-gruppe { min-width:0; padding:16px; border:1px dashed var(--linie); background:var(--papier); scroll-margin-top:150px; }
+.persg-ueb-gruppe header h2 { margin:0; font-size:19px; }
+.persg-ueb-gruppe header p { margin:5px 0 14px; color:var(--ink-weich); font:11px/1.5 var(--mono); }
+.persg-ueb-liste { display:grid; gap:10px; }
+.persg-ueb-eintrag { padding:11px 13px; border:1px solid var(--linie); border-left-width:4px; background:var(--feld); }
+.persg-ueb-eintrag > b { display:block; font-size:15px; line-height:1.35; }
+.persg-ueb-norm { display:block; margin-top:4px; color:var(--ink-weich); font:11px/1.45 var(--mono); }
+.persg-ueb-rechtsfolge { position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.persg-ueb-eintrag p { margin:8px 0 0; font-size:12.5px; line-height:1.5; color:var(--ink); }
+.persg-ueb-eintrag--buchwert { border-color:color-mix(in srgb,var(--gruen) 45%,var(--linie)); border-left-color:var(--gruen); background:var(--gruen-feld); }
+.persg-ueb-eintrag--buchwert > b { color:var(--gruen); }
+.persg-ueb-eintrag--gewinn { border-color:color-mix(in srgb,var(--rot) 45%,var(--linie)); border-left-color:var(--rot); background:var(--rot-feld); }
+.persg-ueb-eintrag--gewinn > b { color:var(--rot); }
+.persg-ueb-eintrag--folge { border-left-color:var(--linie); background:var(--feld); }
+.persg-ueb-links { display:flex; flex-wrap:wrap; gap:6px; margin-top:9px; }
+.persg-ueb-links button { padding:4px 7px; border:1px solid var(--linie); background:var(--papier); color:var(--tinte); cursor:pointer; font:10px var(--mono); }
+.persg-ueb-links button:hover { border-color:var(--tinte); }
+.persg-ueb-legende { display:flex; flex-wrap:wrap; gap:16px; margin:16px 0 0; padding:12px 14px; list-style:none; border:1px solid var(--linie); background:var(--papier); font:11px var(--mono); }
+.persg-ueb-legende li { display:flex; align-items:center; gap:7px; }
+.persg-ueb-punkt { width:13px; height:13px; border:1px solid var(--linie); }
+.persg-ueb-punkt--buchwert { border-color:var(--gruen); background:var(--gruen-feld); }
+.persg-ueb-punkt--gewinn { border-color:var(--rot); background:var(--rot-feld); }
+.persg-ueb-punkt--folge { background:var(--feld); }
+.persg-ueb-merksatz { margin:14px 0 0; padding:12px 14px; border-left:4px solid var(--orange); background:var(--orange-feld); line-height:1.55; }
+.persg-ueb-merksatz b { margin-right:8px; font:700 10px/1 var(--mono); text-transform:uppercase; letter-spacing:.06em; }
+@media (max-width:900px) { .persg-ueb-raster { grid-template-columns:1fr; } }

@@ -6,22 +6,25 @@ import { laden, sichern, useFortschritt, anteil } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K3Fachleiste from "./K3Fachleiste";
-import { IconCockpit, IconModule, IconFaelle, IconSchema, IconTraining } from "./Icons";
+import { IconCockpit, IconModule, IconFaelle, IconSchema, IconTraining, IconRegister } from "./Icons";
 import { IconKlausur } from "./Klausurmodus";
 import K3PersGVisuals from "./K3PersGVisuals";
 import K3PersGTag2Visuals from "./K3PersGTag2Visuals";
 import K3PersGTag3Visuals from "./K3PersGTag3Visuals";
 import K3PersGTag4Visuals from "./K3PersGTag4Visuals";
+import K3PersGUebersicht, { PersGUebersichtLegende } from "./K3PersGUebersicht";
 import {
   persgQuelle, persgBereiche, persgBereichName, persgSeitenplan,
   persgModule, persgFaelle, persgSchemata, persgQuizfragen,
 } from "../data/k3-persg-tag1";
 import "./kst.css";
 import "./k3-persg.css";
+import { persgUebersicht } from "../data/k3-persg-uebersicht";
 import { PrioBadge, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./Prioritaet";
 
 const nav = [
-  ["cockpit", "Cockpit", IconCockpit], ["module", "Personengesellschaften", IconModule],
+  ["cockpit", "Cockpit", IconCockpit], ["uebersicht", "Überblick", IconRegister],
+  ["module", "Personengesellschaften", IconModule],
   ["faelle", "Originalfälle", IconFaelle], ["klausur", "Klausurmodus", IconKlausur],
   ["schema", "Prüfschema", IconSchema], ["training", "Training", IconTraining],
   ["fallsammlung", "Fallsammlung", IconFaelle], ["hausaufgaben", "Hausaufgaben PersG", IconModule],
@@ -51,6 +54,7 @@ export default function K3PersGCampus({onKlausurwechsel,onFachwechsel}){
     <aside className="rail"><nav className="rail__nav" aria-label="PersG-Hauptnavigation">{nav.map(([id,label,Icon])=><button key={id} className="rail__link" aria-current={verlauf.ansicht===id?"true":undefined} onClick={()=>ansichtOeffnen(id)}><Icon/>{label}</button>)}</nav><div className="rail__box"><b>PersG-Fortschritt</b><strong>{erledigt.length} / {persgModule.length}</strong><p>Module als bearbeitet markiert</p>{erledigt.length>0&&<button className="rail__box-reset" onClick={()=>window.confirm("PersG-Fortschritt zurücksetzen?")&&fortschritt.zuruecksetzen()}>zurücksetzen</button>}</div></aside>
     <main className="page">
       {verlauf.ansicht==="cockpit"&&<Cockpit quote={quote} erledigt={erledigt} modulOeffnen={modulOeffnen} ansichtOeffnen={ansichtOeffnen} setBereich={(x)=>{setBereich(x);ansichtOeffnen("module");}}/>}
+      {verlauf.ansicht==="uebersicht"&&<Uebersichtsseite modulOeffnen={modulOeffnen}/>}
       {verlauf.ansicht==="module"&&!modul&&<Modulliste liste={gefiltert} bereich={bereich} setBereich={setBereich} prio={prio} setPrio={setPrio} suche={suche} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen}/>} 
       {verlauf.ansicht==="module"&&modul&&<Modulseite modul={modul} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} zurueck={modullisteOeffnen}/>} 
       {verlauf.ansicht==="faelle"&&<Fallseite modulOeffnen={modulOeffnen}/>} {verlauf.ansicht==="klausur"&&<KlausurmodusPersG fallOeffnen={fallOeffnen}/>} {verlauf.ansicht==="schema"&&<Schemaseite modulOeffnen={modulOeffnen}/>} {verlauf.ansicht==="training"&&<Training/>}
@@ -65,10 +69,13 @@ function Cockpit({quote,erledigt,modulOeffnen,ansichtOeffnen,setBereich}){
   return <><div className="cockpit"><section className="these"><span className="kicker">Klausur 3 · Personengesellschaften · Tag 1 bis 5</span><h2>Vom Mitunternehmerbegriff bis zu <em>Austritt, Gesellschafterwechsel und Realteilung.</em></h2><p>{persgQuelle.pages} Kernseiten sind in {persgModule.length} Lernmodule, {persgFaelle.length} Originalfälle und {persgSchemata.length} digitale Prüfschemata überführt. Tag 5 ergänzt Austritt und Abfindung, Gesellschafterwechsel mit Ergänzungsbilanz sowie echte/unechte Realteilung einschließlich Sperrfrist und Ausgleichszahlung.</p><div className="these__aktionen"><button className="btn" onClick={()=>modulOeffnen(naechstes.id)}>Weiterlernen</button><button className="btn btn--linie" onClick={()=>ansichtOeffnen("schema")}>Prüfschemata öffnen</button></div><p className="persg-source-note">Quellenstand: Unterrichtstage 1–5 · Einheitsfassungen Tag 3, Tag 4 und Tag 5 lückenlos erfasst; Tag 5 umfasst 487/487 physische Seiten.</p></section><section className="panel fortschritt"><div className="ring" style={{"--p":`${quote}%`}}><b>{quote}%</b></div><h3>Bearbeitungsstand</h3><p>{erledigt.length} von {persgModule.length} Modulen abgehakt</p></section></div>
     <section className="abschnitt"><span className="kicker">Nächster Schritt</span><button className="weiter" onClick={()=>modulOeffnen(naechstes.id)}><span className="kicker">{persgBereichName[naechstes.area]} · Modul {naechstes.id}</span><PrioBadge prio={prioModul(naechstes)}/><h3>{naechstes.title}</h3><p>{naechstes.intro[0]}</p><span className="norm">{naechstes.law}</span></button></section>
     <section className="abschnitt"><h2>Oberthemen Personengesellschaften</h2><div className="raster raster--3">{themen.map((t)=>{const mods=persgModule.filter((m)=>m.area===t.id),done=mods.filter((m)=>erledigt.includes(m.id)).length;return <article className="bereich" key={t.id}><b>{mods.length} Module</b><h3>{t.label}</h3><p>{bereichText[t.id]||"Spezialthemen der Personengesellschaftsbesteuerung."}</p><div className="bereich__balken"><span style={{width:`${anteil(done,mods.length)}%`}}/></div><small className="bereich__stand">{done} von {mods.length} bearbeitet</small><button onClick={()=>setBereich(t.id)}>Module öffnen →</button></article>;})}</div></section>
+    <section className="abschnitt"><div className="persg-lesson-head"><div><span className="kicker">Systematik</span><h2>Genereller Überblick: Eintritt, Wechsel, Ausscheiden, Beendigung</h2><p className="lead">Die vier Lebenszyklusfälle der Mitunternehmerschaft mit der jeweiligen Rechtsfolge – Buchwert, Gewinnrealisierung oder Folgewirkung.</p></div><div className="persg-lesson-actions"><button className="btn btn--linie" onClick={()=>ansichtOeffnen("uebersicht")}>Überblick öffnen</button></div></div><div className="raster raster--2">{persgUebersicht.map((g)=><article className="bereich" key={g.id}><b>{g.eintraege.length} Grundfälle</b><h3>{g.titel}</h3><p>{g.leitfrage}</p><div className="persg-chiprow">{g.eintraege.map((e)=><span key={e.titel} className="persg-chip">{e.titel}</span>)}</div><button onClick={()=>ansichtOeffnen("uebersicht")}>Überblick öffnen →</button></article>)}</div><PersGUebersichtLegende/></section>
     <PrioCockpit fach="persg" zaehlung={prioZaehlung}/>
     <section className="abschnitt"><h2>Quellenabdeckung</h2><div className="raster raster--2">{tags.filter((t)=>t.pages>0).map((t)=>{const pp=persgSeitenplan.filter((s)=>(s.tag||1)===t.tag);return <div className="panel" key={t.tag}><span className="kicker">Tag {t.tag} · Tagesnotiz</span><h3>{pp.length} / {t.pages} Seiten</h3><div className="persg-chiprow">{pp.map((s)=><span key={`${t.tag}-${s.pdfPage||s.page}`} className="persg-chip">S. {s.pdfPage||s.page} · M{s.moduleId}</span>)}</div></div>;})}</div>{tags.filter((t)=>t.companion).map((t)=>{const ranges=captureRangesFor(t.tag);return <div className="panel" style={{marginTop:"1rem"}} key={`cap-${t.tag}`}><span className="kicker">Tag {t.tag} · {t.companion.title}</span><h3>{t.companion.pages} / {t.companion.pages} Seiten erfasst</h3><p className="persg-source-note">Wiederholungs-, Scroll- und technische Frames werden lückenlos Fachclustern zugeordnet, nicht als künstliche Doppelmodule erzeugt.</p><div className="persg-chiprow">{ranges.map((r)=><span key={`${r.start}-${r.end}`} className="persg-chip">S. {r.start}{r.end!==r.start?`–${r.end}`:""} · {r.moduleIds.length?r.moduleIds.map((id)=>`M${id}`).join("/"):"technisch"}</span>)}</div></div>;})}</section>
   </>;
 }
+
+function Uebersichtsseite({modulOeffnen}){return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Genereller Überblick</h1><p className="lead">Eintritt eines Gesellschafters, Gesellschafterwechsel, Ausscheiden und Beendigung der Gesellschaft – jeder Grundfall mit Norm, Rechtsfolge und Rücksprung in das passende Lernmodul.</p></div><span className="kicker">{persgUebersicht.reduce((n,g)=>n+g.eintraege.length,0)} Grundfälle</span></div><K3PersGUebersicht modulOeffnen={modulOeffnen}/></>;}
 
 const bereichText={Grundlagen:"§ 15 EStG, Abfärbung/Prägung, Mitunternehmerstellung und MU-BAS.",Gewinn:"Zweistufige Gewinnermittlung, Gewinnverteilung, Vergütungen und Kapitalkonten.",BV:"Gesamthandsvermögen, Privatvermögen und steuerliche Zuordnung.",SBV:"SBV I/II, Sonderbilanz und Bilanzierungskonkurrenzen.",Spiegel:"Spiegelbildmethode sowie Gesamt-/Ergänzungs-/Sonderbilanz.",Verlust:"§ 15a EStG und verrechenbare Verluste.",Sonderfall:"Zebra- und doppelstöckige Personengesellschaften.",Uebertragung:"§ 6b, § 6 Abs. 5, Sperrfristen, Trennungstheorie und Einzel-WG-Übertragung.",UmwStG:"§ 24 UmwStG: Einbringung betrieblicher Sachgesamtheiten, Bewertungswahlrecht, Ergänzungsbilanzen und Gegenleistungen.",Austritt:"Ausscheiden und Abfindung, Sachwertabfindung und entgeltlicher Gesellschafterwechsel.",Realteilung:"Echte/unechte Realteilung, Buchwertfortführung, Sperrfrist und Ausgleichszahlung."};
 
