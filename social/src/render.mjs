@@ -44,6 +44,7 @@ async function htmlZuJpeg(html, masse, zielPfad, skala = Number(process.env.IG_R
   try {
     await page.goto(`file://${tmp}`, { waitUntil: "load" });
     await page.evaluate(() => document.fonts.ready);
+    await page.evaluate(einpassen);
     await page.waitForTimeout(60);
     fs.mkdirSync(path.dirname(zielPfad), { recursive: true });
     await page.screenshot({ path: zielPfad, type: "jpeg", quality: skala < 1 ? 80 : 92, fullPage: false });
@@ -52,6 +53,31 @@ async function htmlZuJpeg(html, masse, zielPfad, skala = Number(process.env.IG_R
     fs.rmSync(tmp, { force: true });
   }
   return zielPfad;
+}
+
+/* Läuft im Browser: verkleinert Text, bis nichts mehr über den rechten Rand
+   hinausragt und der Inhalt oberhalb der Fußzeile bleibt. */
+function einpassen() {
+  const wurzel = document.querySelector(".folie, .story");
+  if (!wurzel) return;
+  const px = (el) => parseFloat(getComputedStyle(el).fontSize);
+  const setze = (el, f) => { el.style.fontSize = `${Math.max(28, px(el) * f)}px`; };
+  /* 1. Einzelne Zeilen/Blöcke, die breiter als ihr Platz sind (lange Wörter). */
+  for (const el of wurzel.querySelectorAll("h1,h2,h3,.merke,.norm,.zahl-unter,.karte .t,.pille,.ueberzeile,.formel,.zeile")) {
+    let n = 0;
+    while (el.scrollWidth > el.clientWidth + 1 && n++ < 14) setze(el, 0.94);
+  }
+  /* 2. Gesamthöhe: Fußzeile muss innerhalb der Kachel bleiben. */
+  const fuss = wurzel.querySelector(".fuss");
+  const grenze = wurzel.getBoundingClientRect().bottom - 24;
+  const textElemente = [...wurzel.querySelectorAll("h1,h2,h3,p,li,.text,.merke,.norm,.zahl,.zahl-unter,.karte,.optionen div,.rechnung,.spalte,.unter,.hinweis,.pfeil")];
+  let n = 0;
+  const passt = () => {
+    const unten = fuss ? fuss.getBoundingClientRect().bottom : Math.max(...textElemente.map((e) => e.getBoundingClientRect().bottom));
+    const kinderUnten = Math.max(...[...wurzel.children].filter((c) => !c.classList.contains("geist") && !c.classList.contains("illu")).map((c) => c.getBoundingClientRect().bottom));
+    return unten <= grenze + 24 && kinderUnten <= grenze + 24 && wurzel.scrollHeight <= wurzel.clientHeight + 1;
+  };
+  while (!passt() && n++ < 10) for (const el of textElemente) setze(el, 0.95);
 }
 
 /* Rendert alle Folien eines Beitrags → Liste der JPEG-Pfade. */

@@ -18,7 +18,15 @@ export const MASSE = {
 export const KLAUSUR_FARBE = { 1: "k1", 2: "k2", 3: "k3" };
 
 export function esc(s) {
-  return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  return String(s ?? "")
+    .replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]))
+    .replace(/i\.\s?V\.\s?m\./g, "i.\u00a0V.\u00a0m.")
+    .replace(/(§§?|Abs\.|Nr\.|S\.|Art\.|R|H)\s(?=\d)/g, "$1\u00a0");
+}
+
+/* Überschriften: nur Hervorhebungen, keine Mono-Normen (die wirken in Großschrift fremd). */
+export function markierenTitel(s) {
+  return esc(s).replace(/\*([^*]+)\*/g, "<em>$1</em>");
 }
 
 /* Hervorhebungen: *wichtig* → <em>, Normen in Mono. */
@@ -68,7 +76,9 @@ html,body{width:${m.breite}px;height:${m.hoehe}px;overflow:hidden;background:var
 .familie-kanzlei .etikett{font-family:"Oswald";font-size:28px;letter-spacing:.02em;line-height:.95;text-transform:none;font-weight:500;flex-direction:column;align-items:flex-start;gap:0}
 .familie-kanzlei .etikett .punkt{display:none}
 .zaehler{font-family:var(--mono);font-size:24px;color:var(--text-weich)}
-h1{font-family:var(--titel);font-weight:${s.titelGewicht};font-size:112px;line-height:${s.titelZeilenhoehe};letter-spacing:${s.titelSpacing};text-transform:${s.titelTransform};margin-top:54px;text-wrap:balance}
+h1{font-family:var(--titel);font-weight:${s.titelGewicht};font-size:112px;line-height:${s.titelZeilenhoehe};letter-spacing:${s.titelSpacing};text-transform:${s.titelTransform};margin-top:54px;text-wrap:balance;overflow-wrap:normal}
+h2,.merke,.zahl-unter,.karte .t,.spalte h3,ol.schritte b,.norm{overflow-wrap:normal}
+.text,ul.punkte,.spalte ul,.story .text,.untertitel .zeile{overflow-wrap:anywhere}
 h1.klein{font-size:88px}
 h1.winzig{font-size:72px}
 h2{font-family:var(--titel);font-weight:${s.titelGewicht};font-size:74px;line-height:1.08;letter-spacing:${s.titelSpacing};margin-top:44px;text-wrap:balance}
@@ -190,7 +200,7 @@ function titelKlasse(t) {
 const FOLIEN = {
   titel: (f, ctx, i, n) => `
     ${kopf(ctx, "")}
-    <h1 class="${titelKlasse(f.titel)}">${markieren(f.titel)}</h1>
+    <h1 class="${titelKlasse(f.titel)}">${markierenTitel(f.titel)}</h1>
     ${f.untertitel ? `<p class="unter">${markieren(f.untertitel)}</p>` : ""}
     ${f.prioritaet ? `<div class="prio ${f.prioritaet}"><i></i>${esc(f.prioritaetText || "")}</div>` : ""}
     <div><span class="pille">${esc(f.pille || "Swipen →")}</span></div>
@@ -198,18 +208,18 @@ const FOLIEN = {
     ${fuss(ctx)}`,
   text: (f, ctx, i, n) => `
     ${kopf(ctx, `${i}/${n}`)}
-    <h2>${markieren(f.titel)}</h2>
+    <h2>${markierenTitel(f.titel)}</h2>
     ${f.text ? `<div class="text">${String(f.text).split(/\n+/).map((p) => `<p>${markieren(p)}</p>`).join("")}</div>` : ""}
     ${f.punkte?.length ? `<ul class="punkte">${f.punkte.map((p) => `<li><span>${markieren(p)}</span></li>`).join("")}</ul>` : ""}
     ${fuss(ctx)}`,
   schritte: (f, ctx, i, n) => `
     ${kopf(ctx, `${i}/${n}`)}
-    <h2>${markieren(f.titel)}</h2>
+    <h2>${markierenTitel(f.titel)}</h2>
     <ol class="schritte">${(f.schritte || []).map((s) => (typeof s === "string" ? `<li><b>${markieren(s)}</b></li>` : `<li><div><b>${markieren(s.titel)}</b>${s.text ? `<span>${markieren(s.text)}</span>` : ""}</div></li>`)).join("")}</ol>
     ${fuss(ctx)}`,
   vergleich: (f, ctx, i, n) => `
     ${kopf(ctx, `${i}/${n}`)}
-    <h2>${markieren(f.titel)}</h2>
+    <h2>${markierenTitel(f.titel)}</h2>
     <div class="vergleich">
       <div class="spalte links"><h3>${markieren(f.links?.titel)}</h3><ul>${(f.links?.punkte || []).map((p) => `<li>${markieren(p)}</li>`).join("")}</ul></div>
       <div class="spalte rechts"><h3>${markieren(f.rechts?.titel)}</h3><ul>${(f.rechts?.punkte || []).map((p) => `<li>${markieren(p)}</li>`).join("")}</ul></div>
@@ -217,7 +227,7 @@ const FOLIEN = {
     ${fuss(ctx)}`,
   rechnung: (f, ctx, i, n) => `
     ${kopf(ctx, `${i}/${n}`)}
-    <h2>${markieren(f.titel)}</h2>
+    <h2>${markierenTitel(f.titel)}</h2>
     <div class="rechnung">
       <div class="formel">${esc(f.formel)}</div>
       ${f.zeilen?.length ? `<div class="zeilen">${f.zeilen.map((z) => `<div>${esc(z)}</div>`).join("")}</div>` : ""}
@@ -227,7 +237,7 @@ const FOLIEN = {
     ${fuss(ctx)}`,
   merke: (f, ctx, i, n) => `
     ${kopf(ctx, `${i}/${n}`)}
-    ${f.titel ? `<h2>${markieren(f.titel)}</h2>` : ""}
+    ${f.titel ? `<h2>${markierenTitel(f.titel)}</h2>` : ""}
     <p class="merke">${markieren(f.text)}</p>
     ${fuss(ctx)}`,
   cta: (f, ctx, i, n) => `
@@ -253,22 +263,23 @@ const STORIES = {
   teaser: (s, ctx) => `
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Neuer Beitrag")}</div>
-    <h1 class="${titelKlasse(s.titel)}">${markieren(s.titel)}</h1>
+    <h1 class="${titelKlasse(s.titel)}">${markierenTitel(s.titel)}</h1>
     ${s.text ? `<div class="text">${markieren(s.text)}</div>` : ""}
-    <div><span class="pille">${esc(s.pille || "Zum Beitrag im Profil")}</span></div>
+    <div><span class="pille">${esc(s.pille || "Jetzt im Feed")}</span></div>
+    <div class="hinweis">Oben auf den Namen tippen – der Beitrag ist der neueste im Profil.</div>
     ${bildOderIllu(ctx, s)}
     ${fuss(ctx)}`,
   frage: (s, ctx) => `
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Prüfungsfrage")}</div>
-    <h1 class="klein">${markieren(s.titel)}</h1>
+    <h1 class="klein">${markierenTitel(s.titel)}</h1>
     ${s.optionen?.length ? `<div class="optionen">${s.optionen.map((o, k) => `<div><b>${"ABCD"[k]}</b><span>${markieren(o)}</span></div>`).join("")}</div>` : ""}
     <div class="pfeil">Antwort in der nächsten Story →</div>
     ${fuss(ctx)}`,
   antwort: (s, ctx) => `
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Richtig ist")}</div>
-    <h1 class="klein">${markieren(s.titel)}</h1>
+    <h1 class="klein">${markierenTitel(s.titel)}</h1>
     ${s.optionen?.length ? `<div class="optionen">${s.optionen.map((o, k) => `<div class="${k === s.richtig ? "richtig" : ""}"><b>${"ABCD"[k]}</b><span>${markieren(o)}</span></div>`).join("")}</div>` : ""}
     ${s.text ? `<div class="text">${markieren(s.text)}</div>` : ""}
     ${fuss(ctx)}`,
@@ -276,7 +287,7 @@ const STORIES = {
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Norm des Tages")}</div>
     <div class="norm">${esc(s.norm)}</div>
-    <h1 class="klein">${markieren(s.titel)}</h1>
+    <h1 class="klein">${markierenTitel(s.titel)}</h1>
     ${s.text ? `<div class="text">${markieren(s.text)}</div>` : ""}
     <div class="geist">§</div>
     ${fuss(ctx)}`,
@@ -290,20 +301,20 @@ const STORIES = {
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Noch")}</div>
     <div class="zahl">${esc(s.zahl)}</div>
-    <div class="zahl-unter">${markieren(s.titel)}</div>
+    <div class="zahl-unter">${markierenTitel(s.titel)}</div>
     ${s.text ? `<div class="text">${markieren(s.text)}</div>` : ""}
     <div class="balken"><i style="width:${Math.max(2, Math.min(100, Number(s.fortschritt || 0)))}%"></i></div>
     ${fuss(ctx)}`,
   formel: (s, ctx) => `
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Rechenweg")}</div>
-    <h1 class="klein">${markieren(s.titel)}</h1>
+    <h1 class="klein">${markierenTitel(s.titel)}</h1>
     <div class="karte"><div class="t" style="font-family:var(--mono)">${esc(s.formel)}</div>${s.text ? `<div class="u">${markieren(s.text)}</div>` : ""}</div>
     ${fuss(ctx)}`,
   begriff: (s, ctx) => `
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Begriff des Tages")}</div>
-    <h1 class="klein">${markieren(s.titel)}</h1>
+    <h1 class="klein">${markierenTitel(s.titel)}</h1>
     ${s.norm ? `<div class="norm" style="font-size:44px;margin-top:30px">${esc(s.norm)}</div>` : ""}
     <div class="text">${markieren(s.text)}</div>
     ${bildOderIllu(ctx, s)}
@@ -312,20 +323,20 @@ const STORIES = {
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Zahl des Tages")}</div>
     <div class="zahl" style="font-size:300px">${esc(s.zahl)}</div>
-    <div class="zahl-unter">${markieren(s.titel)}</div>
+    <div class="zahl-unter">${markierenTitel(s.titel)}</div>
     ${s.text ? `<div class="text">${markieren(s.text)}</div>` : ""}
     ${fuss(ctx)}`,
   tipp: (s, ctx) => `
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Klausurtipp")}</div>
-    <h1 class="klein">${markieren(s.titel)}</h1>
+    <h1 class="klein">${markierenTitel(s.titel)}</h1>
     <div class="text">${markieren(s.text)}</div>
     ${bildOderIllu(ctx, s)}
     ${fuss(ctx)}`,
   fehler: (s, ctx) => `
     ${sk(ctx)}
     <div class="ueberzeile">${esc(s.ueberzeile || "Typischer Fehler")}</div>
-    <h1 class="klein">${markieren(s.titel)}</h1>
+    <h1 class="klein">${markierenTitel(s.titel)}</h1>
     <div class="karte"><div class="t" style="color:var(--rot)">Falsch</div><div class="u">${markieren(s.falsch)}</div></div>
     <div class="karte"><div class="t" style="color:var(--ok)">Richtig</div><div class="u">${markieren(s.richtigText || s.text)}</div></div>
     ${fuss(ctx)}`,

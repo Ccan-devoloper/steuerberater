@@ -462,7 +462,7 @@ export function teaserAusBeitrag(beitrag, slot) {
     titel: beitrag.kurztitel || beitrag.folien[0].titel,
     text: beitrag.folien[0].titel !== beitrag.kurztitel ? beitrag.folien[0].titel : "",
     icon: beitrag.folien[0].icon || "paragraf",
-    pille: "Zum Beitrag im Profil",
+    pille: "Jetzt im Feed",
   };
 }
 
