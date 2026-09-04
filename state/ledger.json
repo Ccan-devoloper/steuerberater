@@ -59,6 +59,16 @@
       "fach": "persg",
       "titel": "Disagio beim Tilgungsdarlehen: Warum die Zinsstaffel und nicht linear?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "story",
+      "slot": "s5",
+      "storyArt": "antwort",
+      "thema": "kst-karte-kst-5",
+      "fach": "kst",
+      "titel": "Außerbilanziell – die Handelsbilanz bleibt unverändert.",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {

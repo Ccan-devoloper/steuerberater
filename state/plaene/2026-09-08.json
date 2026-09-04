@@ -73,7 +73,9 @@
       "art": "antwort",
       "themaId": "kst-karte-kst-5",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T18:53:05.767Z"
     },
     {
       "slot": "s6",
