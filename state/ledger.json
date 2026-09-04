@@ -159,6 +159,16 @@
       "fach": "kst",
       "titel": "Mini-Fall: Nichtabziehbare Aufwendungen",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "story",
+      "slot": "s4",
+      "storyArt": "frage",
+      "thema": "bilanz-quiz-k3-36",
+      "fach": "bilanz",
+      "titel": "Gilt die 10-%-Grenze des § 8b Abs. 4 KStG auch für Veräußerungsgewinne?",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
