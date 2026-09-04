@@ -15,6 +15,10 @@ import { FAECHER, KLAUSUREN } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
 import { pruefeBeitrag, korpus } from "./pruefung.mjs";
 import { datumLesbar, tageBis } from "./zeit.mjs";
+import { erfassen } from "./kosten.mjs";
+import { pruefeFakten } from "./faktencheck.mjs";
+import { hookTyp } from "./insights.mjs";
+import { phase } from "./kalender.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 const beispiele = JSON.parse(fs.readFileSync(path.resolve(hier, "../beispiele/inhalte.json"), "utf8"));
@@ -68,6 +72,16 @@ export const FORMATE = {
     anleitung: "Folie 1: „Hast du diese Woche alles mitgenommen?“. Folien 2–3: die Themen der Woche als Kurz-Wiederholung in Punkten (je ein Satz pro Thema, mit Norm). Folie 4: Lernplan-Tipp fürs Wochenende. Letzte Folie: CTA.",
     folien: ["titel", "text", "text", "merke", "cta"],
   },
+  spickzettel: {
+    label: "Spickzettel",
+    anleitung: "Folie 1: „Das ganze Schema auf einer Karte“ als Frage/Versprechen. Folie 2 (art karte): der komplette Prüfungsaufbau als dichte, nummerierte Karte – 5–8 Schritte mit je maximal 8 Wörtern und Norm. Folie 3: die zwei Stellen, an denen die meisten Punkte verloren gehen (Punkte). Vorletzte Folie: Merksatz. Letzte Folie: CTA mit dem Hinweis „Kommentiere SCHEMA, dann schicke ich dir die Karte als Nachricht“. Diese Karte muss so gut sein, dass man sie speichert.",
+    folien: ["titel", "karte", "text", "merke", "cta"],
+  },
+  anlass: {
+    label: "Anlass",
+    anleitung: "Ein Beitrag zu einem Termin im Prüfungsjahr (Countdown, Anmeldeschluss, Prüfungstag, Tag danach). Folie 1: der Anlass als Schlagzeile mit Zahl oder Datum. Folien 2–3: was jetzt konkret zu tun ist (Schritte oder Punkte), fachlich unterlegt mit einem passenden Kernthema. Vorletzte Folie: Merksatz/Ermutigung. Letzte Folie: CTA. Ton: nah dran, ermutigend, ohne Kitsch.",
+    folien: ["titel", "schritte", "text", "merke", "cta"],
+  },
   aktuell: {
     label: "Aktuell",
     anleitung: "Folie 1: die Neuigkeit als Frage oder Schlagzeile (Gesetzesänderung, BFH-Urteil, BMF-Schreiben, Prüfungstermine, Statistik). Folie 2: was genau passiert ist, in Punkten mit Datum/Aktenzeichen. Folie 3: was das fürs Examen bedeutet. Letzte Folie: CTA. Die Quelle wird in der Caption genannt (Gericht/Behörde, Datum, Aktenzeichen oder Dokumentname).",
@@ -90,7 +104,9 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Keine Bezüge auf Kurse, Skripte, Seiten, Folien, Fallnummern, Dozenten oder Lernplattformen.
 
 ## Form
-- Folienarten: titel (Frage/Aufhänger), text (Titel + Text oder Punkte), schritte (nummeriert, je Schritt titel + text), vergleich (links/rechts mit titel + punkte), rechnung (formel, zeilen, ergebnis), merke (ein Satz, der hängen bleibt), cta (Abschluss mit Folgen-Aufforderung).
+- Folienarten: titel (Frage/Aufhänger), text (Titel + Text oder Punkte), schritte (nummeriert, je Schritt titel + text), vergleich (links/rechts mit titel + punkte), rechnung (formel, zeilen, ergebnis), karte (dichter Spickzettel: schritte mit kurzem titel + norm im text), merke (ein Satz, der hängen bleibt), cta (Abschluss mit Folgen-Aufforderung).
+- hooks: drei alternative Titel für Folie 1 in unterschiedlichen Typen – eine Frage, ein Fehler-/Falle-Hook („Der Fehler, der … kostet“), ein Zahlen-Hook (Frist, Prozentsatz, Betrag). Folie 1 trägt den besten davon.
+- Die erste Zeile der Caption ist gleichzeitig Suchtext: Sie nennt das Thema mit den Wörtern, die jemand bei Instagram oder Google eintippen würde (z. B. „Teilwertabschreibung Steuerbilanz Voraussetzungen“), natürlich eingebettet in den Hook.
 - Folie-1-Titel: eine Frage, ideal 45–80 Zeichen, maximal 100. Andere Titel maximal 60 Zeichen.
 - Je Folie maximal 5 Punkte / 5 Schritte, insgesamt maximal 380 Zeichen Text je Folie; bei „vergleich“ je Spalte maximal 3 Punkte à 60 Zeichen.
 - Kernaussagen und Merksätze aus dem Skelett NIE übernehmen, auch nicht leicht umgestellt – schreibe einen eigenen Merksatz mit anderem Satzbau und anderen Wörtern.
@@ -120,7 +136,7 @@ const FOLIE_SCHEMA = {
   type: "object",
   additionalProperties: false,
   properties: {
-    art: { type: "string", enum: ["titel", "text", "schritte", "vergleich", "rechnung", "merke", "cta"] },
+    art: { type: "string", enum: ["titel", "text", "schritte", "vergleich", "rechnung", "karte", "merke", "cta"] },
     titel: { type: ["string", "null"] },
     untertitel: { type: ["string", "null"] },
     text: { type: ["string", "null"] },
@@ -145,8 +161,9 @@ const BEITRAG_SCHEMA = {
     hashtags: { type: "array", items: { type: "string" } },
     kurztitel: { type: "string" },
     quellen: { type: ["array", "null"], items: { type: "string" } },
+    hooks: { type: ["array", "null"], items: { type: "object", additionalProperties: false, properties: { typ: { type: "string", enum: ["frage", "fehler", "zahl", "aussage"] }, titel: { type: "string" } }, required: ["typ", "titel"] } },
   },
-  required: ["folien", "caption", "hashtags", "kurztitel", "quellen"],
+  required: ["folien", "caption", "hashtags", "kurztitel", "quellen", "hooks"],
 };
 
 const STORY_SCHEMA = {
@@ -211,6 +228,7 @@ async function strukturiert({ system, user, schema, modell = CONFIG.ki.modell, e
       response = await client().messages.create({ ...ohneFormat, output_config: { effort }, messages: [{ role: "user", content: `${user}\n\nAntworte ausschließlich mit einem JSON-Objekt nach diesem Schema:\n${JSON.stringify(schema)}` }] });
     } else throw e;
   }
+  erfassen(modell, response.usage, "autor");
   if (response.stop_reason === "refusal") {
     if (modell !== "claude-opus-4-8") return strukturiert({ system, user, schema, modell: "claude-opus-4-8", effort });
     throw new Error(`Modell hat abgelehnt: ${response.stop_details?.explanation || "ohne Begründung"}`);
@@ -246,7 +264,27 @@ function prioritaetText(stufe) {
 }
 
 /* Nachbearbeitung: leere Felder entfernen, Titelfolie normieren, Hashtags säubern. */
-function nachbereiten(daten, { format, thema, fach, klausur }) {
+/* Besten Hook wählen: gelernte Gewichte je Hook-Typ, sonst Heuristik (Länge, Frageform). */
+function hookWaehlen(daten, strategie) {
+  const kandidaten = [...(daten.hooks || [])];
+  const erster = daten.folien?.[0]?.titel;
+  if (erster && !kandidaten.some((h) => h.titel === erster)) kandidaten.unshift({ typ: hookTyp(erster), titel: erster });
+  if (!kandidaten.length) return null;
+  const g = strategie?.hookGewicht || {};
+  const bewertet = kandidaten.map((h) => {
+    const l = h.titel.length;
+    let p = (g[h.typ] ?? 1) * 10;
+    if (l >= 45 && l <= 80) p += 3; else if (l > 100) p -= 4;
+    if (/\d/.test(h.titel)) p += 1;
+    if (/\?$/.test(h.titel.trim())) p += 1;
+    return { ...h, p };
+  }).sort((a, b) => b.p - a.p);
+  return bewertet[0];
+}
+
+function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
+  const hook = hookWaehlen(daten, strategie);
+  if (hook && daten.folien?.[0]) daten.folien[0].titel = hook.titel;
   const folien = (daten.folien || []).map((f) => {
     const o = {};
     for (const [k, v] of Object.entries(f)) if (v != null && !(Array.isArray(v) && v.length === 0)) o[k] = v;
@@ -273,6 +311,7 @@ function nachbereiten(daten, { format, thema, fach, klausur }) {
     hashtags: tags,
     kurztitel: daten.kurztitel || folien[0]?.titel || "",
     quellen: daten.quellen || [],
+    hookTyp: hook?.typ || hookTyp(folien[0]?.titel || ""),
   };
 }
 
@@ -280,7 +319,7 @@ function nachbereiten(daten, { format, thema, fach, klausur }) {
  * Schreibt einen Beitrag. Prüft ihn (pruefung.mjs) und lässt bei Beanstandung
  * bis zu CONFIG.ki.maxVersuche Mal nachbessern.
  */
-export async function beitragSchreiben({ format, thema, datum, recherche, wochenThemen }) {
+export async function beitragSchreiben({ format, thema, datum, recherche, wochenThemen, anlass, strategie }) {
   if (process.env.IG_AUTOR === "beispiele") return beispielBeitrag(format, thema);
   const spec = FORMATE[format] || FORMATE.pruefungsfrage;
   const fach = thema?.fach || recherche?.fach || "bilanz";
@@ -296,14 +335,21 @@ export async function beitragSchreiben({ format, thema, datum, recherche, wochen
       thema ? `\n## Themen-Skelett\n${themaText(thema)}` : "",
       recherche ? `\n## Rechercheergebnis (Web, ${datumLesbar(datum)})\n${recherche.notizen}\n\nQuellen: ${recherche.quellen.join(" · ")}` : "",
       wochenThemen?.length ? `\n## Themen dieser Woche\n${wochenThemen.map((t) => `- ${t}`).join("\n")}` : "",
+      anlass ? `\n## Anlass\n${anlass.titel}: ${anlass.kontext}` : "",
+      `\nPhase im Prüfungsjahr: ${phase(datum)}.`,
+      format === "spickzettel" ? `\nDer CTA muss den Satz enthalten: „Kommentiere ${CONFIG.nachrichten.schluesselwort} – dann schicke ich dir die Karte als Nachricht.“ Derselbe Satz gehört ans Ende der Caption.` : "",
       `\n## Sperrliste (diese Namen nie verwenden)\n${sperr.join(", ")}`,
       feedback ? `\n## Beanstandungen am vorherigen Entwurf – bitte beheben\n${feedback}\n\nVorheriger Entwurf:\n${JSON.stringify(letzter)}` : "",
       `\nErstelle jetzt den Beitrag als JSON.`,
     ].filter(Boolean).join("\n");
     const { daten } = await strukturiert({ system: SYSTEM, user, schema: BEITRAG_SCHEMA });
-    const beitrag = nachbereiten(daten, { format, thema, fach, klausur });
+    const beitrag = nachbereiten(daten, { format, thema, fach, klausur, strategie });
     const ergebnis = pruefeBeitrag(beitrag);
-    if (ergebnis.ok) return beitrag;
+    if (ergebnis.ok) {
+      const fakten = await pruefeFakten(beitrag);
+      if (fakten.ok) { beitrag.faktenHinweise = fakten.hinweise; return beitrag; }
+      ergebnis.fehler.push(...fakten.fehler.map((f) => `Fachlicher Fehler: ${f}`));
+    }
     feedback = ergebnis.fehler.map((f) => `- ${f}`).join("\n");
     letzter = daten;
     console.warn(`  Entwurf ${versuch} beanstandet:\n${feedback}`);
@@ -328,10 +374,12 @@ Wähle dann DIE eine Neuigkeit mit dem größten Examensbezug aus. Antworte mit:
     messages: [{ role: "user", content: frage }],
   };
   let response = await client().messages.create(params);
+  erfassen(CONFIG.ki.modellNeben, response.usage, "recherche");
   let runden = 0;
   while (response.stop_reason === "pause_turn" && runden++ < 4) {
     params.messages.push({ role: "assistant", content: response.content });
     response = await client().messages.create(params);
+    erfassen(CONFIG.ki.modellNeben, response.usage, "recherche");
   }
   const text = textAus(response);
   const fachTreffer = text.match(/Fach\s*[:：]\s*(ao|ust|erbst|kst|istr|bilanz|persg)/i);
@@ -424,15 +472,17 @@ Du schreibst ein Skript aus 6–8 Szenen. Jede Szene hat einen kurzen Bildschirm
 - icon nur beim hook.`;
 
 /* Reel-Skript schreiben (Szenen mit Bildschirm- und Sprechertext). */
-export async function reelSchreiben({ thema, datum }) {
+export async function reelSchreiben({ thema, datum, lang = false, anlass = null }) {
   const fach = thema?.fach || "bilanz";
   const klausur = FAECHER[fach]?.klausur || 3;
   const sperr = korpus().namen;
   let feedback = "", letzter = null;
   for (let versuch = 1; versuch <= CONFIG.ki.maxVersuche; versuch++) {
     const user = [
-      `Datum: ${datumLesbar(datum)}. Format: Reel.`,
-      REEL_ANLEITUNG,
+      `Datum: ${datumLesbar(datum)}. Format: ${lang ? "Reel (lang, 45–60 s, 6–8 Szenen, ein komplettes Prüfschema)" : "Kurz-Reel (20–35 s, 4–5 Szenen, genau EIN Aha-Punkt: eine Frage, die Antwort, warum, Merksatz)"}.`,
+      REEL_ANLEITUNG + (lang ? "" : "\nKurzfassung: insgesamt 60–90 gesprochene Wörter, Bildschirmtitel maximal 5 Wörter."),
+      anlass ? `\n## Anlass\n${anlass.titel}: ${anlass.kontext}` : "",
+      `Phase im Prüfungsjahr: ${phase(datum)}.`,
       `\n## Themen-Skelett\n${themaText(thema)}`,
       `\n## Sperrliste (diese Namen nie verwenden)\n${sperr.join(", ")}`,
       `\n## Beispiel für Ton und Länge (anderes Thema)\n${JSON.stringify(beispielReel.szenen.slice(0, 3), null, 1)}`,
@@ -445,8 +495,13 @@ export async function reelSchreiben({ thema, datum }) {
     /* Prüfung über die Folien-Logik: Szenen als Folien, Sprechertext als Text. */
     const ergebnis = pruefeBeitrag({ folien: [{ art: "titel", titel: szenen[0]?.titel || "" }, ...szenen.slice(1).map((s) => ({ art: "text", titel: s.titel, text: `${s.text || ""} ${s.sprecher}` })), { art: "cta" }], caption: reel.caption, hashtags: reel.hashtags });
     const woerter = szenen.reduce((n, s) => n + s.sprecher.split(/\s+/).length, 0);
-    if (woerter < 80 || woerter > 190) ergebnis.fehler.push(`Sprechertext hat ${woerter} Wörter (Ziel 110–150)`);
-    if (!ergebnis.fehler.length) return reel;
+    const [min, max] = lang ? [80, 190] : [45, 110];
+    if (woerter < min || woerter > max) ergebnis.fehler.push(`Sprechertext hat ${woerter} Wörter (Ziel ${lang ? "110–150" : "60–90"})`);
+    if (!ergebnis.fehler.length) {
+      const fakten = await pruefeFakten(reel);
+      if (fakten.ok) { reel.hookTyp = hookTyp(szenen[0]?.titel || ""); return reel; }
+      ergebnis.fehler.push(...fakten.fehler.map((f) => `Fachlicher Fehler: ${f}`));
+    }
     feedback = ergebnis.fehler.map((f) => `- ${f}`).join("\n");
     letzter = daten;
     console.warn(`  Reel-Entwurf ${versuch} beanstandet:\n${feedback}`);

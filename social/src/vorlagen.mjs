@@ -95,6 +95,11 @@ ol.schritte li{display:grid;grid-template-columns:96px 1fr;gap:20px;align-items:
 ol.schritte li::before{content:counter(s);font-family:var(--titel);font-size:64px;line-height:1;color:var(--akzent);font-weight:${s.titelGewicht}}
 ol.schritte b{display:block;font-size:40px;line-height:1.2;font-weight:700}
 ol.schritte span{display:block;font-size:32px;line-height:1.35;color:var(--text-weich);margin-top:6px}
+ol.schritte.karte{gap:14px;margin-top:28px;padding:30px 34px;background:var(--flaeche);border:2px solid var(--linie);border-radius:var(--ecken)}
+ol.schritte.karte li{grid-template-columns:70px 1fr;gap:14px}
+ol.schritte.karte li::before{font-size:46px}
+ol.schritte.karte b{font-size:34px}
+ol.schritte.karte span{font-size:27px;margin-top:2px}
 .vergleich{margin-top:44px;display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
 .spalte{background:var(--flaeche);border:2px solid var(--linie);border-radius:var(--ecken);padding:34px}
 .spalte h3{font-family:var(--titel);font-size:44px;line-height:1.1;margin-bottom:22px;font-weight:${s.titelGewicht}}
@@ -234,6 +239,11 @@ const FOLIEN = {
       ${f.ergebnis ? `<div class="ergebnis">${esc(f.ergebnis)}</div>` : ""}
     </div>
     ${f.text ? `<div class="text"><p>${markieren(f.text)}</p></div>` : ""}
+    ${fuss(ctx)}`,
+  karte: (f, ctx, i, n) => `
+    ${kopf(ctx, `${i}/${n}`)}
+    <h2>${markierenTitel(f.titel || "Auf einen Blick")}</h2>
+    <ol class="schritte karte">${(f.schritte || []).map((s) => (typeof s === "string" ? `<li><b>${markieren(s)}</b></li>` : `<li><div><b>${markieren(s.titel)}</b>${s.text ? `<span>${markieren(s.text)}</span>` : ""}</div></li>`)).join("")}</ol>
     ${fuss(ctx)}`,
   merke: (f, ctx, i, n) => `
     ${kopf(ctx, `${i}/${n}`)}

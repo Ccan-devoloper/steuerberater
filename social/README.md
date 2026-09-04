@@ -52,7 +52,7 @@ individuelle Steuerberatung. Höchstens 15 Antworten je Lauf (`IG_MAX_ANTWORTEN`
 ### 2. Meta-App und Zugriffstoken
 Empfohlen: **Instagram-API mit Instagram-Login** (kein Facebook-Seitenzwang).
 1. https://developers.facebook.com → *Meine Apps* → *App erstellen* → Anwendungsfall „Instagram“ (Business).
-2. Im App-Dashboard unter **Instagram → API-Einrichtung mit Instagram-Login**: das Instagram-Konto hinzufügen und die Berechtigungen `instagram_business_basic`, `instagram_business_content_publish` und `instagram_business_manage_comments` (Kommentar-Antworten) bestätigen.
+2. Im App-Dashboard unter **Instagram → API-Einrichtung mit Instagram-Login**: das Instagram-Konto hinzufügen und die Berechtigungen `instagram_business_basic`, `instagram_business_content_publish`, `instagram_business_manage_comments` (Kommentar-Antworten), `instagram_business_manage_insights` (Lernschleife) und `instagram_business_manage_messages` (Karten per Nachricht) bestätigen.
 3. Dort **„Token generieren“** → es entsteht ein **langlebiger Token (60 Tage)**. Den Token und die angezeigte **Instagram-Konto-ID** kopieren.
 4. Der Bot verlängert den Token **automatisch** (spätestens 20 Tage vor Ablauf) und legt ihn verschlüsselt im Asset-Zweig ab. Dafür braucht er einen frei gewählten Schlüssel (`IG_TOKEN_KEY`, beliebige lange Zeichenkette). Es ist danach keine manuelle Erneuerung mehr nötig.
 
@@ -168,6 +168,13 @@ social/
     stile.mjs       drei Stile + Icon-Set
     vorlagen.mjs    HTML/CSS der Folien- und Story-Arten
     interaktion.mjs Kommentare lesen, Antworten formulieren, posten
+    insights.mjs    Lernschleife: Statistiken lesen, Strategie ableiten
+    kalender.mjs    Saisonkalender des Prüfungsjahres
+    faktencheck.mjs zweiter Prüfaufruf je Text
+    verteilen.mjs   Threads, YouTube, Facebook, TikTok, LinkedIn
+    nachrichten.mjs Schlüsselwort → Karte per Direktnachricht
+    bericht.mjs     Wochenbericht per E-Mail
+    kosten.mjs      API-Verbrauch mitschreiben
     reel.mjs        Reel: Zeitplan, Frame-Animation, ffmpeg-Schnitt
     stimme.mjs      Sprecherstimme (ElevenLabs mit Wort-Zeitmarken)
     render.mjs      Playwright → JPEG
@@ -214,6 +221,68 @@ ein Reel statt eines Carousels.
 Lokal testen: `node src/reel.mjs beispiele/reel.json beispiele/reel-out` baut das Beispiel-Reel
 mit der besten verfügbaren Stimme (`IG_STIMME=aus` für ein stummes Storyboard). Voraussetzung: `ffmpeg`
 im Pfad (auf den GitHub-Runnern vorinstalliert) oder `FFMPEG_PATH`.
+
+## Wachstumsbausteine (alle automatisch)
+
+**Lernschleife.** Einmal täglich liest der Bot die Instagram-Statistiken (Reichweite, Speicherungen,
+Teilungen, Likes, Kommentare, Reel-Aufrufe) für alle Beiträge der letzten 30 Tage und die Online-Zeiten
+der Follower. Daraus entsteht `state/strategie.json`: Gewichte je Format, Fach und Hook-Typ
+(Frage / Fehler / Zahl / Aussage) sowie die drei besten Uhrzeiten. Ab sechs bewerteten Beiträgen
+passt der Planer den Wochenplan an (schwache Formate weichen dem stärksten), der Autor wählt aus
+drei Hook-Varianten die nach Erfahrung beste, und die Beiträge wandern zu den Uhrzeiten, zu denen
+die Follower online sind. Berechtigung in der Meta-App: `instagram_business_manage_insights`.
+Abschaltbar mit `IG_LERNEN=false`.
+
+**Reels täglich.** Jeden Tag um 18 Uhr ein Kurz-Reel (20–35 s, ein Aha-Punkt), sonntags ein langes
+Schema-Reel (bis 60 s). Stimme: Piper „Thorsten“ oder ElevenLabs (siehe oben).
+
+**Spickzettel.** Donnerstags und samstags ein Beitrag, dessen zweite Folie das komplette Prüfschema
+als dichte Karte zeigt – das Format, das am meisten gespeichert und geteilt wird. Der CTA lautet
+„Kommentiere SCHEMA, dann schicke ich dir die Karte als Nachricht“ (Schlüsselwort: `IG_SCHLUESSELWORT`).
+
+**Schlüsselwort-Nachrichten.** Wer unter einem Spickzettel das Schlüsselwort kommentiert, bekommt die
+Karte als Bild per Direktnachricht (private Antwort auf den Kommentar, bis 7 Tage danach möglich).
+Voraussetzung: Berechtigung `instagram_business_manage_messages` mit **Advanced Access**. Dafür
+verlangt Meta einmalig eine App-Prüfung („App Review“): im App-Dashboard unter *App-Prüfung →
+Berechtigungen und Features* die Berechtigung beantragen, Anwendungsfall beschreiben („Automatische
+Antwort mit Lernkarte auf Kommentare mit Schlüsselwort unter eigenen Beiträgen“) und ein kurzes
+Bildschirmvideo hochladen. Bis zur Freigabe setzt der Bot den Versand selbständig aus und versucht
+es täglich neu; alles andere läuft normal. Abschaltbar mit `IG_NACHRICHTEN=false`.
+
+**Saisonkalender.** An Terminen des Prüfungsjahres wird der erste Beitrag des Tages zum Anlass-Beitrag:
+100/60/30/14/7/3/1 Tage vor der schriftlichen Prüfung, die drei Prüfungstage, der Tag danach,
+Anmeldeschluss 30. April, Vorbereitung auf die mündliche Prüfung (Mitte Januar), Jahreswechsel.
+Alle Texte kennen außerdem die Phase im Prüfungsjahr (Grundlagen, Aufbau, heiße Phase, Endspurt).
+
+**Faktencheck.** Jeder Beitrag und jedes Reel-Skript geht vor der Veröffentlichung durch einen zweiten,
+unabhängigen Prüfaufruf (Normen, Fristen, Prozentsätze, Rechtsstand). Eindeutige Fehler gehen mit
+Korrekturvorschlag an den Autor zurück. Abschaltbar mit `IG_FAKTENCHECK=false`.
+
+**Suchtext.** Die erste Caption-Zeile nennt das Thema mit den Wörtern, die jemand bei Instagram oder
+Google eintippen würde – Beiträge tauchen so auch in der Suche auf.
+
+**Weiterverteilen auf andere Plattformen.** Jeder Kanal ist aktiv, sobald seine Zugangsdaten hinterlegt
+sind; Fehler auf einem Kanal berühren Instagram nie.
+
+| Kanal | Was | Einmalige Einrichtung | Secrets / Variablen |
+| --- | --- | --- | --- |
+| Threads | Beiträge als Bild-Carousel + Text, Reels als Video | Meta-App: Anwendungsfall „Threads API“ hinzufügen, Threads-Konto verbinden, langlebigen Token erzeugen (60 Tage; der Bot verlängert ihn wie den Instagram-Token) | `THREADS_ACCESS_TOKEN`, `THREADS_USER_ID` |
+| YouTube Shorts | Reels als Shorts | Google Cloud: Projekt, YouTube Data API v3 aktivieren, OAuth-Client (Desktop), einmal per OAuth-Playground `youtube.upload` freigeben → Refresh-Token (läuft nicht ab, solange die App „In Produktion“ steht) | `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` |
+| Facebook-Seite | Beiträge als Foto-Post, Reels als Reel | Facebook-Seite anlegen, Seiten-Token ohne Ablauf (über langlebigen Nutzer-Token) mit `pages_manage_posts`, `pages_read_engagement` | `FB_PAGE_TOKEN`, `FB_PAGE_ID` |
+| TikTok | Reels | TikTok for Developers: App mit „Content Posting API“ (Direct Post), Prüfung durch TikTok, Refresh-Token (365 Tage) | `TT_CLIENT_KEY`, `TT_CLIENT_SECRET`, `TT_REFRESH_TOKEN` |
+| LinkedIn | Beiträge als Text mit Titelbild auf dem eigenen Profil | LinkedIn-App mit „Share on LinkedIn“, Token mit `w_member_social` (60 Tage – LinkedIn erneuert nicht automatisch; der Wochenbericht meldet, wenn er abläuft) | `LI_ACCESS_TOKEN`, `LI_PERSON_URN` |
+
+**Wochenbericht.** Montags beim ersten Lauf: Follower und Zuwachs, Reichweite, Beiträge/Stories/Reels,
+beantwortete Kommentare, verschickte Karten, Kosten der Woche, beste Beiträge, gelernte Gewichte,
+Fehler. Liegt immer unter `state/berichte/` im Asset-Zweig und geht per E-Mail, wenn SMTP
+konfiguriert ist:
+
+| Name | Typ | Beispiel |
+| --- | --- | --- |
+| `BERICHT_EMAIL` | Variable | deine Adresse |
+| `SMTP_HOST` / `SMTP_PORT` | Variable | `smtp.gmail.com` / `587` (Gmail: App-Passwort nötig), `mail.gmx.net` / `587`, `smtp.web.de` / `587` |
+| `SMTP_USER` / `SMTP_PASS` | Secret | Postfach und Passwort bzw. App-Passwort |
+| `SMTP_FROM` | Variable | Absender (Standard: `SMTP_USER`) |
 
 ## Was der Bot bewusst nicht tut
 

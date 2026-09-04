@@ -12,6 +12,7 @@ import path from "node:path";
 import { CONFIG } from "./config.mjs";
 import { themenpool, FAECHER } from "./inhalte.mjs";
 import { heuteIso, wochentag, minutenVon, hhmm, tageBis } from "./zeit.mjs";
+import { anlassFuer } from "./kalender.mjs";
 
 /* Mulberry32 – kleiner, reproduzierbarer Zufallsgenerator. */
 function rng(seedText) {
@@ -37,6 +38,8 @@ export const FORMAT_QUELLEN = {
   fehlerfalle:    ["modul", "karteikarte"],
   schema:         ["modul", "schema"],
   rechenweg:      ["formel", "modul"],
+  spickzettel:    ["modul", "schema"],
+  anlass:         ["modul", "karteikarte"],
   reel:           ["modul", "schema", "karteikarte"],
   minifall:       ["modul", "karteikarte"],
   vergleich:      ["modul", "karteikarte", "begriff"],
@@ -45,12 +48,13 @@ export const FORMAT_QUELLEN = {
   aktuell:        [],
 };
 
-function gewichteteWahl(kandidaten, zufall, ledger) {
+function gewichteteWahl(kandidaten, zufall, ledger, strategie = null) {
   const g = CONFIG.plan.prioritaetGewicht;
   const zaehler = ledger.fachZaehler || {};
   const minFach = Math.min(...Object.keys(FAECHER).map((f) => zaehler[f] || 0));
+  const fachGewicht = (CONFIG.plan.lernen && strategie?.fachGewicht) || {};
   const gewichte = kandidaten.map((t) => {
-    let w = g[t.prioritaet] || 10;
+    let w = (g[t.prioritaet] || 10) * (fachGewicht[t.fach] ?? 1);
     /* Fächer, die zuletzt seltener dran waren, bekommen einen Bonus –
        so bleibt das Profil für alle drei Klausuren interessant. */
     const rueckstand = (zaehler[t.fach] || 0) - minFach;
@@ -84,14 +88,27 @@ function storyZeiten(anzahl, zufall) {
  * Baut den Tagesplan.
  * @returns {{datum, beitraege:[{slot, zeit, format, thema}], stories:[{slot, zeit, art, thema?, beitragSlot?}]}}
  */
-export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = themenpool()) {
+export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = themenpool(), strategie = null) {
   const zufall = rng(`plan:${datum}`);
   const wt = wochentag(new Date(`${datum}T12:00:00Z`));
   const wochenende = wt === 0 || wt === 6;
   const anzahl = wochenende ? CONFIG.plan.beitraegeWochenende : CONFIG.plan.beitraegeWerktag;
   const formate = (CONFIG.plan.formateJeWochentag[wt] || ["pruefungsfrage", "fehlerfalle", "schema"]).slice(0, anzahl);
+  /* Lernschleife: ein Format, das deutlich schlechter läuft als der Schnitt, wird an
+     diesem Tag durch das beste Format ersetzt (nie „aktuell“/„wochenrueckblick“). */
+  const fg = (CONFIG.plan.lernen && strategie?.formatGewicht) || {};
+  const bestes = Object.entries(fg).filter(([k]) => !["aktuell", "wochenrueckblick", "reel", "anlass"].includes(k)).sort((a, b) => b[1] - a[1])[0];
+  if (bestes && bestes[1] >= 1.2) {
+    const schwach = formate.findIndex((f) => (fg[f] ?? 1) <= 0.75 && !["aktuell", "wochenrueckblick"].includes(f));
+    if (schwach >= 0 && !formate.includes(bestes[0])) formate[schwach] = bestes[0];
+  }
   /* Reel-Tage: der letzte Beitrag des Tages wird ein Reel (Video mit Stimme). */
   if (CONFIG.reel.aktiv && CONFIG.reel.tage.includes(wt) && formate.length) formate[formate.length - 1] = "reel";
+  /* Anlasstage (Countdown, Prüfungstag …): der erste Beitrag wird zum Anlass. */
+  const anlass = anlassFuer(datum);
+  if (anlass && formate.length) formate[0] = "anlass";
+  /* Beste Uhrzeiten aus den Online-Zeiten der Follower, sonst Standard. */
+  const zeiten = (CONFIG.plan.lernen && strategie?.besteStunden?.length === 3) ? strategie.besteStunden : CONFIG.plan.beitragsZeiten;
   const benutzt = new Set();
   const ledgerKopie = { ...ledger, fachZaehler: { ...(ledger.fachZaehler || {}) } };
 
@@ -100,11 +117,11 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
     let thema = null;
     if (typen.length) {
       const kandidaten = verfuegbar(pool, ledgerKopie, datum, benutzt).filter((t) => typen.includes(t.typ));
-      thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie);
+      thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie, strategie);
       benutzt.add(thema.id);
       ledgerKopie.fachZaehler[thema.fach] = (ledgerKopie.fachZaehler[thema.fach] || 0) + 1;
     }
-    return { slot: `b${i + 1}`, zeit: CONFIG.plan.beitragsZeiten[i] || CONFIG.plan.beitragsZeiten.at(-1), format, thema };
+    return { slot: `b${i + 1}`, zeit: zeiten[i] || zeiten.at(-1), format, thema, anlass: format === "anlass" ? anlass : undefined, lang: format === "reel" ? CONFIG.reel.langeTage.includes(wt) : undefined };
   });
 
   /* Stories: Teaser je Beitrag + eigenständige Karten, bis zur Tagesmenge. */
@@ -122,7 +139,7 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
     if (typen) {
       const kandidaten = verfuegbar(pool, ledgerKopie, datum, benutzt).filter((t) => typen.includes(t.typ));
       if (!kandidaten.length) continue;
-      thema = gewichteteWahl(kandidaten, zufall, ledgerKopie);
+      thema = gewichteteWahl(kandidaten, zufall, ledgerKopie, strategie);
       benutzt.add(thema.id);
     }
     /* Frage und Antwort sind zwei Stories. */
@@ -133,13 +150,13 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
       stories.push({ art, thema, tageBisExamen: art === "countdown" ? tageBisExamen : undefined });
     }
   }
-  const zeiten = storyZeiten(stories.length, zufall);
-  stories.forEach((s, i) => { s.slot = `s${i + 1}`; if (!s.zeit) s.zeit = zeiten[i]; });
+  const storyZeitenListe = storyZeiten(stories.length, zufall);
+  stories.forEach((s, i) => { s.slot = `s${i + 1}`; if (!s.zeit) s.zeit = storyZeitenListe[i]; });
   /* Auflösung direkt hinter der Frage – niemand kommt für die Antwort zurück. */
   for (let i = 0; i < stories.length; i++) if (stories[i].art === "antwort") stories[i].zeit = stories[i - 1].zeit;
   stories.sort((a, b) => minutenVon(a.zeit) - minutenVon(b.zeit));
 
-  return { datum, wochentag: wt, beitraege, stories };
+  return { datum, wochentag: wt, beitraege, stories, anlass };
 }
 
 /* Nach einer Veröffentlichung im Ledger vermerken. */
