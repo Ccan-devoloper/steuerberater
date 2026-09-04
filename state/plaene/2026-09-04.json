@@ -31,7 +31,9 @@
       "themaId": "bilanz-modul-k3-43",
       "themaTitel": "Übernommene Verpflichtungen und Schuldbeitritt",
       "fach": "bilanz",
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T22:02:16.881Z"
     }
   ],
   "stories": [

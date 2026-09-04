@@ -139,12 +139,23 @@
       "fach": "ao",
       "titel": "Wann darf ich einen verjährten Fehler noch über § 177 AO ausgleichen?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "beitrag",
+      "slot": "b3",
+      "format": "rechenweg",
+      "thema": "bilanz-modul-k3-43",
+      "fach": "bilanz",
+      "titel": "Schuldbeitritt: Wie viel Aufwand darfst du sofort abziehen?",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 1,
     "kst": 1,
-    "ao": 1
+    "ao": 1,
+    "bilanz": 1
   }
 }
