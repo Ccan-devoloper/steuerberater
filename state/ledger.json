@@ -279,6 +279,16 @@
       "fach": "bilanz",
       "titel": "Direkt rechnen, nicht zurückrechnen",
       "medienId": "17898664656375097"
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "story",
+      "slot": "s5",
+      "storyArt": "norm",
+      "thema": "istr-modul-istr-istr2-06",
+      "fach": "istr",
+      "titel": "Betriebsstätte vor Gewinnzuordnung",
+      "medienId": "18205128205317883"
     }
   ],
   "fachZaehler": {
