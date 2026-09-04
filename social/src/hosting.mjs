@@ -111,7 +111,7 @@ export class Hosting {
     while (Date.now() - start < maxSekunden * 1000) {
       try {
         const res = await fetch(url, { method: "HEAD", cache: "no-store" });
-        if (res.ok && /image\/jpeg/.test(res.headers.get("content-type") || "")) return true;
+        if (res.ok && /(image\/jpeg|video\/mp4|application\/octet-stream)/.test(res.headers.get("content-type") || "")) return true;
         letzter = `${res.status} ${res.headers.get("content-type")}`;
       } catch (e) { letzter = e.message; }
       await schlafen(5000);

@@ -184,6 +184,14 @@ export class Instagram {
     return this.veroeffentlichen(carousel.id);
   }
 
+  /* Reel (Video 9:16, MP4/H.264/AAC). Die Verarbeitung dauert länger als bei Bildern. */
+  async reelPosten({ videoUrl, caption, coverUrl }) {
+    if (this.trockenlauf) { this.protokoll.push({ art: "reel", videoUrl, caption }); return "trocken"; }
+    const c = await this.anfrage("POST", `${this.kontoId}/media`, { media_type: "REELS", video_url: videoUrl, caption, share_to_feed: "true", cover_url: coverUrl });
+    await this.containerWarten(c.id, { maxSekunden: 900 });
+    return this.veroeffentlichen(c.id);
+  }
+
   async storyPosten({ bildUrl }) {
     if (this.trockenlauf) { this.protokoll.push({ art: "story", bildUrl }); return "trocken"; }
     const c = await this.anfrage("POST", `${this.kontoId}/media`, { image_url: bildUrl, media_type: "STORIES" });

@@ -37,6 +37,7 @@ export const FORMAT_QUELLEN = {
   fehlerfalle:    ["modul", "karteikarte"],
   schema:         ["modul", "schema"],
   rechenweg:      ["formel", "modul"],
+  reel:           ["modul", "schema", "karteikarte"],
   minifall:       ["modul", "karteikarte"],
   vergleich:      ["modul", "karteikarte", "begriff"],
   klausurtechnik: ["modul", "formel"],
@@ -89,6 +90,8 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   const wochenende = wt === 0 || wt === 6;
   const anzahl = wochenende ? CONFIG.plan.beitraegeWochenende : CONFIG.plan.beitraegeWerktag;
   const formate = (CONFIG.plan.formateJeWochentag[wt] || ["pruefungsfrage", "fehlerfalle", "schema"]).slice(0, anzahl);
+  /* Reel-Tage: der letzte Beitrag des Tages wird ein Reel (Video mit Stimme). */
+  if (CONFIG.reel.aktiv && CONFIG.reel.tage.includes(wt) && formate.length) formate[formate.length - 1] = "reel";
   const benutzt = new Set();
   const ledgerKopie = { ...ledger, fachZaehler: { ...(ledger.fachZaehler || {}) } };
 

@@ -93,6 +93,7 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_ACCESS_TOKEN` | Instagram-Token aus Schritt 2 |
 | `IG_ACCOUNT_ID` | Instagram-Konto-ID (Zahl) |
 | `IG_TOKEN_KEY` | frei gewählter Schlüssel für den Token-Tresor |
+| `ELEVENLABS_API_KEY` | *optional*: Schlüssel von elevenlabs.io – schaltet Reels mit Sprecherstimme frei |
 
 **Variables** (Reiter *Variables*)
 
@@ -104,6 +105,8 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_MARKE` | leer | Kanalname im Prompt (nicht auf den Kacheln) |
 | `IG_STIL_WECHSEL` | `true` | Kanzlei-Stil im Wechsel Schwarz/Weiß |
 | `IG_INTERAKTION` | `true` | Kommentare automatisch beantworten |
+| `ELEVENLABS_VOICE_ID` | *(Voice ID)* | Stimme für Reels; Reels laufen nur mit Secret `ELEVENLABS_API_KEY` |
+| `IG_REELS` | `true` | Reels abschalten mit `false` |
 | `IG_GRAPH_HOST` | `instagram` | `instagram` (Instagram-Login) oder `facebook` (Seiten-Token) |
 | `IG_EXAMEN_DATUM` / `IG_EXAMEN_ENDE` | `2026-10-06` / `2026-10-08` | Countdown; nach der Prüfung auf das Folgejahr setzen (bundeseinheitlich Anfang Oktober) |
 
@@ -146,6 +149,8 @@ social/
     stile.mjs       drei Stile + Icon-Set
     vorlagen.mjs    HTML/CSS der Folien- und Story-Arten
     interaktion.mjs Kommentare lesen, Antworten formulieren, posten
+    reel.mjs        Reel: Zeitplan, Frame-Animation, ffmpeg-Schnitt
+    stimme.mjs      Sprecherstimme (ElevenLabs mit Wort-Zeitmarken)
     render.mjs      Playwright → JPEG
     hosting.mjs     Asset-Zweig: Bilder, Zustand, öffentliche URLs
     instagram.mjs   Graph API: Container, Carousel, Stories, Limit, Token-Tresor
@@ -157,6 +162,35 @@ social/
   test/             node --test
 ```
 
+## Reels (Video mit Sprecherstimme)
+
+Reels sind der größte Reichweiten-Hebel auf Instagram. Der Bot baut sie aus einem Skript mit
+6–8 Szenen: Bildschirmtext (Essenz) plus Sprechertext (Erklärung), 45–60 Sekunden, Hochformat,
+mitlaufende Untertitel Wort für Wort, dezentes Klangbett, Cover-Bild. Format: MP4, H.264, AAC,
+1080×1920, 30 fps – direkt über die Graph API als `REELS` veröffentlicht (`share_to_feed`).
+
+**Stimme.** Die Sprecherstimme kommt von [ElevenLabs](https://elevenlabs.io) (Modell `eleven_v3`),
+derzeit die natürlichsten deutschen Stimmen. Der Sprechertext wird bewusst fürs Sprechen
+geschrieben: kurze Hauptsätze, Pausen, „Also:“, „Kurz gesagt:“ – nicht Lehrbuch. ElevenLabs liefert
+Wort-Zeitmarken, daran hängen die Untertitel exakt.
+
+Einrichtung (5 Minuten):
+1. https://elevenlabs.io → Konto anlegen. Der Tarif **Starter** (etwa 5 $/Monat, 30.000 Zeichen)
+   reicht für drei Reels pro Woche (ein Reel ≈ 900 Zeichen).
+2. Unter *Voices* eine deutsche Stimme wählen (Voice Library → Sprache Deutsch → z. B. eine ruhige,
+   erwachsene Erzählstimme) und ihre **Voice ID** kopieren. Anhören lohnt sich: Die Stimme prägt den Kanal.
+3. Unter *API Keys* einen Schlüssel erzeugen.
+4. Im Repository: Secret `ELEVENLABS_API_KEY` (der Schlüssel) und Variable `ELEVENLABS_VOICE_ID`
+   (die Voice ID). Fertig – Reels sind damit automatisch aktiv.
+
+Rhythmus: An Reel-Tagen (Standard Di, Do, Sa – `reel.tage` in `src/config.mjs`) ist der 18-Uhr-Beitrag
+ein Reel statt eines Carousels. Ohne ElevenLabs-Schlüssel bleibt alles beim Carousel; mit
+`IG_REELS=false` lassen sich Reels trotz Schlüssel abschalten.
+
+Lokal testen: `node src/reel.mjs beispiele/reel.json beispiele/reel-out` baut das Beispiel-Reel;
+ohne Schlüssel stumm mit Platzhalter-Timing, mit Schlüssel mit Stimme. Voraussetzung: `ffmpeg`
+im Pfad (auf den GitHub-Runnern vorinstalliert) oder `FFMPEG_PATH`.
+
 ## Was der Bot bewusst nicht tut
 
 - Kein automatisches Folgen, Liken oder Kommentieren fremder Konten – das verstößt gegen die
@@ -164,8 +198,6 @@ social/
   Interaktion findet nur unter den eigenen Beiträgen statt (Antworten auf Kommentare).
 - Keine Sticker (Umfragen, Quiz-Sticker) in Stories – die API unterstützt sie nicht; Quiz-Stories arbeiten
   deshalb mit Frage- und Auflösungskarte.
-- Keine Reels. Das ist der größte Reichweiten-Hebel, den der Bot noch nicht hat; die Folien ließen sich
-  später zu kurzen Videos animieren.
 
 ## Grenzen und Ehrlichkeit
 

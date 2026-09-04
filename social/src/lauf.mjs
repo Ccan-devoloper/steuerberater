@@ -19,7 +19,8 @@ import { fileURLToPath } from "node:url";
 import { CONFIG } from "./config.mjs";
 import { themenpool } from "./inhalte.mjs";
 import { tagesplan, ledgerLaden, ledgerSpeichern, vermerken } from "./planer.mjs";
-import { beitragSchreiben, storiesSchreiben, teaserAusBeitrag, aktuellRecherchieren } from "./autor.mjs";
+import { beitragSchreiben, storiesSchreiben, teaserAusBeitrag, aktuellRecherchieren, reelSchreiben } from "./autor.mjs";
+import { reelBauen } from "./reel.mjs";
 import { beitragRendern, storyRendern, browserBeenden } from "./render.mjs";
 import { Instagram } from "./instagram.mjs";
 import { Hosting } from "./hosting.mjs";
@@ -111,6 +112,26 @@ async function main() {
     if (frei() <= 0) { log("Tageskontingent erschöpft – Beitrag verschoben."); break; }
     try {
       log(`Beitrag ${eintrag.slot} (${eintrag.format}) ${eintrag.themaTitel || ""}`);
+      if (eintrag.format === "reel") {
+        let reel = hosting.jsonLesen(`inhalte/${datum}-${eintrag.slot}.json`, null);
+        if (!reel) {
+          reel = await reelSchreiben({ thema: eintrag.themaId ? poolIndex.get(eintrag.themaId) : null, datum });
+          reel.slug = `${datum}-${eintrag.slot}`;
+          hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, reel);
+        }
+        const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteBeitrag(eintrag.slot) });
+        const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Reel ${datum} ${eintrag.slot}`);
+        const caption = `${reel.caption}\n\n${reel.hashtags.join(" ")}`;
+        const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption });
+        kontingent.genutzt += 1;
+        eintrag.status = "veroeffentlicht"; eintrag.medienId = medienId; eintrag.veroeffentlicht = new Date().toISOString();
+        vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, medienId });
+        fertigeBeitraege.set(eintrag.slot, { ...reel, folien: [{ art: "titel", titel: reel.szenen[0]?.titel, icon: reel.szenen[0]?.icon }], kurztitel: reel.kurztitel });
+        ledgerSpeichern(ledgerPfad, ledger); planSpeichern(hosting, plan);
+        hosting.commit(`Veröffentlicht: Reel ${datum} ${eintrag.slot}`); await hosting.push();
+        log(`  ✓ Reel ${medienId} (${r.dauer.toFixed(0)} s, Stimme: ${r.echt ? "ElevenLabs" : "stumm"})`);
+        continue;
+      }
       let beitrag = hosting.jsonLesen(`inhalte/${datum}-${eintrag.slot}.json`, null);
       if (!beitrag) {
         const thema = eintrag.themaId ? poolIndex.get(eintrag.themaId) : null;
