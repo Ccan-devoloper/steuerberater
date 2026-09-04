@@ -151,10 +151,14 @@ test("Token-Tresor verschlüsselt und entschlüsselt", () => {
 test("Reel: Zeitplan ohne Stimme, Frames-Seite mit Untertiteln, Format nur mit Stimme im Plan", async () => {
   const { zeitplanErstellen } = await import("../src/reel.mjs");
   const reel = JSON.parse(fs.readFileSync(new URL("../beispiele/reel.json", import.meta.url), "utf8"));
+  process.env.IG_STIMME = "aus";
   const plan = await zeitplanErstellen(reel, "/tmp/ig-test-audio");
   assert.equal(plan.szenen.length, reel.szenen.length);
   assert.ok(plan.gesamt > 30 && plan.gesamt <= CONFIG.reel.maxSekunden, `Dauer ${plan.gesamt}`);
-  assert.equal(plan.echt, false);
+  const { saetze, woerterVerteilen } = await import("../src/stimme.mjs");
+  assert.deepEqual(saetze("Erstens: Gibt es eine Verpflichtung? Ja. Und zwar nach außen."), ["Erstens: Gibt es eine Verpflichtung?", "Ja.", "Und zwar nach außen."]);
+  const w = woerterVerteilen("Rückstellung ja oder nein", 4, 10);
+  assert.equal(w.length, 4); assert.equal(w[0].von, 10); assert.ok(Math.abs(w.at(-1).bis - 14) < 1e-9);
   for (let i = 1; i < plan.szenen.length; i++) assert.ok(plan.szenen[i].start > plan.szenen[i - 1].start);
   const woerter = plan.szenen.flatMap((s) => s.woerter);
   assert.ok(woerter.every((w) => w.bis > w.von));

@@ -129,7 +129,7 @@ async function main() {
         fertigeBeitraege.set(eintrag.slot, { ...reel, folien: [{ art: "titel", titel: reel.szenen[0]?.titel, icon: reel.szenen[0]?.icon }], kurztitel: reel.kurztitel });
         ledgerSpeichern(ledgerPfad, ledger); planSpeichern(hosting, plan);
         hosting.commit(`Veröffentlicht: Reel ${datum} ${eintrag.slot}`); await hosting.push();
-        log(`  ✓ Reel ${medienId} (${r.dauer.toFixed(0)} s, Stimme: ${r.echt ? "ElevenLabs" : "stumm"})`);
+        log(`  ✓ Reel ${medienId} (${r.dauer.toFixed(0)} s, Stimme: ${r.anbieter})`);
         continue;
       }
       let beitrag = hosting.jsonLesen(`inhalte/${datum}-${eintrag.slot}.json`, null);

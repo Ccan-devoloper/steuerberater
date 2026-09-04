@@ -29,10 +29,10 @@ export async function zeitplanErstellen(reel, audioDir) {
     const vorlauf = i === 0 ? 0.35 : 0.25;
     const nachlauf = s.art === "cta" ? 1.2 : 0.55;
     const dauer = vorlauf + stimme.dauer + nachlauf;
-    szenen.push({ ...s, index: i, start: t, dauer, audioStart: t + vorlauf, audio: stimme.datei, woerter: stimme.woerter.map((w) => ({ ...w, von: w.von + t + vorlauf, bis: w.bis + t + vorlauf })), echt: stimme.echt });
+    szenen.push({ ...s, index: i, start: t, dauer, audioStart: t + vorlauf, audio: stimme.datei, woerter: stimme.woerter.map((w) => ({ ...w, von: w.von + t + vorlauf, bis: w.bis + t + vorlauf })), echt: stimme.echt, anbieter: stimme.anbieter });
     t += dauer;
   }
-  return { szenen, gesamt: Math.min(t, CONFIG.reel.maxSekunden), echt: szenen.every((s) => s.echt) };
+  return { szenen, gesamt: Math.min(t, CONFIG.reel.maxSekunden), echt: szenen.every((s) => s.echt), anbieter: szenen[0]?.anbieter || "aus" };
 }
 
 /* Die Seite: alle Szenen im DOM, Sichtbarkeit und Animation über setzeZeit(t). */
@@ -186,7 +186,7 @@ export async function reelBauen(reel, ausgabeDir, opt = {}) {
   execFileSync(ffmpegPfad(), args, { stdio: ["ignore", "pipe", "pipe"] });
   fs.copyFileSync(path.join(frameDir, `f${String(Math.min(n - 1, Math.round(0.9 * fps))).padStart(5, "0")}.jpg`), cover);
   if (!opt.framesBehalten) fs.rmSync(frameDir, { recursive: true, force: true });
-  return { video, cover, dauer: plan.gesamt, echt: plan.echt, szenen: plan.szenen.length };
+  return { video, cover, dauer: plan.gesamt, echt: plan.echt, anbieter: plan.anbieter, szenen: plan.szenen.length };
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
@@ -195,7 +195,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const ziel = process.argv[3] || new URL("../beispiele/reel-out", import.meta.url).pathname;
   const t0 = Date.now();
   const r = await reelBauen(reel, ziel, { framesBehalten: process.argv.includes("--frames") });
-  console.log(`${r.video} · ${r.dauer.toFixed(1)} s · ${r.szenen} Szenen · Stimme: ${r.echt ? "ElevenLabs" : "Platzhalter (stumm)"} · ${((Date.now() - t0) / 1000).toFixed(0)} s`);
+  console.log(`${r.video} · ${r.dauer.toFixed(1)} s · ${r.szenen} Szenen · Stimme: ${r.anbieter} · ${((Date.now() - t0) / 1000).toFixed(0)} s`);
   const { browserBeenden } = await import("./render.mjs");
   await browserBeenden();
 }

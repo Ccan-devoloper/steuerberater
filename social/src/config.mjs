@@ -76,13 +76,14 @@ export const CONFIG = {
 
   /* Reels: kurze Videos aus den Beiträgen mit Sprecherstimme --------------- */
   reel: {
-    /* Reels laufen nur, wenn ein ElevenLabs-Schlüssel gesetzt ist (Stimme). */
-    aktiv: env("IG_REELS", process.env.ELEVENLABS_API_KEY ? "true" : "false") === "true",
+    /* Reels sind standardmäßig aktiv; die Stimme kommt von ElevenLabs (Schlüssel)
+       oder kostenlos von Piper (im Workflow installiert). Siehe stimme.mjs. */
+    aktiv: env("IG_REELS", "true") === "true",
     elevenlabsKey: env("ELEVENLABS_API_KEY", ""),
     stimme: env("ELEVENLABS_VOICE_ID", "kFoQc0CRFQgSvKiqnxaW"),   // eine natürliche deutsche Stimme; beliebig austauschbar
     modell: env("ELEVENLABS_MODEL", "eleven_v3"),
     fps: 30,
-    maxSekunden: 75,
+    maxSekunden: 90,
     hintergrundmusik: env("IG_REEL_MUSIK", "true") === "true",  // dezentes, synthetisch erzeugtes Klangbett
     /* Wochentage, an denen der 18-Uhr-Beitrag ein Reel ist (0 = So). */
     tage: [2, 4, 6],
