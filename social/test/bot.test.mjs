@@ -67,6 +67,9 @@ test("Tagesplan ist deterministisch, ohne Themen-Dopplung, mit Countdown vor dem
   const antwortenAbgezogen = ids.length - a.stories.filter((s) => s.art === "antwort").length;
   assert.equal(new Set(ids).size, antwortenAbgezogen, "Themen doppelt");
   assert.ok(a.stories.some((s) => s.art === "countdown"));
+  const fi = a.stories.findIndex((s) => s.art === "frage");
+  assert.equal(a.stories[fi + 1].art, "antwort");
+  assert.equal(a.stories[fi + 1].zeit, a.stories[fi].zeit);
   const so = tagesplan("2026-09-13", ledgerLaden(), pool);
   assert.equal(so.beitraege.length, 2);
   assert.equal(so.beitraege[0].format, "wochenrueckblick");

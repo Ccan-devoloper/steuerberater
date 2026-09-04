@@ -25,7 +25,7 @@ Themenpool (436 Themen)  →  Tagesplan  →  Claude schreibt  →  Prüfung  �
 Rechenweg · Mini-Fall (frei erfunden) · Gegenüberstellung · Klausurtechnik · Wochenrückblick (So) ·
 **Aktuell** (Mi, Web-Recherche: BFH, BMF, Gesetzesänderungen, Prüfungstermine).
 
-**Story-Arten**: Teaser zum Beitrag · Prüfungsfrage + Auflösung · Norm des Tages · Merksatz ·
+**Story-Arten**: Teaser zum Beitrag · Prüfungsfrage + Auflösung (direkt hintereinander) · Norm des Tages · Merksatz ·
 Rechenweg · Begriff · Fehlerfalle · Klausurtipp · Zahl des Tages · Countdown bis zur Prüfung.
 
 Themenwahl: gewichtet nach Examenspriorität der Webseite (🔴 60 % / 🟠 25 % / 🟢 15 %), Rotation über

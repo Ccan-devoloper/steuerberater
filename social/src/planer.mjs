@@ -135,8 +135,8 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   }
   const zeiten = storyZeiten(stories.length, zufall);
   stories.forEach((s, i) => { s.slot = `s${i + 1}`; if (!s.zeit) s.zeit = zeiten[i]; });
-  /* Antwort folgt der Frage nach kurzer Zeit. */
-  for (let i = 0; i < stories.length; i++) if (stories[i].art === "antwort") stories[i].zeit = hhmm(Math.min(minutenVon(stories[i - 1].zeit) + 45, 23 * 60 + 50));
+  /* Auflösung direkt hinter der Frage – niemand kommt für die Antwort zurück. */
+  for (let i = 0; i < stories.length; i++) if (stories[i].art === "antwort") stories[i].zeit = stories[i - 1].zeit;
   stories.sort((a, b) => minutenVon(a.zeit) - minutenVon(b.zeit));
 
   return { datum, wochentag: wt, beitraege, stories };
