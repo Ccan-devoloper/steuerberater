@@ -68,19 +68,27 @@ https://platform.claude.com → API-Schlüssel erstellen und Guthaben aufladen.
 Repositories gratis). Bezahlt wird nur das Schreiben der Texte: Für jeden Beitrag, jede Story-Runde,
 jede Recherche und jede Kommentarantwort ruft der Bot die Claude API auf, und Anthropic rechnet das
 nach verarbeiteten Wörtern (Tokens) ab – eine eigene Abrechnung mit Guthaben, unabhängig von einem
-Claude-Abo. Standardmodell ist `claude-opus-5` (5 $ je Million Eingabe-Tokens, 25 $ je Million
-Ausgabe-Tokens).
+Claude-Abo.
+
+Was in den ersten Läufen auffiel: Hoher Denkaufwand („effort high“) und drei Nachbesserungsrunden je
+Beitrag haben den Verbrauch etwa verdreifacht. Deshalb gilt jetzt: Beiträge und Reels mit
+`claude-opus-5` (5 $ / 25 $ je Million Tokens rein/raus) bei „effort medium“; Stories, Recherche und
+Kommentare mit `claude-sonnet-5` (2 $ / 10 $); der feste Prompt-Teil ist groß genug für
+Prompt-Caching (Cache-Lesen kostet ein Zehntel).
 
 | Aufruf | je Tag | Tokens rein / raus (ca.) | Kosten |
 | --- | --- | --- | --- |
-| Beitrag schreiben (inkl. Nachbesserung) | 3 | 6.000 / 2.500 | 0,28 $ |
-| Stories schreiben (ein Aufruf für alle) | 1 | 6.000 / 2.500 | 0,09 $ |
-| Web-Recherche (nur mittwochs) | 1/7 | 15.000 / 3.000 | 0,02 $ |
-| Kommentare beantworten | 3–5 | 3.000 / 500 | 0,08 $ |
+| Beitrag/Reel schreiben, Opus 5 (inkl. Nachbesserung) | 3 | 8.000 (meist aus dem Cache) / 4.000 | 0,33 $ |
+| Stories schreiben, Sonnet 5 (ein Aufruf für alle) | 1 | 8.000 / 3.000 | 0,04 $ |
+| Web-Recherche, Sonnet 5 (nur mittwochs) | 1/7 | 15.000 / 3.000 | 0,01 $ |
+| Kommentare beantworten, Sonnet 5 | 3–5 | 3.000 / 500 | 0,03 $ |
 
-Rund **0,45 $ ≈ 0,40 € pro Tag, also etwa 12 € im Monat**. Der stabile Teil des Prompts wird
-zwischengespeichert (Prompt-Caching), was die Eingabekosten stark senkt – real eher 0,25 € pro Tag.
-Mit `IG_KI_MODELL=claude-sonnet-5` (2 $ / 10 $) halbiert sich der Betrag noch einmal.
+Rund **0,40 $ ≈ 0,35 € pro Tag, also etwa 11 € im Monat**. Sparmodus: Variable
+`IG_KI_MODELL` = `claude-sonnet-5` stellt alles auf Sonnet um (≈ 4 € im Monat, Texte etwas einfacher).
+
+**Damit der Bot nie stehen bleibt:** In der Anthropic-Konsole unter *Organisations-Credits* →
+**„Automatisches Neuladen aktivieren“** einschalten (z. B. 10 $ nachladen, sobald das Guthaben unter
+5 $ fällt). Ohne Guthaben schlagen die Läufe fehl, bis wieder Guthaben da ist.
 
 ### 4. Secrets und Variablen im Repository setzen
 GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*

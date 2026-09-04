@@ -82,7 +82,7 @@ Sperrliste: ${korpus().namen.join(", ")}
 
 Gib für jede id an, ob geantwortet werden soll (antworten), den Grund bei Nein (grund) und den Antworttext (text, null bei Nein).`;
   const response = await client().messages.create({
-    model: CONFIG.ki.modell,
+    model: CONFIG.ki.modellNeben,
     max_tokens: 8000,
     system: [{ type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } }],
     messages: [{ role: "user", content: user }],
