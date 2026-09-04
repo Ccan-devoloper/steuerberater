@@ -239,13 +239,23 @@
       "fach": "bilanz",
       "titel": "Ansammlungsrückstellung",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "b1",
+      "format": "pruefungsfrage",
+      "thema": "ao-modul-ao-340",
+      "fach": "ao",
+      "titel": "Feststellungsfrist abgelaufen – geht der Feststellungsbescheid trotzdem raus?",
+      "medienId": "18140733574504407"
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 1,
     "kst": 1,
-    "ao": 1,
+    "ao": 2,
     "bilanz": 1
   }
 }
