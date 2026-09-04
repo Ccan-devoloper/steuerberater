@@ -69,6 +69,16 @@
       "fach": "kst",
       "titel": "Außerbilanziell – die Handelsbilanz bleibt unverändert.",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "story",
+      "slot": "s6",
+      "storyArt": "norm",
+      "thema": "bilanz-modul-k3-18",
+      "fach": "bilanz",
+      "titel": "Neue Tatsachen – Änderung trotz Bestandskraft",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {

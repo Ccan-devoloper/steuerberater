@@ -83,7 +83,9 @@
       "art": "norm",
       "themaId": "bilanz-modul-k3-18",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T18:53:10.561Z"
     },
     {
       "slot": "s7",
