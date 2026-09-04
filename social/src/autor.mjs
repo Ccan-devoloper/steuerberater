@@ -102,6 +102,18 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 
 ## Beispiel eines fertigen Beitrags (Format Prüfungsfrage)
 ${JSON.stringify({ folien: beispiele.beitraege[0].folien, caption: beispiele.beitraege[0].caption, hashtags: beispiele.beitraege[0].hashtags, kurztitel: "Teilwert-AfA: Pflicht oder Wahlrecht?" }, null, 1)}
+
+## Beispiel eines fertigen Beitrags (Format Fehlerfalle)
+${JSON.stringify({ folien: beispiele.beitraege[1].folien, caption: beispiele.beitraege[1].caption, hashtags: beispiele.beitraege[1].hashtags, kurztitel: "Anzahlung: Wann entsteht die USt?" }, null, 1)}
+
+## Beispiel eines fertigen Beitrags (Format Rechenweg)
+${JSON.stringify({ folien: beispiele.beitraege[2].folien, caption: beispiele.beitraege[2].caption, hashtags: beispiele.beitraege[2].hashtags, kurztitel: "Zinsstaffel beim Disagio" }, null, 1)}
+
+## Beispiel-Stories (Ton und Länge)
+${JSON.stringify(beispiele.stories, null, 1)}
+
+## Beispiel eines Reel-Skripts (Ton fürs Sprechen)
+${JSON.stringify(beispielReel.szenen, null, 1)}
 `;
 
 const FOLIE_SCHEMA = {
@@ -308,7 +320,7 @@ Wähle dann DIE eine Neuigkeit mit dem größten Examensbezug aus. Antworte mit:
 2. Notizen: Was ist passiert, was ist der Kern, was bedeutet es fürs Examen (max. 200 Wörter, eigene Worte)
 3. Quellen: 2–3 URLs`;
   const params = {
-    model: CONFIG.ki.modell,
+    model: CONFIG.ki.modellNeben,
     max_tokens: 16000,
     thinking: { type: "adaptive" },
     output_config: { effort: "medium" },
@@ -358,7 +370,7 @@ ${auftraege}
 Sperrliste (Namen nie verwenden): ${korpus().namen.join(", ")}
 
 Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder null. Gib genau einen Eintrag je Slot zurück.`;
-  const { daten } = await strukturiert({ system: SYSTEM, user, schema: STORY_SCHEMA, effort: "medium" });
+  const { daten } = await strukturiert({ system: SYSTEM, user, schema: STORY_SCHEMA, modell: CONFIG.ki.modellNeben, effort: "medium" });
   const nachSlot = new Map(daten.stories.map((s) => [s.slot, s]));
   return plan.map((p) => {
     const s = nachSlot.get(p.slot) || {};

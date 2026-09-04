@@ -56,8 +56,13 @@ export const CONFIG = {
 
   /* Claude API ----------------------------------------------------------- */
   ki: {
+    /* Beiträge und Reels: Opus 5 (präziseste Texte), Denkaufwand „medium“ –
+       „high“ kostete in den ersten Läufen das Mehrfache ohne sichtbaren Gewinn.
+       Stories, Recherche und Kommentare: Sonnet 5 (ein Fünftel des Preises).
+       Sparmodus: IG_KI_MODELL=claude-sonnet-5 setzt alles auf Sonnet. */
     modell: env("IG_KI_MODELL", "claude-opus-5"),
-    effort: env("IG_KI_EFFORT", "high"),
+    modellNeben: env("IG_KI_MODELL_NEBEN", env("IG_KI_MODELL", "claude-sonnet-5")),
+    effort: env("IG_KI_EFFORT", "medium"),
     maxVersuche: 3,
   },
 
