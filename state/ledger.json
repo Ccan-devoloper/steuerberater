@@ -169,6 +169,16 @@
       "fach": "bilanz",
       "titel": "Gilt die 10-%-Grenze des § 8b Abs. 4 KStG auch für Veräußerungsgewinne?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "story",
+      "slot": "s2",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": "§ 177 AO: Saldieren im Rahmen",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
