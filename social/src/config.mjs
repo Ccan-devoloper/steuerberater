@@ -91,12 +91,6 @@ export const CONFIG = {
     verzeichnis: env("IG_ASSET_DIR", "assets"),             // lokaler Checkout des Asset-Zweigs
   },
 
-  /* Fotos (optional): Pexels liefert kostenlose Stockfotos wie bei herrjurist.
-     Ohne Schlüssel werden Illustrationen (Icons/Typografie) gerendert. */
-  fotos: {
-    pexelsKey: env("PEXELS_API_KEY", ""),
-  },
-
   /* Hashtags: kleiner fester Kern + themenabhängige aus dem Autor. */
   hashtags: {
     kern: ["#steuerberaterexamen", "#steuerberaterprüfung", "#stbexamen", "#steuerberater", "#steuerrecht", "#examensvorbereitung"],

@@ -109,14 +109,6 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 .fuss{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-size:28px;color:var(--text-weich)}
 .fuss .handle{font-weight:600;color:var(--text)}
 .fuss .klausur{font-family:var(--mono);font-size:24px;letter-spacing:.04em}
-.bild{position:absolute;right:0;bottom:0;width:640px;height:640px;overflow:hidden;pointer-events:none}
-.bild img{width:100%;height:100%;object-fit:cover;object-position:center;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 34%),linear-gradient(to right,transparent 0,#000 30%);mask-image:linear-gradient(to bottom,transparent 0,#000 34%),linear-gradient(to right,transparent 0,#000 30%);-webkit-mask-composite:source-in;mask-composite:intersect}
-.folie:has(.bild) h1{max-width:900px;position:relative;z-index:2}
-.folie:has(.bild) .fuss{position:relative;z-index:2}
-.folie:has(.bild) .fuss .klausur,.story:has(.bild) .fuss .klausur{display:none}
-.story:has(.bild) .fuss{position:relative;z-index:2}
-.story .bild{width:1080px;height:900px;right:0;bottom:0}
-.story .bild img{-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 40%);mask-image:linear-gradient(to bottom,transparent 0,#000 40%)}
 .illu{position:absolute;right:56px;bottom:90px;width:420px;height:420px;display:flex;align-items:center;justify-content:center;color:var(--akzent);opacity:.95}
 .illu .icon{width:300px;height:300px}
 .illu::before{content:"";position:absolute;inset:0;border-radius:50%;border:3px solid var(--linie)}
@@ -186,7 +178,6 @@ function fuss(ctx) {
 const KLAUSUR_KURZ = { 1: "Klausur 1 · Tag 1", 2: "Klausur 2 · Tag 2", 3: "Klausur 3 · Tag 3" };
 
 function bildOderIllu(ctx, folie) {
-  if (folie.fotoPfad) return `<div class="bild"><img src="file://${folie.fotoPfad}" alt=""></div>`;
   if (folie.icon) return `<div class="geist">§</div><div class="illu">${iconSvg(folie.icon)}</div>`;
   return `<div class="geist">§</div>`;
 }

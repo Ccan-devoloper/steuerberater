@@ -72,9 +72,7 @@
         "#steuerrecht",
         "#lernen",
         "#steuerberater"
-      ],
-      "fotoSuchbegriff": "coffee cup on desk with documents",
-      "fotoBeispiel": "coffee.png"
+      ]
     },
     {
       "slug": "fehlerfalle-anzahlung",
@@ -136,9 +134,7 @@
         "#steuerrecht",
         "#klausurtipps",
         "#steuerberater"
-      ],
-      "fotoSuchbegriff": "coins on table",
-      "fotoBeispiel": "coins.png"
+      ]
     },
     {
       "slug": "rechenweg-zinsstaffel",
@@ -196,9 +192,7 @@
         "#examensvorbereitung",
         "#steuerrecht",
         "#steuerberater"
-      ],
-      "fotoSuchbegriff": "motorcycle financing showroom",
-      "fotoBeispiel": "motorcycle.png"
+      ]
     }
   ],
   "stories": [
@@ -209,8 +203,7 @@
       "ueberzeile": "Neuer Beitrag",
       "titel": "Teilwert-AfA: Pflicht oder Wahlrecht?",
       "text": "Vier Schritte, die in jeder Bilanzklausur laufen müssen.",
-      "icon": "diagramm",
-      "fotoBeispiel": "coffee.png"
+      "icon": "diagramm"
     },
     {
       "art": "frage",
@@ -300,8 +293,7 @@
       "ueberzeile": "Klausurtipp",
       "titel": "Jeden Sachverhalt mit der Gewinnauswirkung beenden.",
       "text": "Bilanzposten, Buchungssatz mit Buchungskreis, Gewinnauswirkung in Euro. Drei Zeilen, die fast immer Punkte bringen.",
-      "icon": "zielscheibe",
-      "fotoBeispiel": "clock.png"
+      "icon": "zielscheibe"
     }
   ]
 }

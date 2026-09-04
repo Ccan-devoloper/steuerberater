@@ -97,10 +97,9 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Caption: 4–8 Zeilen. Zeile 1 ist der Hook (die Frage oder die Pointe), dann die Kernantwort in 2–4 Sätzen, dann eine Aufforderung zum Speichern, Folgen oder Kommentieren – am besten eine echte Frage an die Leser:innen, die eine Antwort im Kommentar provoziert. ${CONFIG.marke.website ? `Am Ende darf ein Hinweis „Mehr auf ${CONFIG.marke.website} (Link in Bio)“ stehen.` : "Keine Website, keine Plattform, kein Produkt erwähnen – auch nicht „Link in Bio“."} Keine Hashtags in der Caption; die kommen separat.
 - Hashtags: 8–14 Stück, deutsch, kleingeschrieben, spezifisch zum Thema plus diese Kernhashtags: ${CONFIG.hashtags.kern.join(" ")}.
 - kurztitel: 3–6 Wörter für die Story-Ankündigung.
-- fotoSuchbegriff: ein englischer Suchbegriff für ein passendes Stockfoto (Gegenstand oder Szene, keine Personen mit Gesicht), z. B. "fax machine", "handshake contract", "calculator desk".
 
 ## Beispiel eines fertigen Beitrags (Format Prüfungsfrage)
-${JSON.stringify({ folien: beispiele.beitraege[0].folien.map(({ fotoPfad, ...f }) => f), caption: beispiele.beitraege[0].caption, hashtags: beispiele.beitraege[0].hashtags, kurztitel: "Teilwert-AfA: Pflicht oder Wahlrecht?", fotoSuchbegriff: "declining chart desk" }, null, 1)}
+${JSON.stringify({ folien: beispiele.beitraege[0].folien, caption: beispiele.beitraege[0].caption, hashtags: beispiele.beitraege[0].hashtags, kurztitel: "Teilwert-AfA: Pflicht oder Wahlrecht?" }, null, 1)}
 `;
 
 const FOLIE_SCHEMA = {
@@ -131,10 +130,9 @@ const BEITRAG_SCHEMA = {
     caption: { type: "string" },
     hashtags: { type: "array", items: { type: "string" } },
     kurztitel: { type: "string" },
-    fotoSuchbegriff: { type: "string" },
     quellen: { type: ["array", "null"], items: { type: "string" } },
   },
-  required: ["folien", "caption", "hashtags", "kurztitel", "fotoSuchbegriff", "quellen"],
+  required: ["folien", "caption", "hashtags", "kurztitel", "quellen"],
 };
 
 const STORY_SCHEMA = {
@@ -260,7 +258,6 @@ function nachbereiten(daten, { format, thema, fach, klausur }) {
     caption: (daten.caption || "").trim(),
     hashtags: tags,
     kurztitel: daten.kurztitel || folien[0]?.titel || "",
-    fotoSuchbegriff: daten.fotoSuchbegriff || "",
     quellen: daten.quellen || [],
   };
 }
@@ -382,7 +379,6 @@ export function teaserAusBeitrag(beitrag, slot) {
     titel: beitrag.kurztitel || beitrag.folien[0].titel,
     text: beitrag.folien[0].titel !== beitrag.kurztitel ? beitrag.folien[0].titel : "",
     icon: beitrag.folien[0].icon || "paragraf",
-    fotoPfad: beitrag.folien[0].fotoPfad,
     pille: "Zum Beitrag im Profil",
   };
 }
@@ -392,7 +388,7 @@ export function teaserAusBeitrag(beitrag, slot) {
 function beispielBeitrag(format, thema) {
   const b = beispiele.beitraege.find((x) => x.format === format) || beispiele.beitraege[0];
   const fach = thema?.fach || b.fach;
-  return nachbereiten({ ...b, kurztitel: b.folien[0].titel, fotoSuchbegriff: "calculator desk", quellen: [] }, { format, thema, fach, klausur: FAECHER[fach]?.klausur || b.klausur });
+  return nachbereiten({ ...b, kurztitel: b.folien[0].titel, quellen: [] }, { format, thema, fach, klausur: FAECHER[fach]?.klausur || b.klausur });
 }
 
 function beispielStories(plan) {

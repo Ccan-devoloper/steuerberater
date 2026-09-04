@@ -23,7 +23,6 @@ import { beitragSchreiben, storiesSchreiben, teaserAusBeitrag, aktuellRecherchie
 import { beitragRendern, storyRendern, browserBeenden } from "./render.mjs";
 import { Instagram } from "./instagram.mjs";
 import { Hosting } from "./hosting.mjs";
-import { fotoSuchen } from "./fotos.mjs";
 import { kommentareBeantworten } from "./interaktion.mjs";
 import { heuteIso, lokaleMinuten, minutenVon } from "./zeit.mjs";
 
@@ -130,10 +129,6 @@ async function main() {
         beitrag.slug = `${datum}-${eintrag.slot}`;
         hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, beitrag);
       }
-      /* Foto für die Titelfolie (optional). */
-      const foto = await fotoSuchen(beitrag.fotoSuchbegriff, path.join(AUSGABE, "fotos"), eintrag.slot.charCodeAt(1));
-      if (foto) beitrag.folien[0].fotoPfad = foto.pfad;
-
       const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "beitraege"), { variante: varianteBeitrag(eintrag.slot) });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Beitrag ${datum} ${eintrag.slot}`);
       const caption = `${beitrag.caption}\n\n${beitrag.hashtags.join(" ")}`;

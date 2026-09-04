@@ -93,7 +93,6 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_ACCESS_TOKEN` | Instagram-Token aus Schritt 2 |
 | `IG_ACCOUNT_ID` | Instagram-Konto-ID (Zahl) |
 | `IG_TOKEN_KEY` | frei gewählter Schlüssel für den Token-Tresor |
-| `PEXELS_API_KEY` | *optional*: kostenloser Schlüssel von https://www.pexels.com/api – dann bekommen Titelfolien ein Stockfoto wie bei herrjurist; ohne Schlüssel werden Icons gerendert |
 
 **Variables** (Reiter *Variables*)
 
@@ -148,7 +147,6 @@ social/
     vorlagen.mjs    HTML/CSS der Folien- und Story-Arten
     interaktion.mjs Kommentare lesen, Antworten formulieren, posten
     render.mjs      Playwright → JPEG
-    fotos.mjs       optionale Stockfotos (Pexels)
     hosting.mjs     Asset-Zweig: Bilder, Zustand, öffentliche URLs
     instagram.mjs   Graph API: Container, Carousel, Stories, Limit, Token-Tresor
     lauf.mjs        Tageslauf (Actions-Einstiegspunkt)
