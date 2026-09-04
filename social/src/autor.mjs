@@ -18,6 +18,7 @@ import { datumLesbar, tageBis } from "./zeit.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 const beispiele = JSON.parse(fs.readFileSync(path.resolve(hier, "../beispiele/inhalte.json"), "utf8"));
+const beispielReel = JSON.parse(fs.readFileSync(path.resolve(hier, "../beispiele/reel.json"), "utf8"));
 
 let clientCache = null;
 function client() {
@@ -91,7 +92,8 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 ## Form
 - Folienarten: titel (Frage/Aufhänger), text (Titel + Text oder Punkte), schritte (nummeriert, je Schritt titel + text), vergleich (links/rechts mit titel + punkte), rechnung (formel, zeilen, ergebnis), merke (ein Satz, der hängen bleibt), cta (Abschluss mit Folgen-Aufforderung).
 - Folie-1-Titel: eine Frage, ideal 45–80 Zeichen, maximal 100. Andere Titel maximal 60 Zeichen.
-- Je Folie maximal 5 Punkte / 5 Schritte, insgesamt maximal 350 Zeichen Text je Folie.
+- Je Folie maximal 5 Punkte / 5 Schritte, insgesamt maximal 380 Zeichen Text je Folie; bei „vergleich“ je Spalte maximal 3 Punkte à 60 Zeichen.
+- Kernaussagen und Merksätze aus dem Skelett NIE übernehmen, auch nicht leicht umgestellt – schreibe einen eigenen Merksatz mit anderem Satzbau und anderen Wörtern.
 - Hervorhebungen mit *Sternchen* um das Wort – sparsam, ein bis zwei je Folie.
 - icon: genau einer aus: ${Object.keys(ICONS).join(", ")}.
 - Caption: 4–8 Zeilen. Zeile 1 ist der Hook (die Frage oder die Pointe), dann die Kernantwort in 2–4 Sätzen, dann eine Aufforderung zum Speichern, Folgen oder Kommentieren – am besten eine echte Frage an die Leser:innen, die eine Antwort im Kommentar provoziert. ${CONFIG.marke.website ? `Am Ende darf ein Hinweis „Mehr auf ${CONFIG.marke.website} (Link in Bio)“ stehen.` : "Keine Website, keine Plattform, kein Produkt erwähnen – auch nicht „Link in Bio“."} Keine Hashtags in der Caption; die kommen separat.
@@ -369,6 +371,75 @@ Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder n
     if (!ergebnis.ok) { o.beanstandet = ergebnis.fehler; }
     return o;
   });
+}
+
+const REEL_SCHEMA = {
+  type: "object",
+  additionalProperties: false,
+  properties: {
+    szenen: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        properties: {
+          art: { type: "string", enum: ["hook", "schritt", "punkt", "merke", "cta"] },
+          nummer: { type: ["integer", "null"] },
+          titel: { type: "string" },
+          unter: { type: ["string", "null"] },
+          text: { type: ["string", "null"] },
+          norm: { type: ["string", "null"] },
+          icon: { type: ["string", "null"] },
+          sprecher: { type: "string" },
+        },
+        required: ["art", "nummer", "titel", "unter", "text", "norm", "icon", "sprecher"],
+      },
+    },
+    caption: { type: "string" },
+    hashtags: { type: "array", items: { type: "string" } },
+    kurztitel: { type: "string" },
+  },
+  required: ["szenen", "caption", "hashtags", "kurztitel"],
+};
+
+const REEL_ANLEITUNG = `## Reel (Video 45–60 Sekunden, Hochformat, mit Sprecherstimme)
+Du schreibst ein Skript aus 6–8 Szenen. Jede Szene hat einen kurzen Bildschirmtext und einen Sprechertext.
+- Szenenarten: hook (Frage/Aufhänger, Folge 1), schritt (nummeriert, für Prüfschritte) oder punkt (unnummeriert), merke (Merksatz + norm), cta (Abschluss mit Ausblick auf das nächste Thema).
+- Bildschirmtext: titel maximal 7 Wörter, text maximal 14 Wörter. Was gesprochen wird, steht NICHT wortgleich auf dem Bildschirm – der Bildschirm zeigt die Essenz, die Stimme erklärt.
+- Sprechertext: So, wie ein Mensch spricht, nicht wie ein Lehrbuch. Kurze Hauptsätze, direkte Ansprache, gelegentlich ein Gedankenstrich als Pause, ein „Also:“, „Kurz gesagt:“, „Und jetzt der Punkt, den fast alle übersehen.“ Keine Klammern, keine Abkürzungen (schreibe „Paragraf zweihundertneunundvierzig Absatz eins“ als „Paragraf 249 Absatz 1“ – die Stimme liest Ziffern korrekt). Keine Aufzählungszeichen. Je Szene 1–3 Sätze, insgesamt 110–150 Wörter.
+- Der hook muss in den ersten zwei Sekunden neugierig machen: eine Frage, ein Fehler, ein Versprechen.
+- cta: Ausblick auf das nächste Thema und Aufforderung zu folgen, ohne Website, ohne Produkt.
+- icon nur beim hook.`;
+
+/* Reel-Skript schreiben (Szenen mit Bildschirm- und Sprechertext). */
+export async function reelSchreiben({ thema, datum }) {
+  const fach = thema?.fach || "bilanz";
+  const klausur = FAECHER[fach]?.klausur || 3;
+  const sperr = korpus().namen;
+  let feedback = "", letzter = null;
+  for (let versuch = 1; versuch <= CONFIG.ki.maxVersuche; versuch++) {
+    const user = [
+      `Datum: ${datumLesbar(datum)}. Format: Reel.`,
+      REEL_ANLEITUNG,
+      `\n## Themen-Skelett\n${themaText(thema)}`,
+      `\n## Sperrliste (diese Namen nie verwenden)\n${sperr.join(", ")}`,
+      `\n## Beispiel für Ton und Länge (anderes Thema)\n${JSON.stringify(beispielReel.szenen.slice(0, 3), null, 1)}`,
+      feedback ? `\n## Beanstandungen am vorherigen Entwurf – bitte beheben\n${feedback}\n\nVorheriger Entwurf:\n${JSON.stringify(letzter)}` : "",
+      `\nErstelle jetzt das Reel-Skript als JSON.`,
+    ].filter(Boolean).join("\n");
+    const { daten } = await strukturiert({ system: SYSTEM, user, schema: REEL_SCHEMA });
+    const szenen = daten.szenen.map((s) => { const o = {}; for (const [k, v] of Object.entries(s)) if (v != null) o[k] = v; if (o.icon && !ICONS[o.icon]) o.icon = "paragraf"; return o; });
+    const reel = { format: "reel", fach, klausur, fachLabel: FAECHER[fach]?.label, themaId: thema?.id || null, szenen, caption: (daten.caption || "").trim(), hashtags: [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase()), ...CONFIG.hashtags.kern])].slice(0, CONFIG.hashtags.maxJeBeitrag), kurztitel: daten.kurztitel || szenen[0]?.titel || "" };
+    /* Prüfung über die Folien-Logik: Szenen als Folien, Sprechertext als Text. */
+    const ergebnis = pruefeBeitrag({ folien: [{ art: "titel", titel: szenen[0]?.titel || "" }, ...szenen.slice(1).map((s) => ({ art: "text", titel: s.titel, text: `${s.text || ""} ${s.sprecher}` })), { art: "cta" }], caption: reel.caption, hashtags: reel.hashtags });
+    const woerter = szenen.reduce((n, s) => n + s.sprecher.split(/\s+/).length, 0);
+    if (woerter < 80 || woerter > 190) ergebnis.fehler.push(`Sprechertext hat ${woerter} Wörter (Ziel 110–150)`);
+    if (!ergebnis.fehler.length) return reel;
+    feedback = ergebnis.fehler.map((f) => `- ${f}`).join("\n");
+    letzter = daten;
+    console.warn(`  Reel-Entwurf ${versuch} beanstandet:\n${feedback}`);
+  }
+  throw new Error(`Reel „${thema?.titel}“ nach ${CONFIG.ki.maxVersuche} Versuchen nicht freigegeben:\n${feedback}`);
 }
 
 /* Teaser-Story aus einem fertigen Beitrag – ohne KI-Aufruf. */

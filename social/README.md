@@ -93,6 +93,7 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_ACCESS_TOKEN` | Instagram-Token aus Schritt 2 |
 | `IG_ACCOUNT_ID` | Instagram-Konto-ID (Zahl) |
 | `IG_TOKEN_KEY` | frei gewählter Schlüssel für den Token-Tresor |
+| `ELEVENLABS_API_KEY` | *optional*: Schlüssel von elevenlabs.io – schaltet Reels mit Sprecherstimme frei |
 
 **Variables** (Reiter *Variables*)
 
@@ -104,6 +105,9 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_MARKE` | leer | Kanalname im Prompt (nicht auf den Kacheln) |
 | `IG_STIL_WECHSEL` | `true` | Kanzlei-Stil im Wechsel Schwarz/Weiß |
 | `IG_INTERAKTION` | `true` | Kommentare automatisch beantworten |
+| `ELEVENLABS_VOICE_ID` | *(Voice ID)* | Stimme für ElevenLabs (nur mit Secret `ELEVENLABS_API_KEY`) |
+| `IG_STIMME` | leer | Stimmanbieter erzwingen: `elevenlabs` · `piper` · `pico` · `aus` |
+| `IG_REELS` | `true` | Reels abschalten mit `false` |
 | `IG_GRAPH_HOST` | `instagram` | `instagram` (Instagram-Login) oder `facebook` (Seiten-Token) |
 | `IG_EXAMEN_DATUM` / `IG_EXAMEN_ENDE` | `2026-10-06` / `2026-10-08` | Countdown; nach der Prüfung auf das Folgejahr setzen (bundeseinheitlich Anfang Oktober) |
 
@@ -146,6 +150,8 @@ social/
     stile.mjs       drei Stile + Icon-Set
     vorlagen.mjs    HTML/CSS der Folien- und Story-Arten
     interaktion.mjs Kommentare lesen, Antworten formulieren, posten
+    reel.mjs        Reel: Zeitplan, Frame-Animation, ffmpeg-Schnitt
+    stimme.mjs      Sprecherstimme (ElevenLabs mit Wort-Zeitmarken)
     render.mjs      Playwright → JPEG
     hosting.mjs     Asset-Zweig: Bilder, Zustand, öffentliche URLs
     instagram.mjs   Graph API: Container, Carousel, Stories, Limit, Token-Tresor
@@ -157,6 +163,40 @@ social/
   test/             node --test
 ```
 
+## Reels (Video mit Sprecherstimme)
+
+Reels sind der größte Reichweiten-Hebel auf Instagram. Der Bot baut sie aus einem Skript mit
+6–8 Szenen: Bildschirmtext (Essenz) plus Sprechertext (Erklärung), 45–60 Sekunden, Hochformat,
+mitlaufende Untertitel Wort für Wort, dezentes Klangbett, Cover-Bild. Format: MP4, H.264, AAC,
+1080×1920, 30 fps – direkt über die Graph API als `REELS` veröffentlicht (`share_to_feed`).
+
+**Stimme – drei Varianten, automatisch gewählt** (`IG_STIMME` erzwingt eine):
+
+| Anbieter | Qualität | Kosten | Wann aktiv |
+| --- | --- | --- | --- |
+| `elevenlabs` | am natürlichsten (Atmung, Betonung, Pausen), Wort-Zeitmarken für die Untertitel | ab ≈ 5 $/Monat (Starter, 30.000 Zeichen ≈ 3 Reels/Woche) | sobald Secret `ELEVENLABS_API_KEY` gesetzt ist |
+| `piper` | gut – neuronale Offline-Stimme „Thorsten“ (`de_DE-thorsten-high`), klar und ruhig, hörbar synthetischer als ElevenLabs | kostenlos | Standard ohne ElevenLabs-Schlüssel; der Workflow lädt das Modell einmal und cached es |
+| `pico` | Notlösung (SVOX Pico, Navi-Qualität) | kostenlos | nur wenn nichts anderes verfügbar ist |
+
+Der Sprechertext wird bewusst fürs Sprechen geschrieben: kurze Hauptsätze, Pausen, „Also:“,
+„Kurz gesagt:“ – nicht Lehrbuch. Bei Piper und Pico wird satzweise synthetisiert, damit die
+Untertitel je Satz sauber sitzen. Reels sind damit **auch ohne jeden Schlüssel aktiv**
+(`IG_REELS=false` schaltet sie ab).
+
+ElevenLabs einrichten (optional, 5 Minuten):
+1. https://elevenlabs.io → Konto anlegen (Tarif Starter reicht).
+2. Unter *Voices* eine deutsche Stimme wählen (Voice Library → Deutsch → ruhige, erwachsene
+   Erzählstimme) und ihre **Voice ID** kopieren. Die Stimme prägt den Kanal – anhören lohnt sich.
+3. Unter *API Keys* einen Schlüssel erzeugen.
+4. Im Repository: Secret `ELEVENLABS_API_KEY`, Variable `ELEVENLABS_VOICE_ID`.
+
+Rhythmus: An Reel-Tagen (Standard Di, Do, Sa – `reel.tage` in `src/config.mjs`) ist der 18-Uhr-Beitrag
+ein Reel statt eines Carousels.
+
+Lokal testen: `node src/reel.mjs beispiele/reel.json beispiele/reel-out` baut das Beispiel-Reel
+mit der besten verfügbaren Stimme (`IG_STIMME=aus` für ein stummes Storyboard). Voraussetzung: `ffmpeg`
+im Pfad (auf den GitHub-Runnern vorinstalliert) oder `FFMPEG_PATH`.
+
 ## Was der Bot bewusst nicht tut
 
 - Kein automatisches Folgen, Liken oder Kommentieren fremder Konten – das verstößt gegen die
@@ -164,8 +204,6 @@ social/
   Interaktion findet nur unter den eigenen Beiträgen statt (Antworten auf Kommentare).
 - Keine Sticker (Umfragen, Quiz-Sticker) in Stories – die API unterstützt sie nicht; Quiz-Stories arbeiten
   deshalb mit Frage- und Auflösungskarte.
-- Keine Reels. Das ist der größte Reichweiten-Hebel, den der Bot noch nicht hat; die Folien ließen sich
-  später zu kurzen Videos animieren.
 
 ## Grenzen und Ehrlichkeit
 

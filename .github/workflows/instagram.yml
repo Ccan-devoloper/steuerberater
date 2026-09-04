@@ -52,6 +52,24 @@ jobs:
         working-directory: social
         run: npx playwright install --with-deps chromium
 
+      # Kostenlose Offline-Stimme für Reels (Piper „Thorsten“, neuronal). Wird nur
+      # gebraucht, wenn kein ElevenLabs-Schlüssel gesetzt ist; kostet sonst nichts.
+      - name: Piper-Stimme (Cache)
+        id: piper-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/piper-voices
+          key: piper-voice-de_DE-thorsten-high-v1
+
+      - name: Piper installieren
+        run: |
+          pip install --quiet piper-tts
+          if [ ! -f ~/.cache/piper-voices/de_DE-thorsten-high.onnx ]; then
+            mkdir -p ~/.cache/piper-voices
+            python3 -m piper.download_voices --data-dir ~/.cache/piper-voices de_DE-thorsten-high
+          fi
+          sudo apt-get install -y -qq libttspico-utils >/dev/null 2>&1 || true
+
       - name: Tageslauf
         working-directory: social
         env:
@@ -59,6 +77,12 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
           IG_TOKEN_KEY: ${{ secrets.IG_TOKEN_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          IG_REELS: ${{ vars.IG_REELS }}
+          IG_STIMME: ${{ vars.IG_STIMME }}
+          PIPER_VOICES_DIR: /home/runner/.cache/piper-voices
           IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
           IG_HANDLE: ${{ vars.IG_HANDLE }}
           IG_STIL: ${{ vars.IG_STIL }}

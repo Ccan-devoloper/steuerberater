@@ -147,3 +147,28 @@ test("Token-Tresor verschlüsselt und entschlüsselt", () => {
   assert.deepEqual(tokenEntschluesseln(enc), { token: "abc", ablauf: "2026-12-01" });
   assert.ok(!enc.includes("abc"));
 });
+
+test("Reel: Zeitplan ohne Stimme, Frames-Seite mit Untertiteln, Format nur mit Stimme im Plan", async () => {
+  const { zeitplanErstellen } = await import("../src/reel.mjs");
+  const reel = JSON.parse(fs.readFileSync(new URL("../beispiele/reel.json", import.meta.url), "utf8"));
+  process.env.IG_STIMME = "aus";
+  const plan = await zeitplanErstellen(reel, "/tmp/ig-test-audio");
+  assert.equal(plan.szenen.length, reel.szenen.length);
+  assert.ok(plan.gesamt > 30 && plan.gesamt <= CONFIG.reel.maxSekunden, `Dauer ${plan.gesamt}`);
+  const { saetze, woerterVerteilen } = await import("../src/stimme.mjs");
+  assert.deepEqual(saetze("Erstens: Gibt es eine Verpflichtung? Ja. Und zwar nach außen."), ["Erstens: Gibt es eine Verpflichtung?", "Ja.", "Und zwar nach außen."]);
+  const w = woerterVerteilen("Rückstellung ja oder nein", 4, 10);
+  assert.equal(w.length, 4); assert.equal(w[0].von, 10); assert.ok(Math.abs(w.at(-1).bis - 14) < 1e-9);
+  for (let i = 1; i < plan.szenen.length; i++) assert.ok(plan.szenen[i].start > plan.szenen[i - 1].start);
+  const woerter = plan.szenen.flatMap((s) => s.woerter);
+  assert.ok(woerter.every((w) => w.bis > w.von));
+  assert.ok(!/github|examenscampus|website/i.test(JSON.stringify(reel)));
+  const { tagesplan } = await import("../src/planer.mjs");
+  CONFIG.reel.aktiv = false;
+  assert.ok(!tagesplan("2026-09-08", ledgerLaden(), themenpool()).beitraege.some((b) => b.format === "reel"));
+  CONFIG.reel.aktiv = true;
+  const mitReel = tagesplan("2026-09-08", ledgerLaden(), themenpool());
+  assert.equal(mitReel.beitraege.at(-1).format, "reel");
+  assert.ok(mitReel.beitraege.at(-1).thema);
+  CONFIG.reel.aktiv = false;
+});
