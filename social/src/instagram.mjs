@@ -215,6 +215,17 @@ export class Instagram {
     return r.id;
   }
 
+  /* Private Antwort auf einen Kommentar (Direktnachricht, bis 7 Tage nach dem Kommentar).
+     Text und optional ein Bild. Braucht instagram_business_manage_messages. */
+  async privateAntwort(kommentarId, { text, bildUrl }) {
+    if (this.trockenlauf) { this.protokoll.push({ art: "nachricht", kommentarId, text, bildUrl }); return "trocken"; }
+    const senden = (message) => this.anfrage("POST", `${this.kontoId}/messages`, { recipient: JSON.stringify({ comment_id: kommentarId }), message: JSON.stringify(message) }, { versuche: 1 });
+    let letzte = null;
+    if (bildUrl) letzte = await senden({ attachment: { type: "image", payload: { url: bildUrl } } });
+    if (text) letzte = await senden({ text });
+    return letzte?.message_id || letzte?.recipient_id || "ok";
+  }
+
   /* Eigener Nutzername (für die Erkennung eigener Kommentare). */
   async eigenerName() {
     if (this.host === "facebook") return (await this.anfrage("GET", `${this.kontoId}`, { fields: "username" })).username;

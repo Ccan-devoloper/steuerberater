@@ -47,11 +47,41 @@ export const CONFIG = {
       1: ["pruefungsfrage", "fehlerfalle", "schema"],
       2: ["pruefungsfrage", "rechenweg", "minifall"],
       3: ["aktuell", "pruefungsfrage", "vergleich"],
-      4: ["pruefungsfrage", "fehlerfalle", "schema"],
+      4: ["pruefungsfrage", "spickzettel", "schema"],
       5: ["minifall", "pruefungsfrage", "rechenweg"],
-      6: ["pruefungsfrage", "klausurtechnik"],
+      6: ["spickzettel", "klausurtechnik"],
       0: ["wochenrueckblick", "pruefungsfrage"],
     },
+    /* Lernschleife: Formate/Fächer/Uhrzeiten nach Insights anpassen (state/strategie.json). */
+    lernen: env("IG_LERNEN", "true") === "true",
+  },
+
+  /* Faktencheck: zweiter, unabhängiger Prüfaufruf je Beitrag/Reel --------- */
+  faktencheck: {
+    aktiv: env("IG_FAKTENCHECK", "true") === "true",
+  },
+
+  /* Schlüsselwort-Nachrichten: „Kommentiere SCHEMA …“ → Karte per Direktnachricht */
+  nachrichten: {
+    aktiv: env("IG_NACHRICHTEN", "true") === "true",
+    schluesselwort: env("IG_SCHLUESSELWORT", "SCHEMA"),
+    maxJeLauf: 25,
+  },
+
+  /* Weiterverteilen derselben Inhalte – jeder Kanal ist aktiv, sobald seine Secrets da sind */
+  verteilen: {
+    threads: { token: env("THREADS_ACCESS_TOKEN", ""), nutzerId: env("THREADS_USER_ID", "") },
+    youtube: { clientId: env("YT_CLIENT_ID", ""), clientSecret: env("YT_CLIENT_SECRET", ""), refreshToken: env("YT_REFRESH_TOKEN", "") },
+    facebook: { seitenId: env("FB_PAGE_ID", ""), token: env("FB_PAGE_TOKEN", "") },
+    tiktok: { clientKey: env("TT_CLIENT_KEY", ""), clientSecret: env("TT_CLIENT_SECRET", ""), refreshToken: env("TT_REFRESH_TOKEN", "") },
+    linkedin: { token: env("LI_ACCESS_TOKEN", ""), personUrn: env("LI_PERSON_URN", "") },
+  },
+
+  /* Wochenbericht per E-Mail (Montag, erster Lauf) ----------------------- */
+  bericht: {
+    an: env("BERICHT_EMAIL", ""),
+    smtp: { host: env("SMTP_HOST", ""), port: Number(env("SMTP_PORT", 587)), user: env("SMTP_USER", ""), pass: env("SMTP_PASS", ""), von: env("SMTP_FROM", env("SMTP_USER", "")) },
+    wochentag: 1,
   },
 
   /* Claude API ----------------------------------------------------------- */
@@ -90,8 +120,10 @@ export const CONFIG = {
     fps: 30,
     maxSekunden: 90,
     hintergrundmusik: env("IG_REEL_MUSIK", "true") === "true",  // dezentes, synthetisch erzeugtes Klangbett
-    /* Wochentage, an denen der 18-Uhr-Beitrag ein Reel ist (0 = So). */
-    tage: [2, 4, 6],
+    /* Wochentage, an denen der 18-Uhr-Beitrag ein Reel ist (0 = So) – täglich. */
+    tage: [0, 1, 2, 3, 4, 5, 6],
+    /* Kurz-Reels (20–35 s) an allen Tagen, sonntags ein langes Schema-Reel (bis 60 s). */
+    langeTage: [0],
   },
 
   /* Interaktion: Kommentare unter den eigenen Beiträgen beantworten -------- */

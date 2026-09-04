@@ -175,3 +175,53 @@ test("Reel: Zeitplan ohne Stimme, Frames-Seite mit Untertiteln, Format nur mit S
   assert.ok(mitReel.beitraege.at(-1).thema);
   CONFIG.reel.aktiv = false;
 });
+
+test("Saisonkalender: Countdown, Prüfungstage, Anlass im Planer", async () => {
+  const { anlassFuer, phase } = await import("../src/kalender.mjs");
+  assert.equal(anlassFuer("2026-10-06").art, "pruefungstag");
+  assert.equal(anlassFuer("2026-10-05").titel, "1 Tag bis zum Examen");
+  assert.equal(anlassFuer("2026-09-06").titel, "30 Tage bis zum Examen");
+  assert.equal(anlassFuer("2026-04-30").art, "frist");
+  assert.equal(anlassFuer("2026-09-10"), null);
+  assert.match(phase("2026-09-10"), /heiße Phase/);
+  const plan = tagesplan("2026-10-06", ledgerLaden(), themenpool());
+  assert.equal(plan.beitraege[0].format, "anlass");
+  assert.ok(plan.beitraege[0].anlass?.kontext);
+});
+
+test("Lernschleife: Gewichte, Hook-Typen, beste Uhrzeiten, Plan folgt der Strategie", async () => {
+  const { strategieAbleiten, hookTyp, punkte } = await import("../src/insights.mjs");
+  const ledger = { veroeffentlicht: [] };
+  const f = ["pruefungsfrage", "fehlerfalle", "schema"];
+  for (let i = 0; i < 12; i++) ledger.veroeffentlicht.push({ art: "beitrag", format: f[i % 3], fach: i % 2 ? "ust" : "bilanz", hookTyp: i % 3 === 1 ? "fehler" : "frage", insights: { reach: 1000, saved: f[i % 3] === "fehlerfalle" ? 40 : 5, shares: 2, likes: 30, comments: 3 } });
+  const s = strategieAbleiten(ledger, { follower: 120, reichweite7: 3000, onlineStunden: Object.fromEntries(Array.from({ length: 24 }, (_, h) => [h, h === 6 || h === 11 || h === 17 ? 90 : 10])) });
+  assert.ok(s.formatGewicht.fehlerfalle > s.formatGewicht.schema);
+  assert.ok(s.hookGewicht.fehler > s.hookGewicht.frage);
+  assert.equal(s.besteStunden.length, 3);
+  assert.equal(hookTyp("Der Fehler, der 5 Punkte kostet"), "fehler");
+  assert.ok(punkte({ saved: 1 }) > punkte({ likes: 1 }));
+  const plan = tagesplan("2026-09-09", ledgerLaden(), themenpool(), { ...s, formatGewicht: { fehlerfalle: 1.6, vergleich: 0.6 } });
+  assert.ok(plan.beitraege.some((b) => b.format === "fehlerfalle"));
+  assert.ok(!plan.beitraege.some((b) => b.format === "vergleich"));
+  assert.deepEqual(plan.beitraege.map((b) => b.zeit), s.besteStunden);
+});
+
+test("Wochenbericht und Schlüsselwort-Auswahl", async () => {
+  const { berichtErstellen } = await import("../src/bericht.mjs");
+  const { schluesselwortKommentare } = await import("../src/nachrichten.mjs");
+  const ledger = { veroeffentlicht: [{ art: "beitrag", datum: "2026-09-05", format: "spickzettel", fach: "bilanz", titel: "Rückstellung", medienId: "m1", insights: { reach: 500, saved: 20, shares: 4, likes: 50, comments: 5 } }], interaktionen: [{ datum: "2026-09-05" }], nachrichten: [] };
+  const text = berichtErstellen({ ledger, strategie: { reichweite7: 900, formatGewicht: {} }, follower: [{ datum: "2026-08-30", follower: 100 }, { datum: "2026-09-06", follower: 130 }], kosten: { usd: 2.5, aufrufe: 30, cacheAnteil: 0.7 }, datum: "2026-09-07" });
+  assert.match(text, /Follower: 130 \(\+30 in 7 Tagen\)/);
+  assert.match(text, /Rückstellung — spickzettel/);
+  const jetzt = new Date().toISOString();
+  const medien = [{ id: "m1", comments: { data: [{ id: "c1", text: "SCHEMA bitte!", username: "lea", timestamp: jetzt }, { id: "c2", text: "toll", username: "tom", timestamp: jetzt }, { id: "c3", text: "schema", username: "meinkanal", timestamp: jetzt }] } }, { id: "m2", comments: { data: [{ id: "c4", text: "SCHEMA", username: "x", timestamp: jetzt }] } }];
+  const offen = schluesselwortKommentare(medien, "meinkanal", ledger, new Map([["m1", { bildUrl: "u", titel: "Karte" }]]));
+  assert.deepEqual(offen.map((o) => o.kommentarId), ["c1"]);
+});
+
+test("Spickzettel-Folie und Hook-Wahl", async () => {
+  const ctx = kontext({ stil: "kanzlei", fach: "bilanz" });
+  const html = folieHtml({ art: "karte", titel: "Rückstellung in 6 Schritten", schritte: [{ titel: "Außenverpflichtung", text: "§ 249 Abs. 1 HGB" }, { titel: "Verursachung vor Stichtag", text: "R 5.7 EStR" }] }, ctx, 2, 5);
+  assert.ok(html.includes('class="schritte karte"') && html.includes("Außenverpflichtung"));
+  assert.ok(FOLIEN_ARTEN.includes("karte"));
+});

@@ -85,6 +85,28 @@ jobs:
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           IG_REELS: ${{ vars.IG_REELS }}
           IG_STIMME: ${{ vars.IG_STIMME }}
+          IG_SCHLUESSELWORT: ${{ vars.IG_SCHLUESSELWORT }}
+          IG_FAKTENCHECK: ${{ vars.IG_FAKTENCHECK }}
+          IG_LERNEN: ${{ vars.IG_LERNEN }}
+          IG_NACHRICHTEN: ${{ vars.IG_NACHRICHTEN }}
+          BERICHT_EMAIL: ${{ vars.BERICHT_EMAIL }}
+          SMTP_HOST: ${{ vars.SMTP_HOST }}
+          SMTP_PORT: ${{ vars.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_FROM: ${{ vars.SMTP_FROM }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ vars.THREADS_USER_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          TT_CLIENT_KEY: ${{ secrets.TT_CLIENT_KEY }}
+          TT_CLIENT_SECRET: ${{ secrets.TT_CLIENT_SECRET }}
+          TT_REFRESH_TOKEN: ${{ secrets.TT_REFRESH_TOKEN }}
+          LI_ACCESS_TOKEN: ${{ secrets.LI_ACCESS_TOKEN }}
+          LI_PERSON_URN: ${{ vars.LI_PERSON_URN }}
           PIPER_VOICES_DIR: /home/runner/.cache/piper-voices
           IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
           IG_HANDLE: ${{ vars.IG_HANDLE }}

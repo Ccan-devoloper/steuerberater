@@ -25,6 +25,12 @@ import { beitragRendern, storyRendern, browserBeenden } from "./render.mjs";
 import { Instagram } from "./instagram.mjs";
 import { Hosting } from "./hosting.mjs";
 import { kommentareBeantworten } from "./interaktion.mjs";
+import { lernschleife } from "./insights.mjs";
+import { verteilen } from "./verteilen.mjs";
+import { kartenVerschicken } from "./nachrichten.mjs";
+import { berichtErstellen, berichtSenden } from "./bericht.mjs";
+import { abschluss as kostenAbschluss } from "./kosten.mjs";
+import { wochentag } from "./zeit.mjs";
 import { heuteIso, lokaleMinuten, minutenVon } from "./zeit.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
@@ -57,13 +63,16 @@ async function main() {
   const pool = themenpool();
   const poolIndex = new Map(pool.map((t) => [t.id, t]));
 
+  /* Gelernte Strategie (Formate, Fächer, Uhrzeiten) aus der Lernschleife. */
+  const strategie = hosting.jsonLesen("strategie.json", null);
+
   /* Plan des Tages – nur einmal erzeugen, danach fortschreiben. */
   let plan = hosting.jsonLesen(`plaene/${datum}.json`, null);
   if (!plan) {
-    const p = tagesplan(datum, ledger, pool);
+    const p = tagesplan(datum, ledger, pool, strategie);
     plan = {
-      datum: p.datum, erzeugt: new Date().toISOString(),
-      beitraege: p.beitraege.map((b) => ({ slot: b.slot, zeit: b.zeit, format: b.format, themaId: b.thema?.id || null, themaTitel: b.thema?.titel || null, fach: b.thema?.fach || null, status: "geplant" })),
+      datum: p.datum, erzeugt: new Date().toISOString(), anlass: p.anlass || null,
+      beitraege: p.beitraege.map((b) => ({ slot: b.slot, zeit: b.zeit, format: b.format, themaId: b.thema?.id || null, themaTitel: b.thema?.titel || null, fach: b.thema?.fach || null, lang: b.lang, status: "geplant" })),
       stories: p.stories.map((s) => ({ slot: s.slot, zeit: s.zeit, art: s.art, themaId: s.thema?.id || null, beitragSlot: s.beitragSlot || null, tageBisExamen: s.tageBisExamen, status: "geplant" })),
     };
     planSpeichern(hosting, plan);
@@ -100,6 +109,37 @@ async function main() {
         console.error(`  ✗ Interaktion: ${e.message}`);
       }
     }
+    /* Schlüsselwort-Nachrichten: Spickzettel-Karten an Kommentierende. */
+    try {
+      const karten = new Map((ledger.veroeffentlicht || []).filter((e) => e.art === "beitrag" && e.karteUrl && e.medienId).map((e) => [e.medienId, { bildUrl: e.karteUrl, titel: e.titel }]));
+      const r = await kartenVerschicken(ig, ledger, karten, { log });
+      if (r.gesendet) { ledgerSpeichern(ledgerPfad, ledger); hosting.commit(`Karten verschickt ${datum}`); await hosting.push(); }
+    } catch (e) {
+      console.error(`  ✗ Nachrichten: ${e.message}`);
+    }
+    /* Lernschleife: einmal am Tag beim ersten Lauf (Insights, Strategie, Follower). */
+    const wochenStand = hosting.jsonLesen("lernschleife.json", { datum: null });
+    if (wochenStand.datum !== datum) {
+      try {
+        await lernschleife(ig, ledger, hosting, { log });
+        hosting.jsonSchreiben("lernschleife.json", { datum });
+        ledgerSpeichern(ledgerPfad, ledger);
+        hosting.commit(`Lernschleife ${datum}`); await hosting.push();
+      } catch (e) { console.error(`  ✗ Lernschleife: ${e.message}`); }
+    }
+    /* Wochenbericht: montags beim ersten Lauf. */
+    const berichtStand = hosting.jsonLesen("bericht.json", { woche: null });
+    const kw = wochenKennung(datum);
+    if (wochentag(new Date(`${datum}T12:00:00Z`)) === CONFIG.bericht.wochentag && berichtStand.woche !== kw) {
+      try {
+        const kostenWoche = hosting.jsonLesen("kosten.json", { wochen: {} });
+        const text = berichtErstellen({ ledger, strategie: hosting.jsonLesen("strategie.json", null), follower: hosting.jsonLesen("follower.json", []), kosten: kostenWoche.wochen?.[wochenKennung(vorwoche(datum))] || kostenWoche.wochen?.[kw], datum, fehler: hosting.jsonLesen("fehler.json", []).slice(-10), hinweise: berichtHinweise() });
+        hosting.jsonSchreiben(`berichte/${kw}.txt`, { text });
+        const r = await berichtSenden(text, `Instagram-Bot · Wochenbericht ${kw}`);
+        hosting.jsonSchreiben("bericht.json", { woche: kw, gesendet: r.gesendet, grund: r.grund || null });
+        log(`Wochenbericht ${kw}: ${r.gesendet ? "per E-Mail gesendet" : `nur abgelegt (${r.grund})`}`);
+      } catch (e) { console.error(`  ✗ Wochenbericht: ${e.message}`); }
+    }
   }
   if (!beitraegeFaellig.length && !storiesFaellig.length) { log("Nichts fällig."); return; }
   const frei = () => kontingent.maximum - kontingent.genutzt - CONFIG.instagram.sicherheitsabstandLimit;
@@ -115,7 +155,7 @@ async function main() {
       if (eintrag.format === "reel") {
         let reel = hosting.jsonLesen(`inhalte/${datum}-${eintrag.slot}.json`, null);
         if (!reel) {
-          reel = await reelSchreiben({ thema: eintrag.themaId ? poolIndex.get(eintrag.themaId) : null, datum });
+          reel = await reelSchreiben({ thema: eintrag.themaId ? poolIndex.get(eintrag.themaId) : null, datum, lang: Boolean(eintrag.lang), anlass: plan.anlass });
           reel.slug = `${datum}-${eintrag.slot}`;
           hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, reel);
         }
@@ -125,7 +165,8 @@ async function main() {
         const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption });
         kontingent.genutzt += 1;
         eintrag.status = "veroeffentlicht"; eintrag.medienId = medienId; eintrag.veroeffentlicht = new Date().toISOString();
-        vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, medienId });
+        vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, hookTyp: reel.hookTyp, medienId, veroeffentlicht: new Date().toISOString() });
+        eintrag.kanaele = await verteilen({ art: "reel", videoUrl, videoPfad: r.video, bildUrls: [coverUrl], titel: reel.kurztitel || reel.szenen[0]?.titel, text: caption, hashtags: reel.hashtags }, { log, trockenlauf: trocken });
         fertigeBeitraege.set(eintrag.slot, { ...reel, folien: [{ art: "titel", titel: reel.szenen[0]?.titel, icon: reel.szenen[0]?.icon }], kurztitel: reel.kurztitel });
         ledgerSpeichern(ledgerPfad, ledger); planSpeichern(hosting, plan);
         hosting.commit(`Veröffentlicht: Reel ${datum} ${eintrag.slot}`); await hosting.push();
@@ -146,7 +187,7 @@ async function main() {
           wochenThemen = (ledger.veroeffentlicht || []).filter((e) => e.art === "beitrag" && e.datum >= grenze).map((e) => e.titel);
           if (!wochenThemen.length) wochenThemen = pool.filter((t) => t.prioritaet === "hoch").slice(0, 5).map((t) => t.titel);
         }
-        beitrag = await beitragSchreiben({ format: eintrag.format, thema, datum, recherche, wochenThemen });
+        beitrag = await beitragSchreiben({ format: eintrag.format, thema, datum, recherche, wochenThemen, anlass: eintrag.format === "anlass" ? plan.anlass : null, strategie });
         beitrag.slug = `${datum}-${eintrag.slot}`;
         hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, beitrag);
       }
@@ -158,8 +199,11 @@ async function main() {
       eintrag.status = "veroeffentlicht";
       eintrag.medienId = medienId;
       eintrag.veroeffentlicht = new Date().toISOString();
-      vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, medienId });
+      const karteIndex = beitrag.folien.findIndex((f) => f.art === "karte");
+      vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
       fertigeBeitraege.set(eintrag.slot, beitrag);
+      /* Auf weitere Kanäle verteilen (Threads, Facebook, LinkedIn …). */
+      eintrag.kanaele = await verteilen({ art: "beitrag", bildUrls: urls, bildPfade: bilder, titel: beitrag.folien[0].titel, text: caption, hashtags: beitrag.hashtags }, { log, trockenlauf: trocken });
       ledgerSpeichern(ledgerPfad, ledger);
       planSpeichern(hosting, plan);
       hosting.commit(`Veröffentlicht: Beitrag ${datum} ${eintrag.slot}`);
@@ -226,6 +270,20 @@ async function main() {
     }
   }
 
+  /* Kosten der Woche und Fehler für den Bericht festhalten. */
+  const kosten = kostenAbschluss();
+  if (kosten.aufrufe) {
+    const k = hosting.jsonLesen("kosten.json", { wochen: {} });
+    const kw = wochenKennung(datum);
+    const w = k.wochen[kw] || { usd: 0, aufrufe: 0, cacheSumme: 0 };
+    w.usd += kosten.usd; w.aufrufe += kosten.aufrufe; w.cacheSumme += kosten.cacheAnteil * kosten.aufrufe; w.cacheAnteil = w.cacheSumme / w.aufrufe;
+    k.wochen[kw] = w;
+    hosting.jsonSchreiben("kosten.json", k);
+  }
+  const fehlerListe = hosting.jsonLesen("fehler.json", []);
+  for (const e of [...plan.beitraege, ...plan.stories]) if (e.fehler && !fehlerListe.includes(e.fehler)) fehlerListe.push(e.fehler);
+  hosting.jsonSchreiben("fehler.json", fehlerListe.slice(-50));
+
   const geloescht = hosting.aufraeumen();
   if (geloescht) hosting.commit(`Alte Bilder entfernt (${geloescht} Tage)`);
   planSpeichern(hosting, plan);
@@ -234,6 +292,22 @@ async function main() {
   if (trocken && ig.protokoll.length) fs.writeFileSync(path.join(AUSGABE, "trockenlauf.json"), JSON.stringify(ig.protokoll, null, 2));
   log(`Fertig · ${plan.beitraege.filter((b) => b.status === "veroeffentlicht").length}/${plan.beitraege.length} Beiträge, ${plan.stories.filter((s) => s.status === "veroeffentlicht").length}/${plan.stories.length} Stories · Fehler: ${fehler}`);
   if (fehler) process.exitCode = 1;
+}
+
+function wochenKennung(iso) {
+  const d = new Date(`${iso}T12:00:00Z`);
+  const tag = (d.getUTCDay() + 6) % 7;
+  d.setUTCDate(d.getUTCDate() - tag + 3);
+  const erster = new Date(Date.UTC(d.getUTCFullYear(), 0, 4));
+  const kw = 1 + Math.round(((d - erster) / 86400000 - 3 + ((erster.getUTCDay() + 6) % 7)) / 7);
+  return `${d.getUTCFullYear()}-W${String(kw).padStart(2, "0")}`;
+}
+function vorwoche(iso) { return new Date(new Date(`${iso}T12:00:00Z`).getTime() - 7 * 86400000).toISOString().slice(0, 10); }
+function berichtHinweise() {
+  const h = [];
+  if (CONFIG.verteilen.linkedin.token) h.push("LinkedIn-Token läuft nach 60 Tagen ab – bei Fehlern im Bericht erneuern.");
+  if (!CONFIG.reel.elevenlabsKey) h.push("Reels sprechen mit der kostenlosen Piper-Stimme; ElevenLabs-Schlüssel schaltet die natürlichere Stimme frei.");
+  return h;
 }
 
 main()
