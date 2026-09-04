@@ -269,6 +269,16 @@
       "fach": "bilanz",
       "titel": "Wie berechnest du die Gewerbesteuerrückstellung zum 31.12.?",
       "medienId": "17959138626193815"
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "story",
+      "slot": "s4",
+      "storyArt": "antwort",
+      "thema": "bilanz-karte-k3-30",
+      "fach": "bilanz",
+      "titel": "Direkt rechnen, nicht zurückrechnen",
+      "medienId": "17898664656375097"
     }
   ],
   "fachZaehler": {
