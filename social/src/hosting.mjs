@@ -20,6 +20,15 @@ function git(args, cwd = REPO, opt = {}) {
   return execFileSync("git", args, { cwd, encoding: "utf8", stdio: ["ignore", "pipe", opt.stderr || "pipe"], ...opt }).trim();
 }
 
+/* Remote-URL mit Zugangsdaten: Im Workflow trägt der frische Klon des
+   Asset-Zweigs nicht die Anmeldung des Haupt-Checkouts; GITHUB_TOKEN reicht. */
+function remoteMitToken(url) {
+  const token = process.env.GITHUB_TOKEN;
+  if (!token) return url;
+  const { owner, repo } = remoteInfo();
+  return `https://x-access-token:${token}@github.com/${owner}/${repo}.git`;
+}
+
 /* owner/repo aus dem Remote ableiten (https oder ssh). */
 export function remoteInfo() {
   const url = git(["remote", "get-url", "origin"]);
@@ -45,13 +54,14 @@ export class Hosting {
       this.basisUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${this.zweig}`;
     }
     if (fs.existsSync(path.join(this.dir, ".git"))) {
+      try { git(["remote", "set-url", "origin", remoteMitToken(git(["remote", "get-url", "origin"], this.dir))], this.dir); } catch { /* egal */ }
       try { git(["pull", "--rebase", "--quiet", "origin", this.zweig], this.dir); } catch { /* offline oder neuer Zweig */ }
       return this;
     }
     fs.mkdirSync(path.dirname(this.dir), { recursive: true });
-    const remote = git(["remote", "get-url", "origin"]);
+    const remote = remoteMitToken(git(["remote", "get-url", "origin"]));
     let existiert = false;
-    try { existiert = git(["ls-remote", "--heads", "origin", this.zweig]).length > 0; } catch { existiert = false; }
+    try { existiert = git(["ls-remote", "--heads", remote, this.zweig]).length > 0; } catch { existiert = false; }
     if (existiert) {
       git(["clone", "--quiet", "--branch", this.zweig, "--single-branch", "--depth", "50", remote, this.dir]);
     } else {

@@ -18,10 +18,10 @@ import { fileURLToPath } from "node:url";
 const hier = path.dirname(fileURLToPath(import.meta.url));
 const DATEN = path.resolve(hier, "../../src/data");
 
-export const SHINGLE_LAENGE = 7;   // Wörter
+export const SHINGLE_LAENGE = 8;   // Wörter
 export const GRENZEN = {
   titelZeichen: 110,
-  folienTextZeichen: 420,
+  folienTextZeichen: 520,
   storyTextZeichen: 260,
   captionZeichen: 2200,
   hashtagsMax: 30,
@@ -83,8 +83,16 @@ export function korpus() {
     for (const m of text.matchAll(anredeMuster)) namen.add(m[1]);
   }
   /* Häufige Gattungswörter, die das Muster fälschlich als Namen erfasst. */
-  const allgemein = new Set(["Bank", "Kunden", "Kunde", "Lieferant", "Käufer", "Verkäufer", "Betrieb", "Muster", "Beispiel", "Mutter", "Tochter", "Erwerber", "Eigentümer", "Vermieter", "Mieter", "Alt", "Neu", "Beteiligung", "Holding", "Vertrieb", "Handel", "Bau", "Immobilien", "Verwaltung", "Beratung", "Personen", "Kapital", "Komplementär", "Kommanditist"]);
+  const allgemein = new Set(["Bank", "Kunden", "Kunde", "Lieferant", "Käufer", "Verkäufer", "Betrieb", "Muster", "Beispiel", "Mutter", "Tochter", "Erwerber", "Eigentümer", "Vermieter", "Mieter", "Alt", "Neu", "Beteiligung", "Holding", "Vertrieb", "Handel", "Bau", "Immobilien", "Verwaltung", "Beratung", "Personen", "Kapital", "Komplementär", "Kommanditist", "Anteile", "Anteil", "Gesellschafter", "Geschäftsführer", "Organ", "Organträger", "Tochtergesellschaft", "Muttergesellschaft", "Gesellschaft", "Unternehmen", "Firma"]);
   for (const n of allgemein) namen.delete(n);
+  /* Gattungswörter erkennt man an ihrer Häufigkeit: Ein Fallname taucht ein
+     paar Mal auf, ein Fachbegriff wie „Anteile“ hunderte Male. */
+  const haeufigkeit = new Map();
+  for (const datei of dateien) {
+    const text = fs.readFileSync(datei, "utf8");
+    for (const n of namen) { const c = (text.match(new RegExp(`\\b${n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "g")) || []).length; if (c) haeufigkeit.set(n, (haeufigkeit.get(n) || 0) + c); }
+  }
+  for (const [n, c] of haeufigkeit) if (c > 40) namen.delete(n);
   /* Gattungsbegriffe (Endungen -ung, -keit, -sätze …) und Artikel sind keine Namen. */
   for (const n of [...namen]) {
     const letztes = n.split(/[- ]/).pop();
@@ -109,12 +117,14 @@ export function gesperrteNamen(text, k = korpus()) {
   return k.namen.filter((n) => new RegExp(`(^|[^a-zäöüß])${n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-zäöüß]|$)`, "u").test(t));
 }
 
-const QUELLENBEZUG = /\b(laut Quelle|Quelle|Seite \d+|S\. \d+|Folie|Mitschrift|Skript|Originalfall|Fall \d{2,3}|Hausaufgabe|Musterlösung der Finanzverwaltung|Frame)\b/i;
+const QUELLENBEZUG = /\b(laut Quelle|Quelle|Seite \d+|Folie|Mitschrift|Skript|Originalfall|Fall \d{2,3}|Hausaufgabe|Musterlösung der Finanzverwaltung|Frame)\b/i;
 
 /* Normen sind wörtlich erlaubt – sie sind Gesetzestext-Zitate, keine Übernahme.
-   Deshalb werden Norm-Ketten vor dem Shingle-Vergleich neutralisiert. */
-function ohneNormen(text) {
-  return String(text).replace(/§§?\s*[\d]+[a-z]?(?:\s*(?:Abs\.|Absatz)\s*\d+[a-z]?)?(?:\s*(?:S\.|Satz)\s*\d+)?(?:\s*(?:Nr\.|Nummer)\s*\d+[a-z]?)?(?:\s*(?:Buchst\.|Hs\.)\s*[a-z0-9]+\)?)?\s*(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|KStR|UStAE|BGB|GrEStG|FGO|SolZG|DBA)\b/g, " NORM ");
+   Deshalb werden Normzitate (auch ohne Gesetzesangabe, in beliebiger
+   Reihenfolge von Abs./S./Nr./Buchst.) vor dem Shingle-Vergleich entfernt. */
+const NORM = /(?:§§?|Art\.|Artikel|R|H)\s*\d+(?:\.\d+)?[a-z]?(?:\s*(?:Abs\.|Absatz|S\.|Satz|Nr\.|Nummer|Buchst\.|Buchstabe|Hs\.|Halbsatz|Alt\.|Var\.|lit\.)\s*[\da-z]+\)?)*(?:\s*(?:i\.?\s?V\.?\s?m\.?|iVm|in Verbindung mit)\s*(?:§§?\s*)?\d+[a-z]?(?:\s*(?:Abs\.|S\.|Nr\.|Buchst\.)\s*[\da-z]+)*)?\s*(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|EStH|KStR|KStH|UStAE|BGB|GrEStG|FGO|SolZG|DBA|GewStR|UmwG|GmbHG|AktG|InsO|ZPO|BewG)?\b/g;
+export function ohneNormen(text) {
+  return String(text).replace(NORM, " NORM ").replace(/\b(Abs|S|Nr|Buchst|Hs|Alt)\.\s*\d+[a-z]?/g, " NORM ");
 }
 
 function alleTexte(beitrag) {
