@@ -114,7 +114,9 @@
       "art": "merksatz",
       "themaId": "ao-modul-ao-371",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T22:03:20.172Z"
     },
     {
       "slot": "s9",
