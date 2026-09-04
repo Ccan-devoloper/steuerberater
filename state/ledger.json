@@ -19,9 +19,20 @@
       "fach": "persg",
       "titel": "Disagio beim Tilgungsdarlehen: Warum die Zinsstaffel und nicht linear?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "beitrag",
+      "slot": "b3",
+      "format": "minifall",
+      "thema": "ust-modul-ust-218",
+      "fach": "ust",
+      "titel": "Wann darf ich in der Steuerbilanz auf den niedrigeren Teilwert abschreiben?",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
-    "persg": 2
+    "persg": 2,
+    "ust": 1
   }
 }
