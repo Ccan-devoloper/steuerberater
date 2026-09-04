@@ -9,9 +9,19 @@
       "fach": "persg",
       "titel": "Wann darf ich in der Steuerbilanz auf den niedrigeren Teilwert abschreiben?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "beitrag",
+      "slot": "b2",
+      "format": "rechenweg",
+      "thema": "persg-modul-persg-3",
+      "fach": "persg",
+      "titel": "Disagio beim Tilgungsdarlehen: Warum die Zinsstaffel und nicht linear?",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
-    "persg": 1
+    "persg": 2
   }
 }
