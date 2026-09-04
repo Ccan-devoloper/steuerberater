@@ -3,3 +3,10 @@ dist
 .DS_Store
 *.local
 .env
+
+# Instagram-Bot: Asset-Zweig-Checkout und Ausgaben
+/assets/
+social/out/
+social/beispiele/out/
+social/node_modules/
+social/beispiele/vorschau/
