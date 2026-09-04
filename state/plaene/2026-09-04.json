@@ -83,7 +83,9 @@
       "art": "norm",
       "themaId": "erbst-modul-erbst-505",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T22:03:13.275Z"
     },
     {
       "slot": "s7",

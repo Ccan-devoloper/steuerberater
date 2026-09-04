@@ -189,6 +189,16 @@
       "fach": "bilanz",
       "titel": "Nein – Veräußerungsgewinne bleiben außen vor",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "story",
+      "slot": "s6",
+      "storyArt": "norm",
+      "thema": "erbst-modul-erbst-505",
+      "fach": "erbst",
+      "titel": "Nicht zuordenbare Lasten aufteilen",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
