@@ -61,14 +61,17 @@ jobs:
           path: ~/.cache/piper-voices
           key: piper-voice-de_DE-thorsten-high-v1
 
-      - name: Piper installieren
+      - name: ffmpeg und Piper installieren
         run: |
+          sudo apt-get update -qq >/dev/null
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          ffmpeg -version | head -1
           pip install --quiet piper-tts
           if [ ! -f ~/.cache/piper-voices/de_DE-thorsten-high.onnx ]; then
             mkdir -p ~/.cache/piper-voices
             python3 -m piper.download_voices --data-dir ~/.cache/piper-voices de_DE-thorsten-high
           fi
-          sudo apt-get install -y -qq libttspico-utils >/dev/null 2>&1 || true
+          ls -la ~/.cache/piper-voices
 
       - name: Tageslauf
         working-directory: social
