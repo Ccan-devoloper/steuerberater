@@ -1,0 +1,13 @@
+{
+  "slot": "s6",
+  "art": "countdown",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Noch",
+  "titel": "Tage bis zur schriftlichen Prüfung",
+  "text": "Nimm dir heute 45 Minuten nur für Fristenberechnung in der AO: Beginn, Dauer, Ende an drei eigenen Fällen durchrechnen. Kurze Einheiten schlagen lange Leseabende.",
+  "zahl": "31",
+  "icon": "kalender",
+  "fortschritt": 79,
+  "fachLabel": "Bilanzsteuerrecht"
+}

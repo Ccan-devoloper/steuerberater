@@ -1,0 +1,79 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-7",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Erlös oder Gewinn? § 6b entscheidet",
+      "unter": "Der Klassikerfehler in der Bilanzklausur",
+      "norm": "§ 6b Abs. 1 EStG",
+      "icon": "gebaeude",
+      "sprecher": "Du überträgst den Verkaufserlös auf das neue Grundstück? Dann verschenkst du in der Klausur Punkte. Paragraf 6b kennt nur den Gewinn."
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Gewinn getrennt ermitteln",
+      "text": "Erlös minus Buchwert minus Veräußerungskosten – nur dieser Betrag ist übertragbar.",
+      "norm": "§ 6b Abs. 2 EStG",
+      "sprecher": "Erstens: Rechne den Veräußerungsgewinn getrennt aus. Erlös minus Buchwert minus Veräußerungskosten. Nur dieser Betrag darf wandern."
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Sechs Jahre Anlagevermögen",
+      "text": "Begünstigtes Gut, inländische Betriebsstätte, Vorbesitzzeit – jede Voraussetzung einzeln abhaken.",
+      "norm": "§ 6b Abs. 4 S. 1 Nr. 1–5 EStG",
+      "sprecher": "Zweitens: Absatz 4. Das verkaufte Wirtschaftsgut muss sechs Jahre zum Anlagevermögen einer inländischen Betriebsstätte gehört haben. Diese Frist übersehen die meisten."
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Sofort kürzen oder Rücklage",
+      "text": "Reinvestition im selben Jahr mindert direkt die Anschaffungskosten.",
+      "norm": "§ 6b Abs. 3 EStG",
+      "sprecher": "Drittens: Investierst du im selben Jahr, kürzt du sofort die Anschaffungskosten des neuen Guts. Sonst bildest du die Rücklage nach Absatz 3 – und zwar nur steuerlich."
+    },
+    {
+      "art": "schritt",
+      "nummer": 4,
+      "titel": "Frist verpasst, Zuschlag fällig",
+      "text": "Vier Jahre, bei neu hergestellten Gebäuden sechs. Danach 6 Prozent jährlich.",
+      "norm": "§ 6b Abs. 7 EStG",
+      "sprecher": "Viertens: Die Rücklage läuft vier Jahre, bei neu hergestellten Gebäuden sechs. Ohne Reinvestition löst du gewinnerhöhend auf – plus sechs Prozent Zuschlag je vollem Wirtschaftsjahr."
+    },
+    {
+      "art": "merke",
+      "titel": "Merke",
+      "text": "Die Steuer verschwindet nicht – sie zieht in die Abschreibung von morgen.",
+      "norm": "§ 6b EStG",
+      "sprecher": "Kurz gesagt: Die Steuer verschwindet nicht, sie zieht um. Weniger Anschaffungskosten heute bedeuten weniger Abschreibung morgen."
+    },
+    {
+      "art": "cta",
+      "titel": "Nächstes Thema: Investitionsabzugsbetrag",
+      "text": "Folgen für tägliche Prüfschemata aus allen drei Klausuren.",
+      "sprecher": "Nächstes Mal zerlegen wir den Investitionsabzugsbetrag. Folge, wenn du solche Schemata täglich willst."
+    }
+  ],
+  "caption": "Übertragen wird der Gewinn – nie der Erlös. 📉\n\n§ 6b EStG lässt dich die im verkauften Wirtschaftsgut steckende stille Reserve auf ein neues Objekt umbuchen, statt sie sofort zu versteuern. Dafür müssen die Voraussetzungen des § 6b Abs. 4 S. 1 Nr. 1–5 EStG passen: begünstigtes Gut, sechs Jahre Anlagevermögen, inländische Betriebsstätte.\n\nDann hast du zwei Wege: sofortige Kürzung der Anschaffungskosten oder Rücklage nach § 6b Abs. 3 EStG – ein rein steuerliches Wahlrecht, nicht in der Handelsbilanz. Läuft die Frist leer aus, kommen 6 Prozent Gewinnzuschlag je vollem Wirtschaftsjahr nach § 6b Abs. 7 EStG obendrauf.\n\nSpeichern und vor Klausur 3 wiederholen. Was verhaust du eher: die Sechsjahresfrist oder den Zuschlag?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht",
+    "#paragraf6b",
+    "#stillereserven",
+    "#reinvestitionsrücklage",
+    "#steuerbilanz",
+    "#bilanzen"
+  ],
+  "kurztitel": "§ 6b: Gewinn statt Erlös",
+  "slug": "2026-09-05-b2"
+}

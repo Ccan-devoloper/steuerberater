@@ -1,0 +1,15 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Prüfungsfrage Bilanzsteuerrecht",
+  "titel": "Wie berechnest du die Gewerbesteuerrückstellung zum 31.12.?",
+  "optionen": [
+    "Direkt: Gewerbeertrag × 3,5 % × Hebesatz ./. Vorauszahlungen",
+    "Über die 5/6-Methode zurückrechnen",
+    "Gewerbeertrag um die Steuer mindern, dann rechnen"
+  ],
+  "icon": "rechner",
+  "fachLabel": "Bilanzsteuerrecht"
+}

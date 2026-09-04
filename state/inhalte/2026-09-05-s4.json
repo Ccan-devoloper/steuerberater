@@ -1,0 +1,17 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Auflösung",
+  "titel": "Direkt rechnen, nicht zurückrechnen",
+  "text": "Messbetrag = Gewerbeertrag × 3,5 %, mal Hebesatz = Jahresschuld, abzüglich Vorauszahlungen = Rückstellung. Die Gewerbesteuer mindert ihre eigene Bemessungsgrundlage nicht, § 4 Abs. 5b EStG.",
+  "optionen": [
+    "Direkt: Gewerbeertrag × 3,5 % × Hebesatz ./. Vorauszahlungen",
+    "Über die 5/6-Methode zurückrechnen",
+    "Gewerbeertrag um die Steuer mindern, dann rechnen"
+  ],
+  "richtig": 0,
+  "icon": "rechner",
+  "fachLabel": "Bilanzsteuerrecht"
+}

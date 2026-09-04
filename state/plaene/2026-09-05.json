@@ -20,7 +20,8 @@
       "themaId": "bilanz-modul-k3-7",
       "themaTitel": "Reinvestitionsrücklage nach § 6b EStG",
       "fach": "bilanz",
-      "status": "geplant"
+      "status": "geplant",
+      "fehler": "2026-09-04T22:11:55.618Z spawnSync ffmpeg ENOENT"
     }
   ],
   "stories": [

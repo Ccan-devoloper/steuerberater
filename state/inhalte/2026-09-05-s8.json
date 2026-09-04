@@ -1,0 +1,12 @@
+{
+  "slot": "s8",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Teileinkünfteverfahren",
+  "text": "Beispiel: Dividende 20.000 € im Betriebsvermögen, Finanzierungszinsen 5.000 €. Außerbilanziell 8.000 € steuerfrei (§ 3 Nr. 40 EStG), 2.000 € nicht abziehbar (§ 3c Abs. 2 S. 1 EStG). Nichts wird gebucht.",
+  "norm": "§ 3 Nr. 40, § 3c Abs. 2 S. 1 EStG",
+  "formel": "steuerfrei = Ertrag × 40 % · nicht abziehbar = Aufwand × 40 %",
+  "icon": "rechner",
+  "fachLabel": "Bilanzsteuerrecht"
+}
