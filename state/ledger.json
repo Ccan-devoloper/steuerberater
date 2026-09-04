@@ -129,11 +129,22 @@
       "fach": "kst",
       "titel": "Vier Aufwandsbuchungen – wie hoch ist die außerbilanzielle Hinzurechnung?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "beitrag",
+      "slot": "b2",
+      "format": "pruefungsfrage",
+      "thema": "ao-modul-ao-363",
+      "fach": "ao",
+      "titel": "Wann darf ich einen verjährten Fehler noch über § 177 AO ausgleichen?",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 1,
-    "kst": 1
+    "kst": 1,
+    "ao": 1
   }
 }
