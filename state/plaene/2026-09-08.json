@@ -1,0 +1,108 @@
+{
+  "datum": "2026-09-08",
+  "erzeugt": "2026-09-04T18:52:29.657Z",
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:30",
+      "format": "pruefungsfrage",
+      "themaId": "persg-quiz-k3-27",
+      "themaTitel": "Wie wird ein Wirtschaftsgut bewertet, das bei der Betriebsaufgabe ins Privatvermögen wandert?",
+      "fach": "persg",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "rechenweg",
+      "themaId": "persg-modul-persg-3",
+      "themaTitel": "Mitunternehmerstellung: Risiko und Initiative",
+      "fach": "persg",
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "18:00",
+      "format": "minifall",
+      "themaId": "ust-modul-ust-218",
+      "themaTitel": "Vorsteuerausschluss und Aufteilung: § 15 Abs. 2 bis 4",
+      "fach": "ust",
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "07:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "11:58",
+      "art": "frage",
+      "themaId": "kst-karte-kst-5",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "12:43",
+      "art": "antwort",
+      "themaId": "kst-karte-kst-5",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "15:25",
+      "art": "norm",
+      "themaId": "bilanz-modul-k3-18",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "17:02",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 28,
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "18:00",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "18:30",
+      "art": "merksatz",
+      "themaId": "istr-modul-istr-istr4-03",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "20:18",
+      "art": "formel",
+      "themaId": "bilanz-formel-sechzehn-freibetrag",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
