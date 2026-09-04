@@ -1,0 +1,99 @@
+{
+  "datum": "2026-09-05",
+  "erzeugt": "2026-09-04T22:09:00.366Z",
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:30",
+      "format": "pruefungsfrage",
+      "themaId": "ao-modul-ao-340",
+      "themaTitel": "§ 181 Abs. 5 AO: Feststellungsbescheid nach Ablauf der Feststellungsfrist und einschränkender Wirksamkeitsvermerk",
+      "fach": "ao",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "reel",
+      "themaId": "bilanz-modul-k3-7",
+      "themaTitel": "Reinvestitionsrücklage nach § 6b EStG",
+      "fach": "bilanz",
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "07:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "10:34",
+      "art": "frage",
+      "themaId": "bilanz-karte-k3-30",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "11:19",
+      "art": "antwort",
+      "themaId": "bilanz-karte-k3-30",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "13:39",
+      "art": "norm",
+      "themaId": "istr-modul-istr-istr2-06",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "15:05",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 31,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "16:53",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-331",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "18:39",
+      "art": "formel",
+      "themaId": "bilanz-formel-teileinkuenfte",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:59",
+      "art": "begriff",
+      "themaId": "bilanz-karte-k3-18",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}

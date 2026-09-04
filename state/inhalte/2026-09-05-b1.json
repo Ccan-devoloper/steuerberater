@@ -1,0 +1,116 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-340",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Feststellungsfrist abgelaufen – geht der Feststellungsbescheid trotzdem raus?",
+      "untertitel": "§ 181 Abs. 5 AO im Klausuraufbau",
+      "icon": "kalender",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "So prüfst du es der Reihe nach",
+      "schritte": [
+        {
+          "titel": "Feststellungsfrist",
+          "text": "Noch offen? Dann ganz normal feststellen, § 181 Abs. 1 S. 1 AO i.V.m. § 169 Abs. 1 S. 1 AO."
+        },
+        {
+          "titel": "Ablauf ist kein Aus",
+          "text": "§ 181 Abs. 5 S. 1 AO lässt den Bescheid zu, soweit ein Folgebescheid noch offen ist."
+        },
+        {
+          "titel": "Hinweis prüfen",
+          "text": "§ 181 Abs. 5 S. 2 AO verlangt den *Wirksamkeitsvermerk* im Bescheid selbst."
+        },
+        {
+          "titel": "Reichweite bestimmen",
+          "text": "Bindung nach § 182 Abs. 1 S. 1 AO nur dort, wo die Festsetzungsfrist läuft."
+        },
+        {
+          "titel": "Änderung? Extra prüfen",
+          "text": "Eine Korrekturvorschrift brauchst du zusätzlich."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Erstbescheid oder Änderung",
+      "links": {
+        "titel": "Erstmalige Feststellung",
+        "punkte": [
+          "§ 181 Abs. 5 S. 1 AO öffnet den Erlass",
+          "Hinweis nach S. 2 gehört in den Bescheid",
+          "Wirkung nur für offene Folgebescheide"
+        ]
+      },
+      "rechts": {
+        "titel": "Änderungsbescheid",
+        "punkte": [
+          "Zusätzlich eine Korrekturnorm nötig",
+          "§ 164, § 173 oder § 175 AO gesondert prüfen",
+          "§ 181 Abs. 5 AO ersetzt keine Änderungsnorm"
+        ]
+      },
+      "icon": "waage"
+    },
+    {
+      "art": "text",
+      "titel": "Kurzfall zum Mitdenken",
+      "punkte": [
+        "Bei der Deichhof GbR ist die Feststellungsfrist 2025 abgelaufen.",
+        "Beim Gesellschafter Ohlsen läuft die ESt-Festsetzungsfrist noch, bei der Gesellschafterin Warnke nicht.",
+        "Der Bescheid darf 2026 noch ergehen – mit Hinweis nach § 181 Abs. 5 S. 2 AO.",
+        "Er wirkt nur gegenüber Ohlsen; gegenüber Warnke bleibt er *ohne Wirkung*."
+      ],
+      "icon": "personen"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Die Frist öffnet dir § 181 Abs. 5 AO – die Bestandskraft brichst du woanders. Und fehlt der Hinweis, ist der Bescheid angreifbar, nicht nichtig.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Fragen zu allen drei Klausurtagen",
+        "Speichern und vor Tag 1 nochmal durchswipen",
+        "Welches AO-Thema sollen wir als Nächstes zerlegen?"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Die Feststellungsfrist ist durch – und jetzt? 🗓️\n\n§ 181 Abs. 5 S. 1 AO lässt den Feststellungsbescheid weiterhin zu, soweit er für eine Steuerfestsetzung Bedeutung hat, deren Festsetzungsfrist noch läuft. Dazu gehört zwingend der Hinweis nach § 181 Abs. 5 S. 2 AO, der die Wirkung genau auf diese Fälle begrenzt.\n\nZwei Klassiker, die Punkte kosten: § 181 Abs. 5 AO als Korrekturvorschrift zu verkaufen – und beim Änderungs-Feststellungsbescheid die eigene Änderungsnorm zu vergessen. Fehlt der Hinweis, ist der Bescheid übrigens rechtswidrig und anfechtbar, nicht automatisch nichtig.\n\nPrüfe immer getrennt: Feststellungsfrist hier, Festsetzungsfrist des Folgebescheids dort.\n\n👉 Speichern für die Wiederholung. Und sag ehrlich: Prüfst du beide Fristen sauber getrennt oder rutscht dir das in der Klausur zusammen?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#abgabenordnung",
+    "#verfahrensrecht",
+    "#feststellungsbescheid",
+    "#festsetzungsverjährung",
+    "#grundlagenbescheid",
+    "#klausurtraining"
+  ],
+  "kurztitel": "§ 181 Abs. 5 AO im Griff",
+  "quellen": [
+    "§ 181 Abs. 1 S. 1 AO",
+    "§ 181 Abs. 5 S. 1 und S. 2 AO",
+    "§ 169 Abs. 1 S. 1 AO",
+    "§ 182 Abs. 1 S. 1 AO"
+  ],
+  "slug": "2026-09-05-b1"
+}
