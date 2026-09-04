@@ -319,6 +319,16 @@
       "fach": "bilanz",
       "titel": "Teileinkünfteverfahren",
       "medienId": "18113860187097971"
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "begriff",
+      "thema": "bilanz-karte-k3-18",
+      "fach": "bilanz",
+      "titel": "Bilanzberichtigung",
+      "medienId": "17921896296200499"
     }
   ],
   "fachZaehler": {
