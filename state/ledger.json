@@ -49,6 +49,16 @@
       "fach": "kst",
       "titel": "Wie wird eine verdeckte Gewinnausschüttung technisch korrigiert?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "story",
+      "slot": "s2",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": "Disagio beim Tilgungsdarlehen: Warum die Zinsstaffel und nicht linear?",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
