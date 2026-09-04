@@ -53,7 +53,9 @@
       "art": "frage",
       "themaId": "kst-karte-kst-5",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T18:52:56.308Z"
     },
     {
       "slot": "s2",
