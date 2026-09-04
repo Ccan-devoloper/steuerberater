@@ -149,6 +149,16 @@
       "fach": "bilanz",
       "titel": "Schuldbeitritt: Wie viel Aufwand darfst du sofort abziehen?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "story",
+      "slot": "s1",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "kst",
+      "titel": "Mini-Fall: Nichtabziehbare Aufwendungen",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
