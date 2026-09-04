@@ -9,11 +9,16 @@ const env = (name, fallback) => (process.env[name] != null && process.env[name] 
 export const CONFIG = {
   /* Marke -------------------------------------------------------------- */
   marke: {
-    name: env("IG_MARKE", "Examenscampus"),
-    handle: env("IG_HANDLE", "@examenscampus"),          // wird auf jede Kachel gedruckt
-    website: env("IG_WEBSITE", "ccan-devoloper.github.io/steuerberater"),
-    claim: env("IG_CLAIM", "Steuerberaterexamen. Jeden Tag ein Stück näher."),
+    /* Bewusst leer: Auf den Kacheln erscheint vorerst kein Name, kein Handle
+       und keine Website. Sobald IG_HANDLE gesetzt ist, steht das Handle unten
+       links auf jeder Kachel; IG_WEBSITE erscheint dann in den Captions. */
+    name: env("IG_MARKE", ""),
+    handle: env("IG_HANDLE", ""),
+    website: env("IG_WEBSITE", ""),
     stil: env("IG_STIL", "kanzlei"),                       // kanzlei | klausurbogen | campus (siehe stile.mjs)
+    /* true: Kanzlei-Stil wechselt Kachel für Kachel zwischen Schwarz und Weiß
+       (Schachbrett im Profil). Für andere Stile ohne Wirkung. */
+    stilWechsel: env("IG_STIL_WECHSEL", "true") === "true",
     zeitzone: "Europe/Berlin",
   },
 
@@ -67,6 +72,14 @@ export const CONFIG = {
     tokenSchluessel: env("IG_TOKEN_KEY", ""),               // verschlüsselt den aufgefrischten Token im Asset-Zweig
     trockenlauf: env("IG_DRY_RUN", "false") === "true",     // true: alles erzeugen, nichts veröffentlichen
     sicherheitsabstandLimit: 10,                            // Reserve unter dem 100er-Tageslimit
+  },
+
+  /* Interaktion: Kommentare unter den eigenen Beiträgen beantworten -------- */
+  interaktion: {
+    aktiv: env("IG_INTERAKTION", "true") === "true",
+    maxAntwortenJeLauf: Number(env("IG_MAX_ANTWORTEN", 15)),
+    beitraegeZurueck: 12,          // so viele der letzten Beiträge werden auf neue Kommentare geprüft
+    maxAlterTage: 14,              // ältere Kommentare bleiben unbeantwortet
   },
 
   /* Bild-Hosting ----------------------------------------------------------- */

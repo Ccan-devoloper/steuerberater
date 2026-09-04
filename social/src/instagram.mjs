@@ -191,10 +191,26 @@ export class Instagram {
     return this.veroeffentlichen(c.id);
   }
 
-  /* Kommentare der letzten Beiträge lesen (für den Tagesbericht). */
-  async neuesteMedien(anzahl = 5) {
-    const r = await this.anfrage("GET", `${this.kontoId}/media`, { fields: "id,caption,timestamp,like_count,comments_count,permalink", limit: anzahl });
+  /* Letzte Beiträge samt Kommentaren und Antworten. */
+  async neuesteMedien(anzahl = 12) {
+    const r = await this.anfrage("GET", `${this.kontoId}/media`, {
+      fields: "id,caption,timestamp,like_count,comments_count,permalink,media_type,comments.limit(50){id,text,username,timestamp,hidden,like_count,replies.limit(50){id,text,username,timestamp}}",
+      limit: anzahl,
+    });
     return r.data || [];
+  }
+
+  /* Auf einen Kommentar antworten. Rückgabe: ID der Antwort. */
+  async kommentarBeantworten(kommentarId, text) {
+    if (this.trockenlauf) { this.protokoll.push({ art: "antwort", kommentarId, text }); return "trocken"; }
+    const r = await this.anfrage("POST", `${kommentarId}/replies`, { message: text });
+    return r.id;
+  }
+
+  /* Eigener Nutzername (für die Erkennung eigener Kommentare). */
+  async eigenerName() {
+    if (this.host === "facebook") return (await this.anfrage("GET", `${this.kontoId}`, { fields: "username" })).username;
+    return (await this.anfrage("GET", "me", { fields: "username" })).username;
   }
 }
 

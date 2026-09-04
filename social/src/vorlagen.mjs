@@ -65,14 +65,14 @@ html,body{width:${m.breite}px;height:${m.hoehe}px;overflow:hidden;background:var
 .etikett{display:inline-flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:24px}
 .etikett .punkt{width:18px;height:18px;border-radius:50%;background:currentColor}
 .etikett.k1{color:var(--k1)}.etikett.k2{color:var(--k2)}.etikett.k3{color:var(--k3)}
-.stil-kanzlei .etikett{font-family:"Oswald";font-size:28px;letter-spacing:.02em;line-height:.95;text-transform:none;font-weight:500;flex-direction:column;align-items:flex-start;gap:0}
-.stil-kanzlei .etikett .punkt{display:none}
+.familie-kanzlei .etikett{font-family:"Oswald";font-size:28px;letter-spacing:.02em;line-height:.95;text-transform:none;font-weight:500;flex-direction:column;align-items:flex-start;gap:0}
+.familie-kanzlei .etikett .punkt{display:none}
 .zaehler{font-family:var(--mono);font-size:24px;color:var(--text-weich)}
 h1{font-family:var(--titel);font-weight:${s.titelGewicht};font-size:112px;line-height:${s.titelZeilenhoehe};letter-spacing:${s.titelSpacing};text-transform:${s.titelTransform};margin-top:54px;text-wrap:balance}
 h1.klein{font-size:88px}
 h1.winzig{font-size:72px}
 h2{font-family:var(--titel);font-weight:${s.titelGewicht};font-size:74px;line-height:1.08;letter-spacing:${s.titelSpacing};margin-top:44px;text-wrap:balance}
-.stil-kanzlei h2{font-size:80px}
+.familie-kanzlei h2{font-size:80px}
 .unter{margin-top:26px;font-size:36px;line-height:1.35;color:var(--text-weich);max-width:880px}
 .text{margin-top:40px;font-size:40px;line-height:1.42;max-width:930px}
 .text p+p{margin-top:22px}
@@ -108,9 +108,15 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 .stil-klausurbogen .pille{border-radius:2px}
 .fuss{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;font-size:28px;color:var(--text-weich)}
 .fuss .handle{font-weight:600;color:var(--text)}
-.fuss .web{font-family:var(--mono);font-size:24px}
+.fuss .klausur{font-family:var(--mono);font-size:24px;letter-spacing:.04em}
 .bild{position:absolute;right:0;bottom:0;width:640px;height:640px;overflow:hidden;pointer-events:none}
-.bild img{width:100%;height:100%;object-fit:cover;object-position:center;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 30%);mask-image:linear-gradient(to bottom,transparent 0,#000 30%)}
+.bild img{width:100%;height:100%;object-fit:cover;object-position:center;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 34%),linear-gradient(to right,transparent 0,#000 30%);mask-image:linear-gradient(to bottom,transparent 0,#000 34%),linear-gradient(to right,transparent 0,#000 30%);-webkit-mask-composite:source-in;mask-composite:intersect}
+.folie:has(.bild) h1{max-width:900px;position:relative;z-index:2}
+.folie:has(.bild) .fuss{position:relative;z-index:2}
+.folie:has(.bild) .fuss .klausur,.story:has(.bild) .fuss .klausur{display:none}
+.story:has(.bild) .fuss{position:relative;z-index:2}
+.story .bild{width:1080px;height:900px;right:0;bottom:0}
+.story .bild img{-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 40%);mask-image:linear-gradient(to bottom,transparent 0,#000 40%)}
 .illu{position:absolute;right:56px;bottom:90px;width:420px;height:420px;display:flex;align-items:center;justify-content:center;color:var(--akzent);opacity:.95}
 .illu .icon{width:300px;height:300px}
 .illu::before{content:"";position:absolute;inset:0;border-radius:50%;border:3px solid var(--linie)}
@@ -166,15 +172,18 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 
 function kopf(ctx, zaehler) {
   const kl = KLAUSUR_FARBE[ctx.klausur] || "k3";
-  const etikett = ctx.stil.id === "kanzlei"
+  const etikett = (ctx.stil.familie || ctx.stil.id) === "kanzlei"
     ? `<span class="etikett ${kl}">${esc(ctx.fachLabel.split(" / ")[0])}</span>`
     : `<span class="etikett ${kl}"><i class="punkt"></i>${esc(ctx.fachLabel)}</span>`;
   return `<div class="kopf">${etikett}<span class="zaehler">${zaehler ? esc(zaehler) : ""}</span></div>`;
 }
 
+/* Fußzeile: nur das Handle, und nur wenn eines konfiguriert ist. Keine Website,
+   kein Markenname – das kommt später. */
 function fuss(ctx) {
-  return `<div class="fuss"><span class="handle">${esc(ctx.handle)}</span><span class="web">${esc(ctx.website)}</span></div>`;
+  return `<div class="fuss"><span class="handle">${esc(ctx.handle || "")}</span><span class="klausur">${esc(KLAUSUR_KURZ[ctx.klausur] || "")}</span></div>`;
 }
+const KLAUSUR_KURZ = { 1: "Klausur 1 · Tag 1", 2: "Klausur 2 · Tag 2", 3: "Klausur 3 · Tag 3" };
 
 function bildOderIllu(ctx, folie) {
   if (folie.fotoPfad) return `<div class="bild"><img src="file://${folie.fotoPfad}" alt=""></div>`;
@@ -235,9 +244,8 @@ const FOLIEN = {
     <div class="cta">
       <h2>${markieren(f.titel || "Folgen für mehr.")}</h2>
       <div class="liste">
-        ${(f.punkte || ["Täglich Prüfungsfragen zu allen drei Klausuren", "Merken für die Wiederholung", "Fragen? In die Kommentare"]).map((p, k) => `<div>${iconSvg(["haken", "buch", "personen"][k % 3], 56)}<span>${markieren(p)}</span></div>`).join("")}
+        ${(f.punkte || ["Folgen für tägliche Prüfungsfragen", "Speichern für die Wiederholung", "Fragen? Ab in die Kommentare"]).map((p, k) => `<div>${iconSvg(["haken", "buch", "personen"][k % 3], 56)}<span>${markieren(p)}</span></div>`).join("")}
       </div>
-      <span class="web">${esc(ctx.website)}</span>
     </div>
     ${fuss(ctx)}`,
 };
@@ -245,11 +253,10 @@ const FOLIEN = {
 export function folieHtml(folie, ctx, index, anzahl) {
   const render = FOLIEN[folie.art] || FOLIEN.text;
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "beitrag")}</style></head>
-<body class="stil-${ctx.stil.id}"><div class="folie">${render(folie, ctx, index, anzahl)}</div></body></html>`;
+<body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="folie">${render(folie, ctx, index, anzahl)}</div></body></html>`;
 }
 
-const KLAUSUR_KURZ = { 1: "Klausur 1 · Tag 1", 2: "Klausur 2 · Tag 2", 3: "Klausur 3 · Tag 3" };
-const sk = (ctx) => kopf(ctx, KLAUSUR_KURZ[ctx.klausur] || "");
+const sk = (ctx) => kopf(ctx, "");
 
 const STORIES = {
   teaser: (s, ctx) => `
@@ -336,7 +343,7 @@ const STORIES = {
 export function storyHtml(story, ctx) {
   const render = STORIES[story.art] || STORIES.tipp;
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}</style></head>
-<body class="stil-${ctx.stil.id}"><div class="story">${render(story, ctx)}</div></body></html>`;
+<body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="story">${render(story, ctx)}</div></body></html>`;
 }
 
 export const FOLIEN_ARTEN = Object.keys(FOLIEN);

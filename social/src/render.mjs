@@ -8,7 +8,7 @@ import os from "node:os";
 import path from "node:path";
 import { chromium } from "playwright";
 import { folieHtml, storyHtml, MASSE } from "./vorlagen.mjs";
-import { stil as stilLaden } from "./stile.mjs";
+import { stil as stilLaden, stilFuer } from "./stile.mjs";
 import { FAECHER } from "./inhalte.mjs";
 import { CONFIG } from "./config.mjs";
 
@@ -26,11 +26,11 @@ export async function browserBeenden() {
 }
 
 export function kontext(opt = {}) {
-  const stilName = opt.stil || CONFIG.marke.stil;
+  const basis = opt.stil || CONFIG.marke.stil;
+  const stilName = opt.variante != null ? stilFuer(basis, opt.variante, CONFIG.marke.stilWechsel) : basis;
   return {
     stil: stilLaden(stilName),
-    handle: opt.handle || CONFIG.marke.handle,
-    website: opt.website || CONFIG.marke.website,
+    handle: opt.handle ?? CONFIG.marke.handle,
     fachLabel: opt.fachLabel || (opt.fach ? FAECHER[opt.fach]?.label : "Steuerberaterexamen") || "Steuerberaterexamen",
     klausur: opt.klausur || (opt.fach ? FAECHER[opt.fach]?.klausur : 3) || 3,
   };
@@ -56,7 +56,7 @@ async function htmlZuJpeg(html, masse, zielPfad, skala = Number(process.env.IG_R
 
 /* Rendert alle Folien eines Beitrags → Liste der JPEG-Pfade. */
 export async function beitragRendern(beitrag, zielVerzeichnis, opt = {}) {
-  const ctx = kontext({ ...opt, fach: beitrag.fach, klausur: beitrag.klausur, fachLabel: beitrag.fachLabel });
+  const ctx = kontext({ ...opt, fach: beitrag.fach, klausur: beitrag.klausur, fachLabel: beitrag.fachLabel, variante: opt.variante ?? beitrag.variante });
   const pfade = [];
   const n = beitrag.folien.length;
   for (let i = 0; i < n; i++) {
@@ -68,6 +68,6 @@ export async function beitragRendern(beitrag, zielVerzeichnis, opt = {}) {
 }
 
 export async function storyRendern(story, zielPfad, opt = {}) {
-  const ctx = kontext({ ...opt, fach: story.fach, klausur: story.klausur, fachLabel: story.fachLabel });
+  const ctx = kontext({ ...opt, fach: story.fach, klausur: story.klausur, fachLabel: story.fachLabel, variante: opt.variante ?? story.variante });
   return htmlZuJpeg(storyHtml(story, ctx), MASSE.story, zielPfad);
 }

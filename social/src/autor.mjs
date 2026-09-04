@@ -74,7 +74,8 @@ export const FORMATE = {
   },
 };
 
-const SYSTEM = `Du bist Redakteur:in des Instagram-Kanals „${CONFIG.marke.name}“ für Menschen, die sich auf das deutsche Steuerberaterexamen vorbereiten (schriftliche Prüfung: Tag 1 Verfahrensrecht/USt/ErbSt, Tag 2 Ertragsteuern, Tag 3 Buchführung und Bilanzwesen). Vorbild ist der Aufbau erfolgreicher juristischer Lernkanäle: eine präzise Prüfungsfrage als Aufhänger, dann eine klare, prüfungsnahe Antwort zum Durchswipen.
+const KANAL = CONFIG.marke.name ? `des Instagram-Kanals „${CONFIG.marke.name}“` : "eines Instagram-Kanals";
+const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das deutsche Steuerberaterexamen vorbereiten (schriftliche Prüfung: Tag 1 Verfahrensrecht/USt/ErbSt, Tag 2 Ertragsteuern, Tag 3 Buchführung und Bilanzwesen). Vorbild ist der Aufbau erfolgreicher juristischer Lernkanäle: eine präzise Prüfungsfrage als Aufhänger, dann eine klare, prüfungsnahe Antwort zum Durchswipen.
 
 ## Ton
 - Direkt, fachlich präzise, kein Marketing-Sprech, kein Pathos. Du-Ansprache.
@@ -93,13 +94,13 @@ const SYSTEM = `Du bist Redakteur:in des Instagram-Kanals „${CONFIG.marke.name
 - Je Folie maximal 5 Punkte / 5 Schritte, insgesamt maximal 350 Zeichen Text je Folie.
 - Hervorhebungen mit *Sternchen* um das Wort – sparsam, ein bis zwei je Folie.
 - icon: genau einer aus: ${Object.keys(ICONS).join(", ")}.
-- Caption: 4–8 Zeilen. Zeile 1 ist der Hook (die Frage oder die Pointe), dann die Kernantwort in 2–4 Sätzen, dann eine Aufforderung (speichern / kommentieren / „Mehr auf der Website – Link in Bio“). Keine Hashtags in der Caption; die kommen separat.
+- Caption: 4–8 Zeilen. Zeile 1 ist der Hook (die Frage oder die Pointe), dann die Kernantwort in 2–4 Sätzen, dann eine Aufforderung zum Speichern, Folgen oder Kommentieren – am besten eine echte Frage an die Leser:innen, die eine Antwort im Kommentar provoziert. ${CONFIG.marke.website ? `Am Ende darf ein Hinweis „Mehr auf ${CONFIG.marke.website} (Link in Bio)“ stehen.` : "Keine Website, keine Plattform, kein Produkt erwähnen – auch nicht „Link in Bio“."} Keine Hashtags in der Caption; die kommen separat.
 - Hashtags: 8–14 Stück, deutsch, kleingeschrieben, spezifisch zum Thema plus diese Kernhashtags: ${CONFIG.hashtags.kern.join(" ")}.
 - kurztitel: 3–6 Wörter für die Story-Ankündigung.
 - fotoSuchbegriff: ein englischer Suchbegriff für ein passendes Stockfoto (Gegenstand oder Szene, keine Personen mit Gesicht), z. B. "fax machine", "handshake contract", "calculator desk".
 
 ## Beispiel eines fertigen Beitrags (Format Prüfungsfrage)
-${JSON.stringify({ folien: beispiele.beitraege[0].folien, caption: beispiele.beitraege[0].caption, hashtags: beispiele.beitraege[0].hashtags, kurztitel: "Teilwert-AfA: Pflicht oder Wahlrecht?", fotoSuchbegriff: "declining chart desk" }, null, 1)}
+${JSON.stringify({ folien: beispiele.beitraege[0].folien.map(({ fotoPfad, ...f }) => f), caption: beispiele.beitraege[0].caption, hashtags: beispiele.beitraege[0].hashtags, kurztitel: "Teilwert-AfA: Pflicht oder Wahlrecht?", fotoSuchbegriff: "declining chart desk" }, null, 1)}
 `;
 
 const FOLIE_SCHEMA = {
@@ -245,7 +246,11 @@ function nachbereiten(daten, { format, thema, fach, klausur }) {
     if (thema?.prioritaet) { folien[0].prioritaet = thema.prioritaet; folien[0].prioritaetText = prioritaetText(thema.prioritaet); }
     if (!ICONS[folien[0].icon]) folien[0].icon = "paragraf";
   }
-  if (folien.at(-1)?.art !== "cta") folien.push({ art: "cta", titel: "Jeden Tag eine Prüfungsfrage.", punkte: ["Alle drei Klausuren, nach Examenshäufigkeit sortiert", "Speichern und vor der Klausur wiederholen", "Welches Thema fehlt dir? Kommentiere!"] });
+  if (folien.at(-1)?.art !== "cta") folien.push({ art: "cta", titel: "Jeden Tag eine Prüfungsfrage.", punkte: ["Folgen für alle drei Klausuren", "Speichern und vor der Klausur wiederholen", "Welches Thema fehlt dir? Kommentiere!"] });
+  /* Sicherheitsnetz: keine Website, kein Plattformname auf Folien oder in der Caption. */
+  const verboten = /(github\.io|github\.com|examenscampus|link in bio|website)/i;
+  for (const f of folien) for (const k of ["titel", "text", "untertitel"]) if (f[k] && verboten.test(f[k])) f[k] = f[k].replace(verboten, "").replace(/\s{2,}/g, " ").trim();
+  if (!CONFIG.marke.website) daten.caption = (daten.caption || "").split("\n").filter((z) => !verboten.test(z)).join("\n");
   const kern = CONFIG.hashtags.kern;
   const tags = [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase().replace(/\s+/g, "")), ...kern])].slice(0, CONFIG.hashtags.maxJeBeitrag);
   return {

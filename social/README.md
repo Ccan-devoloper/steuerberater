@@ -31,6 +31,18 @@ Rechenweg · Begriff · Fehlerfalle · Klausurtipp · Zahl des Tages · Countdow
 Themenwahl: gewichtet nach Examenspriorität der Webseite (🔴 60 % / 🟠 25 % / 🟢 15 %), Rotation über
 alle Fächer, ein Thema frühestens nach 60 Tagen erneut (Ledger im Asset-Zweig).
 
+**Optik**: Kanzlei-Stil, Kachel für Kachel im Wechsel Schwarz und Weiß (Schachbrett im Profil;
+`IG_STIL_WECHSEL=false` schaltet das ab). Auf keiner Folie steht ein Name, ein Handle oder eine
+Website – unten links bleibt Platz für das Handle, sobald `IG_HANDLE` gesetzt ist. Eine Website
+(`IG_WEBSITE`) wird nur in Captions genannt und nur, wenn sie gesetzt ist. Zusätzlich zur Anweisung an
+den Autor entfernt ein Filter jede Nennung von Website, Plattform oder „Link in Bio“.
+
+**Interaktion**: Bei jedem Lauf liest der Bot die Kommentare unter den letzten 12 Beiträgen und
+beantwortet neue Kommentare der letzten 14 Tage – kurz, fachlich, mit Norm, per Du. Nicht
+beantwortet werden eigene Kommentare, bereits beantwortete, Spam, Werbung, reine Emojis und Bitten um
+individuelle Steuerberatung. Höchstens 15 Antworten je Lauf (`IG_MAX_ANTWORTEN`), abschaltbar mit
+`IG_INTERAKTION=false`. Alle Antworten stehen im Ledger.
+
 ## Einmalige Einrichtung (ca. 30 Minuten, danach nie wieder)
 
 ### 1. Instagram-Konto vorbereiten
@@ -40,17 +52,35 @@ alle Fächer, ein Thema frühestens nach 60 Tagen erneut (Ledger im Asset-Zweig)
 ### 2. Meta-App und Zugriffstoken
 Empfohlen: **Instagram-API mit Instagram-Login** (kein Facebook-Seitenzwang).
 1. https://developers.facebook.com → *Meine Apps* → *App erstellen* → Anwendungsfall „Instagram“ (Business).
-2. Im App-Dashboard unter **Instagram → API-Einrichtung mit Instagram-Login**: das Instagram-Konto hinzufügen und die Berechtigungen `instagram_business_basic` und `instagram_business_content_publish` bestätigen.
+2. Im App-Dashboard unter **Instagram → API-Einrichtung mit Instagram-Login**: das Instagram-Konto hinzufügen und die Berechtigungen `instagram_business_basic`, `instagram_business_content_publish` und `instagram_business_manage_comments` (Kommentar-Antworten) bestätigen.
 3. Dort **„Token generieren“** → es entsteht ein **langlebiger Token (60 Tage)**. Den Token und die angezeigte **Instagram-Konto-ID** kopieren.
 4. Der Bot verlängert den Token **automatisch** (spätestens 20 Tage vor Ablauf) und legt ihn verschlüsselt im Asset-Zweig ab. Dafür braucht er einen frei gewählten Schlüssel (`IG_TOKEN_KEY`, beliebige lange Zeichenkette). Es ist danach keine manuelle Erneuerung mehr nötig.
 
 Alternative: Instagram-Konto mit Facebook-Seite verbunden → `IG_GRAPH_HOST=facebook` und einen
 **Seiten-Zugriffstoken ohne Ablauf** (über einen langlebigen Nutzer-Token erzeugt) verwenden; dann entfällt
-die Verlängerung ganz.
+die Verlängerung ganz. Berechtigungen dort: `instagram_basic`, `instagram_content_publish`,
+`instagram_manage_comments`, `pages_show_list`, `pages_read_engagement`.
 
 ### 3. Claude-API-Schlüssel
-https://platform.claude.com → API-Schlüssel erstellen. Der Bot nutzt `claude-opus-5`; Kosten liegen
-bei etwa 0,15–0,40 € je Tag (3 Beiträge, 9 Stories, eine Web-Recherche pro Woche).
+https://platform.claude.com → API-Schlüssel erstellen und Guthaben aufladen.
+
+**Warum das Geld kostet:** Der Bot selbst ist kostenlos (GitHub Actions ist für öffentliche
+Repositories gratis). Bezahlt wird nur das Schreiben der Texte: Für jeden Beitrag, jede Story-Runde,
+jede Recherche und jede Kommentarantwort ruft der Bot die Claude API auf, und Anthropic rechnet das
+nach verarbeiteten Wörtern (Tokens) ab – eine eigene Abrechnung mit Guthaben, unabhängig von einem
+Claude-Abo. Standardmodell ist `claude-opus-5` (5 $ je Million Eingabe-Tokens, 25 $ je Million
+Ausgabe-Tokens).
+
+| Aufruf | je Tag | Tokens rein / raus (ca.) | Kosten |
+| --- | --- | --- | --- |
+| Beitrag schreiben (inkl. Nachbesserung) | 3 | 6.000 / 2.500 | 0,28 $ |
+| Stories schreiben (ein Aufruf für alle) | 1 | 6.000 / 2.500 | 0,09 $ |
+| Web-Recherche (nur mittwochs) | 1/7 | 15.000 / 3.000 | 0,02 $ |
+| Kommentare beantworten | 3–5 | 3.000 / 500 | 0,08 $ |
+
+Rund **0,45 $ ≈ 0,40 € pro Tag, also etwa 12 € im Monat**. Der stabile Teil des Prompts wird
+zwischengespeichert (Prompt-Caching), was die Eingabekosten stark senkt – real eher 0,25 € pro Tag.
+Mit `IG_KI_MODELL=claude-sonnet-5` (2 $ / 10 $) halbiert sich der Betrag noch einmal.
 
 ### 4. Secrets und Variablen im Repository setzen
 GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
@@ -69,10 +99,12 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 
 | Name | Beispiel | Bedeutung |
 | --- | --- | --- |
-| `IG_HANDLE` | `@examenscampus` | wird auf jede Kachel gedruckt |
+| `IG_HANDLE` | leer | Handle unten links auf jeder Kachel – solange leer, steht dort nichts |
 | `IG_STIL` | `kanzlei` | Stil: `kanzlei` (schwarz, herrjurist-Look) · `klausurbogen` (Papier/Tinte wie die Webseite) · `campus` (Indigo/Limette) |
-| `IG_WEBSITE` | `ccan-devoloper.github.io/steuerberater` | Adresse auf den Kacheln |
-| `IG_MARKE` | `Examenscampus` | Name des Kanals |
+| `IG_WEBSITE` | leer | nur in Captions, nur wenn gesetzt – nie auf Kacheln |
+| `IG_MARKE` | leer | Kanalname im Prompt (nicht auf den Kacheln) |
+| `IG_STIL_WECHSEL` | `true` | Kanzlei-Stil im Wechsel Schwarz/Weiß |
+| `IG_INTERAKTION` | `true` | Kommentare automatisch beantworten |
 | `IG_GRAPH_HOST` | `instagram` | `instagram` (Instagram-Login) oder `facebook` (Seiten-Token) |
 | `IG_EXAMEN_DATUM` / `IG_EXAMEN_ENDE` | `2026-10-06` / `2026-10-08` | Countdown; nach der Prüfung auf das Folgejahr setzen (bundeseinheitlich Anfang Oktober) |
 
@@ -114,6 +146,7 @@ social/
     pruefung.mjs    Eigenständigkeitsprüfung (7-Wort-Shingles gegen alle Webseitendaten, Namen, Längen)
     stile.mjs       drei Stile + Icon-Set
     vorlagen.mjs    HTML/CSS der Folien- und Story-Arten
+    interaktion.mjs Kommentare lesen, Antworten formulieren, posten
     render.mjs      Playwright → JPEG
     fotos.mjs       optionale Stockfotos (Pexels)
     hosting.mjs     Asset-Zweig: Bilder, Zustand, öffentliche URLs
@@ -130,6 +163,7 @@ social/
 
 - Kein automatisches Folgen, Liken oder Kommentieren fremder Konten – das verstößt gegen die
   Instagram-Nutzungsbedingungen und bringt keine echten Follower. Die offizielle API erlaubt es ohnehin nicht.
+  Interaktion findet nur unter den eigenen Beiträgen statt (Antworten auf Kommentare).
 - Keine Sticker (Umfragen, Quiz-Sticker) in Stories – die API unterstützt sie nicht; Quiz-Stories arbeiten
   deshalb mit Frage- und Auflösungskarte.
 - Keine Reels. Das ist der größte Reichweiten-Hebel, den der Bot noch nicht hat; die Folien ließen sich

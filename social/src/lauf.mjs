@@ -24,6 +24,7 @@ import { beitragRendern, storyRendern, browserBeenden } from "./render.mjs";
 import { Instagram } from "./instagram.mjs";
 import { Hosting } from "./hosting.mjs";
 import { fotoSuchen } from "./fotos.mjs";
+import { kommentareBeantworten } from "./interaktion.mjs";
 import { heuteIso, lokaleMinuten, minutenVon } from "./zeit.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
@@ -35,6 +36,12 @@ const alles = args.has("alles");
 const AUSGABE = path.resolve(hier, "../out", datum);
 
 function log(...t) { console.log(new Date().toISOString().slice(11, 19), ...t); }
+
+/* Schwarz/Weiß-Wechsel: Beiträge alternieren fortlaufend über alle Tage
+   (Schachbrett im Profil), Stories alternieren innerhalb des Tages. */
+const tagIndex = Math.floor(new Date(`${datum}T12:00:00Z`).getTime() / 86400000);
+const varianteBeitrag = (slot) => (tagIndex * 3 + Number(slot.slice(1)) - 1) % 2;
+const varianteStory = (slot) => (Number(slot.slice(1)) - 1) % 2;
 
 /* Plan serialisierbar machen: Themen nur als ID + Titel, Inhalte separat. */
 function planSpeichern(hosting, plan) {
@@ -72,7 +79,6 @@ async function main() {
   const faellig = (e) => e.status !== "veroeffentlicht" && (alles || minutenVon(e.zeit) <= jetzt);
   const beitraegeFaellig = plan.beitraege.filter(faellig);
   const storiesFaellig = plan.stories.filter(faellig);
-  if (!beitraegeFaellig.length && !storiesFaellig.length) { log("Nichts fällig."); return; }
 
   /* Instagram-Verbindung und Kontingent. */
   const ig = new Instagram({ trockenlauf: trocken, tresorDatei: path.join(hosting.stateDir, "token.enc") });
@@ -83,7 +89,19 @@ async function main() {
     kontingent = limit;
     log(`Verbunden mit @${konto.username} · Kontingent ${limit.genutzt}/${limit.maximum}`);
     if (await ig.tokenAuffrischen()) log("Zugriffstoken verlängert und im Tresor gespeichert.");
+
+    /* Interaktion: neue Kommentare beantworten – bei jedem Lauf, unabhängig vom Plan. */
+    if (CONFIG.interaktion.aktiv) {
+      try {
+        const r = await kommentareBeantworten(ig, ledger, { log });
+        if (r.beantwortet) { ledgerSpeichern(ledgerPfad, ledger); hosting.commit(`Kommentare beantwortet ${datum}`); await hosting.push(); }
+        log(`Interaktion: ${r.beantwortet} Antworten (${r.geprueft} Beiträge geprüft)`);
+      } catch (e) {
+        console.error(`  ✗ Interaktion: ${e.message}`);
+      }
+    }
   }
+  if (!beitraegeFaellig.length && !storiesFaellig.length) { log("Nichts fällig."); return; }
   const frei = () => kontingent.maximum - kontingent.genutzt - CONFIG.instagram.sicherheitsabstandLimit;
 
   /* Zuerst die Beiträge (wichtiger), dann die Stories. */
@@ -116,7 +134,7 @@ async function main() {
       const foto = await fotoSuchen(beitrag.fotoSuchbegriff, path.join(AUSGABE, "fotos"), eintrag.slot.charCodeAt(1));
       if (foto) beitrag.folien[0].fotoPfad = foto.pfad;
 
-      const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "beitraege"));
+      const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "beitraege"), { variante: varianteBeitrag(eintrag.slot) });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Beitrag ${datum} ${eintrag.slot}`);
       const caption = `${beitrag.caption}\n\n${beitrag.hashtags.join(" ")}`;
       const medienId = await ig.beitragPosten({ bildUrls: urls, caption });
@@ -171,7 +189,7 @@ async function main() {
         if (!story) continue;
         if (story.beanstandet) { log(`Story ${eintrag.slot} beanstandet: ${story.beanstandet.join("; ")} – übersprungen.`); eintrag.status = "uebersprungen"; continue; }
       }
-      const bild = await storyRendern(story, path.join(AUSGABE, "stories", `${datum}-${eintrag.slot}-${story.art}.jpg`));
+      const bild = await storyRendern(story, path.join(AUSGABE, "stories", `${datum}-${eintrag.slot}-${story.art}.jpg`), { variante: varianteStory(eintrag.slot) });
       const [url] = await hosting.veroeffentlichen([bild], datum, `Story ${datum} ${eintrag.slot}`);
       const medienId = await ig.storyPosten({ bildUrl: url });
       kontingent.genutzt += 1;

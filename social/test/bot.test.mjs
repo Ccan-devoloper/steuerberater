@@ -82,6 +82,43 @@ test("Ledger sperrt Themen für die Wiederholfrist", () => {
   for (const b of zweit.beitraege) if (b.thema) assert.ok(!alt.has(b.thema.id), `Thema ${b.thema.id} zu früh wiederholt`);
 });
 
+test("Kanzlei-Stil wechselt zwischen Schwarz und Weiß", async () => {
+  const { stilFuer } = await import("../src/stile.mjs");
+  assert.equal(stilFuer("kanzlei", 0, true), "kanzlei");
+  assert.equal(stilFuer("kanzlei", 1, true), "kanzlei-hell");
+  assert.equal(stilFuer("kanzlei", 1, false), "kanzlei");
+  assert.equal(stilFuer("campus", 1, true), "campus");
+  assert.equal(kontext({ stil: "kanzlei", variante: 3 }).stil.id, "kanzlei-hell");
+});
+
+test("Keine Folie nennt Website, Repository oder Markennamen", () => {
+  CONFIG.marke.handle = ""; CONFIG.marke.website = "";
+  for (const stilName of Object.keys(STILE)) {
+    const ctx = kontext({ stil: stilName, fach: "ao" });
+    const alle = [...beispiele.beitraege.flatMap((b) => b.folien.map((f, i) => folieHtml(f, ctx, i + 1, b.folien.length))), ...beispiele.stories.map((s) => storyHtml(s, ctx))].join("\n");
+    const sichtbar = alle.replace(/<style>[\s\S]*?<\/style>/g, "").replace(/<svg[\s\S]*?<\/svg>/g, "");
+    assert.ok(!/github|examenscampus|ccan|website|link in bio/i.test(sichtbar), `${stilName}: ${sichtbar.match(/.{30}(github|examenscampus|ccan|website|link in bio).{30}/i)?.[0]}`);
+  }
+  for (const b of beispiele.beitraege) assert.ok(!/github|examenscampus|link in bio|website/i.test(b.caption), b.slug);
+});
+
+test("Interaktion: nur fremde, neue, unbeantwortete Kommentare werden ausgewählt", async () => {
+  const { offeneKommentare } = await import("../src/interaktion.mjs");
+  const jetzt = new Date().toISOString();
+  const alt = new Date(Date.now() - 30 * 86400000).toISOString();
+  const medien = [{ id: "m1", caption: "Teilwert?\nmehr", comments: { data: [
+    { id: "c1", text: "Super erklärt, danke!", username: "lea", timestamp: jetzt, replies: { data: [] } },
+    { id: "c2", text: "Gilt das auch bei Umlaufvermögen?", username: "tom", timestamp: jetzt, replies: { data: [{ id: "r1", text: "Ja", username: "meinkanal" }] } },
+    { id: "c3", text: "Danke fürs Lesen", username: "meinkanal", timestamp: jetzt, replies: { data: [] } },
+    { id: "c4", text: "🔥🔥", username: "bot", timestamp: jetzt, replies: { data: [] } },
+    { id: "c5", text: "Frage von damals", username: "alt", timestamp: alt, replies: { data: [] } },
+    { id: "c6", text: "Schon beantwortet", username: "x", timestamp: jetzt, replies: { data: [] } },
+  ] } }];
+  const offen = offeneKommentare(medien, "MeinKanal", { interaktionen: [{ kommentarId: "c6" }] });
+  assert.deepEqual(offen.map((k) => k.id), ["c1"]);
+  assert.equal(offen[0].beitrag, "Teilwert?");
+});
+
 test("Vorlagen rendern jede Folien- und Story-Art in jedem Stil ohne leere Felder", () => {
   for (const stilName of Object.keys(STILE)) {
     const ctx = kontext({ stil: stilName, fach: "ust" });

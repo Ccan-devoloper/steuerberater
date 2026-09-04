@@ -21,6 +21,23 @@ export const STILE = {
     ecken: "6px",
   },
 
+  /* A′ · Kanzlei hell – dieselbe Typografie auf Weiß. Im Wechsel mit der
+     dunklen Variante ergibt sich im Profil ein Schachbrett. */
+  "kanzlei-hell": {
+    name: "Kanzlei (hell)",
+    beschreibung: "Weiße Variante des Kanzlei-Stils – gleiche Schrift, umgekehrte Farben.",
+    modus: "hell",
+    familie: "kanzlei",
+    schrift: { titel: "Anton", text: "Inter", mono: "IBM Plex Mono", titelGewicht: 400, titelTransform: "none", titelSpacing: "0.005em", titelZeilenhoehe: 1.02 },
+    farben: {
+      grund: "#ffffff", flaeche: "#f3f3f5", text: "#0b0b0d", textWeich: "#55555e", linie: "#d9d9de",
+      akzent: "#0b0b0d", pille: "#0b0b0d", pilleText: "#ffffff",
+      k1: "#2f63e0", k2: "#e0501f", k3: "#1f9c5a",
+      ok: "#1f9c5a", warn: "#c97a00", rot: "#d92d2d",
+    },
+    ecken: "6px",
+  },
+
   /* B · Klausurbogen – Papier, Tintenblau, Serifen. Entspricht dem Design der
      Webseite (IBM Plex, Korrekturfarben, Randziffern). */
   klausurbogen: {
@@ -53,6 +70,13 @@ export const STILE = {
     ecken: "22px",
   },
 };
+
+/* Stil für die n-te Kachel: Beim Kanzlei-Stil mit Wechsel wird zwischen
+   dunkel und hell alterniert, sonst bleibt der Stil fest. */
+export function stilFuer(name, index = 0, wechsel = true) {
+  if (name === "kanzlei" && wechsel) return index % 2 === 0 ? "kanzlei" : "kanzlei-hell";
+  return name;
+}
 
 export function stil(name) {
   const s = STILE[name];
