@@ -199,6 +199,16 @@
       "fach": "erbst",
       "titel": "Nicht zuordenbare Lasten aufteilen",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
