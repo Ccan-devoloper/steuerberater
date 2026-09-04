@@ -209,6 +209,16 @@
       "fach": "bilanz",
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Schuldbeitritt: 15 Jahre Aufwand",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
