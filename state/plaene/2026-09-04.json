@@ -73,7 +73,9 @@
       "art": "antwort",
       "themaId": "bilanz-quiz-k3-36",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T22:03:10.825Z"
     },
     {
       "slot": "s6",

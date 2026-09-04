@@ -179,6 +179,16 @@
       "fach": "ao",
       "titel": "§ 177 AO: Saldieren im Rahmen",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "story",
+      "slot": "s5",
+      "storyArt": "antwort",
+      "thema": "bilanz-quiz-k3-36",
+      "fach": "bilanz",
+      "titel": "Nein – Veräußerungsgewinne bleiben außen vor",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
