@@ -117,6 +117,16 @@ legt Bilder und Zustand im Zweig `instagram-assets` ab, veröffentlicht aber nic
 `instagram-assets/bilder/<Datum>/`. Danach Modus **live** einmal manuell starten – ab dann läuft der
 Zeitplan (stündlich, Cron in `.github/workflows/instagram.yml`) von selbst.
 
+## Pausieren und Modus
+
+- **Manueller Start** (Actions → Instagram-Bot → Run workflow): Vorgabe ist **trocken** – es wird alles
+  erzeugt und in den Zweig `instagram-assets` gelegt, nichts veröffentlicht. Nur die Auswahl **live**
+  veröffentlicht.
+- **Zeitplan** (stündlich): veröffentlicht live. Zum Pausieren die Variable `IG_PAUSE` auf `true`
+  setzen (Settings → Secrets and variables → Actions → Variables); die Läufe erzeugen dann weiter
+  Bilder in den Asset-Zweig, posten aber nicht. Zum Weitermachen die Variable löschen oder auf `false`
+  setzen. Alternativ den Workflow unter Actions über „…“ → „Disable workflow“ ganz anhalten.
+
 ## Betrieb
 
 - **Ablauf je Stunde**: Plan des Tages laden (oder erzeugen) → alle Einträge, deren Uhrzeit erreicht ist, schreiben, rendern, hochladen, veröffentlichen → Zustand committen. Wurde ein Lauf verpasst, holt der nächste ihn nach. Nichts wird doppelt veröffentlicht (Status je Eintrag im Tagesplan).
