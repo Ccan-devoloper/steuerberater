@@ -114,7 +114,9 @@
       "art": "merksatz",
       "themaId": "istr-modul-istr-istr4-03",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T18:53:23.858Z"
     },
     {
       "slot": "s9",

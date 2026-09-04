@@ -99,6 +99,16 @@
       "fach": "ust",
       "titel": "Wann darf ich in der Steuerbilanz auf den niedrigeren Teilwert abschreiben?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "merksatz",
+      "thema": "istr-modul-istr-istr4-03",
+      "fach": "istr",
+      "titel": "Zweistufige Gewinnermittlung der Mitunternehmerschaft",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
