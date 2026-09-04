@@ -1,0 +1,12 @@
+{
+  "slot": "s9",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Ansammlungsrückstellung",
+  "text": "Erfüllungsbetrag 60.000 €, Gesamtzeitraum 15 Jahre, davon 6 abgelaufen: 60.000 × 6/15 = 24.000 €. Erst ansammeln, danach abzinsen – nie in umgekehrter Reihenfolge.",
+  "norm": "§ 6 Abs. 1 Nr. 3a Buchst. d, e EStG",
+  "formel": "Teilbetrag = Erfüllungsbetrag × abgelaufene Jahre / Gesamtjahre",
+  "icon": "rechner",
+  "fachLabel": "Bilanzsteuerrecht"
+}

@@ -1,0 +1,18 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Auflösung",
+  "titel": "Nein – Veräußerungsgewinne bleiben außen vor",
+  "text": "§ 8b Abs. 4 KStG erfasst ausdrücklich nur Bezüge im Sinne des Absatzes 1. Gewinne aus der Veräußerung von Anteilen richten sich allein nach § 8b Abs. 2, 3 KStG – ohne Mindestbeteiligung.",
+  "norm": "§ 8b Abs. 4 KStG",
+  "optionen": [
+    "Ja, Streubesitz ist immer voll steuerpflichtig",
+    "Nein, nur laufende Bezüge sind betroffen",
+    "Nur bei Beteiligungen im Ausland"
+  ],
+  "richtig": 1,
+  "icon": "haken",
+  "fachLabel": "Bilanzsteuerrecht"
+}

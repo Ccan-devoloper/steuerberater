@@ -1,0 +1,15 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Prüfungsfrage Bilanzsteuerrecht",
+  "titel": "Gilt die 10-%-Grenze des § 8b Abs. 4 KStG auch für Veräußerungsgewinne?",
+  "optionen": [
+    "Ja, Streubesitz ist immer voll steuerpflichtig",
+    "Nein, nur laufende Bezüge sind betroffen",
+    "Nur bei Beteiligungen im Ausland"
+  ],
+  "icon": "diagramm",
+  "fachLabel": "Bilanzsteuerrecht"
+}
