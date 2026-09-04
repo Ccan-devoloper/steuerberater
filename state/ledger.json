@@ -299,6 +299,16 @@
       "fach": "bilanz",
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "18104973215213048"
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "merksatz",
+      "thema": "ao-modul-ao-331",
+      "fach": "ao",
+      "titel": "Festsetzungsfrist: Ende vor Hemmung",
+      "medienId": "17902163601561575"
     }
   ],
   "fachZaehler": {
