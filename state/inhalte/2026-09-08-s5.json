@@ -1,0 +1,16 @@
+{
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "ueberzeile": "Richtig ist B",
+  "titel": "Außerbilanziell – die Handelsbilanz bleibt unverändert.",
+  "optionen": [
+    "In der Handelsbilanz umbuchen",
+    "Außerbilanziell dem Einkommen hinzurechnen",
+    "Als Rückstellung passivieren"
+  ],
+  "richtig": 1,
+  "text": "Beim Gesellschafter liegt ein Kapitalertrag vor.",
+  "slot": "s5",
+  "fachLabel": "Körperschaftsteuer"
+}

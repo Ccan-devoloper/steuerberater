@@ -1,0 +1,11 @@
+{
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Rechenweg",
+  "titel": "Zeitbudget in der Klausur",
+  "formel": "Minuten = Punkte × 3,6",
+  "text": "100 Punkte, 360 Minuten. Zieh 30 Minuten für Lesen und Kontrolle ab, dann verteile den Rest nach Punkten.",
+  "slot": "s9",
+  "fachLabel": "Bilanzsteuerrecht"
+}

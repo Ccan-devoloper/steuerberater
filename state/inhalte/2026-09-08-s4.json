@@ -1,0 +1,14 @@
+{
+  "art": "frage",
+  "fach": "kst",
+  "klausur": 2,
+  "ueberzeile": "Prüfungsfrage KSt",
+  "titel": "Wie wird eine verdeckte Gewinnausschüttung technisch korrigiert?",
+  "optionen": [
+    "In der Handelsbilanz umbuchen",
+    "Außerbilanziell dem Einkommen hinzurechnen",
+    "Als Rückstellung passivieren"
+  ],
+  "slot": "s4",
+  "fachLabel": "Körperschaftsteuer"
+}
