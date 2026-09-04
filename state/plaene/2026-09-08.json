@@ -124,7 +124,9 @@
       "art": "formel",
       "themaId": "bilanz-formel-sechzehn-freibetrag",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T18:53:28.283Z"
     }
   ]
 }

@@ -109,6 +109,16 @@
       "fach": "istr",
       "titel": "Zweistufige Gewinnermittlung der Mitunternehmerschaft",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-sechzehn-freibetrag",
+      "fach": "bilanz",
+      "titel": "Zeitbudget in der Klausur",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
