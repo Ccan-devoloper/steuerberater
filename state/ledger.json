@@ -229,6 +229,16 @@
       "fach": "ao",
       "titel": "Wiedereinsetzung, § 110 AO",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-rueckstellung-ansammlung",
+      "fach": "bilanz",
+      "titel": "Ansammlungsrückstellung",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {

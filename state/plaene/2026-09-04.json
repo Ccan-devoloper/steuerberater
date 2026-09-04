@@ -124,7 +124,9 @@
       "art": "formel",
       "themaId": "bilanz-formel-rueckstellung-ansammlung",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-04T22:03:22.519Z"
     }
   ]
 }
