@@ -1,0 +1,109 @@
+{
+  "format": "rechenweg",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-43",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Schuldbeitritt: Wie viel Aufwand darfst du sofort abziehen?",
+      "untertitel": "§ 4f und § 5 Abs. 7 EStG im Zusammenspiel",
+      "icon": "vertrag",
+      "pille": "Swipen →",
+      "prioritaet": "selten",
+      "prioritaetText": "Seltener, aber punktestark"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Der Aufwand beim Abgeber",
+      "formel": "Aufwandsüberhang ÷ 15 = jährlicher Abzug",
+      "zeilen": [
+        "Nordlicht GmbH gibt eine drohende Verlustverpflichtung ab",
+        "Entgelt an den Übernehmer: 300.000 €",
+        "Bisheriger steuerlicher Ansatz: 0 € (§ 5 Abs. 4a S. 1 EStG)",
+        "Aufwandsüberhang: 300.000 €",
+        "300.000 € ÷ 15 = 20.000 € je Jahr"
+      ],
+      "ergebnis": "Im Jahr der Übertragung sind nur *20.000 €* abziehbar, der Rest verteilt sich auf die folgenden 14 Jahre (§ 4f Abs. 1 S. 1 EStG).",
+      "icon": "rechner"
+    },
+    {
+      "art": "text",
+      "titel": "Die Gegenseite: der Übernehmer",
+      "punkte": [
+        "Er bilanziert so, als hätte es die Übertragung nie gegeben (§ 5 Abs. 7 S. 1 EStG).",
+        "Bei Schuldbeitritt und Erfüllungsübernahme mit Freistellung greift § 5 Abs. 7 S. 2 EStG.",
+        "Folge hier: keine Rückstellung, also *Erwerbsgewinn* von 300.000 €.",
+        "280.000 € (14/15) dürfen in eine Rücklage, § 5 Abs. 7 S. 5 EStG.",
+        "Auflösung mit mindestens 1/14 pro Jahr, § 5 Abs. 7 S. 6 EStG."
+      ],
+      "icon": "kreislauf"
+    },
+    {
+      "art": "text",
+      "titel": "Was du daneben prüfen musst",
+      "punkte": [
+        "Ausnahmen von der Streckung: Betriebs- oder Mitunternehmeranteilsveräußerung, kleine Betriebe, Arbeitnehmerwechsel (§ 4f Abs. 1 S. 2, 3 EStG).",
+        "Schuldbeitritt und Erfüllungsübernahme laufen beim Abgeber über § 4f Abs. 2 EStG.",
+        "Handelsrechtlich Ansatz zum *Erfüllungsbetrag*, § 253 Abs. 1 S. 2 HGB – dort wird nichts verteilt.",
+        "Differenz ausweisen, latente Steuern nicht vergessen."
+      ],
+      "icon": "waage"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Wer die Last abgibt, bekommt den Abzug in Raten. Wer sie übernimmt, versteuert sofort. Bearbeite nie nur eine Seite.",
+      "icon": "blitz"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Aufgaben zu allen drei Klausuren",
+        "Speichern und vor Klausur 3 wiederholen",
+        "Welche Norm hakt bei dir? Schreib sie in die Kommentare"
+      ],
+      "icon": "personen"
+    },
+    {
+      "art": "text"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für alle drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ]
+    }
+  ],
+  "caption": "300.000 € Aufwand – und im ersten Jahr sind nur 20.000 € abziehbar. 📉\n\nWird eine Verpflichtung übertragen, die steuerlich einem Ansatz- oder Bewertungsvorbehalt unterlag, streckt § 4f Abs. 1 S. 1 EStG den Aufwand beim Abgeber auf 15 Jahre. Beim Übernehmer verhindert § 5 Abs. 7 EStG den Ansatz zu Anschaffungskosten – er bewertet so, als wäre nichts übertragen worden.\n\nDer entstehende Erwerbsgewinn lässt sich zu 14/15 in eine Rücklage einstellen (§ 5 Abs. 7 S. 5 EStG), Auflösung mit mindestens 1/14 jährlich. Handelsrechtlich bleibt es beim Erfüllungsbetrag nach § 253 Abs. 1 S. 2 HGB – ohne jede Verteilung.\n\n👉 Speichern und in der Klausur immer beide Seiten würdigen. Und du: Rücklage mit 14/15 – hattest du das im Kopf oder ist dir das schon mal durchgerutscht?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht",
+    "#schuldbeitritt",
+    "#paragraf4f",
+    "#steuerbilanz",
+    "#rückstellungen",
+    "#klausurbilanzen"
+  ],
+  "kurztitel": "Schuldbeitritt: 15 Jahre Aufwand",
+  "quellen": [
+    "§ 4f Abs. 1 S. 1 EStG",
+    "§ 4f Abs. 1 S. 2, 3 EStG",
+    "§ 4f Abs. 2 EStG",
+    "§ 5 Abs. 7 S. 1, 2, 5, 6 EStG",
+    "§ 5 Abs. 4a S. 1 EStG",
+    "§ 6 Abs. 1 Nr. 3a EStG",
+    "§ 253 Abs. 1 S. 2 HGB"
+  ],
+  "slug": "2026-09-04-b3"
+}
