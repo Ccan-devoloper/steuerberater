@@ -1,0 +1,64 @@
+{
+  "format": "rechenweg",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-modul-persg-3",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Disagio beim Tilgungsdarlehen: Warum die Zinsstaffel und nicht linear?",
+      "icon": "rechner",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen",
+      "pille": "Swipen →"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Der Rechenweg",
+      "formel": "Jahresanteil = Disagio × Restraten ÷ (n ÷ 2 × (n + 1))",
+      "zeilen": [
+        "Beispiel: Disagio 12.000 €, 8 Jahresraten",
+        "Nenner: 8 ÷ 2 × 9 = 36",
+        "Jahr 1: 12.000 × 8/36 = 2.667 €",
+        "Jahr 2: 12.000 × 7/36 = 2.333 €"
+      ],
+      "ergebnis": "Der Nenner bleibt, nur der Zähler fällt."
+    },
+    {
+      "art": "text",
+      "titel": "Die Logik dahinter",
+      "punkte": [
+        "Beim Tilgungsdarlehen sinkt das überlassene Kapital jedes Jahr – also muss auch der Zinsaufwand sinken.",
+        "Beim *Fälligkeitsdarlehen* bleibt das Kapital gleich: lineare Auflösung.",
+        "Handelsrechtlich Wahlrecht, steuerlich Aktivierungspflicht des Disagios als Rechnungsabgrenzungsposten."
+      ]
+    },
+    {
+      "art": "cta",
+      "titel": "Rechenwege, die sitzen müssen.",
+      "punkte": [
+        "Formel + Zahlenbeispiel auf einer Kachel",
+        "Speichern für die Formelsammlung",
+        "Welche Formel fehlt dir noch?"
+      ]
+    }
+  ],
+  "caption": "Zinsstaffel in 60 Sekunden ⏱️\n\nDas Disagio eines Tilgungsdarlehens wird nicht linear, sondern arithmetisch-degressiv verteilt. Der Trick: Den Nenner (n/2 × (n+1)) rechnest du einmal – danach zählst du nur noch die Restraten im Zähler herunter.\n\nBeim Fälligkeitsdarlehen dagegen: linear, weil das Kapital konstant bleibt.\n\n👉 Speichern. Weitere Rechenwege mit Beispielen auf der Website (Link in Bio).",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#bilanzsteuerrecht",
+    "#disagio",
+    "#zinsstaffel",
+    "#stbexamen",
+    "#rechnungsabgrenzung",
+    "#examensvorbereitung",
+    "#steuerrecht",
+    "#steuerberater",
+    "#steuerberaterprüfung"
+  ],
+  "kurztitel": "Disagio beim Tilgungsdarlehen: Warum die Zinsstaffel und nicht linear?",
+  "fotoSuchbegriff": "calculator desk",
+  "quellen": [],
+  "slug": "2026-09-08-b2"
+}
