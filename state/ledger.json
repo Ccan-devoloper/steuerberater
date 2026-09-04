@@ -119,10 +119,21 @@
       "fach": "bilanz",
       "titel": "Zeitbudget in der Klausur",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-04",
+      "art": "beitrag",
+      "slot": "b1",
+      "format": "minifall",
+      "thema": "kst-modul-kst-3",
+      "fach": "kst",
+      "titel": "Vier Aufwandsbuchungen – wie hoch ist die außerbilanzielle Hinzurechnung?",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
     "persg": 2,
-    "ust": 1
+    "ust": 1,
+    "kst": 1
   }
 }
