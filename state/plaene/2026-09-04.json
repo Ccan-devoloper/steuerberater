@@ -1,0 +1,108 @@
+{
+  "datum": "2026-09-04",
+  "erzeugt": "2026-09-04T21:58:31.552Z",
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:30",
+      "format": "minifall",
+      "themaId": "kst-modul-kst-3",
+      "themaTitel": "Nichtabziehbare Aufwendungen und Spenden",
+      "fach": "kst",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "pruefungsfrage",
+      "themaId": "ao-modul-ao-363",
+      "themaTitel": "§ 177 AO: Plan C – Saldierung, materieller Fehler und Ober-/Untergrenze",
+      "fach": "ao",
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "18:00",
+      "format": "rechenweg",
+      "themaId": "bilanz-modul-k3-43",
+      "themaTitel": "Übernommene Verpflichtungen und Schuldbeitritt",
+      "fach": "bilanz",
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "07:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "11:52",
+      "art": "frage",
+      "themaId": "bilanz-quiz-k3-36",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "12:37",
+      "art": "antwort",
+      "themaId": "bilanz-quiz-k3-36",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "15:23",
+      "art": "norm",
+      "themaId": "erbst-modul-erbst-505",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "17:04",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 32,
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "18:00",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "18:29",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-371",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "20:03",
+      "art": "formel",
+      "themaId": "bilanz-formel-rueckstellung-ansammlung",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}

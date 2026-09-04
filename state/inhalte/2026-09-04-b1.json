@@ -1,0 +1,112 @@
+{
+  "format": "minifall",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-modul-kst-3",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Vier Aufwandsbuchungen – wie hoch ist die außerbilanzielle Hinzurechnung?",
+      "untertitel": "Mini-Fall Körperschaftsteuer",
+      "text": "Die Nordwind GmbH bucht 2026 als Aufwand: 40.000 € KSt-Vorauszahlungen, 900 € Säumniszuschläge zur KSt, 4.000 € Spende an eine politische Partei und 3.000 € netto Bewirtung von Geschäftsfreunden. Die Bewirtungsbelege liegen auf dem Sammelkonto *sonstige Betriebsausgaben*. Steuerbilanzgewinn: 250.000 €.",
+      "icon": "rechner",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "So löst du den Fall",
+      "schritte": [
+        {
+          "titel": "Gewinnminderung",
+          "text": "Alle vier Posten mindern den Steuerbilanzgewinn."
+        },
+        {
+          "titel": "§ 10 Nr. 2 KStG",
+          "text": "KSt 40.000 € und Säumniszuschläge 900 € sind nicht abziehbar."
+        },
+        {
+          "titel": "Parteispende",
+          "text": "§ 4 Abs. 6 EStG i. V. m. § 8 Abs. 1 KStG: 4.000 € komplett draußen."
+        },
+        {
+          "titel": "Bewirtung 70/30",
+          "text": "30 % von 3.000 € sind nicht abziehbar (§ 4 Abs. 5 S. 1 Nr. 2 EStG)."
+        },
+        {
+          "titel": "Kontierung",
+          "text": "§ 4 Abs. 7 EStG: ohne getrennte Aufzeichnung entfällt der Abzug ganz."
+        }
+      ],
+      "icon": "paragraf"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Das Ergebnis",
+      "formel": "Steuerbilanzgewinn + nichtabziehbare Aufwendungen",
+      "zeilen": [
+        "Steuerbilanzgewinn 250.000 €",
+        "+ KSt und Säumniszuschläge 40.900 €",
+        "+ Parteispende 4.000 €",
+        "+ Bewirtung 3.000 € (900 € + 2.100 €)"
+      ],
+      "ergebnis": "= 297.900 € – rein außerbilanziell, die Bilanz bleibt unangetastet",
+      "icon": "muenzen"
+    },
+    {
+      "art": "text",
+      "titel": "Wo Punkte liegen bleiben",
+      "punkte": [
+        "Nachzahlungszinsen nach § 233a AO teilen als Nebenleistung das Schicksal der KSt.",
+        "Zahlungen ohne Aufwandsbuchung werden *nicht* hinzugerechnet.",
+        "Spenden an gemeinnützige Empfänger: erst hinzurechnen, dann § 9 Abs. 1 Nr. 2 KStG.",
+        "Die 70 %-Grenze rechnest du vom Netto, wenn Vorsteuerabzug besteht."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Erst der Blick ins Konto, dann die Korrektur: Was den Gewinn nie gemindert hat, wird auch nicht hinzugerechnet – und bei der Bewirtung kippt schon die falsche Aufzeichnung den ganzen Abzug.",
+      "icon": "lupe"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag ein Mini-Fall.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfälle zu allen drei Klausurtagen",
+        "Speichern und vor der Ertragsteuerklausur wiederholen",
+        "Welche Hinzurechnung vergisst du am häufigsten?"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "40.000 € Körperschaftsteuer als Aufwand gebucht – und schon startet die Korrekturkette. 🧾\n\nDie Reihenfolge entscheidet: Zuerst prüfst du, ob der Posten den Steuerbilanzgewinn überhaupt gemindert hat. Dann greifst du zu § 10 Nr. 2 KStG für Steuern und Nebenleistungen, danach über § 8 Abs. 1 KStG auf die Abzugsverbote des § 4 Abs. 5 bis 7 EStG.\n\nDer Klassiker im Fall: Die Bewirtung wird nicht einzeln und getrennt aufgezeichnet. Dann sind nicht nur 30 % futsch, sondern der komplette Betrag (§ 4 Abs. 7 EStG). Alles läuft außerbilanziell, die Handels- und Steuerbilanz bleibt unverändert.\n\n👉 Speichern und vor Tag 2 nochmal durchgehen. Und sag ehrlich: Hast du im Fall an die Aufzeichnungsvorschrift gedacht oder nur die 900 € gerechnet?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#körperschaftsteuer",
+    "#nichtabziehbareaufwendungen",
+    "#bewirtungskosten",
+    "#parteispende",
+    "#ertragsteuern",
+    "#klausurtraining"
+  ],
+  "kurztitel": "Mini-Fall: Nichtabziehbare Aufwendungen",
+  "quellen": [
+    "§ 8 Abs. 1 KStG",
+    "§ 10 Nr. 2 KStG",
+    "§ 9 Abs. 1 Nr. 2 KStG",
+    "§ 4 Abs. 5 S. 1 Nr. 2 EStG",
+    "§ 4 Abs. 6 EStG",
+    "§ 4 Abs. 7 EStG",
+    "§ 233a AO"
+  ],
+  "slug": "2026-09-04-b1"
+}
