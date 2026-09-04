@@ -1,0 +1,299 @@
+{
+  "beitraege": [
+    {
+      "slug": "pruefungsfrage-teilwert",
+      "format": "pruefungsfrage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wann darf ich in der Steuerbilanz auf den niedrigeren Teilwert abschreiben?",
+          "icon": "diagramm",
+          "prioritaet": "hoch",
+          "prioritaetText": "Dauerbrenner im Examen",
+          "pille": "Swipen →"
+        },
+        {
+          "art": "text",
+          "titel": "Der Ausgangspunkt",
+          "punkte": [
+            "Handelsrechtlich gilt für das Anlagevermögen: Bei *dauernder* Wertminderung muss abgeschrieben werden.",
+            "Steuerlich ist die Teilwert-AfA ein *Wahlrecht* – aber nur, wenn die Minderung voraussichtlich dauerhaft ist.",
+            "Fehlt die Dauerhaftigkeit, bleibt es beim fortgeführten Buchwert."
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So prüfst du es in der Klausur",
+          "schritte": [
+            {
+              "titel": "Wertminderung feststellen",
+              "text": "Teilwert am Stichtag unter dem Buchwert?"
+            },
+            {
+              "titel": "Dauerhaftigkeit prüfen",
+              "text": "Abnutzbar: Teilwert unter dem planmäßigen Restbuchwert über mindestens die halbe Restnutzungsdauer."
+            },
+            {
+              "titel": "Wahlrecht ausüben",
+              "text": "Steuerlich darf, muss aber nicht abgeschrieben werden – Buchungskreis nennen!"
+            },
+            {
+              "titel": "Wertaufholung im Blick",
+              "text": "Steigt der Teilwert später wieder, ist zwingend zuzuschreiben."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Handelsbilanz: Pflicht bei Dauer. Steuerbilanz: Wahlrecht bei Dauer. Ohne Dauer: gar nichts."
+        },
+        {
+          "art": "cta",
+          "titel": "Jeden Tag eine Prüfungsfrage.",
+          "punkte": [
+            "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+            "Speichern und vor der Klausur wiederholen",
+            "Welches Thema fehlt dir? Kommentiere!"
+          ]
+        }
+      ],
+      "caption": "Teilwertabschreibung – jedes Jahr im Examen, jedes Jahr Punkte, die liegen bleiben. 📉\n\nDie Falle: Viele schreiben in der Steuerbilanz einfach mit, was handelsrechtlich Pflicht ist. Steuerlich ist es aber ein Wahlrecht – und das gibt es nur bei voraussichtlich dauernder Wertminderung.\n\nMerke dir die Reihenfolge: Wertminderung → Dauerhaftigkeit → Wahlrecht → Wertaufholung. Buchungskreis nicht vergessen!\n\n👉 Speichern für die Wiederholung. Und ehrlich: Wo verlierst du bei der Teilwert-AfA am ehesten Punkte – Dauerhaftigkeit oder Wertaufholung?",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#bilanzsteuerrecht",
+        "#teilwert",
+        "#steuerbilanz",
+        "#examensvorbereitung",
+        "#steuerrecht",
+        "#lernen",
+        "#steuerberater"
+      ]
+    },
+    {
+      "slug": "fehlerfalle-anzahlung",
+      "format": "fehlerfalle",
+      "fach": "ust",
+      "klausur": 1,
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Anzahlung erhalten – wann entsteht die Umsatzsteuer wirklich?",
+          "icon": "muenzen",
+          "prioritaet": "hoch",
+          "prioritaetText": "Dauerbrenner im Examen",
+          "pille": "Swipen →"
+        },
+        {
+          "art": "vergleich",
+          "titel": "Falsch vs. richtig",
+          "links": {
+            "titel": "Richtig",
+            "punkte": [
+              "Die Steuer entsteht schon mit dem *Zahlungseingang*.",
+              "Voranmeldungszeitraum der Vereinnahmung.",
+              "Der Vorsteuerabzug beim Kunden folgt derselben Logik: Rechnung plus Zahlung."
+            ]
+          },
+          "rechts": {
+            "titel": "Klassischer Fehler",
+            "punkte": [
+              "Steuer erst mit Ausführung der Lieferung ansetzen.",
+              "Anzahlung brutto als Verbindlichkeit stehen lassen.",
+              "Rechnung mit Steuerausweis vergessen – dann kein Vorsteuerabzug."
+            ]
+          }
+        },
+        {
+          "art": "text",
+          "titel": "Warum das so ist",
+          "text": "Die Sollversteuerung kennt eine Ausnahme: Wird das Entgelt ganz oder teilweise *vor* der Leistung gezahlt, entsteht die Steuer bereits mit der Vereinnahmung. In der Bilanz steht die erhaltene Anzahlung deshalb netto – die Umsatzsteuer ist schon eine eigene Verbindlichkeit."
+        },
+        {
+          "art": "cta",
+          "titel": "Fehlerfallen jede Woche.",
+          "punkte": [
+            "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+            "Speichern und vor der Klausur wiederholen",
+            "Welches Thema fehlt dir? Kommentiere!"
+          ]
+        }
+      ],
+      "caption": "Die Anzahlungsfalle in der USt-Klausur 💸\n\nKlingt banal, kostet aber regelmäßig Punkte: Bei einer Anzahlung entsteht die Umsatzsteuer nicht erst mit der Lieferung, sondern schon mit dem Geldeingang. Wer das übersieht, bucht falsch – und ordnet die Steuer dem falschen Voranmeldungszeitraum zu.\n\n👉 Merke: Anzahlung rein = Steuer entsteht. Erhaltene Anzahlungen stehen netto in der Bilanz.\n\nWelche USt-Falle hat dich in der letzten Übungsklausur erwischt?",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#umsatzsteuer",
+        "#stbexamen",
+        "#steuerberaterprüfung",
+        "#anzahlung",
+        "#examensvorbereitung",
+        "#steuerrecht",
+        "#klausurtipps",
+        "#steuerberater"
+      ]
+    },
+    {
+      "slug": "rechenweg-zinsstaffel",
+      "format": "rechenweg",
+      "fach": "bilanz",
+      "klausur": 3,
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Disagio beim Tilgungsdarlehen: Warum die Zinsstaffel und nicht linear?",
+          "icon": "rechner",
+          "prioritaet": "mittel",
+          "prioritaetText": "Regelmäßig geprüft",
+          "pille": "Swipen →"
+        },
+        {
+          "art": "rechnung",
+          "titel": "Der Rechenweg",
+          "formel": "Jahresanteil = Disagio × Restraten ÷ (n ÷ 2 × (n + 1))",
+          "zeilen": [
+            "Beispiel: Disagio 12.000 €, 8 Jahresraten",
+            "Nenner: 8 ÷ 2 × 9 = 36",
+            "Jahr 1: 12.000 × 8/36 = 2.667 €",
+            "Jahr 2: 12.000 × 7/36 = 2.333 €"
+          ],
+          "ergebnis": "Der Nenner bleibt, nur der Zähler fällt."
+        },
+        {
+          "art": "text",
+          "titel": "Die Logik dahinter",
+          "punkte": [
+            "Beim Tilgungsdarlehen sinkt das überlassene Kapital jedes Jahr – also muss auch der Zinsaufwand sinken.",
+            "Beim *Fälligkeitsdarlehen* bleibt das Kapital gleich: lineare Auflösung.",
+            "Handelsrechtlich Wahlrecht, steuerlich Aktivierungspflicht des Disagios als Rechnungsabgrenzungsposten."
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Rechenwege, die sitzen müssen.",
+          "punkte": [
+            "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+            "Speichern und vor der Klausur wiederholen",
+            "Welches Thema fehlt dir? Kommentiere!"
+          ]
+        }
+      ],
+      "caption": "Zinsstaffel in 60 Sekunden ⏱️\n\nDas Disagio eines Tilgungsdarlehens wird nicht linear, sondern arithmetisch-degressiv verteilt. Der Trick: Den Nenner (n/2 × (n+1)) rechnest du einmal – danach zählst du nur noch die Restraten im Zähler herunter.\n\nBeim Fälligkeitsdarlehen dagegen: linear, weil das Kapital konstant bleibt.\n\n👉 Speichern. Welche Formel soll als Nächstes auf eine Kachel?",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#bilanzsteuerrecht",
+        "#disagio",
+        "#zinsstaffel",
+        "#stbexamen",
+        "#rechnungsabgrenzung",
+        "#examensvorbereitung",
+        "#steuerrecht",
+        "#steuerberater"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Teilwert-AfA: Pflicht oder Wahlrecht?",
+      "text": "Vier Schritte, die in jeder Bilanzklausur laufen müssen.",
+      "icon": "diagramm"
+    },
+    {
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "ueberzeile": "Prüfungsfrage KSt",
+      "titel": "Wie wird eine verdeckte Gewinnausschüttung technisch korrigiert?",
+      "optionen": [
+        "In der Handelsbilanz umbuchen",
+        "Außerbilanziell dem Einkommen hinzurechnen",
+        "Als Rückstellung passivieren"
+      ]
+    },
+    {
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "ueberzeile": "Richtig ist B",
+      "titel": "Außerbilanziell – die Handelsbilanz bleibt unverändert.",
+      "optionen": [
+        "In der Handelsbilanz umbuchen",
+        "Außerbilanziell dem Einkommen hinzurechnen",
+        "Als Rückstellung passivieren"
+      ],
+      "richtig": 1,
+      "text": "Beim Gesellschafter liegt ein Kapitalertrag vor."
+    },
+    {
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 173 Abs. 1 AO",
+      "titel": "Neue Tatsachen – Änderung trotz Bestandskraft",
+      "text": "Zu Ungunsten immer, zu Gunsten nur ohne grobes Verschulden. Prüfe zuerst, ob die Tatsache nachträglich bekannt wurde."
+    },
+    {
+      "art": "countdown",
+      "fach": "bilanz",
+      "klausur": 3,
+      "ueberzeile": "Noch",
+      "zahl": "32",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "text": "6.–8. Oktober 2026 · Heute: ein Prüfschema wiederholen, eine Klausur unter Zeit.",
+      "fortschritt": 78
+    },
+    {
+      "art": "merksatz",
+      "fach": "persg",
+      "klausur": 3,
+      "ueberzeile": "Merksatz",
+      "text": "Gesamthand, Ergänzung, Sonderbereich – erst die Summe ist der steuerliche Gewinn.",
+      "titel": "Zweistufige Gewinnermittlung der Mitunternehmerschaft"
+    },
+    {
+      "art": "formel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "ueberzeile": "Rechenweg",
+      "titel": "Zeitbudget in der Klausur",
+      "formel": "Minuten = Punkte × 3,6",
+      "text": "100 Punkte, 360 Minuten. Zieh 30 Minuten für Lesen und Kontrolle ab, dann verteile den Rest nach Punkten."
+    },
+    {
+      "art": "begriff",
+      "fach": "erbst",
+      "klausur": 1,
+      "ueberzeile": "Begriff des Tages",
+      "titel": "Steuerklasse ≠ Steuersatz",
+      "norm": "§ 15 · § 19 ErbStG",
+      "text": "Die Steuerklasse folgt aus dem Verwandtschaftsverhältnis, der Steuersatz aus Steuerklasse und Höhe des Erwerbs. Erst der Freibetrag, dann der Tarif.",
+      "icon": "personen"
+    },
+    {
+      "art": "fehler",
+      "fach": "ust",
+      "klausur": 1,
+      "ueberzeile": "Fehlerfalle",
+      "titel": "Ort der sonstigen Leistung an Unternehmer",
+      "falsch": "Sitz des leistenden Unternehmers.",
+      "richtigText": "Empfängerort – wenn der Empfänger Unternehmer ist. Ausnahmen (Grundstück, Veranstaltung, Restaurant) vorher prüfen."
+    },
+    {
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "ueberzeile": "Klausurtipp",
+      "titel": "Jeden Sachverhalt mit der Gewinnauswirkung beenden.",
+      "text": "Bilanzposten, Buchungssatz mit Buchungskreis, Gewinnauswirkung in Euro. Drei Zeilen, die fast immer Punkte bringen.",
+      "icon": "zielscheibe"
+    }
+  ]
+}

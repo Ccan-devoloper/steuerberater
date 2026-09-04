@@ -1,0 +1,163 @@
+/* ==========================================================================
+   Tagesplaner.
+
+   Erstellt für ein Datum den Plan: welche Themen, welche Formate, welche
+   Uhrzeiten – für Beiträge und Stories. Deterministisch (Seed = Datum), damit
+   mehrere Läufe am selben Tag denselben Plan sehen. Ein Ledger (state/ledger.json)
+   sorgt dafür, dass Themen nicht zu früh wiederkommen und alle Fächer rotieren.
+   ========================================================================== */
+
+import fs from "node:fs";
+import path from "node:path";
+import { CONFIG } from "./config.mjs";
+import { themenpool, FAECHER } from "./inhalte.mjs";
+import { heuteIso, wochentag, minutenVon, hhmm, tageBis } from "./zeit.mjs";
+
+/* Mulberry32 – kleiner, reproduzierbarer Zufallsgenerator. */
+function rng(seedText) {
+  let h = 1779033703 ^ seedText.length;
+  for (let i = 0; i < seedText.length; i++) { h = Math.imul(h ^ seedText.charCodeAt(i), 3432918353); h = (h << 13) | (h >>> 19); }
+  let a = h >>> 0;
+  return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+}
+
+export function ledgerLaden(pfad) {
+  if (pfad && fs.existsSync(pfad)) return JSON.parse(fs.readFileSync(pfad, "utf8"));
+  return { veroeffentlicht: [], fachZaehler: {} };
+}
+
+export function ledgerSpeichern(pfad, ledger) {
+  fs.mkdirSync(path.dirname(pfad), { recursive: true });
+  fs.writeFileSync(pfad, JSON.stringify(ledger, null, 2));
+}
+
+/* Welche Themen-Typen ein Format sinnvoll speisen. */
+export const FORMAT_QUELLEN = {
+  pruefungsfrage: ["modul", "karteikarte", "quiz", "schema"],
+  fehlerfalle:    ["modul", "karteikarte"],
+  schema:         ["modul", "schema"],
+  rechenweg:      ["formel", "modul"],
+  minifall:       ["modul", "karteikarte"],
+  vergleich:      ["modul", "karteikarte", "begriff"],
+  klausurtechnik: ["modul", "formel"],
+  wochenrueckblick: [],
+  aktuell:        [],
+};
+
+function gewichteteWahl(kandidaten, zufall, ledger) {
+  const g = CONFIG.plan.prioritaetGewicht;
+  const zaehler = ledger.fachZaehler || {};
+  const minFach = Math.min(...Object.keys(FAECHER).map((f) => zaehler[f] || 0));
+  const gewichte = kandidaten.map((t) => {
+    let w = g[t.prioritaet] || 10;
+    /* Fächer, die zuletzt seltener dran waren, bekommen einen Bonus –
+       so bleibt das Profil für alle drei Klausuren interessant. */
+    const rueckstand = (zaehler[t.fach] || 0) - minFach;
+    w *= rueckstand === 0 ? 1.6 : rueckstand === 1 ? 1.2 : 1;
+    return w;
+  });
+  const summe = gewichte.reduce((a, b) => a + b, 0);
+  let r = zufall() * summe;
+  for (let i = 0; i < kandidaten.length; i++) { r -= gewichte[i]; if (r <= 0) return kandidaten[i]; }
+  return kandidaten[kandidaten.length - 1];
+}
+
+function verfuegbar(pool, ledger, datum, benutzt) {
+  const sperre = CONFIG.plan.themenSperreTage;
+  const zuletzt = new Map();
+  for (const e of ledger.veroeffentlicht || []) zuletzt.set(e.thema, e.datum);
+  return pool.filter((t) => {
+    if (benutzt.has(t.id)) return false;
+    const d = zuletzt.get(t.id);
+    return !d || tageBis(datum, new Date(`${d}T12:00:00Z`)) >= sperre;
+  });
+}
+
+function storyZeiten(anzahl, zufall) {
+  const [von, bis] = CONFIG.plan.storyFenster.map(minutenVon);
+  const schritt = (bis - von) / Math.max(1, anzahl);
+  return Array.from({ length: anzahl }, (_, i) => hhmm(Math.round(von + i * schritt + zufall() * Math.min(25, schritt / 2))));
+}
+
+/**
+ * Baut den Tagesplan.
+ * @returns {{datum, beitraege:[{slot, zeit, format, thema}], stories:[{slot, zeit, art, thema?, beitragSlot?}]}}
+ */
+export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = themenpool()) {
+  const zufall = rng(`plan:${datum}`);
+  const wt = wochentag(new Date(`${datum}T12:00:00Z`));
+  const wochenende = wt === 0 || wt === 6;
+  const anzahl = wochenende ? CONFIG.plan.beitraegeWochenende : CONFIG.plan.beitraegeWerktag;
+  const formate = (CONFIG.plan.formateJeWochentag[wt] || ["pruefungsfrage", "fehlerfalle", "schema"]).slice(0, anzahl);
+  const benutzt = new Set();
+  const ledgerKopie = { ...ledger, fachZaehler: { ...(ledger.fachZaehler || {}) } };
+
+  const beitraege = formate.map((format, i) => {
+    const typen = FORMAT_QUELLEN[format] || [];
+    let thema = null;
+    if (typen.length) {
+      const kandidaten = verfuegbar(pool, ledgerKopie, datum, benutzt).filter((t) => typen.includes(t.typ));
+      thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie);
+      benutzt.add(thema.id);
+      ledgerKopie.fachZaehler[thema.fach] = (ledgerKopie.fachZaehler[thema.fach] || 0) + 1;
+    }
+    return { slot: `b${i + 1}`, zeit: CONFIG.plan.beitragsZeiten[i] || CONFIG.plan.beitragsZeiten.at(-1), format, thema };
+  });
+
+  /* Stories: Teaser je Beitrag + eigenständige Karten, bis zur Tagesmenge. */
+  const stories = [];
+  for (const b of beitraege) stories.push({ art: "teaser", beitragSlot: b.slot, zeit: b.zeit });
+  const eigenstaendig = ["frage", "norm", "countdown", "merksatz", "formel", "begriff", "fehler", "tipp", "zahl"];
+  const tageBisExamen = tageBis(CONFIG.examen.schriftlich, new Date(`${datum}T12:00:00Z`));
+  let k = 0;
+  while (stories.length < CONFIG.plan.storiesProTag && k < 40) {
+    const art = eigenstaendig[k % eigenstaendig.length];
+    k++;
+    if (art === "countdown" && (tageBisExamen < 0 || tageBisExamen > 200)) continue;
+    let thema = null;
+    const typen = { frage: ["quiz", "karteikarte"], norm: ["modul", "begriff"], merksatz: ["modul"], formel: ["formel"], begriff: ["begriff", "karteikarte"], fehler: ["modul"], tipp: ["modul"], zahl: ["formel", "modul"] }[art];
+    if (typen) {
+      const kandidaten = verfuegbar(pool, ledgerKopie, datum, benutzt).filter((t) => typen.includes(t.typ));
+      if (!kandidaten.length) continue;
+      thema = gewichteteWahl(kandidaten, zufall, ledgerKopie);
+      benutzt.add(thema.id);
+    }
+    /* Frage und Antwort sind zwei Stories. */
+    if (art === "frage") {
+      stories.push({ art: "frage", thema });
+      stories.push({ art: "antwort", thema });
+    } else {
+      stories.push({ art, thema, tageBisExamen: art === "countdown" ? tageBisExamen : undefined });
+    }
+  }
+  const zeiten = storyZeiten(stories.length, zufall);
+  stories.forEach((s, i) => { s.slot = `s${i + 1}`; if (!s.zeit) s.zeit = zeiten[i]; });
+  /* Antwort folgt der Frage nach kurzer Zeit. */
+  for (let i = 0; i < stories.length; i++) if (stories[i].art === "antwort") stories[i].zeit = hhmm(Math.min(minutenVon(stories[i - 1].zeit) + 45, 23 * 60 + 50));
+  stories.sort((a, b) => minutenVon(a.zeit) - minutenVon(b.zeit));
+
+  return { datum, wochentag: wt, beitraege, stories };
+}
+
+/* Nach einer Veröffentlichung im Ledger vermerken. */
+export function vermerken(ledger, eintrag) {
+  ledger.veroeffentlicht = ledger.veroeffentlicht || [];
+  ledger.veroeffentlicht.push(eintrag);
+  if (eintrag.thema && eintrag.art === "beitrag") {
+    const fach = eintrag.fach;
+    ledger.fachZaehler = ledger.fachZaehler || {};
+    ledger.fachZaehler[fach] = (ledger.fachZaehler[fach] || 0) + 1;
+  }
+  /* Ledger schlank halten: 400 Tage reichen für die Sperre. */
+  const grenze = new Date(Date.now() - 400 * 86400000).toISOString().slice(0, 10);
+  ledger.veroeffentlicht = ledger.veroeffentlicht.filter((e) => e.datum >= grenze);
+  return ledger;
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  const datum = process.argv[2] || heuteIso();
+  const plan = tagesplan(datum);
+  console.log(`Plan für ${datum} (Wochentag ${plan.wochentag})`);
+  for (const b of plan.beitraege) console.log(`  ${b.zeit}  Beitrag ${b.slot} ${b.format.padEnd(15)} ${b.thema ? `${b.thema.fach.padEnd(6)} ${b.thema.prioritaet.padEnd(6)} ${b.thema.titel}` : "(ohne Thema – Web/Rückblick)"}`);
+  for (const s of plan.stories) console.log(`  ${s.zeit}  Story   ${s.slot.padEnd(3)} ${s.art.padEnd(10)} ${s.thema ? `${s.thema.fach.padEnd(6)} ${s.thema.titel}` : s.beitragSlot ? `→ Beitrag ${s.beitragSlot}` : ""}`);
+}
