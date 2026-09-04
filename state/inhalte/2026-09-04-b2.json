@@ -1,0 +1,103 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-363",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wann darf ich einen verjährten Fehler noch über § 177 AO ausgleichen?",
+      "untertitel": "Korrekturrecht · Klausur 1",
+      "icon": "paragraf",
+      "pille": "Swipen →",
+      "prioritaet": "mittel",
+      "prioritaetText": "Regelmäßig geprüft"
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "Eigene Korrektur ausschließen",
+          "text": "Greift für den Fehler selbst noch §§ 129, 164, 172 ff. AO? Dann kein § 177 AO."
+        },
+        {
+          "titel": "Materiellen Fehler benennen",
+          "text": "§ 177 Abs. 3 AO: jede Abweichung von der kraft Gesetzes entstandenen Steuer."
+        },
+        {
+          "titel": "Gegenläufige Änderung finden",
+          "text": "Der Bescheid muss aus anderem Grund änderbar sein. Sonst läuft § 177 AO leer."
+        },
+        {
+          "titel": "Richtung zuordnen",
+          "text": "Änderung zuungunsten: Fehler zugunsten mitkorrigieren (Abs. 1). Umgekehrt Abs. 2."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "text",
+      "titel": "Der Rahmen entscheidet",
+      "punkte": [
+        "*Obergrenze*: alle selbständig änderbaren Punkte zuungunsten berücksichtigt.",
+        "*Untergrenze*: alle selbständig änderbaren Punkte zugunsten berücksichtigt.",
+        "Mehrere materielle Fehler saldierst du zuerst untereinander (AEAO zu § 177 Nr. 4).",
+        "Außerhalb des Rahmens bleiben sie ohne Wirkung (AEAO zu § 177 Nr. 2, 3)."
+      ],
+      "icon": "waage"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Kurzfall Malerbetrieb Roth",
+      "formel": "Saldierung nur bis zur Höhe der gegenläufigen Änderung",
+      "zeilen": [
+        "Gewinn laut Bescheid: 80.000 €",
+        "Neue Tatsache, § 173 Abs. 1 Nr. 1 AO: + 12.000 €",
+        "Vergessene Betriebsausgabe 20.000 €: nicht mehr änderbar",
+        "§ 177 Abs. 1 AO: Abzug nur bis 12.000 €"
+      ],
+      "ergebnis": "Neuer Gewinn 80.000 € – 8.000 € gehen unter",
+      "icon": "rechner"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "§ 177 AO öffnet keine Tür. Er räumt nur so weit auf, wie eine andere Norm die Tür bereits geöffnet hat.",
+      "icon": "blitz"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Fragen zu allen drei Klausuren",
+        "Speichern und vor Klausur 1 wiederholen",
+        "Welche Korrekturnorm nervt dich am meisten? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Ein Fehler ist festsetzungsverjährt – und wirkt sich trotzdem noch aus? Manchmal ja. ⚖️\n\n§ 177 AO ist keine eigene Korrekturvorschrift. Er setzt voraus, dass der Bescheid ohnehin aus einem anderen Grund geändert wird, und lässt den nicht mehr selbständig änderbaren materiellen Fehler nur innerhalb dieses Rahmens durch.\n\nDie Reihenfolge: eigene Korrekturnorm ausschließen, materiellen Fehler nach § 177 Abs. 3 AO benennen, gegenläufige Änderung bestimmen, Ober- und Untergrenze aus den selbständig änderbaren Punkten bilden.\n\nKlassischer Punkteverlust: § 177 AO als eigenständige Änderungsnorm zitieren. Passiert dir das auch noch?\n\n👉 Speichern und vor Klausur 1 nochmal durchswipen.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#abgabenordnung",
+    "#verfahrensrecht",
+    "#korrekturvorschriften",
+    "#paragraf177ao",
+    "#festsetzungsverjährung",
+    "#klausurtraining"
+  ],
+  "kurztitel": "§ 177 AO: Saldieren im Rahmen",
+  "quellen": [
+    "§ 177 Abs. 1 bis 3 AO",
+    "§ 173 Abs. 1 Nr. 1 AO",
+    "AEAO zu § 177 Nr. 2 bis 4"
+  ],
+  "slug": "2026-09-04-b2"
+}
