@@ -20,7 +20,11 @@ import { CONFIG } from "./config.mjs";
 
 const schlafen = (ms) => new Promise((r) => setTimeout(r, ms));
 
-export class InstagramFehler extends Error {
+export /* Fehlercodes, die ein Ratenlimit der App melden (Stundenfenster). */
+const RATE_LIMIT = [4, 17, 32, 613];
+const RATE_LIMIT_VERSUCHE = 6;
+
+class InstagramFehler extends Error {
   constructor(nachricht, details) { super(nachricht); this.details = details; }
 }
 
@@ -87,7 +91,7 @@ export class Instagram {
     const body = new URLSearchParams();
     for (const [k, v] of Object.entries({ ...params, access_token: this.token })) if (v != null) body.set(k, String(v));
     let letzter;
-    for (let i = 1; i <= versuche; i++) {
+    for (let i = 1; ; i++) {
       let res, json;
       try {
         if (methode === "GET") { url.search = body.toString(); res = await fetch(url); }
@@ -95,18 +99,27 @@ export class Instagram {
         json = await res.json().catch(() => ({}));
       } catch (e) {
         letzter = new InstagramFehler(`Netzwerkfehler ${methode} ${pfad}: ${e.message}`);
+        if (i >= versuche) throw letzter;
         await schlafen(1500 * i);
         continue;
       }
       if (res.ok && !json.error) return json;
       const err = json.error || {};
       letzter = new InstagramFehler(`Instagram ${methode} ${pfad}: ${err.message || res.status} (code ${err.code}, subcode ${err.error_subcode || "-"})`, err);
-      /* Vorübergehende Fehler (Rate-Limit, Serverfehler) erneut versuchen. */
-      const voruebergehend = [1, 2, 4, 17, 32, 613].includes(err.code) || res.status >= 500;
-      if (!voruebergehend) throw letzter;
+      /* Ratenlimit der App (Stundenfenster): lange warten statt aufgeben –
+         mehrere Anläufe mit wachsendem Abstand (insgesamt ~15 Minuten). */
+      if (RATE_LIMIT.includes(err.code)) {
+        if (i >= RATE_LIMIT_VERSUCHE) throw letzter;
+        const sekunden = 60 * i;
+        console.warn(`  ! Instagram-Ratenlimit (code ${err.code}) – warte ${sekunden} s (${i}/${RATE_LIMIT_VERSUCHE - 1})`);
+        await schlafen(sekunden * 1000);
+        continue;
+      }
+      /* Vorübergehende Fehler (Serverfehler, kurzzeitige Störung) erneut versuchen. */
+      const voruebergehend = [1, 2].includes(err.code) || res.status >= 500;
+      if (!voruebergehend || i >= versuche) throw letzter;
       await schlafen(4000 * i);
     }
-    throw letzter;
   }
 
   /* Verbindung, Konto und Token prüfen. */
@@ -149,13 +162,18 @@ export class Instagram {
     return false;
   }
 
-  async containerWarten(id, { maxSekunden = 180 } = {}) {
+  /* Sparsam abfragen: jede Statusabfrage zählt gegen das Stundenlimit der App.
+     Erst kurz warten, dann in wachsenden Abständen nachsehen. */
+  async containerWarten(id, { maxSekunden = 180, vorlauf = 3000 } = {}) {
     const start = Date.now();
+    let pause = 5000;
+    await schlafen(vorlauf);
     while (Date.now() - start < maxSekunden * 1000) {
       const r = await this.anfrage("GET", id, { fields: "status_code,status" });
       if (r.status_code === "FINISHED") return r;
       if (r.status_code === "ERROR" || r.status_code === "EXPIRED") throw new InstagramFehler(`Container ${id}: ${r.status_code} – ${r.status || ""}`, r);
-      await schlafen(4000);
+      await schlafen(pause);
+      pause = Math.min(pause * 1.5, 20000);
     }
     throw new InstagramFehler(`Container ${id} wurde nicht rechtzeitig fertig`);
   }
@@ -178,7 +196,8 @@ export class Instagram {
       const c = await this.anfrage("POST", `${this.kontoId}/media`, { image_url: url, is_carousel_item: "true" });
       kinder.push(c.id);
     }
-    for (const id of kinder) await this.containerWarten(id);
+    await schlafen(6000);
+    for (const id of kinder) await this.containerWarten(id, { vorlauf: 0 });
     const carousel = await this.anfrage("POST", `${this.kontoId}/media`, { media_type: "CAROUSEL", children: kinder.join(","), caption });
     await this.containerWarten(carousel.id);
     return this.veroeffentlichen(carousel.id);

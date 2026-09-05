@@ -309,7 +309,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
   const ig = new Instagram({ trockenlauf: trocken, tresorDatei: path.join(hosting.stateDir, "token.enc") });
   if (!trocken) { ig.tresorLaden(); const { konto, limit } = await ig.pruefen(); log(`Auffüllen ${stand.fertig}/${ziel} · @${konto.username} · Kontingent ${limit.genutzt}/${limit.maximum}`); if (limit.maximum - limit.genutzt < 3) { log("Tageskontingent erschöpft – später weiter."); return; } }
   const plan = auffuellplan(ziel, ledger, pool, stand.seed);
-  let fehler = 0, versuche = 0;
+  let fehler = 0, versuche = 0, limitPausen = 0;
   for (let i = stand.fertig; i < ziel; i++) {
     const eintrag = plan[i];
     const slot = `${datum}-${eintrag.slot}`;
@@ -335,15 +335,25 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       hosting.commit(`Auffüllen ${i + 1}/${ziel}`); await hosting.push();
       log(`  ✓ ${medienId}`);
       await verteilen({ art: "beitrag", bildUrls: urls, bildPfade: bilder, titel: beitrag.folien[0].titel, text: caption, hashtags: beitrag.hashtags }, { log, trockenlauf: trocken });
-      if (i + 1 < ziel && !trocken) await new Promise((r) => setTimeout(r, 25000));
+      /* Abstand zwischen den Beiträgen: schont das Stundenlimit der App
+         (jede Container-Abfrage zählt) und wirkt weniger wie ein Massenupload. */
+      if (i + 1 < ziel && !trocken) await new Promise((r) => setTimeout(r, 90000));
     } catch (e) {
-      fehler++;
       console.error(`  ✗ Auffüllen ${i + 1}: ${e.message}`);
       if (/credit|billing|insufficient|402|quota/i.test(e.message)) { console.error("Guthaben oder Kontingent erschöpft – Auffüllen wird beim nächsten Aufruf fortgesetzt."); break; }
+      const ratenlimit = /request limit|code (4|17|32|613)\b/i.test(e.message);
+      if (ratenlimit) {
+        /* Stundenlimit der App: nicht als Fehler zählen, zehn Minuten warten und
+           denselben Beitrag (mit gespeichertem Entwurf) noch einmal versuchen. */
+        if (limitPausen++ >= 6) { console.error("Ratenlimit hält an – Auffüllen wird beim nächsten Aufruf fortgesetzt."); break; }
+        console.error("  Ratenlimit – zehn Minuten Pause, dann weiter."); await new Promise((r) => setTimeout(r, 600000)); i--; continue;
+      }
+      fehler++;
       if (fehler >= 4) { console.error("Vier Fehler – Auffüllen abgebrochen, Fortsetzung beim nächsten Aufruf."); break; }
-      /* Denselben Beitrag noch einmal versuchen (ein gespeicherter Entwurf wird
-         verworfen, falls er der Grund war), damit kein Platz übersprungen wird. */
-      if (versuche++ < 2) { fs.rmSync(path.join(hosting.stateDir, `inhalte/${slot}.json`), { force: true }); i--; }
+      /* Denselben Beitrag noch einmal versuchen, damit kein Platz übersprungen
+         wird. Ein gespeicherter Entwurf wird nur verworfen, wenn der Fehler
+         nicht von Instagram kam (sonst kostet die Neufassung nur Geld). */
+      if (versuche++ < 2) { if (!/^Instagram|Container/.test(e.message)) fs.rmSync(path.join(hosting.stateDir, `inhalte/${slot}.json`), { force: true }); i--; }
     }
   }
   hosting.commit(`Auffüllen Stand ${stand.fertig}/${ziel}`); await hosting.push();
