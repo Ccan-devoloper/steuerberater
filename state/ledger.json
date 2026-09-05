@@ -446,6 +446,20 @@
       "medienId": "18476372350115176",
       "veroeffentlicht": "2026-09-05T08:26:38.236Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f11",
+      "format": "schema",
+      "thema": "istr-modul-istr-istr1-10",
+      "fach": "istr",
+      "titel": "Wie prüfst du den Steuerabzug nach § 50a EStG in der Klausur?",
+      "hookTyp": "frage",
+      "medienId": "17922266142440218",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-05T08:36:47.223Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -454,6 +468,6 @@
     "kst": 2,
     "ao": 3,
     "bilanz": 5,
-    "istr": 3
+    "istr": 4
   }
 }
