@@ -1,0 +1,96 @@
+{
+  "format": "klausurtechnik",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-324",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Einspruch zulässig – wie baust du die Begründetheit in der Klausur auf?",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "Vier Schritte, die immer stehen müssen",
+      "schritte": [
+        {
+          "titel": "Rechtmäßigkeit",
+          "text": "Ist der angefochtene Verwaltungsakt formell und materiell rechtmäßig? Zuständigkeit §§ 17 ff. AO, Anhörung § 91 AO, Begründung § 121 AO."
+        },
+        {
+          "titel": "Rechtsverletzung",
+          "text": "Wirkt der Fehler zulasten des Einspruchsführers? Rechtswidrig allein reicht nicht."
+        },
+        {
+          "titel": "§ 351 Abs. 1 AO",
+          "text": "Änderungsbescheid? Angriff nur im Umfang der Änderung, soweit keine eigene Korrekturnorm greift."
+        },
+        {
+          "titel": "§ 367 Abs. 2 AO",
+          "text": "Volle Überprüfung in *jeder* Richtung – Verböserung nur nach Hinweis und Gelegenheit zur Äußerung."
+        }
+      ],
+      "icon": "haken"
+    },
+    {
+      "art": "text",
+      "titel": "Zwei Fallen, die Punkte kosten",
+      "punkte": [
+        "Fehlende Rechtsbehelfsbelehrung macht den Bescheid *nicht* rechtswidrig – sie verlängert nur die Frist auf ein Jahr, § 356 Abs. 2 AO.",
+        "Form- und Begründungsmängel sind oft nach § 126 AO heilbar: erst Heilung prüfen, dann Ergebnis.",
+        "§ 351 Abs. 1 AO wird reflexhaft übersprungen. Nenn ihn ausdrücklich, auch wenn er nicht beschränkt.",
+        "Schätzung? Höhe muss schlüssig sein, § 162 AO, Begründung nach § 121 AO."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "text",
+      "titel": "So schreibst du es auf",
+      "punkte": [
+        "Zwischenergebnis nach der Zulässigkeit in einem Satz – dann sauberer Absatz.",
+        "Jeden der vier Prüfpunkte mit eigener Überschrift: der Korrektor sucht Stichworte.",
+        "Ergebnis konkret: Bescheid aufheben, ändern oder Einspruch zurückweisen, § 367 Abs. 1 AO.",
+        "Bei Verböserung: Hinweis und Rücknahmemöglichkeit ansprechen."
+      ],
+      "icon": "dokument"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Erst falsch, dann zulasten, dann Umfang, dann Rundumblick – vier Haken, sonst fehlt der halbe Aufbau.",
+      "icon": "zielscheibe"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "person"
+    }
+  ],
+  "caption": "Begründetheit des Einspruchs prüfen – der Teil, an dem in der AO-Klausur die meisten Punkte liegen bleiben. ⚖️\n\nZulässig heißt noch lange nicht erfolgreich. In der Begründetheit brauchst du beides: Der Verwaltungsakt muss rechtswidrig sein UND den Einspruchsführer in seinen Rechten verletzen.\n\nDanach zwei Normen, die fast nie fehlen dürfen: § 351 Abs. 1 AO begrenzt den Angriff gegen Änderungsbescheide, § 367 Abs. 2 AO öffnet die volle Überprüfung samt Verböserungshinweis.\n\nUnd nein: Eine fehlende Rechtsbehelfsbelehrung macht den Bescheid nicht rechtswidrig – sie verlängert die Frist auf ein Jahr.\n\n👉 Speichern und vor der nächsten Übungsklausur durchgehen. Welchen der vier Punkte vergisst du am häufigsten?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#abgabenordnung",
+    "#verfahrensrecht",
+    "#einspruch",
+    "#klausurtechnik",
+    "#examensvorbereitung",
+    "#steuerrecht",
+    "#steuerberater"
+  ],
+  "kurztitel": "Begründetheit des Einspruchs",
+  "quellen": [],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f16"
+}
