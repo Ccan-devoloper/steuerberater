@@ -420,13 +420,26 @@
       "medienId": "18135598012544766",
       "veroeffentlicht": "2026-09-05T08:22:18.150Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f9",
+      "format": "pruefungsfrage",
+      "thema": "ao-modul-ao-304",
+      "fach": "ao",
+      "titel": "Liegt überhaupt ein Verwaltungsakt vor – oder nur ein Schreiben?",
+      "hookTyp": "frage",
+      "medienId": "18016305521727962",
+      "veroeffentlicht": "2026-09-05T08:23:52.144Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 1,
     "kst": 2,
-    "ao": 2,
+    "ao": 3,
     "bilanz": 5,
     "istr": 2
   }
