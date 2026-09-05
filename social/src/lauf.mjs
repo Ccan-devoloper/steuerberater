@@ -331,7 +331,8 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       if (schonDa) log(`  Beitrag steht bereits auf Instagram (${schonDa}) – wird nur vermerkt.`);
       const medienId = schonDa || await ig.beitragPosten({ bildUrls: urls, caption });
       const karteIndex = beitrag.folien.findIndex((f) => f.art === "karte");
-      vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, variante, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
+      /* Bei einem bereits vorhandenen Beitrag ist die gemessene Variante die des Vorgängers – nicht eintragen. */
+      vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, variante: schonDa ? null : variante, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
       stand.fertig = i + 1;
       versuche = 0;
       hosting.jsonSchreiben("auffuellen.json", stand);
@@ -341,7 +342,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       await verteilen({ art: "beitrag", bildUrls: urls, bildPfade: bilder, titel: beitrag.folien[0].titel, text: caption, hashtags: beitrag.hashtags }, { log, trockenlauf: trocken });
       /* Abstand zwischen den Beiträgen: schont das Stundenlimit der App
          (jede Container-Abfrage zählt) und wirkt weniger wie ein Massenupload. */
-      if (i + 1 < ziel && !trocken) await new Promise((r) => setTimeout(r, 90000));
+      if (i + 1 < ziel && !trocken) await new Promise((r) => setTimeout(r, CONFIG.instagram.auffuellPauseSekunden * 1000));
     } catch (e) {
       console.error(`  ✗ Auffüllen ${i + 1}: ${e.message}`);
       if (/credit|billing|insufficient|402|quota/i.test(e.message)) { console.error("Guthaben oder Kontingent erschöpft – Auffüllen wird beim nächsten Aufruf fortgesetzt."); break; }

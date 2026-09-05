@@ -189,18 +189,32 @@ export class Instagram {
     if (bildUrls.length === 1) {
       const c = await this.anfrage("POST", `${this.kontoId}/media`, { image_url: bildUrls[0], caption });
       await this.containerWarten(c.id);
-      return this.veroeffentlichen(c.id);
+      return this.veroeffentlichenSicher(c.id, caption);
     }
     const kinder = [];
     for (const url of bildUrls.slice(0, 10)) {
       const c = await this.anfrage("POST", `${this.kontoId}/media`, { image_url: url, is_carousel_item: "true" });
       kinder.push(c.id);
     }
-    await schlafen(6000);
+    await schlafen(10000);
     for (const id of kinder) await this.containerWarten(id, { vorlauf: 0 });
     const carousel = await this.anfrage("POST", `${this.kontoId}/media`, { media_type: "CAROUSEL", children: kinder.join(","), caption });
     await this.containerWarten(carousel.id);
-    return this.veroeffentlichen(carousel.id);
+    return this.veroeffentlichenSicher(carousel.id, caption);
+  }
+
+  /* media_publish kann trotz Fehlermeldung (Ratenlimit, „Fatal“) serverseitig
+     durchgegangen sein. Schlägt der Aufruf fehl, wird nachgesehen, ob der
+     Beitrag schon im Feed steht – dann gilt er als veröffentlicht. */
+  async veroeffentlichenSicher(containerId, caption) {
+    try {
+      return await this.veroeffentlichen(containerId);
+    } catch (e) {
+      await schlafen(8000);
+      const vorhanden = await this.bereitsVeroeffentlicht(caption, 5);
+      if (vorhanden) { console.warn(`  ! media_publish meldete „${e.message}“, der Beitrag steht aber im Feed (${vorhanden}).`); return vorhanden; }
+      throw e;
+    }
   }
 
   /* Reel (Video 9:16, MP4/H.264/AAC). Die Verarbeitung dauert länger als bei Bildern. */
@@ -208,7 +222,7 @@ export class Instagram {
     if (this.trockenlauf) { this.protokoll.push({ art: "reel", videoUrl, caption }); return "trocken"; }
     const c = await this.anfrage("POST", `${this.kontoId}/media`, { media_type: "REELS", video_url: videoUrl, caption, share_to_feed: "true", cover_url: coverUrl });
     await this.containerWarten(c.id, { maxSekunden: 900 });
-    return this.veroeffentlichen(c.id);
+    return this.veroeffentlichenSicher(c.id, caption);
   }
 
   async storyPosten({ bildUrl }) {
