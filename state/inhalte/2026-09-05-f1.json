@@ -1,0 +1,117 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-schema-3",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wie prüfst du § 8b KStG bei Dividende und Veräußerungsgewinn?",
+      "untertitel": "Klausur 2 · Körperschaftsteuer",
+      "icon": "muenzen",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "Das Prüfschema in fünf Zügen",
+      "schritte": [
+        {
+          "titel": "Ertragsart einordnen",
+          "text": "Laufender Bezug (Dividende, vGA) oder Gewinn aus der Veräußerung des Anteils?"
+        },
+        {
+          "titel": "Quote prüfen",
+          "text": "Nur bei Bezügen: mindestens *10 %* zu Beginn des Kalenderjahres, sonst § 8b Abs. 4 KStG."
+        },
+        {
+          "titel": "Korrespondenz",
+          "text": "Steuerfrei nur, soweit der Bezug das Einkommen der Tochter nicht gemindert hat, § 8b Abs. 1 S. 2 KStG."
+        },
+        {
+          "titel": "Außerbilanziell kürzen",
+          "text": "Handelsrechtlich erfasster Ertrag wird vom Steuerbilanzgewinn abgezogen."
+        },
+        {
+          "titel": "5 % zurechnen",
+          "text": "Fiktive nichtabziehbare Betriebsausgaben, § 8b Abs. 5 bzw. Abs. 3 S. 1 KStG."
+        }
+      ],
+      "icon": "waage"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Bezug vs. Veräußerung",
+      "links": {
+        "titel": "Dividende / vGA",
+        "punkte": [
+          "Freistellung erst ab *10 %* zu Jahresbeginn",
+          "Streubesitz: voll steuerpflichtig, Abs. 4",
+          "5 % Hinzurechnung nach Abs. 5"
+        ]
+      },
+      "rechts": {
+        "titel": "Veräußerungsgewinn",
+        "punkte": [
+          "Freistellung ohne Mindestquote, Abs. 2",
+          "5 % Hinzurechnung nach Abs. 3 S. 1",
+          "Verlust und Teilwert-AfA: Abzugsverbot"
+        ]
+      },
+      "icon": "diagramm"
+    },
+    {
+      "art": "text",
+      "titel": "Wo Punkte liegen bleiben",
+      "punkte": [
+        "Die 10-%-Grenze gilt *nur* für Bezüge – bei der Veräußerung nie prüfen.",
+        "Gewinnminderungen aus dem Anteil sind nach § 8b Abs. 3 S. 3 KStG außerbilanziell hinzuzurechnen.",
+        "Die 5 % bleiben auch dann, wenn tatsächlich keine Beteiligungsaufwendungen angefallen sind.",
+        "Gewerbesteuerlich zusätzlich § 9 Nr. 2a bzw. § 8 Nr. 5 GewStG durchdenken."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Quote nur beim Bezug, Freistellung immer außerbilanziell, und 5 % bleiben in jedem Fall hängen.",
+      "icon": "haken"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "§ 8b KStG bei Dividende und Veräußerungsgewinn – der Dauerbrenner der KSt-Klausur. 📈\n\nDie Reihenfolge entscheidet: Erst die Ertragsart bestimmen. Nur bei Bezügen prüfst du die 10-%-Grenze zu Beginn des Kalenderjahres (§ 8b Abs. 4 KStG). Beim Veräußerungsgewinn nach Abs. 2 gibt es keine Mindestquote.\n\nDann außerbilanziell kürzen und 5 % als nichtabziehbare Betriebsausgaben hinzurechnen – Abs. 5 beim Bezug, Abs. 3 S. 1 beim Veräußerungsgewinn. Verluste und Teilwertabschreibungen auf den Anteil bleiben nach Abs. 3 S. 3 draußen.\n\n👉 Speichern und vor der Klausur einmal durchgehen. Was verwechselst du eher: die 10-%-Grenze oder die 5-%-Zurechnung?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#körperschaftsteuer",
+    "#paragraf8b",
+    "#beteiligungserträge",
+    "#veräußerungsgewinn",
+    "#ertragsteuern",
+    "#examensvorbereitung",
+    "#steuerrecht",
+    "#steuerberater",
+    "#klausurtipps"
+  ],
+  "kurztitel": "§ 8b KStG in fünf Zügen",
+  "quellen": [
+    "§ 8b KStG",
+    "§ 8 Nr. 5 GewStG",
+    "§ 9 Nr. 2a GewStG"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f1"
+}
