@@ -1,0 +1,98 @@
+{
+  "format": "klausurtechnik",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr4-04",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wie arbeitest du den Aktivkatalog des § 8 Abs. 1 AStG unter Zeitdruck ab?",
+      "icon": "globus",
+      "pille": "Swipen →",
+      "prioritaet": "mittel",
+      "prioritaetText": "Regelmäßig geprüft"
+    },
+    {
+      "art": "schritte",
+      "titel": "Vier Griffe in der Klausur",
+      "schritte": [
+        {
+          "titel": "Tätigkeit benennen",
+          "text": "Erst sagen, womit die ausländische Gesellschaft ihr Geld verdient – etwa mit Mieten aus Grundbesitz."
+        },
+        {
+          "titel": "Katalog abhaken",
+          "text": "Nr. 1 bis Nr. 9 durchgehen. Steht die Tätigkeit nicht drin, ist sie *passiv*."
+        },
+        {
+          "titel": "Buchstaben sauber trennen",
+          "text": "§ 8 Abs. 1 Nr. 6 AStG: a Rechte und Verfahren, b Grundstücke, c bewegliche Sachen."
+        },
+        {
+          "titel": "Rückausnahme testen",
+          "text": "Buchst. b: Hätte ein Abkommen die Mieten von der deutschen Steuer freigestellt, wenn die Gesellschafter sie selbst erzielt hätten?"
+        }
+      ],
+      "icon": "haken"
+    },
+    {
+      "art": "text",
+      "titel": "Darstellung, die Punkte bringt",
+      "punkte": [
+        "Nicht den Katalog abschreiben – nur die Nummer nennen, die du prüfst.",
+        "Bis zum *Buchstaben* zitieren: § 8 Abs. 1 Nr. 6 Buchst. b AStG.",
+        "Ergebnis klar formulieren: „insoweit Zwischengesellschaft“.",
+        "Fehlt ein Abkommen mit dem Sitzstaat, reicht ein Satz zur Rückausnahme.",
+        "Katalogprüfung ist Subsumtion, kein Aufsatz – Zeit sparen."
+      ],
+      "icon": "dokument"
+    },
+    {
+      "art": "text",
+      "titel": "Kurzfall: Falkenberg Ltd.",
+      "text": "Die Falkenberg Ltd. sitzt in einem Staat, mit dem Deutschland kein Abkommen geschlossen hat, und vermietet dort zwei Lagerhallen. Der Art nach: Vermietung von Grundstücken, § 8 Abs. 1 Nr. 6 Buchst. b AStG. Grundsatz also passiv. Weil kein Abkommen existiert, lässt sich eine Freistellung beim Direktbezug gar nicht erst belegen. Ergebnis: insoweit *Zwischengesellschaft*.",
+      "icon": "gebaeude"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Nur was im Katalog steht, ist aktiv. Mieten aus Grundbesitz retten sich allein über ein Abkommen, das den Direktbezug freistellen würde.",
+      "icon": "waage"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Aktivkatalog § 8 Abs. 1 AStG: Ist die Vermietung von Grundbesitz aktiv oder passiv? 🌍\n\nDer Katalog ist abschließend und negativ gedacht: Aktiv ist nur, was die Nummern 1 bis 9 ausdrücklich nennen. Vermietung und Verpachtung von Grundstücken steht in § 8 Abs. 1 Nr. 6 Buchst. b AStG und bleibt passiv – gerettet wird sie nur, wenn ein Abkommen die Mieten von der deutschen Steuer befreit hätte, sofern die beteiligten unbeschränkt Steuerpflichtigen sie selbst erzielt hätten.\n\nKlausurtechnisch: Tätigkeit benennen, Nummer plus Buchstaben zitieren, Rückausnahme in zwei Sätzen abräumen, Ergebnis sauber hinschreiben. Gesetzeswortlaut nie abschreiben.\n\n👉 Speichern für die heiße Phase. Wo kostet dich das AStG mehr Zeit – Katalog oder Niedrigbesteuerung?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#astg",
+    "#hinzurechnungsbesteuerung",
+    "#internationalessteuerrecht",
+    "#aktivkatalog",
+    "#klausurtechnik",
+    "#ertragsteuern"
+  ],
+  "kurztitel": "Aktivkatalog § 8 AStG im Griff",
+  "quellen": [
+    "§ 8 Abs. 1 AStG",
+    "§ 8 Abs. 1 Nr. 6 Buchst. a–c AStG",
+    "§ 7 AStG"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f8"
+}
