@@ -355,6 +355,19 @@
       "medienId": "17889819654611696",
       "veroeffentlicht": "2026-09-05T08:10:20.812Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f3",
+      "format": "schema",
+      "thema": "bilanz-modul-k3-4",
+      "fach": "bilanz",
+      "titel": "4/12 statt 5/12: Wann startet die AfA wirklich?",
+      "hookTyp": "zahl",
+      "medienId": "18127579561748249",
+      "veroeffentlicht": "2026-09-05T08:12:24.662Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -362,7 +375,7 @@
     "ust": 1,
     "kst": 2,
     "ao": 2,
-    "bilanz": 1,
+    "bilanz": 2,
     "istr": 1
   }
 }
