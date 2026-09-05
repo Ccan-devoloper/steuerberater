@@ -516,13 +516,27 @@
       "variante": 0,
       "veroeffentlicht": "2026-09-05T09:15:17.639Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-05/2026-09-05-f15-02-mto638vc.jpg"
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f16",
+      "format": "klausurtechnik",
+      "thema": "ao-modul-ao-324",
+      "fach": "ao",
+      "titel": "Einspruch zulässig – wie baust du die Begründetheit in der Klausur auf?",
+      "hookTyp": "frage",
+      "medienId": "18132961051733448",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-05T09:19:14.087Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 2,
     "kst": 3,
-    "ao": 3,
+    "ao": 4,
     "bilanz": 6,
     "istr": 5
   }
