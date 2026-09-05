@@ -368,6 +368,19 @@
       "medienId": "18127579561748249",
       "veroeffentlicht": "2026-09-05T08:12:24.662Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f4",
+      "format": "rechenweg",
+      "thema": "bilanz-modul-k3-27",
+      "fach": "bilanz",
+      "titel": "Fremdwährungsverbindlichkeit am Stichtag: Wie rechnest du richtig um?",
+      "hookTyp": "frage",
+      "medienId": "18090614888395875",
+      "veroeffentlicht": "2026-09-05T08:14:09.176Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -375,7 +388,7 @@
     "ust": 1,
     "kst": 2,
     "ao": 2,
-    "bilanz": 2,
+    "bilanz": 3,
     "istr": 1
   }
 }
