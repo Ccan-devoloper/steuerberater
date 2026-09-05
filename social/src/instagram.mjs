@@ -237,6 +237,14 @@ export class Instagram {
     return letzte?.message_id || letzte?.recipient_id || "ok";
   }
 
+  /* Zuletzt veröffentlichter Feed-Beitrag (kein Story-Eintrag) mit Bild-URL –
+     bei Reels die Vorschau. Grundlage für den Schwarz/Weiß-Wechsel. */
+  async letzterBeitrag() {
+    const r = await this.anfrage("GET", `${this.kontoId}/media`, { fields: "id,media_type,media_product_type,media_url,thumbnail_url,timestamp", limit: 5 });
+    const m = (r.data || []).find((x) => x.media_product_type !== "STORY");
+    return m ? { id: m.id, bildUrl: m.thumbnail_url || m.media_url, zeit: m.timestamp } : null;
+  }
+
   /* Eigener Nutzername (für die Erkennung eigener Kommentare). */
   async eigenerName() {
     if (this.host === "facebook") return (await this.anfrage("GET", `${this.kontoId}`, { fields: "username" })).username;

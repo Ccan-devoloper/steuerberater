@@ -27,6 +27,7 @@ import { Hosting } from "./hosting.mjs";
 import { kommentareBeantworten } from "./interaktion.mjs";
 import { lernschleife } from "./insights.mjs";
 import { verteilen } from "./verteilen.mjs";
+import { varianteErmitteln } from "./wechsel.mjs";
 import { kartenVerschicken } from "./nachrichten.mjs";
 import { berichtErstellen, berichtSenden } from "./bericht.mjs";
 import { abschluss as kostenAbschluss } from "./kosten.mjs";
@@ -47,7 +48,6 @@ function log(...t) { console.log(new Date().toISOString().slice(11, 19), ...t); 
 /* Schwarz/Weiß-Wechsel: Beiträge alternieren fortlaufend über alle Tage
    (Schachbrett im Profil), Stories alternieren innerhalb des Tages. */
 const tagIndex = Math.floor(new Date(`${datum}T12:00:00Z`).getTime() / 86400000);
-const varianteBeitrag = (slot) => (tagIndex * 3 + Number(slot.slice(1)) - 1) % 2;
 const varianteStory = (slot) => (Number(slot.slice(1)) - 1) % 2;
 
 /* Plan serialisierbar machen: Themen nur als ID + Titel, Inhalte separat. */
@@ -162,13 +162,14 @@ async function main() {
           reel.slug = `${datum}-${eintrag.slot}`;
           hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, reel);
         }
-        const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteBeitrag(eintrag.slot) });
+        const varianteReel = await varianteErmitteln({ ig, ledger, trocken, log });
+        const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel });
         const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Reel ${datum} ${eintrag.slot}`);
         const caption = `${reel.caption}\n\n${reel.hashtags.join(" ")}`;
         const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption });
         kontingent.genutzt += 1;
         eintrag.status = "veroeffentlicht"; eintrag.medienId = medienId; eintrag.veroeffentlicht = new Date().toISOString();
-        vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, hookTyp: reel.hookTyp, medienId, veroeffentlicht: new Date().toISOString() });
+        vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, hookTyp: reel.hookTyp, medienId, variante: varianteReel, veroeffentlicht: new Date().toISOString() });
         eintrag.kanaele = await verteilen({ art: "reel", videoUrl, videoPfad: r.video, bildUrls: [coverUrl], titel: reel.kurztitel || reel.szenen[0]?.titel, text: caption, hashtags: reel.hashtags }, { log, trockenlauf: trocken });
         fertigeBeitraege.set(eintrag.slot, { ...reel, folien: [{ art: "titel", titel: reel.szenen[0]?.titel, icon: reel.szenen[0]?.icon }], kurztitel: reel.kurztitel });
         ledgerSpeichern(ledgerPfad, ledger); planSpeichern(hosting, plan);
@@ -194,7 +195,8 @@ async function main() {
         beitrag.slug = `${datum}-${eintrag.slot}`;
         hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, beitrag);
       }
-      const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "beitraege"), { variante: varianteBeitrag(eintrag.slot) });
+      const variante = await varianteErmitteln({ ig, ledger, trocken, log });
+      const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "beitraege"), { variante });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Beitrag ${datum} ${eintrag.slot}`);
       const caption = `${beitrag.caption}\n\n${beitrag.hashtags.join(" ")}`;
       const medienId = await ig.beitragPosten({ bildUrls: urls, caption });
@@ -203,7 +205,7 @@ async function main() {
       eintrag.medienId = medienId;
       eintrag.veroeffentlicht = new Date().toISOString();
       const karteIndex = beitrag.folien.findIndex((f) => f.art === "karte");
-      vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
+      vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, variante, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
       fertigeBeitraege.set(eintrag.slot, beitrag);
       /* Auf weitere Kanäle verteilen (Threads, Facebook, LinkedIn …). */
       eintrag.kanaele = await verteilen({ art: "beitrag", bildUrls: urls, bildPfade: bilder, titel: beitrag.folien[0].titel, text: caption, hashtags: beitrag.hashtags }, { log, trockenlauf: trocken });
@@ -307,12 +309,12 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
   const ig = new Instagram({ trockenlauf: trocken, tresorDatei: path.join(hosting.stateDir, "token.enc") });
   if (!trocken) { ig.tresorLaden(); const { konto, limit } = await ig.pruefen(); log(`Auffüllen ${stand.fertig}/${ziel} · @${konto.username} · Kontingent ${limit.genutzt}/${limit.maximum}`); if (limit.maximum - limit.genutzt < 3) { log("Tageskontingent erschöpft – später weiter."); return; } }
   const plan = auffuellplan(ziel, ledger, pool, stand.seed);
-  const tagIndex = Math.floor(Date.now() / 86400000);
-  let fehler = 0;
+  let fehler = 0, versuche = 0;
   for (let i = stand.fertig; i < ziel; i++) {
     const eintrag = plan[i];
     const slot = `${datum}-${eintrag.slot}`;
     try {
+      const variante = await varianteErmitteln({ ig, ledger, trocken, log });
       log(`Auffüllen ${i + 1}/${ziel}: ${eintrag.format} · ${eintrag.thema.titel}`);
       let beitrag = hosting.jsonLesen(`inhalte/${slot}.json`, null);
       if (!beitrag) {
@@ -320,13 +322,14 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
         beitrag.slug = slot;
         hosting.jsonSchreiben(`inhalte/${slot}.json`, beitrag);
       }
-      const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "auffuellen"), { variante: (tagIndex + i) % 2 });
+      const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "auffuellen"), { variante });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Auffüllen ${slot}`);
       const caption = `${beitrag.caption}\n\n${beitrag.hashtags.join(" ")}`;
       const medienId = await ig.beitragPosten({ bildUrls: urls, caption });
       const karteIndex = beitrag.folien.findIndex((f) => f.art === "karte");
-      vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
+      vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, variante, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
       stand.fertig = i + 1;
+      versuche = 0;
       hosting.jsonSchreiben("auffuellen.json", stand);
       ledgerSpeichern(ledgerPfad, ledger);
       hosting.commit(`Auffüllen ${i + 1}/${ziel}`); await hosting.push();
@@ -337,7 +340,10 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       fehler++;
       console.error(`  ✗ Auffüllen ${i + 1}: ${e.message}`);
       if (/credit|billing|insufficient|402|quota/i.test(e.message)) { console.error("Guthaben oder Kontingent erschöpft – Auffüllen wird beim nächsten Aufruf fortgesetzt."); break; }
-      if (fehler >= 3) { console.error("Drei Fehler in Folge – Auffüllen abgebrochen, Fortsetzung beim nächsten Aufruf."); break; }
+      if (fehler >= 4) { console.error("Vier Fehler – Auffüllen abgebrochen, Fortsetzung beim nächsten Aufruf."); break; }
+      /* Denselben Beitrag noch einmal versuchen (ein gespeicherter Entwurf wird
+         verworfen, falls er der Grund war), damit kein Platz übersprungen wird. */
+      if (versuche++ < 2) { fs.rmSync(path.join(hosting.stateDir, `inhalte/${slot}.json`), { force: true }); i--; }
     }
   }
   hosting.commit(`Auffüllen Stand ${stand.fertig}/${ziel}`); await hosting.push();
