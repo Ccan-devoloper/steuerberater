@@ -407,6 +407,19 @@
       "medienId": "18419240263145479",
       "veroeffentlicht": "2026-09-05T08:17:42.685Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f8",
+      "format": "klausurtechnik",
+      "thema": "istr-modul-istr-istr4-04",
+      "fach": "istr",
+      "titel": "Wie arbeitest du den Aktivkatalog des § 8 Abs. 1 AStG unter Zeitdruck ab?",
+      "hookTyp": "frage",
+      "medienId": "18135598012544766",
+      "veroeffentlicht": "2026-09-05T08:22:18.150Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -415,6 +428,6 @@
     "kst": 2,
     "ao": 2,
     "bilanz": 5,
-    "istr": 1
+    "istr": 2
   }
 }
