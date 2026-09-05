@@ -200,12 +200,23 @@ export class Instagram {
   }
 
   /* Letzte Beiträge samt Kommentaren und Antworten. */
+  /* Die Kommentare werden je Beitrag über den eigenen Endpunkt geholt – die
+     Feldverschachtelung liefert über graph.instagram.com nicht zuverlässig
+     Daten. Fehler (z. B. fehlende Berechtigung) werden sichtbar protokolliert. */
   async neuesteMedien(anzahl = 12) {
-    const r = await this.anfrage("GET", `${this.kontoId}/media`, {
-      fields: "id,caption,timestamp,like_count,comments_count,permalink,media_type,comments.limit(50){id,text,username,timestamp,hidden,like_count,replies.limit(50){id,text,username,timestamp}}",
-      limit: anzahl,
-    });
-    return r.data || [];
+    const r = await this.anfrage("GET", `${this.kontoId}/media`, { fields: "id,caption,timestamp,like_count,comments_count,permalink,media_type,media_product_type", limit: anzahl });
+    const medien = r.data || [];
+    for (const m of medien) {
+      try {
+        const k = await this.anfrage("GET", `${m.id}/comments`, { fields: "id,text,username,timestamp,hidden,like_count,replies.limit(50){id,text,username,timestamp}", limit: 50 });
+        m.comments = { data: k.data || [] };
+        if (m.comments_count > 0 && !m.comments.data.length) console.warn(`  ! Beitrag ${m.id}: comments_count=${m.comments_count}, aber keine Kommentare geliefert – Berechtigung instagram_business_manage_comments prüfen (Token neu erzeugen).`);
+      } catch (e) {
+        m.comments = { data: [] };
+        console.error(`  ✗ Kommentare zu ${m.id}: ${e.message}`);
+      }
+    }
+    return medien;
   }
 
   /* Auf einen Kommentar antworten. Rückgabe: ID der Antwort. */
