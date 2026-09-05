@@ -1,0 +1,109 @@
+{
+  "format": "fehlerfalle",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr1-04",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Ehegatte wohnt in Österreich – wann klappt die Zusammenveranlagung?",
+      "icon": "globus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Richtig vs. klassischer Fehler",
+      "links": {
+        "titel": "Richtig",
+        "punkte": [
+          "Erst § 1 Abs. 1 oder Abs. 3 EStG klären, dann § 1a.",
+          "Du selbst brauchst *EU-/EWR-Staatsangehörigkeit*.",
+          "Beim Ehegatten reicht der Wohnsitz im EU-/EWR-Raum."
+        ]
+      },
+      "rechts": {
+        "titel": "Klassischer Fehler",
+        "punkte": [
+          "§ 1a wie eine eigene Steuerpflicht behandeln.",
+          "Auch vom Ehegatten die Staatsangehörigkeit verlangen.",
+          "Grenzen des § 1 Abs. 3 nicht auf beide Ehegatten beziehen."
+        ]
+      },
+      "icon": "waage"
+    },
+    {
+      "art": "text",
+      "titel": "Warum das so ist",
+      "text": "§ 1a EStG schafft keine Steuerpflicht, sondern öffnet *personenbezogene* Vergünstigungen für den EU-/EWR-Fall. Über Abs. 1 Nr. 2 wird der Ehegatte ohne Inlandswohnsitz auf Antrag als unbeschränkt steuerpflichtig behandelt – erst das trägt § 26 Abs. 1, § 26b EStG. Kommst du über § 1 Abs. 3 EStG, gelten die Einkunftsgrenzen für beide Ehegatten zusammen.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "schritte",
+      "titel": "Deine Prüfreihenfolge",
+      "schritte": [
+        {
+          "titel": "Steuerpflicht bestimmen",
+          "text": "§ 1 Abs. 1 EStG oder Antrag nach § 1 Abs. 3 EStG?"
+        },
+        {
+          "titel": "Persönliche Voraussetzungen",
+          "text": "EU-/EWR-Staatsangehörigkeit des Steuerpflichtigen, § 1a Abs. 1 EStG."
+        },
+        {
+          "titel": "Fallgruppe zuordnen",
+          "text": "Unterhalt an den Ex-Ehegatten, Versorgungsleistungen oder Ehegattenveranlagung."
+        },
+        {
+          "titel": "Rechtsfolge einbauen",
+          "text": "Abzug über § 10 Abs. 1a EStG oder Splitting über §§ 26, 26b EStG."
+        }
+      ],
+      "icon": "kreislauf"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "§ 1a öffnet nur Türen, er baut kein Haus: ohne Steuerpflicht nach § 1 kein Zutritt, ohne § 10 oder § 26 keine Rechtsfolge.",
+      "icon": "haken"
+    },
+    {
+      "art": "cta",
+      "titel": "Dauerbrenner sichern.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "§ 1a EStG Zusammenveranlagung mit EU-Ehegatte – die Falle, die in der Ertragsteuerklausur fast jedes Jahr auftaucht. 🌍\n\nDer häufigste Fehler: § 1a wird geprüft, als wäre er eine eigene Steuerpflicht. Ist er nicht. Du brauchst zuerst die unbeschränkte Steuerpflicht nach § 1 Abs. 1 EStG oder die Behandlung nach § 1 Abs. 3 EStG. Erst dann greift § 1a Abs. 1 Nr. 2 EStG und macht den im EU-/EWR-Raum lebenden Ehegatten fiktiv unbeschränkt steuerpflichtig – Grundlage für §§ 26, 26b EStG.\n\nZweiter Klassiker: Die Staatsangehörigkeit wird beim falschen Ehegatten verlangt. Sie muss beim Steuerpflichtigen selbst vorliegen, beim Ehegatten zählt der Wohnsitz.\n\n👉 Speichern und vor Tag 2 nochmal durchgehen. Wo hakt es bei dir eher – bei der Antragsveranlagung oder beim Unterhaltsabzug nach § 10 Abs. 1a EStG?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht",
+    "#einkommensteuer",
+    "#zusammenveranlagung",
+    "#grenzgänger",
+    "#klausurtipps",
+    "#ertragsteuern"
+  ],
+  "kurztitel": "§ 1a EStG: EU-Ehegatte im Fokus",
+  "quellen": [
+    "§ 1 EStG",
+    "§ 1a EStG",
+    "§ 10 Abs. 1a EStG",
+    "§ 26 EStG",
+    "§ 26b EStG"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f10"
+}
