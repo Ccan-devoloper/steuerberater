@@ -394,6 +394,19 @@
       "medienId": "18065645324774996",
       "veroeffentlicht": "2026-09-05T08:16:08.024Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f6",
+      "format": "vergleich",
+      "thema": "bilanz-modul-k3-33",
+      "fach": "bilanz",
+      "titel": "Was bringt mehr Punkte: perfekte Teillösung oder vollständige Kurzlösung?",
+      "hookTyp": "frage",
+      "medienId": "18419240263145479",
+      "veroeffentlicht": "2026-09-05T08:17:42.685Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -401,7 +414,7 @@
     "ust": 1,
     "kst": 2,
     "ao": 2,
-    "bilanz": 4,
+    "bilanz": 5,
     "istr": 1
   }
 }
