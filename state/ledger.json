@@ -329,12 +329,25 @@
       "fach": "bilanz",
       "titel": "Bilanzberichtigung",
       "medienId": "17921896296200499"
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f1",
+      "format": "pruefungsfrage",
+      "thema": "kst-schema-3",
+      "fach": "kst",
+      "titel": "Wie prüfst du § 8b KStG bei Dividende und Veräußerungsgewinn?",
+      "hookTyp": "frage",
+      "medienId": "18427805023198004",
+      "veroeffentlicht": "2026-09-05T08:08:38.853Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 1,
-    "kst": 1,
+    "kst": 2,
     "ao": 2,
     "bilanz": 1
   }
