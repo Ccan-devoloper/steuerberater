@@ -1,0 +1,106 @@
+{
+  "format": "schema",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr1-10",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wie prüfst du den Steuerabzug nach § 50a EStG in der Klausur?",
+      "icon": "globus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "Schema Teil 1: Der Zugriff",
+      "schritte": [
+        {
+          "titel": "Persönliche Steuerpflicht",
+          "text": "Kein Wohnsitz, kein gewöhnlicher Aufenthalt im Inland: beschränkt steuerpflichtig, § 1 Abs. 4 EStG."
+        },
+        {
+          "titel": "Inlandseinkünfte",
+          "text": "Passt ein Katalogtatbestand des § 49 Abs. 1 EStG? Ohne § 49 kein Abzug."
+        },
+        {
+          "titel": "Abzugstatbestand",
+          "text": "§ 50a Abs. 1 EStG: Darbietung, Verwertung, Rechteüberlassung oder Aufsichtsrat."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "schritte",
+      "titel": "Schema Teil 2: Technik und Entlastung",
+      "schritte": [
+        {
+          "titel": "Bemessungsgrundlage",
+          "text": "Grundsatz: die *volle* Vergütung ohne Abzug von Betriebsausgaben, § 50a Abs. 2 Satz 1 EStG."
+        },
+        {
+          "titel": "Einbehalt und Anmeldung",
+          "text": "Der Vergütungsschuldner behält ein, meldet an und haftet, § 50a Abs. 5 EStG."
+        },
+        {
+          "titel": "Abgeltung prüfen",
+          "text": "Grundsätzlich ist die Steuer mit dem Abzug abgegolten, § 50 Abs. 2 Satz 1 EStG."
+        },
+        {
+          "titel": "Entlastung gesondert",
+          "text": "DBA-Freistellung oder Erstattung erst über § 50c EStG – nachgelagert."
+        }
+      ],
+      "icon": "kreislauf"
+    },
+    {
+      "art": "text",
+      "titel": "Darauf achtet die Korrektur",
+      "punkte": [
+        "Reihenfolge: erst persönliche Pflicht, dann § 49, dann erst § 50a.",
+        "Schuldner der Steuer bleibt der Vergütungsgläubiger – einbehalten wird für Rechnung des Gläubigers.",
+        "Ein DBA ändert nichts an der Entstehung: einbehalten wird trotzdem, außer es liegt eine *Freistellungsbescheinigung* vor.",
+        "Nettoabzug nur, wenn die Voraussetzungen des § 50a Abs. 3 EStG geprüft und benannt sind."
+      ],
+      "icon": "haken"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "§ 50a klärt nicht, ob besteuert wird, sondern wie kassiert wird. Zuerst Person und Inlandsbezug, danach die Erhebungstechnik.",
+      "icon": "waage"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "§ 50a EStG Steuerabzug bei beschränkt Steuerpflichtigen – der Dauerbrenner in Klausur 2. 🌍\n\nDer häufigste Fehler: direkt mit dem Abzug starten. § 50a ist reine Erhebungsform. Prüfe zuerst die beschränkte Steuerpflicht, dann den passenden Tatbestand des § 49 Abs. 1 EStG – erst danach den Abzugstatbestand, die Bemessungsgrundlage und die Pflichten des Vergütungsschuldners nach § 50a Abs. 5 EStG.\n\nUnd ganz wichtig: Ein DBA verhindert die Entstehung nicht. Ohne Freistellungsbescheinigung wird einbehalten, die Entlastung läuft über § 50c EStG.\n\n👉 Speichern und vor der Ertragsteuerklausur nochmal durchgehen. Wo hakt es bei dir eher – beim § 49-Anknüpfungspunkt oder beim Entlastungsverfahren?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht",
+    "#beschränktesteuerpflicht",
+    "#quellensteuer",
+    "#ertragsteuern",
+    "#doppelbesteuerungsabkommen",
+    "#klausurtipps"
+  ],
+  "kurztitel": "§ 50a EStG richtig prüfen",
+  "quellen": [],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f11"
+}
