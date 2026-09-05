@@ -15,7 +15,7 @@ import { FAECHER, KLAUSUREN } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
 import { folieLeer, pruefeBeitrag, korpus } from "./pruefung.mjs";
 import { datumLesbar, tageBis } from "./zeit.mjs";
-import { erfassen } from "./kosten.mjs";
+import { erfassen, budgetPruefen } from "./kosten.mjs";
 import { pruefeFakten } from "./faktencheck.mjs";
 import { hookTyp } from "./insights.mjs";
 import { phase } from "./kalender.mjs";
@@ -224,6 +224,7 @@ async function strukturiert({ system, user, schema, modell = CONFIG.ki.modell, e
     thinking: { type: "adaptive" },
     output_config: { effort, format: { type: "json_schema", schema } },
   };
+  budgetPruefen("Text schreiben");
   let response;
   try {
     response = await client().messages.create(basis);
@@ -390,6 +391,7 @@ Wähle dann DIE eine Neuigkeit mit dem größten Examensbezug aus. Antworte mit:
     tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 8, user_location: { type: "approximate", country: "DE", timezone: "Europe/Berlin" } }],
     messages: [{ role: "user", content: frage }],
   };
+  budgetPruefen("Recherche");
   let response = await client().messages.create(params);
   erfassen(CONFIG.ki.modellNeben, response.usage, "recherche");
   let runden = 0;

@@ -18,6 +18,143 @@ import { FAECHER } from "./inhalte.mjs";
 import { CONFIG } from "./config.mjs";
 import { sprechen, ffmpegPfad } from "./stimme.mjs";
 
+/* Höhe des animierten Bereichs: ein Drittel des 9:16-Bildes. */
+const OBEN = 640;
+
+/* Die drei Animationen (Canvas, deterministisch je Zeitpunkt). Physik wird beim
+   Laden der Seite in festen Schritten vorausberechnet, damit jedes Bild exakt
+   reproduzierbar ist. Koordinaten beziehen sich auf 1080 × OBEN. */
+const ANIMATIONEN = String.raw`
+const cv = document.getElementById("oben"), g = cv.getContext("2d");
+function rng(seed) { let s = seed >>> 0; return () => { s = (Math.imul(s, 1664525) + 1013904223) >>> 0; return s / 4294967296; }; }
+const DT = 1 / 240;
+
+/* ---- Labyrinth: Kugel rollt auf dem Lösungsweg, dann das nächste ---- */
+const COLS = 13, ROWS = 7, CELL = 76, OX = (1080 - COLS * CELL) / 2, OY = (H - ROWS * CELL) / 2;
+function labyrinth(seed) {
+  const r = rng(seed); const z = Array.from({ length: COLS * ROWS }, () => ({ n: 1, s: 1, e: 1, w: 1, v: false }));
+  const id = (x, y) => y * COLS + x; const st = [[0, 0]]; z[0].v = true;
+  while (st.length) {
+    const [x, y] = st[st.length - 1]; const nb = [];
+    if (y > 0 && !z[id(x, y - 1)].v) nb.push([x, y - 1, "n", "s"]); if (y < ROWS - 1 && !z[id(x, y + 1)].v) nb.push([x, y + 1, "s", "n"]);
+    if (x > 0 && !z[id(x - 1, y)].v) nb.push([x - 1, y, "w", "e"]); if (x < COLS - 1 && !z[id(x + 1, y)].v) nb.push([x + 1, y, "e", "w"]);
+    if (!nb.length) { st.pop(); continue; }
+    const [nx, ny, a, b] = nb[Math.floor(r() * nb.length)]; z[id(x, y)][a] = 0; z[id(nx, ny)][b] = 0; z[id(nx, ny)].v = true; st.push([nx, ny]);
+  }
+  const prev = new Array(COLS * ROWS).fill(-1); const q = [0]; prev[0] = 0;
+  while (q.length) { const c = q.shift(); const x = c % COLS, y = (c / COLS) | 0; const zc = z[c];
+    for (const [dx, dy, wand] of [[0, -1, "n"], [0, 1, "s"], [1, 0, "e"], [-1, 0, "w"]]) { if (zc[wand]) continue; const n = id(x + dx, y + dy); if (prev[n] >= 0) continue; prev[n] = c; q.push(n); } }
+  const pfad = []; let c = COLS * ROWS - 1; while (c !== 0) { pfad.push([c % COLS, (c / COLS) | 0]); c = prev[c]; } pfad.push([0, 0]); pfad.reverse();
+  return { z, pfad };
+}
+const SPEED = 3.2, PAUSE = 0.9; const labys = [], labyZeit = [];
+function labyFuer(t) {
+  let k = 0, start = 0;
+  for (;;) {
+    if (!labys[k]) { labys[k] = labyrinth(7 + k * 131); labyZeit[k] = (labys[k].pfad.length - 1) / SPEED + PAUSE; }
+    if (t < start + labyZeit[k]) return { L: labys[k], lokal: t - start, k };
+    start += labyZeit[k]; k++;
+  }
+}
+function zeichneLabyrinth(t) {
+  const { L, lokal, k } = labyFuer(t);
+  g.clearRect(0, 0, 1080, H);
+  const fade = Math.max(0, Math.min(1, lokal / 0.35, (labyZeit[k] - lokal) / 0.35));
+  g.globalAlpha = fade; g.lineCap = "round"; g.lineJoin = "round"; g.strokeStyle = FARBEN.wand; g.lineWidth = 5; g.beginPath();
+  for (let y = 0; y < ROWS; y++) for (let x = 0; x < COLS; x++) { const c = L.z[y * COLS + x]; const px = OX + x * CELL, py = OY + y * CELL;
+    if (c.n) { g.moveTo(px, py); g.lineTo(px + CELL, py); } if (c.w) { g.moveTo(px, py); g.lineTo(px, py + CELL); }
+    if (x === COLS - 1 && c.e) { g.moveTo(px + CELL, py); g.lineTo(px + CELL, py + CELL); } if (y === ROWS - 1 && c.s) { g.moveTo(px, py + CELL); g.lineTo(px + CELL, py + CELL); } }
+  g.stroke();
+  const zx = OX + (COLS - 0.5) * CELL, zy = OY + (ROWS - 0.5) * CELL; const puls = 0.5 + 0.5 * Math.sin(t * 5);
+  g.strokeStyle = FARBEN.ziel; g.lineWidth = 4; g.beginPath(); g.arc(zx, zy, 16 + 6 * puls, 0, Math.PI * 2); g.stroke();
+  g.fillStyle = FARBEN.ziel; g.beginPath(); g.arc(zx, zy, 7, 0, Math.PI * 2); g.fill();
+  const pos = Math.min(L.pfad.length - 1, lokal * SPEED); const i = Math.floor(pos), f = pos - i;
+  const a = L.pfad[i], b = L.pfad[Math.min(L.pfad.length - 1, i + 1)];
+  const bx = OX + (a[0] + (b[0] - a[0]) * f + 0.5) * CELL, by = OY + (a[1] + (b[1] - a[1]) * f + 0.5) * CELL;
+  g.strokeStyle = FARBEN.spur; g.globalAlpha = 0.28 * fade; g.lineWidth = 16; g.beginPath();
+  for (let j = 0; j <= i; j++) { const p = L.pfad[j]; const x = OX + (p[0] + 0.5) * CELL, y = OY + (p[1] + 0.5) * CELL; j ? g.lineTo(x, y) : g.moveTo(x, y); }
+  g.lineTo(bx, by); g.stroke(); g.globalAlpha = fade;
+  g.save(); g.translate(bx, by); g.rotate(pos * 0.9);
+  g.fillStyle = FARBEN.ball; g.beginPath(); g.arc(0, 0, 21, 0, Math.PI * 2); g.fill();
+  g.fillStyle = FARBEN.text; g.globalAlpha *= 0.55; g.beginPath(); g.arc(9, -6, 6, 0, Math.PI * 2); g.fill();
+  g.restore(); g.globalAlpha = 1;
+}
+
+/* ---- Marble Run: Kugeln über versetzte Rampen ---- */
+function simMarble(sekunden) {
+  const RAMPEN = []; const n = 4, links = 70, rechts = 1010, oben = 48, abstand = 128, gefaelle = 82;
+  for (let i = 0; i < n; i++) { const y0 = oben + i * abstand, y1 = y0 + gefaelle; RAMPEN.push(i % 2 === 0 ? { x0: links, y0, x1: rechts - 150, y1 } : { x0: rechts, y0, x1: links + 150, y1 }); }
+  const states = []; const balls = []; let spawn = 0; const r = 17, G = 1500; const rr = rng(99);
+  for (let t = 0; t < sekunden; t += DT) {
+    if (t >= spawn) { balls.push({ x: links + 30, y: 20, vx: 60 + rr() * 40, vy: 0, c: balls.length % 2 }); spawn = t + 2.2; }
+    for (const b of balls) {
+      b.vy += G * DT; b.x += b.vx * DT; b.y += b.vy * DT;
+      for (const R of RAMPEN) {
+        const dx = R.x1 - R.x0, dy = R.y1 - R.y0, L = Math.hypot(dx, dy), ux = dx / L, uy = dy / L, nx = -uy, ny = ux;
+        const px = b.x - R.x0, py = b.y - R.y0; const along = px * ux + py * uy; const dist = px * nx + py * ny;
+        if (along < -r || along > L + r) continue;
+        const nsign = ny < 0 ? 1 : -1; const d = dist * nsign;
+        if (d < r && d > -r * 0.5) { const vn = (b.vx * nx + b.vy * ny) * nsign;
+          if (vn < 0) { b.x += (r - d) * nx * nsign; b.y += (r - d) * ny * nsign; const vt = b.vx * ux + b.vy * uy; const vn2 = -vn * 0.25; b.vx = ux * vt + nx * nsign * vn2; b.vy = uy * vt + ny * nsign * vn2; b.vx *= 0.999; b.vy *= 0.999; } }
+      }
+      if (b.x < r + 20) { b.x = r + 20; b.vx = Math.abs(b.vx) * 0.5; } if (b.x > 1060 - r) { b.x = 1060 - r; b.vx = -Math.abs(b.vx) * 0.5; }
+    }
+    for (let i = balls.length - 1; i >= 0; i--) if (balls[i].y > H + 40) balls.splice(i, 1);
+    states.push(balls.map((b) => ({ x: b.x, y: b.y, c: b.c })));
+  }
+  return { states, RAMPEN, r };
+}
+let MARBLE = null;
+function zeichneMarble(t) {
+  if (!MARBLE) MARBLE = simMarble(GESAMT + 1);
+  const st = MARBLE.states[Math.min(MARBLE.states.length - 1, Math.round(t / DT))];
+  g.clearRect(0, 0, 1080, H); g.lineCap = "round"; g.strokeStyle = FARBEN.wand; g.lineWidth = 10;
+  for (const R of MARBLE.RAMPEN) { g.beginPath(); g.moveTo(R.x0, R.y0); g.lineTo(R.x1, R.y1); g.stroke(); g.fillStyle = FARBEN.ziel; g.beginPath(); g.arc(R.x1, R.y1, 9, 0, Math.PI * 2); g.fill(); }
+  g.strokeStyle = FARBEN.wand; g.lineWidth = 8; g.beginPath(); g.arc(540, H - 40, 90, Math.PI * 0.08, Math.PI * 0.92); g.stroke();
+  for (const b of st) { g.fillStyle = b.c ? FARBEN.spur : FARBEN.ball; g.beginPath(); g.arc(b.x, b.y, MARBLE.r, 0, Math.PI * 2); g.fill(); g.fillStyle = FARBEN.text; g.globalAlpha = 0.5; g.beginPath(); g.arc(b.x + 6, b.y - 6, 5, 0, Math.PI * 2); g.fill(); g.globalAlpha = 1; }
+}
+
+/* ---- Kugel springt in rotierenden Ringen mit Lücke ---- */
+function simRing(sekunden) {
+  const CX = 540, CY = H / 2, G = 1300, r = 17;
+  const RINGE = [{ R: 105, w: 1.1, off: 0.3 }, { R: 150, w: -0.8, off: 2.1 }, { R: 195, w: 0.65, off: 4.0 }, { R: 240, w: -0.5, off: 1.2 }];
+  const LUECKE = 1.05; const states = []; let ball = { x: CX, y: CY - 30, vx: 170, vy: 0 }; let frei = 0, reset = 0, resetZeit = 0; const trail = [];
+  for (let t = 0; t < sekunden; t += DT) {
+    ball.vy += G * DT; ball.x += ball.vx * DT; ball.y += ball.vy * DT;
+    for (let i = frei; i < RINGE.length; i++) {
+      const ring = RINGE[i]; const dx = ball.x - CX, dy = ball.y - CY; const d = Math.hypot(dx, dy);
+      if (d + r >= ring.R) {
+        const ang = Math.atan2(dy, dx); const gap = ((ring.off + ring.w * t) % (Math.PI * 2) + Math.PI * 2) % (Math.PI * 2);
+        const diff = Math.abs(((ang - gap) % (Math.PI * 2) + Math.PI * 3) % (Math.PI * 2) - Math.PI);
+        if (diff < LUECKE / 2 && i === frei) { frei++; continue; }
+        const nx = dx / d, ny = dy / d; const vn = ball.vx * nx + ball.vy * ny;
+        if (vn > 0) { ball.vx -= 2 * vn * nx; ball.vy -= 2 * vn * ny; ball.vx *= 1.015; ball.vy *= 1.015; ball.x = CX + nx * (ring.R - r - 0.5); ball.y = CY + ny * (ring.R - r - 0.5); }
+        break;
+      }
+    }
+    if (frei >= RINGE.length && Math.hypot(ball.x - CX, ball.y - CY) > 330 && !resetZeit) resetZeit = t + 0.5;
+    if (resetZeit && t >= resetZeit) { ball = { x: CX, y: CY - 30, vx: 150 + 40 * reset, vy: 0 }; frei = 0; reset++; resetZeit = 0; trail.length = 0; }
+    trail.push([ball.x, ball.y]); if (trail.length > 40) trail.shift();
+    states.push({ x: ball.x, y: ball.y, frei, gaps: RINGE.map((ring) => ring.off + ring.w * t), trail: trail.filter((_, j) => j % 4 === 0) });
+  }
+  return { states, RINGE, CX, CY, r, LUECKE };
+}
+let RING = null;
+function zeichneRing(t) {
+  if (!RING) RING = simRing(GESAMT + 1);
+  const st = RING.states[Math.min(RING.states.length - 1, Math.round(t / DT))];
+  g.clearRect(0, 0, 1080, H); g.lineCap = "round";
+  RING.RINGE.forEach((ring, i) => { if (i < st.frei) return; const gap = st.gaps[i];
+    g.strokeStyle = i === st.frei ? FARBEN.ball : FARBEN.text; g.globalAlpha = i === st.frei ? 1 : 0.22; g.lineWidth = i === st.frei ? 10 : 7;
+    g.beginPath(); g.arc(RING.CX, RING.CY, ring.R, gap + RING.LUECKE / 2, gap - RING.LUECKE / 2 + Math.PI * 2); g.stroke(); g.globalAlpha = 1; });
+  g.strokeStyle = FARBEN.spur; g.lineWidth = 6; g.globalAlpha = 0.5; g.beginPath();
+  st.trail.forEach((p, j) => (j ? g.lineTo(p[0], p[1]) : g.moveTo(p[0], p[1]))); g.lineTo(st.x, st.y); g.stroke(); g.globalAlpha = 1;
+  g.fillStyle = FARBEN.ball; g.beginPath(); g.arc(st.x, st.y, RING.r, 0, Math.PI * 2); g.fill();
+  g.fillStyle = FARBEN.text; g.globalAlpha = 0.5; g.beginPath(); g.arc(st.x + 5, st.y - 5, 5, 0, Math.PI * 2); g.fill(); g.globalAlpha = 1;
+}
+const ZEICHNER = { labyrinth: zeichneLabyrinth, marble: zeichneMarble, ring: zeichneRing };
+`;
+
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 /* Zeitplan: jede Szene = kurzer Vorlauf + Sprechdauer + Nachlauf. */
@@ -35,100 +172,121 @@ export async function zeitplanErstellen(reel, audioDir) {
   return { szenen, gesamt: Math.min(t, CONFIG.reel.maxSekunden), echt: szenen.every((s) => s.echt), anbieter: szenen[0]?.anbieter || "aus" };
 }
 
-/* Die Seite: alle Szenen im DOM, Sichtbarkeit und Animation über setzeZeit(t). */
+/* Animation des oberen Drittels: täglich rotierend (Labyrinth → Marble Run → Ring). */
+export function animationFuer(datum) {
+  const liste = CONFIG.reel.animationen;
+  if (CONFIG.reel.animation && liste.includes(CONFIG.reel.animation)) return CONFIG.reel.animation;
+  const tage = Math.floor(Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10)) / 86400000);
+  return liste[((tage % liste.length) + liste.length) % liste.length];
+}
+
+/* Untertitel-Blöcke: 3–4 Wörter, Bruch an Satzzeichen; der Text je Block steht
+   fest – nur die Farbe des gerade gesprochenen Wortes wechselt. */
+export function untertitelBloecke(szenen) {
+  const bloecke = [];
+  for (const s of szenen) {
+    let akt = [];
+    for (const w of s.woerter) {
+      akt.push(w);
+      if (akt.length >= 4 || /[.!?:;–]$/.test(w.wort) || (akt.length >= 3 && /,$/.test(w.wort))) { bloecke.push({ szene: s.index, woerter: akt }); akt = []; }
+    }
+    if (akt.length) bloecke.push({ szene: s.index, woerter: akt });
+  }
+  /* Einzelne Wörter an den Nachbarblock hängen (erst nach vorn, sonst nach hinten). */
+  for (let i = bloecke.length - 1; i >= 0; i--) {
+    if (bloecke[i].woerter.length !== 1) continue;
+    const n = bloecke[i + 1], v = bloecke[i - 1];
+    if (n && n.szene === bloecke[i].szene && n.woerter.length <= 4) { n.woerter.unshift(...bloecke[i].woerter); bloecke.splice(i, 1); }
+    else if (v && v.szene === bloecke[i].szene && v.woerter.length <= 4) { v.woerter.push(...bloecke[i].woerter); bloecke.splice(i, 1); }
+  }
+  return bloecke.map((b) => ({ szene: b.szene, von: b.woerter[0].von, bis: b.woerter.at(-1).bis, w: b.woerter.map((x) => ({ t: x.wort, von: x.von, bis: x.bis })) }));
+}
+
+/* Die Seite: oberes Drittel Canvas-Animation, darunter Szenen und Untertitel;
+   alles über setzeZeit(t) Bild für Bild deterministisch. */
 function reelHtml(reel, plan, ctx) {
   const stil = ctx.stil;
   const szenenHtml = plan.szenen.map((s) => {
     let inhalt = "";
-    if (s.art === "hook") inhalt = `<div class="hook"><h1>${esc(s.titel)}</h1>${s.unter ? `<p class="unter">${esc(s.unter)}</p>` : ""}${s.icon ? `<div class="illu">${iconSvg(s.icon, 300)}</div>` : ""}</div>`;
-    else if (s.art === "schritt") inhalt = `<div class="schritt"><div class="nummer">${esc(s.nummer)}</div><h2>${esc(s.titel)}</h2>${s.text ? `<p class="text">${esc(s.text)}</p>` : ""}</div>`;
+    if (s.art === "hook") inhalt = `<div class="hook"><h1>${esc(s.titel)}</h1>${s.unter ? `<p class="unter">${esc(s.unter)}</p>` : ""}</div>`;
+    else if (s.art === "schritt") inhalt = `<div class="schritt"><div class="nummer">${esc(s.nummer)}</div><div><h2>${esc(s.titel)}</h2>${s.text ? `<p class="text">${esc(s.text)}</p>` : ""}</div></div>`;
     else if (s.art === "merke") inhalt = `<div class="merkeblock"><div class="ueber">Merksatz</div><h2 class="merke-titel">${esc(s.titel)}</h2>${s.norm ? `<div class="norm">${esc(s.norm)}</div>` : ""}</div>`;
     else if (s.art === "cta") inhalt = `<div class="ctablock"><h2>${esc(s.titel)}</h2>${s.text ? `<p class="text">${esc(s.text)}</p>` : ""}<span class="pille">Folgen</span></div>`;
-    else inhalt = `<div class="schritt"><h2>${esc(s.titel)}</h2><p class="text">${esc(s.text || "")}</p></div>`;
+    else inhalt = `<div class="schritt"><div><h2>${esc(s.titel)}</h2><p class="text">${esc(s.text || "")}</p></div></div>`;
     return `<section class="szene" data-i="${s.index}" data-start="${s.start}" data-dauer="${s.dauer}">${inhalt}</section>`;
   }).join("");
-  const woerter = plan.szenen.flatMap((s) => s.woerter.map((w) => ({ ...w, szene: s.index })));
+  const bloecke = untertitelBloecke(plan.szenen);
   const kl = { 1: "k1", 2: "k2", 3: "k3" }[ctx.klausur] || "k3";
+  const farben = { wand: stil.farben.linie || "#333", ball: stil.farben.akzent, spur: stil.farben.k3 || stil.farben.akzent, ziel: stil.farben.k2 || "#ff6a3d", text: stil.farben.text };
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(stil, "story")}
 .reel{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--grund);font-family:var(--sans)}
 .stil-campus .reel{background:radial-gradient(1300px 1100px at 30% 10%,#243070 0%,#141a3a 55%,#0e1230 100%)}
-.fortschritt{position:absolute;left:84px;right:84px;top:118px;height:8px;border-radius:999px;background:var(--linie);overflow:hidden}
+canvas#oben{position:absolute;left:0;top:0;width:1080px;height:${OBEN}px;display:block}
+.trenner{position:absolute;left:0;right:0;top:${OBEN}px;height:2px;background:var(--linie)}
+.fortschritt{position:absolute;left:84px;right:84px;top:${OBEN + 36}px;height:8px;border-radius:999px;background:var(--linie);overflow:hidden}
 .fortschritt i{display:block;height:100%;background:var(--akzent);width:0}
-.reel .kopf{position:absolute;left:84px;right:84px;top:150px}
-.szene{position:absolute;left:84px;right:84px;top:300px;bottom:640px;opacity:0;display:flex;flex-direction:column;justify-content:center}
+.reel .kopf{position:absolute;left:84px;right:84px;top:${OBEN + 66}px;display:flex;justify-content:space-between;align-items:center}
+.szene{position:absolute;left:84px;right:84px;top:${OBEN + 150}px;height:600px;opacity:0;display:flex;flex-direction:column;justify-content:center}
 .szene.aktiv{opacity:1}
-.hook h1{font-size:132px;margin-top:0}
-.hook .unter{margin-top:34px;font-size:44px;line-height:1.35;color:var(--text-weich)}
-.hook .illu{position:absolute;right:0;bottom:-40px;width:400px;height:400px;display:flex;align-items:center;justify-content:center;color:var(--akzent)}
-.hook .illu::before{content:"";position:absolute;inset:0;border-radius:50%;border:3px solid var(--linie)}
-.schritt .nummer{font-family:var(--titel);font-size:260px;line-height:.9;color:var(--akzent);font-weight:${stil.schrift.titelGewicht}}
-.schritt h2{font-size:108px;margin-top:20px;line-height:1.02}
-.schritt .text{margin-top:30px;font-size:46px;line-height:1.35;color:var(--text-weich);max-width:880px}
-.merkeblock .ueber{font-size:34px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-weich);font-weight:700}
-.merke-titel{font-size:96px;margin-top:24px;line-height:1.05}
-.merkeblock .norm{margin-top:40px;font-family:var(--mono);font-size:40px;color:var(--akzent);line-height:1.3}
+.hook h1{font-size:96px;margin:0;line-height:1.02}
+.hook .unter{margin-top:22px;font-size:40px;line-height:1.3;color:var(--text-weich)}
+.schritt{display:flex;gap:34px;align-items:center}
+.schritt .nummer{font-family:var(--titel);font-size:200px;line-height:.9;color:var(--akzent);font-weight:${stil.schrift.titelGewicht};min-width:150px}
+.schritt h2{font-size:82px;margin:0;line-height:1.02}
+.schritt .text{margin-top:18px;font-size:40px;line-height:1.3;color:var(--text-weich);max-width:760px}
+.merkeblock .ueber{font-size:30px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-weich);font-weight:700}
+.merke-titel{font-size:78px;margin-top:16px;line-height:1.05}
+.merkeblock .norm{margin-top:26px;font-family:var(--mono);font-size:36px;color:var(--akzent);line-height:1.3}
 .stil-klausurbogen .merkeblock .norm{color:var(--rot)}
-.ctablock h2{font-size:104px;margin-top:0}
-.ctablock .text{margin-top:30px;font-size:46px;color:var(--text-weich)}
-.ctablock .pille{margin-top:50px;font-size:40px;padding:22px 48px}
-.anim{transition:none}
-.untertitel{position:absolute;left:84px;right:84px;bottom:230px;min-height:300px;display:flex;align-items:flex-end}
-.untertitel .zeile{font-family:var(--titel);font-size:76px;line-height:1.12;text-wrap:balance;letter-spacing:.005em}
-.untertitel .w{opacity:.32;transition:none}
-.untertitel .w.gesagt{opacity:.85}
-.untertitel .w.jetzt{opacity:1;color:var(--akzent)}
+.ctablock h2{font-size:86px;margin:0}
+.ctablock .text{margin-top:22px;font-size:40px;color:var(--text-weich)}
+.ctablock .pille{margin-top:34px;font-size:36px;padding:18px 40px}
+.untertitel{position:absolute;left:60px;right:60px;top:${OBEN + 780}px;height:280px;display:flex;align-items:center;justify-content:center;text-align:center}
+.untertitel .block{font-family:var(--titel);font-size:84px;line-height:1.08;text-transform:uppercase;letter-spacing:.01em;font-weight:${stil.schrift.titelGewicht};transform-origin:50% 50%;will-change:transform}
+.untertitel .w{color:var(--text)}
+.untertitel .w.jetzt{color:var(--akzent)}
 .stil-klausurbogen .untertitel .w.jetzt{color:var(--rot)}
 .familie-kanzlei .untertitel .w.jetzt{color:var(--k3)}
-.reel .fuss{position:absolute;left:84px;right:84px;bottom:110px}
+.reel .fuss{position:absolute;left:84px;right:84px;bottom:70px;display:flex;justify-content:space-between}
 </style></head><body class="stil-${stil.id} familie-${stil.familie || stil.id}"><div class="reel">
+<canvas id="oben" width="1080" height="${OBEN}"></canvas>
+<div class="trenner"></div>
 <div class="fortschritt"><i id="balken"></i></div>
-<div class="kopf"><span class="etikett ${kl}"><i class="punkt"></i>${esc(ctx.fachLabel)}</span><span class="zaehler"></span></div>
+<div class="kopf"><span class="etikett ${kl}"><i class="punkt"></i>${esc(ctx.fachLabel)}</span><span class="zaehler" id="zaehler"></span></div>
 ${szenenHtml}
-<div class="untertitel"><div class="zeile" id="zeile"></div></div>
+<div class="untertitel"><div class="block" id="block"></div></div>
 <div class="fuss"><span class="handle">${esc(ctx.handle || "")}</span><span class="klausur">${esc({ 1: "Klausur 1 · Tag 1", 2: "Klausur 2 · Tag 2", 3: "Klausur 3 · Tag 3" }[ctx.klausur] || "")}</span></div>
 </div>
 <script>
-const WOERTER = ${JSON.stringify(woerter)};
+const BLOECKE = ${JSON.stringify(bloecke)};
 const GESAMT = ${plan.gesamt};
-const szenen = [...document.querySelectorAll(".szene")].map((el) => ({ el, start: +el.dataset.start, dauer: +el.dataset.dauer, kinder: [...el.querySelectorAll("h1,h2,p,.nummer,.illu,.norm,.pille,.ueber")] }));
+const ANIM = ${JSON.stringify(ctx.animation)};
+const FARBEN = ${JSON.stringify(farben)};
+const H = ${OBEN};
+const szenen = [...document.querySelectorAll(".szene")].map((el) => ({ el, start: +el.dataset.start, dauer: +el.dataset.dauer, kinder: [...el.querySelectorAll("h1,h2,p,.nummer,.norm,.pille,.ueber")] }));
 const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
-function fenster(i) {
-  /* Untertitel-Fenster: bis zu 7 Wörter, an Satzzeichen umbrechen. */
-  const w = WOERTER[i];
-  let a = i, b = i;
-  while (a > 0 && WOERTER[a - 1].szene === w.szene && i - a < 3 && !/[.!?:]$/.test(WOERTER[a - 1].wort)) a--;
-  while (b < WOERTER.length - 1 && WOERTER[b + 1].szene === w.szene && b - a < 6 && !/[.!?:]$/.test(WOERTER[b].wort)) b++;
-  return [a, b];
-}
+${ANIMATIONEN}
 window.setzeZeit = function (t) {
+  ZEICHNER[ANIM](t);
   document.getElementById("balken").style.width = (100 * Math.min(1, t / GESAMT)) + "%";
   let aktiv = -1;
   szenen.forEach((s, i) => {
-    const lokal = t - s.start;
-    const drin = lokal >= 0 && lokal < s.dauer;
-    s.el.classList.toggle("aktiv", drin);
-    if (drin) aktiv = i;
-    if (!drin) return;
-    /* Einblenden: Kinder nacheinander von unten, Ausblenden am Ende. */
-    const aus = s.dauer - lokal;
-    const fade = aus < 0.25 ? aus / 0.25 : 1;
-    s.kinder.forEach((k, j) => {
-      const p = ease((lokal - 0.08 * j) / 0.42);
-      k.style.opacity = String(p * fade);
-      k.style.transform = "translateY(" + (36 * (1 - p)) + "px)";
-    });
-    const nummer = s.el.querySelector(".nummer");
-    if (nummer) { const p = ease(lokal / 0.5); nummer.style.transform = "translateY(" + (40 * (1 - p)) + "px) scale(" + (0.85 + 0.15 * p) + ")"; }
-    const illu = s.el.querySelector(".illu");
-    if (illu) illu.style.transform = "rotate(" + (Math.sin(lokal * 1.2) * 2) + "deg)";
+    const lokal = t - s.start; const drin = lokal >= 0 && lokal < s.dauer;
+    s.el.classList.toggle("aktiv", drin); if (drin) aktiv = i; if (!drin) return;
+    const aus = s.dauer - lokal; const fade = aus < 0.25 ? aus / 0.25 : 1;
+    s.kinder.forEach((k, j) => { const p = ease((lokal - 0.08 * j) / 0.42); k.style.opacity = String(p * fade); k.style.transform = "translateY(" + (30 * (1 - p)) + "px)"; });
   });
-  /* Untertitel */
-  const zeile = document.getElementById("zeile");
-  let i = WOERTER.findIndex((w) => t >= w.von && t < w.bis);
-  if (i < 0) { const n = WOERTER.filter((w) => w.bis <= t && (aktiv < 0 || w.szene === aktiv)); i = n.length ? WOERTER.indexOf(n[n.length - 1]) : -1; }
-  if (i < 0 || (aktiv >= 0 && WOERTER[i].szene !== aktiv)) { zeile.innerHTML = ""; return; }
-  const [a, b] = fenster(i);
-  zeile.innerHTML = WOERTER.slice(a, b + 1).map((w, k) => '<span class="w ' + (a + k < i ? "gesagt" : a + k === i ? "jetzt" : "") + '">' + w.wort.replace(/[&<>]/g, "") + "</span>").join(" ");
+  document.getElementById("zaehler").textContent = aktiv >= 0 ? (aktiv + 1) + "/" + szenen.length : "";
+  /* Untertitel: fester Block, nur die Farbe des aktuellen Wortes wechselt. */
+  const block = document.getElementById("block");
+  const b = BLOECKE.find((x) => t >= x.von && t < x.bis + 0.18);
+  if (!b || (aktiv >= 0 && b.szene !== aktiv)) { block.innerHTML = ""; block.dataset.key = ""; return; }
+  const key = String(b.von);
+  if (block.dataset.key !== key) { block.dataset.key = key; block.innerHTML = b.w.map((w) => '<span class="w">' + w.t.replace(/[&<>]/g, "") + "</span>").join(" "); }
+  const spans = block.querySelectorAll(".w");
+  b.w.forEach((w, j) => spans[j] && spans[j].classList.toggle("jetzt", t >= w.von && t < w.bis));
+  const p = ease((t - b.von) / 0.14);
+  block.style.transform = "scale(" + (0.94 + 0.06 * p) + ")";
 };
 </script></body></html>`;
 }
@@ -163,7 +321,8 @@ function klangbettFilter(dauer) {
 export async function reelBauen(reel, ausgabeDir, opt = {}) {
   ausgabeDir = path.resolve(ausgabeDir);
   const fps = CONFIG.reel.fps;
-  const ctx = { stil: stilLaden(opt.stil || (CONFIG.marke.stil === "kanzlei" && opt.variante ? "kanzlei-hell" : CONFIG.marke.stil)), handle: CONFIG.marke.handle, klausur: reel.klausur || FAECHER[reel.fach]?.klausur || 3, fachLabel: FAECHER[reel.fach]?.label || "Steuerberaterexamen" };
+  const datum = opt.datum || (String(reel.slug || "").match(/^\d{4}-\d{2}-\d{2}/) || [new Date().toISOString().slice(0, 10)])[0];
+  const ctx = { stil: stilLaden(opt.stil || (CONFIG.marke.stil === "kanzlei" && opt.variante ? "kanzlei-hell" : CONFIG.marke.stil)), handle: CONFIG.marke.handle, klausur: reel.klausur || FAECHER[reel.fach]?.klausur || 3, fachLabel: FAECHER[reel.fach]?.label || "Steuerberaterexamen", animation: opt.animation || animationFuer(datum) };
   fs.mkdirSync(ausgabeDir, { recursive: true });
   const plan = await zeitplanErstellen(reel, path.join(ausgabeDir, "audio"));
   const frameDir = path.join(ausgabeDir, "frames");
@@ -186,7 +345,7 @@ export async function reelBauen(reel, ausgabeDir, opt = {}) {
   execFileSync(ffmpegPfad(), args, { stdio: ["ignore", "pipe", "pipe"] });
   fs.copyFileSync(path.join(frameDir, `f${String(Math.min(n - 1, Math.round(0.9 * fps))).padStart(5, "0")}.jpg`), cover);
   if (!opt.framesBehalten) fs.rmSync(frameDir, { recursive: true, force: true });
-  return { video, cover, dauer: plan.gesamt, echt: plan.echt, anbieter: plan.anbieter, szenen: plan.szenen.length };
+  return { video, cover, dauer: plan.gesamt, echt: plan.echt, anbieter: plan.anbieter, szenen: plan.szenen.length, animation: ctx.animation };
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
@@ -194,8 +353,9 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const reel = JSON.parse(fs.readFileSync(datei, "utf8"));
   const ziel = process.argv[3] || new URL("../beispiele/reel-out", import.meta.url).pathname;
   const t0 = Date.now();
-  const r = await reelBauen(reel, ziel, { framesBehalten: process.argv.includes("--frames") });
-  console.log(`${r.video} · ${r.dauer.toFixed(1)} s · ${r.szenen} Szenen · Stimme: ${r.anbieter} · ${((Date.now() - t0) / 1000).toFixed(0)} s`);
+  const animArg = process.argv.find((a) => a.startsWith("--animation="))?.split("=")[1];
+  const r = await reelBauen(reel, ziel, { framesBehalten: process.argv.includes("--frames"), animation: animArg, variante: process.argv.includes("--hell") ? 1 : 0 });
+  console.log(`${r.video} · ${r.dauer.toFixed(1)} s · ${r.szenen} Szenen · Stimme: ${r.anbieter} · Animation: ${r.animation} · ${((Date.now() - t0) / 1000).toFixed(0)} s`);
   const { browserBeenden } = await import("./render.mjs");
   await browserBeenden();
 }

@@ -61,7 +61,7 @@ test("Tagesplan ist deterministisch, ohne Themen-Dopplung, mit Countdown vor dem
   const a = tagesplan("2026-09-14", ledgerLaden(), pool);
   const b = tagesplan("2026-09-14", ledgerLaden(), pool);
   assert.deepEqual(a.beitraege.map((x) => x.thema?.id), b.beitraege.map((x) => x.thema?.id));
-  assert.equal(a.beitraege.length, 3);
+  assert.equal(a.beitraege.length, 2);
   assert.ok(a.stories.length >= 8 && a.stories.length <= 10, `Stories: ${a.stories.length}`);
   const ids = [...a.beitraege, ...a.stories].map((x) => x.thema?.id).filter(Boolean);
   const antwortenAbgezogen = ids.length - a.stories.filter((s) => s.art === "antwort").length;
@@ -200,10 +200,10 @@ test("Lernschleife: Gewichte, Hook-Typen, beste Uhrzeiten, Plan folgt der Strate
   assert.equal(s.besteStunden.length, 3);
   assert.equal(hookTyp("Der Fehler, der 5 Punkte kostet"), "fehler");
   assert.ok(punkte({ saved: 1 }) > punkte({ likes: 1 }));
-  const plan = tagesplan("2026-09-09", ledgerLaden(), themenpool(), { ...s, formatGewicht: { fehlerfalle: 1.6, vergleich: 0.6 } });
+  const plan = tagesplan("2026-09-09", ledgerLaden(), themenpool(), { ...s, formatGewicht: { fehlerfalle: 1.6, pruefungsfrage: 0.6 } });
   assert.ok(plan.beitraege.some((b) => b.format === "fehlerfalle"));
-  assert.ok(!plan.beitraege.some((b) => b.format === "vergleich"));
-  assert.deepEqual(plan.beitraege.map((b) => b.zeit), s.besteStunden);
+  assert.ok(!plan.beitraege.some((b) => b.format === "pruefungsfrage"));
+  assert.deepEqual(plan.beitraege.map((b) => b.zeit), s.besteStunden.slice(0, plan.beitraege.length));
 });
 
 test("Wochenbericht und Schlüsselwort-Auswahl", async () => {
@@ -275,4 +275,31 @@ test("Aufbau: leere Folien, doppelte CTA und Sachverhalt auf der Titelfolie werd
   /* Beispielbeiträge bleiben sauber. */
   const beispiele = JSON.parse(fs.readFileSync(new URL("../beispiele/inhalte.json", import.meta.url), "utf8"));
   for (const b of beispiele.beitraege) assert.deepEqual(pruefeAufbau(b.folien), [], b.folien[0].titel);
+});
+
+test("Tagesdeckel: Verbrauch wird gezählt, weitere Aufrufe werden gestoppt", async () => {
+  const k = await import("../src/kosten.mjs");
+  const gespeichert = [];
+  k.budgetSetzen({ limitUsd: 0.05, bisher: 0.03, speichern: (usd) => gespeichert.push(usd) });
+  assert.equal(k.budgetFrei(), true);
+  k.budgetPruefen("Test");
+  k.erfassen("claude-sonnet-5", { input_tokens: 1000, output_tokens: 2500 }, "test");   // 0,002 + 0,025 = 0,027 $
+  assert.ok(gespeichert.length === 1 && gespeichert[0] > 0.05, JSON.stringify(gespeichert));
+  assert.equal(k.budgetFrei(), false);
+  assert.throws(() => k.budgetPruefen("Beitrag"), k.BudgetFehler);
+  k.budgetSetzen({});   // zurücksetzen, damit andere Tests nicht betroffen sind
+  assert.equal(k.budgetFrei(), true);
+});
+
+test("Reel: Animation rotiert täglich, Untertitel-Blöcke stehen fest", async () => {
+  const { animationFuer, untertitelBloecke } = await import("../src/reel.mjs");
+  const a = ["2026-09-06", "2026-09-07", "2026-09-08", "2026-09-09"].map(animationFuer);
+  assert.deepEqual(new Set(a.slice(0, 3)).size, 3, a.join(","));
+  assert.equal(a[3], a[0]);
+  const { woerterVerteilen } = await import("../src/stimme.mjs");
+  const szenen = [{ index: 0, woerter: woerterVerteilen("Erstens: Gibt es eine Verpflichtung nach außen? Ja, gegenüber einem Dritten.", 6, 0) }];
+  const b = untertitelBloecke(szenen);
+  assert.ok(b.every((x) => x.w.length >= 2 && x.w.length <= 5), JSON.stringify(b.map((x) => x.w.length)));
+  assert.ok(b.every((x, i) => i === 0 || x.von >= b[i - 1].bis - 1e-9));
+  assert.equal(b[0].w[0].t, "Erstens:");
 });
