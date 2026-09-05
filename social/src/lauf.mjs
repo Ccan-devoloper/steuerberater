@@ -199,7 +199,9 @@ async function main() {
       const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "beitraege"), { variante });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Beitrag ${datum} ${eintrag.slot}`);
       const caption = `${beitrag.caption}\n\n${beitrag.hashtags.join(" ")}`;
-      const medienId = await ig.beitragPosten({ bildUrls: urls, caption });
+      const schonDa = await ig.bereitsVeroeffentlicht(caption);
+      if (schonDa) log(`  Beitrag steht bereits auf Instagram (${schonDa}) – wird nur vermerkt.`);
+      const medienId = schonDa || await ig.beitragPosten({ bildUrls: urls, caption });
       kontingent.genutzt += 1;
       eintrag.status = "veroeffentlicht";
       eintrag.medienId = medienId;
@@ -325,7 +327,9 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "auffuellen"), { variante });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Auffüllen ${slot}`);
       const caption = `${beitrag.caption}\n\n${beitrag.hashtags.join(" ")}`;
-      const medienId = await ig.beitragPosten({ bildUrls: urls, caption });
+      const schonDa = await ig.bereitsVeroeffentlicht(caption);
+      if (schonDa) log(`  Beitrag steht bereits auf Instagram (${schonDa}) – wird nur vermerkt.`);
+      const medienId = schonDa || await ig.beitragPosten({ bildUrls: urls, caption });
       const karteIndex = beitrag.folien.findIndex((f) => f.art === "karte");
       vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, variante, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
       stand.fertig = i + 1;

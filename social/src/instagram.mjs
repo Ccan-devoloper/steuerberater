@@ -264,6 +264,23 @@ export class Instagram {
     return m ? { id: m.id, bildUrl: m.thumbnail_url || m.media_url, zeit: m.timestamp } : null;
   }
 
+  /* Wurde ein Beitrag mit dieser Caption bereits veröffentlicht? Schutz vor
+     Doppelposts, wenn ein Lauf zwischen Veröffentlichung und Ledger-Eintrag
+     abgebrochen wurde. Verglichen wird die erste Zeile der Caption. */
+  async bereitsVeroeffentlicht(caption, anzahl = 12) {
+    if (this.trockenlauf) return null;
+    const zeile = String(caption || "").split("\n")[0].trim();
+    if (zeile.length < 15) return null;
+    try {
+      const r = await this.anfrage("GET", `${this.kontoId}/media`, { fields: "id,caption,media_product_type", limit: anzahl });
+      const m = (r.data || []).find((x) => x.media_product_type !== "STORY" && String(x.caption || "").split("\n")[0].trim() === zeile);
+      return m ? m.id : null;
+    } catch (e) {
+      console.warn(`  ! Doppelpost-Prüfung nicht möglich: ${e.message}`);
+      return null;
+    }
+  }
+
   /* Eigener Nutzername (für die Erkennung eigener Kommentare). */
   async eigenerName() {
     if (this.host === "facebook") return (await this.anfrage("GET", `${this.kontoId}`, { fields: "username" })).username;
