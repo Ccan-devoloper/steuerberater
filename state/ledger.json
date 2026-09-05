@@ -342,6 +342,19 @@
       "medienId": "18427805023198004",
       "veroeffentlicht": "2026-09-05T08:08:38.853Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f2",
+      "format": "fehlerfalle",
+      "thema": "istr-modul-istr-istr2-04",
+      "fach": "istr",
+      "titel": "DBA-Klausur: Warum du mit dem Wohnsitz nach § 8 AO noch nicht ansässig bist?",
+      "hookTyp": "frage",
+      "medienId": "17889819654611696",
+      "veroeffentlicht": "2026-09-05T08:10:20.812Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -349,6 +362,7 @@
     "ust": 1,
     "kst": 2,
     "ao": 2,
-    "bilanz": 1
+    "bilanz": 1,
+    "istr": 1
   }
 }
