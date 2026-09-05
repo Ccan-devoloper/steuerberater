@@ -488,12 +488,26 @@
       "variante": 1,
       "veroeffentlicht": "2026-09-05T08:42:28.167Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f14",
+      "format": "vergleich",
+      "thema": "kst-modul-kst-7",
+      "fach": "kst",
+      "titel": "Dividende bei der GmbH: § 8b Abs. 1 KStG oder Streubesitz nach Abs. 4?",
+      "hookTyp": "frage",
+      "medienId": "18163414594478676",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-05T09:12:05.102Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 2,
-    "kst": 2,
+    "kst": 3,
     "ao": 3,
     "bilanz": 6,
     "istr": 4
