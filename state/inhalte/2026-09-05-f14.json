@@ -7,7 +7,7 @@
   "folien": [
     {
       "art": "titel",
-      "titel": "Schachtel oder Streubesitz: Wann bleibt eine Dividende bei der GmbH steuerfrei?",
+      "titel": "Dividende bei der GmbH: § 8b Abs. 1 KStG oder Streubesitz nach Abs. 4?",
       "icon": "muenzen",
       "pille": "Swipen →",
       "prioritaet": "hoch",
@@ -15,79 +15,53 @@
     },
     {
       "art": "vergleich",
-      "titel": "§ 8b Abs. 1 vs. § 8b Abs. 4 KStG",
+      "titel": "Zwei Wege, ein Stichtag",
       "links": {
-        "titel": "Mindestens 10 % am 1.1.",
+        "titel": "Ab 10 % – Abs. 1",
         "punkte": [
-          "Der Bezug bleibt außer Ansatz, § 8b Abs. 1 S. 1 KStG",
-          "5 % zählen als nichtabziehbare BA, § 8b Abs. 5 KStG",
-          "Unterm Strich sind *95 %* draußen"
+          "Bezug bleibt *außer Ansatz*, § 8b Abs. 1 S. 1 KStG",
+          "5 % nichtabziehbare BA, § 8b Abs. 5 S. 1 KStG",
+          "Im Ergebnis 95 % steuerfrei"
         ]
       },
       "rechts": {
-        "titel": "Weniger als 10 % am 1.1.",
+        "titel": "Unter 10 % – Abs. 4",
         "punkte": [
-          "Streubesitz: die Freistellung fällt weg",
-          "Der Bezug wirkt sich *voll* auf das Einkommen aus",
-          "Keine 5-%-Pauschale, weil nichts freigestellt ist"
+          "Bezug *voll steuerpflichtig*, § 8b Abs. 4 S. 1 KStG",
+          "Keine 5-%-Pauschale, weil Abs. 1 nicht greift",
+          "Betriebsausgaben bleiben abziehbar"
         ]
       },
       "icon": "waage"
     },
     {
-      "art": "schritte",
-      "titel": "Ablauf in der Klausur",
-      "schritte": [
-        {
-          "titel": "Ertragsart klären",
-          "text": "Offene Ausschüttung und vGA sind gleichermaßen Bezug nach § 8b Abs. 1 S. 1 KStG."
-        },
-        {
-          "titel": "Quote am 1. Januar",
-          "text": "Maßgeblich ist der Stand zum Jahresanfang, § 8b Abs. 4 S. 1 KStG."
-        },
-        {
-          "titel": "Zukauf im Jahr",
-          "text": "Ein Erwerb von mindestens 10 % wirkt auf den Jahresbeginn zurück, § 8b Abs. 4 S. 6 KStG."
-        },
-        {
-          "titel": "Kürzen",
-          "text": "Bei Freistellung den Bezug außerhalb der Bilanz voll abziehen."
-        },
-        {
-          "titel": "Aufschlagen",
-          "text": "5 % des Bezugs wieder hinzurechnen, § 8b Abs. 5 S. 1 KStG."
-        }
+      "art": "text",
+      "titel": "Wann welche Seite greift",
+      "punkte": [
+        "Maßgeblich ist die Quote *zu Beginn des Kalenderjahres*, § 8b Abs. 4 S. 1 KStG.",
+        "Erwirbt die Körperschaft unterjährig mindestens 10 %, gilt der Erwerb als zu Jahresbeginn erfolgt, § 8b Abs. 4 S. 6 KStG.",
+        "Auch eine vGA ist ein Bezug im Sinne des § 8b Abs. 1 KStG – gleiche Prüfung.",
+        "Abs. 4 betrifft nur laufende Bezüge, nicht Veräußerungsgewinne."
       ],
       "icon": "kalender"
     },
     {
       "art": "rechnung",
-      "titel": "Zahlenbeispiel",
-      "formel": "Korrektur = − Bezug + 5 % × Bezug",
+      "titel": "Zahlenbeispiel Nordlicht GmbH",
+      "formel": "Wirkung = Bezug × 0 % + 5 % des Bezugs als nichtabziehbare BA",
       "zeilen": [
-        "Seewind GmbH, seit Jahren 30 % an der Tochter",
-        "Ausschüttung 600.000 €, im Jahresüberschuss enthalten",
-        "Außerbilanziell: − 600.000 €",
-        "Nichtabziehbare BA: + 30.000 €"
+        "Beteiligung 30 % seit 2024, Dividende 400.000 €",
+        "Handelsrechtlicher Gewinn enthält 400.000 €",
+        "ADB-Abzug: ./. 400.000 € (§ 8b Abs. 1 KStG)",
+        "ADB-Hinzurechnung: + 20.000 € (§ 8b Abs. 5 KStG)"
       ],
-      "ergebnis": "570.000 € bleiben im Ergebnis unbesteuert.",
+      "ergebnis": "Einkommenswirkung: 20.000 € statt 400.000 €",
       "icon": "rechner"
-    },
-    {
-      "art": "text",
-      "titel": "Drei typische Punktverluste",
-      "punkte": [
-        "Die 5 % rechnest du vom *Bezug*, nicht vom Buchwert der Anteile.",
-        "Reale Finanzierungskosten der Beteiligung bleiben abziehbar, § 8b Abs. 5 S. 2 KStG.",
-        "Die 10-%-Schwelle betrifft laufende Bezüge; Veräußerungsgewinne laufen über § 8b Abs. 2 KStG."
-      ],
-      "icon": "warnung"
     },
     {
       "art": "merke",
       "titel": "Merksatz",
-      "text": "Zuerst der Kalender, dann der Taschenrechner: Reicht die Quote am 1.1. nicht für 10 %, versteuerst du alles – sonst raus mit 100 und rein mit 5.",
+      "text": "Erst die Quote am 1. Januar, dann die Technik: raus mit dem ganzen Bezug, rein mit fünf Prozent davon.",
       "icon": "haken"
     },
     {
@@ -96,32 +70,28 @@
       "punkte": [
         "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
         "Speichern und vor der Klausur wiederholen",
-        "Welches KSt-Thema fehlt dir? Kommentiere!"
+        "Welches Thema fehlt dir? Kommentiere!"
       ],
       "icon": "zielscheibe"
     }
   ],
-  "caption": "Streubesitzdividende § 8b KStG – Dauerbrenner in Klausur 2. 📊\n\nDie Reihenfolge entscheidet: Erst einordnen, ob offene Ausschüttung oder vGA. Dann die Quote am 1. Januar messen. Reicht sie nicht für 10 %, greift § 8b Abs. 4 KStG und der Bezug schlägt voll aufs Einkommen durch. Sonst kürzt du außerbilanziell den ganzen Betrag und rechnest 5 % nach § 8b Abs. 5 KStG als nichtabziehbare Betriebsausgabe zurück.\n\nAchtung beim Zukauf im laufenden Jahr: Ein Erwerb von mindestens 10 % zählt rückwirkend auf den Jahresanfang.\n\n👉 Speichern und vor der nächsten Übungsklausur durchgehen. Wo rutscht es bei dir eher – Stichtag oder 5-%-Pauschale?",
+  "caption": "Beteiligungserträge KStG: § 8b Abs. 1 oder Streubesitzdividende nach Abs. 4? 💰\n\nDie Weiche stellst du an der Beteiligungsquote zu Beginn des Kalenderjahres. Ab 10 % bleibt der Bezug außer Ansatz, dafür gelten 5 % davon als nichtabziehbare Betriebsausgaben. Unter 10 % ist der Bezug in voller Höhe steuerpflichtig – dann gibt es auch keine 5-%-Pauschale.\n\nZwei Klassiker, die Punkte kosten: die 5 % vom Buchwert der Beteiligung statt vom Bezug rechnen und den unterjährigen Erwerb von mindestens 10 % nicht als Rückausnahme dokumentieren.\n\n👉 Speichern und in der nächsten Übungsklausur bewusst als zwei getrennte ADB-Schritte aufschreiben.\n\nWie sauber trennst du Abs. 1 und Abs. 4 – oder rutscht die Streubesitzprüfung bei dir manchmal in die Veräußerungsgewinne?",
   "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#stbexamen",
     "#körperschaftsteuer",
-    "#paragraf8bkstg",
-    "#streubesitz",
-    "#dividende",
+    "#paragraf8b",
+    "#streubesitzdividende",
+    "#beteiligungserträge",
     "#ertragsteuern",
     "#examensvorbereitung",
     "#steuerrecht",
     "#steuerberater",
     "#klausurtipps"
   ],
-  "kurztitel": "§ 8b KStG: Schachtel oder Streubesitz",
-  "quellen": [
-    "§ 8b Abs. 1 KStG",
-    "§ 8b Abs. 4 KStG",
-    "§ 8b Abs. 5 KStG"
-  ],
+  "kurztitel": "§ 8b: Dividende oder Streubesitz?",
+  "quellen": [],
   "hookTyp": "frage",
   "faktenHinweise": [],
   "slug": "2026-09-05-f14"
