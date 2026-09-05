@@ -13,7 +13,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { CONFIG } from "./config.mjs";
 import { FAECHER, KLAUSUREN } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
-import { pruefeBeitrag, korpus } from "./pruefung.mjs";
+import { folieLeer, pruefeBeitrag, korpus } from "./pruefung.mjs";
 import { datumLesbar, tageBis } from "./zeit.mjs";
 import { erfassen } from "./kosten.mjs";
 import { pruefeFakten } from "./faktencheck.mjs";
@@ -54,8 +54,8 @@ export const FORMATE = {
   },
   minifall: {
     label: "Mini-Fall",
-    anleitung: "Folie 1: ein knapper, frei erfundener Sachverhalt in 2–3 Sätzen als Frage (eigene Namen, eigene Zahlen – nichts aus Lehrmaterial). Folie 2: die Lösung in Schritten. Folie 3: Ergebnis und Buchung/Gewinnauswirkung bzw. Rechtsfolge als Punkte. Vorletzte Folie: Merksatz. Letzte Folie: CTA.",
-    folien: ["titel", "schritte", "text", "merke", "cta"],
+    anleitung: "Folie 1: die Frage, die der Fall aufwirft (Aufhänger, gern mit der Kernzahl). Folie 2 (art text, Titel „Sachverhalt“): der frei erfundene Fall in 2–4 Sätzen – eigene Namen, eigene Zahlen, alles, was die Lösung später braucht, steht hier. Folie 3: die Lösung in Schritten. Folie 4: Ergebnis und Buchung/Gewinnauswirkung bzw. Rechtsfolge als Punkte oder Rechnung. Vorletzte Folie: Merksatz. Letzte Folie: CTA.",
+    folien: ["titel", "text", "schritte", "text|rechnung", "merke", "cta"],
   },
   vergleich: {
     label: "Gegenüberstellung",
@@ -102,6 +102,11 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Du bekommst ein Themen-Skelett aus einer Lernplattform. Formuliere ALLES neu, in eigenen Worten und eigener Struktur. Übernimm keine Sätze, keine Aufzählungsreihenfolgen, keine Beispielzahlen.
 - Fälle, Beispiele, Namen und Zahlen erfindest du selbst (z. B. „Malerbetrieb Roth“, „die Nordlicht GmbH“). Verwende nie Namen aus der Sperrliste.
 - Keine Bezüge auf Kurse, Skripte, Seiten, Folien, Fallnummern, Dozenten oder Lernplattformen.
+
+## Innere Logik (sehr wichtig)
+- Der Beitrag muss aus sich heraus verständlich sein: Jede Zahl, jeder Name, jeder Fall, auf den Titel, Rechnung oder Lösung Bezug nehmen, wird vorher auf einer eigenen Folie eingeführt (z. B. Folie „Sachverhalt“). Nie auf etwas verweisen, das nicht auf den Folien steht.
+- Jede Folie außer der CTA hat einen Titel UND Inhalt (Text, Punkte, Schritte, Rechnung). Nie eine leere Folie, nie nur eine Überschrift.
+- Genau eine CTA-Folie, und zwar als letzte. Folie 1 ist die einzige Titelfolie.
 
 ## Form
 - Folienarten: titel (Frage/Aufhänger), text (Titel + Text oder Punkte), schritte (nummeriert, je Schritt titel + text), vergleich (links/rechts mit titel + punkte), rechnung (formel, zeilen, ergebnis), karte (dichter Spickzettel: schritte mit kurzem titel + norm im text), merke (ein Satz, der hängen bleibt), cta (Abschluss mit Folgen-Aufforderung).
@@ -290,6 +295,18 @@ function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
     for (const [k, v] of Object.entries(f)) if (v != null && !(Array.isArray(v) && v.length === 0)) o[k] = v;
     return o;
   });
+  /* Sicherheitsnetz gegen leere Kacheln: Inhaltslose Folien fallen weg, mehrere
+     CTA-Folien werden auf die letzte reduziert. Ein Sachverhalt, der auf der
+     Titelfolie steckt (dort wird kein Fließtext gezeigt), bekommt eine eigene Folie. */
+  if (folien[0]?.text && String(folien[0].text).trim().length >= 40) {
+    folien.splice(1, 0, { art: "text", titel: /fall|sachverhalt/i.test(`${format} ${folien[0].untertitel || ""}`) ? "Sachverhalt" : "Worum es geht", text: folien[0].text, icon: folien[0].icon });
+    delete folien[0].text;
+  }
+  for (let i = folien.length - 1; i >= 1; i--) {
+    const f = folien[i];
+    if (f.art === "titel") f.art = "text";
+    if (f.art === "cta" ? folien.slice(i + 1).some((x) => x.art === "cta") : folieLeer(f)) folien.splice(i, 1);
+  }
   if (folien[0]) {
     folien[0].art = "titel";
     folien[0].pille = "Swipen →";

@@ -254,3 +254,25 @@ test("Schwarz/Weiß-Wechsel: Ledger ohne Trockenlauf-Einträge, Helligkeit aus B
   }
   fs.rmSync(dir, { recursive: true, force: true });
 });
+
+test("Aufbau: leere Folien, doppelte CTA und Sachverhalt auf der Titelfolie werden erkannt bzw. repariert", async () => {
+  const { pruefeAufbau, folieLeer } = await import("../src/pruefung.mjs");
+  const folien = [
+    { art: "titel", titel: "Wann startet die AfA?" },
+    { art: "schritte", titel: "Schritte", schritte: [{ titel: "Abnutzbar?", text: "§ 7 EStG" }, { titel: "Stichtag", text: "Betriebsbereitschaft" }] },
+    { art: "text", titel: "Wann welche Seite greift" },
+    { art: "cta", titel: "Folgen" },
+    { art: "text", titel: "" },
+    { art: "cta", titel: "Folgen" },
+  ];
+  const fehler = pruefeAufbau(folien);
+  assert.ok(fehler.some((f) => f.startsWith("Folie 3") && /kein Inhalt/.test(f)), fehler.join("\n"));
+  assert.ok(fehler.some((f) => f.startsWith("Folie 5") && /kein Titel/.test(f)));
+  assert.ok(fehler.some((f) => /Nur eine CTA/.test(f)));
+  assert.equal(folieLeer({ art: "text", titel: "x", punkte: ["Erster Punkt mit Inhalt", "Zweiter Punkt"] }), false);
+  assert.equal(folieLeer({ art: "vergleich", titel: "x", links: { titel: "A", punkte: ["a"] }, rechts: { titel: "B", punkte: [] } }), true);
+  assert.deepEqual(pruefeAufbau([{ art: "titel", titel: "Frage?" }, { art: "merke", titel: "Merksatz", text: "Ein Satz, der wirklich hängen bleibt." }, { art: "cta" }]), []);
+  /* Beispielbeiträge bleiben sauber. */
+  const beispiele = JSON.parse(fs.readFileSync(new URL("../beispiele/inhalte.json", import.meta.url), "utf8"));
+  for (const b of beispiele.beitraege) assert.deepEqual(pruefeAufbau(b.folien), [], b.folien[0].titel);
+});

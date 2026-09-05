@@ -19,6 +19,38 @@ const hier = path.dirname(fileURLToPath(import.meta.url));
 const DATEN = path.resolve(hier, "../../src/data");
 
 export const SHINGLE_LAENGE = 8;   // Wörter
+/* Aufbau: keine leere Folie, jede Folie mit Titel und Inhalt, genau eine
+   CTA-Folie am Ende. Leere Kacheln sind der sichtbarste Fehler im Feed. */
+export function folieLeer(f) {
+  const text = (f.text || "").trim().length;
+  const punkte = (f.punkte || []).filter((p) => String(p).trim()).length;
+  const schritte = (f.schritte || []).filter((x) => (typeof x === "string" ? x.trim() : x?.titel?.trim())).length;
+  switch (f.art) {
+    case "titel": return !(f.titel || "").trim();
+    case "cta": return false;
+    case "text": return text < 30 && punkte < 2;
+    case "schritte": return schritte < 2;
+    case "vergleich": return !(f.links?.punkte?.length >= 1 && f.rechts?.punkte?.length >= 1);
+    case "rechnung": return !(f.formel || "").trim() && (f.zeilen || []).length < 2;
+    case "karte": return schritte < 3 && punkte < 3;
+    case "merke": return text < 20;
+    default: return text < 30 && punkte < 2 && schritte < 2;
+  }
+}
+
+export function pruefeAufbau(folien) {
+  const fehler = [];
+  folien.forEach((f, i) => {
+    if (f.art !== "cta" && !(f.titel || "").trim()) fehler.push(`Folie ${i + 1} (${f.art}): kein Titel`);
+    if (folieLeer(f)) fehler.push(`Folie ${i + 1} (${f.art}): kein Inhalt – jede Folie braucht Text, Punkte oder Schritte`);
+    if (f.art === "titel" && i > 0) fehler.push(`Folie ${i + 1}: nur Folie 1 darf die Art „titel“ haben`);
+  });
+  const ctas = folien.map((f, i) => (f.art === "cta" ? i : -1)).filter((i) => i >= 0);
+  if (ctas.length > 1) fehler.push(`Nur eine CTA-Folie erlaubt (gefunden: ${ctas.length})`);
+  if (ctas.length && ctas.at(-1) !== folien.length - 1) fehler.push("Die CTA-Folie muss die letzte sein");
+  return fehler;
+}
+
 export const GRENZEN = {
   titelZeichen: 110,
   folienTextZeichen: 520,
@@ -163,6 +195,7 @@ export function pruefeBeitrag(beitrag, opt = {}) {
       if (textLaenge > GRENZEN.folienTextZeichen) fehler.push(`Folie ${i + 1}: Text zu lang (${textLaenge} > ${GRENZEN.folienTextZeichen} Zeichen)`);
     });
     if (!beitrag.folien[0]?.titel) fehler.push("Folie 1 braucht einen Titel (die Frage/den Aufhänger)");
+    fehler.push(...pruefeAufbau(beitrag.folien));
   }
   if (beitrag.caption != null) {
     if (beitrag.caption.length > GRENZEN.captionZeichen) fehler.push(`Caption zu lang (${beitrag.caption.length})`);

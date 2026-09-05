@@ -39,6 +39,7 @@ const SYSTEM = `Du bist Prüfer:in für Fachtexte zum deutschen Steuerrecht (Ste
 - Zahlen: Fristen, Prozentsätze, Freibeträge, Grenzen, Zinssätze
 - Rechtsfolgen, Prüfungsreihenfolgen, Zuständigkeiten
 - Rechtsstand: veraltete Regelungen (z. B. Abzinsung von Verbindlichkeiten, alte Freibeträge) sind Fehler
+- Innere Logik: Der Text muss aus sich heraus verständlich sein. Wird auf einen Fall, einen Namen oder eine Zahl Bezug genommen, die nirgends im Text eingeführt wird (z. B. „Mini-Fall Nordlicht GmbH“ ohne Sachverhalt, eine Rechnung mit Zahlen, die vorher nicht genannt sind), ist das ein „fehler“ – mit dem Hinweis, welche Angaben ergänzt werden müssen.
 
 Melde als „fehler“ nur, was eindeutig falsch ist und in der Prüfung Punkte kosten würde. Als „unsicher“ alles, was du nicht sicher beurteilen kannst. Als „hinweis“ Unschärfen, die vertretbar sind. Keine Stil- oder Formatkritik. Wenn alles korrekt ist, gib eine leere Liste zurück.`;
 
