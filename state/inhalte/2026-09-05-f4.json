@@ -1,0 +1,84 @@
+{
+  "format": "rechenweg",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-27",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Fremdwährungsverbindlichkeit am Stichtag: Wie rechnest du richtig um?",
+      "icon": "globus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Der Rechenweg",
+      "formel": "Bilanzwert = Fremdwährungsbetrag ÷ Devisenkassamittelkurs am Stichtag",
+      "zeilen": [
+        "Nordlicht GmbH: Warenschuld 250.000 USD, Restlaufzeit 3 Jahre",
+        "Zugang: Kurs 1,25 USD/EUR = 200.000 €",
+        "31.12.: Kurs 1,00 USD/EUR = 250.000 €",
+        "Differenz: 50.000 € Kursaufwand",
+        "Keine Abzinsung – auch nicht bei Unverzinslichkeit"
+      ],
+      "ergebnis": "Ansatz 250.000 € in HB und StB, 50.000 € Aufwand.",
+      "icon": "rechner"
+    },
+    {
+      "art": "text",
+      "titel": "Die Logik dahinter",
+      "punkte": [
+        "Verbindlichkeiten stehen handelsrechtlich mit dem *Erfüllungsbetrag* in der Bilanz (§ 253 Abs. 1 S. 2 HGB).",
+        "Steuerlich gilt der Nennwert über § 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 EStG – die 5,5-%-Abzinsung ist für nach dem 31.12.2022 endende Wirtschaftsjahre Geschichte.",
+        "Abgezinst werden nur noch *Rückstellungen* nach § 6 Abs. 1 Nr. 3a Buchst. e EStG.",
+        "Restlaufzeit bis ein Jahr: § 256a S. 2 HGB schaltet Realisations- und Imparitätsprinzip aus – der unrealisierte Kursgewinn wirkt handelsrechtlich, steuerlich nicht."
+      ],
+      "icon": "waage"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Schulden zum Nennwert, Kurse zum Stichtag – der Zinsfuß von 5,5 % gehört heute allein den Rückstellungen.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Rechenwege, die sitzen müssen.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Fremdwährungsverbindlichkeit umrechnen und Abzinsung Verbindlichkeiten – zwei Punkte, die in der Bilanzklausur fast jedes Jahr auftauchen. 💱\n\nDer Bilanzwert folgt dem Devisenkassamittelkurs am Abschlussstichtag (§ 256a S. 1 HGB). Steigt der Fremdwährungskurs zu deinen Lasten, buchst du Kursaufwand. Nur bei einer Restlaufzeit bis zu einem Jahr darf handelsrechtlich auch ein unrealisierter Gewinn ausgewiesen werden – steuerlich nicht.\n\nUnd das Wichtigste: Verbindlichkeiten werden steuerlich nicht mehr abgezinst. Der Satz von 5,5 % lebt nur noch bei Rückstellungen nach § 6 Abs. 1 Nr. 3a Buchst. e EStG.\n\n👉 Speichern für die Wiederholung. Hand aufs Herz: Hast du in einer Übungsklausur schon mal eine unverzinsliche Verbindlichkeit abgezinst?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#bilanzsteuerrecht",
+    "#verbindlichkeiten",
+    "#fremdwährung",
+    "#abzinsung",
+    "#steuerbilanz",
+    "#examensvorbereitung",
+    "#steuerrecht",
+    "#steuerberater",
+    "#klausurtipps"
+  ],
+  "kurztitel": "Fremdwährungsschuld am Stichtag",
+  "quellen": [
+    "§ 253 Abs. 1 S. 2 HGB",
+    "§ 256a HGB",
+    "§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 EStG",
+    "§ 6 Abs. 1 Nr. 3a Buchst. e EStG",
+    "§ 252 Abs. 1 Nr. 4 HGB"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f4"
+}
