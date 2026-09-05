@@ -1,0 +1,107 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-304",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Liegt überhaupt ein Verwaltungsakt vor – oder nur ein Schreiben?",
+      "icon": "paragraf",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "Die Merkmale des § 118 S. 1 AO",
+      "schritte": [
+        {
+          "titel": "Hoheitliche Maßnahme",
+          "text": "Handeln einer Behörde in Über-Unter-Ordnung, nicht auf gleicher Augenhöhe."
+        },
+        {
+          "titel": "Auf dem Gebiet des öffentlichen Rechts",
+          "text": "Nicht: fiskalische Geschäfte wie der Kauf von Büromöbeln."
+        },
+        {
+          "titel": "Regelung",
+          "text": "Verbindliche Rechtsfolge wird gesetzt – der Kern der Prüfung."
+        },
+        {
+          "titel": "Einzelfall",
+          "text": "Konkret-individuell; Allgemeinverfügung nach § 118 S. 2 AO genügt."
+        },
+        {
+          "titel": "Außenwirkung",
+          "text": "Wirkung gegenüber dem Bürger, nicht nur behördenintern."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "vergleich",
+      "titel": "VA oder kein VA?",
+      "links": {
+        "titel": "Verwaltungsakt",
+        "punkte": [
+          "Steuerbescheid, § 155 Abs. 1 AO",
+          "Auskunftsersuchen, § 93 AO",
+          "Fristverlängerung, § 109 AO"
+        ]
+      },
+      "rechts": {
+        "titel": "Kein Verwaltungsakt",
+        "punkte": [
+          "Bloße Auskunft ohne Regelung",
+          "Prüfungshandlung als Realakt",
+          "Einspruch der Nordlicht GmbH selbst"
+        ]
+      },
+      "icon": "waage"
+    },
+    {
+      "art": "text",
+      "titel": "Warum die Nullfrage entscheidet",
+      "text": "Ohne VA läuft nichts weiter: Die Korrekturvorschriften der §§ 129, 172 ff. AO greifen nur bei einem VA. Und der Einspruch nach § 347 AO ist nur gegen einen VA statthaft. Wer bei einem schlichten Hinweisschreiben des Finanzamts direkt in die *Korrektur* springt, verliert Punkte schon in der Zulässigkeit. Erst § 118 AO durchprüfen, dann die Art des VA bestimmen.",
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Keine Regelung, kein VA. Kein VA, kein Einspruch und keine Korrektur – die Prüfung endet, bevor sie beginnt.",
+      "icon": "haken"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor Klausur 1 wiederholen",
+        "Welches AO-Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Verwaltungsakt § 118 AO Voraussetzungen – die Nullfrage jeder AO-Klausur. ⚖️\n\nBevor du über Korrektur oder Einspruch nachdenkst, musst du sagen können: Ist das überhaupt ein Verwaltungsakt? Fünf Merkmale: hoheitliche Maßnahme, öffentliches Recht, Regelung, Einzelfall, Außenwirkung.\n\nDer häufigste Fehler: Jedes Schreiben des Finanzamts wird zum VA erklärt. Eine bloße Mitteilung oder ein Realakt der Betriebsprüfung regelt nichts – und ist damit kein VA. Umgekehrt ist das Einspruchsschreiben deiner Mandantin natürlich kein VA des Finanzamts.\n\n👉 Speichern und vor Tag 1 nochmal durchgehen. Welches Merkmal des § 118 AO vergisst du in der Klausur am ehesten?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#abgabenordnung",
+    "#verwaltungsakt",
+    "#verfahrensrecht",
+    "#paragraf118ao",
+    "#einspruch",
+    "#examensvorbereitung",
+    "#steuerrecht",
+    "#steuerberater",
+    "#klausurtipps"
+  ],
+  "kurztitel": "Liegt ein Verwaltungsakt vor?",
+  "quellen": [],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f9"
+}
