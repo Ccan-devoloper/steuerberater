@@ -7,7 +7,7 @@
   "folien": [
     {
       "art": "titel",
-      "titel": "Dividende steuerfrei oder voll steuerpflichtig – wo liegt die 10-%-Grenze?",
+      "titel": "Schachtel oder Streubesitz: Wann bleibt eine Dividende bei der GmbH steuerfrei?",
       "icon": "muenzen",
       "pille": "Swipen →",
       "prioritaet": "hoch",
@@ -15,62 +15,79 @@
     },
     {
       "art": "vergleich",
-      "titel": "§ 8b Abs. 1 gegen § 8b Abs. 4 KStG",
+      "titel": "§ 8b Abs. 1 vs. § 8b Abs. 4 KStG",
       "links": {
-        "titel": "Ab 10 % Beteiligung",
+        "titel": "Mindestens 10 % am 1.1.",
         "punkte": [
-          "Bezüge bleiben außer Ansatz, Abs. 1 S. 1",
-          "5 % gelten als nichtabziehbare BA, Abs. 5 S. 1",
-          "Im Ergebnis *95 %* steuerfrei"
+          "Der Bezug bleibt außer Ansatz, § 8b Abs. 1 S. 1 KStG",
+          "5 % zählen als nichtabziehbare BA, § 8b Abs. 5 KStG",
+          "Unterm Strich sind *95 %* draußen"
         ]
       },
       "rechts": {
-        "titel": "Streubesitz unter 10 %",
+        "titel": "Weniger als 10 % am 1.1.",
         "punkte": [
-          "Bezüge sind *voll* steuerpflichtig, Abs. 4 S. 1",
-          "Keine 5-%-Pauschale, Abs. 5 läuft leer",
-          "Betriebsausgaben bleiben voll abziehbar"
+          "Streubesitz: die Freistellung fällt weg",
+          "Der Bezug wirkt sich *voll* auf das Einkommen aus",
+          "Keine 5-%-Pauschale, weil nichts freigestellt ist"
         ]
       },
       "icon": "waage"
     },
     {
-      "art": "text",
-      "titel": "Der Stichtag entscheidet",
-      "punkte": [
-        "Maßgeblich ist die Quote zu *Beginn des Kalenderjahres*, nicht am Ausschüttungstag (§ 8b Abs. 4 S. 1 KStG).",
-        "Wird unterjährig eine Beteiligung von mindestens 10 % erworben, gilt der Erwerb als zu Jahresbeginn erfolgt (§ 8b Abs. 4 S. 6 KStG).",
-        "Auch eine *vGA* ist Beteiligungsertrag – dieselbe Prüfung, aber Abs. 1 S. 2 im Blick behalten."
+      "art": "schritte",
+      "titel": "Ablauf in der Klausur",
+      "schritte": [
+        {
+          "titel": "Ertragsart klären",
+          "text": "Offene Ausschüttung und vGA sind gleichermaßen Bezug nach § 8b Abs. 1 S. 1 KStG."
+        },
+        {
+          "titel": "Quote am 1. Januar",
+          "text": "Maßgeblich ist der Stand zum Jahresanfang, § 8b Abs. 4 S. 1 KStG."
+        },
+        {
+          "titel": "Zukauf im Jahr",
+          "text": "Ein Erwerb von mindestens 10 % wirkt auf den Jahresbeginn zurück, § 8b Abs. 4 S. 6 KStG."
+        },
+        {
+          "titel": "Kürzen",
+          "text": "Bei Freistellung den Bezug außerhalb der Bilanz voll abziehen."
+        },
+        {
+          "titel": "Aufschlagen",
+          "text": "5 % des Bezugs wieder hinzurechnen, § 8b Abs. 5 S. 1 KStG."
+        }
       ],
       "icon": "kalender"
     },
     {
       "art": "rechnung",
-      "titel": "Zwei getrennte ADB-Schritte",
-      "formel": "Effekt = Ertrag − 100 % + 5 % vom Ertrag",
+      "titel": "Zahlenbeispiel",
+      "formel": "Korrektur = − Bezug + 5 % × Bezug",
       "zeilen": [
-        "Nordlicht GmbH hält 25 % an der Talblick GmbH",
-        "Dividende im Jahr 2026: 200.000 €",
-        "ADB-Abzug nach Abs. 1: − 200.000 €",
-        "ADB-Hinzurechnung nach Abs. 5: + 10.000 €"
+        "Seewind GmbH, seit Jahren 30 % an der Tochter",
+        "Ausschüttung 600.000 €, im Jahresüberschuss enthalten",
+        "Außerbilanziell: − 600.000 €",
+        "Nichtabziehbare BA: + 30.000 €"
       ],
-      "ergebnis": "190.000 € bleiben unversteuert, 10.000 € wirken sich aus.",
+      "ergebnis": "570.000 € bleiben im Ergebnis unbesteuert.",
       "icon": "rechner"
     },
     {
       "art": "text",
-      "titel": "Zwei Fehler, die Punkte kosten",
+      "titel": "Drei typische Punktverluste",
       "punkte": [
-        "Die 5 % werden vom *steuerfreien Ertrag* berechnet, nie vom Buchwert der Beteiligung.",
-        "Die Streubesitzschranke des Abs. 4 gilt nur für laufende Bezüge, nicht für Veräußerungsgewinne.",
-        "Gewerbesteuerlich gilt eine eigene Grenze: § 9 Nr. 2a GewStG verlangt mindestens 15 % zu Beginn des Erhebungszeitraums."
+        "Die 5 % rechnest du vom *Bezug*, nicht vom Buchwert der Anteile.",
+        "Reale Finanzierungskosten der Beteiligung bleiben abziehbar, § 8b Abs. 5 S. 2 KStG.",
+        "Die 10-%-Schwelle betrifft laufende Bezüge; Veräußerungsgewinne laufen über § 8b Abs. 2 KStG."
       ],
       "icon": "warnung"
     },
     {
       "art": "merke",
       "titel": "Merksatz",
-      "text": "Zuerst der Blick auf den 1. Januar: unter 10 % zahlst du voll, ab 10 % ziehst du alles ab und holst dir 5 % wieder zurück.",
+      "text": "Zuerst der Kalender, dann der Taschenrechner: Reicht die Quote am 1.1. nicht für 10 %, versteuerst du alles – sonst raus mit 100 und rein mit 5.",
       "icon": "haken"
     },
     {
@@ -79,12 +96,12 @@
       "punkte": [
         "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
         "Speichern und vor der Klausur wiederholen",
-        "Welches Thema fehlt dir? Kommentiere!"
+        "Welches KSt-Thema fehlt dir? Kommentiere!"
       ],
       "icon": "zielscheibe"
     }
   ],
-  "caption": "Streubesitzdividende und § 8b KStG – der Klassiker in der Ertragsteuerklausur. 📊\n\nDie Weiche stellst du am 1. Januar: Liegt die Quote unter 10 %, ist die Dividende nach § 8b Abs. 4 S. 1 KStG voll steuerpflichtig. Ab 10 % bleibt der Bezug nach § 8b Abs. 1 S. 1 KStG außer Ansatz – und 5 % davon rechnest du nach § 8b Abs. 5 S. 1 KStG wieder hinzu.\n\nWichtig: Der unterjährige Erwerb von mindestens 10 % wirkt nach § 8b Abs. 4 S. 6 KStG auf den Jahresbeginn zurück. Und die 5 % bemessen sich immer am Ertrag, nicht am Buchwert.\n\n👉 Speichern und vor der Klausur zwei Minuten wiederholen. Wo hakt es bei dir eher – am Stichtag oder an der 5-%-Pauschale?",
+  "caption": "Streubesitzdividende § 8b KStG – Dauerbrenner in Klausur 2. 📊\n\nDie Reihenfolge entscheidet: Erst einordnen, ob offene Ausschüttung oder vGA. Dann die Quote am 1. Januar messen. Reicht sie nicht für 10 %, greift § 8b Abs. 4 KStG und der Bezug schlägt voll aufs Einkommen durch. Sonst kürzt du außerbilanziell den ganzen Betrag und rechnest 5 % nach § 8b Abs. 5 KStG als nichtabziehbare Betriebsausgabe zurück.\n\nAchtung beim Zukauf im laufenden Jahr: Ein Erwerb von mindestens 10 % zählt rückwirkend auf den Jahresanfang.\n\n👉 Speichern und vor der nächsten Übungsklausur durchgehen. Wo rutscht es bei dir eher – Stichtag oder 5-%-Pauschale?",
   "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -99,12 +116,11 @@
     "#steuerberater",
     "#klausurtipps"
   ],
-  "kurztitel": "§ 8b KStG: Streubesitz oder Freistellung",
+  "kurztitel": "§ 8b KStG: Schachtel oder Streubesitz",
   "quellen": [
-    "§ 8b Abs. 1 S. 1 KStG",
-    "§ 8b Abs. 4 S. 1 und S. 6 KStG",
-    "§ 8b Abs. 5 S. 1 KStG",
-    "§ 9 Nr. 2a GewStG"
+    "§ 8b Abs. 1 KStG",
+    "§ 8b Abs. 4 KStG",
+    "§ 8b Abs. 5 KStG"
   ],
   "hookTyp": "frage",
   "faktenHinweise": [],
