@@ -1,0 +1,110 @@
+{
+  "format": "spickzettel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr1-09",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Beschränkte Steuerpflicht: Das ganze § 49-Schema auf einer Karte?",
+      "icon": "globus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "karte",
+      "titel": "§ 49 EStG in 6 Schritten",
+      "schritte": [
+        {
+          "titel": "Einkunftsart materiell klären",
+          "text": "§§ 13–23 EStG, isolierende Betrachtung § 49 Abs. 2 EStG"
+        },
+        {
+          "titel": "Passende Nummer suchen",
+          "text": "§ 49 Abs. 1 Nr. 1–10 EStG, abschließender Katalog"
+        },
+        {
+          "titel": "Inlandsmerkmal wortlautnah belegen",
+          "text": "Betriebsstätte § 12 AO, ständiger Vertreter § 13 AO"
+        },
+        {
+          "titel": "Anknüpfung einordnen",
+          "text": "Tätigkeit, Verwertung, Schuldnersitz, Belegenheit, Register (Nr. 10)"
+        },
+        {
+          "titel": "Auslandsmerkmale nicht ausdehnen",
+          "text": "R 49.3 EStR: kein erweiterter Tatbestand"
+        },
+        {
+          "titel": "Erhebung klären",
+          "text": "Veranlagung § 50 EStG, Abzug nur bei § 50a Abs. 1 EStG"
+        }
+      ],
+      "icon": "dokument"
+    },
+    {
+      "art": "text",
+      "titel": "Hier gehen die Punkte verloren",
+      "punkte": [
+        "*Nummer fehlt*: „inländische Einkünfte“ allein bringt keinen Punkt. Immer Nummer und Buchstabe des § 49 Abs. 1 EStG zitieren.",
+        "*Inlandsmerkmal behauptet statt belegt*: Betriebsstätte (§ 12 AO) oder ständiger Vertreter (§ 13 AO) am Sachverhalt nachweisen.",
+        "Zusatzfalle: Ein im Ausland verwirklichtes Merkmal erweitert den Katalog nicht – R 49.3 EStR."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "text",
+      "titel": "Mini-Fall zum Mitdenken",
+      "text": "Die Vaartweg B.V. aus Rotterdam vermietet eine Lagerhalle in Duisburg: § 49 Abs. 1 Nr. 6 EStG über die *Belegenheit*, Erhebung durch Veranlagung (§ 50 EStG). Tritt dagegen eine niederländische Band in Köln auf, greift § 49 Abs. 1 Nr. 2 Buchst. d bzw. Nr. 3 EStG – und wegen der *künstlerischen Darbietung* der Steuerabzug nach § 50a Abs. 1 Nr. 1 EStG.",
+      "icon": "gebaeude"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Erst die Nummer, dann der Inlandsanker, zuletzt die Kasse: ohne Katalogtreffer kein deutscher Zugriff.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Die Karte für deine Wiederholung.",
+      "punkte": [
+        "Kommentiere SCHEMA – dann schicke ich dir die Karte als Nachricht.",
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und in der heißen Phase wiederholen"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "§ 49 EStG beschränkte Steuerpflicht Prüfungsschema – der Dauerbrenner in Klausur 2, den du jetzt sichern solltest. 🌍\n\n§ 49 Abs. 1 EStG ist ein abschließender Tatbestandskatalog. Zuerst bestimmst du die Einkunftsart, dann suchst du die passende Nummer, danach weist du das konkrete Inlandsmerkmal nach: Betriebsstätte (§ 12 AO), ständiger Vertreter (§ 13 AO), Tätigkeit, Verwertung, Schuldnersitz, Belegenheit oder die Registereintragung nach Nr. 10.\n\nErst wenn der Katalogtreffer steht, klärst du die Erhebung. Regelfall ist die Veranlagung nach § 50 EStG; der Steuerabzug nach § 50a EStG greift nur in den dort genannten Fällen – etwa bei künstlerischen, sportlichen oder artistischen Darbietungen (§ 50a Abs. 1 Nr. 1 EStG).\n\nUnd: Ein im Ausland verwirklichtes Besteuerungsmerkmal erweitert den Tatbestand nicht (R 49.3 EStR).\n\nWo hakt es bei dir mehr – die richtige Nummer oder der Nachweis des Inlandsmerkmals?\n\nKommentiere SCHEMA – dann schicke ich dir die Karte als Nachricht.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht",
+    "#beschränktesteuerpflicht",
+    "#paragraf49estg",
+    "#ertragsteuern",
+    "#klausurtipps",
+    "#betriebsstätte"
+  ],
+  "kurztitel": "§ 49 EStG auf einer Karte",
+  "quellen": [
+    "§ 49 Abs. 1 Nr. 1–10 EStG",
+    "§ 49 Abs. 2 EStG",
+    "R 49.3 EStR",
+    "§§ 12, 13 AO",
+    "§ 50 EStG",
+    "§ 50a Abs. 1 EStG"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [
+    "Mehrfach zitiert: „R 49.3 EStR: kein erweiterter Tatbestand“: Die Aussage, dass ein im Ausland verwirklichtes Merkmal den Katalog nicht erweitert, wird korrekt inhaltlich wiedergegeben, jedoch ist die genaue Fundstelle in den EStR (R 49.1 bis R 49.3) nicht zweifelsfrei zu verifizieren. Möglicherweise ist die einschlägige Randziffer eine andere (z.B. R 49.1 oder R 49.2 EStR).",
+    "Mini-Fall: „§ 49 Abs. 1 Nr. 2 Buchst. d bzw. Nr. 3 EStG“: Die alternative Zuordnung zu Nr. 2 Buchst. d (Gewerbebetrieb) oder Nr. 3 (selbständige Arbeit) für eine auftretende Band ist inhaltlich vertretbar, hängt aber von der konkreten Qualifikation der Einkünfte (gewerblich vs. selbständig) ab, die im Sachverhalt nicht eindeutig geklärt wird. Dies könnte in einer Klausur als zu unpräzise gewertet werden."
+  ],
+  "slug": "2026-09-05-f15"
+}
