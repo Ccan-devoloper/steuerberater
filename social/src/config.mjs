@@ -96,7 +96,7 @@ export const CONFIG = {
     modell: env("IG_KI_MODELL", "claude-sonnet-5"),
     modellNeben: env("IG_KI_MODELL_NEBEN", env("IG_KI_MODELL", "claude-sonnet-5")),
     modellPruefung: env("IG_KI_MODELL_PRUEFUNG", "claude-haiku-4-5-20251001"),
-    effort: env("IG_KI_EFFORT", "medium"),
+    effort: env("IG_KI_EFFORT", "low"),   // „low“: etwa halbe Kosten je Entwurf, Faktencheck fängt Fehler ab
     maxVersuche: Number(env("IG_KI_VERSUCHE", "2")),
     tagesBudgetUsd: Number(env("IG_TAGESBUDGET_USD", "0.27")),
   },

@@ -75,7 +75,7 @@ Vor jedem Claude-Aufruf prüft er den Tagesverbrauch (`state/kosten.json`, Absch
 Deckel erreicht, warten alle weiteren Texte bis zum nächsten Tag – bereits geschriebene Inhalte werden
 trotzdem veröffentlicht. Damit das reicht, läuft alles im Sparbetrieb: Beiträge, Reels, Stories,
 Recherche und Kommentare mit `claude-sonnet-5` (2 $ / 10 $ je Million Tokens rein/raus), der
-Faktencheck mit `claude-haiku-4-5` (1 $ / 5 $), höchstens eine Nachbesserungsrunde je Text, zwei
+Faktencheck mit `claude-haiku-4-5` (1 $ / 5 $), Denkaufwand „low“ (`IG_KI_EFFORT`), höchstens eine Nachbesserungsrunde je Text, zwei
 Beiträge je Tag (an Reel-Tagen ein Carousel und ein Reel).
 
 | Aufruf | je Tag | Kosten (ca.) |
