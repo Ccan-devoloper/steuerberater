@@ -381,6 +381,19 @@
       "medienId": "18090614888395875",
       "veroeffentlicht": "2026-09-05T08:14:09.176Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f5",
+      "format": "minifall",
+      "thema": "bilanz-modul-k3-20",
+      "fach": "bilanz",
+      "titel": "400.000 € Handelsbilanzgewinn – wie viel bleibt steuerlich?",
+      "hookTyp": "zahl",
+      "medienId": "18065645324774996",
+      "veroeffentlicht": "2026-09-05T08:16:08.024Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -388,7 +401,7 @@
     "ust": 1,
     "kst": 2,
     "ao": 2,
-    "bilanz": 3,
+    "bilanz": 4,
     "istr": 1
   }
 }
