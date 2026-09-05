@@ -1,0 +1,128 @@
+{
+  "format": "schema",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-4",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "4/12 statt 5/12: Wann startet die AfA wirklich?",
+      "icon": "kalender",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "Schritt 1 bis 3",
+      "schritte": [
+        {
+          "titel": "Ist das Wirtschaftsgut abnutzbar?",
+          "text": "Anlagevermögen mit begrenzter Nutzungsdauer, § 7 Abs. 1 S. 1 EStG. Grund und Boden bleibt außen vor."
+        },
+        {
+          "titel": "Stichtag festlegen",
+          "text": "AfA startet mit *Betriebsbereitschaft* bzw. Fertigstellung – nicht mit Bestellung, Rechnung oder Überweisung."
+        },
+        {
+          "titel": "Bemessungsgrundlage bilden",
+          "text": "AK/HK nach § 255 HGB, ggf. Einlagewert oder Restwert nach nachträglichen AK/HK."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "schritte",
+      "titel": "Schritt 4 und 5",
+      "schritte": [
+        {
+          "titel": "Methode und Nutzungsdauer",
+          "text": "Bewegliche WG: linear § 7 Abs. 1 S. 1, 2 EStG, ND regelmäßig nach amtlichen Tabellen. Gebäude: feste Sätze nach § 7 Abs. 4, 5a EStG."
+        },
+        {
+          "titel": "Zeitanteil und Restbuchwert",
+          "text": "Im Zugangsjahr *pro rata temporis* nach Monaten, § 7 Abs. 1 S. 4 EStG. Der Monat der Anschaffung zählt voll mit."
+        }
+      ],
+      "icon": "rechner"
+    },
+    {
+      "art": "text",
+      "titel": "Darauf schaut der Korrektor",
+      "punkte": [
+        "Datum der Betriebsbereitschaft ausdrücklich benennen und begründen.",
+        "Monatsanteil sauber ausrechnen (z. B. Zugang im September: 4/12).",
+        "Sonderabschreibung nach § 7g Abs. 5 EStG *getrennt* von der linearen AfA ausweisen – handelsrechtlich gibt es sie nicht.",
+        "Bei Gebäuden nicht die Nutzungsdauer schätzen, sondern den gesetzlichen Satz nehmen.",
+        "Restbuchwert und Gewinnauswirkung am Ende in Euro nennen."
+      ],
+      "icon": "haken"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Kurzbeispiel",
+      "formel": "Jahres-AfA × Monate ab Betriebsbereitschaft ÷ 12",
+      "zeilen": [
+        "Nordlicht GmbH: Maschine, AK 96.000 €, ND 8 Jahre",
+        "Geliefert 20.08., betriebsbereit montiert am 03.09.",
+        "Jahres-AfA: 96.000 ÷ 8 = 12.000 €",
+        "Zeitanteil: 12.000 × 4/12 = 4.000 €"
+      ],
+      "ergebnis": "Restbuchwert 31.12.: 92.000 €",
+      "icon": "fabrik"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Nicht der Kaufvertrag startet die AfA, sondern der Moment, in dem das Wirtschaftsgut arbeiten kann – und der angebrochene Monat zählt ganz.",
+      "icon": "blitz"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    },
+    {
+      "art": "text"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für alle drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ]
+    }
+  ],
+  "caption": "AfA Beginn Bemessungsgrundlage Prüfschema – der Dauerbrenner der Bilanzklausur. 📐\n\nDie AfA läuft ab Betriebsbereitschaft bzw. Fertigstellung, nicht ab Bestellung oder Zahlung. Danach: Bemessungsgrundlage aus AK/HK, Methode und Nutzungsdauer (bewegliche WG linear, Gebäude mit den festen Sätzen des § 7 Abs. 4, 5a EStG), zum Schluss der Monatsanteil nach § 7 Abs. 1 S. 4 EStG.\n\nDer angebrochene Anschaffungsmonat zählt voll mit – hier gehen jedes Jahr Punkte verloren.\n\nSonder-AfA immer getrennt darstellen, handelsrechtlich existiert sie nicht.\n\n👉 Speichern und vor der nächsten Übungsklausur durchgehen. Wo hakt es bei dir eher: AfA-Beginn oder Gebäude-AfA?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht",
+    "#afa",
+    "#abschreibung",
+    "#gebaeudeafa",
+    "#handelsbilanz",
+    "#klausurtipps"
+  ],
+  "kurztitel": "AfA in fünf Schritten prüfen",
+  "quellen": [
+    "§ 7 Abs. 1, 2, 4, 5a EStG",
+    "§ 253 Abs. 3 HGB",
+    "§ 7g Abs. 5 EStG"
+  ],
+  "hookTyp": "zahl",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f3"
+}
