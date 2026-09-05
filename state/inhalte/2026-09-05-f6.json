@@ -1,0 +1,95 @@
+{
+  "format": "vergleich",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-33",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Was bringt mehr Punkte: perfekte Teillösung oder vollständige Kurzlösung?",
+      "icon": "uhr",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Zwei Bearbeitungsstile",
+      "links": {
+        "titel": "Punktesammler",
+        "punkte": [
+          "Alle Textziffern werden angefasst.",
+          "Ergebnissatz auch ohne letzte Rechenzeile.",
+          "Buchungssatz und Gewinnauswirkung immer."
+        ]
+      },
+      "rechts": {
+        "titel": "Perfektionist",
+        "punkte": [
+          "Sachverhalt 1 wird ausgefeilt.",
+          "Rechnen vor der rechtlichen Würdigung.",
+          "Letzte Aufgabe bleibt *unbearbeitet*."
+        ]
+      }
+    },
+    {
+      "art": "rechnung",
+      "titel": "Dein Takt",
+      "formel": "Minuten = Punkte × 3,6",
+      "zeilen": [
+        "360 Minuten stehen 100 Punkten gegenüber",
+        "Teil A mit 30 Punkten: 108 Minuten",
+        "Teil B mit 15 Punkten: 54 Minuten",
+        "20 Minuten vorab für Endkontrolle abziehen"
+      ],
+      "ergebnis": "Endzeit je Teil an den Rand des Aufgabentexts schreiben.",
+      "icon": "rechner"
+    },
+    {
+      "art": "text",
+      "titel": "Wann welche Seite greift",
+      "icon": "zielscheibe"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Reißt du die Uhrzeit am Rand, brichst du ab, schreibst den Ergebnissatz und gehst zur nächsten Textziffer.",
+      "icon": "blitz"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "haken"
+    }
+  ],
+  "caption": "Zeitmanagement Steuerberaterexamen Bilanzklausur: Punkte gehen fast nie am Anfang verloren, sondern am Ende. 🕕\n\nSechs Zeitstunden, 100 Punkte – das sind 3,6 Minuten je Punkt. Wer den ersten Sachverhalt ausfeilt, verschenkt die sicheren Punkte der letzten Textziffer. Eine vollständige, knappe Lösung zu allen Sachverhalten schlägt die perfekte Lösung zu zwei Dritteln.\n\nSchreib die Endzeit jedes Aufgabenteils an den Rand. Und lass Buchungssatz plus Gewinnauswirkung nie weg – die sind schnell geschrieben und werden sicher bepunktet.\n\n👉 Speichern für die nächste Übungsklausur. Was reißt bei dir die Zeit: die Bewertung oder das Rechnen?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht",
+    "#klausurtaktik",
+    "#zeitmanagement",
+    "#buchführungundbilanzwesen",
+    "#klausurtipps",
+    "#lernenlernen"
+  ],
+  "kurztitel": "3,6 Minuten je Punkt",
+  "quellen": [
+    "§ 37 Abs. 3 StBerG",
+    "DVStB",
+    "Prüfungshinweise der Aufgabenstellung"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f6"
+}
