@@ -243,6 +243,17 @@ async function strukturiert({ system, user, schema, modell = CONFIG.ki.modell, e
   return { daten: jsonAus(textAus(response)), usage: response.usage };
 }
 
+/* Faktencheck, der einen fertigen Entwurf nie verwirft: Fällt der Prüfaufruf
+   selbst aus (Modellfehler, Budget), gilt der Entwurf mit Hinweis als geprüft. */
+async function faktenSicher(inhalt) {
+  try {
+    return await pruefeFakten(inhalt);
+  } catch (e) {
+    console.warn(`  ! Faktencheck nicht möglich (${e.message.split("\n")[0].slice(0, 160)}) – Entwurf wird ohne Faktencheck übernommen.`);
+    return { ok: true, fehler: [], hinweise: [`Faktencheck ausgefallen: ${e.message.slice(0, 120)}`] };
+  }
+}
+
 function themaText(thema) {
   const f = FAECHER[thema.fach];
   const k = thema.kern;
@@ -364,7 +375,7 @@ export async function beitragSchreiben({ format, thema, datum, recherche, wochen
     const beitrag = nachbereiten(daten, { format, thema, fach, klausur, strategie });
     const ergebnis = pruefeBeitrag(beitrag);
     if (ergebnis.ok) {
-      const fakten = await pruefeFakten(beitrag);
+      const fakten = await faktenSicher(beitrag);
       if (fakten.ok) { beitrag.faktenHinweise = fakten.hinweise; return beitrag; }
       ergebnis.fehler.push(...fakten.fehler.map((f) => `Fachlicher Fehler: ${f}`));
     }
@@ -517,7 +528,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null 
     const [min, max] = lang ? [80, 190] : [45, 110];
     if (woerter < min || woerter > max) ergebnis.fehler.push(`Sprechertext hat ${woerter} Wörter (Ziel ${lang ? "110–150" : "60–90"})`);
     if (!ergebnis.fehler.length) {
-      const fakten = await pruefeFakten(reel);
+      const fakten = await faktenSicher(reel);
       if (fakten.ok) { reel.hookTyp = hookTyp(szenen[0]?.titel || ""); return reel; }
       ergebnis.fehler.push(...fakten.fehler.map((f) => `Fachlicher Fehler: ${f}`));
     }

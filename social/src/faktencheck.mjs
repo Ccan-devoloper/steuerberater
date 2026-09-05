@@ -58,14 +58,26 @@ export async function pruefeFakten(beitrag) {
   if (!CONFIG.faktencheck.aktiv) return { ok: true, fehler: [], hinweise: [] };
   budgetPruefen("Faktencheck");
   const modell = CONFIG.ki.modellPruefung || CONFIG.ki.modellNeben;
-  const response = await client().messages.create({
+  const haiku = /haiku/i.test(modell);
+  const user = `Prüfe diesen Text:\n\n${textAus(beitrag)}`;
+  const basis = {
     model: modell,
     max_tokens: 6000,
     system: [{ type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } }],
-    messages: [{ role: "user", content: `Prüfe diesen Text:\n\n${textAus(beitrag)}` }],
-    thinking: { type: "adaptive" },
-    output_config: { effort: "medium", format: { type: "json_schema", schema: SCHEMA } },
-  });
+    messages: [{ role: "user", content: user }],
+    /* Haiku kennt kein adaptives Denken – dort ohne. */
+    ...(haiku ? {} : { thinking: { type: "adaptive" } }),
+    output_config: { ...(haiku ? {} : { effort: "medium" }), format: { type: "json_schema", schema: SCHEMA } },
+  };
+  let response;
+  try {
+    response = await client().messages.create(basis);
+  } catch (e) {
+    if (!(e instanceof Anthropic.BadRequestError)) throw e;
+    /* Rückfall: ohne Denken und ohne Schema-Format, JSON per Anweisung. */
+    const { thinking, output_config, ...rest } = basis;
+    response = await client().messages.create({ ...rest, messages: [{ role: "user", content: `${user}\n\nAntworte ausschließlich mit einem JSON-Objekt nach diesem Schema:\n${JSON.stringify(SCHEMA)}` }] });
+  }
   erfassen(modell, response.usage, "faktencheck");
   if (response.stop_reason === "refusal") return { ok: true, fehler: [], hinweise: [] };
   const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
