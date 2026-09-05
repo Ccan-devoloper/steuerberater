@@ -277,6 +277,15 @@ async function main() {
     }
   }
 
+  /* Ein angefangenes Auffüllen (state/auffuellen.json) läuft von selbst weiter –
+     in kleinen Portionen, damit der Stundenlauf nicht blockiert. */
+  const auffuellStand = hosting.jsonLesen("auffuellen.json", null);
+  if (!trocken && !nurPlanen && auffuellStand && auffuellStand.fertig < auffuellStand.ziel) {
+    log(`Auffüllen fortsetzen: ${auffuellStand.fertig}/${auffuellStand.ziel}`);
+    try { await auffuellenLauf(auffuellStand.ziel, { hosting, ledger, ledgerPfad, pool, poolIndex, strategie, maxJeLauf: 4 }); }
+    catch (e) { fehler++; console.error(`  ✗ Auffüllen: ${e.message}`); }
+  }
+
   /* Kosten der Woche und Fehler für den Bericht festhalten. */
   const kosten = kostenAbschluss();
   if (kosten.aufrufe) {
@@ -304,7 +313,7 @@ async function main() {
 /* Auffüllen: n Beiträge am Stück veröffentlichen (Feed füllen). Fortschritt in
    state/auffuellen.json – ein Abbruch (z. B. leeres Guthaben) wird beim nächsten
    Aufruf mit derselben Zahl fortgesetzt. Keine Reels, keine Stories. */
-async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolIndex, strategie }) {
+async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolIndex, strategie, maxJeLauf = Infinity }) {
   const stand = hosting.jsonLesen("auffuellen.json", { ziel: 0, fertig: 0, seed: datum });
   if (stand.ziel !== ziel) { stand.ziel = ziel; stand.fertig = Math.min(stand.fertig, ziel); stand.seed = stand.seed || datum; }
   if (stand.fertig >= ziel) { log(`Auffüllen: ${ziel} Beiträge sind bereits veröffentlicht.`); return; }
@@ -312,7 +321,8 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
   if (!trocken) { ig.tresorLaden(); const { konto, limit } = await ig.pruefen(); log(`Auffüllen ${stand.fertig}/${ziel} · @${konto.username} · Kontingent ${limit.genutzt}/${limit.maximum}`); if (limit.maximum - limit.genutzt < 3) { log("Tageskontingent erschöpft – später weiter."); return; } }
   const plan = auffuellplan(ziel, ledger, pool, stand.seed);
   let fehler = 0, versuche = 0, limitPausen = 0;
-  for (let i = stand.fertig; i < ziel; i++) {
+  const grenze = Math.min(ziel, stand.fertig + maxJeLauf);
+  for (let i = stand.fertig; i < grenze; i++) {
     const eintrag = plan[i];
     const slot = `${datum}-${eintrag.slot}`;
     try {
@@ -342,7 +352,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       await verteilen({ art: "beitrag", bildUrls: urls, bildPfade: bilder, titel: beitrag.folien[0].titel, text: caption, hashtags: beitrag.hashtags }, { log, trockenlauf: trocken });
       /* Abstand zwischen den Beiträgen: schont das Stundenlimit der App
          (jede Container-Abfrage zählt) und wirkt weniger wie ein Massenupload. */
-      if (i + 1 < ziel && !trocken) await new Promise((r) => setTimeout(r, CONFIG.instagram.auffuellPauseSekunden * 1000));
+      if (i + 1 < grenze && !trocken) await new Promise((r) => setTimeout(r, CONFIG.instagram.auffuellPauseSekunden * 1000));
     } catch (e) {
       console.error(`  ✗ Auffüllen ${i + 1}: ${e.message}`);
       if (/credit|billing|insufficient|402|quota/i.test(e.message)) { console.error("Guthaben oder Kontingent erschöpft – Auffüllen wird beim nächsten Aufruf fortgesetzt."); break; }
@@ -363,7 +373,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
   }
   hosting.commit(`Auffüllen Stand ${stand.fertig}/${ziel}`); await hosting.push();
   log(`Auffüllen: ${stand.fertig}/${ziel} veröffentlicht · Fehler: ${fehler}`);
-  if (stand.fertig < ziel) process.exitCode = 1;
+  if (stand.fertig < grenze) process.exitCode = 1;
 }
 
 function wochenKennung(iso) {
@@ -383,5 +393,9 @@ function berichtHinweise() {
 }
 
 main()
-  .catch((e) => { console.error(e); process.exitCode = 1; })
+  .catch((e) => {
+    console.error(e);
+    if (/access blocked|code 200\b/i.test(e.message || "")) console.error("\nMeta hat den API-Zugriff der App gesperrt („API access blocked“). Das lässt sich nur im Meta-App-Dashboard klären (Benachrichtigungen/„Alerts“, App-Review → Einschränkungen, ggf. Einspruch) bzw. in der Instagram-App unter Kontostatus. Der Bot versucht es stündlich weiter und läuft von selbst wieder an, sobald die Sperre aufgehoben ist.");
+    process.exitCode = 1;
+  })
   .finally(() => browserBeenden());
