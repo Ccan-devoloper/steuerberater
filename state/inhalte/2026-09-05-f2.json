@@ -1,0 +1,102 @@
+{
+  "format": "fehlerfalle",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr2-04",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "DBA-Klausur: Warum du mit dem Wohnsitz nach § 8 AO noch nicht ansässig bist?",
+      "icon": "globus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Falsch vs. richtig",
+      "links": {
+        "titel": "Richtig",
+        "punkte": [
+          "Erst Art. 1 und Art. 2 DBA: Person und Steuer erfasst?",
+          "Dann Art. 4 Abs. 1 DBA: Wer ist wo ansässig?",
+          "Doppelansässig? Art. 4 Abs. 2 DBA *stufenweise*."
+        ]
+      },
+      "rechts": {
+        "titel": "Klassischer Fehler",
+        "punkte": [
+          "Direkt in die Verteilungsnorm springen.",
+          "Wohnsitz (§ 8 AO) mit Ansässigkeit gleichsetzen.",
+          "Tie-Breaker-Stufen frei durchmischen."
+        ]
+      },
+      "icon": "kreuz"
+    },
+    {
+      "art": "text",
+      "titel": "Warum das Punkte kostet",
+      "text": "§ 8 AO und § 9 AO sagen nur, ob unbeschränkte Steuerpflicht besteht. Ob das Abkommen greift, entscheidet Art. 1 DBA (Personen) und Art. 2 DBA (Steuern). Erst Art. 4 Abs. 1 DBA bestimmt den *Ansässigkeitsstaat* – und damit, wer später den Methodenartikel anwendet. Wer diese Ebene überspringt, ordnet Quellen- und Ansässigkeitsstaat falsch zu.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "schritte",
+      "titel": "Tie-Breaker: Reihenfolge einhalten",
+      "schritte": [
+        {
+          "titel": "Ständige Wohnstätte",
+          "text": "Nur in einem Staat? Dann ist die Prüfung beendet."
+        },
+        {
+          "titel": "Mittelpunkt der Lebensinteressen",
+          "text": "Persönliche und wirtschaftliche Bindungen abwägen."
+        },
+        {
+          "titel": "Gewöhnlicher Aufenthalt",
+          "text": "Erst jetzt, wenn Stufe 1 und 2 nicht entscheiden."
+        },
+        {
+          "titel": "Staatsangehörigkeit",
+          "text": "Danach: Verständigungsverfahren der Staaten."
+        }
+      ],
+      "icon": "kalender"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Anwendbarkeit, Ansässigkeit, Verteilung, Vermeidung – in dieser Kette hängt alles an Art. 4 DBA.",
+      "icon": "haken"
+    },
+    {
+      "art": "cta",
+      "titel": "Fehlerfallen jede Woche.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "DBA Ansässigkeit und Tie-Breaker nach Art. 4 – die Falle, die in der Ertragsteuerklausur jedes Jahr Punkte frisst. 🌍\n\nDer Klassiker: Wohnsitz nach § 8 AO festgestellt und direkt in die Verteilungsnorm gesprungen. Das Abkommen fragt aber zuerst nach dem persönlichen und sachlichen Anwendungsbereich (Art. 1, Art. 2 DBA) und dann nach der Ansässigkeit (Art. 4 Abs. 1 DBA).\n\nBei Doppelansässigkeit gilt die Stufenfolge des Art. 4 Abs. 2 DBA – streng der Reihe nach, nicht nach Gefühl. Denn der Ansässigkeitsstaat entscheidet, wer den Methodenartikel anwendet.\n\n👉 Speichern und vor der Klausur nochmal durchgehen. Wo hakt es bei dir eher: beim Anwendungsbereich oder beim Mittelpunkt der Lebensinteressen?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht",
+    "#doppelbesteuerungsabkommen",
+    "#ansässigkeit",
+    "#ertragsteuern",
+    "#klausurtipps"
+  ],
+  "kurztitel": "DBA: Ansässigkeit vor Verteilung",
+  "quellen": [],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f2"
+}
