@@ -104,7 +104,7 @@ async function main() {
       try {
         const r = await kommentareBeantworten(ig, ledger, { log });
         if (r.beantwortet) { ledgerSpeichern(ledgerPfad, ledger); hosting.commit(`Kommentare beantwortet ${datum}`); await hosting.push(); }
-        log(`Interaktion: ${r.beantwortet} Antworten (${r.geprueft} Beiträge geprüft)`);
+        log(`Interaktion: ${r.beantwortet} Antworten (${r.geprueft} Beiträge, ${r.kommentare ?? 0} Kommentare geprüft)`);
       } catch (e) {
         console.error(`  ✗ Interaktion: ${e.message}`);
       }
