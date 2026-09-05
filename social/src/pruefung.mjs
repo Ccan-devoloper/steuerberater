@@ -53,7 +53,7 @@ export function pruefeAufbau(folien) {
 
 export const GRENZEN = {
   titelZeichen: 110,
-  folienTextZeichen: 520,
+  folienTextZeichen: 600,   // der Renderer passt Text automatisch ein; erst deutliche Überlänge kostet eine Neufassung
   storyTextZeichen: 260,
   captionZeichen: 2200,
   hashtagsMax: 30,

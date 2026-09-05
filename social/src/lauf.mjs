@@ -334,7 +334,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
   const ig = new Instagram({ trockenlauf: trocken, tresorDatei: path.join(hosting.stateDir, "token.enc") });
   if (!trocken) { ig.tresorLaden(); const { konto, limit } = await ig.pruefen(); log(`Auffüllen ${stand.fertig}/${ziel} · @${konto.username} · Kontingent ${limit.genutzt}/${limit.maximum}`); if (limit.maximum - limit.genutzt < 3) { log("Tageskontingent erschöpft – später weiter."); return; } }
   const plan = auffuellplan(ziel, ledger, pool, stand.seed);
-  let fehler = 0, versuche = 0, limitPausen = 0;
+  let fehler = 0, versuche = 0, limitPausen = 0, budgetStopp = false;
   const grenze = Math.min(ziel, stand.fertig + maxJeLauf);
   for (let i = stand.fertig; i < grenze; i++) {
     const eintrag = plan[i];
@@ -369,7 +369,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       if (i + 1 < grenze && !trocken) await new Promise((r) => setTimeout(r, CONFIG.instagram.auffuellPauseSekunden * 1000));
     } catch (e) {
       console.error(`  ✗ Auffüllen ${i + 1}: ${e.message}`);
-      if (e instanceof BudgetFehler) { log(`  ⏸ ${e.message} Auffüllen wird morgen fortgesetzt.`); break; }
+      if (e instanceof BudgetFehler) { log(`  ⏸ ${e.message} Auffüllen wird morgen fortgesetzt.`); budgetStopp = true; break; }
       if (/credit|billing|insufficient|402|quota/i.test(e.message)) { console.error("Guthaben oder Kontingent erschöpft – Auffüllen wird beim nächsten Aufruf fortgesetzt."); break; }
       const ratenlimit = /request limit|code (4|17|32|613)\b/i.test(e.message);
       if (ratenlimit) {
@@ -388,7 +388,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
   }
   hosting.commit(`Auffüllen Stand ${stand.fertig}/${ziel}`); await hosting.push();
   log(`Auffüllen: ${stand.fertig}/${ziel} veröffentlicht · Fehler: ${fehler}`);
-  if (stand.fertig < grenze) process.exitCode = 1;
+  if (stand.fertig < grenze && !budgetStopp) process.exitCode = 1;
 }
 
 function wochenKennung(iso) {
