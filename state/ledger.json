@@ -474,6 +474,20 @@
       "variante": 0,
       "veroeffentlicht": "2026-09-05T08:40:33.112Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f13",
+      "format": "minifall",
+      "thema": "bilanz-modul-k3-7",
+      "fach": "bilanz",
+      "titel": "Der § 6b-Fehler, der dich glatte 5 Punkte kostet",
+      "hookTyp": "fehler",
+      "medienId": "18114565697086574",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-05T08:42:28.167Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -481,7 +495,7 @@
     "ust": 2,
     "kst": 2,
     "ao": 3,
-    "bilanz": 5,
+    "bilanz": 6,
     "istr": 4
   }
 }
