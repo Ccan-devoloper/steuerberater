@@ -460,11 +460,25 @@
       "variante": 1,
       "veroeffentlicht": "2026-09-05T08:36:47.223Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f12",
+      "format": "rechenweg",
+      "thema": "ust-modul-ust-162",
+      "fach": "ust",
+      "titel": "Lastenrad plus 1.190 € bar – wie hoch ist das Entgelt?",
+      "hookTyp": "zahl",
+      "medienId": "17939393697348186",
+      "variante": 0,
+      "veroeffentlicht": "2026-09-05T08:40:33.112Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
     "persg": 2,
-    "ust": 1,
+    "ust": 2,
     "kst": 2,
     "ao": 3,
     "bilanz": 5,
