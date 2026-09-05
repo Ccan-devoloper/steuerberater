@@ -530,6 +530,18 @@
       "variante": 1,
       "veroeffentlicht": "2026-09-05T09:19:14.087Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "b2",
+      "format": "reel",
+      "thema": "bilanz-modul-k3-7",
+      "fach": "bilanz",
+      "titel": "Erlös oder Gewinn? § 6b entscheidet",
+      "medienId": "17882139525505279",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-05T13:05:28.806Z"
     }
   ],
   "fachZaehler": {
@@ -537,7 +549,8 @@
     "ust": 2,
     "kst": 3,
     "ao": 4,
-    "bilanz": 6,
+    "bilanz": 7,
     "istr": 5
-  }
+  },
+  "nachrichten": []
 }
