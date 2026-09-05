@@ -180,6 +180,14 @@ export function auffuellplan(anzahl, ledger = ledgerLaden(), pool = themenpool()
   return liste;
 }
 
+/* Schwarz/Weiß-Wechsel: immer das Gegenteil des zuletzt veröffentlichten
+   Beitrags – unabhängig von Fehlschlägen, Slots oder Tagen. So bleibt das
+   Schachbrett im Profil lückenlos. */
+export function naechsteVariante(ledger) {
+  const letzter = [...(ledger.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.variante != null);
+  return letzter ? 1 - letzter.variante : 0;
+}
+
 /* Nach einer Veröffentlichung im Ledger vermerken. */
 export function vermerken(ledger, eintrag) {
   ledger.veroeffentlicht = ledger.veroeffentlicht || [];
