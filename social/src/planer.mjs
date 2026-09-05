@@ -184,7 +184,7 @@ export function auffuellplan(anzahl, ledger = ledgerLaden(), pool = themenpool()
    Beitrags – unabhängig von Fehlschlägen, Slots oder Tagen. So bleibt das
    Schachbrett im Profil lückenlos. */
 export function naechsteVariante(ledger) {
-  const letzter = [...(ledger.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.variante != null);
+  const letzter = [...(ledger.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.medienId !== "trocken" && e.variante != null);
   return letzter ? 1 - letzter.variante : 0;
 }
 

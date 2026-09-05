@@ -107,8 +107,11 @@ export class Hosting {
   }
 
   /* Bilder committen, pushen und warten, bis sie öffentlich abrufbar sind. */
+  /* Jede Veröffentlichung bekommt eine eigene Kennung im Dateinamen – so kann
+     der CDN-Cache von raw.githubusercontent.com nie ein älteres Bild liefern. */
   async veroeffentlichen(dateien, datum, nachricht) {
-    const urls = dateien.map((d) => this.ablegen(d, path.join("bilder", datum, path.basename(d))));
+    const kennung = Date.now().toString(36);
+    const urls = dateien.map((d) => { const { name, ext } = path.parse(d); return this.ablegen(d, path.join("bilder", datum, `${name}-${kennung}${ext}`)); });
     this.commit(nachricht || `Bilder ${datum}`);
     await this.push();
     if (this.pushen) for (const url of urls) await this.erreichbar(url);

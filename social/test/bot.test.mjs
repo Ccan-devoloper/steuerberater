@@ -225,3 +225,32 @@ test("Spickzettel-Folie und Hook-Wahl", async () => {
   assert.ok(html.includes('class="schritte karte"') && html.includes("Außenverpflichtung"));
   assert.ok(FOLIEN_ARTEN.includes("karte"));
 });
+
+test("Schwarz/Weiß-Wechsel: Ledger ohne Trockenlauf-Einträge, Helligkeit aus Bild", async () => {
+  const { naechsteVariante } = await import("../src/planer.mjs");
+  const { varianteAusHelligkeit, helligkeit, varianteErmitteln } = await import("../src/wechsel.mjs");
+  const ledger = { veroeffentlicht: [
+    { art: "beitrag", medienId: "1", variante: 0 },
+    { art: "beitrag", medienId: "trocken", variante: 1 },
+    { art: "story", medienId: "2", variante: 0 },
+  ] };
+  assert.equal(naechsteVariante(ledger), 1, "Trockenlauf-Einträge zählen nicht");
+  assert.equal(naechsteVariante({ veroeffentlicht: [] }), 0);
+  assert.equal(varianteAusHelligkeit(236), 1);
+  assert.equal(varianteAusHelligkeit(20), 0);
+  /* Ohne Instagram-Zugriff gilt das Ledger. */
+  assert.equal(await varianteErmitteln({ ig: { letzterBeitrag: async () => { throw new Error("offline"); } }, ledger }), 1);
+  assert.equal(await varianteErmitteln({ ig: null, ledger, trocken: true }), 1);
+  const { spawnSync } = await import("node:child_process");
+  const { ffmpegPfad } = await import("../src/stimme.mjs");
+  const os = await import("node:os");
+  const path = await import("node:path");
+  if (spawnSync(ffmpegPfad(), ["-version"]).status !== 0) return;
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "wechsel-"));
+  for (const [farbe, erwartet] of [["white", 1], ["black", 0]]) {
+    const datei = path.join(dir, `${farbe}.jpg`);
+    spawnSync(ffmpegPfad(), ["-hide_banner", "-loglevel", "error", "-f", "lavfi", "-i", `color=${farbe}:s=64x64`, "-frames:v", "1", "-y", datei]);
+    assert.equal(varianteAusHelligkeit(helligkeit(datei)), erwartet, farbe);
+  }
+  fs.rmSync(dir, { recursive: true, force: true });
+});

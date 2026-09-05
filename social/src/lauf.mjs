@@ -18,7 +18,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONFIG } from "./config.mjs";
 import { themenpool } from "./inhalte.mjs";
-import { tagesplan, auffuellplan, ledgerLaden, ledgerSpeichern, vermerken, naechsteVariante } from "./planer.mjs";
+import { tagesplan, auffuellplan, ledgerLaden, ledgerSpeichern, vermerken } from "./planer.mjs";
 import { beitragSchreiben, storiesSchreiben, teaserAusBeitrag, aktuellRecherchieren, reelSchreiben } from "./autor.mjs";
 import { reelBauen } from "./reel.mjs";
 import { beitragRendern, storyRendern, browserBeenden } from "./render.mjs";
@@ -27,6 +27,7 @@ import { Hosting } from "./hosting.mjs";
 import { kommentareBeantworten } from "./interaktion.mjs";
 import { lernschleife } from "./insights.mjs";
 import { verteilen } from "./verteilen.mjs";
+import { varianteErmitteln } from "./wechsel.mjs";
 import { kartenVerschicken } from "./nachrichten.mjs";
 import { berichtErstellen, berichtSenden } from "./bericht.mjs";
 import { abschluss as kostenAbschluss } from "./kosten.mjs";
@@ -161,7 +162,7 @@ async function main() {
           reel.slug = `${datum}-${eintrag.slot}`;
           hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, reel);
         }
-        const varianteReel = naechsteVariante(ledger);
+        const varianteReel = await varianteErmitteln({ ig, ledger, trocken, log });
         const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel });
         const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Reel ${datum} ${eintrag.slot}`);
         const caption = `${reel.caption}\n\n${reel.hashtags.join(" ")}`;
@@ -194,7 +195,7 @@ async function main() {
         beitrag.slug = `${datum}-${eintrag.slot}`;
         hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, beitrag);
       }
-      const variante = naechsteVariante(ledger);
+      const variante = await varianteErmitteln({ ig, ledger, trocken, log });
       const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "beitraege"), { variante });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Beitrag ${datum} ${eintrag.slot}`);
       const caption = `${beitrag.caption}\n\n${beitrag.hashtags.join(" ")}`;
@@ -312,8 +313,8 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
   for (let i = stand.fertig; i < ziel; i++) {
     const eintrag = plan[i];
     const slot = `${datum}-${eintrag.slot}`;
-    const variante = naechsteVariante(ledger);
     try {
+      const variante = await varianteErmitteln({ ig, ledger, trocken, log });
       log(`Auffüllen ${i + 1}/${ziel}: ${eintrag.format} · ${eintrag.thema.titel}`);
       let beitrag = hosting.jsonLesen(`inhalte/${slot}.json`, null);
       if (!beitrag) {
