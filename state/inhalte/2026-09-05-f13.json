@@ -1,0 +1,99 @@
+{
+  "format": "minifall",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-7",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der § 6b-Fehler, der dich glatte 5 Punkte kostet",
+      "text": "Bauunternehmer Kersten Vogel (Einzelunternehmen, § 5 EStG) verkauft im Wirtschaftsjahr 2026 ein unbebautes Betriebsgrundstück für 900.000 €. Buchwert 300.000 €, Notar- und Maklerkosten 20.000 €. Das Grundstück gehörte seit 2011 zum Anlagevermögen seiner inländischen Betriebsstätte. Eine Ersatzinvestition ist erst für 2027 geplant.",
+      "icon": "haus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "So löst du den Fall",
+      "schritte": [
+        {
+          "titel": "Gewinn isoliert rechnen",
+          "text": "900.000 − 300.000 − 20.000 = *580.000 €* Veräußerungsgewinn."
+        },
+        {
+          "titel": "Objekt prüfen",
+          "text": "Grund und Boden ist begünstigt, § 6b Abs. 1 S. 1 EStG."
+        },
+        {
+          "titel": "Sechsjahresfrist",
+          "text": "Seit 2011 im Anlagevermögen – § 6b Abs. 4 S. 1 Nr. 2 EStG erfüllt."
+        },
+        {
+          "titel": "Direkte Übertragung?",
+          "text": "2026 keine Anschaffung – also Rücklage nach § 6b Abs. 3 S. 1 EStG."
+        },
+        {
+          "titel": "Frist notieren",
+          "text": "Vier Jahre, bei neu hergestellten Gebäuden sechs Jahre."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "text",
+      "titel": "Ergebnis und Auswirkung",
+      "punkte": [
+        "Steuerbilanz 2026: Einstellung von 580.000 € in die Rücklage – der Gewinn wird neutralisiert.",
+        "Die Handelsbilanz bleibt unberührt; § 6b ist ein rein steuerliches Wahlrecht.",
+        "2027 mindert die Übertragung die Anschaffungskosten und damit die spätere *AfA*.",
+        "Ohne Reinvestition: gewinnerhöhende Auflösung plus 6 % je Wirtschaftsjahr, § 6b Abs. 7 EStG.",
+        "Nachweis in der Buchführung führen, § 6b Abs. 4 S. 1 Nr. 5 EStG."
+      ],
+      "icon": "rechner"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Weitergereicht wird die stille Reserve, nie der Kaufpreis – und jedes Jahr Warten kostet am Ende 6 Prozent obendrauf.",
+      "icon": "waage"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Reinvestitionsrücklage nach § 6b EStG – Voraussetzungen, Frist und Gewinnzuschlag in einem Mini-Fall. 🏗️\n\nDer häufigste Patzer: Es wandert nicht der Veräußerungserlös in die Rücklage, sondern allein der Veräußerungsgewinn nach Abzug von Buchwert und Veräußerungskosten. Zweiter Klassiker: die Sechsjahreszugehörigkeit zum inländischen Anlagevermögen wird gar nicht angesprochen.\n\nUnd wenn die Reinvestitionsfrist verstreicht, ist die Rücklage gewinnerhöhend aufzulösen – zuzüglich 6 % für jedes volle Wirtschaftsjahr ihres Bestehens.\n\n👉 Speichern und im Klausurtraining anwenden. Was übersiehst du bei § 6b eher: die Fristen oder die Minderung der AfA-Bemessungsgrundlage?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht",
+    "#paragraf6b",
+    "#reinvestitionsrücklage",
+    "#stillereserven",
+    "#bilanzen",
+    "#klausurtraining"
+  ],
+  "kurztitel": "Mini-Fall: § 6b-Rücklage richtig bilden",
+  "quellen": [
+    "§ 6b Abs. 1, 3, 4, 7 EStG",
+    "§ 5 Abs. 1 S. 1 Hs. 2 EStG",
+    "R 6b.2 EStR"
+  ],
+  "hookTyp": "fehler",
+  "faktenHinweise": [
+    "Folie 'text': „2027 mindert die Übertragung die Anschaffungskosten und damit die spätere AfA.“: Im Beispiel wird ein unbebautes Grundstück (Grund und Boden) veräußert. Grund und Boden ist nicht abnutzbar und unterliegt keiner AfA. Die Aussage zur AfA-Minderung ist nur zutreffend, wenn die Ersatzinvestition in ein Gebäude (oder ein anderes abnutzbares Wirtschaftsgut) erfolgt – dies wird im Fall aber nicht spezifiziert."
+  ],
+  "slug": "2026-09-05-f13"
+}
