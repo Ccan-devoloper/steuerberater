@@ -154,7 +154,8 @@ async function main() {
       } catch (e) { console.error(`  ✗ Wochenbericht: ${e.message}`); }
     }
   }
-  if (!beitraegeFaellig.length && !storiesFaellig.length) { log("Nichts fällig."); return; }
+  const auffuellOffen = !trocken && !nurPlanen && (() => { const a = hosting.jsonLesen("auffuellen.json", null); return a && a.fertig < a.ziel; })();
+  if (!beitraegeFaellig.length && !storiesFaellig.length && !auffuellOffen) { log("Nichts fällig."); return; }
   const frei = () => kontingent.maximum - kontingent.genutzt - CONFIG.instagram.sicherheitsabstandLimit;
 
   /* Zuerst die Beiträge (wichtiger), dann die Stories. */
