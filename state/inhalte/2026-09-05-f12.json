@@ -1,0 +1,80 @@
+{
+  "format": "rechenweg",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-162",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Lastenrad plus 1.190 € bar – wie hoch ist das Entgelt?",
+      "icon": "kreislauf",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Der Rechenweg",
+      "formel": "Entgelt = Wert der empfangenen Leistung + Baraufgabe − enthaltene USt",
+      "zeilen": [
+        "Grafikbüro Seelotse gestaltet ein Logo für die Fahrradwerkstatt Kranich",
+        "Gegenleistung: Lastenrad im Wert von 6.000 € netto plus 1.190 € bar",
+        "Baraufgabe netto: 1.190 ÷ 1,19 = 1.000 €",
+        "Entgelt Seelotse: 6.000 + 1.000 = 7.000 €, USt 1.330 €",
+        "Entgelt Kranich: 7.000 − 1.000 = 6.000 €, USt 1.140 €"
+      ],
+      "ergebnis": "Zwei Umsätze, zwei Bemessungsgrundlagen – nicht ein Vorgang.",
+      "icon": "rechner"
+    },
+    {
+      "art": "text",
+      "titel": "Die Logik dahinter",
+      "punkte": [
+        "Besteht die Gegenleistung nicht in Geld, prüfst du Tausch oder *tauschähnlichen* Umsatz (§ 3 Abs. 12 UStG).",
+        "Dann gilt der Wert des einen Umsatzes als Entgelt für den anderen (§ 10 Abs. 2 S. 1 UStG).",
+        "Die gesetzlich geschuldete Umsatzsteuer gehört nie zum Entgelt (§ 10 Abs. 1 S. 2 UStG).",
+        "Nur die Baraufgabe anzusetzen, ist der Klassiker unter den Fehlern.",
+        "Im Namen und für Rechnung eines Dritten vereinnahmte Beträge bleiben als durchlaufender Posten draußen (§ 10 Abs. 1 S. 4 UStG)."
+      ],
+      "icon": "waage"
+    },
+    {
+      "art": "cta",
+      "titel": "Rechenwege, die sitzen müssen.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Bemessungsgrundlage tauschähnlicher Umsatz – wie rechnest du das Entgelt bei Baraufgabe? 🔄\n\nDie Gegenleistung ist mehr als das Geld, das fließt. Beim Tausch und beim tauschähnlichen Umsatz gilt der Wert des einen Umsatzes als Entgelt für den anderen, ergänzt um eine Zuzahlung. Aus allen Bruttowerten rechnest du die Umsatzsteuer heraus, bevor du das Entgelt ansetzt.\n\nAm Ende stehen zwei Leistungen mit zwei eigenen Bemessungsgrundlagen – und echte durchlaufende Posten bleiben komplett außen vor.\n\n👉 Speichern und vor der USt-Klausur einmal durchrechnen. Wo hakt es bei dir eher: bei der Bewertung der Gegenleistung oder beim Herausrechnen der Steuer?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#umsatzsteuer",
+    "#stbexamen",
+    "#steuerberaterprüfung",
+    "#bemessungsgrundlage",
+    "#tauschähnlicherumsatz",
+    "#durchlaufendeposten",
+    "#examensvorbereitung",
+    "#steuerrecht",
+    "#klausurtipps",
+    "#steuerberater"
+  ],
+  "kurztitel": "Entgelt beim tauschähnlichen Umsatz",
+  "quellen": [
+    "§ 3 Abs. 12 UStG",
+    "§ 10 Abs. 1 UStG",
+    "§ 10 Abs. 2 UStG",
+    "A 10.5 UStAE"
+  ],
+  "hookTyp": "zahl",
+  "faktenHinweise": [
+    "Folie text: „§ 10 Abs. 2 S. 1 UStG“: Die genaue Verortung der Tausch-/tauschähnlicher-Umsatz-Regelung (Wert des einen Umsatzes gilt als Entgelt für den anderen) innerhalb von § 10 UStG mit exakter Absatz-/Satznummer ist nicht sicher zu verifizieren; die Norm könnte in einem anderen Satz oder Absatz stehen.",
+    "Folie text: „§ 10 Abs. 1 S. 4 UStG“ zu durchlaufenden Posten: Die Satznummerierung in § 10 Abs. 1 UStG wurde im Laufe der Zeit durch Einfügungen verändert; ob die Regelung zu durchlaufenden Posten aktuell in Satz 4 steht, ist nicht sicher."
+  ],
+  "slug": "2026-09-05-f12"
+}
