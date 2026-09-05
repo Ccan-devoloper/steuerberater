@@ -98,6 +98,9 @@ export const CONFIG = {
 
   /* Instagram Graph API -------------------------------------------------- */
   instagram: {
+    /* Pause zwischen zwei Beiträgen beim Auffüllen. Das Stundenlimit der App
+       (~200 Aufrufe) erlaubt bei ~20 Aufrufen je Carousel etwa 7 Beiträge/Stunde. */
+    auffuellPauseSekunden: Number(process.env.IG_AUFFUELL_PAUSE || 480),
     /* "facebook": graph.facebook.com (Instagram-Konto mit Facebook-Seite verbunden, Page-Token ohne Ablauf)
        "instagram": graph.instagram.com (Instagram-API mit Instagram-Login, 60-Tage-Token mit Auto-Refresh) */
     host: env("IG_GRAPH_HOST", "instagram"),
