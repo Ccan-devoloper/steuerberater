@@ -433,6 +433,19 @@
       "medienId": "18016305521727962",
       "veroeffentlicht": "2026-09-05T08:23:52.144Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "beitrag",
+      "slot": "f10",
+      "format": "fehlerfalle",
+      "thema": "istr-modul-istr-istr1-04",
+      "fach": "istr",
+      "titel": "Ehegatte wohnt in Österreich – wann klappt die Zusammenveranlagung?",
+      "hookTyp": "frage",
+      "medienId": "18476372350115176",
+      "veroeffentlicht": "2026-09-05T08:26:38.236Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -441,6 +454,6 @@
     "kst": 2,
     "ao": 3,
     "bilanz": 5,
-    "istr": 2
+    "istr": 3
   }
 }
