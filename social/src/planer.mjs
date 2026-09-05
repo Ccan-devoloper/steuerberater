@@ -159,6 +159,27 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   return { datum, wochentag: wt, beitraege, stories, anlass };
 }
 
+/* Auffüllplan: n Beiträge (keine Reels, keine Tagesformate) mit Themen aus dem
+   Pool, Fächer und Formate rotierend. */
+export function auffuellplan(anzahl, ledger = ledgerLaden(), pool = themenpool(), seed = "auffuellen") {
+  const zufall = rng(`auffuellen:${seed}`);
+  const formate = ["pruefungsfrage", "fehlerfalle", "schema", "rechenweg", "minifall", "vergleich", "spickzettel", "klausurtechnik"];
+  const benutzt = new Set();
+  const ledgerKopie = { ...ledger, fachZaehler: { ...(ledger.fachZaehler || {}) } };
+  const heute = heuteIso();
+  const liste = [];
+  for (let i = 0; i < anzahl; i++) {
+    const format = formate[i % formate.length];
+    const typen = FORMAT_QUELLEN[format] || ["modul"];
+    const kandidaten = verfuegbar(pool, ledgerKopie, heute, benutzt).filter((t) => typen.includes(t.typ));
+    const thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie);
+    benutzt.add(thema.id);
+    ledgerKopie.fachZaehler[thema.fach] = (ledgerKopie.fachZaehler[thema.fach] || 0) + 1;
+    liste.push({ slot: `f${i + 1}`, format, thema });
+  }
+  return liste;
+}
+
 /* Nach einer Veröffentlichung im Ledger vermerken. */
 export function vermerken(ledger, eintrag) {
   ledger.veroeffentlicht = ledger.veroeffentlicht || [];
