@@ -2,6 +2,8 @@ name: Instagram-Bot
 
 # Läuft stündlich (UTC 05:35–20:35 = 07:35–22:35 Sommerzeit bzw. 06:35–21:35 Winterzeit)
 # und veröffentlicht alle Beiträge/Stories, deren Uhrzeit im Tagesplan erreicht ist.
+# Hinweis: GitHub registriert den Zeitplan erst, wenn diese Datei auf dem
+# Standardzweig geändert wurde; ein Lauf ist idempotent (nur fällige Einträge).
 on:
   schedule:
     - cron: "35 5-20 * * *"
