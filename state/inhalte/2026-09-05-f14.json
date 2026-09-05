@@ -1,0 +1,112 @@
+{
+  "format": "vergleich",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-modul-kst-7",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Dividende steuerfrei oder voll steuerpflichtig – wo liegt die 10-%-Grenze?",
+      "icon": "muenzen",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "vergleich",
+      "titel": "§ 8b Abs. 1 gegen § 8b Abs. 4 KStG",
+      "links": {
+        "titel": "Ab 10 % Beteiligung",
+        "punkte": [
+          "Bezüge bleiben außer Ansatz, Abs. 1 S. 1",
+          "5 % gelten als nichtabziehbare BA, Abs. 5 S. 1",
+          "Im Ergebnis *95 %* steuerfrei"
+        ]
+      },
+      "rechts": {
+        "titel": "Streubesitz unter 10 %",
+        "punkte": [
+          "Bezüge sind *voll* steuerpflichtig, Abs. 4 S. 1",
+          "Keine 5-%-Pauschale, Abs. 5 läuft leer",
+          "Betriebsausgaben bleiben voll abziehbar"
+        ]
+      },
+      "icon": "waage"
+    },
+    {
+      "art": "text",
+      "titel": "Der Stichtag entscheidet",
+      "punkte": [
+        "Maßgeblich ist die Quote zu *Beginn des Kalenderjahres*, nicht am Ausschüttungstag (§ 8b Abs. 4 S. 1 KStG).",
+        "Wird unterjährig eine Beteiligung von mindestens 10 % erworben, gilt der Erwerb als zu Jahresbeginn erfolgt (§ 8b Abs. 4 S. 6 KStG).",
+        "Auch eine *vGA* ist Beteiligungsertrag – dieselbe Prüfung, aber Abs. 1 S. 2 im Blick behalten."
+      ],
+      "icon": "kalender"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Zwei getrennte ADB-Schritte",
+      "formel": "Effekt = Ertrag − 100 % + 5 % vom Ertrag",
+      "zeilen": [
+        "Nordlicht GmbH hält 25 % an der Talblick GmbH",
+        "Dividende im Jahr 2026: 200.000 €",
+        "ADB-Abzug nach Abs. 1: − 200.000 €",
+        "ADB-Hinzurechnung nach Abs. 5: + 10.000 €"
+      ],
+      "ergebnis": "190.000 € bleiben unversteuert, 10.000 € wirken sich aus.",
+      "icon": "rechner"
+    },
+    {
+      "art": "text",
+      "titel": "Zwei Fehler, die Punkte kosten",
+      "punkte": [
+        "Die 5 % werden vom *steuerfreien Ertrag* berechnet, nie vom Buchwert der Beteiligung.",
+        "Die Streubesitzschranke des Abs. 4 gilt nur für laufende Bezüge, nicht für Veräußerungsgewinne.",
+        "Gewerbesteuerlich gilt eine eigene Grenze: § 9 Nr. 2a GewStG verlangt mindestens 15 % zu Beginn des Erhebungszeitraums."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Zuerst der Blick auf den 1. Januar: unter 10 % zahlst du voll, ab 10 % ziehst du alles ab und holst dir 5 % wieder zurück.",
+      "icon": "haken"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Streubesitzdividende und § 8b KStG – der Klassiker in der Ertragsteuerklausur. 📊\n\nDie Weiche stellst du am 1. Januar: Liegt die Quote unter 10 %, ist die Dividende nach § 8b Abs. 4 S. 1 KStG voll steuerpflichtig. Ab 10 % bleibt der Bezug nach § 8b Abs. 1 S. 1 KStG außer Ansatz – und 5 % davon rechnest du nach § 8b Abs. 5 S. 1 KStG wieder hinzu.\n\nWichtig: Der unterjährige Erwerb von mindestens 10 % wirkt nach § 8b Abs. 4 S. 6 KStG auf den Jahresbeginn zurück. Und die 5 % bemessen sich immer am Ertrag, nicht am Buchwert.\n\n👉 Speichern und vor der Klausur zwei Minuten wiederholen. Wo hakt es bei dir eher – am Stichtag oder an der 5-%-Pauschale?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#körperschaftsteuer",
+    "#paragraf8bkstg",
+    "#streubesitz",
+    "#dividende",
+    "#ertragsteuern",
+    "#examensvorbereitung",
+    "#steuerrecht",
+    "#steuerberater",
+    "#klausurtipps"
+  ],
+  "kurztitel": "§ 8b KStG: Streubesitz oder Freistellung",
+  "quellen": [
+    "§ 8b Abs. 1 S. 1 KStG",
+    "§ 8b Abs. 4 S. 1 und S. 6 KStG",
+    "§ 8b Abs. 5 S. 1 KStG",
+    "§ 9 Nr. 2a GewStG"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f14"
+}
