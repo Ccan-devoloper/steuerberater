@@ -18,7 +18,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONFIG } from "./config.mjs";
 import { themenpool } from "./inhalte.mjs";
-import { tagesplan, ledgerLaden, ledgerSpeichern, vermerken } from "./planer.mjs";
+import { tagesplan, auffuellplan, ledgerLaden, ledgerSpeichern, vermerken } from "./planer.mjs";
 import { beitragSchreiben, storiesSchreiben, teaserAusBeitrag, aktuellRecherchieren, reelSchreiben } from "./autor.mjs";
 import { reelBauen } from "./reel.mjs";
 import { beitragRendern, storyRendern, browserBeenden } from "./render.mjs";
@@ -39,6 +39,7 @@ const datum = args.get("datum") || heuteIso();
 const nurPlanen = args.has("nur-planen");
 const trocken = args.has("nur-rendern") || CONFIG.instagram.trockenlauf;
 const alles = args.has("alles");
+const auffuellen = Number(args.get("auffuellen") || 0);
 const AUSGABE = path.resolve(hier, "../out", datum);
 
 function log(...t) { console.log(new Date().toISOString().slice(11, 19), ...t); }
@@ -83,6 +84,8 @@ async function main() {
     for (const s of plan.stories) log(`  ${s.zeit} Story ${s.slot} ${s.art} ${s.beitragSlot ? "→ " + s.beitragSlot : poolIndex.get(s.themaId)?.titel || ""} [${s.status}]`);
     return;
   }
+
+  if (auffuellen > 0) { await auffuellenLauf(auffuellen, { hosting, ledger, ledgerPfad, pool, poolIndex, strategie }); return; }
 
   const jetzt = lokaleMinuten();
   const faellig = (e) => e.status !== "veroeffentlicht" && (alles || minutenVon(e.zeit) <= jetzt);
@@ -292,6 +295,54 @@ async function main() {
   if (trocken && ig.protokoll.length) fs.writeFileSync(path.join(AUSGABE, "trockenlauf.json"), JSON.stringify(ig.protokoll, null, 2));
   log(`Fertig · ${plan.beitraege.filter((b) => b.status === "veroeffentlicht").length}/${plan.beitraege.length} Beiträge, ${plan.stories.filter((s) => s.status === "veroeffentlicht").length}/${plan.stories.length} Stories · Fehler: ${fehler}`);
   if (fehler) process.exitCode = 1;
+}
+
+/* Auffüllen: n Beiträge am Stück veröffentlichen (Feed füllen). Fortschritt in
+   state/auffuellen.json – ein Abbruch (z. B. leeres Guthaben) wird beim nächsten
+   Aufruf mit derselben Zahl fortgesetzt. Keine Reels, keine Stories. */
+async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolIndex, strategie }) {
+  const stand = hosting.jsonLesen("auffuellen.json", { ziel: 0, fertig: 0, seed: datum });
+  if (stand.ziel !== ziel) { stand.ziel = ziel; stand.fertig = Math.min(stand.fertig, ziel); stand.seed = stand.seed || datum; }
+  if (stand.fertig >= ziel) { log(`Auffüllen: ${ziel} Beiträge sind bereits veröffentlicht.`); return; }
+  const ig = new Instagram({ trockenlauf: trocken, tresorDatei: path.join(hosting.stateDir, "token.enc") });
+  if (!trocken) { ig.tresorLaden(); const { konto, limit } = await ig.pruefen(); log(`Auffüllen ${stand.fertig}/${ziel} · @${konto.username} · Kontingent ${limit.genutzt}/${limit.maximum}`); if (limit.maximum - limit.genutzt < 3) { log("Tageskontingent erschöpft – später weiter."); return; } }
+  const plan = auffuellplan(ziel, ledger, pool, stand.seed);
+  const tagIndex = Math.floor(Date.now() / 86400000);
+  let fehler = 0;
+  for (let i = stand.fertig; i < ziel; i++) {
+    const eintrag = plan[i];
+    const slot = `${datum}-${eintrag.slot}`;
+    try {
+      log(`Auffüllen ${i + 1}/${ziel}: ${eintrag.format} · ${eintrag.thema.titel}`);
+      let beitrag = hosting.jsonLesen(`inhalte/${slot}.json`, null);
+      if (!beitrag) {
+        beitrag = await beitragSchreiben({ format: eintrag.format, thema: eintrag.thema, datum, strategie });
+        beitrag.slug = slot;
+        hosting.jsonSchreiben(`inhalte/${slot}.json`, beitrag);
+      }
+      const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "auffuellen"), { variante: (tagIndex + i) % 2 });
+      const urls = await hosting.veroeffentlichen(bilder, datum, `Auffüllen ${slot}`);
+      const caption = `${beitrag.caption}\n\n${beitrag.hashtags.join(" ")}`;
+      const medienId = await ig.beitragPosten({ bildUrls: urls, caption });
+      const karteIndex = beitrag.folien.findIndex((f) => f.art === "karte");
+      vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
+      stand.fertig = i + 1;
+      hosting.jsonSchreiben("auffuellen.json", stand);
+      ledgerSpeichern(ledgerPfad, ledger);
+      hosting.commit(`Auffüllen ${i + 1}/${ziel}`); await hosting.push();
+      log(`  ✓ ${medienId}`);
+      await verteilen({ art: "beitrag", bildUrls: urls, bildPfade: bilder, titel: beitrag.folien[0].titel, text: caption, hashtags: beitrag.hashtags }, { log, trockenlauf: trocken });
+      if (i + 1 < ziel && !trocken) await new Promise((r) => setTimeout(r, 25000));
+    } catch (e) {
+      fehler++;
+      console.error(`  ✗ Auffüllen ${i + 1}: ${e.message}`);
+      if (/credit|billing|insufficient|402|quota/i.test(e.message)) { console.error("Guthaben oder Kontingent erschöpft – Auffüllen wird beim nächsten Aufruf fortgesetzt."); break; }
+      if (fehler >= 3) { console.error("Drei Fehler in Folge – Auffüllen abgebrochen, Fortsetzung beim nächsten Aufruf."); break; }
+    }
+  }
+  hosting.commit(`Auffüllen Stand ${stand.fertig}/${ziel}`); await hosting.push();
+  log(`Auffüllen: ${stand.fertig}/${ziel} veröffentlicht · Fehler: ${fehler}`);
+  if (stand.fertig < ziel) process.exitCode = 1;
 }
 
 function wochenKennung(iso) {

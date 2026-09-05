@@ -16,6 +16,10 @@ on:
         description: "Alle Einträge des Tages sofort veröffentlichen (Uhrzeiten ignorieren)"
         type: boolean
         default: false
+      auffuellen:
+        description: "Feed auffüllen: so viele Beiträge am Stück veröffentlichen (nur Beiträge, keine Reels/Stories; setzt bei Abbruch fort)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -27,7 +31,7 @@ concurrency:
 jobs:
   posten:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
 
@@ -123,6 +127,7 @@ jobs:
           ARGS=""
           if [ "${{ github.event.inputs.modus }}" = "planen" ]; then ARGS="--nur-planen"; fi
           if [ "${{ github.event.inputs.alles }}" = "true" ]; then ARGS="$ARGS --alles"; fi
+          if [ -n "${{ github.event.inputs.auffuellen }}" ]; then ARGS="$ARGS --auffuellen=${{ github.event.inputs.auffuellen }}"; fi
           node src/lauf.mjs $ARGS
 
       - name: Ausgaben sichern (bei Fehlern zur Diagnose)
