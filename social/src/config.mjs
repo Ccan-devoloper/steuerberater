@@ -30,7 +30,7 @@ export const CONFIG = {
 
   /* Tagesplan ------------------------------------------------------------ */
   plan: {
-    beitraegeWerktag: Number(env("IG_BEITRAEGE_WERKTAG", 3)),
+    beitraegeWerktag: Number(env("IG_BEITRAEGE_WERKTAG", 2)),
     beitraegeWochenende: Number(env("IG_BEITRAEGE_WOCHENENDE", 2)),
     storiesProTag: Number(env("IG_STORIES_PRO_TAG", 9)),   // Instagram-Limit über die API: 100 Veröffentlichungen / 24 h
     /* Lokale Uhrzeiten (Europe/Berlin), zu denen Beiträge erscheinen. */
@@ -43,12 +43,14 @@ export const CONFIG = {
     prioritaetGewicht: { hoch: 60, mittel: 25, selten: 15 },
     /* Wöchentlicher Formatplan der Beiträge (0 = Sonntag). Ein Format aus
        autor.mjs → FORMATE. "aktuell" recherchiert im Web. */
+    /* Zwei Beiträge je Tag (Tagesbudget 0,25 €); an Reel-Tagen ersetzt das
+       Reel den zweiten Beitrag. */
     formateJeWochentag: {
-      1: ["pruefungsfrage", "fehlerfalle", "schema"],
-      2: ["pruefungsfrage", "rechenweg", "minifall"],
-      3: ["aktuell", "pruefungsfrage", "vergleich"],
-      4: ["pruefungsfrage", "spickzettel", "schema"],
-      5: ["minifall", "pruefungsfrage", "rechenweg"],
+      1: ["pruefungsfrage", "schema"],
+      2: ["rechenweg", "minifall"],
+      3: ["aktuell", "pruefungsfrage"],
+      4: ["spickzettel", "schema"],
+      5: ["minifall", "pruefungsfrage"],
       6: ["spickzettel", "klausurtechnik"],
       0: ["wochenrueckblick", "pruefungsfrage"],
     },
@@ -86,14 +88,17 @@ export const CONFIG = {
 
   /* Claude API ----------------------------------------------------------- */
   ki: {
-    /* Beiträge und Reels: Opus 5 (präziseste Texte), Denkaufwand „medium“ –
-       „high“ kostete in den ersten Läufen das Mehrfache ohne sichtbaren Gewinn.
-       Stories, Recherche und Kommentare: Sonnet 5 (ein Fünftel des Preises).
-       Sparmodus: IG_KI_MODELL=claude-sonnet-5 setzt alles auf Sonnet. */
-    modell: env("IG_KI_MODELL", "claude-opus-5"),
+    /* Sparbetrieb: Sonnet 5 für alle Texte (Beiträge, Reels, Stories,
+       Recherche, Kommentare), Haiku 4.5 für den Faktencheck. Opus 5 wäre
+       präziser, kostet aber das Fünffache – IG_KI_MODELL=claude-opus-5 schaltet um.
+       Harter Tagesdeckel in USD (0,27 $ ≈ 0,25 €): Ist er erreicht, warten alle
+       weiteren Claude-Aufrufe bis zum nächsten Tag (state/kosten.json, „tage“). */
+    modell: env("IG_KI_MODELL", "claude-sonnet-5"),
     modellNeben: env("IG_KI_MODELL_NEBEN", env("IG_KI_MODELL", "claude-sonnet-5")),
+    modellPruefung: env("IG_KI_MODELL_PRUEFUNG", "claude-haiku-4-5-20251001"),
     effort: env("IG_KI_EFFORT", "medium"),
-    maxVersuche: 3,
+    maxVersuche: Number(env("IG_KI_VERSUCHE", "2")),
+    tagesBudgetUsd: Number(env("IG_TAGESBUDGET_USD", "0.27")),
   },
 
   /* Instagram Graph API -------------------------------------------------- */
@@ -123,8 +128,13 @@ export const CONFIG = {
     fps: 30,
     maxSekunden: 90,
     hintergrundmusik: env("IG_REEL_MUSIK", "true") === "true",  // dezentes, synthetisch erzeugtes Klangbett
-    /* Wochentage, an denen der 18-Uhr-Beitrag ein Reel ist (0 = So) – täglich. */
-    tage: [0, 1, 2, 3, 4, 5, 6],
+    /* Split-Screen: das obere Drittel zeigt eine ruhige Animation, täglich
+       rotierend. IG_REEL_ANIMATION=labyrinth|marble|ring legt eine fest. */
+    animationen: ["labyrinth", "marble", "ring"],
+    animation: env("IG_REEL_ANIMATION", ""),
+    /* Wochentage, an denen der letzte Beitrag ein Reel ist (0 = So):
+       Di, Do, Sa, So – an den anderen Tagen zwei Carousels. */
+    tage: (env("IG_REEL_TAGE", "0,2,4,6")).split(",").map(Number),
     /* Kurz-Reels (20–35 s) an allen Tagen, sonntags ein langes Schema-Reel (bis 60 s). */
     langeTage: [0],
   },

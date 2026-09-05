@@ -24,7 +24,10 @@ export function berichtErstellen({ ledger, strategie, follower, kosten, datum, f
   if (strategie?.reichweite7 != null) zeilen.push(`Reichweite letzte 7 Tage: ${strategie.reichweite7}`);
   zeilen.push(`Veröffentlicht: ${beitraege.length} Beiträge (davon ${beitraege.filter((b) => b.format === "reel").length} Reels), ${stories.length} Stories`);
   zeilen.push(`Kommentare beantwortet: ${antworten.length} · Karten per Nachricht: ${karten.length}`);
-  zeilen.push(`Kosten Claude API diese Woche: ≈ ${(kosten?.usd ?? 0).toFixed(2)} $ (${kosten?.aufrufe ?? 0} Aufrufe, Cache-Anteil ${Math.round((kosten?.cacheAnteil ?? 0) * 100)} %)`, "");
+  zeilen.push(`Kosten Claude API diese Woche: ≈ ${(kosten?.usd ?? 0).toFixed(2)} $ (${kosten?.aufrufe ?? 0} Aufrufe, Cache-Anteil ${Math.round((kosten?.cacheAnteil ?? 0) * 100)} %)`);
+  const tage = Object.entries(kosten?.tage || {}).sort().slice(-7);
+  if (tage.length) zeilen.push(`Je Tag (Deckel ${(kosten?.limit ?? 0).toFixed(2)} $): ${tage.map(([t, v]) => `${t.slice(8)}.${t.slice(5, 7)}. ${(v.usd ?? 0).toFixed(2)} $`).join(" · ")}`);
+  zeilen.push("");
   if (top.length) {
     zeilen.push("Beste Beiträge (Speichern ×3, Teilen ×4, Kommentare ×2, Likes, Reichweite):");
     for (const t of top) zeilen.push(`  · ${t.titel} — ${t.format}/${t.fach} · Reichweite ${t.insights.reach ?? "?"}, gespeichert ${t.insights.saved ?? "?"}, geteilt ${t.insights.shares ?? "?"}`);

@@ -11,6 +11,7 @@
 
 import Anthropic from "@anthropic-ai/sdk";
 import { CONFIG } from "./config.mjs";
+import { budgetPruefen, erfassen } from "./kosten.mjs";
 import { korpus } from "./pruefung.mjs";
 
 let clientCache = null;
@@ -85,6 +86,7 @@ ${kommentare.map((k) => `- id ${k.id} · Beitrag: „${k.beitrag}“ · @${k.use
 Sperrliste: ${korpus().namen.join(", ")}
 
 Gib für jede id an, ob geantwortet werden soll (antworten), den Grund bei Nein (grund) und den Antworttext (text, null bei Nein).`;
+  budgetPruefen("Kommentare beantworten");
   const response = await client().messages.create({
     model: CONFIG.ki.modellNeben,
     max_tokens: 8000,
@@ -93,6 +95,7 @@ Gib für jede id an, ob geantwortet werden soll (antworten), den Grund bei Nein 
     thinking: { type: "adaptive" },
     output_config: { effort: "medium", format: { type: "json_schema", schema: ANTWORT_SCHEMA } },
   });
+  erfassen(CONFIG.ki.modellNeben, response.usage, "kommentare");
   if (response.stop_reason === "refusal") return [];
   const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
   const daten = JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1));

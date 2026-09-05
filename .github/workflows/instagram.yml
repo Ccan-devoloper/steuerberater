@@ -101,6 +101,11 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
           IG_REELS: ${{ vars.IG_REELS }}
+          IG_REEL_TAGE: ${{ vars.IG_REEL_TAGE }}
+          IG_REEL_ANIMATION: ${{ vars.IG_REEL_ANIMATION }}
+          IG_TAGESBUDGET_USD: ${{ vars.IG_TAGESBUDGET_USD }}
+          IG_KI_MODELL_PRUEFUNG: ${{ vars.IG_KI_MODELL_PRUEFUNG }}
+          IG_KI_VERSUCHE: ${{ vars.IG_KI_VERSUCHE }}
           IG_STIMME: ${{ vars.IG_STIMME }}
           IG_SCHLUESSELWORT: ${{ vars.IG_SCHLUESSELWORT }}
           IG_FAKTENCHECK: ${{ vars.IG_FAKTENCHECK }}

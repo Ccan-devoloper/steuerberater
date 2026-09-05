@@ -70,21 +70,23 @@ jede Recherche und jede Kommentarantwort ruft der Bot die Claude API auf, und An
 nach verarbeiteten Wörtern (Tokens) ab – eine eigene Abrechnung mit Guthaben, unabhängig von einem
 Claude-Abo.
 
-Was in den ersten Läufen auffiel: Hoher Denkaufwand („effort high“) und drei Nachbesserungsrunden je
-Beitrag haben den Verbrauch etwa verdreifacht. Deshalb gilt jetzt: Beiträge und Reels mit
-`claude-opus-5` (5 $ / 25 $ je Million Tokens rein/raus) bei „effort medium“; Stories, Recherche und
-Kommentare mit `claude-sonnet-5` (2 $ / 10 $); der feste Prompt-Teil ist groß genug für
-Prompt-Caching (Cache-Lesen kostet ein Zehntel).
+**Tagesdeckel 0,25 €:** Der Bot gibt pro Tag höchstens `IG_TAGESBUDGET_USD` aus (Standard 0,27 $ ≈ 0,25 €).
+Vor jedem Claude-Aufruf prüft er den Tagesverbrauch (`state/kosten.json`, Abschnitt `tage`); ist der
+Deckel erreicht, warten alle weiteren Texte bis zum nächsten Tag – bereits geschriebene Inhalte werden
+trotzdem veröffentlicht. Damit das reicht, läuft alles im Sparbetrieb: Beiträge, Reels, Stories,
+Recherche und Kommentare mit `claude-sonnet-5` (2 $ / 10 $ je Million Tokens rein/raus), der
+Faktencheck mit `claude-haiku-4-5` (1 $ / 5 $), höchstens eine Nachbesserungsrunde je Text, zwei
+Beiträge je Tag (an Reel-Tagen ein Carousel und ein Reel).
 
-| Aufruf | je Tag | Tokens rein / raus (ca.) | Kosten |
-| --- | --- | --- | --- |
-| Beitrag/Reel schreiben, Opus 5 (inkl. Nachbesserung) | 3 | 8.000 (meist aus dem Cache) / 4.000 | 0,33 $ |
-| Stories schreiben, Sonnet 5 (ein Aufruf für alle) | 1 | 8.000 / 3.000 | 0,04 $ |
-| Web-Recherche, Sonnet 5 (nur mittwochs) | 1/7 | 15.000 / 3.000 | 0,01 $ |
-| Kommentare beantworten, Sonnet 5 | 3–5 | 3.000 / 500 | 0,03 $ |
+| Aufruf | je Tag | Kosten (ca.) |
+| --- | --- | --- |
+| Beitrag oder Reel schreiben, Sonnet 5 (inkl. einer Nachbesserung) | 2 | 0,12 $ |
+| Faktencheck, Haiku 4.5 | 2–4 | 0,02 $ |
+| Stories schreiben, Sonnet 5 (ein Aufruf für alle) | 1 | 0,05 $ |
+| Kommentare beantworten, Sonnet 5 | 1–3 | 0,02 $ |
 
-Rund **0,40 $ ≈ 0,35 € pro Tag, also etwa 11 € im Monat**. Sparmodus: Variable
-`IG_KI_MODELL` = `claude-sonnet-5` stellt alles auf Sonnet um (≈ 4 € im Monat, Texte etwas einfacher).
+Rund **0,20 $ pro Tag, also etwa 6 $ im Monat**; der Deckel fängt Ausreißer ab. `IG_KI_MODELL` =
+`claude-opus-5` schaltet auf das präzisere Modell um – dann reicht der Deckel nur für einen Beitrag am Tag.
 
 **Damit der Bot nie stehen bleibt:** In der Anthropic-Konsole unter *Organisations-Credits* →
 **„Automatisches Neuladen aktivieren“** einschalten (z. B. 10 $ nachladen, sobald das Guthaben unter
@@ -194,6 +196,13 @@ Reels sind der größte Reichweiten-Hebel auf Instagram. Der Bot baut sie aus ei
 6–8 Szenen: Bildschirmtext (Essenz) plus Sprechertext (Erklärung), 45–60 Sekunden, Hochformat,
 mitlaufende Untertitel Wort für Wort, dezentes Klangbett, Cover-Bild. Format: MP4, H.264, AAC,
 1080×1920, 30 fps – direkt über die Graph API als `REELS` veröffentlicht (`share_to_feed`).
+
+**Split-Screen:** Das obere Drittel des Videos zeigt eine ruhige, selbst berechnete Animation, die
+das Auge beschäftigt, während unten der Inhalt läuft – täglich rotierend: Labyrinth (Kugel rollt den
+Lösungsweg), Marble Run (Kugeln über Rampen) und Ring (Kugel entkommt rotierenden Ringen). Kein
+Fremdmaterial, alles deterministisch in den Farben des Tages-Stils. `IG_REEL_ANIMATION` =
+`labyrinth` | `marble` | `ring` legt eine Animation fest. Die Untertitel stehen als Block aus drei bis
+vier Wörtern fest im Bild; nur die Farbe des gesprochenen Wortes wechselt.
 
 **Stimme – drei Varianten, automatisch gewählt** (`IG_STIMME` erzwingt eine):
 

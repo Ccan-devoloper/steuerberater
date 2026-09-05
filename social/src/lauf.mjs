@@ -30,7 +30,7 @@ import { verteilen } from "./verteilen.mjs";
 import { varianteErmitteln } from "./wechsel.mjs";
 import { kartenVerschicken } from "./nachrichten.mjs";
 import { berichtErstellen, berichtSenden } from "./bericht.mjs";
-import { abschluss as kostenAbschluss } from "./kosten.mjs";
+import { abschluss as kostenAbschluss, budgetSetzen, tagesStand, tagesLimit, BudgetFehler } from "./kosten.mjs";
 import { wochentag } from "./zeit.mjs";
 import { heuteIso, lokaleMinuten, minutenVon } from "./zeit.mjs";
 
@@ -60,6 +60,16 @@ async function main() {
 
   const hosting = new Hosting({ pushen: !nurPlanen }).vorbereiten();
   const ledgerPfad = path.join(hosting.stateDir, "ledger.json");
+
+  /* Tagesdeckel: bisheriger Verbrauch des Tages aus state/kosten.json, jeder
+     weitere Aufruf wird sofort dort festgehalten. */
+  const kostenStart = hosting.jsonLesen("kosten.json", { wochen: {}, tage: {} });
+  budgetSetzen({
+    limitUsd: CONFIG.ki.tagesBudgetUsd,
+    bisher: kostenStart.tage?.[datum]?.usd || 0,
+    speichern: (usd, aufrufe) => { const k = hosting.jsonLesen("kosten.json", { wochen: {}, tage: {} }); k.tage = k.tage || {}; k.tage[datum] = { usd: Number(usd.toFixed(4)), aufrufe: (kostenStart.tage?.[datum]?.aufrufe || 0) + aufrufe, stand: new Date().toISOString() }; hosting.jsonSchreiben("kosten.json", k); },
+  });
+  log(`Tagesbudget: ${tagesStand().toFixed(3)} $ von ${tagesLimit().toFixed(2)} $ verbraucht`);
   const ledger = ledgerLaden(ledgerPfad);
   const pool = themenpool();
   const poolIndex = new Map(pool.map((t) => [t.id, t]));
@@ -109,7 +119,7 @@ async function main() {
         if (r.beantwortet) { ledgerSpeichern(ledgerPfad, ledger); hosting.commit(`Kommentare beantwortet ${datum}`); await hosting.push(); }
         log(`Interaktion: ${r.beantwortet} Antworten (${r.geprueft} Beiträge, ${r.kommentare ?? 0} Kommentare geprüft)`);
       } catch (e) {
-        console.error(`  ✗ Interaktion: ${e.message}`);
+        if (e instanceof BudgetFehler) log(`  ⏸ ${e.message}`); else console.error(`  ✗ Interaktion: ${e.message}`);
       }
     }
     /* Schlüsselwort-Nachrichten: Spickzettel-Karten an Kommentierende. */
@@ -136,7 +146,7 @@ async function main() {
     if (wochentag(new Date(`${datum}T12:00:00Z`)) === CONFIG.bericht.wochentag && berichtStand.woche !== kw) {
       try {
         const kostenWoche = hosting.jsonLesen("kosten.json", { wochen: {} });
-        const text = berichtErstellen({ ledger, strategie: hosting.jsonLesen("strategie.json", null), follower: hosting.jsonLesen("follower.json", []), kosten: kostenWoche.wochen?.[wochenKennung(vorwoche(datum))] || kostenWoche.wochen?.[kw], datum, fehler: hosting.jsonLesen("fehler.json", []).slice(-10), hinweise: berichtHinweise() });
+        const text = berichtErstellen({ ledger, strategie: hosting.jsonLesen("strategie.json", null), follower: hosting.jsonLesen("follower.json", []), kosten: { ...(kostenWoche.wochen?.[wochenKennung(vorwoche(datum))] || kostenWoche.wochen?.[kw] || {}), tage: kostenWoche.tage || {}, limit: CONFIG.ki.tagesBudgetUsd }, datum, fehler: hosting.jsonLesen("fehler.json", []).slice(-10), hinweise: berichtHinweise() });
         hosting.jsonSchreiben(`berichte/${kw}.txt`, { text });
         const r = await berichtSenden(text, `Instagram-Bot · Wochenbericht ${kw}`);
         hosting.jsonSchreiben("bericht.json", { woche: kw, gesendet: r.gesendet, grund: r.grund || null });
@@ -163,7 +173,8 @@ async function main() {
           hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, reel);
         }
         const varianteReel = await varianteErmitteln({ ig, ledger, trocken, log });
-        const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel });
+        const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel, datum });
+        log(`  Reel gebaut: ${r.dauer.toFixed(1)} s · Stimme ${r.anbieter} · Animation ${r.animation}`);
         const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Reel ${datum} ${eintrag.slot}`);
         const caption = `${reel.caption}\n\n${reel.hashtags.join(" ")}`;
         const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption });
@@ -217,6 +228,7 @@ async function main() {
       await hosting.push();
       log(`  ✓ ${medienId} (${urls.length} Folien)`);
     } catch (e) {
+      if (e instanceof BudgetFehler) { log(`  ⏸ ${e.message}`); continue; }
       fehler++;
       eintrag.fehler = `${new Date().toISOString()} ${e.message}`;
       planSpeichern(hosting, plan);
@@ -236,8 +248,8 @@ async function main() {
         const neu = await storiesSchreiben(offen.map((s) => ({ slot: s.slot, art: s.art, thema: s.themaId ? poolIndex.get(s.themaId) : null, tageBisExamen: s.tageBisExamen })), datum);
         for (const s of neu) { hosting.jsonSchreiben(`inhalte/${datum}-${s.slot}.json`, s); geschrieben.set(s.slot, s); }
       } catch (e) {
-        fehler++;
-        console.error(`  ✗ Stories schreiben: ${e.message}`);
+        if (e instanceof BudgetFehler) log(`  ⏸ ${e.message}`);
+        else { fehler++; console.error(`  ✗ Stories schreiben: ${e.message}`); }
       }
     }
   }
@@ -270,6 +282,7 @@ async function main() {
       await hosting.push();
       log(`  ✓ Story ${eintrag.slot} ${story.art} → ${medienId}`);
     } catch (e) {
+      if (e instanceof BudgetFehler) { log(`  ⏸ ${e.message}`); continue; }
       fehler++;
       eintrag.fehler = `${new Date().toISOString()} ${e.message}`;
       planSpeichern(hosting, plan);
@@ -355,6 +368,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       if (i + 1 < grenze && !trocken) await new Promise((r) => setTimeout(r, CONFIG.instagram.auffuellPauseSekunden * 1000));
     } catch (e) {
       console.error(`  ✗ Auffüllen ${i + 1}: ${e.message}`);
+      if (e instanceof BudgetFehler) { log(`  ⏸ ${e.message} Auffüllen wird morgen fortgesetzt.`); break; }
       if (/credit|billing|insufficient|402|quota/i.test(e.message)) { console.error("Guthaben oder Kontingent erschöpft – Auffüllen wird beim nächsten Aufruf fortgesetzt."); break; }
       const ratenlimit = /request limit|code (4|17|32|613)\b/i.test(e.message);
       if (ratenlimit) {

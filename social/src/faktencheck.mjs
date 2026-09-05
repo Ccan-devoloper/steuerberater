@@ -7,7 +7,7 @@
 
 import Anthropic from "@anthropic-ai/sdk";
 import { CONFIG } from "./config.mjs";
-import { erfassen } from "./kosten.mjs";
+import { erfassen, budgetPruefen } from "./kosten.mjs";
 
 let clientCache = null;
 const client = () => (clientCache ||= new Anthropic({ maxRetries: 3, timeout: 5 * 60 * 1000 }));
@@ -56,15 +56,17 @@ function textAus(beitrag) {
  */
 export async function pruefeFakten(beitrag) {
   if (!CONFIG.faktencheck.aktiv) return { ok: true, fehler: [], hinweise: [] };
+  budgetPruefen("Faktencheck");
+  const modell = CONFIG.ki.modellPruefung || CONFIG.ki.modellNeben;
   const response = await client().messages.create({
-    model: CONFIG.ki.modellNeben,
+    model: modell,
     max_tokens: 6000,
     system: [{ type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } }],
     messages: [{ role: "user", content: `Prüfe diesen Text:\n\n${textAus(beitrag)}` }],
     thinking: { type: "adaptive" },
     output_config: { effort: "medium", format: { type: "json_schema", schema: SCHEMA } },
   });
-  erfassen(CONFIG.ki.modellNeben, response.usage, "faktencheck");
+  erfassen(modell, response.usage, "faktencheck");
   if (response.stop_reason === "refusal") return { ok: true, fehler: [], hinweise: [] };
   const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
   let daten;
