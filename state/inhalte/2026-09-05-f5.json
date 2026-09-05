@@ -1,0 +1,96 @@
+{
+  "format": "minifall",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-20",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "400.000 € Handelsbilanzgewinn – wie viel bleibt steuerlich?",
+      "untertitel": "Mini-Fall Nordlicht GmbH",
+      "text": "Die Nordlicht GmbH weist 400.000 € Handelsbilanzgewinn aus. Darin: 30.000 € überhöhtes Gehalt an den Alleingesellschafter, 4.000 € angemessene Bewirtungskosten und eine nur steuerlich gewollte Sonderabschreibung von 20.000 €.",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "So sortierst du die Abweichungen",
+      "schritte": [
+        {
+          "titel": "Ausgangswert fixieren",
+          "text": "Handelsbilanzgewinn 400.000 € als Startzeile, § 60 Abs. 2 EStDV."
+        },
+        {
+          "titel": "Überhöhtes Gehalt",
+          "text": "vGA: Aufwand bleibt gebucht, Korrektur nur *außerbilanziell*, § 8 Abs. 3 S. 2 KStG. Mehr 30.000 €."
+        },
+        {
+          "titel": "Bewirtung",
+          "text": "30 % nicht abziehbar, § 4 Abs. 5 S. 1 Nr. 2 EStG. Mehr 1.200 €."
+        },
+        {
+          "titel": "Sonderabschreibung",
+          "text": "Nur steuerlich: Der Steuerbilanzwert sinkt. *Bilanzielle* Differenz, Weniger 20.000 €."
+        },
+        {
+          "titel": "Vorzeichen ableiten",
+          "text": "Steigt oder sinkt der Gewinn? Nie auswendig setzen."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Ergebnis und Abstimmung",
+      "formel": "Handelsbilanzgewinn + Mehr − Weniger = steuerliches Ergebnis",
+      "zeilen": [
+        "Handelsbilanzgewinn: 400.000 €",
+        "− Sonderabschreibung (bilanziell): 20.000 €",
+        "= Steuerbilanzgewinn: 380.000 €",
+        "+ vGA (außerbilanziell): 30.000 €",
+        "+ Bewirtung 30 % (außerbilanziell): 1.200 €"
+      ],
+      "ergebnis": "Einkommen vor Verlustabzug: 411.200 €",
+      "icon": "rechner"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Ändert sich ein Bilanzansatz, gehört die Differenz in die Steuerbilanz. Ändert sich nur das Einkommen, bleibt die Bilanz unberührt.",
+      "icon": "haken"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Mehr-/Weniger-Rechnung und Überleitung zum steuerlichen Gewinn – der Dauerbrenner in Klausur 3. 📊\n\nDer Mini-Fall zeigt die entscheidende Weiche: vGA und nicht abziehbare Bewirtungskosten korrigierst du nur außerbilanziell, der Bilanzansatz bleibt unverändert. Die Sonderabschreibung dagegen verändert den Steuerbilanzwert – das ist eine echte bilanzielle Differenz.\n\nDas Vorzeichen leitest du immer aus der Gewinnwirkung ab, nie aus dem Gedächtnis. Und am Schluss stimmst du ab: Ausgangswert plus Mehr minus Weniger muss auf den Endwert passen.\n\n👉 Speichern und vor der nächsten Übungsklausur wiederholen. Wo rutschst du eher ab – bei der Zuordnung oder beim Vorzeichen?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht",
+    "#mehrwenigerrechnung",
+    "#körperschaftsteuer",
+    "#vga",
+    "#steuerbilanz",
+    "#klausurtipps"
+  ],
+  "kurztitel": "Mehr-/Weniger-Rechnung im Mini-Fall",
+  "quellen": [],
+  "hookTyp": "zahl",
+  "faktenHinweise": [],
+  "slug": "2026-09-05-f5"
+}
