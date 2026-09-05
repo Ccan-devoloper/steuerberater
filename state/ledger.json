@@ -542,6 +542,16 @@
       "medienId": "17882139525505279",
       "variante": 1,
       "veroeffentlicht": "2026-09-05T13:05:28.806Z"
+    },
+    {
+      "datum": "2026-09-05",
+      "art": "story",
+      "slot": "s2",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "§ 6b: Gewinn statt Erlös",
+      "medienId": "18153754663502469"
     }
   ],
   "fachZaehler": {
