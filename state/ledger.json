@@ -590,6 +590,20 @@
       "variante": 1,
       "veroeffentlicht": "2026-09-06T05:48:50.139Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-06",
+      "art": "beitrag",
+      "slot": "f18",
+      "format": "fehlerfalle",
+      "thema": "bilanz-karte-k3-8",
+      "fach": "bilanz",
+      "titel": "Der Fehler bei Rückstellungen, der dich in der Bilanzklausur Punkte kostet",
+      "hookTyp": "fehler",
+      "medienId": "18432756715179600",
+      "variante": 0,
+      "veroeffentlicht": "2026-09-06T06:01:41.114Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -597,7 +611,7 @@
     "ust": 3,
     "kst": 3,
     "ao": 4,
-    "bilanz": 7,
+    "bilanz": 8,
     "istr": 6
   },
   "nachrichten": []
