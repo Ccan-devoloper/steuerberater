@@ -154,7 +154,10 @@ async function main() {
       } catch (e) { console.error(`  ✗ Wochenbericht: ${e.message}`); }
     }
   }
-  const auffuellOffen = !trocken && !nurPlanen && (() => { const a = hosting.jsonLesen("auffuellen.json", null); return a && a.fertig < a.ziel; })();
+  /* Auffüllen läuft erst, wenn die regulären Beiträge des Tages durch sind –
+     sonst frisst es morgens das Tagesbudget, und Reel und Stories fallen aus. */
+  const tagesplanFertig = plan.beitraege.every((b) => b.status === "veroeffentlicht" || b.fehler);
+  const auffuellOffen = !trocken && !nurPlanen && tagesplanFertig && (() => { const a = hosting.jsonLesen("auffuellen.json", null); return a && a.fertig < a.ziel; })();
   if (!beitraegeFaellig.length && !storiesFaellig.length && !auffuellOffen) { log("Nichts fällig."); return; }
   const frei = () => kontingent.maximum - kontingent.genutzt - CONFIG.instagram.sicherheitsabstandLimit;
 
@@ -294,7 +297,8 @@ async function main() {
   /* Ein angefangenes Auffüllen (state/auffuellen.json) läuft von selbst weiter –
      in kleinen Portionen, damit der Stundenlauf nicht blockiert. */
   const auffuellStand = hosting.jsonLesen("auffuellen.json", null);
-  if (!trocken && !nurPlanen && auffuellStand && auffuellStand.fertig < auffuellStand.ziel) {
+  const planJetztFertig = plan.beitraege.every((b) => b.status === "veroeffentlicht" || b.fehler);
+  if (!trocken && !nurPlanen && planJetztFertig && auffuellStand && auffuellStand.fertig < auffuellStand.ziel) {
     log(`Auffüllen fortsetzen: ${auffuellStand.fertig}/${auffuellStand.ziel}`);
     try { await auffuellenLauf(auffuellStand.ziel, { hosting, ledger, ledgerPfad, pool, poolIndex, strategie, maxJeLauf: 4 }); }
     catch (e) { fehler++; console.error(`  ✗ Auffüllen: ${e.message}`); }
