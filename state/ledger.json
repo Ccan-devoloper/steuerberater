@@ -552,6 +552,20 @@
       "fach": "bilanz",
       "titel": "§ 6b: Gewinn statt Erlös",
       "medienId": "18153754663502469"
+    },
+    {
+      "datum": "2026-09-06",
+      "art": "beitrag",
+      "slot": "b1",
+      "format": "anlass",
+      "thema": "istr-modul-istr-istr2-05",
+      "fach": "istr",
+      "titel": "Nur noch 30 Tage – was solltest du jetzt wirklich noch lernen?",
+      "hookTyp": "frage",
+      "medienId": "18132939373642755",
+      "variante": 0,
+      "veroeffentlicht": "2026-09-06T05:46:05.229Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -560,7 +574,7 @@
     "kst": 3,
     "ao": 4,
     "bilanz": 7,
-    "istr": 5
+    "istr": 6
   },
   "nachrichten": []
 }
