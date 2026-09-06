@@ -576,11 +576,25 @@
       "fach": "istr",
       "titel": "30 Tage bis zur Prüfung",
       "medienId": "18113006573045904"
+    },
+    {
+      "datum": "2026-09-06",
+      "art": "beitrag",
+      "slot": "f17",
+      "format": "pruefungsfrage",
+      "thema": "ust-modul-ust-213",
+      "fach": "ust",
+      "titel": "20.000 € Marktwert, 8.000 € Kaufpreis – welche Bemessungsgrundlage zählt?",
+      "hookTyp": "zahl",
+      "medienId": "18090472283445149",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-06T05:48:50.139Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
     "persg": 2,
-    "ust": 2,
+    "ust": 3,
     "kst": 3,
     "ao": 4,
     "bilanz": 7,
