@@ -1,0 +1,106 @@
+{
+  "datum": "2026-09-06",
+  "erzeugt": "2026-09-06T05:43:36.921Z",
+  "anlass": {
+    "datum": "2026-09-06",
+    "art": "countdown",
+    "titel": "30 Tage bis zum Examen",
+    "kontext": "In 30 Tagen beginnt die schriftliche Steuerberaterprüfung (2026-10-06 bis 2026-10-08). Jetzt nur noch wiederholen, was sitzt – keine neuen Themen mehr."
+  },
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:30",
+      "format": "anlass",
+      "themaId": "istr-modul-istr-istr2-05",
+      "themaTitel": "Unbewegliches Vermögen und Veräußerungsgewinne: Art. 6 und Art. 13 DBA",
+      "fach": "istr",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "reel",
+      "themaId": "kst-modul-kst-8",
+      "themaTitel": "Veräußerungsgewinne, Teilwertabschreibungen und Verluste",
+      "fach": "kst",
+      "lang": true,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "07:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "10:35",
+      "art": "frage",
+      "themaId": "bilanz-quiz-k3-13",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "10:35",
+      "art": "antwort",
+      "themaId": "bilanz-quiz-k3-13",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "13:29",
+      "art": "norm",
+      "themaId": "istr-modul-istr-istr3-10",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "15:04",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 30,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "17:03",
+      "art": "merksatz",
+      "themaId": "istr-modul-istr-istr3-01",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "18:26",
+      "art": "formel",
+      "themaId": "bilanz-formel-zinsstaffel",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "20:08",
+      "art": "begriff",
+      "themaId": "bilanz-karte-k3-7",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
