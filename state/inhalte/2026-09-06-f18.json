@@ -1,0 +1,78 @@
+{
+  "format": "fehlerfalle",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-8",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der Fehler bei Rückstellungen, der dich in der Bilanzklausur Punkte kostet",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "vergleich",
+      "titel": "HB-Wert übernommen vs. steuerlich korrekt",
+      "links": {
+        "titel": "Richtig",
+        "punkte": [
+          "Stichtagspreise ansetzen, keine *künftigen* Steigerungen",
+          "Ansammlungsrückstellung ratierlich verteilen",
+          "Abzinsung mit festem Satz nach § 6 Abs. 1 Nr. 3a EStG"
+        ]
+      },
+      "rechts": {
+        "titel": "Klassischer Fehler",
+        "punkte": [
+          "Erfüllungsbetrag mit Preissteigerung wie in der HB",
+          "Sieben-Jahres-Durchschnittszins übernommen",
+          "HB-Wert ungeprüft als Steuerwert eingesetzt"
+        ]
+      },
+      "icon": "warnung"
+    },
+    {
+      "art": "text",
+      "titel": "Warum getrennt bewertet wird",
+      "text": "Die Handelsbilanz rechnet mit erwarteten Preisen und dem *Durchschnittszins* der letzten sieben Jahre nach § 253 HGB. Die Steuerbilanz bleibt strenger: § 6 Abs. 1 Nr. 3a EStG verlangt Stichtagspreise, ratierliche Ansammlung bei Sachleistungsverpflichtungen und eine eigenständige, im Gesetz festgelegte *Abzinsung*, die von der handelsrechtlichen Durchschnittszinsmethode abweicht. Am Ende deckelt R 6.11 Abs. 3 EStR: Der Steuerwert darf den *HB-Wert* nie übersteigen."
+    },
+    {
+      "art": "cta",
+      "titel": "Fehlerfallen jede Woche.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ]
+    }
+  ],
+  "caption": "Rückstellungsbewertung Handelsbilanz vs. Steuerbilanz – der Unterschied, der Klausuren entscheidet.\n\nWer den HB-Wert einfach in die Steuerbilanz überträgt, verliert Punkte. Die Steuerbilanz rechnet strenger: Stichtagspreise statt Prognosen, ratierliche Ansammlung, ein eigener gesetzlich festgelegter Abzinsungssatz – und am Ende gilt der HB-Wert nur als Deckel nach R 6.11 Abs. 3 EStR.\n\nMerke: Steuerlich wird konservativer bewertet, nicht großzügiger.\n\nWelcher Bewertungsschritt bringt dich am meisten durcheinander – Ansammlung oder Abzinsung?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht",
+    "#rückstellungen",
+    "#steuerbilanz",
+    "#handelsbilanz",
+    "#klausurtipps",
+    "#bilanzierung"
+  ],
+  "kurztitel": "Rückstellung: HB vs. StB",
+  "quellen": [
+    "§ 253 HGB",
+    "§ 6 Abs. 1 Nr. 3a EStG",
+    "R 6.11 Abs. 3 EStR"
+  ],
+  "hookTyp": "fehler",
+  "faktenHinweise": [
+    "Faktencheck ausgefallen: Tagesbudget erreicht (0.279 $ von 0.27 $) – Faktencheck wartet bis morgen."
+  ],
+  "slug": "2026-09-06-f18"
+}
