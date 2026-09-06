@@ -1,0 +1,84 @@
+{
+  "format": "anlass",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr2-05",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Nur noch 30 Tage – was solltest du jetzt wirklich noch lernen?",
+      "icon": "uhr",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "So nutzt du die letzten 30 Tage",
+      "schritte": [
+        {
+          "titel": "Keine neuen Themen mehr",
+          "text": "Ab jetzt nur festigen, was schon sitzt."
+        },
+        {
+          "titel": "Dauerbrenner zuerst",
+          "text": "Themen, die fast jedes Jahr drankommen, priorisieren."
+        },
+        {
+          "titel": "Klausuren unter Zeit",
+          "text": "Nicht nur lösen – die 3,6-Minuten-pro-Punkt-Regel einhalten."
+        },
+        {
+          "titel": "Prüfschemata laut aufsagen",
+          "text": "Wer die Reihenfolge nicht abrufen kann, verliert Zeit im Ernstfall."
+        }
+      ],
+      "icon": "kalender"
+    },
+    {
+      "art": "text",
+      "titel": "Dauerbrenner: Grundstücke im DBA",
+      "text": "Ein Klassiker in Klausur 2: Ein Steuerpflichtiger hat eine Immobilie im Ausland. Erst die *nationale* Anknüpfung nach § 49 EStG prüfen. Dann trennen: Laufende Nutzung fällt unter *Art. 6 DBA*, eine Veräußerung dagegen unter *Art. 13 DBA*. Erst danach folgt die Vermeidungsmethode nach Art. 23 DBA im Ansässigkeitsstaat.",
+      "icon": "globus"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Erst den Gegenstand bestimmen, dann die Norm wählen – nicht umgekehrt.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "30 Tage. Kein Grund zur Panik.",
+      "punkte": [
+        "Folgen für tägliche Wiederholung zu allen drei Klausuren",
+        "Speichern und in der letzten Woche nochmal durchgehen",
+        "Was ist dein Dauerbrenner-Thema? Kommentiere!"
+      ],
+      "icon": "trophaee"
+    }
+  ],
+  "caption": "30 Tage bis zur Steuerberaterprüfung – Art. 6 und Art. 13 DBA bei Grundstücken sitzen?\n\nDie schriftliche Prüfung beginnt am 6. Oktober 2026. Jetzt ist nicht mehr die Zeit für neue Themen, sondern für die Dauerbrenner. Grundstücke im DBA gehören dazu: erst § 49 EStG national prüfen, dann laufende Erträge (Art. 6) von Veräußerungen (Art. 13) trennen.\n\nWer die Reihenfolge im Schlaf abrufen kann, spart in der Klausur wertvolle Minuten.\n\nWelches Prüfschema sitzt bei dir noch nicht ganz sicher? Schreib's in die Kommentare.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht",
+    "#dba",
+    "#countdown",
+    "#lernplan",
+    "#klausurtipps",
+    "#prüfungsangst"
+  ],
+  "kurztitel": "30 Tage bis zur Prüfung",
+  "quellen": [],
+  "hookTyp": "frage",
+  "faktenHinweise": [
+    "Folie text: 'Erst die *nationale* Anknüpfung nach § 49 EStG prüfen.': § 49 EStG regelt die Einkünfte aus Vermietung und Verpachtung von Grundstücken. Die Formulierung 'nationale Anknüpfung' ist im Kontext der internationalen Besteuerung unscharf. Unklar ist, ob damit gemeint ist: (1) die Prüfung der unbeschränkten Steuerpflicht nach § 1 Abs. 1 EStG, (2) die Qualifikation der Einkünfte nach deutschem Recht vor Anwendung des DBA, oder (3) die Frage nach inländischem Grundbesitz gemäß § 49 Abs. 1 Nr. 2 EStG. Für eine Klausur zum Steuerberaterexamen müsste präziser sein, welche Prüfschritt gemeint ist."
+  ],
+  "slug": "2026-09-06-b1"
+}
