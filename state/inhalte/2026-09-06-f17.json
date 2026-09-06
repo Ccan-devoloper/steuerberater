@@ -1,0 +1,109 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-213",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "20.000 € Marktwert, 8.000 € Kaufpreis – welche Bemessungsgrundlage zählt?",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "mittel",
+      "prioritaetText": "Regelmäßig geprüft"
+    },
+    {
+      "art": "text",
+      "titel": "Worum es geht",
+      "text": "Die *Nordlicht GmbH* verkauft ihrem Gesellschafter-Geschäftsführer einen Firmenwagen für 8.000 €. Der Marktwert liegt bei 20.000 €, der Einkaufspreis der GmbH lag bei 16.000 €. Normalerweise gilt: Bemessungsgrundlage ist das *vereinbarte Entgelt*. Bei nahestehenden Personen greift aber ein Korrektiv.",
+      "icon": "gebaeude"
+    },
+    {
+      "art": "schritte",
+      "titel": "So prüfst du § 10 Abs. 5 UStG",
+      "schritte": [
+        {
+          "titel": "Leistung gegen Entgelt",
+          "text": "Erst ganz normal: Lieferung, Entgelt, Leistungsaustausch nach § 1 Abs. 1 Nr. 1 UStG bejahen."
+        },
+        {
+          "titel": "Näheverhältnis feststellen",
+          "text": "Gesellschafter zur GmbH ist klassischer Fall des § 10 Abs. 5 Nr. 1 UStG."
+        },
+        {
+          "titel": "Vergleichswert bilden",
+          "text": "Mindest-BMG nach § 10 Abs. 4 UStG: hier der Einkaufspreis von 16.000 €."
+        },
+        {
+          "titel": "Deckelung prüfen",
+          "text": "Mindest-BMG darf das *marktübliche Entgelt* von 20.000 € nie übersteigen."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Verwechslungsgefahr im Blick",
+      "links": {
+        "titel": "Mindest-BMG",
+        "punkte": [
+          "Es liegt ein *entgeltlicher* Umsatz vor.",
+          "Nur die Höhe des Entgelts wird korrigiert.",
+          "Rechtsgrundlage: § 10 Abs. 5 UStG."
+        ]
+      },
+      "rechts": {
+        "titel": "Unentgeltliche Wertabgabe",
+        "punkte": [
+          "Es gibt gar kein Entgelt.",
+          "Bemessung nach § 10 Abs. 4 UStG direkt.",
+          "Rechtsgrundlage: § 3 Abs. 1b/9a UStG."
+        ]
+      },
+      "icon": "diagramm"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Ein niedriges Entgelt unter Nahestehenden schlägt nur so weit durch, wie der Markt es nicht schon gedeckelt hat.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Mindestbemessungsgrundlage § 10 Abs. 5 UStG einfach erklärt\n\nVerkauft eine GmbH verbilligt an ihren Gesellschafter, reicht das vereinbarte Entgelt oft nicht als Bemessungsgrundlage. Dann greift § 10 Abs. 5 UStG mit dem Vergleichswert aus § 10 Abs. 4 UStG – aber nie über den Marktpreis hinaus.\n\nDer klassische Klausurfehler: Mindest-BMG mit der unentgeltlichen Wertabgabe zu verwechseln. Beides folgt eigenen Regeln.\n\nSpeichern für die Wiederholung. Wo verwechselst du am ehesten Mindest-BMG und unentgeltliche Wertabgabe?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#umsatzsteuer",
+    "#mindestbemessungsgrundlage",
+    "#ustg",
+    "#nahestehende",
+    "#klausurtipps",
+    "#verfahrensrecht"
+  ],
+  "kurztitel": "Mindest-BMG bei Nahestehenden",
+  "quellen": [
+    "§ 10 Abs. 5 UStG",
+    "§ 10 Abs. 4 UStG"
+  ],
+  "hookTyp": "zahl",
+  "faktenHinweise": [
+    "[Folie schritte] 'Vergleichswert bilden: Mindest-BMG nach § 10 Abs. 4 UStG: hier der Einkaufspreis von 16.000 €.': Die Systematik könnte missverständlich sein. § 10 Abs. 5 UStG regelt das Näheverhältnis und verweist für die Bemessungsgrundlage auf die Vergleichswerte. § 10 Abs. 4 UStG regelt die Bemessungsgrundlage bei unentgeltlichen Wertabgaben (Selbstkosten). Es ist sachlich richtig, dass der Einkaufspreis als Vergleichswert herangezogen wird, aber die Zuordnung zu '§ 10 Abs. 4 UStG' könnte präzisiert werden: Die Mindest-BMG folgt aus § 10 Abs. 5 UStG (Näheverhältnis), als Vergleichswert wird dann häufig auf die Kosten abgestellt, was aber nicht automatisch 'Abs. 4' ist.",
+    "[Folie vergleich] 'Unentgeltliche Wertabgabe · [...] · Bemessung nach § 10 Abs. 4 UStG direkt. · Rechtsgrundlage: § 3 Abs. 1b/9a UStG.': Die Darstellung ist im Sinne der Fallgruppen richtig, aber es könnte klarer sein: Bei unentgeltlicher Wertabgabe ist die *Umsatzsteuerpflicht* nach § 3 Abs. 1b oder § 3 Abs. 9a UStG begründet (wer gibt die Wertabgabe ab?), und die *Bemessungsgrundlage* dann nach § 10 Abs. 4 UStG. Die doppelte Rechtsgrundlage ist sachlich korrekt, könnte aber pedagogisch getrennt werden."
+  ],
+  "slug": "2026-09-06-f17"
+}
