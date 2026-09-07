@@ -174,14 +174,19 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           set -e
-          # Nur eine Kette: Läuft bereits ein jüngerer Lauf dieses Workflows (höhere Run-ID),
-          # trägt der die Kette weiter – dieser Job endet, sonst vervielfachen sich die Ketten.
-          juengere=0
-          for st in in_progress queued; do
-            n=$(gh api "repos/$GH_REPO/actions/runs?status=$st&per_page=50" --jq "[.workflow_runs[] | select(.path == \".github/workflows/instagram.yml\" and .id > $GITHUB_RUN_ID)] | length")
-            juengere=$((juengere + n))
-          done
-          if [ "$juengere" != "0" ]; then echo "Jüngere Kette aktiv ($juengere) – dieser Weckruf endet."; exit 0; fi
+          # Nur eine Kette: Läuft oder wartet bereits ein jüngerer Lauf dieses Workflows
+          # (höhere Run-ID), trägt der die Kette weiter – dieser Job endet. Geprüft zu
+          # Beginn und noch einmal direkt vor dem Wecken (ein planmäßiger Lauf von GitHub
+          # startet sonst eine zweite Kette). „pending“ sind Läufe, die auf die
+          # Concurrency-Gruppe warten.
+          juengere_kette() {
+            local n=0 st
+            for st in in_progress queued pending waiting requested; do
+              n=$((n + $(gh api "repos/$GH_REPO/actions/runs?status=$st&per_page=50" --jq "[.workflow_runs[] | select(.path == \".github/workflows/instagram.yml\" and .id > $GITHUB_RUN_ID)] | length")))
+            done
+            echo $n
+          }
+          if [ "$(juengere_kette)" != "0" ]; then echo "Jüngere Kette aktiv – dieser Weckruf endet."; exit 0; fi
           jetzt=$(date -u +%s)
           # Nächster Slot: heute Minute 35 der nächsten vollen Stunde zwischen 05 und 20 UTC, sonst morgen 05:35.
           h=$((10#$(date -u +%H))); m=$((10#$(date -u +%M)))
@@ -195,10 +200,12 @@ jobs:
           if [ $warten -gt 19800 ]; then
             # Länger als 5,5 h (Nachtpause): zwischendurch einmal nur die Kette weiterreichen.
             sleep 19800
+            if [ "$(juengere_kette)" != "0" ]; then echo "Jüngere Kette aktiv – dieser Weckruf endet."; exit 0; fi
             gh workflow run instagram.yml -f modus=live -f wecker=true -f nur_wecken=true
             exit 0
           fi
           [ $warten -gt 0 ] && sleep $warten
+          if [ "$(juengere_kette)" != "0" ]; then echo "Jüngere Kette aktiv – dieser Weckruf endet."; exit 0; fi
           seit=$(date -u -d @$slot +%FT%TZ)
           n=$(gh api "repos/$GH_REPO/actions/runs?created=>=$seit&per_page=20" --jq '[.workflow_runs[] | select(.path == ".github/workflows/instagram.yml")] | length')
           echo "Läufe seit $seit: $n"
