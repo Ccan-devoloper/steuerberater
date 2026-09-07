@@ -1,0 +1,102 @@
+{
+  "format": "minifall",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-3",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "39.300 € statt 40.600 € – nur eine Position macht den Unterschied",
+      "icon": "rechner",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "text",
+      "titel": "Sachverhalt",
+      "text": "Die Tischlerei Nordwald kauft eine Hobelmaschine, Listenpreis *40.000 €* netto. Der Händler gewährt einen Rabatt von 2.000 €. Für Transport fallen 800 €, für die Aufstellung 500 € an. Zusätzlich zahlt Nordwald 600 € für eine Schulung des Personals an der neuen Maschine. Auf alle Positionen fällt Umsatzsteuer an, die Nordwald voll als Vorsteuer abziehen kann.",
+      "icon": "dokument"
+    },
+    {
+      "art": "schritte",
+      "titel": "So löst du den Fall",
+      "schritte": [
+        {
+          "titel": "Vorsteuer aussortieren",
+          "text": "Abziehbare Vorsteuer gehört nach § 9b Abs. 1 EStG nie zu den Anschaffungskosten."
+        },
+        {
+          "titel": "Listenpreis und Rabatt verrechnen",
+          "text": "§ 255 Abs. 1 S. 3 HGB: Preisnachlässe mindern die Anschaffungskosten direkt."
+        },
+        {
+          "titel": "Nebenkosten prüfen",
+          "text": "Transport und Aufstellung sind einzeln zurechenbar und dienen der *Betriebsbereitschaft*, § 255 Abs. 1 S. 1 HGB."
+        },
+        {
+          "titel": "Betriebsbezogene Kosten abgrenzen",
+          "text": "Die Schulung betrifft den laufenden Betrieb, nicht den Zustand der Maschine – kein Aktivierungsgrund."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Ergebnis der Rechnung",
+      "formel": "AK = Listenpreis − Rabatt + Transport + Aufstellung",
+      "zeilen": [
+        "40.000 € − 2.000 € = 38.000 €",
+        "+ 800 € Transport = 38.800 €",
+        "+ 500 € Aufstellung = 39.300 €",
+        "Schulung 600 € bleibt außen vor"
+      ],
+      "ergebnis": "Anschaffungskosten der Maschine: 39.300 €, Schulung sofort als Aufwand",
+      "icon": "muenzen"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Was die Maschine betriebsbereit macht, wandert in die Bilanz. Was das Personal betriebsbereit macht, wandert in die GuV.",
+      "icon": "waage"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag ein Bilanzfall.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welche AK-Position verwechselst du am häufigsten? Kommentiere!"
+      ],
+      "icon": "trophaee"
+    }
+  ],
+  "caption": "Anschaffungskosten Steuerbilanz Beispiel: Was gehört wirklich zur Hobelmaschine dazu?\n\nDie Tischlerei Nordwald kauft eine Maschine für 40.000 € netto, bekommt Rabatt, zahlt Transport, Aufstellung und eine Schulung obendrauf. Nur ein Teil davon darf aktiviert werden – der Rest ist sofort abziehbarer Aufwand.\n\nMerke: Alles, was die Maschine betriebsbereit macht, gehört in die Anschaffungskosten. Alles, was das Personal betrifft, nicht.\n\nSpeichern für die Wiederholung. Welche Position hättest du zuerst falsch eingeordnet?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#anschaffungskosten",
+    "#bilanzsteuerrecht",
+    "#hgb",
+    "#steuerbilanz",
+    "#klausurtipps",
+    "#bilanzierung"
+  ],
+  "kurztitel": "Anschaffungskosten der Maschine",
+  "quellen": [
+    "§ 255 Abs. 1 HGB",
+    "§ 255 Abs. 2 HGB",
+    "§ 9b Abs. 1 EStG",
+    "§ 6 Abs. 1 EStG"
+  ],
+  "hookTyp": "zahl",
+  "faktenHinweise": [
+    "Faktencheck ausgefallen: Tagesbudget erreicht (0.314 $ von 0.27 $) – Faktencheck wartet bis morgen."
+  ],
+  "slug": "2026-09-07-f21"
+}
