@@ -1,0 +1,100 @@
+{
+  "datum": "2026-09-07",
+  "erzeugt": "2026-09-07T05:42:46.105Z",
+  "anlass": null,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:30",
+      "format": "pruefungsfrage",
+      "themaId": "bilanz-quiz-k3-38",
+      "themaTitel": "Wie wird eine Teilwertabschreibung auf eine Beteiligung bei der GmbH behandelt?",
+      "fach": "bilanz",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "schema",
+      "themaId": "erbst-modul-erbst-532",
+      "themaTitel": "Vervielfältiger nach § 13 / § 14 BewG: bestimmte, unbestimmte und lebenslängliche Dauer",
+      "fach": "erbst",
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "07:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "10:27",
+      "art": "frage",
+      "themaId": "bilanz-quiz-k3-39",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "10:27",
+      "art": "antwort",
+      "themaId": "bilanz-quiz-k3-39",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "13:44",
+      "art": "norm",
+      "themaId": "bilanz-glossar-21",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "15:24",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 29,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "16:45",
+      "art": "merksatz",
+      "themaId": "istr-modul-istr-istr3-05",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "18:19",
+      "art": "formel",
+      "themaId": "bilanz-formel-disagio-linear",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "20:15",
+      "art": "begriff",
+      "themaId": "bilanz-glossar-5",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
