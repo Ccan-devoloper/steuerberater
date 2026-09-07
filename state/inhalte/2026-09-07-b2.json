@@ -1,0 +1,95 @@
+{
+  "format": "schema",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer / Bewertung",
+  "themaId": "erbst-modul-erbst-532",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wie bestimmst du den Vervielfältiger nach § 13 und § 14 BewG richtig?",
+      "icon": "rechner",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "So gehst du vor",
+      "schritte": [
+        {
+          "titel": "Dauer klassifizieren",
+          "text": "Erst prüfen: zeitlich begrenzt oder lebenslänglich? Davon hängt die Norm ab."
+        },
+        {
+          "titel": "Bestimmte oder wiederkehrende Dauer",
+          "text": "§ 13 Abs. 1 BewG: Vervielfältiger aus *Anlage 9a* zur vereinbarten Laufzeit ablesen."
+        },
+        {
+          "titel": "Lebenslängliche Dauer",
+          "text": "§ 14 BewG: Alter und Geschlecht am *Stichtag* bestimmen, Faktor aus veröffentlichter Sterbetafel entnehmen."
+        },
+        {
+          "titel": "Sonderfälle gesondert prüfen",
+          "text": "Mindest-/Höchstdauer und mehrere Berechtigte erst im Anschluss an die Grundprüfung berücksichtigen."
+        }
+      ],
+      "icon": "paragraf"
+    },
+    {
+      "art": "text",
+      "titel": "Worauf Korrektoren achten",
+      "punkte": [
+        "Stichtag für Alter und Geschlecht sauber benennen, nicht das Ausstellungsdatum.",
+        "Nie zwischen zwei Tabellenwerten *interpolieren* – der nächste passende Wert zählt.",
+        "Norm zur jeweiligen Dauer explizit zitieren, nicht nur den Faktor hinschreiben.",
+        "Bei Kombination aus Höchstdauer und Lebenslänglichkeit beide Werte gegenüberstellen."
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Feste Laufzeit bringt dich zur Tabelle der Zeitrenten, ein Leben lang bringt dich zur Sterbetafel – dazwischen gibt es keinen eigenen Wert.",
+      "icon": "buch"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag ein Prüfschema.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Bewertungsthema fehlt dir noch? Kommentiere!"
+      ],
+      "icon": "trophaee"
+    }
+  ],
+  "caption": "Vervielfältiger Bewertungsgesetz Erbschaftsteuer – der Fehler, der beim Vervielfältiger fast jeden trifft.\n\nBei Nießbrauch- und Rentenrechten hängt der Kapitalwert am *Vervielfältiger*. Bestimmte oder wiederkehrende Laufzeiten laufen über § 13 Abs. 1 BewG und Anlage 9a, lebenslängliche über § 14 BewG mit Alter und Geschlecht am Stichtag. Wer zwischen zwei Tabellenwerten interpoliert, verliert Punkte – es zählt immer der nächste passende Wert.\n\nSpeicher dir das Schema für die heiße Phase. Wo verwechselst du am ehesten § 13 und § 14 – bei Zeitrenten oder bei der Tabelle selbst?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#erbschaftsteuer",
+    "#bewertungsgesetz",
+    "#vervielfältiger",
+    "#bewg",
+    "#kapitalwert",
+    "#leibrente",
+    "#nießbrauch"
+  ],
+  "kurztitel": "Vervielfältiger § 13/§ 14 BewG",
+  "quellen": [
+    "§ 13 BewG",
+    "§ 14 BewG",
+    "Anlage 9a BewG"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [
+    "Folie schritte - Bestimmte oder wiederkehrende Dauer: Der Text verweist auf 'Anlage 9a zur vereinbarten Laufzeit'. Es ist unklar, ob Anlage 9a (Zeitrentenfaktoren) oder eine andere Anlage gemeint ist. Nach BewG sind die Vervielfältiger für Zeitrenten in den Anlagen zum BewG geregelt, aber die genaue Bezeichnung sollte präzise sein.",
+    "Folie text - Interpolation: Der Hinweis 'Nie zwischen zwei Tabellenwerten interpolieren' ist praktisch sinnvoll, aber es sollte präzisiert werden: Nach den amtlichen Tabellen wird je nach Regelwerk unterschiedlich verfahren (z.B. Abrundung auf den nächsten vollen Monat oder ähnliches). Die pauschale Aussage 'der nächste passende Wert zählt' könnte missverständlich sein."
+  ],
+  "slug": "2026-09-07-b2"
+}
