@@ -680,6 +680,20 @@
       "variante": 0,
       "veroeffentlicht": "2026-09-07T10:58:44.984Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-07",
+      "art": "beitrag",
+      "slot": "f21",
+      "format": "minifall",
+      "thema": "bilanz-modul-k3-3",
+      "fach": "bilanz",
+      "titel": "39.300 € statt 40.600 € – nur eine Position macht den Unterschied",
+      "hookTyp": "zahl",
+      "medienId": "18353052982174457",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-07T11:09:01.956Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -687,7 +701,7 @@
     "ust": 3,
     "kst": 4,
     "ao": 4,
-    "bilanz": 10,
+    "bilanz": 11,
     "istr": 6,
     "erbst": 1
   },
