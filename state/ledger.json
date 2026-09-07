@@ -604,6 +604,20 @@
       "variante": 0,
       "veroeffentlicht": "2026-09-06T06:01:41.114Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-07",
+      "art": "beitrag",
+      "slot": "b1",
+      "format": "pruefungsfrage",
+      "thema": "bilanz-quiz-k3-38",
+      "fach": "bilanz",
+      "titel": "§ 8b Abs. 3 KStG: Warum die Wertminderung zu 100 % neutralisiert wird",
+      "hookTyp": "zahl",
+      "medienId": "17990062938014838",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-07T05:45:45.891Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -611,7 +625,7 @@
     "ust": 3,
     "kst": 3,
     "ao": 4,
-    "bilanz": 8,
+    "bilanz": 9,
     "istr": 6
   },
   "nachrichten": []
