@@ -1,0 +1,79 @@
+{
+  "format": "rechenweg",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-modul-kst-5",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "50.000 € Nennwert, nur 30.000 € Einlage – warum der Rest steuerpflichtig bleibt",
+      "icon": "muenzen",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "rechnung",
+      "titel": "Der Rechenweg",
+      "formel": "Verdeckte Einlage = Teilwert der Forderung im Verzichtszeitpunkt",
+      "zeilen": [
+        "Gesellschafter Krüger verzichtet auf Darlehen gegen die Nordfeld GmbH",
+        "Nennwert der Forderung: 50.000 €",
+        "Die GmbH steckt in der Krise, Teilwert nur noch: 30.000 €",
+        "Gebuchter Ertrag beim Verzicht: 50.000 €",
+        "Außerbilanzielle Kürzung nach § 8 Abs. 3 S. 2 KStG: 30.000 €"
+      ],
+      "ergebnis": "Steuerpflichtig bleiben 20.000 € – der nicht werthaltige Teil der Forderung."
+    },
+    {
+      "art": "text",
+      "titel": "Warum nur der Teilwert zählt",
+      "punkte": [
+        "Eingelegt werden kann nur, was *werthaltig* ist – der wertlose Rest ist einfach ein Verzicht ohne Vermögensvorteil.",
+        "Die GmbH muss den gebuchten Ertrag technisch trennen: werthaltiger Teil außerbilanziell raus, Rest bleibt Gewinn.",
+        "Beim Gesellschafter entstehen in Höhe des Teilwerts nachträgliche Anschaffungskosten auf die Beteiligung.",
+        "Ein Nutzungsvorteil – etwa unentgeltliche Geschäftsführung – wäre dagegen gar nicht einlagefähig."
+      ]
+    },
+    {
+      "art": "cta",
+      "titel": "Verdeckte Einlage sicher im Griff?",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ]
+    }
+  ],
+  "caption": "Verdeckte Einlage KSt Klausur Forderungsverzicht Teilwert\n\nGesellschafter Krüger verzichtet auf sein Darlehen gegen die Nordfeld GmbH – Nennwert 50.000 €, aber die GmbH steckt in der Krise. Nur der werthaltige Teil der Forderung, also der Teilwert im Verzichtszeitpunkt, ist verdeckte Einlage. Der Rest bleibt steuerpflichtiger Ertrag, und die GmbH muss den gebuchten Ertrag entsprechend außerbilanziell kürzen.\n\nSpeichern für die nächste KSt-Klausur. Wo verwechselst du am ehesten Nutzungsvorteil und verdeckte Einlage – kommentier mal ehrlich?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#körperschaftsteuer",
+    "#verdeckteeinlage",
+    "#kststeuer",
+    "#examensvorbereitung",
+    "#steuerrecht",
+    "#steuerberater",
+    "#bilanzsteuerrecht"
+  ],
+  "kurztitel": "Verdeckte Einlage: Der Teilwert zählt",
+  "quellen": [
+    "R 8.9 Abs. 1 KStR",
+    "H 8.9 KStH",
+    "§ 6 Abs. 1 Nr. 5 EStG",
+    "§ 6 Abs. 6 S. 2 EStG",
+    "§ 8 Abs. 3 S. 2 KStG",
+    "§ 27 Abs. 1 S. 1 KStG"
+  ],
+  "hookTyp": "zahl",
+  "faktenHinweise": [
+    "Folie rechnung: 'Außerbilanzielle Kürzung nach § 8 Abs. 3 S. 2 KStG: 30.000 €': Die genaue Normzitierung ist unklar. § 8 Abs. 3 S. 2 KStG behandelt zwar außerbilanziell Kürzungen, aber die Herleitung von verdeckten Einlagen aus Forderungsverzichten (Teilwert) wird üblicherweise über § 8 Abs. 3 KStG (Gewinnermittlung nach Handelsrecht mit Anpassungen) begründet. Die exakte Normstelle für die Anwendung des Teilwertprinzips bei verdeckten Einlagen sollte präziser sein.",
+    "Folie text: 'Beim Gesellschafter entstehen in Höhe des Teilwerts nachträgliche Anschaffungskosten auf die Beteiligung.': Die Formulierung 'nachträgliche Anschaffungskosten' ist hier verkürzt. Präziser wäre es, dies als Einlage (mit damit verbundener Erhöhung der Beteiligungsbuchwerte) zu beschreiben. 'Nachträgliche Anschaffungskosten' kann zu Missverständnissen führen, da dieser Begriff in der KSt eher für Zuführungen zu bestehenden Beteiligungen verwendet wird.",
+    "Folie text: 'Ein Nutzungsvorteil – etwa unentgeltliche Geschäftsführung – wäre dagegen gar nicht einlagefähig.': Diese Aussage ist zu absolut formuliert. Nutzungsvorteile können unter bestimmten Voraussetzungen verdeckte Einlagen darstellen (z.B. bei Erbringung von Dienstleistungen). 'Unentgeltliche Geschäftsführung' ist eher ein Beispiel für etwas, das nicht als verdeckte Einlage, sondern als verdeckte Gewinnausschüttung oder einfach als Personalaufwand behandelt wird – die Abgrenzung ist subtil.",
+    "Gesamttext: Der Sachverhalt wird nicht vollständig eingeführt: Es ist unklar, ob das Darlehen als Forderung in der Bilanz der GmbH aufgeführt ist und ob dies eine Darlehensgewährung durch den Gesellschafter war. Dies ist für das Verständnis relevant."
+  ],
+  "slug": "2026-09-07-f20"
+}
