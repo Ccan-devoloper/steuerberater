@@ -1,0 +1,3 @@
+{
+  "text": "Wochenbericht Instagram-Bot · 31.08.2026 bis 07.09.2026\n\nFollower: 0\nReichweite letzte 7 Tage: 26\nVeröffentlicht: 26 Beiträge (davon 1 Reels), 28 Stories\nKommentare beantwortet: 0 · Karten per Nachricht: 0\nKosten Claude API diese Woche: ≈ 0.57 $ (21 Aufrufe, Cache-Anteil 70 %)\nJe Tag (Deckel 0.27 $): 05.09. 0.29 $ · 06.09. 0.28 $\n\nLernschleife: noch zu wenige bewertete Beiträge (ab 6 beginnt die Anpassung).\n\nHinweise:\n  · Reels sprechen mit der kostenlosen Piper-Stimme; ElevenLabs-Schlüssel schaltet die natürlichere Stimme frei.\n\nFehler der Woche:\n  · 2026-09-04T22:11:55.618Z spawnSync ffmpeg ENOENT\n\nDer Bot läuft weiter ohne dein Zutun. Pausieren: Variable IG_PAUSE=true."
+}

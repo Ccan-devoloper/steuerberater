@@ -1,0 +1,108 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-38",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "§ 8b Abs. 3 KStG: Warum die Wertminderung zu 100 % neutralisiert wird",
+      "icon": "diagramm",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "text",
+      "titel": "Der Sachverhalt",
+      "text": "Die Rheinperle GmbH hält 30 % an der Kornblume GmbH. Der Teilwert der Beteiligung sinkt *dauerhaft* unter die Anschaffungskosten. Die Rheinperle GmbH schreibt in der Handelsbilanz auf den niedrigeren Teilwert ab.",
+      "icon": "gebaeude"
+    },
+    {
+      "art": "schritte",
+      "titel": "So läuft die Behandlung ab",
+      "schritte": [
+        {
+          "titel": "Handelsbilanz",
+          "text": "Abschreibung auf den niedrigeren Teilwert ist bei *dauernder* Wertminderung zulässig, § 253 Abs. 3 S. 5 HGB."
+        },
+        {
+          "titel": "Steuerbilanz",
+          "text": "Die Teilwertabschreibung wird zunächst genauso mitgebucht – Buchwert der Beteiligung sinkt."
+        },
+        {
+          "titel": "Außerbilanzielle Korrektur",
+          "text": "Die Gewinnminderung wird dem Einkommen wieder hinzugerechnet, § 8b Abs. 3 S. 3 KStG."
+        },
+        {
+          "titel": "Ergebnis",
+          "text": "Die Wertminderung bleibt steuerlich *neutral* – sie wirkt sich auf das zu versteuernde Einkommen nicht aus."
+        }
+      ],
+      "icon": "rechner"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Warum nicht einfach nicht buchen?",
+      "links": {
+        "titel": "Richtig",
+        "punkte": [
+          "Bilanziell buchen wie handelsrechtlich vorgesehen",
+          "Korrektur erfolgt außerhalb der Bilanz",
+          "Einkommen bleibt am Ende unverändert"
+        ]
+      },
+      "rechts": {
+        "titel": "Fehler",
+        "punkte": [
+          "Teilwertabschreibung gar nicht erst buchen",
+          "Korrektur in der Steuerbilanz selbst vornehmen",
+          "§ 8b Abs. 3 KStG übersehen"
+        ]
+      },
+      "icon": "lupe"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Erst bilanziell abwerten, dann außerbilanziell wieder heilen – die Beteiligung bleibt steuerlich unberührt.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ],
+      "icon": "trophaee"
+    }
+  ],
+  "caption": "Teilwertabschreibung Beteiligung GmbH § 8b KStG – wieder ein Klassiker im schriftlichen Examen.\n\nDie Rheinperle GmbH schreibt ihre Beteiligung an der Kornblume GmbH auf den niedrigeren Teilwert ab. Bilanziell völlig korrekt nach § 253 Abs. 3 S. 5 HGB. Steuerlich wird die Gewinnminderung aber sofort wieder außerbilanziell hinzugerechnet, § 8b Abs. 3 S. 3 KStG – das Einkommen bleibt unberührt.\n\nWer das Buchen vergisst oder die Korrektur in der Steuerbilanz sucht, verliert hier schnell Punkte.\n\nSpeichern für die Wiederholung. Wo hakt es bei dir noch – § 8b KStG allgemein oder genau diese Konstellation?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht",
+    "#teilwertabschreibung",
+    "#kstg",
+    "#beteiligung",
+    "#körperschaftsteuer",
+    "#klausurtipps"
+  ],
+  "kurztitel": "Teilwertabschreibung Beteiligung GmbH",
+  "quellen": [
+    "§ 253 Abs. 3 S. 5 HGB",
+    "§ 8b Abs. 3 S. 3 KStG"
+  ],
+  "hookTyp": "zahl",
+  "faktenHinweise": [
+    "Folie schritte: 'Die Teilwertabschreibung wird zunächst genauso mitgebucht': Die Formulierung ist unklar. Es ist nicht eindeutig, ob damit gemeint ist, dass die Teilwertabschreibung in der Steuerbilanz auch vorgenommen wird (was korrekt wäre) oder ob hier eine falsche Darstellung vorliegt. Die korrekte Darstellung sollte sein: Die Teilwertabschreibung wird in der Handelsbilanz gebucht und wirkt sich auf die Eröffnungsbilanz der Steuerbilanz aus, wird dann aber durch § 8b Abs. 3 KStG korrigiert."
+  ],
+  "slug": "2026-09-07-b1"
+}
