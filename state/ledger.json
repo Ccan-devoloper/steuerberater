@@ -652,6 +652,20 @@
       "fach": "erbst",
       "titel": "Vervielfältiger § 13/§ 14 BewG",
       "medienId": "17906741124510163"
+    },
+    {
+      "datum": "2026-09-07",
+      "art": "beitrag",
+      "slot": "f19",
+      "format": "schema",
+      "thema": "bilanz-modul-k3-44",
+      "fach": "bilanz",
+      "titel": "Wie prüfst du eine Bewertungseinheit nach § 254 HGB sauber durch?",
+      "hookTyp": "zahl",
+      "medienId": "18109180568147517",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-07T10:47:47.097Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -659,7 +673,7 @@
     "ust": 3,
     "kst": 3,
     "ao": 4,
-    "bilanz": 9,
+    "bilanz": 10,
     "istr": 6,
     "erbst": 1
   },
