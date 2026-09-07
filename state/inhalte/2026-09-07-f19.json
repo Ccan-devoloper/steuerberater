@@ -1,0 +1,123 @@
+{
+  "format": "schema",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-44",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wie prüfst du eine Bewertungseinheit nach § 254 HGB sauber durch?",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "selten",
+      "prioritaetText": "Seltener, aber punktestark"
+    },
+    {
+      "art": "schritte",
+      "titel": "Schritt 1 bis 5",
+      "schritte": [
+        {
+          "titel": "Grundgeschäft und Instrument",
+          "text": "Beide müssen aus demselben Risiko gegenläufige Wertänderungen zeigen."
+        },
+        {
+          "titel": "Sicherungsabsicht belegen",
+          "text": "Dokumentation und Nachweis der Wirksamkeit sind Pflicht."
+        },
+        {
+          "titel": "Art der Einheit festlegen",
+          "text": "Micro-, Portfolio- oder Macro-Hedge, ggf. antizipativ, § 254 S. 2 HGB."
+        },
+        {
+          "titel": "Wirksamen Teil abgrenzen",
+          "text": "Insoweit gelten §§ 249 Abs. 1, 252 Abs. 1 Nr. 3, 4, 253 Abs. 1 S. 1 HGB nicht, § 254 S. 1 HGB."
+        },
+        {
+          "titel": "Unwirksamen Rest bewerten",
+          "text": "Nach den allgemeinen Regeln – ein Verlustüberhang braucht eine Drohverlustrückstellung."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "schritte",
+      "titel": "Schritt 6 bis 8",
+      "schritte": [
+        {
+          "titel": "Buchungsmethode wählen",
+          "text": "Einfrierungsmethode: wirksamer Teil bleibt ungebucht. Alternativ Durchbuchungsmethode."
+        },
+        {
+          "titel": "Übertrag in die Steuerbilanz",
+          "text": "§ 5 Abs. 1a S. 2 EStG übernimmt die Handelsbilanz; § 5 Abs. 4a S. 1 EStG steht nicht entgegen."
+        },
+        {
+          "titel": "Anhang nicht vergessen",
+          "text": "Angabepflichten zu Bewertungseinheiten nach § 285 Nr. 23 HGB prüfen."
+        }
+      ],
+      "icon": "dokument"
+    },
+    {
+      "art": "text",
+      "titel": "Worauf Korrektoren achten",
+      "punkte": [
+        "Wirksamkeitsnachweis fehlt – Einheit trotzdem unterstellt.",
+        "Unwirksamer Teil wird fälschlich mit von der Einzelbewertung ausgenommen.",
+        "Drohverlustrückstellung landet unzulässig in der Steuerbilanz.",
+        "§ 5 Abs. 1a S. 2 EStG wird übersehen, obwohl keine Abweichung besteht."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Die Bewertungseinheit schaltet die Einzelbewertung nur so weit ab, wie die Sicherung tatsächlich greift – der Rest bleibt imparitätisch.",
+      "icon": "kreislauf"
+    },
+    {
+      "art": "cta",
+      "titel": "Schemata, die in der heißen Phase sitzen müssen.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Schema fehlt dir noch? Kommentiere!"
+      ],
+      "icon": "trophaee"
+    }
+  ],
+  "caption": "Bewertungseinheit § 254 HGB prüfen – das Schema für die Bilanzklausur\n\nSelten geprüft, aber wenn, dann punktestark: Grundgeschäft und Sicherungsinstrument identifizieren, Wirksamkeit nachweisen, wirksamen und unwirksamen Teil trennen. Der wirksame Teil hebelt Einzelbewertung, Imparitäts- und Realisationsprinzip aus – der Rest bleibt ganz normal imparitätisch, inklusive Drohverlustrückstellung. Steuerlich folgt die Bilanz über § 5 Abs. 1a S. 2 EStG einfach der Handelsbilanz.\n\nWo hakt's bei dir – Wirksamkeitsnachweis oder die Trennung der Teile? Schreib's in die Kommentare.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#bewertungseinheit",
+    "#bilanzsteuerrecht",
+    "#hgb",
+    "#hedgeaccounting",
+    "#klausurtipps",
+    "#bilanzierung"
+  ],
+  "kurztitel": "Bewertungseinheit prüfen",
+  "quellen": [
+    "§ 254 HGB",
+    "§ 249 Abs. 1 HGB",
+    "§ 252 Abs. 1 Nr. 3, 4 HGB",
+    "§ 253 Abs. 1 S. 1 HGB",
+    "§ 285 Nr. 23 HGB",
+    "§ 5 Abs. 1a S. 2 EStG",
+    "§ 5 Abs. 4a S. 1 EStG"
+  ],
+  "hookTyp": "zahl",
+  "faktenHinweise": [
+    "Schritt 4: 'Wirksamen Teil abgrenzen: Insoweit gelten §§ 249 Abs. 1, 252 Abs. 1 Nr. 3, 4, 253 Abs. 1 S. 1 HGB nicht, § 254 S. 1 HGB.': Die Normzitierung scheint unvollständig oder fehlerhaft. § 254 S. 1 HGB regelt, dass auf den wirksamen Teil der Bewertungseinheit die §§ 249 Abs. 1, 252 Abs. 1 Nr. 3 und 4 nicht anwendbar sind. Unklar ist, ob die Nennung von § 253 Abs. 1 S. 1 HGB an dieser Stelle korrekt ist – normalerweise regelt § 254 S. 2 HGB die Ausnahmen bei Micro-Hedge. Eine Überprüfung der genauen Normstruktur ist notwendig.",
+    "Schritt 5: 'Unwirksamen Rest bewerten: Nach den allgemeinen Regeln – ein Verlustüberhang braucht eine Drohverlustrückstellung.': Die Formulierung ist etwas missverständlich. Ein Verlustüberhang ist nicht identisch mit dem Grund für eine Drohverlustrückstellung. Die Drohverlustrückstellung entsteht bei Leistungsverpflichtungen (§ 249 Abs. 1 HGB), nicht durch einen Vermögensgegenstand-Verlustüberhang. Die Aussage könnte so verstanden werden, dass der unwirksame Teil des Sicherungsinstruments als Verpflichtung behandelt wird.",
+    "Schritt 6: 'Übertrag in die Steuerbilanz: § 5 Abs. 1a S. 2 EStG übernimmt die Handelsbilanz; § 5 Abs. 4a S. 1 EStG steht nicht entgegen.': Die Erwähnung, dass § 5 Abs. 4a S. 1 EStG 'nicht entgegen' steht, ist unklar. Normalerweise regelt § 5 Abs. 4a EStG die Hinzurechnung bestimmter Entgelte. Der Bezug zur Bewertungseinheit ist nicht selbsterklärend.",
+    "Caption: 'Der wirksame Teil hebelt Einzelbewertung, Imparitäts- und Realisationsprinzip aus': Formulierung ist etwas ungenau. Der wirksame Teil hebelt nicht das Realisationsprinzip aus (das ist eine steuerliche Frage), sondern die Einzelbewertung und das Imparitätsprinzip auf Handelsbilanzebene."
+  ],
+  "slug": "2026-09-07-f19"
+}
