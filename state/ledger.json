@@ -666,12 +666,26 @@
       "variante": 1,
       "veroeffentlicht": "2026-09-07T10:47:47.097Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-07",
+      "art": "beitrag",
+      "slot": "f20",
+      "format": "rechenweg",
+      "thema": "kst-modul-kst-5",
+      "fach": "kst",
+      "titel": "50.000 € Nennwert, nur 30.000 € Einlage – warum der Rest steuerpflichtig bleibt",
+      "hookTyp": "zahl",
+      "medienId": "17869987716602072",
+      "variante": 0,
+      "veroeffentlicht": "2026-09-07T10:58:44.984Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 3,
-    "kst": 3,
+    "kst": 4,
     "ao": 4,
     "bilanz": 10,
     "istr": 6,
