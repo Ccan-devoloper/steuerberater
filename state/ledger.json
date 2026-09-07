@@ -628,6 +628,20 @@
       "fach": "bilanz",
       "titel": "Teilwertabschreibung Beteiligung GmbH",
       "medienId": "17926549098413154"
+    },
+    {
+      "datum": "2026-09-07",
+      "art": "beitrag",
+      "slot": "b2",
+      "format": "schema",
+      "thema": "erbst-modul-erbst-532",
+      "fach": "erbst",
+      "titel": "Wie bestimmst du den Vervielfältiger nach § 13 und § 14 BewG richtig?",
+      "hookTyp": "frage",
+      "medienId": "17929007940398963",
+      "variante": 0,
+      "veroeffentlicht": "2026-09-07T10:44:57.068Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -636,7 +650,8 @@
     "kst": 3,
     "ao": 4,
     "bilanz": 9,
-    "istr": 6
+    "istr": 6,
+    "erbst": 1
   },
   "nachrichten": []
 }
