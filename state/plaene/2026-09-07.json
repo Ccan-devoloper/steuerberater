@@ -42,7 +42,7 @@
       "art": "frage",
       "themaId": "bilanz-quiz-k3-39",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "uebersprungen"
     },
     {
       "slot": "s4",
@@ -50,7 +50,7 @@
       "art": "antwort",
       "themaId": "bilanz-quiz-k3-39",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "uebersprungen"
     },
     {
       "slot": "s2",

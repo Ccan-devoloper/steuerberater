@@ -1,0 +1,19 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Richtig ist B",
+  "titel": "Wertlos bei Abbruch binnen drei Jahren",
+  "text": "Erfolgt der Abbruch innerhalb von drei Jahren nach dem Kaufvertrag, wird *widerlegbar* vermutet, dass das Gebäude von Anfang an wertlos war – der Buchwert geht dann in den Grund und Boden über, H 6.4 EStH.",
+  "optionen": [
+    "Immer, ganz unabhängig vom Zeitpunkt des Abbruchs",
+    "Bei Abbruch innerhalb von drei Jahren nach dem Kaufvertrag",
+    "Nur wenn der Abbruch im selben Jahr erfolgt"
+  ],
+  "richtig": 1,
+  "fachLabel": "Bilanzsteuerrecht",
+  "beanstandet": [
+    "Wörtliche Übernahme aus der Webseite (bitte in eigenen Worten formulieren): „erfolgt der abbruch innerhalb von drei jahren nach“ · „der abbruch innerhalb von drei jahren nach dem“ · „bei abbruch innerhalb von drei jahren nach dem“"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Prüfungsfrage Bilanzsteuerrecht",
+  "titel": "Wann gilt ein mit Abbruchabsicht erworbenes Gebäude als wertlos?",
+  "optionen": [
+    "Immer, ganz unabhängig vom Zeitpunkt des Abbruchs",
+    "Bei Abbruch innerhalb von drei Jahren nach dem Kaufvertrag",
+    "Nur wenn der Abbruch im selben Jahr erfolgt"
+  ],
+  "fachLabel": "Bilanzsteuerrecht",
+  "beanstandet": [
+    "Wörtliche Übernahme aus der Webseite (bitte in eigenen Worten formulieren): „wann gilt ein mit abbruchabsicht erworbenes gebäude als“ · „gilt ein mit abbruchabsicht erworbenes gebäude als wertlos“ · „bei abbruch innerhalb von drei jahren nach dem“"
+  ]
+}
