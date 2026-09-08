@@ -1,0 +1,102 @@
+{
+  "format": "spickzettel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-315",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "6 Schritte entscheiden, ob ein fehlerhafter Bescheid wirksam bleibt",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "karte",
+      "titel": "Das Prüfschema in 6 Schritten",
+      "schritte": [
+        {
+          "titel": "Bekanntgabe wirksam?",
+          "text": "§ 122, § 124 Abs. 1 AO"
+        },
+        {
+          "titel": "Nichtigkeit ausschließen",
+          "text": "§ 125 AO, Ausnahmefall prüfen"
+        },
+        {
+          "titel": "Rechtmäßigkeit getrennt prüfen",
+          "text": "§ 121, §§ 17 ff. AO, materiell"
+        },
+        {
+          "titel": "Fehlerart bestimmen",
+          "text": "Zuständigkeit, Verfahren, Form, Inhalt"
+        },
+        {
+          "titel": "Heilung prüfen",
+          "text": "§ 126 AO, Nachholung möglich"
+        },
+        {
+          "titel": "Unbeachtlichkeit prüfen",
+          "text": "§ 127 AO, keine andere Entscheidung"
+        },
+        {
+          "titel": "Rechtsfolge ableiten",
+          "text": "Anfechtbar oder Korrektur, § 157 Abs. 1 S. 3 AO"
+        }
+      ],
+      "icon": "dokument"
+    },
+    {
+      "art": "text",
+      "titel": "Hier gehen die Punkte verloren",
+      "punkte": [
+        "Standardfehler wird fälschlich als *Nichtigkeit* eingeordnet, obwohl § 125 AO eng auszulegen ist.",
+        "§ 126 und § 127 AO werden angewendet, *ohne* vorher die Fehlerart überhaupt zu benennen."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Ein Fehler macht einen Bescheid noch nicht ungültig – nur die Nichtigkeit reißt die Wirksamkeit sofort ein.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Diese Karte solltest du dir sichern.",
+      "punkte": [
+        "Kommentiere SCHEMA – dann schicke ich dir die Karte als Nachricht.",
+        "Speichern für die Wiederholung vor der Klausur",
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren"
+      ],
+      "icon": "haken"
+    }
+  ],
+  "caption": "Rechtswidrig, nichtig oder wirksam – Fehlerfolgen eines Verwaltungsakts nach der AO.\n\nIn der Verfahrensrecht-Klausur wird fast jedes Jahr ein Bescheid mit Fehlern vorgelegt – und die meisten vermischen Wirksamkeit und Rechtmäßigkeit. Dabei gilt: Nur die *Nichtigkeit* nach § 125 AO durchbricht die Wirksamkeit sofort, jeder andere Fehler macht den Bescheid höchstens rechtswidrig und anfechtbar. Erst danach kommen § 126 AO (Heilung) und § 127 AO (Unbeachtlichkeit) ins Spiel.\n\nDie Karte oben zeigt dir den kompletten Ablauf in sechs Schritten.\n\nKommentiere SCHEMA – dann schicke ich dir die Karte als Nachricht.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#abgabenordnung",
+    "#verwaltungsakt",
+    "#nichtigkeit",
+    "#verfahrensrecht",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#steuerberater",
+    "#klausurtipps",
+    "#ao"
+  ],
+  "kurztitel": "Fehlerfolgen VA: das Schema",
+  "quellen": [],
+  "hookTyp": "zahl",
+  "faktenHinweise": [
+    "Prüfschema Schritt 1: 'Bekanntgabe wirksam?: § 122, § 124 Abs. 1 AO': Die Frage nach Wirksamkeit der Bekanntgabe wird hier als erster Schritt gestellt, aber die logische Reihenfolge ist unklar. § 122 AO regelt die Bekanntgabe an Bevollmächtigte, § 124 Abs. 1 AO die wirksame Bekanntgabe. Die Bekanntgabe ist zwar Voraussetzung für die Wirksamkeit des Bescheids, aber ob dieser Schritt wirklich an Position 1 gehört (vor der Nichtigkeit nach § 125 AO), könnte diskutiert werden. Es ist verfahrensrechtlich fragwürdig, ob man erst prüft 'wirksam bekanntgegeben?' und danach 'nichtig?'. Das Schema könnte hier unklar sein.",
+    "Prüfschema Schritt 6: 'Rechtsfolge ableiten: Anfechtbar oder Korrektur, § 157 Abs. 1 S. 3 AO': § 157 Abs. 1 S. 3 AO betrifft die Korrektur von Schreibfehlern, Rechenfehler und ähnlichen Unrichtigkeiten (offenbare Flüchtigkeitsfehler). Dies ist eine spezifische Fallgruppe, aber ob sie als allgemeine 'Rechtsfolge' im 6-Schritt-Schema als Endpunkt genannt werden sollte, ist fragwürdig. Die Struktur könnte hier missverständlich wirken, da § 157 AO keine Rechtsfolge von Fehlerfolgen beschreibt, sondern ein Korrekturbefugnis darstellt.",
+    "Gesamttext: Prüfschema-Logik: Das Schema stellt Schritt 1 als 'Bekanntgabe wirksam?' dar, aber die Bekanntgabe ist eher eine Voraussetzung des In-Kraft-Tretens (§ 122 ff. AO). Die Nichtigkeit nach § 125 AO ist dagegen ein eigenständiger Unwirksamkeitsgrund. Die Reihenfolge könnte für Anfänger verwirrend sein: Erst die Frage nach Bekanntgabe, dann Nichtigkeit, dann Rechtmäßigkeit. Eine präzisere Struktur wäre hilfreicher.",
+    "Schritt 3: 'Rechtmäßigkeit getrennt prüfen: § 121, §§ 17 ff. AO, materiell': § 121 AO regelt die Geltung der formellen Gesetze; §§ 17 ff. AO regeln die Zuständigkeit. Der Hinweis 'materiell' ist unklar: §§ 17 ff. sind nicht 'materiell', sondern verfahrens-/organisationsrechtlich. Wenn 'materiell' die sachliche Rechtmäßigkeit meint, müsste das klarer abgegrenzt werden."
+  ],
+  "slug": "2026-09-08-f23"
+}
