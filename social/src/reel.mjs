@@ -12,7 +12,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { browserStarten } from "./render.mjs";
-import { css } from "./vorlagen.mjs";
+import { css, klausurCss } from "./vorlagen.mjs";
 import { stil as stilLaden, iconSvg } from "./stile.mjs";
 import { FAECHER } from "./inhalte.mjs";
 import { CONFIG } from "./config.mjs";
@@ -217,7 +217,8 @@ function reelHtml(reel, plan, ctx) {
   }).join("");
   const bloecke = untertitelBloecke(plan.szenen);
   const kl = { 1: "k1", 2: "k2", 3: "k3" }[ctx.klausur] || "k3";
-  const farben = { wand: stil.farben.linie || "#333", ball: stil.farben.akzent, spur: stil.farben.k3 || stil.farben.akzent, ziel: stil.farben.k2 || "#ff6a3d", text: stil.farben.text };
+  const tagFarbe = ctx.farbeJeKlausur ? stil.farben[`k${ctx.klausur}`] || stil.farben.akzent : stil.farben.akzent;
+  const farben = { wand: stil.farben.linie || "#333", ball: tagFarbe, spur: ctx.farbeJeKlausur ? tagFarbe : (stil.farben.k3 || stil.farben.akzent), ziel: ctx.farbeJeKlausur && ctx.klausur === 2 ? stil.farben.k1 : (stil.farben.k2 || "#ff6a3d"), text: stil.farben.text };
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(stil, "story")}
 .reel{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--grund);font-family:var(--sans)}
 .stil-campus .reel{background:radial-gradient(1300px 1100px at 30% 10%,#243070 0%,#141a3a 55%,#0e1230 100%)}
@@ -248,6 +249,7 @@ canvas#oben{position:absolute;left:0;top:0;width:1080px;height:${OBEN}px;display
 .stil-klausurbogen .untertitel .w.jetzt{color:var(--rot)}
 .familie-kanzlei .untertitel .w.jetzt{color:var(--k3)}
 .reel .fuss{position:absolute;left:84px;right:84px;bottom:70px;display:flex;justify-content:space-between}
+${klausurCss(ctx)}
 </style></head><body class="stil-${stil.id} familie-${stil.familie || stil.id}"><div class="reel">
 <canvas id="oben" width="1080" height="${OBEN}"></canvas>
 <div class="trenner"></div>
@@ -322,7 +324,8 @@ export async function reelBauen(reel, ausgabeDir, opt = {}) {
   ausgabeDir = path.resolve(ausgabeDir);
   const fps = CONFIG.reel.fps;
   const datum = opt.datum || (String(reel.slug || "").match(/^\d{4}-\d{2}-\d{2}/) || [new Date().toISOString().slice(0, 10)])[0];
-  const ctx = { stil: stilLaden(opt.stil || (CONFIG.marke.stil === "kanzlei" && opt.variante ? "kanzlei-hell" : CONFIG.marke.stil)), handle: CONFIG.marke.handle, klausur: reel.klausur || FAECHER[reel.fach]?.klausur || 3, fachLabel: FAECHER[reel.fach]?.label || "Steuerberaterexamen", animation: opt.animation || animationFuer(datum) };
+  const hell = CONFIG.marke.stil === "kanzlei" && opt.variante && !CONFIG.marke.farbeJeKlausur;
+  const ctx = { stil: stilLaden(opt.stil || (hell ? "kanzlei-hell" : CONFIG.marke.stil)), handle: CONFIG.marke.handle, klausur: reel.klausur || FAECHER[reel.fach]?.klausur || 3, fachLabel: FAECHER[reel.fach]?.label || "Steuerberaterexamen", animation: opt.animation || animationFuer(datum), farbeJeKlausur: CONFIG.marke.farbeJeKlausur };
   fs.mkdirSync(ausgabeDir, { recursive: true });
   const plan = await zeitplanErstellen(reel, path.join(ausgabeDir, "audio"));
   const frameDir = path.join(ausgabeDir, "frames");

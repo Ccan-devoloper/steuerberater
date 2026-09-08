@@ -19,6 +19,10 @@ export const CONFIG = {
     /* true: Kanzlei-Stil wechselt Kachel für Kachel zwischen Schwarz und Weiß
        (Schachbrett im Profil). Für andere Stile ohne Wirkung. */
     stilWechsel: env("IG_STIL_WECHSEL", "true") === "true",
+    /* Markenkern „sortiert nach Klausurtag“: jede Kachel trägt die feste Farbe
+       ihres Prüfungstags (Tag 1 Blau, Tag 2 Orange, Tag 3 Grün) – farbiger
+       Balken oben, Akzente, Pille, Fußzeile. Ersetzt den Schwarz/Weiß-Wechsel. */
+    farbeJeKlausur: env("IG_FARBE_JE_KLAUSUR", "true") === "true",
     zeitzone: "Europe/Berlin",
   },
 
@@ -54,6 +58,18 @@ export const CONFIG = {
       6: ["spickzettel", "klausurtechnik"],
       0: ["wochenrueckblick", "pruefungsfrage"],
     },
+    /* Endspurt (letzte 30 Tage vor der Prüfung): Klausurtechnik, Zeitmanagement,
+       Dauerbrenner-Wiederholung – Reichweite und Weiterleitungen statt neuer Stoff. */
+    formateEndspurt: {
+      1: ["klausurtechnik", "pruefungsfrage"],
+      2: ["pruefungsfrage", "rechenweg"],
+      3: ["aktuell", "klausurtechnik"],
+      4: ["spickzettel", "schema"],
+      5: ["klausurtechnik", "minifall"],
+      6: ["spickzettel", "klausurtechnik"],
+      0: ["wochenrueckblick", "pruefungsfrage"],
+    },
+    endspurtTage: 30,
     /* Lernschleife: Formate/Fächer/Uhrzeiten nach Insights anpassen (state/strategie.json). */
     lernen: env("IG_LERNEN", "true") === "true",
   },

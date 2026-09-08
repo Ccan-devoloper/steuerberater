@@ -177,6 +177,18 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 `;
 }
 
+/* Feste Farbe je Klausurtag: Akzentfarbe, Balken oben, Pille und Fußzeile
+   tragen die Farbe des Prüfungstags (k1 Blau, k2 Orange, k3 Grün). */
+export function klausurCss(ctx) {
+  if (!ctx?.farbeJeKlausur) return "";
+  const k = KLAUSUR_FARBE[ctx.klausur] || "k3";
+  return `
+.folie,.story,.reel{--akzent:var(--${k});--pille:var(--${k});--pille-text:#0b0b0d}
+.folie::before,.story::before,.reel::before{content:"";position:absolute;left:0;top:0;right:0;height:16px;background:var(--${k});z-index:2}
+.fuss .klausur{color:var(--${k});font-weight:700}
+.familie-kanzlei .untertitel .w.jetzt{color:var(--${k})}`;
+}
+
 function kopf(ctx, zaehler) {
   const kl = KLAUSUR_FARBE[ctx.klausur] || "k3";
   const etikett = (ctx.stil.familie || ctx.stil.id) === "kanzlei"
@@ -263,7 +275,7 @@ const FOLIEN = {
 
 export function folieHtml(folie, ctx, index, anzahl) {
   const render = FOLIEN[folie.art] || FOLIEN.text;
-  return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "beitrag")}</style></head>
+  return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "beitrag")}${klausurCss(ctx)}</style></head>
 <body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="folie">${render(folie, ctx, index, anzahl)}</div></body></html>`;
 }
 
@@ -354,7 +366,7 @@ const STORIES = {
 
 export function storyHtml(story, ctx) {
   const render = STORIES[story.art] || STORIES.tipp;
-  return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}</style></head>
+  return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}${klausurCss(ctx)}</style></head>
 <body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="story">${render(story, ctx)}</div></body></html>`;
 }
 

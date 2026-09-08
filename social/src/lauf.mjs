@@ -19,7 +19,7 @@ import { fileURLToPath } from "node:url";
 import { CONFIG } from "./config.mjs";
 import { themenpool } from "./inhalte.mjs";
 import { tagesplan, auffuellplan, ledgerLaden, ledgerSpeichern, vermerken } from "./planer.mjs";
-import { beitragSchreiben, storiesSchreiben, teaserAusBeitrag, aktuellRecherchieren, reelSchreiben } from "./autor.mjs";
+import { beitragSchreiben, storiesSchreiben, teaserAusBeitrag, aktuellRecherchieren, loesungsRecherchieren, reelSchreiben } from "./autor.mjs";
 import { reelBauen } from "./reel.mjs";
 import { beitragRendern, storyRendern, browserBeenden } from "./render.mjs";
 import { Instagram } from "./instagram.mjs";
@@ -48,7 +48,7 @@ function log(...t) { console.log(new Date().toISOString().slice(11, 19), ...t); 
 /* Schwarz/Weiß-Wechsel: Beiträge alternieren fortlaufend über alle Tage
    (Schachbrett im Profil), Stories alternieren innerhalb des Tages. */
 const tagIndex = Math.floor(new Date(`${datum}T12:00:00Z`).getTime() / 86400000);
-const varianteStory = (slot) => (Number(slot.slice(1)) - 1) % 2;
+const varianteStory = (slot) => (CONFIG.marke.farbeJeKlausur ? 0 : (Number(slot.slice(1)) - 1) % 2);
 
 /* Plan serialisierbar machen: Themen nur als ID + Titel, Inhalte separat. */
 function planSpeichern(hosting, plan) {
@@ -89,7 +89,7 @@ async function main() {
   if (!plan) {
     const p = tagesplan(datum, ledger, pool, strategie);
     plan = {
-      datum: p.datum, erzeugt: new Date().toISOString(), anlass: p.anlass || null, trocken,
+      datum: p.datum, erzeugt: new Date().toISOString(), anlass: p.anlass || null, abendAnlass: p.abendAnlass || null, trocken,
       beitraege: p.beitraege.map((b) => ({ slot: b.slot, zeit: b.zeit, format: b.format, themaId: b.thema?.id || null, themaTitel: b.thema?.titel || null, fach: b.thema?.fach || null, lang: b.lang, status: "geplant" })),
       stories: p.stories.map((s) => ({ slot: s.slot, zeit: s.zeit, art: s.art, themaId: s.thema?.id || null, beitragSlot: s.beitragSlot || null, tageBisExamen: s.tageBisExamen, status: "geplant" })),
     };
@@ -183,7 +183,7 @@ async function main() {
           reel.slug = `${datum}-${eintrag.slot}`;
           hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, reel);
         }
-        const varianteReel = await varianteErmitteln({ ig, ledger, trocken, log });
+        const varianteReel = (CONFIG.marke.farbeJeKlausur ? 0 : await varianteErmitteln({ ig, ledger, trocken, log }));
         const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel, datum });
         log(`  Reel gebaut: ${r.dauer.toFixed(1)} s · Stimme ${r.anbieter} · Animation ${r.animation}`);
         const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Reel ${datum} ${eintrag.slot}`);
@@ -203,9 +203,9 @@ async function main() {
       if (!beitrag) {
         const thema = eintrag.themaId ? poolIndex.get(eintrag.themaId) : null;
         let recherche = null, wochenThemen = null;
-        if (eintrag.format === "aktuell") {
+        if (eintrag.format === "aktuell" || eintrag.format === "loesungsskizze") {
           const bisher = (ledger.veroeffentlicht || []).filter((e) => e.format === "aktuell").slice(-12).map((e) => e.titel);
-          recherche = await aktuellRecherchieren(datum, bisher);
+          recherche = eintrag.format === "loesungsskizze" ? await loesungsRecherchieren(datum, eintrag.anlass || plan.abendAnlass) : await aktuellRecherchieren(datum, bisher);
           log(`  Recherche: ${recherche.titel || "(ohne Titel)"} · ${recherche.quellen.length} Quellen`);
         }
         if (eintrag.format === "wochenrueckblick") {
@@ -213,11 +213,11 @@ async function main() {
           wochenThemen = (ledger.veroeffentlicht || []).filter((e) => e.art === "beitrag" && e.datum >= grenze).map((e) => e.titel);
           if (!wochenThemen.length) wochenThemen = pool.filter((t) => t.prioritaet === "hoch").slice(0, 5).map((t) => t.titel);
         }
-        beitrag = await beitragSchreiben({ format: eintrag.format, thema, datum, recherche, wochenThemen, anlass: eintrag.format === "anlass" ? plan.anlass : null, strategie });
+        beitrag = await beitragSchreiben({ format: eintrag.format, thema, datum, recherche, wochenThemen, anlass: eintrag.format === "anlass" ? plan.anlass : eintrag.format === "loesungsskizze" ? plan.abendAnlass : null, strategie });
         beitrag.slug = `${datum}-${eintrag.slot}`;
         hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, beitrag);
       }
-      const variante = await varianteErmitteln({ ig, ledger, trocken, log });
+      const variante = (CONFIG.marke.farbeJeKlausur ? 0 : await varianteErmitteln({ ig, ledger, trocken, log }));
       const bilder = await beitragRendern(beitrag, path.join(AUSGABE, "beitraege"), { variante });
       const urls = await hosting.veroeffentlichen(bilder, datum, `Beitrag ${datum} ${eintrag.slot}`);
       const caption = `${beitrag.caption}\n\n${beitrag.hashtags.join(" ")}`;
@@ -353,7 +353,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
     const eintrag = plan[i];
     const slot = `${datum}-${eintrag.slot}`;
     try {
-      const variante = await varianteErmitteln({ ig, ledger, trocken, log });
+      const variante = (CONFIG.marke.farbeJeKlausur ? 0 : await varianteErmitteln({ ig, ledger, trocken, log }));
       log(`Auffüllen ${i + 1}/${ziel}: ${eintrag.format} · ${eintrag.thema.titel}`);
       let beitrag = hosting.jsonLesen(`inhalte/${slot}.json`, null);
       if (!beitrag) {

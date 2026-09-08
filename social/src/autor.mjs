@@ -82,6 +82,11 @@ export const FORMATE = {
     anleitung: "Ein Beitrag zu einem Termin im Prüfungsjahr (Countdown, Anmeldeschluss, Prüfungstag, Tag danach). Folie 1: der Anlass als Schlagzeile mit Zahl oder Datum. Folien 2–3: was jetzt konkret zu tun ist (Schritte oder Punkte), fachlich unterlegt mit einem passenden Kernthema. Vorletzte Folie: Merksatz/Ermutigung. Letzte Folie: CTA. Ton: nah dran, ermutigend, ohne Kitsch.",
     folien: ["titel", "schritte", "text", "merke", "cta"],
   },
+  loesungsskizze: {
+    label: "Lösungsskizze",
+    anleitung: "Der reichweitenstärkste Beitrag des Jahres: die Lösungsskizze zu den heute berichteten Klausurthemen. Folie 1: „Tag N heute: Das waren die Themen (nach ersten Berichten)“ als Aufhänger. Folie 2 (text): welche Themen Kandidat:innen berichten – als Punkte, ehrlich mit Unsicherheit („mehrfach berichtet“, „einzelne Berichte“). Folien 3–4 (schritte): je berichtetem Thema der Lösungsweg in Stichworten mit Normen – Prüfungsaufbau, Rechtsfolge, typische Punkte. Folie 5 (text): „Vorläufig: beruht auf Berichten von Kandidat:innen, keine offizielle Lösung; die Hinweise der Kammer kommen erst Monate später.“ Letzte Folie: CTA „Was war bei dir dran? Schreib es in die Kommentare – ich ergänze die Skizze“ plus „Schick das deiner Lerngruppe“. Ton: ruhig, hilfreich, nichts Wertendes über Schwierigkeit. Wenn die Recherche keine belastbaren Berichte liefert: die typischen Dauerbrenner dieses Prüfungstags als „Was erfahrungsgemäß drankommt“ skizzieren und das klar sagen.",
+    folien: ["titel", "text", "schritte", "schritte", "text", "cta"],
+  },
   aktuell: {
     label: "Aktuell",
     anleitung: "Folie 1: die Neuigkeit als Frage oder Schlagzeile (Gesetzesänderung, BFH-Urteil, BMF-Schreiben, Prüfungstermine, Statistik). Folie 2: was genau passiert ist, in Punkten mit Datum/Aktenzeichen. Folie 3: was das fürs Examen bedeutet. Letzte Folie: CTA. Die Quelle wird in der Caption genannt (Gericht/Behörde, Datum, Aktenzeichen oder Dokumentname).",
@@ -103,6 +108,11 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Fälle, Beispiele, Namen und Zahlen erfindest du selbst (z. B. „Malerbetrieb Roth“, „die Nordlicht GmbH“). Verwende nie Namen aus der Sperrliste.
 - Keine Bezüge auf Kurse, Skripte, Seiten, Folien, Fallnummern, Dozenten oder Lernplattformen.
 
+## Marke und Aufforderung (CTA)
+- Markenkern: „Examensvorbereitung, sortiert nach Klausurtag“. Jeder Beitrag gehört zu genau einem Prüfungstag (Klausur 1 · Tag 1: AO/USt/ErbSt · Klausur 2 · Tag 2: Ertragsteuern · Klausur 3 · Tag 3: Bilanz). Wo es passt, den Klausurtag benennen („Das ist Klausur-3-Stoff.“).
+- Der wichtigste Wachstumsmotor sind Lerngruppen (WhatsApp, Telegram): Jeder Beitrag ist so gebaut, dass man ihn weiterleitet. Haupt-CTA daher immer „Schick das deiner Lerngruppe“ (oder gleichwertig), zweitens „Speichern“, drittens „Folgen“. Nie nur „Speicher dir das“.
+- Nähe statt Konzern: Fragen in den Kommentaren werden beantwortet, DM ist erlaubt („Schreib mir, wenn etwas unklar ist“). Keine Verkaufsbotschaft, kein Kurs, kein Produkt – jetzt zählen Reichweite, Saves und Weiterleitungen.
+
 ## Innere Logik (sehr wichtig)
 - Der Beitrag muss aus sich heraus verständlich sein: Jede Zahl, jeder Name, jeder Fall, auf den Titel, Rechnung oder Lösung Bezug nehmen, wird vorher auf einer eigenen Folie eingeführt (z. B. Folie „Sachverhalt“). Nie auf etwas verweisen, das nicht auf den Folien steht.
 - Jede Folie außer der CTA hat einen Titel UND Inhalt (Text, Punkte, Schritte, Rechnung). Nie eine leere Folie, nie nur eine Überschrift.
@@ -117,7 +127,7 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Kernaussagen und Merksätze aus dem Skelett NIE übernehmen, auch nicht leicht umgestellt – schreibe einen eigenen Merksatz mit anderem Satzbau und anderen Wörtern.
 - Hervorhebungen mit *Sternchen* um das Wort – sparsam, ein bis zwei je Folie.
 - icon: genau einer aus: ${Object.keys(ICONS).join(", ")}.
-- Caption: 4–8 Zeilen. Zeile 1 ist der Hook (die Frage oder die Pointe), dann die Kernantwort in 2–4 Sätzen, dann eine Aufforderung zum Speichern, Folgen oder Kommentieren – am besten eine echte Frage an die Leser:innen, die eine Antwort im Kommentar provoziert. ${CONFIG.marke.website ? `Am Ende darf ein Hinweis „Mehr auf ${CONFIG.marke.website} (Link in Bio)“ stehen.` : "Keine Website, keine Plattform, kein Produkt erwähnen – auch nicht „Link in Bio“."} Keine Hashtags in der Caption; die kommen separat.
+- Caption: 4–8 Zeilen. Zeile 1 ist der Hook (die Frage oder die Pointe), dann die Kernantwort in 2–4 Sätzen, dann die Aufforderung, den Beitrag an die Lerngruppe weiterzuleiten und zu speichern, plus eine echte Frage an die Leser:innen, die eine Antwort im Kommentar provoziert. ${CONFIG.marke.website ? `Am Ende darf ein Hinweis „Mehr auf ${CONFIG.marke.website} (Link in Bio)“ stehen.` : "Keine Website, keine Plattform, kein Produkt erwähnen – auch nicht „Link in Bio“."} Keine Hashtags in der Caption; die kommen separat.
 - Hashtags: 8–14 Stück, deutsch, kleingeschrieben, spezifisch zum Thema plus diese Kernhashtags: ${CONFIG.hashtags.kern.join(" ")}.
 - kurztitel: 3–6 Wörter für die Story-Ankündigung.
 
@@ -325,7 +335,7 @@ function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
     if (thema?.prioritaet) { folien[0].prioritaet = thema.prioritaet; folien[0].prioritaetText = prioritaetText(thema.prioritaet); }
     if (!ICONS[folien[0].icon]) folien[0].icon = "paragraf";
   }
-  if (folien.at(-1)?.art !== "cta") folien.push({ art: "cta", titel: "Jeden Tag eine Prüfungsfrage.", punkte: ["Folgen für alle drei Klausuren", "Speichern und vor der Klausur wiederholen", "Welches Thema fehlt dir? Kommentiere!"] });
+  if (folien.at(-1)?.art !== "cta") folien.push({ art: "cta", titel: "Schick das deiner Lerngruppe.", punkte: ["Weiterleiten an die Lerngruppe", "Speichern und vor der Klausur wiederholen", "Folgen: sortiert nach Klausurtag"] });
   /* Sicherheitsnetz: keine Website, kein Plattformname auf Folien oder in der Caption. */
   const verboten = /(github\.io|github\.com|examenscampus|link in bio|website)/i;
   for (const f of folien) for (const k of ["titel", "text", "untertitel"]) if (f[k] && verboten.test(f[k])) f[k] = f[k].replace(verboten, "").replace(/\s{2,}/g, " ").trim();
@@ -394,6 +404,24 @@ Wähle dann DIE eine Neuigkeit mit dem größten Examensbezug aus. Antworte mit:
 1. Auswahl: Titel, Datum, Aktenzeichen/Dokument, Fach (eines von: ao, ust, erbst, kst, istr, bilanz, persg)
 2. Notizen: Was ist passiert, was ist der Kern, was bedeutet es fürs Examen (max. 200 Wörter, eigene Worte)
 3. Quellen: 2–3 URLs`;
+  return webRecherche(frage, "recherche");
+}
+
+/* Web-Recherche am Prüfungsabend: Was berichten Kandidat:innen über die heutige Klausur? */
+export async function loesungsRecherchieren(datum, anlass) {
+  const jahr = datum.slice(0, 4);
+  const frage = `Heute ist der ${datumLesbar(datum)}. ${anlass?.kontext || "Heute war ein Tag der schriftlichen Steuerberaterprüfung."}
+Recherchiere Berichte von Kandidat:innen zur schriftlichen Steuerberaterprüfung ${jahr} (Klausur Tag ${anlass?.klausur || "?"}): Welche Sachverhalte, Aufgabenstellungen und Themengebiete werden genannt? Suche in Foren (z. B. Foren für Steuerberateranwärter, Reddit, WiWi-Treff), sozialen Netzwerken (Instagram, LinkedIn, X), bei Lehrgangsanbietern und Fachverlagen (NWB, Haufe, DATEV, Steuerberaterkammern, BStBK). Suchbegriffe wie „Steuerberaterprüfung ${jahr} Klausur Tag ${anlass?.klausur || ""} Themen“, „StB-Examen ${jahr} Erfahrungen“, „Steuerberaterexamen ${jahr} Aufgaben“.
+
+Antworte mit:
+1. Titel: ein kurzer Titel
+2. Fach: ${anlass?.klausur === 1 ? "ao" : anlass?.klausur === 2 ? "kst" : "bilanz"}
+3. Notizen (max. 300 Wörter, eigene Worte): die berichteten Themen je Aufgabe/Sachverhalt, mit Angabe, wie oft und wie sicher sie berichtet werden (mehrfach / einzeln / unsicher). Wenn es noch keine belastbaren Berichte gibt, sage das ausdrücklich und nenne stattdessen die erfahrungsgemäßen Dauerbrenner dieses Prüfungstags.
+4. Quellen: 2–4 URLs`;
+  return webRecherche(frage, "recherche-loesung");
+}
+
+async function webRecherche(frage, zweck = "recherche") {
   const params = {
     model: CONFIG.ki.modellNeben,
     max_tokens: 16000,
@@ -404,12 +432,12 @@ Wähle dann DIE eine Neuigkeit mit dem größten Examensbezug aus. Antworte mit:
   };
   budgetPruefen("Recherche");
   let response = await client().messages.create(params);
-  erfassen(CONFIG.ki.modellNeben, response.usage, "recherche");
+  erfassen(CONFIG.ki.modellNeben, response.usage, zweck);
   let runden = 0;
   while (response.stop_reason === "pause_turn" && runden++ < 4) {
     params.messages.push({ role: "assistant", content: response.content });
     response = await client().messages.create(params);
-    erfassen(CONFIG.ki.modellNeben, response.usage, "recherche");
+    erfassen(CONFIG.ki.modellNeben, response.usage, zweck);
   }
   const text = textAus(response);
   const fachTreffer = text.match(/Fach\s*[:：]\s*(ao|ust|erbst|kst|istr|bilanz|persg)/i);
@@ -513,6 +541,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null 
       REEL_ANLEITUNG + (lang ? "" : "\nKurzfassung: insgesamt 60–90 gesprochene Wörter, Bildschirmtitel maximal 5 Wörter."),
       anlass ? `\n## Anlass\n${anlass.titel}: ${anlass.kontext}` : "",
       `Phase im Prüfungsjahr: ${phase(datum)}.`,
+      thema?.typ === "mindset" ? "\n## Mindset-Reel (Ersatz für ein Talking-Head-Video)\nKein Fachschema, sondern ein persönlicher, ruhiger Ton in Du-Form: ein Problem, das fast alle kennen (Angst, Blackout, Zeitdruck, Perfektionismus), dann 3–4 konkrete, sofort umsetzbare Handgriffe, zum Schluss ein Satz, der bleibt. Normen nur, wenn sie wirklich helfen. Bildschirmtitel kurz und menschlich, kein Ratgeber-Kitsch." : "",
       `\n## Themen-Skelett\n${themaText(thema)}`,
       `\n## Sperrliste (diese Namen nie verwenden)\n${sperr.join(", ")}`,
       `\n## Beispiel für Ton und Länge (anderes Thema)\n${JSON.stringify(beispielReel.szenen.slice(0, 3), null, 1)}`,

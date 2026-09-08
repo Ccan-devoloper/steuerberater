@@ -27,9 +27,11 @@ export async function browserBeenden() {
 
 export function kontext(opt = {}) {
   const basis = opt.stil || CONFIG.marke.stil;
-  const stilName = opt.variante != null ? stilFuer(basis, opt.variante, CONFIG.marke.stilWechsel) : basis;
+  const wechsel = CONFIG.marke.stilWechsel && !CONFIG.marke.farbeJeKlausur;
+  const stilName = opt.variante != null ? stilFuer(basis, opt.variante, wechsel) : basis;
   return {
     stil: stilLaden(stilName),
+    farbeJeKlausur: CONFIG.marke.farbeJeKlausur,
     handle: opt.handle ?? CONFIG.marke.handle,
     fachLabel: opt.fachLabel || (opt.fach ? FAECHER[opt.fach]?.label : "Steuerberaterexamen") || "Steuerberaterexamen",
     klausur: opt.klausur || (opt.fach ? FAECHER[opt.fach]?.klausur : 3) || 3,
