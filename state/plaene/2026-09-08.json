@@ -24,7 +24,8 @@
       "themaTitel": "Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA",
       "fach": "istr",
       "lang": false,
-      "status": "geplant"
+      "status": "geplant",
+      "fehler": "2026-09-08T10:42:56.432Z Cannot read properties of undefined (reading 'entries')"
     }
   ],
   "stories": [

@@ -1,3 +1,4 @@
 [
-  "2026-09-04T22:11:55.618Z spawnSync ffmpeg ENOENT"
+  "2026-09-04T22:11:55.618Z spawnSync ffmpeg ENOENT",
+  "2026-09-08T10:42:56.432Z Cannot read properties of undefined (reading 'entries')"
 ]
