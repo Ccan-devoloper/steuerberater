@@ -25,7 +25,7 @@
       "fach": "istr",
       "lang": false,
       "status": "geplant",
-      "fehler": "2026-09-08T17:42:51.875Z Cannot read properties of undefined (reading 'entries')"
+      "fehler": "2026-09-08T18:43:09.615Z Cannot read properties of undefined (reading 'entries')"
     }
   ],
   "stories": [
