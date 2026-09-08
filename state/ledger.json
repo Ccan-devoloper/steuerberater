@@ -939,6 +939,16 @@
       "fach": "bilanz",
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "18106013123185790"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "merksatz",
+      "thema": "bilanz-formel-pwb",
+      "fach": "istr",
+      "titel": "Zweistufige Gewinnermittlung der Mitunternehmerschaft",
+      "medienId": "18132531967565522"
     }
   ],
   "fachZaehler": {
