@@ -1,0 +1,86 @@
+{
+  "format": "vergleich",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-386",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der Fehler, der Leichtfertigkeit mit Vorsatz verwechselt",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "selten",
+      "prioritaetText": "Seltener, aber punktestark"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Vorsatz vs. Leichtfertigkeit",
+      "links": {
+        "titel": "Steuerhinterziehung",
+        "punkte": [
+          "§ 370 AO i.V.m. § 369 Abs. 2 AO, § 15 StGB",
+          "Täter *weiß und will* die Verkürzung",
+          "Straftat – Geldstrafe oder Freiheitsstrafe"
+        ]
+      },
+      "rechts": {
+        "titel": "Leichtfertige Verkürzung",
+        "punkte": [
+          "§ 378 Abs. 1 AO",
+          "Grobe Sorgfaltspflichtverletzung ohne Wissen/Wollen",
+          "Ordnungswidrigkeit – nur Geldbuße"
+        ]
+      }
+    },
+    {
+      "art": "text",
+      "titel": "Wann welche Seite greift",
+      "text": "Prüfe zuerst den *Vorsatz* nach der Quellenformel: Wissen und Wollen der Tatbestandsverwirklichung, § 369 Abs. 2 AO verweist auf § 15 StGB. Fehlt dieses Bewusstsein, aber es liegt eine grobe Sorgfaltspflichtverletzung vor, landest du bei § 378 Abs. 1 AO. Bloße Fahrlässigkeit ohne diese Schwelle bleibt straf- und bußgeldfrei. Den Hinweis aus AEAO zu § 153 Nr. 2.6 solltest du in der Normkette mitführen, wenn es um die Abgrenzung zur Berichtigungspflicht geht.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Wer weiß und will, hinterzieht. Wer nur grob nachlässig war, verkürzt nur leichtfertig."
+    },
+    {
+      "art": "cta",
+      "titel": "Dauerbrenner, der selten geprüft wird – aber viel bringt.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Wo verwechselst du Vorsatz und Leichtfertigkeit? Kommentiere!"
+      ]
+    }
+  ],
+  "caption": "Steuerhinterziehung oder leichtfertige Steuerverkürzung – kennst du den Unterschied im Examen?\n\nDer Dreh- und Angelpunkt ist der subjektive Tatbestand: Wissen und Wollen machen aus einer Verkürzung eine Straftat nach § 370 AO. Fehlt das, aber es liegt grobe Sorgfaltspflichtverletzung vor, landest du bei § 378 Abs. 1 AO – nur eine Ordnungswidrigkeit.\n\nDer AEAO zu § 153 Nr. 2.6 hilft dir bei der Abgrenzung zur Berichtigungspflicht.\n\nWelche Norm vergisst du in dieser Kette am häufigsten?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#abgabenordnung",
+    "#steuerhinterziehung",
+    "#leichtfertigkeit",
+    "#verfahrensrecht",
+    "#paragraf370",
+    "#paragraf378"
+  ],
+  "kurztitel": "Vorsatz vs. Leichtfertigkeit AO",
+  "quellen": [
+    "§ 369 Abs. 2 AO",
+    "§ 370 AO",
+    "§ 378 Abs. 1 AO",
+    "§ 15 StGB",
+    "AEAO zu § 153 Nr. 2.6"
+  ],
+  "hookTyp": "fehler",
+  "faktenHinweise": [
+    "§ 369 Abs. 2 AO: Der Text verweist auf § 369 Abs. 2 AO als Verweis auf § 15 StGB für die Vorsatzanforderung. Es ist unklar, ob dies die korrekte Normstelle ist oder ob nicht vielmehr § 370 Abs. 1 AO selbst die maßgebliche Norm für den Vorsatz bei Steuerhinterziehung darstellt. Die Struktur könnte abweichend sein.",
+    "Gesamter Text: Der Text arbeitet mit der Abgrenzung von Steuerhinterziehung (§ 370 AO) und leichtfertiger Steuerverkürzung (§ 378 AO), verzichtet aber auf konkrete Fallbeispiele oder Beispielszahlen. Dies ist für eine Instagram-Folie vertretbar, macht den Text aber abstrakt."
+  ],
+  "slug": "2026-09-08-f22"
+}
