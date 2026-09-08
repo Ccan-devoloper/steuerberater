@@ -929,6 +929,16 @@
       "fach": "bilanz",
       "titel": "Neue Tatsachen – Änderung trotz Bestandskraft",
       "medienId": "18339161503248998"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "countdown",
+      "thema": "bilanz-modul-k3-50",
+      "fach": "bilanz",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "medienId": "18106013123185790"
     }
   ],
   "fachZaehler": {
