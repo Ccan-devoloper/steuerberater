@@ -248,7 +248,16 @@
       "thema": "ao-modul-ao-340",
       "fach": "ao",
       "titel": "Feststellungsfrist abgelaufen – geht der Feststellungsbescheid trotzdem raus?",
-      "medienId": "18140733574504407"
+      "medienId": "18140733574504407",
+      "insights": {
+        "reach": 2,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 1,
+        "total_interactions": 1
+      },
+      "insightsStand": "2026-09-08T05:42:59.218Z"
     },
     {
       "datum": "2026-09-05",
@@ -341,7 +350,16 @@
       "hookTyp": "frage",
       "medienId": "18427805023198004",
       "veroeffentlicht": "2026-09-05T08:08:38.853Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:42:59.816Z"
     },
     {
       "datum": "2026-09-05",
@@ -354,7 +372,16 @@
       "hookTyp": "frage",
       "medienId": "17889819654611696",
       "veroeffentlicht": "2026-09-05T08:10:20.812Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:00.119Z"
     },
     {
       "datum": "2026-09-05",
@@ -367,7 +394,16 @@
       "hookTyp": "zahl",
       "medienId": "18127579561748249",
       "veroeffentlicht": "2026-09-05T08:12:24.662Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:00.450Z"
     },
     {
       "datum": "2026-09-05",
@@ -380,7 +416,16 @@
       "hookTyp": "frage",
       "medienId": "18090614888395875",
       "veroeffentlicht": "2026-09-05T08:14:09.176Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:00.722Z"
     },
     {
       "datum": "2026-09-05",
@@ -393,7 +438,16 @@
       "hookTyp": "zahl",
       "medienId": "18065645324774996",
       "veroeffentlicht": "2026-09-05T08:16:08.024Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:01.025Z"
     },
     {
       "datum": "2026-09-05",
@@ -406,7 +460,16 @@
       "hookTyp": "frage",
       "medienId": "18419240263145479",
       "veroeffentlicht": "2026-09-05T08:17:42.685Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:01.667Z"
     },
     {
       "datum": "2026-09-05",
@@ -419,7 +482,16 @@
       "hookTyp": "frage",
       "medienId": "18135598012544766",
       "veroeffentlicht": "2026-09-05T08:22:18.150Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 1,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:01.969Z"
     },
     {
       "datum": "2026-09-05",
@@ -432,7 +504,16 @@
       "hookTyp": "frage",
       "medienId": "18016305521727962",
       "veroeffentlicht": "2026-09-05T08:23:52.144Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 1,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1
+      },
+      "insightsStand": "2026-09-08T05:43:02.215Z"
     },
     {
       "datum": "2026-09-05",
@@ -445,7 +526,16 @@
       "hookTyp": "frage",
       "medienId": "18476372350115176",
       "veroeffentlicht": "2026-09-05T08:26:38.236Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 1,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1
+      },
+      "insightsStand": "2026-09-08T05:43:02.487Z"
     },
     {
       "datum": "2026-09-05",
@@ -459,7 +549,16 @@
       "medienId": "17922266142440218",
       "variante": 1,
       "veroeffentlicht": "2026-09-05T08:36:47.223Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:02.859Z"
     },
     {
       "datum": "2026-09-05",
@@ -473,7 +572,16 @@
       "medienId": "17939393697348186",
       "variante": 0,
       "veroeffentlicht": "2026-09-05T08:40:33.112Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:03.175Z"
     },
     {
       "datum": "2026-09-05",
@@ -487,7 +595,16 @@
       "medienId": "18114565697086574",
       "variante": 1,
       "veroeffentlicht": "2026-09-05T08:42:28.167Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:03.509Z"
     },
     {
       "datum": "2026-09-05",
@@ -501,7 +618,16 @@
       "medienId": "18163414594478676",
       "variante": 1,
       "veroeffentlicht": "2026-09-05T09:12:05.102Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:03.725Z"
     },
     {
       "datum": "2026-09-05",
@@ -515,7 +641,16 @@
       "medienId": "18118666082487979",
       "variante": 0,
       "veroeffentlicht": "2026-09-05T09:15:17.639Z",
-      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-05/2026-09-05-f15-02-mto638vc.jpg"
+      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-05/2026-09-05-f15-02-mto638vc.jpg",
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:04.071Z"
     },
     {
       "datum": "2026-09-05",
@@ -529,7 +664,16 @@
       "medienId": "18132961051733448",
       "variante": 1,
       "veroeffentlicht": "2026-09-05T09:19:14.087Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T05:43:04.366Z"
     },
     {
       "datum": "2026-09-05",
@@ -541,7 +685,17 @@
       "titel": "Erlös oder Gewinn? § 6b entscheidet",
       "medienId": "17882139525505279",
       "variante": 1,
-      "veroeffentlicht": "2026-09-05T13:05:28.806Z"
+      "veroeffentlicht": "2026-09-05T13:05:28.806Z",
+      "insights": {
+        "reach": 23,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 27
+      },
+      "insightsStand": "2026-09-08T05:43:04.621Z"
     },
     {
       "datum": "2026-09-05",

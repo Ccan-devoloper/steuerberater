@@ -1,9 +1,25 @@
 {
-  "stand": "2026-09-07",
-  "beitraege": 0,
-  "formatGewicht": {},
-  "fachGewicht": {},
-  "hookGewicht": {},
+  "stand": "2026-09-08",
+  "beitraege": 17,
+  "formatGewicht": {
+    "pruefungsfrage": 2,
+    "fehlerfalle": 1.9645308924485125,
+    "schema": 0.5,
+    "rechenweg": 0.5,
+    "minifall": 0.5,
+    "vergleich": 0.5,
+    "klausurtechnik": 0.5
+  },
+  "fachGewicht": {
+    "ao": 2,
+    "kst": 0.5,
+    "istr": 0.7935926773455377,
+    "bilanz": 0.5
+  },
+  "hookGewicht": {
+    "frage": 0.7179113792386104,
+    "zahl": 0.5
+  },
   "besteStunden": null,
   "follower": 0,
   "reichweite7": 26
