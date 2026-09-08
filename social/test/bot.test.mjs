@@ -280,11 +280,11 @@ test("Aufbau: leere Folien, doppelte CTA und Sachverhalt auf der Titelfolie werd
 test("Tagesdeckel: Verbrauch wird gezählt, weitere Aufrufe werden gestoppt", async () => {
   const k = await import("../src/kosten.mjs");
   const gespeichert = [];
-  k.budgetSetzen({ limitUsd: 0.05, bisher: 0.03, speichern: (usd) => gespeichert.push(usd) });
+  k.budgetSetzen({ limitUsd: 0.05, bisher: 0.02, speichern: (usd) => gespeichert.push(usd) });
   assert.equal(k.budgetFrei(), true);
   k.budgetPruefen("Test");
   k.erfassen("claude-sonnet-5", { input_tokens: 1000, output_tokens: 2500 }, "test");   // 0,002 + 0,025 = 0,027 $
-  assert.ok(gespeichert.length === 1 && gespeichert[0] > 0.05, JSON.stringify(gespeichert));
+  assert.ok(gespeichert.length === 1 && gespeichert[0] > 0.04, JSON.stringify(gespeichert));
   assert.equal(k.budgetFrei(), false);
   assert.throws(() => k.budgetPruefen("Beitrag"), k.BudgetFehler);
   k.budgetSetzen({});   // zurücksetzen, damit andere Tests nicht betroffen sind

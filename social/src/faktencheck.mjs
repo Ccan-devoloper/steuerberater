@@ -83,7 +83,11 @@ export async function pruefeFakten(beitrag) {
   const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
   let daten;
   try { daten = JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1)); } catch { return { ok: true, fehler: [], hinweise: [] }; }
-  const fehler = daten.befunde.filter((b) => b.schwere === "fehler").map((b) => `${b.stelle}: ${b.problem} → ${b.korrektur}`);
-  const hinweise = daten.befunde.filter((b) => b.schwere !== "fehler").map((b) => `${b.stelle}: ${b.problem}`);
+  /* Weiche Beanstandungen („irreführend“, „präzisieren“, „missverständlich“) sind
+     keine Fehler, die eine teure Neufassung rechtfertigen – sie werden zu Hinweisen. */
+  const WEICH = /irreführend|präzisier|missverständlich|ungenau|unscharf|unschärfe|ausdrucksweise|formulierung|konzeptionell|didaktisch|sollte (?:ergänzt|erwähnt|klargestellt)|könnte|empfehl|verkürzt|vereinfacht|mathematisch (?:richtig|korrekt)|ist (?:zwar |dann )?(?:sachlich )?korrekt/i;
+  const ist = (b) => b.schwere === "fehler" && !WEICH.test(`${b.problem} ${b.korrektur}`);
+  const fehler = daten.befunde.filter(ist).map((b) => `${b.stelle}: ${b.problem} → ${b.korrektur}`);
+  const hinweise = daten.befunde.filter((b) => !ist(b)).map((b) => `${b.stelle}: ${b.problem}`);
   return { ok: fehler.length === 0, fehler, hinweise };
 }

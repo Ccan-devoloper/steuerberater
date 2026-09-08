@@ -79,10 +79,17 @@ async function main() {
 
   /* Plan des Tages – nur einmal erzeugen, danach fortschreiben. */
   let plan = hosting.jsonLesen(`plaene/${datum}.json`, null);
+  /* Ein Plan aus einem Trockenlauf (Einträge mit medienId „trocken“) gilt live
+     nicht – er wird verworfen und neu erzeugt, sonst hält der Bot alles für
+     bereits veröffentlicht. */
+  if (plan && !trocken && (plan.trocken || [...(plan.beitraege || []), ...(plan.stories || [])].some((e) => e.medienId === "trocken"))) {
+    log("Tagesplan stammt aus einem Trockenlauf – wird neu erzeugt.");
+    plan = null;
+  }
   if (!plan) {
     const p = tagesplan(datum, ledger, pool, strategie);
     plan = {
-      datum: p.datum, erzeugt: new Date().toISOString(), anlass: p.anlass || null,
+      datum: p.datum, erzeugt: new Date().toISOString(), anlass: p.anlass || null, trocken,
       beitraege: p.beitraege.map((b) => ({ slot: b.slot, zeit: b.zeit, format: b.format, themaId: b.thema?.id || null, themaTitel: b.thema?.titel || null, fach: b.thema?.fach || null, lang: b.lang, status: "geplant" })),
       stories: p.stories.map((s) => ({ slot: s.slot, zeit: s.zeit, art: s.art, themaId: s.thema?.id || null, beitragSlot: s.beitragSlot || null, tageBisExamen: s.tageBisExamen, status: "geplant" })),
     };
@@ -297,7 +304,9 @@ async function main() {
   /* Ein angefangenes Auffüllen (state/auffuellen.json) läuft von selbst weiter –
      in kleinen Portionen, damit der Stundenlauf nicht blockiert. */
   const auffuellStand = hosting.jsonLesen("auffuellen.json", null);
-  const planJetztFertig = plan.beitraege.every((b) => b.status === "veroeffentlicht" || b.fehler);
+  /* Erst wenn Beiträge UND Stories des Tages durch sind (auch übersprungene),
+     bekommt das Auffüllen den Rest des Budgets – nie vor den Stories. */
+  const planJetztFertig = plan.beitraege.every((b) => b.status === "veroeffentlicht" || b.fehler) && plan.stories.every((s) => s.status !== "geplant");
   if (!trocken && !nurPlanen && planJetztFertig && auffuellStand && auffuellStand.fertig < auffuellStand.ziel) {
     log(`Auffüllen fortsetzen: ${auffuellStand.fertig}/${auffuellStand.ziel}`);
     try { await auffuellenLauf(auffuellStand.ziel, { hosting, ledger, ledgerPfad, pool, poolIndex, strategie, maxJeLauf: 4 }); }
@@ -384,6 +393,9 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       }
       fehler++;
       if (fehler >= 4) { console.error("Vier Fehler – Auffüllen abgebrochen, Fortsetzung beim nächsten Aufruf."); break; }
+      /* Inhaltlich nicht freigegeben: das Thema nicht sofort noch einmal schreiben
+         (kostet zwei weitere Entwürfe), sondern zum nächsten übergehen. */
+      if (/nicht freigegeben/.test(e.message)) { console.error("  Thema wird übersprungen, kommt später wieder in den Pool."); fs.rmSync(path.join(hosting.stateDir, `inhalte/${slot}.json`), { force: true }); continue; }
       /* Denselben Beitrag noch einmal versuchen, damit kein Platz übersprungen
          wird. Ein gespeicherter Entwurf wird nur verworfen, wenn der Fehler
          nicht von Instagram kam (sonst kostet die Neufassung nur Geld). */

@@ -25,7 +25,9 @@ export function budgetSetzen(opt = {}) {
 
 export const tagesStand = () => vorbelastung + summe();
 export const tagesLimit = () => limitUsd;
-export const budgetFrei = () => tagesStand() < limitUsd;
+/* Kleine Reserve: ein Aufruf kostet 0,02–0,05 $, so bleibt der Deckel praktisch eingehalten. */
+const RESERVE = 0.02;
+export const budgetFrei = () => tagesStand() + RESERVE < limitUsd;
 
 export function budgetPruefen(zweck = "Claude-Aufruf") {
   if (!budgetFrei()) throw new BudgetFehler(`Tagesbudget erreicht (${tagesStand().toFixed(3)} $ von ${limitUsd.toFixed(2)} $) – ${zweck} wartet bis morgen.`);
