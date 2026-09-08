@@ -11,7 +11,10 @@
       "themaId": "kst-quiz-kst-3",
       "themaTitel": "Welche Aussage zur vGA ist richtig?",
       "fach": "kst",
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18024573866913571",
+      "veroeffentlicht": "2026-09-08T06:44:41.409Z",
+      "kanaele": {}
     },
     {
       "slot": "b2",

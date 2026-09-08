@@ -876,10 +876,23 @@
       "variante": 1,
       "veroeffentlicht": "2026-09-08T05:55:49.789Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-08/2026-09-08-f23-02-mts9846y.jpg"
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "beitrag",
+      "slot": "b1",
+      "format": "pruefungsfrage",
+      "thema": "persg-quiz-k3-27",
+      "fach": "persg",
+      "titel": "Wann darf ich in der Steuerbilanz auf den niedrigeren Teilwert abschreiben?",
+      "medienId": "18024573866913571",
+      "variante": 0,
+      "veroeffentlicht": "2026-09-08T06:44:41.409Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
-    "persg": 2,
+    "persg": 3,
     "ust": 3,
     "kst": 4,
     "ao": 6,
