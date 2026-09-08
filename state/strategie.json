@@ -1,9 +1,9 @@
 {
   "stand": "2026-09-08",
-  "beitraege": 17,
+  "beitraege": 20,
   "formatGewicht": {
     "pruefungsfrage": 2,
-    "fehlerfalle": 1.9645308924485125,
+    "fehlerfalle": 1.5408085430968725,
     "schema": 0.5,
     "rechenweg": 0.5,
     "minifall": 0.5,
@@ -13,12 +13,14 @@
   "fachGewicht": {
     "ao": 2,
     "kst": 0.5,
-    "istr": 0.7935926773455377,
-    "bilanz": 0.5
+    "istr": 0.7780320366132724,
+    "bilanz": 0.5,
+    "ust": 0.5
   },
   "hookGewicht": {
-    "frage": 0.7179113792386104,
-    "zahl": 0.5
+    "frage": 0.7742181540808544,
+    "zahl": 0.5,
+    "fehler": 0.5
   },
   "besteStunden": null,
   "follower": 0,

@@ -1,0 +1,102 @@
+{
+  "datum": "2026-09-09",
+  "erzeugt": "2026-09-08T22:00:31.794Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:30",
+      "format": "aktuell",
+      "themaId": null,
+      "themaTitel": null,
+      "fach": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "pruefungsfrage",
+      "themaId": "ao-modul-ao-341",
+      "themaTitel": "Ergänzungsbescheid als eigenes Korrekturthema: Quellenhinweis und Abgrenzung",
+      "fach": "ao",
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "07:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "10:25",
+      "art": "frage",
+      "themaId": "kst-karte-kst-0",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "10:25",
+      "art": "antwort",
+      "themaId": "kst-karte-kst-0",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "13:31",
+      "art": "norm",
+      "themaId": "bilanz-glossar-4",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "15:07",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 27,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "17:04",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-301",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "18:35",
+      "art": "formel",
+      "themaId": "bilanz-formel-zeitbudget",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "20:03",
+      "art": "begriff",
+      "themaId": "bilanz-glossar-7",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}

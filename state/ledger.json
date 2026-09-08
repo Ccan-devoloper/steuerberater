@@ -257,7 +257,7 @@
         "comments": 1,
         "total_interactions": 1
       },
-      "insightsStand": "2026-09-08T05:42:59.218Z"
+      "insightsStand": "2026-09-08T22:00:34.927Z"
     },
     {
       "datum": "2026-09-05",
@@ -359,7 +359,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:42:59.816Z"
+      "insightsStand": "2026-09-08T22:00:35.230Z"
     },
     {
       "datum": "2026-09-05",
@@ -381,7 +381,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:00.119Z"
+      "insightsStand": "2026-09-08T22:00:35.627Z"
     },
     {
       "datum": "2026-09-05",
@@ -403,7 +403,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:00.450Z"
+      "insightsStand": "2026-09-08T22:00:35.934Z"
     },
     {
       "datum": "2026-09-05",
@@ -425,7 +425,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:00.722Z"
+      "insightsStand": "2026-09-08T22:00:36.264Z"
     },
     {
       "datum": "2026-09-05",
@@ -447,7 +447,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:01.025Z"
+      "insightsStand": "2026-09-08T22:00:36.558Z"
     },
     {
       "datum": "2026-09-05",
@@ -469,7 +469,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:01.667Z"
+      "insightsStand": "2026-09-08T22:00:36.894Z"
     },
     {
       "datum": "2026-09-05",
@@ -491,7 +491,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:01.969Z"
+      "insightsStand": "2026-09-08T22:00:37.226Z"
     },
     {
       "datum": "2026-09-05",
@@ -513,7 +513,7 @@
         "comments": 0,
         "total_interactions": 1
       },
-      "insightsStand": "2026-09-08T05:43:02.215Z"
+      "insightsStand": "2026-09-08T22:00:37.471Z"
     },
     {
       "datum": "2026-09-05",
@@ -535,7 +535,7 @@
         "comments": 0,
         "total_interactions": 1
       },
-      "insightsStand": "2026-09-08T05:43:02.487Z"
+      "insightsStand": "2026-09-08T22:00:37.817Z"
     },
     {
       "datum": "2026-09-05",
@@ -558,7 +558,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:02.859Z"
+      "insightsStand": "2026-09-08T22:00:38.182Z"
     },
     {
       "datum": "2026-09-05",
@@ -581,7 +581,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:03.175Z"
+      "insightsStand": "2026-09-08T22:00:38.510Z"
     },
     {
       "datum": "2026-09-05",
@@ -604,7 +604,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:03.509Z"
+      "insightsStand": "2026-09-08T22:00:38.771Z"
     },
     {
       "datum": "2026-09-05",
@@ -627,7 +627,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:03.725Z"
+      "insightsStand": "2026-09-08T22:00:39.041Z"
     },
     {
       "datum": "2026-09-05",
@@ -650,7 +650,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:04.071Z"
+      "insightsStand": "2026-09-08T22:00:39.414Z"
     },
     {
       "datum": "2026-09-05",
@@ -673,7 +673,7 @@
         "comments": 0,
         "total_interactions": 0
       },
-      "insightsStand": "2026-09-08T05:43:04.366Z"
+      "insightsStand": "2026-09-08T22:00:39.769Z"
     },
     {
       "datum": "2026-09-05",
@@ -695,7 +695,7 @@
         "total_interactions": 0,
         "views": 27
       },
-      "insightsStand": "2026-09-08T05:43:04.621Z"
+      "insightsStand": "2026-09-08T22:00:39.979Z"
     },
     {
       "datum": "2026-09-05",
@@ -719,7 +719,16 @@
       "medienId": "18132939373642755",
       "variante": 0,
       "veroeffentlicht": "2026-09-06T05:46:05.229Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T22:00:40.254Z"
     },
     {
       "datum": "2026-09-06",
@@ -743,7 +752,16 @@
       "medienId": "18090472283445149",
       "variante": 1,
       "veroeffentlicht": "2026-09-06T05:48:50.139Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T22:00:40.536Z"
     },
     {
       "datum": "2026-09-06",
@@ -757,7 +775,16 @@
       "medienId": "18432756715179600",
       "variante": 0,
       "veroeffentlicht": "2026-09-06T06:01:41.114Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0
+      },
+      "insightsStand": "2026-09-08T22:00:40.885Z"
     },
     {
       "datum": "2026-09-07",
