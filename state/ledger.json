@@ -848,13 +848,27 @@
       "variante": 1,
       "veroeffentlicht": "2026-09-07T11:09:01.956Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "beitrag",
+      "slot": "f22",
+      "format": "vergleich",
+      "thema": "ao-modul-ao-386",
+      "fach": "ao",
+      "titel": "Der Fehler, der Leichtfertigkeit mit Vorsatz verwechselt",
+      "hookTyp": "fehler",
+      "medienId": "17998422717007978",
+      "variante": 0,
+      "veroeffentlicht": "2026-09-08T05:45:20.807Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 3,
     "kst": 4,
-    "ao": 4,
+    "ao": 5,
     "bilanz": 11,
     "istr": 6,
     "erbst": 1
