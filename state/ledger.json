@@ -862,13 +862,27 @@
       "variante": 0,
       "veroeffentlicht": "2026-09-08T05:45:20.807Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-08",
+      "art": "beitrag",
+      "slot": "f23",
+      "format": "spickzettel",
+      "thema": "ao-modul-ao-315",
+      "fach": "ao",
+      "titel": "6 Schritte entscheiden, ob ein fehlerhafter Bescheid wirksam bleibt",
+      "hookTyp": "zahl",
+      "medienId": "17961095562191749",
+      "variante": 1,
+      "veroeffentlicht": "2026-09-08T05:55:49.789Z",
+      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-08/2026-09-08-f23-02-mts9846y.jpg"
     }
   ],
   "fachZaehler": {
     "persg": 2,
     "ust": 3,
     "kst": 4,
-    "ao": 5,
+    "ao": 6,
     "bilanz": 11,
     "istr": 6,
     "erbst": 1
