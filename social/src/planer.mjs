@@ -12,7 +12,7 @@ import path from "node:path";
 import { CONFIG } from "./config.mjs";
 import { themenpool, FAECHER } from "./inhalte.mjs";
 import { heuteIso, wochentag, minutenVon, hhmm, tageBis } from "./zeit.mjs";
-import { anlassFuer } from "./kalender.mjs";
+import { anlaesseFuer, mindsetThema } from "./kalender.mjs";
 
 /* Mulberry32 – kleiner, reproduzierbarer Zufallsgenerator. */
 function rng(seedText) {
@@ -41,6 +41,7 @@ export const FORMAT_QUELLEN = {
   spickzettel:    ["modul", "schema"],
   anlass:         ["modul", "karteikarte"],
   reel:           ["modul", "schema", "karteikarte"],
+  loesungsskizze: [],
   minifall:       ["modul", "karteikarte"],
   vergleich:      ["modul", "karteikarte", "begriff"],
   klausurtechnik: ["modul", "formel"],
@@ -93,7 +94,11 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   const wt = wochentag(new Date(`${datum}T12:00:00Z`));
   const wochenende = wt === 0 || wt === 6;
   const anzahl = wochenende ? CONFIG.plan.beitraegeWochenende : CONFIG.plan.beitraegeWerktag;
-  const formate = (CONFIG.plan.formateJeWochentag[wt] || ["pruefungsfrage", "fehlerfalle", "schema"]).slice(0, anzahl);
+  const tageVor = tageBis(CONFIG.examen.schriftlich, new Date(`${datum}T12:00:00Z`));
+  /* Endspurt: in den letzten Wochen vor der Prüfung Klausurtechnik und Dauerbrenner. */
+  const endspurt = tageVor >= 0 && tageVor <= CONFIG.plan.endspurtTage;
+  const tabelle = endspurt ? CONFIG.plan.formateEndspurt : CONFIG.plan.formateJeWochentag;
+  const formate = (tabelle[wt] || ["pruefungsfrage", "fehlerfalle", "schema"]).slice(0, anzahl);
   /* Lernschleife: ein Format, das deutlich schlechter läuft als der Schnitt, wird an
      diesem Tag durch das beste Format ersetzt (nie „aktuell“/„wochenrueckblick“). */
   const fg = (CONFIG.plan.lernen && strategie?.formatGewicht) || {};
@@ -105,8 +110,12 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   /* Reel-Tage: der letzte Beitrag des Tages wird ein Reel (Video mit Stimme). */
   if (CONFIG.reel.aktiv && CONFIG.reel.tage.includes(wt) && formate.length) formate[formate.length - 1] = "reel";
   /* Anlasstage (Countdown, Prüfungstag …): der erste Beitrag wird zum Anlass. */
-  const anlass = anlassFuer(datum);
+  const anlaesseHeute = anlaesseFuer(datum);
+  const anlass = anlaesseHeute.find((a) => !a.zeit) || null;
+  const abendAnlass = anlaesseHeute.find((a) => a.zeit) || null;
   if (anlass && formate.length) formate[0] = "anlass";
+  /* Abend-Anlass (Lösungsskizze am Prüfungstag): ersetzt den letzten Beitrag des Tages. */
+  if (abendAnlass && formate.length) formate[formate.length - 1] = "loesungsskizze";
   /* Beste Uhrzeiten aus den Online-Zeiten der Follower, sonst Standard. */
   const zeiten = (CONFIG.plan.lernen && strategie?.besteStunden?.length === 3) ? strategie.besteStunden : CONFIG.plan.beitragsZeiten;
   const benutzt = new Set();
@@ -116,12 +125,17 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
     const typen = FORMAT_QUELLEN[format] || [];
     let thema = null;
     if (typen.length) {
-      const kandidaten = verfuegbar(pool, ledgerKopie, datum, benutzt).filter((t) => typen.includes(t.typ));
+      let kandidaten = verfuegbar(pool, ledgerKopie, datum, benutzt).filter((t) => typen.includes(t.typ));
+      /* Endspurt: Dauerbrenner zuerst – keine seltenen Themen mehr. */
+      if (endspurt) { const hoch = kandidaten.filter((t) => t.prioritaet === "hoch"); if (hoch.length >= 4) kandidaten = hoch; }
       thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie, strategie);
       benutzt.add(thema.id);
       ledgerKopie.fachZaehler[thema.fach] = (ledgerKopie.fachZaehler[thema.fach] || 0) + 1;
     }
-    return { slot: `b${i + 1}`, zeit: zeiten[i] || zeiten.at(-1), format, thema, anlass: format === "anlass" ? anlass : undefined, lang: format === "reel" ? CONFIG.reel.langeTage.includes(wt) : undefined };
+    /* Samstags-Reel: Mindset statt Fachthema – holt Menschen ab, die Fachposts nie sehen. */
+    if (format === "reel" && wt === 6) thema = mindsetThema(datum);
+    const zeit = format === "loesungsskizze" ? abendAnlass.zeit : (zeiten[i] || zeiten.at(-1));
+    return { slot: `b${i + 1}`, zeit, format, thema, anlass: format === "anlass" ? anlass : format === "loesungsskizze" ? abendAnlass : undefined, lang: format === "reel" ? CONFIG.reel.langeTage.includes(wt) : undefined };
   });
 
   /* Stories: Teaser je Beitrag + eigenständige Karten, bis zur Tagesmenge. */
@@ -130,7 +144,9 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   const eigenstaendig = ["frage", "norm", "countdown", "merksatz", "formel", "begriff", "fehler", "tipp", "zahl"];
   const tageBisExamen = tageBis(CONFIG.examen.schriftlich, new Date(`${datum}T12:00:00Z`));
   let k = 0;
-  while (stories.length < CONFIG.plan.storiesProTag && k < 40) {
+  /* Prüfungstage: nur Teaser-Stories – das Budget gehört der Lösungsskizze am Abend. */
+  const pruefungstag = anlass?.art === "pruefungstag";
+  while (!pruefungstag && stories.length < CONFIG.plan.storiesProTag && k < 40) {
     const art = eigenstaendig[k % eigenstaendig.length];
     k++;
     if (art === "countdown" && (tageBisExamen < 0 || tageBisExamen > 200)) continue;
@@ -156,7 +172,7 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   for (let i = 0; i < stories.length; i++) if (stories[i].art === "antwort") stories[i].zeit = stories[i - 1].zeit;
   stories.sort((a, b) => minutenVon(a.zeit) - minutenVon(b.zeit));
 
-  return { datum, wochentag: wt, beitraege, stories, anlass };
+  return { datum, wochentag: wt, beitraege, stories, anlass, abendAnlass };
 }
 
 /* Auffüllplan: n Beiträge (keine Reels, keine Tagesformate) mit Themen aus dem

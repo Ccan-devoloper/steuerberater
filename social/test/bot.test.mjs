@@ -91,7 +91,41 @@ test("Kanzlei-Stil wechselt zwischen Schwarz und Weiß", async () => {
   assert.equal(stilFuer("kanzlei", 1, true), "kanzlei-hell");
   assert.equal(stilFuer("kanzlei", 1, false), "kanzlei");
   assert.equal(stilFuer("campus", 1, true), "campus");
-  assert.equal(kontext({ stil: "kanzlei", variante: 3 }).stil.id, "kanzlei-hell");
+  /* Mit Tagesfarbe (Standard) gibt es keinen Hell/Dunkel-Wechsel mehr – die Farbe je Klausurtag ersetzt ihn. */
+  assert.equal(kontext({ stil: "kanzlei", variante: 3 }).stil.id, CONFIG.marke.farbeJeKlausur ? "kanzlei" : "kanzlei-hell");
+  const { klausurCss } = await import("../src/vorlagen.mjs");
+  assert.match(klausurCss({ farbeJeKlausur: true, klausur: 1 }), /--akzent:var\(--k1\)/);
+  assert.match(klausurCss({ farbeJeKlausur: true, klausur: 2 }), /height:16px;background:var\(--k2\)/);
+  assert.equal(klausurCss({ farbeJeKlausur: false, klausur: 2 }), "");
+});
+
+test("Redaktionsplan: Prüfungsabend mit Lösungsskizze, Endspurt-Formate, Samstags-Mindset-Reel, Phasen", async () => {
+  const { anlaesseFuer, phase, mindsetThema, MINDSET_THEMEN } = await import("../src/kalender.mjs");
+  const tag1 = CONFIG.examen.schriftlich;   // 2026-10-06
+  const heute = anlaesseFuer(tag1);
+  assert.ok(heute.some((a) => a.art === "pruefungstag" && !a.zeit));
+  assert.ok(heute.some((a) => a.art === "loesungsskizze" && a.zeit === "18:30" && a.klausur === 1));
+  const plan = tagesplan(tag1, ledgerLaden(), themenpool());
+  assert.equal(plan.beitraege[0].format, "anlass");
+  assert.equal(plan.beitraege.at(-1).format, "loesungsskizze");
+  assert.equal(plan.beitraege.at(-1).zeit, "18:30");
+  assert.ok(plan.stories.every((s) => s.art === "teaser"), "Prüfungstag: nur Teaser-Stories");
+  /* Endspurt: 20 Tage vorher Klausurtechnik statt Fehlerfalle (Montag 2026-09-14 → 22 Tage). */
+  const endspurt = tagesplan("2026-09-14", ledgerLaden(), themenpool());
+  assert.deepEqual(endspurt.beitraege.map((b) => b.format), CONFIG.plan.formateEndspurt[1]);
+  assert.ok(endspurt.beitraege.every((b) => !b.thema || b.thema.prioritaet === "hoch"), "Endspurt: nur Dauerbrenner");
+  /* Samstag: Reel mit Mindset-Thema. */
+  const samstag = tagesplan("2026-09-12", ledgerLaden(), themenpool());
+  const reel = samstag.beitraege.find((b) => b.format === "reel");
+  assert.ok(reel && reel.thema.typ === "mindset", JSON.stringify(samstag.beitraege.map((b) => [b.format, b.thema?.typ])));
+  assert.ok(MINDSET_THEMEN.includes(mindsetThema("2026-09-12")));
+  /* Nach der Prüfung: montags „Zweiter Anlauf“, Jan–Apr Anmeldefenster. */
+  assert.ok(anlaesseFuer("2026-10-19").some((a) => a.art === "neustart"));
+  assert.ok(anlaesseFuer("2027-01-04").some((a) => a.art === "anmeldefenster") || anlaesseFuer("2027-01-11").some((a) => a.art === "anmeldefenster"));
+  assert.match(phase("2026-09-14"), /Klausurtechnik/);
+  assert.match(phase("2026-11-10"), /zweiter|neu ansetzt/i);
+  assert.match(phase("2027-03-01"), /Anmeldeschluss/);
+  assert.match(phase("2027-06-15"), /Hauptlernphase/);
 });
 
 test("Keine Folie nennt Website, Repository oder Markennamen", () => {
@@ -183,7 +217,7 @@ test("Saisonkalender: Countdown, Prüfungstage, Anlass im Planer", async () => {
   assert.equal(anlassFuer("2026-09-06").titel, "30 Tage bis zum Examen");
   assert.equal(anlassFuer("2026-04-30").art, "frist");
   assert.equal(anlassFuer("2026-09-10"), null);
-  assert.match(phase("2026-09-10"), /heiße Phase/);
+  assert.match(phase("2026-09-10"), /Klausurtechnik/);
   const plan = tagesplan("2026-10-06", ledgerLaden(), themenpool());
   assert.equal(plan.beitraege[0].format, "anlass");
   assert.ok(plan.beitraege[0].anlass?.kontext);
@@ -200,9 +234,9 @@ test("Lernschleife: Gewichte, Hook-Typen, beste Uhrzeiten, Plan folgt der Strate
   assert.equal(s.besteStunden.length, 3);
   assert.equal(hookTyp("Der Fehler, der 5 Punkte kostet"), "fehler");
   assert.ok(punkte({ saved: 1 }) > punkte({ likes: 1 }));
-  const plan = tagesplan("2026-09-09", ledgerLaden(), themenpool(), { ...s, formatGewicht: { fehlerfalle: 1.6, pruefungsfrage: 0.6 } });
+  const plan = tagesplan("2026-09-09", ledgerLaden(), themenpool(), { ...s, formatGewicht: { fehlerfalle: 1.6, klausurtechnik: 0.6 } });
   assert.ok(plan.beitraege.some((b) => b.format === "fehlerfalle"));
-  assert.ok(!plan.beitraege.some((b) => b.format === "pruefungsfrage"));
+  assert.ok(!plan.beitraege.some((b) => b.format === "klausurtechnik"));
   assert.deepEqual(plan.beitraege.map((b) => b.zeit), s.besteStunden.slice(0, plan.beitraege.length));
 });
 

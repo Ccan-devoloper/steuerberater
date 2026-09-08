@@ -190,6 +190,33 @@ social/
   test/             node --test
 ```
 
+## Redaktionsplan: Der Jahreszyklus des Examens
+
+Der Bot folgt dem Prüfungsjahr (`kalender.mjs`), Markenkern ist **„Examensvorbereitung, sortiert nach
+Klausurtag“**:
+
+- **Farbe je Klausurtag** statt Schwarz/Weiß-Wechsel (`IG_FARBE_JE_KLAUSUR`, Standard an): Tag 1 Blau,
+  Tag 2 Orange, Tag 3 Grün – Balken oben, Akzente, Pille, Fußzeile. So ist im Profil auf einen Blick
+  sichtbar, zu welcher Klausur ein Beitrag gehört. `IG_FARBE_JE_KLAUSUR=false` stellt den Wechsel wieder her.
+- **Endspurt (letzte 30 Tage)**: Klausurtechnik, Zeitmanagement, Dauerbrenner-Wiederholung
+  (`formateEndspurt`), nur Themen mit Priorität „hoch“. Ziel: Reichweite und Weiterleitungen, nichts verkaufen.
+- **Prüfungstage**: morgens ein ruhiger Anlass-Beitrag, um 18:30 die **Lösungsskizze** zu den
+  Themen, die Kandidat:innen berichten (Web-Recherche, ausdrücklich vorläufig), am Tag danach der
+  Überblick über alle drei Tage. Stories an Prüfungstagen nur Teaser – das Budget gehört der Skizze.
+- **Okt–Dez**: montags „Zweiter Anlauf“ (Fehleranalyse, Lernplan, Klausuren unter Zeit).
+- **Jan–30. April**: jeden zweiten Montag Entscheidungs- und Anmeldefenster (Antreten?, Lernplan,
+  Fristen) – ohne Verkaufsbotschaft.
+- **Mai–Sept**: Hauptlernphase mit Systematik, Schemata, Klausurtraining.
+- **CTA**: Haupt-Aufforderung ist immer „Schick das deiner Lerngruppe“, dann Speichern, dann Folgen –
+  Lerngruppen sind der Wachstumsmotor. Kennzahlen der Lernschleife: Saves und Shares vor Likes.
+- **Samstags-Reel = Mindset** (Prüfungsangst, Blackout, Zeitdruck, Perfektionismus …) als Ersatz für
+  ein Talking-Head-Video; holt Menschen ab, die Fachposts nie sehen.
+
+Was der Bot nicht kann und von Hand zu tun ist: Bio-Text („Examensvorbereitung, sortiert nach
+Klausurtag“), ein Story-Highlight je Klausur, und ein Lead-Magnet gegen E-Mail (z. B. „Die 30
+Dauerbrenner, sortiert nach Klausurtag“ als PDF) – dafür braucht es eine Landingpage oder ein
+Newsletter-Tool.
+
 ## Reels (Video mit Sprecherstimme)
 
 Reels sind der größte Reichweiten-Hebel auf Instagram. Der Bot baut sie aus einem Skript mit
