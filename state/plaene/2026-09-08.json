@@ -1,39 +1,27 @@
 {
   "datum": "2026-09-08",
-  "erzeugt": "2026-09-04T18:52:29.657Z",
+  "erzeugt": "2026-09-08T06:42:50.630Z",
+  "anlass": null,
+  "trocken": false,
   "beitraege": [
     {
       "slot": "b1",
       "zeit": "07:30",
       "format": "pruefungsfrage",
-      "themaId": "persg-quiz-k3-27",
-      "themaTitel": "Wie wird ein Wirtschaftsgut bewertet, das bei der Betriebsaufgabe ins Privatvermögen wandert?",
-      "fach": "persg",
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:52:35.392Z"
+      "themaId": "kst-quiz-kst-3",
+      "themaTitel": "Welche Aussage zur vGA ist richtig?",
+      "fach": "kst",
+      "status": "geplant"
     },
     {
       "slot": "b2",
       "zeit": "12:30",
-      "format": "rechenweg",
-      "themaId": "persg-modul-persg-3",
-      "themaTitel": "Mitunternehmerstellung: Risiko und Initiative",
-      "fach": "persg",
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:52:40.829Z"
-    },
-    {
-      "slot": "b3",
-      "zeit": "18:00",
-      "format": "minifall",
-      "themaId": "ust-modul-ust-218",
-      "themaTitel": "Vorsteuerausschluss und Aufteilung: § 15 Abs. 2 bis 4",
-      "fach": "ust",
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:52:47.125Z"
+      "format": "reel",
+      "themaId": "istr-modul-istr-istr3-02",
+      "themaTitel": "Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA",
+      "fach": "istr",
+      "lang": false,
+      "status": "geplant"
     }
   ],
   "stories": [
@@ -43,19 +31,23 @@
       "art": "teaser",
       "themaId": null,
       "beitragSlot": "b1",
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:52:51.762Z"
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "10:23",
+      "art": "frage",
+      "themaId": "ust-quiz-ust-4",
+      "beitragSlot": null,
+      "status": "geplant"
     },
     {
       "slot": "s4",
-      "zeit": "11:58",
-      "art": "frage",
-      "themaId": "kst-karte-kst-5",
+      "zeit": "10:23",
+      "art": "antwort",
+      "themaId": "ust-quiz-ust-4",
       "beitragSlot": null,
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:52:56.308Z"
+      "status": "geplant"
     },
     {
       "slot": "s2",
@@ -63,70 +55,48 @@
       "art": "teaser",
       "themaId": null,
       "beitragSlot": "b2",
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:53:01.122Z"
+      "status": "geplant"
     },
     {
       "slot": "s5",
-      "zeit": "12:43",
-      "art": "antwort",
-      "themaId": "kst-karte-kst-5",
+      "zeit": "13:50",
+      "art": "norm",
+      "themaId": "ao-modul-ao-354",
       "beitragSlot": null,
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:53:05.767Z"
+      "status": "geplant"
     },
     {
       "slot": "s6",
       "zeit": "15:25",
-      "art": "norm",
-      "themaId": "bilanz-modul-k3-18",
-      "beitragSlot": null,
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:53:10.561Z"
-    },
-    {
-      "slot": "s7",
-      "zeit": "17:02",
       "art": "countdown",
       "themaId": null,
       "beitragSlot": null,
       "tageBisExamen": 28,
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:53:15.095Z"
+      "status": "geplant"
     },
     {
-      "slot": "s3",
-      "zeit": "18:00",
-      "art": "teaser",
-      "themaId": null,
-      "beitragSlot": "b3",
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:53:19.523Z"
+      "slot": "s7",
+      "zeit": "17:02",
+      "art": "merksatz",
+      "themaId": "bilanz-modul-k3-50",
+      "beitragSlot": null,
+      "status": "geplant"
     },
     {
       "slot": "s8",
       "zeit": "18:30",
-      "art": "merksatz",
-      "themaId": "istr-modul-istr-istr4-03",
+      "art": "formel",
+      "themaId": "bilanz-formel-pwb",
       "beitragSlot": null,
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:53:23.858Z"
+      "status": "geplant"
     },
     {
       "slot": "s9",
       "zeit": "20:18",
-      "art": "formel",
-      "themaId": "bilanz-formel-sechzehn-freibetrag",
+      "art": "begriff",
+      "themaId": "ust-karte-ust-15",
       "beitragSlot": null,
-      "status": "veroeffentlicht",
-      "medienId": "trocken",
-      "veroeffentlicht": "2026-09-04T18:53:28.283Z"
+      "status": "geplant"
     }
   ]
 }
