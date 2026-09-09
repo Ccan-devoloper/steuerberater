@@ -15,7 +15,7 @@ export const CONFIG = {
     name: env("IG_MARKE", ""),
     handle: env("IG_HANDLE", ""),
     website: env("IG_WEBSITE", ""),
-    stil: env("IG_STIL", "kanzlei"),                       // kanzlei | klausurbogen | campus (siehe stile.mjs)
+    stil: env("IG_STIL", "bunt"),                          // bunt | kanzlei | klausurbogen | campus (siehe stile.mjs)
     /* true: Kanzlei-Stil wechselt Kachel für Kachel zwischen Schwarz und Weiß
        (Schachbrett im Profil). Für andere Stile ohne Wirkung. */
     stilWechsel: env("IG_STIL_WECHSEL", "true") === "true",

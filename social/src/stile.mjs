@@ -38,6 +38,30 @@ export const STILE = {
     ecken: "6px",
   },
 
+  /* D · Bunt – ganze Kachel in der Farbe des Klausurtags (Tag 1 Blau, Tag 2
+     Orange, Tag 3 Grün), Titel in Pillen, handschriftlicher Hinweis, Bühne mit
+     großem Icon, §-Badge und Karte. Vorbild: bunte Studygram-Profile. */
+  bunt: {
+    name: "Bunt",
+    beschreibung: "Vollflächig in der Tagesfarbe, Pillen-Titel, Handschrift-Hinweis, Icon-Bühne – auffällig und freundlich.",
+    modus: "bunt",
+    familie: "bunt",
+    schrift: { titel: "Space Grotesk", text: "Inter", mono: "IBM Plex Mono", titelGewicht: 700, titelTransform: "none", titelSpacing: "-0.01em", titelZeilenhoehe: 1.05 },
+    farben: {
+      grund: "#23d98b", flaeche: "rgba(255,255,255,.92)", text: "#0b4a33", textWeich: "#1d5c44", linie: "rgba(255,255,255,.45)",
+      akzent: "#0b4a33", pille: "#0b4a33", pilleText: "#ffffff",
+      k1: "#2d5be3", k2: "#ff7a45", k3: "#23d98b",
+      ok: "#0b4a33", warn: "#7a3a10", rot: "#b3261e",
+    },
+    /* Palette je Klausurtag: Grund, dunkle Kontrastfarbe, helle und lila Pille, Zweitakzent. */
+    tagFarben: {
+      1: { grund: "#2d5be3", dunkel: "#0c1b4d", hell: "#e3ebff", lila: "#cdbcff", akzent2: "#ffd166" },
+      2: { grund: "#ff7a45", dunkel: "#3a1708", hell: "#fff0e6", lila: "#ffd9c2", akzent2: "#2d5be3" },
+      3: { grund: "#23d98b", dunkel: "#0b4a33", hell: "#e9fff4", lila: "#d9c8ff", akzent2: "#ff7a45" },
+    },
+    ecken: "30px",
+  },
+
   /* B · Klausurbogen – Papier, Tintenblau, Serifen. Entspricht dem Design der
      Webseite (IBM Plex, Korrekturfarben, Randziffern). */
   klausurbogen: {
