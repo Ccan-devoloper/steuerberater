@@ -1020,6 +1020,16 @@
       "fach": "kst",
       "titel": "Ab wann unterliegt die künftige GmbH erstmals der Körperschaftsteuer?",
       "medienId": "18001731357005026"
+    },
+    {
+      "datum": "2026-09-09",
+      "art": "story",
+      "slot": "s4",
+      "storyArt": "antwort",
+      "thema": "kst-karte-kst-0",
+      "fach": "kst",
+      "titel": "Körperschaftsteuerpflicht ab Beurkundung",
+      "medienId": "17909558394526143"
     }
   ],
   "fachZaehler": {
