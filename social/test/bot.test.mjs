@@ -337,3 +337,16 @@ test("Reel: Animation rotiert täglich, Untertitel-Blöcke stehen fest", async (
   assert.ok(b.every((x, i) => i === 0 || x.von >= b[i - 1].bis - 1e-9));
   assert.equal(b[0].w[0].t, "Erstens:");
 });
+
+test("Reel: Hintergrund-Clip rotiert täglich, ohne Verzeichnis keine Auswahl", async () => {
+  const { hintergrundClip } = await import("../src/reel.mjs");
+  const os = await import("node:os"); const path = await import("node:path");
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "clips-"));
+  assert.equal(hintergrundClip(dir, "2026-09-10"), null);
+  assert.equal(hintergrundClip(path.join(dir, "fehlt"), "2026-09-10"), null);
+  for (const n of ["b.mp4", "a.mp4", "notiz.txt"]) fs.writeFileSync(path.join(dir, n), "");
+  const a = hintergrundClip(dir, "2026-09-10"), b = hintergrundClip(dir, "2026-09-11");
+  assert.ok(a && b && a !== b && /\.mp4$/.test(a));
+  assert.equal(hintergrundClip(dir, "2026-09-12"), a);
+  fs.rmSync(dir, { recursive: true, force: true });
+});
