@@ -174,9 +174,9 @@ canvas#oben,.trenner{display:none}
 .schritt h2,.merke-titel,.ctablock h2{max-width:100%}
 .reel .fuss{top:1078px;bottom:auto;left:106px;right:106px;z-index:1}
 .untertitel{top:1220px;height:330px;left:104px;right:104px;padding:0 20px;z-index:2}
-.untertitel .block{color:#111;text-shadow:none}
-.untertitel .w{color:#111}
-.reel .untertitel .w.jetzt,.familie-bunt .untertitel .w.jetzt,.untertitel .w.jetzt{color:${p.dunkel}}`;
+.reel .untertitel .block{color:#111;text-shadow:none}
+.reel .untertitel .w,.familie-bunt .untertitel .w{color:#111}
+.reel .untertitel .w.jetzt,.familie-bunt .untertitel .w.jetzt,.reel .untertitel .w.jetzt{color:${p.dunkel}}`;
 }
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
