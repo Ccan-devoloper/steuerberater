@@ -1,0 +1,108 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-341",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Zwei Absätze, ein Paragraf: § 179 AO trennt zwei völlig verschiedene Fälle",
+      "icon": "dokument",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "text",
+      "titel": "Worum es geht",
+      "text": "Ein Feststellungsbescheid muss alle notwendigen Feststellungen enthalten – etwa Gewinnhöhe und Verteilung auf die Beteiligten. Fehlt eine davon *ganz*, ist der Bescheid unvollständig. Genau dafür gibt es den *Ergänzungsbescheid* nach § 179 Abs. 3 AO.",
+      "icon": "dokument"
+    },
+    {
+      "art": "schritte",
+      "titel": "So grenzt du ab",
+      "schritte": [
+        {
+          "titel": "Lücke identifizieren",
+          "text": "Fehlt eine gesondert festzustellende Besteuerungsgrundlage oder ein Beteiligter komplett?"
+        },
+        {
+          "titel": "Norm ansetzen",
+          "text": "§ 179 Abs. 3 AO trägt genau diese Lücke nach – ohne den bestehenden Bescheid zu ändern."
+        },
+        {
+          "titel": "Nicht verwechseln",
+          "text": "§ 181 Abs. 5 AO betrifft etwas anderes: den Hinweis, dass ein Feststellungsbescheid trotz abgelaufener Feststellungsfrist noch für einen Folgebescheid wirkt."
+        },
+        {
+          "titel": "Fehlt der Hinweis",
+          "text": "Fehlt nur dieser Wirkhinweis, ist das kein Fall für § 179 Abs. 3 AO – hier hilft die Berichtigung des bestehenden Bescheids."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Zwei Baustellen, ein Bescheid",
+      "links": {
+        "titel": "Ergänzungsbescheid, § 179 Abs. 3 AO",
+        "punkte": [
+          "Inhaltliche Lücke im Bescheid",
+          "Feststellung fehlt komplett",
+          "Eigenständiger Zusatzbescheid"
+        ]
+      },
+      "rechts": {
+        "titel": "Wirkhinweis, § 181 Abs. 5 AO",
+        "punkte": [
+          "Zeitliche Frage nach Fristablauf",
+          "Hinweis auf Fortwirkung fehlt",
+          "Kein neuer Feststellungsinhalt"
+        ]
+      },
+      "icon": "waage"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Eine fehlende Feststellung braucht einen Ergänzungsbescheid, ein fehlender Hinweis auf Fortwirkung braucht keinen.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Verfahrensrecht sitzt vor Klausur 1.",
+      "punkte": [
+        "Schick das deiner Lerngruppe – die Abgrenzung wird gern verwechselt",
+        "Speichern und vor der AO-Klausur nochmal lesen",
+        "Welche Korrekturvorschrift verwechselst du am meisten? Kommentiere!"
+      ],
+      "icon": "trophaee"
+    }
+  ],
+  "caption": "Ergänzungsbescheid AO Voraussetzungen § 179 Abs. 3 – oder ist es doch der Wirkhinweis nach § 181 Abs. 5?\n\nDie beiden werden in der Klausur ständig durcheinandergebracht. Der Ergänzungsbescheid trägt eine *fehlende Feststellung* nach – etwa einen vergessenen Beteiligten. Der Wirkhinweis nach § 181 Abs. 5 AO betrifft dagegen nur, ob ein Bescheid trotz abgelaufener Feststellungsfrist noch für einen Folgebescheid gilt.\n\nSchick das deiner Lerngruppe, bevor jemand aus einer bloßen Themenkarte falsche Voraussetzungen ableitet. Speichern nicht vergessen.\n\nWelche Korrekturvorschriften bringst du am ehesten durcheinander?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#abgabenordnung",
+    "#feststellungsbescheid",
+    "#ergänzungsbescheid",
+    "#verfahrensrecht",
+    "#klausurtag1",
+    "#ao"
+  ],
+  "kurztitel": "Ergänzungsbescheid vs. Wirkhinweis",
+  "quellen": [
+    "§ 179 Abs. 3 AO",
+    "§ 181 Abs. 5 AO"
+  ],
+  "hookTyp": "zahl",
+  "faktenHinweise": [
+    "Faktencheck ausgefallen: Tagesbudget erreicht (0.266 $ von 0.27 $) – Faktencheck wartet bis morgen."
+  ],
+  "slug": "2026-09-09-b2"
+}
