@@ -986,6 +986,20 @@
       "fach": "bilanz",
       "titel": "Zeitbudget in der Klausur",
       "medienId": "18054621863562683"
+    },
+    {
+      "datum": "2026-09-09",
+      "art": "beitrag",
+      "slot": "b1",
+      "format": "aktuell",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "USt-Organschaft vor dem Systemwechsel: Kabinett beschließt § 2c UStG",
+      "hookTyp": "aussage",
+      "medienId": "18115339448053070",
+      "variante": 0,
+      "veroeffentlicht": "2026-09-09T05:46:12.406Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
