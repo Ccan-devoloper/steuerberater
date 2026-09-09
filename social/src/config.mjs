@@ -148,6 +148,11 @@ export const CONFIG = {
        rotierend. IG_REEL_ANIMATION=labyrinth|marble|ring legt eine fest. */
     animationen: ["labyrinth", "marble", "ring"],
     animation: env("IG_REEL_ANIMATION", ""),
+    /* Hintergrund-Clips (state/hintergrund/*.mp4, 1080×1920, 30 fps, stumm):
+       liegt mindestens einer vor, läuft er vollflächig im Hintergrund, der
+       Inhalt liegt als Karten darüber; die Clips rotieren täglich.
+       IG_REEL_HINTERGRUND=animation erzwingt die Canvas-Animationen. */
+    hintergrund: env("IG_REEL_HINTERGRUND", "clip"),
     /* Wochentage, an denen der letzte Beitrag ein Reel ist (0 = So):
        Di, Do, Sa, So – an den anderen Tagen zwei Carousels. */
     tage: (env("IG_REEL_TAGE", "0,2,4,6")).split(",").map(Number),

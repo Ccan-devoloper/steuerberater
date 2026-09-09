@@ -152,8 +152,32 @@ function zeichneRing(t) {
   g.fillStyle = FARBEN.ball; g.beginPath(); g.arc(st.x, st.y, RING.r, 0, Math.PI * 2); g.fill();
   g.fillStyle = FARBEN.text; g.globalAlpha = 0.5; g.beginPath(); g.arc(st.x + 5, st.y - 5, 5, 0, Math.PI * 2); g.fill(); g.globalAlpha = 1;
 }
-const ZEICHNER = { labyrinth: zeichneLabyrinth, marble: zeichneMarble, ring: zeichneRing };
+const ZEICHNER = { labyrinth: zeichneLabyrinth, marble: zeichneMarble, ring: zeichneRing, keine: () => {} };
 `;
+
+/* Vollflächiger Clip: Inhalt als Karte in der Tagesfarbe, Untertitel als weiße
+   Karte darunter, Seite selbst transparent – der Clip wird per ffmpeg
+   dahintergelegt. */
+function overlayCss(ctx) {
+  const stil = ctx.stil;
+  const p = (stil.familie || stil.id) === "bunt" ? (stil.tagFarben?.[ctx.klausur] || stil.tagFarben?.[3]) : { grund: stil.farben.grund, dunkel: stil.farben.text, hell: stil.farben.flaeche };
+  return `
+.reel{background:transparent}
+canvas#oben,.trenner{display:none}
+.reel::before{content:"";position:absolute;left:54px;top:150px;width:972px;height:1010px;border-radius:44px;background:${p.grund};box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.reel::after{content:"";position:absolute;left:54px;top:1220px;width:972px;height:330px;border-radius:44px;background:#fff;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.fortschritt{top:290px;left:106px;right:106px;background:rgba(255,255,255,.45);z-index:1}
+.reel .kopf{top:194px;left:106px;right:106px;z-index:1}
+.szene{top:330px;left:106px;right:106px;height:700px;z-index:1}
+.szene>*{max-width:100%}
+.schritt>div:last-child{min-width:0;flex:1}
+.schritt h2,.merke-titel,.ctablock h2{max-width:100%}
+.reel .fuss{top:1078px;bottom:auto;left:106px;right:106px;z-index:1}
+.untertitel{top:1220px;height:330px;left:104px;right:104px;padding:0 20px;z-index:2}
+.untertitel .block{color:#111;text-shadow:none}
+.untertitel .w{color:#111}
+.reel .untertitel .w.jetzt,.familie-bunt .untertitel .w.jetzt,.untertitel .w.jetzt{color:${p.dunkel}}`;
+}
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -178,6 +202,15 @@ export function animationFuer(datum) {
   if (CONFIG.reel.animation && liste.includes(CONFIG.reel.animation)) return CONFIG.reel.animation;
   const tage = Math.floor(Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10)) / 86400000);
   return liste[((tage % liste.length) + liste.length) % liste.length];
+}
+
+/* Hintergrund-Clip des Tages aus einem Verzeichnis (sortiert, täglich rotierend). */
+export function hintergrundClip(verzeichnis, datum) {
+  if (!verzeichnis || CONFIG.reel.hintergrund === "animation" || !fs.existsSync(verzeichnis)) return null;
+  const clips = fs.readdirSync(verzeichnis).filter((f) => /\.(mp4|mov|webm)$/i.test(f)).sort();
+  if (!clips.length) return null;
+  const tage = Math.floor(Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10)) / 86400000);
+  return path.join(verzeichnis, clips[((tage % clips.length) + clips.length) % clips.length]);
 }
 
 /* Untertitel-Blöcke: 3–4 Wörter, Bruch an Satzzeichen; der Text je Block steht
@@ -221,6 +254,7 @@ function reelHtml(reel, plan, ctx) {
   const tagFarbe = ctx.farbeJeKlausur ? stil.farben[`k${ctx.klausur}`] || stil.farben.akzent : stil.farben.akzent;
   const farben = bunt ? { wand: "rgba(255,255,255,.55)", ball: bunt.dunkel, spur: "rgba(255,255,255,.9)", ziel: bunt.akzent2, text: "#ffffff" } : { wand: stil.farben.linie || "#333", ball: tagFarbe, spur: ctx.farbeJeKlausur ? tagFarbe : (stil.farben.k3 || stil.farben.akzent), ziel: ctx.farbeJeKlausur && ctx.klausur === 2 ? stil.farben.k1 : (stil.farben.k2 || "#ff6a3d"), text: stil.farben.text };
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(stil, "story")}
+${ctx.clip ? "html,body{background:transparent!important}" : ""}
 .reel{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--grund);font-family:var(--sans)}
 .stil-campus .reel{background:radial-gradient(1300px 1100px at 30% 10%,#243070 0%,#141a3a 55%,#0e1230 100%)}
 canvas#oben{position:absolute;left:0;top:0;width:1080px;height:${OBEN}px;display:block}
@@ -251,6 +285,7 @@ canvas#oben{position:absolute;left:0;top:0;width:1080px;height:${OBEN}px;display
 .familie-kanzlei .untertitel .w.jetzt{color:var(--k3)}
 .reel .fuss{position:absolute;left:84px;right:84px;bottom:70px;display:flex;justify-content:space-between}
 ${klausurCss(ctx)}${buntCss(ctx)}
+${ctx.clip ? overlayCss(ctx) : ""}
 </style></head><body class="stil-${stil.id} familie-${stil.familie || stil.id}"><div class="reel">
 <canvas id="oben" width="1080" height="${OBEN}"></canvas>
 <div class="trenner"></div>
@@ -263,12 +298,24 @@ ${szenenHtml}
 <script>
 const BLOECKE = ${JSON.stringify(bloecke)};
 const GESAMT = ${plan.gesamt};
-const ANIM = ${JSON.stringify(ctx.animation)};
+const ANIM = ${JSON.stringify(ctx.clip ? "keine" : ctx.animation)};
 const FARBEN = ${JSON.stringify(farben)};
 const H = ${OBEN};
 const szenen = [...document.querySelectorAll(".szene")].map((el) => ({ el, start: +el.dataset.start, dauer: +el.dataset.dauer, kinder: [...el.querySelectorAll("h1,h2,p,.nummer,.norm,.pille,.ueber")] }));
 const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
 ${ANIMATIONEN}
+/* Einpassen: Überschriften verkleinern, bis kein Wort umbrechen muss und die Szene in ihren Rahmen passt. */
+(function einpassen() {
+  for (const s of szenen) {
+    s.el.classList.add("aktiv");
+    for (const k of s.el.querySelectorAll("h1,h2")) {
+      let px = parseFloat(getComputedStyle(k).fontSize);
+      for (let i = 0; i < 12 && (k.scrollWidth > k.clientWidth + 1 || s.el.scrollHeight > s.el.clientHeight + 1); i++) { px *= 0.92; k.style.fontSize = px + "px"; }
+    }
+    for (let i = 0; i < 8 && s.el.scrollHeight > s.el.clientHeight + 1; i++) for (const k of s.el.querySelectorAll("h1,h2,p,.norm,.nummer")) k.style.fontSize = (parseFloat(getComputedStyle(k).fontSize) * 0.94) + "px";
+    s.el.classList.remove("aktiv");
+  }
+})();
 window.setzeZeit = function (t) {
   ZEICHNER[ANIM](t);
   document.getElementById("balken").style.width = (100 * Math.min(1, t / GESAMT)) + "%";
@@ -295,7 +342,7 @@ window.setzeZeit = function (t) {
 }
 
 /* Frames rendern. */
-async function framesRendern(html, plan, frameDir, fps) {
+async function framesRendern(html, plan, frameDir, fps, transparent = false) {
   fs.mkdirSync(frameDir, { recursive: true });
   const b = await browserStarten();
   const page = await b.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
@@ -306,7 +353,8 @@ async function framesRendern(html, plan, frameDir, fps) {
   const n = Math.ceil(plan.gesamt * fps);
   for (let f = 0; f < n; f++) {
     await page.evaluate((t) => window.setzeZeit(t), f / fps);
-    await page.screenshot({ path: path.join(frameDir, `f${String(f).padStart(5, "0")}.jpg`), type: "jpeg", quality: 88 });
+    if (transparent) await page.screenshot({ path: path.join(frameDir, `f${String(f).padStart(5, "0")}.png`), type: "png", omitBackground: true });
+    else await page.screenshot({ path: path.join(frameDir, `f${String(f).padStart(5, "0")}.jpg`), type: "jpeg", quality: 88 });
   }
   await page.close();
   fs.rmSync(tmp, { force: true });
@@ -326,30 +374,44 @@ export async function reelBauen(reel, ausgabeDir, opt = {}) {
   const fps = CONFIG.reel.fps;
   const datum = opt.datum || (String(reel.slug || "").match(/^\d{4}-\d{2}-\d{2}/) || [new Date().toISOString().slice(0, 10)])[0];
   const hell = CONFIG.marke.stil === "kanzlei" && opt.variante && !CONFIG.marke.farbeJeKlausur;
-  const ctx = { stil: stilLaden(opt.stil || (hell ? "kanzlei-hell" : CONFIG.marke.stil)), handle: CONFIG.marke.handle, klausur: reel.klausur || FAECHER[reel.fach]?.klausur || 3, fachLabel: FAECHER[reel.fach]?.label || "Steuerberaterexamen", animation: opt.animation || animationFuer(datum), farbeJeKlausur: CONFIG.marke.farbeJeKlausur };
+  const clip = opt.clip === null ? null : (opt.clip || hintergrundClip(opt.hintergrundDir, datum));
+  const ctx = { stil: stilLaden(opt.stil || (hell ? "kanzlei-hell" : CONFIG.marke.stil)), handle: CONFIG.marke.handle, klausur: reel.klausur || FAECHER[reel.fach]?.klausur || 3, fachLabel: FAECHER[reel.fach]?.label || "Steuerberaterexamen", animation: opt.animation || animationFuer(datum), farbeJeKlausur: CONFIG.marke.farbeJeKlausur, clip };
   fs.mkdirSync(ausgabeDir, { recursive: true });
   const plan = await zeitplanErstellen(reel, path.join(ausgabeDir, "audio"));
   const frameDir = path.join(ausgabeDir, "frames");
-  const n = await framesRendern(reelHtml(reel, plan, ctx), plan, frameDir, fps);
+  const n = await framesRendern(reelHtml(reel, plan, ctx), plan, frameDir, fps, !!clip);
 
   const video = path.join(ausgabeDir, `${reel.slug || "reel"}.mp4`);
   const cover = path.join(ausgabeDir, `${reel.slug || "reel"}-cover.jpg`);
-  const args = ["-y", "-hide_banner", "-loglevel", "error", "-framerate", String(fps), "-i", path.join(frameDir, "f%05d.jpg")];
+  const frames = path.join(frameDir, clip ? "f%05d.png" : "f%05d.jpg");
+  /* Mit Clip: Eingabe 0 = geloopter Hintergrund, Eingabe 1 = transparente Frames. */
+  const args = ["-y", "-hide_banner", "-loglevel", "error"];
+  if (clip) args.push("-stream_loop", "-1", "-i", clip);
+  args.push("-framerate", String(fps), "-i", frames);
+  const vEingaben = clip ? 2 : 1;
   const audioEingaben = plan.szenen.filter((s) => s.audio);
   for (const s of audioEingaben) args.push("-i", s.audio);
   const filter = [];
   const mix = [];
-  audioEingaben.forEach((s, k) => { filter.push(`[${k + 1}:a]aresample=48000,adelay=${Math.round(s.audioStart * 1000)}|${Math.round(s.audioStart * 1000)},apad=whole_dur=${plan.gesamt.toFixed(2)}[v${k}]`); mix.push(`[v${k}]`); });
+  if (clip) filter.push(`[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=${fps},setpts=PTS-STARTPTS[bg]`, `[bg][1:v]overlay=0:0:shortest=1[vout]`);
+  audioEingaben.forEach((s, k) => { filter.push(`[${k + vEingaben}:a]aresample=48000,adelay=${Math.round(s.audioStart * 1000)}|${Math.round(s.audioStart * 1000)},apad=whole_dur=${plan.gesamt.toFixed(2)}[v${k}]`); mix.push(`[v${k}]`); });
   if (CONFIG.reel.hintergrundmusik) { filter.push(`${klangbettFilter(plan.gesamt)}[bett]`); mix.push("[bett]"); }
+  const videoMap = clip ? "[vout]" : "0:v";
   if (mix.length) {
     filter.push(`${mix.join("")}amix=inputs=${mix.length}:normalize=0:duration=first,alimiter=limit=0.95[aout]`);
-    args.push("-filter_complex", filter.join(";"), "-map", "0:v", "-map", "[aout]", "-c:a", "aac", "-b:a", "160k", "-ar", "48000");
-  } else args.push("-an");
+    args.push("-filter_complex", filter.join(";"), "-map", videoMap, "-map", "[aout]", "-c:a", "aac", "-b:a", "160k", "-ar", "48000");
+  } else {
+    if (filter.length) args.push("-filter_complex", filter.join(";"));
+    args.push("-map", videoMap, "-an");
+  }
   args.push("-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", String(fps), "-t", plan.gesamt.toFixed(2), "-movflags", "+faststart", video);
   execFileSync(ffmpegPfad(), args, { stdio: ["ignore", "pipe", "pipe"] });
-  fs.copyFileSync(path.join(frameDir, `f${String(Math.min(n - 1, Math.round(0.9 * fps))).padStart(5, "0")}.jpg`), cover);
+  /* Cover: mit Clip aus dem fertigen Video (Frames sind transparent). */
+  const coverFrame = Math.min(n - 1, Math.round(0.9 * fps));
+  if (clip) execFileSync(ffmpegPfad(), ["-y", "-hide_banner", "-loglevel", "error", "-ss", (coverFrame / fps).toFixed(2), "-i", video, "-frames:v", "1", "-q:v", "3", cover], { stdio: ["ignore", "pipe", "pipe"] });
+  else fs.copyFileSync(path.join(frameDir, `f${String(coverFrame).padStart(5, "0")}.jpg`), cover);
   if (!opt.framesBehalten) fs.rmSync(frameDir, { recursive: true, force: true });
-  return { video, cover, dauer: plan.gesamt, echt: plan.echt, anbieter: plan.anbieter, szenen: plan.szenen.length, animation: ctx.animation };
+  return { video, cover, dauer: plan.gesamt, echt: plan.echt, anbieter: plan.anbieter, szenen: plan.szenen.length, animation: clip ? `Clip ${path.basename(clip)}` : ctx.animation };
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
@@ -358,7 +420,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const ziel = process.argv[3] || new URL("../beispiele/reel-out", import.meta.url).pathname;
   const t0 = Date.now();
   const animArg = process.argv.find((a) => a.startsWith("--animation="))?.split("=")[1];
-  const r = await reelBauen(reel, ziel, { framesBehalten: process.argv.includes("--frames"), animation: animArg, variante: process.argv.includes("--hell") ? 1 : 0 });
+  const clipArg = process.argv.find((a) => a.startsWith("--clip="))?.split("=")[1];
+  const r = await reelBauen(reel, ziel, { framesBehalten: process.argv.includes("--frames"), animation: animArg, variante: process.argv.includes("--hell") ? 1 : 0, clip: clipArg === "keine" ? null : clipArg });
   console.log(`${r.video} · ${r.dauer.toFixed(1)} s · ${r.szenen} Szenen · Stimme: ${r.anbieter} · Animation: ${r.animation} · ${((Date.now() - t0) / 1000).toFixed(0)} s`);
   const { browserBeenden } = await import("./render.mjs");
   await browserBeenden();

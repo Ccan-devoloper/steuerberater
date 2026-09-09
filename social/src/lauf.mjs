@@ -184,7 +184,7 @@ async function main() {
           hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, reel);
         }
         const varianteReel = (CONFIG.marke.farbeJeKlausur ? 0 : await varianteErmitteln({ ig, ledger, trocken, log }));
-        const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel, datum });
+        const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel, datum, hintergrundDir: path.join(hosting.stateDir, "hintergrund") });
         log(`  Reel gebaut: ${r.dauer.toFixed(1)} s · Stimme ${r.anbieter} · Animation ${r.animation}`);
         const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Reel ${datum} ${eintrag.slot}`);
         const caption = `${reel.caption}\n\n${reel.hashtags.join(" ")}`;

@@ -224,7 +224,16 @@ Reels sind der größte Reichweiten-Hebel auf Instagram. Der Bot baut sie aus ei
 mitlaufende Untertitel Wort für Wort, dezentes Klangbett, Cover-Bild. Format: MP4, H.264, AAC,
 1080×1920, 30 fps – direkt über die Graph API als `REELS` veröffentlicht (`share_to_feed`).
 
-**Split-Screen:** Das obere Drittel des Videos zeigt eine ruhige, selbst berechnete Animation, die
+**Hintergrund-Clip (Standard, sobald einer vorliegt):** Liegen unter `state/hintergrund/` im
+Asset-Zweig Videos (`*.mp4`, ideal 1080 × 1920, 30 fps, stumm, nahtlos loopbar), läuft der Clip des
+Tages vollflächig im Hintergrund, geloopt über die Reel-Länge; der Inhalt liegt als Karte in der
+Tagesfarbe darüber, die Untertitel als weiße Karte darunter. Mehrere Clips rotieren täglich.
+Einen neuen Clip vorbereiten:
+`ffmpeg -i quelle.mov -vf "scale=1080:-2,crop=1080:1920,fps=30" -an -c:v libx264 -crf 24 clip.mp4`
+und im Zweig `instagram-assets` unter `state/hintergrund/` ablegen. `IG_REEL_HINTERGRUND=animation`
+erzwingt die Animationen unten. Achtung Urheberrecht: nur eigenes oder lizenzfreies Material verwenden.
+
+**Split-Screen (ohne Clip):** Das obere Drittel des Videos zeigt eine ruhige, selbst berechnete Animation, die
 das Auge beschäftigt, während unten der Inhalt läuft – täglich rotierend: Labyrinth (Kugel rollt den
 Lösungsweg), Marble Run (Kugeln über Rampen) und Ring (Kugel entkommt rotierenden Ringen). Kein
 Fremdmaterial, alles deterministisch in den Farben des Tages-Stils. `IG_REEL_ANIMATION` =
