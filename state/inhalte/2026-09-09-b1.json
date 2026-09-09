@@ -1,0 +1,71 @@
+{
+  "format": "aktuell",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "USt-Organschaft vor dem Systemwechsel: Kabinett beschließt § 2c UStG",
+      "icon": "paragraf",
+      "pille": "Swipen →"
+    },
+    {
+      "art": "text",
+      "titel": "Was am 12.08.2026 beschlossen wurde",
+      "punkte": [
+        "Bundeskabinett beschließt Regierungsentwurf des *JStG 2026* (Referentenentwurf bereits 19.05.2026).",
+        "§ 2 Abs. 2 Nr. 2 UStG wird ab 2028 durch neuen *§ 2c UStG* ersetzt.",
+        "Organschaft entsteht künftig nicht mehr automatisch, sondern nur durch *Erklärung* des Organträgers gegenüber dem Finanzamt.",
+        "Finanzielle, wirtschaftliche und organisatorische Eingliederung bleiben Voraussetzung – neu erfassbar sind auch Personengesellschaften.",
+        "Anwendung ab 1.1.2029, Antragstellung schon ab 1.7.2028 möglich."
+      ],
+      "icon": "dokument"
+    },
+    {
+      "art": "text",
+      "titel": "Was das fürs Examen heißt",
+      "text": "Die USt-Organschaft ist Klausurdauerbrenner in *Klausur 1*. Bis zum Examenstermin 2026 gilt noch das alte Recht der automatischen Eingliederung nach § 2 Abs. 2 Nr. 2 UStG – die Prüfungsschemata bleiben unverändert. Der neue § 2c UStG ist aber ein beliebtes Thema für *Zusatzfragen* zu aktuellen Gesetzesvorhaben. Wer die Grundidee kennt – Antragsprinzip statt Automatik –, punktet bei mündlichen Zusatzfragen und in künftigen Klausurjahrgängen.",
+      "icon": "lupe"
+    },
+    {
+      "art": "cta",
+      "titel": "Aktuelles zum Examen, jede Woche.",
+      "punkte": [
+        "Schick das deiner Lerngruppe – Gesetzesänderungen gehen schnell unter",
+        "Speichern für die letzten Wochen vor der Prüfung",
+        "Folgen, damit dir kein Update entgeht"
+      ],
+      "icon": "blitz"
+    }
+  ],
+  "caption": "Jahressteuergesetz 2026 USt-Organschaft § 2c UStG – das ändert sich wirklich\n\nDas Kabinett hat am 12.08.2026 den Entwurf zum JStG 2026 beschlossen: Die USt-Organschaft soll ab 2029 nicht mehr automatisch entstehen, sondern nur noch auf *Erklärung* des Organträgers. Für dein Examen 2026 bleibt das alte Recht maßgeblich – aber Prüfer lieben aktuelle Gesetzgebungsverfahren als Zusatzfrage.\n\nSchick das deiner Lerngruppe, bevor jemand in der mündlichen Prüfung danach gefragt wird. Speichern nicht vergessen.\n\nWas denkt ihr: Erleichtert das Antragsprinzip die Klausurfälle oder macht es sie komplizierter?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#umsatzsteuer",
+    "#organschaft",
+    "#jahressteuergesetz",
+    "#jstg2026",
+    "#ustorganschaft",
+    "#gesetzesänderung"
+  ],
+  "kurztitel": "USt-Organschaft: Neuer § 2c UStG",
+  "quellen": [
+    "Bundesfinanzministerium, Pressemitteilung vom 12.08.2026: Jahressteuergesetz 2026",
+    "Haufe, Referentenentwurf JStG 2026",
+    "Ecovis KSO, Jahressteuergesetz 2026 – der Entwurf liegt vor"
+  ],
+  "hookTyp": "aussage",
+  "faktenHinweise": [
+    "Folie titel und Caption: Inkonsistente Datierung: Der Text nennt als Beschlussdatum des Kabinetts '12.08.2026', aber der Rechtsstand ist 2026. Wenn der Rechtsstand 2026 ist (aktuelles Jahr für die Prüfung), kann ein Kabinettsbeschluss vom 12.08.2026 nicht 'am 12.08.2026' in der Vergangenheit liegen. Dies ist eine zeitlogische Unmöglichkeit. Entweder das Datum ist falsch, oder der angenommene Rechtsstand muss korrigiert werden.",
+    "Folie text, zweiter Punkt: Die Aussage 'Referentenentwurf bereits 19.05.2026' passt zeitlich nicht zur Kabinettsbeschlussdatierung 12.08.2026, wenn 2026 der aktuelle Rechtsstand ist. Normalerweise folgt der Referentenentwurf zeitlich vor oder parallel zum Kabinettsbeschluss, aber die konkrete zeitliche Abfolge sollte konsistent sein.",
+    "Folie text, vierter Punkt: Die Aussage 'neu erfassbar sind auch Personengesellschaften' ist sehr verkürzt. Es ist unklar, ob damit gemeint ist, dass Personengesellschaften neu als Organträger oder neu als Organschaftsmitglieder erfassbar sind, oder beides. Dies könnte für Examenszwecke zu Verständnisproblemen führen."
+  ],
+  "slug": "2026-09-09-b1"
+}
