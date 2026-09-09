@@ -50,6 +50,7 @@ ${fontFace("Anton", "Anton.ttf", "400")}
 ${fontFace("Oswald", "Oswald.ttf", "200 700")}
 ${fontFace("Inter", "Inter.ttf", "100 900")}
 ${fontFace("Space Grotesk", "SpaceGrotesk.ttf", "300 700")}
+${fontFace("Caveat", "Caveat.ttf", "400 700")}
 ${fontFace("IBM Plex Sans", "IBMPlexSans.ttf", "100 700")}
 ${fontFace("IBM Plex Serif", "IBMPlexSerif-Bold.ttf", "700")}
 ${fontFace("IBM Plex Serif", "IBMPlexSerif-SemiBold.ttf", "600")}
@@ -180,13 +181,128 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 /* Feste Farbe je Klausurtag: Akzentfarbe, Balken oben, Pille und Fußzeile
    tragen die Farbe des Prüfungstags (k1 Blau, k2 Orange, k3 Grün). */
 export function klausurCss(ctx) {
-  if (!ctx?.farbeJeKlausur) return "";
+  if (!ctx?.farbeJeKlausur || (ctx.stil?.familie || ctx.stil?.id) === "bunt") return "";
   const k = KLAUSUR_FARBE[ctx.klausur] || "k3";
   return `
 .folie,.story,.reel{--akzent:var(--${k});--pille:var(--${k});--pille-text:#0b0b0d}
 .folie::before,.story::before,.reel::before{content:"";position:absolute;left:0;top:0;right:0;height:16px;background:var(--${k});z-index:2}
 .fuss .klausur{color:var(--${k});font-weight:700}
 .familie-kanzlei .untertitel .w.jetzt{color:var(--${k})}`;
+}
+
+/* Stil „bunt“: Vollfläche in der Tagesfarbe; alle Bausteine werden zu Pillen,
+   Karten und Badges – ohne die Vorlagen selbst zu ändern. */
+const PFEIL = encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 110" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14 C 30 70, 70 92, 128 86"/><path d="M108 66 L 130 86 L 106 100"/></svg>`);
+export function buntCss(ctx) {
+  const stil = ctx?.stil;
+  if (!stil || (stil.familie || stil.id) !== "bunt") return "";
+  const p = stil.tagFarben?.[ctx.klausur] || stil.tagFarben?.[3];
+  const pfeil = `url("data:image/svg+xml,${PFEIL.replace("%23111", encodeURIComponent(p.dunkel))}")`;
+  return `
+:root{--grund:${p.grund};--text:${p.dunkel};--text-weich:${p.dunkel};--akzent:${p.dunkel};--pille:${p.dunkel};--pille-text:#fff;--flaeche:rgba(255,255,255,.92);--linie:rgba(255,255,255,.45);--hell:${p.hell};--lila:${p.lila};--akzent2:${p.akzent2}}
+.folie,.story,.reel{background:${p.grund};color:${p.dunkel}}
+/* Ecke oben links: dunkles Band mit dem Fach; oben rechts der Zähler im weißen Kreis */
+.kopf{position:absolute;left:0;top:0;right:0;height:120px;padding:0}
+.kopf .etikett{position:absolute;left:0;top:0;font-family:"Inter";font-weight:700;font-size:28px;letter-spacing:.02em;text-transform:none;background:${p.dunkel};color:#fff;padding:16px 46px 16px 40px;clip-path:polygon(0 0,100% 0,calc(100% - 26px) 100%,0 100%);flex-direction:row;line-height:1.1}
+.kopf .etikett .punkt{display:none}
+.kopf .zaehler{position:absolute;right:46px;top:40px;width:78px;height:78px;border-radius:50%;background:rgba(255,255,255,.9);color:${p.dunkel};font-family:"Inter";font-weight:700;font-size:26px;display:flex;align-items:center;justify-content:center}
+.kopf .zaehler:empty{display:none}
+/* Titel als Pillen, Zeile für Zeile */
+h1{margin-top:96px;font-size:76px;line-height:1.75}
+h1.klein{font-size:66px}h1.winzig{font-size:56px}
+h1 .z{background:${p.dunkel};color:#fff;padding:.14em .5em;border-radius:48px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+h1 em{color:${p.akzent2}}
+.unter{margin-top:22px;display:inline-block;width:fit-content;background:${p.hell};color:${p.dunkel};padding:12px 30px;border-radius:40px;font-weight:700;font-size:36px;line-height:1.25;margin-left:24px}
+.prio{margin-top:20px;margin-left:24px;width:fit-content;background:${p.lila};color:${p.dunkel};padding:10px 26px;border-radius:40px;text-transform:none;letter-spacing:0;font-size:28px}
+.prio i{display:none}
+/* Handschrift-Hinweis mit Pfeil statt Pille */
+.art-titel .pille{background:none;color:${p.dunkel};font-family:"Caveat";font-size:58px;font-weight:700;padding:0 0 0 170px;margin-top:40px;margin-left:420px;position:relative;transform:rotate(-4deg);letter-spacing:0}
+.art-titel .pille::before{content:"";position:absolute;left:0;top:-30px;width:150px;height:110px;background:${pfeil} no-repeat center/contain}
+/* Bühne: Blase, großes Icon, §-Badge, Karte, Sterne */
+.art-titel::after{content:"";position:absolute;left:210px;bottom:-140px;width:660px;height:660px;border-radius:50%;background:rgba(255,255,255,.16);pointer-events:none}
+.illu{right:auto;left:330px;bottom:70px;width:420px;height:420px;color:${p.dunkel};opacity:1;z-index:1}
+.illu::before{display:none}
+.illu .icon{width:380px;height:380px}
+.geist{left:140px;right:auto;top:auto;bottom:210px;width:150px;height:150px;border-radius:50%;background:${p.dunkel};color:#fff;font-family:"Space Grotesk";font-size:96px;font-weight:700;display:flex;align-items:center;justify-content:center;opacity:1;box-shadow:0 18px 40px rgba(0,0,0,.2);z-index:1}
+.folie:not(.art-titel) .geist{display:none}
+.karte2{position:absolute;right:120px;bottom:260px;width:190px;height:190px;background:#fff;border-radius:26px;display:flex;align-items:center;justify-content:center;color:${p.dunkel};box-shadow:0 18px 40px rgba(0,0,0,.18);transform:rotate(9deg);z-index:1}
+.stern{position:absolute;color:${p.hell};font-size:54px;z-index:1}
+/* Innenfolien: Überschrift als Pille, Inhalte als weiße Karten */
+h2{margin-top:120px;font-size:56px;width:fit-content;background:${p.dunkel};color:#fff;padding:14px 34px;border-radius:44px;line-height:1.15}
+.cta h2{font-size:66px;margin-top:0;line-height:1.7;background:none;padding:0;color:${p.dunkel}}
+.text{margin-top:34px;background:var(--flaeche);border-radius:30px;padding:30px 36px;font-size:36px;line-height:1.4;color:#1c1c22}
+ul.punkte{margin-top:34px;gap:18px}
+ul.punkte li{background:var(--flaeche);border-radius:30px;padding:24px 30px;font-size:35px;line-height:1.35;color:#1c1c22;align-items:center}
+ul.punkte li::before{width:22px;height:22px;background:${p.dunkel};margin-top:0}
+ol.schritte{margin-top:34px;gap:20px}
+ol.schritte li{background:var(--flaeche);border-radius:30px;padding:24px 30px;grid-template-columns:76px 1fr;gap:22px;align-items:center}
+ol.schritte li::before{width:76px;height:76px;border-radius:50%;background:${p.dunkel};color:#fff;font-size:38px;display:flex;align-items:center;justify-content:center;font-family:"Space Grotesk"}
+ol.schritte b{font-size:36px;color:${p.dunkel}}
+ol.schritte span{font-size:29px;color:#2b2b33}
+ol.schritte.karte{background:var(--flaeche);border:0;padding:24px 28px;gap:12px}
+ol.schritte.karte li{background:none;padding:6px 0;grid-template-columns:60px 1fr}
+ol.schritte.karte li::before{width:56px;height:56px;font-size:30px}
+.vergleich{margin-top:34px}
+.spalte{background:var(--flaeche);border:0;border-radius:30px;color:#1c1c22}
+.spalte.links h3{color:${p.dunkel}}.spalte.rechts h3{color:#b3261e}
+.rechnung{margin-top:34px;background:var(--flaeche);border:0;border-radius:30px;color:#1c1c22}
+.rechnung .formel{color:${p.dunkel}}
+.rechnung .ergebnis{border-top-color:rgba(0,0,0,.15)}
+.merke{font-size:66px;line-height:1.7}
+.merke::before,.merke::after{color:${p.akzent2}}
+em{color:${p.akzent2}}
+.text em,ul.punkte em,ol.schritte em,.spalte em{color:${p.dunkel};text-decoration:underline;text-decoration-color:${p.akzent2};text-decoration-thickness:4px;text-underline-offset:6px}
+.cta{margin-top:auto;margin-bottom:auto}
+.cta .liste{margin-top:30px;gap:20px}
+.cta .liste div{background:var(--flaeche);border-radius:30px;padding:24px 30px;font-weight:700;font-size:36px;color:${p.dunkel}}
+.cta .liste .icon{width:72px;height:72px;padding:14px;border-radius:22px;background:${p.lila};color:${p.dunkel}}
+.fuss{color:${p.dunkel};font-family:"Inter";font-weight:700;font-size:26px}
+.fuss .klausur{font-family:"Inter";letter-spacing:0;font-size:26px;color:${p.dunkel}}
+.pille{background:${p.dunkel};color:#fff}
+/* Stories */
+.story .kopf{height:120px}
+.story h1{font-size:84px;line-height:1.2;margin-top:120px;width:fit-content;background:${p.dunkel};color:#fff;padding:.25em .5em;border-radius:48px}
+.story h1.klein{font-size:74px}
+.story .ueberzeile{margin-top:150px;background:${p.lila};color:${p.dunkel};width:fit-content;padding:10px 26px;border-radius:40px;text-transform:none;letter-spacing:0;font-size:32px}
+.story .ueberzeile+h1{margin-top:26px}
+.story .text{font-size:42px}
+.story .norm{background:var(--flaeche);border-radius:30px;padding:30px 36px;color:${p.dunkel};font-size:54px}
+.story .optionen div{border:0;border-radius:30px;color:#1c1c22;font-size:40px}
+.story .optionen div b{color:${p.dunkel}}
+.story .optionen div.richtig{box-shadow:inset 0 0 0 5px ${p.dunkel}}
+.story .zahl{color:#fff;text-shadow:0 12px 40px rgba(0,0,0,.18)}
+.story .zahl-unter{color:${p.dunkel}}
+.story .merke{font-size:78px}
+.story .karte{background:var(--flaeche);border:0;border-radius:30px;color:#1c1c22}
+.story .karte .t{color:${p.dunkel}}
+.story .balken{background:rgba(255,255,255,.4)}
+.story .balken i{background:${p.dunkel}}
+.story .pfeil{color:${p.dunkel};font-family:"Caveat";font-size:48px;text-transform:none;letter-spacing:0}
+.story .hinweis{color:${p.dunkel};opacity:.85}
+.story .illu{color:${p.dunkel};opacity:1;left:auto;right:70px;bottom:220px}
+.story .geist{display:none}
+.story .pille{margin-top:56px}
+/* Reels */
+.reel .fortschritt{background:rgba(255,255,255,.4)}
+.reel .fortschritt i{background:${p.dunkel}}
+.reel .trenner{background:rgba(255,255,255,.5)}
+.reel .kopf{position:absolute;left:84px;right:84px;height:auto}
+.reel .kopf .etikett{position:static;clip-path:none;border-radius:40px;padding:10px 26px}
+.reel .kopf .zaehler{position:static;width:auto;height:auto;background:none;color:${p.dunkel};font-size:28px}
+.reel .hook h1{font-size:68px;line-height:1.15;margin-top:0;width:fit-content;background:${p.dunkel};color:#fff;padding:.22em .5em;border-radius:48px}
+.reel .hook .unter{margin-left:0}
+.reel .schritt .nummer{color:#fff}
+.reel .schritt h2{margin-top:0;font-size:60px}
+.reel .schritt .text,.reel .ctablock .text{color:${p.dunkel};background:none;padding:0;margin-top:14px}
+.reel .merkeblock .ueber{color:${p.dunkel}}
+.reel .merke-titel{background:none;padding:0;color:${p.dunkel};font-size:64px;margin-top:16px;width:auto}
+.reel .merkeblock .norm{background:var(--flaeche);border-radius:26px;padding:16px 26px;color:${p.dunkel};width:fit-content}
+.reel .ctablock h2{background:none;padding:0;color:${p.dunkel};margin-top:0}
+.reel .untertitel .block{color:#fff;text-shadow:0 8px 30px rgba(0,0,0,.25)}
+.reel .untertitel .w{color:#fff}
+.reel .untertitel .w.jetzt,.familie-bunt .untertitel .w.jetzt{color:${p.dunkel}}
+.reel .fuss{position:absolute;left:84px;right:84px;bottom:70px;margin:0}
+`;
 }
 
 function kopf(ctx, zaehler) {
@@ -209,6 +325,12 @@ function bildOderIllu(ctx, folie) {
   return `<div class="geist">§</div>`;
 }
 
+/* Zweites Icon für die Karte auf der Bühne – passend, aber nicht identisch. */
+function zweitIcon(icon) {
+  const paare = { muenzen: "dokument", rechner: "diagramm", waage: "rechner", kalender: "uhr", gebaeude: "diagramm", diagramm: "rechner", dokument: "lupe", warnung: "haken", uhr: "kalender", haus: "vertrag", lkw: "muenzen", vertrag: "dokument", lupe: "dokument", kreislauf: "diagramm", blitz: "warnung", buch: "dokument", fabrik: "muenzen", person: "vertrag", personen: "buch", globus: "dokument", paragraf: "buch", haken: "zielscheibe", kreuz: "warnung", zielscheibe: "haken", trophaee: "zielscheibe" };
+  return paare[icon] || "dokument";
+}
+
 function titelKlasse(t) {
   const l = (t || "").length;
   return l > 84 ? "winzig" : l > 56 ? "klein" : "";
@@ -217,11 +339,12 @@ function titelKlasse(t) {
 const FOLIEN = {
   titel: (f, ctx, i, n) => `
     ${kopf(ctx, "")}
-    <h1 class="${titelKlasse(f.titel)}">${markierenTitel(f.titel)}</h1>
+    <h1 class="${titelKlasse(f.titel)}"><span class="z">${markierenTitel(f.titel)}</span></h1>
     ${f.untertitel ? `<p class="unter">${markieren(f.untertitel)}</p>` : ""}
     ${f.prioritaet ? `<div class="prio ${f.prioritaet}"><i></i>${esc(f.prioritaetText || "")}</div>` : ""}
-    <div><span class="pille">${esc(f.pille || "Swipen →")}</span></div>
+    <div><span class="pille">${esc((ctx.stil.familie || ctx.stil.id) === "bunt" ? (f.hinweis || "So geht's!") : (f.pille || "Swipen →"))}</span></div>
     ${bildOderIllu(ctx, f)}
+    ${(ctx.stil.familie || ctx.stil.id) === "bunt" ? `<div class="karte2">${iconSvg(zweitIcon(f.icon), 120)}</div><span class="stern" style="left:150px;top:790px">✦</span><span class="stern" style="left:900px;top:750px;font-size:40px">✦</span><span class="stern" style="left:860px;top:1040px">✦</span>` : ""}
     ${fuss(ctx)}`,
   text: (f, ctx, i, n) => `
     ${kopf(ctx, `${i}/${n}`)}
@@ -275,8 +398,8 @@ const FOLIEN = {
 
 export function folieHtml(folie, ctx, index, anzahl) {
   const render = FOLIEN[folie.art] || FOLIEN.text;
-  return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "beitrag")}${klausurCss(ctx)}</style></head>
-<body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="folie">${render(folie, ctx, index, anzahl)}</div></body></html>`;
+  return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "beitrag")}${klausurCss(ctx)}${buntCss(ctx)}</style></head>
+<body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="folie art-${esc(folie.art || "text")}">${render(folie, ctx, index, anzahl)}</div></body></html>`;
 }
 
 const sk = (ctx) => kopf(ctx, "");
@@ -366,7 +489,7 @@ const STORIES = {
 
 export function storyHtml(story, ctx) {
   const render = STORIES[story.art] || STORIES.tipp;
-  return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}${klausurCss(ctx)}</style></head>
+  return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}${klausurCss(ctx)}${buntCss(ctx)}</style></head>
 <body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="story">${render(story, ctx)}</div></body></html>`;
 }
 

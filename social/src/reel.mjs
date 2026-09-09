@@ -12,7 +12,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { browserStarten } from "./render.mjs";
-import { css, klausurCss } from "./vorlagen.mjs";
+import { css, klausurCss, buntCss } from "./vorlagen.mjs";
 import { stil as stilLaden, iconSvg } from "./stile.mjs";
 import { FAECHER } from "./inhalte.mjs";
 import { CONFIG } from "./config.mjs";
@@ -217,8 +217,9 @@ function reelHtml(reel, plan, ctx) {
   }).join("");
   const bloecke = untertitelBloecke(plan.szenen);
   const kl = { 1: "k1", 2: "k2", 3: "k3" }[ctx.klausur] || "k3";
+  const bunt = (stil.familie || stil.id) === "bunt" ? (stil.tagFarben?.[ctx.klausur] || stil.tagFarben?.[3]) : null;
   const tagFarbe = ctx.farbeJeKlausur ? stil.farben[`k${ctx.klausur}`] || stil.farben.akzent : stil.farben.akzent;
-  const farben = { wand: stil.farben.linie || "#333", ball: tagFarbe, spur: ctx.farbeJeKlausur ? tagFarbe : (stil.farben.k3 || stil.farben.akzent), ziel: ctx.farbeJeKlausur && ctx.klausur === 2 ? stil.farben.k1 : (stil.farben.k2 || "#ff6a3d"), text: stil.farben.text };
+  const farben = bunt ? { wand: "rgba(255,255,255,.55)", ball: bunt.dunkel, spur: "rgba(255,255,255,.9)", ziel: bunt.akzent2, text: "#ffffff" } : { wand: stil.farben.linie || "#333", ball: tagFarbe, spur: ctx.farbeJeKlausur ? tagFarbe : (stil.farben.k3 || stil.farben.akzent), ziel: ctx.farbeJeKlausur && ctx.klausur === 2 ? stil.farben.k1 : (stil.farben.k2 || "#ff6a3d"), text: stil.farben.text };
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(stil, "story")}
 .reel{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--grund);font-family:var(--sans)}
 .stil-campus .reel{background:radial-gradient(1300px 1100px at 30% 10%,#243070 0%,#141a3a 55%,#0e1230 100%)}
@@ -249,7 +250,7 @@ canvas#oben{position:absolute;left:0;top:0;width:1080px;height:${OBEN}px;display
 .stil-klausurbogen .untertitel .w.jetzt{color:var(--rot)}
 .familie-kanzlei .untertitel .w.jetzt{color:var(--k3)}
 .reel .fuss{position:absolute;left:84px;right:84px;bottom:70px;display:flex;justify-content:space-between}
-${klausurCss(ctx)}
+${klausurCss(ctx)}${buntCss(ctx)}
 </style></head><body class="stil-${stil.id} familie-${stil.familie || stil.id}"><div class="reel">
 <canvas id="oben" width="1080" height="${OBEN}"></canvas>
 <div class="trenner"></div>
