@@ -253,6 +253,21 @@ async function strukturiert({ system, user, schema, modell = CONFIG.ki.modell, e
   return { daten: jsonAus(textAus(response)), usage: response.usage };
 }
 
+/* Hashtags: Vorschläge des Modells + Kern-Hashtags, sortiert nach gelerntem
+   Gewicht (welche Tags Follower und Reichweite brachten), dazu zwei täglich
+   rotierende Entdecker-Tags. Höchstens maxJeBeitrag. */
+export function hashtagsWaehlen(vorschlaege, kern, strategie = null, tag = Math.floor(Date.now() / 86400000)) {
+  const norm = (h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase().replace(/\s+/g, "");
+  const g = strategie?.hashtagGewicht || {};
+  const eigene = [...new Set(vorschlaege.map(norm))].filter((h) => !kern.includes(h)).sort((a, b) => (g[b] ?? 1) - (g[a] ?? 1));
+  const entdecker = CONFIG.hashtags.entdecker || [];
+  const neu = entdecker.length ? [entdecker[tag % entdecker.length], entdecker[(tag * 7 + 3) % entdecker.length]] : [];
+  const max = CONFIG.hashtags.maxJeBeitrag;
+  const liste = [...kern, ...neu];
+  for (const h of eigene) if (liste.length < max && !liste.includes(h)) liste.push(h);
+  return [...new Set(liste)].slice(0, max);
+}
+
 /* Faktencheck, der einen fertigen Entwurf nie verwirft: Fällt der Prüfaufruf
    selbst aus (Modellfehler, Budget), gilt der Entwurf mit Hinweis als geprüft. */
 async function faktenSicher(inhalt) {
@@ -341,7 +356,7 @@ function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
   for (const f of folien) for (const k of ["titel", "text", "untertitel"]) if (f[k] && verboten.test(f[k])) f[k] = f[k].replace(verboten, "").replace(/\s{2,}/g, " ").trim();
   if (!CONFIG.marke.website) daten.caption = (daten.caption || "").split("\n").filter((z) => !verboten.test(z)).join("\n");
   const kern = CONFIG.hashtags.kern;
-  const tags = [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase().replace(/\s+/g, "")), ...kern])].slice(0, CONFIG.hashtags.maxJeBeitrag);
+  const tags = hashtagsWaehlen(daten.hashtags || [], kern, strategie);
   return {
     format, fach, klausur, fachLabel: FAECHER[fach]?.label || "Steuerberaterexamen",
     themaId: thema?.id || null,

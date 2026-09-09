@@ -350,3 +350,22 @@ test("Reel: Hintergrund-Clip rotiert täglich, ohne Verzeichnis keine Auswahl", 
   assert.equal(hintergrundClip(dir, "2026-09-12"), a);
   fs.rmSync(dir, { recursive: true, force: true });
 });
+
+test("Wachstum: Hashtag-Lernschleife gewichtet Tags nach Followern, Auswahl mit Entdecker-Tags", async () => {
+  const { hashtagGewichte, punkte } = await import("../src/insights.mjs");
+  const { hashtagsWaehlen } = await import("../src/autor.mjs");
+  const eintraege = [];
+  for (let i = 0; i < 6; i++) eintraege.push({ hashtags: i % 2 ? ["#a", "#stark"] : ["#a", "#schwach"], insights: { reach: 500, follows: i % 2 ? 4 : 0, saved: 2 } });
+  const g = hashtagGewichte(eintraege);
+  assert.ok(g.gewicht["#stark"] > g.gewicht["#schwach"], JSON.stringify(g));
+  assert.equal(g.folgen["#stark"], 12);
+  assert.ok(punkte({ follows: 1 }) > punkte({ likes: 5 }));
+  const kern = CONFIG.hashtags.kern;
+  const tags = hashtagsWaehlen(["Bilanz", "#schwach", "#stark", "#stark"], kern, { hashtagGewicht: g.gewicht }, 3);
+  assert.ok(tags.length <= CONFIG.hashtags.maxJeBeitrag);
+  for (const k of kern) assert.ok(tags.includes(k));
+  assert.ok(tags.indexOf("#stark") < tags.indexOf("#schwach"), tags.join(" "));
+  assert.ok(tags.includes("#bilanz"));
+  assert.equal(tags.filter((t) => CONFIG.hashtags.entdecker.includes(t)).length >= 1, true);
+  assert.equal(new Set(tags).size, tags.length);
+});

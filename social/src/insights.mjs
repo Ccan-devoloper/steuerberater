@@ -17,6 +17,9 @@ import { hhmm } from "./zeit.mjs";
 
 const METRIKEN_BILD = "reach,saved,shares,likes,comments,total_interactions";
 const METRIKEN_REEL = "reach,saved,shares,likes,comments,total_interactions,views";
+/* Wachstumskennzahlen: neue Follower und Profilbesuche je Beitrag – nicht jede
+   API-Version liefert sie, deshalb mit Rückfall auf die Grundmetriken. */
+const METRIKEN_WACHSTUM = "follows,profile_visits";
 
 function werte(r) {
   const o = {};
@@ -26,11 +29,14 @@ function werte(r) {
 
 /* Kennzahlen eines Mediums (Fehler → null, z. B. fehlende Berechtigung). */
 export async function medienInsights(ig, medium) {
+  const basis = medium.media_type === "VIDEO" || medium.media_product_type === "REELS" ? METRIKEN_REEL : METRIKEN_BILD;
   try {
-    const r = await ig.anfrage("GET", `${medium.id}/insights`, { metric: medium.media_type === "VIDEO" || medium.media_product_type === "REELS" ? METRIKEN_REEL : METRIKEN_BILD });
-    return werte(r);
-  } catch (e) {
-    if (/permission|OAuth|not support/i.test(e.message)) return null;
+    try {
+      return werte(await ig.anfrage("GET", `${medium.id}/insights`, { metric: `${basis},${METRIKEN_WACHSTUM}` }, { versuche: 1 }));
+    } catch {
+      return werte(await ig.anfrage("GET", `${medium.id}/insights`, { metric: basis }));
+    }
+  } catch {
     return null;
   }
 }
@@ -39,6 +45,7 @@ export async function medienInsights(ig, medium) {
 export async function kontoInsights(ig) {
   const out = { follower: null, reichweite7: null, onlineStunden: null };
   try { out.follower = (await ig.anfrage("GET", ig.kontoId, { fields: "followers_count,media_count" })).followers_count; } catch { /* egal */ }
+  try { const p = await ig.anfrage("GET", ig.kontoId, { fields: "biography,website,profile_picture_url,name" }, { versuche: 1 }); out.profil = { bio: p.biography || "", website: p.website || "", bild: !!p.profile_picture_url, name: p.name || "" }; } catch { /* egal */ }
   try {
     const r = await ig.anfrage("GET", `${ig.kontoId}/insights`, { metric: "reach", period: "day", metric_type: "total_value", since: Math.floor(Date.now() / 1000) - 7 * 86400, until: Math.floor(Date.now() / 1000) });
     out.reichweite7 = r.data?.[0]?.total_value?.value ?? r.data?.[0]?.values?.reduce((a, v) => a + (v.value || 0), 0) ?? null;
@@ -54,7 +61,22 @@ export async function kontoInsights(ig) {
 /* Bewertung eines Beitrags: Speichern und Teilen zählen am meisten. */
 export function punkte(m) {
   if (!m) return null;
-  return (m.saved || 0) * 3 + (m.shares || 0) * 4 + (m.comments || 0) * 2 + (m.likes || 0) + (m.reach || 0) / 100 + (m.views || 0) / 300;
+  /* Neue Follower aus einem Beitrag sind das eigentliche Ziel und zählen am stärksten. */
+  return (m.follows || 0) * 10 + (m.profile_visits || 0) + (m.saved || 0) * 3 + (m.shares || 0) * 4 + (m.comments || 0) * 2 + (m.likes || 0) + (m.reach || 0) / 100 + (m.views || 0) / 300;
+}
+
+/* Hashtag-Lernschleife: Welche Hashtags stehen unter den Beiträgen, die Follower
+   und Reichweite bringen? Gewicht relativ zum Schnitt (0,5–2), plus Summe
+   neuer Follower je Hashtag für den Bericht. */
+export function hashtagGewichte(eintraege) {
+  const mitTags = eintraege.filter((e) => Array.isArray(e.hashtags) && e.hashtags.length);
+  if (mitTags.length < 4) return { gewicht: {}, folgen: {} };
+  const mittel = mitTags.reduce((a, e) => a + punkte(e.insights), 0) / mitTags.length || 1;
+  const g = {}, f = {};
+  for (const e of mitTags) for (const h of new Set(e.hashtags.map((x) => x.toLowerCase()))) { (g[h] ||= []).push(punkte(e.insights)); f[h] = (f[h] || 0) + (e.insights.follows || 0); }
+  const gewicht = {};
+  for (const [h, v] of Object.entries(g)) if (v.length >= 2) gewicht[h] = Math.max(0.5, Math.min(2, (v.reduce((a, b) => a + b, 0) / v.length) / mittel));
+  return { gewicht, folgen: f };
 }
 
 /* Aus dem Ledger (Einträge mit insights) die Gewichte ableiten. */
@@ -74,6 +96,11 @@ export function strategieAbleiten(ledger, konto = {}) {
     strategie.fachGewicht = gruppe("fach");
     strategie.hookGewicht = gruppe("hookTyp");
   }
+  const ht = hashtagGewichte(eintraege);
+  strategie.hashtagGewicht = ht.gewicht;
+  strategie.hashtagFolgen = ht.folgen;
+  strategie.folgenGesamt = eintraege.reduce((a, e) => a + (e.insights.follows || 0), 0);
+  strategie.profil = konto.profil || null;
   if (konto.onlineStunden) {
     /* UTC-Stunden → lokale Stunden (Europe/Berlin), drei beste mit Mindestabstand 3 h. */
     const offset = (new Date().getTimezoneOffset() === 0 ? 0 : 0) + (istSommerzeit() ? 2 : 1);
