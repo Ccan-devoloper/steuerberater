@@ -217,6 +217,28 @@ Klausurtag“), ein Story-Highlight je Klausur, und ein Lead-Magnet gegen E-Mail
 Dauerbrenner, sortiert nach Klausurtag“ als PDF) – dafür braucht es eine Landingpage oder ein
 Newsletter-Tool.
 
+## Follower gewinnen: was der Bot tut – und was er bewusst nicht tut
+
+Der Bot kann nur über die offizielle API arbeiten. Die erlaubt: veröffentlichen, eigene Kommentare
+beantworten, Nachrichten an Menschen, die zuerst schreiben, Statistiken lesen. Sie erlaubt nicht:
+fremden Konten folgen, fremde Beiträge liken oder kommentieren. Follow/Unfollow- und Like-Bots
+arbeiten über inoffizielle Wege, verstoßen gegen die Instagram-Regeln und führen zuverlässig zur
+Sperre des Kontos – das baut dieser Bot nicht.
+
+Was er stattdessen automatisch tut:
+
+- **Follower-Messung je Beitrag**: `follows` und `profile_visits` aus den Insights fließen mit
+  hohem Gewicht in die Lernschleife; Formate, Fächer, Hooks und Uhrzeiten richten sich danach.
+- **Hashtag-Lernschleife**: Jeder Beitrag merkt sich seine Hashtags. Die Strategie gewichtet Tags
+  danach, welche Follower und Reichweite brachten; zwei rotierende Entdecker-Tags je Tag probieren
+  Long-Tail-Begriffe aus (`config.hashtags.entdecker`). Der Wochenbericht zeigt die Tags mit den
+  meisten neuen Followern.
+- **Zweitreichweite**: Threads, TikTok, YouTube Shorts, Facebook, LinkedIn (siehe Weiterverteilen) –
+  sobald Tokens gesetzt sind, geht jeder Beitrag und jedes Reel automatisch dorthin.
+- **Profil-Check im Bericht**: fehlende Bio, fehlendes Profilbild, nicht verbundene Kanäle und – unter
+  50 Followern – die drei Handgriffe, die kein Bot ersetzen kann (täglich 10 Minuten in der Nische
+  kommentieren, Beiträge in Lerngruppen teilen, Kolleg:innen persönlich einladen).
+
 ## Reels (Video mit Sprecherstimme)
 
 Reels sind der größte Reichweiten-Hebel auf Instagram. Der Bot baut sie aus einem Skript mit

@@ -180,6 +180,10 @@ export const CONFIG = {
   /* Hashtags: kleiner fester Kern + themenabhängige aus dem Autor. */
   hashtags: {
     kern: ["#steuerberaterexamen", "#steuerberaterprüfung", "#stbexamen", "#steuerberater", "#steuerrecht", "#examensvorbereitung"],
+    /* Entdecker-Hashtags: Long-Tail-Tags, die täglich zu zweit rotieren – so
+       wird jeder Tag ausprobiert und die Lernschleife sieht, welche neue
+       Follower bringen. */
+    entdecker: ["#stbexamen2026", "#steuerberaterprüfung2026", "#steuerberateranwärter", "#steuerfachwirt", "#steuerfachangestellte", "#bilanzbuchhalter", "#steuerrechtlernen", "#lernenmitsystem", "#klausurvorbereitung", "#examenszeit", "#steuernlernen", "#steuerberatung", "#buchhaltung", "#bilanzierung", "#umsatzsteuer", "#abgabenordnung", "#einkommensteuer", "#körperschaftsteuer", "#erbschaftsteuer", "#lerngruppe", "#studygram", "#lernmotivation", "#prüfungsvorbereitung", "#steuerwissen"],
     maxJeBeitrag: 14,
   },
 };
