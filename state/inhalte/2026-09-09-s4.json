@@ -1,0 +1,16 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "ueberzeile": "Richtig ist B",
+  "titel": "Körperschaftsteuerpflicht ab Beurkundung",
+  "text": "Die Vorgesellschaft ist Vorstufe der GmbH und wird wie diese besteuert, § 1 Abs. 1 Nr. 1 KStG. Die Vorgründungsgesellschaft davor ist dagegen transparent (GbR/oHG) und keine Vorstufe der späteren GmbH.",
+  "optionen": [
+    "Schon mit dem Vorvertrag der Gründer",
+    "Ab notarieller Beurkundung der Vorgesellschaft",
+    "Erst mit Eintragung ins Handelsregister"
+  ],
+  "richtig": 1,
+  "fachLabel": "Körperschaftsteuer"
+}

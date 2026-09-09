@@ -1,0 +1,14 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "kst",
+  "klausur": 2,
+  "ueberzeile": "Prüfungsfrage KSt",
+  "titel": "Ab wann unterliegt die künftige GmbH erstmals der Körperschaftsteuer?",
+  "optionen": [
+    "Schon mit dem Vorvertrag der Gründer",
+    "Ab notarieller Beurkundung der Vorgesellschaft",
+    "Erst mit Eintragung ins Handelsregister"
+  ],
+  "fachLabel": "Körperschaftsteuer"
+}
