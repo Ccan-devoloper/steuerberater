@@ -1030,13 +1030,27 @@
       "fach": "kst",
       "titel": "Körperschaftsteuerpflicht ab Beurkundung",
       "medienId": "17909558394526143"
+    },
+    {
+      "datum": "2026-09-09",
+      "art": "beitrag",
+      "slot": "b2",
+      "format": "pruefungsfrage",
+      "thema": "ao-modul-ao-341",
+      "fach": "ao",
+      "titel": "Zwei Absätze, ein Paragraf: § 179 AO trennt zwei völlig verschiedene Fälle",
+      "hookTyp": "zahl",
+      "medienId": "18092014448543580",
+      "variante": 0,
+      "veroeffentlicht": "2026-09-09T10:45:54.226Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
     "persg": 3,
     "ust": 3,
     "kst": 4,
-    "ao": 6,
+    "ao": 7,
     "bilanz": 11,
     "istr": 6,
     "erbst": 1
