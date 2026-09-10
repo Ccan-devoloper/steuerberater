@@ -1187,13 +1187,40 @@
       "fach": "ao",
       "titel": "Plan A-B-C Verwaltungsakt",
       "medienId": "17946784005296332"
+    },
+    {
+      "datum": "2026-09-10",
+      "art": "beitrag",
+      "slot": "b2",
+      "format": "reel",
+      "thema": "ao-modul-ao-322",
+      "fach": "ao",
+      "titel": "Einspruch beim falschen Amt?",
+      "hookTyp": "fehler",
+      "medienId": "18124721254857877",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#einspruch",
+        "#abgabenordnung",
+        "#wiedereinsetzung",
+        "#klausurtag1",
+        "#verfahrensrecht",
+        "#fristen"
+      ],
+      "veroeffentlicht": "2026-09-10T10:48:59.823Z"
     }
   ],
   "fachZaehler": {
     "persg": 3,
     "ust": 3,
     "kst": 4,
-    "ao": 8,
+    "ao": 9,
     "bilanz": 11,
     "istr": 6,
     "erbst": 1
