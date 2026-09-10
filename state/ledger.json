@@ -1274,6 +1274,16 @@
       "fach": "ao",
       "titel": "Vorbehalt der Nachprüfung",
       "medienId": "18113588096006577"
+    },
+    {
+      "datum": "2026-09-10",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-sechsb-abs10",
+      "fach": "bilanz",
+      "titel": "§ 6b Abs. 10 EStG bei Anteilen",
+      "medienId": "18009102863781869"
     }
   ],
   "fachZaehler": {
