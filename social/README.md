@@ -128,6 +128,10 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_STIMME` | leer | Stimmanbieter erzwingen: `elevenlabs` · `piper` · `pico` · `aus` |
 | `IG_REELS` | `true` | Reels abschalten mit `false` |
 | `IG_REEL_TAGE` | `0,1,2,3,4,5,6` | Wochentage mit Reel (0 = So); Standard täglich |
+| `IG_ZEIT_LERNEN` | `true` | Uhrzeiten lernen statt fester Zeiten |
+| `IG_ZEIT_FENSTER` | `6-21` | Früheste und späteste Stunde für Beiträge |
+| `IG_ZEIT_ABSTAND` | `4` | Mindestabstand zwischen zwei Beiträgen in Stunden |
+| `IG_ZEIT_ERKUNDUNG` | `0.35` | Wie stark neue Uhrzeiten ausprobiert werden |
 | `IG_REEL_RESERVE_USD` | `0.09` | Rücklage im Tagesbudget, damit das Reel des Tages nicht ausfällt |
 | `IG_GRAPH_HOST` | `instagram` | `instagram` (Instagram-Login) oder `facebook` (Seiten-Token) |
 | `IG_EXAMEN_DATUM` / `IG_EXAMEN_ENDE` | `2026-10-06` / `2026-10-08` | Countdown; nach der Prüfung auf das Folgejahr setzen (bundeseinheitlich Anfang Oktober) |
@@ -249,6 +253,23 @@ Was er stattdessen automatisch tut:
 - **Profil-Check im Bericht**: fehlende Bio, fehlendes Profilbild, nicht verbundene Kanäle und – unter
   50 Followern – die drei Handgriffe, die kein Bot ersetzen kann (täglich 10 Minuten in der Nische
   kommentieren, Beiträge in Lerngruppen teilen, Kolleg:innen persönlich einladen).
+
+## Uhrzeiten: der Bot sucht sie selbst
+
+Beiträge erscheinen nicht zu festen Uhrzeiten, sondern dann, wann sie am besten ankommen. Nach jeder
+Messung (Reichweite, Speichern, Teilen, neue Follower) merkt sich der Bot, was eine Stunde gebracht
+hat – getrennt nach **Reel** und **Karussell** und, sobald genug Daten vorliegen, je Wochentag.
+
+Die Wahl folgt dem Prinzip „optimistisch bei Unsicherheit“ (UCB1): Eine Stunde kommt dran, wenn sie
+entweder gut lief oder noch kaum getestet wurde. Am Anfang wandern die Zeiten deshalb durch den Tag,
+mit jeder Messung wird die Erkundung kleiner, bis die Zeiten stehen. Der Wochenbericht zeigt die
+besten Stunden je Art mit Faktor zum Schnitt und Anzahl der Messungen.
+
+Randbedingungen: Fenster `IG_ZEIT_FENSTER` (Standard 6–21 Uhr), Mindestabstand zwischen zwei
+Beiträgen `IG_ZEIT_ABSTAND` (4 h), Erkundungsdrang `IG_ZEIT_ERKUNDUNG` (0.35; 0 = nur ausnutzen).
+`IG_ZEIT_LERNEN=false` schaltet zurück auf die festen Startzeiten. Die Teaser-Story übernimmt
+automatisch die Uhrzeit ihres Beitrags. Der Bot läuft stündlich, die Auflösung beträgt also eine
+Stunde.
 
 ## Reels (Video mit Sprecherstimme)
 

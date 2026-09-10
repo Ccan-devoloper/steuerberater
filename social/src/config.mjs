@@ -38,7 +38,14 @@ export const CONFIG = {
     beitraegeWochenende: Number(env("IG_BEITRAEGE_WOCHENENDE", 2)),
     storiesProTag: Number(env("IG_STORIES_PRO_TAG", 9)),   // Instagram-Limit über die API: 100 Veröffentlichungen / 24 h
     /* Lokale Uhrzeiten (Europe/Berlin), zu denen Beiträge erscheinen. */
-    beitragsZeiten: ["07:30", "12:30", "18:00"],
+    beitragsZeiten: ["07:30", "12:30", "18:00"],   // Startwerte, solange nichts gemessen ist
+    /* Lernende Uhrzeiten: Der Bot probiert Stunden aus und behält, was
+       Reichweite bringt – getrennt nach Reel und Karussell und je Wochentag.
+       Siehe zeiten.mjs. */
+    zeitLernen: env("IG_ZEIT_LERNEN", "true") === "true",
+    zeitFenster: env("IG_ZEIT_FENSTER", "6-21"),         // frühestes und spätestes Erscheinen (lokale Stunden)
+    zeitAbstandStunden: Number(env("IG_ZEIT_ABSTAND", "4")),
+    zeitErkundung: Number(env("IG_ZEIT_ERKUNDUNG", "0.35")),   // 0 = nur ausnutzen, größer = mehr ausprobieren
     /* Zeitfenster, über das die Stories verteilt werden. */
     storyFenster: ["07:00", "21:30"],
     /* Ein Thema kommt frühestens nach so vielen Tagen erneut dran. */

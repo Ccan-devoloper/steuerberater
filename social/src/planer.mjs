@@ -13,6 +13,7 @@ import { CONFIG } from "./config.mjs";
 import { themenpool, FAECHER } from "./inhalte.mjs";
 import { heuteIso, wochentag, minutenVon, hhmm, tageBis } from "./zeit.mjs";
 import { anlaesseFuer, mindsetThema } from "./kalender.mjs";
+import { zeitenWaehlen } from "./zeiten.mjs";
 
 /* Mulberry32 – kleiner, reproduzierbarer Zufallsgenerator. */
 function rng(seedText) {
@@ -118,8 +119,9 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   if (anlass && formate.length) formate[0] = "anlass";
   /* Abend-Anlass (Lösungsskizze am Prüfungstag): ersetzt den letzten Beitrag des Tages. */
   if (abendAnlass && formate.length) formate[formate.length - 1] = "loesungsskizze";
-  /* Beste Uhrzeiten aus den Online-Zeiten der Follower, sonst Standard. */
-  const zeiten = (CONFIG.plan.lernen && strategie?.besteStunden?.length === 3) ? strategie.besteStunden : CONFIG.plan.beitragsZeiten;
+  /* Uhrzeiten: gelernt aus dem, was gemessen wurde (zeiten.mjs) – je
+     Beitragsart und Wochentag, mit Erkundung solange die Daten dünn sind. */
+  const zeiten = zeitenWaehlen({ formate, datum, ledger, strategie, zufall });
   const benutzt = new Set();
   const ledgerKopie = { ...ledger, fachZaehler: { ...(ledger.fachZaehler || {}) } };
 

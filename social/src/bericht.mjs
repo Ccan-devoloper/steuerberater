@@ -6,6 +6,7 @@
 import nodemailer from "nodemailer";
 import { CONFIG } from "./config.mjs";
 import { punkte } from "./insights.mjs";
+import { zeitBericht } from "./zeiten.mjs";
 import { datumLesbar } from "./zeit.mjs";
 
 export function berichtErstellen({ ledger, strategie, follower, kosten, datum, fehler = [], hinweise = [] }) {
@@ -30,6 +31,15 @@ export function berichtErstellen({ ledger, strategie, follower, kosten, datum, f
   const folgen = Object.entries(strategie?.hashtagFolgen || {}).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, 6);
   if (folgen.length) zeilen.push(`Hashtags mit neuen Followern: ${folgen.map(([h, n]) => `${h} (${n})`).join(" · ")}`);
   if (strategie?.folgenGesamt != null) zeilen.push(`Neue Follower aus Beiträgen (gemessen): ${strategie.folgenGesamt}`);
+  /* Gelernte Uhrzeiten: Was hat sich bewährt, und wie sicher ist das schon? */
+  const zeitenGelernt = zeitBericht(ledger);
+  if (zeitenGelernt.gesamt) {
+    const namen = { karussell: "Karussell", reel: "Reel" };
+    for (const [klasse, zeilenZeit] of Object.entries(zeitenGelernt.klassen)) {
+      zeilen.push(`Beste Uhrzeiten ${namen[klasse] || klasse} (Faktor zum Schnitt, Messungen): ${zeilenZeit.map((z) => `${String(z.stunde).padStart(2, "0")}:30 ${z.mittel.toFixed(2)}× (${z.n})`).join(" · ")}`);
+    }
+    zeilen.push(`Uhrzeiten insgesamt gemessen: ${zeitenGelernt.gesamt} Beiträge${zeitenGelernt.gesamt < 20 ? " – der Bot probiert weiter Stunden aus" : ""}`);
+  }
   zeilen.push("");
   if (top.length) {
     zeilen.push("Beste Beiträge (Speichern ×3, Teilen ×4, Kommentare ×2, Likes, Reichweite):");
