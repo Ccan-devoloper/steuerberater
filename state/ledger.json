@@ -1294,6 +1294,37 @@
       "fach": "bilanz",
       "titel": "Abbruchkosten eines Gebäudes",
       "medienId": "18018650816866010"
+    },
+    {
+      "datum": "2026-09-10",
+      "art": "beitrag",
+      "slot": "f24",
+      "stunde": 20,
+      "format": "klausurtechnik",
+      "thema": "istr-modul-istr-istr3-05",
+      "fach": "istr",
+      "titel": "§ 50 EStG in der Klausur: Prüfst du Tarif und Abgeltung in der richtigen Reihenfolge?",
+      "hookTyp": "frage",
+      "medienId": "18116052208748887",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#erbschaftsteuer",
+        "#examenszeit",
+        "#internationalessteuerrecht",
+        "#beschränktesteuerpflicht",
+        "#paragraf50estg",
+        "#klausurtechnik",
+        "#ertragsteuern",
+        "#quellensteuer"
+      ],
+      "veroeffentlicht": "2026-09-10T18:43:45.317Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
@@ -1302,7 +1333,7 @@
     "kst": 4,
     "ao": 9,
     "bilanz": 11,
-    "istr": 6,
+    "istr": 7,
     "erbst": 1
   },
   "nachrichten": []
