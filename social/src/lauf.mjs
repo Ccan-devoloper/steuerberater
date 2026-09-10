@@ -31,7 +31,7 @@ import { verteilen } from "./verteilen.mjs";
 import { varianteErmitteln } from "./wechsel.mjs";
 import { kartenVerschicken } from "./nachrichten.mjs";
 import { berichtErstellen, berichtSenden } from "./bericht.mjs";
-import { abschluss as kostenAbschluss, budgetSetzen, tagesStand, tagesLimit, BudgetFehler } from "./kosten.mjs";
+import { abschluss as kostenAbschluss, budgetSetzen, reservieren, reservierungAufheben, tagesStand, tagesLimit, BudgetFehler } from "./kosten.mjs";
 import { wochentag } from "./zeit.mjs";
 import { heuteIso, lokaleMinuten, minutenVon } from "./zeit.mjs";
 
@@ -111,6 +111,13 @@ async function main() {
   }
 
   if (auffuellen > 0) { await auffuellenLauf(auffuellen, { hosting, ledger, ledgerPfad, pool, poolIndex, strategie }); return; }
+
+  /* Das Reel des Tages ist gesetzt: Solange es aussteht, bleibt ein Teil des
+     Tagesbudgets dafür zurückgelegt, damit es nicht an Beiträgen, Recherche
+     oder Auffüllen scheitert. */
+  const reelOffen = plan.beitraege.some((b) => b.format === "reel" && b.status !== "veroeffentlicht" && !b.fehler);
+  if (reelOffen && !trocken) { reservieren(CONFIG.ki.reelReserveUsd); log(`  ${CONFIG.ki.reelReserveUsd.toFixed(2)} $ für das Reel zurückgelegt`); }
+  else reservierungAufheben();
 
   const jetzt = lokaleMinuten();
   const faellig = (e) => e.status !== "veroeffentlicht" && (alles || minutenVon(e.zeit) <= jetzt);
@@ -248,6 +255,7 @@ async function main() {
         eintrag.kanaele = await verteilen({ art: "reel", videoUrl, videoPfad: r.video, bildUrls: [coverUrl], titel: reel.kurztitel || reel.szenen[0]?.titel, text: caption, hashtags: reel.hashtags }, { log, trockenlauf: trocken });
         fertigeBeitraege.set(eintrag.slot, { ...reel, folien: [{ art: "titel", titel: reel.szenen[0]?.titel, icon: reel.szenen[0]?.icon }], kurztitel: reel.kurztitel });
         ledgerSpeichern(ledgerPfad, ledger); planSpeichern(hosting, plan);
+        reservierungAufheben();   // Reel steht, der Rest des Tages darf die Rücklage nutzen
         hosting.commit(`Veröffentlicht: Reel ${datum} ${eintrag.slot}`); await hosting.push();
         log(`  ✓ Reel ${medienId} (${r.dauer.toFixed(0)} s, Stimme: ${r.anbieter})`);
         continue;

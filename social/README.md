@@ -78,7 +78,13 @@ Deckel erreicht, warten alle weiteren Texte bis zum nächsten Tag – bereits ge
 trotzdem veröffentlicht. Damit das reicht, läuft alles im Sparbetrieb: Beiträge, Reels, Stories,
 Recherche und Kommentare mit `claude-sonnet-5` (2 $ / 10 $ je Million Tokens rein/raus), der
 Faktencheck mit `claude-haiku-4-5` (1 $ / 5 $), Denkaufwand „low“ (`IG_KI_EFFORT`), höchstens eine Nachbesserungsrunde je Text, zwei
-Beiträge je Tag (an Reel-Tagen ein Carousel und ein Reel).
+Beiträge je Tag: ein Carousel und ein Reel.
+
+**Das Reel hat Vorrang.** Es erscheint täglich, deshalb legt der Bot `IG_REEL_RESERVE_USD`
+(Standard 0,09 $) des Tagesbudgets dafür zurück, solange es aussteht. Alle anderen Aufrufe – Beiträge,
+Recherche, Auffüllen – hören entsprechend früher auf und warten bis zum nächsten Tag; sobald das Reel
+steht, ist die Rücklage wieder frei. An Tagen mit teurer Websuche (Format `aktuell`) kann deshalb der
+Carousel-Beitrag entfallen, das Reel nicht.
 
 | Aufruf | je Tag | Kosten (ca.) |
 | --- | --- | --- |
@@ -121,6 +127,8 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `ELEVENLABS_VOICE_ID` | *(Voice ID)* | Stimme für ElevenLabs (nur mit Secret `ELEVENLABS_API_KEY`) |
 | `IG_STIMME` | leer | Stimmanbieter erzwingen: `elevenlabs` · `piper` · `pico` · `aus` |
 | `IG_REELS` | `true` | Reels abschalten mit `false` |
+| `IG_REEL_TAGE` | `0,1,2,3,4,5,6` | Wochentage mit Reel (0 = So); Standard täglich |
+| `IG_REEL_RESERVE_USD` | `0.09` | Rücklage im Tagesbudget, damit das Reel des Tages nicht ausfällt |
 | `IG_GRAPH_HOST` | `instagram` | `instagram` (Instagram-Login) oder `facebook` (Seiten-Token) |
 | `IG_EXAMEN_DATUM` / `IG_EXAMEN_ENDE` | `2026-10-06` / `2026-10-08` | Countdown; nach der Prüfung auf das Folgejahr setzen (bundeseinheitlich Anfang Oktober) |
 
@@ -244,7 +252,8 @@ Was er stattdessen automatisch tut:
 
 ## Reels (Video mit Sprecherstimme)
 
-Reels sind der größte Reichweiten-Hebel auf Instagram. Der Bot baut sie aus einem Skript mit
+Reels sind der größte Reichweiten-Hebel auf Instagram und erscheinen deshalb **täglich**: Der letzte
+Beitrag des Tages ist immer ein Reel, davor ein Carousel. Der Bot baut sie aus einem Skript mit
 6–8 Szenen: Bildschirmtext (Essenz) plus Sprechertext (Erklärung), 45–60 Sekunden, Hochformat,
 mitlaufende Untertitel Wort für Wort, dezentes Klangbett, Cover-Bild. Format: MP4, H.264, AAC,
 1080×1920, 30 fps – direkt über die Graph API als `REELS` veröffentlicht (`share_to_feed`).

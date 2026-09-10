@@ -116,6 +116,10 @@ export const CONFIG = {
     rechercheSuchen: Number(env("IG_KI_RECHERCHE_SUCHEN", "4")),   // Websuchen je Recherche (je 0,01 $ plus Ergebnis-Tokens)
     maxVersuche: Number(env("IG_KI_VERSUCHE", "2")),
     tagesBudgetUsd: Number(env("IG_TAGESBUDGET_USD", "0.27")),
+    /* Rücklage für das Reel des Tages: Es soll täglich erscheinen, darf also
+       nicht daran scheitern, dass Beiträge und Recherche das Budget vorher
+       aufbrauchen. */
+    reelReserveUsd: Number(env("IG_REEL_RESERVE_USD", "0.09")),
   },
 
   /* Instagram Graph API -------------------------------------------------- */
@@ -154,9 +158,10 @@ export const CONFIG = {
        Inhalt liegt als Karten darüber; die Clips rotieren täglich.
        IG_REEL_HINTERGRUND=animation erzwingt die Canvas-Animationen. */
     hintergrund: env("IG_REEL_HINTERGRUND", "clip"),
-    /* Wochentage, an denen der letzte Beitrag ein Reel ist (0 = So):
-       Di, Do, Sa, So – an den anderen Tagen zwei Carousels. */
-    tage: (env("IG_REEL_TAGE", "0,2,4,6")).split(",").map(Number),
+    /* Wochentage, an denen der letzte Beitrag ein Reel ist (0 = So). Standard:
+       jeden Tag. Reels tragen die Reichweite, deshalb erscheint täglich eines;
+       der zweite Beitrag des Tages ist dann statt eines Carousels ein Reel. */
+    tage: (env("IG_REEL_TAGE", "0,1,2,3,4,5,6")).split(",").map(Number),
     /* Kurz-Reels (20–35 s) an allen Tagen, sonntags ein langes Schema-Reel (bis 60 s). */
     langeTage: [0],
   },

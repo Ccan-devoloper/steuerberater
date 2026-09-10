@@ -54,9 +54,9 @@ function textAus(beitrag) {
 /**
  * @returns {{ok:boolean, fehler:string[], hinweise:string[]}}
  */
-export async function pruefeFakten(beitrag) {
+export async function pruefeFakten(beitrag, zweck = "faktencheck") {
   if (!CONFIG.faktencheck.aktiv) return { ok: true, fehler: [], hinweise: [] };
-  budgetPruefen("Faktencheck");
+  budgetPruefen(zweck === "reel-faktencheck" ? "Reel-Faktencheck" : "Faktencheck");
   const modell = CONFIG.ki.modellPruefung || CONFIG.ki.modellNeben;
   const haiku = /haiku/i.test(modell);
   const user = `Prüfe diesen Text:\n\n${textAus(beitrag)}`;
@@ -78,7 +78,7 @@ export async function pruefeFakten(beitrag) {
     const { thinking, output_config, ...rest } = basis;
     response = await client().messages.create({ ...rest, messages: [{ role: "user", content: `${user}\n\nAntworte ausschließlich mit einem JSON-Objekt nach diesem Schema:\n${JSON.stringify(SCHEMA)}` }] });
   }
-  erfassen(modell, response.usage, "faktencheck");
+  erfassen(modell, response.usage, zweck);
   if (response.stop_reason === "refusal") return { ok: true, fehler: [], hinweise: [] };
   const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
   let daten;
