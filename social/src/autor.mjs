@@ -225,7 +225,7 @@ function jsonAus(text) {
 
 /* Ein strukturierter Aufruf. Fällt bei Ablehnung oder Schema-Problemen auf
    einen zweiten Weg zurück, damit der Tageslauf nicht stehen bleibt. */
-async function strukturiert({ system, user, schema, modell = CONFIG.ki.modell, effort = CONFIG.ki.effort }) {
+async function strukturiert({ system, user, schema, modell = CONFIG.ki.modell, effort = CONFIG.ki.effort, zweck = "autor" }) {
   const basis = {
     model: modell,
     max_tokens: 16000,
@@ -234,7 +234,7 @@ async function strukturiert({ system, user, schema, modell = CONFIG.ki.modell, e
     thinking: { type: "adaptive" },
     output_config: { effort, format: { type: "json_schema", schema } },
   };
-  budgetPruefen("Text schreiben");
+  budgetPruefen(zweck === "reel" ? "Reel-Skript schreiben" : "Text schreiben");
   let response;
   try {
     response = await client().messages.create(basis);
@@ -244,9 +244,9 @@ async function strukturiert({ system, user, schema, modell = CONFIG.ki.modell, e
       response = await client().messages.create({ ...ohneFormat, output_config: { effort }, messages: [{ role: "user", content: `${user}\n\nAntworte ausschließlich mit einem JSON-Objekt nach diesem Schema:\n${JSON.stringify(schema)}` }] });
     } else throw e;
   }
-  erfassen(modell, response.usage, "autor");
+  erfassen(modell, response.usage, zweck);
   if (response.stop_reason === "refusal") {
-    if (modell !== "claude-opus-4-8") return strukturiert({ system, user, schema, modell: "claude-opus-4-8", effort });
+    if (modell !== "claude-opus-4-8") return strukturiert({ system, user, schema, modell: "claude-opus-4-8", effort, zweck });
     throw new Error(`Modell hat abgelehnt: ${response.stop_details?.explanation || "ohne Begründung"}`);
   }
   if (response.stop_reason === "max_tokens") throw new Error("Antwort abgeschnitten (max_tokens)");
@@ -270,9 +270,9 @@ export function hashtagsWaehlen(vorschlaege, kern, strategie = null, tag = Math.
 
 /* Faktencheck, der einen fertigen Entwurf nie verwirft: Fällt der Prüfaufruf
    selbst aus (Modellfehler, Budget), gilt der Entwurf mit Hinweis als geprüft. */
-async function faktenSicher(inhalt) {
+async function faktenSicher(inhalt, zweck = "faktencheck") {
   try {
-    return await pruefeFakten(inhalt);
+    return await pruefeFakten(inhalt, zweck);
   } catch (e) {
     console.warn(`  ! Faktencheck nicht möglich (${e.message.split("\n")[0].slice(0, 160)}) – Entwurf wird ohne Faktencheck übernommen.`);
     return { ok: true, fehler: [], hinweise: [`Faktencheck ausgefallen: ${e.message.slice(0, 120)}`] };
@@ -491,7 +491,7 @@ ${auftraege}
 Sperrliste (Namen nie verwenden): ${korpus().namen.join(", ")}
 
 Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder null. Gib genau einen Eintrag je Slot zurück.${hinweis ? `\n\n${hinweis}` : ""}`;
-  const { daten } = await strukturiert({ system: SYSTEM, user, schema: STORY_SCHEMA, modell: CONFIG.ki.modellNeben, effort: CONFIG.ki.effort });
+  const { daten } = await strukturiert({ system: SYSTEM, user, schema: STORY_SCHEMA, modell: CONFIG.ki.modellNeben, effort: CONFIG.ki.effort, zweck: "stories" });
   const nachSlot = new Map(daten.stories.map((s) => [s.slot, s]));
   return plan.map((p) => {
     const s = nachSlot.get(p.slot) || {};
@@ -563,7 +563,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null 
       feedback ? `\n## Beanstandungen am vorherigen Entwurf – bitte beheben\n${feedback}\n\nVorheriger Entwurf:\n${JSON.stringify(letzter)}` : "",
       `\nErstelle jetzt das Reel-Skript als JSON.`,
     ].filter(Boolean).join("\n");
-    const { daten } = await strukturiert({ system: SYSTEM, user, schema: REEL_SCHEMA });
+    const { daten } = await strukturiert({ system: SYSTEM, user, schema: REEL_SCHEMA, zweck: "reel" });
     const szenen = daten.szenen.map((s) => { const o = {}; for (const [k, v] of Object.entries(s)) if (v != null) o[k] = v; if (o.icon && !ICONS[o.icon]) o.icon = "paragraf"; return o; });
     const reel = { format: "reel", fach, klausur, fachLabel: FAECHER[fach]?.label, themaId: thema?.id || null, szenen, caption: (daten.caption || "").trim(), hashtags: [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase()), ...CONFIG.hashtags.kern])].slice(0, CONFIG.hashtags.maxJeBeitrag), kurztitel: daten.kurztitel || szenen[0]?.titel || "" };
     /* Prüfung über die Folien-Logik: Szenen als Folien, Sprechertext als Text. */
@@ -572,7 +572,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null 
     const [min, max] = lang ? [80, 190] : [45, 110];
     if (woerter < min || woerter > max) ergebnis.fehler.push(`Sprechertext hat ${woerter} Wörter (Ziel ${lang ? "110–150" : "60–90"})`);
     if (!ergebnis.fehler.length) {
-      const fakten = await faktenSicher(reel);
+      const fakten = await faktenSicher(reel, "reel-faktencheck");
       if (fakten.ok) { reel.hookTyp = hookTyp(szenen[0]?.titel || ""); return reel; }
       ergebnis.fehler.push(...fakten.fehler.map((f) => `Fachlicher Fehler: ${f}`));
     }

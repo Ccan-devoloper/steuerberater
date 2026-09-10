@@ -127,7 +127,10 @@ test("Redaktionsplan: Prüfungsabend mit Lösungsskizze, Endspurt-Formate, Samst
   assert.ok(plan.stories.every((s) => s.art === "teaser"), "Prüfungstag: nur Teaser-Stories");
   /* Endspurt: 20 Tage vorher Klausurtechnik statt Fehlerfalle (Montag 2026-09-14 → 22 Tage). */
   const endspurt = tagesplan("2026-09-14", ledgerLaden(), themenpool());
-  assert.deepEqual(endspurt.beitraege.map((b) => b.format), CONFIG.plan.formateEndspurt[1]);
+  /* Der letzte Beitrag des Tages ist das tägliche Reel, davor die Endspurt-Formate. */
+  const erwartet = [...CONFIG.plan.formateEndspurt[1]];
+  erwartet[erwartet.length - 1] = "reel";
+  assert.deepEqual(endspurt.beitraege.map((b) => b.format), erwartet);
   assert.ok(endspurt.beitraege.every((b) => !b.thema || b.thema.prioritaet === "hoch"), "Endspurt: nur Dauerbrenner");
   /* Samstag: Reel mit Mindset-Thema. */
   const samstag = tagesplan("2026-09-12", ledgerLaden(), themenpool());
@@ -222,7 +225,7 @@ test("Reel: Zeitplan ohne Stimme, Frames-Seite mit Untertiteln, Format nur mit S
   const mitReel = tagesplan("2026-09-08", ledgerLaden(), themenpool());
   assert.equal(mitReel.beitraege.at(-1).format, "reel");
   assert.ok(mitReel.beitraege.at(-1).thema);
-  CONFIG.reel.aktiv = false;
+  CONFIG.reel.aktiv = true;   // Standard wiederherstellen: Reels laufen täglich
 });
 
 test("Saisonkalender: Countdown, Prüfungstage, Anlass im Planer", async () => {
@@ -249,9 +252,12 @@ test("Lernschleife: Gewichte, Hook-Typen, beste Uhrzeiten, Plan folgt der Strate
   assert.equal(s.besteStunden.length, 3);
   assert.equal(hookTyp("Der Fehler, der 5 Punkte kostet"), "fehler");
   assert.ok(punkte({ saved: 1 }) > punkte({ likes: 1 }));
-  const plan = tagesplan("2026-09-09", ledgerLaden(), themenpool(), { ...s, formatGewicht: { fehlerfalle: 1.6, klausurtechnik: 0.6 } });
-  assert.ok(plan.beitraege.some((b) => b.format === "fehlerfalle"));
-  assert.ok(!plan.beitraege.some((b) => b.format === "klausurtechnik"));
+  /* Samstag: „spickzettel“ läuft schwach und wird durch das starke Format
+     ersetzt; der letzte Platz bleibt das tägliche Reel. */
+  const plan = tagesplan("2026-09-12", ledgerLaden(), themenpool(), { ...s, formatGewicht: { fehlerfalle: 1.6, spickzettel: 0.6 } });
+  assert.ok(plan.beitraege.some((b) => b.format === "fehlerfalle"), JSON.stringify(plan.beitraege.map((b) => b.format)));
+  assert.ok(!plan.beitraege.some((b) => b.format === "spickzettel"));
+  assert.equal(plan.beitraege.at(-1).format, "reel");
   assert.deepEqual(plan.beitraege.map((b) => b.zeit), s.besteStunden.slice(0, plan.beitraege.length));
 });
 
@@ -401,4 +407,23 @@ test("Reel-Cover zeigt Thema, Fach und Dauer", async () => {
   const ohne = coverDaten({ fach: "ao", szenen: [{ titel: "X" }] }, { gesamt: 0 });
   assert.equal(ohne.icon, "paragraf");
   assert.equal(ohne.dauerText, "");
+});
+
+test("Reel täglich, Budget dafür zurückgelegt", async () => {
+  const { budgetSetzen, budgetPruefen, reservieren, reservierungAufheben, BudgetFehler } = await import("../src/kosten.mjs");
+  /* Jeder Wochentag hat ein Reel. */
+  for (let wt = 0; wt <= 6; wt++) assert.ok(CONFIG.reel.tage.includes(wt), `Wochentag ${wt} ohne Reel`);
+  const ledger = ledgerLaden();
+  for (const datum of ["2026-09-14", "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18"]) {
+    const p = tagesplan(datum, ledger, themenpool());
+    assert.equal(p.beitraege.filter((b) => b.format === "reel").length, 1, `${datum} ohne Reel`);
+  }
+  /* Rücklage: andere Aufrufe hören früher auf, das Reel kommt noch durch. */
+  budgetSetzen({ limitUsd: 0.27, bisher: 0.20 });
+  reservieren(0.09);
+  assert.throws(() => budgetPruefen("Text schreiben"), BudgetFehler);
+  budgetPruefen("Reel-Skript schreiben");   // darf die Rücklage nutzen
+  reservierungAufheben();
+  budgetPruefen("Text schreiben");          // nach dem Reel wieder frei
+  budgetSetzen({ limitUsd: Infinity, bisher: 0 });
 });

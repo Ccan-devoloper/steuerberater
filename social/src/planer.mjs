@@ -99,16 +99,18 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   const endspurt = tageVor >= 0 && tageVor <= CONFIG.plan.endspurtTage;
   const tabelle = endspurt ? CONFIG.plan.formateEndspurt : CONFIG.plan.formateJeWochentag;
   const formate = (tabelle[wt] || ["pruefungsfrage", "fehlerfalle", "schema"]).slice(0, anzahl);
+  /* Reel-Tage (Standard: täglich): der letzte Beitrag des Tages wird ein Reel
+     (Video mit Stimme). Steht vor der Lernschleife, damit diese nur Plätze
+     tauscht, die auch bleiben. */
+  if (CONFIG.reel.aktiv && CONFIG.reel.tage.includes(wt) && formate.length) formate[formate.length - 1] = "reel";
   /* Lernschleife: ein Format, das deutlich schlechter läuft als der Schnitt, wird an
-     diesem Tag durch das beste Format ersetzt (nie „aktuell“/„wochenrueckblick“). */
+     diesem Tag durch das beste Format ersetzt (nie „aktuell“/„wochenrueckblick“/Reel). */
   const fg = (CONFIG.plan.lernen && strategie?.formatGewicht) || {};
   const bestes = Object.entries(fg).filter(([k]) => !["aktuell", "wochenrueckblick", "reel", "anlass"].includes(k)).sort((a, b) => b[1] - a[1])[0];
   if (bestes && bestes[1] >= 1.2) {
-    const schwach = formate.findIndex((f) => (fg[f] ?? 1) <= 0.75 && !["aktuell", "wochenrueckblick"].includes(f));
+    const schwach = formate.findIndex((f) => (fg[f] ?? 1) <= 0.75 && !["aktuell", "wochenrueckblick", "reel"].includes(f));
     if (schwach >= 0 && !formate.includes(bestes[0])) formate[schwach] = bestes[0];
   }
-  /* Reel-Tage: der letzte Beitrag des Tages wird ein Reel (Video mit Stimme). */
-  if (CONFIG.reel.aktiv && CONFIG.reel.tage.includes(wt) && formate.length) formate[formate.length - 1] = "reel";
   /* Anlasstage (Countdown, Prüfungstag …): der erste Beitrag wird zum Anlass. */
   const anlaesseHeute = anlaesseFuer(datum);
   const anlass = anlaesseHeute.find((a) => !a.zeit) || null;
