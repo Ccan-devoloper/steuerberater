@@ -155,7 +155,10 @@ export const CONFIG = {
     aktiv: env("IG_REELS", "true") === "true",
     elevenlabsKey: env("ELEVENLABS_API_KEY", ""),
     stimme: env("ELEVENLABS_VOICE_ID", ""),   // fest eingestellte Stimme; leer = der Bot sucht und lernt selbst
-    modell: env("ELEVENLABS_MODEL", "eleven_v3"),
+    /* Flash statt v3: halber Verbrauch je Zeichen. Das kostenlose Monatsguthaben
+       (10.000 Kredite) trägt damit rund 33 Reels – also den ganzen Monat mit
+       einer Stimme, statt Mitte des Monats auf Piper zu wechseln. */
+    modell: env("ELEVENLABS_MODEL", "eleven_flash_v2_5"),
     /* Stimmenwahl: Der Bot sucht in der ElevenLabs-Bibliothek deutsche
        Sprecher, probiert drei davon über die Reels aus und behält die, bei der
        die Zahlen stimmen (stimmen.mjs). ELEVENLABS_VOICE_ID + IG_STIMME_LERNEN=false

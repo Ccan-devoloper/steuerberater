@@ -125,7 +125,7 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_STIL_WECHSEL` | `true` | Kanzlei-Stil im Wechsel Schwarz/Weiß |
 | `IG_INTERAKTION` | `true` | Kommentare automatisch beantworten |
 | `ELEVENLABS_VOICE_ID` | leer | feste Stimme für ElevenLabs; leer = der Bot sucht und lernt selbst |
-| `ELEVENLABS_MODEL` | `eleven_v3` | Sprachmodell; `eleven_flash_v2_5` halbiert den Verbrauch des Monatsguthabens |
+| `ELEVENLABS_MODEL` | `eleven_flash_v2_5` | Sprachmodell; `eleven_v3` betont ausdrucksstärker, verbraucht aber doppelt so viel Guthaben |
 | `IG_STIMME_LERNEN` | `true` | Stimme selbst suchen und über die Reichweite lernen |
 | `IG_STIMME_ANZAHL` / `IG_STIMME_MESSUNGEN` / `IG_STIMME_VORSPRUNG` | `3` / `6` / `0.25` | Kandidaten, nötige Messungen je Stimme, nötiger Vorsprung zur Entscheidung |
 | `IG_STIMME` | leer | Stimmanbieter erzwingen: `elevenlabs` · `piper` · `pico` · `aus` |
@@ -371,10 +371,11 @@ Er listet die Kandidaten, spricht auf Wunsch je einen Probesatz nach `state/stim
 und kann mit *setzen: 2* eine Stimme sofort festlegen. Lokal: `npm run stimmen -- --proben`.
 `IG_STIMME_LERNEN=false` plus `ELEVENLABS_VOICE_ID` schaltet die Suche ganz ab.
 
-Ein Reel braucht ≈ 600 Zeichen Sprechertext, also ≈ 18.000 Zeichen im Monat. Das kostenlose Abo
-(10.000 Zeichen) trägt damit gut die Hälfte des Monats, den Rest spricht Piper. Wer die ganze Zeit
-ElevenLabs will: Variable `ELEVENLABS_MODEL=eleven_flash_v2_5` (halber Verbrauch je Zeichen, etwas
-weniger ausdrucksstark) oder Tarif Starter.
+Ein Reel braucht ≈ 600 Zeichen Sprechertext, also ≈ 18.000 Zeichen im Monat. Mit dem Standardmodell
+`eleven_flash_v2_5` zählt jedes Zeichen nur halb: Die 10.000 Kredite des kostenlosen Abos tragen
+damit ≈ 33 Reels und reichen für den ganzen Monat – eine Stimme durchgehend, statt Mitte des Monats
+auf Piper zu wechseln. `eleven_v3` klingt beim Hook ausdrucksstärker, verbraucht aber das Doppelte
+und reicht dann nur für die halbe Monatsstrecke; Tarif Starter (30.000 Kredite) trägt beides.
 
 Der Sprechertext wird bewusst fürs Sprechen geschrieben: kurze Hauptsätze, Pausen, „Also:“,
 „Kurz gesagt:“ – nicht Lehrbuch. Bei Piper und Pico wird satzweise synthetisiert, damit die
