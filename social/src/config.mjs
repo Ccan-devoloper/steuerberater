@@ -46,6 +46,9 @@ export const CONFIG = {
     zeitFenster: env("IG_ZEIT_FENSTER", "6-21"),         // frühestes und spätestes Erscheinen (lokale Stunden)
     zeitAbstandStunden: Number(env("IG_ZEIT_ABSTAND", "4")),
     zeitErkundung: Number(env("IG_ZEIT_ERKUNDUNG", "0.35")),   // 0 = nur ausnutzen, größer = mehr ausprobieren
+    zeitReifeTage: Number(env("IG_ZEIT_REIFE_TAGE", "2")),     // so alt muss ein Beitrag sein, damit seine Zahlen zählen
+    zeitMindestMessungen: Number(env("IG_ZEIT_MESSUNGEN", "8")),   // so viele Beiträge müssen überhaupt Wirkung zeigen, sonst wird nur ausprobiert
+    zeitMindestWirkung: Number(env("IG_ZEIT_WIRKUNG", "1")),       // mittlere Punkte je Beitrag, ab denen die Zahlen die Uhrzeit bestimmen
     /* Zeitfenster, über das die Stories verteilt werden. */
     storyFenster: ["07:00", "21:30"],
     /* Ein Thema kommt frühestens nach so vielen Tagen erneut dran. */

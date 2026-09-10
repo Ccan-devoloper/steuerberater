@@ -15,7 +15,7 @@
    ========================================================================== */
 
 import { punkte } from "./insights.mjs";
-import { hhmm, minutenVon } from "./zeit.mjs";
+import { hhmm, minutenVon, lokaleMinuten } from "./zeit.mjs";
 import { CONFIG } from "./config.mjs";
 
 /** Beiträge fallen in zwei Klassen: Video oder Bild. */
@@ -24,10 +24,15 @@ export function klasseVon(format) {
 }
 
 /* Stunde einer Veröffentlichung: bevorzugt die tatsächlich vermerkte Stunde,
-   sonst die geplante Uhrzeit. */
+   sonst die geplante Uhrzeit, sonst der Zeitstempel der Veröffentlichung – so
+   zählen auch Beiträge mit, die vor der Zeit-Lernschleife entstanden sind. */
 function stundeVon(eintrag) {
   if (Number.isInteger(eintrag.stunde)) return eintrag.stunde;
   if (typeof eintrag.zeit === "string" && /^\d{1,2}:\d{2}$/.test(eintrag.zeit)) return Math.floor(minutenVon(eintrag.zeit) / 60);
+  if (eintrag.veroeffentlicht) {
+    const d = new Date(eintrag.veroeffentlicht);
+    if (!Number.isNaN(d.getTime())) return Math.floor(lokaleMinuten(d) / 60);
+  }
   return null;
 }
 
@@ -36,8 +41,12 @@ function stundeVon(eintrag) {
  * Anzahl der Beiträge und ihr mittleres Ergebnis, normiert auf den Schnitt
  * aller gemessenen Beiträge (1 = Durchschnitt).
  */
-export function zeitStatistik(ledger) {
-  const eintraege = (ledger?.veroeffentlicht || []).filter((e) => e.art === "beitrag" && e.insights && punkte(e.insights) != null && stundeVon(e) != null);
+export function zeitStatistik(ledger, heute = new Date()) {
+  /* Frisch veröffentlichte Beiträge haben noch kaum Zahlen. Sie mitzuzählen
+     würde die Stunde bestrafen, zu der zuletzt gepostet wurde, statt sie zu
+     bewerten – deshalb zählen nur Beiträge ab einem Mindestalter. */
+  const reife = new Date(heute.getTime() - CONFIG.plan.zeitReifeTage * 86400000).toISOString().slice(0, 10);
+  const eintraege = (ledger?.veroeffentlicht || []).filter((e) => e.art === "beitrag" && e.insights && punkte(e.insights) != null && stundeVon(e) != null && (e.datum || "9999") <= reife);
   const mittel = eintraege.length ? eintraege.reduce((a, e) => a + punkte(e.insights), 0) / eintraege.length : 0;
   const stunden = {}, tagStunden = {};
   for (const e of eintraege) {
@@ -48,7 +57,14 @@ export function zeitStatistik(ledger) {
     (tagStunden[`${k}|${wt}|${h}`] ||= []).push(wert);
   }
   const fassen = (roh) => Object.fromEntries(Object.entries(roh).map(([k, v]) => [k, { n: v.length, mittel: v.reduce((a, b) => a + b, 0) / v.length }]));
-  return { gesamt: eintraege.length, mittelPunkte: mittel, stunden: fassen(stunden), tagStunden: fassen(tagStunden) };
+  /* Solange fast alle Beiträge bei null stehen (junges Konto, kaum Reichweite),
+     ist der Unterschied zwischen zwei Stunden Rauschen. Dann wird nicht
+     ausgenutzt, sondern weiter über den Tag verteilt ausprobiert. */
+  const mitWirkung = eintraege.filter((e) => punkte(e.insights) > 0).length;
+  /* Es braucht genug Beiträge mit Wirkung UND eine Wirkung, die über
+     Einzelklicks hinausgeht – sonst entscheiden ein paar Aufrufe die Uhrzeit. */
+  const belastbar = mitWirkung >= CONFIG.plan.zeitMindestMessungen && mittel >= CONFIG.plan.zeitMindestWirkung;
+  return { gesamt: eintraege.length, mitWirkung, belastbar, mittelPunkte: mittel, stunden: fassen(stunden), tagStunden: fassen(tagStunden) };
 }
 
 /* Vorwissen: Sind die Follower zu dieser Stunde online, ist sie einen kleinen
@@ -65,6 +81,9 @@ function vorwissen(strategie, stunde) {
  * getestet wurde, und schrumpft mit der Gesamtzahl der Messungen.
  */
 export function stundenWert(stunde, { klasse, wochentag, statistik, strategie, erkundung = CONFIG.plan.zeitErkundung }) {
+  /* Ohne belastbare Zahlen zählt nur das Vorwissen; alle Stunden starten
+     gleichauf und werden der Reihe nach ausprobiert. */
+  if (!statistik.belastbar) return { wert: vorwissen(strategie, stunde), mittel: vorwissen(strategie, stunde), n: 0, bonus: 0 };
   const global = statistik.stunden[`${klasse}|${stunde}`];
   const jeTag = statistik.tagStunden[`${klasse}|${wochentag}|${stunde}`];
   /* Der Wochentag zählt erst mit, wenn es dafür mehrere Messungen gibt. */
@@ -136,5 +155,5 @@ export function zeitBericht(ledger) {
       .slice(0, 3);
     if (zeilen.length) out[klasse] = zeilen;
   }
-  return { gesamt: stat.gesamt, klassen: out };
+  return { gesamt: stat.gesamt, belastbar: stat.belastbar, mitWirkung: stat.mitWirkung, klassen: out };
 }
