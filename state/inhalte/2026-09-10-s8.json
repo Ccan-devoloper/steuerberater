@@ -1,0 +1,10 @@
+{
+  "slot": "s8",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "§ 6b Abs. 10 EStG bei Anteilen",
+  "text": "Beispiel: Gewinn 100.000 €. Rücklage voll: 100.000 €. Übertragbar wegen Teileinkünfteverfahren nur 60.000 € (§ 3 Nr. 40 Buchst. a EStG).",
+  "formel": "übertragbar = Gewinn × 60 % · Rücklage = Gewinn × 100 %",
+  "fachLabel": "Bilanzsteuerrecht"
+}

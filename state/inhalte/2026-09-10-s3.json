@@ -1,0 +1,17 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "ueberzeile": "Prüfungsfrage Personengesellschaften",
+  "titel": "Wofür steht das Sonderbetriebsvermögen I (SBV I)?",
+  "optionen": [
+    "Wirtschaftsgüter, die unmittelbar dem Betrieb der PersG dienen",
+    "Nur Beteiligungen an Kapitalgesellschaften",
+    "Privatvermögen des Gesellschafters"
+  ],
+  "fachLabel": "Personengesellschaften",
+  "beanstandet": [
+    "Wörtliche Übernahme aus der Webseite (bitte in eigenen Worten formulieren): „wirtschaftsgüter, die unmittelbar dem betrieb der persg dienen“"
+  ]
+}

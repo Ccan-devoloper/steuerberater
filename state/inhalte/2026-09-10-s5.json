@@ -1,0 +1,11 @@
+{
+  "slot": "s5",
+  "art": "norm",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Norm des Tages",
+  "titel": "Bewertung von Einlage und Entnahme",
+  "text": "Entnahme immer zum *Teilwert*. Bei der Einlage die Dreijahresgrenze prüfen – sonst drohen falsche stille Reserven.",
+  "norm": "§ 6 Abs. 1 Nr. 4, 5 EStG",
+  "fachLabel": "Bilanzsteuerrecht"
+}

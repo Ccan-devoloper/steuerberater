@@ -1,0 +1,11 @@
+{
+  "slot": "s9",
+  "art": "begriff",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Abbruchkosten eines Gebäudes",
+  "text": "Mit Abbruchabsicht binnen drei Jahren: Restbuchwert wird Teil der Anschaffungskosten des Grund und Bodens, Abbruchkosten sind Herstellungskosten des Neubaus. Ohne Absicht: Restbuchwert als AfaA, Kosten sofort abziehbar.",
+  "norm": "§ 6 Abs. 1 Nr. 1 EStG · R 6.4 EStR",
+  "icon": "haus",
+  "fachLabel": "Bilanzsteuerrecht"
+}

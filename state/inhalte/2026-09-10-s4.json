@@ -1,0 +1,19 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "ueberzeile": "Richtig ist A",
+  "titel": "SBV I sind eigenbetrieblich genutzte Wirtschaftsgüter des Gesellschafters",
+  "text": "Das Grundstück, das ein Gesellschafter der PersG zur Nutzung überlässt, dient unmittelbar deren Betrieb und gehört daher zum notwendigen SBV I (§ 15 Abs. 1 S. 1 Nr. 2 EStG).",
+  "optionen": [
+    "Wirtschaftsgüter, die unmittelbar dem Betrieb der PersG dienen",
+    "Nur Beteiligungen an Kapitalgesellschaften",
+    "Privatvermögen des Gesellschafters"
+  ],
+  "richtig": 0,
+  "fachLabel": "Personengesellschaften",
+  "beanstandet": [
+    "Wörtliche Übernahme aus der Webseite (bitte in eigenen Worten formulieren): „wirtschaftsgüter, die unmittelbar dem betrieb der persg dienen“"
+  ]
+}
