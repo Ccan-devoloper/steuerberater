@@ -11,10 +11,11 @@
    Stimme; drei Kandidaten kosten also ≈ 600 der 10.000 Freizeichen).
    ========================================================================== */
 
+import fs from "node:fs";
 import path from "node:path";
 import { CONFIG } from "../src/config.mjs";
 import { Hosting } from "../src/hosting.mjs";
-import { kandidatenSuchen, stimmeUebernehmen } from "../src/stimmen.mjs";
+import { kandidatenSuchen, stimmeUebernehmen, tarif } from "../src/stimmen.mjs";
 import { sprechen, stimmeStandVerbinden, kontingentAbfragen } from "../src/stimme.mjs";
 
 const args = process.argv.slice(2);
@@ -26,9 +27,10 @@ if (!CONFIG.reel.elevenlabsKey) { console.error("ELEVENLABS_API_KEY fehlt."); pr
 const hosting = new Hosting({ pushen: true }).vorbereiten();
 stimmeStandVerbinden({ lesen: () => hosting.jsonLesen("stimme.json", null), schreiben: (s) => hosting.jsonSchreiben("stimme.json", s) });
 
+const abo = await tarif();
 let liste = hosting.jsonLesen("stimmen.json", null);
 if (!liste?.kandidaten?.length || will("neu")) {
-  const roh = await kandidatenSuchen({ anzahl: CONFIG.reel.stimmeAnzahl });
+  const roh = await kandidatenSuchen({ anzahl: CONFIG.reel.stimmeAnzahl, abo });
   const kandidaten = [];
   for (const k of roh) kandidaten.push(await stimmeUebernehmen(k));
   liste = { gesucht: new Date().toISOString(), kandidaten, fest: liste?.fest || null };
@@ -36,7 +38,9 @@ if (!liste?.kandidaten?.length || will("neu")) {
 }
 
 const rest = await kontingentAbfragen({ frisch: true });
-console.log(`Guthaben: ${rest ?? "?"} Zeichen\n`);
+console.log(`Abo: ${abo || "?"} · Guthaben: ${rest ?? "?"} Zeichen`);
+if (abo === "free") console.log("Hinweis: Im kostenlosen Tarif dürfen über die API nur die Stimmen des Kontos sprechen, keine Bibliotheksstimmen.");
+console.log("");
 console.log("Kandidaten:");
 liste.kandidaten.forEach((k, i) => {
   console.log(`  ${i + 1}. ${k.name.padEnd(22)} ${String(k.geschlecht || "?").padEnd(7)} ${String(k.alter || "?").padEnd(12)} ${String(k.beschreibung || "–").padEnd(14)} Einsatz ${k.einsatz || "–"} · Eignung ${k.punkte} · ${k.id}`);
@@ -59,7 +63,10 @@ if (will("proben")) {
     const datei = path.join(hosting.stateDir, "stimmen", `${String(i + 1).padStart(2, "0")}-${k.name.replace(/[^\w]+/g, "-").toLowerCase()}.mp3`);
     try {
       const r = await sprechen(CONFIG.reel.stimmeProbeText, datei, { anbieter: "elevenlabs", stimmeId: k.id, betonung: "hook" });
-      console.log(`  ${k.name}: ${r.dauer.toFixed(1)} s → ${path.relative(hosting.stateDir, datei)}`);
+      /* Fällt die Stimme durch (Tarif, Kontingent), gibt es keine Datei – das
+         darf nicht als gelungene Probe im Log stehen. */
+      if (r.anbieter === "elevenlabs" && fs.existsSync(datei)) console.log(`  ${k.name}: ${r.dauer.toFixed(1)} s → ${path.relative(hosting.stateDir, datei)}`);
+      else console.log(`  ${k.name}: keine Probe (${r.anbieter})`);
     } catch (e) { console.error(`  ${k.name}: ${e.message}`); }
   }
   hosting.commit("Stimmproben"); await hosting.push();

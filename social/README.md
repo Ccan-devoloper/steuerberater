@@ -353,7 +353,11 @@ läuft ElevenLabs von selbst wieder an. Geht das Guthaben mitten in einem Reel a
 einmal komplett offline neu gesprochen. Der Wochenbericht zeigt den Stand.
 
 **Welche Stimme spricht?** Ist keine `ELEVENLABS_VOICE_ID` gesetzt, sucht der Bot beim ersten Lauf
-selbst: Aus der ElevenLabs-Bibliothek werden deutsche Sprecher gefiltert (Muttersprachler, erwachsen,
+selbst. Wo er sucht, hängt am Tarif: **Im kostenlosen Abo dürfen über die API nur die Stimmen des
+eigenen Kontos sprechen** – die vorinstallierten mehrsprachigen, die Deutsch mit leichtem englischem
+Einschlag lesen. Bibliotheksstimmen (deutsche Muttersprachler) beantwortet ElevenLabs dort mit
+HTTP 402 `paid_plan_required`; erst ab Starter (≈ 5 $/Monat) stehen sie offen. Der Bot merkt das
+selbst, wirft eine gesperrte Stimme aus der Liste und sucht neu. Aus der Bibliothek werden deutsche Sprecher gefiltert (Muttersprachler, erwachsen,
 erzählend oder erklärend – Werbe- und Charakterstimmen fallen raus, siehe `BEWERTUNG` in
 `src/stimmen.mjs`), die drei besten landen in `state/stimmen.json`. Welche davon **ankommt**,
 entscheidet danach das Publikum: Jedes Reel bekommt eine der drei zugeteilt, die Stimme steht beim
