@@ -10,6 +10,7 @@
     "rendern": "node src/lauf.mjs --nur-rendern",
     "beispiele": "node src/beispiele.mjs",
     "token:pruefen": "node src/instagram.mjs --pruefen",
+    "stimmen": "node bin/stimmen.mjs",
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {

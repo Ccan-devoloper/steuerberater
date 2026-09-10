@@ -214,9 +214,11 @@ function alignmentZuWoertern(alignment, start) {
   return woerter.length ? woerter : null;
 }
 
-async function elevenlabs(text, zielDatei, art = "normal") {
+async function elevenlabs(text, zielDatei, art = "normal", stimmeId = null) {
   const key = CONFIG.reel.elevenlabsKey;
-  const url = `https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(CONFIG.reel.stimme)}/with-timestamps?output_format=mp3_44100_128`;
+  const id = stimmeId || CONFIG.reel.stimme;
+  if (!id) throw new Error("Keine ElevenLabs-Stimme gewählt (ELEVENLABS_VOICE_ID oder state/stimmen.json)");
+  const url = `https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(id)}/with-timestamps?output_format=mp3_44100_128`;
   const res = await fetch(url, {
     method: "POST",
     headers: { "xi-api-key": key, "Content-Type": "application/json" },
@@ -231,7 +233,7 @@ async function elevenlabs(text, zielDatei, art = "normal") {
   fs.writeFileSync(zielDatei, Buffer.from(json.audio_base64, "base64"));
   const dauer = audioDauer(zielDatei) || sprechdauerSchaetzen(text);
   const woerter = alignmentZuWoertern(json.alignment || json.normalized_alignment || {}, 0) || woerterVerteilen(text, dauer);
-  return { datei: zielDatei, dauer, woerter, echt: true, anbieter: "elevenlabs" };
+  return { datei: zielDatei, dauer, woerter, echt: true, anbieter: "elevenlabs", stimmeId: id };
 }
 
 /* Betonung: Der Hook wird bewusst anders gesprochen als der Rest – etwas
@@ -295,7 +297,7 @@ export async function sprechen(text, zielDatei, opt = {}) {
   fs.mkdirSync(path.dirname(zielDatei), { recursive: true });
   if (anbieter === "elevenlabs") {
     try {
-      const ergebnis = await elevenlabs(text, zielDatei, art);
+      const ergebnis = await elevenlabs(text, zielDatei, art, opt.stimmeId || null);
       verbrauchBuchen(text);
       return ergebnis;
     } catch (e) {

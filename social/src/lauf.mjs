@@ -34,6 +34,7 @@ import { kartenVerschicken } from "./nachrichten.mjs";
 import { berichtErstellen, berichtSenden } from "./bericht.mjs";
 import { abschluss as kostenAbschluss, budgetSetzen, reservieren, reservierungAufheben, tagesStand, tagesLimit, BudgetFehler } from "./kosten.mjs";
 import { stimmeStandVerbinden, stimmeStand } from "./stimme.mjs";
+import { kandidatenSuchen, stimmeUebernehmen, stimmeWaehlen, gewinner, stimmenStatistik } from "./stimmen.mjs";
 import { wochentag } from "./zeit.mjs";
 import { heuteIso, lokaleMinuten, minutenVon } from "./zeit.mjs";
 
@@ -90,6 +91,23 @@ async function main() {
   if (CONFIG.reel.elevenlabsKey) {
     const st = stimmeStand();
     log(`Stimme: ElevenLabs${st.abo ? ` (${st.abo})` : ""}${st.erschoepft ? " – Guthaben aufgebraucht, es spricht Piper" : st.rest != null ? ` · ${st.rest} Zeichen frei` : ""}`);
+  }
+
+  /* Stimmenauswahl: einmalig deutsche Kandidaten aus der Bibliothek suchen,
+     danach steht die Liste in state/stimmen.json. Welche davon spricht, sagt
+     stimmeWaehlen() je Reel – bis eine gewonnen hat. */
+  let stimmenListe = hosting.jsonLesen("stimmen.json", null);
+  if (CONFIG.reel.elevenlabsKey && CONFIG.reel.stimmeLernen && !stimmenListe?.kandidaten?.length && !stimmeStand().erschoepft) {
+    try {
+      const roh = await kandidatenSuchen({ anzahl: CONFIG.reel.stimmeAnzahl });
+      const kandidaten = [];
+      for (const k of roh) kandidaten.push(await stimmeUebernehmen(k));
+      if (kandidaten.length) {
+        stimmenListe = { gesucht: new Date().toISOString(), kandidaten, fest: null };
+        hosting.jsonSchreiben("stimmen.json", stimmenListe);
+        log(`Stimmen gefunden: ${kandidaten.map((k) => `${k.name} (${k.geschlecht || "?"}, ${k.beschreibung || k.einsatz || "–"})`).join(" · ")}`);
+      }
+    } catch (e) { console.warn(`  ! Stimmensuche fehlgeschlagen: ${e.message}`); }
   }
   const ledger = ledgerLaden(ledgerPfad);
   const pool = themenpool();
@@ -175,6 +193,18 @@ async function main() {
       try {
         await lernschleife(ig, ledger, hosting, { log });
         hosting.jsonSchreiben("lernschleife.json", { datum });
+        /* Stimmen: Hat eine der Kandidatinnen genug Messungen und liegt sie
+           deutlich vorn, wird sie festgeschrieben – ab dann klingt der Kanal
+           immer gleich. */
+        if (stimmenListe?.kandidaten?.length && !stimmenListe.fest) {
+          const stat = stimmenStatistik(ledger);
+          const sieger = gewinner(stat, stimmenListe.kandidaten);
+          if (sieger) {
+            stimmenListe = { ...stimmenListe, fest: { id: sieger.id, name: sieger.name }, entschieden: new Date().toISOString(), stand: stat.je };
+            hosting.jsonSchreiben("stimmen.json", stimmenListe);
+            log(`Stimme steht fest: „${sieger.name}“ (${sieger.mittel.toFixed(2)}× Schnitt aus ${sieger.n} Reels) – ab jetzt spricht nur noch sie.`);
+          }
+        }
         ledgerSpeichern(ledgerPfad, ledger);
         hosting.commit(`Lernschleife ${datum}`); await hosting.push();
       } catch (e) { console.error(`  ✗ Lernschleife: ${e.message}`); }
@@ -185,7 +215,7 @@ async function main() {
     if (wochentag(new Date(`${datum}T12:00:00Z`)) === CONFIG.bericht.wochentag && berichtStand.woche !== kw) {
       try {
         const kostenWoche = hosting.jsonLesen("kosten.json", { wochen: {} });
-        const text = berichtErstellen({ ledger, strategie: hosting.jsonLesen("strategie.json", null), follower: hosting.jsonLesen("follower.json", []), kosten: { ...(kostenWoche.wochen?.[wochenKennung(vorwoche(datum))] || kostenWoche.wochen?.[kw] || {}), tage: kostenWoche.tage || {}, limit: CONFIG.ki.tagesBudgetUsd }, datum, fehler: hosting.jsonLesen("fehler.json", []).slice(-10), hinweise: berichtHinweise(hosting.jsonLesen("strategie.json", null)), stimme: hosting.jsonLesen("stimme.json", null) });
+        const text = berichtErstellen({ ledger, strategie: hosting.jsonLesen("strategie.json", null), follower: hosting.jsonLesen("follower.json", []), kosten: { ...(kostenWoche.wochen?.[wochenKennung(vorwoche(datum))] || kostenWoche.wochen?.[kw] || {}), tage: kostenWoche.tage || {}, limit: CONFIG.ki.tagesBudgetUsd }, datum, fehler: hosting.jsonLesen("fehler.json", []).slice(-10), hinweise: berichtHinweise(hosting.jsonLesen("strategie.json", null)), stimme: hosting.jsonLesen("stimme.json", null), stimmen: hosting.jsonLesen("stimmen.json", null) });
         hosting.jsonSchreiben(`berichte/${kw}.txt`, { text });
         const r = await berichtSenden(text, `Instagram-Bot · Wochenbericht ${kw}`);
         hosting.jsonSchreiben("bericht.json", { woche: kw, gesendet: r.gesendet, grund: r.grund || null });
@@ -261,14 +291,15 @@ async function main() {
           hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, reel);
         }
         const varianteReel = (CONFIG.marke.farbeJeKlausur ? 0 : await varianteErmitteln({ ig, ledger, trocken, log }));
-        const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel, datum, hintergrundDir: path.join(hosting.stateDir, "hintergrund") });
-        log(`  Reel gebaut: ${r.dauer.toFixed(1)} s · Stimme ${r.anbieter} · Animation ${r.animation}`);
+        const gewaehlteStimme = stimmeWaehlen({ kandidaten: stimmenListe?.kandidaten || [], ledger, datum, fest: stimmenListe?.fest || null });
+        const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel, datum, hintergrundDir: path.join(hosting.stateDir, "hintergrund"), stimmeId: gewaehlteStimme?.id || null, stimmeName: gewaehlteStimme?.name || null });
+        log(`  Reel gebaut: ${r.dauer.toFixed(1)} s · Stimme ${r.anbieter}${r.stimmeName ? ` „${r.stimmeName}“` : ""} · Animation ${r.animation}`);
         const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Reel ${datum} ${eintrag.slot}`);
         const caption = `${reel.caption}\n\n${reel.hashtags.join(" ")}`;
         const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption });
         kontingent.genutzt += 1;
         eintrag.status = "veroeffentlicht"; eintrag.medienId = medienId; eintrag.veroeffentlicht = new Date().toISOString();
-        vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, hookTyp: reel.hookTyp, hookMuster: reel.hookMuster, medienId, variante: varianteReel, hashtags: reel.hashtags, veroeffentlicht: new Date().toISOString() });
+        vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, hookTyp: reel.hookTyp, hookMuster: reel.hookMuster, medienId, variante: varianteReel, hashtags: reel.hashtags, stimmeId: r.stimmeId || null, stimmeName: r.stimmeName || null, veroeffentlicht: new Date().toISOString() });
         eintrag.kanaele = await verteilen({ art: "reel", videoUrl, videoPfad: r.video, bildUrls: [coverUrl], titel: reel.kurztitel || reel.szenen[0]?.titel, text: caption, hashtags: reel.hashtags }, { log, trockenlauf: trocken });
         fertigeBeitraege.set(eintrag.slot, { ...reel, folien: [{ art: "titel", titel: reel.szenen[0]?.titel, icon: reel.szenen[0]?.icon }], kurztitel: reel.kurztitel });
         ledgerSpeichern(ledgerPfad, ledger); planSpeichern(hosting, plan);

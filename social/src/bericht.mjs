@@ -7,9 +7,10 @@ import nodemailer from "nodemailer";
 import { CONFIG } from "./config.mjs";
 import { punkte } from "./insights.mjs";
 import { zeitBericht } from "./zeiten.mjs";
+import { stimmenBericht } from "./stimmen.mjs";
 import { datumLesbar } from "./zeit.mjs";
 
-export function berichtErstellen({ ledger, strategie, follower, kosten, datum, fehler = [], hinweise = [], stimme = null }) {
+export function berichtErstellen({ ledger, strategie, follower, kosten, datum, fehler = [], hinweise = [], stimme = null, stimmen = null }) {
   const woche = new Date(new Date(`${datum}T12:00:00Z`).getTime() - 7 * 86400000).toISOString().slice(0, 10);
   const beitraege = (ledger.veroeffentlicht || []).filter((e) => e.art === "beitrag" && e.datum >= woche);
   const stories = (ledger.veroeffentlicht || []).filter((e) => e.art === "story" && e.datum >= woche);
@@ -33,6 +34,12 @@ export function berichtErstellen({ ledger, strategie, follower, kosten, datum, f
     zeilen.push(stimme.erschoepft
       ? `Stimme: ElevenLabs-Guthaben aufgebraucht${stimme.resetAm ? ` (neu ab ${datumLesbar(String(stimme.resetAm).slice(0, 10))})` : ""} – die Reels spricht bis dahin Piper`
       : `Stimme: ElevenLabs${stimme.abo ? ` (${stimme.abo})` : ""} · ${stimme.rest ?? "?"} von ${stimme.grenze} Zeichen frei`);
+  }
+  /* Stimmenrennen: welche Sprecherin trägt die Reels? */
+  const rennen = stimmenBericht(ledger, stimmen?.kandidaten || []);
+  if (rennen) {
+    zeilen.push(`Stimmen (Faktor zum Reel-Schnitt, gemessene Reels): ${rennen.zeilen.map((z) => `${z.name} ${z.mittel.toFixed(2)}× (${z.n})`).join(" · ")}`);
+    if (rennen.sieger) zeilen.push(`  → entschieden: „${rennen.sieger}“ spricht ab jetzt alle Reels`);
   }
   const folgen = Object.entries(strategie?.hashtagFolgen || {}).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, 6);
   if (folgen.length) zeilen.push(`Hashtags mit neuen Followern: ${folgen.map(([h, n]) => `${h} (${n})`).join(" · ")}`);

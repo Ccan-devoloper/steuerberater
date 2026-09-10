@@ -124,8 +124,10 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_MARKE` | leer | Kanalname im Prompt (nicht auf den Kacheln) |
 | `IG_STIL_WECHSEL` | `true` | Kanzlei-Stil im Wechsel Schwarz/Weiß |
 | `IG_INTERAKTION` | `true` | Kommentare automatisch beantworten |
-| `ELEVENLABS_VOICE_ID` | *(Voice ID)* | Stimme für ElevenLabs (nur mit Secret `ELEVENLABS_API_KEY`) |
+| `ELEVENLABS_VOICE_ID` | leer | feste Stimme für ElevenLabs; leer = der Bot sucht und lernt selbst |
 | `ELEVENLABS_MODEL` | `eleven_v3` | Sprachmodell; `eleven_flash_v2_5` halbiert den Verbrauch des Monatsguthabens |
+| `IG_STIMME_LERNEN` | `true` | Stimme selbst suchen und über die Reichweite lernen |
+| `IG_STIMME_ANZAHL` / `IG_STIMME_MESSUNGEN` / `IG_STIMME_VORSPRUNG` | `3` / `6` / `0.25` | Kandidaten, nötige Messungen je Stimme, nötiger Vorsprung zur Entscheidung |
 | `IG_STIMME` | leer | Stimmanbieter erzwingen: `elevenlabs` · `piper` · `pico` · `aus` |
 | `IG_REELS` | `true` | Reels abschalten mit `false` |
 | `IG_REEL_TAGE` | `0,1,2,3,4,5,6` | Wochentage mit Reel (0 = So); Standard täglich |
@@ -197,6 +199,7 @@ social/
     kosten.mjs      API-Verbrauch mitschreiben
     reel.mjs        Reel: Zeitplan, Frame-Animation, ffmpeg-Schnitt
     stimme.mjs      Sprecherstimme (ElevenLabs mit Wort-Zeitmarken, Kontingent + Rückfall auf Piper)
+    stimmen.mjs     Stimmenauswahl: deutsche Kandidaten suchen, über die Reichweite lernen
     render.mjs      Playwright → JPEG
     hosting.mjs     Asset-Zweig: Bilder, Zustand, öffentliche URLs
     instagram.mjs   Graph API: Container, Carousel, Stories, Limit, Token-Tresor
@@ -348,6 +351,21 @@ wird die Stimme nie gewechselt, das hört jeder. Ist das Guthaben leer, merkt si
 `state/stimme.json` bis zum Stichtag des Abos und fragt nicht bei jedem Lauf erneut nach; danach
 läuft ElevenLabs von selbst wieder an. Geht das Guthaben mitten in einem Reel aus, wird das Reel
 einmal komplett offline neu gesprochen. Der Wochenbericht zeigt den Stand.
+
+**Welche Stimme spricht?** Ist keine `ELEVENLABS_VOICE_ID` gesetzt, sucht der Bot beim ersten Lauf
+selbst: Aus der ElevenLabs-Bibliothek werden deutsche Sprecher gefiltert (Muttersprachler, erwachsen,
+erzählend oder erklärend – Werbe- und Charakterstimmen fallen raus, siehe `BEWERTUNG` in
+`src/stimmen.mjs`), die drei besten landen in `state/stimmen.json`. Welche davon **ankommt**,
+entscheidet danach das Publikum: Jedes Reel bekommt eine der drei zugeteilt, die Stimme steht beim
+Beitrag im Ledger, und aus den Insights entsteht dieselbe UCB1-Rechnung wie bei den Uhrzeiten. Hat
+eine Stimme genug gemessene Reels (`IG_STIMME_MESSUNGEN`, Standard 6) **und** liegt sie deutlich vor
+der zweiten (`IG_STIMME_VORSPRUNG`, Standard 0,25× Schnitt), wird sie festgeschrieben – ab dann
+klingt der Kanal immer gleich. Der Wochenbericht zeigt den Zwischenstand.
+
+Selbst hören und eingreifen: Workflow **Stimmen** (`.github/workflows/stimmen.yml`) von Hand starten.
+Er listet die Kandidaten, spricht auf Wunsch je einen Probesatz nach `state/stimmen/` im Asset-Zweig
+und kann mit *setzen: 2* eine Stimme sofort festlegen. Lokal: `npm run stimmen -- --proben`.
+`IG_STIMME_LERNEN=false` plus `ELEVENLABS_VOICE_ID` schaltet die Suche ganz ab.
 
 Ein Reel braucht ≈ 600 Zeichen Sprechertext, also ≈ 18.000 Zeichen im Monat. Das kostenlose Abo
 (10.000 Zeichen) trägt damit gut die Hälfte des Monats, den Rest spricht Piper. Wer die ganze Zeit
