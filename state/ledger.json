@@ -250,14 +250,16 @@
       "titel": "Feststellungsfrist abgelaufen – geht der Feststellungsbescheid trotzdem raus?",
       "medienId": "18140733574504407",
       "insights": {
-        "reach": 2,
+        "reach": 3,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 1,
-        "total_interactions": 1
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:34.927Z"
+      "insightsStand": "2026-09-10T05:43:21.865Z"
     },
     {
       "datum": "2026-09-05",
@@ -352,14 +354,16 @@
       "veroeffentlicht": "2026-09-05T08:08:38.853Z",
       "karteUrl": null,
       "insights": {
-        "reach": 0,
+        "reach": 1,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:35.230Z"
+      "insightsStand": "2026-09-10T05:43:22.274Z"
     },
     {
       "datum": "2026-09-05",
@@ -374,14 +378,16 @@
       "veroeffentlicht": "2026-09-05T08:10:20.812Z",
       "karteUrl": null,
       "insights": {
-        "reach": 0,
+        "reach": 1,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:35.627Z"
+      "insightsStand": "2026-09-10T05:43:22.674Z"
     },
     {
       "datum": "2026-09-05",
@@ -401,9 +407,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:35.934Z"
+      "insightsStand": "2026-09-10T05:43:23.048Z"
     },
     {
       "datum": "2026-09-05",
@@ -423,9 +431,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:36.264Z"
+      "insightsStand": "2026-09-10T05:43:23.435Z"
     },
     {
       "datum": "2026-09-05",
@@ -445,9 +455,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:36.558Z"
+      "insightsStand": "2026-09-10T05:43:23.833Z"
     },
     {
       "datum": "2026-09-05",
@@ -467,9 +479,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:36.894Z"
+      "insightsStand": "2026-09-10T05:43:24.234Z"
     },
     {
       "datum": "2026-09-05",
@@ -489,9 +503,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:37.226Z"
+      "insightsStand": "2026-09-10T05:43:24.734Z"
     },
     {
       "datum": "2026-09-05",
@@ -511,9 +527,11 @@
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 1
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:37.471Z"
+      "insightsStand": "2026-09-10T05:43:25.138Z"
     },
     {
       "datum": "2026-09-05",
@@ -533,9 +551,11 @@
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 1
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:37.817Z"
+      "insightsStand": "2026-09-10T05:43:25.473Z"
     },
     {
       "datum": "2026-09-05",
@@ -556,9 +576,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:38.182Z"
+      "insightsStand": "2026-09-10T05:43:25.875Z"
     },
     {
       "datum": "2026-09-05",
@@ -579,9 +601,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:38.510Z"
+      "insightsStand": "2026-09-10T05:43:26.337Z"
     },
     {
       "datum": "2026-09-05",
@@ -602,9 +626,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:38.771Z"
+      "insightsStand": "2026-09-10T05:43:26.686Z"
     },
     {
       "datum": "2026-09-05",
@@ -625,9 +651,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:39.041Z"
+      "insightsStand": "2026-09-10T05:43:27.020Z"
     },
     {
       "datum": "2026-09-05",
@@ -648,9 +676,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:39.414Z"
+      "insightsStand": "2026-09-10T05:43:27.430Z"
     },
     {
       "datum": "2026-09-05",
@@ -671,9 +701,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:39.769Z"
+      "insightsStand": "2026-09-10T05:43:27.925Z"
     },
     {
       "datum": "2026-09-05",
@@ -695,7 +727,7 @@
         "total_interactions": 0,
         "views": 27
       },
-      "insightsStand": "2026-09-08T22:00:39.979Z"
+      "insightsStand": "2026-09-10T05:43:28.397Z"
     },
     {
       "datum": "2026-09-05",
@@ -726,9 +758,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:40.254Z"
+      "insightsStand": "2026-09-10T05:43:28.876Z"
     },
     {
       "datum": "2026-09-06",
@@ -759,9 +793,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:40.536Z"
+      "insightsStand": "2026-09-10T05:43:29.355Z"
     },
     {
       "datum": "2026-09-06",
@@ -782,9 +818,11 @@
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
       },
-      "insightsStand": "2026-09-08T22:00:40.885Z"
+      "insightsStand": "2026-09-10T05:43:29.813Z"
     },
     {
       "datum": "2026-09-07",
@@ -798,7 +836,18 @@
       "medienId": "17990062938014838",
       "variante": 1,
       "veroeffentlicht": "2026-09-07T05:45:45.891Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-10T05:43:30.169Z"
     },
     {
       "datum": "2026-09-07",
@@ -822,7 +871,18 @@
       "medienId": "17929007940398963",
       "variante": 0,
       "veroeffentlicht": "2026-09-07T10:44:57.068Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 1,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-10T05:43:30.503Z"
     },
     {
       "datum": "2026-09-07",
@@ -846,7 +906,18 @@
       "medienId": "18109180568147517",
       "variante": 1,
       "veroeffentlicht": "2026-09-07T10:47:47.097Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 1,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-10T05:43:30.846Z"
     },
     {
       "datum": "2026-09-07",
@@ -860,7 +931,18 @@
       "medienId": "17869987716602072",
       "variante": 0,
       "veroeffentlicht": "2026-09-07T10:58:44.984Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 0,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-10T05:43:31.192Z"
     },
     {
       "datum": "2026-09-07",
@@ -874,7 +956,18 @@
       "medienId": "18353052982174457",
       "variante": 1,
       "veroeffentlicht": "2026-09-07T11:09:01.956Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 1,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-10T05:43:31.490Z"
     },
     {
       "datum": "2026-09-08",

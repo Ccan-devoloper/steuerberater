@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-10",
+  "erzeugt": "2026-09-10T05:43:17.087Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:30",
+      "format": "spickzettel",
+      "themaId": "ao-modul-ao-382",
+      "themaTitel": "Prüfungsreihenfolge bei vermeintlich fehlerhaftem Verwaltungsakt: Plan A, B und C",
+      "fach": "ao",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "reel",
+      "themaId": "ao-modul-ao-322",
+      "themaTitel": "Einspruch beim falschen Finanzamt: Eingang, Weiterleitung und Wiedereinsetzung",
+      "fach": "ao",
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "07:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "10:16",
+      "art": "frage",
+      "themaId": "persg-quiz-persg-4",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "10:16",
+      "art": "antwort",
+      "themaId": "persg-quiz-persg-4",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "13:42",
+      "art": "norm",
+      "themaId": "bilanz-modul-k3-41",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "15:22",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 26,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "16:50",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-347",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "18:33",
+      "art": "formel",
+      "themaId": "bilanz-formel-sechsb-abs10",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "20:14",
+      "art": "begriff",
+      "themaId": "bilanz-karte-k3-35",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
