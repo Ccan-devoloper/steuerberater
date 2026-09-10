@@ -41,6 +41,11 @@ export function normKurz(text) {
   if (typeof text !== "string" || !text) return text;
   let out = text;
   for (const [muster, ersatz] of KURZ) out = out.replace(muster, ersatz);
+  /* Der Rückweg zur Kurzform: Was die Stimme ausgeschrieben bekommt, gehört
+     auf dem Bildschirm wieder als Kürzel hin. Der Untertitel eines Reels
+     entsteht aus dem gesprochenen Text und trug sonst den vollen Gesetzesnamen
+     quer über die Karte. */
+  out = out.replace(GESETZ_LANG_MUSTER, (n) => GESETZE_KURZ[n]);
   /* Aufräumen: doppelte Klammern und Leerzeichen vor der Klammer. */
   return out.replace(/\)\)+/g, ")").replace(/§\s*(\d)/g, "§ $1").replace(/\s{2,}/g, " ").trim();
 }
@@ -97,6 +102,11 @@ const GESETZE = {
 };
 /* Lange Kürzel zuerst, sonst schlägt EStG innerhalb von EStGB zu. */
 const GESETZ_MUSTER = new RegExp(`\\b(${Object.keys(GESETZE).sort((a, b) => b.length - a.length).join("|")})\\b`, "g");
+
+/* Und zurück: Der Untertitel eines Reels entsteht aus dem gesprochenen Text,
+   auf dem Bildschirm soll aber das Kürzel stehen. */
+const GESETZE_KURZ = Object.fromEntries(Object.entries(GESETZE).map(([k, v]) => [v, k]).reverse());
+const GESETZ_LANG_MUSTER = new RegExp(`\\b(${Object.keys(GESETZE_KURZ).sort((a, b) => b.length - a.length).map((n) => n.replace(/[.*+?^${}()|[\]\\-]/g, "\\$&")).join("|")})\\b`, "g");
 
 export function normGesprochen(text) {
   if (typeof text !== "string" || !text) return text;
