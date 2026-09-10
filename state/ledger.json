@@ -1254,6 +1254,16 @@
       "fach": "bilanz",
       "titel": "Bewertung von Einlage und Entnahme",
       "medienId": "17919865407225892"
+    },
+    {
+      "datum": "2026-09-10",
+      "art": "story",
+      "slot": "s6",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "medienId": "17969668290141165"
     }
   ],
   "fachZaehler": {
