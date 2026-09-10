@@ -111,7 +111,7 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_ACCESS_TOKEN` | Instagram-Token aus Schritt 2 |
 | `IG_ACCOUNT_ID` | Instagram-Konto-ID (Zahl) |
 | `IG_TOKEN_KEY` | frei gewählter Schlüssel für den Token-Tresor |
-| `ELEVENLABS_API_KEY` | *optional*: Schlüssel von elevenlabs.io – schaltet Reels mit Sprecherstimme frei |
+| `ELEVENLABS_API_KEY` | *optional*: Schlüssel von elevenlabs.io – Reels sprechen dann mit ElevenLabs, solange das Monatsguthaben reicht, danach mit Piper |
 
 **Variables** (Reiter *Variables*)
 
@@ -125,6 +125,7 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_STIL_WECHSEL` | `true` | Kanzlei-Stil im Wechsel Schwarz/Weiß |
 | `IG_INTERAKTION` | `true` | Kommentare automatisch beantworten |
 | `ELEVENLABS_VOICE_ID` | *(Voice ID)* | Stimme für ElevenLabs (nur mit Secret `ELEVENLABS_API_KEY`) |
+| `ELEVENLABS_MODEL` | `eleven_v3` | Sprachmodell; `eleven_flash_v2_5` halbiert den Verbrauch des Monatsguthabens |
 | `IG_STIMME` | leer | Stimmanbieter erzwingen: `elevenlabs` · `piper` · `pico` · `aus` |
 | `IG_REELS` | `true` | Reels abschalten mit `false` |
 | `IG_REEL_TAGE` | `0,1,2,3,4,5,6` | Wochentage mit Reel (0 = So); Standard täglich |
@@ -195,7 +196,7 @@ social/
     bericht.mjs     Wochenbericht per E-Mail
     kosten.mjs      API-Verbrauch mitschreiben
     reel.mjs        Reel: Zeitplan, Frame-Animation, ffmpeg-Schnitt
-    stimme.mjs      Sprecherstimme (ElevenLabs mit Wort-Zeitmarken)
+    stimme.mjs      Sprecherstimme (ElevenLabs mit Wort-Zeitmarken, Kontingent + Rückfall auf Piper)
     render.mjs      Playwright → JPEG
     hosting.mjs     Asset-Zweig: Bilder, Zustand, öffentliche URLs
     instagram.mjs   Graph API: Container, Carousel, Stories, Limit, Token-Tresor
@@ -336,9 +337,22 @@ vier Wörtern fest im Bild; nur die Farbe des gesprochenen Wortes wechselt.
 
 | Anbieter | Qualität | Kosten | Wann aktiv |
 | --- | --- | --- | --- |
-| `elevenlabs` | am natürlichsten (Atmung, Betonung, Pausen), Wort-Zeitmarken für die Untertitel | ab ≈ 5 $/Monat (Starter, 30.000 Zeichen ≈ 3 Reels/Woche) | sobald Secret `ELEVENLABS_API_KEY` gesetzt ist |
-| `piper` | gut – neuronale Offline-Stimme „Thorsten“ (`de_DE-thorsten-high`), klar und ruhig, hörbar synthetischer als ElevenLabs | kostenlos | Standard ohne ElevenLabs-Schlüssel; der Workflow lädt das Modell einmal und cached es |
+| `elevenlabs` | am natürlichsten (Atmung, Betonung, Pausen), Wort-Zeitmarken für die Untertitel | kostenloses Abo: 10.000 Zeichen/Monat · Starter ≈ 5 $/Monat: 30.000 Zeichen | sobald Secret `ELEVENLABS_API_KEY` gesetzt ist **und** das Monatsguthaben reicht |
+| `piper` | gut – neuronale Offline-Stimme „Thorsten“ (`de_DE-thorsten-high`), klar und ruhig, hörbar synthetischer als ElevenLabs | kostenlos | ohne ElevenLabs-Schlüssel und sobald dessen Monatsguthaben aufgebraucht ist |
 | `pico` | Notlösung (SVOX Pico, Navi-Qualität) | kostenlos | nur wenn nichts anderes verfügbar ist |
+
+**Kontingent und Rückfall.** Vor jedem Reel fragt der Bot bei ElevenLabs das verbleibende
+Monatsguthaben ab (`/v1/user/subscription`). Trägt es den kompletten Sprechertext, spricht
+ElevenLabs; reicht es nicht mehr, spricht **von der ersten Szene an** Piper – innerhalb eines Reels
+wird die Stimme nie gewechselt, das hört jeder. Ist das Guthaben leer, merkt sich der Bot das in
+`state/stimme.json` bis zum Stichtag des Abos und fragt nicht bei jedem Lauf erneut nach; danach
+läuft ElevenLabs von selbst wieder an. Geht das Guthaben mitten in einem Reel aus, wird das Reel
+einmal komplett offline neu gesprochen. Der Wochenbericht zeigt den Stand.
+
+Ein Reel braucht ≈ 600 Zeichen Sprechertext, also ≈ 18.000 Zeichen im Monat. Das kostenlose Abo
+(10.000 Zeichen) trägt damit gut die Hälfte des Monats, den Rest spricht Piper. Wer die ganze Zeit
+ElevenLabs will: Variable `ELEVENLABS_MODEL=eleven_flash_v2_5` (halber Verbrauch je Zeichen, etwas
+weniger ausdrucksstark) oder Tarif Starter.
 
 Der Sprechertext wird bewusst fürs Sprechen geschrieben: kurze Hauptsätze, Pausen, „Also:“,
 „Kurz gesagt:“ – nicht Lehrbuch. Bei Piper und Pico wird satzweise synthetisiert, damit die
@@ -346,11 +360,15 @@ Untertitel je Satz sauber sitzen. Reels sind damit **auch ohne jeden Schlüssel 
 (`IG_REELS=false` schaltet sie ab).
 
 ElevenLabs einrichten (optional, 5 Minuten):
-1. https://elevenlabs.io → Konto anlegen (Tarif Starter reicht).
+1. https://elevenlabs.io → Konto anlegen (das kostenlose Abo genügt zum Start).
 2. Unter *Voices* eine deutsche Stimme wählen (Voice Library → Deutsch → ruhige, erwachsene
    Erzählstimme) und ihre **Voice ID** kopieren. Die Stimme prägt den Kanal – anhören lohnt sich.
 3. Unter *API Keys* einen Schlüssel erzeugen.
 4. Im Repository: Secret `ELEVENLABS_API_KEY`, Variable `ELEVENLABS_VOICE_ID`.
+
+Hinweis zum kostenlosen Abo: ElevenLabs verlangt dort eine Namensnennung („Elevenlabs.io“) und
+erlaubt keine kommerzielle Nutzung. Wird der Kanal beworben oder verkauft er etwas, ist der Tarif
+Starter der saubere Weg.
 
 Rhythmus: An Reel-Tagen (Standard Di, Do, Sa – `reel.tage` in `src/config.mjs`) ist der 18-Uhr-Beitrag
 ein Reel statt eines Carousels.

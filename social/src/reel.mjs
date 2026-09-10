@@ -16,7 +16,7 @@ import { css, klausurCss, buntCss } from "./vorlagen.mjs";
 import { stil as stilLaden, iconSvg } from "./stile.mjs";
 import { FAECHER } from "./inhalte.mjs";
 import { CONFIG } from "./config.mjs";
-import { sprechen, ffmpegPfad } from "./stimme.mjs";
+import { sprechen, ffmpegPfad, anbieterFuerText, offlineAnbieter } from "./stimme.mjs";
 
 /* Höhe des animierten Bereichs: ein Drittel des 9:16-Bildes. */
 const OBEN = 640;
@@ -181,15 +181,15 @@ canvas#oben,.trenner{display:none}
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-/* Zeitplan: jede Szene = kurzer Vorlauf + Sprechdauer + Nachlauf. */
-export async function zeitplanErstellen(reel, audioDir) {
+/* Alle Szenen mit einem Anbieter sprechen und daraus den Zeitplan bauen. */
+async function szenenSprechen(reel, audioDir, anbieter) {
   const szenen = [];
   let t = 0;
   for (const [i, s] of reel.szenen.entries()) {
     /* Der Hook wird betont gesprochen und bekommt danach einen Moment Stille –
        erst dieser Bruch macht aus einem Satz einen Aufhänger. */
     const istHook = s.art === "hook" || i === 0;
-    const stimme = await sprechen(s.sprecher, path.join(audioDir, `szene-${String(i + 1).padStart(2, "0")}.mp3`), { betonung: istHook ? "hook" : null });
+    const stimme = await sprechen(s.sprecher, path.join(audioDir, `szene-${String(i + 1).padStart(2, "0")}.mp3`), { betonung: istHook ? "hook" : null, anbieter });
     const vorlauf = i === 0 ? 0.25 : 0.25;
     const nachlauf = s.art === "cta" ? 1.2 : istHook ? 0.85 : 0.55;
     const dauer = vorlauf + stimme.dauer + nachlauf;
@@ -197,6 +197,19 @@ export async function zeitplanErstellen(reel, audioDir) {
     t += dauer;
   }
   return { szenen, gesamt: Math.min(t, CONFIG.reel.maxSekunden), echt: szenen.every((s) => s.echt), anbieter: szenen[0]?.anbieter || "aus" };
+}
+
+/* Zeitplan: jede Szene = kurzer Vorlauf + Sprechdauer + Nachlauf.
+   Der Anbieter wird einmal für das ganze Reel bestimmt – nach dem, was das
+   ElevenLabs-Monatsguthaben noch trägt (stimme.mjs). */
+export async function zeitplanErstellen(reel, audioDir, opt = {}) {
+  const zeichen = reel.szenen.reduce((a, s) => a + String(s.sprecher || "").length, 0);
+  const anbieter = opt.anbieter || (await anbieterFuerText(zeichen));
+  const plan = await szenenSprechen(reel, audioDir, anbieter);
+  /* Ist das Guthaben mitten im Reel ausgegangen, sprechen jetzt zwei Stimmen im
+     selben Video. Dann lieber alles noch einmal offline – das kostet nichts. */
+  if (new Set(plan.szenen.map((s) => s.anbieter)).size > 1) return szenenSprechen(reel, audioDir, offlineAnbieter());
+  return plan;
 }
 
 /* Animation des oberen Drittels: täglich rotierend (Labyrinth → Marble Run → Ring). */

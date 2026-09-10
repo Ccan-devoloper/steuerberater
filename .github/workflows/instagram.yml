@@ -106,6 +106,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_MODEL: ${{ vars.ELEVENLABS_MODEL }}
           IG_REELS: ${{ vars.IG_REELS }}
           IG_REEL_TAGE: ${{ vars.IG_REEL_TAGE }}
           IG_REEL_ANIMATION: ${{ vars.IG_REEL_ANIMATION }}

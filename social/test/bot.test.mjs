@@ -580,3 +580,47 @@ test("Normen stehen in der Klausur-Kurzform, die Stimme liest sie ausgeschrieben
   const { ohneNormen } = await import("../src/pruefung.mjs");
   assert.match(ohneNormen("Nach § 15 (1) S. 1 Nr. 2 EStG gilt das."), /Nach\s+NORM\s+gilt das\./);
 });
+
+test("ElevenLabs läuft auf dem Monatsguthaben und fällt danach auf Piper zurück", async () => {
+  const { CONFIG } = await import("../src/config.mjs");
+  const stimme = await import("../src/stimme.mjs");
+  const key = CONFIG.reel.elevenlabsKey, wunsch = process.env.IG_STIMME, fetchAlt = globalThis.fetch;
+  CONFIG.reel.elevenlabsKey = "test-key";
+  delete process.env.IG_STIMME;
+  let gespeichert = null;
+  stimme.stimmeStandVerbinden({ lesen: () => gespeichert, schreiben: (s) => { gespeichert = s; } });
+
+  /* Kontostand kommt vom Abo-Endpunkt: 10 000 Zeichen im kostenlosen Abo. */
+  const antwort = (daten) => ({ ok: true, json: async () => daten, text: async () => JSON.stringify(daten) });
+  const reset = Date.now() + 10 * 86400000;
+  globalThis.fetch = async () => antwort({ tier: "free", character_count: 1200, character_limit: 10000, next_character_count_reset_unix: Math.floor(reset / 1000) });
+  assert.equal(await stimme.anbieterFuerText(900), "elevenlabs");
+  assert.equal(gespeichert.rest, 8800);
+
+  /* Reicht das Guthaben nicht für das ganze Reel, spricht von Szene eins an
+     die Offline-Stimme – ein Wechsel mitten im Video wäre hörbar. */
+  stimme.stimmeStandVerbinden({ lesen: () => gespeichert, schreiben: (s) => { gespeichert = s; } });
+  globalThis.fetch = async () => antwort({ tier: "free", character_count: 9800, character_limit: 10000, next_character_count_reset_unix: Math.floor(reset / 1000) });
+  assert.notEqual(await stimme.anbieterFuerText(900), "elevenlabs");
+
+  /* Ist es ganz leer, merkt sich der Bot das – ohne erneute Abfrage. */
+  stimme.stimmeStandVerbinden({ lesen: () => gespeichert, schreiben: (s) => { gespeichert = s; } });
+  globalThis.fetch = async () => antwort({ tier: "free", character_count: 10000, character_limit: 10000, next_character_count_reset_unix: Math.floor(reset / 1000) });
+  assert.notEqual(await stimme.anbieterFuerText(10), "elevenlabs");
+  assert.equal(gespeichert.erschoepft, true);
+  stimme.stimmeStandVerbinden({ lesen: () => gespeichert, schreiben: (s) => { gespeichert = s; } });
+  globalThis.fetch = async () => { throw new Error("darf nicht erneut fragen"); };
+  assert.notEqual(await stimme.anbieterFuerText(10), "elevenlabs");
+  assert.notEqual(stimme.stimmenAnbieter(), "elevenlabs");
+
+  /* Am Stichtag des Abos ist das Guthaben wieder da. */
+  gespeichert = { ...gespeichert, resetAm: new Date(Date.now() - 1000).toISOString() };
+  stimme.stimmeStandVerbinden({ lesen: () => gespeichert, schreiben: (s) => { gespeichert = s; } });
+  assert.equal(stimme.stimmeStand().erschoepft, false);
+  assert.equal(stimme.stimmenAnbieter(), "elevenlabs");
+
+  globalThis.fetch = fetchAlt;
+  stimme.stimmeStandVerbinden(null);
+  CONFIG.reel.elevenlabsKey = key;
+  if (wunsch != null) process.env.IG_STIMME = wunsch;
+});
