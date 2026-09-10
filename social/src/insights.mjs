@@ -94,7 +94,10 @@ export function strategieAbleiten(ledger, konto = {}) {
     };
     strategie.formatGewicht = gruppe("format");
     strategie.fachGewicht = gruppe("fach");
-    strategie.hookGewicht = gruppe("hookTyp");
+    /* Hooks: Gemessen wird das erkannte Muster; bei Reels steht zusätzlich das
+       beauftragte Muster im Ledger. Beides fließt in dieselbe Tabelle, damit die
+       Rotation in hooks.mjs davon lernt. */
+    strategie.hookGewicht = { ...gruppe("hookTyp"), ...gruppe("hookMuster") };
   }
   const ht = hashtagGewichte(eintraege);
   strategie.hashtagGewicht = ht.gewicht;

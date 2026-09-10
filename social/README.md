@@ -287,6 +287,14 @@ Beitrag des Tages ist immer ein Reel, davor ein Carousel. Der Bot baut sie aus e
 mitlaufende Untertitel Wort für Wort, dezentes Klangbett, Cover-Bild. Format: MP4, H.264, AAC,
 1080×1920, 30 fps – direkt über die Graph API als `REELS` veröffentlicht (`share_to_feed`).
 
+**Hook:** Die ersten zwei Sekunden entscheiden über die Reichweite eines Reels. Instagram bewertet vor
+allem, wie viele Zuschauer über die Drei-Sekunden-Marke hinaus dabeibleiben. Deshalb bekommt jedes Reel
+einen Hook nach festem Muster (`src/hooks.mjs`): Fehler-Hook, direkte Frage, Wissenslücke, steile
+Behauptung, Preisschild, Szene aus der Klausur oder Vorher-Nachher. Das Muster rotiert täglich; sobald
+die Lernschleife Gewichte liefert, fallen schwache Muster aus der Rotation. Der Bildschirmtext trägt
+den Hook allein (höchstens sechs Wörter, weil viele ohne Ton schauen), gesprochen ist er ein Satz mit
+höchstens 18 Wörtern. Begrüßungen und Ankündigungen wie „In diesem Reel“ lässt die Prüfung nicht durch.
+
 **Cover:** Das Standbild, das im Feed und im Profilraster für das Reel steht, wird eigens
 gerendert: Thema, Fach und Dauer auf der Fläche des Klausurtags, dazu ein Icon. So ist auf einen
 Blick zu sehen, worum es geht; ein Bild aus dem Video zeigte sonst nur den Hintergrundclip. Alles
