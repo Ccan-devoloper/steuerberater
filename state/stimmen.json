@@ -1,5 +1,5 @@
 {
-  "gesucht": "2026-09-10T17:54:45.877Z",
+  "gesucht": "2026-09-10T17:57:30.663Z",
   "kandidaten": [
     {
       "id": "rKiu7lQ4c5P3az3745s3",
@@ -9,10 +9,9 @@
       "einsatz": "informative_educational",
       "beschreibung": "confident",
       "akzent": "standard",
-      "besitzer": "ced8ccff973f18ec079968f443f29d5c1f88fdc8a8e2a8f0a30df8c6cb465b36",
-      "punkte": 18.79,
-      "quelle": "bibliothek",
-      "uebernommen": true
+      "besitzer": null,
+      "punkte": 16,
+      "quelle": "konto"
     },
     {
       "id": "v3V1d2rk6528UrLKRuy8",
@@ -22,10 +21,9 @@
       "einsatz": "conversational",
       "beschreibung": "calm",
       "akzent": "standard",
-      "besitzer": "e7fea8016e07cbf918ca753255d7085b26536539ab23d1c18100164e2a920dfc",
-      "punkte": 16.93,
-      "quelle": "bibliothek",
-      "uebernommen": true
+      "besitzer": null,
+      "punkte": 14,
+      "quelle": "konto"
     },
     {
       "id": "PhufIH7nYh2Up1uej6aY",
@@ -35,10 +33,9 @@
       "einsatz": "informative_educational",
       "beschreibung": "formal",
       "akzent": "standard",
-      "besitzer": "84170eba2e50e0df575fca41c02e69d51200016cc292e0f433bb2b37cea28126",
-      "punkte": 16.83,
-      "quelle": "bibliothek",
-      "uebernommen": true
+      "besitzer": null,
+      "punkte": 14,
+      "quelle": "konto"
     }
   ],
   "fest": null
