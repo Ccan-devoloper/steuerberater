@@ -1234,6 +1234,16 @@
       "fach": "persg",
       "titel": "Wofür steht das Sonderbetriebsvermögen I (SBV I)?",
       "medienId": "18052465832796915"
+    },
+    {
+      "datum": "2026-09-10",
+      "art": "story",
+      "slot": "s4",
+      "storyArt": "antwort",
+      "thema": "persg-quiz-persg-4",
+      "fach": "persg",
+      "titel": "SBV I sind eigenbetrieblich genutzte Wirtschaftsgüter des Gesellschafters",
+      "medienId": "18119389111898659"
     }
   ],
   "fachZaehler": {
