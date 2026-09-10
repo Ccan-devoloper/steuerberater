@@ -18,6 +18,7 @@ import { datumLesbar, tageBis } from "./zeit.mjs";
 import { erfassen, budgetPruefen } from "./kosten.mjs";
 import { pruefeFakten } from "./faktencheck.mjs";
 import { hookWaehlen as hookMusterWaehlen, hookAnleitung, pruefeHook, hookTypErkennen } from "./hooks.mjs";
+import { dauerWaehlen } from "./insights.mjs";
 import { normKurz, normGesprochen, felderKuerzen, NORM_REGEL, NORM_REGEL_STIMME } from "./normen.mjs";
 import { hookTyp } from "./insights.mjs";
 import { phase } from "./kalender.mjs";
@@ -547,13 +548,26 @@ const REEL_SCHEMA = {
   required: ["szenen", "caption", "hashtags", "kurztitel"],
 };
 
-const REEL_ANLEITUNG = `## Reel (Video 45–60 Sekunden, Hochformat, mit Sprecherstimme)
+/* Sprechtempo einer deutschen Vorlesestimme: rund 2,4 Wörter je Sekunde.
+   Aus dem Zeitfenster wird daraus eine Wortzahl - eine Sekundenangabe allein
+   kann ein Sprachmodell nicht einhalten, eine Wortzahl schon. */
+const WOERTER_JE_SEKUNDE = 2.4;
+
+function laengenAnleitung(von, bis, lang) {
+  const wVon = Math.round(von * WOERTER_JE_SEKUNDE), wBis = Math.round(bis * WOERTER_JE_SEKUNDE);
+  const szenen = lang ? "6–9" : von >= 60 ? "6–8" : von >= 45 ? "5–7" : "4–6";
+  return `## Länge
+Dieses Reel soll ${von}–${bis} Sekunden dauern, also insgesamt ${wVon}–${wBis} gesprochene Wörter in ${szenen} Szenen. Halte dich daran: Zu kurz wirkt abgehackt, zu lang verliert die Zuschauer.
+Die Länge ist kein Sparzwang. Wenn das Thema einen Schritt mehr braucht, nimm die Sekunden – aber keine Füllsätze, keine Wiederholungen, keine Begrüßung.`;
+}
+
+const REEL_ANLEITUNG = `## Reel (Hochformat, mit Sprecherstimme)
 Du schreibst ein Skript aus 6–8 Szenen. Jede Szene hat einen kurzen Bildschirmtext und einen Sprechertext.
-- Szenenarten: hook (Frage/Aufhänger, Folge 1), schritt (nummeriert, für Prüfschritte) oder punkt (unnummeriert), merke (Merksatz + norm), cta (Abschluss mit Ausblick auf das nächste Thema).
+- Szenenarten: hook (Frage/Aufhänger, Folge 1), schritt (nummeriert, für Prüfschritte) oder punkt (unnummeriert), merke (Merksatz + norm), cta (Abschluss).
 - Bildschirmtext: titel maximal 7 Wörter, text maximal 14 Wörter. Was gesprochen wird, steht NICHT wortgleich auf dem Bildschirm – der Bildschirm zeigt die Essenz, die Stimme erklärt.
 - Sprechertext: So, wie ein Mensch spricht, nicht wie ein Lehrbuch. Kurze Hauptsätze, direkte Ansprache, gelegentlich ein Gedankenstrich als Pause, ein „Also:“, „Kurz gesagt:“, „Und jetzt der Punkt, den fast alle übersehen.“ Keine Klammern, keine Abkürzungen (schreibe „Paragraf zweihundertneunundvierzig Absatz eins“ als „Paragraf 249 Absatz 1“ – die Stimme liest Ziffern korrekt). Keine Aufzählungszeichen. Je Szene 1–3 Sätze, insgesamt 110–150 Wörter.
 - Szene 1 ist der Hook. Wie er zu bauen ist, steht unten in einem eigenen Abschnitt; er entscheidet über die Reichweite des ganzen Reels.
-- cta: Ausblick auf das nächste Thema und Aufforderung zu folgen, ohne Website, ohne Produkt.
+- cta: Der Kern in einem Satz, dann die Aufforderung zu folgen – ohne Website, ohne Produkt. Kündige NICHTS an: kein „Nächstes Mal zeige ich dir …“, kein „Im nächsten Reel …“, kein „Teil 2 folgt“. Was hier steht, muss auch in einem Jahr noch stimmen.
 - icon nur beim hook.`;
 
 /* Reel-Skript schreiben (Szenen mit Bildschirm- und Sprechertext). */
@@ -563,11 +577,16 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null,
   const sperr = korpus().namen;
   /* Muster des Tages – rotiert, bevorzugt aber, was gemessen besser lief. */
   const hookMuster = hookMusterWaehlen(datum, strategie);
+  /* Die Ziellänge kommt aus der Lernschleife: Jedes Fenster wird erst ein paar
+     Mal ausprobiert, danach gewinnt, was gemessen besser lief. Ein Reel muss
+     nicht kurz sein - braucht ein Rechenweg 80 Sekunden, bekommt er sie. */
+  const [von, bis] = dauerWaehlen(datum, strategie, { min: lang ? 60 : 0 });
   let feedback = "", letzter = null;
   for (let versuch = 1; versuch <= CONFIG.ki.maxVersuche; versuch++) {
     const user = [
-      `Datum: ${datumLesbar(datum)}. Format: ${lang ? "Reel (lang, 45–60 s, 6–8 Szenen, ein komplettes Prüfschema)" : "Kurz-Reel (20–35 s, 4–5 Szenen, genau EIN Aha-Punkt: eine Frage, die Antwort, warum, Merksatz)"}.`,
-      REEL_ANLEITUNG + (lang ? "" : "\nKurzfassung: insgesamt 60–90 gesprochene Wörter, Bildschirmtitel maximal 5 Wörter."),
+      `Datum: ${datumLesbar(datum)}. Format: ${lang ? `Reel mit einem kompletten Prüfschema, ${von}–${bis} Sekunden` : `Reel, ${von}–${bis} Sekunden`}.`,
+      laengenAnleitung(von, bis, lang),
+      REEL_ANLEITUNG,
       hookAnleitung(hookMuster),
       `\n## Normen\n${NORM_REGEL}\n${NORM_REGEL_STIMME}`,
       anlass ? `\n## Anlass\n${anlass.titel}: ${anlass.kontext}` : "",

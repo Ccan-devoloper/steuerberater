@@ -63,10 +63,46 @@ const GESPROCHEN = [
  * Sprachausgabe „Absatz eins Satz eins“ sagt statt „Klammer auf eins“.
  * Die Gesetzeskürzel (EStG, AO …) bleiben stehen; sie werden korrekt gelesen.
  */
+/* Gesetzeskürzel, die eine Sprachausgabe nicht buchstabieren kann. „UStAE“
+   kommt als „U-Es-Ta-A-E“ zerhackt heraus; gesagt wird ohnehin der volle Name.
+   Nur die Kürzel mit gemischter Schreibweise stehen hier: Saubere Initialen
+   wie AO, HGB oder BGB liest jede Stimme richtig, und ausgeschrieben klängen
+   sie umständlich. */
+const GESETZE = {
+  EStG: "Einkommensteuergesetz",
+  EStDV: "Einkommensteuer-Durchführungsverordnung",
+  EStR: "Einkommensteuerrichtlinien",
+  KStG: "Körperschaftsteuergesetz",
+  KStR: "Körperschaftsteuerrichtlinien",
+  GewStG: "Gewerbesteuergesetz",
+  GewStR: "Gewerbesteuerrichtlinien",
+  UStG: "Umsatzsteuergesetz",
+  UStDV: "Umsatzsteuer-Durchführungsverordnung",
+  UStAE: "Umsatzsteuer-Anwendungserlass",
+  ErbStG: "Erbschaftsteuergesetz",
+  ErbStR: "Erbschaftsteuerrichtlinien",
+  GrEStG: "Grunderwerbsteuergesetz",
+  BewG: "Bewertungsgesetz",
+  UmwStG: "Umwandlungssteuergesetz",
+  UmwG: "Umwandlungsgesetz",
+  AStG: "Außensteuergesetz",
+  InvStG: "Investmentsteuergesetz",
+  SolzG: "Solidaritätszuschlaggesetz",
+  GmbHG: "GmbH-Gesetz",
+  AktG: "Aktiengesetz",
+  InsO: "Insolvenzordnung",
+  GewO: "Gewerbeordnung",
+  FGO: "Finanzgerichtsordnung",
+  VwVfG: "Verwaltungsverfahrensgesetz",
+};
+/* Lange Kürzel zuerst, sonst schlägt EStG innerhalb von EStGB zu. */
+const GESETZ_MUSTER = new RegExp(`\\b(${Object.keys(GESETZE).sort((a, b) => b.length - a.length).join("|")})\\b`, "g");
+
 export function normGesprochen(text) {
   if (typeof text !== "string" || !text) return text;
   let out = text;
   for (const [muster, ersatz] of GESPROCHEN) out = out.replace(muster, ersatz);
+  out = out.replace(GESETZ_MUSTER, (k) => GESETZE[k]);
   return out.replace(/\s{2,}/g, " ").replace(/\s+([,.;:])/g, "$1").trim();
 }
 
