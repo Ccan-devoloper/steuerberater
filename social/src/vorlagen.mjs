@@ -5,7 +5,7 @@
 
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { iconSvg } from "./stile.mjs";
+import { iconSvg, ICONS } from "./stile.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 export const FONT_DIR = path.resolve(hier, "../fonts");
@@ -175,6 +175,14 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 .story .balken{margin-top:110px;margin-bottom:auto;height:16px;border-radius:999px;background:var(--linie);overflow:hidden}
 .story .balken i{display:block;height:100%;background:var(--akzent)}
 .story .pfeil{margin-top:auto;text-align:center;font-size:34px;color:var(--text-weich);letter-spacing:.12em;text-transform:uppercase}
+/* Reel-Cover: das Standbild, das im Feed und im Profilraster für das Reel steht.
+   Alles Wichtige liegt im mittleren 4:5-Bereich (y 285–1635), den Instagram
+   dort zeigt. */
+.story.cover .reelmarke{position:absolute;right:84px;top:40px;font-family:var(--text);font-weight:700;font-size:28px;letter-spacing:.16em;text-transform:uppercase;background:var(--pille);color:var(--pille-text);padding:12px 26px;border-radius:40px}
+.story.cover .dauer{margin-top:30px;font-size:36px;color:var(--text-weich)}
+.story.cover .buehne{margin:auto auto 150px;width:460px;height:460px;display:flex;align-items:center;justify-content:center;position:relative}
+.story.cover .buehne::before{content:"";position:absolute;inset:0;border-radius:50%;background:var(--flaeche);opacity:.6}
+.story.cover .buehne .icon{position:relative;width:250px;height:250px;color:var(--akzent)}
 `;
 }
 
@@ -282,6 +290,9 @@ em{color:${p.akzent2}}
 .story .illu{color:${p.dunkel};opacity:1;left:auto;right:70px;bottom:220px}
 .story .geist{display:none}
 .story .pille{margin-top:56px}
+.story.cover .dauer{font-family:"Caveat";font-size:52px;color:${p.dunkel};opacity:1;margin-top:24px}
+.story.cover .buehne::before{background:rgba(255,255,255,.75);opacity:1}
+.story.cover .buehne .icon{color:${p.dunkel}}
 /* Reels */
 .reel .fortschritt{background:rgba(255,255,255,.4)}
 .reel .fortschritt i{background:${p.dunkel}}
@@ -491,6 +502,25 @@ export function storyHtml(story, ctx) {
   const render = STORIES[story.art] || STORIES.tipp;
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}${klausurCss(ctx)}${buntCss(ctx)}</style></head>
 <body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="story">${render(story, ctx)}</div></body></html>`;
+}
+
+/**
+ * Cover eines Reels: Thema, Fach und Dauer als ruhiges Standbild, damit im Feed
+ * und im Profilraster sofort zu sehen ist, worum es geht. Ein Standbild aus dem
+ * Video zeigt sonst nur den Hintergrundclip.
+ * @param {{titel, ueberzeile?, dauerText?, icon?}} daten
+ */
+export function coverHtml(daten, ctx) {
+  const inhalt = `
+    ${kopf(ctx, "")}
+    <span class="reelmarke">Reel</span>
+    <div class="ueberzeile">${esc(daten.ueberzeile || "Reel")}</div>
+    <h1 class="${titelKlasse(daten.titel)}">${markierenTitel(daten.titel)}</h1>
+    ${daten.dauerText ? `<div class="dauer">${esc(daten.dauerText)}</div>` : ""}
+    <div class="buehne">${iconSvg(ICONS[daten.icon] ? daten.icon : "paragraf")}</div>
+    ${fuss(ctx)}`;
+  return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}${klausurCss(ctx)}${buntCss(ctx)}</style></head>
+<body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="story cover">${inhalt}</div></body></html>`;
 }
 
 export const FOLIEN_ARTEN = Object.keys(FOLIEN);

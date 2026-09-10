@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { themenpool, poolStatistik, FAECHER } from "../src/inhalte.mjs";
 import { pruefeBeitrag, uebernahmen, uebernahmeLaeufe, gesperrteNamen, korpus } from "../src/pruefung.mjs";
 import { tagesplan, vermerken, ledgerLaden } from "../src/planer.mjs";
-import { folieHtml, storyHtml, FOLIEN_ARTEN, STORY_ARTEN } from "../src/vorlagen.mjs";
+import { folieHtml, storyHtml, coverHtml, FOLIEN_ARTEN, STORY_ARTEN } from "../src/vorlagen.mjs";
 import { kontext } from "../src/render.mjs";
 import { STILE } from "../src/stile.mjs";
 import { tageBis, minutenVon, hhmm, heuteIso } from "../src/zeit.mjs";
@@ -383,4 +383,22 @@ test("Wachstum: Hashtag-Lernschleife gewichtet Tags nach Followern, Auswahl mit 
   assert.ok(tags.includes("#bilanz"));
   assert.equal(tags.filter((t) => CONFIG.hashtags.entdecker.includes(t)).length >= 1, true);
   assert.equal(new Set(tags).size, tags.length);
+});
+
+test("Reel-Cover zeigt Thema, Fach und Dauer", async () => {
+  const { coverDaten } = await import("../src/reel.mjs");
+  const reel = { fach: "ust", klausur: 1, kurztitel: "Organschaft: Wer schuldet die Umsatzsteuer?", szenen: [{ titel: "Organschaft" }, { titel: "Schritt 1", icon: "kreislauf" }] };
+  const daten = coverDaten(reel, { gesamt: 44.6 });
+  assert.equal(daten.titel, reel.kurztitel);
+  assert.equal(daten.ueberzeile, "Reel · 45 Sekunden");
+  assert.equal(daten.icon, "kreislauf");
+  const html = coverHtml(daten, kontext({ fach: "ust", klausur: 1 }));
+  assert.ok(html.includes("Umsatzsteuer?"), "Thema fehlt");
+  assert.ok(html.includes("reelmarke"), "Reel-Kennzeichnung fehlt");
+  assert.ok(html.includes("45 Sekunden"), "Dauer fehlt");
+  assert.ok(html.includes("class=\"story cover\""), "Cover-Klasse fehlt");
+  /* Ohne Szenen-Icon greift ein Standardsymbol, ohne Dauer entfällt die Zeile. */
+  const ohne = coverDaten({ fach: "ao", szenen: [{ titel: "X" }] }, { gesamt: 0 });
+  assert.equal(ohne.icon, "paragraf");
+  assert.equal(ohne.dauerText, "");
 });
