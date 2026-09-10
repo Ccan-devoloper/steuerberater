@@ -1,13 +1,21 @@
 /* ==========================================================================
    Sprecherstimme für Reels – drei Anbieter, automatisch gewählt:
 
-     elevenlabs  natürlichste Stimme (Modell eleven_v3), kostenpflichtig,
-                 liefert Wort-Zeitmarken. Aktiv, wenn ELEVENLABS_API_KEY gesetzt.
+     elevenlabs  natürlichste Stimme (Modell eleven_v3), liefert Wort-Zeitmarken.
+                 Aktiv, wenn ELEVENLABS_API_KEY gesetzt und das Monatskontingent
+                 des Abos noch reicht.
      piper       kostenlos, offline, neuronale Stimme „Thorsten“ (de_DE-thorsten-high).
                  Läuft im GitHub-Runner; Modell wird beim ersten Lauf geladen.
      pico        kostenlos, offline, SVOX Pico (apt: libttspico-utils). Deutlich
                  hörbar synthetisch – nur Notlösung und für Tests.
      aus         stumm mit geschätzter Dauer (Storyboard-Tests).
+
+   Kontingent: Das kostenlose ElevenLabs-Abo hat 10 000 Zeichen im Monat. Der
+   Bot fragt vor jedem Reel das verbleibende Guthaben ab und nimmt ElevenLabs
+   nur, wenn es für das ganze Reel reicht – sonst spricht Piper. Innerhalb
+   eines Reels wird die Stimme nie gewechselt, das hört jeder. Ist das
+   Kontingent aufgebraucht, merkt sich der Bot das bis zum Stichtag des Abos
+   (state/stimme.json) und fragt nicht bei jedem Lauf erneut nach.
 
    IG_STIMME erzwingt einen Anbieter. Alle Anbieter liefern je Szene eine
    Audiodatei, die Dauer und Wortzeiten für die Untertitel. Bei piper/pico
@@ -55,14 +63,131 @@ export function saetze(text) {
   return String(text).replace(/\s+/g, " ").trim().split(/(?<=[.!?…])\s+(?=[„"A-ZÄÖÜ0-9])/).filter(Boolean);
 }
 
-/* Welcher Anbieter läuft? */
-export function stimmenAnbieter() {
-  const wunsch = (process.env.IG_STIMME || "").toLowerCase();
-  if (wunsch) return wunsch;
-  if (CONFIG.reel.elevenlabsKey) return "elevenlabs";
+/* --- Kontingent des ElevenLabs-Abos -------------------------------------
+   Der Stand liegt im Assets-Zweig (state/stimme.json), damit ein Lauf vom
+   vorherigen weiß. lauf.mjs reicht Lese- und Schreibfunktion herein; ohne
+   Anbindung arbeitet das Modul nur im Arbeitsspeicher (Tests, Trockenläufe). */
+let standSpeicher = null;
+let standCache = null;
+let restCache = null;          // im Lauf einmal abgefragtes Restguthaben
+
+export function stimmeStandVerbinden(speicher = null) {
+  standSpeicher = speicher;
+  standCache = null;
+  restCache = null;
+}
+
+const LEER = () => ({ verbraucht: 0, grenze: null, rest: null, erschoepft: false, abo: null, resetAm: null });
+
+export function stimmeStand() {
+  if (standCache) return standCache;
+  let roh = null;
+  try { roh = standSpeicher?.lesen?.() || null; } catch { roh = null; }
+  standCache = { ...LEER(), ...(roh || {}) };
+  /* Am Stichtag des Abos füllt ElevenLabs das Guthaben wieder auf – dann gilt
+     der gemerkte Ausfall nicht mehr. */
+  if (standCache.erschoepft && standCache.resetAm && new Date(standCache.resetAm) <= new Date()) standCache = { ...LEER(), abo: standCache.abo };
+  return standCache;
+}
+
+function standSchreiben(aenderung) {
+  standCache = { ...stimmeStand(), ...aenderung, stand: new Date().toISOString() };
+  try { standSpeicher?.schreiben?.(standCache); } catch (e) { console.warn(`  ! Stimmen-Stand nicht gespeichert: ${e.message}`); }
+  return standCache;
+}
+
+/* Verbrauch je Zeichen: die schnellen Modelle kosten das halbe Guthaben. */
+const kreditFaktor = () => (/flash|turbo/i.test(CONFIG.reel.modell || "") ? 0.5 : 1);
+
+/* Quotenfehler erkennen: ElevenLabs meldet ein leeres Kontingent je nach
+   Endpunkt mit 401 (quota_exceeded) oder 429. Ein ungültiger Schlüssel meldet
+   ebenfalls 401 – der darf den Monat nicht als verbraucht markieren, deshalb
+   zählt nur der Wortlaut der Antwort. */
+function istKontingentFehler(fehler) {
+  return /quota_exceeded|quota|insufficient|ElevenLabs 429/i.test(String(fehler?.message || fehler));
+}
+
+/** Restguthaben des Monats in Zeichen; null, wenn es sich nicht ermitteln lässt. */
+export async function kontingentAbfragen({ frisch = false } = {}) {
+  const key = CONFIG.reel.elevenlabsKey;
+  if (!key) return null;
+  if (!frisch && restCache != null) return restCache;
+  try {
+    const res = await fetch("https://api.elevenlabs.io/v1/user/subscription", { headers: { "xi-api-key": key } });
+    if (!res.ok) {
+      const text = (await res.text()).slice(0, 200);
+      console.warn(`  ! ElevenLabs-Kontingent nicht abrufbar (${res.status}): ${text}`);
+      return null;
+    }
+    const j = await res.json();
+    const grenze = Number(j.character_limit || 0);
+    const verbraucht = Number(j.character_count || 0);
+    const rest = Math.max(0, grenze - verbraucht);
+    const resetAm = j.next_character_count_reset_unix ? new Date(j.next_character_count_reset_unix * 1000).toISOString() : null;
+    standSchreiben({ verbraucht, grenze, rest, abo: j.tier || null, resetAm, erschoepft: rest <= 0 });
+    restCache = rest;
+    return rest;
+  } catch (e) {
+    console.warn(`  ! ElevenLabs-Kontingent nicht abrufbar: ${e.message}`);
+    return null;
+  }
+}
+
+/* Kontingent für diesen Lauf als aufgebraucht vermerken. */
+function kontingentErschoepft(grund = "") {
+  restCache = 0;
+  standSchreiben({ rest: 0, erschoepft: true, grund: grund.slice(0, 200) });
+  console.log(`  → ElevenLabs-Kontingent aufgebraucht${grund ? ` (${grund})` : ""} – ab jetzt spricht ${offlineAnbieter()}.`);
+}
+
+/* Verbrauchte Zeichen mitschreiben, damit der Stand auch ohne erneute Abfrage
+   stimmt (und der nächste Reel-Check nicht in die Quote läuft). */
+function verbrauchBuchen(text) {
+  const zeichen = Math.ceil(String(text).length * kreditFaktor());
+  const s = stimmeStand();
+  const rest = s.rest == null ? null : Math.max(0, s.rest - zeichen);
+  if (restCache != null) restCache = Math.max(0, restCache - zeichen);
+  standSchreiben({ verbraucht: (s.verbraucht || 0) + zeichen, rest, erschoepft: rest === 0 });
+}
+
+/* Welcher kostenlose Anbieter steht bereit? */
+export function offlineAnbieter() {
   if (vorhanden("piper") && piperModell()) return "piper";
   if (vorhanden("pico2wave")) return "pico";
   return "aus";
+}
+
+/* Welcher Anbieter läuft? Ohne frische Abfrage – nur nach gemerktem Stand. */
+export function stimmenAnbieter() {
+  const wunsch = (process.env.IG_STIMME || "").toLowerCase();
+  if (wunsch) return wunsch;
+  if (CONFIG.reel.elevenlabsKey && !stimmeStand().erschoepft) return "elevenlabs";
+  return offlineAnbieter();
+}
+
+/**
+ * Anbieter für ein ganzes Reel: ElevenLabs nur, wenn das Monatsguthaben den
+ * kompletten Sprechertext trägt. Reicht es nicht mehr, spricht von der ersten
+ * Szene an die Offline-Stimme – ein Wechsel mitten im Video wäre hörbar.
+ * @param {number} zeichen Länge aller Sprechertexte des Reels
+ */
+export async function anbieterFuerText(zeichen = 0) {
+  const wunsch = (process.env.IG_STIMME || "").toLowerCase();
+  if (wunsch) return wunsch;
+  if (!CONFIG.reel.elevenlabsKey) return offlineAnbieter();
+  if (stimmeStand().erschoepft) return offlineAnbieter();
+  const rest = await kontingentAbfragen();
+  /* Kein Zugriff auf den Kontostand (Netz, Wartung): ElevenLabs versuchen,
+     der Quotenfehler fängt es unten ab. */
+  if (rest == null) return "elevenlabs";
+  const noetig = Math.ceil(zeichen * kreditFaktor());
+  if (noetig > rest) {
+    if (rest <= 0) kontingentErschoepft("Monatsguthaben verbraucht");
+    else console.log(`  → ElevenLabs: ${rest} von ${stimmeStand().grenze ?? "?"} Zeichen frei, das Reel braucht ${noetig} – es spricht ${offlineAnbieter()}.`);
+    return offlineAnbieter();
+  }
+  console.log(`  → ElevenLabs: ${rest} Zeichen frei${stimmeStand().abo ? ` (Abo ${stimmeStand().abo})` : ""}, das Reel braucht ${noetig}.`);
+  return "elevenlabs";
 }
 
 function piperModell() {
@@ -168,7 +293,19 @@ export async function sprechen(text, zielDatei, opt = {}) {
   const anbieter = opt.anbieter || stimmenAnbieter();
   const art = opt.betonung === "hook" ? "hook" : "normal";
   fs.mkdirSync(path.dirname(zielDatei), { recursive: true });
-  if (anbieter === "elevenlabs") return elevenlabs(text, zielDatei, art);
+  if (anbieter === "elevenlabs") {
+    try {
+      const ergebnis = await elevenlabs(text, zielDatei, art);
+      verbrauchBuchen(text);
+      return ergebnis;
+    } catch (e) {
+      /* Guthaben mitten im Lauf leer: nicht abbrechen – das Reel soll täglich
+         erscheinen. Der Rest des Monats läuft dann über die Offline-Stimme. */
+      if (istKontingentFehler(e)) kontingentErschoepft(e.message);
+      else console.warn(`  ! ElevenLabs antwortet nicht (${e.message}) – diese Szene spricht ${offlineAnbieter()}.`);
+      return sprechen(text, zielDatei, { ...opt, anbieter: offlineAnbieter() });
+    }
+  }
   if (anbieter === "piper" || anbieter === "pico") return offline(anbieter, text, zielDatei, art);
   const dauer = sprechdauerSchaetzen(text);
   return { datei: null, dauer, woerter: woerterVerteilen(text, dauer), echt: false, anbieter: "aus" };

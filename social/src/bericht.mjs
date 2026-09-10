@@ -9,7 +9,7 @@ import { punkte } from "./insights.mjs";
 import { zeitBericht } from "./zeiten.mjs";
 import { datumLesbar } from "./zeit.mjs";
 
-export function berichtErstellen({ ledger, strategie, follower, kosten, datum, fehler = [], hinweise = [] }) {
+export function berichtErstellen({ ledger, strategie, follower, kosten, datum, fehler = [], hinweise = [], stimme = null }) {
   const woche = new Date(new Date(`${datum}T12:00:00Z`).getTime() - 7 * 86400000).toISOString().slice(0, 10);
   const beitraege = (ledger.veroeffentlicht || []).filter((e) => e.art === "beitrag" && e.datum >= woche);
   const stories = (ledger.veroeffentlicht || []).filter((e) => e.art === "story" && e.datum >= woche);
@@ -28,6 +28,12 @@ export function berichtErstellen({ ledger, strategie, follower, kosten, datum, f
   zeilen.push(`Kosten Claude API diese Woche: ≈ ${(kosten?.usd ?? 0).toFixed(2)} $ (${kosten?.aufrufe ?? 0} Aufrufe, Cache-Anteil ${Math.round((kosten?.cacheAnteil ?? 0) * 100)} %)`);
   const tage = Object.entries(kosten?.tage || {}).sort().slice(-7);
   if (tage.length) zeilen.push(`Je Tag (Deckel ${(kosten?.limit ?? 0).toFixed(2)} $): ${tage.map(([t, v]) => `${t.slice(8)}.${t.slice(5, 7)}. ${(v.usd ?? 0).toFixed(2)} $`).join(" · ")}`);
+  /* Stimme: Wie viel vom ElevenLabs-Monatsguthaben ist noch da? */
+  if (stimme && (stimme.grenze || stimme.erschoepft)) {
+    zeilen.push(stimme.erschoepft
+      ? `Stimme: ElevenLabs-Guthaben aufgebraucht${stimme.resetAm ? ` (neu ab ${datumLesbar(String(stimme.resetAm).slice(0, 10))})` : ""} – die Reels spricht bis dahin Piper`
+      : `Stimme: ElevenLabs${stimme.abo ? ` (${stimme.abo})` : ""} · ${stimme.rest ?? "?"} von ${stimme.grenze} Zeichen frei`);
+  }
   const folgen = Object.entries(strategie?.hashtagFolgen || {}).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, 6);
   if (folgen.length) zeilen.push(`Hashtags mit neuen Followern: ${folgen.map(([h, n]) => `${h} (${n})`).join(" · ")}`);
   if (strategie?.folgenGesamt != null) zeilen.push(`Neue Follower aus Beiträgen (gemessen): ${strategie.folgenGesamt}`);

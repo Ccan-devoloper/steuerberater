@@ -33,6 +33,7 @@ import { varianteErmitteln } from "./wechsel.mjs";
 import { kartenVerschicken } from "./nachrichten.mjs";
 import { berichtErstellen, berichtSenden } from "./bericht.mjs";
 import { abschluss as kostenAbschluss, budgetSetzen, reservieren, reservierungAufheben, tagesStand, tagesLimit, BudgetFehler } from "./kosten.mjs";
+import { stimmeStandVerbinden, stimmeStand } from "./stimme.mjs";
 import { wochentag } from "./zeit.mjs";
 import { heuteIso, lokaleMinuten, minutenVon } from "./zeit.mjs";
 
@@ -79,6 +80,17 @@ async function main() {
     },
   });
   log(`Tagesbudget: ${tagesStand().toFixed(3)} $ von ${tagesLimit().toFixed(2)} $ verbraucht`);
+
+  /* Stimmen-Kontingent: ElevenLabs, solange das Monatsguthaben des Abos reicht,
+     danach automatisch Piper. Der Stand überdauert den Lauf im Assets-Zweig. */
+  stimmeStandVerbinden({
+    lesen: () => hosting.jsonLesen("stimme.json", null),
+    schreiben: (stand) => hosting.jsonSchreiben("stimme.json", stand),
+  });
+  if (CONFIG.reel.elevenlabsKey) {
+    const st = stimmeStand();
+    log(`Stimme: ElevenLabs${st.abo ? ` (${st.abo})` : ""}${st.erschoepft ? " – Guthaben aufgebraucht, es spricht Piper" : st.rest != null ? ` · ${st.rest} Zeichen frei` : ""}`);
+  }
   const ledger = ledgerLaden(ledgerPfad);
   const pool = themenpool();
   const poolIndex = new Map(pool.map((t) => [t.id, t]));
@@ -173,7 +185,7 @@ async function main() {
     if (wochentag(new Date(`${datum}T12:00:00Z`)) === CONFIG.bericht.wochentag && berichtStand.woche !== kw) {
       try {
         const kostenWoche = hosting.jsonLesen("kosten.json", { wochen: {} });
-        const text = berichtErstellen({ ledger, strategie: hosting.jsonLesen("strategie.json", null), follower: hosting.jsonLesen("follower.json", []), kosten: { ...(kostenWoche.wochen?.[wochenKennung(vorwoche(datum))] || kostenWoche.wochen?.[kw] || {}), tage: kostenWoche.tage || {}, limit: CONFIG.ki.tagesBudgetUsd }, datum, fehler: hosting.jsonLesen("fehler.json", []).slice(-10), hinweise: berichtHinweise(hosting.jsonLesen("strategie.json", null)) });
+        const text = berichtErstellen({ ledger, strategie: hosting.jsonLesen("strategie.json", null), follower: hosting.jsonLesen("follower.json", []), kosten: { ...(kostenWoche.wochen?.[wochenKennung(vorwoche(datum))] || kostenWoche.wochen?.[kw] || {}), tage: kostenWoche.tage || {}, limit: CONFIG.ki.tagesBudgetUsd }, datum, fehler: hosting.jsonLesen("fehler.json", []).slice(-10), hinweise: berichtHinweise(hosting.jsonLesen("strategie.json", null)), stimme: hosting.jsonLesen("stimme.json", null) });
         hosting.jsonSchreiben(`berichte/${kw}.txt`, { text });
         const r = await berichtSenden(text, `Instagram-Bot · Wochenbericht ${kw}`);
         hosting.jsonSchreiben("bericht.json", { woche: kw, gesendet: r.gesendet, grund: r.grund || null });
