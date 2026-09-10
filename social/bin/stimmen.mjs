@@ -38,7 +38,7 @@ if (!liste?.kandidaten?.length || will("neu")) {
 }
 
 const rest = await kontingentAbfragen({ frisch: true });
-console.log(`Abo: ${abo || "?"} · Guthaben: ${rest ?? "?"} Zeichen`);
+console.log(`Abo: ${abo || "?"} · Guthaben: ${rest ?? "?"} Zeichen · Modell ${CONFIG.reel.modell}`);
 if (abo === "free") console.log("Hinweis: Im kostenlosen Tarif dürfen über die API nur die Stimmen des Kontos sprechen, keine Bibliotheksstimmen.");
 console.log("");
 console.log("Kandidaten:");
@@ -60,7 +60,10 @@ if (setzen) {
 if (will("proben")) {
   console.log("\nProben:");
   for (const [i, k] of liste.kandidaten.entries()) {
-    const datei = path.join(hosting.stateDir, "stimmen", `${String(i + 1).padStart(2, "0")}-${k.name.replace(/[^\w]+/g, "-").toLowerCase()}.mp3`);
+    /* Das Modell steht im Dateinamen, sonst überschreibt ein Vergleichslauf
+       (v3 gegen flash) die vorherigen Proben. */
+    const kennung = /flash|turbo/i.test(CONFIG.reel.modell) ? `-${CONFIG.reel.modell.replace(/[^\w]+/g, "")}` : "";
+    const datei = path.join(hosting.stateDir, "stimmen", `${String(i + 1).padStart(2, "0")}-${k.name.replace(/[^\w]+/g, "-").toLowerCase()}${kennung}.mp3`);
     try {
       const r = await sprechen(CONFIG.reel.stimmeProbeText, datei, { anbieter: "elevenlabs", stimmeId: k.id, betonung: "hook" });
       /* Fällt die Stimme durch (Tarif, Kontingent), gibt es keine Datei – das
