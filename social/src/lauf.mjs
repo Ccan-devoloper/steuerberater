@@ -185,7 +185,10 @@ async function main() {
      blieben liegen). Einmal geschrieben, liegen sie unter inhalte/ und werden
      in späteren Läufen des Tages nur noch gerendert. */
   const geschrieben = new Map();
-  const eigenstaendig = plan.stories.filter((s) => s.art !== "teaser" && s.status === "geplant");
+  /* Auch früher übersprungene Slots gehören dazu: Ihr Text liegt bereits unter
+     inhalte/ und wird vor dem Veröffentlichen erneut geprüft. Ohne sie fehlte
+     der Text später im Veröffentlichungslauf und die Story fiele ganz aus. */
+  const eigenstaendig = plan.stories.filter((s) => s.art !== "teaser" && s.status !== "veroeffentlicht");
   if (eigenstaendig.length && (storiesFaellig.length || beitraegeFaellig.length)) {
     const vorhanden = eigenstaendig.map((s) => [s.slot, hosting.jsonLesen(`inhalte/${datum}-${s.slot}.json`, null)]);
     const offen = vorhanden.filter(([, v]) => !v).map(([slot]) => eigenstaendig.find((s) => s.slot === slot));
