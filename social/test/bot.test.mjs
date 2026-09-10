@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { themenpool, poolStatistik, FAECHER } from "../src/inhalte.mjs";
-import { pruefeBeitrag, uebernahmen, gesperrteNamen, korpus } from "../src/pruefung.mjs";
+import { pruefeBeitrag, uebernahmen, uebernahmeLaeufe, gesperrteNamen, korpus } from "../src/pruefung.mjs";
 import { tagesplan, vermerken, ledgerLaden } from "../src/planer.mjs";
 import { folieHtml, storyHtml, FOLIEN_ARTEN, STORY_ARTEN } from "../src/vorlagen.mjs";
 import { kontext } from "../src/render.mjs";
@@ -31,6 +31,21 @@ test("Prüfung erkennt wörtliche Übernahmen aus den Webseitendaten", () => {
   assert.ok(uebernahmen(original, k).length > 0, "Originalsatz müsste erkannt werden");
   const eigen = "Bilanzieren darf nur, wem das Wirtschaftsgut steuerlich zugerechnet ist – zivilrechtliches Eigentum ist nur der Startpunkt.";
   assert.equal(uebernahmen(eigen, k).length, 0);
+});
+
+test("Prüfung wertet Fachsprache nicht als Abschreiben, ganze Sätze schon", () => {
+  const k = korpus();
+  /* Gesetzeswortlaut lässt sich nicht umschreiben: ein kurzer Treffer allein
+     darf eine Story nicht kosten. */
+  const fachsprache = "Zum Sonderbetriebsvermögen zählen Wirtschaftsgüter, die unmittelbar dem Betrieb der Personengesellschaft dienen.";
+  const laeufe = uebernahmeLaeufe(fachsprache, k);
+  assert.equal(laeufe.length, 1, JSON.stringify(laeufe));
+  assert.ok(laeufe[0].woerter < 13);
+  assert.equal(pruefeBeitrag({ stories: [{ art: "begriff", titel: "Sonderbetriebsvermögen", text: fachsprache }] }).ok, true);
+  /* Ein ganzer übernommener Satz ergibt einen langen Lauf und fällt auf. */
+  const original = "Ein Wirtschaftsgut darf nur bei demjenigen bilanziert werden, dem es steuerlich zugerechnet wird.";
+  assert.ok(uebernahmeLaeufe(original, k)[0].woerter >= 13);
+  assert.equal(pruefeBeitrag({ stories: [{ art: "begriff", titel: "Zurechnung", text: original }] }).ok, false);
 });
 
 test("Prüfung sperrt Fallnamen und lässt erfundene Namen zu", () => {

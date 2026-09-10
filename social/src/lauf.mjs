@@ -19,6 +19,7 @@ import { fileURLToPath } from "node:url";
 import { CONFIG } from "./config.mjs";
 import { themenpool } from "./inhalte.mjs";
 import { tagesplan, auffuellplan, ledgerLaden, ledgerSpeichern, vermerken } from "./planer.mjs";
+import { pruefeBeitrag } from "./pruefung.mjs";
 import { beitragSchreiben, storiesSchreiben, teaserAusBeitrag, aktuellRecherchieren, loesungsRecherchieren, reelSchreiben } from "./autor.mjs";
 import { reelBauen } from "./reel.mjs";
 import { beitragRendern, storyRendern, browserBeenden } from "./render.mjs";
@@ -191,10 +192,28 @@ async function main() {
     for (const [slot, v] of vorhanden) if (v) geschrieben.set(slot, v);
     if (offen.length) {
       try {
-        const neu = await storiesSchreiben(offen.map((s) => ({ slot: s.slot, art: s.art, thema: s.themaId ? poolIndex.get(s.themaId) : null, tageBisExamen: s.tageBisExamen })), datum);
+        const auftrag = (liste) => liste.map((s) => ({ slot: s.slot, art: s.art, thema: s.themaId ? poolIndex.get(s.themaId) : null, tageBisExamen: s.tageBisExamen }));
+        const neu = await storiesSchreiben(auftrag(offen), datum);
         for (const s of neu) { hosting.jsonSchreiben(`inhalte/${datum}-${s.slot}.json`, s); geschrieben.set(s.slot, s); }
-        hosting.commit(`Story-Texte ${datum}`);
         log(`  Story-Texte für ${neu.length} Slots geschrieben`);
+        /* Beanstandete Slots einmal neu schreiben statt sie zu verlieren: ein
+           Nachschlag für zwei, drei Slots kostet nur wenige Cent. */
+        hosting.commit(`Story-Texte ${datum}`);
+        const strittig = neu.filter((s) => s.beanstandet);
+        if (strittig.length) try {
+          const hinweis = `Die folgenden Entwürfe wurden abgelehnt – formuliere sie vollständig neu:\n${strittig.map((s) => `- Slot ${s.slot}: ${s.beanstandet.join("; ")}`).join("\n")}`;
+          log(`  ${strittig.length} Story-Entwürfe beanstandet – zweiter Versuch`);
+          const zweite = await storiesSchreiben(auftrag(offen.filter((o) => strittig.some((s) => s.slot === o.slot))), datum, hinweis);
+          for (const s of zweite) {
+            const vorher = geschrieben.get(s.slot);
+            if (s.beanstandet && vorher && !vorher.beanstandet) continue;
+            hosting.jsonSchreiben(`inhalte/${datum}-${s.slot}.json`, s); geschrieben.set(s.slot, s);
+          }
+          hosting.commit(`Story-Texte ${datum} (zweiter Versuch)`);
+        } catch (e) {
+          if (e instanceof BudgetFehler) log(`  ⏸ ${e.message}`);
+          else console.error(`  ✗ Stories nachschreiben: ${e.message}`);
+        }
       } catch (e) {
         if (e instanceof BudgetFehler) log(`  ⏸ ${e.message}`);
         else { fehler++; console.error(`  ✗ Stories schreiben: ${e.message}`); }
@@ -290,7 +309,14 @@ async function main() {
       } else {
         story = geschrieben.get(eintrag.slot);
         if (!story) continue;
-        if (story.beanstandet) { log(`Story ${eintrag.slot} beanstandet: ${story.beanstandet.join("; ")} – übersprungen.`); eintrag.status = "uebersprungen"; continue; }
+        /* Frühere Beanstandungen mit den heutigen Regeln nachprüfen: Wurde die
+           Prüfung seither entschärft (etwa Fachsprache statt Abschreiben), darf
+           die Story doch erscheinen, statt dauerhaft zu fehlen. */
+        if (story.beanstandet) {
+          const erneut = pruefeBeitrag({ stories: [story] });
+          if (erneut.ok) { delete story.beanstandet; hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, story); }
+          else { log(`Story ${eintrag.slot} beanstandet: ${erneut.fehler.join("; ")} – übersprungen.`); eintrag.status = "uebersprungen"; continue; }
+        }
       }
       const bild = await storyRendern(story, path.join(AUSGABE, "stories", `${datum}-${eintrag.slot}-${story.art}.jpg`), { variante: varianteStory(eintrag.slot) });
       const [url] = await hosting.veroeffentlichen([bild], datum, `Story ${datum} ${eintrag.slot}`);

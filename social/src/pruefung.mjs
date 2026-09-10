@@ -137,11 +137,39 @@ export function korpus() {
   return korpusCache;
 }
 
-/* Liefert alle wörtlichen Übernahmen (7 Wörter am Stück) eines Textes. */
+/* Liefert alle wörtlichen Übernahmen (SHINGLE_LAENGE Wörter am Stück) eines Textes. */
 export function uebernahmen(text, k = korpus()) {
   const treffer = [];
   for (const s of shingles(text)) if (k.index.has(hash(s))) treffer.push(s);
   return [...new Set(treffer)];
+}
+
+/* Ab wie vielen Wörtern am Stück eine Übereinstimmung als Übernahme gilt.
+   Fachsprache ist standardisiert: „Wirtschaftsgüter, die unmittelbar dem
+   Betrieb der Personengesellschaft dienen“ ist Gesetzeswortlaut und lässt sich
+   nicht sinnvoll umschreiben – acht solche Wörter am Stück sind Zufall, nicht
+   Abschreiben. Wer wirklich abschreibt, trifft ganze Sätze: Dann greifen
+   mehrere Shingles ineinander und der zusammenhängende Lauf wird lang. */
+const UEBERNAHME_WOERTER = 13;
+
+/* Fasst benachbarte Treffer zu zusammenhängenden Läufen zusammen.
+   Zwei Shingles gehören zum selben Lauf, wenn sie sich überlappen. */
+export function uebernahmeLaeufe(text, k = korpus()) {
+  const w = woerter(text);
+  const treffer = new Set();
+  for (let i = 0; i + SHINGLE_LAENGE <= w.length; i++) {
+    if (k.index.has(hash(w.slice(i, i + SHINGLE_LAENGE).join(" ")))) treffer.add(i);
+  }
+  const laeufe = [];
+  let start = null, ende = null;
+  for (const i of [...treffer].sort((a, b) => a - b)) {
+    if (start === null) { start = i; ende = i + SHINGLE_LAENGE; continue; }
+    if (i <= ende) { ende = Math.max(ende, i + SHINGLE_LAENGE); continue; }
+    laeufe.push({ text: w.slice(start, ende).join(" "), woerter: ende - start });
+    start = i; ende = i + SHINGLE_LAENGE;
+  }
+  if (start !== null) laeufe.push({ text: w.slice(start, ende).join(" "), woerter: ende - start });
+  return laeufe;
 }
 
 export function gesperrteNamen(text, k = korpus()) {
@@ -175,9 +203,11 @@ export function pruefeBeitrag(beitrag, opt = {}) {
   const texte = alleTexte(beitrag);
   const gesamt = texte.join("\n");
 
-  /* 1. Wörtliche Übernahmen */
-  const doppelt = uebernahmen(ohneNormen(gesamt), k);
-  if (doppelt.length) fehler.push(`Wörtliche Übernahme aus der Webseite (bitte in eigenen Worten formulieren): ${doppelt.slice(0, 3).map((d) => `„${d}“`).join(" · ")}`);
+  /* 1. Wörtliche Übernahmen: erst ein langer Lauf oder mehrere Fundstellen
+        sind Abschreiben, ein einzelner Fachsprachen-Treffer ist es nicht. */
+  const laeufe = uebernahmeLaeufe(ohneNormen(gesamt), k);
+  const deutlich = laeufe.filter((l) => l.woerter >= UEBERNAHME_WOERTER);
+  if (deutlich.length || laeufe.length >= 2) fehler.push(`Wörtliche Übernahme aus der Webseite (bitte in eigenen Worten formulieren): ${(deutlich.length ? deutlich : laeufe).slice(0, 3).map((d) => `„${d.text}“`).join(" · ")}`);
 
   /* 2. Namen aus den Fällen */
   const namen = gesperrteNamen(gesamt, k);

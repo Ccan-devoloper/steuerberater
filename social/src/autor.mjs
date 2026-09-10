@@ -464,7 +464,7 @@ async function webRecherche(frage, zweck = "recherche") {
  * Schreibt alle eigenständigen Stories eines Tages in einem Aufruf.
  * @param {Array<{slot, art, thema?, tageBisExamen?}>} plan
  */
-export async function storiesSchreiben(plan, datum) {
+export async function storiesSchreiben(plan, datum, hinweis = "") {
   if (process.env.IG_AUTOR === "beispiele") return beispielStories(plan);
   const auftraege = plan.map((s) => {
     const kopf = `- slot ${s.slot}: art=${s.art}`;
@@ -490,7 +490,7 @@ ${auftraege}
 
 Sperrliste (Namen nie verwenden): ${korpus().namen.join(", ")}
 
-Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder null. Gib genau einen Eintrag je Slot zurück.`;
+Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder null. Gib genau einen Eintrag je Slot zurück.${hinweis ? `\n\n${hinweis}` : ""}`;
   const { daten } = await strukturiert({ system: SYSTEM, user, schema: STORY_SCHEMA, modell: CONFIG.ki.modellNeben, effort: CONFIG.ki.effort });
   const nachSlot = new Map(daten.stories.map((s) => [s.slot, s]));
   return plan.map((p) => {
