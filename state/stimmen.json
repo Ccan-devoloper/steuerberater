@@ -1,41 +1,44 @@
 {
-  "gesucht": "2026-09-10T17:57:30.663Z",
+  "gesucht": "2026-09-10T17:59:36.320Z",
   "kandidaten": [
     {
-      "id": "rKiu7lQ4c5P3az3745s3",
-      "name": "Carla Blum - Confident and Informative",
+      "id": "hpp4J3VqNfWAUOO0d1Us",
+      "name": "Bella - Professional, Bright, Warm",
       "geschlecht": "female",
       "alter": "middle_aged",
       "einsatz": "informative_educational",
-      "beschreibung": "confident",
-      "akzent": "standard",
+      "beschreibung": "professional",
+      "akzent": "american",
       "besitzer": null,
-      "punkte": 16,
-      "quelle": "konto"
+      "punkte": 12,
+      "quelle": "konto",
+      "kategorie": "premade"
     },
     {
-      "id": "v3V1d2rk6528UrLKRuy8",
-      "name": "Susi - Effortless and Confident",
+      "id": "Xb7hH8MSUJpSbSDYk0k2",
+      "name": "Alice - Clear, Engaging Educator",
       "geschlecht": "female",
       "alter": "middle_aged",
-      "einsatz": "conversational",
-      "beschreibung": "calm",
-      "akzent": "standard",
+      "einsatz": "informative_educational",
+      "beschreibung": "professional",
+      "akzent": "british",
       "besitzer": null,
-      "punkte": 14,
-      "quelle": "konto"
+      "punkte": 11,
+      "quelle": "konto",
+      "kategorie": "premade"
     },
     {
-      "id": "PhufIH7nYh2Up1uej6aY",
-      "name": "Moritz Wegner – Museums, City Tours & Guiding Apps",
+      "id": "onwK4e9ZLuTAKqWW03F9",
+      "name": "Daniel - Steady Broadcaster",
       "geschlecht": "male",
       "alter": "middle_aged",
       "einsatz": "informative_educational",
       "beschreibung": "formal",
-      "akzent": "standard",
+      "akzent": "british",
       "besitzer": null,
-      "punkte": 14,
-      "quelle": "konto"
+      "punkte": 10,
+      "quelle": "konto",
+      "kategorie": "premade"
     }
   ],
   "fest": null

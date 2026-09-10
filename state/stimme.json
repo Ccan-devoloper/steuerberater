@@ -1,9 +1,9 @@
 {
-  "verbraucht": 0,
+  "verbraucht": 516,
   "grenze": 10000,
-  "rest": 10000,
+  "rest": 9484,
   "erschoepft": false,
   "abo": "free",
   "resetAm": "2026-10-11T04:23:54.000Z",
-  "stand": "2026-09-10T17:57:30.806Z"
+  "stand": "2026-09-10T17:59:52.668Z"
 }
