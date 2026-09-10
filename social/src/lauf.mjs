@@ -33,7 +33,7 @@ import { varianteErmitteln } from "./wechsel.mjs";
 import { kartenVerschicken } from "./nachrichten.mjs";
 import { berichtErstellen, berichtSenden } from "./bericht.mjs";
 import { abschluss as kostenAbschluss, budgetSetzen, reservieren, reservierungAufheben, tagesStand, tagesLimit, BudgetFehler } from "./kosten.mjs";
-import { stimmeStandVerbinden, stimmeStand } from "./stimme.mjs";
+import { stimmeStandVerbinden, stimmeStand, stimmeIstGesperrt } from "./stimme.mjs";
 import { kandidatenSuchen, stimmeUebernehmen, stimmeWaehlen, gewinner, stimmenStatistik } from "./stimmen.mjs";
 import { wochentag } from "./zeit.mjs";
 import { heuteIso, lokaleMinuten, minutenVon } from "./zeit.mjs";
@@ -294,6 +294,13 @@ async function main() {
         const gewaehlteStimme = stimmeWaehlen({ kandidaten: stimmenListe?.kandidaten || [], ledger, datum, fest: stimmenListe?.fest || null });
         const r = await reelBauen(reel, path.join(AUSGABE, "reels", eintrag.slot), { variante: varianteReel, datum, hintergrundDir: path.join(hosting.stateDir, "hintergrund"), stimmeId: gewaehlteStimme?.id || null, stimmeName: gewaehlteStimme?.name || null });
         log(`  Reel gebaut: ${r.dauer.toFixed(1)} s · Stimme ${r.anbieter}${r.stimmeName ? ` „${r.stimmeName}“` : ""} · Animation ${r.animation}`);
+        /* Stimme vom Tarif gesperrt: aus der Liste werfen, beim nächsten Lauf
+           wird neu gesucht – sonst bliebe ElevenLabs dauerhaft ungenutzt. */
+        if (gewaehlteStimme && stimmeIstGesperrt(gewaehlteStimme.id) && stimmenListe?.kandidaten) {
+          stimmenListe = { ...stimmenListe, kandidaten: stimmenListe.kandidaten.filter((k) => k.id !== gewaehlteStimme.id) };
+          hosting.jsonSchreiben("stimmen.json", stimmenListe);
+          log(`  Stimme „${gewaehlteStimme.name}“ entfernt (Tarif erlaubt sie nicht).`);
+        }
         const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Reel ${datum} ${eintrag.slot}`);
         const caption = `${reel.caption}\n\n${reel.hashtags.join(" ")}`;
         const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption });

@@ -133,6 +133,13 @@ export async function kontingentAbfragen({ frisch = false } = {}) {
   }
 }
 
+/* Stimmen, die dieses Konto nicht sprechen darf (Bibliotheksstimme im
+   kostenlosen Abo, HTTP 402). Der Lauf merkt sie sich und wirft sie aus der
+   Kandidatenliste – sonst fällt jedes Reel still auf Piper zurück. */
+const gesperrteStimmen = new Set();
+export const stimmeIstGesperrt = (id) => gesperrteStimmen.has(id);
+const istTarifFehler = (fehler) => /paid_plan_required|library voices/i.test(String(fehler?.message || fehler));
+
 /* Kontingent für diesen Lauf als aufgebraucht vermerken. */
 function kontingentErschoepft(grund = "") {
   restCache = 0;
@@ -304,7 +311,11 @@ export async function sprechen(text, zielDatei, opt = {}) {
       /* Guthaben mitten im Lauf leer: nicht abbrechen – das Reel soll täglich
          erscheinen. Der Rest des Monats läuft dann über die Offline-Stimme. */
       if (istKontingentFehler(e)) kontingentErschoepft(e.message);
-      else console.warn(`  ! ElevenLabs antwortet nicht (${e.message}) – diese Szene spricht ${offlineAnbieter()}.`);
+      else if (istTarifFehler(e)) {
+        const id = opt.stimmeId || CONFIG.reel.stimme;
+        gesperrteStimmen.add(id);
+        console.warn(`  ! Diese Stimme darf das Abo nicht über die API sprechen (Bibliotheksstimme im kostenlosen Tarif) – sie fliegt aus der Auswahl.`);
+      } else console.warn(`  ! ElevenLabs antwortet nicht (${e.message}) – diese Szene spricht ${offlineAnbieter()}.`);
       return sprechen(text, zielDatei, { ...opt, anbieter: offlineAnbieter() });
     }
   }

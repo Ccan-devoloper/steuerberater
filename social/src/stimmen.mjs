@@ -64,31 +64,51 @@ async function api(pfad, opt = {}) {
   return res.json();
 }
 
+/** Tarif des Kontos: „free“, „starter“, „creator“ … */
+export async function tarif() {
+  try { return String((await api("/user/subscription")).tier || "").toLowerCase(); } catch { return ""; }
+}
+
+/* Stimmen des eigenen Kontos, also die vorinstallierten mehrsprachigen und
+   selbst hinzugefügte. Sie sprechen Deutsch mit den Modellen v3 und
+   multilingual_v2 – je nach Stimme mit leichtem englischem Einschlag. */
+async function kontoStimmen() {
+  const j = await api("/voices");
+  const out = [];
+  for (const v of j.voices || []) {
+    const b = stimmeBewerten({ ...v, language: "de", use_case: v.labels?.use_case, age: v.labels?.age,
+      descriptive: v.labels?.descriptive || v.labels?.description, gender: v.labels?.gender, accent: v.labels?.accent });
+    if (b) out.push({ ...b, quelle: "konto" });
+  }
+  return out;
+}
+
 /**
- * Sucht deutsche Stimmen: erst die Bibliothek (Muttersprachler), dann als
- * Rückfall die Stimmen des eigenen Kontos (die vorinstallierten sprechen mit
- * den mehrsprachigen Modellen ebenfalls Deutsch, hörbar mit Akzent).
+ * Sucht deutsche Stimmen.
+ *
+ * Wichtig fürs kostenlose Abo: Bibliotheksstimmen darf es über die API NICHT
+ * sprechen lassen („Free users cannot use library voices via the API“, HTTP
+ * 402). Deshalb werden dort nur die Stimmen des eigenen Kontos betrachtet –
+ * die vorinstallierten mehrsprachigen. Erst ein bezahlter Tarif öffnet die
+ * Bibliothek mit deutschen Muttersprachlern.
  * @returns {Promise<Array>} bewertete Kandidaten, beste zuerst
  */
-export async function kandidatenSuchen({ anzahl = 3 } = {}) {
+export async function kandidatenSuchen({ anzahl = 3, abo = null } = {}) {
   const gefunden = [];
-  try {
-    /* Zwei Anfragen, damit beide Geschlechter vertreten sind – die Bibliothek
-       sortiert sonst leicht einseitig. */
-    for (const geschlecht of ["male", "female"]) {
-      const j = await api(`/shared-voices?page_size=60&language=de&gender=${geschlecht}&sort=trending`);
-      for (const v of j.voices || []) { const b = stimmeBewerten(v); if (b) gefunden.push({ ...b, quelle: "bibliothek" }); }
-    }
-  } catch (e) {
-    console.warn(`  ! Stimmenbibliothek nicht erreichbar: ${e.message}`);
-  }
-  if (!gefunden.length) {
-    const j = await api("/voices");
-    for (const v of j.voices || []) {
-      const b = stimmeBewerten({ ...v, language: "de", use_case: v.labels?.use_case, age: v.labels?.age, descriptive: v.labels?.description, gender: v.labels?.gender });
-      if (b) gefunden.push({ ...b, quelle: "konto" });
+  const bezahlt = (abo ?? (await tarif())) !== "free";
+  if (bezahlt) {
+    try {
+      /* Zwei Anfragen, damit beide Geschlechter vertreten sind – die Bibliothek
+         sortiert sonst leicht einseitig. */
+      for (const geschlecht of ["male", "female"]) {
+        const j = await api(`/shared-voices?page_size=60&language=de&gender=${geschlecht}&sort=trending`);
+        for (const v of j.voices || []) { const b = stimmeBewerten(v); if (b) gefunden.push({ ...b, quelle: "bibliothek" }); }
+      }
+    } catch (e) {
+      console.warn(`  ! Stimmenbibliothek nicht erreichbar: ${e.message}`);
     }
   }
+  if (!gefunden.length) gefunden.push(...(await kontoStimmen()));
   const sortiert = gefunden.sort((a, b) => b.punkte - a.punkte);
   /* Nicht drei Varianten derselben Stimmlage: je Geschlecht höchstens zwei. */
   const auswahl = [], jeGeschlecht = {};
