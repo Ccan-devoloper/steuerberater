@@ -1147,13 +1147,43 @@
       "fach": "ao",
       "titel": "Ergänzungsbescheid vs. Wirkhinweis",
       "medienId": "18024509540700461"
+    },
+    {
+      "datum": "2026-09-10",
+      "art": "beitrag",
+      "slot": "b1",
+      "format": "spickzettel",
+      "thema": "ao-modul-ao-382",
+      "fach": "ao",
+      "titel": "Fehlerhafter Verwaltungsakt: Kennst du das ganze Prüfschema auf einer Karte?",
+      "hookTyp": "frage",
+      "medienId": "18014513471943804",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#erbschaftsteuer",
+        "#examenszeit",
+        "#abgabenordnung",
+        "#verwaltungsakt",
+        "#korrekturvorschriften",
+        "#paragraf177ao",
+        "#klausurtag1",
+        "#klausurtechnik"
+      ],
+      "veroeffentlicht": "2026-09-10T05:45:54.572Z",
+      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-10/2026-09-10-b1-02-mtv3qy5k.jpg"
     }
   ],
   "fachZaehler": {
     "persg": 3,
     "ust": 3,
     "kst": 4,
-    "ao": 7,
+    "ao": 8,
     "bilanz": 11,
     "istr": 6,
     "erbst": 1
