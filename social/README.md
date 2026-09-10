@@ -287,6 +287,12 @@ Beitrag des Tages ist immer ein Reel, davor ein Carousel. Der Bot baut sie aus e
 mitlaufende Untertitel Wort für Wort, dezentes Klangbett, Cover-Bild. Format: MP4, H.264, AAC,
 1080×1920, 30 fps – direkt über die Graph API als `REELS` veröffentlicht (`share_to_feed`).
 
+**Normen:** Auf dem Bildschirm steht immer die Klausur-Kurzform – `§ 7 (1) S. 1 Nr. 1 lit. a) aa) EStG`.
+Der Absatz in Klammern, Satz, Nummer, Buchstabe und Doppelbuchstabe abgekürzt. Das gilt für Beiträge,
+Stories, Reels und Captions. `src/normen.mjs` schreibt die Angaben nach dem KI-Aufruf um, das Modell
+bekommt die Regel zusätzlich im Auftrag. Im Sprechertext der Reels steht die ausgeschriebene Fassung
+(„Paragraf 7 Absatz 1 Satz 1“), sonst liest die Stimme „Klammer auf eins“.
+
 **Hook:** Die ersten zwei Sekunden entscheiden über die Reichweite eines Reels. Instagram bewertet vor
 allem, wie viele Zuschauer über die Drei-Sekunden-Marke hinaus dabeibleiben. Deshalb bekommt jedes Reel
 einen Hook nach festem Muster (`src/hooks.mjs`). Zehn Muster stehen zur Wahl: Fehler, direkte Frage,

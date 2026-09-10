@@ -182,9 +182,9 @@ const QUELLENBEZUG = /\b(laut Quelle|Quelle|Seite \d+|Folie|Mitschrift|Skript|Or
 /* Normen sind wörtlich erlaubt – sie sind Gesetzestext-Zitate, keine Übernahme.
    Deshalb werden Normzitate (auch ohne Gesetzesangabe, in beliebiger
    Reihenfolge von Abs./S./Nr./Buchst.) vor dem Shingle-Vergleich entfernt. */
-const NORM = /(?:§§?|Art\.|Artikel|R|H)\s*\d+(?:\.\d+)?[a-z]?(?:\s*(?:Abs\.|Absatz|S\.|Satz|Nr\.|Nummer|Buchst\.|Buchstabe|Hs\.|Halbsatz|Alt\.|Var\.|lit\.)\s*[\da-z]+\)?)*(?:\s*(?:i\.?\s?V\.?\s?m\.?|iVm|in Verbindung mit)\s*(?:§§?\s*)?\d+[a-z]?(?:\s*(?:Abs\.|S\.|Nr\.|Buchst\.)\s*[\da-z]+)*)?\s*(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|EStH|KStR|KStH|UStAE|BGB|GrEStG|FGO|SolZG|DBA|GewStR|UmwG|GmbHG|AktG|InsO|ZPO|BewG)?\b/g;
+const NORM = /(?:§§?|Art\.|Artikel|R|H)\s*\d+(?:\.\d+)?[a-z]?(?:\s*(?:\(\d+[a-z]?\)|[a-z]{2}\)|Abs\.|Absatz|S\.|Satz|Nr\.|Nummer|Buchst\.|Buchstabe|Hs\.|Halbsatz|Alt\.|Var\.|lit\.)\s*[\da-z]*\)?)*(?:\s*(?:i\.?\s?V\.?\s?m\.?|iVm|in Verbindung mit)\s*(?:§§?\s*)?\d+[a-z]?(?:\s*(?:Abs\.|S\.|Nr\.|Buchst\.)\s*[\da-z]+)*)?\s*(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|EStH|KStR|KStH|UStAE|BGB|GrEStG|FGO|SolZG|DBA|GewStR|UmwG|GmbHG|AktG|InsO|ZPO|BewG)?\b/g;
 export function ohneNormen(text) {
-  return String(text).replace(NORM, " NORM ").replace(/\b(Abs|S|Nr|Buchst|Hs|Alt)\.\s*\d+[a-z]?/g, " NORM ");
+  return String(text).replace(NORM, " NORM ").replace(/\b(Abs|S|Nr|Buchst|Hs|Alt)\.\s*\d+[a-z]?/g, " NORM ").replace(/\(\d+[a-z]?\)/g, " NORM ");
 }
 
 function alleTexte(beitrag) {

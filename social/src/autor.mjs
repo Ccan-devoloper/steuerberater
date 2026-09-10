@@ -18,6 +18,7 @@ import { datumLesbar, tageBis } from "./zeit.mjs";
 import { erfassen, budgetPruefen } from "./kosten.mjs";
 import { pruefeFakten } from "./faktencheck.mjs";
 import { hookWaehlen as hookMusterWaehlen, hookAnleitung, pruefeHook, hookTypErkennen } from "./hooks.mjs";
+import { normKurz, normGesprochen, felderKuerzen, NORM_REGEL, NORM_REGEL_STIMME } from "./normen.mjs";
 import { hookTyp } from "./insights.mjs";
 import { phase } from "./kalender.mjs";
 
@@ -100,7 +101,7 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 
 ## Ton
 - Direkt, fachlich präzise, kein Marketing-Sprech, kein Pathos. Du-Ansprache.
-- Jede Aussage muss juristisch korrekt sein (Rechtsstand 2026). Normen immer zitieren (§, Abs., Satz, Nr., Gesetz). Wenn du dir bei einem Detail nicht sicher bist, lass es weg, statt zu raten.
+- Jede Aussage muss juristisch korrekt sein (Rechtsstand 2026). Normen immer zitieren. ${NORM_REGEL} Wenn du dir bei einem Detail nicht sicher bist, lass es weg, statt zu raten.
 - Kurze Sätze. Auf einer Kachel wird gelesen, nicht studiert.
 - Keine Emojis auf den Folien. In der Caption höchstens 3.
 
@@ -352,6 +353,12 @@ function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
     if (!ICONS[folien[0].icon]) folien[0].icon = "paragraf";
   }
   if (folien.at(-1)?.art !== "cta") folien.push({ art: "cta", titel: "Schick das deiner Lerngruppe.", punkte: ["Weiterleiten an die Lerngruppe", "Speichern und vor der Klausur wiederholen", "Folgen: sortiert nach Klausurtag"] });
+  /* Normen in der Klausur-Kurzform: § 7 (1) S. 1 Nr. 1 lit. a) aa) EStG. Das
+     Modell hält sich meist daran, die Umschreibung sichert den Rest ab. */
+  for (const f of folien) felderKuerzen(f, ["titel", "untertitel", "text", "norm", "formel", "richtigText", "falsch"]);
+  for (const f of folien) for (const seite of ["links", "rechts"]) if (f[seite]) felderKuerzen(f[seite], ["titel", "text"]);
+  for (const f of folien) if (Array.isArray(f.schritte)) f.schritte = f.schritte.map((x) => (typeof x === "string" ? normKurz(x) : felderKuerzen(x, ["titel", "text", "norm"])));
+  daten.caption = normKurz(daten.caption || "");
   /* Sicherheitsnetz: keine Website, kein Plattformname auf Folien oder in der Caption. */
   const verboten = /(github\.io|github\.com|examenscampus|link in bio|website)/i;
   for (const f of folien) for (const k of ["titel", "text", "untertitel"]) if (f[k] && verboten.test(f[k])) f[k] = f[k].replace(verboten, "").replace(/\s{2,}/g, " ").trim();
@@ -478,7 +485,7 @@ export async function storiesSchreiben(plan, datum, hinweis = "") {
 Arten:
 - frage: titel = Prüfungsfrage (max. 90 Zeichen), optionen = 3 kurze Antwortmöglichkeiten (max. 60 Zeichen), ueberzeile = „Prüfungsfrage <Fach>“
 - antwort: siehe Auftrag
-- norm: norm = die Norm (z. B. „§ 173 Abs. 1 AO“), titel = worum es geht (max. 60 Zeichen), text = ein Prüfungstipp dazu (max. 180 Zeichen)
+- norm: norm = die Norm in Kurzform (z. B. „§ 173 (1) Nr. 1 AO“), titel = worum es geht (max. 60 Zeichen), text = ein Prüfungstipp dazu (max. 180 Zeichen)
 - merksatz: text = ein Satz, der hängen bleibt (max. 120 Zeichen), titel = Thema (max. 60 Zeichen)
 - formel: titel = Name des Rechenwegs, formel = Formel (max. 60 Zeichen), text = Erklärung mit eigenem Zahlenbeispiel (max. 180 Zeichen)
 - begriff: titel = Begriff, norm = Norm, text = Definition in eigenen Worten (max. 200 Zeichen), icon
@@ -501,6 +508,7 @@ Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder n
     if (o.icon && !ICONS[o.icon]) o.icon = "paragraf";
     if (p.art === "countdown") { o.zahl = String(p.tageBisExamen); o.fortschritt = Math.round(100 - Math.min(100, p.tageBisExamen / 150 * 100)); o.ueberzeile = "Noch"; }
     o.fachLabel = FAECHER[o.fach]?.label || "Steuerberaterexamen";
+    felderKuerzen(o, ["titel", "text", "norm", "formel", "richtigText", "falsch", "ueberzeile"]);
     const ergebnis = pruefeBeitrag({ stories: [o] });
     if (!ergebnis.ok) { o.beanstandet = ergebnis.fehler; }
     return o;
@@ -558,6 +566,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null,
       `Datum: ${datumLesbar(datum)}. Format: ${lang ? "Reel (lang, 45–60 s, 6–8 Szenen, ein komplettes Prüfschema)" : "Kurz-Reel (20–35 s, 4–5 Szenen, genau EIN Aha-Punkt: eine Frage, die Antwort, warum, Merksatz)"}.`,
       REEL_ANLEITUNG + (lang ? "" : "\nKurzfassung: insgesamt 60–90 gesprochene Wörter, Bildschirmtitel maximal 5 Wörter."),
       hookAnleitung(hookMuster),
+      `\n## Normen\n${NORM_REGEL}\n${NORM_REGEL_STIMME}`,
       anlass ? `\n## Anlass\n${anlass.titel}: ${anlass.kontext}` : "",
       `Phase im Prüfungsjahr: ${phase(datum)}.`,
       thema?.typ === "mindset" ? "\n## Mindset-Reel (Ersatz für ein Talking-Head-Video)\nKein Fachschema, sondern ein persönlicher, ruhiger Ton in Du-Form: ein Problem, das fast alle kennen (Angst, Blackout, Zeitdruck, Perfektionismus), dann 3–4 konkrete, sofort umsetzbare Handgriffe, zum Schluss ein Satz, der bleibt. Normen nur, wenn sie wirklich helfen. Bildschirmtitel kurz und menschlich, kein Ratgeber-Kitsch." : "",
@@ -568,8 +577,17 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null,
       `\nErstelle jetzt das Reel-Skript als JSON.`,
     ].filter(Boolean).join("\n");
     const { daten } = await strukturiert({ system: SYSTEM, user, schema: REEL_SCHEMA, zweck: "reel" });
-    const szenen = daten.szenen.map((s) => { const o = {}; for (const [k, v] of Object.entries(s)) if (v != null) o[k] = v; if (o.icon && !ICONS[o.icon]) o.icon = "paragraf"; return o; });
-    const reel = { format: "reel", fach, klausur, fachLabel: FAECHER[fach]?.label, themaId: thema?.id || null, szenen, caption: (daten.caption || "").trim(), hashtags: [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase()), ...CONFIG.hashtags.kern])].slice(0, CONFIG.hashtags.maxJeBeitrag), kurztitel: daten.kurztitel || szenen[0]?.titel || "" };
+    const szenen = daten.szenen.map((s) => {
+      const o = {};
+      for (const [k, v] of Object.entries(s)) if (v != null) o[k] = v;
+      if (o.icon && !ICONS[o.icon]) o.icon = "paragraf";
+      /* Auf dem Bildschirm die Kurzform, in der Stimme die ausgeschriebene
+         Fassung – „(1)“ würde sonst als „Klammer auf eins“ vorgelesen. */
+      felderKuerzen(o, ["titel", "unter", "text", "norm"]);
+      if (o.sprecher) o.sprecher = normGesprochen(o.sprecher);
+      return o;
+    });
+    const reel = { format: "reel", fach, klausur, fachLabel: FAECHER[fach]?.label, themaId: thema?.id || null, szenen, caption: normKurz((daten.caption || "").trim()), hashtags: [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase()), ...CONFIG.hashtags.kern])].slice(0, CONFIG.hashtags.maxJeBeitrag), kurztitel: daten.kurztitel || szenen[0]?.titel || "" };
     /* Prüfung über die Folien-Logik: Szenen als Folien, Sprechertext als Text. */
     const ergebnis = pruefeBeitrag({ folien: [{ art: "titel", titel: szenen[0]?.titel || "" }, ...szenen.slice(1).map((s) => ({ art: "text", titel: s.titel, text: `${s.text || ""} ${s.sprecher}` })), { art: "cta" }], caption: reel.caption, hashtags: reel.hashtags });
     ergebnis.fehler.push(...pruefeHook(szenen[0]));
