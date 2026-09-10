@@ -6,6 +6,7 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { iconSvg, ICONS } from "./stile.mjs";
+import { normKurz } from "./normen.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 export const FONT_DIR = path.resolve(hier, "../fonts");
@@ -25,13 +26,17 @@ export function esc(s) {
 }
 
 /* Überschriften: nur Hervorhebungen, keine Mono-Normen (die wirken in Großschrift fremd). */
+/* Die Schreibweise der Normen ist Sache des Renderers, nicht der Quelle:
+   Gerendert wird auch gespeicherter Text und Beispielinhalt, und dort stand
+   schon die gesprochene Fassung auf einer Folie. normKurz ist idempotent,
+   doppelt schadet also nicht. */
 export function markierenTitel(s) {
-  return esc(s).replace(/\*([^*]+)\*/g, "<em>$1</em>");
+  return esc(normKurz(s)).replace(/\*([^*]+)\*/g, "<em>$1</em>");
 }
 
 /* Hervorhebungen: *wichtig* → <em>, Normen in Mono. */
 export function markieren(s) {
-  let t = esc(s);
+  let t = esc(normKurz(s));
   t = t.replace(/\*([^*]+)\*/g, "<em>$1</em>");
   t = t.replace(/(§§?\s?[\dA-Za-z.\s]+?(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|KStR|UStAE|BGB|GrEStG|FGO|DBA))/g, '<code>$1</code>');
   return t;
