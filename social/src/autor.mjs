@@ -439,10 +439,10 @@ Antworte mit:
 async function webRecherche(frage, zweck = "recherche") {
   const params = {
     model: CONFIG.ki.modellNeben,
-    max_tokens: 16000,
+    max_tokens: 8000,
     thinking: { type: "adaptive" },
-    output_config: { effort: "medium" },
-    tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 8, user_location: { type: "approximate", country: "DE", timezone: "Europe/Berlin" } }],
+    output_config: { effort: CONFIG.ki.effort },
+    tools: [{ type: "web_search_20260209", name: "web_search", max_uses: CONFIG.ki.rechercheSuchen, user_location: { type: "approximate", country: "DE", timezone: "Europe/Berlin" } }],
     messages: [{ role: "user", content: frage }],
   };
   budgetPruefen("Recherche");
@@ -491,7 +491,7 @@ ${auftraege}
 Sperrliste (Namen nie verwenden): ${korpus().namen.join(", ")}
 
 Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder null. Gib genau einen Eintrag je Slot zurück.`;
-  const { daten } = await strukturiert({ system: SYSTEM, user, schema: STORY_SCHEMA, modell: CONFIG.ki.modellNeben, effort: "medium" });
+  const { daten } = await strukturiert({ system: SYSTEM, user, schema: STORY_SCHEMA, modell: CONFIG.ki.modellNeben, effort: CONFIG.ki.effort });
   const nachSlot = new Map(daten.stories.map((s) => [s.slot, s]));
   return plan.map((p) => {
     const s = nachSlot.get(p.slot) || {};

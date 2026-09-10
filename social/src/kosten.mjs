@@ -38,8 +38,17 @@ export function erfassen(modell, usage, zweck = "") {
   const p = PREISE[modell] || PREISE["claude-opus-5"];
   const usd = ((usage.input_tokens || 0) * p.ein + (usage.output_tokens || 0) * p.aus + (usage.cache_read_input_tokens || 0) * p.cacheLesen + (usage.cache_creation_input_tokens || 0) * p.cacheSchreiben) / 1e6;
   posten.push({ modell, zweck, usd, ein: usage.input_tokens || 0, aus: usage.output_tokens || 0, cache: usage.cache_read_input_tokens || 0 });
-  if (speichern) { try { speichern(tagesStand(), posten.length); } catch (e) { console.warn(`  ! Kosten nicht gespeichert: ${e.message}`); } }
+  const k = (n) => (n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n));
+  console.log(`  $ ${usd.toFixed(4)} ${zweck || modell} · ${k(usage.input_tokens || 0)} ein / ${k(usage.output_tokens || 0)} aus / ${k(usage.cache_read_input_tokens || 0)} Cache`);
+  if (speichern) { try { speichern(tagesStand(), posten.length, jeZweck()); } catch (e) { console.warn(`  ! Kosten nicht gespeichert: ${e.message}`); } }
   return usd;
+}
+
+/** Kosten dieses Laufs je Zweck (z. B. recherche, beitrag, faktencheck). */
+export function jeZweck() {
+  const m = {};
+  for (const p of posten) m[p.zweck || p.modell] = (m[p.zweck || p.modell] || 0) + p.usd;
+  return m;
 }
 
 export function summe() {
