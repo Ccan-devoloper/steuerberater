@@ -38,7 +38,7 @@ export function berichtErstellen({ ledger, strategie, follower, kosten, datum, f
     for (const [klasse, zeilenZeit] of Object.entries(zeitenGelernt.klassen)) {
       zeilen.push(`Beste Uhrzeiten ${namen[klasse] || klasse} (Faktor zum Schnitt, Messungen): ${zeilenZeit.map((z) => `${String(z.stunde).padStart(2, "0")}:30 ${z.mittel.toFixed(2)}× (${z.n})`).join(" · ")}`);
     }
-    zeilen.push(`Uhrzeiten insgesamt gemessen: ${zeitenGelernt.gesamt} Beiträge${zeitenGelernt.gesamt < 20 ? " – der Bot probiert weiter Stunden aus" : ""}`);
+    zeilen.push(`Uhrzeiten: ${zeitenGelernt.gesamt} Beiträge ausgewertet, davon ${zeitenGelernt.mitWirkung} mit messbarer Wirkung${zeitenGelernt.belastbar ? " – die Zeiten folgen jetzt den Zahlen" : " – noch zu dünn, der Bot probiert weiter Stunden aus"}`);
   }
   zeilen.push("");
   if (top.length) {

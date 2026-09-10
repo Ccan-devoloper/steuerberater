@@ -467,6 +467,15 @@ test("Uhrzeiten werden gelernt: Erkundung ohne Daten, beste Stunde mit Daten", a
   assert.equal(zeiten[0], "08:30", zeiten.join(" "));
   assert.equal(zeiten[1], "19:30", zeiten.join(" "));
 
+  /* Zu dünne Datenlage (junges Konto, kaum Reichweite): Es wird weiter
+     ausprobiert, statt sich auf Rauschen festzulegen. */
+  const schwach = { veroeffentlicht: Array.from({ length: 20 }, (_, i) => ({ art: "beitrag", datum: "2026-09-01", format: i % 2 ? "reel" : "spickzettel", stunde: i % 2 ? 19 : 8, insights: { reach: i < 9 ? 1 : 0, saved: 0, shares: 0, likes: 0, follows: 0 } })) };
+  const statSchwach = zeitStatistik(schwach);
+  assert.equal(statSchwach.belastbar, false, JSON.stringify({ n: statSchwach.gesamt, w: statSchwach.mitWirkung, m: statSchwach.mittelPunkte }));
+  const verteilt = new Set();
+  for (const datum of ["2026-09-21", "2026-09-22", "2026-09-23", "2026-09-24", "2026-09-25"]) verteilt.add(zeitenWaehlen({ formate: ["spickzettel", "reel"], datum, ledger: schwach, zufall: rngFuer(datum) }).join(" "));
+  assert.ok(verteilt.size >= 3, `bei dünner Datenlage zu starr: ${[...verteilt].join(" | ")}`);
+
   /* Bericht nennt die besten Stunden je Art. */
   const b = zeitBericht(ledger);
   assert.equal(b.klassen.reel[0].stunde, 19);

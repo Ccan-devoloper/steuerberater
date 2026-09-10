@@ -132,6 +132,8 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | `IG_ZEIT_FENSTER` | `6-21` | Früheste und späteste Stunde für Beiträge |
 | `IG_ZEIT_ABSTAND` | `4` | Mindestabstand zwischen zwei Beiträgen in Stunden |
 | `IG_ZEIT_ERKUNDUNG` | `0.35` | Wie stark neue Uhrzeiten ausprobiert werden |
+| `IG_ZEIT_REIFE_TAGE` | `2` | Mindestalter eines Beitrags, damit seine Zahlen für die Uhrzeit zählen |
+| `IG_ZEIT_MESSUNGEN` / `IG_ZEIT_WIRKUNG` | `8` / `1` | Ab wann die Zahlen die Uhrzeit bestimmen statt Erkundung |
 | `IG_REEL_RESERVE_USD` | `0.09` | Rücklage im Tagesbudget, damit das Reel des Tages nicht ausfällt |
 | `IG_GRAPH_HOST` | `instagram` | `instagram` (Instagram-Login) oder `facebook` (Seiten-Token) |
 | `IG_EXAMEN_DATUM` / `IG_EXAMEN_ENDE` | `2026-10-06` / `2026-10-08` | Countdown; nach der Prüfung auf das Folgejahr setzen (bundeseinheitlich Anfang Oktober) |
@@ -264,6 +266,12 @@ Die Wahl folgt dem Prinzip „optimistisch bei Unsicherheit“ (UCB1): Eine Stun
 entweder gut lief oder noch kaum getestet wurde. Am Anfang wandern die Zeiten deshalb durch den Tag,
 mit jeder Messung wird die Erkundung kleiner, bis die Zeiten stehen. Der Wochenbericht zeigt die
 besten Stunden je Art mit Faktor zum Schnitt und Anzahl der Messungen.
+
+Damit nicht ein paar Aufrufe die Uhrzeit bestimmen, zählen nur Beiträge, die mindestens
+`IG_ZEIT_REIFE_TAGE` (2) alt sind; und die Zahlen entscheiden erst, wenn mindestens
+`IG_ZEIT_MESSUNGEN` (8) Beiträge überhaupt Wirkung zeigten und im Schnitt `IG_ZEIT_WIRKUNG` (1)
+Punkte je Beitrag zusammenkommen. Bis dahin verteilt der Bot die Zeiten bewusst über den Tag und
+sammelt Daten – bei einem jungen Konto mit Reichweite null ist jeder Unterschied Rauschen.
 
 Randbedingungen: Fenster `IG_ZEIT_FENSTER` (Standard 6–21 Uhr), Mindestabstand zwischen zwei
 Beiträgen `IG_ZEIT_ABSTAND` (4 h), Erkundungsdrang `IG_ZEIT_ERKUNDUNG` (0.35; 0 = nur ausnutzen).
