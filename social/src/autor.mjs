@@ -132,6 +132,7 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Caption: 4–8 Zeilen. Zeile 1 ist der Hook (die Frage oder die Pointe), dann die Kernantwort in 2–4 Sätzen, dann die Aufforderung, den Beitrag an die Lerngruppe weiterzuleiten und zu speichern, plus eine echte Frage an die Leser:innen, die eine Antwort im Kommentar provoziert. ${CONFIG.marke.website ? `Am Ende darf ein Hinweis „Mehr auf ${CONFIG.marke.website} (Link in Bio)“ stehen.` : "Keine Website, keine Plattform, kein Produkt erwähnen – auch nicht „Link in Bio“."} Keine Hashtags in der Caption; die kommen separat.
 - Hashtags: 8–14 Stück, deutsch, kleingeschrieben, spezifisch zum Thema plus diese Kernhashtags: ${CONFIG.hashtags.kern.join(" ")}.
 - kurztitel: 3–6 Wörter für die Story-Ankündigung.
+- bildSzene: eine ENGLISCHE Beschreibung einer konkreten, fotografierbaren Alltagsszene für das Titelbild – 3 bis 6 Wörter, so, wie man sie in einer Fotodatenbank suchen würde. Sie muss das Steuerthema bildlich greifbar machen, nicht es beschriften: für die Teilwert-AfA „old machine in empty workshop“, für die Umsatzsteuer bei Anzahlungen „customer paying deposit at counter“, für die Fristenberechnung „calendar with circled deadline“. Verboten sind Fachvokabeln („teilwert“, „tax“), abstrakte Begriffe („business“, „finance“) und die Symbolbild-Klassiker: Taschenrechner auf Formularen, Münzstapel, Handschlag im Anzug, Wolkenkratzer – die sagen nichts. Fällt dir keine echte Szene ein, gib null zurück; dann bleibt es beim Icon.
 
 ## Beispiel eines fertigen Beitrags (Format Prüfungsfrage)
 ${JSON.stringify({ folien: beispiele.beitraege[0].folien, caption: beispiele.beitraege[0].caption, hashtags: beispiele.beitraege[0].hashtags, kurztitel: "Teilwert-AfA: Pflicht oder Wahlrecht?" }, null, 1)}
@@ -177,10 +178,11 @@ const BEITRAG_SCHEMA = {
     caption: { type: "string" },
     hashtags: { type: "array", items: { type: "string" } },
     kurztitel: { type: "string" },
+    bildSzene: { type: ["string", "null"] },
     quellen: { type: ["array", "null"], items: { type: "string" } },
     hooks: { type: ["array", "null"], items: { type: "object", additionalProperties: false, properties: { typ: { type: "string", enum: ["frage", "fehler", "zahl", "aussage"] }, titel: { type: "string" } }, required: ["typ", "titel"] } },
   },
-  required: ["folien", "caption", "hashtags", "kurztitel", "quellen", "hooks"],
+  required: ["folien", "caption", "hashtags", "kurztitel", "bildSzene", "quellen", "hooks"],
 };
 
 const STORY_SCHEMA = {
@@ -372,6 +374,7 @@ function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
     caption: (daten.caption || "").trim(),
     hashtags: tags,
     kurztitel: daten.kurztitel || folien[0]?.titel || "",
+    bildSzene: daten.bildSzene || null,
     quellen: daten.quellen || [],
     hookTyp: hook?.typ || hookTyp(folien[0]?.titel || ""),
   };
