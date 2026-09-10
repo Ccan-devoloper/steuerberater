@@ -182,21 +182,21 @@ canvas#oben,.trenner{display:none}
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 /* Alle Szenen mit einem Anbieter sprechen und daraus den Zeitplan bauen. */
-async function szenenSprechen(reel, audioDir, anbieter) {
+async function szenenSprechen(reel, audioDir, anbieter, stimmeId = null) {
   const szenen = [];
   let t = 0;
   for (const [i, s] of reel.szenen.entries()) {
     /* Der Hook wird betont gesprochen und bekommt danach einen Moment Stille –
        erst dieser Bruch macht aus einem Satz einen Aufhänger. */
     const istHook = s.art === "hook" || i === 0;
-    const stimme = await sprechen(s.sprecher, path.join(audioDir, `szene-${String(i + 1).padStart(2, "0")}.mp3`), { betonung: istHook ? "hook" : null, anbieter });
+    const stimme = await sprechen(s.sprecher, path.join(audioDir, `szene-${String(i + 1).padStart(2, "0")}.mp3`), { betonung: istHook ? "hook" : null, anbieter, stimmeId });
     const vorlauf = i === 0 ? 0.25 : 0.25;
     const nachlauf = s.art === "cta" ? 1.2 : istHook ? 0.85 : 0.55;
     const dauer = vorlauf + stimme.dauer + nachlauf;
     szenen.push({ ...s, index: i, start: t, dauer, audioStart: t + vorlauf, audio: stimme.datei, woerter: stimme.woerter.map((w) => ({ ...w, von: w.von + t + vorlauf, bis: w.bis + t + vorlauf })), echt: stimme.echt, anbieter: stimme.anbieter });
     t += dauer;
   }
-  return { szenen, gesamt: Math.min(t, CONFIG.reel.maxSekunden), echt: szenen.every((s) => s.echt), anbieter: szenen[0]?.anbieter || "aus" };
+  return { szenen, gesamt: Math.min(t, CONFIG.reel.maxSekunden), echt: szenen.every((s) => s.echt), anbieter: szenen[0]?.anbieter || "aus", stimmeId: szenen[0]?.stimmeId || null };
 }
 
 /* Zeitplan: jede Szene = kurzer Vorlauf + Sprechdauer + Nachlauf.
@@ -205,10 +205,11 @@ async function szenenSprechen(reel, audioDir, anbieter) {
 export async function zeitplanErstellen(reel, audioDir, opt = {}) {
   const zeichen = reel.szenen.reduce((a, s) => a + String(s.sprecher || "").length, 0);
   const anbieter = opt.anbieter || (await anbieterFuerText(zeichen));
-  const plan = await szenenSprechen(reel, audioDir, anbieter);
+  const plan = await szenenSprechen(reel, audioDir, anbieter, opt.stimmeId || null);
   /* Ist das Guthaben mitten im Reel ausgegangen, sprechen jetzt zwei Stimmen im
      selben Video. Dann lieber alles noch einmal offline – das kostet nichts. */
   if (new Set(plan.szenen.map((s) => s.anbieter)).size > 1) return szenenSprechen(reel, audioDir, offlineAnbieter());
+  plan.stimmeName = anbieter === "elevenlabs" ? opt.stimmeName || null : null;
   return plan;
 }
 
@@ -408,7 +409,7 @@ export async function reelBauen(reel, ausgabeDir, opt = {}) {
   const clip = opt.clip === null ? null : (opt.clip || hintergrundClip(opt.hintergrundDir, datum));
   const ctx = { stil: stilLaden(opt.stil || (hell ? "kanzlei-hell" : CONFIG.marke.stil)), handle: CONFIG.marke.handle, klausur: reel.klausur || FAECHER[reel.fach]?.klausur || 3, fachLabel: FAECHER[reel.fach]?.label || "Steuerberaterexamen", animation: opt.animation || animationFuer(datum), farbeJeKlausur: CONFIG.marke.farbeJeKlausur, clip };
   fs.mkdirSync(ausgabeDir, { recursive: true });
-  const plan = await zeitplanErstellen(reel, path.join(ausgabeDir, "audio"));
+  const plan = await zeitplanErstellen(reel, path.join(ausgabeDir, "audio"), { stimmeId: opt.stimmeId || null, stimmeName: opt.stimmeName || null });
   const frameDir = path.join(ausgabeDir, "frames");
   const n = await framesRendern(reelHtml(reel, plan, ctx), plan, frameDir, fps, !!clip);
 
@@ -450,7 +451,7 @@ export async function reelBauen(reel, ausgabeDir, opt = {}) {
     else fs.copyFileSync(path.join(frameDir, `f${String(coverFrame).padStart(5, "0")}.jpg`), cover);
   }
   if (!opt.framesBehalten) fs.rmSync(frameDir, { recursive: true, force: true });
-  return { video, cover, dauer: plan.gesamt, echt: plan.echt, anbieter: plan.anbieter, szenen: plan.szenen.length, animation: clip ? `Clip ${path.basename(clip)}` : ctx.animation };
+  return { video, cover, dauer: plan.gesamt, echt: plan.echt, anbieter: plan.anbieter, stimmeId: plan.stimmeId, stimmeName: plan.stimmeName || null, szenen: plan.szenen.length, animation: clip ? `Clip ${path.basename(clip)}` : ctx.animation };
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

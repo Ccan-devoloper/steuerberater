@@ -154,8 +154,18 @@ export const CONFIG = {
        oder kostenlos von Piper (im Workflow installiert). Siehe stimme.mjs. */
     aktiv: env("IG_REELS", "true") === "true",
     elevenlabsKey: env("ELEVENLABS_API_KEY", ""),
-    stimme: env("ELEVENLABS_VOICE_ID", "kFoQc0CRFQgSvKiqnxaW"),   // eine natürliche deutsche Stimme; beliebig austauschbar
+    stimme: env("ELEVENLABS_VOICE_ID", ""),   // fest eingestellte Stimme; leer = der Bot sucht und lernt selbst
     modell: env("ELEVENLABS_MODEL", "eleven_v3"),
+    /* Stimmenwahl: Der Bot sucht in der ElevenLabs-Bibliothek deutsche
+       Sprecher, probiert drei davon über die Reels aus und behält die, bei der
+       die Zahlen stimmen (stimmen.mjs). ELEVENLABS_VOICE_ID + IG_STIMME_LERNEN=false
+       stellt stattdessen eine feste Stimme ein. */
+    stimmeLernen: env("IG_STIMME_LERNEN", "true") === "true",
+    stimmeAnzahl: Number(env("IG_STIMME_ANZAHL", "3")),          // so viele Kandidaten laufen gegeneinander
+    stimmeErkundung: Number(env("IG_STIMME_ERKUNDUNG", "0.4")),  // 0 = nur ausnutzen, größer = mehr ausprobieren
+    stimmeMessungen: Number(env("IG_STIMME_MESSUNGEN", "6")),    // so viele gemessene Reels je Stimme, bevor entschieden wird
+    stimmeVorsprung: Number(env("IG_STIMME_VORSPRUNG", "0.25")), // so viel muss die Beste vor der Zweiten liegen
+    stimmeProbeText: env("IG_STIMME_PROBE", "Achtzig Prozent scheitern an dieser Frage. Nach Paragraf 7 Absatz 1 Satz 1 EStG beginnt die Abschreibung im Monat der Anschaffung – nicht im Januar. Merk dir das für Tag 2."),
     fps: 30,
     maxSekunden: 90,
     hintergrundmusik: env("IG_REEL_MUSIK", "true") === "true",  // dezentes, synthetisch erzeugtes Klangbett

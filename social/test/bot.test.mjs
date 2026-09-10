@@ -624,3 +624,46 @@ test("ElevenLabs läuft auf dem Monatsguthaben und fällt danach auf Piper zurü
   CONFIG.reel.elevenlabsKey = key;
   if (wunsch != null) process.env.IG_STIMME = wunsch;
 });
+
+test("Die Stimme wird ausprobiert und erst bei klarem Vorsprung festgeschrieben", async () => {
+  const { stimmeBewerten, stimmeWaehlen, stimmenStatistik, gewinner } = await import("../src/stimmen.mjs");
+
+  /* Auswahl nach Merkmalen: erwachsen, deutsch, erklärend schlägt Werbestimme. */
+  const erzaehler = stimmeBewerten({ voice_id: "a", name: "Anna", language: "de", gender: "female", age: "middle_aged", use_case: "informative_educational", descriptive: "calm" });
+  const werbung = stimmeBewerten({ voice_id: "b", name: "Bert", language: "de", gender: "male", age: "young", use_case: "advertisement", descriptive: "excited" });
+  assert.ok(erzaehler.punkte > (werbung?.punkte ?? -1));
+  assert.equal(stimmeBewerten({ voice_id: "c", name: "Kid", language: "de", age: "child", use_case: "narrative_story" }), null);
+  assert.equal(stimmeBewerten({ voice_id: "d", name: "Joe", language: "en", age: "middle_aged", use_case: "narrative_story" }), null);
+
+  const kandidaten = [{ id: "a", name: "Anna" }, { id: "b", name: "Bert" }, { id: "c", name: "Carla" }];
+
+  /* Ohne Zahlen wird reihum ausprobiert – jede Stimme kommt vor. */
+  const leer = { veroeffentlicht: [] };
+  const gesehen = new Set();
+  for (let i = 0; i < 40; i++) gesehen.add(stimmeWaehlen({ kandidaten, ledger: leer, datum: "2026-09-15" }).id);
+  assert.equal(gesehen.size, 3);
+
+  /* Eine feste Stimme beendet die Rotation. */
+  assert.equal(stimmeWaehlen({ kandidaten, ledger: leer, datum: "2026-09-15", fest: { id: "b", name: "Bert" } }).id, "b");
+
+  /* Zahlen: Anna läuft doppelt so gut wie die anderen. */
+  const reel = (id, wert, tag) => ({ art: "beitrag", format: "reel", datum: `2026-08-${String(tag).padStart(2, "0")}`, stimmeId: id, stimmeName: id, insights: { reach: wert, saved: 0, shares: 0, likes: 0, comments: 0 } });
+  const ledger = { veroeffentlicht: [] };
+  let tag = 1;
+  for (let i = 0; i < 6; i++) { ledger.veroeffentlicht.push(reel("a", 200, tag++), reel("b", 60, tag++), reel("c", 40, tag++)); }
+  const stat = stimmenStatistik(ledger, new Date("2026-09-15T12:00:00Z"));
+  assert.equal(stat.gesamt, 18);
+  assert.ok(stat.je.a.mittel > stat.je.b.mittel);
+  const sieger = gewinner(stat, kandidaten);
+  assert.equal(sieger.id, "a");
+
+  /* Zu wenige Messungen je Stimme: keine Entscheidung, weiter ausprobieren. */
+  const duenn = { veroeffentlicht: [reel("a", 200, 1), reel("b", 60, 2)] };
+  assert.equal(gewinner(stimmenStatistik(duenn, new Date("2026-09-15T12:00:00Z")), kandidaten), null);
+
+  /* Gleichstand trotz vieler Messungen: ebenfalls keine Entscheidung. */
+  const gleich = { veroeffentlicht: [] };
+  tag = 1;
+  for (let i = 0; i < 6; i++) { gleich.veroeffentlicht.push(reel("a", 100, tag++), reel("b", 100, tag++), reel("c", 100, tag++)); }
+  assert.equal(gewinner(stimmenStatistik(gleich, new Date("2026-09-15T12:00:00Z")), kandidaten), null);
+});
