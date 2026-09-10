@@ -174,22 +174,7 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 .story .geist{font-size:1200px;top:520px}
 .story .balken{margin-top:110px;margin-bottom:auto;height:16px;border-radius:999px;background:var(--linie);overflow:hidden}
 .story .balken i{display:block;height:100%;background:var(--akzent)}
-.story .pfeil{margin-top:auto;margin-bottom:10px;text-align:center;font-size:34px;color:var(--text-weich);letter-spacing:.12em;text-transform:uppercase}
-/* Deckblatt: Auftakt der Story-Folge mit dem Programm des Tages. */
-.story .programm{margin-top:56px;display:flex;flex-direction:column;gap:22px;list-style:none;padding:0}
-.story .programm li{display:flex;align-items:center;gap:28px;background:var(--flaeche);border:3px solid var(--linie);border-radius:var(--ecken);padding:24px 34px;font-size:40px;line-height:1.2}
-.story .programm li i{flex:none;width:64px;height:64px;display:flex;align-items:center;justify-content:center;color:var(--akzent)}
-.story .programm li i .icon{width:56px;height:56px}
-.story .programm li .nr{flex:none;font-family:var(--titel);color:var(--akzent);width:52px}
-.story .programm li .zeit{margin-left:auto;font-family:var(--mono);font-size:32px;color:var(--text-weich)}
-.story .countdown{margin-top:48px;display:flex;align-items:baseline;gap:22px}
-.story .countdown b{font-family:var(--titel);font-size:110px;line-height:1;color:var(--akzent)}
-.story .countdown span{font-size:38px;line-height:1.2;color:var(--text-weich)}
-.story .deckblatt-buehne{position:relative;margin:auto auto 40px;display:flex;align-items:center;justify-content:center;height:460px;width:460px}
-.story .deckblatt-buehne::before{content:"";position:absolute;inset:0;border-radius:50%;background:var(--flaeche);opacity:.55}
-.story .deckblatt-buehne .icon{position:relative;width:260px;height:260px;color:var(--akzent)}
-.story .programm~.deckblatt-buehne{height:300px;width:300px;margin-bottom:24px}
-.story .programm~.deckblatt-buehne .icon{width:160px;height:160px}
+.story .pfeil{margin-top:auto;text-align:center;font-size:34px;color:var(--text-weich);letter-spacing:.12em;text-transform:uppercase}
 `;
 }
 
@@ -297,13 +282,6 @@ em{color:${p.akzent2}}
 .story .illu{color:${p.dunkel};opacity:1;left:auto;right:70px;bottom:220px}
 .story .geist{display:none}
 .story .pille{margin-top:56px}
-.story .programm li{background:rgba(255,255,255,.92);border:0;border-radius:30px;color:#1c1c22}
-.story .programm li i,.story .programm li .nr{color:${p.dunkel}}
-.story .programm li .zeit{color:${p.dunkel};opacity:.7}
-.story .countdown b{color:#fff;text-shadow:0 10px 34px rgba(0,0,0,.18)}
-.story .countdown span{color:${p.dunkel}}
-.story .deckblatt-buehne .icon{color:${p.dunkel}}
-.story .deckblatt-buehne::before{background:rgba(255,255,255,.75);opacity:1}
 /* Reels */
 .reel .fortschritt{background:rgba(255,255,255,.4)}
 .reel .fortschritt i{background:${p.dunkel}}
@@ -435,18 +413,6 @@ const STORIES = {
     <div><span class="pille">${esc(s.pille || "Jetzt im Feed")}</span></div>
     <div class="hinweis">Oben auf den Namen tippen – der Beitrag ist der neueste im Profil.</div>
     ${bildOderIllu(ctx, s)}
-    ${fuss(ctx)}`,
-  /* Deckblatt: eröffnet die Story-Folge des Tages – ohne KI-Aufruf, die Angaben
-     stehen im Tagesplan. */
-  deckblatt: (s, ctx) => `
-    ${sk(ctx)}
-    <div class="ueberzeile">${esc(s.ueberzeile || "Heute")}</div>
-    <h1 class="${titelKlasse(s.titel)}">${markierenTitel(s.titel)}</h1>
-    ${s.programm?.length ? `<ul class="programm">${s.programm.map((p, i) => `<li>${p.icon ? `<i>${iconSvg(p.icon)}</i>` : `<span class="nr">${i + 1}</span>`}<span>${esc(p.text || p)}</span>${p.zeit ? `<span class="zeit">${esc(p.zeit)}</span>` : ""}</li>`).join("")}</ul>` : ""}
-    ${s.text ? `<div class="text">${markieren(s.text)}</div>` : ""}
-    ${s.zahl ? `<div class="countdown"><b>${esc(s.zahl)}</b><span>${markieren(s.zahlText || "Tage bis zur Prüfung")}</span></div>` : ""}
-    ${s.icon ? `<div class="deckblatt-buehne">${iconSvg(s.icon)}</div>` : ""}
-    <div class="pfeil">${esc(s.pfeil || "Tippen zum Blättern")}</div>
     ${fuss(ctx)}`,
   frage: (s, ctx) => `
     ${sk(ctx)}
