@@ -45,7 +45,7 @@
       "art": "frage",
       "themaId": "persg-quiz-persg-4",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "uebersprungen"
     },
     {
       "slot": "s4",
@@ -53,7 +53,7 @@
       "art": "antwort",
       "themaId": "persg-quiz-persg-4",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "uebersprungen"
     },
     {
       "slot": "s2",
