@@ -91,7 +91,9 @@ export const CONFIG = {
 
   /* Schlüsselwort-Nachrichten: „Kommentiere SCHEMA …“ → Karte per Direktnachricht */
   nachrichten: {
-    aktiv: env("IG_NACHRICHTEN", "true") === "true",
+    /* Aus: Beiträge fordern nicht mehr zum Kommentieren auf, um eine Karte per
+       Nachricht zu bekommen. Das kommt später über einen Newsletter. */
+    aktiv: env("IG_NACHRICHTEN", "false") === "true",
     schluesselwort: env("IG_SCHLUESSELWORT", "SCHEMA"),
     maxJeLauf: 25,
   },
@@ -195,6 +197,13 @@ export const CONFIG = {
   bilder: {
     aktiv: env("IG_BILDER", "true") === "true",
     key: env("PEXELS_API_KEY", ""),
+    /* Motiv freistellen (rembg) statt als Rechteck aufzukleben – so läuft das
+       Bild aus der Kachel heraus statt darauf zu liegen. */
+    freistellen: env("IG_BILDER_FREISTELLEN", "true") === "true",
+    /* Wenn das Freistellen misslingt: kein Bild (false) oder das Foto doch als
+       Karte (true). Standard ist kein Bild – ein halb ausgeschnittenes oder
+       aufgeklebtes Motiv fällt sofort auf. */
+    rechteckErlaubt: env("IG_BILDER_RECHTECK", "false") === "true",
   },
 
   /* Interaktion: Kommentare unter den eigenen Beiträgen beantworten -------- */
