@@ -1224,6 +1224,16 @@
       "fach": "ao",
       "titel": "Einspruch: Wo statt Wann",
       "medienId": "18333960217258233"
+    },
+    {
+      "datum": "2026-09-10",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "frage",
+      "thema": "persg-quiz-persg-4",
+      "fach": "persg",
+      "titel": "Wofür steht das Sonderbetriebsvermögen I (SBV I)?",
+      "medienId": "18052465832796915"
     }
   ],
   "fachZaehler": {
