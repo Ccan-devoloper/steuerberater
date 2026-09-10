@@ -6,12 +6,28 @@ import { PrioLeiste } from "./Prioritaet";
    Beschriftungen und Reihenfolge leben ausschließlich hier, damit
    K1, K2 und K3 zwangsläufig identisch bleiben. */
 
+/* Farbe des Klausurtags: K1 Blau, K2 Orange, K3 Grün – dieselbe Marke wie auf
+   Instagram. Das Attribut am <html> schaltet die Palette in index.css um; hier
+   steht es, weil jede der drei Oberflächen dieselbe Kopfleiste benutzt. */
+const KLAUSUR_FARBE = { 1: "#0c1b4d", 2: "#3a1708", 3: "#0b4a33" };
+
+function useKlausurFarbe(klausur) {
+  useEffect(() => {
+    const wurzel = document.documentElement;
+    const vorher = wurzel.dataset.klausur;
+    wurzel.dataset.klausur = String(klausur);
+    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", KLAUSUR_FARBE[klausur] || KLAUSUR_FARBE[3]);
+    return () => { if (vorher) wurzel.dataset.klausur = vorher; else delete wurzel.dataset.klausur; };
+  }, [klausur]);
+}
+
 export function CampusTopbar({
   klausur, marke, name, untertitel, aufCockpit,
   navZurueck, navVor, zurueckMoeglich, vorMoeglich,
   suche, sucheSetzen, suchePlatzhalter, sucheAria,
   dunkel, dunkelUmschalten,
 }) {
+  useKlausurFarbe(klausur);
   return (
     <header className="topbar">
       <button className="brand" onClick={aufCockpit}>
