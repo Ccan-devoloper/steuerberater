@@ -18,6 +18,10 @@ on:
         description: "Nummer des Kandidaten, der ab jetzt alle Reels spricht (leer = weiter ausprobieren)"
         type: string
         default: ""
+      modell:
+        description: "Sprachmodell für die Proben (leer = wie eingestellt; eleven_flash_v2_5 halbiert den Verbrauch)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -44,7 +48,7 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
-          ELEVENLABS_MODEL: ${{ vars.ELEVENLABS_MODEL }}
+          ELEVENLABS_MODEL: ${{ inputs.modell != '' && inputs.modell || vars.ELEVENLABS_MODEL }}
           IG_STIMME_ANZAHL: ${{ vars.IG_STIMME_ANZAHL }}
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
