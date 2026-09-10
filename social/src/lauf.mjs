@@ -99,9 +99,10 @@ async function main() {
   let stimmenListe = hosting.jsonLesen("stimmen.json", null);
   if (CONFIG.reel.elevenlabsKey && CONFIG.reel.stimmeLernen && !stimmenListe?.kandidaten?.length && !stimmeStand().erschoepft) {
     try {
-      const roh = await kandidatenSuchen({ anzahl: CONFIG.reel.stimmeAnzahl });
+      const roh = await kandidatenSuchen({ anzahl: CONFIG.reel.stimmeAnzahl, abo: stimmeStand().abo });
+      const bezahlt = String(stimmeStand().abo || "") !== "free";
       const kandidaten = [];
-      for (const k of roh) kandidaten.push(await stimmeUebernehmen(k));
+      for (const k of roh) kandidaten.push(await stimmeUebernehmen(k, { bezahlt }));
       if (kandidaten.length) {
         stimmenListe = { gesucht: new Date().toISOString(), kandidaten, fest: null };
         hosting.jsonSchreiben("stimmen.json", stimmenListe);

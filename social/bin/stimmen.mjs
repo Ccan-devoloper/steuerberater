@@ -32,7 +32,7 @@ let liste = hosting.jsonLesen("stimmen.json", null);
 if (!liste?.kandidaten?.length || will("neu")) {
   const roh = await kandidatenSuchen({ anzahl: CONFIG.reel.stimmeAnzahl, abo });
   const kandidaten = [];
-  for (const k of roh) kandidaten.push(await stimmeUebernehmen(k));
+  for (const k of roh) kandidaten.push(await stimmeUebernehmen(k, { bezahlt: abo !== "free" }));
   liste = { gesucht: new Date().toISOString(), kandidaten, fest: liste?.fest || null };
   hosting.jsonSchreiben("stimmen.json", liste);
 }

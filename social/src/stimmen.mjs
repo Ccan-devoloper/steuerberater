@@ -69,16 +69,20 @@ export async function tarif() {
   try { return String((await api("/user/subscription")).tier || "").toLowerCase(); } catch { return ""; }
 }
 
-/* Stimmen des eigenen Kontos, also die vorinstallierten mehrsprachigen und
-   selbst hinzugefügte. Sie sprechen Deutsch mit den Modellen v3 und
-   multilingual_v2 – je nach Stimme mit leichtem englischem Einschlag. */
-async function kontoStimmen() {
+/* Stimmen des eigenen Kontos. Achtung: Eine aus der Bibliothek übernommene
+   Stimme steht hier ebenfalls (category „professional“), darf im kostenlosen
+   Tarif aber weiterhin nicht sprechen – sie käme sonst durch die Hintertür
+   zurück in die Auswahl. Frei nutzbar sind nur die vorinstallierten
+   („premade“); sie lesen Deutsch mit den mehrsprachigen Modellen, je nach
+   Stimme mit leichtem englischem Einschlag. */
+async function kontoStimmen({ nurFrei = false } = {}) {
   const j = await api("/voices");
   const out = [];
   for (const v of j.voices || []) {
+    if (nurFrei && String(v.category || "").toLowerCase() !== "premade") continue;
     const b = stimmeBewerten({ ...v, language: "de", use_case: v.labels?.use_case, age: v.labels?.age,
       descriptive: v.labels?.descriptive || v.labels?.description, gender: v.labels?.gender, accent: v.labels?.accent });
-    if (b) out.push({ ...b, quelle: "konto" });
+    if (b) out.push({ ...b, quelle: "konto", kategorie: v.category || null });
   }
   return out;
 }
@@ -108,7 +112,7 @@ export async function kandidatenSuchen({ anzahl = 3, abo = null } = {}) {
       console.warn(`  ! Stimmenbibliothek nicht erreichbar: ${e.message}`);
     }
   }
-  if (!gefunden.length) gefunden.push(...(await kontoStimmen()));
+  if (!gefunden.length) gefunden.push(...(await kontoStimmen({ nurFrei: !bezahlt })));
   const sortiert = gefunden.sort((a, b) => b.punkte - a.punkte);
   /* Nicht drei Varianten derselben Stimmlage: je Geschlecht höchstens zwei. */
   const auswahl = [], jeGeschlecht = {};
@@ -126,8 +130,10 @@ export async function kandidatenSuchen({ anzahl = 3, abo = null } = {}) {
  * Macht eine Bibliotheksstimme im eigenen Konto benutzbar (Voice-ID des
  * Kontos). Kontostimmen gehen unverändert durch.
  */
-export async function stimmeUebernehmen(v) {
-  if (v.quelle !== "bibliothek" || !v.besitzer) return v;
+export async function stimmeUebernehmen(v, { bezahlt = true } = {}) {
+  /* Im kostenlosen Tarif bringt das Übernehmen nichts: Die Stimme landet zwar
+     im Konto, sprechen darf sie trotzdem nicht – und verstopft nur den Platz. */
+  if (v.quelle !== "bibliothek" || !v.besitzer || !bezahlt) return v;
   try {
     const j = await api(`/voices/add/${encodeURIComponent(v.besitzer)}/${encodeURIComponent(v.id)}`, { method: "POST", body: JSON.stringify({ new_name: v.name }) });
     return { ...v, id: j.voice_id || v.id, uebernommen: true };
