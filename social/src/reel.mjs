@@ -186,9 +186,12 @@ export async function zeitplanErstellen(reel, audioDir) {
   const szenen = [];
   let t = 0;
   for (const [i, s] of reel.szenen.entries()) {
-    const stimme = await sprechen(s.sprecher, path.join(audioDir, `szene-${String(i + 1).padStart(2, "0")}.mp3`));
-    const vorlauf = i === 0 ? 0.35 : 0.25;
-    const nachlauf = s.art === "cta" ? 1.2 : 0.55;
+    /* Der Hook wird betont gesprochen und bekommt danach einen Moment Stille –
+       erst dieser Bruch macht aus einem Satz einen Aufhänger. */
+    const istHook = s.art === "hook" || i === 0;
+    const stimme = await sprechen(s.sprecher, path.join(audioDir, `szene-${String(i + 1).padStart(2, "0")}.mp3`), { betonung: istHook ? "hook" : null });
+    const vorlauf = i === 0 ? 0.25 : 0.25;
+    const nachlauf = s.art === "cta" ? 1.2 : istHook ? 0.85 : 0.55;
     const dauer = vorlauf + stimme.dauer + nachlauf;
     szenen.push({ ...s, index: i, start: t, dauer, audioStart: t + vorlauf, audio: stimme.datei, woerter: stimme.woerter.map((w) => ({ ...w, von: w.von + t + vorlauf, bis: w.bis + t + vorlauf })), echt: stimme.echt, anbieter: stimme.anbieter });
     t += dauer;

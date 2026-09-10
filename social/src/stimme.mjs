@@ -89,13 +89,17 @@ function alignmentZuWoertern(alignment, start) {
   return woerter.length ? woerter : null;
 }
 
-async function elevenlabs(text, zielDatei) {
+async function elevenlabs(text, zielDatei, art = "normal") {
   const key = CONFIG.reel.elevenlabsKey;
   const url = `https://api.elevenlabs.io/v1/text-to-speech/${encodeURIComponent(CONFIG.reel.stimme)}/with-timestamps?output_format=mp3_44100_128`;
   const res = await fetch(url, {
     method: "POST",
     headers: { "xi-api-key": key, "Content-Type": "application/json" },
-    body: JSON.stringify({ text, model_id: CONFIG.reel.modell, language_code: "de", voice_settings: { stability: 0.45, similarity_boost: 0.8, style: 0.35, use_speaker_boost: true, speed: 1.0 } }),
+    body: JSON.stringify({ text, model_id: CONFIG.reel.modell, language_code: "de", voice_settings: art === "hook"
+      /* Weniger Stabilität und mehr Stil heißt bei ElevenLabs: lebendiger,
+         mit stärkerer Betonung – genau das, was der Aufhänger braucht. */
+      ? { stability: 0.32, similarity_boost: 0.8, style: 0.6, use_speaker_boost: true, speed: 0.97 }
+      : { stability: 0.45, similarity_boost: 0.8, style: 0.35, use_speaker_boost: true, speed: 1.0 } }),
   });
   if (!res.ok) throw new Error(`ElevenLabs ${res.status}: ${(await res.text()).slice(0, 200)}`);
   const json = await res.json();
@@ -105,10 +109,21 @@ async function elevenlabs(text, zielDatei) {
   return { datei: zielDatei, dauer, woerter, echt: true, anbieter: "elevenlabs" };
 }
 
+/* Betonung: Der Hook wird bewusst anders gesprochen als der Rest – etwas
+   langsamer, mit längerer Pause am Satzende und einen Tick lauter. Eine
+   Offline-Stimme kann nicht schauspielern; Tempo, Pause und Lautheit sind die
+   Stellschrauben, die sie hat. */
+const BETONUNG = {
+  hook: { tempo: 1.07, satzpause: "0.35", lautheit: -15.5 },
+  normal: { tempo: 1.0, satzpause: "0.15", lautheit: -17 },
+};
+
 /* --- Offline-Anbieter: satzweise synthetisieren, dann zusammensetzen ------ */
-function satzSynthese(anbieter, satz, wav) {
+function satzSynthese(anbieter, satz, wav, art = "normal") {
+  const b = BETONUNG[art] || BETONUNG.normal;
   if (anbieter === "piper") {
-    const r = spawnSync("piper", ["-m", piperModell(), "-f", wav, "--length-scale", process.env.PIPER_TEMPO || "1.0", "--sentence-silence", "0.15"], { input: satz, encoding: "utf8" });
+    const tempo = process.env.PIPER_TEMPO ? Number(process.env.PIPER_TEMPO) * (b.tempo / BETONUNG.normal.tempo) : b.tempo;
+    const r = spawnSync("piper", ["-m", piperModell(), "-f", wav, "--length-scale", String(tempo), "--sentence-silence", b.satzpause], { input: satz, encoding: "utf8" });
     if (r.status !== 0) throw new Error(`piper: ${r.stderr}`);
   } else if (anbieter === "pico") {
     const r = spawnSync("pico2wave", ["-l", "de-DE", "-w", wav, satz], { encoding: "utf8" });
@@ -116,7 +131,8 @@ function satzSynthese(anbieter, satz, wav) {
   } else throw new Error(`Unbekannter Stimmanbieter ${anbieter}`);
 }
 
-function offline(anbieter, text, zielDatei) {
+function offline(anbieter, text, zielDatei, art = "normal") {
+  const b = BETONUNG[art] || BETONUNG.normal;
   const teile = saetze(text);
   const dir = path.dirname(zielDatei);
   const basis = path.basename(zielDatei, path.extname(zielDatei));
@@ -126,7 +142,7 @@ function offline(anbieter, text, zielDatei) {
   let t = 0;
   teile.forEach((satz, i) => {
     const wav = path.join(dir, `${basis}-s${i}.wav`);
-    satzSynthese(anbieter, satz, wav);
+    satzSynthese(anbieter, satz, wav, art);
     const d = audioDauer(wav);
     const dEff = anbieter === "pico" ? d / 1.1 : d;   // Pico wird um 10 % gestrafft
     woerter.push(...woerterVerteilen(satz, Math.max(0.2, dEff - 0.1), t));
@@ -138,7 +154,7 @@ function offline(anbieter, text, zielDatei) {
   const stille = path.join(dir, `${basis}-pause.wav`);
   execFileSync(ffmpegPfad(), ["-y", "-loglevel", "error", "-f", "lavfi", "-i", `anullsrc=r=16000:cl=mono`, "-t", String(pause), stille]);
   fs.writeFileSync(liste, wavs.flatMap((w, i) => [`file '${w.wav}'`, ...(i < wavs.length - 1 ? [`file '${stille}'`] : [])]).join("\n"));
-  execFileSync(ffmpegPfad(), ["-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", liste, "-af", `${anbieter === "pico" ? "atempo=1.1," : ""}aresample=44100,highpass=f=80,loudnorm=I=-17:TP=-1.5:LRA=9`, "-c:a", "libmp3lame", "-q:a", "3", zielDatei]);
+  execFileSync(ffmpegPfad(), ["-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", liste, "-af", `${anbieter === "pico" ? "atempo=1.1," : ""}aresample=44100,highpass=f=80,loudnorm=I=${b.lautheit}:TP=-1.5:LRA=9`, "-c:a", "libmp3lame", "-q:a", "3", zielDatei]);
   for (const w of wavs) fs.rmSync(w.wav, { force: true });
   fs.rmSync(liste, { force: true }); fs.rmSync(stille, { force: true });
   const dauer = audioDauer(zielDatei) || t;
@@ -150,9 +166,10 @@ function offline(anbieter, text, zielDatei) {
  */
 export async function sprechen(text, zielDatei, opt = {}) {
   const anbieter = opt.anbieter || stimmenAnbieter();
+  const art = opt.betonung === "hook" ? "hook" : "normal";
   fs.mkdirSync(path.dirname(zielDatei), { recursive: true });
-  if (anbieter === "elevenlabs") return elevenlabs(text, zielDatei);
-  if (anbieter === "piper" || anbieter === "pico") return offline(anbieter, text, zielDatei);
+  if (anbieter === "elevenlabs") return elevenlabs(text, zielDatei, art);
+  if (anbieter === "piper" || anbieter === "pico") return offline(anbieter, text, zielDatei, art);
   const dauer = sprechdauerSchaetzen(text);
   return { datei: null, dauer, woerter: woerterVerteilen(text, dauer), echt: false, anbieter: "aus" };
 }

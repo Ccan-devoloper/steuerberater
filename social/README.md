@@ -289,11 +289,19 @@ mitlaufende Untertitel Wort für Wort, dezentes Klangbett, Cover-Bild. Format: M
 
 **Hook:** Die ersten zwei Sekunden entscheiden über die Reichweite eines Reels. Instagram bewertet vor
 allem, wie viele Zuschauer über die Drei-Sekunden-Marke hinaus dabeibleiben. Deshalb bekommt jedes Reel
-einen Hook nach festem Muster (`src/hooks.mjs`): Fehler-Hook, direkte Frage, Wissenslücke, steile
-Behauptung, Preisschild, Szene aus der Klausur oder Vorher-Nachher. Das Muster rotiert täglich; sobald
-die Lernschleife Gewichte liefert, fallen schwache Muster aus der Rotation. Der Bildschirmtext trägt
-den Hook allein (höchstens sechs Wörter, weil viele ohne Ton schauen), gesprochen ist er ein Satz mit
-höchstens 18 Wörtern. Begrüßungen und Ankündigungen wie „In diesem Reel“ lässt die Prüfung nicht durch.
+einen Hook nach festem Muster (`src/hooks.mjs`). Zehn Muster stehen zur Wahl: Fehler, direkte Frage,
+Wissenslücke, steile Behauptung, Preisschild, Szene aus der Klausur, Alltag beim Lernen, Widerspruch,
+Problem und Abhilfe, Vorher-Nachher. Das Muster rotiert täglich, in zehn Tagen kommt jedes einmal dran;
+sobald die Lernschleife Gewichte liefert, fallen schwache Muster aus der Rotation. Der Bildschirmtext
+trägt den Hook allein (höchstens sechs Wörter, weil viele ohne Ton schauen), gesprochen ist er ein Satz
+mit höchstens 18 Wörtern. Begrüßungen und Ankündigungen wie „In diesem Reel“ lässt die Prüfung nicht
+durch.
+
+**Stimme des Hooks:** Der Aufhänger wird anders gesprochen als der Rest – etwas langsamer, einen Tick
+lauter, mit längerer Pause am Satzende und einem Moment Stille danach. Die freie Offline-Stimme (Piper
+„Thorsten“) kann nicht schauspielern; Tempo, Pause und Lautheit sind ihre Stellschrauben. Mit einem
+Schlüssel für ElevenLabs (`ELEVENLABS_API_KEY`) spricht der Hook zusätzlich mit weniger Stabilität und
+mehr Stil, also hörbar lebendiger.
 
 **Cover:** Das Standbild, das im Feed und im Profilraster für das Reel steht, wird eigens
 gerendert: Thema, Fach und Dauer auf der Fläche des Klausurtags, dazu ein Icon. So ist auf einen

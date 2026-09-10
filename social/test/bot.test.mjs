@@ -523,4 +523,31 @@ test("Reel-Hooks: Muster rotieren, schwache Einstiege fallen durch", async () =>
   assert.equal(hookTypErkennen("Wer schuldet die Steuer?", ""), "frage");
   assert.equal(hookTypErkennen("Der teuerste Denkfehler", "Fast alle prüfen zuerst die Frist."), "fehler");
   assert.equal(hookTypErkennen("Ein Halbsatz entscheidet", "In Paragraf 173 steckt ein Halbsatz."), "luecke");
+  assert.equal(hookTypErkennen("Kennst du diesen Moment?", "Du hast das Schema dreimal gelernt."), "alltag");
+  assert.equal(hookTypErkennen("Das stimmt so nicht", "Der Einspruch hemmt die Vollziehung? Genau umgekehrt."), "widerspruch");
+  assert.equal(hookTypErkennen("Nie wieder Fristchaos", "Mit drei Fragen bist du durch."), "loesung");
+  /* Alle zehn Muster kommen in zehn Tagen genau einmal dran. */
+  const zehn = ["2026-09-11", "2026-09-12", "2026-09-13", "2026-09-14", "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18", "2026-09-19", "2026-09-20"].map((d) => hookWaehlen(d));
+  assert.equal(new Set(zehn).size, HOOK_TYPEN.length, zehn.join(" "));
+});
+
+test("Der Hook wird betont gesprochen und bekommt eine Pause", async () => {
+  const { zeitplanErstellen } = await import("../src/reel.mjs");
+  const gerufen = [];
+  const reel = { szenen: [
+    { art: "hook", titel: "Falsches Amt, Frist weg?", sprecher: "Der Einspruch landet beim falschen Finanzamt." },
+    { art: "schritt", titel: "Schritt 1", sprecher: "Zuerst prüfst du die Zuständigkeit." },
+    { art: "cta", titel: "Mehr davon", sprecher: "Folge für den nächsten Prüfschritt." },
+  ] };
+  /* Ohne Stimmanbieter (IG_STIMME=aus) wird nur geschätzt – die Betonung steht
+     trotzdem im Aufruf, deshalb prüfen wir den Zeitplan. */
+  const plan = await zeitplanErstellen(reel, "/tmp/ig-test-audio");
+  const [hook, schritt] = plan.szenen;
+  const pauseNachHook = hook.start + hook.dauer - (hook.audioStart + (hook.woerter.at(-1)?.bis ?? 0) - hook.audioStart);
+  assert.ok(hook.dauer > 0 && schritt.start === hook.start + hook.dauer);
+  /* Der Nachlauf des Hooks ist länger als der einer normalen Szene. */
+  const nachlaufHook = hook.dauer - (hook.woerter.at(-1)?.bis ?? hook.audioStart) + hook.start;
+  const nachlaufSchritt = schritt.dauer - (schritt.woerter.at(-1)?.bis ?? schritt.audioStart) + schritt.start;
+  assert.ok(nachlaufHook > nachlaufSchritt, `${nachlaufHook} !> ${nachlaufSchritt}`);
+  assert.ok(gerufen.length === 0);
 });
