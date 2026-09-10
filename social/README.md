@@ -70,6 +70,8 @@ jede Recherche und jede Kommentarantwort ruft der Bot die Claude API auf, und An
 nach verarbeiteten Wörtern (Tokens) ab – eine eigene Abrechnung mit Guthaben, unabhängig von einem
 Claude-Abo.
 
+**Plagiatsprüfung:** Gemeldet wird erst, wenn ein zusammenhängender Lauf von 13 Wörtern mit den Webseitendaten übereinstimmt oder mehrere Fundstellen zusammenkommen. Kürzere Treffer sind Fachsprache (Gesetzeswortlaut wie „Wirtschaftsgüter, die unmittelbar dem Betrieb der Personengesellschaft dienen“) und kein Abschreiben. Beanstandete Story-Entwürfe werden einmal neu geschrieben, statt den Slot zu verlieren.
+
 **Tagesdeckel 0,25 €:** Der Bot gibt pro Tag höchstens `IG_TAGESBUDGET_USD` aus (Standard 0,27 $ ≈ 0,25 €). Die Story-Texte des ganzen Tages entstehen im ersten Lauf in einem einzigen günstigen Aufruf, bevor die teureren Beiträge das Budget beanspruchen; `state/kosten.json` hält je Tag zusätzlich fest, wofür das Geld ausgegeben wurde (`zwecke`).
 Vor jedem Claude-Aufruf prüft er den Tagesverbrauch (`state/kosten.json`, Abschnitt `tage`); ist der
 Deckel erreicht, warten alle weiteren Texte bis zum nächsten Tag – bereits geschriebene Inhalte werden
