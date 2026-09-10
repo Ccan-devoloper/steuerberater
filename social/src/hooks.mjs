@@ -8,11 +8,14 @@
    festem Muster – und der Bildschirmtext trägt ihn allein, weil viele ohne Ton
    schauen.
 
-   Die Muster stammen aus der Praxis kurzer Videos (Pattern Interrupt,
-   Wissenslücke, direkte Frage, steile Behauptung, Preisschild, Szene) und sind
-   hier auf das Steuerberaterexamen übersetzt. Welches Muster ein Tag bekommt,
-   entscheidet die Rotation; was messbar besser lief, wird bevorzugt
-   (insights.mjs liefert hookGewicht).
+   Die Muster stammen aus der Praxis kurzer Videos – Neugier und Wissenslücke,
+   Alltagsbezug, Problem und Abhilfe, Widerspruch, direkte Frage, steile
+   Behauptung, Preisschild, Szene – und sind hier auf das Steuerberaterexamen
+   übersetzt. Welches Muster ein Tag bekommt, entscheidet die Rotation; was
+   messbar besser lief, wird bevorzugt (insights.mjs liefert hookGewicht).
+
+   Gesprochen wird der Hook anders als der Rest: langsamer, etwas lauter, mit
+   einer Pause danach (stimme.mjs, reel.mjs).
    ========================================================================== */
 
 /**
@@ -66,6 +69,30 @@ export const HOOKS = {
     beispiele: [
       { titel: "Minute 90, Blatt 4", sprecher: "Du liest den Sachverhalt zum dritten Mal und weißt nicht, wo du anfangen sollst." },
       { titel: "Der Satz im Sachverhalt", sprecher: "Ein Nebensatz im Sachverhalt – und plötzlich läuft die ganze Prüfung anders." },
+    ],
+  },
+  alltag: {
+    name: "Alltag beim Lernen",
+    regel: "Sprich ein Gefühl aus, das jede und jeder beim Lernen kennt, und knüpfe daran das Fachthema. Wiedererkennung vor Fachbegriff.",
+    beispiele: [
+      { titel: "Kennst du diesen Moment?", sprecher: "Du hast das Schema dreimal gelernt und in der Klausur ist es weg." },
+      { titel: "Immer dieselbe Stelle", sprecher: "Jedes Mal, wenn die Bewertung dran ist, fängst du wieder von vorne an." },
+    ],
+  },
+  widerspruch: {
+    name: "Widerspruch",
+    regel: "Stelle eine verbreitete Annahme in Frage, die tatsächlich falsch ist, und löse sie fachlich auf. Nur echte Irrtümer, keine Strohmänner.",
+    beispiele: [
+      { titel: "Das stimmt so nicht", sprecher: "Der Einspruch hemmt die Vollziehung? Genau umgekehrt." },
+      { titel: "Fast alle lernen das falsch", sprecher: "Grobes Verschulden trifft den Steuerpflichtigen? Nicht in dieser Fallgruppe." },
+    ],
+  },
+  loesung: {
+    name: "Problem und Abhilfe",
+    regel: "Nenne den Schmerzpunkt und verspreche im selben Atemzug die Abhilfe, die das Reel liefert. Das Versprechen muss das Reel auch einlösen.",
+    beispiele: [
+      { titel: "Schluss mit Raten", sprecher: "Du weißt nie, wo die Prüfung anfängt? Dafür gibt es genau eine Reihenfolge." },
+      { titel: "Nie wieder Fristchaos", sprecher: "Fristen kosten dich Zeit? Mit drei Fragen bist du in zwanzig Sekunden durch." },
     ],
   },
   kontrast: {
@@ -138,6 +165,9 @@ export function pruefeHook(szene) {
  */
 export function hookTypErkennen(titel = "", sprecher = "") {
   const t = `${titel} ${sprecher}`;
+  if (/stimmt so nicht|genau umgekehrt|lernen das falsch|angeblich|stimmt nicht/i.test(t)) return "widerspruch";
+  if (/schluss mit|nie wieder|dafür gibt es|so gehts|so geht's/i.test(t)) return "loesung";
+  if (/kennst du|jedes mal|immer dieselbe|jeder kennt|geht dir auch/i.test(t)) return "alltag";
   if (/\?/.test(titel)) return "frage";
   if (/fehler|falle|falsch|übersehen|vergessen|die meisten|fast alle/i.test(t)) return "fehler";
   if (/punkt(e|en)?|kostet|wert|note|bringt dir/i.test(t)) return "kosten";
