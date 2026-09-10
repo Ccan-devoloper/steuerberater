@@ -1,0 +1,113 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-modul-kst-4",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der Gesellschafter bekommt einen Vorteil – wo prüfst du das zuerst in der KSt-Klausur?",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "Das Grundschema der vGA",
+      "schritte": [
+        {
+          "titel": "Vermögensminderung feststellen",
+          "text": "Minderung oder verhinderte Mehrung, die sich auf den Unterschiedsbetrag auswirkt, § 8 (3) S. 2 KStG."
+        },
+        {
+          "titel": "Fremdvergleich anstellen",
+          "text": "Hätte ein *ordentlicher* Geschäftsleiter einem fremden Dritten das Gleiche gewährt? Wenn nein: gesellschaftlich veranlasst."
+        },
+        {
+          "titel": "Beschluss ausschließen",
+          "text": "Kein offener Gewinnverteilungsbeschluss – sonst liegt eine reguläre Ausschüttung vor, keine vGA."
+        },
+        {
+          "titel": "Korrektur und Gesellschafterfolge",
+          "text": "Außerbilanzielle Hinzurechnung nach § 8 (3) S. 2 KStG, dann Blick auf § 20 (1) Nr. 1 S. 2 EStG."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "text",
+      "titel": "Beispiel: die Nordlicht GmbH",
+      "text": "Die Nordlicht GmbH überlässt ihrem Alleingesellschafter ein Firmenfahrzeug unentgeltlich zur privaten Nutzung. Ein fremder Dritter hätte dafür ein Nutzungsentgelt gezahlt. Die Differenz mindert das Vermögen der GmbH – gesellschaftlich veranlasst, kein Beschluss dahinter. Ergebnis: eine *vGA* dem Grunde nach.",
+      "icon": "lkw"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Gesellschaft vs. Gesellschafter",
+      "links": {
+        "titel": "Bei der GmbH",
+        "punkte": [
+          "Handelsbilanz bleibt unverändert.",
+          "Außerbilanzielle Hinzurechnung, § 8 (3) S. 2 KStG.",
+          "Ausschüttungsbelastung über § 27 (1) S. 3 KStG."
+        ]
+      },
+      "rechts": {
+        "titel": "Beim Gesellschafter",
+        "punkte": [
+          "Kapitalertrag nach § 20 (1) Nr. 1 S. 2 EStG.",
+          "Bei Kapitalgesellschaft als Empfänger: § 8b (1) KStG.",
+          "Materielle Korrespondenz beachten – R 8.5 KStR."
+        ]
+      },
+      "icon": "personen"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Erst die Handelsbilanz unangetastet lassen, dann außerbilanziell zurechnen – die vGA lebt außerhalb der Buchführung.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Dauerbrenner-Wiederholung bis zur Prüfung.",
+      "punkte": [
+        "Schick das deiner Lerngruppe – vGA kommt fast jedes Jahr dran",
+        "Speichern und in den letzten Wochen wiederholen",
+        "Wo hakt's bei dir: Fremdvergleich oder Gesellschafterfolge? Kommentiere!"
+      ],
+      "icon": "trophaee"
+    }
+  ],
+  "caption": "Verdeckte Gewinnausschüttung KStG Grundschema für die Steuerberaterprüfung Sobald in der Klausur ein Gesellschafter irgendeinen Vorteil bekommt, führt der erste Gedanke fast immer zur vGA. Prüfe in fester Reihenfolge: Vermögensminderung, Fremdvergleich, kein Beschluss, dann außerbilanzielle Korrektur nach § 8 (3) S. 2 KStG. Auf Gesellschafterebene folgt der Kapitalertrag nach § 20 (1) Nr. 1 S. 2 EStG oder § 8b (1) KStG bei Kapitalgesellschaften. Schick das deiner Lerngruppe, bevor ihr die nächste Übungsklausur schreibt, und speichere dir das Schema für die letzten Wochen. Wo verlierst du bei der vGA am ehesten Punkte – beim Fremdvergleich oder bei der Gesellschafterfolge?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#erbschaftsteuer",
+    "#examenszeit",
+    "#verdecktegewinnausschüttung",
+    "#körperschaftsteuer",
+    "#kstg",
+    "#klausurtechnik",
+    "#bilanzsteuerrecht",
+    "#gmbh"
+  ],
+  "kurztitel": "vGA-Grundschema für die KSt-Klausur",
+  "quellen": [
+    "§ 8 Abs. 3 S. 2 KStG",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+    "§ 8b Abs. 1 KStG",
+    "§ 27 Abs. 1 S. 3 KStG",
+    "R 8.5 KStR"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [
+    "Faktencheck ausgefallen: Tagesbudget erreicht (0.252 $ von 0.27 $) – Faktencheck wartet bis morgen."
+  ],
+  "slug": "2026-09-10-f25"
+}
