@@ -67,7 +67,14 @@ async function main() {
   budgetSetzen({
     limitUsd: CONFIG.ki.tagesBudgetUsd,
     bisher: kostenStart.tage?.[datum]?.usd || 0,
-    speichern: (usd, aufrufe) => { const k = hosting.jsonLesen("kosten.json", { wochen: {}, tage: {} }); k.tage = k.tage || {}; k.tage[datum] = { usd: Number(usd.toFixed(4)), aufrufe: (kostenStart.tage?.[datum]?.aufrufe || 0) + aufrufe, stand: new Date().toISOString() }; hosting.jsonSchreiben("kosten.json", k); },
+    speichern: (usd, aufrufe, zwecke) => {
+      const k = hosting.jsonLesen("kosten.json", { wochen: {}, tage: {} }); k.tage = k.tage || {};
+      const alt = kostenStart.tage?.[datum] || {};
+      const gesamtZwecke = { ...(alt.zwecke || {}) };
+      for (const [z, betrag] of Object.entries(zwecke || {})) gesamtZwecke[z] = Number(((alt.zwecke?.[z] || 0) + betrag).toFixed(4));
+      k.tage[datum] = { usd: Number(usd.toFixed(4)), aufrufe: (alt.aufrufe || 0) + aufrufe, zwecke: gesamtZwecke, stand: new Date().toISOString() };
+      hosting.jsonSchreiben("kosten.json", k);
+    },
   });
   log(`Tagesbudget: ${tagesStand().toFixed(3)} $ von ${tagesLimit().toFixed(2)} $ verbraucht`);
   const ledger = ledgerLaden(ledgerPfad);
@@ -168,10 +175,34 @@ async function main() {
   if (!beitraegeFaellig.length && !storiesFaellig.length && !auffuellOffen) { log("Nichts fällig."); return; }
   const frei = () => kontingent.maximum - kontingent.genutzt - CONFIG.instagram.sicherheitsabstandLimit;
 
-  /* Zuerst die Beiträge (wichtiger), dann die Stories. */
   const fertigeBeitraege = new Map();   // slot → Beitrag (für Teaser)
   let fehler = 0;
 
+  /* Story-Texte des ganzen Tages zuerst, in einem einzigen günstigen KI-Aufruf:
+     Sie kosten nur wenige Cent, würden aber ausfallen, wenn erst die teuren
+     Beiträge das Tagesbudget aufbrauchen (so am 09.09.: fünf Abend-Stories
+     blieben liegen). Einmal geschrieben, liegen sie unter inhalte/ und werden
+     in späteren Läufen des Tages nur noch gerendert. */
+  const geschrieben = new Map();
+  const eigenstaendig = plan.stories.filter((s) => s.art !== "teaser" && s.status === "geplant");
+  if (eigenstaendig.length && (storiesFaellig.length || beitraegeFaellig.length)) {
+    const vorhanden = eigenstaendig.map((s) => [s.slot, hosting.jsonLesen(`inhalte/${datum}-${s.slot}.json`, null)]);
+    const offen = vorhanden.filter(([, v]) => !v).map(([slot]) => eigenstaendig.find((s) => s.slot === slot));
+    for (const [slot, v] of vorhanden) if (v) geschrieben.set(slot, v);
+    if (offen.length) {
+      try {
+        const neu = await storiesSchreiben(offen.map((s) => ({ slot: s.slot, art: s.art, thema: s.themaId ? poolIndex.get(s.themaId) : null, tageBisExamen: s.tageBisExamen })), datum);
+        for (const s of neu) { hosting.jsonSchreiben(`inhalte/${datum}-${s.slot}.json`, s); geschrieben.set(s.slot, s); }
+        hosting.commit(`Story-Texte ${datum}`);
+        log(`  Story-Texte für ${neu.length} Slots geschrieben`);
+      } catch (e) {
+        if (e instanceof BudgetFehler) log(`  ⏸ ${e.message}`);
+        else { fehler++; console.error(`  ✗ Stories schreiben: ${e.message}`); }
+      }
+    }
+  }
+
+  /* Dann die Beiträge (wichtiger), zuletzt die Stories veröffentlichen. */
   for (const eintrag of beitraegeFaellig) {
     if (frei() <= 0) { log("Tageskontingent erschöpft – Beitrag verschoben."); break; }
     try {
@@ -244,24 +275,6 @@ async function main() {
       eintrag.fehler = `${new Date().toISOString()} ${e.message}`;
       planSpeichern(hosting, plan);
       console.error(`  ✗ Beitrag ${eintrag.slot}: ${e.message}`);
-    }
-  }
-
-  /* Stories: Teaser aus fertigen Beiträgen, alle anderen in einem KI-Aufruf. */
-  const eigenstaendig = storiesFaellig.filter((s) => s.art !== "teaser");
-  let geschrieben = new Map();
-  if (eigenstaendig.length) {
-    const vorhanden = eigenstaendig.map((s) => [s.slot, hosting.jsonLesen(`inhalte/${datum}-${s.slot}.json`, null)]);
-    const offen = vorhanden.filter(([, v]) => !v).map(([slot]) => eigenstaendig.find((s) => s.slot === slot));
-    for (const [slot, v] of vorhanden) if (v) geschrieben.set(slot, v);
-    if (offen.length) {
-      try {
-        const neu = await storiesSchreiben(offen.map((s) => ({ slot: s.slot, art: s.art, thema: s.themaId ? poolIndex.get(s.themaId) : null, tageBisExamen: s.tageBisExamen })), datum);
-        for (const s of neu) { hosting.jsonSchreiben(`inhalte/${datum}-${s.slot}.json`, s); geschrieben.set(s.slot, s); }
-      } catch (e) {
-        if (e instanceof BudgetFehler) log(`  ⏸ ${e.message}`);
-        else { fehler++; console.error(`  ✗ Stories schreiben: ${e.message}`); }
-      }
     }
   }
 

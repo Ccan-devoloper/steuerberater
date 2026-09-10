@@ -65,9 +65,15 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('social/package-lock.json') }}
 
+      # Der Chrome-Paketspiegel von Google liefert gelegentlich „Hash Sum mismatch“
+      # bei apt-get update; er wird für Playwright nicht gebraucht und deshalb
+      # vorher entfernt. Schlägt die Installation der Systempakete trotzdem fehl,
+      # reicht der gecachte Browser (die Runner bringen die Bibliotheken mit).
       - name: Chromium installieren
         working-directory: social
-        run: npx playwright install --with-deps chromium
+        run: |
+          sudo rm -f /etc/apt/sources.list.d/google-chrome*.list /etc/apt/sources.list.d/google.list || true
+          npx playwright install --with-deps chromium || npx playwright install chromium
 
       # Kostenlose Offline-Stimme für Reels (Piper „Thorsten“, neuronal). Wird nur
       # gebraucht, wenn kein ElevenLabs-Schlüssel gesetzt ist; kostet sonst nichts.
@@ -132,7 +138,6 @@ jobs:
           PIPER_VOICES_DIR: /home/runner/.cache/piper-voices
           IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
           IG_HANDLE: ${{ vars.IG_HANDLE }}
-          IG_STIL: ${{ vars.IG_STIL }}
           IG_WEBSITE: ${{ vars.IG_WEBSITE }}
           IG_MARKE: ${{ vars.IG_MARKE }}
           IG_EXAMEN_DATUM: ${{ vars.IG_EXAMEN_DATUM }}

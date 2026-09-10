@@ -70,7 +70,7 @@ jede Recherche und jede Kommentarantwort ruft der Bot die Claude API auf, und An
 nach verarbeiteten Wörtern (Tokens) ab – eine eigene Abrechnung mit Guthaben, unabhängig von einem
 Claude-Abo.
 
-**Tagesdeckel 0,25 €:** Der Bot gibt pro Tag höchstens `IG_TAGESBUDGET_USD` aus (Standard 0,27 $ ≈ 0,25 €).
+**Tagesdeckel 0,25 €:** Der Bot gibt pro Tag höchstens `IG_TAGESBUDGET_USD` aus (Standard 0,27 $ ≈ 0,25 €). Die Story-Texte des ganzen Tages entstehen im ersten Lauf in einem einzigen günstigen Aufruf, bevor die teureren Beiträge das Budget beanspruchen; `state/kosten.json` hält je Tag zusätzlich fest, wofür das Geld ausgegeben wurde (`zwecke`).
 Vor jedem Claude-Aufruf prüft er den Tagesverbrauch (`state/kosten.json`, Abschnitt `tage`); ist der
 Deckel erreicht, warten alle weiteren Texte bis zum nächsten Tag – bereits geschriebene Inhalte werden
 trotzdem veröffentlicht. Damit das reicht, läuft alles im Sparbetrieb: Beiträge, Reels, Stories,
@@ -110,7 +110,8 @@ GitHub → Repository → *Settings* → *Secrets and variables* → *Actions*
 | Name | Beispiel | Bedeutung |
 | --- | --- | --- |
 | `IG_HANDLE` | leer | Handle unten links auf jeder Kachel – solange leer, steht dort nichts |
-| `IG_STIL` | `kanzlei` | Stil: `kanzlei` (schwarz, herrjurist-Look) · `klausurbogen` (Papier/Tinte wie die Webseite) · `campus` (Indigo/Limette) |
+| `IG_STIL` | `bunt` | Stil: `bunt` (vollflächig in der Klausurtag-Farbe, Pills, mehrere Elemente) · `kanzlei` (schwarz, herrjurist-Look) · `klausurbogen` (Papier/Tinte wie die Webseite) · `campus` (Indigo/Limette). Der Workflow liest diese Variable bewusst **nicht** aus den Repo-Variablen; wer den Stil ändern will, setzt sie im Workflow unter `env`. |
+| `IG_KI_RECHERCHE_SUCHEN` | `4` | Websuchen je Recherche (Format `aktuell`, Lösungsskizzen); jede Suche kostet 0,01 $ plus die Ergebnis-Tokens |
 | `IG_WEBSITE` | leer | nur in Captions, nur wenn gesetzt – nie auf Kacheln |
 | `IG_MARKE` | leer | Kanalname im Prompt (nicht auf den Kacheln) |
 | `IG_STIL_WECHSEL` | `true` | Kanzlei-Stil im Wechsel Schwarz/Weiß |
