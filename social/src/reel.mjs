@@ -11,7 +11,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
-import { browserStarten } from "./render.mjs";
+import { browserStarten, coverRendern } from "./render.mjs";
 import { css, klausurCss, buntCss } from "./vorlagen.mjs";
 import { stil as stilLaden, iconSvg } from "./stile.mjs";
 import { FAECHER } from "./inhalte.mjs";
@@ -366,6 +366,21 @@ function klangbettFilter(dauer) {
   return `aevalsrc='0.20*sin(2*PI*110*t)*(0.6+0.4*sin(2*PI*0.11*t))+0.14*sin(2*PI*164.8*t)*(0.6+0.4*sin(2*PI*0.07*t+1))+0.10*sin(2*PI*220*t)*(0.5+0.5*sin(2*PI*0.05*t+2))+0.06*sin(2*PI*329.6*t)*(0.5+0.5*sin(2*PI*0.09*t+3))':s=48000:d=${dauer.toFixed(2)},lowpass=f=900,highpass=f=60,afade=t=in:d=1.5,afade=t=out:st=${Math.max(0, dauer - 2).toFixed(2)}:d=2,volume=0.12`;
 }
 
+/* Angaben für das Cover: Thema, Fach und Dauer stehen schon im Reel-Skript,
+   ein zusätzlicher KI-Aufruf ist dafür nicht nötig. */
+export function coverDaten(reel, plan) {
+  const sekunden = Math.round(plan?.gesamt || 0);
+  return {
+    titel: reel.kurztitel || reel.szenen?.[0]?.titel || "Reel",
+    ueberzeile: sekunden ? `Reel · ${sekunden} Sekunden` : "Reel",
+    dauerText: sekunden ? `In ${sekunden} Sekunden erklärt` : "",
+    icon: reel.szenen?.find((s) => s.icon)?.icon || "paragraf",
+    fach: reel.fach,
+    klausur: reel.klausur,
+    fachLabel: FAECHER[reel.fach]?.label,
+  };
+}
+
 /**
  * Baut das Reel. Rückgabe: { video, cover, dauer, echt }
  */
@@ -406,10 +421,18 @@ export async function reelBauen(reel, ausgabeDir, opt = {}) {
   }
   args.push("-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", String(fps), "-t", plan.gesamt.toFixed(2), "-movflags", "+faststart", video);
   execFileSync(ffmpegPfad(), args, { stdio: ["ignore", "pipe", "pipe"] });
-  /* Cover: mit Clip aus dem fertigen Video (Frames sind transparent). */
-  const coverFrame = Math.min(n - 1, Math.round(0.9 * fps));
-  if (clip) execFileSync(ffmpegPfad(), ["-y", "-hide_banner", "-loglevel", "error", "-ss", (coverFrame / fps).toFixed(2), "-i", video, "-frames:v", "1", "-q:v", "3", cover], { stdio: ["ignore", "pipe", "pipe"] });
-  else fs.copyFileSync(path.join(frameDir, `f${String(coverFrame).padStart(5, "0")}.jpg`), cover);
+  /* Cover: eigenes Standbild mit Thema, Fach und Dauer. Im Feed und im
+     Profilraster soll auf einen Blick zu sehen sein, worum es geht; ein Bild
+     aus dem Video zeigt sonst nur den Hintergrundclip. Klappt das Rendern
+     nicht, bleibt der bisherige Weg über ein Videobild. */
+  try {
+    await coverRendern(coverDaten(reel, plan), cover);
+  } catch (e) {
+    console.warn(`  ! Cover nicht gerendert (${e.message}) – nehme ein Bild aus dem Video.`);
+    const coverFrame = Math.min(n - 1, Math.round(0.9 * fps));
+    if (clip) execFileSync(ffmpegPfad(), ["-y", "-hide_banner", "-loglevel", "error", "-ss", (coverFrame / fps).toFixed(2), "-i", video, "-frames:v", "1", "-q:v", "3", cover], { stdio: ["ignore", "pipe", "pipe"] });
+    else fs.copyFileSync(path.join(frameDir, `f${String(coverFrame).padStart(5, "0")}.jpg`), cover);
+  }
   if (!opt.framesBehalten) fs.rmSync(frameDir, { recursive: true, force: true });
   return { video, cover, dauer: plan.gesamt, echt: plan.echt, anbieter: plan.anbieter, szenen: plan.szenen.length, animation: clip ? `Clip ${path.basename(clip)}` : ctx.animation };
 }

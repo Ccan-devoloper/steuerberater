@@ -7,7 +7,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { chromium } from "playwright";
-import { folieHtml, storyHtml, MASSE } from "./vorlagen.mjs";
+import { folieHtml, storyHtml, coverHtml, MASSE } from "./vorlagen.mjs";
 import { stil as stilLaden, stilFuer } from "./stile.mjs";
 import { FAECHER } from "./inhalte.mjs";
 import { CONFIG } from "./config.mjs";
@@ -64,10 +64,14 @@ function einpassen() {
   if (!wurzel) return;
   const px = (el) => parseFloat(getComputedStyle(el).fontSize);
   const setze = (el, f) => { el.style.fontSize = `${Math.max(28, px(el) * f)}px`; };
-  /* 1. Einzelne Zeilen/Blöcke, die breiter als ihr Platz sind (lange Wörter). */
+  /* 1. Einzelne Zeilen/Blöcke, die breiter als ihr Platz sind (lange Wörter).
+        Neben dem eigenen Überlauf zählt der rechte Rand der Kachel: Elemente
+        mit „width:fit-content“ (im bunten Stil etwa die Titelpille) wachsen
+        sonst über die Kachel hinaus, ohne selbst zu überlaufen. */
+  const innenRechts = wurzel.getBoundingClientRect().right - parseFloat(getComputedStyle(wurzel).paddingRight || 0);
   for (const el of wurzel.querySelectorAll("h1,h2,h3,.merke,.norm,.zahl-unter,.karte .t,.pille,.ueberzeile,.formel,.zeile")) {
     let n = 0;
-    while (el.scrollWidth > el.clientWidth + 1 && n++ < 14) setze(el, 0.94);
+    while ((el.scrollWidth > el.clientWidth + 1 || el.getBoundingClientRect().right > innenRechts + 1) && n++ < 20) setze(el, 0.94);
   }
   /* 2. Gesamthöhe: Fußzeile muss innerhalb der Kachel bleiben. */
   const fuss = wurzel.querySelector(".fuss");
@@ -98,4 +102,10 @@ export async function beitragRendern(beitrag, zielVerzeichnis, opt = {}) {
 export async function storyRendern(story, zielPfad, opt = {}) {
   const ctx = kontext({ ...opt, fach: story.fach, klausur: story.klausur, fachLabel: story.fachLabel, variante: opt.variante ?? story.variante });
   return htmlZuJpeg(storyHtml(story, ctx), MASSE.story, zielPfad);
+}
+
+/* Cover eines Reels (Standbild für Feed und Profilraster). */
+export async function coverRendern(daten, zielPfad, opt = {}) {
+  const ctx = kontext({ ...opt, fach: daten.fach, klausur: daten.klausur, fachLabel: daten.fachLabel });
+  return htmlZuJpeg(coverHtml(daten, ctx), MASSE.story, zielPfad);
 }

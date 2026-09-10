@@ -249,6 +249,13 @@ Reels sind der größte Reichweiten-Hebel auf Instagram. Der Bot baut sie aus ei
 mitlaufende Untertitel Wort für Wort, dezentes Klangbett, Cover-Bild. Format: MP4, H.264, AAC,
 1080×1920, 30 fps – direkt über die Graph API als `REELS` veröffentlicht (`share_to_feed`).
 
+**Cover:** Das Standbild, das im Feed und im Profilraster für das Reel steht, wird eigens
+gerendert: Thema, Fach und Dauer auf der Fläche des Klausurtags, dazu ein Icon. So ist auf einen
+Blick zu sehen, worum es geht; ein Bild aus dem Video zeigte sonst nur den Hintergrundclip. Alles
+Wichtige liegt im mittleren 4:5-Bereich, den Instagram im Raster zeigt. Zusätzliche Kosten entstehen
+nicht, die Angaben stehen schon im Reel-Skript. Schlägt das Rendern fehl, greift der bisherige Weg
+über ein Videobild.
+
 **Hintergrund-Clip (Standard, sobald einer vorliegt):** Liegen unter `state/hintergrund/` im
 Asset-Zweig Videos (`*.mp4`, ideal 1080 × 1920, 30 fps, stumm, nahtlos loopbar), läuft der Clip des
 Tages vollflächig im Hintergrund, geloopt über die Reel-Länge; der Inhalt liegt als Karte in der
