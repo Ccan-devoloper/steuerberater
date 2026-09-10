@@ -1,0 +1,59 @@
+{
+  "format": "reel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-322",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Einspruch beim falschen Amt?",
+      "unter": "Warum die Frist trotzdem reißen kann",
+      "icon": "warnung",
+      "sprecher": "Dein Einspruch geht beim falschen Finanzamt ein. Fristwahrend? Nicht automatisch. Und genau da verlieren viele in der Klausur Punkte."
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Wo darf er eingehen?",
+      "text": "Erst das Anbringungs-Finanzamt bestimmen.",
+      "sprecher": "Zuerst bestimmst du, bei welchem Finanzamt der Einspruch nach Paragraf 357 Absatz 2 AO überhaupt angebracht werden darf."
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Wo kam er wirklich an?",
+      "text": "Tatsächlichen Eingang mit dem Soll-Amt vergleichen.",
+      "sprecher": "Dann prüfst du, wo er tatsächlich eingegangen ist. Stimmt das nicht überein, ist die Frist noch lange nicht automatisch gewahrt."
+    },
+    {
+      "art": "merke",
+      "titel": "Erst das Wo, dann das Wann",
+      "norm": "§ 110 AO · AEAO zu § 110 Nr. 2",
+      "sprecher": "Merk dir: Wiedereinsetzung nach Paragraf 110 AO gibt es nur, wenn eine rechtzeitige Weiterleitung an das richtige Amt noch möglich gewesen wäre."
+    },
+    {
+      "art": "cta",
+      "titel": "Nächstes Thema: Fristverlängerung",
+      "sprecher": "Morgen geht's um die Fristverlängerung bei Steuererklärungen. Folg mir, damit du das nicht verpasst."
+    }
+  ],
+  "caption": "Einspruch beim falschen Finanzamt eingelegt – ist die Frist gewahrt?\n\nNicht automatisch. Entscheidend ist zuerst, wo der Einspruch nach Paragraf 357 Absatz 2 AO hätte eingehen müssen, und erst danach, ob eine rechtzeitige Weiterleitung noch möglich gewesen wäre.\n\nSchick das deiner Lerngruppe, bevor ihr diesen Klassiker in der Klausur verliert. Speichern nicht vergessen.\n\nWer von euch hat diesen Fehler schon mal in einer Übungsklausur gemacht?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#einspruch",
+    "#abgabenordnung",
+    "#wiedereinsetzung",
+    "#klausurtag1",
+    "#verfahrensrecht",
+    "#fristen"
+  ],
+  "kurztitel": "Einspruch: Wo statt Wann",
+  "hookTyp": "fehler",
+  "slug": "2026-09-10-b2"
+}
