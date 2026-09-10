@@ -1,0 +1,91 @@
+{
+  "format": "klausurtechnik",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr3-05",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "§ 50 EStG in der Klausur: Prüfst du Tarif und Abgeltung in der richtigen Reihenfolge?",
+      "icon": "globus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "schritte",
+      "titel": "Die Prüfreihenfolge, die zählt",
+      "schritte": [
+        {
+          "titel": "Einkünfte sammeln",
+          "text": "Nur das, was nach § 49 EStG erfasst ist, kommt überhaupt in den Topf."
+        },
+        {
+          "titel": "Abzüge und Tarif",
+          "text": "§ 50 (1) EStG: eingeschränkte persönliche Abzüge, eigene Tarifmechanik beachten."
+        },
+        {
+          "titel": "Abgeltung prüfen",
+          "text": "§ 50 (2) S. 1 EStG: Quellensteuer wirkt grundsätzlich *abgeltend*."
+        },
+        {
+          "titel": "Ausnahme checken",
+          "text": "§ 50 (2) S. 2 Nr. 5 EStG: bei bestimmten § 50a-Einkünften keine Abgeltung."
+        },
+        {
+          "titel": "Vorteil rechnen",
+          "text": "Veranlagungsoption möglich? Dann Quellensteuersatz mit Veranlagungsergebnis vergleichen."
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "text",
+      "titel": "Der Fehler, der Punkte kostet",
+      "text": "Viele werfen Tarifberechnung und Quellensteuerabzug in einen Topf. Das sind zwei getrennte Ebenen: Erst das materielle zvE nach § 50 (1) EStG ermitteln, dann *separat* fragen, ob eine Quellensteuer abgeltend wirkt oder eine Ausnahme greift. Und selbst wenn eine Veranlagung rechtlich möglich ist, heißt das nicht, dass sie sich lohnt – Rechtsmöglichkeit und Vorteilhaftigkeit sind zwei verschiedene Fragen.",
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "§ 50 EStG klärt nicht, ob Deutschland zugreift, sondern wie viel beim Zugriff hängen bleibt.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Klausurtechnik für die letzten Wochen.",
+      "punkte": [
+        "Schick das deiner Lerngruppe – § 50 kommt fast jedes Jahr dran",
+        "Speichern und vor der Klausur nochmal durchgehen",
+        "Wo hakt's bei dir: Abgeltung oder Veranlagungsoption? Kommentiere!"
+      ],
+      "icon": "trophaee"
+    }
+  ],
+  "caption": "§ 50 EStG Klausur beschränkte Steuerpflicht Abgeltungswirkung – der Dauerbrenner in Klausur 2. Der Klassiker: Tarifberechnung und Quellensteuerabzug werden vermischt. Erst die Einkünfte nach § 49 EStG sammeln, dann § 50 (1) EStG für Tarif und Abzüge anwenden, dann getrennt prüfen, ob § 50 (2) S. 1 EStG abgeltend wirkt – und ob die Ausnahme in Nr. 5 greift. Wichtig für die Klausur: Auch wenn eine Veranlagung rechtlich möglich ist, muss sie nicht günstiger sein. Immer nachrechnen. Schick das deiner Lerngruppe, bevor ihr das nächste Mal über § 50a stolpert. Speichern nicht vergessen. Wer hat in der Übungsklausur schon mal die Abgeltungswirkung übersehen?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#erbschaftsteuer",
+    "#examenszeit",
+    "#internationalessteuerrecht",
+    "#beschränktesteuerpflicht",
+    "#paragraf50estg",
+    "#klausurtechnik",
+    "#ertragsteuern",
+    "#quellensteuer"
+  ],
+  "kurztitel": "§ 50 EStG: Tarif und Abgeltung",
+  "quellen": [],
+  "hookTyp": "frage",
+  "faktenHinweise": [
+    "Prüfreihenfolge, Punkt 'Abzüge und Tarif': Die Formulierung '§ 50 (1) EStG: eingeschränkte persönliche Abzüge, eigene Tarifmechanik beachten' könnte missverständlich sein. § 50 Abs. 1 EStG regelt die persönlichen Abzüge (Freibetrag nach § 32d EStG, Sparerpauschale etc.), aber die 'Tarifmechanik' bei beschränkter Steuerpflicht ist nicht vollständig in § 50 Abs. 1 EStG selbst geregelt. Die Tarifbestimmung erfolgt vielmehr nach § 32d EStG, und die Besonderheit der beschränkten Steuerpflicht ist die Anwendung eines proportionalen Steuersatzes (§ 50 Abs. 3 EStG oder vergleichbar). Hier könnte eine präzisere Referenz hilfreich sein.",
+    "Caption: 'bevor ihr das nächste Mal über § 50a stolpert': Der Bezug zu § 50a wirkt etwas abrupt, da § 50a EStG (Einkünfte aus Kapitalvermögen) im Text davor nicht eingeführt wurde. Der Bezug ist zwar sachlich nachvollziehbar (§ 50a betrifft beschränkt Steuerpflichtige), aber im Kontext der bisherigen Erklärung nicht unmittelbar vorbereitet."
+  ],
+  "slug": "2026-09-10-f24"
+}
