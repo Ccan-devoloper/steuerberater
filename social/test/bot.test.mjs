@@ -258,7 +258,12 @@ test("Lernschleife: Gewichte, Hook-Typen, beste Uhrzeiten, Plan folgt der Strate
   assert.ok(plan.beitraege.some((b) => b.format === "fehlerfalle"), JSON.stringify(plan.beitraege.map((b) => b.format)));
   assert.ok(!plan.beitraege.some((b) => b.format === "spickzettel"));
   assert.equal(plan.beitraege.at(-1).format, "reel");
-  assert.deepEqual(plan.beitraege.map((b) => b.zeit), s.besteStunden.slice(0, plan.beitraege.length));
+  /* Uhrzeiten kommen aus der Zeit-Lernschleife (zeiten.mjs): im erlaubten
+     Fenster, aufsteigend und mit Mindestabstand. */
+  const zeitenPlan = plan.beitraege.map((b) => minutenVon(b.zeit));
+  assert.ok(zeitenPlan[0] >= minutenVon("06:00"), plan.beitraege.map((b) => b.zeit).join(" "));
+  assert.ok(zeitenPlan.at(-1) <= minutenVon("21:59"));
+  assert.ok(zeitenPlan[1] - zeitenPlan[0] >= CONFIG.plan.zeitAbstandStunden * 60);
 });
 
 test("Wochenbericht und Schlüsselwort-Auswahl", async () => {
@@ -427,3 +432,56 @@ test("Reel täglich, Budget dafür zurückgelegt", async () => {
   budgetPruefen("Text schreiben");          // nach dem Reel wieder frei
   budgetSetzen({ limitUsd: Infinity, bisher: 0 });
 });
+
+test("Uhrzeiten werden gelernt: Erkundung ohne Daten, beste Stunde mit Daten", async () => {
+  const { zeitenWaehlen, zeitStatistik, zeitBericht, klasseVon } = await import("../src/zeiten.mjs");
+  assert.equal(klasseVon("reel"), "reel");
+  assert.equal(klasseVon("spickzettel"), "karussell");
+
+  /* Ohne Messungen: gültige Zeiten im Fenster, Mindestabstand eingehalten,
+     und über die Woche werden verschiedene Stunden ausprobiert. */
+  const leer = { veroeffentlicht: [] };
+  const gesehen = new Set();
+  for (const datum of ["2026-09-14", "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18", "2026-09-19", "2026-09-20"]) {
+    const z = zeitenWaehlen({ formate: ["spickzettel", "reel"], datum, ledger: leer, zufall: rngFuer(datum) });
+    assert.equal(z.length, 2);
+    const [a, b] = z.map((t) => minutenVon(t));
+    assert.ok(a >= minutenVon("06:00") && b <= minutenVon("21:59"), z.join(" "));
+    assert.ok(b - a >= CONFIG.plan.zeitAbstandStunden * 60, `Abstand zu klein: ${z.join(" ")}`);
+    z.forEach((t) => gesehen.add(t));
+  }
+  assert.ok(gesehen.size >= 3, `zu wenig Erkundung: ${[...gesehen].join(" ")}`);
+
+  /* Mit Messungen: 19 Uhr läuft für Reels deutlich besser, 8 Uhr fürs Karussell. */
+  const ledger = { veroeffentlicht: [] };
+  for (let i = 0; i < 10; i++) {
+    ledger.veroeffentlicht.push({ art: "beitrag", datum: "2026-09-01", format: "reel", stunde: 19, insights: { reach: 4000, saved: 40, shares: 20, follows: 4 } });
+    ledger.veroeffentlicht.push({ art: "beitrag", datum: "2026-09-01", format: "reel", stunde: 11, insights: { reach: 200, saved: 1, shares: 0, follows: 0 } });
+    ledger.veroeffentlicht.push({ art: "beitrag", datum: "2026-09-01", format: "spickzettel", stunde: 8, insights: { reach: 3000, saved: 30, shares: 15, follows: 3 } });
+    ledger.veroeffentlicht.push({ art: "beitrag", datum: "2026-09-01", format: "spickzettel", stunde: 15, insights: { reach: 150, saved: 1, shares: 0, follows: 0 } });
+  }
+  const stat = zeitStatistik(ledger);
+  assert.equal(stat.gesamt, 40);
+  assert.ok(stat.stunden["reel|19"].mittel > stat.stunden["reel|11"].mittel);
+  const zeiten = zeitenWaehlen({ formate: ["spickzettel", "reel"], datum: "2026-09-21", ledger, zufall: rngFuer("x") });
+  assert.equal(zeiten[0], "08:30", zeiten.join(" "));
+  assert.equal(zeiten[1], "19:30", zeiten.join(" "));
+
+  /* Bericht nennt die besten Stunden je Art. */
+  const b = zeitBericht(ledger);
+  assert.equal(b.klassen.reel[0].stunde, 19);
+  assert.equal(b.klassen.karussell[0].stunde, 8);
+
+  /* Abschaltbar: dann gelten die Startwerte. */
+  CONFIG.plan.zeitLernen = false;
+  assert.deepEqual(zeitenWaehlen({ formate: ["spickzettel", "reel"], datum: "2026-09-21", ledger }), CONFIG.plan.beitragsZeiten.slice(0, 2));
+  CONFIG.plan.zeitLernen = true;
+});
+
+/* Kleiner, reproduzierbarer Zufall für die Tests. */
+function rngFuer(text) {
+  let h = 1779033703 ^ text.length;
+  for (let i = 0; i < text.length; i++) { h = Math.imul(h ^ text.charCodeAt(i), 3432918353); h = (h << 13) | (h >>> 19); }
+  let a = h >>> 0;
+  return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+}
