@@ -551,3 +551,32 @@ test("Der Hook wird betont gesprochen und bekommt eine Pause", async () => {
   assert.ok(nachlaufHook > nachlaufSchritt, `${nachlaufHook} !> ${nachlaufSchritt}`);
   assert.ok(gerufen.length === 0);
 });
+
+test("Normen stehen in der Klausur-Kurzform, die Stimme liest sie ausgeschrieben", async () => {
+  const { normKurz, normGesprochen, felderKuerzen } = await import("../src/normen.mjs");
+  assert.equal(normKurz("§ 7 Abs. 1 Satz 1 Nummer 1 Buchstabe a Doppelbuchstabe aa EStG"), "§ 7 (1) S. 1 Nr. 1 lit. a) aa) EStG");
+  assert.equal(normKurz("§ 15 Abs. 1 S. 1 Nr. 2 EStG"), "§ 15 (1) S. 1 Nr. 2 EStG");
+  assert.equal(normKurz("§ 5 Abs. 1a EStG"), "§ 5 (1a) EStG");
+  assert.equal(normKurz("§ 4 Nr. 9 Buchst. a UStG"), "§ 4 Nr. 9 lit. a) UStG");
+  assert.equal(normKurz("§ 6 Abs. 1 Nr. 1 Satz 2 Halbsatz 1 EStG"), "§ 6 (1) Nr. 1 S. 2 Hs. 1 EStG");
+  /* Schon kurze Normen bleiben unverändert – die Regel darf nicht doppelt greifen. */
+  assert.equal(normKurz("§ 7 (1) S. 1 Nr. 1 lit. a) aa) EStG"), "§ 7 (1) S. 1 Nr. 1 lit. a) aa) EStG");
+  assert.equal(normKurz("§§ 238, 242, 246 HGB"), "§§ 238, 242, 246 HGB");
+  /* Fließtext bleibt Fließtext. */
+  assert.equal(normKurz("Die Frist beträgt nach § 169 Abs. 2 AO vier Jahre."), "Die Frist beträgt nach § 169 (2) AO vier Jahre.");
+
+  /* Für die Stimme wieder ausgeschrieben, sonst liest sie „Klammer auf eins“. */
+  assert.equal(normGesprochen("§ 7 (1) S. 1 Nr. 1 lit. a) EStG"), "Paragraf 7 Absatz 1 Satz 1 Nummer 1 Buchstabe a EStG");
+  assert.match(normGesprochen("§ 357 (2) S. 3 AO i.V.m. § 355 (1) AO"), /in Verbindung mit/);
+
+  /* Die Felder eines Objekts werden mitsamt Punkteliste umgeschrieben. */
+  const folie = { titel: "Frist nach § 169 Abs. 2 AO", text: null, punkte: ["§ 173 Abs. 1 Nr. 1 AO prüfen"] };
+  felderKuerzen(folie, ["titel", "text", "norm"]);
+  assert.equal(folie.titel, "Frist nach § 169 (2) AO");
+  assert.equal(folie.punkte[0], "§ 173 (1) Nr. 1 AO prüfen");
+  assert.equal(folie.text, null);
+
+  /* Die Plagiatsprüfung erkennt die Kurzform weiterhin als Normzitat. */
+  const { ohneNormen } = await import("../src/pruefung.mjs");
+  assert.match(ohneNormen("Nach § 15 (1) S. 1 Nr. 2 EStG gilt das."), /Nach\s+NORM\s+gilt das\./);
+});
