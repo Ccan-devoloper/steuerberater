@@ -244,7 +244,7 @@ async function main() {
       if (eintrag.format === "reel") {
         let reel = hosting.jsonLesen(`inhalte/${datum}-${eintrag.slot}.json`, null);
         if (!reel) {
-          reel = await reelSchreiben({ thema: eintrag.themaId ? poolIndex.get(eintrag.themaId) : null, datum, lang: Boolean(eintrag.lang), anlass: plan.anlass });
+          reel = await reelSchreiben({ thema: eintrag.themaId ? poolIndex.get(eintrag.themaId) : null, datum, lang: Boolean(eintrag.lang), anlass: plan.anlass, strategie });
           reel.slug = `${datum}-${eintrag.slot}`;
           hosting.jsonSchreiben(`inhalte/${datum}-${eintrag.slot}.json`, reel);
         }
@@ -256,7 +256,7 @@ async function main() {
         const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption });
         kontingent.genutzt += 1;
         eintrag.status = "veroeffentlicht"; eintrag.medienId = medienId; eintrag.veroeffentlicht = new Date().toISOString();
-        vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, hookTyp: reel.hookTyp, medienId, variante: varianteReel, hashtags: reel.hashtags, veroeffentlicht: new Date().toISOString() });
+        vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, hookTyp: reel.hookTyp, hookMuster: reel.hookMuster, medienId, variante: varianteReel, hashtags: reel.hashtags, veroeffentlicht: new Date().toISOString() });
         eintrag.kanaele = await verteilen({ art: "reel", videoUrl, videoPfad: r.video, bildUrls: [coverUrl], titel: reel.kurztitel || reel.szenen[0]?.titel, text: caption, hashtags: reel.hashtags }, { log, trockenlauf: trocken });
         fertigeBeitraege.set(eintrag.slot, { ...reel, folien: [{ art: "titel", titel: reel.szenen[0]?.titel, icon: reel.szenen[0]?.icon }], kurztitel: reel.kurztitel });
         ledgerSpeichern(ledgerPfad, ledger); planSpeichern(hosting, plan);

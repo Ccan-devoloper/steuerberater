@@ -494,3 +494,33 @@ function rngFuer(text) {
   let a = h >>> 0;
   return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
 }
+
+test("Reel-Hooks: Muster rotieren, schwache Einstiege fallen durch", async () => {
+  const { HOOKS, HOOK_TYPEN, hookWaehlen, hookAnleitung, pruefeHook, hookTypErkennen } = await import("../src/hooks.mjs");
+  /* Jedes Muster hat Regel und Beispiele – sie stehen im Auftrag an das Modell. */
+  for (const [typ, h] of Object.entries(HOOKS)) {
+    assert.ok(h.regel.length > 30, typ);
+    assert.ok(h.beispiele.length >= 2, typ);
+    for (const b of h.beispiele) assert.ok(b.titel.split(/\s+/).length <= 6, `${typ}: „${b.titel}“ zu lang`);
+  }
+  /* Rotation: sieben Tage, mehrere verschiedene Muster. */
+  const gewaehlt = new Set(["2026-09-14", "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18", "2026-09-19", "2026-09-20"].map((d) => hookWaehlen(d)));
+  assert.ok(gewaehlt.size >= 4, [...gewaehlt].join(" "));
+  for (const t of gewaehlt) assert.ok(HOOK_TYPEN.includes(t));
+  /* Gelernte Gewichte: ein schwaches Muster fällt aus der Rotation. */
+  const strategie = { hookGewicht: Object.fromEntries(HOOK_TYPEN.map((t) => [t, t === "frage" ? 0.5 : 1.4])) };
+  for (const d of ["2026-09-14", "2026-09-15", "2026-09-16", "2026-09-17"]) assert.notEqual(hookWaehlen(d, strategie), "frage");
+  assert.match(hookAnleitung("fehler"), /Fehler-Hook/);
+
+  /* Strukturprüfung */
+  assert.deepEqual(pruefeHook({ titel: "Falsches Amt, Frist weg?", sprecher: "Der Einspruch landet beim falschen Finanzamt. Viele schreiben sofort: unzulässig." }), []);
+  assert.ok(pruefeHook({ titel: "Kurz", sprecher: "Hallo und willkommen zurück, heute geht es um die Abgabenordnung." }).some((f) => /schwacher Einstieg/.test(f)));
+  assert.ok(pruefeHook({ titel: "Ein sehr langer Bildschirmtext der viel zu viele Wörter hat", sprecher: "Kurz." }).some((f) => /Bildschirmtext hat/.test(f)));
+  assert.ok(pruefeHook({ titel: "Gut", sprecher: "Dieser eine Satz ist viel zu lang geraten und enthält deutlich mehr Wörter als ein Hook vertragen kann, nämlich sehr viele." }).some((f) => /Aufhänger hat/.test(f)));
+  assert.ok(pruefeHook(null).length === 1);
+
+  /* Zuordnung für die Lernschleife */
+  assert.equal(hookTypErkennen("Wer schuldet die Steuer?", ""), "frage");
+  assert.equal(hookTypErkennen("Der teuerste Denkfehler", "Fast alle prüfen zuerst die Frist."), "fehler");
+  assert.equal(hookTypErkennen("Ein Halbsatz entscheidet", "In Paragraf 173 steckt ein Halbsatz."), "luecke");
+});

@@ -17,6 +17,7 @@ import { folieLeer, pruefeBeitrag, korpus } from "./pruefung.mjs";
 import { datumLesbar, tageBis } from "./zeit.mjs";
 import { erfassen, budgetPruefen } from "./kosten.mjs";
 import { pruefeFakten } from "./faktencheck.mjs";
+import { hookWaehlen as hookMusterWaehlen, hookAnleitung, pruefeHook, hookTypErkennen } from "./hooks.mjs";
 import { hookTyp } from "./insights.mjs";
 import { phase } from "./kalender.mjs";
 
@@ -540,20 +541,23 @@ Du schreibst ein Skript aus 6–8 Szenen. Jede Szene hat einen kurzen Bildschirm
 - Szenenarten: hook (Frage/Aufhänger, Folge 1), schritt (nummeriert, für Prüfschritte) oder punkt (unnummeriert), merke (Merksatz + norm), cta (Abschluss mit Ausblick auf das nächste Thema).
 - Bildschirmtext: titel maximal 7 Wörter, text maximal 14 Wörter. Was gesprochen wird, steht NICHT wortgleich auf dem Bildschirm – der Bildschirm zeigt die Essenz, die Stimme erklärt.
 - Sprechertext: So, wie ein Mensch spricht, nicht wie ein Lehrbuch. Kurze Hauptsätze, direkte Ansprache, gelegentlich ein Gedankenstrich als Pause, ein „Also:“, „Kurz gesagt:“, „Und jetzt der Punkt, den fast alle übersehen.“ Keine Klammern, keine Abkürzungen (schreibe „Paragraf zweihundertneunundvierzig Absatz eins“ als „Paragraf 249 Absatz 1“ – die Stimme liest Ziffern korrekt). Keine Aufzählungszeichen. Je Szene 1–3 Sätze, insgesamt 110–150 Wörter.
-- Der hook muss in den ersten zwei Sekunden neugierig machen: eine Frage, ein Fehler, ein Versprechen.
+- Szene 1 ist der Hook. Wie er zu bauen ist, steht unten in einem eigenen Abschnitt; er entscheidet über die Reichweite des ganzen Reels.
 - cta: Ausblick auf das nächste Thema und Aufforderung zu folgen, ohne Website, ohne Produkt.
 - icon nur beim hook.`;
 
 /* Reel-Skript schreiben (Szenen mit Bildschirm- und Sprechertext). */
-export async function reelSchreiben({ thema, datum, lang = false, anlass = null }) {
+export async function reelSchreiben({ thema, datum, lang = false, anlass = null, strategie = null }) {
   const fach = thema?.fach || "bilanz";
   const klausur = FAECHER[fach]?.klausur || 3;
   const sperr = korpus().namen;
+  /* Muster des Tages – rotiert, bevorzugt aber, was gemessen besser lief. */
+  const hookMuster = hookMusterWaehlen(datum, strategie);
   let feedback = "", letzter = null;
   for (let versuch = 1; versuch <= CONFIG.ki.maxVersuche; versuch++) {
     const user = [
       `Datum: ${datumLesbar(datum)}. Format: ${lang ? "Reel (lang, 45–60 s, 6–8 Szenen, ein komplettes Prüfschema)" : "Kurz-Reel (20–35 s, 4–5 Szenen, genau EIN Aha-Punkt: eine Frage, die Antwort, warum, Merksatz)"}.`,
       REEL_ANLEITUNG + (lang ? "" : "\nKurzfassung: insgesamt 60–90 gesprochene Wörter, Bildschirmtitel maximal 5 Wörter."),
+      hookAnleitung(hookMuster),
       anlass ? `\n## Anlass\n${anlass.titel}: ${anlass.kontext}` : "",
       `Phase im Prüfungsjahr: ${phase(datum)}.`,
       thema?.typ === "mindset" ? "\n## Mindset-Reel (Ersatz für ein Talking-Head-Video)\nKein Fachschema, sondern ein persönlicher, ruhiger Ton in Du-Form: ein Problem, das fast alle kennen (Angst, Blackout, Zeitdruck, Perfektionismus), dann 3–4 konkrete, sofort umsetzbare Handgriffe, zum Schluss ein Satz, der bleibt. Normen nur, wenn sie wirklich helfen. Bildschirmtitel kurz und menschlich, kein Ratgeber-Kitsch." : "",
@@ -568,12 +572,13 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null 
     const reel = { format: "reel", fach, klausur, fachLabel: FAECHER[fach]?.label, themaId: thema?.id || null, szenen, caption: (daten.caption || "").trim(), hashtags: [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase()), ...CONFIG.hashtags.kern])].slice(0, CONFIG.hashtags.maxJeBeitrag), kurztitel: daten.kurztitel || szenen[0]?.titel || "" };
     /* Prüfung über die Folien-Logik: Szenen als Folien, Sprechertext als Text. */
     const ergebnis = pruefeBeitrag({ folien: [{ art: "titel", titel: szenen[0]?.titel || "" }, ...szenen.slice(1).map((s) => ({ art: "text", titel: s.titel, text: `${s.text || ""} ${s.sprecher}` })), { art: "cta" }], caption: reel.caption, hashtags: reel.hashtags });
+    ergebnis.fehler.push(...pruefeHook(szenen[0]));
     const woerter = szenen.reduce((n, s) => n + s.sprecher.split(/\s+/).length, 0);
     const [min, max] = lang ? [80, 190] : [45, 110];
     if (woerter < min || woerter > max) ergebnis.fehler.push(`Sprechertext hat ${woerter} Wörter (Ziel ${lang ? "110–150" : "60–90"})`);
     if (!ergebnis.fehler.length) {
       const fakten = await faktenSicher(reel, "reel-faktencheck");
-      if (fakten.ok) { reel.hookTyp = hookTyp(szenen[0]?.titel || ""); return reel; }
+      if (fakten.ok) { reel.hookTyp = hookTypErkennen(szenen[0]?.titel || "", szenen[0]?.sprecher || ""); reel.hookMuster = hookMuster; return reel; }
       ergebnis.fehler.push(...fakten.fehler.map((f) => `Fachlicher Fehler: ${f}`));
     }
     feedback = ergebnis.fehler.map((f) => `- ${f}`).join("\n");
