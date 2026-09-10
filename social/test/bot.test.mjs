@@ -698,3 +698,12 @@ test("Freistellen: unbrauchbare Ergebnisse werden verworfen", async () => {
   const { deckung } = await import("../src/freistellen.mjs");
   assert.equal(deckung("/gibt/es/nicht.png"), null);
 });
+
+test("Normen: gesprochene Form wird für sichtbaren Text zurückgewandelt", async () => {
+  const { normKurz } = await import("../src/normen.mjs");
+  assert.equal(normKurz("Paragraf 7 Absatz 1 Satz 1 Nummer 1 EStG"), "§ 7 (1) S. 1 Nr. 1 EStG");
+  assert.equal(normKurz("Paragrafen 4 und 5 EStG"), "§§ 4 und 5 EStG");
+  assert.equal(normKurz("Artikel 3 Absatz 1 GG"), "Art. 3 (1) GG");
+  /* Ohne folgende Ziffer ist es normales Deutsch und bleibt stehen. */
+  assert.equal(normKurz("Der Paragraf regelt die AfA"), "Der Paragraf regelt die AfA");
+});
