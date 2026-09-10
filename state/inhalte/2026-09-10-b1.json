@@ -1,0 +1,109 @@
+{
+  "format": "spickzettel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-382",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Fehlerhafter Verwaltungsakt: Kennst du das ganze Prüfschema auf einer Karte?",
+      "icon": "paragraf",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "karte",
+      "titel": "Plan A – B – C in 7 Schritten",
+      "schritte": [
+        {
+          "titel": "Einspruch eingelegt oder noch möglich?",
+          "text": "Fristen § 355 AO prüfen"
+        },
+        {
+          "titel": "Erfolgsaussichten des Einspruchs",
+          "text": "Erfolgsformel: formell und materiell rechtswidrig"
+        },
+        {
+          "titel": "Kein Einspruch mehr – weiter zu Plan B",
+          "text": "Korrekturvorschriften der AO prüfen"
+        },
+        {
+          "titel": "Steuerbescheid korrigierbar?",
+          "text": "§§ 172 ff. AO, insb. § 173 AO"
+        },
+        {
+          "titel": "Sonstiger Verwaltungsakt korrigierbar?",
+          "text": "§§ 129–131 AO prüfen"
+        },
+        {
+          "titel": "Korrektur scheitert – weiter zu Plan C",
+          "text": "Saldierung nach § 177 AO"
+        },
+        {
+          "titel": "Saldierung im Rahmen der Korrektur",
+          "text": "Nur soweit Korrekturrahmen eröffnet ist"
+        }
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "text",
+      "titel": "Hier gehen die meisten Punkte verloren",
+      "punkte": [
+        "Sonstige VA landen fälschlich bei § 173 AO statt bei *§§ 129–131 AO*.",
+        "§ 177 AO wird geprüft, obwohl schon eine Korrekturnorm durchgreift – Reihenfolge vertauscht."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Erst fragst du nach dem Rechtsbehelf, dann nach der Korrektur, erst zuletzt nach dem Saldo.",
+      "icon": "buch"
+    },
+    {
+      "art": "cta",
+      "titel": "Diese Karte solltest du auswendig können.",
+      "punkte": [
+        "Kommentiere SCHEMA – dann schicke ich dir die Karte als Nachricht.",
+        "Schick das deiner Lerngruppe, bevor ihr die nächste Klausur schreibt",
+        "Speichern und vor der Prüfung wiederholen",
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren"
+      ],
+      "icon": "haken"
+    }
+  ],
+  "caption": "Fehlerhafter Verwaltungsakt AO: Plan A, B, C – das komplette Prüfschema\n\nJedes Jahr taucht diese Frage in Klausur 1 auf: Wie prüfst du einen vermeintlich fehlerhaften Verwaltungsakt richtig? Die Antwort ist ein fester Fahrplan: erst Einspruch (Plan A), dann Korrekturvorschriften inklusive §§ 129–131 AO für sonstige Verwaltungsakte (Plan B), zuletzt Saldierung nach § 177 AO (Plan C).\n\nDer häufigste Fehler: Leute springen direkt zur Saldierung oder verwechseln die Korrekturnorm für sonstige Verwaltungsakte.\n\nSchick das deiner Lerngruppe, damit ihr das Schema gemeinsam durchgeht. Kommentiere SCHEMA – dann schicke ich dir die Karte als Nachricht.\n\nWo hakt es bei dir – Plan A, B oder C?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#erbschaftsteuer",
+    "#examenszeit",
+    "#abgabenordnung",
+    "#verwaltungsakt",
+    "#korrekturvorschriften",
+    "#paragraf177ao",
+    "#klausurtag1",
+    "#klausurtechnik"
+  ],
+  "kurztitel": "Plan A-B-C Verwaltungsakt",
+  "quellen": [
+    "§ 129 AO",
+    "§ 130 AO",
+    "§ 131 AO",
+    "§ 173 AO",
+    "§ 177 AO",
+    "§ 355 AO"
+  ],
+  "hookTyp": "frage",
+  "faktenHinweise": [
+    "Folie text - Sonstige VA und §§ 129–131 AO: Die Aussage, dass sonstige Verwaltungsakte bei §§ 129–131 AO zu prüfen sind, ist unklar. Nach § 129 AO betreffen die Korrekturvorschriften ausdrücklich 'Steuerbescheide'. §§ 129–131 AO sind primär für Steuerbescheide, nicht für sonstige Verwaltungsakte. Für sonstige VA könnte § 173 AO durchaus zutreffend sein, je nachdem welche Art von VA gemeint ist. Die pauschale Aussage, dass sonstige VA 'fälschlich' bei § 173 AO landen, bedarf der Präzisierung."
+  ],
+  "slug": "2026-09-10-b1"
+}
