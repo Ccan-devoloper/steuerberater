@@ -14,6 +14,14 @@
 /* Reihenfolge zählt: Erst die langen Formen, dann die kurzen, damit nichts
    doppelt umgeschrieben wird. */
 const KURZ = [
+  /* Die gesprochene Form zurueck in die Schreibform. Das Modell schreibt
+     gelegentlich „Paragraf 7 Absatz 1“ auch in die Caption, weil im selben
+     Auftrag die Regel fuer den Sprechertext steht. Nur mit folgender Ziffer,
+     damit „Der Paragraf regelt …“ stehen bleibt. */
+  [/\bParagrafen\s*(?=\d)/g, "§§ "],
+  [/\bParagraf\s*(?=\d)/g, "§ "],
+  [/\bArtikel\s*(?=\d)/g, "Art. "],
+  [/\bin Verbindung mit\b/g, "i.V.m."],
   /* Absatz → (1). Auch „Abs. 1a“ kommt vor. Bewusst ohne i-Flag: Der Zusatz
      hinter der Zahl ist immer klein („1a“); mit i-Flag verschluckte die Regel
      das große S aus „Abs. 1 S. 1“. */
