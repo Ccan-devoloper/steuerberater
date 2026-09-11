@@ -117,7 +117,7 @@ export function normGesprochen(text) {
 }
 
 /** Die Regel, wie sie im Auftrag an das Modell steht. */
-export const NORM_REGEL = 'Normen auf dem Bildschirm immer in der Klausur-Kurzform: § 7 (1) S. 1 Nr. 1 lit. a) aa) EStG. Absatz in Klammern, kein „Abs.“, kein „Satz“ ausgeschrieben.';
+export const NORM_REGEL = 'Normen auf dem Bildschirm immer in der Klausur-Kurzform: § 7 (1) S. 1 Nr. 1 lit. a) aa) EStG. Absatz in Klammern, kein „Abs.“, kein „Satz“ ausgeschrieben. Grundgesetz, EMRK, AEUV und EUV werden mit ARTIKEL zitiert, nie mit Paragraf: „Art. 105 Abs. 2 GG“, niemals „§ 105 GG“.';
 export const NORM_REGEL_STIMME = 'Im Sprechertext dagegen ausgeschrieben, damit die Stimme es richtig liest: „Paragraf 7 Absatz 1 Satz 1 Nummer 1 Buchstabe a EStG“ – dort keine Klammern und keine Abkürzungen.';
 
 /** Wendet die Kurzform auf alle sichtbaren Felder eines Objekts an. */
