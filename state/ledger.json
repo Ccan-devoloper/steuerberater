@@ -1481,6 +1481,16 @@
       "fach": "istr",
       "titel": "Beschränkte Steuerpflicht: die EIS-Methode",
       "medienId": "18101754197250007"
+    },
+    {
+      "datum": "2026-09-11",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-anschaffungsnah",
+      "fach": "bilanz",
+      "titel": "Anschaffungsnaher Herstellungsaufwand",
+      "medienId": "18113704211050385"
     }
   ],
   "fachZaehler": {
