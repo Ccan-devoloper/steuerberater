@@ -351,7 +351,7 @@ test("Tagesdeckel: Verbrauch wird gezählt, weitere Aufrufe werden gestoppt", as
   assert.equal(k.budgetFrei(), true);
 });
 
-test("Reel: Animation rotiert täglich, Untertitel-Blöcke stehen fest", async () => {
+test("Reel: Animation rotiert täglich, Untertitel zeigen ganze Sätze", async () => {
   const { animationFuer, untertitelBloecke } = await import("../src/reel.mjs");
   const a = ["2026-09-06", "2026-09-07", "2026-09-08", "2026-09-09"].map(animationFuer);
   assert.deepEqual(new Set(a.slice(0, 3)).size, 3, a.join(","));
@@ -359,9 +359,35 @@ test("Reel: Animation rotiert täglich, Untertitel-Blöcke stehen fest", async (
   const { woerterVerteilen } = await import("../src/stimme.mjs");
   const szenen = [{ index: 0, woerter: woerterVerteilen("Erstens: Gibt es eine Verpflichtung nach außen? Ja, gegenüber einem Dritten.", 6, 0) }];
   const b = untertitelBloecke(szenen);
-  assert.ok(b.every((x) => x.w.length >= 2 && x.w.length <= 5), JSON.stringify(b.map((x) => x.w.length)));
+  /* Zwei Sätze, also zwei Blöcke - der zweite ist so kurz, dass er nicht bricht. */
+  assert.equal(b.length, 2, JSON.stringify(b.map((x) => x.text)));
+  assert.equal(b[0].text, "Erstens: Gibt es eine Verpflichtung nach außen?");
+  assert.equal(b[1].text, "Ja, gegenüber einem Dritten.");
   assert.ok(b.every((x, i) => i === 0 || x.von >= b[i - 1].bis - 1e-9));
-  assert.equal(b[0].w[0].t, "Erstens:");
+  /* Ein sehr langer Satz bricht, sonst passt er nicht auf die Karte. */
+  const lang = [{ index: 0, woerter: woerterVerteilen("Die Behörde darf den Bescheid nur zurücknehmen, wenn das Vertrauen des Begünstigten nicht schutzwürdig ist und die Jahresfrist noch läuft.", 9, 0) }];
+  const bl = untertitelBloecke(lang);
+  assert.ok(bl.length >= 2, JSON.stringify(bl.map((x) => x.text)));
+  assert.ok(bl.every((x) => x.text.split(" ").length <= 17), JSON.stringify(bl.map((x) => x.text.split(" ").length)));
+  /* Kein Wort geht verloren. */
+  assert.equal(bl.map((x) => x.text).join(" "), lang[0].woerter.map((w) => w.wort).join(" "));
+});
+
+test("Reel-Seite: Untertitel steht groß, Gesetzeskürzel behalten ihre Schreibweise", async () => {
+  /* Die Funktion, die die Kürzel schont, steht in einem Template-String und
+     wird erst in der Seite zu Code. Ein einfach geschriebenes \\s verschluckt
+     der String – dann trennt das Muster keine Wörter mehr, der ganze Satz
+     landet in einer Spanne und die Großschreibung fällt aus. Genau das ist
+     passiert, und nur die fertige Seite zeigt es. */
+  const src = fs.readFileSync(new URL("../src/reel.mjs", import.meta.url), "utf8");
+  const fn = src.match(/function kuerzelSchonen\(text\)[\s\S]*?\n\}/);
+  assert.ok(fn, "kuerzelSchonen nicht gefunden");
+  /* So, wie es in der Seite ankommt: einmal durch den Template-String. */
+  const inSeite = new Function(`return \`${fn[0].replace(/`/g, "\\`")}\``)();
+  const kuerzelSchonen = new Function(`${inSeite}; return kuerzelSchonen;`)();
+  assert.equal(kuerzelSchonen("§ 7 Abs. 1 S. 1 EStG: Die Abschreibung beginnt"), '§ 7 Abs. 1 S. 1 <span class="k">EStG:</span> Die Abschreibung beginnt');
+  assert.equal(kuerzelSchonen("Nach § 164 Abs. 2 AO wird geaendert"), "Nach § 164 Abs. 2 AO wird geaendert");
+  assert.equal(kuerzelSchonen("a < b"), "a &lt; b");
 });
 
 test("Reel: Hintergrund-Clip rotiert täglich, ohne Verzeichnis keine Auswahl", async () => {
@@ -566,7 +592,13 @@ test("Normen stehen in der Klausur-Kurzform, die Stimme liest sie ausgeschrieben
   assert.equal(normKurz("Die Frist beträgt nach § 169 Abs. 2 AO vier Jahre."), "Die Frist beträgt nach § 169 (2) AO vier Jahre.");
 
   /* Für die Stimme wieder ausgeschrieben, sonst liest sie „Klammer auf eins“. */
-  assert.equal(normGesprochen("§ 7 (1) S. 1 Nr. 1 lit. a) EStG"), "Paragraf 7 Absatz 1 Satz 1 Nummer 1 Buchstabe a EStG");
+  /* Kürzel mit gemischter Schreibweise werden für die Stimme ausgeschrieben –
+     „EStG“ kam sonst als „E-Es-Te-Geh“ zerhackt heraus. */
+  assert.equal(normGesprochen("§ 7 (1) S. 1 Nr. 1 lit. a) EStG"), "Paragraf 7 Absatz 1 Satz 1 Nummer 1 Buchstabe a Einkommensteuergesetz");
+  assert.equal(normGesprochen("Abschnitt 3.4 UStAE"), "Abschnitt 3.4 Umsatzsteuer-Anwendungserlass");
+  /* Saubere Initialen liest jede Stimme richtig und bleiben stehen. */
+  assert.equal(normGesprochen("§ 164 AO"), "Paragraf 164 AO");
+  assert.equal(normGesprochen("§ 253 HGB"), "Paragraf 253 HGB");
   assert.match(normGesprochen("§ 357 (2) S. 3 AO i.V.m. § 355 (1) AO"), /in Verbindung mit/);
 
   /* Die Felder eines Objekts werden mitsamt Punkteliste umgeschrieben. */

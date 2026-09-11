@@ -6,6 +6,7 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { iconSvg, ICONS } from "./stile.mjs";
+import { normKurz } from "./normen.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 export const FONT_DIR = path.resolve(hier, "../fonts");
@@ -25,13 +26,17 @@ export function esc(s) {
 }
 
 /* Überschriften: nur Hervorhebungen, keine Mono-Normen (die wirken in Großschrift fremd). */
+/* Die Schreibweise der Normen ist Sache des Renderers, nicht der Quelle:
+   Gerendert wird auch gespeicherter Text und Beispielinhalt, und dort stand
+   schon die gesprochene Fassung auf einer Folie. normKurz ist idempotent,
+   doppelt schadet also nicht. */
 export function markierenTitel(s) {
-  return esc(s).replace(/\*([^*]+)\*/g, "<em>$1</em>");
+  return esc(normKurz(s)).replace(/\*([^*]+)\*/g, "<em>$1</em>");
 }
 
 /* Hervorhebungen: *wichtig* → <em>, Normen in Mono. */
 export function markieren(s) {
-  let t = esc(s);
+  let t = esc(normKurz(s));
   t = t.replace(/\*([^*]+)\*/g, "<em>$1</em>");
   t = t.replace(/(§§?\s?[\dA-Za-z.\s]+?(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|KStR|UStAE|BGB|GrEStG|FGO|DBA))/g, '<code>$1</code>');
   return t;
@@ -232,19 +237,24 @@ h1 em{color:${p.akzent2}}
 /* Bühne: Blase, großes Icon, §-Badge, Karte, Sterne */
 .art-titel::after{content:"";position:absolute;left:210px;bottom:-140px;width:660px;height:660px;border-radius:50%;background:rgba(255,255,255,.16);pointer-events:none}
 /* Fotokarte: unteres Drittel, gleiche Rundung wie die uebrigen Karten. */
-/* Inhaltsfolien: der Inhalt steht mittig zwischen Kopf und Fusszeile. Kurze
-   Folien klebten sonst oben und liessen die untere Haelfte leer - im Feed
-   sieht das aus wie ein halbfertiger Beitrag. Der Kopf liegt in diesem Stil
-   absolut, deshalb traegt die erste Ueberschrift den oberen Abstand; zusammen
-   mit dem margin-top:auto der Fusszeile teilt sich der freie Platz. Die
-   Titelfolie bleibt oben - dort fuellt das Motiv die untere Haelfte. */
-.folie:not(.art-titel) > h2:first-of-type{margin-top:auto}
+/* Inhaltsfolien: der Inhalt steht mittig, die Fusszeile klebt unten.
+   Vorher holten sich Inhalt und Fusszeile den freien Platz beide ueber
+   margin-top:auto. Bei Folien, die selbst schon auto-Raender mitbringen
+   (Merksatz, CTA), waren das drei Ansprueche auf denselben Platz - der
+   Inhalt landete im oberen Drittel und die untere Haelfte blieb leer.
+   Die Titelfolie bleibt oben, dort fuellt das Motiv die untere Haelfte. */
+.folie:not(.art-titel){justify-content:center}
+.folie:not(.art-titel) > .fuss{position:absolute;left:76px;right:76px;bottom:64px;margin-top:0}
+/* Merksatz und CTA zentrieren sich sonst selbst und loesen sich damit von
+   ihrer Ueberschrift - das Zentrieren macht jetzt die Folie fuer alle. */
+.folie:not(.art-titel) > .merke{margin-top:36px;margin-bottom:0}
+.folie:not(.art-titel) > .cta{margin-top:0;margin-bottom:0}
 .art-titel:has(.foto)::after,.art-titel:has(.frei)::after{display:none}
 /* Freigestelltes Motiv: unten rechts, laeuft ueber den Rand hinaus. */
 /* Die Buehne endet unterhalb des Kopfblocks: Seit die Motive zugeschnitten
    werden, fuellen sie den Kasten wirklich aus und wuerden sonst in den Pfeil
    und das "So geht's!" hineinlaufen. */
-.frei{position:absolute;right:-40px;bottom:0;width:720px;height:560px;z-index:1;pointer-events:none}
+.frei{position:absolute;right:0;bottom:0;width:640px;height:620px;z-index:1;pointer-events:none}
 .frei img{width:100%;height:100%;object-fit:contain;object-position:right bottom;display:block;filter:drop-shadow(0 26px 44px rgba(0,0,0,.28))}
 /* Steht ein Motiv auf der Kachel, rueckt der Pfeil samt "So geht's!" nach
    links: der Kasten des Motivs reicht rechts bis in diese Hoehe hinauf. */

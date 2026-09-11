@@ -13,6 +13,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { browserStarten, coverRendern } from "./render.mjs";
 import { css, klausurCss, buntCss } from "./vorlagen.mjs";
+import { normKurz, normGesprochen } from "./normen.mjs";
 import { stil as stilLaden, iconSvg } from "./stile.mjs";
 import { FAECHER } from "./inhalte.mjs";
 import { CONFIG } from "./config.mjs";
@@ -174,12 +175,13 @@ canvas#oben,.trenner{display:none}
 .schritt h2,.merke-titel,.ctablock h2{max-width:100%}
 .reel .fuss{top:1078px;bottom:auto;left:106px;right:106px;z-index:1}
 .untertitel{top:1220px;height:330px;left:104px;right:104px;padding:0 20px;z-index:2}
-.reel .untertitel .block{color:#111;text-shadow:none}
-.reel .untertitel .w,.familie-bunt .untertitel .w{color:#111}
-.reel .untertitel .w.jetzt,.familie-bunt .untertitel .w.jetzt,.reel .untertitel .w.jetzt{color:${p.dunkel}}`;
+.reel .untertitel .block{color:#111;text-shadow:none}`;
 }
 
-const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+/* Wie auf den Kacheln gilt die Schreibweise der Normen hier im Renderer,
+   nicht in der Quelle. Der Sprechertext laeuft nicht hierdurch - er wird
+   gesprochen, nicht gesetzt. */
+const esc = (s) => String(normKurz(s) ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 /* Alle Szenen mit einem Anbieter sprechen und daraus den Zeitplan bauen. */
 async function szenenSprechen(reel, audioDir, anbieter, stimmeId = null) {
@@ -189,7 +191,11 @@ async function szenenSprechen(reel, audioDir, anbieter, stimmeId = null) {
     /* Der Hook wird betont gesprochen und bekommt danach einen Moment Stille –
        erst dieser Bruch macht aus einem Satz einen Aufhänger. */
     const istHook = s.art === "hook" || i === 0;
-    const stimme = await sprechen(s.sprecher, path.join(audioDir, `szene-${String(i + 1).padStart(2, "0")}.mp3`), { betonung: istHook ? "hook" : null, anbieter, stimmeId });
+    /* Wie beim Bildschirmtext gilt die Fassung an der Stelle, die sie braucht:
+       Gesprochen wird auch gespeicherter Text, und der trug die Kürzel noch als
+       Kürzel - die Stimme zerhackte sie. normGesprochen ist idempotent,
+       doppelt schadet also nicht. */
+    const stimme = await sprechen(normGesprochen(s.sprecher), path.join(audioDir, `szene-${String(i + 1).padStart(2, "0")}.mp3`), { betonung: istHook ? "hook" : null, anbieter, stimmeId });
     const vorlauf = i === 0 ? 0.25 : 0.25;
     const nachlauf = s.art === "cta" ? 1.2 : istHook ? 0.85 : 0.55;
     const dauer = vorlauf + stimme.dauer + nachlauf;
@@ -230,26 +236,52 @@ export function hintergrundClip(verzeichnis, datum) {
   return path.join(verzeichnis, clips[((tage % clips.length) + clips.length) % clips.length]);
 }
 
-/* Untertitel-Blöcke: 3–4 Wörter, Bruch an Satzzeichen; der Text je Block steht
-   fest – nur die Farbe des gerade gesprochenen Wortes wechselt. */
+/* Untertitel: ein Block je gesprochenem Satz. Vorher waren es Häppchen aus
+   drei bis vier Wörtern mit farbig mitlaufendem Wort - das liest sich wie ein
+   Karaoke-Text und zerlegt den Gedanken. Ein Satz steht ruhig, solange er
+   gesprochen wird.
+
+   Sehr lange Sätze passen nicht auf die Karte; sie brechen an einem Komma
+   oder Gedankenstrich, und wenn auch das nicht reicht, nach WORT_MAX Wörtern.
+   Gebrochen wird nur, wo es sein muss - ein halber Satz ist immer noch besser
+   lesbar als vier Wörter ohne Zusammenhang. */
+/* Ein Punkt beendet nicht jeden Satz: „§ 7 Abs. 1 S. 1 EStG“ zerfiel sonst
+   nach „Abs.“ in zwei Untertitel. Einzelne Buchstaben („S.“, „f.“) und die
+   üblichen Kürzel gelten deshalb nicht als Satzende. */
+const ABKUERZUNGEN = new Set(["abs", "nr", "hs", "lit", "art", "ff", "f", "vgl", "bzw", "ca", "ggf", "inkl", "insb", "rn", "rspr", "sog", "usw", "etc", "evtl", "str", "hm", "aa", "mio", "mrd", "tz", "bmf", "bfh"]);
+function istAbkuerzung(wort) {
+  const kern = String(wort).replace(/[^A-Za-zÄÖÜäöüß]/g, "").toLowerCase();
+  return kern.length <= 1 || ABKUERZUNGEN.has(kern);
+}
+
+const WORT_MAX = 8;
+
 export function untertitelBloecke(szenen) {
   const bloecke = [];
   for (const s of szenen) {
     let akt = [];
+    const schliessen = () => { if (akt.length) { bloecke.push({ szene: s.index, woerter: akt }); akt = []; } };
     for (const w of s.woerter) {
       akt.push(w);
-      if (akt.length >= 4 || /[.!?:;–]$/.test(w.wort) || (akt.length >= 3 && /,$/.test(w.wort))) { bloecke.push({ szene: s.index, woerter: akt }); akt = []; }
+      const satzende = /[.!?]["»«)]?$/.test(w.wort) && !istAbkuerzung(w.wort);
+      const teilende = /[,;:–—]$/.test(w.wort);
+      if (satzende) schliessen();
+      else if (akt.length >= WORT_MAX && teilende) schliessen();
+      else if (akt.length >= WORT_MAX + 3) schliessen();
     }
-    if (akt.length) bloecke.push({ szene: s.index, woerter: akt });
+    schliessen();
   }
-  /* Einzelne Wörter an den Nachbarblock hängen (erst nach vorn, sonst nach hinten). */
+  /* Ein einzelnes Wort allein auf der Karte („Ja.“) wirkt wie ein Fehler -
+     es wandert zum Nachbarn, bevorzugt nach vorn zu dem Satz, zu dem es gehört. */
   for (let i = bloecke.length - 1; i >= 0; i--) {
     if (bloecke[i].woerter.length !== 1) continue;
-    const n = bloecke[i + 1], v = bloecke[i - 1];
-    if (n && n.szene === bloecke[i].szene && n.woerter.length <= 4) { n.woerter.unshift(...bloecke[i].woerter); bloecke.splice(i, 1); }
-    else if (v && v.szene === bloecke[i].szene && v.woerter.length <= 4) { v.woerter.push(...bloecke[i].woerter); bloecke.splice(i, 1); }
+    const v = bloecke[i - 1], n = bloecke[i + 1];
+    if (v && v.szene === bloecke[i].szene) { v.woerter.push(...bloecke[i].woerter); bloecke.splice(i, 1); }
+    else if (n && n.szene === bloecke[i].szene) { n.woerter.unshift(...bloecke[i].woerter); bloecke.splice(i, 1); }
   }
-  return bloecke.map((b) => ({ szene: b.szene, von: b.woerter[0].von, bis: b.woerter.at(-1).bis, w: b.woerter.map((x) => ({ t: x.wort, von: x.von, bis: x.bis })) }));
+  /* Gezaehlt wird in gesprochenen Woertern, angezeigt wird die Schreibfassung:
+     Die Stimme sagt "Einkommensteuergesetz", auf der Karte steht "EStG". */
+  return bloecke.map((b) => ({ szene: b.szene, von: b.woerter[0].von, bis: b.woerter.at(-1).bis, text: normKurz(b.woerter.map((x) => x.wort).join(" ")) }));
 }
 
 /* Die Seite: oberes Drittel Canvas-Animation, darunter Szenen und Untertitel;
@@ -295,11 +327,8 @@ canvas#oben{position:absolute;left:0;top:0;width:1080px;height:${OBEN}px;display
 .ctablock .text{margin-top:22px;font-size:40px;color:var(--text-weich)}
 .ctablock .pille{margin-top:34px;font-size:36px;padding:18px 40px}
 .untertitel{position:absolute;left:60px;right:60px;top:${OBEN + 780}px;height:280px;display:flex;align-items:center;justify-content:center;text-align:center}
-.untertitel .block{font-family:var(--titel);font-size:84px;line-height:1.08;text-transform:uppercase;letter-spacing:.01em;font-weight:${stil.schrift.titelGewicht};transform-origin:50% 50%;will-change:transform}
-.untertitel .w{color:var(--text)}
-.untertitel .w.jetzt{color:var(--akzent)}
-.stil-klausurbogen .untertitel .w.jetzt{color:var(--rot)}
-.familie-kanzlei .untertitel .w.jetzt{color:var(--k3)}
+.untertitel .k{text-transform:none}
+.untertitel .block{max-width:100%;overflow-wrap:anywhere;font-family:var(--titel);font-size:84px;line-height:1.08;text-transform:uppercase;letter-spacing:.01em;font-weight:${stil.schrift.titelGewicht};transform-origin:50% 50%;will-change:transform}
 .reel .fuss{position:absolute;left:84px;right:84px;bottom:70px;display:flex;justify-content:space-between}
 ${klausurCss(ctx)}${buntCss(ctx)}
 ${ctx.clip ? overlayCss(ctx) : ""}
@@ -320,6 +349,24 @@ const FARBEN = ${JSON.stringify(farben)};
 const H = ${OBEN};
 const szenen = [...document.querySelectorAll(".szene")].map((el) => ({ el, start: +el.dataset.start, dauer: +el.dataset.dauer, kinder: [...el.querySelectorAll("h1,h2,p,.nummer,.norm,.pille,.ueber")] }));
 const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
+/* Der Untertitel steht in Grossbuchstaben - aus "VwVfG" wuerde damit "VWVFG".
+   Gesetzeskuerzel sind Eigennamen und behalten ihre Schreibweise. Erkannt
+   werden sie an dem, was sie ausmacht: mindestens zwei Grossbuchstaben und
+   mindestens ein kleiner. Ein normales deutsches Wort hat nur einen grossen. */
+function kuerzelSchonen(text) {
+  const esc = (x) => x.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+  /* Doppelter Backslash: Diese Funktion steht in einem Template-String und
+     wird erst in der Seite zu Code. Einfach geschrieben verschluckt der
+     String das \\s, und aus dem Trennmuster wird "(s+)" - dann steht der
+     ganze Satz in einer einzigen Spanne und die Grossschreibung faellt aus. */
+  return esc(text).split(/(\\s+)/).map((w) => {
+    const kern = w.replace(/[^A-Za-z\u00c4\u00d6\u00dc\u00e4\u00f6\u00fc\u00df]/g, "");
+    const gross = (kern.match(/[A-Z\u00c4\u00d6\u00dc]/g) || []).length;
+    const klein = (kern.match(/[a-z\u00e4\u00f6\u00fc\u00df]/g) || []).length;
+    return gross >= 2 && klein >= 1 ? '<span class="k">' + w + "</span>" : w;
+  }).join("");
+}
+
 ${ANIMATIONEN}
 /* Einpassen: Überschriften verkleinern, bis kein Wort umbrechen muss und die Szene in ihren Rahmen passt. */
 (function einpassen() {
@@ -344,14 +391,23 @@ window.setzeZeit = function (t) {
     s.kinder.forEach((k, j) => { const p = ease((lokal - 0.08 * j) / 0.42); k.style.opacity = String(p * fade); k.style.transform = "translateY(" + (30 * (1 - p)) + "px)"; });
   });
   document.getElementById("zaehler").textContent = aktiv >= 0 ? (aktiv + 1) + "/" + szenen.length : "";
-  /* Untertitel: fester Block, nur die Farbe des aktuellen Wortes wechselt. */
+  /* Untertitel: der Satz, der gerade gesprochen wird - ohne Wortmarkierung. */
   const block = document.getElementById("block");
   const b = BLOECKE.find((x) => t >= x.von && t < x.bis + 0.18);
   if (!b || (aktiv >= 0 && b.szene !== aktiv)) { block.innerHTML = ""; block.dataset.key = ""; return; }
   const key = String(b.von);
-  if (block.dataset.key !== key) { block.dataset.key = key; block.innerHTML = b.w.map((w) => '<span class="w">' + w.t.replace(/[&<>]/g, "") + "</span>").join(" "); }
-  const spans = block.querySelectorAll(".w");
-  b.w.forEach((w, j) => spans[j] && spans[j].classList.toggle("jetzt", t >= w.von && t < w.bis));
+  if (block.dataset.key !== key) {
+    block.dataset.key = key;
+    block.innerHTML = kuerzelSchonen(b.text);
+    /* Ein ganzer Satz ist laenger als die vier Woerter von frueher und passt in
+       der Ausgangsgroesse nicht immer in die Karte. Verkleinert wird einmal je
+       Satz, nicht je Bild - sonst zappelt die Schrift. */
+    block.style.fontSize = "";
+    const kasten = block.parentElement;
+    for (let i = 0; i < 16 && (block.scrollHeight > kasten.clientHeight || block.scrollWidth > kasten.clientWidth); i++) {
+      block.style.fontSize = (parseFloat(getComputedStyle(block).fontSize) * 0.93) + "px";
+    }
+  }
   const p = ease((t - b.von) / 0.14);
   block.style.transform = "scale(" + (0.94 + 0.06 * p) + ")";
 };
