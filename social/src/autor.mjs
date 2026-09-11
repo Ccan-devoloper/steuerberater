@@ -16,7 +16,7 @@ import { ICONS } from "./stile.mjs";
 import { folieLeer, pruefeBeitrag, korpus } from "./pruefung.mjs";
 import { datumLesbar, tageBis } from "./zeit.mjs";
 import { erfassen, budgetPruefen } from "./kosten.mjs";
-import { pruefeFakten } from "./faktencheck.mjs";
+import { pruefeFakten, korrekturenAnwenden } from "./faktencheck.mjs";
 import { hookWaehlen as hookMusterWaehlen, hookAnleitung, pruefeHook, hookTypErkennen } from "./hooks.mjs";
 import { dauerWaehlen } from "./insights.mjs";
 import { normKurz, normGesprochen, felderKuerzen, NORM_REGEL, NORM_REGEL_STIMME } from "./normen.mjs";
@@ -110,6 +110,7 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Du bekommst ein Themen-Skelett aus einer Lernplattform. Formuliere ALLES neu, in eigenen Worten und eigener Struktur. Übernimm keine Sätze, keine Aufzählungsreihenfolgen, keine Beispielzahlen.
 - Fälle, Beispiele, Namen und Zahlen erfindest du selbst (z. B. „Malerbetrieb Roth“, „die Nordlicht GmbH“). Verwende nie Namen aus der Sperrliste.
 - Keine Bezüge auf Kurse, Skripte, Seiten, Folien, Fallnummern, Dozenten oder Lernplattformen.
+- Unterscheide Inhalt von Verpackung: Der Prüfungsstoff (Normen, Definitionen, Prüfungsreihenfolgen, Rechtsfolgen) ist frei. Merkhilfen, Eselsbrücken, Kürzel und selbst benannte Methoden anderer Dozenten („EIS-Methode“, „ABBA-Schema“ und alles nach diesem Muster) sind deren Eigenschöpfung – die übernimmst du nie, auch nicht umschrieben oder umbenannt. Erkläre stattdessen den Inhalt in eigener Struktur, ohne Kürzel.
 
 ## Marke und Aufforderung (CTA)
 - Markenkern: „Examensvorbereitung, sortiert nach Klausurtag“. Jeder Beitrag gehört zu genau einem Prüfungstag (Klausur 1 · Tag 1: AO/USt/ErbSt · Klausur 2 · Tag 2: Ertragsteuern · Klausur 3 · Tag 3: Bilanz). Wo es passt, den Klausurtag benennen („Das ist Klausur-3-Stoff.“).
@@ -209,8 +210,9 @@ const STORY_SCHEMA = {
           falsch: { type: ["string", "null"] },
           richtigText: { type: ["string", "null"] },
           icon: { type: ["string", "null"] },
+          bildSzene: { type: ["string", "null"] },
         },
-        required: ["slot", "art", "ueberzeile", "titel", "text", "norm", "formel", "zahl", "optionen", "richtig", "falsch", "richtigText", "icon"],
+        required: ["slot", "art", "ueberzeile", "titel", "text", "norm", "formel", "zahl", "optionen", "richtig", "falsch", "richtigText", "icon", "bildSzene"],
       },
     },
   },
@@ -413,6 +415,9 @@ export async function beitragSchreiben({ format, thema, datum, recherche, wochen
     const ergebnis = pruefeBeitrag(beitrag);
     if (ergebnis.ok) {
       const fakten = await faktenSicher(beitrag);
+      /* Sprachversehen (doppelte oder fehlende Wörter) werden im Text ersetzt,
+         nicht neu geschrieben - das kostet keinen weiteren Aufruf. */
+      korrekturenAnwenden(beitrag, fakten.korrekturen);
       if (fakten.ok) { beitrag.faktenHinweise = fakten.hinweise; return beitrag; }
       ergebnis.fehler.push(...fakten.fehler.map((f) => `Fachlicher Fehler: ${f}`));
     }
@@ -495,6 +500,7 @@ Arten:
 - begriff: titel = Begriff, norm = Norm, text = Definition in eigenen Worten (max. 200 Zeichen), icon
 - fehler: titel = die Falle (max. 70 Zeichen), falsch = der Fehler (max. 120 Zeichen), richtigText = die richtige Lösung mit Norm (max. 160 Zeichen)
 - tipp: titel = Klausurtipp (max. 70 Zeichen), text = Umsetzung (max. 180 Zeichen), icon
+- bildSzene (nur bei begriff und tipp, sonst null): eine ENGLISCHE, fotografierbare Alltagsszene in 3–6 Wörtern, nach der sich in einer Fotodatenbank suchen lässt und die das Thema bildlich greifbar macht („woman reading letter at kitchen table“). Keine Fachvokabeln, keine abstrakten Begriffe, keine Symbolbild-Klassiker (Richterhammer, Waage, Gesetzbuch, Taschenrechner, Münzstapel, Händedruck). Nur Motive, die ganz im Bild sind – eine Person vom Kopf bis zur Hüfte, ein Gegenstand mit Rand ringsum. Fällt dir keine echte Szene ein: null.
 - zahl: zahl = eine markante Zahl/Frist/Prozentsatz (max. 8 Zeichen), titel = was sie bedeutet (max. 60 Zeichen), text = Norm und Kontext (max. 160 Zeichen)
 
 Aufträge:
@@ -526,6 +532,7 @@ Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder n
   const fakten = await faktenSicher({ stories: liste }, "story-faktencheck", {
     hinweis: "Jede Kachel steht für sich. Nenne zu jedem Befund den Slot in eckigen Klammern, genau so, wie er im Kopf der Kachel steht (zum Beispiel [s5]).",
   });
+  korrekturenAnwenden({ stories: liste }, fakten.korrekturen);
   for (const f of fakten.fehler || []) {
     const treffer = String(f).match(/\[?\b(s\d+)\b\]?/);
     /* Ohne erkennbaren Slot lässt sich der Befund keiner Kachel zuordnen -
@@ -561,8 +568,9 @@ const REEL_SCHEMA = {
     caption: { type: "string" },
     hashtags: { type: "array", items: { type: "string" } },
     kurztitel: { type: "string" },
+    bildSzene: { type: ["string", "null"] },
   },
-  required: ["szenen", "caption", "hashtags", "kurztitel"],
+  required: ["szenen", "caption", "hashtags", "kurztitel", "bildSzene"],
 };
 
 /* Sprechtempo einer deutschen Vorlesestimme: rund 2,4 Wörter je Sekunde.
@@ -605,6 +613,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null,
       laengenAnleitung(von, bis, lang),
       REEL_ANLEITUNG,
       hookAnleitung(hookMuster),
+      "\n## Cover-Motiv\nbildSzene: eine ENGLISCHE, fotografierbare Alltagsszene in 3–6 Wörtern für das Standbild des Reels, nach der sich in einer Fotodatenbank suchen lässt und die das Thema bildlich greifbar macht („woman reading letter at kitchen table“). Keine Fachvokabeln, keine abstrakten Begriffe, keine Symbolbild-Klassiker (Richterhammer, Waage, Gesetzbuch, Taschenrechner, Münzstapel, Händedruck). Nur Motive, die ganz im Bild sind – eine Person vom Kopf bis zur Hüfte, ein Gegenstand mit Rand ringsum. Fällt dir keine echte Szene ein: null.",
       `\n## Normen\n${NORM_REGEL}\n${NORM_REGEL_STIMME}`,
       anlass ? `\n## Anlass\n${anlass.titel}: ${anlass.kontext}` : "",
       `Phase im Prüfungsjahr: ${phase(datum)}.`,
@@ -626,7 +635,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null,
       if (o.sprecher) o.sprecher = normGesprochen(o.sprecher);
       return o;
     });
-    const reel = { format: "reel", fach, klausur, fachLabel: FAECHER[fach]?.label, themaId: thema?.id || null, szenen, caption: normKurz((daten.caption || "").trim()), hashtags: [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase()), ...CONFIG.hashtags.kern])].slice(0, CONFIG.hashtags.maxJeBeitrag), kurztitel: daten.kurztitel || szenen[0]?.titel || "" };
+    const reel = { format: "reel", fach, klausur, fachLabel: FAECHER[fach]?.label, themaId: thema?.id || null, szenen, caption: normKurz((daten.caption || "").trim()), hashtags: [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase()), ...CONFIG.hashtags.kern])].slice(0, CONFIG.hashtags.maxJeBeitrag), kurztitel: daten.kurztitel || szenen[0]?.titel || "", bildSzene: daten.bildSzene || null };
     /* Prüfung über die Folien-Logik: Szenen als Folien, Sprechertext als Text. */
     const ergebnis = pruefeBeitrag({ folien: [{ art: "titel", titel: szenen[0]?.titel || "" }, ...szenen.slice(1).map((s) => ({ art: "text", titel: s.titel, text: `${s.text || ""} ${s.sprecher}` })), { art: "cta" }], caption: reel.caption, hashtags: reel.hashtags });
     ergebnis.fehler.push(...pruefeHook(szenen[0]));
@@ -641,6 +650,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null,
     if (woerter < min || woerter > max) ergebnis.fehler.push(`Sprechertext hat ${woerter} Wörter (Ziel ${zielVon}–${zielBis})`);
     if (!ergebnis.fehler.length) {
       const fakten = await faktenSicher(reel, "reel-faktencheck");
+      korrekturenAnwenden(reel, fakten.korrekturen);
       if (fakten.ok) { reel.hookTyp = hookTypErkennen(szenen[0]?.titel || "", szenen[0]?.sprecher || ""); reel.hookMuster = hookMuster; return reel; }
       ergebnis.fehler.push(...fakten.fehler.map((f) => `Fachlicher Fehler: ${f}`));
     }
@@ -659,6 +669,9 @@ export function teaserAusBeitrag(beitrag, slot) {
     titel: beitrag.kurztitel || beitrag.folien[0].titel,
     text: beitrag.folien[0].titel !== beitrag.kurztitel ? beitrag.folien[0].titel : "",
     icon: beitrag.folien[0].icon || "paragraf",
+    /* Das Motiv der Titelfolie wandert mit - so kündigt die Story den Beitrag
+       mit demselben Bild an. */
+    bild: beitrag.folien[0].bild || null, bildFrei: beitrag.folien[0].bildFrei !== false, bildQuelle: beitrag.folien[0].bildQuelle || null,
     pille: "Jetzt im Feed",
   };
 }
