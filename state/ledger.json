@@ -1471,6 +1471,16 @@
       "fach": "kst",
       "titel": "Verein: Welcher Bereich zahlt KSt?",
       "medienId": "17945393856065152"
+    },
+    {
+      "datum": "2026-09-11",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "merksatz",
+      "thema": "istr-modul-istr-istr1-08",
+      "fach": "istr",
+      "titel": "Beschränkte Steuerpflicht: die EIS-Methode",
+      "medienId": "18101754197250007"
     }
   ],
   "fachZaehler": {
