@@ -1501,6 +1501,39 @@
       "fach": "bilanz",
       "titel": "Anschaffungskosten",
       "medienId": "18093954554407123"
+    },
+    {
+      "datum": "2026-09-11",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "21:30",
+      "stunde": 21,
+      "format": "reel",
+      "thema": "erbst-modul-erbst-504",
+      "fach": "erbst",
+      "titel": "Nachlass, zehn Positionen",
+      "hookTyp": "szene",
+      "hookMuster": "szene",
+      "medienId": "18029460734851229",
+      "variante": 0,
+      "hashtags": [
+        "#erbschaftsteuer",
+        "#bewertungsgesetz",
+        "#nachlassverbindlichkeiten",
+        "#erbstexamen",
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#klausurtechnik",
+        "#familienheim"
+      ],
+      "stimmeId": null,
+      "stimmeName": "Bella - Professional, Bright, Warm",
+      "dauer": 93.3,
+      "veroeffentlicht": "2026-09-11T19:50:44.930Z"
     }
   ],
   "fachZaehler": {
@@ -1510,7 +1543,7 @@
     "ao": 9,
     "bilanz": 11,
     "istr": 7,
-    "erbst": 1
+    "erbst": 2
   },
   "nachrichten": []
 }
