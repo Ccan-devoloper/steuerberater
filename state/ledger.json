@@ -1409,6 +1409,16 @@
       "fach": "bilanz",
       "titel": "Erst der Gewinn, dann das Einlagekonto",
       "medienId": "18008417024955814"
+    },
+    {
+      "datum": "2026-09-11",
+      "art": "story",
+      "slot": "s5",
+      "storyArt": "norm",
+      "thema": "erbst-modul-erbst-514",
+      "fach": "erbst",
+      "titel": "Nachlassverbindlichkeit oder Gegenleistung/Auflage?",
+      "medienId": "17946593592279527"
     }
   ],
   "fachZaehler": {
