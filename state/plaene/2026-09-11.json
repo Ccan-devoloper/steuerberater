@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-11",
+  "erzeugt": "2026-09-11T05:43:27.569Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "16:30",
+      "format": "pruefungsfrage",
+      "themaId": "kst-quiz-kst-12",
+      "themaTitel": "Welcher Vereinsbereich ist nach dem hochgeladenen Schema steuerpflichtig?",
+      "fach": "kst",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "21:30",
+      "format": "reel",
+      "themaId": "erbst-modul-erbst-504",
+      "themaTitel": "III. Ermittlung des steuerpflichtigen Erwerbs - Schritt 1: WSV, Bewertung, sachliche Befreiungen und zuordenbare Belastungen",
+      "fach": "erbst",
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "10:18",
+      "art": "frage",
+      "themaId": "bilanz-karte-k3-22",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "10:18",
+      "art": "antwort",
+      "themaId": "bilanz-karte-k3-22",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "13:36",
+      "art": "norm",
+      "themaId": "erbst-modul-erbst-514",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "15:18",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 25,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "16:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "16:42",
+      "art": "merksatz",
+      "themaId": "istr-modul-istr-istr1-08",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "18:30",
+      "art": "formel",
+      "themaId": "bilanz-formel-anschaffungsnah",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "20:16",
+      "art": "begriff",
+      "themaId": "bilanz-karte-k3-3",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "21:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    }
+  ]
+}
