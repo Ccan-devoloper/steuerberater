@@ -276,6 +276,12 @@ h1 em{color:${p.akzent2}}
    werden, fuellen sie den Kasten wirklich aus und wuerden sonst in den Pfeil
    und das "So geht's!" hineinlaufen. */
 .frei{position:absolute;right:0;bottom:0;width:640px;height:620px;z-index:1;pointer-events:none}
+/* Links neben dem Motiv, unterhalb der Pfeilzeile: Der Kasten des Motivs
+   beginnt bei x = 440 px, die Pfeilzeile endet auch bei vier Titelzeilen
+   oberhalb von y = 860 px - dazwischen ist die Flaeche frei. */
+.frei-zeichen{position:absolute;left:90px;bottom:250px;width:250px;height:250px;transform:rotate(-9deg);z-index:2;filter:drop-shadow(0 16px 26px rgba(0,0,0,.18))}
+.frei-zeichen .icon{width:100%;height:100%}
+.story .frei-zeichen{left:90px;bottom:640px;width:280px;height:280px}
 .frei img{width:100%;height:100%;object-fit:contain;object-position:right bottom;display:block;filter:drop-shadow(0 26px 44px rgba(0,0,0,.28))}
 /* Steht ein Motiv auf der Kachel, rueckt der Pfeil samt "So geht's!" nach
    links: der Kasten des Motivs reicht rechts bis in diese Hoehe hinauf. */
@@ -396,7 +402,11 @@ function fotoBuehne(folie) {
   /* Der Bildnachweis steht in der Caption, nicht auf der Kachel: Pexels
      verlangt einen sichtbaren Hinweis, aber nicht an einer bestimmten Stelle -
      und auf dem Bild stoert er die Gestaltung. */
-  return `<div class="${klasse}"><img src="${esc(folie.bild)}" alt=""></div>`;
+  /* Zum Motiv das farbige Zeichen des Themas, gross und leicht gedreht links
+     daneben - Motiv und Zeichen zusammen, wie auf den Vorbildkacheln. Nur die
+     farbige Fassung; die Strichgrafik wuerde neben einem Foto duenn wirken. */
+  const zeichen = folie.icon && klasse === "frei" ? farbIcon(folie.icon, 240) : null;
+  return `<div class="${klasse}"><img src="${esc(folie.bild)}" alt=""></div>${zeichen ? `<div class="frei-zeichen">${zeichen}</div>` : ""}`;
 }
 
 function bildOderIllu(ctx, folie) {
