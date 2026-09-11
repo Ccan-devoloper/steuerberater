@@ -275,9 +275,9 @@ export function hashtagsWaehlen(vorschlaege, kern, strategie = null, tag = Math.
 
 /* Faktencheck, der einen fertigen Entwurf nie verwirft: Fällt der Prüfaufruf
    selbst aus (Modellfehler, Budget), gilt der Entwurf mit Hinweis als geprüft. */
-async function faktenSicher(inhalt, zweck = "faktencheck") {
+async function faktenSicher(inhalt, zweck = "faktencheck", opt = {}) {
   try {
-    return await pruefeFakten(inhalt, zweck);
+    return await pruefeFakten(inhalt, zweck, opt);
   } catch (e) {
     console.warn(`  ! Faktencheck nicht möglich (${e.message.split("\n")[0].slice(0, 160)}) – Entwurf wird ohne Faktencheck übernommen.`);
     return { ok: true, fehler: [], hinweise: [`Faktencheck ausgefallen: ${e.message.slice(0, 120)}`] };
@@ -505,7 +505,7 @@ Sperrliste (Namen nie verwenden): ${korpus().namen.join(", ")}
 Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder null. Gib genau einen Eintrag je Slot zurück.${hinweis ? `\n\n${hinweis}` : ""}`;
   const { daten } = await strukturiert({ system: SYSTEM, user, schema: STORY_SCHEMA, modell: CONFIG.ki.modellNeben, effort: CONFIG.ki.effort, zweck: "stories" });
   const nachSlot = new Map(daten.stories.map((s) => [s.slot, s]));
-  return plan.map((p) => {
+  const liste = plan.map((p) => {
     const s = nachSlot.get(p.slot) || {};
     const o = { slot: p.slot, art: p.art, fach: p.thema?.fach || "bilanz", klausur: p.thema?.klausur || 3 };
     for (const [k, v] of Object.entries(s)) if (v != null && k !== "slot" && k !== "art") o[k] = v;
@@ -517,6 +517,23 @@ Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder n
     if (!ergebnis.ok) { o.beanstandet = ergebnis.fehler; }
     return o;
   });
+
+  /* Faktencheck über alle Stories des Tages in einem Aufruf. Beiträge und
+     Reels liefen von Anfang an dagegen, Stories nicht - dabei sind sie neun
+     von elf Veröffentlichungen am Tag. Befunde landen in `beanstandet`; damit
+     greift die Schleife im Tageslauf, die beanstandete Slots ohnehin einmal
+     neu schreiben lässt. */
+  const fakten = await faktenSicher({ stories: liste }, "story-faktencheck", {
+    hinweis: "Jede Kachel steht für sich. Nenne zu jedem Befund den Slot in eckigen Klammern, genau so, wie er im Kopf der Kachel steht (zum Beispiel [s5]).",
+  });
+  for (const f of fakten.fehler || []) {
+    const treffer = String(f).match(/\[?\b(s\d+)\b\]?/);
+    /* Ohne erkennbaren Slot lässt sich der Befund keiner Kachel zuordnen -
+       dann werden lieber alle neu geschrieben als eine falsche zu posten. */
+    const ziele = treffer ? liste.filter((o) => o.slot === treffer[1]) : liste;
+    for (const o of ziele) (o.beanstandet ||= []).push(String(f));
+  }
+  return liste;
 }
 
 const REEL_SCHEMA = {
