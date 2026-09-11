@@ -1399,6 +1399,16 @@
       "fach": "bilanz",
       "titel": "Ausschüttung einer KapG: In welcher Reihenfolge gilt sie als verwendet?",
       "medienId": "17979519776904415"
+    },
+    {
+      "datum": "2026-09-11",
+      "art": "story",
+      "slot": "s4",
+      "storyArt": "antwort",
+      "thema": "bilanz-karte-k3-22",
+      "fach": "bilanz",
+      "titel": "Erst der Gewinn, dann das Einlagekonto",
+      "medienId": "18008417024955814"
     }
   ],
   "fachZaehler": {
