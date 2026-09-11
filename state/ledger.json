@@ -1491,6 +1491,16 @@
       "fach": "bilanz",
       "titel": "Anschaffungsnaher Herstellungsaufwand",
       "medienId": "18113704211050385"
+    },
+    {
+      "datum": "2026-09-11",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "begriff",
+      "thema": "bilanz-karte-k3-3",
+      "fach": "bilanz",
+      "titel": "Anschaffungskosten",
+      "medienId": "18093954554407123"
     }
   ],
   "fachZaehler": {
