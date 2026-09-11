@@ -340,12 +340,16 @@ test("Aufbau: leere Folien, doppelte CTA und Sachverhalt auf der Titelfolie werd
 test("Tagesdeckel: Verbrauch wird gezählt, weitere Aufrufe werden gestoppt", async () => {
   const k = await import("../src/kosten.mjs");
   const gespeichert = [];
-  k.budgetSetzen({ limitUsd: 0.05, bisher: 0.02, speichern: (usd) => gespeichert.push(usd) });
-  assert.equal(k.budgetFrei(), true);
-  k.budgetPruefen("Test");
-  k.erfassen("claude-sonnet-5", { input_tokens: 1000, output_tokens: 2500 }, "test");   // 0,002 + 0,025 = 0,027 $
+  /* Der Deckel wird vorab mit dem belastet, was ein Aufruf dieses Zwecks
+     erfahrungsgemäß kostet (rund 0,05 $ für einen Beitrag). Deshalb braucht
+     dieser Test echte Größenordnungen statt Centbeträge. */
+  k.budgetSetzen({ limitUsd: 0.12, bisher: 0.02, speichern: (usd) => gespeichert.push(usd) });
+  assert.equal(k.budgetFrei("beitrag"), true);
+  k.budgetPruefen("beitrag");
+  k.erfassen("claude-sonnet-5", { input_tokens: 1000, output_tokens: 2500 }, "beitrag");   // 0,002 + 0,025 = 0,027 $
   assert.ok(gespeichert.length === 1 && gespeichert[0] > 0.04, JSON.stringify(gespeichert));
-  assert.equal(k.budgetFrei(), false);
+  k.erfassen("claude-sonnet-5", { input_tokens: 1000, output_tokens: 2500 }, "beitrag");
+  assert.equal(k.budgetFrei("beitrag"), false);
   assert.throws(() => k.budgetPruefen("Beitrag"), k.BudgetFehler);
   k.budgetSetzen({});   // zurücksetzen, damit andere Tests nicht betroffen sind
   assert.equal(k.budgetFrei(), true);
@@ -759,4 +763,24 @@ test("Reel-Länge: die Annahmegrenze passt zu jedem Zeitfenster", async () => {
   const src = fs.readFileSync(new URL("../src/autor.mjs", import.meta.url), "utf8");
   assert.ok(!/const \[min, max\] = lang \? \[/.test(src), "feste Wortgrenze im Quelltext");
   assert.match(src, /const zielVon = Math\.round\(von \* WOERTER_JE_SEKUNDE\)/);
+});
+
+test("Tagesdeckel hält, auch wenn ein Aufruf teurer ist als die alte Pauschale", async () => {
+  const k = await import("../src/kosten.mjs");
+  /* Unabhängig davon, was frühere Tests schon gebucht haben: der Kopf steht
+     dort, wo wir jetzt sind, und darüber liegen genau 0,27 $. */
+  const start = k.tagesStand();
+  const limit = start + 0.27;
+  k.budgetSetzen({ limitUsd: limit, bisher: 0 });
+  /* Ein Reel-Aufruf kostet 0,06 $ – das Dreifache der alten Pauschale von
+     0,02 $. Genau daran sind einzelne Tage über das Limit geschossen. */
+  const teuer = { input_tokens: 0, output_tokens: 6000 };   // 0,06 $ bei Sonnet
+  let aufrufe = 0;
+  for (let i = 0; i < 20; i++) {
+    try { k.budgetPruefen("reel"); } catch { break; }
+    k.erfassen("claude-sonnet-5", teuer, "reel");
+    aufrufe++;
+  }
+  assert.ok(aufrufe >= 3, `nur ${aufrufe} Aufrufe möglich – der Deckel ist zu streng`);
+  assert.ok(k.tagesStand() <= limit, `${k.tagesStand().toFixed(4)} $ über dem Limit von ${limit.toFixed(2)} $`);
 });
