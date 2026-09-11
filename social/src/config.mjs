@@ -197,6 +197,14 @@ export const CONFIG = {
        jeden Tag. Reels tragen die Reichweite, deshalb erscheint täglich eines;
        der zweite Beitrag des Tages ist dann statt eines Carousels ein Reel. */
     tage: (env("IG_REEL_TAGE", "0,1,2,3,4,5,6")).split(",").map(Number),
+    /* true: Das Reel kommt zu den Beiträgen dazu – der Tag hat dann drei
+       Feed-Veröffentlichungen. false: Es ersetzt den letzten Beitrag, der Tag
+       hat zwei.
+
+       Hier false: Der Kanal liegt mit rund 0,20 $ am Tag näher am Deckel von
+       0,27 $, und drei Feed-Beiträge konkurrieren um dieselbe Zielgruppe –
+       das Reel, das die Reichweite trägt, verlöre am meisten. */
+    zusaetzlich: env("IG_REEL_ZUSAETZLICH", "false") === "true",
     /* Kurz-Reels (20–35 s) an allen Tagen, sonntags ein langes Schema-Reel (bis 60 s). */
     langeTage: [0],
   },
