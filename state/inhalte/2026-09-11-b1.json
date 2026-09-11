@@ -1,0 +1,95 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-quiz-kst-12",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "45.000 Euro Freigrenze: Ab wann zahlt der Verein wirklich Steuern?",
+      "icon": "paragraf",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen"
+    },
+    {
+      "art": "text",
+      "titel": "Der Fall: Kanuclub Weidental",
+      "text": "Der Verein ist gemeinnützig nach *§ 5 (1) Nr. 9 KStG*. Er hat Mitgliedsbeiträge, vermietet sein Bootshaus dauerhaft an eine Firma, veranstaltet ein Vereinsrennen mit Startgeld und betreibt dabei einen Getränkestand.",
+      "icon": "dokument"
+    },
+    {
+      "art": "schritte",
+      "titel": "Die vier Sphären im Schema",
+      "schritte": [
+        {
+          "titel": "Ideeller Bereich",
+          "text": "Mitgliedsbeiträge und Spenden – von der Steuer *nie* berührt, § 14 (1) AO."
+        },
+        {
+          "titel": "Vermögensverwaltung",
+          "text": "Vermietung des Bootshauses – bleibt steuerbefreit, § 5 (1) Nr. 9 KStG."
+        },
+        {
+          "titel": "Zweckbetrieb",
+          "text": "Das Vereinsrennen dient dem Satzungszweck – steuerfrei nach § 5 (1) Nr. 9 KStG i.V.m. § 14 AO."
+        },
+        {
+          "titel": "Wirtschaftlicher Geschäftsbetrieb",
+          "text": "Der Getränkestand ist kein Zweckbetrieb – steuerpflichtig, § 14 S. 1 AO."
+        }
+      ],
+      "icon": "diagramm"
+    },
+    {
+      "art": "text",
+      "titel": "Warum nur der Getränkestand",
+      "text": "Die Steuerbefreiung aus § 5 (1) Nr. 9 KStG gilt nicht für den *wirtschaftlichen Geschäftsbetrieb*, § 5 (1) Nr. 9 S. 2 KStG. Bleiben Einnahmen und Gewinn unter der Freigrenze von 45.000 Euro nach *§ 5 (1) Nr. 9 S. 2 KStG*, fällt trotzdem keine Steuer an.",
+      "icon": "muenzen"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Mitgliedschaft schützt, Verwaltung schont, Zweck bewahrt – nur der Marktauftritt zahlt.",
+      "icon": "waage"
+    },
+    {
+      "art": "cta",
+      "titel": "Dauerbrenner erkannt, Punkte gesichert.",
+      "punkte": [
+        "Schick das deiner Lerngruppe",
+        "Speichern für die Wiederholung",
+        "Welche Sphäre verwechselst du am ehesten? Kommentiere!"
+      ],
+      "icon": "personen"
+    }
+  ],
+  "caption": "Vereinsbesteuerung Körperschaftsteuer: welcher Bereich ist steuerpflichtig? Jedes Jahr in Klausur 2: ein Verein mit vier Sphären, und nur eine davon zahlt Steuern. Ideeller Bereich, Vermögensverwaltung und Zweckbetrieb bleiben steuerfrei – der *wirtschaftliche Geschäftsbetrieb* wird aus der Befreiung nach § 5 (1) Nr. 9 KStG herausgelöst. Am Kanuclub Weidental siehst du, wie die Abgrenzung in der Praxis läuft: Bootshausvermietung ist harmlos, der Getränkestand nicht. Schick das deiner Lerngruppe und speichern für die Wiederholung. Wo hakt es bei dir – Zweckbetrieb oder wirtschaftlicher Geschäftsbetrieb?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#lerngruppe",
+    "#einkommensteuer",
+    "#körperschaftsteuer",
+    "#vereinsbesteuerung",
+    "#gemeinnützigkeit",
+    "#wirtschaftlichergeschäftsbetrieb",
+    "#zweckbetrieb",
+    "#klausurtag2"
+  ],
+  "kurztitel": "Verein: Welcher Bereich zahlt KSt?",
+  "bildSzene": "volunteers selling drinks at sports event",
+  "quellen": [],
+  "hookTyp": "zahl",
+  "faktenHinweise": [
+    "Folie schritte: 'Ideeller Bereich: Mitgliedsbeiträge und Spenden – von der Steuer nie berührt, § 14 (1) AO.': Die Normzitierung ist unklar. § 14 AO regelt die Aufzeichnungspflicht, nicht die Steuerbefreiung des ideellen Bereichs. Die korrekte Grundlage für die Steuerbefreiung des ideellen Bereichs ist § 5 Abs. 1 Nr. 9 KStG selbst (nicht § 14 AO). Die Aufzeichnungspflicht ist eine separate Regelung.",
+    "Folie schritte: 'Zweckbetrieb: Das Vereinsrennen dient dem Satzungszweck – steuerfrei nach § 5 (1) Nr. 9 KStG i.V.m. § 14 AO.': Auch hier ist der Verweis auf § 14 AO problematisch. § 14 AO ist nicht die Rechtsgrundlage für die Steuerbefreiung von Zweckbetrieben. Die Steuerbefreiung regelt § 5 Abs. 1 Nr. 9 KStG (ggf. i.V.m. § 65 AO für Zweckbetriebe). § 14 AO betrifft Aufzeichnungspflichten.",
+    "Gesamter Text: Freigrenze 45.000 Euro: Die Freigrenze von 45.000 Euro wird erwähnt, aber es fehlt die Klarstellung, dass diese sich auf den Gewinn aus dem wirtschaftlichen Geschäftsbetrieb bezieht und dass auch Einkünfte aus Vermögensverwaltung (wie die Vermietung des Bootshauses) hinzuzurechnen sind, falls letztere die Grenze nach § 5 Abs. 1 Nr. 9 S. 2 KStG überschreiten. Der Text deutet an, dass nur der Getränkestand relevant ist, lässt aber offen, wie sich beide Einkunftsarten zusammenrechnen."
+  ],
+  "slug": "2026-09-11-b1"
+}
