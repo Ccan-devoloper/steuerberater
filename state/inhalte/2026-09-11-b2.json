@@ -1,0 +1,79 @@
+{
+  "format": "reel",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer / Bewertung",
+  "themaId": "erbst-modul-erbst-504",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Nachlass, zehn Positionen",
+      "unter": "Wo fängst du an?",
+      "icon": "waage",
+      "sprecher": "Grundstück, Depot, Darlehen – du starrst auf den Nachlass und weißt nicht, wo du anfängst."
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Wert ermitteln",
+      "text": "§ 12 ErbStG öffnet das BewG",
+      "norm": "§ 12 ErbStG",
+      "sprecher": "Erster Schritt, für jedes einzelne Wirtschaftsgut: Wie viel ist es wert? Paragraf 12 Erbschaftsteuergesetz ist dabei nur die Tür – die eigentliche Bewertung holst du dir aus dem Bewertungsgesetz."
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Sachliche Befreiung prüfen",
+      "text": "Erst danach – nicht vermischen!",
+      "norm": "§§ 13-13d ErbStG",
+      "sprecher": "Zweiter Schritt: Ist genau dieses Wirtschaftsgut sachlich befreit? Familienheim, Betriebsvermögen, Kunstgegenstände – das prüfst du getrennt von der Bewertung. Genau da mischen die meisten beides zusammen und verlieren Punkte."
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Direkte Belastung zuordnen",
+      "text": "Darlehen auf dem Grundstück gehört dorthin",
+      "sprecher": "Drittens: Hängt an diesem Wirtschaftsgut eine Verbindlichkeit? Nimm ein Mietshaus in Lindenau mit einem Bankdarlehen darauf – das ziehst du sofort bei diesem Grundstück ab, nicht irgendwo gesammelt am Ende."
+    },
+    {
+      "art": "schritt",
+      "nummer": 4,
+      "titel": "Abzug begrenzen",
+      "text": "Wirtschaftlicher Zusammenhang zählt",
+      "norm": "§ 10 (6), (6a) ErbStG",
+      "sprecher": "Und viertens: Ist das Wirtschaftsgut steuerbefreit, wird auch der Schuldenabzug gekappt. Paragraf 10 Absatz 6 und Absatz 6a Erbschaftsteuergesetz sorgen dafür, dass du keine Verbindlichkeit gegen einen steuerfreien Vermögenswert gegenrechnest."
+    },
+    {
+      "art": "merke",
+      "titel": "Die Reihenfolge entscheidet",
+      "text": "Bewerten, befreien, zuordnen, begrenzen – pro Wirtschaftsgut einzeln.",
+      "norm": "§ 12 ErbStG · §§ 13-13d ErbStG · § 10 (6), (6a) ErbStG",
+      "sprecher": "Merk dir die vier Stationen als festen Ablauf, jedes Mal für jedes einzelne Wirtschaftsgut: bewerten, befreien, zuordnen, begrenzen. Wer das vermischt, verliert in der Erbschaftsteuerklausur regelmäßig Punkte."
+    },
+    {
+      "art": "cta",
+      "titel": "Schick das deiner Lerngruppe",
+      "text": "Speichern für die Wiederholung vor der Klausur.",
+      "sprecher": "Das ist Klausur-1-Stoff, und er kommt fast jedes Jahr dran. Schick das Video deiner Lerngruppe, speichere es dir für die Wiederholung, und folge, wenn du täglich Prüfungsfragen willst."
+    }
+  ],
+  "caption": "Erbschaftsteuer Nachlass bewerten Reihenfolge Klausur – wo fängst du eigentlich an, wenn zehn Positionen im Sachverhalt stehen? Die Lösung ist ein fester Viererschritt pro Wirtschaftsgut: erst den Wert über § 12 ErbStG und das BewG bestimmen, dann die sachliche Befreiung prüfen, danach direkt zuordenbare Verbindlichkeiten abziehen und zum Schluss den Abzug begrenzen, wenn das Wirtschaftsgut befreit ist. Der klassische Fehler: Bewertung und Befreiung werden vermischt – das kostet regelmäßig Punkte. Schick das deiner Lerngruppe, speichere es dir für die Wiederholung vor der Klausur. Wo mischst du Bewertung und Befreiung am ehesten durcheinander?",
+  "hashtags": [
+    "#erbschaftsteuer",
+    "#bewertungsgesetz",
+    "#nachlassverbindlichkeiten",
+    "#erbstexamen",
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#klausurtechnik",
+    "#familienheim"
+  ],
+  "kurztitel": "Nachlass bewerten: die Reihenfolge",
+  "hookTyp": "szene",
+  "hookMuster": "szene",
+  "slug": "2026-09-11-b2"
+}
