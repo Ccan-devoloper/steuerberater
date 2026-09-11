@@ -62,6 +62,30 @@ export const GRENZEN = {
 };
 
 const SPERRLISTE_DATEI = path.resolve(hier, "../config/namen-sperrliste.json");
+/* Merkhilfen anderer Dozenten („EIS-Methode“, „ABBA-Schema“): kein Inhalt,
+   sondern deren Eigenschöpfung. Ein Beitrag, der so etwas übernimmt, wirkt
+   wie abgeschrieben – und ist es auch. */
+const EIGENBEGRIFFE_DATEI = path.resolve(hier, "../config/eigenbegriffe.json");
+export function eigenbegriffe() {
+  try { return fs.existsSync(EIGENBEGRIFFE_DATEI) ? (JSON.parse(fs.readFileSync(EIGENBEGRIFFE_DATEI, "utf8")).begriffe || []) : []; } catch { return []; }
+}
+/* Trifft die gesperrten Begriffe – und darüber hinaus jede Merkhilfe nach
+   dem Muster GROSSBUCHSTABEN-Methode/-Schema/-Formel, sofern sie nicht in der
+   Fachsprache üblich ist. Solche Kürzel sind fast immer die Erfindung eines
+   Dozenten. */
+const UEBLICH = new Set(["dba-schema", "ust-schema", "est-schema", "gewst-schema", "kst-schema", "abc-analyse", "xyz-analyse", "gob-regel"]);
+export function gefundeneEigenbegriffe(text) {
+  const t = String(text);
+  const treffer = new Set();
+  for (const b of eigenbegriffe()) {
+    if (new RegExp(`(^|[^a-zäöüß0-9])${b.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(s|-Schemas?)?(?![a-zäöüß])`, "iu").test(t)) treffer.add(b);
+  }
+  for (const m of t.matchAll(/\b([A-ZÄÖÜ]{2,6})-(Methode|Schema|Formel|Regel|Trick|Prinzip|Technik)\b/g)) {
+    if (!UEBLICH.has(m[0].toLowerCase())) treffer.add(m[0]);
+  }
+  return [...treffer];
+}
+
 
 export function normalisieren(text) {
   return String(text)
@@ -217,6 +241,10 @@ export function pruefeBeitrag(beitrag, opt = {}) {
   /* 2. Namen aus den Fällen */
   const namen = gesperrteNamen(gesamt, k);
   if (namen.length) fehler.push(`Gesperrte Fallnamen verwendet (bitte andere, frei erfundene Namen): ${[...new Set(namen)].join(", ")}`);
+
+  /* 2a. Eigenbegriffe anderer Dozenten */
+  const eigen = gefundeneEigenbegriffe(gesamt);
+  if (eigen.length) fehler.push(`Merkhilfe eines anderen Dozenten übernommen (kein Fachbegriff, bitte weglassen oder den Inhalt ohne Kürzel erklären): ${eigen.join(", ")}`);
 
   /* 2b. Zitierweise: Das Grundgesetz und die europäischen Verträge werden mit
          Artikel zitiert, nie mit Paragraf. Im Steuerrecht kommt das Grundgesetz
