@@ -119,7 +119,9 @@
       "art": "teaser",
       "themaId": null,
       "beitragSlot": "b2",
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18165979663475935",
+      "veroeffentlicht": "2026-09-11T19:50:57.977Z"
     }
   ]
 }
