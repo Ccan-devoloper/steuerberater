@@ -1,0 +1,16 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Richtig ist B",
+  "titel": "Erst der Gewinn, dann das Einlagekonto",
+  "text": "Nur der übersteigende Betrag mindert das steuerliche Einlagekonto. Die Reihenfolge ist *zwingend* und nicht wählbar, § 27 (1) S. 3 KStG.",
+  "optionen": [
+    "Zuerst aus dem steuerlichen Einlagekonto",
+    "Zuerst aus dem ausschüttbaren Gewinn, Rest aus dem Einlagekonto",
+    "Die Gesellschaft kann frei wählen"
+  ],
+  "richtig": 1,
+  "fachLabel": "Bilanzsteuerrecht"
+}

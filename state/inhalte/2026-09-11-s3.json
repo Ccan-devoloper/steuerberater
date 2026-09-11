@@ -1,0 +1,14 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Prüfungsfrage Bilanzsteuerrecht",
+  "titel": "Ausschüttung einer KapG: In welcher Reihenfolge gilt sie als verwendet?",
+  "optionen": [
+    "Zuerst aus dem steuerlichen Einlagekonto",
+    "Zuerst aus dem ausschüttbaren Gewinn, Rest aus dem Einlagekonto",
+    "Die Gesellschaft kann frei wählen"
+  ],
+  "fachLabel": "Bilanzsteuerrecht"
+}

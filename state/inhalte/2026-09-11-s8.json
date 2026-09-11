@@ -1,0 +1,10 @@
+{
+  "slot": "s8",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Anschaffungsnaher Herstellungsaufwand",
+  "text": "Beispiel: Gebäude-AK 200.000 €, Instandsetzung in 3 Jahren netto 32.000 € – das sind 16 %, also *Aktivierungspflicht* für alles.",
+  "formel": "Instandsetzung (3 J., netto) > 15 % Gebäude-AK",
+  "fachLabel": "Bilanzsteuerrecht"
+}

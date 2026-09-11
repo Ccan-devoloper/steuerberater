@@ -47,6 +47,15 @@
         "faktencheck": 0.0097
       },
       "stand": "2026-09-10T18:53:12.213Z"
+    },
+    "2026-09-11": {
+      "usd": 0.0618,
+      "aufrufe": 2,
+      "zwecke": {
+        "stories": 0.0558,
+        "story-faktencheck": 0.006
+      },
+      "stand": "2026-09-11T08:44:27.704Z"
     }
   }
 }

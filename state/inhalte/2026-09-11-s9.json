@@ -1,0 +1,12 @@
+{
+  "slot": "s9",
+  "art": "begriff",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Begriff des Tages",
+  "titel": "Anschaffungskosten",
+  "text": "Kaufpreis plus Nebenkosten plus alles, was das Wirtschaftsgut betriebsbereit macht, abzüglich Preisminderungen. Abziehbare Vorsteuer zählt nicht mit.",
+  "norm": "§ 255 (1) HGB · § 9b (1) EStG",
+  "icon": "rechner",
+  "fachLabel": "Bilanzsteuerrecht"
+}
