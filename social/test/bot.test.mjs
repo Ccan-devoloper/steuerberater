@@ -739,3 +739,24 @@ test("Normen: gesprochene Form wird für sichtbaren Text zurückgewandelt", asyn
   /* Ohne folgende Ziffer ist es normales Deutsch und bleibt stehen. */
   assert.equal(normKurz("Der Paragraf regelt die AfA"), "Der Paragraf regelt die AfA");
 });
+
+test("Reel-Länge: die Annahmegrenze passt zu jedem Zeitfenster", async () => {
+  const { CONFIG } = await import("../src/config.mjs");
+  /* Dieselbe Rechnung wie in reelSchreiben. Stand die Grenze fest (45–110
+     Wörter), wurde jedes Reel ab dem zweiten Fenster abgelehnt, obwohl die
+     Anleitung genau diese Länge verlangt hatte – ein Nachschlag pro Reel und
+     nach drei Versuchen gar kein Reel. */
+  const JE_SEKUNDE = 2.4;
+  for (const [von, bis] of CONFIG.reel.dauerFenster) {
+    const zielVon = Math.round(von * JE_SEKUNDE), zielBis = Math.round(bis * JE_SEKUNDE);
+    const min = Math.round(zielVon * 0.75), max = Math.round(zielBis * 1.25);
+    assert.ok(min <= zielVon && zielBis <= max, `Fenster ${von}-${bis}: Ziel ${zielVon}-${zielBis} liegt nicht in ${min}-${max}`);
+    /* Die Mitte des Fensters muss komfortabel drin liegen, nicht am Rand. */
+    const mitte = Math.round(((von + bis) / 2) * JE_SEKUNDE);
+    assert.ok(mitte > min && mitte < max, `Fenster ${von}-${bis}: Mitte ${mitte} am Rand von ${min}-${max}`);
+  }
+  /* Und der Quelltext darf die Grenze nicht wieder fest verdrahten. */
+  const src = fs.readFileSync(new URL("../src/autor.mjs", import.meta.url), "utf8");
+  assert.ok(!/const \[min, max\] = lang \? \[/.test(src), "feste Wortgrenze im Quelltext");
+  assert.match(src, /const zielVon = Math\.round\(von \* WOERTER_JE_SEKUNDE\)/);
+});
