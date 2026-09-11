@@ -1419,6 +1419,16 @@
       "fach": "erbst",
       "titel": "Nachlassverbindlichkeit oder Gegenleistung/Auflage?",
       "medienId": "17946593592279527"
+    },
+    {
+      "datum": "2026-09-11",
+      "art": "story",
+      "slot": "s6",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "medienId": "18231160615320361"
     }
   ],
   "fachZaehler": {

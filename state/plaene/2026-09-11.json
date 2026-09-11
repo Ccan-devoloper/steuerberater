@@ -63,7 +63,9 @@
       "themaId": null,
       "beitragSlot": null,
       "tageBisExamen": 25,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18231160615320361",
+      "veroeffentlicht": "2026-09-11T13:43:30.474Z"
     },
     {
       "slot": "s1",
