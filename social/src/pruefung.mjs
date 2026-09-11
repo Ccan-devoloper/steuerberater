@@ -183,6 +183,11 @@ const QUELLENBEZUG = /\b(laut Quelle|Quelle|Seite \d+|Folie|Mitschrift|Skript|Or
    Deshalb werden Normzitate (auch ohne Gesetzesangabe, in beliebiger
    Reihenfolge von Abs./S./Nr./Buchst.) vor dem Shingle-Vergleich entfernt. */
 const NORM = /(?:§§?|Art\.|Artikel|R|H)\s*\d+(?:\.\d+)?[a-z]?(?:\s*(?:\(\d+[a-z]?\)|[a-z]{2}\)|Abs\.|Absatz|S\.|Satz|Nr\.|Nummer|Buchst\.|Buchstabe|Hs\.|Halbsatz|Alt\.|Var\.|lit\.)\s*[\da-z]*\)?)*(?:\s*(?:i\.?\s?V\.?\s?m\.?|iVm|in Verbindung mit)\s*(?:§§?\s*)?\d+[a-z]?(?:\s*(?:Abs\.|S\.|Nr\.|Buchst\.)\s*[\da-z]+)*)?\s*(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|EStH|KStR|KStH|UStAE|BGB|GrEStG|FGO|SolZG|DBA|GewStR|UmwG|GmbHG|AktG|InsO|ZPO|BewG)?\b/g;
+/* Grundgesetz, AEUV, EUV, EMRK und Grundrechtecharta mit Paragrafenzeichen –
+   ein Fehler, den das Modell sonst erst im Faktencheck vorgehalten bekommt,
+   also erst nachdem der Text geschrieben und bezahlt ist. */
+const ZITIER_ARTIKEL = /(?:§§?\s*|\bParagra(?:f|ph)(?:en)?\s+)\d+[a-z]?(?:\s*(?:\(\d+[a-z]?\)|(?:Abs\.|Absatz|S\.|Satz|Nr\.|Nummer)\s*\d+[a-z]?))*\s*(?:GG|AEUV|EUV|EMRK|GRCh)\b/;
+
 export function ohneNormen(text) {
   return String(text).replace(NORM, " NORM ").replace(/\b(Abs|S|Nr|Buchst|Hs|Alt)\.\s*\d+[a-z]?/g, " NORM ").replace(/\(\d+[a-z]?\)/g, " NORM ");
 }
@@ -212,6 +217,13 @@ export function pruefeBeitrag(beitrag, opt = {}) {
   /* 2. Namen aus den Fällen */
   const namen = gesperrteNamen(gesamt, k);
   if (namen.length) fehler.push(`Gesperrte Fallnamen verwendet (bitte andere, frei erfundene Namen): ${[...new Set(namen)].join(", ")}`);
+
+  /* 2b. Zitierweise: Das Grundgesetz und die europäischen Verträge werden mit
+         Artikel zitiert, nie mit Paragraf. Im Steuerrecht kommt das Grundgesetz
+         vor allem bei der Gesetzgebungskompetenz (Art. 105 GG) und beim
+         Gleichheitssatz (Art. 3 GG) vor. Geprüft werden beide Schreibweisen:
+         auf der Kachel „§“, im Sprechertext des Reels „Paragraf“. */
+  if (ZITIER_ARTIKEL.test(gesamt)) fehler.push("Grundgesetz und europäische Verträge werden mit Artikel zitiert, nicht mit Paragraf (Art. 105 Abs. 2 GG statt § 105 GG).");
 
   /* 3. Quellenbezüge */
   if (QUELLENBEZUG.test(gesamt)) fehler.push(`Bezug auf Kursquelle/Seiten/Fallnummern entfernen: ${gesamt.match(QUELLENBEZUG)[0]}`);
