@@ -1,0 +1,73 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "mindset-7",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Tag 1 war schlecht",
+      "unter": "Was jetzt zählt",
+      "icon": "stoppuhr",
+      "sprecher": "Du kommst aus der Klausur und weißt: das war nichts. Die einen rechnen den ganzen Abend nach, die anderen machen einen Punkt und drehen den Kopf."
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Nicht nachrechnen",
+      "text": "Was geschrieben ist, ist geschrieben.",
+      "icon": "kreuz",
+      "sprecher": "Rechne nichts nach. Jede Minute Grübeln fehlt dir morgen."
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Kein Fachgespräch",
+      "text": "Mit niemandem über die Klausur reden.",
+      "icon": "personen",
+      "sprecher": "Sprich mit niemandem über Aufgabe drei. Das zieht dich nur zurück."
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Schemata für morgen",
+      "text": "Prüfschemata für Tag 2 ruhig durchgehen.",
+      "icon": "klemmbrett",
+      "sprecher": "Geh stattdessen die Schemata für Tag zwei durch. Nicht neu lernen, nur auffrischen."
+    },
+    {
+      "art": "merke",
+      "titel": "Ein Tag ist nicht das Examen",
+      "text": "Der Durchschnitt zählt – zwei Klausuren sind noch offen.",
+      "icon": "waage",
+      "sprecher": "Es zählt der Durchschnitt aller drei Klausuren, nicht ein einzelner Tag."
+    },
+    {
+      "art": "cta",
+      "titel": "Folgen für den Rest der Vorbereitung",
+      "sprecher": "Der nächste Tag ist eine neue Klausur. Folg mir, wenn dir das hilft."
+    }
+  ],
+  "caption": "Schlechte Klausur an Tag 1 des Steuerberaterexamens – und jetzt? Der größte Fehler: den Abend mit Nachrechnen und Fachgesprächen verbrennen. Was geschrieben ist, ist geschrieben. Wichtiger ist, den Kopf frei zu bekommen und die Schemata für den nächsten Tag ruhig durchzugehen. Denk dran: Es zählt der Durchschnitt aus allen drei Klausuren, nicht ein einzelner Tag. Schick das jeder Person in deiner Lerngruppe, die diese Woche schreibt. Speichern für den Ernstfall. Wie gehst du mit einer schlechten Klausur um – sofort abhaken oder fällt dir das schwer?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#klausurtechnik",
+    "#bilanzsteuerrecht",
+    "#mindset",
+    "#prüfungsangst",
+    "#lerngruppe",
+    "#stb2026"
+  ],
+  "kurztitel": "Nach schlechter Klausur weitermachen",
+  "bildSzene": "person walking alone at night street",
+  "bildSzeneAlt": "closed notebook on empty desk",
+  "hookTyp": "kosten",
+  "hookMuster": "kontrast",
+  "slug": "2026-09-12-b2"
+}
