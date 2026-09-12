@@ -1658,6 +1658,16 @@
       "fach": "bilanz",
       "titel": "Verdeckte Gewinnausschüttung",
       "medienId": "17978811594106606"
+    },
+    {
+      "datum": "2026-09-12",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-abzinsung",
+      "fach": "bilanz",
+      "titel": "Auf- und Abzinsung",
+      "medienId": "18103713290263077"
     }
   ],
   "fachZaehler": {
