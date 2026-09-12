@@ -1,0 +1,17 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "ueberzeile": "Richtig ist B",
+  "titel": "Nein – die Bagatellgrenze greift hier nicht",
+  "text": "Bei der vertikalen Abfärbung über eine Beteiligung an einer gewerblichen Mitunternehmerschaft findet die Geringfügigkeitsgrenze keine Anwendung, § 15 (3) Nr. 1 EStG.",
+  "optionen": [
+    "Ja",
+    "Nein",
+    "Nur bei Verlusten"
+  ],
+  "richtig": 1,
+  "icon": "personen",
+  "fachLabel": "Personengesellschaften"
+}

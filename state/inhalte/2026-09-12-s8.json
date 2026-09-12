@@ -1,0 +1,11 @@
+{
+  "slot": "s8",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Auf- und Abzinsung",
+  "text": "Beispiel: Rückstellung Endwert 55.000 €, n=5, i=5,5 %: Barwert = 55.000 ÷ 1,055^5 ≈ 42.200 €. Verbindlichkeiten seit 2023 nicht mehr abzinsen.",
+  "formel": "Endwert = Barwert × (1+i)^n · Barwert = Endwert ÷ (1+i)^n",
+  "icon": "rechner",
+  "fachLabel": "Bilanzsteuerrecht"
+}

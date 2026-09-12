@@ -1,0 +1,15 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "ueberzeile": "Prüfungsfrage Personengesellschaften",
+  "titel": "Gilt die Bagatellgrenze (3 % / 24.500 €) auch bei vertikaler Abfärbung?",
+  "optionen": [
+    "Ja",
+    "Nein",
+    "Nur bei Verlusten"
+  ],
+  "icon": "personen",
+  "fachLabel": "Personengesellschaften"
+}
