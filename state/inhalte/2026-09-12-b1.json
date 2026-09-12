@@ -1,0 +1,109 @@
+{
+  "format": "spickzettel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-307",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wann ist ein Steuerbescheid wirklich bekanntgegeben – und wann nur verschickt?",
+      "icon": "umschlag",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen",
+      "hinweis": "Schau rein"
+    },
+    {
+      "art": "karte",
+      "titel": "Das Bekanntgabe-Schema kompakt",
+      "schritte": [
+        {
+          "titel": "Ausgangspunkt bestimmen",
+          "text": "§ 122 (1) AO: Wirksamkeit erst mit Bekanntgabe."
+        },
+        {
+          "titel": "Zugang prüfen",
+          "text": "Gelangt das Schreiben in den Machtbereich?"
+        },
+        {
+          "titel": "Machtbereich abgrenzen",
+          "text": "Briefkasten, Postfach – nicht bloßer Übergabeort."
+        },
+        {
+          "titel": "Kenntnisnahme trennen",
+          "text": "Zugang genügt, Lesen ist nicht erforderlich."
+        },
+        {
+          "titel": "Richtigen Empfänger finden",
+          "text": "Grundsätzlich der Steuerpflichtige selbst, § 122 (1) AO."
+        },
+        {
+          "titel": "Vertretung einbeziehen",
+          "text": "Bei Vollmacht § 80 AO mit § 122 AO kombinieren."
+        },
+        {
+          "titel": "Ehegattenfälle beachten",
+          "text": "Sonderregeln § 122 (6), (7) AO prüfen."
+        },
+        {
+          "titel": "Feststellungsfälle prüfen",
+          "text": "Gesonderte Feststellung: §§ 183, 183a AO."
+        }
+      ],
+      "icon": "dokument"
+    },
+    {
+      "art": "text",
+      "titel": "Hier gehen die meisten Punkte verloren",
+      "punkte": [
+        "Zugang wird mit tatsächlichem *Lesen* verwechselt – falsch, es reicht die Möglichkeit der Kenntnisnahme im Machtbereich.",
+        "Bei Vollmacht wird pauschal an den Berater bekanntgegeben – ohne zu prüfen, ob § 80 AO das im Einzelfall überhaupt zulässt oder ob Ehegatten-/Feststellungsregeln vorgehen."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Ein Bescheid wirkt nicht durchs Schreiben, sondern erst, wenn er im Machtbereich des richtigen Empfängers ankommt.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Diese Karte gehört in jede Lerngruppe.",
+      "punkte": [
+        "Schick das deiner Lerngruppe – Bekanntgabe kommt fast jedes Jahr dran",
+        "Speichern für die letzte Wiederholung vor der Klausur",
+        "Wo hakt es bei dir: Zugang, Empfänger oder Vollmacht? Schreib's in die Kommentare"
+      ],
+      "icon": "handschlag"
+    }
+  ],
+  "caption": "Bekanntgabe Steuerbescheid AO Zugang Machtbereich – die Karte, die in Klausur 1 fast jedes Jahr gebraucht wird. Ein Bescheid ist nicht wirksam, weil er geschrieben oder abgeschickt wurde. Er ist erst wirksam, wenn er im *Machtbereich* des *richtigen Empfängers* ankommt – und das ist nicht dasselbe wie tatsächliches Lesen. Bei Vollmacht, Ehegatten oder gesonderter Feststellung gelten zusätzlich Sonderregeln, die viele einfach überspringen. Schick das deiner Lerngruppe, bevor ihr das nächste Mal über einen Bekanntgabe-Sachverhalt stolpert. Speichern lohnt sich für die letzte Wiederholungsrunde. An welcher Stelle im Schema verlierst du am ehesten den Faden – Zugang oder richtiger Empfänger?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#studygram",
+    "#steuerwissen",
+    "#abgabenordnung",
+    "#bekanntgabe",
+    "#steuerbescheid",
+    "#verfahrensrecht",
+    "#klausurtipps",
+    "#ao"
+  ],
+  "kurztitel": "Bekanntgabe: Das ganze Schema",
+  "bildSzene": "hand placing letter in mailbox",
+  "quellen": [],
+  "hookTyp": "frage",
+  "faktenHinweise": [
+    "Folie karte, Punkt 5: Normzitat unvollständig: § 122 (1) AO ist richtig, aber die Stelle sollte präzisiert werden, dass es um den Empfänger (Steuerpflichtigen) geht. Jedoch: § 122 Abs. 1 AO regelt die Bekanntgabe an den Steuerpflichtigen selbst, nicht generell den richtigen Empfänger. Die Bestimmung des richtigen Empfängers (insbesondere bei Vertretung) ergibt sich aus § 122 Abs. 1 AO in Verbindung mit § 80 AO und weiteren Spezialvorschriften (§ 122 Abs. 6, 7 AO). Das Schema erweckt hier den Eindruck, als würde § 122 (1) AO allein die Empfängerfrage regeln, was ungenau ist. Es sollte stärker differenziert werden zwischen Grundregel (Steuerpflichtiger selbst) und Abweichungen (Vertreter, Ehegatten, Feststellungsfälle).",
+    "Folie karte, Punkt 8: ‚Feststellungsfälle prüfen: Gesonderte Feststellung: §§ 183, 183a AO' – Die Formulierung ist knapp. § 183 AO regelt die gesonderte Feststellung von Besteuerungsgrundlagen; die Bekanntgabe gegenüber dem Beteiligten richtet sich dann nach § 183 Abs. 2 AO. § 183a AO regelt die gesonderte und einheitliche Feststellung. Der Verweis ist formal richtig, aber es könnte unklar sein, dass hier nicht § 183 als Bekanntgabenorm selbst gemeint ist, sondern nur als Verfahrensregel, die die Bekanntgaberegelungen auslöst. Eine Ergänzung wie ‚mit abweichender Bekanntgaberegelung' wäre hilfreicher, aber auch so noch vertretbar.",
+    "Folie text, erster Absatz: ‚Zugang wird mit tatsächlichem *Lesen* verwechselt – falsch, es reicht die Möglichkeit der Kenntnisnahme im Machtbereich.' – Die Ausdrucksweise ‚Möglichkeit der Kenntnisnahme' ist etwas ungenau. Nach gefestigter Rechtsprechung kommt es auf den tatsächlichen Zugang zum Machtbereich an (objektive Möglichkeit der Kenntnisnahme), nicht auf die Möglichkeit im Sinne von ‚könnte der Empfänger es erfahren'. Der Zugang muss real erfolgt sein, darf aber nicht bewusst wahrgenommen worden sein. Besser: ‚es reicht der tatsächliche Zugang zum Machtbereich, Kenntnisnahme ist nicht erforderlich' oder ‚der tatsächliche Zugang genügt, tatsächliches Lesen nicht'."
+  ],
+  "slug": "2026-09-12-b1"
+}
