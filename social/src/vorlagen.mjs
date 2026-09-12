@@ -17,7 +17,7 @@ export const MASSE = {
   story: { breite: 1080, hoehe: 1920 },
 };
 
-export const KLAUSUR_FARBE = { 1: "k1", 2: "k2", 3: "k3" };
+export const KLAUSUR_FARBE = { 0: "k0", 1: "k1", 2: "k2", 3: "k3" };
 
 export function esc(s) {
   return String(s ?? "")
@@ -178,7 +178,10 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 .story .foto{left:84px;right:84px;bottom:150px;height:600px}
 .story:has(.frei) .fuss,.story:has(.foto) .fuss{z-index:3}
 .story .bildquelle{position:absolute;left:84px;bottom:96px;font-size:22px;color:var(--text-weich);opacity:.85;z-index:3}
-.story:has(.frei) .hinweis,.story:has(.frei) .text{max-width:640px}
+/* Steht ein Motiv auf der Story, ruecken ALLE Inhaltsbloecke auf dieselbe
+   Breite. Vorher galt das nur fuer Text und Hinweis - die Normzeile lief
+   weiter ueber die volle Kachel, und die Kachel sah verrutscht aus. */
+.story:has(.frei) .hinweis,.story:has(.frei) .text,.story:has(.frei) .norm,.story:has(.frei) .karte,.story:has(.frei) .optionen,.story:has(.frei) h1,.story:has(.frei) .zahl-unter{max-width:640px}
 .story.cover:has(.frei) .buehne{display:none}
 .story .pille{font-size:36px;padding:20px 40px;margin-top:56px}
 .story .fuss{font-size:32px}
@@ -282,7 +285,11 @@ h1 em{color:${p.akzent2}}
 .story .frei-zeichen{left:84px;bottom:330px;width:240px;height:240px}
 /* Der Pexels-Hinweis steht ueber der Zone, die Instagram mit Antwortfeld und
    Reaktionen ueberlagert (unterste ~250 px). */
-.story .bildquelle{bottom:290px;max-width:300px;line-height:1.3}
+/* Bildnachweis: Ton in Ton mit der Flaeche - er soll die Kachel nicht
+   stoeren, aber lesbar bleiben. Pexels verlangt fuer die API-Nutzung einen
+   sichtbaren Hinweis; ganz in der Grundfarbe waere er unsichtbar und der
+   Nachweis damit keiner mehr. */
+.story .bildquelle{bottom:290px;max-width:320px;line-height:1.3;color:${p.dunkel};opacity:.38;font-size:20px}
 /* Der Sticker-Rand steckt schon in der PNG (freistellen.mjs, bestickern):
    zwoelf verkettete drop-shadows brachten Chromium zum Stehen. Hier nur
    noch der weiche Schatten, der den Sticker von der Flaeche hebt. */
@@ -393,13 +400,43 @@ function kopf(ctx, zaehler) {
 /* Fußzeile: nur das Handle, und nur wenn eines konfiguriert ist. Keine Website,
    kein Markenname – das kommt später. */
 function fuss(ctx) {
-  return `<div class="fuss"><span class="handle">${esc(ctx.handle || "")}</span><span class="klausur">${esc(KLAUSUR_KURZ[ctx.klausur] || "")}</span></div>`;
+  return `<div class="fuss"><span class="handle">${esc(ctx.handle || "")}</span><span class="klausur">${esc(fussRechts(ctx))}</span></div>`;
 }
 const KLAUSUR_KURZ = { 1: "Klausur 1 · Tag 1", 2: "Klausur 2 · Tag 2", 3: "Klausur 3 · Tag 3" };
 
+/* Rechts in der Fusszeile: der Prüfungstag - und bei allem, was zu keinem
+   Tag gehört (Mindset), dessen eigenes Etikett. */
+export function fussRechts(ctx) {
+  if (ctx?.fach === "mindset") return "Kopfsache";
+  return KLAUSUR_KURZ[ctx?.klausur] || "";
+}
+
 /* Foto statt Icon-Buehne: Das Bild liegt als abgerundete Karte im unteren
    Drittel, die Farbe der Kachel bleibt sichtbar. */
-function fotoBuehne(folie) {
+/**
+ * Bühne für ein freigestelltes Motiv. Feste Box plus „contain" ließ breite
+ * Motive (zwei Hände über einem Blatt) zur Briefmarke schrumpfen, während
+ * hochkante die Kachel füllten. Gerechnet wird deshalb auf gleiche FLÄCHE:
+ * Jedes Motiv bekommt dieselbe optische Wucht, die Form bestimmt nur, ob es
+ * breit und flach oder schmal und hoch dasteht.
+ * @param {number} breite natürliche Maße des Freistellers
+ * @param {{flaeche:number,maxB:number,maxH:number}} ziel
+ */
+export function motivBuehne(breite, hoehe, ziel) {
+  if (!breite || !hoehe) return null;
+  const v = breite / hoehe;
+  let h = Math.sqrt(ziel.flaeche / v), b = v * h;
+  /* Nicht breiter und nicht höher als die Kachel verträgt; die Form bleibt. */
+  if (b > ziel.maxB) { b = ziel.maxB; h = b / v; }
+  if (h > ziel.maxH) { h = ziel.maxH; b = v * h; }
+  return { breite: Math.round(b), hoehe: Math.round(h) };
+}
+
+/* Ziele je Format: Die Fläche entspricht etwa 60 % der alten festen Box. */
+export const BUEHNE_BEITRAG = { flaeche: 640 * 620 * 0.72, maxB: 900, maxH: 700 };
+export const BUEHNE_STORY = { flaeche: 720 * 820 * 0.72, maxB: 1000, maxH: 950 };
+
+function fotoBuehne(folie, ziel = BUEHNE_BEITRAG) {
   /* Freigestellt: Das Motiv laeuft unten rechts aus der Kachel, ohne Rahmen.
      Nicht freigestellt (Notfall): als abgerundete Karte. */
   const klasse = folie.bildFrei === false ? "foto" : "frei";
@@ -410,7 +447,9 @@ function fotoBuehne(folie) {
      daneben - Motiv und Zeichen zusammen, wie auf den Vorbildkacheln. Nur die
      farbige Fassung; die Strichgrafik wuerde neben einem Foto duenn wirken. */
   const zeichen = folie.icon && klasse === "frei" ? farbIcon(folie.icon, 240) : null;
-  return `<div class="${klasse}"><img src="${esc(folie.bild)}" alt=""></div>${zeichen ? `<div class="frei-zeichen">${zeichen}</div>` : ""}`;
+  const box = klasse === "frei" ? motivBuehne(folie.bildBreite, folie.bildHoehe, ziel) : null;
+  const stil = box ? ` style="width:${box.breite}px;height:${box.hoehe}px"` : "";
+  return `<div class="${klasse}"${stil}><img src="${esc(folie.bild)}" alt=""></div>${zeichen ? `<div class="frei-zeichen">${zeichen}</div>` : ""}`;
 }
 
 function bildOderIllu(ctx, folie) {
@@ -418,7 +457,7 @@ function bildOderIllu(ctx, folie) {
      bekommen ein eigenes): freigestellt unten rechts, wie auf der Titelfolie.
      Pexels verlangt einen sichtbaren Hinweis; Stories haben keine Caption,
      also steht er klein auf der Kachel. */
-  if (folie.bild) return `${fotoBuehne(folie)}${folie.bildQuelle ? `<div class="bildquelle">${esc(folie.bildQuelle)}</div>` : ""}`;
+  if (folie.bild) return `${fotoBuehne(folie, BUEHNE_STORY)}${folie.bildQuelle ? `<div class="bildquelle">${esc(folie.bildQuelle)}</div>` : ""}`;
   if (folie.icon) return `<div class="geist">§</div><div class="illu">${iconSvg(folie.icon)}</div>`;
   return `<div class="geist">§</div>`;
 }
@@ -612,7 +651,7 @@ export function coverHtml(daten, ctx) {
     <div class="ueberzeile">${esc(daten.ueberzeile || "Reel")}</div>
     <h1 class="${titelKlasse(daten.titel)}">${markierenTitel(daten.titel)}</h1>
     ${daten.dauerText ? `<div class="dauer">${esc(daten.dauerText)}</div>` : ""}
-    ${daten.bild ? fotoBuehne(daten) : `<div class="buehne">${iconSvg(ICONS[daten.icon] ? daten.icon : "paragraf")}</div>`}
+    ${daten.bild ? fotoBuehne(daten, BUEHNE_STORY) : `<div class="buehne">${iconSvg(ICONS[daten.icon] ? daten.icon : "paragraf")}</div>`}
     ${fuss(ctx)}`;
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}${klausurCss(ctx)}${buntCss(ctx)}</style></head>
 <body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="story cover">${inhalt}</div></body></html>`;

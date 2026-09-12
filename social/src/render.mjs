@@ -34,7 +34,10 @@ export function kontext(opt = {}) {
     farbeJeKlausur: CONFIG.marke.farbeJeKlausur,
     handle: opt.handle ?? CONFIG.marke.handle,
     fachLabel: opt.fachLabel || (opt.fach ? FAECHER[opt.fach]?.label : "Steuerberaterexamen") || "Steuerberaterexamen",
-    klausur: opt.klausur || (opt.fach ? FAECHER[opt.fach]?.klausur : 3) || 3,
+    /* ?? statt ||: Klausurtag 0 ist ein gültiger Wert (Mindset, Kopfsache)
+       und darf nicht zu 3 werden - sonst erscheint ein Mindset-Beitrag in der
+       Farbe und mit dem Etikett des dritten Prüfungstags. */
+    klausur: opt.klausur ?? (opt.fach ? FAECHER[opt.fach]?.klausur : 3) ?? 3,
   };
 }
 

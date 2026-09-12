@@ -17,7 +17,8 @@ test("Themenpool: alle Fächer vertreten, keine Fälle, keine Quellenbezüge", (
   const pool = themenpool();
   const st = poolStatistik(pool);
   assert.ok(st.gesamt > 300, `nur ${st.gesamt} Themen`);
-  for (const f of Object.keys(FAECHER)) assert.ok(st.jeFach[f] > 0, `Fach ${f} fehlt`);
+  /* „mindset" ist kein Pool-Fach: Diese Themen stehen im Kalender. */
+  for (const f of Object.keys(FAECHER).filter((x) => x !== "mindset")) assert.ok(st.jeFach[f] > 0, `Fach ${f} fehlt`);
   for (const t of pool) {
     assert.ok(!/Originalfall|Hausaufgabe|Seite \d/i.test(t.titel), `Quellenbezug im Titel: ${t.titel}`);
     assert.ok(["hoch", "mittel", "selten"].includes(t.prioritaet));
@@ -136,7 +137,7 @@ test("Redaktionsplan: Prüfungsabend mit Lösungsskizze, Endspurt-Formate, Samst
   const samstag = tagesplan("2026-09-12", ledgerLaden(), themenpool());
   const reel = samstag.beitraege.find((b) => b.format === "reel");
   assert.ok(reel && reel.thema.typ === "mindset", JSON.stringify(samstag.beitraege.map((b) => [b.format, b.thema?.typ])));
-  assert.ok(MINDSET_THEMEN.includes(mindsetThema("2026-09-12")));
+  assert.ok(MINDSET_THEMEN.some((t) => t.id === mindsetThema("2026-09-12").id));
   /* Nach der Prüfung: montags „Zweiter Anlauf“, Jan–Apr Anmeldefenster. */
   assert.ok(anlaesseFuer("2026-10-19").some((a) => a.art === "neustart"));
   assert.ok(anlaesseFuer("2027-01-04").some((a) => a.art === "anmeldefenster") || anlaesseFuer("2027-01-11").some((a) => a.art === "anmeldefenster"));
@@ -1040,4 +1041,58 @@ test("Themen-Skelett: Methodik-Themen ohne Klausurtag brechen den Lauf nicht ab"
     assert.ok(fach.label, `Fach ${name} ohne Label`);
     assert.ok(fach.klausur === 0 || KLAUSUREN[fach.klausur], `Fach ${name}: Klausurtag ${fach.klausur} unbekannt`);
   }
+});
+
+test("Mindset: eigene Farbe, eigenes Etikett, kein Prüfungstag", async () => {
+  const { mindsetThema } = await import("../src/kalender.mjs");
+  const { FAECHER } = await import("../src/inhalte.mjs");
+  const { STILE } = await import("../src/stile.mjs");
+  const { folieHtml, coverHtml, fussRechts } = await import("../src/vorlagen.mjs");
+  const t = mindsetThema("2026-09-12");
+  assert.equal(t.fach, "mindset");
+  assert.equal(t.klausur, 0);
+  assert.equal(FAECHER.mindset.label, "Kopfsache");
+  /* Klausurtag 0 hat eine eigene Farbe, die sich von allen dreien unterscheidet. */
+  const f = STILE.bunt.tagFarben;
+  assert.ok(f[0]?.grund, "keine Farbe für Klausurtag 0");
+  assert.equal(new Set([f[0].grund, f[1].grund, f[2].grund, f[3].grund]).size, 4);
+  assert.equal(fussRechts({ fach: "mindset", klausur: 0 }), "Kopfsache");
+  /* Und die 0 überlebt den Weg bis in die Kachel - vorher wurde sie zu 3. */
+  const ctx = kontext({ fach: "mindset", klausur: 0 });
+  assert.equal(ctx.klausur, 0);
+  const html = folieHtml({ art: "titel", titel: "T" }, ctx, 1, 1);
+  const flaeche = html.match(/\.folie,\.story,\.reel\{background:(#[0-9a-f]{6})/i)?.[1];
+  assert.equal(flaeche?.toLowerCase(), f[0].grund.toLowerCase(), `Kachelfläche ${flaeche} statt Mindset-Farbe`);
+  assert.ok(coverHtml({ titel: "T" }, ctx).includes("Kopfsache"));
+});
+
+test("Motiv-Bühne: gleiche Fläche für jede Bildform", async () => {
+  const { motivBuehne, BUEHNE_BEITRAG, BUEHNE_STORY } = await import("../src/vorlagen.mjs");
+  const hoch = motivBuehne(600, 900, BUEHNE_BEITRAG);
+  const breit = motivBuehne(1200, 500, BUEHNE_BEITRAG);
+  /* Beide nehmen ungefähr gleich viel Fläche ein - das war der Fehler: Ein
+     breites Motiv schrumpfte in der festen Box zur Briefmarke. */
+  const fl = (b) => b.breite * b.hoehe;
+  assert.ok(fl(breit) > fl(hoch) * 0.9, `breit ${fl(breit)} vs hoch ${fl(hoch)}`);
+  /* Die Form bleibt erhalten. */
+  assert.ok(Math.abs(breit.breite / breit.hoehe - 2.4) < 0.05, JSON.stringify(breit));
+  assert.ok(Math.abs(hoch.breite / hoch.hoehe - 0.667) < 0.02, JSON.stringify(hoch));
+  /* Nichts wird breiter oder höher als erlaubt. */
+  for (const ziel of [BUEHNE_BEITRAG, BUEHNE_STORY]) {
+    for (const [b, h] of [[3000, 400], [400, 3000], [800, 800]]) {
+      const box = motivBuehne(b, h, ziel);
+      assert.ok(box.breite <= ziel.maxB && box.hoehe <= ziel.maxH, `${b}x${h} → ${JSON.stringify(box)}`);
+    }
+  }
+  assert.equal(motivBuehne(0, 0, BUEHNE_BEITRAG), null);
+});
+
+test("Story mit Motiv: alle Inhaltsblöcke gleich breit, Nachweis Ton in Ton", async () => {
+  const { storyHtml } = await import("../src/vorlagen.mjs");
+  const html = storyHtml({ art: "begriff", titel: "Begriff", norm: "§ 1 BGB", text: "Text", bild: "data:image/png;base64,iVBORw0KGgo=", bildFrei: true, bildBreite: 600, bildHoehe: 400, bildQuelle: "Foto: X / Pexels" }, kontext({ fach: null, klausur: 1 }));
+  const regel = html.match(/\.story:has\(\.frei\)[^{]*\{max-width:640px\}/)?.[0] || "";
+  for (const teil of [".norm", ".text", ".karte", "h1"]) assert.ok(regel.includes(teil), `${teil} fehlt in der Breitenregel`);
+  /* Die Bühne trägt die gerechneten Maße, nicht die feste Box. */
+  assert.ok(/class="frei" style="width:\d+px;height:\d+px"/.test(html), "Bühne ohne gerechnete Maße");
+  assert.ok(html.includes("Foto: X / Pexels"), "Bildnachweis fehlt");
 });

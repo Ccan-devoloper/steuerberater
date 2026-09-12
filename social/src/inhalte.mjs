@@ -41,6 +41,9 @@ import ust8 from "../../src/data/module-vertiefung-u.js";
 import { prioritaetFuer } from "../../src/data/examensprioritaet.js";
 
 export const FAECHER = {
+  /* Kein Prüfungsfach, sondern alles rund um Kopf und Vorbereitung: Mindset,
+     Umgang mit Rückschlägen. Klausurtag 0 = eigene Farbe (stile.mjs). */
+  mindset: { label: "Kopfsache", kurz: "Kopfsache", klausur: 0 },
   ao:     { label: "Abgabenordnung",            kurz: "AO",     klausur: 1 },
   ust:    { label: "Umsatzsteuer",              kurz: "USt",    klausur: 1 },
   erbst:  { label: "Erbschaftsteuer / Bewertung", kurz: "ErbSt", klausur: 1 },
