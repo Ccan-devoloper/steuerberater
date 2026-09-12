@@ -12,7 +12,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { browserStarten, coverRendern } from "./render.mjs";
-import { css, klausurCss, buntCss } from "./vorlagen.mjs";
+import { css, klausurCss, buntCss, fussRechts } from "./vorlagen.mjs";
 import { normKurz, normGesprochen } from "./normen.mjs";
 import { stil as stilLaden, iconSvg } from "./stile.mjs";
 import { FAECHER } from "./inhalte.mjs";
@@ -339,7 +339,7 @@ ${ctx.clip ? overlayCss(ctx) : ""}
 <div class="kopf"><span class="etikett ${kl}"><i class="punkt"></i>${esc(ctx.fachLabel)}</span><span class="zaehler" id="zaehler"></span></div>
 ${szenenHtml}
 <div class="untertitel"><div class="block" id="block"></div></div>
-<div class="fuss"><span class="handle">${esc(ctx.handle || "")}</span><span class="klausur">${esc({ 1: "Klausur 1 · Tag 1", 2: "Klausur 2 · Tag 2", 3: "Klausur 3 · Tag 3" }[ctx.klausur] || "")}</span></div>
+<div class="fuss"><span class="handle">${esc(ctx.handle || "")}</span><span class="klausur">${esc(fussRechts(ctx))}</span></div>
 </div>
 <script>
 const BLOECKE = ${JSON.stringify(bloecke)};
@@ -450,6 +450,7 @@ export function coverDaten(reel, plan) {
     icon: reel.szenen?.find((s) => s.icon)?.icon || "paragraf",
     /* Freigestelltes Motiv (bilder.mjs) statt Icon-Bühne, wenn eines da ist. */
     bild: reel.bild || null, bildFrei: reel.bildFrei !== false, bildQuelle: reel.bildQuelle || null,
+    bildBreite: reel.bildBreite || null, bildHoehe: reel.bildHoehe || null,
     fach: reel.fach,
     klausur: reel.klausur,
     fachLabel: FAECHER[reel.fach]?.label,
@@ -465,7 +466,7 @@ export async function reelBauen(reel, ausgabeDir, opt = {}) {
   const datum = opt.datum || (String(reel.slug || "").match(/^\d{4}-\d{2}-\d{2}/) || [new Date().toISOString().slice(0, 10)])[0];
   const hell = CONFIG.marke.stil === "kanzlei" && opt.variante && !CONFIG.marke.farbeJeKlausur;
   const clip = opt.clip === null ? null : (opt.clip || hintergrundClip(opt.hintergrundDir, datum));
-  const ctx = { stil: stilLaden(opt.stil || (hell ? "kanzlei-hell" : CONFIG.marke.stil)), handle: CONFIG.marke.handle, klausur: reel.klausur || FAECHER[reel.fach]?.klausur || 3, fachLabel: FAECHER[reel.fach]?.label || "Steuerberaterexamen", animation: opt.animation || animationFuer(datum), farbeJeKlausur: CONFIG.marke.farbeJeKlausur, clip };
+  const ctx = { stil: stilLaden(opt.stil || (hell ? "kanzlei-hell" : CONFIG.marke.stil)), handle: CONFIG.marke.handle, klausur: reel.klausur ?? FAECHER[reel.fach]?.klausur ?? 3, fachLabel: FAECHER[reel.fach]?.label || "Steuerberaterexamen", animation: opt.animation || animationFuer(datum), farbeJeKlausur: CONFIG.marke.farbeJeKlausur, clip };
   fs.mkdirSync(ausgabeDir, { recursive: true });
   const plan = await zeitplanErstellen(reel, path.join(ausgabeDir, "audio"), { stimmeId: opt.stimmeId || null, stimmeName: opt.stimmeName || null });
   const frameDir = path.join(ausgabeDir, "frames");
