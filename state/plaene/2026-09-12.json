@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-12",
+  "erzeugt": "2026-09-12T05:44:04.287Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "09:30",
+      "format": "spickzettel",
+      "themaId": "ao-modul-ao-307",
+      "themaTitel": "Ordnungsgemäße Bekanntgabe: Zugang im Machtbereich des richtigen Empfängers",
+      "fach": "ao",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "20:30",
+      "format": "reel",
+      "themaId": "mindset-7",
+      "themaTitel": "Nach einer schlechten Klausur: Wie du Tag 2 trotzdem rettest",
+      "fach": "bilanz",
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:13",
+      "art": "frage",
+      "themaId": "persg-quiz-persg-1",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:13",
+      "art": "antwort",
+      "themaId": "persg-quiz-persg-1",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "09:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:24",
+      "art": "norm",
+      "themaId": "ust-modul-ust-212",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:30",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 24,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:21",
+      "art": "merksatz",
+      "themaId": "bilanz-modul-k3-17",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:27",
+      "art": "formel",
+      "themaId": "bilanz-formel-abzinsung",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:40",
+      "art": "begriff",
+      "themaId": "bilanz-karte-k3-31",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "20:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    }
+  ]
+}

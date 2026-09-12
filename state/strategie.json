@@ -1,34 +1,36 @@
 {
-  "stand": "2026-09-11",
-  "beitraege": 28,
+  "stand": "2026-09-12",
+  "beitraege": 30,
   "formatGewicht": {
-    "pruefungsfrage": 1.8527755430410298,
-    "fehlerfalle": 1.2389380530973455,
-    "schema": 0.5,
+    "pruefungsfrage": 0.8489569580142592,
+    "fehlerfalle": 0.9565619223659888,
+    "schema": 1.424445471349353,
     "rechenweg": 0.5,
-    "minifall": 0.5,
+    "minifall": 0.6454097350585336,
     "vergleich": 0.5,
     "klausurtechnik": 0.5,
     "spickzettel": 2
   },
   "fachGewicht": {
-    "ao": 2,
-    "kst": 0.5,
-    "istr": 0.6588897827835883,
-    "bilanz": 0.5,
+    "ao": 1.4440850277264323,
+    "kst": 0.6515711645101664,
+    "istr": 1.8807763401109057,
+    "bilanz": 0.5549487481095614,
     "ust": 0.5
   },
   "hookGewicht": {
-    "frage": 0.628999319264806,
-    "zahl": 1.2351836953606867,
-    "fehler": 0.5
+    "frage": 1.240580122280677,
+    "zahl": 1.0628465804066543,
+    "fehler": 0.6469500924214417
   },
   "besteStunden": null,
-  "follower": 7,
-  "reichweite7": 795,
+  "follower": 17,
+  "reichweite7": 1524,
+  "dauerMessungen": {},
+  "dauerGewicht": {},
   "hashtagGewicht": {},
   "hashtagFolgen": {},
-  "folgenGesamt": 0,
+  "folgenGesamt": 1,
   "profil": {
     "bio": "✨NEU ✨Examensvorbereitung, sortiert nach Klausurtag!",
     "website": "",
