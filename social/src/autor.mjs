@@ -134,7 +134,8 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Caption: 4–8 Zeilen. Zeile 1 ist der Hook (die Frage oder die Pointe), dann die Kernantwort in 2–4 Sätzen, dann die Aufforderung, den Beitrag an die Lerngruppe weiterzuleiten und zu speichern, plus eine echte Frage an die Leser:innen, die eine Antwort im Kommentar provoziert. ${CONFIG.marke.website ? `Am Ende darf ein Hinweis „Mehr auf ${CONFIG.marke.website} (Link in Bio)“ stehen.` : "Keine Website, keine Plattform, kein Produkt erwähnen – auch nicht „Link in Bio“."} Keine Hashtags in der Caption; die kommen separat.
 - Hashtags: 8–14 Stück, deutsch, kleingeschrieben, spezifisch zum Thema plus diese Kernhashtags: ${CONFIG.hashtags.kern.join(" ")}.
 - kurztitel: 3–6 Wörter für die Story-Ankündigung.
-- bildSzene: eine ENGLISCHE Beschreibung einer konkreten, fotografierbaren Alltagsszene für das Titelbild – 3 bis 6 Wörter, so, wie man sie in einer Fotodatenbank suchen würde. Sie muss das Steuerthema bildlich greifbar machen, nicht es beschriften: für die Teilwert-AfA „old machine in empty workshop“, für die Umsatzsteuer bei Anzahlungen „customer paying deposit at counter“, für die Fristenberechnung „calendar with circled deadline“. Verboten sind Fachvokabeln („teilwert“, „tax“), abstrakte Begriffe („business“, „finance“) und die Symbolbild-Klassiker: Taschenrechner auf Formularen, Münzstapel, Handschlag im Anzug, Wolkenkratzer – die sagen nichts. Fällt dir keine echte Szene ein, gib null zurück; dann bleibt es beim Icon.
+- bildSzene: eine ENGLISCHE Beschreibung einer konkreten, fotografierbaren Alltagsszene für das Titelbild – 3 bis 6 Wörter, so, wie man sie in einer Fotodatenbank suchen würde. Sie muss das Steuerthema bildlich greifbar machen, nicht es beschriften: für die Teilwert-AfA „old machine in empty workshop“, für die Umsatzsteuer bei Anzahlungen „customer paying deposit at counter“, für die Fristenberechnung „calendar with circled deadline“. Verboten sind Fachvokabeln („teilwert“, „tax“), abstrakte Begriffe („business“, „finance“) und die Symbolbild-Klassiker: Taschenrechner auf Formularen, Münzstapel, Handschlag im Anzug, Wolkenkratzer – die sagen nichts. Das Foto wird freigestellt (Hintergrund weg) und als Motiv auf die Kachel gesetzt – wähle deshalb Szenen mit EINEM klaren Motiv im Vordergrund (eine Person vom Kopf bis zur Hüfte, ein Gegenstand mit Rand ringsum), keine Gruppen, keine Nahaufnahmen, keine Bewegungsunschärfe, nichts, das am Bildrand abgeschnitten wäre. Fällt dir keine echte Szene ein, gib null zurück; dann bleibt es beim Icon.
+- bildSzeneAlt: eine zweite, andere Szene zum selben Thema nach denselben Regeln – sie wird gesucht, wenn die erste kein brauchbares Foto liefert. Sonst null.
 
 ## Beispiel eines fertigen Beitrags (Format Prüfungsfrage)
 ${JSON.stringify({ folien: beispiele.beitraege[0].folien, caption: beispiele.beitraege[0].caption, hashtags: beispiele.beitraege[0].hashtags, kurztitel: "Teilwert-AfA: Pflicht oder Wahlrecht?" }, null, 1)}
@@ -181,10 +182,11 @@ const BEITRAG_SCHEMA = {
     hashtags: { type: "array", items: { type: "string" } },
     kurztitel: { type: "string" },
     bildSzene: { type: ["string", "null"] },
+    bildSzeneAlt: { type: ["string", "null"] },
     quellen: { type: ["array", "null"], items: { type: "string" } },
     hooks: { type: ["array", "null"], items: { type: "object", additionalProperties: false, properties: { typ: { type: "string", enum: ["frage", "fehler", "zahl", "aussage"] }, titel: { type: "string" } }, required: ["typ", "titel"] } },
   },
-  required: ["folien", "caption", "hashtags", "kurztitel", "bildSzene", "quellen", "hooks"],
+  required: ["folien", "caption", "hashtags", "kurztitel", "bildSzene", "bildSzeneAlt", "quellen", "hooks"],
 };
 
 const STORY_SCHEMA = {
@@ -392,6 +394,7 @@ function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
     hashtags: tags,
     kurztitel: daten.kurztitel || folien[0]?.titel || "",
     bildSzene: daten.bildSzene || null,
+    bildSzeneAlt: daten.bildSzeneAlt || null,
     quellen: daten.quellen || [],
     hookTyp: hook?.typ || hookTyp(folien[0]?.titel || ""),
   };
@@ -583,8 +586,9 @@ const REEL_SCHEMA = {
     hashtags: { type: "array", items: { type: "string" } },
     kurztitel: { type: "string" },
     bildSzene: { type: ["string", "null"] },
+    bildSzeneAlt: { type: ["string", "null"] },
   },
-  required: ["szenen", "caption", "hashtags", "kurztitel", "bildSzene"],
+  required: ["szenen", "caption", "hashtags", "kurztitel", "bildSzene", "bildSzeneAlt"],
 };
 
 /* Sprechtempo einer deutschen Vorlesestimme: rund 2,4 Wörter je Sekunde.
@@ -627,7 +631,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null,
       laengenAnleitung(von, bis, lang),
       REEL_ANLEITUNG,
       hookAnleitung(hookMuster),
-      "\n## Cover-Motiv\nbildSzene: eine ENGLISCHE, fotografierbare Alltagsszene in 3–6 Wörtern für das Standbild des Reels, nach der sich in einer Fotodatenbank suchen lässt und die das Thema bildlich greifbar macht („woman reading letter at kitchen table“). Keine Fachvokabeln, keine abstrakten Begriffe, keine Symbolbild-Klassiker (Richterhammer, Waage, Gesetzbuch, Taschenrechner, Münzstapel, Händedruck). Nur Motive, die ganz im Bild sind – eine Person vom Kopf bis zur Hüfte, ein Gegenstand mit Rand ringsum. Fällt dir keine echte Szene ein: null.",
+      "\n## Cover-Motiv\nbildSzene: eine ENGLISCHE, fotografierbare Alltagsszene in 3–6 Wörtern für das Standbild des Reels, nach der sich in einer Fotodatenbank suchen lässt und die das Thema bildlich greifbar macht („woman reading letter at kitchen table“). Keine Fachvokabeln, keine abstrakten Begriffe, keine Symbolbild-Klassiker (Richterhammer, Waage, Gesetzbuch, Taschenrechner, Münzstapel, Händedruck). Nur Motive, die ganz im Bild sind – eine Person vom Kopf bis zur Hüfte, ein Gegenstand mit Rand ringsum; keine Gruppen, keine Nahaufnahmen, keine Bewegungsunschärfe. Fällt dir keine echte Szene ein: null.\nbildSzeneAlt: eine zweite, andere Szene nach denselben Regeln als Ersatz, sonst null.",
       `\n## Normen\n${NORM_REGEL}\n${NORM_REGEL_STIMME}`,
       anlass ? `\n## Anlass\n${anlass.titel}: ${anlass.kontext}` : "",
       `Phase im Prüfungsjahr: ${phase(datum)}.`,
@@ -649,7 +653,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null,
       if (o.sprecher) o.sprecher = normGesprochen(o.sprecher);
       return o;
     });
-    const reel = { format: "reel", fach, klausur, fachLabel: FAECHER[fach]?.label, themaId: thema?.id || null, szenen, caption: normKurz((daten.caption || "").trim()), hashtags: [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase()), ...CONFIG.hashtags.kern])].slice(0, CONFIG.hashtags.maxJeBeitrag), kurztitel: daten.kurztitel || szenen[0]?.titel || "", bildSzene: daten.bildSzene || null };
+    const reel = { format: "reel", fach, klausur, fachLabel: FAECHER[fach]?.label, themaId: thema?.id || null, szenen, caption: normKurz((daten.caption || "").trim()), hashtags: [...new Set([...(daten.hashtags || []).map((h) => (h.startsWith("#") ? h : `#${h}`).toLowerCase()), ...CONFIG.hashtags.kern])].slice(0, CONFIG.hashtags.maxJeBeitrag), kurztitel: daten.kurztitel || szenen[0]?.titel || "", bildSzene: daten.bildSzene || null, bildSzeneAlt: daten.bildSzeneAlt || null };
     /* Prüfung über die Folien-Logik: Szenen als Folien, Sprechertext als Text. */
     const ergebnis = pruefeBeitrag({ folien: [{ art: "titel", titel: szenen[0]?.titel || "" }, ...szenen.slice(1).map((s) => ({ art: "text", titel: s.titel, text: `${s.text || ""} ${s.sprecher}` })), { art: "cta" }], caption: reel.caption, hashtags: reel.hashtags });
     ergebnis.fehler.push(...pruefeHook(szenen[0]));
