@@ -1586,13 +1586,45 @@
       "fach": "persg",
       "titel": "Nein – die Bagatellgrenze greift hier nicht",
       "medienId": "18126805021702355"
+    },
+    {
+      "datum": "2026-09-12",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "09:30",
+      "stunde": 9,
+      "format": "spickzettel",
+      "thema": "ao-modul-ao-307",
+      "fach": "ao",
+      "titel": "Wann ist ein Steuerbescheid wirklich bekanntgegeben – und wann nur verschickt?",
+      "hookTyp": "frage",
+      "medienId": "17899602930372770",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#studygram",
+        "#steuerwissen",
+        "#abgabenordnung",
+        "#bekanntgabe",
+        "#steuerbescheid",
+        "#verfahrensrecht",
+        "#klausurtipps",
+        "#ao"
+      ],
+      "veroeffentlicht": "2026-09-12T07:46:13.944Z",
+      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-12/2026-09-12-b1-02-mty2yvth.jpg"
     }
   ],
   "fachZaehler": {
     "persg": 3,
     "ust": 3,
     "kst": 6,
-    "ao": 9,
+    "ao": 10,
     "bilanz": 11,
     "istr": 7,
     "erbst": 2
