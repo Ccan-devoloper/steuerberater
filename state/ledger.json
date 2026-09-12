@@ -1628,6 +1628,16 @@
       "fach": "ao",
       "titel": "Bekanntgabe: Das ganze Schema",
       "medienId": "18107129495463486"
+    },
+    {
+      "datum": "2026-09-12",
+      "art": "story",
+      "slot": "s5",
+      "storyArt": "norm",
+      "thema": "ust-modul-ust-212",
+      "fach": "ust",
+      "titel": "Unentgeltliche sonstige Leistung: welche BMG?",
+      "medienId": "18125510278833219"
     }
   ],
   "fachZaehler": {
