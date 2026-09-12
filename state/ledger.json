@@ -1566,6 +1566,16 @@
       "fach": "erbst",
       "titel": "Nachlass bewerten: die Reihenfolge",
       "medienId": "18165979663475935"
+    },
+    {
+      "datum": "2026-09-12",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "frage",
+      "thema": "persg-quiz-persg-1",
+      "fach": "persg",
+      "titel": "Gilt die Bagatellgrenze (3 % / 24.500 €) auch bei vertikaler Abfärbung?",
+      "medienId": "18110021953870456"
     }
   ],
   "fachZaehler": {
