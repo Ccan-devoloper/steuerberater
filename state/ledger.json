@@ -1668,6 +1668,16 @@
       "fach": "bilanz",
       "titel": "Auf- und Abzinsung",
       "medienId": "18103713290263077"
+    },
+    {
+      "datum": "2026-09-12",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "begriff",
+      "thema": "bilanz-karte-k3-31",
+      "fach": "bilanz",
+      "titel": "§ 8b KStG in der Klausur",
+      "medienId": "17961967253983378"
     }
   ],
   "fachZaehler": {
