@@ -86,7 +86,9 @@
       "art": "merksatz",
       "themaId": "bilanz-modul-k3-17",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "17978811594106606",
+      "veroeffentlicht": "2026-09-12T13:43:43.549Z"
     },
     {
       "slot": "s8",
