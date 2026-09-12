@@ -1576,6 +1576,16 @@
       "fach": "persg",
       "titel": "Gilt die Bagatellgrenze (3 % / 24.500 €) auch bei vertikaler Abfärbung?",
       "medienId": "18110021953870456"
+    },
+    {
+      "datum": "2026-09-12",
+      "art": "story",
+      "slot": "s4",
+      "storyArt": "antwort",
+      "thema": "persg-quiz-persg-1",
+      "fach": "persg",
+      "titel": "Nein – die Bagatellgrenze greift hier nicht",
+      "medienId": "18126805021702355"
     }
   ],
   "fachZaehler": {
