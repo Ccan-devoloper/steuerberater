@@ -1678,6 +1678,39 @@
       "fach": "bilanz",
       "titel": "§ 8b KStG in der Klausur",
       "medienId": "17961967253983378"
+    },
+    {
+      "datum": "2026-09-12",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "20:30",
+      "stunde": 21,
+      "format": "reel",
+      "thema": "mindset-7",
+      "fach": "bilanz",
+      "titel": "Tag 1 war schlecht",
+      "hookTyp": "kosten",
+      "hookMuster": "kontrast",
+      "medienId": "17983310546889123",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#klausurtechnik",
+        "#bilanzsteuerrecht",
+        "#mindset",
+        "#prüfungsangst",
+        "#lerngruppe",
+        "#stb2026"
+      ],
+      "stimmeId": null,
+      "stimmeName": "Daniel - Steady Broadcaster",
+      "dauer": 38.6,
+      "veroeffentlicht": "2026-09-12T19:49:04.468Z"
     }
   ],
   "fachZaehler": {
@@ -1685,7 +1718,7 @@
     "ust": 3,
     "kst": 6,
     "ao": 10,
-    "bilanz": 11,
+    "bilanz": 12,
     "istr": 7,
     "erbst": 2
   },

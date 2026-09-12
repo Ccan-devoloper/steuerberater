@@ -25,8 +25,11 @@
       "themaTitel": "Nach einer schlechten Klausur: Wie du Tag 2 trotzdem rettest",
       "fach": "bilanz",
       "lang": false,
-      "status": "geplant",
-      "fehler": "2026-09-12T18:43:34.644Z Cannot read properties of undefined (reading 'fach')"
+      "status": "veroeffentlicht",
+      "fehler": "2026-09-12T18:43:34.644Z Cannot read properties of undefined (reading 'fach')",
+      "medienId": "17983310546889123",
+      "veroeffentlicht": "2026-09-12T19:49:04.467Z",
+      "kanaele": {}
     }
   ],
   "stories": [
