@@ -1753,6 +1753,16 @@
       "fach": "bilanz",
       "titel": "Nach schlechter Klausur weitermachen",
       "medienId": "17906642571491398"
+    },
+    {
+      "datum": "2026-09-13",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "frage",
+      "thema": "kst-quiz-kst-4",
+      "fach": "kst",
+      "titel": "Was ist regelmäßig kein einlagefähiger Vermögensvorteil?",
+      "medienId": "18114926806922194"
     }
   ],
   "fachZaehler": {
