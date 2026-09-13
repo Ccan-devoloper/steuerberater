@@ -87,6 +87,15 @@ export const CONFIG = {
   /* Faktencheck: zweiter, unabhängiger Prüfaufruf je Beitrag/Reel --------- */
   faktencheck: {
     aktiv: env("IG_FAKTENCHECK", "true") === "true",
+    /* Streng: Fällt der Faktencheck technisch aus, erscheint der Beitrag
+       nicht – ein ungeprüfter Steuerrechtsbeitrag ist teurer als ein
+       fehlender. IG_FAKTENCHECK_STRIKT=false lässt ungeprüfte Beiträge durch. */
+    strikt: env("IG_FAKTENCHECK_STRIKT", "true") === "true",
+    /* Zweitmeinung: Fehlerbefunde des Prüfers beurteilt das stärkere Modell,
+       bevor ein Entwurf verworfen wird. IG_FAKTENCHECK_ZWEITMEINUNG=false
+       schaltet sie ab; IG_KI_MODELL_ZWEITMEINUNG wählt das Modell. */
+    zweitmeinung: env("IG_FAKTENCHECK_ZWEITMEINUNG", "true") === "true",
+    zweitmeinungModell: env("IG_KI_MODELL_ZWEITMEINUNG", ""),
   },
 
   /* Schlüsselwort-Nachrichten: „Kommentiere SCHEMA …“ → Karte per Direktnachricht */
