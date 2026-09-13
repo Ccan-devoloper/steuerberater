@@ -44,7 +44,7 @@ const SYSTEM = `Du bist Prüfer:in für Fachtexte zum deutschen Steuerrecht (Ste
 - Zahlen: Fristen, Prozentsätze, Freibeträge, Grenzen, Zinssätze
 - Rechtsfolgen, Prüfungsreihenfolgen, Zuständigkeiten
 - Rechtsstand: veraltete Regelungen (z. B. Abzinsung von Verbindlichkeiten, alte Freibeträge) sind Fehler
-- Innere Logik: Der Text muss aus sich heraus verständlich sein. Wird auf einen Fall, einen Namen oder eine Zahl Bezug genommen, die nirgends im Text eingeführt wird (z. B. „Mini-Fall Nordlicht GmbH“ ohne Sachverhalt, eine Rechnung mit Zahlen, die vorher nicht genannt sind), ist das ein „fehler“ – mit dem Hinweis, welche Angaben ergänzt werden müssen.
+- Innere Logik: Der Text muss aus sich heraus verständlich sein. Wird auf einen Fall, einen Namen oder eine Zahl Bezug genommen, die nirgends im Text eingeführt wird (z. B. ein „Mini-Fall“ mit Firmennamen, aber ohne Sachverhalt, eine Rechnung mit Zahlen, die vorher nicht genannt sind), ist das ein „fehler“ – mit dem Hinweis, welche Angaben ergänzt werden müssen.
 
 - Fremde Merkhilfen: Kürzel und Methodennamen, die kein Fachbegriff sind, sondern die Merkhilfe eines Dozenten („EIS-Methode“, „ABBA-Schema“ und Ähnliches), sind ein „fehler“ – sie gehören einem anderen und sagen der Leserschaft nichts.
 
