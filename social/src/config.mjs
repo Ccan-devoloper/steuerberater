@@ -174,6 +174,19 @@ export const CONFIG = {
        Sprecher, probiert drei davon über die Reels aus und behält die, bei der
        die Zahlen stimmen (stimmen.mjs). ELEVENLABS_VOICE_ID + IG_STIMME_LERNEN=false
        stellt stattdessen eine feste Stimme ein. */
+    /* Deutsch geht vor Natuerlichkeit: Eine englische Stimme liest „§ 370 AO"
+       als „Paragraf 370 ej-ou" und betont deutsche Woerter falsch. Steht keine
+       deutschsprachige Stimme zur Verfuegung - im kostenlosen ElevenLabs-Abo
+       ist das der Regelfall -, spricht die deutsche Offline-Stimme Piper.
+       IG_STIMME_NUR_DEUTSCH=false hebt die Regel auf. */
+    nurDeutscheStimme: env("IG_STIMME_NUR_DEUTSCH", "true") === "true",
+    /* Zwei Reel-Layouts im Wechsel: „klassisch" ist die bisherige Karte mit
+       Animation und Untertiteln, „erklaer" die Buehne mit grosser Figur und
+       Stichwort-Plaketten (erklaervideo.mjs). „wechsel" laesst sie sich
+       taeglich abloesen, damit die Zahlen sagen koennen, welches traegt. */
+    layout: env("IG_REEL_LAYOUT", "wechsel"),
+    erklaerMarken: Number(env("IG_REEL_MARKEN", "2")),        // Plaketten je Szene
+    erklaerBilder: Number(env("IG_REEL_BILDER", "4")),        // hoechstens so viele Motive je Reel neu zeichnen
     stimmeLernen: env("IG_STIMME_LERNEN", "true") === "true",
     stimmeAnzahl: Number(env("IG_STIMME_ANZAHL", "3")),          // so viele Kandidaten laufen gegeneinander
     stimmeErkundung: Number(env("IG_STIMME_ERKUNDUNG", "0.4")),  // 0 = nur ausnutzen, größer = mehr ausprobieren
