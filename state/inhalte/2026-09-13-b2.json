@@ -1,0 +1,87 @@
+{
+  "format": "reel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-335",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "So nicht, sondern so",
+      "unter": "Ablaufhemmung bei der Außenprüfung",
+      "icon": "aktenschrank",
+      "sprecher": "Die meisten schreiben: Prüfungsanordnung kam, also ist die Frist gehemmt. Der Korrektor will wissen: gehemmt wofür, und bis wann genau."
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Wirksame Anordnung vor Fristablauf",
+      "text": "Prüfungsanordnung muss vor Ende der Festsetzungsfrist wirksam ergehen",
+      "norm": "§ 196 AO",
+      "icon": "dokument",
+      "sprecher": "Erster Schritt: Prüf, ob die Prüfungsanordnung nach Paragraf 196 AO wirksam ist und noch innerhalb der laufenden Festsetzungsfrist ergeht. Erst dann kann überhaupt eine Hemmung greifen."
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Beginn: erster Prüfungsakt",
+      "text": "Vorbereitung im Finanzamt reicht nicht – erste echte Prüfungshandlung zählt",
+      "norm": "§ 171 (4) S. 2 AO",
+      "icon": "lupe",
+      "sprecher": "Zweitens: Die Hemmung beginnt mit dem ersten tatsächlichen Prüfungsakt vor Ort oder beim Steuerpflichtigen. Aktenstudium im Amt, Terminplanung, interne Vorbereitung – das zählt noch nicht als Beginn."
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Ende: Unanfechtbarkeit der Bescheide",
+      "text": "Hemmung endet erst mit Bestandskraft der Änderungsbescheide",
+      "norm": "§ 171 (4) S. 1 AO",
+      "icon": "gericht",
+      "sprecher": "Drittens, das Ende. Die Hemmung läuft nicht mit der Schlussbesprechung aus, sondern erst, wenn die aufgrund der Prüfung ergangenen Bescheide unanfechtbar sind. Legst du Einspruch ein, verschiebt sich das Ende weiter nach hinten."
+    },
+    {
+      "art": "schritt",
+      "nummer": 4,
+      "titel": "Reichweite begrenzen",
+      "text": "Nur die geprüften Steuerarten und Zeiträume sind gehemmt",
+      "norm": "§ 171 (4) S. 1 AO",
+      "icon": "zielscheibe",
+      "sprecher": "Und viertens: Die Hemmung erfasst nur das, was tatsächlich Gegenstand der Prüfung war – bestimmte Steuerarten, bestimmte Jahre. Für alles andere läuft die Festsetzungsfrist ganz normal weiter."
+    },
+    {
+      "art": "merke",
+      "titel": "Beginn durch Handlung, Ende durch Bestandskraft",
+      "text": "Zwei Zeitfragen entscheiden alles: Wann fängt sie an – und wodurch hört sie auf.",
+      "norm": "§ 171 (4) AO · § 196 AO",
+      "icon": "uhr",
+      "sprecher": "Merk dir einfach zwei Fragen. Wann beginnt die Hemmung wirklich – und wodurch endet sie? Wer beide sauber beantwortet, hat die Ablaufhemmung im Griff."
+    },
+    {
+      "art": "cta",
+      "titel": "Schick das deiner Lerngruppe",
+      "text": "Speichern, folgen, Fragen in die Kommentare",
+      "sprecher": "Genau dieses Schema fällt in der Verfahrensrechtsklausur immer wieder. Schick das deiner Lerngruppe, speicher es dir ab, und folge für mehr aus Klausur 1. Was ist bei euch die Fehlerquelle – Beginn oder Ende?"
+    }
+  ],
+  "caption": "Ablaufhemmung nach § 171 (4) AO bei der Außenprüfung – wann beginnt sie wirklich, und wann hört sie auf? Der klassische Fehler: die interne Vorbereitung im Finanzamt schon als Prüfungsbeginn werten, oder das Ende mit der Schlussbesprechung gleichsetzen. Beides falsch. Es zählt der erste echte Prüfungsakt – und Bestandskraft der Änderungsbescheide beendet die Hemmung, nicht der Einspruch selbst. Schick das deiner Lerngruppe, bevor ihr das nächste Mal AO übt, und speichere es dir für die Wiederholung. Wo genau setzt ihr in der Klausur an – Beginn oder Ende der Hemmung?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#abgabenordnung",
+    "#außenprüfung",
+    "#ablaufhemmung",
+    "#verfahrensrecht",
+    "#festsetzungsverjährung",
+    "#klausurtechnik"
+  ],
+  "kurztitel": "Ablaufhemmung Außenprüfung",
+  "bildSzene": "auditor reviewing files at office desk",
+  "bildSzeneAlt": "calendar with circled deadline date",
+  "hookTyp": "fehler",
+  "hookMuster": "kontrast",
+  "slug": "2026-09-13-b2"
+}
