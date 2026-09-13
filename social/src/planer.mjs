@@ -158,7 +158,16 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   /* Stories: Teaser je Beitrag + eigenständige Karten, bis zur Tagesmenge. */
   const stories = [];
   for (const b of beitraege) stories.push({ art: "teaser", beitragSlot: b.slot, zeit: b.zeit });
-  const eigenstaendig = ["frage", "norm", "countdown", "merksatz", "formel", "begriff", "fehler", "tipp", "zahl"];
+  /* Zwei Arten stehen jeden Tag: Die Quizfrage ist das stärkste Format für
+     Antworten, die Norm des Tages der Markenkern. Der Rest rotiert, damit
+     über die Woche alle Arten drankommen - vorher lief die Liste jeden Tag
+     von vorn und "fehler", "tipp" und "zahl" kamen nie an die Reihe, weil das
+     Tageskontingent vorher voll war. */
+  const FEST = ["frage", "norm"];
+  const WECHSELND = ["merksatz", "begriff", "fehler", "tipp", "zahl", "formel"];
+  const tagesZahl = Math.floor(Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10)) / 86400000);
+  const versatz = tagesZahl % WECHSELND.length;
+  const eigenstaendig = [...FEST, "countdown", ...WECHSELND.slice(versatz), ...WECHSELND.slice(0, versatz)];
   const tageBisExamen = tageBis(CONFIG.examen.schriftlich, new Date(`${datum}T12:00:00Z`));
   let k = 0;
   /* Prüfungstage: nur Teaser-Stories – das Budget gehört der Lösungsskizze am Abend. */
