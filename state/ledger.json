@@ -1825,6 +1825,16 @@
       "fach": "bilanz",
       "titel": "Wochenrückblick: alles sicher?",
       "medienId": "18105961928225686"
+    },
+    {
+      "datum": "2026-09-13",
+      "art": "story",
+      "slot": "s6",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "medienId": "18092057333548855"
     }
   ],
   "fachZaehler": {
