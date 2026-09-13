@@ -299,8 +299,16 @@ async function faktenSicher(inhalt, zweck = "faktencheck", opt = {}) {
   try {
     return await pruefeFakten(inhalt, zweck, opt);
   } catch (e) {
+    /* Kein Geld ist kein Ausfall des Prüfers: Der Text wartet, statt ungeprüft
+       durchzugehen. Streng (Standard): Fällt der Prüfer technisch aus,
+       erscheint der Beitrag nicht – ein ungeprüfter Steuerrechtsbeitrag ist
+       teurer als ein fehlender. */
+    if (e instanceof BudgetFehler) throw e;
+    if (CONFIG.faktencheck.strikt) {
+      throw new Error(`Faktencheck nicht möglich (${e.message.split("\n")[0].slice(0, 160)}) – der Beitrag erscheint nicht.`);
+    }
     console.warn(`  ! Faktencheck nicht möglich (${e.message.split("\n")[0].slice(0, 160)}) – Entwurf wird ohne Faktencheck übernommen.`);
-    return { ok: true, fehler: [], hinweise: [`Faktencheck ausgefallen: ${e.message.slice(0, 120)}`] };
+    return { ok: true, fehler: [], hinweise: [`Faktencheck ausgefallen: ${e.message.slice(0, 120)}`], korrekturen: [], behebbar: [] };
   }
 }
 
