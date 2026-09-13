@@ -1,0 +1,84 @@
+{
+  "format": "wochenrueckblick",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wann darf ich in der Steuerbilanz auf den niedrigeren Teilwert abschreiben?",
+      "icon": "diagramm",
+      "prioritaet": "hoch",
+      "prioritaetText": "Dauerbrenner im Examen",
+      "pille": "Swipen →",
+      "hinweis": "Merk dir das"
+    },
+    {
+      "art": "text",
+      "titel": "Der Ausgangspunkt",
+      "punkte": [
+        "Handelsrechtlich gilt für das Anlagevermögen: Bei *dauernder* Wertminderung muss abgeschrieben werden.",
+        "Steuerlich ist die Teilwert-AfA ein *Wahlrecht* – aber nur, wenn die Minderung voraussichtlich dauerhaft ist.",
+        "Fehlt die Dauerhaftigkeit, bleibt es beim fortgeführten Buchwert."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So prüfst du es in der Klausur",
+      "schritte": [
+        {
+          "titel": "Wertminderung feststellen",
+          "text": "Teilwert am Stichtag unter dem Buchwert?"
+        },
+        {
+          "titel": "Dauerhaftigkeit prüfen",
+          "text": "Abnutzbar: Teilwert unter dem planmäßigen Restbuchwert über mindestens die halbe Restnutzungsdauer."
+        },
+        {
+          "titel": "Wahlrecht ausüben",
+          "text": "Steuerlich darf, muss aber nicht abgeschrieben werden – Buchungskreis nennen!"
+        },
+        {
+          "titel": "Wertaufholung im Blick",
+          "text": "Steigt der Teilwert später wieder, ist zwingend zuzuschreiben."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Handelsbilanz: Pflicht bei Dauer. Steuerbilanz: Wahlrecht bei Dauer. Ohne Dauer: gar nichts."
+    },
+    {
+      "art": "cta",
+      "titel": "Jeden Tag eine Prüfungsfrage.",
+      "punkte": [
+        "Folgen für tägliche Prüfungsfragen zu allen drei Klausuren",
+        "Speichern und vor der Klausur wiederholen",
+        "Welches Thema fehlt dir? Kommentiere!"
+      ]
+    }
+  ],
+  "caption": "Teilwertabschreibung – jedes Jahr im Examen, jedes Jahr Punkte, die liegen bleiben. 📉 Die Falle: Viele schreiben in der Steuerbilanz einfach mit, was handelsrechtlich Pflicht ist. Steuerlich ist es aber ein Wahlrecht – und das gibt es nur bei voraussichtlich dauernder Wertminderung. Merke dir die Reihenfolge: Wertminderung → Dauerhaftigkeit → Wahlrecht → Wertaufholung. Buchungskreis nicht vergessen! 👉 Speichern für die Wiederholung. Und ehrlich: Wo verlierst du bei der Teilwert-AfA am ehesten Punkte – Dauerhaftigkeit oder Wertaufholung?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#lernmotivation",
+    "#steuerrechtlernen",
+    "#bilanzsteuerrecht",
+    "#teilwert",
+    "#steuerbilanz",
+    "#lernen"
+  ],
+  "kurztitel": "Wann darf ich in der Steuerbilanz auf den niedrigeren Teilwert abschreiben?",
+  "bildSzene": null,
+  "bildSzeneAlt": null,
+  "quellen": [],
+  "hookTyp": "frage",
+  "slug": "2026-09-14-b1"
+}
