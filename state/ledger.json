@@ -1783,6 +1783,38 @@
       "fach": "erbst",
       "titel": "Darlehensbewertung: Fälligkeit vs. Tilgung",
       "medienId": "18150321397477195"
+    },
+    {
+      "datum": "2026-09-13",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "11:30",
+      "stunde": 12,
+      "format": "wochenrueckblick",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Der Fehler, den du im Wochenrückblick jetzt noch ausbügeln kannst",
+      "hookTyp": "fehler",
+      "medienId": "18093399314208242",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#lernmotivation",
+        "#steuerrechtlernen",
+        "#wochenrückblick",
+        "#bilanzsteuerrecht",
+        "#abgabenordnung",
+        "#körperschaftsteuer",
+        "#klausurtechnik",
+        "#lerngruppe"
+      ],
+      "veroeffentlicht": "2026-09-13T10:39:24.280Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {

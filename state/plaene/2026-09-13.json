@@ -12,7 +12,10 @@
       "themaId": null,
       "themaTitel": null,
       "fach": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18093399314208242",
+      "veroeffentlicht": "2026-09-13T10:39:24.280Z",
+      "kanaele": {}
     },
     {
       "slot": "b2",
