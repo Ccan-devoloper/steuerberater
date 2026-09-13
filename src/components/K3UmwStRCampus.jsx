@@ -3,8 +3,10 @@ import { laden, sichern } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K3Fachleiste from "./K3Fachleiste";
-import { IconCockpit, IconSchema, IconHausaufgabe } from "./Icons";
-import { UMWSTR_HA_SEITEN_GESAMT, UMWSTR_HA_FAELLE_GESAMT } from "../data/k3-umwstr-ha-faelle.js";
+import { IconCockpit, IconSchema, IconHausaufgabe, IconPlan } from "./Icons";
+import K3Lernpfad from "./K3Lernpfad";
+import { umwstrLernpfad, umwstrLernpfadKapitel, umwstrLernpfadGesamtminuten } from "../data/k3-lernpfad-umwstr";
+import { UMWSTR_HA_SEITEN_GESAMT, UMWSTR_HA_FAELLE_GESAMT, umwstrHausaufgaben } from "../data/k3-umwstr-ha-faelle.js";
 
 /* Die Hausaufgaben bringen die Originaltexte samt Schriftinformation mit.
    Sie werden erst geladen, wenn der Reiter geöffnet wird. */
@@ -184,6 +186,21 @@ const TOTAL_PAGES = SCHEMATA.reduce((sum, schema) => sum + schema.seiten.length,
 const HAUSAUFGABEN_SEITEN = UMWSTR_HA_SEITEN_GESAMT;
 
 export const UMWSTR_SCHEMATA = SCHEMATA;
+
+/* Lektionen des Lernpfads, die auf ein Prüfschema verweisen – Rückverweis in der Detailansicht. */
+const lektionenZuSchema = (nr) => umwstrLernpfad.filter((l) => l.bloecke.some((b) => b.typ === "links" && (b.umwSchemata || []).includes(nr)));
+
+const LERNPFAD_KONFIG = {
+  id: "umwstr-lernpfad",
+  fach: "umwstg",
+  kicker: "Klausur 3 · UmwStR · Schritt für Schritt",
+  titel: "Umwandlungssteuerrecht – von null bis klausurfest",
+  lead: "Kein Vorwissen nötig: Erst die Idee (stille Reserven, Buchwertfortführung, Landkarte des Gesetzes), dann die drei großen Blöcke – Kapitalgesellschaft wird Personengesellschaft (§§ 3–9), Kapitalgesellschaft wird Kapitalgesellschaft (§§ 11–15), Betrieb wird Kapitalgesellschaft (§§ 20–25) – jeweils mit durchgerechnetem Fall, Selbstcheck und Klausurhinweisen. Die Prüfschemata 1–13 sind als Bilder zu jeder Lektion verlinkt.",
+  kapitel: umwstrLernpfadKapitel,
+  lektionen: umwstrLernpfad,
+  gesamtminuten: umwstrLernpfadGesamtminuten,
+  abschluss: "Du hast das komplette Prüfprogramm des UmwStG für die Bilanzklausur durch. Wende die Schablone jetzt auf die drei Hausaufgaben an – erst ohne Lösung, dann mit – und nutze die Prüfschemata 1–13 als Gedächtnisstütze.",
+};
 export const seitenPfad = (nr, seite) =>
   `umwstr/schema-${String(nr).padStart(2, "0")}-${String(seite).padStart(2, "0")}.webp`;
 
@@ -228,6 +245,7 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
   /* Das geoeffnete Pruefschema gehoert in den Verlauf, sonst erzeugt das
      Oeffnen keinen Schritt und der Zurueck-Pfeil bliebe deaktiviert. */
   const schemaNr = verlauf.eintrag.schemaNr ?? null;
+  const lektionId = verlauf.eintrag.lektionId ?? null;
   const [suche, setSuche] = useState("");
   const [dunkel, setDunkel] = useState(() => laden("stb-dunkel", false));
 
@@ -253,6 +271,14 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
   const ansichtOeffnen = (id) => verlauf.oeffnen({ ansicht: id, schemaNr: null });
   const schemaOeffnen = (nr) => verlauf.oeffnen({ ansicht: "schema", schemaNr: nr });
   const uebersichtOeffnen = () => verlauf.oeffnen({ ansicht: "schema", schemaNr: null });
+  const lernpfadOeffnen = (id) => verlauf.oeffnen({ ansicht: "lernpfad", schemaNr: null, lektionId: id ?? null });
+  const lernpfadVerweise = {
+    umwSchema: { label: (nr) => `Prüfschema ${nr} · ${SCHEMATA.find((s) => s.nr === nr)?.title ?? ""}`, oeffnen: schemaOeffnen },
+    hausaufgabe: { label: (nr) => { const ha = umwstrHausaufgaben[nr - 1]; return ha ? `Hausaufgabe ${nr} · ${ha.faelle.length} Fälle` : `Hausaufgabe ${nr}`; }, oeffnen: () => ansichtOeffnen("hausaufgaben") },
+    persg: onFachwechsel ? () => onFachwechsel("persg") : undefined,
+    klausur: () => ansichtOeffnen("hausaufgaben"),
+    klausurLabel: "Hausaufgaben üben",
+  };
 
   return (
     <div className="kst-campus umwstr-campus">
@@ -285,6 +311,9 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
           <button className="rail__link" aria-current={verlauf.ansicht === "cockpit" ? "true" : undefined} onClick={() => ansichtOeffnen("cockpit")}>
             <IconCockpit />Cockpit
           </button>
+          <button className="rail__link" aria-current={verlauf.ansicht === "lernpfad" ? "true" : undefined} onClick={() => ansichtOeffnen("lernpfad")}>
+            <IconPlan />Schritt für Schritt
+          </button>
           <button className="rail__link" aria-current={verlauf.ansicht === "schema" ? "true" : undefined} onClick={() => ansichtOeffnen("schema")}>
             <IconSchema />Prüfschemata
           </button>
@@ -300,9 +329,10 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
       </aside>
 
       <main className="page">
-        {verlauf.ansicht === "cockpit" && <Cockpit schemaOeffnen={schemaOeffnen} hausaufgabenOeffnen={() => ansichtOeffnen("hausaufgaben")} />}
+        {verlauf.ansicht === "cockpit" && <Cockpit schemaOeffnen={schemaOeffnen} hausaufgabenOeffnen={() => ansichtOeffnen("hausaufgaben")} lernpfadOeffnen={() => ansichtOeffnen("lernpfad")} />}
+        {verlauf.ansicht === "lernpfad" && <K3Lernpfad konfig={LERNPFAD_KONFIG} aktiv={lektionId} onOeffnen={lernpfadOeffnen} verweise={lernpfadVerweise} />}
         {verlauf.ansicht === "schema" && !schema && <SchemaIndex liste={gefiltert} suche={suche} schemaOeffnen={schemaOeffnen} />}
-        {verlauf.ansicht === "schema" && schema && <SchemaDetail schema={schema} zurueck={uebersichtOeffnen} />}
+        {verlauf.ansicht === "schema" && schema && <SchemaDetail schema={schema} zurueck={uebersichtOeffnen} lernpfadOeffnen={lernpfadOeffnen} />}
         {verlauf.ansicht === "hausaufgaben" && (
           <Suspense fallback={<p className="hausaufgabe__status" role="status">Hausaufgaben werden geladen …</p>}>
             <K3UmwStRHausaufgaben />
@@ -313,7 +343,7 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
   );
 }
 
-function Cockpit({ schemaOeffnen, hausaufgabenOeffnen }) {
+function Cockpit({ schemaOeffnen, hausaufgabenOeffnen, lernpfadOeffnen }) {
   return (
     <>
       <div className="cockpit">
@@ -326,7 +356,8 @@ function Cockpit({ schemaOeffnen, hausaufgabenOeffnen }) {
             unverändert erhalten.
           </p>
           <div className="these__aktionen">
-            <button className="btn" onClick={() => schemaOeffnen(1)}>Mit Prüfschema 1 starten</button>
+            <button className="btn" onClick={() => lernpfadOeffnen()}>Schritt für Schritt starten</button>
+            <button className="btn btn--linie" onClick={() => schemaOeffnen(1)}>Mit Prüfschema 1 starten</button>
           </div>
         </section>
         <section className="panel umwstr-coverage">
@@ -335,6 +366,14 @@ function Cockpit({ schemaOeffnen, hausaufgabenOeffnen }) {
           <h3>Seiten berücksichtigt</h3>
           <p>Keine Seite der gelieferten Unterlagen ist ausgelassen.</p>
         </section>
+      </div>
+      <div className="lernpfad-einstieg">
+        <div>
+          <span className="kicker">Neu hier?</span>
+          <b>Schritt für Schritt: Umwandlungssteuerrecht ohne Vorwissen</b>
+          <small>{umwstrLernpfad.length} Lektionen in {umwstrLernpfadKapitel.length} Kapiteln, ca. {Math.round(umwstrLernpfadGesamtminuten / 60 * 10) / 10} Stunden – von der Idee der Buchwertfortführung über §§ 3–9, 11–15 und 20–25 bis zum Klausurfahrplan.</small>
+        </div>
+        <button className="btn" onClick={() => lernpfadOeffnen()}>Lernpfad starten</button>
       </div>
       <section className="abschnitt">
         <div className="pagehead umwstr-pagehead-compact">
@@ -450,8 +489,9 @@ function SchemaIndex({ liste, suche, schemaOeffnen }) {
   );
 }
 
-function SchemaDetail({ schema, zurueck }) {
+function SchemaDetail({ schema, zurueck, lernpfadOeffnen }) {
   const anzahl = schema.seiten.length;
+  const lektionen = lektionenZuSchema(schema.nr);
   return (
     <>
       <div className="pagehead umwstr-detail-head">
@@ -463,6 +503,16 @@ function SchemaDetail({ schema, zurueck }) {
           <p className="lead">{schema.subtitle}</p>
         </div>
       </div>
+      {lektionen.length > 0 && (
+        <div className="umwstr-hausaufgaben-hinweis">
+          <div>
+            <span className="kicker">Erklärt im Lernpfad</span>
+            <b>{lektionen.map((l) => l.titel).join(" · ")}</b>
+            <small>Schritt für Schritt in einfacher Sprache, mit Beispiel und Selbstcheck.</small>
+          </div>
+          <div className="lernpfad__chips">{lektionen.map((l) => <button key={l.id} type="button" onClick={() => lernpfadOeffnen(l.id)}>Lektion öffnen ↗</button>)}</div>
+        </div>
+      )}
       <nav className="umwstr-pagechips" aria-label={`Seiten in Prüfschema ${schema.nr}`}>
         {schema.seiten.map((seite, index) => (
           <a key={index} href={`#umwstr-${schema.nr}-${index + 1}`}>Seite {index + 1}</a>

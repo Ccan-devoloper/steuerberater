@@ -22,6 +22,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **Klausurmodus**: Fälle unter Zeitbedingungen — Punkte aus der veranschlagten Zeit,
   laufende Uhr, gesperrte Lösung, dreistufige Selbstbewertung und Auswertung mit Modullinks
 - **Lernplan** über zwölf Wochen, Fortschritt via `localStorage`
+- **Schritt für Schritt** (Reiter in den Campussen Personengesellschaften und UmwStR): zwei
+  Lernpfade ohne Vorwissen – 18 Lektionen zur Bilanzierung von Personengesellschaften
+  (Transparenzprinzip, Mitunternehmerschaft, zweistufige Gewinnermittlung, Kapitalkonten,
+  Sonder- und Ergänzungsbilanzen, § 6 Abs. 5, § 6b, § 15a, § 16, Realteilung, § 24 UmwStG,
+  Klausurfahrplan) und 16 Lektionen zum Umwandlungssteuerrecht (Grundidee und Landkarte,
+  §§ 3–9, §§ 11–15, §§ 20–25, § 1a KStG, Klausurfahrplan). Jede Lektion mit Ziel, Normen,
+  Beispiel in Zahlen, Klausurblock, Selbstcheck und Merksatz; Fortschritt via `localStorage`,
+  Querverweise auf Module, Prüfschemata, Originalfälle und Hausaufgaben. Details:
+  [`docs/k3-lernpfad.md`](docs/k3-lernpfad.md), Prüfung: `npm run check:k3-lernpfad`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
@@ -81,6 +90,7 @@ src/
     Pruefungsschemata.jsx     die sechs großen Prüfungsschemata
     Prioritaet.jsx            Examensprioritäts-Marker, Filter, Legende, Cockpit-Abschnitt
     Buchungssaetze.jsx        Reiter „Buchungssätze“: Lektionen, Kontenplan, Beispiele, Übungen
+    K3Lernpfad.jsx            Reiter „Schritt für Schritt“ (PersG und UmwStR): Kapitel, Lektionen, Blocktypen
   data/
     module.js                 Sammelindex (nach Kennziffer sortiert) + Normenregister
     module-basis-a.js         Module 1–13   (Einzelunternehmen, Personengesellschaft)
@@ -104,6 +114,8 @@ src/
     schaubilder.js            Alle Schaubilder als Daten
     lernstoff.js              Formeln, Karteikarten, Quiz, Lernplan, Glossar
     buchungssaetze.js         Lektionen, Kontenplan, Beispiele und Übungen des Reiters „Buchungssätze“
+    k3-lernpfad-persg.js      Lernpfad „Schritt für Schritt“ Personengesellschaften (18 Lektionen)
+    k3-lernpfad-umwstr.js     Lernpfad „Schritt für Schritt“ Umwandlungssteuerrecht (16 Lektionen)
     sources.js                Quellenkatalog und Rechtsstand
     examensprioritaet.js      Regelwerk 🔴/🟠/🟢 aus den Beck-Auswertungen, Fachtabellen
 ```
