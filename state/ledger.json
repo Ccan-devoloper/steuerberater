@@ -1865,13 +1865,46 @@
       "fach": "bilanz",
       "titel": "§ 6b EStG, R 6.6 EStR, § 7g EStG im Vergleich",
       "medienId": "18173928619399899"
+    },
+    {
+      "datum": "2026-09-13",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "20:30",
+      "stunde": 20,
+      "format": "reel",
+      "thema": "ao-modul-ao-335",
+      "fach": "ao",
+      "titel": "So nicht, sondern so",
+      "hookTyp": "fehler",
+      "hookMuster": "kontrast",
+      "medienId": "17983531911067642",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#abgabenordnung",
+        "#außenprüfung",
+        "#ablaufhemmung",
+        "#verfahrensrecht",
+        "#festsetzungsverjährung",
+        "#klausurtechnik"
+      ],
+      "stimmeId": null,
+      "stimmeName": "Bella - Professional, Bright, Warm",
+      "dauer": 89.7,
+      "veroeffentlicht": "2026-09-13T18:51:30.313Z"
     }
   ],
   "fachZaehler": {
     "persg": 3,
     "ust": 3,
     "kst": 6,
-    "ao": 10,
+    "ao": 11,
     "bilanz": 12,
     "istr": 7,
     "erbst": 2
