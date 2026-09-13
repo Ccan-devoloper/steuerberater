@@ -1773,6 +1773,16 @@
       "fach": "kst",
       "titel": "Nutzungsvorteile sind nicht einlagefähig.",
       "medienId": "18068211581755787"
+    },
+    {
+      "datum": "2026-09-13",
+      "art": "story",
+      "slot": "s5",
+      "storyArt": "norm",
+      "thema": "erbst-modul-erbst-529",
+      "fach": "erbst",
+      "titel": "Darlehensbewertung: Fälligkeit vs. Tilgung",
+      "medienId": "18150321397477195"
     }
   ],
   "fachZaehler": {
