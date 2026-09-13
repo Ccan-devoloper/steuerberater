@@ -1823,6 +1823,16 @@
       "fach": "kst",
       "titel": "Wie wird eine verdeckte Gewinnausschüttung technisch korrigiert?",
       "medienId": "trocken"
+    },
+    {
+      "datum": "2026-09-14",
+      "art": "story",
+      "slot": "s4",
+      "storyArt": "antwort",
+      "thema": "kst-quiz-kst-9",
+      "fach": "kst",
+      "titel": "Außerbilanziell – die Handelsbilanz bleibt unverändert.",
+      "medienId": "trocken"
     }
   ],
   "fachZaehler": {
