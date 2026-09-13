@@ -51,7 +51,9 @@
       "art": "frage",
       "themaId": "kst-quiz-kst-9",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "trocken",
+      "veroeffentlicht": "2026-09-13T09:18:55.225Z"
     },
     {
       "slot": "s4",
