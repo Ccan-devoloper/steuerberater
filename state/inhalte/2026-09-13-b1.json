@@ -1,0 +1,82 @@
+{
+  "format": "wochenrueckblick",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der Fehler, den du im Wochenrückblick jetzt noch ausbügeln kannst",
+      "icon": "kalender",
+      "pille": "Swipen →",
+      "hinweis": "Merk dir das"
+    },
+    {
+      "art": "text",
+      "titel": "Klausur 1 – AO, USt, ErbSt",
+      "punkte": [
+        "Bekanntgabe: Ein Bescheid wirkt erst mit *Zugang*, nicht mit Absendung, § 122 (2) AO.",
+        "§ 179 (1) und (2) AO trennen Feststellung dem Grunde und der Höhe nach.",
+        "Leichtfertigkeit ist grobe Fahrlässigkeit, Vorsatz will die Tat – § 378 AO vs. § 370 AO.",
+        "Der Vervielfältiger nach § 13, § 14 BewG hängt vom Alter der berechtigten Person ab.",
+        "Ein Verein zahlt erst über der Freigrenze von 45.000 € nach § 64 (3) AO Körperschaftsteuer auf seinen Zweckbetrieb hinaus."
+      ]
+    },
+    {
+      "art": "text",
+      "titel": "Klausur 2 & 3 – Ertragsteuern und Bilanz",
+      "punkte": [
+        "Teilwert-AfA bleibt ein *Wahlrecht*, nur bei voraussichtlich dauernder Wertminderung, § 6 (1) Nr. 1 S. 2 EStG.",
+        "Das Disagio beim Tilgungsdarlehen verteilst du degressiv über die Zinsstaffel, nicht linear.",
+        "§ 8b (3) S. 3 KStG neutralisiert Gewinnminderungen aus der Beteiligung zu 100 %.",
+        "Eine Bewertungseinheit nach § 254 HGB prüfst du erst auf Sicherungsbeziehung, dann auf Wirksamkeit.",
+        "Eine vGA prüfst du in der KSt-Klausur zuerst dem Grunde nach, dann die Höhe der Vorteilszuwendung."
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Lernplan fürs Wochenende",
+      "text": "Wiederhole nicht neue Themen, sondern die drei Fehler, die du diese Woche selbst gemacht hast.",
+      "icon": "lupe"
+    },
+    {
+      "art": "cta",
+      "titel": "Nächste Woche geht's weiter.",
+      "punkte": [
+        "Schick das deiner Lerngruppe, bevor ihr am Wochenende plant",
+        "Speichern zum Abhaken der Themen",
+        "Was hat diese Woche bei dir am wenigsten gesessen? Kommentiere!"
+      ]
+    }
+  ],
+  "caption": "Wochenrückblick Steuerberaterprüfung: hast du diese Themen wirklich sicher? Diese Woche ging es um Teilwert-AfA, Disagio-Zinsstaffel, § 8b KStG, Bewertungseinheiten, vGA-Prüfung und die Bekanntgabe von Verwaltungsakten – quer über alle drei Klausurtage. Der Tipp fürs Wochenende: nicht neuen Stoff pauken, sondern die eigenen Fehler der Woche noch einmal durchgehen. Schick das deiner Lerngruppe, damit ihr gemeinsam abhakt, was sitzt – und speichern für später. Welches Thema hat dich diese Woche am meisten Nerven gekostet?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#lernmotivation",
+    "#steuerrechtlernen",
+    "#wochenrückblick",
+    "#bilanzsteuerrecht",
+    "#abgabenordnung",
+    "#körperschaftsteuer",
+    "#klausurtechnik",
+    "#lerngruppe"
+  ],
+  "kurztitel": "Wochenrückblick: alles sicher?",
+  "bildSzene": "person reviewing notes at desk",
+  "bildSzeneAlt": "checklist pinned on cork board",
+  "quellen": [],
+  "hookTyp": "fehler",
+  "faktenHinweise": [
+    "Das Disagio beim Tilgungsdarlehen verteilst du degressiv über die Zinsstaffel, nicht linear.: Die Aussage, dass Disagio \"degressiv über die Zinsstaffel\" verteilt wird, ist fachlich fragwürdig. Nach herkömmlicher Praxis wird Disagio linear über die Darlehenslaufzeit verteilt. Eine degressive Verteilung \"über die Zinsstaffel\" ist nicht klar definiert und widerspricht der üblichen Behandlung nach § 8 (3) EStG/KStG.",
+    "Der Vervielfältiger nach § 13, § 14 BewG hängt vom Alter der berechtigten Person ab.: Unschärfe: Der Vervielfältiger ist auch von der Art der Berechtigung (Rente, Nutzungsvorteil, etc.) abhängig. Die alleinige Bezugnahme auf \"Alter der berechtigten Person\" ist verkürzt; es geht primär um die verbleibende Lebensdauer (Lebenserwartung nach Tabellen).",
+    "Ein Verein zahlt erst über der Freigrenze von 45.000 € nach § 64 (3) AO Körperschaftsteuer: § 64 (3) AO regelt die Gemeinnützigkeit und enthält keine Freigrenze von 45.000 € für Körperschaftsteuer. Die korrekte Norm für Freigrenzeregelungen bei Körperschaftsteuer ist § 5 (1) Nr. 9 KStG (für Betriebsstätten ausländischer Betriebe) oder allgemein § 1 (1) KStG mit den Befreiungen nach §§ 5 ff. KStG. Eine Freigrenze von 45.000 € für Vereins-Körperschaftsteuer existiert nicht im geltenden Recht (Rechtsstand 2026). (Zweitmeinung: kein Fehler)",
+    "Leichtfertigkeit ist grobe Fahrlässigkeit, Vorsatz will die Tat – § 378 AO vs. § 370 AO: Die Abgrenzung ist fehlerhaft. Nach § 370 AO ist Leichtfertigkeit die leichtfertige Begehung und nach § 378 AO gehört Fahrlässigkeit zu den Straftatbeständen (Ordnungswidrigkeiten). Eine pauschale Aussage, dass \"Leichtfertigkeit grobe Fahrlässigkeit ist\", ist nicht korrekt – beide Begriffe sind abzugrenzen; Leichtfertigkeit ist eine Begehungsweise, keine Fahrlässigkeitsstufe. (Zweitmeinung: kein Fehler)"
+  ],
+  "slug": "2026-09-13-b1"
+}
