@@ -39,6 +39,7 @@ jobs:
       - run: npm run check:k3-persg-tag4
       - run: npm run check:k3-persg-tag5
       - run: npm run check:k3-umwstr
+      - run: npm run check:k3-lernpfad
       - run: npm run check:kopfnavigation
       - run: npm run check:k3-umwstr-hausaufgaben
       - run: npm run check:examensprioritaet
