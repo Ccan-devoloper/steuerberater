@@ -3,14 +3,13 @@
   "art": "begriff",
   "fach": "bilanz",
   "klausur": 3,
-  "ueberzeile": "Begriff des Tages",
   "titel": "§ 6b EStG, R 6.6 EStR, § 7g EStG im Vergleich",
-  "text": "§ 6b: freiwilliger Verkauf, fester Wirtschaftsgutkatalog, sechs Jahre Zugehörigkeit. R 6.6: nur bei unfreiwilligem Ausscheiden, Ersatz muss funktionsgleich sein. § 7g: keine stillen Reserven, sondern vorgezogener Abzug künftigen Aufwands mit Gewinngrenze und Nutzungsquote.",
+  "text": "§ 6b: freiwilliger Verkauf, fester Wirtschaftsgutkatalog, sechs Jahre im Anlagevermögen. R 6.6: Ersatz nach unfreiwilligem Ausscheiden, funktionsgleiches Gut nötig. § 7g: keine stillen Reserven, sondern vorgezogener Aufwand mit Gewinngrenze und Nutzungsquote.",
   "norm": "§ 6b EStG · R 6.6 EStR · § 7g EStG",
   "icon": "fabrik",
-  "bildSzene": "flooded warehouse with damaged machine",
+  "bildSzene": "old machine replaced in workshop",
   "fachLabel": "Bilanzsteuerrecht",
   "beanstandet": [
-    "Story „§ 6b EStG, R 6.6 EStR, § 7g EStG im Vergleich“: Text zu lang (273 > 260)"
+    "[Story s9 begriff] - Absätze zu § 6b EStG, R 6.6 EStR, § 7g EStG: Die Erläuterung zu § 7g EStG ist inhaltlich unzutreffend. § 7g EStG regelt die Gewinnrücklage für Reinvestitionen (Reinvestitionsvergünstigung für Veräußerungsgewinne), nicht einen 'vorgeozgenen Aufwand mit Gewinngrenze und Nutzungsquote'. Die hier beschriebenen Merkmale passen nicht zur gesetzlichen Regelung des § 7g EStG im Rechtsstand 2026. → § 7g EStG: Gewinnrücklage für Reinvestitionen, Steuerstundung bei Reinvestition des Veräußerungsgewinns innerhalb der Frist, Bezug zu Betriebsvermögen erforderlich."
   ]
 }

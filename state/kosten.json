@@ -83,17 +83,17 @@
       "stand": "2026-09-12T19:44:21.094Z"
     },
     "2026-09-13": {
-      "usd": 0.061,
-      "aufrufe": 2,
+      "usd": 0.0748,
+      "aufrufe": 4,
       "zwecke": {
-        "stories": 0.0532,
-        "story-faktencheck": 0.0078
+        "stories": 0.0642,
+        "story-faktencheck": 0.0106
       },
       "messungen": {
         "stories": 0.0532,
         "story-faktencheck": 0.0078
       },
-      "stand": "2026-09-13T05:44:20.995Z"
+      "stand": "2026-09-13T05:44:34.026Z"
     }
   }
 }
