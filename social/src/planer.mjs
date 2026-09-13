@@ -170,7 +170,15 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
     let thema = null;
     const typen = { frage: ["quiz", "karteikarte"], norm: ["modul", "begriff"], merksatz: ["modul"], formel: ["formel"], begriff: ["begriff", "karteikarte"], fehler: ["modul"], tipp: ["modul"], zahl: ["formel", "modul"] }[art];
     if (typen) {
-      const kandidaten = verfuegbar(pool, ledgerKopie, datum, benutzt).filter((t) => typen.includes(t.typ));
+      const passend = pool.filter((t) => typen.includes(t.typ));
+      let kandidaten = verfuegbar(passend, ledgerKopie, datum, benutzt, "story");
+      /* Vorrat dieser Art erschöpft? Erst eine andere Art versuchen - erst
+         wenn die Runde fast durch ist, das älteste Thema wiederholen. So
+         erscheint eine Art bei dünner Auswahl seltener statt doppelt. */
+      if (!kandidaten.length) {
+        if (k < 25) continue;
+        kandidaten = aeltesteZuerst(passend, ledgerKopie, benutzt);
+      }
       if (!kandidaten.length) continue;
       thema = gewichteteWahl(kandidaten, zufall, ledgerKopie, strategie);
       benutzt.add(thema.id);
