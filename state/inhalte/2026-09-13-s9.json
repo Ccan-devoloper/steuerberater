@@ -8,8 +8,5 @@
   "norm": "§ 6b EStG · R 6.6 EStR · § 7g EStG",
   "icon": "fabrik",
   "bildSzene": "old machine replaced in workshop",
-  "fachLabel": "Bilanzsteuerrecht",
-  "beanstandet": [
-    "[Story s9 begriff] - Absätze zu § 6b EStG, R 6.6 EStR, § 7g EStG: Die Erläuterung zu § 7g EStG ist inhaltlich unzutreffend. § 7g EStG regelt die Gewinnrücklage für Reinvestitionen (Reinvestitionsvergünstigung für Veräußerungsgewinne), nicht einen 'vorgeozgenen Aufwand mit Gewinngrenze und Nutzungsquote'. Die hier beschriebenen Merkmale passen nicht zur gesetzlichen Regelung des § 7g EStG im Rechtsstand 2026. → § 7g EStG: Gewinnrücklage für Reinvestitionen, Steuerstundung bei Reinvestition des Veräußerungsgewinns innerhalb der Frist, Bezug zu Betriebsvermögen erforderlich."
-  ]
+  "fachLabel": "Bilanzsteuerrecht"
 }
