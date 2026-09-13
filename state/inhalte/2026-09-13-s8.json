@@ -1,0 +1,11 @@
+{
+  "slot": "s8",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Gebäude-AfA berechnen",
+  "text": "Ein Wohngebäude, Baujahr 2023, Gebäudewert 300.000 €: 300.000 × 3 % = 9.000 € AfA im Jahr, zeitanteilig nach Fertigstellungsmonat.",
+  "norm": "§ 7 (4), (5a) EStG",
+  "formel": "AfA = Gebäudewert × Satz × M/12",
+  "fachLabel": "Bilanzsteuerrecht"
+}

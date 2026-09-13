@@ -81,6 +81,19 @@
         "reel-faktencheck": 0.0033
       },
       "stand": "2026-09-12T19:44:21.094Z"
+    },
+    "2026-09-13": {
+      "usd": 0.061,
+      "aufrufe": 2,
+      "zwecke": {
+        "stories": 0.0532,
+        "story-faktencheck": 0.0078
+      },
+      "messungen": {
+        "stories": 0.0532,
+        "story-faktencheck": 0.0078
+      },
+      "stand": "2026-09-13T05:44:20.995Z"
     }
   }
 }

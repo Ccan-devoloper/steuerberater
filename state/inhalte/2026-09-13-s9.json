@@ -1,0 +1,16 @@
+{
+  "slot": "s9",
+  "art": "begriff",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Begriff des Tages",
+  "titel": "§ 6b EStG, R 6.6 EStR, § 7g EStG im Vergleich",
+  "text": "§ 6b: freiwilliger Verkauf, fester Wirtschaftsgutkatalog, sechs Jahre Zugehörigkeit. R 6.6: nur bei unfreiwilligem Ausscheiden, Ersatz muss funktionsgleich sein. § 7g: keine stillen Reserven, sondern vorgezogener Abzug künftigen Aufwands mit Gewinngrenze und Nutzungsquote.",
+  "norm": "§ 6b EStG · R 6.6 EStR · § 7g EStG",
+  "icon": "fabrik",
+  "bildSzene": "flooded warehouse with damaged machine",
+  "fachLabel": "Bilanzsteuerrecht",
+  "beanstandet": [
+    "Story „§ 6b EStG, R 6.6 EStR, § 7g EStG im Vergleich“: Text zu lang (273 > 260)"
+  ]
+}

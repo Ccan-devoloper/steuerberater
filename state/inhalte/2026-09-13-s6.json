@@ -1,0 +1,15 @@
+{
+  "slot": "s6",
+  "art": "countdown",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Noch",
+  "titel": "Tage bis zur schriftlichen Prüfung",
+  "text": "6.–8.10.2026. Heute: ein Prüfschema komplett auswendig aufsagen, ohne Skript nachzuschauen.",
+  "zahl": "23",
+  "fortschritt": 85,
+  "fachLabel": "Bilanzsteuerrecht",
+  "beanstandet": [
+    "Bezug auf Kursquelle/Seiten/Fallnummern entfernen: Skript"
+  ]
+}

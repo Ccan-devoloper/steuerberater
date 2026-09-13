@@ -1,0 +1,16 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "ueberzeile": "Richtig ist die dritte Option",
+  "titel": "Nutzungsvorteile sind nicht einlagefähig.",
+  "text": "Eine verdeckte Einlage setzt einen bilanzierungsfähigen Vermögensvorteil voraus. Unentgeltliche Nutzungs- oder Arbeitsleistungen sind nach ständiger Rechtsprechung nicht aktivierbar und daher kein Einlagegegenstand, § 8 (3) S. 3 KStG.",
+  "optionen": [
+    "Maschine",
+    "Grundstück",
+    "unentgeltliche Arbeits- oder Nutzungsleistung"
+  ],
+  "richtig": 2,
+  "fachLabel": "Körperschaftsteuer"
+}
