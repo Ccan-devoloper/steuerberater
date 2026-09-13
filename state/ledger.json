@@ -1845,6 +1845,16 @@
       "fach": "bilanz",
       "titel": "Buchungssatz und Gewinnauswirkung",
       "medienId": "18114363865962611"
+    },
+    {
+      "datum": "2026-09-13",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-gebaeude-afa",
+      "fach": "bilanz",
+      "titel": "Gebäude-AfA berechnen",
+      "medienId": "18004740809988612"
     }
   ],
   "fachZaehler": {
