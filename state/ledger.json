@@ -1835,6 +1835,16 @@
       "fach": "bilanz",
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "18092057333548855"
+    },
+    {
+      "datum": "2026-09-13",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "merksatz",
+      "thema": "bilanz-modul-k3-19",
+      "fach": "bilanz",
+      "titel": "Buchungssatz und Gewinnauswirkung",
+      "medienId": "18114363865962611"
     }
   ],
   "fachZaehler": {
