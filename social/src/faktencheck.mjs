@@ -48,7 +48,7 @@ const SYSTEM = `Du bist Prüfer:in für Fachtexte zum deutschen Steuerrecht (Ste
 
 - Fremde Merkhilfen: Kürzel und Methodennamen, die kein Fachbegriff sind, sondern die Merkhilfe eines Dozenten („EIS-Methode“, „ABBA-Schema“ und Ähnliches), sind ein „fehler“ – sie gehören einem anderen und sagen der Leserschaft nichts.
 
-Zusätzlich – und nur das – prüfst du die Sprache auf offensichtliche Versehen: doppelte Wörter („U hat U selbst“), fehlende Wörter, verdrehte Buchstaben, ein falscher Kasus, eine abgebrochene Klammer. Melde solche Versehen als „sprache“ und gib in „original“ die fehlerhafte Wortfolge exakt so an, wie sie im Text steht (mindestens drei Wörter, damit die Stelle eindeutig ist), in „ersatz“ die berichtigte Fassung mit denselben Wörtern drumherum. Stilfragen, Umformulierungen und Kürzungen sind keine Sprachversehen – nur, was ein Korrektor mit dem Rotstift anstreichen würde. Auch bei einem fachlichen „fehler“ gibst du „original“ und „ersatz“ an, WENN er sich durch Austausch einer Wortfolge beheben lässt (falscher Absatz, falsche Zahl, falsch benanntes Merkmal, falsch zugeordnete Ansicht): „original“ die falsche Stelle exakt wie im Text, „ersatz“ dieselbe Stelle richtig, ohne den Satz umzubauen. Braucht die Berichtigung mehr als das – fehlt ein Sachverhalt, stimmt der Aufbau nicht, ist die Aussage im Kern falsch –, bleiben beide Felder leer. Bei allen übrigen Befunden ebenfalls.
+Zusätzlich – und nur das – prüfst du die Sprache auf offensichtliche Versehen: doppelte Wörter („U hat U selbst“), fehlende Wörter, verdrehte Buchstaben, ein falscher Kasus, eine abgebrochene Klammer. Dazu gehören auch Überschriften, die grammatisch nicht aufgehen: „Wochenrückblick: alles sitzen?“ ist falsch (richtig: „sitzt alles?“), ebenso ein Bezugsfehler zwischen Subjekt und Verb. Eine knappe Nominalphrase ohne Verb ist dagegen als Überschrift in Ordnung („Organschaft: das Verhältnis“). Melde solche Versehen als „sprache“ und gib in „original“ die fehlerhafte Wortfolge exakt so an, wie sie im Text steht (mindestens drei Wörter, damit die Stelle eindeutig ist), in „ersatz“ die berichtigte Fassung mit denselben Wörtern drumherum. Stilfragen, Umformulierungen und Kürzungen sind keine Sprachversehen – nur, was ein Korrektor mit dem Rotstift anstreichen würde. Auch bei einem fachlichen „fehler“ gibst du „original“ und „ersatz“ an, WENN er sich durch Austausch einer Wortfolge beheben lässt (falscher Absatz, falsche Zahl, falsch benanntes Merkmal, falsch zugeordnete Ansicht): „original“ die falsche Stelle exakt wie im Text, „ersatz“ dieselbe Stelle richtig, ohne den Satz umzubauen. Braucht die Berichtigung mehr als das – fehlt ein Sachverhalt, stimmt der Aufbau nicht, ist die Aussage im Kern falsch –, bleiben beide Felder leer. Bei allen übrigen Befunden ebenfalls.
 
 Melde als „fehler“ nur, was eindeutig falsch ist und in der Prüfung Punkte kosten würde. Als „unsicher“ alles, was du nicht sicher beurteilen kannst. Als „hinweis“ Unschärfen, die vertretbar sind. Keine Stil- oder Formatkritik. Wenn alles korrekt ist, gib eine leere Liste zurück.`;
 
@@ -61,6 +61,11 @@ export function textAus(beitrag) {
      bezahlbar, neun einzelne Aufrufe waeren es nicht. */
   for (const s of beitrag.stories || []) teile.push(`[Story ${s.slot} ${s.art}] ${[s.ueberzeile, s.titel, s.norm, s.formel, s.zahl, s.text, ...(s.optionen || []), s.richtigText, s.falsch].filter(Boolean).join(" · ")}`);
   if (beitrag.caption) teile.push(`[Caption] ${beitrag.caption}`);
+  /* Der Kurztitel stand bisher in keiner Pruefung - dabei ist er die
+     Ueberschrift der Teaser-Story und des Reel-Covers, also das, was die
+     meisten zuerst lesen. Am 13.09. ging so „Wochenrueckblick: alles sitzen?"
+     durch, ein Satz ohne Praedikat. */
+  if (beitrag.kurztitel) teile.push(`[Kurztitel] ${beitrag.kurztitel}`);
   return teile.join("\n");
 }
 
