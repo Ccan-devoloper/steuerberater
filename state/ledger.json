@@ -1855,6 +1855,16 @@
       "fach": "bilanz",
       "titel": "Gebäude-AfA berechnen",
       "medienId": "18004740809988612"
+    },
+    {
+      "datum": "2026-09-13",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "begriff",
+      "thema": "bilanz-karte-k3-36",
+      "fach": "bilanz",
+      "titel": "§ 6b EStG, R 6.6 EStR, § 7g EStG im Vergleich",
+      "medienId": "18173928619399899"
     }
   ],
   "fachZaehler": {
