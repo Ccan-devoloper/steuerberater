@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-13",
+  "erzeugt": "2026-09-13T05:43:26.412Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "11:30",
+      "format": "wochenrueckblick",
+      "themaId": null,
+      "themaTitel": null,
+      "fach": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "20:30",
+      "format": "reel",
+      "themaId": "ao-modul-ao-335",
+      "themaTitel": "Außenprüfung: Ablaufhemmung nach § 171 Abs. 4 AO – Beginn, Ende und Reichweite",
+      "fach": "ao",
+      "lang": true,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:24",
+      "art": "frage",
+      "themaId": "kst-quiz-kst-4",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:24",
+      "art": "antwort",
+      "themaId": "kst-quiz-kst-4",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:17",
+      "art": "norm",
+      "themaId": "erbst-modul-erbst-529",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "11:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:26",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 23,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:41",
+      "art": "merksatz",
+      "themaId": "bilanz-modul-k3-19",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:39",
+      "art": "formel",
+      "themaId": "bilanz-formel-gebaeude-afa",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:44",
+      "art": "begriff",
+      "themaId": "bilanz-karte-k3-36",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "20:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    }
+  ]
+}

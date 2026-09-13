@@ -1,31 +1,32 @@
 {
-  "stand": "2026-09-12",
-  "beitraege": 30,
+  "stand": "2026-09-13",
+  "beitraege": 33,
   "formatGewicht": {
-    "pruefungsfrage": 0.8489569580142592,
-    "fehlerfalle": 0.9565619223659888,
-    "schema": 1.424445471349353,
+    "pruefungsfrage": 0.6261032733337968,
+    "fehlerfalle": 0.7304538188894295,
+    "schema": 1.076760025019112,
     "rechenweg": 0.5,
-    "minifall": 0.6454097350585336,
+    "minifall": 0.5034053791090416,
     "vergleich": 0.5,
-    "klausurtechnik": 0.5,
-    "spickzettel": 2
+    "klausurtechnik": 0.5114323441517826,
+    "spickzettel": 2,
+    "reel": 2
   },
   "fachGewicht": {
-    "ao": 1.4440850277264323,
-    "kst": 0.6515711645101664,
-    "istr": 1.8807763401109057,
-    "bilanz": 0.5549487481095614,
+    "ao": 2,
+    "kst": 0.5,
+    "istr": 1.4242129404406143,
+    "bilanz": 0.5,
     "ust": 0.5
   },
   "hookGewicht": {
-    "frage": 1.240580122280677,
-    "zahl": 1.0628465804066543,
-    "fehler": 0.6469500924214417
+    "frage": 0.9398429355757872,
+    "zahl": 0.8146222809090278,
+    "fehler": 2
   },
   "besteStunden": null,
-  "follower": 17,
-  "reichweite7": 1524,
+  "follower": 30,
+  "reichweite7": 2124,
   "dauerMessungen": {},
   "dauerGewicht": {},
   "hashtagGewicht": {},
