@@ -1773,6 +1773,36 @@
       "fach": "kst",
       "titel": "Nutzungsvorteile sind nicht einlagefähig.",
       "medienId": "18068211581755787"
+    },
+    {
+      "datum": "2026-09-14",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "06:30",
+      "stunde": 11,
+      "format": "wochenrueckblick",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Wann darf ich in der Steuerbilanz auf den niedrigeren Teilwert abschreiben?",
+      "hookTyp": "frage",
+      "medienId": "trocken",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#lernmotivation",
+        "#steuerrechtlernen",
+        "#bilanzsteuerrecht",
+        "#teilwert",
+        "#steuerbilanz",
+        "#lernen"
+      ],
+      "veroeffentlicht": "2026-09-13T09:18:47.568Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
