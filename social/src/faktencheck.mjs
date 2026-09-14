@@ -124,38 +124,28 @@ export function zahlenLastig(beitrag) {
 export async function pruefeFakten(beitrag, zweck = "faktencheck", { hinweis = "", streng = null } = {}) {
   if (!CONFIG.faktencheck.aktiv) return { ok: true, fehler: [], hinweise: [], korrekturen: [], behebbar: [] };
   budgetPruefen({ "reel-faktencheck": "Reel-Faktencheck", "story-faktencheck": "Story-Faktencheck" }[zweck] || "Faktencheck");
-  const scharf = streng ?? zahlenLastig(beitrag);
+  /* Beiträge und Reels gehen immer an den strengen Prüfer.
+
+     Die Auswertung der letzten fünf Tage war eindeutig: Der günstige Prüfer
+     arbeitet - er fand auf 6 von 13 Beiträgen echte Feinheiten (§ 729 ZPO
+     statt § 726, die Einordnung des § 28 StGB, einen unscharfen
+     Prognosemaßstab). Beim Beitrag vom 14.09. gab er aber genau einen
+     Hinweis, und zwar zur Folie DANEBEN, während auf dem Schwesterkanal die vertauschte Erbquote
+     unbeanstandet blieb. Er hat hingeschaut und es nicht gesehen.
+
+     Fehler sind eben nicht nur Zahlen: ein falscher Absatz, eine falsch
+     zugeordnete Ansicht, ein Aufbau in der falschen Reihenfolge - all das
+     kostet in der Klausur Punkte, und all das hängt an der Stärke des
+     prüfenden Modells. Ein Beitrag steht dauerhaft im Feed.
+
+     Stories bleiben beim günstigen Prüfer: Sie verschwinden nach 24 Stunden,
+     und alle neun werden in EINEM Aufruf geprüft - eine Aufwertung schlüge
+     dort am stärksten aufs Budget und am wenigsten auf die Haltbarkeit
+     durch. Wird in einer Story gerechnet, greift die Eskalation trotzdem. */
+  const stories = zweck === "story-faktencheck";
+  const scharf = streng ?? (!stories || zahlenLastig(beitrag));
   const modell = (scharf && CONFIG.ki.modellPruefungStreng) || CONFIG.ki.modellPruefung || CONFIG.ki.modellNeben;
-  if (scharf) console.log(`  Faktencheck streng (${modell}) – im Beitrag wird gerechnet.`);
-  const haiku = /haiku/i.test(modell);
-  const user = `Prüfe diesen Text:\n\n${textAus(beitrag)}${hinweis ? `\n\n${hinweis}` : ""}`;
-  const basis = {
-    model: modell,
-    max_tokens: 6000,
-    system: [{ type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } }],
-    messages: [{ role: "user", content: user }],
-    /* Haiku kennt kein adaptives Denken – dort ohne. */
-    ...(haiku ? {} : { thinking: { type: "adaptive" } }),
-    output_config: { ...(haiku ? {} : { effort: "medium" }), format: { type: "json_schema", schema: SCHEMA } },
-  };
-  let response;
-  try {
-    response = await client().messages.create(basis);
-  } catch (e) {
-    if (!(e instanceof Anthropic.BadRequestError)) throw e;
-    /* Rückfall: ohne Denken und ohne Schema-Format, JSON per Anweisung. */
-    const { thinking, output_config, ...rest } = basis;
-    response = await client().messages.create({ ...rest, messages: [{ role: "user", content: `${user}\n\nAntworte ausschließlich mit einem JSON-Objekt nach diesem Schema:\n${JSON.stringify(SCHEMA)}` }] });
-  }
-  erfassen(modell, response.usage, zweck);
-  if (response.stop_reason === "refusal") return { ok: true, fehler: [], hinweise: [], korrekturen: [], behebbar: [] };
-  const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
-  let daten;
-  try { daten = JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1)); } catch { return { ok: true, fehler: [], hinweise: [], korrekturen: [], behebbar: [] }; }
-  /* Weiche Beanstandungen („irreführend“, „präzisieren“, „missverständlich“) sind
-     keine Fehler, die eine teure Neufassung rechtfertigen – sie werden zu Hinweisen. */
-  const WEICH = /irreführend|präzisier|missverständlich|ungenau|unscharf|unschärfe|ausdrucksweise|formulierung|konzeptionell|didaktisch|sollte (?:ergänzt|erwähnt|klargestellt)|könnte|empfehl|verkürzt|vereinfacht|mathematisch (?:richtig|korrekt)|ist (?:zwar |dann )?(?:sachlich )?korrekt|suggeriert|wird dem aufbau nicht gerecht|deutlicher|gestaffelt|darstellung/i;
-  const ist = (b) => b.schwere === "fehler" && !WEICH.test(`${b.problem} ${b.korrektur}`);
+  if (scharf) console.log(`  Faktencheck streng (${modell})${stories ? " – in einer Story wird gerechnet." : ""}`);
   /* Sprachversehen mit brauchbarer Fundstelle werden ersetzt, nicht neu
      geschrieben. Ohne verwertbares Original (zu kurz, oder Original gleich
      Ersatz) bleibt es ein Hinweis. */
