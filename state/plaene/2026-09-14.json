@@ -12,7 +12,8 @@
       "themaId": "ust-modul-ust-160",
       "themaTitel": "Grundstücksumsätze: § 4 Nr. 9, § 4 Nr. 12 und Option nach § 9 UStG",
       "fach": "ust",
-      "status": "geplant"
+      "status": "geplant",
+      "fehler": "2026-09-14T05:46:17.586Z Instagram POST 17841435987153807/media: Only photo or video can be accepted as media type. (code 9004, subcode 2207052)"
     },
     {
       "slot": "b2",
