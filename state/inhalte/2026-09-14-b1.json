@@ -1,0 +1,99 @@
+{
+  "format": "spickzettel",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-160",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der Fehler bei § 9 UStG, der beim Grundstücksverkauf sicher Punkte kostet",
+      "icon": "haus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Kommt fast jedes Jahr dran",
+      "hinweis": "Das musst du wissen"
+    },
+    {
+      "art": "karte",
+      "titel": "Der Prüfaufbau in 7 Schritten",
+      "schritte": [
+        {
+          "titel": "Befreiung: Nr. 9a oder Nr. 12?",
+          "text": "§ 4 Nr. 9 lit. a) UStG"
+        },
+        {
+          "titel": "Vermietung: Ausschlüsse prüfen",
+          "text": "§ 4 Nr. 12 S. 2 UStG"
+        },
+        {
+          "titel": "Option nur bei zulässigem Umsatz",
+          "text": "§ 9 (1) UStG"
+        },
+        {
+          "titel": "Empfänger muss Unternehmer sein",
+          "text": "§ 9 (1) UStG"
+        },
+        {
+          "titel": "Vermietung: Zusatzvoraussetzung prüfen",
+          "text": "§ 9 (2) UStG"
+        },
+        {
+          "titel": "Verkauf: Option im Notarvertrag",
+          "text": "§ 9 (3) UStG"
+        },
+        {
+          "titel": "Gemischte Nutzung: Aufteilen",
+          "text": "A 9.2 (3) S. 2 UStAE"
+        }
+      ]
+    },
+    {
+      "art": "text",
+      "titel": "Hier gehen die meisten Punkte verloren",
+      "punkte": [
+        "S. 2 des § 4 Nr. 12 UStG wird schlicht übersehen – dann fehlt die Vorprüfung komplett.",
+        "§ 9 (2) UStG wird auch beim *Verkauf* geprüft, obwohl er nur für Vermietung gilt."
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Eine Option passt nie auf das ganze Grundstück – sie folgt der Nutzung, nicht der Adresse."
+    },
+    {
+      "art": "cta",
+      "titel": "Diese Karte gehört in jede Lerngruppe.",
+      "punkte": [
+        "Schick das deiner Lerngruppe – vor der Klausur nochmal durchgehen",
+        "Speichern für die Wiederholung",
+        "Wo hakt's bei dir: Verkauf oder Vermietung? Kommentiere!"
+      ]
+    }
+  ],
+  "caption": "Grundstücksumsätze Umsatzsteuer: § 4 Nr. 9, § 4 Nr. 12 und die Option nach § 9 UStG – passt das auf eine Karte? Ja. Der Trick liegt darin, Verkauf und Vermietung sauber zu trennen: Beide sind grundsätzlich steuerfrei, aber die Zusatzvoraussetzungen für die Option unterscheiden sich komplett. Wer § 9 (2) UStG auch beim Verkauf prüft, verliert Punkte, die eigentlich sicher wären. Schick das deiner Lerngruppe – die Karte lohnt sich zum Auswendiglernen. Speichern nicht vergessen. Welcher Schritt kostet dich in Übungsklausuren am meisten Zeit?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#prüfungsvorbereitung",
+    "#bilanzierung",
+    "#umsatzsteuer",
+    "#grundstücksumsätze",
+    "#optionzursteuerpflicht",
+    "#klausurtechnik",
+    "#ustg",
+    "#vermietung"
+  ],
+  "kurztitel": "Grundstücksumsätze: das ganze Schema",
+  "bildSzene": "key handed over at empty house door",
+  "bildSzeneAlt": "for rent sign on empty building",
+  "quellen": [],
+  "hookTyp": "fehler",
+  "faktenHinweise": [],
+  "slug": "2026-09-14-b1"
+}

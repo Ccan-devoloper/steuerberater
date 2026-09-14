@@ -1,0 +1,120 @@
+{
+  "format": "reel",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-modul-kst-9",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Der teuerste Denkfehler bei § 27",
+      "unter": "Kapitalrücklage ist nicht das Einlagekonto",
+      "icon": "aktenschrank",
+      "sprecher": "Fast alle setzen die Kapitalrücklage mit dem steuerlichen Einlagekonto gleich. Genau das kostet in der Klausur die Punkte.",
+      "marken": [
+        "§ 27 KStG: *zwei* Rechnungen"
+      ],
+      "bildSzene": "person confusing two labeled boxes",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Bestand vom Vorjahr",
+      "text": "Den festgestellten Endbestand einfach übernehmen.",
+      "norm": "§ 27 (2) KStG",
+      "icon": "aktenschrank",
+      "sprecher": "Erster Schritt: Du nimmst den festgestellten Bestand zum Schluss des Vorjahres. Der steht bereits fest, den rechnest du nicht neu.",
+      "marken": [
+        "Vorjahresbestand: *übernehmen*"
+      ],
+      "bildSzene": "person opening old file folder",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Einlagen addieren",
+      "text": "Offene und verdeckte Einlagen erhöhen den Bestand.",
+      "norm": "§ 27 (1) S. 1 KStG",
+      "icon": "muenzen",
+      "sprecher": "Zweitens: Offene und verdeckte Einlagen des Jahres kommen dazu. Beide erhöhen grundsätzlich den Bestand des Einlagekontos.",
+      "marken": [
+        "Einlagen: Bestand *steigt*"
+      ],
+      "bildSzene": "person adding coins to jar",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Leistung und Gewinn vergleichen",
+      "text": "Erst der ausschüttbare Gewinn, dann das Einlagekonto.",
+      "norm": "§ 27 (1) S. 3 KStG",
+      "icon": "diagramm",
+      "sprecher": "Drittens: Du stellst die Leistung dem ausschüttbaren Gewinn gegenüber. Jede Leistung gilt zunächst als Gewinnausschüttung – nicht als Rückgewähr von Einlagen.",
+      "marken": [
+        "Leistung: *erst* Gewinn"
+      ],
+      "bildSzene": "scale balancing two stacks",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 4,
+      "titel": "Übersteigender Betrag",
+      "text": "Nur der Rest mindert das Einlagekonto.",
+      "norm": "§ 27 (1) S. 3 KStG",
+      "icon": "geld-weg",
+      "sprecher": "Und erst der Betrag, der über den ausschüttbaren Gewinn hinausgeht, mindert das Einlagekonto als Einlagenrückgewähr im Sinne von Paragraf 20 Absatz 1 Nummer 1 Satz 3 Einkommensteuergesetz.",
+      "marken": [
+        "Nur der *Rest* zählt"
+      ],
+      "bildSzene": "person pouring water into second glass",
+      "kreuz": false
+    },
+    {
+      "art": "merke",
+      "titel": "Nie unter null",
+      "text": "Der Bestand darf durch Leistungen niemals negativ werden.",
+      "norm": "§ 27 (1) S. 4-5 KStG",
+      "icon": "verbot",
+      "sprecher": "Merk dir: Der Bestand darf durch Leistungen nie unter null fallen. Reicht das Einlagekonto nicht, bleibt es einfach bei null – die Ausschüttung ändert daran nichts mehr.",
+      "marken": [
+        "Bestand: *nie* negativ"
+      ],
+      "kreuz": true
+    },
+    {
+      "art": "cta",
+      "titel": "Schick das deiner Lerngruppe",
+      "text": "Speichern und folgen für den nächsten Klausur-2-Stoff.",
+      "sprecher": "Das steuerliche Einlagekonto ist eine eigene Rechnung neben der Bilanz – erst Gewinn, dann Einlagekonto, nie unter null. Schick das deiner Lerngruppe, speicher es dir und folge für mehr aus der Ertragsteuer-Klausur.",
+      "marken": [
+        "Speichern & *weiterleiten*"
+      ],
+      "kreuz": false
+    }
+  ],
+  "caption": "Steuerliches Einlagekonto § 27 KStG: warum Kapitalrücklage nicht dasselbe ist Jedes Jahr im Examen, jedes Jahr derselbe Fehler: Kapitalrücklage und steuerliches Einlagekonto werden gleichgesetzt. Sind sie nicht. Das Einlagekonto ist eine eigene außerbilanzielle Rechnung – jede Leistung gilt erst als Gewinnausschüttung, nur der übersteigende Betrag mindert das Konto, und unter null geht es nie. Schick das deiner Lerngruppe, bevor die nächste KSt-Klausur ansteht. Speichern nicht vergessen. Wo hakt's bei euch: die Verwendungsreihenfolge oder die Abgangsbegrenzung auf null?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#körperschaftsteuer",
+    "#einlagekonto",
+    "#kstexamen",
+    "#klausur2",
+    "#ertragsteuern",
+    "#stbklausur"
+  ],
+  "kurztitel": "§ 27 KStG: nie unter null",
+  "bildSzene": "person pouring water into second glass",
+  "bildSzeneAlt": "person opening old file folder",
+  "hookTyp": "fehler",
+  "hookMuster": "fehler",
+  "slug": "2026-09-14-b2"
+}
