@@ -2075,6 +2075,16 @@
       "fach": "bilanz",
       "titel": "Zeitbudget in der Klausur",
       "medienId": "17880768660528029"
+    },
+    {
+      "datum": "2026-09-14",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "merksatz",
+      "thema": "erbst-modul-erbst-515",
+      "fach": "erbst",
+      "titel": "Schuldenabzug bei steuerbefreiten Wirtschaftsgütern",
+      "medienId": "18105851171582756"
     }
   ],
   "fachZaehler": {
