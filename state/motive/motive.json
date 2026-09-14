@@ -29,6 +29,56 @@
       "benutzt": 1,
       "breite": 792,
       "hoehe": 974
+    },
+    {
+      "datei": "2026-09-14-kzpa74.webp",
+      "szene": "person pouring water into second glass",
+      "themaId": "kst-modul-kst-9",
+      "gezeichnet": "2026-09-14",
+      "zuletzt": "2026-09-14",
+      "benutzt": 1,
+      "breite": 760,
+      "hoehe": 1016
+    },
+    {
+      "datei": "2026-09-14-pfo9kt.webp",
+      "szene": "person confusing two labeled boxes",
+      "themaId": null,
+      "gezeichnet": "2026-09-14",
+      "zuletzt": "2026-09-14",
+      "benutzt": 1,
+      "breite": 939,
+      "hoehe": 928
+    },
+    {
+      "datei": "2026-09-14-3j9zt1.webp",
+      "szene": "person opening old file folder",
+      "themaId": null,
+      "gezeichnet": "2026-09-14",
+      "zuletzt": "2026-09-14",
+      "benutzt": 1,
+      "breite": 779,
+      "hoehe": 982
+    },
+    {
+      "datei": "2026-09-14-9c6fvg.webp",
+      "szene": "person adding coins to jar",
+      "themaId": null,
+      "gezeichnet": "2026-09-14",
+      "zuletzt": "2026-09-14",
+      "benutzt": 1,
+      "breite": 651,
+      "hoehe": 950
+    },
+    {
+      "datei": "2026-09-14-6a9fk1.webp",
+      "szene": "scale balancing two stacks",
+      "themaId": null,
+      "gezeichnet": "2026-09-14",
+      "zuletzt": "2026-09-14",
+      "benutzt": 1,
+      "breite": 875,
+      "hoehe": 971
     }
   ]
 }
