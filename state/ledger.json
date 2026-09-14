@@ -2055,6 +2055,16 @@
       "fach": "bilanz",
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "18175256242441253"
+    },
+    {
+      "datum": "2026-09-14",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "zahl",
+      "thema": "erbst-modul-erbst-506",
+      "fach": "erbst",
+      "titel": "Steuerpflichtiger Erwerb wird auf volle 100 € abgerundet",
+      "medienId": "18054450194571180"
     }
   ],
   "fachZaehler": {
