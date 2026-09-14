@@ -130,7 +130,39 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   const ledgerKopie = { ...ledger, fachZaehler: { ...(ledger.fachZaehler || {}) } };
 
   const beitraegeBisher = [];
-  const beitraege = formate.map((format, i) => {
+  /* Das Reel sucht sich sein Thema ZUERST aus.
+
+     Bis zum 14.09. lief es umgekehrt: Das Reel steht im Tagesplan an letzter
+     Stelle, und der Farbwechsel-Filter unten verbietet jedem Beitrag die
+     Rechtsgebiete, die am selben Tag schon dran waren. An einem Tag mit drei
+     Beiträgen bekam das Reel damit nicht die beste Wahl, sondern den Rest -
+     und weil die beiden Kachelbeiträge fast immer Zivil- und Strafrecht
+     nehmen (das größte Fachgebiet stellt den größten Teil des Pools), blieb für das Reel
+     zwangsläufig immer dasselbe Gebiet übrig.
+
+     Das Ergebnis war im Raster zu sehen: Auf dem Schwesterkanal waren die ersten
+     fünf Reels dadurch alle in derselben Farbe. Ein tägliches Format, das nur ein Drittel des Stoffs
+     zeigt, verschenkt genau die Reichweite, für die es da ist.
+
+     Also erst das Reel, dann der Rest. Die Reihenfolge im Plan (Slot und
+     Uhrzeit) bleibt unverändert - nur die Wahl des Themas wird vorgezogen. */
+  const reihenfolge = formate.map((_, i) => i).sort((a, b) => (formate[b] === "reel" ? 1 : 0) - (formate[a] === "reel" ? 1 : 0));
+
+  /* Und es nimmt das Rechtsgebiet, das bei den Reels am längsten nicht dran
+     war. Die gewichtete Wahl allein genügt hier nicht: Sie zieht über die
+     FÄCHER aus, und das Zivilrecht stellt elf davon gegen fünf im Strafrecht.
+     Wer nur zuerst wählen darf, landet damit fast immer im Zivilrecht - eine
+     Schieflage wie vorher, nur in die andere Richtung. Das Reel ist das
+     Format mit der größten Reichweite; es soll den ganzen Stoff zeigen. */
+  const reelGebiet = () => {
+    const letzte = (ledger.veroeffentlicht || []).filter((e) => e.format === "reel").slice(-6);
+    const zaehler = { 1: 0, 2: 0, 3: 0 };
+    for (const e of letzte) { const g = FAECHER[e.fach]?.klausur; if (zaehler[g] !== undefined) zaehler[g]++; }
+    return Number(Object.keys(zaehler).sort((a, b) => zaehler[a] - zaehler[b] || Number(a) - Number(b))[0]);
+  };
+  const beitraege = new Array(formate.length);
+  for (const i of reihenfolge) {
+    const format = formate[i];
     const typen = FORMAT_QUELLEN[format] || [];
     let thema = null;
     if (typen.length) {
@@ -143,6 +175,12 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
       const schonHeute = new Set(beitraegeBisher.map((b) => b.thema?.klausur).filter(Boolean));
       const andereFarbe = kandidaten.filter((t) => !schonHeute.has(t.klausur));
       if (andereFarbe.length >= 3) kandidaten = andereFarbe;
+      /* Das Reel zuerst auf das Gebiet, das bei den Reels am längsten nicht
+         dran war - siehe reelGebiet() oben. */
+      if (format === "reel") {
+        const dran = kandidaten.filter((t) => t.klausur === reelGebiet());
+        if (dran.length >= 3) kandidaten = dran;
+      }
       thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie, strategie);
       benutzt.add(thema.id);
       ledgerKopie.fachZaehler[thema.fach] = (ledgerKopie.fachZaehler[thema.fach] || 0) + 1;
@@ -152,8 +190,8 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
     const zeit = format === "loesungsskizze" ? abendAnlass.zeit : (zeiten[i] || zeiten.at(-1));
     const eintrag = { slot: `b${i + 1}`, zeit, format, thema, anlass: format === "anlass" ? anlass : format === "loesungsskizze" ? abendAnlass : undefined, lang: format === "reel" ? CONFIG.reel.langeTage.includes(wt) : undefined };
     beitraegeBisher.push(eintrag);
-    return eintrag;
-  });
+    beitraege[i] = eintrag;
+  }
 
   /* Stories: Teaser je Beitrag + eigenständige Karten, bis zur Tagesmenge. */
   const stories = [];
