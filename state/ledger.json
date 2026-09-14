@@ -1929,6 +1929,16 @@
       "fach": "ao",
       "titel": "Ablaufhemmung Außenprüfung",
       "medienId": "18195387121390307"
+    },
+    {
+      "datum": "2026-09-14",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "frage",
+      "thema": "kst-quiz-kst-9",
+      "fach": "kst",
+      "titel": "Kann das steuerliche Einlagekonto negativ werden?",
+      "medienId": "18075431939718719"
     }
   ],
   "fachZaehler": {
