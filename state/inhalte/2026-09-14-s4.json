@@ -1,0 +1,16 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "ueberzeile": "Richtig ist C",
+  "titel": "Nein – der Bestand ist die Obergrenze.",
+  "text": "Der Abgang darf den vorhandenen Bestand nicht übersteigen, § 27 (1) S. 4 KStG. Ein negativer Ausweis scheidet also aus.",
+  "optionen": [
+    "Ja",
+    "Nur im Gründungsjahr",
+    "Nein"
+  ],
+  "richtig": 2,
+  "fachLabel": "Körperschaftsteuer"
+}

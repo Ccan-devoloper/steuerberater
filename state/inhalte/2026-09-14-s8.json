@@ -1,0 +1,10 @@
+{
+  "slot": "s8",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Zeitbudget in der Klausur",
+  "text": "100 Punkte, 360 Minuten. Zieh 30 Minuten für Lesen und Kontrolle ab, dann verteile die restlichen 330 Minuten nach Punkten je Aufgabe.",
+  "formel": "Minuten = Punkte × 3,6",
+  "fachLabel": "Bilanzsteuerrecht"
+}
