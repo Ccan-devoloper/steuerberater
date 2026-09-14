@@ -50,6 +50,12 @@ const SYSTEM = `Du bist Prüfer:in für Fachtexte zum deutschen Steuerrecht (Ste
 
 Zusätzlich – und nur das – prüfst du die Sprache auf offensichtliche Versehen: doppelte Wörter („U hat U selbst“), fehlende Wörter, verdrehte Buchstaben, ein falscher Kasus, eine abgebrochene Klammer. Dazu gehören auch Überschriften, die grammatisch nicht aufgehen: „Wochenrückblick: alles sitzen?“ ist falsch (richtig: „sitzt alles?“), ebenso ein Bezugsfehler zwischen Subjekt und Verb. Eine knappe Nominalphrase ohne Verb ist dagegen als Überschrift in Ordnung („Organschaft: das Verhältnis“). Melde solche Versehen als „sprache“ und gib in „original“ die fehlerhafte Wortfolge exakt so an, wie sie im Text steht (mindestens drei Wörter, damit die Stelle eindeutig ist), in „ersatz“ die berichtigte Fassung mit denselben Wörtern drumherum. Stilfragen, Umformulierungen und Kürzungen sind keine Sprachversehen – nur, was ein Korrektor mit dem Rotstift anstreichen würde. Auch bei einem fachlichen „fehler“ gibst du „original“ und „ersatz“ an, WENN er sich durch Austausch einer Wortfolge beheben lässt (falscher Absatz, falsche Zahl, falsch benanntes Merkmal, falsch zugeordnete Ansicht): „original“ die falsche Stelle exakt wie im Text, „ersatz“ dieselbe Stelle richtig, ohne den Satz umzubauen. Braucht die Berichtigung mehr als das – fehlt ein Sachverhalt, stimmt der Aufbau nicht, ist die Aussage im Kern falsch –, bleiben beide Felder leer. Bei allen übrigen Befunden ebenfalls.
 
+Zahlen rechnest du nach, statt sie zu überfliegen. Für jede Zahl im Text – Bruchteil, Quote, Frist, Betrag, Schwellenwert – prüfst du einzeln:
+1. Trägt die zitierte Norm genau diese Zahl? Mach dir die Tatbestandsvariante klar, aus der sie folgt. Eine Zahl, die du nicht aus der genannten Norm herleiten kannst, ist ein Fehler.
+2. Hängt die Zahl an einer Voraussetzung, die im Sachverhalt stehen muss – Rechtsform, Gewinnermittlungsart, Veranlagungszeitraum, Fristbeginn? Fehlt diese Angabe im Text, ist das ein Fehler: Die Zahl steht dann auf einer Annahme.
+3. Geht die Rechnung auf? Teilquoten müssen zusammen das Ganze ergeben.
+Eine Rechnung, die am Ende aufgeht, kann trotzdem auf einer falschen Ausgangszahl beruhen – prüfe deshalb jede Zahl für sich, nicht nur die Summe. Hat eine Norm je nach Fallgruppe verschiedene Werte (etwa ein Steuersatz je nach Steuerklasse oder eine Freibetragshöhe je nach Verwandtschaftsgrad), sag dir ausdrücklich, welche Fallgruppe hier vorliegt, und prüfe erst dann, ob der Text den passenden Wert genommen hat.
+
 Melde als „fehler“ nur, was eindeutig falsch ist und in der Prüfung Punkte kosten würde. Als „unsicher“ alles, was du nicht sicher beurteilen kannst. Als „hinweis“ Unschärfen, die vertretbar sind. Keine Stil- oder Formatkritik. Wenn alles korrekt ist, gib eine leere Liste zurück.`;
 
 export function textAus(beitrag) {
@@ -93,39 +99,53 @@ export function korrekturenAnwenden(obj, korrekturen = []) {
 /**
  * @returns {{ok:boolean, fehler:string[], hinweise:string[], korrekturen:{original:string, ersatz:string}[], behebbar:{original:string, ersatz:string}[]}}
  */
-export async function pruefeFakten(beitrag, zweck = "faktencheck", { hinweis = "" } = {}) {
+/* Wird in diesem Beitrag gerechnet? Dann prüft nicht das billigste Modell.
+
+   Am 14.09. ging eine Erbquote raus, die Ehefrau und Kinder vertauscht hatte.
+   Geprüft hatte Haiku, geschrieben Sonnet - das schwächere Modell sollte den
+   Fehler des stärkeren finden. Bei allem anderen ist das vertretbar, bei
+   Zahlen nicht: Eine falsche Zahl ist eindeutig falsch, sie steht groß auf
+   der Kachel, und wer sie abschreibt, schreibt sie in die Klausur.
+
+   Der Filter ist absichtlich weit - lieber ein paar Beiträge zu viel streng
+   geprüft als der eine zu wenig. Teuer wird das nicht: In fünf Tagen traf es
+   1 von 13 Beiträgen. */
+const BRUCH_ZU_NORM = /\d+\s*\/\s*\d+\s*\(\s*§/;
+const ZAHLWORT = /\b(Quote|Quoten|Erbteil|Bruchteil|Prozent|Frist von|Schwellenwert|Betrag|Hälfte|Drittel|Viertel|Achtel)\b/i;
+
+export function zahlenLastig(beitrag) {
+  for (const f of beitrag?.folien || []) {
+    if (f.art === "rechnung" || f.formel) return true;
+  }
+  const text = JSON.stringify(beitrag || {});
+  return BRUCH_ZU_NORM.test(text) || ZAHLWORT.test(text);
+}
+
+export async function pruefeFakten(beitrag, zweck = "faktencheck", { hinweis = "", streng = null } = {}) {
   if (!CONFIG.faktencheck.aktiv) return { ok: true, fehler: [], hinweise: [], korrekturen: [], behebbar: [] };
   budgetPruefen({ "reel-faktencheck": "Reel-Faktencheck", "story-faktencheck": "Story-Faktencheck" }[zweck] || "Faktencheck");
-  const modell = CONFIG.ki.modellPruefung || CONFIG.ki.modellNeben;
-  const haiku = /haiku/i.test(modell);
-  const user = `Prüfe diesen Text:\n\n${textAus(beitrag)}${hinweis ? `\n\n${hinweis}` : ""}`;
-  const basis = {
-    model: modell,
-    max_tokens: 6000,
-    system: [{ type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } }],
-    messages: [{ role: "user", content: user }],
-    /* Haiku kennt kein adaptives Denken – dort ohne. */
-    ...(haiku ? {} : { thinking: { type: "adaptive" } }),
-    output_config: { ...(haiku ? {} : { effort: "medium" }), format: { type: "json_schema", schema: SCHEMA } },
-  };
-  let response;
-  try {
-    response = await client().messages.create(basis);
-  } catch (e) {
-    if (!(e instanceof Anthropic.BadRequestError)) throw e;
-    /* Rückfall: ohne Denken und ohne Schema-Format, JSON per Anweisung. */
-    const { thinking, output_config, ...rest } = basis;
-    response = await client().messages.create({ ...rest, messages: [{ role: "user", content: `${user}\n\nAntworte ausschließlich mit einem JSON-Objekt nach diesem Schema:\n${JSON.stringify(SCHEMA)}` }] });
-  }
-  erfassen(modell, response.usage, zweck);
-  if (response.stop_reason === "refusal") return { ok: true, fehler: [], hinweise: [], korrekturen: [], behebbar: [] };
-  const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
-  let daten;
-  try { daten = JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1)); } catch { return { ok: true, fehler: [], hinweise: [], korrekturen: [], behebbar: [] }; }
-  /* Weiche Beanstandungen („irreführend“, „präzisieren“, „missverständlich“) sind
-     keine Fehler, die eine teure Neufassung rechtfertigen – sie werden zu Hinweisen. */
-  const WEICH = /irreführend|präzisier|missverständlich|ungenau|unscharf|unschärfe|ausdrucksweise|formulierung|konzeptionell|didaktisch|sollte (?:ergänzt|erwähnt|klargestellt)|könnte|empfehl|verkürzt|vereinfacht|mathematisch (?:richtig|korrekt)|ist (?:zwar |dann )?(?:sachlich )?korrekt|suggeriert|wird dem aufbau nicht gerecht|deutlicher|gestaffelt|darstellung/i;
-  const ist = (b) => b.schwere === "fehler" && !WEICH.test(`${b.problem} ${b.korrektur}`);
+  /* Beiträge und Reels gehen immer an den strengen Prüfer.
+
+     Die Auswertung der letzten fünf Tage war eindeutig: Der günstige Prüfer
+     arbeitet - er fand auf 6 von 13 Beiträgen echte Feinheiten (§ 729 ZPO
+     statt § 726, die Einordnung des § 28 StGB, einen unscharfen
+     Prognosemaßstab). Beim Beitrag vom 14.09. gab er aber genau einen
+     Hinweis, und zwar zur Folie DANEBEN, während auf dem Schwesterkanal die vertauschte Erbquote
+     unbeanstandet blieb. Er hat hingeschaut und es nicht gesehen.
+
+     Fehler sind eben nicht nur Zahlen: ein falscher Absatz, eine falsch
+     zugeordnete Ansicht, ein Aufbau in der falschen Reihenfolge - all das
+     kostet in der Klausur Punkte, und all das hängt an der Stärke des
+     prüfenden Modells. Ein Beitrag steht dauerhaft im Feed.
+
+     Stories bleiben beim günstigen Prüfer: Sie verschwinden nach 24 Stunden,
+     und alle neun werden in EINEM Aufruf geprüft - eine Aufwertung schlüge
+     dort am stärksten aufs Budget und am wenigsten auf die Haltbarkeit
+     durch. Wird in einer Story gerechnet, greift die Eskalation trotzdem. */
+  const stories = zweck === "story-faktencheck";
+  const scharf = streng ?? (!stories || zahlenLastig(beitrag));
+  const modell = (scharf && CONFIG.ki.modellPruefungStreng) || CONFIG.ki.modellPruefung || CONFIG.ki.modellNeben;
+  if (scharf) console.log(`  Faktencheck streng (${modell})${stories ? " – in einer Story wird gerechnet." : ""}`);
   /* Sprachversehen mit brauchbarer Fundstelle werden ersetzt, nicht neu
      geschrieben. Ohne verwertbares Original (zu kurz, oder Original gleich
      Ersatz) bleibt es ein Hinweis. */

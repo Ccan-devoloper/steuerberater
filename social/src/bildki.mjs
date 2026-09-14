@@ -16,25 +16,55 @@ import { spawnSync } from "node:child_process";
 import { ffmpegPfad } from "./stimme.mjs";
 import { CONFIG } from "./config.mjs";
 import { budgetPruefen, erfassenStueck } from "./kosten.mjs";
-import { alphaProfil, FESTIGKEIT_MIN, zuschneiden, bestickern, masse } from "./freistellen.mjs";
+import { alphaProfil, FESTIGKEIT_MIN, zuschneiden, bestickern, masse, randkontakt, randVerdacht } from "./freistellen.mjs";
 
 export const bildKiAktiv = () => Boolean(CONFIG.bilder.ki.aktiv && CONFIG.bilder.ki.key);
+
+/* Nennt die Szene ueberhaupt einen Menschen? Bis zum 14.09. wurde diese Frage
+   nie gestellt - der Auftrag sprach immer von Armen, Haenden, Gliedmassen und
+   Anatomie. Damit wurde aus "scale balancing two stacks" zuverlaessig ein
+   Mensch, der neben einer Waage steht, und aus einem Reel ueber das steuerliche
+   Einlagekonto eine Bilderfolge mit einem Mann und einem Einmachglas. */
+const MENSCH = /\b(persons?|people|m[ae]n|wom[ae]n|someone|somebody|child(ren)?|students?|clerks?|customers?|workers?|employees?|advisors?|advisers?|accountants?|teachers?|vendors?|applicants?|officers?|hands?)\b/i;
+/* "official" ist die Stolperfalle: als Hauptwort ein Beamter, als Beiwort nur
+   amtlich. "official notice with embossed seal" ist ein Schriftstueck, "stopped
+   by official" ein Mensch. Unterschieden wird an der Stellung - steht danach
+   noch ein Hauptwort, ist es ein Beiwort. */
+const AMTSPERSON = /\bofficials?\b(?!\s+[a-z])|\bofficials?\s+\w+ing\b/i;
+
+export function menschInSzene(text) {
+  return MENSCH.test(text) || AMTSPERSON.test(text);
+}
 
 /* Der Hausstil. Zwei Dinge sind nicht verhandelbar: kein Text im Bild (Modelle
    malen Buchstaben, die wie Recht aussehen und keines sind - auf einem
    Examenskanal ein Eigentor) und genau ein Gegenstand, damit das Motiv auf der
    Kachel noch zu erkennen ist. */
 export function bildAuftrag(szene, { stil = "" } = {}) {
+  const text = String(szene).trim();
+  const mitMensch = menschInSzene(text);
   return [
-    `Flat vector illustration: ${String(szene).trim()}.`,
-    "Exactly one clear subject, centred, seen from the front or in three-quarter view, nothing cropped.",
-    /* Haende und kleine Requisiten sind die Stelle, an der billige Bilder
-       auseinanderfallen: verbogene Finger, ein Stift ohne Spitze, eine Lampe,
-       die keine mehr ist. Also gar nichts greifen lassen. */
-    "Keep the pose calm and simple: arms relaxed at the sides or lightly folded, hands open and empty.",
-    "Do not let the subject hold, grip or carry anything - if the scene mentions an object, place that object on the ground or on a surface next to the subject, clearly separate from the hands.",
-    "No small fiddly props, no thin stems, no objects near the face, no crossed or overlapping limbs.",
-    "Bold simple shapes, even line weight, flat colours with soft shading, clean readable silhouette, correct anatomy and natural proportions.",
+    `Flat vector illustration: ${text}.`,
+    "Exactly one clear subject, centred, seen from the front or in three-quarter view.",
+    /* "nothing cropped" allein hat nicht gereicht: Am 14.09. kam eine Figur
+       zurueck, deren Kopf oben glatt am Bildrand endete. Das Modell braucht
+       die Ansage als Platzvorgabe, nicht als Verbot. */
+    "Frame the subject with clear empty margin on all four sides: the whole subject must be inside the image with visible transparent space above the head, below the feet and to the left and right. Never let any part touch or run past an edge. Rather draw the subject smaller than risk cutting it off.",
+    ...(mitMensch
+      /* Haende und kleine Requisiten sind die Stelle, an der billige Bilder
+         auseinanderfallen: verbogene Finger, ein Stift ohne Spitze, eine Lampe,
+         die keine mehr ist. Also gar nichts greifen lassen. */
+      ? ["Keep the pose calm and simple: arms relaxed at the sides or lightly folded, hands open and empty.",
+        "Do not let the subject hold, grip or carry anything - if the scene mentions an object, place that object on the ground or on a surface next to the subject, clearly separate from the hands.",
+        "No small fiddly props, no thin stems, no objects near the face, no crossed or overlapping limbs.",
+        "Correct anatomy and natural proportions."]
+      /* Kein Mensch in der Szene: dann auch keinen dazuerfinden. Das Modell
+         moebliert eine Szene sonst von sich aus mit einer Figur, und die Figur
+         zieht dann alle Aufmerksamkeit auf sich - der Gegenstand, um den es
+         geht, wird zur Requisite in ihrer Hand. */
+      : ["Draw the object itself. Absolutely no people, no faces, no hands, no arms, no body parts, no silhouettes of persons.",
+        "Show the object complete and instantly recognisable, at a slight angle so its shape reads clearly - large within the margin, but never beyond it."]),
+    "Bold simple shapes, even line weight, flat colours with soft shading, clean readable silhouette.",
     stil,
     "Absolutely no text, no letters, no words, no numbers, no signage, no logos, no watermark, no signature.",
     "No background, no ground shadow, no frame - the subject stands alone on a fully transparent background.",
@@ -81,6 +111,19 @@ export async function motivZeichnen(szene, { randFarbe = null, stil = "", zweck 
   const prof = alphaProfil(roh);
   if (!prof || prof.festigkeit < FESTIGKEIT_MIN || prof.belegt < 0.02) {
     console.warn(`  ! Gezeichnetes Motiv unbrauchbar (${prof ? `${(prof.festigkeit * 100).toFixed(0)} % deckend, ${(prof.belegt * 100).toFixed(0)} % belegt` : "kein Alphakanal"}) - Titelfolie bleibt beim Icon.`);
+    fs.rmSync(roh, { force: true });
+    return null;
+  }
+  /* Angeschnitten? Diese Prüfung gab es bisher nur für gesuchte Fotos, nicht
+     für gezeichnete Motive - und genau dort fehlte sie. Am 14.09. stand auf
+     der Kachel zum Erbrecht eine Frau, deren Kopf oben glatt abgeschnitten
+     war: 46 % der obersten Bildzeile waren deckend, der Stickerrand lief quer
+     über den Scheitel. Das Modell hatte die Figur über den Rand hinaus
+     gezeichnet, und niemand hat hingesehen. */
+  const rand = randkontakt(roh);
+  const verdacht = randVerdacht(rand);
+  if (verdacht) {
+    console.warn(`  ! Gezeichnetes Motiv angeschnitten (${verdacht} deckend am Bildrand) – verworfen, Motiv kommt aus dem Archiv oder es bleibt beim Icon.`);
     fs.rmSync(roh, { force: true });
     return null;
   }

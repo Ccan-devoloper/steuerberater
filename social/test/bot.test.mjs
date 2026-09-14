@@ -1469,19 +1469,28 @@ test("Reel-Cover und Karussell-Titelfolie tragen dieselbe Überschriften-Optik",
   /* Und das Cover nimmt die Story-Regel zurück, die einen Grund um das ganze
      h1 legt - sonst läge die Pille in der Pille. */
   assert.ok(/\.story\.cover h1\{[^}]*background:none/.test(cover), "Cover: der Kasten um das ganze h1 ist nicht zurückgenommen");
-  /* Gleiche Schriftgrößen: Was die Titelfolie im bunten Stil setzt, setzt das
-     Cover auch - sonst steht dieselbe Überschrift zweimal verschieden groß. */
-  const buntGroesse = folie.match(/h1\{margin-top:72px;font-size:(\d+)px/)?.[1];
-  const coverGroesse = cover.match(/\.story\.cover h1\{[^}]*font-size:(\d+)px/)?.[1];
+  /* Gleiche WIRKUNG, nicht gleiche Zahl: Das Cover ist 1920 hoch, die
+     Titelfolie 1350. Bis zum 14.09. stand auf beiden 100px - im Profilraster
+     wirkte die Reel-Überschrift dadurch ein Drittel kleiner und fiel als die
+     schwächere auf (gemessen: 15,6 % der Kachelhöhe gegen 33,3 %). Die
+     Cover-Größe ist deshalb mit 1920/1350 hochgerechnet. */
+  const buntGroesse = Number(folie.match(/h1\{margin-top:72px;font-size:(\d+)px/)?.[1]);
+  const coverGroesse = Number(cover.match(/\.story\.cover h1\{[^}]*font-size:(\d+)px/)?.[1]);
   assert.ok(buntGroesse, "Titelfolie: Schriftgröße nicht gefunden");
-  assert.equal(coverGroesse, buntGroesse);
+  const faktor = 1920 / 1350;
+  assert.ok(Math.abs(coverGroesse / buntGroesse - faktor) < 0.05,
+    `Cover ${coverGroesse}px zu Titelfolie ${buntGroesse}px ergibt ${(coverGroesse / buntGroesse).toFixed(2)}, erwartet ${faktor.toFixed(2)}`);
   /* Auch die beiden Stufen für lange Titel. Gesucht wird das Paar, das im
      bunten Stil für die Titelfolie gilt - „.story h1.klein" ist eine andere
      Regel und darf nicht dazwischenfunken. */
   const stufen = folie.match(/(?:^|[};\n])h1\.klein\{font-size:(\d+)px\}h1\.winzig\{font-size:(\d+)px\}/);
   assert.ok(stufen, "Titelfolie: Stufen für lange Titel nicht gefunden");
-  assert.equal(cover.match(/\.story\.cover h1\.klein\{font-size:(\d+)px/)?.[1], stufen[1], "Größe für .klein weicht ab");
-  assert.equal(cover.match(/\.story\.cover h1\.winzig\{font-size:(\d+)px/)?.[1], stufen[2], "Größe für .winzig weicht ab");
+  const coverKlein = Number(cover.match(/\.story\.cover h1\.klein\{font-size:(\d+)px\}/)?.[1]);
+  const coverWinzig = Number(cover.match(/\.story\.cover h1\.winzig\{font-size:(\d+)px\}/)?.[1]);
+  for (const [name, gross, klein] of [["klein", Number(stufen[1]), coverKlein], ["winzig", Number(stufen[2]), coverWinzig]]) {
+    assert.ok(klein, `Cover: Stufe ${name} nicht gefunden`);
+    assert.ok(Math.abs(klein / gross - faktor) < 0.05, `Cover-Stufe ${name}: ${klein}px zu ${gross}px`);
+  }
 });
 
 test("Instagram: „Datei nicht ladbar“ wird nachgefasst, nicht aufgegeben", async () => {
@@ -1507,4 +1516,86 @@ test("Instagram: „Datei nicht ladbar“ wird nachgefasst, nicht aufgegeben", a
     assert.equal(rufe, 3, "es muss zweimal nachgefasst worden sein");
     assert.ok(Date.now() - t0 >= 0);
   } finally { globalThis.fetch = echt; }
+});
+
+test("Bildauftrag: ohne Person in der Szene wird auch keine gezeichnet", async () => {
+  const { bildAuftrag } = await import("../src/bildki.mjs");
+  /* Der Fehler vom 14.09.: Der Auftrag sprach immer von Armen, Haenden und
+     Anatomie. Aus "scale balancing two stacks" wurde damit zuverlaessig ein
+     Mensch neben einer Waage - und aus einem Reel ueber das steuerliche
+     Einlagekonto eine Bilderfolge mit einem Mann und einem Einmachglas. */
+  const sache = bildAuftrag("ledger page with running balance column");
+  assert.match(sache, /no people|no faces|no hands/i, "ohne Person muss der Auftrag Menschen ausschliessen");
+  assert.doesNotMatch(sache, /arms relaxed|natural proportions/i, "ohne Person keine Koerperhaltungs-Regeln");
+
+  const mensch = bildAuftrag("person dropping letter into mailbox");
+  assert.match(mensch, /arms relaxed/i, "mit Person bleiben die Haltungsregeln");
+  assert.doesNotMatch(mensch, /no people/i, "mit Person darf der Auftrag Menschen nicht verbieten");
+
+  /* "official" ist als Beiwort kein Mensch. Ohne diese Unterscheidung wurde
+     aus "official notice with embossed seal" - einem Schriftstueck - wieder
+     eine Figur mit Requisite. */
+  const { menschInSzene } = await import("../src/bildki.mjs");
+  assert.equal(menschInSzene("official notice with embossed seal"), false);
+  assert.equal(menschInSzene("official letter with red stamp"), false);
+  assert.equal(menschInSzene("stopped by official"), true);
+  assert.equal(menschInSzene("official stamping a form"), true);
+
+  /* Unverhandelbar in beiden Faellen. */
+  for (const a of [sache, mensch]) {
+    assert.match(a, /no text, no letters/i);
+    assert.match(a, /transparent background/i);
+  }
+});
+
+test("Erklärvideo: die Marke bleibt im sichtbaren Bereich und auf einer Zeile", async () => {
+  const { chromium } = await import("playwright");
+  const { erklaerHtml } = await import("../src/erklaervideo.mjs");
+  const { stil } = await import("../src/stile.mjs");
+  const { CONFIG } = await import("../src/config.mjs");
+  let browser;
+  try { browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH }); }
+  catch { return; /* ohne Browser kein Pixeltest */ }
+  try {
+    /* Genau die Marke aus dem Reel vom 14.09., die auf dem Telefon
+       angeschnitten war. Bei 50px ist sie breiter als der sichere Bereich,
+       muss also kleiner werden statt umzubrechen. */
+    const reel = {
+      fach: "kst", klausur: 2, fachLabel: "Körperschaftsteuer",
+      szenen: [{ art: "schritt", titel: "Bestand vom Vorjahr", marken: ["Vorjahresbestand: *übernehmen*"], sprecher: "x" }],
+    };
+    const plan = { szenen: [{ index: 0, start: 0, dauer: 5, sprichVon: 0.3, sprichDauer: 4.4 }], dauer: 5 };
+    const ctx = { stil: stil(CONFIG.marke.stil), handle: "test", fach: "kst", klausur: 2, fachLabel: "Körperschaftsteuer", farbeJeKlausur: CONFIG.marke.farbeJeKlausur };
+    const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
+    await page.setContent(erklaerHtml(reel, plan, ctx), { waitUntil: "load" });
+    /* Wie im Renderer: erst die Schriften, dann das erste Bild. Vor dieser
+       Aenderung lief das Einpassen beim Parsen, also gegen die Ersatzschrift -
+       die Messung war damit wertlos. */
+    await page.evaluate(() => document.fonts.ready);
+    await page.evaluate(() => window.setzeZeit(0));
+    const m = await page.evaluate(() => {
+      const el = document.querySelector(".szene");
+      el.style.display = "block";
+      const k = el.querySelector(".plakette");
+      /* Die Ruhelage messen, nicht die Einflugbahn: Zum Zeitpunkt 0 steht die
+         Plakette noch ausserhalb des Bildes, das ist die Animation. */
+      k.style.transform = "none";
+      const bereich = document.createRange();
+      let links = Infinity, rechts = -Infinity, zeilen = 0;
+      const lauf = document.createTreeWalker(k, NodeFilter.SHOW_TEXT);
+      for (let n = lauf.nextNode(); n; n = lauf.nextNode()) {
+        bereich.selectNodeContents(n);
+        for (const r of bereich.getClientRects()) { links = Math.min(links, r.left); rechts = Math.max(rechts, r.right); zeilen = Math.max(zeilen, r.top); }
+      }
+      const kasten = k.getBoundingClientRect();
+      return { links, rechts, hoehe: kasten.height, px: parseFloat(getComputedStyle(k).fontSize) };
+    });
+    /* Der Kasten darf ueber den Rand ragen - die Schrift nie. */
+    assert.ok(m.links >= 56, `Schrift beginnt bei ${Math.round(m.links)}px, mindestens 56 erwartet`);
+    assert.ok(m.rechts <= 1024, `Schrift endet bei ${Math.round(m.rechts)}px, hoechstens 1024 erlaubt`);
+    /* Eine Zeile: sonst bliebe der Kasten auf voller Breite stehen und zoege
+       einen leeren Schwanz ueber den Bildrand. */
+    assert.ok(m.hoehe < 130, `Marke bricht um (Kastenhoehe ${Math.round(m.hoehe)}px)`);
+    assert.ok(m.px < 50, "die Marke haette verkleinert werden muessen");
+  } finally { await browser.close(); }
 });
