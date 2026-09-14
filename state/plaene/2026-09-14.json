@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-14",
+  "erzeugt": "2026-09-14T05:43:26.760Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "06:30",
+      "format": "spickzettel",
+      "themaId": "ust-modul-ust-160",
+      "themaTitel": "Grundstücksumsätze: § 4 Nr. 9, § 4 Nr. 12 und Option nach § 9 UStG",
+      "fach": "ust",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "reel",
+      "themaId": "kst-modul-kst-9",
+      "themaTitel": "Steuerliches Einlagekonto und Leistungen",
+      "fach": "kst",
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "06:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "07:17",
+      "art": "frage",
+      "themaId": "kst-quiz-kst-9",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:17",
+      "art": "antwort",
+      "themaId": "kst-quiz-kst-9",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:28",
+      "art": "norm",
+      "themaId": "ao-modul-ao-360",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:17",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 22,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:35",
+      "art": "zahl",
+      "themaId": "erbst-modul-erbst-506",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:28",
+      "art": "formel",
+      "themaId": "bilanz-formel-zeitbudget",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:38",
+      "art": "merksatz",
+      "themaId": "erbst-modul-erbst-515",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
