@@ -110,7 +110,9 @@
       "art": "formel",
       "themaId": "bilanz-formel-zeitbudget",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "17880768660528029",
+      "veroeffentlicht": "2026-09-14T15:43:51.618Z"
     },
     {
       "slot": "s9",

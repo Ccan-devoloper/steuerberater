@@ -2065,6 +2065,16 @@
       "fach": "erbst",
       "titel": "Steuerpflichtiger Erwerb wird auf volle 100 € abgerundet",
       "medienId": "18054450194571180"
+    },
+    {
+      "datum": "2026-09-14",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-zeitbudget",
+      "fach": "bilanz",
+      "titel": "Zeitbudget in der Klausur",
+      "medienId": "17880768660528029"
     }
   ],
   "fachZaehler": {
