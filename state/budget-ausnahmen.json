@@ -1,1 +1,6 @@
-{ "2026-09-13": 0.35 }
+{
+  "_hinweis": "Tagesdeckel in USD fuer einzelne Tage. Ohne Eintrag gilt IG_TAGESBUDGET_USD (0,27 $). Nur mit Grund und nur fuer den einen Tag.",
+  "2026-09-13": 0.35,
+  "2026-09-15": 0.5,
+  "_grund_2026-09-15": "Der Morgenlauf verbrauchte 0,241 $ und lieferte nichts: autor.mjs prueft 'e instanceof BudgetFehler', ohne die Klasse zu importieren (Fehler seit 13.09., behoben in 14f0985). Beide Texte starben am ReferenceError, gespeichert wurde nichts - das Geld ist weg und mit ihm die Entwuerfe. Ohne Ausnahme erschiene heute nichts. 0,50 $ deckt die zwei Beitraege und die neun Stories ein zweites Mal; Motive faengt der 0,03-$-Abstand vor dem Deckel ohnehin ab, es gibt also Icons statt gezeichneter Bilder. Morgen gilt wieder 0,27 $."
+}
