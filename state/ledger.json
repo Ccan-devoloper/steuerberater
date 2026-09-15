@@ -2126,10 +2126,42 @@
       "fach": "persg",
       "titel": "Mitunternehmerrisiko und Mitunternehmerinitiative",
       "medienId": "18124007836854733"
+    },
+    {
+      "datum": "2026-09-15",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "11:30",
+      "stunde": 11,
+      "format": "pruefungsfrage",
+      "thema": "persg-quiz-persg-2",
+      "fach": "persg",
+      "titel": "Der Fehler, der beim Sonderbetriebsvermögen Punkte kostet",
+      "hookTyp": "fehler",
+      "medienId": "18459168277141555",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#steuerwissen",
+        "#studygram",
+        "#mitunternehmerschaft",
+        "#personengesellschaft",
+        "#gewinnermittlung",
+        "#sonderbetriebsvermögen",
+        "#ergänzungsbilanz",
+        "#bilanzsteuerrecht"
+      ],
+      "veroeffentlicht": "2026-09-15T09:44:23.872Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
-    "persg": 3,
+    "persg": 4,
     "ust": 4,
     "kst": 7,
     "ao": 11,
