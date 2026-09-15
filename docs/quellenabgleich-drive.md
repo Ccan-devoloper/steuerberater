@@ -1,0 +1,83 @@
+# Abgleich Drive-Ordner „Unterlagen StB Endriss" ↔ Website
+
+Stand: 15.09.2026. Grundlage ist der vollständig ausgelesene freigegebene
+Drive-Ordner (Ordner-ID `1L_YK-FINUSlHx2w9M8YnjVjEnaGq1cPQ`). Die Liste sagt,
+welche Unterlagen auf der Website bereits verarbeitet sind und welche nicht.
+
+## Aufbau des Ordners
+
+Neun Fachordner mit den Unterrichtsmitschnitten des laufenden Kurses:
+
+| Ordner | Inhalt |
+| --- | --- |
+| AO | Einheiten 1–8 + unterrichtsbegleitende Unterlage, Unterordner „6. Einheit" mit maschinenschriftlicher Mitschrift |
+| USt | Einheiten 1–8 (2. Einheit in zwei Teilen) |
+| ErbStR | Einheiten 1–3 |
+| KSt | KStG-Einheiten 1–7 (Nöthen) |
+| Bilanz | 6./7./8. Einheit sowie vorletzte und letzte Einheit (Nöthen) |
+| PersG | Tage/Einheiten 1–5, Folien (Horst), Fallpaare 4_a–4_h mit Lösungen |
+| UmwStG | Einheiten 1–3 und 13 Prüfschemata |
+| IStR | Einheiten 1–3 |
+| StB Tageslehrgang_online_Komplett | vollständiges offizielles Lehrgangsarchiv, siehe unten |
+
+Das Lehrgangsarchiv enthält vier Zweige:
+
+- **Lehrgangsunterlagen** – 13 Fachordner: AO, Bilanzierung nach Handels- und
+  Steuerrecht, ESt, ErbSt/BewR, GewSt, GrESt, IStR, KSt, LSt, Originalklausuren,
+  PersG, USt, UmwStR (Skripte, Kurzskripte, Fallsammlungen, fact sheets)
+- **Hausaufgaben Tageslehrgang** – 10 Fachordner: AO, Bilanzierung, ESt, ErbSt/BewR,
+  GewSt, IStR, KSt, PersG, USt, UmwStR
+- **Zusatzunterlagen** – 11 Fachordner inkl. GewSt-Übungsfälle, Beispielsammlungen
+  USt, Keyfacts AO, Mitschriften/Markierungen
+- **Übungsklausuren** – 24 PDFs (je Sachverhalt und Lösung): AO, Bilanzierung 1–4,
+  BewR 1–2, ESt 1, Ertragsteuern 0 und 2, KSt, USt, alle Rechtsstand 2025
+
+## Was die Website bereits abbildet
+
+| Bereich | Stand |
+| --- | --- |
+| K1 AO | Einheiten 1–8, Short-Skript, Hausaufgaben/Hausarbeiten, Originalfälle |
+| K1 USt | Einheiten 1–8, Kurzskript (Meurer), Hausaufgaben Termin 1–7, Themen, Übungsverweise |
+| K1 ErbSt | Einheiten 1–3 |
+| K2 KSt | Einheiten 1–4, Original-Schemata |
+| K2 IStR | Einheiten 1–4, Fallsammlung, Hausaufgaben, Originalfälle |
+| K3 Bilanz | 50 Module, Fallsammlung mit 90 Fällen, Hausaufgaben 1–9, Schaubilder, Buchungssätze |
+| K3 PersG | Tage 1–5, Lernpfad (18 Lektionen), Originalfälle, **Hausaufgaben (neu)** |
+| K3 UmwStR | Einheiten 1–3, 13 Prüfschemata, Lernpfad (16 Lektionen), Hausaufgaben |
+
+## Offene Lücken
+
+Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
+
+1. **K2 ESt** – eigener Campus fehlt vollständig (Platzhalter „Quellen folgen").
+   Im Drive: Kurzskript II (Engelberth), Fallsammlungen zu §§ 15, 17, 20, 23, 16,
+   Betriebsaufspaltung, gewerblicher Grundstückshandel, Renten, Erbfall, § 15a,
+   Hausaufgaben 2, 3, 4, 6, 7, 9 sowie Steuerberaterprüfungen RS 2025.
+2. **K2 GewSt** – eigener Campus fehlt vollständig. Im Drive: Kurzskript (Breier)
+   und GewSt-Übungsfälle (Nöthen).
+3. **K2 KSt: Einheiten 5–7** – im Drive vorhanden (Nöthen), auf der Seite fehlen sie.
+   Ebenso Kurzskript (Breier) und die Teile I–VII (Hamacher) aus den Lehrgangsunterlagen.
+4. **K2 KSt: Hausaufgaben** – fünf Hausaufgaben mit Lösung (Termine 1, 3, 4, 5, 7);
+   der KSt-Campus hat bislang gar keinen Hausaufgaben-Reiter.
+5. **K1 ErbSt: Hausaufgaben und Fallsammlung** – Hausaufgaben 2, 3, 4 mit Lösung,
+   dazu Übungsfälle (Beckmann, Fietze, Pack, Hasslinghaus, Leibrente, § 23 ErbStG)
+   und die Bewertungsteile 1–3; beide Reiter sind derzeit leer.
+6. **K3 PersG: Fallsammlung** – Fallsammlung (Melzer), fact sheets und Teile I–V
+   (Grundlagen, § 6 Abs. 3/5 und § 6b, Realteilung GmbH & Co., Umwandlungssteuer).
+7. **Übungsklausuren (24 PDFs)** – auf der Seite bisher nirgends abgebildet; würden
+   sich als eigener Klausurpool je Campus anbieten.
+8. **Originalklausuren** – Steuerberaterprüfungen RS 2025 zu ESt, ErbSt, KSt sowie
+   Bilanz 2011–2015; bisher nur die BStBK-Lösungsvorschläge als Quellen verlinkt.
+9. **Lohnsteuer und Grunderwerbsteuer** – im Drive eigene Fachordner, auf der Seite
+   ohne Entsprechung (kein Campus, keine Fachleisten-Kachel).
+10. **K1 AO: Fallsammlung** – Reiter vorhanden, aber leer; im Drive u. a. Keyfacts
+    Außenprüfung und Vollstreckung sowie die Teile I–V (Jacobs).
+
+## Erledigt in diesem Durchgang
+
+- **K3 PersG Hausaufgaben**: Fachtermin 1 (XY OHG, Kurzklausur I, 30 Punkte) und
+  Fachtermin 3 (AB OHG, Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte)
+  im Wortlaut, Tabellen als Tabellen, Randpunkte am Absatz, Lösung erst auf Klick.
+  Daten: `src/data/k3-persg-hausaufgaben.js`, Ansicht:
+  `src/components/K3PersGHausaufgaben.jsx`, Prüfung:
+  `npm run check:k3-persg-hausaufgaben`.

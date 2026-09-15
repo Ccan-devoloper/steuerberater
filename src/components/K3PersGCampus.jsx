@@ -8,6 +8,7 @@ import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K3Fachleiste from "./K3Fachleiste";
 import { IconCockpit, IconModule, IconFaelle, IconSchema, IconTraining, IconPlan } from "./Icons";
 import K3Lernpfad from "./K3Lernpfad";
+import K3PersGHausaufgaben from "./K3PersGHausaufgaben";
 import { persgLernpfad, persgLernpfadKapitel, persgLernpfadGesamtminuten } from "../data/k3-lernpfad-persg";
 import { IconKlausur } from "./Klausurmodus";
 import K3PersGVisuals from "./K3PersGVisuals";
@@ -64,7 +65,7 @@ export default function K3PersGCampus({onKlausurwechsel,onFachwechsel}){
       {verlauf.ansicht==="module"&&modul&&<Modulseite modul={modul} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} lernpfadOeffnen={lernpfadOeffnen} zurueck={modullisteOeffnen}/>} 
       {verlauf.ansicht==="faelle"&&<Fallseite modulOeffnen={modulOeffnen}/>} {verlauf.ansicht==="klausur"&&<KlausurmodusPersG fallOeffnen={fallOeffnen}/>} {verlauf.ansicht==="schema"&&<Schemaseite modulOeffnen={modulOeffnen}/>} {verlauf.ansicht==="training"&&<Training/>}
       {verlauf.ansicht==="fallsammlung"&&<Platzhalter titel="Fallsammlung Personengesellschaften" text="Die eigenständige PersG-Fallsammlung wird ergänzt, sobald weitere Fallunterlagen vorliegen. Die Unterrichtsfälle aus Tag 1 bis 5 sind bereits unter „Originalfälle“ querverschaltet."/>}
-      {verlauf.ansicht==="hausaufgaben"&&<Platzhalter titel="Hausaufgaben Personengesellschaften" text="Hausaufgaben werden als eigener Reiter mit aufklappbaren Lösungen ergänzt, sobald die Unterlagen vorliegen."/>}
+      {verlauf.ansicht==="hausaufgaben"&&<K3PersGHausaufgaben onModulOeffnen={modulOeffnen}/>}
     </main>
   </div>;
 }
