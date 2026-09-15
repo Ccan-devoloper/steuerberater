@@ -2230,6 +2230,16 @@
       "fach": "bilanz",
       "titel": "Übertragungsreihenfolge § 6b EStG",
       "medienId": "17893384347413478"
+    },
+    {
+      "datum": "2026-09-15",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "merksatz",
+      "thema": "ao-modul-ao-353",
+      "fach": "ao",
+      "titel": "§ 173a AO: Schreib- und Rechenfehler",
+      "medienId": "17892094620427372"
     }
   ],
   "fachZaehler": {
