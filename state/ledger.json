@@ -2220,6 +2220,16 @@
       "fach": "persg",
       "titel": "Stufe II: die Gesellschafterebene",
       "medienId": "18016290953927716"
+    },
+    {
+      "datum": "2026-09-15",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-sechsb-reihenfolge",
+      "fach": "bilanz",
+      "titel": "Übertragungsreihenfolge § 6b EStG",
+      "medienId": "17893384347413478"
     }
   ],
   "fachZaehler": {
