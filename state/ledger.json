@@ -2250,6 +2250,40 @@
       "fach": "bilanz",
       "titel": "Fiktive nichtabziehbare Betriebsausgaben",
       "medienId": "18102645350250600"
+    },
+    {
+      "datum": "2026-09-15",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "21:30",
+      "stunde": 21,
+      "format": "reel",
+      "thema": "istr-modul-istr-istr2-01",
+      "fach": "istr",
+      "titel": "Wohnt in Polen, arbeitet für dich?",
+      "hookTyp": "frage",
+      "hookMuster": "frage",
+      "medienId": "18139786378719531",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#internationales steuerrecht",
+        "#einkommensteuer",
+        "#beschränktesteuerpflicht",
+        "#unbeschränktesteuerpflicht",
+        "#dba",
+        "#klausurtechnik"
+      ],
+      "stimmeId": null,
+      "stimmeName": null,
+      "layout": "klassisch",
+      "dauer": 99.2,
+      "veroeffentlicht": "2026-09-15T19:51:02.969Z"
     }
   ],
   "fachZaehler": {
@@ -2258,7 +2292,7 @@
     "kst": 7,
     "ao": 11,
     "bilanz": 12,
-    "istr": 7,
+    "istr": 8,
     "erbst": 2
   },
   "nachrichten": []
