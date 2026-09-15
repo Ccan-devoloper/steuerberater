@@ -15,7 +15,7 @@ import { FAECHER, KLAUSUREN } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
 import { folieLeer, pruefeBeitrag, korpus } from "./pruefung.mjs";
 import { datumLesbar, tageBis } from "./zeit.mjs";
-import { erfassen, budgetPruefen } from "./kosten.mjs";
+import { erfassen, budgetPruefen, BudgetFehler } from "./kosten.mjs";
 import { pruefeFakten, korrekturenAnwenden } from "./faktencheck.mjs";
 import { hookWaehlen as hookMusterWaehlen, hookAnleitung, pruefeHook, hookTypErkennen } from "./hooks.mjs";
 import { dauerWaehlen } from "./insights.mjs";
