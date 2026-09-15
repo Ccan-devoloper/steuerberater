@@ -165,8 +165,18 @@ export function korpus() {
   /* Gattungsbegriffe (Endungen -ung, -keit, -sätze …) und Artikel sind keine Namen. */
   for (const n of [...namen]) {
     const letztes = n.split(/[- ]/).pop();
-    if (/^(Die|Der|Das|Ein|Eine|Diese|Jede)\b/.test(n) || /(ung|keit|heit|sätze|künfte|gewinn|züge|zeit|zinsen|verlust|kosten|wert|steuer|bilanz|konto|vermögen|recht|schaft|ner|ung)$/i.test(letztes) || n.length < 4) namen.delete(n);
+    if (/^(Die|Der|Das|Ein|Eine|Diese|Jede)\b/.test(n) || /(ung|ungs|keit|heit|sätze|künfte|einnahmen|ausgaben|einkommen|erträge|aufwand|aufwendungen|entnahmen|einlagen|vergütung|vergütungen|abzug|beträge|gewinn|züge|zeit|zinsen|verlust|kosten|wert|steuer|bilanz|konto|vermögen|recht|schaft|ner)$/i.test(letztes) || n.length < 4) namen.delete(n);
   }
+  /* Und die Länge entscheidet mit: Das Anredemuster („Gesellschafter X") fängt
+     auch den Fachbegriff, der zufällig dahintersteht. So kam am 15.09.
+     „Sonderbetriebseinnahmen“ in die Liste und ließ einen fachlich richtigen
+     Beitrag am gesperrten Namen scheitern - eine Korrekturrunde für 0,031 $,
+     und das bei jedem Beitrag zur Mitunternehmerschaft aufs Neue.
+     Fallnamen sind kurz: Der längste echte im Korpus hat zehn Zeichen. Ein
+     Einwortname jenseits von fünfzehn ist ein deutsches Kompositum, kein
+     Mandant. Namen aus der gepflegten Sperrliste kommen danach dazu und
+     bleiben davon unberührt. */
+  for (const n of [...namen]) if (!/[- ]/.test(n) && n.length > 15) namen.delete(n);
   let sperrliste = [];
   if (fs.existsSync(SPERRLISTE_DATEI)) sperrliste = JSON.parse(fs.readFileSync(SPERRLISTE_DATEI, "utf8"));
   for (const n of sperrliste) namen.add(n);

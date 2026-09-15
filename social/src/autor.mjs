@@ -13,7 +13,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { CONFIG } from "./config.mjs";
 import { FAECHER, KLAUSUREN } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
-import { folieLeer, pruefeBeitrag, korpus } from "./pruefung.mjs";
+import { folieLeer, pruefeBeitrag, korpus, gefundeneEigenbegriffe } from "./pruefung.mjs";
 import { datumLesbar, tageBis } from "./zeit.mjs";
 import { erfassen, budgetPruefen, BudgetFehler } from "./kosten.mjs";
 import { pruefeFakten, korrekturenAnwenden } from "./faktencheck.mjs";
@@ -312,7 +312,7 @@ async function faktenSicher(inhalt, zweck = "faktencheck", opt = {}) {
   }
 }
 
-function themaText(thema) {
+export function themaText(thema) {
   /* Ohne Thema (freies Format) gibt es kein Skelett - ein Absturz waere hier
      die teuerste Reaktion: Der Lauf bricht ab, obwohl das Modell auch ohne
      Skelett schreiben kann. */
@@ -342,7 +342,20 @@ function themaText(thema) {
   if (k.ausdruck) zeilen.push(`Formel: ${k.ausdruck} – ${k.erklaerung}`);
   if (k.begriff) zeilen.push(`Definition: ${k.definition}`);
   if (k.schritte?.length) zeilen.push(`Schema-Gedanken: ${k.schritte.join(" | ")}`);
-  return zeilen.filter(Boolean).join("\n");
+  const stoff = zeilen.filter(Boolean).join("\n");
+  /* Steht im Material die Merkhilfe eines Dozenten, wird sie hier benannt,
+     bevor das Modell schreibt. Die allgemeine Regel im Systemtext kennt das
+     Kürzel ja nicht - im IStR-Stoff steht „EIS“ 74-mal, und am 15.09. schrieb
+     das Modell es brav ab. Die Prüfung fing das auf, aber erst hinterher: eine
+     Korrekturrunde für 0,044 $, jedes Mal aufs Neue. Ein Satz vorher ist
+     billiger als ein zweiter Durchgang hinterher.
+     Herausgeschnitten wird das Kürzel nicht - „danach und anschließend das
+     DBA“ wäre kaputtes Deutsch und eine schlechtere Vorlage als der Hinweis. */
+  const merkhilfen = gefundeneEigenbegriffe(stoff);
+  if (!merkhilfen.length) return stoff;
+  const viele = merkhilfen.length > 1;
+  const liste = merkhilfen.map((m) => `„${m}“`).join(", ");
+  return `${stoff}\nAchtung: Im Material ${viele ? `stehen die Merkhilfen ${liste}` : `steht die Merkhilfe ${liste}`}. ${viele ? "Sie sind" : "Sie ist"} die Eigenschöpfung eines anderen Dozenten. Erkläre den Inhalt ausgeschrieben und ohne ${viele ? "diese Kürzel" : "dieses Kürzel"} – und erfinde auch kein eigenes an ${viele ? "ihrer" : "seiner"} Stelle.`;
 }
 
 /* Pille unter dem Titel und Handschrift-Hinweis daneben: nicht immer dieselben

@@ -1671,3 +1671,40 @@ test("Fehlerklassen werden dort importiert, wo sie geprüft werden", async () =>
   }
   assert.deepEqual(fehlend, [], `nicht importierte Klassen:\n  ${fehlend.join("\n  ")}`);
 });
+
+test("Fachbegriffe landen nicht in der Namenssperre", async () => {
+  const { korpus, gesperrteNamen } = await import("../src/pruefung.mjs");
+  /* Am 15.09. scheiterte ein fachlich richtiger Beitrag an „Sonderbetriebs-
+     einnahmen": Das Anredemuster („Gesellschafter X") hatte den Fachbegriff
+     eingefangen, der im Kursmaterial hinter „Gesellschafter" stand. Kosten:
+     eine Korrekturrunde, und das bei jedem Beitrag zur Mitunternehmerschaft. */
+  for (const t of ["Die Sonderbetriebseinnahmen erhöhen den Gewinn auf Stufe II.", "Sonderbetriebsausgaben mindern ihn.", "Die Gewerbesteuerrückstellung ist zu bilden."]) {
+    assert.deepEqual(gesperrteNamen(t), [], `Fachbegriff gesperrt: ${t}`);
+  }
+  /* Die Sperre muss trotzdem greifen - sonst wäre sie nur noch Dekoration. */
+  for (const n of ["Meurer", "Jacobs", "Nordlicht", "Wetzlar", "Media Markt"]) {
+    assert.ok(gesperrteNamen(`Im Fall ${n} geht es um § 15 EStG.`).length, `Fallname nicht mehr gesperrt: ${n}`);
+  }
+  /* Und die Regel dahinter: Fallnamen sind kurz. Was einwortig und länger als
+     fünfzehn Zeichen ist, ist ein deutsches Kompositum. */
+  const lang = korpus().namen.filter((n) => !/[- ]/.test(n) && n.length > 15);
+  assert.deepEqual(lang, [], `zu lange Einwort-Namen im Korpus: ${lang.join(", ")}`);
+});
+
+test("Merkhilfen im Material werden dem Autor vorher angesagt", async () => {
+  const { themaText } = await import("../src/autor.mjs");
+  /* Billiger als eine Korrekturrunde hinterher: Steht im Kursmaterial ein
+     fremdes Kürzel, bekommt das Modell einen Satz dazu, bevor es schreibt.
+     Am 15.09. kostete der umgekehrte Weg 0,044 $ - für einen Entwurf, der
+     danach weggeworfen wurde. */
+  const mitKuerzel = { fach: "istr", klausur: 2, titel: "Persönliche Steuerpflicht", normen: [], kern: { merksatz: "Bei § 1 Abs. 4 EStG danach EIS und erst anschließend das DBA." } };
+  const hinweis = themaText(mitKuerzel).split("\n").pop();
+  assert.match(hinweis, /Merkhilfe/, "kein Hinweis auf die Merkhilfe im Material");
+  assert.match(hinweis, /„EIS“/, "das Kürzel wird nicht benannt");
+  /* Das Kürzel bleibt im Material stehen - herausgeschnitten ergäbe der Satz
+     keinen Sinn mehr und wäre eine schlechtere Vorlage. */
+  assert.match(themaText(mitKuerzel), /danach EIS und/, "das Material wurde verstümmelt");
+  /* Ohne Kürzel kein Hinweis: Der Satz kostet Tokens und soll nicht immer da sein. */
+  const ohne = { fach: "persg", klausur: 3, titel: "Stufe II", normen: [], kern: { merksatz: "Stufe II ist die Gesellschafterebene." } };
+  assert.doesNotMatch(themaText(ohne), /Merkhilfe/, "Hinweis ohne Anlass");
+});
