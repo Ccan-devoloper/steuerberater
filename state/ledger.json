@@ -2284,6 +2284,16 @@
       "layout": "klassisch",
       "dauer": 99.2,
       "veroeffentlicht": "2026-09-15T19:51:02.969Z"
+    },
+    {
+      "datum": "2026-09-15",
+      "art": "story",
+      "slot": "s2",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": "Persönliche Steuerpflicht: der Prüfweg",
+      "medienId": "18021717611871018"
     }
   ],
   "fachZaehler": {
