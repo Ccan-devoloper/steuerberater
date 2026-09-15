@@ -29,16 +29,16 @@
           "text": "Handels- und Steuerbilanz der OHG nach § 4 (1), § 5 (1) EStG – der gemeinsame Gewinn aller Gesellschafter."
         },
         {
-          "titel": "Stufe II: Ergänzungsbilanzen",
-          "text": "Korrekturen einzelner Gesellschafter, etwa nach entgeltlichem Anteilserwerb mit Mehr- oder Minderwerten."
+          "titel": "Stufe I: Ergänzungsbilanzen",
+          "text": "Noch erste Stufe: Sie korrigieren die Gesamthandswerte einzelner Gesellschafter, etwa nach entgeltlichem Anteilserwerb."
         },
         {
           "titel": "Stufe II: Sonderbetriebsvermögen",
           "text": "Wirtschaftsgüter im Eigentum eines Gesellschafters, die dem Betrieb der OHG dienen – wie das Grundstück von Voss."
         },
         {
-          "titel": "Sonderbetriebseinnahmen und -ausgaben",
-          "text": "Die Miete an Voss ist keine Betriebsausgabe der OHG, sondern erhöht seinen Gewinnanteil nach § 15 (1) S. 1 Nr. 2 EStG."
+          "titel": "Stufe II: Sondervergütungen",
+          "text": "Die Miete mindert als Betriebsausgabe den Gewinn der OHG und wird bei Voss als Sonderbetriebseinnahme hinzugerechnet, § 15 (1) S. 1 Nr. 2 EStG."
         }
       ],
       "icon": "vertrag"
@@ -50,16 +50,16 @@
         "titel": "Stufe I",
         "punkte": [
           "Gesamthandsbilanz der OHG",
-          "Gemeinsamer Steuerbilanzgewinn",
-          "Betrifft alle Gesellschafter gleich"
+          "zzgl./abzgl. Ergänzungsbilanzen",
+          "Ebene der Gesellschaft"
         ]
       },
       "rechts": {
         "titel": "Stufe II",
         "punkte": [
-          "Ergänzungsbilanzen je Gesellschafter",
-          "Sonderbetriebsvermögen und -vergütungen",
-          "Betrifft nur den einzelnen Gesellschafter"
+          "Sonderbetriebsvermögen",
+          "Sondervergütungen und -ausgaben",
+          "Ebene des einzelnen Gesellschafters"
         ]
       },
       "icon": "vertrag"
@@ -67,7 +67,7 @@
     {
       "art": "merke",
       "titel": "Merksatz",
-      "text": "Erst rechnet die Gesellschaft, dann rechnet jeder Gesellschafter für sich – zusammen ergibt das den Gewinn aus § 15 (1) S. 1 Nr. 2 EStG.",
+      "text": "Stufe I ist die Gesellschaft samt Ergänzungsbilanzen, Stufe II der Sonderbereich des Gesellschafters – zusammen ergibt das den Gewinn der Mitunternehmerschaft, § 15 (1) S. 1 Nr. 2 EStG.",
       "icon": "waage"
     },
     {
@@ -81,7 +81,7 @@
       "icon": "personen"
     }
   ],
-  "caption": "Zweistufige Gewinnermittlung Mitunternehmerschaft – warum eine Bilanz allein nicht reicht Bei Personengesellschaften ist die Gesamthandsbilanz nur der erste Schritt. Auf Stufe II kommen Ergänzungsbilanzen und das Sonderbetriebsvermögen der einzelnen Gesellschafter dazu – etwa wenn ein Gesellschafter der Gesellschaft ein Grundstück vermietet. Das ist Klausur-3-Stoff, der fast jedes Jahr in irgendeiner Form dran ist. Schick das deiner Lerngruppe und speichern für die Wiederholung. Wo hakt es bei dir – Ergänzungsbilanz oder Sonderbetriebsvermögen?",
+  "caption": "Zweistufige Gewinnermittlung Mitunternehmerschaft – warum eine Bilanz allein nicht reicht Bei Personengesellschaften ist die Gesamthandsbilanz nur der erste Schritt. Zur ersten Stufe gehören auch die Ergänzungsbilanzen; erst auf Stufe II kommt der Sonderbereich des Gesellschafters dazu – etwa wenn er der Gesellschaft ein Grundstück vermietet. Die Miete mindert dann den Gewinn der Gesellschaft und wird beim Gesellschafter als Sondervergütung wieder hinzugerechnet. Das ist Klausur-3-Stoff, der fast jedes Jahr in irgendeiner Form dran ist. Schick das deiner Lerngruppe und speichern für die Wiederholung. Wo hakt es bei dir – Ergänzungsbilanz oder Sonderbereich?",
   "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
