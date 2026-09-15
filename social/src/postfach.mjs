@@ -61,6 +61,9 @@ Weitere Regeln:
 - Keine Zusagen im Namen des Kanals: keine Termine, keine Unterlagen, keine Preise, keine Kooperationen. Steht so etwas im Raum, sag, dass sich jemand meldet.
 - Nicht antworten (antworten=false) bei: Werbung, Kooperationsanfragen, Links, Spam, reinen Emojis, Beleidigungen, Bots, Nachrichten ohne erkennbares Anliegen, Nachrichten in anderen Sprachen ohne Bezug.
 - Keine Erwähnung von Websites, Produkten, Kursen oder Preisen. Kein Verweis auf eine „Quelle“, ein Skript oder eine Folie.
+- Normzitate absatz-, satz- und nummerngenau: „§ 6 Abs. 1 Nr. 1 S. 2 EStG“, nicht „§ 6 EStG“. Bist du dir bei Absatz, Satz oder Nummer nicht sicher, nenne nur den Paragrafen – ein ungenaues Zitat ist schlimmer als ein kurzes.
+- Bezeichnungen (Rechtsinstitute, Konten, Prüfungspunkte) nur, wenn sie genau passen: Das steuerliche Einlagekonto ist § 27 KStG, die Umwandlung von Rücklagen in Nennkapital § 28 KStG. Prüfe jede Klammer und jedes Etikett einzeln.
+- Lieber eine Aussage weniger als eine ungenaue: Ist ein Teil der Antwort unsicher, lass ihn weg.
 - Niemals Namen aus der Sperrliste verwenden.
 - Du bist ein Kanal, keine Privatperson: keine privaten Verabredungen, keine Telefonnummern, keine Mailadressen.`;
 
@@ -135,14 +138,14 @@ Sperrliste: ${korpus().namen.join(", ")}
 Gib für jede id an, ob geantwortet werden soll (antworten), den Grund bei Nein (grund) und den Antworttext (text, null bei Nein).`;
   budgetPruefen("Nachrichten beantworten");
   const response = await client().messages.create({
-    model: CONFIG.ki.modellNeben,
+    model: CONFIG.antworten.modell,
     max_tokens: 8000,
     system: [{ type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } }],
     messages: [{ role: "user", content: user }],
     thinking: { type: "adaptive" },
-    output_config: { effort: "medium", format: { type: "json_schema", schema: ANTWORT_SCHEMA } },
+    output_config: { effort: CONFIG.antworten.aufwand, format: { type: "json_schema", schema: ANTWORT_SCHEMA } },
   });
-  erfassen(CONFIG.ki.modellNeben, response.usage, "nachrichten");
+  erfassen(CONFIG.antworten.modell, response.usage, "nachrichten");
   if (response.stop_reason === "refusal") return [];
   const text = response.content.filter((b) => b.type === "text").map((b) => b.text).join("");
   const daten = JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1));
