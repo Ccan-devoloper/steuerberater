@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-16",
+  "erzeugt": "2026-09-15T22:26:50.567Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "aktuell",
+      "themaId": null,
+      "themaTitel": null,
+      "fach": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "reel",
+      "themaId": "bilanz-karte-k3-10",
+      "themaTitel": "Wann wird ein Disagio linear, wann degressiv aufgelöst?",
+      "fach": "bilanz",
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:11",
+      "art": "frage",
+      "themaId": "bilanz-karte-k3-37",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:11",
+      "art": "antwort",
+      "themaId": "bilanz-karte-k3-37",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:23",
+      "art": "norm",
+      "themaId": "istr-modul-istr-istr1-02",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:14",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 20,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:37",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-325",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:41",
+      "art": "begriff",
+      "themaId": "persg-karte-k3-29",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:45",
+      "art": "fehler",
+      "themaId": "istr-modul-istr-istr3-02",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}

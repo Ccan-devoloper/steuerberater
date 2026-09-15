@@ -1,35 +1,36 @@
 {
   "stand": "2026-09-15",
-  "beitraege": 37,
+  "beitraege": 39,
   "formatGewicht": {
-    "pruefungsfrage": 0.8305770904600932,
-    "fehlerfalle": 0.9309353682974716,
-    "schema": 0.9930975851668924,
+    "pruefungsfrage": 0.8465971116161705,
+    "fehlerfalle": 0.8675352100073372,
+    "schema": 0.9270343062689024,
     "rechenweg": 0.5,
-    "minifall": 0.5,
+    "minifall": 0.663737718999982,
     "vergleich": 0.5,
-    "klausurtechnik": 0.7931299718640566,
+    "klausurtechnik": 0.7405107464342596,
     "spickzettel": 2,
-    "reel": 2
+    "reel": 1.9783711233200305
   },
   "fachGewicht": {
-    "ao": 1.5355190980304838,
-    "kst": 0.5,
-    "istr": 1.6777379048698602,
-    "bilanz": 0.5071588095189901,
+    "ao": 1.4586875212512749,
+    "kst": 0.5481594158807422,
+    "istr": 1.564075949820147,
+    "bilanz": 0.6037151702786377,
     "ust": 0.5,
-    "erbst": 1.9240329534643643
+    "erbst": 1.7996295567207716
   },
   "hookGewicht": {
-    "frage": 0.9797570491670543,
-    "zahl": 0.8460325375897303,
-    "fehler": 1.597119608120964
+    "frage": 0.9140788578893682,
+    "zahl": 0.9245122171445117,
+    "fehler": 1.4876518906923888,
+    "kontrast": 1.3323609942912362
   },
   "besteStunden": null,
-  "follower": 39,
-  "reichweite7": 2768,
+  "follower": 50,
+  "reichweite7": 3284,
   "dauerMessungen": {
-    "80-105": 1,
+    "80-105": 2,
     "30-45": 1
   },
   "dauerGewicht": {},
@@ -40,14 +41,14 @@
     "#steuerberater": 1,
     "#steuerrecht": 1,
     "#examensvorbereitung": 1,
-    "#abgabenordnung": 1.7053283767038414,
-    "#verfahrensrecht": 1.7053283767038414,
-    "#erbschaftsteuer": 0.8486162742668321,
-    "#examenszeit": 0.5614312267657994,
-    "#klausurtechnik": 0.7916201982651798,
-    "#körperschaftsteuer": 0.5,
-    "#bilanzsteuerrecht": 0.5,
-    "#lerngruppe": 0.5217472118959108
+    "#abgabenordnung": 1.2771978279187344,
+    "#verfahrensrecht": 1.4400337047092968,
+    "#erbschaftsteuer": 0.8278719221046719,
+    "#examenszeit": 0.5479121805074432,
+    "#klausurtechnik": 0.8134772025091284,
+    "#körperschaftsteuer": 0.5839340885684862,
+    "#bilanzsteuerrecht": 0.523125175545361,
+    "#lerngruppe": 0.7320943731860312
   },
   "hashtagFolgen": {
     "#steuerberaterexamen": 0,
@@ -94,7 +95,13 @@
     "#ao": 0,
     "#mindset": 0,
     "#prüfungsangst": 0,
-    "#stb2026": 0
+    "#stb2026": 0,
+    "#lernmotivation": 0,
+    "#steuerrechtlernen": 0,
+    "#wochenrückblick": 0,
+    "#außenprüfung": 0,
+    "#ablaufhemmung": 0,
+    "#festsetzungsverjährung": 0
   },
   "folgenGesamt": 1,
   "profil": {
