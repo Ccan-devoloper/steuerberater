@@ -75,14 +75,50 @@ try {
    entscheiden unten die Kanten selbst. */
 console.log("\nBerechtigungen");
 let scopes = null;
-try {
-  const url = new URL(`${ig.basis}/debug_token`);
-  url.searchParams.set("input_token", ig.token);
-  url.searchParams.set("access_token", ig.token);
-  const json = await (await fetch(url)).json();
-  scopes = json?.data?.scopes || null;
-  if (!scopes) warnung(`debug_token nennt keine Berechtigungen (${knapp(json, 300)}) – der Kantentest unten entscheidet.`);
-} catch (e) { warnung(`debug_token nicht erreichbar (${e.message}) – der Kantentest unten entscheidet.`); }
+
+/* Erster Weg: das App-Token aus App-ID und App-Geheimnis. Nur so nennt
+   debug_token die Berechtigungen wirklich beim Namen. Der Aufruf geht an
+   graph.facebook.com - über graph.instagram.com antwortet er mit
+   "Application does not have permission for this action". */
+const { appId, appGeheim } = CONFIG.instagram;
+if (appId && appGeheim) {
+  /* Meta antwortet auf diesen Aufruf gern mit "(#2) Service temporarily
+     unavailable". Das Feld is_transient sagt selbst, dass es vorübergeht -
+     also warten und erneut fragen, statt daraus einen Befund zu machen. */
+  for (let versuch = 1; versuch <= 4 && !scopes; versuch++) {
+    try {
+      const url = new URL("https://graph.facebook.com/v23.0/debug_token");
+      url.searchParams.set("input_token", ig.token);
+      url.searchParams.set("access_token", `${appId}|${appGeheim}`);
+      const json = await (await fetch(url)).json();
+      scopes = json?.data?.scopes || null;
+      if (scopes) { gut(`debug_token nennt ${scopes.length} Berechtigung(en) am Token.`); break; }
+      if (json?.error?.is_transient && versuch < 4) {
+        console.log(`  · debug_token: ${json.error.message} – erneut in ${3 * versuch} s (${versuch}/3)`);
+        await new Promise((r) => setTimeout(r, 3000 * versuch));
+        continue;
+      }
+      warnung(`debug_token mit App-Token liefert keine Liste: ${knapp(json, 300)}`);
+      break;
+    } catch (e) { warnung(`debug_token nicht erreichbar (${e.message}).`); break; }
+  }
+} else {
+  warnung("IG_APP_ID und IG_APP_SECRET sind nicht gesetzt – ohne sie lassen sich die Berechtigungen am Token nicht ablesen, nur erraten. Beide stehen im Meta-Dashboard unter App-Einstellungen → Allgemein und gehören als Secrets ins Repo.");
+}
+
+/* Zweiter Weg, falls das App-Token fehlt: derselbe Aufruf mit dem Token als
+   eigenem Prüfer. Über graph.instagram.com schlägt er meist fehl - der
+   Versuch kostet aber nichts. */
+if (!scopes) {
+  try {
+    const url = new URL(`${ig.basis}/debug_token`);
+    url.searchParams.set("input_token", ig.token);
+    url.searchParams.set("access_token", ig.token);
+    const json = await (await fetch(url)).json();
+    scopes = json?.data?.scopes || null;
+    if (!scopes) warnung(`Auch ohne App-Token nennt debug_token nichts (${knapp(json, 200)}) – der Kantentest unten entscheidet.`);
+  } catch (e) { warnung(`debug_token nicht erreichbar (${e.message}) – der Kantentest unten entscheidet.`); }
+}
 
 if (scopes) {
   for (const [name, zweck] of Object.entries(NOETIG)) {
@@ -99,31 +135,56 @@ if (scopes) {
 console.log("\nKanten");
 let medien = [];
 try {
-  const r = await ig.anfrage("GET", `${ig.kontoId || "me"}/media`, { fields: "id,comments_count,permalink", limit: 10 });
-  medien = r.data || [];
+  /* ALLE Beiträge, nicht die neuesten N.
+
+     Erst waren es zehn, dann 25 - und beide Male hätte ein Kommentar auf
+     einem älteren Beitrag unbemerkt bleiben können. Genau das ist am
+     15.09. passiert: Die Testkommentare standen auf älteren Beiträgen, und
+     ich habe daraus voreilig geschlossen, die API halte sie zurück.
+
+     Die Medienliste selbst ist billig - 50 Einträge je Aufruf. Teuer wäre
+     erst, jeden Beitrag einzeln nach Kommentaren zu fragen; das bleibt
+     deshalb unten auf die beschränkt, die überhaupt einen Zähler melden,
+     und ist zusätzlich gedeckelt. Das Stundenlimit der App liegt bei rund
+     200 Aufrufen, und das Veröffentlichen hat Vorrang. */
+  medien = await ig.alleSeiten(`${ig.kontoId || "me"}/media`, { fields: "id,comments_count,permalink,timestamp", limit: 50 }, { maxSeiten: 12 });
   gut(`Medien lesen: ${medien.length} Beiträge (instagram_business_basic)`);
 } catch (e) { fehler(`Medien lesen: ${e.message}`); }
 
-const mitKommentaren = medien.filter((m) => (m.comments_count || 0) > 0);
-if (!mitKommentaren.length) {
-  warnung("Kein Beitrag meldet Kommentare – die Kommentarkante lässt sich gerade nicht prüfen. Schreib einen Testkommentar und starte erneut.");
-} else {
-  for (const m of mitKommentaren.slice(0, 3)) {
-    try {
-      const k = await ig.anfrage("GET", `${m.id}/comments`, { fields: "id,text,username,timestamp", limit: 50 });
-      const n = (k.data || []).length;
-      if (n) { gut(`Kommentare zu ${m.id}: ${n} von ${m.comments_count} geliefert.`); continue; }
-      /* Leer mit Cursorn heißt: gefunden und beim Ausliefern aussortiert.
-         Eine Kante, die nichts kennt, liefert keine Cursor. */
-      const cursor = k.paging?.cursors?.after ? " (mit Cursor – die Kante kennt Einträge und liefert sie nicht)" : "";
-      fehler(`Kommentare zu ${m.id}: comments_count=${m.comments_count}, geliefert 0${cursor}. Rohantwort ${knapp(k)}`);
-      const knoten = await ig.anfrage("GET", `${m.id}`, { fields: "comments_count,comments{id,text,username,timestamp}" });
-      const ueber = knoten.comments?.data || [];
-      if (ueber.length) warnung(`Über den Medienknoten kommen ${ueber.length} Kommentare an – die Kante /comments ist der Fehler, nicht der Token.`);
-      else warnung(`Auch der Medienknoten liefert nichts: ${knapp(knoten, 300)}`);
-    } catch (e) { fehler(`Kommentare zu ${m.id}: ${e.message}`); }
-  }
+/* JEDEN Beitrag fragen, nicht nur die mit comments_count > 0.
+
+   Am 15.09. hat mich genau diese Abkürzung blind gemacht: Die Prüfung sah
+   nur Beiträge, deren Zähler etwas meldete, und übersah damit zwei frisch
+   geschriebene Kommentare. Der Zähler aus /media steht seit Stunden
+   unverändert auf 1 und 2 - über hinzugefügte und wieder gelöschte
+   Kommentare hinweg. Er ist also zwischengespeichert und taugt nicht als
+   Vorfilter. Die Kante selbst ist die Quelle, nicht der Zähler. */
+const MAX_ABFRAGEN = 60;
+const zuPruefen = medien.filter((m) => (m.comments_count || 0) > 0).slice(0, MAX_ABFRAGEN);
+const uebersprungen = medien.filter((m) => (m.comments_count || 0) > 0).length - zuPruefen.length;
+gut(`${medien.length} Beiträge insgesamt, davon ${zuPruefen.length + uebersprungen} mit Zählerstand${uebersprungen ? ` (die ersten ${MAX_ABFRAGEN} werden gefragt)` : ""}.`);
+let gefunden = 0, gezaehlt = 0, stumm = 0;
+for (const m of zuPruefen) {
+  try {
+    const k = await ig.anfrage("GET", `${m.id}/comments`, { fields: "id,text,username,timestamp", limit: 50 });
+    const n = (k.data || []).length;
+    const zaehler = m.comments_count || 0;
+    gefunden += n;
+    gezaehlt += zaehler;
+    if (n) {
+      gut(`Kommentare zu ${m.id}: ${n} geliefert (Zähler sagt ${zaehler}).`);
+      gut(`    ${m.permalink || "(ohne Link)"}`);
+      for (const c of k.data.slice(0, 3)) gut(`    @${c.username || "?"}: ${String(c.text || "").slice(0, 60)}`);
+    } else if (zaehler) {
+      stumm++;
+      const cursor = k.paging?.cursors?.after ? ", mit Cursor" : "";
+      warnung(`Kommentare zu ${m.id}: Zähler ${zaehler}, geliefert 0${cursor}.`);
+    }
+  } catch (e) { fehler(`Kommentare zu ${m.id}: ${e.message}`); }
 }
+if (gefunden) gut(`Kommentare gesamt: ${gefunden} geliefert über ${medien.length} Beiträge (Zählerstand zusammen ${gezaehlt}).`);
+else if (gezaehlt) fehler(`Kein einziger Kommentar geliefert, obwohl die Zähler zusammen ${gezaehlt} melden (${stumm} stumme Beiträge von ${medien.length} geprüften).`);
+else warnung(`Kein Beitrag meldet Kommentare (${medien.length} geprüft) – schreib einen Testkommentar und starte erneut.`);
 
 try {
   /* Über alle Seiten: Die erste Seite kann leer sein und trotzdem eine
