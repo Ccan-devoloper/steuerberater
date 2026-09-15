@@ -1,0 +1,114 @@
+{
+  "datum": "2026-09-16",
+  "zweck": "reel",
+  "daten": {
+    "szenen": [
+      {
+        "art": "hook",
+        "nummer": null,
+        "titel": "Ein Wort entscheidet über die Formel",
+        "unter": null,
+        "text": null,
+        "norm": null,
+        "icon": "rechner",
+        "sprecher": "Zwei Darlehensarten, zwei völlig verschiedene Formeln für dasselbe Disagio – und der Unterschied steckt in einem einzigen Wort.",
+        "marken": [
+          "Disagio: welche *Formel*?"
+        ],
+        "bildSzene": "bank document with loan contract",
+        "kreuz": false
+      },
+      {
+        "art": "punkt",
+        "nummer": null,
+        "titel": "Fälligkeitsdarlehen",
+        "unter": null,
+        "text": "Kapital bleibt bis zum Ende gleich hoch.",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Beim Fälligkeitsdarlehen bleibt das überlassene Kapital die ganze Laufzeit über konstant – erst am Ende wird alles auf einmal getilgt.",
+        "marken": [
+          "Fälligkeitsdarlehen: Kapital *konstant*"
+        ],
+        "bildSzene": "stack of unopened envelopes on desk",
+        "kreuz": false
+      },
+      {
+        "art": "punkt",
+        "nummer": null,
+        "titel": "Deshalb linear",
+        "unter": null,
+        "text": "Gleichbleibendes Kapital, gleichbleibender Jahresanteil.",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Und weil das Kapital gleich bleibt, wird das Disagio hier ganz einfach linear aufgelöst – jedes Jahr derselbe Betrag.",
+        "marken": [
+          "Auflösung: *linear*"
+        ],
+        "bildSzene": "ruler drawn straight line chart",
+        "kreuz": false
+      },
+      {
+        "art": "punkt",
+        "nummer": null,
+        "titel": "Tilgungsdarlehen",
+        "unter": null,
+        "text": "Kapital sinkt jedes Jahr durch die Raten.",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Beim Tilgungsdarlehen dagegen sinkt das überlassene Kapital jedes Jahr, weil laufend Raten zurückgezahlt werden.",
+        "marken": [],
+        "bildSzene": "loan repayment schedule with declining numbers",
+        "kreuz": false
+      },
+      {
+        "art": "merke",
+        "nummer": null,
+        "titel": "Zinsstaffel statt Gerade",
+        "unter": null,
+        "text": "Jahresanteil sinkt Jahr für Jahr mit dem Restkapital.",
+        "norm": "§ 250 (3) HGB · § 5 (5) EStG",
+        "icon": null,
+        "sprecher": "Deshalb wird hier arithmetisch-degressiv nach der Zinsstaffel aufgelöst: Der Jahresanteil sinkt von Jahr zu Jahr, weil auch das Kapital sinkt. Paragraf 250 Absatz 3 Handelsgesetzbuch und Paragraf 5 Absatz 5 Einkommensteuergesetz stehen dahinter.",
+        "marken": [
+          "Restkapital sinkt: Anteil *sinkt*"
+        ],
+        "bildSzene": "declining bar chart on ledger page",
+        "kreuz": false
+      },
+      {
+        "art": "cta",
+        "nummer": null,
+        "titel": "Kapitalverlauf entscheidet die Formel",
+        "unter": null,
+        "text": "Konstant: linear. Sinkend: Zinsstaffel.",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Kurz gesagt: Bleibt das Kapital gleich, wird linear aufgelöst. Sinkt es, wird degressiv nach der Zinsstaffel aufgelöst. Schick das deiner Lerngruppe, speichere es dir für die Wiederholung, und folge für mehr aus der Bilanzklausur.",
+        "marken": [
+          "Kapitalverlauf entscheidet"
+        ],
+        "bildSzene": "declining bar chart on ledger page",
+        "kreuz": false
+      }
+    ],
+    "caption": "Disagio in der Bilanzklausur: linear oder Zinsstaffel – wie erkennst du den Unterschied?\n\nGanz einfach: Beim Fälligkeitsdarlehen bleibt das Kapital konstant, deshalb wird linear aufgelöst. Beim Tilgungsdarlehen sinkt das Kapital jedes Jahr durch die Raten – deshalb sinkt auch der Jahresanteil, arithmetisch-degressiv nach der Zinsstaffel.\n\nSchick das deiner Lerngruppe, bevor die nächste Bilanzklausur ansteht, und speichere es dir zum Wiederholen.\n\nWelche Formel hat dich in der Übungsklausur mehr Zeit gekostet – linear oder Zinsstaffel?",
+    "hashtags": [
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#stbexamen",
+      "#steuerberater",
+      "#steuerrecht",
+      "#examensvorbereitung",
+      "#disagio",
+      "#zinsstaffel",
+      "#bilanzsteuerrecht",
+      "#rechnungsabgrenzung",
+      "#klausur3",
+      "#bilanzierung"
+    ],
+    "kurztitel": "Disagio: linear oder Zinsstaffel?",
+    "bildSzene": "bank document with loan contract",
+    "bildSzeneAlt": "declining bar chart on ledger page"
+  }
+}

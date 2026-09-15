@@ -154,6 +154,22 @@
         "story-faktencheck": 0.0112
       },
       "stand": "2026-09-15T08:45:17.824Z"
+    },
+    "2026-09-16": {
+      "usd": 0.3148,
+      "antworten": 0,
+      "aufrufe": 4,
+      "zwecke": {
+        "reel": 0.0877,
+        "reel-faktencheck": 0.0113,
+        "recherche": 0.2159
+      },
+      "messungen": {
+        "reel": 0.0572,
+        "reel-faktencheck": 0.0113,
+        "recherche": 0.2159
+      },
+      "stand": "2026-09-15T22:33:40.977Z"
     }
   }
 }
