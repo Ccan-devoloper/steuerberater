@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-15",
+  "erzeugt": "2026-09-15T05:43:51.441Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "11:30",
+      "format": "pruefungsfrage",
+      "themaId": "persg-quiz-persg-2",
+      "themaTitel": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu berücksichtigen?",
+      "fach": "persg",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "21:30",
+      "format": "reel",
+      "themaId": "istr-modul-istr-istr2-01",
+      "themaTitel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
+      "fach": "istr",
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:06",
+      "art": "frage",
+      "themaId": "persg-quiz-persg-0",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:06",
+      "art": "antwort",
+      "themaId": "persg-quiz-persg-0",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:20",
+      "art": "norm",
+      "themaId": "ao-modul-ao-319",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "11:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:26",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 21,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:25",
+      "art": "formel",
+      "themaId": "bilanz-formel-sechsb-reihenfolge",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:39",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-353",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:35",
+      "art": "begriff",
+      "themaId": "bilanz-glossar-20",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "21:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    }
+  ]
+}

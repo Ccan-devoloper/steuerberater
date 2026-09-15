@@ -1,35 +1,36 @@
 {
-  "stand": "2026-09-14",
-  "beitraege": 35,
+  "stand": "2026-09-15",
+  "beitraege": 37,
   "formatGewicht": {
-    "pruefungsfrage": 0.8354601032384577,
-    "fehlerfalle": 0.9394194999567436,
-    "schema": 0.9452861406696081,
+    "pruefungsfrage": 0.8305770904600932,
+    "fehlerfalle": 0.9309353682974716,
+    "schema": 0.9930975851668924,
     "rechenweg": 0.5,
     "minifall": 0.5,
     "vergleich": 0.5,
-    "klausurtechnik": 0.7986201228479972,
+    "klausurtechnik": 0.7931299718640566,
     "spickzettel": 2,
     "reel": 2
   },
   "fachGewicht": {
-    "ao": 1.6627735963318624,
+    "ao": 1.5355190980304838,
     "kst": 0.5,
-    "istr": 1.6941344406955618,
-    "bilanz": 0.5,
+    "istr": 1.6777379048698602,
+    "bilanz": 0.5071588095189901,
     "ust": 0.5,
-    "erbst": 1.8213080716324939
+    "erbst": 1.9240329534643643
   },
   "hookGewicht": {
-    "frage": 0.9907431438705772,
-    "zahl": 0.8301382629827997,
-    "fehler": 1.607459555324855
+    "frage": 0.9797570491670543,
+    "zahl": 0.8460325375897303,
+    "fehler": 1.597119608120964
   },
   "besteStunden": null,
-  "follower": 36,
-  "reichweite7": 2464,
+  "follower": 39,
+  "reichweite7": 2768,
   "dauerMessungen": {
-    "80-105": 1
+    "80-105": 1,
+    "30-45": 1
   },
   "dauerGewicht": {},
   "hashtagGewicht": {
@@ -39,10 +40,14 @@
     "#steuerberater": 1,
     "#steuerrecht": 1,
     "#examensvorbereitung": 1,
-    "#erbschaftsteuer": 0.7110981052015509,
-    "#examenszeit": 0.5,
-    "#klausurtechnik": 0.7110981052015509,
-    "#körperschaftsteuer": 0.5
+    "#abgabenordnung": 1.7053283767038414,
+    "#verfahrensrecht": 1.7053283767038414,
+    "#erbschaftsteuer": 0.8486162742668321,
+    "#examenszeit": 0.5614312267657994,
+    "#klausurtechnik": 0.7916201982651798,
+    "#körperschaftsteuer": 0.5,
+    "#bilanzsteuerrecht": 0.5,
+    "#lerngruppe": 0.5217472118959108
   },
   "hashtagFolgen": {
     "#steuerberaterexamen": 0,
@@ -80,7 +85,16 @@
     "#bewertungsgesetz": 0,
     "#nachlassverbindlichkeiten": 0,
     "#erbstexamen": 0,
-    "#familienheim": 0
+    "#familienheim": 0,
+    "#studygram": 0,
+    "#steuerwissen": 0,
+    "#bekanntgabe": 0,
+    "#steuerbescheid": 0,
+    "#klausurtipps": 0,
+    "#ao": 0,
+    "#mindset": 0,
+    "#prüfungsangst": 0,
+    "#stb2026": 0
   },
   "folgenGesamt": 1,
   "profil": {
