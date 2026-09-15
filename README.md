@@ -43,8 +43,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k1-erbst-hausaufgaben`
 - **Hausaufgaben KSt** (Reiter im Campus Körperschaftsteuer): die Kurzklausuren des
   Tageslehrgangs mit Lösung – Fachtermin 1 (A-GmbH mit dreizehn Korrekturtatbeständen,
-  optierende A/B-OHG nach § 1a KStG und Spendenabzug beim gemeinnützigen Verein, 74 Punkte);
-  weitere Fachtermine folgen. Prüfung: `npm run check:kst-hausaufgaben`
+  optierende A/B-OHG nach § 1a KStG und Spendenabzug beim gemeinnützigen Verein, 74 Punkte)
+  und Fachtermin 3 (verdeckte Einlage, § 8b KStG, Einlagekonto und Gewerbeertrag, 48 Punkte);
+  die Fachtermine 4, 5 und 7 folgen. Prüfung: `npm run check:kst-hausaufgaben`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
