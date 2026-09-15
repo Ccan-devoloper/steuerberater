@@ -2116,6 +2116,16 @@
       "fach": "persg",
       "titel": "Welche zwei Merkmalsgruppen bestimmen die Mitunternehmerstellung?",
       "medienId": "18116186917755845"
+    },
+    {
+      "datum": "2026-09-15",
+      "art": "story",
+      "slot": "s4",
+      "storyArt": "antwort",
+      "thema": "persg-quiz-persg-0",
+      "fach": "persg",
+      "titel": "Mitunternehmerrisiko und Mitunternehmerinitiative",
+      "medienId": "18124007836854733"
     }
   ],
   "fachZaehler": {
