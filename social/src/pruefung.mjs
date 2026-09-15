@@ -325,6 +325,72 @@ export function normfallen(text) {
     fehler.push("§ 1371 Abs. 1 BGB gilt nur bei Zugewinngemeinschaft – der Güterstand muss im Sachverhalt genannt sein, sonst steht die Quote auf einer Annahme.");
   }
 
+  fehler.push(...mitunternehmerFallen(text));
+
+  return fehler;
+}
+
+/* ==========================================================================
+   Zweistufige Gewinnermittlung: zwei Verwechslungen, die in jeder
+   Mitunternehmer-Klausur Punkte kosten - und die am 15.09. beide auf einer
+   einzigen Kachel standen, vom strengen Prüfer unbeanstandet.
+
+   Beides sind feste Zuordnungen, keine Ermessensfragen. Genau dafür taugen
+   Regeln besser als ein weiteres Modell: Sie kosten nichts, laufen vor jedem
+   Modellaufruf und übersehen nichts, weil sie nichts beurteilen.
+   ========================================================================== */
+const STUFE_ZWEI = /(?:Stufe\s*(?:II\b|2\b)|zweite[nr]?\s+Stufe)/gi;
+const STUFE_EINS = /(?:Stufe\s*(?:I\b|1\b)|erste[nr]?\s+Stufe)/i;
+const ERGAENZUNGSBILANZ = /Ergänzungsbilanz(?:en)?/i;
+
+/* Suchtext hinter einer Fundstelle - Reihenfolge und Abstand entscheiden. */
+function dahinter(text, marker, abstand) {
+  const treffer = [];
+  for (const m of text.matchAll(marker)) treffer.push(text.slice(m.index, m.index + m[0].length + abstand));
+  return treffer;
+}
+
+export function mitunternehmerFallen(text) {
+  const fehler = [];
+
+  /* 1. Die Ergänzungsbilanz gehört zur ERSTEN Stufe. Sie korrigiert die Werte
+        der Gesamthandsbilanz für einen einzelnen Gesellschafter; erst der
+        Sonderbereich ist Stufe II. Die Kachel vom 15.09. schrieb
+        "Stufe II: Ergänzungsbilanzen" - und die Caption wiederholte es.
+
+        Gesucht wird die Zuordnung, nicht die Nachbarschaft: Das Kennwort muss
+        HINTER einem "Stufe II" stehen und es darf kein "Stufe I" dazwischen
+        liegen. Sonst schlüge die Regel auch bei der richtigen Gegenüber-
+        stellung an ("Zur ersten Stufe gehören auch die Ergänzungsbilanzen;
+        erst auf Stufe II kommt der Sonderbereich dazu") - und eine Regel, die
+        das Richtige beanstandet, kostet nur Korrekturrunden. */
+  for (const ausschnitt of dahinter(text, STUFE_ZWEI, 60)) {
+    if (!ERGAENZUNGSBILANZ.test(ausschnitt)) continue;
+    const bis = ausschnitt.search(ERGAENZUNGSBILANZ);
+    if (STUFE_EINS.test(ausschnitt.slice(0, bis))) continue;
+    fehler.push(`Zweistufige Gewinnermittlung: Ergänzungsbilanzen gehören zur ERSTEN Stufe (Gesamthandsgewinn zzgl./abzgl. Ergänzungsbilanzen), nicht zur zweiten. Stufe II ist allein der Sonderbereich des Gesellschafters – Sonderbetriebsvermögen, Sondervergütungen, Sonderbetriebsausgaben. Gefunden bei: „${ausschnitt.slice(0, 120).trim()}“`);
+    break;
+  }
+
+  /* 2. Die Sondervergütung IST Betriebsausgabe der Gesellschaft. Sie mindert
+        den Gesamthandsgewinn auf Stufe I und wird beim Gesellschafter auf
+        Stufe II als Sonderbetriebseinnahme wieder hinzugerechnet
+        (korrespondierende Bilanzierung). Wer sie der Gesellschaft als
+        Betriebsausgabe abspricht, verschiebt den Gewinn um ihren vollen
+        Betrag. Auch das stand am 15.09. auf der Kachel. */
+  const VERGUETUNG = /(Miete|Mietzahlung|Pacht|Vergütung|Sondervergütung|Tätigkeitsvergütung|Darlehenszins(?:en)?|Gehalt)/i;
+  const KEINE_BA = /kein(?:e|en)?\s+(?:Betriebsausgabe|Aufwand|Betriebsausgaben)/i;
+  /* Hier zählt nur die Nachbarschaft: Wer „keine Betriebsausgabe“ in einem Satz
+     mit der Vergütung schreibt, meint die Verneinung – vor oder hinter dem Wort. */
+  let verneint = null;
+  for (const m of text.matchAll(new RegExp(KEINE_BA.source, "gi"))) {
+    const ausschnitt = text.slice(Math.max(0, m.index - 140), m.index + m[0].length + 140);
+    if (VERGUETUNG.test(ausschnitt)) { verneint = ausschnitt.trim(); break; }
+  }
+  if (verneint) {
+    fehler.push(`Sondervergütungen (§ 15 Abs. 1 S. 1 Nr. 2 EStG) sind sehr wohl Betriebsausgabe der Gesellschaft: Sie mindern den Gesamthandsgewinn auf Stufe I und werden beim Gesellschafter auf Stufe II als Sonderbetriebseinnahme wieder hinzugerechnet. Für den Gesamtgewinn hebt sich beides auf. Gefunden bei: „${verneint.slice(0, 120)}“`);
+  }
+
   return fehler;
 }
 
@@ -360,8 +426,13 @@ function alleTexte(beitrag) {
       ...(f.punkte || []),
       ...(f.schritte || []).map((s) => (typeof s === "string" ? s : `${s.titel || ""} ${s.text || ""}`)),
       f.formel || "", ...(f.zeilen || []), f.ergebnis || "", f.erklaerung || "",
-      f.links?.titel || "", f.rechts?.titel || "", f.links?.text || "", f.rechts?.text || "",
-      ...(f.links?.punkte || []), ...(f.rechts?.punkte || []),
+      /* Jede Spalte am Stück: Überschrift, Text, Punkte. Vorher standen erst
+         beide Überschriften und dann alle Punkte hintereinander - damit ging
+         verloren, zu welcher Seite ein Punkt gehört, und genau das IST bei
+         einer Vergleichsfolie die Aussage. Am 15.09. stand deshalb
+         "zzgl./abzgl. Ergänzungsbilanzen" im Prüftext direkt hinter
+         "Stufe II", obwohl es auf der Kachel unter Stufe I steht. */
+      ...[f.links, f.rechts].filter(Boolean).flatMap((sp) => [sp.titel || "", sp.text || "", ...(sp.punkte || [])]),
     );
   }
   teile.push(beitrag.caption || "", beitrag.kurztitel || "");

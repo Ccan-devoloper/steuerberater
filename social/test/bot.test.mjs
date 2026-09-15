@@ -1736,3 +1736,57 @@ test("Merkhilfen im Material werden dem Autor vorher angesagt", async () => {
   const ohne = { fach: "persg", klausur: 3, titel: "Stufe II", normen: [], kern: { merksatz: "Stufe II ist die Gesellschafterebene." } };
   assert.doesNotMatch(themaText(ohne), /Merkhilfe/, "Hinweis ohne Anlass");
 });
+
+test("Zweistufige Gewinnermittlung: die zwei Klausurfallen werden gefangen", async () => {
+  const { mitunternehmerFallen, pruefeBeitrag } = await import("../src/pruefung.mjs");
+  /* Beides stand am 15.09. auf einer veröffentlichten Kachel, vom strengen
+     Prüfer unbeanstandet: die Ergänzungsbilanz der zweiten Stufe zugeordnet,
+     und die Sondervergütung der Gesellschaft als Betriebsausgabe abgesprochen.
+     Beides sind feste Zuordnungen - dafür taugt eine Regel besser als ein
+     weiteres Modell. */
+  for (const t of [
+    "Stufe II: Ergänzungsbilanzen – Korrekturen einzelner Gesellschafter.",
+    "Auf Stufe II kommen Ergänzungsbilanzen und das Sonderbetriebsvermögen dazu.",
+    "Zur zweiten Stufe zählen die Ergänzungsbilanzen.",
+    "Die Miete an Voss ist keine Betriebsausgabe der OHG, sondern erhöht seinen Gewinnanteil.",
+    "Die Sondervergütung ist kein Aufwand der Gesellschaft.",
+  ]) assert.ok(mitunternehmerFallen(t).length, `nicht gefangen: ${t}`);
+
+  /* Die richtige Gegenüberstellung muss durchgehen - eine Regel, die das
+     Richtige beanstandet, kostet nur Korrekturrunden. Deshalb zählt die
+     Zuordnung (Kennwort HINTER "Stufe II", kein "Stufe I" dazwischen), nicht
+     die bloße Nachbarschaft der beiden Wörter. */
+  for (const t of [
+    "Zur ersten Stufe gehören auch die Ergänzungsbilanzen; erst auf Stufe II kommt der Sonderbereich dazu.",
+    "Stufe I: Gesamthandsbilanz zzgl./abzgl. Ergänzungsbilanzen. Stufe II: Sonderbereich.",
+    "Stufe I ist die Gesellschaft samt Ergänzungsbilanzen, Stufe II der Sonderbereich des Gesellschafters.",
+    "Die Miete mindert als Betriebsausgabe den Gewinn der OHG und wird bei Voss hinzugerechnet.",
+    "Stufe II: Sonderbetriebsvermögen – Wirtschaftsgüter im Eigentum eines Gesellschafters.",
+    "Die private Lebensführung ist keine Betriebsausgabe.",
+  ]) assert.deepEqual(mitunternehmerFallen(t), [], `zu Unrecht beanstandet: ${t}`);
+
+  /* Und der Weg durch pruefeBeitrag - so wie es am 15.09. gelaufen wäre. */
+  const kachel = { folien: [{ art: "schritte", titel: "So läuft die Gewinnermittlung ab", schritte: [
+    { titel: "Stufe II: Ergänzungsbilanzen", text: "Korrekturen einzelner Gesellschafter." },
+  ] }] };
+  assert.ok(pruefeBeitrag(kachel).fehler.some((f) => /ERSTEN Stufe/.test(f)), "pruefeBeitrag lässt die Kachel durch");
+});
+
+test("Vergleichsfolien: die Spaltenzuordnung überlebt die Prüfung", async () => {
+  const { pruefeBeitrag } = await import("../src/pruefung.mjs");
+  /* Der Prüftext reihte erst beide Überschriften und dann alle Punkte
+     aneinander. Damit stand ein Punkt der linken Spalte im Prüftext hinter der
+     rechten Überschrift - und bei einer Vergleichsfolie IST die Spalte die
+     Aussage. */
+  const richtig = { folien: [{ art: "vergleich", titel: "Stufe I vs. Stufe II",
+    links: { titel: "Stufe I", punkte: ["Gesamthandsbilanz der OHG", "zzgl./abzgl. Ergänzungsbilanzen"] },
+    rechts: { titel: "Stufe II", punkte: ["Sonderbetriebsvermögen", "Sondervergütungen und -ausgaben"] } }] };
+  assert.deepEqual(pruefeBeitrag(richtig).fehler.filter((f) => /ERSTEN Stufe/.test(f)), [],
+    "richtige Spaltenzuordnung wird beanstandet");
+
+  const falsch = { folien: [{ art: "vergleich", titel: "Stufe I vs. Stufe II",
+    links: { titel: "Stufe I", punkte: ["Gesamthandsbilanz der OHG"] },
+    rechts: { titel: "Stufe II", punkte: ["Ergänzungsbilanzen je Gesellschafter", "Sonderbetriebsvermögen"] } }] };
+  assert.ok(pruefeBeitrag(falsch).fehler.some((f) => /ERSTEN Stufe/.test(f)),
+    "Ergänzungsbilanz in der Stufe-II-Spalte wird nicht bemerkt");
+});
