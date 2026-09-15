@@ -341,6 +341,8 @@ export function normfallen(text) {
    ========================================================================== */
 const STUFE_ZWEI = /(?:Stufe\s*(?:II\b|2\b)|zweite[nr]?\s+Stufe)/gi;
 const STUFE_EINS = /(?:Stufe\s*(?:I\b|1\b)|erste[nr]?\s+Stufe)/i;
+const STUFE_EINS_G = /(?:Stufe\s*(?:I\b|1\b)|erste[nr]?\s+Stufe)/gi;
+const STUFE_ZWEI_EINZEL = /(?:Stufe\s*(?:II\b|2\b)|zweite[nr]?\s+Stufe)/i;
 const ERGAENZUNGSBILANZ = /Ergänzungsbilanz(?:en)?/i;
 
 /* Suchtext hinter einer Fundstelle - Reihenfolge und Abstand entscheiden. */
@@ -353,23 +355,35 @@ function dahinter(text, marker, abstand) {
 export function mitunternehmerFallen(text) {
   const fehler = [];
 
-  /* 1. Die Ergänzungsbilanz gehört zur ERSTEN Stufe. Sie korrigiert die Werte
-        der Gesamthandsbilanz für einen einzelnen Gesellschafter; erst der
-        Sonderbereich ist Stufe II. Die Kachel vom 15.09. schrieb
-        "Stufe II: Ergänzungsbilanzen" - und die Caption wiederholte es.
+  /* 1. Die Stufen-Zuordnung der Ergänzungsbilanz ist KEINE feste Zuordnung,
+        sondern eine Frage des Schnitts - und beide Schnitte sind vertretbar:
 
-        Gesucht wird die Zuordnung, nicht die Nachbarschaft: Das Kennwort muss
-        HINTER einem "Stufe II" stehen und es darf kein "Stufe I" dazwischen
-        liegen. Sonst schlüge die Regel auch bei der richtigen Gegenüber-
-        stellung an ("Zur ersten Stufe gehören auch die Ergänzungsbilanzen;
-        erst auf Stufe II kommt der Sonderbereich dazu") - und eine Regel, die
-        das Richtige beanstandet, kostet nur Korrekturrunden. */
-  for (const ausschnitt of dahinter(text, STUFE_ZWEI, 60)) {
-    if (!ERGAENZUNGSBILANZ.test(ausschnitt)) continue;
-    const bis = ausschnitt.search(ERGAENZUNGSBILANZ);
-    if (STUFE_EINS.test(ausschnitt.slice(0, bis))) continue;
-    fehler.push(`Zweistufige Gewinnermittlung: Ergänzungsbilanzen gehören zur ERSTEN Stufe (Gesamthandsgewinn zzgl./abzgl. Ergänzungsbilanzen), nicht zur zweiten. Stufe II ist allein der Sonderbereich des Gesellschafters – Sonderbetriebsvermögen, Sondervergütungen, Sonderbetriebsausgaben. Gefunden bei: „${ausschnitt.slice(0, 120).trim()}“`);
-    break;
+        - Die additive Gewinnermittlung schneidet nach Rechenschritt:
+          Stufe 1 = Gesamthandsgewinn zzgl./abzgl. Ergänzungsbilanzergebnis,
+          Stufe 2 = Sonderbereich.
+        - Das Kursmaterial schneidet nach Ebenen: Stufe I = Gesellschaft,
+          Stufe II = Gesellschafter. Die Ergänzungsbilanz ist
+          gesellschafterindividuell und gehört danach folgerichtig auf II.
+
+        Am 15.09. stand hier eine Regel, die den ersten Schnitt erzwang - und
+        damit die eigene Kursaussage beanstandet hätte, bei jedem Beitrag zu
+        diesem Thema aufs Neue. Das Material hat Vorrang, solange es
+        vertretbar ist; hier ist es das.
+
+        Was bleibt, ist ein echter Fehler: beides in EINEM Beitrag. Wer die
+        Ergänzungsbilanz einmal auf Stufe I und einmal auf Stufe II setzt,
+        widerspricht sich - und genau das lernt niemand. */
+  /* Beide Richtungen gleich gemessen: Steht das Kennwort hinter der Stufe, und
+     liegt die andere Stufe nicht dazwischen? Ein Muster bis zum Satzende taugt
+     dafür nicht - deutsche Abkürzungen ("zzgl.") bringen Punkte mit. */
+  const zugeordnet = (marker, gegenstueck) => dahinter(text, marker, 60).some((a) => {
+    if (!ERGAENZUNGSBILANZ.test(a)) return false;
+    return !gegenstueck.test(a.slice(0, a.search(ERGAENZUNGSBILANZ)));
+  });
+  const stufeEins = zugeordnet(STUFE_EINS_G, STUFE_ZWEI_EINZEL);
+  const stufeZwei = zugeordnet(STUFE_ZWEI, STUFE_EINS);
+  if (stufeEins && stufeZwei) {
+    fehler.push("Widerspruch in der Stufen-Zuordnung: Die Ergänzungsbilanz steht im selben Beitrag einmal auf Stufe I und einmal auf Stufe II. Beide Schnitte sind für sich vertretbar (additiv nach Rechenschritt, das Kursmaterial nach Ebenen) – aber nur einer von beiden, und dann durchgehend.");
   }
 
   /* 2. Die Sondervergütung IST Betriebsausgabe der Gesellschaft. Sie mindert
@@ -418,7 +432,7 @@ export function ohneNormen(text) {
 
    Wer hier ein Feld ergänzt, ergänzt es auch in textAus - die beiden müssen
    dasselbe sehen. */
-function alleTexte(beitrag) {
+export function alleTexte(beitrag) {
   const teile = [];
   for (const f of beitrag.folien || []) {
     teile.push(
