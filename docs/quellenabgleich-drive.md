@@ -59,9 +59,9 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
    Ebenso Kurzskript (Breier) und die Teile I–VII (Hamacher) aus den Lehrgangsunterlagen.
 4. **K2 KSt: Hausaufgaben** – fünf Hausaufgaben mit Lösung (Termine 1, 3, 4, 5, 7);
    der KSt-Campus hat bislang gar keinen Hausaufgaben-Reiter.
-5. **K1 ErbSt: Hausaufgaben und Fallsammlung** – Hausaufgaben 2, 3, 4 mit Lösung,
-   dazu Übungsfälle (Beckmann, Fietze, Pack, Hasslinghaus, Leibrente, § 23 ErbStG)
-   und die Bewertungsteile 1–3; beide Reiter sind derzeit leer.
+5. **K1 ErbSt: Fallsammlung** – Übungsfälle (Beckmann, Fietze, Pack, Hasslinghaus,
+   Leibrente, § 23 ErbStG) und die Bewertungsteile 1–3; der Reiter ist derzeit leer.
+   Die ErbSt-Hausaufgaben 2–4 sind erledigt (siehe unten).
 6. **K3 PersG: Fallsammlung** – Fallsammlung (Melzer), fact sheets und Teile I–V
    (Grundlagen, § 6 Abs. 3/5 und § 6b, Realteilung GmbH & Co., Umwandlungssteuer).
 7. **Übungsklausuren (24 PDFs)** – auf der Seite bisher nirgends abgebildet; würden
@@ -81,3 +81,9 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Daten: `src/data/k3-persg-hausaufgaben.js`, Ansicht:
   `src/components/K3PersGHausaufgaben.jsx`, Prüfung:
   `npm run check:k3-persg-hausaufgaben`.
+- **K1 ErbSt Hausaufgaben**: Hausaufgaben 2, 3 und 4 (Braun/Bauer, Exer, Wember) im
+  Wortlaut, Rechenwege der Musterlösung als Tabellen, Lösung erst auf Klick. Daten:
+  `src/data/k1-erbst-hausaufgaben.js`, Ansicht: `src/components/K1ErbStHausaufgaben.jsx`,
+  Prüfung: `npm run check:k1-erbst-hausaufgaben`. Layout und Prüflogik teilen sich beide
+  Reiter über `src/components/HausaufgabenBloecke.jsx` und
+  `tools/pruefen-hausaufgaben-bloecke.mjs`.
