@@ -18,6 +18,7 @@ import {
 } from "./Icons";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
+import KstHausaufgaben from "./KstHausaufgaben";
 import "./kst.css";
 import { PrioBadge, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./Prioritaet";
 
@@ -37,6 +38,7 @@ const ansichten = [
   { id: "module", label: "Lernmodule", Icon: IconModule },
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
+  { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconModule },
   { id: "training", label: "Training", Icon: IconTraining },
   { id: "quellen", label: "Quellenstand", Icon: IconRegister },
 ];
@@ -264,6 +266,7 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
         )}
         {ansicht === "faelle" && <KstFallseite oeffnen={oeffnen} />}
         {ansicht === "schema" && <KstSchemaseite oeffnen={oeffnen} />}
+        {ansicht === "hausaufgaben" && <KstHausaufgaben onModulOeffnen={oeffnen} />}
         {ansicht === "training" && <KstTraining />}
         {ansicht === "quellen" && <KstQuellenseite />}
       </main>

@@ -3,8 +3,11 @@
 
    Wird von pruefen-k3-persg-hausaufgaben.mjs und
    pruefen-k1-erbst-hausaufgaben.mjs benutzt. Prüft Pflichtfelder,
-   Blockstruktur, Tabellenbreiten, Wasserzeichen aus den Quell-PDFs und - nur
-   wenn die Quelle Randpunkte ausweist - die Punktsumme der Lösung. */
+   Blockstruktur, Tabellenbreiten, Wasserzeichen aus den Quell-PDFs und - wo die
+   Quelle Randpunkte ausweist - dass deren Summe die ausgewiesene
+   Gesamtpunktzahl nicht übersteigt. Sie darf darunter liegen: dort, wo die
+   Musterlösung mehrere Randpunkte in einer Zwischensumme zusammenfasst, steht
+   die Zwischensumme im Text und nicht noch einmal als Punktzahl am Block. */
 
 const BLOCKTYPEN = new Set([undefined, "titel", "tabelle"]);
 
@@ -51,8 +54,8 @@ export function pruefeHausaufgaben({ name, quelle, hausaufgaben, pflichtfelder =
     /* Randpunkte gibt es nur, wo die Musterlösung sie ausweist. Wo es sie gibt,
        muss die Summe zur ausgewiesenen Gesamtpunktzahl passen. */
     const summe = ha.loesung?.reduce((n, b) => n + (b.punkte || 0), 0) ?? 0;
-    if (summe > 0 && Math.abs(summe - ha.punkte) > 0.001) {
-      meldung(id, `Punktsumme der Lösung ${summe} weicht von der ausgewiesenen Gesamtpunktzahl ${ha.punkte} ab`);
+    if (summe - (ha.punkte ?? 0) > 0.001) {
+      meldung(id, `Punktsumme der Lösung ${summe} übersteigt die ausgewiesene Gesamtpunktzahl ${ha.punkte}`);
     }
     if (ha.punkte !== undefined && summe === 0) {
       meldung(id, "Gesamtpunktzahl angegeben, aber kein Block trägt Randpunkte");

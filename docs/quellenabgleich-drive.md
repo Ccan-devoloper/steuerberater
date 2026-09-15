@@ -55,10 +55,12 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
    Hausaufgaben 2, 3, 4, 6, 7, 9 sowie Steuerberaterprüfungen RS 2025.
 2. **K2 GewSt** – eigener Campus fehlt vollständig. Im Drive: Kurzskript (Breier)
    und GewSt-Übungsfälle (Nöthen).
-3. **K2 KSt: Einheiten 5–7** – im Drive vorhanden (Nöthen), auf der Seite fehlen sie.
-   Ebenso Kurzskript (Breier) und die Teile I–VII (Hamacher) aus den Lehrgangsunterlagen.
-4. **K2 KSt: Hausaufgaben** – fünf Hausaufgaben mit Lösung (Termine 1, 3, 4, 5, 7);
-   der KSt-Campus hat bislang gar keinen Hausaufgaben-Reiter.
+3. **K2 KSt: Lehrgangsunterlagen** – Kurzskript (Breier) und die Teile I–VII (Hamacher)
+   aus den Lehrgangsunterlagen sind noch nicht abgeglichen. Korrektur zur ersten Fassung
+   dieser Liste: Die KSt-Einheiten 5, 6 und 7 sind entgegen der dortigen Annahme bereits
+   eingepflegt (`src/data/kst-einheit-5/6/7-register.js`).
+4. **K2 KSt: Hausaufgaben** – der Reiter existiert jetzt; Fachtermin 1 ist erfasst,
+   die Fachtermine 3, 4, 5 und 7 fehlen noch.
 5. **K1 ErbSt: Fallsammlung** – Übungsfälle (Beckmann, Fietze, Pack, Hasslinghaus,
    Leibrente, § 23 ErbStG) und die Bewertungsteile 1–3; der Reiter ist derzeit leer.
    Die ErbSt-Hausaufgaben 2–4 sind erledigt (siehe unten).
@@ -87,3 +89,7 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Prüfung: `npm run check:k1-erbst-hausaufgaben`. Layout und Prüflogik teilen sich beide
   Reiter über `src/components/HausaufgabenBloecke.jsx` und
   `tools/pruefen-hausaufgaben-bloecke.mjs`.
+- **K2 KSt Hausaufgaben (Reiter neu)**: Fachtermin 1 im Wortlaut mit Randpunkten
+  (74 Punkte). Daten: `src/data/kst-hausaufgaben.js`, Ansicht:
+  `src/components/KstHausaufgaben.jsx`, Prüfung: `npm run check:kst-hausaufgaben`.
+  Die Fachtermine 3, 4, 5 und 7 kommen in die gleiche Datei.
