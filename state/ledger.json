@@ -2178,10 +2178,42 @@
       "fach": "persg",
       "titel": "Stufe II: die Gesellschafterebene",
       "medienId": "18205671649371485"
+    },
+    {
+      "datum": "2026-09-15",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "11:30",
+      "stunde": 12,
+      "format": "pruefungsfrage",
+      "thema": "persg-quiz-persg-2",
+      "fach": "persg",
+      "titel": "Der Fehler, der beim Sonderbetriebsvermögen Punkte kostet",
+      "hookTyp": "fehler",
+      "medienId": "17916736371451478",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#steuerwissen",
+        "#studygram",
+        "#mitunternehmerschaft",
+        "#personengesellschaft",
+        "#gewinnermittlung",
+        "#sonderbetriebsvermögen",
+        "#ergänzungsbilanz",
+        "#bilanzsteuerrecht"
+      ],
+      "veroeffentlicht": "2026-09-15T10:11:55.777Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
-    "persg": 4,
+    "persg": 5,
     "ust": 4,
     "kst": 7,
     "ao": 11,
