@@ -1737,56 +1737,60 @@ test("Merkhilfen im Material werden dem Autor vorher angesagt", async () => {
   assert.doesNotMatch(themaText(ohne), /Merkhilfe/, "Hinweis ohne Anlass");
 });
 
-test("Zweistufige Gewinnermittlung: die zwei Klausurfallen werden gefangen", async () => {
+test("Kursmaterial hat Vorrang – gefangen wird nur das Unvertretbare", async () => {
   const { mitunternehmerFallen, pruefeBeitrag } = await import("../src/pruefung.mjs");
-  /* Beides stand am 15.09. auf einer veröffentlichten Kachel, vom strengen
-     Prüfer unbeanstandet: die Ergänzungsbilanz der zweiten Stufe zugeordnet,
-     und die Sondervergütung der Gesellschaft als Betriebsausgabe abgesprochen.
-     Beides sind feste Zuordnungen - dafür taugt eine Regel besser als ein
-     weiteres Modell. */
+  /* Am 15.09. stand hier eine Regel, die die additive Darstellung erzwang
+     (Ergänzungsbilanz = Stufe 1). Sie hätte damit die eigene Kursaussage
+     beanstandet, bei jedem Beitrag zu diesem Thema aufs Neue: Das Material
+     schneidet nach Ebenen (Stufe I Gesellschaft, Stufe II Gesellschafter) und
+     stellt die Ergänzungsbilanz folgerichtig auf II. Beide Schnitte sind
+     vertretbar – das Material gewinnt, solange es das ist. */
   for (const t of [
     "Stufe II: Ergänzungsbilanzen – Korrekturen einzelner Gesellschafter.",
     "Auf Stufe II kommen Ergänzungsbilanzen und das Sonderbetriebsvermögen dazu.",
-    "Zur zweiten Stufe zählen die Ergänzungsbilanzen.",
+    "Stufe I: Gesamthandsbilanz zzgl./abzgl. Ergänzungsbilanzen. Stufe II: Sonderbereich.",
+    "Stufe I ist die Gesellschaft samt Ergänzungsbilanzen, Stufe II der Sonderbereich.",
+  ]) assert.deepEqual(mitunternehmerFallen(t), [], `vertretbare Systematik beanstandet: ${t}`);
+
+  /* Beides in EINEM Beitrag ist dagegen immer falsch – das lernt niemand. */
+  assert.ok(mitunternehmerFallen("Stufe I: Gesamthandsbilanz zzgl. Ergänzungsbilanzen. Und Stufe II: Ergänzungsbilanzen je Gesellschafter.").some((f) => /Widerspruch/.test(f)),
+    "Widerspruch in der Stufen-Zuordnung nicht bemerkt");
+
+  /* Unvertretbar bleibt unvertretbar: Die Sondervergütung IST Betriebsausgabe
+     der Gesellschaft. Das stand am 15.09. auf der Kachel und kam nicht aus dem
+     Material – das sagt korrekt „Gewinn laut Sonderbilanz einschließlich
+     Sondervergütungen erfassen“. */
+  for (const t of [
     "Die Miete an Voss ist keine Betriebsausgabe der OHG, sondern erhöht seinen Gewinnanteil.",
     "Die Sondervergütung ist kein Aufwand der Gesellschaft.",
   ]) assert.ok(mitunternehmerFallen(t).length, `nicht gefangen: ${t}`);
 
-  /* Die richtige Gegenüberstellung muss durchgehen - eine Regel, die das
-     Richtige beanstandet, kostet nur Korrekturrunden. Deshalb zählt die
-     Zuordnung (Kennwort HINTER "Stufe II", kein "Stufe I" dazwischen), nicht
-     die bloße Nachbarschaft der beiden Wörter. */
   for (const t of [
-    "Zur ersten Stufe gehören auch die Ergänzungsbilanzen; erst auf Stufe II kommt der Sonderbereich dazu.",
-    "Stufe I: Gesamthandsbilanz zzgl./abzgl. Ergänzungsbilanzen. Stufe II: Sonderbereich.",
-    "Stufe I ist die Gesellschaft samt Ergänzungsbilanzen, Stufe II der Sonderbereich des Gesellschafters.",
     "Die Miete mindert als Betriebsausgabe den Gewinn der OHG und wird bei Voss hinzugerechnet.",
-    "Stufe II: Sonderbetriebsvermögen – Wirtschaftsgüter im Eigentum eines Gesellschafters.",
     "Die private Lebensführung ist keine Betriebsausgabe.",
   ]) assert.deepEqual(mitunternehmerFallen(t), [], `zu Unrecht beanstandet: ${t}`);
 
-  /* Und der Weg durch pruefeBeitrag - so wie es am 15.09. gelaufen wäre. */
-  const kachel = { folien: [{ art: "schritte", titel: "So läuft die Gewinnermittlung ab", schritte: [
-    { titel: "Stufe II: Ergänzungsbilanzen", text: "Korrekturen einzelner Gesellschafter." },
+  const kachel = { folien: [{ art: "schritte", titel: "Gewinnermittlung", schritte: [
+    { titel: "Stufe II: Sondervergütungen", text: "Die Miete ist keine Betriebsausgabe der OHG." },
   ] }] };
-  assert.ok(pruefeBeitrag(kachel).fehler.some((f) => /ERSTEN Stufe/.test(f)), "pruefeBeitrag lässt die Kachel durch");
+  assert.ok(pruefeBeitrag(kachel).fehler.some((f) => /Betriebsausgabe der Gesellschaft/.test(f)), "pruefeBeitrag lässt die Kachel durch");
 });
 
-test("Vergleichsfolien: die Spaltenzuordnung überlebt die Prüfung", async () => {
-  const { pruefeBeitrag } = await import("../src/pruefung.mjs");
+test("Vergleichsfolien: jede Spalte steht im Prüftext am Stück", async () => {
+  const { alleTexte } = await import("../src/pruefung.mjs");
   /* Der Prüftext reihte erst beide Überschriften und dann alle Punkte
-     aneinander. Damit stand ein Punkt der linken Spalte im Prüftext hinter der
-     rechten Überschrift - und bei einer Vergleichsfolie IST die Spalte die
-     Aussage. */
-  const richtig = { folien: [{ art: "vergleich", titel: "Stufe I vs. Stufe II",
+     aneinander. Damit stand ein Punkt der linken Spalte hinter der rechten
+     Überschrift – und bei einer Vergleichsfolie IST die Spalte die Aussage.
+     Jede Regel und jedes Modell hat solche Folien bis dahin verzerrt gesehen. */
+  const teile = alleTexte({ folien: [{ art: "vergleich", titel: "Stufe I vs. Stufe II",
     links: { titel: "Stufe I", punkte: ["Gesamthandsbilanz der OHG", "zzgl./abzgl. Ergänzungsbilanzen"] },
-    rechts: { titel: "Stufe II", punkte: ["Sonderbetriebsvermögen", "Sondervergütungen und -ausgaben"] } }] };
-  assert.deepEqual(pruefeBeitrag(richtig).fehler.filter((f) => /ERSTEN Stufe/.test(f)), [],
-    "richtige Spaltenzuordnung wird beanstandet");
-
-  const falsch = { folien: [{ art: "vergleich", titel: "Stufe I vs. Stufe II",
-    links: { titel: "Stufe I", punkte: ["Gesamthandsbilanz der OHG"] },
-    rechts: { titel: "Stufe II", punkte: ["Ergänzungsbilanzen je Gesellschafter", "Sonderbetriebsvermögen"] } }] };
-  assert.ok(pruefeBeitrag(falsch).fehler.some((f) => /ERSTEN Stufe/.test(f)),
-    "Ergänzungsbilanz in der Stufe-II-Spalte wird nicht bemerkt");
+    rechts: { titel: "Stufe II", punkte: ["Sonderbetriebsvermögen", "Sondervergütungen und -ausgaben"] } }] });
+  /* Verglichen werden Positionen im Prüftext: Die Punkte der linken Spalte
+     müssen VOR der rechten Überschrift stehen, die der rechten dahinter. */
+  const wo = (x) => teile.indexOf(x);
+  const iRechts = wo("Stufe II");
+  assert.ok(wo("Stufe I") >= 0 && iRechts >= 0, `Spaltenüberschriften fehlen: ${JSON.stringify(teile)}`);
+  assert.ok(wo("Stufe I") < wo("Gesamthandsbilanz der OHG"), "die linke Überschrift steht nicht vor ihren Punkten");
+  assert.ok(wo("zzgl./abzgl. Ergänzungsbilanzen") < iRechts, "ein Punkt der linken Spalte steht hinter der rechten Überschrift");
+  assert.ok(iRechts < teile.indexOf("Sonderbetriebsvermögen"), "die rechte Überschrift steht nicht vor ihren eigenen Punkten");
 });
