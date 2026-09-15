@@ -2168,6 +2168,16 @@
       "fach": "ao",
       "titel": "Einspruchsfrist: Dauer, Beginn, Ende, Eingang",
       "medienId": "18010515413763334"
+    },
+    {
+      "datum": "2026-09-15",
+      "art": "story",
+      "slot": "s1",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": "Stufe II: die Gesellschafterebene",
+      "medienId": "18205671649371485"
     }
   ],
   "fachZaehler": {
