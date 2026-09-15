@@ -80,6 +80,23 @@ function verfuegbar(pool, ledger, datum, benutzt) {
   });
 }
 
+/**
+ * Notfall, wenn der Vorrat einer Story-Art erschöpft ist: das am längsten
+ * zurückliegende Thema zuerst. Betrifft vor allem Formeln und Rechenwege -
+ * davon gibt es nur eine Handvoll.
+ *
+ * Die Zeile stand da, die Funktion nicht: Der Aufruf weiter unten lief ins
+ * Leere, sobald eine Art leer war und die Runde weit genug fortgeschritten.
+ * Aufgefallen ist es erst, als der Linter am 15.09. dazukam - vorher hätte
+ * es den Tageslauf irgendwann still zerlegt.
+ */
+function aeltesteZuerst(pool, ledger, benutzt) {
+  const zuletzt = new Map();
+  for (const e of ledger.veroeffentlicht || []) zuletzt.set(e.thema, e.datum);
+  const wann = (t) => zuletzt.get(t.id) || "0000-00-00";
+  return pool.filter((t) => !benutzt.has(t.id)).sort((a, b) => wann(a).localeCompare(wann(b))).slice(0, 5);
+}
+
 function storyZeiten(anzahl, zufall) {
   const [von, bis] = CONFIG.plan.storyFenster.map(minutenVon);
   const schritt = (bis - von) / Math.max(1, anzahl);

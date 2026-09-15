@@ -1638,38 +1638,66 @@ test("Die früheste geplante Uhrzeit ist von der Weckkette auch erreichbar", asy
     `Untergrenze ${frueheste} ist zu hoch – die Stunde davor wäre um ${ersterLaufLokal}:${minute} erreichbar gewesen`);
 });
 
-test("Fehlerklassen werden dort importiert, wo sie geprüft werden", async () => {
-  /* Am 15.09. verwarf der Morgenlauf beide Texte mit „BudgetFehler is not
-     defined". autor.mjs prüfte `e instanceof BudgetFehler`, ohne die Klasse zu
-     importieren - seit dem 13.09. Auffällig wurde es erst, als der Faktencheck
-     tatsächlich einmal warf: Bis dahin lief die Zeile nie. Genau deshalb fängt
-     kein Test mit echtem Ablauf so etwas; gesucht wird im Quelltext.
+test("Fachbegriffe landen nicht in der Namenssperre", async () => {
+  const { korpus, gesperrteNamen } = await import("../src/pruefung.mjs");
+  /* Am 15.09. scheiterte ein fachlich richtiger Beitrag an „Sonderbetriebs-
+     einnahmen": Das Anredemuster („Gesellschafter X") hatte den Fachbegriff
+     eingefangen, der im Kursmaterial hinter „Gesellschafter" stand. Kosten:
+     eine Korrekturrunde, und das bei jedem Beitrag zur Mitunternehmerschaft. */
+  for (const t of ["Die Sonderbetriebseinnahmen erhöhen den Gewinn auf Stufe II.", "Sonderbetriebsausgaben mindern ihn.", "Die Gewerbesteuerrückstellung ist zu bilden."]) {
+    assert.deepEqual(gesperrteNamen(t), [], `Fachbegriff gesperrt: ${t}`);
+  }
+  /* Die Sperre muss trotzdem greifen - sonst wäre sie nur noch Dekoration. */
+  for (const n of ["Meurer", "Jacobs", "Nordlicht", "Wetzlar", "Media Markt"]) {
+    assert.ok(gesperrteNamen(`Im Fall ${n} geht es um § 15 EStG.`).length, `Fallname nicht mehr gesperrt: ${n}`);
+  }
+  /* Und die Regel dahinter: Fallnamen sind kurz. Was einwortig und länger als
+     fünfzehn Zeichen ist, ist ein deutsches Kompositum. */
+  const lang = korpus().namen.filter((n) => !/[- ]/.test(n) && n.length > 15);
+  assert.deepEqual(lang, [], `zu lange Einwort-Namen im Korpus: ${lang.join(", ")}`);
+});
 
-     Geprüft wird nur `instanceof X` und `new X` mit einer Klasse, die ein
-     Nachbarmodul exportiert - eindeutig genug, um ohne Fehlalarme auszukommen. */
-  const dir = new URL("../src/", import.meta.url);
-  const dateien = (await fs.promises.readdir(dir)).filter((f) => f.endsWith(".mjs"));
-  const fremd = new Map();
-  for (const f of dateien) {
-    const q = await fs.promises.readFile(new URL(f, dir), "utf8");
-    for (const m of q.matchAll(/^export\s+class\s+([A-Za-z_$][\w$]*)/gm)) fremd.set(m[1], f);
+test("Merkhilfen im Material werden dem Autor vorher angesagt", async () => {
+  const { themaText } = await import("../src/autor.mjs");
+  /* Billiger als eine Korrekturrunde hinterher: Steht im Kursmaterial ein
+     fremdes Kürzel, bekommt das Modell einen Satz dazu, bevor es schreibt.
+     Am 15.09. kostete der umgekehrte Weg 0,044 $ - für einen Entwurf, der
+     danach weggeworfen wurde. */
+  const mitKuerzel = { fach: "istr", klausur: 2, titel: "Persönliche Steuerpflicht", normen: [], kern: { merksatz: "Bei § 1 Abs. 4 EStG danach EIS und erst anschließend das DBA." } };
+  const hinweis = themaText(mitKuerzel).split("\n").pop();
+  assert.match(hinweis, /Merkhilfe/, "kein Hinweis auf die Merkhilfe im Material");
+  assert.match(hinweis, /„EIS“/, "das Kürzel wird nicht benannt");
+  /* Das Kürzel bleibt im Material stehen - herausgeschnitten ergäbe der Satz
+     keinen Sinn mehr und wäre eine schlechtere Vorlage. */
+  assert.match(themaText(mitKuerzel), /danach EIS und/, "das Material wurde verstümmelt");
+  /* Ohne Kürzel kein Hinweis: Der Satz kostet Tokens und soll nicht immer da sein. */
+  const ohne = { fach: "persg", klausur: 3, titel: "Stufe II", normen: [], kern: { merksatz: "Stufe II ist die Gesellschafterebene." } };
+  assert.doesNotMatch(themaText(ohne), /Merkhilfe/, "Hinweis ohne Anlass");
+});
+
+test("Bezahlte Entwürfe überleben den Lauf, in dem sie entstanden sind", async () => {
+  const { entwurfsspeicher, entwuerfeAufraeumen } = await import("../src/autor.mjs");
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "entwuerfe-"));
+  try {
+    entwurfsspeicher(dir);
+    /* Der Speicher wird über strukturiert() gefüllt, und das ruft das Modell.
+       Geprüft wird deshalb, was ohne Netz prüfbar ist: dass abgelegte Entwürfe
+       nach Alter verschwinden und frische liegen bleiben. Ohne Aufräumen
+       wüchse der Asset-Zweig mit jedem Tag. */
+    const schreib = (name, datum) => fs.writeFileSync(path.join(dir, name), JSON.stringify({ datum, zweck: "autor", daten: { titel: name } }));
+    schreib("heute.json", "2026-09-15");
+    schreib("vorgestern.json", "2026-09-13");
+    schreib("uralt.json", "2026-08-01");
+    schreib("kaputt.json", "2026-09-15");
+    fs.writeFileSync(path.join(dir, "kaputt.json"), "{kein json");
+    const weg = entwuerfeAufraeumen(3, "2026-09-15");
+    const da = fs.readdirSync(dir).sort();
+    assert.deepEqual(da, ["heute.json", "vorgestern.json"], `übrig: ${da.join(", ")}`);
+    assert.equal(weg, 2, "Anzahl der entfernten Entwürfe stimmt nicht");
+  } finally {
+    entwurfsspeicher(null);
+    fs.rmSync(dir, { recursive: true, force: true });
   }
-  assert.ok(fremd.has("BudgetFehler"), "BudgetFehler sollte als Klasse exportiert sein");
-  const fehlend = [];
-  for (const f of dateien) {
-    const q = await fs.promises.readFile(new URL(f, dir), "utf8");
-    const importiert = new Set();
-    for (const m of q.matchAll(/import\s*(?:[\w$]+\s*,\s*)?\{([^}]*)\}\s*from/g)) {
-      for (const t of m[1].split(",")) { const n = t.split(/\s+as\s+/).pop().trim(); if (n) importiert.add(n); }
-    }
-    const lokal = new Set([...q.matchAll(/(?:^|\s)(?:export\s+)?class\s+([A-Za-z_$][\w$]*)/g)].map((m) => m[1]));
-    for (const m of q.matchAll(/\b(?:instanceof|new)\s+([A-Z][\w$]*)/g)) {
-      const n = m[1];
-      if (!fremd.has(n) || fremd.get(n) === f || importiert.has(n) || lokal.has(n)) continue;
-      fehlend.push(`${f}: ${m[0]} – ${n} kommt aus ${fremd.get(n)}`);
-    }
-  }
-  assert.deepEqual(fehlend, [], `nicht importierte Klassen:\n  ${fehlend.join("\n  ")}`);
 });
 
 test("Fachbegriffe landen nicht in der Namenssperre", async () => {

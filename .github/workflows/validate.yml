@@ -9,6 +9,38 @@ permissions:
   contents: write
 
 jobs:
+  # Der Bot-Code lief bis zum 15.09. durch keine einzige CI-Prüfung: validate
+  # kümmerte sich nur um die Webseite. An diesem Tag kosteten drei Fehler
+  # derselben Art - ein Bezeichner benutzt, aber nirgends definiert - zwei
+  # Tagesbudgets, ohne dass ein Beitrag erschien. Alle drei hätte der Linter
+  # in einer Sekunde gefunden.
+  bot:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: social
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: social/package-lock.json
+      - name: Abhängigkeiten
+        run: npm ci
+      # Der Linter ist der eigentliche Wächter: no-undef hätte BudgetFehler,
+      # den fehlenden Faktencheck-Aufruf und aeltesteZuerst allesamt gemeldet.
+      - name: Linter
+        run: npm run lint
+      # ffmpeg und Chromium braucht die Testreihe wirklich - ohne sie fallen
+      # fünf Tests mit „spawnSync ffmpeg ENOENT“ aus.
+      - name: ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Chromium
+        run: npx playwright install --with-deps chromium || npx playwright install chromium
+      - name: Tests
+        run: npm test
+
   validate:
     runs-on: ubuntu-latest
     steps:
