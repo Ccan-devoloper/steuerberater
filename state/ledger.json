@@ -2106,6 +2106,16 @@
       "fach": "erbst",
       "titel": "Schuldenabzug bei steuerbefreiten Wirtschaftsgütern",
       "medienId": "18105851171582756"
+    },
+    {
+      "datum": "2026-09-15",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "frage",
+      "thema": "persg-quiz-persg-0",
+      "fach": "persg",
+      "titel": "Welche zwei Merkmalsgruppen bestimmen die Mitunternehmerstellung?",
+      "medienId": "18116186917755845"
     }
   ],
   "fachZaehler": {
