@@ -875,6 +875,18 @@ test("Prüfung: Merkhilfen anderer Dozenten werden zurückgewiesen, Fachbegriffe
   for (const t of ["§ 15 EStG und das DBA-Schema", "Die Teilwert-Methode", "Die ABC-Analyse", "Das Prüfungsschema zur Steuerbarkeit"]) {
     assert.equal(gefundeneEigenbegriffe(t).length, 0, `zu Unrecht: ${t}`);
   }
+  /* Das Kürzel steht im Kursmaterial auch blank – genau so kam es am 15.09. in
+     den Themenpool des Tagesreels, und „EIS-Methode“ allein hätte es nicht
+     aufgehalten. */
+  for (const t of ["Bei § 1 Abs. 4 EStG mit der Merkhilfe EIS weiterprüfen", "Danach EIS und anschließend DBA-AAVV", "Persönlicher Steuerzugriff zuerst, danach EIS."]) {
+    assert.ok(gefundeneEigenbegriffe(t).length, `blankes Kürzel nicht erkannt: ${t}`);
+    assert.ok(pruefeBeitrag({ caption: t }).fehler.some((f) => /Merkhilfe/.test(f)), `nicht beanstandet: ${t}`);
+  }
+  /* Groß-/Kleinschreibung entscheidet, und das Kürzel darf nicht in einem
+     längeren Wort stecken – sonst bliebe halb Deutschland hängen. */
+  for (const t of ["Im Winter gab es Eis und Schnee", "Die Eisenbahn fährt über die Grenze", "REIS ist ein Grundnahrungsmittel", "Die EISENWERK GmbH", "Prüfe Einkunftsart, inländische Einkünfte und Steuerzugriff"]) {
+    assert.equal(gefundeneEigenbegriffe(t).length, 0, `zu Unrecht: ${t}`);
+  }
 });
 
 test("Icons: jeder Schlüssel des Autors hat ein farbiges Gegenstück", async () => {

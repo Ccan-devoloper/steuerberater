@@ -66,9 +66,16 @@ const SPERRLISTE_DATEI = path.resolve(hier, "../config/namen-sperrliste.json");
    sondern deren Eigenschöpfung. Ein Beitrag, der so etwas übernimmt, wirkt
    wie abgeschrieben – und ist es auch. */
 const EIGENBEGRIFFE_DATEI = path.resolve(hier, "../config/eigenbegriffe.json");
-export function eigenbegriffe() {
-  try { return fs.existsSync(EIGENBEGRIFFE_DATEI) ? (JSON.parse(fs.readFileSync(EIGENBEGRIFFE_DATEI, "utf8")).begriffe || []) : []; } catch { return []; }
-}
+const eigenbegriffeDatei = () => {
+  try { return fs.existsSync(EIGENBEGRIFFE_DATEI) ? JSON.parse(fs.readFileSync(EIGENBEGRIFFE_DATEI, "utf8")) : {}; } catch { return {}; }
+};
+export function eigenbegriffe() { return eigenbegriffeDatei().begriffe || []; }
+/* Dieselben Merkhilfen ohne das angehängte Wort. Im Kursmaterial steht das
+   Kürzel oft blank – „danach EIS und anschließend das DBA“, „DBA-AAVV“ –, und
+   genau so wanderte es am 15.09. in den Themenpool des Tagesreels: „EIS-Methode“
+   war gesperrt, das blanke „EIS“ nicht. Gesucht wird nur in Großbuchstaben,
+   sonst bliebe jedes gewöhnliche „Eis“ hängen. */
+export function eigenbegriffKuerzel() { return eigenbegriffeDatei().kuerzel || []; }
 /* Trifft die gesperrten Begriffe – und darüber hinaus jede Merkhilfe nach
    dem Muster GROSSBUCHSTABEN-Methode/-Schema/-Formel, sofern sie nicht in der
    Fachsprache üblich ist. Solche Kürzel sind fast immer die Erfindung eines
@@ -82,6 +89,12 @@ export function gefundeneEigenbegriffe(text) {
   }
   for (const m of t.matchAll(/\b([A-ZÄÖÜ]{2,6})-(Methode|Schema|Formel|Regel|Trick|Prinzip|Technik)\b/g)) {
     if (!UEBLICH.has(m[0].toLowerCase())) treffer.add(m[0]);
+  }
+  /* Groß-/Kleinschreibung zählt hier, anders als oben: „EIS“ ist die Merkhilfe,
+     „Eis“ ein Wort. Und das Kürzel darf nicht Teil eines längeren Wortes sein –
+     „EISENBAHN“ und „REIS“ bleiben unbehelligt, „DBA-AAVV“ nicht. */
+  for (const k of eigenbegriffKuerzel()) {
+    if (new RegExp(`(?<![A-ZÄÖÜa-zäöüß])${k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![A-ZÄÖÜa-zäöüß])`, "u").test(t)) treffer.add(k);
   }
   return [...treffer];
 }
