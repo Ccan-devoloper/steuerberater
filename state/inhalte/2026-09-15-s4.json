@@ -1,0 +1,16 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "ueberzeile": "Richtig ist A",
+  "titel": "Mitunternehmerrisiko und Mitunternehmerinitiative",
+  "text": "Beide Merkmale müssen vorliegen, können aber unterschiedlich stark ausgeprägt sein – ständige Rspr. zu § 15 (1) S. 1 Nr. 2 EStG.",
+  "optionen": [
+    "Risiko und Initiative",
+    "Haftung und Umsatz",
+    "Kapital und Gewerbesteuer"
+  ],
+  "richtig": 0,
+  "fachLabel": "Personengesellschaften"
+}

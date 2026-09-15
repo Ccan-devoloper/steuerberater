@@ -1,0 +1,12 @@
+{
+  "slot": "s9",
+  "art": "begriff",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Fiktive nichtabziehbare Betriebsausgaben",
+  "text": "Bei steuerfreien Beteiligungserträgen gelten pauschal *5 %* des Ertrags als nicht abziehbare Betriebsausgaben – unabhängig davon, was tatsächlich angefallen ist.",
+  "norm": "§ 8b (3) S. 1, (5) S. 1 KStG",
+  "icon": "aktenschrank",
+  "bildSzene": "stack of financial statements folder",
+  "fachLabel": "Bilanzsteuerrecht"
+}

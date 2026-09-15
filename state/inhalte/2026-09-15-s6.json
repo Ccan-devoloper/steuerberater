@@ -1,0 +1,15 @@
+{
+  "slot": "s6",
+  "art": "countdown",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Tage bis zur schriftlichen Prüfung",
+  "text": "Heute: ein Schema laut aufsagen, ohne aufs Skript zu schauen. Was hakt, kommt auf die Karteikarte.",
+  "zahl": "21",
+  "fortschritt": 86,
+  "ueberzeile": "Noch",
+  "fachLabel": "Bilanzsteuerrecht",
+  "beanstandet": [
+    "Bezug auf Kursquelle/Seiten/Fallnummern entfernen: Skript"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slot": "s7",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Übertragungsreihenfolge § 6b EStG",
+  "text": "Beispiel: Gewinn 80.000 € aus Grundstücksverkauf. Neues Gebäude 60.000 €, kein neuer Grund und Boden – dann mindert der *gesamte* Gewinn die Gebäude-AK.",
+  "formel": "Erst Grund und Boden, dann Gebäude – begrenzt durch AK/HK",
+  "fachLabel": "Bilanzsteuerrecht"
+}
