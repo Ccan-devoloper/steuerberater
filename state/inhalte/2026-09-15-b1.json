@@ -1,0 +1,108 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-persg-2",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der Fehler, der beim Sonderbetriebsvermögen Punkte kostet",
+      "icon": "gebaeude",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Kommt fast jedes Jahr dran",
+      "hinweis": "Weiter geht's →"
+    },
+    {
+      "art": "text",
+      "titel": "Der Fall",
+      "text": "Die Tischlerei Ahrens & Voss OHG erstellt ihre Handelsbilanz. Gesellschafter Voss vermietet der OHG zusätzlich sein Werkstattgrundstück und erhält dafür Miete. Frage: Reicht die Gesamthandsbilanz für den steuerlichen Gewinn der Mitunternehmerschaft aus?",
+      "icon": "gebaeude"
+    },
+    {
+      "art": "schritte",
+      "titel": "So läuft die Gewinnermittlung ab",
+      "schritte": [
+        {
+          "titel": "Stufe I: Gesamthandsbilanz",
+          "text": "Handels- und Steuerbilanz der OHG nach § 4 (1), § 5 (1) EStG – der gemeinsame Gewinn aller Gesellschafter."
+        },
+        {
+          "titel": "Stufe II: Ergänzungsbilanzen",
+          "text": "Korrekturen einzelner Gesellschafter, etwa nach entgeltlichem Anteilserwerb mit Mehr- oder Minderwerten."
+        },
+        {
+          "titel": "Stufe II: Sonderbetriebsvermögen",
+          "text": "Wirtschaftsgüter im Eigentum eines Gesellschafters, die dem Betrieb der OHG dienen – wie das Grundstück von Voss."
+        },
+        {
+          "titel": "Sonderbetriebseinnahmen und -ausgaben",
+          "text": "Die Miete an Voss ist keine Betriebsausgabe der OHG, sondern erhöht seinen Gewinnanteil nach § 15 (1) S. 1 Nr. 2 EStG."
+        }
+      ],
+      "icon": "vertrag"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Stufe I vs. Stufe II",
+      "links": {
+        "titel": "Stufe I",
+        "punkte": [
+          "Gesamthandsbilanz der OHG",
+          "Gemeinsamer Steuerbilanzgewinn",
+          "Betrifft alle Gesellschafter gleich"
+        ]
+      },
+      "rechts": {
+        "titel": "Stufe II",
+        "punkte": [
+          "Ergänzungsbilanzen je Gesellschafter",
+          "Sonderbetriebsvermögen und -vergütungen",
+          "Betrifft nur den einzelnen Gesellschafter"
+        ]
+      },
+      "icon": "vertrag"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Erst rechnet die Gesellschaft, dann rechnet jeder Gesellschafter für sich – zusammen ergibt das den Gewinn aus § 15 (1) S. 1 Nr. 2 EStG.",
+      "icon": "waage"
+    },
+    {
+      "art": "cta",
+      "titel": "Klausur 3 lebt von solchen Schemata.",
+      "punkte": [
+        "Schick das deiner Lerngruppe",
+        "Speichern für die Wiederholung",
+        "Welche Stufe bereitet dir noch Probleme? Kommentiere!"
+      ],
+      "icon": "personen"
+    }
+  ],
+  "caption": "Zweistufige Gewinnermittlung Mitunternehmerschaft – warum eine Bilanz allein nicht reicht Bei Personengesellschaften ist die Gesamthandsbilanz nur der erste Schritt. Auf Stufe II kommen Ergänzungsbilanzen und das Sonderbetriebsvermögen der einzelnen Gesellschafter dazu – etwa wenn ein Gesellschafter der Gesellschaft ein Grundstück vermietet. Das ist Klausur-3-Stoff, der fast jedes Jahr in irgendeiner Form dran ist. Schick das deiner Lerngruppe und speichern für die Wiederholung. Wo hakt es bei dir – Ergänzungsbilanz oder Sonderbetriebsvermögen?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#steuerwissen",
+    "#studygram",
+    "#mitunternehmerschaft",
+    "#personengesellschaft",
+    "#gewinnermittlung",
+    "#sonderbetriebsvermögen",
+    "#ergänzungsbilanz",
+    "#bilanzsteuerrecht"
+  ],
+  "kurztitel": "Stufe II: die Gesellschafterebene",
+  "bildSzene": "wooden workshop building exterior",
+  "bildSzeneAlt": "handwritten rental agreement on desk",
+  "quellen": [],
+  "hookTyp": "fehler",
+  "faktenHinweise": [],
+  "slug": "2026-09-15-b1"
+}

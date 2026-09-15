@@ -1,0 +1,131 @@
+{
+  "datum": "2026-09-15",
+  "zweck": "reel",
+  "daten": {
+    "szenen": [
+      {
+        "art": "hook",
+        "nummer": null,
+        "titel": "Wohnt in Polen, arbeitet für dich?",
+        "unter": null,
+        "text": null,
+        "norm": null,
+        "icon": "globus",
+        "sprecher": "Herr Novak wohnt in Polen und pendelt jede Woche zu seinem Arbeitgeber nach Görlitz. Ist er in Deutschland überhaupt steuerpflichtig?",
+        "marken": [
+          "Persönliche *Steuerpflicht*"
+        ],
+        "bildSzene": "passport and train ticket on desk",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 1,
+        "titel": "Wohnsitz oder Aufenthalt?",
+        "unter": null,
+        "text": "Erst prüfen: Lebt die Person hier?",
+        "norm": "§ 1 (1) EStG",
+        "icon": "haus",
+        "sprecher": "Der erste Blick gilt Paragraf 1 Absatz 1 EStG. Hat jemand einen Wohnsitz oder gewöhnlichen Aufenthalt im Inland, ist er unbeschränkt steuerpflichtig – mit seinem gesamten Welteinkommen. Bei Herrn Novak: Fehlanzeige, er wohnt in Polen.",
+        "marken": [
+          "§ 1 (1) EStG: *Welteinkommen*"
+        ],
+        "bildSzene": "house key on doormat",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 2,
+        "titel": "Antrag nach § 1 (3)?",
+        "unter": null,
+        "text": "Fast alle Einkünfte aus Deutschland?",
+        "norm": "§ 1 (3) EStG i.V.m. § 49 EStG",
+        "icon": "paragraf",
+        "sprecher": "Jetzt kommt Paragraf 1 Absatz 3 EStG. Auf Antrag wird jemand wie unbeschränkt steuerpflichtig behandelt, wenn seine Einkünfte im Sinne von Paragraf 49 EStG mindestens neunzig Prozent seines Welteinkommens ausmachen – oder die ausländischen Einkünfte unter dem Grundfreibetrag liegen. Herr Novak muss das mit einer Bescheinigung seiner Heimatbehörde belegen.",
+        "marken": [
+          "*90 %*-Grenze oder Grundfreibetrag"
+        ],
+        "bildSzene": "foreign tax certificate document",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 3,
+        "titel": "Beschränkte Steuerpflicht?",
+        "unter": null,
+        "text": "Sonst greift der Auffangtatbestand.",
+        "norm": "§ 1 (4) EStG",
+        "icon": "koffer",
+        "sprecher": "Scheitert auch der Antrag, bleibt Paragraf 1 Absatz 4 EStG. Wer keinen Wohnsitz und keinen gewöhnlichen Aufenthalt im Inland hat, aber inländische Einkünfte erzielt, ist beschränkt steuerpflichtig – eben nur mit diesen inländischen Einkünften.",
+        "marken": [
+          "§ 1 (4) EStG: *beschränkt*"
+        ],
+        "bildSzene": "single folder with border stamp",
+        "kreuz": false
+      },
+      {
+        "art": "punkt",
+        "nummer": null,
+        "titel": "Drei Fragen für § 1 (4)",
+        "unter": null,
+        "text": "Einkunftsart, Inlandsbezug, dann erst Abkommen.",
+        "norm": "§ 49 EStG",
+        "icon": "lupe",
+        "sprecher": "Für Paragraf 1 Absatz 4 prüfst du danach drei Dinge in fester Reihenfolge. Erstens: Welche Einkunftsart liegt vor. Zweitens: Sind das wirklich inländische Einkünfte nach Paragraf 49. Und erst danach schaust du, ob ein Doppelbesteuerungsabkommen den deutschen Zugriff wieder einschränkt.",
+        "marken": [
+          "Einkunftsart – Inland – *dann* Abkommen"
+        ],
+        "bildSzene": "map with pinned location",
+        "kreuz": false
+      },
+      {
+        "art": "merke",
+        "nummer": null,
+        "titel": "Merksatz",
+        "unter": null,
+        "text": "Erst der persönliche Zugriff, dann das Abkommen – nie umgekehrt.",
+        "norm": "§ 1 (1), (3), (4) EStG",
+        "icon": "buch",
+        "sprecher": "Merk dir die Reihenfolge: Erst klärst du, ob und wie Deutschland überhaupt zugreifen darf. Erst danach fragst du, ob ein Abkommen diesen Zugriff wieder beschränkt. Wer das umdreht, prüft am Sachverhalt vorbei.",
+        "marken": [
+          "Reihenfolge *entscheidet*"
+        ],
+        "bildSzene": "map with pinned location",
+        "kreuz": false
+      },
+      {
+        "art": "cta",
+        "nummer": null,
+        "titel": "Diese Prüfung sitzt fast immer.",
+        "unter": null,
+        "text": null,
+        "norm": null,
+        "icon": null,
+        "sprecher": "Diese drei Absätze tauchen fast jedes Jahr in irgendeiner Form auf. Folg mir, wenn du dir solche Prüfschemata für die Klausur sortiert holen willst.",
+        "marken": [
+          "Folgen für mehr *Prüfschemata*"
+        ],
+        "bildSzene": null,
+        "kreuz": false
+      }
+    ],
+    "caption": "Persönliche Steuerpflicht Paragraf 1 EStG: Wer ist eigentlich in Deutschland steuerpflichtig?\n\nDrei Absätze, ein Prüfweg: erst Wohnsitz oder gewöhnlicher Aufenthalt nach Absatz 1, dann der Antrag nach Absatz 3 mit der 90-Prozent-Grenze, dann die beschränkte Steuerpflicht nach Absatz 4. Erst wenn der persönliche Zugriff geklärt ist, kommt das Doppelbesteuerungsabkommen ins Spiel.\n\nSchick das deiner Lerngruppe, bevor ihr das nächste Mal einen Auslandsfall übt. Speichern lohnt sich für die Wiederholung kurz vor der Klausur.\n\nWelcher der drei Absätze bereitet dir noch Kopfzerbrechen?",
+    "hashtags": [
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#stbexamen",
+      "#steuerberater",
+      "#steuerrecht",
+      "#examensvorbereitung",
+      "#internationales steuerrecht",
+      "#einkommensteuer",
+      "#beschränktesteuerpflicht",
+      "#unbeschränktesteuerpflicht",
+      "#dba",
+      "#klausurtechnik"
+    ],
+    "kurztitel": "Persönliche Steuerpflicht: der Prüfweg",
+    "bildSzene": "passport and train ticket on desk",
+    "bildSzeneAlt": "map with pinned location"
+  }
+}
