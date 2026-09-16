@@ -40,6 +40,7 @@
     "check:kst-hausaufgaben": "node tools/pruefen-kst-hausaufgaben.mjs",
     "check:est-hausaufgaben": "node tools/pruefen-est-hausaufgaben.mjs",
     "check:est-fallsammlungen": "node tools/pruefen-est-fallsammlungen.mjs",
+    "check:est-kurzskript-2": "node tools/pruefen-est-kurzskript-2.mjs",
     "check:gewst": "node tools/pruefen-gewst.mjs",
     "check:k3-persg-tag1": "node tools/pruefen-k3-persg-tag1.mjs",
     "check:k3-persg-tag2": "node tools/pruefen-k3-persg-tag2.mjs",

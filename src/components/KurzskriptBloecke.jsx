@@ -6,8 +6,9 @@
    HausaufgabenBloecke, damit Absätze, Zwischenüberschriften und Tabellen im
    ganzen Campus gleich aussehen.
 
-   Kapitel sind aufgeklappt; die Filterleiste springt über die Kapitelnummern,
-   die Suche greift auf den Volltext des Kapitels. */
+   Kapitel sind aufgeklappt; die Filterleiste springt standardmäßig über die
+   Kapitelnummern, bei mehrteiligen Skripten über die Teile (gruppeVon/
+   gruppeLabel). Die Suche greift auf den Volltext des Kapitels. */
 import React, { useMemo, useState } from "react";
 import { Block } from "./HausaufgabenBloecke";
 import "./istr-fallsammlung.css";
@@ -25,12 +26,17 @@ const volltext = (kapitel) => {
   return teile.join(" ").toLowerCase();
 };
 
+/* `kicker` ist entweder ein fester Text (einteilige Skripte: "Kapitel 3") oder
+   eine Funktion, die aus dem Kapitel eine Beschriftung baut - bei mehrteiligen
+   Skripten braucht die Karte den Teil dazu, weil die Nummerierung je Teil neu
+   beginnt. */
 function Kapitelkarte({ kapitel, kicker }) {
+  const beschriftung = typeof kicker === "function" ? kicker(kapitel) : `${kicker} ${kapitel.kapitel}`;
   return (
     <article className="panel istr-fs-fall istr-ha-karte" id={kapitel.id} data-kapitel={kapitel.kapitel}>
       <header className="istr-fs-fall__kopf">
         <div>
-          <span className="kicker">{kicker} {kapitel.kapitel}</span>
+          <span className="kicker">{beschriftung}</span>
           <h3>{kapitel.title}</h3>
           <p className="istr-ha-thema">{kapitel.thema}</p>
         </div>
@@ -56,6 +62,8 @@ function Kapitelkarte({ kapitel, kicker }) {
 export default function KurzskriptBloecke({
   kicker, titel, lead, quelle, kapitel,
   karteKicker = "Kapitel", suchePlatzhalter,
+  gruppeVon = (k) => k.kapitel, gruppeLabel = (k) => k.kapitel,
+  gruppeAria = "Kapitel", gruppeAlle = "Alle Kapitel",
 }) {
   const [gewaehlt, setGewaehlt] = useState("alle");
   const [suche, setSuche] = useState("");
@@ -63,14 +71,19 @@ export default function KurzskriptBloecke({
   const gefiltert = useMemo(() => {
     const q = suche.trim().toLowerCase();
     return kapitel.filter((k) => {
-      if (gewaehlt !== "alle" && String(k.kapitel) !== gewaehlt) return false;
+      if (gewaehlt !== "alle" && String(gruppeVon(k)) !== gewaehlt) return false;
       if (!q) return true;
       return volltext(k).includes(q);
     });
-  }, [gewaehlt, suche, kapitel]);
+  }, [gewaehlt, suche, kapitel, gruppeVon]);
 
   const bloecke = kapitel.reduce((n, k) => n + k.bloecke.length, 0);
-  const auswahl = [["alle", "Alle Kapitel"], ...kapitel.map((k) => [String(k.kapitel), k.kapitel])];
+  /* Mehrere Kapitel können zum selben Teil gehören; die Map hält je Gruppe den
+     ersten Eintrag und bewahrt die Reihenfolge der Quelle. */
+  const auswahl = [
+    ["alle", gruppeAlle],
+    ...new Map(kapitel.map((k) => [String(gruppeVon(k)), gruppeLabel(k)])),
+  ];
 
   return (
     <div className="istr-fs-page istr-ha-page">
@@ -91,7 +104,7 @@ export default function KurzskriptBloecke({
         {quelle.didaktik.map((absatz) => <p key={absatz}>{absatz}</p>)}
       </section>
 
-      <section className="istr-fs-steuerung" aria-label="Kapitel filtern">
+      <section className="istr-fs-steuerung" aria-label={`${gruppeAria} filtern`}>
         <label className="istr-fs-suche">
           <span>Skript durchsuchen</span>
           <input
@@ -101,7 +114,7 @@ export default function KurzskriptBloecke({
             placeholder={suchePlatzhalter}
           />
         </label>
-        <div className="istr-fs-kategorien" role="group" aria-label="Kapitel">
+        <div className="istr-fs-kategorien" role="group" aria-label={gruppeAria}>
           {auswahl.map(([id, label]) => (
             <button type="button" key={id} aria-pressed={gewaehlt === id} onClick={() => setGewaehlt(id)}>{label}</button>
           ))}
@@ -110,7 +123,7 @@ export default function KurzskriptBloecke({
 
       {gefiltert.length === 0 && (
         <section className="panel istr-fs-leer">
-          <h3>Kein Kapitel gefunden</h3>
+          <h3>Nichts gefunden</h3>
           <p>Suchbegriff oder Auswahl ändern.</p>
         </section>
       )}

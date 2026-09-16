@@ -54,6 +54,9 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
    das Kurzskript II (Engelberth), die Fallsammlungen (§§ 15, 17, 20, 23, 16,
    Betriebsaufspaltung, gewerblicher Grundstückshandel, Renten, Erbfall, § 15a) und die
    Steuerberaterprüfungen RS 2025. Das ESt-Cockpit führt diese Liste selbst mit.
+   Aktualisierung: Das Kurzskript II ist inzwischen vollständig erfasst (siehe unten), ebenso die
+   Fallsammlungen der Fachtermine 1 bis 9. Offen sind damit nur noch die Fallsammlungen
+   Gewerbebetrieb und Kapitalvermögen sowie die Steuerberaterprüfungen RS 2025.
 2. **K2 GewSt** – erledigt: Der Campus steht mit Kurzskript (Engelberth/Breier),
    Hausaufgabe mit Lösung und den Übungsfällen (Nöthen). Offen bleibt allein der
    Lösungsteil der Fallsammlung, der im freigegebenen Ordner nicht enthalten ist.
@@ -394,3 +397,90 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
 
   Offen bleibt im GewSt-Campus damit nur noch – sobald vorhanden – der Lösungsteil der
   Fallsammlung (Nöthen).
+
+- **ESt-Kurzskript II erfasst** (Martin Engelberth, Rechtslage 31.12.2025, Stand 05/2026): Das
+  Lehrgangsskript steht vollständig im Reiter „Kurzskript II" des ESt-Campus – acht Teile,
+  43 Kapitel, 1.415 Abschnitte, 100 Tabellen:
+
+  1. **§ 17 EStG** – Grundtatbestand mit Freibetragsschema, Subsidiarität, relevante Beteiligung
+     (Fünf-Jahres-Zeitraum, nominelle, mittelbare und eigene Anteile, Fußstapfentheorie),
+     Anschaffungskosten nach § 17 Abs. 2a EStG einschließlich Krisen- und stehengelassener
+     Darlehen, Veräußerungsgewinn und Verlustabzugsverbote sowie die Sondertatbestände
+     (Einlage, verdeckte Einlage, Personengesellschaft, Auflösung).
+  2. **Private Veräußerungsgeschäfte** – Tatbestände, Subsidiarität, Fristberechnung,
+     Gewinnermittlung mit AfA-Minderung und Ratenzufluss, Freigrenze, Verluste, Sondertatbestände.
+  3. **Sonstige Einkünfte** – Katalog des § 22 EStG, Renten aus nachgelagerter Besteuerung mit
+     Besteuerungsanteil und steuerfreiem Teil, übrige private Renten mit Ertragsanteil und § 55
+     Abs. 2 EStDV, Realsplitting, Leistungen nach § 22 Nr. 3 EStG, Altersvorsorgeverträge.
+  4. **Vorweggenommene Erbfolge** – Privat- und Betriebsvermögen, Trennungs- und Einheitstheorie,
+     AfA in zwei Reihen, Bedingung/Befristung/Betagung, Schuldzinsenabzug, Mischfälle.
+  5. **Erbfall, Erbengemeinschaft und Erbauseinandersetzung** – Erbfall, Auseinandersetzung über
+     Betriebs-, Privat- und Mischnachlass mit und ohne Abfindung, Vermächtnis, Pflichtteil sowie
+     Auflösungs-, Fortsetzungs-, einfache und qualifizierte Nachfolge- und Eintrittsklausel.
+  6. **Nichtselbständige Arbeit** – Arbeitnehmer- und Arbeitslohnbegriff, Versorgungsbezüge,
+     Sachbezüge mit Pauschal- und Fahrtenbuchmethode, Belegschaftsrabatte, Werbungskosten
+     (Entfernungspauschale, doppelte Haushaltsführung, Reisekosten, Arbeitsmittel, häusliches
+     Arbeitszimmer, Homeoffice-Pauschale), Pauschbeträge, gemischte Aufwendungen.
+  7. **§ 15a EStG** – Grundtatbestand, stille Gesellschaft, Umfang des Kapitalkontos (Zwei-, Drei-
+     und Vier-Konten-Modell), Einlagen und nachträgliche Einlagen, erweiterter Verlustausgleich,
+     Einlage- und Haftungsminderung, Veränderungen im Gesellschafterbestand.
+  8. **Wiederkehrende Leistungen bei Vermögensübertragungen** – Versorgungs-, Unterhalts- und
+     Austauschleistungen, Wahlrecht zwischen Sofort- und Zuflussversteuerung, Abgrenzung Rente/
+     Rate/dauernde Last, Veräußerungstatbestände nach § 17 EStG sowie die beiden Schaubilder.
+
+  **Hinweis zur Quelle:** Der Drive-Connector gibt das PDF nur bis Seite 79 von 137 aus; die
+  restlichen Teile wurden deshalb aus der heruntergeladenen PDF-Datei selbst extrahiert
+  (pypdf), damit das Skript vollständig erfasst werden konnte.
+
+  **Lücken im PDF selbst:** An sechs Stellen fehlen im Textlayer des PDF einzelne Ziffern; beide
+  Extraktionswege zeigen dieselbe Lücke. Diese Stellen stehen mit eckigen Klammern und einem
+  ausdrücklichen Hinweis – ergänzt wurde nur, was der Rechenweg der Quelle selbst belegt:
+  der Werbungskosten-Pauschbetrag (102 €), die Freigrenze des § 22 Nr. 3 EStG (256 €), die
+  Abrundung des Bruttolistenpreises, der Kilometersatz nach dem BRKG, die Tagespauschale und
+  die beiden Prozentsätze im Firmenjubiläums-Beispiel. Die Freigrenze des § 23 Abs. 3 Satz 5
+  EStG ließ sich aus der Quelle nicht belegen und wurde deshalb bewusst **nicht** ergänzt.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - **§ 17 EStG:** „Vgl. Beispiel zu Tz. 0" (nicht aufgelöster Verweis, dreimal); „ordentlicher
+    Kaufman"; „Im Falle es eines stehen gelassenen Darlehens"; der Hinweis „187,85 %" statt
+    187,5 %; „der A nicht während" statt „da A nicht"; „A muss die Einkünfte daher nicht in seiner
+    ESt-Erklärung angegeben"; bei § 32d Abs. 2 Nr. 3 Satz 2 fehlt die Gesetzesangabe.
+  - **Private Veräußerungsgeschäfte:** „Wohnungs- und Teileigentümer" statt Teileigentum; „ESTG";
+    die Fundstelle „Beck-Erlasse 1 § 15/1" für das BMF zu eigenen Wohnzwecken; in Tz. 5.2 fehlt
+    die Absatzangabe; in Tz. 5.4 wird der Gewinn „im Jahr der verdeckten Einlage, also 06"
+    angesetzt, obwohl der Sachverhalt 02 nennt; „§ 8 Abs. 1 EStG" statt KStG.
+  - **Sonstige Einkünfte:** „sei dem Jahr 04"; „das 65 Lebensjahr"/„das 75 Lebensjahr";
+    „Zweitweise Vermietung eins Wohnmobils"; „Verlusten aus Leistungen dürfen nicht";
+    der Verlustvortrag ist mit „§ 22 Nr. 3 Satz 3 HS 1" statt Satz 4 zitiert.
+  - **Vorweggenommene Erbfolge:** zweimal „vorweggenommene Erfolge" statt Erbfolge;
+    „R 7.4 Abs. 10 … EStG" statt EStR; „der in der Abfindung enthalte Zinsanteil";
+    „eingehaltene KapESt"; „§ 17 Abs. 1 Satz 6 Buchst. b) Satz 2" statt Abs. 2;
+    „§ 32d Abs. 3 Nr. 3 EStG" statt Abs. 2; „§ 10 Abs. 1 Nr. 1a. a) EStG" statt § 10 Abs. 1a
+    Nr. 2 a); Sohn und Schwester tragen im selben Beispiel beide den Buchstaben S;
+    „Kaitalvermögen"; „50.000 Zinsen" ohne Währung; „nichtüberschritten"; in der Abwandlung des
+    Mischfalls werden anteilige Anschaffungskosten von 500.000 € ermittelt, der Betrieb aber mit
+    400.000 € aufgestockt, und die AfA wird einmal nach Nr. 2 b), einmal nach Nr. 2 a) zitiert.
+  - **Erbfall und Erbauseinandersetzung:** „Rzn. 10 ff-"; „ihren gesamte Mitunternehmeranteil";
+    eine im Text offen bleibende Klammer bei der Sachabfindung; „R 10a.3 Abs. 3 Nr. 1 GewStR"
+    (Satzangabe); im Freibetragsschema des § 17 EStG steht ein negativer „verbleibender
+    Freibetrag" von -526.452 €.
+  - **Nichtselbständige Arbeit:** „190 Tage x 9 km = 17.100 km" (das Ergebnis entspricht 190 x
+    90 km); der Sachbezug nach der Fahrtenbuchmethode wird mit 8.346 € ausgewiesen, der
+    angegebene Rechenweg ergibt 9.309 €; „R 8.1 Abs. 9 Nr. 3 Satz 5 EStR" statt LStR; im
+    Sachverhalt „155 Tage", in der Lösung 165 Arbeitstage; „Werbungkosten" (zweimal);
+    in Beispiel 1 zur ersten Tätigkeitsstätte fehlt im Lösungssatz der Ort bis 30. Juni 01.
+  - **§ 15a EStG:** Feststellung „auf den 31.12.03" in einem Beispiel zu den Jahren 01/02 und
+    „Einkommensteuerveranlagung 01" statt 02; „100.000 € x 50)" ohne Prozentzeichen;
+    „beläuft sich -40.000 €"; die Begrenzung des Hinzurechnungsbetrages ist mit „§ 15a Abs. 1
+    Satz 2" statt Abs. 3 Satz 2 zitiert; im Einkünfteschema wird ein zuvor mit 25.000 €
+    ermittelter Hinzurechnungsbetrag mit 20.000 € angesetzt und als „§ 15a Abs. 2 Satz 1"
+    bezeichnet („Hinzurechungsbetrag").
+  - **Wiederkehrende Leistungen:** der Veräußerer heißt im Sachverhalt „Kevin", in der Lösung
+    „A"; der Veräußerungspreis wird mit 288.492 € beschriftet, gerechnet wird mit 288.892 €;
+    „§ 16 Abs. 11 EStR" statt R 16 Abs. 11 EStR; „§ 7 Abs. 1 Satz 5" statt Satz 4;
+    „Hinsichtlich des hierin Ertragsanteils".
+
+  Offen im ESt-Campus bleiben damit die Fallsammlungen Einkünfte aus Gewerbebetrieb und
+  Einkünfte aus Kapitalvermögen sowie die Steuerberaterprüfungen Rechtsstand 2025.

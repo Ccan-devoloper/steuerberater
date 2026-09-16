@@ -9,15 +9,18 @@ import { laden, sichern } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
-import { IconCockpit, IconFaelle, IconModule } from "./Icons";
+import { IconCockpit, IconFaelle, IconModule, IconRegister } from "./Icons";
 import { PrioCockpit } from "./Prioritaet";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
+import KurzskriptBloecke from "./KurzskriptBloecke";
 import { estHausaufgaben, estHausaufgabenQuelle } from "../data/est-hausaufgaben.js";
+import { estKurzskript2, estKurzskript2Quelle } from "../data/est-kurzskript-2.js";
 import { estFallsammlungen, estFallsammlungenQuelle } from "../data/est-fallsammlungen.js";
 import "./kst.css";
 
 const NAV = [
   ["cockpit", "Cockpit", IconCockpit],
+  ["kurzskript2", "Kurzskript II", IconRegister],
   ["hausaufgaben", "Hausaufgaben ESt", IconModule],
   ["fallsammlungen", "Fallsammlungen", IconFaelle],
 ];
@@ -25,7 +28,6 @@ const NAV = [
 /* Was aus den ESt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
    steht im Cockpit, damit der Stand des Campus nachprüfbar bleibt. */
 const OFFEN = [
-  "Kurzskript II (Engelberth)",
   "Fallsammlung Einkünfte aus Gewerbebetrieb (Engelberth)",
   "Fallsammlung Einkünfte aus Kapitalvermögen (Engelberth)",
   "Steuerberaterprüfungen Rechtsstand 2025",
@@ -40,16 +42,26 @@ function Cockpit() {
           <span className="kicker">Klausur 2 · Einkommensteuer</span>
           <h1>ESt-Cockpit</h1>
           <p className="lead">
-            Der Campus wächst mit den Quellen des Tageslehrgangs. Erfasst sind bisher die
-            Hausaufgaben mit Lösung; sie stehen im Wortlaut, mit den Ermittlungsschemata der
-            Musterlösung als Tabelle.
+            Der Campus wächst mit den Quellen des Tageslehrgangs. Erfasst sind das Kurzskript II,
+            die Hausaufgaben mit Lösung und die Fallrepetitorien; alles steht im Wortlaut, mit den
+            Ermittlungsschemata der Musterlösung als Tabelle.
           </p>
         </div>
-        <span className="zaehler">{estHausaufgaben.length} Hausaufgaben</span>
+        <span className="zaehler">
+          {estKurzskript2.length} Skript-Kapitel · {estHausaufgaben.length} Hausaufgaben ·{" "}
+          {estFallsammlungen.length} Fälle
+        </span>
       </div>
 
       <section className="panel">
         <h2>Erfasst</h2>
+        <p>
+          Das Kurzskript II (Engelberth, {estKurzskript2Quelle.stand}) steht vollständig im Reiter
+          „Kurzskript II“ – acht Teile mit {estKurzskript2.length} Kapiteln: § 17 EStG, private
+          Veräußerungsgeschäfte, sonstige Einkünfte, vorweggenommene Erbfolge, Erbfall und
+          Erbauseinandersetzung, nichtselbständige Arbeit, § 15a EStG und wiederkehrende Leistungen
+          bei Vermögensübertragungen – mit allen Beispielen und Ermittlungsschemata der Quelle.
+        </p>
         <p>
           Hausaufgaben mit Lösung zu {termine.length === 1 ? "Fachtermin" : "den Fachterminen"}{" "}
           {termine.join(", ")} – {estHausaufgabenQuelle.stand}.
@@ -117,13 +129,28 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
         </nav>
         <div className="rail__box">
           <b>ESt-Bestand</b>
+          <strong>{estKurzskript2.length} Skript-Kapitel</strong>
           <strong>{estHausaufgaben.length} Hausaufgaben</strong>
           <strong>{estFallsammlungen.length} Fälle</strong>
           <p>Weitere Quellen folgen</p>
         </div>
       </aside>
       <main className="page">
-        {verlauf.ansicht === "fallsammlungen" ? (
+        {verlauf.ansicht === "kurzskript2" ? (
+          <KurzskriptBloecke
+            kicker="Klausur 2 · Einkommensteuer · Kurzskript II"
+            titel="Einkommensteuer Kurzskript II"
+            lead="Das Lehrgangsskript von Martin Engelberth im Wortlaut – acht Teile von § 17 EStG bis zu den wiederkehrenden Leistungen, mit allen Beispielen, Lösungshinweisen und Ermittlungsschemata."
+            quelle={estKurzskript2Quelle}
+            kapitel={estKurzskript2}
+            karteKicker={(k) => `${k.teilLabel} · Kapitel ${k.kapitel}`}
+            gruppeVon={(k) => k.teil}
+            gruppeLabel={(k) => k.teilLabel}
+            gruppeAria="Teile"
+            gruppeAlle="Alle Teile"
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+          />
+        ) : verlauf.ansicht === "fallsammlungen" ? (
           <HausaufgabenBloecke
             kicker="Klausur 2 · Einkommensteuer · Fallsammlungen"
             titel="ESt-Fallsammlungen 2026/2027"
