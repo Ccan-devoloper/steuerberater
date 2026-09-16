@@ -527,8 +527,78 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   - Fall 10a: „0,21 €" gegenüber den aus dem Rechenweg folgenden 0,73 €.
   - Beispiel 12: der Darlehensgeber heißt an einer Stelle „C" statt A.
 
-  Offen im ESt-Campus bleiben damit nur noch die Steuerberaterprüfungen Rechtsstand 2025.
+  Offen im ESt-Campus blieben damit die Steuerberaterprüfungen Rechtsstand 2025 sowie die
+  seinerzeit noch nicht zugeordnete Datei „2026) (9).pdf" – siehe den nächsten Abschnitt.
 
-  **Noch nicht zugeordnet:** Im ESt-Ordner des freigegebenen Laufwerks liegt eine Datei
-  „2026) (9).pdf" (6,6 MB, ID `1DdIbwtK4vfHU4w15uayCsg_VdaD7Afft`), deren Inhalt aus dem
-  Dateinamen nicht hervorgeht und die noch nicht geprüft wurde.
+- **Einkommensteuer Kurzskript I** – Martin Engelberth, Stand 07/2026 (Datei „2026) (9).pdf“,
+  6,6 MB, ID `1DdIbwtK4vfHU4w15uayCsg_VdaD7Afft`). Die zuvor unidentifizierte Datei im ESt-Ordner
+  ist damit zugeordnet: Es ist der erste Teil des ESt-Kurzskripts. Eingepflegt als eigener Reiter
+  „Kurzskript I“ im ESt-Campus.
+
+  **Nur teilweise erfasst – nachprüfbar:** Der Drive-Connector gibt das PDF nur bis Seite 79 von
+  162 aus (dieselbe Grenze wie beim Kurzskript II). Anders als dort lässt sich die Datei hier
+  nicht als Ersatz herunterladen: Der Download der 6,6 MB großen PDF bringt die Verbindung zum
+  Connector reproduzierbar zum Abbruch (dreimal versucht). Eine zweite Kopie der Datei gibt es im
+  freigegebenen Ordner nicht (per Volltextsuche geprüft).
+
+  Vollständig übernommen sind damit:
+
+  1. **Einführung in die Einkommensteuer** – 13 Kapitel von den Rechtsgrundlagen über die
+     persönliche Steuerpflicht, die Veranlagungsformen, das Ermittlungsschema der R 2 Abs. 1 EStR,
+     Tarif und festzusetzende Steuer, die Berücksichtigung von Kindern mit Günstigerprüfung, den
+     Einkünftebegriff und den Verlustausgleich, die Abzugsbeträge von der Summe der Einkünfte, die
+     Sonderausgaben mit Höchst- und Mindestbetragsrechnung, die außergewöhnlichen Belastungen bis
+     zu den Steuerermäßigungen nach §§ 35a, 35c EStG.
+  2. **Einkünfte aus Vermietung und Verpachtung** – 7 Kapitel: Tatbestände des § 21 Abs. 1 EStG,
+     Subsidiarität, § 11 EStG mit dem stillen Tatbestandsmerkmal der Fälligkeit, Werbungskosten
+     einschließlich Vorrang der Schuldentilgung und Drittaufwand, Abschreibungen mit
+     anschaffungsnahen Herstellungskosten, § 7 Abs. 5a und § 7b EStG sowie den AfA-Sonder-
+     tatbeständen, Einkünfteerzielungsabsicht und verbilligte Überlassung, Erbbaurecht,
+     Nießbrauch und Umsatzsteuer.
+  3. **Einkünfte aus Gewerbebetrieb** – Kapitel 1 und 2 vollständig, Kapitel 3
+     (Mitunternehmerschaft) bis einschließlich Tz. 3.5.
+
+  **Noch offen** (jenseits der Seite 79): Tz. 3.6 und Kapitel 4 des Teils Gewerbebetrieb sowie die
+  Teile Betriebsaufspaltung, Gewerblicher Grundstückshandel, Betriebsbeendigung,
+  Einnahmenüberschussrechnung, Einkünfte aus selbständiger Arbeit und Einkünfte aus
+  Kapitalvermögen. Das steht so im Cockpit des ESt-Campus und im Kopf der Datendatei.
+
+  **Lücken im PDF selbst:** Die Textebene verliert an mehreren Stellen einzelne Ziffern (und in den
+  Schaubildern ganze Buchstabenfolgen). Ergänzt wurde nur, was die Quelle selbst oder das zitierte
+  Gesetz belegt; solche Ergänzungen stehen in eckigen Klammern mit Hinweis:
+
+  - die Beitragsbemessungsgrenzen „[9]0.600 €“ und „[9]6.600 €“ in Tz. 11.3.1.1,
+  - der Höchstbetrag „1.[9]00 €“ in Tz. 11.3.1.2.2 (im Beispiel derselben Tz. mit 1.900 € beziffert),
+  - der Sonderausgaben-Pauschbetrag „[7]2 €“ bei Zusammenveranlagung in Tz. 11.3.3,
+  - die Fahrtkostenpauschale „[9]00 €“ in Tz. 12.1.3,
+  - die Gewinnanteile „[5]0.000 €“ im Beispiel zu Tz. 3.3.1 der gewerblichen Einkünfte
+    (aus der Zeilensumme belegt),
+  - die Bagatellgrenze „24.[5]00 €“ in Tz. 3.4.1.1.
+
+  Das **Schaubild zu Beginn des Kapitels 11** (Einteilung der Sonderausgaben) ist im PDF so
+  lückenhaft hinterlegt, dass es nicht wortlautgetreu wiedergegeben werden kann. Statt einer
+  Rekonstruktion steht dort ein ausdrücklicher Hinweis; der Inhalt ergibt sich aus den
+  nachfolgenden Tz. 11.1 bis 11.3, die vollständig vorliegen.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - **Einführung:** Im Ermittlungsschema der Tz. 4 fehlt die Zeile 6; „§ 26 Abs. 1 Nr. 2 EStG“ für
+    eine Vorschrift ohne Nummerngliederung; „§ 32a Abs. 6 Satz 2 iVm. Abs. 2 EStG“ statt Abs. 1;
+    der Kinderfreibetrag steht in Tz. 8.2 mit 3.414 €, in Tz. 8.3.3 mit 3.306 €; „§ 32 Abs. 6 Satz 1
+    ESG“; „mx. 4 Monaten“; „das 25 Lebensjahr“ (zweimal); im Beispiel zu § 24b EStG fehlt vor
+    „Abs. 4 Satz 1 Nr. 2. a)“ die Paragrafenangabe; die Kürzung für die Ehefrau ist mit „für die EM“
+    beschriftet; die Fundstelle zu § 35a EStG verweist auf „Beck-Erlasse 1 § 35c/1“.
+  - **Vermietung und Verpachtung:** „Wohnungs- und Teileigentümern“ statt Teileigentum; die
+    Überschrift der Tz. 2 nennt § 20 Abs. 3 EStG, der Text § 21 Abs. 3 EStG; „§ 255 Abs. 2 Satz 1
+    EStG“ statt HGB; im Beispiel zu den anschaffungsnahen Herstellungskosten wird der Wintergarten
+    einerseits aus der 15 %-Grenze herausgenommen, andererseits in der AfA-Bemessungsgrundlage mit
+    11.900 € erfasst; „R 7.3 Abs. 6 Satz 2 Nr. 1. b) EStR“ nach zuvor „Nr. 1. a)“; im § 7b-Beispiel
+    steht im Sachverhalt „Bauantrag nach dem 30.10.2023“, in der Lösung der 30.10.2023 selbst;
+    im Beispiel zur verbilligten Überlassung nennt der Sachverhalt sonstige Kosten von 2.000 €,
+    die Lösung rechnet mit 3.000 € und weist die Summe mit 18.400 € statt 19.400 € aus;
+    „mangels Verweises ist § 9 Abs. 1 Satz 3 Nr. 7 EStG“.
+  - **Einkünfte aus Gewerbebetrieb:** „aus gewerblichen Unternehmern“; im Abschnitt zur
+    Bagatellgrenze heißt es „Dies gilt nicht bei Personengesellschaften“, obwohl die Regelung
+    gerade für Personengesellschaften gilt; in der Abwandlung zu Tz. 3.5 nennt der Sachverhalt
+    PKW, die Lösung ein Gebäude.

@@ -14,12 +14,14 @@ import { PrioCockpit } from "./Prioritaet";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
 import KurzskriptBloecke from "./KurzskriptBloecke";
 import { estHausaufgaben, estHausaufgabenQuelle } from "../data/est-hausaufgaben.js";
+import { estKurzskript1, estKurzskript1Quelle } from "../data/est-kurzskript-1.js";
 import { estKurzskript2, estKurzskript2Quelle } from "../data/est-kurzskript-2.js";
 import { estFallsammlungen, estFallsammlungenQuelle } from "../data/est-fallsammlungen.js";
 import "./kst.css";
 
 const NAV = [
   ["cockpit", "Cockpit", IconCockpit],
+  ["kurzskript1", "Kurzskript I", IconRegister],
   ["kurzskript2", "Kurzskript II", IconRegister],
   ["hausaufgaben", "Hausaufgaben ESt", IconModule],
   ["fallsammlungen", "Fallsammlungen", IconFaelle],
@@ -27,7 +29,10 @@ const NAV = [
 
 /* Was aus den ESt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
    steht im Cockpit, damit der Stand des Campus nachprüfbar bleibt. */
-const OFFEN = ["Steuerberaterprüfungen Rechtsstand 2025"];
+const OFFEN = [
+  "Kurzskript I: Betriebsaufspaltung, gewerblicher Grundstückshandel, Betriebsbeendigung, Einnahmenüberschussrechnung, selbständige Arbeit und Kapitalvermögen (ab Seite 80 des PDF)",
+  "Steuerberaterprüfungen Rechtsstand 2025",
+];
 
 function Cockpit() {
   const termine = estHausaufgaben.map((ha) => ha.termin).sort((a, b) => a - b);
@@ -44,13 +49,19 @@ function Cockpit() {
           </p>
         </div>
         <span className="zaehler">
-          {estKurzskript2.length} Skript-Kapitel · {estHausaufgaben.length} Hausaufgaben ·{" "}
-          {estFallsammlungen.length} Fälle
+          {estKurzskript1.length + estKurzskript2.length} Skript-Kapitel ·{" "}
+          {estHausaufgaben.length} Hausaufgaben · {estFallsammlungen.length} Fälle
         </span>
       </div>
 
       <section className="panel">
         <h2>Erfasst</h2>
+        <p>
+          Das Kurzskript I (Engelberth, {estKurzskript1Quelle.stand}) steht im Reiter „Kurzskript I“
+          mit {estKurzskript1.length} Kapiteln: die Einführung in die Einkommensteuer, die Einkünfte
+          aus Vermietung und Verpachtung und der Beginn der Einkünfte aus Gewerbebetrieb. Der Rest
+          des Skripts ist noch nicht erfasst – siehe „Noch nicht eingepflegt“.
+        </p>
         <p>
           Das Kurzskript II (Engelberth, {estKurzskript2Quelle.stand}) steht vollständig im Reiter
           „Kurzskript II“ – acht Teile mit {estKurzskript2.length} Kapiteln: § 17 EStG, private
@@ -125,14 +136,28 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
         </nav>
         <div className="rail__box">
           <b>ESt-Bestand</b>
-          <strong>{estKurzskript2.length} Skript-Kapitel</strong>
+          <strong>{estKurzskript1.length + estKurzskript2.length} Skript-Kapitel</strong>
           <strong>{estHausaufgaben.length} Hausaufgaben</strong>
           <strong>{estFallsammlungen.length} Fälle</strong>
           <p>Weitere Quellen folgen</p>
         </div>
       </aside>
       <main className="page">
-        {verlauf.ansicht === "kurzskript2" ? (
+        {verlauf.ansicht === "kurzskript1" ? (
+          <KurzskriptBloecke
+            kicker="Klausur 2 · Einkommensteuer · Kurzskript I"
+            titel="Einkommensteuer Kurzskript I"
+            lead="Der erste Teil des Lehrgangsskripts von Martin Engelberth im Wortlaut – Einführung in die Einkommensteuer, Einkünfte aus Vermietung und Verpachtung und der Beginn der Einkünfte aus Gewerbebetrieb. Die weiteren Teile des Skripts sind noch nicht erfasst."
+            quelle={estKurzskript1Quelle}
+            kapitel={estKurzskript1}
+            karteKicker={(k) => `${k.teilLabel} · Kapitel ${k.kapitel}`}
+            gruppeVon={(k) => k.teil}
+            gruppeLabel={(k) => k.teilLabel}
+            gruppeAria="Teile"
+            gruppeAlle="Alle Teile"
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+          />
+        ) : verlauf.ansicht === "kurzskript2" ? (
           <KurzskriptBloecke
             kicker="Klausur 2 · Einkommensteuer · Kurzskript II"
             titel="Einkommensteuer Kurzskript II"
