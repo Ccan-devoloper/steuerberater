@@ -20,18 +20,22 @@ const ZEITLIMIT = 20000;
    Datenbanken (beck-online, juris, Wolters Kluwer) stehen bewusst nicht
    hier - deren Inhalte dürfen nicht weitergegeben werden. */
 const QUELLEN = [
+  // BFH – der RSS-Feed hat im ersten Lauf geliefert; die Seitenpfade waren geraten.
   { name: "BFH · Pressemeldungen (RSS)", art: "rss", url: "https://www.bundesfinanzhof.de/de/news.rss" },
-  { name: "BFH · Pressemeldungen", art: "liste", url: "https://www.bundesfinanzhof.de/de/presse/pressemeldungen/" },
-  { name: "BFH · Entscheidungen online", art: "nachschlag", url: "https://www.bundesfinanzhof.de/de/entscheidungen/entscheidungen-online/" },
-  { name: "BMF · Schreiben und Erlasse", art: "liste", url: "https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Steuerverwaltung-u-Steuerrecht/BMF-Schreiben/bmf-schreiben.html" },
+  { name: "BFH · Presse", art: "liste", url: "https://www.bundesfinanzhof.de/de/presse/" },
+  { name: "BFH · Entscheidungen online", art: "liste", url: "https://www.bundesfinanzhof.de/de/entscheidungen/entscheidungen-online/" },
+  // BMF – der Schreiben-Pfad war ein 404, hier mehrere Kandidaten.
   { name: "BMF · Pressemitteilungen", art: "liste", url: "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html" },
-  { name: "Bundessteuerblatt / BMF (RSS)", art: "rss", url: "https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/RSSNewsfeed/RSSNewsfeed_Pressemitteilungen.xml" },
-  { name: "BStBK · Bundessteuerberaterkammer", art: "liste", url: "https://www.bstbk.de/de/presse" },
+  { name: "BMF · Steuern (Themenseite)", art: "liste", url: "https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/steuern.html" },
+  { name: "BMF · Suche BMF-Schreiben", art: "liste", url: "https://www.bundesfinanzministerium.de/Web/DE/Service/Suche/suche.html?docType=bmfSchreiben" },
+  // Kammern, amtliche Verkuendung, freie Datenbanken
+  { name: "BStBK · Presse", art: "liste", url: "https://www.bstbk.de/de/presse" },
   { name: "Bundesgesetzblatt (recht.bund.de)", art: "liste", url: "https://www.recht.bund.de/bgbl" },
-  { name: "Gesetze im Internet", art: "nachschlag", url: "https://www.gesetze-im-internet.de/" },
-  { name: "Rechtsprechung im Internet", art: "nachschlag", url: "https://www.rechtsprechung-im-internet.de/" },
+  { name: "Gesetze im Internet", art: "nachschlag", url: "https://www.gesetze-im-internet.de/aktuell.html" },
+  { name: "Rechtsprechung im Internet", art: "nachschlag", url: "https://www.rechtsprechung-im-internet.de/jportal/portal/page/bsjrsprod.psml" },
+  // Freie Nachrichtenteile der Fachverlage
   { name: "Haufe · Steuern News", art: "liste", url: "https://www.haufe.de/steuern/" },
-  { name: "NWB · Nachrichten", art: "liste", url: "https://www.nwb.de/aktuelles/" },
+  { name: "NWB · Nachrichten", art: "liste", url: "https://www.nwb.de/nachrichten/" },
   { name: "DATEV Magazin · Steuern", art: "liste", url: "https://www.datev-magazin.de/category/steuern/" },
 ];
 
