@@ -64,8 +64,9 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
 5. **K1 ErbSt: Fallsammlung** – Übungsfälle (Beckmann, Fietze, Pack, Hasslinghaus,
    Leibrente, § 23 ErbStG) und die Bewertungsteile 1–3; der Reiter ist derzeit leer.
    Die ErbSt-Hausaufgaben 2–4 sind erledigt (siehe unten).
-6. **K3 PersG: Fallsammlung** – Fallsammlung (Melzer), fact sheets und Teile I–V
-   (Grundlagen, § 6 Abs. 3/5 und § 6b, Realteilung GmbH & Co., Umwandlungssteuer).
+6. **K3 PersG: Lehrgangsunterlagen** – fact sheets (Horst) und die Teile I–V (Grundlagen,
+   § 6 Abs. 3/5 und § 6b, Realteilung GmbH & Co., Umwandlungssteuer) sind noch nicht
+   abgeglichen. Die Fallsammlung (Melzer) ist erledigt, siehe unten.
 7. **Übungsklausuren (24 PDFs)** – auf der Seite bisher nirgends abgebildet; würden
    sich als eigener Klausurpool je Campus anbieten.
 8. **Originalklausuren** – Steuerberaterprüfungen RS 2025 zu ESt, ErbSt, KSt sowie
@@ -94,3 +95,9 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   `src/components/KstHausaufgaben.jsx`, Prüfung: `npm run check:kst-hausaufgaben`.
   Inzwischen vollständig: Fachtermin 1 (74 P.), 3 (48 P.), 4 (45 P.), 5 (91 P.) und 7
   (91 P.) – zusammen 349 Punkte, 504 Blöcke, 33 Tabellen.
+- **K3 PersG Fallsammlung**: alle dreizehn Fälle der Melzer-Fallsammlung mit neun
+  Abwandlungen im Wortlaut; der Platzhalter im Campus ist weg. Da die Quelle keine
+  Musterlösungen enthält, wurden keine Lösungen erfunden – stattdessen führen 78 gegen den
+  Datenbestand geprüfte Querverweise zu Modulen, Prüfschemata, Originalfällen und
+  Hausaufgaben. Daten: `src/data/k3-persg-fallsammlung.js`, Ansicht:
+  `src/components/K3PersGFallsammlung.jsx`, Prüfung: `npm run check:k3-persg-fallsammlung`.

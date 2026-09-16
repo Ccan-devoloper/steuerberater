@@ -49,6 +49,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   45 Punkte), Fachtermin 5 (Einzelheiten zur vGA und Ausschüttungen in eine Personengesellschaft,
   91 Punkte) und Fachtermin 7 (Organschaft bei KSt und GewSt, 91 Punkte) – zusammen 349 Punkte.
   Prüfung: `npm run check:kst-hausaufgaben`
+- **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
+  Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
+  Spiegelbildmethode) mit neun Abwandlungen im Wortlaut. Die Quelle druckt keine
+  Musterlösungen ab; statt erfundener Lösungen führt jeder Fall über geprüfte Querverweise
+  zu den Modulen, Prüfschemata, Originalfällen und Hausaufgaben, in denen derselbe Stoff
+  durchgerechnet ist. Prüfung: `npm run check:k3-persg-fallsammlung`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
