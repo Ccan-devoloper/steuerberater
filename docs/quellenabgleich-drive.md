@@ -59,8 +59,8 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
    aus den Lehrgangsunterlagen sind noch nicht abgeglichen. Korrektur zur ersten Fassung
    dieser Liste: Die KSt-Einheiten 5, 6 und 7 sind entgegen der dortigen Annahme bereits
    eingepflegt (`src/data/kst-einheit-5/6/7-register.js`).
-4. **K2 KSt: Hausaufgaben** – der Reiter existiert jetzt; die Fachtermine 1 und 3 sind
-   erfasst, die Fachtermine 4, 5 und 7 fehlen noch.
+4. ~~K2 KSt: Hausaufgaben~~ – erledigt: alle fünf Hausaufgaben (Fachtermine 1, 3, 4, 5, 7)
+   sind erfasst, siehe unten.
 5. **K1 ErbSt: Fallsammlung** – Übungsfälle (Beckmann, Fietze, Pack, Hasslinghaus,
    Leibrente, § 23 ErbStG) und die Bewertungsteile 1–3; der Reiter ist derzeit leer.
    Die ErbSt-Hausaufgaben 2–4 sind erledigt (siehe unten).
@@ -92,5 +92,5 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
 - **K2 KSt Hausaufgaben (Reiter neu)**: Fachtermin 1 im Wortlaut mit Randpunkten
   (74 Punkte). Daten: `src/data/kst-hausaufgaben.js`, Ansicht:
   `src/components/KstHausaufgaben.jsx`, Prüfung: `npm run check:kst-hausaufgaben`.
-  Fachtermin 3 (X-GmbH und K-GmbH, 48 Punkte) ist ebenfalls erfasst; die Fachtermine 4, 5
-  und 7 kommen in die gleiche Datei.
+  Inzwischen vollständig: Fachtermin 1 (74 P.), 3 (48 P.), 4 (45 P.), 5 (91 P.) und 7
+  (91 P.) – zusammen 349 Punkte, 504 Blöcke, 33 Tabellen.
