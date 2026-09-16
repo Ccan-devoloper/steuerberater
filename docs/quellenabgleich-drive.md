@@ -225,5 +225,26 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Ausgangsfalls 20. Ebenso gekennzeichnet ist in Fall 23 die AfA-Zeile „100.000 € x 2 % =
   2.500“ (rechnerisch 2.000 €; der angesetzte Monatsbetrag von 334 € folgt den 2.000 €).
 
-  Offen sind damit noch die Fallsammlungen der Termine 1, 7, 8 und 9 (§ 21,
-  vorweggenommene Erbfolge, Erbfall, Renten).
+- **ESt-Fallsammlung zu § 21 EStG** (Termin 1, Blenkers, Stand 04/2025): 28 Fälle,
+  Aufgaben- und Lösungs-PDF zusammengeführt – teilweise Vermietung eines Zimmers samt
+  Möbeln als Sachinbegriff, Erbbaurecht in der Rechtsnachfolge, erste Tätigkeitsstätte am
+  Mietwohngrundstück statt Reisekosten, Herstellungskosten eines Mietwohnhauses über
+  27 Einzelpositionen nach Bauunternehmer-Insolvenz, anschaffungsnahe Aufwendungen nach
+  § 6 Abs. 1 Nr. 1a EStG in drei Fallgestaltungen, verbilligte Vermietung nach § 21 Abs. 2
+  EStG, teilentgeltlicher Erwerb in vorweggenommener Erbfolge, Sonder-AfA nach § 7b EStG,
+  Dachgeschossausbau mit und ohne selbständiges Wirtschaftsgut, AfaA nach Brandschaden,
+  Mietforderung im Kaufpreis, Rückabwicklung eines Kaufvertrags, Damnum in zwei Varianten,
+  Kaufpreisaufteilung nach Bodenrichtwert, § 82b EStDV, nachträgliche Herstellungskosten
+  nach Schenkung, Wohnmobilvermietung nach § 22 Nr. 3 EStG sowie die Vertiefungsfälle
+  Fröhlich, Grube, „Gisbert Grund“, M, P, der Umbaufall mit degressiver AfA und der
+  Lottogewinn-Fall Eva Glück.
+
+  Vier Stellen gehen in der Quelle nicht auf; sie sind wortlautgetreu übernommen und mit
+  „so in der Quelle“ gekennzeichnet: in Fall 8 der Zuflusszeitpunkt „31. Dezember 2025“ für
+  die WEG-Zinsen, die nach dem Sachverhalt erst am 27.02.2026 gutgeschrieben wurden; in
+  Fall 10 die AfA von 763 € (99.750 € × 3 % × 3/12 ergibt 748 €); in Fall 18 die Verteilung
+  des Erhaltungsaufwands ab 2023 ohne Teilbetrag für 2022 und die 14.000 € in 2025; in
+  Fall 24 die Summe der Einkünfte von 11.960 € (27.998 € ./. 15.944 € ergibt 12.054 €).
+
+  Offen sind damit noch die Fallsammlungen der Termine 7, 8 und 9 (vorweggenommene
+  Erbfolge, Erbfall, Renten).
