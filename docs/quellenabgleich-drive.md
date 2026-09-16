@@ -150,5 +150,13 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   sind die vollständigen Zahlenwerke der Fälle 4, 6, 7, 9 und 10 (u. a. Fall 9 mit
   Verpachtungsbetrieb, Grundstückshandel, V+V und § 23 EStG, Summe 552.282 €; Fall 10 mit
   1.584.750 €); die Rechenwege der Quelle gehen auf und sind unverändert übernommen.
-  Offen sind damit noch die Fallsammlungen der Termine 1, 2, 3 (Betriebsaufspaltung), 4, 6
-  und 8 (§ 21, § 4 Abs. 3, § 16, § 17, § 23, Erbfall, Renten).
+- **ESt-Fallsammlung Betriebsaufspaltung** (Termin 3, Wiegmann/Vossel): 8 Aufgaben mit
+  Lösungen aus einem PDF, das Aufgaben- und Lösungsteil bereits zusammen führt – Begründung
+  und Aufgabe der Betriebsaufspaltung, teilentgeltlicher Erwerb mit Einlagewerten und AfA
+  nach § 7 Abs. 1 S. 5 EStG, Vorrang vor der Betriebsverpachtung, Personengruppentheorie
+  (zehn Beispiele als Tabelle), Geschäftsführungsbefugnis und Bruchteilsgemeinschaft,
+  mitunternehmerische Betriebsaufspaltung und die freiberufliche Betriebsgesellschaft.
+  Die Zeile „Einkünfte aus Gewerbebetrieb 02“ in Aufgabe 3 trägt in der Quelle die falsche
+  Jahreszahl; sie ist wortlautgetreu übernommen und in der Tabelle gekennzeichnet.
+  Offen sind damit noch die Fallsammlungen der Termine 1, 2, 4, 6, 8 und 9 (§ 21,
+  § 4 Abs. 3, § 16, § 17, § 23, Erbfall, Renten).
