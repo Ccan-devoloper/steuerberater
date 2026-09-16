@@ -7,6 +7,8 @@ import "../data/kst-einheit-7-register.js";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { kstBereiche, kstBereichName, kstModule, kstQuellen, kstSchemata } from "../data/kst-module";
 import { kstFaelle } from "../data/kst-faelle";
+import { kstUebungsfaelle, kstUebungsfaelleQuelle } from "../data/kst-uebungsfaelle.js";
+import { kstSchemataNoethen, kstSchemataNoethenQuelle } from "../data/kst-schemata-noethen.js";
 import { kstKarteikarten, kstQuizfragen } from "../data/kst-lernstoff";
 import { REDAKTIONSSTAND } from "../data/redaktion";
 import { Normkette, Notiz } from "./Bausteine";
@@ -16,6 +18,8 @@ import {
   IconCockpit, IconModule, IconSchema, IconRegister, IconTraining,
   IconFaelle, IconHaken,
 } from "./Icons";
+import HausaufgabenBloecke from "./HausaufgabenBloecke";
+import KurzskriptBloecke from "./KurzskriptBloecke";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
 import KstHausaufgaben from "./KstHausaufgaben";
@@ -37,7 +41,9 @@ const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Lernmodule", Icon: IconModule },
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
+  { id: "uebungsfaelle", label: "Übungsfälle (Nöthen)", Icon: IconFaelle },
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
+  { id: "schemata-noethen", label: "Schemata (Nöthen)", Icon: IconSchema },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconModule },
   { id: "training", label: "Training", Icon: IconTraining },
   { id: "quellen", label: "Quellenstand", Icon: IconRegister },
@@ -265,7 +271,38 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
           />
         )}
         {ansicht === "faelle" && <KstFallseite oeffnen={oeffnen} />}
+        {ansicht === "uebungsfaelle" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 2 · Körperschaftsteuer · Übungsfälle"
+            titel="KSt-Übungsfälle (Nöthen)"
+            lead="Die Übungsfälle des Lehrgangs im Wortlaut – Sachverhalt, Aufgabenstellung und Bearbeitungshinweise. Ein Lösungsteil liegt im freigegebenen Ordner nicht vor; er wird nachgetragen, sobald er da ist."
+            quelle={kstUebungsfaelleQuelle}
+            hausaufgaben={kstUebungsfaelle}
+            gruppeVon={(fall) => fall.teil}
+            gruppeLabel={(fall) => fall.teilLabel}
+            gruppeAria="Teile"
+            karteKicker={(fall) => `${fall.teilLabel} · ${fall.rechtsstand}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Fälle"
+            einheitEinzahl="Fall"
+          />
+        )}
         {ansicht === "schema" && <KstSchemaseite oeffnen={oeffnen} />}
+        {ansicht === "schemata-noethen" && (
+          <KurzskriptBloecke
+            kicker="Klausur 2 · Körperschaftsteuer · Prüfungsschemata"
+            titel="KSt-Schemata (Nöthen)"
+            lead="Die Prüfungsaufbauten des Lehrgangs im Wortlaut: verdeckte Einlage, verdeckte Gewinnausschüttung, § 8c/§ 8d KStG, ertragsteuerliche Organschaft und Vereinsbesteuerung."
+            quelle={kstSchemataNoethenQuelle}
+            kapitel={kstSchemataNoethen}
+            karteKicker={() => "Prüfungsschema"}
+            gruppeVon={() => "alle"}
+            gruppeLabel={() => "Alle Schemata"}
+            gruppeAria="Schemata"
+            gruppeAlle="Alle Schemata"
+            suchePlatzhalter="Norm oder Stichwort"
+          />
+        )}
         {ansicht === "hausaufgaben" && <KstHausaufgaben onModulOeffnen={oeffnen} />}
         {ansicht === "training" && <KstTraining />}
         {ansicht === "quellen" && <KstQuellenseite />}

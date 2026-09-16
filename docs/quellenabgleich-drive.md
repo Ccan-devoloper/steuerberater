@@ -642,3 +642,45 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   durchweg um Aufgaben- und Lösungsteile der bereits eingepflegten ESt-Fallsammlungen
   (§ 21, § 4 Abs. 3, § 16, § 23, vorweggenommene Erbfolge, Erbfall, Renten). Aus diesem Ordner
   fehlt damit nichts mehr.
+
+- **KSt-Übungsfälle und Prüfungsschemata (Markus Nöthen)** – aus dem Ordner
+  „Zusatzunterlagen → Körperschaftsteuer" (`1ESknX3G1VelSgkhoDncWqn30IJPtxest`). Dieser Ordner
+  enthält vier Dateien, alle vollständig lesbar und alle eingepflegt:
+
+  1. **KSt-Übungsfälle Teil 1** (Stand 07/2025) – drei Fälle: MN-GmbH Versandhandel
+     (Abschlusszahlung zur KSt und zum SolZ mit den nichtabziehbaren Aufwendungen des
+     § 10 KStG, ausländischen Geldbußen, Beiratsvergütung, Bewirtung, Hinterziehungszinsen
+     und Spenden), MN-GmbH Spedition (Verspätungszuschläge zu Anmeldungssteuern,
+     Zinserstattung, Geschenke mit § 37b EStG, zinsloses Gesellschafterdarlehen, typisch
+     stille Beteiligung) und der Rheinland-Volksmusik-Verein (vier Sphären, § 24 KStG).
+  2. **KSt-Übungsfälle Teil 2** (Stand 12/2025) – zwei Organschaftsfälle mit Handels- und
+     Steuerbilanzen beider Gesellschaften, Ausgleichszahlung an den außenstehenden
+     Gesellschafter, Streubesitzdividende, verdeckten Gewinnausschüttungen, Veräußerung
+     nach § 8b Abs. 2 KStG und Drohverlustrückstellung als Minderabführung.
+  3. **Schema KStG** – vier Prüfungsschemata: verdeckte Einlage, verdeckte
+     Gewinnausschüttung, § 8c/§ 8d KStG und ertragsteuerliche Organschaft.
+  4. **Schema Vereinsbesteuerung** – der kurze Prüfungsweg mit dem „Ausflug in die AO".
+
+  **Kein Lösungsteil zu den Übungsfällen:** Beide Aufgaben-PDFs enden nach der
+  Aufgabenstellung; im Ordner liegt keine Musterlösung. Die Fälle stehen deshalb bewusst ohne
+  Lösung, mit einem ausdrücklichen Hinweis an jedem Fall. Ein Prüfskript stellt sicher, dass
+  dort auch künftig keine erfundene Lösung steht (`npm run check:kst-uebungsfaelle`). Das ist
+  dieselbe Lage wie bei der GewSt-Fallsammlung.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Teil 1, Fall 1: „je eine Geldbußen"; „als Aufwand … erfasst wurden"; „sowie zur 900 €
+    Hinterziehungszinsen".
+  - Teil 1, Fall 2: „MN seinen Wohnsitz in Leverkusen"; die Beteiligung wird als „typisch
+    still" bezeichnet und ihr zugleich eine Beteiligung an stillen Reserven und am Firmenwert
+    zugewiesen.
+  - Teil 1, Fall 3: „an einer Theke im Foyer des Getränke und Speisen zu erwerben".
+  - Schema vGA: die Paragrafenangaben zur Umsatzsteuer sind mit „§ 3 …" ausgelassen.
+  - Schema § 8d KStG: „Mitunternehmer an PersG, § 8d Abs. 1 S. 2 Nr. 2 KStG" und „OT bei
+    Organschaft, § 8d Abs. 1 S. 2 Nr. 2 KStG" zitieren beide dieselbe Nummer.
+
+  **Der zweite KSt-Ordner** (`1bqhD4ayOUTo8A7WBUXgce3otxy5L7YrN`, direkt unter dem
+  Hauptordner) enthält sieben Dateien „KStG, 1. bis 7. Einheit (Nöthen)". Es handelt sich um
+  sehr große PDFs (42 bis 110 MB), die noch nicht gesichtet sind – siehe
+  docs/offene-quellen.md.
