@@ -67,7 +67,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (Lang, Engler und Ford: unechte Betriebsaufspaltung, Einlage zu Anschaffungskosten
   nach § 6 Abs. 1 Nr. 5 S. 1 Buchst. a/b, teilentgeltliche Überlassung mit § 3c Abs. 2
   S. 6 EStG, Betriebsaufgabe mit Teileinkünfteverfahren, gewerblicher Grundstückshandel
-  über die Drei-Objekt-Grenze und § 7 Abs. 1 S. 5 EStG) im Wortlaut.
+  über die Drei-Objekt-Grenze und § 7 Abs. 1 S. 5 EStG) sowie Fachtermin 4 (Haardt,
+  Müller/Hopf und Ludwig: Betriebsveräußerung im Ganzen mit Freibetrag § 16 Abs. 4,
+  Rumpfwirtschaftsjahr und die Einnahmenüberschussrechnung mit Tausch, Kfz-Nutzung,
+  Buchwertprivileg und § 12 Nr. 3 EStG) im Wortlaut.
   Prüfung: `npm run check:est-hausaufgaben`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

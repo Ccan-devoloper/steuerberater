@@ -50,7 +50,7 @@ Das Lehrgangsarchiv enthält vier Zweige:
 Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
 
 1. **K2 ESt** – der Campus existiert jetzt (kein Platzhalter mehr) und zeigt die
-   Hausaufgaben; erfasst sind die Fachtermine 2 und 3. Offen sind die Hausaufgaben 4, 6, 7 und 9,
+   Hausaufgaben; erfasst sind die Fachtermine 2, 3 und 4. Offen sind die Hausaufgaben 6, 7 und 9,
    das Kurzskript II (Engelberth), die Fallsammlungen (§§ 15, 17, 20, 23, 16,
    Betriebsaufspaltung, gewerblicher Grundstückshandel, Renten, Erbfall, § 15a) und die
    Steuerberaterprüfungen RS 2025. Das ESt-Cockpit führt diese Liste selbst mit.
@@ -122,3 +122,9 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „positive Summe der übrigen Einkünfte 561.000 €“ beim Altersentlastungsbetrag ist mit
   dem Hinweis „so in der Quelle“ übernommen, weil sie sich aus den Teilbeträgen der
   Lösung nicht nachrechnen lässt.
+- **ESt-Hausaufgabe zum 4. Fachtermin**: Aufgabenteile I bis III (Alfred Haardt,
+  Michael Müller/Gertrud Hopf, Andreas Ludwig) mit den Bilanzen zum 31.12.2024 und
+  31.3.2025, der Freibetragsrechnung nach § 16 Abs. 4 EStG und den Korrekturtabellen
+  der Einnahmenüberschussrechnungen. Die Zusammenstellung „SdE MM 348.863 € / 17.544 €“
+  passt nicht zum in derselben Lösung ermittelten Gewinn von 348.849 €; sie ist
+  wortlautgetreu übernommen und im Tabellenkopf als Abweichung der Quelle gekennzeichnet.
