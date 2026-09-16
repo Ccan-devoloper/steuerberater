@@ -174,5 +174,13 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   vorweggenommene Erbfolge → benanntes Skript / (12); Erbfall → benannte Aufgaben / (7);
   Renten → benannte Aufgaben / (11).
 
-  Offen sind damit noch die Fallsammlungen der Termine 1, 2, 6, 7, 8 und 9 (§ 21,
-  § 4 Abs. 3, § 17, § 23, vorweggenommene Erbfolge, Erbfall, Renten).
+- **ESt-Fallsammlung zu § 4 Abs. 3 EStG** (Termin 2, Wiegmann): 32 kurze Fälle mit
+  Lösungen – Vorschuss, Aufrechnung, Forderungserlass und -ausfall, Arzthonorare und der
+  10-Tage-Zeitraum, Vorsteuer als Betriebsausgabe, GWG und Sammelposten über wechselnde
+  Anschaffungs- und Zahlungsjahre, gemischt genutztes Gebäude mit § 4 Abs. 3 S. 4 EStG,
+  Diebstahl, Entnahmen, Sachspende mit Buchwertprivileg, Einlagen aus Erbschaft und
+  Vermietungsbereich sowie zwei Tauschfälle. Zu den meisten Fällen stellt die Quelle keine
+  eigene Frage, sondern nur eine Antwortzeile; der Aufgabenblock sagt das ausdrücklich, damit
+  keine Frage unterstellt wird, die dort nicht steht.
+  Offen sind damit noch die Fallsammlungen der Termine 1, 6, 7, 8 und 9 (§ 21, § 17,
+  § 23, vorweggenommene Erbfolge, Erbfall, Renten).

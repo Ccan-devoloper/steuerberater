@@ -28,7 +28,7 @@ const OFFEN = [
   "Kurzskript II (Engelberth)",
   "Fallsammlung Einkünfte aus Gewerbebetrieb (Engelberth)",
   "Fallsammlung Einkünfte aus Kapitalvermögen (Engelberth)",
-  "Fallsammlungen der Termine 1, 2, 6, 7, 8 und 9 (§ 21, § 4 Abs. 3, § 17, § 23, vorweggenommene Erbfolge, Erbfall, Renten)",
+  "Fallsammlungen der Termine 1, 6, 7, 8 und 9 (§ 21, § 17, § 23, vorweggenommene Erbfolge, Erbfall, Renten)",
   "Steuerberaterprüfungen Rechtsstand 2025",
 ];
 
