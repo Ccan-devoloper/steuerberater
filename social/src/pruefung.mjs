@@ -80,7 +80,12 @@ export function eigenbegriffKuerzel() { return eigenbegriffeDatei().kuerzel || [
    dem Muster GROSSBUCHSTABEN-Methode/-Schema/-Formel, sofern sie nicht in der
    Fachsprache üblich ist. Solche Kürzel sind fast immer die Erfindung eines
    Dozenten. */
-const UEBLICH = new Set(["dba-schema", "ust-schema", "est-schema", "gewst-schema", "kst-schema", "abc-analyse", "xyz-analyse", "gob-regel"]);
+/* Nicht jedes Kürzel vor „-Methode“ ist die Erfindung eines Dozenten: DBA,
+   FIFO, LIFO und AfA stehen im Gesetz. Am 16.09. fiel eine fachlich richtige
+   Story über die Anrechnung auslaendischer Steuern aus, weil „DBA-Methode“
+   als Merkhilfe galt. */
+const UEBLICH = new Set(["dba-schema", "ust-schema", "est-schema", "gewst-schema", "kst-schema", "abc-analyse", "xyz-analyse", "gob-regel",
+  "dba-methode", "fifo-methode", "lifo-methode", "hifo-methode", "lofo-methode", "afa-methode", "afa-regel"]);
 export function gefundeneEigenbegriffe(text) {
   const t = String(text);
   const treffer = new Set();
@@ -269,7 +274,10 @@ export function gesperrteNamen(text, k = korpus()) {
   return k.namen.filter((n) => new RegExp(`(^|[^a-zäöüß])${n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-zäöüß]|$)`, "u").test(t));
 }
 
-const QUELLENBEZUG = /\b(laut Quelle|Quelle|Seite \d+|Folie|Mitschrift|Skript|Originalfall|Fall \d{2,3}|Hausaufgabe|Musterlösung der Finanzverwaltung|Frame)\b/i;
+/* „Skript“ nur noch als Quellenangabe, nicht als blosses Wort: „laut Skript“
+   ist ein Verweis auf das Kursmaterial, „nimm dir heute dein Skript vor“ ist
+   ein Lerntipp. Am 16.09. kostete genau dieser Unterschied eine Countdown-Story. */
+const QUELLENBEZUG = /\b(laut Quelle|Quelle|Seite \d+|Folie|Mitschrift|(?:laut|im|aus dem|nach dem|siehe) Skript|Skript,? S\. ?\d+|Originalfall|Fall \d{2,3}|Hausaufgabe|Musterlösung der Finanzverwaltung|Frame)\b/i;
 
 /* ==========================================================================
    Normfallen: feste Zahlen, die im Gesetz stehen und nicht verhandelbar sind.

@@ -2037,3 +2037,23 @@ test("Bezahlte Story-Texte überleben ein leeres Budget und erscheinen erst nach
   assert.match(lauf, /storiesPruefen\(ungeprueft\)/, "der Tageslauf holt die offene Prüfung nicht nach");
   assert.ok(BudgetFehler);
 });
+
+test("Die Wortsperren treffen Quellenverweise, nicht die Fachsprache", () => {
+  /* 16.09.: Zwei fachlich richtige Stories fielen an den eigenen Sperren aus.
+     „DBA-Methode“ galt als Merkhilfe eines Dozenten – dabei steht DBA im
+     Gesetz. Und das blosse Wort „Skript“ in einem Lerntipp galt als Verweis
+     auf das Kursmaterial. Beide Sperren bleiben, sie zielen jetzt genauer. */
+  const f = (t) => pruefeBeitrag({ stories: [{ slot: "s1", art: "norm", titel: "T", text: t }] });
+  for (const t of [
+    "Erst die DBA-Methode prüfen, dann § 34c Abs. 1 EStG anrechnen.",
+    "Die FIFO-Methode ist nach § 6 Abs. 1 Nr. 2a EStG zulässig.",
+    "Nimm dir heute dein Skript vor und wiederhole die Fristen.",
+  ]) assert.ok(f(t).ok, `zu Unrecht beanstandet: „${t}“ – ${f(t).fehler.join("; ")}`);
+
+  for (const t of [
+    "Laut Skript gilt hier die Anrechnungsmethode.",
+    "Siehe Skript, S. 42.",
+    "Die EIS-Methode hilft dir beim Aufbau.",
+    "Das steht auf Seite 12.",
+  ]) assert.ok(!f(t).ok, `durchgerutscht: „${t}“`);
+});
