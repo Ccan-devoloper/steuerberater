@@ -204,5 +204,26 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „Veräußerungsgewinn 10.000 €“ gegenüber dem ausgewiesenen Ergebnis von 12.000 €. Der
   Sparer-Pauschbetrag von 801 € in Fall 18 ist ebenso gekennzeichnet.
 
-  Offen sind damit noch die Fallsammlungen der Termine 1, 6, 7, 8 und 9 (§ 21, § 23,
+- **ESt-Fallsammlung zu § 23 EStG** (Termin 6, Wiegmann, Stand 05/2025): 23 Fälle in den
+  dreizehn Kapiteln der Quelle, dazu deren einleitende Vorbemerkung zum Lösungsaufbau
+  (Textbausteine und Musterschema) als eigener Eintrag – Subsidiarität gegenüber § 20 Abs. 2
+  EStG, Fristberechnung nach dem obligatorischen Vertrag, selbst hergestellte Gebäude ohne
+  neue Frist, Nutzung zu eigenen Wohnzwecken in drei Varianten, gemischt genutztes
+  Zweifamilienhaus mit häuslichem Arbeitszimmer, Anteile an vermögensverwaltenden GbR mit
+  Durchgriff auf den Gesellschafter, AfA-Nachversteuerung, Einlage ins Betriebsvermögen als
+  nachträgliche Veräußerung und Entnahme als fiktive Anschaffung, verdeckte Einlage in eine
+  Kapitalgesellschaft, Werbungskostenabzug im Zuflussjahr, FiFo bei Girosammelverwahrung
+  sowie die Schlussfälle Zugewinnausgleich, Dachgeschossausbau mit Scheckzahlung,
+  Geschäftsgrundstück mit Abwandlung, Betriebsaufgabe mit Veräußerungsverlust und die
+  vorweggenommene Erbfolge am Mehrfamilienhaus (Ehrlich).
+
+  Drei Rechenschritte gehen in der Quelle nicht auf; sie sind wortlautgetreu übernommen und
+  mit „so in der Quelle“ gekennzeichnet: in Fall 4a) die fortgeführten Gebäude-Herstellungs-
+  kosten „381.199 €“ (rechnerisch 381.999 €, was zum ausgewiesenen Gewinn von 165.001 €
+  führt); in Fall 9 der Gewinn „723.000 €“ (1.500.000 ./. 200.000 ./. 477.000 ergibt 823.000 €);
+  in Fall 21 der betriebliche Entnahmegewinn „147.868 €“ gegenüber den 151.918 € des
+  Ausgangsfalls 20. Ebenso gekennzeichnet ist in Fall 23 die AfA-Zeile „100.000 € x 2 % =
+  2.500“ (rechnerisch 2.000 €; der angesetzte Monatsbetrag von 334 € folgt den 2.000 €).
+
+  Offen sind damit noch die Fallsammlungen der Termine 1, 7, 8 und 9 (§ 21,
   vorweggenommene Erbfolge, Erbfall, Renten).

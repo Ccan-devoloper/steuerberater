@@ -96,8 +96,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   DBA-Fälle, entgeltlicher und unentgeltlicher Erwerb, verdeckte Einlage, Einbringungsgewinn I,
   Bürgschaft und Gesellschafterdarlehen, Liquidation, teilentgeltliche Übertragung, Raten- und
   Rentenveräußerung, Verlustausgleichsbeschränkung nach § 17 Abs. 2 S. 6 EStG, § 2a EStG bei
-  Drittstaatengesellschaften und nachträgliche Anschaffungskosten – sowie die Sammlung zu
-  § 15a EStG (Wiegmann, 12/2025) mit 12 Beispielen
+  Drittstaatengesellschaften und nachträgliche Anschaffungskosten –, die Fallsammlung zu
+  § 23 EStG (Wiegmann, 05/2025) mit 23 Fällen und einer Vorbemerkung zum Lösungsaufbau –
+  Subsidiarität gegenüber § 20 EStG, Fristberechnung nach dem obligatorischen Vertrag, selbst
+  hergestellte Gebäude, Nutzung zu eigenen Wohnzwecken, gemischt genutztes Gebäude mit
+  häuslichem Arbeitszimmer, vermögensverwaltende GbR, AfA-Nachversteuerung, Einlage und
+  Entnahme als fiktive Veräußerung bzw. Anschaffung, verdeckte Einlage, Werbungskostenabzug
+  im Zuflussjahr, FiFo bei Girosammelverwahrung und drei große Schlussfälle – sowie die
+  Sammlung zu § 15a EStG (Wiegmann, 12/2025) mit 12 Beispielen
   samt Fortsetzungen und Abwandlungen – Kapitalkonto i. S. d. § 15a, erweiterte Außenhaftung,
   Einlage- und Haftungsminderung nach § 15a Abs. 3 EStG. Die Gegenüberstellung
   „ausgleichsfähig / verrechenbar“ steht als Tabelle.
