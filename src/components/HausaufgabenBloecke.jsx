@@ -117,6 +117,7 @@ export default function HausaufgabenBloecke({
   kicker, titel, lead, quelle, hausaufgaben,
   gruppeVon, gruppeLabel, gruppeAria = "Auswahl",
   karteKicker, moduleFuer = () => [], onModulOeffnen, suchePlatzhalter,
+  einheit = "Hausaufgaben", einheitEinzahl = "Hausaufgabe",
 }) {
   const [gruppe, setGruppe] = useState("alle");
   const [suche, setSuche] = useState("");
@@ -131,7 +132,12 @@ export default function HausaufgabenBloecke({
   }, [gruppe, suche, hausaufgaben, gruppeVon]);
 
   const gesamtpunkte = hausaufgaben.reduce((n, ha) => n + (ha.punkte || 0), 0);
-  const gruppen = [["alle", `Alle ${gruppeAria}`], ...hausaufgaben.map((ha) => [String(gruppeVon(ha)), gruppeLabel(ha)])];
+  /* Mehrere Fälle können zur selben Gruppe gehören (Fallsammlungen); die Map
+     hält je Gruppe den ersten Eintrag und bewahrt die Reihenfolge. */
+  const gruppen = [
+    ["alle", `Alle ${gruppeAria}`],
+    ...new Map(hausaufgaben.map((ha) => [String(gruppeVon(ha)), gruppeLabel(ha)])),
+  ];
 
   return (
     <div className="istr-fs-page istr-ha-page">
@@ -152,9 +158,9 @@ export default function HausaufgabenBloecke({
         {quelle.didaktik.map((absatz) => <p key={absatz}>{absatz}</p>)}
       </section>
 
-      <section className="istr-fs-steuerung" aria-label="Hausaufgaben filtern">
+      <section className="istr-fs-steuerung" aria-label={`${einheit} filtern`}>
         <label className="istr-fs-suche">
-          <span>Hausaufgaben durchsuchen</span>
+          <span>{einheit} durchsuchen</span>
           <input
             type="search"
             value={suche}
@@ -171,7 +177,7 @@ export default function HausaufgabenBloecke({
 
       {gefiltert.length === 0 && (
         <section className="panel istr-fs-leer">
-          <h3>Keine Hausaufgabe gefunden</h3>
+          <h3>Keine {einheitEinzahl} gefunden</h3>
           <p>Suchbegriff oder Auswahl ändern.</p>
         </section>
       )}

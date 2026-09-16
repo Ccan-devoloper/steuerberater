@@ -137,3 +137,13 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   aufgehen (AfA-Zeitraum und Jahresbeträge bei Holbein, die nicht in die Summe
   eingerechnete Zeile „500.000 € × 40%“ bei Hohl, die Zeilenbezeichnung „unentgeltlicher
   Teil“ bei Carter), sind wortlautgetreu übernommen und im Tabellenkopf gekennzeichnet.
+- **ESt-Fallsammlung zu § 15a EStG**: neuer Reiter „Fallsammlungen“ im ESt-Campus mit
+  eigenem Datensatz (`src/data/est-fallsammlungen.js`, Prüfung
+  `npm run check:est-fallsammlungen`). Die Fallrepetitorien liegen im Drive getrennt als
+  Aufgaben- und Lösungs-PDF; im Campus stehen beide Teile wieder an einem Fall. Erfasst
+  sind die 12 Beispiele der Sammlung zu § 15a EStG einschließlich Fortsetzungen und
+  Abwandlungen. Die gemeinsame Block-Ansicht `HausaufgabenBloecke` wird mitbenutzt; sie
+  fasst Gruppen jetzt zusammen, damit mehrere Fälle derselben Sammlung einen Filterknopf
+  teilen.
+  Offen sind damit noch die Fallsammlungen der Termine 1 bis 8 (§ 21, § 4 Abs. 3,
+  Betriebsaufspaltung, gewerblicher Grundstückshandel, § 16, § 17, § 23, Erbfall, Renten).

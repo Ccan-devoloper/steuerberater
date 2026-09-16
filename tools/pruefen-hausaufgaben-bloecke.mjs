@@ -11,7 +11,7 @@
 
 const BLOCKTYPEN = new Set([undefined, "titel", "tabelle"]);
 
-export function pruefeHausaufgaben({ name, quelle, hausaufgaben, pflichtfelder = [] }) {
+export function pruefeHausaufgaben({ name, quelle, hausaufgaben, pflichtfelder = [], einheit = "Hausaufgaben" }) {
   const fehler = [];
   const meldung = (id, text) => fehler.push(`${id}: ${text}`);
 
@@ -74,5 +74,5 @@ export function pruefeHausaufgaben({ name, quelle, hausaufgaben, pflichtfelder =
   );
   const punkte = hausaufgaben.reduce((n, ha) => n + (ha.punkte || 0), 0);
   const punkteText = punkte ? `, ${punkte} Punkte` : "";
-  console.log(`${name} in Ordnung: ${hausaufgaben.length} Hausaufgaben, ${bloecke} Blöcke, ${tabellen} Tabellen${punkteText}.`);
+  console.log(`${name} in Ordnung: ${hausaufgaben.length} ${einheit}, ${bloecke} Blöcke, ${tabellen} Tabellen${punkteText}.`);
 }

@@ -9,15 +9,17 @@ import { laden, sichern } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
-import { IconCockpit, IconModule } from "./Icons";
+import { IconCockpit, IconFaelle, IconModule } from "./Icons";
 import { PrioCockpit } from "./Prioritaet";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
 import { estHausaufgaben, estHausaufgabenQuelle } from "../data/est-hausaufgaben.js";
+import { estFallsammlungen, estFallsammlungenQuelle } from "../data/est-fallsammlungen.js";
 import "./kst.css";
 
 const NAV = [
   ["cockpit", "Cockpit", IconCockpit],
   ["hausaufgaben", "Hausaufgaben ESt", IconModule],
+  ["fallsammlungen", "Fallsammlungen", IconFaelle],
 ];
 
 /* Was aus den ESt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
@@ -26,7 +28,7 @@ const OFFEN = [
   "Kurzskript II (Engelberth)",
   "Fallsammlung Einkünfte aus Gewerbebetrieb (Engelberth)",
   "Fallsammlung Einkünfte aus Kapitalvermögen (Engelberth)",
-  "Fallsammlungen der Termine 1 bis 9 (§ 21, § 4 Abs. 3, Betriebsaufspaltung, gewerblicher Grundstückshandel, § 16, § 17, § 23, Erbfall, Renten, § 15a)",
+  "Fallsammlungen der Termine 1 bis 8 (§ 21, § 4 Abs. 3, Betriebsaufspaltung, gewerblicher Grundstückshandel, § 16, § 17, § 23, Erbfall, Renten)",
   "Steuerberaterprüfungen Rechtsstand 2025",
 ];
 
@@ -56,6 +58,11 @@ function Cockpit() {
         <p>
           Die allgemeinen Bearbeitungshinweise des Lehrgangs gelten für alle Hausaufgaben und stehen
           über der Liste im Reiter „Hausaufgaben ESt“.
+        </p>
+        <p>
+          Dazu {estFallsammlungen.length} Fälle aus den Fallrepetitorien im Reiter „Fallsammlungen“:{" "}
+          {[...new Set(estFallsammlungen.map((fall) => fall.sammlungLabel))].join(", ")}. Aufgaben- und
+          Lösungsteil werden dort wieder zu einem Fall zusammengeführt.
         </p>
       </section>
 
@@ -112,11 +119,27 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
         <div className="rail__box">
           <b>ESt-Bestand</b>
           <strong>{estHausaufgaben.length} Hausaufgaben</strong>
+          <strong>{estFallsammlungen.length} Fälle</strong>
           <p>Weitere Quellen folgen</p>
         </div>
       </aside>
       <main className="page">
-        {verlauf.ansicht === "hausaufgaben" ? (
+        {verlauf.ansicht === "fallsammlungen" ? (
+          <HausaufgabenBloecke
+            kicker="Klausur 2 · Einkommensteuer · Fallsammlungen"
+            titel="ESt-Fallsammlungen 2026/2027"
+            lead="Die Fallrepetitorien des Lehrgangs – Sachverhalt, Fragestellung und Lösungshinweise im Wortlaut, die Berechnungsschemata als Tabelle, Fortsetzungen und Abwandlungen beim zugehörigen Beispiel."
+            quelle={estFallsammlungenQuelle}
+            hausaufgaben={estFallsammlungen}
+            gruppeVon={(fall) => fall.sammlung}
+            gruppeLabel={(fall) => fall.sammlungLabel}
+            gruppeAria="Fallsammlungen"
+            karteKicker={(fall) => `${fall.sammlungLabel} · ${fall.termin}. Fachtermin`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Fälle"
+            einheitEinzahl="Fall"
+          />
+        ) : verlauf.ansicht === "hausaufgaben" ? (
           <HausaufgabenBloecke
             kicker="Klausur 2 · Einkommensteuer · Hausaufgaben"
             titel="ESt-Hausaufgaben 2026/2027"

@@ -79,6 +79,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   gegen Versorgungsleistungen, § 17 EStG beim Rechtsnachfolger) im Wortlaut.
   Alle sechs Hausaufgaben (6 Fachtermine, 92 Tabellen) liegen damit vollständig vor.
   Prüfung: `npm run check:est-hausaufgaben`
+- **ESt-Fallsammlungen** (Reiter im ESt-Campus): die Fallrepetitorien des Lehrgangs, bei
+  denen Aufgaben- und Lösungs-PDF wieder zu einem Fall zusammengeführt sind. Erfasst ist
+  die Sammlung zu § 15a EStG (Wiegmann, 12/2025) mit 12 Beispielen samt Fortsetzungen und
+  Abwandlungen – Kapitalkonto i. S. d. § 15a, erweiterte Außenhaftung, Einlage- und
+  Haftungsminderung nach § 15a Abs. 3 EStG. Die Gegenüberstellung „ausgleichsfähig /
+  verrechenbar“ steht als Tabelle. Prüfung: `npm run check:est-fallsammlungen`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
