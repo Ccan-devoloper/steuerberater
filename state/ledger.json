@@ -2461,6 +2461,16 @@
       "fach": "istr",
       "titel": "Anrechnung ausländischer Steuer ohne DBA-Vorrang",
       "medienId": "18065973293596344"
+    },
+    {
+      "datum": "2026-09-16",
+      "art": "story",
+      "slot": "s6",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "medienId": "18352617463172919"
     }
   ],
   "fachZaehler": {
