@@ -2421,6 +2421,16 @@
       "fach": "ao",
       "titel": "Einspruch und Verböserung",
       "medienId": "17908208943488528"
+    },
+    {
+      "datum": "2026-09-16",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "begriff",
+      "thema": "persg-karte-k3-29",
+      "fach": "persg",
+      "titel": "Ergänzungsbilanz",
+      "medienId": "18156174112504521"
     }
   ],
   "fachZaehler": {
