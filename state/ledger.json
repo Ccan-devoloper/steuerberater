@@ -2451,6 +2451,16 @@
       "fach": "istr",
       "titel": "Dividende an beschränkt steuerpflichtigen Anteilseigner",
       "medienId": "18056953877796120"
+    },
+    {
+      "datum": "2026-09-16",
+      "art": "story",
+      "slot": "s5",
+      "storyArt": "norm",
+      "thema": "istr-modul-istr-istr1-02",
+      "fach": "istr",
+      "titel": "Anrechnung ausländischer Steuer ohne DBA-Vorrang",
+      "medienId": "18065973293596344"
     }
   ],
   "fachZaehler": {
