@@ -12,7 +12,10 @@
       "themaId": "bilanz-modul-k3-1",
       "themaTitel": null,
       "fach": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18156013696512479",
+      "veroeffentlicht": "2026-09-16T06:53:05.381Z",
+      "kanaele": {}
     },
     {
       "slot": "b2",
