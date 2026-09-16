@@ -8,8 +8,8 @@
     {
       "slot": "b1",
       "zeit": "08:30",
-      "format": "aktuell",
-      "themaId": null,
+      "format": "pruefungsfrage",
+      "themaId": "bilanz-modul-k3-1",
       "themaTitel": null,
       "fach": null,
       "status": "geplant"

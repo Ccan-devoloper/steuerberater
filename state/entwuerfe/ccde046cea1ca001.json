@@ -1,0 +1,157 @@
+{
+  "datum": "2026-09-16",
+  "zweck": "autor",
+  "daten": {
+    "folien": [
+      {
+        "art": "titel",
+        "titel": "Handelsbilanz zeigt eine Rückstellung, Steuerbilanz nicht – wie begründest du das?",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "waage"
+      },
+      {
+        "art": "text",
+        "titel": "Der Ausgangspunkt",
+        "untertitel": null,
+        "text": null,
+        "punkte": [
+          "Wer nach § 238 (1) HGB oder § 141 AO buchführungspflichtig ist, ermittelt den Gewinn durch Betriebsvermögensvergleich, § 5 (1) S. 1 Hs. 1 EStG.",
+          "Damit strahlen die *Grundsätze ordnungsmäßiger Buchführung* aus § 242 (1) HGB in die Steuerbilanz hinein.",
+          "Das ist der Grund, warum du nie direkt ins Steuerrecht springst, sondern erst die Handelsbilanz aufstellst."
+        ],
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "buch"
+      },
+      {
+        "art": "schritte",
+        "titel": "So prüfst du in der Klausur",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": [
+          {
+            "titel": "Wer bilanziert?",
+            "text": "Buchführungspflicht nach § 238 (1) HGB, § 140 AO oder § 141 AO klären."
+          },
+          {
+            "titel": "Handelsbilanzwert bestimmen",
+            "text": "Ansatz und Bewertung nach §§ 238, 242, 246 HGB."
+          },
+          {
+            "titel": "Steuerliche Spezialnorm suchen",
+            "text": "Durchbricht eine Vorschrift die Maßgeblichkeit, § 5 (1) S. 1 Hs. 2 EStG?"
+          },
+          {
+            "titel": "Abweichung technisch zeigen",
+            "text": "Eigene Steuerbilanz oder Überleitung nach § 60 (2) EStDV, Gewinnauswirkung beziffern."
+          }
+        ],
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "klemmbrett"
+      },
+      {
+        "art": "text",
+        "titel": "Beispiel: Tischlerei Vogtland",
+        "untertitel": null,
+        "text": "Der Betrieb bildet handelsrechtlich eine Rückstellung für drohende Verluste aus einem Liefervertrag, 8.000 €. Steuerlich verbietet eine Spezialnorm den Ansatz von Drohverlustrückstellungen. Die Handelsbilanz zeigt die Rückstellung, die Steuerbilanz nicht – der steuerliche Gewinn liegt um 8.000 € höher.",
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "vertrag"
+      },
+      {
+        "art": "merke",
+        "titel": "Merksatz",
+        "untertitel": null,
+        "text": "Ohne eigene steuerliche Norm bleibt es beim Handelsbilanzwert – Abweichung braucht immer eine Rechtsgrundlage, nicht nur eine Meinung.",
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "paragraf"
+      },
+      {
+        "art": "cta",
+        "titel": "Dauerbrenner, jede Woche neu.",
+        "untertitel": null,
+        "text": null,
+        "punkte": [
+          "Schick das deiner Lerngruppe",
+          "Speichern für die letzte Wiederholung",
+          "Wo hakt's bei dir: Ansatz oder Bewertung? Kommentiere!"
+        ],
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "personen"
+      }
+    ],
+    "caption": "Maßgeblichkeitsprinzip Steuerbilanz Handelsbilanz Abweichung – so prüfst du es richtig.\n\nDie Steuerbilanz fängt nicht bei null an: Wer buchführungspflichtig ist, startet mit der Handelsbilanz und fragt erst danach, ob eine steuerliche *Spezialnorm* etwas anderes vorschreibt. Ohne eine solche Norm gilt der Handelsbilanzwert unverändert weiter.\n\nDer klassische Fehler: direkt ins Steuerrecht springen und die Handelsbilanz überspringen – oder ein steuerliches Wahlrecht fälschlich auch handelsrechtlich nachvollziehen.\n\nSchick das deiner Lerngruppe, bevor ihr das nächste Mal einen Bilanzfall übt, und speichern nicht vergessen.\n\nWelchen Fall aus der Bilanzklausur soll ich als Nächstes durchrechnen?",
+    "hashtags": [
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#stbexamen",
+      "#steuerberater",
+      "#steuerrecht",
+      "#examensvorbereitung",
+      "#maßgeblichkeitsprinzip",
+      "#bilanzsteuerrecht",
+      "#handelsbilanz",
+      "#steuerbilanz",
+      "#klausurtag3",
+      "#bilanzklausur"
+    ],
+    "kurztitel": "Maßgeblichkeit: erst HGB, dann Steuer",
+    "bildSzene": "wooden workshop invoice on clipboard",
+    "bildSzeneAlt": "open ledger book on desk",
+    "quellen": [
+      "§ 238 Abs. 1 HGB",
+      "§ 242 Abs. 1 HGB",
+      "§ 140 AO",
+      "§ 141 AO",
+      "§ 5 Abs. 1 EStG",
+      "§ 60 Abs. 2 EStDV"
+    ],
+    "hooks": [
+      {
+        "typ": "frage",
+        "titel": "Handelsbilanz zeigt eine Rückstellung, Steuerbilanz nicht – wie begründest du das?"
+      },
+      {
+        "typ": "fehler",
+        "titel": "Der Fehler, der jede Bilanzklausur kostet: direkt ins Steuerrecht springen"
+      },
+      {
+        "typ": "zahl",
+        "titel": "Zwei Bilanzen, ein Betrieb: die 8.000-Euro-Abweichung erklärt"
+      }
+    ]
+  }
+}

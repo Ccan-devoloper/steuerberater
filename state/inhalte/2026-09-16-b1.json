@@ -1,0 +1,104 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der Fehler, der jede Bilanzklausur kostet: direkt ins Steuerrecht springen",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Kommt fast jedes Jahr dran",
+      "hinweis": "Swipe →"
+    },
+    {
+      "art": "text",
+      "titel": "Der Ausgangspunkt",
+      "punkte": [
+        "Wer nach § 238 (1) HGB oder § 141 AO buchführungspflichtig ist, ermittelt den Gewinn durch Betriebsvermögensvergleich, § 5 (1) S. 1 Hs. 1 EStG.",
+        "Damit strahlen die *Grundsätze ordnungsmäßiger Buchführung* aus § 242 (1) HGB in die Steuerbilanz hinein.",
+        "Das ist der Grund, warum du nie direkt ins Steuerrecht springst, sondern erst die Handelsbilanz aufstellst."
+      ],
+      "icon": "buch"
+    },
+    {
+      "art": "schritte",
+      "titel": "So prüfst du in der Klausur",
+      "schritte": [
+        {
+          "titel": "Wer bilanziert?",
+          "text": "Buchführungspflicht nach § 238 (1) HGB, § 140 AO oder § 141 AO klären."
+        },
+        {
+          "titel": "Handelsbilanzwert bestimmen",
+          "text": "Ansatz und Bewertung nach §§ 238, 242, 246 HGB."
+        },
+        {
+          "titel": "Steuerliche Spezialnorm suchen",
+          "text": "Durchbricht eine Vorschrift die Maßgeblichkeit, § 5 (1) S. 1 Hs. 2 EStG?"
+        },
+        {
+          "titel": "Abweichung technisch zeigen",
+          "text": "Eigene Steuerbilanz oder Überleitung nach § 60 (2) EStDV, Gewinnauswirkung beziffern."
+        }
+      ],
+      "icon": "klemmbrett"
+    },
+    {
+      "art": "text",
+      "titel": "Beispiel: Tischlerei Vogtland",
+      "text": "Der Betrieb bildet handelsrechtlich eine Rückstellung für drohende Verluste aus einem Liefervertrag, 8.000 €. Steuerlich verbietet eine Spezialnorm den Ansatz von Drohverlustrückstellungen. Die Handelsbilanz zeigt die Rückstellung, die Steuerbilanz nicht – der steuerliche Gewinn liegt um 8.000 € höher.",
+      "icon": "vertrag"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Ohne eigene steuerliche Norm bleibt es beim Handelsbilanzwert – Abweichung braucht immer eine Rechtsgrundlage, nicht nur eine Meinung.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Dauerbrenner, jede Woche neu.",
+      "punkte": [
+        "Schick das deiner Lerngruppe",
+        "Speichern für die letzte Wiederholung",
+        "Wo hakt's bei dir: Ansatz oder Bewertung? Kommentiere!"
+      ],
+      "icon": "personen"
+    }
+  ],
+  "caption": "Maßgeblichkeitsprinzip Steuerbilanz Handelsbilanz Abweichung – so prüfst du es richtig. Die Steuerbilanz fängt nicht bei null an: Wer buchführungspflichtig ist, startet mit der Handelsbilanz und fragt erst danach, ob eine steuerliche *Spezialnorm* etwas anderes vorschreibt. Ohne eine solche Norm gilt der Handelsbilanzwert unverändert weiter. Der klassische Fehler: direkt ins Steuerrecht springen und die Handelsbilanz überspringen – oder ein steuerliches Wahlrecht fälschlich auch handelsrechtlich nachvollziehen. Schick das deiner Lerngruppe, bevor ihr das nächste Mal einen Bilanzfall übt, und speichern nicht vergessen. Welchen Fall aus der Bilanzklausur soll ich als Nächstes durchrechnen?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#stbexamen2026",
+    "#steuerfachwirt",
+    "#maßgeblichkeitsprinzip",
+    "#handelsbilanz",
+    "#steuerbilanz",
+    "#klausurtag3",
+    "#bilanzklausur",
+    "#bilanzsteuerrecht"
+  ],
+  "kurztitel": "Maßgeblichkeit: erst HGB, dann Steuer",
+  "bildSzene": "wooden workshop invoice on clipboard",
+  "bildSzeneAlt": "open ledger book on desk",
+  "quellen": [
+    "§ 238 Abs. 1 HGB",
+    "§ 242 Abs. 1 HGB",
+    "§ 140 AO",
+    "§ 141 AO",
+    "§ 5 Abs. 1 EStG",
+    "§ 60 Abs. 2 EStDV"
+  ],
+  "hookTyp": "fehler",
+  "faktenHinweise": [],
+  "slug": "2026-09-16-b1"
+}
