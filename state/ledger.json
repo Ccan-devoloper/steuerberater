@@ -2347,6 +2347,40 @@
       ],
       "veroeffentlicht": "2026-09-16T06:53:05.381Z",
       "karteUrl": null
+    },
+    {
+      "datum": "2026-09-16",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "12:30",
+      "stunde": 8,
+      "format": "reel",
+      "thema": "bilanz-karte-k3-10",
+      "fach": "bilanz",
+      "titel": "Ein Wort entscheidet über die Formel",
+      "hookTyp": "szene",
+      "hookMuster": "luecke",
+      "medienId": "18124718992847558",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#disagio",
+        "#zinsstaffel",
+        "#bilanzsteuerrecht",
+        "#rechnungsabgrenzung",
+        "#klausur3",
+        "#bilanzierung"
+      ],
+      "stimmeId": null,
+      "stimmeName": null,
+      "layout": "klassisch",
+      "dauer": 46.7,
+      "veroeffentlicht": "2026-09-16T06:55:46.084Z"
     }
   ],
   "fachZaehler": {
@@ -2354,7 +2388,7 @@
     "ust": 4,
     "kst": 7,
     "ao": 11,
-    "bilanz": 13,
+    "bilanz": 14,
     "istr": 8,
     "erbst": 2
   },
