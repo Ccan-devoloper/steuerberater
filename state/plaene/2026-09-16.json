@@ -68,7 +68,7 @@
       "art": "norm",
       "themaId": "istr-modul-istr-istr1-02",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "uebersprungen"
     },
     {
       "slot": "s2",
@@ -87,7 +87,7 @@
       "themaId": null,
       "beitragSlot": null,
       "tageBisExamen": 20,
-      "status": "geplant"
+      "status": "uebersprungen"
     },
     {
       "slot": "s7",
@@ -115,7 +115,9 @@
       "art": "fehler",
       "themaId": "istr-modul-istr-istr3-02",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18056953877796120",
+      "veroeffentlicht": "2026-09-16T07:12:27.470Z"
     }
   ]
 }

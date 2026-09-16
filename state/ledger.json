@@ -2441,6 +2441,16 @@
       "fach": "bilanz",
       "titel": "Was ist ein Aufwandsverteilungsposten in der Steuerbilanz?",
       "medienId": "18101659484366159"
+    },
+    {
+      "datum": "2026-09-16",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "fehler",
+      "thema": "istr-modul-istr-istr3-02",
+      "fach": "istr",
+      "titel": "Dividende an beschränkt steuerpflichtigen Anteilseigner",
+      "medienId": "18056953877796120"
     }
   ],
   "fachZaehler": {
