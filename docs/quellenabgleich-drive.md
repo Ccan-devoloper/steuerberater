@@ -316,3 +316,34 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   18.900 € zufließen.
 
   Damit ist die ESt-Fallsammlungsreihe der Fachtermine 1 bis 9 vollständig erfasst.
+
+- **GewSt-Campus angelegt** (Klausur 2, Reiter Gewerbesteuer): Der Platzhalter ist durch einen
+  echten Campus ersetzt. Erfasst sind zwei Quellen:
+
+  *Hausaufgabe mit Lösung* (Kl 3 TL / Br, 2026, Rechtsstand 2025) – X-OHG mit atypisch stiller
+  Beteiligung: Objekt und Subjekt der Gewerbesteuer, Weg vom Handelsbilanzgewinn über § 7 S. 1
+  (Sonderbetriebseinnahmen, Ergänzungsbilanz, Spiegelbildmethode), § 7 S. 2 und § 7 S. 4 GewStG
+  (§ 8b KStG für die M-GmbH, Teileinkünfteverfahren für H), Kürzungen nach § 9 Nr. 1 S. 1 und
+  Nr. 2a GewStG, Hinzurechnungen nach § 8 Nr. 1 und Nr. 8 GewStG, Verlustvortrag nach § 10a
+  GewStG mit Unternehmens- und Unternehmeridentität, Messbetrag und Zerlegung auf Bonn und Köln.
+
+  Zwei Stellen gehen in der Quelle nicht auf; sie sind wortlautgetreu übernommen und
+  gekennzeichnet: der Fließtext nennt beim Verlustabzug „145.576", rechnet aber mit 143.881 €;
+  und die Gesamtspalte der Zerlegung weist 21.979,75 € aus, während die Summe der beiden
+  Gemeindebeträge – und das ausgewiesene Endergebnis – 21.617,30 € beträgt. Im Aufgabentext
+  steht außerdem „§ 89 GewStG" statt § 9 GewStG.
+
+  *Fallsammlung GewSt* (Nöthen, Rechtsstand 2025) – vier Fälle: Spedition Mark Nehring mit
+  Vorauszahlungen, Miet- und Pachtzinsen, Rentenverpflichtung und zwei GmbH-Beteiligungen;
+  Betriebsaufspaltung Max Noll mit Photovoltaikanlage; F-N GmbH & Co. KG mit
+  Gesellschafterdarlehen, zwei Beteiligungen und Gesellschafterwechsel; Abels & Breuer KG zur
+  Unternehmeridentität nach § 10a GewStG.
+
+  **Im freigegebenen Ordner liegt zu dieser Fallsammlung kein Lösungs-PDF.** Die vier Fälle
+  stehen deshalb mit Sachverhalt und Aufgabenstellung, aber ohne Musterlösung; jeder Fall sagt
+  das im Lösungsblock ausdrücklich. Drei offensichtliche Schreibfehler der Quelle sind
+  wortlautgetreu übernommen und gekennzeichnet: „150.00 €" Zinsen in Fall 1, „ohne
+  umsatzsteuerfrei" in Fall 2 und „die Ulmer-GmbH" statt Ulmer AG in Fall 3.
+
+  Offen ist im GewSt-Campus damit noch das Kurzskript Gewerbesteuer (Breier) und – sobald
+  vorhanden – der Lösungsteil der Fallsammlung.
