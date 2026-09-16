@@ -2112,3 +2112,36 @@ test("Das Erklärvideo läuft fünf Tage am Stück und hat Budget für seine Fig
   assert.match(lauf, /zweck: "erklaerbild"/, "die Erklärbilder laufen nicht unter eigenem Zweck");
   assert.match(lauf, /"reel-faktencheck", "erklaerbild"/, "die Rücklage schützt die Figuren des Erklärvideos nicht");
 });
+
+test("Die Recherche zeigt nur auf geprüfte Quellen und verlangt Prüfungsbezug", async () => {
+  /* 16.09.: Der BFH-Feed lebte, der geratene Seitenpfad und der zu den
+     BMF-Schreiben waren 404. Eine Recherche, die auf tote Seiten zeigt,
+     sucht frei weiter und zahlt jede Runde mit. */
+  const autor = fs.readFileSync(new URL("../src/autor.mjs", import.meta.url), "utf8");
+  const pruefer = fs.readFileSync(new URL("../bin/quellen-pruefen.mjs", import.meta.url), "utf8");
+
+  const block = autor.slice(autor.indexOf("const QUELLEN_STEUERN"), autor.indexOf("export async function aktuellRecherchieren"));
+  const urls = [...block.matchAll(/https?:\/\/[^\s`]+/g)].map((m) => m[0]);
+  assert.ok(urls.length >= 6, `zu wenige Quellen im Prompt: ${urls.length}`);
+  for (const u of urls) assert.ok(pruefer.includes(u), `ungeprüfte Quelle im Prompt: ${u}`);
+  for (const tot of ["bmf-schreiben.html", "nwb.de", "gesetze-im-internet.de", "rechtsprechung-im-internet.de"]) {
+    assert.ok(!block.includes(tot), `nicht erreichbare Quelle steht wieder im Prompt: ${tot}`);
+  }
+
+  /* Der Prüfungsbezug entscheidet, nicht die Neuigkeit: Jedes Prüfungsgebiet
+     muss im Prompt benannt sein, sonst nimmt das Modell irgendein
+     BFH-Urteil. */
+  const frage = autor.slice(autor.indexOf("export async function aktuellRecherchieren"), autor.indexOf("KEINE_NEUIGKEIT"));
+  for (const fach of ["ao", "ust", "erbst", "kst", "istr", "bilanz", "persg"]) {
+    assert.ok(new RegExp(`\\b${fach}\\b`).test(frage), `Prüfungsgebiet fehlt im Auftrag: ${fach}`);
+  }
+  assert.match(frage, /Prüfungsbezug/, "der Prüfungsbezug wird nicht verlangt");
+  assert.match(frage, /Steuerberaterprüfung|Steuerberaterexamen/, "der Bezug zum Steuerberaterexamen fehlt");
+  assert.match(autor, /HÖCHSTENS ZWEI Suchvorgänge/, "die Suche ist nicht begrenzt");
+
+  /* „Nichts mit Prüfungsbezug gefunden" ist ein sauberes Ergebnis. */
+  assert.match(autor, /KEINE_NEUIGKEIT/, "dem Modell fehlt der Weg, sauber nichts zu finden");
+  const lauf = fs.readFileSync(new URL("../src/lauf.mjs", import.meta.url), "utf8");
+  assert.match(lauf, /KEINE_NEUIGKEIT/, "der Tageslauf wertet das leere Ergebnis nicht aus");
+  assert.match(lauf, /aufThemenpoolAusweichen/, "der Ausweg auf den Themenpool ist nicht benannt");
+});

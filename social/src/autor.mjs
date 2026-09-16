@@ -567,13 +567,58 @@ export async function beitragSchreiben({ format, thema, datum, recherche, wochen
 }
 
 /* Web-Recherche für das Format „aktuell“ (Server-Tool Websuche). */
-export async function aktuellRecherchieren(datum, bereitsBehandelt = []) {
-  const frage = `Heute ist der ${datumLesbar(datum)}. Recherchiere 3–5 aktuelle Neuigkeiten aus den letzten 4 Wochen, die für Kandidat:innen des deutschen Steuerberaterexamens relevant sind: BFH-Urteile, BMF-Schreiben, Gesetzesänderungen (EStG, KStG, UStG, AO, HGB, ErbStG, UmwStG, GewStG), Termine/Statistiken der Steuerberaterprüfung, Änderungen bei Prüfungsordnung oder Hilfsmitteln. Bevorzuge offizielle Quellen (bundesfinanzhof.de, bundesfinanzministerium.de, bstbk.de, Steuerberaterkammern, Bundesgesetzblatt) und Fachverlage (NWB, Haufe, Beck, DATEV). Bereits behandelt (nicht erneut): ${bereitsBehandelt.join("; ") || "–"}.
+/* Geprüfte Quellen, nicht geratene: bin/quellen-pruefen.mjs ruft jede
+   einzeln ab. Der Lauf am 16.09. zeigte, dass der BFH-RSS-Feed lebt
+   (Meldungen vom 14., 11. und 10.09.), der Seitenpfad zu den Pressemeldungen
+   und der zu den BMF-Schreiben dagegen 404 lieferten - beides hatte ich
+   geraten. Eine Recherche, die auf tote Seiten zeigt, sucht frei weiter, und
+   genau das kostete an diesem Tag 0,22 $ ohne Ergebnis. */
+const QUELLEN_STEUERN = `- BFH, Pressemeldungen als Feed (kurz, datiert - damit fängst du an): https://www.bundesfinanzhof.de/de/news.rss
+- BFH, Entscheidungen online: https://www.bundesfinanzhof.de/de/entscheidungen/entscheidungen-online/
+- BMF, Pressemitteilungen: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html
+- Bundessteuerberaterkammer: https://www.bstbk.de/de/presse
+- Bundesgesetzblatt: https://www.recht.bund.de/bgbl
+- Haufe Steuern: https://www.haufe.de/steuern/
+- DATEV Magazin Steuern: https://www.datev-magazin.de/category/steuern/`;
 
-Wähle dann DIE eine Neuigkeit mit dem größten Examensbezug aus. Antworte mit:
-1. Auswahl: Titel, Datum, Aktenzeichen/Dokument, Fach (eines von: ao, ust, erbst, kst, istr, bilanz, persg)
-2. Notizen: Was ist passiert, was ist der Kern, was bedeutet es fürs Examen (max. 200 Wörter, eigene Worte)
-3. Quellen: 2–3 URLs`;
+export async function aktuellRecherchieren(datum, bereitsBehandelt = []) {
+  const frage = `Heute ist der ${datumLesbar(datum)}. Finde EINE aktuelle Neuigkeit der letzten 4 Wochen, die für Kandidat:innen des deutschen Steuerberaterexamens wirklich zählt.
+
+${QUELLEN_STEUERN}
+
+Der Prüfungsbezug entscheidet, nicht die Neuigkeit an sich. Verwertbar ist nur, was in einem dieser Prüfungsgebiete liegt und dort auch wirklich vorkommt:
+- ao – Abgabenordnung, Verfahrensrecht, Einspruch, Festsetzungsverjährung, Korrekturvorschriften
+- ust – Umsatzsteuer
+- erbst – Erbschaft- und Schenkungsteuer, Bewertung
+- kst – Körperschaftsteuer
+- istr – Internationales Steuerrecht, DBA, AStG
+- bilanz – Bilanzsteuerrecht, Gewinnermittlung, HGB-Bezüge
+- persg – Personengesellschaften, Mitunternehmerschaft, Umwandlung
+
+Prüfe jede Kandidatin an drei Fragen, bevor du sie nimmst:
+1. Fällt sie in eines dieser Gebiete? Wenn nein: verwerfen.
+2. Könnte sie in einer Klausur der Steuerberaterprüfung auftauchen oder eine dort geprüfte Norm verschieben? Reine Verfahrensrandfragen, Zuständigkeitsstreitigkeiten und Entscheidungen zu Nischennormen, die im Examen nicht vorkommen, sind es NICHT - auch wenn sie frisch sind.
+3. Lässt sie sich in 200 Wörtern so erklären, dass jemand mitten in der Vorbereitung etwas davon hat? Wenn nein: verwerfen.
+
+Lieber eine Entscheidung zu einem Klausurklassiker (Vorsteuerabzug, Betriebsaufspaltung, Rückstellungen, § 15a EStG, verdeckte Gewinnausschüttung, Sonderbetriebsvermögen) als eine spektakuläre Randfrage.
+
+So arbeitest du:
+- Fang beim BFH-Feed an. Er ist kurz und datiert; oft steht dort schon alles.
+- HÖCHSTENS ZWEI Suchvorgänge. Danach schreibst du mit dem, was du hast.
+- Bevorzuge amtliche Quellen. Die Fachverlage helfen bei der Einordnung; übernimm von dort keinen Satz.
+- KEINE kostenpflichtigen Datenbanken (beck-online, juris-Volltexte, Wolters Kluwer). Die amtlichen Gründe sind frei zugänglich.
+
+Bereits behandelt (nicht erneut): ${bereitsBehandelt.join("; ") || "–"}.
+
+Antworte mit:
+1. Titel: kurzer Titel
+2. Datum und Aktenzeichen/Dokument
+3. Fach: eines von ao, ust, erbst, kst, istr, bilanz, persg
+4. Prüfungsbezug: in EINEM Satz, wo das im Examen vorkommt
+5. Notizen: Was ist passiert, was ist der Kern, was heißt das fürs Examen (max. 200 Wörter, eigene Worte)
+6. Quellen: 2–3 URLs
+
+Findest du nach zwei Suchen nichts, was diese drei Fragen besteht, antworte NUR mit dem Wort KEINE_NEUIGKEIT und sonst nichts. Das ist kein Fehler, sondern ein sauberes Ergebnis - der Beitrag entsteht dann aus dem Themenpool. Ein Beitrag über eine Neuigkeit ohne Prüfungsbezug ist schlechter als ein guter Beitrag aus dem Pool.`;
   return webRecherche(frage, "recherche");
 }
 
