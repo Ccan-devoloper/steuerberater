@@ -271,4 +271,25 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „400.000 €", denen die angesetzten AfA-Beträge eine Bemessungsgrundlage von 320.000 €
   zugrunde legen.
 
-  Offen sind damit noch die Fallsammlungen der Termine 8 und 9 (Erbfall, Renten).
+- **ESt-Fallsammlung „Erbfall, Erbengemeinschaft und Erbauseinandersetzung"** (Termin 8,
+  Blenkers, Stand 08/2025): 8 Beispiele, Aufgaben- und Lösungs-PDF zusammengeführt –
+  Realteilung mit Abfindungszahlung bei einem Mischnachlass über drei Zeitabschnitte eines
+  Jahres, Sachvermächtnis ohne Anschaffungskosten, einfache Nachfolgeklausel mit späterer
+  gewinnneutraler Realteilung, Alleinerbe mit Sach- und Barvermächtnis und privat
+  veranlassten Schuldzinsen, durch den Erbfall begründete Betriebsaufspaltung, qualifizierte
+  Nachfolgeklausel mit Entnahme des Sonderbetriebsvermögens beim Erblasser samt Exkurs zur
+  mitunternehmerischen Betriebsaufspaltung, Mietwohngrundstück mit zwei AfA-Reihen und
+  § 23 EStG bei der abgefundenen Miterbin nebst § 6 Abs. 1 Nr. 1a EStG über die
+  Drei-Jahres-Frist des Rechtsvorgängers, ein Fall mit Erbquoten 3/4 und 1/4 sowie der
+  Vertiefungsfall „Leben" über vier Steuerpflichtige (vorweggenommene Erbfolge, Erbfall und
+  Erbauseinandersetzung in einem Jahr, Veräußerungsleibrente, § 17 Abs. 1 S. 4 EStG und
+  § 20 Abs. 2 Nr. 1 EStG nebeneinander).
+
+  Drei Angaben der Quelle sind erkennbar verrutscht; sie sind wortlautgetreu übernommen und
+  gekennzeichnet: in Beispiel 1 die Jahresangabe „(2020)" beim Altersentlastungsbetrag nach
+  § 24a EStG; in Beispiel 8 der Verkehrswert der GmbH-Beteiligung „per 01.01.2024" bei einer
+  Übertragung zum 01.01.2025; und in Beispiel 8 die Zeile „anteiliger Veräußerungspreis
+  (für 0,2 % 460.000 €)", wobei 460.000 € der Preis für 0,4 % ist.
+
+  Offen ist damit noch die Fallsammlung des Termins 9 (Renten und Vermögensübertragungen
+  gegen wiederkehrende Leistungen).
