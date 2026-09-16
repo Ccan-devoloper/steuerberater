@@ -63,7 +63,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   nachprüfbaren Bestand (erfasst / noch nicht eingepflegt) und Examensprioritäten sowie der
   Reiter „Hausaufgaben ESt“ – Fachtermin 2 (Zorn/Frei und Merten: Zweitausbildung und
   20-Stunden-Grenze, degressive AfA § 7 Abs. 5a, Sonderabschreibung § 7b, verbilligte
-  Überlassung § 21 Abs. 2, anschaffungsnahe Herstellungskosten) im Wortlaut.
+  Überlassung § 21 Abs. 2, anschaffungsnahe Herstellungskosten) und Fachtermin 3
+  (Lang, Engler und Ford: unechte Betriebsaufspaltung, Einlage zu Anschaffungskosten
+  nach § 6 Abs. 1 Nr. 5 S. 1 Buchst. a/b, teilentgeltliche Überlassung mit § 3c Abs. 2
+  S. 6 EStG, Betriebsaufgabe mit Teileinkünfteverfahren, gewerblicher Grundstückshandel
+  über die Drei-Objekt-Grenze und § 7 Abs. 1 S. 5 EStG) im Wortlaut.
   Prüfung: `npm run check:est-hausaufgaben`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

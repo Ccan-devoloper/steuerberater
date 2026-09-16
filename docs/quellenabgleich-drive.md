@@ -50,7 +50,7 @@ Das Lehrgangsarchiv enthält vier Zweige:
 Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
 
 1. **K2 ESt** – der Campus existiert jetzt (kein Platzhalter mehr) und zeigt die
-   Hausaufgaben; erfasst ist Fachtermin 2. Offen sind die Hausaufgaben 3, 4, 6, 7 und 9,
+   Hausaufgaben; erfasst sind die Fachtermine 2 und 3. Offen sind die Hausaufgaben 4, 6, 7 und 9,
    das Kurzskript II (Engelberth), die Fallsammlungen (§§ 15, 17, 20, 23, 16,
    Betriebsaufspaltung, gewerblicher Grundstückshandel, Renten, Erbfall, § 15a) und die
    Steuerberaterprüfungen RS 2025. Das ESt-Cockpit führt diese Liste selbst mit.
@@ -114,3 +114,11 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Daten: `src/data/est-hausaufgaben.js`, Ansicht: `src/components/K2EStCampus.jsx`,
   Prüfung: `npm run check:est-hausaufgaben`. Die weiteren ESt-Hausaufgaben kommen in
   dieselbe Datei.
+- **ESt-Hausaufgabe zum 3. Fachtermin**: Aufgabenteile I bis III (Anton Lang, Detlev
+  Engler, Heinz Ford) mit Sachverhalt, Aufgabenstellung, den allgemeinen
+  Bearbeitungshinweisen dieses Termins und der vollständigen Musterlösung; die
+  Ermittlungsschemata (Aufgabegewinn mit § 34-/TEV-Spalte, Altersentlastungsbetrag,
+  Sonderausgaben, AfA nach § 7 Abs. 1 S. 5 EStG) stehen als Tabellen. Die Angabe
+  „positive Summe der übrigen Einkünfte 561.000 €“ beim Altersentlastungsbetrag ist mit
+  dem Hinweis „so in der Quelle“ übernommen, weil sie sich aus den Teilbeträgen der
+  Lösung nicht nachrechnen lässt.
