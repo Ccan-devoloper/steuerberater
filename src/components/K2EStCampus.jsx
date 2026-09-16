@@ -9,7 +9,7 @@ import { laden, sichern } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
-import { IconCockpit, IconFaelle, IconModule, IconRegister } from "./Icons";
+import { IconCockpit, IconFaelle, IconModule, IconRegister, IconTraining } from "./Icons";
 import { PrioCockpit } from "./Prioritaet";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
 import KurzskriptBloecke from "./KurzskriptBloecke";
@@ -17,6 +17,7 @@ import { estHausaufgaben, estHausaufgabenQuelle } from "../data/est-hausaufgaben
 import { estKurzskript1, estKurzskript1Quelle } from "../data/est-kurzskript-1.js";
 import { estKurzskript2, estKurzskript2Quelle } from "../data/est-kurzskript-2.js";
 import { estFallsammlungen, estFallsammlungenQuelle } from "../data/est-fallsammlungen.js";
+import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import "./kst.css";
 
 const NAV = [
@@ -25,13 +26,13 @@ const NAV = [
   ["kurzskript2", "Kurzskript II", IconRegister],
   ["hausaufgaben", "Hausaufgaben ESt", IconModule],
   ["fallsammlungen", "Fallsammlungen", IconFaelle],
+  ["klausuren", "Übungsklausuren", IconTraining],
 ];
 
 /* Was aus den ESt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
    steht im Cockpit, damit der Stand des Campus nachprüfbar bleibt. */
 const OFFEN = [
   "Kurzskript I: Betriebsaufspaltung, gewerblicher Grundstückshandel, Betriebsbeendigung, Einnahmenüberschussrechnung, selbständige Arbeit und Kapitalvermögen (ab Seite 80 des PDF)",
-  "Steuerberaterprüfungen Rechtsstand 2025",
 ];
 
 function Cockpit() {
@@ -76,6 +77,12 @@ function Cockpit() {
         <p>
           Die allgemeinen Bearbeitungshinweise des Lehrgangs gelten für alle Hausaufgaben und stehen
           über der Liste im Reiter „Hausaufgaben ESt“.
+        </p>
+        <p>
+          Die Übungsklausur Einkommensteuer 1 (Wiegmann, {estKlausurenQuelle.stand}) steht mit allen
+          drei Aufgabenteilen und der Musterlösung im Reiter „Übungsklausuren“ – Sachverhalt,
+          Aufgabenstellung und Lösungshinweise im Wortlaut, die Randpunkte nur dort, wo sie sich im
+          PDF eindeutig einem Absatz zuordnen lassen.
         </p>
         <p>
           Dazu {estFallsammlungen.length} Fälle aus den Fallrepetitorien im Reiter „Fallsammlungen“:{" "}
@@ -170,6 +177,21 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
             gruppeAria="Teile"
             gruppeAlle="Alle Teile"
             suchePlatzhalter="Norm, Stichwort oder Betrag"
+          />
+        ) : verlauf.ansicht === "klausuren" ? (
+          <HausaufgabenBloecke
+            kicker="Klausur 2 · Einkommensteuer · Übungsklausuren"
+            titel="ESt-Übungsklausuren 2026/2027"
+            lead="Die Übungsklausuren im Prüfungsformat – sechs Stunden Bearbeitungszeit, je Aufgabenteil ein eigener Mandant. Aufgabenstellung, Sachverhalt und Musterlösung stehen im Wortlaut, die Ermittlungsschemata als Tabelle."
+            quelle={estKlausurenQuelle}
+            hausaufgaben={estKlausuren}
+            gruppeVon={(eintrag) => eintrag.klausur}
+            gruppeLabel={(eintrag) => eintrag.klausurLabel}
+            gruppeAria="Klausuren"
+            karteKicker={(eintrag) => `${eintrag.klausurLabel} · Aufgabenteil ${eintrag.teil} · ${eintrag.bearbeitungszeit}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Aufgabenteile"
+            einheitEinzahl="Aufgabenteil"
           />
         ) : verlauf.ansicht === "fallsammlungen" ? (
           <HausaufgabenBloecke

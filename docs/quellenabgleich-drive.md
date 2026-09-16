@@ -602,3 +602,43 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     Bagatellgrenze heißt es „Dies gilt nicht bei Personengesellschaften“, obwohl die Regelung
     gerade für Personengesellschaften gilt; in der Abwandlung zu Tz. 3.5 nennt der Sachverhalt
     PKW, die Lösung ein Gebäude.
+
+- **Übungsklausur Einkommensteuer 1** – Thomas Wiegmann (Verfasser), René Grolle (Korrektor),
+  Rechtsstand 2025, aus dem Ordner „Übungsklausuren“ des Tageslehrgangs. Aufgabenteil
+  (`167LPXgF83QSadoi_5d44cG4nFTeQSUz-`) und Lösung (`1tk28_9DGLR2g8-rqdeI7kR8_ZdweaZNy`)
+  sind vollständig lesbar und im Campus wieder zusammengeführt: drei Aufgabenteile mit
+  Aufgabenstellung, Sachverhalt und Musterlösung im Wortlaut.
+
+  **Zu den Randpunkten:** Die Musterlösung führt die Punkte in einer Randspalte. Beim
+  Extrahieren löst sich diese Spalte von ihrem Absatz – teils steht der Wert direkt hinter
+  seiner Zeile, teils sammeln sich mehrere Werte am Seitenende. Übernommen ist ein Punktwert
+  deshalb nur dort, wo die Zuordnung eindeutig ist; die übrigen stehen als gesammelter
+  Hinweis am Ende des jeweiligen Aufgabenteils. Die im Campus ausgewiesene Punktsumme ist
+  daher ausdrücklich **nicht** die Gesamtpunktzahl der Klausur. Geraten wurde nichts.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" bzw. einem Hinweis gekennzeichnet:
+
+  - Aufgabenteil I, Sachverhalt: „Nachdem weitere Sanierungskosten drohten …, mit Notarvertrag
+    vom 06.09.2024 verkaufte HERMINE POTTER das Objekt" (Satzbau).
+  - Aufgabenteil I, Lösung zur stillen Beteiligung: Der Sachverhalt datiert die Abrechnung auf
+    November, die Gutschrift auf den 15.12.2025; die Lösung stellt auf „den Zufluss im November
+    2025" ab.
+  - Aufgabenteil II: Die Einkünfte aus Kapitalvermögen werden mit 5.833 € abzüglich 1.000 €
+    Sparer-Pauschbetrag auf 1.316 € beziffert; rechnerisch ergäben sich 4.833 €.
+  - Aufgabenteil II: Die Summentabelle setzt für § 19 EStG 58.800 € an, oben ermittelt sind
+    58.770 €.
+  - Aufgabenteil III: Die Zeile „Bezüge Hulda" ist im PDF mit „Bezüge Helga" beschriftet.
+
+  **Der Ordner „Übungsklausuren" enthält insgesamt 24 Dateien** – zwölf Klausuren jeweils mit
+  Lösung: Ertragsteuern 0 und 2, Einkommensteuer 1, Körperschaftsteuer, Umsatzsteuer,
+  Bilanzierung 1 bis 4, Bewertungsrecht 1 und 2 sowie Abgabenordnung. Erfasst ist bisher nur
+  die Einkommensteuer-Klausur; die übrigen elf stehen in docs/offene-quellen.md.
+
+  **Systematischer Neudurchlauf des Drive-Ordners:** Dabei hat sich bestätigt, dass es zwei
+  verschiedene Unterordner „Einkommensteuer" gibt. Der zweite (unter „Zusatzunterlagen",
+  ID `1U2-gm4fDLVZ8PuBCpXfKgGZ9B_TW1uCw`) enthält 21 Dateien, darunter sieben mit generischen
+  Namen („2025) (6).pdf" bis „2025) (12).pdf"). Diese wurden einzeln geprüft: Es handelt sich
+  durchweg um Aufgaben- und Lösungsteile der bereits eingepflegten ESt-Fallsammlungen
+  (§ 21, § 4 Abs. 3, § 16, § 23, vorweggenommene Erbfolge, Erbfall, Renten). Aus diesem Ordner
+  fehlt damit nichts mehr.

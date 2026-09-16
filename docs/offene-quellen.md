@@ -28,7 +28,22 @@ aufgeht, und mit einem Prüfskript.
 ## B. Noch nicht bearbeitet
 
 ### Klausur 2 – Einkommensteuer
-- Steuerberaterprüfungen Rechtsstand 2025
+- vollständig eingepflegt (bis auf den oben genannten, technisch blockierten Teil des
+  Kurzskripts I)
+
+### Übungsklausuren (Rechtsstand 2025) – 12 Klausuren, je mit Lösung
+Eingepflegt: Einkommensteuer 1. Offen sind:
+- Ertragsteuern 0
+- Ertragsteuern 2
+- Körperschaftsteuer
+- Umsatzsteuer
+- Bilanzierung 1
+- Bilanzierung 2
+- Bilanzierung 3
+- Bilanzierung 4
+- Bewertungsrecht 1
+- Bewertungsrecht 2
+- Abgabenordnung
 
 ### Klausur 2 – Körperschaftsteuer
 - KSt-Kurzskript (Breier, Stand 05/2026)
@@ -49,11 +64,17 @@ aufgeht, und mit einem Prüfskript.
 - Bewertungsteile
 
 ### Übergreifend
-- Übungsklausuren (24 PDFs)
 - Originalklausuren
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
+- Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet
 
-### Noch zu prüfen
-- Der Drive-Ordner enthält gleichnamige Unterordner unter verschiedenen Elternordnern.
-  Die ursprüngliche Bestandsaufnahme kann deshalb unvollständig sein; ein systematischer
-  Neudurchlauf über alle Ordner steht noch aus.
+### Struktur des Drive-Ordners (Stand des Neudurchlaufs)
+Der freigegebene Ordner „Unterlagen StB Endriss“ hat neun Unterordner: ErbStR, IStR, USt, AO,
+Bilanz, KSt, UmwStG, PersG und „StB Tageslehrgang_online_Komplett“. Letzterer enthält
+Lehrgangsunterlagen, Übungsklausuren, Zusatzunterlagen, Ergänzungslieferungen und
+Hausaufgaben Tageslehrgang.
+
+Bestätigt hat sich dabei, dass es **zwei verschiedene Unterordner „Einkommensteuer“** gibt.
+Beide sind inzwischen vollständig geprüft; aus dem zweiten (unter „Zusatzunterlagen“) fehlt
+nichts mehr. Ob es weitere gleichnamige Ordnerpaare gibt, ist für KSt, PersG, AO und ErbSt
+noch zu prüfen, bevor diese Gebiete als vollständig gelten können.
