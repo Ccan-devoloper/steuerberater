@@ -49,10 +49,11 @@ Das Lehrgangsarchiv enthält vier Zweige:
 
 Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
 
-1. **K2 ESt** – eigener Campus fehlt vollständig (Platzhalter „Quellen folgen").
-   Im Drive: Kurzskript II (Engelberth), Fallsammlungen zu §§ 15, 17, 20, 23, 16,
-   Betriebsaufspaltung, gewerblicher Grundstückshandel, Renten, Erbfall, § 15a,
-   Hausaufgaben 2, 3, 4, 6, 7, 9 sowie Steuerberaterprüfungen RS 2025.
+1. **K2 ESt** – der Campus existiert jetzt (kein Platzhalter mehr) und zeigt die
+   Hausaufgaben; erfasst ist Fachtermin 2. Offen sind die Hausaufgaben 3, 4, 6, 7 und 9,
+   das Kurzskript II (Engelberth), die Fallsammlungen (§§ 15, 17, 20, 23, 16,
+   Betriebsaufspaltung, gewerblicher Grundstückshandel, Renten, Erbfall, § 15a) und die
+   Steuerberaterprüfungen RS 2025. Das ESt-Cockpit führt diese Liste selbst mit.
 2. **K2 GewSt** – eigener Campus fehlt vollständig. Im Drive: Kurzskript (Breier)
    und GewSt-Übungsfälle (Nöthen).
 3. **K2 KSt: Lehrgangsunterlagen** – Kurzskript (Breier) und die Teile I–VII (Hamacher)
@@ -108,3 +109,8 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Wortlaut. Daten: `src/data/k1-ao-keyfacts.js`, Ansicht: `src/components/AOKeyfacts.jsx`,
   Prüfung: `npm run check:k1-ao-keyfacts`. Die Platzhalter-Komponenten der Campusse AO und
   PersG sind damit vollständig entfallen.
+- **K2 ESt-Campus (neu) mit Hausaufgabe zum 2. Fachtermin**: eigener Campus statt
+  Platzhalter, Cockpit mit Bestands- und Lückenliste, Reiter „Hausaufgaben ESt“.
+  Daten: `src/data/est-hausaufgaben.js`, Ansicht: `src/components/K2EStCampus.jsx`,
+  Prüfung: `npm run check:est-hausaufgaben`. Die weiteren ESt-Hausaufgaben kommen in
+  dieselbe Datei.

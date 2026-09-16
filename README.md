@@ -59,6 +59,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   die drei Übersichtsblätter des Lehrgangs zu Außenprüfung (§§ 193–202 AO), Vollstreckung
   (§§ 249 ff. AO inkl. Fähnchenkette) und Erhebungsverfahren (§§ 37, 218, 233a, 240, 152 AO)
   mit 95 Merksätzen im Wortlaut. Prüfung: `npm run check:k1-ao-keyfacts`
+- **Campus Einkommensteuer** (K2, löst den Platzhalter-Campus ab): Cockpit mit dem
+  nachprüfbaren Bestand (erfasst / noch nicht eingepflegt) und Examensprioritäten sowie der
+  Reiter „Hausaufgaben ESt“ – Fachtermin 2 (Zorn/Frei und Merten: Zweitausbildung und
+  20-Stunden-Grenze, degressive AfA § 7 Abs. 5a, Sonderabschreibung § 7b, verbilligte
+  Überlassung § 21 Abs. 2, anschaffungsnahe Herstellungskosten) im Wortlaut.
+  Prüfung: `npm run check:est-hausaufgaben`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
