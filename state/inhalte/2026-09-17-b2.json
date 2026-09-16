@@ -1,0 +1,117 @@
+{
+  "format": "reel",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer / Bewertung",
+  "themaId": "erbst-modul-erbst-502",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Fünf Punkte vor der ersten Zahl?",
+      "unter": "Der Vorspann jeder ErbSt-Klausur",
+      "icon": "schriftrolle",
+      "sprecher": "Bevor du in der Erbschaftsteuerklausur auch nur einen Euro bewertest, gehst du fünf feste Punkte durch.",
+      "marken": [
+        "Vorspann: *fünf* Punkte"
+      ],
+      "bildSzene": "handwritten outline on legal pad",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Schenkung oder Erbfall?",
+      "text": "Der sachliche Vorgang wird zuerst getrennt.",
+      "norm": "§ 3 · § 7 (1) Nr. 1 ErbStG",
+      "sprecher": "Zuerst klärst du, ob überhaupt ein steuerbarer Vorgang vorliegt – Erwerb von Todes wegen nach Paragraf 3 oder Schenkung unter Lebenden nach Paragraf 7 Absatz 1 Nummer 1.",
+      "marken": [
+        "§ 3 vs. § 7: *Vorgang* trennen"
+      ],
+      "bildSzene": "two separate letters on desk",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Wer ist steuerpflichtig?",
+      "text": "Unbeschränkt oder beschränkt, einer reicht.",
+      "norm": "§ 2 ErbStG",
+      "sprecher": "Dann prüfst du die persönliche Steuerpflicht – unbeschränkt oder beschränkt. Merk dir: einer reicht. Ist nur eine beteiligte Person Inländer, greift schon die unbeschränkte Steuerpflicht.",
+      "marken": [
+        "Steuerpflicht: *einer* reicht"
+      ],
+      "bildSzene": "passport next to house key",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Wer schuldet die Steuer?",
+      "text": "Der Schuldner steht früh fest.",
+      "norm": "§ 20 ErbStG",
+      "sprecher": "Als Drittes bestimmst du den Steuerschuldner. Das klärst du jetzt – nicht erst am Ende bei der Tarifberechnung.",
+      "marken": [
+        "§ 20: *Schuldner* jetzt klären"
+      ],
+      "bildSzene": "envelope addressed to recipient",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 4,
+      "titel": "Steuerklasse festlegen",
+      "text": "Eins, zwei oder drei – nicht später.",
+      "norm": "§ 15 ErbStG",
+      "sprecher": "Viertens legst du die Steuerklasse fest. Genau hier passiert der häufigste Fehler: Wer das erst nach dem steuerpflichtigen Erwerb macht, ordnet Freibetrag und Tarif falsch zu.",
+      "marken": [
+        "Steuerklasse: *vorher* festlegen"
+      ],
+      "bildSzene": "family tree diagram on paper",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 5,
+      "titel": "Wann und wozu bewerten?",
+      "text": "Entstehung und Stichtag als ein Paar.",
+      "norm": "§ 9 · § 11 ErbStG",
+      "sprecher": "Und fünftens: Steuerentstehung und Bewertungsstichtag prüfst du zusammen als ein Normenpaar, nie getrennt voneinander.",
+      "marken": [
+        "§ 9 + § 11: *ein* Paar"
+      ],
+      "bildSzene": "calendar with one date circled",
+      "kreuz": false
+    },
+    {
+      "art": "cta",
+      "titel": "Fünf Punkte, die jede Klausur öffnen",
+      "sprecher": "Schick das deiner Lerngruppe, bevor die nächste Übungsklausur startet. Und folge, wenn du jeden Tag eine Prüfungsfrage willst.",
+      "marken": [
+        "An die *Lerngruppe*"
+      ],
+      "bildSzene": "phone showing chat group",
+      "kreuz": false
+    }
+  ],
+  "caption": "Erbschaftsteuer-Klausur: kennst du den Vorspann vor der ersten Bewertung? Fast jede ErbSt-Klausur beginnt gleich – mit fünf festen Prüfpunkten, bevor überhaupt ein Wert berechnet wird. Wer die Steuerklasse erst am Ende bestimmt oder Steuerentstehung und Bewertungsstichtag trennt, verliert Punkte, die eigentlich geschenkt sind. Schick das deiner Lerngruppe – der Vorspann lohnt sich, ihn einmal richtig auswendig zu können. Und speichern für die letzte Wiederholung vor der Prüfung. Welcher der fünf Punkte fällt dir am schwersten?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#erbschaftsteuer",
+    "#erbstg",
+    "#klausurtechnik",
+    "#steuerklasse",
+    "#lösungsaufbau",
+    "#klausur1"
+  ],
+  "kurztitel": "Der Vorspann vor jeder Bewertung",
+  "bildSzene": "handwritten outline on legal pad",
+  "bildSzeneAlt": "numbered checklist on clipboard",
+  "hookTyp": "frage",
+  "hookMuster": "behauptung",
+  "slug": "2026-09-17-b2"
+}

@@ -1,0 +1,105 @@
+{
+  "format": "spickzettel",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-modul-persg-7",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der Fehler bei SBV II, der Personengesellschafter jedes Jahr Punkte kostet",
+      "icon": "schriftrolle",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Das musst du können",
+      "hinweis": "Lies weiter"
+    },
+    {
+      "art": "karte",
+      "titel": "Das Schema in 7 Schritten",
+      "schritte": [
+        {
+          "titel": "Zurechnung klären",
+          "text": "Wirtschaftsgut gehört zivilrechtlich dem Gesellschafter, § 15 (1) S. 1 Nr. 2 EStG"
+        },
+        {
+          "titel": "Betriebsbezug prüfen",
+          "text": "Dient es unmittelbar dem Betrieb der Gesellschaft? R 4.2 (2) EStR"
+        },
+        {
+          "titel": "SBV I bejahen",
+          "text": "Ja: aktive Nutzung im Betrieb, z.B. überlassenes Grundstück"
+        },
+        {
+          "titel": "Gesellschafterstellung prüfen",
+          "text": "Sonst: dient es der Beteiligung selbst? H 4.2 (2) EStH"
+        },
+        {
+          "titel": "SBV II bejahen",
+          "text": "Ja: z.B. Anteile an der Komplementär-GmbH"
+        },
+        {
+          "titel": "Finanzierung spiegeln",
+          "text": "Darlehen und Zinsen dem jeweiligen Sonderbereich zuordnen"
+        },
+        {
+          "titel": "Sonderbilanz aufstellen",
+          "text": "Sonder-GuV bilden, Ergebnis in Gesamtgewinn einbeziehen"
+        }
+      ],
+      "icon": "schriftrolle"
+    },
+    {
+      "art": "text",
+      "titel": "Hier gehen die meisten Punkte verloren",
+      "punkte": [
+        "Die Zinsen aus dem Darlehen werden vergessen – sie gehören als *Sonderbetriebsertrag* in die Sonder-GuV, nicht in die Gesamthandsbilanz.",
+        "SBV II wird übersehen, weil kein Gegenstand physisch genutzt wird – die GmbH-Anteile zählen trotzdem, weil sie die Gesellschafterstellung stärken."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Fragt das Wirtschaftsgut nach dem Betrieb, ist es SBV I; fragt es nach der Stellung im Unternehmen, ist es SBV II.",
+      "icon": "waage"
+    },
+    {
+      "art": "cta",
+      "titel": "Diese Karte lohnt sich zu speichern.",
+      "punkte": [
+        "Schick das deiner Lerngruppe – SBV kommt fast jedes Jahr dran",
+        "Speichern für die letzte Wiederholung vor der Klausur",
+        "Welche Fallgruppe fehlt dir noch? Kommentiere!"
+      ],
+      "icon": "haken"
+    }
+  ],
+  "caption": "Sonderbetriebsvermögen I und II einfach erklärt – die Karte für die Klausur SBV I und SBV II werden in fast jeder Bilanzklausur zur Personengesellschaft geprüft, und beide Fallgruppen laufen nach demselben Muster ab: erst Zurechnung, dann Funktionszusammenhang, dann Finanzierung, dann Sonderbilanz. Die größte Fehlerquelle sind vergessene Zinsen im Sonderbereich und übersehenes SBV II, weil kein Gegenstand genutzt wird, sondern nur die Beteiligung selbst gestärkt wird. Schick das deiner Lerngruppe, bevor ihr die nächste Bilanzklausur übt. Speichern lohnt sich – das ist Klausur-3-Stoff, der wiederkommt. Wo hakt es bei dir: SBV I, SBV II oder die Sonderbilanz selbst?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#stbexamen2026",
+    "#steuerfachwirt",
+    "#sonderbetriebsvermögen",
+    "#personengesellschaft",
+    "#mitunternehmerschaft",
+    "#klausurtipps",
+    "#steuerbilanz",
+    "#bilanzsteuerrecht"
+  ],
+  "kurztitel": "SBV I und II: das Schema",
+  "bildSzene": "ledger book with property deed",
+  "bildSzeneAlt": "desk with loan contract and keys",
+  "quellen": [],
+  "hookTyp": "fehler",
+  "faktenHinweise": [
+    "Caption, letzter Absatz: 'Klausur-3-Stoff' ist keine anerkannte Fachbezeichnung, sondern offenbar eine unerläuterte, dozentenspezifische Merkhilfe/Kursbezeichnung, die der Leserschaft ohne Kontext nichts sagt.",
+    "Folie text: 'Sonderbetriebsertrag' ist keine gebräuchliche Standardbezeichnung; üblich ist 'Sonderbetriebseinnahme'. Sachlich nicht falsch, aber unüblich."
+  ],
+  "slug": "2026-09-17-b1"
+}
