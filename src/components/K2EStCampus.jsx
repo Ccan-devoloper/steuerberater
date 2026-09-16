@@ -23,7 +23,6 @@ const NAV = [
 /* Was aus den ESt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
    steht im Cockpit, damit der Stand des Campus nachprüfbar bleibt. */
 const OFFEN = [
-  "Hausaufgaben mit Lösung der Fachtermine 6, 7 und 9",
   "Kurzskript II (Engelberth)",
   "Fallsammlung Einkünfte aus Gewerbebetrieb (Engelberth)",
   "Fallsammlung Einkünfte aus Kapitalvermögen (Engelberth)",

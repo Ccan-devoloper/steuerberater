@@ -67,10 +67,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (Lang, Engler und Ford: unechte Betriebsaufspaltung, Einlage zu Anschaffungskosten
   nach § 6 Abs. 1 Nr. 5 S. 1 Buchst. a/b, teilentgeltliche Überlassung mit § 3c Abs. 2
   S. 6 EStG, Betriebsaufgabe mit Teileinkünfteverfahren, gewerblicher Grundstückshandel
-  über die Drei-Objekt-Grenze und § 7 Abs. 1 S. 5 EStG) sowie Fachtermin 4 (Haardt,
+  über die Drei-Objekt-Grenze und § 7 Abs. 1 S. 5 EStG), Fachtermin 4 (Haardt,
   Müller/Hopf und Ludwig: Betriebsveräußerung im Ganzen mit Freibetrag § 16 Abs. 4,
   Rumpfwirtschaftsjahr und die Einnahmenüberschussrechnung mit Tausch, Kfz-Nutzung,
-  Buchwertprivileg und § 12 Nr. 3 EStG) im Wortlaut.
+  Buchwertprivileg und § 12 Nr. 3 EStG), Fachtermin 6 (Holbein: privates
+  Veräußerungsgeschäft nach Entnahme, Rentenbesteuerung, § 17 EStG mit
+  Verlustbeschränkung, Forderungsverzicht und vGA), Fachtermin 7 (Hohl:
+  vorweggenommene Erbfolge nach § 6 Abs. 3 EStG, Vorrang der Betriebsaufspaltung vor
+  dem Verpächterwahlrecht, offene und verdeckte Ausschüttung im Betriebsvermögen) und
+  Fachtermin 9 (Carter: § 15a EStG mit Einlageminderung und Abwandlung, Vermögensübergabe
+  gegen Versorgungsleistungen, § 17 EStG beim Rechtsnachfolger) im Wortlaut.
+  Alle sechs Hausaufgaben (6 Fachtermine, 92 Tabellen) liegen damit vollständig vor.
   Prüfung: `npm run check:est-hausaufgaben`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

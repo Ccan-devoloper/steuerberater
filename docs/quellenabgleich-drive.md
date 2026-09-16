@@ -50,7 +50,7 @@ Das Lehrgangsarchiv enthält vier Zweige:
 Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
 
 1. **K2 ESt** – der Campus existiert jetzt (kein Platzhalter mehr) und zeigt die
-   Hausaufgaben; erfasst sind die Fachtermine 2, 3 und 4. Offen sind die Hausaufgaben 6, 7 und 9,
+   Hausaufgaben; erfasst sind alle sechs Hausaufgaben (Fachtermine 2, 3, 4, 6, 7 und 9). Offen sind
    das Kurzskript II (Engelberth), die Fallsammlungen (§§ 15, 17, 20, 23, 16,
    Betriebsaufspaltung, gewerblicher Grundstückshandel, Renten, Erbfall, § 15a) und die
    Steuerberaterprüfungen RS 2025. Das ESt-Cockpit führt diese Liste selbst mit.
@@ -128,3 +128,12 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   der Einnahmenüberschussrechnungen. Die Zusammenstellung „SdE MM 348.863 € / 17.544 €“
   passt nicht zum in derselben Lösung ermittelten Gewinn von 348.849 €; sie ist
   wortlautgetreu übernommen und im Tabellenkopf als Abweichung der Quelle gekennzeichnet.
+- **ESt-Hausaufgaben zu den Fachterminen 6, 7 und 9**: damit sind alle sechs
+  ESt-Hausaufgaben des Lehrgangs erfasst (Holbein: § 23 EStG nach Entnahme,
+  Rentenbesteuerung, § 17 Abs. 2 S. 6 EStG, Forderungsverzicht, vGA; Hohl:
+  § 6 Abs. 3 EStG, Betriebsaufspaltung vor Verpächterwahlrecht, Teileinkünfteverfahren,
+  strenge Trennungstheorie; Carter: § 15a EStG samt Abwandlung, Versorgungsleistungen,
+  § 17 EStG beim unentgeltlichen Rechtsnachfolger). Rechenwege, die in der Quelle nicht
+  aufgehen (AfA-Zeitraum und Jahresbeträge bei Holbein, die nicht in die Summe
+  eingerechnete Zeile „500.000 € × 40%“ bei Hohl, die Zeilenbezeichnung „unentgeltlicher
+  Teil“ bei Carter), sind wortlautgetreu übernommen und im Tabellenkopf gekennzeichnet.
