@@ -158,5 +158,21 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   mitunternehmerische Betriebsaufspaltung und die freiberufliche Betriebsgesellschaft.
   Die Zeile „Einkünfte aus Gewerbebetrieb 02“ in Aufgabe 3 trägt in der Quelle die falsche
   Jahreszahl; sie ist wortlautgetreu übernommen und in der Tabelle gekennzeichnet.
-  Offen sind damit noch die Fallsammlungen der Termine 1, 2, 4, 6, 8 und 9 (§ 21,
-  § 4 Abs. 3, § 16, § 17, § 23, Erbfall, Renten).
+- **ESt-Fallsammlung zu § 16 EStG** (Termin 4, Wiegmann): 20 Fälle, Aufgaben- und
+  Lösungs-PDF zusammengeführt – Abschmelzen des Freibetrags über sechs Kaufpreisvarianten,
+  negatives Kapitalkonto, § 6 Abs. 3 EStG, Zurückbehaltung wesentlicher Betriebsgrundlagen,
+  Verpächterwahlrecht in drei Gestaltungswegen, Bewertung der Gegenleistung nach § 12 BewG,
+  Veräußerung gegen Leibrente mit Günstigerrechnung, Betriebsaufgabe bei § 4 Abs. 3-Rechnung,
+  Sperrfristverletzung nach § 6 Abs. 5 S. 4 EStG, Einbringungsgewinn I und die Aufnahme eines
+  Gesellschafters. Die Altersangabe „feiert in 12 seinen 5. Geburtstag“ in Fall 15 ist
+  wortlautgetreu mit dem Hinweis „so in der Quelle“ übernommen, ebenso der Sparer-Pauschbetrag
+  von 801 € in Fall 8.
+
+  **Zuordnung der Lösungs-PDFs im Drive** (die Dateien heißen dort teils nur „2025) (n).pdf“):
+  § 21 → (6) Aufgaben / benannte Lösung; § 4 Abs. 3 → benannte Aufgaben / (10);
+  § 16 → benannte Aufgaben / (8); § 23 → benannte Aufgaben / (9); § 17 → beide benannt;
+  vorweggenommene Erbfolge → benanntes Skript / (12); Erbfall → benannte Aufgaben / (7);
+  Renten → benannte Aufgaben / (11).
+
+  Offen sind damit noch die Fallsammlungen der Termine 1, 2, 6, 7, 8 und 9 (§ 21,
+  § 4 Abs. 3, § 17, § 23, vorweggenommene Erbfolge, Erbfall, Renten).
