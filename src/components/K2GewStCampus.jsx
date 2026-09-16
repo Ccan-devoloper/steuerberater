@@ -9,15 +9,18 @@ import { laden, sichern } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
-import { IconCockpit, IconFaelle, IconModule } from "./Icons";
+import { IconCockpit, IconFaelle, IconModule, IconRegister } from "./Icons";
 import { PrioCockpit } from "./Prioritaet";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
+import KurzskriptBloecke from "./KurzskriptBloecke";
 import { gewstHausaufgaben, gewstHausaufgabenQuelle } from "../data/gewst-hausaufgaben.js";
+import { gewstKurzskript, gewstKurzskriptQuelle } from "../data/gewst-kurzskript.js";
 import { gewstUebungsfaelle, gewstUebungsfaelleQuelle } from "../data/gewst-uebungsfaelle.js";
 import "./kst.css";
 
 const NAV = [
   ["cockpit", "Cockpit", IconCockpit],
+  ["kurzskript", "Kurzskript", IconRegister],
   ["hausaufgaben", "Hausaufgaben GewSt", IconModule],
   ["uebungsfaelle", "Übungsfälle", IconFaelle],
 ];
@@ -25,8 +28,8 @@ const NAV = [
 /* Was aus den GewSt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
    steht im Cockpit, damit der Stand des Campus nachprüfbar bleibt. */
 const OFFEN = [
-  "Kurzskript Gewerbesteuer (Breier)",
   "Lösungsteil der Fallsammlung (Nöthen) – im freigegebenen Ordner nicht enthalten",
+  "Lösungstext zu Beispiel 3 in Abschnitt 5.2.2 des Kurzskripts – in der Quelle nicht vorhanden",
 ];
 
 function Cockpit() {
@@ -42,11 +45,20 @@ function Cockpit() {
             Musterlösung stehen als Tabelle.
           </p>
         </div>
-        <span className="zaehler">{gewstHausaufgaben.length + gewstUebungsfaelle.length} Fälle</span>
+        <span className="zaehler">
+          {gewstKurzskript.length} Kapitel · {gewstHausaufgaben.length + gewstUebungsfaelle.length} Fälle
+        </span>
       </div>
 
       <section className="panel">
         <h2>Erfasst</h2>
+        <p>
+          Das Kurzskript Gewerbesteuer (Engelberth/Breier, {gewstKurzskriptQuelle.stand}) steht
+          vollständig im Reiter „Kurzskript“ – {gewstKurzskript.length} Kapitel von den
+          Rechtsgrundlagen über Steuerpflicht, Gewerbeertrag, Hinzurechnungen, Kürzungen und
+          Gewerbeverlust bis zu Messbetrag, Zerlegung, Verfahrensrecht und § 35 EStG, mit allen
+          Beispielen und Ermittlungsschemata der Quelle.
+        </p>
         <p>
           {gewstHausaufgaben.length === 1 ? "Eine Hausaufgabe" : `${gewstHausaufgaben.length} Hausaufgaben`}{" "}
           mit Lösung im Reiter „Hausaufgaben GewSt“ – {gewstHausaufgabenQuelle.stand}. Der Fall führt
@@ -112,13 +124,23 @@ export default function K2GewStCampus({ onKlausurwechsel, onFachwechsel }) {
         </nav>
         <div className="rail__box">
           <b>GewSt-Bestand</b>
+          <strong>{gewstKurzskript.length} Skript-Kapitel</strong>
           <strong>{gewstHausaufgaben.length} Hausaufgabe</strong>
           <strong>{gewstUebungsfaelle.length} Übungsfälle</strong>
           <p>Weitere Quellen folgen</p>
         </div>
       </aside>
       <main className="page">
-        {verlauf.ansicht === "uebungsfaelle" ? (
+        {verlauf.ansicht === "kurzskript" ? (
+          <KurzskriptBloecke
+            kicker="Klausur 2 · Gewerbesteuer · Kurzskript"
+            titel="Kurzskript Gewerbesteuer"
+            lead="Das Lehrgangsskript von Martin Engelberth und Ulrich Breier im Wortlaut – zehn Kapitel mit allen Beispielen, Lösungshinweisen und Ermittlungsschemata."
+            quelle={gewstKurzskriptQuelle}
+            kapitel={gewstKurzskript}
+            suchePlatzhalter="Kurzskript durchsuchen"
+          />
+        ) : verlauf.ansicht === "uebungsfaelle" ? (
           <HausaufgabenBloecke
             kicker="Klausur 2 · Gewerbesteuer · Übungsfälle"
             titel="GewSt-Fallsammlung 2026/2027"

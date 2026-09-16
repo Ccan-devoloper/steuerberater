@@ -54,8 +54,9 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
    das Kurzskript II (Engelberth), die Fallsammlungen (§§ 15, 17, 20, 23, 16,
    Betriebsaufspaltung, gewerblicher Grundstückshandel, Renten, Erbfall, § 15a) und die
    Steuerberaterprüfungen RS 2025. Das ESt-Cockpit führt diese Liste selbst mit.
-2. **K2 GewSt** – eigener Campus fehlt vollständig. Im Drive: Kurzskript (Breier)
-   und GewSt-Übungsfälle (Nöthen).
+2. **K2 GewSt** – erledigt: Der Campus steht mit Kurzskript (Engelberth/Breier),
+   Hausaufgabe mit Lösung und den Übungsfällen (Nöthen). Offen bleibt allein der
+   Lösungsteil der Fallsammlung, der im freigegebenen Ordner nicht enthalten ist.
 3. **K2 KSt: Lehrgangsunterlagen** – Kurzskript (Breier) und die Teile I–VII (Hamacher)
    aus den Lehrgangsunterlagen sind noch nicht abgeglichen. Korrektur zur ersten Fassung
    dieser Liste: Die KSt-Einheiten 5, 6 und 7 sind entgegen der dortigen Annahme bereits
@@ -345,5 +346,51 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   wortlautgetreu übernommen und gekennzeichnet: „150.00 €" Zinsen in Fall 1, „ohne
   umsatzsteuerfrei" in Fall 2 und „die Ulmer-GmbH" statt Ulmer AG in Fall 3.
 
-  Offen ist im GewSt-Campus damit noch das Kurzskript Gewerbesteuer (Breier) und – sobald
-  vorhanden – der Lösungsteil der Fallsammlung.
+- **GewSt-Kurzskript erfasst** (Engelberth/Breier, Stand 10/2025, Rechtslage 2025): Das
+  Lehrgangsskript steht vollständig im Reiter „Kurzskript" des GewSt-Campus – zehn Kapitel,
+  520 Abschnitte, 43 Tabellen. Erfasst sind Grundlagen und Zuständigkeiten, Gewerbesteuerpflicht
+  (originär gewerbliche Tätigkeit, Abfärbung, gewerbliche Prägung, Betriebsaufspaltung, atypisch
+  stille Gesellschaft, Betriebsverpachtung im Ganzen, Mehrheit von Betrieben, Rollladenprinzip),
+  Gewinn aus Gewerbebetrieb und Gewerbeertrag mit Netto- und Bruttomethode nach § 7 S. 4 GewStG,
+  Hinzurechnungen nach § 8 Nr. 1, Nr. 5 und Nr. 8 GewStG, Kürzungen nach § 9 Nr. 1 S. 1
+  (Grundsteuer ab 2025), § 9 Nr. 1 S. 2 ff. (erweiterte Kürzung), § 9 Nr. 2, § 9 Nr. 2a und
+  § 9 Nr. 5 GewStG, Gewerbeverlust mit Unternehmens- und Unternehmeridentität sowie §§ 8c, 8d
+  KStG, Ermittlung der Steuerschuld mit Abrundung, Freibetrag, Messzahl und vollständigem
+  Berechnungsschema, Zerlegung nach Arbeitslöhnen, Verfahrensrecht (§ 35b GewStG,
+  Grundlagenbescheide) und die pauschale Gewerbesteueranrechnung nach § 35 EStG. Alle Beispiele
+  der Quelle sind mit Sachverhalt und Lösungshinweis übernommen; die beiden Schaubilder
+  (Steuergegenstand, Beginn/Erlöschen) stehen als Tabelle, wobei die im PDF verlorenen
+  ti-Ligaturen („Tä gkeit") wiederhergestellt wurden.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Kapitel 2: „ihr Zeck" statt Zweck (R 2.4 Abs. 5 GewStR); Fundstelle „§ 2 Abs. 1 EStG"
+    statt GewStG in der Abfärbungslösung.
+  - Kapitel 3: „Bewirtungkosten" in der G+V; zweimal „Gewinn aus Gewerbetrieb" statt
+    Gewerbebetrieb; in Beispiel 3 die Zeile „Dividende stpfl. § 8b Abs. 4 Satz 1+5 KStG" für
+    einen Betrag, der nach dem Rechenweg der steuerfreie Teil ist; die Fundstelle
+    „R 7.1 Abs. 3 Nr. 1 EStG" statt GewStR; und die Beispiele 4 und 5 sind in Abschnitt 3.3
+    zweimal vergeben.
+  - Kapitel 4: die Spendenhinzurechnung ist mit „§ 8 Nr. 9 KStG" statt GewStG zitiert.
+  - Kapitel 5: der Einleitungssatz zur erweiterten Kürzung bricht grammatisch ab („die
+    ausschließlich eigenen Grundbesitz oder auf Antrag um den Anteil … gekürzt"); zweimal die
+    Zitierweise „§ 9 Abs. 1 Nr. 1 Satz 1 GewStG" statt § 9 Nr. 1 S. 1 GewStG; „Kaitalvermögen"
+    in der Spartentabelle; „50.000 Zinsen" ohne Währung; „nicht steuerbereiten" statt
+    steuerbefreiten Kapitalgesellschaft; der Satz zu § 9 Nr. 2a Satz 4 endet ohne
+    Gesetzesangabe; und die Einfügung „§ 8b Abs. 5 S. 1 KStG 500)".
+  - **Zu Beispiel 3 in Abschnitt 5.2.2 (M-GmbH vermietet an T-GmbH) enthält die Quelle keinen
+    Lösungstext** – der Text springt unmittelbar zu Beispiel 4. Es wurde bewusst keine Lösung
+    ergänzt; der fehlende Lösungstext steht als offener Punkt im GewSt-Cockpit.
+  - Kapitel 6: „§§ 10a Satz 6 GewStG"; die Feststellung des vortragsfähigen Gewerbeverlustes
+    ist mit „§ 10a Satz 2 GewStG" statt Satz 6 zitiert; „§ 8dKStG" ohne Leerzeichen.
+  - Kapitel 7: im Schlussbeispiel werden aus 300.000 € Schuldzinsen 50.000 € Hinzurechnung
+    nach § 8 Nr. 1 GewStG abgeleitet; nach dem Schema des Skripts wären es 25.000 €
+    ((300.000 € - 200.000 €) x 25 %). Der weitere Rechenweg (Messbetrag 11.312 €,
+    Gewerbesteuer 56.560 €) folgt der Zahl der Quelle. Ferner „Steuermeßbetrag" in alter
+    Schreibweise und der Hinweis, Kapitalgesellschaften fielen „nicht unter § 11 Abs. 1 Nr. 2
+    GewStG".
+  - Kapitel 10: „§ 35 GewStG" statt § 35 EStG im Lösungssatz zum Ermäßigungshöchstbetrag.
+
+  Offen bleibt im GewSt-Campus damit nur noch – sobald vorhanden – der Lösungsteil der
+  Fallsammlung (Nöthen).
