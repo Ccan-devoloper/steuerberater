@@ -291,5 +291,28 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Übertragung zum 01.01.2025; und in Beispiel 8 die Zeile „anteiliger Veräußerungspreis
   (für 0,2 % 460.000 €)", wobei 460.000 € der Preis für 0,4 % ist.
 
-  Offen ist damit noch die Fallsammlung des Termins 9 (Renten und Vermögensübertragungen
-  gegen wiederkehrende Leistungen).
+- **ESt-Fallsammlung „Vermögensübertragungen gegen Renten, Raten, dauernde Lasten"**
+  (Termin 9, Blenkers, Stand 11/2025): 15 Beispiele, Aufgaben- und Lösungs-PDF
+  zusammengeführt, dazu die Anlage zum BMF-Schreiben vom 09.12.2024 mit den Vervielfältigern
+  zu § 14 Abs. 1 BewG (101 Zeilen, Sterbetafel 2021/2023) als eigener Nachschlage-Eintrag.
+  Inhalt: unverzinsliche Kaufpreisraten mit Aufteilung nach Anlage 9a BewG, betriebliche
+  Veräußerungsrente mit Sofort- und Zuflussversteuerung samt Wertsicherungsklausel und Tod
+  des Rentenberechtigten, Vermögensübergabe gegen Versorgungsleistungen in zwei Varianten,
+  Kaufpreisrente bei fehlendem begünstigtem Vermögen mit unangemessenem Teil nach
+  § 12 Nr. 2 EStG, Renten- und Sachvermächtnis nach dem Erbfall, Pflichtteilsansprüche in
+  300 Monatsraten, Einmalzahlung an den Vermächtnisnehmer, Zugewinnausgleich als Einmal-
+  zahlung und als Rente, verlängerte Leibrente (Mindestzeitrente), dauernde Last nach
+  § 323 ZPO, Vorbehaltsnießbrauch samt der Rechtsprechungsentwicklung bis
+  BFH IX R 11/19, begrenztes Realsplitting bei Wohnsitzverlegung, betriebliche
+  Versorgungsrente in der Ärzte-GbR und eine 20-jährige Zeitrente mit Fortentwicklung des
+  Schuldpostens über zwei Jahre.
+
+  Drei Stellen sind in der Quelle erkennbar verrutscht; sie sind wortlautgetreu übernommen
+  und gekennzeichnet: in Beispiel 1 die Fundstelle „§ 32d Nr. 3 EStG" (gemeint ist
+  § 32d Abs. 3 EStG); in Beispiel 7 die Bezeichnung „Ertragsteil (Tilgungsanteil)" für den
+  nach § 55 Abs. 2 EStDV ermittelten Betrag, der dort als Tilgungs- statt als Ertragsanteil
+  behandelt wird; in Beispiel 15 das „H" statt „P" beim Wahlrecht des Veräußerers sowie die
+  Zeile mit 19.800 € Einkünften in der Zuflussversteuerung 2026, obwohl in diesem Jahr
+  18.900 € zufließen.
+
+  Damit ist die ESt-Fallsammlungsreihe der Fachtermine 1 bis 9 vollständig erfasst.
