@@ -7,6 +7,7 @@ import "../data/kst-einheit-7-register.js";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { kstBereiche, kstBereichName, kstModule, kstQuellen, kstSchemata } from "../data/kst-module";
 import { kstFaelle } from "../data/kst-faelle";
+import { kstKurzskript, kstKurzskriptQuelle } from "../data/kst-kurzskript.js";
 import { kstUebungsfaelle, kstUebungsfaelleQuelle } from "../data/kst-uebungsfaelle.js";
 import { kstSchemataNoethen, kstSchemataNoethenQuelle } from "../data/kst-schemata-noethen.js";
 import { kstKarteikarten, kstQuizfragen } from "../data/kst-lernstoff";
@@ -40,6 +41,7 @@ const modulIds = new Set(kstModule.map((m) => m.id));
 const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Lernmodule", Icon: IconModule },
+  { id: "kurzskript", label: "Kurz-Skript (Breier)", Icon: IconRegister },
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
   { id: "uebungsfaelle", label: "Übungsfälle (Nöthen)", Icon: IconFaelle },
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
@@ -271,6 +273,21 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
           />
         )}
         {ansicht === "faelle" && <KstFallseite oeffnen={oeffnen} />}
+        {ansicht === "kurzskript" && (
+          <KurzskriptBloecke
+            kicker="Klausur 2 · Körperschaftsteuer · Kurz-Skript"
+            titel="KSt-Kurz-Skript (Breier)"
+            lead="Das Lehrgangsskript von Ulrich Breier im Wortlaut. Erfasst sind bisher Teil 1 (Steuerpflicht und Steuerbefreiungen) und Teil 2 (Grundsätze der Einkommensermittlung); die weiteren Teile folgen."
+            quelle={kstKurzskriptQuelle}
+            kapitel={kstKurzskript}
+            karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}
+            gruppeVon={(k) => k.teil}
+            gruppeLabel={(k) => k.teilLabel}
+            gruppeAria="Teile"
+            gruppeAlle="Alle Teile"
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+          />
+        )}
         {ansicht === "uebungsfaelle" && (
           <HausaufgabenBloecke
             kicker="Klausur 2 · Körperschaftsteuer · Übungsfälle"

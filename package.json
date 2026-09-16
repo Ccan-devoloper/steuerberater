@@ -39,6 +39,7 @@
     "check:k2-istr-originalfaelle": "node tools/pruefen-k2-istr-originalfaelle.mjs",
     "check:kst-hausaufgaben": "node tools/pruefen-kst-hausaufgaben.mjs",
     "check:est-hausaufgaben": "node tools/pruefen-est-hausaufgaben.mjs",
+    "check:kst-kurzskript": "node tools/pruefen-kst-kurzskript.mjs",
     "check:kst-uebungsfaelle": "node tools/pruefen-kst-uebungsfaelle.mjs",
     "check:kst-schemata-noethen": "node tools/pruefen-kst-schemata-noethen.mjs",
     "check:est-fallsammlungen": "node tools/pruefen-est-fallsammlungen.mjs",

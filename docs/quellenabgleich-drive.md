@@ -684,3 +684,47 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Hauptordner) enthält sieben Dateien „KStG, 1. bis 7. Einheit (Nöthen)". Es handelt sich um
   sehr große PDFs (42 bis 110 MB), die noch nicht gesichtet sind – siehe
   docs/offene-quellen.md.
+
+- **Körperschaftsteuer Kurz-Skript** – Ulrich Breier, Rechtsanwalt/Steuerberater, Mai 2026,
+  Rechtsstand 2026 (Drive-ID `1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0`). Neuer Reiter
+  „Kurz-Skript (Breier)“ im KSt-Campus.
+
+  **Nur teilweise erfasst – in zwei Stufen nachprüfbar:**
+
+  1. Der Drive-Connector gibt das PDF nur bis etwa Seite 90 von 196 aus. Lesbar sind damit die
+     Teile 1 bis 3 und der Anfang von Teil 4. Die Teile 5 bis 10 (verdeckte Gewinnausschüttung,
+     Verlustabzug, Zinsschranke, Organschaft, Liquidation, Umwandlung von Rücklagen in
+     Nennkapital) gibt der Connector nicht aus.
+  2. Übernommen sind bisher **Teil 1 und Teil 2** – 14 Abschnitte, 385 Absätze, 18 Tabellen.
+     Teil 3 (Verdeckte Einlagen und steuerliches Einlagekonto) und der Anfang von Teil 4
+     (Ausschüttungen und Beteiligungen) liegen als bereinigter Text vor und werden als
+     Nächstes eingepflegt.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Teil 1: der Satz zum Typenvergleich beginnt ohne Prädikat („Voraussetzung für eine …
+    Kapitalgesellschaft, dass …“); „§§ 1 und 1a KStG KStG“; „unterliegt ist der Gewinn“;
+    die Vermögensverwaltung ist mit „§ 14 S. 3 KStG“ statt AO zitiert.
+  - Teil 2: „Der Ertrag von 100.000 ist stellt … dar“; „§ 121a GewStG“ statt BewG; der
+    Freibetrag ist mit „§ 24 S. 1 EStG“ statt KStG zitiert; die Fundstelle „§§ 9 Abs. 1 i.V.m.
+    11 Abs. EStG“ bricht bei der Absatzangabe ab; „Betreibsaufspaltung“; ein fehlender Punkt
+    nach „entnehmen wäre“; „nicht gang unumstritten“; „§ 10 Nr. 2 UStG“ statt KStG;
+    „§ 15a Abs. 1a S. 2 UStG“ statt § 15 Abs. 1a S. 2 UStG; „wird er steuerliche Gewinn“;
+    „hinzuzurechnen ist“ am Satzende; „§ 32c Abs. 2 EStG“ statt § 34c Abs. 2 EStG.
+  - Teil 2, inhaltliche Abweichungen: Die Geschenkgrenze wird einmal mit 50 €, einmal mit
+    35 € angegeben; die Besteuerungsgrenze des § 64 Abs. 3 AO einmal mit 50.000 (Teil 1),
+    einmal mit 35.000 (Teil 2); im Beispiel zur Kostenmiete wird die vGA mit der vollen
+    Kostenmiete von 2.000 angesetzt, obwohl der Gesellschafter 1.000 zahlt; in die
+    Höchstbetragsformel des § 26 KStG werden ausländische Einkünfte von 20.000 eingesetzt,
+    während der Sachverhalt 14.000 nach Steuern zuzüglich 6.000 ausländischer Steuer nennt;
+    im Beispiel zur amerikanischen T-Inc wird § 8b Abs. 1 KStG bei einer Beteiligung von 5 %
+    ohne Prüfung des § 8b Abs. 4 KStG angewandt.
+  - Der Punkt „c. Gewerbesteuer gem. § 5 Abs. 4b EStG“ steht in der Quelle nur mit seiner
+    Überschrift ohne erläuternden Text.
+
+- **Die sieben Dateien „KStG, 1. bis 7. Einheit" (Nöthen)** im Ordner
+  `1bqhD4ayOUTo8A7WBUXgce3otxy5L7YrN` sind **reine Scans ohne Textebene**. Der Connector gibt
+  für sie nur Seitenplatzhalter („Page 1“, „Page 2“, …) aus, keinen Text. Damit sind sie über
+  den Connector grundsätzlich nicht erfassbar – unabhängig von ihrer Größe (42 bis 110 MB).
+  Sie stehen in docs/offene-quellen.md unter den technisch blockierten Quellen.

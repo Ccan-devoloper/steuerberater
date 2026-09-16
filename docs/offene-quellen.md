@@ -19,6 +19,8 @@ Stand: siehe Git-Historie dieser Datei.
 | **ESt-Kurzskript I** (Engelberth, Stand 07/2026), Drive-ID `1DdIbwtK4vfHU4w15uayCsg_VdaD7Afft` | Seiten 80–162: Tz. 3.6 und Kapitel 4 der gewerblichen Einkünfte sowie die Teile **Betriebsaufspaltung, Gewerblicher Grundstückshandel, Betriebsbeendigung, Einnahmenüberschussrechnung, Einkünfte aus selbständiger Arbeit, Einkünfte aus Kapitalvermögen** | Der Connector gibt das PDF nur bis Seite 79 aus; der Download der 6,6-MB-Datei lässt die Verbindung abbrechen (dreimal versucht). Kein zweites Exemplar im Ordner (Volltextsuche geprüft). |
 | **GewSt-Fallsammlung** (Nöthen) | Der gesamte **Lösungsteil** | Im freigegebenen Ordner liegt nur der Aufgabenteil. Die vier Übungsfälle stehen im Campus ohne Lösung, ausdrücklich gekennzeichnet. |
 | **KSt-Übungsfälle Teil 1 und 2** (Nöthen) | Der gesamte **Lösungsteil** zu allen fünf Fällen | Beide Aufgaben-PDFs enden nach der Aufgabenstellung; im Ordner liegt keine Musterlösung. Die Fälle stehen im Campus ohne Lösung, ausdrücklich gekennzeichnet. |
+| **KSt-Kurz-Skript** (Breier, Mai 2026), Drive-ID `1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0` | Ab etwa Seite 90 von 196: **Teil 5 (verdeckte Gewinnausschüttung), Teil 6, Teil 7 (Zinsschranke), Teil 8 (Organschaft), Teil 9 (Liquidation), Teil 10 (Nennkapital)** | Der Connector gibt das PDF nur bis etwa Seite 90 aus. Teile 1 bis 3 und der Anfang von Teil 4 sind lesbar. |
+| **„KStG, 1. bis 7. Einheit"** (Nöthen), Ordner `1bqhD4ayOUTo8A7WBUXgce3otxy5L7YrN` | Alle sieben Dateien vollständig | **Reine Scans ohne Textebene.** Der Connector liefert nur Seitenplatzhalter („Page 1", „Page 2", …), keinen Text. Über den Connector grundsätzlich nicht erfassbar. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
 Rest: wortlautgetreu, mit Kennzeichnung jeder Stelle, an der die Quelle selbst nicht
@@ -47,12 +49,11 @@ Eingepflegt: Einkommensteuer 1. Offen sind:
 - Abgabenordnung
 
 ### Klausur 2 – Körperschaftsteuer
-- KSt-Kurzskript (Breier, Stand 05/2026), Drive-ID `1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0`
-- „KStG, 1. bis 7. Einheit" (Nöthen) im Ordner `1bqhD4ayOUTo8A7WBUXgce3otxy5L7YrN` – sieben
-  sehr große PDFs (42 bis 110 MB). Ob der Connector sie ausgibt, ist noch nicht geprüft; bei
-  dieser Größe ist mit derselben Grenze wie beim ESt-Kurzskript I zu rechnen.
-- Eingepflegt sind bereits: KSt-Übungsfälle Teil 1 und 2 (ohne Lösung, s. o.) sowie die fünf
-  Prüfungsschemata (Nöthen).
+- KSt-Kurz-Skript (Breier): **Teil 3 und der Anfang von Teil 4** liegen als Text vor und sind
+  als Nächstes einzupflegen. Teile 1 und 2 sind erfasst; die Teile 5 bis 10 sind technisch
+  blockiert (s. o.).
+- Eingepflegt sind bereits: KSt-Übungsfälle Teil 1 und 2 (ohne Lösung, s. o.), die fünf
+  Prüfungsschemata (Nöthen) und die Teile 1 und 2 des Kurz-Skripts.
 
 ### Klausur 3 – Personengesellschaften
 - Fact Sheets
