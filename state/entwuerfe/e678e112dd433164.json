@@ -1,0 +1,76 @@
+{
+  "datum": "2026-09-16",
+  "zweck": "stories",
+  "daten": {
+    "stories": [
+      {
+        "slot": "s3",
+        "art": "frage",
+        "ueberzeile": "Prüfungsfrage Bilanzsteuerrecht",
+        "titel": "Was ist ein Aufwandsverteilungsposten in der Steuerbilanz?",
+        "text": null,
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": [
+          "Ein Wirtschaftsgut mit eigenen stillen Reserven",
+          "Eine Rückstellung für fremden Grundbesitz",
+          "Ein Merkposten für Bauaufwand auf fremdem Grund, aufgelöst wie eine AfA"
+        ],
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s5",
+        "art": "norm",
+        "ueberzeile": "Norm des Tages",
+        "titel": "Anrechnung ausländischer Steuer ohne DBA-Vorrang",
+        "text": "Erst die DBA-Methode prüfen. Nur wenn kein DBA greift oder es keine volle Entlastung bringt: § 34c (1) anrechnen, auf Antrag stattdessen § 34c (2) abziehen.",
+        "norm": "§ 34c (1) EStG",
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s6",
+        "art": "zahl",
+        "ueberzeile": "Noch",
+        "titel": "Tage bis zur schriftlichen Prüfung",
+        "text": "6.–8. Oktober 2026, Dienstag bis Donnerstag. Heute: ein Prüfschema ohne Skript aufsagen können – laut, nicht nur im Kopf.",
+        "norm": null,
+        "formel": null,
+        "zahl": "20",
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s9",
+        "art": "fehler",
+        "ueberzeile": null,
+        "titel": "Dividende an beschränkt steuerpflichtigen Anteilseigner",
+        "text": null,
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": "Deutschland behält 25 % Kapitalertragsteuer ein – und dabei bleibt es.",
+        "richtigText": "Art. 10 DBA begrenzt den deutschen Quellensteuersatz. Den Überhang gleicht § 50c EStG durch Freistellung oder Erstattung aus.",
+        "icon": null,
+        "bildSzene": null
+      }
+    ]
+  }
+}

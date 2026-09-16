@@ -3,11 +3,13 @@
   "art": "norm",
   "fach": "istr",
   "klausur": 2,
-  "titel": "Anrechnung oder Abzug ausländischer Steuer",
-  "text": "Erst prüfen: DBA vorhanden? Wenn nein, § 34c (1) EStG anrechnen, hilfsweise Antrag auf Abzug nach § 34c (2). Bei Kapitaleinkünften zusätzlich § 32d (5) EStG beachten.",
-  "norm": "§ 34c (1), (2) EStG",
+  "ueberzeile": "Norm des Tages",
+  "titel": "Anrechnung ausländischer Steuer ohne DBA-Vorrang",
+  "text": "Erst die DBA-Methode prüfen. Nur wenn kein DBA greift oder es keine volle Entlastung bringt: § 34c (1) anrechnen, auf Antrag stattdessen § 34c (2) abziehen.",
+  "norm": "§ 34c (1) EStG",
   "fachLabel": "Internationales Steuerrecht",
   "beanstandet": [
-    "[s5 norm]: Normzitierung und Reihenfolge sind fehlerhaft: Der Text empfiehlt, erst zu prüfen, ob ein DBA vorhanden ist. Ohne DBA soll § 34c (1) EStG angerechnet werden, 'hilfsweise' § 34c (2). Das ist verkehrt: § 34c (1) EStG ist die Regelanrechnung von Einkünften, die unter ein DBA fallen; § 34c (2) EStG regelt den Abzug ausländischer Steuern, wenn kein DBA besteht. Die Reihenfolge müsste sein: DBA vorhanden? → Anrechnung nach § 34c (1). Kein DBA? → Abzug nach § 34c (2). → "
-  ]
+    "Merkhilfe eines anderen Dozenten übernommen (kein Fachbegriff, bitte weglassen oder den Inhalt ohne Kürzel erklären): DBA-Methode"
+  ],
+  "faktencheckOffen": true
 }
