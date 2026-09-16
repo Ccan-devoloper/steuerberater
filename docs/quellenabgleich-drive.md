@@ -482,5 +482,53 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     „§ 16 Abs. 11 EStR" statt R 16 Abs. 11 EStR; „§ 7 Abs. 1 Satz 5" statt Satz 4;
     „Hinsichtlich des hierin Ertragsanteils".
 
-  Offen im ESt-Campus bleiben damit die Fallsammlungen Einkünfte aus Gewerbebetrieb und
+  Offen im ESt-Campus blieben danach die Fallsammlungen Einkünfte aus Gewerbebetrieb und
   Einkünfte aus Kapitalvermögen sowie die Steuerberaterprüfungen Rechtsstand 2025.
+
+- **Fallsammlung Einkünfte aus Gewerbebetrieb (§ 15 EStG)** – Martin Engelberth, Stand 08/2026.
+  Vollständig eingepflegt als zwölfte Sammlung im Reiter „Fallsammlungen“ des ESt-Campus:
+  11 Fälle (Fall 1 bis 8 mit den Abwandlungen 3a, 5a und 8a), jeweils mit Sachverhalt, Aufgabe
+  und Lösung im Wortlaut der Quelle.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Fall 1: der Abschlusszeitpunkt wird im Sachverhalt mit dem 30.03., in der Lösung mit dem
+    31.03. angegeben; vor „4a Abs. 1 Nr. 2 S. 2" fehlt das Paragrafenzeichen.
+  - Fall 5a: die Gesellschaft heißt einmal „Textil-OG" statt OHG und einmal „OGH"; der
+    Gesellschafter NB wird in einer Zeile als „MB" geführt.
+  - Fall 6: Sohn und Schwester tragen im selben Fall beide den Buchstaben S.
+  - Fall 7: „Geschäftszwecke" statt Geschäftszwecken.
+  - Fall 8a: „keine Besitzunternehmen" statt Besitzunternehmen.
+
+- **Fallsammlung Einkünfte aus Kapitalvermögen (§ 20 EStG)** – Martin Engelberth, Rechtslage
+  31.12.2025, Stand 05/2026. Vollständig eingepflegt als dreizehnte Sammlung: 18 Einträge
+  (Fall 1 bis 11 mit den Abwandlungen 3a, 5a, 6a, 6b, 7a und 10a sowie Beispiel 12), jeweils
+  mit Sachverhalt, Aufgabe und Lösung im Wortlaut der Quelle. Enthalten sind auch die
+  investmentsteuerrechtlichen Fälle mit Teilfreistellung, Basisertrag und Vorabpauschale.
+
+  **Kein Lösungstext für VZ 03 in Beispiel 12:** Das PDF endet nach der Lösung zu den
+  Veranlagungszeiträumen 01 und 02; für den im Sachverhalt angelegten Forderungsausfall im
+  VZ 03 enthält die Quelle keinen Lösungstext. Das wurde an der heruntergeladenen Datei
+  überprüft (38 Seiten, vollständig extrahiert). Im Campus steht an dieser Stelle ein
+  ausdrücklicher Hinweis – es wurde bewusst keine Lösung ergänzt.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Fall 2: „WK-PB … -1.000 €" (Vorzeichen).
+  - Fall 4: „im Jahre 05" statt 09.
+  - Fall 5: „5.400 € + 2.700 €" als Rechenweg zu 8.100 €.
+  - Fall 5a: „des Unternehmens der EM" statt EF.
+  - Fall 6: „213 €" gegenüber den an anderer Stelle ausgewiesenen 214 €.
+  - Fall 8: Überschrift „Einkünfte aus Kapitalvermögen 01", obwohl die Veräußerung in 02 liegt.
+  - Fall 9: „§ 43a Abs. 2 Nr. Satz 2 Nr. 2" (unvollständiges Zitat) und „iVm. Abs. 43 Abs. 5
+    Satz 3".
+  - Fall 10a: „0,21 €" gegenüber den aus dem Rechenweg folgenden 0,73 €.
+  - Beispiel 12: der Darlehensgeber heißt an einer Stelle „C" statt A.
+
+  Offen im ESt-Campus bleiben damit nur noch die Steuerberaterprüfungen Rechtsstand 2025.
+
+  **Noch nicht zugeordnet:** Im ESt-Ordner des freigegebenen Laufwerks liegt eine Datei
+  „2026) (9).pdf" (6,6 MB, ID `1DdIbwtK4vfHU4w15uayCsg_VdaD7Afft`), deren Inhalt aus dem
+  Dateinamen nicht hervorgeht und die noch nicht geprüft wurde.

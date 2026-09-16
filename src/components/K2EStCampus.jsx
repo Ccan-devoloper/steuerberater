@@ -27,11 +27,7 @@ const NAV = [
 
 /* Was aus den ESt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
    steht im Cockpit, damit der Stand des Campus nachprüfbar bleibt. */
-const OFFEN = [
-  "Fallsammlung Einkünfte aus Gewerbebetrieb (Engelberth)",
-  "Fallsammlung Einkünfte aus Kapitalvermögen (Engelberth)",
-  "Steuerberaterprüfungen Rechtsstand 2025",
-];
+const OFFEN = ["Steuerberaterprüfungen Rechtsstand 2025"];
 
 function Cockpit() {
   const termine = estHausaufgaben.map((ha) => ha.termin).sort((a, b) => a - b);
