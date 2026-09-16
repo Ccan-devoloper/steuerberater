@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-17",
+  "erzeugt": "2026-09-16T22:19:24.943Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "spickzettel",
+      "themaId": "persg-modul-persg-7",
+      "themaTitel": "Sonderbetriebsvermögen I und II: Definition, Buchung und Sonderbilanz",
+      "fach": "persg",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "reel",
+      "themaId": "erbst-modul-erbst-502",
+      "themaTitel": "Lösungsaufbau ErbSt: I. Vorspann",
+      "fach": "erbst",
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:18",
+      "art": "frage",
+      "themaId": "bilanz-quiz-k3-21",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:18",
+      "art": "antwort",
+      "themaId": "bilanz-quiz-k3-21",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:21",
+      "art": "norm",
+      "themaId": "bilanz-modul-k3-5",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:24",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 19,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:28",
+      "art": "begriff",
+      "themaId": "ust-karte-ust-7",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:42",
+      "art": "fehler",
+      "themaId": "istr-modul-istr-istr4-01",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:37",
+      "art": "tipp",
+      "themaId": "ao-modul-ao-332",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
