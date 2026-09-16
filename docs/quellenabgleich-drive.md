@@ -182,5 +182,27 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Vermietungsbereich sowie zwei Tauschfälle. Zu den meisten Fällen stellt die Quelle keine
   eigene Frage, sondern nur eine Antwortzeile; der Aufgabenblock sagt das ausdrücklich, damit
   keine Frage unterstellt wird, die dort nicht steht.
-  Offen sind damit noch die Fallsammlungen der Termine 1, 6, 7, 8 und 9 (§ 21, § 17,
-  § 23, vorweggenommene Erbfolge, Erbfall, Renten).
+- **ESt-Fallrepetitorium zu § 17 EStG** (Termin 6, Wiegmann, Stand 07/2025): 20 Fälle,
+  Aufgaben- und Lösungs-PDF zusammengeführt – Subsidiarität gegenüber § 20 Abs. 2 EStG und die
+  Altanteile vor dem 01.01.2009, mittelbare Beteiligungen über OHG und GmbH, § 6 AStG beim
+  Wegzug, beschränkte Steuerpflicht am Beispiel DBA-NL in fünf Teilfällen, Fünf-Jahres-Frist,
+  Veräußerungszeitpunkt und Zufluss, unentgeltlicher Erwerb, Gehaltsverzicht als verdeckte
+  Einlage, eigene Anteile, Sacheinlage mit Einbringungsgewinn I, Agio, Bürgschaft und
+  Gesellschafterdarlehen in der Insolvenz, Liquidation, teilentgeltliche Übertragung mit
+  Entgeltlichkeitsquote, Ratenzahlung mit Stichtagsbewertung, Veräußerung gegen Leibrente mit
+  Sofort- und nachträglicher Versteuerung, § 17 EStG nach Entnahme aus dem Betriebsvermögen,
+  Verlustausgleichsbeschränkung nach § 17 Abs. 2 S. 6 EStG, Drittstaaten-Kapitalgesellschaft
+  mit § 2a EStG, nachträgliche Anschaffungskosten und ein zusammenfassender Fall über drei
+  Veranlagungszeiträume.
+
+  Vier Stellen rechnen in der Quelle nicht auf; sie sind wortlautgetreu übernommen und in der
+  Tabelle mit „so in der Quelle“ gekennzeichnet: in Fall 15 die nachträglichen
+  Anschaffungskosten von 757 € gegenüber den im Text errechneten 706 €, der dortige
+  Kapitalertragsteuersatz von 20 % und die Zeile „verbleiben 65.708 – 66.708“; in Fall 16
+  „36.100 € × 30 % 10.380 €“ (rechnerisch 10.830 €); in Fall 17 der Abwandlung der
+  verbleibende Gewinn von 10.650 € trotz Kürzung des Freibetrags um 91 €; in Fall 20 der
+  „Veräußerungsgewinn 10.000 €“ gegenüber dem ausgewiesenen Ergebnis von 12.000 €. Der
+  Sparer-Pauschbetrag von 801 € in Fall 18 ist ebenso gekennzeichnet.
+
+  Offen sind damit noch die Fallsammlungen der Termine 1, 6, 7, 8 und 9 (§ 21, § 23,
+  vorweggenommene Erbfolge, Erbfall, Renten).

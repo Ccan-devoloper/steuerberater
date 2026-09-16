@@ -91,7 +91,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   das Fallrepetitorium zum gewerblichen Grundstückshandel (Wiegmann, 05/2025) mit 10 Fällen
   samt Abwandlungen – Drei-Objekt-Grenze, Zurechnung beim Rechtsnachfolger, Beteiligungen an
   Grundstücksgesellschaften, Modernisierung als neuer Fristbeginn, Betriebsverpachtung und
-  Errichtungsfall – sowie die Sammlung zu § 15a EStG (Wiegmann, 12/2025) mit 12 Beispielen
+  Errichtungsfall –, das Fallrepetitorium zu § 17 EStG (Wiegmann, 07/2025) mit 20 Fällen –
+  Subsidiarität gegenüber § 20 EStG, mittelbare Beteiligungen und eigene Anteile, § 6 AStG und
+  DBA-Fälle, entgeltlicher und unentgeltlicher Erwerb, verdeckte Einlage, Einbringungsgewinn I,
+  Bürgschaft und Gesellschafterdarlehen, Liquidation, teilentgeltliche Übertragung, Raten- und
+  Rentenveräußerung, Verlustausgleichsbeschränkung nach § 17 Abs. 2 S. 6 EStG, § 2a EStG bei
+  Drittstaatengesellschaften und nachträgliche Anschaffungskosten – sowie die Sammlung zu
+  § 15a EStG (Wiegmann, 12/2025) mit 12 Beispielen
   samt Fortsetzungen und Abwandlungen – Kapitalkonto i. S. d. § 15a, erweiterte Außenhaftung,
   Einlage- und Haftungsminderung nach § 15a Abs. 3 EStG. Die Gegenüberstellung
   „ausgleichsfähig / verrechenbar“ steht als Tabelle.
