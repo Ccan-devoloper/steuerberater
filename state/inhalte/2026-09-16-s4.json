@@ -1,0 +1,15 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Richtig ist Option 2",
+  "text": "Baut ein Unternehmer auf dem Grundstück des Ehegatten, aktiviert er den eigenen Aufwand als Aufwandsverteilungsposten – kein Wirtschaftsgut, keine stillen Reserven, Auflösung nach den AfA-Grundsätzen.",
+  "optionen": [
+    "Ein Wirtschaftsgut des Bauherrn",
+    "Ein Merkposten für Bauaufwand auf fremdem Grund",
+    "Eine Rückstellung für Grundstückskosten"
+  ],
+  "richtig": 1,
+  "fachLabel": "Bilanzsteuerrecht"
+}

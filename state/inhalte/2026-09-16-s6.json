@@ -1,0 +1,15 @@
+{
+  "slot": "s6",
+  "art": "countdown",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Noch",
+  "titel": "Tage bis zur schriftlichen Prüfung",
+  "text": "6.–8. Oktober 2026. Heute: eine Klausur unter Zeitdruck schreiben, danach nur die Fehler auswerten – nicht neu lernen.",
+  "zahl": "20",
+  "fortschritt": 87,
+  "fachLabel": "Bilanzsteuerrecht",
+  "beanstandet": [
+    "[s6 countdown]: Datum der Prüfung wird als '6.–8. Oktober 2026' angegeben. Das ist Freitag bis Sonntag – das Steuerberaterexamen findet aber traditionsgemäß an Wochentagen (Montag bis Mittwoch) statt. Eine Prüfung am Wochenende ist untypisch. Das Datum muss geprüft werden oder ist mit Vorsicht zu genießen. → Verifikation des Prüfungsdatums; falls es sich um einen Instagram-Post handelt, ist die Information zum Prüfungstermin ggfs. veraltet oder verdruckt."
+  ]
+}

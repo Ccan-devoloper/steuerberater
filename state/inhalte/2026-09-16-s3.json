@@ -1,0 +1,17 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Prüfungsfrage Bilanzsteuerrecht",
+  "titel": "Was ist ein Aufwandsverteilungsposten?",
+  "optionen": [
+    "Ein Wirtschaftsgut des Bauherrn",
+    "Ein Merkposten für Bauaufwand auf fremdem Grund",
+    "Eine Rückstellung für Grundstückskosten"
+  ],
+  "fachLabel": "Bilanzsteuerrecht",
+  "beanstandet": [
+    "[s3 frage] und [s4 antwort]: Widerspruch bei der Antwort: In [s3] werden drei Optionen angeboten; in [s4] wird gesagt 'Richtig ist Option 2', aber dann folgen dieselben drei Optionen erneut aufgelistet – ohne dass erkennbar ist, welche Option 1, 2 oder 3 sein soll. Leser:in kann nicht nachvollziehen, welche Antwort richtig sein soll. → Die Optionen müssen in [s4] entweder weggelassen oder nummeriert werden (1. Ein Wirtschaftsgut…, 2. Ein Merkposten…, 3. Eine Rückstellung…), sodass die Aussage 'Richtig ist Option 2' eindeutig zuzuordnen ist."
+  ]
+}

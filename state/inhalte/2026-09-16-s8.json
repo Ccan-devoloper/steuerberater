@@ -1,0 +1,12 @@
+{
+  "slot": "s8",
+  "art": "begriff",
+  "fach": "persg",
+  "klausur": 3,
+  "titel": "Ergänzungsbilanz",
+  "text": "Sie gleicht den Unterschied zwischen dem Kapitalkonto in der Gesamthandsbilanz und den tatsächlichen Anschaffungskosten des Gesellschafters aus – positiv oder negativ, ohne die Gesamthandsbilanz zu ändern.",
+  "norm": "§ 5 (1) EStG · § 15 (1) S. 1 Nr. 2 EStG",
+  "icon": "hauptbuch",
+  "bildSzene": "ledger with handwritten correction column",
+  "fachLabel": "Personengesellschaften"
+}

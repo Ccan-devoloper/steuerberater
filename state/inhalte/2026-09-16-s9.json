@@ -1,0 +1,13 @@
+{
+  "slot": "s9",
+  "art": "fehler",
+  "fach": "istr",
+  "klausur": 2,
+  "titel": "Beteiligungsquote mit DBA-Schachtelprivileg verwechselt",
+  "falsch": "Hohe Beteiligung führt automatisch zu 5 % Quellensteuer nach Art. 10 DBA.",
+  "richtigText": "Der 5-%-Satz gilt nur für begünstigte Gesellschaften; bei natürlichen Personen bleibt es bei 15 %, § 50c EStG gleicht den Überhang aus.",
+  "fachLabel": "Internationales Steuerrecht",
+  "beanstandet": [
+    "[s9 fehler]: Der Text verwechselt zwei verschiedene Regelungen: § 50c EStG ist eine Anrechnungsregel für ausländische Steuer auf Einkünfte von Betriebstätten, nicht ein 'Ausgleich des Überhangs' zu einer Beteiligungsquote. Der Zusammenhang zwischen '5-%-Satz bei begünstigten Gesellschaften', '15 % bei natürlichen Personen' und '§ 50c EStG gleicht den Überhang aus' ist fachlich nicht korrekt. Es ist unklar, welche Norm wirklich angewendet werden soll und in welchem Kontext (Schachtelprivileg § 8b (3) KStG? Einkünfteabgrenzung?). → "
+  ]
+}
