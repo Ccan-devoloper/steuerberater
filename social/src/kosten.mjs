@@ -100,7 +100,12 @@ const ERWARTET = {
   "story-faktencheck": 0.01,
   "reel-faktencheck": 0.01,
   faktencheck: 0.01,
-  recherche: 0.05,
+  /* 0,05 war geraten. Gemessen am 16.09.: 0,22 $ - ohne Cache wurde bei
+     jedem pause_turn der ganze Verlauf neu bezahlt. Mit der Cache-Marke in
+     autor.mjs liegt der Aufruf deutlich darunter; bis der erste Lauf eines
+     Tages das gemessen hat, rechnet der Deckel mit 0,12 $ statt mit einer
+     Zahl, die den Tag sprengen kann. */
+  recherche: 0.12,
   stories: 0.05,
   beitrag: 0.05,
   autor: 0.05,
@@ -139,6 +144,19 @@ export const erwartet = (zweck) => erwartetFuer(zweck);
 
 const darfReserve = (zweck) => reserviertFuer.includes(schluessel(zweck) || String(zweck).toLowerCase());
 
+/* Zwecke, die einen Beitrag schmücken, aber nicht tragen. Sie brauchen den
+   doppelten Spielraum ihrer Schätzung, bevor sie starten dürfen.
+
+   Der Grund steht im Log vom 16.09.: Die Schätzung für eine Recherche lag bei
+   0,05 $, der Aufruf kostete 0,252 $ - und weil vor dem Aufruf nur mit der
+   Schätzung gerechnet wird, lief er trotzdem los. Gegen eine Schätzung, die
+   um das Fünffache danebenliegt, hilft kein Nachrechnen hinterher; es hilft
+   nur, solchen Aufrufen von vornherein mehr Luft abzuverlangen, als sie
+   voraussichtlich brauchen. Was den Tag trägt - Beiträge, Stories,
+   Faktenchecks - bleibt davon unberührt und rechnet weiter genau. */
+const KUER = ["recherche", "recherche-loesung"];
+const kuerFaktor = (zweck) => (KUER.includes(schluessel(zweck) || String(zweck).toLowerCase()) ? 2 : 1);
+
 /* Wenn es eng wird, weicht das Bild - nie die Prüfung.
 
    Beides läuft über denselben Deckel, und bisher verlor schlicht, wer zuletzt
@@ -154,7 +172,7 @@ const abstandFuer = (zweck) => (schluessel(zweck) === "bild" ? PRUEF_ABSTAND : 0
 
 export const budgetFrei = (zweck = "") => istAntwort(zweck)
   ? antwortStand() + erwartetFuer(zweck) < antwortLimitUsd
-  : tagesStand() + erwartetFuer(zweck) + abstandFuer(zweck) + (darfReserve(zweck) ? 0 : reserviert) < limitUsd;
+  : tagesStand() + erwartetFuer(zweck) * kuerFaktor(zweck) + abstandFuer(zweck) + (darfReserve(zweck) ? 0 : reserviert) < limitUsd;
 
 export function budgetPruefen(zweck = "Claude-Aufruf") {
   if (budgetFrei(zweck)) return;
