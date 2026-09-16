@@ -73,8 +73,10 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
    Bilanz 2011–2015; bisher nur die BStBK-Lösungsvorschläge als Quellen verlinkt.
 9. **Lohnsteuer und Grunderwerbsteuer** – im Drive eigene Fachordner, auf der Seite
    ohne Entsprechung (kein Campus, keine Fachleisten-Kachel).
-10. **K1 AO: Fallsammlung** – Reiter vorhanden, aber leer; im Drive u. a. Keyfacts
-    Außenprüfung und Vollstreckung sowie die Teile I–V (Jacobs).
+10. **K1 AO: Lehrgangsunterlagen** – die Teile I–V (Jacobs), das Short-Skript und die
+    Zusatzunterlagen FGO und Notfallbuch sind noch nicht abgeglichen. Der leere Reiter
+    „Fallsammlung AO" ist erledigt: Eine AO-Fallsammlung gibt es in den Kursunterlagen
+    nicht, dafür die drei Keyfacts-Blätter – siehe unten.
 
 ## Erledigt in diesem Durchgang
 
@@ -101,3 +103,8 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Datenbestand geprüfte Querverweise zu Modulen, Prüfschemata, Originalfällen und
   Hausaufgaben. Daten: `src/data/k3-persg-fallsammlung.js`, Ansicht:
   `src/components/K3PersGFallsammlung.jsx`, Prüfung: `npm run check:k3-persg-fallsammlung`.
+- **K1 AO Keyfacts (Reiter ersetzt den leeren Fallsammlungs-Reiter)**: Außenprüfung,
+  Vollstreckung und Erhebungsverfahren (Mirbach) mit 19 Abschnitten und 95 Stichpunkten im
+  Wortlaut. Daten: `src/data/k1-ao-keyfacts.js`, Ansicht: `src/components/AOKeyfacts.jsx`,
+  Prüfung: `npm run check:k1-ao-keyfacts`. Die Platzhalter-Komponenten der Campusse AO und
+  PersG sind damit vollständig entfallen.

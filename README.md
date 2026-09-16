@@ -55,6 +55,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Musterlösungen ab; statt erfundener Lösungen führt jeder Fall über geprüfte Querverweise
   zu den Modulen, Prüfschemata, Originalfällen und Hausaufgaben, in denen derselbe Stoff
   durchgerechnet ist. Prüfung: `npm run check:k3-persg-fallsammlung`
+- **Keyfacts AO** (Reiter im Campus Abgabenordnung, ersetzt den leeren Reiter „Fallsammlung"):
+  die drei Übersichtsblätter des Lehrgangs zu Außenprüfung (§§ 193–202 AO), Vollstreckung
+  (§§ 249 ff. AO inkl. Fähnchenkette) und Erhebungsverfahren (§§ 37, 218, 233a, 240, 152 AO)
+  mit 95 Merksätzen im Wortlaut. Prüfung: `npm run check:k1-ao-keyfacts`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
