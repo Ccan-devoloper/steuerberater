@@ -145,5 +145,10 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Abwandlungen. Die gemeinsame Block-Ansicht `HausaufgabenBloecke` wird mitbenutzt; sie
   fasst Gruppen jetzt zusammen, damit mehrere Fälle derselben Sammlung einen Filterknopf
   teilen.
-  Offen sind damit noch die Fallsammlungen der Termine 1 bis 8 (§ 21, § 4 Abs. 3,
-  Betriebsaufspaltung, gewerblicher Grundstückshandel, § 16, § 17, § 23, Erbfall, Renten).
+- **ESt-Fallsammlung zum gewerblichen Grundstückshandel** (Termin 3): 10 Fälle mit den
+  Abwandlungen 2a und 2b, zusammengeführt aus dem Aufgaben- und dem Lösungs-PDF. Enthalten
+  sind die vollständigen Zahlenwerke der Fälle 4, 6, 7, 9 und 10 (u. a. Fall 9 mit
+  Verpachtungsbetrieb, Grundstückshandel, V+V und § 23 EStG, Summe 552.282 €; Fall 10 mit
+  1.584.750 €); die Rechenwege der Quelle gehen auf und sind unverändert übernommen.
+  Offen sind damit noch die Fallsammlungen der Termine 1, 2, 3 (Betriebsaufspaltung), 4, 6
+  und 8 (§ 21, § 4 Abs. 3, § 16, § 17, § 23, Erbfall, Renten).
