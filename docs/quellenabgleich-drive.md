@@ -246,5 +246,29 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   des Erhaltungsaufwands ab 2023 ohne Teilbetrag für 2022 und die 14.000 € in 2025; in
   Fall 24 die Summe der Einkünfte von 11.960 € (27.998 € ./. 15.944 € ergibt 12.054 €).
 
-  Offen sind damit noch die Fallsammlungen der Termine 7, 8 und 9 (vorweggenommene
-  Erbfolge, Erbfall, Renten).
+- **ESt-Skript „Übertragungen im Rahmen der vorweggenommenen Erbfolge"** (Termin 7,
+  Blenkers, Stand 07/2025): Skript und Lösungs-PDF zusammengeführt zu 18 Einträgen. Anders
+  als die übrigen Sammlungen der Reihe ist dies ein Skript mit eingebetteten Beispielen; die
+  erklärenden Kapitel (Tz. 1–47 des BMF-Schreibens vom 13.01.1993 in der Fassung vom
+  26.02.2007) stehen jeweils als Vorspann bei dem Beispiel, zu dem sie gehören.
+  Inhalt: Begriff der vE und Abgrenzung zum voll entgeltlichen Geschäft, Versorgungs-
+  leistungen, Gleichstellungsgeld und Abstandszahlung samt abgekürztem Zahlungsweg,
+  zinslose Stundung, Schuldübernahme, Anschaffungsnebenkosten nach der geänderten
+  Rechtsprechung, Aufspaltungsthese mit zwei nebeneinanderlaufenden AfA-Reihen,
+  § 23 EStG beim Übergeber und beim Übernehmer, Aufteilung bei mehreren Wirtschaftsgütern
+  nach dem BMF-Schreiben vom 26.02.2007, teilentgeltliche Übertragung wesentlicher
+  Beteiligungen, Betriebsvermögen mit Aufstockung der stillen Reserven und Eröffnungsbilanz,
+  Buchwertfortführung unterhalb des Kapitalkontos, einzelne Wirtschaftsgüter zwischen
+  Entnahme und Veräußerung, Schuldzinsen, Mischfälle, § 6b-Rücklage beim Betriebsnachfolger,
+  fünf aktuelle Entscheidungen (Abbruchabsicht, Grundschuld ohne Schuldübernahme,
+  Sonder-BV und § 6 Abs. 3 EStG, geschenkter Kaufpreis, modifizierte Trennungstheorie)
+  sowie der zusammenfassende Fall mit vorbehaltenem dinglichem Wohnrecht.
+
+  Zwei Stellen gehen in der Quelle nicht auf; sie sind wortlautgetreu übernommen und
+  gekennzeichnet: in Beispiel 2 die Angabe „AfA-Satz 5 % (§ 7 Abs. 5 Nr. 3 b) EStG, da
+  Kaufvertrag in 2002)" bei einem Erwerb zum 02.01.2014, während die Lösung mit 2,5 %
+  („12. Jahr!") rechnet; in der Fortführung von Beispiel 5 die Gebäude-Anschaffungskosten
+  „400.000 €", denen die angesetzten AfA-Beträge eine Bemessungsgrundlage von 320.000 €
+  zugrunde legen.
+
+  Offen sind damit noch die Fallsammlungen der Termine 8 und 9 (Erbfall, Renten).
