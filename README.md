@@ -188,7 +188,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:kst-schemata-noethen`
 - **ESt-Übungsklausuren** (Klausur 2, Reiter Einkommensteuer → „Übungsklausuren“): die
   Übungsklausuren im Prüfungsformat, Aufgaben- und Lösungs-PDF wieder zusammengeführt.
-  Erfasst ist die Übungsklausur Einkommensteuer 1 (Wiegmann/Grolle, Rechtsstand 2025,
+  Erfasst sind die Übungsklausur Einkommensteuer 1 (Wiegmann/Grolle, Rechtsstand 2025,
   6 Stunden Bearbeitungszeit) mit allen drei Aufgabenteilen: Eheleute Potter (zu versteuerndes
   Einkommen über fünf Einkunftsarten – Rabattfreibetrag, Auslandsdienstreise mit Bußgeld,
   geerbtes Mietwohngrundstück mit § 11d EStDV und verbilligter Überlassung, stille Beteiligung,
@@ -196,8 +196,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Betriebsaufspaltung im laufenden Jahr mit Einlage zum Teilwert, Stückzinsen als negative
   Einnahmen, § 15a EStG beim vermögensverwaltenden Immobilienfonds) und Hella Wahnsinn
   (gemischt veranlasstes Arbeitsverhältnis mit § 35a EStG, Spendenauflage nach § 153a StPO,
-  Unterhalt für mehrere Personen). Die Randpunkte der Musterlösung stehen an ihrem Absatz,
-  wo das PDF sie eindeutig zuordnet, sonst als gesammelter Hinweis.
+  Unterhalt für mehrere Personen). Dazu die Übungsklausur **Ertragsteuern 0**
+  (Wiegmann/Leuers, Rechtsstand 2025, 6 Stunden) mit drei Aufgabenteilen: Eheleute Hase
+  (Betriebsaufspaltung durch Verpachtung des zurückbehaltenen Fabrikgrundstücks, überhöhter
+  Pachtzins als verdeckte Gewinnausschüttung, Wechsel von der degressiven zur linearen
+  Gebäude-AfA, Betriebsveräußerung im Ganzen mit § 15a UStG-Rückforderung als
+  Veräußerungskosten), Conrad Mertens (Betriebsveräußerung gegen Barpreis und Leibrente –
+  Sofortversteuerung und nachträgliche Versteuerung beide vollständig durchgerechnet) und die
+  Capsulé GmbH (eine vollständige Körperschaftsteuerklausur über neun Textziffern: Rückrechnung
+  des Jahresüberschusses aus dem Bilanzgewinn, strenger formeller Fremdvergleich, Erdienbarkeit
+  einer Pensionszusage, überhöhte Kaufpreise an nahestehende Personen, § 8b Abs. 4 KStG bei
+  abweichendem Wirtschaftsjahr, vGA und verdeckte Einlage im Dreieck zwischen
+  Schwestergesellschaften, § 8b Abs. 3 S. 4 KStG beim Gesellschafterdarlehen sowie das
+  materielle Korrespondenzprinzip – mit Steuerrückstellungen und steuerlichem Einlagekonto).
+  Die Randpunkte der Musterlösung stehen an ihrem Absatz, wo das PDF sie eindeutig zuordnet,
+  sonst als gesammelter Hinweis.
   Prüfung: `npm run check:est-klausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

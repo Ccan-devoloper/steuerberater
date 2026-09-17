@@ -792,3 +792,53 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   - Abschnitt A. V. 4 a: „gem. § 8b Abs. 1 Nr. 1 KStG“ statt § 8b Abs. 1 S. 1 KStG.
   - Abschnitt A. V. 5, Beispiel 2: Die vGA von 400.000 wird „beim Einkommen der A-GmbH“
     hinzugerechnet, gemeint ist die T-GmbH.
+
+- **Übungsklausur „Ertragsteuern 0" (Rechtsstand 2025)** – Thomas Wiegmann und Michael Leuers,
+  Korrektor Michael Leuers; Drive-IDs `1JNQkxnNYYzD9BdoKsPmjm9pcI3n0N9Lf` (Aufgabe) und
+  `1jjh33AQTXBihFdD0KXvO5EESNx-vaAbp` (Lösung). Sie steht im ESt-Campus im Reiter
+  „Übungsklausuren" neben der Klausur Einkommensteuer 1.
+
+  Die Klausur hat drei Aufgabenteile: zwei einkommensteuerliche (Eheleute Hase, 35 Punkte;
+  Conrad Mertens, 15 Punkte) und einen vollständigen körperschaftsteuerlichen Teil über neun
+  Textziffern (Capsulé GmbH, 50 Punkte, Rechtsstand Januar 2026). Alle drei sind vollständig
+  übernommen: Sachverhalt, Aufgabenstellung, allgemeine Bearbeitungshinweise und
+  Lösungshinweise im Wortlaut, die Rechenschemata als Tabelle.
+
+  Zu den Randpunkten gilt dasselbe wie bei der Klausur Einkommensteuer 1: Übernommen ist ein
+  Punktwert nur dort, wo die Randspalte des PDF sich eindeutig einem Absatz zuordnen lässt;
+  die übrigen Werte stehen als gesammelter Hinweis. Die ausgewiesene Gesamtpunktzahl je
+  Aufgabenteil (35 / 15 / 50) stammt aus der Aufgabenstellung bzw. aus der Kopfzeile der
+  Musterlösung.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Aufgabenteil I: Die Musterlösung nummeriert die Gliederungspunkte abweichend von der
+    Aufgabenstellung („II. Veranlagungsform" und „II. Tarif" tragen dieselbe Ziffer).
+  - Aufgabenteil I: „an den bisherigen Geschäftsführer Ulrich Schlauch Schlauch tätigt".
+  - Aufgabenteil I: Die Kurzübersicht am Ende nennt für die Kapitaleinkünfte 70.398 €, die
+    Berechnung dagegen 70.000 €.
+  - Aufgabenteil I: § 35 EStG wird „Frank und Anja Hase" zugeschrieben, obwohl allein Frank
+    Hase gewerbliche Einkünfte erzielt hat.
+  - Aufgabenteil II: Die Kurzübersicht weicht an drei Stellen von der ausführlichen Rechnung
+    ab – „BE 93.970 €" statt 93.586 €, „Rentenbarwert 01.09. 34.239 €" statt des Barwerts zum
+    01.02.2025 von 34.086 €, und „1.886 € + 864 € = 2.250 €", während 1.886 € + 364 € = 2.250 €
+    die Rechnung trägt.
+  - Aufgabenteil III, Tz. 5: Die Fußnote zur vGA vertauscht die Bezeichnungen („fremdüblicher
+    Kaufpreis 1.500.000 € - tatsächlicher Kaufpreis 1.350.000 €").
+  - Aufgabenteil III, Tz. 6: „Da die Voraussetzungen des § 8b Abs. 4 KStG vorliegen, greift …
+    § 8b Abs. 1 KStG" – die C-GmbH ist Alleingesellschafterin der V-GmbH, die Streubesitzgrenze
+    ist also gerade nicht erfüllt.
+  - Aufgabenteil III, Tz. 6: An dieser Stelle steht ein Schaubild des Dreiecksverhältnisses, das
+    sich beim Auslesen in eine Buchstabenfolge auflöst und deshalb nicht wiedergegeben ist.
+  - Aufgabenteil III, Tz. 9: Die Spalte „bisher" der GruBo-Tabelle weist die Nebenkosten von
+    50.000 € aus, obwohl sie bisher als Aufwand erfasst waren.
+  - Aufgabenteil III, Tz. 9: Die Zeile „Unterschiedsbetrag" nennt zweimal 66.666 €; der
+    Kürzungsbetrag von 153.334 € ergibt sich aus 200.000 € ./. 46.666 €.
+  - Aufgabenteil III, Schlussaufstellung: Die Teilwertabschreibung auf das Darlehen ist mit
+    „§ 8 Abs. 3 S. 4 KStG" und die verdeckte Einlage mit „§ 8b Abs. 3 S. 3, 4 KStG" bezeichnet;
+    die Begründungen stützen sie auf § 8b Abs. 3 S. 4 KStG bzw. § 8 Abs. 3 S. 3 und 4 KStG.
+  - Aufgabenteil III, Steuerberechnung: Der anrechenbare Solidaritätszuschlag wird auf
+    Textziffer 4 gestützt, er stammt aber aus Textziffer 5.
+  - Aufgabenteil III: Die Aufgabenstellung verlangt unter Nummer 2 die Folgen für die V-GmbH;
+    unter der Überschrift „Zu 2." stehen stattdessen Steuerberechnung und Einlagekonto.

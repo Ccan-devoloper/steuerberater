@@ -35,8 +35,8 @@ aufgeht, und mit einem Prüfskript.
   Kurzskripts I)
 
 ### Übungsklausuren (Rechtsstand 2025) – 12 Klausuren, je mit Lösung
-Eingepflegt: Einkommensteuer 1. Offen sind:
-- Ertragsteuern 0
+Eingepflegt: Einkommensteuer 1, Ertragsteuern 0 (mit vollständigem körperschaftsteuerlichem
+Aufgabenteil). Offen sind:
 - Ertragsteuern 2
 - Körperschaftsteuer
 - Umsatzsteuer

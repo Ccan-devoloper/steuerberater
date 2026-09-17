@@ -79,10 +79,12 @@ function Cockpit() {
           über der Liste im Reiter „Hausaufgaben ESt“.
         </p>
         <p>
-          Die Übungsklausur Einkommensteuer 1 (Wiegmann, {estKlausurenQuelle.stand}) steht mit allen
-          drei Aufgabenteilen und der Musterlösung im Reiter „Übungsklausuren“ – Sachverhalt,
-          Aufgabenstellung und Lösungshinweise im Wortlaut, die Randpunkte nur dort, wo sie sich im
-          PDF eindeutig einem Absatz zuordnen lassen.
+          Die Übungsklausuren Einkommensteuer 1 (Wiegmann) und Ertragsteuern 0 (Wiegmann/Leuers,
+          {estKlausurenQuelle.stand}) stehen mit allen Aufgabenteilen und der Musterlösung im Reiter
+          „Übungsklausuren“ – Sachverhalt, Aufgabenstellung und Lösungshinweise im Wortlaut, die
+          Randpunkte nur dort, wo sie sich im PDF eindeutig einem Absatz zuordnen lassen. Die Klausur
+          Ertragsteuern 0 enthält neben den beiden einkommensteuerlichen Aufgabenteilen einen
+          vollständigen körperschaftsteuerlichen Teil über neun Textziffern.
         </p>
         <p>
           Dazu {estFallsammlungen.length} Fälle aus den Fallrepetitorien im Reiter „Fallsammlungen“:{" "}
@@ -182,7 +184,7 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
           <HausaufgabenBloecke
             kicker="Klausur 2 · Einkommensteuer · Übungsklausuren"
             titel="ESt-Übungsklausuren 2026/2027"
-            lead="Die Übungsklausuren im Prüfungsformat – sechs Stunden Bearbeitungszeit, je Aufgabenteil ein eigener Mandant. Aufgabenstellung, Sachverhalt und Musterlösung stehen im Wortlaut, die Ermittlungsschemata als Tabelle."
+            lead="Die Übungsklausuren im Prüfungsformat – sechs Stunden Bearbeitungszeit, je Aufgabenteil ein eigener Mandant. Aufgabenstellung, Sachverhalt und Musterlösung stehen im Wortlaut, die Ermittlungsschemata als Tabelle. Die Klausur Ertragsteuern 0 vereint zwei einkommensteuerliche Aufgabenteile mit einer vollständigen Körperschaftsteuerklausur."
             quelle={estKlausurenQuelle}
             hausaufgaben={estKlausuren}
             gruppeVon={(eintrag) => eintrag.klausur}
