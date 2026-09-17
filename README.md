@@ -206,7 +206,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Besteuerungs- und Strafverfahren nach § 393 AO, Haftung und Hinterziehungszinsen sowie die
   Strafverfolgungsverjährung nach §§ 78ff StGB und § 376 AO mit dem Fall Theo Trickreich, der
   50.000-Euro-Grenze des BGH und den Strafmaß-Leitlinien bei sechs- und siebenstelligen
-  Hinterziehungsbeträgen.
+  Hinterziehungsbeträgen. Aus Teil II stehen das vollständige Prüfungsschema zu § 370 AO
+  (Tathandlung durch positives Tun und durch Unterlassen, doppelter Taterfolg, Kausalität,
+  Vorsatz, Rechtswidrigkeit, Schuld sowie Strafausschließungs- und Strafaufhebungsgründe),
+  die Erläuterungen zu den einzelnen Tatbestandsmerkmalen, die Anzahl der Taten mit zwei
+  Beispielen zur Tatmehrheit nach § 53 StGB, das durchgerechnete Fallbeispiel zum
+  Boss-Anzug und den verschwiegenen Bausparprovisionen (Taterfolg 2.400 €, materiell
+  zutreffende Steuer 48.000 €, festsetzbar nur 47.400 €) sowie der Zeitpunkt des Taterfolgs
+  bei Veranlagungssteuern mit der 95-Prozent-Grenze, bei Schätzungen in zwei Fallgruppen
+  und bei der Umsatzsteuer einschließlich des Verhältnisses von zwölf Voranmeldungen zur
+  Jahreserklärung nach dem BGH-Urteil vom 13.07.2017.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

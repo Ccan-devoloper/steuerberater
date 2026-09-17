@@ -2216,3 +2216,44 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   verbleiben **95.000 €**. Ebenso die Fristen des Außenprüfungsfalls (reguläres Ende
   31.12.11, verlängertes Ende 31.12.17) und die Jahresfristen des § 171 Abs. 9 AO
   (28.10.07 und 25.08.13).
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 2)
+
+- Quelle: dieselbe Datei wie in Teil 1 (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Teil II bis zur Tz. 4.4.
+- Einpflege dieses Durchgangs: vier Kapitel – das Prüfungsschema zu § 370 AO, die
+  Erläuterungen zu den Tatbestandsmerkmalen einschließlich der Anzahl der Taten, das
+  Fallbeispiel zum Boss-Anzug und den Bausparprovisionen sowie der Zeitpunkt des
+  Taterfolgs bei Veranlagungssteuern, Schätzungen und der Umsatzsteuer. Das Skript
+  umfasst damit 10 Teile, 89 Kapitel, 1.916 Blöcke und 180 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: das Kompensationsverbot des § 370 Abs. 4 Satz 3 AO mit seinen
+  Berechnungsbeispielen, die Übungsfälle zum Steuerstrafrecht, die Teile III und IV
+  (Selbstanzeige nach § 371 AO, Bußgeldrecht) und der gesamte Abschnitt 15
+  (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 6: „Eine selbständig zu beurteilende Steuerstraftat“ – Großschreibung mitten
+    im Satz; „Strafrechtlichter Täter“.
+  - Kapitel 7: „Taterfolg gemäß § 370 Abs. 1 Satz 1 Halbsatz 2 Alt. 1 AO“ – § 370 Abs. 1
+    AO ist in Nummern gegliedert; „handelt es sich um wegen der Einkommensteuer 01 um
+    eine Steuerstraftat“ – doppeltes „um“; „A als Alleintäter hat vorsätzlich gemäß § 369
+    Abs. 2 iVm § 15 StGB, weil …“ – das Verb „gehandelt“ fehlt; „§ 173 Abs. 1 Nr. 1 Ao“.
+  - Kapitel 7, Festsetzungsfristtabelle: Beide Klammern werden nicht geschlossen, und der
+    Betrag 45.600 € ist als „Höhe der materiell zutreffenden Steuer“ bezeichnet, obwohl
+    die materiell zutreffende Steuer laut derselben Tabelle 48.000 € beträgt.
+  - Kapitel 8: „Geschätzte Steuer ist niedriger als die Materiell zutreffende Steuer“ –
+    Großschreibung mitten im Satz; „Bestraft kann nur noch die Abgabe der falschen
+    Jahresanmeldung“ – das Hilfsverb „werden“ fehlt.
+
+  Nachgerechnet und zutreffend: das Fallbeispiel zum Boss-Anzug – Provisionen 8.000 € ×
+  40 % = 3.200 €, abzüglich der tatzugehörigen Betriebsausgaben 2.000 € × 40 % = 800 €
+  ergibt einen Taterfolg von **2.400 €**; festgesetzte 45.000 € zuzüglich 2.400 € und
+  600 € ergeben die materiell zutreffenden **48.000 €**, korrigierbar ist mangels aktiver
+  Korrekturvorschrift für den Werbungskostenfehler und mangels gegenläufiger Wirkung
+  (§ 177 AO) nur bis **47.400 €**. Ebenso das Umsatzsteuerbeispiel: zwölf Voranmeldungen
+  zu je 1.900 € ergeben 22.800 €, was genau dem Taterfolg der Jahreserklärung entspricht –
+  insgesamt 13 selbständige Taten.

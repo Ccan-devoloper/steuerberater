@@ -88,10 +88,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Band ist **vollständig ausgewertet**, soweit der Connector ihn ausgibt – Abschnitt 8
   ganz, Abschnitt 9 bis Seite 17. Was dahinter liegt, steht in Abschnitt A.
 - **AO Teil VI** („2025) (8).pdf“, Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`): Aus
-  Abschnitt 14 (Steuerstraf- und Bußgeldrecht) ist der Teil I (Allgemeine Grundlagen)
-  eingepflegt. Offen sind daraus noch die Teile II bis IV (Steuerhinterziehung nach
-  § 370 AO im Einzelnen mit Prüfungsschema, Übungsfällen und Selbstanzeige, Bußgeldrecht)
-  sowie der gesamte **Abschnitt 15** (Vollstreckungsrecht).
+  Abschnitt 14 (Steuerstraf- und Bußgeldrecht) sind der Teil I (Allgemeine Grundlagen) und
+  der Teil II bis zum Zeitpunkt des Taterfolgs eingepflegt. Offen sind daraus noch das
+  Kompensationsverbot des § 370 Abs. 4 Satz 3 AO mit seinen Berechnungsbeispielen, die
+  Übungsfälle zum Steuerstrafrecht, die Teile III und IV (Selbstanzeige nach § 371 AO,
+  Bußgeldrecht) sowie der gesamte **Abschnitt 15** (Vollstreckungsrecht).
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript
