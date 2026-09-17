@@ -21,10 +21,10 @@ import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import "./kst.css";
 
 /* Die Übungsklausur Körperschaftsteuer steht im KSt-Campus, die beiden
-   Teilklausuren der Klausur AO/USt im USt- bzw. AO-Campus, die Übungsklausur
-   Bilanzierung 1 im Bilanzen-Campus der Klausur 3; hier stehen die
+   Teilklausuren der Klausur AO/USt im USt- bzw. AO-Campus, die Übungsklausuren
+   Bilanzierung 1 und 2 im Bilanzen-Campus der Klausur 3; hier stehen die
    einkommensteuerlichen Klausuren des gemeinsamen Klausurbestands. */
-const ANDERE_FAECHER = new Set(["kst-1", "ust-1", "ao-1", "ao-2", "bil-1"]);
+const ANDERE_FAECHER = new Set(["kst-1", "ust-1", "ao-1", "ao-2", "bil-1", "bil-2"]);
 const EST_KLAUSUREN = estKlausuren.filter((eintrag) => !ANDERE_FAECHER.has(eintrag.klausur));
 
 const NAV = [

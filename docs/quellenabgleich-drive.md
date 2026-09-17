@@ -1106,3 +1106,52 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     § 255 Abs. 2 Satz 2 HGB. Die Bezugsgröße 810.000 € des Verwaltungskostenzuschlags ist
     nicht hergeleitet (sie entspricht 200.000 € + 40.000 € + 300.000 € + 270.000 €);
     3,70 % von 23.900 € ergeben rechnerisch 884,30 €, angesetzt sind 885 €.
+
+- **Übungsklausur „Bilanzierung 2" (Rechtsstand 2025)** – Markus Nöthen, Korrektor Michael
+  Leuers; Drive-IDs `1mGSea8yvwIucHSKJYJLdSxQc_ObA0rWX` (Aufgabe) und
+  `10g7wIsr6jmtRq1L_HURTJ5xGZjdBJcsf` (Lösung). Sie steht im Bilanzen-Campus der Klausur 3
+  im Reiter „Übungsklausuren" neben Bilanzierung 1.
+
+  Übernommen ist die vollständige Klausur in zehn Aufgabenteilen: 1. Teil Einzelunternehmen
+  Sebastian Reinsteiger mit vier Einzelsachverhalten (18 + 5 + 22 + 18 = 63 Punkte) und
+  2. Teil Bayar-GmbH mit sechs Einzelsachverhalten (3 + 8 + 5 + 7 + 8 + 6 = 37 Punkte) – in
+  der Summe die ausgewiesenen 100 Punkte. Sachverhalt, Aufgabenstellung, Vorbemerkungen,
+  Hinweise, allgemeine Bearbeitungshinweise und die Inhaltsübersicht des Lösungshinweises
+  stehen im Wortlaut; die Bewertungs- und Entwicklungsrechnungen stehen als Tabelle.
+
+  Randpunkte: Anders als in Bilanzierung 1 steht der Punktwert in dieser Musterlösung jeweils
+  unmittelbar **vor** dem Absatz, zu dem er gehört. Die Zuordnung ist damit eindeutig; die
+  Werte sind an den Blöcken übernommen. Die Blocksummen stimmen für jeden der zehn Einträge
+  exakt mit der ausgewiesenen Punktzahl des Einzelsachverhalts überein (geprüft über
+  `npm run check:est-klausuren`).
+
+  Zwei ausdrückliche Hinweise der Quelle auf strittige Fragen sind wortlautgetreu übernommen:
+  zur Anwendbarkeit von H 6.4 „Abbruchkosten“ EStH in der Handelsbilanz (1. Teil
+  Einzelsachverhalt 3, mit Fundstellen für und gegen die Anwendbarkeit) und zur Anwendung der
+  5-%-Bagatellgrenze in der Handelsbilanz (2. Teil Einzelsachverhalt 2).
+
+  Stellen, an denen die Quelle selbst nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Aufgabentext, 2. Teil: „große Kapitalgesellschaft i.S.d. § 267a Abs. 3 HGB“ – die
+    Größenklassen regelt § 267 Abs. 3 HGB, § 267a HGB betrifft Kleinstkapitalgesellschaften.
+  - Aufgabentext, 1. Teil Einzelsachverhalt 4: Bruttolistenpreis 75.996 € abzüglich der
+    Inzahlungnahme von 11.900 € ergibt 64.096 €; Aufgabentext und Lösung rechnen mit einer
+    Baraufgabe von 64.095 € und einem gemeinen Wert des neuen PKW von 75.995 €.
+  - 1. Teil Einzelsachverhalt 3, Schaufensteranlage: Die Lösung zitiert für die AfA des
+    selbständigen Gebäudeteils „§ 7 Abs. 5b EStG“; die Erstreckung der Absätze 4 und 5 auf
+    selbständige Gebäudeteile regelt § 7 Abs. 5a EStG.
+  - 1. Teil Einzelsachverhalt 3, Parkplatz: Die Entwicklungstabelle ist mit „Entwicklung des
+    Bilanzpostens Gebäude“ überschrieben, obwohl sie den Parkplatz zeigt.
+  - 1. Teil Einzelsachverhalt 4: „Gleichzeitig darf K jedoch die Fahrten wie ein Arbeitnehmer
+    abziehen“ – gemeint ist SR. Die unentgeltliche Wertabgabe ist als „§ 3 Abs. 9 Nr. 1 UStG“
+    zitiert, während die Inhaltsübersicht derselben Lösung zutreffend § 3 Abs. 9a Nr. 1 UStG
+    nennt. In der Buchung „Entnahme 5.938 € an USt 1.384 € und Erlöse 4.554 €“ weicht der
+    Erlösbetrag um 6 € vom zuvor ermittelten ertragsteuerlichen Entnahmewert 4.548 € ab.
+  - 2. Teil Einzelsachverhalt 1: Zitat „H 6.2 „Schuldüberahme“ EStH“ statt „Schuldübernahme“.
+  - 2. Teil Einzelsachverhalt 2: 541 € x 1,02 ergibt 551,82 €; die Lösung nennt den Wert
+    einmal mit 551 € und unmittelbar danach mit 552 € und rechnet mit 552 € weiter.
+  - 2. Teil Einzelsachverhalt 4: „§ 253 Abs. 1 S. 1 HB“ statt HGB; die latenten Steuern sind
+    als „10.000 € x 30 = 3.000 €“ notiert statt x 30 %.
+  - 2. Teil Einzelsachverhalt 5: „Der Zinsanteil ist … zu erfassen zu erfassen“.
+

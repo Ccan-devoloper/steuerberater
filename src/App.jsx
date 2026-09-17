@@ -31,9 +31,10 @@ import { PrioBadge, PrioNorm, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilte
 const prioModul = (m) => prioritaetFuer("bilanz", m, { typ: "modul", id: m.id });
 const prioZaehlung = prioZaehlen(alleModule, prioModul);
 
-/* Die Übungsklausur Bilanzierung 1 liegt im gemeinsamen Klausurbestand der
-   Übungsklausuren; hier steht der Teil, der zur Klausur 3 gehört. */
-const BIL_UEBUNGSKLAUSUREN = estKlausuren.filter((eintrag) => eintrag.klausur === "bil-1");
+/* Die Übungsklausuren Bilanzierung liegen im gemeinsamen Klausurbestand der
+   Übungsklausuren; hier stehen die Teile, die zur Klausur 3 gehören. */
+const BIL_KLAUSUREN = new Set(["bil-1", "bil-2"]);
+const BIL_UEBUNGSKLAUSUREN = estKlausuren.filter((eintrag) => BIL_KLAUSUREN.has(eintrag.klausur));
 
 /* Gültige Kennungen für die Bereinigung des gespeicherten Fortschritts. */
 const modulIds = new Set(alleModule.map((m) => m.id));
@@ -44,7 +45,7 @@ const ansichten = [
   { id: "module", label: "Lernmodule", Icon: IconModule },
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
   { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
-  { id: "uebungsklausur", label: "Übungsklausur (Rott)", Icon: IconTraining },
+  { id: "uebungsklausur", label: "Übungsklausuren", Icon: IconTraining },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
   { id: "schema", label: "Prüfungsschema", Icon: IconSchema },
   { id: "formeln", label: "Rechenwege", Icon: IconFormel },
@@ -302,14 +303,14 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
         {ansicht === "uebungsklausur" && (
           <HausaufgabenBloecke
             kicker="Klausur 3 · Buchführung und Bilanzwesen · Übungsklausur"
-            titel="Übungsklausur Bilanzierung 1 (Rott)"
-            lead="Die Übungsklausur im Fachgebiet Bilanzierung 1 (Norbert Rott, Korrektoren S. und L. Rehbann, Rechtslage 2025, 6 Stunden, 100 Punkte): Teil I mit den sechs Textziffern des Einzelunternehmers Karl-Heinz Arnold (79 Punkte) und Teil II mit den beiden Kapitalgesellschafts-Sachverhalten (21 Punkte). Sachverhalt, Aufgabenstellung und Musterlösung stehen im Wortlaut."
+            titel="Übungsklausuren Bilanzierung"
+            lead="Die Übungsklausuren im Fachgebiet Bilanzierung, je 6 Stunden und 100 Punkte: Bilanzierung 1 (Norbert Rott, Korrektoren S. und L. Rehbann, Rechtslage 2025) mit den sechs Textziffern des Einzelunternehmers Karl-Heinz Arnold (79 Punkte) und zwei Kapitalgesellschafts-Sachverhalten (21 Punkte); Bilanzierung 2 (Markus Nöthen, Korrektor Michael Leuers, Rechtsstand 2025) mit dem Einzelunternehmen Sebastian Reinsteiger (63 Punkte) und der Bayar-GmbH (37 Punkte). Sachverhalt, Aufgabenstellung und Musterlösung stehen im Wortlaut."
             quelle={estKlausurenQuelle}
             hausaufgaben={BIL_UEBUNGSKLAUSUREN}
-            gruppeVon={(eintrag) => eintrag.teil.split(".")[0]}
-            gruppeLabel={(eintrag) => `Teil ${eintrag.teil.split(".")[0]}`}
-            gruppeAria="Aufgabenteile"
-            karteKicker={(eintrag) => `Aufgabenteil ${eintrag.teil} · ${eintrag.punkteLaut} · ${eintrag.rechtsstand}`}
+            gruppeVon={(eintrag) => eintrag.klausur}
+            gruppeLabel={(eintrag) => eintrag.klausurLabel}
+            gruppeAria="Klausuren"
+            karteKicker={(eintrag) => `${eintrag.klausurLabel} · Aufgabenteil ${eintrag.teil} · ${eintrag.punkteLaut ?? `${eintrag.punkte} Punkte`}`}
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Textziffern"
             einheitEinzahl="Textziffer"
