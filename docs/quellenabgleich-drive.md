@@ -942,3 +942,30 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     getrennt zu lösen.
   - Sachverhalt 4: Der Hinweis zur vertretbaren Alternativlösung rechnet den Zinsaufwand von
     1.750 „gem. § 8 Abs. 3 S. 3 KStG" hinzu; die Hinzurechnung einer vGA folgt aus Satz 2.
+
+- **Übungsklausur „AO/USt" – Teilklausur Umsatzsteuer (Rechtslage 2026)** – Hans-Jürgen Jacobs
+  und Tim Schröders, Korrektor Thorsten Schulz; Drive-IDs
+  `1ivjk58wXU4QWJlR9PYVJBEa72LjynyMj` (Aufgabe) und `1ON7azMxClJQFlDyhKyA--Cx6hL9rMj2U`
+  (Lösung). Die Teilklausur Umsatzsteuer steht im USt-Campus (Klausur 1) im neuen Reiter
+  „Übungsklausur (USt)".
+
+  Beide PDF enthalten außerdem die Teilklausur Abgabenordnung (vier Sachverhalte, 50 Punkte).
+  Sie ist noch nicht eingepflegt und steht in docs/offene-quellen.md; im freigegebenen Ordner
+  liegt sie zusätzlich als eigenes Aufgaben-/Lösungs-PDF.
+
+  Übernommen sind die drei Sachverhalte der Teilklausur Umsatzsteuer: Marco Murrer
+  (38 Punkte), Franz Ferstl GmbH (7,5 Punkte) und Virus-GmbH (4,5 Punkte) – zusammen die
+  ausgewiesenen 50 Punkte. Sachverhalt, Aufgabenstellung, allgemeine Hinweise und
+  Lösungshinweise stehen im Wortlaut.
+
+  Randpunkte: Die Musterlösung markiert sie einzeln am Rand, teils in halben Punkten. Sie
+  stehen hier an ihrem Absatz; die Summe der drei Sachverhalte ergibt die 50 Punkte der
+  Teilklausur.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Sachverhalt Murrer, Abschnitt „Errichtung Gebäude": Die eingeschobene Klammer
+    („Mit der Aufnahme des Restaurantbetriebs …") wird nicht geschlossen.
+  - Sachverhalt Murrer, Abschnitt „Grundstücksnutzung": Der Vermieter der Zimmer im
+    2. Obergeschoss ist M; die Musterlösung schreibt „erbringt L sonstige Leistungen".

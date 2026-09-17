@@ -20,9 +20,11 @@ import { estFallsammlungen, estFallsammlungenQuelle } from "../data/est-fallsamm
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import "./kst.css";
 
-/* Die Übungsklausur Körperschaftsteuer steht im KSt-Campus; hier stehen die
-   einkommensteuerlichen Klausuren des gemeinsamen Klausurbestands. */
-const EST_KLAUSUREN = estKlausuren.filter((eintrag) => eintrag.klausur !== "kst-1");
+/* Die Übungsklausur Körperschaftsteuer steht im KSt-Campus, die Teilklausur
+   Umsatzsteuer im USt-Campus; hier stehen die einkommensteuerlichen Klausuren
+   des gemeinsamen Klausurbestands. */
+const ANDERE_FAECHER = new Set(["kst-1", "ust-1"]);
+const EST_KLAUSUREN = estKlausuren.filter((eintrag) => !ANDERE_FAECHER.has(eintrag.klausur));
 
 const NAV = [
   ["cockpit", "Cockpit", IconCockpit],
@@ -90,7 +92,8 @@ function Cockpit() {
           PDF eindeutig einem Absatz zuordnen lassen. Beide Ertragsteuer-Klausuren enthalten neben
           den einkommensteuerlichen Aufgabenteilen je einen vollständigen körperschaftsteuerlichen
           Teil. Die reine Übungsklausur Körperschaftsteuer steht im KSt-Campus unter
-          „Übungsklausur (Breier)“.
+          „Übungsklausur (Breier)“, die Teilklausur Umsatzsteuer im USt-Campus unter
+          „Übungsklausur (USt)“.
         </p>
         <p>
           Dazu {estFallsammlungen.length} Fälle aus den Fallrepetitorien im Reiter „Fallsammlungen“:{" "}

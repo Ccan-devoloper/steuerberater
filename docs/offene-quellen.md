@@ -36,15 +36,16 @@ aufgeht, und mit einem Prüfskript.
 
 ### Übungsklausuren (Rechtsstand 2025) – 12 Klausuren, je mit Lösung
 Eingepflegt: Einkommensteuer 1, Ertragsteuern 0 und Ertragsteuern 2 (beide mit vollständigem
-körperschaftsteuerlichem Aufgabenteil) und Körperschaftsteuer (im KSt-Campus). Offen sind:
-- Umsatzsteuer
+körperschaftsteuerlichem Aufgabenteil), Körperschaftsteuer (im KSt-Campus) und die
+Teilklausur Umsatzsteuer der Klausur AO/USt (im USt-Campus). Offen sind:
+- Abgabenordnung (Teilklausur der Klausur AO/USt; dieselbe Datei enthält den bereits
+  eingepflegten USt-Teil, zusätzlich liegt sie als eigenes Aufgaben-/Lösungs-PDF vor)
 - Bilanzierung 1
 - Bilanzierung 2
 - Bilanzierung 3
 - Bilanzierung 4
 - Bewertungsrecht 1
 - Bewertungsrecht 2
-- Abgabenordnung
 
 ### Klausur 2 – Körperschaftsteuer
 - KSt-Kurz-Skript (Breier): vollständig eingepflegt, soweit der Connector Text ausgibt –

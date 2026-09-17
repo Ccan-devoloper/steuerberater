@@ -22,6 +22,8 @@ import { k1Karteikarten, k1Quizfragen } from "../data/k1-lernstoff.js";
 import { k1Aufgaben, k1Quellskizzen } from "../data/k1-fall-extras.js";
 import { K1Aufgabenblock, K1Quellskizze } from "./K1FallExtras";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
+import HausaufgabenBloecke from "./HausaufgabenBloecke";
+import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import Klausurmodus, { IconKlausur } from "./Klausurmodus";
 import {
   IconCockpit, IconModule, IconFaelle, IconSchema, IconHaken, IconTraining,
@@ -40,10 +42,15 @@ const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
+  { id: "uebungsklausur", label: "Übungsklausur (USt)", Icon: IconTraining },
   { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "schema", label: "Prüfschema", Icon: IconSchema },
   { id: "training", label: "Training", Icon: IconTraining },
 ];
+
+/* Die Teilklausur Umsatzsteuer der Übungsklausur AO/USt liegt im gemeinsamen
+   Klausurbestand; hier werden nur ihre Sachverhalte gezeigt. */
+const UST_UEBUNGSKLAUSUR = estKlausuren.filter((eintrag) => eintrag.klausur === "ust-1");
 
 const k1UstFallKategorien = [
   { id: "alle", label: "Alle Kategorien", faelle: [] },
@@ -577,6 +584,22 @@ export default function K1Campus({ onKlausurwechsel }) {
             sperrtext="Erst selbst lösen: Steuerbarkeit, Steuerbefreiung, Bemessungsgrundlage, Steuersatz, Steuerschuldner, Entstehung und Vorsteuer. Danach die Musterlösung aufdecken und ehrlich bewerten."
             modulWort="Fall"
             sachverhaltExtra={(fall) => <K1Aufgabenblock daten={k1Aufgaben[fall.id]} />}
+          />
+        )}
+        {ansicht === "uebungsklausur" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 1 · Umsatzsteuer · Übungsklausur"
+            titel="USt-Übungsklausur (Schröders)"
+            lead="Die Teilklausur Umsatzsteuer der Übungsklausur AO/USt (Jacobs/Schröders, Korrektor Schulz, Rechtslage 2026, 3 Stunden, 50 Punkte): Marco Murrer als Bauträger, Bauunternehmer und Händler, die Franz Ferstl GmbH im Reihengeschäft und die Virus-GmbH mit innergemeinschaftlichem Verbringen. Sachverhalt, Aufgabenstellung und Musterlösung stehen im Wortlaut, die Randpunkte an ihrem Absatz."
+            quelle={estKlausurenQuelle}
+            hausaufgaben={UST_UEBUNGSKLAUSUR}
+            gruppeVon={(eintrag) => eintrag.klausur}
+            gruppeLabel={(eintrag) => eintrag.klausurLabel}
+            gruppeAria="Klausuren"
+            karteKicker={(eintrag) => `${eintrag.teil} · ${eintrag.punkte} Punkte · ${eintrag.rechtsstand}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Sachverhalte"
+            einheitEinzahl="Sachverhalt"
           />
         )}
         {ansicht === "schema" && <UstPruefschema />}
