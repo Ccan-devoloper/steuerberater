@@ -2376,7 +2376,7 @@ test("Fehlende Zuordnungsdatei laesst den Lauf unberuehrt", async () => {
    Beiträgen, 0 von 9 Stories.
    -------------------------------------------------------------------------- */
 test("Rücklage übersteigt nie das noch freie Budget", async () => {
-  const { bezahlbareSumme } = await import("../src/lauf.mjs");
+  const { bezahlbareSumme } = await import("../src/kosten.mjs");
 
   /* Der Fall vom 17.09.: b2 kostet erwartet 0.085, frei sind 0.045. */
   assert.equal(bezahlbareSumme([0.085], 0.045), 0, "Unbezahlbares wird nicht zurückgelegt");
