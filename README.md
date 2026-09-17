@@ -137,14 +137,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   vier Abwandlungen), Absatz 3 und 3a (Antrag gegenüber Einspruch), Absatz 4
   (Außenprüfung mit Unterbrechung und Höchstfrist, Fälle Flimmer und Durst) sowie die
   Neuregelungen ab dem 01.01.2025 und die Absätze 5 und 7.
-  Aus Teil III ist Abschnitt 7 (Korrektur von Verwaltungsakten) begonnen: die
-  Korrekturterminologie und die Schnellübersicht zum Anwendungsbereich jeder Vorschrift,
-  die dreistufige Systematik (§ 164 Abs. 2 AO – Korrekturvorschriften für endgültige
-  Bescheide – Rechtsfehlersaldierung), die Berichtigung nach § 129 AO mit dem Fall Maja
-  und drei weiteren Fällen, § 172 Abs. 1 Satz 1 Nr. 2a AO (schlichte Änderung gegenüber
-  Einspruch) und Nr. 2c AO (unlautere Mittel) sowie § 173 AO mit Tatsachenbegriff,
-  nachträglichem Bekanntwerden, Rechtserheblichkeit und dem unterschiedlichen
-  Tatsachenbegriff bei Einkommen- und Umsatzsteuer.
+  Aus Teil III ist Abschnitt 7 (Korrektur von Verwaltungsakten) bis Seite 79 eingepflegt:
+  die Korrekturterminologie und die Schnellübersicht zum Anwendungsbereich jeder
+  Vorschrift, die dreistufige Systematik (§ 164 Abs. 2 AO – Korrekturvorschriften für
+  endgültige Bescheide – Rechtsfehlersaldierung), die Berichtigung nach § 129 AO mit dem
+  Fall Maja und drei weiteren Fällen, § 172 Abs. 1 Satz 1 Nr. 2a AO (schlichte Änderung
+  gegenüber Einspruch) und Nr. 2c AO (unlautere Mittel), § 173 AO mit Tatsachenbegriff,
+  nachträglichem Bekanntwerden, Rechtserheblichkeit, dem unterschiedlichen
+  Tatsachenbegriff bei Einkommen- und Umsatzsteuer, grobem Verschulden und der Ausnahme
+  des § 173 Abs. 1 Nr. 2 Satz 2 AO, der Änderungssperre des § 173 Abs. 2 AO und fünf
+  Übungsfällen (Kiosk, Umsatzsteuer-Schätzung mit Rechtsfehlersaldierung nach § 177 AO,
+  Geschäftsführergehalt, Selbstanzeige, Umsatzsteuer-Vorauszahlung), § 173a AO mit
+  Gesetzesbegründung, Abgrenzung zu §§ 129 und 173 AO und dem vierteiligen Fallbeispiel
+  Egon Müller, § 174 AO in allen fünf Absätzen – Überblick über positiven und negativen
+  Widerstreit, das Tatbestandsmerkmal „bestimmter Sachverhalt“, Objekt-, Subjekt-,
+  Perioden- und Zuständigkeitskollision, vier Fälle zu Absatz 1 (Schlampig mit drei
+  Abwandlungen zur Jahresfrist, zusammenveranlagte Eheleute, Sonderbetriebsvermögen), das
+  Fallbeispiel Dachreparatur zu Absatz 2, das Fallbeispiel Steinreich mit zwei Varianten
+  zu Absatz 3 und der Abhilfebescheid zu Absatz 4 – sowie § 175 Abs. 1 Satz 1 Nr. 1 AO
+  mit steuerlichen und außersteuerlichen Grundlagenbescheiden, den Ablaufhemmungen des
+  § 171 Abs. 10 AO, der Abgrenzung zu § 35b GewStG, dem Fallbeispiel Architekt A und dem
+  Umfang der Anpassung des Folgebescheides. Ab Seite 80 gibt der Drive-Connector das PDF
+  nicht mehr aus; das ist in `docs/offene-quellen.md` vermerkt.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

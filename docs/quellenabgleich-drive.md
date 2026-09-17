@@ -1915,3 +1915,96 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   (120.000 € + 15.000 € + 20.000 €); im Übungsfall S das Ende der Einspruchsfrist am
   05.10.09; im Fall Heim die Differenz von 2.000 € (5.000 € ./. 3.000 €) und in der
   Abwandlung der Verlust von 2.000 € (6.000 € ./. 8.000 €).
+
+## AO-Skript (Jacobs), Teil III – Abschnitt 7: Korrektur von Verwaltungsakten (Teil 2)
+
+- Quelle: dieselbe Datei wie in Teil 1 (Drive-ID `17QT3RU22R0kTxP5MfyzWc6HrX3i77TEg`),
+  Seiten 40 bis 79.
+- Einpflege dieses Durchgangs: neun weitere Kapitel – grobes Verschulden bei § 173 Abs. 1
+  Nr. 2 AO mit der Ausnahme des Satzes 2 und der Änderungssperre des § 173 Abs. 2 AO, die
+  fünf Beispiele zu § 173 AO, § 173a AO mit dem Fallbeispiel Egon Müller, § 174 AO
+  (Einführung, Überblick, „bestimmter Sachverhalt“, Absätze 1 bis 4 mit sämtlichen
+  Fallbeispielen) und § 175 Abs. 1 Satz 1 Nr. 1 AO. Das Skript umfasst damit 7 Teile,
+  62 Kapitel, 1.321 Blöcke und 121 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- **Abbruch der Quelle:** Der Connector bricht auf Seite 79 von 118 mitten im ersten
+  Übungsfall zu § 175 AO ab. Die Lösungshinweise zu diesem Übungsfall und zur Abwandlung,
+  die weiteren Übungsfälle sowie § 175 Abs. 1 Satz 1 Nr. 2 AO (rückwirkendes Ereignis) und
+  die §§ 176 und 177 AO sind nicht lesbar. Der Abbruch ist am Ende des Kapitels 17 als
+  redaktioneller Hinweis vermerkt und in `docs/offene-quellen.md`, Abschnitt A,
+  aufgenommen.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 10, Fall 1: Die Umsatzsteuer aus den nacherklärten Einnahmen beträgt 380 €, die
+    bisher geschätzte 520 €; die Differenz ist **./. 140 €**. Das Ergebnis des Skripts nennt
+    „USt -200 €“.
+  - Kapitel 10, Fall 1 Abwandlung: 570 € ./. 950 € = **./. 380 €**; das Skript nennt eine
+    „Minderung der Umsatzsteuer um 300 €“.
+  - Kapitel 10, Fall 1: Das Ende der Einspruchsfrist „18.11.03“ beruht auf der bis 2024
+    geltenden Dreitagesfrist; nach § 122 Abs. 2 Nr. 1 AO in der ab 2025 geltenden Fassung
+    wäre es der 19.11.03.
+  - Kapitel 10, Fall 2: Der Ergebnissatz „Erhöhung der USt um 64 000 € (400.000 € x 16 %)“
+    passt nicht zur eigenen Tabelle des Skripts. Nachgerechnet: erklärte Umsätze
+    1.000.000 € × 19 % = 190.000 €, geschätzte 600.000 € × 19 % = 114.000 €, Korrektur nach
+    § 173 Abs. 1 Nr. 1 AO **+76.000 €**. Vorsteuer laut Erklärung 126.000 €, laut Schätzung
+    36.000 €, Differenz **90.000 €**; davon im Verhältnis der nacherklärten Umsätze
+    (400.000 € von 1.000.000 € = 40 %) **36.000 €** ohne Verschuldensprüfung, die
+    restlichen **54.000 €** wegen groben Verschuldens gesperrt. Berichtigungsobergrenze
+    78.000 € + 76.000 € = **154.000 €**, Berichtigungsuntergrenze 78.000 € ./. 36.000 € =
+    **42.000 €**. Festsetzung: +76.000 € ./. 54.000 € = +22.000 €, ./. 36.000 € =
+    ./. 14.000 €, zuzüglich bisher festgesetzter 78.000 € = **64.000 €**. Der Endbetrag
+    64.000 € stimmt; allein die Klammer „(400.000 € x 16 %)“ ist falsch.
+  - Kapitel 10, Fall 4: Fristenden 31.12.07 (regulär) und 31.12.13 (§ 169 Abs. 2 Satz 2 AO)
+    sowie die Jahresfrist des § 171 Abs. 9 AO bis zum 17.09.14 sind nachgerechnet und
+    zutreffend.
+  - Kapitel 10, Fall 5: Das Skript druckt **keine Lösungshinweise** ab; darauf weist ein
+    redaktioneller Hinweis am Ende des Kapitels hin.
+  - Kapitel 11: „Deswegen ist das schlichte Vergessen eines Übertrags … kein Fall des
+    § 173a AO **sein**“ – Satzbaufehler der Quelle.
+  - Kapitel 12, Egon Müller, Punkt 1: Die Quelle rechnet 1.200 € + 1.500 € = „1.700 €“ und
+    setzt selbst „(statt zutreffend 2.700 €)“ dahinter; genau darin liegt der Rechenfehler
+    des Falls. Die Jahresfrist „(18.06.07)“ beruht auf der Dreitagesfrist; nach neuem Recht
+    wäre es der 19.06.07.
+  - Kapitel 12, Egon Müller, Punkt 2: „(18.06.06)“ ist zusätzlich ein Jahresdreher – der
+    Bescheid ist am 15.06.06 zur Post gegeben, die Jahresfrist des § 171 Abs. 2 Satz 1 AO
+    endet daher im Juni 07.
+  - Kapitel 13: Die Paragraphenangaben „§ 174 Abs. ……… AO“ sind im Skript bewusst als
+    Ausfüllfelder offen gelassen; sie stehen so im Text.
+  - Kapitel 14, Fall 2: „Erfassung der BE gemäß § 11 Abs. 1 EStG im Veranlagungszeitraum
+    01“ – nach dem Sachverhalt und nach der Lösung zu Fall 1 gehören die Provisionen in den
+    Veranlagungszeitraum 02.
+  - Kapitel 14, Fall 3: Das Ergebnis nennt eine Herabsetzung „um 4.000 €“; doppelt erfasst
+    sind nach dem Sachverhalt 12.000 €. Der Wert 4.000 € stammt aus den Fällen 1 und 2.
+  - Kapitel 14, Fall 4: Es sind „Lösungshinweise zur Abwandlung zum Fall 4“ abgedruckt,
+    ohne dass im Sachverhalt eine Abwandlung gestellt wird.
+  - Kapitel 14: Die Fristberechnungen der Abwandlungen sind nachgerechnet und zutreffend –
+    EStB 02 zur Post 02.02.07, Bekanntgabe 06.02.07, Unanfechtbarkeit 06.03.07, Jahresfrist
+    bis 06.03.08; Einspruchsentscheidung zugestellt 02.03.07, Klagefrist bis 02.04.07,
+    Jahresfrist bis 02.04.08; Einspruchsfrist zum EStB 01 (zur Post 12.03.04) bis
+    16.04.04 und Jahresfrist bis 16.04.05. Diese Stellen wenden die Viertagesfrist
+    korrekt an.
+  - Kapitel 15, Abwandlung: Das Zwischenergebnis spricht von einem „Antrag vom 28.01.08“,
+    obwohl § 174 Abs. 2 AO gerade keinen Antrag verlangt; gemeint ist die Feststellung des
+    Fehlers durch das Finanzamt.
+  - Kapitel 16: „Ausnahmeregelung des § 11 Abs. 1 Satz 2 **AO**“ – gemeint ist § 11 Abs. 1
+    Satz 2 EStG. In Variante 2 „aufgrund des mit durch das Telefonat gewährten rechtlichen
+    Gehörs“ und „Iin diesem Zusammenhang“.
+  - Kapitel 16, § 174 Abs. 4 AO: „Die reguläre Festsetzungsfrist für den **EStB 03**“ –
+    geprüft wird der Einkommensteuerbescheid 02. Das Fristende „24.05.08“ beruht auf der
+    Dreitagesfrist; nach neuem Recht wäre der Abhilfebescheid (zur Post 21.05.07) am
+    25.05.07 bekannt gegeben und die Jahresfrist endete am 25.05.08.
+  - Kapitel 17: „so muss („ist“) der Folgebescheid gemäß § 175 I Nr. 1 AO zu ändern“ –
+    Satzbaufehler der Quelle. Die Fristberechnungen zum Fallbeispiel Architekt A sind
+    nachgerechnet und zutreffend: F-Bescheid zur Post 12.01.07, Bekanntgabe 16.01.07,
+    zwei Jahre nach § 171 Abs. 10 Satz 1 AO bis 16.01.09; EStB vom 21.03.09, Bekanntgabe
+    25.03.09, Monatsfrist bis 25.04.09, Jahresfrist des § 171 Abs. 2 AO bis 25.03.10. Auch
+    hier ist die Viertagesfrist korrekt angewandt.
+
+  Damit setzt sich das schon in den Abschnitten 5 und 6 beobachtete Muster fort: das
+  Skript rechnet Bekanntgabe- und Einspruchsfristen teils nach der bis 2024 geltenden
+  Dreitagesfrist, teils nach der ab 2025 geltenden Viertagesfrist – innerhalb desselben
+  Abschnitts und ohne Kennzeichnung. Jede betroffene Stelle trägt im Datensatz den
+  Hinweis samt dem Datum, das sich nach neuem Recht ergäbe.
