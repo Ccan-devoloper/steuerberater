@@ -120,7 +120,7 @@ export const antwortLimit = () => antwortLimitUsd;
    höheren Wert weiter. */
 const ERWARTET = {
   "story-faktencheck": 0.01,
-  "reel-faktencheck": 0.01,
+  "reel-faktencheck": 0.02,   // seit 18.09. mit effort high; gemessen vorher 0,014 $
   faktencheck: 0.01,
   /* 0,05 war geraten. Gemessen am 16.09.: 0,22 $ - ohne Cache wurde bei
      jedem pause_turn der ganze Verlauf neu bezahlt. Mit der Cache-Marke in

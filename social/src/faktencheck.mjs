@@ -45,6 +45,13 @@ const SYSTEM = `Du bist Prüfer:in für Fachtexte zum deutschen Steuerrecht (Ste
 - Rechtsfolgen, Prüfungsreihenfolgen, Zuständigkeiten
 - Rechtsstand: veraltete Regelungen (z. B. Abzinsung von Verbindlichkeiten, alte Freibeträge) sind Fehler
 - Innere Logik: Der Text muss aus sich heraus verständlich sein. Wird auf einen Fall, einen Namen oder eine Zahl Bezug genommen, die nirgends im Text eingeführt wird (z. B. ein „Mini-Fall“ mit Firmennamen, aber ohne Sachverhalt, eine Rechnung mit Zahlen, die vorher nicht genannt sind), ist das ein „fehler“ – mit dem Hinweis, welche Angaben ergänzt werden müssen.
+- Personenbezug: Jede Voraussetzung, die an eine bestimmte Person geknüpft ist – Steuerschuldner, Steuerpflichtiger, Erwerber, Schenker, Erblasser, Arbeitgeber, Leistungsempfänger –, prüfst du ausdrücklich darauf, WELCHE Person das Gesetz meint. Wird sie der falschen Person zugeschrieben (dem Erwerber statt dem Schenker, dem Leistenden statt dem Leistungsempfänger), ist das ein „fehler“, auch wenn der Satz sonst stimmt. Sag dir bei jeder solchen Stelle: „Wer genau muss hier was?“ – und entscheide erst dann.
+- Unbestimmte Personenangaben: „eine beteiligte Person“, „einer von beiden“, „man“ an Stellen, an denen das Gesetz bestimmte Personen nennt (§ 2 Abs. 1 Nr. 1 ErbStG: Erblasser, Schenker oder Erwerber), sind ein „hinweis“ mit der genauen Fassung als Korrektur.
+- Fallgruppen bei Zahlen: Staffelt das Gesetz einen Wert nach Fallgruppen (Steuerklasse, Verwandtschaftsgrad, Wertgrenze), ist ein Wert für die falsche Fallgruppe ein „fehler“ und eine Spanne, die Fallgruppen vermischt, ein „hinweis“ mit der gestaffelten Fassung als Korrektur.
+- Vollständigkeit einer Rechtsfolge: Wird eine Rechtsfolge an eine Voraussetzung geknüpft, das Gesetz verlangt aber eine weitere tragende Voraussetzung, ist das ein „hinweis“; macht das Fehlen die Aussage falsch, ein „fehler“.
+- Behauptungen über Häufigkeit oder Typik („der häufigste Fehler“, „die meisten übersehen“) sind ohne Beleg ein „hinweis“ mit einer neutralen Fassung als Korrektur („ein typischer Aufbaufehler“).
+
+Du prüfst gegen Gesetz, Richtlinien und Verwaltungsauffassung, nicht gegen den Autor: Der Text stammt von einem Modell derselben Familie wie du. Was dir plausibel klingt, ist dadurch nicht richtig – ein Fehler, der dir beim Schreiben unterliefe, unterläuft dir auch beim Lesen, wenn du nicht bewusst dagegenhältst. Prüfe jede Zuschreibung (wer, was, wann, wie viel) gegen ihr Gegenteil, bevor du sie durchwinkst. Ein kurzer Text ist kein Grund für eine kurze Prüfung: Ein Reel-Skript mit 140 Wörtern trägt so viele Behauptungen wie ein Beitrag, und es wird von mehr Menschen gehört.
 
 - Fremde Merkhilfen: Kürzel und Methodennamen, die kein Fachbegriff sind, sondern die Merkhilfe eines Dozenten („EIS-Methode“, „ABBA-Schema“ und Ähnliches), sind ein „fehler“ – sie gehören einem anderen und sagen der Leserschaft nichts.
 
@@ -180,7 +187,12 @@ export async function pruefeFakten(beitrag, zweck = "faktencheck", { hinweis = "
     messages: [{ role: "user", content: user }],
     /* Haiku kennt kein adaptives Denken – dort ohne. */
     ...(haiku ? {} : { thinking: { type: "adaptive" } }),
-    output_config: { ...(haiku ? {} : { effort: "medium" }), format: { type: "json_schema", schema: SCHEMA } },
+    /* Das Reel bekommt die gründlichere Prüfung. Am 16.09. prüfte Sonnet das
+       Herr-Jurist-Reel in sechs Sekunden mit 400 Ausgabe-Token - und ließ
+       „Kenntnis des anderen Ehegatten“ statt des Vertragspartners durch. Ein
+       Reel läuft einmal am Tag, wird am häufigsten gesehen und steht dauerhaft;
+       die paar Cent mehr für tieferes Nachdenken sind dort am besten angelegt. */
+    output_config: { ...(haiku ? {} : { effort: zweck === "reel-faktencheck" ? "high" : "medium" }), format: { type: "json_schema", schema: SCHEMA } },
   };
   /* Zwei Anläufe, bevor ein Fehler entsteht: erst mit Schema und Denken,
      dann - wenn die Antwort nicht lesbar ist oder das Modell ablehnt - ohne

@@ -432,10 +432,14 @@ const ZITIER_ARTIKEL = /(?:§§?\s*|\bParagra(?:f|ph)(?:en)?\s+)\d+[a-z]?(?:\s*(
    Artikelnennung, hinter der bis zum Ende der Zeile kein Gesetzeskuerzel mehr
    folgt. Aufzaehlungen („§ 9 + § 11 ErbStG") gelten damit als versorgt. */
 const GESETZ_KUERZEL = /\b(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|EStH|KStR|KStH|UStAE|BGB|GrEStG|FGO|SolZG|DBA|GewStR|UmwG|GmbHG|AktG|InsO|ZPO|BewG)\b/;
+/* Auch die gesprochene Form zählt: „Paragraf 3“ ohne ErbStG ist für die Hörerin
+   genauso ein halber Satz wie „§ 3“ ohne Gesetz für die Leserin. Das Campus-Reel
+   vom 17.09. sagte „Paragraf 3 oder Paragraf 7 Absatz 1 Nummer 1“ – und nirgends
+   im ganzen Sprechtext das Gesetz. */
 export function normenOhneGesetz(text) {
   const t = String(text || "");
   const treffer = [];
-  for (const m of t.matchAll(/(?:§§?|Art\.|Artikel)\s*\d+[a-z]?/g)) {
+  for (const m of t.matchAll(/(?:§§?|Art\.|Artikel|Paragraf(?:en)?)\s*\d+[a-z]?/g)) {
     if (!GESETZ_KUERZEL.test(t.slice(m.index + m[0].length))) treffer.push(m[0]);
   }
   return treffer;
