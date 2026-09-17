@@ -22,6 +22,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **KSt-Kurz-Skript** (Breier, Mai 2026), Drive-ID `1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0` | Ab etwa Seite 90 von 196: **der Rest von Teil 4 (Veräußerung von Anteilen, § 8b Abs. 2 und 3 KStG), Teil 5 (verdeckte Gewinnausschüttung), Teil 6, Teil 7 (Zinsschranke), Teil 8 (Organschaft), Teil 9 (Liquidation), Teil 10 (Nennkapital)** | Der Connector gibt das PDF nur bis etwa Seite 90 aus. Die Teile 1 bis 3 und der Anfang von Teil 4 sind lesbar und eingepflegt; ab der Bruchstelle fehlt auch der Rest von Teil 4. |
 | **„KStG, 1. bis 7. Einheit"** (Nöthen), Ordner `1bqhD4ayOUTo8A7WBUXgce3otxy5L7YrN` | Alle sieben Dateien vollständig | **Reine Scans ohne Textebene.** Der Connector liefert nur Seitenplatzhalter („Page 1", „Page 2", …), keinen Text. Über den Connector grundsätzlich nicht erfassbar. |
 | **PersG Fact Sheets** (Horst, April 2025), Drive-ID `179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5` | Die vollständigen 24 Seiten | **Reiner Scan ohne Textebene.** Der Connector gibt aus dem 17,4-MB-PDF nur den Wasserzeichentext zurück, sonst nichts. Der Download bricht am 10-MB-Limit des Connectors ab; eine lokale Texterkennung steht in dieser Umgebung nicht zur Verfügung. |
+| **AO Teil I** (Jacobs, Mai 2025), Drive-ID `1aHWnqQ5PE_XXgbI3Aw7ShlMe_AuEj2gQ` | Der Rest des Abschnitts 3 (ab Seite 30) und der vollständige **Abschnitt 4** | Der Connector gibt aus dem 1,4-MB-PDF 144.000 Zeichen bis Abschnitt 3, Seite 30 aus und bricht dort an einer Seitengrenze ab. Das Deckblatt kündigt „Teil I: Abschnitte 1 bis 4“ an. Die Abschnitte 1 bis 3 sind bis zur Bruchstelle eingepflegt. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
 Rest: wortlautgetreu, mit Kennzeichnung jeder Stelle, an der die Quelle selbst nicht
@@ -67,7 +68,12 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
 - Damit ist der Drive-Ordner „Personengesellschaften“ bis auf die Fact Sheets abgearbeitet.
 
 ### Klausur 1 – Abgabenordnung
-- AO-Teile I bis V
+- AO-Skript (Jacobs), **Teil I: Abschnitte 1 bis 3 sind eingepflegt** (Reiter „Skript
+  (Jacobs)“), zusammen mit dem Hinweisblatt zur Viertagesfrist. Der Rest von Teil I ist
+  technisch blockiert, siehe Abschnitt A.
+- AO-Teile II, III und V (Jacobs) – noch nicht bearbeitet. Ein Teil IV liegt unter diesem
+  Namen nicht im Ordner; zu prüfen ist, ob eine der Dateien „2025) (6).pdf“,
+  „2025) (7).pdf“ oder „2025) (8).pdf“ dieser Teil ist.
 - AO-Short-Skript
 - FGO
 - Notfallbuch

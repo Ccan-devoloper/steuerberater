@@ -1641,3 +1641,85 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   aufgedeckte stille Reserven, Zwischenwert 90.000 € bei Restbuchwert 70.000 € und
   gemeinem Wert 95.000 €), die jährliche AfA von 12.000 €, die AfA von 84.000 € über sieben
   Jahre und der Restwert von 6.000 € im letzten Jahr.
+
+## AO-Skript (Jacobs), Teil I – Abschnitte 1 bis 3
+
+- Quelle: Drive-Ordner „Abgabenordnung", Dateien „B-S25-AO-Teil I-(Jacobs)-0425 (1).pdf"
+  (Drive-ID `1aHWnqQ5PE_XXgbI3Aw7ShlMe_AuEj2gQ`) und
+  „B-S25-AO-Hinweis Skript AO-2025-(Jacosb)-0425 (1).pdf" (Drive-ID
+  `1RbbFFS6vT-HCXesKM_2LsSDXVlvXaddL`). Verfasser Hans-Jürgen Jacobs, Mai 2025,
+  Rechtsstand 2025.
+- Einpflege: `src/data/k1-ao-skript-jacobs.js` (4 Teile, 24 Kapitel, 447 Blöcke,
+  31 Tabellen); Prüfung `npm run check:k1-ao-skript-jacobs`. Reiter „Skript (Jacobs)" im
+  AO-Campus.
+- **Abbruch der Quelle:** Der Connector gibt aus dem PDF 144.000 Zeichen bis Abschnitt 3,
+  Seite 30, aus und endet dort an einer Seitengrenze. Das Deckblatt kündigt „Teil I:
+  Abschnitte 1 bis 4" an; der Rest des Abschnitts 3 und der gesamte Abschnitt 4 sind über
+  den Connector nicht lesbar. Das ist in `docs/offene-quellen.md`, Abschnitt A, vermerkt und
+  steht zusätzlich als redaktioneller Hinweis am Ende des letzten Kapitels.
+- Die Übersichten des Skripts stehen im PDF als mehrspaltige Kästen ohne Rahmen. Sie sind
+  als Tabellen übernommen; Reihenfolge, Bezeichnungen und Fundstellen sind unverändert.
+  Die im Skript verwendete Kurzschreibweise der Gesetzeszitate („§ 169 I 1 AO") ist
+  beibehalten.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Abschnitt 1, Kapitel 4 (Soll-Vorschriften): Der Gesetzestext des § 91 Abs. 1 AO ist als
+    auszufüllende Lücke gedruckt („§ 91 I AO (................)").
+  - Abschnitt 1, Kapitel 5: Der Verweis zur Festsetzungsverjährung fragt nach dem Erlass
+    eines Feststellungsbescheides „für 2019", während der Sachverhalt durchgängig den
+    Veranlagungszeitraum 2021 betrifft.
+  - Abschnitt 2, Kapitel 2, 4. Frage: In der Gegenüberstellung von Entstehung und
+    Bekanntgabe ist der verstorbene Erblasser als Adressat im Anschriftenfeld genannt;
+    Bekanntgabeadressat des nach dem Erbfall erlassenen Bescheides ist der Erbe.
+  - Abschnitt 2, Kapitel 1, Beispiel Privatvermögen (Ziffer 2.1 des Abschnitts 1): „Da
+    zwischen der Anschaffung dem Verkauf" – im Satz fehlt das Wort „und".
+  - Abschnitt 2, Kapitel 4 (§ 162 AO): Der Sachverhalt nennt die zu schätzenden Einkünfte
+    des Jahres 18, geändert wird nach dem Text aber der Einkommensteuerbescheid 15.
+  - Abschnitt 2, Kapitel 4: „Grunderwerbssteuer" statt Grunderwerbsteuer (im Abschnitt 1).
+  - Abschnitt 2, Kapitel 7, 1. Frage: Der Satz zur Studienreise kehrt die Voraussetzung um
+    („nur dann als Werbungskosten anzuerkennen, wenn sich die Reise nicht … unterscheidet
+    und somit die Verfolgung privater Interessen im Vordergrund steht").
+  - Abschnitt 2, Kapitel 7, 7. Frage: Die Hinterziehung soll mit Bekanntgabe am 15.07.04
+    vollendet sein; der Bescheid ist am 12.07.04 zur Post gegeben, nach der ab 01.01.2025
+    geltenden Viertagesfrist wäre der 16.07.04 maßgebend.
+  - Abschnitt 2, Kapitel 8, 1. Fortführung des Pkw-Falls: „da sich das FA zutreffend … zuerst
+    an den Beteiligten (= Stpfl.) gewandt hat" – das Finanzamt hatte sich zunächst gerade an
+    den Vater gewandt.
+  - Abschnitt 2, Kapitel 9, Tz. 3.4: Der Satz zur schwebenden Unwirksamkeit der tatsächlichen
+    Verständigung ist grammatisch unvollständig.
+  - Abschnitt 2, Kapitel 4 (Besitzzeiten) bzw. Kapitel 4 des Abschnitts 2: „ist sind die
+    Besitzzeiten … zusammenzurechnen" – doppeltes Verb.
+  - Abschnitt 3, Kapitel 3: Der Hinweis „Die Prüfung der Bekanntgabe ist in diesen Fällen
+    entbehrlich!" steht in der Spalte der sonstigen Fehler, betrifft aber die
+    schwerwiegenden Entstehungsfehler.
+  - Abschnitt 3, Kapitel 5: In der Berechnung des zu versteuernden Einkommens ist der
+    Ehefrau ein Gesamtbetrag der Einkünfte von 388.000 € zugeordnet, obwohl sie nur 90.000 €
+    erzielt. Die Gesamtsumme von 1.188.000 € ist dagegen zutreffend.
+  - Abschnitt 3, Kapitel 5: Die Zinsberechnung nennt „3 volle Monate und 19 Tage" und rechnet
+    anschließend mit 18 Tagen; der ausgewiesene Zinsbetrag von 172,54 € geht um einen Cent
+    nicht auf.
+  - Abschnitt 3, Kapitel 5: Die abgedruckte Rechtsbehelfsbelehrung nennt noch die
+    Dreitagesfrist.
+  - Abschnitt 3, Kapitel 5: Die Lösung überschreibt den Bescheid mit
+    „Einkommensteuerbescheid 2024", die Aufgabe nennt den Einkommensteuerbescheid 2022 vom
+    16.07.2024.
+  - Abschnitt 3, Kapitel 7, Ausgangsfall: Das Ende der Einspruchsfrist am 13.08.04 beruht auf
+    der Dreitagesfrist; nach der Viertagesfrist endete sie am 14.08.04. Die Abwandlung des
+    Übungsfalls Trunk rechnet dagegen bereits mit der Viertagesfrist.
+  - Abschnitt 3, Kapitel 8: Im Ergebnis des Kurkosten-Beispiels wird „Lulatsch"
+    Wiedereinsetzung gewährt; der Steuerpflichtige des Beispiels heißt Max Meier.
+  - Abschnitt 3, Kapitel 9: Der 14. November ist in Beispiel 1 als Montag, in Beispiel 2 als
+    Dienstag bezeichnet.
+
+  Nachgerechnet und bestätigt wurden im abgedruckten Einkommensteuerbescheid: die
+  Kirchensteuer von 42.892 € (9 % von 476.582 €), der Solidaritätszuschlag von 26.212 €
+  (5,5 % von 476.582 €), die verbleibenden Beträge von 356.582 € (Einkommensteuer),
+  33.192 € (Kirchensteuer) und 21.835 € (Solidaritätszuschlag), die Abschlusszahlungen von
+  31.954 €, 3.192 € und 1.835 €, der Gesamtbetrag der Einkünfte von 1.188.000 €, das zu
+  versteuernde Einkommen von 1.134.980 € (1.188.000 € ./. 46.000 € ./. 7.020 €) und die
+  Gesamtzahlung von 38.153,54 €. Im Abschnitt 3, Kapitel 7 wurde das Fristende des
+  Übungsfalls Trunk nachgerechnet: Aufgabe zur Post am 25.05.08 (Mo), Bekanntgabe am
+  29.05.08 (Fr), Ablauf der Einspruchsfrist am 29.06.08 (Mo).

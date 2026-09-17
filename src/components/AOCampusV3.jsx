@@ -17,7 +17,9 @@ import{AONormkette,AOSchemaVerweise,AOVerlinkterText}from"./AOSchemaLinks";
 import AOFallEinheit2Darstellung from"./AOFallEinheit2Tabellen";
 import AOFall334Darstellung from"./AOFall334Darstellung";
 import AOHausaufgaben,{AOHausaufgabenHinweise}from"./AOHausaufgaben";
-import AOKeyfacts from"./AOKeyfacts";import Klausurmodus,{IconKlausur}from"./Klausurmodus";
+import AOKeyfacts from"./AOKeyfacts";
+import KurzskriptBloecke from"./KurzskriptBloecke";
+import{aoSkriptJacobs,aoSkriptJacobsQuelle}from"../data/k1-ao-skript-jacobs.js";import Klausurmodus,{IconKlausur}from"./Klausurmodus";
 import HausaufgabenBloecke from"./HausaufgabenBloecke";
 import{estKlausuren,estKlausurenQuelle}from"../data/est-klausuren.js";
 import{IconCockpit,IconModule,IconFaelle,IconSchema,IconHaken,IconTraining}from"./Icons";
@@ -54,7 +56,7 @@ const OBER=[
 {id:"fgo",label:"FGO & Vollstreckung",module:[367,368,384],beschreibung:"Allgemeine und maßnahmenspezifische Vollstreckungsvoraussetzungen sowie die FGO-Fahrtroute mit Sachurteilsvoraussetzungen."},
 ];
 const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o])));const oberVon=m=>OBER_BY_ID.get(m.id)||OBER[1];
-const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining}]
+const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"skript",label:"Skript (Jacobs)",Icon:IconModule},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining}]
 
 /* Die Teilklausur Abgabenordnung der Übungsklausur AO/USt liegt im gemeinsamen
    Klausurbestand; hier werden nur ihre Sachverhalte gezeigt. */
@@ -82,4 +84,16 @@ export default function AOCampusV3({onKlausurwechsel,onFachwechsel}){const[ansic
       suchePlatzhalter="Norm, Frist oder Stichwort"
       einheit="Sachverhalte"
       einheitEinzahl="Sachverhalt"
-    />} {ansicht==="schema"&&<AOPruefschema/>} {ansicht==="training"&&<AOTraining/>} {ansicht==="keyfacts"&&<AOKeyfacts/>} {ansicht==="hausaufgaben"&&<AOHausaufgaben onOpenInhalt={oeffnen} onOpenSchema={schemaOeffnen} inhaltById={AO_BY_ID} ziel={hausaufgabenZiel}/>} {ansicht==="klausur"&&<Klausurmodus module={AO_FAELLE} oeffnenModul={oeffnen} gebiete={[{id:"E1",label:"AO Einheit 1"},{id:"E2",label:"AO Einheit 2"},{id:"E3",label:"AO Einheit 3"},{id:"E4",label:"AO Einheit 4"},{id:"E5",label:"AO Einheit 5"},{id:"E6",label:"AO Einheit 6"},{id:"E7",label:"AO Einheit 7"},{id:"E8",label:"AO Einheit 8"}]} gebietVon={m=>`E${m.einheit}`} speicherKey="stb-k1-ao-klausurlauf" sperrtext="Erst selbst lösen: Zulässigkeit, Begründetheit, Korrekturweg und Festsetzungsfrist. Danach Musterlösung aufdecken." modulWort="Fall"/>}</main></div>}
+    />} {ansicht==="schema"&&<AOPruefschema/>} {ansicht==="training"&&<AOTraining/>} {ansicht==="skript"&&<KurzskriptBloecke
+      kicker="Klausur 1 · Abgabenordnung · Skript"
+      titel="AO-Skript (Jacobs)"
+      lead="Das Lehrgangsskript „Steuerliches Verfahrensrecht“ von Hans-Jürgen Jacobs (Mai 2025, Rechtsstand 2025) im Wortlaut. Vorangestellt ist der Hinweis zur Verlängerung der Bekanntgabefiktion von drei auf vier Tage ab dem 01.01.2025. Abschnitt 1 führt in das Fachgebiet ein (Aufbau der AO, Rechtsanwendung und 3-Stufentheorie, Ermessen nach § 5 AO, Verfahrensabläufe); Abschnitt 2 behandelt das Ermittlungsverfahren der §§ 85 bis 104 AO mit Untersuchungsgrundsatz, Risikomanagement, Mitwirkungspflichten, Beweismitteln, Auskunftsverweigerungsrechten, Beweislast und tatsächlicher Verständigung; Abschnitt 3 die Verwaltungsakte von der Entstehung über Nichtigkeit und Gesamtrechtsnachfolge bis zur Bekanntgabe nach §§ 122, 122a AO. Alle Beispiele und Lösungshinweise stehen vollständig."
+      quelle={aoSkriptJacobsQuelle}
+      kapitel={aoSkriptJacobs}
+      karteKicker={(k)=>`${k.teilLabel} · Kapitel ${k.kapitel}`}
+      gruppeVon={(k)=>k.teil}
+      gruppeLabel={(k)=>k.teilLabel}
+      gruppeAria="Abschnitte"
+      gruppeAlle="Alle Abschnitte"
+      suchePlatzhalter="Norm, Stichwort oder Fall"
+    />} {ansicht==="keyfacts"&&<AOKeyfacts/>} {ansicht==="hausaufgaben"&&<AOHausaufgaben onOpenInhalt={oeffnen} onOpenSchema={schemaOeffnen} inhaltById={AO_BY_ID} ziel={hausaufgabenZiel}/>} {ansicht==="klausur"&&<Klausurmodus module={AO_FAELLE} oeffnenModul={oeffnen} gebiete={[{id:"E1",label:"AO Einheit 1"},{id:"E2",label:"AO Einheit 2"},{id:"E3",label:"AO Einheit 3"},{id:"E4",label:"AO Einheit 4"},{id:"E5",label:"AO Einheit 5"},{id:"E6",label:"AO Einheit 6"},{id:"E7",label:"AO Einheit 7"},{id:"E8",label:"AO Einheit 8"}]} gebietVon={m=>`E${m.einheit}`} speicherKey="stb-k1-ao-klausurlauf" sperrtext="Erst selbst lösen: Zulässigkeit, Begründetheit, Korrekturweg und Festsetzungsfrist. Danach Musterlösung aufdecken." modulWort="Fall"/>}</main></div>}

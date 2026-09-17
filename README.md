@@ -98,6 +98,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   bestehende Personengesellschaft. Das Skript ist damit vollständig; Beispiele, Bilanzen
   und Musterlösungen stehen im Wortlaut.
   Prüfung: `npm run check:k3-persg-skript-melzer`
+- **AO-Skript (Jacobs)** (Reiter „Skript (Jacobs)“ im Campus Abgabenordnung): das
+  Lehrgangsskript „Steuerliches Verfahrensrecht“ von Hans-Jürgen Jacobs (Mai 2025,
+  Rechtsstand 2025) im Wortlaut, Teil I mit den Abschnitten 1 bis 3 sowie dem
+  vorangestellten Hinweis zur Viertagesfrist ab dem 01.01.2025. Abschnitt 1: Aufbau der AO,
+  Zusammenspiel von materiellem und formellem Recht, Grundsätze der Rechtsanwendung mit
+  3-Stufentheorie, Tatbestand und Rechtsfolge, der Schwarzgeld-Fall Samson/Grobi, Ermessen
+  nach § 5 AO (Muss-, Soll- und Kann-Vorschriften), Rechtsnormen nach § 4 AO und die
+  Verfahrensabläufe. Abschnitt 2: Ermittlungsverfahren der §§ 85 bis 104 AO mit
+  Besteuerungsgrundsätzen, Legalitäts- und Opportunitätsprinzip, dem Erbfall Max Lieb,
+  Untersuchungsgrundsatz und Verhältnismäßigkeit, Risikomanagement und
+  Belegvorhaltepflicht, Mitwirkungspflichten und ihren Rechtsfolgen, Beweismitteln und der
+  Reihenfolge der Ermittlungen, dem großen Übungsfall Egon Ernie mit acht Fragen und
+  vollständigen Lösungshinweisen, den Auskunftsverweigerungsrechten samt
+  Verwertungsverbot, Beweislast und Beweislastumkehr sowie der tatsächlichen
+  Verständigung. Abschnitt 3: Verwaltungsakte von § 124 AO über die Einteilung der
+  Steuerverwaltungsakte, das Prüfungsschema zu Entstehungs- und Bekanntgabefehlern, Form
+  und Inhalt nach §§ 119 bis 121, 155 und 157 AO, den abgedruckten Einkommensteuerbescheid
+  mit seinen 26 selbständigen Verwaltungsakten, Nichtigkeit nach § 125 AO,
+  Gesamtrechtsnachfolge mit dem Übungsfall Trunk bis zur Bekanntgabe nach §§ 122, 122a AO.
+  Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
   Spiegelbildmethode) mit neun Abwandlungen **und den Musterlösungen** im Wortlaut. Der

@@ -41,6 +41,7 @@
     "check:est-hausaufgaben": "node tools/pruefen-est-hausaufgaben.mjs",
     "check:kst-kurzskript": "node tools/pruefen-kst-kurzskript.mjs",
     "check:k3-persg-skript-melzer": "node tools/pruefen-k3-persg-skript-melzer.mjs",
+    "check:k1-ao-skript-jacobs": "node tools/pruefen-k1-ao-skript-jacobs.mjs",
     "check:kst-uebungsfaelle": "node tools/pruefen-kst-uebungsfaelle.mjs",
     "check:kst-schemata-noethen": "node tools/pruefen-kst-schemata-noethen.mjs",
     "check:est-fallsammlungen": "node tools/pruefen-est-fallsammlungen.mjs",
