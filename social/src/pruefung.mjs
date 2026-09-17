@@ -431,7 +431,18 @@ const ZITIER_ARTIKEL = /(?:§§?\s*|\bParagra(?:f|ph)(?:en)?\s+)\d+[a-z]?(?:\s*(
    Datensatz, nicht im Bild. Gefunden wird jede Paragrafen- oder
    Artikelnennung, hinter der bis zum Ende der Zeile kein Gesetzeskuerzel mehr
    folgt. Aufzaehlungen („§ 9 + § 11 ErbStG") gelten damit als versorgt. */
-const GESETZ_KUERZEL = /\b(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|EStH|KStR|KStH|UStAE|BGB|GrEStG|FGO|SolZG|DBA|GewStR|UmwG|GmbHG|AktG|InsO|ZPO|BewG)\b/;
+/* Erkannt wird ein Gesetz auf drei Wegen: die bekannten Kuerzel, ein
+   Kuerzel-Muster (Grossbuchstabe, Endung G/GB/O/V/StG/VO/R/H/AE - BGB, OWiG,
+   UStAE, LBauO) und der volle Name („Grundgesetz“, „Versammlungsgesetz“,
+   „Bauordnung“). Die Liste allein reichte nicht: Jedes Gesetz, das nicht
+   darin stand, galt als fehlend, und seit der Sprechtext mitgeprueft wird,
+   kostete das eine Neufassung oder das ganze Reel. Lieber ein nacktes „§ 3“
+   uebersehen als ein richtiges Reel verwerfen. */
+const GESETZ_KUERZEL = new RegExp([
+  "\\b(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|EStH|KStR|KStH|UStAE|BGB|GrEStG|FGO|SolZG|DBA|GewStR|UmwG|GmbHG|AktG|InsO|ZPO|BewG)\\b",
+  "\\b[A-ZÄÖÜ][A-Za-zÄÖÜäöü]{1,10}(?:GB|StG|StR|VO|AE|G|O|V|R|H)\\b",
+  "\\b[A-ZÄÖÜ][A-Za-zÄÖÜäöü-]+(?:gesetz|gesetzbuch|ordnung|verordnung|richtlinie|vertrag|charta|konvention)\\b",
+].join("|"));   // bewusst ohne "i": Mit ihm galt „Vorgang“ als Gesetz (V…g)
 /* Auch die gesprochene Form zählt: „Paragraf 3“ ohne ErbStG ist für die Hörerin
    genauso ein halber Satz wie „§ 3“ ohne Gesetz für die Leserin. Das Campus-Reel
    vom 17.09. sagte „Paragraf 3 oder Paragraf 7 Absatz 1 Nummer 1“ – und nirgends
