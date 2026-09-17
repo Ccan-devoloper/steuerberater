@@ -1441,3 +1441,62 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   mit einem anteiligen Veräußerungsgewinn von 2.700 €, die Teilentgeltlichkeit von 50 %
   (5.000 €/10.000 €) mit aufgedeckten stillen Reserven von 2.500 € sowie die Aufteilung
   10 %/90 % im Beispiel 2 zur Trennungstheorie.
+
+## PersG-Fallsammlung – Lösungsteil (Melzer)
+
+- Quelle im Drive, Ordner „Personengesellschaften" (`1u8086Ukam7Zm3DQFnjde_KFwVg7Qzjs_`):
+  die Datei mit dem nichtssagenden Namen **„2026) (9).pdf"** (`1Te6l_xsunWa2TAXZxZeEghu-oA-PEaCc`,
+  66 Seiten). Ihr Titelblatt lautet „Personengesellschaften Fallsammlung - Lösungen",
+  Verfasser Karsten Melzer, April 2026, Rechtsstand 2025.
+- Bedeutung: Der Campus hat die Fallsammlung bis dahin ausdrücklich **ohne** Musterlösungen
+  gezeigt, weil im zuerst gesichteten Ordner nur der Aufgabenteil lag. Die Annahme, die
+  Quelle drucke keine Lösungen ab, war damit falsch; sie ist im README, im Kopf von
+  `k3-persg-fallsammlung.js` und im Quellenhinweis des Campus korrigiert.
+- Einpflege: `src/data/k3-persg-fallsammlung-loesungen.js` (13 Musterlösungen, 265 Blöcke,
+  40 Tabellen), angezeigt unter jedem Fall als „Musterlösung anzeigen". Das Prüfskript
+  `npm run check:k3-persg-fallsammlung` verlangt jetzt zu jedem Fall eine Lösung, prüft
+  Blockstruktur und Tabellenbreiten und schlägt beim personenbezogenen Wasserzeichen an.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Lösung 4 (Bagger), Abwandlung: Zitat „§ 6 Abs. 5 Satz 4 EStG“ an der Stelle, an der der
+    Ausgangsfall „§ 6 Abs. 6 Satz 4 EStG“ nennt.
+  - Lösung 5 (PKW), Abwandlung: Der Vorgang wird einleitend als „unentgeltliche Übertragung“
+    bezeichnet, aber wie im Ausgangsfall mit 7/10 gegen Gewährung von Gesellschaftsrechten
+    gerechnet; außerdem ist vom „LKW“ die Rede, obwohl ein PKW übertragen wird.
+  - Lösung 7 (Marke): Die Schlussbuchung betrifft den Sonderbereich des Z, die Quelle spricht
+    vom privaten Bankkonto des S.
+  - Lösung 9 (Gesellschafterwechsel), Ergänzungsbilanz des D zur Maschine: Der Einleitungssatz
+    nennt eine Restnutzungsdauer von 6 Jahren, gerechnet wird mit 1/7.
+  - Lösung 9, Abwandlung 1, Firmenwert: Die Abschreibung von 1.500 € wird als „1/5“
+    bezeichnet; bei der genannten Restnutzungsdauer von 10 Jahren ist es 1/10 von 15.000 €.
+  - Lösung 9, Abwandlung 3: Die Quelle weist die Abfindungsverbindlichkeit mit 210.666 € aus
+    und merkt dazu in einer Fußnote selbst an: „richtig wäre 210.667 €. Es erfolgte eine
+    Anpassung, um die Bilanzsumme korrekt auszuweisen.“
+  - Lösung 9, Abwandlung 4: Die beiden Schritte der Zweistufentheorie sind mit „3.“ und „4.“
+    nummeriert.
+  - Lösung 9, Abwandlung 5: „dem B 100.000 € für das Kapitalkonto … zahlen“ – Empfänger ist
+    der ausscheidende C; und „Die AfA beträgt 3 % v. € = 330 €“ ohne Bezugsgröße (11.000 €).
+  - Lösung 10 und Lösung 11: In der Firmenwertberechnung steht in der Textausgabe die
+    Zeichenfolge „0((K00.“.
+  - Lösung 10, Abwandlung (Zwischenwert): Als Sonderbetriebsvermögen wird das Grundstück
+    „Schillerstr. 10“ genannt, obwohl es das Grundstück Domplatz ist; in der 90 %-Tabelle
+    stehen für das Gebäude Schillerstraße 318.000 € und 168.000 € statt der sonst durchweg
+    verwendeten 351.000 € und 201.000 €; und § 24 Abs. 2 Satz 2 wird als EStG statt UmwStG
+    zitiert.
+  - Lösung 11: Im Abschnitt zum Buchwertansatz des A heißt es „Davon entfallen 50 % auf den
+    eingebrachten Mitunternehmeranteil des B“; gemeint ist A. Die Gegenbuchung zu den GWG
+    lautet „GWG 4.000 € an AfA 4.00 €“.
+  - Lösung 13: Der Verlustanteil wird mit „50 % von 499.999 €“ beschrieben, gebucht werden
+    250.000 € (rechnerisch 249.999,50 €).
+
+  Nachgerechnet und bestätigt wurden unter anderem: in Lösung 5 der Veräußerungsgewinn von
+  1.800 €, die Zugangsbewertungen von 5.800 € bzw. 6.220 € und die AfA-Summen von 3.550 €
+  bzw. 3.445 €; in Lösung 9 die stillen Reserven (1/3-Anteile 60.000 / 104.000 / 5.667 /
+  2.000 / 1.000 €, Zwischensumme 172.667 €), der Firmenwert von 15.000 €, die Summe von
+  187.667 € und sämtliche Bilanzsummen (413.000 €, 600.667 €, 535.000 €, 641.000 €,
+  413.667 €); in Lösung 10 die Bilanzsummen 895.000 €, 683.000 €, 212.000 €, 106.000 € und
+  526.000 € sowie der Zwischenwertgewinn von 29.200 €; in Lösung 11 die 50 %- und
+  2/3-Anteile (71.000 / 85.000 / 6.000 € bzw. 47.333 / 56.667 / 4.000 €) und die
+  Bilanzsummen 708.500 € und 1.077.500 €.

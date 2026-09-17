@@ -10,6 +10,7 @@ import {
 } from "../data/k3-persg-fallsammlung.js";
 import { persgModule, persgSchemata, persgFaelle } from "../data/k3-persg-tag1";
 import { persgHausaufgaben } from "../data/k3-persg-hausaufgaben.js";
+import { persgFallsammlungLoesungen } from "../data/k3-persg-fallsammlung-loesungen.js";
 import { Block } from "./HausaufgabenBloecke";
 import "./istr-fallsammlung.css";
 import "./istr-hausaufgaben.css";
@@ -70,6 +71,15 @@ function Fallkarte({ fall, gruppe, oeffnen }) {
         {fall.aufgabe.map((element, i) => <Block key={i} element={element} />)}
       </section>
 
+      {(persgFallsammlungLoesungen[fall.id] || []).length > 0 && (
+        <details className="istr-fs-details">
+          <summary>Musterlösung anzeigen</summary>
+          <section className="istr-fs-loesung">
+            {persgFallsammlungLoesungen[fall.id].map((element, i) => <Block key={i} element={element} />)}
+          </section>
+        </details>
+      )}
+
       {(fall.varianten || []).length > 0 && (
         <details className="istr-fs-details">
           <summary>{fall.varianten.length === 1 ? "Abwandlung anzeigen" : `${fall.varianten.length} Abwandlungen anzeigen`}</summary>
@@ -94,6 +104,7 @@ const volltext = (fall) => [
   ...fall.sachverhalt.map((b) => b.text || (b.zeilen || []).flat().join(" ")),
   ...fall.aufgabe.map((b) => b.text || ""),
   ...(fall.varianten || []).map((v) => `${v.titel} ${v.text}`),
+  ...(persgFallsammlungLoesungen[fall.id] || []).map((b) => b.text || (b.zeilen || []).flat().join(" ")),
 ].join(" ").toLowerCase();
 
 export default function K3PersGFallsammlung({ oeffnen }) {

@@ -59,10 +59,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (Gesellschafterwechsel/Ausscheiden eines Gesellschafters – im Drive unter dem
   nichtssagenden Namen „2026) (10).pdf"), Teil IV (Realteilung, GmbH & Co.) und Teil V
   (Umwandlungssteuer).
-- **Fallsammlung PersG – Lösungen (Melzer)**: Im Ordner „Personengesellschaften" liegt unter
-  dem nichtssagenden Namen „2026) (9).pdf" der vollständige Lösungsteil zur PersG-Fallsammlung.
-  Der Campus zeigt die Fallsammlung bislang ohne Musterlösungen, weil in dem zuerst
-  gesichteten Ordner nur der Aufgabenteil lag. Die Lösungen sind als Nächstes einzupflegen.
+- Fallsammlung PersG – Lösungen (Melzer): **eingepflegt.** Der Lösungsteil lag im Ordner
+  „Personengesellschaften" unter dem nichtssagenden Namen „2026) (9).pdf" und war beim
+  ersten Durchgang übersehen worden; er steht jetzt unter jedem Fall der Fallsammlung.
 - Fact Sheets (Horst)
 
 ### Klausur 1 – Abgabenordnung

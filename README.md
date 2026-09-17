@@ -72,10 +72,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k3-persg-skript-melzer`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
-  Spiegelbildmethode) mit neun Abwandlungen im Wortlaut. Die Quelle druckt keine
-  Musterlösungen ab; statt erfundener Lösungen führt jeder Fall über geprüfte Querverweise
-  zu den Modulen, Prüfschemata, Originalfällen und Hausaufgaben, in denen derselbe Stoff
-  durchgerechnet ist. Prüfung: `npm run check:k3-persg-fallsammlung`
+  Spiegelbildmethode) mit neun Abwandlungen **und den Musterlösungen** im Wortlaut. Der
+  Lösungsteil liegt im Drive als eigene Datei und war zunächst übersehen worden; er steht
+  jetzt unter jedem Fall zum Ausklappen – 265 Blöcke mit 40 Bilanzen, Ergänzungs- und
+  Sonderbilanzen, darunter der Gesellschafterwechsel der ABC OHG mit fünf Abwandlungen
+  (Anwachsung, lästiger Gesellschafter, zwei Sachwertabfindungen, Abfindung unter dem
+  Buchwert) und die § 24-UmwStG-Fälle in Buchwert-, Netto- und Zwischenwertvariante.
+  Zusätzlich führt jeder Fall über geprüfte Querverweise zu den Modulen, Prüfschemata,
+  Originalfällen und Hausaufgaben, in denen derselbe Stoff durchgerechnet ist.
+  Prüfung: `npm run check:k3-persg-fallsammlung`
 - **Keyfacts AO** (Reiter im Campus Abgabenordnung, ersetzt den leeren Reiter „Fallsammlung"):
   die drei Übersichtsblätter des Lehrgangs zu Außenprüfung (§§ 193–202 AO), Vollstreckung
   (§§ 249 ff. AO inkl. Fähnchenkette) und Erhebungsverfahren (§§ 37, 218, 233a, 240, 152 AO)

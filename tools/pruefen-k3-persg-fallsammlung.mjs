@@ -13,6 +13,9 @@ import { persgHausaufgaben } from "../src/data/k3-persg-hausaufgaben.js";
 import {
   persgFallsammlung, persgFallsammlungGruppen, persgFallsammlungQuelle,
 } from "../src/data/k3-persg-fallsammlung.js";
+import {
+  persgFallsammlungLoesungen, persgFallsammlungLoesungenQuelle,
+} from "../src/data/k3-persg-fallsammlung-loesungen.js";
 
 const fehler = [];
 const meldung = (id, text) => fehler.push(`${id}: ${text}`);
@@ -23,7 +26,8 @@ const fallIds = new Set(persgFaelle.map((f) => f.id));
 const hausaufgabenIds = new Set(persgHausaufgaben.map((h) => h.id));
 const gruppenIds = new Set(persgFallsammlungGruppen.map((g) => g.id));
 
-if (!persgFallsammlungQuelle.hinweis) meldung("Quelle", "Hinweis auf die fehlenden Musterlösungen fehlt");
+if (!persgFallsammlungQuelle.hinweis) meldung("Quelle", "Hinweis zur Herkunft der Fälle und Lösungen fehlt");
+if (!persgFallsammlungLoesungenQuelle?.datei) meldung("Lösungen", "Quellenangabe des Lösungsteils fehlt");
 
 const ids = new Set();
 const nummern = new Set();
@@ -71,6 +75,36 @@ for (const fall of persgFallsammlung) {
   if (anzahl === 0) meldung(id, "kein einziger Querverweis – ohne Musterlösung bliebe der Fall ohne Anschluss");
 }
 
+/* Der Lösungsteil: jeder Fall braucht eine Lösung, jede Lösung einen Fall, und
+   die Blöcke folgen demselben Schema wie in den übrigen Beständen. */
+const BLOCKTYPEN = new Set([undefined, "titel", "tabelle"]);
+const fallsammlungIds = new Set(persgFallsammlung.map((f) => f.id));
+for (const [fallId, bloecke] of Object.entries(persgFallsammlungLoesungen)) {
+  if (!fallsammlungIds.has(fallId)) meldung(fallId, "Lösung ohne zugehörigen Fall");
+  if (!bloecke.length) { meldung(fallId, "Lösung ist leer"); continue; }
+  bloecke.forEach((block, i) => {
+    const ort = `loesung[${i}]`;
+    if (!BLOCKTYPEN.has(block.typ)) meldung(fallId, `${ort}: unbekannter Blocktyp ${block.typ}`);
+    if (block.typ === "tabelle") {
+      if (!block.spalten?.length) meldung(fallId, `${ort}: Tabelle ohne Spalten`);
+      if (!block.zeilen?.length) meldung(fallId, `${ort}: Tabelle ohne Zeilen`);
+      block.zeilen?.forEach((zeile, z) => {
+        if (zeile.length !== block.spalten.length) {
+          meldung(fallId, `${ort}: Zeile ${z} hat ${zeile.length} Zellen, Kopf hat ${block.spalten.length}`);
+        }
+      });
+    } else if (!block.text?.trim()) {
+      meldung(fallId, `${ort}: leerer Text`);
+    }
+    if (typeof block.text === "string" && /Persönliches PDF für/i.test(block.text)) {
+      meldung(fallId, `${ort}: personenbezogenes Wasserzeichen aus der Quelle übernommen`);
+    }
+  });
+}
+for (const fall of persgFallsammlung) {
+  if (!persgFallsammlungLoesungen[fall.id]?.length) meldung(fall.id, "keine Musterlösung hinterlegt");
+}
+
 for (const gruppe of persgFallsammlungGruppen) {
   if (!persgFallsammlung.some((f) => f.gruppe === gruppe.id)) meldung(gruppe.id, "Gruppe ohne Fälle");
 }
@@ -86,4 +120,6 @@ const verweise = persgFallsammlung.reduce((n, f) => {
   const v = f.verweise || {};
   return n + (v.module?.length || 0) + (v.schemata?.length || 0) + (v.faelle?.length || 0) + (v.hausaufgaben?.length || 0);
 }, 0);
-console.log(`PersG-Fallsammlung in Ordnung: ${persgFallsammlung.length} Fälle in ${persgFallsammlungGruppen.length} Blöcken, ${varianten} Abwandlungen, ${verweise} geprüfte Querverweise.`);
+const loesungsbloecke = Object.values(persgFallsammlungLoesungen).reduce((n, b) => n + b.length, 0);
+const loesungstabellen = Object.values(persgFallsammlungLoesungen).reduce((n, b) => n + b.filter((x) => x.typ === "tabelle").length, 0);
+console.log(`PersG-Fallsammlung in Ordnung: ${persgFallsammlung.length} Fälle in ${persgFallsammlungGruppen.length} Blöcken, ${varianten} Abwandlungen, ${verweise} geprüfte Querverweise, ${Object.keys(persgFallsammlungLoesungen).length} Musterlösungen mit ${loesungsbloecke} Blöcken und ${loesungstabellen} Tabellen.`);

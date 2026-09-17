@@ -1,10 +1,12 @@
 /* PersG-Fallsammlung (Karsten Melzer, April 2026, Rechtsstand 2025).
 
-   Die Quelle enthält ausschließlich die Fälle - Lösungen sind in ihr nicht
-   abgedruckt, sie werden in den Unterrichtseinheiten erarbeitet. Deshalb stehen
-   hier nur die Sachverhalte, Aufgabenstellungen und Abwandlungen im Wortlaut;
-   es wurden keine Lösungen erfunden. Statt einer Musterlösung führt jeder Fall
-   in die Stellen des Campus, an denen genau dieser Stoff durchgerechnet ist:
+   Das Aufgaben-PDF der Quelle enthält nur die Fälle. Der Lösungsteil liegt im
+   Drive als eigene Datei unter dem nichtssagenden Namen „2026) (9).pdf" und war
+   beim ersten Durchgang übersehen worden; er steht inzwischen wortlautgetreu in
+   k3-persg-fallsammlung-loesungen.js und wird unter jedem Fall als
+   „Musterlösung anzeigen" ausgeklappt. Hier stehen weiterhin die Sachverhalte,
+   Aufgabenstellungen und Abwandlungen im Wortlaut. Zusätzlich führt jeder Fall
+   in die Stellen des Campus, an denen derselbe Stoff durchgerechnet ist:
    Lernmodule, Prüfschemata, Originalfälle und Hausaufgaben.
 
    Die Querverweise werden von tools/pruefen-k3-persg-fallsammlung.mjs gegen die
@@ -17,7 +19,7 @@ export const persgFallsammlungQuelle = {
   stand: "April 2026 · Rechtsstand 2025",
   datei: "B-S25-PersG-Fallsammlung-(Melzer)-0426.pdf",
   hinweis:
-    "Die Fallsammlung enthält die Aufgabentexte ohne Musterlösungen; die Lösungen werden im Unterricht erarbeitet. Die Verweise unter jedem Fall führen deshalb zu den Modulen, Prüfschemata, Originalfällen und Hausaufgaben des Campus, in denen derselbe Stoff mit Zahlen durchgerechnet ist.",
+    "Das Aufgaben-PDF der Fallsammlung enthält nur die Fälle; der Lösungsteil liegt im Drive als eigene Datei und steht unter jedem Fall im Wortlaut zum Ausklappen. Die Verweise unter jedem Fall führen zusätzlich zu den Modulen, Prüfschemata, Originalfällen und Hausaufgaben des Campus, in denen derselbe Stoff mit Zahlen durchgerechnet ist.",
 };
 
 export const persgFallsammlungGruppen = [
