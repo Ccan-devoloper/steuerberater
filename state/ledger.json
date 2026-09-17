@@ -2567,6 +2567,40 @@
       "titel": "Teilwertabschreibung: dauernd oder nicht?",
       "medienId": "18116270791975953",
       "veroeffentlicht": "2026-09-17T09:43:54.604Z"
+    },
+    {
+      "datum": "2026-09-17",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "12:30",
+      "stunde": 12,
+      "format": "reel",
+      "thema": "erbst-modul-erbst-502",
+      "fach": "erbst",
+      "titel": "Fünf Punkte vor der ersten Zahl?",
+      "hookTyp": "frage",
+      "hookMuster": "behauptung",
+      "medienId": "18459416641184857",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#erbschaftsteuer",
+        "#erbstg",
+        "#klausurtechnik",
+        "#steuerklasse",
+        "#lösungsaufbau",
+        "#klausur1"
+      ],
+      "stimmeId": null,
+      "stimmeName": null,
+      "layout": "erklaer",
+      "dauer": 59.8,
+      "veroeffentlicht": "2026-09-17T10:47:42.360Z"
     }
   ],
   "fachZaehler": {
@@ -2576,7 +2610,7 @@
     "ao": 11,
     "bilanz": 14,
     "istr": 8,
-    "erbst": 2
+    "erbst": 3
   },
   "nachrichten": []
 }
