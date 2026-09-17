@@ -2601,6 +2601,17 @@
       "layout": "erklaer",
       "dauer": 59.8,
       "veroeffentlicht": "2026-09-17T10:47:42.360Z"
+    },
+    {
+      "datum": "2026-09-17",
+      "art": "story",
+      "slot": "s2",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "erbst",
+      "titel": "Der Vorspann vor jeder Bewertung",
+      "medienId": "17908233537305855",
+      "veroeffentlicht": "2026-09-17T10:47:53.802Z"
     }
   ],
   "fachZaehler": {
