@@ -51,7 +51,7 @@ const SYSTEM = `Du bist Prüfer:in für Fachtexte zum deutschen Steuerrecht (Ste
 - Vollständigkeit einer Rechtsfolge: Wird eine Rechtsfolge an eine Voraussetzung geknüpft, das Gesetz verlangt aber eine weitere tragende Voraussetzung, ist das ein „hinweis“; macht das Fehlen die Aussage falsch, ein „fehler“.
 - Behauptungen über Häufigkeit oder Typik („der häufigste Fehler“, „die meisten übersehen“) sind ohne Beleg ein „hinweis“ mit einer neutralen Fassung als Korrektur („ein typischer Aufbaufehler“).
 
-Du prüfst gegen Gesetz, Richtlinien und Verwaltungsauffassung, nicht gegen den Autor: Der Text stammt von einem Modell derselben Familie wie du. Was dir plausibel klingt, ist dadurch nicht richtig – ein Fehler, der dir beim Schreiben unterliefe, unterläuft dir auch beim Lesen, wenn du nicht bewusst dagegenhältst. Prüfe jede Zuschreibung (wer, was, wann, wie viel) gegen ihr Gegenteil, bevor du sie durchwinkst. Ein kurzer Text ist kein Grund für eine kurze Prüfung: Ein Reel-Skript mit 140 Wörtern trägt so viele Behauptungen wie ein Beitrag, und es wird von mehr Menschen gehört.
+Du prüfst gegen Gesetz, Richtlinien und Verwaltungsauffassung, nicht gegen den Autor: Der Text stammt von einem Modell derselben Familie wie du. Was dir plausibel klingt, ist dadurch nicht richtig – ein Fehler, der dir beim Schreiben unterliefe, unterläuft dir auch beim Lesen, wenn du nicht bewusst dagegenhältst. Bei einer Voraussetzung, die an einer Person hängt, frag dich einmal, ob die Norm dieselbe Person meint – und entscheide. Du meldest nur, was du beanstandest, höchstens acht Befunde; was in Ordnung ist, listest du nicht auf, und du wiederholst keinen Befund.
 
 - Fremde Merkhilfen: Kürzel und Methodennamen, die kein Fachbegriff sind, sondern die Merkhilfe eines Dozenten („EIS-Methode“, „ABBA-Schema“ und Ähnliches), sind ein „fehler“ – sie gehören einem anderen und sagen der Leserschaft nichts.
 
@@ -187,12 +187,12 @@ export async function pruefeFakten(beitrag, zweck = "faktencheck", { hinweis = "
     messages: [{ role: "user", content: user }],
     /* Haiku kennt kein adaptives Denken – dort ohne. */
     ...(haiku ? {} : { thinking: { type: "adaptive" } }),
-    /* Das Reel bekommt die gründlichere Prüfung. Am 16.09. prüfte Sonnet das
-       Herr-Jurist-Reel in sechs Sekunden mit 400 Ausgabe-Token - und ließ
-       „Kenntnis des anderen Ehegatten“ statt des Vertragspartners durch. Ein
-       Reel läuft einmal am Tag, wird am häufigsten gesehen und steht dauerhaft;
-       die paar Cent mehr für tieferes Nachdenken sind dort am besten angelegt. */
-    output_config: { ...(haiku ? {} : { effort: zweck === "reel-faktencheck" ? "high" : "medium" }), format: { type: "json_schema", schema: SCHEMA } },
+    /* Kein "high" für das Reel: Der Versuch vom 17.09. abends brachte auf dem
+       Beitrag b2 zwei Antworten mit je 6.000 Ausgabe-Token (Deckel erreicht,
+       JSON abgeschnitten, Beitrag verworfen, 0,135 $ für nichts) - schon mit
+       "medium" und den schärferen Prüfregeln. Die Gründlichkeit kommt aus
+       der Prüfliste, nicht aus mehr Nachdenken. */
+    output_config: { ...(haiku ? {} : { effort: "medium" }), format: { type: "json_schema", schema: SCHEMA } },
   };
   /* Zwei Anläufe, bevor ein Fehler entsteht: erst mit Schema und Denken,
      dann - wenn die Antwort nicht lesbar ist oder das Modell ablehnt - ohne
