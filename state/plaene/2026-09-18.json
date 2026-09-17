@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-18",
+  "erzeugt": "2026-09-17T22:26:01.104Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "spickzettel",
+      "themaId": "istr-modul-istr-istr3-11",
+      "themaTitel": "Anteilsveräußerung durch ausländische Körperschaft: § 49 und § 8b KStG",
+      "fach": "istr",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "reel",
+      "themaId": "ao-modul-ao-317",
+      "themaTitel": "Einspruchsverfahren: Reichweite, Auslegung und Erfolgsformel",
+      "fach": "ao",
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:16",
+      "art": "frage",
+      "themaId": "kst-quiz-kst-0",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:16",
+      "art": "antwort",
+      "themaId": "kst-quiz-kst-0",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:15",
+      "art": "norm",
+      "themaId": "ust-modul-ust-209",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:26",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 18,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:32",
+      "art": "fehler",
+      "themaId": "istr-modul-istr-istr2-08",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:40",
+      "art": "tipp",
+      "themaId": "istr-modul-istr-istr2-09",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:36",
+      "art": "zahl",
+      "themaId": "istr-modul-istr-istr4-07",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}

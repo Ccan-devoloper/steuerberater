@@ -1,41 +1,42 @@
 {
-  "stand": "2026-09-16",
-  "beitraege": 41,
+  "stand": "2026-09-17",
+  "beitraege": 43,
   "formatGewicht": {
-    "pruefungsfrage": 0.7790164070742189,
-    "fehlerfalle": 0.794571165749388,
-    "schema": 0.84906609083397,
+    "pruefungsfrage": 0.821125288507599,
+    "fehlerfalle": 0.7758713292397914,
+    "schema": 0.8290837434133169,
     "rechenweg": 0.5,
-    "minifall": 0.6079140616473596,
+    "minifall": 0.5936071070853111,
     "vergleich": 0.5,
-    "klausurtechnik": 0.6795085673303294,
+    "klausurtechnik": 0.6635166717473036,
     "spickzettel": 2,
-    "reel": 1.7613100713554415
+    "reel": 1.6195121344274328
   },
   "fachGewicht": {
-    "ao": 1.341970823783761,
-    "kst": 0.6641668875411216,
-    "istr": 1.4330772674526084,
-    "bilanz": 0.7034553559756634,
-    "ust": 0.8009635323282246,
-    "erbst": 1.6549837072607931
+    "ao": 1.3126075603103866,
+    "kst": 0.8388107438536387,
+    "istr": 1.3457591197433552,
+    "bilanz": 0.6884363586014066,
+    "ust": 0.9724919798516454,
+    "erbst": 1.6207159343291377,
+    "persg": 0.5
   },
   "hookGewicht": {
-    "frage": 0.8389981134723024,
-    "zahl": 0.848848169246055,
-    "fehler": 1.6700856733032943,
-    "kontrast": 1.2337267497154618
+    "frage": 0.8283769371529477,
+    "zahl": 0.9316924855399792,
+    "fehler": 1.5424491250820558,
+    "kontrast": 1.215302878543744
   },
   "besteStunden": null,
-  "follower": 60,
-  "reichweite7": 3714,
+  "follower": 64,
+  "reichweite7": 3103,
   "dauerMessungen": {
-    "80-105": 2,
+    "80-105": 3,
     "30-45": 1,
     "60-80": 1
   },
   "dauerGewicht": {
-    "80-105": 1.2042305658381807
+    "80-105": 1.0957584514886058
   },
   "hashtagGewicht": {
     "#steuerberaterexamen": 1,
@@ -44,15 +45,19 @@
     "#steuerberater": 1,
     "#steuerrecht": 1,
     "#examensvorbereitung": 1,
-    "#abgabenordnung": 1.4133610632038147,
-    "#verfahrensrecht": 1.277772141625241,
-    "#erbschaftsteuer": 0.7365324135132394,
+    "#abgabenordnung": 1.4432973918111613,
+    "#verfahrensrecht": 1.3053669435135267,
+    "#erbschaftsteuer": 0.7523823400845112,
     "#examenszeit": 0.5,
-    "#klausurtechnik": 0.9282646608404952,
-    "#ertragsteuern": 0.8347367353150046,
-    "#körperschaftsteuer": 0.8821649589124481,
-    "#bilanzsteuerrecht": 0.8421764566636232,
-    "#lerngruppe": 1.025565587907071
+    "#beschränktesteuerpflicht": 0.7127932391082616,
+    "#klausurtechnik": 0.9470603234736997,
+    "#ertragsteuern": 0.8527757540434213,
+    "#körperschaftsteuer": 1.0725047355383943,
+    "#bilanzsteuerrecht": 0.6812545534023021,
+    "#lerngruppe": 1.2765748700762543,
+    "#einkommensteuer": 0.9969255427655545,
+    "#studygram": 0.5,
+    "#steuerwissen": 0.5
   },
   "hashtagFolgen": {
     "#steuerberaterexamen": 1,
@@ -116,7 +121,15 @@
     "#einlagekonto": 0,
     "#kstexamen": 0,
     "#klausur2": 0,
-    "#stbklausur": 0
+    "#stbklausur": 0,
+    "#mitunternehmerschaft": 0,
+    "#personengesellschaft": 0,
+    "#gewinnermittlung": 0,
+    "#sonderbetriebsvermögen": 0,
+    "#ergänzungsbilanz": 0,
+    "#internationales steuerrecht": 0,
+    "#unbeschränktesteuerpflicht": 0,
+    "#dba": 0
   },
   "folgenGesamt": 2,
   "profil": {
