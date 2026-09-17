@@ -1863,3 +1863,55 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Dreijahresgrenze, das reguläre Ende 31.12.14 und die Unanfechtbarkeit am 09.06.15; im
   Beispiel zu § 171 Abs. 4 Satz 3 AO die Höchstfrist bis 31.12.09 (Schlussbesprechung 05
   zuzüglich vier Jahre); im Fall Durst das reguläre Fristende 31.12.12.
+
+## AO-Skript (Jacobs), Teil III – Abschnitt 7: Korrektur von Verwaltungsakten (Teil 1)
+
+- Quelle: Drive-Ordner „Abgabenordnung", Datei „B-S25-AO-Teil III-(Jacobs)-0425 (1).pdf"
+  (Drive-ID `17QT3RU22R0kTxP5MfyzWc6HrX3i77TEg`). Der Band enthält allein den Abschnitt 7,
+  laut Inhaltsverzeichnis 118 Seiten.
+- Einpflege dieses Durchgangs: acht Kapitel – Teil I (Allgemeine Grundsätze), Teil II
+  (§ 129 AO) sowie aus Teil III die Systematik der Korrekturvorschriften, § 172 Abs. 1
+  Satz 1 Nr. 2a und Nr. 2c AO und § 173 AO bis zum Tatsachenbegriff. Das Skript umfasst
+  damit 7 Teile, 53 Kapitel, 1.035 Blöcke und 94 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- **Abbruch der Quelle:** Der Connector gibt 156.000 Zeichen bis Seite 79 von 118 aus. Der
+  Rest des Abschnitts 7 – insbesondere § 175a, § 175b, § 176 und die Einzelheiten zu § 177
+  AO sowie Teil IV (§§ 130, 131 AO für sonstige Verwaltungsakte) – ist nicht lesbar. Was
+  bis zur Bruchstelle vorliegt, aber in diesem Durchgang noch nicht eingepflegt ist
+  (§ 173 Abs. 1 Nr. 2 AO zum groben Verschulden, § 173 Abs. 2 AO, § 173a, § 174 und § 175
+  AO), folgt im nächsten Schritt.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Kapitel 1: Die Schnellübersicht führt „§ 172 Abs. 2 Satz 1 Nr. 2c AO" auf; gemeint ist
+    § 172 Abs. 1 Satz 1 Nr. 2c AO. Ferner „soweit einen Einspruch oder einer Klage
+    entsprochen wird" und eine Klammer, die geschlossen wird, ohne geöffnet worden zu sein.
+  - Kapitel 2: „(.... beim Erlass eines Verwaltungsaktes...)" – das Anführungszeichen wird
+    nicht geschlossen. Im Fall Maja soll die Einspruchsfrist „mit Ablauf des 24.04.03"
+    geendet haben, obwohl der Bescheid vom 20.03.02 datiert; richtig ist der 24.04.02. In
+    Variante 3 steht „um eine neue Tatsache für das FA handelt, die … einzuordnen ist"
+    mit doppeltem „handelt".
+  - Kapitel 4: In der Übersicht zu § 174 AO „Bestimmter Sachverhaltes", bei § 175 Abs. 1
+    Satz 1 Nr. 2 AO „Veräußerungs- und aufgabegewinne".
+  - Kapitel 5: „Betragsmäßige Erweiterung … uneingeschränkt auch nach Ablauf der
+    Einspruchsfrist uneingeschränkt möglich" – doppeltes Wort; „den Unfang der Änderung";
+    „ist ebenso wie eine Erweiterung des Antrags ist jederzeit bis zur Entscheidung
+    möglich". In der Abwandlung des Übungsfalls heißt es, die Einspruchsfrist sei am
+    01.10.09 abgelaufen, obwohl sie erst am 05.10.09 endete.
+  - Kapitel 7: „dieses ist entweder er erstmalig und bisher nicht geänderte Bescheid".
+  - Kapitel 8: „eine Saldierung der Einkünfte Nr. 15 EStG" statt § 15 EStG; „1 neue
+    Tatsche". Im Fall Heim sind 5.000 € nicht erklärte Mieteinnahmen und 3.000 € nicht
+    geltend gemachte Erhaltungsaufwendungen angegeben; daraus folgen um 2.000 € zu
+    **niedrig** angesetzte Einkünfte, die Aufgabe spricht dagegen von „um 2.000 € zu hoch".
+
+  Nachgerechnet und bestätigt wurden: im Fall Maja die Abschreibung von 2.000 €
+  (6.000 € × 1/3) gegenüber den angesetzten 200 €, das reguläre Fristende 31.12.06 und die
+  Jahresfrist des § 171 Abs. 2 AO bis 14.05.07 (Aufgabe zur Post 10.05.06 zuzüglich vier
+  Tagen); im zweiten Fall zu § 129 AO das Fristende 31.12.08 über die Dreijahresgrenze und
+  die Jahresfrist bis 15.11.09; im dritten Fall die Umsatzsteuer von 125.000 €
+  (120.000 € ./. 15.000 € + 20.000 €) gegenüber den zutreffenden 155.000 €
+  (120.000 € + 15.000 € + 20.000 €); im Übungsfall S das Ende der Einspruchsfrist am
+  05.10.09; im Fall Heim die Differenz von 2.000 € (5.000 € ./. 3.000 €) und in der
+  Abwandlung der Verlust von 2.000 € (6.000 € ./. 8.000 €).

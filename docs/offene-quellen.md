@@ -77,6 +77,12 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   bis Seite 42 von 74, das heißt bis einschließlich § 171 Abs. 7 AO. Dazu der
   Stoffverteilungsplan mit dem Inhaltsverzeichnis aller fünfzehn Abschnitte. Der Rest des
   Abschnitts 6 ist technisch blockiert, siehe Abschnitt A.
+- AO-Skript (Jacobs), **Teil III (Abschnitt 7 – Korrektur von Verwaltungsakten) ist
+  begonnen**: Teil I (Allgemeine Grundsätze), Teil II (§ 129 AO) und aus Teil III die
+  Systematik, § 172 Abs. 1 Satz 1 Nr. 2a und 2c AO sowie § 173 AO bis zum Tatsachen-
+  begriff. Offen sind daraus noch § 173 Abs. 1 Nr. 2 AO (grobes Verschulden), § 173
+  Abs. 2 AO, § 173a AO, § 174 AO, § 175 AO und §§ 176, 177 AO, soweit der Connector
+  sie ausgibt (er endet auf Seite 79 von 118).
 - Noch nicht bearbeitet sind die weiteren Bände des Jacobs-Skripts. Die drei Dateien mit
   nichtssagenden Namen sind identifiziert: „2025) (6).pdf“ = Stoffverteilungsplan,
   „2025) (7).pdf“ = **Teil IV, Abschnitte 8 bis 10** (Rechtsbehelfsverfahren, FGO,
