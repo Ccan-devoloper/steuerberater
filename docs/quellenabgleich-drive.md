@@ -1382,3 +1382,62 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   55.200 € sowie im Sachverhalt 2 der steuerpflichtige Wert der GmbH-Anteile von 922.500 €,
   der anteilige Schuldenabzug von 372.229 €, die vorläufige Bereicherung von 545.271 €, die
   Steuerübernahme von 15.972 € und die festzusetzende Schenkungsteuer von 17.732 €.
+
+## PersG-Skript (Melzer), Teile I und II
+
+- Quellen im Drive, Ordner „Personengesellschaften" (`1u8086Ukam7Zm3DQFnjde_KFwVg7Qzjs_`):
+  „B-S25-PersG-Teil I-Grundlagen-0426.pdf" (`1JyPY5gQhZ7gXneyrZazvavP3RoMbHVOt`, 21 Seiten)
+  und „B-S25-PersG-Teil II-6 III 6V 6b-0426.pdf" (`1jHa258khlRNms2geLCi2OgBFDqRiBVyA`,
+  44 Seiten). Verfasser: Karsten Melzer, Rechtsanwalt und Steuerberater, Köln; April 2026,
+  Rechtsstand 2025.
+- Einpflege: `src/data/k3-persg-skript-melzer.js`, angezeigt im PersG-Campus unter
+  „Skript (Melzer)". Das personenbezogene Wasserzeichen der Quell-PDFs ist entfernt; das
+  Prüfskript `tools/pruefen-k3-persg-skript-melzer.mjs` schlägt an, falls es je wieder
+  auftaucht.
+- Ordnerbefund: Die Datei „2026) (10).pdf" desselben Ordners ist **PersG Teil III –
+  Gesellschafterwechsel/Ausscheiden eines Gesellschafters**, die Datei „2026) (9).pdf" ist
+  die **Fallsammlung PersG – Lösungen** (Melzer). Beide tragen im Drive keinen sprechenden
+  Namen; sie sind in docs/offene-quellen.md als nächste Schritte vermerkt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Teil I, Kapitel 2: „Wirtschaftsgüter, die zum Gesamthandsvermögen der Mitunternehmer
+    geltend gehören".
+  - Teil I, Kapitel 3, Beispiel 3: Die Mieterträge des A werden mit 15.000 € angegeben,
+    obwohl das Grundstück nur zu 12,5 % Sonderbetriebsvermögen ist (12,5 % von 30.000 €
+    wären 3.750 €); die Sonderbetriebsausgaben von 1.250 € und die Zinsen von 625 €
+    entsprechen dagegen der Quote von 12,5 %.
+  - Teil I, Kapitel 3, Examensfall: „Beurteilen Sie die den Sachverhalt aus steuerrechtlicher
+    Sicht".
+  - Teil I, Kapitel 5, Beispiel 4: Die Lösung verneint die mitunternehmerische
+    Betriebsaufspaltung, schreibt aber „aber es liegt eine Beherrschungsidentität
+    (personelle Verflechtung) vor, da die Beschlüsse in der GbR … einstimmig getroffen
+    werden müssen"; gemeint ist das Gegenteil. Ebenso „erzielt Einkünfte Vermietung und
+    Verpachtung" ohne „aus".
+  - Teil II, Kapitel 2: Der sachliche Anwendungsbereich des § 6 Abs. 5 Satz 1 und 2 EStG ist
+    in der Quelle ein Schaubild; in der Textausgabe erscheinen nur dessen Beschriftungen.
+    Sie sind als Tabelle wiedergegeben.
+  - Teil II, Kapitel 4: „Der BFH hat mit dem o. b. Urteil vom 15. Juli 2021 entschieden" –
+    die Fundstelle, auf die „o. b." verweist, ist an dieser Stelle nicht genannt. Der Satz
+    „Bisher ruhende Einspruchsverfahren bitte ich daher … zu erledigen" ist in der Ich-Form
+    einer Verwaltungsanweisung gehalten und offenbar aus einer solchen übernommen.
+  - Teil II, Kapitel 6, erstes Beispiel zu R 6b.2 Abs. 6 EStR: Der Sachverhalt beschreibt den
+    Erwerb in einem zweiten Einzelunternehmen des A (Nr. 1), die Lösung antwortet auf den
+    Erwerb durch die AB OHG (Nr. 2).
+  - Teil II, Kapitel 7: „Grundstück 2 behält zurück" (ohne „er"); „Wird bei der Übertragung
+    eines Teilbetriebs funktional wesentliches Sonderbetriebsvermögen … unterquotal
+    übertragen" (gemeint ist der Teil eines Mitunternehmeranteils); „§ 6 Abs. 5 Satz 3 Nr.
+    EStG" ohne Nummer; „ist eine Buchwertübertragung nach § 6 Abs. 3 Satz 1 EStG gegeben.
+    dadurch nicht ausgeschlossen nicht möglich."; und im Schlussbeispiel stützt sich der
+    Ausgangsfall auf § 6 Abs. 3 Satz 2 EStG, die Abwandlung bei sonst gleichem Sachverhalt
+    auf § 6 Abs. 3 Satz 1 EStG.
+
+  Nachgerechnet und bestätigt wurden unter anderem: im Examensfall des Teils I die
+  AfA-Bemessungsgrundlage von 550.000 € (Einlagewert 600.000 € ./. bisherige AfA 50.000 €),
+  die AfA 2025 von 11.000 €, der Gebäudewert zum 31.12.2025 von 589.000 € und der
+  Sondergewinn von 40.000 € (Mieterträge 60.000 € ./. AfA 11.000 € ./. Grundstücksaufwand
+  9.000 €); im Teil II die Aufteilung des PKW auf 3.700 € (30 % Teilwert + 70 % Buchwert)
+  mit einem anteiligen Veräußerungsgewinn von 2.700 €, die Teilentgeltlichkeit von 50 %
+  (5.000 €/10.000 €) mit aufgedeckten stillen Reserven von 2.500 € sowie die Aufteilung
+  10 %/90 % im Beispiel 2 zur Trennungstheorie.

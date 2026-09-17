@@ -10,6 +10,8 @@ import { IconCockpit, IconModule, IconFaelle, IconSchema, IconTraining, IconPlan
 import K3Lernpfad from "./K3Lernpfad";
 import K3PersGHausaufgaben from "./K3PersGHausaufgaben";
 import K3PersGFallsammlung from "./K3PersGFallsammlung";
+import KurzskriptBloecke from "./KurzskriptBloecke";
+import { persgSkriptMelzer, persgSkriptMelzerQuelle } from "../data/k3-persg-skript-melzer.js";
 import { persgLernpfad, persgLernpfadKapitel, persgLernpfadGesamtminuten } from "../data/k3-lernpfad-persg";
 import { IconKlausur } from "./Klausurmodus";
 import K3PersGVisuals from "./K3PersGVisuals";
@@ -28,6 +30,7 @@ const nav = [
   ["cockpit", "Cockpit", IconCockpit], ["lernpfad", "Schritt für Schritt", IconPlan], ["module", "Personengesellschaften", IconModule],
   ["faelle", "Originalfälle", IconFaelle], ["klausur", "Klausurmodus", IconKlausur],
   ["schema", "Prüfschema", IconSchema], ["training", "Training", IconTraining],
+  ["skript", "Skript (Melzer)", IconModule],
   ["fallsammlung", "Fallsammlung", IconFaelle], ["hausaufgaben", "Hausaufgaben PersG", IconModule],
 ];
 const modulIds = new Set(persgModule.map((m)=>m.id));
@@ -66,6 +69,19 @@ export default function K3PersGCampus({onKlausurwechsel,onFachwechsel}){
       {verlauf.ansicht==="module"&&!modul&&<Modulliste liste={gefiltert} bereich={bereich} setBereich={setBereich} prio={prio} setPrio={setPrio} suche={suche} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen}/>} 
       {verlauf.ansicht==="module"&&modul&&<Modulseite modul={modul} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} lernpfadOeffnen={lernpfadOeffnen} zurueck={modullisteOeffnen}/>} 
       {verlauf.ansicht==="faelle"&&<Fallseite modulOeffnen={modulOeffnen}/>} {verlauf.ansicht==="klausur"&&<KlausurmodusPersG fallOeffnen={fallOeffnen}/>} {verlauf.ansicht==="schema"&&<Schemaseite modulOeffnen={modulOeffnen}/>} {verlauf.ansicht==="training"&&<Training/>}
+      {verlauf.ansicht==="skript"&&<KurzskriptBloecke
+        kicker="Klausur 3 · Personengesellschaften · Skript"
+        titel="PersG-Skript (Melzer)"
+        lead="Das Lehrgangsskript von Karsten Melzer, Rechtsanwalt und Steuerberater in Köln (April 2026, Rechtsstand 2025), im Wortlaut. Teil I legt die Zuordnung der Wirtschaftsgüter (Gesamthandsvermögen, Sonderbetriebsvermögen I und II, Bilanzierungskonkurrenzen, mitunternehmerische Betriebsaufspaltung, Ergänzungsbilanzen) und die zweistufige Gewinnermittlung; Teil II die Überführung und Übertragung einzelner Wirtschaftsgüter nach § 6 Abs. 5 EStG samt Sperrfristen und Körperschaftsteuerklausel, die Einbringung aus dem Privatvermögen, die Übertragungswege des § 6b EStG und die unentgeltliche Übertragung von Mitunternehmeranteilen nach § 6 Abs. 3 EStG. Beispiele, Bilanzen und Musterlösungen stehen vollständig; die Teile III bis V folgen."
+        quelle={persgSkriptMelzerQuelle}
+        kapitel={persgSkriptMelzer}
+        karteKicker={(k)=>`${k.teilLabel} · Kapitel ${k.kapitel}`}
+        gruppeVon={(k)=>k.teil}
+        gruppeLabel={(k)=>k.teilLabel}
+        gruppeAria="Teile"
+        gruppeAlle="Alle Teile"
+        suchePlatzhalter="Norm, Stichwort oder Betrag"
+      />}
       {verlauf.ansicht==="fallsammlung"&&<K3PersGFallsammlung oeffnen={{modul:modulOeffnen,schema:schemaOeffnen,fall:fallOeffnen,hausaufgabe:hausaufgabeOeffnen}}/>}
       {verlauf.ansicht==="hausaufgaben"&&<K3PersGHausaufgaben onModulOeffnen={modulOeffnen}/>}
     </main>

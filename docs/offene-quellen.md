@@ -54,8 +54,16 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Körperschaftsteuer (Breier/Wenger) mit allen vier Sachverhalten und Musterlösung.
 
 ### Klausur 3 – Personengesellschaften
-- Fact Sheets
-- PersG-Teile I bis V
+- PersG-Skript (Melzer): **Teil I (Grundlagen) und Teil II (§ 6 Abs. 5, § 6 Abs. 3, § 6b EStG)
+  sind eingepflegt** (Reiter „Skript (Melzer)"). Offen sind noch Teil III
+  (Gesellschafterwechsel/Ausscheiden eines Gesellschafters – im Drive unter dem
+  nichtssagenden Namen „2026) (10).pdf"), Teil IV (Realteilung, GmbH & Co.) und Teil V
+  (Umwandlungssteuer).
+- **Fallsammlung PersG – Lösungen (Melzer)**: Im Ordner „Personengesellschaften" liegt unter
+  dem nichtssagenden Namen „2026) (9).pdf" der vollständige Lösungsteil zur PersG-Fallsammlung.
+  Der Campus zeigt die Fallsammlung bislang ohne Musterlösungen, weil in dem zuerst
+  gesichteten Ordner nur der Aufgabenteil lag. Die Lösungen sind als Nächstes einzupflegen.
+- Fact Sheets (Horst)
 
 ### Klausur 1 – Abgabenordnung
 - AO-Teile I bis V
