@@ -145,7 +145,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   mit Teilfreistellung, Vorabpauschale und Basisertrag.
   Prüfung: `npm run check:est-fallsammlungen`
 - **KSt-Kurz-Skript (Breier)** (Klausur 2, Reiter Körperschaftsteuer → „Kurz-Skript (Breier)“):
-  das Lehrgangsskript von Ulrich Breier (Mai 2026, Rechtsstand 2026). Erfasst sind bisher
+  das Lehrgangsskript von Ulrich Breier (Mai 2026, Rechtsstand 2026). Erfasst sind
   Teil 1 (Subjekte der Körperschaftsteuer mit dem Optionsmodell des § 1a KStG, unbeschränkte
   und beschränkte Steuerpflicht mit Typenvergleich und der Reihenfolge „erst § 49 EStG, dann
   DBA“, die drei Gründungsstadien und die Steuerbefreiungen mit den vier Sphären) und Teil 2
@@ -158,11 +158,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   den Ausnahmen vom Teilwert, Forderungsverzicht mit Besserungsschein, Rangrücktritt und
   Pensionsverzicht, materielles und formelles Korrespondenzprinzip, die folgenlose
   Nutzungseinlage mit ihren drei Ausnahmen, Rückgewähr von Ausschüttungen sowie das
-  steuerliche Einlagekonto mit ausschüttbarem Gewinn und Verwendungsfestschreibung) –
-  zusammen 21 Abschnitte, 704 Absätze, 28 Tabellen.
-  **Noch unvollständig:** Der Drive-Connector gibt das PDF nur bis etwa Seite 90 von 196 aus;
-  die Teile 5 bis 10 sind darüber nicht erreichbar. Der Anfang von Teil 4 liegt als Text vor
-  und folgt.
+  steuerliche Einlagekonto mit ausschüttbarem Gewinn und Verwendungsfestschreibung) sowie der
+  Anfang von Teil 4 (offene und verdeckte Gewinnausschüttungen, Zeitpunkt der Versteuerung der
+  Dividende, Gewinnansprüche bei der Übertragung von Beteiligungen und Dividendenscheinen, die
+  Kapitalgesellschaft als Anteilseigner mit § 8b Abs. 1, 4 und 5 KStG, Streubesitzdividenden
+  samt der umstrittenen Auffassung der OFD Frankfurt, die Beteiligung über eine
+  Mitunternehmerschaft, § 7 S. 4 GewStG bei Personengesellschaften sowie das materielle und
+  formelle Korrespondenzprinzip mit § 32a KStG) – zusammen 27 Abschnitte, 881 Absätze,
+  33 Tabellen.
+  **Noch unvollständig:** Der Drive-Connector gibt das PDF nur bis etwa Seite 90 von 196 aus.
+  Übernommen ist alles, was er ausgibt; der Rest von Teil 4 und die Teile 5 bis 10 sind
+  darüber nicht erreichbar und stehen in `docs/offene-quellen.md`.
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):
   die Übungsfälle des Lehrgangs, Teil 1 (Stand 07/2025) mit drei Fällen – Abschlusszahlung zur

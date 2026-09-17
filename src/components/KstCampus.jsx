@@ -277,7 +277,7 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
           <KurzskriptBloecke
             kicker="Klausur 2 · Körperschaftsteuer · Kurz-Skript"
             titel="KSt-Kurz-Skript (Breier)"
-            lead="Das Lehrgangsskript von Ulrich Breier im Wortlaut. Erfasst sind bisher Teil 1 (Steuerpflicht und Steuerbefreiungen), Teil 2 (Grundsätze der Einkommensermittlung) und Teil 3 (verdeckte Einlagen und steuerliches Einlagekonto); die weiteren Teile folgen."
+            lead="Das Lehrgangsskript von Ulrich Breier im Wortlaut. Erfasst sind Teil 1 (Steuerpflicht und Steuerbefreiungen), Teil 2 (Grundsätze der Einkommensermittlung), Teil 3 (verdeckte Einlagen und steuerliches Einlagekonto) und der Anfang von Teil 4 (Ausschüttungen und Beteiligungen) bis zu der Stelle, an der die Textausgabe der Quelldatei abbricht. Die Teile 5 bis 10 liegen noch nicht lesbar vor und sind in docs/offene-quellen.md vermerkt."
             quelle={kstKurzskriptQuelle}
             kapitel={kstKurzskript}
             karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}

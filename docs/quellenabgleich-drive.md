@@ -695,10 +695,9 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
      Teile 1 bis 3 und der Anfang von Teil 4. Die Teile 5 bis 10 (verdeckte Gewinnausschüttung,
      Verlustabzug, Zinsschranke, Organschaft, Liquidation, Umwandlung von Rücklagen in
      Nennkapital) gibt der Connector nicht aus.
-  2. Übernommen sind bisher **Teil 1 und Teil 2** – 14 Abschnitte, 385 Absätze, 18 Tabellen.
-     Teil 3 (Verdeckte Einlagen und steuerliches Einlagekonto) und der Anfang von Teil 4
-     (Ausschüttungen und Beteiligungen) liegen als bereinigter Text vor und werden als
-     Nächstes eingepflegt.
+  2. Übernommen ist alles, was der Connector ausgibt: die Teile 1 bis 3 vollständig und der
+     Anfang von Teil 4 bis zum Abbruch der Textausgabe – 27 Abschnitte, 881 Absätze,
+     33 Tabellen.
 
   Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
   „(so in der Quelle)" gekennzeichnet:
@@ -753,3 +752,43 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     ersten Satz B, danach durchgehend A; im Beispiel zum Einlagekonto wird das Eigenkapital
     zum 31.12.03 zunächst mit 145.000, in der Folgerechnung mit 145.500 angegeben (der
     ausgewiesene ausschüttbare Gewinn von 55.000 passt zu 145.000).
+
+- **KSt-Kurz-Skript (Breier) – Anfang von Teil 4 nachgetragen.** Erfasst sind jetzt auch die
+  Abschnitte A. I bis A. V des Teils 4 „Steuerliche Behandlung von Ausschüttungen und
+  Beteiligungen“: offene Gewinnausschüttungen mit Kapitalertragsteuer, Teileinkünfteverfahren
+  und Abgeltungsteuer, verdeckte Gewinnausschüttungen beim Empfänger, der Zeitpunkt der
+  Versteuerung der Dividende, Gewinnansprüche bei der Übertragung von Beteiligungen und
+  Dividendenscheinen sowie die Kapitalgesellschaft als Anteilseigner (§ 8b Abs. 1, 4, 5 und 6
+  KStG, Streubesitzdividenden mit den sechs Beispielen zur umstrittenen Auffassung der OFD
+  Frankfurt vom 16.8.2021, Beteiligung über eine Mitunternehmerschaft, § 7 S. 4 GewStG bei
+  Personengesellschaften mit drei durchgerechneten Beispielen, materielles Korrespondenzprinzip
+  bei Körperschaften und natürlichen Personen sowie das formelle Korrespondenzprinzip des
+  § 32a KStG). Der Bestand umfasst damit 27 Abschnitte, 881 Absätze und 33 Tabellen.
+
+  Der Text bricht mitten in Teil 4 ab – dort, wo die Ausgabe des Connectors endet. Die Datei
+  weist das an der Bruchstelle mit einem eigenen Abschnitt „Ende des lesbaren Textes“ aus; es
+  wurde nichts ergänzt, was nicht in der Quelle steht.
+
+  Weitere Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und
+  mit „(so in der Quelle)" gekennzeichnet:
+
+  - Abschnitt A. I: Bei der Option nach § 32d Abs. 2 Nr. 3 EStG nennt die Quelle 40 %
+    abziehbare Werbungskosten; nach § 3c Abs. 2 EStG sind es 60 %.
+  - Abschnitt A. II: „regelmäßig ermessensfehlerhaft und damit rechtswidrig ist“ – das
+    Prädikat steht doppelt.
+  - Abschnitt A. IV: Die Quelle ordnet die spätere Dividende dem Veräußerer zu, obwohl sie
+    nach § 20 Abs. 5 EStG dem Erwerber zusteht.
+  - Abschnitt A. V. 1 a: Die Einkommensrechnung 80.000 ./. 80.000 + 4.000 ./. 20.000 ergibt
+    ./. 16.000; die Quelle weist 64.000 aus.
+  - Abschnitt A. V. 1 b: 5 % von 100.000 sind 5.000; die Quelle nennt 10.000 (die
+    anschließende Gewerbesteuerrechnung mit 95.000 rechnet wieder mit 5.000).
+  - Abschnitt A. V. 3, Beispiel 1: Der 40%ige Freistellungsanteil steht dem Gesellschafter C
+    zu; die Quelle schreibt „(X)“ – das ist die OHG.
+  - Abschnitt A. V. 3, Beispiel 2: „§ 8b Abs. 4 S. 4 u. 5 GewStG“ statt KStG; die
+    Tabellenzeile „auf C entfallen 50 ./. 0“ vermengt zwei Zeilen.
+  - Abschnitt A. V. 3, Beispiel 3: Die Schlusszeile der Rechnung heißt „Gewerbeertrag X-OHG“,
+    obwohl es um die X-KG geht; anschließend ist von „den verbleibenden 500“ die Rede,
+    während die Rechnung 250 ergibt.
+  - Abschnitt A. V. 4 a: „gem. § 8b Abs. 1 Nr. 1 KStG“ statt § 8b Abs. 1 S. 1 KStG.
+  - Abschnitt A. V. 5, Beispiel 2: Die vGA von 400.000 wird „beim Einkommen der A-GmbH“
+    hinzugerechnet, gemeint ist die T-GmbH.
