@@ -2304,3 +2304,45 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Fristenden 31.12.06 (regulär), 31.12.07 (§ 378 AO) und 31.12.12 (§ 370 AO) sowie der
   Taterfolg des Falls Glück am 01.10.04 (21 Monate nach Ablauf des VZ 02) und das
   Fristende 31.12.15 sind zutreffend.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 4)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Tz. 7 bis zum Ende des Teils II.
+- Einpflege dieses Durchgangs: vier Kapitel – Steuerhinterziehung bei
+  Personengesellschaften einschließlich der Haftungsfolgen, die Zwei-Säulen-Theorie des
+  BGH und der ungerechtfertigte Steuervorteil des § 370 Abs. 4 Satz 2 AO, der Übungsfall
+  zur erschlichenen Stundung samt Täterschaft und Teilnahme sowie der subjektive
+  Tatbestand mit Rechtswidrigkeit, Schuld und der Abgrenzung von § 371 AO und § 153 AO.
+  Das Skript umfasst damit 10 Teile, 95 Kapitel, 2.037 Blöcke und 191 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: die Selbstanzeige nach § 371 AO im Einzelnen, der Teil IV des
+  Abschnitts 14 (Bußgeldrecht) und der gesamte Abschnitt 15 (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 11: „Endgültiger Einkommensteuerbescheide 01“; im Grundsatz 5 „weitere
+    unrichtige oder vollständige Angaben“ – gemeint sind **unvollständige** Angaben.
+  - Kapitel 12: „Bei zu hoch erklärte Vorsteuer“. Ferner spricht die Tz. 8 für den
+    Mischfall von „**einer** Tathandlung und zwei Taterfolgen“, die Tz. 9.2 für denselben
+    Sachverhalt von „**mehreren** Tathandlungen“ – die beiden Stellen widersprechen
+    einander.
+  - Kapitel 13, Übungsfall Lüg: Der Sachverhalt gewährt die Stundung „für 12 Monate“, das
+    Ergebnis spricht von einer Stundung „für **6 Monate**“. Die Fristberechnung selbst ist
+    zutreffend: Stundungsbescheid vom 01.10.04 zuzüglich der Viertagesfrist ergibt den
+    05.10.04. Ferner „Er habe auch keine Rücklagen … habe bilden können“ und eine nicht
+    geschlossene Klammer bei „der Steuerschuldner („zum eigenen Vorteil““.
+  - Kapitel 14: „§ 369 Abs. 1 AO iVm § 15 StGB“ – einschlägig ist Absatz 2; „leichtfertigen
+    Steuerverkürzung verkürzung“. Die Übersicht ordnet die Verfolgungsverjährung den
+    **Strafausschließungsgründen** zu, während dieselbe Übersicht im Prüfungsschema
+    (Kapitel 5) die Schuldunfähigkeit als Strafausschließungsgrund und die
+    Verfolgungsverjährung als Strafaufhebungsgrund führt.
+
+  Nachgerechnet und zutreffend: der Personengesellschaftsfall – nicht erfasste Umsätze von
+  30.000 € netto ergeben 5.700 € Umsatzsteuer und zusammen die im Sachverhalt genannten
+  35.700 € Erlöse; der Gewinnanteil von A (60 %) beträgt 18.000 € eigener und 12.000 €
+  fremder Vorteil, der von B (40 %) 12.000 € eigener und 18.000 € fremder Vorteil; der
+  Feststellungsbescheid vom 25.08.02 ist nach der Viertagesfrist am 29.08.02 bekannt
+  gegeben.

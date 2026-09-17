@@ -225,6 +225,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   je nach subjektiver Seite zu einem Tatbestandsirrtum, einer leichtfertigen
   Steuerverkürzung nach § 378 AO oder einer Hinterziehung über 5.200 € führt, und der
   Rentner Glück mit der Steuerverkürzung durch Unterlassen und der 95-Prozent-Grenze.
+  Weiter eingepflegt sind die Steuerhinterziehung bei Personengesellschaften – der
+  unrichtige Feststellungsbescheid als vollendete Tat nach dem BGH-Urteil vom 10.12.2008,
+  der weitere Taterfolg beim Folgebescheid ohne neue Tathandlung, die Aufteilung in eigenen
+  und fremden Vorteil nach der Beteiligungsquote und die Folgen für Korrektur,
+  Feststellungsfrist und Haftungsbescheid nach § 191 Abs. 3 Satz 3 AO –, die
+  Zwei-Säulen-Theorie des BGH bei gleichzeitig verkürzter Umsatzsteuer und fingierter
+  Vorsteuer, der ungerechtfertigte Steuervorteil des § 370 Abs. 4 Satz 2 AO mit dem
+  Übungsfall zur erschlichenen Stundung, Täterschaft und Teilnahme mit Anstiftung und
+  Beihilfe sowie der subjektive Tatbestand mit Vorsatzarten, Tatbestandsirrtum,
+  Leichtfertigkeit, Rechtswidrigkeit, Schuld und der Abgrenzung von Selbstanzeige und
+  Berichtigung nach § 153 AO.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

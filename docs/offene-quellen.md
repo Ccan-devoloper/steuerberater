@@ -90,9 +90,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
 - **AO Teil VI** („2025) (8).pdf“, Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`): Aus
   Abschnitt 14 (Steuerstraf- und Bußgeldrecht) sind der Teil I (Allgemeine Grundlagen) und
   der Teil II einschließlich des Kompensationsverbots und der beiden Übungsfälle
-  eingepflegt. Offen sind daraus noch die Steuerhinterziehung bei Personengesellschaften
-  (Tz. 7), die Teile III und IV (Selbstanzeige nach § 371 AO, Bußgeldrecht) sowie der
-  gesamte **Abschnitt 15** (Vollstreckungsrecht).
+  eingepflegt, einschließlich der Steuerhinterziehung bei Personengesellschaften, der
+  Zwei-Säulen-Theorie und des subjektiven Tatbestands. Offen sind daraus noch die
+  Selbstanzeige nach § 371 AO im Einzelnen, der Teil IV (Bußgeldrecht) sowie der gesamte
+  **Abschnitt 15** (Vollstreckungsrecht).
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript
