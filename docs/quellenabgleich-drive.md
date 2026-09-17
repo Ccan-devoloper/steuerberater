@@ -842,3 +842,57 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     Textziffer 4 gestützt, er stammt aber aus Textziffer 5.
   - Aufgabenteil III: Die Aufgabenstellung verlangt unter Nummer 2 die Folgen für die V-GmbH;
     unter der Überschrift „Zu 2." stehen stattdessen Steuerberechnung und Einlagekonto.
+
+- **Übungsklausur „Ertragsteuern 2" (Rechtsstand 2025)** – Thomas Wiegmann und Ulrich Breier,
+  Korrektor Rainer Vollmer; Drive-IDs `10ULJ3A2rBPo4hyROXVSzIhA9gWiIyGSz` (Aufgabe) und
+  `1sGjdnifx_pFlgPjP5cLou4bcodeUjDdU` (Lösung). Sie steht im ESt-Campus im Reiter
+  „Übungsklausuren".
+
+  Die Klausur hat zwei Aufgabenteile zu je 50 Punkten: den einkommensteuerlichen Teil
+  (Eheleute Steuer) und einen vollständigen körperschaftsteuerlichen Teil (X-GmbH). Beide sind
+  vollständig übernommen: Sachverhalt, Aufgabenstellung, Bearbeitungshinweise und
+  Lösungshinweise im Wortlaut, die Rechenschemata als Tabelle.
+
+  Zu den Randpunkten: Im einkommensteuerlichen Teil weist die Musterlösung die Punkte in einer
+  Kurzübersicht blockweise aus (2 – 8 – 7 – 3 – 5 – 7 – 3 – 5 – 7 – 2 – 1 = 50); sie stehen
+  hier am jeweiligen Abschnitt. Im körperschaftsteuerlichen Teil markiert die Randspalte
+  45 einzelne Punkte an einzelnen Absätzen; diese stehen an ihrem Absatz. Die verbleibenden
+  5 der ausgewiesenen 50 Punkte lassen sich keinem Absatz zuordnen und sind als Hinweis
+  vermerkt.
+
+  Das zu versteuernde Einkommen der X-GmbH von 11.209.037 € geht mit den in der Lösung
+  ausgewiesenen Korrekturen exakt auf; die Beträge aus dem Hinweis zur nicht beanstandeten
+  Alternativlösung (Zuschreibung auf die T-GmbH-Anteile) sind darin nicht enthalten und hier
+  als Alternative gekennzeichnet.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Bearbeitungshinweis 1 sagt, die Klausur bestehe aus einem Aufgabenabschnitt; tatsächlich
+    folgen zwei Teile mit je 50 Punkten.
+  - Aufgabenteil I: Die Lösung rechnet beim Verkauf der Büroeinrichtung mit 400 € zu Unrecht
+    ausgewiesener Umsatzsteuer, der Sachverhalt nennt 475 €.
+  - Aufgabenteil I: Die Kurzübersicht nennt für den entgeltlich erworbenen Anteil an der
+    van Achtern GmbH „zu verst. 1.250 €", die ausführliche Rechnung 2.500 €.
+  - Aufgabenteil I: Der Sachverhalt nennt als Tag der Gutschrift der Stundungszinsen den
+    06. Januar 2026, die Lösung den 05.01.2026.
+  - Aufgabenteil I: Die Einkünfte der Schwester errechnen sich zu 11.856 €; die Quelle weist
+    11.857 € aus. Die Zeile „II. OG" der Zurechnungstabelle meint das I. OG.
+  - Aufgabenteil I: Der Name der Schwester wechselt zwischen „SIEGUNE", „SIEGUNDE",
+    „SIGUNDE" und „Sigunde".
+  - Aufgabenteil I: Die Gliederung der Lösung springt von „2." auf „4. Ermittlung des
+    Einkommens" und nummeriert die letzten beiden Punkte als VII und VIII statt VIII und IX.
+  - Aufgabenteil II, Sachverhalt: Die Bilanz der A-GmbH zum 31.12.2025 weist einen
+    Jahresüberschuss von 100.000 € aus, während der Sachverhalt für 2025 einen bilanziellen
+    Verlust von 2.000.000 € nennt; die Lösung rechnet mit den 100.000 €.
+  - Aufgabenteil II: Fundstellen – „§ 8 Abs. 3 S. 3 KStR" statt KStG; „§ 10 Nr. 2 EStG" statt
+    KStG; „§ 20 Abs. 1 Nr. 7 KStG" statt EStG; „§ 32a Abs. 2 Nr. 3 EStG" statt § 32d Abs. 2
+    Nr. 3 EStG; „§ 15 Abs. 4 S. 6 KStG" statt EStG; „§ 29 Abs. 2 UmwStG" statt KStG.
+  - Aufgabenteil II: Das BMF-Schreiben zu § 8b KStG wird einmal mit „vom 28.4.2004;
+    BStBl. 2003 I, 292", einmal mit „vom 28.4.2003" zitiert.
+  - Aufgabenteil II: Die Aufstellung zum Einlagekonto nennt den Gesellschafter zweimal „A"
+    statt X.
+  - Aufgabenteil II: Die vier Zugänge zum steuerlichen Einlagekonto (800.000 + 100.000 +
+    3.000 + 8.000) ergeben 911.000; die Musterlösung stellt 913.000 fest.
+  - Aufgabenteil II: Der in der Lösung zu Textziffer 4b genannte verrechenbare Verlust nach
+    § 15a Abs. 4 EStG von 40.000 erscheint in der Schlussaufstellung zu Aufgabe 4 nicht.
