@@ -2414,3 +2414,38 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   für USt 14 bis 16 zuzüglich 1.900 € Vorsteuer für 16 = **24.700 €**; die Korrektur des
   Wareneinkaufs mit 40.000 € × 15 % = **6.000 €**; und der Tenor der
   Einspruchsentscheidung 81.000 € + 1.900 € = **82.900 €**.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 7)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Teil IV, Teile A bis C bis zur Tz. 1.8.
+- Einpflege dieses Durchgangs: zwei Kapitel – Überblick über die Selbstanzeige nach
+  § 371 AO mit den sechs Voraussetzungen, den steuerlichen Rechtsfolgen, die sie unberührt
+  lässt, und der Wirkung als persönlicher Strafaufhebungsgrund sowie die
+  Berichtigungserklärung des § 371 Abs. 1 AO mit Vollständigkeitsgebot und
+  Zehnjahreszeitraum. Das Skript umfasst damit 10 Teile, 101 Kapitel, 2.157 Blöcke und
+  203 Tabellen; Prüfung `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: die Jahrestabelle zum Beispiel des Zehnjahreszeitraums, die
+  Sperrgründe des § 371 Abs. 2 AO im Einzelnen, die Nachzahlungspflicht des § 371 Abs. 3 AO
+  und der Zuschlag nach § 398a AO sowie der gesamte Abschnitt 15 (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Die im Rohtext enthaltenen
+  juris-Verweislinks sind nicht übernommen worden; sie führen zu einem
+  kostenpflichtigen Portal und tragen zum Wortlaut nichts bei.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 19: „zB Erben in in den Fällen des § 153 Abs. 1 Satz 2 AO“ – doppeltes „in“.
+  - Kapitel 19, Tz. 3: „Eine Selbstanzeige wirkt straffrei sowohl für eine vollendete
+    Steuerhinterziehung nach **§ 371 Abs. 1 AO** als auch für die versuchte
+    Steuerhinterziehung nach **§ 371 Abs. 2 AO**“. Gemeint sind § 370 Abs. 1 und § 370
+    Abs. 2 AO – zwei Absätze zuvor zitiert dasselbe Skript die Vorschriften richtig, und
+    § 371 Abs. 2 AO regelt die Sperrgründe.
+  - Kapitel 20, Beispiel 1: Der dritte Spiegelstrich ist als Satzfragment abgedruckt
+    („Einfach einen Betrag mit der Erläuterung … an die Steuerkasse überweist.“).
+  - Kapitel 20, Beispiel zum Zehnjahreszeitraum: „Der steuerlich nicht **beratende**
+    Steuerpflichtige“ – gemeint ist der nicht beratene Steuerpflichtige.
+
+  Nachgerechnet und zutreffend: die Zahl der Taten in den Beispielen – Einkommen- und
+  Umsatzsteuer für 17 bis 20 ergeben acht selbständige Tathandlungen; nicht erklärte
+  Kapitalerträge ab 2009 bis einschließlich 2020 ergeben zwölf vollendete Steuerstraftaten.

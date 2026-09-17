@@ -250,6 +250,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Straftaten (KSt 18.000/18.000/12.000 €, USt 22.800/22.800/24.700 €) sowie die
   Entscheidung über die drei Einsprüche mit Abhilfebescheiden zur Körperschaftsteuer und
   einer verbösernden Einspruchsentscheidung zur Umsatzsteuer 16 auf 82.900 €.
+  Aus Teil IV ist die Straffreiheit bei wirksamer Selbstanzeige nach § 371 AO eingepflegt:
+  die Abgrenzung zu § 153 AO, die sechs Voraussetzungen einer wirksamen Selbstanzeige, die
+  steuerlichen Rechtsfolgen, die sie gerade nicht beseitigt (verlängerte Festsetzungsfrist,
+  Ablaufhemmung nach § 171 Abs. 9 AO, Durchbrechung der Änderungssperre, Haftung und
+  Hinterziehungszinsen), die Selbstanzeige als persönlicher Strafaufhebungsgrund nach § 28
+  Abs. 2 StGB mit dem Beispiel des bestochenen Buchhalters sowie die Berichtigungserklärung
+  im Einzelnen – Materiallieferung durch den Täter mit zwei Negativbeispielen, die
+  Rechtsfolge der Unvollständigkeit, Formfreiheit, die getrennte Betrachtung je Steuerart,
+  das Vollständigkeitsgebot mit der Geringfügigkeitsgrenze von fünf Prozent und die
+  Berechnung des Zehnjahreszeitraums nach den AStBV (St) 2025.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
