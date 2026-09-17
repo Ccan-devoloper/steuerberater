@@ -1315,3 +1315,70 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   das Festgeld einschließlich Zinsen mit 1.521.667 € sowie die Schlussrechnung mit einer
   Bereicherung von 1.748.101 € und einer festzusetzenden Erbschaftsteuer von 256.139 €.
 
+
+## Übungsklausur AO/USt/ErbSt/BewR 2
+
+- Quellen im Drive: „AO_USt_ErbSt_BewR 2 – Aufgabe" (Datei-ID
+  `1F-IKhFQE2vG3jP5O-TCU0fem32biHfAJ`) und die zugehörigen Lösungshinweise (Datei-ID
+  `1xLqqCxB5NRIWrCkS2WnmrZlU5-pd98Il`); im Drive liegen beide unter dem Namen „BewR 2".
+- Umfang: Wie schon bei „BewR 1" enthält die als „BewR 2" abgelegte Datei **nicht** nur den
+  Bewertungsteil, sondern die **gesamte Klausur** – Teil Abgabenordnung/FGO (35 Punkte),
+  Teil Umsatzsteuer (40 Punkte) und Teil Erbschaftsteuer/Bewertung (25 Punkte,
+  Bearbeitungszeit 1,5 Stunden), zusammen 100 Punkte bei 6 Stunden Bearbeitungszeit.
+  Verfasser: Hans-Jürgen Jacobs und Tim Schröders; Korrektoren S. Dudt und V. Wenger;
+  Rechtsstand 2025.
+- Einpflege: sieben Aufgabenteile im gemeinsamen Klausurbestand `src/data/est-klausuren.js`
+  (`klausur: "ao-ust-erbst-2"`) – ein AO-Teil, vier USt-Teile (Sachverhalte 1 bis 4) und
+  zwei ErbSt-Teile (Sachverhalte 1 und 2). Jeder Teil trägt das Feld `fach` („ao", „ust",
+  „erbst"), über das der AO-, der USt- und der ErbSt-Campus der Klausur 1 ihren Teil filtern.
+- Randpunkte: Sie stehen in dieser Klausur durchgehend blockweise am Seitenende und sind in
+  der Textextraktion nicht sicher von den Seitenzahlen zu trennen. Deshalb trägt **kein**
+  Block Randpunkte; kein Eintrag trägt ein Feld `punkte`, stattdessen steht die von der
+  Quelle ausgewiesene Summe in `punkteLaut` und zusätzlich als Text in einem Schlusshinweis
+  je Aufgabenteil (dort auch die vollständige Wertefolge der Quelle).
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - AO-Teil, Sachverhalt: „Der Einkommensteuerbescheid 02 ist sowohl dem EK als auch der EK
+    … bekannt gegeben worden" – gemeint sind FK und EK.
+  - AO-Teil, Lösung zu Aufgabe 1: Die Lösung stellt auf einen erstmaligen
+    Einkommensteuerbescheid 02 „vom 01.09.03 (Wirksamkeit am 05.09.03)" ab; der Sachverhalt
+    nennt kein solches Datum.
+  - AO-Teil, Lösung zu Aufgabe 2: doppelte Absatzangabe „§ 170 Abs. Abs. 2 Satz 1 Nr. 1".
+  - AO-Teil, Lösung zu Aufgabe 3: „zum Zeitpunkt des Erlasses des Feststellungsbescheides vom
+    11.11.08 bzw. vom 02.05.09" – der Sachverhalt nennt den 02.03.09. Außerdem bejaht die
+    Lösung zu Aufgabe 3 die Ablaufhemmung des § 171 Abs. 4 Satz 1 AO, während die Lösung zu
+    Aufgabe 4 deren Voraussetzungen ausdrücklich verneint (Prüfungsbeginn erst am 04.02.08).
+  - USt-Teil, Sachverhalt 1: Die Randwerte der Quelle (1, 2, 1, 2, 1, 1, 1, 1, 1, 1) ergeben
+    12,0; ausgewiesen ist die Summe „== 11,0".
+  - USt-Teil, Sachverhalt 3: Die Randwerte (0,5, 0,5, 0,5, 0,5, 0,5, 1, 0,5, 0,5, 1, 1, 1, 1)
+    ergeben 8,5; ausgewiesen ist die Summe „=== 8".
+  - USt-Teil, Sachverhalt 4: Die Lösung stützt den Leistungsort auf § 3a Abs. 3 Nr. 3a a)
+    UStG „neu seit 2025" und den ermäßigten Steuersatz auf § 12 Abs. 2 Nr. 15 UStG „seit
+    2026", obwohl die Klausur auf den Besteuerungszeitraum 01 gestellt ist. Außerdem die
+    verkürzte Fundstelle „§ 15 Abs. 1 S. Nr. 1 S. 1 UStG".
+  - ErbSt-Teil, Sachverhalt 1: Die Lösung begründet die Alleinerbenstellung mit „den im
+    Testament (§ 1937 BGB iVm §§ 2229ff BGB) getroffenen Regelungen"; der Sachverhalt
+    erwähnt kein Testament. Der anteilig abzugsfähige Teil der Einkommensteuernachzahlung
+    2025 wird im Text mit 11.347 € errechnet, in der Übertragstabelle mit 11.348 € angesetzt
+    (die ausgewiesene Summe 48.740 € beruht auf 11.348 €). Die Aufteilungsvorschriften
+    heißen in der Überschrift „§ 10 Abs. 6a Sätze 3, 5 und 7 ErbStG", im Rechenteil dagegen
+    „§ 10 Abs. 6 Satz 7" und „§ 10 Abs. 6 Satz 9 ErbStG".
+
+  Nachgerechnet und bestätigt wurden unter anderem: im AO-Teil der hinterzogene Gewinnanteil
+  von 42.000 € (Sonder-BE 45.000 € ./. Sonder-BA 3.000 €) und die ESt-Folgewirkung von
+  17.000 €; im USt-Teil die Bemessungsgrundlage der Beherbergung mit 8.897,20 € und 622,80 €
+  USt, der abziehbare Vorsteueranteil von 76.000 € (2/3 von 114.000 €), die Vorsteuer von
+  3.040 € aus dem Reihengeschäft, die Zeltvermietung mit 420,17 €/79,83 € sowie die
+  Bewirtung mit 1.226,90 €/233,10 € (Getränke) und 747,66 €/52,34 € (Speisen); im ErbSt-Teil
+  der Grundbesitzwert nach § 13d ErbStG mit 558.000 €, der Kapitalwert des Nießbrauchs mit
+  321.720 € (30.000 € x 10,724) und dessen 90 %-Ansatz mit 289.548 €, die Jahreswertgrenze
+  des § 16 BewG mit 33.333 €, der Gegenwartswert der Ratenschuld mit 33.617 €
+  (27.317 € + 6.300 €), der Gegenwartswert des Darlehens mit 560.946 € (600.000 € ./.
+  39.054 €), der Brutto-Nachlass von 1.230.946 €, die Zwischensumme von 831.781 €, die
+  Nettowerte 218.280 € / 647.329 € / 865.609 € und die Aufteilungsbeträge 37.392 € und
+  12.608 €, die Bereicherung von 768.041 € und die festzusetzende Erbschaftsteuer von
+  55.200 € sowie im Sachverhalt 2 der steuerpflichtige Wert der GmbH-Anteile von 922.500 €,
+  der anteilige Schuldenabzug von 372.229 €, die vorläufige Bereicherung von 545.271 €, die
+  Steuerübernahme von 15.972 € und die festzusetzende Schenkungsteuer von 17.732 €.

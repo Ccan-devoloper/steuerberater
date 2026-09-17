@@ -39,10 +39,11 @@ Eingepflegt: Einkommensteuer 1, Ertragsteuern 0 und Ertragsteuern 2 (beide mit v
 körperschaftsteuerlichem Aufgabenteil), Körperschaftsteuer (im KSt-Campus) und die
 beiden Teilklausuren der Klausur AO/USt (im USt- bzw. AO-Campus), die eigenständige
 Klausur Abgabenordnung/FGO (im AO-Campus) sowie Bilanzierung 1 bis 4 (im Bilanzen-Campus
-der Klausur 3) sowie die Klausur AO/USt/ErbSt/BewR 1, die im Drive unter dem Namen
-„BewR 1" liegt und alle drei Fachteile enthält (AO-, USt- und ErbSt-Teil jeweils im
-zugehörigen Campus der Klausur 1). Offen ist:
-- Bewertungsrecht 2 (Drive: „BewR 2")
+der Klausur 3) sowie die Klausuren AO/USt/ErbSt/BewR 1 und AO/USt/ErbSt/BewR 2, die im
+Drive unter den Namen „BewR 1" und „BewR 2" liegen und jeweils alle drei Fachteile
+enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1).
+
+**Damit sind alle 12 Übungsklausuren eingepflegt.** Offen ist hier nichts mehr.
 
 ### Klausur 2 – Körperschaftsteuer
 - KSt-Kurz-Skript (Breier): vollständig eingepflegt, soweit der Connector Text ausgibt –
