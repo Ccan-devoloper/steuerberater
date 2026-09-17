@@ -92,10 +92,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   der Teil II einschließlich des Kompensationsverbots und der beiden Übungsfälle
   eingepflegt, einschließlich der Steuerhinterziehung bei Personengesellschaften, der
   Zwei-Säulen-Theorie, des subjektiven Tatbestands und der Berichtigungspflicht nach
-  § 153 AO einschließlich des Erbfalls. Offen sind daraus noch der zusammenfassende
-  Übungsfall des Teils III (Gaststätten- und Großküchen GmbH), die Selbstanzeige nach
-  § 371 AO, der Teil IV (Bußgeldrecht) sowie der gesamte **Abschnitt 15**
-  (Vollstreckungsrecht).
+  § 153 AO einschließlich des Erbfalls; ebenso der Teil III mit dem zusammenfassenden
+  Übungsfall zur Gaststätten- und Großküchen GmbH. Offen sind daraus noch der **Teil IV**
+  (Straffreiheit bei wirksamer Selbstanzeige nach § 371 AO) sowie der gesamte
+  **Abschnitt 15** (Vollstreckungsrecht).
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript

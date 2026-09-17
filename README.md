@@ -241,6 +241,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Abwandlungen sowie der Erbfall nach § 153 Abs. 1 Satz 2 AO, in dem die vorsätzlich
   unterlassene Anzeige des Erben eine neue fünfzehnjährige Verjährungsfrist auslöst und über
   § 171 Abs. 7 AO zu einer steuerlich wirksamen Frist von insgesamt dreißig Jahren führt.
+  Den Teil III bildet der zusammenfassende Übungsfall zur Gaststätten- und Großküchen GmbH:
+  über drei Jahre verschwiegene Erlöse von je 120.000 € bei Körperschaft- und
+  Umsatzsteuer, eine durch die Prüfungsanordnung gesperrte Selbstanzeige
+  (§ 371 Abs. 2 Satz 1 Nr. 1a AO), eine vom Finanzamt rechtsfehlerhaft gestrichene Spende
+  als tatfremder Grund und ein nicht erfasster Wareneinkauf als tatzugehöriger Grund, dazu
+  ein Vorsteuerabzug ohne ordnungsgemäße Rechnung. Ergebnis sind sechs selbständige
+  Straftaten (KSt 18.000/18.000/12.000 €, USt 22.800/22.800/24.700 €) sowie die
+  Entscheidung über die drei Einsprüche mit Abhilfebescheiden zur Körperschaftsteuer und
+  einer verbösernden Einspruchsentscheidung zur Umsatzsteuer 16 auf 82.900 €.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

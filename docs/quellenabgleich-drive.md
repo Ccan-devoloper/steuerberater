@@ -2375,3 +2375,42 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     nennt die Übersicht „4 Tathandlungen und 4 Taterfolge“. Ferner „weil die Angaben durch
     ein und dieselbe Handlung zu erbringen gewesen **wäre**“ und „der Vater seiner
     Verpflichtung … nicht nachgekommen“ ohne „ist“.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 6)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Teil III.
+- Einpflege dieses Durchgangs: zwei Kapitel – Sachverhalt und Aufgabenstellung des
+  zusammenfassenden Übungsfalls „Gaststätten- und Großküchen GmbH“ sowie die vollständigen
+  Lösungshinweise einschließlich der Entscheidung über die drei Einsprüche. Das Skript
+  umfasst damit 10 Teile, 99 Kapitel, 2.115 Blöcke und 200 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Zur Darstellung: Die Lösung zur Umsatzsteuer hebt ihre Unterschiede zur
+  Körperschaftsteuer im PDF durch Fettdruck hervor. Diese Auszeichnung ist bei der
+  Übernahme entfallen; ein Hinweis im Kapitel sagt das ausdrücklich.
+- Noch nicht eingepflegt: der Teil IV des Abschnitts 14 (Straffreiheit bei wirksamer
+  Selbstanzeige nach § 371 AO) und der gesamte Abschnitt 15 (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 17: Die GmbH hat „Geschäftsleitung und Sitz in **Gifhorn**“, während der
+    gesamte übrige Sachverhalt und die Lösung vom Finanzamt Gütersloh und von Gaststätten
+    in Gütersloh ausgehen.
+  - Kapitel 17, Punkt 3 des Einspruchs: „obwohl **im** zweifelsfrei bewusst war“; ferner
+    erklärt sich GK dort mit einer Erhöhung „der Umsatzsteuer **15**“ einverstanden,
+    während die Lösung die Verböserung bei der Umsatzsteuer 16 vornimmt.
+  - Kapitel 18: „§ 8 Abs 1 Nr 1 EStG“ neben § 8 Abs. 1 Satz 1 KStG; „weil sie mit den
+    Betriebseinnahmen … nicht in unmittelbarem wirtschaftlichem Zusammenhang **steht**“;
+    „bei dem … nicht **berücksichtigenden** Wareneinkauf“; „dass die USt-Anmeldungen 14 bis
+    16 … ergangen **ist**“. Ferner erneut die Fundstelle „§ 370 Abs. 1 Satz 1 Halbsatz 2
+    Alt. 1 AO“, obwohl § 370 Abs. 1 AO in Nummern gegliedert ist.
+
+  Nachgerechnet und zutreffend: sämtliche Bekanntgabetermine nach der Viertagesfrist
+  (13.07.15 → 17.07.15; 19.09.16 → 23.09.16; 03.07.17 → 07.07.17; Zustimmungsschreiben
+  16.05.16 → 20.05.16); die Taterfolge 120.000 € × 15 % = **18.000 €** für KSt 14 und 15,
+  (120.000 ./. 40.000) × 15 % = **12.000 €** für KSt 16, 120.000 € × 19 % = **22.800 €**
+  für USt 14 bis 16 zuzüglich 1.900 € Vorsteuer für 16 = **24.700 €**; die Korrektur des
+  Wareneinkaufs mit 40.000 € × 15 % = **6.000 €**; und der Tenor der
+  Einspruchsentscheidung 81.000 € + 1.900 € = **82.900 €**.
