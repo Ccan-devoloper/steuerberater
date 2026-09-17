@@ -23,6 +23,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **„KStG, 1. bis 7. Einheit"** (Nöthen), Ordner `1bqhD4ayOUTo8A7WBUXgce3otxy5L7YrN` | Alle sieben Dateien vollständig | **Reine Scans ohne Textebene.** Der Connector liefert nur Seitenplatzhalter („Page 1", „Page 2", …), keinen Text. Über den Connector grundsätzlich nicht erfassbar. |
 | **PersG Fact Sheets** (Horst, April 2025), Drive-ID `179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5` | Die vollständigen 24 Seiten | **Reiner Scan ohne Textebene.** Der Connector gibt aus dem 17,4-MB-PDF nur den Wasserzeichentext zurück, sonst nichts. Der Download bricht am 10-MB-Limit des Connectors ab; eine lokale Texterkennung steht in dieser Umgebung nicht zur Verfügung. |
 | **AO Teil I** (Jacobs, Mai 2025), Drive-ID `1aHWnqQ5PE_XXgbI3Aw7ShlMe_AuEj2gQ` | Der Rest des Abschnitts 3 (ab Seite 30) und der vollständige **Abschnitt 4** | Der Connector gibt aus dem 1,4-MB-PDF 144.000 Zeichen bis Abschnitt 3, Seite 30 aus und bricht dort an einer Seitengrenze ab. Das Deckblatt kündigt „Teil I: Abschnitte 1 bis 4“ an. Die Abschnitte 1 bis 3 sind bis zur Bruchstelle eingepflegt. |
+| **AO Teil II** (Jacobs, Mai 2025), Drive-ID `15kFDJkIW4sHvVz5tlf5_s4DIEwUm0cDd` | Aus Abschnitt 6 die Seiten 43 bis 74: die Ablaufhemmungen des **§ 171 Abs. 9, 10, 10a, 14 und 15 AO** einschließlich der gesonderten Feststellung nach § 181 Abs. 5 AO | Der Connector gibt aus dem PDF 170.000 Zeichen aus und bricht in Abschnitt 6 auf Seite 42 ab. Abschnitt 5 und Abschnitt 6 bis § 171 Abs. 7 AO sind lesbar und eingepflegt. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
 Rest: wortlautgetreu, mit Kennzeichnung jeder Stelle, an der die Quelle selbst nicht
@@ -71,10 +72,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
 - AO-Skript (Jacobs), **Teil I: Abschnitte 1 bis 3 sind eingepflegt** (Reiter „Skript
   (Jacobs)“), zusammen mit dem Hinweisblatt zur Viertagesfrist. Der Rest von Teil I ist
   technisch blockiert, siehe Abschnitt A.
-- AO-Skript (Jacobs), **Teil II: Abschnitt 5 (§§ 164, 165, 168 AO) ist eingepflegt**,
-  ebenso der Stoffverteilungsplan mit dem Inhaltsverzeichnis aller fünfzehn Abschnitte.
-  Offen ist aus Teil II noch **Abschnitt 6 (Festsetzungsverjährung)**; der Connector gibt
-  ihn bis Seite 42 von 74 aus (bis § 171 Abs. 4 AO), der Rest ist technisch blockiert.
+- AO-Skript (Jacobs), **Teil II ist eingepflegt, soweit der Connector Text ausgibt**:
+  Abschnitt 5 (§§ 164, 165, 168 AO) vollständig und Abschnitt 6 (Festsetzungsverjährung)
+  bis Seite 42 von 74, das heißt bis einschließlich § 171 Abs. 7 AO. Dazu der
+  Stoffverteilungsplan mit dem Inhaltsverzeichnis aller fünfzehn Abschnitte. Der Rest des
+  Abschnitts 6 ist technisch blockiert, siehe Abschnitt A.
 - Noch nicht bearbeitet sind die weiteren Bände des Jacobs-Skripts. Die drei Dateien mit
   nichtssagenden Namen sind identifiziert: „2025) (6).pdf“ = Stoffverteilungsplan,
   „2025) (7).pdf“ = **Teil IV, Abschnitte 8 bis 10** (Rechtsbehelfsverfahren, FGO,

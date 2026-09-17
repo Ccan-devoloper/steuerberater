@@ -127,7 +127,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (die beiden gesetzlichen Fiktionen, Voranmeldung gegenüber Jahreserklärung, der
   Hinterziehungsfall Lammers und der Übungsfall Kelle zur Wahl zwischen Korrektur- und
   Einspruchsverfahren). Vorangestellt ist der Stoffverteilungsplan mit dem vollständigen
-  Inhaltsverzeichnis aller fünfzehn Abschnitte.
+  Inhaltsverzeichnis aller fünfzehn Abschnitte. Abschnitt 6 bringt die
+  Festsetzungsverjährung der §§ 169 bis 171 AO: Gegenstand und Wirkung, das
+  Prüfungsschema, Anlaufhemmung bei Antrags- und Pflichtveranlagung samt
+  Dreijahresgrenze, die vier Fristdauern und der Grundsatz der Teilverjährung, fünf
+  Rechenbeispiele, die Wahrung der Frist durch Aufgabe zur Post und beim Datenabruf
+  sowie die Ablaufhemmungen des § 171 AO – Gesamtübersicht über alle fünfzehn
+  Absätze, dazu ausführlich Absatz 2 (offenbare Unrichtigkeit, Übungsfall Müller mit
+  vier Abwandlungen), Absatz 3 und 3a (Antrag gegenüber Einspruch), Absatz 4
+  (Außenprüfung mit Unterbrechung und Höchstfrist, Fälle Flimmer und Durst) sowie die
+  Neuregelungen ab dem 01.01.2025 und die Absätze 5 und 7.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

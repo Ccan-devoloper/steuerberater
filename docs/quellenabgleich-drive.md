@@ -1797,3 +1797,69 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Abschlusszahlung von 8.000 €, die Einspruchsfrist bis 30.06.04, das Ende der
   Festsetzungsfrist am 31.12.08 und die nach Aussetzung der Vollziehung verbleibende
   Zahlung von 5.000 €.
+
+## AO-Skript (Jacobs), Teil II – Abschnitt 6: Festsetzungsverjährung
+
+- Quelle: Drive-Ordner „Abgabenordnung", Datei „B-S25-AO-Teil II-(Jacobs)-0425 (1).pdf"
+  (Drive-ID `15kFDJkIW4sHvVz5tlf5_s4DIEwUm0cDd`), zweiter Abschnitt des Bandes.
+- Einpflege: elf weitere Kapitel in `src/data/k1-ao-skript-jacobs.js`. Das Skript umfasst
+  damit 6 Teile, 45 Kapitel, 872 Blöcke und 76 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- **Abbruch der Quelle:** Der Connector endet in Abschnitt 6 auf Seite 42 von 74, nach
+  § 171 Abs. 7 AO. Nicht mehr lesbar sind die Ablaufhemmungen des § 171 Abs. 9, 10, 10a,
+  14 und 15 AO sowie die gesonderte Feststellung nach § 181 Abs. 5 AO. Das ist in
+  `docs/offene-quellen.md`, Abschnitt A, vermerkt und steht zusätzlich als redaktioneller
+  Hinweis am Ende des letzten Kapitels. Die Gesamtübersicht über alle fünfzehn Absätze des
+  § 171 AO liegt dagegen vollständig vor und ist als Tabelle übernommen.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - **Uneinheitliche Bekanntgabefrist.** Das Skript rechnet innerhalb desselben Abschnitts
+    teils mit der bis 2024 geltenden Dreitagesfrist, teils mit der ab dem 01.01.2025
+    geltenden Viertagesfrist. Mit drei Tagen gerechnet sind: das Fallbeispiel zu
+    § 171 Abs. 2 AO (Jahresfristen 15.09.05 und 23.11.07 statt 16.09.05 und 24.11.07), der
+    Übungsfall Max Müller (Bekanntgabe am 13.08.08 statt 14.08.08) und der Fall Durst
+    (Einspruchsfrist bis 05.10.13 statt 06.10.13). Mit vier Tagen gerechnet ist dagegen der
+    zusammenfassende Übungsfall zu § 171 Abs. 3a AO (Unanfechtbarkeit am 09.06.15). Jede
+    dieser Stellen ist einzeln gekennzeichnet.
+  - Kapitel 2 (Prüfungsschema, Tz. 4): Die Fristdauern werden mit „§ 169 Abs. 1 Satz 1
+    Nr. 2 und Satz 2 AO" zitiert; sie stehen in § 169 Abs. 2.
+  - Kapitel 3: Für die Entstehung der Körperschaftsteuer wird § 48 KStG angeführt; sie ist
+    in § 30 KStG geregelt, den das Skript wenige Zeilen später auch selbst zitiert. Im
+    Beispiel zu § 170 Abs. 3 AO wechselt die Lösung von dem fiktiven Jahr 12 zum
+    Kalenderjahr 2012.
+  - Kapitel 4: Der Wegfall des Vorbehalts der Nachprüfung kraft Gesetzes wird mit
+    „§ 164 Abs. 4 Satz 2 AO" zitiert; er steht in Satz 1, Satz 2 enthält die Ausnahme von
+    den verlängerten Fristen.
+  - Kapitel 5 (Beispiel 2, Fall c): „für den Erlass des gemäß § 164 Abs. 2 AO zu änderndem
+    Einkommensteuerbescheid".
+  - Kapitel 6: „gesetzlicher Feiertrag" statt Feiertag; „wenn der Steuerbescheid … den
+    Empfänger nicht zugeht".
+  - Kapitel 7 (Übersicht, Absatz 13): „nicht zu Insolvenztabelle festgestellt" und „der
+    Gemeinschuldner hat der Tabelleneintrag widersprochen".
+  - Kapitel 8 (Abwandlung 4): „dass trotz vollständiger Angaben des Stpfl. rechtsfehlerhaft
+    Werbungskosten aus § 19 EStG berücksichtigt hat" – im Nebensatz fehlt das Subjekt.
+  - Kapitel 9: Der Fristbeginn im Beispiel zu § 171 Abs. 3 AO wird mit „§ 170 II Satz 1
+    Nr. 2 AO" zitiert (richtig: Nr. 1); hinter „Begrenzung des § 164 II AO durch § 171 III
+    AO" steht eine überzählige „1".
+  - Kapitel 10: „Ist der geänderte EStG 01 vom 21.03.09 …" statt EStB; „Bei einer
+    Außenpüfung einer Personengesellschaften hemmt nur die Feststellungsfrist …" mit drei
+    Fehlern in einem Satz („Außenpüfung", „einer Personengesellschaften",
+    „Folgenbescheide").
+  - Kapitel 11: „verlängert sich die Befristung … um die Dauer der zwischenstaatlichen
+    Amtshilfe verlängern" – doppeltes Verb.
+
+  Nachgerechnet und bestätigt wurden: im Fallbeispiel zur Teilverjährung die Umsatzsteuer
+  von 7.600 € (40.000 € × 19 %) und die Erhöhung um 6.600 € nach Saldierung von 1.000 €,
+  die Fristenden 31.12.10 (vier Jahre) und 31.12.16 (zehn Jahre); im Beispiel zu § 170
+  Abs. 3 AO die Fristenden 31.12.16 (erstmalige Festsetzung) und 31.12.17 (Änderung); in
+  den fünf Rechenbeispielen sämtliche Fristenden – 31.12.07 und 31.12.08 (Beispiel 1
+  einschließlich der Dreijahresgrenze im Fall c), 31.12.09 und 31.12.08 (Beispiel 2),
+  31.12.09 und 31.12.15 (Beispiel 3), 31.12.14, 31.12.15 und 31.12.20 (Beispiel 4) sowie
+  31.12.06 und 31.12.12 mit der Neufestsetzung von + 42.000 € (50.000 € ./. 8.000 €) im
+  Beispiel 5; im Übungsfall Max Müller die Minderung um 2.800 € (800 € + 2.000 €) und das
+  Fristende 13.08.09; im Übungsfall zu § 171 Abs. 3a AO der Fristbeginn 31.12.10 über die
+  Dreijahresgrenze, das reguläre Ende 31.12.14 und die Unanfechtbarkeit am 09.06.15; im
+  Beispiel zu § 171 Abs. 4 Satz 3 AO die Höchstfrist bis 31.12.09 (Schlussbesprechung 05
+  zuzüglich vier Jahre); im Fall Durst das reguläre Fristende 31.12.12.
