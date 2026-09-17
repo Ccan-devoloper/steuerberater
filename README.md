@@ -67,8 +67,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Privatvermögen mit der Abgrenzung von Tausch und verdeckter Einlage nach den
   Gesellschafterkonten, die Übertragungswege des § 6b EStG nach R 6b.2 Abs. 6 bis 8 EStR und
   die unentgeltliche Übertragung von Mitunternehmeranteilen nach § 6 Abs. 3 EStG samt
-  Behaltefrist und mitunternehmerischer Betriebsaufspaltung. Beispiele, Bilanzen und
-  Musterlösungen stehen vollständig; die Teile III bis V folgen.
+  Behaltefrist und mitunternehmerischer Betriebsaufspaltung – und **Teil III –
+  Gesellschafterwechsel** (7 Kapitel): die Sicht auf den ausgewechselten und den
+  eingewechselten Gesellschafter, die Fortentwicklung der positiven Ergänzungsbilanz nach
+  dem BMF-Schreiben vom 19.12.2016 (BFH IV R 1/11) mit drei durchgerechneten Beispielen,
+  negatives Kapitalkonto, § 6b-Rücklage und stille Lasten beim Anteilserwerb, das
+  Ausscheiden eines Gesellschafters mit Anwachsung, Verrechnungs- und Aufstockungsmethode
+  nach IDW RS HFA 7, die Abfindung zum, unter und über dem Buchwert samt Firmenwert und
+  zwei AfA-Reihen, der lästige Gesellschafter und die private Zusatzzahlung sowie die
+  Sachwertabfindung in das Privatvermögen (Zweistufentheorie) und in das Betriebsvermögen
+  (unechte Realteilung nach dem Realteilungserlass vom 19.12.2018). Beispiele, Bilanzen und
+  Musterlösungen stehen vollständig; die Teile IV und V folgen.
   Prüfung: `npm run check:k3-persg-skript-melzer`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

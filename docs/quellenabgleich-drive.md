@@ -1500,3 +1500,40 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   526.000 € sowie der Zwischenwertgewinn von 29.200 €; in Lösung 11 die 50 %- und
   2/3-Anteile (71.000 / 85.000 / 6.000 € bzw. 47.333 / 56.667 / 4.000 €) und die
   Bilanzsummen 708.500 € und 1.077.500 €.
+
+## PersG-Skript (Melzer), Teil III
+
+- Quelle im Drive, Ordner „Personengesellschaften" (`1u8086Ukam7Zm3DQFnjde_KFwVg7Qzjs_`):
+  die Datei mit dem nichtssagenden Namen **„2026) (10).pdf"** (`1ZTqe-T2yZRfOPM85YfA5R8FIxwVcO_2i`,
+  28 Seiten). Ihr Titelblatt lautet „Personengesellschaften Teil III – Gesellschafterwechsel
+  Ausscheiden eines Gesellschafters", Verfasser Karsten Melzer, April 2026,
+  Rechtsstand 2025.
+- Einpflege: als Teil III in `src/data/k3-persg-skript-melzer.js` (7 Kapitel), angezeigt im
+  PersG-Campus unter „Skript (Melzer)". Damit umfasst das Skript 3 Teile, 21 Kapitel,
+  454 Blöcke und 48 Tabellen; Prüfung `npm run check:k3-persg-skript-melzer`.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Kapitel 2, Beispiel 2: Die Gegenbuchung lautet „Gebäude 1.200 € an Minder-AfA 1.200 €“
+    statt auf das Konto AfA.
+  - Kapitel 4, Fall zur Buchwertabfindung: „Der Bilanzansatz in der Steuerbilanz zum
+    31.12.2024 beträgt 48.000 € ./. 8.480 € = 39.520 €“ – gemeint ist der 31.12.2025.
+  - Kapitel 5, Fall zur Abfindung über dem Buchwert: Die Schlussbilanz ist mit „31.12.2023“
+    überschrieben, obwohl der Text vom 31.12.2024 spricht. Im Gebäudeteil heißt es „Davon
+    entfallen auf A und B 2/3 = 300.000 €“; 2/3 von 300.000 € sind 200.000 €, und genau
+    daraus errechnet die Quelle die AfA von 8.000 €.
+  - Kapitel 5, Behandlung bei den verbleibenden Gesellschaftern: Zitat
+    „§ 39 Abs. 2 Nr. 2 Satz 2 HGB“ statt AO.
+  - Kapitel 7, Beispiel zu den stillen Lasten: „Der Bilanzansatz in der Steuerbilanz zum
+    31.12.2024 beträgt 70.000 € ./. 8.333 € = 61.667 €“ – gemeint ist der 31.12.2025.
+
+  Nachgerechnet und bestätigt wurden unter anderem: im Kapitel 2 die Mehr-AfA von 2.000 €
+  (35.000 € x 1/5 ./. 5.000 €) und die Minder-AfA von 1.200 € (310.000 € x 3 % ./.
+  10.500 €), im Gesellschafterwechsel-Beispiel die stillen Reserven von 10.000 € und
+  20.000 €, der Firmenwert von 45.000 €, das Mehrkapital von 75.000 € und die Minder-AfA
+  von 2.920 € (4.000 € ./. 1.080 €); im Kapitel 5 der Firmenwert von 15.000 € und die
+  Bilanzsumme von 283.000 €; im Kapitel 6 der Firmenwert von 15.000 € (130.000 € ./.
+  100.000 € ./. 15.000 €) sowie die Bilanzsummen der beiden Stufen (340.000 € und
+  230.000 €); im Kapitel 7 die AfA von 8.333 € (5.000 € + 3.333 €) und die Bilanzsumme von
+  385.000 €.
