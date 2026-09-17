@@ -1005,3 +1005,42 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   - Sachverhalt 4, Tz. II.4: Der Rechtsanwendungsfehler führte zu einem um 2.000 € zu
     niedrigen Gewinn; die Musterlösung schreibt „zu hohen Gewinns" und rechnet anschließend
     zutreffend mit + 800 € Einkommensteuer.
+
+- **Übungsklausur „Abgabenordnung" (Kopfzeile „Übungsklausur AO/FGO", Rechtsstand 2025)** –
+  Hans-Jürgen Jacobs, Korrektor J. Otterbein; Drive-IDs
+  `1HLWbItF6AN9EDkPsAsPdJDMj_c1vzdsm` (Aufgabe) und `1bac-A1QDAT_n3NbK2TyvTHe6QhTmFM9-`
+  (Lösung). Sie steht im AO-Campus im Reiter „Übungsklausur (AO)" neben der Teilklausur
+  Abgabenordnung der Klausur AO/USt.
+
+  Übernommen sind alle vier Sachverhalte: Friedrich Tisch mit Abwandlung (44 Punkte),
+  Hanna Hansen (28 Punkte), A (18 Punkte) und Willi Wutz (10 Punkte) – zusammen die
+  ausgewiesenen 100 Punkte. Sachverhalt, Aufgabenstellung, Bearbeitungshinweise und
+  Lösungshinweise stehen im Wortlaut, die Fristberechnungen und der Berichtigungsrahmen als
+  Tabelle.
+
+  Randpunkte: Sie stehen in dieser Klausur überwiegend blockweise am Seitenende. Zugeordnet
+  sind deshalb nur die inline ausgewiesenen Werte – 22 von 28 Punkten in Sachverhalt 2 und
+  9 von 18 Punkten in Sachverhalt 3. In den Sachverhalten 1 und 4 ist kein Punktwert einem
+  Absatz zugeordnet; das ist jeweils am Ende der Lösung vermerkt.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Sachverhalt 1, Aufgabe 2: „an den Antrag der Einspruchsführerin" – Einspruchsführer ist
+    FT. Ferner nennt der Sachverhalt einen nach § 33a Abs. 1 EStG abzugsfähigen Betrag von
+    2.700 €, während die Lösung durchgehend mit 2.500 € rechnet.
+  - Sachverhalt 1, Aufgabe 3: „FT hat eine Herabsetzung der Einkommensteuer auf 23.280 €
+    begehrt" – beantragt war eine Herabsetzung um 1.800 €, also auf 23.200 €.
+  - Sachverhalt 1, Abwandlung: „aus dem nicht Sachverhalt erkennbar"; „Der Rechenfehler
+    stelle nur ein Versehen"; „ist liegt nicht vor"; „$§ 173a AO".
+  - Sachverhalt 1, Schlussrechnung: Die Zeile „§ 129 AO (WK)" widerspricht den Ausführungen
+    unter Nummer 1 der Abwandlung, wonach § 129 AO gerade nicht erfüllt ist und die
+    Werbungskosten nach § 173 Abs. 1 Nr. 2 AO bzw. § 173a AO zu korrigieren sind.
+  - Sachverhalt 2, Aufgabe 1: „Somit durfte im Mai 14 … ein geänderter Feststellungsbescheid
+    08 ergehen" – bekanntgegeben wurde er im Juli 14; ebenso stellt die Lösung für die
+    Wirksamkeit des Vorbehalts auf den 10.11.10 statt auf den Juli 14 ab.
+  - Sachverhalt 2, Aufgabe 3: „FT begehrte auch die Herabsetzung" – Einspruchsführerin ist HH.
+  - Sachverhalt 3, Aufgabe 2: „A hat am 21.03.13 eine Selbstanzeige … abgegeben" – Eingang war
+    nach Sachverhalt und nach der anschließenden Berechnung der 21.02.13.
+  - Sachverhalt 4: „nach § 169 Abs. 2 Satz 2 Nr. 2 AO vier Jahre" – die vierjährige Frist
+    folgt aus § 169 Abs. 2 Satz 1 Nr. 2 AO.
