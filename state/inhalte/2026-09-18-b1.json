@@ -1,0 +1,105 @@
+{
+  "format": "spickzettel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr3-11",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Der Fehler, der jede Auslandsklausur zur Anteilsveräußerung kostet",
+      "icon": "globus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Examensklassiker",
+      "hinweis": "Schau rein"
+    },
+    {
+      "art": "karte",
+      "titel": "Das ganze Prüfschema auf einer Karte",
+      "schritte": [
+        {
+          "titel": "Veräußerungsgewinn berechnen",
+          "text": "Erlös ./. Anschaffungskosten ./. Veräußerungskosten."
+        },
+        {
+          "titel": "Inlandsanknüpfung der Anteile prüfen",
+          "text": "§ 49 (1) Nr. 2 lit. e) EStG"
+        },
+        {
+          "titel": "Freistellung dem Grunde nach ansetzen",
+          "text": "§ 8b (2) KStG: Gewinn *außer Ansatz*"
+        },
+        {
+          "titel": "5-%-Fiktion gegenprüfen",
+          "text": "§ 8b (3) S. 1 KStG"
+        },
+        {
+          "titel": "Anknüpfung der Fiktion checken",
+          "text": "Ohne Betriebsstätte/ständigen Vertreter: keine Hinzurechnung, BFH I R 37/15"
+        },
+        {
+          "titel": "Ergebnis festhalten",
+          "text": "Fehlt der Inlandsbezug der Fiktion, bleibt es bei voller Freistellung"
+        }
+      ],
+      "icon": "globus"
+    },
+    {
+      "art": "text",
+      "titel": "Die zwei Fehlerquellen",
+      "punkte": [
+        "Klausur beginnt mit § 8b, statt zuerst die *Inlandsanknüpfung* über § 49 zu klären.",
+        "Die 5-%-Fiktion wird *automatisch* angesetzt, ohne zu prüfen, ob sie im Ausland überhaupt greift."
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Freistellung ist die Regel – die 5 Prozent brauchen selbst einen eigenen Inlandsanker.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "cta",
+      "titel": "Diese Karte lohnt sich zu speichern.",
+      "punkte": [
+        "Schick das deiner Lerngruppe – Dauerbrenner-Thema",
+        "Speichern und vor der Klausur wiederholen",
+        "Welche Norm fehlt dir noch? Kommentiere!"
+      ],
+      "icon": "haken"
+    }
+  ],
+  "caption": "Anteilsveräußerung durch ausländische Körperschaft: greift § 8b KStG wirklich immer? Viele prüfen bei einer beschränkt steuerpflichtigen ausländischen Gesellschaft direkt die 5-%-Hinzurechnung nach § 8b (3) KStG – und übersehen, dass diese Fiktion selbst einen Inlandsbezug braucht. Ohne inländische Betriebsstätte oder ständigen Vertreter läuft sie nach der BFH-Entscheidung I R 37/15 schlicht ins Leere. Zuerst § 49 EStG, dann § 8b (2), dann erst die Gegenprüfung nach (3)– diese Reihenfolge entscheidet über Punkte. Schick das deiner Lerngruppe, bevor ihr das nächste Mal internationales Steuerrecht übt, und speichern nicht vergessen. Wo hakt es bei euch: bei § 49 oder bei der 5-%-Fiktion?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#steuerberaterprüfung2026",
+    "#steuernlernen",
+    "#internationalessteuerrecht",
+    "#kstg",
+    "#paragraf8b",
+    "#anteilsveräußerung",
+    "#beschränktesteuerpflicht",
+    "#bfhrechtsprechung"
+  ],
+  "kurztitel": "Anteilsveräußerung: das ganze Schema",
+  "bildSzene": "stock certificate on wooden desk",
+  "bildSzeneAlt": "globe beside office folder stack",
+  "quellen": [
+    "BFH, Urteil vom 31.05.2017 – I R 37/15"
+  ],
+  "hookTyp": "fehler",
+  "faktenHinweise": [
+    "Folie titel: Behauptung, der beschriebene Fehler koste \"jede\" Auslandsklausur zur Anteilsveräußerung – unbelegte Typik-/Häufigkeitsaussage.",
+    "Caption: \"Viele prüfen ... direkt die 5-%-Hinzurechnung\" – unbelegte Häufigkeitsbehauptung.",
+    "Folie cta: \"Dauerbrenner-Thema\" suggeriert unbelegte Typik/Häufigkeit des Prüfungsschwerpunkts.",
+    "Folie karte, Inlandsanknüpfung: § 49 (1) Nr. 2 lit. e) EStG wird ohne die tragende Voraussetzung genannt, dass eine Beteiligung im Sinne des § 17 EStG (mind. 1 % innerhalb der letzten fünf Jahre) vorliegen muss bzw. es sich um eine grundstücksreiche Gesellschaft handelt – ohne diese Angabe bleibt die Norm unvollständig dargestellt."
+  ],
+  "slug": "2026-09-18-b1"
+}

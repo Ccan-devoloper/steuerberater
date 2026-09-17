@@ -1,0 +1,149 @@
+{
+  "datum": "2026-09-18",
+  "zweck": "reel",
+  "daten": {
+    "szenen": [
+      {
+        "art": "hook",
+        "nummer": null,
+        "titel": "Das kostet die ganze Textziffer",
+        "unter": "Wenn du den falschen Einspruch prüfst",
+        "text": null,
+        "norm": null,
+        "icon": "umschlag",
+        "sprecher": "Wer bei unklaren Schreiben den falschen Einspruch prüft, verliert am Ende die komplette Textziffer.",
+        "marken": [
+          "Einspruch *unklar*",
+          "Textziffer *verloren*"
+        ],
+        "bildSzene": "short handwritten note beside opened envelope",
+        "kreuz": false
+      },
+      {
+        "art": "punkt",
+        "nummer": null,
+        "titel": "Der Fall",
+        "unter": null,
+        "text": "Unklares Schreiben ohne das Wort Einspruch",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Frau Sommer aus der Bäckerei Lindenhof bekommt einen Steuerbescheid und schreibt nur: Ich bin damit nicht einverstanden. Von Einspruch steht da kein Wort.",
+        "marken": [
+          "Kein Wort *Einspruch*",
+          "Nur ein Satz"
+        ],
+        "bildSzene": "brief handwritten complaint note on paper",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 1,
+        "titel": "Auslegung: rechtsschutzfreundlich",
+        "unter": null,
+        "text": "Unklare Erklärung möglichst weit als Einspruch lesen",
+        "norm": "§§ 347 ff. AO",
+        "icon": null,
+        "sprecher": "Die Finanzbehörde muss ein solches Schreiben so auslegen, wie es dem größten Rechtsschutz dient. Im Zweifel wird daraus ein Einspruch – auch ohne dieses Wort.",
+        "marken": [
+          "Auslegung: *rechtsschutzfreundlich*"
+        ],
+        "bildSzene": "magnifying glass over short handwritten text",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 2,
+        "titel": "Zulässigkeit zuerst",
+        "unter": null,
+        "text": "Form, Frist, Beschwer – vor der Sache selbst",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Dann prüfst du zuerst die Zulässigkeit: Form, Frist und Beschwer. Erst wenn das alles passt, geht es überhaupt weiter.",
+        "marken": [
+          "Form · Frist · *Beschwer*"
+        ],
+        "bildSzene": "calendar page with circled deadline",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 3,
+        "titel": "Begründetheit danach",
+        "unter": null,
+        "text": "Nur bei Zulässigkeit: ist der Bescheid rechtmäßig?",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Nur wenn der Einspruch zulässig ist, prüfst du die Begründetheit – also ob der Bescheid tatsächlich rechtswidrig ist und Frau Sommer in ihren Rechten verletzt.",
+        "marken": [
+          "Nur wenn *zulässig*"
+        ],
+        "bildSzene": "stack of tax assessment papers",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 4,
+        "titel": "Und die Vollziehung?",
+        "unter": null,
+        "text": "Aussetzung nach § 361 AO gesondert beantragen",
+        "norm": "§ 361 AO",
+        "icon": null,
+        "sprecher": "Denk außerdem an Paragraf 361 der Abgabenordnung: Die Aussetzung der Vollziehung läuft getrennt vom Einspruch selbst und musst du gesondert beantragen.",
+        "marken": [
+          "§ 361 AO: *gesondert*"
+        ],
+        "bildSzene": "second stapled document set apart",
+        "kreuz": false
+      },
+      {
+        "art": "merke",
+        "nummer": null,
+        "titel": "Erst zulässig, dann begründet",
+        "unter": null,
+        "text": null,
+        "norm": "§§ 347 ff. AO · § 361 AO",
+        "icon": null,
+        "sprecher": "Merk dir die Reihenfolge: erst, ob der Einspruch überhaupt zulässig ist – dann, ob er auch begründet ist. Nie umgekehrt.",
+        "marken": [
+          "Erst *zulässig*, dann begründet"
+        ],
+        "bildSzene": null,
+        "kreuz": false
+      },
+      {
+        "art": "cta",
+        "nummer": null,
+        "titel": "Folgen für Klausurtechnik",
+        "unter": null,
+        "text": "Prüf jeden Einspruch einzeln: erst zulässig, dann begründet",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Schick das der Person aus deiner Lerngruppe, die in der letzten Klausur die Begründetheit vor der Zulässigkeit geprüft hat. Folgen für tägliche Prüfungsfragen zu allen drei Klausuren.",
+        "marken": [
+          "Lerngruppe *taggen*"
+        ],
+        "bildSzene": null,
+        "kreuz": false
+      }
+    ],
+    "caption": "Einspruch bei der Abgabenordnung: Wann ist ein unklares Schreiben überhaupt ein Einspruch?\n\nFehlt das Wort Einspruch, muss die Finanzbehörde das Schreiben trotzdem so auslegen, wie es dem größten Rechtsschutz dient. Danach zählt nur die Reihenfolge: erst Zulässigkeit, dann Begründetheit. Wer das vertauscht, verliert Punkte, auch wenn der Rest stimmt.\n\nSchick das der Person in deiner Lerngruppe, die Begründetheit vor Zulässigkeit prüft. Speichern für die Wiederholung.\n\nWelche der beiden Prüfungen fällt dir schwerer – Zulässigkeit oder Begründetheit?",
+    "hashtags": [
+      "#einspruch",
+      "#abgabenordnung",
+      "#einspruchsverfahren",
+      "#zulässigkeit",
+      "#begründetheit",
+      "#verfahrensrecht",
+      "#klausurtechnik",
+      "#stbexamen",
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#steuerberater",
+      "#steuerrecht",
+      "#examensvorbereitung"
+    ],
+    "kurztitel": "Einspruch: zulässig oder nicht?",
+    "bildSzene": "opened envelope with short handwritten note",
+    "bildSzeneAlt": "magnifying glass over official letter"
+  }
+}

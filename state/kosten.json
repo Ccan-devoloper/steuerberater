@@ -202,6 +202,22 @@
         "erklaerbild": 0.01
       },
       "stand": "2026-09-17T10:44:49.553Z"
+    },
+    "2026-09-18": {
+      "usd": 0.2712,
+      "antworten": 0,
+      "aufrufe": 3,
+      "zwecke": {
+        "reel": 0.143,
+        "autor": 0.0771,
+        "faktencheck": 0.0511
+      },
+      "messungen": {
+        "reel": 0.143,
+        "autor": 0.0771,
+        "faktencheck": 0.0511
+      },
+      "stand": "2026-09-17T22:28:58.329Z"
     }
   }
 }
