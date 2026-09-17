@@ -87,9 +87,13 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
 - **AO Teil IV** („2025) (7).pdf“, Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA`): Dieser
   Band ist **vollständig ausgewertet**, soweit der Connector ihn ausgibt – Abschnitt 8
   ganz, Abschnitt 9 bis Seite 17. Was dahinter liegt, steht in Abschnitt A.
-- Noch nicht bearbeitet sind die weiteren Bände des Jacobs-Skripts: „2025) (8).pdf“ =
-  **Teil VI, Abschnitte 14 und 15** (Steuerstraf- und Bußgeldrecht, Vollstreckungsrecht)
-  sowie **Teil V** unter seinem eigenen Namen.
+- **AO Teil VI** („2025) (8).pdf“, Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`): Aus
+  Abschnitt 14 (Steuerstraf- und Bußgeldrecht) ist der Teil I (Allgemeine Grundlagen)
+  eingepflegt. Offen sind daraus noch die Teile II bis IV (Steuerhinterziehung nach
+  § 370 AO im Einzelnen mit Prüfungsschema, Übungsfällen und Selbstanzeige, Bußgeldrecht)
+  sowie der gesamte **Abschnitt 15** (Vollstreckungsrecht).
+- Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
+  `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript
 - FGO
 - Notfallbuch

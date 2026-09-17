@@ -195,6 +195,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   durchgerechnetem Fristbeispiel, die Untätigkeitsklage mit ihren drei Voraussetzungen
   sowie Klagebefugnis, Beiladung nach dem MoPeG und die Berechnung der Klagefrist über
   § 222 ZPO.
+  Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
+  Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
+  Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und
+  Fünfjahresfrist, Grundsatz der Teilverjährung und die Ablaufhemmungen des § 171 Abs. 4, 5,
+  7 und 9 AO mit drei durchgerechneten Fallbeispielen (Kontrollmitteilung, erweiterte
+  Außenprüfung, Abgrenzung von § 153 AO und § 371 AO) –, die Korrekturvorschriften bei
+  Hinterziehung und Leichtfertigkeit samt Rechtsfehlersaldierung verjährter Fehler nach
+  § 177 AO und den unlauteren Mitteln des § 172 Abs. 1 Satz 1 Nr. 2c AO, das Verhältnis von
+  Besteuerungs- und Strafverfahren nach § 393 AO, Haftung und Hinterziehungszinsen sowie die
+  Strafverfolgungsverjährung nach §§ 78ff StGB und § 376 AO mit dem Fall Theo Trickreich, der
+  50.000-Euro-Grenze des BGH und den Strafmaß-Leitlinien bei sechs- und siebenstelligen
+  Hinterziehungsbeträgen.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

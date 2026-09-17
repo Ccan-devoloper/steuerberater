@@ -2171,3 +2171,48 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   abzüglich der im Einspruchsverfahren gewährten 30.000 € ergibt einen Klageantrag über
   20.000 €; beantragte 80.000 € Teilwertabschreibung abzüglich der anerkannten 30.000 €
   ergibt 50.000 €.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 1)
+
+- Quelle: Drive-Ordner „Abgabenordnung“, Datei mit dem nichtssagenden Namen
+  „2025) (8).pdf“ (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`). Das Deckblatt weist den
+  Band als „Teil VI: Abschnitte 14 und 15“ aus. Der Connector gibt 359.000 Zeichen aus:
+  Abschnitt 14 (Steuerstraf- und Bußgeldrecht) und ab etwa zwei Dritteln Abschnitt 15
+  (Vollstreckungsrecht). Der Rohtext dieses Bandes kommt in einem anderen Format als die
+  übrigen (Seitenmarken und Fettauszeichnungen); er ist vor der Übernahme davon bereinigt
+  worden, ohne den Wortlaut zu ändern.
+- Einpflege dieses Durchgangs: vier Kapitel aus Teil I (Allgemeine Grundlagen) – Abgrenzung
+  von Steuerstraftat und Ordnungswidrigkeit, Grundzüge der gesetzlichen Regelungen,
+  Auswirkungen auf die Festsetzungsverjährung, Korrektur und Rechtsfehlersaldierung sowie
+  die Strafverfolgungsverjährung. Das Skript umfasst damit 10 Teile, 85 Kapitel,
+  1.846 Blöcke und 167 Tabellen; Prüfung `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: die Teile II bis IV des Abschnitts 14 (Steuerhinterziehung nach
+  § 370 AO im Einzelnen mit Prüfungsschema, Übungsfällen und Selbstanzeige, Bußgeldrecht)
+  und der gesamte Abschnitt 15 (Vollstreckungsrecht). Das folgt in den nächsten Schritten
+  und ist am Ende des Kapitels 4 als redaktioneller Hinweis vermerkt.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 2, Fallbeispiel zur Abgrenzung von § 153 AO und § 371 AO: „§ 108 Abs. 1 AO iVm
+    § 188 Abs. 2 AO“ – gemeint ist das BGB; ferner „in der G+V des des Jahres 01“.
+  - Kapitel 3: „Jedes vorsätzlich Verhalten“ und „wie jedes vorsätzliche Falschangaben“.
+  - Kapitel 4, Beispiel Theo Trickreich: Der Beginn der Strafverfolgungsverjährung am
+    12.12.02 beruht auf der bis 2024 geltenden Dreitagesfrist (Bescheid zur Post am
+    09.12.02); nach § 122 Abs. 2 Nr. 1 AO in der ab 2025 geltenden Fassung wäre die
+    Bekanntgabe am 13.12.02 und die Verjährung erst mit Ablauf des 13.12.07 eingetreten.
+    Innerhalb der alten Frist ist die Rechnung stimmig.
+  - Kapitel 4: Auf die Gliederungsziffer 4.5 folgt unmittelbar 4.7; eine Ziffer 4.6 ist
+    nicht abgedruckt.
+
+  Nachgerechnet und zutreffend: das Fallbeispiel zur Teilverjährung – 40.000 € + 16.000 €
+  + 6.000 € + 1.200 € = 63.200 € materiell zutreffende Steuer, davon korrigierbar nur die
+  Hinterziehung (Frist bis 31.12.12) und die leichtfertige Verkürzung (Frist bis
+  31.12.07), also 40.000 € + 22.000 € = **62.000 €**; der Werbungskostenfehler ist mit
+  Ablauf des 31.12.06 verjährt, woraus sich der Aussetzungsbetrag von 1.200 € ergibt. Das
+  Fallbeispiel zu § 177 AO – festgesetzte 75.000 € zuzüglich 24.000 € Hinterziehung
+  ergibt eine Obergrenze von 99.000 €, abzüglich des saldierten Rechtsfehlers von 4.000 €
+  verbleiben **95.000 €**. Ebenso die Fristen des Außenprüfungsfalls (reguläres Ende
+  31.12.11, verlängertes Ende 31.12.17) und die Jahresfristen des § 171 Abs. 9 AO
+  (28.10.07 und 25.08.13).
