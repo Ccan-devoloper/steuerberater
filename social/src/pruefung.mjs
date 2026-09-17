@@ -425,6 +425,22 @@ const NORM = /(?:§§?|Art\.|Artikel|R|H)\s*\d+(?:\.\d+)?[a-z]?(?:\s*(?:\(\d+[a-
    also erst nachdem der Text geschrieben und bezahlt ist. */
 const ZITIER_ARTIKEL = /(?:§§?\s*|\bParagra(?:f|ph)(?:en)?\s+)\d+[a-z]?(?:\s*(?:\(\d+[a-z]?\)|(?:Abs\.|Absatz|S\.|Satz|Nr\.|Nummer)\s*\d+[a-z]?))*\s*(?:GG|AEUV|EUV|EMRK|GRCh)\b/;
 
+/* Eine Norm ohne Gesetz ist auf der Buehne wertlos: „§ 20" sagt niemandem,
+   welches Gesetz gemeint ist. Am 17.09. standen „§ 3 vs. § 7", „§ 20" und
+   „§ 9 + § 11" auf den Stichwortzeilen eines Reels - das ErbStG stand nur im
+   Datensatz, nicht im Bild. Gefunden wird jede Paragrafen- oder
+   Artikelnennung, hinter der bis zum Ende der Zeile kein Gesetzeskuerzel mehr
+   folgt. Aufzaehlungen („§ 9 + § 11 ErbStG") gelten damit als versorgt. */
+const GESETZ_KUERZEL = /\b(?:HGB|EStG|AO|UStG|KStG|GewStG|ErbStG|BewG|UmwStG|AStG|EStDV|EStR|EStH|KStR|KStH|UStAE|BGB|GrEStG|FGO|SolZG|DBA|GewStR|UmwG|GmbHG|AktG|InsO|ZPO|BewG)\b/;
+export function normenOhneGesetz(text) {
+  const t = String(text || "");
+  const treffer = [];
+  for (const m of t.matchAll(/(?:§§?|Art\.|Artikel)\s*\d+[a-z]?/g)) {
+    if (!GESETZ_KUERZEL.test(t.slice(m.index + m[0].length))) treffer.push(m[0]);
+  }
+  return treffer;
+}
+
 export function ohneNormen(text) {
   return String(text).replace(NORM, " NORM ").replace(/\b(Abs|S|Nr|Buchst|Hs|Alt)\.\s*\d+[a-z]?/g, " NORM ").replace(/\(\d+[a-z]?\)/g, " NORM ");
 }

@@ -2594,3 +2594,52 @@ test("Messversuch: Beiträge und Reels schreiben mit medium, Stories bleiben bei
   assert.match(autor, /schema: REEL_SCHEMA, zweck: "reel", effort: CONFIG\.ki\.effortBeitrag/);
   assert.match(autor, /schema: STORY_SCHEMA, modell: CONFIG\.ki\.modellNeben, effort: CONFIG\.ki\.effort/);
 });
+
+/* --------------------------------------------------------------------------
+   Reel vom 17.09.: Motive daneben, Paragrafen ohne Gesetz, Eigenbegriff im
+   Kurztitel. Drei Regeln dagegen.
+   -------------------------------------------------------------------------- */
+test("Bühnentext: jede Norm trägt ihr Gesetz", async () => {
+  const { normenOhneGesetz } = await import("../src/pruefung.mjs");
+  /* Genau die Zeilen, die am 17.09. auf dem Reel standen. */
+  assert.deepEqual(normenOhneGesetz("§ 3 vs. § 7: Vorgang trennen"), ["§ 3", "§ 7"]);
+  assert.deepEqual(normenOhneGesetz("§ 20: Schuldner klären"), ["§ 20"]);
+  /* Einmal das Gesetz am Ende versorgt eine Aufzählung. */
+  assert.deepEqual(normenOhneGesetz("§ 9 + § 11 ErbStG: ein Paar"), []);
+  assert.deepEqual(normenOhneGesetz("§ 173 AO, § 129 AO"), []);
+  assert.deepEqual(normenOhneGesetz("Frist gewahrt"), []);
+  const autor = fs.readFileSync(new URL("../src/autor.mjs", import.meta.url), "utf8");
+  assert.match(autor, /nennt \$\{nackt\.join\(", "\)\} ohne Gesetz/, "reelSchreiben lehnt Stichwortzeilen ohne Gesetz ab");
+  assert.match(autor, /Jede Norm auf der Bühne trägt ihr Gesetz/, "und die Anleitung sagt es dem Autor vorher");
+});
+
+test("Bildregie: Metaphern fliegen, Fachgegenstände bleiben, Ausfall kostet das Reel nicht", async () => {
+  const autor = fs.readFileSync(new URL("../src/autor.mjs", import.meta.url), "utf8");
+  const { bildregie } = await import("../src/autor.mjs");
+  assert.equal(typeof bildregie, "function");
+  /* Ohne Motive kein Aufruf - und damit kein Geld. */
+  assert.deepEqual(await bildregie({ szenen: [{ art: "hook", titel: "x", sprecher: "y" }] }), { geprueft: 0, ersetzt: 0 });
+  assert.match(autor, /budgetPruefen\("Bildregie \(bildregie\)"\)/, "die Regie hat ihren eigenen Zweck im Deckel");
+  assert.match(autor, /await bildregieSicher\(reel\); return reel;/, "läuft vor jeder Rückgabe des Reels");
+  assert.match(autor, /Bildregie übersprungen/, "und ein Ausfall lässt das Reel durch");
+  assert.match(autor, /Metaphern gelten NICHT/, "die Regel steht im Systemtext");
+  const k = await import("../src/kosten.mjs");
+  assert.equal(k.erwartet("bildregie"), 0.01, "Cent-Betrag, nicht der Standardwert");
+  const lauf = fs.readFileSync(new URL("../src/lauf.mjs", import.meta.url), "utf8");
+  assert.match(lauf, /"erklaerbild", "bildregie"\]/, "die Regie darf an die Rücklage der Beiträge");
+});
+
+test("Gliederungsetiketten und Kürzel des Dozenten kommen nicht in den Pool und nicht durch die Prüfung", async () => {
+  const { gefundeneEigenbegriffe, pruefeBeitrag } = await import("../src/pruefung.mjs");
+  const { themenpool } = await import("../src/inhalte.mjs");
+  assert.deepEqual(gefundeneEigenbegriffe("Der Vorspann vor jeder Bewertung"), ["Vorspann"]);
+  assert.deepEqual(gefundeneEigenbegriffe("Schritt 1: WSV, dann NNAS verteilen").sort(), ["NNAS", "WSV"]);
+  assert.deepEqual(gefundeneEigenbegriffe("Das Wasserstraßen- und Schifffahrtsverwaltungsamt"), [], "nur das blanke Kürzel, nicht Wortteile");
+  const pool = themenpool();
+  const verdaechtig = pool.filter((t) => /vorspann|\bWSV\b|\bNNAS\b|^(?:[IVX]+\.|Schritt \d)/i.test(JSON.stringify(t)));
+  assert.deepEqual(verdaechtig.map((t) => t.id), [], "kein Thema trägt mehr die Sprache des Dozenten");
+  const t502 = pool.find((t) => t.id === "erbst-modul-erbst-502");
+  assert.equal(t502?.titel, "Erbschaftsteuer-Klausur: die Vorfragen vor der ersten Bewertung");
+  const r = pruefeBeitrag({ folien: [{ art: "titel", titel: "Der Vorspann vor jeder Bewertung" }, { art: "text", titel: "x", text: "y" }, { art: "cta" }] });
+  assert.ok(r.fehler.some((f) => /Vorspann/.test(f)), "ein Beitrag mit dem Etikett fällt durch");
+});

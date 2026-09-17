@@ -11,6 +11,7 @@
    pruefung.mjs stellt anschließend sicher, dass nichts 1:1 übernommen wurde.
    ========================================================================== */
 
+import { eigenbegriffKuerzel } from "./pruefung.mjs";
 import { module as k3Module } from "../../src/data/module.js";
 import { formeln, karteikarten, quizfragen, glossar } from "../../src/data/lernstoff.js";
 import { kstModule, kstSchemata } from "../../src/data/kst-module.js";
@@ -85,12 +86,43 @@ function normenAus(m) {
 }
 
 /* Titel von Kurs-Präfixen befreien („Einheit 3 Recap: …“, „Tag 2: …“). */
+/* Titel, die im Kursmaterial Gliederungspunkte sind („I. Vorspann", „Schritt
+   2: NNAS - …"), tragen die Sprache des Dozenten und nicht die des Fachs. Am
+   17.09. stand „Vorspann" als Kurztitel auf einem Reel. Für die bekannten
+   Fälle gibt es einen fachlichen Ersatztitel; darüber hinaus fallen führende
+   Gliederungsnummern und Schritt-Zähler weg. */
+const TITEL_ERSATZ = {
+  "Lösungsaufbau ErbSt: I. Vorspann": "Erbschaftsteuer-Klausur: die Vorfragen vor der ersten Bewertung",
+  "II. Einleitung: Bereicherung und gemischte Schenkung / Schenkung unter Auflage": "Bereicherung, gemischte Schenkung und Schenkung unter Auflage",
+  "III. Ermittlung des steuerpflichtigen Erwerbs - Schritt 1: WSV, Bewertung, sachliche Befreiungen und zuordenbare Belastungen": "Steuerpflichtiger Erwerb: Bewertung, sachliche Befreiungen und zuordenbare Belastungen",
+  "Schritt 2: NNAS - nicht direkt zuordenbare Schulden/Lasten proportional verteilen": "Nicht direkt zuordenbare Schulden und Lasten anteilig verteilen",
+  "Schritt 3: Bereicherung, persönliche Freibeträge und Abrundung zum steuerpflichtigen Erwerb": "Bereicherung, persönliche Freibeträge und Abrundung zum steuerpflichtigen Erwerb",
+  "IV. Steuerberechnung: § 19 ErbStG und Härteausgleich": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
+};
 function titelBereinigen(titel) {
-  return String(titel || "")
+  const roh = String(titel || "").trim();
+  if (TITEL_ERSATZ[roh]) return TITEL_ERSATZ[roh];
+  return roh
     .replace(/^(Einheit\s*\d+\s*(Recap|Wiederholung)?\s*[:–-]\s*)/i, "")
     .replace(/^(Recap|Wiederholung|Tag\s*\d+)\s*[:–-]\s*/i, "")
     .replace(/\s*\((Einheit|Tag)\s*\d+\)\s*$/i, "")
+    .replace(/^(?:[IVX]+\.|\d+\.|[A-Z]\))\s+/, "")
+    .replace(/^Schritt\s*\d+\s*[:–-]\s*/i, "")
     .trim();
+}
+
+/* Kürzel des Dozenten (WSV, NNAS …) aus Titel und Skelett tilgen, bevor der
+   Autor sie sieht: Was nicht im Auftrag steht, landet auch nicht im Text.
+   Die Prüfung fängt sie zwar ab – aber jeder Fang kostet eine Neufassung. */
+/* Ganze Woerter des Dozenten bekommen das Fachwort, kein Loch: „der Vorspann
+   besteht aus fuenf Pruefpunkten" -> „die Vorfragen bestehen …" waere zu viel
+   Grammatik; „die Vorfragen" als Ersatz traegt den Satz noch. */
+const BEGRIFF_ERSATZ = [[/\bVorspann-Punkte\b/g, "Vorfragen"], [/\b[Dd]er Vorspann\b/g, "Die Vorfragen"], [/\b(?:dem|im) Vorspann\b/g, "in den Vorfragen"], [/\bden Vorspann\b/g, "die Vorfragen"], [/\bVorspann\b/g, "Vorfragen"], [/\bNachspann\b/g, "Schlussfragen"]];
+function kuerzelTilgen(wert, kuerzel) {
+  if (typeof wert === "string") return BEGRIFF_ERSATZ.reduce((t, [m, e]) => t.replace(m, e), kuerzel.reduce((t, k) => t.replace(new RegExp(`(?<![A-ZÄÖÜa-zäöüß])${k}(?![A-ZÄÖÜa-zäöüß])\\s*[-–:]?\\s*`, "g"), ""), wert).replace(/\s{2,}/g, " ").replace(/^[\s,:–-]+/, "").trim());
+  if (Array.isArray(wert)) return wert.map((v) => kuerzelTilgen(v, kuerzel));
+  if (wert && typeof wert === "object") { for (const k of Object.keys(wert)) wert[k] = kuerzelTilgen(wert[k], kuerzel); return wert; }
+  return wert;
 }
 
 function modulThema(fach, m, quelle) {
@@ -230,6 +262,8 @@ export function themenpool() {
   k1Karteikarten.forEach((k, i) => pool.push(karteThema("ust", k, i, "ust")));
   k1Quizfragen.forEach((q, i) => { const t = quizThema("ust", q, i, "ust"); if (t) pool.push(t); });
 
+  const kuerzel = eigenbegriffKuerzel();
+  if (kuerzel.length) for (const t of pool) { t.titel = kuerzelTilgen(t.titel, kuerzel); if (t.kern) t.kern = kuerzelTilgen(t.kern, kuerzel); }
   /* Themen ohne Substanz aussortieren (z. B. reine Arbeitsmittel-Einführungen). */
   return pool.filter((t) => {
     if (t.typ === "modul") return (t.kern.pruefschritte.length + t.kern.lernziele.length) >= 3 && !/Arbeitsmittel|Kurslogik|Lernlogik|Einführung|Überblick|Recap|Einheit\s*\d|Seitenplan|Fahrtroute|Handbuch|Reiter|Markierung|Lineal|Farbcode|Navigation|Beck-Text|Gesetzessammlung/i.test(t.titel) && t.titel.length > 8;

@@ -1,6 +1,20 @@
 {
   "_hinweis": "Merkhilfen und Eigenschöpfungen anderer Dozenten. Sie sind kein Fachinhalt, sondern deren geistiges Eigentum – im Kanal tauchen sie nie auf, auch nicht umschrieben. Groß-/Kleinschreibung ist egal.",
-  "begriffe": ["EIS-Methode", "ABBA-Schema", "AAVV-Schema", "BMG-Methode"],
+  "begriffe": [
+    "EIS-Methode",
+    "ABBA-Schema",
+    "AAVV-Schema",
+    "BMG-Methode",
+    "Vorspann",
+    "Nachspann"
+  ],
   "_hinweis_kuerzel": "Dieselben Merkhilfen ohne das angehängte Wort – im Kursmaterial stehen sie auch blank („danach EIS und anschließend das DBA“, „DBA-AAVV“). Nur in Großbuchstaben gesucht, damit gewöhnliche Wörter wie „Eis“ nicht hängenbleiben.",
-  "kuerzel": ["EIS", "AAVV", "ABBA"]
+  "kuerzel": [
+    "EIS",
+    "AAVV",
+    "ABBA",
+    "WSV",
+    "NNAS"
+  ],
+  "_hinweis_gliederung": "Auch Gliederungsetiketten des Kursaufbaus sind Eigenschoepfung: \"Vorspann\" bezeichnet beim Dozenten die Vorfragen vor der Bewertung in der ErbSt-Klausur - kein Fachbegriff, sondern sein Schema. Am 17.09. stand es als Kurztitel auf einem Reel, weil der Thementitel \"Loesungsaufbau ErbSt: I. Vorspann\" ungefiltert aus dem Kursmaterial in den Pool kam. WSV und NNAS sind seine Kuerzel aus demselben Aufbau."
 }
