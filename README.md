@@ -172,9 +172,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Anbringungsbehörde und Fristberechnung mit dem Beispiel Fritz Frucht, fünf
   Rechenbeispielen zur Viertagesfrist und dem Fallbeispiel Max Krümelmonster zur
   Empfangsvollmacht, die Wiedereinsetzung nach § 110 AO mit acht Fallgruppen und den
-  Übungsfällen Raab-GmbH und Arno Ehrlich, die Beschwer nach § 350 AO sowie die
-  Einspruchsbefugnis nach § 352 AO mit Prüfungsschema und der bis zum 31.12.2023 geltenden
-  Fassung.
+  Übungsfällen Raab-GmbH und Arno Ehrlich, die Beschwer nach § 350 AO, die
+  Einspruchsbefugnis nach § 352 AO mit Prüfungsschema, der bis zum 31.12.2023 und der ab
+  dem 01.01.2024 geltenden Fassung samt Übergangsregelungen und dem dreiteiligen
+  Fallbeispiel Sonne-KG, das beide Rechtsstände Zeile für Zeile gegenüberstellt, die
+  Hinzuziehung nach § 360 AO, die Begründetheit mit Gesamtüberprüfungsrecht, Tenor,
+  Abhilfebescheid und Teileinspruchsentscheidung, die Anfechtungsbeschränkung des § 351
+  Abs. 2 AO mit den Fällen Grundstücks-GbR Potsdamer Platz und Karl Knick sowie der
+  Änderungsumfang nach § 367 Abs. 2 und § 351 Abs. 1 AO mit Verböserung, Rücknahme des
+  Einspruchs, Prüfungsschema und den beiden durchgerechneten Beispielen Dieter Kugel
+  (Anfechtungsrahmen 108.000/100.000/98.000 €) und Anfechtungsrahmen 20.000/18.000/
+  17.500 €. Abschnitt 8 ist damit vollständig.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

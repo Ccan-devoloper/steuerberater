@@ -2076,3 +2076,52 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     EStG.
   - Kapitel 8: „§§ 179 Abs. 1, 3179 Abs. 2 Satz 2“ – Zahlendreher; ferner „persönlichn“,
     „Gesellschft“ und „vgl.l hierzu § 360 Abs. 3 AO“.
+
+## AO-Skript (Jacobs), Teil IV – Abschnitt 8: Außergerichtliches Rechtsbehelfsverfahren (Teil 2)
+
+- Quelle: dieselbe Datei wie in Teil 1 (Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA`),
+  Seiten 33 bis 62.
+- Einpflege dieses Durchgangs: sechs weitere Kapitel – § 352 AO in der ab dem 01.01.2024
+  geltenden Fassung samt Übergangsregelungen, das dreiteilige Fallbeispiel Sonne-KG mit der
+  Gegenüberstellung beider Rechtsstände, die Hinzuziehung nach § 360 AO, Teil III
+  (Begründetheit, Tenor, Bekanntgabe der Einspruchsentscheidung, Teileinspruchsentscheidung),
+  Teil IV (§ 351 Abs. 2 AO mit den Fällen Grundstücks-GbR und Karl Knick) und Teil VI
+  (Verböserung und Änderungsumfang nach § 351 Abs. 1 AO mit den Fällen Dieter Kugel und dem
+  Schlussbeispiel). **Abschnitt 8 ist damit vollständig.** Das Skript umfasst 8 Teile,
+  76 Kapitel, 1.685 Blöcke und 147 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Zur Darstellung: Das Fallbeispiel Sonne-KG steht im PDF als Matrix, deren Spalten die
+  Nummern des § 352 Abs. 1 AO und deren Zeilen die Einspruchsanträge nach § 357 Abs. 3 AO
+  sind. Die Kreuze sind im Datensatz durch die im Skript ausgeschriebenen
+  Erläuterungstexte ersetzt, nicht markierte Felder durch „–“; ein redaktioneller Hinweis
+  im Kapitel 10 sagt das ausdrücklich.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 9: „Übergangsregegelungen“.
+  - Kapitel 12: „Gem. § 367 II 1 Satz AO“ – die Wörter sind vertauscht.
+  - Kapitel 13, Fall 2 Punkt 1: Die Fristberechnung stimmt (ESt-Bescheid zur Post 08.09.03,
+    Bekanntgabe nach der Viertagesfrist 12.09.03, Ende der Einspruchsfrist 12.10.03). Der
+    anschließende Satz nennt aber einen AdV-Antrag „iHv 1.000 € ESt“, während die
+    steuerliche Auswirkung des Punktes 1 nach dem Sachverhalt 500 € beträgt.
+  - Kapitel 14: Das Skript springt von Teil IV unmittelbar zu Teil VI; ein Teil V ist im
+    Abschnitt 8 nicht abgedruckt.
+  - Kapitel 14: Das zitierte Urteil BFH/NV 2002, S. 1409 spricht vom „dritten Tag“ nach
+    Aufgabe zur Post – das ist die zum Urteilszeitpunkt geltende Dreitagesfrist; seit dem
+    01.01.2025 gilt insoweit die Viertagesfrist. Der Hinweis steht im Datensatz.
+  - Kapitel 14, Fall Dieter Kugel: Die Aufgabenstellung fragt nach dem
+    „Einkommensteuerbescheid 05“; betroffen ist der Bescheid 01. In Variante II wird
+    „§ 170 Abs. 2 Satz 1 Nr. 2 AO“ zitiert; für die Anlaufhemmung bei abgegebener
+    Steuererklärung ist Nr. 1 einschlägig. Ferner „ie Tatbestandsmerkmale“.
+  - Kapitel 14, Schlussbeispiel: „dem Stplf.“.
+
+  Nachgerechnet und zutreffend: Variante I des Falls Dieter Kugel – 5.000 € + 3.000 € =
+  8.000 €, Saldierung des Rechtsfehlers von 15.000 € nach § 177 Abs. 1 AO höchstens in
+  Höhe von 8.000 €, verbleibend 0, zuzüglich der selbständigen Berichtigung nach § 129 AO
+  von 2.000 €, Ergebnis 98.000 €. Variante II – Anfechtungsrahmen 108.000 € (Obergrenze),
+  100.000 € (bestandskräftige Steuer), 98.000 € (Untergrenze); die materiell zutreffende
+  Steuer von 91.000 € (108.000 ./. 15.000 ./. 2.000) wird gerade nicht erreicht.
+  Schlussbeispiel – Anfechtungsrahmen 20.000 €/18.000 €/17.500 €, Saldierung der
+  Werbungskosten von 3.000 € nur in Höhe der Änderung von 2.000 €, Ergebnis 17.500 €.

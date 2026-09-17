@@ -85,13 +85,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   begriff. Abschnitt 7 ist inzwischen bis zur Abbruchstelle des Connectors (Seite 79 von
   118) vollständig eingepflegt; was dahinter liegt, steht in Abschnitt A.
 - **AO Teil IV** („2025) (7).pdf“, Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA`):
-  Abschnitt 8 ist bis einschließlich § 352 AO (Rechtslage bis zum 31.12.2023) eingepflegt.
-  Offen sind daraus noch § 352 AO in der Fassung ab dem 01.01.2024 samt
-  Übergangsregelungen, § 360 AO (Hinzuziehung), die Teile III bis VI des Abschnitts 8
-  (Begründetheit und Entscheidung des Finanzamts, § 351 Abs. 2 AO, Änderungsumfang und
-  Verböserung) sowie der **Abschnitt 9** (Klage- und Revisionsverfahren nach der FGO),
-  den der Connector bis Seite 17 ausgibt. **Abschnitt 10** erreicht der Connector nicht
-  mehr; er ist in Abschnitt A vermerkt.
+  **Abschnitt 8 ist vollständig eingepflegt.** Offen ist daraus noch der **Abschnitt 9**
+  (Klage- und Revisionsverfahren nach der FGO), den der Connector bis Seite 17 ausgibt.
+  **Abschnitt 10** erreicht der Connector nicht mehr; er ist in Abschnitt A vermerkt.
 - Noch nicht bearbeitet sind die weiteren Bände des Jacobs-Skripts: „2025) (8).pdf“ =
   **Teil VI, Abschnitte 14 und 15** (Steuerstraf- und Bußgeldrecht, Vollstreckungsrecht)
   sowie **Teil V** unter seinem eigenen Namen.
