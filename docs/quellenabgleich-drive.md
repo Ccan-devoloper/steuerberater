@@ -969,3 +969,39 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     („Mit der Aufnahme des Restaurantbetriebs …") wird nicht geschlossen.
   - Sachverhalt Murrer, Abschnitt „Grundstücksnutzung": Der Vermieter der Zimmer im
     2. Obergeschoss ist M; die Musterlösung schreibt „erbringt L sonstige Leistungen".
+
+- **Übungsklausur „AO/USt" – Teilklausur Abgabenordnung (Rechtsstand 2025)** – Hans-Jürgen
+  Jacobs, Korrektor Thorsten Schulz; dieselben Drive-IDs wie die Teilklausur Umsatzsteuer
+  (`1ivjk58wXU4QWJlR9PYVJBEa72LjynyMj` und `1ON7azMxClJQFlDyhKyA--Cx6hL9rMj2U`). Sie steht im
+  AO-Campus (Klausur 1) im neuen Reiter „Übungsklausur (AO)".
+
+  Übernommen sind alle vier Sachverhalte: Ramona Rehauge (18 Punkte), Rita Rund (10 Punkte),
+  Dr. Karin Ebben (9 Punkte) und Peter Petersen (13 Punkte) – zusammen die ausgewiesenen
+  50 Punkte. Sachverhalt, Aufgabenstellung, Bearbeitungshinweise (einschließlich des
+  vollständigen Wortlauts des § 171 Abs. 4 AO in der anzuwendenden Fassung) und
+  Lösungshinweise stehen im Wortlaut, die Saldierungsrechnung als Tabelle.
+
+  Randpunkte: In den Sachverhalten 3 und 4 stehen alle Randpunkte an ihrem Absatz. In
+  Sachverhalt 1 sind zwölf der achtzehn Punkte zuordenbar, die übrigen sechs stehen im PDF
+  blockweise am Seitenende. In Sachverhalt 2 sind die Punkte ausschließlich blockweise
+  ausgewiesen; dort ist deshalb kein Punktwert einem Absatz zugeordnet.
+
+  **Geprüft:** Der freigegebene Ordner enthält zusätzlich eine eigenständige „Klausur
+  Abgabenordnung" (Jacobs, Korrektor Otterbein, 6 Stunden, Kopfzeile „Übungsklausur AO/FGO",
+  Sachverhalt 1 Friedrich Tisch). Sie ist **nicht** identisch mit dieser Teilklausur und steht
+  weiterhin in docs/offene-quellen.md.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Sachverhalt 1, Zulässigkeit: „aus dem Schreiben geht zweifelsfrei hervorgeht".
+  - Sachverhalt 1, Begründetheit: „§§ 170 Abs. 2 Nr. 1 AO AO"; außerdem ist zweimal von
+    Einkünften aus Gewerbebetrieb die Rede, obwohl R Einkünfte aus selbständiger Arbeit
+    erzielt.
+  - Sachverhalt 3: „§ 25 Abs. 3 EStG AO".
+  - Sachverhalt 4, Sachverhalt: „begründete dies im Prüfungsgericht" statt Prüfungsbericht.
+  - Sachverhalt 4, Tz. II.3: „bis zur Unanfechtbarkeit der Entscheidung über den Antrag des A"
+    – Antragsteller ist P.
+  - Sachverhalt 4, Tz. II.4: Der Rechtsanwendungsfehler führte zu einem um 2.000 € zu
+    niedrigen Gewinn; die Musterlösung schreibt „zu hohen Gewinns" und rechnet anschließend
+    zutreffend mit + 800 € Einkommensteuer.
