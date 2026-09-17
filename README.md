@@ -159,6 +159,22 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 171 Abs. 10 AO, der Abgrenzung zu § 35b GewStG, dem Fallbeispiel Architekt A und dem
   Umfang der Anpassung des Folgebescheides. Ab Seite 80 gibt der Drive-Connector das PDF
   nicht mehr aus; das ist in `docs/offene-quellen.md` vermerkt.
+  Aus Teil IV ist Abschnitt 8 (außergerichtliches Rechtsbehelfsverfahren, §§ 347 bis
+  367 AO) begonnen: die Durchbrechung der Bestandskraft und das Verhältnis von Korrektur-
+  und Rechtsbehelfsverfahren, § 132 AO mit dem Fallbeispiel zu Abhilfe-, Teilabhilfe- und
+  Änderungsbescheid, das Schaubild des Instanzenzugs vom Finanzamt über Finanzgericht und
+  Bundesfinanzhof bis zum Bundesverfassungsgericht, der dreispaltige Lösungsaufbau aus
+  Zulässigkeit, Begründetheit und Entscheidung samt Tenor und Verböserung, das Beispiel
+  Nils zur verspäteten Einspruchseinlegung mit zwei Abwandlungen, die Statthaftigkeit nach
+  § 347 AO mit der Auslegung zwischen Einspruch und schlichtem Änderungsantrag, der
+  Umdeutung bei Rechtsirrtum und dem Untätigkeitseinspruch, Form und Inhalt nach § 357 AO
+  mit dem Fallbeispiel zur Ablaufhemmung des § 171 Abs. 3a AO, Einspruchsfrist,
+  Anbringungsbehörde und Fristberechnung mit dem Beispiel Fritz Frucht, fünf
+  Rechenbeispielen zur Viertagesfrist und dem Fallbeispiel Max Krümelmonster zur
+  Empfangsvollmacht, die Wiedereinsetzung nach § 110 AO mit acht Fallgruppen und den
+  Übungsfällen Raab-GmbH und Arno Ehrlich, die Beschwer nach § 350 AO sowie die
+  Einspruchsbefugnis nach § 352 AO mit Prüfungsschema und der bis zum 31.12.2023 geltenden
+  Fassung.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

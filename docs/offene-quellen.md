@@ -25,6 +25,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **AO Teil I** (Jacobs, Mai 2025), Drive-ID `1aHWnqQ5PE_XXgbI3Aw7ShlMe_AuEj2gQ` | Der Rest des Abschnitts 3 (ab Seite 30) und der vollständige **Abschnitt 4** | Der Connector gibt aus dem 1,4-MB-PDF 144.000 Zeichen bis Abschnitt 3, Seite 30 aus und bricht dort an einer Seitengrenze ab. Das Deckblatt kündigt „Teil I: Abschnitte 1 bis 4“ an. Die Abschnitte 1 bis 3 sind bis zur Bruchstelle eingepflegt. |
 | **AO Teil II** (Jacobs, Mai 2025), Drive-ID `15kFDJkIW4sHvVz5tlf5_s4DIEwUm0cDd` | Aus Abschnitt 6 die Seiten 43 bis 74: die Ablaufhemmungen des **§ 171 Abs. 9, 10, 10a, 14 und 15 AO** einschließlich der gesonderten Feststellung nach § 181 Abs. 5 AO | Der Connector gibt aus dem PDF 170.000 Zeichen aus und bricht in Abschnitt 6 auf Seite 42 ab. Abschnitt 5 und Abschnitt 6 bis § 171 Abs. 7 AO sind lesbar und eingepflegt. |
 | **AO Teil III** (Jacobs, Mai 2025), Drive-ID `17QT3RU22R0kTxP5MfyzWc6HrX3i77TEg` | Aus Abschnitt 7 die Seiten 80 bis 118: die Lösungshinweise zu den Übungsfällen zu **§ 175 Abs. 1 Satz 1 Nr. 1 AO**, **§ 175 Abs. 1 Satz 1 Nr. 2 AO** (rückwirkendes Ereignis) sowie **§§ 176 und 177 AO** | Der Connector gibt aus dem PDF 156.000 Zeichen aus und bricht in Abschnitt 7 auf Seite 79 mitten im ersten Übungsfall zu § 175 AO ab. Abschnitt 7 ist bis dorthin vollständig eingepflegt. |
+| **AO Teil IV** (Jacobs, Mai 2025), Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA` | Der gesamte **Abschnitt 10** (vorläufiger Rechtsschutz) und der Rest des Abschnitts 9 ab Seite 18 | Der Connector gibt aus dem PDF 141.000 Zeichen aus: Abschnitt 8 vollständig (62 Seiten) und Abschnitt 9 bis Seite 17. Das Deckblatt kündigt „Teil IV: Abschnitte 8 bis 10“ an. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
 Rest: wortlautgetreu, mit Kennzeichnung jeder Stelle, an der die Quelle selbst nicht
@@ -81,15 +82,19 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
 - AO-Skript (Jacobs), **Teil III (Abschnitt 7 – Korrektur von Verwaltungsakten) ist
   begonnen**: Teil I (Allgemeine Grundsätze), Teil II (§ 129 AO) und aus Teil III die
   Systematik, § 172 Abs. 1 Satz 1 Nr. 2a und 2c AO sowie § 173 AO bis zum Tatsachen-
-  begriff. Offen sind daraus noch § 173 Abs. 1 Nr. 2 AO (grobes Verschulden), § 173
-  Abs. 2 AO, § 173a AO, § 174 AO, § 175 AO und §§ 176, 177 AO, soweit der Connector
-  sie ausgibt (er endet auf Seite 79 von 118).
-- Noch nicht bearbeitet sind die weiteren Bände des Jacobs-Skripts. Die drei Dateien mit
-  nichtssagenden Namen sind identifiziert: „2025) (6).pdf“ = Stoffverteilungsplan,
-  „2025) (7).pdf“ = **Teil IV, Abschnitte 8 bis 10** (Rechtsbehelfsverfahren, FGO,
-  vorläufiger Rechtsschutz), „2025) (8).pdf“ = **Teil VI, Abschnitte 14 und 15**
-  (Steuerstraf- und Bußgeldrecht, Vollstreckungsrecht). Dazu kommen **Teil III** und
-  **Teil V** unter ihren eigenen Namen.
+  begriff. Abschnitt 7 ist inzwischen bis zur Abbruchstelle des Connectors (Seite 79 von
+  118) vollständig eingepflegt; was dahinter liegt, steht in Abschnitt A.
+- **AO Teil IV** („2025) (7).pdf“, Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA`):
+  Abschnitt 8 ist bis einschließlich § 352 AO (Rechtslage bis zum 31.12.2023) eingepflegt.
+  Offen sind daraus noch § 352 AO in der Fassung ab dem 01.01.2024 samt
+  Übergangsregelungen, § 360 AO (Hinzuziehung), die Teile III bis VI des Abschnitts 8
+  (Begründetheit und Entscheidung des Finanzamts, § 351 Abs. 2 AO, Änderungsumfang und
+  Verböserung) sowie der **Abschnitt 9** (Klage- und Revisionsverfahren nach der FGO),
+  den der Connector bis Seite 17 ausgibt. **Abschnitt 10** erreicht der Connector nicht
+  mehr; er ist in Abschnitt A vermerkt.
+- Noch nicht bearbeitet sind die weiteren Bände des Jacobs-Skripts: „2025) (8).pdf“ =
+  **Teil VI, Abschnitte 14 und 15** (Steuerstraf- und Bußgeldrecht, Vollstreckungsrecht)
+  sowie **Teil V** unter seinem eigenen Namen.
 - AO-Short-Skript
 - FGO
 - Notfallbuch

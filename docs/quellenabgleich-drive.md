@@ -2008,3 +2008,71 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Dreitagesfrist, teils nach der ab 2025 geltenden Viertagesfrist – innerhalb desselben
   Abschnitts und ohne Kennzeichnung. Jede betroffene Stelle trägt im Datensatz den
   Hinweis samt dem Datum, das sich nach neuem Recht ergäbe.
+
+## AO-Skript (Jacobs), Teil IV – Abschnitt 8: Außergerichtliches Rechtsbehelfsverfahren (Teil 1)
+
+- Quelle: Drive-Ordner „Abgabenordnung“, Datei mit dem nichtssagenden Namen
+  „2025) (7).pdf“ (Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA`). Das Deckblatt weist den
+  Band als „Teil IV: Abschnitte 8 bis 10“ aus. Der Connector gibt 141.000 Zeichen aus:
+  Abschnitt 8 vollständig bis Seite 62 sowie Abschnitt 9 bis Seite 17; Abschnitt 10 wird
+  nicht mehr erreicht.
+- Einpflege dieses Durchgangs: acht Kapitel aus Abschnitt 8 – Teil I (Allgemeine
+  Grundsätze, § 132 AO, Instanzenzug, Lösungsaufbau, Beispiel Nils) und der Anfang von
+  Teil II (Statthaftigkeit, Form und Inhalt, Einspruchsfrist und Fristberechnung,
+  Wiedereinsetzung mit zwei Übungsfällen, Beschwer, Einspruchsbefugnis nach § 352 AO in
+  der bis zum 31.12.2023 geltenden Fassung). Das Skript umfasst damit 8 Teile,
+  70 Kapitel, 1.531 Blöcke und 131 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt, aber lesbar: § 352 AO in der ab dem 01.01.2024 geltenden
+  Fassung, § 360 AO (Hinzuziehung), die Teile III bis VI des Abschnitts 8 (Begründetheit
+  und Entscheidung, § 351 Abs. 2 AO, Änderungsumfang und Verböserung) sowie der Abschnitt 9
+  (Klage- und Revisionsverfahren). Das folgt im nächsten Arbeitsschritt und ist am Ende des
+  Kapitels 8 als redaktioneller Hinweis vermerkt.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 1: „§ 172 Abs. 1 Satz 1 Nr. Nr. 2a“ – doppeltes „Nr.“.
+  - Kapitel 2: „keine neue Tatsche i.S. des § 173 Abs. 1 Nr. 2 AO“.
+  - Kapitel 3: „auslegungsbedürftigen Willenserklärungens“.
+  - Kapitel 4: Die Gliederungsnummer 3 ist übersprungen – auf „2. Inhalt des Einspruchs“
+    folgt unmittelbar „4. Fallbeispiel zur Ablaufhemmung des § 171 III a AO“. Die
+    Fristberechnung dort ist nachgerechnet und zutreffend: EStB vom 15.12.06, Bekanntgabe
+    nach der Viertagesfrist am 19.12.06, Ende der Einspruchsfrist 19.01.07.
+  - Kapitel 5, Beispiel Fritz Frucht: Der Satzanfang lautet „D vom zuständigen Betriebs-FA
+    … erlassene“. Die Fristberechnung stimmt (F-Bescheid zur Post 29.05.04, Bekanntgabe
+    02.06.04, Ende der Einspruchsfrist 02.07.04); die Lösung nennt als Eingang beim
+    Wohnsitz-FA aber den 02.07.04, während der Sachverhalt den Briefkasteneinwurf auf den
+    01.07.04 datiert.
+  - Kapitel 5: „gesetzlichen Feiertrag“; die Gliederungsnummer 6 ist übersprungen.
+  - Kapitel 5, viertes Rechenbeispiel: „EStB 08 zur Post am Freitag, den 27.01.10.
+    Bekanntgabe des Bescheides am Montag, den 31.01.10“ – der vierte Tag nach einem Freitag
+    ist ein Dienstag; der Wochentag stammt aus der früheren Dreitagesfrist. Die übrigen
+    vier Rechenbeispiele sind in sich stimmig, wenn man die Jahreszahlen 07 bis 10 als
+    abstrakte Platzhalter liest: 23.02. (Mittwoch) + 4 Tage = 27.02. (Sonntag), verschoben
+    auf Montag 28.02., Fristende 28.03.; 28.03. (Montag) + 4 Tage = 01.04. (Freitag),
+    Fristende 01.05., verschoben auf 02.05. wegen des Feiertags; Zustellung mit
+    Postzustellungsurkunde am 24.02., Fristende 24.03.; Zugang trotz Postlaufverzögerung am
+    04.02., Fristende 04.03.
+  - Kapitel 5, fünftes Rechenbeispiel: zitiert „§ 188 I BGB“, einschlägig ist für die nach
+    § 187 Abs. 1 BGB beginnende Monatsfrist § 188 Abs. 2 BGB.
+  - Kapitel 5, Fallbeispiel Max Krümelmonster: Das Ergebnis spricht vom „Einkommensteuer­
+    bescheid 02“; angefochten ist der Einkommensteuerbescheid 05. Die Fristberechnung
+    selbst ist nachgerechnet und in sich stimmig: Heilung des Bekanntgabemangels am
+    31.08.07, Fristbeginn 01.09.07, Fristende 30.09.07 (Samstag laut Sachverhalt),
+    Verlängerung nach § 108 Abs. 3 AO bis Montag, 02.10.07.
+  - Kapitel 6: „kann Wiedereinsetzung grundsätzlich nicht mehr begeht … werden“.
+  - Kapitel 6, Fall 2: Die Lösung nennt „der 04.09.08“, „Beginn des 05.09.08“ und „Ablauf
+    des 04.10.03“; nach dem Sachverhalt (Bescheid zur Post 31.08.02) lauten die Daten
+    04.09.02, 05.09.02 und 04.10.02. Nachgerechnet: 31.08. + 4 Tage = 04.09., zuzüglich
+    eines Monats endet die Einspruchsfrist am 04.10. – der Eingang am 04.10.02 ist damit
+    fristgerecht, der Eingang am 06.10.02 in der Fortführung verspätet.
+  - Kapitel 6, Fall 1: Die Monatsfrist des § 110 Abs. 2 Satz 1 AO ab Wegfall des
+    Hindernisses (10.04.02) endet am 10.05.02; der Schriftsatz vom 15.05.02 ist damit
+    verspätet. Nachgerechnet und zutreffend.
+  - Kapitel 7: Der Beispielsfall des Rentners R bezeichnet den Einspruch im Sachverhalt als
+    „zulässig“ und verwirft ihn in der Lösung als unzulässig. Ferner „§ 10 d III ESG“ statt
+    EStG.
+  - Kapitel 8: „§§ 179 Abs. 1, 3179 Abs. 2 Satz 2“ – Zahlendreher; ferner „persönlichn“,
+    „Gesellschft“ und „vgl.l hierzu § 360 Abs. 3 AO“.
