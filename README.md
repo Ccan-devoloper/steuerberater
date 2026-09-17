@@ -87,8 +87,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Sonderbetriebsvermögen I und II, den Beteiligungsgrenzen von 10 % und 25 % nach
   BFH IV R 1/12 und IV R 15/19, den Fallgruppen der OFD Nordrhein-Westfalen zur funktional
   wesentlichen Betriebsgrundlage, den Gewinnausschüttungen im Teileinkünfteverfahren und
-  der Tätigkeitsvergütung. Beispiele, Bilanzen und Musterlösungen stehen vollständig;
-  Teil V folgt.
+  der Tätigkeitsvergütung. Teil V die Gründung einer Personengesellschaft und das
+  Umwandlungssteuerrecht: die vier Gründungsvarianten und die Aufteilung des Tauschs in
+  Veräußerungs- und Anschaffungsvorgang, die Einbringung von Privatvermögen nach
+  §§ 17, 20, 23 EStG mit Ermittlungsschema, die zwingende Buchwertfortführung nach
+  § 6 Abs. 5 Satz 3 Nr. 1 EStG mit ihren drei Ausnahmen, die sachlichen, personellen und
+  speziellen Voraussetzungen des § 24 UmwStG, das Bewertungswahlrecht des § 24 Abs. 2
+  UmwStG mit Brutto- und Nettomethode, Zwischenwertansatz samt AfA-Folgen und Ansatz des
+  gemeinen Wertes bei Einzel- und Gesamtrechtsnachfolge sowie der Eintritt in eine
+  bestehende Personengesellschaft. Das Skript ist damit vollständig; Beispiele, Bilanzen
+  und Musterlösungen stehen im Wortlaut.
   Prüfung: `npm run check:k3-persg-skript-melzer`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

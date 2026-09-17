@@ -1572,3 +1572,72 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   (270.000 € ./. 200.000 € + 100.000 € ./. 100.000 €), die Anpassung von 230.000 €, die
   Bilanzsummen 900.000 €, 370.000 € und 500.000 € sowie der nicht begünstigte
   Veräußerungsgewinn von 70.000 € (100.000 € ./. 30.000 €).
+
+## PersG-Skript (Melzer), Teil V – Umwandlungssteuerrecht
+
+- Quelle: Drive-Ordner „Personengesellschaften", Datei
+  „B-S25-PersG-Teil V-Umwandlungssteuer-0426.pdf" (Drive-ID
+  `1S3H8QyyL6P3_SEItRTT_M8S3XDwoY0fi`, 20 Seiten). Verfasser Karsten Melzer,
+  April 2026, Rechtsstand 2025.
+- Einpflege: als Teil V in `src/data/k3-persg-skript-melzer.js` (8 Kapitel). Das Skript
+  umfasst damit 5 Teile, 35 Kapitel, 764 Blöcke und 81 Tabellen; Prüfung
+  `npm run check:k3-persg-skript-melzer`. Mit Teil V ist das Skript vollständig – der
+  Drive-Ordner enthält keine weiteren Teile.
+- Die Bilanzen des Skripts stehen im PDF als zweispaltige T-Konten. Sie sind als
+  vierspaltige Tabellen (Aktiva / Betrag / Passiva / Betrag) mit einer ausgewiesenen
+  Summenzeile übernommen; Werte und Bezeichnungen sind unverändert.
+- Der persönliche PDF-Wasserzeichentext ist wie bei allen anderen Quellen entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Kapitel 1, Hinweis zum Veräußerungsvorgang: „Grunderwerbssteuer" statt
+    Grunderwerbsteuer.
+  - Kapitel 1, Beispiel Privatvermögen, Ziffer 2.1: „Da zwischen der Anschaffung dem
+    Verkauf (obligatorische Rechtsgeschäfte) nicht mehr als 10 Jahre vergangen sind" – im
+    Satz fehlt das Wort „und".
+  - Kapitel 2, Körperschaftsteuerklausel: „Die stillen Reserven sind in dem Umfang
+    aufzudecken, in dem die Kapitalgesellschaft an der zu gründenden Kapitalgesellschaft
+    beteiligt ist" – gemeint ist die Beteiligung an der zu gründenden Personengesellschaft.
+  - Kapitel 2, Stille-Reserve-Klausel: die Fundstelle „§ 6 Abs. 5 S. 3 i. V. m. S. 3 EStG"
+    verweist auf sich selbst.
+  - Kapitel 2, Ausweis mit Ergänzungsbilanz: „Kommt es bspw. zu einer Veräußerung zu
+    300.00 €" – gemeint sind 300.000 €.
+  - Kapitel 3, Gliederung: die Überschriften lauten „Sachlichen und Personellen
+    Voraussetzungen" und „Speziellen Voraussetzungen" (im Fließtext „Sachlichen und
+    personellen Voraussetzungen").
+  - Kapitel 4, Wertverknüpfung: sie wird mit „§ 24 Abs. 3 S. 2 UmwStG" zitiert, steht aber
+    in § 24 Abs. 3 Satz 1 UmwStG – den das Skript im Beispiel des Kapitels 5 auch selbst so
+    zitiert. § 24 Abs. 3 Satz 2 UmwStG regelt die Vergünstigungen der §§ 16 Abs. 4, 34 EStG.
+  - Kapitel 4, Besitzzeitanrechnung: „Das bedeutet für die Verbleibensvoraussetzungen des
+    § 6b Abs. 4 Nr. 2 EStG ist sind die Besitzzeiten … zusammenzurechnen" – doppeltes Verb.
+    Im Kapitel 6 steht derselbe Satz ohne das überzählige „ist".
+  - Kapitel 4, Beispiel Brutto- und Nettomethode: die Ausgangsbilanz ist mit
+    „Einzelunternehmen des A zum 31.12.2025" überschrieben, obwohl die Einbringung mit
+    Wirkung zum 01.01.2025 erfolgt; sachlich gemeint ist der 31.12.2024.
+  - Kapitel 5, Handelsbilanz: die unter „1. Handelsbilanz" abgedruckte Bilanz ist im Skript
+    als „Gesamthandsbilanz AB OHG" überschrieben.
+  - Kapitel 5, Abwandlung: „Die Übertragung des Grundstücks … erfolgt ebenfalls nach § 24
+    Abs. 2 Satz 1 UmwStG mit dem Buchwert" – Satz 1 ordnet den gemeinen Wert an, der
+    Buchwertansatz folgt aus Satz 2.
+  - Kapitel 6, Beispiel AfA beim Zwischenwertansatz II: die AfA-Sätze von 20,83 % und 25 %
+    entsprechen dem Höchstsatz des 2,5-fachen der linearen AfA nach früheren Fassungen des
+    § 7 Abs. 2 EStG; das Beispiel ist laut Fußnote identisch aus dem UmwStE (Rn. 23.15)
+    übernommen.
+
+  Nachgerechnet und bestätigt wurden: im Kapitel 1 der Veräußerungsgewinn nach § 23 Abs. 3
+  Satz 1 EStG von 50.000 € (300.000 € ./. 250.000 €) und die Bilanzsummen von je 600.000 €;
+  im Kapitel 2 die Gesamthandsbilanz ohne Ergänzungsbilanz mit 550.000 € und Kapitalkonten
+  von je 275.000 € sowie die Variante mit Ergänzungsbilanz (600.000 € Gesamthandsbilanz,
+  negative Ergänzungsbilanz des A über 50.000 €); im Kapitel 4 die Bruttomethode
+  (Gesamthandsbilanz 600.000 €, negative Ergänzungsbilanz des A über 200.000 €, Summe der
+  Kapitalkonten 400.000 €) und die Nettomethode (Gesamthandsbilanz 400.000 €,
+  Ergänzungsbilanzen von ./. 100.000 € für A und + 100.000 € für B, Summe der Kapitalkonten
+  ebenfalls 400.000 €); im Kapitel 5 die Ergänzungsbilanz des A über 50.000 € und der
+  Veräußerungsgewinn von 0 €; im Kapitel 6 die Aufdeckung von 20 % der stillen Reserven
+  (Firmenwert 16.000 €, Grundstück 4.000 €, Waren 0 € – zusammen 20.000 € von 100.000 €
+  stillen Reserven, Buchwerte 100.000 €, gemeiner Wert 200.000 €) sowie im AfA-Beispiel I
+  die neue Bemessungsgrundlage von 120.000 € (100.000 € Anschaffungskosten + 20.000 €
+  aufgedeckte stille Reserven, Zwischenwert 90.000 € bei Restbuchwert 70.000 € und
+  gemeinem Wert 95.000 €), die jährliche AfA von 12.000 €, die AfA von 84.000 € über sieben
+  Jahre und der Restwert von 6.000 € im letzten Jahr.
