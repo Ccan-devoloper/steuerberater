@@ -2492,10 +2492,42 @@
       "fach": "bilanz",
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "18352617463172919"
+    },
+    {
+      "datum": "2026-09-17",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "spickzettel",
+      "thema": "persg-modul-persg-7",
+      "fach": "persg",
+      "titel": "Der Fehler bei SBV II, der Personengesellschafter jedes Jahr Punkte kostet",
+      "hookTyp": "fehler",
+      "medienId": "18023580185873124",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#stbexamen2026",
+        "#steuerfachwirt",
+        "#sonderbetriebsvermögen",
+        "#personengesellschaft",
+        "#mitunternehmerschaft",
+        "#klausurtipps",
+        "#steuerbilanz",
+        "#bilanzsteuerrecht"
+      ],
+      "veroeffentlicht": "2026-09-17T06:45:16.627Z",
+      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-17/2026-09-17-b1-02-mu55zdq2.jpg"
     }
   ],
   "fachZaehler": {
-    "persg": 5,
+    "persg": 6,
     "ust": 4,
     "kst": 7,
     "ao": 11,
