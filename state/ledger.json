@@ -2534,6 +2534,17 @@
       "fach": "persg",
       "titel": "SBV I und II: das Schema",
       "medienId": "18070935497556129"
+    },
+    {
+      "datum": "2026-09-17",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "frage",
+      "thema": "bilanz-quiz-k3-21",
+      "fach": "bilanz",
+      "titel": "Was setzt eine Bilanzänderung nach § 4 (2) S. 2 EStG voraus?",
+      "medienId": "18019801172722125",
+      "veroeffentlicht": "2026-09-17T07:44:46.398Z"
     }
   ],
   "fachZaehler": {
