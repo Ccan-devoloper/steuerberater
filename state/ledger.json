@@ -2612,6 +2612,17 @@
       "titel": "Der Vorspann vor jeder Bewertung",
       "medienId": "17908233537305855",
       "veroeffentlicht": "2026-09-17T10:47:53.802Z"
+    },
+    {
+      "datum": "2026-09-17",
+      "art": "story",
+      "slot": "s6",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "medienId": "17907848979473804",
+      "veroeffentlicht": "2026-09-17T11:44:56.755Z"
     }
   ],
   "fachZaehler": {
