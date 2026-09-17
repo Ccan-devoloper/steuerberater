@@ -1723,3 +1723,77 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Gesamtzahlung von 38.153,54 €. Im Abschnitt 3, Kapitel 7 wurde das Fristende des
   Übungsfalls Trunk nachgerechnet: Aufgabe zur Post am 25.05.08 (Mo), Bekanntgabe am
   29.05.08 (Fr), Ablauf der Einspruchsfrist am 29.06.08 (Mo).
+
+## AO-Skript (Jacobs), Stoffverteilungsplan und Teil II – Abschnitt 5
+
+- Quellen: Drive-Ordner „Abgabenordnung", Dateien „2025) (6).pdf" (Drive-ID
+  `1oGARVUttEPsNVo3iqE-62wyBxVF_AC49`) und „B-S25-AO-Teil II-(Jacobs)-0425 (1).pdf"
+  (Drive-ID `15kFDJkIW4sHvVz5tlf5_s4DIEwUm0cDd`). Verfasser Hans-Jürgen Jacobs, Mai 2025.
+- **Drei Dateien mit nichtssagenden Namen identifiziert.** Der Ordner „Abgabenordnung"
+  enthält drei PDFs, deren Dateiname nur „2025) (6).pdf", „2025) (7).pdf" und
+  „2025) (8).pdf" lautet. Sie sind gelesen und zugeordnet:
+  - „2025) (6).pdf" = **Stoffverteilungsplan und Inhalt zum Skript AO/FGO** (17 Seiten).
+    Er ordnet die sechs Skriptbände den fünfzehn Abschnitten zu und ist als eigenes Kapitel
+    eingepflegt.
+  - „2025) (7).pdf" = **Teil IV: Abschnitte 8 bis 10** (Außergerichtliches
+    Rechtsbehelfsverfahren, FGO-Verfahren, vorläufiger Rechtsschutz), 138.000 Zeichen.
+    Noch nicht eingepflegt.
+  - „2025) (8).pdf" = **Teil VI: Abschnitte 14 und 15** (Steuerstraf- und Bußgeldrecht,
+    Vollstreckungsrecht), 351.000 Zeichen. Noch nicht eingepflegt.
+- Einpflege dieses Durchgangs: der Stoffverteilungsplan sowie Abschnitt 5 in neun Kapiteln.
+  Das Skript umfasst damit 5 Teile, 34 Kapitel, 667 Blöcke und 64 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- **Abbruch der Quelle:** Teil II umfasst die Abschnitte 5 und 6. Der Connector gibt
+  170.000 Zeichen aus und endet in Abschnitt 6 auf Seite 42 von 74 (mitten in Teil IV zu
+  den Ablaufhemmungen, bei § 171 Abs. 4 AO). Abschnitt 5 ist vollständig lesbar und
+  eingepflegt; Abschnitt 6 steht noch aus und ist über die Bruchstelle hinaus blockiert.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Kapitel 2 (Abschnitt 5, Tz. 5): „Der Stpfl. A hat eine USt-VA … abgeben" statt
+    abgegeben; „Eine Umsatzsteuersonderprüfung, die sich nur auf bestimmte Sachverhalte
+    hier: steuerfreie Umsätze) bezieht" – die öffnende Klammer fehlt.
+  - Kapitel 2 (Tz. 6): „… nur noch in eingeschränktem Umfang nach den Vorschriften der
+    §§ 129, 172 ff AO geändert werden kann" – das Wort „kann" steht im Satz doppelt.
+  - Kapitel 2 (Tz. 10): „Prüfung der Korrekturvorschriften für endgültig erlassende
+    Steuerbescheide" – gemeint sind endgültig erlassene Steuerbescheide; die Formulierung
+    steht dreimal in der Übersicht.
+  - Kapitel 2 (Tz. 9): Die Entfernungspauschale wird mit „§ 9 Abs. 1 Satz 2 Nr. 4 EStG"
+    zitiert; sie steht in § 9 Abs. 1 Satz 3 Nr. 4 EStG.
+  - Kapitel 4 (Tz. 1.2): „Doppelbesteuerungskommen" statt Doppelbesteuerungsabkommen;
+    „für nicht mit dem GG für vereinbar erklärt" – das Wort „für" steht doppelt.
+  - Kapitel 4 (Tz. 4): Zwei Klammern werden geöffnet und nicht geschlossen („Anschluss an
+    BFH-Urteil vom 19.10.1999 …" und „(Hier: Vorläufigkeit ursprünglich nach § 165 Abs. 1
+    S. 1 und 2 AO …").
+  - Kapitel 6: „dass er beabsichtige, dass Darlehen im Jahre 11 zu tilgen" – gemeint ist
+    „das Darlehen". Die Ergänzung zur Variante 2 spricht von den Einkommensteuerbescheiden
+    „07 bis 11", die Lösung behandelt die Veranlagungszeiträume 07 bis 10.
+  - Kapitel 7: „mit einfachen Brief"; „Angenommen, dass FA hätte …" statt „das FA";
+    die Fundstelle „vgl. AEAO zu § 168, Nr. 9 und § 122 Abs. 2 Nr. 1 AO)" schließt eine
+    Klammer, die nicht geöffnet wurde.
+  - Kapitel 9: „Wird der Antrag durch Einreichung einer berichtigen Voranmeldung gestellt" –
+    gemeint ist eine berichtigte Jahreserklärung. Im Ergebnis heißt es „die am 30.06.05
+    fällige Nachzahlung", während der Fälligkeitstag an allen anderen Stellen der 30.06.04
+    ist.
+  - Kapitel 2 des Stoffverteilungsplans: Die Gliederung des Abschnitts 14 springt von
+    „I. Tatbestand" unmittelbar zu „IV. Strafausschließungsgrund"; die Punkte II und III
+    sind nicht beziffert.
+
+  Nachgerechnet und bestätigt wurden: im Übungsfall zu § 164 AO die Fristenden 31.12.08
+  (vier Jahre), 31.12.09 (fünf Jahre, leichtfertige Steuerverkürzung) und 31.12.14 (zehn
+  Jahre, Steuerhinterziehung) sowie die Erhöhung des zu versteuernden Einkommens um
+  20.000 € und der Einkommensteuer um 8.000 € (40 %) im Ausgangsfall und um 16.000 € bzw.
+  6.400 € in der Abwandlung; im Beispiel zu § 165 AO der Berichtigungsrahmen von 33.000 €
+  (30.000 € + 3.000 €) bis 28.000 € (30.000 € ./. 2.000 €) und die Herabsetzung auf
+  28.000 €; im Übungsfall Sylt der Verlust 06 von ./. 24.000 € (8.000 € ./. 32.000 €), die
+  Herabsetzung des Verlustes 07 von 20.000 € auf 17.000 €, die Fristenden 31.12.11 bis
+  31.12.15 für die Jahre 06 bis 10 und die Jahresfrist des § 171 Abs. 8 AO vom 11.01.13 bis
+  10.01.14; im Beispiel zu §§ 167, 168 AO die Bekanntgabe der Abrechnung am 29.10.02
+  (Viertagesfrist), das Ende der Einspruchsfrist am 02.11.02 und die Fristenden 31.12.06
+  bzw. 31.12.07; im Beispiel Lammers die Fristenden 31.12.07 (vier Jahre) und 31.12.13
+  (zehn Jahre); im Übungsfall Kelle die verbleibende Umsatzsteuer von 40.000 €, die
+  Abschlusszahlung von 8.000 €, die Einspruchsfrist bis 30.06.04, das Ende der
+  Festsetzungsfrist am 31.12.08 und die nach Aussetzung der Vollziehung verbleibende
+  Zahlung von 5.000 €.

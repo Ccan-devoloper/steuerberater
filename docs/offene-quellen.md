@@ -71,9 +71,16 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
 - AO-Skript (Jacobs), **Teil I: Abschnitte 1 bis 3 sind eingepflegt** (Reiter „Skript
   (Jacobs)“), zusammen mit dem Hinweisblatt zur Viertagesfrist. Der Rest von Teil I ist
   technisch blockiert, siehe Abschnitt A.
-- AO-Teile II, III und V (Jacobs) – noch nicht bearbeitet. Ein Teil IV liegt unter diesem
-  Namen nicht im Ordner; zu prüfen ist, ob eine der Dateien „2025) (6).pdf“,
-  „2025) (7).pdf“ oder „2025) (8).pdf“ dieser Teil ist.
+- AO-Skript (Jacobs), **Teil II: Abschnitt 5 (§§ 164, 165, 168 AO) ist eingepflegt**,
+  ebenso der Stoffverteilungsplan mit dem Inhaltsverzeichnis aller fünfzehn Abschnitte.
+  Offen ist aus Teil II noch **Abschnitt 6 (Festsetzungsverjährung)**; der Connector gibt
+  ihn bis Seite 42 von 74 aus (bis § 171 Abs. 4 AO), der Rest ist technisch blockiert.
+- Noch nicht bearbeitet sind die weiteren Bände des Jacobs-Skripts. Die drei Dateien mit
+  nichtssagenden Namen sind identifiziert: „2025) (6).pdf“ = Stoffverteilungsplan,
+  „2025) (7).pdf“ = **Teil IV, Abschnitte 8 bis 10** (Rechtsbehelfsverfahren, FGO,
+  vorläufiger Rechtsschutz), „2025) (8).pdf“ = **Teil VI, Abschnitte 14 und 15**
+  (Steuerstraf- und Bußgeldrecht, Vollstreckungsrecht). Dazu kommen **Teil III** und
+  **Teil V** unter ihren eigenen Namen.
 - AO-Short-Skript
 - FGO
 - Notfallbuch

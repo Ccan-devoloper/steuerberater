@@ -117,6 +117,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und Inhalt nach §§ 119 bis 121, 155 und 157 AO, den abgedruckten Einkommensteuerbescheid
   mit seinen 26 selbständigen Verwaltungsakten, Nichtigkeit nach § 125 AO,
   Gesamtrechtsnachfolge mit dem Übungsfall Trunk bis zur Bekanntgabe nach §§ 122, 122a AO.
+  Aus Teil II ist Abschnitt 5 eingepflegt: der Vorbehalt der Nachprüfung nach § 164 AO
+  (Anwendungsbereich, Gesamtüberprüfungsrecht, Einspruch gegenüber Änderungsantrag,
+  Aufhebung und Wegfall kraft Gesetzes, Prüfungsfolge, Übungsfall zur Teilverjährung), die
+  vorläufige Steuerfestsetzung nach § 165 AO (tatsächliche Ungewissheit und die
+  Katalogfälle des Satzes 2, Bestimmbarkeit des Vermerks, Berichtigungsrahmen und
+  Anfechtungsbeschränkung, der Übungsfall zur Ferienwohnung auf Sylt mit zwei Varianten
+  und der Jahresfrist des § 171 Abs. 8 AO) sowie die Steueranmeldung nach §§ 167, 168 AO
+  (die beiden gesetzlichen Fiktionen, Voranmeldung gegenüber Jahreserklärung, der
+  Hinterziehungsfall Lammers und der Übungsfall Kelle zur Wahl zwischen Korrektur- und
+  Einspruchsverfahren). Vorangestellt ist der Stoffverteilungsplan mit dem vollständigen
+  Inhaltsverzeichnis aller fünfzehn Abschnitte.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
