@@ -91,9 +91,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Abschnitt 14 (Steuerstraf- und Bußgeldrecht) sind der Teil I (Allgemeine Grundlagen) und
   der Teil II einschließlich des Kompensationsverbots und der beiden Übungsfälle
   eingepflegt, einschließlich der Steuerhinterziehung bei Personengesellschaften, der
-  Zwei-Säulen-Theorie und des subjektiven Tatbestands. Offen sind daraus noch die
-  Selbstanzeige nach § 371 AO im Einzelnen, der Teil IV (Bußgeldrecht) sowie der gesamte
-  **Abschnitt 15** (Vollstreckungsrecht).
+  Zwei-Säulen-Theorie, des subjektiven Tatbestands und der Berichtigungspflicht nach
+  § 153 AO einschließlich des Erbfalls. Offen sind daraus noch der zusammenfassende
+  Übungsfall des Teils III (Gaststätten- und Großküchen GmbH), die Selbstanzeige nach
+  § 371 AO, der Teil IV (Bußgeldrecht) sowie der gesamte **Abschnitt 15**
+  (Vollstreckungsrecht).
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript

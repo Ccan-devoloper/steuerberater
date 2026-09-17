@@ -2346,3 +2346,32 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   fremder Vorteil, der von B (40 %) 12.000 € eigener und 18.000 € fremder Vorteil; der
   Feststellungsbescheid vom 25.08.02 ist nach der Viertagesfrist am 29.08.02 bekannt
   gegeben.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 5)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Sonderfall des § 370 Abs. 1 Nr. 2 AO in Verbindung mit § 153 AO.
+- Einpflege dieses Durchgangs: zwei Kapitel – die Berichtigungspflicht des § 153 AO mit den
+  Grundsätzen des AEAO und dem Beispiel Amadeus in vier Abwandlungen sowie die
+  Berichtigungspflicht des Erben nach § 153 Abs. 1 Satz 2 AO. Das Skript umfasst damit
+  10 Teile, 97 Kapitel, 2.065 Blöcke und 193 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: der zusammenfassende Übungsfall des Teils III (Gaststätten- und
+  Großküchen GmbH), die Selbstanzeige nach § 371 AO, der Teil IV (Bußgeldrecht) und der
+  gesamte Abschnitt 15 (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 15: „Maßgebend ist den Fallgestaltungen des § 153 Abs. 1 Satz 1 Nr. 1 AO“ – das
+    Wort „in“ fehlt; „weil Amadeus im Jahre die 03 die Voraussetzungen“ – Wortstellung.
+  - Kapitel 15, Beispiel Amadeus: Der Taterfolg soll am 23.07.02 eingetreten sein; das
+    beruht auf der bis 2024 geltenden Dreitagesfrist. Nach § 122 Abs. 2 Nr. 1 AO in der ab
+    2025 geltenden Fassung wäre der Bescheid vom 20.07.02 am **24.07.02** bekannt gegeben.
+    Die übrigen Fristen sind nachgerechnet und zutreffend: reguläre Festsetzungsfrist bis
+    31.12.06, verlängerte bis 31.12.12, Ablaufhemmung nach § 171 Abs. 9 AO bis 20.11.07.
+  - Kapitel 16, Erbfall: Für die Veranlagungszeiträume **10 bis 18** – also neun Jahre –
+    nennt die Übersicht „4 Tathandlungen und 4 Taterfolge“. Ferner „weil die Angaben durch
+    ein und dieselbe Handlung zu erbringen gewesen **wäre**“ und „der Vater seiner
+    Verpflichtung … nicht nachgekommen“ ohne „ist“.

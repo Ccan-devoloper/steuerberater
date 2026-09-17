@@ -235,7 +235,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Übungsfall zur erschlichenen Stundung, Täterschaft und Teilnahme mit Anstiftung und
   Beihilfe sowie der subjektive Tatbestand mit Vorsatzarten, Tatbestandsirrtum,
   Leichtfertigkeit, Rechtswidrigkeit, Schuld und der Abgrenzung von Selbstanzeige und
-  Berichtigung nach § 153 AO.
+  Berichtigung nach § 153 AO. Hinzu kommen die Berichtigungspflicht des § 153 AO im
+  Einzelnen – objektive Unrichtigkeit, nachträgliches Erkennen, Unverzüglichkeit der Anzeige
+  und die erweiterte Pflicht des § 153 Abs. 4 AO ab 2025 – mit dem Beispiel Amadeus in vier
+  Abwandlungen sowie der Erbfall nach § 153 Abs. 1 Satz 2 AO, in dem die vorsätzlich
+  unterlassene Anzeige des Erben eine neue fünfzehnjährige Verjährungsfrist auslöst und über
+  § 171 Abs. 7 AO zu einer steuerlich wirksamen Frist von insgesamt dreißig Jahren führt.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
