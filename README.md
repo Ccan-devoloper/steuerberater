@@ -153,10 +153,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Einkunftsarten mit erweiterter Kürzung und kapitalistischer Betriebsaufspaltung, die
   zweistufige Einkommensermittlung, steuerfreie Erträge, die nicht abziehbaren Aufwendungen
   nach EStG, AO und § 10 KStG, der Umkehrschluss bei Erstattungen, der Spendenabzug und die
-  Anrechnung ausländischer Steuern) – zusammen 14 Abschnitte, 385 Absätze, 18 Tabellen.
+  Anrechnung ausländischer Steuern) sowie Teil 3 (verdeckte Einlagen: Abgrenzung zur
+  verdeckten Gewinnausschüttung nach der Zuwendungsrichtung, Wertansatz beim Empfänger mit
+  den Ausnahmen vom Teilwert, Forderungsverzicht mit Besserungsschein, Rangrücktritt und
+  Pensionsverzicht, materielles und formelles Korrespondenzprinzip, die folgenlose
+  Nutzungseinlage mit ihren drei Ausnahmen, Rückgewähr von Ausschüttungen sowie das
+  steuerliche Einlagekonto mit ausschüttbarem Gewinn und Verwendungsfestschreibung) –
+  zusammen 21 Abschnitte, 704 Absätze, 28 Tabellen.
   **Noch unvollständig:** Der Drive-Connector gibt das PDF nur bis etwa Seite 90 von 196 aus;
-  die Teile 5 bis 10 sind darüber nicht erreichbar. Teil 3 und der Anfang von Teil 4 liegen
-  als Text vor und folgen.
+  die Teile 5 bis 10 sind darüber nicht erreichbar. Der Anfang von Teil 4 liegt als Text vor
+  und folgt.
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):
   die Übungsfälle des Lehrgangs, Teil 1 (Stand 07/2025) mit drei Fällen – Abschlusszahlung zur

@@ -49,11 +49,11 @@ Eingepflegt: Einkommensteuer 1. Offen sind:
 - Abgabenordnung
 
 ### Klausur 2 – Körperschaftsteuer
-- KSt-Kurz-Skript (Breier): **Teil 3 und der Anfang von Teil 4** liegen als Text vor und sind
-  als Nächstes einzupflegen. Teile 1 und 2 sind erfasst; die Teile 5 bis 10 sind technisch
-  blockiert (s. o.).
+- KSt-Kurz-Skript (Breier): **Der Anfang von Teil 4** (Ausschüttungen und Beteiligungen)
+  liegt als Text vor und ist als Nächstes einzupflegen. Die Teile 1 bis 3 sind erfasst; die
+  Teile 5 bis 10 sind technisch blockiert (s. o.).
 - Eingepflegt sind bereits: KSt-Übungsfälle Teil 1 und 2 (ohne Lösung, s. o.), die fünf
-  Prüfungsschemata (Nöthen) und die Teile 1 und 2 des Kurz-Skripts.
+  Prüfungsschemata (Nöthen) und die Teile 1 bis 3 des Kurz-Skripts.
 
 ### Klausur 3 – Personengesellschaften
 - Fact Sheets

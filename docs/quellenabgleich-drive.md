@@ -728,3 +728,28 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   für sie nur Seitenplatzhalter („Page 1“, „Page 2“, …) aus, keinen Text. Damit sind sie über
   den Connector grundsätzlich nicht erfassbar – unabhängig von ihrer Größe (42 bis 110 MB).
   Sie stehen in docs/offene-quellen.md unter den technisch blockierten Quellen.
+
+- **KSt-Kurz-Skript (Breier) – Teil 3 nachgetragen.** Erfasst ist jetzt auch Teil 3
+  „Verdeckte Einlagen und steuerliches Einlagekonto“ mit sieben Abschnitten: Abgrenzung zur
+  verdeckten Gewinnausschüttung nach der Zuwendungsrichtung (Denkschema mit drei
+  Dreiecksfällen), steuerliche Folgen der verdeckten Einlage auf beiden Ebenen,
+  Forderungsverzicht (einschließlich Besserungsschein, Rangrücktritt und Verzicht auf eine
+  Pensionszusage), materielles und formelles Korrespondenzprinzip, Abgrenzung zur nicht
+  einlagefähigen Nutzungseinlage mit den drei Ausnahmen (§ 3c Abs. 2 S. 6 EStG, § 1 AStG,
+  § 12 Abs. 1 KStG), Rückgewähr von Gewinnausschüttungen sowie das steuerliche Einlagekonto.
+  Der Bestand umfasst damit 21 Abschnitte, 704 Absätze und 28 Tabellen.
+
+  Weitere Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - „hinzuzurechnen ist“ am Satzende (zweimal in Abschnitt A. I); „13,500“ mit Komma statt
+    Punkt; „dar Grundstück“; „um 1000.000“ statt 100.000; ein Buchungssatz mit zweimal „an“;
+    „Beteuerung“ statt Besteuerung und „Anteileier“ statt Anteilseigner; „wird regelt“;
+    „Darlegens“ statt Darlehens; „das damit“ statt „und damit“; „wäret“ statt wäre;
+    „zu versteuern hat“ am Satzende; „t-GmbH“; „zu buchen ist“ doppelt.
+  - Fundstellen: „§ 8b Abs. 4 S. 8 KStG“ statt Abs. 3 S. 8.
+  - Inhaltlich: In Beispiel 3 zu A. II wird die Ware an die Z-GmbH geliefert, die Einlage
+    aber der „T-GmbH“ zugeschrieben; in Beispiel 2 zu A. IV heißt der Gesellschafter im
+    ersten Satz B, danach durchgehend A; im Beispiel zum Einlagekonto wird das Eigenkapital
+    zum 31.12.03 zunächst mit 145.000, in der Folgerechnung mit 145.500 angegeben (der
+    ausgewiesene ausschüttbare Gewinn von 55.000 passt zu 145.000).
