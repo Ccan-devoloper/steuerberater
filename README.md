@@ -215,7 +215,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   zutreffende Steuer 48.000 €, festsetzbar nur 47.400 €) sowie der Zeitpunkt des Taterfolgs
   bei Veranlagungssteuern mit der 95-Prozent-Grenze, bei Schätzungen in zwei Fallgruppen
   und bei der Umsatzsteuer einschließlich des Verhältnisses von zwölf Voranmeldungen zur
-  Jahreserklärung nach dem BGH-Urteil vom 13.07.2017.
+  Jahreserklärung nach dem BGH-Urteil vom 13.07.2017. Dazu kommen das strafrechtliche
+  Kompensationsverbot des § 370 Abs. 4 Satz 3 AO mit der Abgrenzung von tatzugehörigen und
+  tatfremden Gründen, der neuen Vorsteuer-Rechtsprechung des BGH, dem
+  Gebrauchtwagen-Übungsfall (achtspaltiges Lösungsschema über vier Steuerarten und
+  Zeiträume) und dem durchgerechneten Beispiel zu den Auswirkungen auf Festsetzungsfrist
+  und Korrektur (Berichtigungsrahmen 56.000/40.000/36.000 €, Ergebnis 46.000 €) sowie zwei
+  Übungsfälle: der Stpfl. Geizig in drei Varianten, bei denen derselbe objektive Tatbestand
+  je nach subjektiver Seite zu einem Tatbestandsirrtum, einer leichtfertigen
+  Steuerverkürzung nach § 378 AO oder einer Hinterziehung über 5.200 € führt, und der
+  Rentner Glück mit der Steuerverkürzung durch Unterlassen und der 95-Prozent-Grenze.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

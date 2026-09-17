@@ -2257,3 +2257,50 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   (§ 177 AO) nur bis **47.400 €**. Ebenso das Umsatzsteuerbeispiel: zwölf Voranmeldungen
   zu je 1.900 € ergeben 22.800 €, was genau dem Taterfolg der Jahreserklärung entspricht –
   insgesamt 13 selbständige Taten.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 3)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Tz. 5 und 6.
+- Einpflege dieses Durchgangs: zwei Kapitel – das strafrechtliche Kompensationsverbot des
+  § 370 Abs. 4 Satz 3 AO mit dem Gebrauchtwagen-Übungsfall und dem Beispiel zu den
+  Auswirkungen auf Festsetzungsfrist und Korrektur sowie die beiden Übungsfälle zum
+  Steuerstrafrecht. Das Skript umfasst damit 10 Teile, 91 Kapitel, 1.973 Blöcke und
+  185 Tabellen; Prüfung `npm run check:k1-ao-skript-jacobs`.
+- Zur Darstellung: Das Lösungsschema des Gebrauchtwagen-Übungsfalls steht im PDF als
+  achtspaltige Matrix, deren Spalten der Textextraktion durcheinandergeraten. Die Beträge
+  sind eindeutig und wurden nachgerechnet; sie sind im Datensatz in der Reihenfolge des
+  Spaltenkopfs wiedergegeben, ein Hinweis im Kapitel nennt die Rechenwege.
+- Noch nicht eingepflegt: die Steuerhinterziehung bei Personengesellschaften (Tz. 7), die
+  Teile III und IV des Abschnitts 14 (Selbstanzeige nach § 371 AO, Bußgeldrecht) und der
+  gesamte Abschnitt 15 (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 9, Lösungsschema: Der tatfremde Ermäßigungsgrund bei der Einkommensteuer ist
+    mit „Nicht erfasste BE netto: 2.000 €“ überschrieben; gemeint ist die nicht erfasste
+    **Betriebsausgabe** aus der Reparaturrechnung.
+  - Kapitel 10, Fall 1: Der Taterfolg soll „am 24.03.03“ eingetreten sein; der Bescheid
+    datiert vom 20.02.03, die Viertagesfrist führt zum **24.02.03**.
+  - Kapitel 10, Fall 1 b): doppelte Klammer in der Fristberechnung.
+  - Kapitel 10, Fall 2: „pflichtwidriges Unterlassen der Abgabe der ESt-Erklärung 01“ –
+    zu würdigen ist nach der Aufgabenstellung der Veranlagungszeitraum **02**.
+
+  Nachgerechnet und zutreffend: der Gebrauchtwagen-Übungsfall – Golf 23.800 € brutto
+  ergibt 3.800 € Umsatzsteuer und 20.000 € netto (kein Vorsteuerabzug, weil der Einkauf
+  von einer Privatperson erfolgte); Porsche 71.400 € brutto ergibt 11.400 € Umsatzsteuer
+  und 60.000 € netto, der Einkauf 59.500 € brutto ergibt 9.500 € Vorsteuer und 50.000 €
+  netto; die Reparatur 2.380 € brutto ergibt 380 € Vorsteuer und 2.000 € netto. Umsatz-
+  steuer objektiv: 3.800 €, 1.900 € und für die Jahresanmeldung 15.200 ./. 9.500 =
+  **5.700 €**; die 380 € Vorsteuer bleiben als tatfremder Grund außer Betracht, und weil
+  die Reparaturrechnung nicht vorsätzlich verschwiegen wurde, stimmen objektiv und
+  subjektiv hinterzogener Betrag überein. Einkommensteuer: 80.000 € × 40 % = 32.000 €
+  abzüglich 62.000 € × 40 % = 24.800 € ergibt **7.200 €**.
+  Ebenso das Beispiel zu Tz. 5.3: Berichtigungsobergrenze 56.000 €, bestandskräftige
+  40.000 €, Untergrenze 36.000 €; 40.000 + 16.000 ./. 6.000 ./. 4.000 = **46.000 €**. Und
+  im Übungsfall Geizig: objektiv 6.000 €, subjektiv 6.000 ./. 800 = **5.200 €**; die
+  Fristenden 31.12.06 (regulär), 31.12.07 (§ 378 AO) und 31.12.12 (§ 370 AO) sowie der
+  Taterfolg des Falls Glück am 01.10.04 (21 Monate nach Ablauf des VZ 02) und das
+  Fristende 31.12.15 sind zutreffend.
