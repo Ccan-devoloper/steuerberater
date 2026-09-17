@@ -21,6 +21,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **KSt-Übungsfälle Teil 1 und 2** (Nöthen) | Der gesamte **Lösungsteil** zu allen fünf Fällen | Beide Aufgaben-PDFs enden nach der Aufgabenstellung; im Ordner liegt keine Musterlösung. Die Fälle stehen im Campus ohne Lösung, ausdrücklich gekennzeichnet. |
 | **KSt-Kurz-Skript** (Breier, Mai 2026), Drive-ID `1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0` | Ab etwa Seite 90 von 196: **der Rest von Teil 4 (Veräußerung von Anteilen, § 8b Abs. 2 und 3 KStG), Teil 5 (verdeckte Gewinnausschüttung), Teil 6, Teil 7 (Zinsschranke), Teil 8 (Organschaft), Teil 9 (Liquidation), Teil 10 (Nennkapital)** | Der Connector gibt das PDF nur bis etwa Seite 90 aus. Die Teile 1 bis 3 und der Anfang von Teil 4 sind lesbar und eingepflegt; ab der Bruchstelle fehlt auch der Rest von Teil 4. |
 | **„KStG, 1. bis 7. Einheit"** (Nöthen), Ordner `1bqhD4ayOUTo8A7WBUXgce3otxy5L7YrN` | Alle sieben Dateien vollständig | **Reine Scans ohne Textebene.** Der Connector liefert nur Seitenplatzhalter („Page 1", „Page 2", …), keinen Text. Über den Connector grundsätzlich nicht erfassbar. |
+| **PersG Fact Sheets** (Horst, April 2025), Drive-ID `179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5` | Die vollständigen 24 Seiten | **Reiner Scan ohne Textebene.** Der Connector gibt aus dem 17,4-MB-PDF nur den Wasserzeichentext zurück, sonst nichts. Der Download bricht am 10-MB-Limit des Connectors ab; eine lokale Texterkennung steht in dieser Umgebung nicht zur Verfügung. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
 Rest: wortlautgetreu, mit Kennzeichnung jeder Stelle, an der die Quelle selbst nicht
@@ -61,7 +62,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
 - Fallsammlung PersG – Lösungen (Melzer): **eingepflegt.** Der Lösungsteil lag im Ordner
   „Personengesellschaften" unter dem nichtssagenden Namen „2026) (9).pdf" und war beim
   ersten Durchgang übersehen worden; er steht jetzt unter jedem Fall der Fallsammlung.
-- Fact Sheets (Horst)
+- Fact Sheets (Horst): **technisch blockiert**, siehe Abschnitt A. Das PDF ist ein reiner
+  Scan ohne Textebene und zugleich zu groß für den Download über den Connector.
+- Damit ist der Drive-Ordner „Personengesellschaften“ bis auf die Fact Sheets abgearbeitet.
 
 ### Klausur 1 – Abgabenordnung
 - AO-Teile I bis V
