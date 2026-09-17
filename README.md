@@ -76,8 +76,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   nach IDW RS HFA 7, die Abfindung zum, unter und über dem Buchwert samt Firmenwert und
   zwei AfA-Reihen, der lästige Gesellschafter und die private Zusatzzahlung sowie die
   Sachwertabfindung in das Privatvermögen (Zweistufentheorie) und in das Betriebsvermögen
-  (unechte Realteilung nach dem Realteilungserlass vom 19.12.2018). Beispiele, Bilanzen und
-  Musterlösungen stehen vollständig; die Teile IV und V folgen.
+  (unechte Realteilung nach dem Realteilungserlass vom 19.12.2018) – und **Teil IV –
+  Realteilung, GmbH & Co. KG** (6 Kapitel): Konkurrenzen und Voraussetzungen der
+  Realteilung, die Abgrenzung der echten von der unechten Realteilung nach BFH IV R 31/14,
+  der Gegenstand der Realteilung mit dem Gesamtplan-Urteil BFH IV R 8/12 im Volltext,
+  Spitzen- und Wertausgleich mit laufendem Gewinn, die Kapitalkontenanpassungsmethode, die
+  dreijährige Sperrfrist des § 16 Abs. 3 Satz 3 EStG und die Siebenjahresfrist des
+  § 16 Abs. 5 EStG samt Rechtsfolgen sowie ein vollständig durchgerechneter Beispielsfall
+  zur Realteilung mit Spitzenausgleich; dazu die GmbH & Co. KG mit ihren Erscheinungsformen,
+  Sonderbetriebsvermögen I und II, den Beteiligungsgrenzen von 10 % und 25 % nach
+  BFH IV R 1/12 und IV R 15/19, den Fallgruppen der OFD Nordrhein-Westfalen zur funktional
+  wesentlichen Betriebsgrundlage, den Gewinnausschüttungen im Teileinkünfteverfahren und
+  der Tätigkeitsvergütung. Beispiele, Bilanzen und Musterlösungen stehen vollständig;
+  Teil V folgt.
   Prüfung: `npm run check:k3-persg-skript-melzer`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

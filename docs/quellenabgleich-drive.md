@@ -1537,3 +1537,38 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   100.000 € ./. 15.000 €) sowie die Bilanzsummen der beiden Stufen (340.000 € und
   230.000 €); im Kapitel 7 die AfA von 8.333 € (5.000 € + 3.333 €) und die Bilanzsumme von
   385.000 €.
+
+## PersG-Skript (Melzer), Teil IV
+
+- Quelle im Drive, Ordner „Personengesellschaften" (`1u8086Ukam7Zm3DQFnjde_KFwVg7Qzjs_`):
+  „B-S25-PersG-Teil IV-Realteilung Gmbh Co-0426.pdf" (`1TKHqaOxorn4EJ5Adkgwm80CHsMEJLFoM`,
+  29 Seiten). Verfasser Karsten Melzer, April 2026, Rechtsstand 2025.
+- Einpflege: als Teil IV in `src/data/k3-persg-skript-melzer.js` (6 Kapitel). Das Skript
+  umfasst damit 4 Teile, 27 Kapitel, 591 Blöcke und 60 Tabellen; Prüfung
+  `npm run check:k3-persg-skript-melzer`.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Kapitel 4, Sperrfristen: Der dritte Spiegelstrich der Aufzählung, wann eine Veräußerung
+    vorliegt, ist ohne Prädikat formuliert („der Realteiler Wirtschaftsgüter, die … gegen
+    Gewährung von Gesellschaftsrechten nach § 6 Abs. 5 EStG auf einen Dritten.").
+  - Kapitel 4, Beispielsfall zur Realteilung mit Spitzenausgleich: Der Satz „Die Forderung
+    gegenüber B wird Privatvermögen, daher erfolgt kein Ansatz in der Bilanz des B" lässt
+    Zuordnung und Bilanz nicht zusammenpassen – gemeint ist der Ausgleichsanspruch aus dem
+    Spitzenausgleich. Außerdem weist die Gesamtdarstellung der Kapitalkontenanpassung den
+    Teilbetrieb I mit 400.000 € (370.000 € + 30.000 €) und das Kapitalkonto B mit 530.000 €
+    aus, während die beiden Eröffnungsbilanzen der Einzelunternehmen den Teilbetrieb I mit
+    370.000 € und das Kapitalkonto B mit 500.000 € ansetzen.
+  - Kapitel 5, rechtliche Einordnung: „Auf die GmbH finden über § 161 Abs. 2 HGB die für die
+    OHG geltenden Vorschriften … Anwendung" – gemeint ist die KG; außerdem „Komplemantärin".
+
+  Nachgerechnet und bestätigt wurden unter anderem: im Kapitel 3 der Spitzenausgleich von
+  200.000 € (2.000.000 € ./. 1.800.000 €), der entgeltliche Anteil von 1/10, der anteilige
+  Buchwert von 20.000 € und der laufende Veräußerungsgewinn von 180.000 €; die
+  Kapitalanpassung von +10.000 € bzw. ./. 10.000 € im Beispiel zur
+  Kapitalkontenanpassungsmethode; im Kapitel 4 das Vermögen der Personengesellschaft von
+  1.800.000 €, der Spitzenausgleich von 100.000 €, das neue Kapitalkonto des A von 70.000 €
+  (270.000 € ./. 200.000 € + 100.000 € ./. 100.000 €), die Anpassung von 230.000 €, die
+  Bilanzsummen 900.000 €, 370.000 € und 500.000 € sowie der nicht begünstigte
+  Veräußerungsgewinn von 70.000 € (100.000 € ./. 30.000 €).
