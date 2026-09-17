@@ -20,6 +20,10 @@ import { estFallsammlungen, estFallsammlungenQuelle } from "../data/est-fallsamm
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import "./kst.css";
 
+/* Die Übungsklausur Körperschaftsteuer steht im KSt-Campus; hier stehen die
+   einkommensteuerlichen Klausuren des gemeinsamen Klausurbestands. */
+const EST_KLAUSUREN = estKlausuren.filter((eintrag) => eintrag.klausur !== "kst-1");
+
 const NAV = [
   ["cockpit", "Cockpit", IconCockpit],
   ["kurzskript1", "Kurzskript I", IconRegister],
@@ -85,7 +89,8 @@ function Cockpit() {
           Aufgabenstellung und Lösungshinweise im Wortlaut, die Randpunkte nur dort, wo sie sich im
           PDF eindeutig einem Absatz zuordnen lassen. Beide Ertragsteuer-Klausuren enthalten neben
           den einkommensteuerlichen Aufgabenteilen je einen vollständigen körperschaftsteuerlichen
-          Teil.
+          Teil. Die reine Übungsklausur Körperschaftsteuer steht im KSt-Campus unter
+          „Übungsklausur (Breier)“.
         </p>
         <p>
           Dazu {estFallsammlungen.length} Fälle aus den Fallrepetitorien im Reiter „Fallsammlungen“:{" "}
@@ -187,7 +192,7 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
             titel="ESt-Übungsklausuren 2026/2027"
             lead="Die Übungsklausuren im Prüfungsformat – sechs Stunden Bearbeitungszeit, je Aufgabenteil ein eigener Mandant. Aufgabenstellung, Sachverhalt und Musterlösung stehen im Wortlaut, die Ermittlungsschemata als Tabelle. Die Klausuren Ertragsteuern 0 und Ertragsteuern 2 vereinen einkommensteuerliche Aufgabenteile mit je einer vollständigen Körperschaftsteuerklausur."
             quelle={estKlausurenQuelle}
-            hausaufgaben={estKlausuren}
+            hausaufgaben={EST_KLAUSUREN}
             gruppeVon={(eintrag) => eintrag.klausur}
             gruppeLabel={(eintrag) => eintrag.klausurLabel}
             gruppeAria="Klausuren"

@@ -36,8 +36,7 @@ aufgeht, und mit einem Prüfskript.
 
 ### Übungsklausuren (Rechtsstand 2025) – 12 Klausuren, je mit Lösung
 Eingepflegt: Einkommensteuer 1, Ertragsteuern 0 und Ertragsteuern 2 (beide mit vollständigem
-körperschaftsteuerlichem Aufgabenteil). Offen sind:
-- Körperschaftsteuer
+körperschaftsteuerlichem Aufgabenteil) und Körperschaftsteuer (im KSt-Campus). Offen sind:
 - Umsatzsteuer
 - Bilanzierung 1
 - Bilanzierung 2
@@ -52,7 +51,8 @@ körperschaftsteuerlichem Aufgabenteil). Offen sind:
   die Teile 1 bis 3 und der Anfang von Teil 4 (Ausschüttungen und Beteiligungen). Der Rest
   von Teil 4 und die Teile 5 bis 10 sind technisch blockiert (s. o.).
 - Eingepflegt sind bereits: KSt-Übungsfälle Teil 1 und 2 (ohne Lösung, s. o.), die fünf
-  Prüfungsschemata (Nöthen) und das Kurz-Skript im lesbaren Umfang.
+  Prüfungsschemata (Nöthen), das Kurz-Skript im lesbaren Umfang und die Übungsklausur
+  Körperschaftsteuer (Breier/Wenger) mit allen vier Sachverhalten und Musterlösung.
 
 ### Klausur 3 – Personengesellschaften
 - Fact Sheets

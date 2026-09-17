@@ -10,6 +10,7 @@ import { kstFaelle } from "../data/kst-faelle";
 import { kstKurzskript, kstKurzskriptQuelle } from "../data/kst-kurzskript.js";
 import { kstUebungsfaelle, kstUebungsfaelleQuelle } from "../data/kst-uebungsfaelle.js";
 import { kstSchemataNoethen, kstSchemataNoethenQuelle } from "../data/kst-schemata-noethen.js";
+import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import { kstKarteikarten, kstQuizfragen } from "../data/kst-lernstoff";
 import { REDAKTIONSSTAND } from "../data/redaktion";
 import { Normkette, Notiz } from "./Bausteine";
@@ -34,6 +35,10 @@ const prioZaehlung = prioZaehlen(kstModule, prioModul);
 /* Reiner Bilanzstoff gehört ausschließlich in Klausur 3 und erscheint daher
    auch nicht als bloßer Quellenhinweis im KSt-Campus. */
 const kstQuellenOhneK3 = kstQuellen.filter((quelle) => quelle.title !== "Notiz 30.07.2026");
+
+/* Die Übungsklausur Körperschaftsteuer liegt im gemeinsamen Klausurbestand; hier
+   werden nur ihre vier Sachverhalte gezeigt. */
+const KST_UEBUNGSKLAUSUR = estKlausuren.filter((eintrag) => eintrag.klausur === "kst-1");
 kstQuellen.splice(0, kstQuellen.length, ...kstQuellenOhneK3);
 
 const modulIds = new Set(kstModule.map((m) => m.id));
@@ -46,6 +51,7 @@ const ansichten = [
   { id: "uebungsfaelle", label: "Übungsfälle (Nöthen)", Icon: IconFaelle },
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
   { id: "schemata-noethen", label: "Schemata (Nöthen)", Icon: IconSchema },
+  { id: "uebungsklausur", label: "Übungsklausur (Breier)", Icon: IconTraining },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconModule },
   { id: "training", label: "Training", Icon: IconTraining },
   { id: "quellen", label: "Quellenstand", Icon: IconRegister },
@@ -302,6 +308,22 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Fälle"
             einheitEinzahl="Fall"
+          />
+        )}
+        {ansicht === "uebungsklausur" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 2 · Körperschaftsteuer · Übungsklausur"
+            titel="KSt-Übungsklausur (Breier)"
+            lead="Die Übungsklausur im Fachgebiet Körperschaftsteuer (Breier/Wenger, Rechtsstand 2025, 6 Stunden, 100 Punkte) mit ihren vier Sachverhalten: A-GmbH über dreizehn Textziffern, Theaterverein, Teilwertabschreibung auf ein Gesellschafterdarlehen und K-GmbH mit Rangrücktritt und Besserungsschein. Sachverhalt, Aufgabenstellung und Musterlösung stehen im Wortlaut."
+            quelle={estKlausurenQuelle}
+            hausaufgaben={KST_UEBUNGSKLAUSUR}
+            gruppeVon={(eintrag) => eintrag.klausur}
+            gruppeLabel={(eintrag) => eintrag.klausurLabel}
+            gruppeAria="Klausuren"
+            karteKicker={(eintrag) => `Sachverhalt ${eintrag.teil} · ${eintrag.bearbeitungszeit} · ${eintrag.punkte} Punkte`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Sachverhalte"
+            einheitEinzahl="Sachverhalt"
           />
         )}
         {ansicht === "schema" && <KstSchemaseite oeffnen={oeffnen} />}

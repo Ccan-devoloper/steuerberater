@@ -896,3 +896,49 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     3.000 + 8.000) ergeben 911.000; die Musterlösung stellt 913.000 fest.
   - Aufgabenteil II: Der in der Lösung zu Textziffer 4b genannte verrechenbare Verlust nach
     § 15a Abs. 4 EStG von 40.000 erscheint in der Schlussaufstellung zu Aufgabe 4 nicht.
+
+- **Übungsklausur „Körperschaftsteuer" (Rechtsstand 2025)** – Ulrich Breier, Korrektor
+  Volkmar Wenger; Drive-IDs `1W5tGQAwR6k5pWhrVOgOgBH5K1N_ydTCb` (Aufgabe) und
+  `1L4KxJxJHvCxXMpDcRHjr32MyD-vcslwL` (Lösung). Sie steht im KSt-Campus im neuen Reiter
+  „Übungsklausur (Breier)"; der ESt-Campus zeigt weiterhin nur die einkommensteuerlichen
+  Klausuren desselben Bestands.
+
+  Die Klausur hat vier getrennte Sachverhalte mit eigenen Aufgaben und Hinweisen:
+  Sachverhalt 1 (A-GmbH, 68 Punkte), Sachverhalt 2 (Theaterverein, 12 Punkte), Sachverhalt 3
+  (Teilwertabschreibung auf ein Gesellschafterdarlehen, 8 Punkte) und Sachverhalt 4 (K-GmbH,
+  12 Punkte) – zusammen 100 Punkte. Alle vier sind vollständig übernommen: Sachverhalt,
+  Aufgabenstellung, Hinweise und Lösungshinweise im Wortlaut, die Rechenschemata als Tabelle.
+
+  Die Rechnung geht auf: Aus dem Jahresüberschuss von 440.000 € (zurückgerechnet aus dem
+  Bilanzgewinn) ergibt sich mit den ausgewiesenen Korrekturen ein vorläufiges Einkommen von
+  627.010 €, ein zu versteuerndes Einkommen von 622.010 €, eine tarifliche Körperschaftsteuer
+  von 93.301 €, nach Anrechnung der brasilianischen Steuer eine festzusetzende Steuer von
+  81.301 € und ein Einlagekonto von 181.500 €. Auch Sachverhalt 4 (./. 64.600 €) und
+  Sachverhalt 2 (6.750 €) sind nachgerechnet.
+
+  Randpunkte: Die Musterlösung markiert sie einzeln am Rand. Sie stehen hier an ihrem Absatz,
+  soweit die Randspalte sich im PDF eindeutig zuordnen lässt; in Sachverhalt 1 gilt das für
+  67 der 68 Punkte, der verbleibende ist als Hinweis vermerkt.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)" gekennzeichnet:
+
+  - Sachverhalt 1, Hinweise: Gewerbesteuer, Kapitalertragsteuer und Solidaritätszuschlag
+    sollen außer Betracht bleiben; die Musterlösung rechnet in Tz. 1 gleichwohl die
+    Gewerbesteuer- und Solidaritätszuschlag-Vorauszahlungen hinzu und beurteilt den
+    Säumniszuschlag zur Kapitalertragsteuer.
+  - Sachverhalt 1, Tz. 7: „§ 8 Abs. 3 S. 3 EStG" statt KStG.
+  - Sachverhalt 1, Tz. 9: „§ 8b Abs. 3 S. 4 KStG (materielles Korrespondenzprinzip)" – gemeint
+    ist § 8 Abs. 3 S. 4 KStG; außerdem „Der Ertrag von 3.0000".
+  - Sachverhalt 1, Tz. 11: „§ 20 Abs. 1 S. 1 Nr. 7 S. 3 KStG" statt EStG; dieselbe Fundstelle
+    wird einmal als R 10.1 Abs. 2 S. 2 KStR, einmal als R 10 Abs. 1 S. 3 KStR zitiert.
+  - Sachverhalt 1, Tz. 12: „Einlagekoto".
+  - Sachverhalt 1, Tz. 13: „Da aber A … aber nicht Mitglied in dem Verein ist".
+  - Sachverhalt 2: „§ 5 Abs. 1 S. 9 S. 2 KStG" statt § 5 Abs. 1 Nr. 9 S. 2 KStG; „Einnahmen
+    bis zum 45.000"; in den Hinweisen „Auf Fragen der Erbschaftsteuer ist nicht einzugeben".
+  - Sachverhalt 3: Der Sachverhalt setzt die A-GmbH als Alleingesellschafterin der B-GmbH mit
+    Sitz in Köln, während Sachverhalt 1 derselben Klausur die A-GmbH in Bonn ansiedelt und die
+    B-GmbH umgekehrt als 30 %-Gesellschafterin der A-GmbH führt. Die Sachverhalte sind
+    getrennt zu lösen.
+  - Sachverhalt 4: Der Hinweis zur vertretbaren Alternativlösung rechnet den Zinsaufwand von
+    1.750 „gem. § 8 Abs. 3 S. 3 KStG" hinzu; die Hinzurechnung einer vGA folgt aus Satz 2.
