@@ -24,7 +24,7 @@ import "./kst.css";
    Teilklausuren der Klausur AO/USt im USt- bzw. AO-Campus, die Übungsklausuren
    Bilanzierung 1 bis 4 im Bilanzen-Campus der Klausur 3; hier stehen die
    einkommensteuerlichen Klausuren des gemeinsamen Klausurbestands. */
-const ANDERE_FAECHER = new Set(["kst-1", "ust-1", "ao-1", "ao-2", "bil-1", "bil-2", "bil-3", "bil-4"]);
+const ANDERE_FAECHER = new Set(["kst-1", "ust-1", "ao-1", "ao-2", "bil-1", "bil-2", "bil-3", "bil-4", "ao-ust-erbst-1"]);
 const EST_KLAUSUREN = estKlausuren.filter((eintrag) => !ANDERE_FAECHER.has(eintrag.klausur));
 
 const NAV = [

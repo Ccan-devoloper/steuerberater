@@ -1256,3 +1256,62 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   (515.000 € zum 01.01., 488.900 € zum 31.12.) sowie die Ergänzungsbilanz des D
   (330.000 € zum 01.01., 297.253 € zum 31.12.).
 
+- **Übungsklausur „AO/USt/ErbSt/BewR 1" (Rechtsstand 2025)** – Hans-Jürgen Jacobs und
+  Tim Schröders, Korrektoren G. Ilci, S. Schiffbauer und R. Grolle; Drive-IDs
+  `16Slvx0iH4CKOk61cyne6qXXSrokDYuAV` (Aufgabe, dort „BewR 1 (RS 2025).pdf") und
+  `1lbGqHVENS7ruilbTilON4p_7En3cgknu` (Lösung, dort „BewR 1 - Loesung (RS 2025).pdf").
+
+  **Zum Dateinamen:** Die beiden Dateien heißen im Drive nur „BewR 1", enthalten aber nicht
+  bloß einen Bewertungsteil, sondern die vollständige Klausur AO/USt/ErbSt/BewR 1 mit drei
+  Fachteilen – Abgabenordnung/FGO (30 Punkte), Umsatzsteuer (35 Punkte) und
+  Erbschaftsteuer/Bewertung (35 Punkte, Bearbeitungszeit 2 Stunden) – zusammen 100 Punkte bei
+  6 Stunden Gesamtbearbeitungszeit. Das entspricht dem Befund bei der Datei „USt -
+  Sachverhalt (RS 2025).pdf", die ebenfalls beide Teilklausuren ihrer Klausur enthält.
+
+  Übernommen ist die vollständige Klausur in acht Aufgabenteilen: AO 1 bis AO 3, USt 1 bis
+  USt 4 und ErbSt/BewR. Jeder Eintrag trägt zusätzlich das Feld `fach` („ao", „ust",
+  „erbst"), damit die drei Campusse der Klausur 1 jeweils ihren Teil anzeigen: der AO-Teil
+  im Reiter „Übungsklausur (AO)", der USt-Teil im Reiter „Übungsklausur (USt)" und der
+  ErbSt-Teil im neuen Reiter „Übungsklausur (Jacobs)" des Erbschaftsteuer-Campus.
+
+  Randpunkte: Im AO- und im USt-Teil sammeln sie sich beim Extrahieren blockweise am
+  Seitenende; dort trägt kein Block Randpunkte, und die von der Quelle ausgewiesenen Summen
+  je Sachverhalt (15 / 12 / 3 Punkte) bzw. je Abschnitt (1 / 8 / 5 / 10,5 / 10,5 Punkte)
+  stehen als Text. Im ErbSt-Teil steht jeder Wert unmittelbar **hinter** seinem Absatz; die
+  Werte sind dort an den Blöcken übernommen und ergeben exakt die ausgewiesenen 35 Punkte
+  (geprüft über `npm run check:est-klausuren`).
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - AO Sachverhalt 1, Aufgabentext: Die Steuerpflichtige heißt Britta Blau (B), wird ab dem
+    zweiten Absatz aber durchgehend „A" genannt. Der Satz zu den Erläuterungen des
+    Änderungsbescheides bricht ab: „auf den Ansatz der der Einkünfte gemäß § 21 EStG
+    (ESt +und auf die Erhöhung der Betriebseinnahmen".
+  - AO Sachverhalt 1, Lösung zu Aufgabe 2: „die gesamte Einkommensteuerfestsetzung für 10" –
+    gemeint ist die Einkommensteuer 09.
+  - AO Sachverhalt 2: Zitat „§ 172 Abs- 1 Satz 1 Nr. 2 Buchstabe d AO"; im Aufgabentext
+    steht bei Doris Draht „bei seiner Hausbank".
+  - AO Sachverhalt 3: „Die Zahlung des G gilt nach § 224 Abs. 2 Nr. 2 AO am 09.10.05 als
+    entrichtet" – der Steuerpflichtige heißt Fritz Friedlich (F). Am Seitenende stehen vier
+    Werte zu je 1 Punkt, während die Quelle für den Sachverhalt 3 Punkte ausweist.
+  - USt Sachverhalt 1: „Den Vorsteuerabzug erfolgt zeit- und betragsidentisch".
+  - USt Sachverhalt 3: „Die Fenster wurden zunächst am 18.4.01 … verbracht" – es geht um die
+    Feuerschutztüren.
+  - USt Sachverhalt 4: „Bemessungsgrundlag"; der innergemeinschaftliche Erwerb wird mit
+    „Der steuerbare i.g. Erwerb … ist steuerbar und zu 19 % steuerpflichtig" doppelt
+    festgestellt.
+  - ErbSt-Teil: „Es verbliebt bei der Restnutzungsdauer von 33 Jahren"; „Für die Wohnungen im
+    1. und 2. Obergeschoss ist die Steuerbefreiung gemäß § 13d Abs. 1 und 3 ErbStG sind
+    einschlägig"; Zitat „R B 186.5 Abs. 3 ErbSt" statt ErbStR.
+
+  Nachgerechnet und bestätigt wurden unter anderem: die Berichtigungsgrenzen des AO-Teils
+  (Obergrenze 28.800 €, Untergrenze 27.400 €, Rechtsfehlersaldo + 800 €), die
+  Säumniszuschläge von 45 €, im ErbSt-Teil der angepasste Bodenrichtwert von 324,54 €/qm,
+  der Rohertrag von 64.320 €, die Bewirtschaftungskosten von 9.163 €, der Gebäudereinertrag
+  von 40.553 €, der Gebäudeertragswert von 690.330 € und der Ertragswert von 1.014.870 €
+  gegenüber dem nachgewiesenen gemeinen Wert von 800.000 €, der Kapitalwert der Doppelrente
+  von 491.124 €, die Gegenwartswerte von 161.730 € bzw. 161.800 € (Pkw) und 9.979 € (Küche),
+  das Festgeld einschließlich Zinsen mit 1.521.667 € sowie die Schlussrechnung mit einer
+  Bereicherung von 1.748.101 € und einer festzusetzenden Erbschaftsteuer von 256.139 €.
+

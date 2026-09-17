@@ -50,7 +50,7 @@ const ansichten = [
 
 /* Die Teilklausur Umsatzsteuer der Übungsklausur AO/USt liegt im gemeinsamen
    Klausurbestand; hier werden nur ihre Sachverhalte gezeigt. */
-const UST_UEBUNGSKLAUSUR = estKlausuren.filter((eintrag) => eintrag.klausur === "ust-1");
+const UST_UEBUNGSKLAUSUR = estKlausuren.filter((eintrag) => eintrag.klausur === "ust-1" || eintrag.fach === "ust");
 
 const k1UstFallKategorien = [
   { id: "alle", label: "Alle Kategorien", faelle: [] },
@@ -589,14 +589,14 @@ export default function K1Campus({ onKlausurwechsel }) {
         {ansicht === "uebungsklausur" && (
           <HausaufgabenBloecke
             kicker="Klausur 1 · Umsatzsteuer · Übungsklausur"
-            titel="USt-Übungsklausur (Schröders)"
-            lead="Die Teilklausur Umsatzsteuer der Übungsklausur AO/USt (Jacobs/Schröders, Korrektor Schulz, Rechtslage 2026, 3 Stunden, 50 Punkte): Marco Murrer als Bauträger, Bauunternehmer und Händler, die Franz Ferstl GmbH im Reihengeschäft und die Virus-GmbH mit innergemeinschaftlichem Verbringen. Sachverhalt, Aufgabenstellung und Musterlösung stehen im Wortlaut, die Randpunkte an ihrem Absatz."
+            titel="USt-Übungsklausuren (Schröders)"
+            lead="Zwei Umsatzsteuer-Teilklausuren: die Teilklausur der Übungsklausur AO/USt (Jacobs/Schröders, Korrektor Schulz, Rechtslage 2026, 3 Stunden, 50 Punkte) mit Marco Murrer als Bauträger, Bauunternehmer und Händler, der Franz Ferstl GmbH im Reihengeschäft und der Virus-GmbH mit innergemeinschaftlichem Verbringen – und der Umsatzsteuerteil der Klausur AO/USt/ErbSt/BewR 1 (35 Punkte) mit dem Tischler Hans Glück: Maschinenerwerb aus Warschau mit doppeltem Erwerbsort, Möbelrestauration für die Stadt Zürich, Messeverkauf in Lüttich und Designer-Lampen aus Südafrika über Belgien. Sachverhalt, Aufgabenstellung und Musterlösung stehen im Wortlaut."
             quelle={estKlausurenQuelle}
             hausaufgaben={UST_UEBUNGSKLAUSUR}
             gruppeVon={(eintrag) => eintrag.klausur}
             gruppeLabel={(eintrag) => eintrag.klausurLabel}
             gruppeAria="Klausuren"
-            karteKicker={(eintrag) => `${eintrag.teil} · ${eintrag.punkte} Punkte · ${eintrag.rechtsstand}`}
+            karteKicker={(eintrag) => `${eintrag.teil} · ${eintrag.punkteLaut ?? `${eintrag.punkte} Punkte`} · ${eintrag.rechtsstand}`}
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Sachverhalte"
             einheitEinzahl="Sachverhalt"
