@@ -326,6 +326,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gesellschafter-Verrechnungskonto mit verdeckter Gewinnausschüttung. In dieser Klausur steht
   jeder Randpunkt unmittelbar vor seinem Absatz; die Werte sind deshalb an den Blöcken
   übernommen und gehen je Einzelsachverhalt und in der Summe auf 100 Punkte auf.
+
+  Ebenfalls dort steht **Bilanzierung 3** (Karsten Melzer, Korrektor Nicky Neumayer,
+  Rechtsstand 2025, 6 Stunden) in zehn Aufgabenteilen. Teil I – Werkzeugbau des Adonis
+  Animalis (80 Punkte): Metallschneidemaschine (Zerstörung durch Sturm, Versicherungs-
+  forderung, Übertragung stiller Reserven nach R 6.6 EStR mit Mehrentschädigung, degressive
+  AfA und Sonderabschreibung, dazu die Instandhaltungsrückstellung für das Hallendach),
+  Eisenstangen (Durchschnittsbewertung, Lifo und Fifo mit Fifo in der Handels- und Lifo in
+  der Steuerbilanz), Investitionszuschuss (Wahlrecht nach R 6.5 EStR, Erinnerungswert von
+  einem Euro, passiver Rechnungsabgrenzungsposten für den übersteigenden Ertragszuschuss,
+  Auflösung einer zu Unrecht gebildeten Rückstellung), erhaltene Anzahlung, selbst
+  hergestellte Metalltackermaschine (Verwaltungskosten und Bauzeitzinsen, degressive AfA und
+  Sonderabschreibung), Drehstuhl und Desktop Computer (Hinzurechnung und Herabsetzung des
+  Investitionsabzugsbetrags, GWG-Sofortabschreibung, einjährige Nutzungsdauer von
+  Computerhardware), Aufbewahrungsrückstellung für den Archivraum (Vervielfältiger 4,5,
+  20-%-Abschlag, Deckelung nach R 6.11 Abs. 3 EStR) und eine Yen-Forderung. Teil II –
+  A-B-GmbH & Co. KG und X-OHG: verseuchtes Lagergrundstück mit außerplanmäßiger Abschreibung
+  bei der OHG, aber ohne Abschreibung auf die Beteiligung in der Handelsbilanz der KG und mit
+  der Spiegelbildmethode in deren Steuerbilanz, sowie der Verkauf von Gratisaktien nach
+  Kapitalerhöhung aus Gesellschaftsmitteln mit Buchwertabspaltung, § 6b-Rücklage und
+  Ergänzungsbilanz der Komplementär-GmbH. Diese Musterlösung weist keine Randspalte aus; die
+  einzige Punktangabe innerhalb der Lösung ist „2. Eisenstangen (9 Punkte)“, und für Teil II
+  fehlt eine Punktzahl ganz – beides ist im Datensatz als solches vermerkt statt ergänzt.
   Prüfung: `npm run check:est-klausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

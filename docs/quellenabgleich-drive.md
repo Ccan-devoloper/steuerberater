@@ -1155,3 +1155,59 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     als „10.000 € x 30 = 3.000 €“ notiert statt x 30 %.
   - 2. Teil Einzelsachverhalt 5: „Der Zinsanteil ist … zu erfassen zu erfassen“.
 
+- **Übungsklausur „Bilanzierung 3" (Rechtsstand 2025)** – Karsten Melzer, Korrektor Nicky
+  Neumayer; Drive-IDs `1VF4mt4Iz7TQo8ekhVFp7bP9mBSA6U0Tx` (Aufgabe) und
+  `1mcWjEUrzFrYuFOuwmSy270FRCeLAdyAc` (Lösung). Sie steht im Bilanzen-Campus der Klausur 3
+  im Reiter „Übungsklausuren".
+
+  Übernommen ist die vollständige Klausur in zehn Aufgabenteilen: Teil I mit den acht
+  Einzelsachverhalten des Einzelunternehmers Adonis Animalis (80 Punkte) und Teil II mit den
+  beiden Einzelsachverhalten von A-B-GmbH & Co. KG und X-OHG. Sachverhalt, Aufgabenstellung,
+  Hinweise zu den Buchungskreisen und die Lösungshinweise stehen im Wortlaut; die
+  Kontenentwicklungen und Bewertungsrechnungen stehen als Tabelle, ebenso die beiden
+  Ausgangsbilanzen des Teils II.
+
+  Randpunkte: Diese Musterlösung weist – anders als Bilanzierung 1 und 2 – **überhaupt keine
+  Randspalte** aus. Die einzige Punktangabe innerhalb der Lösung ist „2. Eisenstangen
+  (9 Punkte)“; darüber hinaus nennt die Quelle nur die 80 Punkte des Teils I. Für Teil II
+  fehlt eine Punktangabe vollständig. Es ist deshalb weder ein Punktwert an einem Block noch
+  eine Gesamtpunktzahl an einem Eintrag hinterlegt; die vorhandenen Angaben stehen als Text,
+  und jeder Aufgabenteil vermerkt ausdrücklich, dass die Quelle keine Punktzahl ausweist.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Deckblatt: Die zugelassenen Hilfsmittel sind auf Erlasse vom 10.10.2025 datiert, während
+    die übrigen Übungsklausuren derselben Reihe den Erlass vom 08.11.2024, BStBl Teil I 2024,
+    S. 1414 nennen.
+  - Teil I Nr. 1, Aufgabentext: „A hat diesbezüglich für die GmbH keine Buchung im Jahr 2025
+    vorgenommen“ – A betreibt ein Einzelunternehmen.
+  - Teil I Nr. 1, Lösung: Der nicht übertragbare Rest der stillen Reserven beträgt
+    rechnerisch 14.000 € ./. 11.714 € = 2.286 €; ausgewiesen sind 2.284 €. Der Abschnitt zum
+    Hallendach ist mit „1.3“ überschrieben, ohne dass zuvor „1.1“ und „1.2“ nummeriert wären.
+  - Teil I Nr. 2: Das Lifo-Verfahren ist zweimal gerechnet – mit Anfangsbestand und erstem
+    Zugang (4.580 €) und mit Anfangsbestand und Durchschnittskosten aller Zugänge (4.626 €) –
+    ohne zu sagen, welche Variante maßgebend ist; der Bilanzansatz verwendet 4.580 €.
+  - Teil I Nr. 6, Drehstuhl: Der Buchungstext nennt „§ 7 g Abs. 2 Satz 2 EStG“, der Fließtext
+    stützt die Herabsetzung zutreffend auf § 7g Abs. 2 Satz 3 EStG.
+  - Teil I Nr. 6, Desktop Computer: Die Tabelle datiert den Zugang auf den 15.07.2025 statt
+    auf den 15.04.2025, weist den handelsrechtlichen Stand mit 3.750 € statt 3.375 € aus und
+    überschreibt die Zeile mit „Abschreibung/AfA Dezember“. Der Buchungsbetrag von 3.375 €
+    ergibt zusammen mit den bereits gebuchten 1.125 € eine AfA von 4.500 € und damit einen
+    Restwert von 0 €, während der Text 4.499 € und einen Erinnerungswert von 1 € vorsieht.
+    Der Satz „ist hier nicht in Höhe von 50 % … hinzuzurechnen“ bleibt sprachlich
+    unvollständig; die dort genannten 2.250 € werden nicht in Anspruch genommen, weil vom
+    IAB über 2.000 € nach der Hinzurechnung für den Drehstuhl nur 1.200 € verbleiben.
+  - Teil I Nr. 7: Der Sachverhalt bezeichnet den Anteil freiwillig aufbewahrter Unterlagen
+    als „zutreffend mit 20 % geschätzt“, die Lösung begründet den 20-%-Abschlag dagegen
+    damit, dass Feststellungen zur Zusammensetzung nicht möglich seien.
+  - Teil II, Sachverhalt: Der Satz „Das Geschäfts- bzw. Wirtschaftsjahr der KG entspricht dem
+    Kalenderjahr“ steht zweimal.
+  - Teil II Nr. 1: 50 % von 299.999 € ergeben rechnerisch 149.999,50 €; gebucht sind
+    150.000 €.
+  - Teil II Nr. 2: Der Widmungsakt ist auf „die Einbuchung im Jahr 2000“ datiert, während der
+    Sachverhalt den Erwerb 2010 nennt; die Gratisaktien sind einmal der „X-AG“ zugeordnet,
+    obwohl es um die Herold-AG geht; erwähnt sind „von der Bank einbehaltene
+    Veräußerungskosten“, die der Sachverhalt nicht nennt; und die Schlussanmerkung spricht
+    von Ergänzungsbilanzen „von S und B“, während die Gesellschafter A und B heißen.
+

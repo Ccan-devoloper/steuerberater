@@ -33,7 +33,7 @@ const prioZaehlung = prioZaehlen(alleModule, prioModul);
 
 /* Die Übungsklausuren Bilanzierung liegen im gemeinsamen Klausurbestand der
    Übungsklausuren; hier stehen die Teile, die zur Klausur 3 gehören. */
-const BIL_KLAUSUREN = new Set(["bil-1", "bil-2"]);
+const BIL_KLAUSUREN = new Set(["bil-1", "bil-2", "bil-3"]);
 const BIL_UEBUNGSKLAUSUREN = estKlausuren.filter((eintrag) => BIL_KLAUSUREN.has(eintrag.klausur));
 
 /* Gültige Kennungen für die Bereinigung des gespeicherten Fortschritts. */
@@ -304,7 +304,7 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
           <HausaufgabenBloecke
             kicker="Klausur 3 · Buchführung und Bilanzwesen · Übungsklausur"
             titel="Übungsklausuren Bilanzierung"
-            lead="Die Übungsklausuren im Fachgebiet Bilanzierung, je 6 Stunden und 100 Punkte: Bilanzierung 1 (Norbert Rott, Korrektoren S. und L. Rehbann, Rechtslage 2025) mit den sechs Textziffern des Einzelunternehmers Karl-Heinz Arnold (79 Punkte) und zwei Kapitalgesellschafts-Sachverhalten (21 Punkte); Bilanzierung 2 (Markus Nöthen, Korrektor Michael Leuers, Rechtsstand 2025) mit dem Einzelunternehmen Sebastian Reinsteiger (63 Punkte) und der Bayar-GmbH (37 Punkte). Sachverhalt, Aufgabenstellung und Musterlösung stehen im Wortlaut."
+            lead="Die Übungsklausuren im Fachgebiet Bilanzierung, je 6 Stunden und 100 Punkte: Bilanzierung 1 (Norbert Rott, Korrektoren S. und L. Rehbann, Rechtslage 2025) mit den sechs Textziffern des Einzelunternehmers Karl-Heinz Arnold (79 Punkte) und zwei Kapitalgesellschafts-Sachverhalten (21 Punkte); Bilanzierung 2 (Markus Nöthen, Korrektor Michael Leuers, Rechtsstand 2025) mit dem Einzelunternehmen Sebastian Reinsteiger (63 Punkte) und der Bayar-GmbH (37 Punkte); Bilanzierung 3 (Karsten Melzer, Korrektor Nicky Neumayer, Rechtsstand 2025) mit dem Werkzeugbau des Adonis Animalis (80 Punkte) und der A-B-GmbH & Co. KG samt X-OHG. Sachverhalt, Aufgabenstellung und Musterlösung stehen im Wortlaut."
             quelle={estKlausurenQuelle}
             hausaufgaben={BIL_UEBUNGSKLAUSUREN}
             gruppeVon={(eintrag) => eintrag.klausur}
