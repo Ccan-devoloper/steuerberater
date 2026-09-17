@@ -1211,3 +1211,48 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     Veräußerungskosten“, die der Sachverhalt nicht nennt; und die Schlussanmerkung spricht
     von Ergänzungsbilanzen „von S und B“, während die Gesellschafter A und B heißen.
 
+- **Übungsklausur „Bilanzierung 4" (Rechtsstand 2025)** – Norbert Rott, Korrektoren
+  C. Cieplik, C. Koch und G. Ilci; Drive-IDs `1yFLlQt1HNPpnk9Db6P13nGz5Y-JaKok9` (Aufgabe)
+  und `1jaZQDDAZ8KaX9o-HBZ59ae8NAKcLARiA` (Lösung). Sie steht im Bilanzen-Campus der
+  Klausur 3 im Reiter „Übungsklausuren".
+
+  Übernommen ist die vollständige Klausur in neun Aufgabenteilen: Teil I mit den vier
+  Einzelsachverhalten der X-GmbH & Co. KG und der abschließenden Gewinnermittlung
+  (40 Punkte), Teil II mit der Gründung der R+S OHG in Einbringung/Eröffnungsbilanzen und
+  Fortentwicklung (30 Punkte) und Teil III mit dem Gesellschafterwechsel bei der ABC OHG in
+  Veräußerung/Ergänzungsbilanzen und Fortentwicklung (30 Punkte) – zusammen 100 Punkte.
+  Sachverhalt, Aufgabenstellung, Vorbemerkungen und Lösungshinweise stehen im Wortlaut;
+  sämtliche Sonder-, Ergänzungs- und Eröffnungsbilanzen, die Sonder-GuV und die
+  Gewinnverteilungsrechnung stehen als Tabelle.
+
+  Randpunkte: Die Musterlösung führt eine Randspalte, die sich beim Extrahieren blockweise am
+  Seitenende sammelt; der letzte Wert jedes Blocks ist die laufende Zwischensumme. Ein
+  einzelner Wert lässt sich keinem Absatz eindeutig zuordnen, deshalb trägt hier kein Block
+  Randpunkte und kein Eintrag eine Gesamtpunktzahl im Datenfeld `punkte`. Stattdessen steht
+  die vollständige Wertefolge samt aller Zwischensummen je Teil als Hinweis am Ende der
+  Aufgabenteile; nachgerechnet ergibt sie die ausgewiesenen 40,0 / 30,0 / 30,0 Punkte und
+  damit die 100 Punkte der Gesamtklausur. Für die Anzeige im Campus führen die Einträge das
+  Textfeld `punkteLaut` mit der Punktzahl ihres Teils.
+
+  Stellen, an denen die Quelle nicht aufgeht oder unvollständig ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Teil II, Sonderbilanz R zum 31.12.2025: Unter die Bilanz sind drei Summenwerte gesetzt
+    („200.000 200.000 200.000“).
+  - Teil II, Sonder-GuV R zum 31.12.2025: Die Summenzeile lautet „26.000 200.000“; rechnerisch
+    stehen sich 26.000 € Gewinn und 24.000 € Mieterträge zuzüglich 2.000 € Zinserträge
+    gegenüber.
+  - Teil III, Ermittlung der anteiligen stillen Reserven: Unter die Summe der auf D
+    entfallenden stillen Reserven (60.000 €) ist die Zeile „Stille Reserven (s.o.) 330.000“
+    gesetzt; 330.000 € ist jedoch der gesamte Mehrbetrag der Anschaffungskosten über die
+    anteiligen Buchwerte, von dem 60.000 € auf die Einzelwirtschaftsgüter und 270.000 € auf
+    den Firmenwert entfallen.
+
+  Nachgerechnet und bestätigt wurden unter anderem: die Sonderbilanz der X-GmbH (Kapital
+  ./. 3.800 € bei Entnahmen 285.600 € und Einlagen 225.600 €), die Sonderbilanz des A
+  (592.800 € Bilanzsumme), die Sonderbilanz der A+B OHG (242.800 €), die Gewinnverteilung
+  (113.000 € handelsrechtlich, 112.000 € nach AfA-Korrektur, 365.800 € Gesamtgewinn), die
+  Eröffnungsbilanz der R+S OHG (1.641.500 €), die negative Ergänzungsbilanz des R
+  (515.000 € zum 01.01., 488.900 € zum 31.12.) sowie die Ergänzungsbilanz des D
+  (330.000 € zum 01.01., 297.253 € zum 31.12.).
+

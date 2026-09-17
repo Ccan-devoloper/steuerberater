@@ -38,9 +38,8 @@ aufgeht, und mit einem Prüfskript.
 Eingepflegt: Einkommensteuer 1, Ertragsteuern 0 und Ertragsteuern 2 (beide mit vollständigem
 körperschaftsteuerlichem Aufgabenteil), Körperschaftsteuer (im KSt-Campus) und die
 beiden Teilklausuren der Klausur AO/USt (im USt- bzw. AO-Campus), die eigenständige
-Klausur Abgabenordnung/FGO (im AO-Campus) sowie Bilanzierung 1 bis 3 (im Bilanzen-Campus
+Klausur Abgabenordnung/FGO (im AO-Campus) sowie Bilanzierung 1 bis 4 (im Bilanzen-Campus
 der Klausur 3). Offen sind:
-- Bilanzierung 4
 - Bewertungsrecht 1
 - Bewertungsrecht 2
 

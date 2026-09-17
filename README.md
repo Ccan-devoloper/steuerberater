@@ -348,6 +348,29 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Ergänzungsbilanz der Komplementär-GmbH. Diese Musterlösung weist keine Randspalte aus; die
   einzige Punktangabe innerhalb der Lösung ist „2. Eisenstangen (9 Punkte)“, und für Teil II
   fehlt eine Punktzahl ganz – beides ist im Datensatz als solches vermerkt statt ergänzt.
+
+  Als vierte steht **Bilanzierung 4** (Norbert Rott, Korrektoren C. Cieplik, C. Koch und
+  G. Ilci, Rechtsstand 2025, 6 Stunden, 100 Punkte) in neun Aufgabenteilen. Teil I –
+  X-GmbH & Co. KG als doppelstöckige Personengesellschaft (40 Punkte): Geschäftsführungs-
+  vergütung der Komplementär-GmbH als Sondervergütung mit Umsatzsteuer und Sonderbilanz,
+  Grundstück des mittelbar beteiligten A als Sonderbetriebsvermögen I mit Darlehen und
+  Zinsabgrenzung, Bürogebäude auf fremdem Grund und Boden als wirtschaftliches Eigentum der
+  KG mit abweichender AfA in Handels- und Steuerbilanz, Überführung des Grundstücks der A+B
+  OHG ins Sonderbetriebsvermögen und verdeckte Einlage des C mit zwingender Buchwert-
+  fortführung nach § 6 Abs. 5 Satz 3 Nr. 2 EStG samt negativer Ergänzungsbilanz; abschließend
+  die Überleitung vom handelsrechtlichen Jahresüberschuss (113.000 €) zum steuerlichen
+  Gesamtgewinn der Mitunternehmerschaft (365.800 €) mit Entwicklung der Gesellschafterkonten.
+  Teil II – Gründung der R+S OHG (30 Punkte): Einbringung eines Einzelunternehmens nach
+  § 24 UmwStG mit sonstiger Gegenleistung, Einlage eines Privatgrundstücks als tauschähnlicher
+  Vorgang, Firmenwert von 375.000 €, Eröffnungsbilanzen mit negativer Ergänzungsbilanz und die
+  Fortentwicklung von Firmenwert, Gebäude und Maschinen über Gesamthands- und
+  Ergänzungsbilanz. Teil III – Gesellschafterwechsel bei der ABC OHG (30 Punkte):
+  Veräußerungsgewinn des C von 352.400 € einschließlich Auflösung und Verzinsung der
+  § 6b-Rücklage, positive Ergänzungsbilanz des Eintretenden D mit Firmenwert von 270.000 € und
+  dessen eigene AfA, Veräußerung des Grund und Bodens 2 mit § 6b-Rücklagen für A und B. Die
+  Randpunkte stehen blockweise am Seitenende, wobei der letzte Wert jedes Blocks die laufende
+  Zwischensumme ist; statt sie zu raten steht die vollständige Wertefolge mit allen
+  Zwischensummen am Ende der Aufgabenteile, und sie geht auf 40,0 + 30,0 + 30,0 Punkte auf.
   Prüfung: `npm run check:est-klausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
