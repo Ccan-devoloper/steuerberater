@@ -1,0 +1,16 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Richtig ist B",
+  "titel": "Zustimmungsbedürftig und der Höhe nach begrenzt",
+  "text": "Die Bilanzänderung braucht Zustimmung des Finanzamts und darf nur so weit reichen, wie sie mit einer Bilanzberichtigung zusammenhängt, § 4 (2) S. 2 EStG.",
+  "optionen": [
+    "Nichts, sie ist immer zulässig",
+    "Zustimmung des Finanzamts, begrenzt durch eine Berichtigung",
+    "Nur ein formloser Antrag reicht"
+  ],
+  "richtig": 1,
+  "fachLabel": "Bilanzsteuerrecht"
+}

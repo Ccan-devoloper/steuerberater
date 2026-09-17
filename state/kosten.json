@@ -180,22 +180,26 @@
       "stand": "2026-09-16T07:12:08.094Z"
     },
     "2026-09-17": {
-      "usd": 0.2563,
+      "usd": 0.3281,
       "antworten": 0,
-      "aufrufe": 7,
+      "aufrufe": 10,
       "zwecke": {
         "reel": 0.117,
         "reel-faktencheck": 0.0164,
         "autor": 0.0556,
-        "faktencheck": 0.0673
+        "faktencheck": 0.0673,
+        "stories": 0.0572,
+        "story-faktencheck": 0.0146
       },
       "messungen": {
         "reel": 0.0799,
         "reel-faktencheck": 0.0164,
         "autor": 0.0556,
-        "faktencheck": 0.0382
+        "faktencheck": 0.0382,
+        "stories": 0.0572,
+        "story-faktencheck": 0.0077
       },
-      "stand": "2026-09-16T22:23:06.201Z"
+      "stand": "2026-09-17T07:44:33.453Z"
     }
   }
 }

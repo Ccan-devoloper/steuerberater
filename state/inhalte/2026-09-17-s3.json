@@ -1,0 +1,14 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "ueberzeile": "Prüfungsfrage Bilanzsteuerrecht",
+  "titel": "Was setzt eine Bilanzänderung nach § 4 (2) S. 2 EStG voraus?",
+  "optionen": [
+    "Nichts, sie ist immer zulässig",
+    "Zustimmung des Finanzamts, begrenzt durch eine Berichtigung",
+    "Nur ein formloser Antrag reicht"
+  ],
+  "fachLabel": "Bilanzsteuerrecht"
+}

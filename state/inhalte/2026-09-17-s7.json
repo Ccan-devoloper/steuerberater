@@ -1,0 +1,12 @@
+{
+  "slot": "s7",
+  "art": "begriff",
+  "fach": "ust",
+  "klausur": 1,
+  "titel": "Option nach § 9 UStG",
+  "text": "Verzicht auf bestimmte Steuerbefreiungen, etwa bei Grundstücksumsätzen. Nur möglich gegenüber einem Unternehmer für dessen Unternehmen, bei Grundstücken zusätzlich mit Formzwang.",
+  "norm": "§ 9 UStG",
+  "icon": "schluessel",
+  "bildSzene": "landlord signing papers at property",
+  "fachLabel": "Umsatzsteuer"
+}

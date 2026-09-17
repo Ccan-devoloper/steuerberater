@@ -1,0 +1,12 @@
+{
+  "slot": "s8",
+  "art": "fehler",
+  "fach": "istr",
+  "klausur": 2,
+  "titel": "§ 7 AStG als vermeintlicher eigener Einstieg",
+  "text": "Direkt mit der Hinzurechnungsbesteuerung beginnen, ohne vorher die unbeschränkte Steuerpflicht zu klären.",
+  "falsch": "Direkt mit der Hinzurechnungsbesteuerung beginnen, ohne vorher die unbeschränkte Steuerpflicht zu klären.",
+  "richtigText": "Erst § 1 (1) S. 1 EStG und das Welteinkommensprinzip nach § 2 (1) EStG prüfen, § 7 AStG folgt als Nebenprüfpunkt.",
+  "icon": "globus",
+  "fachLabel": "Internationales Steuerrecht"
+}
