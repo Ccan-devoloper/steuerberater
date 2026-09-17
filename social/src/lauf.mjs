@@ -36,7 +36,7 @@ import { verteilen } from "./verteilen.mjs";
 import { varianteErmitteln } from "./wechsel.mjs";
 import { kartenVerschicken } from "./nachrichten.mjs";
 import { berichtErstellen, berichtSenden } from "./bericht.mjs";
-import { abschluss as kostenAbschluss, budgetSetzen, reservieren, reelReserve, erwartet, reservierungAufheben, tagesStand, tagesLimit, antwortStand, antwortLimit, BudgetFehler } from "./kosten.mjs";
+import { abschluss as kostenAbschluss, budgetSetzen, reservieren, reelReserve, erwartet, reservierungAufheben, tagesStand, tagesLimit, antwortStand, antwortLimit, bezahlbareSumme, runden, BudgetFehler } from "./kosten.mjs";
 import { stimmeStandVerbinden, stimmeStand, stimmeIstGesperrt } from "./stimme.mjs";
 import { kandidatenSuchen, stimmeUebernehmen, stimmeWaehlen, gewinner, stimmenStatistik } from "./stimmen.mjs";
 import { titelbild } from "./bilder.mjs";
@@ -267,7 +267,7 @@ async function main() {
 
   if (auffuellen > 0) { await auffuellenLauf(auffuellen, { hosting, ledger, ledgerPfad, pool, poolIndex, strategie }); return; }
 
-  /* Rücklage für alles, was heute noch zu schreiben ist: Solange ein Beitrag
+    /* Rücklage für alles, was heute noch zu schreiben ist: Solange ein Beitrag
      oder das Reel keinen Text hat, bleibt sein erwarteter Preis zurückgelegt,
      damit Stories, Interaktion oder Auffüllen ihn nicht aufbrauchen. Am
      13.09. war nur das Reel geschützt – und zwei Beiträge fielen aus. Die
@@ -276,9 +276,21 @@ async function main() {
   const textFehlt = (b) => b.status !== "veroeffentlicht" && !b.fehler && !b.textFehler && !hosting.jsonLesen(textDatei(b), null);
   const ruecklageAktualisieren = () => {
     const offen = trocken ? [] : plan.beitraege.filter(textFehlt);
-    let summe = 0;
-    for (const b of offen) summe += b.format === "reel" ? reelReserve(kostenStart.tage, CONFIG.ki.reelReserveUsd) : erwartet("autor") + erwartet("faktencheck");
-    summe = Math.round(summe * 1000) / 1000;
+    /* Zurückgelegt wird nur, was vom Rest des Tages auch WIRKLICH bezahlbar
+       ist. Am 17.09. lagen 0.13 $ für einen Beitrag und die Erklärfiguren
+       zurück, während nur noch 0.045 $ frei waren: Der Beitrag war davon nie
+       zu bezahlen, seine Rücklage hat aber die neun Stories blockiert, die
+       zusammen weniger gekostet hätten. Geld für etwas Unbezahlbares
+       zurückzulegen heißt, es zweimal zu verlieren.
+
+       Deshalb: der Reihe nach aufsummieren und beim ersten Posten abbrechen,
+       der nicht mehr hineinpasst. Was passt, behält seinen Vorrang - was
+       nicht passt, gibt den Rest für das Billigere frei. */
+    const freiJetzt = Math.max(0, tagesLimit() - tagesStand());
+    const preisFuer = (b) => (b.format === "reel"
+      ? reelReserve(kostenStart.tage, CONFIG.ki.reelReserveUsd)
+      : erwartet("autor") + erwartet("faktencheck"));
+    let summe = bezahlbareSumme(offen.map(preisFuer), freiJetzt);
     /* Die Rücklage gehört den Beiträgen, die heute noch geschrieben werden
        müssen - und nur ihnen. „recherche" stand hier bis zum 16.09. mit in
        der Liste; an dem Tag hat ein einziger Recherche-Aufruf die Rücklage
@@ -292,8 +304,9 @@ async function main() {
        gilt, bleibt sein Bildbudget zurueckgelegt. */
     const erklaerOffen = !trocken && layoutFuer(datum) === "erklaer"
       && plan.beitraege.some((b) => b.format === "reel" && b.status !== "veroeffentlicht" && !b.fehler);
-    if (erklaerOffen) summe = Math.round((summe + CONFIG.reel.erklaerBilder * erwartet("erklaerbild")) * 1000) / 1000;
-    if (summe > 0) reservieren(summe, ["autor", "faktencheck", "reel", "reel-faktencheck", "erklaerbild"], `${offen.length} noch zu schreibende Beiträge${erklaerOffen ? " und die Figuren des Erklärvideos" : ""}`);
+    const erklaerPreis = CONFIG.reel.erklaerBilder * erwartet("erklaerbild");
+    if (erklaerOffen && summe + erklaerPreis <= freiJetzt) summe = runden(summe + erklaerPreis);
+    if (summe > 0) reservieren(summe, ["autor", "faktencheck", "reel", "reel-faktencheck", "erklaerbild"], `${offen.length} noch zu schreibende Beiträge${erklaerOffen && summe >= erklaerPreis ? " und die Figuren des Erklärvideos" : ""}`);
     else reservierungAufheben();
     return summe;
   };
@@ -331,7 +344,7 @@ async function main() {
        zurück; das wird gemeldet und der Lauf geht weiter. */
     if (CONFIG.postfach.aktiv) {
       try {
-        const r = await nachrichtenBeantworten(ig, ledger, { log });
+        const r = await nachrichtenBeantworten(ig, ledger, { log, stateDir: hosting.stateDir });
         if (r.beantwortet) { ledgerSpeichern(ledgerPfad, ledger); hosting.commit(`Nachrichten beantwortet ${datum}`); await hosting.push(); }
         log(`Postfach: ${r.beantwortet} Antworten (${r.unterhaltungen} Unterhaltungen, ${r.offen} offen)`);
       } catch (e) {
@@ -673,7 +686,7 @@ async function main() {
       eintrag.status = "veroeffentlicht";
       eintrag.medienId = medienId;
       eintrag.veroeffentlicht = new Date().toISOString();
-      vermerken(ledger, { datum, art: "story", slot: eintrag.slot, storyArt: story.art, thema: story.themaId || eintrag.themaId || null, fach: story.fach, titel: story.titel || story.text || "", medienId });
+      vermerken(ledger, { datum, art: "story", slot: eintrag.slot, storyArt: story.art, thema: story.themaId || eintrag.themaId || null, fach: story.fach, titel: story.titel || story.text || "", medienId, veroeffentlicht: new Date().toISOString() });
       ledgerSpeichern(ledgerPfad, ledger);
       planSpeichern(hosting, plan);
       hosting.commit(`Veröffentlicht: Story ${datum} ${eintrag.slot}`);

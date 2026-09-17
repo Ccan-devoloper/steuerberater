@@ -17,6 +17,8 @@
    Geschmacksfrage, sondern § 2 StBerG.
    ========================================================================== */
 
+import fs from "node:fs";
+import path from "node:path";
 import Anthropic from "@anthropic-ai/sdk";
 import { CONFIG } from "./config.mjs";
 import { budgetPruefen, erfassen } from "./kosten.mjs";
@@ -57,7 +59,7 @@ Eine Direktnachricht ist persönlicher als ein Kommentar – und genau deshalb i
 Woher du weißt, worum es geht – und was du tust, wenn du es nicht weißt:
 - Steht ein „Bezug“ dabei, ist die Sache klar: Beantworte die Frage zu GENAU diesem Inhalt und frag nicht zurück, worum es geht.
 - Nennt die Nachricht das Thema selbst („Wie ist das bei der Anfechtung?“), antworte darauf.
-- Steht als Bezug, dass es eine Story-Antwort ist, die Story aber nicht zugeordnet werden konnte: Dann ist der VERLAUF NICHT der Bezug. Wer gerade auf eine Story antwortet, meint diese Story – nicht das Thema von gestern. Sieh in „Aktuell laufende Stories“ nach: Passt genau eine davon erkennbar zur Frage, beantworte sie dazu. Passen mehrere oder keine, frag in EINEM kurzen Satz nach und nenne die wahrscheinlichste beim Namen („Meinst du die zum Streitstand Beweislast?“). Das ist keine Schwäche, sondern das Einzige, was hier richtig ist.
+- Steht als Bezug, dass es eine Story-Antwort ist, die Story aber nicht zugeordnet werden konnte: Dann ist der VERLAUF NICHT der Bezug. Wer gerade auf eine Story antwortet, meint diese Story – nicht das Thema von gestern. Sieh in „Aktuell laufende Stories“ nach: Passt genau eine davon erkennbar zur Frage, beantworte sie dazu. Passen mehrere oder keine, frag in EINEM kurzen Satz nach und biete zwei bis drei der LAUFENDEN Stories zur Auswahl an („Meinst du die zur Norm des Tages, die Prüfungsfrage zum Verwaltungsrecht oder die zum Streitstand Beweislast?“). Nenne dabei NIEMALS einen Beitrag aus „Zuletzt erschienen“ – auf einen Beitrag kann man nicht per Story antworten. Das ist keine Schwäche, sondern das Einzige, was hier richtig ist.
 - Am 16.09. kam auf eine Antwort zur Beweislast-Story die Frage „Wo müsste ich das genau einbauen und prüfen?“ – und zurück ging eine Antwort zum Unterhaltsrecht, weil das im Verlauf davor stand. Der Verlauf hilft beim Ton und beim Wiederholungsschutz, er bestimmt aber nicht das Thema.
 - RATE NIEMALS. Du erfindest kein Thema und schreibst nie „Ich tippe auf …“, „Vermutlich meinst du …“, „Falls du etwas anderes meinst …“. Eine selbstbewusst falsche Antwort ist der schlimmste Ausgang – schlimmer als eine Rückfrage, schlimmer als gar keine Antwort. Am 16.09. wurde auf eine Frage zur Beweislast im Zivilprozess eine Prüfung der Anfechtung geschickt; so etwas darf nicht noch einmal passieren.
 - „Zuletzt erschienen“ ist HINTERGRUND, keine Zuordnungshilfe. Daraus darfst du nur schließen, wenn die Frage unmissverständlich zu genau einem Eintrag passt und zu keinem anderen. Sind mehrere Einträge zur selben Uhrzeit erschienen, sagt die Liste gar nichts – dann frag.
@@ -96,7 +98,29 @@ const WERBUNG = /\b(kooperation|zusammenarbeit|werbung|rabatt|gutschein|promo|fo
  * @param {object} ledger
  * @returns {object[]} mit .uebersprungen als Beiwerk
  */
-export function offeneNachrichten(konversationen, eigeneId, ledger, jetzt = Date.now(), laufend = []) {
+export function offeneNachrichten(konversationen, eigeneId, ledger, jetzt = Date.now(), laufend = [], webhookBezug = {}) {
+  /* Die Zuordnungstabelle aus dem Webhook. Sie ist die EINZIGE Quelle, die
+     den Story-Bezug nachweislich fuehrt: Am 17.09. wurde mitgeschnitten, was
+     Meta beim Eingang wirklich schickt - in `message.reply_to.story.id` stand
+     die ID, waehrend derselbe Vorgang ueber /conversations ein leeres
+     `reply_to` lieferte. Der nachtraegliche Abruf verliert den Bezug; das
+     eingehende Ereignis hat ihn. Deshalb steht diese Tabelle hier an erster
+     Stelle und nicht als Notbehelf am Ende. */
+  const ausWebhook = (nachricht) => {
+    const direkt = webhookBezug[String(nachricht.id || "")];
+    if (direkt?.storyId) return { ...direkt, wie: "mid" };
+    /* Zweitschluessel Absender+Text: Falls der Abruf eine andere
+       Nachrichten-ID fuehrt als das Ereignis, traegt der Wortlaut die
+       Zuordnung. Exakter Vergleich - kein Raten, keine Aehnlichkeit. */
+    const t = String(nachricht.message || "").trim();
+    const von = String(nachricht.from?.id || "");
+    if (!t || !von) return null;
+    for (const w of Object.values(webhookBezug)) {
+      if (w?.storyId && String(w.absender) === von && String(w.text || "").trim() === t) return { ...w, wie: "absender+text" };
+    }
+    return null;
+  };
+
   const beantwortet = new Set(ledger.postfach?.map((n) => n.nachrichtId) || []);
   const offen = [];
   const uebersprungen = [];
@@ -112,21 +136,6 @@ export function offeneNachrichten(konversationen, eigeneId, ledger, jetzt = Date
      Stories erscheinen sekundengenau protokolliert; zwei Minuten Abstand
      reichen zur Zuordnung und sind eng genug, um nicht die Nachbarstory zu
      erwischen. */
-  const laufendeMitTitel = [];
-  for (const st of laufend || []) {
-    const t = st.timestamp ? new Date(st.timestamp).getTime() : NaN;
-    const treffer = (ledger.veroeffentlicht || [])
-      .filter((e) => e.art === "story" && e.veroeffentlicht && e.titel)
-      .map((e) => ({ e, abstand: Math.abs(new Date(e.veroeffentlicht).getTime() - t) }))
-      .filter((x) => x.abstand < 120000)
-      .sort((a, b) => a.abstand - b.abstand)[0]?.e;
-    if (treffer && st.id) nachId.set(String(st.id), treffer);
-    if (treffer) laufendeMitTitel.push({ titel: String(treffer.titel).slice(0, 110) });
-  }
-  const grenzeBezug = new Date(jetzt - 3 * 86400000).toISOString().slice(0, 10);
-  /* Mit Uhrzeit, nicht nur mit Titel: Wurden neun Stories innerhalb von zwei
-     Minuten veroeffentlicht, taugt die Liste NICHT zum Zuordnen - und das
-     muss das Modell sehen koennen, statt zu raten. */
   const heute = new Date(jetzt).toISOString().slice(0, 10);
   const wannText = (e) => {
     const t = e.veroeffentlicht ? new Date(e.veroeffentlicht) : null;
@@ -134,6 +143,41 @@ export function offeneNachrichten(konversationen, eigeneId, ledger, jetzt = Date
     const uhr = t.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: CONFIG.marke.zeitzone || "Europe/Berlin" });
     return `${e.datum === heute ? "heute" : e.datum} ${uhr}`;
   };
+  /* Welche Stories laufen gerade? Das ist die Grundlage fuer eine BRAUCHBARE
+     Rueckfrage - nicht fuer eine automatische Zuordnung.
+
+     Die Zeitstempel-Bruecke von heute Abend ist wieder draussen. Sie sollte
+     eine fremde Story-ID ueber die Uhrzeit auf unseren Eintrag abbilden, war
+     aber aus zwei Gruenden untauglich: Unsere neun Stories erscheinen im
+     Minutenabstand, ein Zwei-Minuten-Fenster haette also die Nachbarstory
+     treffen koennen - und eine falsche Zuordnung ist schlimmer als keine.
+     Zugeordnet wird nur noch ueber eine echte, uebereinstimmende ID. */
+  const laufendeMitTitel = [];
+  for (const st of laufend || []) {
+    const e = st.id ? nachId.get(String(st.id)) : null;
+    if (e?.titel) laufendeMitTitel.push({ titel: String(e.titel).slice(0, 110), wann: wannText(e) });
+  }
+  /* Liefert Instagram nichts - am 16.09. kam „Laufende Stories: 0", der Zugang
+     ueber Instagram Login kennt den Endpunkt offenbar nicht -, nehmen wir das
+     eigene Protokoll. Der Zeitstempel fehlt bei aelteren Eintraegen (Stories
+     bekamen ihn erst ab dem 16.09.); dann zaehlt das Datum. */
+  if (!laufendeMitTitel.length) {
+    const vor24h = jetzt - 24 * 3600000;
+    const gestern = new Date(jetzt - 86400000).toISOString().slice(0, 10);
+    for (const e of ledger.veroeffentlicht || []) {
+      if (e.art !== "story" || !e.titel) continue;
+      const t = e.veroeffentlicht ? new Date(e.veroeffentlicht).getTime() : NaN;
+      const frisch = Number.isNaN(t)
+        ? String(e.datum || "") >= gestern           // ohne Uhrzeit: nach Datum
+        : t >= vor24h;                               // mit Uhrzeit: exakt
+      if (frisch) laufendeMitTitel.push({ titel: String(e.titel).slice(0, 110), wann: wannText(e) });
+    }
+  }
+
+  const grenzeBezug = new Date(jetzt - 3 * 86400000).toISOString().slice(0, 10);
+  /* Mit Uhrzeit, nicht nur mit Titel: Wurden neun Stories innerhalb von zwei
+     Minuten veroeffentlicht, taugt die Liste NICHT zum Zuordnen - und das
+     muss das Modell sehen koennen, statt zu raten. */
   const zuletzt = (ledger.veroeffentlicht || [])
     .filter((e) => String(e.datum || "") >= grenzeBezug && e.titel)
     .slice(-12)
@@ -175,22 +219,30 @@ export function offeneNachrichten(konversationen, eigeneId, ledger, jetzt = Date
        Anfechtung"). Deshalb wird an jeder Stelle nachgesehen, die die ID
        tragen kann, und festgehalten, WOHER sie kam - sonst tappt man beim
        naechsten Mal wieder im Dunkeln. */
-    const idKandidaten = [letzte.reply_to?.story?.id, letzte.story?.id, letzte.reply_to?.message?.id]
+    const webhook = ausWebhook(letzte);
+    const idKandidaten = [webhook?.storyId, letzte.reply_to?.story?.id, letzte.story?.id, letzte.reply_to?.message?.id]
       .filter(Boolean).map(String);
-    const istStoryAntwort = Boolean(letzte.reply_to?.story || letzte.story);
+    const istStoryAntwort = Boolean(webhook?.storyId || letzte.reply_to?.story || letzte.story);
     const eintrag = idKandidaten.map((id) => nachId.get(id)).find(Boolean) || null;
     const bezug = eintrag
       ? `${eintrag.art === "story" ? "Story" : "Beitrag"} „${String(eintrag.titel || "").slice(0, 140)}“`
       : istStoryAntwort ? "Die Nachricht ist eine Antwort auf eine unserer Stories – WELCHE, hat Instagram nicht mitgeliefert" : null;
     const bezugQuelle = eintrag ? "aufgelöst" : istStoryAntwort ? "Story-Antwort ohne Zuordnung" : "kein Bezug";
+    /* Auf WELCHEM Weg der Bezug kam, ist eine reine Diagnosefrage - deshalb
+       ein eigenes Feld und nicht in `bezugQuelle` hineingeschrieben. Nur so
+       laesst sich spaeter ablesen, ob der Webhook traegt oder ob wieder der
+       Abruf einspringen musste. */
+    const bezugWie = !eintrag ? ""
+      : webhook?.storyId && String(webhook.storyId) === String(eintrag.medienId) ? `webhook/${webhook.wie}`
+      : "abruf";
     /* Welche IDs Instagram ueberhaupt geschickt hat, gehoert ins Log: Ohne das
        bleibt offen, ob gar keine ID kam oder eine aus einem anderen
        Namensraum - und damit auch, was zu tun ist. */
     const bezugRoh = istStoryAntwort && !eintrag
-      ? `ids=[${idKandidaten.join(",") || "keine"}] url=${letzte.reply_to?.story?.url ? "ja" : "nein"}`
+      ? `ids=[${idKandidaten.join(",") || "keine"}] url=${letzte.reply_to?.story?.url || webhook?.url ? "ja" : "nein"} webhook=${webhook ? webhook.wie : "nein"}`
       : "";
 
-    offen.push({ id: letzte.id, text, von, empfaengerId: letzte.from?.id, konversationId: k.id, zeit: letzte.created_time, verlauf, bezug, bezugQuelle, bezugRoh });
+    offen.push({ id: letzte.id, text, von, empfaengerId: letzte.from?.id, konversationId: k.id, zeit: letzte.created_time, verlauf, bezug, bezugQuelle, bezugWie, bezugRoh });
   }
 
   offen.sort((a, b) => new Date(a.zeit) - new Date(b.zeit));
@@ -208,7 +260,7 @@ export async function antwortenFormulieren(nachrichten, zuletzt = [], laufend = 
     ? `\nZuletzt erschienen (nur als Hintergrund – daraus darfst du NICHT raten):\n${zuletzt.map((e) => `- ${e.wann} · ${e.art}: „${e.titel}“`).join("\n")}\n`
     : "";
   const live = laufend.length
-    ? `\nAktuell laufende Stories (auf eine davon bezieht sich eine Story-Antwort):\n${laufend.map((e) => `- „${e.titel}“`).join("\n")}\n`
+    ? `\nAktuell laufende Stories – NUR diese kommen für eine Story-Antwort in Frage, Beiträge nicht:\n${laufend.map((e) => `- ${e.wann} · „${e.titel}“`).join("\n")}\n`
     : "";
   const user = `Beantworte die folgenden Direktnachrichten. „Bezug“ nennt die Story oder den Beitrag, auf den sich die Nachricht bezieht; „Verlauf“, was in derselben Unterhaltung davor stand.
 ${live}${hintergrund}
@@ -245,13 +297,31 @@ Gib für jede id an, ob geantwortet werden soll (antworten), den Grund bei Nein 
  * Kompletter Postfachlauf.
  * @returns {{unterhaltungen:number, offen:number, beantwortet:number}}
  */
-export async function nachrichtenBeantworten(ig, ledger, { log = console.log } = {}) {
+/* Die Zuordnungstabelle, die der Webhook fuellt. Fehlt sie, faellt alles auf
+   den Abruf zurueck wie bisher - der Lauf darf daran nie scheitern. */
+export function webhookBezugLaden(stateDir) {
+  if (!stateDir) return {};
+  try {
+    const p = path.join(stateDir, "story-bezug.json");
+    if (!fs.existsSync(p)) return {};
+    const d = JSON.parse(fs.readFileSync(p, "utf8"));
+    return d && typeof d === "object" ? d : {};
+  } catch (e) {
+    console.warn(`  ! Story-Zuordnung nicht lesbar (${e.message.split("\n")[0].slice(0, 80)}) – es gilt nur der Abruf.`);
+    return {};
+  }
+}
+
+export async function nachrichtenBeantworten(ig, ledger, { log = console.log, stateDir = null } = {}) {
   const konversationen = await ig.konversationen(CONFIG.postfach.unterhaltungen);
   /* Welche Stories gerade laufen, ist die zweite Quelle fuer die Zuordnung -
      und, wenn sie doch misslingt, die Grundlage fuer eine gezielte Rueckfrage
      statt einer allgemeinen. */
   const laufend = await ig.laufendeStories();
-  const alle = offeneNachrichten(konversationen, ig.kontoId, ledger, Date.now(), laufend);
+  const webhookBezug = webhookBezugLaden(stateDir);
+  const bezugAnzahl = Object.keys(webhookBezug).length;
+  if (bezugAnzahl) log(`  · Story-Zuordnung aus dem Webhook: ${bezugAnzahl} Einträge`);
+  const alle = offeneNachrichten(konversationen, ig.kontoId, ledger, Date.now(), laufend, webhookBezug);
   for (const u of alle.uebersprungen || []) {
     if (u.grund !== "bereits behandelt") log(`  · Nachricht von @${u.von} „${u.text}“ → übersprungen (${u.grund})`);
   }
@@ -262,7 +332,7 @@ export async function nachrichtenBeantworten(ig, ledger, { log = console.log } =
   /* Woher der Bezug kam, gehoert ins Log. Am 16.09. stand dort nur die
      Antwort - dass ihr der Bezug fehlte, war nicht zu sehen, und die Ursache
      musste im Nachhinein rekonstruiert werden. */
-  for (const n of offen) log(`  · Bezug @${n.von}: ${n.bezugQuelle}${n.bezugRoh ? ` (${n.bezugRoh})` : ""}${n.bezug ? ` – ${n.bezug.slice(0, 90)}` : ""}`);
+  for (const n of offen) log(`  · Bezug @${n.von}: ${n.bezugQuelle}${n.bezugWie ? ` über ${n.bezugWie}` : ""}${n.bezugRoh ? ` (${n.bezugRoh})` : ""}${n.bezug ? ` – ${n.bezug.slice(0, 90)}` : ""}`);
   log(`  · Laufende Stories: ${alle.laufend?.length || 0}`);
   const antworten = await antwortenFormulieren(offen, alle.zuletzt || [], alle.laufend || []);
   const nachId = new Map(antworten.map((a) => [a.id, a.text]));

@@ -2208,24 +2208,194 @@ test("Story-Antwort ohne ID: laufende Stories statt Gesprächsverlauf", async ()
     created_time: new Date(jetzt - 600000).toISOString(), ...extra,
   }] } }];
 
-  /* Instagram nennt eine ID aus einem ANDEREN Namensraum – die Uhrzeit der
-     laufenden Story verbindet sie mit unserem Eintrag. */
+  /* Eine fremde ID darf NICHT über die Uhrzeit zugeordnet werden. Unsere neun
+     Stories erscheinen im Minutenabstand; ein Zeitfenster träfe womöglich die
+     Nachbarstory. Eine falsche Zuordnung ist schlimmer als keine. */
   const laufend = [{ id: "IG-FREMD-7", timestamp: "2026-09-16T07:10:30.000Z" }];
   const ueberZeit = offeneNachrichten(konv({ reply_to: { story: { id: "IG-FREMD-7" } } }), "1", ledger, jetzt, laufend);
-  assert.equal(ueberZeit[0].bezugQuelle, "aufgelöst", "die Brücke über den Veröffentlichungszeitpunkt greift nicht");
-  assert.match(ueberZeit[0].bezug, /Beweislast/);
+  assert.equal(ueberZeit[0].bezugQuelle, "Story-Antwort ohne Zuordnung",
+    "eine fremde ID wurde über die Uhrzeit zugeordnet – genau das darf nicht passieren");
+
+  /* Stimmt die ID dagegen überein, ist es eine echte Zuordnung. */
+  const echt = offeneNachrichten(konv({ reply_to: { story: { id: "EIGEN-7" } } }), "1", ledger, jetzt, []);
+  assert.equal(echt[0].bezugQuelle, "aufgelöst");
+  assert.match(echt[0].bezug, /Beweislast/);
 
   /* Gar keine ID: Dann muss wenigstens feststehen, WELCHE Stories laufen –
      sonst kann nur allgemein zurückgefragt werden. */
   const ohneId = offeneNachrichten(konv({ reply_to: { story: { url: "https://cdn.example/x.jpg" } } }), "1", ledger, jetzt, laufend);
   assert.equal(ohneId[0].bezugQuelle, "Story-Antwort ohne Zuordnung");
   assert.match(ohneId[0].bezugRoh, /ids=\[keine\] url=ja/, "die rohen Felder fehlen im Log");
-  assert.equal(ohneId.laufend.length, 1, "die laufenden Stories stehen dem Modell nicht zur Verfügung");
-  assert.match(ohneId.laufend[0].titel, /Beweislast/);
+  /* Ohne verwertbare ID greift der Ledger-Fallback: BEIDE heutigen Stories
+     sind Kandidaten für die Rückfrage – zugeordnet wird keine. */
+  assert.equal(ohneId.laufend.length, 2, "die laufenden Stories stehen dem Modell nicht zur Verfügung");
+  assert.ok(ohneId.laufend.some((e) => /Beweislast/.test(e.titel)));
 
   /* Und die Regel sagt ausdrücklich, dass der Verlauf hier nicht das Thema
      bestimmt - genau daran ist die Antwort heute gescheitert. */
   const quelle = fs.readFileSync(new URL("../src/postfach.mjs", import.meta.url), "utf8");
   assert.match(quelle, /VERLAUF NICHT der Bezug/, "die Regel gegen den Verlauf als Thema fehlt");
   assert.match(quelle, /Aktuell laufende Stories/, "die laufenden Stories kommen nicht in den Prompt");
+});
+
+test("Liefert Instagram gar nichts, kommen die laufenden Stories aus dem eigenen Protokoll", async () => {
+  /* 16.09., zweiter Test: Im Log stand „(ids=[keine] url=nein)" und
+     „Laufende Stories: 0". Instagram schickt das Feld reply_to.story als
+     LEERES Objekt und kennt den /stories-Endpunkt bei diesem Zugang nicht.
+     Damit ist über die API nichts zu holen - wohl aber aus dem eigenen
+     Ledger: Was wir in den letzten 24 Stunden als Story veröffentlicht
+     haben, läuft noch. */
+  const { offeneNachrichten } = await import("../src/postfach.mjs");
+  const jetzt = new Date("2026-09-16T17:45:00Z").getTime();
+  const ledger = { veroeffentlicht: [
+    { art: "story", medienId: "S1", titel: "Grundrechte als Schutzauftrag des Staates", datum: "2026-09-16", veroeffentlicht: "2026-09-16T07:09:00.000Z" },
+    { art: "story", medienId: "S2", titel: "Kann jede rechtswidrige Nebenbestimmung isoliert angegriffen werden?", datum: "2026-09-16", veroeffentlicht: "2026-09-16T07:11:00.000Z" },
+    /* Ein Beitrag - der darf NICHT als Story-Kandidat auftauchen. */
+    { art: "beitrag", medienId: "B2", titel: "Wie prüft man die Leistungskondiktion?", datum: "2026-09-16", veroeffentlicht: "2026-09-16T06:20:00.000Z" },
+    /* Eine Story von vorgestern - aus dem 24-Stunden-Fenster heraus. */
+    { art: "story", medienId: "S0", titel: "Alte Story von vorgestern", datum: "2026-09-14", veroeffentlicht: "2026-09-14T07:00:00.000Z" },
+    /* So sahen Story-Einträge bis zum 16.09. aus: GAR KEIN Zeitstempel. Genau
+       daran wäre die Fallback-Liste still leer geblieben. */
+    { art: "story", medienId: "S3", titel: "Story von heute ohne Zeitstempel", datum: "2026-09-16" },
+  ] };
+  const konv = [{ id: "k1", messages: { data: [{
+    id: "m1", from: { id: "99", username: "test" },
+    message: "Wo muss ich das in der Klausur prüfen?",
+    created_time: new Date(jetzt - 600000).toISOString(),
+    reply_to: { story: {} },   // genau das, was Instagram schickt: leer
+  }] } }];
+
+  const offen = offeneNachrichten(konv, "1", ledger, jetzt, []);
+  assert.equal(offen[0].bezugQuelle, "Story-Antwort ohne Zuordnung");
+  assert.match(offen[0].bezugRoh, /ids=\[keine\] url=nein/, "die rohen Felder werden nicht protokolliert");
+
+  const titel = offen.laufend.map((e) => e.titel);
+  assert.equal(titel.length, 3, `es sollten die drei heutigen Stories sein, waren: ${titel.join(" | ")}`);
+  assert.ok(titel.some((t) => /ohne Zeitstempel/.test(t)), "Stories ohne Zeitstempel fallen aus der Liste – der echte Ledger hat keinen");
+  assert.ok(titel.some((t) => /Schutzauftrag/.test(t)) && titel.some((t) => /Nebenbestimmung/.test(t)));
+  assert.ok(!titel.some((t) => /Leistungskondiktion/.test(t)), "ein Beitrag steht als Story-Kandidat drin");
+  assert.ok(!titel.some((t) => /vorgestern/.test(t)), "eine abgelaufene Story steht noch drin");
+  assert.ok(offen.laufend.every((e) => e.wann), "den Kandidaten fehlt die Zeitangabe");
+
+  /* Und beim Nachfragen dürfen nur Stories angeboten werden. */
+  const quelle = fs.readFileSync(new URL("../src/postfach.mjs", import.meta.url), "utf8");
+  assert.match(quelle, /NIEMALS einen Beitrag aus „Zuletzt erschienen“/, "die Regel gegen Beiträge als Story-Kandidat fehlt");
+});
+
+/* --------------------------------------------------------------------------
+   Story-Zuordnung aus dem Webhook.
+
+   Am 17.09. wurde mitgeschnitten, was Meta beim Eingang einer Story-Antwort
+   wirklich schickt. Ergebnis: `message.reply_to.story.id` ist da - waehrend
+   derselbe Vorgang ueber /conversations ein leeres `reply_to` lieferte. Der
+   Test benutzt deshalb das ECHTE Ereignis, nicht ein ausgedachtes, und die
+   Gegenprobe (normale DM ohne Story) gleich mit.
+   -------------------------------------------------------------------------- */
+test("Story-Bezug kommt aus dem Webhook, wenn der Abruf ihn verschweigt", async () => {
+  const { offeneNachrichten } = await import("../src/postfach.mjs");
+  const jetzt = Date.parse("2026-09-17T00:20:00Z");
+
+  /* Wortgetreu aus state/webhook-roh.jsonl, gekuerzt um die Signatur-URL. */
+  const MID = "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDQ2NTY0NTEwODc3";
+  const webhookBezug = {
+    [MID]: { storyId: "17908618605537083", absender: "1079335494816469", text: "Test Beweislast", zeit: 1789603907432 },
+  };
+  const ledger = {
+    postfach: [],
+    veroeffentlicht: [{ medienId: "17908618605537083", art: "story", titel: "Beweislast beim Anscheinsbeweis", datum: "2026-09-16" }],
+  };
+  /* So, wie /conversations es geliefert hat: OHNE reply_to. */
+  const konv = [{
+    id: "k1",
+    messages: { data: [{ id: MID, message: "Test Beweislast", from: { id: "1079335494816469" }, created_time: "2026-09-17T00:11:47+0000" }] },
+  }];
+
+  const ohneTabelle = offeneNachrichten(konv, "17841446564510877", ledger, jetzt, []);
+  assert.equal(ohneTabelle[0].bezug, null, "ohne Webhook hat der Abruf keinen Bezug - das war der Fehler vom 16.09.");
+
+  const mitTabelle = offeneNachrichten(konv, "17841446564510877", ledger, jetzt, [], webhookBezug);
+  assert.match(mitTabelle[0].bezug, /Beweislast beim Anscheinsbeweis/, "mit Webhook steht die richtige Story fest");
+  assert.equal(mitTabelle[0].bezugQuelle, "aufgelöst");
+  assert.equal(mitTabelle[0].bezugWie, "webhook/mid");
+});
+
+test("Zweitschluessel Absender+Text traegt, wenn die Nachrichten-ID abweicht", async () => {
+  const { offeneNachrichten } = await import("../src/postfach.mjs");
+  const jetzt = Date.parse("2026-09-17T00:20:00Z");
+  const webhookBezug = {
+    "mid-aus-dem-ereignis": { storyId: "S7", absender: "42", text: "Test Beweislast", zeit: jetzt - 60000 },
+  };
+  const ledger = { postfach: [], veroeffentlicht: [{ medienId: "S7", art: "story", titel: "Anscheinsbeweis", datum: "2026-09-16" }] };
+  const konv = [{
+    id: "k1",
+    messages: { data: [{ id: "voellig-andere-id", message: "Test Beweislast", from: { id: "42" }, created_time: "2026-09-17T00:11:47+0000" }] },
+  }];
+  const offen = offeneNachrichten(konv, "1", ledger, jetzt, [], webhookBezug);
+  assert.match(offen[0].bezug, /Anscheinsbeweis/);
+  assert.equal(offen[0].bezugWie, "webhook/absender+text");
+
+  /* Und die Gegenprobe: Ein anderer Absender mit demselben Wortlaut darf den
+     Bezug NICHT erben. Sonst raet der Bot wieder, nur subtiler. */
+  const fremd = [{
+    id: "k2",
+    messages: { data: [{ id: "x", message: "Test Beweislast", from: { id: "999" }, created_time: "2026-09-17T00:11:47+0000" }] },
+  }];
+  assert.equal(offeneNachrichten(fremd, "1", ledger, jetzt, [], webhookBezug)[0].bezug, null);
+});
+
+test("Normale DM ohne Story bekommt keinen Bezug angedichtet", async () => {
+  const { offeneNachrichten } = await import("../src/postfach.mjs");
+  const jetzt = Date.parse("2026-09-17T00:20:00Z");
+  /* Zweites echtes Ereignis vom 17.09.: "Test ohne Story" kam ohne reply_to
+     herein - der Webhook unterscheidet die beiden Faelle also selbst. */
+  const webhookBezug = { "mid-a": { storyId: "S7", absender: "42", text: "Test Beweislast", zeit: jetzt - 60000 } };
+  const ledger = { postfach: [], veroeffentlicht: [{ medienId: "S7", art: "story", titel: "Anscheinsbeweis", datum: "2026-09-16" }] };
+  const konv = [{
+    id: "k1",
+    messages: { data: [{ id: "mid-b", message: "Test ohne Story", from: { id: "42" }, created_time: "2026-09-17T00:11:55+0000" }] },
+  }];
+  const offen = offeneNachrichten(konv, "1", ledger, jetzt, [], webhookBezug);
+  assert.equal(offen[0].bezug, null);
+  assert.equal(offen[0].bezugQuelle, "kein Bezug");
+});
+
+test("Fehlende Zuordnungsdatei laesst den Lauf unberuehrt", async () => {
+  const { webhookBezugLaden } = await import("../src/postfach.mjs");
+  assert.deepEqual(webhookBezugLaden(null), {});
+  assert.deepEqual(webhookBezugLaden("/gibt/es/nicht"), {});
+});
+
+
+/* --------------------------------------------------------------------------
+   Rücklage: nur zurücklegen, was auch bezahlbar ist.
+
+   Am 17.09. lagen 0.13 $ für einen noch zu schreibenden Beitrag und die vier
+   Erklärfiguren zurück, während vom Tagesdeckel nur noch 0.045 $ frei waren.
+   Der Beitrag war davon nie zu bezahlen - seine Rücklage hat aber die neun
+   Stories blockiert, die zusammen weniger gekostet hätten. Ergebnis: 0 von 3
+   Beiträgen, 0 von 9 Stories.
+   -------------------------------------------------------------------------- */
+test("Rücklage übersteigt nie das noch freie Budget", async () => {
+  const { bezahlbareSumme } = await import("../src/kosten.mjs");
+
+  /* Der Fall vom 17.09.: b2 kostet erwartet 0.085, frei sind 0.045. */
+  assert.equal(bezahlbareSumme([0.085], 0.045), 0, "Unbezahlbares wird nicht zurückgelegt");
+
+  /* Reicht es, bleibt der Vorrang: der Beitrag bekommt sein Geld. */
+  assert.equal(bezahlbareSumme([0.085], 0.2), 0.085);
+
+  /* Mehrere Beiträge: der Reihe nach, Abbruch beim ersten, der nicht passt.
+     Die Reihenfolge IST die Rangfolge - es wird nicht umsortiert, damit der
+     dritte Beitrag sich nicht am zweiten vorbeidrängt. */
+  assert.equal(bezahlbareSumme([0.06, 0.06, 0.06], 0.13), 0.12);
+  assert.equal(bezahlbareSumme([0.20, 0.01], 0.15), 0, "nach dem ersten Fehlschlag wird abgebrochen");
+
+  /* Nichts offen, nichts frei, Unsinn im Eingang. */
+  assert.equal(bezahlbareSumme([], 0.3), 0);
+  assert.equal(bezahlbareSumme([0.05], 0), 0);
+  assert.equal(bezahlbareSumme([0.05], -1), 0);
+  assert.equal(bezahlbareSumme([null, undefined, "x"], 0.3), 0);
+
+  /* Cent-Bruchteile dürfen sich nicht zu einem Phantombetrag aufaddieren. */
+  assert.equal(bezahlbareSumme([0.0001, 0.0001, 0.0001], 1), 0);
 });
