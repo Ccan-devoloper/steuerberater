@@ -183,6 +183,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Einspruchs, Prüfungsschema und den beiden durchgerechneten Beispielen Dieter Kugel
   (Anfechtungsrahmen 108.000/100.000/98.000 €) und Anfechtungsrahmen 20.000/18.000/
   17.500 €. Abschnitt 8 ist damit vollständig.
+  Abschnitt 9 (Klage- und Revisionsverfahren nach der FGO) ist bis zur Abbruchstelle des
+  Connectors auf Seite 17 eingepflegt: die zwölf Sachurteilsvoraussetzungen vom
+  Finanzrechtsweg über Aktiv- und Passivlegitimation bis zu Form und Inhalt der
+  Klageschrift, die beiden Fallgruppen der Klagearten, Anfechtungs- und
+  Verpflichtungsklage mit vier Musteranträgen (Haftungsbescheid, Ansparrücklage,
+  gebundener Verwaltungsakt und Bescheidurteil bei Ermessensentscheidungen), vier
+  Übungsfälle zur richtigen Klageart, die Fortsetzungsfeststellungsklage mit den beiden
+  BFH-Fallgruppen und dem zweispaltigen Beispiel zur Abgrenzung von der Erledigung in der
+  Hauptsache, das erfolglose Vorverfahren nach § 44 FGO, die Sprungklage mit
+  durchgerechnetem Fristbeispiel, die Untätigkeitsklage mit ihren drei Voraussetzungen
+  sowie Klagebefugnis, Beiladung nach dem MoPeG und die Berechnung der Klagefrist über
+  § 222 ZPO.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

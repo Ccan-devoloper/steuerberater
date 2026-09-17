@@ -2125,3 +2125,49 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Steuer von 91.000 € (108.000 ./. 15.000 ./. 2.000) wird gerade nicht erreicht.
   Schlussbeispiel – Anfechtungsrahmen 20.000 €/18.000 €/17.500 €, Saldierung der
   Werbungskosten von 3.000 € nur in Höhe der Änderung von 2.000 €, Ergebnis 17.500 €.
+
+## AO-Skript (Jacobs), Teil IV – Abschnitt 9: Klage- und Revisionsverfahren (FGO)
+
+- Quelle: dieselbe Datei wie beim Abschnitt 8 (Drive-ID
+  `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA`), Abschnitt 9, Seiten 1 bis 17.
+- Einpflege dieses Durchgangs: fünf Kapitel – Teil I (Zweiteilung des Verfahrens und die
+  zwölf Sachurteilsvoraussetzungen), Teil II (Einteilung der Klagearten, Anfechtungs- und
+  Verpflichtungsklage mit vier Musteranträgen), die vier Übungsfälle zur richtigen
+  Klageart und die Fortsetzungsfeststellungsklage, Teil III (§§ 44, 45 und 46 FGO mit dem
+  Sprungklage-Beispiel und der Untätigkeitsklage) sowie die Teile IV und V (Klagebefugnis,
+  Beiladung, Klagefrist). Das Skript umfasst damit 9 Teile, 81 Kapitel, 1.760 Blöcke und
+  155 Tabellen; Prüfung `npm run check:k1-ao-skript-jacobs`.
+- **Abbruch der Quelle:** Der Connector bricht in Abschnitt 9 auf Seite 17 mitten im Satz
+  zur Bekanntgabe der Einspruchsentscheidung ab. Nicht lesbar sind der Rest des Teils V
+  (Wiedereinsetzung nach § 56 FGO), der Teil VI (Form und Inhalt der Klageschrift), die
+  Begründetheit der Klage, das Revisionsverfahren und der gesamte **Abschnitt 10**
+  (vorläufiger Rechtsschutz). Der Abbruch ist am Ende des Kapitels 5 als redaktioneller
+  Hinweis vermerkt und steht in `docs/offene-quellen.md`, Abschnitt A.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 1: „Der Kläger muss eine in der FGO genannten Klagen einlegen“; ferner „§§ 40
+    II FGO“ für eine einzelne Vorschrift.
+  - Kapitel 2: „Einkommensteuerbescheid 03vom“ und „Einspruchsentscheidung vom
+    ………………dahin“ – fehlende Leerzeichen; „darf das FG das FA nicht dazu verurteilen, Die
+    Säumniszuschläge zu erlassen“ – Großschreibung mitten im Satz.
+  - Kapitel 3: „Durch EE vom19.07.06“ – fehlendes Leerzeichen; „§ 172 I S. Nr. 2a AO“ –
+    die Satznummer fehlt; „Antrag des Klägers ist in vollem Umfang entsprochen worden ist“
+    – doppeltes „ist“; „weil das berechtigte Interesse … gegeben sind“ – Numerus.
+  - Kapitel 4: „Grundsatz, 44 I FGO“ – das Paragraphenzeichen fehlt.
+  - Kapitel 4, Sprungklage-Beispiel, Frage 3: „spätestens aber bis 12.10.03 innerhalb von
+    6 Monaten nach Klagezustellung)“ – das Datum ist vom Eingang der Klage beim
+    Finanzgericht (12.04.03) aus gerechnet, während der Gesetzestext und der Satz selbst
+    auf die Klagezustellung an das Finanzamt (20.04.03) abstellen; danach ergäbe sich der
+    20.10.03. Die Klammer wird geschlossen, ohne geöffnet worden zu sein.
+  - Kapitel 5: „gesetzlicher Feiertrag“.
+
+  Nachgerechnet und zutreffend: die Klagefrist im Sprungklage-Beispiel (EStB vom 20.03.03,
+  Bekanntgabe nach der Viertagesfrist am 24.03.03, Ende der Klagefrist 24.04.03) und die
+  Zustimmungsfrist des Finanzamts (Eingang der Klageschrift 20.04.03 zuzüglich eines
+  Monats = 20.05.03). Ebenso die Klageanträge der vier Übungsfälle: beantragte 50.000 €
+  abzüglich der im Einspruchsverfahren gewährten 30.000 € ergibt einen Klageantrag über
+  20.000 €; beantragte 80.000 € Teilwertabschreibung abzüglich der anerkannten 30.000 €
+  ergibt 50.000 €.
