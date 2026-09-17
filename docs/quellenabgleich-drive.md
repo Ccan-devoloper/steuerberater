@@ -1044,3 +1044,65 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     nach Sachverhalt und nach der anschließenden Berechnung der 21.02.13.
   - Sachverhalt 4: „nach § 169 Abs. 2 Satz 2 Nr. 2 AO vier Jahre" – die vierjährige Frist
     folgt aus § 169 Abs. 2 Satz 1 Nr. 2 AO.
+
+- **Übungsklausur „Bilanzierung 1" (Rechtslage 2025)** – Norbert Rott, Korrektoren
+  S. Rehbann und L. Rehbann; Drive-IDs `1CrUaqSw3dV8uC-ELRk2KuMfBpvf-l7_I` (Aufgabe) und
+  `1FQ5cwOExS94dNZ9oiIa5xnZi7g441ZA-` (Lösung). Sie steht im Bilanzen-Campus der Klausur 3
+  im Reiter „Übungsklausur (Rott)".
+
+  Übernommen ist die vollständige Klausur in acht Aufgabenteilen: Teil I mit den sechs
+  Textziffern des Einzelunternehmers Karl-Heinz Arnold (Tz. 1 = 21 P, Tz. 2 = 29,5 P,
+  Tz. 3 = 7,5 P, Tz. 4 = 7 P, Tz. 5 = 11 P, Tz. 6 = 3 P; zusammen 79 P) und Teil II mit den
+  beiden Kapitalgesellschafts-Sachverhalten (SV 1 = 13 P, SV 2 = 8 P; zusammen 21 P) – in
+  der Summe die ausgewiesenen 100 Punkte. Sachverhalt, Aufgabenstellung, Vorbemerkungen,
+  die Anlage „Lösungsaufbau", das Punkte- und Notenschema und die Lösungshinweise stehen im
+  Wortlaut; die Bewertungs- und Entwicklungsrechnungen stehen als Tabelle.
+
+  Randpunkte: Sie stehen in dieser Klausur **ausschließlich** blockweise am Seitenende und
+  lösen sich beim Extrahieren vollständig von ihren Absätzen. Kein einzelner Wert lässt sich
+  eindeutig zuordnen; deshalb trägt hier kein Block Randpunkte und kein Eintrag eine
+  Gesamtpunktzahl im Datenfeld `punkte`. Stattdessen steht am Ende jeder Textziffer die
+  vollständige Wertefolge aus der Randspalte zusammen mit der von der Quelle selbst
+  ausgewiesenen Zwischensumme; die Summen der Wertefolgen stimmen mit diesen Zwischensummen
+  und mit den 100 Punkten der Gesamtklausur überein. Für die Anzeige im Campus führen die
+  Einträge das Textfeld `punkteLaut` (z. B. „21 Punkte").
+
+  Ausdrückliche Selbstkorrektur der Quelle – wortlautgetreu übernommen (Teil I Tz. 2 c):
+  „Die Auslegung von A 3.5 Abs. 5 Satz 2-6 UStAE ist umstritten. … Diese Auffassung hat sich
+  geändert. Nunmehr wird für die Frage des Vorliegens einer Lieferung auf die Grenze von 1 %
+  des Verkehrswertes abgestellt. Unter Anwendung dieser Auffassung würde im vorliegenden Fall
+  eine sonstige Leistung vorliegen." Die anschließende Lösung rechnet gleichwohl mit einer
+  Lieferung, weil der Aufgabentext dies ausdrücklich vorgibt.
+
+  Stellen, an denen die Quelle selbst nicht aufgeht oder unvollständig ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)" gekennzeichnet:
+
+  - Punkte- und Notenschema: Die erste Zeile ist absteigend beschriftet („100 - 95"), alle
+    weiteren aufsteigend.
+  - Teil I Tz. 1, Gebäude: Die AfA-Beträge der Jahre 2022 bis 2025 sind nur als Ergebnis
+    angegeben; die zugrunde gelegten Sätze stehen nicht im Text, sondern nur als Normkette.
+  - Teil I Tz. 2 a: Die Nebenkosten von 15.000 € tragen nach Aufgabentext und Lösung
+    lediglich 130 € Umsatzsteuer.
+  - Teil I Tz. 2 b: Der Buchungssatz lautet „an s. Verbindlichkeiten 238.000 n.n.v.“ und
+    stellt die noch nicht verrechenbare Vorsteuer in dieselbe Zeile. Die AfA von
+    200.000 € x 4 % x 2/12 ergibt rechnerisch 1.333,33 €; angesetzt sind 1.334 €.
+  - Teil I Tz. 2 c: Bei der Buchung der Sondervorauszahlung steht die noch nicht
+    verrechenbare Vorsteuer von 3.800 € neben dem Satz „akt. RAP 20.000 € an Mietaufwand
+    23.800 €".
+  - Teil I Tz. 3: Der Sollbetrag der Korrekturbuchung („Pachterneuerungsaufwand") ist nicht
+    beziffert. Der Abzinsungsfaktor 0,745 ist das Mittel aus den genannten Faktoren für
+    5 und 6 Jahre; 280.000 € x 75 % x 1/6 x ½ x 0,745 ergibt 13.037,50 €, angesetzt sind
+    13.038 €.
+  - Teil I Tz. 4: Die erste Vergleichsrechnung endet mit dem Vermerk „< 0 €".
+  - Teil I Tz. 5 a: Der Durchschnittswert beträgt rechnerisch 4,9353 €/kg, gerechnet wird
+    mit 4,93 €/kg. Der Lifo-Wert steht als „= 24.750" ohne Währungszeichen. Im Satz zur
+    Bewertung steht zwischen Normkette und Rechenweg ein einzelnes „€"; im Haben der
+    Korrekturbuchung fehlt das Währungszeichen.
+  - Teil I Tz. 6: Die Musterlösung datiert den Zugang der Forderung auf den 01.06., während
+    der Sachverhalt die Auslieferung am 01.05.2025 nennt.
+  - Teil II Sachverhalt 1: Bei der Umbuchung zur Steuerbilanz für die latenten Steuern steht
+    zunächst „-------------" und unmittelbar darunter der Auflösungsbuchungssatz.
+  - Teil II Sachverhalt 2: Für Einzel- und Gemeinkosten verweist die Lösung jeweils auf
+    § 255 Abs. 2 Satz 2 HGB. Die Bezugsgröße 810.000 € des Verwaltungskostenzuschlags ist
+    nicht hergeleitet (sie entspricht 200.000 € + 40.000 € + 300.000 € + 270.000 €);
+    3,70 % von 23.900 € ergeben rechnerisch 884,30 €, angesetzt sind 885 €.

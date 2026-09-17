@@ -37,9 +37,9 @@ aufgeht, und mit einem Prüfskript.
 ### Übungsklausuren (Rechtsstand 2025) – 12 Klausuren, je mit Lösung
 Eingepflegt: Einkommensteuer 1, Ertragsteuern 0 und Ertragsteuern 2 (beide mit vollständigem
 körperschaftsteuerlichem Aufgabenteil), Körperschaftsteuer (im KSt-Campus) und die
-beiden Teilklausuren der Klausur AO/USt (im USt- bzw. AO-Campus) und die eigenständige
-Klausur Abgabenordnung/FGO (im AO-Campus). Offen sind:
-- Bilanzierung 1
+beiden Teilklausuren der Klausur AO/USt (im USt- bzw. AO-Campus), die eigenständige
+Klausur Abgabenordnung/FGO (im AO-Campus) und Bilanzierung 1 (im Bilanzen-Campus der
+Klausur 3). Offen sind:
 - Bilanzierung 2
 - Bilanzierung 3
 - Bilanzierung 4

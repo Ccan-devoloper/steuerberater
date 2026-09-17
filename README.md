@@ -280,6 +280,33 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und Willi Wutz (Kaufpreisminderung durch gerichtlichen Vergleich als rückwirkendes Ereignis
   mit dem eigenen Fristbeginn des § 175 Abs. 1 S. 2 AO).
   Prüfung: `npm run check:est-klausuren`
+- **Übungsklausur Bilanzierung 1 (Rott)** (Klausur 3, Reiter Allgemein → „Übungsklausur
+  (Rott)“): die Übungsklausur im Fachgebiet Bilanzierung 1 (Norbert Rott, Korrektoren
+  S. Rehbann und L. Rehbann, Rechtslage 2025, 6 Stunden, 100 Punkte) in acht Aufgabenteilen.
+  Teil I – Einzelunternehmer Karl-Heinz Arnold, Druckerei Paderborn, Steuerbilanz zum
+  31.12.2025 (79 Punkte): Grundstück „Berliner Ring 15“ (Vermietung an sich selbst als
+  Entnahme bei umsatzsteuerlichem Leistungsaustausch nach Option der Ehegattengemeinschaft,
+  Einlage des hälftigen Grund und Bodens zum Teilwert, Einlage des Gebäudes höchstens mit den
+  fortgeführten Herstellungskosten nach § 6 Abs. 1 Nr. 5 Satz 1 Buchst. a EStG, Einlage von
+  Darlehen und Zinsverbindlichkeit, Grundstückskosten), Grundstück „Detmolder Str. 10“
+  (Erwerb gegen Einmalzahlung und Leibrente nach der Rentenbarwertmethode, Produktionshalle
+  mit AfA nach der tatsächlichen Nutzungsdauer und noch nicht verrechenbarer Vorsteuer,
+  Finanzierungsleasing einer Druckmaschine mit Kaufoption samt Zinsstaffelmethode und
+  aktivem Rechnungsabgrenzungsposten aus der Sondervorauszahlung), gebrauchte Druckmaschine
+  (Pachterneuerungsrückstellung nach dem BMF-Schreiben vom 21.02.2002 mit Ansammlung und
+  Abzinsung), Golf Variant (Einlage zum Teilwert mit der AfA-Bemessungsgrundlage des
+  § 7 Abs. 1 Satz 5 EStG und Vorsteuerberichtigung nach § 15a UStG), Vorräte
+  (Durchschnittsbewertung und Lifo beim Druckerpapier mit nur teilweise dauernder
+  Wertminderung; Wertaufholung und unerwarteter Jahresbonus bei der Druckerschwärze) und
+  uneinbringliche Forderung mit Berichtigung nach § 17 UStG. Teil II (21 Punkte): B-GmbH
+  (außerplanmäßige Abschreibung auf das unbebaute Grundstück, wertbegründende Baugenehmigung
+  und Wertaufholung, Damnum als Aufwand in der Handelsbilanz gegenüber dem aktiven RAP in der
+  Steuerbilanz, aktive latente Steuern) und C-GmbH (Gewinnrealisation erst mit der Abnahme,
+  unfertige Leistungen über eine Zuschlagskalkulation, Verwaltungskosten-Wahlrecht nach
+  § 255 Abs. 2 Satz 3 HGB und § 6 Abs. 1 Nr. 1b EStG). Die Randpunkte der Musterlösung stehen
+  im PDF ausschließlich blockweise am Seitenende; statt sie zu raten steht am Ende jeder
+  Textziffer die vollständige Wertefolge mit der von der Quelle selbst ausgewiesenen Summe.
+  Prüfung: `npm run check:est-klausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
   1.017 Abschnitten und 30 Tabellen: die Einführung in die Einkommensteuer (persönliche
