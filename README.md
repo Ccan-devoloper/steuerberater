@@ -1537,6 +1537,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Tage **nach** der tatsächlichen Zustellung liegt; und eine Rechtsbehelfsbelehrung, die nur
   die Bekanntgabefiktion für einfache Briefe nennt. Der Aufgabe liegt ein Jahreskalender 2021
   bei; die maßgeblichen Tage sind im Eintrag einzeln aufgeführt und gegengeprüft.
+  Aus dem Jahrgang **2022/2023** kommt derselbe Aufgabentyp an einem ganz anderen Sachverhalt
+  hinzu (Monika Beer, 35 von 100 Punkten – 30 für Aufgabe 1, 5 für Aufgabe 2): Ein
+  Einkommensteuerbescheid geht am 02.03.2022 zur Post an eine 78-Jährige, die seit dem 14.02.
+  mit Sauerstoff im Krankenhaus liegt – noch ansprechbar, aber von der Außenwelt
+  abgeschnitten. Am 08.03. wird sie ins künstliche Koma versetzt, am 16.03. stirbt sie. Der
+  testamentarische Alleinerbe erfährt am 02.05. davon, erhält am 18.05. die Wohnungsschlüssel,
+  entnimmt am 22.05. den noch verschlossenen Umschlag dem überquellenden Briefkasten und legt
+  am 24.05. „Widerspruch“ ein. Der Sachverhalt schließt mit dem Satz „Alle geschilderten
+  Tatsachen entsprechen der Wahrheit“ und nimmt der Aufgabe damit jede Beweisfrage.
+  Ein Detail lohnt den Vergleich der beiden Jahrgänge: Die Rechtsbehelfsbelehrung nennt hier
+  den **vierten** Tag nach Aufgabe zur Post, im Jahrgang 2021/2022 noch den **dritten**.
   Dazu kommt der **Umsatzsteuerteil** desselben Prüfungstages, der im USt-Campus unter
   demselben Reiter steht (Bruno Bartel, BB-Baustoffhandels-GmbH und Paul Prager): drei
   Unternehmer, deren Umsätze sich gegenseitig bedingen, über die Besteuerungszeiträume 2020

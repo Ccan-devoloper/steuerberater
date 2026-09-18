@@ -8997,3 +8997,52 @@ Zur Abgrenzung: Dies ist ein **echter Fehler der Quelle**, kein Artefakt der Tex
 und wird deshalb – anders als die OCR-Eigenheiten dieses PDFs – wortlautgetreu übernommen und
 gekennzeichnet. Die stillschweigende Bereinigung der Extraktionsartefakte ist im Kopf des
 Datensatzes und im vorigen Abschnitt dieser Datei beschrieben.
+
+### Amtliche Prüfungsaufgabe Verfahrensrecht 2022/2023, Teil I (Abgabenordnung und FGO)
+
+- **Quelle:** Drive-ID `1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, Abschnitt „Teil I: Abgabenordnung
+  und Finanzgerichtsordnung“.
+- **Ziel:** `src/data/k1-pruefungsklausuren.js`, Eintrag `k1-pk-2022-ao-beer` (fach "ao"),
+  Reiter „Prüfungsklausuren im Original“ im AO-Campus. Prüfung:
+  `npm run check:k1-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; der Fall spielt im **Jahr 2022**, betroffen ist die
+  Einkommensteuer 2020.
+
+**Punkteverteilung.** Anders als der Schwesterjahrgang weist dieser Aufgabenteil seine Punkte
+aus, und zwar je Aufgabe: 30 Punkte für die Zulässigkeitsprüfung, 5 Punkte für die
+Vollstreckungsfrage – zusammen 35 von 100.
+
+**Die beiden AO-Aufgaben der beiden Jahrgänge nebeneinander.** Der Campus zeigt sie jetzt in
+einem Reiter, und der Vergleich ist lehrreich: Beide drehen sich um die Zulässigkeit eines
+Rechtsbehelfs, und beide arbeiten mit einem Laienschreiben, das die Rechtslage aus dem
+Bauch heraus beurteilt. Im Jahrgang 2021/2022 ist es ein Steuerberater mit sechs
+durchnummerierten Einwendungen, hier ein erklärter „steuerlicher Laie“, der mit dem
+bürgerlich-rechtlichen Begriff der empfangsbedürftigen Willenserklärung argumentiert. Dort
+liefert der Sachverhalt ein Kalendarium, hier eine lückenlose Zeitschiene vom
+Krankenhausaufenthalt bis zur Vollstreckungsankündigung.
+
+**Eine Rechtsänderung, die in der Anlage sichtbar wird.** Die Rechtsbehelfsbelehrung dieses
+Bescheids nennt die Bekanntgabefiktion mit dem **vierten** Tag nach Aufgabe zur Post; die
+Rechtsbehelfsbelehrung der Prüfung 2021/2022 nennt noch den **dritten**. Beide sind
+wortlautgetreu wiedergegeben, und der Befund ist im Lösungsabschnitt benannt: Die
+Verlängerung von drei auf vier Tage gilt für nach dem 31.12.2021 abgesandte Verwaltungsakte,
+und der Bescheid dieses Falls ist am 02.03.2022 zur Post gegeben worden. Das ist kein
+Widerspruch zwischen den Quellen, sondern der Unterschied zweier Prüfungsjahrgänge – und
+genau deshalb ist die Reihe nicht fortgeschrieben.
+
+**Der Satz, der die Aufgabe trägt.** „Hinweis: Alle geschilderten Tatsachen entsprechen der
+Wahrheit.“ Er steht am Ende des Sachverhalts und nimmt der Aufgabe jede Beweisfrage: Das
+ärztliche Behandlungsprotokoll, der Zeitpunkt der Schlüsselübergabe und die Entnahme des
+ungeöffneten Briefes sind damit feststehende Tatsachen und nicht bloßer Parteivortrag. Der
+Lösungsabschnitt weist ausdrücklich darauf hin, ohne die Rechtsfolgen zu ziehen.
+
+**Eine Besonderheit der Aufgabenstellung.** Aufgabe 2 arbeitet mit einer Unterstellung, die
+der Lösung von Aufgabe 1 vorgreift: „Gehen Sie dabei davon aus, dass der ESt-Bescheid vom
+02.03.2022 wirksam bekannt gegeben und zulässigerweise mit dem Einspruch angefochten wurde.“
+Wer Aufgabe 1 im Ergebnis verneint, muss Aufgabe 2 gleichwohl bearbeiten – die fünf Punkte
+sind unabhängig erreichbar.
+
+**Textqualität:** Dieser Abschnitt des PDFs ist deutlich sauberer extrahiert als der
+Ertragsteuerteil derselben Datei. Bereinigt sind nur einzelne Zeilenumbruch-Trennungen; echte
+Verschreiber der Quelle sind nicht aufgefallen. Die Bezeichnung „Widerspruch“ statt
+„Einspruch“ ist kein Fehler, sondern Teil des Sachverhalts.

@@ -17,14 +17,16 @@
    Eintrag dem passenden Campus zu ("ao", "ust", "erbst"); jeder Campus zeigt
    nur seine eigenen Einträge. Der Prüfungstag 2021/2022 ist damit vollständig:
    AO/FGO (Dr. Bruno Bayer), Umsatzsteuer (Bartel, BB-GmbH, Prager) und
-   Erbschaftsteuer (Erbfall Muhr).
+   Erbschaftsteuer (Erbfall Muhr). Vom Jahrgang 2022/2023 ist der AO/FGO-Teil
+   (Monika Beer) eingepflegt; dieser Jahrgang weist anders als der vorige
+   Wertungspunkte aus.
 
    Personenbezogene Wasserzeichen des Quell-PDFs sind nicht übernommen.
    Blocktypen wie bei den übrigen Klausurdatensätzen: text | titel | tabelle. */
 
 export const k1PruefungsklausurenQuelle = {
   reihe: "Steuerberaterprüfung · Prüfungsaufgaben aus dem Verfahrensrecht und anderen Steuerrechtsgebieten · amtlicher Wortlaut",
-  stand: "Prüfungsjahrgang 2021/2022 · Jahr 2021, Besteuerungszeiträume 2020 und 2021, Erbfall 01.07.2020 · Rechtsstand des Prüfungstages",
+  stand: "Prüfungsjahrgänge 2021/2022 und 2022/2023 · Rechtsstand des jeweiligen Prüfungstages",
   verfasser: "Amtliche Prüfungsaufgabe der Steuerberaterprüfung – ohne Musterlösung",
   didaktik: [
     "Der dritte Prüfungstag dauert sechs Stunden und besteht aus Abgabenordnung und Finanzgerichtsordnung, Umsatzsteuer und Erbschaftsteuer. Der Verfahrensrechtsteil unterscheidet sich von allen anderen Klausuren der Prüfung dadurch, dass er kein Ergebnis in Euro verlangt, sondern ein Rechtsgutachten: Die Aufgabenstellung sagt ausdrücklich „in einem ausführlichen Rechtsgutachten“ und „Gehen Sie dabei auf alle im Sachverhalt enthaltenen verfahrensrechtlichen Probleme angemessen ein“.",
@@ -291,6 +293,83 @@ export const k1Pruefungsklausuren = [
       { text: "Die Angaben, die erkennbar Weichen stellen und nicht Ausschmückung sind: die Gütertrennung; der nicht geltend gemachte Pflichtteil; die Befristung der Rente an den Sohn auf die Dauer des Studiums, längstens bis zum 27. Geburtstag (der Sohn ist am 15.02.1990 geboren, der Erbfall tritt am 01.07.2020 ein); die Witwenrente aus der gesetzlichen Sozialversicherung; die im Voraus für zwei Jahre gezahlte Grabpflege; die vertragliche Stimmbindung und Verfügungsbeschränkung zwischen Muhr und Weiß, die beide jeweils 15 % halten; der Verkauf dieser Anteile im Dezember 2020 an eben diesen Vertragspartner; die Aufgabe der Ehewohnung und der Wegzug nach Nizza noch im Dezember 2020; die Nutzung der fünf gleich großen Stockwerke; und die unverzinsliche Verbindlichkeit gegenüber der Ehefrau, deren erste Rate erst am 01.10.2022 fällig wird." },
       { text: "Zeitliche Einordnung: Der Erbfall tritt am 01.07.2020 ein. Wer die Aufgabe nach heutigem Rechtsstand löst, muss selbst prüfen, was sich seither geändert hat – insbesondere bei der Grundbesitzbewertung durch das Jahressteuergesetz 2022. Die Aufgabe ist hier unverändert mit den Jahreszahlen des Prüfungsjahrgangs wiedergegeben." },
       { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Das vereinfachte Ertragswertverfahren nach §§ 199 ff. BewG, die Abgrenzung des Verwaltungsvermögens und der Finanzmittel sowie die Poolvereinbarung nach § 13b Abs. 1 Nr. 3 ErbStG behandelt der Erbschaftsteuer-Campus (Klausur 1) in eigenen Einheiten; die Befreiung für das Familienheim nach § 13 Abs. 1 Nr. 4b ErbStG, die Steuerbefreiung für vermietete Wohngrundstücke nach § 13d ErbStG, der Versorgungsfreibetrag nach § 17 ErbStG und die Nachlassverbindlichkeiten nach § 10 Abs. 5 ErbStG stehen dort ebenfalls, ebenso mehrere vollständig durchgerechnete Originalfälle." },
+    ],
+  },
+  {
+    id: "k1-pk-2022-ao-beer",
+    fach: "ao",
+    block: "amtlich",
+    blockLabel: "Steuerberaterprüfung · amtliche Prüfungsaufgabe",
+    nummer: 4,
+    jahrgang: "2022/2023",
+    teil: "I",
+    wertung: "35 von 100 Wertungspunkten (Aufgabe 1: 30, Aufgabe 2: 5)",
+    title: "Teil I – Monika Beer (Prüfung 2022/2023): ein Bescheid im überquellenden Briefkasten, eine Steuerpflichtige im künstlichen Koma und ein „Widerspruch“ des Alleinerben",
+    thema: "Ein Einkommensteuerbescheid geht am 02.03.2022 zur Post an eine 78-Jährige, die seit dem 14.02. mit Sauerstoff im Krankenhaus liegt – noch ansprechbar, aber von der Außenwelt abgeschnitten. Am 08.03. wird sie ins künstliche Koma versetzt, am 16.03. stirbt sie. Der testamentarische Alleinerbe erfährt am 02.05. vom Nachlassgericht, erhält am 18.05. die Wohnungsschlüssel, entnimmt am 22.05. den noch verschlossenen Umschlag dem Briefkasten und legt am 24.05. „Widerspruch“ ein – mit einer Begründung, die vom bürgerlichen Recht der empfangsbedürftigen Willenserklärung ausgeht. Das Finanzamt antwortet, es kenne keinen Popular-Einspruch, ihm fehle die Aktivlegitimation, und die Monatsfrist sei ohnehin längst abgelaufen. Der Sachverhalt schließt mit dem Satz: „Alle geschilderten Tatsachen entsprechen der Wahrheit.“ Dazu eine zweite, kleinere Frage: Durfte das Finanzamt aus diesem Bescheid unmittelbar gegen den Erben vollstrecken?",
+    rechtsstand: "Rechtsstand des Prüfungsjahrgangs 2022/2023 · Jahr 2022, Einkommensteuer 2020",
+    quelle: "Steuerberaterprüfung 2022/2023, Prüfungsaufgaben aus dem Verfahrensrecht und anderen Steuerrechtsgebieten, Teil I: Abgabenordnung und Finanzgerichtsordnung · amtlicher Aufgabentext, Bearbeitungszeit 6 Stunden",
+    normen: [
+      "§ 358 AO",
+    ],
+    themen: ["Amtliche Prüfungsaufgabe", "Ohne Musterlösung", "Bekanntgabe", "Bekanntgabefiktion", "Gesamtrechtsnachfolge", "Zulässigkeit des Einspruchs", "Beschwer", "Wiedereinsetzung", "Fristverlängerung", "Vollstreckung"],
+    sachverhalt: [
+      { typ: "titel", text: "Steuerberaterprüfung 2022/2023 · Prüfungsaufgaben aus dem Verfahrensrecht und anderen Steuerrechtsgebieten · Teil I: Abgabenordnung und Finanzgerichtsordnung" },
+      { text: "Bearbeitungszeit: 6 Stunden. Hilfsmittel: Die zugelassenen Hilfsmittel ergeben sich aus den gleich lautenden Erlassen der obersten Finanzbehörden der Länder. Vor der Bearbeitung sind Sachverhalt und Aufgaben vollständig zu lesen." },
+      { text: "Frau Monika Beer (MB) hatte ihre Einkommensteuererklärung 2020 Ende November 2021 beim dafür örtlich zuständigen Finanzamt Augsburg-Stadt abgegeben. Der unten abgedruckte Einkommensteuerbescheid 2020 wurde am 02.03.2022 vom Finanzamt Augsburg-Stadt mit der Briefpost versandt. Er war mit der in der Anlage 1 abgedruckten Rechtsbehelfsbelehrung versehen. Die erste Seite des Einkommensteuerbescheids zeigte folgendes Erscheinungsbild:" },
+      { typ: "tabelle", spalten: ["Feld", "Inhalt"], zeilen: [
+        ["Absender", "Finanzamt Augsburg-Stadt, Prinzregentenplatz 2, 86152 Augsburg"],
+        ["Datum / Zimmer-Nr.", "02.03.2022 · Zimmer-Nr. 231"],
+        ["Telefon", "0821-506-479"],
+        ["IdNr.", "97 502 618 337"],
+        ["Steuernummer", "103/298/70619"],
+        ["Empfänger", "An Frau Monika Beer, Karl-Sommer-Str. 12, 86152 Augsburg"],
+      ] },
+      { typ: "tabelle", spalten: ["Bescheid über Einkommensteuer 2020", "Betrag"], zeilen: [
+        ["Festgesetzt werden", "6.188 €"],
+        ["ab Einkommensteuervorauszahlungen", "4.000 €"],
+        ["Verbleibende Steuer", "2.188 €"],
+        ["Abrechnung: bereits getilgt", "0 €"],
+        ["Verbleibende Steuer", "2.188 €"],
+        ["Bitte zahlen Sie bis zum 07.04.2022", "2.188 €"],
+      ] },
+      { typ: "titel", text: "Schreiben vom 24.05.2022, eingegangen am 25.05.2022" },
+      { text: "Boris Hillrich, Frühlingstraße 17, 86899 Landsberg, an das Finanzamt Augsburg-Stadt, Prinzregentenplatz 2, 86152 Augsburg. Betreff: „Hier: Widerspruch“." },
+      { text: "„Sehr geehrte Damen und Herren, ich lege gegen den an Monika Beer, Steuernummer 103/298/70619, ergangenen Einkommensteuerbescheid 2020 vom 02.03.2022 Widerspruch ein. Da ist einiges richtig schiefgelaufen." },
+      { text: "Frau Beer ist am 16.03.2022 verstorben, ohne je diesen Steuerbescheid gesehen zu haben. Ein anderer muss jetzt ihre Steuersache in die Hand nehmen und für sie handeln. Ich kümmere mich jetzt darum und beantrage für sie, den Bescheid zurückzunehmen oder für ungültig zu erklären." },
+      { text: "Der Bescheid macht keinen Sinn, darin wird Frau Beer zur Zahlung aufgefordert, aber sie ist tot und schuldet nichts mehr. Diesen Bescheid hat sie nie tatsächlich in die Hand bekommen, er geht voll ins Leere und kann nur null und nichtig sein." },
+      { text: "Die Steuerschuld muss aus der Erbmasse bezahlt werden, wenn schon, dann muss sich ein entsprechender Steuerbescheid nun direkt an den Nachlass richten. Das Finanzamt hat doch keine Sonderrechte. Das Finanzamt hatte keine Kenntnis von den tatsächlichen Vorgängen, allein schon deswegen kann der Bescheid keinen Wert haben und muss in aller Form ausdrücklich aufgehoben werden, sonst geistert er weiter herum und richtet Schaden an. Mit freundlichen Grüßen, Boris Hillrich“" },
+      { typ: "titel", text: "Nachricht des Finanzamts vom 11.07.2022 (Auszug)" },
+      { text: "„Sehr geehrter Herr Hillrich, Sie behaupten in Ihrem Schreiben vom 24.05.2022, für Frau Beer zu handeln, bei uns ist aber keine diesbezügliche Vollmachtserteilung bekannt. Zur Einlegung eines Rechtsbehelfs gegen den an Frau Monika Beer gerichteten Einkommensteuerbescheid 2020 ist nicht jedermann befugt, dazu bedarf es einer speziellen Legitimation." },
+      { text: "Das steuerliche Verfahrensrecht kennt das Rechtsinstitut des sogenannten „Popular-Einspruchs“ nicht. Der angefochtene Bescheid ist weder für Sie bestimmt, noch sind Sie nach unserer Erkenntnis davon betroffen. Sie sind in dem Bescheid namentlich überhaupt nicht erwähnt, die Steuerpflichtige sind Sie ja offensichtlich nicht. Damit fehlt Ihnen die Aktivlegitimation für die Einlegung eines gegen diesen Bescheid gerichteten Rechtsbehelfs. Bitte erklären Sie uns, worauf sich Ihr Recht gründen soll, den für Frau Beer bestimmten Steuerbescheid angreifen zu dürfen." },
+      { text: "Abgesehen davon ist der richtige Rechtsbehelf der Einspruch, ein Rechtsbehelf ist aber sowieso viel zu spät eingelegt worden, die Monatsfrist für die Einspruchseinlegung ist längst abgelaufen. Um unnötigen kostenintensiven Verwaltungsaufwand zu vermeiden, bitten wir Sie, Ihren ‚Rechtsbehelf‘ zurückzunehmen.“" },
+      { typ: "titel", text: "Antwort vom 12.08.2022, eingegangen am 16.08.2022 (Auszug)" },
+      { text: "„Sehr geehrte Damen und Herren, so einfach ist die Sache nicht. Die 78-jährige Monika Beer war unverheiratet und lebte allein in ihrer Wohnung. Im Februar 2022 erkrankte sie an Covid-19. Die Krankheit nahm einen schweren Verlauf. Laut ärztlichem Behandlungsprotokoll wurde sie ab dem 14.02.2022 in der Uni-Klinik Augsburg zur Atemunterstützung mit Sauerstoff versorgt, war aber noch im Besitz ihrer geistigen Kräfte und voll ansprechbar." },
+      { text: "Ab dem 08.03.2022 wurde sie auf die Intensivstation verlegt und ins künstliche Koma versetzt und intubiert beatmet. Am 16.03.2022 ist sie dann nach einer dramatischen Verschlechterung der Atemfunktion trotz aller intensivmedizinischen Bemühungen verstorben." },
+      { text: "Frau Beer hat sich nie gegen diesen Bescheid wehren können, da sie von ihm überhaupt nichts gewusst hat. Als ihr der Bescheid zugesandt wurde, war sie bereits im Krankenhaus, man durfte sie nicht einmal mehr besuchen, sie war von der Außenwelt komplett abgeschnitten. Wie hätte da eine empfangsbedürftige Willenserklärung wirksam werden sollen? Dazu gehört doch auch, dass der Empfänger in der Lage sein muss, die Willenserklärung zur Kenntnis nehmen und wirksam handeln zu können. Ich bin zwar steuerlicher Laie, aber das, was im Privatrecht für Erklärungen gilt, muss auch im Steuerrecht gelten." },
+      { text: "Ich bin vom Nachlassgericht am 02.05.2022 informiert worden, dass ich testamentarischer Alleinerbe von Frau Monika Beer bin. Ich habe die Erbschaft angenommen. Ich habe mich erst einmal um die Wohnungsschlüssel von Frau Beer kümmern müssen. Diese habe ich dann endlich am 18.05.2022 erhalten." },
+      { text: "Am 22.05.2022 habe ich den noch original verschlossenen Brief des Finanzamts mit dem Einkommensteuerbescheid 2020 aus dem überquellenden Briefkasten entnommen. Dann habe ich mich sofort um diese Steuerangelegenheit gekümmert, mehr kann man von mir sicher nicht erwarten. Das kann ich gerne an Eides statt versichern, außerdem kann sicher das Nachlassgericht den Geschehensablauf bestätigen." },
+      { text: "Ich denke sowieso, dass der Bescheid keine Folgen haben kann, denn eine Frau Monika Beer existiert nicht mehr, sie schuldet niemandem mehr etwas. Wenn schon, dann müsste sich der Bescheid an mich richten, tut er aber nicht. Eine Rechtsbehelfsfrist konnte frühestens am 22.05.2022 begonnen haben und diese habe ich eindeutig eingehalten. Falls eine Frist versäumt sein sollte, bitte ich angesichts der Besonderheit des Falles um wohlwollende Nachsicht, schuldhafte Verstöße gegen Sorgfaltspflichten können weder Frau Beer noch mir angelastet werden.“" },
+      { text: "Hinweis: Alle geschilderten Tatsachen entsprechen der Wahrheit." },
+    ],
+    aufgabe: [
+      { text: "Aufgabe 1 (30 Punkte): Untersuchen Sie, ob in obigem Sachverhalt ein gem. § 358 AO zulässiger Einspruch gegen den Einkommensteuerbescheid 2020 vom 02.03.2022 eingelegt worden ist. Wenn Fristen versäumt sein sollten, prüfen Sie, ob eine rückwirkende Verlängerung oder eine Wiedereinsetzung in den vorigen Stand in Betracht kommen." },
+      { text: "Aufgabe 2 (5 Punkte): Am 17.08.2022 hatte das Finanzamt Augsburg-Stadt an Boris Hillrich eine Mahnung und Vollstreckungsankündigung für die Bezahlung der im Einkommensteuerbescheid 2020 von Frau Beer angeforderten 2.188 € versendet. Durfte das Finanzamt aufgrund des im Sachverhalt abgedruckten „Einkommensteuerbescheids 2020“ vom 02.03.2022 unmittelbar Vollstreckungsmaßnahmen gegenüber Boris Hillrich ergreifen oder wären dafür noch zusätzliche Verfahrenshandlungen notwendig gewesen? Gehen Sie dabei davon aus, dass der ESt-Bescheid vom 02.03.2022 wirksam bekannt gegeben und zulässigerweise mit dem Einspruch angefochten wurde." },
+      { typ: "titel", text: "Anlage 1: Rechtsbehelfsbelehrung" },
+      { text: "„Der Einkommensteuerbescheid kann mit dem Rechtsbehelf des Einspruchs angefochten werden. Der Einspruch ist bei dem vorbezeichneten Finanzamt oder bei der angegebenen Außenstelle schriftlich einzureichen, diesem / dieser elektronisch zu übermitteln oder zur Niederschrift zu erklären." },
+      { text: "Ein Einspruch ist jedoch ausgeschlossen, soweit dieser Bescheid einen Verwaltungsakt ändert oder ersetzt, gegen den ein zulässiger Einspruch oder (nach einem zulässigen Einspruch) eine zulässige Klage, Revision oder Nichtzulassungsbeschwerde anhängig ist. In diesem Fall wird der neue Verwaltungsakt Gegenstand des Rechtsbehelfsverfahrens." },
+      { text: "Die Frist für die Einlegung eines Rechtsbehelfs beträgt einen Monat. Sie beginnt mit Ablauf des Tages, an dem Ihnen dieser Bescheid bekannt gegeben worden ist. Bei Zusendung durch einfachen Brief gilt die Bekanntgabe mit dem **vierten** Tag nach Aufgabe zur Post als bewirkt, es sei denn, dass der Bescheid zu einem späteren Zeitpunkt zugegangen ist." },
+      { text: "Zu Ihrer Information: Wenn Sie beabsichtigen, einen Einspruch elektronisch einzulegen, wird empfohlen, den Einspruch über „MeinELSTER“ (www.elster.de) zu übermitteln.“" },
+    ],
+    loesung: [
+      { typ: "titel", text: "Keine Musterlösung in der Quelle" },
+      { text: KEINE_LOESUNG },
+      { text: "Was die Aufgabenstellung selbst vorgibt: Aufgabe 1 betrifft allein die **Zulässigkeit** nach § 358 AO – und ausdrücklich, für den Fall einer Fristversäumnis, sowohl die rückwirkende Fristverlängerung als auch die Wiedereinsetzung in den vorigen Stand. Aufgabe 2 ist davon losgelöst und arbeitet mit einer Unterstellung, die der Lösung von Aufgabe 1 gerade vorgreift: Es ist davon auszugehen, dass der Bescheid wirksam bekannt gegeben und zulässigerweise angefochten wurde. Wer Aufgabe 1 verneint, muss Aufgabe 2 gleichwohl bearbeiten. Die Punkte sind ungleich verteilt – 30 zu 5." },
+      { text: "Der Satz „Alle geschilderten Tatsachen entsprechen der Wahrheit“ steht am Ende des Sachverhalts und ist kein Füllsel: Er nimmt der Aufgabe jede Beweisfrage und macht die vorgetragenen Daten zur feststehenden Tatsachengrundlage – einschließlich des ärztlichen Behandlungsprotokolls und des Geschehensablaufs nach dem Tod." },
+      { text: "Die Zeitschiene, wie der Sachverhalt sie nennt: Versand des Bescheids am 02.03.2022; Krankenhausaufenthalt seit dem 14.02.2022, dabei „noch im Besitz ihrer geistigen Kräfte und voll ansprechbar“; Verlegung auf die Intensivstation und künstliches Koma ab dem 08.03.2022; Tod am 16.03.2022; Mitteilung des Nachlassgerichts am 02.05.2022; Erhalt der Wohnungsschlüssel am 18.05.2022; Entnahme des ungeöffneten Briefes am 22.05.2022; Schreiben vom 24.05.2022, Eingang am 25.05.2022; Antwort des Finanzamts am 11.07.2022; Gegenschreiben vom 12.08.2022, Eingang am 16.08.2022; Mahnung und Vollstreckungsankündigung am 17.08.2022. Die Zahlungsfrist des Bescheids endete am 07.04.2022." },
+      { text: "Erkennbar gesetzte Weichen: dass das Schreiben als „Widerspruch“ und nicht als Einspruch bezeichnet ist; dass der Einlegende zum Zeitpunkt seines Schreibens bereits Alleinerbe war, dies gegenüber dem Finanzamt aber erst im zweiten Schreiben offenlegt und zunächst „für sie“ zu handeln erklärt; dass das Finanzamt seine Ablehnung ausschließlich auf fehlende Vollmacht und fehlende Aktivlegitimation stützt; dass die Erblasserin am Tag der Bekanntgabefiktion noch ansprechbar, aber im Krankenhaus war; und dass der Brief bis zum 22.05.2022 ungeöffnet im Briefkasten lag." },
+      { text: "Eine Änderung gegenüber dem Schwesterjahrgang, die in der Anlage steht: Die Rechtsbehelfsbelehrung dieses Bescheids nennt die Bekanntgabefiktion mit dem **vierten** Tag nach Aufgabe zur Post. Die Rechtsbehelfsbelehrung der Prüfung 2021/2022 nennt noch den **dritten** Tag. Beide sind hier wortlautgetreu wiedergegeben; die Verlängerung von drei auf vier Tage gilt für nach dem 31.12.2021 abgesandte Verwaltungsakte." },
+      { text: "Zeitliche Einordnung: Der Fall spielt im Jahr 2022. Wer ihn nach heutigem Rechtsstand löst, muss selbst prüfen, was sich seither geändert hat. Die Aufgabe ist hier unverändert mit den Jahreszahlen des Prüfungsjahrgangs wiedergegeben." },
+      { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Bekanntgabe und Bekanntgabefiktion, Gesamtrechtsnachfolge nach § 45 AO, Form, Frist und Beschwer beim Einspruch sowie die Wiedereinsetzung nach § 110 AO behandelt der AO-Campus (Klausur 1) in eigenen Einheiten; die Originalklausuren 2011 bis 2015 enthalten mehrere ausformulierte Zulässigkeitsgutachten. Die Vollstreckung gegen den Gesamtrechtsnachfolger und die Voraussetzungen der §§ 249 ff. AO stehen dort ebenfalls." },
     ],
   },
 ];
