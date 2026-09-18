@@ -10617,8 +10617,43 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** nur noch das Kapitel 4 (Ermittlung der Körperschaftsteuer)
-sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** nichts mehr aus Teil I – offen sind nur noch die Skriptteile II
+bis VII.
+
+### KSt Teil I (Hamacher), Kapitel 4 – Abschluss des Bestandes
+
+Quelle: dieselbe Datei; übernommen als Kapitel 46. Prüfung: `npm run check:k2-kst-teil1`
+(**46 Kapitel, 740 Blöcke, 32 Tabellen**). **Damit ist das Lehrgangsskript vollständig
+übernommen** – alle vier Kapitel der 91-seitigen Quelle.
+
+Das Schlusskapitel ist kurz: der einheitliche Steuersatz von 15 % bis einschließlich VZ 2027, die
+Absenkung um je einen Prozentpunkt in den Jahren 2028 bis 2032, der Solidaritätszuschlag nach
+§ 2 Nr. 3 SolzG und das Berechnungsschema des R 7.2 KStR.
+
+**Zwei eigene Ergänzungen, als solche gekennzeichnet:** Erstens schreibt eine Tabelle die
+Steuersatzstaffel für die einzelnen Veranlagungszeiträume aus (2028: 14 %, 2029: 13 %, 2030: 12 %,
+2031: 11 %, ab 2032: 10 %); die Quelle nennt nur die Regel, die Jahressätze folgen zwingend aus
+ihrem Wortlaut. Zweitens ist im Berechnungsschema die Zeile markiert, die die
+**Bemessungsgrundlage des Solidaritätszuschlags** bildet – die *festzusetzende* Körperschaftsteuer,
+also nach Abzug der anzurechnenden ausländischen Steuern nach § 34c EStG, aber vor Abzug der
+anrechenbaren Körperschaftsteuer und der Vorauszahlungen. Die Quelle führt beide Angaben getrennt,
+in verschiedenen Abschnitten; zusammengeführt wird daraus eine typische Klausurfalle.
+
+**Zum Abschluss des Bestandes** merkt der Datensatz an, wie kurz dieses letzte Kapitel ausfällt –
+und dass das kein Mangel ist, sondern die Aussage selbst: Die Körperschaftsteuer kennt keinen
+progressiven Tarif, keine Freibeträge für Kapitalgesellschaften und keine Tarifermäßigungen. Die
+gesamte Schwierigkeit des Rechtsgebiets liegt in der Ermittlung der Bemessungsgrundlage, nicht in
+ihrer Besteuerung.
+
+**Bilanz der Übernahme von Teil I:** 46 Kapitel, 740 Blöcke, 32 Tabellen. Die Arbeit hat neben der
+wortlautgetreuen Übernahme eine Reihe von Stellen zutage gefördert, die im Datensatz und in diesem
+Dokument einzeln nachgewiesen sind – darunter der nicht aufgehende Buchungssatz in Abschnitt 3.4.2
+(Differenz 100.000 € = nicht erfasster Buchwertabgang), der falsche Wertansatz von 500.000 € statt
+600.000 € in Abschnitt 3.7.1.1.2, mehrere Normverweise auf das EStG statt das KStG und umgekehrt
+(§ 8 Abs. 3 Satz 3 EStG, § 32a Abs. 2 EStG, § 6 Abs. 4 Nr. 5 EStG) sowie die Spannung zwischen der
+quotalen Zurechnung der disquotalen Einlage in Abschnitt 3.5.2.1 und ihrer ausschließlichen
+Zurechnung an den Einlegenden in Abschnitt 3.2.4. Sämtliche Zahlen der Quelle sind unabhängig
+nachgerechnet; alle gehen auf, soweit nicht ausdrücklich das Gegenteil vermerkt ist.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.8 und 3.9 – Schenkungsteuer und § 1 AStG
 

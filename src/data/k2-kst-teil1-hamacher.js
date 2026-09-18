@@ -6,37 +6,28 @@
    Einlage und 4 Tarif. Gegliedert wird hier nach den Abschnitten der Quelle;
    jeder Abschnitt steht als eigener Eintrag.
 
-   STAND DER ÜBERNAHME: Das Kapitel 1 (Steuerpflicht) ist vollständig – die
-   Abschnitte 1.1 bis 1.6, von der unbeschränkten Steuerpflicht über die
-   Steuerbefreiungen des § 5 KStG bis zur Option nach § 1a KStG. Aus Kapitel 2
-   (Einkommensermittlung) ist vollständig übernommen – die Abschnitte 2.1 bis
-   2.2.5, vom zu versteuernden Einkommen bis zum Verlustabzug. Aus Kapitel 3
-   (verdeckte Einlage) sind die Abschnitte 3.1 bis 3.3 übernommen – Begriff und
-   Rechtsfolgen, die gesellschaftsrechtliche Veranlassung, der einlagefähige
-   Vermögensvorteil samt der Abgrenzung zum nicht einlagefähigen Nutzungsvorteil,
-   die Zurechnung bei unmittelbarer, disquotaler und mittelbarer Einlage
-   einschließlich der Beteiligungskette sowie die vollständige Bewertung
-   (Teilwert, Drei-Jahres-Regelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG für
-   Privat- und Betriebsvermögen, Einlage einer Beteiligung). Der Rest des
-   Kapitels 3 sind die Anwendungsfälle 3.4.1 bis 3.4.5 übernommen (verbilligte
-   oder unentgeltliche Übertragung, überteuerte Lieferung, Übernahme von
-   Verbindlichkeiten, Forderungsverzicht und Verzicht gegen Besserungsschein);
-   dazu der vollständige Exkurs 3.4.6 zum Gesellschafterdarlehen mit Rangrücktritt.
-   Der Abschnitt 3.5 (Auswirkungen) ist vollständig – bis zum Forderungsverzicht
-   beim Anteilseigner in allen drei Konstellationen und zu den Aufwendungen bei
-   Nutzungsvorteilen einschließlich der überquotalen Nutzungseinlage. Die
-   Der Abschnitt 3.6 (Korrespondenzprinzip) ist vollständig – materielle und
-   formelle Korrespondenz. Vom Abschnitt 3.7 (Ausgangsvermögen) sind der
-   Grundsatz, die unentgeltliche und die teilentgeltliche Übertragung (3.7.1)
-   sowie die vollständigen Abschnitte 3.7.2, 3.8 (Schenkungsteuer) und 3.9
-   (§ 1 AStG) übernommen. Damit ist das Kapitel 3 abgeschlossen; nur noch das
-   Kapitel 4 (Ermittlung der Körperschaftsteuer) folgt nach demselben Verfahren.
-   Der Campus weist den Stand aus.
+   STAND DER ÜBERNAHME: vollständig. Alle vier Kapitel der Quelle sind
+   wortlautgetreu übernommen:
+
+   - Kapitel 1 (Steuerpflicht), Abschnitte 1.1 bis 1.6: unbeschränkte und
+     beschränkte Steuerpflicht, Beginn und Ende, die Steuerbefreiungen des
+     § 5 KStG und die Option nach § 1a KStG.
+   - Kapitel 2 (Einkommensermittlung), Abschnitte 2.1 bis 2.2.5: vom zu
+     versteuernden Einkommen über das Schema des R 7.1 KStR und die nicht
+     abziehbaren Aufwendungen bis zum Verlustabzug.
+   - Kapitel 3 (verdeckte Einlage), Abschnitte 3.1 bis 3.9: Begriff und
+     Rechtsfolgen, Veranlassung und Einlagefähigkeit, Zurechnung und Bewertung,
+     die neun Anwendungsfälle samt Forderungsverzicht, Besserungsschein und dem
+     Exkurs zum Rangrücktritt, die Auswirkungen bei Gesellschaft und
+     Gesellschafter, das Korrespondenzprinzip, das Ausgangsvermögen, die
+     Schenkungsteuer und das Verhältnis zu § 1 AStG.
+   - Kapitel 4 (Ermittlung der Körperschaftsteuer), Abschnitte 4.1 und 4.2:
+     Tarif, Solidaritätszuschlag und das Berechnungsschema des R 7.2 KStR.
 
    HINWEIS ZUR QUELLE: Die Textextraktion des Drive-Readers bricht bei Seite 79
-   des 91-seitigen PDF ab. Der Rest ist unmittelbar aus der PDF-Datei extrahiert
-   (pypdf); die Seitenzählung des vollständigen Texts liegt im Arbeitsverzeichnis
-   der Sitzung vor.
+   des 91-seitigen PDF ab, ohne dies als Fehler zu melden. Die Abschnitte 3.7.1.2
+   bis 3.9 und das gesamte Kapitel 4 sind daher unmittelbar aus der PDF-Datei
+   extrahiert (pypdf).
 
    Kleinere Tippfehler der Quelle (fehlende Endungen, ein doppeltes Subjekt)
    sind wortlautgetreu übernommen und nicht einzeln gekennzeichnet, weil sie den
@@ -1873,6 +1864,51 @@ export const kstTeil1 = [
         ["Unverzinsliches Darlehen von 1.000.000 €, fremdüblicher Zins 10 %", "nein – nicht einlagefähiger Nutzungsvorteil", "allein anwendbar, 100.000 €", "Hinzurechnung 100.000 €"],
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet die drei Fälle der Quelle nach der Frage, wie viel nach der verdeckten Einlage noch offen bleibt. Die mittlere Zeile ist der lehrreichste Fall, weil dort beide Normen **nebeneinander** greifen: Die verdeckte Einlage erfasst den Teilwert, § 1 AStG die darüber hinausgehende Bandbreite. Rechenprobe zur letzten Zeile: 10 % von 1.000.000 € = 100.000 € fremdüblicher Zins, der in voller Höhe hinzuzurechnen ist. Das Beispiel ist die grenzüberschreitende Spiegelung des Falles aus Abschnitt 3.2.3 – dasselbe zinslose Darlehen, das im Inland folgenlos bleibt, löst über die Grenze eine Einkünftekorrektur aus." },
+    ],
+  },
+  {
+    id: "kst-t1-46",
+    kapitel: "46",
+    abschnittNr: "4.1 und 4.2",
+    title: "4. Ermittlung der Körperschaftsteuer – Tarif und Berechnungsschema",
+    thema: "Der Abschlusskapitel des Skripts: der einheitliche Steuersatz von 15 %, der ab dem VZ 2028 in fünf Jahresschritten sinkt, der Solidaritätszuschlag auf die festzusetzende Körperschaftsteuer und das Berechnungsschema des R 7.2 KStR vom zu versteuernden Einkommen bis zur Rückstellung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitte 4.1 und 4.2 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 23 Abs. 1 KStG", "§§ 1, 2 KStG",
+      "§ 2 Nr. 3 SolzG", "§ 3 Abs. 1 Nr. 1 SolzG",
+      "§ 34c EStG", "R 7.2 KStR",
+    ],
+    themen: ["Tarif", "Steuersatzsenkung", "Solidaritätszuschlag", "Berechnungsschema", "Anrechnung ausländischer Steuern", "Körperschaftsteuerrückstellung"],
+    bloecke: [
+      { typ: "titel", text: "4.1 Tarif" },
+      { text: "Bei Kapitalgesellschaften und sonstigen Körperschaften beträgt die tarifliche Körperschaftsteuer bis einschließlich VZ 2027 15 % (§ 23 Abs. 1 KStG). Dieser Steuersatz gilt sowohl für unbeschränkt als auch beschränkt Steuerpflichtige. Ab VZ 2028 – 2032 reduziert sich der Steuersatz jeweils um 1 %." },
+      { text: "Nach § 2 Nr. 3 SolzG wird bei Kapitalgesellschaften, die nach den §§ 1, 2 KStG steuerpflichtig sind, zudem ein Solidaritätszuschlag erhoben. Dessen Bemessungsgrundlage ist gemäß § 3 Abs. 1 Nr. 1 SolzG die festzusetzende Körperschaftsteuer, d. h. vor Anrechnung der Kapitalertragsteuer." },
+      { typ: "tabelle", spalten: ["Veranlagungszeitraum", "Tariflicher Steuersatz nach § 23 Abs. 1 KStG"], zeilen: [
+        ["bis einschließlich 2027", "15 %"],
+        ["2028", "14 %"],
+        ["2029", "13 %"],
+        ["2030", "12 %"],
+        ["2031", "11 %"],
+        ["ab 2032", "10 %"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die Quelle nennt nur die Regel – 15 % bis 2027, danach jährlich ein Prozentpunkt weniger in den Jahren 2028 bis 2032. Die Tabelle schreibt diese Staffel aus, weil in der Klausur der Satz des jeweiligen Veranlagungszeitraums gebraucht wird. Die einzelnen Jahressätze stehen so nicht in der Quelle; sie folgen zwingend aus deren Wortlaut." },
+      { text: "Anmerkung zur Bemessungsgrundlage des Solidaritätszuschlags (eigene Ergänzung): Der Hinweis „vor Anrechnung der Kapitalertragsteuer“ verweist auf eine Stelle des Schemas, die leicht überlesen wird. Maßgebend ist die **festzusetzende** Körperschaftsteuer – also der Betrag **nach** Abzug der anzurechnenden ausländischen Steuern nach § 34c EStG, aber **vor** Abzug der anrechenbaren Körperschaftsteuer und der Vorauszahlungen. Im Schema des folgenden Abschnitts ist das genau die dritte Zeile; wer stattdessen vom Steuerbetrag nach § 23 KStG oder von der verbleibenden Körperschaftsteuer ausgeht, rechnet den Zuschlag falsch." },
+      { typ: "titel", text: "4.2 Berechnung der Körperschaftsteuer" },
+      { text: "Die Körperschaftsteuerschuld bzw. das Körperschaftsteuerguthaben ermittelt sich wie folgt (R 7.2 KStR):" },
+      { typ: "tabelle", spalten: ["Berechnungsschritt", "Betrag"], zeilen: [
+        ["Zu versteuerndes Einkommen × 15 %", ""],
+        ["= Steuerbetrag nach § 23 KStG", ""],
+        ["./. anzurechnende ausländische Steuern nach § 34c EStG", ""],
+        ["= tarifliche und festzusetzende Körperschaftsteuer", "Bemessungsgrundlage des Solidaritätszuschlags"],
+        ["./. anrechenbare Körperschaftsteuer", ""],
+        ["= verbleibende Körperschaftsteuer", ""],
+        ["./. Körperschaftsteuer-Vorauszahlungen", ""],
+        ["= Körperschaftsteuerrückstellung / -forderung", ""],
+      ] },
+      { text: "Anmerkung zur Tabelle: Das Schema gibt R 7.2 KStR in der Fassung der Quelle wieder. Der Zusatz in der rechten Spalte – die Kennzeichnung der Bemessungsgrundlage des Solidaritätszuschlags – ist eine eigene Ergänzung, die den Hinweis aus Abschnitt 4.1 an der Stelle sichtbar macht, an der er gebraucht wird. Die Quelle selbst führt beide Angaben getrennt." },
+      { text: "Abschließende Einordnung (eigene Anmerkung): Mit diesem Schema schließt das Skript den Bogen zum Anfang. Der Abschnitt 2.2 hatte gezeigt, wie aus dem Jahresüberschuss über die zweistufige Einkommensermittlung das zu versteuernde Einkommen entsteht; hier wird daraus die Steuer. Auffällig ist, wie kurz dieses letzte Kapitel ausfällt – und das ist kein Mangel, sondern die Aussage selbst: Die Körperschaftsteuer kennt keinen progressiven Tarif, keine Freibeträge für Kapitalgesellschaften und keine Tarifermäßigungen. Die gesamte Schwierigkeit des Rechtsgebiets liegt in der Ermittlung der Bemessungsgrundlage, nicht in ihrer Besteuerung. Wer die Kapitel 2 und 3 beherrscht, hat das Kapitel 4 in zwei Zeilen erledigt." },
     ],
   },
 ];

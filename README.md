@@ -2344,250 +2344,48 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 45 Kapitel mit 729 Abschnitten und
-  30 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
-  **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
-  mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
-  Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
-  Gesellschaft nach § 1a KStG und dem Welteinkommensprinzip; die beschränkte Steuerpflicht in
-  ihren zwei Spielarten, darunter die des § 2 Nr. 2 KStG, die fast nur juristische Personen des
-  öffentlichen Rechts mit ihren Kapitalerträgen trifft (mit dem Beispiel der Stadt Hamburg und
-  der auf 3/5 reduzierten Kapitalertragsteuer nach § 44a Abs. 8 EStG); sowie Beginn und Ende
-  der Steuerpflicht mit der Unterscheidung von Vorgründungsgesellschaft, Vorgesellschaft und
-  eingetragener Kapitalgesellschaft, der abweichenden Behandlung bei der Gewerbesteuer und dem
-  Ende erst nach Sperrjahr und Erfüllung aller steuerlichen Pflichten. Dazu die
-  **Steuerbefreiungen des § 5 KStG** – Gemeinnützigkeit mit Mustersatzung, Feststellungsverfahren
-  nach § 60a AO und Freistellungsbescheid, die Vier-Sphären-Abgrenzung mit der Geprägetheorie
-  der Finanzverwaltung und der auf 50.000 € angehobenen Freigrenze des § 64 Abs. 3 AO, sowie der
-  Spendenabzug mit dem Beispiel der Zahlung an den Sportverein, die beim Leistenden zur
-  verdeckten Gewinnausschüttung wird – und die **Option nach § 1a KStG** mit Antragsfrist,
-  Normenkatalog und den Folgen für den Mitunternehmer, der zum Anteilseigner wird
-  (Steuerverstrickung nach § 17 EStG, Sperrfrist des § 22 UmwStG, Zufluss erst bei tatsächlicher
-  Entnahme seit dem VZ 2024).
-  Auch das **Kapitel 2 (Einkommensermittlung)** ist vollständig:
-  das zu versteuernde Einkommen als Bemessungsgrundlage mit dem abweichenden Wirtschaftsjahr,
-  die Brückenvorschrift des § 8 Abs. 1 Satz 1 KStG und die Umqualifizierung aller Einkünfte nach
-  § 8 Abs. 2 KStG, die zweistufige Einkommensermittlung (Bilanzberichtigung innerhalb, Zu- und
-  Abrechnungen außerhalb der Steuerbilanz), das Berechnungsschema des R 7.1 KStR mit der
-  Rückrechnung vom Bilanzgewinn auf den Jahresüberschuss samt durchgerechnetem Beispiel, die
-  außerbilanziell herauszunehmenden „steuerfreien“ Erträge, der Katalog der nicht abziehbaren
-  Ausgaben des § 4 Abs. 5 EStG mit der umsatzsteuerlichen Folge des § 15 Abs. 1a UStG, das
-  Abzugsverbot für Personensteuern nach § 10 Nr. 2 KStG mit der Besonderheit bei den Zinsen des
-  § 233a AO (Erstattungs- und Nachzahlungszinsen teilen einander in beiden Richtungen das
-  Schicksal, an zwei durchgerechneten Beispielen), die hälftige Hinzurechnung der
-  Aufsichtsratsvergütungen nach § 10 Nr. 4 KStG samt der umsatzsteuerlichen Wende des BFH zur
-  festen Vergütung, der Spendenabzug mit seinen beiden Höchstbeträgen, von denen der günstigere
-  gilt, und dem Spendenvortrag nach § 9 Abs. 1 Sätze 9 und 10 KStG sowie der **Verlustabzug**:
-  Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
-  Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
-  darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  **Das Kapitel 3 (verdeckte Einlage) ist vollständig**, also die Abschnitte 3.1 bis 3.9: die
-  Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
-  Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
-  zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
-  die Einkommenskorrektur – gegen Ertrag oder gegen Kapitalrücklage, das steuerliche Einlagekonto
-  wird in beiden Fällen berührt – sowie die beiden Fallgruppen Vermögensmehrung (in beide
-  Richtungen: verbilligte Übertragung an die Gesellschaft wie überteuerter Verkauf von ihr) und
-  verhinderte Vermögensminderung beim Forderungsverzicht. Dazu die **Veranlassung durch das
-  Gesellschaftsverhältnis**, die sich nach dem Fremdvergleich bemisst (ein fremder Dritter hätte
-  den Vorteil bei Anwendung der Sorgfalt eines ordentlichen Kaufmanns nicht eingeräumt), der
-  **einlagefähige Vermögensvorteil** – bilanzierungsfähige Wirtschaftsgüter einschließlich
-  immaterieller und konkretisierter Geschäftschancen, nicht dagegen der bloße **Nutzungsvorteil**,
-  weshalb die unentgeltliche oder verbilligte Nutzungsüberlassung und das zinslose
-  Gesellschafterdarlehen niemals verdeckte Einlage sind (mit dem Beispiel des 10-Mio-Darlehens und
-  dem Hinweis, dass die Abzinsungspflicht des § 6 Abs. 1 Nr. 3 EStG seit 2023 entfallen ist) – und
-  schließlich die **Zurechnung**: bei der disquotalen Einlage wird der Vorgang ertragsteuerlich
-  allein dem Einlegenden zugerechnet (BFH vom 19.08.1999), die reflexartige Wertsteigerung beim
-  Mitgesellschafter bleibt folgenlos, während § 7 Abs. 8 Satz 1 ErbStG sie schenkungsteuerlich
-  unabhängig vom Zuwendungswillen dennoch erfasst; der Datensatz stellt diesen Unterschied
-  ausdrücklich heraus. Dazu die **mittelbare verdeckte Einlage** durch eine nahestehende Person,
-  die ertragsteuerlich in zwei Schritte zerlegt und immer dem Anteilseigner zugerechnet wird, und
-  die verdeckte Einlage in der **Beteiligungskette**, in der Mutter-, Tochter- und
-  Enkelgesellschaft jede für sich abzurechnen sind (nur auf der obersten Stufe entsteht ein
-  steuerpflichtiger Ertrag in Höhe der stillen Reserven, die beiden nachfolgenden Stufen ziehen
-  ihren Ertrag in voller Höhe des Teilwerts wieder ab). Schließlich die **Bewertung** vollständig:
-  der Teilwert als Grundsatz einschließlich Nebenkosten und Gegenleistungen; die Drei-Jahres-
-  Regelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG, die seit dem 27.03.2024 nur noch für Einlagen
-  aus dem Privatvermögen gilt und auch dort nicht, wenn die Einlage beim Gesellschafter schon den
-  Ersatzrealisationstatbestand des § 23 Abs. 1 Satz 5 Nr. 2 EStG auslöst (Gemälde ja, vermietetes
-  Grundstück nein, selbstgenutztes Grundstück wieder ja); und die **Einlage einer Beteiligung**,
-  bei der weder § 6 Abs. 1 Nr. 5 Buchstabe b noch Buchstabe c EStG anwendbar ist, weil § 17 Abs. 1
-  Satz 2 EStG und § 20 Abs. 2 Satz 2 EStG die Einlage bereits als Veräußerung zum gemeinen Wert
-  erfassen – beim Gesellschafter mit Teileinkünfteverfahren beziehungsweise Abgeltungsteuer.
-  Von den **Anwendungsfällen des Abschnitts 3.4** sind die ersten drei eingepflegt: die
-  verbilligte oder unentgeltliche Übertragung von Wirtschaftsgütern, bei der der Teilwert
-  zugleich die künftige Abschreibungsbemessungsgrundlage bildet und daneben die unentgeltliche
-  Wertabgabe nach § 3 Abs. 1b Nr. 1 UStG (Bemessungsgrundlage: der Einkaufspreis nach
-  § 10 Abs. 4 Nr. 1 UStG, nicht der Teilwert) sowie beim Grundstück die Grunderwerbsteuer nach
-  § 1 GrEStG zu beachten sind; die überteuerte Lieferung an den Gesellschafter, bei der die
-  verdeckte Einlage vom Nettomehrbetrag ausgeht, während die Umsatzsteuer nach § 10 Abs. 1 UStG
-  auf dem vollen vereinbarten Entgelt bleibt und der Vorsteuerabzug ungekürzt bestehen bleibt;
-  und die Übernahme einer Verbindlichkeit durch den Gesellschafter, die nur dann verhinderte
-  Vermögensminderung ist, wenn er zugleich auf den Rückforderungsanspruch verzichtet – der Fall
-  des abgekürzten Zahlungswegs.
-  Dazu die beiden Anwendungsfälle, die jede Körperschaftsteuerklausur kennt. Der
-  **Forderungsverzicht**: Die verdeckte Einlage erfasst nur den werthaltigen Teil, der Rest ist
-  steuerpflichtiger Wegfallgewinn; beim Teilverzicht zehrt der Verzicht nach dem BFH-Urteil vom
-  06.08.2019 zuerst den wertlosen Teil auf, weshalb ein Verzicht auf 500.000 € bei 900.000 €
-  wertlosem Anteil überhaupt keine verdeckte Einlage auslöst; und ein noch nicht konkretisierter
-  Anspruch ist mangels Wirtschaftsguts gar nicht einlagefähig – der Zinsverzicht vom 01.07. teilt
-  denselben Sachverhalt in eine einlagefähige Vergangenheit (sechs gebuchte Monatszinsen) und
-  einen nicht einlagefähigen Nutzungsvorteil für die Zukunft. Und der **Verzicht gegen
-  Besserungsschein**: Der Besserungsschein ist eine Bedingung i. S. des § 6 BewG und bleibt im
-  Verzichtszeitpunkt außer Betracht, bei Eintritt des Besserungsfalles wird die verdeckte Einlage
-  vollständig „zurückgedreht“ (außerbilanzielle Hinzurechnung analog § 8 Abs. 3 Satz 3 KStG,
-  Abzug beim Einlagekonto, das dabei negativ werden darf, weil § 27 Abs. 1 Satz 4 KStG nur für
-  Leistungen gilt), die Zinsen für die Zwischenzeit sind nur bei vertraglicher Vereinbarung
-  abziehbar und sonst verdeckte Gewinnausschüttung, und beim Gesellschafter läuft alles
-  spiegelbildlich. Ein durchgerechneter Fall über vier Veranlagungszeiträume (2022 Verzicht, 2025
-  Besserungsfall, 2026 Rückzahlung) stellt beide Ebenen nebeneinander.
-  Dazu der vollständige **Exkurs 3.4.6 zum Gesellschafterdarlehen mit Rangrücktritt**: zunächst
-  die zivilrechtlichen Grundlagen – warum der Rangrücktritt überhaupt erklärt wird, obwohl
-  § 39 Abs. 1 Nr. 5 InsO Gesellschafterdarlehen ohnehin nachrangig stellt, warum die
-  Verbindlichkeit in der Handelsbilanz trotzdem Fremdkapital bleibt, und warum die Unterscheidung
-  zwischen einfachem und qualifiziertem Rangrücktritt seit dem 01.01.2008 insolvenzrechtlich
-  kaum noch trägt, weil § 19 Abs. 2 InsO den Rücktritt in den „Rang Nr. 6“ genügen lässt. Dann die
-  steuerlichen Rechtsfolgen, die an einer einzigen Frage hängen: Greift das Passivierungsverbot
-  des § 5 Abs. 2a EStG? Darüber entscheidet **nicht die Bezeichnung des Rangrücktritts, sondern
-  allein die Tilgungsabrede** – fehlt der Bezug auf das freie Vermögen, ist die Verbindlichkeit
-  erfolgswirksam auszubuchen, in Höhe des werthaltigen Teils liegt nach dem BFH-Urteil vom
-  15.04.2015 eine verdeckte Einlage vor, und Zinsen wie Tilgungen vor Eintritt des
-  Besserungsfalles werden nach dem BFH-Urteil vom 11.12.2018 zur verdeckten Gewinnausschüttung,
-  weil die Gesellschaft steuerlich Zinsen auf ihr eigenes Eigenkapital zahlt. Eine Tabelle ordnet
-  die fünf Konstellationen; drei Beispiele der Quelle führen sie vor.
-  Vom Abschnitt **3.5 (Auswirkungen der verdeckten Einlage)** sind die Folgen bei der Gesellschaft
-  eingepflegt – die Einkommenskorrektur nach § 8 Abs. 3 Satz 3 KStG, die durch die materielle
-  Korrespondenz des Satzes 4 eingeschränkt sein kann, und der Zugang beim steuerlichen
-  Einlagekonto, der von der Einkommenskorrektur sachlich unabhängig ist und erst beim
-  tatsächlichen Zufluss erfolgt, also zeitlich auseinanderfallen kann. Beim Gesellschafter die
-  nachträglichen Anschaffungskosten mit ihren drei Rechtsgrundlagen (§ 6 Abs. 6 Satz 2 EStG im
-  Betriebsvermögen, § 17 Abs. 2a Satz 3 Nr. 1 EStG bei der Beteiligung i. S. des § 17 EStG,
-  allgemeine Grundsätze beim Streubesitz) und die **Zuflussfiktion**, der Kerngedanke des
-  Abschnitts: Der Sachverhalt wird so behandelt, als hätte der Gesellschafter zuerst sein
-  angemessenes Entgelt erhalten und es dann umgehend wieder eingelegt – der Zufluss und seine
-  Versteuerung lassen sich durch eine verdeckte Einlage nicht unterdrücken. Vorgeführt an drei
-  Fallgruppen: Verzicht auf Mieten, Pachten oder Zinsen (§§ 15, 20, 21 EStG), Verzicht auf Gehalt
-  (§ 19 EStG) und Übertragung von Wirtschaftsgütern des Privatvermögens, wo § 23 Abs. 1 Satz 5
-  Nr. 2 EStG nur Grundstücke erfasst, nicht die sonstigen Wirtschaftsgüter des § 23 Abs. 1 Nr. 2
-  EStG. Bei der **mittelbaren verdeckten Einlage** bleibt die Besteuerung des Anspruchs bei dem,
-  der ihn hatte – die Einlage kann den Zufluss nicht verschieben –, während beim Wirtschaftsgut
-  des Privatvermögens die Zuwendung an den Gesellschafter folgenlos bleibt, er nach
-  § 23 Abs. 1 Satz 3 EStG in alle Besteuerungsmerkmale eintritt und erst seine eigene Einlage den
-  Ersatzrealisationstatbestand auslöst.
-  Dazu der **Forderungsverzicht beim Anteilseigner**, dessen steuerliches Schicksal von der
-  Rechtsform des Verzichtenden und der Vermögenszugehörigkeit der Forderung abhängt. Im
-  **Privatvermögen** greift § 20 Abs. 2 Nr. 7 EStG, seit der ersatzlosen und rückwirkenden
-  Aufhebung des § 20 Abs. 6 Satz 6 EStG a. F. ohne besondere Abzugsbeschränkung – nur die
-  Verrechnungsbeschränkung des § 20 Abs. 6 Satz 1 EStG bleibt, und § 32d Abs. 2 Nr. 1b EStG greift
-  nicht, weil dem Verzicht auf Ebene der Gesellschaft keine Betriebsausgaben gegenüberstehen.
-  Geklärt ist auch die Frage der sogenannten Sogwirkung: § 17 Abs. 2a EStG und § 20 Abs. 2 EStG
-  stehen nach Tz. 61 des BMF-Schreibens vom 14.05.2025 nebeneinander, § 17 EStG greift nur, soweit
-  nachträgliche Anschaffungskosten entstehen – was bei Finanzplandarlehen, krisenbestimmten und in
-  der Krise hingegebenen Darlehen der Fall ist und den Verlust sowohl in der Einkunftsart als auch
-  im Zeitpunkt verschiebt, nämlich auf die Veräußerung der Anteile im Teileinkünfteverfahren. Im
-  **Betriebsvermögen** entscheidet § 3c Abs. 2 Sätze 2 bis 6 EStG, das Gegenstück zu
-  § 8b Abs. 3 Satz 4 KStG: Wer zu mehr als 25 % beteiligt **ist oder war** – die Prüfung erstreckt
-  sich über die gesamte Darlehenslaufzeit –, unterliegt dem Teilabzugsverbot, sofern er nicht den
-  Gegenbeweis der Fremdüblichkeit nach Satz 3 führt. Gibt eine Personengesellschaft das Darlehen,
-  zählt die Quote jedes einzelnen Mitunternehmers, weshalb dieselbe Gewinnminderung bei einem
-  Gesellschafter gekürzt und beim anderen voll abziehbar sein kann – der Fall der B-KG führt das
-  mit 28.800 € Hinzurechnung bei A und 18.000 € vollem Abzug bei B vor.
-  Ist der Verzichtende selbst eine **Kapitalgesellschaft**, tritt an die Stelle des
-  § 3c Abs. 2 EStG das vollständige Abzugsverbot des § 8b Abs. 3 Sätze 4 bis 9 KStG. Die Quelle
-  führt dasselbe Beispiel – Forderung 100.000 €, werthaltig 10.000 € – durch alle drei
-  Konstellationen; die Behandlung des werthaltigen Teils ist überall dieselbe, unterschiedlich ist
-  nur das Schicksal der 90.000 €.
-  Damit ist auch der Abschnitt **3.5.2.4 (Aufwendungen bei Nutzungsvorteilen)** eingepflegt: Der
-  Nutzungsvorteil ist zwar keine verdeckte Einlage, bleibt beim Gesellschafter aber nicht
-  folgenlos – seine Aufwendungen wechseln den Veranlassungszusammenhang, weil sie nun der
-  Erzielung von Beteiligungserträgen dienen. Bei einer Anteilseigner-Kapitalgesellschaft bleiben
-  sie voll abziehbar (§ 8b Abs. 5 KStG entscheidet allein), bei einer natürlichen Person greift
-  § 3c Abs. 2 Satz 6 EStG, sofern sie zu mehr als 25 % beteiligt ist oder war; andernfalls sind
-  nur die nicht substanzbezogenen Aufwendungen betroffen, die Gebäudeabschreibung also nicht. Bei
-  der **überquotalen Nutzungseinlage** kommt die zweistufige Kürzung hinzu, die den häufigsten
-  Fehler dieses Stoffs verursacht: erst der auf die Mitgesellschafter entfallende Quotenüberhang
-  nach Entnahmegrundsätzen – dieser Teil ist endgültig verloren, weil er beim Mitgesellschafter
-  als Drittaufwand ebenfalls nicht abziehbar ist –, dann erst das Teilabzugsverbot auf den
-  verbleibenden Betrag. Der Fall der Ehefrau, die selbst nicht beteiligt ist, zeigt den Grenzfall:
-  Quotenüberhang 100 %, Abzug nirgends.
-  Vom **Korrespondenzprinzip (Abschnitt 3.6)** ist die materielle Korrespondenz vollständig
-  eingepflegt. Ihr Grundsatz: Die verdeckte Einlage darf bei der Gesellschaft nur abgezogen
-  werden, wenn der Vorgang beim Anteilseigner tatsächlich erfasst wurde; andernfalls wird der
-  Einkommensschaden nach § 8 Abs. 3 Satz 4 KStG bei der Gesellschaft nachversteuert – gleichgültig
-  aus welchem Grund er unterblieben ist, und nach Auffassung der Finanzverwaltung sowohl bei
-  aktiver Minderung (überhöhter Abzug) als auch bei passiver (Nichterfassung). Nicht erfasst sind
-  Vorgänge ohne Einkommensauswirkung beim Anteilseigner, etwa die bloße Geldeinlage oder der
-  Verzicht auf eine private Darlehensforderung. Der Zugang beim steuerlichen Einlagekonto erfolgt
-  stets unabhängig davon, weil § 27 KStG kein Korrespondenzprinzip kennt. Die
-  **Soweit-Verknüpfung** begrenzt die Hinzurechnung auf den Betrag, um den das *steuerpflichtige*
-  Einkommen des Anteilseigners höher gewesen wäre: beim Grundstück der Veräußerungsgewinn nach
-  Abzug der Anschaffungskosten, bei einer eingelegten Beteiligung nur 60 % davon, beim überhöhten
-  Zins nur 60 % des zu Unrecht abgezogenen Betrags – und bei einer Anteilseigner-Kapitalgesellschaft
-  null, weil § 8b Abs. 2 KStG den Gewinn ohnehin freistellt und damit kein Schaden entstehen kann.
-  Vier durchgerechnete Fälle führen die Abstufung vor. Vermerkt ist auch der **BFH vom 19.11.2025
-  (I R 40/23)**, der die Anwendung des § 8 Abs. 3 Satz 4 KStG bei bloßer Nichterfassung entgegen
-  der Verwaltungsauffassung verneint – die Quelle referiert ihn, hält aber an der
-  Verwaltungsauffassung fest.
-  Die **formelle Korrespondenz** (§ 32a Abs. 2 KStG) ergänzt das verfahrensrechtlich: Wird der
-  Bescheid des Anteilseigners nachträglich korrigiert, entfällt der Grund für die Nachversteuerung,
-  und der Körperschaftsteuerbescheid darf geändert werden – unabhängig von Bestandskraft und
-  Verjährung, mit eigener Ablaufhemmung von einem Jahr nach Bestandskraft des
-  Gesellschafterbescheids, als praktisch gebundene Ermessensentscheidung, aber ausdrücklich
-  **ohne** Grundlagenbescheidwirkung, so dass das Finanzamt der Gesellschaft eigenständig zu einem
-  anderen Ergebnis kommen darf.
-  Vom **Ausgangsvermögen der verdeckten Einlage (Abschnitt 3.7)** ist der Grundsatz eingepflegt,
-  der den ganzen Abschnitt trägt: Maßgebend ist die Vermögenszugehörigkeit der **Beteiligung**,
-  nicht die des eingelegten Wirtschaftsguts. Liegen beide im Privatvermögen, ergeben sich keine
-  Besonderheiten. Liegt das Wirtschaftsgut dagegen im Betriebsvermögen und die Beteiligung im
-  Privatvermögen, geht der Einlage zwingend eine **Zwangsentnahme** nach § 6 Abs. 1 Nr. 4 EStG
-  voraus – mit der Folge, dass die stillen Reserven vollständig im Entnahmegewinn aufgedeckt
-  werden und die Ersatzrealisationstatbestände des § 23 Abs. 1 Satz 5 Nr. 2 EStG beziehungsweise
-  § 17 Abs. 1 Satz 2 EStG danach ins Leere laufen, in der Klausur aber gleichwohl mit dem Ergebnis
-  0 € zu prüfen sind. Dasselbe gilt bei einer nahestehenden Person, bei der zusätzlich die
-  Rechtsnachfolge des § 23 Abs. 1 Satz 3 EStG greift.
-  Bei **teilentgeltlicher Übertragung** greift die Trennungstheorie: Der Vorgang wird nach dem
-  Verhältnis von Kaufpreis zu Verkehrswert in ein voll entgeltliches und ein voll unentgeltliches
-  Geschäft gespalten, der entgeltliche Teil nach Veräußerungsgrundsätzen, der unentgeltliche nach
-  den Grundsätzen der verdeckten Einlage behandelt. Im Beispiel führt eine Entgeltlichkeitsquote
-  von 17 % zu 83.000 € und 417.000 € Gewinn – zusammen genau die 500.000 € stiller Reserven, was
-  die schnellste Kontrollrechnung der Klausur ist. Grundfall und Abwandlung haben dieselben
-  Zahlen, aber verschiedene Rechtsgrundlagen und damit verschiedene Einkunftsarten.
-  Liegen Beteiligung **und** Wirtschaftsgut im **Betriebsvermögen**, bleibt alles dort: Es gibt
-  weder Entnahme noch Einlage in das Privatvermögen, sondern nach § 6 Abs. 6 Satz 2 i. V. mit
-  § 6 Abs. 1 Nr. 5 EStG einen Aktivtausch mit Ertrag, der die stillen Reserven voll aufdeckt und
-  die Beteiligungsanschaffungskosten reflexartig erhöht. Zwei Punkte sind dabei prüfungsrelevant:
-  § 6b EStG ist mangels Entgelts ausgeschlossen, und die Drei-Jahres-Regelung des
-  § 6 Abs. 1 Nr. 5 Buchstabe a EStG greift seit dem 27.03.2024 hier nicht mehr, weshalb auch der
-  Verweis des § 6 Abs. 6 Satz 3 EStG leerläuft.
-  Liegt umgekehrt die **Beteiligung im Betriebsvermögen und das Wirtschaftsgut im
-  Privatvermögen**, geht der verdeckten Einlage eine **Zwangseinlage** voraus – und deren
-  Bewertung entscheidet über alles Weitere. Zwei Grundstücksbeispiele mit identischen Zahlen gehen
-  deshalb völlig verschieden aus: Bei Anschaffung außerhalb der drei Jahre wird mit dem Teilwert
-  eingelegt, die stillen Reserven bleiben im Privatvermögen und werden dort mit 400.000 € nach
-  § 23 Abs. 1 Satz 5 Nr. 1 EStG besteuert; bei Anschaffung innerhalb der drei Jahre wird mit den
-  fortgeführten Anschaffungskosten eingelegt, die 400.000 € entstehen als betrieblicher Gewinn und
-  unterliegen zusätzlich der **Gewerbesteuer**, während der Gewinn nach § 23 EStG null beträgt.
-  Bei einer **Kapitalgesellschaft als Anteilseigner** stellt sich die Frage von vornherein nicht,
-  weil sie mangels Privatsphäre über kein Privatvermögen verfügt – jede Einlage erfolgt aus dem
-  Betriebsvermögen, mit dem Teilwert und ohne die Sonderregelung des Buchstaben a. Eine Übersicht
-  ordnet alle fünf Konstellationen des Abschnitts 3.7 nach der Leitfrage, wo die Beteiligung liegt.
-  Die **Schenkungsteuer (Abschnitt 3.8)** funktioniert systematisch ganz anders als das
-  Ertragsteuerrecht, und der Bestand stellt beides in einer Übersicht nebeneinander. Beim
-  Alleingesellschafter löst die verdeckte Einlage keine Schenkungsteuer aus, weil der Vorgang auf
-  dem Gesellschaftsverhältnis beruht. Bei mehreren Gesellschaftern fingiert § 7 Abs. 8 Satz 1
-  ErbStG dagegen eine Zuwendung – **ohne** Zuwendungswillen, auf den es ertragsteuerlich gerade
-  ankommt –, bemessen nach der reflexartigen Werterhöhung der fremden Anteile statt nach dem
-  Teilwert der Einlage. Leisten die Mitgesellschafter quotengerecht mit, entfällt der Tatbestand;
-  bei teilweisem Ausgleich bleibt nur die Differenz. Am schärfsten ist der Fall des zinslosen
-  Gesellschafterdarlehens: ertragsteuerlich passiert nichts, weil der Nutzungsvorteil nicht
-  einlagefähig ist – schenkungsteuerlich entsteht in **jedem Jahr der Laufzeit** ein
-  steuerpflichtiger Vorgang.
-  Der Abschnitt **3.9** klärt schließlich das **Verhältnis zu § 1 AStG**: Beide Korrekturnormen
-  stehen rechtlich nebeneinander, ohne dass eine der anderen vorginge; praktisch bleibt für das
-  AStG aber nur dort etwas zu tun, wo die verdeckte Einlage die Einkünfte nicht schon zutreffend
-  erfasst – beim grenzüberschreitenden Nutzungsvorteil, wo sie überhaupt nicht greift, und bei
-  einer höheren Bewertung nach der Bandbreite des § 1 Abs. 3 AStG, wo sie zu niedrig ansetzt.
-  Nur noch das Kapitel 4 (Ermittlung der Körperschaftsteuer) folgt; der Campus weist den Stand aus.
+  (Stand 04/2026) **vollständig im Wortlaut** – alle vier Kapitel der 91-seitigen Quelle in
+  46 Kapiteln mit 740 Abschnitten und 32 Tabellen.
+  **Kapitel 1 (Steuerpflicht)**, Abschnitte 1.1 bis 1.6: die unbeschränkte Steuerpflicht mit der
+  Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
+  Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit und dem
+  Welteinkommensprinzip; die beschränkte Steuerpflicht in ihren zwei Spielarten, darunter die des
+  § 2 Nr. 2 KStG für juristische Personen des öffentlichen Rechts; Beginn und Ende der
+  Steuerpflicht mit der Unterscheidung von Vorgründungsgesellschaft, Vorgesellschaft und
+  eingetragener Kapitalgesellschaft; die **Steuerbefreiungen des § 5 KStG** mit Gemeinnützigkeit,
+  Mustersatzung, Vier-Sphären-Abgrenzung, Geprägetheorie und der auf 50.000 € angehobenen
+  Freigrenze des § 64 Abs. 3 AO; sowie die **Option nach § 1a KStG** mit Antragsfrist,
+  Normenkatalog und den Folgen für den Mitunternehmer, der zum Anteilseigner wird.
+  **Kapitel 2 (Einkommensermittlung)**, Abschnitte 2.1 bis 2.2.5: die Bemessungsgrundlage mit dem
+  abweichenden Wirtschaftsjahr, die Brückenvorschrift des § 8 Abs. 1 Satz 1 KStG und die
+  Umqualifizierung nach § 8 Abs. 2 KStG, die zweistufige Einkommensermittlung, das Schema des
+  R 7.1 KStR mit der Rückrechnung vom Bilanzgewinn, die außerbilanziell herauszunehmenden
+  „steuerfreien“ Erträge, die nicht abziehbaren Ausgaben des § 4 Abs. 5 EStG samt § 15 Abs. 1a
+  UStG, das Abzugsverbot für Personensteuern mit der Besonderheit bei den Zinsen des § 233a AO,
+  die hälftige Hinzurechnung der Aufsichtsratsvergütungen, der Spendenabzug mit beiden
+  Höchstbeträgen und der **Verlustabzug** mit Rücktrag in zwei Jahre und Mindestbesteuerung.
+  **Kapitel 3 (verdeckte Einlage)**, Abschnitte 3.1 bis 3.9 – der Schwerpunkt des Skripts: die
+  Begriffsdefinition aus R 8.9 Abs. 1 KStR und die Abgrenzung zur offenen Einlage, die Rolle der
+  Buchung für die Einkommenskorrektur, die Fallgruppen Vermögensmehrung und verhinderte
+  Vermögensminderung; die gesellschaftsrechtliche Veranlassung nach dem Fremdvergleich, der
+  einlagefähige Vermögensvorteil und der **niemals** einlagefähige Nutzungsvorteil, weshalb das
+  zinslose Gesellschafterdarlehen keine verdeckte Einlage ist; die Zurechnung bei unmittelbarer,
+  disquotaler und mittelbarer Einlage einschließlich der Beteiligungskette; die vollständige
+  **Bewertung** mit Teilwert, der Drei-Jahres-Regelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG und
+  der Einlage einer Beteiligung; die **neun Anwendungsfälle** von der verbilligten Übertragung
+  über die überteuerte Lieferung und die Schuldübernahme bis zum **Forderungsverzicht**, bei dem
+  ein Teilverzicht nach dem BFH zuerst den wertlosen Teil aufzehrt, und zum **Besserungsschein**,
+  der bei Eintritt vollständig „zurückgedreht“ wird; der Exkurs zum **Rangrücktritt**, dessen
+  steuerliche Folgen allein an der Tilgungsabrede hängen; die **Auswirkungen** bei Gesellschaft und
+  Gesellschafter mit Einlagekonto, Zuflussfiktion und den Teilabzugsverboten des § 3c Abs. 2 EStG
+  und § 8b Abs. 3 Satz 4 KStG; das **Korrespondenzprinzip** in materieller Gestalt mit der
+  Soweit-Verknüpfung und in formeller Gestalt nach § 32a Abs. 2 KStG; das **Ausgangsvermögen** in
+  allen fünf Konstellationen mit Zwangsentnahme und Zwangseinlage; die **Schenkungsteuer** nach
+  § 7 Abs. 8 Satz 1 ErbStG, die ohne Zuwendungswillen auskommt und sogar Nutzungseinlagen erfasst;
+  und das Verhältnis zu **§ 1 AStG**.
+  **Kapitel 4 (Ermittlung der Körperschaftsteuer)**: der Tarif von 15 % mit der Absenkung um je
+  einen Prozentpunkt in den Jahren 2028 bis 2032, der Solidaritätszuschlag auf die festzusetzende
+  Körperschaftsteuer und das Berechnungsschema des R 7.2 KStR.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
