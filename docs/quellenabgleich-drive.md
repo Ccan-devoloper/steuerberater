@@ -10617,8 +10617,41 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** der Rest des Kapitels 3 (ab 3.4: die neun Anwendungsfälle)
-und das Kapitel 4 sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** die Anwendungsfälle ab 3.4.4 (Forderungsverzicht,
+Besserungsschein) und das Kapitel 4 sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.4.1 bis 3.4.3 – die ersten drei Anwendungsfälle
+
+Quelle: dieselbe Datei; übernommen als Kapitel 20 bis 22. Prüfung:
+`npm run check:k2-kst-teil1` (22 Kapitel, 363 Blöcke, 13 Tabellen).
+
+**Der erste Anwendungsfall** (verbilligte oder unentgeltliche Übertragung) lebt davon, dass im
+Sachverhalt drei Werte stehen, die nicht verwechselt werden dürfen: Buchwert 10.000 €, Teilwert
+100.000 €, Einkaufspreis 70.000 €. Die Umsatzsteuer von 13.300 € bemisst sich nach
+§ 10 Abs. 4 Nr. 1 UStG am **Einkaufspreis** (19 % von 70.000 €), nicht am Teilwert – die Probe
+ist als eigene Ergänzung gekennzeichnet, ebenso die Tabelle, die die drei Werte ihren Funktionen
+zuordnet. Der resultierende Umsatzsteueraufwand ist nach § 12 Nr. 3 EStG bzw. § 10 Nr. 2 KStG
+nicht abziehbar; die Mindestbemessungsgrundlage des § 10 Abs. 5 UStG greift in dieser Richtung
+gerade nicht.
+
+**Eine Unstimmigkeit der Quelle, ausdrücklich als solche gekennzeichnet** (Abschnitt 3.4.2,
+überteuerte Lieferung): Der Buchungssatz der Quelle lautet „Bank 1.785.000 € an Maschine
+100.000 €, Ertrag 1.500.000 €, USt 285.000 €“. Die Habenseite summiert sich damit auf
+1.885.000 € – eine Differenz von genau 100.000 €, dem Buchwert der Maschine. Richtig wäre ein
+Ertrag von 1.400.000 € (Nettoentgelt 1.500.000 € abzüglich Buchwertabgang). Aus demselben Grund
+beträgt der angemessene Veräußerungs**gewinn** 900.000 € und nicht die von der Quelle genannten
+1.000.000 €; diese Zahl ist der angemessene Veräußerungs**preis**, also der Teilwert. Innerhalb
+der eigenen Buchung der Quelle ist ihre Zahl folgerichtig (1.500.000 € ./. 500.000 €). Der
+Wortlaut ist unverändert übernommen und die Abweichung im Datensatz mit „(so in der Quelle)“
+kenntlich gemacht. **Die Bewertung der verdeckten Einlage mit 500.000 € ist davon nicht
+berührt** – sie ergibt sich sauber als Nettoentgelt 1.500.000 € abzüglich Teilwert 1.000.000 €,
+und die Umsatzsteuer von 285.000 € ist korrekt 19 % des Nettoentgelts.
+
+**Der dritte Anwendungsfall** (Schuldübernahme) enthält eine Voraussetzung, die die Quelle zwar
+setzt, aber nicht ausspricht: Der Gesellschafter muss **zugleich auf den Rückforderungsanspruch
+verzichten**. Zahlt er nur, tritt an die Stelle der alten Verbindlichkeit eine neue gegenüber
+ihm selbst, und eine verhinderte Vermögensminderung liegt gerade nicht vor. Der Datensatz
+ergänzt diesen Abgrenzungshinweis und weist ihn als eigene Anmerkung aus.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.2.4.2 und 3.3 – mittelbare Einlage und Bewertung
 

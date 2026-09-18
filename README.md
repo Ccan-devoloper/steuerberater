@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit neunzehn Kapitel mit 338 Abschnitten und
-  12 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 22 Kapitel mit 363 Abschnitten und
+  13 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.3 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.4.3 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2414,8 +2414,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   bei der weder § 6 Abs. 1 Nr. 5 Buchstabe b noch Buchstabe c EStG anwendbar ist, weil § 17 Abs. 1
   Satz 2 EStG und § 20 Abs. 2 Satz 2 EStG die Einlage bereits als Veräußerung zum gemeinen Wert
   erfassen – beim Gesellschafter mit Teileinkünfteverfahren beziehungsweise Abgeltungsteuer.
-  Der Rest des Kapitels 3 ab Abschnitt 3.4 (Anwendungsfälle) und das Kapitel 4 (Tarif) folgen; der
-  Campus weist den Stand aus.
+  Von den **Anwendungsfällen des Abschnitts 3.4** sind die ersten drei eingepflegt: die
+  verbilligte oder unentgeltliche Übertragung von Wirtschaftsgütern, bei der der Teilwert
+  zugleich die künftige Abschreibungsbemessungsgrundlage bildet und daneben die unentgeltliche
+  Wertabgabe nach § 3 Abs. 1b Nr. 1 UStG (Bemessungsgrundlage: der Einkaufspreis nach
+  § 10 Abs. 4 Nr. 1 UStG, nicht der Teilwert) sowie beim Grundstück die Grunderwerbsteuer nach
+  § 1 GrEStG zu beachten sind; die überteuerte Lieferung an den Gesellschafter, bei der die
+  verdeckte Einlage vom Nettomehrbetrag ausgeht, während die Umsatzsteuer nach § 10 Abs. 1 UStG
+  auf dem vollen vereinbarten Entgelt bleibt und der Vorsteuerabzug ungekürzt bestehen bleibt;
+  und die Übernahme einer Verbindlichkeit durch den Gesellschafter, die nur dann verhinderte
+  Vermögensminderung ist, wenn er zugleich auf den Rückforderungsanspruch verzichtet – der Fall
+  des abgekürzten Zahlungswegs.
+  Die übrigen Anwendungsfälle ab 3.4.4 (Forderungsverzicht, Besserungsschein) und das Kapitel 4
+  (Tarif) folgen; der Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

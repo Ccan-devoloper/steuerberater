@@ -18,8 +18,11 @@
    einschließlich der Beteiligungskette sowie die vollständige Bewertung
    (Teilwert, Drei-Jahres-Regelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG für
    Privat- und Betriebsvermögen, Einlage einer Beteiligung). Der Rest des
-   Kapitels 3 (ab Abschnitt 3.4 Anwendungsfälle) und das Kapitel 4 (Tarif) folgen
-   nach demselben Verfahren; der Campus weist den Stand aus.
+   Kapitels 3 ist mit den Anwendungsfällen 3.4.1 bis 3.4.3 begonnen (verbilligte
+   oder unentgeltliche Übertragung, überteuerte Lieferung, Übernahme von
+   Verbindlichkeiten); die übrigen Anwendungsfälle ab 3.4.4 (Forderungsverzicht,
+   Besserungsschein) und das Kapitel 4 (Tarif) folgen nach demselben Verfahren;
+   der Campus weist den Stand aus.
 
    Kleinere Tippfehler der Quelle (fehlende Endungen, ein doppeltes Subjekt)
    sind wortlautgetreu übernommen und nicht einzeln gekennzeichnet, weil sie den
@@ -833,6 +836,92 @@ export const kstTeil1 = [
       { text: "Lösung: Die verdeckte Einlage ist bei der A-GmbH mit dem Teilwert von 500.000 € zu bewerten (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG). Die Sonderregelung des § 6 Abs. 1 Nr. 5c EStG kommt dabei nicht zur Anwendung, weil die verdeckte Einlage der Beteiligung bei A bereits nach § 20 Abs. 2 Satz 2 EStG zu einer Veräußerung führt. Dabei werden die stillen Reserven von 400.000 € vollständig aufgedeckt, was zu einem steuerpflichtigen Veräußerungsgewinn führt, der der Abgeltungsteuer i. S. des § 32d Abs. 1 EStG unterliegt." },
       { text: "Der bei der A-GmbH entstehende steuerbilanzielle Ertrag von 500.000 € (Buchung: Beteiligung B-GmbH an Ertrag) ist nach § 8 Abs. 3 Satz 3 KStG außerbilanziell wieder zu beseitigen. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos entsprechend." },
       { text: "Merke (zusammenfassend zu 3.3.2.2): Der Ansatz bei der übernehmenden Kapitalgesellschaft ist in beiden Fällen derselbe – der Teilwert. Der Unterschied liegt allein beim einlegenden Gesellschafter: Bei der Beteiligung i. S. des § 17 EStG greift das Teileinkünfteverfahren, beim Streubesitzanteil die Abgeltungsteuer. Diese Gegenüberstellung fasst zusammen, was die Quelle in ihren beiden Unterabschnitten nacheinander sagt." },
+    ],
+  },
+  {
+    id: "kst-t1-20",
+    kapitel: "20",
+    abschnittNr: "3.4.1",
+    title: "3.4 Anwendungsfälle – 3.4.1 Verbilligte oder unentgeltliche Übertragung von Wirtschaftsgütern",
+    thema: "Der erste und häufigste Anwendungsfall: Der Gesellschafter überträgt ein Wirtschaftsgut zu billig oder umsonst. Neben der ertragsteuerlichen Behandlung sind die umsatzsteuerliche unentgeltliche Wertabgabe und – beim Grundstück – die Grunderwerbsteuer zu beachten",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.4.1 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1, Abs. 3 Satz 3 KStG", "§ 10 Nr. 2 KStG", "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG", "§ 6 Abs. 6 Satz 2 EStG", "§ 12 Nr. 3 EStG",
+      "§ 17 Abs. 2a Satz 3 Nr. 1 EStG", "§ 23 Abs. 1 Nr. 1 EStG",
+      "§ 3 Abs. 1b Nr. 1 UStG", "§ 10 Abs. 4 Nr. 1 UStG", "§ 10 Abs. 5 UStG",
+      "§ 1 GrEStG", "§ 8 Abs. 2 GrEStG",
+      "Abschn. 10.7 Abs. 1 Satz 1 UStAE",
+      "BFH vom 13.03.1985, BFH/NV 1986, 116",
+    ],
+    themen: ["Anwendungsfälle", "Unentgeltliche Wertabgabe", "Nicht abziehbare Umsatzsteuer", "Abschreibungsbemessungsgrundlage", "Grunderwerbsteuer", "Mindestbemessungsgrundlage"],
+    bloecke: [
+      { text: "Die Bewertung dieser verdeckten Einlage erfolgt nach den o. g. Grundsätzen. Dieser Wertansatz entspricht bei abnutzbaren Wirtschaftsgütern damit auch der zukünftigen Abschreibungsbemessungsgrundlage." },
+      { text: "Für umsatzsteuerliche Zwecke muss beachtet werden, dass beim Übertrager (= Gesellschafter) in den Fällen einer unentgeltlichen Leistung insoweit der Tatbestand der unentgeltlichen Wertabgabe i. S. des § 3 Abs. 1b UStG erfüllt sein kann. Der daraus resultierende Umsatzsteueraufwand ist nach § 10 Nr. 2 KStG (Anteilseigner = Kapitalgesellschaft) bzw. § 12 Nr. 3 EStG nicht abziehbar, weil es sich um die Umsatzsteuer aufgrund einer (umsatzsteuerlichen) Entnahme handelt. Die Mindest-BMG i. S. des § 10 Abs. 5 UStG kann nicht zur Anwendung kommen, weil diese nur in den dort geregelten Fällen greift (d. h. insbesondere bei Lieferung Gesellschaft an Anteilseigner)." },
+      { text: "Beispiel: Alleingesellschafter A überträgt seiner Gesellschaft in 2026 unentgeltlich eine Maschine (Buchwert: 10.000 €; Teilwert: 100.000 €; Einkaufspreis: 70.000 €), die er in 2023 mit Vorsteuerabzug erworben hat. Die Beteiligung an der Gesellschaft und die Maschine gehören bei A zum Betriebsvermögen." },
+      { text: "Lösung: Die unentgeltliche Übertragung der Maschine führt auf Ebene der Gesellschaft zu einer verdeckten Einlage, die mit dem Teilwert i. S. des § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG zu bewerten ist. Dieser Wert von 100.000 € bildet daher auch die Grundlage für die weitere Abschreibung. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos i. S. des § 27 KStG." },
+      { text: "Auf Ebene des Anteilseigners erhöht die verdeckte Einlage nach § 6 Abs. 6 Satz 2 EStG in Höhe des Teilwertes i. S. des § 6 Abs. 1 Nr. 5 EStG die Anschaffungskosten der Beteiligung. Daraus resultiert gleichzeitig ein Übertragungsgewinn von 90.000 € (Buchung: Beteiligung 100.000 € an Maschine 10.000 € und Ertrag 90.000 €)." },
+      { text: "Daneben sind auch umsatzsteuerliche Konsequenzen zu beachten, weil die unentgeltliche Übertragung zu einer unentgeltlichen Wertabgabe i. S. des § 3 Abs. 1b Nr. 1 UStG führt, wofür nach § 10 Abs. 4 Nr. 1 UStG der Einkaufspreis die Bemessungsgrundlage bildet. Die daraus resultierende Umsatzsteuer von 13.300 € führt zwar bilanziell zu einem Aufwand, welcher aber nach § 12 Nr. 3 EStG nicht abziehbar ist." },
+      { text: "Rechenprobe (eigene Ergänzung): Die 13.300 € sind 19 % des Einkaufspreises von 70.000 €, den § 10 Abs. 4 Nr. 1 UStG als Bemessungsgrundlage vorgibt – nicht des Teilwerts von 100.000 € und nicht des Buchwerts von 10.000 €. Genau darin liegt die Klausurfalle dieses Falles: Drei Werte stehen im Sachverhalt, und jeder von ihnen hat seine eigene Funktion." },
+      { typ: "tabelle", spalten: ["Wert", "Betrag", "Wofür er im Fall gebraucht wird"], zeilen: [
+        ["Buchwert", "10.000 €", "Abgang beim Gesellschafter; Gegenbuchung zum Übertragungsgewinn"],
+        ["Teilwert", "100.000 €", "Bewertung der verdeckten Einlage, künftige Abschreibungsbemessungsgrundlage bei der Gesellschaft, Erhöhung der Beteiligungsanschaffungskosten"],
+        ["Einkaufspreis", "70.000 €", "umsatzsteuerliche Bemessungsgrundlage der unentgeltlichen Wertabgabe nach § 10 Abs. 4 Nr. 1 UStG"],
+      ] },
+      { text: "Anmerkung zur Tabelle: Sie ordnet nur die drei Werte des Sachverhalts ihren Funktionen zu, die die Quelle im Fließtext nacheinander nennt; eigene Wertungen enthält sie nicht." },
+      { text: "Ist Gegenstand der verdeckten Einlage ein Grundstück, entsteht daraus zudem ein nach § 1 GrEStG grunderwerbsteuerbarer Vorgang, dessen Bemessungsgrundlage sich aus § 8 Abs. 2 GrEStG ergibt. Übernimmt die Kapitalgesellschaft die Grunderwerbsteuer, erhöhen sich die Anschaffungskosten des Grundstücks entsprechend." },
+      { text: "Beispiel: Alleingesellschafter A überträgt seiner Gesellschaft unentgeltlich ein vor 34 Jahren im Privatvermögen angeschafftes Grundstück (Teilwert: 100.000 €). Beteiligung und Grundstück gehören bei A zum Privatvermögen." },
+      { text: "Lösung: In der Bilanz der Gesellschaft muss das Grundstück mit dem Teilwert (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG) bilanziert werden. Im Rahmen der Einkommensermittlung ist die verdeckte Einlage mit 100.000 € nach § 8 Abs. 3 Satz 3 KStG wieder außerbilanziell abzuziehen. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos." },
+      { text: "Die verdeckte Einlage führt bei A nicht zu einem steuerpflichtigen Veräußerungsgewinn des Grundstücks, weil dieses nicht mehr nach § 23 Abs. 1 Nr. 1 EStG steuerverhaftet ist. Es erhöhen sich aber die Anschaffungskosten seiner Beteiligung an der A-GmbH nach § 17 Abs. 2a Satz 3 Nr. 1 EStG. Daneben sind auch grunderwerbsteuerliche Konsequenzen zu beachten, weil ein nach § 1 GrEStG steuerbarer Vorgang gegeben ist." },
+    ],
+  },
+  {
+    id: "kst-t1-21",
+    kapitel: "21",
+    abschnittNr: "3.4.2",
+    title: "3.4.2 Überteuerte Lieferung von Wirtschaftsgütern",
+    thema: "Der umgekehrte Fall: Die Gesellschaft liefert an ihren Gesellschafter zu teuer und erhält dadurch Geld als Vermögensmehrung. Die verdeckte Einlage bemisst sich nach dem Nettomehrbetrag; die Umsatzsteuer bleibt dagegen auf dem vollen vereinbarten Entgelt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.4.2 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1, Abs. 3 Satz 3 KStG", "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG", "§ 6 Abs. 6 Satz 2 EStG",
+      "§ 10 Abs. 1 UStG", "Abschn. 10.1 Abs. 1 Satz 1 UStAE",
+    ],
+    themen: ["Überteuerte Lieferung", "Vermögensmehrung", "Entgelt", "Vorsteuerabzug", "Nettobetrachtung"],
+    bloecke: [
+      { text: "In dieser Situation erhält die Kapitalgesellschaft im Zuge der Vermögensübertragung einen überhöhten Kaufpreis (= Geld), wodurch eine Vermögensmehrung eintritt. Umsatzsteuerlich ist zu beachten, dass das Entgelt dem nach § 10 Abs. 1 UStG vereinbarten Kaufpreis entspricht und daher auch das überhöhte Entgelt umfasst. Auf die Bemessung der verdeckten Einlage hat dies keinen Einfluss, weil diese vom Nettowert (= Teilwert) ausgeht." },
+      { text: "Beispiel: Die A-GmbH liefert ihrem Alleingesellschafter eine Maschine (Buchwert: 100.000 €, Teilwert: 1.000.000 €) für brutto 1.785.000 €. Sie bucht den Vorgang wie folgt: Bank 1.785.000 € an Maschine 100.000 €, Ertrag 1.500.000 €, USt 285.000 €." },
+      { text: "Lösung: Die überteuerte Lieferung führt bei der A-GmbH zu einer Vermögensmehrung in Form des geleisteten Geldbetrags. Die verdeckte Einlage ist mit dem Teilwert (netto) von 500.000 € (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG; 1.500.000 € ./. 1.000.000 €) zu bewerten und aufgrund der bilanziellen Gewinnauswirkung nach § 8 Abs. 3 Satz 3 KStG wieder bei der Einkommensermittlung abzuziehen. Dadurch versteuert die A-GmbH letztlich einen angemessenen Veräußerungsgewinn der Maschine von 1.000.000 €. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos um 500.000 €. Zu beachten ist, dass die Umsatzsteuer aufgrund der Bemessungsgrundlage i. S. des § 10 Abs. 1 UStG unverändert bleibt und daher auch den überhöhten Betrag umfasst." },
+      { text: "Auf Ebene des Anteilseigners betragen die Anschaffungskosten der Maschine 1.000.000 €, in Höhe der verdeckten Einlage erhöhen sich die Anschaffungskosten der Beteiligung an der A-GmbH um 500.000 € (§ 6 Abs. 6 Satz 2 EStG). Der Vorsteuerabzug von 285.000 € bleibt unverändert." },
+      { text: "Rechenprobe (eigene Ergänzung): Der Bruttobetrag von 1.785.000 € zerfällt in 1.500.000 € Nettoentgelt und 285.000 € Umsatzsteuer (19 % von 1.500.000 €). Das angemessene Nettoentgelt wäre der Teilwert von 1.000.000 € gewesen, der Mehrbetrag also 500.000 € – das ist die verdeckte Einlage. Diese beiden Schritte gehen glatt auf." },
+      { text: "Anmerkung zur Buchung und zum Ergebnis (so in der Quelle): Der Buchungssatz der Quelle geht rechnerisch nicht auf. Soll steht Bank mit 1.785.000 €, im Haben stehen Maschine 100.000 €, Ertrag 1.500.000 € und Umsatzsteuer 285.000 €, zusammen 1.885.000 € – eine Differenz von genau 100.000 €, dem Buchwert der Maschine. Richtigerweise ist im Haben ein Ertrag von 1.400.000 € auszuweisen (Nettoentgelt 1.500.000 € abzüglich Buchwertabgang 100.000 €). Aus demselben Grund beträgt der angemessene Veräußerungsgewinn, den die A-GmbH im Ergebnis versteuert, 900.000 € (bilanzieller Ertrag 1.400.000 € abzüglich verdeckter Einlage 500.000 €) und nicht die von der Quelle genannten 1.000.000 €; die 1.000.000 € sind der angemessene Veräußerungs**preis**, also der Teilwert. Innerhalb der eigenen – um den Buchwertabgang zu hohen – Buchung der Quelle ist ihre Zahl folgerichtig (1.500.000 € ./. 500.000 €). Der Wortlaut ist unverändert übernommen; die Bewertung der verdeckten Einlage mit 500.000 € ist von der Unstimmigkeit nicht berührt." },
+      { text: "Merke (eigene Zusammenfassung): Der Fall lebt von der Trennung zweier Bemessungsgrundlagen. Die verdeckte Einlage rechnet netto und nimmt nur den unangemessenen Teil; die Umsatzsteuer rechnet nach § 10 Abs. 1 UStG auf das tatsächlich vereinbarte Entgelt und bleibt deshalb auch insoweit bestehen, als der Preis überhöht war. Beim Gesellschafter bleibt der Vorsteuerabzug spiegelbildlich ungekürzt." },
+    ],
+  },
+  {
+    id: "kst-t1-22",
+    kapitel: "22",
+    abschnittNr: "3.4.3",
+    title: "3.4.3 Gesellschafter übernimmt Verbindlichkeiten der Gesellschaft",
+    thema: "Die Schuldübernahme als verhinderte Vermögensminderung – aber nur, wenn der Gesellschafter zugleich auf seinen Rückforderungsanspruch verzichtet. Gegenstand der Einlage ist dieser Anspruch, bewertet regelmäßig mit dem Nennwert der Verbindlichkeit",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.4.3 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1, Abs. 3 Satz 3 KStG", "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG",
+    ],
+    themen: ["Schuldübernahme", "Verhinderte Vermögensminderung", "Rückforderungsanspruch", "Abgekürzter Zahlungsweg"],
+    bloecke: [
+      { text: "In dieser Situation wird die Kapitalgesellschaft aus gesellschaftsrechtlichen Gründen von einer eigenen Verbindlichkeit befreit, so dass auf deren Ebene eine verhinderte Vermögensminderung eintritt. Dies setzt aber voraus, dass der Gesellschafter auf den ihm zustehenden Rückforderungsanspruch gleichzeitig verzichtet, welcher dann Gegenstand der verdeckten Einlage ist. Auch in diesem Fall bewertet sich die verdeckte Einlage mit dem Teilwert des Rückforderungsanspruchs. Dieser dürfte aber dem Nennwert der übernommenen Verbindlichkeit entsprechen, weil der Wegfall der Verbindlichkeit lediglich auf einem abgekürzten Zahlungsweg beruht." },
+      { text: "Beispiel: Der Gesellschafter A übernimmt gegenüber seiner A-GmbH die Bezahlung einer Betriebsschuld i. H. von 100.000 €. Auf den Rückzahlungsanspruch verzichtet der Gesellschafter bereits im Vorfeld der Begleichung." },
+      { text: "Lösung: Die Übernahme der Betriebsschuld durch den Gesellschafter führt auf Ebene der A-GmbH zu einer verhinderten Vermögensminderung, weil diese aus gesellschaftsrechtlichen Gründen von einer Verbindlichkeit befreit wird. Die verdeckte Einlage ist mit dem Teilwert von 100.000 € zu bewerten, weil diesem der nicht geltend gemachte Rückforderungsanspruch gegenübersteht (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG). Der aufgrund der Schuldübernahme entstehende Ertrag (Buchung: Verbindlichkeit an Ertrag) ist nach § 8 Abs. 3 Satz 3 KStG bei der Einkommensermittlung zu beseitigen und gleichzeitig dem steuerlichen Einlagekonto zuzurechnen." },
+      { text: "Das gleiche Ergebnis würde eintreten, wenn der Anteilseigner zunächst die Geldmittel von 100.000 € in die A-GmbH eingelegt hätte und die Gesellschaft diese zur Begleichung der Verbindlichkeit verwenden würde (Buchung: Bank an Ertrag und anschließend Verbindlichkeiten an Bank). Insoweit stellt die unmittelbare Begleichung der Verbindlichkeit durch den Gesellschafter einen abgekürzten Zahlungsweg dar." },
+      { text: "Hinweis zur Abgrenzung (eigene Anmerkung): Der Satz, der den Fall trägt, ist die Voraussetzung im ersten Absatz – der Gesellschafter muss zugleich auf den Rückforderungsanspruch verzichten. Zahlt er die Schuld nur, ohne zu verzichten, tritt an die Stelle der alten Verbindlichkeit lediglich eine neue gegenüber dem Gesellschafter; eine verhinderte Vermögensminderung liegt dann gerade nicht vor. Die Quelle spricht das nicht eigens aus, setzt es aber erkennbar voraus, weil sie den Verzicht zur Bedingung macht." },
     ],
   },
 ];
