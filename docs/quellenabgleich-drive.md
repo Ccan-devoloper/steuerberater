@@ -7422,3 +7422,139 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** die Angabe in
   Sachverhalt 2, die persönliche Gewerbesteuerpflicht liege „vom 01.03.’31.03.“ bei der KG,
   wo 31.12. gemeint ist – zwei Sätze zuvor nennt die Quelle den Zeitraum selbst richtig.
+
+## Originalklausuren der Steuerberaterprüfung – Ertragsteuern, Prüfung 2012
+
+- Quelle: dieselbe Datei (`1QwClx7BL_66vssgQcF4xq7CIzknvfIcy`), zweite Klausur.
+- Einpflege dieses Durchgangs: die **Prüfung 2012** mit ihren vier Sachverhalten; der
+  Datensatz umfasst jetzt 8 Sachverhalte, 296 Blöcke, 31 Tabellen und 125 Punkte; Prüfung
+  `npm run check:k2-est-originalklausuren`. **Damit ist alles eingepflegt, was der Connector
+  aus dieser Datei ausgibt** – die Prüfungen 2013 bis 2015 stehen in
+  `docs/offene-quellen.md`, Abschnitt A.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage
+  aus; die Klausur 2012 hat 60 Punkte (17 + 13 + 14 + 16).
+- **Zu den Anlagen:** Die Klausur enthält zwei Anlagen – einen Auszug aus dem ErbbauRG
+  (§§ 1 bis 13) und den vollständigen Text des DBA-Österreich (Art. 1 bis 33). Im Datensatz
+  stehen die für die Lösung tragenden Vorschriften im Wortlaut (ErbbauRG §§ 1, 9, 11, 12, 13;
+  DBA Art. 1, 4 Abs. 1, 6 Abs. 1, 7 Abs. 8, 10, 13 Abs. 5 und 6, 16 Abs. 1, 23 Abs. 1). Die
+  übrigen Vorschriften der Anlagen sind unveränderter Gesetzes- bzw. Abkommenstext, auf den
+  die Lösung nicht zurückgreift; ihr Umfang ist im Datensatz benannt, damit der Stand
+  nachprüfbar bleibt.
+
+  **Sachverhalt 1 – Susi Schön (17 Punkte): die Reihenfolge entscheidet.** Die Aufgabe ist
+  eine Rechenkette, in der jeder Schritt den nächsten trägt – und in der ein vertauschter
+  Schritt dieselben Zinsen zweimal belastet.
+
+  | Schritt | Rechnung | Ergebnis |
+  | --- | --- | --- |
+  | Überentnahmen 11 | 600.000 ./. 0 ./. 100.000 | 500.000 € |
+  | Unterentnahmen 10 | 300.000 + 200.000 ./. 400.000 | 100.000 € |
+  | Saldo × 6 % (§ 4 Abs. 4a Satz 3 EStG) | 400.000 × 6 % | 24.000 € |
+  | Höchstgrenze Satz 4, Bielefeld-Darlehen nach Satz 5 ausgenommen | 20.000 ./. 2.050 | **17.950 €** |
+  | Gewinn | 100.000 + 17.950 | 117.950 € |
+  | § 8 Nr. 1a GewStG – nur was den Gewinn gemindert hat | 60.000 ./. 17.950 | 42.050 € |
+  | § 8 Nr. 1e GewStG – nur die Kaltmiete, 50 % | 12 × 31.666,67 = 380.000, davon 50 % | 190.000 € |
+  | Hinzurechnungsbetrag | (232.050 ./. 200.000) × 25 % | 8.012 € |
+  | Messbetrag | (125.900 ./. 24.500) × 3,5 % | **3.549 €** |
+
+  Die 48.000 € Nebenkosten (12 × 4.000 €) bleiben außen vor – sie sind kein Entgelt für die
+  Benutzung des Grundstücks. Der Freibetrag von 200.000 € wird auf die **Summe** aller
+  Hinzurechnungstatbestände angewandt, nicht auf jeden einzeln.
+
+  **Dieselbe Tatsache wirkt zweimal gegenläufig.** Das Bielefelder Grundstück gehört seit dem
+  01.09.11 zum Betriebsvermögen. Für die Kürzung nach § 9 Nr. 1 Satz 1 GewStG ist der Stand
+  **zu Beginn des Kalenderjahres** maßgebend (§ 20 Abs. 1 Satz 2 GewStDV) – also keine
+  Kürzung. Für die **Zerlegung** begründet dasselbe Grundstück dagegen eine Betriebsstätte
+  (§ 12 Satz 2 Nr. 5 AO). Beim Zerlegungsmaßstab ist für die Unternehmerin selbst ein
+  fiktiver Arbeitslohn von 25.000 € anzusetzen (§ 31 Abs. 5 GewStG), und zwar **nur in
+  Essen**, weil sie ausschließlich dort tätig ist – der beiläufig wirkende Satz des
+  Sachverhalts trägt damit die halbe Zerlegung.
+
+  **Eine Rundungsdifferenz – eigene Feststellung:** Die beiden Zerlegungsanteile ergeben
+  3.330 € + 218 € = 3.548 € und damit einen Euro weniger als der Messbetrag von 3.549 €. Die
+  Quelle nennt diesen Rest nicht. Nach § 29 Abs. 3 GewStG sind Spitzenbeträge der Gemeinde
+  mit dem größten Anteil zuzuschlagen; rechnet man so, entfielen auf Essen 3.331 € und die
+  dortige Gewerbesteuer betrüge 15.988,80 €. Die Zahlen der Quelle sind wortlautgetreu
+  übernommen, die Abweichung ist im Datensatz gekennzeichnet.
+
+  **Sachverhalt 2 – Peter Panther (13 Punkte): ein Vertrag, zwei Rechtsnaturen.** Die
+  600.000 € zerfallen in 200.000 € Nutzungsüberlassung (Erbbauzins, § 21 EStG) und 400.000 €
+  Veräußerung (Gebäude). Der Grund steht in der Anlage: Nach § 12 Abs. 1 Satz 2 ErbbauRG wird
+  ein bei Bestellung bereits vorhandenes Bauwerk wesentlicher Bestandteil des Erbbaurechts –
+  das Gebäudeeigentum geht über, das Grundstückseigentum nicht.
+
+  | Posten | Rechnung | Betrag |
+  | --- | --- | --- |
+  | Mieten Januar bis August | 8 × 1.800 € | 14.400 € |
+  | Miete Dezember 10, zugeflossen 15.02.11 | § 11 Abs. 1 Satz 2 EStG greift nicht (über zehn Tage) | 900 € |
+  | Erbbauzins, verteilt nach § 11 Abs. 1 Satz 3 EStG | 200.000 : 99 × 4/12 | 673 € |
+  | **Einnahmen** | | **15.973 €** |
+  | laufende Kosten | 8 × 400 + 300 | 3.500 € |
+  | Balkonanbau, Wahlrecht R 21.1 Abs. 2 Satz 2 EStR | ≤ 4.000 € | 3.500 € |
+  | Fassadenanstrich | vertraglich geschuldet | 0 € |
+  | AfA bis zur Veräußerung | 300.000 × 2 % × 8/12 | 4.000 € |
+  | **Einkünfte § 21 EStG** | 15.973 ./. 11.000 | **4.973 €** |
+
+  **Zwei Baumaßnahmen, umgekehrte Vorzeichen.** Der Balkonanbau erweitert die nutzbare
+  Fläche und ist deshalb nachträgliche Herstellungskosten – abziehbar erst über das
+  4.000-€-Wahlrecht; entscheidend ist der **Zeitpunkt**, denn im März 11 war die
+  Veräußerungsentscheidung noch nicht gefallen. Der Fassadenanstrich ist der Sache nach
+  reiner Erhaltungsaufwand und wäre ohne Weiteres abziehbar – er scheitert daran, dass P sich
+  im Erbbaurechtsvertrag dazu verpflichtet hatte. In beiden Fällen entscheidet nicht die Art
+  der Arbeit, sondern der Anlass.
+
+  Die Veräußerung des Gebäudes bleibt steuerfrei, obwohl die Zehnjahresfrist gewahrt wäre:
+  § 23 Abs. 1 Satz 1 Nr. 1 Satz 1 EStG verlangt **Anschaffung**, und ein selbst hergestelltes
+  Gebäude ist nicht angeschafft. Satz 2 hilft nicht, weil er Gebäude nur in einen bereits
+  steuerbaren Grundstücksvorgang einbezieht und keinen eigenen Tatbestand schafft.
+
+  **Sachverhalt 3 – Steuerpflichtiger R (14 Punkte): eine Dividende, zwei Einkunftsarten.**
+  Weil die Anteile hälftig im Betriebs- und hälftig im Privatvermögen liegen, ist derselbe
+  Zufluss zweimal zu würdigen. Der Sachverhalt nennt nur die Gutschrift von 4.500 €; der
+  Bruttobetrag folgt aus der österreichischen Kapitalertragsteuer von 25 %: 4.500 : 0,75 =
+  **6.000 €**, je 3.000 € auf jede Hälfte (§ 12 Nr. 3 EStG).
+
+  | | betriebliche Hälfte | private Hälfte |
+  | --- | --- | --- |
+  | Ausschüttung | 3.000 € × 60 % = 1.800 € | 3.000 € (brutto) |
+  | Aufwand | 500 € × 60 % = 300 € | Abzug gesperrt (§ 20 Abs. 9 EStG) |
+  | ausländische Steuer | 450 € × 60 % = 270 € | kein Abzug |
+  | Pauschbetrag | – | 1.000 € |
+  | **Ergebnis** | Einkünfte § 15 EStG: **- 3.770 €** | Einkünfte § 20 EStG: **2.000 €** |
+
+  **Der Steuerabzug ist doppelt begrenzt.** Österreich hat 25 % einbehalten, das DBA erlaubt
+  in Art. 10 Abs. 2 Buchst. b nur 15 % – abziehbar ist deshalb nur der DBA-konforme Teil
+  (450 €); der übersteigende Betrag ist in Österreich zu erstatten. Und weil die Einkünfte im
+  Teileinkünfteverfahren nur zu 60 % steuerpflichtig sind, greift die zweite Grenze des
+  § 34c Abs. 2 EStG: 270 €. Die **Anrechnung** nach Art. 23 Abs. 1 Buchst. b DBA läuft leer,
+  weil die deutsche Einkommensteuer 0 € beträgt – genau deshalb ist der Abzug von der
+  Bemessungsgrundlage der günstigere Weg, den die Aufgabenstellung verlangt.
+
+  **Sachverhalt 4 – Wegzug nach Wien (16 Punkte): ein Umzug, drei verschiedene Folgen.**
+
+  | Einzelsachverhalt | Wirkung des Wegzugs am 28.02. |
+  | --- | --- |
+  | Aufsichtsratsvergütung T-AG, Düsseldorf | keine – Tätigkeit im Inland (§ 49 Abs. 1 Nr. 3 EStG), Besteuerungsrecht nach Art. 16 Abs. 1 DBA; brutto 10.000 € (7.000 : 0,7), Steuerabzug 30 % = 3.000 € abgegolten |
+  | Wohnung Salzburg | teilt das Jahr: bis 28.02. unbeschränkt steuerpflichtig mit Freistellung (Art. 23 Abs. 1 Buchst. a DBA), danach gar nicht steuerpflichtig – durchgehend Progressionsvorbehalt (§ 32b Abs. 1 Satz 1 Nr. 2, § 2 Abs. 7 Satz 3 EStG) |
+  | Anteile AB-GmbH, Wien | löst die Besteuerung erst aus: Wegzugsbesteuerung nach § 6 Abs. 1 Satz 1 AStG |
+
+  **Der teuerste Satz des Sachverhalts ist der Kaufpreis, der nicht zählt.** S verkauft die
+  Anteile am 10.10.11 für 500.000 €, also 50.000 € über dem gemeinen Wert. Besteuert wird
+  trotzdem nur der Vermögenszuwachs bis zum Wegzug, bemessen nach § 6 Abs. 1 Satz 4 AStG mit
+  dem gemeinen Wert von 450.000 €: (450.000 ./. 350.000) × 60 % = **60.000 €**. Der Mehrerlös
+  ist in Deutschland nicht steuerbar, weil die Gesellschaft weder Sitz noch Geschäftsleitung
+  im Inland hat und Art. 13 Abs. 5 DBA-Österreich das Besteuerungsrecht dem Ansässigkeitsstaat
+  zuweist; Absatz 6 Satz 1 hält das deutsche Recht auf die Wegzugsbesteuerung ausdrücklich
+  offen. Der Freibetrag des § 17 Abs. 3 EStG entfällt: 60.000 ./. 36.100 = 23.900 € und damit
+  mehr als die 9.060 € Freibetrag.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.** Zusätzlich geprüft: die
+  beiden Bruttoableitungen aus Nettobeträgen (4.500 : 0,75 = 6.000 € und 7.000 : 0,7 =
+  10.000 €), die Verteilung des Erbbauzinses (200.000 : 99 = 2.020,20 € pro Jahr, davon 4/12
+  = 673,40 € → 673 €) und die Salzburger Mieteinkünfte (12 × 1.000 ./. 400 = 11.600 €, nach
+  der Aufgabenstellung nicht zu beziffern, weil nur Progressionsvorbehalt).
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:**
+  „einkommensteuersteuerpflichtig“; „Dort ist der fortan … unbeschränkt steuerpflichtig“
+  statt „ist er fortan“; „DBA-Osterreich“ ohne Umlaut; und eine überzählige schließende
+  Klammer bei der Fundstelle zu § 34c Abs. 6 S. 2, Abs. 5 EStG.

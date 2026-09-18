@@ -1667,6 +1667,38 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   wird überflüssig und mit ihr fällt die erweiterte Kürzung weg (Messbetrag 3.423 €). Jede
   Zahl ist unabhängig nachgerechnet; die Herleitung der Nachzahlungszinsen von 95,00 € über
   die Abrundung des § 238 Abs. 2 AO ist als **eigene Nachvollziehung** gekennzeichnet.
+  Aus der **Prüfung 2012** (ebenfalls vier Sachverhalte, 60 Punkte): **Sachverhalt 1 (Susi
+  Schön, 17 Punkte)** ist eine Rechenkette, in der die **Reihenfolge** über das Ergebnis
+  entscheidet – erst der Überentnahmesaldo über zwei Wirtschaftsjahre (500.000 € ./.
+  100.000 €), der nach der Höchstgrenze des § 4 Abs. 4a Satz 4 EStG 17.950 € Schuldzinsen
+  nicht abziehbar macht, dann § 8 Nr. 1 GewStG, wo genau diese 17.950 € die Hinzurechnung
+  kürzen, weil nur hinzugerechnet wird, was den Gewinn tatsächlich gemindert hat. Am Ende
+  die **Zerlegung** auf Essen und Bielefeld mit einem fiktiven Unternehmerlohn von 25.000 €
+  nach § 31 Abs. 5 GewStG. Dieselbe Tatsache – der Grundstückserwerb zum 01.09. – wirkt
+  dabei zweimal gegenläufig: Für die Kürzung nach § 9 Nr. 1 Satz 1 GewStG zählt der Stand
+  zu **Jahresbeginn**, also keine Kürzung; für die Zerlegung begründet sie eine
+  **Betriebsstätte**. **Sachverhalt 2 (Peter Panther, 13 Punkte)** teilt einen einzigen
+  Vertrag in zwei Rechtsnaturen: 200.000 € Erbbauzins sind Nutzungsüberlassung und dürfen
+  nach § 11 Abs. 1 Satz 3 EStG auf 99 Jahre verteilt werden (im Bestellungsjahr 673 €),
+  400.000 € für das Gebäude sind Veräußerung – mangels **Anschaffung** aber nicht nach
+  § 23 EStG steuerbar. Dazu zwei Baumaßnahmen mit umgekehrtem Ergebnis: Der Balkonanbau
+  (nachträgliche Herstellungskosten) ist über das 4.000-€-Wahlrecht des R 21.1 Abs. 2 Satz 2
+  EStR abziehbar, der Fassadenanstrich (der Sache nach Erhaltungsaufwand) nicht, weil P sich
+  im Erbbaurechtsvertrag dazu verpflichtet hatte. **Sachverhalt 3 (Steuerpflichtiger R,
+  14 Punkte)** lässt eine österreichische Dividende hälftig auf Betriebs- und Privatvermögen
+  entfallen und prüft beide Wege nebeneinander; weil die deutsche Einkommensteuer 0 €
+  beträgt, läuft die Anrechnung leer und es bleibt der Abzug nach § 34c Abs. 2 EStG –
+  **doppelt begrenzt** auf die nach Art. 10 Abs. 2 Buchst. b DBA-Österreich zulässigen 15 %
+  und auf die 60 % steuerpflichtigen Einkünfte, also 270 €. **Sachverhalt 4 (Wegzug nach
+  Wien, 16 Punkte)** zeigt einen Umzug mit drei verschiedenen Folgen: Die
+  Aufsichtsratsvergütung bleibt deutsch steuerbar (brutto 10.000 €, Steuerabzug 30 %), die
+  Salzburger Wohnung ist freizustellen und danach nur noch Progressionsvorbehalt, und die
+  100-prozentige Beteiligung an einer Wiener GmbH löst die **Wegzugsbesteuerung** nach
+  § 6 AStG aus (60.000 €) – während der Mehrerlös von 50.000 € aus dem späteren Verkauf
+  über dem gemeinen Wert unbesteuert bleibt. Die Anlagen der Klausur (Auszug aus dem
+  ErbbauRG und aus dem DBA-Österreich) stehen mit ihren tragenden Vorschriften im Wortlaut
+  im Datensatz. Eine Rundungsdifferenz von einem Euro bei der Zerlegung ist als **eigene
+  Feststellung** gekennzeichnet.
   Prüfung: `npm run check:k2-est-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

@@ -273,11 +273,12 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Steuerberaterprüfungen 2022/2023 bzw. 2021/2022 – noch offen. Die Datei **ESt**
   (`1QwClx7BL_66vssgQcF4xq7CIzknvfIcy`, 2,3 MB) ist „Ertragsteuern · Steuerberaterprüfungen
   2011 – 2015“ (Rechtsstand 2025, März 2026) mit den Original-Prüfungsaufgaben aus
-  Einkommensteuer und Gewerbesteuer; **begonnen** – eingepflegt ist die **Prüfung 2011**
-  mit ihren vier Sachverhalten (Mayer GmbH & Co. KG, Bauen Döring KG, Abel & Witte GbR,
-  Grundbesitz-Verwaltungs GmbH & Co. KG) im Reiter „Originalklausuren (Prüfung)“ des
-  ESt-Campus, `src/data/k2-est-originalklausuren.js`. Offen sind daraus die Prüfungen
-  **2012 bis 2015**. **Wichtig:** Der Connector gibt die Datei nur bis etwa zur Hälfte
+  Einkommensteuer und Gewerbesteuer; **begonnen** – eingepflegt sind die **Prüfungen 2011
+  und 2012** mit je vier Sachverhalten (2011: Mayer GmbH & Co. KG, Bauen Döring KG, Abel &
+  Witte GbR, Grundbesitz-Verwaltungs GmbH & Co. KG; 2012: Susi Schön, Peter Panther,
+  Steuerpflichtiger R, Wegzug nach Wien) im Reiter „Originalklausuren (Prüfung)“ des
+  ESt-Campus, `src/data/k2-est-originalklausuren.js`. **Damit ist alles eingepflegt, was der
+  Connector aus dieser Datei ausgibt.** Offen sind die Prüfungen **2013 bis 2015**. **Wichtig:** Der Connector gibt die Datei nur bis etwa zur Hälfte
   der Prüfung 2013 aus (rund 168.000 Zeichen); die Prüfungen 2012 und der Anfang von
   2013 liegen vor, der Rest ist aus dem Drive-Text nicht lesbar und gehört zu den
   blockierten Teilen in Abschnitt A. Offen sind außerdem die Dateien **Bilanz 2011–2015**
