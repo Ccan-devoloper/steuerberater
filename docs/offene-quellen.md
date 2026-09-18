@@ -285,10 +285,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   ist „Körperschaftsteuer, Umwandlungssteuerrecht und Gewerbesteuer ·
   Steuerberaterprüfungen 2011 – 2015“ (Rechtsstand 2025, Februar 2026, Bearbeiter RA/StB
   Ulrich Breier) mit fünf Original-Prüfungsklausuren samt Lösungshinweisen und Randpunkten;
-  der Connector gibt die Datei **vollständig** aus. **Begonnen** – eingepflegt ist die
-  **Prüfung 2011** (A-GmbH, 35 Punkte) im Reiter „Originalklausuren (Prüfung)“ des
-  KSt-Campus, `src/data/k2-kst-originalklausuren.js`; offen sind die Prüfungen **2012 bis
-  2015**. Offen ist außerdem die Datei **Bilanz 2011–2015**
+  der Connector gibt die Datei **vollständig** aus. **Begonnen** – eingepflegt sind die
+  **Prüfungen 2011** (A-GmbH, 35 Punkte) und **2012** (A-UG, 40 Punkte) im Reiter
+  „Originalklausuren (Prüfung)“ des KSt-Campus,
+  `src/data/k2-kst-originalklausuren.js`; offen sind die Prüfungen **2013 bis 2015**. Offen ist außerdem die Datei **Bilanz 2011–2015**
   (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB).
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
 - Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet

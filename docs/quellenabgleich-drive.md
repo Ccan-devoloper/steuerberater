@@ -7647,3 +7647,108 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Unterschiedsbetrag nach § 4 Abs. 1 EStG ausgewirkt“; „dürfen (in der Regel) nicht abführt
   werden“; „Bestand zum 21.12.2024“ statt 31.12.2024 und „Bestand zum 31.12.2023“ statt
   31.12.2025 in der Ermittlung des Einlagekontos; ferner „Rechtsand 2025“ auf dem Deckblatt.
+
+## Originalklausuren der Steuerberaterprüfung – Körperschaftsteuer, Prüfung 2012 (A-UG)
+
+- Quelle: dieselbe Datei (`1M69J_ZCoqrXeBtX-OD83FYkJgiAksMWb`), zweite Klausur.
+- Einpflege dieses Durchgangs: die **Prüfung 2012**; der Datensatz umfasst jetzt
+  2 Klausuren, 182 Blöcke, 13 Tabellen und 75 Punkte; Prüfung
+  `npm run check:k2-kst-originalklausuren`. Offen sind die Prüfungen 2013 bis 2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage
+  aus; die Klausur 2012 hat laut Kopf 40 Punkte.
+
+  **Der Einstieg ist eine Rückrechnung.** Der Ausgangswert der gesamten Einkommensermittlung
+  – der Jahresüberschuss 2025 – steht **nirgends im Sachverhalt**. Er ist nur über die
+  Rechtsform zu erschließen: Eine Unternehmergesellschaft muss nach § 5a Abs. 3 GmbHG ein
+  Viertel ihres Jahresüberschusses in eine gesetzliche Rücklage einstellen. Die Rücklage
+  stieg von 1.000 € (ein Viertel des Jahresüberschusses 2024 von 4.000 €) auf 8.500 €; die
+  Zuführung beträgt also 7.500 € und der Jahresüberschuss 4 × 7.500 € = **30.000 €**. Die
+  Quelle kontrolliert das Ergebnis am Bilanzgewinn: 3.000 € Gewinnvortrag + 22.500 € = 25.500 €.
+
+  **Die Pensionszusage ist ein gegenläufiges Paar.** Beide Bilanzposten sind zum 31.12.2024
+  vergessen worden, beide sind 2025 nachzuholen – mit verschiedenem Ergebnis:
+
+  | Posten | an sich nachzuholen | tatsächlich |
+  | --- | --- | --- |
+  | Pensionsrückstellung | 12.000 € (10.000 € Nachholung + 2.000 € Erhöhung) | nur **2.000 €** – Nachholverbot des § 6a Abs. 4 Satz 1 EStG |
+  | Rückdeckungsanspruch | 6.500 € (3.000 € Nachholung + 3.500 € Erhöhung) | **6.500 €** – Nachholverbot gilt nicht, Saldierung verbietet § 246 Abs. 2 HGB |
+
+  Unter dem Strich erhöht die vergessene Buchung den Gewinn also um 4.500 €. Hinzu kommt eine
+  **vGA von 2.000 €**: Die Zusage wurde zeitgleich mit dem Anstellungsvertrag an einen
+  45-Jährigen erteilt, der bisher nicht Geschäftsführer war – ein ordentlicher und
+  gewissenhafter Geschäftsleiter hätte einem fremden Dritten erst nach zwei bis drei Jahren
+  Probezeit zugesagt (H 8.7 Warte-/Probezeit KStH). Die Prämien der Rückdeckungsversicherung
+  sind dagegen keine vGA: Sie fließen an die Versicherung, nicht an den Gesellschafter, und
+  können bei ihm keine Einkünfte nach § 20 Abs. 1 Nr. 1 Satz 2 EStG auslösen.
+
+  **Die ausländischen Einkünfte: dreimal dieselbe Frage, dreimal eine andere Antwort.**
+  Deutschland hat mit Oman kein DBA.
+
+  | Betrag | Behandlung |
+  | --- | --- |
+  | Quellensteuer auf die Dividende, 1.000 € | nach § 10 Nr. 2 KStG hinzuzurechnen – und es bleibt dabei: Weder Anrechnung (§ 34c Abs. 1 EStG) noch Abzug (Abs. 2) kommen in Betracht, weil die Dividende nach § 8b Abs. 1 KStG steuerfrei ist und es keine deutsche Steuer gibt, auf die anzurechnen wäre |
+  | Betriebsstättensteuer, 5.000 € | zunächst Betriebsausgabe (./. 5.000 €), dann nach § 10 Nr. 2 KStG hinzuzurechnen (+ 5.000 €), schließlich nach § 26 Abs. 1 KStG i. V. m. § 34c **Abs. 3** EStG wieder abzuziehen (./. 5.000 €) – im Ergebnis abziehbar, aber über eine andere Vorschrift, weil die Steuer der deutschen Körperschaftsteuer nicht entspricht |
+  | Betriebsstättengewinn, 20.000 € | mangels DBA voll steuerpflichtig (Welteinkommensprinzip, § 1 Abs. 1 und 2 KStG) |
+
+  Die Dividende selbst bleibt nach § 8b Abs. 1 KStG außer Ansatz (./. 8.000 €), 5 % davon
+  gelten als nicht abziehbare Betriebsausgaben (+ 400 €). Die 10-Prozent-Grenze des § 8b
+  Abs. 4 KStG ist bei 50 % Beteiligung unproblematisch.
+
+  **Das Rückwirkungsverbot greift ausnahmsweise nicht.** X ist beherrschender Gesellschafter –
+  nicht durch seine unmittelbaren 30 %, sondern in der Zusammenrechnung mit den 60 % der von
+  ihm zu 51 % beherrschten B-GmbH: zusammen 90 % und damit die im Gesellschaftsvertrag
+  verlangte Dreiviertelmehrheit. Für ihn gilt das Rückwirkungsverbot. Es greift hier
+  trotzdem nicht: Die Gehaltserhöhung war am 01.01.2025 **klar und eindeutig im Voraus**
+  vereinbart; unwirksam war allein die Vertretung (§ 181 BGB, dazu die fehlende Zustimmung
+  nach § 46 Nr. 5 GmbHG), und diese schwebende Unwirksamkeit heilt § 184 BGB **rückwirkend**.
+  Das Rückwirkungsverbot trifft nur die nachgeholte Vereinbarung, nicht die nachgeholte
+  Genehmigung. Die Textziffer 4 bleibt deshalb als einzige ohne Korrektur – was die
+  Zusammenfassung mit einem Strich eigens vermerkt.
+
+  **Die Spende ist zugleich vGA – und teilt sich bei der Bewertung auf zwei Vorschriften
+  auf.** § 9 Abs. 1 Nr. 2 KStG gilt nur „vorbehaltlich § 8 Abs. 3“; wo eine vGA vorliegt, ist
+  der Spendenabzug gesperrt. Nahestehende Person ist hier nicht nur der Sohn des
+  Gesellschafters, sondern über ihn auch der Verein. Die Schärfe liegt in der Bewertung: Die
+  vGA ist mit dem **gemeinen Wert** anzusetzen, und der beträgt wegen einer vorübergehenden
+  Wertminderung nur **800 €** statt der gebuchten 1.000 €. Die restlichen 200 € fallen nicht
+  unter § 8 Abs. 3 Satz 2 KStG, sondern unter § 8b Abs. 3 Satz 3 KStG – ein einziger
+  Buchungsbetrag, zwei Korrekturvorschriften.
+
+  **Bei der Verschmelzung ist ausnahmsweise der gemeine Wert günstiger als der Buchwert.**
+  Das ist die Pointe der Textziffer 6 und läuft der Regel zuwider:
+
+  | | Buchwertansatz | Ansatz zum gemeinen Wert |
+  | --- | --- | --- |
+  | Übertragungsgewinn bei der T-GmbH | 0 € | 30.000 € (selbst geschaffener Firmenwert) |
+  | Nutzung des Verlustvortrags von 70.000 € | keine – er geht vollständig unter (§ 12 Abs. 3, § 4 Abs. 2 Satz 2 UmwStG) | 10.000 € laufender Gewinn + 30.000 € Übertragungsgewinn werden verrechnet, 30.000 € gehen unter |
+  | Steuerbelastung | 0 € auf den Übertragungsgewinn, aber 70.000 € Verlust verloren | 0 € auf den Übertragungsgewinn, 40.000 € Verlust genutzt |
+
+  Die Aufgabenstellung verlangt diese Überlegung ausdrücklich („bauen Sie darauf die weitere
+  Lösung auf“) – wer reflexhaft den Buchwert wählt, baut die ganze Textziffer falsch auf.
+
+  Bei der A-UG hat die Verschmelzung drei Folgen: Der **Übernahmegewinn** von 5.000 € ergibt
+  sich aus dem übernommenen Eigenkapital von 15.000 € (./. 15.000 € vor der Aufstockung,
+  + 30.000 € Firmenwert) abzüglich des Beteiligungsbuchwerts von 10.000 €; er ist nach § 12
+  Abs. 2 Satz 1 UmwStG steuerfrei, unterliegt aber nach Satz 2 dem § 8b Abs. 3 Satz 1 KStG
+  (+ 250 €). Der **Übernahmefolgegewinn** von 15.000 € entsteht, weil die auf 5.000 €
+  abgeschriebene Forderung der A-UG auf die übernommene Verbindlichkeit von 20.000 € trifft –
+  er wird durch die Rücklage nach § 12 Abs. 4, § 6 Abs. 1 Satz 1 UmwStG neutralisiert und
+  taucht in der Zusammenfassung des zvE deshalb gar nicht auf.
+
+  **Das Ergebnis:** zu versteuerndes Einkommen **57.450 €**, festzusetzende
+  Körperschaftsteuer 15 % = **8.617 €**.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.**
+
+  **Eine Abweichung bei der Punktvergabe – eigene Feststellung:** Der Kopf nennt **40
+  Punkte**, die Auszählung der Randpunkte ergibt **42**. Im Datensatz sind 40 Punkte vergeben
+  – dem Kopf folgend; die beiden Randpunkte der abschließenden Zusammenfassung sind nicht
+  gesondert ausgewiesen. Dieselbe Abweichung gibt es in der Klausur 2011 (36 gegen 35).
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** in der
+  Zusammenfassung „§ 8 Abs. 5 Satz 1 KStG“ statt § 8b Abs. 3 Satz 1 KStG; „so dass
+  außerbilanziell ein Betrag von 250 € … zu erfolgen hat“ ohne Bezugswort; „Untergang der
+  Beteiligten an der T-GmbH“ statt der Beteiligung; „eine erfolgswirksamen Nachholung“; „Die
+  durch die Prämienzahlungen eingetretenen Vermögensminderung stellen“; die Bezeichnung des
+  Sohnes als „Geschäftsführer“ des Vereins, obwohl der Sachverhalt ihn als
+  Vorstandsvorsitzenden führt; sowie die Schreibweise „.7.500“ im Hinweis zum Bilanzgewinn.

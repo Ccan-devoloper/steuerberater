@@ -1727,6 +1727,33 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   - 53.058 €, weil 100.000 € Kapitalertragsteuer anzurechnen sind. Jede Zahl ist unabhängig
   nachgerechnet; dass die Auszählung der Randpunkte 36 statt der im Kopf genannten
   35 Punkte ergibt, ist als **eigene Feststellung** gekennzeichnet.
+  Die **Prüfung 2012 (A-UG, 40 Punkte)** beginnt mit einer **Rückrechnung**: Der
+  Jahresüberschuss – Ausgangswert der ganzen Einkommensermittlung – steht nirgends im
+  Sachverhalt und ist nur über die Rechtsform zu erschließen, weil eine
+  Unternehmergesellschaft nach § 5a Abs. 3 GmbHG ein Viertel in die gesetzliche Rücklage
+  einstellen muss: 7.500 € Zuführung ergeben 30.000 €. Danach fünf Bausteine. Bei der
+  **Pensionszusage** sind zwei vergessene Bilanzposten nachzuholen – mit gegenläufigem
+  Ergebnis: Die Rückstellung begrenzt das Nachholverbot des § 6a Abs. 4 Satz 1 EStG auf die
+  2.000 € des laufenden Jahres, der Rückdeckungsanspruch ist mit vollen 6.500 € zu
+  aktivieren (keine Saldierung, § 246 Abs. 2 HGB); dazu eine vGA, weil die Zusage ohne
+  Probezeit erteilt wurde. Bei den **ausländischen Einkünften** aus einem Staat ohne DBA
+  wird dieselbe Frage dreimal anders beantwortet: Die Quellensteuer auf die nach § 8b KStG
+  steuerfreie Dividende bleibt endgültig hinzugerechnet, die Betriebsstättensteuer ist über
+  § 34c **Abs. 3** EStG abziehbar, und der Betriebsstättengewinn ist mangels DBA voll
+  steuerpflichtig. Beim **Geschäftsführergehalt** greift das Rückwirkungsverbot
+  ausnahmsweise **nicht**: X ist zwar beherrschender Gesellschafter (30 % unmittelbar plus
+  60 % über die von ihm beherrschte B-GmbH = 90 %), die Erhöhung war aber im Voraus klar
+  vereinbart – unwirksam war nur die Vertretung, und § 184 BGB heilt rückwirkend. Die
+  **Spende** an den Verein, dessen Vorstandsvorsitzender der Sohn des Gesellschafters ist,
+  ist zugleich vGA und teilt sich bei der Bewertung auf zwei Vorschriften auf: 800 € gemeiner
+  Wert nach § 8 Abs. 3 Satz 2 KStG, die restlichen 200 € nach § 8b Abs. 3 Satz 3 KStG. Und
+  bei der **Aufwärtsverschmelzung** ist ausnahmsweise der Ansatz zum **gemeinen Wert**
+  günstiger als der Buchwertansatz, weil der Übertragungsgewinn von 30.000 € sonst
+  ungenutzten Verlustvortrag verbraucht; Übernahmegewinn 5.000 € (steuerfrei, davon 5 % nicht
+  abziehbar) und ein Übernahmefolgegewinn von 15.000 €, den die Rücklage nach § 6 Abs. 1
+  UmwStG neutralisiert. Zu versteuerndes Einkommen 57.450 €, Körperschaftsteuer 8.617 €.
+  Auch hier ist die Abweichung der Randpunkte (42 gegen 40 im Kopf) als **eigene
+  Feststellung** gekennzeichnet.
   Prüfung: `npm run check:k2-kst-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
