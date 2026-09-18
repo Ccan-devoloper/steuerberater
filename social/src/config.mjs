@@ -106,6 +106,48 @@ export const CONFIG = {
        schaltet sie ab; IG_KI_MODELL_ZWEITMEINUNG wählt das Modell. */
     zweitmeinung: env("IG_FAKTENCHECK_ZWEITMEINUNG", "true") === "true",
     zweitmeinungModell: env("IG_KI_MODELL_ZWEITMEINUNG", ""),
+    /* Prüfer aus einem anderen Haus (Beschluss des Betreibers, 18.09.).
+       Der Preis ist der zweite Grund; der erste wiegt schwerer: Prüfer und
+       Autor waren bisher dasselbe Modell derselben Familie. Was dem Modell
+       beim Schreiben unterläuft, fällt ihm beim Lesen seltener auf - genau
+       so ging am 16.09. der Kenntnisträger des § 1365 BGB durch. Ein Prüfer
+       eines anderen Anbieters hat diese Blindstelle nicht.
+
+       Die Zweitmeinung bleibt bei Claude: Erst prüft der eine, dann
+       beurteilt der andere die Einwände. Zwei Häuser, zwei Blickwinkel.
+
+       Fällt OpenAI aus, übernimmt Claude von selbst.
+       GEMESSEN am 18.09. (Workflow "Prüfer · Vergleichsprobe", zwei Texte:
+       einer mit dem bekannten § 1365-Fehler, einer ohne):
+
+         Prüfer            findet den Fehler   Falschbefunde   je Prüfung   Dauer
+         claude-sonnet-5   ja, als Fehler      keine           0,010 $       5 s
+         gpt-5             ja, als Fehler      keine           0,055 $      50 s
+         gpt-5-mini        nur als Hinweis     zwei            0,010 $      40 s
+
+       gpt-5-mini hat zwei richtige Sätze für falsch erklärt (§ 1365 BGB gelte
+       nicht nur im gesetzlichen Güterstand; die Rechtsfolge sei Nichtigkeit
+       statt schwebender Unwirksamkeit) und den wirklichen Fehler auf einen
+       Hinweis herabgestuft - ein Hinweis hält nichts auf. gpt-5 prüft sauber
+       und fand sogar das ernsthafte Bemühen nach § 24 Abs. 1 Satz 2 StGB,
+       kostet aber das Fünffache.
+
+       Deshalb bleibt die Voreinstellung vorerst bei Claude, das seit dem
+       18.09. mit "low" prüft und damit so viel kostet wie gpt-5-mini. Der
+       Weg zu OpenAI ist gebaut und mit einer Variablen geschaltet:
+       IG_FAKTENCHECK_ANBIETER=openai, Modell über
+       IG_FAKTENCHECK_OPENAI_MODELL. Die Probe lässt sich jederzeit
+       wiederholen, wenn neue Modelle erscheinen. */
+    anbieter: env("IG_FAKTENCHECK_ANBIETER", "claude"),
+    openai: {
+      key: env("OPENAI_API_KEY", ""),
+      /* Gemessen wird, nicht geglaubt: bin/pruefer-probe.mjs stellt die
+         Modelle an denselben Text mit bekanntem Fehler. */
+      modellStreng: env("IG_FAKTENCHECK_OPENAI_MODELL", "gpt-5-mini"),
+      modellLocker: env("IG_FAKTENCHECK_OPENAI_MODELL_LOCKER", "gpt-5-mini"),
+      aufwand: env("IG_FAKTENCHECK_OPENAI_AUFWAND", "medium"),
+      zeitlimitMs: Number(env("IG_FAKTENCHECK_OPENAI_ZEITLIMIT_MS", "120000")),
+    },
   },
 
   /* Schlüsselwort-Nachrichten: „Kommentiere SCHEMA …“ → Karte per Direktnachricht */
