@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 37 Kapitel mit 470 Abschnitten und 31
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 39 Kapitel mit 507 Abschnitten und 34
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2650,6 +2650,29 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   aus: Für Gewinnminderungen i. S. des § 8b Abs. 3 KStG gibt es keine Ausnahmen, sie sind in der
   Ausgangsgröße des § 7 Satz 1 GewStG schon nicht mehr enthalten und unterliegen auch keiner
   Hinzurechnungsnorm. **Damit ist auch das Kapitel 4 der Quelle vollständig.**
+  Aus **Kapitel 5 (mittelbare Beteiligung über eine Personengesellschaft)** sind die
+  Steuerfreistellung der Beteiligungserträge und die Gewinnausschüttungen eingepflegt. § 8b Abs. 6
+  KStG behandelt die über einen Mitunternehmeranteil bezogenen Ausschüttungen, Veräußerungsgewinne
+  und Gewinnminderungen, als hätte die Kapitalgesellschaft sie unmittelbar bezogen – gleich ob die
+  Beteiligung im Gesamthands- oder im Sonderbetriebsvermögen liegt. Bei einer **vermögensverwaltenden**
+  Personengesellschaft läuft die Vorschrift dagegen leer, weil § 39 Abs. 2 Nr. 2 AO die Anteile
+  ohnehin schon unmittelbar zurechnet. Verfahrensrechtlich am wichtigsten ist die **Bruttomethode**:
+  Der Feststellungsbescheid nach § 180 AO weist die Einkünfte **ohne** die Wirkungen des § 8b KStG
+  aus und teilt zusätzlich mit, welcher Betrag beim Mitunternehmer unter § 8b KStG bzw. §§ 3 Nr. 40,
+  3c Abs. 2 EStG fällt – notwendig, weil dieselbe Ausschüttung je nach Rechtsform des Gesellschafters
+  anders zu behandeln ist. Diese Zusatzangabe ist über § 182 Abs. 1 Satz 1 AO **bindend** und nicht
+  nur nachrichtlich; gewerbesteuerlich gilt dagegen nach § 7 Satz 4 GewStG die Nettomethode.
+  Bilanziell wird der Mitunternehmeranteil nach der **Spiegelbildmethode** entwickelt, wobei zum
+  steuerlichen Kapital neben dem Gesamthandskapital auch das Sonderbetriebsvermögen zählt; im
+  durchgerechneten Beispiel heben sich dort Sonderbetriebseinnahme und Entnahme sowie
+  Sonderbetriebsausgabe und Einlage paarweise auf, so dass es bei 100.000 € bleibt. Bei der
+  **Ausschüttung** sind vier Schritte in fester Reihenfolge nötig: Weil die Personengesellschaft nur
+  die Nettoausschüttung als Ertrag gebucht hat, stellt erst die Hinzurechnung der anteiligen
+  Kapitalertragsteuer nach § 10 Nr. 2 KStG die Bruttoausschüttung her, von der § 8b Abs. 1 KStG dann
+  freistellen kann – wer den Schritt vergisst, kommt um den Steuerbetrag zu niedrig heraus. Die
+  Streubesitzquote ist **durchzurechnen** (50 % an der KG × 30 % an der Tochter = 15 %), und die
+  Kapitalertragsteuer wird nach § 31 KStG erst bei der Mitunternehmer-Kapitalgesellschaft
+  angerechnet, weil die Personengesellschaft selbst keine Steuer schuldet.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -24,9 +24,12 @@
    nahestehenden Person und dem rückgriffsberechtigten Dritten als
    Darlehensgeber, der Wertaufholung und den wirtschaftlich vergleichbaren
    Forderungen bis zum Gegenbeweis, den Wechselkursverlusten und der
-   Gewerbesteuer. Es folgen die Kapitel 5 (mittelbare Beteiligung über eine
-   Personengesellschaft) und 6 (weitere Tatbestände); der Campus weist den Stand
-   aus.
+   Gewerbesteuer. Aus Kapitel 5 (mittelbare Beteiligung über eine
+   Personengesellschaft) sind die Steuerfreistellung der Beteiligungserträge
+   samt Spiegelbildmethode (5.1) und die Gewinnausschüttungen (5.2) übernommen.
+   Es folgen die Veräußerungsgewinne (5.3), die Gewinnminderungen (5.4), die
+   Gewerbesteuer (5.5) sowie das Kapitel 6 (weitere Tatbestände); der Campus
+   weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -1452,6 +1455,121 @@ export const kstTeil2 = [
       { text: "Für sämtliche Gewinnminderungen i.S. des § 8b Abs. 3 KStG existieren gewerbesteuerlich keine Ausnahmen. Diese sind somit in der Ausgangsgröße i.S. des § 7 Satz 1 GewStG bereits nicht mehr enthalten und unterliegen auch gewerbesteuerlich keiner Hinzurechnungsnorm." },
       { text: "Anmerkung zur Gewerbesteuer (eigene Ergänzung): Der Abschnitt kommt mit zwei Sätzen aus, und das aus demselben Grund wie bei den Veräußerungsgewinnen in Kapitel 3: Die außerbilanzielle Hinzurechnung nach § 8b Abs. 3 KStG wirkt über § 7 Satz 1 GewStG unmittelbar auf den Gewerbeertrag durch, weil dieser an den nach körperschaftsteuerlichen Vorschriften ermittelten Gewinn anknüpft. Eine eigene gewerbesteuerliche Korrektur ist deshalb weder nötig noch vorhanden – und anders als bei den Ausschüttungen des Kapitels 2 gibt es hier auch keine Vorschrift, die das Ergebnis wieder zurückdreht. Das ist bemerkenswert, weil § 8b KStG damit an drei Stellen völlig unterschiedlich auf die Gewerbesteuer durchschlägt: Bei den Ausschüttungen (Absatz 1) laufen Schachtelprivileg und Hinzurechnung nach § 8 Nr. 5 GewStG nebeneinander und können zu abweichenden Ergebnissen führen, bei den Veräußerungsgewinnen (Absatz 2) und bei den Gewinnminderungen (Absatz 3) läuft die körperschaftsteuerliche Behandlung dagegen ohne jede Korrektur durch." },
       { text: "Damit ist das Kapitel 4 der Quelle vollständig übernommen. (Eigene Einordnung:) Es folgt das Kapitel 5 zur mittelbaren Beteiligung über eine Personengesellschaft." },
+    ],
+  },
+  {
+    id: "kst-t2-38",
+    kapitel: "38",
+    abschnittNr: "5.1",
+    title: "5.1 Steuerfreistellung der Beteiligungserträge – § 8b Abs. 6 KStG und die Spiegelbildmethode",
+    thema: "Über den Mitunternehmeranteil bezogene Beteiligungserträge werden behandelt, als hätte die Kapitalgesellschaft sie unmittelbar bezogen. Die Feststellung erfolgt regelmäßig nach der Bruttomethode, der Anteil selbst wird spiegelbildlich zum steuerlichen Kapitalkonto entwickelt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 5.1.1 und 5.1.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 6 KStG",
+      "§ 8b Abs. 1 bis 5 KStG",
+      "§ 8b Abs. 3 Sätze 3 bis 8 KStG",
+      "§ 39 Abs. 2 Nr. 2 AO",
+      "§ 180 AO",
+      "§ 182 Abs. 1 Satz 1 AO",
+      "§ 3 Nr. 40 EStG, § 3c Abs. 2 EStG",
+      "§ 7 Satz 4 GewStG",
+      "BFH vom 23.07.1975, BStBl. II 1976, 73",
+      "BFH vom 18.07.2012, BStBl. II 2013, 444",
+      "BFH vom 25.07.2019, BStBl. II 2020, 142",
+      "BMF vom 28.03.1998, BStBl. I 1998, 268",
+      "BFH vom 20.06.1985, BStBl. II 1985, 654",
+    ],
+    themen: ["§ 8b Abs. 6 KStG", "Transparenzprinzip", "Bruttomethode", "Bindungswirkung", "Spiegelbildmethode"],
+    bloecke: [
+      { text: "§ 8b KStG ist auch für Beteiligungserträge bzw. Gewinnminderungen anzuwenden, die der Kapitalgesellschaft über einen Mitunternehmeranteil zuzurechnen sind. Dies ist folgerichtig, weil der Mitunternehmeranteil ertragsteuerrechtlich aufgrund des sog. Transparenzprinzips kein eigenes Wirtschaftsgut darstellt, sondern dem Mitunternehmer einen Anteil an sämtlichen Wirtschaftsgütern des Gesamthandsvermögens vermittelt. § 8b Abs. 6 KStG verweist daher auf die entsprechende Anwendung der § 8b Abs. 1 – 5 KStG, was dazu führt, dass die in dem Gewinn- oder Verlustanteil enthaltenen" },
+      { text: "– Gewinnausschüttungen (§ 8b Abs. 1 KStG)," },
+      { text: "– Veräußerungsgewinne i.S. des § 8b Abs. 2 KStG" },
+      { text: "– und Gewinnminderungen i.S. des § 8b Abs. 3 Sätze 3 – 8 KStG" },
+      { text: "so zu behandeln sind, als ob die Mitunternehmer-Kapitalgesellschaft diese unmittelbar bezogen hätte. Diese Rechtsfolgen ergeben sich unabhängig davon, ob sich die Beteiligung im Gesamthands- oder Sonderbetriebsvermögen befindet." },
+      { text: "Der steuerliche Gewinnanteil aus der Mitunternehmerschaft vermindert sich daher um steuerfreie Erträge i.S. des § 8b Abs. 1 + Abs. 2 KStG bzw. erhöht sich durch Gewinnminderungen i.S. des § 8b Abs. 3 Satz 3 f. KStG. Dabei sind auch die Auswirkungen der Betriebsausgabenpauschalierung i.S. des § 8b Abs. 5 Satz 1 bzw. § 8b Abs. 3 Satz 1 KStG zu berücksichtigen." },
+      { text: "In der einheitlichen und gesonderten Gewinnfeststellung der Mitunternehmerschaft (§ 180 AO) wird der Gewinn oder Verlust in aller Regel nach der sog. Bruttomethode ermittelt und festgestellt. Dies bedeutet, dass die festgestellten Einkünfte die Auswirkungen des § 8b KStG – bzw. die des Teileinkünfteverfahrens i.S. des § 3 Nr. 40 EStG – noch nicht abbilden. In dem Feststellungsbescheid werden lediglich die Einkünfte mitgeteilt, die beim Mitunternehmer unter §§ 3 Nr. 40, 3c Abs. 2 EStG bzw. § 8b KStG fallen. Diese Angabe fällt aber unter die verfahrensrechtliche Bindungswirkung des Feststellungsbescheides i.S. des § 182 Abs. 1 Satz 1 AO und ist somit nicht nur rein nachrichtlicher Natur. Die Anwendung der Netto-Methode ist daneben ebenfalls zulässig, ist aber seltener anzutreffen. Bezüglich der Gewerbesteuer gilt bei der Personengesellschaft die Nettomethode i.S. des § 7 Satz 4 GewStG." },
+      { text: "Bei Beteiligung an einer vermögensverwaltenden und nicht gewerblich tätigen Personengesellschaft kommt § 8b Abs. 6 KStG nicht zur Anwendung, weil in diesem Fall bereits die Bruchteilsbetrachtung des § 39 Abs. 2 Nr. 2 AO greift. Die Bezüge aus der Beteiligung werden der Kapitalgesellschaft bereits unmittelbar zugerechnet, so dass es eines Verweises auf § 8b Abs. 6 KStG nicht mehr bedarf." },
+      { text: "Merke: Bei einer Mitunternehmer-Kapitalgesellschaft sind bei den Beteiligungserträgen bzw. Gewinnminderungen, die über den Mitunternehmeranteil bezogen werden, aufgrund § 8b Abs. 6 KStG sämtliche Tatbestände des § 8b Abs. 1 – 5 KStG entsprechend zu berücksichtigen." },
+      { text: "Anmerkung zur Bruttomethode (eigene Ergänzung): Der Satz zur Bindungswirkung ist verfahrensrechtlich der wichtigste des Abschnitts. Nach der Bruttomethode stellt das Betriebsfinanzamt die Einkünfte **ohne** die Wirkungen des § 8b KStG fest und teilt zusätzlich mit, welcher Betrag darin unter § 8b KStG bzw. §§ 3 Nr. 40, 3c Abs. 2 EStG fällt. Das ist sinnvoll, weil dieselbe Ausschüttung bei einer beteiligten Kapitalgesellschaft nach § 8b KStG, bei einer natürlichen Person nach dem Teileinkünfteverfahren zu behandeln ist – die Personengesellschaft kennt die Rechtsform ihrer Gesellschafter, das Ergebnis der Korrektur aber hängt von ihr ab. Entscheidend ist: Diese Zusatzangabe ist **kein bloßer Hinweis**, sondern über § 182 Abs. 1 Satz 1 AO bindend. Das Wohnsitz- oder Körperschaftsteuerfinanzamt darf sie nicht eigenständig abweichend beurteilen, sondern muss gegebenenfalls die Änderung des Grundlagenbescheids abwarten." },
+      { text: "Anmerkung zur Abgrenzung (eigene Ergänzung): Der letzte Absatz schließt den Kreis zu Abschnitt 4.2.2.1. Bei der **vermögensverwaltenden** Personengesellschaft läuft § 8b Abs. 6 KStG leer – nicht weil § 8b KStG nicht gälte, sondern weil es des Verweises nicht bedarf: § 39 Abs. 2 Nr. 2 AO rechnet der Kapitalgesellschaft die Anteile ohnehin schon unmittelbar zu, und dann greift § 8b Abs. 1 bis 5 KStG direkt. Praktisch bedeutsam ist der Unterschied trotzdem, weil die **Quote** dann eine andere ist: bei der gewerblichen die der Personengesellschaft, bei der vermögensverwaltenden die durchgerechnete." },
+      { typ: "titel", text: "5.1.2 Bilanzielle Darstellung" },
+      { text: "In der Steuerbilanz der Kapitalgesellschaft ist der Mitunternehmeranteil nach der sog. Spiegelbildmethode zu entwickeln. Der Bilanzansatz stellt daher ein Spiegelbild des steuerlichen Kapitalkontos der Kapitalgesellschaft dar. Bei der Mitunternehmer-Kapitalgesellschaft ist daher korrespondierend zur Personengesellschaft zu buchen:" },
+      { text: "– Gewinnanteile aus der Personengesellschaft werden bei der Kapitalgesellschaft als Ertrag erfasst (Buchung: Beteiligung PersG an Ertrag)" },
+      { text: "– Verlustanteile aus der Personengesellschaft führen bei der Kapitalgesellschaft zu einem Aufwand (Buchung: Aufwand an Beteiligung PersG)" },
+      { text: "Beispiel: Die A-GmbH ist an der A+B Speditions-KG beteiligt. Das Kapitalkonto I (Festkapital) der A-GmbH beträgt am 31.12.2026 200.000 €, das Kapitalkonto II zum 01.01.2026 (!) 50.000 €." },
+      { text: "Ihr Gewinnanteil aus dem Gesamthandsbereich beträgt in 2026 70.000 €." },
+      { text: "Daneben überlässt die A-GmbH der KG seit Jahren ein unbebautes Grundstück (AK 100.000 €) zur Nutzung, wofür sie in 2026 eine angemessene Vergütung von 20.000 € erhielt. Die mit dem Grundstück zusammenhängenden Aufwendungen betragen 5.000 €." },
+      { text: "Lösung: Nach der Spiegelbildmethode muss der steuerliche Ansatz im Betriebsvermögen der A-GmbH ihrem steuerlichen Kapitalkonto bei der KG entsprechen. Zu diesem rechnet neben dem Gesamthandskapital auch das Sonderbetriebsvermögen. Das steuerliche Kapital zum 31.12.2026 entwickelt sich bei der KG wie folgt:" },
+      { typ: "tabelle", spalten: ["Position", "Betrag"], zeilen: [
+        ["Kapitalkonto I", "200.000,00 €"],
+        ["Kapitalkonto II (01.01.2026)", "50.000,00 €"],
+        ["+ Gewinnanteil 2026", "+ 70.000,00 €"],
+        ["Kapitalkonto II 31.12.2026", "120.000,00 €"],
+        ["Gesamthandskapital", "320.000,00 €"],
+        ["Sonderbetriebsvermögen 01.01.2026", "100.000,00 €"],
+        ["+ Sonder-BE", "+ 20.000,00 €"],
+        ["./. Sonder-BA", "./. 5.000,00 €"],
+        ["+ Einlagen", "+ 5.000,00 €"],
+        ["./. Entnahmen", "./. 20.000,00 €"],
+        ["Sonderbetriebsvermögen 31.12.2026", "100.000,00 €"],
+        ["steuerliches Kapital", "420.000,00 €"],
+      ] },
+      { text: "Mit diesem Wert ist der Anteil an der Personengesellschaft zum 31.12.2026 bei der A-GmbH steuerbilanziell auszuweisen. Zur Entwicklung dieses Bilanzpostens sind folgende Buchungen vorzunehmen:" },
+      { typ: "tabelle", spalten: ["Position", "Betrag", "Buchung bei der A-GmbH"], zeilen: [
+        ["Wert 01.01.2026", "350.000,00 €", "—"],
+        ["+ Gewinnanteil", "+ 70.000,00 €", "Anteil KG an Ertrag"],
+        ["./. Sonder-BA", "./. 5.000,00 €", "Aufwand an Anteil KG"],
+        ["+ Einlage", "+ 5.000,00 €", "Anteil KG an Bank"],
+        ["+ Sonder-BE", "+ 20.000,00 €", "Anteil KG an Ertrag"],
+        ["./. Entnahmen", "./. 20.000,00 €", "Bank an Anteil KG"],
+        ["31.12.2026", "420.000,00 €", "—"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen der Quelle gehen auf. Kapitalkonto II: 50.000 € + 70.000 € = 120.000 €; Gesamthandskapital 200.000 € + 120.000 € = 320.000 €. Sonderbetriebsvermögen: 100.000 € + 20.000 € ./. 5.000 € + 5.000 € ./. 20.000 € = 100.000 €. Steuerliches Kapital 320.000 € + 100.000 € = 420.000 €. Der Anfangswert von 350.000 € nennt die Quelle ohne Herleitung; er ergibt sich aus dem Gesamthandskapital zum 01.01.2026 (200.000 € + 50.000 € = 250.000 €) zuzüglich des Sonderbetriebsvermögens von 100.000 € – das ist eigene Herleitung. Die Entwicklung 350.000 € + 70.000 € ./. 5.000 € + 5.000 € + 20.000 € ./. 20.000 € = 420.000 € stimmt damit überein." },
+      { text: "Anmerkung zum Sonderbetriebsvermögen (eigene Ergänzung): Dass es trotz vier Bewegungen mit unverändert 100.000 € endet, ist kein Zufall und in der Klausur der eigentliche Prüfstein. Die Sonderbetriebseinnahme von 20.000 € und die Entnahme von 20.000 € gehören zusammen: Die Miete fließt auf das Bankkonto der A-GmbH, verlässt also das Sonderbetriebsvermögen sofort wieder. Ebenso gehören die Sonderbetriebsausgabe von 5.000 € und die Einlage von 5.000 € zusammen: Die Grundstückskosten zahlt die A-GmbH von ihrem eigenen Konto, was eine Einlage in das Sonderbetriebsvermögen ist. Saldiert man die jeweiligen Buchungspaare, bleibt in der Bilanz der A-GmbH schlicht **Bank an Ertrag 20.000 €** und **Aufwand an Bank 5.000 €** übrig – der Posten „Anteil KG“ ist nur der Durchgangsposten. Das Grundstück selbst bleibt mit seinen Anschaffungskosten von 100.000 € stehen, weil ein unbebautes Grundstück nicht abgeschrieben wird." },
+      { text: "Anmerkung zum Ausrufezeichen der Quelle (eigene Ergänzung): Das „(!)“ hinter dem Kapitalkonto II zum 01.01.2026 ist ein Prüfungshinweis. Die Aufgabe nennt das Kapitalkonto I zum **31.12.**, das Kapitalkonto II dagegen zum **01.01.** – wer beide Stichtage gleichsetzt, rechnet den Gewinnanteil entweder doppelt oder gar nicht. Das Kapitalkonto I ist Festkapital und ändert sich nicht; nur das Kapitalkonto II nimmt Gewinne, Verluste, Einlagen und Entnahmen auf." },
+    ],
+  },
+  {
+    id: "kst-t2-39",
+    kapitel: "39",
+    abschnittNr: "5.2",
+    title: "5.2 Gewinnausschüttungen an die Personengesellschaft – vier Korrekturschritte",
+    thema: "Die über die Mitunternehmerschaft bezogene Ausschüttung ist nach § 8b Abs. 6 i. V. mit Abs. 1 KStG steuerfrei. Die Streubesitzquote ist durchzurechnen, die Kapitalertragsteuer nach § 10 Nr. 2 KStG hinzuzurechnen und erst bei der Mitunternehmer-Kapitalgesellschaft anzurechnen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 5.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 6 KStG",
+      "§ 8b Abs. 1 Satz 1 KStG",
+      "§ 8b Abs. 1 Satz 2 KStG",
+      "§ 8b Abs. 4 Sätze 4 und 5 KStG",
+      "§ 8b Abs. 5 Satz 1 KStG",
+      "§ 10 Nr. 2 KStG",
+      "§ 31 KStG",
+      "§ 20 Abs. 1 Nr. 1 EStG",
+      "BFH vom 22.11.1995, BStBl. II 1996, 531",
+    ],
+    themen: ["Ausschüttung über die Mitunternehmerschaft", "Durchgerechnete Quote", "Kapitalertragsteuer", "§ 10 Nr. 2 KStG", "Materielle Korrespondenz"],
+    bloecke: [
+      { text: "Vereinnahmt die Personengesellschaft einen Beteiligungsertrag i.S. des § 20 Abs. 1 Nr. 1 EStG, ist dieser Ertrag bei der Mitunternehmer-Kapitalgesellschaft grundsätzlich steuerfrei (§ 8b Abs. 6 i.V. mit § 8b Abs. 1 KStG). Dabei sind aber auch die Einschränkungen der Streubesitzregelung des § 8b Abs. 4 KStG zu beachten. Der von der Personengesellschaft gehaltene Anteil wird der Mitunternehmer-Kapitalgesellschaft wie ein unmittelbarer Anteil zugerechnet (§ 8b Abs. 4 Satz 4 und Satz 5 KStG). Dabei ist für Zwecke der Beteiligungsquote auf den durchgerechneten Wert abzustellen (siehe hierzu unter 2.1.3.1.1). Die Gewinnausschüttung führt gleichzeitig zur Anwendung der Betriebsausgabenpauschalierung (§ 8b Abs. 6 i.V. mit § 8b Abs. 5 Satz 1 KStG)." },
+      { text: "Dabei sind auch wiederum die Auswirkungen des § 10 Nr. 2 KStG zu beachten, wenn die mit der Gewinnausschüttung zusammenhängenden Steuern bei der Personengesellschaft gewinnwirksam berücksichtigt worden sind. Gleiches gilt, wenn sich der Anteil im Sonderbetriebsvermögen der Mitunternehmer-Kapitalgesellschaft befindet. Die Steueranrechnung i.S. des § 31 KStG erfolgt nur bei der Steuerfestsetzung der Mitunternehmer-Kapitalgesellschaft." },
+      { text: "In Fällen einer verdeckten Gewinnausschüttung, die der Personengesellschaft als Anteilseigner zuzurechnen ist bzw. im Sonderbetriebsvermögen der Mitunternehmer-Kapitalgesellschaft zufließt, sind auch wiederum die Einschränkungen der materiellen Korrespondenz i.S. des § 8b Abs. 1 Satz 2 KStG zu beachten." },
+      { text: "Beispiel: An der A+B GmbH & Co KG ist die B-GmbH zu 50 % beteiligt. Zum Betriebsvermögen der KG gehört u.a. eine 30%ige Beteiligung an der C-GmbH. Diese schüttet in 2026 100.000 € an die KG aus. Nach Abzug der Kapitalertragsteuer werden dieser 75.000 € überwiesen (Buchung: Bank an Ertrag 75.000 €). Der Gesamtgewinn der KG beträgt (inklusive Gewinnausschüttung) 500.000 €." },
+      { text: "Lösung: In der Bilanz der B-GmbH wird der ihr zuzurechnende 50%ige Gewinnanteil der KG erfolgswirksam erfasst (Buchung: Beteiligung an Ertrag 250.000 €). Die darin enthaltene Gewinnausschüttung ist nach § 8b Abs. 6 i.V. mit § 8b Abs. 1 Satz 1 KStG steuerfrei. Für Zwecke der Streubesitzregelung des § 8b Abs. 4 KStG liegt ein Anteil von 15 % (50 % von 30 %) vor, weil der Anteil an der C-GmbH wie ein unmittelbarer Anteil zu behandeln ist (§ 8b Abs. 4 Satz 4 und 5 KStG). Da der Gewinnanteil durch die Kapitalertragsteuer gemindert wurde, ist der Aufwand nach § 10 Nr. 2 KStG dem Einkommen wieder hinzuzurechnen (+ 12.500 €). Die steuerfreie Gewinnausschüttung von 50.000 € ist sodann im Rahmen der Einkommensermittlung wieder abzuziehen. Gleichzeitig entstehen nicht abziehbare Betriebsausgaben von 2.500 € (§ 8b Abs. 5 Satz 1 KStG)." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung bei der B-GmbH", "Betrag"], zeilen: [
+        ["Ertrag lt. Bilanz", "250.000 €"],
+        ["+ § 10 Nr. 2 KStG", "+ 12.500 €"],
+        ["./. § 8b Abs. 1 KStG", "./. 50.000 €"],
+        ["+ § 8b Abs. 5 Satz 1 KStG", "+ 2.500 €"],
+      ] },
+      { text: "Die Kapitalertragsteuer ist auf die Körperschaftsteuer der B-GmbH anzurechnen." },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen der Quelle gehen auf. Die Kapitalertragsteuer beträgt 25 % von 100.000 € = 25.000 €, weshalb der KG 75.000 € zufließen. Auf die B-GmbH entfallen davon 50 %: Gewinnanteil 250.000 € (die Hälfte von 500.000 €), anteilige Kapitalertragsteuer 12.500 €, anteilige Bruttoausschüttung 50.000 €, Pauschale 5 % davon = 2.500 €. Die Summe der Einkommensermittlung nennt die Quelle nicht; sie beträgt 250.000 € + 12.500 € ./. 50.000 € + 2.500 € = **215.000 €** – das ist eigene Herleitung." },
+      { text: "Anmerkung zur Reihenfolge (eigene Ergänzung): Die beiden ersten Schritte gehören zusammen und dürfen nicht vertauscht werden – es ist dieselbe Nettomethode, die schon in Kapitel 2 bei der unmittelbaren Ausschüttung auftrat. Weil die KG nur die **Nettoausschüttung** von 75.000 € als Ertrag gebucht hat, steckt die Kapitalertragsteuer als Aufwand im Gewinnanteil. Erst die Hinzurechnung nach § 10 Nr. 2 KStG stellt die Bruttoausschüttung her, und erst von dieser kann § 8b Abs. 1 KStG die vollen 50.000 € freistellen. Wer die Hinzurechnung vergisst, stellt 50.000 € frei, die nur mit 37.500 € im Ertrag stecken, und kommt zu einem um 12.500 € zu niedrigen Einkommen." },
+      { text: "Anmerkung zur durchgerechneten Quote (eigene Ergänzung): Hier zeigt sich derselbe Mechanismus wie in Abschnitt 2.1.3.1.1, nur aus der anderen Richtung. Die KG hält 30 % an der C-GmbH – für sich genommen weit über der Streubesitzgrenze. Maßgeblich ist aber die **durchgerechnete** Quote der B-GmbH von 50 % × 30 % = 15 %. Sie liegt noch über 10 %, die Ausschüttung bleibt also steuerfrei. Wäre die B-GmbH nur zu 30 % an der KG beteiligt, betrüge die Quote 9 % – und dieselbe Ausschüttung wäre nach § 8b Abs. 4 KStG voll steuerpflichtig, obwohl sich an der Beteiligung der KG nichts geändert hätte." },
+      { text: "Anmerkung zur Anrechnung (eigene Ergänzung): Der Satz zu § 31 KStG ist verfahrensrechtlich bemerkenswert. Einbehalten wird die Kapitalertragsteuer auf Ebene der **Personengesellschaft**, angerechnet wird sie aber erst bei der Steuerfestsetzung der **Mitunternehmer-Kapitalgesellschaft** – die Personengesellschaft ist nicht körperschaft- oder einkommensteuerpflichtig und hat deshalb keine Steuer, auf die etwas angerechnet werden könnte. Die anteilige Kapitalertragsteuer wird darum wie der Gewinnanteil selbst nach der Beteiligungsquote verteilt und im Feststellungsverfahren mitgeteilt." },
+      { text: "Anmerkung zur verdeckten Gewinnausschüttung (eigene Ergänzung): Der Hinweis auf § 8b Abs. 1 Satz 2 KStG schließt den Kreis zum materiellen Korrespondenzprinzip aus Kapitel 2. Es gilt auch dann, wenn die verdeckte Gewinnausschüttung nicht unmittelbar der Kapitalgesellschaft, sondern der Personengesellschaft oder ihrem Sonderbetriebsvermögen zufließt: Hat sie bei der leistenden Gesellschaft das Einkommen gemindert, entfällt die Steuerfreiheit – über § 8b Abs. 6 KStG genauso wie bei unmittelbarem Bezug." },
     ],
   },
 ];

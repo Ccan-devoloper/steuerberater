@@ -10620,6 +10620,70 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil II (Hamacher), Abschnitte 5.1 und 5.2 – Mitunternehmeranteil und Spiegelbild
+
+Quelle: dieselbe Datei, Seiten 57 bis 60; übernommen als Kapitel 38 und 39. Prüfung:
+`npm run check:k2-kst-teil2` (39 Kapitel, 507 Blöcke, 34 Tabellen).
+
+**Der verfahrensrechtlich wichtigste Satz** des Abschnitts 5.1.1 betrifft die Bruttomethode, und
+der Datensatz arbeitet heraus, warum sie so aussieht, wie sie aussieht: Der Feststellungsbescheid
+nach § 180 AO weist die Einkünfte **ohne** die Wirkungen des § 8b KStG aus und teilt zusätzlich
+mit, welcher Betrag beim Mitunternehmer darunter fällt. Das muss so sein, weil dieselbe Ausschüttung
+bei einer beteiligten Kapitalgesellschaft nach § 8b KStG, bei einer natürlichen Person nach dem
+Teileinkünfteverfahren zu behandeln ist – die Personengesellschaft kennt die Rechtsform ihrer
+Gesellschafter, das Ergebnis der Korrektur hängt aber von ihr ab. Entscheidend ist der Nachsatz der
+Quelle: Diese Zusatzangabe ist **kein bloßer Hinweis**, sondern über § 182 Abs. 1 Satz 1 AO bindend.
+Gewerbesteuerlich gilt daneben nach § 7 Satz 4 GewStG die Nettomethode.
+
+**Das Zahlenbeispiel zur Spiegelbildmethode** geht vollständig auf und ist im Datensatz in zwei
+Tabellen zerlegt – Entwicklung des steuerlichen Kapitals bei der KG und Entwicklung des
+Bilanzpostens bei der A-GmbH, letztere mit den Buchungssätzen. Kapitalkonto II 50.000 € + 70.000 €
+= 120.000 €, Gesamthandskapital 320.000 €, Sonderbetriebsvermögen unverändert 100.000 €,
+steuerliches Kapital 420.000 €.
+
+**Eine eigene Herleitung ist als solche gekennzeichnet:** Den Anfangswert von 350.000 € nennt die
+Quelle ohne Erklärung. Er ergibt sich aus dem Gesamthandskapital zum 01.01.2026 (200.000 €
+Festkapital + 50.000 € Kapitalkonto II = 250.000 €) zuzüglich des Sonderbetriebsvermögens von
+100.000 €.
+
+**Warum das Sonderbetriebsvermögen trotz vier Bewegungen unverändert bleibt**, ist in der Klausur
+der eigentliche Prüfstein, und der Datensatz erklärt es: Die Sonderbetriebseinnahme von 20.000 €
+und die Entnahme von 20.000 € gehören zusammen – die Miete fließt auf das Bankkonto der A-GmbH und
+verlässt das Sonderbetriebsvermögen sofort wieder. Ebenso die Sonderbetriebsausgabe von 5.000 € und
+die Einlage von 5.000 €, denn die Grundstückskosten zahlt die A-GmbH von ihrem eigenen Konto.
+Saldiert bleiben in ihrer Bilanz schlicht „Bank an Ertrag 20.000 €“ und „Aufwand an Bank 5.000 €“
+übrig; der Posten „Anteil KG“ ist nur Durchgangsposten. Auch das **Ausrufezeichen der Quelle**
+hinter dem Kapitalkonto II „zum 01.01.2026 (!)“ ist als Prüfungshinweis vermerkt: Die Aufgabe nennt
+das Festkapital zum 31.12., das Kapitalkonto II zum 01.01. – wer die Stichtage gleichsetzt, rechnet
+den Gewinnanteil doppelt oder gar nicht.
+
+**Die Ausschüttung über die Mitunternehmerschaft** (5.2) verlangt vier Korrekturschritte in fester
+Reihenfolge, und der Datensatz benennt die Falle: Weil die KG nur die **Nettoausschüttung** von
+75.000 € als Ertrag gebucht hat, steckt die Kapitalertragsteuer als Aufwand im Gewinnanteil. Erst
+die Hinzurechnung nach § 10 Nr. 2 KStG stellt die Bruttoausschüttung her, und erst von dieser kann
+§ 8b Abs. 1 KStG die vollen 50.000 € freistellen. Wer den Schritt vergisst, stellt 50.000 € frei,
+die nur mit 37.500 € im Ertrag stecken, und kommt um 12.500 € zu niedrig heraus.
+
+**Alle Zahlen der Quelle sind nachgerechnet:** Kapitalertragsteuer 25 % von 100.000 € = 25.000 €,
+Zufluss 75.000 €; Gewinnanteil der B-GmbH 50 % von 500.000 € = 250.000 €, anteilige
+Kapitalertragsteuer 12.500 €, anteilige Bruttoausschüttung 50.000 €, Pauschale 2.500 €. Die Summe
+der Einkommensermittlung nennt die Quelle nicht; sie beträgt **215.000 €** und ist als eigene
+Herleitung gekennzeichnet.
+
+**Die durchgerechnete Streubesitzquote** ist im Datensatz eigens eingeordnet, weil sie den
+Mechanismus aus Abschnitt 2.1.3.1.1 aus der anderen Richtung zeigt: Die KG hält 30 % an der
+C-GmbH, für sich genommen weit über der Grenze – maßgeblich ist aber die durchgerechnete Quote der
+B-GmbH von 50 % × 30 % = 15 %. Wäre die B-GmbH nur zu 30 % an der KG beteiligt, betrüge sie 9 %,
+und dieselbe Ausschüttung wäre voll steuerpflichtig, ohne dass sich an der Beteiligung der KG
+etwas geändert hätte. Vermerkt ist außerdem die verfahrensrechtliche Besonderheit des § 31 KStG:
+Einbehalten wird die Kapitalertragsteuer bei der Personengesellschaft, angerechnet erst bei der
+Mitunternehmer-Kapitalgesellschaft – die Personengesellschaft schuldet selbst keine Steuer, auf
+die etwas angerechnet werden könnte.
+
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte 5.3 (Veräußerungsgewinne), 5.4
+(Gewinnminderungen) und 5.5 (Gewerbesteuer) sowie das Kapitel 6; ganz offen sind die Skriptteile
+III bis VII.
+
 ### KSt Teil II (Hamacher), Abschnitte 4.2.8 bis 4.3 – Kapitel 4 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 54 bis 56; übernommen als Kapitel 36 und 37. Prüfung:
