@@ -32,6 +32,8 @@ Stand: siehe Git-Historie dieser Datei.
 | **Bilanzierung nach Handels- und Steuerrecht · Steuerberaterprüfungen 2011–2015** (Februar 2026), Drive-ID `1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ` | Aus der Prüfung 2012 die **Lösung des Teils III** (XYZ GmbH & Co. KG, 33 Punkte) – der Sachverhalt dazu liegt vollständig vor – sowie die Prüfungen **2013, 2014 und 2015** vollständig (je drei Aufgabenteile mit 100 Punkten) | Der Connector gibt aus dem 3,3-MB-PDF rund 133.000 Zeichen aus: die Prüfung 2011 vollständig (Sachverhalte und Lösungen zu allen drei Teilen), die Prüfung 2012 mit allen drei Sachverhalten sowie den Lösungen zu Teil I und Teil II. Der Text endet unmittelbar hinter „Teil II gesamt 33 Punkte“; die Lösung zu Teil III und die gesamten Prüfungen 2013–2015 sind nicht mehr enthalten. |
 | **Steuerberaterprüfung 2022/2023 – amtliche Prüfungsaufgaben**, Drive-ID `1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h` (Dateititel „2026) (10).pdf“) | Die **Musterlösungen zu sämtlichen Teilen** – die Datei enthält ausschließlich Aufgabentexte. Aus dieser Datei sind damit sämtliche Aufgabentexte aller drei Prüfungstage eingepflegt; es fehlen nur die Lösungen, die die Quelle nicht enthält | Der Connector gibt das 0,5-MB-PDF vollständig aus (rund 82.000 Zeichen, 34 Seiten). Es sind die reinen Prüfungsaufgaben aller drei Prüfungstage ohne jede Lösung. Der Bilanz-Prüfungstag (vier Teile, 100 Wertungspunkte), der vollständige Ertragsteuer-Prüfungstag (ESt 25 + 17 + 18, GewSt 8, KSt 28 + 4 = 100 Wertungspunkte) und der vollständige Verfahrensrechtstag (AO/FGO Monika Beer 35, USt Inge Irlbacher 35, ErbSt Erbfall Schüssel) stehen in den Reitern „Prüfungsklausuren im Original“. Eigene Feststellung: Ab dem Ertragsteuerteil trägt die Datei den Kopf „STEUERBERATERPRÜFUNG 2021/2022“, obwohl das Deckblatt 2022/2023 nennt. |
 | **Steuerberaterprüfung 2021/2022 – amtliche Prüfungsaufgaben**, Drive-ID `1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3` | Die **Musterlösungen zu sämtlichen Teilen** – auch diese Datei enthält ausschließlich Aufgabentexte. Der Bilanz-Prüfungstag (Klaus Becker, Mutter-GmbH, Müller-OHG), der vollständige Ertragsteuer-Prüfungstag (ESt mit den Sachverhalten Anne T., Thomas S. und Hanno P.; GewSt MAX-OHG; KSt TIP-AG) und der vollständige Verfahrensrechtstag (AO/FGO Dr. Bruno Bayer; USt Bartel, BB-Baustoffhandels-GmbH und Prager; ErbSt Erbfall Muhr) stehen in den Reitern „Prüfungsklausuren im Original“ des Bilanzen-, des ESt-, des GewSt-, des KSt-, des AO-, des USt- und des ErbSt-Campus. Aus dieser Datei sind damit sämtliche Aufgabentexte aller drei Prüfungstage eingepflegt; es fehlen nur die Lösungen, die die Quelle nicht enthält | Der Connector gibt das 0,7-MB-PDF vollständig aus (rund 90.000 Zeichen, 34 Seiten). |
+| **Ordner „Mitschriften_Markierungen“**, Drive-ID `1YkeROsff1n89Qj4T8qs4DMYZ8lxpMSKE` | Sämtliche Inhalte: rund 40 handschriftliche Mitschriften („Notiz …“, „Mitschrift …“, je 2–10 MB) und 13 ZIP-Archive („Markierung Wiegmann/Mirbach …“) | **Gesichtet und technisch nicht verwertbar.** Die Mitschriften sind Fotos bzw. Scans von Handschrift. Der Connector führt zwar eine Texterkennung durch, deren Ergebnis ist aber unbrauchbar: Paragraphenzeichen werden durchgehend als Ziffern gelesen („Genie Wohnsitz 9870“ für § 8 AO, „9970“ für § 9 AO, „92111“ für § 2 Abs. 1 EStG, „4350 1“ für § 35a EStG), Wörter werden verstümmelt („Steuerpflikt“, „Splittenglauf“, „Witwensplitting“ neben „Zahlung dasKto“). Eine wortlautgetreue Übernahme ist daraus nicht möglich; eine Rekonstruktion wäre Erfindung. Die ZIP-Archive kann der Connector überhaupt nicht lesen – das Format gehört nicht zu den unterstützten Typen. |
+| **Notfallbuch**, Drive-ID `1i0ZTLaEYMK2uMqkvu_50s8zV-hpOnQOy` (im Ordner „Abgabenordnung“) | Die vollständige Datei | **Gesichtet und technisch nicht verwertbar.** Ebenfalls eine Handschrift; die Texterkennung liefert dieselbe Art unbrauchbarer Ausgabe („v 370 515347370AEAO GIN1“, „5370 574 Klage 3391N1.1“). Inhaltlich handelt es sich erkennbar um eine Stichwortsammlung zur AO und FGO mit Paragraphenverweisen. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
 Rest: wortlautgetreu, mit Kennzeichnung jeder Stelle, an der die Quelle selbst nicht
@@ -297,15 +299,47 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB) ist „Bilanzierung nach Handels- und
   Steuerrecht · Steuerberaterprüfungen 2011 – 2015“ (Februar 2026; Verfasser Norbert Rott,
   Markus Schmidt und Alexander Horst) mit fünf Klausuren zu je drei Teilen und 100 Punkten;
-  **begonnen** – eingepflegt sind die **vollständige Prüfung 2011** mit allen drei
-  Teilen (Einzelunternehmen Herbst 34 Punkte, X-GmbH 33 Punkte, A-B-GmbH & Co. KG
-  33 Punkte) sowie **Teil I der Prüfung 2012** (Einzelunternehmen Winter, 34 Punkte) im
-  Reiter „Originalklausuren (Prüfung)“ des Bilanzen-Campus,
-  `src/data/k3-bil-originalklausuren.js`. **Wichtig:** Der Connector gibt die Datei nur bis
-  in die Lösung der Prüfung 2012 hinein aus (rund 133.000 Zeichen); offen und lesbar ist
-  daraus noch der Anfang von Teil II der Prüfung 2012 (Sommer GmbH). Der Rest gehört zu den blockierten Teilen in Abschnitt A.
-- Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
-- Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet
+  **vollständig ausgewertet, soweit der Connector Text ausgibt** – eingepflegt sind die
+  **vollständige Prüfung 2011** mit allen drei Teilen (Einzelunternehmen Herbst 34 Punkte,
+  X-GmbH 33 Punkte, A-B-GmbH & Co. KG 33 Punkte) sowie aus der **Prüfung 2012** die Teile I
+  (Einzelunternehmen Winter, 34 Punkte) und II (Sommer GmbH, 33 Punkte) im Reiter
+  „Originalklausuren (Prüfung)“ des Bilanzen-Campus, `src/data/k3-bil-originalklausuren.js`.
+  Der Sachverhalt zu Teil III der Prüfung 2012 (XYZ GmbH & Co. KG) liegt ebenfalls vor, die
+  zugehörige Lösung gibt der Connector nicht mehr aus; der Text endet unmittelbar hinter
+  „Teil II gesamt 33 Punkte“. Diese Lösung und die Prüfungen 2013 bis 2015 gehören zu den
+  blockierten Teilen in Abschnitt A.
+#### Lohnsteuer und Grunderwerbsteuer – gesichtet, noch nicht eingepflegt
+Für diese beiden Gebiete gibt es bislang keinen Campus. Beide Ordner sind jetzt gesichtet:
+
+- **Grunderwerbsteuer**, Ordner `1EUOPd5EtQg3eQ76LGNwfgevbhcV-96kI`, eine Datei
+  („2026) (9).pdf“, `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, 1,3 MB): das vollständige
+  Lehrgangsskript **„Vorbereitung auf die Steuerberaterprüfung · Grunderwerbsteuer“ von
+  Dr. Stephan Vossel, Januar 2026**, mit Inhaltsverzeichnis, Vorbemerkung, Charakterisierung,
+  Prüfungsschema und einem ausführlichen Teil zur Steuerbarkeit (§ 1 GrEStG). **Sauber lesbar**
+  – der Connector gibt gesetzten Text aus, keinen Scan. Einzupflegen.
+- **Lohnsteuer**, Ordner `1O6alBKmrJsgeQaOyWOTCv6mlDD5zZ8Gv`, drei Dateien:
+  - „Schema LSt StB und Stfw.pdf“ (`1CXkUXmNJRG1AVTi7d6qqokYyafhJFj97`, 0,09 MB) – das
+    **Lohnsteuer-Prüfungsschema Arbeitslohn von Markus Nöthen** in fünf Stufen (Einnahme in
+    Geld oder Geldeswert, steuerbarer Arbeitslohn, steuerpflichtiger Arbeitslohn, Bewertung
+    des Sachbezugs, Sachbezug oder Pauschalversteuerung). **Sauber lesbar.** Einzupflegen.
+  - „Korrektur allerletzte Berechnung, Rundungsfehler.pdf“ (`1c3sKXOHq10Hc64yEtQ2pWvJiEvoBiYWW`,
+    0,15 MB) – noch zu prüfen.
+  - „Lohnsteuervideo Mitschrift.pdf“ (`1_pq7S0hPgWxnJb92toX_iS43YfSUd3Li`, 3,7 MB) – nach
+    Größe und Titel vermutlich wieder eine Handschrift; noch zu prüfen.
+
+#### Ordner „Ergänzungslieferungen“ – existiert nicht
+Ein Ordner dieses Namens ist im freigegebenen Drive **nicht vorhanden.** Die Suche über alle
+Schreibweisen („Ergänzungslieferung“, „Ergaenzung“, „nzungsliefer“) liefert kein Ergebnis, und
+der Ordner „StB Tageslehrgang_online_Komplett“ (`11bUpMhJMJ41hxKqsODTwd6ETBUFBkj5G`) enthält
+genau elf Unterordner: Umsatzsteuer, Umwandlungssteuerrecht, Erbschaftsteuer_Bewertungsrecht,
+Bilanzierung, Mitschriften_Markierungen, Internationales Steuerrecht, Körperschaftsteuer,
+Abgabenordnung, Personengesellschaften, GewSt-Übungsfälle und Einkommensteuer. Die frühere
+Notiz, es gebe dort einen Ordner „Ergänzungslieferungen“, war unzutreffend und ist damit
+erledigt.
+
+#### Ordner „Mitschriften_Markierungen“ – gesichtet, technisch nicht verwertbar
+Siehe Abschnitt A. Der Ordner enthält rund 40 handschriftliche Mitschriften und 13
+ZIP-Archive; beides ist über den Connector nicht wortlautgetreu erfassbar.
 
 ### Struktur des Drive-Ordners (Stand des Neudurchlaufs)
 Der freigegebene Ordner „Unterlagen StB Endriss“ hat neun Unterordner: ErbStR, IStR, USt, AO,

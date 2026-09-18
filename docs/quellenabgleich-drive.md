@@ -9157,3 +9157,61 @@ wichtigsten Lieferanten, ein am Todestag geschlossener, aber erst danach erfüll
 Grundstückskaufvertrag mit 50.000 € Anzahlung, eine Lebensversicherung mit beiden Eheleuten
 als Versicherungsnehmern und ein Hausrat, der „beiden Ehegatten zuzurechnen ist“. Rechtsfolgen
 zieht er nicht.
+
+### Sichtung der zuletzt offenen Drive-Ordner (Mitschriften, Notfallbuch, Lohnsteuer, Grunderwerbsteuer)
+
+Diese Runde hat nichts eingepflegt, sondern die vier Punkte abgearbeitet, die in
+`docs/offene-quellen.md` noch als „noch nicht gesichtet“ standen. Das Ergebnis ändert die
+Planung, deshalb ist es hier festgehalten.
+
+**1. Der Ordner „Ergänzungslieferungen“ existiert nicht.** Die Suche über alle Schreibweisen
+liefert kein Ergebnis, und der Ordner „StB Tageslehrgang_online_Komplett“
+(`11bUpMhJMJ41hxKqsODTwd6ETBUFBkj5G`) enthält genau elf Unterordner: Umsatzsteuer,
+Umwandlungssteuerrecht, Erbschaftsteuer_Bewertungsrecht, Bilanzierung,
+Mitschriften_Markierungen, Internationales Steuerrecht, Körperschaftsteuer, Abgabenordnung,
+Personengesellschaften, GewSt-Übungsfälle und Einkommensteuer. Die frühere Notiz war
+unzutreffend; der Punkt ist ersatzlos erledigt.
+
+**2. Der Ordner „Mitschriften_Markierungen“ ist technisch nicht verwertbar.** Er enthält rund
+40 handschriftliche Mitschriften („Notiz 01.06.2026.pdf“ bis „Mitschrift_04.08.2026.pdf“, je
+2 bis 10 MB) und 13 ZIP-Archive („Markierung Wiegmann …“, „Markierung Mirbach …“). Die
+ZIP-Archive kann der Connector überhaupt nicht öffnen – das Format gehört nicht zu den
+unterstützten Typen.
+
+Bei den Mitschriften führt der Connector zwar eine Texterkennung durch, doch deren Ergebnis
+ist für eine wortlautgetreue Übernahme unbrauchbar. Eine Probe aus „Notiz 01.06.2026.pdf“:
+
+> „Steuerpflikt / Genie Wohnsitz 9870 / oder gewöhnlicher Aufenthalt 9970 / im Inland
+> unbeschränkt Est pflichtig Welteinkommen 92111 … Ehegattenveranlagung 426111 … 4350 1“
+
+Gemeint sind ersichtlich § 8 AO, § 9 AO, § 2 Abs. 1 EStG, § 26 Abs. 1 EStG und § 35a EStG –
+die Zeichenerkennung liest das Paragraphenzeichen durchgehend als Ziffer und verstümmelt die
+Wörter dazwischen. Man könnte den Inhalt erraten; das wäre aber keine Transkription, sondern
+Erfindung, und verstieße gegen die Regel, die für diesen ganzen Abgleich gilt. Der Ordner
+steht deshalb in Abschnitt A unter den technisch blockierten Quellen.
+
+**3. Das Notfallbuch ist derselbe Fall.** Die Datei `1i0ZTLaEYMK2uMqkvu_50s8zV-hpOnQOy`
+(0,67 MB, im Ordner „Abgabenordnung“) ist ebenfalls handschriftlich; die Ausgabe beginnt mit
+„v 370 515347370AEAO GIN1 GIN 1 5.353715149“. Erkennbar ist eine Stichwortsammlung zur AO
+und FGO mit dichten Paragraphenverweisen – also inhaltlich wertvoll, aber nicht erfassbar.
+Ebenfalls Abschnitt A.
+
+**4. Zwei echte Funde: Grunderwerbsteuer und Lohnsteuer sind sauber lesbar.**
+
+- **Grunderwerbsteuer** (`1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, 1,3 MB): das vollständige
+  Lehrgangsskript „Vorbereitung auf die Steuerberaterprüfung · Grunderwerbsteuer“ von
+  **Dr. Stephan Vossel, Januar 2026**. Der Connector gibt gesetzten Text aus. Das
+  Inhaltsverzeichnis nennt Vorbemerkung, Charakterisierung der Grunderwerbsteuer,
+  Prüfungsschema und einen ausführlichen Teil zur Steuerbarkeit mit § 1 Abs. 1 Nr. 1 GrEStG
+  als Haupttatbestand.
+- **Lohnsteuer** (`1CXkUXmNJRG1AVTi7d6qqokYyafhJFj97`, 0,09 MB): das
+  „Lohnsteuer-Prüfungsschema Arbeitslohn“ von **Markus Nöthen** – fünf Stufen von der
+  Einnahme in Geld oder Geldeswert über die Steuerbarkeit (§ 19 Abs. 1 Satz 1 Nr. 1a EStG,
+  R 19.3 und R 19.6 LStR) und die Steuerpflicht (§ 3 Nr. 15, 16, 37, 39, 45 EStG) bis zur
+  Bewertung des Sachbezugs und zur Pauschalversteuerung nach § 40 Abs. 2 und § 37b Abs. 2
+  EStG. Vollständig und sauber lesbar.
+
+Für beide Gebiete gibt es bislang keinen Campus. Das ist die nächste Entscheidung: ob sie
+einen eigenen Reiter bekommen oder den bestehenden Campus zugeordnet werden – die
+Grunderwerbsteuer inhaltlich am ehesten der Klausur 1 (Verkehrsteuern neben Umsatz- und
+Erbschaftsteuer), die Lohnsteuer der Klausur 2 (Ertragsteuern).
