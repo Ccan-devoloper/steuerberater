@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 22 Kapitel mit 237 Abschnitten und 18
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 24 Kapitel mit 273 Abschnitten und 19
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2517,7 +2517,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Auffassung: Sie verneint sie, weil eine Erfassung im Ergebnis nichts geändert hätte. Die
   **Einlagenrückgewähr** schließlich ist kein Bezug i. S. des § 20 Abs. 1 Nr. 1 EStG, mindert
   zunächst erfolgsneutral die Anschaffungskosten und führt erst oberhalb des Buchwerts zu einem
-  nach § 8b Abs. 2 Satz 1 KStG steuerfreien Gewinn.
+  nach § 8b Abs. 2 Satz 1 KStG steuerfreien Gewinn – eine einzige Ausschüttung kann dadurch drei
+  Behandlungen nebeneinander auslösen, mit Pauschalen aus zwei verschiedenen Rechtsgrundlagen.
+  Die **Sachdividende** verbindet beide Absätze in einem Vorgang: Bei der ausschüttenden
+  Gesellschaft ist die Hingabe der Anteile eine Veräußerung zum gemeinen Wert (Absatz 2), beim
+  Empfänger bleibt es bei einer Gewinnausschüttung (Absatz 1) einschließlich der Streubesitzprüfung.
+  Die **Wertaufholung** folgt einer einfachen Symmetrie: Was steuerlich nicht abgezogen werden
+  durfte, muss bei seiner Rückgängigmachung auch nicht versteuert werden. Für Teilwertabschreibungen
+  bis zum 31.12.2001, die das Einkommen noch gemindert haben, ist die Aufholung deshalb nach
+  § 8b Abs. 2 Satz 4 KStG **steuerpflichtig** – bis zur Höhe der historischen Abschreibung, der
+  Überhang bleibt frei. Bestehen alte und neue Abschreibungen nebeneinander, wird nach dem
+  BFH-Urteil vom 19.08.2009 **entgegen der Verwaltungsauffassung** zuerst die jüngere aufgeholt
+  („last in – first out“), was dem Steuerpflichtigen regelmäßig zugutekommt. Vier durchgerechnete
+  Fälle zeigen die Varianten; dabei bemisst sich die Fünf-Prozent-Pauschale jeweils nur nach dem
+  **steuerfreien** Teil des Gewinns.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

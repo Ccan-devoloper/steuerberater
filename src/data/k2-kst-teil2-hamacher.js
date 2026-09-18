@@ -16,8 +16,9 @@
    Betriebsausgabenpauschalierung und der gesamten gewerbesteuerlichen
    Behandlung. Aus Kapitel 3 (Veräußerungsgewinne) ist der Grundfall der
    Veräußerung übernommen (3.1 und 3.2.1), dazu der weite Veräußerungsbegriff bis
-   zur Einlagenrückgewähr (3.2.2.1 bis 3.2.2.3). Es folgen die Abschnitte ab
-   3.2.2.4 und die Kapitel 4 bis 6; der Campus weist den Stand aus.
+   zur Steuerfreiheit von Wertaufholungen (3.2.2) und die steuerpflichtige
+   Wertaufholung (3.3). Es folgen die Abschnitte 3.4 und 3.5 und die Kapitel 4
+   bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -826,7 +827,87 @@ export const kstTeil2 = [
         ["soweit der Buchwert überschritten wird", "Gewinn, steuerfrei als Veräußerungsgewinn", "§ 8b Abs. 2 Satz 1 KStG"],
       ] },
       { text: "Anmerkung zur Tabelle und zur Systematik (eigene Ergänzung): Sie ordnet die zweistufige Behandlung, die die Quelle in einem Absatz zusammenfasst. Der Fall ist die Auflösung einer Frage, die im Abschnitt 2.1.1.3 offengeblieben war: Dort hatte die Quelle die Einlagenrückgewähr aus § 8b Abs. 1 KStG ausgenommen und auf diese Stelle verwiesen. Die Begründung ist in beiden Abschnitten dieselbe – es fehlt schon am **Bezug** i. S. des § 20 Abs. 1 Nr. 1 EStG, weil Satz 3 die Auskehrung ausdrücklich ausnimmt. Wirtschaftlich ist das folgerichtig: Zurückgezahlt wird, was der Gesellschafter selbst eingelegt hat, und das ist kein Ertrag, sondern eine Rückzahlung. Erst wenn mehr zurückfließt, als die Beteiligung wert ist, entsteht ein Gewinn – und der wird behandelt wie ein Veräußerungsgewinn, weil die Einlagenrückgewähr insoweit einer teilweisen Veräußerung der Beteiligung gleichkommt." },
+      { text: "Merke: Die Auskehrung aus dem steuerlichen Einlagekonto führt beim Empfänger zu keinen Bezügen i. S. des § 20 Abs. 1 Nr. 1 EStG. Daraus kann ein Veräußerungsgewinn i. S. des § 8b Abs. 2 KStG entstehen, wenn die Auskehrung den Buchwert der Beteiligung übersteigt." },
+      { text: "Beispiel: Die Z-GmbH erhält eine Gewinnausschüttung der A-GmbH (Beteiligungsquote von 80 %) von 200.000 €. Diese wurde ausweislich der Ausschüttungsbescheinigung i. H. von 100.000 € dem steuerlichen Einlagekonto entnommen. Der Buchwert der Beteiligung beträgt im Zeitpunkt der Ausschüttung a) 200.000 € oder b) 80.000 €." },
+      { text: "Lösung: Die Gewinnausschüttung, welche nicht dem steuerlichen Einlagekonto (§ 27 KStG) entnommen wurde (= 100.000 €), ist gemäß § 8b Abs. 1 KStG steuerfrei. Daraus entstehen nicht abziehbare Betriebsausgaben von 5.000 € (§ 8b Abs. 5 Satz 1 KStG). Die Ausschüttung, die dem steuerlichen Einlagekonto entnommen wurde, ist zunächst erfolgsneutral mit dem Buchwert der Beteiligung zu verrechnen." },
+      { text: "Im Fall a) reduziert sich dieser daher von 200.000 € auf nunmehr 100.000 € (Buchung: Bank an Beteiligung 100.000 €). Der Vorgang ist vollkommen steuerneutral. Im Fall b) wird der Buchwert von 80.000 € vollständig aufgezehrt, so dass der übersteigende Betrag von 20.000 € zu einem Ertrag führt, welcher jedoch nach § 8b Abs. 2 KStG steuerfrei ist. Gleichzeitig entstehen nicht abziehbare Betriebsausgaben von 1.000 € (§ 8b Abs. 3 Satz 1 KStG)." },
+      { text: "Rechenprobe (eigene Ergänzung): Der Fall zeigt, dass ein und dieselbe Ausschüttung von 200.000 € drei verschiedene Behandlungen nebeneinander auslösen kann – 100.000 € als steuerfreier Bezug nach Absatz 1 mit 5 % Pauschale, der Rest je nach Buchwert entweder vollständig erfolgsneutral (Fall a) oder teilweise als steuerfreier Veräußerungsgewinn nach Absatz 2 mit 5 % Pauschale auf 20.000 € (Fall b). Bemerkenswert ist die unterschiedliche Rechtsgrundlage der beiden Pauschalen: § 8b Abs. 5 Satz 1 KStG für den Bezug, § 8b Abs. 3 Satz 1 KStG für den Veräußerungsgewinn." },
       { text: "Hinweis zur Ausschüttungsbescheinigung (eigene Ergänzung): Der kurze Schlusssatz der Quelle hat erhebliche praktische Bedeutung. Ohne die Bescheinigung nach § 27 Abs. 3 KStG kann der Anteilseigner die Einlagenrückgewähr nicht als solche behandeln – die Auskehrung gilt dann als gewöhnliche Gewinnausschüttung. Die Bescheinigung ist damit die Eintrittskarte zu der in diesem Abschnitt beschriebenen Behandlung." },
+    ],
+  },
+  {
+    id: "kst-t2-23",
+    kapitel: "23",
+    abschnittNr: "3.2.2.4 und 3.2.2.5",
+    title: "3.2.2.4 Gewinne aus Sachdividenden – 3.2.2.5 Steuerfreiheit von Wertaufholungen",
+    thema: "Schüttet die Gesellschaft Anteile statt Geld aus, gilt das als Veräußerung zum gemeinen Wert. Und die Wertaufholung einer früheren Teilwertabschreibung ist steuerfrei – aber nur, soweit die Abschreibung damals das Einkommen nicht gemindert hat",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 3.2.2.4 und 3.2.2.5 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 2 Satz 1 KStG", "§ 8b Abs. 2 Satz 3 KStG", "§ 8b Abs. 2 Satz 4 KStG",
+      "§ 8b Abs. 3 Satz 1 KStG", "§ 8b Abs. 3 Satz 3 KStG",
+      "§ 6 Abs. 1 Nr. 2 EStG", "§ 6 Abs. 1 Nr. 2 Satz 3 EStG",
+      "BMF vom 28.04.2003, Tz. 22", "BFH vom 11.04.2018, BStBl. II 2020, 201",
+    ],
+    themen: ["Sachdividende", "Sachausschüttung", "Gemeiner Wert", "Wertaufholung", "Steuerneutrale Teilwertabschreibung"],
+    bloecke: [
+      { typ: "titel", text: "3.2.2.4 Gewinne aus Sachdividenden" },
+      { text: "Die Gesellschaft kann den Ausschüttungsanspruch der Anteilseigner auch dadurch befriedigen, dass sie anstelle einer Barauszahlung diesem „andere Wirtschaftsgüter“ überträgt (sog. Sachausschüttung). Schüttet die Kapitalgesellschaft daher in diesem Zusammenhang von ihr gehaltene Anteile aus, kann sich daraus bei der ausschüttenden Gesellschaft ein Anwendungsfall des § 8b Abs. 2 Satz 1 KStG ergeben, weil die Sachausschüttung als Veräußerungstatbestand gilt und mit dem gemeinen Wert zu bewerten ist." },
+      { text: "Beispiel: Die A-GmbH beschließt zum 15.05.2026 eine Gewinnausschüttung von 200.000 €. Zur Befriedigung des Ausschüttungsanspruchs überträgt sie ihren Anteilseignern eine Beteiligung an der Z-GmbH (Buchwert: 50.000 €; gemeiner Wert: 200.000 €). Der Vorgang wird wie folgt gebucht: Ausschüttungsverbindlichkeit 200.000 € an Beteiligung 50.000 € und Ertrag 150.000 €." },
+      { text: "Lösung: Der sich aus der Sachdividende ergebende Veräußerungsgewinn ist nach § 8b Abs. 2 KStG steuerfrei. Gleichzeitig entstehen nicht abziehbare Betriebsausgaben von 7.500 € (§ 8b Abs. 3 Satz 1 KStG)." },
+      { text: "Anmerkung zur Doppelwirkung der Sachdividende (eigene Ergänzung): Der Vorgang hat zwei Seiten, von denen die Quelle hier nur die eine behandelt. Bei der **ausschüttenden** Gesellschaft ist die Hingabe der Anteile eine Veräußerung zum gemeinen Wert – der aufgedeckte Gewinn von 150.000 € ist nach § 8b Abs. 2 KStG steuerfrei. Beim **empfangenden** Gesellschafter bleibt es dagegen bei einer gewöhnlichen Gewinnausschüttung von 200.000 €, die nach den Regeln des Absatzes 1 zu beurteilen ist – also einschließlich der Streubesitzprüfung des § 8b Abs. 4 KStG, die den Veräußerungsgewinn der ausschüttenden Gesellschaft gerade nicht betrifft. Die Sachdividende verbindet damit in einem Vorgang beide Absätze des § 8b KStG." },
+      { typ: "titel", text: "3.2.2.5 Steuerfreiheit von Wertaufholungen" },
+      { text: "Als steuerfreier Veräußerungsgewinn i. S. des § 8b Abs. 2 Satz 3 KStG gilt auch die Wertaufholung von Teilwertabschreibungen i. S. des § 6 Abs. 1 Nr. 2 Satz 3 EStG. Die Steuerfreiheit greift aber nur, wenn die vorherige Teilwertabschreibung das Einkommen tatsächlich nicht gemindert hat, z. B. weil sie bereits unter das Abzugsverbot des § 8b Abs. 3 Satz 3 KStG gefallen ist (siehe unter 4.1.2). In den Fällen, in denen die vorherige Teilwertabschreibung zuvor das Einkommen gemindert hat, kommt § 8b Abs. 2 Satz 4 KStG zur Anwendung (siehe unter 3.3)." },
+      { text: "Merke: Wertaufholungen einer bisher gewinnunwirksamen Teilwertabschreibung gelten als Veräußerungsgewinn i. S. des § 8b Abs. 2 KStG. Sie führen damit auch zur Anwendung der Betriebsausgabenpauschalierung i. S. des § 8b Abs. 3 Satz 1 KStG." },
+      { text: "Beispiel: Die F-GmbH besitzt seit 1995 eine 60%ige Beteiligung an der inländischen Z-GmbH. Die Anschaffungskosten haben 50.000 € betragen, die aber in 2002 zutreffend nach den Grundsätzen des § 6 Abs. 1 Nr. 2 EStG wahlweise auf einen niedrigeren Teilwert von 20.000 € abgeschrieben wurden. Die Teilwertabschreibung wurde in 2002 nach § 8b Abs. 3 Satz 3 KStG dem Einkommen wieder hinzugerechnet. In 2026 ist der Teilwert wieder auf 40.000 € angestiegen, so dass die Gesellschaft eine zwingende Wertaufholung um 20.000 € vornehmen muss." },
+      { text: "Lösung: Der aus der Wertaufholung entstehende Ertrag von 20.000 € ist nach § 8b Abs. 2 Satz 3 KStG steuerfrei, da die vorherige Teilwertabschreibung steuerlich auch nicht berücksichtigt werden konnte (siehe § 8b Abs. 3 Satz 3 KStG). Gleichzeitig entstehen nicht abziehbare Betriebsausgaben von 1.000 € (§ 8b Abs. 3 Satz 1 KStG)." },
+      { text: "Anmerkung zur Symmetrie (eigene Ergänzung): Der Abschnitt folgt einem Grundsatz, der das ganze System des § 8b KStG trägt: Was steuerlich nicht abgezogen werden durfte, muss bei seiner Rückgängigmachung auch nicht versteuert werden. Die Teilwertabschreibung fiel 2002 unter das Abzugsverbot des § 8b Abs. 3 Satz 3 KStG – also bleibt ihre Aufholung steuerfrei. Der Abschnitt 3.3 behandelt dann den umgekehrten Fall: Wo die Abschreibung das Einkommen gemindert hat, ist die Aufholung steuerpflichtig. Wer sich diese Symmetrie merkt, braucht die beiden Vorschriften nicht auseinanderzuhalten – die Frage lautet immer nur: Hat sich die Abschreibung damals ausgewirkt?" },
+    ],
+  },
+  {
+    id: "kst-t2-24",
+    kapitel: "24",
+    abschnittNr: "3.3",
+    title: "3.3 Steuerpflichtige Wertaufholung – Altfälle und das „last in – first out“-Prinzip",
+    thema: "Teilwertabschreibungen bis 2001 haben das Einkommen gemindert; ihre Aufholung ist deshalb nach § 8b Abs. 2 Satz 4 KStG steuerpflichtig. Bestehen alte und neue Abschreibungen nebeneinander, wird nach dem BFH zuerst die jüngere aufgeholt – entgegen der Verwaltungsauffassung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 3.3 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8b Abs. 2 Satz 1 KStG", "§ 8b Abs. 2 Satz 2 KStG", "§ 8b Abs. 2 Satz 3 KStG",
+      "§ 8b Abs. 2 Satz 4 KStG", "§ 8b Abs. 3 Satz 1 KStG", "§ 8b Abs. 3 Satz 3 KStG",
+      "§ 6 Abs. 1 Nr. 2 EStG", "§ 6 Abs. 1 Nr. 2 Satz 3 EStG",
+      "BFH vom 19.08.2009",
+    ],
+    themen: ["Steuerpflichtige Wertaufholung", "Altfälle bis 2001", "Wertaufholungspotential", "Last in – first out", "Abweichung von der Verwaltungsauffassung"],
+    bloecke: [
+      { typ: "titel", text: "3.3.1 Teilwertabschreibungen aufgrund von Altfällen" },
+      { text: "§ 8b Abs. 2 Satz 4 KStG versagt die Steuerbefreiung des § 8b Abs. 2 Satz 1 und Satz 3 KStG, wenn durch die Wertaufholung bzw. den Veräußerungsgewinn eine Teilwertabschreibung ausgeglichen wird, die noch „nach altem Recht“ vorgenommen wurde und bisher zutreffend das Einkommen gemindert hat." },
+      { text: "Dies ist systemgerecht, weil sich die Teilwertabschreibung bereits steuerwirksam ausgewirkt hat. Der danach steuerpflichtige Veräußerungsgewinn bzw. die Teilwertzuschreibung i. S. des § 6 Abs. 1 Nr. 2 Satz 3 EStG gleicht diese Gewinnauswirkung wieder aus. Der Veräußerungsgewinn i. S. des § 8b Abs. 2 KStG ist daher bis zur Höhe der gewinnwirksamen Teilwertabschreibung steuerpflichtig. Übersteigt der Veräußerungsgewinn die historische Teilwertabschreibung, ist der Überhang unverändert nach § 8b Abs. 2 Satz 1 oder Satz 3 KStG steuerfrei." },
+      { text: "Auslöser der steuerpflichtigen Wertaufholung i. S. des § 8b Abs. 2 Satz 4 KStG können nur die Teilwertabschreibungen sein, die noch im alten Recht und daher vor Geltung des § 8b Abs. 3 Satz 3 KStG vorgenommen wurden. Dies betrifft sämtliche Teilwertabschreibungen, die bis zum 31.12.2001 (VZ 2001) bzw. Ablauf des Wirtschaftsjahres 2001/2002 gewinnwirksam vorgenommen wurden." },
+      { text: "Merke: Bei sämtlichen Teilwertabschreibungen, die vor 2002 vorgenommen wurden, ist die Einschränkung der Steuerfreiheit i. S. des § 8b Abs. 2 Satz 4 KStG zu beachten. Sie führen insoweit zu einer Steuerpflicht der Wertaufholung, die bei sämtlichen Tatbeständen des § 8b Abs. 2 KStG beachtet werden muss." },
+      { text: "Ausgangsfall: Die G-GmbH besitzt seit 1996 einen 50%igen Anteil an der J-GmbH (Wj. = Kj., Anschaffungskosten: 100.000 €). Diesen schreibt sie gemäß § 6 Abs. 1 Nr. 2 EStG zum 31.12.1998 steuerlich zutreffend und gewinnwirksam um 70.000 € auf den niedrigeren Teilwert von 30.000 € ab." },
+      { text: "Beispiel 1: Die Beteiligung wird in 2026 für 120.000 € veräußert. Gleichzeitig fallen Veräußerungskosten von 10.000 € an." },
+      { text: "Lösung: Der Veräußerungsgewinn i. S. des § 8b Abs. 2 Satz 2 KStG beträgt 80.000 € (120.000 € ./. 30.000 € ./. 10.000 €). Dieser ist vorliegend in Höhe von 70.000 € steuerpflichtig, da insoweit die gewinnwirksame Teilwertabschreibung ausgeglichen wird (§ 8b Abs. 2 Satz 4 KStG). Der Restgewinn von 10.000 € ist nach § 8b Abs. 2 KStG steuerfrei. Gleichzeitig entstehen nicht abziehbare Betriebsausgaben von 1.000 € (§ 8b Abs. 3 Satz 1 KStG)." },
+      { text: "Beispiel 2: In 2004 wird eine Teilwertzuschreibung von 50.000 € vorgenommen. Seitdem steht die Beteiligung mit 80.000 € zu Buche. In 2026 wird die Beteiligung für 120.000 € veräußert. Die Veräußerungskosten betragen 10.000 €." },
+      { text: "Lösung: Die Wertaufholung in 2004 von 50.000 € ist aufgrund § 8b Abs. 2 Satz 4 KStG steuerpflichtig, weil dadurch die historische Teilwertabschreibung (teilweise) ausgeglichen wird. Danach verbleibt noch ein Wertaufholungspotential von 20.000 €. Der in 2026 erzielte Veräußerungsgewinn i. S. des § 8b Abs. 2 Satz 2 KStG von 30.000 € (120.000 € ./. 80.000 € ./. 10.000 €) ist somit noch in Höhe von 20.000 € steuerpflichtig (§ 8b Abs. 2 Satz 4 KStG). Der Restgewinn von 10.000 € ist steuerfrei (§ 8b Abs. 2 Satz 1 KStG). Gleichzeitig entstehen nicht abziehbare Betriebsausgaben von 1.000 € (§ 8b Abs. 3 Satz 1 KStG)." },
+      { text: "Beispiel: Die G-GmbH (Wj. = Kj.) hält seit 1995 eine 51%ige Beteiligung an der T-GmbH. Die Anschaffungskosten von 100.000 € werden zum 31.12.1999 zutreffend auf 50.000 € abgeschrieben. In 2026 veräußert die Gesellschaft den Anteil zum Buchwert an den Alleingesellschafter G, obwohl der gemeine Wert zu diesem Zeitpunkt bei 80.000 € lag." },
+      { text: "Lösung: Die Anteilsveräußerung führt zu einer verdeckten Gewinnausschüttung von 30.000 € (80.000 € ./. 50.000 €). Das Einkommen ist daher nach § 8 Abs. 3 Satz 2 KStG um diesen Betrag zu erhöhen. Dadurch kommt es bei der Anteilsübertragung gleichzeitig zur Entstehung eines Veräußerungsgewinnes, der aber nicht nach § 8b Abs. 2 KStG steuerfrei ist. Denn in Höhe des Gewinnes (30.000 €) wird eine Wertaufholung der vorherigen Teilwertabschreibung (50.000 €) durchgeführt (§ 8b Abs. 2 Satz 4 KStG)." },
+      { typ: "titel", text: "3.3.2 Wertaufholung unterschiedlicher Teilwertabschreibungen" },
+      { text: "Hat die Kapitalgesellschaft in der Vergangenheit sowohl „alte“ steuerwirksame Teilwertabschreibungen und nachfolgend auch „neue“ steuerneutrale Teilwertabschreibungen vorgenommen, stellt sich die Frage, welche Teilwertabschreibungen im Fall einer separaten Wertaufholung bzw. Anteilsveräußerung aufzuholen sind. Diese Rechtsfrage hat der BFH mit Urteil vom 19.08.2009 entgegen der Verwaltungsauffassung entschieden." },
+      { text: "Danach erfolgt in diesen Fällen immer zunächst die Wertaufholung der zeitlich aktuelleren Teilwertabschreibung und erst nach Verbrauch dieses Potentials kann die (u. U. steuerwirksame) vorangegangene Teilwertabschreibung genutzt werden. In diesem Zusammenhang gilt das „last in – first out“-Prinzip. Dabei ist es unerheblich, ob sich die „ältere“ oder die „neuere“ Teilwertabschreibung auf das Einkommen ausgewirkt hat, weil lediglich auf den zeitlichen Ablauf der Teilwertabschreibungen abzustellen ist." },
+      { text: "Beispiel: Die G-GmbH (Wj. = Kj.) hält seit 1995 eine 51%ige Beteiligung an der T-GmbH. Die Anschaffungskosten von 100.000 € werden zum 31.12.1999 zutreffend auf 50.000 € abgeschrieben und zum 31.12.2002 um nochmals 20.000 € auf nunmehr 30.000 €. In 2026 veräußert die Gesellschaft den Anteil für 80.000 €." },
+      { text: "Lösung: Die Anteilsveräußerung führt zu einem Veräußerungsgewinn von 50.000 €. Dabei ist zunächst die steuerneutrale Teilwertabschreibung aufzuholen, so dass der Veräußerungsgewinn in Höhe von 20.000 € nach § 8b Abs. 2 Satz 1 KStG steuerfrei ist. Daraus resultieren nicht abziehbare Betriebsausgaben von 1.000 € (§ 8b Abs. 3 Satz 1 KStG). Der Restbetrag von 30.000 € entfällt auf die steuerwirksame Teilwertabschreibung und ist nach § 8b Abs. 2 Satz 4 KStG steuerpflichtig." },
+      { typ: "tabelle", spalten: ["Fall", "Veräußerungsgewinn nach § 8b Abs. 2 Satz 2 KStG", "steuerpflichtig (Satz 4)", "steuerfrei (Satz 1)", "Pauschale (Abs. 3 Satz 1)"], zeilen: [
+        ["Beispiel 1: Verkauf für 120.000 €, Buchwert 30.000 €, Kosten 10.000 €", "80.000 €", "70.000 € – volle Altabschreibung", "10.000 €", "1.000 €"],
+        ["Beispiel 2: nach Zuschreibung 2004 von 50.000 €, Buchwert 80.000 €", "30.000 €", "20.000 € – Restpotential", "10.000 €", "1.000 €"],
+        ["vGA-Fall: Verkauf zum Buchwert, gemeiner Wert 80.000 €", "30.000 € (als vGA hinzugerechnet)", "30.000 € – bleibt im Potential von 50.000 €", "0 €", "0 €"],
+        ["3.3.2: Abschreibungen 1999 (50.000 €) und 2002 (20.000 €), Verkauf für 80.000 €", "50.000 €", "30.000 € – alte, steuerwirksame Abschreibung", "20.000 € – jüngere, steuerneutrale Abschreibung zuerst", "1.000 €"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet die vier Fälle der Quelle nach demselben Schema, weil sie alle dieselbe Prüfung in Varianten zeigen. Zwei Beobachtungen sind dabei festzuhalten. Erstens bemisst sich die **Pauschale nur nach dem steuerfreien Teil** des Gewinns – in den Beispielen 1 und 2 also nach 10.000 € und nicht nach dem vollen Veräußerungsgewinn. Das ist folgerichtig, weil § 8b Abs. 3 Satz 1 KStG an den nach Absatz 2 steuerfreien Betrag anknüpft, verlangt aber Aufmerksamkeit. Zweitens zeigt der dritte Fall, dass die Steuerpflicht nach Satz 4 auch dann greift, wenn der Gewinn erst über eine verdeckte Gewinnausschüttung entsteht – die Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG und die Versagung der Freistellung nach § 8b Abs. 2 Satz 4 KStG treffen zusammen." },
+      { text: "Anmerkung zum „last in – first out“-Prinzip (eigene Ergänzung): Die Quelle vermerkt ausdrücklich, dass der BFH hier **entgegen der Verwaltungsauffassung** entschieden hat. Das Ergebnis ist für den Steuerpflichtigen regelmäßig günstig: Weil die jüngere – nach neuem Recht steuerneutrale – Abschreibung zuerst aufgeholt wird, bleibt der entsprechende Teil des Gewinns steuerfrei, und die alte, steuerwirksame Abschreibung wird erst danach angetastet. Entscheidend ist allein die zeitliche Reihenfolge, nicht die steuerliche Wirkung; das sagt die Quelle eigens, weil man intuitiv das Gegenteil erwarten könnte. Rechenprobe zum Beispiel: Veräußerungspreis 80.000 € ./. Buchwert 30.000 € = 50.000 €; davon entfallen 20.000 € auf die Abschreibung von 2002 (steuerfrei) und 30.000 € auf die von 1999 (steuerpflichtig)." },
     ],
   },
 ];

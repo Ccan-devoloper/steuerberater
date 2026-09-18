@@ -10617,8 +10617,46 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 3.2.2.4; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 3.4; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 3.2.2.4 bis 3.3 – Sachdividende und Wertaufholung
+
+Quelle: dieselbe Datei; übernommen als Kapitel 23 und 24, dazu das Beispiel zur Einlagenrückgewähr
+im Kapitel 22. Prüfung: `npm run check:k2-kst-teil2` (24 Kapitel, 273 Blöcke, 19 Tabellen).
+
+**Das Beispiel zur Einlagenrückgewähr** ist bemerkenswert, weil eine einzige Ausschüttung von
+200.000 € drei Behandlungen nebeneinander auslöst: 100.000 € als steuerfreier Bezug nach Absatz 1,
+und der Rest je nach Buchwert entweder vollständig erfolgsneutral oder teilweise als steuerfreier
+Veräußerungsgewinn nach Absatz 2. Der Datensatz hebt hervor, dass die beiden Pauschalen auf
+**verschiedenen Rechtsgrundlagen** beruhen – § 8b Abs. 5 Satz 1 KStG für den Bezug,
+§ 8b Abs. 3 Satz 1 KStG für den Veräußerungsgewinn.
+
+**Die Sachdividende** behandelt die Quelle nur aus Sicht der ausschüttenden Gesellschaft; der
+Datensatz ergänzt die zweite Seite: Beim Empfänger bleibt es bei einer gewöhnlichen
+Gewinnausschüttung nach Absatz 1 einschließlich der Streubesitzprüfung, die den Veräußerungsgewinn
+der ausschüttenden Gesellschaft gerade nicht betrifft. Die Sachdividende verbindet damit in einem
+Vorgang beide Absätze des § 8b KStG.
+
+**Die Symmetrie der Wertaufholung** ist im Datensatz als Merkregel herausgearbeitet, weil sie die
+Abschnitte 3.2.2.5 und 3.3 zusammenbindet: Was steuerlich nicht abgezogen werden durfte, muss bei
+seiner Rückgängigmachung auch nicht versteuert werden. Die Frage lautet immer nur, ob sich die
+frühere Teilwertabschreibung damals ausgewirkt hat – bei Abschreibungen bis zum 31.12.2001 ja,
+seither wegen § 8b Abs. 3 Satz 3 KStG nein.
+
+**Das „last in – first out“-Prinzip** hat der BFH mit Urteil vom 19.08.2009 **entgegen der
+Verwaltungsauffassung** aufgestellt, was die Quelle ausdrücklich vermerkt. Der Datensatz ordnet
+das Ergebnis ein: Weil die jüngere, steuerneutrale Abschreibung zuerst aufgeholt wird, bleibt der
+entsprechende Teil des Gewinns steuerfrei – für den Steuerpflichtigen regelmäßig günstig.
+Entscheidend ist allein die zeitliche Reihenfolge, nicht die steuerliche Wirkung; man könnte
+intuitiv das Gegenteil erwarten.
+
+**Eine Beobachtung, die für die Klausur zählt** und als eigene Ergänzung ausgewiesen ist: Die
+Fünf-Prozent-Pauschale bemisst sich in diesen Fällen **nur nach dem steuerfreien Teil** des
+Gewinns – in den Beispielen 1 und 2 also nach 10.000 € und nicht nach dem vollen
+Veräußerungsgewinn von 80.000 € bzw. 30.000 €. Das ist folgerichtig, weil § 8b Abs. 3 Satz 1 KStG
+an den nach Absatz 2 steuerfreien Betrag anknüpft, verlangt aber Aufmerksamkeit. Sämtliche Zahlen
+der vier Fälle sind nachgerechnet und gehen auf.
 
 ### KSt Teil II (Hamacher), Abschnitte 3.2.2 bis 3.2.2.3 – weiter Veräußerungsbegriff
 
