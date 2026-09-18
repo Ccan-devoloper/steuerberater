@@ -122,7 +122,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und vorgefasstem Plan des Erblassers, der **Nettowert des Verwaltungsvermögens** mit der
   quotalen Schuldenverrechnung des § 13b Abs. 6 ErbStG samt der Quotenformel der Quelle und
   das **unschädliche Verwaltungsvermögen** mit der vom Bundesverfassungsgericht nicht
-  beanstandeten 10-Prozent-Quote.
+  beanstandeten 10-Prozent-Quote. Dazu die **Tz. 9 und 10**: die Einschränkung der
+  Schuldensaldierung mit drei Beispielen – darunter der vollständigste Rechenweg des
+  Skriptteils, der vom 90-Prozent-Test über Finanzmitteltest und quotale
+  Schuldenverrechnung bis zum begünstigten Betriebsvermögen von 12.532.585 € führt – und
+  die **Verbundvermögensaufstellung** des § 13b Abs. 9 ErbStG gegen den Kaskadeneffekt,
+  mit dem durchgerechneten Fall der A-GmbH/B-GmbH (begünstigtes Vermögen 2.661.285 €).
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den

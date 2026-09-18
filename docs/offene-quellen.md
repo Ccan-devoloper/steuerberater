@@ -201,10 +201,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Tz. 1 bis 4 des Abschnitts II (Überblick, begünstigungsfähiges und begünstigtes Vermögen,
   90-Prozent-Test sowie der vollständige Verwaltungsvermögenskatalog einschließlich des
   Finanzmitteltests) sowie die Tz. 5 bis 8 (Altersversorgungsverpflichtungen,
-  Investitionsklausel, Nettowert und unschädliches Verwaltungsvermögen). Offen sind die
-  Tz. 9 bis 18 des Abschnitts II
-  (Einschränkung der Schuldensaldierung, Verbundvermögensaufstellung,
-  Regelverschonung, Abzugsbetrag, Lohnsummen- und Behaltensregelung, Familienunternehmen,
+  Investitionsklausel, Nettowert und unschädliches Verwaltungsvermögen) sowie die Tz. 9 und
+  10 (Einschränkung der Schuldensaldierung und Verbundvermögensaufstellung). Offen sind die
+  Tz. 11 bis 18 des Abschnitts II
+  (Regelverschonung, Abzugsbetrag, Weitergabeverpflichtung, Lohnsummen- und
+  Behaltensregelung, Familienunternehmen, Anzeigepflicht,
   Optionsverschonung), die Abschnitte III bis VI (Großerwerbe über 26 Mio. €, § 13d ErbStG,
   Steuerberechnung mit Steuerklassen, Freibeträgen, Steuersätzen, Tarifbegrenzung und
   früheren Erwerben, Steuerfestsetzung und Erhebung) sowie die Lösungsdatei

@@ -4974,3 +4974,52 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   - **Tz. 7.** „für die Berechnung des Nettowerts des **Verwaltungsvermögen**“; „zum
     gemeinen **Werts** des Betriebsvermögens“; „nach Anwendung **der** § 13b Abs. 3
     ErbStG“.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Tz. 9 und 10: Schuldensaldierung und Verbundvermögensaufstellung
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt II
+  Tz. 9 und 10, PDF-Seiten 22 bis 27.
+- Einpflege dieses Durchgangs: drei weitere Kapitel; der Datensatz umfasst jetzt 6 Teile,
+  16 Kapitel, 211 Blöcke und 25 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Der vollständigste Rechenweg des Skriptteils** steht im Beispiel 3 der Tz. 9 a) und ist
+  Zeile für Zeile nachgerechnet; er geht auf: 90-Prozent-Test (5.200.000/15.000.000),
+  Finanzmitteltest (1.200.000 ./. 4.000.000 → 0 €, 2.800.000 € verbleibende Schulden),
+  anteiliger Schuldenabzug (2.800.000/17.800.000 × 2.500.000 = 393.259 €), Nettowert
+  2.106.741 €, 10-Prozent-Quote auf 11.393.259 € = 1.139.326 €, gekürzter Nettowert
+  967.415 € zuzüglich 1.500.000 € jungem Verwaltungsvermögen = 2.467.415 € nicht begünstigt
+  und damit **12.532.585 € begünstigtes Betriebsvermögen**. Ebenso nachgerechnet und
+  aufgehend ist der Verbundfall der Tz. 10 (Nettowert 580.650 €, unschädlich 241.935 €,
+  begünstigtes Vermögen **2.661.285 €**).
+
+  **Das Beispiel 2 der Tz. 9 a) bricht in der Quelle mitten in der Lösung ab.** Nach der
+  Ermittlung der Bezugsgröße von 5.500.000 € folgt unmittelbar der Seitenwechsel und das
+  Beispiel 3; anteiliger Schuldenabzug, Nettowert und begünstigtes Vermögen werden für
+  diesen Fall nicht mehr ausgerechnet. Hier ist nichts ergänzt worden. Die vorhandenen
+  Schritte sind nachgerechnet und stimmen (Schuldenüberhang 2.100.000 €, Verwaltungs-
+  vermögensquote 460.000/3.400.000 = 13,53 %, Bezugsgröße 5.500.000 €).
+
+  **Eine Prozentangabe stimmt nicht:** Im Beispiel 3 ergeben 5.200.000 €/15.000.000 €
+  genau 34,6667 %, kaufmännisch also **34,67 %**. Die Quelle nennt **34,66 %** (so in der
+  Quelle, offenbar abgeschnitten statt gerundet). Auf das Ergebnis wirkt sich das nicht
+  aus, weil der Wert nur an der 90-Prozent-Grenze zu messen ist.
+
+  Zwei Beobachtungen, die die Quelle nicht ausspricht und die im Datensatz vermerkt sind:
+
+  - **Das junge Verwaltungsvermögen tritt im Beispiel 3 viermal auf**, jedes Mal mit
+    anderer Wirkung: Es zählt beim 90-Prozent-Test mit, bleibt beim anteiligen
+    Schuldenabzug außen vor (§ 13b Abs. 8 S. 1 ErbStG), mindert die Bemessungsgrundlage
+    der 10-Prozent-Quote und wird am Ende in voller Höhe wieder als nicht begünstigt
+    hinzugerechnet. Zusammen mit dem Mindestwert des § 13b Abs. 8 S. 3 ErbStG ist die
+    Sonderbehandlung der jungen Werte damit vollständig.
+  - **Im Verbundbeispiel verschwinden zwei Posten aus der Rechnung.** Die Beteiligung an
+    der B-GmbH (400.000 €) taucht nicht auf – an ihre Stelle treten die
+    Vermögensgegenstände der B-GmbH selbst, genau das ist die Wirkung des § 13b Abs. 9
+    ErbStG. Und die Maschinen der B-GmbH (800.000 €) bleiben außen vor, weil die
+    Verbundvermögensaufstellung nur Verwaltungsvermögen, Finanzmittel und Schulden
+    erfasst, nicht das operative Vermögen.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet: „Gemeiner Wert des **Verwaltungsvermögen**“ in der Tabelle des
+  Beispiels 1 der Tz. 9 a) und „Damit wird **gewähreistet**“ in der Tz. 10.
