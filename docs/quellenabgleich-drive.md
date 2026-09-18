@@ -5291,3 +5291,50 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   gekennzeichnet: die doppelte Satzkonstruktion „sind die persönlichen Freibeträge … **sind**
   anteilig zu gewähren **sind**“ in der Tz. 2 a) sowie die Angabe „× 400.000“ ohne
   Währungszeichen in der zugehörigen Beispielrechnung.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Abschnitt V, Tz. 4 und 5: Tarifbegrenzung und § 14 ErbStG
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt V
+  Tz. 4 und 5, PDF-Seiten 50 bis 56.
+- Einpflege dieses Durchgangs: drei weitere Kapitel; der Datensatz umfasst jetzt 14 Teile,
+  31 Kapitel, 470 Blöcke und 49 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+  **Damit ist der Abschnitt V vollständig; offen ist nur noch der Abschnitt VI.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Beide vollständig gelösten Fälle sind Zeile für Zeile nachgerechnet; beide gehen auf.**
+  Beim Entlastungsbetrag (Beispiel 3): 225.000 € steuerpflichtiger Anteil zuzüglich
+  2.000.000 € übriges Vermögen, anteiliger Schuldenabzug 11.250 €, Bereicherung
+  2.213.750 €, steuerpflichtiger Erwerb abgerundet 2.193.700 €, tarifliche Steuer 30 % =
+  658.110 €; Quote 213.750/2.213.750 = 9,66 %; Steuer der Steuerklasse III darauf
+  63.573 €, fiktive Steuer der Steuerklasse I 40.263 €, Entlastungsbetrag **23.310 €**,
+  Steuer **634.800 €**. Beim § 14 ErbStG: 264.000 € Vorerwerbsteuer, 209.000 € Steuer für
+  den Gesamterwerb, 167.200 € fiktive Abzugssteuer und **22.000 €** festzusetzende Steuer
+  als Untergrenze.
+
+  **Wie begrenzt die Tarifbegrenzung wirkt, wird erst an der Quote sichtbar:** Der Erwerber
+  der Steuerklasse III zahlt statt 658.110 € nun 634.800 €, also 3,5 % weniger. Der Grund
+  ist die Quote von 9,66 % – nur dieser Anteil des Erwerbs ist begünstigtes Vermögen, weil
+  Verschonungsabschlag und Abzugsbetrag den begünstigten Teil zuvor auf 225.000 €
+  zusammengeschmolzen haben. Die Tarifbegrenzung setzt auf dem an, was von der Verschonung
+  übrig bleibt; im Datensatz ist das vermerkt.
+
+  **Der § 14-Fall ist so gebaut, dass alle drei Regeln des Absatzes 1 nacheinander
+  greifen:** Steuer für den Gesamterwerb 209.000 €; die tatsächlich gezahlte Steuer von
+  264.000 € übersteigt die fiktive von 167.200 € und käme nach Satz 3 zum Abzug, womit
+  rechnerisch nichts zu zahlen wäre; die Untergrenze des Satzes 4 setzt die Steuer an, die
+  der Erwerb 2025 allein auslöst, also 22.000 €. Der Auslöser ist der Steuerklassenwechsel
+  durch Eheschließung – 2023 Steuerklasse III mit 30 %, 2025 Steuerklasse I mit 19 %.
+
+  Redaktioneller Befund: Das **Beispiel 1 der Tz. 4 steht ohne Lösung**, das **Beispiel 2
+  bricht nach der tariflichen Erbschaftsteuer von 206.550 € ab** – der Entlastungsbetrag
+  selbst, um den es in der Tz. geht, wird dort nicht mehr ausgerechnet. Beide sind nicht
+  ergänzt worden. Die vorhandenen Schritte des Beispiels 2 sind nachgerechnet und gehen auf.
+
+  **Eine Fundstelle wird im selben Skript unterschiedlich zitiert:** Für den persönlichen
+  Freibetrag der Steuerklasse III von 20.000 € nennen die Lösungen der Tz. 4 und 5
+  „§ 16 Abs. 1 **Nr. 7** ErbStG“, während die Freibetragstabelle der Tz. 2 a) denselben
+  Betrag unter der **Nr. 6** führt. Beide Angaben stehen so in der Quelle; die Tabelle fasst
+  die Nummern des Gesetzes verkürzt zusammen. Ferner verweist die Tz. 4 d) auf „§ 13a
+  Abs. 5 ErbStG (Wegfall Verschonungsabschlag und Abzugsbetrag)“, während derselbe Satz
+  anschließend zutreffend § 13a Abs. 6 ErbStG nennt; § 13a Abs. 5 ErbStG regelt die
+  Weitergabeverpflichtung. Dazu die Wendung „nach Verschonungsabschlags“ im Beispiel 1.

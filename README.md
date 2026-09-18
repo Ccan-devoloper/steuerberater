@@ -164,7 +164,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   20.000 € samt ihrer anteiligen Kürzung bei beschränkter Steuerpflicht (Schweizer Fall:
   400.000 € auf 100.000 €), die nach Alter gestaffelten **Versorgungsfreibeträge** und der
   **Stufentarif** des § 19 ErbStG mit dem **Härteausgleich**, der im Beispiel der Quelle die
-  Mehrsteuer von 27.800 € auf 10.000 € begrenzt, samt der Grenzwerttabelle der ErbStH.
+  Mehrsteuer von 27.800 € auf 10.000 € begrenzt, samt der Grenzwerttabelle der ErbStH. Dazu
+  die **Tarifbegrenzung** des § 19a ErbStG, die Erwerber der Steuerklassen II und III beim
+  Betriebsvermögen auf das Niveau der Steuerklasse I bringt – mit dem vollständig
+  durchgerechneten Fall (Quote 9,66 %, Entlastungsbetrag 23.310 €, Steuer 634.800 €) – und
+  die **Berücksichtigung früherer Erwerbe** nach § 14 ErbStG mit fiktiver Abzugssteuer,
+  dem Vorrang der höheren tatsächlich entrichteten Steuer und der Mindeststeuer des
+  Satzes 4, gezeigt am Wechsel von der Steuerklasse III in die Steuerklasse I durch
+  Eheschließung.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den
