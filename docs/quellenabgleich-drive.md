@@ -6851,3 +6851,97 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   UStG“ mit Punkt statt Komma; „Chikago“ statt Chicago; „Theresa Ferstl“ neben „Therese
   Ferstl“; „Riva de Garda“ statt Riva del Garda; „Da der Erwerb ist somit auch in Deutschland
   steuerbar“; „um ihrer selbst Willen“; und „2. Preis Gourmet-Menue“.
+
+## Originalklausuren der Steuerberaterprüfung – Umsatzsteuer, Klausur 2012 (Eheleute Taff)
+
+- Quelle: dieselbe Datei (`1lIwxxyUdq_FVIqKDhGk1LHPPJm0O8FNo`), zweite Klausur.
+- Einpflege dieses Durchgangs: die Klausur **2012**; der Datensatz umfasst jetzt
+  2 Originalklausuren, 150 Blöcke und 13 Tabellen; Prüfung
+  `npm run check:k1-ust-originalklausuren`. Offen sind die Klausuren 2013 bis 2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage
+  nicht aus.
+
+  **Die Klausur ist um einen einzigen Tag gebaut – den 1. Dezember 2025.** Der Verkauf an
+  Paul Panzer über 2.000 € hebt den Gesamtumsatz von 24.500 € auf 26.500 € und sprengt die
+  Grenze des § 19 Abs. 1 UStG. Die Folge ist schärfer, als man erwartet: Nach Abschnitt 19.7
+  Abs. 1 Satz 3 UStAE ist **bereits dieser Umsatz** steuerpflichtig, nicht erst der nächste.
+  Von diesem Tag an ändert sich fast alles gleichzeitig – und zwar bei beiden Eheleuten.
+
+  **Die Verzahnung zweier Steuerpflichtiger ist der eigentliche Prüfungsgegenstand.** Der
+  Kleinunternehmerstatus des Mieters entscheidet über die Umsatzsteuer der Vermieterin: Weil
+  Marco bis November nicht zum Vorsteuerabzug berechtigt ist, sperrt § 9 Abs. 2 UStG die
+  Option; die Vermietung ist steuerfrei, und die trotzdem ausgewiesene Steuer schuldet Eva
+  nach § 14c Abs. 1 Satz 1 UStG – 190 € monatlich von Juli bis November. Die Quelle hält
+  ausdrücklich fest, dass Abschnitt 14c.1 Abs. 1a UStAE hier **nicht** greift, weil weder an
+  eine Privatperson noch für einen nichtunternehmerischen Bereich zu hoch ausgewiesen wurde
+  (BMF-Schreiben vom 27.02.2024, Rz. 10). Ab Dezember ist die Option zulässig, und aus
+  derselben Rechnung wird eine ordentliche Steuer mit Vorsteuerabzug beim Ehemann.
+
+  **§ 15a UStG wird fünfmal geprüft – mit vier verschiedenen Ergebnissen.** Das ist die
+  didaktische Besonderheit dieser Klausur:
+
+  | Berichtigungsobjekt | Vorsteuer | Ergebnis |
+  | --- | --- | --- |
+  | Gebäude (Generalunternehmer 2016) | 190.000 €, davon 95.000 € abgezogen | keine Berichtigung: Änderung 4,17 % < 10 % **und** Betrag 792,30 € ≤ 1.000 € (§ 44 Abs. 2 Sätze 1 und 2 UStDV) |
+  | Renovierung der Marco-Räume | 1.425 € | Berichtigung 23,75 € (2025) und 142,50 € (2026) zugunsten von Eva |
+  | Material für den Museumsauftrag | 760 € | keine Berichtigung (§ 44 Abs. 1 UStDV) |
+  | Lackierarbeiten (§ 13b-Steuer) | 380 € | keine Berichtigung (§ 44 Abs. 1 UStDV) |
+  | VW-Passat | 1.520 € | Berichtigung 2025 und 2026, zusätzlich rückwirkend angepasst |
+
+  Wer die Bagatellgrenzen des § 44 UStDV nicht mitprüft, rechnet in drei von fünf Fällen
+  unnötig.
+
+  **Der Totalschaden ist der technisch anspruchsvollste Teil.** Die Zerstörung am 31.12.2026
+  verkürzt den Berichtigungszeitraum nach § 15a Abs. 5 Satz 2 UStG von 48 auf 17 Monate. Das
+  wirkt **rückwirkend** auf 2025: Statt 31,67 € sind 89,41 € zu berichtigen, die Differenz von
+  57,74 € kommt in die Jahreserklärung 2026 (Abschn. 15a.11 Abs. 5 UStAE). Und weil die
+  anteiligen Anschaffungskosten in die Bemessungsgrundlage der unentgeltlichen Wertabgabe
+  eingehen, zieht dieselbe Verkürzung dort eine zweite Nachversteuerung von 40,42 € nach sich.
+  Ein einziger Unfall am letzten Tag des Jahres verändert damit vier Beträge in zwei
+  Besteuerungszeiträumen.
+
+  **Die Rechnung des Eisenbahnmuseums enthält eine versteckte Falle.** Sie rechnet die
+  Umsatzsteuer nur auf die Zwischensumme von 19.000 € und behandelt die Anzahlung von 1.000 €
+  damit als Nettobetrag. Die Lösung dreht das um: Das gesamte Entgelt einschließlich Steuer
+  beträgt 22.610 € + 1.000 € = 23.610 €, die Bemessungsgrundlage 19.840,34 € und die Steuer
+  insgesamt 3.769,66 €. Auf die Anzahlung entfallen davon 159,66 € (19/119 aus 1.000 €), die
+  bereits im Dezember 2025 entstehen, weil die Anzahlung nach dem Wechsel zur Regelbesteuerung
+  nachversteuert wird (Abschn. 19.7 Abs. 1 Satz 4 UStAE). Der Rest von 3.610 € entsteht im
+  Februar 2026 – zufällig genau der Betrag, den die Rechnung ausweist.
+
+  **Die Auslandsgeschäfte des Kleinunternehmers ergeben ein auf den ersten Blick
+  widersprüchliches Bild.** Die Lieferungen nach Turin wären innergemeinschaftliche
+  Lieferungen – die Befreiung ist aber nach § 19 Abs. 1 Satz 2 UStG für Kleinunternehmer
+  ausgeschlossen; steuerfrei sind sie trotzdem, nur eben nach § 19 Abs. 1 Satz 1 UStG.
+  Umgekehrt schuldet der Kleinunternehmer sehr wohl Steuer: 2.470 € für den
+  innergemeinschaftlichen Erwerb aus Venedig und 380 € als Leistungsempfänger nach § 13b UStG
+  für die Lackierarbeiten in Innsbruck – jeweils **ohne** Vorsteuerabzug. Die
+  Kleinunternehmerregelung befreit von der Steuer auf die eigenen Ausgangsumsätze, nicht von
+  der Steuerschuldnerschaft für bezogene Leistungen.
+
+  **Das Altgebäude ist eine Prüfung, die ins Leere läuft und trotzdem nötig ist.** Das Gebäude
+  stammt aus dem 19. Jahrhundert und wäre damit ein Altgebäude nach § 27 Abs. 2 UStG, für das
+  § 9 Abs. 2 UStG nicht gälte. Weil die Entkernung 2015/2016 aber ein anderes Wirtschaftsgut
+  geschaffen hat (Abschn. 9.2 Abs. 6 Satz 2 UStAE), ist § 9 Abs. 2 UStG anwendbar – und genau
+  daran scheitert die Option gegenüber dem Arzt. Dieselbe Umgestaltung führt über § 27 Abs. 16
+  UStG außerdem dazu, dass § 15 Abs. 1b UStG gilt: Die Wohnung im 3. OG berechtigt nicht zum
+  Vorsteuerabzug, löst dafür aber auch keine unentgeltliche Wertabgabe aus. Dieselbe Frage
+  prüft der USt-Teil der Übungsklausur „Ferdy Frosch“ (AO/USt/ErbSt/BewR 2) mit demselben
+  Ergebnis – die beiden Fälle stehen im Campus in benachbarten Reitern.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.** Gesamtumsatz 6.000 + 17.500 +
+  1.000 = 24.500 €. Etagenquote (3/12 × 100 %) + (8/12 × 75 %) + (1/12 × 100 %) = 83,33 %;
+  zusammen mit 100 %, 0 % und 0 % ergibt das 183,33 % : 4 = 45,83 %; die Gegenprobe der Quelle
+  (50/800 qm × 8/12 = 4,17 %) stimmt mit der Differenz 50 % ./. 45,83 % überein. Renovierung:
+  1.425 € : 10 = 142,50 €, davon 16,67 % = 23,75 €. Museum: 23.610 € : 1,19 = 19.840,34 €,
+  Steuer 3.769,66 €. Pkw: (1.520 € : 4 × 5/12) × 20 % = 31,67 €; 5/17 × 1.520 € × 20 % =
+  89,41 €; Differenz 57,74 €; 12/17 × 1.520 € = 1.072,94 €. Wertabgabe: (2.400 + 1.000 +
+  833,33) × 1/5 × 70 % × 19 % = 112,61 €; (8.000/17 ./. 8.000/48) × 70 % × 19 % = 40,42 €;
+  (5.000 + 2.000 + 5.647,06) × 40 % × 19 % = 961,18 €, monatlich 80,10 €.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „Anfang des
+  19. Jahrhunderts“ in der Lösung, während der Sachverhalt das Ende des 19. Jahrhunderts
+  nennt; „Sylvester Party“; „Vorsteuerberichtung“; „§§ 14. 14a UStG“ mit Punkt statt Komma;
+  „§ 15 Abs. 1 Satz 1 Nr. 1 Sätze 1, 2, kein § 15 Abs. 2“ ohne Gesetzesangabe; „im
+  Voranmeldungszeitraums 12/2025 – 12/2026“; „bekommt Eva in der Jahreserklärung“ statt
+  erhält; und die Jahresangabe „seit dem Jahr 25“ für 2025.

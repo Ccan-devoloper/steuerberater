@@ -1544,7 +1544,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   323 € Steuer ohne Vorsteuerabzug. Jede Zahl ist unabhängig nachgerechnet. Die
   Restaurantrechnung über „zutreffend 95,40 € USt" erklärt die Quelle nicht; die
   Rekonstruktion als Mischung aus 630 € zu 7 % und 270 € zu 19 % ist im Datensatz als
-  **eigene Ableitung** gekennzeichnet.
+  **eigene Ableitung** gekennzeichnet. Dazu die Klausur **„Eheleute Taff" (Prüfung 2012)**,
+  die um **einen einzigen Tag** gebaut ist: Der Verkauf über 2.000 € am 1. Dezember 2025 hebt
+  den Gesamtumsatz von 24.500 € auf 26.500 € und sprengt die Kleinunternehmergrenze des
+  § 19 Abs. 1 UStG – und nach Abschnitt 19.7 Abs. 1 Satz 3 UStAE ist **bereits dieser Umsatz**
+  steuerpflichtig, nicht erst der nächste. Von da an ändert sich alles gleichzeitig, und zwar
+  bei **beiden** Eheleuten: Die Vermietung der Ehefrau an den Ehemann kippt von steuerfrei mit
+  § 14c-Schuld (190 € monatlich von Juli bis November) in steuerpflichtig durch Option; aus
+  einer nicht abziehbaren Vorsteuer von 1.425 € wird ein Berichtigungsobjekt nach § 15a Abs. 3
+  UStG; die Anzahlung des Eisenbahnmuseums wird nachversteuert; und der Pkw wird erstmals
+  berichtigungsfähig, wobei die Privatnutzung überhaupt erst jetzt eine unentgeltliche
+  Wertabgabe auslöst, weil es vorher keinen Vorsteuerabzug gab. Der **Totalschaden am
+  31.12.2026** wirkt dann rückwirkend: Er verkürzt den Berichtigungszeitraum von 48 auf 17
+  Monate, was die Berichtigung für 2025 von 31,67 € auf 89,41 € anhebt (Differenz 57,74 € in
+  der Jahreserklärung 2026) und zusätzlich die Bemessungsgrundlage der Wertabgabe erhöht
+  (Nachversteuerung 40,42 €). Ein einziger Unfall am letzten Tag des Jahres verändert damit
+  vier Beträge in zwei Besteuerungszeiträumen. Bemerkenswert ist außerdem, dass die Klausur
+  **§ 15a UStG fünfmal** prüft und dreimal an der Bagatellgrenze des § 44 UStDV scheitert, und
+  dass die Rechnung des Museums die Anzahlung fälschlich als Nettobetrag behandelt – die
+  Lösung rechnet aus 23.610 € brutto eine Bemessungsgrundlage von 19.840,34 € und teilt die
+  Steuer von 3.769,66 € auf 159,66 € (VAZ 12/2025) und 3.610 € (VAZ 02/2026) auf.
   Prüfung: `npm run check:k1-ust-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
