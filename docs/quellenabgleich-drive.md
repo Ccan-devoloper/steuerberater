@@ -2913,3 +2913,56 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   dem 11.03.09, mithin 10.000 € x 3 % = **300 €**. Im Musterfall entsprechen die
   verlangten 2.000 € der Erstattung von 7.000 € abzüglich der Vorauszahlung von 5.000 €,
   die Säumniszuschläge von 50 € einem Prozent von 5.000 €.
+
+## AO-Skript (Jacobs), Teil V – Abschnitt 11: Steuererhebungsverfahren (Teil 3)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`),
+  Abschnitt 11, Rest des Teils III.
+- Einpflege dieses Durchgangs: vier Kapitel – § 406 BGB bei abgetretenen Steuerforderungen
+  mit beiden Alternativen, Übersicht, Beispiel und dem Übungsfall Bruno Stein; die
+  Zahlungsverjährung der §§ 228 bis 232 AO mit Abgrenzung, Fristbeginn, Dauer und Hemmung;
+  die Unterbrechung nach § 231 AO mit Beispiel, Prüfungsschema und Rechtsfolgen; sowie der
+  zusammenfassende Übungsfall Hans Glück. **Der Teil III des Abschnitts 11 ist damit
+  vollständig.** Das Skript umfasst jetzt 12 Teile, 139 Kapitel, 3.142 Blöcke und 238
+  Tabellen; Prüfung `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: die Teile IV und V des Abschnitts 11 sowie der Abschnitt 12.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 8, Übungsfall Bruno Stein – zwei Datumsdreher in derselben Lösung.** Die
+    Prüfung der 2. Alternative des § 406 BGB nennt als Fälligkeit der Einkommensteuer 02
+    den „**05.05.06**“, während der Sachverhalt und die Rechnung mit der Viertagesfrist
+    (Bescheid vom 02.04.06, Bekanntgabe 06.04.06) den 06.05.06 ergeben – mit dem die
+    Lösung an anderer Stelle auch rechnet (Säumniszuschläge „vom 06.05.06 bis zum
+    19.05.06“). Wenig später heißt es, das Finanzamt habe Kenntnis von der „am **12.04.05**
+    eingegangenen Abtretung“ gehabt; der Sachverhalt nennt den 12.04.06. Beide Angaben
+    ändern am Ergebnis nichts.
+  - Kapitel 9: Die Fälligkeit der Umsatzsteuer-Voranmeldung wird hier auf „§ 18 I 3 UStG“
+    gestützt, an anderer Stelle desselben Abschnitts auf § 18 Abs. 1 Satz 4 UStG.
+  - Kapitel 10: Im Beispiel wird die Klammer nach „(Fälligkeit der Nachzahlung am 02.01.04,
+    § 36 IV 1 EStG“ nicht geschlossen.
+  - Kapitel 11: Die Steueranmeldung wird als „§ 150 I 2 AO“ zitiert; geregelt ist sie in
+    § 150 Abs. 1 Satz 3 AO. Ferner der verstellte Halbsatz „… in den Grenzen der §§ 361 II
+    AO, 69 II und III FGO, welche wiederum unter § 231 I AO zu definieren sind“.
+
+  Darstellungsentscheidungen: Die Übersicht zu den beiden Alternativen des § 406 BGB, die
+  Abgrenzung von Festsetzungs- und Zahlungsverjährung, die Teilverjährungs-Übersicht des
+  Beispiels und die Betragsaufstellung des Endergebnisses stehen in der Quelle als
+  Schaubilder, deren Spalten in der maschinellen Erfassung ineinanderlaufen. Sie sind
+  spaltenweise zugeordnet als Tabellen wiedergegeben, mit Hinweis im Datensatz; der Wortlaut
+  ist unverändert.
+
+  Nachgerechnet und zutreffend: Im Übungsfall Bruno Stein gehen alle Fälligkeiten mit der
+  Viertagesfrist auf (02.04.06 → 06.04.06 → **06.05.06**; 18.04.06 → 22.04.06 →
+  **22.05.06**; 15.05.06 → **19.05.06**); von den 40.000 € Guthaben verbleiben nach der
+  allein wirksamen Aufrechnung über 25.000 € genau die **15.000 €** der Zusammenfassung,
+  und die 250 € Säumniszuschläge sind ein Prozent von 25.000 € für den einen angefangenen
+  Monat. Im Beispiel zur Unterbrechung ergibt der Bescheid vom 28.11.03 die Bekanntgabe am
+  02.12.03, die Fälligkeit am **02.01.04**, den Fristbeginn zum 31.12.04 und das reguläre
+  Ende zum **31.12.09**; für den gestundeten Teilbetrag verschiebt sich die Frist über den
+  31.12.10 auf den **31.12.15**. Im Übungsfall Hans Glück ergeben 160.000 € + 20.000 € +
+  1.000 € + 15.000 € die genannten **196.000 €**, der Bescheid vom 09.12.02 führt über die
+  Bekanntgabe am 13.12.02 zur Fälligkeit am **13.01.03**, und 60.000 € + 1.000 € +
+  15.000 € ergeben die **76.000 €** des Endergebnisses.

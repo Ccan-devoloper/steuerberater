@@ -221,7 +221,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 389 BGB und ihre Grenze in § 240 Abs. 1 Satz 5 AO samt durchgerechnetem Beispiel, die
   Rechtsbehelfe gegen Aufrechnungen beider Seiten und der Musterfall, in dem das Finanzamt
   das Umsatzsteuerguthaben des Ehemannes mangels Gegenseitigkeit nicht gegen die
-  Umsatzsteuerrückstände der Ehefrau aufrechnen kann.
+  Umsatzsteuerrückstände der Ehefrau aufrechnen kann. Es folgt § 406 BGB bei abgetretenen
+  Steuerforderungen – beide Alternativen mit Übersicht, ein Beispiel zur ersten und der
+  Übungsfall Bruno Stein, in dem das Finanzamt nur mit der Einkommensteuer 02 wirksam gegen
+  den an die Bank abgetretenen Erstattungsanspruch aufrechnen kann – und die vollständige
+  **Zahlungsverjährung der §§ 228 bis 232 AO**: Abgrenzung zur Festsetzungsverjährung,
+  Fristbeginn nach § 229 AO einschließlich Anlaufhemmung, Klarstellung bei Korrekturen und
+  Haftungsbescheid ohne Zahlungsaufforderung, Fünf- und Zehnjahresfrist, Hemmung nach
+  § 230 Abs. 2 AO, die abschließenden Unterbrechungstatbestände des § 231 AO mit
+  Teilverjährung und Neubeginn – durchgerechnet an einem Beispiel mit Stundung und Mahnung
+  –, Prüfungsschema, Rechtsfolgen und der zusammenfassende Übungsfall Hans Glück, in dem
+  von 196.000 € Rückständen nach getrennter Prüfung von Einkommensteuer, Umsatzsteuer,
+  Säumniszuschlägen und Haftungsschuld noch 76.000 € durchsetzbar sind.
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und

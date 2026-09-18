@@ -114,10 +114,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   einschließlich des Beispiels Rumpel-/Grobi-GmbH) und der Teil II (Abrechnungsbescheid
   nach § 218 Abs. 2 AO mit den Fällen Baghira und Leo Lügner sowie § 218 Abs. 3 AO)
   eingepflegt, aus dem Teil III (Erlöschen von Ansprüchen nach § 47 AO) die Übersicht und
-  die Aufrechnung nach § 226 AO bis einschließlich des Musterfalls. Offen sind der Rest des
-  Teils III (§ 406 BGB bei abgetretenen Forderungen, Erlass und Zahlungsverjährung), die
-  Teile IV und V des Abschnitts 11 (Säumniszuschläge, Zinsen), der Abschnitt 12
-  (Außenprüfung) und der Abschnitt 13.
+  die Aufrechnung nach § 226 AO, § 406 BGB bei abgetretenen Forderungen und die
+  Zahlungsverjährung der §§ 228 bis 232 AO eingepflegt. **Der Teil III ist damit
+  vollständig.** Offen sind die Teile IV und V des Abschnitts 11 (Säumniszuschläge nach
+  § 240 AO, Zinsen nach den §§ 233 bis 239 AO), der Abschnitt 12 (Außenprüfung, vom
+  Connector bis Seite 27 ausgegeben) und der Abschnitt 13.
 - AO-Short-Skript
 - FGO
 - Notfallbuch
