@@ -1905,6 +1905,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zahlendreher im Gewinn der KG, die in beiden Bilanzen fehlende Einzahlung der
   Komplementär-GmbH über 162.500 € und eine Rundungsdifferenz bei den Verlustanteilen) sind
   als **eigene Feststellung** gekennzeichnet. **Damit ist die Prüfung 2011 vollständig.**
+  Aus der **Prüfung 2012** kommt **Teil I (Einzelunternehmen Winter, 34 Punkte)** hinzu:
+  Dasselbe Grundstück wird im **Mai** gekauft, im **September** modernisiert und im
+  **Dezember** teilweise privat bezogen – und jeder Schritt baut auf dem vorigen auf. Es
+  zerfällt in **vier Wirtschaftsgüter** (R 4.2 Abs. 3 Satz 3 Nr. 5 EStR), deren
+  Anschaffungskosten von 214.247,50 € nach 75/25 und 240/320 bis auf den Cent aufzuteilen
+  sind; dabei gehört die nicht abzugsfähige Vorsteuer von 47,50 € ausschließlich zum
+  fremdvermieteten Teil. Die **Modernisierung** ist handelsrechtlich Erhaltungsaufwand – kein
+  Standard in drei Gewerken –, steuerrechtlich dagegen **anschaffungsnaher Aufwand**, weil
+  25.000 € die 15-Prozent-Grenze von 24.102,85 € um knapp 900 € überschreiten. Der **Einzug
+  in die Wohnung** macht sie zwingend zu notwendigem Privatvermögen und erzwingt eine
+  **Entnahme zum Teilwert**, der sich aus den abgelehnten Kaufangeboten von 300.000 € ergibt.
+  Weil steuerlich der anschaffungsnahe Aufwand aktiviert ist, fällt der Entnahmegewinn
+  auseinander: **21.871,48 €** handelsrechtlich gegen **14.659,69 €** steuerrechtlich; auch
+  die AfA-Sätze weichen ab (2 % Nutzungsdauer gegen 2,5 % nach § 7 Abs. 4 Satz 1 Nr. 2
+  Buchst. c EStG). Dazu ein **Darlehen**, dessen vertragliche und tatsächliche Zuordnung zum
+  betrieblichen Grundstücksteil jede Aufteilung der Finanzierungskosten erspart (Ratingkosten
+  sofort abziehbar, kein Disagio-Fall), und eine **Verpackungsmaschine**, bei der ein Probelauf
+  am 30.12. über einen ganzen Monat Abschreibung entscheidet – mit auseinanderlaufenden
+  Bemessungsgrundlagen von 16.000 € und 8.000 € nach dem Investitionsabzugsbetrag. Drei
+  Unstimmigkeiten der Anlage 1 (eine nicht aufgehende Summe, ein widersprüchlicher
+  Klammerzusatz und eine Textziffer, die noch dem alten § 7g EStG folgt) sind als **eigene
+  Feststellung** gekennzeichnet.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

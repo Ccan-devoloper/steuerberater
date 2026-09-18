@@ -8326,3 +8326,108 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   kleinen L statt römischer Drei; „Gewinn der KG für das Jahr 2023“ statt 2025; „Ihre
   Gesellschaftseinlage“ mit großem I; „GruBo’s“ mit Apostroph; und „ertragssteuerrechtlichen“
   mit drei s in der Aufgabenstellung.
+
+## Originalklausuren der Steuerberaterprüfung – Buchführung und Bilanzwesen, Prüfung 2012, Teil I
+
+- Quelle: dieselbe Datei (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`), Prüfung 2012, Teil I.
+- Einpflege dieses Durchgangs: **Teil I der Prüfung 2012** (Einzelunternehmen Winter,
+  34 Punkte); der Datensatz umfasst jetzt 4 Aufgabenteile, 329 Blöcke, 32 Tabellen und
+  134 Punkte; Prüfung `npm run check:k3-bil-originalklausuren`. Aus der Datei lesbar bleibt
+  nur noch der Anfang von Teil II derselben Klausur (Sommer GmbH).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Drei Zeitpunkte, drei Beurteilungen – und jeder Schritt baut auf dem vorigen auf.**
+
+  | Zeitpunkt | Vorgang | Folge |
+  | --- | --- | --- |
+  | **Mai 2025** | Erwerb des bisher gemieteten Grundstücks (Übergang Nutzen und Lasten) | Zurechnung als **wirtschaftlicher** Eigentümer (§ 246 Abs. 1 Satz 2 HGB, § 39 Abs. 2 Nr. 1 AO); das Grundstück zerfällt in **vier Wirtschaftsgüter** (R 4.2 Abs. 3 Satz 3 Nr. 5 EStR) – betrieblicher und vermieteter Gebäudeteil, dazu je ein Anteil Grund und Boden |
+  | **September 2025** | Fassadenverkleidung und Isolierglasfenster | handelsrechtlich **Erhaltungsaufwand** (kein Standard in drei Gewerken), steuerrechtlich **anschaffungsnaher Aufwand** nach § 6 Abs. 1 Nr. 1a EStG |
+  | **Dezember 2025** | Einzug in die bisher vermietete Wohnung | zwingend **notwendiges Privatvermögen** (R 4.2 Abs. 9 Satz 1 EStR im Umkehrschluss) – **Entnahme zum Teilwert** nach § 6 Abs. 1 Nr. 4 EStG |
+
+  **Die Anschaffungskosten sind bis auf den Cent aufzuteilen.** Sie betragen 214.247,50 €
+  (200.000 € Kaufpreis, 1.000 € Notar, 200 € Grundbuch, 13.000 € Grunderwerbsteuer und
+  47,50 € nicht abzugsfähige Vorsteuer) und verteilen sich nach 75/25 auf Gebäude und Grund
+  und Boden sowie nach 240/320 bzw. 80/320 auf betrieblichen und vermieteten Teil – wobei die
+  nicht abzugsfähige Vorsteuer **ausschließlich** den fremdvermieteten Teil trifft:
+
+  | | Gebäude betrieblich | Gebäude Wohnung | Grund und Boden betrieblich | Grund und Boden Wohnung |
+  | --- | --- | --- | --- | --- |
+  | Summe | 120.487,50 € | 40.198,13 € | 40.162,50 € | 13.399,37 € |
+
+  **Die 15-Prozent-Grenze wird um knapp 900 € überschritten.** Maßgeblich sind die
+  Anschaffungskosten des **Gebäudes** (120.487,50 + 40.198,13 = 160.685,63 €), 15 % davon
+  sind **24.102,85 €**. Die Modernisierungskosten von netto 25.000 € liegen darüber – und nur
+  darum macht § 6 Abs. 1 Nr. 1a EStG sie steuerlich zu anschaffungsnahen Herstellungskosten
+  (18.750 € betrieblich, 6.250 € Wohnung, dazu 1.187,50 € nicht abzugsfähige Vorsteuer).
+  Handelsrechtlich bleibt es bei sofort abzugsfähigem Erhaltungsaufwand; die Quelle belegt das
+  mit dem Beck'schen Bilanzkommentar.
+
+  **Der Entnahmegewinn fällt deshalb auseinander.** Der Teilwert ist in beiden Rechenwerken
+  identisch – 75.000 € für Gebäudeteil und Grund und Boden der Wohnung, abgeleitet aus den
+  **abgelehnten Kaufangeboten** über 300.000 € (der Teilwert umfasst nach H 6.7 EStH auch die
+  Anschaffungsnebenkosten). Verschieden ist nur der Buchwert:
+
+  | | Handelsrecht | Steuerrecht |
+  | --- | --- | --- |
+  | Zugang Mai 2025 | 40.198,13 € + 13.399,37 € | 40.198,13 € + 13.399,37 € |
+  | anschaffungsnahe Herstellungskosten | 0 € | + 6.250,00 € |
+  | nicht abzugsfähige Vorsteuer darauf | 0 € | + 1.187,50 € |
+  | AfA Mai bis November | - 468,98 € (2 %) | - 694,69 € (2,5 %) |
+  | **Buchwert bei Entnahme** | **53.128,52 €** | **60.340,31 €** |
+  | **Entnahmegewinn** | **21.871,48 €** | **14.659,69 €** |
+
+  Bemerkenswert ist auch, dass die **AfA-Sätze auseinanderfallen**: handelsrechtlich 2 %
+  (voraussichtliche Nutzungsdauer 50 Jahre), steuerrechtlich 2,5 % nach § 7 Abs. 4 Satz 1
+  Nr. 2 Buchst. c EStG wegen des Baujahrs vor 1925. Die gebuchte AfA von 4.680 € ist in beiden
+  Rechenwerken zu hoch.
+
+  **Ein Satz des Sachverhalts erspart die ganze Aufteilung der Finanzierungskosten.** Weil die
+  Darlehensmittel vertraglich **und tatsächlich** nur den eigenbetrieblich genutzten
+  Grundstücksteil finanzieren, sind sämtliche Finanzierungskosten ohne Quotelung
+  Betriebsausgaben. Die Ratingkosten von 1.000 € sind sofort abziehbar – kein
+  aktivierungsfähiger Vermögensgegenstand und, anders als bei einem Disagio, keine
+  zeitraumbezogene Gegenleistung. Die Schuld ist mit dem **Erfüllungsbetrag** von 100.000 € zu
+  passivieren, nicht mit dem ausgezahlten Betrag von 99.000 €.
+
+  **Bei der Verpackungsmaschine entscheidet ein Probelauf über einen ganzen Monat AfA.**
+  Geliefert am 30.12.2025, regulär eingesetzt erst ab Januar 2026 – für die Zurechnung genügt
+  die Erlangung der Verfügungsmacht, die AfA beginnt also im Dezember, aber nur für 1/12.
+  Danach laufen die Bemessungsgrundlagen auseinander:
+
+  | | Handelsbilanz | Steuerbilanz |
+  | --- | --- | --- |
+  | Anschaffungskosten | 16.000,00 € | 16.000,00 € |
+  | Kürzung nach § 7g Abs. 2 Satz 3 EStG | – | - 8.000,00 € |
+  | AfA Dezember (1/8 × 1/12) | - 166,67 € | - 83,33 € |
+  | Sonderabschreibung § 7g Abs. 5 EStG (40 %) | – | - 3.200,00 € |
+  | **Wertansatz 31.12.2025** | **15.833,33 €** | **4.716,67 €** |
+
+  **Drei Unstimmigkeiten der Anlage 1 – eigene Feststellung:**
+  1. Die **Summe der Handelsbilanz-Spalte geht nicht auf**. Aus den dort aufgeführten
+     Einzelbeträgen (80.000 + 1.200 ./. 25.000 ./. 468,98 ./. 53.128,52 + 75.000 + 3.073,50
+     ./. 1.000 ./. 3.000 + 1.833,33) ergeben sich **78.509,33 €**; die Quelle weist
+     **80.519,33 €** aus. Die Differenz von 2.010 € lässt sich aus den übrigen Angaben nicht
+     herleiten.
+  2. Der Klammerzusatz zum Anlagenabgang nennt „38.987,90 € Gebäude + 13.149,37 € GruBo“ –
+     zusammen 52.137,27 € und nicht die daneben ausgewiesenen 53.128,52 €. Die zuvor
+     hergeleiteten Buchwerte lauten 39.729,15 € und 13.399,37 €.
+  3. Die Beträge der Textziffer 3 folgen in der Anlage durchgehend dem **alten § 7g EStG**:
+     6.400 € Hinzurechnung entsprechen 40 % von 16.000 €, die dort genannte AfA von „100 €“
+     einer Bemessungsgrundlage von 9.600 € und die Sonderabschreibung von 1.920 € einem Satz
+     von 20 % – während der Lösungstext mit der geltenden Fassung rechnet (50 % Hinzurechnung
+     = 8.000 €, AfA 83,33 €, Sonderabschreibung 40 % = 3.200 €). Die Anlage ist insoweit
+     offenbar nicht mit fortgeschrieben worden.
+
+  Alle Zahlen sind wortlautgetreu übernommen und im Datensatz kenntlich gemacht.
+
+  **Alle übrigen Beträge sind unabhängig nachgerechnet und gehen auf.** Die Punktvergabe geht
+  ebenfalls auf: Die laufenden Zwischensummen der Quelle (3,0 – 20,0 – 25,0 – 32,0 – 34)
+  ergeben 20 Punkte für das Grundstück, 5 für die Grundschuld, 7 für die Verpackungsmaschine
+  und 2 für die Anlage 1.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „Übergang von
+  Nutzen und Lasten am 01.05.2023“ statt 2025; „Baujahr 1921“ in der Begründung zu § 7 Abs. 4
+  Satz 1 Nr. 2 Buchst. c EStG, während der Sachverhalt 1923 nennt; „als Betriebsausgabe des
+  Jahres 2026 abzugsfähig“ bei den Zinsen, die den Gewinn 2025 mindern;
+  „anschaffungsnahmen Herstellungskosten“; „Instandhaltungsksoten“; „§ 7 Abs. 4 Nr. S. 1
+  Nr. 2 c) EStG“; sowie der Wert „4716,67 €“ ohne Tausenderpunkt.
