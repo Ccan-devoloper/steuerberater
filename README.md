@@ -161,7 +161,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Ertragswertverfahrens** mit dem Bodenwert als Mindestwert, dem vollständigen
   Rechenschema von der Jahresmiete über Bewirtschaftungskosten, Reinertrag und
   Bodenwertverzinsung bis zum Grundbesitzwert und dem Rohertrag nach § 186 BewG mit der
-  **20-Prozent-Grenze** zur üblichen Miete, die in beide Richtungen wirkt.
+  **20-Prozent-Grenze** zur üblichen Miete, die in beide Richtungen wirkt. Dazu die
+  **Bewirtschaftungskosten** nach Anlage 23 BewG – Verwaltungs- und Instandhaltungskosten,
+  Mietausfallwagnis, getrennt für Wohn- und Nichtwohnnutzung – mit der Indizierung auf die
+  Bewertungsstichtage 2025 (Verbraucherpreisindex 120,2 zu 77,1, also 359 €, 47 €, 14,00 €
+  und 106 €) und einem vollständig durchgerechneten Beispiel mit zwölf Wohnungen, zwei
+  Gewerbeeinheiten und vierzehn Tiefgaragenplätzen (28.560 €); der **Liegenschaftszinssatz**
+  mit den vier gesetzlichen Sätzen von 3,5 % bis 6,0 % und der selbständig nutzbaren
+  Teilfläche; sowie die **Restnutzungsdauer** mit der Mindestgrenze von 30 % der
+  Gesamtnutzungsdauer, der Verlängerung durch Modernisierung nach dem Punktesystem des
+  AEBew und der Verkürzung allein bei Abbruchverpflichtung.
   Prüfung: `npm run check:k1-erbst-bewertung-teil2`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des

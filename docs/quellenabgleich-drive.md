@@ -4473,3 +4473,54 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Vergleichswertfaktoren vorliegen – der Sachverhalt schließt beide Varianten der Tz. 5
   ausdrücklich aus. Und die 20-Prozent-Grenze entscheidet dort über beide Obergeschosse des
   Bochumer Grundstücks (1. OG 41,7 % Abweichung, 2. OG 3,3 %).
+
+## Bewertungsrecht Teil 2 (Schäfer) – Tz. 6 abgeschlossen: Bewirtschaftungskosten bis Gebäudeertragswert
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`),
+  Tz. 6 Buchstaben b) bis d), PDF-Seiten 15 bis 21.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 4 Teile,
+  9 Kapitel, 138 Blöcke und 14 Tabellen; Prüfung `npm run check:k1-erbst-bewertung-teil2`.
+  **Damit ist die Tz. 6 (Ertragswertverfahren) vollständig.**
+- Noch offen aus derselben Datei: die Tz. 7 bis 12 sowie die Lösungsdatei.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Das Beispiel zu den Bewirtschaftungskosten geht vollständig auf.** Der Indexfaktor
+  beträgt 120,2 : 77,1 = 1,55901. Daraus folgen 230 × 1,55901 = 358,57 € (gerundet 359 €),
+  30 × 1,55901 = 46,77 € (47 €), 9 × 1,55901 = 14,03 € (auf eine Nachkommastelle 14,0 €)
+  und 68 × 1,55901 = 106,01 € (106 €). Die acht Einzelposten ergeben 4.308 + 564 + 504 +
+  16.800 + 2.800 + 1.484 + 1.428 + 672 = 28.560 €. Der Wohnanteil des Rohertrags beträgt
+  88.200 − 16.800 = 71.400 €, davon 2 % = 1.428 €; 4 % von 16.800 € sind 672 €.
+
+  Beachtenswert an diesem Beispiel ist die unterschiedliche Behandlung der vierzehn
+  Tiefgaragenplätze: Bei den **Verwaltungskosten** werden nur die zwölf den Wohnungen
+  zugeordneten Plätze mit dem Einzelansatz von 47 € erfasst, die beiden übrigen dagegen über
+  die 3-Prozent-Regel des anteiligen gewerblichen Rohertrags; bei den
+  **Instandhaltungskosten** gehen alle vierzehn Plätze mit dem Einzelansatz von 106 € ein.
+  Der Datensatz führt diesen Punkt in der Kontrollrechnung mit.
+
+  **Eine Abweichung zwischen zwei Quellen desselben Verfassers.** Dieses Skript rechnet mit
+  dem Oktoberwert 2001 von **77,1**, die Musterlösung des Übungsfalls Fietze der
+  ErbSt-Fallsammlung an derselben Stelle mit **77,11**. Beide Werte führen nach der
+  vorgeschriebenen Rundung zu denselben Ansätzen (359 €, 47 €, 14,00 €, 106 €), so dass sich
+  der Unterschied in der Klausur nicht auswirkt. Beide Angaben sind jeweils unverändert
+  übernommen und der Befund im Datensatz vermerkt.
+
+  Redaktioneller Befund: Das abschließende Beispiel der Tz. 6 (Mehrfamilienhaus mit sieben
+  Wohnungen, Übertragung am 15.06.2025) steht **ohne Lösung** und ist hier **nicht
+  aufgelöst**. Der Datensatz vermerkt lediglich, welche Größen der Sachverhalt anspricht:
+  die leerstehende und die verbilligt vermietete Wohnung führen über § 186 Abs. 2 BewG zur
+  üblichen Miete, der fehlende Liegenschaftszinssatz des Gutachterausschusses zum
+  gesetzlichen Satz von 3,5 % für Mietwohngrundstücke, und aus Bezugsfertigkeit 2000 und
+  Stichtagsjahr 2025 folgt das Gebäudealter. Die Lösung liegt in der noch nicht geöffneten
+  Lösungsdatei (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`).
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 6 b).** „**Zu** Ermittlung des Reinertrags des Grundstücks“; in der amtlichen
+    Anmerkung der Anlage 23 „3 % des hierauf **entfallen** jährlichen Rohertrags“; im
+    Beispiel „Die Gesamtwohnfläche eines **Mietwohngrundstück**“ und der fehlende
+    Schlusspunkt des Sachverhalts.
+  - **Tz. 6 c).** „4,5 % für **gemischt genutzt** Grundstücke“; der Satz zu den
+    Geschäftsgrundstücken endet ohne Punkt; „**Ist** das zu bewertende Grundstück wesentlich
+    größer **ist**, als es einer den Gebäuden angemessenen Nutzung entspricht“.
