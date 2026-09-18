@@ -232,7 +232,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Teilverjährung und Neubeginn – durchgerechnet an einem Beispiel mit Stundung und Mahnung
   –, Prüfungsschema, Rechtsfolgen und der zusammenfassende Übungsfall Hans Glück, in dem
   von 196.000 € Rückständen nach getrennter Prüfung von Einkommensteuer, Umsatzsteuer,
-  Säumniszuschlägen und Haftungsschuld noch 76.000 € durchsetzbar sind.
+  Säumniszuschlägen und Haftungsschuld noch 76.000 € durchsetzbar sind. Die **Teile IV und
+  V** schließen den Abschnitt ab: die Säumniszuschläge des § 240 AO mit Entstehung ohne
+  Verschulden, den Schonfristen je nach Zahlungsart, der Berechnung von einem Prozent je
+  angefangenem Monat und der Geltendmachung über den Abrechnungsbescheid; sowie sämtliche
+  Zinstatbestände der §§ 233 bis 239 AO – der Zinsbescheid als steuerbescheidgleicher
+  Verwaltungsakt mit Kleinbetragsregelung, Korrektur und zweijähriger Festsetzungsfrist, die
+  **Vollverzinsung des § 233a AO** mit fünfzehnmonatiger Karenzzeit, der Gegenüberstellung
+  von Soll- und Istverzinsung, den Sonderfällen des § 233a Abs. 2a AO, der rückwirkenden
+  Absenkung auf 0,15 % pro Monat nach dem BVerfG-Beschluss vom 08.07.2021 samt
+  Teilverzinsungszeiträumen und drei durchgerechneten Fallbeispielen (600 €, 348 € und
+  1.095 €), und schließlich Stundungs- (§ 234 AO), Hinterziehungs- (§ 235 AO), Prozess-
+  (§ 236 AO) und Aussetzungszinsen (§ 237 AO) mit Zinslauf, Zinsschuldner,
+  Ausschlussgründen und Konkurrenzen. **Abschnitt 11 ist damit vollständig.**
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und

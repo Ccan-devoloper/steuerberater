@@ -115,10 +115,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   nach § 218 Abs. 2 AO mit den Fällen Baghira und Leo Lügner sowie § 218 Abs. 3 AO)
   eingepflegt, aus dem Teil III (Erlöschen von Ansprüchen nach § 47 AO) die Übersicht und
   die Aufrechnung nach § 226 AO, § 406 BGB bei abgetretenen Forderungen und die
-  Zahlungsverjährung der §§ 228 bis 232 AO eingepflegt. **Der Teil III ist damit
-  vollständig.** Offen sind die Teile IV und V des Abschnitts 11 (Säumniszuschläge nach
-  § 240 AO, Zinsen nach den §§ 233 bis 239 AO), der Abschnitt 12 (Außenprüfung, vom
-  Connector bis Seite 27 ausgegeben) und der Abschnitt 13.
+  Zahlungsverjährung der §§ 228 bis 232 AO sowie die Teile IV und V (Säumniszuschläge nach
+  § 240 AO, sämtliche Zinstatbestände der §§ 233 bis 239 AO) eingepflegt. **Der Abschnitt 11
+  ist damit vollständig.** Offen sind der Abschnitt 12 (Außenprüfung; der Connector gibt ihn
+  bis Seite 27 aus) und der Abschnitt 13, den der Connector nicht mehr erreicht.
 - AO-Short-Skript
 - FGO
 - Notfallbuch

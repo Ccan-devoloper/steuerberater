@@ -2966,3 +2966,53 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   1.000 € + 15.000 € die genannten **196.000 €**, der Bescheid vom 09.12.02 führt über die
   Bekanntgabe am 13.12.02 zur Fälligkeit am **13.01.03**, und 60.000 € + 1.000 € +
   15.000 € ergeben die **76.000 €** des Endergebnisses.
+
+## AO-Skript (Jacobs), Teil V – Abschnitt 11: Steuererhebungsverfahren (Teil 4, Abschluss)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`),
+  Abschnitt 11, Teile IV und V.
+- Einpflege dieses Durchgangs: drei Kapitel – die Säumniszuschläge des § 240 AO mit
+  Schonfristen nach Zahlungsart; die allgemeinen Grundlagen der Zinsen einschließlich
+  Zinsbescheid, Rechtsbehelfen und Verjährung; die Vollverzinsung des § 233a AO mit den
+  Neuregelungen nach dem BVerfG-Beschluss und drei Fallbeispielen; sowie Stundungs-,
+  Hinterziehungs-, Prozess- und Aussetzungszinsen. **Der Abschnitt 11 ist damit
+  vollständig.** Das Skript umfasst jetzt 12 Teile, 142 Kapitel, 3.252 Blöcke und 244
+  Tabellen; Prüfung `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: der Abschnitt 12 (Außenprüfung) und der Abschnitt 13.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 13, Teilverzinsungszeiträume.** Die Erläuterung zu § 238 Abs. 1b AO spricht
+    von Zinszeiträumen, die „vor dem 01.01.2019 beginnen … und nach dem **31.01.2019**
+    enden“. Nach dem Regelungszusammenhang – und nach dem eigenen Beispiel 3, das den
+    ersten Teilzeitraum am 31.12.2018 enden lässt – ist der 31.12.2018 gemeint.
+  - **Kapitel 13, Beispiel 3.** Der zweite Teilverzinsungszeitraum ist mit „1.1.2019 bis
+    **4.8.2022**“ angegeben, während der Zinsberechnungszeitraum derselben Aufstellung am
+    31.7.2022 endet und das Zinslaufende der 3.8.2022 ist. Die angesetzten 1.290 Zinstage
+    (43 Monate à 30 Tage) entsprechen dem Zeitraum bis zum 31.7.2022; mit diesem Wert
+    rechnet die Quelle auch. Das Datum 4.8.2022 stammt erkennbar aus dem Beispiel 1.
+  - Kapitel 13: Die Klammer hinter den BVerfG-Aktenzeichen („1 BvR 2237/14 und 1 BvR
+    2422/17.“) wird nicht geschlossen; im Folgesatz steht „als noch als verfassungsgemäß“;
+    der AEAO-Verweis lautet „unter Hinweis Nr. Tz 3 und 4 zu § 168 AO“.
+  - Kapitel 14: Die Korrekturvorschrift für den Zinsbescheid ist als „§ 175 1 Nr. 1 AO“
+    zitiert; gemeint ist § 175 Abs. 1 Satz 1 Nr. 1 AO.
+  - Kapitel 12: Die Auslassungen bei den Fristangaben zur Festsetzungsverjährung der Zinsen
+    („Beginn regelmäßig mit Ablauf des 31.12. .........“) sind Teil der Arbeitsunterlage und
+    dort nicht ausgefüllt.
+
+  Darstellungsentscheidungen: Die Übersicht der Zahlungsarten mit ihren Schonfristen, die
+  Aufstellung der fünf Zinsarten, die Gegenüberstellung von Nachzahlungs- und
+  Erstattungszinsen sowie die drei Berechnungsbeispiele stehen in der Quelle als
+  Schaubilder, deren Spalten in der maschinellen Erfassung ineinanderlaufen. Sie sind
+  spaltenweise zugeordnet als Tabellen wiedergegeben, mit Hinweis im Datensatz; der Wortlaut
+  ist unverändert.
+
+  Nachgerechnet und zutreffend: In allen drei Fallbeispielen beginnt der Zinslauf nach der
+  Karenzzeit von 15 Monaten (für 2016 am 1.4.2018, für 2017 am 1.4.2019, für 2018 am
+  1.4.2020). Beispiel 1: 1.4.2019 bis 4.8.2022 sind **40 volle Monate**, 10.000 € x 0,15 %
+  x 40 = **600 €**. Beispiel 2: 1.4.2020 bis 1.9.2022 sind **29 volle Monate**, 8.000 € x
+  0,15 % x 29 = **348 €**. Beispiel 3: 9 Monate à 30 Tage ergeben 270 Zinstage und
+  10.000 € x 6 % x 270/360 = **450 €**, 43 Monate à 30 Tage ergeben 1.290 Zinstage und
+  10.000 € x 1,8 % x 1.290/360 = **645 €**, zusammen **1.095 €**.
