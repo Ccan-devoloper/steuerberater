@@ -10347,3 +10347,66 @@ der Connector gibt vier Zeilen Wasserzeichentext zurück. Eintrag in Abschnitt A
 
 **Noch offen im Dublettencheck** sind die Originalklausuren-Ordner und die Ordner des zweiten
 Baums, soweit noch nicht geprüft.
+
+### Dublettencheck, sechster Teil: Originalklausuren und GewSt abgedeckt – und die KSt-Teile (Hamacher) gefunden
+
+**Originalklausuren** (`1bjpQeoVkx-j6_XC67TEB5NF9IY9EwSTn`): neun Dateien, **alle mit ihrer
+Drive-ID dokumentiert** – die Steuerberaterprüfungen ESt, ErbSt, KSt und Bilanz sowie die
+amtlichen Prüfungsaufgaben 2021/2022 und 2022/2023. Kein neuer Inhalt.
+
+**Gewerbesteuer** (`1nsbmhc9E2stPKeSgCDhOfBdaV07zuB3H`): das Kurzskript (Engelberth/Breier)
+trägt im Inneren „Stand 10/2025, Rechtslage 2025“ und ist damit dieselbe Fassung, die der
+Campus führt – der Dateiname „1125“ täuscht. Kein neuer Inhalt.
+
+**Körperschaftsteuer im zweiten Baum** (`12Lc_0BMkk_U1oOg2n5ot9rXexXQ0pa0x`): fünf
+Unterordner „1. bis 5. Termin“ mit acht Dateien. Darunter das KSt-Kurzskript (Breier), das
+bereits als teilweise blockiert in Abschnitt A steht – und **sieben Skriptteile von Hamacher**,
+die Teile I bis VII. Diese standen seit der ersten Bestandsaufnahme als offener Punkt in dieser
+Datei („K2 KSt: Lehrgangsunterlagen – Kurzskript (Breier) und die Teile I–VII (Hamacher) aus
+den Lehrgangsunterlagen sind noch nicht abgeglichen“). Der Dublettencheck hat sie jetzt
+lokalisiert.
+
+### KSt Teil I (Hamacher) – Abschnitte 1.1 bis 1.4 eingepflegt
+
+Der Teil I hat rund 90 Seiten (249.000 Zeichen) und vier Kapitel: Steuerpflicht,
+Einkommensermittlung, verdeckte Einlage und Tarif. Er wird abschnittsweise übernommen wie
+seinerzeit das GrESt-Skript; diese Runde bringt die Abschnitte 1.1 bis 1.4 (drei Kapitel,
+66 Abschnitte, `src/data/k2-kst-teil1-hamacher.js`, Reiter „Teil I (Hamacher)“ im KSt-Campus).
+
+**Der Einstiegssatz des Skripts ist die beste Zusammenfassung seiner Systematik:** Die
+Körperschaftsteuer ist vereinfachend die „Einkommensteuer der Kapitalgesellschaften“; das KStG
+enthält nur die Spezialregelungen, alles Übrige holt § 8 Abs. 1 Satz 1 KStG aus dem EStG. Wer
+das verinnerlicht hat, sucht in der Klausur an der richtigen Stelle.
+
+Drei Dinge machen diesen Abschnitt prüfungsnah:
+
+1. **Die britische Limited nach dem Brexit.** Das Skript hält ausdrücklich fest, dass eine in
+   Großbritannien satzungsmäßig ansässige Ltd. weiterhin unter § 1 Abs. 1 Nr. 1 KStG fällt,
+   wenn sie eine inländische Geschäftsleitung hat – obwohl sie zivilrechtlich in Deutschland
+   nicht mehr rechtsfähig ist. Für ertragsteuerliche Zwecke kommt es darauf nicht an (§ 8
+   Abs. 1 Satz 4 KStG); entscheidend bleibt allein der Typenvergleich.
+2. **§ 2 Nr. 2 KStG mit dem Beispiel der Stadt Hamburg.** Die Norm wirkt sperrig, hat aber
+   einen klaren Zweck: Die bloße Beteiligung einer juristischen Person des öffentlichen Rechts
+   begründet keinen Betrieb gewerblicher Art, also griffe ohne sie keine Steuerpflicht. Die
+   Ausschüttungsbescheinigung im Beispiel zeigt die Folge – Kapitalertragsteuer auf 3/5 von
+   25 % reduziert (§ 44a Abs. 8 EStG), damit die Belastung genau dem Körperschaftsteuersatz von
+   15 % entspricht.
+3. **Die drei Zeitspannen der Gründung.** Das Beispiel der Baumaschinen-GmbH führt sie an einem
+   einzigen Sachverhalt vor: Vorgründungsgesellschaft vom 15.02. bis 14.11.2025 (keine
+   Körperschaftsteuerpflicht, die Einkünfte werden den Gesellschaftern zugerechnet),
+   Vorgesellschaft ab dem 15.11.2025 (Körperschaftsteuerpflicht, weil die Eintragung später
+   tatsächlich erfolgt), Eintragung erst am 05.01.2026 – ohne Einfluss auf die bereits in 2025
+   begründete Steuerpflicht. Nachgerechnet: Die im Lösungstext genannten 19.500 € sind genau
+   −10.500 € + 30.000 €, also die Summe der beiden Teilzeiträume der Vorgründungsgesellschaft.
+
+**Zur Form:** Die Fußnoten des Skripts stehen im PDF am Seitenfuß und werden von der Extraktion
+zwischen die Absätze gemischt. Sie sind nicht als eigene Blöcke übernommen – die Fundstellen,
+auf die sie verweisen (BFH-, BMF- und KStR-Zitate), stehen stattdessen vollständig im Feld
+`normen` des jeweiligen Abschnitts, wo sie durchsuchbar sind.
+
+**Eigene Feststellung:** Im Lösungstext des Gründungsbeispiels fehlt ein Prädikat – „Die
+erzielten Einkünfte von 19.500 € im Rahmen einer gesonderten und einheitlichen Feststellung
+… bei den Gesellschaftern … erfasst“. Der Wortlaut steht unverändert, der Hinweis daneben.
+
+**Noch offen:** die Abschnitte 1.5 bis 4 des Teils I sowie die Teile II bis VII (§ 8b KStG,
+Teil III, vGA, Verluste und Zinsschranke, Organschaft, Liquidation).

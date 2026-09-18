@@ -2342,6 +2342,22 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (Grundstücksklausel bei einer Gesellschaft mit Grundbesitz auf Sylt, Aufsichtsratsvergütung).
   **Die Quellen enthalten keine Lösungen** – die Fälle enden mit der Aufgabenstellung. Es wird
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
+- **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
+  Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit drei Kapitel mit 66 Abschnitten und
+  2 Tabellen. Eingepflegt sind die Abschnitte **1.1 bis 1.4**: die unbeschränkte Steuerpflicht
+  mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
+  Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
+  Gesellschaft nach § 1a KStG und dem Welteinkommensprinzip; die beschränkte Steuerpflicht in
+  ihren zwei Spielarten, darunter die des § 2 Nr. 2 KStG, die fast nur juristische Personen des
+  öffentlichen Rechts mit ihren Kapitalerträgen trifft (mit dem Beispiel der Stadt Hamburg und
+  der auf 3/5 reduzierten Kapitalertragsteuer nach § 44a Abs. 8 EStG); sowie Beginn und Ende
+  der Steuerpflicht mit der Unterscheidung von Vorgründungsgesellschaft, Vorgesellschaft und
+  eingetragener Kapitalgesellschaft, der abweichenden Behandlung bei der Gewerbesteuer und dem
+  Ende erst nach Sperrjahr und Erfüllung aller steuerlichen Pflichten.
+  Die übrigen Abschnitte – Steuerbefreiungen des § 5 KStG, Option nach § 1a KStG,
+  Einkommensermittlung, verdeckte Einlage und Tarif – folgen; der Campus weist den Stand aus.
+  Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.

@@ -24,6 +24,7 @@ import {
 } from "./Icons";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
 import KurzskriptBloecke from "./KurzskriptBloecke";
+import { kstTeil1, kstTeil1Quelle } from "../data/k2-kst-teil1-hamacher.js";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
 import KstHausaufgaben from "./KstHausaufgaben";
@@ -49,6 +50,7 @@ const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Lernmodule", Icon: IconModule },
   { id: "kurzskript", label: "Kurz-Skript (Breier)", Icon: IconRegister },
+  { id: "teil1", label: "Teil I (Hamacher)", Icon: IconRegister },
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
   { id: "uebungsfaelle", label: "Übungsfälle (Nöthen)", Icon: IconFaelle },
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
@@ -283,6 +285,21 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
           />
         )}
         {ansicht === "faelle" && <KstFallseite oeffnen={oeffnen} />}
+        {ansicht === "teil1" && (
+          <KurzskriptBloecke
+            kicker="Klausur 2 · Körperschaftsteuer · Lehrgangsunterlage"
+            titel="KSt Teil I – Allgemeines und verdeckte Einlage (Hamacher)"
+            lead="Das Lehrgangsskript „Körperschaftsteuer, Teil I“ von Hamacher (Stand 04/2026) im Wortlaut. Es beginnt mit dem Satz, der die ganze Systematik trägt: Die Körperschaftsteuer ist vereinfachend die „Einkommensteuer der Kapitalgesellschaften“ – das KStG enthält nur die Spezialregelungen, alles Übrige holt § 8 Abs. 1 Satz 1 KStG aus dem EStG. **Eingepflegt sind bislang die Abschnitte 1.1 bis 1.4**: die unbeschränkte Steuerpflicht mit Typenvergleich, britischer Limited nach dem Brexit und optierender Gesellschaft; die beschränkte Steuerpflicht in ihren zwei Spielarten, darunter die des § 2 Nr. 2 KStG für juristische Personen des öffentlichen Rechts; sowie Beginn und Ende der Steuerpflicht mit der Unterscheidung von Vorgründungsgesellschaft, Vorgesellschaft und eingetragener Kapitalgesellschaft. Die übrigen Abschnitte – Steuerbefreiungen des § 5 KStG, Option nach § 1a KStG, Einkommensermittlung, verdeckte Einlage und Tarif – folgen nach demselben Verfahren."
+            quelle={kstTeil1Quelle}
+            kapitel={kstTeil1}
+            karteKicker={(k) => `Abschnitt ${k.abschnittNr}`}
+            gruppeVon={(k) => k.abschnittNr}
+            gruppeLabel={(k) => `Abschnitt ${k.abschnittNr}`}
+            gruppeAria="Abschnitte"
+            gruppeAlle="Alle Abschnitte"
+            suchePlatzhalter="Norm, Stichwort oder Beispiel"
+          />
+        )}
         {ansicht === "kurzskript" && (
           <KurzskriptBloecke
             kicker="Klausur 2 · Körperschaftsteuer · Kurz-Skript"
