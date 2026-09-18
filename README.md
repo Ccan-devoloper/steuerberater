@@ -78,10 +78,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   der Quelle ist unabhängig nachgerechnet und die Kontrollrechnung steht am Ende der
   Lösung; die Spaltenzuordnung der Rechenwerke ist dokumentiert.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
-- **Bewertungsrecht Teil 3** (Reiter „Bewertungsrecht (Schäfer)" im Campus
-  Erbschaftsteuer): das Unterrichtsmaterial zum Steuerberaterlehrgang „Bewertungsrecht,
-  Teil 3: Bewertung des Betriebsvermögens; gesonderte Feststellungen" (Martin Schäfer,
-  Stand Oktober 2025, 35 Seiten) **im Wortlaut**. Eingepflegt ist bisher der Anfang des
+- **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
+  Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den
+  Skriptteilen 1 und 3 in einem Reiter. Aus dem **Teil 1** („Bewertung nach den Allgemeinen
+  Bewertungsvorschriften", Stand Mai 2025) sind die Abschnitte I und II eingepflegt:
+  Aufgabe der Bewertung und der Einstieg über § 12 Abs. 1 ErbStG, die Gliederung des
+  Bewertungsgesetzes in Allgemeinen und Besonderen Teil einschließlich des für die
+  Grundsteuer angefügten 7. Abschnitts, die drei Vermögensarten des § 18 BewG sowie der
+  Bewertungsgegenstand – wirtschaftliche Einheit und Wirtschaftsgut mit den drei
+  Voraussetzungen der Zusammenfassung, die Zurechnung nach wirtschaftlichem Eigentum mit
+  Sicherungsübereignung, Grundstückskauf und Eigentumsvorbehalt, die Sonderregel für
+  Grundstückskaufverträge im Erbfall (Grundbucheintragung statt Besitz- und Lastenwechsel),
+  das gemeinschaftliche Eigentum nach dem MoPeG und der Grundsatz der Gesamtbewertung mit
+  dem Paketzuschlag. Prüfung: `npm run check:k1-erbst-bewertung-teil1`.
+  Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
+  Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des
   Teils I: § 12 Abs. 5 ErbStG als Einstieg, der Gewerbebetrieb als Bewertungsgegenstand
   nach § 95 Abs. 1 BewG mit der Gleichstellung der freien Berufe nach § 96 BewG und den
   vier Durchbrechungen der Bestandsidentität zwischen Steuerbilanz und

@@ -4036,3 +4036,65 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   PersG Fact Sheets (Horst). Die Einheiten 1 bis 3 desselben ErbStR-Ordners liegen dagegen
   vollständig im Campus vor, so dass der Campus für die Erbschaftsteuer-Mitschriften
   derzeit bei Einheit 3 endet.
+
+## Bewertungsrecht Teil 1 (Schäfer) – Abschnitte I und II
+
+- **Suchergebnis vorab.** Die in der offenen Liste geführten „Bewertungsteile 1 und 2“ sind
+  gefunden. Sie liegen nicht im Ordner der ErbSt-Fallsammlung, sondern in zwei anderen
+  Ordnern, und wie schon der Teil 3 teils unter nichtssagenden Namen:
+  Teil 1 als „B-S25-ErbSt-Bewertung 2025-2026 Teil 1-(Schaefer)-0526.pdf“
+  (`1bKS8GZwHDb2Z4gjFc9WFqJcqTSovSLnY`, Ordner `1dYXMcr-i-IEmXuXurAfIlzo_xgtHvzDG`) mit
+  einem vermuteten Lösungsteil unter „2025) (6).pdf“
+  (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`); Teil 2 als „2025) (6).pdf“
+  (`1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`, Ordner `1yhRfkjP6VYO0V8a01BY2vqXbOnXilI97`) mit der
+  Lösung „B-S25-ErbSt-Bewertung 2025-2026 Teil 2-Loesung-(Schaefer)-0825.pdf“
+  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`). Bei derselben Suche tauchte zusätzlich ein bislang
+  unbekanntes Skript auf: „B-S25-ErbSt-Erbschaftsteuer 2025-2026 Teil 2-(Schaefer)-0126.pdf“
+  (`1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`). Alle vier sind in `docs/offene-quellen.md`
+  aufgenommen.
+- Quelle dieses Durchgangs: Teil 1, „Bewertung nach den Allgemeinen Bewertungsvorschriften“
+  (Stand Mai 2025; der Kopf der Datei bezeichnet sie als „Skript B 1/3“). Der Connector gibt
+  sie mit rund 50.000 Zeichen vollständig aus – vom Deckblatt bis zur Schlussübersicht zu
+  § 14 BewG.
+- Einpflege: neuer Datensatz `src/data/k1-erbst-bewertung-teil1.js` mit drei Kapiteln,
+  50 Blöcken und 2 Tabellen; neues Prüfskript `npm run check:k1-erbst-bewertung-teil1`.
+  Der Reiter heißt jetzt „Bewertungsrecht (Schäfer)“ und zeigt die Skriptteile 1 und 3
+  zusammen; die Teil-Bezeichnungen des Teils 3 sind dafür auf „Skript Teil 3 · Teil I“
+  beziehungsweise „· Teil II“ umgestellt.
+- Noch offen aus derselben Datei: die Abschnitte III (Bedingungen und Befristungen),
+  IV (Bewertungsmaßstab gemeiner Wert) und V (Wertpapiere und Anteile, Kapitalforderungen
+  und Schulden, wiederkehrende Nutzungen und Leistungen mit den Rentenfällen).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und gekennzeichnet:
+
+  - **Abschnitt I, Tz. 2: die Gliederung geht in sich nicht auf.** Der Fließtext nennt für
+    den 2. Teil „§§ 17 – 203 BewG“ und für den 3. Teil „die §§ 204 und 205 BewG“, die
+    unmittelbar folgende Übersicht dagegen „§§ 17 - 263 BewG“ und „§§ 264 - 266 BewG“. Die
+    Übersicht berücksichtigt den durch das Grundsteuer-Reformgesetz angefügten 7. Abschnitt
+    (§§ 218 – 263 BewG), den die Quelle zwei Absätze später selbst erwähnt; der Fließtext
+    gibt den Stand davor wieder. Beide Fassungen sind unverändert übernommen.
+  - **Abschnitt I, Tz. 2: „Teilwert (§ 9 BewG)“.** Die Quelle nennt für beide
+    Bewertungsmaßstäbe dieselbe Vorschrift – „gemeiner Wert (Bewertungsgrundsatz § 9 BewG)
+    und Teilwert (§ 9 BewG)“. Der Teilwert ist in § 10 BewG geregelt. Im selben Satz fehlt
+    außerdem der Schlusspunkt nach „(§§ 13 – 16 BewG)“.
+  - **Abschnitt II, Tz. 2 a): „§ 39 Abs. 2 S. 2 AO“.** Die aufgezählten Fälle des
+    wirtschaftlichen Eigentums (Treugeber, Sicherungsgeber, Eigenbesitzer) stehen in § 39
+    Abs. 2 Nr. 1 Satz 2 AO.
+  - **Abschnitt II, Tz. 2 b):** nicht gepaarte Klammern in „(Bruchteilseigentum §§ 1008 ff
+    BGB, Gesamthandseigentum (§§ 1419, 2033, 2040 BGB)“.
+  - **Abschnitt II, Tz. 3:** „kommt nur in **dem** vom Bewertungsgesetz ausdrücklich
+    vorgeschriebenen Fällen in Betracht“.
+
+  Beobachtung ohne Quellenfehler: Die Quelle erläutert den Grundsatz der Gesamtbewertung am
+  Ertragswertverfahren mit der **Jahresrohmiete** und einem Vervielfältiger. Das
+  Ertragswertverfahren der §§ 184 bis 188 BewG, das der Teil 3 desselben Skripts und die
+  Übungsfälle der ErbSt-Fallsammlung anwenden, geht dagegen vom Rohertrag nach § 186 BewG
+  aus. Der Wortlaut ist unverändert übernommen und der Befund als redaktioneller Hinweis
+  kenntlich gemacht.
+
+  Querbezug: Das Beispiel zur 70-Prozent-Beteiligung an einer AG (Kurswert 750.000 €)
+  verweist auf denselben Paketzuschlag, den der Teil 3 in seiner Tz. 7 d) mit der Grenze von
+  mehr als 25 % und einem Zuschlag von im Allgemeinen bis zu 25 % behandelt. Einen
+  Zahlenwert nennt die Quelle für dieses Beispiel nicht; er ist auch nicht ergänzt.

@@ -165,7 +165,24 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Lösungsdatei „B-S25-ErbSt-Bewertung 2025-2026 Teil 3-Loesung“
   (`142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`) ergänzt, die der Connector vollständig ausgibt.
   **Aus beiden Dateien steht nichts mehr offen.**
-- Bewertungsteile 1 und 2 – im Drive noch nicht lokalisiert
+- **Bewertungsrecht Teil 1** (Schäfer, Stand Mai 2025), Drive-ID
+  `1bKS8GZwHDb2Z4gjFc9WFqJcqTSovSLnY` im Ordner `1dYXMcr-i-IEmXuXurAfIlzo_xgtHvzDG`:
+  **begonnen.** Die Abschnitte I (Einführung) und II (Bewertungsgegenstand) stehen im
+  Reiter „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil1.js`. Offen sind die
+  Abschnitte III (Bedingungen und Befristungen), IV (Bewertungsmaßstab gemeiner Wert) und V
+  (Wertpapiere und Anteile, Kapitalforderungen und Schulden, wiederkehrende Nutzungen und
+  Leistungen). Der Connector gibt die Datei vollständig aus (50.000 Zeichen). Im selben
+  Ordner liegt unter dem Namen „2025) (6).pdf“ (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`)
+  vermutlich der zugehörige Lösungsteil – noch nicht geöffnet.
+- **Bewertungsrecht Teil 2** (Schäfer): im Ordner `1yhRfkjP6VYO0V8a01BY2vqXbOnXilI97`
+  gefunden – der Aufgabenteil unter dem Namen „2025) (6).pdf“
+  (`1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`), die Lösung als
+  „B-S25-ErbSt-Bewertung 2025-2026 Teil 2-Loesung-(Schaefer)-0825.pdf“
+  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`). Noch nicht bearbeitet.
+- **Erbschaftsteuer 2025-2026 Teil 2** (Schäfer), Drive-ID
+  `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6` im Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`:
+  ein weiteres Skript derselben Reihe, bei der Suche nach den Bewertungsteilen neu
+  entdeckt. Noch nicht bearbeitet.
 - **ErbStR, 4. und 5. Einheit** – im Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` liegen seit
   September 2026 vier weitere Dateien („ErbStR, 4. Einheit_Teil 1“ und „ErbStR. 4.
   Einheit_Teil 2“, „ErbStR, 5. Einheit_Teil 1“ und „ErbSt, 5 Einheit - Teil 2“). Der Campus

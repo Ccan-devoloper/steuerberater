@@ -17,8 +17,8 @@
 const VERFASSER = "Martin Schäfer";
 const RECHTSSTAND = "Stand Oktober 2025";
 
-const TB1 = { teil: "I", teilLabel: "Teil I – Bewertung des Betriebsvermögens", teilTitel: "Begriff, Bewertungsverfahren, Substanzwert, vereinfachtes Ertragswertverfahren, Personen- und Kapitalgesellschaften" };
-const TB2 = { teil: "II", teilLabel: "Teil II – Gesonderte Feststellungen", teilTitel: "Gegenstand, Inhalt und Basiswertregelung, örtliche Zuständigkeit, Erklärungspflicht und Beteiligte nach §§ 151 bis 156 BewG" };
+const TB1 = { teil: "3-I", teilLabel: "Skript Teil 3 · Teil I – Bewertung des Betriebsvermögens", teilTitel: "Begriff, Bewertungsverfahren, Substanzwert, vereinfachtes Ertragswertverfahren, Personen- und Kapitalgesellschaften" };
+const TB2 = { teil: "3-II", teilLabel: "Skript Teil 3 · Teil II – Gesonderte Feststellungen", teilTitel: "Gegenstand, Inhalt und Basiswertregelung, örtliche Zuständigkeit, Erklärungspflicht und Beteiligte nach §§ 151 bis 156 BewG" };
 
 export const erbstBewertungTeil3Quelle = {
   reihe: "Bewertungsrecht · Unterrichtsmaterial zum Steuerberaterlehrgang, Teil 3 · Martin Schäfer",
