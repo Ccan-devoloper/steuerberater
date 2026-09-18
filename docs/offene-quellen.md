@@ -323,8 +323,11 @@ Für diese beiden Gebiete gibt es bislang keinen Campus. Beide Ordner sind jetzt
   Ersatztatbestand (§ 1 Abs. 2) und alle vier Ergänzungstatbestände (§ 1 Abs. 2a, 2b nebst
   Börsenklausel, 3 und 3a) einschließlich der Übergangsregeln des § 23 Abs. 20 ff. GrEStG und
   der Grundstückszugehörigkeit nach § 1 Abs. 4a GrEStG; dazu aus **Abschnitt IV** die acht
-  allgemeinen Befreiungen des § 3 GrEStG. Offen sind der Rest des Abschnitts IV (Steuerbefreiungen und
-  -vergünstigungen, §§ 3 bis 7 GrEStG), V (Bemessungsgrundlage), VI (Steuersatz und
+  allgemeinen Befreiungen des § 3 GrEStG, ihre Anwendung auf die Ergänzungstatbestände
+  (Fallgruppen des § 1 Abs. 2a, 2b, 3 und 3a GrEStG) und die besonderen Ausnahmen des
+  § 4 GrEStG. Offen sind aus Abschnitt IV noch die §§ 5, 6 GrEStG (Erwerbsvorgänge zwischen
+  Gesamthändern mit Zehn- und Fünfzehnjahresfristen) und § 6a GrEStG (konzerninterne
+  Umstrukturierung) sowie die Abschnitte V (Bemessungsgrundlage), VI (Steuersatz und
   Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
   Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG). Sie sind sämtlich
   lesbar und werden nachgezogen.

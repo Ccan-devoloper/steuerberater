@@ -9603,3 +9603,60 @@ Grundstücken zeigt beide Stufen nebeneinander.
 § 4 GrEStG, die Erwerbsvorgänge zwischen Gesamthändern nach §§ 5 und 6 GrEStG – mit den
 Zehn- und Fünfzehnjahresfristen, die schon im Prüfungsschema angeklungen sind – und die
 konzerninterne Umstrukturierung nach § 6a GrEStG.
+
+### Skript Grunderwerbsteuer (Vossel), Befreiungen bei den Ergänzungstatbeständen und § 4 GrEStG
+
+Abschnitt IV.1.2 des Skripts beantwortet die Frage, die sich nach den acht allgemeinen
+Befreiungen des § 3 GrEStG zwangsläufig stellt: Die Vorschrift ist ihrem Wortlaut nach auf die
+Übertragung von **Einzelgrundstücken** zugeschnitten – was passiert, wenn der steuerbare
+Vorgang stattdessen eine **Anteilsübertragung** ist? Die Quelle beantwortet das gestaffelt,
+und der Datensatz gibt diese Staffelung unverändert wieder:
+
+- **§ 3 Nr. 1 GrEStG (Freigrenze)** ist auch bei Ergänzungstatbeständen einschlägig. Dabei
+  werden so viele Grundstückserwerbe realisiert, wie die Gesellschaft Grundstücke besitzt –
+  die 2.500-€-Grenze ist deshalb **für jeden einzelnen Grundstückserwerb** zu prüfen.
+- **§ 3 Nr. 2 GrEStG (Grundstücksschenkungen, Erwerb von Todes wegen)**: Für § 1 Abs. 2a und
+  Abs. 2b GrEStG ist zunächst zu sehen, dass deren jeweiliger **Satz 6** Anteilserwerbe von
+  Todes wegen schon gar nicht in die Steuerbarkeit einbezieht. Für **Schenkungen** von
+  Gesellschaftsanteilen ist § 3 Nr. 2 GrEStG dagegen anwendbar. Bei Anteilsvereinigungen nach
+  § 1 Abs. 3 Nr. 1 f. GrEStG wird die Begünstigung nur gewährt, **soweit** die Vereinigung auf
+  einer schenkweisen Übertragung oder einer Übertragung von Todes wegen beruht.
+- **§ 3 Nr. 3 ff. GrEStG (personenbezogene Befreiungen)**: Hier ist doppelt zu
+  differenzieren – nach dem einschlägigen Ergänzungstatbestand **und** nach der Rechtsform der
+  grundstückshaltenden Gesellschaft.
+
+Das **Beispiel der X OHG** führt die zweite Stufe vor und ist vollständig übernommen: A und B
+sind je zu 50 % am Gesellschaftsvermögen beteiligt, die OHG besitzt ein inländisches
+Grundstück. Im Jahr 02 **verschenkt** A seinen 50%igen Anteil an C, im selben Jahr
+**verkauft** B seinen 50%igen Anteil an D. Steuerbar wird der Vorgang im Zeitpunkt der
+Übertragung von B auf D nach § 1 Abs. 2a GrEStG, weil innerhalb von zehn Jahren 100 % (≥ 90 %)
+der Anteile auf neue Gesellschafter übergegangen sind. Die Schenkung an C war ein **Element**
+dieser Anteilsübertragung – bezogen auf das Grundstück ist der Vorgang deshalb **zu 50 % nach
+§ 3 Nr. 2 GrEStG steuerfrei**. Das ist der Punkt, an dem in der Klausur regelmäßig entweder
+die Steuerbarkeit oder die anteilige Befreiung verlorengeht.
+
+**Zur Tabelle der sechs Fallgruppen – ein Hinweis zur Form:** Die Quelle führt die
+Differenzierung des § 3 Nr. 3 ff. GrEStG als **Aufzählung**, nicht als Tabelle. Der Datensatz
+stellt sie als Tabelle mit den Spalten „Steuerbarer Sachverhalt“, „Rechtsform“, „Befreiungen
+des § 3 Nr. 3 ff. GrEStG“ und „Fundstelle“ dar, weil die Gegenüberstellung genau die zwei
+Achsen hat, die man beim Prüfen abgehen muss. Inhalt und **Reihenfolge** sind unverändert; ein
+Satz unmittelbar unter der Tabelle sagt das im Campus ausdrücklich, damit niemand die Tabelle
+für eine Übernahme aus der Quelle hält. Die sechs Zeilen lauten: § 1 Abs. 2a GrEStG
+(Personengesellschaft) – anwendbar; § 1 Abs. 2b GrEStG (Kapitalgesellschaft) – nicht
+anwendbar; § 1 Abs. 3 Nr. 1 f. GrEStG bei der Kapitalgesellschaft – keine Anwendung (BFH vom
+23.05.2012, II R 21/10, zu § 3 Nr. 6); § 1 Abs. 3 Nr. 1 f. GrEStG bei der
+Personengesellschaft – anwendbar; § 1 Abs. 3 Nr. 3 f. GrEStG (Übertragung bereits vereinigter
+Anteile) – anwendbar; § 1 Abs. 3a GrEStG – folgt den Überlegungen zu § 1 Abs. 3 GrEStG.
+
+**§ 4 GrEStG** ist als das erfasst, was es ist: eine Aufzählung **punktueller** Befreiungen,
+die in der Klausur selten, aber dann eindeutig vorkommen – der Erwerb durch eine juristische
+Person des öffentlichen Rechts aus Anlass des Übergangs öffentlich-rechtlicher Aufgaben (das
+Beispiel der Quelle: Übergang eines Kindergartenbetriebes von einer Kirchenstiftung auf die
+Gemeinde) und Grenzänderungen bei Gebietsreformen. Festgehalten ist auch das
+**Gegenseitigkeitserfordernis** des § 4 Nr. 2, 3 GrEStG gegenüber ausländischen Staaten samt
+der Nachweisform – einer **Bescheinigung des Auswärtigen Amtes** (FM Niedersachsen vom
+10.12.1997, DStR 1998, S. 608).
+
+**Offen aus Abschnitt IV** bleiben damit nur noch die Erwerbsvorgänge zwischen Gesamthändern
+nach §§ 5 und 6 GrEStG – mit den Zehn- und Fünfzehnjahresfristen – und die konzerninterne
+Umstrukturierung nach § 6a GrEStG.
