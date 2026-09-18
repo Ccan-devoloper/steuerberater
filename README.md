@@ -1550,6 +1550,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ein Turmdrehkran mit Totalschaden auf der Rückfahrt, italienische Dachziegel über zwei
   Stationen und ein fünftes Haus, das die Tochter zur Hochzeit bekommt. Alle Beträge der
   Quelle sind unabhängig nachgerechnet und gehen auf.
+  Und schließlich der **Erbschaftsteuerteil** (Erbfall Max Muhr), der im ErbSt-Campus unter
+  demselben Reiter steht: ein Motorradunfall im Allgäu, ein Berliner Testament, Gütertrennung –
+  und ein Nachlass, der in fast jeder Position eine eigene Bewertungsfrage aufwirft. Der Sohn
+  macht seinen Pflichtteil nicht geltend, erhält aber eine Rente bis längstens zum
+  27. Geburtstag; die Witwe bezieht eine Witwenrente aus der gesetzlichen Sozialversicherung.
+  Im Nachlass: 30 % an einer GmbH, deren Vermögensaufstellung eine Beteiligung mit dem
+  Buchwert von 50.000 € statt dem festgestellten Anteilswert von 1.000.000 € ansetzt und ein
+  Pfandbriefdepot gar nicht enthält – mit vier Jahresüberschüssen und vier Steueraufwendungen
+  als Rechengrundlage; 15 % an einer nicht börsennotierten AG mit Stimmbindungs- und
+  Verfügungsvereinbarung, deren Vertragspartner die Anteile im Dezember 2020 kauft; und ein
+  Haus mit fünf gleich großen Stockwerken, von denen eines gewerblich, drei zu Wohnzwecken
+  vermietet sind und eines die Ehewohnung war – die die Witwe noch im Dezember 2020 für Nizza
+  aufgibt. Damit ist der Prüfungstag vollständig.
   Prüfung: `npm run check:k1-pruefungsklausuren`
 - **USt-Originalklausuren** (Klausur 1, Reiter Umsatzsteuer →
   „Originalklausuren (Prüfung)"): die Original-Prüfungsklausuren des Umsatzsteuerteils mit

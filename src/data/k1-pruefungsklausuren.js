@@ -15,14 +15,16 @@
    Die Klausur besteht aus drei Teilen: Abgabenordnung und Finanzgerichts-
    ordnung, Umsatzsteuer und Erbschaftsteuer. Das Feld `fach` ordnet jeden
    Eintrag dem passenden Campus zu ("ao", "ust", "erbst"); jeder Campus zeigt
-   nur seine eigenen Einträge.
+   nur seine eigenen Einträge. Der Prüfungstag 2021/2022 ist damit vollständig:
+   AO/FGO (Dr. Bruno Bayer), Umsatzsteuer (Bartel, BB-GmbH, Prager) und
+   Erbschaftsteuer (Erbfall Muhr).
 
    Personenbezogene Wasserzeichen des Quell-PDFs sind nicht übernommen.
    Blocktypen wie bei den übrigen Klausurdatensätzen: text | titel | tabelle. */
 
 export const k1PruefungsklausurenQuelle = {
   reihe: "Steuerberaterprüfung · Prüfungsaufgaben aus dem Verfahrensrecht und anderen Steuerrechtsgebieten · amtlicher Wortlaut",
-  stand: "Prüfungsjahrgang 2021/2022 · Rechtsstand des Prüfungstages",
+  stand: "Prüfungsjahrgang 2021/2022 · Jahr 2021, Besteuerungszeiträume 2020 und 2021, Erbfall 01.07.2020 · Rechtsstand des Prüfungstages",
   verfasser: "Amtliche Prüfungsaufgabe der Steuerberaterprüfung – ohne Musterlösung",
   didaktik: [
     "Der dritte Prüfungstag dauert sechs Stunden und besteht aus Abgabenordnung und Finanzgerichtsordnung, Umsatzsteuer und Erbschaftsteuer. Der Verfahrensrechtsteil unterscheidet sich von allen anderen Klausuren der Prüfung dadurch, dass er kein Ergebnis in Euro verlangt, sondern ein Rechtsgutachten: Die Aufgabenstellung sagt ausdrücklich „in einem ausführlichen Rechtsgutachten“ und „Gehen Sie dabei auf alle im Sachverhalt enthaltenen verfahrensrechtlichen Probleme angemessen ein“.",
@@ -216,6 +218,79 @@ export const k1Pruefungsklausuren = [
       { text: "Die Zahlen der Quelle sind unabhängig nachgerechnet und gehen auf: 39.270,00 € abzüglich 10 % ergeben 35.343,00 €, und das ist die Rechnungssumme aus 29.700,00 € und 5.643,00 € (19 %). Die drei Abschlagszahlungen ergeben brutto 83.300,00 €, 142.800,00 € und 107.100,00 €, zusammen 333.200,00 €; 952.000,00 € abzüglich dieser Summe ergeben den ausgewiesenen Zahlungsbetrag von 618.800,00 €. Die Weihnachtsfeier kostet 1.800,00 € + 700,00 € + 400,00 € = 2.900,00 € für 32 Arbeitnehmer." },
       { text: "Die Flächenangaben, wie die Quelle sie nennt: vier Etagen zu je 200 m², zusammen 800 m². Erdgeschoss an eine Drogeriemarktkette, 1. Obergeschoss an einen Orthopäden, 2. Obergeschoss in zwei Einheiten zu je 100 m² an einen Versicherungsmakler und an einen Steuerberater, 3. Obergeschoss in zwei Wohnungen zu je 100 m² an Privatpersonen. Die Vorverträge datieren vom 14.09.2020, 13.01.2021, 21.04.2021 und 14.06.2021 – also teils vor, teils nach den einzelnen Abschlagszahlungen. Welche Folgerungen daraus zu ziehen sind, ist gerade die Aufgabe; hier steht nur, was der Sachverhalt sagt." },
       { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Anzahlungen und Teilleistungen, die Option nach § 9 UStG und die Vorsteueraufteilung nach § 15 Abs. 4 UStG behandelt der Umsatzsteuer-Campus (Klausur 1) in eigenen Einheiten; die Originalklausuren 2011 bis 2015 enthalten mehrere durchgerechnete Fälle zu § 13b UStG, zu Reihengeschäften und zu unentgeltlichen Wertabgaben. Die Grundstückslieferung und der Verzicht nach § 9 Abs. 1 und 3 UStG stehen dort ebenfalls." },
+    ],
+  },
+  {
+    id: "k1-pk-2021-erbst-muhr",
+    fach: "erbst",
+    block: "amtlich",
+    blockLabel: "Steuerberaterprüfung · amtliche Prüfungsaufgabe",
+    nummer: 3,
+    jahrgang: "2021/2022",
+    teil: "III",
+    wertung: "ohne Punkteangabe in der Quelle",
+    title: "Teil III – Erbfall Max Muhr (Prüfung 2021/2022): ein Berliner Testament, zwei Beteiligungen mit Poolvereinbarung und ein Haus mit fünf Stockwerken",
+    thema: "Ein Motorradunfall im Allgäu, ein Berliner Testament und ein Nachlass, der in fast jeder Position eine eigene Bewertungsfrage aufwirft. Der Sohn macht seinen Pflichtteil nicht geltend, erhält aber eine Rente bis zum 27. Geburtstag; die Witwe bezieht eine Witwenrente aus der gesetzlichen Sozialversicherung und lebte in Gütertrennung. Im Nachlass: 30 % an einer GmbH, deren Vermögensaufstellung eine mit dem Buchwert angesetzte Beteiligung und ein gar nicht enthaltenes Pfandbriefdepot aufweist – mit vier Jahresüberschüssen und vier Steueraufwendungen als Rechengrundlage. Dazu 15 % an einer nicht börsennotierten AG, verbunden mit einer Stimmbindungs- und Verfügungsvereinbarung mit einem Jugendfreund, der ebenfalls 15 % hält und die Anteile im Dezember 2020 kauft. Und ein Haus mit fünf gleich großen Stockwerken, von denen eines gewerblich, drei zu Wohnzwecken vermietet sind und eines die Ehewohnung war – die die Witwe noch im Dezember 2020 aufgibt, um nach Nizza zu ziehen",
+    rechtsstand: "Rechtsstand des Prüfungsjahrgangs 2021/2022 · Todestag 01.07.2020",
+    quelle: "Steuerberaterprüfung 2021/2022, Prüfungsaufgaben aus dem Verfahrensrecht und anderen Steuerrechtsgebieten, Teil III: Erbschaftsteuer (Erbfall Muhr) · amtlicher Aufgabentext",
+    normen: [
+      "§ 13a Abs. 4 ErbStG (ausdrücklich ausgenommen)",
+    ],
+    themen: ["Amtliche Prüfungsaufgabe", "Ohne Musterlösung", "Berliner Testament", "Pflichtteil", "Gütertrennung", "Vereinfachtes Ertragswertverfahren", "Verwaltungsvermögen", "Poolvereinbarung", "Familienheim", "Nachlassverbindlichkeiten", "Gesonderte Feststellung"],
+    sachverhalt: [
+      { typ: "titel", text: "Steuerberaterprüfung 2021/2022 · Teil III: Erbschaftsteuer (Erbfall Schüssel)" },
+      { text: "(so in der Quelle: Die Inhaltsübersicht bezeichnet den Aufgabenteil als „Erbfall Schüssel“; der Sachverhalt selbst betrifft durchgehend den Erbfall Max Muhr.)" },
+      { text: "Am 01.07.2020 verstarb während einer Motorradtour im Allgäu der am 01.04.1965 geborene Max Muhr infolge eines Unfalls. Das Motorrad wurde komplett zerstört." },
+      { text: "Max Muhr hinterlässt seine am 01.05.1970 geborene Ehefrau Mathilde Muhr, mit der er im Güterstand der Gütertrennung lebte, und den am 15.02.1990 geborenen, gemeinsamen Sohn Peter Muhr. Peter Muhr war zum Zeitpunkt des Todes von Max Muhr Jurastudent an der Universität Augsburg." },
+      { text: "Im vorgefundenen rechtsgültigen Testament vom Januar 2010 haben sich Mathilde Muhr und Max Muhr gegenseitig im Falle ihres jeweiligen Todes als Alleinerben eingesetzt und ihren Sohn Peter Muhr als Schlusserben bezeichnet („Berliner Testament“). Peter Muhr hat einen eventuell bestehenden Pflichtteilsanspruch nicht geltend gemacht. Aufgrund des o. g. Testaments erhält er eine Rente von monatlich 1.000,00 € für die Dauer seines Studiums, längstens jedoch bis zu seinem 27. Geburtstag." },
+      { text: "Aus der gesetzlichen Sozialversicherung (aufgrund der Geschäftsführertätigkeit von Max Muhr) steht Mathilde Muhr eine monatliche Witwenrente von 900,00 € zu." },
+      { text: "Mathilde Muhr hatte im Rahmen der Beerdigung ihres Gatten Aufwendungen für den Bestattungsunternehmer Grabner in Höhe von 8.000,00 € (inkl. Umsatzsteuer). Des Weiteren beauftragte Mathilde Muhr die Friedhofsgärtnerei Blume bis auf weiteres mit der Pflege des Grabes. Für die ersten zwei Jahre bezahlte Mathilde Muhr insgesamt 900,00 € (inkl. Umsatzsteuer) im Voraus." },
+      { typ: "titel", text: "Nachlass: Invest-Projekt-Vermögens GmbH (IPV-GmbH)" },
+      { text: "Max Muhr war seit Gründung mit 30 % an der IPV-GmbH mit Sitz in Augsburg beteiligt (Stammkapital 30.000,00 €). Die restlichen 70 % der GmbH-Anteile halten seine Bekannten Hugo Profitlich und Franz Neureich zu gleichen Teilen. Alle Gesellschafter waren außerdem gleichberechtigte Geschäftsführer der GmbH." },
+      { text: "Die GmbH wurde 2006 gegründet und bilanziert seither jeweils zum 31. Dezember eines jeden Jahres. Eine Zwischenbilanz auf den Todestag wurde nicht erstellt. In der vorliegenden Vermögensaufstellung wird das Betriebsvermögen der GmbH mit 417.800,00 € ausgewiesen. Soweit sich nachfolgend nichts anderes ergibt, sind die Wertansätze nicht zu beanstanden." },
+      { typ: "titel", text: "IPV-GmbH: Beteiligung an der Abbruch-GmbH Potsdam" },
+      { text: "Die Beteiligung an der Abbruch-GmbH Potsdam (15 % des Stammkapitals) hat einen Buchwert von 50.000,00 €. In der Vermögensaufstellung ist diese Beteiligung bisher mit dem Buchwert berücksichtigt. Die IPV-GmbH erhielt bisher aus dieser Beteiligung nur im Jahr 2016 eine Gewinnausschüttung in Höhe von 20.000,00 €. Die Abbruch-GmbH Potsdam ist für die IPV-GmbH tätig und der einzige Geschäftspartner im Großraum Berlin." },
+      { text: "Der bereits vom Finanzamt Potsdam gesondert festgestellte Anteilswert der Beteiligung beträgt am Todestag 1.000.000,00 €. Für den Anteil wurden weder Verwaltungsvermögen noch Finanzmittel oder Schulden gesondert festgestellt." },
+      { typ: "titel", text: "IPV-GmbH: Pfandbriefe" },
+      { text: "Seit 01.12.2008 hält die IPV-GmbH 100 Pfandbriefe zum Nennwert von je 1.000,00 € zur Finanzreserve in ihrem Depot. Die Pfandbriefe sind mit 5 % p. a. auf 15 Jahre Laufzeit zu verzinsen. Der Kurswert der Pfandbriefe beträgt 110 %. In der Buchführung sind die Pfandbriefe mit den Anschaffungskosten und ihren Erträgen zutreffend erfasst. In der Vermögensaufstellung ist das Depot bisher nicht enthalten." },
+      { typ: "titel", text: "IPV-GmbH: Weitere Angaben" },
+      { typ: "tabelle", spalten: ["Jahr", "Jahresüberschuss", "Als Steueraufwand verbuchte Ertragsteuern"], zeilen: [
+        ["2016", "20.000,00 €", "8.000,00 €"],
+        ["2017", "30.000,00 €", "10.000,00 €"],
+        ["2018", "20.000,00 €", "7.000,00 €"],
+        ["2019", "3.000,00 €", "1.100,00 €"],
+        ["2020", "44.400,00 €", "– (nicht angegeben)"],
+      ] },
+      { text: "Der zutreffend ermittelte Jahresüberschuss der IPV-GmbH betrug im Jahr 2016 20.000,00 €, 2017 30.000,00 €, 2018 20.000,00 € und 2019 3.000,00 €. Der Jahresüberschuss für das Jahr 2020 beträgt zutreffend 44.400,00 €. Die als Steueraufwand verbuchten Ertragsteuern betragen für 2016 8.000,00 €, 2017 10.000,00 €, 2018 7.000,00 € und für 2019 1.100,00 €. Sie beinhalten neben der Körperschaftsteuer und dem Solidaritätszuschlag auch die Gewerbesteuer." },
+      { text: "Die Schulden (inkl. Rückstellungen) der IPV-GmbH zum 30.06.2020 betragen insgesamt 80.000,00 €. Des Weiteren besteht ein passiver Rechnungsabgrenzungsposten zum 31.12.2019 in Höhe von 20.000,00 €. Die Finanzmittel betragen unzweifelhaft 300.000,00 €. Junge Finanzmittel sind nicht vorhanden." },
+      { typ: "titel", text: "Nachlass: Immo-Aktiengesellschaft" },
+      { text: "Max Muhr war seit 09.09.2017 mit 15 % am Grundkapital der Immo-AG beteiligt. Die AG ist im spekulativen Immobilienmarkt in Berlin tätig und ist nicht börsennotiert. Zusammen mit seinem Jugendfreund Kurt Weiß, der ebenfalls 15 % am Grundkapital dieser AG beteiligt ist, hielten sie die Investition für wirtschaftlich erfolgversprechend." },
+      { text: "Beim Erwerb der als private Vermögensanlage gedachten Beteiligungen vereinbarten Muhr und Weiß vertraglich, dass sie stets einheitlich abstimmen werden und ihre Anteile nur gemeinsam veräußern oder nur an den anderen der beiden jederzeit veräußern dürfen." },
+      { text: "Der auf Muhr entfallende Anteil am Verwaltungsvermögen der Immo-AG beträgt lt. gesonderter Feststellung des Finanzamts Berlin-Charlottenburg zum Todestag 240.000,00 €. Der Anteilswert wurde in Höhe von 800.000,00 € vom o. g. Finanzamt gesondert festgestellt. Weitere Feststellungen wurden nicht getroffen." },
+      { text: "Mathilda Muhr hat bereits im Dezember 2020 die Anteile an der Immo-AG für 800.000,00 € an Kurt Weiß verkauft, da sie das Geschäftsmodell schon beim Kauf durch Max Muhr nicht billigte. Mit dem Erlös hat Mathilda Muhr in Nizza ein Penthouse zusammen mit ihrem langjährigen französischen Freund Marcel Fried erworben, um dort u. a. auch wegen des besseren Klimas zu leben. Die Wohnsitzänderung fand noch im Dezember 2020 statt." },
+      { text: "(so in der Quelle: Die Ehefrau heißt in diesen beiden Absätzen „Mathilda Muhr“ und sonst durchgehend „Mathilde Muhr“.)" },
+      { typ: "titel", text: "Nachlass: Haus Augsburg, Lechfeldstr. 12" },
+      { text: "Das vor 20 Jahren von Max Muhr gekaufte Haus (Baujahr 1969) besteht aus fünf gleich großen Stockwerken (EG, 1. OG, 2. OG, 3. OG, 4. OG). Am Todestag war bis auf das 4. OG das gesamte Gebäude vermietet, davon das 1. bis 3. OG zu Wohnzwecken. Im EG befand sich am Todestag ein Lebensmitteleinzelhandelsgeschäft. Im 4. OG befand sich die gemeinsame Wohnung von Max und Mathilde Muhr." },
+      { text: "Der Grundstückswert des Gebäudes wurde bereits vom zuständigen Finanzamt Augsburg-Stadt in Höhe von 2.000.000,00 € gesondert festgestellt." },
+      { text: "Im Zusammenhang mit einer das gesamte Gebäude betreffenden Sanierung im Jahr 2006 hat Max Muhr an seinem Todestag noch eine offene Verbindlichkeit gegenüber seiner Ehefrau Mathilde Muhr in Höhe von 30.000,00 €, welche in unverzinslichen jährlichen Raten von 10.000,00 € beginnend am 01.10.2022 zu tilgen ist." },
+      { typ: "titel", text: "Nachlass: Girokonto und Bargeld" },
+      { text: "Auf dem Girokonto der Stadtsparkasse Augsburg befand sich am Todestag ein Guthaben von 5.000,00 €. Im Geldbeutel von Max Muhr fand sich zum gleichen Zeitpunkt ein Betrag von 100,00 €." },
+    ],
+    aufgabe: [
+      { text: "Ermitteln Sie den steuerpflichtigen Erwerb für den/die Erben nach Max Muhr." },
+      { text: "Der steuerpflichtige Erwerb soll möglichst gering gehalten werden." },
+      { text: "Alle erforderlichen Anträge gegenüber dem Finanzamt gelten als gestellt. Notwendige gesonderte Feststellungen sind ggf. vorab darzustellen." },
+      { text: "Begründen Sie Ihre Entscheidungen unter Angabe der maßgebenden Vorschriften." },
+      { text: "Auf § 13a IV ErbStG und die Grunderwerbsteuer ist nicht einzugehen." },
+    ],
+    loesung: [
+      { typ: "titel", text: "Keine Musterlösung in der Quelle" },
+      { text: KEINE_LOESUNG },
+      { text: "Was die Aufgabenstellung selbst vorgibt: Gefragt ist der steuerpflichtige Erwerb „für den/die Erben“ – die Schrägstrich-Formulierung lässt offen, ob es einen oder mehrere Erwerber gibt, und macht damit die Auslegung des Berliner Testaments und die Behandlung der Rente an den Sohn zum Teil der Aufgabe. Der Erwerb soll möglichst gering gehalten werden; alle erforderlichen Anträge gelten als gestellt. Notwendige gesonderte Feststellungen sind vorab darzustellen – die Quelle nennt bereits drei bestehende Feststellungen (Anteilswert der Abbruch-GmbH, Anteilswert und Verwaltungsvermögen der Immo-AG, Grundstückswert des Hauses) und macht mit diesem Satz deutlich, dass weitere hinzukommen können. Ausdrücklich ausgenommen sind § 13a Abs. 4 ErbStG und die Grunderwerbsteuer." },
+      { text: "Was der Sachverhalt an Rechengrundlagen bereitstellt, ohne dass hier Schlüsse gezogen würden: vier Jahresüberschüsse (2016 bis 2019) mit den zugehörigen Ertragsteuern sowie ein fünfter für 2020; Schulden einschließlich Rückstellungen zum 30.06.2020 von 80.000,00 €; ein passiver Rechnungsabgrenzungsposten zum 31.12.2019 von 20.000,00 €; Finanzmittel von 300.000,00 € ohne junge Finanzmittel; ein Pfandbriefdepot mit 100 Stück zu je 1.000,00 € Nennwert, 5 % Zinsen, 15 Jahren Laufzeit seit dem 01.12.2008 und einem Kurswert von 110 %, das in der Vermögensaufstellung bisher fehlt; und eine Beteiligung, die dort bisher mit dem Buchwert von 50.000,00 € statt mit dem festgestellten Anteilswert von 1.000.000,00 € steht." },
+      { text: "Die Angaben, die erkennbar Weichen stellen und nicht Ausschmückung sind: die Gütertrennung; der nicht geltend gemachte Pflichtteil; die Befristung der Rente an den Sohn auf die Dauer des Studiums, längstens bis zum 27. Geburtstag (der Sohn ist am 15.02.1990 geboren, der Erbfall tritt am 01.07.2020 ein); die Witwenrente aus der gesetzlichen Sozialversicherung; die im Voraus für zwei Jahre gezahlte Grabpflege; die vertragliche Stimmbindung und Verfügungsbeschränkung zwischen Muhr und Weiß, die beide jeweils 15 % halten; der Verkauf dieser Anteile im Dezember 2020 an eben diesen Vertragspartner; die Aufgabe der Ehewohnung und der Wegzug nach Nizza noch im Dezember 2020; die Nutzung der fünf gleich großen Stockwerke; und die unverzinsliche Verbindlichkeit gegenüber der Ehefrau, deren erste Rate erst am 01.10.2022 fällig wird." },
+      { text: "Zeitliche Einordnung: Der Erbfall tritt am 01.07.2020 ein. Wer die Aufgabe nach heutigem Rechtsstand löst, muss selbst prüfen, was sich seither geändert hat – insbesondere bei der Grundbesitzbewertung durch das Jahressteuergesetz 2022. Die Aufgabe ist hier unverändert mit den Jahreszahlen des Prüfungsjahrgangs wiedergegeben." },
+      { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Das vereinfachte Ertragswertverfahren nach §§ 199 ff. BewG, die Abgrenzung des Verwaltungsvermögens und der Finanzmittel sowie die Poolvereinbarung nach § 13b Abs. 1 Nr. 3 ErbStG behandelt der Erbschaftsteuer-Campus (Klausur 1) in eigenen Einheiten; die Befreiung für das Familienheim nach § 13 Abs. 1 Nr. 4b ErbStG, die Steuerbefreiung für vermietete Wohngrundstücke nach § 13d ErbStG, der Versorgungsfreibetrag nach § 17 ErbStG und die Nachlassverbindlichkeiten nach § 10 Abs. 5 ErbStG stehen dort ebenfalls, ebenso mehrere vollständig durchgerechnete Originalfälle." },
     ],
   },
 ];

@@ -10,6 +10,7 @@ import HausaufgabenBloecke from"./HausaufgabenBloecke";
 import{estKlausuren,estKlausurenQuelle}from"../data/est-klausuren.js";
 import{erbstFallsammlung,erbstFallsammlungQuelle}from"../data/k1-erbst-fallsammlung.js";
 import{erbstOriginalklausuren,erbstOriginalklausurenQuelle}from"../data/k1-erbst-originalklausuren.js";
+import{k1Pruefungsklausuren,k1PruefungsklausurenQuelle}from"../data/k1-pruefungsklausuren.js";
 import{erbstBewertungTeil3,erbstBewertungTeil3Quelle}from"../data/k1-erbst-bewertung-teil3.js";
 import{erbstBewertungTeil1}from"../data/k1-erbst-bewertung-teil1.js";
 import{erbstBewertungTeil2}from"../data/k1-erbst-bewertung-teil2.js";
@@ -30,7 +31,7 @@ const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o]))),oberVon=m=>O
 /* Der Erbschaftsteuer-/Bewertungsteil der Übungsklausur AO/USt/ErbSt/BewR 1
    liegt im gemeinsamen Klausurbestand der Übungsklausuren. */
 const ERBST_UEBUNGSKLAUSUR=estKlausuren.filter(eintrag=>eintrag.fach==="erbst");
-const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["originalklausuren","Originalklausuren (Prüfung)",IconKlausur],["bewertungsskript","Bewertungsrecht (Schäfer)",IconModule],["verschonungsskript","Verschonung & Steuerberechnung (Schäfer)",IconModule],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
+const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["originalklausuren","Originalklausuren (Prüfung)",IconKlausur],["pruefungsklausuren","Prüfungsklausuren im Original",IconKlausur],["bewertungsskript","Bewertungsrecht (Schäfer)",IconModule],["verschonungsskript","Verschonung & Steuerberechnung (Schäfer)",IconModule],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
 const seitenLabel=(seiten=[])=>{if(!seiten.length)return"–";const s=[...seiten].sort((a,b)=>a-b),out=[];let a=s[0],b=s[0];for(let i=1;i<=s.length;i++){const c=s[i];if(c===b+1){b=c;continue}out.push(a===b?`${a}`:`${a}–${b}`);a=c;b=c}return out.join(", ")};
 const fallLabel=m=>m.caseNo||m.title.match(/Fall\s+(\d+)/i)?.[1]||m.id;
 function Tz({nummer,label,titel,art,children}){return <section className={`tz${art?` tz--${art}`:""}`}><div className="tz__no"><b>Tz. {nummer}</b>{label}</div><div className="tz__body">{titel&&<h2 className="tz__titel">{titel}</h2>}{children}</div></section>}
@@ -108,4 +109,17 @@ export default function K1ErbStCampusV3({onKlausurwechsel,onFachwechsel}){const 
       suchePlatzhalter="Norm, Stichwort oder Betrag"
       einheit="Originalklausuren"
       einheitEinzahl="Originalklausur"
+    />;if(entry.ansicht==="pruefungsklausuren")return <HausaufgabenBloecke
+      kicker="Klausur 1 · Erbschaftsteuer · amtliche Prüfungsaufgaben"
+      titel="Prüfungsklausuren im Original – ohne Musterlösung"
+      lead="Der Erbschaftsteuerteil des dritten Prüfungstages im amtlichen Wortlaut – kein fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt ist die Prüfung **2021/2022**; der Erbfall tritt am 01.07.2020 ein. **Zu dieser Aufgabe enthält die Quelle keine Lösung**, und es wird hier ausdrücklich keine erfunden; der Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit vollständiger Musterlösung stehen. Ein Motorradunfall im Allgäu, ein Berliner Testament, Gütertrennung – und ein Nachlass, der in fast jeder Position eine eigene Bewertungsfrage aufwirft. Der Sohn macht seinen Pflichtteil nicht geltend, erhält aber eine Rente bis längstens zum 27. Geburtstag; die Witwe bezieht eine Witwenrente aus der gesetzlichen Sozialversicherung. Im Nachlass: 30 % an einer GmbH, deren Vermögensaufstellung eine Beteiligung mit dem Buchwert von 50.000 € statt dem festgestellten Anteilswert von 1.000.000 € ansetzt und ein Pfandbriefdepot gar nicht enthält – mit vier Jahresüberschüssen und vier Steueraufwendungen als Rechengrundlage. Dazu 15 % an einer nicht börsennotierten AG, verbunden mit einer Stimmbindungs- und Verfügungsvereinbarung mit einem Jugendfreund, der ebenfalls 15 % hält und die Anteile im Dezember 2020 kauft. Und ein Haus mit fünf gleich großen Stockwerken – eines gewerblich, drei zu Wohnzwecken vermietet, eines die Ehewohnung, die die Witwe noch im Dezember 2020 für Nizza aufgibt."
+      quelle={k1PruefungsklausurenQuelle}
+      hausaufgaben={k1Pruefungsklausuren.filter(e=>e.fach==="erbst")}
+      gruppeVon={eintrag=>eintrag.jahrgang}
+      gruppeLabel={eintrag=>`Prüfung ${eintrag.jahrgang}`}
+      gruppeAria="Prüfungsjahrgänge"
+      karteKicker={eintrag=>`Prüfung ${eintrag.jahrgang} · Teil ${eintrag.teil}`}
+      suchePlatzhalter="Norm, Stichwort oder Betrag"
+      einheit="Aufgabenteile"
+      einheitEinzahl="Aufgabenteil"
     />;if(entry.ansicht==="hausaufgaben")return <K1ErbStHausaufgaben onModulOeffnen={id=>go({ansicht:"detail",id})}/>;return <Cockpit erledigt={fort.werte} go={go} onSchema={onSchema}/>},[entry,m,suche,fort.werte]);return <div className="kst-campus"><CampusTopbar klausur="1" marke="1" name="Examenscampus Klausur 1" untertitel="Verfahrensrecht · Erbschaftsteuer" aufCockpit={()=>go({ansicht:"cockpit"})} navZurueck={verlauf.zurueck} navVor={verlauf.vor} zurueckMoeglich={verlauf.zurueckMoeglich} vorMoeglich={verlauf.vorMoeglich} suche={suche} sucheSetzen={setSuche} suchePlatzhalter="ErbSt/BewG-Inhalte suchen" sucheAria="Erbschaftsteuer-Inhalte durchsuchen" dunkel={dunkel} dunkelUmschalten={()=>setDunkel(d=>!d)}/><KlausurenLeiste aktiv="k1" aufCockpit={()=>go({ansicht:"cockpit"})} onKlausurwechsel={onKlausurwechsel}/><K1Fachleiste aktiv="erbst" onWechsel={onFachwechsel}/><aside className="rail"><nav className="rail__nav">{NAV.map(([id,label,Icon])=><button key={id} className="rail__link" aria-current={entry.ansicht===id?"true":undefined} onClick={()=>go({ansicht:id})}><Icon/>{label}</button>)}</nav><div className="rail__box"><b>ErbSt-Fortschritt</b><strong>{fort.anzahl} / {INHALTE.length}</strong><p>E2: 457/457 · E3: 451/451</p></div></aside><main className="page">{inhalt}</main></div>}

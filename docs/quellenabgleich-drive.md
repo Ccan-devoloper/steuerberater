@@ -8844,3 +8844,47 @@ erfunden.
 4. **Weitere Eigenheiten, unverändert übernommen:** „dass Bartel … Abschlagszahlungen
    erstellen sollte“ (gemeint sind Abschlagsrechnungen); „Weitere Abschlagszahlungen ergingen“;
    „Transport mit Bussen mit über 48 Kubikzentimetern Hubraum“; „Die Rechnung des Minori“.
+
+### Amtliche Prüfungsaufgabe Verfahrensrecht 2021/2022, Teil III (Erbschaftsteuer)
+
+- **Quelle:** Drive-ID `1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3`, Abschnitt „Teil III:
+  Erbschaftsteuer (Erbfall Schüssel)“.
+- **Ziel:** `src/data/k1-pruefungsklausuren.js`, Eintrag `k1-pk-2021-erbst-muhr` (fach
+  "erbst"), neuer Reiter „Prüfungsklausuren im Original“ im ErbSt-Campus. Prüfung:
+  `npm run check:k1-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; **Todestag 01.07.2020**.
+
+**Damit ist die Datei `1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3` vollständig ausgewertet.** Alle
+neun Aufgabenteile der drei Prüfungstage 2021/2022 stehen im Campus – Bilanz (drei Teile),
+Ertragsteuern (ESt mit drei Sachverhalten, GewSt, KSt) und Verfahrensrecht (AO/FGO, USt,
+ErbSt), verteilt auf sieben Reiter in sieben Campus. Es fehlen nur die Lösungen, die die
+Quelle nicht enthält; das ist in `docs/offene-quellen.md`, Abschnitt A, vermerkt.
+
+**Eigene Feststellung zur Überschrift:** Die Inhaltsübersicht der Datei bezeichnet den
+Aufgabenteil als „Teil III: Erbschaftsteuer (Erbfall Schüssel)“, während der Sachverhalt
+durchgehend den Erbfall **Max Muhr** betrifft. Der Zusatz stammt offenbar aus einem anderen
+Jahrgang. Der Datensatz gibt die Überschrift wortlautgetreu wieder und stellt den Befund
+unmittelbar darunter klar.
+
+**Weitere Feststellungen – wortlautgetreu übernommen und gekennzeichnet:** Die Ehefrau heißt
+in zwei Absätzen „Mathilda Muhr“ und sonst durchgehend „Mathilde Muhr“. Unverändert
+übernommen sind außerdem „Motoradtour“, „Nennwert vom je 1.000,00 €“, „Schulden (ink.
+Rückstellungen)“ und die Zitierweise „§ 13a IV ErbStG“ mit römischer Absatzangabe.
+
+**Was der Lösungsabschnitt leistet – und was nicht.** Er hält fest, dass die Aufgabe den
+steuerpflichtigen Erwerb „für den/die Erben“ verlangt und dass diese Schrägstrich-Formulierung
+die Auslegung des Berliner Testaments und die Behandlung der Rente an den Sohn selbst zum
+Prüfungsgegenstand macht. Er listet die Rechengrundlagen auf, die der Sachverhalt bereitstellt
+(vier Jahresüberschüsse mit Ertragsteuern, Schulden, passiver RAP, Finanzmittel, das in der
+Vermögensaufstellung fehlende Pfandbriefdepot, die dort mit dem Buchwert statt dem
+festgestellten Anteilswert angesetzte Beteiligung). Und er benennt die Angaben, die erkennbar
+Weichen stellen – Gütertrennung, nicht geltend gemachter Pflichtteil, Befristung der Rente,
+Witwenrente, vorausbezahlte Grabpflege, Stimmbindung und Verfügungsbeschränkung zwischen zwei
+Gesellschaftern mit je 15 %, Verkauf an eben diesen Vertragspartner, Aufgabe der Ehewohnung
+und Wegzug nach Nizza im Dezember 2020, Nutzung der fünf Stockwerke, unverzinsliche
+Verbindlichkeit mit erster Rate am 01.10.2022. Welche Rechtsfolgen daraus zu ziehen sind,
+steht dort **nicht** – eine eigene Lösung wird nicht erfunden.
+
+**Zeitliche Einordnung:** Der Erbfall tritt am 01.07.2020 ein. Seither hat insbesondere das
+Jahressteuergesetz 2022 die Grundbesitzbewertung geändert; der Datensatz weist darauf hin und
+gibt die Aufgabe unverändert wieder.
