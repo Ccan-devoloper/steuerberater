@@ -9351,3 +9351,59 @@ Das ist bewusst: Sie sind mit rund 400 Zeilen der umfangreichste Teil des ganzen
 Weitergelten der bis zum 30.06.2021 geltenden Fassung und die Grundstückszugehörigkeit zum
 Vermögen einer Gesellschaft. Der Hinweis steht im Datensatz, damit niemand den Abschnitt für
 vollständig hält.
+
+### Skript Grunderwerbsteuer (Vossel), § 1 Abs. 2a GrEStG
+
+- **Quelle:** Drive-ID `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, Abschnitt III.2.4.1.
+- **Ziel:** `src/data/k1-grest-skript.js`, Eintrag `grest-07`. Prüfung:
+  `npm run check:k1-grest-skript`.
+
+**Der erste der vier Ergänzungstatbestände.** Er ist zugleich der lehrreichste, weil er die
+Konstruktion offenlegt, mit der das Gesetz sein eigenes Grundproblem löst: Bei einem
+Anteilseignerwechsel ändert sich am zivilrechtlichen Eigentum nichts – die Personengesellschaft
+bleibt Eigentümerin. Das GrEStG braucht aber einen Rechtsträgerwechsel, um zu greifen. Also
+**fingiert** § 1 Abs. 2a Satz 1 GrEStG eine neue Personengesellschaft, auf die das Grundstück
+übergeht, obwohl sich zivilrechtlich nichts ändert. Wer diese Fiktion verstanden hat, versteht
+auch die Abs. 2b, 3 und 3a.
+
+**Vier Merkposten, die die Quelle einzeln ausarbeitet und die hier vollständig übernommen sind:**
+
+1. **Alt- gegen Neugesellschafter.** Übertragungen auf Altgesellschafter sind irrelevant – und
+   zwar auch dann, wenn der Altgesellschafter bisher gar nicht am Vermögen beteiligt war. Das
+   Beispiel der Komplementär-GmbH, die 92 % übernimmt und trotzdem keine Steuerbarkeit
+   auslöst, ist der Prüfstein.
+2. **Die Zehnjahresfrist wirkt doppelt** – sie rechnet sukzessive Übertragungen zusammen *und*
+   macht aus Neugesellschaftern nach Ablauf Altgesellschafter. Das Beispiel mit den Erwerben
+   in den Jahren 01, 08 und 14 führt beide Wirkungen gegeneinander.
+3. **Grundstücksbezogene Auslegung einer gesellschaftsbezogenen Norm.** Jedes Grundstück wird
+   einzeln betrachtet; steuerbar ist nur, was über den ganzen relevanten Zeitraum durchgängig
+   zum Vermögen gehörte. Das Drei-Grundstücke-Beispiel zeigt alle drei Fälle nebeneinander.
+4. **Mittelbare Beteiligungen je nach Rechtsform der Zwischengesellschaft.** Bei einer
+   Personengesellschaft werden die Quoten multipliziert; bei einer Kapitalgesellschaft gilt
+   ein Alles-oder-nichts: Erst ab 90 % Wechsel zählt sie als neue Gesellschafterin, dann aber
+   mit ihrer vollen Beteiligung. Die Quelle stellt drei Beispiele nebeneinander, die genau
+   diesen Unterschied vorführen. Der Rechenweg ist im Datensatz zusätzlich als Tabelle
+   zusammengefasst.
+
+**Unabhängig nachgerechnet – alle sechs Beispiele der Quelle gehen auf:**
+
+| Beispiel | Nachrechnung | Quelle |
+| --- | --- | --- |
+| Aufnahme des C in die AB-OHG | 1.000.000 : 1.050.000 = 95,238 % | „95,24 % ≥ 90 %“ |
+| Tranchen in den Jahren 01/08/14 | Jahr 08: 2 + 50 = 52 % · Jahr 14: 50 + 47 = 97 %, aber C seit 13 Jahren dabei | ebenso |
+| Drei Grundstücke | Jahr 02 bis August 04: 50 + 44 = 94 % | 94 % |
+| Mittelbar über die M OHG | 80 % unmittelbar + 50 % × 20 % = 10 % mittelbar = 90 % | 90 %, steuerbar |
+| Mittelbar über die M GmbH (50 % Wechsel) | 80 % unmittelbar, mittelbar 0 %, da 50 % < 90 % | 80 %, nicht steuerbar |
+| Mittelbar über die M GmbH (91 % Wechsel) | 87 % unmittelbar + volle 5 % (nicht 91 % × 5 % = 4,55 %) = 92 % | steuerbar |
+
+Das letzte Beispiel ist das entscheidende: Ohne die Alles-oder-nichts-Regel des § 1 Abs. 2a
+Satz 4 GrEStG käme man auf 87 % + 4,55 % = 91,55 % – das Ergebnis wäre zufällig dasselbe. Die
+Quelle wählt die Zahlen aber so, dass der Unterschied sichtbar bleibt: Maßgeblich sind die
+vollen 5 %, nicht der durchgerechnete Anteil.
+
+**Keine Unstimmigkeiten.** In diesem Abschnitt ist nichts zu kennzeichnen – die Quelle ist
+rechnerisch und sprachlich durchgehend sauber.
+
+**Der Hinweis im vorigen Eintrag ist nachgezogen.** Der redaktionelle Schlusshinweis in
+`grest-06` nannte bisher alle vier Ergänzungstatbestände als offen; er verweist jetzt für
+§ 1 Abs. 2a auf den neuen Eintrag und führt nur noch die tatsächlich fehlenden auf.
