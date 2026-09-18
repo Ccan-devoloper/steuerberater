@@ -2635,3 +2635,51 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Bescheid vom 02.10.01, Bekanntgabe am 06.10.01, Schonfrist bis 13.10.01, Fälligkeit des
   Erhöhungsbetrages von 4.000 € am 06.11.01 (§ 220 Abs. 2 AO, § 18 Abs. 4 Satz 2 UStG),
   Vollstreckung ab **07.11.01**.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 15: Vollstreckungsrecht (Teil 2)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 15, Teil IV.
+- Einpflege dieses Durchgangs: fünf Kapitel – Einführung und Prüfungsschema zur Pfändung in
+  bewegliche Sachen, die Abgrenzung der beweglichen Sache von Bestandteil, Scheinbestandteil
+  und Grundstückszubehör (mit Fertiggaragen-Beispiel, Ziegelei-Übungsfall Karl Dach samt
+  Abwandlung und Prüfungsschema zum Hypothekenverband), Gewahrsam, Pfändungsverbote und
+  Formerfordernisse, Wirkung der Pfändung und Rechtsbehelfe von Schuldner und Drittem (mit
+  dem Beispiel des Taxiunternehmers S) sowie die Vollstreckung gegen Ehegatten mit
+  Prüfungsschema. **Der Teil IV des Abschnitts 15 ist damit vollständig.** Das Skript
+  umfasst jetzt 11 Teile, 120 Kapitel, 2.525 Blöcke und 221 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: Teil V des Abschnitts 15 (Einwendungen gegen
+  Vollstreckungsmaßnahmen und Rechtsschutz) und die nachfolgenden Teile.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 8: „Pfändung durch den Vollziehungsbeamten nach den §§ 285ff **BGB**“ – gemeint
+    sind die §§ 285ff AO. In den Lösungshinweisen zum Fertiggaragen-Beispiel heißt es
+    „Pfändung durch Vollziehungsbeamter nach den §§ **295**ff AO“; die Pfändung durch den
+    Vollziehungsbeamten richtet sich nach den §§ 285ff AO, § 295 AO regelt die
+    Pfändungsverbote. Ferner der verstellte Satz „§ 865 ZPO entscheidet … = Pfändung werden
+    die beweglichen Wirtschaftsgüter entzogen, die von der Immobilienvollstreckung erfasst
+    werden“.
+  - Kapitel 9: Die Klammer in „Sonderfall in § 286 IV bei (Mit-)Gewahrsam eines
+    herausgabebereiten Dritten (zB …“ wird in der Quelle nicht geschlossen. Der Satz
+    „Ausnahme: Fremdes Eigentum klar und eindeutig ersichtlich ist“ ist ohne „wenn“
+    formuliert. Bei der Überpfändung steht ein doppeltes Gleichheitszeichen („= = Bei
+    Verstoß …“).
+  - Kapitel 10: „Trotz der Regelungen in § 262 für „Dritte““ ohne Gesetzesangabe; gemeint
+    ist § 262 AO. Der Passus zur Einspruchsfrist bei Pfändungen des Vollziehungsbeamten
+    („Keine Geltung von § 356 AO …“) steht in der Quelle zweimal – einmal in der Einführung
+    zum Teil IV und einmal in Tz. 5.2; beide Vorkommen sind übernommen.
+  - Kapitel 11: „Anderer Ehegatte ist – mangels **Mitwahrsam** – kein Dritter“; gemeint ist
+    Mitgewahrsam.
+
+  Darstellungsentscheidungen: Die beiden Prüfungsschemata des Teils IV (Abgrenzung
+  Grundstückszubehör/bewegliche Sachen und Vollstreckung gegen Ehegatten) stehen in der
+  Quelle als zweispaltige Ablaufdiagramme, deren Textbausteine in der maschinellen Erfassung
+  zeilenweise ineinanderlaufen. Sie sind spaltenweise zugeordnet als Tabelle wiedergegeben;
+  der Wortlaut ist unverändert, und im Datensatz steht jeweils ein Hinweis darauf. Ebenso
+  sind der Ziegelei-Übungsfall und das Taxiunternehmer-Beispiel, die die Quelle als
+  fortlaufende Aufzählung führt, zur Zuordnung von Sachverhalt und Lösung
+  gegenübergestellt – ebenfalls mit Hinweis im Datensatz.

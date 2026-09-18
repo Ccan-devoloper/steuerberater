@@ -102,9 +102,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Teil I (rechtliche Grundlagen, Überblick über die gesetzlichen Regelungen), der Teil II
   (allgemeine Vollstreckungsvoraussetzungen von § 249 Abs. 1 AO bis zur Mahnung nach § 259
   AO, einschließlich Übungsfall zur Steueranmeldung) und der Teil III (Einstellung und
-  Beschränkung der Vollstreckung nach § 257 AO) eingepflegt. Offen ist aus diesem Band noch
-  der **Teil IV des Abschnitts 15** (Vollstreckung in bewegliche Sachen, §§ 281ff AO) mit
-  den nachfolgenden Teilen.
+  Beschränkung der Vollstreckung nach § 257 AO) und der Teil IV (Vollstreckung wegen
+  Geldforderungen in bewegliche Sachen, §§ 281ff AO, einschließlich der Vollstreckung gegen
+  Ehegatten) eingepflegt. Offen ist aus diesem Band noch der **Teil V des Abschnitts 15**
+  (Einwendungen gegen Vollstreckungsmaßnahmen und Rechtsschutz) mit den nachfolgenden
+  Teilen.
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript

@@ -308,7 +308,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Vollstreckungsbeginn am 11.09.01, 19.09.01 und 07.11.01 durchgerechnet sind;
   Vollstreckungsschonfrist, Fälligkeit nach § 220 AO und die Mahnung als Sollvorschrift. Der
   Teil III behandelt Einstellung und Beschränkung der Vollstreckung nach § 257 AO mit zwei
-  Fallbeispielen zur Pkw-Pfändung.
+  Fallbeispielen zur Pkw-Pfändung. Der **Teil IV** (Vollstreckung wegen Geldforderungen in
+  bewegliche Sachen, §§ 281ff AO) ist vollständig: Pfändung als Verwaltungsakt i. S. v.
+  § 118 AO, Zuständigkeit des Vollziehungsbeamten und das vierstufige Prüfungsschema der
+  besonderen Vollstreckungsvoraussetzungen; die Abgrenzung der beweglichen Sache von
+  wesentlichem Bestandteil (§ 94 BGB), Scheinbestandteil (§ 95 BGB) und Grundstückszubehör
+  (§§ 97, 98, 1120 BGB, § 865 ZPO) mit dem Fertiggaragen-Beispiel in zwei Varianten, dem
+  Ziegelei-Übungsfall Karl Dach samt Abwandlung und dem Prüfungsschema zum
+  Hypothekenverband; die Sonderfälle bei Wertpapieren und beim Sparbuch (§§ 302, 312,
+  315 Abs. 2 Satz 5 AO); Gewahrsam nach § 286 AO einschließlich evidentem Dritteigentum;
+  Pfändungsverbote (§ 811 ZPO) und die Formerfordernisse der Pfändung „in der rechten
+  Weise“ und „im rechten Umfang“; Pfändungspfandrecht und Verstrickung; die Rechtsbehelfe
+  des Schuldners und des Dritten mit Drittwiderspruch und Drittwiderspruchsklage nach
+  § 262 AO und dem durchgeprüften Beispiel des Taxiunternehmers S mit vier Einwendungen;
+  sowie die Vollstreckung gegen Ehegatten in drei Fallgruppen mit der Doppelvermutung des
+  § 263 AO (§ 1362 BGB für das Eigentum, § 739 ZPO für den Gewahrsam) und Prüfungsschema.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
