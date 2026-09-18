@@ -245,6 +245,22 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   1.095 €), und schließlich Stundungs- (§ 234 AO), Hinterziehungs- (§ 235 AO), Prozess-
   (§ 236 AO) und Aussetzungszinsen (§ 237 AO) mit Zinslauf, Zinsschuldner,
   Ausschlussgründen und Konkurrenzen. **Abschnitt 11 ist damit vollständig.**
+  Aus demselben Band ist **Abschnitt 12** (Außenprüfung, §§ 193 bis 207 AO) begonnen. Der
+  Teil I grenzt die Außenprüfung gegen betriebsnahe Veranlagung, Umsatzsteuer-, Lohnsteuer-
+  und Kassen-Nachschau sowie die Steuerfahndung ab – mit dem Hinweis, dass nur die
+  Außenprüfung die Ablaufhemmung des § 171 Abs. 4 AO auslöst –, nennt die Rechtsgrundlagen
+  einschließlich der BpO und behandelt die Zulässigkeit nach § 193 AO: die uneingeschränkte
+  Prüfung bei Gewinneinkünften und bei Steuerpflichtigen im Sinne des § 147a AO
+  (Aufbewahrungspflicht ab 500.000 € Überschusseinkünften, keine Saldierung, getrennte
+  Betrachtung bei Ehegatten, Prüfbarkeit auch der fünf Folgejahre), die eingeschränkte
+  Prüfung nach Absatz 2 mit dem Beispiel des Vermieters von zwanzig Mehrfamilienhäusern in
+  zwei Varianten, sowie Ehegatten als getrennte Prüfungssubjekte mit einem dreifach
+  durchgeprüften Beispiel und die Gesellschaft als Subjekt der Prüfung nach § 194 Abs. 1
+  Satz 3 und Abs. 2 AO. Der Teil II bringt den sachlichen und zeitlichen Prüfungsumfang mit
+  den Größenklassen des § 3 BpO, der Anschlussprüfung bei Großbetrieben, dem
+  Dreijahreszeitraum für Mittel-, Klein- und Kleinstbetriebe, der zeitnahen Außenprüfung
+  nach § 4a BpO und den Erweiterungstatbeständen des § 4 Abs. 3 Satz 2 BpO einschließlich
+  der 1.500-Euro-Grenze der BFH-Rechtsprechung.
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und

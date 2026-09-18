@@ -3016,3 +3016,44 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   0,15 % x 29 = **348 €**. Beispiel 3: 9 Monate à 30 Tage ergeben 270 Zinstage und
   10.000 € x 6 % x 270/360 = **450 €**, 43 Monate à 30 Tage ergeben 1.290 Zinstage und
   10.000 € x 1,8 % x 1.290/360 = **645 €**, zusammen **1.095 €**.
+
+## AO-Skript (Jacobs), Teil V – Abschnitt 12: Außenprüfung (Teil 1)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`),
+  Abschnitt 12, Teile I und II.
+- Einpflege dieses Durchgangs: drei Kapitel – die Grundlagen der Außenprüfung mit der
+  Abgrenzung zu betriebsnaher Veranlagung, den drei Nachschauen und der Steuerfahndung, die
+  Zulässigkeit nach § 193 AO einschließlich § 147a AO und des Vermieter-Beispiels, die
+  Besonderheiten bei Ehegatten (mit dreifach durchgeprüftem Beispiel) und
+  Personengesellschaften sowie der sachliche und zeitliche Prüfungsumfang mit den
+  Größenklassen der BpO und den Erweiterungstatbeständen. Das Skript umfasst jetzt 13 Teile,
+  145 Kapitel, 3.337 Blöcke und 249 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: der Rest des Abschnitts 12 (Teile III bis V bis zur Bruchstelle
+  auf Seite 27). Der Abschnitt 13 wird vom Connector nicht mehr erreicht und ist in
+  `docs/offene-quellen.md`, Abschnitt A aufgenommen.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 3, zeitnahe Außenprüfung.** Als Vorteil für das Unternehmen nennt die Quelle
+    „größere Rechtssicherheit und im Regelfall **die Zusammenballung** von erheblichen
+    Nachzahlungen“. Nach dem Sinnzusammenhang ist die **Vermeidung** einer solchen
+    Zusammenballung gemeint; der Wortlaut ist unverändert übernommen und im Datensatz
+    vermerkt.
+  - Kapitel 1: doppeltes Komma im Verweis „AEAO zu § 193,, Nr. 6“; fehlendes Komma in der
+    Kette „§§ 19, 20 21 und 22 EStG“; „ermessenfehlerhaft“ statt ermessensfehlerhaft; in der
+    Übersicht der besonderen Ermittlungsverfahren „Erhebung der **von** Betriebssteuern“.
+  - Kapitel 2: Die einheitliche Feststellung ist als „§ 180 I 2a AO“ zitiert; gemeint ist
+    § 180 Abs. 1 Satz 1 Nr. 2 Buchst. a AO.
+  - Kapitel 3: „Falls die Voraussetzungen der Nr. 2 und 3 **gegeben werden**“ statt gegeben
+    sind; „mit nicht unerheblichen **Steuernachforderung**/-erstattungen“; und der Verweis
+    „Antrag auf AdV nach § 361 als vorläufiger Rechtsschutz“ ohne Gesetzesangabe.
+
+  Darstellungsentscheidungen: Die Übersicht der besonderen Ermittlungsverfahren, das
+  Vermieter-Beispiel mit seinen beiden Fallvarianten, die Gegenüberstellung von § 194 Abs. 1
+  Satz 3 und Abs. 2 AO, der sachliche Prüfungsumfang und die Größenklassen-Übersicht stehen
+  in der Quelle als Schaubilder, deren Spalten in der maschinellen Erfassung ineinanderlaufen.
+  Sie sind spaltenweise zugeordnet als Tabellen wiedergegeben, mit Hinweis im Datensatz; der
+  Wortlaut ist unverändert.

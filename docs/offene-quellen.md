@@ -25,6 +25,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **AO Teil I** (Jacobs, Mai 2025), Drive-ID `1aHWnqQ5PE_XXgbI3Aw7ShlMe_AuEj2gQ` | Der Rest des Abschnitts 3 (ab Seite 30) und der vollständige **Abschnitt 4** | Der Connector gibt aus dem 1,4-MB-PDF 144.000 Zeichen bis Abschnitt 3, Seite 30 aus und bricht dort an einer Seitengrenze ab. Das Deckblatt kündigt „Teil I: Abschnitte 1 bis 4“ an. Die Abschnitte 1 bis 3 sind bis zur Bruchstelle eingepflegt. |
 | **AO Teil II** (Jacobs, Mai 2025), Drive-ID `15kFDJkIW4sHvVz5tlf5_s4DIEwUm0cDd` | Aus Abschnitt 6 die Seiten 43 bis 74: die Ablaufhemmungen des **§ 171 Abs. 9, 10, 10a, 14 und 15 AO** einschließlich der gesonderten Feststellung nach § 181 Abs. 5 AO | Der Connector gibt aus dem PDF 170.000 Zeichen aus und bricht in Abschnitt 6 auf Seite 42 ab. Abschnitt 5 und Abschnitt 6 bis § 171 Abs. 7 AO sind lesbar und eingepflegt. |
 | **AO Teil III** (Jacobs, Mai 2025), Drive-ID `17QT3RU22R0kTxP5MfyzWc6HrX3i77TEg` | Aus Abschnitt 7 die Seiten 80 bis 118: die Lösungshinweise zu den Übungsfällen zu **§ 175 Abs. 1 Satz 1 Nr. 1 AO**, **§ 175 Abs. 1 Satz 1 Nr. 2 AO** (rückwirkendes Ereignis) sowie **§§ 176 und 177 AO** | Der Connector gibt aus dem PDF 156.000 Zeichen aus und bricht in Abschnitt 7 auf Seite 79 mitten im ersten Übungsfall zu § 175 AO ab. Abschnitt 7 ist bis dorthin vollständig eingepflegt. |
+| **AO Teil V** (Jacobs, Mai 2025), Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN` | Aus Abschnitt 12 (Außenprüfung) alles ab Seite 28: der Rest des **Teils V** (Neuregelungen zu § 197 Abs. 5 und § 180 Abs. 1a AO) sowie die **Teile VI bis VIII** (Prüfungsfeststellungen, Schlussbesprechung, Prüfungsbericht, Auswirkungen auf die Festsetzungsverjährung); dazu der gesamte **Abschnitt 13** | Der Connector gibt aus dem 1,4-MB-PDF 145.000 Zeichen aus: den Abschnitt 11 vollständig und den Abschnitt 12 bis Seite 27, wo er abbricht. Das Deckblatt kündigt „Teil V: Abschnitte 11 bis 13“ an. |
 | **AO Teil IV** (Jacobs, Mai 2025), Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA` | Aus Abschnitt 9 ab Seite 18: der Rest des Teils V (**Wiedereinsetzung, § 56 FGO**), Teil VI (**Form und Inhalt der Klageschrift, §§ 64, 65 FGO**), die **Begründetheit der Klage** und das **Revisionsverfahren**; dazu der gesamte **Abschnitt 10** (vorläufiger Rechtsschutz) | Der Connector gibt aus dem PDF 141.000 Zeichen aus: Abschnitt 8 vollständig (62 Seiten) und Abschnitt 9 bis Seite 17, wo er mitten im Satz abbricht. Das Deckblatt kündigt „Teil IV: Abschnitte 8 bis 10“ an. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
@@ -117,8 +118,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   die Aufrechnung nach § 226 AO, § 406 BGB bei abgetretenen Forderungen und die
   Zahlungsverjährung der §§ 228 bis 232 AO sowie die Teile IV und V (Säumniszuschläge nach
   § 240 AO, sämtliche Zinstatbestände der §§ 233 bis 239 AO) eingepflegt. **Der Abschnitt 11
-  ist damit vollständig.** Offen sind der Abschnitt 12 (Außenprüfung; der Connector gibt ihn
-  bis Seite 27 aus) und der Abschnitt 13, den der Connector nicht mehr erreicht.
+  ist damit vollständig.** Aus dem Abschnitt 12 (Außenprüfung) sind die Teile I (Grundlagen
+  und Zulässigkeit nach § 193 AO) und II (Umfang der Außenprüfung) eingepflegt. Offen ist
+  der Rest des Abschnitts 12, soweit der Connector ihn ausgibt – die Teile III bis V bis zur
+  Bruchstelle auf Seite 27 –; der **Abschnitt 13** wird vom Connector nicht mehr erreicht
+  (siehe Abschnitt A).
 - AO-Short-Skript
 - FGO
 - Notfallbuch
