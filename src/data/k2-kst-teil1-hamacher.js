@@ -10,9 +10,10 @@
    Abschnitte 1.1 bis 1.6, von der unbeschränkten Steuerpflicht über die
    Steuerbefreiungen des § 5 KStG bis zur Option nach § 1a KStG. Aus Kapitel 2
    (Einkommensermittlung) ist vollständig übernommen – die Abschnitte 2.1 bis
-   2.2.5, vom zu versteuernden Einkommen bis zum Verlustabzug. Die Kapitel 3
-   (verdeckte Einlage) und 4 (Tarif) folgen nach demselben Verfahren; der Campus
-   weist den Stand aus.
+   2.2.5, vom zu versteuernden Einkommen bis zum Verlustabzug. Aus Kapitel 3
+   (verdeckte Einlage) sind die Abschnitte 3.1 und 3.2.1 übernommen. Der Rest des
+   Kapitels 3 und das Kapitel 4 (Tarif) folgen nach demselben Verfahren; der
+   Campus weist den Stand aus.
 
    Kleinere Tippfehler der Quelle (fehlende Endungen, ein doppeltes Subjekt)
    sind wortlautgetreu übernommen und nicht einzeln gekennzeichnet, weil sie den
@@ -566,6 +567,68 @@ export const kstTeil1 = [
       ] },
       { text: "Der verbleibende Verlust zum 31.12.2026 beträgt somit 1.030.000 € und ist entsprechend nach § 10d Abs. 4 EStG festzustellen." },
       { text: "Merke: Der Verlustvortrag wird im Rahmen der Mindestgewinnbesteuerung vorgenommen. Danach kann dieser zunächst in Höhe von 1.000.000 € als Grundabzug und der verbleibende Überhang nur begrenzt in Höhe von 70 % erfolgen." },
+    ],
+  },
+  {
+    id: "kst-t1-13",
+    kapitel: "13",
+    abschnittNr: "3.1",
+    title: "3.1 Verdeckte Einlage – Begriffsdefinition",
+    thema: "Das genaue Gegenteil der verdeckten Gewinnausschüttung: eine Vorteilszuwendung vom Gesellschafter an seine Gesellschaft, ohne Gegenleistung in Gesellschaftsrechten. Warum das Gesetz sie nicht definiert, sondern nur ihre Rechtsfolge regelt – und warum die Buchung entscheidet, ob es überhaupt zu einer Einkommenskorrektur kommt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.1 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 3, Satz 4 KStG", "§ 27 KStG", "§ 1a KStG",
+      "R 8.9 Abs. 1 KStR", "§ 4 Abs. 1 Satz 1, Satz 8 EStG", "§ 6 Abs. 6 Satz 1 EStG",
+      "§ 272 Abs. 2 HGB",
+    ],
+    themen: ["Verdeckte Einlage", "Offene Einlage", "Agio", "Tauschvorgang", "Steuerliches Einlagekonto", "Kapitalrücklage", "Materielle Korrespondenz"],
+    bloecke: [
+      { typ: "titel", text: "3. Verdeckte Einlagen – 3.1 Begriffsdefinition" },
+      { typ: "titel", text: "3.1.1 Vorteilszuwendung an die Kapitalgesellschaft" },
+      { text: "Als „verdeckte Einlage“ werden Vermögenszuführungen durch den Anteilseigner bzw. eine diesem nahe stehende Person in seine Kapitalgesellschaft (beachte: auch in die optierende Gesellschaft i. S. des § 1a KStG) bezeichnet, die mangels einer angemessenen Gegenleistung zwar zu einer Erhöhung des Gesellschaftsvermögens führen, nicht aber deren Nennkapital berühren. Sie steht damit im Gegensatz zu einer „offenen Einlage“, bei welcher im Rahmen eines Kapitalerhöhungsbeschlusses auch das Nennkapital erhöht wird. Die verdeckte Einlage setzt danach voraus, dass dem Gesellschafter oder der nahe stehenden Person für seine Leistung keine Gegenleistung in Form von Gesellschaftsrechten gewährt wird. Eine verdeckte Einlage ist daher dann bereits zu verneinen, wenn die Vermögensübertragung teilweise auch gegen Gewährung neuer Gesellschaftsrechte erfolgt und im Übrigen als Agio ausgewiesen wird. Es handelt sich dann bereits um einen Tauschvorgang i. S. des § 6 Abs. 6 Satz 1 EStG." },
+      { text: "Die verdeckte Einlage ist zudem das genaue Gegenteil zur verdeckten Gewinnausschüttung. Denn kommt es bei einer verdeckten Gewinnausschüttung zu einer Vorteilszuwendung von der Gesellschaft an den Gesellschafter, erfolgt bei einer verdeckten Einlage umgekehrt eine Vorteilszuwendung vom Gesellschafter an seine Gesellschaft." },
+      { text: "Die Definition der verdeckten Einlage ergibt sich nicht aus dem Gesetz. Der Verweis auf die verdeckte Einlage ergibt sich zwar aus § 8 Abs. 3 Satz 3 KStG, welche lediglich die Behandlung der verdeckten Einlage im Rahmen der Einkommensermittlung regelt. Die Definition der verdeckten Einlage ergibt sich ausschließlich aus R 8.9 Abs. 1 KStR. Daraus ergeben sich folgende Tatbestandsmerkmale:" },
+      { text: "1. Vermögensmehrung oder verhinderte Vermögensminderung 2. Veranlassung durch das Gesellschaftsverhältnis 3. Zuwendung eines Vermögensvorteils in Form eines Wirtschaftsgutes" },
+      { text: "Merke: Eine verdeckte Einlage führt immer zu einer Vorteilszuwendung vom Anteilseigner/nahe stehenden Person an die Kapitalgesellschaft, woraus bei dieser entweder eine Vermögensmehrung oder eine verhinderte Vermögensminderung eintreten kann. Dadurch erhält der „Einlegende“ keine angemessene Gegenleistung." },
+      { typ: "titel", text: "3.1.2 Beseitigung der Gewinnauswirkung" },
+      { text: "Sind diese erfüllt, ist die verdeckte Einlage in aller Regel einkommensneutral (Ausnahme: materielle Korrespondenz i. S. des § 8 Abs. 3 Satz 4 KStG). Zwar erhöht sich durch den Vorgang das Betriebsvermögen i. S. des § 4 Abs. 1 Satz 1 EStG und löst grundsätzlich einen bilanziellen Ertrag aus. Dieser Ertrag resultiert aber aus einer gesellschaftsrechtlich motivierten Einlage und ist daher – vergleichbar mit der Neueinlage eines Einzelunternehmers i. S. des § 4 Abs. 1 Satz 8 EStG – bei der Einkommensermittlung zu neutralisieren. Diesbezüglich sind folgende Fallgestaltungen zu unterscheiden:" },
+      { typ: "tabelle", spalten: ["Buchung bei der Gesellschaft", "Folge für die Einkommensermittlung"], zeilen: [
+        ["Erfolgswirksame Buchung (Regelfall)", "Hat sich die verdeckte Einlage auf den Gewinn ausgewirkt, ist diese nach § 8 Abs. 3 Satz 3 KStG außerbilanziell wieder abzuziehen."],
+        ["Buchung gegen Kapitalrücklage (Ausnahmefall)", "Die Kapitalgesellschaft kann die verdeckte Einlage auch erfolgsneutral als Zugang zur Kapitalrücklage i. S. des § 272 Abs. 2 HGB buchen. Mangels Gewinnauswirkung ergibt sich dann aber keine Einkommenskorrektur."],
+      ] },
+      { text: "Beispiel: Gesellschafter A legt ohne gesellschaftsrechtliche Verpflichtung 100.000 € in seine A-GmbH ein. Die Gesellschaft bucht den Vorgang wie folgt: a) Bank an Ertrag 100.000 € b) Bank an Kapitalrücklage 100.000 €" },
+      { text: "Lösung: Im Fall a) ist die verdeckte Einlage im Rahmen der Einkommensermittlung außerbilanziell abzuziehen (§ 8 Abs. 3 Satz 3 KStG). Im Fall b) hatte die verdeckte Einlage keine Gewinnauswirkung, so dass eine Einkommenskorrektur ausscheidet. In beiden Fällen ist aber ein Zugang zum steuerlichen Einlagekonto (§ 27 KStG) vorzunehmen." },
+    ],
+  },
+  {
+    id: "kst-t1-14",
+    kapitel: "14",
+    abschnittNr: "3.2.1",
+    title: "3.2.1 Fallgruppen der verdeckten Einlage",
+    thema: "Zwei Fallgruppen mit drei Beispielen: die Vermögensmehrung, die in beide Richtungen funktioniert – verbilligte Übertragung an die Gesellschaft ebenso wie überteuerter Verkauf von ihr an den Gesellschafter –, und die verhinderte Vermögensminderung beim Forderungsverzicht, bei der die Einlage nur mit dem werthaltigen Teil der Forderung bewertet wird",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.2.1 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 3 KStG", "§ 27 KStG", "R 8.9 Abs. 1 KStR",
+      "H 8.9 „Erbfall“", "BFH vom 06.12.2016, BStBl. II 2017, 324",
+    ],
+    themen: ["Vermögensmehrung", "Verhinderte Vermögensminderung", "Verbilligte Übertragung", "Überhöhter Veräußerungspreis", "Erbschaft an die Gesellschaft", "Forderungsverzicht", "Werthaltiger Teil"],
+    bloecke: [
+      { typ: "titel", text: "3.2 Tatbestandsmerkmale – 3.2.1.1 Vermögensmehrung" },
+      { text: "Bei einer verdeckten Einlage der Fallgruppe „Vermögensmehrung“ überträgt der Anteilseigner oder eine diesem nahe stehende Person der Kapitalgesellschaft verbilligt oder unentgeltlich Wirtschaftsgüter (= Erhöhung des Aktivvermögens), wodurch sich deren Gesellschaftsvermögen entsprechend erhöht. Gleiches gilt auch in den Fällen der (umgekehrten) Übertragung eines Wirtschaftsgutes von der Kapitalgesellschaft auf den Anteilseigner bzw. dessen nahe stehende Person zu überhöhten Konditionen, weil sich derem Vermögen durch den überhöhten Veräußerungspreis vermehrt." },
+      { text: "Dies gilt auch in Fällen einer Erbschaft bzw. Schenkung zugunsten der Kapitalgesellschaft, wenn der Erblasser/Schenker der Anteilseigner bzw. eine diesem nahestehende Person gewesen ist. In anderen Fällen, d. h. wenn zwischen dem Schenker bzw. Erblasser und der Gesellschaft keine gesellschaftsrechtlichen Verbindungen bestehen, ist eine verdeckte Einlage ausgeschlossen und die Vermögensübernahme führt bei der Gesellschaft zu einer steuerpflichtigen Betriebseinnahme." },
+      { text: "Beispiel: Der Gesellschafter A überträgt seiner A-GmbH ein Grundstück (Teilwert: 1.000.000 €) für einen Kaufpreis von 100.000 €." },
+      { text: "Lösung: Bei der A-GmbH kommt es zu einer Vermögensmehrung von 900.000 €, weil sie ein werthaltiges Wirtschaftsgut von 1.000.000 € erhält, wofür sie aus gesellschaftsrechtlichen Gründen nur eine Gegenleistung von 100.000 € erbringt. Steuerbilanziell ist das Wirtschaftsgut mit dem Teilwert auszuweisen, woraus letztlich ein Ertrag in Höhe des Vermögensvorteils von 900.000 € resultiert (Buchung: Grundstück 1.000.000 € an Bank 100.000 € und Ertrag 900.000 €). Dieser Ertrag wird im Rahmen der Einkommensermittlung nach § 8 Abs. 3 Satz 3 KStG wieder beseitigt, gleichzeitig erhöht sich das steuerliche Einlagekonto i. S. des § 27 KStG um den Betrag der verdeckten Einlage." },
+      { text: "Beispiel: Die A-GmbH überträgt ihrem Gesellschafter ein Grundstück (Buchwert und Teilwert: 100.000 €) für einen Kaufpreis von 1.000.000 €." },
+      { text: "Lösung: Bei der A-GmbH kommt es zu einer Vermögensmehrung von 900.000 €, weil sie für die Vermögensübertragung einen entsprechend überhöhten Veräußerungspreis erzielt. Dabei kommt es steuerbilanziell zu einem Ertrag von 900.000 € (Buchung: Bank 1.000.000 € an Grundstück 100.000 € und Ertrag 900.000 €), welcher nach § 8 Abs. 3 Satz 3 KStG bei der Einkommensermittlung wieder abgezogen werden muss. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos i. S. des § 27 KStG." },
+      { typ: "titel", text: "3.2.1.2 Verhinderte Vermögensminderung" },
+      { text: "Bei einer verdeckten Einlage der Fallgruppe „verhinderte Vermögensminderung“ ergeben sich die Auswirkungen bei der Kapitalgesellschaft nur aufgrund des Wegfalls eines Passivpostens. Dieser Fall tritt im Zusammenhang mit einem gesellschaftsrechtlich veranlassten Forderungsverzicht des Gesellschafters bzw. dessen nahe stehender Person ein (siehe auch unter 3.4.4 und 3.4.5). Dadurch wird die Kapitalgesellschaft, bei der ansonsten bei Rückzahlung des Passivpostens eine Vermögensminderung eingetreten wäre, von dieser befreit und damit diese Vermögensminderung entsprechend verhindert." },
+      { text: "Beispiel: Der Gesellschafter A besitzt gegenüber seiner A-GmbH eine Darlehensforderung im Nennwert von 1.000.000 € (Teilwert: 600.000 €). In 2026 verzichtet der A aus gesellschaftsrechtlichen Gründen auf seine Darlehensforderung." },
+      { text: "Lösung: Bei der A-GmbH kommt es aufgrund des Forderungsverzichtes des Anteilseigners aus gesellschaftsrechtlichen Gründen zu einem Wegfall der Darlehensverbindlichkeit und daher zu einer verhinderten Vermögensminderung (Buchung: Darlehensverbindlichkeit A gegen Ertrag 1.000.000 €). Die verdeckte Einlage beträgt daher 600.000 €, weil diese mit dem werthaltigen Teil zu bewerten ist. Dieser Vermögensvorteil ist daher nach § 8 Abs. 3 Satz 3 KStG bei der Einkommensermittlung wieder zu beseitigen und gleichzeitig dem steuerlichen Einlagekonto i. S. des § 27 KStG zuzurechnen." },
+      { text: "Anmerkung zur Reichweite dieses Beispiels: Die Quelle beziffert die verdeckte Einlage hier nur mit dem werthaltigen Teil von 600.000 €, während der Buchungssatz den vollen Nennwert von 1.000.000 € ausbucht. Die Differenz von 400.000 € bleibt danach steuerpflichtiger Ertrag. Die Quelle führt das an dieser Stelle nicht weiter aus, sondern verweist auf die Abschnitte 3.4.4 und 3.4.5, in denen der Forderungsverzicht und der Verzicht gegen Besserungsschein ausführlich behandelt werden." },
     ],
   },
 ];

@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit zwölf Kapitel mit 229 Abschnitten und
-  9 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit vierzehn Kapitel mit 253 Abschnitten und
+  10 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Die Kapitel 3 (verdeckte Einlage) und 4 (Tarif) folgen; der Campus weist den Stand aus.
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 und 3.2.1 eingepflegt: die
+  Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
+  Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
+  zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
+  die Einkommenskorrektur – gegen Ertrag oder gegen Kapitalrücklage, das steuerliche Einlagekonto
+  wird in beiden Fällen berührt – sowie die beiden Fallgruppen Vermögensmehrung (in beide
+  Richtungen: verbilligte Übertragung an die Gesellschaft wie überteuerter Verkauf von ihr) und
+  verhinderte Vermögensminderung beim Forderungsverzicht.
+  Der Rest des Kapitels 3 und das Kapitel 4 (Tarif) folgen; der Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

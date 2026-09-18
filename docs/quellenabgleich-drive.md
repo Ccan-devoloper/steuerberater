@@ -10576,3 +10576,47 @@ Wortlaut ist unverändert übernommen, die Richtigstellung steht in Klammern dan
 
 **Noch offen:** die Kapitel 3 (verdeckte Einlage, mit rund 60 Seiten der umfangreichste Teil
 dieses Skripts) und 4 (Tarif) sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.1 und 3.2.1 – Einstieg in die verdeckte Einlage
+
+Der Datensatz hat jetzt vierzehn Kapitel mit 253 Abschnitten.
+
+**Der aufschlussreichste Satz dieses Abschnitts** betrifft die Rechtsquelle: Die verdeckte
+Einlage ist **gesetzlich nicht definiert**. § 8 Abs. 3 Satz 3 KStG regelt nur ihre Behandlung
+bei der Einkommensermittlung; die Definition mit ihren drei Tatbestandsmerkmalen steht
+ausschließlich in **R 8.9 Abs. 1 KStR**. Wer in der Klausur die Definition aus dem Gesetz
+herleiten will, sucht vergeblich.
+
+**Zwei Abgrenzungen, die die Quelle scharf zieht:**
+
+- Wird die Vermögensübertragung **teilweise** gegen neue Gesellschaftsrechte vorgenommen und im
+  Übrigen als Agio ausgewiesen, liegt **keine** verdeckte Einlage vor, sondern ein Tauschvorgang
+  nach § 6 Abs. 6 Satz 1 EStG.
+- Eine Erbschaft oder Schenkung an die Gesellschaft ist nur dann verdeckte Einlage, wenn der
+  Erblasser oder Schenker Anteilseigner oder eine nahestehende Person war. Fehlt diese
+  Verbindung, ist die Zuwendung **steuerpflichtige Betriebseinnahme** – ein Unterschied von
+  erheblichem Gewicht.
+
+**Die Buchung entscheidet über die Korrektur**, nicht über die Einlage selbst: Wird die
+verdeckte Einlage erfolgswirksam gebucht (Regelfall), ist sie nach § 8 Abs. 3 Satz 3 KStG
+außerbilanziell abzuziehen; wird sie gegen die Kapitalrücklage gebucht, entfällt die
+Einkommenskorrektur mangels Gewinnauswirkung. Das steuerliche Einlagekonto nach § 27 KStG wird
+in **beiden** Fällen erhöht – der Satz, den die Quelle eigens hervorhebt.
+
+**Die Fallgruppe „Vermögensmehrung“ funktioniert in beide Richtungen**, was die zwei
+spiegelbildlichen Beispiele zeigen: Der Gesellschafter überträgt ein Grundstück mit Teilwert
+1.000.000 € für 100.000 € – oder die Gesellschaft verkauft ihm ein Grundstück mit Buchwert
+100.000 € für 1.000.000 €. Beide Male beträgt die verdeckte Einlage 900.000 €, beide Male ist
+der bilanzielle Ertrag außerbilanziell zu beseitigen.
+
+**Eine Anmerkung, die der Datensatz ausdrücklich als Anmerkung führt:** Beim Forderungsverzicht
+bewertet die Quelle die verdeckte Einlage mit dem **werthaltigen** Teil (600.000 € von
+1.000.000 € Nennwert), während der Buchungssatz den vollen Nennwert ausbucht. Die Differenz von
+400.000 € bleibt damit steuerpflichtiger Ertrag – das ist die bekannte Rechtsfolge des Großen
+Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.4.4 und 3.4.5
+verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
+füllen.
+
+**Noch offen:** der Rest des Kapitels 3 (ab 3.2.2: gesellschaftsrechtliche Veranlassung,
+Einlagefähigkeit, Zurechnung, Bewertung und die neun Anwendungsfälle) und das Kapitel 4 sowie
+die Skriptteile II bis VII.
