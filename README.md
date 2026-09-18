@@ -1537,6 +1537,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Tage **nach** der tatsächlichen Zustellung liegt; und eine Rechtsbehelfsbelehrung, die nur
   die Bekanntgabefiktion für einfache Briefe nennt. Der Aufgabe liegt ein Jahreskalender 2021
   bei; die maßgeblichen Tage sind im Eintrag einzeln aufgeführt und gegengeprüft.
+  Dazu kommt der **Umsatzsteuerteil** desselben Prüfungstages, der im USt-Campus unter
+  demselben Reiter steht (Bruno Bartel, BB-Baustoffhandels-GmbH und Paul Prager): drei
+  Unternehmer, deren Umsätze sich gegenseitig bedingen, über die Besteuerungszeiträume 2020
+  und 2021. Ein Dienstwagen wird im Oktober 2020 gekauft und erst im Januar 2021 übergeben.
+  Eine Weihnachtsfeier für 32 Arbeitnehmer bringt drei Rechnungen mit drei verschiedenen
+  Problemen mit – eine ordentliche Gastronomierechnung, ein Musikhonorar ganz ohne Rechnung
+  und einen österreichischen Busunternehmer. Ein Gebäude mit vier Etagen zu je 200 m² wird
+  schlüsselfertig errichtet, mit drei Abschlagszahlungen über zwei Jahre und Mietern, die
+  erst nach und nach gefunden werden – die Vorverträge datieren teils vor, teils nach den
+  einzelnen Abschlägen. Und aus einem Lagerplatz wird ein Baugebiet: fünf Einfamilienhäuser,
+  ein Turmdrehkran mit Totalschaden auf der Rückfahrt, italienische Dachziegel über zwei
+  Stationen und ein fünftes Haus, das die Tochter zur Hochzeit bekommt. Alle Beträge der
+  Quelle sind unabhängig nachgerechnet und gehen auf.
   Prüfung: `npm run check:k1-pruefungsklausuren`
 - **USt-Originalklausuren** (Klausur 1, Reiter Umsatzsteuer →
   „Originalklausuren (Prüfung)"): die Original-Prüfungsklausuren des Umsatzsteuerteils mit

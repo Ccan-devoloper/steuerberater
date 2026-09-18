@@ -25,6 +25,7 @@ import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import { ustOriginalklausuren, ustOriginalklausurenQuelle } from "../data/k1-ust-originalklausuren.js";
+import { k1Pruefungsklausuren, k1PruefungsklausurenQuelle } from "../data/k1-pruefungsklausuren.js";
 import Klausurmodus, { IconKlausur } from "./Klausurmodus";
 import {
   IconCockpit, IconModule, IconFaelle, IconSchema, IconHaken, IconTraining,
@@ -45,6 +46,7 @@ const ansichten = [
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
   { id: "uebungsklausur", label: "Übungsklausur (USt)", Icon: IconTraining },
   { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconKlausur },
+  { id: "pruefungsklausuren", label: "Prüfungsklausuren im Original", Icon: IconKlausur },
   { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "schema", label: "Prüfschema", Icon: IconSchema },
   { id: "training", label: "Training", Icon: IconTraining },
@@ -602,6 +604,22 @@ export default function K1Campus({ onKlausurwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Sachverhalte"
             einheitEinzahl="Sachverhalt"
+          />
+        )}
+        {ansicht === "pruefungsklausuren" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 1 · Umsatzsteuer · amtliche Prüfungsaufgaben"
+            titel="Prüfungsklausuren im Original – ohne Musterlösung"
+            lead="Der Umsatzsteuerteil des dritten Prüfungstages im amtlichen Wortlaut – kein fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt ist die Prüfung **2021/2022**; zu beurteilen sind die Besteuerungszeiträume 2020 und 2021. **Zu dieser Aufgabe enthält die Quelle keine Lösung**, und es wird hier ausdrücklich keine erfunden; der Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit vollständiger Musterlösung stehen. Drei Unternehmer, deren Umsätze sich gegenseitig bedingen: Ein Dienstwagen wird im Oktober 2020 gekauft und erst im Januar 2021 übergeben. Eine Weihnachtsfeier für 32 Arbeitnehmer bringt drei Rechnungen mit drei verschiedenen Problemen – eine ordentliche Gastronomierechnung, ein Musikhonorar ganz ohne Rechnung und einen österreichischen Busunternehmer. Ein Gebäude mit vier Etagen zu je 200 m² wird schlüsselfertig errichtet, mit drei Abschlagszahlungen über zwei Jahre und Mietern, die erst nach und nach gefunden werden: Drogeriemarkt, Orthopäde, Versicherungsmakler, Steuerberater und zwei Privatpersonen – die Vorverträge datieren teils vor, teils nach den einzelnen Abschlägen. Und schließlich wird aus einem Lagerplatz ein Baugebiet: fünf Einfamilienhäuser, ein Turmdrehkran mit Totalschaden auf der Rückfahrt, italienische Dachziegel über zwei Stationen, ein Dachdecker als Subunternehmer – und ein fünftes Haus, das die Tochter zur Hochzeit bekommt."
+            quelle={k1PruefungsklausurenQuelle}
+            hausaufgaben={k1Pruefungsklausuren.filter((e) => e.fach === "ust")}
+            gruppeVon={(eintrag) => eintrag.jahrgang}
+            gruppeLabel={(eintrag) => `Prüfung ${eintrag.jahrgang}`}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · Teil ${eintrag.teil}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Aufgabenteile"
+            einheitEinzahl="Aufgabenteil"
           />
         )}
         {ansicht === "originalklausuren" && (

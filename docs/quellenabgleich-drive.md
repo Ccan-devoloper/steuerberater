@@ -8794,3 +8794,53 @@ offensichtliche Setzfehler „Patenten“ ist als „Patienten“ wiedergegeben,
 Satzes andernfalls verkehrt; die übrigen Eigenheiten des Schriftsatzes – einschließlich der
 Anrede „Dr. Mannteufel“, obwohl der Sachverhalt ihn durchgehend ohne Titel führt – bleiben
 unverändert.
+
+### Amtliche Prüfungsaufgabe Verfahrensrecht 2021/2022, Teil II (Umsatzsteuer)
+
+- **Quelle:** Drive-ID `1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3`, Abschnitt „Teil II:
+  Umsatzsteuer“.
+- **Ziel:** `src/data/k1-pruefungsklausuren.js`, Eintrag `k1-pk-2021-ust-bartel` (fach
+  "ust"), neuer Reiter „Prüfungsklausuren im Original“ im USt-Campus. Prüfung:
+  `npm run check:k1-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; zu beurteilen sind die Besteuerungszeiträume **2020
+  und 2021**.
+
+**Die allgemeinen Hinweise sind hier selbst Prüfungsstoff.** Der Aufgabenteil beginnt mit
+zwei Seiten Vorgaben, die vollständig übernommen sind, weil sie über die Bearbeitung
+entscheiden: Einfuhrumsatzsteuer ausgenommen, Bemessungsgrundlage für die private Nutzung von
+Gebäudeteilen gegebenenfalls nicht zu ermitteln, Zuordnung gemischt genutzter
+Wirtschaftsgüter zum Unternehmen vorgegeben, geplante Verwendung gleich tatsächliche, alle
+Orte im Inland, Firmenwagenüberlassung nach lohnsteuerlichen Werten. Besonders zu beachten:
+**Für das gesamte Kalenderjahr 2020 ist vereinfachend von 19 % und 7 % auszugehen** – die
+befristete Steuersatzsenkung des zweiten Halbjahres 2020, die im Bilanz-Prüfungstag desselben
+Jahrgangs eine Rolle spielt, ist hier ausdrücklich ausgeklammert.
+
+**Unabhängig nachgerechnet – die Zahlen der Quelle gehen auf:**
+
+| Rechenschritt | Nachrechnung | Quelle |
+| --- | --- | --- |
+| Rabatt auf den Bruttolistenpreis | 39.270,00 ./. 10 % = 35.343,00 € | 29.700,00 + 5.643,00 = 35.343,00 € |
+| Umsatzsteuer auf den Kaufpreis | 19 % von 29.700,00 = 5.643,00 € | 5.643,00 € |
+| Abschlagszahlungen brutto | 83.300,00 + 142.800,00 + 107.100,00 = 333.200,00 € | 333.200,00 € |
+| Endrechnung | 952.000,00 ./. 333.200,00 = 618.800,00 € | 618.800,00 € |
+| Weihnachtsfeier gesamt | 1.800,00 + 700,00 + 400,00 = 2.900,00 € für 32 Arbeitnehmer | – |
+| Nutzfläche des Gebäudes | 4 Etagen × 200 m² = 800 m² | 800 m² |
+
+**Was im Lösungsabschnitt steht und was nicht.** Der Eintrag gibt die Flächen, die Mieter und
+die Daten der vier Vorverträge (14.09.2020, 13.01.2021, 21.04.2021, 14.06.2021) wieder und
+hält fest, dass sie teils vor, teils nach den einzelnen Abschlagszahlungen liegen. Welche
+Folgerungen daraus für die Option nach § 9 UStG und für den Vorsteuerabzug zu ziehen sind,
+steht dort ausdrücklich **nicht** – das ist die Aufgabe, und eine eigene Lösung wird nicht
+erfunden.
+
+**Eigene Feststellungen – wortlautgetreu übernommen und gekennzeichnet:**
+
+1. **Zwei Schreibweisen der Straße:** „Wendelsein Str. 20“ in Textziffer 4.1, danach
+   durchgehend „Wendelstein Str. 20“.
+2. **Zwei Schreibweisen des italienischen Herstellers:** „Rosse aus Turin“ bei der Bestellung,
+   „Rechnung von Rossi“ bei der Abrechnung – gemeint ist dasselbe Unternehmen.
+3. **Zwei Schreibweisen der GmbH:** „BB-Baustoffhandels-GmbH“ im Kopf des Sachverhalts und in
+   der Aufgabenstellung, „BB-Baustoffhandel-GmbH“ in Textziffer 4.3.
+4. **Weitere Eigenheiten, unverändert übernommen:** „dass Bartel … Abschlagszahlungen
+   erstellen sollte“ (gemeint sind Abschlagsrechnungen); „Weitere Abschlagszahlungen ergingen“;
+   „Transport mit Bussen mit über 48 Kubikzentimetern Hubraum“; „Die Rechnung des Minori“.
