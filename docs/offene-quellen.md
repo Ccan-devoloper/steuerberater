@@ -95,9 +95,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   § 153 AO einschließlich des Erbfalls; ebenso der Teil III mit dem zusammenfassenden
   Übungsfall zur Gaststätten- und Großküchen GmbH; aus dem Teil IV sind der Überblick zur
   Selbstanzeige nach § 371 AO, die Berichtigungserklärung und der Zehnjahreszeitraum samt
-  Beispielen eingepflegt. Offen sind daraus noch die Sperrgründe des § 371 Abs. 2 AO im
-  Einzelnen, die Nachzahlungspflicht des § 371 Abs. 3 AO und der Zuschlag nach § 398a AO
-  sowie der gesamte **Abschnitt 15** (Vollstreckungsrecht).
+  Beispielen sowie die Sperrgründe des § 371 Abs. 2 AO einschließlich des Zuschlags nach
+  § 398a AO eingepflegt. Offen sind daraus noch die Teilselbstanzeige bei Umsatzsteuer- und
+  Lohnsteueranmeldungen nach § 371 Abs. 2a AO und die Nachzahlungspflicht des § 371 Abs. 3
+  AO sowie der gesamte **Abschnitt 15** (Vollstreckungsrecht).
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript

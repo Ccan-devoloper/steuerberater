@@ -2487,3 +2487,35 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   **18.000 €**, für 2017 allein **8.000 €**; im Fall 2 ergeben drei
   Einkommensteuerhinterziehungen und eine Erbschaftsteuerhinterziehung **vier**
   selbständige Taten.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 9)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Teil IV, Tz. 2.1 bis 2.11.
+- Einpflege dieses Durchgangs: zwei Kapitel – die Sperrgründe des § 371 Abs. 2 AO von der
+  Prüfungsanordnung bis zur Nachschau sowie Tatentdeckung, 25.000-Euro-Grenze und der
+  Zuschlag nach § 398a AO. Das Skript umfasst damit 10 Teile, 105 Kapitel, 2.233 Blöcke und
+  206 Tabellen; Prüfung `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: die Teilselbstanzeige bei Umsatzsteuer- und
+  Lohnsteueranmeldungen nach § 371 Abs. 2a AO, die Nachzahlungspflicht des § 371 Abs. 3 AO
+  und der gesamte Abschnitt 15 (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt; die im Rohtext enthaltenen
+  Verweislinks auf kostenpflichtige Fachportale sind nicht übernommen worden.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 23, Tz. 2.1: doppeltes „oder“ in der Aufzählung; ferner die verkürzte
+    Fundstelle „§ 371 Abs. 2 Satz 1a AO“ statt Satz 1 Nr. 1a.
+  - Kapitel 23, Tz. 2.5: „so das mit der steuerlichen Prüfung nur die Außenprüfung … gemeint
+    ist“.
+  - Kapitel 24, Übungsfall: „bei einer Bank **In** Luxemburg“; in Variante II „ist vom FA
+    **ist** bisher nicht erfolgt“.
+  - Kapitel 24, § 398a AO: Die Überschrift spricht von „**Strafanklageverbrauch**“, der Text
+    von „Strafklageverbrauch“; ferner „tritt das Absehen von **Strafbefreiung** aus anderen
+    Gründen nicht … ein“, wo es um das Absehen von der Strafverfolgung geht.
+
+  Nachgerechnet und zutreffend: die Zuschlagstaffel des § 398a AO (bis 25.000 € kein
+  Zuschlag, über 25.000 bis 100.000 € zehn Prozent, über 100.000 € bis 1 Mio. fünfzehn
+  Prozent, darüber zwanzig Prozent) und ihre Anwendung im Beispiel – die Mehrsteuer von
+  120.000 € fällt in die dritte Stufe, der Zuschlag von **15 %** ist zutreffend.

@@ -266,7 +266,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   samt Abwandlung für nicht abgegebene Erklärungen, sowie zwei Beispiele zum
   Vollständigkeitsgebot: die verschwiegene zweite Bank, bei der die Teilselbstanzeige auch
   für den offenbarten Teil keine Straffreiheit bringt, und die verschwiegene Erbschaft, bei
-  der die getrennte Betrachtung der Steuerarten eine zweite Selbstanzeige offenhält.
+  der die getrennte Betrachtung der Steuerarten eine zweite Selbstanzeige offenhält. Es
+  folgen die Sperrgründe des § 371 Abs. 2 AO im Einzelnen: die Prüfungsanordnung nach
+  Nr. 1a, die für alle Tatbeteiligten wirkt, auch wenn sie davon nichts wissen, ihr
+  sachlich und zeitlich beschränkter Umfang mit der dadurch möglichen Teilselbstanzeige und
+  ihr Wiederaufleben nach Bekanntgabe der Änderungsbescheide, die Einleitung des
+  Straf- oder Bußgeldverfahrens nach Nr. 1b, das Erscheinen des Amtsträgers zur Prüfung
+  (Nr. 1c), zur Ermittlung einer Steuerstraftat (Nr. 1d) und zur Nachschau (Nr. 1e), die
+  Tatentdeckung nach Nr. 2 mit objektiver und subjektiver Seite und dem Übungsfall
+  Sparstrumpf in drei Varianten sowie die 25.000-Euro-Grenze der Nr. 3 mit den gestaffelten
+  Zuschlägen des § 398a AO (10, 15 und 20 Prozent) und der schwere Fall nach Nr. 4.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
