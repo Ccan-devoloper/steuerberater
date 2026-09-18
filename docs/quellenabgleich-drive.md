@@ -5823,3 +5823,54 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   § 202 Abs. 1 Nr. 2b nennt. Die Zeile zum pauschalen Ertragsteueraufwand nennt „§ 202
   Abs. **4** BewG“, obwohl der erläuternde Text unmittelbar davor richtig § 202 Abs. 3 BewG
   anführt. Und im 90-Prozent-Test heißt es „Anteile DAX-**GmbH**“ statt DAX-AG.
+
+## ErbSt-Fallsammlung 4. Fachtermin – Klausur „Walter Olfmann“
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), achte Klausur.
+- Einpflege dieses Durchgangs: die Klausur als dreizehnter Übungsfall; der Datensatz
+  umfasst jetzt 13 Übungsfälle, 441 Blöcke und 81 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Beide Teillösungen sind Zeile für Zeile nachgerechnet; beide gehen auf** –
+  einschließlich der Aufteilung der 32.500 €, deren vier Teilbeträge sich exakt zu dieser
+  Summe addieren. Die Ehefrau zahlt **82.845 €**, der Geschäftsführer **20.858 €**.
+
+  **Das Vermächtnis verschiebt die Verschonung von der Erbin auf den Vermächtnisnehmer.**
+  Bei der Ehefrau ist der GmbH-Anteil nach § 13a Abs. 5 S. 1 ErbStG nicht begünstigt, weil
+  sie ihn weitergeben muss – er steht mit vollen 1.136.480 € im Vermögensanfall und wird in
+  genau derselben Höhe als Vermächtnislast wieder abgezogen, neutralisiert sich also; sein
+  Nettowert in der Aufteilungstabelle beträgt folgerichtig 0 €. Beim Geschäftsführer greift
+  dieselbe Verschonung dann in voller Höhe. Das ist die praktische Umsetzung dessen, was
+  der Skriptteil 2 in seiner Tz. 13 abstrakt formuliert.
+
+  **Eine Feinheit der Tarifbegrenzung, die die Quelle ohne Kommentar mitführt:** In der
+  fiktiven Steuer der Steuerklasse I ist der **Härteausgleich mitgerechnet** – 79.400 €
+  überschreiten die Wertgrenze von 75.000 € um 4.400 €, die Mehrsteuer von 3.484 € wird auf
+  2.200 € begrenzt, so dass 7.450 € statt 8.734 € anzusetzen sind. Erst dieser Betrag wird
+  mit der Quote multipliziert. Wer den Härteausgleich hier übersieht, erhält einen um rund
+  230 € zu hohen Entlastungsbetrag. In der tatsächlichen Steuerklasse III gibt es dagegen
+  keinen Tarifsprung.
+
+  **Fund zur Bauart der Sammlung: Diese Klausur und „Backhaus“ sind Varianten desselben
+  Falls.** Beide Erblasser versterben am 10.3.2025, beide Ehefrauen sind am 7.1.1951 geboren
+  und damit 74 Jahre alt, beide Nachlässe enthalten dasselbe Mietwohngrundstück in Neuss mit
+  identischen Werten (796.336 €) – dasselbe übrigens, das auch in der Klausur „Engelkamp“
+  steht –, und beide Lösungen teilen nicht zuzuordnende Schulden nach Nettowerten auf. Das
+  erklärt zugleich einen im vorangegangenen Durchgang dokumentierten Fehler: In der
+  Nettowerttabelle von Backhaus steht „EFH **Düsseldorf**“, obwohl das Haus dort in
+  Recklinghausen liegt – hier in Olfmann liegt es tatsächlich in Düsseldorf. Die Zeile ist
+  offenbar aus dieser Klausur übernommen worden.
+
+  **Das Familienheim zeigt hier die Gegenrichtung zu Backhaus:** Weil es nach
+  § 13 Abs. 1 Nr. 4b ErbStG steuerfrei bleibt, sind sowohl die Hypothek von 43.500 €
+  (§ 10 Abs. 6 S. 1 ErbStG) als auch der auf das Haus entfallende Anteil der nicht
+  zuzuordnenden Schulden von 2.670 € (§ 10 Abs. 6a S. 7 ErbStG) nicht abziehbar. In
+  Backhaus verliert die Witwe die Befreiung durch den Verkauf und kann beides abziehen.
+
+  Stelle, an der die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet: In der Aufteilungszeile für die übrigen Vermögensgegenstände steht
+  „32.500 € × 281.000 € **×** 4.035.136 €“ statt einer Division – **derselbe Fehler wie in
+  der Schwesterklausur Backhaus**, was die gemeinsame Herkunft beider Texte zusätzlich
+  belegt. Gerechnet ist, wie das Ergebnis von 2.263 € und die Summe von genau 32.500 €
+  zeigen, richtig geteilt.

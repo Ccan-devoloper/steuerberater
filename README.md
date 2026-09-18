@@ -132,7 +132,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Vermögens (2.171.270 €), Substanzwert als Mindestwert (981.370 €) und der vollständige
   Verschonungsblock bis zur Erbschaftsteuer von 66.600 €. Die drei Mieten zeigen dabei die
   drei Fälle des § 186 BewG nebeneinander, und die betriebsnotwendige 20-Prozent-Beteiligung
-  wird je nach Rechenweg dreimal unterschiedlich behandelt.
+  wird je nach Rechenweg dreimal unterschiedlich behandelt. Als neunter Fall die Klausur
+  **„Walter Olfmann"**, in der ein vermachter GmbH-Anteil die Verschonung von der Erbin auf
+  den Vermächtnisnehmer verschiebt: Bei ihr ist er nach § 13a Abs. 5 Satz 1 ErbStG nicht
+  begünstigt und neutralisiert sich zwischen Vermögensanfall und Vermächtnislast, bei ihm
+  greift die Verschonung voll. In der fiktiven Steuer der Steuerklasse I ist dabei der
+  Härteausgleich mitzurechnen – eine Feinheit, die die Quelle ohne Kommentar mitführt
+  (Steuer 82.845 € bzw. 20.858 €).
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

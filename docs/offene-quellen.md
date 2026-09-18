@@ -226,8 +226,8 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   `src/data/k1-erbst-fallsammlung.js`, als neuer Block „Klausuren und Übungsaufgaben ·
   4. Fachtermin“; dazu die sieben Einzelfälle zum begünstigungsfähigen Vermögen des
   § 13b Abs. 1 ErbStG und die Übungsklausuren **Engelkamp**, **Kurt Glücklich** und
-  **Morgenrot** und **Müller GmbH**. Offen sind die übrigen zwei Klausuren
-  (Walter Olfmann und Paul Pollmann).
+  **Morgenrot**, **Müller GmbH** und **Walter Olfmann**. Offen ist nur noch
+  die Übungsaufgabe **Paul Pollmann** (Schenkung unter Lebenden).
 - **ErbStR, 4. und 5. Einheit** – im Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` liegen seit
   September 2026 vier weitere Dateien („ErbStR, 4. Einheit_Teil 1“ und „ErbStR. 4.
   Einheit_Teil 2“, „ErbStR, 5. Einheit_Teil 1“ und „ErbSt, 5 Einheit - Teil 2“). Der Campus
