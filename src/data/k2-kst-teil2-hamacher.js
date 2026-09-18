@@ -15,9 +15,9 @@
    die Mindestbeteiligungsquote und die Kapitalertragsteuer bis zur
    Betriebsausgabenpauschalierung und der gesamten gewerbesteuerlichen
    Behandlung. Aus Kapitel 3 (Veräußerungsgewinne) ist der Grundfall der
-   Veräußerung übernommen (3.1 und 3.2.1). Es folgen der weite
-   Veräußerungsbegriff (3.2.2) und die Abschnitte 3.3 bis 3.5 sowie die
-   Kapitel 4 bis 6; der Campus weist den Stand aus.
+   Veräußerung übernommen (3.1 und 3.2.1), dazu der weite Veräußerungsbegriff bis
+   zur Einlagenrückgewähr (3.2.2.1 bis 3.2.2.3). Es folgen die Abschnitte ab
+   3.2.2.4 und die Kapitel 4 bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -730,6 +730,103 @@ export const kstTeil2 = [
       ] },
       { text: "Rechenproben (eigene Ergänzung): Der Veräußerungsgewinn beträgt 1.000.000 € ./. 500.000 € Buchwert ./. 50.000 € Veräußerungskosten = 450.000 €; die Pauschale sind 5 % davon = 22.500 €. Die Probe auf das Gesamtergebnis: Über beide Jahre hinweg bleibt genau die Pauschale von 22.500 € übrig – die 50.000 € Veräußerungskosten heben sich zwischen den Jahren auf, und der Veräußerungsgewinn wird vollständig freigestellt." },
       { text: "Anmerkung zur Technik der Verschiebung (eigene Ergänzung): Der Fall zeigt eine Besonderheit, die beim ersten Lesen verwirrt: Derselbe Betrag von 50.000 € wird in 2025 hinzugerechnet und in 2026 abgezogen, obwohl er in 2026 bilanziell gar nicht angefallen ist. Der Grund liegt in der Formel des § 8b Abs. 2 Satz 2 KStG – sie verlangt den Abzug der Veräußerungskosten vom Veräußerungspreis, unabhängig davon, wann sie gebucht wurden. Die beiden außerbilanziellen Korrekturen verschieben den Aufwand also nur rechnerisch in das Jahr, in dem die Formel ihn braucht. Wirtschaftlich ändert sich dadurch nichts, weil er ohnehin im steuerfreien Gewinn aufgeht; die Verschiebung wirkt sich allein über die um 2.500 € niedrigere Pauschale aus (5 % von 50.000 €)." },
+    ],
+  },
+  {
+    id: "kst-t2-20",
+    kapitel: "20",
+    abschnittNr: "3.2.2 und 3.2.2.1",
+    title: "3.2.2 Weiter Veräußerungsbegriff – 3.2.2.1 Verdeckte Einlage von Anteilen",
+    thema: "§ 8b Abs. 2 Satz 3 KStG erstreckt die Steuerfreiheit auf alles, was einer Veräußerung wirtschaftlich gleichkommt. Erster Fall: Legt eine Kapitalgesellschaft Anteile verdeckt ein, ist der dabei realisierte Gewinn nach Satz 6 ebenso steuerfrei – Satz 6 begründet dabei keine eigene Besteuerungsnorm",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 3.2.2 und 3.2.2.1 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "§ 8b Abs. 2 Satz 1 KStG", "§ 8b Abs. 2 Satz 2 KStG",
+      "§ 8b Abs. 2 Satz 3 KStG", "§ 8b Abs. 2 Satz 6 KStG", "§ 8b Abs. 3 Satz 1 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG", "§ 6 Abs. 6 Satz 2 EStG",
+    ],
+    themen: ["Weiter Veräußerungsbegriff", "Verdeckte Einlage von Anteilen", "Gewinnrealisierung", "Keine eigene Besteuerungsnorm"],
+    bloecke: [
+      { text: "Der Veräußerungsbegriff i. S. des § 8b Abs. 2 KStG ist zudem weit auszulegen. Neben der klassischen Veräußerung i. S. des Satzes 1 können auch andere Sachverhalte, die einer Veräußerung wirtschaftlich gleichzusetzen sind, zur Anwendung des § 8b Abs. 2 KStG führen. Dies ergibt sich aus § 8b Abs. 2 Satz 3 KStG. Dazu gehören insbesondere folgende Vorgänge:" },
+      { typ: "titel", text: "3.2.2.1 Verdeckte Einlage von Anteilen" },
+      { text: "Überträgt eine Kapitalgesellschaft einen Gesellschaftsanteil im Rahmen einer verdeckten Einlage, führt dies bei ihr bereits nach den Grundsätzen des § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 6 Satz 2 EStG zu einer Gewinnrealisierung. Der daraus resultierende Gewinn ist nach § 8b Abs. 2 Satz 6 KStG i. V. mit § 8b Abs. 2 Satz 1 KStG steuerfrei. Satz 6 gibt dabei lediglich zu verstehen, dass die verdeckte Einlage „auch“ zu einem Veräußerungsvorgang führt, ohne dadurch eine eigene Besteuerungsnorm zu begründen. Der für Zwecke dieser Vorschrift maßgebliche Gewinn ermittelt sich ebenfalls nach § 8b Abs. 2 Satz 2 KStG und damit auch unter Berücksichtigung etwaiger Veräußerungskosten." },
+      { text: "Merke: Entsteht einer Kapitalgesellschaft im Zusammenhang mit der Übertragung einer Beteiligung im Rahmen einer verdeckten Einlage ein Gewinn, gilt dieser bei der einlegenden Gesellschaft ebenfalls als Veräußerungsgewinn i. S. des § 8b Abs. 2 KStG." },
+      { text: "Beispiel: Die F-GmbH ist zu 50 % an der K-GmbH beteiligt. In 2026 überträgt sie der K-GmbH unentgeltlich eine 40%ige Beteiligung an der D-GmbH (Buchwert: 100.000 €; Teilwert: 200.000 €)." },
+      { text: "Lösung: Die verdeckte Einlage der Beteiligung ist bei der F-GmbH mit dem Teilwert von 200.000 € zu bewerten (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG, § 6 Abs. 6 Satz 2 EStG). Der dadurch ausgelöste Gewinn von 100.000 € ist nach § 8b Abs. 2 Satz 6 i. V. mit Satz 1 KStG steuerfrei. Durch die verdeckte Einlage erhöhen sich gleichzeitig die Anschaffungskosten der an der K-GmbH um 200.000 €. Im Rahmen der Buchführung ist der Vorgang daher wie folgt zu buchen: Beteiligung K-GmbH 200.000 € an Beteiligung D-GmbH 100.000 € und Ertrag 100.000 €; auf der zweiten Stufe der Einkommensermittlung Abzug nach § 8b Abs. 2 KStG von 100.000 €. Gleichzeitig entstehen nicht abziehbare Betriebsausgaben von 5.000 € (§ 8b Abs. 3 Satz 1 KStG). (Das fehlende Wort „Beteiligung“ in „die Anschaffungskosten der an der K-GmbH“ steht so in der Quelle.)" },
+      { text: "Anmerkung zur Verbindung mit Teil I (eigene Ergänzung): Der Fall ist die körperschaftsteuerliche Fortsetzung des Abschnitts 3.7.2.3 aus Teil I, wo die verdeckte Einlage durch eine Anteilseigner-Kapitalgesellschaft behandelt wird. Dort endete die Betrachtung bei der Aufdeckung der stillen Reserven – hier kommt die Rechtsfolge hinzu: Ist der Einlagegegenstand selbst eine **Beteiligung**, bleibt der aufgedeckte Gewinn nach § 8b Abs. 2 KStG steuerfrei. Der Hinweis der Quelle, dass Satz 6 keine eigene Besteuerungsnorm begründet, ist dabei mehr als eine Feinheit: Die Gewinnrealisierung folgt bereits aus § 6 Abs. 6 Satz 2 EStG, Satz 6 ordnet den so entstandenen Gewinn nur dem Anwendungsbereich des Absatzes 2 zu." },
+      { text: "Rechenprobe (eigene Ergänzung): Teilwert 200.000 € ./. Buchwert 100.000 € = 100.000 € Gewinn; davon 5 % = 5.000 € nicht abziehbare Betriebsausgaben. Im Ergebnis bleiben von dem Vorgang genau diese 5.000 € im Einkommen." },
+    ],
+  },
+  {
+    id: "kst-t2-21",
+    kapitel: "21",
+    abschnittNr: "3.2.2.2",
+    title: "3.2.2.2 Veräußerungsgewinn durch verdeckte Gewinnausschüttung",
+    thema: "Überträgt eine Gesellschaft Anteile verbilligt an ihren Gesellschafter, erhöht § 8 Abs. 3 Satz 2 KStG ihr Einkommen um den Unterschied zum gemeinen Wert – und genau dieser Betrag ist zugleich nach § 8b Abs. 2 KStG steuerfrei. Ob dann noch Raum für die materielle Korrespondenz bleibt, ist umstritten",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 3.2.2.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG", "§ 8 Abs. 3 Satz 5 KStG",
+      "§ 8b Abs. 1 Satz 1 KStG", "§ 8b Abs. 1 Satz 2 KStG",
+      "§ 8b Abs. 2 Satz 1 KStG", "§ 8b Abs. 2 Satz 2 KStG",
+      "§ 8b Abs. 3 Satz 1 KStG", "§ 8b Abs. 4 Satz 1 KStG", "§ 8b Abs. 5 Satz 1 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "BMF vom 28.04.2003, BStBl. I 2003, 292, Tz. 21",
+      "BMF vom 18.11.2020, BStBl. I 2020, 1226",
+      "Herlinghaus in Rödder/Herlinghaus/Neumann, KStG § 8b Rz. 142",
+      "Pung in Dötsch/Pung/Möhlenbrock, KStG § 8b Rz. 93",
+    ],
+    themen: ["Verdeckte Gewinnausschüttung", "Gemeiner Wert als Veräußerungspreis", "Verbrauchstheorie", "Materielle Korrespondenz", "Streitfrage"],
+    bloecke: [
+      { text: "Überträgt eine Kapitalgesellschaft ihrem Anteilseigner bzw. eine diesem nahe stehende Person verbilligt oder unentgeltlich einen Anteil an einer anderen Kapitalgesellschaft, führt dies bei ihr zu einer verdeckten Gewinnausschüttung. Daraus ergibt sich im Rahmen der Einkommensermittlung bereits eine Gewinnkorrektur i. S. des § 8 Abs. 3 Satz 2 KStG in Höhe des gemeinen Wertes, wodurch der eingetretene Vermögensnachteil beseitigt wird. Entsteht daraus eine Veräußerungsgewinn, wofür im Rahmen der Gewinnermittlung des § 8b Abs. 2 Satz 2 KStG der gemeine Wert als Veräußerungspreis gilt, kommt wiederum § 8b Abs. 2 Satz 1 KStG zur Anwendung. (Der Genusfehler „eine Veräußerungsgewinn“ steht so in der Quelle.)" },
+      { text: "Beim Anteilseigner unterliegt die verdeckte Gewinnausschüttung als Bezug i. S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG dem Teileinkünfteverfahren bzw. § 8b Abs. 1 KStG. Sollte die verdeckte Gewinnausschüttung bei der leistenden Gesellschaft nicht berücksichtigt worden sein, stellt sich die Frage der Anwendung der materiellen Korrespondenzregelung (siehe unter 2.1.2). Diese Rechtsfrage ist aber umstritten. In der Fachliteratur wird diesbezüglich die Rechtsauffassung vertreten, dass diese Regelung aufgrund der tatsächlichen Nichtberücksichtigung des Sachverhaltes bei der Einkommensermittlung angewendet werden muss, obwohl der Vorgang aufgrund der unmittelbar nachfolgenden Anwendung des § 8b Abs. 2 KStG bei der leistenden Gesellschaft eigentlich zu keinem Einkommensschaden geführt hat. M. E. muss man aber aufgrund der „soweit-Verknüpfung“ im gesetzlichen Tatbestand insgesamt die tatsächliche Einkommensauswirkung bei der leistenden Gesellschaft berücksichtigen, so dass die Anwendung der materiellen Korrespondenz mangels eines Einkommensschadens verneint werden muss. Denn selbst bei Anwendung des § 8 Abs. 3 Satz 2 KStG hätte sich reflexartig ein Tatbestand des § 8b Abs. 2 KStG ergeben." },
+      { text: "Merke: Entsteht bei der Übertragung einer Beteiligung im Rahmen einer verdeckten Gewinnausschüttung der leistenden Gesellschaft ein Gewinn, ist auf diesen die Steuerfreiheit des § 8b Abs. 2 KStG anzuwenden." },
+      { text: "Beispiel: Die Z-GmbH veräußert eine 15%ige Beteiligung (Buchwert: 100.000 €, gemeiner Wert: 500.000 €) für 100.000 € an ihren alleinigen Anteilseigner (M-GmbH). Es sind Veräußerungskosten von 10.000 € angefallen (Buchung: Bank an Beteiligung 100.000 € und Aufwand an Bank 10.000 €). Der Jahresüberschuss beträgt somit ./. 10.000 €." },
+      { text: "Lösung: Bei der Z-GmbH kommt es aufgrund der bei der Anteilsveräußerung eingetretenen verhinderten Vermögensmehrung von 400.000 € (gemeiner Wert 500.000 € ./. Zahlung 100.000 €) zu einer verdeckten Gewinnausschüttung (§ 8 Abs. 3 Satz 2 KStG). Das Einkommen ist daher um diesen Betrag zu erhöhen." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung der Z-GmbH", "Betrag"], zeilen: [
+        ["Jahresüberschuss bisher", "./. 10.000 €"],
+        ["+ verdeckte Gewinnausschüttung (§ 8 Abs. 3 Satz 2 KStG)", "+ 400.000 €"],
+        ["= Zwischensumme", "390.000 €"],
+        ["./. § 8b Abs. 2 KStG", "./. 390.000 €"],
+        ["+ § 8b Abs. 3 Satz 1 KStG", "+ 19.500 €"],
+        ["= zu versteuerndes Einkommen", "19.500 €"],
+      ] },
+      { text: "Dadurch wird der Veräußerungsgewinn erfasst, der auch bei einer Veräußerung zu einem angemessenen Preis entstanden wäre. Der hierfür maßgebliche Veräußerungsgewinn i. S. des § 8b Abs. 2 Satz 1 KStG beträgt nach den Grundsätzen des § 8b Abs. 2 Satz 2 KStG 390.000 € (500.000 € ./. 100.000 € ./. 10.000 €). Es entstehen gleichzeitig nicht abziehbare Ausgaben von 19.500 € (§ 8b Abs. 3 Satz 1 KStG)." },
+      { text: "Beim Anteilseigner ist die Beteiligung mit dem angemessenen Wert von 500.000 € zu bilanzieren, da die verdeckte Gewinnausschüttung nach der sog. Verbrauchstheorie zu nachträglichen Anschaffungskosten von 400.000 € führt. Die verdeckte Gewinnausschüttung von 400.000 € ist nach § 8b Abs. 1 KStG steuerfrei (Buchung: Beteiligung 500.000 € an Bank 100.000 € und Ertrag 400.000 €), weil auch die Streubesitzregelung des § 8b Abs. 4 Satz 1 KStG dem nicht entgegensteht. Aufgrund der steuerfreien Gewinnausschüttung entstehen diesem auch nicht abziehbare Ausgaben von 20.000 € (§ 8b Abs. 5 Satz 1 KStG)." },
+      { text: "Hinweis: Wäre bei der Z-GmbH keine Einkommenshinzurechnung erfolgt, müsste die verdeckte Gewinnausschüttung bei der M-GmbH i. H. von 400.000 € m. E. unverändert nach § 8b Abs. 1 Satz 1 KStG steuerfrei gestellt werden. Denn ein Anwendungsfall des § 8b Abs. 1 Satz 2 KStG dürfte nicht gegeben sein, weil sich das Einkommen der Z-GmbH trotz Nichtanwendung des § 8 Abs. 3 Satz 2 KStG letztlich nicht gemindert hat. Denn auch ohne Erfassung der verdeckten Gewinnausschüttung i. S. des § 8 Abs. 3 Satz 2 KStG wäre aufgrund der Anwendung des § 8b Abs. 2 KStG kein Einkommensschaden entstanden. Diese Auslegung ist aber umstritten." },
+      { text: "Einordnung der Streitfrage (eigene Anmerkung): Die Quelle vertritt hier eine eigene, ausdrücklich als umstritten bezeichnete Auffassung und begründet sie mit der „soweit“-Verknüpfung des § 8b Abs. 1 Satz 2 KStG. Der Kern des Streits lässt sich so fassen: Die Gegenauffassung stellt darauf ab, dass der Sachverhalt bei der leistenden Gesellschaft **tatsächlich** nicht erfasst wurde; die Quelle stellt darauf ab, dass eine Erfassung **im Ergebnis nichts geändert hätte**, weil die verdeckte Gewinnausschüttung reflexartig einen nach § 8b Abs. 2 KStG steuerfreien Veräußerungsgewinn ausgelöst hätte. Für die Klausur ist beides vertretbar, solange die Begründung steht – der Datensatz gibt die Auffassung der Quelle wieder und weist auf die Gegenansicht hin, ohne die Frage zu entscheiden." },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf und sind untereinander stimmig. Verdeckte Gewinnausschüttung 500.000 € ./. 100.000 € = 400.000 €; Zwischensumme ./. 10.000 € + 400.000 € = 390.000 €; Veräußerungsgewinn 500.000 € ./. 100.000 € Buchwert ./. 10.000 € Veräußerungskosten = 390.000 € – beide Wege führen zum selben Betrag, was kein Zufall ist, sondern zeigt, dass die Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG genau den Veräußerungsgewinn herstellt, der bei angemessenem Preis entstanden wäre. Pauschale 5 % von 390.000 € = 19.500 €; beim Anteilseigner 5 % von 400.000 € = 20.000 €. Bemerkenswert ist, dass die beiden Pauschalen unterschiedlich hoch sind: Die Gesellschaft rechnet vom Veräußerungsgewinn **nach** Abzug der Veräußerungskosten, der Gesellschafter vom vollen Bezug." },
+    ],
+  },
+  {
+    id: "kst-t2-22",
+    kapitel: "22",
+    abschnittNr: "3.2.2.3",
+    title: "3.2.2.3 Ausschüttungen aus dem steuerlichen Einlagekonto (§ 27 KStG)",
+    thema: "Die Einlagenrückgewähr ist kein Bezug und deshalb kein Fall des § 8b Abs. 1 KStG. Sie mindert zunächst die Anschaffungskosten der Beteiligung – erst was den Buchwert übersteigt, ist als Veräußerungsgewinn nach § 8b Abs. 2 Satz 1 KStG steuerfrei",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 3.2.2.3 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 2 Satz 1 KStG",
+      "§ 27 KStG", "§ 27 Abs. 1 Satz 4 KStG", "§ 27 Abs. 3 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 3 EStG",
+      "BFH vom 28.10.2009, BStBl. II 2011, 898", "BFH vom 29.06.1995, BStBl. II 1995, 725",
+      "H 8b KStH „Ausschüttungen aus dem steuerlichen Einlagekonto“",
+    ],
+    themen: ["Einlagenrückgewähr", "Verwendungsreihenfolge", "Minderung der Anschaffungskosten", "Ausschüttungsbescheinigung"],
+    bloecke: [
+      { text: "Als Veräußerungsgewinn i. S. des § 8b Abs. 2 Satz 1 KStG gelten auch Gewinnausschüttungen, die nach der Verwendungsreihenfolge des § 27 Abs. 1 Satz 4 KStG zu einer Verwendung des steuerlichen Einlagekontos (§ 27 KStG) führen. Die Auskehrung des steuerlichen Einlagekontos führt beim Anteilseigner dementsprechend nach § 20 Abs. 1 Nr. 1 Satz 3 EStG zu keinen Bezügen, so dass § 8b Abs. 1 KStG hierauf nicht angewendet werden kann. Diese sog. Einlagenrückgewähr führt beim Anteilseigner vielmehr zu einer Reduzierung der Anschaffungskosten seiner Beteiligung. Überschreitet die Auskehrung hingegen den Beteiligungsbuchwert, ist der Gewinn nach § 8b Abs. 2 Satz 1 KStG steuerfrei." },
+      { text: "In Fällen der Ausschüttung aus dem steuerlichen Einlagekonto hat die ausschüttende Gesellschaft eine Ausschüttungsbescheinigung i. S. des § 27 Abs. 3 KStG zu erteilen." },
+      { typ: "tabelle", spalten: ["Höhe der Einlagenrückgewähr", "Behandlung beim Anteilseigner", "Rechtsgrundlage"], zeilen: [
+        ["bis zur Höhe des Beteiligungsbuchwerts", "erfolgsneutrale Minderung der Anschaffungskosten – kein Bezug, keine Anwendung des § 8b Abs. 1 KStG", "§ 20 Abs. 1 Nr. 1 Satz 3 EStG"],
+        ["soweit der Buchwert überschritten wird", "Gewinn, steuerfrei als Veräußerungsgewinn", "§ 8b Abs. 2 Satz 1 KStG"],
+      ] },
+      { text: "Anmerkung zur Tabelle und zur Systematik (eigene Ergänzung): Sie ordnet die zweistufige Behandlung, die die Quelle in einem Absatz zusammenfasst. Der Fall ist die Auflösung einer Frage, die im Abschnitt 2.1.1.3 offengeblieben war: Dort hatte die Quelle die Einlagenrückgewähr aus § 8b Abs. 1 KStG ausgenommen und auf diese Stelle verwiesen. Die Begründung ist in beiden Abschnitten dieselbe – es fehlt schon am **Bezug** i. S. des § 20 Abs. 1 Nr. 1 EStG, weil Satz 3 die Auskehrung ausdrücklich ausnimmt. Wirtschaftlich ist das folgerichtig: Zurückgezahlt wird, was der Gesellschafter selbst eingelegt hat, und das ist kein Ertrag, sondern eine Rückzahlung. Erst wenn mehr zurückfließt, als die Beteiligung wert ist, entsteht ein Gewinn – und der wird behandelt wie ein Veräußerungsgewinn, weil die Einlagenrückgewähr insoweit einer teilweisen Veräußerung der Beteiligung gleichkommt." },
+      { text: "Hinweis zur Ausschüttungsbescheinigung (eigene Ergänzung): Der kurze Schlusssatz der Quelle hat erhebliche praktische Bedeutung. Ohne die Bescheinigung nach § 27 Abs. 3 KStG kann der Anteilseigner die Einlagenrückgewähr nicht als solche behandeln – die Auskehrung gilt dann als gewöhnliche Gewinnausschüttung. Die Bescheinigung ist damit die Eintrittskarte zu der in diesem Abschnitt beschriebenen Behandlung." },
     ],
   },
 ];

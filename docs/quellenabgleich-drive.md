@@ -10617,8 +10617,50 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 3.2.2; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 3.2.2.4; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 3.2.2 bis 3.2.2.3 – weiter Veräußerungsbegriff
+
+Quelle: dieselbe Datei; übernommen als Kapitel 20 bis 22. Prüfung:
+`npm run check:k2-kst-teil2` (22 Kapitel, 237 Blöcke, 18 Tabellen).
+
+**Eine Verbindung zu Teil I, die der Datensatz herstellt:** Der Fall der verdeckten Einlage von
+Anteilen ist die körperschaftsteuerliche Fortsetzung des Abschnitts 3.7.2.3 aus Teil I. Dort
+endete die Betrachtung bei der Aufdeckung der stillen Reserven – hier kommt die Rechtsfolge hinzu:
+Ist der Einlagegegenstand selbst eine Beteiligung, bleibt der Gewinn nach § 8b Abs. 2 KStG
+steuerfrei. Der Hinweis der Quelle, dass Satz 6 **keine eigene Besteuerungsnorm** begründet, ist
+dabei mehr als eine Feinheit: Die Gewinnrealisierung folgt bereits aus § 6 Abs. 6 Satz 2 EStG.
+
+**Eine eigene, ausdrücklich als umstritten bezeichnete Auffassung der Quelle** steht im Abschnitt
+3.2.2.2 und ist im Datensatz als Streitfrage eingeordnet, ohne sie zu entscheiden: Wird die
+verdeckte Gewinnausschüttung bei der leistenden Gesellschaft nicht erfasst, greift dann
+§ 8b Abs. 1 Satz 2 KStG beim Gesellschafter? Die Fachliteratur (Herlinghaus, Pung) bejaht das mit
+der tatsächlichen Nichterfassung; die Quelle verneint es mit der „soweit“-Verknüpfung, weil eine
+Erfassung im Ergebnis nichts geändert hätte – die verdeckte Gewinnausschüttung hätte reflexartig
+einen nach § 8b Abs. 2 KStG steuerfreien Veräußerungsgewinn ausgelöst.
+
+**Eine Beobachtung zum Zahlenwerk des Beispiels**, als eigene Ergänzung ausgewiesen: Die beiden
+Rechenwege führen auf denselben Betrag von 390.000 € – einmal über die Hinzurechnung
+(./. 10.000 € + 400.000 €), einmal über die Formel des § 8b Abs. 2 Satz 2 KStG (500.000 € ./.
+100.000 € ./. 10.000 €). Das ist kein Zufall, sondern zeigt, dass § 8 Abs. 3 Satz 2 KStG genau den
+Veräußerungsgewinn herstellt, der bei angemessenem Preis entstanden wäre. Bemerkenswert ist
+außerdem, dass die Pauschalen auf beiden Ebenen **unterschiedlich hoch** ausfallen: 19.500 € bei
+der Gesellschaft (5 % von 390.000 €), 20.000 € beim Gesellschafter (5 % von 400.000 €) – weil die
+Gesellschaft vom Gewinn nach Abzug der Veräußerungskosten rechnet, der Gesellschafter vom vollen
+Bezug.
+
+**Der Abschnitt 3.2.2.3 löst eine Frage auf, die im Abschnitt 2.1.1.3 offengeblieben war.** Dort
+hatte die Quelle die Einlagenrückgewähr aus § 8b Abs. 1 KStG ausgenommen und auf diese Stelle
+verwiesen. Die zweistufige Behandlung ist im Datensatz tabellarisch geordnet: bis zur Höhe des
+Buchwerts erfolgsneutrale Minderung der Anschaffungskosten, darüber hinaus steuerfreier Gewinn
+nach § 8b Abs. 2 Satz 1 KStG. Eigens hervorgehoben ist die praktische Bedeutung des kurzen
+Schlusssatzes zur **Ausschüttungsbescheinigung** nach § 27 Abs. 3 KStG: Ohne sie kann der
+Anteilseigner die Auskehrung nicht als Einlagenrückgewähr behandeln.
+
+**Zwei weitere Eigenheiten der Quelle, wortlautgetreu übernommen und gekennzeichnet:** ein
+fehlendes Wort in „die Anschaffungskosten der an der K-GmbH“ und der Genusfehler „eine
+Veräußerungsgewinn“.
 
 ### KSt Teil II (Hamacher), Abschnitte 3.1 bis 3.2.1.3 – Veräußerungsgewinne, Grundfall
 

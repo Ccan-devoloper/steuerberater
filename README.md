@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 19 Kapitel mit 213 Abschnitten und 16
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 22 Kapitel mit 237 Abschnitten und 18
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2503,6 +2503,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   steuerfreien Gewinns; fallen sie in einem anderen Jahr an, werden sie durch gegenläufige
   außerbilanzielle Korrekturen in das Veräußerungsjahr verschoben – im Beispiel bleibt über beide
   Jahre hinweg genau die Pauschale von 22.500 € übrig.
+  Der **weite Veräußerungsbegriff** des § 8b Abs. 2 Satz 3 KStG ist bis zur Einlagenrückgewähr
+  eingepflegt. Die **verdeckte Einlage von Anteilen** löst schon nach § 6 Abs. 6 Satz 2 EStG eine
+  Gewinnrealisierung aus; § 8b Abs. 2 Satz 6 KStG ordnet diesen Gewinn nur dem Anwendungsbereich
+  des Absatzes 2 zu, ohne eine eigene Besteuerungsnorm zu begründen. Bei der **verbilligten
+  Übertragung an den Gesellschafter** stellt die Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG genau
+  den Veräußerungsgewinn her, der bei angemessenem Preis entstanden wäre – beide Rechenwege führen
+  im Beispiel auf dieselben 390.000 €. Bemerkenswert ist, dass die Pauschalen auf beiden Ebenen
+  unterschiedlich hoch ausfallen (19.500 € bei der Gesellschaft, 20.000 € beim Gesellschafter),
+  weil die Gesellschaft vom Gewinn **nach** Abzug der Veräußerungskosten rechnet, der Gesellschafter
+  dagegen vom vollen Bezug. Zur Frage, ob bei unterbliebener Hinzurechnung die materielle
+  Korrespondenz greift, vertritt die Quelle eine eigene, ausdrücklich als umstritten bezeichnete
+  Auffassung: Sie verneint sie, weil eine Erfassung im Ergebnis nichts geändert hätte. Die
+  **Einlagenrückgewähr** schließlich ist kein Bezug i. S. des § 20 Abs. 1 Nr. 1 EStG, mindert
+  zunächst erfolgsneutral die Anschaffungskosten und führt erst oberhalb des Buchwerts zu einem
+  nach § 8b Abs. 2 Satz 1 KStG steuerfreien Gewinn.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
