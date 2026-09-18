@@ -260,7 +260,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   den Größenklassen des § 3 BpO, der Anschlussprüfung bei Großbetrieben, dem
   Dreijahreszeitraum für Mittel-, Klein- und Kleinstbetriebe, der zeitnahen Außenprüfung
   nach § 4a BpO und den Erweiterungstatbeständen des § 4 Abs. 3 Satz 2 BpO einschließlich
-  der 1.500-Euro-Grenze der BFH-Rechtsprechung.
+  der 1.500-Euro-Grenze der BFH-Rechtsprechung. Der **Teil III** behandelt die
+  Prüfungsanordnung der §§ 196, 197 AO: sie ist ein Bündel selbständig anfechtbarer
+  Verwaltungsakte – je Steuerart und Veranlagungszeitraum einer, dazu Prüfungsbeginn und
+  Prüfungsort –, während der Name des Prüfers keinen Verwaltungsakt darstellt; es folgen
+  Form und Begründung (Rechtsgrundlage genügt bei der Routineprüfung, nicht bei der
+  Erweiterung), die Bekanntgabe zwei bis vier Wochen vorher und ihr Zusammenspiel mit der
+  Ablaufhemmung des § 171 Abs. 4 AO, die Sperrwirkung für die Selbstanzeige nach
+  § 371 Abs. 2 AO samt der weiterhin möglichen Teilselbstanzeige, ein Fallbeispiel zur
+  verspäteten Erweiterungsanordnung und die Bekanntgabe an Eheleute, juristische Personen,
+  Personengesellschaften und Gesamtrechtsnachfolger. Dazu kommen zwei Übungsfälle: die
+  Eheleute Meyer mit acht Fragen von der Zulässigkeit über Prüfungsbeginn und Prüfername
+  bis zu den vier Korrekturvorschriften für die Jahre 01 bis 04, und ein Fall zur
+  Ablaufhemmung, in dem die Frist für die Einkommensteuer mit der Unanfechtbarkeit des
+  Änderungsbescheids am 05.05.08 und für die Umsatzsteuer drei Monate nach der Mitteilung
+  ohne Änderung am 03.07.08 endet.
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und

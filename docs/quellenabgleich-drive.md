@@ -3057,3 +3057,48 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   in der Quelle als Schaubilder, deren Spalten in der maschinellen Erfassung ineinanderlaufen.
   Sie sind spaltenweise zugeordnet als Tabellen wiedergegeben, mit Hinweis im Datensatz; der
   Wortlaut ist unverändert.
+
+## AO-Skript (Jacobs), Teil V – Abschnitt 12: Außenprüfung (Teil 2)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`),
+  Abschnitt 12, Teil III.
+- Einpflege dieses Durchgangs: drei Kapitel – die Prüfungsanordnung der §§ 196, 197 AO mit
+  Inhalt, Form, Begründung, Bekanntgabe, Sperrwirkung für die Selbstanzeige, Fallbeispiel
+  zur Ablaufhemmung und den Bekanntgabe-Besonderheiten sowie die beiden Übungsfälle
+  (Eheleute Meyer mit acht Fragen und der Ablaufhemmungsfall des Stpfl. S). Das Skript
+  umfasst jetzt 13 Teile, 148 Kapitel, 3.412 Blöcke und 254 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: die Teile IV und V des Abschnitts 12 bis zur Bruchstelle auf
+  Seite 27.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 4, Teilselbstanzeige.** Für die weiterhin mögliche Teilselbstanzeige verweist
+    die Quelle auf „§ 371 Abs. 2 Satz 1 **Nr. 2a** Halbsatz 2 und Satz 2 AO“, während sie
+    zwei Absätze zuvor die Sperrwirkung zutreffend auf § 371 Abs. 2 Satz 1 **Nr. 1a** AO
+    stützt; dort steht auch die Ausnahme.
+  - Kapitel 4: das überzählige „für“ in „für die in der Prüfungsanordnung benannten
+    Steuerarten und Zeiträume … **für** bis zum Abschluss der Außenprüfung nicht mehr
+    möglich“; in der Bekanntgabe-Übersicht „in **einen** Zusatz“, „bekannt gegeben
+    **worden**“ (statt werden), „zwei **getrennt** Verwaltungsakte“ und die Überschrift
+    „**Bevollmächtige**“.
+  - Kapitel 6: fehlendes Leerzeichen in „für die Jahre 02 **bis04**“.
+
+  Darstellungsentscheidungen: Die Übersicht zu Form und Begründung, die Bekanntgabe-Übersicht
+  nach Adressaten, die Zusammenfassung der Korrekturvorschriften im Fall 1 und die beiden
+  Fristenaufstellungen im Fall 2 stehen in der Quelle als Schaubilder beziehungsweise
+  Aufzählungen, deren Spalten in der maschinellen Erfassung ineinanderlaufen. Sie sind
+  zugeordnet als Tabellen wiedergegeben, mit Hinweis im Datensatz; der Wortlaut ist
+  unverändert.
+
+  Nachgerechnet und zutreffend: Im Fallbeispiel der Tz. 5 endet die Festsetzungsfrist für
+  den Veranlagungszeitraum 04 nach dreijähriger Anlaufhemmung und vier Jahren mit Ablauf des
+  **31.12.09**, so dass die Erweiterungsanordnung vom 10.01.10 zu spät kommt. Im Übungsfall
+  1 liegen sämtliche festgestellten Mehrsteuern (2.700 €, 2.400 €, 2.000 € und 2.000 €) über
+  der von der Quelle genannten Grenze von 1.500 €, und die Festsetzungsfrist für 01 ist am
+  15.01.07 nur wegen der Ablaufhemmung noch offen. Im Übungsfall 2 gehen beide Fristen mit
+  der im Fall maßgebenden Dreitagesfrist auf: Bekanntgabe des Änderungsbescheids am
+  05.04.08, Unanfechtbarkeit und damit Ende der Ablaufhemmung am **05.05.08**; Bekanntgabe
+  der Mitteilung ohne Änderung am 03.04.08, Fristende drei Monate später am **03.07.08**.
