@@ -10617,8 +10617,51 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.1.1.2; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.1.3; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 2.1.1.2 bis 2.1.2.2 – Ansässigkeit und Korrespondenzprinzip
+
+Quelle: dieselbe Datei; übernommen als Kapitel 4 bis 6. Prüfung: `npm run check:k2-kst-teil2`
+(6 Kapitel, 60 Blöcke, 2 Tabellen).
+
+**Eine Folge, die die Quelle nur andeutet und der Datensatz ausspricht:** Weil § 8b Abs. 1 KStG
+und nicht das Abkommen die Freistellung trägt, greift auch die Fünf-Prozent-Pauschale des
+§ 8b Abs. 5 KStG. Eine allein nach dem DBA-Schachtelprivileg freigestellte Dividende wäre dagegen
+zu 100 % steuerfrei. Der systematische Vorrang der nationalen Norm kostet den Steuerpflichtigen
+also 5 % der Dividende; der BFH hält das für zulässig, weil darin keine unzulässige Besteuerung
+des Gewinns selbst liegt.
+
+**Die beiden Ausnahmen des Abschnitts 2.1.1.3 haben denselben Grund**, den die Quelle jeweils nur
+kurz nennt und den der Datensatz zusammenführt: Es fehlt schon am **Bezug** i. S. des
+§ 20 Abs. 1 Nr. 1 EStG. Bei der Einlagenrückgewähr nimmt Satz 3 die Auskehrung ausdrücklich aus;
+bei der Organschaft beruht die Abführung auf dem Ergebnisabführungsvertrag statt auf einem
+Gewinnverwendungsbeschluss.
+
+**Die wichtigste Einordnung dieser Runde** betrifft das Korrespondenzprinzip, das in Teil I und
+Teil II spiegelverkehrt auftritt und in der Klausur regelmäßig verwechselt wird. Der Datensatz
+stellt beides in einer als eigene Ergänzung gekennzeichneten Tabelle gegenüber: Bei der
+**verdeckten Einlage** entsteht der Schaden beim Gesellschafter und wird bei der Gesellschaft
+ausgeglichen (§ 8 Abs. 3 Satz 4 KStG, verfahrensrechtlich § 32a Abs. 2 KStG); bei der **verdeckten
+Gewinnausschüttung** entsteht er bei der Gesellschaft und wird beim Gesellschafter ausgeglichen
+(§ 8b Abs. 1 Satz 2 KStG, verfahrensrechtlich § 32a Abs. 1 KStG). Dieselbe Technik, umgekehrte
+Richtung – und daran entscheidet sich, welcher Absatz des § 32a KStG einschlägig ist.
+
+**Zum Beispiel des Abschnitts 2.1.2.1** merkt der Datensatz an, was der Fall besonders klar zeigt:
+Die A-GmbH versteuert im Ergebnis die vollen 980.000 € – 500.000 € als gewöhnliche Mieteinnahme
+und 480.000 € als Beteiligungsertrag ohne Steuerbefreiung. Die materielle Korrespondenz verlagert
+den Einkommensschaden von der Gesellschaft, bei der er entstanden ist, auf den Anteilseigner, bei
+dem er greifbar ist; wirtschaftlich zahlt dieselbe Unternehmensgruppe, nur an anderer Stelle.
+
+**Ein Satz mit unterschätzter Tragweite**, den die Quelle ausspricht: Weil der
+Körperschaftsteuerbescheid **kein Grundlagenbescheid** ist, darf das Finanzamt des Anteilseigners
+Vorliegen und Höhe der verdeckten Gewinnausschüttung eigenständig prüfen – dieselbe Zahlung kann
+auf der einen Ebene als verdeckte Gewinnausschüttung behandelt werden und auf der anderen nicht.
+Die Korrespondenz ist eine verfahrensrechtliche Brücke, keine Bindung.
+
+**Weitere Eigenheiten der Quelle, wortlautgetreu übernommen und gekennzeichnet:** ein zweiter
+Verweisfehler im Kapitel 2 (der Text verweist auf „2.1.2.3“, gemeint ist 2.1.2.2) und der
+Genusfehler „die materielle Korrespondenzprinzip“ im „Merke“ des Abschnitts 2.1.2.1.
 
 ### KSt Teil II (Hamacher), Kapitel 1 und Abschnitt 2.1.1.1 – neuer Bestand
 

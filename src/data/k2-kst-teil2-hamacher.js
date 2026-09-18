@@ -10,9 +10,12 @@
    Quelle; jeder Abschnitt steht als eigener Eintrag.
 
    STAND DER ÜBERNAHME: Das Kapitel 1 (Bedeutung und persönlicher
-   Anwendungsbereich) ist vollständig. Aus Kapitel 2 ist der Begriff der
-   Gewinnausschüttung übernommen. Die übrigen Abschnitte folgen nach demselben
-   Verfahren; der Campus weist den Stand aus.
+   Anwendungsbereich) ist vollständig. Aus Kapitel 2 sind der Begriff der
+   Gewinnausschüttung (2.1.1) und das Korrespondenzprinzip (2.1.2) übernommen.
+   Es folgen die Mindestbeteiligungsquote (2.1.3), die Kapitalertragsteuer
+   (2.1.4), die Betriebsausgabenpauschalierung (2.2) und die
+   gewerbesteuerliche Behandlung (2.3) sowie die Kapitel 3 bis 6; der Campus
+   weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -150,6 +153,101 @@ export const kstTeil2 = [
       { text: "Merke: Sämtliche Bezüge i. S. des § 20 Abs. 1 Nr. 1 und Nr. 2 EStG sind bei einer Kapitalgesellschaft steuerfrei. Dabei sind aber die Einschränkungen durch die Streubesitzregelung des § 8b Abs. 4 KStG zu beachten." },
       { text: "Anmerkung zum Verweis (so in der Quelle): Der Text verweist für das materielle Korrespondenzprinzip auf „2.2.1.2“; nach dem Inhaltsverzeichnis der Quelle steht dieser Stoff unter **2.1.2** (2.1.2.1 Einschränkung der Steuerbefreiung, 2.1.2.2 formelle Korrespondenz). Der Wortlaut ist unverändert übernommen." },
       { text: "Anmerkung zur Reichweite der Aufzählung (eigene Ergänzung): Zwei Punkte der Liste werden in der Klausur leicht übersehen. Erstens erfasst die Steuerfreiheit auch die **verdeckte** Gewinnausschüttung – der Empfänger stellt sie also ebenso frei wie eine offene, allerdings nur unter dem Vorbehalt des materiellen Korrespondenzprinzips, das genau dann eingreift, wenn die ausschüttende Gesellschaft ihr Einkommen nicht entsprechend erhöht hat. Zweitens sind Liquidations- und Kapitalherabsetzungsraten nur insoweit erfasst, als sie **nicht** Rückzahlung von Nennkapital sind; die Rückzahlung des Nennkapitals selbst ist schon kein Bezug i. S. des § 20 Abs. 1 Nr. 2 EStG und braucht daher keine Freistellung." },
+    ],
+  },
+  {
+    id: "kst-t2-04",
+    kapitel: "4",
+    abschnittNr: "2.1.1.2 und 2.1.1.3",
+    title: "2.1.1.2 Ansässigkeit der ausschüttenden Gesellschaft – 2.1.1.3 Keine Tatbestände des § 8b Abs. 1 KStG",
+    thema: "Woher die Ausschüttung kommt, ist gleichgültig – auch ausländische Körperschaften sind erfasst, und ein DBA-Schachtelprivileg verdrängt die nationale Norm nicht. Nicht erfasst sind dagegen Auskehrungen aus dem steuerlichen Einlagekonto und die Gewinnabführung einer Organgesellschaft",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 2.1.1.2 und 2.1.1.3 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 5 KStG", "§ 27 KStG",
+      "§ 14 Abs. 3 KStG", "§ 15 Nr. 2 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 3 EStG", "§ 301 AktG",
+      "R 14.5 Abs. 4 Satz 4 KStR",
+      "BMF vom 28.04.2003, Tz. 6",
+      "BFH vom 26.04.2017, Tz. 11", "BFH vom 23.06.2010, BStBl. II 2011, 129",
+      "BFH-Beschluss vom 22.09.2016, I R 29/15",
+      "BFH vom 28.10.2009, BStBl. II 2011, 898",
+    ],
+    themen: ["Ausländische Ausschüttungen", "DBA-Schachtelprivileg", "Steuerliches Einlagekonto", "Organschaft", "Gewinnabführung", "Vororganschaftliche Rücklagen"],
+    bloecke: [
+      { typ: "titel", text: "2.1.1.2 Ansässigkeit der ausschüttenden Gesellschaft" },
+      { text: "Für die Anwendung des § 8b Abs. 1 KStG ist zudem die Ansässigkeit der ausschüttenden Gesellschaft unmaßgeblich, d. h. die Steuerbefreiung erstreckt sich auch auf Ausschüttungen ausländischer Körperschaften. Dabei ist ebenfalls unerheblich, ob mit dem ausländischen Sitzstaat der ausschüttenden Gesellschaft ein DBA abgeschlossen wurde, welches ein sog. DBA-Schachtelprivileg enthält und sich daraus bereits die Steuerfreiheit ergeben würde. Denn das DBA-Schachtelprivileg verdrängt grundsätzlich nicht die Steuerfreiheit nach § 8b Abs. 1 KStG. Zwar führen beide Regelungen zu einer Steuerfreistellung des Beteiligungsertrages, aber aufgrund des systematischen Vorrangs der nationalen Steuernormen läuft das abkommensrechtliche Schachtelprivileg zunächst parallel neben dieser nationalen Norm. Das DBA-Schachtelprivileg würde erst dann eine eigenständige Bedeutung erlangen, wenn es abweichend davon zu einer Besteuerung kommen würde. Dadurch ist ebenfalls die Anwendung der Betriebsausgabenpauschalierung i. S. des § 8b Abs. 5 KStG gedeckt, wodurch es gerade nicht zu einer unzulässigen Gewinnbesteuerung kommt." },
+      { text: "Anmerkung zur praktischen Bedeutung (eigene Ergänzung): Der Satz vom Parallellauf hat eine unmittelbare Folge, die die Quelle nur andeutet. Weil § 8b Abs. 1 KStG und nicht das Abkommen die Freistellung trägt, greift auch die Fünf-Prozent-Pauschale des § 8b Abs. 5 KStG – eine nach dem Abkommen allein freigestellte Dividende wäre dagegen zu 100 % steuerfrei. Der systematische Vorrang der nationalen Norm kostet den Steuerpflichtigen also 5 % der Dividende; der BFH hält das für zulässig, weil darin keine unzulässige Besteuerung des Gewinns selbst liegt." },
+      { typ: "titel", text: "2.1.1.3 Keine Tatbestände des § 8b Abs. 1 KStG" },
+      { text: "Nicht unter § 8b Abs. 1 KStG fallen hingegen Gewinnausschüttungen, welche aus dem steuerlichen Einlagekonto (§ 27 KStG) der ausschüttenden Gesellschaft finanziert werden. Dies deshalb, weil § 20 Abs. 1 Nr. 1 Satz 3 EStG diese Auskehrungen nicht als herkömmliche Gewinnausschüttung ansieht. Dabei handelt es sich um einen veräußerungsgleichen Vorgang (siehe unter 3.2.2.4)." },
+      { text: "§ 8b Abs. 1 KStG gilt auch nicht für die Gewinnabführung einer Organgesellschaft an den Organträger. Dabei handelt es sich gerade nicht um eine Gewinnausschüttung, sondern nur um eine vertraglich geregelte Verpflichtung zur Abführung des gesamten handelsbilanziellen Gewinnes (§ 301 AktG). Lediglich eigene Beteiligungserträge der Organgesellschaft sind auch auf Ebene des Organträgers steuerlich als solche zu würdigen, d. h. entweder nach den Grundsätzen des § 8b KStG oder des Teileinkünfteverfahrens (siehe § 15 Nr. 2 KStG). In Ausnahmefällen kann auch von der Organgesellschaft eine Gewinnausschüttung vorgenommen werden, z. B. bei der Ausschüttung sog. vororganschaftlicher Gewinnrücklagen oder in Fällen des § 14 Abs. 3 KStG." },
+      { text: "Anmerkung zur Abgrenzung (eigene Ergänzung): Beide Ausnahmen haben denselben Grund, den die Quelle jeweils nur kurz nennt: Es fehlt schon am **Bezug** i. S. des § 20 Abs. 1 Nr. 1 EStG, den § 8b Abs. 1 KStG voraussetzt. Bei der Einlagenrückgewähr nimmt § 20 Abs. 1 Nr. 1 Satz 3 EStG die Auskehrung ausdrücklich aus; bei der Organschaft beruht die Abführung nicht auf einem Gewinnverwendungsbeschluss, sondern auf dem Ergebnisabführungsvertrag. Die Prüfung des § 8b Abs. 1 KStG beginnt deshalb immer mit der Frage, ob überhaupt ein Bezug vorliegt – erst danach stellen sich die Fragen nach Streubesitz und Korrespondenz." },
+    ],
+  },
+  {
+    id: "kst-t2-05",
+    kapitel: "5",
+    abschnittNr: "2.1.2.1",
+    title: "2.1.2 Materielles Korrespondenzprinzip – 2.1.2.1 Einschränkung der Steuerbefreiung",
+    thema: "Die Steuerfreiheit entfällt, soweit die Ausschüttung bei der leistenden Gesellschaft das Einkommen gemindert hat. Praktisch trifft das die verdeckte Gewinnausschüttung, bei der die Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG unterblieben ist – der Einkommensschaden wird dann beim Anteilseigner nachversteuert",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.1.2.1 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 Satz 1 KStG", "§ 8b Abs. 1 Satz 2 KStG", "§ 8b Abs. 1 Satz 5 KStG",
+      "§ 8b Abs. 4 KStG", "§ 8 Abs. 3 Satz 2 KStG", "§ 32a Abs. 1 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 3 Nr. 40 Buchstabe d Satz 2 EStG", "§ 32d Abs. 2 Nr. 4 EStG",
+    ],
+    themen: ["Materielles Korrespondenzprinzip", "Verdeckte Gewinnausschüttung", "Einkommensschaden", "Soweit-Verknüpfung", "Genussrechte", "Nachversteuerung"],
+    bloecke: [
+      { text: "§ 8b Abs. 1 Satz 2 KStG schränkt die Steuerfreiheit dann bereits ein, soweit die Gewinnausschüttung bei der leistenden (= ausschüttenden) Gesellschaft zu einer Einkommensminderung geführt hat. Diese Einschränkung ist insbesondere in Fällen einer verdeckten Gewinnausschüttung von Bedeutung, die beim Anteilseigner zu Beteiligungserträgen i. S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG führt. Die Steuerfreiheit der verdeckten Gewinnausschüttung hängt beim Anteilseigner nach dem „weiten“ Gesetzeswortlaut davon ab, dass die verdeckte Gewinnausschüttung bei der „benachteiligten“ Gesellschaft das Einkommen tatsächlich nicht gemindert hat. (Die Quelle setzt dabei nach ihrer Fußnote voraus, dass keine Streubesitzdividende i. S. des § 8b Abs. 4 KStG vorliegt.)" },
+      { text: "Ist es dazu gekommen, z. B. weil bei der leistenden Kapitalgesellschaft die Einkommenshinzurechnung i. S. des § 8 Abs. 3 Satz 2 KStG unterblieben ist, wird beim Anteilseigner die Steuerfreiheit des Beteiligungsertrags ausgeschlossen (= materielle Korrespondenz). Dies führt beim Anteilseigner zu einer Nachversteuerung des bei der leistenden Körperschaft eingetretenen Einkommensschadens. Für die Anwendung dieser Regelung ist es unerheblich, worauf die unberücksichtigte Hinzurechnung bei der leistenden Gesellschaft beruht. Ob dies bei dieser mutwillig geschehen ist oder die Gesellschaft im Gegensatz zum Anteilseigner noch keine KSt-Steuererklärung abgegeben hat und daher bei dieser noch keine Einkommensauswirkungen eingetreten sein können, spielt hierfür keine Rolle. Ebenso ist unerheblich, ob die leistende Gesellschaft im In- oder Ausland ansässig ist. Bei natürlichen Personen sieht § 3 Nr. 40 Buchstabe d Satz 2 EStG bzw. § 32d Abs. 2 Nr. 4 EStG ebenfalls ein materielles Korrespondenzprinzip vor. Daneben sind auch die Auswirkungen der formellen Korrespondenz i. S. des § 32a Abs. 1 KStG zu beachten (siehe hierzu unter 2.1.2.3)." },
+      { text: "Anmerkung zum Verweis (so in der Quelle): Der Text verweist auf „2.1.2.3“; einen solchen Abschnitt gibt es nicht – die formelle Korrespondenz steht unter **2.1.2.2**. Es ist der zweite Verweisfehler dieser Art im Kapitel 2." },
+      { text: "Der Wortlaut des § 8b Abs. 1 Satz 2 KStG ist aber nicht nur ausschließlich auf Beteiligungserträge aus einer verdeckten Gewinnausschüttung anwendbar. Darunter können auch Vergütungen für Genussrechte subsumiert werden, die nach deutschem Recht beim Anteilseigner zu Beteiligungserträgen i. S. des § 20 Abs. 1 Nr. 1 EStG führen würden, im Sitzstaat der leistenden Körperschaft aber als Betriebsausgaben abgezogen wurden." },
+      { text: "Zu beachten ist diesbezüglich auch die „soweit“-Verknüpfung, d. h. die Versagung der Steuerfreiheit ist eindeutig nur auf den Betrag des tatsächlichen Einkommensschadens begrenzt. Dies hat Bedeutung in den Fällen, in denen die verdeckte Gewinnausschüttung bei der „benachteiligten“ Gesellschaft nach § 8 Abs. 3 Satz 2 KStG rechtsfehlerhaft nur teilweise hinzugerechnet wurde oder der Ertrag bei der leistenden Gesellschaft steuerfrei wäre (siehe hierzu unter 3.2.2.2)." },
+      { text: "Merke: Insbesondere bei Bezügen aus einer verdeckten Gewinnausschüttung schränkt die materielle Korrespondenzprinzip die Steuerfreiheit des § 8b Abs. 1 KStG ein. Dies setzt voraus, dass die verdeckte Gewinnausschüttung bei der leistenden Körperschaft mangels Hinzurechnung (nach § 8 Abs. 3 Satz 2 KStG) zu einem Einkommensschaden geführt hat. (Der Genusfehler „die materielle Korrespondenzprinzip“ steht so in der Quelle.)" },
+      { text: "§ 8b Abs. 1 Satz 2 KStG wird durch eine Sonderregelung für Dreiecksfälle i. S. des § 8b Abs. 1 Satz 5 KStG ergänzt. (Diese Regelung wird nach dem Hinweis der Quelle im Skript KSt Teil IV „Verdeckte Gewinnausschüttung“ dargestellt.)" },
+      { text: "Beispiel: Die A-GmbH erhält als Alleingesellschafterin der B-GmbH in 2026 für die Überlassung eines Grundstücks eine Miete von 980.000 €. Angemessen sind lt. Feststellungen des Finanzamtes aber nur 500.000 €, d. h. der Mehrbetrag von 480.000 € beruht ausschließlich auf gesellschaftsrechtlicher Veranlassung. Bei der B-GmbH (= leistende Körperschaft) wurden die Betriebsausgaben von 980.000 € rechtsfehlerhaft berücksichtigt." },
+      { text: "Lösung: Die überhöhte Mietzahlung von 480.000 € stellt eine verdeckte Gewinnausschüttung dar. Diese führt bei der A-GmbH zu Bezügen i. S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG, die aber nicht nach § 8b Abs. 1 Satz 1 KStG steuerfrei sind. Zwar steht die Streubesitzregelung des § 8b Abs. 4 KStG aufgrund der erfüllten 10%igen Mindestbeteiligung der Steuerfreiheit des § 8b Abs. 1 Satz 1 KStG nicht entgegen. Dafür müssen aber die Einschränkungen der materiellen Korrespondenzregelung i. S. des § 8b Abs. 1 Satz 2 KStG beachtet werden. Denn die verdeckte Gewinnausschüttung hat das Einkommen der leistenden B-GmbH gemindert, weil das Finanzamt die Anwendung des § 8 Abs. 3 Satz 2 KStG unterlassen hat. Dies führt beim Anteilseigner zu einer Nachversteuerung des bei der B-GmbH eingetretenen Einkommensschadens. Die von der A-GmbH bezogenen Mieteinnahmen sind daher sowohl in Höhe von 500.000 € als auch in Höhe des Beteiligungsertrags (= verdeckte Gewinnausschüttung) in Höhe von 480.000 € voll steuerpflichtig. Eine Einkommenskorrektur ist daher nicht vorzunehmen." },
+      { text: "Hinweis: Wäre der Anteilseigner eine natürliche Person, würde die materielle Korrespondenz des § 3 Nr. 40 Buchstabe d Satz 2 EStG die Anwendung des Teileinkünfteverfahrens ausschließen. Für Zwecke der Abgeltungsteuer ist § 32d Abs. 2 Nr. 4 EStG zu beachten." },
+      { text: "Rechenprobe und Einordnung (eigene Ergänzung): Von den 980.000 € Miete sind 500.000 € angemessenes Entgelt und 480.000 € verdeckte Gewinnausschüttung. Bemerkenswert ist, dass die A-GmbH im Ergebnis den vollen Betrag von 980.000 € versteuert – die 500.000 € als gewöhnliche Mieteinnahme, die 480.000 € als Beteiligungsertrag, dem die Steuerbefreiung versagt bleibt. Der Fall zeigt damit besonders klar, was die materielle Korrespondenz leistet: Sie verlagert den Einkommensschaden von der Gesellschaft, bei der er entstanden ist, auf den Anteilseigner, bei dem er greifbar ist. Wirtschaftlich zahlt dieselbe Unternehmensgruppe die Steuer, nur an anderer Stelle." },
+      { text: "Anmerkung zur Blickrichtung (eigene Ergänzung): Die materielle Korrespondenz begegnet in diesem Skript spiegelverkehrt zu Teil I. Dort ging es um die **verdeckte Einlage**, und § 8 Abs. 3 Satz 4 KStG erhöhte das Einkommen der bevorteilten **Gesellschaft**, weil der Vorgang beim Gesellschafter nicht erfasst war. Hier geht es um die **verdeckte Gewinnausschüttung**, und § 8b Abs. 1 Satz 2 KStG versagt die Steuerfreiheit beim **Gesellschafter**, weil der Vorgang bei der Gesellschaft nicht erfasst war. Dieselbe Technik, umgekehrte Richtung – wer sich das einmal klarmacht, verwechselt die beiden Normen nicht mehr." },
+    ],
+  },
+  {
+    id: "kst-t2-06",
+    kapitel: "6",
+    abschnittNr: "2.1.2.2",
+    title: "2.1.2.2 Formelle Korrespondenz",
+    thema: "Wird der Bescheid der leistenden Körperschaft später korrigiert, entfällt der Einkommensschaden – und § 32a Abs. 1 KStG erlaubt es, die Steuerbefreiung beim Anteilseigner nachträglich zu gewähren. Die Korrektur muss gerade wegen der verdeckten Gewinnausschüttung erfolgt sein",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.1.2.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 32a Abs. 1 KStG", "§ 32a KStG",
+      "§ 8b Abs. 1 Satz 1 KStG",
+      "§ 3 Nr. 40 Buchstabe d EStG", "§ 32d Abs. 1 EStG", "§ 10d Abs. 4 EStG",
+      "BFH vom 10.12.2019, BStBl. II 2020, 679",
+      "Erlass des FM Schleswig-Holstein vom 08.06.2023, VI 313 - S 2845a - 003",
+      "FG Münster vom 11.10.2019, 13 K 172/17 E",
+      "Heinemann in Rödder/Herlinghaus/Neumann, KStG § 32a Rz. 32",
+    ],
+    themen: ["Formelle Korrespondenz", "Korrekturvorschrift", "Grundlagenbescheid", "Verlustfeststellung", "Eigene Prüfungskompetenz"],
+    bloecke: [
+      { text: "Führt die materielle Korrespondenz beim Anteilseigner zu einem Ausschluss der Steuerbefreiung, muss aber zukünftig die formelle Korrespondenz des § 32a Abs. 1 KStG beachtet werden. Danach ist der Steuerbescheid des Anteilseigners zu korrigieren und die Steuerbefreiung (§ 8b Abs. 1 Satz 1 KStG bzw. § 3 Nr. 40 Buchstabe d EStG oder § 32d Abs. 1 EStG) zu gewähren, wenn der Körperschaftsteuerbescheid der leistenden Körperschaft durch Erfassung der verdeckten Gewinnausschüttung tatsächlich und unter Anwendung der AO-Korrekturnormen korrigiert worden ist. Weil danach auf Ebene der leistenden Körperschaft kein Einkommensschaden mehr besteht, gibt es für die Anwendung der materiellen Korrespondenz beim Anteilseigner keine Grundlage mehr. Gleiches gilt auch in den Fällen einer nachträglichen „Rücknahme“ und damit Wegfalls der verdeckten Gewinnausschüttung, z. B. aufgrund eines erfolgreichen Klageverfahrens der „benachteiligten“ Gesellschaft." },
+      { text: "Zwingende Voraussetzung für die Anwendung des § 32a Abs. 1 KStG ist die Korrektur des Steuerbescheides der leistenden Körperschaft nach AO-Vorschriften bzw. die erstmalige Steuerfestsetzung unter Berücksichtigung der Hinzurechnung der verdeckten Gewinnausschüttung. Dies bedeutet, dass die Korrektur im Hinblick auf die Erfassung der verdeckten Gewinnausschüttung erfolgt sein muss. Ausschließlich andere Korrekturgründe können beim Anteilseigner die Anwendung des § 32a Abs. 1 KStG damit nicht auslösen. Unerheblich ist hingegen, ob sich durch die tatsächliche Erfassung der verdeckten Gewinnausschüttung im Steuerbescheid auch eine Änderung der festgesetzten Steuer ergibt." },
+      { text: "Es bleibt aber dabei, dass der Körperschaftsteuerbescheid kein materiell-rechtlicher Grundlagenbescheid für den Steuerbescheid des Anteilseigners darstellt, weil zwischen beiden Veranlagungen lediglich eine formelle Korrespondenz besteht. Daher hat das Finanzamt des Anteilseigners die Möglichkeit, das Vorliegen und die Höhe einer verdeckten Gewinnausschüttung selbst zu überprüfen. Ob daneben auch eine Korrektur des Verlustfeststellungsbescheides i. S. des § 10d Abs. 4 EStG der leistenden Körperschaft bereits ausreicht, um die Rechtsfolge des § 32a KStG auf Ebene des Anteilseigners auszulösen, ist umstritten. Dies muss nach dem eindeutigen Gesetzeswortlaut, welcher lediglich auf den „Steuerbescheid der Körperschaft“ verweist, wohl auch zu verneinen." },
+      { typ: "tabelle", spalten: ["Merkmal", "Verdeckte Einlage (Teil I, Abschnitte 3.6.1 und 3.6.2)", "Verdeckte Gewinnausschüttung (hier, Abschnitt 2.1.2)"], zeilen: [
+        ["Wo entsteht der Einkommensschaden?", "beim Gesellschafter (Einkünfte nicht erfasst)", "bei der leistenden Gesellschaft (Hinzurechnung unterblieben)"],
+        ["Wo wird er ausgeglichen?", "bei der Gesellschaft – Einkommenserhöhung nach § 8 Abs. 3 Satz 4 KStG", "beim Gesellschafter – Versagung der Steuerfreiheit nach § 8b Abs. 1 Satz 2 KStG"],
+        ["Verfahrensrechtliche Korrekturnorm", "§ 32a Abs. 2 KStG (Bescheid der Gesellschaft)", "§ 32a Abs. 1 KStG (Bescheid des Gesellschafters)"],
+        ["Grundlagenbescheid?", "nein", "nein"],
+        ["Soweit-Verknüpfung?", "ja – begrenzt auf das steuerpflichtige Einkommen", "ja – begrenzt auf den tatsächlichen Einkommensschaden"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt die beiden Korrespondenzmechanismen gegenüber, die in Teil I und Teil II an verschiedenen Stellen behandelt werden und in der Klausur regelmäßig verwechselt werden. Die Technik ist in beiden Fällen dieselbe: Ein Vorgang wird auf einer Ebene nicht erfasst, also wird er auf der anderen nachgeholt, und wenn die erste Ebene später korrigiert wird, darf die zweite verfahrensrechtlich zurückgenommen werden. Nur die Richtung ist umgekehrt – und daran entscheidet sich, ob § 32a Abs. 1 oder Abs. 2 KStG einschlägig ist." },
+      { text: "Anmerkung zur eigenen Prüfungskompetenz (eigene Ergänzung): Der Satz, dass der Körperschaftsteuerbescheid **kein Grundlagenbescheid** ist, hat eine praktische Folge, die die Quelle ausspricht und die leicht unterschätzt wird: Das Finanzamt des Anteilseigners darf Vorliegen und Höhe der verdeckten Gewinnausschüttung eigenständig prüfen. Es kann also zu einem anderen Ergebnis kommen als das Finanzamt der Gesellschaft – dieselbe Zahlung kann bei der einen Ebene als verdeckte Gewinnausschüttung behandelt werden und bei der anderen nicht. Die Korrespondenz ist eine verfahrensrechtliche Brücke, keine Bindung." },
     ],
   },
 ];

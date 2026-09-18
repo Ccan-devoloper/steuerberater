@@ -2389,8 +2389,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit drei Kapitel mit 35 Abschnitten und einer
-  Tabelle. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit sechs Kapitel mit 60 Abschnitten und zwei
+  Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
   einer Beteiligung nicht versteuert, darf die Verluste aus ihr nicht abziehen. Das
@@ -2404,11 +2404,25 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   nach § 43b EStG); bei Veräußerungsgewinnen bleibt es dagegen bei der Veranlagung, dann aber nach
   dem BFH-Urteil vom 31.05.2017 **ohne** die Fünf-Prozent-Pauschale des § 8b Abs. 3 Satz 1 KStG,
   weil ohne inländische Betriebsstätte keine inländischen Betriebsausgaben angefallen sein
-  können – die Einkünfte betragen dann 0 €. Aus **Kapitel 2** ist der Begriff der
-  Gewinnausschüttung übernommen: erfasst sind ordentliche **und verdeckte** Ausschüttungen,
-  Genussrechte mit Eigenkapitalcharakter, Liquidations- und Kapitalherabsetzungsraten jenseits des
-  Nennkapitals sowie Ausschüttungen nach einer Hinzurechnungsbesteuerung – alles vorbehaltlich der
-  Streubesitzregelung des § 8b Abs. 4 KStG.
+  können – die Einkünfte betragen dann 0 €. Aus **Kapitel 2** sind der Begriff der
+  Gewinnausschüttung und das Korrespondenzprinzip eingepflegt. Erfasst sind ordentliche **und
+  verdeckte** Ausschüttungen, Genussrechte mit Eigenkapitalcharakter, Liquidations- und
+  Kapitalherabsetzungsraten jenseits des Nennkapitals sowie Ausschüttungen nach einer
+  Hinzurechnungsbesteuerung – alles vorbehaltlich der Streubesitzregelung des § 8b Abs. 4 KStG.
+  Die **Ansässigkeit** der ausschüttenden Gesellschaft ist gleichgültig, und ein
+  DBA-Schachtelprivileg verdrängt die nationale Norm nicht – was den Steuerpflichtigen die
+  Fünf-Prozent-Pauschale des § 8b Abs. 5 KStG kostet, die bei alleiniger Abkommensfreistellung
+  nicht anfiele. **Nicht** erfasst sind Auskehrungen aus dem steuerlichen Einlagekonto und die
+  Gewinnabführung einer Organgesellschaft, beides aus demselben Grund: Es fehlt schon am Bezug
+  i. S. des § 20 Abs. 1 Nr. 1 EStG. Das **materielle Korrespondenzprinzip** des
+  § 8b Abs. 1 Satz 2 KStG versagt die Steuerfreiheit, soweit die Ausschüttung bei der leistenden
+  Gesellschaft das Einkommen gemindert hat – im Beispiel versteuert die Anteilseignerin deshalb
+  die vollen 980.000 € Miete, 500.000 € als Mieteinnahme und 480.000 € als nicht freigestellten
+  Beteiligungsertrag. Die **formelle Korrespondenz** des § 32a Abs. 1 KStG nimmt das zurück, sobald
+  der Bescheid der leistenden Körperschaft gerade wegen der verdeckten Gewinnausschüttung
+  korrigiert wird; ein Grundlagenbescheid ist er auch dort nicht, weshalb das Finanzamt des
+  Anteilseigners eigenständig prüfen darf. Eine Übersicht stellt diesen Mechanismus dem
+  spiegelverkehrten der verdeckten Einlage aus Teil I gegenüber.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
