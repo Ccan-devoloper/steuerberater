@@ -104,9 +104,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   AO, einschließlich Übungsfall zur Steueranmeldung) und der Teil III (Einstellung und
   Beschränkung der Vollstreckung nach § 257 AO) und der Teil IV (Vollstreckung wegen
   Geldforderungen in bewegliche Sachen, §§ 281ff AO, einschließlich der Vollstreckung gegen
-  Ehegatten) eingepflegt. Offen ist aus diesem Band noch der **Teil V des Abschnitts 15**
-  (Einwendungen gegen Vollstreckungsmaßnahmen und Rechtsschutz) mit den nachfolgenden
-  Teilen.
+  Ehegatten), der Teil V (Einwendungen gegen Vollstreckungsmaßnahmen und Rechtsschutz) sowie
+  aus den Teilen VI und VII der Übungsfall 1 mit Lösungshinweisen eingepflegt. Offen ist aus
+  diesem Band noch der **Übungsfall 2 des Abschnitts 15** (Handelsvertreter Jägermeister)
+  mit seinen Lösungshinweisen sowie die Anlagen 1 und 2 (Auszüge aus BGB und ZPO).
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript

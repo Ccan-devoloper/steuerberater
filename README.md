@@ -323,6 +323,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 262 AO und dem durchgeprüften Beispiel des Taxiunternehmers S mit vier Einwendungen;
   sowie die Vollstreckung gegen Ehegatten in drei Fallgruppen mit der Doppelvermutung des
   § 263 AO (§ 1362 BGB für das Eigentum, § 739 ZPO für den Gewahrsam) und Prüfungsschema.
+  Der **Teil V** (Einwendungen gegen Vollstreckungsmaßnahmen und Rechtsschutz) steht
+  vollständig: das Vollstreckungsverfahren als selbständiges Verwaltungsverfahren, die
+  Sperre des § 256 AO und die Pflicht der Vollstreckungsstelle zur Unterrichtung der
+  zuständigen Stelle, die Einwendungen gegen Zulässigkeit sowie Vornahme und Gestaltung der
+  Vollstreckung, der Katalog der statthaften Einsprüche, die Einspruchsfristen mit der
+  Unterscheidung zwischen Forderungspfändung (§ 356 Abs. 2 AO) und Pfändung durch den
+  Vollziehungsbeamten, sowie vorläufiger Rechtsschutz durch Aussetzung der Vollziehung,
+  einstweilige Anordnung (§ 114 FGO) und Vollstreckungsaufschub (§ 258 AO). Aus dem
+  **Teil VI** ist der Übungsfall 1 (Schriftsteller Benno Becker) mit dem vollständigen
+  Sachverhalt und den Lösungshinweisen des Teils VII zu beiden Aufgaben eingepflegt: die
+  allgemeinen Vollstreckungsvoraussetzungen, die Unpfändbarkeit der PC-Anlage als
+  Arbeitsmittel nach § 295 Satz 1 AO iVm § 811 Abs. 1 Nr. 5 ZPO, die wirksame Pfändung der
+  Stereoanlage trotz behaupteten Dritteigentums der Freundin sowie Einspruch, Aussetzung
+  der Vollziehung der Pfändungen, Vollstreckungsaufschub und Drittwiderspruchsklage nach
+  § 262 AO.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

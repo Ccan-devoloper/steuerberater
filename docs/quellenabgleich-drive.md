@@ -2683,3 +2683,46 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   sind der Ziegelei-Übungsfall und das Taxiunternehmer-Beispiel, die die Quelle als
   fortlaufende Aufzählung führt, zur Zuordnung von Sachverhalt und Lösung
   gegenübergestellt – ebenfalls mit Hinweis im Datensatz.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 15: Vollstreckungsrecht (Teil 3)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 15, Teil V sowie der Übungsfall 1 aus Teil VI mit seinen Lösungshinweisen aus
+  Teil VII.
+- Einpflege dieses Durchgangs: drei Kapitel – der vollständige Teil V (Rechtsschutz im
+  Vollstreckungsverfahren), der Sachverhalt des Übungsfalls 1 (Schriftsteller Benno Becker)
+  mit beiden Aufgaben und die vollständigen Lösungshinweise dazu. Das Skript umfasst jetzt
+  11 Teile, 123 Kapitel, 2.628 Blöcke und 221 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: der Übungsfall 2 (Handelsvertreter Jägermeister) mit seinen
+  Lösungshinweisen sowie die Anlagen 1 und 2 (Auszüge aus BGB und ZPO).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 12: doppelter Punkt am Satzende („… für den Erfolg spricht..“) und die
+    Schreibweise „Rechtschutz“ neben „Rechtsschutz“ im selben Abschnitt. Inhaltlich
+    bedeutsamer: Der Teil V bezeichnet einen auf § 256 AO stoßenden Einspruch als
+    **unzulässig**, der Teil IV Tz. 5.1 desselben Abschnitts dagegen als „nach hM in diesem
+    Punkt **unbegründet**“. Beide Formulierungen stehen wortlautgetreu im Datensatz, die
+    Abweichung ist dort vermerkt.
+  - Kapitel 13 und 14, Bezeichnung der gepfändeten Gegenstände: Der Sachverhalt lässt den
+    Vollziehungsbeamten den „PC nebst **Drucker** und Tastatur“ pfänden, nennt bei der
+    Abholung dann „PC, **Monitor**, Tastatur, und Stereoanlage“ (mit überzähligem Komma),
+    und die Lösungshinweise sprechen durchgehend von „PC, **Monitor** und Tastatur“. Die
+    Abweichung ist im Datensatz vermerkt; an der Lösung – drei selbständige Pfändungen,
+    sämtlich nach § 811 Abs. 1 Nr. 5 ZPO unpfändbar – ändert sie nichts.
+  - Kapitel 14: Der Vollziehungsbeamte heißt im Sachverhalt „Rainer Ramb (R)“, in den
+    Lösungshinweisen einmal „Rambo“. Ferner der unvollständige Satz „Die Vollstreckung kann
+    für B auch nicht überraschend, denn das FA hat … angekündigt“ (es fehlt „sein“), die
+    Kleinschreibung „dies ist regelmäßig die Wegnahme der Sachen“, die nicht geschlossene
+    Klammer „(vgl. Tipke/Kruse, Tz 14 zu § 295 AO.“, das Komma statt eines Punktes vor „Da
+    die Pfändung einen Verwaltungsakt darstellt“, das überzählige Komma in „nur solange
+    zulässig, ist, als …“ und die Schreibweise „Ermesssensausübung“.
+
+  Nachgerechnet und zutreffend: Die ESt-Bescheide gingen am 13.06.04 zur Post; zuzüglich
+  vier Tagen ergibt sich die Bekanntgabe am **17.06.04** und damit sowohl die im Sachverhalt
+  genannte Fälligkeit zum **17.07.04** als auch die Rechtzeitigkeit des Einspruchs vom
+  05.07.04. Die Nachzahlungen 4.900 € + 4.250 € = **9.150 €** stimmen mit der in den
+  Lösungshinweisen genannten Summe überein.
