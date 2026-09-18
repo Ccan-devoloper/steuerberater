@@ -26,6 +26,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **AO Teil II** (Jacobs, Mai 2025), Drive-ID `15kFDJkIW4sHvVz5tlf5_s4DIEwUm0cDd` | Aus Abschnitt 6 die Seiten 43 bis 74: die Ablaufhemmungen des **§ 171 Abs. 9, 10, 10a, 14 und 15 AO** einschließlich der gesonderten Feststellung nach § 181 Abs. 5 AO | Der Connector gibt aus dem PDF 170.000 Zeichen aus und bricht in Abschnitt 6 auf Seite 42 ab. Abschnitt 5 und Abschnitt 6 bis § 171 Abs. 7 AO sind lesbar und eingepflegt. |
 | **AO Teil III** (Jacobs, Mai 2025), Drive-ID `17QT3RU22R0kTxP5MfyzWc6HrX3i77TEg` | Aus Abschnitt 7 die Seiten 80 bis 118: die Lösungshinweise zu den Übungsfällen zu **§ 175 Abs. 1 Satz 1 Nr. 1 AO**, **§ 175 Abs. 1 Satz 1 Nr. 2 AO** (rückwirkendes Ereignis) sowie **§§ 176 und 177 AO** | Der Connector gibt aus dem PDF 156.000 Zeichen aus und bricht in Abschnitt 7 auf Seite 79 mitten im ersten Übungsfall zu § 175 AO ab. Abschnitt 7 ist bis dorthin vollständig eingepflegt. |
 | **AO Teil V** (Jacobs, Mai 2025), Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN` | Aus Abschnitt 12 (Außenprüfung) alles ab Seite 28: der Rest des **Teils V** (Neuregelungen zu § 197 Abs. 5 und § 180 Abs. 1a AO) sowie die **Teile VI bis VIII** (Prüfungsfeststellungen, Schlussbesprechung, Prüfungsbericht, Auswirkungen auf die Festsetzungsverjährung); dazu der gesamte **Abschnitt 13** | Der Connector gibt aus dem 1,4-MB-PDF 145.000 Zeichen aus: den Abschnitt 11 vollständig und den Abschnitt 12 bis Seite 27, wo er abbricht. Das Deckblatt kündigt „Teil V: Abschnitte 11 bis 13“ an. |
+| **Bewertungsrecht Teil 3** (Schäfer, Oktober 2025), Drive-ID `1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa` | Nur eine einzige Seite: die **Lösung zu Beispiel 1** (Schenkung eines Einzelunternehmens zum 1.6.2025), PDF-Seite 20/21 | Die Datei ist im Übrigen vollständig lesbar. Diese eine Seite trägt unter der Überschrift „Lösung Beispiel 1:“ nur eine Grafik ohne Textebene; der Connector gibt dazu keinen Text aus. Der Sachverhalt des Beispiels ist vollständig erfasst, so dass der Fall selbständig gerechnet werden kann. |
 | **AO Teil IV** (Jacobs, Mai 2025), Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA` | Aus Abschnitt 9 ab Seite 18: der Rest des Teils V (**Wiedereinsetzung, § 56 FGO**), Teil VI (**Form und Inhalt der Klageschrift, §§ 64, 65 FGO**), die **Begründetheit der Klage** und das **Revisionsverfahren**; dazu der gesamte **Abschnitt 10** (vorläufiger Rechtsschutz) | Der Connector gibt aus dem PDF 141.000 Zeichen aus: Abschnitt 8 vollständig (62 Seiten) und Abschnitt 9 bis Seite 17, wo er mitten im Satz abbricht. Das Deckblatt kündigt „Teil IV: Abschnitte 8 bis 10“ an. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
@@ -158,9 +159,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Bewertungsverfahren, Substanzwert sowie das vereinfachte Ertragswertverfahren mit
   Anwendungsbereich, den drei Sonderbewertungen des § 200 BewG und dem Korrekturschema des
   § 202 BewG) – Reiter „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil3.js`.
-  Noch offen sind aus dem Teil I der Kapitalisierungsfaktor (Tz. 5 f), die Anteile
+  Der Teil I ist inzwischen bis einschließlich Tz. 5 f (Kapitalisierungsfaktor mit den
+  drei Beispielen) eingepflegt. Noch offen sind aus dem Teil I die Anteile
   am Betriebsvermögen einer Personengesellschaft (Tz. 6) und die Besonderheiten bei
   Kapitalgesellschaften (Tz. 7) sowie der gesamte Teil II (Gesonderte Feststellungen).
+  Die Lösung zu Beispiel 1 ist technisch blockiert, siehe Abschnitt A.
   Dazu kommt die zugehörige Lösungsdatei „B-S25-ErbSt-Bewertung 2025-2026 Teil 3-Loesung“
   (`142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`).
 - Bewertungsteile 1 und 2 – im Drive noch nicht lokalisiert

@@ -111,6 +111,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zwischensummen und die 30-Prozent-Pauschale bis zum bereinigten Betriebsergebnis,
   einschließlich der Erläuterungen zu Unternehmerlohn, Doppelerfassung und verdeckter
   Gewinnausschüttung.
+  Schließlich der auf **13,75** festgeschriebene Kapitalisierungsfaktor mit der
+  Verordnungsermächtigung des § 203 Abs. 2 BewG, das Überblicksschema von den drei
+  Betriebsergebnissen über Durchschnittsertrag und Kapitalisierung bis zum gemeinen Wert
+  einschließlich der drei Zurechnungen nach § 200 Abs. 2 bis 4 BewG, sowie drei Beispiele:
+  Beispiel 2 (gewillkürtes Mietwohngrundstück und betriebsnotwendige Zuliefererbeteiligung,
+  Ertragswert 3.805.079 €, gemeiner Wert 4.255.079 €) und Beispiel 3 (Teilwertabschreibung,
+  einmaliger Veräußerungsgewinn, Schuldenabzug beim Mietwohngrundstück und eingelegter
+  Parkplatz als junges Betriebsvermögen, gemeiner Wert 5.324.533 €) stehen vollständig
+  durchgerechnet mit eigener Kontrollrechnung; von **Beispiel 1** steht nur der
+  Sachverhalt, weil die Quelle seine Musterlösung als Grafik ohne Textebene enthält – das
+  ist ausdrücklich vermerkt und die Lösung nicht rekonstruiert.
   Prüfung: `npm run check:k1-erbst-bewertung-teil3`
 - **Hausaufgaben KSt** (Reiter im Campus Körperschaftsteuer): die Kurzklausuren des
   Tageslehrgangs mit Lösung – Fachtermin 1 (A-GmbH mit dreizehn Korrekturtatbeständen,

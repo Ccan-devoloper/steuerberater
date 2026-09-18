@@ -3756,3 +3756,69 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Wirtschaftsjahre 2023, 2024 und 2025 – das Rumpfwirtschaftsjahr bleibt außen vor, und das
   laufende Wirtschaftsjahr 2025 tritt an seine Stelle, wie R B 201 Abs. 4 ErbStR es
   vorsieht.
+
+## Bewertungsrecht Teil 3 (Schäfer) – Kapitalisierungsfaktor und die drei Beispiele (Tz. 5 f)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa`),
+  Teil I, Tz. 5 Buchstabe f, PDF-Seiten 17 bis 23.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel – der Kapitalisierungsfaktor mit dem
+  Überblicksschema und dem Sachverhalt des Beispiels 1 sowie die beiden vollständig
+  durchgerechneten Beispiele 2 und 3. Der Datensatz umfasst jetzt 9 Kapitel, 165 Blöcke und
+  19 Tabellen; Prüfung `npm run check:k1-erbst-bewertung-teil3`. **Damit ist der Teil I bis
+  einschließlich Tz. 5 vollständig.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Eine Seite ohne Textebene.** Die Quelle trägt auf PDF-Seite 20/21 die Überschrift
+  „Lösung Beispiel 1:“ – darunter steht die Musterlösung als Grafik. Der Connector gibt zu
+  dieser Seite keinen Text aus; zwischen der Überschrift und dem nächsten Abschnitt
+  („Beispiel 2:“) liegt in der Erfassung nur die Seitenzahl. Die Lösung ist deshalb **nicht
+  wiedergegeben und nicht rekonstruiert**; der Befund steht als redaktioneller Hinweis im
+  Datensatz und als eigene Zeile in `docs/offene-quellen.md`, Abschnitt A. Der Sachverhalt
+  des Beispiels 1 ist vollständig erfasst (Steuerbilanz, gemeine Werte, Dividenden- und
+  Aufwandsangaben, Gewinne, Gewerbesteuer, Zinsaufwand und Unternehmerlohn), so dass der
+  Fall selbständig gerechnet werden kann. Es ist die einzige blockierte Stelle dieser
+  ansonsten vollständig lesbaren Datei.
+
+  Nachgerechnet und zutreffend – sämtliche Werte der beiden Musterlösungen gehen auf:
+
+  - **Grundbeispiel.** 12.000 + 13.000 + 11.000 = 36.000 €, geteilt durch drei 12.000 €,
+    mal 13,75 = 165.000 €.
+  - **Beispiel 2.** 520.000 + 40.000 + 6.000 − 70.000 − 11.000 − 3.000 = 482.000 €;
+    430.000 + 38.000 + 6.000 − 70.000 − 11.000 − 3.000 = 390.000 €; 360.000 + 32.000 +
+    6.000 − 70.000 − 11.000 − 3.000 = 314.000 €. Nach der 30-%-Pauschale (144.600 /
+    117.000 / 94.200 €) verbleiben 337.400 / 273.000 / 219.800 €, Summe 830.200 €, geteilt
+    durch drei 276.733,33 € (in der Quelle auf 276.733 € abgerundet), mal 13,75 =
+    3.805.078,75 € (3.805.079 €). Zuzüglich 370.000 € und 80.000 € ergeben sich
+    4.255.079 €. Die Aktien gehen mit dem Kurswert von 80.000 € und nicht mit den
+    Anschaffungskosten von 120.000 € ein.
+  - **Beispiel 3.** 600.000 + 90.000 + 30.000 − 150.000 − 70.000 = 500.000 €; 650.000 +
+    97.000 + 35.000 − 90.000 − 150.000 − 70.000 = 472.000 €; 500.000 + 80.000 + 75.000 +
+    40.000 + 10.000 − 150.000 − 70.000 = 485.000 €. Die 30-%-Pauschale beträgt 150.000 /
+    141.600 / 145.500 €, so dass 350.000 / 330.400 / 339.500 € verbleiben; Summe
+    1.019.900 €, geteilt durch drei 339.966,67 € (339.966 €), mal 13,75 = 4.674.532,50 €
+    (4.674.533 €). Zuzüglich 700.000 €, abzüglich 250.000 € und zuzüglich 200.000 € beträgt
+    der gemeine Wert 5.324.533 €.
+
+  Auch die Bilanzsumme des Beispiels 1 stimmt auf beiden Seiten mit 2.335.000 €
+  (200.000 + 1.000.000 + 100.000 + 500.000 + 200.000 + 100.000 + 185.000 + 40.000 + 10.000
+  beziehungsweise 1.585.000 + 400.000 + 310.000 + 40.000).
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Lösung Beispiel 3, letzte drei Zeilen.** Der Ansatz des Mietwohngrundstücks und der
+    zugehörigen Schuld wird mit „§ **202** Abs. 2 BewG“ und der eingelegte Parkplatz mit
+    „§ **202** Abs. 4 BewG“ belegt; gemeint sind § 200 Abs. 2 BewG und § 200 Abs. 4 BewG,
+    wie die Quelle sie im Überblicksschema derselben Tz. 5 f selbst zitiert. Dieselbe
+    Verwechslung von § 200 und § 202 BewG findet sich in der Musterlösung des Übungsfalls
+    Pack der ErbSt-Fallsammlung.
+  - **Lösung Beispiel 3, 30-Prozent-Zeile.** Beim Betrag für 2024 (145.500 €) fehlt das
+    Minuszeichen; gerechnet wird ersichtlich mit einem Abzug, denn 485.000 − 145.500 ergibt
+    das ausgewiesene Betriebsergebnis von 339.500 €.
+
+  Darstellungsentscheidung: Die Angaben zum Sachverhalt des Beispiels 3 stehen in der Quelle
+  als dreispaltige Aufstellung, in der die einmaligen Posten nur mit einem Betrag
+  ausgewiesen sind. Die Spaltenzuordnung folgt den Angaben der Quelle selbst
+  („Teilwertabschreibung Maschine in 2024“, „Einmaliger Veräußerungsgewinn AV in 2023“,
+  Einlage des Parkplatzes ein Jahr vor dem 1.1.2025) und wird durch die Musterlösung
+  bestätigt; das ist im Datensatz vermerkt.
