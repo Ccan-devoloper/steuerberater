@@ -87,7 +87,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Erbschaftsteuer von 18.557 € samt Härteausgleichsprüfung. Diese Klausur ist zugleich die
   Probe aufs Exempel für beide Schäfer-Skripte: Index, Bewirtschaftungskostenansätze,
   Liegenschaftszinssatz, Abschmelzungsgrenzen des Abzugsbetrags und die
-  Härteausgleichstabelle stimmen sämtlich mit ihnen überein.
+  Härteausgleichstabelle stimmen sämtlich mit ihnen überein. Dazu die Übungsaufgabe
+  **„August Antensteiner"**, die denselben Nachlass einmal an den Sohn und einmal an den
+  Neffen gehen lässt: **38.250 € gegenüber 235.608 €** Erbschaftsteuer, obwohl dem Neffen
+  die Tarifbegrenzung des § 19a ErbStG einen Entlastungsbetrag von 38.142 € bringt. Vier
+  Unterschiede machen den Abstand aus – steuerfreies Familienheim, dafür aber nicht
+  abziehbare Darlehensschuld nach § 10 Abs. 6 Satz 1 ErbStG, getrennte statt
+  zusammengefasste Freibeträge für Hausrat und Pkw und der persönliche Freibetrag von
+  400.000 € statt 20.000 €. Hier greift auch der **Härteausgleich**, der im Fall Ackermann
+  entfällt.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

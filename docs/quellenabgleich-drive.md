@@ -5489,3 +5489,40 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Geschäftsgrundstück, und nur deshalb wird im Ertragswertverfahren bewertet. Dieselbe
   Quote teilt anschließend den Grundbesitzwert in Betriebs- und Privatvermögen auf. Beides
   ist im Datensatz vermerkt.
+
+## ErbSt-Fallsammlung 4. Fachtermin – Übungsaufgabe „August Antensteiner“
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), zweiter Fall.
+- Einpflege dieses Durchgangs: die Übungsaufgabe als sechster Übungsfall; der Datensatz
+  umfasst jetzt 6 Übungsfälle, 213 Blöcke und 43 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Beide Teillösungen sind Zeile für Zeile nachgerechnet; beide gehen auf.** Der Sohn zahlt
+  **38.250 €**, der Neffe **235.608 €** – mehr als das Sechsfache für denselben Nachlass,
+  obwohl dem Neffen die Tarifbegrenzung einen Entlastungsbetrag von 38.142 € bringt.
+
+  **Vier Unterschiede machen den Abstand aus**, und der Fall ist so gebaut, dass jeder
+  einzeln sichtbar wird:
+
+  - Das Einfamilienhaus ist beim Sohn nach § 13 Abs. 1 Nr. 4c ErbStG steuerfrei (140 qm
+    Wohnfläche, also unter der 200-qm-Grenze), beim Neffen nicht – 250.000 € Unterschied.
+  - Genau deshalb wird beim Sohn die Darlehensschuld des Einfamilienhauses nach § 10 Abs. 6
+    S. 1 ErbStG **nicht** abgezogen, beim Neffen dagegen in voller Höhe von 64.000 €. Die
+    Steuerfreiheit hat also einen Preis.
+  - Beim Sohn greifen zwei getrennte Freibeträge für Hausrat (41.000 €) und andere
+    bewegliche Gegenstände (12.000 €), beim Neffen nur ein einheitlicher von 12.000 € für
+    beides – genau die Systematik, die der Skriptteil 2 in seiner Freibetragstabelle zeigt.
+  - Der persönliche Freibetrag beträgt 400.000 € statt 20.000 €.
+
+  **Der Härteausgleich greift hier – anders als im Fall Ackermann.** Der steuerpflichtige
+  Erwerb von 310.500 € überschreitet die Wertgrenze von 300.000 € nur um 10.500 €, die
+  Mehrsteuer beträgt aber 13.575 €, so dass nur 5.250 € erhoben werden. Die Tabelle
+  H E 19 ErbStH weist für die Steuerklasse I bei dieser Wertgrenze den Grenzwert 334.200 €
+  aus; mit 310.500 € liegt der Fall darunter. Beide Fallsammlungsfälle zusammen zeigen
+  damit die Tabelle von beiden Seiten.
+
+  **Die Quote des § 19a Abs. 3 ErbStG bestätigt die Regel aus der Lösungsdatei zum
+  Skriptteil 2:** Der Nenner beträgt 947.595 € – der gesamte Vermögensanfall abzüglich der
+  beiden mit einzelnen Gegenständen zusammenhängenden Schulden, aber **ohne** den
+  Pauschbetrag für Beerdigungskosten von 15.000 €.
