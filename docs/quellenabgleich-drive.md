@@ -10111,3 +10111,55 @@ etwas offengelegt:
 **Noch offen im Dublettencheck** sind Umsatzsteuer, Umwandlungssteuerrecht, Bilanzierung,
 Internationales Steuerrecht, Einkommensteuer, Gewerbesteuer, Originalklausuren und der
 Körperschaftsteuer-Ordner des zweiten Baums.
+
+### Dublettencheck, dritter Teil: Umsatzsteuer – sieben Beispielsammlungen und eine Übersicht
+
+Der USt-Ordner des ersten Baums (`1lYiN9fg54FMrujOf74kBR2al6-qKoEFL`) enthält acht Dateien –
+**keine einzige war dokumentiert**, und keine ihrer Inhalte stand bisher im Campus. Es handelt
+sich um eine vollständige, zusammenhängende Reihe:
+
+- **Beispielsammlungen Tag 1 bis Tag 7 (Schröders)**, wobei zwei davon unter den nichtssagenden
+  Dateinamen „25) (4).pdf“ und „25) (5).pdf“ liegen – es sind Tag 3 und Tag 6. Ohne die Prüfung
+  Datei für Datei wäre die Reihe unvollständig geblieben.
+- **„Umsatzbesteuerung bei PKW“ (Abschn. 15.23 UStAE)**, ein einseitiges Schaubild.
+
+Alles ist eingepflegt als Reiter „Beispielsammlungen (Schröders)“ im USt-Campus
+(`src/data/k1-ust-beispielsammlung-schroeders.js`, acht Kapitel, 111 Abschnitte, 2 Tabellen).
+
+**Auch diese Quellen enthalten keine Lösungen.** Das ist inzwischen ein Muster: Die
+unterrichtsbegleitenden Materialien des Lehrgangs – Mirbach für AO und ErbSt, Schröders für die
+USt – sind durchweg Arbeitsblätter, auf denen nur die Frage steht. Es wird keine Lösung
+erfunden; jedes Kapitel verweist auf die Stellen im Campus, an denen dieselbe Rechtsfrage
+vollständig durchgeprüft ist.
+
+**Was diese Sammlungen didaktisch auszeichnet**, ist die Variation: Sie stellen denselben
+Sachverhalt mehrfach und verschieben jedes Mal nur ein Tatbestandsmerkmal. Die klarsten
+Beispiele:
+
+- **Die Heizkörper-Reihe an Tag 3** (Beispiele 4 bis 9): Dreimal bestellt derselbe Privatmann
+  aus Potsdam beim Berliner Einzelhändler, der beim Hamburger Großhändler ordert. Einmal
+  versendet der Großhändler direkt, einmal holt der Kunde beim Einzelhändler ab, einmal baut
+  der Einzelhändler die Heizkörper noch ein – und jedes Mal ist die Antwort auf die Frage nach
+  dem Reihengeschäft eine andere. Die Beispiele 7 bis 9 stellen dieselben drei Varianten dann
+  noch einmal unter der Frage nach dem Lieferort.
+- **Pkw gegen Gebäude an Tag 6** (Beispiele 3 und 4): zweimal derselbe Steuerberater, zweimal
+  25 % unternehmerische Nutzung, zweimal Schenkung an den Sohn nach einem Jahr – aber beim
+  Grundstück greift das Zuordnungsverbot des § 15 Abs. 1b UStG.
+- **Rücktritt gegen Rücklieferung an Tag 5** (Beispiel 7 und seine Abwandlung): Beide Male
+  kommt die Maschine zurück, beide Male fließen 216.100 €. Einmal ist es die Rückgängigmachung
+  der Lieferung, einmal ein eigener Umsatz.
+- **Tag 1 Beispiel 2 steht in der Quelle als „weggefallen“** – auch das ist unverändert
+  übernommen, weil die Nummerierung der übrigen Beispiele daran hängt.
+
+**Eine Rekonstruktion, ausgewiesen:** Die PKW-Übersicht stellt Entnahme und entgeltliche
+Überlassung zweispaltig gegenüber; die Extraktion gibt die Spalten blockweise nacheinander aus.
+Sie ist als Tabelle in ihre Spaltenordnung zurückgebracht, mit einem Hinweis darunter. Sie ist
+zugleich das einzige Blatt dieser Reihe, das eine Antwort gibt statt einer Frage, und deshalb
+besonders wertvoll: Bei der Entnahme ist die Bemessungsgrundlage ein Nettowert mit dem
+20-Prozent-Abschlag für nichtvorsteuerbelastete Kosten und die Fahrtenbuchmethode verteilt die
+Anschaffungskosten auf fünf Jahre; bei der Überlassung an Arbeitnehmer ist der lohnsteuerliche
+Wert ein Bruttowert, ein Abschlag findet nicht statt, und verteilt wird auf acht Jahre.
+
+**Noch offen im Dublettencheck** sind Umwandlungssteuerrecht, Bilanzierung, Internationales
+Steuerrecht, Einkommensteuer, Gewerbesteuer, Originalklausuren und der
+Körperschaftsteuer-Ordner des zweiten Baums.

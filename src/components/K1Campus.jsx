@@ -23,6 +23,8 @@ import { k1Aufgaben, k1Quellskizzen } from "../data/k1-fall-extras.js";
 import { K1Aufgabenblock, K1Quellskizze } from "./K1FallExtras";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
+import KurzskriptBloecke from "./KurzskriptBloecke";
+import { ustBeispielsammlung, ustBeispielsammlungQuelle } from "../data/k1-ust-beispielsammlung-schroeders.js";
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import { ustOriginalklausuren, ustOriginalklausurenQuelle } from "../data/k1-ust-originalklausuren.js";
 import { k1Pruefungsklausuren, k1PruefungsklausurenQuelle } from "../data/k1-pruefungsklausuren.js";
@@ -44,6 +46,7 @@ const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
+  { id: "beispielsammlung", label: "Beispielsammlungen (Schröders)", Icon: IconFaelle },
   { id: "uebungsklausur", label: "Übungsklausur (USt)", Icon: IconTraining },
   { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconKlausur },
   { id: "pruefungsklausuren", label: "Prüfungsklausuren im Original", Icon: IconKlausur },
@@ -604,6 +607,21 @@ export default function K1Campus({ onKlausurwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Sachverhalte"
             einheitEinzahl="Sachverhalt"
+          />
+        )}
+        {ansicht === "beispielsammlung" && (
+          <KurzskriptBloecke
+            kicker="Klausur 1 · Umsatzsteuer · Beispielsammlungen"
+            titel="Beispielsammlungen USt (Schröders)"
+            lead="Die sieben Beispielsammlungen zu den Unterrichtstagen 1 bis 7 im Wortlaut, dazu die Übersicht „Umsatzbesteuerung bei PKW“. Sie folgen der Reihenfolge, in der die Umsatzsteuer geprüft wird: Unternehmereigenschaft, Leistungsart und Leistungsort (Tag 1), Steuerbefreiungen, Bemessungsgrundlage und Vorsteuerabzug (Tag 2), Steuerschuldnerschaft und Reihengeschäft (Tag 3), innergemeinschaftlicher Warenverkehr (Tag 4), Fernverkauf, Kommission und Änderung der Bemessungsgrundlage (Tag 5), unentgeltliche Wertabgaben und Vorsteuerberichtigung (Tag 6), Reiseleistungen bis Kleinunternehmer (Tag 7). Die Beispiele variieren oft denselben Sachverhalt in zwei oder drei Abwandlungen, die jeweils nur ein Tatbestandsmerkmal verschieben – die Heizkörper-Reihe an Tag 3 ist dafür das beste Muster. **Die Quellen enthalten keine Lösungen**; auf jeden Sachverhalt folgt nur die Frage. Es wird hier keine erfunden. Jedes Kapitel sagt das offen und verweist auf die Stellen im Campus, an denen dieselbe Rechtsfrage vollständig durchgeprüft ist – das Kurzskript (Meurer), die Originalfälle der Einheiten 2 bis 8 und die Übungsklausur."
+            quelle={ustBeispielsammlungQuelle}
+            kapitel={ustBeispielsammlung}
+            karteKicker={(k) => k.tag}
+            gruppeVon={(k) => k.tag}
+            gruppeLabel={(k) => k.tag}
+            gruppeAria="Unterrichtstage"
+            gruppeAlle="Alle Tage"
+            suchePlatzhalter="Norm, Beispiel oder Stichwort"
           />
         )}
         {ansicht === "pruefungsklausuren" && (

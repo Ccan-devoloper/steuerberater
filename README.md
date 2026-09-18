@@ -2280,6 +2280,25 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   durchgerechnet ist. Die beiden handschriftlichen Lösungsblätter aus demselben Drive-Ordner
   sind nicht maschinenlesbar und stehen in `docs/offene-quellen.md`, Abschnitt A.
   Prüfung: `npm run check:k1-erbst-fallsammlung-mirbach`
+- **Beispielsammlungen USt (Schröders)** (Klausur 1, Reiter Umsatzsteuer →
+  „Beispielsammlungen (Schröders)“): die **sieben Beispielsammlungen zu den Unterrichtstagen 1
+  bis 7** des Tageslehrgangs im Wortlaut, dazu die Übersicht „Umsatzbesteuerung bei PKW“
+  (Abschn. 15.23 UStAE) – acht Kapitel mit 111 Abschnitten und 2 Tabellen. Der Aufbau folgt der
+  Prüfungsreihenfolge: Unternehmereigenschaft, Leistungsart und Leistungsort (Tag 1);
+  Grundstücksumsätze, Option, Bemessungsgrundlage und Vorsteuerabzug (Tag 2);
+  Steuerschuldnerschaft, Reihengeschäft, Ausfuhr und Einfuhr (Tag 3); innergemeinschaftlicher
+  Warenverkehr mit Dreiecksgeschäft, Verbringen und neuem Fahrzeug (Tag 4); Fernverkauf,
+  Kommission, Differenzbesteuerung und Änderung der Bemessungsgrundlage (Tag 5); unentgeltliche
+  Wertabgaben und Vorsteuerberichtigung in fünfzehn Beispielen (Tag 6); Reiseleistungen,
+  Geschäftsveräußerung, Gesellschaftsverhältnisse und Kleinunternehmer (Tag 7).
+  **Die Quellen enthalten keine Lösungen** – auf jeden Sachverhalt folgt nur die Frage. Es wird
+  hier keine erfunden; jedes Kapitel sagt das offen und verweist auf die Stellen im Campus, an
+  denen dieselbe Rechtsfrage vollständig durchgeprüft ist. Die PKW-Übersicht ist die einzige
+  Ausnahme: Sie gibt eine Antwort, und zwar die Gegenüberstellung von unentgeltlicher Entnahme
+  und entgeltlicher Überlassung mit ihren zwei Bemessungsgrundlagen, zwei Abschlagsregeln und
+  zwei Verteilungszeiträumen bei der Fahrtenbuchmethode; ihre zweispaltige Form ist als Tabelle
+  rekonstruiert und im Campus als Rekonstruktion ausgewiesen.
+  Prüfung: `npm run check:k1-ust-beispielsammlung`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
