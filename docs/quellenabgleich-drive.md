@@ -3337,3 +3337,48 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Höhe von 2.000 € Erfolg, in Höhe der restlichen 500 € nicht. Im Fall Dr. S läuft die
   Monatsfrist ab der Bekanntgabe am 01.11.02 bis zum **01.12.02**; das am 30.11.02 beim FA
   A-Stadt eingegangene Schreiben wahrt sie über § 357 Abs. 2 Satz 2 AO.
+
+## AO Short-Skript (Jacobs) – wortlautgetreue Erfassung (Teil 5): Teil I abgeschlossen
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1fuGSbReWCvFo0ClbWr8G7WaRfYeiRySC`),
+  Abschnitt 4.
+- Einpflege dieses Durchgangs: drei Kapitel – Einführung, allgemeine Voraussetzungen und
+  Übersicht der Korrekturvorschriften; die Vorschriften § 164 Abs. 2 AO bis § 173a AO; sowie
+  § 175 Abs. 1 Satz 1 Nr. 1 und Nr. 2 AO mit dem Beispiel zum Ratenausfall, § 175b AO und
+  § 177 AO mit Prüfungsschema und Kontrollrechnung. **Der Teil I des Short-Skripts ist damit
+  vollständig.** Das Short-Skript umfasst jetzt 13 Kapitel, 383 Blöcke und 8 Tabellen;
+  Prüfung `npm run check:k1-ao-short-skript-jacobs`.
+- Noch nicht eingepflegt: der Teil II (Schwerpunkte der AO-Klausuren 2016 bis 2024).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 13, Beispiel zum Ratenausfall.** Die Begründung der Rückwirkung stellt darauf
+    ab, dass der Forderungsausfall „nicht später (im **Kj. 05**) in der Bilanz ausgeglichen
+    werden“ kann – der Sachverhalt lässt die Raten aber erst in den Jahren **08 bis 10**
+    ausfallen; die Zahlungsunfähigkeit tritt im März 08 ein, und mit diesem Jahr rechnet die
+    Lösung an der entscheidenden Stelle auch.
+  - Kapitel 11: die Schreibweise „Berichfigung“ an beiden Stellen; die fehlende öffnende
+    Klammer bei „den (vollständigen oder teilweisen) „Widerruf“ § 131 AO)“; „§ 129 f AO“;
+    der dritte Punkt der Checkliste endet mit einem Komma.
+  - Kapitel 12: das überzählige „d“ in „(„beim Erlass des Verwaltungsaktes unterlaufen“d)“;
+    die Fundstelle „AEAO zu § 173 Nr. 6 .2“ mit Leerstelle.
+  - Kapitel 13: „bis zum **31,.12.12**“ mit Komma vor dem Punkt; „§ 169 Abs. 2 Nr. 2 AO“
+    ohne Satzangabe; „AEAO zu § 175 Nr. 2 .4“ mit Leerstelle; im Prüfungsschema
+    „sämtlichen materiellen Fehler getrennt zu betrachten“, „nicht selbständige änderbare
+    materielle Fehler“ und „Eine sich bei Punkt 3 ggf. verbleibende Differenz“ sowie die
+    nicht gepaarten Anführungszeichen in Punkt 3.
+
+  Darstellungsentscheidungen: Die Übersicht der Korrekturbegriffe, die Übersicht der
+  Korrekturvorschriften nach Bescheidart, das vierstufige Prüfungsschema zu § 177 AO und die
+  Kontrollrechnung stehen in der Quelle als Schaubilder, deren Spalten in der maschinellen
+  Erfassung ineinanderlaufen. Sie sind zugeordnet als Tabellen wiedergegeben; der Wortlaut
+  ist unverändert.
+
+  Nachgerechnet und zutreffend: Im Beispiel zum Ratenausfall entspricht der Kaufpreis von
+  1.000.000 € genau zehn Jahresraten à 100.000 €. Die ESt-Erklärung 01 ging am 15.12.02 ein,
+  so dass die reguläre Festsetzungsfrist mit Ablauf des 31.12.02 begann und am 31.12.06
+  endete; die gesonderte Anlaufhemmung des § 175 Abs. 1 Satz 2 AO setzt hinsichtlich des
+  Ratenausfalls mit Ablauf des Jahres 08 neu an und endet nach vier Jahren am **31.12.12** –
+  wie in der Lösung angegeben.

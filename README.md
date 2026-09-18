@@ -492,7 +492,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   mit § 351 Abs. 1 AO und wann mit § 177 AO zu begründen ist – sowie die Bindung an
   Grundlagenbescheide nach § 351 Abs. 2 AO mit dem Fall des Arztes Dr. S, dessen Einspruch
   gegen den Folgebescheid zugleich als Einspruch gegen den Feststellungsbescheid auszulegen
-  ist.
+  ist. Der **Abschnitt 4** schließt den Teil I ab: der Vorrang des Einspruchs, die Begriffe
+  Berichtigung, Aufhebung, Änderung, Rücknahme und Widerruf, die dreiteilige Checkliste der
+  allgemeinen Korrekturvoraussetzungen und die Übersicht, welche Vorschrift bei
+  Steuerbescheiden und welche bei sonstigen Verwaltungsakten vorrangig oder nachrangig zu
+  prüfen ist; danach alle zehn klausurrelevanten Korrekturvorschriften – § 164 Abs. 2 AO mit
+  dem Fortgelten des Vorbehalts, § 165 Abs. 2 AO mit der Nichtigkeit eines unbestimmten
+  Vorläufigkeitsvermerks, § 129 AO als einzige für beide Bescheidarten geltende Vorschrift,
+  § 172 Abs. 1 Satz 1 Nr. 2 Buchst. a und c AO, § 173 Abs. 1 AO, § 173a AO, § 175 Abs. 1
+  Satz 1 Nr. 1 und Nr. 2 AO mit dem durchgerechneten Beispiel zum Ratenausfall (Anlaufhemmung
+  ab Ablauf 08, Frist bis 31.12.12), § 175b AO bei Datenübermittlung durch Dritte und
+  § 177 AO mit vierstufigem Prüfungsschema und Kontrollrechnung. **Der Teil I des
+  Short-Skripts ist damit vollständig.**
   Die Quelle stellt ausdrücklich klar, dass Steuererhebungsverfahren, FGO-Verfahren,
   Steuerstrafrecht und Haftungsrecht nicht enthalten, aber gleichwohl prüfungsrelevant
   sind. Der Datensatz tritt neben die bereits vorhandene verdichtete Overlay-Fassung
