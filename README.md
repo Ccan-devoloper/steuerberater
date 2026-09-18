@@ -452,6 +452,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (Austauschpfändung) und 865. **Abschnitt 15 und damit der gesamte Teil VI sind
   vollständig eingepflegt.**
   Prüfung: `npm run check:k1-ao-skript-jacobs`
+- **AO Short-Skript (Jacobs)** (Reiter „Short-Skript (Jacobs)" im AO-Campus): die
+  Arbeitsunterlage „Steuerliches Verfahrensrecht" (Mai 2025, 49 Seiten) **im Wortlaut**.
+  Der Teil I zeigt, wie eine AO-Klausur gutachtlich bearbeitet wird: Aufbau und
+  Punkteverteilung der ersten Prüfungsklausur (35 AO/FGO, 35 USt, 30 ErbSt), die fünf
+  Arbeitsschritte von der Aufgabenstellung bis zum Lösungskonzept, AEAO, BpO, VollstrA und
+  VollzA als zugelassene Hilfsmittel, die fundamentale Aufbauregel „Einspruch vor
+  Korrekturvorschriften" mit den beiden typischen Beratungssituationen sowie Gutachten- und
+  Urteilsstil mit Obersatz, Subsumtion und Ergebnis – samt Beispielen zum Korrektur- und
+  zum Rechtsbehelfsverfahren und der vollständigen Zulässigkeitsprüfung nach § 358 AO.
+  Die Quelle stellt ausdrücklich klar, dass Steuererhebungsverfahren, FGO-Verfahren,
+  Steuerstrafrecht und Haftungsrecht nicht enthalten, aber gleichwohl prüfungsrelevant
+  sind. Der Datensatz tritt neben die bereits vorhandene verdichtete Overlay-Fassung
+  (`ao-shortskript-2025.js`), die dieselbe Quelle als Einblendung in die AO-Lernmodule
+  aufbereitet. Prüfung: `npm run check:k1-ao-short-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
   Spiegelbildmethode) mit neun Abwandlungen **und den Musterlösungen** im Wortlaut. Der

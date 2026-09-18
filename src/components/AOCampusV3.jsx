@@ -19,7 +19,7 @@ import AOFall334Darstellung from"./AOFall334Darstellung";
 import AOHausaufgaben,{AOHausaufgabenHinweise}from"./AOHausaufgaben";
 import AOKeyfacts from"./AOKeyfacts";
 import KurzskriptBloecke from"./KurzskriptBloecke";
-import{aoSkriptJacobs,aoSkriptJacobsQuelle}from"../data/k1-ao-skript-jacobs.js";import Klausurmodus,{IconKlausur}from"./Klausurmodus";
+import{aoSkriptJacobs,aoSkriptJacobsQuelle}from"../data/k1-ao-skript-jacobs.js";import{aoShortSkriptJacobs,aoShortSkriptJacobsQuelle}from"../data/k1-ao-short-skript-jacobs.js";import Klausurmodus,{IconKlausur}from"./Klausurmodus";
 import HausaufgabenBloecke from"./HausaufgabenBloecke";
 import{estKlausuren,estKlausurenQuelle}from"../data/est-klausuren.js";
 import{IconCockpit,IconModule,IconFaelle,IconSchema,IconHaken,IconTraining}from"./Icons";
@@ -56,7 +56,7 @@ const OBER=[
 {id:"fgo",label:"FGO & Vollstreckung",module:[367,368,384],beschreibung:"Allgemeine und maßnahmenspezifische Vollstreckungsvoraussetzungen sowie die FGO-Fahrtroute mit Sachurteilsvoraussetzungen."},
 ];
 const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o])));const oberVon=m=>OBER_BY_ID.get(m.id)||OBER[1];
-const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"skript",label:"Skript (Jacobs)",Icon:IconModule},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining}]
+const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"skript",label:"Skript (Jacobs)",Icon:IconModule},{id:"shortskript",label:"Short-Skript (Jacobs)",Icon:IconModule},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining}]
 
 /* Die Teilklausur Abgabenordnung der Übungsklausur AO/USt liegt im gemeinsamen
    Klausurbestand; hier werden nur ihre Sachverhalte gezeigt. */
@@ -96,4 +96,16 @@ export default function AOCampusV3({onKlausurwechsel,onFachwechsel}){const[ansic
       gruppeAria="Abschnitte"
       gruppeAlle="Alle Abschnitte"
       suchePlatzhalter="Norm, Stichwort oder Fall"
+    />} {ansicht==="shortskript"&&<KurzskriptBloecke
+      kicker="Klausur 1 · Abgabenordnung · Short-Skript"
+      titel="AO Short-Skript (Jacobs)"
+      lead="Das Short-Skript „Steuerliches Verfahrensrecht“ von Hans-Jürgen Jacobs (Mai 2025) im Wortlaut – die Arbeitsunterlage zur Klausurtechnik und zu den Prüfungsschwerpunkten. Der Teil I zeigt, wie eine AO-Klausur gutachtlich bearbeitet wird: Aufbau und Punkteverteilung der ersten Prüfungsklausur, die fünf Arbeitsschritte von der Aufgabenstellung bis zum Lösungskonzept, AEAO, BpO, VollstrA und VollzA als zugelassene Hilfsmittel, die fundamentale Aufbauregel „Einspruch vor Korrekturvorschriften“ mit den beiden typischen Beratungssituationen sowie Gutachten- und Urteilsstil mit Obersatz, Subsumtion und Ergebnis – samt Beispielen zum Korrektur- und zum Rechtsbehelfsverfahren. Die Quelle stellt ausdrücklich klar, dass Steuererhebungsverfahren, FGO-Verfahren, Steuerstrafrecht und Haftungsrecht nicht enthalten, aber gleichwohl prüfungsrelevant sind."
+      quelle={aoShortSkriptJacobsQuelle}
+      kapitel={aoShortSkriptJacobs}
+      karteKicker={(k)=>`${k.teilLabel} · Kapitel ${k.kapitel}`}
+      gruppeVon={(k)=>k.teil}
+      gruppeLabel={(k)=>k.teilLabel}
+      gruppeAria="Teile"
+      gruppeAlle="Alle Teile"
+      suchePlatzhalter="Norm, Stichwort oder Prüfungsjahr"
     />} {ansicht==="keyfacts"&&<AOKeyfacts/>} {ansicht==="hausaufgaben"&&<AOHausaufgaben onOpenInhalt={oeffnen} onOpenSchema={schemaOeffnen} inhaltById={AO_BY_ID} ziel={hausaufgabenZiel}/>} {ansicht==="klausur"&&<Klausurmodus module={AO_FAELLE} oeffnenModul={oeffnen} gebiete={[{id:"E1",label:"AO Einheit 1"},{id:"E2",label:"AO Einheit 2"},{id:"E3",label:"AO Einheit 3"},{id:"E4",label:"AO Einheit 4"},{id:"E5",label:"AO Einheit 5"},{id:"E6",label:"AO Einheit 6"},{id:"E7",label:"AO Einheit 7"},{id:"E8",label:"AO Einheit 8"}]} gebietVon={m=>`E${m.einheit}`} speicherKey="stb-k1-ao-klausurlauf" sperrtext="Erst selbst lösen: Zulässigkeit, Begründetheit, Korrekturweg und Festsetzungsfrist. Danach Musterlösung aufdecken." modulWort="Fall"/>}</main></div>}

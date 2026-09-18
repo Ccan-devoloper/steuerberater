@@ -3146,3 +3146,60 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   des § 171 Abs. 4 Satz 3 AO läuft von dort bis zum **31.12.2035**. Im Beispiel 2 verschiebt
   die von der Finanzbehörde zu vertretende spätere Bekanntgabe am 15.2.2031 diesen
   Fristbeginn nicht.
+
+## AO Short-Skript (Jacobs) – wortlautgetreue Erfassung (Teil 1)
+
+- Quelle: „B-S25-AO-Short-Skript-(Jacobs)-0425 (1).pdf“, Drive-ID
+  `1fuGSbReWCvFo0ClbWr8G7WaRfYeiRySC`, 927 KB, 49 Seiten.
+- **Zur Datei selbst:** Der Dateiname nennt April 2025 („0425“), das Deckblatt der Datei
+  dagegen **Mai 2025**. Es handelt sich also nicht um eine ältere Fassung, sondern um
+  dieselbe Arbeitsunterlage, die im Campus bereits als verdichtete Overlay-Fassung
+  (`src/data/ao-shortskript-2025.js` und `-details.js`) in die AO-Lernmodule eingeblendet
+  wird. Damit ist dies die vierte im Drive missverständlich benannte Datei.
+- **Warum trotzdem neu erfasst:** Ein maschineller Abgleich der in der Quelle zitierten
+  Vorschriften mit der Overlay-Fassung ergab 139 Fundstellen in der Quelle gegenüber 97 im
+  Repository; **48 Vorschriften der Quelle fehlten in der Overlay-Fassung**, darunter
+  § 79, § 93c, § 104 Abs. 2, § 119 Abs. 1, § 125 Abs. 2 und 3, § 126 Abs. 1, § 133, § 152,
+  § 171 Abs. 5, 8, 9 und 14, § 181 Abs. 2, § 183 Abs. 1, § 184 Abs. 1, § 191, § 193, § 200
+  und § 378. Die Overlay-Fassung verdichtet die Quelle also, statt sie wiederzugeben. Der
+  neue Datensatz `src/data/k1-ao-short-skript-jacobs.js` gibt sie im Wortlaut wieder und
+  tritt neben die Overlay-Fassung, die ihren eigenen Zweck behält.
+- Einpflege dieses Durchgangs: drei Kapitel – Vorbemerkungen und Abschnitt 1 des Teils I
+  mit Allgemeinem zur Klausur, der Klausurtechnik in fünf Schritten, den zugelassenen
+  Hilfsmitteln, den allgemeinen Hinweisen zum Inhalt der AO-Klausuren samt fundamentaler
+  Aufbauregel und den beiden Beratungssituationen sowie der Erfassung von Sachverhalt und
+  Aufgabenstellung, Gutachten- und Urteilsstil und dem dreiteiligen Grundschema mit zwei
+  Beispielen. Neuer Reiter „Short-Skript (Jacobs)“ im AO-Campus; Prüfskript
+  `npm run check:k1-ao-short-skript-jacobs` (1 Teil, 3 Kapitel, 92 Blöcke, 2 Tabellen).
+- Noch nicht eingepflegt: Abschnitt 2 des Teils I (typische allgemeine AO-Probleme), die
+  Abschnitte 3 und 4 (Einspruch und Korrekturvorschriften in der Fallbearbeitung) und der
+  gesamte Teil II (Schwerpunkte der AO-Klausuren 2016 bis 2024).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 2, Absatzangabe zu § 351 AO.** Für die sachliche Anfechtungsbeschränkung bei
+    Änderungsbescheiden verweist die Quelle einmal auf „§ 351 Abs. **2** AO“ und zwei
+    Absätze später auf „§ 351 Abs. **1** AO“. Einschlägig ist Absatz 1; Absatz 2 betrifft
+    die Bindung an Grundlagenbescheide.
+  - Kapitel 1: der verstellte Satz „Vor allen Dingen in der gemischten Klausur wird
+    empfohlen sich mit allen drei Teilbereichen beschäftigt werden und zumindest
+    Lösungsansätze gefunden werden“; „Steuerberaterprüfung2021“ ohne Leerzeichen; „welche
+    Gesetzesvorschriften … Anwendung finden **könnte**“.
+  - Kapitel 2: „Prüfen Sie in welchem Umfang **einer** Herabsetzung … erfolgen kann“.
+  - Kapitel 3: die Überschrift „Erfassung **der** Sachverhalt“; „ob eine oder mehrere
+    Tatbestandsmerkmale nicht erfüllt“ ohne „sind“; „Der Urteilsstil kann … in der
+    Klausurlösung verwendet, wenn“ ohne „werden“; „kann man **den** zunächst allgemein
+    formulieren“ ohne das Bezugswort; „sonsfigen Verwaltungsakten“; „Einsfiegssatz“; das
+    überzählige Anführungszeichen vor „§ 175 Abs. 1 Satz 1 Nr. 2 AO“; die nicht gepaarten
+    Klammern bei „die Anbringungsbehörde, § 357 Abs. 2 AO)“ und „die Beschwer (§ 350 AO“.
+
+  Darstellungsentscheidung: Die fünf Arbeitsschritte der Klausurtechnik und die
+  Gegenüberstellung der beiden Beratungssituationen stehen in der Quelle als fortlaufender
+  Text mit Spiegelstrichen; sie sind zur besseren Zuordnung als Tabellen wiedergegeben. Der
+  Wortlaut ist unverändert.
+
+  Nachgerechnet und zutreffend: Die Punkteverteilung der ersten Prüfungsklausur – 35 Punkte
+  AO/FGO, 35 Punkte USt und 30 Punkte ErbSt – ergibt die von der Quelle genannten
+  **100 Punkte**.
