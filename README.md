@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 16 Kapitel mit 189 Abschnitten und zwölf
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 19 Kapitel mit 213 Abschnitten und 16
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2489,6 +2489,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gewerbeertrag steckt. Über allem steht der Vorrang des Abkommensrechts: Verbietet ein DBA die
   Besteuerung der Dividende, ist nach dem BFH auch § 8 Nr. 5 GewStG verdrängt.
   **Damit sind die Kapitel 1 und 2 der Quelle vollständig.**
+  Aus **Kapitel 3 (Steuerfreiheit von Veräußerungsgewinnen)** ist der Grundfall der Veräußerung
+  eingepflegt. Er beginnt mit der wichtigsten Abgrenzung des Skripts: § 8b Abs. 2 KStG setzt
+  **keine** Mindestbeteiligungsquote voraus – auch die Veräußerung von Streubesitzanteilen ist
+  freigestellt, gleich ob in- oder ausländisch. Dieselbe Beteiligung kann also laufende
+  Ausschüttungen steuerpflichtig erbringen und beim Verkauf steuerfrei bleiben. Der Gewinn ermittelt
+  sich nach § 8b Abs. 2 Satz 2 KStG als Veräußerungspreis abzüglich Veräußerungskosten und
+  Buchwert. **Kaufpreisveränderungen** wirken als rückwirkendes Ereignis nach § 175 Abs. 1 Nr. 2 AO
+  auf das Veräußerungsjahr zurück, weil die Ermittlung stichtagsbezogen ist – ausgenommen sind
+  gewinn- oder umsatzabhängige Kaufpreisteile, die im Zeitpunkt des Übergangs des wirtschaftlichen
+  Eigentums noch nicht hinreichend bestimmt waren und deshalb erst im Jahr ihrer Entstehung erfasst
+  werden (dort ebenfalls steuerfrei). Die **Veräußerungskosten** teilen das Schicksal des
+  steuerfreien Gewinns; fallen sie in einem anderen Jahr an, werden sie durch gegenläufige
+  außerbilanzielle Korrekturen in das Veräußerungsjahr verschoben – im Beispiel bleibt über beide
+  Jahre hinweg genau die Pauschale von 22.500 € übrig.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

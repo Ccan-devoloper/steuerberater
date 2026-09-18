@@ -14,7 +14,10 @@
    vollständig – vom Begriff der Gewinnausschüttung über das Korrespondenzprinzip,
    die Mindestbeteiligungsquote und die Kapitalertragsteuer bis zur
    Betriebsausgabenpauschalierung und der gesamten gewerbesteuerlichen
-   Behandlung. Es folgen die Kapitel 3 bis 6; der Campus weist den Stand aus.
+   Behandlung. Aus Kapitel 3 (Veräußerungsgewinne) ist der Grundfall der
+   Veräußerung übernommen (3.1 und 3.2.1). Es folgen der weite
+   Veräußerungsbegriff (3.2.2) und die Abschnitte 3.3 bis 3.5 sowie die
+   Kapitel 4 bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -624,6 +627,109 @@ export const kstTeil2 = [
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie führt die Rechnung der Quelle in einem Zug vor, weil der Fall drei Vorschriften nacheinander durchläuft. Die Probe auf die 95 %: Hinzugerechnet werden 95.000 €, weil die 5.000 € Pauschale das Einkommen schon belastet haben – ohne die Gegenrechnung würden sie doppelt erfasst. Bemerkenswert ist die Gegenprobe im letzten Satz des ersten Absatzes: Greift bereits **körperschaftsteuerlich** die Streubesitzregelung des § 8b Abs. 4 KStG, entfällt die Hinzurechnung nach § 8 Nr. 5 GewStG vollständig, weil die Ausschüttung dann ohnehin schon im Gewerbeertrag steckt. § 8 Nr. 5 GewStG korrigiert also nur, was § 8b Abs. 1 KStG zuvor herausgenommen hat." },
       { text: "Merke (eigene Zusammenfassung des Abschnitts 2.3): Die gewerbesteuerliche Prüfung einer Gewinnausschüttung läuft immer in derselben Reihenfolge. Erstens: Ist die Ausschüttung körperschaftsteuerlich freigestellt, so dass sie in der Ausgangsgröße des § 7 Satz 1 GewStG fehlt? Zweitens: Greift ein Schachtelprivileg – § 9 Nr. 2a GewStG im Inland, § 9 Nr. 7 GewStG im Ausland, daneben § 9 Nr. 8 GewStG im DBA-Fall? Drittens: Wenn nicht, dreht § 8 Nr. 5 GewStG die Freistellung zurück, und zwar um 95 % der Ausschüttung. Viertens: Die tatsächlichen Aufwendungen folgen entweder § 8 Nr. 1 GewStG oder – wenn die Ausschüttung nur gewerbesteuerfrei ist – dem Kürzungsrahmen des § 9 Nr. 2a Satz 3 GewStG. Und über allem steht der Vorrang des Abkommensrechts: Verbietet ein DBA die Besteuerung der Dividende, ist auch § 8 Nr. 5 GewStG verdrängt." },
+    ],
+  },
+  {
+    id: "kst-t2-17",
+    kapitel: "17",
+    abschnittNr: "3.1 und 3.2.1.1",
+    title: "3. Steuerfreiheit von Veräußerungsgewinnen (§ 8b Abs. 2 KStG) – Hintergrund und Definition",
+    thema: "Der Veräußerungsgewinn wird freigestellt, weil er einer Vollausschüttung der in der Beteiligung ruhenden Reserven gleichkommt. Anders als bei Absatz 1 gibt es dafür **keine** Mindestbeteiligungsquote – auch Streubesitzanteile sind erfasst",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 3.1 und 3.2.1.1 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 2 Satz 1 KStG", "§ 8b Abs. 2 Satz 2 KStG",
+      "§ 8b Abs. 2 Satz 3 KStG", "§ 8b Abs. 2 Sätze 4 und 5 KStG",
+      "§ 8b Abs. 3 Satz 3 KStG", "§ 8b Abs. 4 KStG",
+      "§§ 14, 17 KStG",
+    ],
+    themen: ["Veräußerungsgewinn", "Vollausschüttung", "Keine Mindestquote", "Organgesellschaft", "Veräußerungsgleiche Tatbestände", "Berechnungsschema"],
+    bloecke: [
+      { typ: "titel", text: "3.1 Hintergrund der Steuerfreiheit" },
+      { text: "§ 8b Abs. 2 Satz 1 KStG stellt den Veräußerungsgewinn aus einer Beteiligung steuerfrei. Dies ist sachgerecht, weil dieser einer „Vollausschüttung“ der in der Beteiligung ruhenden offenen und stillen Reserven gleichzusetzen ist, welche beim Anteilseigner bereits nach § 8b Abs. 1 KStG steuerfrei gewesen wäre. Gleiches gilt auch in den Fällen einer Beteiligung an einer Organgesellschaft i. S. der §§ 14, 17 KStG durch den Organträger. § 8b Abs. 2 Satz 3 KStG erstreckt die Steuerfreiheit zudem auch auf veräußerungsgleiche Tatbestände (siehe unter 3.2.2). Eine Ausnahme von der Steuerfreiheit ergibt sich nur in den Fällen einer steuerpflichtigen Wertaufholung i. S. des § 8b Abs. 2 Satz 4 und Satz 5 KStG (siehe unter 3.3). In den Fällen eines Veräußerungsverlustes kommt § 8b Abs. 3 Satz 3 KStG zur Anwendung (siehe unter 4.1.1)." },
+      { text: "Im Gegensatz zu § 8b Abs. 1 KStG setzt die Steuerfreiheit des § 8b Abs. 2 KStG keine Mindestbeteiligungsquote voraus. Diese greift daher auch bei der Veräußerung von Streubesitzanteilen i. S. des § 8b Abs. 4 KStG und unabhängig davon, ob es sich um eine in- oder ausländische Beteiligung handelt." },
+      { text: "Merke: § 8b Abs. 2 KStG stellt den Veräußerungsgewinn einer Beteiligung steuerfrei. Eine Mindestbeteiligungsquote ist dafür nicht vorgesehen." },
+      { text: "Anmerkung zu diesem Unterschied (eigene Ergänzung): Er ist die wichtigste Abgrenzung des ganzen Kapitels und in der Klausur leicht zu übersehen, weil § 8b Abs. 4 KStG in den Absätzen zuvor jede Prüfung beherrscht hat. Beim **Veräußerungsgewinn** spielt die Beteiligungsquote keine Rolle: Wer 1 % hält und mit Gewinn verkauft, ist ebenso freigestellt wie der Mehrheitsgesellschafter. Die Streubesitzregelung betrifft allein die laufenden Bezüge. Das führt zu der auf den ersten Blick überraschenden Folge, dass dieselbe Beteiligung laufende Ausschüttungen steuerpflichtig erbringt, ihr Verkauf aber steuerfrei bleibt." },
+      { typ: "titel", text: "3.2.1.1 Definition des steuerfreien Veräußerungsgewinnes" },
+      { text: "Als Veräußerungsgewinn i. S. des § 8b Abs. 2 KStG gilt nach der Definition des § 8b Abs. 2 Satz 2 KStG folgender Betrag:" },
+      { typ: "tabelle", spalten: ["Ermittlung nach § 8b Abs. 2 Satz 2 KStG", ""], zeilen: [
+        ["Veräußerungspreis", ""],
+        ["./. Veräußerungskosten", ""],
+        ["./. Buchwert bei Veräußerung", ""],
+        ["= Veräußerungsgewinn i. S. des § 8b Abs. 2 KStG", ""],
+      ] },
+      { text: "Diesbezüglich sind folgende Grundsätze zu beachten: (Die Quelle leitet mit diesem Satz zu den Abschnitten 3.2.1.2 und 3.2.1.3 über.)" },
+    ],
+  },
+  {
+    id: "kst-t2-18",
+    kapitel: "18",
+    abschnittNr: "3.2.1.2",
+    title: "3.2.1.2 Kaufpreisveränderungen",
+    thema: "Eine spätere Änderung des Kaufpreises wirkt als rückwirkendes Ereignis auf das Veräußerungsjahr zurück, weil § 8b Abs. 2 Satz 2 KStG stichtagsbezogen rechnet. Ausgenommen sind gewinn- oder umsatzabhängige Kaufpreisteile – sie entstehen erst später und bleiben dort steuerfrei",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 3.2.1.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 2 Satz 1 KStG", "§ 8b Abs. 2 Satz 2 KStG",
+      "§ 175 Abs. 1 Nr. 2 AO",
+      "BFH vom 22.12.2010, BStBl. II 2015, 668", "BFH vom 12.03.2014, BStBl. II 2015, 658",
+      "BFH vom 10.04.2019, BStBl. II 2020, 674", "BFH vom 19.12.2018, BStBl. II 2019, 493",
+      "BMF vom 24.07.2015, BStBl. I 2015, 612", "BMF vom 05.10.2020, BStBl. I 2020, 1033",
+      "H 8b KStH „Veräußerungskosten/nachträgliche Kaufpreisänderungen“",
+    ],
+    themen: ["Kaufpreisveränderung", "Rückwirkendes Ereignis", "Stichtagsbezogene Gewinnermittlung", "Wechselkursschwankungen", "Gewinnabhängiger Kaufpreis"],
+    bloecke: [
+      { text: "Grundlage für die Gewinnermittlung ist der Veräußerungspreis. Verändert sich der Veräußerungspreis in einem nachfolgenden Jahr, wirkt dies auch auf das Wirtschaftsjahr der Anteilsveräußerung zurück. Denn der für Zwecke des § 8b Abs. 2 Satz 2 KStG maßgebende Veräußerungspreis ist das tatsächlich vereinnahmte Entgelt. Die Kaufpreisveränderung in dem nachfolgenden Jahr gilt insoweit als rückwirkendes Ereignis i. S. des § 175 Abs. 1 Nr. 2 AO, wodurch es bei der Einkommensermittlung des Veräußerungsjahres zu einer außerbilanziellen Korrektur des bisherigen Veräußerungspreises kommt. Der BFH folgert dies aus der stichtagsbezogenen Gewinnermittlung des § 8b Abs. 2 Satz 2 KStG, wonach sich die Auswirkungen des § 8b KStG auch nur in dem VZ der tatsächlichen Anteilsveräußerung ergeben können. Im Jahr der Kaufpreisveränderung wird daraus resultierende Gewinnbeeinflussung (aufgrund Veränderung der Kaufpreisforderung) wieder durch eine gegenläufige außerbilanzielle Korrektur beseitigt. Die Finanzverwaltung ist dieser Rechtsprechung mit BMF-Schreiben vom 24.07.2015 gefolgt." },
+      { text: "Wird der Veräußerungspreis in einer Fremdwährung abgewickelt und verändert sich dieser aufgrund von Wechselkursschwankungen, unterliegen auch diese Wertsteigerungen in Fällen eines Devisentermingeschäftes der Steuerfreiheit des § 8b Abs. 2 KStG. Gleiches gilt für etwaige Verluste (Wertminderungen), die dann zu den Veräußerungskosten i. S. des § 8b Abs. 2 Satz 2 KStG gehören. Zur Anwendung der Urteilsgrundsätze hat das BMF mit Schreiben vom 05.10.2020 zwischenzeitlich Stellung genommen." },
+      { text: "Etwas Anderes gilt nur in den Fällen eines (zusätzlichen) gewinn- oder umsatzabhängigen Veräußerungspreises. Dieser Ertrag entsteht erst nachfolgend bei Eintritt der bei Veräußerung vereinbarten vertraglichen Voraussetzungen und fließt dem Veräußerer daher frühestens zu diesem Stichtag zu, so dass eine rückwirkende Erfassung dieses Erlöses im Jahr der Anteilsveräußerung ausscheidet. Denn bei Übertragung des wirtschaftlichen Eigentums an den Anteilen war dieser Anspruch noch nicht hinreichend bestimmt. Der dadurch nachfolgend entstehende Mehrerlös unterliegt dann im Veranlagungszeitraum seiner Entstehung der Steuerfreiheit i. S. des § 8b Abs. 2 Satz 1 KStG, weil dieser nur durch die vorangegangene Anteilsveräußerung veranlasst ist." },
+      { typ: "tabelle", spalten: ["Art der Kaufpreisveränderung", "Zeitliche Zuordnung", "Rechtsgrundlage"], zeilen: [
+        ["nachträgliche Änderung des vereinbarten Kaufpreises", "rückwirkend im Veräußerungsjahr; im Änderungsjahr gegenläufige Korrektur", "§ 175 Abs. 1 Nr. 2 AO wegen der stichtagsbezogenen Ermittlung des § 8b Abs. 2 Satz 2 KStG"],
+        ["Wechselkursänderung bei Devisentermingeschäft", "im Veräußerungsjahr – Gewinn nach § 8b Abs. 2 KStG steuerfrei, Verlust als Veräußerungskosten", "§ 8b Abs. 2 Satz 2 KStG"],
+        ["gewinn- oder umsatzabhängiger Kaufpreisteil", "erst im Jahr der Entstehung – keine Rückwirkung", "§ 8b Abs. 2 Satz 1 KStG, weil der Mehrerlös durch die Veräußerung veranlasst ist"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet die drei Fälle, die die Quelle nacheinander behandelt, nach ihrer zeitlichen Zuordnung. Der Unterschied zwischen der ersten und der dritten Zeile ist der Prüfungspunkt und lässt sich auf eine Frage bringen: War der Anspruch im Zeitpunkt des Übergangs des wirtschaftlichen Eigentums schon **hinreichend bestimmt**? Beim nachträglich geänderten Festkaufpreis ja – er wird nur korrigiert, und die Korrektur wirkt zurück. Beim gewinnabhängigen Kaufpreisteil nein – er entsteht erst später und wird auch erst dann erfasst. Steuerfrei ist er in beiden Fällen, nur eben in verschiedenen Veranlagungszeiträumen." },
+    ],
+  },
+  {
+    id: "kst-t2-19",
+    kapitel: "19",
+    abschnittNr: "3.2.1.3",
+    title: "3.2.1.3 Schicksal der Veräußerungskosten",
+    thema: "Veräußerungskosten mindern ausschließlich den steuerfreien Veräußerungsgewinn und teilen dessen Schicksal – sie wirken sich also im Ergebnis nicht aus. Fallen sie in einem anderen Jahr an, sind sie durch gegenläufige außerbilanzielle Korrekturen in das Veräußerungsjahr zu verschieben",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 3.2.1.3 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 2 Satz 1 KStG", "§ 8b Abs. 2 Satz 2 KStG", "§ 8b Abs. 3 Satz 1 KStG",
+      "BFH vom 12.03.2014, BStBl. II 2014, 719", "BFH vom 09.04.2014, BStBl. II 2014, 861",
+      "BFH vom 15.06.2016, BStBl. II 2017, 182",
+      "BMF vom 24.07.2015, BStBl. I 2015, 612",
+    ],
+    themen: ["Veräußerungskosten", "Wirtschaftliche Veranlassung", "Periodenübergreifende Korrektur", "Betriebsausgabenpauschalierung"],
+    bloecke: [
+      { text: "Die mit der Veräußerung unmittelbar zusammenhängenden Veräußerungskosten mindern ausschließlich den nach § 8b Abs. 2 KStG steuerfreien Veräußerungsgewinn. Als Veräußerungskosten gelten danach sämtliche Aufwendungen, die durch den Veräußerungsvorgang wirtschaftlich veranlasst sind. Für diese Zwecke ist ausschließlich darauf abzustellen, ob diese Aufwendungen erst durch die Veräußerung ausgelöst worden sind und daher die Entstehung dieser Aufwendungen in Verbindung mit dem Veräußerungsvorgang gebracht werden können. Dies sind in aller Regel z. B. die Notar- und Beratungskosten, aber auch etwaige Folgekosten des Veräußerungsvorgangs. Diese Aufwendungen sind zwar bilanziell wie „herkömmliche“ Betriebsausgaben zu behandeln, teilen aber hinsichtlich ihrer Abzugsfähigkeit das Schicksal des steuerfreien Veräußerungsgewinnes. Weil sie nach der Formel des § 8b Abs. 2 Satz 2 KStG ausschließlich die Höhe des steuerfreien Gewinnes beeinflussen, werden sie im Rahmen der Einkommensermittlung wieder eliminiert." },
+      { text: "Merke: Bei der Ermittlung des steuerfreien Veräußerungsgewinnes sind auch die damit zusammenhängenden Veräußerungskosten zu berücksichtigen. Diese teilen das Schicksal des steuerfreien Gewinnes." },
+      { text: "Die o. g. Rechtsprechung des BFH zu den Kaufpreisveränderungen wirkt sich somit auch auf die Behandlung der Veräußerungskosten aus, die außerhalb des VZ der tatsächlichen Anteilsveräußerung entstanden sind bzw. sich nachträglich verändern. Danach sind diese Veräußerungskosten außerbilanziell vom Gewinn des Veräußerungsjahres abzuziehen und anschließend im Rahmen der Gewinnermittlung i. S. des § 8b Abs. 2 Satz 2 KStG zu erfassen. Der Aufwand des Jahres, in welchem die Veräußerungskosten tatsächlich angefallen und zutreffend buchhalterisch erfasst worden sind, ist korrespondierend dazu außerbilanziell hinzuzurechnen." },
+      { text: "Beispiel: Die B-GmbH veräußert in 2026 ihre Beteiligung an der A-GmbH für 1.000.000 € (Buchwert: 500.000 €). Bereits in 2025 musste sie Veräußerungskosten (Notar, Beratung) von 50.000 € aufwenden, die als Betriebsausgaben verbucht wurden." },
+      { text: "Lösung: Die Veräußerungskosten sind in 2025 zunächst zutreffend als Betriebsausgaben verbucht worden. Weil sie aber mit der in 2026 vollzogenen Anteilsveräußerung im Zusammenhang stehen, dürfen sich diese auch nur in diesem VZ auswirken. Daher ist der Aufwand in 2025 durch eine außerbilanzielle Hinzurechnung von 50.000 € wieder zu beseitigen." },
+      { text: "In 2026 vermindern diese Aufwendungen zunächst das bilanzielle Ergebnis (aber nur durch einen entsprechenden außerbilanziellen Abzug). Weil im Zuge der Anteilsveräußerung ein Gewinn entsteht, ist dieser nach § 8b Abs. 2 Satz 1 KStG steuerfrei. Nach der Gewinnermittlung des § 8b Abs. 2 Satz 2 KStG mindern sich danach auch die Veräußerungskosten entsprechend aus. Der maßgebliche Veräußerungsgewinn beträgt danach 450.000 € (1.000.000 € ./. 500.000 € ./. 50.000 €). Gleichzeitig kommt die Betriebsausgabenpauschalierung i. S. des § 8b Abs. 3 Satz 1 KStG zur Anwendung. (Der verunglückte Satzteil „mindern sich danach auch die Veräußerungskosten entsprechend aus“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Veranlagungszeitraum 2025", "Betrag"], zeilen: [
+        ["Aufwand", "./. 50.000 €"],
+        ["Korrektur (außerbilanzielle Hinzurechnung)", "+ 50.000 €"],
+        ["= zu versteuerndes Einkommen", "0 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Veranlagungszeitraum 2026", "Betrag"], zeilen: [
+        ["Jahresüberschuss", "500.000 €"],
+        ["Korrektur (außerbilanzieller Abzug der Veräußerungskosten aus 2025)", "./. 50.000 €"],
+        ["= Zwischensumme", "450.000 €"],
+        ["§ 8b Abs. 2 KStG", "./. 450.000 €"],
+        ["§ 8b Abs. 3 Satz 1 KStG", "+ 22.500 €"],
+        ["= Summe", "22.500 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Der Veräußerungsgewinn beträgt 1.000.000 € ./. 500.000 € Buchwert ./. 50.000 € Veräußerungskosten = 450.000 €; die Pauschale sind 5 % davon = 22.500 €. Die Probe auf das Gesamtergebnis: Über beide Jahre hinweg bleibt genau die Pauschale von 22.500 € übrig – die 50.000 € Veräußerungskosten heben sich zwischen den Jahren auf, und der Veräußerungsgewinn wird vollständig freigestellt." },
+      { text: "Anmerkung zur Technik der Verschiebung (eigene Ergänzung): Der Fall zeigt eine Besonderheit, die beim ersten Lesen verwirrt: Derselbe Betrag von 50.000 € wird in 2025 hinzugerechnet und in 2026 abgezogen, obwohl er in 2026 bilanziell gar nicht angefallen ist. Der Grund liegt in der Formel des § 8b Abs. 2 Satz 2 KStG – sie verlangt den Abzug der Veräußerungskosten vom Veräußerungspreis, unabhängig davon, wann sie gebucht wurden. Die beiden außerbilanziellen Korrekturen verschieben den Aufwand also nur rechnerisch in das Jahr, in dem die Formel ihn braucht. Wirtschaftlich ändert sich dadurch nichts, weil er ohnehin im steuerfreien Gewinn aufgeht; die Verschiebung wirkt sich allein über die um 2.500 € niedrigere Pauschale aus (5 % von 50.000 €)." },
     ],
   },
 ];

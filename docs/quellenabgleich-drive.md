@@ -10617,8 +10617,41 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Kapitel 3 bis 6; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 3.2.2; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 3.1 bis 3.2.1.3 – Veräußerungsgewinne, Grundfall
+
+Quelle: dieselbe Datei; übernommen als Kapitel 17 bis 19. Prüfung:
+`npm run check:k2-kst-teil2` (19 Kapitel, 213 Blöcke, 16 Tabellen).
+
+**Die wichtigste Abgrenzung des ganzen Skripts** steht am Anfang des Kapitels 3 und ist in der
+Klausur leicht zu übersehen, weil § 8b Abs. 4 KStG die vorangegangenen Abschnitte beherrscht hat:
+§ 8b Abs. 2 KStG setzt **keine** Mindestbeteiligungsquote voraus. Wer 1 % hält und mit Gewinn
+verkauft, ist ebenso freigestellt wie der Mehrheitsgesellschafter. Daraus folgt die auf den ersten
+Blick überraschende Konsequenz, die der Datensatz eigens hervorhebt: Dieselbe Beteiligung kann
+laufende Ausschüttungen steuerpflichtig erbringen und beim Verkauf steuerfrei bleiben.
+
+**Die Abgrenzung bei den Kaufpreisveränderungen** lässt sich auf eine Frage bringen, die der
+Datensatz als eigene Ergänzung formuliert: War der Anspruch im Zeitpunkt des Übergangs des
+wirtschaftlichen Eigentums schon **hinreichend bestimmt**? Beim nachträglich geänderten
+Festkaufpreis ja – die Änderung wirkt nach § 175 Abs. 1 Nr. 2 AO zurück. Beim gewinnabhängigen
+Kaufpreisteil nein – er wird erst im Jahr seiner Entstehung erfasst. Steuerfrei ist er in beiden
+Fällen, nur in verschiedenen Veranlagungszeiträumen.
+
+**Die periodenübergreifende Verschiebung der Veräußerungskosten** verwirrt beim ersten Lesen, weil
+derselbe Betrag von 50.000 € in 2025 hinzugerechnet und in 2026 abgezogen wird, obwohl er dort
+bilanziell gar nicht angefallen ist. Der Datensatz erklärt den Grund: Die Formel des
+§ 8b Abs. 2 Satz 2 KStG verlangt den Abzug der Veräußerungskosten vom Veräußerungspreis,
+unabhängig vom Buchungsjahr. Die beiden Korrekturen verschieben den Aufwand also nur rechnerisch
+dorthin, wo die Formel ihn braucht. Wirtschaftlich wirkt sich das allein über die um 2.500 €
+niedrigere Pauschale aus. Sämtliche Zahlen sind nachgerechnet: 1.000.000 € ./. 500.000 € ./.
+50.000 € = 450.000 €, davon 5 % = 22.500 €, und über beide Jahre hinweg bleibt genau dieser Betrag
+übrig.
+
+**Eine weitere Eigenheit der Quelle, wortlautgetreu übernommen und gekennzeichnet:** der
+verunglückte Satzteil „mindern sich danach auch die Veräußerungskosten entsprechend aus“ im
+Abschnitt 3.2.1.3.
 
 ### KSt Teil II (Hamacher), Abschnitte 2.3.2 bis 2.3.4 – Auslandsfälle und Streubesitzdividende
 
