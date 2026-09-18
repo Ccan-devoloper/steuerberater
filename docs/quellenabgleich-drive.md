@@ -2726,3 +2726,46 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   genannte Fälligkeit zum **17.07.04** als auch die Rechtzeitigkeit des Einspruchs vom
   05.07.04. Die Nachzahlungen 4.900 € + 4.250 € = **9.150 €** stimmen mit der in den
   Lösungshinweisen genannten Summe überein.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 15: Vollstreckungsrecht (Teil 4)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 15, Übungsfall 2 aus Teil VI mit seinen Lösungshinweisen aus Teil VII.
+- Einpflege dieses Durchgangs: drei Kapitel – der Sachverhalt des Übungsfalls 2
+  (Handelsvertreter Jens Jägermeister, Passau) mit allen drei Aufgaben, die
+  Lösungshinweise zu den Aufgaben 1 und 2 (Zulässigkeit der Einsprüche beider Ehegatten)
+  und die Lösungshinweise zur Aufgabe 3 (Beseitigung der Pfändungen). Das Skript umfasst
+  jetzt 11 Teile, 126 Kapitel, 2.711 Blöcke und 221 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: nur noch die Anlagen 1 und 2 (Auszüge aus BGB und ZPO).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 15 (Sachverhalt): „Sie **führe** sich daneben aber auch noch … in ihren Rechten
+    verletzt“ (gemeint: fühle); „**Rechtsbehelfbelehrung**“ ohne Fugen-s; „bei Frau
+    Jägermeister laufe sowieso keine Frist, da **sich** nicht die Adressatin der
+    Pfändungsmaßnahmen gewesen sei“ (gemeint: sie).
+  - Kapitel 16: Die Überschrift lautet „gegen die **erfolgen** Pfändungsmaßnahmen“ (gemeint:
+    erfolgten); „deren Rechtmäßigkeit **einzelnen** zu beurteilen ist“ (gemeint: einzeln);
+    „sondern bestenfalls nur mittelbar. **eine** Einspruchsbefugnis …“ in Kleinschreibung;
+    „bringt Frau Jägermeister … nicht vor **und sich** auch nach der Aufgabenstellung nicht
+    zu prüfen“ (gemeint: und sind auch … nicht zu prüfen).
+  - Kapitel 17: „sind sie grundsätzlich **aus** Vollstreckungstitel geeignet“ (gemeint: als);
+    „dass die Einlegung eines Einspruches die Vollziehung … nicht **verhindern**“
+    (Numerusfehler); ein Punkt mitten im Satz bei „keine Verwertung (zB nach § 296 AO).
+    **mehr** stattfinden darf“; die nicht geschlossene Klammer „(§§ 285, 286 Abs. 1 und 2
+    AO.“; und die Vollziehungsanweisung einmal im Singular, einmal im Plural zitiert.
+
+  Nachgerechnet und zutreffend: Der Schätzungsbescheid ging am 06.02.07 zur Post, war damit
+  am **10.02.07** bekannt gegeben und einen Monat später – am **10.03.07** – fällig
+  (§ 18 Abs. 4 Satz 2 UStG), so wie es die Lösungshinweise angeben; auf denselben Zeitpunkt
+  hat das Finanzamt das Zwangsgeld gelegt. Die Mahnung über **7.300 €** entspricht
+  7.100 € + 200 €, die Beschränkung der Vollstreckung auf **7.100 €** dem Wegfall des
+  Zwangsgeldes, und die beantragte Herabsetzung auf 5.700 € einer Minderung um **1.400 €**.
+  Die Fristberechnung geht auf: Pfändung am Freitag, dem 08.06.07, Fristbeginn 09.06.07,
+  Fristende regulär 08.07.07 – ein Sonntag –, daher **09.07.07**; der Einspruch ging am
+  Dienstag, dem 17.07.07 ein und war um acht Tage verspätet. Auch die Wochentagsangaben des
+  Sachverhalts treffen zu (08.06.2007 Freitag, 14.06.2007 Donnerstag, 08.07.2007 Sonntag,
+  17.07.2007 Dienstag; ebenso 10.05.2007 Donnerstag).

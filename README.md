@@ -337,7 +337,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Arbeitsmittel nach § 295 Satz 1 AO iVm § 811 Abs. 1 Nr. 5 ZPO, die wirksame Pfändung der
   Stereoanlage trotz behaupteten Dritteigentums der Freundin sowie Einspruch, Aussetzung
   der Vollziehung der Pfändungen, Vollstreckungsaufschub und Drittwiderspruchsklage nach
-  § 262 AO.
+  § 262 AO. Ebenso steht der **Übungsfall 2** (Handelsvertreter Jens Jägermeister, Passau)
+  mit Sachverhalt und den Lösungshinweisen zu allen drei Aufgaben: die Pfändung von
+  Home-Cinema-Ausrüstung, PC-Anlage und Standuhr als drei selbständige Verwaltungsakte,
+  deren Einspruchsfrist bereits mit dem Anlegen des Pfandsiegels beginnt (§ 356 AO greift
+  mangels schriftlichen Verwaltungsakts nicht), die Fristberechnung vom 09.06.07 über den
+  Sonntag, den 08.07.07 bis zum 09.07.07 und die Ablehnung der Wiedereinsetzung wegen
+  Vermögenslosigkeit; der Vorrang des § 262 AO vor dem Einspruch der Ehefrau, deren
+  Einsprüche insgesamt unzulässig sind und als Widerspruch ausgelegt werden; sowie die
+  Beseitigung der Pfändungen außerhalb des Einspruchsverfahrens – Einstellung des
+  Zwangsgeldvollzugs nach § 335 AO und Beschränkung der Vollstreckung auf 7.100 €,
+  Aufhebung der Home-Cinema-Pfändung wegen des Miteigentums der Ehefrau mit Verweis auf
+  die Pfändung des Miteigentumsanteils nach § 321 Abs. 1 AO, Rücknahme der
+  PC-Anlagen-Pfändung nach § 130 Abs. 1 AO bei auf null reduziertem Ermessen und Aufhebung
+  der Standuhr-Pfändung wegen nachgewiesenen Dritteigentums.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

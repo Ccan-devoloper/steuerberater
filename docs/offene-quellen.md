@@ -105,9 +105,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Beschränkung der Vollstreckung nach § 257 AO) und der Teil IV (Vollstreckung wegen
   Geldforderungen in bewegliche Sachen, §§ 281ff AO, einschließlich der Vollstreckung gegen
   Ehegatten), der Teil V (Einwendungen gegen Vollstreckungsmaßnahmen und Rechtsschutz) sowie
-  aus den Teilen VI und VII der Übungsfall 1 mit Lösungshinweisen eingepflegt. Offen ist aus
-  diesem Band noch der **Übungsfall 2 des Abschnitts 15** (Handelsvertreter Jägermeister)
-  mit seinen Lösungshinweisen sowie die Anlagen 1 und 2 (Auszüge aus BGB und ZPO).
+  die Teile VI und VII mit beiden Übungsfällen und ihren Lösungshinweisen eingepflegt. Offen
+  sind aus diesem Band nur noch die **Anlagen 1 und 2 des Abschnitts 15** (Auszüge aus BGB
+  und ZPO).
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript
