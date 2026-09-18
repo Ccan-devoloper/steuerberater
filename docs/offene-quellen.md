@@ -207,9 +207,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Anzeigepflichten und Optionsverschonung), der **Abschnitt III** (Großerwerbe über
   26 Mio. € mit § 13c ErbStG und der Verschonungsbedarfsprüfung nach § 28a ErbStG) und der
   **Abschnitt IV** (Steuerbefreiung für zu Wohnzwecken vermietete Grundstücke nach § 13d
-  ErbStG). Offen sind die **Abschnitte V und VI** (Steuerberechnung mit Steuerklassen,
-  Freibeträgen, Steuersätzen, Tarifbegrenzung und der Berücksichtigung früherer Erwerbe
-  sowie Steuerfestsetzung und Erhebung) und die Lösungsdatei
+  ErbStG) sowie aus dem **Abschnitt V** die Tz. 1 bis 3 (Steuerklassen, Freibeträge,
+  Steuersätze mit Härteausgleich). Offen sind die Tz. 4 und 5 des Abschnitts V
+  (Tarifbegrenzung nach § 19a ErbStG und die Berücksichtigung früherer Erwerbe) sowie der
+  **Abschnitt VI** (Steuerfestsetzung und Erhebung) und die Lösungsdatei
   `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`.
 - **ErbSt-Fallsammlung 4. Termin** (`1HuXWysA6NBRDAltBmHei54XFo3POwOtV`, 2,4 MB, im selben
   Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`): bei der Sichtung dieses Ordners neu

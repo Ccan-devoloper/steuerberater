@@ -159,7 +159,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Abschnitt IV** zum 10-Prozent-Abschlag für zu Wohnzwecken vermietete Grundstücke
   (§ 13d ErbStG) mit der Amtshilfevoraussetzung für Drittstaaten nach dem
   Jahressteuergesetz 2024 und dem durchgerechneten Fall der Erbauseinandersetzung mit
-  Ausgleichszahlung.
+  Ausgleichszahlung. Aus dem **Abschnitt V** stehen die Grundlagen der Steuerberechnung: die
+  drei **Steuerklassen** des § 15 ErbStG, die **persönlichen Freibeträge** von 500.000 € bis
+  20.000 € samt ihrer anteiligen Kürzung bei beschränkter Steuerpflicht (Schweizer Fall:
+  400.000 € auf 100.000 €), die nach Alter gestaffelten **Versorgungsfreibeträge** und der
+  **Stufentarif** des § 19 ErbStG mit dem **Härteausgleich**, der im Beispiel der Quelle die
+  Mehrsteuer von 27.800 € auf 10.000 € begrenzt, samt der Grenzwerttabelle der ErbStH.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den

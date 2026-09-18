@@ -5252,3 +5252,42 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     § 13d Abs. 1 ErbStG verweist auf den Absatz 3 derselben Vorschrift, den die Quelle
     unmittelbar danach auch zitiert.
   - **Abschnitt IV Tz. 2.** „Der verminderte Wertansatz gilt **dem** § 13d Abs. 3 ErbStG“.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Abschnitt V, Tz. 1 bis 3: Steuerklassen, Freibeträge, Tarif
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt V
+  Tz. 1 bis 3, PDF-Seiten 46 bis 50.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 13 Teile,
+  28 Kapitel, 419 Blöcke und 42 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Beide gelösten Beispiele sind nachgerechnet; beide gehen auf.** Der Schweizer Fall:
+  600.000/800.000 = 75 %, davon 400.000 € ergibt 300.000 € Minderung, es verbleiben
+  100.000 € – genau der Anteil des Inlandsvermögens am Gesamtnachlass (200.000/800.000 =
+  ein Viertel von 400.000 €). Der Härteausgleich: 620.000 € × 19 % = 117.800 € gegenüber
+  600.000 € × 15 % = 90.000 €, Mehrsteuer 27.800 €, begrenzt auf die Hälfte der
+  übersteigenden 20.000 €, also 10.000 €, Steuer 100.000 €.
+
+  Die Wirkung des Härteausgleichs ist im Datensatz beziffert: Ohne ihn würden 20.000 € mehr
+  Erwerb 27.800 € mehr Steuer kosten – der Erwerber stünde nach Steuern schlechter da als
+  bei einem Erwerb von genau 600.000 €.
+
+  Redaktioneller Befund: Das Beispiel zum **Versorgungsfreibetrag** (Witwe eines
+  Landesbeamten, 70 Jahre, 1.000 € monatlich) steht **ohne Lösung** und ist nicht
+  aufgelöst. Der Rechenweg ist im Datensatz benannt – Jahreswert 12.000 €, Kapitalisierung
+  nach § 14 Abs. 1 BewG mit dem nach Alter und Geschlecht gestaffelten Vervielfältiger,
+  Abzug vom Freibetrag von 256.000 € –, **der maßgebende Vervielfältiger steht in dieser
+  Quelle jedoch nicht und ist nicht ergänzt worden.** Das ist derselbe Vervielfältiger, den
+  der Bewertungsteil 1 (Schäfer) nach dem BMF-Schreiben vom 09.12.2024 behandelt; der
+  Querbezug ist vermerkt.
+
+  Beobachtung zur Grenzwerttabelle des Härteausgleichs (H E 19 ErbStH): Die Striche in der
+  Steuerklasse III sind folgerichtig, weil der Satz dort über weite Strecken konstant bei
+  30 % bzw. 50 % bleibt und an diesen Wertgrenzen kein Tarifsprung entsteht. Nur beim
+  Übergang von 30 % auf 50 % oberhalb von 6.000.000 € gibt es einen – und genau dort steht
+  der einzige Wert der Spalte, 10.799.900.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet: die doppelte Satzkonstruktion „sind die persönlichen Freibeträge … **sind**
+  anteilig zu gewähren **sind**“ in der Tz. 2 a) sowie die Angabe „× 400.000“ ohne
+  Währungszeichen in der zugehörigen Beispielrechnung.
