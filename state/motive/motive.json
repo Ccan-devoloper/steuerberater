@@ -130,6 +130,50 @@
       "benutzt": 1,
       "breite": 1038,
       "hoehe": 718
+    },
+    {
+      "datei": "2026-09-18-ul4r7r.webp",
+      "szene": "opened envelope with short handwritten note",
+      "themaId": "ao-modul-ao-317",
+      "look": "foto",
+      "gezeichnet": "2026-09-18",
+      "zuletzt": "2026-09-18",
+      "benutzt": 1,
+      "breite": 835,
+      "hoehe": 974
+    },
+    {
+      "datei": "2026-09-18-cmtqg9.webp",
+      "szene": "handwritten letter with circled paragraph number",
+      "themaId": null,
+      "look": "flach",
+      "gezeichnet": "2026-09-18",
+      "zuletzt": "2026-09-18",
+      "benutzt": 1,
+      "breite": 779,
+      "hoehe": 864
+    },
+    {
+      "datei": "2026-09-18-9ajvuo.webp",
+      "szene": "brief handwritten complaint note on paper",
+      "themaId": null,
+      "look": "flach",
+      "gezeichnet": "2026-09-18",
+      "zuletzt": "2026-09-18",
+      "benutzt": 1,
+      "breite": 800,
+      "hoehe": 939
+    },
+    {
+      "datei": "2026-09-18-bw3g7w.webp",
+      "szene": "letter with underlined ambiguous sentence",
+      "themaId": null,
+      "look": "flach",
+      "gezeichnet": "2026-09-18",
+      "zuletzt": "2026-09-18",
+      "benutzt": 1,
+      "breite": 779,
+      "hoehe": 875
     }
   ]
 }
