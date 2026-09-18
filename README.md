@@ -107,7 +107,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   drei Nummern der Vorschrift an ihren Rändern ab – Einzelwirtschaftsgüter statt ganzem
   Betrieb, mittelbare Betriebsschenkung, Mitunternehmeranteil und Teil davon – und zeigen
   an drei Varianten, dass die 25-Prozent-Grenze ausschließlich beim Erblasser oder Schenker
-  und ausschließlich unmittelbar gemessen wird.
+  und ausschließlich unmittelbar gemessen wird. Als fünfter Fall die Übungsklausur
+  **„Engelkamp"** mit drei Steuerpflichtigen nebeneinander: Erbin (112.200 €),
+  Pflichtteilsberechtigter (0 €, weil der Freibetrag den Anspruch deckt) und
+  Vermächtnisnehmerin (13.290 €). Dazu die **Jahreswertbegrenzung des § 16 BewG** beim
+  Wohnrecht, die dessen Jahreswert von 21.600 € auf 16.398 € drückt, und der Kapitalwert
+  einer lebenslänglichen Rente – beide mit demselben Vervielfältiger 10,724, der in
+  derselben Lösung einmal als Last und einmal als Erwerb auftritt.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

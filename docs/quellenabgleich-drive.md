@@ -5624,3 +5624,52 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Datensatz nur zusammengefasst wiedergegeben – das ist dort ausdrücklich vermerkt. Und in
   der Lösung zum Beispiel 5 spricht die Quelle vom Erblasser **A**, während der Sachverhalt
   ihn **E** nennt (so in der Quelle).
+
+## ErbSt-Fallsammlung 4. Fachtermin – Übungsklausur „Engelkamp“
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), vierte Klausur.
+- Einpflege dieses Durchgangs: die Übungsklausur als neunter Übungsfall; der Datensatz
+  umfasst jetzt 9 Übungsfälle, 302 Blöcke und 56 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Die Lösung ist Zeile für Zeile nachgerechnet; sie geht auf** – einschließlich der
+  Aufteilung der 412.844 € nicht zuzuordnenden Schulden auf vier Vermögensgruppen und der
+  Bereicherung von 1.044.483 €. Drei Steuerpflichtige stehen nebeneinander: die Erbin zahlt
+  **112.200 €**, der Pflichtteilsberechtigte **0 €** (der Freibetrag von 400.000 € deckt
+  den Anspruch von 340.000 €), die Vermächtnisnehmerin **13.290 €**.
+
+  **Zwei Größen, die man leicht übersieht**, und beide sind im Datensatz vermerkt:
+
+  - **Die Umlagen von 125 € je Wohnung gehören nicht zum Rohertrag** – § 186 Abs. 1 BewG
+    stellt auf die Miete ohne Betriebskosten ab, weshalb die Quelle ausdrücklich „ohne
+    Betriebskosten“ schreibt.
+  - **In die Mietforderung fließen sie dagegen ein.** Die 1.546 € sind nachgerechnet zwei
+    Monatsmieten **einschließlich** Umlagen (648 € + 125 € = 773 €, mal zwei). Dieselbe
+    Größe steht also einmal drinnen und einmal draußen, je nachdem, ob nach dem Ertragswert
+    oder nach dem Forderungsbestand gefragt ist.
+
+  **Die Jahreswertbegrenzung des § 16 BewG** drückt das Wohnrecht von 21.600 € auf
+  16.398 €: der halbe Grundbesitzwert von 305.000 € – halb, weil nur eine der beiden
+  Wohnungen belastet ist – geteilt durch 18,6. Genau dieses Zusammenspiel von Halbierung
+  und Deckelung behandelt der Bewertungsteil 1 (Schäfer) in seinem Abschnitt zu den
+  §§ 13 bis 16 BewG.
+
+  **Ein Vervielfältiger, zweimal gebraucht:** 10,724 gilt für die 71-jährige A und steht in
+  derselben Lösung einmal für das Wohnrecht als Last des Nachlasses und einmal für das
+  Rentenvermächtnis als ihren Erwerb. Zusammen mit 11,050 (70 Jahre, Lösungsdatei zum
+  Skriptteil 2) und 9,691 (74 Jahre, Klausur Backhaus) liegen damit drei Punkte derselben
+  Tabelle des BMF-Schreibens vom 09.12.2024 vor.
+
+  **Der Härteausgleich greift hier zum zweiten Mal in dieser Sammlung** – wie bei
+  Antensteiner und anders als bei Ackermann und Backhaus. 644.400 € überschreiten die
+  Wertgrenze von 600.000 € um 44.400 €, die Mehrsteuer von 32.436 € wird auf 22.200 €
+  begrenzt. Die Tabelle H E 19 ErbStH nennt für diese Wertgrenze in der Steuerklasse I den
+  Grenzwert 677.400 €; der Fall liegt knapp darunter. Die vier Klausuren zusammen zeigen
+  die Tabelle inzwischen an drei ihrer Wertgrenzen.
+
+  Stelle, an der die Quelle uneinheitlich ist – wortlautgetreu übernommen und
+  gekennzeichnet: Der Sohn heißt im Sachverhalt **B** (Bernd); die Pflichtteilspassage, die
+  Pflichtteilsverbindlichkeit und eine Zeile der Verteilungstabelle nennen ihn dagegen
+  **D**, während die Steuerberechnung wieder von B spricht. Gemeint ist durchgehend
+  dieselbe Person.
