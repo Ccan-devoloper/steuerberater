@@ -2734,7 +2734,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil III (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil III (§§ 27, 28 KStG)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil III: Steuerliches Einlagekonto (§ 27 KStG);
   Grundzüge der Kapitalherauf- und -herabsetzung (§ 28 KStG)“** (21. Auflage, Stand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 4 Kapitel mit 53 Abschnitten und 4 Tabellen. Anders als die
+  Wortlaut – **in Arbeit**, derzeit 7 Kapitel mit 113 Abschnitten und 10 Tabellen. Anders als die
   Teile I und II trägt dieses Skript den Stand **Mai 2025** und rechnet seine Beispiele im VZ 2025.
   Das steuerliche Einlagekonto beantwortet eine einzige Frage: Was von dem, was die Gesellschaft
   auskehrt, hat der Gesellschafter ihr vorher selbst gegeben? Der entscheidende Satz steht gleich am
@@ -2760,6 +2760,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   160.000 € höheren Veräußerungsgewinn führt als eine zusammengefasste Betrachtung. Alte
   **steuerwirksame Teilwertabschreibungen** holen den Überhang schließlich über § 8b Abs. 2 Satz 4
   KStG bzw. § 3 Nr. 40 EStG in die Steuerpflicht zurück.
+  Bei der **Feststellung** ist der Bescheid Grundlagenbescheid für den unmittelbar nachfolgenden
+  Feststellungszeitraum. Wird er bestandskräftig, schreibt sich ein Fehler ohne zeitliche Grenze
+  fort – typisch sind eine im Zuflussjahr nicht erfasste verdeckte Einlage und eine in der
+  Verwendungsreihenfolge nicht abgezogene Ausschüttung –, und der einzige Ausweg über die
+  Korrekturnormen der AO ist gerade beim übersehenen Zugang zur Kapitalrücklage **umstritten**.
+  Zugleich besteht eine **Korrespondenz** zum Anteilseigner: Nur soweit die Ausschüttung in der
+  Feststellung als Abgang berücksichtigt ist, liegt bei ihm eine Einlagenrückgewähr vor, und spätere
+  Änderungen wirken nach § 175 Abs. 1 Nr. 2 AO als rückwirkendes Ereignis auf seine Steuerfestsetzung
+  durch. Anfechten kann er den Bescheid aber **nicht** – kein Drittanfechtungsrecht, keine Beiladung.
+  Die Steuerbescheinigung nach § 27 Abs. 3 KStG entfaltet demgegenüber gar keine Bindungswirkung, sie
+  dient nur als Beweis. Bei den **Veränderungen** des Kontos gelten zwei Zeitpunktregeln nebeneinander:
+  Einlagen und Leistungen zählen im Jahr des tatsächlichen Zu- bzw. Abflusses, organschaftliche und
+  vororganschaftliche Ab- und Minderabführungen dagegen mit Ablauf des Wirtschaftsjahres der
+  Organgesellschaft. Die **Verwendungsberechnung** beantwortet dann eine rein rechnerische Frage:
+  Reicht das neutrale Vermögen – Eigenkapital des Vorjahres abzüglich Nennkapital und Einlagekonto –
+  für die Ausschüttungen des Jahres? Nur der Überschuss kommt aus dem Einlagekonto. Daraus folgen
+  drei Konsequenzen: keine Bezeichnungsfreiheit (auch die ausdrückliche „Rückzahlung der
+  Kapitalrücklage“ wird zuerst gegen das neutrale Vermögen gerechnet), keine Einzelbetrachtung
+  (alle Leistungen werden summiert und das Ergebnis nach dem Betragsverhältnis verteilt, im Beispiel
+  200/220 zu 20/220 – auch auf die verdeckte Gewinnausschüttung) und kein Vorgriff (maßgebend sind
+  allein die **Vorjahreswerte**, unterjährige Einlagen helfen erst im Folgejahr). Abgeflossen muss
+  die Leistung sein: Eine bloß passivierte Ausschüttungsverbindlichkeit zählt nicht mit.
   Prüfung: `npm run check:k2-kst-teil3`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

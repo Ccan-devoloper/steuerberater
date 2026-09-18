@@ -10620,6 +10620,76 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil III (Hamacher), Abschnitte 1.3.1 bis 1.3.3 – Feststellung und Verwendungsberechnung
+
+Quelle: dieselbe Datei, Seiten 8 bis 13; übernommen als Kapitel 5 bis 7. Prüfung:
+`npm run check:k2-kst-teil3` (7 Kapitel, 113 Blöcke, 10 Tabellen).
+
+**Die Spannung des Abschnitts 1.3.1** ist im Datensatz eigens herausgestellt, weil sie in der
+Klausur leicht zu Fehlern führt: Der Anteilseigner ist an die Feststellung **materiell gebunden** –
+ohne Abgang beim Einlagekonto gibt es für ihn keine Einlagenrückgewähr, und spätere Änderungen
+wirken als rückwirkendes Ereignis bei ihm durch –, anfechten kann er den Bescheid nach der
+Rechtsprechung aber **nicht**, weil Regelungsadressat allein die Gesellschaft ist. Streng davon zu
+trennen ist die **Steuerbescheinigung** nach § 27 Abs. 3 KStG: Sie bindet gar nicht und ist bloßes
+Beweismittel.
+
+**Die Fehlerfortschreibung** ist der praktisch folgenreichste Punkt. Weil jeder
+Feststellungsbescheid Grundlagenbescheid für den nächsten ist, wird ein bestandskräftig gewordener
+Fehler ohne zeitliche Grenze jedes Jahr übernommen. Der einzige Ausweg führt über die
+Korrekturnormen der AO, und gerade bei der übersehenen Kapitalrücklage ist die Anwendung des § 129
+AO nach den Nachweisen der Quelle **umstritten** – die Finanzgerichte entscheiden uneinheitlich, ein
+BFH-Verfahren ist mit dem Urteil vom 22.10.2024, VIII R 33/21, zitiert.
+
+**Zwei Zeitpunktregeln nebeneinander** prägen den Abschnitt 1.3.2, und der Datensatz ordnet sie
+tabellarisch: Einlagen und Leistungen zählen im Jahr des tatsächlichen **Zu- bzw. Abflusses** – eine
+beschlossene, aber nicht eingezahlte Einlage erhöht das Konto ebenso wenig, wie eine nur passivierte
+Ausschüttungsverbindlichkeit es mindert –, organschaftliche und vororganschaftliche Ab- und
+Minderabführungen dagegen mit **Ablauf des Wirtschaftsjahres** der Organgesellschaft, also ohne
+jeden Zahlungsvorgang. Wer beides vermischt, verschiebt Beträge um ein volles Jahr, und weil die
+Verwendungsberechnung des Folgejahres am festgestellten Bestand anknüpft, wirkt der Fehler doppelt.
+
+**Die Verwendungsberechnung** beantwortet eine rein rechnerische Frage, und der Datensatz fasst die
+drei Konsequenzen zusammen, die die Quelle über mehrere Absätze verteilt: keine Bezeichnungsfreiheit
+(auch die ausdrückliche „Rückzahlung der Kapitalrücklage“ wird zuerst gegen das neutrale Vermögen
+gerechnet), keine Einzelbetrachtung (alle Leistungen werden summiert und das Ergebnis nach dem
+Betragsverhältnis verteilt) und kein Vorgriff (maßgebend sind allein die Vorjahreswerte). Die harte
+Folge spricht die Quelle selbst aus: Wer zum Vorjahresende keinen positiven Bestand hat, kann im
+laufenden Jahr keine Einlagenrückgewähr vornehmen – auch bei erheblichen Einlagen desselben Jahres.
+Wer eine Einlage zurückführen will, muss ein volles Wirtschaftsjahr warten.
+
+**Sämtliche Zahlen beider Beispiele sind nachgerechnet und gehen auf.** Beispiel 1: 200.000 € ./.
+50.000 € ./. 70.000 € = 80.000 € ausschüttbarer Gewinn; abgeflossen sind 50.000 € + 20.000 € +
+25.000 € = 95.000 €, Überschreitung 15.000 €, Endbestand 70.000 € ./. 15.000 € = 55.000 €.
+Beispiel 2: Eigenkapital 350.000 € (die Quelle bildet die Summe aus den fünf Positionen nicht
+ausdrücklich – eigene Herleitung), ausschüttbarer Gewinn 200.000 €, abgeflossen 220.000 €,
+Überschreitung 20.000 €, Verteilung 20.000 € × 200/220 = 18.181,82 € (in der Quelle auf 18.182 €
+gerundet) und 1.818 €, Einlagekonto 50.000 € ./. 20.000 € + 90.000 € = 120.000 €.
+
+**Eine weitere eigene Herleitung** betrifft den Darlehensverzicht in Beispiel 2: Bilanziell entsteht
+bei der Gesellschaft ein Ertrag von 200.000 €, außerbilanziell sind davon 90.000 € als verdeckte
+Einlage abzuziehen – die verbleibenden **110.000 €** bleiben steuerpflichtig, weil der wertlose Teil
+der Forderung keinen Vermögensvorteil verschafft. Diese Zahl nennt die Quelle nicht.
+
+**Ein inhaltlicher Fehler der Quelle, wortlautgetreu übernommen und ausdrücklich richtiggestellt:**
+Die Lösung zu Beispiel 1 sagt, der Veräußerungsgewinn nach § 17 Abs. 4 EStG sei „nur zur Hälfte
+steuerpflichtig“. Das ist das überholte **Halbeinkünfteverfahren**. Derselbe Fall wird im Abschnitt
+1.2.1.1.2 desselben Skripts zutreffend nach § 3 Nr. 40c und § 3c Abs. 2 EStG behandelt und auch so
+gerechnet (6.000 € von 10.000 €, also 60 %). Der Datensatz übernimmt den Wortlaut und stellt die
+Rechtslage in einem eigenen Hinweisblock klar.
+
+**Weitere Eigenheiten der Quelle, wortlautgetreu übernommen und gekennzeichnet:**
+
+- „dem steuerlichen **Entnahmekonto** zu entnehmen“ – zweimal, in beiden Beispielen; gemeint ist
+  das steuerliche Einlagekonto.
+- „Die Verwendungsberechnung für **2023** hat folgendes Aussehen“ – gemeint ist 2025.
+- „Bei der Einkommensermittlung für **2024** ist der … Ertrag aus dem Wegfall des Darlehens … zu
+  verringern“ – der Verzicht erfolgte am 15.09.2025, gemeint ist die Einkommensermittlung für 2025.
+
+**Noch offen:** aus Teil III die Leistungen ausländischer Gesellschaften (1.3.4) und die übrigen
+Abschnitte des 1.3, die Verwendungsfestschreibung und Haftungsregelung (1.4) sowie die Kapitel 2
+(Kapitalerhöhung) und 3 (Kapitalherabsetzung und eigene Anteile); ganz offen sind die Skriptteile IV
+bis VII.
+
 ### KSt Teil III (Hamacher), Abschnitte 1.1 und 1.2 – neuer Bestand, Einlagenrückgewähr
 
 Quelle: Google Drive, „2025) (6).pdf“ (Drive-ID `1-EhRMtvKCLnlE2axXNVkniAWtyGwW5rp`), das
