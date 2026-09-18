@@ -10617,8 +10617,49 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** die formelle Korrespondenz (3.6.2), die Abschnitte 3.7 bis 3.9
-und das Kapitel 4 sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** die Abschnitte 3.7.1.2, 3.7.2, 3.8 und 3.9 und das Kapitel 4
+sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.6.2 und 3.7.1.1 – formelle Korrespondenz und Ausgangsvermögen
+
+Quelle: dieselbe Datei; übernommen als Kapitel 37 bis 39. Prüfung:
+`npm run check:k2-kst-teil1` (39 Kapitel, 634 Blöcke, 25 Tabellen).
+
+**Zwei eigene Funde, wortlautgetreu übernommen und im Datensatz gekennzeichnet:**
+
+1. Im Abschnitt 3.6.2 zitiert die Quelle einmal „§ 32a Abs. 2 **EStG**“; gemeint ist das KStG, wie
+   der gesamte Abschnitt zeigt.
+2. Gewichtiger ist die Stelle im Beispiel zu 3.7.1.1.2: Der Sachverhalt nennt einen Teilwert von
+   **600.000 €**, der erste Satz der Lösung bewertet die verdeckte Einlage aber mit **500.000 €**.
+   Die gesamte weitere Rechnung der Quelle arbeitet folgerichtig mit 600.000 € – die Buchung der
+   Entnahme (PE 600.000 € an Grundstück 100.000 € und Ertrag 500.000 €), die Anschaffungskosten
+   für § 23 EStG, der Veräußerungspreis und die Erhöhung der Beteiligungsanschaffungskosten. Die
+   500.000 € sind erkennbar aus dem vorangegangenen Beispiel übernommen. Besonders tückisch ist
+   die Stelle, weil die Zahl 500.000 € im selben Fall tatsächlich vorkommt – nämlich als
+   **Entnahmegewinn** (600.000 € ./. 100.000 € Buchwert). Der Datensatz benennt beides
+   ausdrücklich.
+
+**Ein Beispiel mit uneinheitlicher Bezeichnung** (ebenfalls vermerkt, ohne Folgen für das
+Ergebnis): Im Fall zu § 32a Abs. 2 KStG spricht der Sachverhalt von einer **Miet**forderung, die
+Lösung an zwei Stellen von einer **Zins**forderung und von nicht versteuerten Zinseinnahmen, im
+letzten Absatz wieder von Mieterträgen.
+
+**Die Abgrenzung von materieller und formeller Korrespondenz** fasst der Datensatz in einem eigens
+gekennzeichneten „Merke“ zusammen, weil beide in der Klausur gern verwechselt werden:
+§ 8 Abs. 3 Satz 4 KStG ist materielles Recht und bestimmt die Höhe des Einkommens, § 32a Abs. 2
+KStG ist Verfahrensrecht und bestimmt nur, ob ein ergangener Bescheid noch geändert werden darf.
+Drei Einzelheiten sind prüfungsrelevant: Unabhängigkeit von Bestandskraft und Verjährung, eigene
+Ablaufhemmung von einem Jahr, und **keine** Grundlagenbescheidwirkung.
+
+**Der Grundsatz des Abschnitts 3.7** wirkt beim Lesen harmlos, ist aber der Schlüssel zum ganzen
+Abschnitt – der Datensatz weist eigens darauf hin: Maßgebend ist die Vermögenszugehörigkeit der
+**Beteiligung**, nicht die des eingelegten Wirtschaftsguts. Wer in der Klausur beim Wirtschaftsgut
+ansetzt, übersieht den Entnahmegewinn. Die Tabelle stellt den Grundstücks- und den
+Beteiligungsfall in ihren vier Schritten nebeneinander; der dritte Schritt ist in beiden Fällen
+eine Null, weil die stillen Reserven vollständig im ersten aufgedeckt werden – gleichwohl ist er
+in der Klausur zu prüfen und mit 0 € auszuweisen. Alle Zahlen sind nachgerechnet: 600.000 ./.
+100.000 = 500.000; 450.000 ./. 50.000 = 400.000, davon 40 % = 160.000 € steuerfrei und 60 % =
+240.000 € steuerpflichtig.
 
 ### KSt Teil I (Hamacher), Abschnitt 3.6.1 – materielle Korrespondenz
 

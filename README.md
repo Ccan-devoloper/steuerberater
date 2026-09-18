@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 36 Kapitel mit 594 Abschnitten und
-  24 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 39 Kapitel mit 634 Abschnitten und
+  25 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.6.1 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.7.1.1 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2528,8 +2528,25 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (I R 40/23)**, der die Anwendung des § 8 Abs. 3 Satz 4 KStG bei bloßer Nichterfassung entgegen
   der Verwaltungsauffassung verneint – die Quelle referiert ihn, hält aber an der
   Verwaltungsauffassung fest.
-  Die formelle Korrespondenz (3.6.2), die Abschnitte 3.7 bis 3.9 und das Kapitel 4 (Tarif) folgen;
-  der Campus weist den Stand aus.
+  Die **formelle Korrespondenz** (§ 32a Abs. 2 KStG) ergänzt das verfahrensrechtlich: Wird der
+  Bescheid des Anteilseigners nachträglich korrigiert, entfällt der Grund für die Nachversteuerung,
+  und der Körperschaftsteuerbescheid darf geändert werden – unabhängig von Bestandskraft und
+  Verjährung, mit eigener Ablaufhemmung von einem Jahr nach Bestandskraft des
+  Gesellschafterbescheids, als praktisch gebundene Ermessensentscheidung, aber ausdrücklich
+  **ohne** Grundlagenbescheidwirkung, so dass das Finanzamt der Gesellschaft eigenständig zu einem
+  anderen Ergebnis kommen darf.
+  Vom **Ausgangsvermögen der verdeckten Einlage (Abschnitt 3.7)** ist der Grundsatz eingepflegt,
+  der den ganzen Abschnitt trägt: Maßgebend ist die Vermögenszugehörigkeit der **Beteiligung**,
+  nicht die des eingelegten Wirtschaftsguts. Liegen beide im Privatvermögen, ergeben sich keine
+  Besonderheiten. Liegt das Wirtschaftsgut dagegen im Betriebsvermögen und die Beteiligung im
+  Privatvermögen, geht der Einlage zwingend eine **Zwangsentnahme** nach § 6 Abs. 1 Nr. 4 EStG
+  voraus – mit der Folge, dass die stillen Reserven vollständig im Entnahmegewinn aufgedeckt
+  werden und die Ersatzrealisationstatbestände des § 23 Abs. 1 Satz 5 Nr. 2 EStG beziehungsweise
+  § 17 Abs. 1 Satz 2 EStG danach ins Leere laufen, in der Klausur aber gleichwohl mit dem Ergebnis
+  0 € zu prüfen sind. Dasselbe gilt bei einer nahestehenden Person, bei der zusätzlich die
+  Rechtsnachfolge des § 23 Abs. 1 Satz 3 EStG greift.
+  Die teilentgeltliche Übertragung (3.7.1.2), der Abschnitt 3.7.2, die Abschnitte 3.8 und 3.9 und
+  das Kapitel 4 (Tarif) folgen; der Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
