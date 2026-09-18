@@ -1700,6 +1700,34 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   im Datensatz. Eine Rundungsdifferenz von einem Euro bei der Zerlegung ist als **eigene
   Feststellung** gekennzeichnet.
   Prüfung: `npm run check:k2-est-originalklausuren`
+- **KSt-Originalklausuren** (Klausur 2, Reiter Körperschaftsteuer → „Originalklausuren
+  (Prüfung)“): die Original-Prüfungsaufgaben aus dem Gebiet der Körperschaftsteuer mit den
+  Lösungshinweisen des Lehrgangs („Körperschaftsteuer, Umwandlungssteuerrecht und
+  Gewerbesteuer · Steuerberaterprüfungen 2011 – 2015“, Rechtsstand 2025, Februar 2026,
+  Bearbeiter RA/StB Ulrich Breier), mit den **Randpunkten der Quelle**. Anders als die
+  Ertragsteuerklausuren derselben Reihe spielen sie im Veranlagungszeitraum **2025**.
+  Eingepflegt ist die **Prüfung 2011 (A-GmbH, 35 Punkte)**. Ihr Kern: Von den sieben
+  Kostenpositionen einer Sachkapitalerhöhung sind drei zu aktivieren (1.030 €), drei sind
+  laufender Aufwand (471 €) – und **eine einzige**, die Beurkundung der Übernahmeerklärung
+  des Gesellschafters über **285 €**, ist eine verdeckte Gewinnausschüttung, weil sie die
+  Ebene des Gesellschafters betrifft. Derselbe Vorgang bewegt das steuerliche Einlagekonto
+  **in beide Richtungen**: + 10.000 € für den nicht ins Nennkapital gebuchten Teil der
+  Sacheinlage, ./. 285 € für die vGA – letzteres nur, weil der ausschüttbare Gewinn 0 €
+  beträgt (§ 27 Abs. 1 Satz 3 KStG). Dazu eine **Organschaft im ersten Jahr** mit vier
+  Feinheiten: Die Ausschüttung vororganschaftlicher Gewinne folgt den allgemeinen Regeln
+  (§ 8b KStG beim Organträger, 360.000 € und 18.000 €); die Bruttomethode des § 15 Satz 1
+  Nr. 2 KStG schaltet § 8b KStG bei der Organgesellschaft ab, sodass die Dividende der
+  T-GmbH erst beim Organträger korrigiert wird; die Ausgleichszahlung von 17.000 € wirkt
+  zweimal (Hinzurechnung nach § 4 Abs. 5 Satz 1 Nr. 9 EStG und Minderung bei der Zurechnung
+  nach R 16 Abs. 2 KStR), und die Organgesellschaft versteuert dafür 20/17 = 20.000 € als
+  eigenes Einkommen; die Minderabführung aus der Gewinnrücklage wird nach der
+  **Einlagelösung** des § 14 Abs. 4 KStG innerbilanziell erhöht (+ 30.000 €) und
+  außerbilanziell wieder neutralisiert (./. 30.000 €). Am Ende ein zu versteuerndes
+  Einkommen von 312.950 € und eine **negative** verbleibende Körperschaftsteuer von
+  - 53.058 €, weil 100.000 € Kapitalertragsteuer anzurechnen sind. Jede Zahl ist unabhängig
+  nachgerechnet; dass die Auszählung der Randpunkte 36 statt der im Kopf genannten
+  35 Punkte ergibt, ist als **eigene Feststellung** gekennzeichnet.
+  Prüfung: `npm run check:k2-kst-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
   1.017 Abschnitten und 30 Tabellen: die Einführung in die Einkommensteuer (persönliche

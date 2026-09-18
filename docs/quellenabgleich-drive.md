@@ -7558,3 +7558,92 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „einkommensteuersteuerpflichtig“; „Dort ist der fortan … unbeschränkt steuerpflichtig“
   statt „ist er fortan“; „DBA-Osterreich“ ohne Umlaut; und eine überzählige schließende
   Klammer bei der Fundstelle zu § 34c Abs. 6 S. 2, Abs. 5 EStG.
+
+## Originalklausuren der Steuerberaterprüfung – Körperschaftsteuer, Prüfung 2011 (A-GmbH)
+
+- Quelle: „Körperschaftsteuer, Umwandlungssteuerrecht und Gewerbesteuer ·
+  Steuerberaterprüfungen 2011 – 2015“, Rechtsstand 2025, Februar 2026, Bearbeiter RA/StB
+  Ulrich Breier (`1M69J_ZCoqrXeBtX-OD83FYkJgiAksMWb`, 1,0 MB), Ordner „Originalklausuren“.
+  Der Connector gibt die Datei **vollständig** aus (rund 134.000 Zeichen, fünf Klausuren).
+- Einpflege dieses Durchgangs: die **Prüfung 2011**; neuer Datensatz
+  `src/data/k2-kst-originalklausuren.js` mit 1 Klausur, 89 Blöcken, 10 Tabellen und
+  35 Punkten; neuer Reiter „Originalklausuren (Prüfung)“ im KSt-Campus; Prüfung
+  `npm run check:k2-kst-originalklausuren`. Offen sind die Prüfungen 2012 bis 2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage
+  aus; die Quelle vermerkt dazu: „Die Punktvergabe in den einzelnen Textziffern orientiert
+  sich am amtlichen Lösungshinweis für die Steuerberaterklausur 2011.“
+- Eigene Zeitlogik dieser Reihe: Die Klausuren sind „überarbeitet und fortgeschrieben auf den
+  Rechtsstand zum 31.12.2025“ und spielen im **Veranlagungszeitraum 2025** – anders als die
+  Ertragsteuerklausuren derselben Drive-Ablage, die in abstrakten Jahreszahlen rechnen.
+
+  **285 € entscheiden über zwei Rechtsfolgen.** Die Kapitalerhöhung bringt sieben
+  Kostenpositionen mit, die in drei Gruppen zerfallen:
+
+  | Gruppe | Positionen | Summe |
+  | --- | --- | --- |
+  | zu aktivieren (Anschaffungsnebenkosten des Grundstücks) | Beurkundung Kauf- und Auflassungsvertrag 198 €, Grunderwerbsteuer 700 €, Grundbucheintragung 132 € | 1.030 € |
+  | laufender Aufwand (betrieblich veranlasst) | Abänderung des Gesellschaftsvertrages 264 €, Beglaubigung der Anmeldung 66 €, Eintragung und Bekanntmachung 141 € | 471 € |
+  | **verdeckte Gewinnausschüttung** | Beurkundung der Übernahmeerklärung des Y | **285 €** |
+
+  Der tragende Gedanke: Die Kapitalerhöhung dient der Kapitalausstattung der Gesellschaft,
+  die **Übernahme** der neuen Anteile betrifft dagegen die Ebene des Gesellschafters – diese
+  Kosten hätte ein ordentlicher und gewissenhafter Geschäftsleiter nicht übernommen.
+
+  **Derselbe Vorgang bewegt das steuerliche Einlagekonto in beide Richtungen:** + 10.000 €
+  für den nicht ins Nennkapital gebuchten Teil der Sacheinlage (§ 27 Abs. 1 KStG) und
+  ./. 285 € für die vGA. Die Minderung greift nur, weil der ausschüttbare Gewinn zum
+  31.12.2024 **0 €** beträgt (§ 27 Abs. 1 Satz 3 KStG) – die scheinbar beiläufige Angabe im
+  Allgemeinen Teil trägt damit die zweite Aufgabe. Bestand zum 31.12.2025: 39.715 €.
+
+  **Die Organschaft im ersten Jahr prüft vier Feinheiten nebeneinander.**
+
+  | Feinheit | Ergebnis |
+  | --- | --- |
+  | Ausschüttung **vororganschaftlicher** Gewinne (Bilanzgewinn 2024) | folgt den allgemeinen Regeln: 90 % von 400.000 € = 360.000 € Beteiligungsertrag, ./. 360.000 € nach § 8b Abs. 1 KStG, + 18.000 € nach § 8b Abs. 5 KStG, + 94.950 € Steueraufwand nach § 10 Nr. 2 KStG |
+  | **Bruttomethode** (§ 15 Satz 1 Nr. 2 KStG) | § 8b KStG ist bei der Organgesellschaft abgeschaltet; die Dividende der T-GmbH wird erst beim Organträger korrigiert (./. 40.000 € und + 2.000 €), obwohl die A-GmbH sie nie vereinnahmt hat |
+  | **Ausgleichszahlung** 17.000 € an die C-GmbH | wirkt zweimal: + 17.000 € als nicht abziehbare Betriebsausgabe (§ 4 Abs. 5 Satz 1 Nr. 9 EStG) und ./. 17.000 € bei der Zurechnung (R 16 Abs. 2 Satz 3 Nr. 1 KStR); die B-GmbH versteuert dafür 20/17 = 20.000 € als eigenes Einkommen, die darauf entfallenden 3.000 € KSt mindern den zuzurechnenden Betrag |
+  | **Minderabführung** aus der Gewinnrücklage | nach der Einlagelösung des § 14 Abs. 4 KStG: innerbilanziell + 30.000 € (Buchwerterhöhung der Beteiligung), außerbilanziell ./. 30.000 € (Rz. 7 des BMF-Schreibens vom 29.09.2023) |
+
+  **Das Einkommen der Organgesellschaft wird eigenständig ermittelt** – einschließlich des
+  Spendenabzugs (R 9 Abs. 5 Satz 1 KStR):
+
+  | Ermittlung bei der B-GmbH | Betrag |
+  | --- | --- |
+  | Jahresüberschuss | 0 € |
+  | + Gewinnabführung | 75.285 € |
+  | + Steuern (KSt 3.000 € + SolZ 165 €) | 3.165 € |
+  | + Gewinnrücklage | 30.000 € |
+  | + Steuern aus der T-GmbH-Dividende (10.000 € + 550 €) | 10.550 € |
+  | + Parteispende (§ 4 Abs. 6 EStG) | 3.000 € |
+  | + Geldspende | 30.000 € |
+  | = Einkommen vor Spendenabzug | **152.000 €** |
+  | ./. Barspende, voll abziehbar (Höchstbetrag 20 % = 30.400 €) | - 30.000 € |
+  | = Einkommen der B-GmbH | **122.000 €** |
+
+  Der Spendenhöchstbetrag wird **knapp**, aber ausreichend erreicht: 30.400 € gegen 30.000 €
+  Spende, Abstand 400 €. Entscheidend ist, dass Parteispende und Geldspende zuvor
+  hinzugerechnet werden – ohne diese Hinzurechnungen läge das maßgebliche Einkommen bei
+  119.000 € und der Höchstbetrag bei 23.800 €, die Spende wäre dann nur teilweise abziehbar.
+  Der alternative Höchstbetrag von 4 Promille der Umsätze und Löhne (4 ‰ von 2.020.000 € =
+  8.080 €) ist deutlich ungünstiger.
+
+  **Das Ergebnis.** Aus dem Jahresüberschuss von 492.000 € wird über vierzehn Korrekturen ein
+  zu versteuerndes Einkommen von **312.950 €**; die Körperschaftsteuer beträgt 46.942 €, und
+  weil 90.000 € Kapitalertragsteuer aus der B-GmbH-Ausschüttung und weitere 10.000 € über
+  § 19 Abs. 5 KStG aus der T-GmbH-Dividende anzurechnen sind, ergibt sich eine **negative**
+  verbleibende Körperschaftsteuer von **- 53.058 €**.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.** Zusätzlich geprüft: die
+  Buchung Grund und Boden 90.000 + 1.030 = 91.030 € und der sonstige betriebliche Aufwand
+  264 + 285 + 66 + 141 = 756 €.
+
+  **Eine Abweichung bei der Punktvergabe – eigene Feststellung:** Der Kopf des
+  Lösungshinweises nennt **35 Punkte**. Zählt man die am Rand der einzelnen Absätze
+  vergebenen Punkte aus, ergeben sich **36**. Im Datensatz sind 35 Punkte vergeben – dem Kopf
+  der Quelle folgend; die Differenz ist im Datensatz kenntlich gemacht.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „gez. Kapital
+  50.0000 €“ mit einer Null zu viel; der unvollständige Satz „…, die sich auch auf den
+  Unterschiedsbetrag nach § 4 Abs. 1 EStG ausgewirkt“; „dürfen (in der Regel) nicht abführt
+  werden“; „Bestand zum 21.12.2024“ statt 31.12.2024 und „Bestand zum 31.12.2023“ statt
+  31.12.2025 in der Ermittlung des Einlagekontos; ferner „Rechtsand 2025“ auf dem Deckblatt.

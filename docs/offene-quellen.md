@@ -281,9 +281,15 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Connector aus dieser Datei ausgibt.** Offen sind die Prüfungen **2013 bis 2015**. **Wichtig:** Der Connector gibt die Datei nur bis etwa zur Hälfte
   der Prüfung 2013 aus (rund 168.000 Zeichen); die Prüfungen 2012 und der Anfang von
   2013 liegen vor, der Rest ist aus dem Drive-Text nicht lesbar und gehört zu den
-  blockierten Teilen in Abschnitt A. Offen sind außerdem die Dateien **Bilanz 2011–2015**
-  (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB) und **KSt**
-  (`1M69J_ZCoqrXeBtX-OD83FYkJgiAksMWb`, 1,0 MB).
+  blockierten Teilen in Abschnitt A. Die Datei **KSt** (`1M69J_ZCoqrXeBtX-OD83FYkJgiAksMWb`, 1,0 MB)
+  ist „Körperschaftsteuer, Umwandlungssteuerrecht und Gewerbesteuer ·
+  Steuerberaterprüfungen 2011 – 2015“ (Rechtsstand 2025, Februar 2026, Bearbeiter RA/StB
+  Ulrich Breier) mit fünf Original-Prüfungsklausuren samt Lösungshinweisen und Randpunkten;
+  der Connector gibt die Datei **vollständig** aus. **Begonnen** – eingepflegt ist die
+  **Prüfung 2011** (A-GmbH, 35 Punkte) im Reiter „Originalklausuren (Prüfung)“ des
+  KSt-Campus, `src/data/k2-kst-originalklausuren.js`; offen sind die Prüfungen **2012 bis
+  2015**. Offen ist außerdem die Datei **Bilanz 2011–2015**
+  (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB).
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
 - Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet
 

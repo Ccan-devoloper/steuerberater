@@ -10,6 +10,7 @@ import { kstFaelle } from "../data/kst-faelle";
 import { kstKurzskript, kstKurzskriptQuelle } from "../data/kst-kurzskript.js";
 import { kstUebungsfaelle, kstUebungsfaelleQuelle } from "../data/kst-uebungsfaelle.js";
 import { kstSchemataNoethen, kstSchemataNoethenQuelle } from "../data/kst-schemata-noethen.js";
+import { kstOriginalklausuren, kstOriginalklausurenQuelle } from "../data/k2-kst-originalklausuren.js";
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import { kstKarteikarten, kstQuizfragen } from "../data/kst-lernstoff";
 import { REDAKTIONSSTAND } from "../data/redaktion";
@@ -52,6 +53,7 @@ const ansichten = [
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
   { id: "schemata-noethen", label: "Schemata (Nöthen)", Icon: IconSchema },
   { id: "uebungsklausur", label: "Übungsklausur (Breier)", Icon: IconTraining },
+  { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconTraining },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconModule },
   { id: "training", label: "Training", Icon: IconTraining },
   { id: "quellen", label: "Quellenstand", Icon: IconRegister },
@@ -324,6 +326,22 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Sachverhalte"
             einheitEinzahl="Sachverhalt"
+          />
+        )}
+        {ansicht === "originalklausuren" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 2 · Körperschaftsteuer · Original-Prüfungsklausuren"
+            titel="KSt-Originalklausuren der Steuerberaterprüfung"
+            lead="Die Original-Prüfungsaufgaben aus dem Gebiet der Körperschaftsteuer mit den Lösungshinweisen des Lehrgangs („Körperschaftsteuer, Umwandlungssteuerrecht und Gewerbesteuer · Steuerberaterprüfungen 2011 – 2015“, Rechtsstand 2025, Bearbeiter RA/StB Ulrich Breier) – Sachverhalt, Aufgabenstellung und Musterlösung im Wortlaut, mit den Randpunkten der Quelle. Die Klausuren sind auf den Rechtsstand zum 31.12.2025 fortgeschrieben und spielen im Veranlagungszeitraum 2025; die Jahreszahl im Titel bezeichnet den Prüfungsjahrgang. Eingepflegt ist bisher die Prüfung 2011 (A-GmbH, 35 Punkte): eine Einkommensermittlung, in der von sieben Kostenpositionen einer Sachkapitalerhöhung genau eine – 285 € für die Beurkundung der Übernahmeerklärung des Gesellschafters – eine verdeckte Gewinnausschüttung auslöst und derselbe Vorgang das steuerliche Einlagekonto zugleich um 10.000 € erhöht und um 285 € mindert. Dazu eine Organschaft im ersten Jahr, in der die Ausschüttung vororganschaftlicher Gewinne den allgemeinen Regeln folgt, die Bruttomethode des § 15 KStG die Dividende der Organgesellschaft erst beim Organträger korrigiert, eine Ausgleichszahlung von 17.000 € gleich zweimal wirkt und eine Minderabführung nach der Einlagelösung des § 14 Abs. 4 KStG innerbilanziell erhöht und außerbilanziell wieder neutralisiert wird. Jede Zahl ist unabhängig nachgerechnet."
+            quelle={kstOriginalklausurenQuelle}
+            hausaufgaben={kstOriginalklausuren}
+            gruppeVon={(eintrag) => eintrag.jahrgang}
+            gruppeLabel={(eintrag) => `Prüfung ${eintrag.jahrgang}`}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · ${eintrag.punkte} Punkte`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Klausuren"
+            einheitEinzahl="Klausur"
           />
         )}
         {ansicht === "schema" && <KstSchemaseite oeffnen={oeffnen} />}
