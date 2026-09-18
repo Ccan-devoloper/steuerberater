@@ -78,6 +78,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   der Quelle ist unabhängig nachgerechnet und die Kontrollrechnung steht am Ende der
   Lösung; die Spaltenzuordnung der Rechenwerke ist dokumentiert.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
+- **Bewertungsrecht Teil 3** (Reiter „Bewertungsrecht (Schäfer)" im Campus
+  Erbschaftsteuer): das Unterrichtsmaterial zum Steuerberaterlehrgang „Bewertungsrecht,
+  Teil 3: Bewertung des Betriebsvermögens; gesonderte Feststellungen" (Martin Schäfer,
+  Stand Oktober 2025, 35 Seiten) **im Wortlaut**. Eingepflegt ist bisher der Anfang des
+  Teils I: § 12 Abs. 5 ErbStG als Einstieg, der Gewerbebetrieb als Bewertungsgegenstand
+  nach § 95 Abs. 1 BewG mit der Gleichstellung der freien Berufe nach § 96 BewG und den
+  vier Durchbrechungen der Bestandsidentität zwischen Steuerbilanz und
+  bewertungsrechtlichem Betriebsvermögen; die Rangfolge der Bewertungsverfahren des
+  § 11 Abs. 2 BewG von der Ableitung aus zeitnahen Verkäufen über Ertragswert- und
+  Multiplikatorenverfahren bis zum optionalen vereinfachten Ertragswertverfahren, stets
+  mit dem Substanzwert als obligatorisch zu prüfender Untergrenze; sowie der Substanzwert
+  selbst – wann er überhaupt greift, welche Wirtschaftsgüter trotz Aktivierungs- oder
+  Passivierungsverbots anzusetzen sind, Betriebsgrundstücke nach § 99 BewG, Schulden und
+  sonstige Abzüge, die Wertermittlung mit der 30-Prozent-Regel für bewegliches
+  Anlagevermögen, Wiederbeschaffungskosten beim Umlaufvermögen und der Kapitalisierung
+  von Lizenzerträgen sowie die Fortschreibung einer Vermögensaufstellung auf den
+  Besteuerungszeitpunkt. Die drei Beispiele der Quelle stehen durchgerechnet; wo die
+  Quelle eine Vermögensaufstellung ohne Ergebnis stehen lässt, ist das ausdrücklich
+  vermerkt und die eigene Kontrollrechnung als solche gekennzeichnet.
+  Prüfung: `npm run check:k1-erbst-bewertung-teil3`
 - **Hausaufgaben KSt** (Reiter im Campus Körperschaftsteuer): die Kurzklausuren des
   Tageslehrgangs mit Lösung – Fachtermin 1 (A-GmbH mit dreizehn Korrekturtatbeständen,
   optierende A/B-OHG nach § 1a KStG und Spendenabzug beim gemeinnützigen Verein, 74 Punkte)

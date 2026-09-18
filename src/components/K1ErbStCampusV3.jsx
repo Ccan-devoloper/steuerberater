@@ -9,6 +9,8 @@ import K1ErbStHausaufgaben from"./K1ErbStHausaufgaben";
 import HausaufgabenBloecke from"./HausaufgabenBloecke";
 import{estKlausuren,estKlausurenQuelle}from"../data/est-klausuren.js";
 import{erbstFallsammlung,erbstFallsammlungQuelle}from"../data/k1-erbst-fallsammlung.js";
+import{erbstBewertungTeil3,erbstBewertungTeil3Quelle}from"../data/k1-erbst-bewertung-teil3.js";
+import KurzskriptBloecke from"./KurzskriptBloecke";
 import K1ErbStPruefschemaV3 from"./K1ErbStPruefschemaV3";import K1ErbStSchemaAlleV3 from"./K1ErbStSchemaAlleV3";
 import{ErbStNormkette,ErbStSchemaVerweise,ErbStVerlinkterText}from"./K1ErbStSchemaLinks";
 import Klausurmodus,{IconKlausur}from"./Klausurmodus";import{IconCockpit,IconModule,IconFaelle,IconSchema,IconHaken,IconTraining}from"./Icons";
@@ -23,7 +25,7 @@ const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o]))),oberVon=m=>O
 /* Der Erbschaftsteuer-/Bewertungsteil der Übungsklausur AO/USt/ErbSt/BewR 1
    liegt im gemeinsamen Klausurbestand der Übungsklausuren. */
 const ERBST_UEBUNGSKLAUSUR=estKlausuren.filter(eintrag=>eintrag.fach==="erbst");
-const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
+const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["bewertungsskript","Bewertungsrecht (Schäfer)",IconModule],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
 const seitenLabel=(seiten=[])=>{if(!seiten.length)return"–";const s=[...seiten].sort((a,b)=>a-b),out=[];let a=s[0],b=s[0];for(let i=1;i<=s.length;i++){const c=s[i];if(c===b+1){b=c;continue}out.push(a===b?`${a}`:`${a}–${b}`);a=c;b=c}return out.join(", ")};
 const fallLabel=m=>m.caseNo||m.title.match(/Fall\s+(\d+)/i)?.[1]||m.id;
 function Tz({nummer,label,titel,art,children}){return <section className={`tz${art?` tz--${art}`:""}`}><div className="tz__no"><b>Tz. {nummer}</b>{label}</div><div className="tz__body">{titel&&<h2 className="tz__titel">{titel}</h2>}{children}</div></section>}
@@ -51,7 +53,19 @@ export default function K1ErbStCampusV3({onKlausurwechsel,onFachwechsel}){const 
       suchePlatzhalter="Norm, Stichwort oder Betrag"
       einheit="Aufgabenteile"
       einheitEinzahl="Aufgabenteil"
-    />;if(entry.ansicht==="training")return <Training/>;if(entry.ansicht==="klausur")return <Klausurmodus module={INHALTE} oeffnenModul={id=>go({ansicht:"detail",id})} speicherKey="stb-k1-erbst-klausurlauf" modulWort="Fall" sperrtext="Erst selbst nach der ErbSt/BewG-Fahrtroute lösen. Danach den Quellenweg aufdecken und ehrlich bewerten."/>;if(entry.ansicht==="fallsammlung")return <HausaufgabenBloecke
+    />;if(entry.ansicht==="training")return <Training/>;if(entry.ansicht==="klausur")return <Klausurmodus module={INHALTE} oeffnenModul={id=>go({ansicht:"detail",id})} speicherKey="stb-k1-erbst-klausurlauf" modulWort="Fall" sperrtext="Erst selbst nach der ErbSt/BewG-Fahrtroute lösen. Danach den Quellenweg aufdecken und ehrlich bewerten."/>;if(entry.ansicht==="bewertungsskript")return <KurzskriptBloecke
+      kicker="Klausur 1 · Erbschaftsteuer/Bewertung · Skript"
+      titel="Bewertungsrecht Teil 3 (Schäfer)"
+      lead="Das Unterrichtsmaterial „Bewertungsrecht, Teil 3: Bewertung des Betriebsvermögens; gesonderte Feststellungen“ von Martin Schäfer (Stand Oktober 2025) im Wortlaut. Eingepflegt ist bisher der Anfang des Teils I: § 12 Abs. 5 ErbStG als Einstieg, der Gewerbebetrieb als Bewertungsgegenstand und die vier Durchbrechungen der Bestandsidentität zwischen Steuerbilanz und bewertungsrechtlichem Betriebsvermögen; die Rangfolge der Bewertungsverfahren des § 11 Abs. 2 BewG von der Ableitung aus zeitnahen Verkäufen über Ertragswert- und Multiplikatorenverfahren bis zum optionalen vereinfachten Ertragswertverfahren, stets mit dem Substanzwert als obligatorisch zu prüfender Untergrenze; sowie der Substanzwert selbst mit dem Umfang des Betriebsvermögens, den Betriebsgrundstücken nach § 99 BewG, den Schulden und sonstigen Abzügen und der Wertermittlung samt 30-Prozent-Regel, Wiederbeschaffungskosten und Ableitung aus der letzten Vermögensaufstellung – mit den durchgerechneten Beispielen der Quelle."
+      quelle={erbstBewertungTeil3Quelle}
+      kapitel={erbstBewertungTeil3}
+      karteKicker={(k)=>`${k.teilLabel} · Kapitel ${k.kapitel}`}
+      gruppeVon={(k)=>k.teil}
+      gruppeLabel={(k)=>k.teilLabel}
+      gruppeAria="Teile"
+      gruppeAlle="Alle Teile"
+      suchePlatzhalter="Norm, Stichwort oder Betrag"
+    />;if(entry.ansicht==="fallsammlung")return <HausaufgabenBloecke
       kicker="Klausur 1 · Erbschaftsteuer/Bewertung · Fallsammlung"
       titel="ErbSt-Fallsammlung (Schäfer)"
       lead="Die Übungsfälle der Fallsammlung Erbschaft- und Schenkungsteuer von Martin Schäfer (Rechtsstand 2025) mit Sachverhalt, Aufgabenstellung und Lösungshinweis im Wortlaut. Eingepflegt sind bisher: die Bewertung des Anteils an einer Kapitalgesellschaft im Nachlass Beckmann – vereinfachtes Ertragswertverfahren mit den Korrekturen des § 202 BewG, der Sonderbewertung von Mietwohngrundstück, Tochterbeteiligung und junger Kapitalrücklage nach § 200 Abs. 2 bis 4 BewG und dem Hinweis auf den entfallenden Paketzuschlag; sowie die Übertragung des Einzelunternehmens Haßlinghaus auf den Sohn – Ertragswert mit angemessenem Unternehmerlohn, Finanzmitteltest, jungem Verwaltungsvermögen, anteiligem Schuldenabzug, 85-prozentigem Verschonungsabschlag und Härteausgleich. Dazu die Übungsklausur Bewertungsrecht/Erbschaftsteuer im Nachlass Fietze mit drei Grundbesitzwertermittlungen – Einfamilienhaus im Sachwertverfahren mit doppelter Wertzahlinterpolation, gemischt genutztes Grundstück im Ertragswertverfahren mit der 20-Prozent-Grenze des § 186 Abs. 2 BewG und Erbbaurecht nach der finanzmathematischen Methode des § 193 BewG – und der anschließenden Erbschaftsteuer für die Wohnrechtsvermächtnisnehmerin und den Alleinerben mit Vorerwerb nach § 14 ErbStG. Schließlich der Nachlass Pack, in dem Substanzwert und Ertragswert nebeneinander ermittelt werden und die Klausur bis zur festzusetzenden Erbschaftsteuer durchgerechnet wird – mit Finanzmitteltest, 90-Prozent-Test, Abschmelzung des Abzugsbetrags nach § 13a Abs. 2 ErbStG, Familienheim, Hausrat, Pkw, Lebensversicherungsrente und Anrechnung des Vorerwerbs nach § 14 ErbStG. Jede Zwischensumme der Quelle ist unabhängig nachgerechnet; die Rechenkontrolle steht am Ende jeder Lösung."

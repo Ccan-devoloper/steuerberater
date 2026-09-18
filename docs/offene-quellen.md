@@ -149,10 +149,19 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Erwerber) und **Pack** (Substanz- und Ertragswertvergleich mit vollständiger
   Steuerberechnung) – jeweils mit Aufgabe und Lösung im Wortlaut
   (Reiter „Fallsammlung“, `src/data/k1-erbst-fallsammlung.js`). Der Ordner enthält zehn
-  Dateien; noch offen sind
-  der **Bewertungsteil 3** (Lösung `142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`) und die noch nicht
-  geöffnete Datei „2025) (6).pdf“ (`1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa`).
-- Bewertungsteile
+  Dateien; aus der Fallsammlung selbst steht damit nichts mehr offen.
+- **Bewertungsrecht Teil 3** (Schäfer, Stand Oktober 2025): Die Datei „2025) (6).pdf“
+  (`1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa`) erwies sich als vollständig lesbares
+  Unterrichtsskript „Bewertung des Betriebsvermögens; gesonderte Feststellungen“
+  (35 Seiten, 80.000 Zeichen, vom Connector vollständig ausgegeben). **Begonnen:** der
+  Anfang des Teils I (Allgemeines, Begriff und Umfang, Bewertungsverfahren, Substanzwert)
+  steht im neuen Reiter „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil3.js`.
+  Noch offen sind aus dem Teil I das vereinfachte Ertragswertverfahren (Tz. 5), die Anteile
+  am Betriebsvermögen einer Personengesellschaft (Tz. 6) und die Besonderheiten bei
+  Kapitalgesellschaften (Tz. 7) sowie der gesamte Teil II (Gesonderte Feststellungen).
+  Dazu kommt die zugehörige Lösungsdatei „B-S25-ErbSt-Bewertung 2025-2026 Teil 3-Loesung“
+  (`142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`).
+- Bewertungsteile 1 und 2 – im Drive noch nicht lokalisiert
 - **ErbStR, 4. und 5. Einheit** – im Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` liegen seit
   September 2026 vier weitere Dateien („ErbStR, 4. Einheit_Teil 1“ und „ErbStR. 4.
   Einheit_Teil 2“, „ErbStR, 5. Einheit_Teil 1“ und „ErbSt, 5 Einheit - Teil 2“). Der Campus

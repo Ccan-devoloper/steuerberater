@@ -3639,3 +3639,70 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   140 qm, Selbstnutzung durch die Tochter ab dem 01.12.2025 nach grundlegender Renovierung).
   Eine über die Quelle hinausgehende Begründung ist **nicht ergänzt**, sondern der Befund als
   redaktioneller Hinweis gekennzeichnet.
+
+## Bewertungsrecht Teil 3 (Schäfer) – Anfang des Teils I
+
+- Quelle im Drive: Ordner `1C96T8I4WDh2wYVnoGyUgHUJVwnPsqr_X`, Datei „2025) (6).pdf“
+  (`1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa`, 689 KB). Die Datei trug den nichtssagendsten Namen
+  des Ordners und erwies sich als vollständiges Unterrichtsskript: „Bewertungsrecht –
+  Unterrichtsmaterial zum Steuerberaterlehrgang, Teil 3: Bewertung des Betriebsvermögens;
+  gesonderte Feststellungen“ (Dipl.-Finanzwirt Martin Schäfer, Stand Oktober 2025,
+  35 Seiten). Der Connector gibt die Datei mit rund 80.000 Zeichen **vollständig** aus –
+  vom Deckblatt bis zum letzten Satz des Abschnitts II.5; es fehlt nichts.
+- Einpflege dieses Durchgangs: neuer Datensatz `src/data/k1-erbst-bewertung-teil3.js` mit
+  vier Kapiteln, 76 Blöcken und 8 Tabellen; neues Prüfskript
+  `npm run check:k1-erbst-bewertung-teil3`; neuer Reiter „Bewertungsrecht (Schäfer)“ im
+  Erbschaftsteuer-Campus. Erfasst sind die Tz. 1 bis 4 des Teils I (Allgemeines, Begriff
+  und Umfang und Bewertungsgegenstand, Bewertungsverfahren, Substanzwert).
+- Noch offen aus derselben Datei: Tz. 5 (vereinfachtes Ertragswertverfahren einschließlich
+  Kapitalisierungsfaktor), Tz. 6 (Anteile am Betriebsvermögen einer Personengesellschaft),
+  Tz. 7 (Besonderheiten bei Kapitalgesellschaften) und der gesamte Teil II (Gesonderte
+  Feststellungen, §§ 151 bis 156 BewG).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidungen: Die beiden Übersichten der Quelle („Bewertungsmethoden –
+  Überblick“ und „Durchbrechung der Bestandsidentität“) sowie die Tabelle „Wertansatz –
+  gemeiner Wert“ stehen im PDF als Schaubilder, deren Spalten in der maschinellen
+  Erfassung ineinanderlaufen. Sie sind zugeordnet als Tabellen wiedergegeben; der Wortlaut
+  ist unverändert. Bei der Methodenübersicht ist zusätzlich vermerkt, dass die Einordnung
+  der beiden branchenüblichen Verfahren aus dem vorangehenden Fließtext übernommen ist.
+
+  Nachgerechnet und zutreffend: Im ersten Beispiel ergeben 710.000 + 24.000 + 90.000 +
+  190.000 + 70.000 − 15.000 − 10.000 genau den ausgewiesenen Substanzwert von 1.059.000 €.
+  Der Grund und Boden und das Gebäude der Produktion gehen mit dem einheitlichen
+  Bedarfswert von 710.000 € statt mit den Bilanzwerten von zusammen 637.000 € ein, die
+  Maschinen mit 30 % der Anschaffungskosten (24.000 €) statt mit dem Bilanzwert von
+  30.000 €, die Aktien mit dem Kurswert von 90.000 € statt mit den Anschaffungskosten von
+  60.000 €. Im zweiten Beispiel stimmt die Bilanzsumme von 2.111.000 € auf beiden Seiten
+  (500.000 + 1.000.000 + 75.000 + 300.000 + 86.000 + 150.000 beziehungsweise 1.567.000 +
+  480.000 + 64.000).
+
+  **Ein Beispiel ohne Ergebnis in der Quelle.** Das zweite Beispiel stellt der
+  Steuerbilanzspalte eine Spalte „Wert nach BewG“ gegenüber, weist für diese aber **keine
+  Summe** aus, und ein Lösungssatz folgt nicht. Der Substanzwert nach BewG ist deshalb
+  **nicht ergänzt**. Stattdessen steht im Datensatz eine ausdrücklich als solche
+  gekennzeichnete eigene Kontrollrechnung: Aus den angegebenen Werten (Grundbesitzwert
+  3.000.000 €, Firmenwert 16.000 €, bewegliches Anlagevermögen 450.000 €, Umlaufvermögen
+  95.000 €, übrige Aktiva 150.000 €, abzüglich Verbindlichkeiten 480.000 €, ohne Ansatz der
+  § 6b-Rücklage) ergäbe sich ein Substanzwert von 3.231.000 €, der über dem genannten
+  vereinfachten Ertragswert von 2.800.000 € läge. Ob die Quelle genau so rechnet, ist ihrem
+  Text nicht zu entnehmen; die Musterlösung liegt im Drive als eigene Datei
+  (`142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`).
+
+  Stellen, an denen die Quelle verschrieben ist oder ihre Verweise nicht zusammenpassen –
+  wortlautgetreu übernommen und gekennzeichnet:
+
+  - **Tz. 1.** Der zweite Satz verweist auf „§ 151 Abs. 1 **Nr. 1** BewG“ für den Wert des
+    Betriebsvermögens, obwohl der Satz davor zutreffend § 151 Abs. 1 Satz 1 **Nr. 2** BewG
+    nennt; Nr. 1 betrifft den Grundbesitz.
+  - **Tz. 3.** „sind Anteile an Kapitalgesellschaften … mit dem gemeinen Wert ansetzen“.
+  - **Tz. 4 aa).** „Die Zugehörigkeit **eins** Grundstücks zum Betriebsvermögen“.
+  - **Tz. 4 b).** Der Hinweis auf die zeitanteilige Ableitung verweist im Klammerzusatz auf
+    „vgl. **Nr. 2**“, obwohl die Aufwendungen auf den Grundbesitz unter Nummer 1 aufgeführt
+    sind.
+
+  Beobachtung ohne Quellenfehler: Im ersten Beispiel setzt die Lösung die Maschinen mit
+  30 % der Anschaffungskosten (24.000 €) an, obwohl der Bilanzwert mit 30.000 € höher ist.
+  R B 11.5 Abs. 7 ErbStR formuliert die 30 % als Mindestgrenze eines angemessenen
+  Restwerts. Die Quelle wendet die Vereinfachungsregel als Wertansatz an; ihr Wortlaut und
+  ihre Zahlen sind unverändert übernommen.
