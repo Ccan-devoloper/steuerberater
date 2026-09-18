@@ -142,14 +142,14 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
 
 ### Klausur 1 – Erbschaft- und Schenkungsteuer
 - **ErbSt-Fallsammlung** (Schäfer), Ordner `1C96T8I4WDh2wYVnoGyUgHUJVwnPsqr_X`: **begonnen.**
-  Eingepflegt sind die beiden Fälle zur Bewertung von Unternehmensvermögen – **Beckmann**
-  (Anteil an einer Kapitalgesellschaft im vereinfachten Ertragswertverfahren) und
-  **Haßlinghaus** (Einzelunternehmen mit Verschonung nach §§ 13a, 13b ErbStG) sowie
-  **Fietze** (Übungsklausur Bewertungsrecht/ErbSt mit drei Grundbesitzwertermittlungen und
-  der Erbschaftsteuer für zwei Erwerber) – jeweils mit Aufgabe und Lösung im Wortlaut
+  Eingepflegt sind vier Übungsfälle – **Beckmann**
+  (Anteil an einer Kapitalgesellschaft im vereinfachten Ertragswertverfahren),
+  **Haßlinghaus** (Einzelunternehmen mit Verschonung nach §§ 13a, 13b ErbStG),
+  **Fietze** (drei Grundbesitzwertermittlungen und die Erbschaftsteuer für zwei
+  Erwerber) und **Pack** (Substanz- und Ertragswertvergleich mit vollständiger
+  Steuerberechnung) – jeweils mit Aufgabe und Lösung im Wortlaut
   (Reiter „Fallsammlung“, `src/data/k1-erbst-fallsammlung.js`). Der Ordner enthält zehn
-  Dateien; noch offen sind **Pack**
-  (`1w9nZeUze3Wi9VUX72ZdnzQMH9Y5ugQ0t` mit Lösung `1IgYWPq7H0Nry6-qfYdj2J-_tUGKvrIgQ`),
+  Dateien; noch offen sind
   der **Bewertungsteil 3** (Lösung `142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`) und die noch nicht
   geöffnete Datei „2025) (6).pdf“ (`1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa`).
 - Bewertungsteile

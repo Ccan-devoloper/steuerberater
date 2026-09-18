@@ -66,7 +66,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Hinterlandbewertung (436.315 €); anschließend die Erbschaftsteuer für die
   Wohnrechtsvermächtnisnehmerin (Kapitalwert nach §§ 14, 15 Abs. 2, 16 BewG, 45.260 €) und
   für den Alleinerben mit § 13d-Befreiung, Nachlassverbindlichkeiten und Vorerwerb nach
-  § 14 ErbStG (307.021 €). Jede Zwischensumme
+  § 14 ErbStG (307.021 €). Und **Pack** – der Nachlass eines Einzelunternehmers, in dem
+  Substanzwert (1.596.290 €) und Ertragswert (3.067.944 €) nebeneinander ermittelt und
+  verglichen werden und die Klausur bis zur festzusetzenden Erbschaftsteuer durchgerechnet
+  wird: Finanzmitteltest und 90-Prozent-Test, Nettowert des Verwaltungsvermögens,
+  85-prozentiger Verschonungsabschlag mit Abschmelzung des Abzugsbetrags nach § 13a Abs. 2
+  ErbStG auf 28.820 €, steuerfreies Familienheim samt nicht abziehbarer Hypothek nach
+  § 10 Abs. 6 Satz 1 ErbStG, Hausrats- und Pkw-Freibeträge, Kapitalwert der
+  Lebensversicherungsrente und Anrechnung des Vorerwerbs von 2023 (festzusetzende
+  Erbschaftsteuer 173.504 €). Jede Zwischensumme
   der Quelle ist unabhängig nachgerechnet und die Kontrollrechnung steht am Ende der
   Lösung; die Spaltenzuordnung der Rechenwerke ist dokumentiert.
   Prüfung: `npm run check:k1-erbst-fallsammlung`

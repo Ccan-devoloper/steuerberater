@@ -3576,3 +3576,66 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     Steuerbefreiung für zu Wohnzwecken vermietete Grundstück“; „Vertraglich vereinbarte
     jährlicher Erbbauzins“; „Zu einer Abzugssteuer nach § 14 Abs. 1 S. 2 u. S. 3 ErbStG
     kommt es nicht“.
+
+## ErbSt-Fallsammlung (Schäfer) – Übungsfall Pack
+
+- Quellen im Drive, Ordner `1C96T8I4WDh2wYVnoGyUgHUJVwnPsqr_X`:
+  „B-S25-ErbSt-Pack 2025-(Schaefer)-1025.pdf“ (`1w9nZeUze3Wi9VUX72ZdnzQMH9Y5ugQ0t`) und
+  „B-S25-ErbSt-Pack 2025-Loesung-(Schaefer)-1025.pdf“ (`1IgYWPq7H0Nry6-qfYdj2J-_tUGKvrIgQ`).
+- Einpflege: vierter Übungsfall im Datensatz `src/data/k1-erbst-fallsammlung.js`, jetzt
+  4 Übungsfälle, 151 Blöcke, 31 Tabellen; Prüfung `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidung: Die Bilanz zum Todeszeitpunkt steht in der Quelle als
+  fortlaufender Text (erst sämtliche Aktivposten, dann sämtliche Passivposten). Sie ist als
+  vierspaltige Tabelle Aktiva/Betrag/Passiva/Betrag wiedergegeben; Beträge und
+  Positionsbezeichnungen sind unverändert, die Bilanzsumme von 1.149.490 € stimmt auf
+  beiden Seiten.
+
+  Nachgerechnet und zutreffend – sämtliche Werte der Quelle gehen auf:
+
+  - **Substanzwert.** 400.000 + 250.000 + 590.000 + 32.800 + 6.200 + 100.000 + 256.000 +
+    55.650 = 1.690.650 €; abzüglich 60.000 + 30.360 + 4.000 = 94.360 € ergibt sich der
+    Mindestwert von 1.596.290 €. Die § 6b-Rücklage bleibt nach § 103 Abs. 3 BewG außer
+    Ansatz; der Pkw wird statt mit dem Buchwert von 3.800 € mit dem gemeinen Wert von
+    6.200 €, die Aktien statt mit 185.000 € mit dem Kurswert von 100.000 € angesetzt.
+  - **Ertragswert.** Zwischensummen 294.000 / 249.060 / 216.820 €, nach der 30-%-Pauschale
+    205.800 / 174.342 / 151.774 €, Summe 531.916 €, geteilt durch drei 177.305,33 € (in der
+    Quelle auf 177.305 € abgerundet), mal 13,75 = 2.437.943,75 € (2.437.944 €). Zuzüglich
+    590.000 €, abzüglich 60.000 € und zuzüglich 100.000 € ergibt sich der Unternehmenswert
+    von 3.067.944 €, der den Substanzwert deutlich übersteigt.
+  - **Verschonung.** Finanzmittel 311.650 € abzüglich Schulden 94.360 € = 217.290 €; der
+    15-%-Freibetrag beträgt 460.191,60 € (460.192 €) und wird nicht überschritten. Der
+    90-%-Test ergibt 907.290 / 3.067.944 = 29,573 % (29,57 %). 10 % von 2.377.944 € sind
+    237.794,40 € (237.794 €), der gekürzte Nettowert damit 452.206 €. Begünstigtes Vermögen
+    2.615.738 €, davon 85 % = 2.223.377,30 € (2.223.377 €), Rest 392.361 €; der
+    Abzugsbetrag schmilzt auf 150.000 − 121.180,50 = 28.819,50 € (28.820 €), so dass
+    363.541 € verbleiben und mit den nicht begünstigten 452.206 € ein steuerpflichtiges
+    Betriebsvermögen von 815.747 € entsteht.
+  - **Steuer.** 815.747 + 61.423 + 19.500 = 896.670 €. Der Pauschbetrag von 15.000 € ist
+    günstiger als die tatsächlichen Kosten von 7.000 €. 896.670 − 15.000 + 450.000 −
+    400.000 = 931.670 €, abgerundet 931.600 €; 19 % davon sind genau 177.004 €. Die fiktive
+    Steuer auf den Vorerwerb beträgt 7 % von 50.000 € = 3.500 € und entspricht der
+    tatsächlich entrichteten Steuer, so dass 173.504 € festzusetzen sind. Der Jahreswert der
+    Lebensversicherungsrente von 3.600 € mal 17,062 ergibt 61.423,20 € (61.423 €).
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und mit
+  „(so in der Quelle)“ gekennzeichnet:
+
+  - **Ertragswerttabelle, Aktienbeteiligungserträge.** Die Kürzung wird mit „§ 202 Abs. 3,
+    § 202 Abs. 1 Nr. 2f BewG“ belegt; nach dem vorangehenden Text ist § **200** Abs. 3 BewG
+    gemeint (§ 202 Abs. 3 BewG regelt die 30-%-Pauschale, die in derselben Tabelle zwei
+    Zeilen später gesondert steht).
+  - **Unternehmenswerttabelle, Hypothek.** „Hypothek Geschäftsgrundstück § **202** Abs. 2
+    BewG“; gemeint ist § 200 Abs. 2 BewG.
+  - **Unternehmenswerttabelle, Grundstück.** Die Zeile „Geschäftsgrundstück § 200 Abs. 2
+    BewG 590.000“ meint das **vermietete** Geschäftsgrundstück; das betriebsnotwendige
+    Werkstatt- und Bürogebäude ist mit 250.000 € nur im Substanzwert enthalten.
+  - **Sachverhalt.** „des vom Erblasser auf seine Tochter übergegangen Einfamilienhauses“.
+
+  Redaktioneller Hinweis ohne Quellenfehler: Die Musterlösung stellt die Steuerbefreiung des
+  Familienheims nach § 13 Abs. 1 Nr. 4c ErbStG ohne Begründung fest. Der Sachverhalt enthält
+  die dafür maßgeblichen Angaben (Nutzung durch den Erblasser bis zum Tod, Wohnfläche
+  140 qm, Selbstnutzung durch die Tochter ab dem 01.12.2025 nach grundlegender Renovierung).
+  Eine über die Quelle hinausgehende Begründung ist **nicht ergänzt**, sondern der Befund als
+  redaktioneller Hinweis gekennzeichnet.
