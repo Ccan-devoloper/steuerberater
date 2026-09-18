@@ -23,6 +23,7 @@ import{aoSkriptJacobs,aoSkriptJacobsQuelle}from"../data/k1-ao-skript-jacobs.js";
 import HausaufgabenBloecke from"./HausaufgabenBloecke";
 import{estKlausuren,estKlausurenQuelle}from"../data/est-klausuren.js";
 import{aoOriginalklausuren,aoOriginalklausurenQuelle}from"../data/k1-ao-originalklausuren.js";
+import{k1Pruefungsklausuren,k1PruefungsklausurenQuelle}from"../data/k1-pruefungsklausuren.js";
 import{IconCockpit,IconModule,IconFaelle,IconSchema,IconHaken,IconTraining}from"./Icons";
 import"./kst.css";import"./ao.css";
 import{PrioBadge,PrioFilter,PrioCockpit,prioZaehlen,usePrioFilter,prioritaetFuer}from"./Prioritaet";
@@ -57,7 +58,7 @@ const OBER=[
 {id:"fgo",label:"FGO & Vollstreckung",module:[367,368,384],beschreibung:"Allgemeine und maßnahmenspezifische Vollstreckungsvoraussetzungen sowie die FGO-Fahrtroute mit Sachurteilsvoraussetzungen."},
 ];
 const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o])));const oberVon=m=>OBER_BY_ID.get(m.id)||OBER[1];
-const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"skript",label:"Skript (Jacobs)",Icon:IconModule},{id:"shortskript",label:"Short-Skript (Jacobs)",Icon:IconModule},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining},{id:"originalklausuren",label:"Originalklausuren (Examen)",Icon:IconKlausur}]
+const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"skript",label:"Skript (Jacobs)",Icon:IconModule},{id:"shortskript",label:"Short-Skript (Jacobs)",Icon:IconModule},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining},{id:"originalklausuren",label:"Originalklausuren (Examen)",Icon:IconKlausur},{id:"pruefungsklausuren",label:"Prüfungsklausuren im Original",Icon:IconKlausur}]
 
 /* Die Teilklausur Abgabenordnung der Übungsklausur AO/USt liegt im gemeinsamen
    Klausurbestand; hier werden nur ihre Sachverhalte gezeigt. */
@@ -98,6 +99,19 @@ export default function AOCampusV3({onKlausurwechsel,onFachwechsel}){const[ansic
       suchePlatzhalter="Norm, Frist oder Stichwort"
       einheit="Originalklausuren"
       einheitEinzahl="Originalklausur"
+    />} {ansicht==="pruefungsklausuren"&&<HausaufgabenBloecke
+      kicker="Klausur 1 · Abgabenordnung · amtliche Prüfungsaufgaben"
+      titel="Prüfungsklausuren im Original – ohne Musterlösung"
+      lead="Der Verfahrensrechtsteil des dritten Prüfungstages im amtlichen Wortlaut – kein fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt ist die Prüfung **2021/2022**; der Fall spielt im Jahr 2021. **Zu dieser Aufgabe enthält die Quelle keine Lösung**, und es wird hier ausdrücklich keine erfunden; der Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit vollständiger Musterlösung stehen. Die Klausur verlangt kein Ergebnis in Euro, sondern drei Rechtsgutachten: Eine Betriebsprüferin gibt eine Prüfungsanordnung an den Arzt selbst zur Post, ohne von der fünf Tage zuvor eingegangenen, aber noch nicht erfassten Empfangsvollmacht zu wissen. Es folgen ein handschriftlicher, undatierter und nicht unterschriebener „Einspruch“ auf der Rückseite eines Arzneimittel-Werbeflyers, eine zweite Anordnung, deren eingetragenes Datum drei Tage **nach** der tatsächlichen Zustellung liegt, und eine E-Mail des Steuerberaters mit sechs durchnummerierten Einwendungen – diese sechs Punkte sind die Gliederung der zweiten Aufgabe. Zum Schluss die Frage, ob die geschiedene Ehefrau die Unterlagen des Jahres 2017 aus ihrem Keller herausgeben muss und ob sie über ein Vorlageverweigerungsrecht zu belehren ist. Der Aufgabe liegt ein Jahreskalender 2021 bei; die für den Fall maßgeblichen Tage sind im Eintrag einzeln aufgeführt und gegengeprüft."
+      quelle={k1PruefungsklausurenQuelle}
+      hausaufgaben={k1Pruefungsklausuren.filter(e=>e.fach==="ao")}
+      gruppeVon={eintrag=>eintrag.jahrgang}
+      gruppeLabel={eintrag=>`Prüfung ${eintrag.jahrgang}`}
+      gruppeAria="Prüfungsjahrgänge"
+      karteKicker={eintrag=>`Prüfung ${eintrag.jahrgang} · Teil ${eintrag.teil}`}
+      suchePlatzhalter="Norm, Frist oder Stichwort"
+      einheit="Aufgabenteile"
+      einheitEinzahl="Aufgabenteil"
     />} {ansicht==="schema"&&<AOPruefschema/>} {ansicht==="training"&&<AOTraining/>} {ansicht==="skript"&&<KurzskriptBloecke
       kicker="Klausur 1 · Abgabenordnung · Skript"
       titel="AO-Skript (Jacobs)"

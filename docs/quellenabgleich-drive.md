@@ -8738,3 +8738,59 @@ Sachverhaltsangaben hinzu, die erkennbar Weichenstellungen sind – etwa die Bes
 beider Bescheide auf der Gegenseite des Darlehens, die unternehmerische Rechtfertigung der
 Rücklage und der Nutzen- und Lastenübergang am 31. Dezember 2020 um 24 Uhr. Das ist
 Transkription und Hinweis, keine Lösung.
+
+### Amtliche Prüfungsaufgabe Verfahrensrecht 2021/2022, Teil I (Abgabenordnung und FGO)
+
+- **Quelle:** Drive-ID `1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3`, Abschnitt „Prüfungsaufgaben aus
+  dem Verfahrensrecht und anderen Steuerrechtsgebieten, Teil I: Abgabenordnung und
+  Finanzgerichtsordnung“.
+- **Ziel:** neuer Datensatz `src/data/k1-pruefungsklausuren.js`, Eintrag
+  `k1-pk-2021-ao-bayer` (fach "ao"), neuer Reiter „Prüfungsklausuren im Original“ im
+  AO-Campus. Prüfung: `npm run check:k1-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; der Fall spielt im **Jahr 2021**, geprüft werden die
+  Gewinnfeststellungen 2017 bis 2019.
+
+**Der dritte Datensatz dieser Art.** Nach dem Bilanz-Prüfungstag (`k3-bil-…`) und dem
+Ertragsteuer-Prüfungstag (`k2-…`) folgt hier der Verfahrensrechtstag. Auch er umfasst drei
+Fächer – AO/FGO, Umsatzsteuer, Erbschaftsteuer –, die im Campus getrennt geführt werden; das
+Feld `fach` steuert wieder, welcher Campus welchen Eintrag zeigt. Die Teile II und III stehen
+in `docs/offene-quellen.md`, Abschnitt A.
+
+**Eine Klausur ohne eine einzige Zahl.** Anders als alle bisher eingepflegten Aufgabenteile
+verlangt diese kein Ergebnis in Euro, sondern drei Rechtsgutachten. Das ändert nichts an der
+Regel: Es wird keine Lösung erfunden. Der Lösungsabschnitt hält fest, was die
+Aufgabenstellung selbst sagt – dass Aufgabe 1 nur die Zulässigkeit betrifft und dies für jede
+Anordnung und jedes Schreiben gesondert („Prüfungsanordnung/en“, „ein zulässiger Einspruch
+oder zulässige Einsprüche“), dass Aufgabe 2 ausdrücklich „unabhängig von der in Frage 1
+behandelten Prüfung der Zulässigkeit“ zu lösen ist und dass Aufgabe 3 eine am Verfahren nicht
+beteiligte Person betrifft.
+
+**Der Sachverhalt liefert seine eigene Gliederung.** Der Steuerberater nummeriert seine
+Einwendungen von 1 bis 6; diese sechs Punkte sind der Prüfungsstoff der zweiten Aufgabe und
+im Datensatz als sechs eigene Blöcke wiedergegeben. Die Aufgabenstellung verlangt zusätzlich
+ausdrücklich, „auf alle im Sachverhalt enthaltenen verfahrensrechtlichen Probleme angemessen“
+einzugehen – die Einwendungen sind also nicht abschließend.
+
+**Das Kalendarium.** Der Aufgabe liegt ein vollständiger Jahreskalender 2021 mit den
+bayerischen Feiertagen bei. Der Textauszug des PDF gibt die zwölfspaltige Tagesübersicht an
+einer Stelle fehlerhaft wieder – im Oktober steht „26 So 25 Di“ statt „26 Di“. Statt das
+mangelhaft extrahierte Raster nachzubilden, führt der Datensatz die acht für den Fall
+maßgeblichen Tage einzeln mit Wochentag und Vorgang auf; jeder Wochentag ist gegen den
+tatsächlichen Kalender 2021 geprüft (08.06. Dienstag, 29.07. Donnerstag, 06.08. Freitag,
+09.08. Montag, 13.09. Montag, 27.09. Montag). Die Feiertagsliste ist wortlautgetreu
+übernommen; dass der 03.06.2021 – der Tag des Vollmachtseingangs – zugleich Fronleichnam und
+damit in Bayern gesetzlicher Feiertag ist, ist eigens vermerkt.
+
+**Zeitliche Einordnung.** Der Fall lebt von Fristen auf den Tag genau. Seit 2021 haben sich
+insbesondere die Bekanntgabefiktion des § 122 Abs. 2 AO und die Vorschriften über die
+Außenprüfung (DAC-7-Umsetzungsgesetz) geändert. Der Datensatz weist ausdrücklich darauf hin
+und gibt die Aufgabe unverändert mit dem Rechtsstand des Prüfungsjahrgangs wieder.
+
+**Verschreiber der Quelle – wortlautgetreu übernommen, mit einer Ausnahme:** „Katharina Teuer
+wusste zu diesem Zeitpunkt nicht dass“ (fehlendes Komma), „begann die Betriebsprüferin …
+tatsächlichen Prüfungshandlungen“, „dass es ihm unmöglich sein“, „Trotz des unerledigten
+Einspruchsverfahren“, „diese Steuerzeug“, „Urkundenvorlageverweigerungsrecht bzgl.“. Der
+offensichtliche Setzfehler „Patenten“ ist als „Patienten“ wiedergegeben, weil er den Sinn des
+Satzes andernfalls verkehrt; die übrigen Eigenheiten des Schriftsatzes – einschließlich der
+Anrede „Dr. Mannteufel“, obwohl der Sachverhalt ihn durchgehend ohne Titel führt – bleiben
+unverändert.

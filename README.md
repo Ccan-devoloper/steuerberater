@@ -1515,6 +1515,29 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Kontobewegung die Ablenkung. Damit ist die AO-Datei des Drive-Ordners vollständig
   ausgewertet.
   Prüfung: `npm run check:k1-ao-originalklausuren`
+
+- **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k1-pruefungsklausuren.js`,
+  Reiter „Prüfungsklausuren im Original“ im AO-Campus): die Aufgabentexte des **dritten
+  Prüfungstages** (Verfahrensrecht und andere Steuerrechtsgebiete) im **amtlichen Wortlaut** –
+  kein fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des
+  Originaljahrgangs. Eingepflegt ist der AO/FGO-Teil der Prüfung **2021/2022**; der Fall spielt
+  im Jahr 2021.
+  **Zu dieser Aufgabe enthält die Quelle keine Lösung** – und es wird hier keine erfunden.
+  Der Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und verweist
+  auf die Parallelfälle mit Musterlösung im Campus.
+  Die Klausur verlangt kein Ergebnis in Euro, sondern **drei Rechtsgutachten**: (1) die
+  Zulässigkeit der Einsprüche gegen eine oder zwei Prüfungsanordnungen, (2) – ausdrücklich
+  unabhängig davon – die Erfolgsaussichten der Einwendungen, (3) ob die geschiedene Ehefrau
+  die Geschäftsunterlagen 2017 herausgeben muss und über ein Vorlageverweigerungsrecht zu
+  belehren ist. Der Sachverhalt liefert die Gliederung für das zweite Gutachten selbst mit:
+  Der Steuerberater nummeriert seine Einwendungen von 1 bis 6.
+  Die gesetzten Weichen: eine Empfangsvollmacht, die eingegangen, aber noch nicht im
+  elektronischen Speicher erfasst war; ein undatierter und nicht unterschriebener „Einspruch“
+  auf der Rückseite eines Werbeflyers; eine Prüfungsanordnung, deren eingetragenes Datum drei
+  Tage **nach** der tatsächlichen Zustellung liegt; und eine Rechtsbehelfsbelehrung, die nur
+  die Bekanntgabefiktion für einfache Briefe nennt. Der Aufgabe liegt ein Jahreskalender 2021
+  bei; die maßgeblichen Tage sind im Eintrag einzeln aufgeführt und gegengeprüft.
+  Prüfung: `npm run check:k1-pruefungsklausuren`
 - **USt-Originalklausuren** (Klausur 1, Reiter Umsatzsteuer →
   „Originalklausuren (Prüfung)"): die Original-Prüfungsklausuren des Umsatzsteuerteils mit
   den Lösungen des Lehrgangs („Umsatzsteuer Original Prüfungsklausuren 2011 – 2015 mit
