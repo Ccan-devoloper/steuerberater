@@ -204,8 +204,8 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Investitionsklausel, Nettowert und unschädliches Verwaltungsvermögen) sowie die Tz. 9 und
   10 (Einschränkung der Schuldensaldierung und Verbundvermögensaufstellung) sowie die
   Tz. 11 bis 14 (Regelverschonung, Abzugsbetrag, Weitergabeverpflichtung,
-  Lohnsummenregelung). Offen sind die Tz. 15 bis 18 des Abschnitts II
-  (Behaltensregelung, Familienunternehmen, Anzeigepflicht,
+  Lohnsummenregelung, Behaltensregelung). Offen sind die Tz. 16 bis 18 des Abschnitts II
+  (Familienunternehmen, Anzeigepflicht,
   Optionsverschonung), die Abschnitte III bis VI (Großerwerbe über 26 Mio. €, § 13d ErbStG,
   Steuerberechnung mit Steuerklassen, Freibeträgen, Steuersätzen, Tarifbegrenzung und
   früheren Erwerben, Steuerfestsetzung und Erhebung) sowie die Lösungsdatei

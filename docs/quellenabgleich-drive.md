@@ -5102,3 +5102,47 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Sie entspricht damit der Grenze des § 13b Abs. 1 Nr. 3 ErbStG (Begünstigungsfähigkeit),
   des § 13b Abs. 4 Nr. 2 ErbStG (Verwaltungsvermögen) und des § 11 Abs. 3 BewG
   (Paketzuschlag): Wo eine Beteiligung unternehmerisch ist, zählen auch ihre Arbeitsplätze.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Tz. 15: Behaltensregelung, Reinvestition, Abschmelzung
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt II
+  Tz. 15 Buchstaben a) bis c), PDF-Seiten 32 bis 36.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 9 Teile,
+  21 Kapitel, 288 Blöcke und 30 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Nachgerechnet und bestätigt** ist der vollständig gelöste Schlussfall der Tz. 15 c), in
+  dem Veräußerung und Lohnsummenverstoß zusammentreffen: Verschonungsabschlag 85 % ×
+  4.000.000 € = 3.400.000 €, steuerpflichtig zunächst 600.000 €; Kürzung wegen Veräußerung
+  im vierten Jahr 2/5 = 1.360.000 €; Kürzung wegen Lohnsumme 190/400 = 47,5 % =
+  1.615.000 €; maßgebend ist der höhere Kürzungsbetrag, es bleibt also der niedrigere
+  Verschonungsabschlag von 1.785.000 €, und die Bemessungsgrundlage steigt von 600.000 €
+  auf 2.215.000 €, also um genau 1.615.000 €.
+
+  Zwei Anschlüsse an frühere Tz. bestätigen sich dabei rechnerisch: Der Abzugsbetrag steht
+  in diesem Fall mit 0 € an, weil der 15-Prozent-Anteil von 600.000 € die in der Tz. 12
+  genannte Aufzehrungsgrenze von 450.000 € übersteigt. Und die Abschmelzungsregel des
+  Textes (3. Jahr → 2/5 **gewährt**) ist mit dem Beispiel (4. Jahr → 2/5 **gekürzt**)
+  stimmig, weil sie einmal den verbleibenden und einmal den entfallenden Teil benennt.
+
+  Redaktioneller Befund: Die **Beispiele 1 und 2 der Tz. 15 c) stehen ohne Lösung** und sind
+  nicht aufgelöst. Sie kombinieren die beiden Kürzungsgründe – zeitanteilige Abschmelzung
+  und Quote des ausgeschiedenen Anteils. Im Datensatz ist vermerkt, dass der über dem
+  Steuerwert liegende Veräußerungspreis von 1.200.000 € im Beispiel 2 nach dem Text der
+  Tz. ohne Bedeutung bleibt, weil die Wertverhältnisse im Zeitpunkt der Übertragung
+  maßgebend sind; ausgerechnet wurde nichts.
+
+  Systematischer Befund: Die Nummer 5 des § 13a Abs. 6 ErbStG schließt den Kreis zur
+  Tz. 2 c) – was dort die Poolvereinbarung über die 25-Prozent-Grenze gehoben hat, fällt
+  zurück, sobald die Bindung innerhalb der Behaltensfrist aufgehoben wird. Und die
+  Überentnahmegrenze der Nummer 3 trägt denselben Betrag wie der Abzugsbetrag der Tz. 12
+  (150.000 €), hat mit ihm aber nichts zu tun: dort eine Vergünstigung, hier eine
+  Unschädlichkeitsgrenze.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet: die Wortdopplung „Grundstücke **im Sinne im Sinne** des § 159 BewG“;
+  „**Die** Verschonungsabschlag und der Abzugsbetrag entfallen“; „Anschaffung von **neuen
+  Betriebe**“; die Fundstelle „R E 13a. 19 Abs. 1 ErbStR“ mit Leerstelle und ohne
+  Schlusspunkt; die Zeilenbezeichnung „Betriebsvermögen (nicht begünstigt) 4.000.000 €“ in
+  der Schlusstabelle, obwohl dort der gemeine Wert des Betriebsvermögens insgesamt gemeint
+  ist.

@@ -140,7 +140,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   bei kleinen Betrieben, der vollständige Verzicht bis fünf Beschäftigte, die
   verhältnismäßige Kürzung des Verschonungsabschlags bei Unterschreitung (im Beispiel der
   Quelle von 85 % auf 76,5 %) sowie die genaue Zusammensetzung der Lohnsumme mit den
-  Ausnahmen für Saisonarbeiter, Auszubildende und Leiharbeiter.
+  Ausnahmen für Saisonarbeiter, Auszubildende und Leiharbeiter. Dazu die **Behaltensregelung**
+  der Tz. 15: die fünf Nachversteuerungstatbestände des § 13a Abs. 6 ErbStG einschließlich
+  der Überentnahmegrenze von 150.000 € und der Aufhebung einer Poolvereinbarung, die
+  **Reinvestitionsklausel** mit ihrer Sechsmonatsfrist und die zeitanteilige **Abschmelzung**
+  des Verschonungsabschlags – mit dem vollständig durchgerechneten Fall, in dem Veräußerung
+  und Lohnsummenverstoß zusammentreffen und nach R E 13a.19 Abs. 3 ErbStR der höhere
+  Kürzungsbetrag zählt (Bemessungsgrundlage 600.000 € → 2.215.000 €).
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den
