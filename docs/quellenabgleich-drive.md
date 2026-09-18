@@ -4819,3 +4819,54 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   § 11 Abs. 3 BewG ansetzt; beide Vorschriften benutzen dieselbe Schwelle für dieselbe
   Erwägung – ab dort ist der Anteilseigner unternehmerisch eingebunden und nicht mehr nur
   Kapitalanleger.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Tz. 3 und 4: begünstigtes Vermögen und Verwaltungsvermögen
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt II
+  Tz. 3 und Tz. 4 Buchstaben a) und b), PDF-Seiten 11 bis 15.
+- Einpflege dieses Durchgangs: drei weitere Kapitel; der Datensatz umfasst jetzt 3 Teile,
+  7 Kapitel, 106 Blöcke und 8 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Nachgerechnet und bestätigt:** Das Beispiel zum begünstigten Vermögen geht auf.
+  5.000.000 € ./. 1.000.000 € = 4.000.000 €; davon 10 % = 400.000 € unschädliches
+  Verwaltungsvermögen; der Nettowert von 1.000.000 € wird um diese 400.000 € auf 600.000 €
+  gekürzt; 5.000.000 € ./. 600.000 € = **4.400.000 €** begünstigtes Vermögen. Der Punkt,
+  den das Beispiel trägt und der in der Klausur die häufigste Fehlerquelle ist: Die 10 %
+  des § 13b Abs. 7 S. 1 ErbStG bemessen sich nach dem **gekürzten** Wert des
+  Betriebsvermögens (4.000.000 €), nicht nach dem Ausgangswert – sonst wären es 500.000 €.
+
+  Ebenfalls nachgerechnet: Im Beispiel zur AB-OHG ergäben 24 % (Gesamthandsvermögen) und
+  11 % (Sonderbetriebsvermögen) zusammen 35 % und lägen über der Grenze. Die getrennte
+  Prüfung nach R E 13b.20 Abs. 2 ErbStR lässt beide Blöcke darunter bleiben, so dass beide
+  Verwaltungsvermögen sind – das ist der ganze Sinn des Falls.
+
+  **Eigene Beobachtung zur Übersicht des 90-Prozent-Tests:** Die zweite Zeile der Übersicht
+  nennt den maßgebenden Wert „nach Schuldenverrechnung und vor Abzug Freibetrag (15 %)“,
+  während der Gesetzeswortlaut nach dem unmittelbar davorstehenden Absatz gerade **keine**
+  Schuldenverrechnung vorsieht. Die Übersicht bildet damit bereits die Auslegung des
+  BFH-Urteils vom 13.09.2023 (II R 49/21, BStBl. 2024 II S. 566) und der gleichlautenden
+  Ländererlasse vom 19.06.2024 ab, nicht den Gesetzeswortlaut. Der Sockelbetrag von 15 %
+  bleibt auch nach dieser Auslegung unberücksichtigt, was dieselbe Zeile festhält. Der
+  Datensatz vermerkt das ausdrücklich, damit die Zeile nicht als Widerspruch gelesen wird.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 3, erste Beispieltabelle.** „Nettowert Verwaltungsvermögen **§ 13b Abs. 4
+    ErbStG**“ – nach dem Text davor und der Übersicht ist der Nettowert in
+    § 13b Abs. 6 ErbStG geregelt.
+  - **Tz. 4 a).** „In beiden Fällen handelt es sich Verwaltungsvermögen“ – das „um“ fehlt;
+    „(§ 13b Abs. 4 Nr. 1 Satz 2 Buchstabe a ErbStG.“ ohne schließende Klammer; „Darüber
+    hinaus **gehören** gem. § 13b Abs. 4 Nr. 1 Buchstabe b ErbStG **gehören** Grundstücke“;
+    der Absatz zur Umqualifizierung endet ohne Punkt; „**grundstückgleiche** Rechte“ und
+    „wenn der **Hauptzwecke** des Betriebs“; „regelt **13b** Abs. 4 Nr. 1 Buchstabe e
+    ErbStG“ ohne Paragrafenzeichen; „grundstücksgleichen **Recht** und Bauten“.
+
+  Querbezug, in der Klausur wichtig: Dieselbe 25-Prozent-Schwelle trägt im Skript drei
+  verschiedene Funktionen. In § 13b Abs. 1 Nr. 3 ErbStG entscheidet die Beteiligung des
+  **Erblassers oder Schenkers** über die Begünstigungsfähigkeit, in § 13b Abs. 4 Nr. 2
+  ErbStG die Beteiligung **des Betriebs** über die Einordnung als Verwaltungsvermögen, und
+  im Bewertungsteil 1 löst dieselbe Grenze nach § 11 Abs. 3 BewG den **Paketzuschlag** aus.
+  Die Poolvereinbarung hebt die Grenze in beiden erbschaftsteuerlichen Fällen, nicht aber
+  im Bewertungsrecht.

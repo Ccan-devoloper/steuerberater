@@ -98,7 +98,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   über 26 Mio. € zwischen abschmelzendem Verschonungsabschlag (§ 13c ErbStG) und
   Verschonungsbedarfsprüfung (§ 28a ErbStG) sowie das begünstigungsfähige Vermögen der drei
   Nummern des § 13b Abs. 1 ErbStG bis zur Poolvereinbarung als Weg über die
-  25-Prozent-Grenze.
+  25-Prozent-Grenze. Weiter mit den **Tz. 3 und 4**: das **begünstigte Vermögen** des
+  § 13b Abs. 2 ErbStG mit dem durchgerechneten Beispiel der Quelle (5.000.000 € Betriebs-
+  vermögen, 1.000.000 € Nettowert Verwaltungsvermögen, 400.000 € unschädlich, 4.400.000 €
+  begünstigt) und dem **90-Prozent-Test** samt seiner Bruttoberechnung und der Korrektur
+  durch das BFH-Urteil vom 13.09.2023 und die Ländererlasse vom 19.06.2024; dazu die ersten
+  beiden Fallgruppen des **Verwaltungsvermögenskatalogs** – Dritten zur Nutzung überlassene
+  Grundstücke mit den fünf Rückausnahmen (Betriebsaufspaltung und Sonderbetriebsvermögen,
+  Betriebsverpachtung im Ganzen, Konzernklausel, Wohnungsunternehmen, Absatz eigener
+  Erzeugnisse) und Anteile an Kapitalgesellschaften von 25 % oder weniger mit der getrennten
+  Prüfung von Gesamthands- und Sonderbetriebsvermögen.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den

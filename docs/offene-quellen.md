@@ -197,9 +197,12 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   **begonnen.** Das Skript („Steuerbefreiungen, Verschonungsregelungen, Berechnung der
   Steuer“, 57 Seiten, vom Connector vollständig ausgegeben) steht im neuen Reiter
   „Verschonung & Steuerberechnung (Schäfer)“, `src/data/k1-erbst-verschonung.js`.
-  Eingepflegt sind der Abschnitt I (sachliche Steuerbefreiungen des § 13 ErbStG) und der
-  Einstieg in den Abschnitt II (Tz. 1 und 2). Offen sind die Tz. 3 bis 18 des Abschnitts II
-  (begünstigtes Vermögen, Verwaltungsvermögen, Verbundvermögensaufstellung,
+  Eingepflegt sind der Abschnitt I (sachliche Steuerbefreiungen des § 13 ErbStG) und die
+  Tz. 1 bis 4 des Abschnitts II (Überblick, begünstigungsfähiges und begünstigtes Vermögen,
+  90-Prozent-Test sowie die ersten beiden Fallgruppen des Verwaltungsvermögenskatalogs).
+  Offen sind die restlichen Fallgruppen der Tz. 4 und die Tz. 5 bis 18 des Abschnitts II
+  (Altersversorgungsverpflichtungen, Investitionsklausel, Nettowert, unschädliches
+  Verwaltungsvermögen, Schuldensaldierung, Verbundvermögensaufstellung,
   Regelverschonung, Abzugsbetrag, Lohnsummen- und Behaltensregelung, Familienunternehmen,
   Optionsverschonung), die Abschnitte III bis VI (Großerwerbe über 26 Mio. €, § 13d ErbStG,
   Steuerberechnung mit Steuerklassen, Freibeträgen, Steuersätzen, Tarifbegrenzung und
