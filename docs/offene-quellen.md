@@ -108,8 +108,13 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   die Teile VI und VII mit beiden Übungsfällen und ihren Lösungshinweisen sowie die Anlagen
   1 und 2 (Auszüge aus BGB und ZPO). **Damit ist der gesamte Band AO Teil VI abgearbeitet;
   aus dieser Datei ist nichts mehr offen.**
-- Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
-  `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
+- **AO Teil V** („B-S25-AO-Teil V-(Jacobs)-0425 (1).pdf“, Drive-ID
+  `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`) enthält laut Deckblatt die **Abschnitte 11 bis 13**.
+  Aus dem Abschnitt 11 (Steuererhebungsverfahren) sind der Teil I (allgemeine Grundlagen
+  einschließlich des Beispiels Rumpel-/Grobi-GmbH) und der Teil II (Abrechnungsbescheid
+  nach § 218 Abs. 2 AO mit den Fällen Baghira und Leo Lügner sowie § 218 Abs. 3 AO)
+  eingepflegt. Offen sind die Teile III bis V des Abschnitts 11 (Erlöschen von Ansprüchen,
+  Säumniszuschläge, Zinsen), der Abschnitt 12 (Außenprüfung) und der Abschnitt 13.
 - AO-Short-Skript
 - FGO
 - Notfallbuch

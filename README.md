@@ -195,6 +195,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   durchgerechnetem Fristbeispiel, die Untätigkeitsklage mit ihren drei Voraussetzungen
   sowie Klagebefugnis, Beiladung nach dem MoPeG und die Berechnung der Klagefrist über
   § 222 ZPO.
+  Aus **Teil V** ist Abschnitt 11 (Steuererhebungsverfahren, §§ 218 bis 240 AO) begonnen.
+  Der Teil I ordnet Steuerfestsetzung, Anrechnungs-Verwaltungsakt und Steuererhebung
+  einander zu – mit dem durchgerechneten Überblicksschaubild (ESt 140.000 ./. LSt 20.000
+  ./. Vorauszahlungen 90.000 = 30.000 € Nachzahlung, fällig am 15.09.03) –, nennt die
+  Voraussetzungen des § 218 Abs. 1 AO mit Beispielskatalog und Prüfungsfolge, den
+  Sonderfall der Säumniszuschläge und das Beispiel der auf die Grobi-GmbH verschmolzenen
+  Rumpel-GmbH, deren gegen die erloschene Gesellschaft gerichteter Umsatzsteuerbescheid
+  nichtig ist. Der Teil II behandelt den Abrechnungsbescheid des § 218 Abs. 2 AO: seine
+  Voraussetzungen und Anwendungsfälle, die Gegenüberstellung von Einwendungen gegen
+  Festsetzung und Abrechnung, den Vorrang vor den §§ 130, 131 AO, die beiden Beispielsfälle
+  Baghira (getrennte Korrektur von Steuerbescheid nach § 173 Abs. 1 Nr. 1 AO und
+  Anrechnungsverfügung nach § 130 Abs. 1 AO) und Leo Lügner (arglistige Täuschung nach
+  § 130 Abs. 2 Nr. 2 AO, Steuerhinterziehung und die zehnjährige Zahlungsverjährung nach
+  § 228 Satz 2 AO) sowie die Korrekturvorschrift des § 218 Abs. 3 AO für widerstreitende
+  Anrechnungsverfügungen bei Ehegatten und Lebenspartnern.
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und

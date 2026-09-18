@@ -2799,3 +2799,57 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Darstellungsentscheidung: Der Katalog des § 811 Abs. 1 ZPO ist als Tabelle mit den Nummern
   1 bis 13 (einschließlich 4a) wiedergegeben, damit die dreizehn Tatbestände einzeln
   ansteuerbar bleiben; der Wortlaut ist unverändert.
+
+## AO-Skript (Jacobs), Teil V – Abschnitt 11: Steuererhebungsverfahren (Teil 1)
+
+- Quelle: „B-S25-AO-Teil V-(Jacobs)-0425 (1).pdf“, Drive-ID
+  `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`, 1,4 MB. Das Deckblatt kündigt „Teil V: Abschnitte 11
+  bis 13“ an. Der Connector gibt aus dem PDF 145.000 Zeichen aus: den Abschnitt 11
+  vollständig und den Abschnitt 12 (Außenprüfung) bis Seite 27, wo er abbricht; der
+  Abschnitt 13 wird nicht mehr erreicht.
+- Einpflege dieses Durchgangs: vier Kapitel – der Teil I (Überblick über das Zusammenspiel
+  von Steuerfestsetzung, Anrechnungs-Verwaltungsakt und Steuererhebung, rechtliche
+  Grundlagen, Voraussetzungen des § 218 Abs. 1 AO mit Prüfungsfolge, Sonderfall der
+  Säumniszuschläge und das Beispiel Rumpel-/Grobi-GmbH) und der Teil II (Abrechnungsbescheid
+  nach § 218 Abs. 2 AO, Abgrenzung zur Steuerfestsetzung, Verhältnis zu den §§ 130, 131 AO,
+  die Fälle Baghira und Leo Lügner mit Lösungen sowie § 218 Abs. 3 AO). Das Skript umfasst
+  jetzt 12 Teile, 132 Kapitel, 2.886 Blöcke und 226 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: die Teile III bis V des Abschnitts 11 (Erlöschen von Ansprüchen
+  nach § 47 AO, Säumniszuschläge nach § 240 AO, Zinsen nach den §§ 233 bis 239 AO) sowie der
+  Abschnitt 12.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht – wortlautgetreu übernommen und mit
+  „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 1, Beispiel Rumpel-/Grobi-GmbH, Fall a): Die Lösungshinweise sprechen von einer
+    „Fälligkeit der Nachzahlung iHv **11.000 €**“, während der Sachverhalt die Nachzahlung
+    mit 14.000 € beziffert. Nachgerechnet ist 14.000 € richtig: verbleibende Umsatzsteuer
+    130.000 € zuzüglich der Erhöhung um 19.000 € abzüglich der festgesetzten
+    Vorauszahlungen von 135.000 €.
+  - Kapitel 3, Fall 1: „Wegen der im Anrechnungs-VA zum EStB erfassten Lohnsteuer iHv
+    5.000 € im Vergleich zur zutreffenden Lohnsteuer iHv **15.000 €**“ – nach dem
+    Sachverhalt beträgt die tatsächlich einbehaltene Lohnsteuer 20.000 €; 15.000 € ist
+    lediglich der Erhöhungsbetrag, mit dem die Lösung an anderer Stelle zutreffend rechnet.
+  - Kapitel 4: Der Teil II vergibt die Ziffer 4 zweimal – einmal für die Beispiele und
+    einmal für die Korrekturvorschrift des § 218 Abs. 3 AO.
+
+  Darstellungsentscheidungen: Das Überblicksschaubild des Teils I und die Gegenüberstellung
+  „Steuerfestsetzung – Steuererhebung“ stehen in der Quelle als zweispaltige Übersichten,
+  deren Textbausteine in der maschinellen Erfassung zeilenweise ineinanderlaufen. Beide sind
+  spaltenweise zugeordnet als Tabelle wiedergegeben – im Schaubild rechnerisch eindeutig
+  belegt –, mit Hinweis im Datensatz; der Wortlaut ist unverändert.
+
+  Nachgerechnet und zutreffend: Im Überblick 140.000 ./. 20.000 ./. 90.000 = **30.000 €**;
+  der Bescheid vom 11.08.03 ist nach vier Tagen am 15.08.03 bekannt gegeben und einen Monat
+  später am **15.09.03** fällig. Im Fall Baghira ergibt die Erhöhung des Arbeitslohns um
+  30.000 € eine Mehrsteuer von 10.000 € und eine zusätzliche Lohnsteueranrechnung von
+  15.000 €, per Saldo eine Erstattung von **5.000 €**; die Einspruchsfrist rechnet die
+  Quelle – den Fallzeiträumen entsprechend – nach der Dreitagesfrist (Bescheid 12.12.07,
+  Bekanntgabe 15.12.07, Fristende **15.01.08**), die Festsetzungsfrist läuft nach
+  dreijähriger Anlaufhemmung bis zum **31.12.11**. Im Fall Lügner setzt sich die Forderung
+  von 38.000 € aus 8.000 € Mehrsteuer und 30.000 € entfallender Lohnsteueranrechnung
+  zusammen; die Festsetzungsfrist für die hinterzogene Steuer endet am **31.12.12**, der
+  Vorbehalt der Nachprüfung entfiel am **31.12.06**, und die Zahlungsverjährung des
+  Änderungsbescheides vom 01.09.07 läuft zehn Jahre bis zum **31.12.17**.
