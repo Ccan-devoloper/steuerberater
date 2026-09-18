@@ -41,6 +41,25 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und Rentenvermächtnis, GmbH-Anteil im vereinfachten Ertragswertverfahren mit § 13a/§ 19a
   ErbStG) im Wortlaut, die Rechenwege der Musterlösung Zeile für Zeile als Tabelle.
   Prüfung: `npm run check:k1-erbst-hausaufgaben`
+- **Fallsammlung ErbSt** (Reiter „Fallsammlung" im Campus Erbschaftsteuer): die Übungsfälle
+  der Fallsammlung Erbschaft- und Schenkungsteuer (Martin Schäfer, Rechtsstand 2025) mit
+  Sachverhalt, Aufgabenstellung und Lösungshinweis **im Wortlaut**. Eingepflegt sind
+  bisher zwei Fälle zur Bewertung von Unternehmensvermögen: **Beckmann** – 100 % der
+  Anteile an einer GmbH im vereinfachten Ertragswertverfahren mit den Korrekturen des
+  § 202 BewG (Teilwertabschreibung, Ertragsteueraufwand, Aufwendungen und Erträge des
+  nicht betriebsnotwendigen Mietwohngrundstücks, Gewinnausschüttung der Tochter, Erträge
+  der jungen Kapitalrücklage und überhöhtes Gesellschafter-Geschäftsführergehalt), der
+  Sonderbewertung nach § 200 Abs. 2 bis 4 BewG und dem Hinweis auf den entfallenden
+  Paketzuschlag nach R B 11.8 Abs. 2 Satz 3 ErbStR (Unternehmenswert 10.911.250 €);
+  **Haßlinghaus** – Übertragung eines Einzelunternehmens auf den Sohn mit angemessenem
+  Unternehmerlohn, Hinzurechnung des nicht betriebsnotwendigen Vermögens einschließlich
+  des auf den Stichtag fortgeschriebenen Festgelds, Finanzmitteltest nach § 13b Abs. 4
+  Nr. 5 ErbStG, jungem Verwaltungsvermögen ohne Schuldensaldierung, anteiligem
+  Schuldenabzug, 85-prozentigem Verschonungsabschlag und Härteausgleich nach § 19 Abs. 3
+  ErbStG (festzusetzende Schenkungsteuer 124.000 € statt 126.920 €). Jede Zwischensumme
+  der Quelle ist unabhängig nachgerechnet und die Kontrollrechnung steht am Ende der
+  Lösung; die Spaltenzuordnung der Rechenwerke ist dokumentiert.
+  Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Hausaufgaben KSt** (Reiter im Campus Körperschaftsteuer): die Kurzklausuren des
   Tageslehrgangs mit Lösung – Fachtermin 1 (A-GmbH mit dreizehn Korrekturtatbeständen,
   optierende A/B-OHG nach § 1a KStG und Spendenabzug beim gemeinnützigen Verein, 74 Punkte)

@@ -3434,3 +3434,81 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   (10 + 3 + 9 + 13) und die beiden Teilbereiche des Prüfungsjahres 2022 (30 + 5). Für 2019
   nennt die Quelle „ca. 25“ für die Aufgaben 1 und 2 und „ca. 10“ für die Aufgabe 3, was
   dieselbe Summe von 35 Punkten ergibt.
+
+## ErbSt-Fallsammlung (Schäfer) – Übungsfälle Beckmann und Haßlinghaus
+
+- Quellen im Drive, Ordner `1C96T8I4WDh2wYVnoGyUgHUJVwnPsqr_X`:
+  „B-S25-ErbSt-Beckmann 2025-(Schaefer)-1025.pdf“ (`1KvhAL55iZcP_FlfRl8U0J4Rk94kRqmhI`) und
+  „B-S25-ErbSt-Beckmann 2025-Loesung-(Schaefer)-1025.pdf“ (`1M7UqCYMT0-U66SCyWYbwGNTNvTF9Thyy`)
+  sowie „B-S25-ErbSt-Hasslinghaus 2025-(Schaefer)-1025.pdf“ (`1LeIBiULwT1yBCUV4Ffj57jBKxhP22n66`)
+  und der zugehörige Lösungsteil, der im Ordner unter dem nichtssagenden Namen
+  „2025) (8).pdf“ (`1fvrswQSoZRBBV_zXG3FXDlxzCNm7Eum6`) liegt.
+- Einpflege: neuer Datensatz `src/data/k1-erbst-fallsammlung.js` mit zwei Übungsfällen,
+  51 Blöcken und 13 Tabellen; neues Prüfskript
+  `npm run check:k1-erbst-fallsammlung`. Der bislang leere Reiter „Fallsammlung“ des
+  Erbschaftsteuer-Campus zeigt die Fälle jetzt an.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Spaltenzuordnung der Rechenwerke.** Beide Quell-PDFs drucken ihre Rechenwerke als
+  drei- bzw. vierspaltige Aufstellungen (2022 / 2023 / 2024). In der maschinellen Erfassung
+  laufen die Spalten ineinander, so dass einzeln stehende Beträge zunächst keiner Jahres-
+  spalte zugeordnet sind. Die Zuordnung ist deshalb aus den in der Quelle selbst
+  ausgewiesenen Zwischensummen rekonstruiert und Zeile für Zeile nachgerechnet:
+
+  - **Beckmann.** Die Gewinnausschüttung der B-GmbH (300.000 €) und die Kapitalerträge aus
+    dem Anlagebetrag der Rücklage (40.000 €) gehören zu **2024**, die Teilwertabschreibung
+    von 500.000 € zu **2023**. Nur so ergeben sich die Zwischensummen 500.000 € (2022:
+    150.000 + 50.000 + 50.000 + 150.000 − 300.000 + 400.000), 800.000 € (2023: 35.000 +
+    500.000 + 15.000 + 10.000 + 160.000 − 320.000 + 400.000) und 1.010.000 € (2024:
+    590.000 + 150.000 + 200.000 + 300.000 − 290.000 − 300.000 − 40.000 + 400.000). Der
+    Sachverhalt bestätigt das: Die B-GmbH wurde erst im März 2023 erworben, die
+    Kapitalrücklage erst im November 2023 geleistet.
+  - **Haßlinghaus.** Die Jahresspalten sind hier über die Gewinne, die Gewerbesteuer und
+    die Zinsen eindeutig; die Teilwertabschreibung von 50.000 € und die Auflösung der
+    § 6b-Rücklage von 40.000 € gehören zu 2022, der Beteiligungsveräußerungsgewinn von
+    36.000 € zu 2023, die Pfandbriefzinsen von 1.350 € zu 2024.
+
+  Nachgerechnet und zutreffend:
+
+  - **Beckmann.** 30 % von 500.000 / 800.000 / 1.010.000 ergeben 150.000 / 240.000 /
+    303.000 €, also Betriebsergebnisse von 350.000 / 560.000 / 707.000 €. Ihre Summe von
+    1.617.000 € geteilt durch drei ergibt den Durchschnittsertrag von 539.000 €; mal 13,75
+    ergibt sich der Ertragswert von genau 7.411.250 €. Zuzüglich Mietwohngrundstück
+    (2.000.000 €), B-GmbH (1.000.000 €) und junger Kapitalrücklage (500.000 €) beträgt der
+    Unternehmenswert 10.911.250 €.
+  - **Haßlinghaus.** Die Zwischenergebnisse 565.650 / 449.286 / 358.558 € gehen Zeile für
+    Zeile auf; nach der 30-%-Pauschale verbleiben 395.955 / 314.500 / 250.991 €, in der
+    Summe 961.446 €, geteilt durch drei 320.482 €, mal 13,75 = 4.406.627,50 €, in der
+    Quelle auf 4.406.628 € gerundet. Das Festgeld von 111.263 € ist nachvollziehbar:
+    100.000 € zu 3,25 % ergeben 3.250 € (2022), 3.356 € (2023) und 3.465 € (2024) – genau
+    die in der Ertragsrechnung gekürzten Beträge – und damit zum 31.12.2024 einen Bestand
+    von 110.071 €; die vier Monate bis zum Bewertungsstichtag 01.05.2025 fügen 1.192 €
+    hinzu. Der anteilige Schuldenabzug rechnet sich zu 480.921 / 5.572.628 × 830.000 =
+    71.629,48 €, in der Quelle auf 71.629 € gerundet. Die 90-%-Grenze ist mit 860.000 /
+    5.091.707 = 16,89 % unterschritten. Der Härteausgleich greift, weil der
+    Unterschiedsbetrag der Steuer (126.920 − 90.000 = 36.920 €) den halben Betrag des die
+    Wertgrenze übersteigenden Erwerbs (68.000 / 2 = 34.000 €) übersteigt; festzusetzen sind
+    124.000 € statt 126.920 €.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und mit
+  „(so in der Quelle)“ gekennzeichnet:
+
+  - **Beckmann, Lösung.** „oder eine anderen anerkannten, auch im gewöhnlichen
+    Geschäftsverkehr … üblichen Methode“ – der Gesetzeswortlaut lautet „oder einer anderen
+    anerkannten … Methode“.
+  - **Haßlinghaus, Lösung.** „Die in 2024 erworbenen Pfandbriefen gehören zum jungen
+    Verwaltungsvermögen“.
+  - **Haßlinghaus, Prüfung der 90-%-Grenze.** Die Zeile zitiert „Verwaltungsvermögen § 13b
+    **Abs. 1** Nr. 1 und Nr. 4 ErbStG“; gemeint ist – wie in der Aufstellung unmittelbar
+    davor – § 13b **Abs. 4** Nr. 1 und Nr. 4 ErbStG.
+
+  Redaktioneller Hinweis ohne Quellenfehler: Die Beckmann-Lösung nennt den Substanzwert von
+  8.400.000 € nicht noch einmal und zieht den Vergleich mit dem Ertragswert nicht
+  ausdrücklich. Da der Unternehmenswert von 10.911.250 € darüber liegt, wirkt sich die
+  Mindestwertregelung des § 11 Abs. 2 Satz 3 BewG nicht aus. Ein eigener Lösungssatz ist
+  dazu **nicht erfunden**, sondern der Befund als redaktioneller Hinweis gekennzeichnet.
+  Die Haßlinghaus-Lösung stellt den Vergleich ausdrücklich an.
+
+  Einordnung: Beide Dateien tragen im Dateinamen die Fallsammlung, im Dokumentkopf aber die
+  Bezeichnungen „Übungsaufgabe“ (Beckmann) und „Übungsklausur“ (Haßlinghaus). Der Wortlaut
+  der Überschriften ist unverändert übernommen.
