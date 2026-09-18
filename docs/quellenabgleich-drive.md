@@ -10620,6 +10620,70 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil III (Hamacher), Abschnitt 1.4 – Kapitel 1 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 18 bis 22; übernommen als Kapitel 13 und 14. Prüfung:
+`npm run check:k2-kst-teil3` (14 Kapitel, 206 Blöcke, 20 Tabellen). Damit ist das Kapitel 1
+(Steuerliches Einlagekonto) vollständig.
+
+**Zwei Fehlerrichtungen, zwei entgegengesetzte Ergebnisse** – der Datensatz stellt sie in einer
+Vergleichstabelle gegenüber. Beim **zu niedrigen** Ausweis gilt die unzutreffende Bescheinigung und
+darf nicht mehr korrigiert werden; beim **überhöhten** Ausweis ist die Bescheinigung unerheblich und
+es gilt die zutreffende Rechtslage. Der gemeinsame Nenner ist gleichwohl erkennbar und im Datensatz
+benannt: In beiden Fällen verbleibt der Gesellschaft mehr Einlagekontopotential, und in beiden
+Fällen versteuert der Anteilseigner mehr, als die Bescheinigung ausweist. Nur der Weg dorthin ist
+ein anderer – dort die Festschreibung, hier die Haftung.
+
+**Die passive Falschbescheinigung** ist als der praktisch gefährlichste Fall hervorgehoben, weil die
+Gesellschaft nichts falsch gemacht haben muss: Bei einer erst durch die Betriebsprüfung aufgedeckten
+verdeckten Gewinnausschüttung konnte im Ausschüttungsjahr niemand bescheinigen – trotzdem gilt ab
+Bekanntgabe des Feststellungsbescheides ein Ausweis von „fiktiv 0 €“. Die naheliegende Vorsorge über
+„vorsorgliche Steuerbescheinigungen“ erkennt die Finanzverwaltung ausdrücklich nicht an. Zusammen
+mit der Fehlerfortschreibung aus 1.3.1 ergibt sich ein strenges System: Der Feststellungsbescheid
+schneidet nicht nur die Korrektur des Bestandes ab, sondern auch die der Bescheinigung.
+
+**Die Haftung ist zunächst erfolgsneutral**, und das ist der Punkt, den der Datensatz am
+Buchungssatz festmacht: „Forderung Gesellschafter an Verbindlichkeit Finanzamt 21.100 €“. Die
+Gesellschaft steht nur für eine fremde Steuerschuld ein und erwirbt in gleicher Höhe einen Anspruch.
+Erst der **Verzicht** darauf belastet sie – und dann verstärkt um die darauf wiederum entfallende
+Kapitalertragsteuer, ein Folgevorgang, der nach dem letzten Satz des Abschnitts erneut eine
+Verwendungsfestschreibung auslösen kann.
+
+**Sämtliche Zahlen beider Beispiele sind nachgerechnet und gehen auf:** Eigenkapital 225.000 €
+(die Summe der vier Positionen bildet die Quelle nicht ausdrücklich – eigene Herleitung),
+ausschüttbarer Gewinn 100.000 €; im ersten Beispiel 120.000 € ./. 100.000 € = 20.000 € vor und
+160.000 € ./. 100.000 € = 60.000 € nach der Prüfung, verteilt mit 45.000 € und 15.000 €, beim
+Anteilseigner 140.000 € Beteiligungsertrag; im zweiten Beispiel Überhöhung 80.000 €, Haftungsbetrag
+25 % davon = 20.000 € zuzüglich 1.100 € Solidaritätszuschlag = 21.100 €, Endbestand 80.000 €,
+Beteiligungsertrag 100.000 €.
+
+**Eine Spannung innerhalb der Quelle, wortlautgetreu übernommen und eigens eingeordnet:** Im letzten
+Absatz des Abschnitts 1.4.2 wird der Hochrechnungssatz von 33,95 % auf die **Überhöhung von
+80.000 €** angewandt, obwohl die Quelle wenige Absätze zuvor selbst formuliert, die weitere
+verdeckte Gewinnausschüttung setze sich aus der **übernommenen Kapitalertragsteuer (Nettobetrag)**
+zuzüglich der darauf entfallenden Kapitalertragsteuer zusammen – das wäre der nicht zurückgeforderte
+Betrag von 21.100 €. Außerdem bezeichnet die Quelle die Summe der beiden Steuerbeträge
+(27.160 € + 1.493 € = 28.653 €) als „vGA“, während nach ihrer eigenen Definition die verdeckte
+Gewinnausschüttung aus dem Nettobetrag **zuzüglich** der Steuer bestünde. Rechnerisch stimmen die
+angegebenen Zahlen in sich: 33,95 % von 80.000 € sind 27.160 €, 5,5 % davon 1.493,80 € (in der
+Quelle auf 1.493 € abgeschnitten), zusammen 28.653 €. Der Wortlaut ist unverändert übernommen, die
+Einordnung ist als eigene Feststellung gekennzeichnet.
+
+**Eine eigene Ergänzung** erläutert zudem die Herkunft des Satzes von 33,95 %: Er ist die
+Hochrechnung für den Fall, dass die Gesellschaft die Kapitalertragsteuer trägt, und ergibt sich aus
+25 % geteilt durch (1 ./. 25 % ./. 1,375 %) = 25 % / 73,625 % = 33,95 %. Die Quelle nennt nur das
+BMF-Schreiben vom 16.11.2010.
+
+**Weitere Eigenheiten der Quelle, wortlautgetreu übernommen und gekennzeichnet:**
+
+- „Diese Regelung ist auch bei Beteiligungserträgen der Regiebetriebe … **kommen**“ – der Satz ist
+  unvollständig; gemeint ist „ist auch … anzuwenden“ bzw. „kann auch … zur Anwendung kommen“.
+- „Vor BP **betrug sah** die Verwendungsberechnung wie folgt aus“ – doppeltes Verb.
+
+**Noch offen:** aus Teil III die Kapitel 2 (Grundzüge der Kapitalerhöhung) und 3 (Grundzüge der
+Kapitalherabsetzung einschließlich Erwerb und Veräußerung eigener Anteile); ganz offen sind die
+Skriptteile IV bis VII.
+
 ### KSt Teil III (Hamacher), Abschnitte 1.3.4 bis 1.3.9 – Abschnitt 1.3 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 13 bis 18; übernommen als Kapitel 8 bis 12. Prüfung:

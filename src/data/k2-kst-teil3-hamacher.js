@@ -23,9 +23,11 @@
    Feststellungsverfahrens in anderen Fällen (1.3.5), des Beginns der
    unbeschränkten Steuerpflicht (1.3.6), des Verbots eines negativen Bestands
    (1.3.7), des Direktzugriffs in Sonderfällen (1.3.8) und der optierenden
-   Gesellschaft (1.3.9). Es folgen die Verwendungsfestschreibung und
-   Haftungsregelung (1.4) sowie die Kapitel 2 und 3; der Campus weist den Stand
-   aus.
+   Gesellschaft (1.3.9) – und mit der Verwendungsfestschreibung und
+   Haftungsregelung des § 27 Abs. 5 KStG (1.4) ist damit das gesamte Kapitel 1
+   vollständig. Es folgen die Kapitel 2 (Grundzüge der Kapitalerhöhung) und 3
+   (Grundzüge der Kapitalherabsetzung einschließlich eigener Anteile); der
+   Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Anders als die Teile I und II trägt dieses Skript den
    Stand Mai 2025 und rechnet seine Beispiele im VZ 2025.
@@ -580,6 +582,119 @@ export const kstTeil3 = [
       { text: "Rechenprobe (eigene Ergänzung): Der Anfangsbestand von 900.000 € ist die Summe der vier Kapitalkonten: 100.000 € + 100.000 € + 300.000 € + 400.000 € = 900.000 €. Die Quelle bildet diese Summe nicht ausdrücklich. Im Erstjahr beträgt der ausschüttbare Gewinn danach 900.000 € ./. 900.000 € = 0 €, so dass jede Ausschüttung des Jahres 2025 in voller Höhe Einlagenrückgewähr ist – bis zur Höhe von 900.000 €." },
       { text: "Anmerkung zur Wirkung (eigene Ergänzung): Das Ergebnis ist bemerkenswert und in der Beratungspraxis bedeutsam: Weil die optierende Gesellschaft kein Nennkapital hat und ihr gesamtes steuerliches Eigenkapital im Einlagekonto landet, ist im ersten Jahr **jede** Ausschüttung eine steuerneutrale Einlagenrückgewähr. Das ist kein Schlupfloch, sondern systemgerecht: Die Gewinne der Personengesellschaft sind bei den Mitunternehmern bereits versteuert worden, und eine nochmalige Besteuerung als Kapitalertrag wäre eine Doppelbelastung. Die Folge ist allerdings, dass sich die Anschaffungskosten der Anteile entsprechend mindern – wer mehr entnimmt, als er an Anschaffungskosten hat, gerät in die Fälle des Abschnitts 1.2 mit ihren nach Rechtsform unterschiedlichen Rechtsfolgen." },
       { text: "Anmerkung zur Zeitschiene (eigene Ergänzung): Drei Daten fallen hier zusammen und sind sorgfältig zu unterscheiden. Die **Option** gilt ab dem Wirtschaftsjahr 2025. Der **steuerliche Übertragungsstichtag** liegt auf dem 31.12.2024, also unmittelbar davor. Und die **erstmalige Feststellung** des Einlagekontos erfolgt bereits auf diesen 31.12.2024, weshalb die Gesellschaft schon für den VZ 2024 eine Körperschaftsteuer- und Feststellungserklärung abzugeben hat – obwohl sie in diesem Jahr noch als Personengesellschaft besteuert wurde. Gerade dieser Vorgriff macht die Verwendung im Erstjahr 2025 überhaupt erst möglich; ohne ihn gäbe es keinen Vorjahresbestand, und es griffe die Grundregel des Abschnitts 1.3.3." },
+    ],
+  },
+  {
+    id: "kst-t3-13",
+    kapitel: "13",
+    abschnittNr: "1.4 und 1.4.1",
+    title: "1.4 Verwendungsfestschreibung · 1.4.1 Zu niedriger Ausweis – aktive und passive Falschbescheinigung",
+    thema: "Ein zu niedriger Ausweis wird festgeschrieben und darf nicht mehr korrigiert werden – auch dann nicht, wenn gar keine Bescheinigung erteilt wurde, denn dann gilt ein Ausweis von fiktiv 0 €",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil III (Hamacher), Abschnitte 1.4 und 1.4.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 27 Abs. 5 Sätze 1, 2 und 3 KStG",
+      "§ 27 Abs. 1 Satz 3 KStG",
+      "§ 27 Abs. 3 KStG",
+      "§ 20 Abs. 1 Nr. 1 EStG, § 20 Abs. 1 Nr. 10 EStG",
+      "BFH vom 10.06.2009, BStBl. II 2009, 974",
+      "BFH vom 11.07.2018, BStBl. II 2019, 283",
+      "BFH vom 17.05.2022, BStBl. II 2022, 643",
+      "BFH vom 28.01.2015, BStBl. II 2017, 101",
+      "BFH vom 19.05.2010, BStBl. II 2014, 937",
+      "BFH-Beschluss vom 19.01.2021, I B 3/20",
+      "FG Düsseldorf vom 23.06.2020, 6 K 2049/17 KE",
+      "Sächsisches FG vom 08.06.2016, 2 K 1860/15",
+    ],
+    themen: ["Verwendungsfestschreibung", "Aktive Falschbescheinigung", "Passive Falschbescheinigung", "Fiktiv 0 €", "Vorsorgliche Steuerbescheinigung"],
+    bloecke: [
+      { text: "Im Zusammenhang mit der Verwendung des steuerlichen Einlagekontos ist zudem die strenge Verwendungsfestschreibung bzw. Haftungsregelung des § 27 Abs. 5 KStG zu beachten. Je nachdem, ob die Gesellschaft abweichend von der tatsächlich zutreffenden Verwendung i.S. des § 27 Abs. 1 Satz 3 KStG einen zu niedrigen oder zu hohen Ausweis vorgenommen hat, können sich daraus unterschiedliche Konsequenzen ergeben. Ob eine Bescheinigung unrichtig (zu hoch oder zu niedrig) ist, ist ausschließlich anhand der materiell-rechtlich richtigen Verwendung des steuerlichen Einlagekontos zu beurteilen." },
+      { text: "§ 27 Abs. 5 KStG kann insbesondere als Folge einer Betriebsprüfung zur Anwendung kommen, bei denen z.B. das Eigenkapital des Vorjahres und damit die Ausgangsgröße der Verwendungsreihenfolge verändert wird oder nachträglich verdeckte Gewinnausschüttungen festgestellt werden. Diese Regelung ist auch bei Beteiligungserträgen der Regiebetriebe von juristischen Personen des öffentlichen Rechts kommen, die auf deren Ebene nach § 20 Abs. 1 Nr. 10 EStG zu erfassen wären. (Der Satz ist so in der Quelle unvollständig; gemeint ist „ist auch … anzuwenden“ bzw. „kann auch … zur Anwendung kommen“.)" },
+      { typ: "titel", text: "1.4.1 Zu niedriger Ausweis" },
+      { text: "Weist die Kapitalgesellschaft in ihrer dem amtlichen Muster entsprechenden Bescheinigung i.S. des § 27 Abs. 3 KStG die Verwendung des steuerlichen Einlagekontos tatsächlich zu niedrig aus, bleibt diese in der Bescheinigung abgebildete Verwendung unverändert und darf daher auch nicht korrigiert werden (§ 27 Abs. 5 Satz 1 KStG). Dies führt zu einer Verwendungsfestschreibung, so dass die unzutreffende Verwendung des steuerlichen Einlagekontos unverändert Gegenstand des Besteuerungsverfahrens bleibt. Dafür ist aber Voraussetzung, dass der Anteilseigner die Bescheinigung auch tatsächlich erhalten hat. Unerheblich ist es, ob der zu niedrige Ausweis wissentlich erfolgte oder nur auf einem Versehen beruht. Gleiches gilt, wenn sich der Bestand des steuerlichen Einlagekontos z.B. im Rahmen einer Betriebsprüfung nachträglich verändert und sich dadurch eine höhere Verwendung des steuerlichen Einlagekontos ergeben würde." },
+      { text: "Neben der „aktiven“ Falschbescheinigung ist zudem zu beachten, dass die Grundsätze der Verwendungsfestschreibung auch dann eintreten können, wenn bisher noch keine Bescheinigung erteilt worden ist (sog. passive Falschbescheinigung). Denn hat die Gesellschaft bis zur Bekanntgabe des Feststellungsbescheides i.S. des § 27 KStG tatsächlich noch keine Bescheinigung i.S. des § 27 Abs. 3 KStG erteilt, gilt ein Ausweis i.H. von „fiktiv 0 €“ als unterstellt (§ 27 Abs. 5 Satz 2 KStG). Ein häufiger Anwendungsfall dürfte dabei die durch eine Betriebsprüfung festgestellte verdeckte Gewinnausschüttung sein. Die in der Praxis zur Vermeidung dieser Rechtsfolge daher häufig ausgestellten sog. „vorsorglichen Steuerbescheinigungen“ werden von der Finanzverwaltung nicht anerkannt, weil sich hinter diesen keine tatsächliche Leistung verbirgt." },
+      { text: "In diesen beiden Fällen kann die Bescheinigung nicht mehr geändert bzw. auch nicht mehr erstmalig erlassen werden (§ 27 Abs. 5 Satz 3 KStG). Die Feststellung des steuerlichen Einlagekontos richtet sich dann aber nach der unzutreffenden Verwendung, so dass der Gesellschaft ein höheres Potential verbleibt. Der Anteilseigner versteuert die bezogene Gewinnausschüttung insoweit nach den Grundsätzen des § 20 Abs. 1 Nr. 1 EStG, da hierfür die Feststellung auch für die Ebene des Anteilseigners eine materiell-rechtliche Bindungswirkung entfaltet." },
+      { text: "Beispiel: In der Steuerbilanz der T-GmbH zum 31.12.2024 wird das Eigenkapital wie folgt ausgewiesen: Stammkapital 25.000 €, Kapitalrücklagen 100.000 €, Gewinnrücklagen 60.000 €, Jahresüberschuss 40.000 €. Das steuerliche Einlagekonto zum 31.12.2024 wurde mit 100.000 € festgestellt. In 2025 nahm die T-GmbH eine ordnungsgemäße Gewinnausschüttung für 2024 von 120.000 € vor. Sie erteilte ihrem Anteilseigner eine nach damaligen Maßstäben zutreffende Ausschüttungsbescheinigung. Eine Betriebsprüfung stellte später fest, dass die T-GmbH in 2025 eine verdeckte Gewinnausschüttung an ihren Anteilseigner von 40.000 € leistete." },
+      { text: "Lösung: Vor BP betrug sah die Verwendungsberechnung wie folgt aus: (Die Formulierung „betrug sah“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Verwendungsberechnung vor der Betriebsprüfung", "Betrag"], zeilen: [
+        ["Eigenkapital lt. Bilanz", "225.000 €"],
+        ["./. Nennkapital", "./. 25.000 €"],
+        ["./. steuerliches Einlagekonto", "./. 100.000 €"],
+        ["= ausschüttbarer Gewinn", "100.000 €"],
+      ] },
+      { text: "Da die Gewinnausschüttung von 120.000 € den ausschüttbaren Gewinn um 20.000 € überschreitet, beträgt die Verwendung des steuerlichen Einlagekontos 20.000 €. Dies wurde auf der Ausschüttungsbescheinigung ausgewiesen, so dass dieser Betrag für die offene Gewinnausschüttung festgeschrieben wurde." },
+      { text: "Aufgrund der nachträglich festgestellten verdeckten Gewinnausschüttung beträgt die Summe sämtlicher Gewinnausschüttungen, die in die Verwendungsberechnung einzubeziehen sind, nunmehr 160.000 €. Der ausschüttbare Gewinn wird um 60.000 € überschritten, so dass in dieser Höhe das steuerliche Einlagekonto verwendet wird. Dieser Betrag verteilt sich eigentlich auf beide Gewinnausschüttungen wie folgt:" },
+      { text: "Offene Gewinnausschüttung: 45.000 € (60.000 € x 120/160). Verdeckte Gewinnausschüttung: 15.000 € (60.000 € x 40/160)." },
+      { text: "Für beide Gewinnausschüttungen ist ein zu niedriger Ausweis des steuerlichen Einlagekontos vorgenommen worden. Für die offene Gewinnausschüttung wurde bisher eine Ausschüttungsbescheinigung über eine Verwendung des steuerlichen Einlagekontos von 20.000 € erteilt, obwohl zutreffend 45.000 € gewesen wären. Für die verdeckte Gewinnausschüttung wurde zwar bisher keine Ausschüttungsbescheinigung ausgestellt, aber gemäß § 27 Abs. 5 Satz 2 KStG greift in diesem Fall die Unterstellung, dass ein Ausweis von 0 € vorgenommen wurde. Der zutreffende Ausweis hätte 15.000 € betragen." },
+      { text: "In beiden Fällen bleibt der tatsächliche bzw. unterstellte Ausweis unverändert, d.h. eine Korrektur ist nicht zulässig. Für Zwecke der Feststellung i.S. des § 27 KStG ist von der ausgewiesenen Verwendung von 20.000 € auszugehen." },
+      { text: "Der Anteilseigner hat daher nur eine Einlagenrückgewähr von 20.000 € zu erfassen, d.h. in der übrigen Höhe von 140.000 € kommt es zu Beteiligungserträgen i.S. des § 20 EStG." },
+      { typ: "tabelle", spalten: ["Leistung", "Zutreffende Verwendung", "Bescheinigter bzw. unterstellter Ausweis", "Art der Falschbescheinigung", "Maßgeblich"], zeilen: [
+        ["offene Gewinnausschüttung 120.000 €", "45.000 €", "20.000 € laut erteilter Bescheinigung", "aktive Falschbescheinigung", "20.000 €"],
+        ["verdeckte Gewinnausschüttung 40.000 €", "15.000 €", "0 € – fiktiv nach § 27 Abs. 5 Satz 2 KStG", "passive Falschbescheinigung", "0 €"],
+        ["Summe 160.000 €", "60.000 €", "20.000 €", "—", "20.000 € Einlagenrückgewähr, 140.000 € Beteiligungsertrag"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Das Eigenkapital von 225.000 € ist die Summe aus 25.000 € + 100.000 € + 60.000 € + 40.000 €; die Quelle bildet sie nicht ausdrücklich. Ausschüttbarer Gewinn 225.000 € ./. 25.000 € ./. 100.000 € = 100.000 €. Vor der Prüfung: 120.000 € ./. 100.000 € = 20.000 €. Nach der Prüfung: 160.000 € ./. 100.000 € = 60.000 €, verteilt mit 60.000 € × 120/160 = 45.000 € und 60.000 € × 40/160 = 15.000 €. Beim Anteilseigner 160.000 € ./. 20.000 € = 140.000 € Beteiligungsertrag." },
+      { text: "Anmerkung zur Wirkungsrichtung (eigene Ergänzung): Die Vorschrift wirkt hier **einseitig zulasten des Anteilseigners** und zugunsten der Gesellschaft, und das ist kein Zufall, sondern gewollt. Die Gesellschaft behält ein um 40.000 € höheres Einlagekontopotential, als ihr materiell zusteht – die Quelle spricht davon, dass ihr „ein höheres Potential verbleibt“. Der Anteilseigner dagegen versteuert 140.000 € statt 100.000 €, ohne dass er die Bescheinigung beeinflussen könnte und ohne dass er den Feststellungsbescheid anfechten dürfte (siehe Abschnitt 1.3.1). Der Vorteil der Gesellschaft ist allerdings nur ein zeitlicher: Das nicht verbrauchte Potential bleibt erhalten und kann später verwendet werden." },
+      { text: "Anmerkung zur passiven Falschbescheinigung (eigene Ergänzung): Sie ist der praktisch wichtigste Fall und zugleich der gefährlichste, weil die Gesellschaft gar nichts falsch gemacht haben muss. Bei einer erst durch die Betriebsprüfung aufgedeckten verdeckten Gewinnausschüttung konnte im Ausschüttungsjahr niemand eine Bescheinigung erteilen – trotzdem gilt der Ausweis von 0 € als unterstellt, sobald der Feststellungsbescheid bekanntgegeben ist. Die naheliegende Gegenmaßnahme, vorsorglich Bescheinigungen auf Vorrat auszustellen, erkennt die Finanzverwaltung ausdrücklich nicht an, weil ihnen keine tatsächliche Leistung zugrunde liegt. Die einzige verbleibende Vorsorge besteht darin, vGA-verdächtige Sachverhalte im laufenden Jahr zu erkennen und zu bescheinigen." },
+      { text: "Anmerkung zur zeitlichen Grenze (eigene Ergänzung): Entscheidend ist die **Bekanntgabe des Feststellungsbescheides**. Bis dahin kann eine fehlende Bescheinigung noch erteilt werden; danach ist der Zug abgefahren – § 27 Abs. 5 Satz 3 KStG schließt sowohl die Änderung als auch den erstmaligen Erlass aus. Zusammen mit der Fehlerfortschreibung aus Abschnitt 1.3.1 ergibt das ein strenges System: Der Feststellungsbescheid schneidet nicht nur die Korrektur des Bestandes ab, sondern auch die der Bescheinigung." },
+    ],
+  },
+  {
+    id: "kst-t3-14",
+    kapitel: "14",
+    abschnittNr: "1.4.2",
+    title: "1.4.2 Überhöhter Ausweis – Haftung der Gesellschaft für die Kapitalertragsteuer",
+    thema: "Der überhöhte Ausweis ist für das Besteuerungsverfahren unerheblich – stattdessen haftet die Gesellschaft für die zu niedrige Kapitalertragsteuer, und zwar verschuldensunabhängig und mit Vorrang vor der Veranlagung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil III (Hamacher), Abschnitt 1.4.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 27 Abs. 5 Sätze 4, 5 und 6 KStG",
+      "§ 27 Abs. 1 Satz 3 KStG",
+      "§ 44 Abs. 5 EStG",
+      "§ 20 EStG",
+      "BFH vom 01.10.2024, VIII R 35/20 und VIII R 34/20",
+      "BFH vom 19.05.2010, BStBl. II 2014, 937",
+      "BFH vom 28.01.2015, BStBl. II 2017, 101",
+      "BMF vom 16.11.2010, BStBl. I 2010, 1305",
+    ],
+    themen: ["Überhöhter Ausweis", "Haftung", "Vorrang des Haftungsverfahrens", "Rückforderungsanspruch", "Weitere vGA"],
+    bloecke: [
+      { text: "Etwas Anderes gilt jedoch in den Fällen des überhöhten Ausweises, welcher dann für das Besteuerungsverfahren unerheblich ist. Denn § 27 Abs. 5 Satz 4 KStG sieht in dieser Situation grundsätzlich eine Haftung der Kapitalgesellschaft für den Steuerschaden vor, welcher sich aus der bisher unzutreffenden Kapitalertragsteueranmeldung ergeben hat. Aufgrund des Gesetzeswortlautes hat das Haftungsverfahren danach absoluten Vorrang gegenüber dem Veranlagungsverfahren, d.h. von einer Nacherhebung der Kapitalertragsteuer kann nicht abgesehen werden. Dies dokumentiert auch der Ausschluss des § 44 Abs. 5 EStG, wonach die Frage des Verschuldens hierfür geradezu unbedeutend ist. Für Zwecke des Kapitalertragsteuerabzugs ist von dem Betrag auszugehen, welcher sich aus der zutreffenden Anwendung des § 27 Abs. 1 Satz 3 KStG ergeben hätte." },
+      { text: "Von einer Haftung kann nur dann abgesehen werden, wenn die bisherige Steuerbescheinigung entsprechend von der Gesellschaft korrigiert wird und diese geänderte Bescheinigung auch Einfluss in die (geänderte) Kapitalertragsteueranmeldung findet. Entscheidend ist dafür zudem, dass die zutreffende Kapitalertragsteuer tatsächlich an das Finanzamt abgeführt wird." },
+      { text: "Im Rahmen der Feststellung i.S. des § 27 KStG ist korrespondierend vorzugehen, weil in Höhe des der Kapitalertragsteuer unterworfenen Ausschüttungsbetrags keine Einlagenrückgewähr vorliegt. Somit vermindert auch nur der zutreffende Betrag den Bestand des steuerlichen Einlagekontos (§ 27 Abs. 5 Satz 6 KStG)." },
+      { text: "Beim Anteilseigner kommt es nur in Höhe der zutreffenden Verwendung des steuerlichen Einlagekontos zu einer korrespondierenden Ertragsbesteuerung, weil die bisherige unzutreffende Bescheinigung für das Besteuerungsverfahren unerheblich ist. Denn die zutreffende Feststellung entfaltet materiell-rechtliche Bindungswirkung für die Besteuerung des Anteilseigners. Dieser kann die zutreffende Kapitalertragsteuer bei Vorliegen einer ordnungsgemäßen Bescheinigung entsprechend anrechnen, sofern kein Anwendungsfall der Abgeltungsteuer vorliegt. Aus diesem Grunde kann (und sollte) die Gesellschaft dem Anteilseigner in diesem Fall auch eine berichtigte Steuerbescheinigung erteilen (§ 27 Abs. 5 Satz 5 KStG)." },
+      { text: "Zu beachten ist in Fällen der Kapitalertragsteuerhaftung (zzgl. Solidaritätszuschlag), dass der Kapitalgesellschaft in gleicher Höhe ein Rückforderungsanspruch gegenüber dem Anteilseigner zusteht. Denn sie tritt im Wege der Haftung nur für die Steuerschuld ihres Anteilseigners ein. In den Fällen, in denen die Kapitalgesellschaft diese Rückforderung nicht vornimmt und dieser Vorgang ausschließlich auf dem Gesellschaftsverhältnis beruht, entsteht aus dieser verhinderten Vermögensmehrung eine (weitere) verdeckte Gewinnausschüttung, die sich aus der übernommenen Kapitalertragsteuer (Nettobetrag) zuzüglich darauf entfallender Kapitalertragsteuer zusammensetzt. Dieser Vorgang kann dann wiederum zu einer Verwendungsfestschreibung nach § 27 Abs. 5 Satz 2 KStG führen." },
+      { text: "Beispiel: In der Steuerbilanz der T-GmbH zum 31.12.2024 wird das Eigenkapital wie folgt ausgewiesen: Stammkapital 25.000 €, Kapitalrücklagen 100.000 €, Gewinnrücklagen 60.000 €, Jahresüberschuss 40.000 €. Das steuerliche Einlagekonto zum 31.12.2024 wurde mit 100.000 € festgestellt. In 2025 nahm die T-GmbH eine ordnungsgemäße Gewinnausschüttung von 120.000 € vor. Sie erteilte ihrem Anteilseigner eine Ausschüttungsbescheinigung, auf der die Verwendung des steuerlichen Einlagekontos mit 100.000 € ausgewiesen wurde." },
+      { text: "Lösung: Die Verwendungsberechnung sieht wie folgt aus:" },
+      { typ: "tabelle", spalten: ["Verwendungsberechnung", "Betrag"], zeilen: [
+        ["Eigenkapital lt. Bilanz", "225.000 €"],
+        ["./. Nennkapital", "./. 25.000 €"],
+        ["./. steuerliches Einlagekonto", "./. 100.000 €"],
+        ["= ausschüttbarer Gewinn", "100.000 €"],
+      ] },
+      { text: "Da die Gewinnausschüttung von 120.000 € den ausschüttbaren Gewinn um 20.000 € überschreitet, beträgt die Verwendung des steuerlichen Einlagekontos richtigerweise auch nur 20.000 €. Der aus der Ausschüttungsbescheinigung vorgenommene Wert von 100.000 € ist daher um 80.000 € überhöht." },
+      { text: "§ 27 Abs. 5 Satz 4 KStG sieht daher in diesen Fällen vor, dass sich die Besteuerung nur nach den zutreffenden Verhältnissen richtet. Die Gesellschaft ist für den eingetretenen Steuerschaden, der in der zu niedrigen Kapitalertragsteuerfestsetzung zu sehen ist, in Haftung zu nehmen. Der Haftungsbetrag umfasst 25 % von 80.000 € = 20.000 € zuzüglich Solidaritätszuschlag von 1.100 € und ist von der Gesellschaft an das Finanzamt abzuführen. Die buchhalterische Behandlung sieht wie folgt aus:" },
+      { typ: "tabelle", spalten: ["Soll", "Haben", "Betrag"], zeilen: [
+        ["Forderung Gesellschafter", "Verbindlichkeit Finanzamt", "21.100 €"],
+      ] },
+      { text: "Anderenfalls, d.h. wenn die Gesellschaft auf eine Weiterberechnung verzichtet, liegt darin eine zusätzliche vGA an den Anteilseigner. Diese würde einen weiteren Abzug der Kapitalertragsteuer und des Solidaritätszuschlags auslösen, woraus ein Steuerabzug von 27.160 € (= 33,95 % von 80.000 €) zuzüglich Solz von 1.493 € und somit eine vGA von 28.653 € entsteht." },
+      { text: "Bei der Feststellung des steuerlichen Einlagekontos ist nur die zutreffende Verwendung von 20.000 € abzuziehen. Der Endbestand beträgt daher 80.000 €." },
+      { text: "Der Anteilseigner hat die Gewinnausschüttung i.H. von 20.000 € als Einlagenrückgewähr zu erfassen. In der restlichen Höhe von 100.000 € liegt ein Beteiligungsertrag i.S. des § 20 EStG vor. Die unzutreffende Steuerbescheinigung ist zu korrigieren." },
+      { typ: "tabelle", spalten: ["Merkmal", "Zu niedriger Ausweis (1.4.1)", "Überhöhter Ausweis (1.4.2)"], zeilen: [
+        ["Maßgeblich für das Besteuerungsverfahren", "der bescheinigte bzw. fiktive Ausweis – die Festschreibung", "die zutreffenden Verhältnisse – der Ausweis ist unerheblich"],
+        ["Korrektur der Bescheinigung", "ausgeschlossen nach § 27 Abs. 5 Satz 3 KStG", "möglich und geboten nach § 27 Abs. 5 Satz 5 KStG"],
+        ["Rechtsgrundlage", "§ 27 Abs. 5 Sätze 1 bis 3 KStG", "§ 27 Abs. 5 Sätze 4 bis 6 KStG"],
+        ["Folge für die Gesellschaft", "ihr verbleibt ein höheres Einlagekontopotential", "Haftung für die zu niedrige Kapitalertragsteuer, verschuldensunabhängig"],
+        ["Folge für den Anteilseigner", "höherer Beteiligungsertrag als materiell zutreffend", "Besteuerung nach den zutreffenden Verhältnissen, Anrechnung bei ordnungsgemäßer Bescheinigung"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die beiden Abschnitte behandeln dieselbe Ausgangslage – eine unrichtige Bescheinigung – und kommen zu **entgegengesetzten** Ergebnissen. Beim zu niedrigen Ausweis gilt die unzutreffende Bescheinigung, beim überhöhten die zutreffende Rechtslage. Der gemeinsame Nenner ist jedoch erkennbar: In beiden Fällen bleibt der Gesellschaft ein höheres Einlagekontopotential, als der bescheinigte Betrag nahelegt, und in beiden Fällen versteuert der Anteilseigner mehr, als die Bescheinigung ausweist. Die Vorschrift ist damit durchgehend fiskalisch ausgerichtet; nur der Weg dorthin ist ein anderer – dort die Festschreibung, hier die Haftung." },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen der Quelle gehen rechnerisch auf. Überhöhung 100.000 € ./. 20.000 € = 80.000 €. Haftungsbetrag 25 % von 80.000 € = 20.000 € Kapitalertragsteuer, dazu 5,5 % Solidaritätszuschlag von 20.000 € = 1.100 €, zusammen 21.100 €. Endbestand des Einlagekontos 100.000 € ./. 20.000 € = 80.000 €. Beim Anteilseigner 120.000 € ./. 20.000 € = 100.000 € Beteiligungsertrag. Beim Verzicht auf die Weiterberechnung: 33,95 % von 80.000 € = 27.160 €, davon 5,5 % = 1.493,80 € – die Quelle schneidet auf 1.493 € ab –, Summe 28.653 €." },
+      { text: "Anmerkung zur Bemessungsgrundlage der zusätzlichen vGA (eigene Kennzeichnung): Die Zahlen des letzten Absatzes sind wortlautgetreu übernommen; sie stehen aber in einer Spannung zu dem, was die Quelle wenige Absätze zuvor selbst formuliert. Dort heißt es, die weitere verdeckte Gewinnausschüttung setze sich aus der **übernommenen Kapitalertragsteuer (Nettobetrag)** zuzüglich der darauf entfallenden Kapitalertragsteuer zusammen – das wäre der nicht zurückgeforderte Betrag von 21.100 €. Im Beispiel wird der Satz von 33,95 % stattdessen auf die **Überhöhung von 80.000 €** angewandt. Außerdem bezeichnet die Quelle die Summe der beiden Steuerbeträge (27.160 € + 1.493 € = 28.653 €) als „vGA“, während nach der eigenen Definition die verdeckte Gewinnausschüttung aus dem Nettobetrag **zuzüglich** der Steuer bestünde. Der Wortlaut ist unverändert übernommen; diese Einordnung ist eigene Feststellung." },
+      { text: "Anmerkung zum Satz von 33,95 % (eigene Ergänzung): Der Satz stammt aus dem BMF-Schreiben vom 16.11.2010 und ist die Hochrechnung für den Fall, dass die **Gesellschaft** die Kapitalertragsteuer trägt. Er ergibt sich aus 25 % geteilt durch (1 ./. 25 % ./. 1,375 %) = 25 % / 73,625 % = 33,95 %, wobei 1,375 % der Solidaritätszuschlag von 5,5 % auf die Kapitalertragsteuer ist. Auf einen Nettobetrag angewandt liefert er unmittelbar die Kapitalertragsteuer, so dass Netto- und Steuerbetrag zusammen die Bruttoausschüttung ergeben. Diese Herleitung nennt die Quelle nicht; sie ist eigene Ergänzung." },
+      { text: "Anmerkung zum Rückforderungsanspruch (eigene Ergänzung): Der Buchungssatz „Forderung Gesellschafter an Verbindlichkeit Finanzamt“ ist erfolgsneutral, und das ist der entscheidende Punkt: Die Haftung belastet die Gesellschaft wirtschaftlich zunächst gar nicht, weil sie nur für eine fremde Steuerschuld einsteht und in gleicher Höhe einen Anspruch gegen den Gesellschafter erwirbt. Erst der **Verzicht** auf diesen Anspruch führt zur Belastung – und dann nicht nur in Höhe des Verzichts, sondern verstärkt um die darauf wiederum entfallende Kapitalertragsteuer. Dieser Folgevorgang kann nach dem letzten Satz des Abschnitts erneut eine Verwendungsfestschreibung nach § 27 Abs. 5 Satz 2 KStG auslösen, weil für ihn im laufenden Jahr wiederum keine Bescheinigung vorliegen wird. Damit schließt sich der Kreis zum Abschnitt 1.4.1." },
+      { text: "Damit ist das Kapitel 1 (Steuerliches Einlagekonto) der Quelle vollständig übernommen. (Eigene Einordnung:) Es folgen die Kapitel 2 (Grundzüge der Kapitalerhöhung) und 3 (Grundzüge der Kapitalherabsetzung einschließlich eigener Anteile)." },
     ],
   },
 ];

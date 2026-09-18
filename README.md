@@ -2734,7 +2734,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil III (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil III (§§ 27, 28 KStG)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil III: Steuerliches Einlagekonto (§ 27 KStG);
   Grundzüge der Kapitalherauf- und -herabsetzung (§ 28 KStG)“** (21. Auflage, Stand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 12 Kapitel mit 165 Abschnitten und 15 Tabellen. Anders als die
+  Wortlaut – **in Arbeit**, derzeit 14 Kapitel mit 206 Abschnitten und 20 Tabellen. Anders als die
   Teile I und II trägt dieses Skript den Stand **Mai 2025** und rechnet seine Beispiele im VZ 2025.
   Das steuerliche Einlagekonto beantwortet eine einzige Frage: Was von dem, was die Gesellschaft
   auskehrt, hat der Gesellschafter ihr vorher selbst gegeben? Der entscheidende Satz steht gleich am
@@ -2809,6 +2809,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ausschüttbare Gewinn des Erstjahres beträgt 0 €, jede Ausschüttung ist Einlagenrückgewähr – kein
   Schlupfloch, sondern systemgerecht, weil die Gewinne bei den Mitunternehmern bereits versteuert
   worden sind.
+  Die **Verwendungsfestschreibung und Haftungsregelung** des § 27 Abs. 5 KStG schließt das Kapitel 1
+  ab und kommt für die beiden Fehlerrichtungen zu entgegengesetzten Ergebnissen. Ein **zu niedriger**
+  Ausweis wird festgeschrieben und darf nicht mehr korrigiert werden – gleichgültig, ob er wissentlich
+  oder versehentlich erfolgte, und auch dann, wenn die Bescheinigung ganz fehlt: Bis zur Bekanntgabe
+  des Feststellungsbescheides nicht erteilt, gilt ein Ausweis von **fiktiv 0 €** als unterstellt
+  (passive Falschbescheinigung). Der praktisch wichtigste Fall ist die erst durch die Betriebsprüfung
+  aufgedeckte verdeckte Gewinnausschüttung, für die im Ausschüttungsjahr niemand bescheinigen konnte;
+  die naheliegende Gegenmaßnahme vorsorglicher Bescheinigungen erkennt die Finanzverwaltung nicht an,
+  weil ihnen keine tatsächliche Leistung zugrunde liegt. Ein **überhöhter** Ausweis ist dagegen für
+  das Besteuerungsverfahren unerheblich – an seine Stelle tritt die **Haftung** der Gesellschaft für
+  die zu niedrige Kapitalertragsteuer, und zwar verschuldensunabhängig (§ 44 Abs. 5 EStG ist
+  ausgeschlossen) und mit absolutem Vorrang vor der Veranlagung. Der gemeinsame Nenner beider Fälle
+  ist unübersehbar: Der Gesellschaft verbleibt mehr Einlagekontopotential und der Anteilseigner
+  versteuert mehr, als die Bescheinigung ausweist – nur der Weg dorthin ist ein anderer, dort die
+  Festschreibung, hier die Haftung. Die Haftung selbst ist zunächst **erfolgsneutral**, weil die
+  Gesellschaft nur für eine fremde Steuerschuld einsteht und in gleicher Höhe einen
+  Rückforderungsanspruch gegen den Gesellschafter erwirbt (im Beispiel 21.100 €); erst der
+  **Verzicht** darauf belastet sie, und dann verstärkt um die darauf wiederum entfallende
+  Kapitalertragsteuer – ein Folgevorgang, der erneut eine Verwendungsfestschreibung auslösen kann.
+  **Damit ist das Kapitel 1 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil3`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
