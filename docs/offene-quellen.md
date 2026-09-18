@@ -199,8 +199,8 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   „Verschonung & Steuerberechnung (Schäfer)“, `src/data/k1-erbst-verschonung.js`.
   Eingepflegt sind der Abschnitt I (sachliche Steuerbefreiungen des § 13 ErbStG) und die
   Tz. 1 bis 4 des Abschnitts II (Überblick, begünstigungsfähiges und begünstigtes Vermögen,
-  90-Prozent-Test sowie die ersten beiden Fallgruppen des Verwaltungsvermögenskatalogs).
-  Offen sind die restlichen Fallgruppen der Tz. 4 und die Tz. 5 bis 18 des Abschnitts II
+  90-Prozent-Test sowie der vollständige Verwaltungsvermögenskatalog einschließlich des
+  Finanzmitteltests). Offen sind die Tz. 5 bis 18 des Abschnitts II
   (Altersversorgungsverpflichtungen, Investitionsklausel, Nettowert, unschädliches
   Verwaltungsvermögen, Schuldensaldierung, Verbundvermögensaufstellung,
   Regelverschonung, Abzugsbetrag, Lohnsummen- und Behaltensregelung, Familienunternehmen,

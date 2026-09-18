@@ -4870,3 +4870,66 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   im Bewertungsteil 1 löst dieselbe Grenze nach § 11 Abs. 3 BewG den **Paketzuschlag** aus.
   Die Poolvereinbarung hebt die Grenze in beiden erbschaftsteuerlichen Fällen, nicht aber
   im Bewertungsrecht.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Tz. 4 c) bis e): Verwaltungsvermögenskatalog vollständig
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt II
+  Tz. 4 Buchstaben c) bis e), PDF-Seiten 15 bis 19.
+- Einpflege dieses Durchgangs: drei weitere Kapitel; der Datensatz umfasst jetzt 4 Teile,
+  10 Kapitel, 142 Blöcke und 15 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+  **Damit ist der Verwaltungsvermögenskatalog des § 13b Abs. 4 ErbStG vollständig.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Alle sechs Beispiele dieses Blocks sind nachgerechnet; alle gehen auf.**
+
+  - Finanzmittel Beispiel 1: 500.000 € ./. 600.000 € → kein Verwaltungsvermögen, 100.000 €
+    verbleibender Schuldenabzug.
+  - Finanzmittel Beispiel 2: 1.000.000 € ./. 600.000 € = 400.000 €, ./. 300.000 €
+    Sockelbetrag = **100.000 €** Verwaltungsvermögen, Schuldenabzug verbraucht.
+  - A+B OHG: 580.000/1.000.000 × 600.000 = 348.000 € zuzüglich 100.000 € aus dem
+    Sonderbetriebsvermögen = 448.000 € Finanzmittel; 580.000/1.000.000 × 200.000 =
+    116.000 € zuzüglich 150.000 € = 266.000 € Schulden; Saldo 182.000 €; Sockelbetrag
+    15 % × 530.000 € = 79.500 €; verbleibend **102.500 €**.
+  - Junge Finanzmittel: Einlagen 90.000 € ./. Entnahmen 30.000 € = 60.000 €
+    Einlagenüberhang; 500.000 € ./. 60.000 € = 440.000 €, Schuldenabzug 600.000 € ./.
+    440.000 € = 160.000 € verbleibend, Verwaltungsvermögen **60.000 €**.
+  - Abwandlung: 1.000.000 € ./. 60.000 € = 940.000 €, ./. 600.000 € = 340.000 €, ./.
+    300.000 € = 40.000 €, zuzüglich 60.000 € junge Finanzmittel = **100.000 €**.
+
+  **Der Lerninhalt des OHG-Falls, den die Quelle selbst nicht ausspricht:** Quotiert wird
+  nach dem Wert des Anteils am Gesamthandsvermögen (580.000/1.000.000 = 58 %) – nicht nach
+  der Beteiligungsquote von 50 % und nicht nach dem Gewinnverteilungsschlüssel von ½.
+  Beide Angaben stehen im Sachverhalt, ohne in der Rechnung vorzukommen; sie sind die
+  Falle. Der Sockelbetrag bemisst sich dagegen nach dem gemeinen Wert der **Beteiligung**
+  (530.000 €), nicht nach dem Anteil am Gesamthandsvermögen. Ebenso bei den jungen
+  Finanzmitteln: Sie werden vorab herausgenommen und nehmen weder am Schuldenabzug noch am
+  Sockelbetrag teil – deshalb bleiben im ersten Beispiel trotz Schuldenüberhangs 60.000 €
+  Verwaltungsvermögen stehen.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 4 d).** „Gem. **§ 13b Abs. 2 Satz 2 Nr. 4 ErbStG** gehören Wertpapiere …“ –
+    einschlägig und in der Überschrift derselben Tz. auch genannt ist § 13b Abs. 4 Nr. 4
+    ErbStG. Damit ist dies der zweite falsche Absatzverweis innerhalb desselben Abschnitts
+    (nach § 13b Abs. 4 statt Abs. 6 in der Beispieltabelle der Tz. 3).
+  - **Tz. 4 e).** „15 % des anzusetzenden Werts des **Betriebsvermögen**“ in der Übersicht;
+    „steuerliches **Passvierungsverbot**“; „§ 13b Abs. 4 **S.** Nr. 5 ErbStG“ mit
+    überzähligem „S.“; „§ 13b **(4)** Nr. 5 S. 2 ErbStG“ in der Abwandlung; im Sachverhalt
+    der OHG „beträgt 1.000.000.“ ohne Währungszeichen und „600 000 €“ ohne Tausenderpunkt.
+  - **Tz. 4 e), Lösungstabelle der OHG.** In der Zeile „Schulden im Sonderbetriebsvermögen
+    des A“ steht vor dem Betrag von 150.000 € zusätzlich die Zahl **100.000 €** – der
+    Finanzmittelbetrag aus der Zeile darüber, beim Satz in die falsche Spalte geraten.
+    Gerechnet wird, wie die Summe von 266.000 € belegt, mit 150.000 €.
+
+  Systematischer Befund zur Abgrenzungsliste der Tz. 4 d): Was dort in der rechten Spalte
+  steht (Geld, Sichteinlagen, Spareinlagen, Festgeldkonten, Forderungen aus Lieferungen und
+  Leistungen, Forderungen an verbundene Unternehmen), ist zwar kein Verwaltungsvermögen
+  nach Nr. 4 – wird aber als **Finanzmittel** von Nr. 5 erfasst. Die Liste trennt also
+  nicht begünstigtes von nicht begünstigtem Vermögen, sondern zwei Prüfungswege.
+
+  Querbezug: Die Zusatzvoraussetzung des § 13b Abs. 4 Nr. 5 Satz 4 ErbStG (begünstigter
+  Hauptzweck) ist dieselbe, die beim 90-Prozent-Test der Tz. 3 über das BFH-Urteil vom
+  13.09.2023 und die Ländererlasse vom 19.06.2024 den Schuldenabzug von den Finanzmitteln
+  eröffnet. In beiden Fällen entscheidet sie darüber, ob eine reine Cash-Gesellschaft von
+  einer Vergünstigung profitiert.

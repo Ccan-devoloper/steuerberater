@@ -107,7 +107,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Grundstücke mit den fünf Rückausnahmen (Betriebsaufspaltung und Sonderbetriebsvermögen,
   Betriebsverpachtung im Ganzen, Konzernklausel, Wohnungsunternehmen, Absatz eigener
   Erzeugnisse) und Anteile an Kapitalgesellschaften von 25 % oder weniger mit der getrennten
-  Prüfung von Gesamthands- und Sonderbetriebsvermögen.
+  Prüfung von Gesamthands- und Sonderbetriebsvermögen. Dazu die übrigen Fallgruppen des
+  Katalogs: Kunstgegenstände und Sammlungen, Wertpapiere mit der Abgrenzungsliste der
+  Quelle und vor allem der **Finanzmitteltest** des § 13b Abs. 4 Nr. 5 ErbStG – Schulden-
+  verrechnung, 15-Prozent-Sockelbetrag und verbleibender Schuldenabzug in zwei
+  Grundbeispielen, die quotale Zusammenführung von Gesamthands- und Sonderbetriebsvermögen
+  bei Beteiligungen an Personengesellschaften (A+B OHG, 102.500 €), die **jungen
+  Finanzmittel** als vorab herauszunehmender Einlagenüberhang der letzten zwei Jahre und
+  die Zusatzvoraussetzung gegen Cash-Gesellschaften, die den Sockelbetrag an einen
+  begünstigten Hauptzweck knüpft und deshalb zwei Berechnungswege erzwingt. Alle sechs
+  Beispiele dieses Blocks sind nachgerechnet.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den
