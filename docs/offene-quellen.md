@@ -248,9 +248,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (`1KXgD0bYGU9CZOjpeiqsUHNVwbquW-rla`, „Steuerberaterprüfungen 2014 – 2015“, Februar 2026
   mit Rechtsstand 2025, Version 1.0, vom Connector vollständig ausgegeben). Sie enthält
   **zwei Originalklausuren mit Lösungshinweis**: Robert Rundlich 2014 und Robert Rundlich
-  2015. Eingepflegt ist die Klausur **2014** im neuen Reiter „Originalklausuren (Prüfung)“,
-  `src/data/k1-erbst-originalklausuren.js`. Offen aus dieser Datei ist die Klausur **2015**;
-  offen aus dem Ordner sind die sieben übrigen PDFs, die andere Klausurfächer betreffen.
+  2015. **Beide sind eingepflegt** im Reiter „Originalklausuren (Prüfung)“,
+  `src/data/k1-erbst-originalklausuren.js`; die ErbSt-Datei ist damit vollständig
+  ausgewertet. Offen aus dem Ordner sind die sieben übrigen PDFs, die andere Klausurfächer
+  betreffen (ESt, Bilanz, KSt sowie vier Dateien mit abgeschnittenen Titeln).
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
 - Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet
 

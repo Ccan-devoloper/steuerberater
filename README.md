@@ -180,7 +180,23 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ErbStG, von der am Ende 165 € abziehbar bleiben. Festzusetzende Erbschaftsteuer
   **174.306 €**. Drei Rundungen der Quelle (584 € statt 583,20 €, 3.065 € statt 3.064,32 €,
   Jahresertrag 217.829,00 € statt 217.829,63 €) sind wortlautgetreu übernommen und
-  gekennzeichnet; sie bleiben ohne Auswirkung auf das Ergebnis.
+  gekennzeichnet; sie bleiben ohne Auswirkung auf das Ergebnis. Dazu die Klausur
+  **„Robert Rundlich" (Prüfung 2015)**, das Gegenstück im **Sachwertverfahren**:
+  Alterswertminderung mit Modernisierungspunkten (8 von 14 – die Modifikation unterbleibt),
+  ein Schwimmbecken, das mit 6,51 % an der 10-Prozent-Grenze für besonders werthaltige
+  Außenanlagen scheitert, eine Wertzahl ohne Interpolation, weil beide Ausgangsgrößen
+  außerhalb der Tabelle liegen, und die Aufteilung des Grundbesitzwerts von 269.921 € auf
+  drei Geschosse – Privatwohnung, vermietete Wohnung und Lager. Dazu ein vereinfachtes
+  Ertragswertverfahren, aus dem drei nicht betriebsnotwendige Wirtschaftsgüter samt ihrer
+  Erträge und Aufwendungen herausgerechnet und anschließend gesondert hinzugerechnet werden,
+  eine stille Beteiligung, die nach R B 12.4 ErbStR mit 128,35 % der Einlage anzusetzen ist,
+  und drei Rentenschulden nebeneinander: verbundene Leibrenten mit dreimonatiger Aufschubzeit,
+  eine abgekürzte Leibrente mit interpoliertem Vervielfältiger (10,853 gegenüber dem
+  lebenslänglichen Wert 12,802) und sieben rückständige Raten. Steuer nach dem Wortlaut der
+  Quelle **439.052 €**. Der Erwerb der Quelle lässt allerdings das private Grundvermögen von
+  89.974 € aus, obwohl die Lösung es zuvor ausdrücklich als solches ausweist und keine
+  Befreiung gewährt; die **eigene Kontrollrechnung** führt auf 456.152 € und ist im
+  Lösungstext ausdrücklich als eigene gekennzeichnet.
   Prüfung: `npm run check:k1-erbst-originalklausuren`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

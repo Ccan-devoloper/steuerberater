@@ -6101,3 +6101,111 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Lebensversicherung fällt nach § 3 Abs. 1 Nr. 4 ErbStG nicht in den Erwerb der Erbin, und
   die nicht geltend gemachten Pflichtteilsansprüche bleiben nach § 10 Abs. 5 Nr. 2 ErbStG
   unberücksichtigt.
+
+## Originalklausuren der Steuerberaterprüfung – ErbSt/Bewertung, Klausur Robert Rundlich 2015
+
+- Quelle: dieselbe Datei (`1KXgD0bYGU9CZOjpeiqsUHNVwbquW-rla`), zweite Klausur.
+- Einpflege dieses Durchgangs: die Klausur **2015** als zweite Originalklausur; der
+  Datensatz umfasst jetzt 2 Originalklausuren, 196 Blöcke und 29 Tabellen; Prüfung
+  `npm run check:k1-erbst-originalklausuren`. **Damit ist die ErbSt-Datei des Ordners
+  „Originalklausuren“ vollständig ausgewertet.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Die Klausur ist das Gegenstück zur Klausur 2014**: dort Ertragswertverfahren, hier
+  Sachwertverfahren; dort ein Erbe in Steuerklasse I mit Ehegattenfreibeträgen, hier ein
+  Kind; dort eine Rentenlast, hier drei. Beide teilen den Aufbau (Grundvermögen –
+  Betriebsvermögen – übriges Vermögen – Nachlassverbindlichkeiten – Steuerberechnung) und
+  den Erblassernamen.
+
+  **Alle Rechenschritte sind unabhängig nachgerechnet.** Bewertung, Betriebsvermögen,
+  Verwaltungsvermögensrechnung und die drei Rentenschulden gehen auf. Von der Zeile
+  „Erwerb“ an ist die Rechnung der Quelle in sich schlüssig: 2.932.977 ./. 222.103 =
+  2.710.874; ./. 400.000 = 2.310.874; abgerundet 2.310.800 × 19 % = **439.052 €**.
+
+  **Eine Lücke der Quelle – eigene Feststellung, im Datensatz ausdrücklich als eigene
+  Kontrollrechnung gekennzeichnet:** Der Erwerb von 2.932.977 € setzt sich zusammen aus dem
+  steuerpflichtigen Betriebsvermögen (80.977 €), dem Reisegutschein (12.000 €) und den
+  Bankguthaben (2.840.000 €). Das private Grundvermögen – die Wohnung im 2. OG mit
+  89.974 € – fehlt darin, obwohl die Lösung sie zuvor ausdrücklich als Grundvermögen nach
+  § 18 Nr. 2 BewG ausweist und ihr weder § 13 Abs. 1 Nr. 4c noch § 13d ErbStG zubilligt
+  (die Wohnung stand am Todestag leer und wurde erst danach vermietet). Mit ihr ergäbe sich
+  ein Erwerb von 3.022.951 €, eine Bereicherung von 2.800.848 €, ein steuerpflichtiger
+  Erwerb von 2.400.848 €, abgerundet 2.400.800 €, und – der Steuersatz bleibt bei 19 %, weil
+  die nächste Tarifstufe erst bei 6.000.000 € beginnt – eine Erbschaftsteuer von
+  **456.152 €**. Der Datensatz führt die Zahlen der Quelle im Wortlaut und stellt die eigene
+  Ableitung daneben.
+
+  **Ein zweiter Bruch in derselben Lösung:** Die Aufstellung des Verwaltungsvermögens nennt
+  drei Posten – Beteiligung 38.505 €, Bild 1.900 €, 1. OG 80.977 € –, summiert sie aber auf
+  119.482 € statt auf 121.382 €. Das Bild fällt damit zugleich aus dem jungen
+  Verwaltungsvermögen heraus, obwohl die Quelle es zwei Zeilen zuvor ausdrücklich als
+  junges Verwaltungsvermögen bezeichnet. Alle Folgezeilen rechnen mit den 119.482 € bzw.
+  80.977 € weiter und sind insoweit in sich schlüssig.
+
+  **Das Sachwertverfahren zeigt drei Prüfungen, die alle ins Leere laufen.** Erstens die
+  Modernisierung: Fenster, Heizung, Leitungen und Bäder ergeben 8 Punkte, die Schwelle von
+  14 Punkten wird nicht erreicht, die Alterswertminderung bleibt unverändert bei 55/80 =
+  0,687. Zweitens das Schwimmbecken: Es wäre mit 19.048 € zu bewerten, erreicht aber nur
+  6,51 % des Gebäudesachwerts von 292.402 € und bleibt deshalb als nicht besonders
+  werthaltige Außenanlage außer Ansatz. Drittens die Wertzahl: Weder der Bodenrichtwert von
+  30 €/qm noch der vorläufige Sachwert von 337.402 € liegen im Tabellenbereich der
+  Anlage 25, sodass die Interpolation entfällt und der Randwert 0,8 gilt. Auch der
+  Gutachterwert von 370.000 € scheitert doppelt – er liegt über dem Grundbesitzwert und
+  enthält einen Zukunftswert.
+
+  **Die Aufteilung auf drei Geschosse ist der Angelpunkt.** Jedes Geschoss zählt 1/3: das
+  2. OG als privates Grundvermögen (§ 18 Nr. 2 BewG, 89.974 €), das 1. OG und das EG als
+  Betriebsgrundstück (§ 18 Nr. 3 BewG, 179.947 €). Für das fremdvermietete 1. OG greift
+  § 13d ErbStG trotz gewillkürten Betriebsvermögens, weil es sich um junges
+  Verwaltungsvermögen handelt (R E 13d Abs. 4 S. 2 ErbStR); der 10-Prozent-Abschlag wird
+  aus systematischen Gründen erst bei der Hinzurechnung nach § 200 Abs. 2 BewG wirksam:
+  89.974 € × 0,9 = 80.977 €.
+
+  **Im vereinfachten Ertragswertverfahren werden drei Wirtschaftsgüter herausgerechnet und
+  wieder hinzugerechnet:** die stille Beteiligung, das Bild und die Wohnung im 1. OG. Für
+  jedes sind Erträge und Aufwendungen der Jahre 2022–2024 zu korrigieren – bei der Wohnung
+  gleich dreifach (Mieteinnahmen einschließlich Nebenkosten 1.345 € × 6, anteilige AfA
+  4.400 € × 6/12, Nebenkosten 445 € × 6). Anschließend werden die gemeinen Werte gesondert
+  angesetzt.
+
+  **Die stille Beteiligung ist der seltenste Rechengang der Sammlung.** Weil die
+  Kündbarkeit für mehr als fünf Jahre ausgeschlossen ist, greift R B 12.4 ErbStR: 8 % von
+  55.000 € Durchschnittsertrag = 4.400 € Ertragsaussicht, bezogen auf die Einlage von
+  30.000 € sind das 14,67 %; der relevante Zinssatz beträgt 100 + 5 × (14,67 ./. 9) =
+  128,35, der Wert der Beteiligung also 128,35 % × 30.000 € = 38.505 €. Die Beteiligung
+  zählt zugleich als Verwaltungsvermögen nach § 13b Abs. 4 Nr. 4 ErbStG – die Quelle hält
+  hier ausdrücklich fest, dass eine andere Ansicht vertretbar ist.
+
+  **Drei Rentenschulden in einem Fall – jede mit eigener Bewertungsregel:** Die verbundenen
+  Leibrenten an Max und Moritz werden mit dem kleineren Vervielfältiger beider Empfänger
+  (17,575) für die laufende Doppelrente angesetzt und um die Differenz der Vervielfältiger
+  (0,110), multipliziert mit dem Jahreswert der erhöhten Überlebendenrente (3.000 €),
+  ergänzt; weil die Zahlungen erst am 01.12.2025 beginnen, mindert eine dreimonatige
+  Aufschubzeit den Wert um den Faktor 0,013. Die Rente an Frau Bolte ist eine **abgekürzte
+  Leibrente**: Anzusetzen ist der kleinere der beiden Vervielfältiger – der lebenslängliche
+  (12,802) oder der zeitlich begrenzte aus Anlage 9a, hier auf 16 Jahre und 3 Monate
+  interpoliert (10,853). Dazu treten sieben rückständige Monatsraten mit dem Nennwert. Eine
+  Kürzung nach § 10 Abs. 6a Satz 1 ErbStG unterbleibt, weil die Renten wirtschaftlich mit
+  dem voll steuerpflichtigen 2. OG zusammenhängen.
+
+  **Zwei Feinheiten beim übrigen Vermögen:** Die Unternehmensanleihen sind mit dem Kurswert
+  (1.510.000 €) anzusetzen, die aufgelaufenen Zinsen daneben mit 8/12 des Jahreszinses auf
+  den Nennwert (30.000 €) – der Kurswert enthält sie ausweislich des Sachverhalts nicht.
+  Der Reisegutschein wird nicht mit dem Katalogwert von 19.000 €, sondern mit dem
+  Rückkaufswert von 12.000 € bewertet (§ 9 Abs. 2 BewG).
+
+  **Der Pflichtteil ist dreifach abgesichert – und bleibt trotzdem außer Ansatz.** Weder die
+  testamentarische Verpflichtung zur Hinterlegung beim Notar noch die Abtretung an eine
+  Inkasso-GmbH noch die Gewissheit des Erben, dass die GmbH den Anspruch geltend machen
+  wird, ersetzen die tatsächliche Inanspruchnahme nach § 10 Abs. 5 Nr. 2 ErbStG.
+
+  **Rundungen und Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:**
+  der Baupreisindex, der beim Gebäude „177,9“ und beim Schwimmbecken „183,3“ heißt, während
+  beide Rechnungen mit dem Faktor 1,833 arbeiten; der Kapitalwert der verbundenen Renten mit
+  83.590 € statt rechnerisch 83.589,03 €; der Kapitalwert der abgekürzten Leibrente mit
+  117.213 € statt 117.212,40 €; die Rückwirkung der Versicherungskündigung „auf den
+  01.08.2020“ statt 01.08.2022; „§ 19 Abs. 4“ statt § 19a Abs. 4 ErbStG; „§§ 151 Abs. 2
+  Nr. 1, 180 BewG“ statt Abs. 1 Nr. 1; „Standartstufe“, „Büchertrockenmachine“,
+  „R B 179.1 Abs, 1 ErbStR“, „§ 151 Ab. 1 S. 1 Nr. 1 BewG“ und der unvollständige Satz zu
+  den Beteiligungserträgen 2024. Im Sachverhalt sind beim EG Wasser und Strom gegenüber dem
+  1. OG vertauscht – ohne Auswirkung, weil nur die Summe von 445 € gebraucht wird.
