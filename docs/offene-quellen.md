@@ -216,8 +216,14 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Musterlösungen stehen in den jeweiligen Kapiteln. Offen ist aus diesem Ordner nur noch
   die Fallsammlung 4. Termin.
 - **ErbSt-Fallsammlung 4. Termin** (`1HuXWysA6NBRDAltBmHei54XFo3POwOtV`, 2,4 MB, im selben
-  Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`): bei der Sichtung dieses Ordners neu
-  entdeckt. Noch nicht bearbeitet.
+  Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`): **begonnen.** Die Datei („Fallsammlungen und
+  Lösungen Erbschaftsteuer/Bewertungsrecht, 4. Fachtermin“, Rechtsstand 2025, vom Connector
+  vollständig ausgegeben) enthält **neun Klausuren und Übungsaufgaben mit
+  Lösungshinweisen**: Ackermann, August Antensteiner, Backhaus, Engelkamp, Glücklich, ein
+  weiterer Fall ohne Namensangabe, Müller GmbH, Walter Olfmann und Paul Pollmann.
+  Eingepflegt ist bisher die Klausur **Ackermann** im Reiter „Fallsammlung“,
+  `src/data/k1-erbst-fallsammlung.js`, als neuer Block „Klausuren und Übungsaufgaben ·
+  4. Fachtermin“. Offen sind die übrigen acht Fälle.
 - **ErbStR, 4. und 5. Einheit** – im Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` liegen seit
   September 2026 vier weitere Dateien („ErbStR, 4. Einheit_Teil 1“ und „ErbStR. 4.
   Einheit_Teil 2“, „ErbStR, 5. Einheit_Teil 1“ und „ErbSt, 5 Einheit - Teil 2“). Der Campus

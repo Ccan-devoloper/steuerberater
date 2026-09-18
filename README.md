@@ -76,7 +76,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Lebensversicherungsrente und Anrechnung des Vorerwerbs von 2023 (festzusetzende
   Erbschaftsteuer 173.504 €). Jede Zwischensumme
   der Quelle ist unabhängig nachgerechnet und die Kontrollrechnung steht am Ende der
-  Lösung; die Spaltenzuordnung der Rechenwerke ist dokumentiert.
+  Lösung; die Spaltenzuordnung der Rechenwerke ist dokumentiert. Neu hinzugekommen ist aus
+  der **Fallsammlung zum 4. Fachtermin** die vollständige Klausur **„Ackermann"**: ein
+  gemischt genutztes Grundstück im Ertragswertverfahren (Grundbesitzwert 758.035 €), seine
+  Aufteilung in Betriebs- und Privatvermögen nach der Flächenquote von 77,78 %, der
+  Substanzwert als Mindestwert (599.583 €) gegenüber dem vereinfachten
+  Ertragswertverfahren (2.678.954 €), der Finanzmitteltest, die Regelverschonung mit auf
+  24.078 € abgeschmolzenem Abzugsbetrag, das steuerfreie Familienheim, der
+  10-Prozent-Abschlag des § 13d ErbStG und die Steuerberechnung bis zur festzusetzenden
+  Erbschaftsteuer von 18.557 € samt Härteausgleichsprüfung. Diese Klausur ist zugleich die
+  Probe aufs Exempel für beide Schäfer-Skripte: Index, Bewirtschaftungskostenansätze,
+  Liegenschaftszinssatz, Abschmelzungsgrenzen des Abzugsbetrags und die
+  Härteausgleichstabelle stimmen sämtlich mit ihnen überein.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

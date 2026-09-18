@@ -5442,3 +5442,50 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   gekennzeichnet: „verbleibende **anteige** Schulden“; „Einzelunternehmen, **begünstigt§**
   13b Abs. 2 ErbStG“ ohne Leerzeichen; die Wortdopplung „unterschreitet **die die**
   Mindestlohnsumme“; „214.535 €/**723.558**“ ohne zweites Währungszeichen.
+
+## ErbSt-Fallsammlung 4. Fachtermin – Klausur „Ackermann“
+
+- Quelle: „B-S25-EbSt-Fallsammlung 4. Termin-0126.pdf“, Drive-ID
+  `1HuXWysA6NBRDAltBmHei54XFo3POwOtV` im Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`,
+  2,4 MB, Rechtsstand 2025. Der Connector hat die Datei vollständig ausgegeben
+  (97.600 Zeichen).
+- Inhalt der Datei: **neun Klausuren und Übungsaufgaben mit Lösungshinweisen** – Ackermann,
+  August Antensteiner, Backhaus, Engelkamp, Glücklich, ein weiterer Fall ohne
+  Namensangabe, Müller GmbH, Walter Olfmann und Paul Pollmann.
+- Einpflege dieses Durchgangs: die Klausur **Ackermann** als fünfter Übungsfall in
+  `src/data/k1-erbst-fallsammlung.js`, neuer Block „Klausuren und Übungsaufgaben ·
+  4. Fachtermin“. Der Datensatz umfasst jetzt 5 Übungsfälle, 191 Blöcke und 38 Tabellen;
+  Prüfung `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Die Lösung ist Zeile für Zeile nachgerechnet; sie geht vollständig auf.** Grundbesitzwert
+  758.035 € (Rohertrag 48.300 €, Bewirtschaftungskosten 9.620 €, Reinertrag Gebäude
+  23.680 €, Vervielfältiger 19,3427); Aufteilung 350/450 auf das Betriebsgrundstück
+  (589.583 €) und 100/450 auf das Privatvermögen (168.452 €); Substanzwert 599.583 €;
+  vereinfachtes Ertragswertverfahren 194.833 € × 13,75 = **2.678.954 €**; Verschonungs-
+  abschlag 2.277.111 €, Abzugsbetrag 24.078 €, steuerpflichtiges Betriebsvermögen
+  377.765 €; Gesamter Vermögensanfall 643.938 €, Bereicherung 568.728 €, steuerpflichtiger
+  Erwerb 168.700 €, Erbschaftsteuer **18.557 €**.
+
+  **Diese Klausur ist die Probe aufs Exempel für beide Schäfer-Skripte.** Mehrere Werte
+  lassen sich unmittelbar gegen sie prüfen, und alle stimmen überein:
+
+  - Die Bewirtschaftungskosten verwenden denselben Index **120,2/77,11** und dieselben
+    Ansätze **359 €** und **14,00 €** wie die Bewertungsskripte sowie die Fälle Fietze und
+    Beckmann – ein weiterer Beleg dafür, dass 77,11 und nicht 77,1 die gerechnete Größe ist.
+  - Der Liegenschaftszinssatz von **5 %** ist der gesetzliche Satz des § 188 Abs. 2 Nr. 3
+    BewG für gemischt genutzte Grundstücke, den der Bewertungsteil 2 in seiner Tz. 6
+    ausweist.
+  - Der **Abzugsbetrag** schmilzt auf 24.078 € ab, weil der verbleibende Wert von 401.843 €
+    zwischen den Grenzen 150.000 € und 450.000 € liegt, die der Skriptteil 2 in seiner
+    Tz. 12 als Anfangs- und Endpunkt der Abschmelzung nennt.
+  - Dass der **Härteausgleich entfällt**, lässt sich an der Tabelle H E 19 ErbStH
+    nachvollziehen, die derselbe Skriptteil wiedergibt: Bei Überschreiten der Wertgrenze
+    von 75.000 € wirkt er in der Steuerklasse I nur bis zu einem steuerpflichtigen Erwerb
+    von 82.600 €; mit 168.700 € liegt der Fall weit darüber.
+
+  **Die Flächenquote trägt den Fall zweimal.** 350 qm von 450 qm sind 77,7778 % – knapp
+  unter der 80-Prozent-Grenze des § 181 Abs. 6 BewG. Daran scheitert die Einordnung als
+  Geschäftsgrundstück, und nur deshalb wird im Ertragswertverfahren bewertet. Dieselbe
+  Quote teilt anschließend den Grundbesitzwert in Betriebs- und Privatvermögen auf. Beides
+  ist im Datensatz vermerkt.
