@@ -1927,6 +1927,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Unstimmigkeiten der Anlage 1 (eine nicht aufgehende Summe, ein widersprüchlicher
   Klammerzusatz und eine Textziffer, die noch dem alten § 7g EStG folgt) sind als **eigene
   Feststellung** gekennzeichnet.
+  **Teil II der Prüfung 2012** (Sommer GmbH, 33 Punkte) dreht die Vorzeichen um: möglichst
+  hohes Vermögen in der Handelsbilanz, möglichst **hohes** steuerliches Ergebnis. Ein
+  **VIP-Logen-Paket** über 20.000 € für 20 Heimspiele zerfällt erst zeitlich – acht Spiele des
+  Folgejahres sind geleistete Anzahlungen – und dann sachlich in Werbung (40 %), Bewirtung
+  (30 %) und Geschenke (30 %), wobei die Eintrittskarten mit exakt 50 € je Person
+  (3.600 € : 12 Spiele : 6 Personen) genau auf der Grenze des § 4 Abs. 5 Satz 1 Nr. 1 EStG
+  liegen. Eine **Lärmschutzwand**, die erst 2029 gebaut wird, ist handelsrechtlich mit drei
+  Jahren Preissteigerung aufzuzinsen und mit 4 % abzuzinsen (97.142 €), steuerrechtlich nach
+  § 6 Abs. 1 Nr. 3a Buchst. e und f EStG ohne Preissteigerung mit 5,5 % (85.161 €) – die
+  Differenz von 11.981 € erzeugt aktive latente Steuern. Überhöhte Lieferpreise der
+  **finnischen Tochtergesellschaft** von 30.000 € sind handelsrechtlich Aufwand,
+  steuerrechtlich verdeckte Einlage nach § 6 Abs. 6 Satz 2 EStG; zur Frage der latenten
+  Steuern auf diese Differenz widersprechen die Verfasser der Musterlösung ausdrücklich. Am
+  Ende steht ein Verlust von 594.281 €, aus dem § 274 Abs. 1 Satz 4 HGB latente Steuern von
+  185.784 € auf die Verlustvorträge entstehen lässt. Drei Unstimmigkeiten sind als **eigene
+  Feststellung** gekennzeichnet: der Zahlendreher „3.954 €“ gegen die durchgängig verwendeten
+  3.594 €, der Widerspruch zwischen der Begründung (Geschenke abzugsfähig, Vorsteuer voll
+  abziehbar) und der Abschlussrechnung (1.800 € Geschenke und 342 € Umsatzsteuer
+  hinzugerechnet) sowie stehengebliebene Jahresangaben „2022/2023“ in der
+  Verlustvortragstabelle.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

@@ -8431,3 +8431,87 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Jahres 2026 abzugsfähig“ bei den Zinsen, die den Gewinn 2025 mindern;
   „anschaffungsnahmen Herstellungskosten“; „Instandhaltungsksoten“; „§ 7 Abs. 4 Nr. S. 1
   Nr. 2 c) EStG“; sowie der Wert „4716,67 €“ ohne Tausenderpunkt.
+
+### Bilanz-Originalklausur 2012, Teil II (Sommer GmbH, 33 Punkte)
+
+- **Quelle:** „Bilanzierung nach Handels- und Steuerrecht · Steuerberaterprüfungen 2011–2015“
+  (Februar 2026), Drive-ID `1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, Verfasser Norbert Rott,
+  Markus Schmidt und Alexander Horst.
+- **Ziel:** `src/data/k3-bil-originalklausuren.js`, Eintrag `bil-ok-2012-teil2-sommer`
+  (Nummer 5). Prüfung: `npm run check:k3-bil-originalklausuren`.
+- **Zeitlogik:** wie die übrigen Bilanz-Prüfungen auf Rechtsstand 2025 fortgeschrieben; die
+  Klausur spielt im Wirtschaftsjahr 2025.
+
+**Umgekehrte Zielvorgabe.** Anders als in allen bisherigen Teilen lautet der Hinweis hier
+„In der Handelsbilanz soll ein möglichst hohes Vermögen ausgewiesen werden“ **und** „Das
+steuerliche Ergebnis soll möglichst **hoch** ausfallen“. Beide Wahlrechtsrichtungen laufen
+also gleich – das ist der Schlüssel zum Aktivierungsgebot bei den latenten Steuern.
+
+**Unabhängig nachgerechnet – alles geht auf:**
+
+| Rechenschritt | Nachrechnung | Quelle |
+| --- | --- | --- |
+| Anzahlung VIP-Logen | 8/20 × 20.000 € = 8.000 € | 8.000 € |
+| Aufteilung der 12.000 € | 40 / 30 / 30 % = 4.800 / 3.600 / 3.600 € | ebenso |
+| Geschenk je Person | 3.600 € : 12 Spiele : 6 Personen = 50,00 € | 50 € |
+| Bewirtungshinzurechnung | 30 % von 3.600 € = 1.080 € | 1.080 € |
+| Erfüllungsbetrag Lärmschutzwand | 100.000 × 1,03³ = 109.272,70 € | 109.272 € |
+| handelsrechtlicher Ansatz | 109.272 : 1,04³ = 97.142,4 € | 97.142 € |
+| steuerrechtlicher Ansatz | 100.000 : 1,055³ = 85.161,3 € | 85.161 € |
+| Überleitung Tz. 2 | 97.142 ./. 85.161 = 11.981 € | 11.981 € |
+| latente Steuer Tz. 2 | 30 % von 11.981 € = 3.594,30 € | 3.594 € |
+| latente Steuer Tz. 3 | 30 % von 5 % von 30.000 € = 450 € | 450 € |
+| Zwischensumme Handelsbilanz | ./. 650.000 + 8.000 ./. 342 ./. 1.800 ./. 1.800 ./. 3.600 + 7.200 + 2.858 + 4.044 = ./. 635.440 € | ./. 635.440 € |
+| steuerlicher Gewinn | ./. 635.440 + 11.981 ./. 4.044 + 30.000 = ./. 597.503 € | ./. 597.503 € |
+| Einkommen / Gewerbeertrag | ./. 597.503 + 1.800 + 1.080 + 342 = ./. 594.281 € | ./. 594.281 € |
+| latente Steuern Verlustvortrag | 15 % von 594.281 = 89.142,15 €; 15 % von 644.281 = 96.642,15 €; zusammen 185.784 € | 185.784 € |
+| endgültiger Jahresfehlbetrag | ./. 635.440 + 185.784 = ./. 449.656 € | ./. 449.656 € |
+
+**Vier Feststellungen – im Datensatz ausdrücklich als eigene gekennzeichnet:**
+
+1. **Zahlendreher bei den latenten Steuern.** Der Fließtext nennt „30 % v. 11.981 € =
+   3.954 €“, die unmittelbar folgende Buchung und jeder weitere Rechenschritt arbeiten
+   dagegen mit **3.594 €**. 30 % von 11.981 € sind 3.594,30 € – richtig ist damit 3.594 €,
+   „3.954 €“ ist ein Zahlendreher. Beides ist wortlautgetreu wiedergegeben.
+2. **Widerspruch zwischen Begründung und Abschlussrechnung.** Die Lösung begründet
+   ausführlich, dass die Eintrittskarten mit exakt 50 € je Person die Grenze des § 4 Abs. 5
+   Satz 1 Nr. 1 EStG **nicht** überschreiten, also abzugsfähig sind und die Vorsteuer nach
+   § 15 Abs. 1a Satz 1 UStG in voller Höhe abziehbar bleibt; die Zwischenüberschrift
+   „Steuerliche Gewinnermittlung“ nennt folgerichtig nur die Bewirtungskosten von 1.080 € als
+   außerbilanzielle Hinzurechnung. Die Abschlussrechnung rechnet dann jedoch zusätzlich
+   **1.800 € Geschenke** und **342 € nicht abziehbare Umsatzsteuer** (= 19 % von 1.800 €)
+   hinzu. Rechnerisch ist die Klausur nur mit der Abschlussrechnung in sich geschlossen; wer
+   der Begründung folgt, kommt zu einem um 2.142 € niedrigeren Einkommen. Beide Fassungen
+   sind übernommen und der Widerspruch ist benannt.
+3. **Spaltenartefakt im zweiten Buchungssatz.** Der Quelltext gibt die Buchung als „Geschenke
+   abzugsfähig 1.800 € / Geschenke abzugsfähig 3.600 € / Bewirtungskosten 3.600 € an
+   Werbekosten 7.200 €“ wieder; das geht nicht auf (1.800 + 3.600 + 3.600 = 9.000). Die
+   Abschlussrechnung derselben Quelle führt „Geschenke nicht abzugsfähig ./. 1.800 €“ und
+   „Geschenke abzugsfähig ./. 1.800 €“ nebeneinander auf – damit lautet die Buchung 1.800 €
+   nicht abzugsfähig + 1.800 € abzugsfähig + 3.600 € Bewirtung an 7.200 € Werbekosten, sie
+   geht auf, und es verbleiben die 4.800 € Werbung auf dem Konto. Der Datensatz zeigt diese
+   Fassung und erläutert die Abweichung.
+4. **Stehengebliebene Jahresangaben.** Die Verlustvortragstabelle ist mit „Verlustvortrag aus
+   2022“ und „Steuerlicher Verlust 2023“ überschrieben, der Sachverhalt spricht von
+   Ausschüttungen „für 2022“ und „für 2023“ – Jahre aus dem Originaljahrgang, die bei der
+   Fortschreibung auf 2025 stehen geblieben sind. Gemeint sind der Gewerbeverlust 2024 und
+   der Verlust 2025.
+
+**Punktvergabe.** Der Kopf weist 33 Punkte aus; die Auszählung der Randpunkte ergibt in der
+vorliegenden Textfassung **28 Punkte**. Fünf Randpunkte liegen in Passagen, die der
+Seitenumbruch des PDF zerrissen hat (erkennbar an Sätzen wie „Persönliches ausgeübt PDF
+werden“, in denen Fußnotentext und Fließtext ineinanderlaufen). Die Blockpunkte des
+Datensatzes folgen der Auszählung.
+
+**Zwei redaktionelle Anmerkungen der Quelle sind mit übernommen:** die Musterlösung lässt für
+die steuerliche Abzinsung auch den Vervielfältiger 0,852 aus der Tabelle des BMF-Schreibens
+vom 26.05.2005 zu (Ergebnis 85.200 €), und die Verfasser widersprechen der Musterlösung
+ausdrücklich bei den 450 € latenten Steuern auf die verdeckte Einlage – nach Rn. 13 zu § 274
+HGB im Beck'schen Bilanzkommentar seien insoweit gar keine latenten Steuern zu bilden.
+
+**Damit ist die Bilanz-Datei ausgeschöpft.** Der Sachverhalt zu Teil III der Prüfung 2012
+(XYZ GmbH & Co. KG – Übertragung eines KG-Anteils mit Marke, Vermietung einer Wohnung an die
+Mutter, Darlehen an einen insolventen Gesellschafter) liegt vollständig vor, die zugehörige
+Lösung gibt der Connector nicht mehr aus; der Text endet unmittelbar hinter „Teil II gesamt
+33 Punkte“. Teil III der Prüfung 2012 und die Prüfungen 2013–2015 stehen in
+`docs/offene-quellen.md`, Abschnitt A.
