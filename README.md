@@ -1803,6 +1803,31 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   1.374.000 €, nach Mindestbesteuerung 149.600 €, Messbetrag **5.236 €**, Restvortrag
   1.775.600 €. Bei dieser Klausur gehen Kopfangabe und Auszählung der Randpunkte übrigens
   in beiden Sachverhalten auf.
+  Die **Prüfung 2015 (40 Punkte)** schließt den Band ab und prüft **dieselbe Frage viermal
+  nebeneinander**: Ab welcher Quote ist eine Ausschüttung begünstigt? Die Antwort fällt jedes
+  Mal anders aus, weil § 8b Abs. 4 KStG (**10 %**) und § 9 Nr. 2a GewStG (**15 %**)
+  verschiedene Maßstäbe anlegen und Beteiligungen nach verschiedenen Regeln zusammenrechnen.
+  Bei der B-GmbH erreichen 8 % unmittelbar plus 8 % über die Mitunternehmerschaft in beiden
+  Vorschriften die Grenze – geprüft **bei der KG** aber nicht, weshalb dort nach § 8 Nr. 5
+  GewStG hinzuzurechnen ist. Bei der S-GmbH rettet die Rückbeziehung des § 8b Abs. 4 Satz 6
+  KStG einen Erwerb vom November. Und bei der O-AG kippt der Fall vollständig: Die im Wege der
+  **Wertpapierleihe** gehaltenen Aktien sind für § 8b Abs. 4 Satz 3 KStG dem Verleiher
+  zuzurechnen (Quote 0 %, Dividende voll steuerpflichtig), während es im GewStG keine
+  vergleichbare Regelung gibt und dieselbe Dividende über § 9 Nr. 2a GewStG wieder gekürzt
+  wird – gemindert nur um die Leihgebühr. Für die **Eigentumsfrage** ist die Entleiherin
+  dagegen nach § 39 Abs. 1 AO Eigentümerin. Dazu drei verschiedene Zeitbezüge in einer Aufgabe
+  (abweichendes Wirtschaftsjahr, Gewinnanteil der KG, Stichtag des Erhebungszeitraums) und die
+  Stadt Köln, die mit der Leihgebühr aus ihrem **Hoheitsvermögen** beschränkt steuerpflichtig
+  wird und deren Steuer der Abzug nach § 32 KStG abgilt. **Sachverhalt 2** handelt vom Erwerb
+  eigener Anteile zum überhöhten Preis – **ein Vorgang, zwei Qualifikationen**: bei der
+  Gesellschaft wie eine Nennkapitalherabsetzung (§ 28 Abs. 2 KStG entsprechend), bei der
+  Gesellschafterin als Veräußerung nach § 17 EStG; der überhöhte Teil von 10.000 € ist bei
+  beiden eine verdeckte Gewinnausschüttung. Der ausschüttbare Gewinn ist dabei aus der
+  Schlussbilanz **zurückzurechnen** (445.000 € steuerliches Eigenkapital, 125.000 €
+  ausschüttbarer Gewinn), und weil die Leistungen von 45.000 € darunter bleiben, bleibt das
+  Einlagekonto unverändert. Auch hier ist die Abweichung der Randpunkte (39 gegen 40 im Kopf)
+  als **eigene Feststellung** gekennzeichnet. **Damit ist die KSt-Datei vollständig
+  ausgewertet.**
   Prüfung: `npm run check:k2-kst-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

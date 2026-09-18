@@ -7925,3 +7925,102 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Sachverhalt 2 „gem. § 15 S. 1 Nr. 2 S. 2 GewStG“ statt KStG, „§ 9 Nr. 2a S. 4 KStG“ statt
   GewStG, „bereits den Gewinn aus Gewerbetrieb gemindert“ ohne „hat“, „Gewerbetrieb“ ohne b
   und „vortragfähiger Gewerbeverlust“ ohne s.
+
+## Originalklausuren der Steuerberaterprüfung – Körperschaftsteuer, Prüfung 2015
+
+- Quelle: dieselbe Datei (`1M69J_ZCoqrXeBtX-OD83FYkJgiAksMWb`), fünfte und letzte Klausur.
+- Einpflege dieses Durchgangs: die **Prüfung 2015** mit ihren beiden Sachverhalten in einem
+  Eintrag, weil die Quelle die 40 Punkte hier nicht auf die Sachverhalte aufteilt; der
+  Datensatz umfasst jetzt 6 Einträge, 468 Blöcke, 42 Tabellen und 191 Punkte; Prüfung
+  `npm run check:k2-kst-originalklausuren`. **Damit ist die KSt-Datei vollständig
+  ausgewertet.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Sachverhalt 1 prüft dieselbe Frage viermal nebeneinander:** Ab welcher Quote ist eine
+  Ausschüttung begünstigt? Körperschaftsteuerlich gilt § 8b Abs. 4 KStG mit **10 %**,
+  gewerbesteuerlich § 9 Nr. 2a GewStG mit **15 %** – und beide rechnen Beteiligungen nach
+  verschiedenen Regeln zusammen.
+
+  | Beteiligung | § 8b Abs. 4 KStG (10 %) | § 9 Nr. 2a GewStG (15 %) |
+  | --- | --- | --- |
+  | B-GmbH: 8 % unmittelbar + 8 % über die G-KG | **erfüllt** – die über die Mitunternehmerschaft gehaltenen Anteile gelten nach Abs. 4 Sätze 4 und 5 als unmittelbare Beteiligung, zusammen 16 % | **erfüllt** – jedwede Form der Beteiligung genügt (R 9.3 Satz 1 GewStR; BFH vom 17.05.2000), zusammen 16 % |
+  | dieselbe Beteiligung, geprüft **bei der G-KG** | über § 7 Satz 4 GewStG erfüllt, weil die Ausschüttung ganz auf die A-GmbH entfällt | **nicht** erfüllt – die KG hält nur 8 %, und der unmittelbare Anteil der A-GmbH gehört nicht zu ihrem Betriebsvermögen → Hinzurechnung nach § 8 Nr. 5 GewStG |
+  | S-GmbH: 17 %, erworben am 06.11.2024 | **erfüllt** – der Erwerb gilt nach Abs. 4 Satz 6 als zu Beginn des Jahres 2024 erfolgt; maßgebend ist 2024, weil die Ausschüttung 2024 erfolgte | **erfüllt** – am 01.01.2025 waren 17 % vorhanden |
+  | O-AG: 20 %, im Wege der Wertpapierleihe | **nicht** erfüllt – die Aktien sind nach Abs. 4 Satz 3 dem Verleiher zuzurechnen, Quote 0 % → Dividende von 200.000 € **voll steuerpflichtig** | **erfüllt** – eine dem § 8b Abs. 4 Satz 3 KStG vergleichbare Regelung gibt es im GewStG **nicht** → volle Kürzung |
+
+  **Die Wertpapierleihe ist die schärfste Stelle:** Für die **Eigentumsfrage** ist die
+  Entleiherin nach § 39 Abs. 1 AO Eigentümerin (sie darf frei verfügen und das Stimmrecht
+  ausüben; für wirtschaftliches Eigentum der Stadt ist kein Raum), und die Dividende ist
+  zu Recht bei ihr erfasst. Für die **Beteiligungsgrenze** rechnet § 8b Abs. 4 Satz 3 KStG
+  die Aktien dagegen dem Verleiher zu. Gewerbesteuerlich fehlt diese Rückrechnung, sodass
+  dieselbe Dividende über § 9 Nr. 2a GewStG wieder gekürzt wird – gemindert nach Satz 3 nur
+  um die Leihgebühr von 100.000 €, sodass 100.000 € Kürzungsbetrag verbleiben.
+
+  **Drei verschiedene Zeitbezüge in einer Aufgabe:** Der Gewinn des Wirtschaftsjahres
+  2024/2025 gilt nach § 7 Abs. 4 Satz 2 KStG (und § 10 Abs. 2 GewStG) im Kalenderjahr **2025**
+  als bezogen; der Gewinnanteil aus der Mitunternehmerschaft gehört in das Wirtschaftsjahr der
+  Gesellschafterin, in dem das Wirtschaftsjahr der KG **endet** (also der KG-Gewinn 2024 von
+  100.000 €, nicht der von 2025); und für § 9 Nr. 2a GewStG ist nach § 14 Satz 2 GewStG stets
+  auf den **1. Januar des Kalenderjahres** abzustellen, ungeachtet des abweichenden
+  Wirtschaftsjahres.
+
+  | Ergebnisse Sachverhalt 1 | Betrag |
+  | --- | --- |
+  | Gewerbesteuermessbetrag der G-KG | **6.142 €** |
+  | Zu versteuerndes Einkommen der A-GmbH (200.000 + 100.000 ./. 7.600 ./. 14.250) | **278.150 €** |
+  | Gewerbesteuermessbetrag der A-GmbH (278.150 ./. 100.000 ./. 100.000 = 78.150 → 78.100 × 3,5 %) | **2.733 €** |
+  | Stadt Köln: Steuerabzug 15 % von 100.000 € zzgl. 825 € SolZ, nach § 32 Abs. 1 Nr. 2 KStG abgegolten | 15.000 € |
+
+  Bemerkenswert an der Stadt Köln: Unbeschränkt steuerpflichtig wäre sie nur mit einem Betrieb
+  gewerblicher Art – die Forderung aus der Wertpapierleihe gehört aber zum **Hoheitsvermögen**.
+  Über § 2 Nr. 2 Halbsatz 2 Buchst. a KStG sind die Einkünfte gleichwohl inländische Einkünfte
+  und unterliegen dem Steuerabzug nach § 32 Abs. 3 KStG.
+
+  **Sachverhalt 2: ein Vorgang, zwei Qualifikationen.** Der Erwerb eigener Anteile ist bei der
+  **Gesellschaft** wie eine Herabsetzung des Nennkapitals zu behandeln (§ 28 Abs. 2 KStG
+  entsprechend), bei der **Gesellschafterin** dagegen als Veräußerung nach § 17 EStG – beide
+  Sichtweisen stehen ausdrücklich nebeneinander (BMF vom 27.11.2013, Rn. 9 und 20). Der
+  überhöhte Teil des Kaufpreises (50.000 ./. 40.000 = 10.000 €) ist bei beiden eine verdeckte
+  Gewinnausschüttung.
+
+  **Der ausschüttbare Gewinn ist aus der Schlussbilanz zurückzurechnen**, weil der maßgebende
+  Bestand der zum 31.12.2024 ist, die Bilanz aber den 31.12.2025 zeigt:
+
+  | Ermittlung zum 31.12.2024 | Betrag |
+  | --- | --- |
+  | Gezeichnetes Kapital | 100.000 € |
+  | Kapitalrücklage (180.000 € **zzgl.** Abgang aus dem Erwerb eigener Anteile 35.000 €) | + 215.000 € |
+  | Gewinnrücklage (130.000 € **abzgl.** Zuführung des Gewinns 2024 von 40.000 €) | + 90.000 € |
+  | Gewinn 2024 | + 40.000 € |
+  | Steuerliches Eigenkapital | **445.000 €** |
+  | ./. gezeichnetes Kapital und Einlagekonto (100.000 + 220.000) | - 320.000 € |
+  | **Ausschüttbarer Gewinn** | **125.000 €** |
+
+  Die Leistungen i. S. d. § 27 Abs. 1 Satz 3 KStG betragen 45.000 € (10.000 € vGA plus
+  35.000 € Kaufpreis über dem Nennbetrag) und bleiben darunter – das Einlagekonto wird
+  **nicht** gemindert. Zugang und Abgang von je 5.000 € aus der Nennkapitalbewegung heben
+  sich auf, der Bestand bleibt bei 220.000 €. Zu versteuerndes Einkommen der Gesellschaft:
+  60.000 € + 10.000 € = **70.000 €**.
+
+  Bei der Gesellschafterin wird mit dem **fremdüblichen** Preis von 40.000 € gerechnet, nicht
+  mit den gezahlten 50.000 €: Veräußerungsgewinn nach Teileinkünfteverfahren 24.000 € ./.
+  9.000 € = **15.000 €**; der Freibetrag des § 17 Abs. 3 EStG ist doppelt zu quoteln (453 €
+  gegen einen Kürzungsbetrag von 1.805 €) und entfällt vollständig. Die vGA von 10.000 € ist
+  zu 40 % steuerfrei – aber nur, weil der Antrag nach § 32d Abs. 2 Nr. 3 EStG gestellt ist;
+  ohne ihn sperrt § 3 Nr. 40 Satz 2 EStG das Teileinkünfteverfahren.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.**
+
+  **Eine Abweichung bei der Punktvergabe – eigene Feststellung:** Der Kopf nennt **40
+  Punkte**, die Auszählung der Randpunkte ergibt **39**. Im Datensatz sind 39 Punkte vergeben
+  und als Gesamtpunktzahl die 40 des Kopfes ausgewiesen.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „so dass die
+  Voraussetzung des § 9 Nr. 2a Satz 1 GewStG erfüllt sind“; „im unmittelbaren Zusammenhang
+  mit der zu kürzende Gewinnausschüttung“; „Da die Dividende … in der Ausgangsgröße … ist“
+  ohne „enthalten“; „des 5%-igen Geschäftsanteil“; „der auf den überhöhten Kaufpreis
+  entfallenen Nebenkosten“.
+
+  **Stand der Reihe:** Von den fünf Klausuren dieses Bandes gehen Kopfangabe und Auszählung
+  der Randpunkte nur bei der Klausur 2014 auf; 2011 (36 gegen 35) und 2012 (42 gegen 40)
+  weichen nach oben ab, 2013 (32 gegen 33) und 2015 (39 gegen 40) nach unten.
