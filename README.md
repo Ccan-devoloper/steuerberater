@@ -2258,6 +2258,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   durchgeprüft ist. Einzige Ausnahme ist die **Übersicht Verschulden § 110 Abs. 1 AO** auf
   Seite 8, die den Fall 9 selbst auflöst und mit ihren acht Gegensatzpaaren vollständig
   übernommen ist. Prüfung: `npm run check:k1-ao-unterlage-mirbach`
+- **Fallsammlung ErbSt/BewR (Mirbach)** (Klausur 1, Reiter Erbschaftsteuer → „Fallsammlung
+  (Mirbach)“): die **unterrichtsbegleitende Fallsammlung Erbschaftsteuer/Bewertungsrecht von
+  Dr. Christian Mirbach** (Version 1.1, Examen 2026/2027) im Wortlaut – fünf Kapitel mit
+  112 Abschnitten und 3 Tabellen, **31 Fälle** nebst den Abwandlungen zu den Fällen 10, 12 und
+  28. Geordnet nach dem Prüfungsschema: steuerpflichtiger Vorgang und persönliche Steuerpflicht
+  (Fälle 1 bis 8, darunter der Inlandsvermögenskatalog an einem Nachlass aus acht Positionen
+  vom Supermarkt auf Mallorca bis zum partiarischen Darlehen an ein Berliner Start-up);
+  Nacherbfolge, mittelbare Grundstücksschenkung, Konfusion, schwebendes Geschäft und der
+  vollständig durchzurechnende Nachlass mit Bestattungskosten, Grabpflege und Spielschulden
+  (9 bis 15); zehn Bewertungsfälle zu Kapitalforderungen und Renten bis hin zur verbundenen
+  Leibrente mit Mindest- und Höchstlaufzeit (16 bis 25); drei Grundbesitzfälle, darunter ein
+  Mehrfamilienhaus, bei dem jede Etage eine andere Frage aufwirft – Werbefläche an der Fassade,
+  Leerstand wegen Feuchtigkeitsschäden, verbilligte Vermietung an den Sohn – und ein
+  Einfamilienhaus mit drei Erbbaurechts-Abwandlungen (26 bis 28); sowie drei Fälle zur
+  Anteilsbewertung: Substanzwert mit Dreijahresrechnung, Bilanz ohne Zwischenabschluss und
+  Zwischenabschluss auf den Stichtag (29 bis 31).
+  **Die Quelle enthält zu keinem der 31 Fälle eine Lösung** – sie ist eine Arbeitsunterlage, in
+  der hinter jedem Fall nur die Frage steht. Es wird hier keine erfunden; jedes Kapitel sagt das
+  offen und verweist auf die Stellen im Campus, an denen dieselbe Rechtsfrage vollständig
+  durchgerechnet ist. Die beiden handschriftlichen Lösungsblätter aus demselben Drive-Ordner
+  sind nicht maschinenlesbar und stehen in `docs/offene-quellen.md`, Abschnitt A.
+  Prüfung: `npm run check:k1-erbst-fallsammlung-mirbach`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.

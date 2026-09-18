@@ -17,6 +17,7 @@ import{erbstBewertungTeil2}from"../data/k1-erbst-bewertung-teil2.js";
 import{erbstVerschonung,erbstVerschonungQuelle}from"../data/k1-erbst-verschonung.js";
 const BEWERTUNGSSKRIPT=[...erbstBewertungTeil1,...erbstBewertungTeil2,...erbstBewertungTeil3];
 import KurzskriptBloecke from"./KurzskriptBloecke";
+import{erbstFallsammlungMirbach,erbstFallsammlungMirbachQuelle}from"../data/k1-erbst-fallsammlung-mirbach.js";
 import K1ErbStPruefschemaV3 from"./K1ErbStPruefschemaV3";import K1ErbStSchemaAlleV3 from"./K1ErbStSchemaAlleV3";
 import{ErbStNormkette,ErbStSchemaVerweise,ErbStVerlinkterText}from"./K1ErbStSchemaLinks";
 import Klausurmodus,{IconKlausur}from"./Klausurmodus";import{IconCockpit,IconModule,IconFaelle,IconSchema,IconHaken,IconTraining}from"./Icons";
@@ -31,7 +32,7 @@ const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o]))),oberVon=m=>O
 /* Der Erbschaftsteuer-/Bewertungsteil der Übungsklausur AO/USt/ErbSt/BewR 1
    liegt im gemeinsamen Klausurbestand der Übungsklausuren. */
 const ERBST_UEBUNGSKLAUSUR=estKlausuren.filter(eintrag=>eintrag.fach==="erbst");
-const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["originalklausuren","Originalklausuren (Prüfung)",IconKlausur],["pruefungsklausuren","Prüfungsklausuren im Original",IconKlausur],["bewertungsskript","Bewertungsrecht (Schäfer)",IconModule],["verschonungsskript","Verschonung & Steuerberechnung (Schäfer)",IconModule],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
+const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["fallsammlung-mirbach","Fallsammlung (Mirbach)",IconFaelle],["originalklausuren","Originalklausuren (Prüfung)",IconKlausur],["pruefungsklausuren","Prüfungsklausuren im Original",IconKlausur],["bewertungsskript","Bewertungsrecht (Schäfer)",IconModule],["verschonungsskript","Verschonung & Steuerberechnung (Schäfer)",IconModule],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
 const seitenLabel=(seiten=[])=>{if(!seiten.length)return"–";const s=[...seiten].sort((a,b)=>a-b),out=[];let a=s[0],b=s[0];for(let i=1;i<=s.length;i++){const c=s[i];if(c===b+1){b=c;continue}out.push(a===b?`${a}`:`${a}–${b}`);a=c;b=c}return out.join(", ")};
 const fallLabel=m=>m.caseNo||m.title.match(/Fall\s+(\d+)/i)?.[1]||m.id;
 function Tz({nummer,label,titel,art,children}){return <section className={`tz${art?` tz--${art}`:""}`}><div className="tz__no"><b>Tz. {nummer}</b>{label}</div><div className="tz__body">{titel&&<h2 className="tz__titel">{titel}</h2>}{children}</div></section>}
@@ -83,6 +84,18 @@ export default function K1ErbStCampusV3({onKlausurwechsel,onFachwechsel}){const 
       gruppeAria="Teile"
       gruppeAlle="Alle Teile"
       suchePlatzhalter="Norm, Stichwort oder Betrag"
+    />;if(entry.ansicht==="fallsammlung-mirbach")return <KurzskriptBloecke
+      kicker="Klausur 1 · Erbschaftsteuer/Bewertung · Fallsammlung"
+      titel="Fallsammlung ErbSt/BewR (Mirbach)"
+      lead="Die unterrichtsbegleitende Fallsammlung von Dr. Christian Mirbach (Version 1.1, Examen 2026/2027) im Wortlaut: 31 Fälle mit den Abwandlungen zu den Fällen 10, 12 und 28, geordnet nach dem Prüfungsschema des ErbStG – steuerpflichtiger Vorgang und persönliche Steuerpflicht (1 bis 8), Nacherbfolge, Vorschenkung und Wert des steuerpflichtigen Erwerbs (9 bis 15), Kapitalforderungen und Renten (16 bis 25), Grundbesitzbewertung mit drei Erbbaurechts-Abwandlungen (26 bis 28) und Anteilsbewertung (29 bis 31). Die Fälle sind bewusst kurz – drei bis zehn Zeilen Sachverhalt, eine Frage –, was sie zum Trainingsmaterial für den schnellen Durchgang macht. **Die Quelle enthält keine Lösungen**; es wird hier keine erfunden. Jedes Kapitel sagt das offen und verweist auf die Stellen im Campus, an denen dieselbe Rechtsfrage vollständig durchgerechnet ist – die Fallsammlung und die Bewertungsstrecke von Schäfer, die Hausaufgaben und die Originalklausuren."
+      quelle={erbstFallsammlungMirbachQuelle}
+      kapitel={erbstFallsammlungMirbach}
+      karteKicker={(k)=>k.gruppe}
+      gruppeVon={(k)=>k.gruppe}
+      gruppeLabel={(k)=>k.gruppe}
+      gruppeAria="Fallgruppen"
+      gruppeAlle="Alle Fallgruppen"
+      suchePlatzhalter="Norm, Fall oder Stichwort"
     />;if(entry.ansicht==="fallsammlung")return <HausaufgabenBloecke
       kicker="Klausur 1 · Erbschaftsteuer/Bewertung · Fallsammlung"
       titel="ErbSt-Fallsammlung (Schäfer)"

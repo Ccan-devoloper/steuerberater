@@ -10043,3 +10043,71 @@ also im ganzen Campus einheitlich.
 Umwandlungssteuerrecht, Erbschaftsteuer/Bewertungsrecht, Bilanzierung, Internationales
 Steuerrecht, Einkommensteuer, Gewerbesteuer, Originalklausuren und der
 Körperschaftsteuer-Ordner des zweiten Baums.
+
+### Dublettencheck, zweiter Teil: Erbschaftsteuer/Bewertungsrecht – und ein zweiter Mirbach-Bestand
+
+Der ErbSt-Ordner des ersten Baums (`1W4oQOLi9DBC9XVFcijIp1xTDlDZd9F4K`) enthält vier Dateien,
+von denen **keine** mit ihrer ID dokumentiert war. Die Prüfung Datei für Datei:
+
+- **„Unterrichtsbegleitende Fallsammlung ErbSt 2026.pdf“ ist ein vollständig neuer, sauber
+  lesbarer Bestand** – die Fallsammlung Erbschaftsteuer/Bewertungsrecht von Dr. Christian
+  Mirbach, Version 1.1, elf Seiten, 31 Fälle. Sie ist eingepflegt.
+- „26).pdf“ ist **dieselbe Datei ohne Wasserzeichen** – eine echte Dublette, kein neuer Inhalt.
+- „Loesung Fall 9 und 14.pdf“ und „ErbSt Loesung Abw Fall 28.pdf“ sind die **handschriftlichen
+  Lösungen** zu den drei als Hausaufgabe gekennzeichneten Fällen dieser Sammlung. Beide sind
+  technisch nicht verwertbar und stehen jetzt in Abschnitt A – sie wären besonders wertvoll,
+  weil die Fallsammlung selbst zu keinem ihrer Fälle eine Lösung enthält.
+
+### Fallsammlung ErbSt/BewR (Mirbach) – eingepflegt
+
+Eingepflegt als Reiter „Fallsammlung (Mirbach)“ im ErbSt-Campus
+(`src/data/k1-erbst-fallsammlung-mirbach.js`, fünf Kapitel, 112 Abschnitte, 3 Tabellen). Die
+Kapitel folgen den Fallgruppen der Quelle, nicht einer eigenen Ordnung – die Sammlung ist
+bereits nach dem Prüfungsschema des ErbStG aufgebaut.
+
+**Was diese Sammlung von der Fallsammlung Schäfer im selben Campus unterscheidet:** Sie ist
+radikal knapp. Fall 5 besteht aus zwei Zeilen („V stirbt, T ist seine Alleinerbin. Beide sind
+Spanier und leben in Köln. ▷ Persönliche Steuerpflicht?“), Fall 16 aus einer. Dadurch lassen
+sich zwanzig Fälle in einer Stunde durchdenken, ohne Sachverhaltsarbeit. Die Sammlung ist
+Trainingsmaterial für den Einstieg, die Schäfer-Fälle sind das Gegenstück mit vollständiger
+Musterlösung.
+
+Bemerkenswert sind die didaktischen Paare, die die Quelle bildet: Fall 1 und Fall 2
+unterscheiden sich nur darin, wer Versicherungsnehmer der Lebensversicherung ist; Fall 10 und
+seine Abwandlung nur darin, ob das Geld für eine **bestimmte** Wohnung überwiesen wurde – der
+Unterschied zwischen mittelbarer Grundstücksschenkung und Geldschenkung; die Fälle 21 bis 25
+steigern dieselbe Leibrente in fünf Stufen bis zur verbundenen Rente mit Mindest- und
+Höchstlaufzeit. Fall 27 verdient besondere Erwähnung, weil dort jede der fünf Etagen eine
+andere Bewertungsfrage stellt: Werbefläche an der Außenfassade, Leerstand wegen
+Feuchtigkeitsschäden, Vermietung an den Sohn für 400 € neben fremdüblichen 500 € im
+Stockwerk darüber.
+
+**Zwei Tabellen mussten in ihre Spaltenordnung zurückgebracht werden**, und beide haben dabei
+etwas offengelegt:
+
+1. **Die Dreijahresrechnung in Fall 29.** Die Extraktion verliert die Spaltenzuordnung genau
+   dort, wo nicht für jedes Jahr ein Wert steht – beim Gewinn aus dem Maschinenverkauf und bei
+   der degressiven Lkw-AfA. Die Zuordnung ist hier **aus den Summen der Quelle zurückgerechnet**
+   und damit belegt, nicht geraten: Für 2022 ergeben Rohertrag, beide Dividenden und die
+   sonstigen Erträge exakt die ausgewiesenen 4.459.000 €, für 2024 exakt 4.649.000 €; für 2023
+   ergeben dieselben Positionen 5.237.000 €, während die Quelle 5.357.000 € ausweist – die
+   Differenz von genau 120.000 € ist der Maschinenverkauf. Er gehört also zu 2023. Die
+   degressive Lkw-AfA gehört entsprechend zu 2023 und 2024, was auch zur Anschaffung im
+   September 2023 passt.
+2. **Eigene Feststellung – die Zwischensummen gehen nicht auf.** Rechnet man die Aufwandsseite
+   des Falls 29 durch, weichen alle drei Zwischensummen von den ausgewiesenen Beträgen ab: um
+   30.000 € (2022), 10.000 € (2023) und 1.000 € (2024). Ob einzelne Ziffern der Textextraktion
+   verlorengegangen sind – „230.000“ gegenüber „260.000“ wäre eine klassische Verwechslung –
+   oder ob die Quelle selbst nicht aufgeht, lässt sich nicht entscheiden. Deshalb steht die
+   Tabelle unverändert, und ein Block unter ihr benennt die Abweichungen. Für die Aufgabe sind
+   ohnehin die Zwischensummen maßgeblich, wie die Quelle sie ausweist.
+3. **Eigene Feststellung – die Bilanz in Fall 30 ist auf der Aktivseite 100.000 € zu hoch.**
+   Die Passivseite ergibt mit 1.341.500 + 250.000 + 20.000 + 300.000 + 25.000 + 50.000 exakt
+   die ausgewiesenen 1.986.500 €. Die Aktivseite ergibt dagegen 200.000 + 487.500 + 40.000 +
+   120.000 + 119.000 + 1.120.000 = **2.086.500 €**. Eine Bilanz, deren Seiten nicht
+   übereinstimmen, ist ein Befund, der benannt gehört – auch hier stehen die Positionen
+   unverändert so, wie die Quelle sie ausweist.
+
+**Noch offen im Dublettencheck** sind Umsatzsteuer, Umwandlungssteuerrecht, Bilanzierung,
+Internationales Steuerrecht, Einkommensteuer, Gewerbesteuer, Originalklausuren und der
+Körperschaftsteuer-Ordner des zweiten Baums.
