@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 24 Kapitel mit 273 Abschnitten und 19
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 25 Kapitel mit 289 Abschnitten und 20
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2531,6 +2531,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   („last in – first out“), was dem Steuerpflichtigen regelmäßig zugutekommt. Vier durchgerechnete
   Fälle zeigen die Varianten; dabei bemisst sich die Fünf-Prozent-Pauschale jeweils nur nach dem
   **steuerfreien** Teil des Gewinns.
+  Zur **Pauschalierung** merkt die Quelle einen Satz mit erheblichen Folgen an: Bei mehreren
+  Veräußerungsgewinnen wird sie auf jeden einzelnen angewandt, **eine Saldierung – auch mit
+  Veräußerungsverlusten – findet nicht statt**. Wer in einem Jahr eine Beteiligung mit 1.000.000 €
+  Gewinn und eine andere mit 1.000.000 € Verlust veräußert, steht also nicht bei null, sondern hat
+  50.000 € nicht abziehbare Betriebsausgaben. Bei **beschränkt Steuerpflichtigen** ohne inländische
+  Betriebsstätte läuft die Pauschale dagegen leer, weil es keine abziehbaren Betriebsausgaben geben
+  konnte – die inländischen Einkünfte betragen dann 0 €. **Gewerbesteuerlich** kommt der Abschnitt
+  mit drei Sätzen aus, wo das Kapitel 2 vier Unterabschnitte brauchte: Freistellung und Pauschale
+  schlagen über § 7 Satz 1 GewStG durch, ein Schachtelprivileg nach § 9 Nr. 2a oder Nr. 7 GewStG
+  gibt es für Veräußerungsgewinne nicht – und es wird auch keines gebraucht, weil kein
+  Hinzurechnungstatbestand die Freistellung zurückholt. Nur die steuerpflichtige Wertaufholung
+  bleibt auf beiden Ebenen steuerpflichtig.
+  **Damit sind die Kapitel 1 bis 3 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

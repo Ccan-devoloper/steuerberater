@@ -10617,8 +10617,40 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 3.4; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Kapitel 4 bis 6; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 3.4 und 3.5 – Pauschalierung und Gewerbesteuer
+
+Quelle: dieselbe Datei; übernommen als Kapitel 25. Prüfung: `npm run check:k2-kst-teil2`
+(25 Kapitel, 289 Blöcke, 20 Tabellen). **Damit sind die Kapitel 1 bis 3 der Quelle vollständig.**
+
+**Ein Satz der Quelle mit erheblichen Folgen**, den der Datensatz eigens ausführt: Bei mehreren
+Veräußerungsgewinnen wird die Pauschale auf jeden einzelnen angewandt, **eine Saldierung – auch
+mit Veräußerungsverlusten – findet nicht statt**. Wer in einem Jahr eine Beteiligung mit
+1.000.000 € Gewinn und eine andere mit 1.000.000 € Verlust veräußert, steht deshalb nicht bei
+null: Der Gewinn ist steuerfrei und löst 50.000 € nicht abziehbare Betriebsausgaben aus, der
+Verlust ist nach § 8b Abs. 3 Satz 3 KStG ohnehin nicht abziehbar, und beide Vorgänge werden nicht
+gegeneinander gerechnet. Das Einkommen erhöht sich um 50.000 €, obwohl wirtschaftlich nichts
+verdient wurde.
+
+**Zur doppelten Wirkung der Veräußerungskosten** stellt der Datensatz klar, was die Quelle nur
+andeutet, wenn sie das „Nebeneinander“ für rechtlich unbedenklich erklärt: Die Veräußerungskosten
+sind faktisch nicht abziehbar, weil sie im steuerfreien Gewinn aufgehen – zugleich mindern sie
+aber die Bemessungsgrundlage der Pauschale, was den Steuerpflichtigen begünstigt. Der Nachteil
+liegt allein im fehlenden Abzug.
+
+**Der Abschnitt 3.5 kommt mit drei Sätzen aus, wo das Kapitel 2 vier Unterabschnitte brauchte**,
+und dieser Unterschied ist erklärungsbedürftig. Der Datensatz stellt beide Kapitel in einer als
+eigene Ergänzung gekennzeichneten Tabelle gegenüber und benennt den Grund: Für Ausschüttungen hält
+das Gewerbesteuerrecht mit § 9 Nr. 2a, Nr. 7 und Nr. 8 GewStG **eigene** Schachtelprivilegien mit
+abweichenden Voraussetzungen bereit, weshalb die Ebenen auseinanderfallen können und § 8 Nr. 5
+GewStG als Korrektur gebraucht wird. Für Veräußerungsgewinne gibt es nichts dergleichen – die
+Gewerbesteuer folgt der Körperschaftsteuer vollständig, weil die Freistellung schon in der
+Ausgangsgröße steckt und kein Hinzurechnungstatbestand sie zurückholt.
+
+**Eine weitere Eigenheit der Quelle, wortlautgetreu übernommen und gekennzeichnet:** die fehlende
+Ziffer in „§ 49 Abs. 1 Nr. Buchstabe e EStG“.
 
 ### KSt Teil II (Hamacher), Abschnitte 3.2.2.4 bis 3.3 – Sachdividende und Wertaufholung
 

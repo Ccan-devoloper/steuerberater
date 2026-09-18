@@ -14,11 +14,11 @@
    vollständig – vom Begriff der Gewinnausschüttung über das Korrespondenzprinzip,
    die Mindestbeteiligungsquote und die Kapitalertragsteuer bis zur
    Betriebsausgabenpauschalierung und der gesamten gewerbesteuerlichen
-   Behandlung. Aus Kapitel 3 (Veräußerungsgewinne) ist der Grundfall der
-   Veräußerung übernommen (3.1 und 3.2.1), dazu der weite Veräußerungsbegriff bis
-   zur Steuerfreiheit von Wertaufholungen (3.2.2) und die steuerpflichtige
-   Wertaufholung (3.3). Es folgen die Abschnitte 3.4 und 3.5 und die Kapitel 4
-   bis 6; der Campus weist den Stand aus.
+   Behandlung. Auch das Kapitel 3 (Steuerfreiheit von Veräußerungsgewinnen) ist
+   vollständig – vom Grundfall der Veräußerung über den weiten
+   Veräußerungsbegriff und die Wertaufholung bis zur Betriebsausgabenpauschalierung
+   und den gewerbesteuerlichen Auswirkungen. Es folgen die Kapitel 4 bis 6; der
+   Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -908,6 +908,51 @@ export const kstTeil2 = [
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet die vier Fälle der Quelle nach demselben Schema, weil sie alle dieselbe Prüfung in Varianten zeigen. Zwei Beobachtungen sind dabei festzuhalten. Erstens bemisst sich die **Pauschale nur nach dem steuerfreien Teil** des Gewinns – in den Beispielen 1 und 2 also nach 10.000 € und nicht nach dem vollen Veräußerungsgewinn. Das ist folgerichtig, weil § 8b Abs. 3 Satz 1 KStG an den nach Absatz 2 steuerfreien Betrag anknüpft, verlangt aber Aufmerksamkeit. Zweitens zeigt der dritte Fall, dass die Steuerpflicht nach Satz 4 auch dann greift, wenn der Gewinn erst über eine verdeckte Gewinnausschüttung entsteht – die Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG und die Versagung der Freistellung nach § 8b Abs. 2 Satz 4 KStG treffen zusammen." },
       { text: "Anmerkung zum „last in – first out“-Prinzip (eigene Ergänzung): Die Quelle vermerkt ausdrücklich, dass der BFH hier **entgegen der Verwaltungsauffassung** entschieden hat. Das Ergebnis ist für den Steuerpflichtigen regelmäßig günstig: Weil die jüngere – nach neuem Recht steuerneutrale – Abschreibung zuerst aufgeholt wird, bleibt der entsprechende Teil des Gewinns steuerfrei, und die alte, steuerwirksame Abschreibung wird erst danach angetastet. Entscheidend ist allein die zeitliche Reihenfolge, nicht die steuerliche Wirkung; das sagt die Quelle eigens, weil man intuitiv das Gegenteil erwarten könnte. Rechenprobe zum Beispiel: Veräußerungspreis 80.000 € ./. Buchwert 30.000 € = 50.000 €; davon entfallen 20.000 € auf die Abschreibung von 2002 (steuerfrei) und 30.000 € auf die von 1999 (steuerpflichtig)." },
+    ],
+  },
+  {
+    id: "kst-t2-25",
+    kapitel: "25",
+    abschnittNr: "3.4 und 3.5",
+    title: "3.4 Betriebsausgabenabzug bei steuerfreien Veräußerungsgewinnen – 3.5 Gewerbesteuerliche Auswirkungen",
+    thema: "Auch der Veräußerungsgewinn löst die Fünf-Prozent-Pauschale aus, bemessen nach dem Gewinn *nach* Abzug der Veräußerungskosten und ohne Saldierung mehrerer Vorgänge. Gewerbesteuerlich schlägt die Freistellung unmittelbar durch – ein Schachtelprivileg gibt es hier nicht, es wird auch keines gebraucht",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 3.4 und 3.5 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 2 Nr. 1 KStG", "§ 8 Abs. 1 Satz 1 KStG",
+      "§ 8b Abs. 2 Satz 1 KStG", "§ 8b Abs. 2 Satz 2 KStG", "§ 8b Abs. 2 Satz 3 KStG",
+      "§ 8b Abs. 2 Satz 4 und Satz 5 KStG", "§ 8b Abs. 2 Satz 6 KStG",
+      "§ 8b Abs. 3 Satz 1 KStG", "§ 8b Abs. 3 Satz 3 KStG",
+      "§ 17 EStG", "§ 17 Abs. 2 EStG",
+      "§ 49 Abs. 1 Nr. 2 Buchstabe a EStG", "§ 49 Abs. 1 Nr. 2 Buchstabe e EStG",
+      "§ 7 Satz 1 GewStG", "§ 9 Nr. 2a GewStG", "§ 9 Nr. 7 GewStG",
+      "BFH vom 12.03.2014, BStBl. II 2014, 719",
+    ],
+    themen: ["Betriebsausgabenpauschalierung", "Keine Saldierung", "Beschränkt Steuerpflichtige", "Leerlauf der Pauschale", "Gewerbesteuer", "Kein Schachtelprivileg"],
+    bloecke: [
+      { typ: "titel", text: "3.4.1 Betriebsausgabenpauschalierung" },
+      { text: "Der nach § 8b Abs. 2 KStG steuerfreie Veräußerungsgewinn führt ebenfalls zu einer 5%igen Betriebsausgabenpauschalierung (§ 8b Abs. 3 Satz 1 KStG). Bemessungsgrundlage ist dafür der nach § 8b Abs. 2 Satz 2 KStG ermittelte steuerfreie Gewinn, d. h. die Veräußerungskosten mindern diese Bemessungsgrundlage entsprechend. Das Nebeneinander des faktischen Abzugsverbotes der Veräußerungskosten im Rahmen des § 8b Abs. 2 Satz 2 KStG sowie die sich anschließende Betriebsausgabenpauschalierung ist rechtlich nicht zu beanstanden. Entstehen in einem Veranlagungszeitraum mehrere Veräußerungsgewinne, wird die Betriebsausgabenpauschalierung auf jeden einzelnen Veräußerungsgewinn angewendet. Eine Saldierung, auch mit etwaigen Veräußerungsverlusten, ist nicht vorzunehmen." },
+      { text: "Der Pauschalierung unterliegen sämtliche Vorgänge i. S. des § 8b Abs. 2 Satz 1, Satz 3 und Satz 6 KStG. Dazu gehört z. B. auch die steuerfreie Wertaufholung i. S. des § 8b Abs. 2 Satz 3 KStG, auch wenn diese lediglich eine steuerlich nicht abziehbare Gewinnminderung i. S. des § 8b Abs. 3 Satz 3 KStG ausgleicht." },
+      { text: "Merke: Jeder steuerfreie Veräußerungsgewinn i. S. des § 8b Abs. 2 KStG löst gleichzeitig die Betriebsausgabenpauschalierung des § 8b Abs. 3 Satz 1 KStG aus." },
+      { text: "Anmerkung zum Verbot der Saldierung (eigene Ergänzung): Der Satz ist kurz und hat erhebliche Folgen. Wer in einem Jahr eine Beteiligung mit 1.000.000 € Gewinn und eine andere mit 1.000.000 € Verlust veräußert, steht nicht bei null: Der Gewinn ist steuerfrei und löst 50.000 € nicht abziehbare Betriebsausgaben aus, der Verlust ist nach § 8b Abs. 3 Satz 3 KStG ohnehin nicht abziehbar – und beide Vorgänge werden **nicht** gegeneinander gerechnet. Im Ergebnis erhöht sich das Einkommen um 50.000 €, obwohl wirtschaftlich nichts verdient wurde. Die Pauschale knüpft an jeden einzelnen Veräußerungsgewinn an, nicht an das Jahresergebnis aus Beteiligungen." },
+      { text: "Anmerkung zur doppelten Wirkung der Veräußerungskosten (eigene Ergänzung): Die Quelle vermerkt, das „Nebeneinander“ sei rechtlich nicht zu beanstanden, und der BFH hat das bestätigt. Gemeint ist Folgendes: Die Veräußerungskosten wirken sich zweimal zulasten des Steuerpflichtigen aus – sie sind faktisch nicht abziehbar, weil sie im steuerfreien Gewinn aufgehen, und sie mindern zugleich die Bemessungsgrundlage der Pauschale, was ihn allerdings begünstigt. Unter dem Strich bleibt die Pauschale also niedriger, als sie ohne Veräußerungskosten wäre; der Nachteil liegt allein im fehlenden Abzug." },
+      { typ: "titel", text: "3.4.2 Anwendung bei beschränkt Steuerpflichtigen" },
+      { text: "Die Betriebsausgabenpauschalierung kommt auch bei einer Anteilsveräußerung durch eine beschränkt steuerpflichtige Kapitalgesellschaft i. S. des § 2 Nr. 1 KStG zur Anwendung, wenn die Veräußerung im Rahmen einer inländischen Betriebsstätte (inländische Einkünfte i. S. des § 49 Abs. 1 Nr. 2 Buchstabe a EStG) erfolgt." },
+      { text: "Anders ist dies hingegen in den Fällen, in denen es sich lediglich um Einkünfte i. S. des § 17 EStG (aufgrund § 49 Abs. 1 Nr. 2 Buchstabe e EStG) handelt, weil in dieser Situation mangels inländischer Betriebsstätte auch keine weiteren Betriebsausgaben angefallen sein können. Die punktuelle Gewinnermittlung i. S. des § 17 Abs. 2 EStG reicht hierfür nicht aus, weil in dieser lediglich die Veräußerungskosten erfasst werden, welche durch § 8b Abs. 2 Satz 2 KStG bereits in voller Höhe eliminiert werden. Die Betriebsausgabenpauschalierung kommt danach nicht zur Anwendung, so dass die inländischen Einkünfte 0 € betragen. Dies gilt aber nur in den Fällen, in denen an den inländischen Einkünften ein deutsches Besteuerungsrecht besteht." },
+      { text: "Beispiel: Die in Brasilien ansässige Dante-Ltda (kein DBA-Staat) ist zu 10 % an der in Deutschland ansässigen X-GmbH beteiligt. In 2026 veräußert der Anteilseigner seine Beteiligung und erzielt daraus einen Gewinn i. H. von 500.000 €." },
+      { text: "Lösung: Die Dante-Ltda erzielt in 2026 aus der Anteilsveräußerung inländische Einkünfte im Rahmen des § 17 EStG (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 49 Abs. 1 Nr. Buchstabe e EStG), welche im Rahmen der beschränkten Steuerpflicht i. S. des § 2 Nr. 1 KStG erfasst werden. Der Gewinn von 500.000 € ist nach § 8b Abs. 2 Satz 1 KStG steuerfrei. Zur Anwendung der Betriebsausgabenpauschalierung i. S. des § 8b Abs. 3 KStG kommt es aber nicht. Denn mangels weiterer Betriebsausgaben, die in Deutschland bisher auch nicht abgezogen werden konnten, läuft die Wirkung der Betriebsausgabenpauschalierung in diesem Falle leer. (Die fehlende Ziffer 2 in „§ 49 Abs. 1 Nr. Buchstabe e EStG“ steht so in der Quelle.)" },
+      { text: "Anmerkung zum Zusammenhang (eigene Ergänzung): Dieser Abschnitt greift den Fall auf, den die Quelle schon im Abschnitt 1.2.2 unter Berufung auf das BFH-Urteil vom 31.05.2017 gelöst hatte – hier wird er nur an der systematisch richtigen Stelle wiederholt und begründet. Die Begründung ist bemerkenswert schlicht: Eine Pauschale für nicht abziehbare Betriebsausgaben setzt voraus, dass es überhaupt abziehbare geben konnte. Wo im Inland nur ein punktueller Veräußerungsgewinn nach § 17 EStG erfasst wird, gibt es keine laufenden Betriebsausgaben, die pauschal versagt werden könnten." },
+      { typ: "titel", text: "3.5 Gewerbesteuerliche Auswirkungen" },
+      { text: "Die Steuerbefreiung des § 8b Abs. 2 KStG sowie die Betriebsausgabenpauschalierung i. S. des § 8b Abs. 3 Satz 1 KStG greifen auch auf die Ausgangsgröße i. S. des § 7 Satz 1 GewStG durch. § 9 Nr. 2a bzw. Nr. 7 GewStG sind auf Veräußerungsgewinne nicht anwendbar. In Fällen des § 8b Abs. 2 Satz 4 und Satz 5 KStG ist der Veräußerungsgewinn hingegen in voller Höhe gewerbesteuerpflichtig." },
+      { typ: "tabelle", spalten: ["Merkmal", "Gewinnausschüttung (Kapitel 2)", "Veräußerungsgewinn (Kapitel 3)"], zeilen: [
+        ["Mindestbeteiligungsquote", "10 % nach § 8b Abs. 4 KStG", "keine"],
+        ["Pauschale", "5 % nach § 8b Abs. 5 Satz 1 KStG, entfällt bei Streubesitz", "5 % nach § 8b Abs. 3 Satz 1 KStG, bemessen nach dem Gewinn abzüglich Veräußerungskosten"],
+        ["Gewerbesteuerliches Schachtelprivileg", "§ 9 Nr. 2a, Nr. 7, Nr. 8 GewStG", "nicht anwendbar"],
+        ["Hinzurechnung", "§ 8 Nr. 5 GewStG, wenn kein Schachtelprivileg greift", "keine – die Freistellung schlägt über § 7 Satz 1 GewStG durch"],
+        ["Ausnahme", "materielle Korrespondenz (§ 8b Abs. 1 Satz 2 KStG)", "steuerpflichtige Wertaufholung (§ 8b Abs. 2 Sätze 4 und 5 KStG) – dann volle Gewerbesteuerpflicht"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt die beiden Kapitel gegenüber, weil der Abschnitt 3.5 mit drei Sätzen auskommt, wo das Kapitel 2 vier Unterabschnitte brauchte – und dieser Unterschied erklärungsbedürftig ist. Der Grund liegt in der Systematik: Für Ausschüttungen hält das Gewerbesteuerrecht mit § 9 Nr. 2a GewStG **eigene** Schachtelprivilegien mit abweichenden Voraussetzungen bereit, weshalb die Ebenen auseinanderfallen können und § 8 Nr. 5 GewStG als Korrektur gebraucht wird. Für Veräußerungsgewinne gibt es nichts dergleichen – hier folgt die Gewerbesteuer der Körperschaftsteuer vollständig, weil die Freistellung schon in der Ausgangsgröße des § 7 Satz 1 GewStG steckt und kein Hinzurechnungstatbestand sie zurückholt. Die einzige Abweichung ist die steuerpflichtige Wertaufholung nach § 8b Abs. 2 Sätze 4 und 5 KStG, die ohnehin auf beiden Ebenen steuerpflichtig bleibt." },
     ],
   },
 ];
