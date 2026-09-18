@@ -2788,6 +2788,17 @@
       "layout": "erklaer",
       "dauer": 70,
       "veroeffentlicht": "2026-09-18T10:48:00.561Z"
+    },
+    {
+      "datum": "2026-09-18",
+      "art": "story",
+      "slot": "s2",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": "Einspruch: zulässig oder nicht?",
+      "medienId": "17986617768062328",
+      "veroeffentlicht": "2026-09-18T10:48:12.190Z"
     }
   ],
   "fachZaehler": {
