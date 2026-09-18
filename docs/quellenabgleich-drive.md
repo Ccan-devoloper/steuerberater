@@ -7752,3 +7752,93 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   durch die Prämienzahlungen eingetretenen Vermögensminderung stellen“; die Bezeichnung des
   Sohnes als „Geschäftsführer“ des Vereins, obwohl der Sachverhalt ihn als
   Vorstandsvorsitzenden führt; sowie die Schreibweise „.7.500“ im Hinweis zum Bilanzgewinn.
+
+## Originalklausuren der Steuerberaterprüfung – Körperschaftsteuer, Prüfung 2013 (Invest-Deutschland Ltda)
+
+- Quelle: dieselbe Datei (`1M69J_ZCoqrXeBtX-OD83FYkJgiAksMWb`), dritte Klausur.
+- Einpflege dieses Durchgangs: die **Prüfung 2013**; der Datensatz umfasst jetzt
+  3 Klausuren, 263 Blöcke, 18 Tabellen und 108 Punkte; Prüfung
+  `npm run check:k2-kst-originalklausuren`. Offen sind die Prüfungen 2014 und 2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage
+  aus; die Klausur 2013 hat laut Kopf 33 Punkte.
+
+  **Die Klausur steht und fällt mit einem Satz der Lösung:** „Anders als unbeschränkt
+  steuerpflichtige Kapitalgesellschaften, die immer nur gewerbliche Einkünfte gem. § 8 Abs. 2
+  KStG haben, können beschränkt steuerpflichtige Kapitalgesellschaften letztlich **alle
+  Einkunftsarten des EStG** haben.“ Erst dadurch kann dieselbe Gesellschaft nebeneinander
+  Einkünfte aus Kapitalvermögen, gewerbliche Einkünfte kraft Fiktion und gewerbliche Einkünfte
+  nach § 17 EStG haben – mit drei verschiedenen Erhebungsformen.
+
+  **Eine Kapitalherabsetzung, zwei Einkunftsarten.** Die Rückzahlung von 1 Mio. € zerfällt
+  nach § 28 Abs. 2 KStG:
+
+  | Teil | Vorschrift | Folge bei der Gesellschafterin (30 %) |
+  | --- | --- | --- |
+  | 400.000 € verbrauchen den **Sonderausweis** | § 28 Abs. 2 Satz 2 KStG: gilt als Gewinnausschüttung | 120.000 € Einkünfte aus Kapitalvermögen (§ 20 Abs. 1 Satz 1 Nr. 2 EStG, § 49 Abs. 1 Nr. 5 Buchst. a EStG), Kapitalertragsteuer 30.000 € |
+  | 600.000 € laufen über das **Einlagekonto** (Zugang nach Satz 1, sofortige Verwendung nach Satz 3) | § 17 Abs. 4 Satz 1 und 3 EStG | Veräußerungsgewinn 180.000 ./. 100.000 = **80.000 €**, gewerbliche Einkünfte nach § 49 Abs. 1 Nr. 2 Buchst. e Doppelbuchst. aa EStG – **keine** Kapitalertragsteuer |
+
+  Einlagekonto und Sonderausweis stehen am 31.12.2025 beide wieder bei **0 €**.
+
+  **Die fehlende Betriebsstätte wirkt dreimal zugunsten der Gesellschaft:**
+
+  | Wirkung | Grundlage |
+  | --- | --- |
+  | Der steuerfreie Veräußerungsgewinn von 80.000 € bleibt **ohne** die Fünf-Prozent-Pauschale (Ersparnis 4.000 €) | eine bloße Beteiligung vermittelt keine Betriebsstätte i. S. d. § 12 AO, also kann im Inland keine pauschalierte Betriebsausgabe anfallen (BFH, BStBl II 2019, 144) |
+  | Die Kapitalertragsteuer wirkt **abgeltend**, es kommt insoweit zu keiner Veranlagung | § 32 Abs. 1 Nr. 2 KStG – die Einkünfte sind nicht in einer inländischen Betriebsstätte entstanden |
+  | **Keine** Gewerbesteuer, weder auf die fiktiv gewerbliche Vermietung noch auf den Gewinn nach § 17 EStG | § 2 Abs. 1 Satz 3 GewStG, R 7.1 Abs. 3 Satz 1 Nr. 2 GewStR |
+
+  **Die Kehrseite der Abgeltung – und ihr Ausgleich.** Weil es zu keiner Veranlagung kommt,
+  läuft die Steuerbefreiung des § 8b Abs. 1 Satz 1 KStG ins Leere, und die Ausschüttungen
+  werden mit 25 % belastet, obwohl der Körperschaftsteuersatz 15 % beträgt. Genau diesen
+  Überhang gleicht § 44a Abs. 9 Satz 1 EStG aus: **zwei Fünftel** werden erstattet
+  (25 % ./. 2/5 = 15 %). Von 36.725 € einbehaltener Kapitalertragsteuer (30.000 € + 3.750 € +
+  2.975 €) sind das **14.690 €**, dazu 807,95 € Solidaritätszuschlag.
+
+  **Die unentgeltlich gelieferten Fenster zählen zweimal.** Derselbe Vorgang ist bei der
+  Gesellschafterin fiktive **Betriebsausgabe** bei den Vermietungseinkünften (Fiktions- oder
+  Verbrauchstheorie) **und** zugleich **Einnahme** aus verdeckter Gewinnausschüttung im
+  Privatvermögen – jeweils 11.900 €. Maßgebend ist nicht der Selbstkostenwert von 8.000 €,
+  sondern der übliche Verkaufspreis von 10.000 € zuzüglich 1.900 € Umsatzsteuer, denn ein
+  fremder Dritter hätte diesen Betrag zahlen müssen. Ein Vorsteuerabzug scheidet aus, weil es
+  mangels Entgelts keine Rechnung gibt (§ 14 Abs. 4 Satz 2 UStG; Abschn. 3.2 Abs. 2 Sätze 5
+  und 6 UStAE) – die Umsatzsteuer bleibt deshalb Teil der fiktiven Betriebsausgabe.
+
+  **Zwei Zeitpunktregeln in einer Klausur.** Der Sachverhalt sagt, die Gesellschaft *möchte*
+  ihre Einkünfte durch Bestandsvergleich ermitteln – „soweit dies möglich ist“. Möglich ist
+  das nur bei den fiktiv gewerblichen Vermietungseinkünften; dort ist die erst am 21.01.2026
+  gezahlte **Dezembermiete** schon 2025 als Forderung zu erfassen. Bei der Beteiligung an der
+  B-GmbH bleibt es beim **Zuflussprinzip** (§ 11 Abs. 1 EStG) – deshalb gehört die am
+  20.01.2025 zugeflossene Ausschüttung des Beschlusses vom 28.12.2024 in das Jahr 2025.
+
+  | Einkünfte aus der Vermietung des Grundstücks | Betrag |
+  | --- | --- |
+  | Mieteinnahmen 8 × 20.000 € (Mai bis Dezember, einschließlich der Dezemberforderung) | 160.000 € |
+  | ./. AfA 3 % von 2,5 Mio. € × 8/12 (§ 7 Abs. 4 Satz 1 Nr. 1 EStG) | - 50.000 € |
+  | ./. fiktive Reparaturaufwendungen (Fenster) | - 11.900 € |
+  | ./. laufende Grundstückskosten 8 × 4.000 € | - 32.000 € |
+  | **Einkünfte** | **66.100 €** |
+
+  Die Umsatzsteuer bleibt dabei zweimal erfolgsneutral: Die nicht abgeführte vereinnahmte
+  Umsatzsteuer ist Verbindlichkeit gegenüber dem Finanzamt, die gezahlte Vorsteuer aus den
+  Grundstückskosten Forderung gegen das Finanzamt. Das Büroversehen der Steuerberaterin
+  ändert am Ergebnis der Einkünfteermittlung also nichts. Ebenso neutral ist die
+  Körperschaftsteuer-Vorauszahlung von 10.000 €: als Aufwand gebucht, nach § 10 Nr. 2 KStG
+  außerbilanziell wieder hinzuzurechnen.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.** Zusätzlich geprüft: die
+  Abrechnung der Ausschüttung (15 % von 100.000 = 15.000 €, KapESt 3.750 €, SolZ 206,25 €,
+  Auszahlung 11.043,75 €) und die Kapitalertragsteuer auf die vGA (25 % von 11.900 = 2.975 €,
+  SolZ 163,62 €).
+
+  **Eine Abweichung bei der Punktvergabe – eigene Feststellung:** Der Kopf nennt **33
+  Punkte**, die Auszählung der Randpunkte ergibt **32**. Im Datensatz sind die 32 ausgezählten
+  Randpunkte vergeben und als Gesamtpunktzahl die 33 des Kopfes ausgewiesen. In den Klausuren
+  2011 und 2012 weicht die Auszählung in die andere Richtung ab (36 gegen 35 bzw. 42 gegen 40).
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** der gedankliche
+  Buchungssatz „Aufwand (für Fenster) 11.600 an Ertrag aus vGA von der B-GmbH 11.600“, wo
+  nach der eigenen Herleitung 11.900 stehen müsste; „ist erst mit der Eintragung …
+  zivilrechtlich wirksam geworden ist“ mit doppeltem Satzabschluss; „Also wird … also
+  zunächst“; „hat die ID grundsätzliche Einkünfte“; „dass insoweit gewerblicher Einkünfte
+  erzielt werden“; „aus den Einlagekonto“; sowie die Bezeichnung „ID-GmbH“ für die
+  brasilianische Ltda.

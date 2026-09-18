@@ -1754,6 +1754,30 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   UmwStG neutralisiert. Zu versteuerndes Einkommen 57.450 €, Körperschaftsteuer 8.617 €.
   Auch hier ist die Abweichung der Randpunkte (42 gegen 40 im Kopf) als **eigene
   Feststellung** gekennzeichnet.
+  Die **Prüfung 2013 (Invest-Deutschland Ltda, 33 Punkte)** verlässt die unbeschränkte
+  Steuerpflicht. Sie steht und fällt mit einem Satz: Anders als unbeschränkt steuerpflichtige
+  Kapitalgesellschaften, die nach § 8 Abs. 2 KStG **immer** gewerbliche Einkünfte haben,
+  können beschränkt steuerpflichtige alle Einkunftsarten des EStG haben. Deshalb hat dieselbe
+  brasilianische Gesellschaft nebeneinander Einkünfte aus Kapitalvermögen, gewerbliche
+  Einkünfte kraft Fiktion (§ 49 Abs. 1 Nr. 2 Buchst. f Satz 2 EStG) und gewerbliche Einkünfte
+  nach § 17 EStG – mit drei verschiedenen Erhebungsformen. Eine einzige **Kapitalherabsetzung**
+  zerfällt nach § 28 Abs. 2 KStG in zwei Teile: Die ersten 400.000 € verbrauchen den
+  Sonderausweis und gelten als Gewinnausschüttung (für die Gesellschafterin 120.000 €, mit
+  Kapitalertragsteuerabzug), die restlichen 600.000 € laufen über das Einlagekonto und führen
+  nach § 17 Abs. 4 EStG zu einem Veräußerungsgewinn von 80.000 € – nach § 8b Abs. 2 KStG
+  steuerfrei, und zwar **ohne** die Fünf-Prozent-Pauschale, weil eine bloße Beteiligung keine
+  Betriebsstätte vermittelt (BFH, BStBl II 2019, 144). Dieselbe fehlende Betriebsstätte wirkt
+  dreimal: Sie erspart die Pauschale, macht die Kapitalertragsteuer nach § 32 Abs. 1 Nr. 2
+  KStG **abgeltend** und lässt die Gewerbesteuer vollständig entfallen (§ 2 Abs. 1 Satz 3
+  GewStG). Die Kehrseite der Abgeltung gleicht § 44a Abs. 9 EStG aus: Weil 25 % statt 15 %
+  einbehalten werden und § 8b Abs. 1 KStG mangels Veranlagung leerläuft, sind **zwei Fünftel**
+  zu erstatten – 14.690 € zuzüglich 807,95 € Solidaritätszuschlag. Dazu die unentgeltlich
+  gelieferten Fenster, die **gleichzeitig** fiktive Betriebsausgabe bei den Vermietungseinkünften
+  und Einnahme aus verdeckter Gewinnausschüttung im Privatvermögen sind (je 11.900 €, nach dem
+  üblichen Verkaufspreis, nicht nach den Selbstkosten), sowie zwei verschiedene Zeitpunktregeln
+  in einer Klausur – Bestandsvergleich bei der Vermietung, Zuflussprinzip bei der Beteiligung.
+  Vermietungseinkünfte 66.100 €. Auch hier ist die Abweichung der Randpunkte (32 gegen 33 im
+  Kopf) als **eigene Feststellung** gekennzeichnet.
   Prüfung: `npm run check:k2-kst-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
