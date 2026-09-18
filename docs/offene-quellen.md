@@ -239,7 +239,18 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Connector – siehe Abschnitt A.
 
 ### Übergreifend
-- Originalklausuren
+- **Originalklausuren** (`1bjpQeoVkx-j6_XC67TEB5NF9IY9EwSTn`, Unterordner von
+  `1RsOYiVN08H26klYwJoBOZOiUG50F7rbd`): **begonnen.** Der Ordner enthält acht PDFs mit
+  Original-Sachverhalten der Steuerberaterprüfung: ESt (2,3 MB), ErbSt (1,1 MB), Bilanz
+  2011–2015 (3,3 MB), KSt (1,0 MB), „Pruefungsklausur Steuerberater 2021-2022“ (0,7 MB)
+  sowie drei Dateien mit abgeschnittenen Titeln („2026) .pdf“, „2026) (9).pdf“,
+  „2026) (10).pdf“). Ausgewertet ist bisher die Datei **ErbSt**
+  (`1KXgD0bYGU9CZOjpeiqsUHNVwbquW-rla`, „Steuerberaterprüfungen 2014 – 2015“, Februar 2026
+  mit Rechtsstand 2025, Version 1.0, vom Connector vollständig ausgegeben). Sie enthält
+  **zwei Originalklausuren mit Lösungshinweis**: Robert Rundlich 2014 und Robert Rundlich
+  2015. Eingepflegt ist die Klausur **2014** im neuen Reiter „Originalklausuren (Prüfung)“,
+  `src/data/k1-erbst-originalklausuren.js`. Offen aus dieser Datei ist die Klausur **2015**;
+  offen aus dem Ordner sind die sieben übrigen PDFs, die andere Klausurfächer betreffen.
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
 - Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet
 

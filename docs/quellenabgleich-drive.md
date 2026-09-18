@@ -5979,3 +5979,125 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Leerstellen. In der Tabelle des Beispiels 3 fehlt beim Verschonungsabschlag außerdem das
   Abzugszeichen, obwohl der Betrag ausweislich der Zwischensumme abgezogen wird (so in der
   Quelle).
+
+## Originalklausuren der Steuerberaterprüfung – ErbSt/Bewertung, Klausur Robert Rundlich 2014
+
+- Quelle: Drive-Ordner „Originalklausuren“ (`1bjpQeoVkx-j6_XC67TEB5NF9IY9EwSTn`), Datei
+  „B-S25-ErbSt-Steuerberaterpruefung RS 2025-0326.pdf fuer Ilias.pdf“
+  (`1KXgD0bYGU9CZOjpeiqsUHNVwbquW-rla`, 1,1 MB, „Steuerberaterprüfungen 2014 – 2015“,
+  Februar 2026 mit Rechtsstand 2025, Version 1.0). Der Connector gibt die Datei vollständig
+  aus (62.439 Zeichen).
+- Einpflege dieses Durchgangs: die Klausur **2014** als erste Originalklausur im neuen
+  Datensatz `src/data/k1-erbst-originalklausuren.js`, neuer Campus-Reiter
+  „Originalklausuren (Prüfung)“, neues Prüfskript
+  `tools/pruefen-k1-erbst-originalklausuren.mjs`, neues npm-Skript
+  `npm run check:k1-erbst-originalklausuren`. Der Datensatz umfasst 1 Originalklausur,
+  103 Blöcke und 13 Tabellen. Offen aus derselben Datei ist die Klausur **2015**.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Die Klausur ist auf den aktuellen Rechtsstand fortgeschrieben.** Der Erblasser stirbt am
+  31.12.2025, gerechnet wird mit den Freibeträgen (500.000 € und 256.000 €), dem
+  Erbanfallkosten-Pauschbetrag von 15.000 €, dem Kapitalisierungsfaktor 13,75 und den
+  Verbraucherpreisindizes 120,2/77,1. Die Jahreszahl „2014“ bezeichnet den Prüfungsjahrgang
+  des Original-Sachverhalts, nicht den Bewertungsstichtag. Dieselbe Fortschreibung findet
+  sich in allen Materialien Schäfers und ist im Kopfkommentar des Datensatzes festgehalten.
+
+  **Die Lösung ist Zeile für Zeile unabhängig nachgerechnet und geht auf.** Festzusetzende
+  Erbschaftsteuer **174.306 €**. Kontrollen: Bewirtschaftungskosten 359 + 94 + 1.680 + 212 +
+  370 + 584 + 1.680 + 778 = 5.757 €, Grundstücksreinertrag 37.920 ./. 5.757 = 32.163 €;
+  Bereicherung 445.500 + 300.000 + 979.440 ./. 12.693 ./. 23.600 ./. 165 ./. 15.000 =
+  1.673.482 €; steuerpflichtiger Erwerb 1.673.482 ./. 500.000 ./. 256.000 = 917.482 €,
+  abgerundet 917.400 € × 19 % = 174.306 €.
+
+  **Der Kern der Bewertung ist ein greifender Mindestwert.** Die Bodenwertverzinsung von
+  4,5 % × 891.000 € = 40.095 € übersteigt den Grundstücksreinertrag von 32.163 €; der
+  Gebäudereinertrag ist mit ./. 7.932 € negativ, sodass nach § 184 Abs. 3 Satz 2 BewG der
+  Bodenwert anzusetzen ist. Der Gutachterwert (1.125.000 € ./. 15 % = 956.250 €) liegt
+  darüber und scheidet als Nachweis des niedrigeren gemeinen Werts nach § 198 BewG aus – die
+  Klausur führt den Gutachter also nur ein, um ihn ins Leere laufen zu lassen.
+
+  **Zwei Feinheiten der Flächenermittlung:** Die an die Gemeinde abgetretenen 10 qm bleiben
+  anzusetzen, weil die Anfechtung ex tunc wirkt und der Prozess rein deklaratorisch ist – es
+  sind also 810 qm, nicht 800 qm. Und die Garage bleibt sowohl für die Grundstücksart
+  (R B 181.1 Abs. 1 Satz 4 ErbStR) als auch für die Aufteilung der Steuerbefreiung
+  (R E 13.3 Abs. 2 Satz 14 ErbStR) außer Betracht, sodass die Befreiung nach § 13 Abs. 1
+  Nr. 4b ErbStG genau die Hälfte erfasst: 445.500 €.
+
+  **Die Instandhaltungskosten sind für jede Nutzung gesondert zu ermitteln** – im Fall führt
+  das zum selben qm-Satz (14,0 €), aber zu unterschiedlichen Verwaltungskosten (Pauschale je
+  Wohnung und Garage gegenüber 3 % des Rohertrags bei gewerblicher Nutzung) und zu
+  unterschiedlichen Mietausfallwagnissen (2 % gegenüber 4 %).
+
+  **Beim Betriebsvermögen sind zwei nie gebuchte Wirtschaftsgüter nachzuholen.** Die
+  Bodenverdichtung (30.000 €, in 2023 sofort aufwandswirksam erfasst) ist zu aktivieren und
+  mit 20 % jährlich abzuschreiben – der Gewinn 2023 steigt deshalb um 30.000 € und sinkt um
+  4.000 € (8/12 von 6.000 €). Die heimlich verlegte Rohrleitung (80.000 €) wird auf zwei
+  Nutzungsdauern verteilt: 40.000 € auf 30 Jahre und 40.000 € auf 5 Jahre, zusammen
+  9.333,33 € pro Jahr, 2024 zeitanteilig mit 4/12 = 3.111,11 €. Umgekehrt ist die angemietete
+  Bodentestfläche trotz Bilanzansatz **kein** Betriebsvermögen; weil sie unverändert in der
+  Bilanz steht, bedarf es dafür keiner Gewinnkorrektur.
+
+  **Die Skulptur ist der Angelpunkt des Verschonungsteils.** Sie ist zugleich nicht
+  betriebsnotwendiges Vermögen (Hinzurechnung nach § 200 Abs. 2 BewG: + 300.000 €),
+  Verwaltungsvermögen nach § 13b Abs. 4 Nr. 3 ErbStG und – weil im April 2024 erworben –
+  **junges** Verwaltungsvermögen nach § 13b Abs. 7 Satz 2 ErbStG. Junges Verwaltungsvermögen
+  ist von der 10-Prozent-Unschädlichkeitsgrenze ausgenommen; die Optionsverschonung nach
+  § 13a Abs. 10 ErbStG ist zwar zulässig (9,1 % Verwaltungsvermögen), befreit aber nur die
+  2.995.149 € begünstigtes Vermögen. Steuerpflichtig bleiben trotz 100-prozentiger
+  Verschonung genau die 300.000 € der Skulptur. Ihre Reparaturkosten von 12.000 € sind
+  zusätzlich nach § 202 Abs. 1 Satz 2 Nr. 1f BewG hinzuzurechnen.
+
+  **Die Granu-KG-Beteiligung wirkt nur noch über den Veräußerungsverlust.** Sie ist am
+  Stichtag nicht mehr vorhanden; der außerordentliche Aufwand von 10.000 € ist nach
+  § 202 Abs. 1 Satz 2 Nr. 1c BewG hinzuzurechnen. Der Verwaltungsvermögensanteil von 51 %
+  der KG bleibt ohne Bedeutung – die Quelle hält ausdrücklich fest, dass die
+  Verbundvermögensaufstellung „für die Klausur … zu kompliziert“ wäre.
+
+  **Der Tankstellenkauf zerfällt in Anspruch und Schuld.** Weil die Grunderwerbsteuer nicht
+  gezahlt und die Unbedenklichkeitsbescheinigung nicht erteilt war (§ 22 GrEStG), ist der
+  Erblasser nicht Eigentümer geworden; anzusetzen sind der Sachleistungsanspruch mit dem
+  gemeinen Wert von 960.000 € und die Grunderwerbsteuerschuld. Deren Bemessungsgrundlage ist
+  um die Betriebsvorrichtungen (2 × 62.000 €) zu kürzen: 676.000 € × 3,5 % = 23.660 €,
+  abgerundet 23.600 €.
+
+  **Die Rentenlast zerfällt in zwei Bewertungen.** Die lebenslängliche Rente an Ginsel
+  (geb. 19.03.1935, am Stichtag 90 Jahre) ist mit dem Vervielfältiger 3,192 zu
+  kapitalisieren; die Zahlung an den jeweiligen Grundstückseigentümer ist eine immerwährende
+  Last und nach § 13 Abs. 2 BewG mit dem Faktor 18,6 anzusetzen. Zusammen 25.385 €, wegen
+  § 10 Abs. 6a Satz 1 ErbStG nur zur Hälfte abziehbar (12.693 €), weil die Last mit dem nach
+  § 13 Abs. 1 Nr. 4b ErbStG befreiten Wohnungsteil zusammenhängt. Die Abstandszahlung von
+  10.000 € ist eine aufschiebend bedingte Last (§ 6 BewG) und bleibt außer Ansatz.
+
+  **Die Aufteilung der 500-Euro-Fernsehschuld ist der didaktische Schlusspunkt.** Sie steht
+  mit keinem einzelnen Gegenstand in Verbindung und ist deshalb nach § 10 Abs. 6a Satz 3 und
+  4 ErbStG im Verhältnis der Nettowerte (Summe 5.116.604 €) auf vier Vermögensgruppen zu
+  verteilen und anschließend nach Sätzen 7 und 8 auf den steuerpflichtigen Anteil jeder
+  Gruppe zu kürzen: 42 € + 29 € + 92 € + 2 € = 165 €. Der Aufwand steht in keinem Verhältnis
+  zum Betrag – genau das prüft die Klausur. Dieselbe Mechanik zeigen die Fallsammlungsfälle
+  „Backhaus“ (Einkommensteuerschuld auf fünf Gruppen) und „Ackermann“.
+
+  **Drei Rundungen der Quelle sind wortlautgetreu übernommen und gekennzeichnet:** die
+  Verwaltungskosten der gewerblichen Einheit mit 584 € statt rechnerisch 583,20 € (die
+  Quelle verweist auf H B 177 ErbStH), der Kapitalwert der lebenslänglichen Rente mit
+  3.065 € statt 3.064,32 € und der Jahresertrag mit 217.829,00 € statt 217.829,63 €. Keine
+  der drei Abweichungen wirkt sich auf das Endergebnis aus: Bei der ersten greift ohnehin
+  der Mindestwert, die zweite verschiebt den hälftigen Abzug um weniger als einen Euro, und
+  die dritte trägt den ausgewiesenen Ertragswert von 2.995.149 €.
+
+  **Weitere Schreibfehler der Quelle – ebenfalls wortlautgetreu übernommen und
+  gekennzeichnet:** „seit 2020“ statt 2022 bei der Bodentestfläche; die Jahresbezeichnung
+  „2022: 360.000 €“ in der Gewinnkorrekturtabelle, obwohl der Sachverhalt diesen Gewinn dem
+  Jahr 2023 zuordnet (im Datensatz in die richtige Jahresspalte einsortiert); „Gesondert
+  Feststellung“; „der falsch angesetzt Betrag“; „mit dem gesamtem Vermögensanfall“; die
+  fehlende schließende Klammer bei „(31.12.2025 § 9 Abs. 1 Nr. 1 ErbStG“; „wir schön der
+  Wald früher war“; „Rechtfragen“; und „Carola stelle … fest“.
+
+  **Bewusst eingestreute Angaben ohne Auswirkung** – im Datensatz eigens aufgelistet, weil
+  das Erkennen solcher Angaben Klausurzeit spart: Buchwert des Patents (25.000 €),
+  Kaufangebot des Herstellers (80.000 €), Grundbesitzwert der Bodentestfläche (180.000 €),
+  Nebenkosten der Ladenmiete, Kaltmiete 2024, ortsübliche Wohnmiete 2024, der Gewinn des
+  Jahres 2022 (§ 201 Abs. 2 BewG), das ertragsteuerliche Betriebsvermögen von 1.710.000 €
+  und der Substanzwert von 2.100.000 €, der hinter dem Ertragswert zurückbleibt. Auch die
+  Lebensversicherung fällt nach § 3 Abs. 1 Nr. 4 ErbStG nicht in den Erwerb der Erbin, und
+  die nicht geltend gemachten Pflichtteilsansprüche bleiben nach § 10 Abs. 5 Nr. 2 ErbStG
+  unberücksichtigt.

@@ -9,6 +9,7 @@ import K1ErbStHausaufgaben from"./K1ErbStHausaufgaben";
 import HausaufgabenBloecke from"./HausaufgabenBloecke";
 import{estKlausuren,estKlausurenQuelle}from"../data/est-klausuren.js";
 import{erbstFallsammlung,erbstFallsammlungQuelle}from"../data/k1-erbst-fallsammlung.js";
+import{erbstOriginalklausuren,erbstOriginalklausurenQuelle}from"../data/k1-erbst-originalklausuren.js";
 import{erbstBewertungTeil3,erbstBewertungTeil3Quelle}from"../data/k1-erbst-bewertung-teil3.js";
 import{erbstBewertungTeil1}from"../data/k1-erbst-bewertung-teil1.js";
 import{erbstBewertungTeil2}from"../data/k1-erbst-bewertung-teil2.js";
@@ -29,7 +30,7 @@ const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o]))),oberVon=m=>O
 /* Der Erbschaftsteuer-/Bewertungsteil der Übungsklausur AO/USt/ErbSt/BewR 1
    liegt im gemeinsamen Klausurbestand der Übungsklausuren. */
 const ERBST_UEBUNGSKLAUSUR=estKlausuren.filter(eintrag=>eintrag.fach==="erbst");
-const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["bewertungsskript","Bewertungsrecht (Schäfer)",IconModule],["verschonungsskript","Verschonung & Steuerberechnung (Schäfer)",IconModule],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
+const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["originalklausuren","Originalklausuren (Prüfung)",IconKlausur],["bewertungsskript","Bewertungsrecht (Schäfer)",IconModule],["verschonungsskript","Verschonung & Steuerberechnung (Schäfer)",IconModule],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
 const seitenLabel=(seiten=[])=>{if(!seiten.length)return"–";const s=[...seiten].sort((a,b)=>a-b),out=[];let a=s[0],b=s[0];for(let i=1;i<=s.length;i++){const c=s[i];if(c===b+1){b=c;continue}out.push(a===b?`${a}`:`${a}–${b}`);a=c;b=c}return out.join(", ")};
 const fallLabel=m=>m.caseNo||m.title.match(/Fall\s+(\d+)/i)?.[1]||m.id;
 function Tz({nummer,label,titel,art,children}){return <section className={`tz${art?` tz--${art}`:""}`}><div className="tz__no"><b>Tz. {nummer}</b>{label}</div><div className="tz__body">{titel&&<h2 className="tz__titel">{titel}</h2>}{children}</div></section>}
@@ -94,4 +95,17 @@ export default function K1ErbStCampusV3({onKlausurwechsel,onFachwechsel}){const 
       suchePlatzhalter="Norm, Stichwort oder Betrag"
       einheit="Übungsfälle"
       einheitEinzahl="Übungsfall"
+    />;if(entry.ansicht==="originalklausuren")return <HausaufgabenBloecke
+      kicker="Klausur 1 · Erbschaftsteuer/Bewertung · Originalklausuren"
+      titel="Originalklausuren der Steuerberaterprüfung"
+      lead="Die Original-Sachverhalte der Steuerberaterprüfung im Wortlaut, jeweils mit dem Lösungshinweis des Lehrgangs („Steuerberaterprüfungen 2014–2015“, Februar 2026 mit Rechtsstand 2025). Die Klausuren sind auf den heutigen Rechtsstand fortgeschrieben: Der Bewertungsstichtag liegt im Jahr 2025, gerechnet wird mit den aktuellen Freibeträgen, Vervielfältigern und Verbraucherpreisindizes; die Jahreszahl im Titel bezeichnet den Prüfungsjahrgang. Eingepflegt ist bisher die Klausur „Robert Rundlich“ (Prüfung 2014), die alle Bausteine der Examensklausur in einem Fall verbindet: ein gemischt genutztes Grundstück im Ertragswertverfahren, bei dem die Bodenwertverzinsung den Gebäudereinertrag aufzehrt und der Mindestwert von 891.000 € greift; ein Betrieb im vereinfachten Ertragswertverfahren mit fünf Korrekturen nach § 202 BewG, zwei nachzuholenden Abschreibungen und einer nur in der Bilanz stehenden Fremdfläche (Ertragswert 3.295.149 €); eine Verwaltungsvermögensrechnung, in der die Skulptur als junges Verwaltungsvermögen trotz Optionsverschonung voll steuerpflichtig bleibt; ein Sachleistungsanspruch aus dem noch nicht im Grundbuch vollzogenen Tankstellenkauf; eine Rentenlast aus einem Rohrleitungsrecht, die in eine lebenslängliche und eine immerwährende Rente zerfällt; und die Aufteilung einer Kaufpreisschuld von 500 € auf vier Vermögensgruppen, von der am Ende 165 € abziehbar bleiben. Festzusetzende Erbschaftsteuer 174.306 €. Jede Zwischensumme ist unabhängig nachgerechnet."
+      quelle={erbstOriginalklausurenQuelle}
+      hausaufgaben={erbstOriginalklausuren}
+      gruppeVon={eintrag=>eintrag.block}
+      gruppeLabel={eintrag=>eintrag.blockLabel}
+      gruppeAria="Prüfungsjahrgänge"
+      karteKicker={eintrag=>`Originalklausur ${eintrag.nummer} · ${eintrag.rechtsstand}`}
+      suchePlatzhalter="Norm, Stichwort oder Betrag"
+      einheit="Originalklausuren"
+      einheitEinzahl="Originalklausur"
     />;if(entry.ansicht==="hausaufgaben")return <K1ErbStHausaufgaben onModulOeffnen={id=>go({ansicht:"detail",id})}/>;return <Cockpit erledigt={fort.werte} go={go} onSchema={onSchema}/>},[entry,m,suche,fort.werte]);return <div className="kst-campus"><CampusTopbar klausur="1" marke="1" name="Examenscampus Klausur 1" untertitel="Verfahrensrecht · Erbschaftsteuer" aufCockpit={()=>go({ansicht:"cockpit"})} navZurueck={verlauf.zurueck} navVor={verlauf.vor} zurueckMoeglich={verlauf.zurueckMoeglich} vorMoeglich={verlauf.vorMoeglich} suche={suche} sucheSetzen={setSuche} suchePlatzhalter="ErbSt/BewG-Inhalte suchen" sucheAria="Erbschaftsteuer-Inhalte durchsuchen" dunkel={dunkel} dunkelUmschalten={()=>setDunkel(d=>!d)}/><KlausurenLeiste aktiv="k1" aufCockpit={()=>go({ansicht:"cockpit"})} onKlausurwechsel={onKlausurwechsel}/><K1Fachleiste aktiv="erbst" onWechsel={onFachwechsel}/><aside className="rail"><nav className="rail__nav">{NAV.map(([id,label,Icon])=><button key={id} className="rail__link" aria-current={entry.ansicht===id?"true":undefined} onClick={()=>go({ansicht:id})}><Icon/>{label}</button>)}</nav><div className="rail__box"><b>ErbSt-Fortschritt</b><strong>{fort.anzahl} / {INHALTE.length}</strong><p>E2: 457/457 · E3: 451/451</p></div></aside><main className="page">{inhalt}</main></div>}

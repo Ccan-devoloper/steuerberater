@@ -156,6 +156,32 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ErbStG jedem Letzterwerber eigenständig zusteht und je nach Weg voll, abgeschmolzen oder
   gar nicht wirkt.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
+- **Originalklausuren** (Reiter „Originalklausuren (Prüfung)" im Campus Erbschaftsteuer):
+  die Original-Sachverhalte der Steuerberaterprüfung mit den Lösungshinweisen des Lehrgangs
+  („Steuerberaterprüfungen 2014–2015", Februar 2026 mit Rechtsstand 2025, Version 1.0)
+  **im Wortlaut**. Die Sachverhalte sind auf den heutigen Rechtsstand fortgeschrieben – der
+  Bewertungsstichtag liegt im Jahr 2025, die Jahreszahl im Titel bezeichnet den
+  Prüfungsjahrgang. Eingepflegt ist die Klausur **„Robert Rundlich" (Prüfung 2014)**, die
+  alle Bausteine der Examensklausur in einem Fall verbindet: ein gemischt genutztes
+  Grundstück im Ertragswertverfahren, bei dem die Bodenwertverzinsung von 40.095 € den
+  Grundstücksreinertrag von 32.163 € übersteigt und deshalb der Mindestwert von 891.000 €
+  anzusetzen ist; die hälftige Befreiung nach § 13 Abs. 1 Nr. 4b ErbStG nach dem
+  Flächenverhältnis (445.500 €), während § 13d ErbStG für das Ladengeschäft ausscheidet;
+  ein Betrieb im vereinfachten Ertragswertverfahren mit fünf Korrekturen nach § 202 BewG,
+  zwei nachzuholenden Abschreibungen auf nie gebuchte Wirtschaftsgüter und einer nur in der
+  Bilanz stehenden Fremdfläche (Ertragswert 3.295.149 €); eine Verwaltungsvermögensrechnung,
+  in der die Skulptur als **junges** Verwaltungsvermögen auch bei der Optionsverschonung
+  voll steuerpflichtig bleibt (300.000 €); ein Sachleistungsanspruch aus dem noch nicht im
+  Grundbuch vollzogenen Tankstellenkauf samt der zugehörigen Grunderwerbsteuerschuld; eine
+  Rentenlast aus einem Rohrleitungsrecht, die in eine lebenslängliche (Vervielfältiger
+  3,192) und eine immerwährende Rente (§ 13 Abs. 2 BewG, Faktor 18,6) zerfällt und wegen
+  § 10 Abs. 6a Satz 1 ErbStG nur hälftig abziehbar ist; und die Aufteilung einer
+  Kaufpreisschuld von 500 € auf vier Vermögensgruppen nach § 10 Abs. 6a Sätze 3, 4, 7 und 8
+  ErbStG, von der am Ende 165 € abziehbar bleiben. Festzusetzende Erbschaftsteuer
+  **174.306 €**. Drei Rundungen der Quelle (584 € statt 583,20 €, 3.065 € statt 3.064,32 €,
+  Jahresertrag 217.829,00 € statt 217.829,63 €) sind wortlautgetreu übernommen und
+  gekennzeichnet; sie bleiben ohne Auswirkung auf das Ergebnis.
+  Prüfung: `npm run check:k1-erbst-originalklausuren`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,
   Teil 2: Steuerbefreiungen, Verschonungsregelungen, Berechnung der Steuer" von Martin
