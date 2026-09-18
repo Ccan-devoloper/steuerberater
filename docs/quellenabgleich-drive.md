@@ -10617,8 +10617,47 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** die Abschnitte 3.5 bis 3.9 und das Kapitel 4 sowie die
-Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** der Rest des Abschnitts 3.5 (ab 3.5.2.3), die Abschnitte 3.6
+bis 3.9 und das Kapitel 4 sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.5.1 bis 3.5.2.2 – Auswirkungen und Zuflussfiktion
+
+Quelle: dieselbe Datei; übernommen als Kapitel 27 bis 29. Prüfung:
+`npm run check:k2-kst-teil1` (29 Kapitel, 483 Blöcke, 16 Tabellen).
+
+**Zwei Sätze der Quelle scheinen sich zu widersprechen**, und der Datensatz erklärt das, statt
+einen von ihnen zu ändern: Der Fließtext sagt, bilanzielle Erfassung und Zugang beim
+Einlagekonto könnten zeitlich auseinanderfallen, das „Merke“ unmittelbar darunter sagt
+„gleichzeitig“. Beides trifft zu, meint aber Verschiedenes – sachlich treten beide Folgen
+nebeneinander ein und bedingen sich nicht (der Zugang beim Einlagekonto erfolgt auch ohne
+Einkommenskorrektur), zeitlich richtet sich der Zugang nach dem tatsächlichen Zufluss des
+Vermögensvorteils. Die Erläuterung ist als eigene Anmerkung gekennzeichnet.
+
+**Eine echte Spannung innerhalb der Quelle, ausdrücklich benannt:** Der Abschnitt 3.5.2.1
+schließt mit dem Satz, in Fällen einer disquotalen verdeckten Einlage sei die
+Anschaffungskostenerhöhung **quotal sämtlichen Anteilseignern** zuzurechnen. Der Abschnitt
+3.2.4 rechnet die disquotale Einlage ertragsteuerlich dagegen **ausschließlich dem tatsächlich
+Einlegenden** zu, solange kein Zuwendungswille feststellbar ist – dort wird die anteilige
+Zurechnung an den Mitgesellschafter D im Beispiel ausdrücklich verneint. Der Satz aus 3.5.2.1
+passt daher nur auf den Fall der festgestellten eigen- und fremdnützigen Motivation. Beide
+Stellen sind unverändert übernommen, die Spannung ist im Datensatz vermerkt.
+
+**Die Zuflussfiktion** ist der Kerngedanke des Abschnitts und die Quelle liefert dafür die
+brauchbarste Kontrollfrage des ganzen Skripts: „Was wäre gewesen, wenn er angemessen gehandelt
+hätte?“ Der Datensatz führt das in einer gekennzeichneten Anmerkung aus – die Fiktion schafft
+keine neue Steuerlast, sie verhindert nur, dass die gesellschaftsrechtliche Abkürzung eine
+ersparte. Beide Rechenproben der Beispiele gehen auf: Grundstück 500.000 € ./. 100.000 € =
+400.000 €; Beteiligung 700.000 € ./. 500.000 € = 200.000 €, davon 60 % = 120.000 €.
+
+**Der lehrreichste Unterschied des Abschnitts 3.5.2.2.2** steht zwischen zwei Absätzen und wird
+im Datensatz zusätzlich tabellarisch geordnet: Verzichtet die nahestehende Person auf einen
+**Anspruch** (Gehalt, Miete, Pacht, Zinsen), bleibt die Besteuerung bei ihr – sie hatte den
+Anspruch, und die Einlage kann den Zufluss nicht verschieben. Überträgt sie dagegen ein
+**Wirtschaftsgut des Privatvermögens**, bleibt die Zuwendung an den Gesellschafter folgenlos, er
+tritt nach § 23 Abs. 1 Satz 3 EStG in Anschaffungskosten und Erwerbszeitpunkt ein, und erst
+seine eigene Einlage löst den Ersatzrealisationstatbestand aus. Stammt das Wirtschaftsgut aus
+ihrem Betriebsvermögen, kommt bei ihr zusätzlich die steuerwirksame Privatentnahme nach
+§ 4 Abs. 1 Satz 2 EStG hinzu.
 
 ### KSt Teil I (Hamacher), Abschnitt 3.4.6 – Gesellschafterdarlehen mit Rangrücktritt
 

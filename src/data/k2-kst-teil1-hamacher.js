@@ -22,8 +22,10 @@
    oder unentgeltliche Übertragung, überteuerte Lieferung, Übernahme von
    Verbindlichkeiten, Forderungsverzicht und Verzicht gegen Besserungsschein);
    dazu der vollständige Exkurs 3.4.6 zum Gesellschafterdarlehen mit Rangrücktritt.
-   Die Abschnitte 3.5 bis 3.9 und das Kapitel 4 (Tarif) folgen nach demselben
-   Verfahren; der Campus weist den Stand aus.
+   Vom Abschnitt 3.5 (Auswirkungen) sind die Teile 3.5.1 und 3.5.2.1 bis 3.5.2.2.2
+   übernommen. Der Rest des Abschnitts 3.5 (ab 3.5.2.3: Forderungsverzicht beim
+   Anteilseigner), die Abschnitte 3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen
+   nach demselben Verfahren; der Campus weist den Stand aus.
 
    Kleinere Tippfehler der Quelle (fehlende Endungen, ein doppeltes Subjekt)
    sind wortlautgetreu übernommen und nicht einzeln gekennzeichnet, weil sie den
@@ -1109,6 +1111,114 @@ export const kstTeil1 = [
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet nur, was die Quelle in ihren beiden Spiegelstrichen und den drei Beispielen nacheinander abhandelt. Die Lehre des Abschnitts steht in der dritten Spalte: Über die Anwendung des § 5 Abs. 2a EStG entscheidet nicht die Bezeichnung des Rangrücktritts, sondern **allein die Tilgungsabrede**. Fehlt der Bezug auf das freie Vermögen, greift das Passivierungsverbot – auch beim qualifizierten Rangrücktritt; ist er vorhanden, greift es nicht – auch beim einfachen. Wer in der Klausur nach „einfach oder qualifiziert“ sortiert statt nach der Tilgungsabrede, verfehlt den Prüfungspunkt." },
       { text: "Anmerkung zum Verhältnis von Handels- und Steuerbilanz (eigene Ergänzung): Der Fall ist eines der klarsten Beispiele dafür, dass die Maßgeblichkeit hier gerade nicht gilt. Handelsrechtlich bleibt die Verbindlichkeit passiviert – der Rangrücktritt berührt die zivilrechtliche Wirksamkeit nicht. Steuerlich wird sie ausgebucht, als verdeckte Einlage behandelt und die spätere Zinszahlung zur verdeckten Gewinnausschüttung. Die Quelle merkt mit erkennbarer Zurückhaltung an, dass der BFH damit „die zivilrechtliche Wirkung des Rangrücktritts vollkommen unberücksichtigt“ lasse; sie folgt der Rechtsprechung, macht aber deutlich, dass sie mit dieser Kritik nicht allein steht." },
+    ],
+  },
+  {
+    id: "kst-t1-27",
+    kapitel: "27",
+    abschnittNr: "3.5.1 und 3.5.2.1",
+    title: "3.5 Auswirkungen der verdeckten Einlage – bei der Gesellschaft und die Anschaffungskosten des Gesellschafters",
+    thema: "Zwei Folgen bei der Gesellschaft, die auseinanderfallen können: die Einkommenskorrektur nach § 8 Abs. 3 Satz 3 KStG und der Zugang beim Einlagekonto, der erst beim tatsächlichen Zufluss erfolgt. Beim Gesellschafter entstehen nachträgliche Anschaffungskosten – die Rechtsgrundlage hängt davon ab, wo die Beteiligung liegt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitte 3.5.1 und 3.5.2.1 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Sätze 3 und 4 KStG", "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 Buchstabe a EStG", "§ 6 Abs. 6 Satz 2 EStG",
+      "§ 17 Abs. 2a Satz 3 Nr. 1 EStG", "§ 20 Abs. 2 Nr. 1 EStG",
+      "BMF vom 04.06.2003, BStBl. I 2003, 366, Tz. 26",
+      "BFH vom 29.07.1997, BStBl. II 1998, 652",
+      "H 8.9 „Behandlung beim Gesellschafter“",
+    ],
+    themen: ["Einkommenskorrektur", "Steuerliches Einlagekonto", "Zeitliches Auseinanderfallen", "Nachträgliche Anschaffungskosten", "Materielle Korrespondenz", "Disquotale Einlage"],
+    bloecke: [
+      { typ: "titel", text: "3.5.1.1 Einkommenskorrektur bei der bevorteilten Gesellschaft" },
+      { text: "Sofern die verdeckte Einlage zu einem Ertrag geführt hat, ist dieser in Höhe des Teilwertes bzw. in den Fällen der Anwendung der Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG mit den fortgeführten Anschaffungskosten außerbilanziell wieder abzuziehen (§ 8 Abs. 3 Satz 3 KStG). Die Einkommenskorrektur kann in Einzelfällen durch die materielle Korrespondenz i. S. des § 8 Abs. 3 Satz 4 KStG (siehe unter 3.6.1) eingeschränkt werden." },
+      { typ: "titel", text: "3.5.1.2 Zugang beim steuerlichen Einlagekonto (§ 27 KStG)" },
+      { text: "Die verdeckte Einlage führt betragsgleich zu einem Zugang beim steuerlichen Einlagekonto (§ 27 KStG), weil es sich diesbezüglich um eine über das Nennkapital hinausgehende Einlage handelt. Der Zugang erfolgt dabei unabhängig von den Auswirkungen bei der Einkommensermittlung, weil hierfür die Einkommenskorrektur nach § 8 Abs. 3 Satz 3 KStG keine Voraussetzung ist. Der Ausweis im steuerlichen Einlagekonto erfolgt aber erst beim tatsächlichen Zufluss des Vermögensvorteils, d. h. die bilanzielle Erfassung der verdeckten Einlage und die Zurechnung beim steuerlichen Einlagekonto können zeitlich auseinanderfallen." },
+      { text: "Merke: Die verdeckte Einlage führt bei der Kapitalgesellschaft nach § 8 Abs. 3 Satz 3 KStG zu einer Einkommenskorrektur (Ausnahme: Anwendung der materiellen Korrespondenz i. S. des § 8 Abs. 3 Satz 4 KStG). Gleichzeitig erfolgt ein Zugang beim steuerlichen Einlagekonto." },
+      { text: "Hinweis zu zwei Sätzen, die sich zu widersprechen scheinen (eigene Anmerkung): Das „Merke“ sagt „gleichzeitig“, der Text davor sagt, beides könne zeitlich auseinanderfallen. Beides trifft zu, meint aber Verschiedenes. Sachlich bedingen sich Einkommenskorrektur und Einlagekonto nicht – der Zugang beim Einlagekonto erfolgt auch dann, wenn keine Einkommenskorrektur nötig ist, etwa weil gegen die Kapitalrücklage gebucht wurde. Zeitlich richtet sich der Zugang beim Einlagekonto nach dem tatsächlichen Zufluss des Vermögensvorteils, die bilanzielle Erfassung dagegen nach den allgemeinen Bilanzierungsregeln. „Gleichzeitig“ im „Merke“ meint also: beides tritt nebeneinander ein, nicht: beides im selben Zeitpunkt." },
+      { typ: "titel", text: "3.5.2.1 Erhöhung der Anschaffungskosten beim Gesellschafter" },
+      { text: "In Höhe der verdeckten Einlage entstehen dem Gesellschafter nachträgliche Anschaffungskosten seiner Beteiligung. Befindet sich die Beteiligung" },
+      { text: "– im Betriebsvermögen des Anteilseigners, ergibt sich die Anschaffungskostenerhöhung aus § 6 Abs. 6 Satz 2 EStG." },
+      { text: "– im Privatvermögen und handelt es sich um eine Beteiligung i. S. des § 17 EStG, ergibt sich diese Konsequenz ausdrücklich aus § 17 Abs. 2a Satz 3 Nr. 1 EStG." },
+      { text: "– Beträgt die Beteiligung < 1 %, erhöhen sich die Anschaffungskosten für Zwecke des § 20 Abs. 2 Nr. 1 EStG auch für diese Beteiligung aufgrund der allgemeinen Rechtsgrundsätze entsprechend." },
+      { text: "Gleiches gilt in den Fällen einer mittelbaren verdeckten Einlage, wenn diese von einer dem Gesellschafter nahe stehenden Person ausgegangen ist. Weil dem Anteilseigner dieser Vorgang wie eine eigene Einlage zugerechnet wird, erhöhen sich nur dessen Anschaffungskosten entsprechend. In Fällen einer disquotalen verdeckten Einlage ist die Anschaffungskostenerhöhung quotal sämtlichen Anteilseignern zuzurechnen." },
+      { text: "Anmerkung zum letzten Satz (so in der Quelle): Der Satz zur disquotalen Einlage steht in einer gewissen Spannung zum Abschnitt 3.2.4, wo die Quelle die disquotale verdeckte Einlage ertragsteuerlich **ausschließlich** dem tatsächlich Einlegenden zurechnet, solange kein Zuwendungswille feststellbar ist – so ausdrücklich im dortigen Beispiel A/D, wo eine anteilige Zurechnung an D gerade verneint wird. Die quotale Zurechnung an sämtliche Anteilseigner passt daher nur auf den dort behandelten Fall der festgestellten eigen- **und** fremdnützigen Motivation. Der Datensatz übernimmt beide Stellen unverändert und weist auf die Spannung hin, statt eine von ihnen anzupassen." },
+    ],
+  },
+  {
+    id: "kst-t1-28",
+    kapitel: "28",
+    abschnittNr: "3.5.2.2.1",
+    title: "3.5.2.2.1 Zuflussfiktion bei der unmittelbaren verdeckten Einlage",
+    thema: "Der Kerngedanke des ganzen Abschnitts 3.5: Der Sachverhalt wird so behandelt, als hätte der Gesellschafter zuerst sein angemessenes Entgelt erhalten und es dann sofort wieder eingelegt. Der Zufluss und seine Versteuerung lassen sich durch eine verdeckte Einlage nicht unterdrücken",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.5.2.2.1 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1, Abs. 3 Satz 3 KStG", "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG", "§ 6 Abs. 1 Nr. 5 Buchstabe b EStG",
+      "§§ 15, 19, 20, 21 EStG",
+      "§ 17 Abs. 1 Satz 2, Abs. 2 Satz 2, Abs. 2a Satz 3 Nr. 1 EStG",
+      "§ 23 Abs. 1 Nr. 1, Nr. 2 EStG", "§ 23 Abs. 1 Satz 5 Nr. 2 EStG",
+      "§ 23 Abs. 3 Satz 2, Satz 6 EStG",
+      "§ 20 Abs. 2 Nr. 1, Abs. 2 Satz 2 EStG",
+      "§ 3 Nr. 40c EStG", "§ 3c Abs. 2 EStG",
+      "BFH vom 09.06.1997, BStBl. II 1998, 307",
+      "H 8.9 „Verzicht auf Tätigkeitsvergütungen“",
+    ],
+    themen: ["Zuflussfiktion", "Fiktiver Zufluss", "Gehaltsverzicht", "Veräußerungsfiktion", "Teileinkünfteverfahren", "Kontrollfrage"],
+    bloecke: [
+      { text: "Die verdeckte Einlage führt beim Anteilseigner zu einem fiktiven Zufluss der angemessenen Erträge, welche bei ihm zu weiteren Besteuerungskonsequenzen führen können. Denn durch Erfassung der verdeckten Einlage wird der Sachverhalt ertragsteuerlich so behandelt, als ob der Anteilseigner zunächst sein angemessenes Entgelt erhalten und dieses dann umgehend wieder in die Gesellschaft eingelegt hätte. Dadurch wird sichergestellt, dass diese gesellschaftsrechtlich – und daher privat – motivierte Gestaltung nicht auch die Höhe des Einkommens beeinflussen kann. Daher gilt der Grundsatz, dass sich der Zufluss der angemessenen Einnahmen und deren Versteuerung nicht durch eine verdeckte Einlage unterdrücken lässt." },
+      { text: "Merke: Beim Anteilseigner führt die verdeckte Einlage immer zu einer Erhöhung seiner Beteiligungs-Anschaffungskosten. Gleichzeitig fließen ihm dadurch seine angemessenen Einkünfte zu, was zu einer Besteuerungsfolge führen kann (Kontrollfrage: was wäre gewesen, wenn er angemessen gehandelt hätte?)." },
+      { text: "Typische Anwendungsfälle der Besteuerung wären daher insbesondere:" },
+      { text: "– Verzicht auf bereits entstandene Mieten, Pachten oder Zinsen: In Höhe der verdeckten Einlage (Teilwert) fließen dem Anteilseigner die entsprechenden Einnahmen zu und sind nach den einschlägigen Regeln (§§ 15, 20 oder 21 EStG) zu versteuern." },
+      { text: "– Verzicht auf Gehaltsansprüche: In Höhe des werthaltigen Anteils wird ein Zufluss nach § 19 EStG ausgelöst." },
+      { text: "Beispiel: A verzichtet in 2026 gegenüber seiner A-GmbH auf das ihm zustehende Gehalt von 300.000 €. Die A-GmbH hätte dieses Gehalt in voller Höhe auszahlen können." },
+      { text: "Lösung: Die verdeckte Einlage führt aus Sicht des A nach § 17 Abs. 2a Satz 3 Nr. 1 EStG zu einer Erhöhung der Anschaffungskosten seiner Beteiligung, aber auch zum fiktiven Zufluss seines Gehalts. Dieses muss daher in 2026 nach § 19 EStG besteuert werden." },
+      { text: "– Übertragung von Wirtschaftsgütern des Privatvermögens: Nach § 23 Abs. 1 Satz 5 Nr. 2 EStG gilt die verdeckte Einlage eines Grundstücks i. S. des § 23 Abs. 1 Nr. 1 EStG als veräußerungsgleicher Tatbestand. Die Gewinnermittlung erfolgt nach § 23 Abs. 3 Satz 2 EStG (2. Halbsatz) unter Berücksichtigung des gemeinen Wertes des Grundstücks als fiktiven Veräußerungspreis. Der Veranlagungszeitraum der Versteuerung entspricht dabei dem Jahr, in dem die verdeckte Einlage durch Grundstücksübertragung tatsächlich vollzogen wurde (§ 23 Abs. 3 Satz 6 EStG). Bei sonstigen Wirtschaftsgütern des Privatvermögens i. S. des § 23 Abs. 1 Nr. 2 EStG gilt diese Veräußerungsfiktion hingegen nicht, da § 23 Abs. 1 Satz 5 EStG nur auf „Abs. 1 Nr. 1“ verweist." },
+      { text: "Beispiel: A überträgt in 2026 sein fremdvermietetes Grundstück (fortgeführte Anschaffungskosten aus 2017: 100.000 €; Teilwert/gemeiner Wert: 500.000 €) unentgeltlich auf seine A-GmbH." },
+      { text: "Lösung: Die verdeckte Einlage des Grundstücks in die A-GmbH führt bei A nach § 17 Abs. 2a Satz 3 Nr. 1 EStG zu einer Anschaffungskostenerhöhung seiner Beteiligung, aber auch zu einem Veräußerungsvorgang i. S. des § 23 EStG. Denn das nach § 23 Abs. 1 Nr. 1 EStG steuerverstrickte Grundstück wird aufgrund der verdeckten Einlage nach § 23 Abs. 1 Satz 5 Nr. 2 EStG veräußert. Der dafür maßgebliche Veräußerungspreis beträgt nach § 23 Abs. 3 Satz 2 EStG dem gemeinen Wert von 500.000 €. Dadurch versteuert A im VZ 2026 einen Veräußerungsgewinn von 400.000 € (§ 23 Abs. 3 Satz 6 EStG)." },
+      { text: "Gleiches gilt bei Anteilen i. S. des § 17 EStG, wonach sich die Veräußerungsfiktion aus § 17 Abs. 1 Satz 2 EStG ergibt. Der Veräußerungspreis entspricht nach § 17 Abs. 2 Satz 2 EStG dem gemeinen Wert. Bei Streubesitzanteilen i. S. des § 20 Abs. 2 Nr. 1 EStG gilt die Veräußerungsfiktion des § 20 Abs. 2 Satz 2 EStG." },
+      { text: "Beispiel: A überträgt in 2026 unentgeltlich seine 100%ige Beteiligung an der B-GmbH (Anschaffungskosten: 500.000 €; gemeiner Wert: 700.000 €) auf seine A-GmbH, deren Alleingesellschafter A ist." },
+      { text: "Lösung: Bei der A-GmbH ist die verdeckte Einlage der Beteiligung an der B-GmbH mit dem Teilwert zu bewerten (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG). Die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe b EStG findet darauf keine Anwendung. Der bilanzielle Ertrag von 700.000 € ist im Rahmen der Einkommensermittlung nach § 8 Abs. 3 Satz 3 KStG wieder zu neutralisieren, gleichzeitig erfolgt ein Zugang beim steuerlichen Einlagekonto i. S. des § 27 KStG." },
+      { text: "Bei A erhöhen sich nach § 17 Abs. 2a Satz 3 Nr. 1 EStG die Anschaffungskosten der Beteiligung an der A-GmbH. Gleichzeitig führt die verdeckte Einlage der Anteile an der B-GmbH nach § 17 Abs. 1 Satz 2 EStG zu einer Anteilsveräußerung. Unter Berücksichtigung des Veräußerungspreises i. S. des § 17 Abs. 2 Satz 2 EStG von 700.000 € ergibt sich in 2026 ein Veräußerungsgewinn von 200.000 €, welcher unter Anwendung des Teileinkünfteverfahrens (§ 3 Nr. 40c EStG und § 3c Abs. 2 EStG) i. H. von 120.000 € steuerpflichtig ist." },
+      { text: "Rechenproben (eigene Ergänzung): Beim Grundstück 500.000 € gemeiner Wert ./. 100.000 € fortgeführte Anschaffungskosten = 400.000 € Veräußerungsgewinn. Bei der Beteiligung 700.000 € ./. 500.000 € = 200.000 €, davon 60 % nach dem Teileinkünfteverfahren = 120.000 €. Beide Zahlen der Quelle gehen auf." },
+      { text: "Zur Kontrollfrage des „Merke“ (eigene Anmerkung): Sie ist das brauchbarste Werkzeug des ganzen Abschnitts. „Was wäre gewesen, wenn er angemessen gehandelt hätte?“ – hätte A sein Gehalt genommen, hätte er es nach § 19 EStG versteuert und hätte dann 300.000 € einlegen können. Genau dieses Ergebnis stellt die Zuflussfiktion her. Sie schafft also keine neue Steuerlast, sondern verhindert, dass die gesellschaftsrechtliche Abkürzung eine ersparte." },
+    ],
+  },
+  {
+    id: "kst-t1-29",
+    kapitel: "29",
+    abschnittNr: "3.5.2.2.2",
+    title: "3.5.2.2.2 Zuflussfiktion bei der mittelbaren verdeckten Einlage",
+    thema: "Geht die Einlage von einer nahestehenden Person aus, wird der Zufluss bei ihr besteuert – sie hatte den Anspruch. Bei Wirtschaftsgütern des Privatvermögens ist es anders: Die Zuwendung an den Gesellschafter bleibt folgenlos, er tritt nach § 23 Abs. 1 Satz 3 EStG in die Besteuerungsmerkmale ein, und erst seine Einlage löst den Ersatzrealisationstatbestand aus",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.5.2.2.2 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 19 EStG", "§ 17 Abs. 2a Satz 3 Nr. 1 EStG",
+      "§ 23 EStG", "§ 23 Abs. 1 Satz 3 EStG", "§ 23 Abs. 1 Satz 5 Nr. 2 EStG",
+      "§ 23 Abs. 3 Satz 2 EStG", "§ 4 Abs. 1 Satz 2 EStG",
+    ],
+    themen: ["Mittelbare verdeckte Einlage", "Nahestehende Person", "Zuflussfiktion", "Rechtsnachfolge", "Trennungstheorie", "Privatentnahme"],
+    bloecke: [
+      { text: "Die Zuflussfiktion ist auch in den Fällen einer mittelbaren verdeckten Einlage zu beachten, wenn die verdeckte Einlage unmittelbar durch eine dem Anteilseigner nahe stehende Person erfolgt. Dadurch fließen der nahe stehenden Person zunächst die angemessenen Einkünfte zu, welche dann über den Anteilseigner in die Kapitalgesellschaft verdeckt eingelegt werden. Die nahe stehende Person versteuert daher die Einkünfte selbst, welche ihr auch ohne die als verdeckte Einlage zu würdigende Gestaltung zugeflossen wären. Verzichtet daher die nahe stehende Person z. B. auf ihre entstandenen Mieten, Pachten, Zinsen oder ihr Gehalt, führt die verdeckte Einlage bei dieser zunächst auch zu einem fiktiven Zufluss in Höhe des werthaltigen Teiles. Erst diese „versteuerten“ Einnahmen werden dem Gesellschafter zugewendet und anschließend von diesem verdeckt in seine Gesellschaft eingelegt." },
+      { text: "Beispiel: Am 31.12.2026 verzichtet die Ehefrau des A gegenüber der A-GmbH (Alleingesellschafter A) auf das ihr zustehende Jahresgehalt von 300.000 €. Die A-GmbH hätte dieses Gehalt in voller Höhe auszahlen können." },
+      { text: "Lösung: Durch die verdeckte Einlage ergibt sich in Höhe des werthaltigen Teils ein Zufluss bei der Ehefrau des A, welcher in 2026 bei dieser zu einer Besteuerung nach § 19 EStG führt. Dies deshalb, weil die verdeckte Einlage als Entgelt für ihre Leistung anzusehen ist und die Besteuerungsfolge nur bei dem Steuerpflichtigen eintreten kann, der den Anspruch auf dieses Entgelt hatte. Erst anschließend wendet die Ehefrau dem Anteilseigner A den Einlagebetrag von 300.000 € zu, was bei diesem dann zu einer verdeckten Einlage in seine A-GmbH führt. Daraus resultieren dem A weitere Anschaffungskosten seiner Beteiligung (§ 17 Abs. 2a Satz 3 Nr. 1 EStG), weil die verdeckte Einlage nur vom Anteilseigner ausgehen kann." },
+      { typ: "titel", text: "Anders bei Wirtschaftsgütern des Privatvermögens" },
+      { text: "Etwas anderes gilt lediglich im Zusammenhang mit der verdeckten Einlage von Wirtschaftsgütern des Privatvermögens und daher insbesondere bei Grundstücken i. S. des § 23 EStG, da die unentgeltliche Zuwendung des Wirtschaftsgutes an den Anteilseigner selbst zunächst keinen Einkünftetatbestand begründet. Es handelt sich hierbei um eine unentgeltliche Zuwendung, die beim Zuwendungsempfänger zur Rechtsnachfolge führt (§ 23 Abs. 1 Satz 3 EStG). Die verdeckte Einlage des Wirtschaftsgutes und die sich daraus ergebenden steuerlichen Konsequenzen sind dann nachfolgend dem Anteilseigner zuzurechnen, weil bei diesem auch nur der Ersatzrealisationstatbestand des § 23 Abs. 1 Satz 5 Nr. 2 EStG greifen kann." },
+      { text: "Gehört das verdeckt eingelegte Wirtschaftsgut hingegen zum Betriebsvermögen der nahe stehenden Person, erfolgt bei dieser zunächst eine steuerwirksame Privatentnahme i. S. des § 4 Abs. 1 Satz 2 EStG. Gleiches gilt, wenn die nahe stehende Person das Wirtschaftsgut verbilligt überträgt, weil sich der Vorgang nach der Trennungstheorie in einen entgeltlichen und unentgeltlichen Tatbestand aufteilt." },
+      { text: "Beispiel: Die Ehefrau überträgt in 2026 ein von ihr in 2017 im Privatvermögen angeschafftes und fremdvermietetes Grundstück (fortgeführte Anschaffungskosten: 100.000 €; Teilwert/gemeiner Wert: 500.000 €) unentgeltlich auf die A-GmbH ihres Ehemannes A." },
+      { text: "Lösung: Die verdeckte Einlage wird als mittelbare verdeckte Einlage dem Anteilseigner A zugerechnet. Aufgrund dessen wird ertragsteuerlich unterstellt, dass A dieses Wirtschaftsgut in die A-GmbH verdeckt einlegt. Dem vorgeschaltet ist daher die Zuwendung der Einlagesubstanz (= Grundstück) von der Ehefrau auf A. Dieser Vorgang selbst führt zu keinen steuerlichen Konsequenzen, sondern nur zur Anwendung der Rechtsnachfolge (§ 23 Abs. 1 Satz 3 EStG). A übernimmt in diesem Zusammenhang sämtliche mit dem Grundstück verbundenen Besteuerungsmerkmale, wie z. B. die Anschaffungskosten und den Erwerbszeitpunkt." },
+      { text: "Erst die verdeckte Einlage führt aus Sicht des A zu einem Veräußerungsvorgang i. S. des § 23 Abs. 1 Satz 5 Nr. 2 EStG. Als Veräußerungspreis gilt in diesem Zusammenhang gemäß § 23 Abs. 3 Satz 2 EStG der gemeine Wert des Grundstücks i. H. von 500.000 €. Der daraus resultierende Gewinn von 400.000 € (= 500.000 € ./. 100.000 €) ist in 2026 zu besteuern. Gleichzeitig erhöhen sich dessen Anschaffungskosten seiner Beteiligung nach § 17 Abs. 2a Satz 3 Nr. 1 EStG (+ 500.000 €)." },
+      { typ: "tabelle", spalten: ["Gegenstand der mittelbaren Einlage", "Folge bei der nahestehenden Person", "Folge beim Anteilseigner"], zeilen: [
+        ["entstandener Anspruch (Gehalt, Miete, Pacht, Zinsen)", "fiktiver Zufluss und Versteuerung in Höhe des werthaltigen Teils (im Beispiel § 19 EStG, 300.000 €)", "Zuwendung des Einlagebetrags, dann eigene verdeckte Einlage; nachträgliche Anschaffungskosten"],
+        ["Wirtschaftsgut des Privatvermögens (Grundstück i. S. des § 23 EStG)", "keine steuerlichen Folgen – unentgeltliche Zuwendung", "Rechtsnachfolge nach § 23 Abs. 1 Satz 3 EStG in Anschaffungskosten und Erwerbszeitpunkt; erst die Einlage löst § 23 Abs. 1 Satz 5 Nr. 2 EStG aus (im Beispiel 400.000 € Gewinn); Anschaffungskosten + 500.000 €"],
+        ["Wirtschaftsgut des Betriebsvermögens (auch verbilligt, dann nach der Trennungstheorie)", "steuerwirksame Privatentnahme nach § 4 Abs. 1 Satz 2 EStG", "wie vorstehend: Einlage und nachträgliche Anschaffungskosten"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet die drei Fallgruppen, die die Quelle im Fließtext nacheinander behandelt. Der Unterschied zwischen der ersten und der zweiten Zeile ist der Prüfungspunkt: Beim Anspruch bleibt die Besteuerung bei dem, der den Anspruch hatte – die Einlage kann den Zufluss nicht verschieben. Beim Wirtschaftsgut dagegen wandert die Besteuerung mit dem Gegenstand zum Gesellschafter, weil die unentgeltliche Zuwendung selbst keinen Einkünftetatbestand kennt und § 23 Abs. 1 Satz 3 EStG ihn in alle Besteuerungsmerkmale eintreten lässt." },
     ],
   },
 ];

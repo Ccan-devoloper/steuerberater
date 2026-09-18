@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 26 Kapitel mit 443 Abschnitten und
-  15 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 29 Kapitel mit 483 Abschnitten und
+  16 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.4.6 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.5.2.2 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2455,7 +2455,27 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Besserungsfalles werden nach dem BFH-Urteil vom 11.12.2018 zur verdeckten Gewinnausschüttung,
   weil die Gesellschaft steuerlich Zinsen auf ihr eigenes Eigenkapital zahlt. Eine Tabelle ordnet
   die fünf Konstellationen; drei Beispiele der Quelle führen sie vor.
-  Die Abschnitte 3.5 bis 3.9 und das Kapitel 4 (Tarif) folgen; der Campus weist den Stand aus.
+  Vom Abschnitt **3.5 (Auswirkungen der verdeckten Einlage)** sind die Folgen bei der Gesellschaft
+  eingepflegt – die Einkommenskorrektur nach § 8 Abs. 3 Satz 3 KStG, die durch die materielle
+  Korrespondenz des Satzes 4 eingeschränkt sein kann, und der Zugang beim steuerlichen
+  Einlagekonto, der von der Einkommenskorrektur sachlich unabhängig ist und erst beim
+  tatsächlichen Zufluss erfolgt, also zeitlich auseinanderfallen kann. Beim Gesellschafter die
+  nachträglichen Anschaffungskosten mit ihren drei Rechtsgrundlagen (§ 6 Abs. 6 Satz 2 EStG im
+  Betriebsvermögen, § 17 Abs. 2a Satz 3 Nr. 1 EStG bei der Beteiligung i. S. des § 17 EStG,
+  allgemeine Grundsätze beim Streubesitz) und die **Zuflussfiktion**, der Kerngedanke des
+  Abschnitts: Der Sachverhalt wird so behandelt, als hätte der Gesellschafter zuerst sein
+  angemessenes Entgelt erhalten und es dann umgehend wieder eingelegt – der Zufluss und seine
+  Versteuerung lassen sich durch eine verdeckte Einlage nicht unterdrücken. Vorgeführt an drei
+  Fallgruppen: Verzicht auf Mieten, Pachten oder Zinsen (§§ 15, 20, 21 EStG), Verzicht auf Gehalt
+  (§ 19 EStG) und Übertragung von Wirtschaftsgütern des Privatvermögens, wo § 23 Abs. 1 Satz 5
+  Nr. 2 EStG nur Grundstücke erfasst, nicht die sonstigen Wirtschaftsgüter des § 23 Abs. 1 Nr. 2
+  EStG. Bei der **mittelbaren verdeckten Einlage** bleibt die Besteuerung des Anspruchs bei dem,
+  der ihn hatte – die Einlage kann den Zufluss nicht verschieben –, während beim Wirtschaftsgut
+  des Privatvermögens die Zuwendung an den Gesellschafter folgenlos bleibt, er nach
+  § 23 Abs. 1 Satz 3 EStG in alle Besteuerungsmerkmale eintritt und erst seine eigene Einlage den
+  Ersatzrealisationstatbestand auslöst.
+  Der Rest des Abschnitts 3.5 (ab 3.5.2.3: Forderungsverzicht beim Anteilseigner), die Abschnitte
+  3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen; der Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
