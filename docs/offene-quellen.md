@@ -258,8 +258,8 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   2013 (zwei Sachverhalte), 2014 und 2015, jeweils mit Lösungsvorschlag und Randpunkten;
   eingepflegt sind daraus die Klausuren **2011**, **2012**, **2013** (beide Sachverhalte
   als eigene Einträge) im Reiter „Originalklausuren (Examen)“ des AO-Campus,
-  `src/data/k1-ao-originalklausuren.js`, dazu die Klausur **2014**; offen aus dieser Datei
-  ist nur noch die Klausur **2015**. „2026) (9).pdf“
+  `src/data/k1-ao-originalklausuren.js`, dazu die Klausuren **2014** und **2015**. **Damit ist
+  die AO-Datei vollständig ausgewertet.** „2026) (9).pdf“
   (`1lIwxxyUdq_FVIqKDhGk1LHPPJm0O8FNo`, 1,4 MB) ist die **Umsatzsteuer** („Original
   Prüfungsklausuren 2011 – 2015 mit Lösungen“, Rechtsstand 2026, April 2026) – noch offen.
   „2026) (10).pdf“ (`1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, 0,5 MB) und

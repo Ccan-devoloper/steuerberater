@@ -6631,3 +6631,102 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Satz 2 AO“ statt § 169 Abs. 2 Satz 2 AO; „AEAO Tz. zu § 198 AO“ ohne Nummer; „Aufgabe 2 zur
   PS“ statt PA; „die PA für die KSt 2009“ statt KSt 2008; und „§ 164 Abs. 4 Satz 1“ ohne
   Gesetzesangabe.
+
+## Originalklausuren der Steuerberaterprüfung – Abgabenordnung, Examen 2015 (Albert Täuscher)
+
+- Quelle: dieselbe Datei (`1OJ04Y1ZPgn5AGKOWOFey1s9gu5q8pEGe`), fünfte und letzte Klausur.
+- Einpflege dieses Durchgangs: die Klausur **2015**; der Datensatz umfasst jetzt
+  6 Originalklausuren, 426 Blöcke, 18 Tabellen und 70 Punkte; Prüfung
+  `npm run check:k1-ao-originalklausuren`. **Damit ist die AO-Datei des Ordners
+  „Originalklausuren“ vollständig ausgewertet.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Quelle für
+  diesen Jahrgang nicht aus.
+
+  **Der didaktische Kern ist der Tatsachenbegriff.** Der Golfshop ist keine eigenständige
+  Erwerbsgrundlage und kein Teilbetrieb – er war in das Hauptgeschäft integriert. Deshalb
+  sind nicht „die Einkünfte aus dem Shop“ **eine** Tatsache, sondern jede Einnahme und jede
+  Ausgabe für sich. Daraus folgt der ganze Aufbau der Lösung: Die Umsätze gehen über
+  § 173 Abs. 1 Nr. 1 AO, die Mieten über § 173 Abs. 1 Nr. 2 AO – und dort steht das grobe
+  Verschulden im Weg, das nur der Kausalzusammenhang des Satzes 2 überwindet. Ohne diesen
+  Satz bliebe der Steuerpflichtige auf den Mietaufwendungen sitzen, obwohl er die Umsätze
+  versteuern muss.
+
+  **Drei Positionen, drei verschiedene Fristenläufe:**
+
+  | Position | Frist | Korrekturvorschrift |
+  | --- | --- | --- |
+  | Umsätze + 100.000 € | zehn Jahre bis Ablauf 2020 (hinterzogen) | § 173 Abs. 1 Nr. 1 AO, alternativ § 172 Abs. 1 Satz 1 Nr. 2c AO |
+  | Mieten ./. 8.000 € | zehn Jahre, weil einheitliche Steuerverkürzung (a. A. laut Quelle vertretbar) | § 173 Abs. 1 Nr. 2 Satz 2 AO |
+  | Mieten der Ehefrau ./. 2.000 € | vier Jahre, abgelaufen Ende 2014 | keine eigenständige Änderung – Mitberichtigung nach § 177 AO |
+
+  **Die Kompensation nach § 177 AO ist der Schlussstein.** Das bisherige zu versteuernde
+  Einkommen betrug 200.000 €. Die steuererhöhende Änderung von 100.000 € setzt die Obergrenze
+  auf 300.000 €, die steuermindernde von 8.000 € die Untergrenze auf 192.000 €. Das materiell
+  richtige Einkommen beträgt 200.000 + 100.000 ./. 8.000 ./. 2.000 = **290.000 €** und liegt
+  damit innerhalb der Bestandskraftdurchbrechungen – der für sich verjährte Fehler wird
+  vollständig mitkorrigiert.
+
+  **Alle Beträge und Daten sind unabhängig nachgerechnet und gehen auf.** Umsätze 119.000 €
+  brutto = 100.000 € netto zzgl. 19.000 € Umsatzsteuer; Miete 1.190 € × 8 Monate (April bis
+  November) = 9.520 € brutto = 8.000 € netto zzgl. 1.520 € Vorsteuer. Auch die
+  Bekanntgabedaten stimmen: Der 09.03.2010 war ein Dienstag, drei Tage später der Freitag,
+  12.03.2010; der 07.02.2011 war ein Montag, drei Tage später der Donnerstag, 10.02.2011, und
+  die Einspruchsfrist endete am 10.03.2011.
+
+  **Ein Gegenstück zur Klausur 2013 – die zweite Paarung dieser Unterlage:** Beide Klausuren
+  enthalten eine Scheckzahlung am Jahresende, mit entgegengesetztem Ergebnis. Bei „Dorothea
+  Dorn“ (2013) war der Scheck **nicht gedeckt**; es kam zu keiner Erfüllung, der Zufluss trat
+  erst mit der späteren Barzahlung ein. Hier ist der Scheck gedeckt; der Zufluss tritt bereits
+  mit der Übergabe am 27.12.2007 ein, weil damit das wirtschaftliche Eigentum übergeht – auf
+  die Gutschrift am 04.01.2008 kommt es nicht an. Beide Fälle betreffen § 11 EStG, und beide
+  Male ist die spätere Kontobewegung die Ablenkung. Zusammen mit dem Unterbrechungs-Paar
+  2013/2014 hat die Unterlage damit zwei bewusst gegenläufig konstruierte Fallpaare.
+
+  **Die Zurechnung beim Ehegatten wird dreifach vorgeführt – und zwar in beide Richtungen.**
+  Die Zehnjahresfrist wirkt nach § 169 Abs. 2 Satz 3 AO auch gegenüber der Ehefrau, weil sie
+  Nutznießerin der Tat ist. Das grobe Verschulden des Ehemanns wird ihr bei der
+  Zusammenveranlagung zugerechnet (AEAO zu § 173 Nr. 5.2). Und § 172 Abs. 1 Satz 1 Nr. 2c AO
+  greift auch ihr gegenüber, obwohl sie selbst nicht getäuscht hat – die Vorschrift verlangt
+  keine eigene Täuschungshandlung. Umgekehrt trifft sie beim Scheck **kein** grobes
+  Verschulden, sodass § 173 Abs. 1 Nr. 2 Satz 1 AO dort an sich offenstünde; daran scheitert
+  es nur an der Frist.
+
+  **Ein leicht zu übersehender Punkt:** Die Umsatzsteuerjahreserklärung ist eine
+  Steueranmeldung (§ 18 Abs. 3 UStG). Weil sie einen **höheren** Betrag anmeldet als bisher
+  festgesetzt, wirkt sie nach § 168 Satz 1 AO bereits mit Eingang wie eine Änderungsfestsetzung
+  nach § 164 Abs. 2 AO, die ihrerseits wieder unter dem Vorbehalt der Nachprüfung steht. Ein
+  eigener Umsatzsteuerbescheid war deshalb entbehrlich – der Sachverhalt erwähnt eigens, dass
+  keiner erlassen wurde.
+
+  **Die Leistungseinlage ist die Falle.** Die eigene Arbeitszeit von 18.000 € ist die einzige
+  der vier Positionen ohne Auswirkung. Der Sachverhalt legt sie ausführlich aus – Stundensatz,
+  Qualifikation, Wochenendarbeit –, und sogar ein Bearbeitungshinweis erklärt den Ansatz von
+  50 € für nicht zu beanstanden. Mangels Leistungsaustausch ist dem Betrieb aber kein Aufwand
+  entstanden, und was nicht angefallen ist, kann den Gewinn nicht mindern.
+
+  **Die Zählaufgabe – eigene Zusammenzählung:** Die Quelle benennt die Verwaltungsakte des
+  zusammengefassten Bescheids einzeln (zwei Einkommensteuerbescheide nach § 155 Abs. 1 und 3
+  AO, zwei Verspätungszuschläge nach § 152 AO, zwei Anrechnungsverfügungen nach § 36 Abs. 2
+  Nr. 1 EStG und „für jeden Adressaten zwei Leistungsgebote“ nach § 254 Abs. 1 AO), nennt aber
+  **keine Gesamtzahl**. Zusammengezählt sind es zehn; diese Summe ist im Datensatz ausdrücklich
+  als eigene Ableitung gekennzeichnet. Der Gegensatz zur Klausur 2014, die dieselbe Frage für
+  eine Prüfungsanordnung stellt und dort auf elf kommt, macht den Sinn der Aufgabe deutlich:
+  Jeder dieser Verwaltungsakte ist eigenständig anfechtbar und hat einen eigenen
+  verfahrensrechtlichen Ort – Festsetzung, Erhebung oder Vollstreckung.
+
+  **Zur Datierung der Quelle:** Der Lösungshinweis zitiert ein BGH-Urteil vom 13.09.2018
+  (Az. 1 StR 642/17) – eine Entscheidung, die drei Jahre nach dem Prüfungsjahrgang ergangen
+  ist. Die Unterlage ist insoweit auf den heutigen Stand fortgeschrieben, ohne die Klausur
+  selbst zu verändern.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** der Bescheidkopf
+  „Kempten, Dienstag, 07.02.2011“, während der 07.02.2011 tatsächlich ein Montag war und der
+  Text ihn auch so bezeichnet; „als noch ermessensrecht angesehen“; „wen für den jeweiligen
+  Bescheid Korrekturtatbestände nach § 172 ff. O erfüllt sind“; „für beide
+  Einkommensteuerbescheid“; „die begünstige Änderung“; „nachträglich gekannt geworden“; „groß
+  fahrlässige Pflichtverletzung“; „das AT seine steuerlichen Pflichten“; „Zwar war nur AT der
+  Steuerhinterziehung“; „AEAO zu Tz. 12 zu § 168 AO“; der Verweis auf „§ 172 Abs. 1 S. 1 Nr. 2
+  AO“ ohne Buchstabenangabe; und die uneinheitliche Schreibweise „Berti´s GolfShop“ bzw.
+  „Bertis Golf-Shop“. Die Nummerierung des Sachverhalts (Punkte 1 bis 5) und die der Lösung
+  (Tz. 1 bis 4) stimmen nicht überein, weil die Lösung den Hinweis auf den
+  Brutto-für-netto-Effekt nicht als eigenen Punkt führt.

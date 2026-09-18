@@ -1492,7 +1492,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Staatsanwaltschaft schon vorher in der Akte lag – und ein lehrreicher Gegensatz zur Klausur
   2013: Auch hier wird die Prüfung über sechs Monate unterbrochen, diesmal aber **folgenlos**,
   weil sie kurz vor ihrem Abschluss und nicht unmittelbar nach ihrem Beginn abgebrochen wurde.
-  Nicht die Dauer der Unterbrechung entscheidet, sondern ihr Zeitpunkt.
+  Nicht die Dauer der Unterbrechung entscheidet, sondern ihr Zeitpunkt. Den Abschluss bildet
+  das **Examen 2015** („Albert Täuscher"), in dem eine Selbstanzeige dazu zwingt, **jede
+  einzelne Tatsache getrennt zu beurteilen**: Der verschwiegene Golfshop ist kein Teilbetrieb,
+  also sind nicht „die Einkünfte aus dem Shop" eine Tatsache, sondern jede Einnahme und jede
+  Ausgabe für sich. Die Umsätze (100.000 € netto) gehen deshalb über § 173 Abs. 1 Nr. 1 AO,
+  die dafür gezahlten Mieten (8.000 € netto) über § 173 Abs. 1 Nr. 2 AO – und dort steht das
+  grobe Verschulden im Weg, das nur der Kausalzusammenhang des Satzes 2 überwindet. Ein
+  dritter Punkt – eine Miete der Ehefrau, die wegen der Scheckübergabe schon 2007 zugeflossen
+  war – ist für sich **verjährt** und wird erst über die Kompensation des § 177 AO wieder
+  erreichbar: Obergrenze 300.000 €, Untergrenze 192.000 €, materiell richtiges zu
+  versteuerndes Einkommen 290.000 € – es liegt innerhalb der Bestandskraftdurchbrechungen.
+  Dazu die Zurechnung beim Ehegatten in drei Varianten (Zehnjahresfrist nach § 169 Abs. 2
+  Satz 3 AO, grobes Verschulden nach AEAO zu § 173 Nr. 5.2, arglistige Täuschung nach
+  § 172 Abs. 1 Satz 1 Nr. 2c AO ohne eigene Täuschungshandlung), die Wirkung der
+  Umsatzsteuerjahreserklärung als Steueranmeldung nach § 168 Satz 1 AO und die Zählaufgabe,
+  wie viele Verwaltungsakte in einem zusammengefassten Einkommensteuerbescheid stecken – die
+  Quelle benennt sie einzeln, nennt aber keine Summe; die Zusammenzählung auf zehn ist im
+  Datensatz als **eigene Ableitung** gekennzeichnet. Bemerkenswert ist auch das Gegenstück zur
+  Klausur 2013: Dort war der Scheck **nicht gedeckt** und löste keinen Zufluss aus, hier ist
+  er gedeckt und fließt bereits mit der Übergabe zu – beide Male ist die spätere
+  Kontobewegung die Ablenkung. Damit ist die AO-Datei des Drive-Ordners vollständig
+  ausgewertet.
   Prüfung: `npm run check:k1-ao-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
