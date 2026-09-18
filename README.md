@@ -138,7 +138,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   begünstigt und neutralisiert sich zwischen Vermögensanfall und Vermächtnislast, bei ihm
   greift die Verschonung voll. In der fiktiven Steuer der Steuerklasse I ist dabei der
   Härteausgleich mitzurechnen – eine Feinheit, die die Quelle ohne Kommentar mitführt
-  (Steuer 82.845 € bzw. 20.858 €).
+  (Steuer 82.845 € bzw. 20.858 €). Dazu die einzige **Schenkung** der Sammlung („Paul
+  Pollmann"), in der vier Gegenleistungen auf vier verschiedene Arten behandelt werden –
+  anteilig gekürzt, voll abziehbar, gar nicht abziehbar und ohne Kürzung trotz Freibetrag –
+  und die Familienheimbefreiung daran scheitert, dass § 13 Abs. 1 Nr. 4c ErbStG nur für
+  Erwerbe von Todes wegen gilt. Den Abschluss bildet ein kurzer Fall, in dem **Härteausgleich
+  und Tarifbegrenzung ineinandergreifen**: Der Ausgleich wirkt in beiden Steuerklassen, und
+  erst die korrigierten Beträge gehen in die Verhältnisrechnung ein; die Quelle zeigt dazu
+  eine Kurzform, die den Entlastungsbetrag als Quote der Steuerdifferenz berechnet.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

@@ -5874,3 +5874,52 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   der Schwesterklausur Backhaus**, was die gemeinsame Herkunft beider Texte zusätzlich
   belegt. Gerechnet ist, wie das Ergebnis von 2.263 € und die Summe von genau 32.500 €
   zeigen, richtig geteilt.
+
+## ErbSt-Fallsammlung 4. Fachtermin – Schenkung „Paul Pollmann“ und der Tarifbegrenzungsfall
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), neunter und
+  zehnter Fall.
+- Einpflege dieses Durchgangs: beide Fälle als vierzehnter und fünfzehnter Übungsfall; der
+  Datensatz umfasst jetzt 15 Übungsfälle, 474 Blöcke und 88 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Beide Lösungen sind Zeile für Zeile nachgerechnet; beide gehen auf.** Schenkungsteuer
+  **87.375 €**, Erbschaftsteuer im Tarifbegrenzungsfall **107.290 €**.
+
+  **Pollmann behandelt vier Gegenleistungen auf vier verschiedene Arten** – daran
+  entscheidet sich der Fall: Die Schuld des Mietwohngrundstücks wird im Verhältnis des
+  steuerpflichtigen zum vollen Grundbesitzwert gekürzt (200.000 × 720.000/800.000 =
+  180.000 €); die Hypothek des Einfamilienhauses bleibt voll abziehbar, weil das Haus
+  steuerpflichtig ist; die Erwerbsnebenkosten von 5.500 € sind voll abziehbar und werden
+  nach den Ländererlassen ausdrücklich **nicht** aufgeteilt; die Grunderwerbsteuer von
+  zusammen 19.500 € ist **überhaupt nicht** abziehbar; und die Pkw-Restschuld bleibt voll
+  abziehbar, weil der pauschale Freibetrag keine Kürzung auslöst.
+
+  **Die Falle des Schenkungsfalls:** Wohnfläche 300 qm und Einzug der Tochter legen die
+  Prüfung des § 13 Abs. 1 Nr. 4c ErbStG nahe – die Vorschrift gilt aber nur für Erwerbe von
+  Todes wegen. Bei einer Schenkung kommt allein § 13 Abs. 1 Nr. 4a ErbStG in Betracht, und
+  der erfasst nur Ehegatten und Lebenspartner. Die 200-qm-Grenze, auf die die Flächenangabe
+  zielt, wird deshalb gar nicht erst geprüft. Genau diese Abgrenzung stellt der Skriptteil 2
+  in seiner Übersicht zu § 13 Abs. 1 Nr. 4a bis 4c ErbStG nebeneinander.
+
+  **Der Tarifbegrenzungsfall zeigt die entscheidende Reihenfolge:** Der Härteausgleich wirkt
+  in **beiden** Steuerklassen, und erst die so korrigierten Beträge gehen in die
+  Verhältnisrechnung ein. In der Steuerklasse II sinkt die Steuer von 184.560 € auf
+  157.600 €, in der fiktiven Steuerklasse I von 116.888 € auf 97.600 €. Beide Male beträgt
+  der übersteigende Betrag dieselben 15.200 € und die Deckelung dieselben 7.600 €; nur die
+  Ausgangsbeträge unterscheiden sich. Wer den Härteausgleich nur in der tatsächlichen
+  Steuerklasse anwendet, rechnet falsch. Dieselbe Feinheit führt die Klausur „Olfmann“ ohne
+  Kommentar mit.
+
+  **Die Kurzform am Ende der Quelle ist nachgerechnet und trifft exakt:** Weil beide
+  Steuerbeträge mit derselben Quote zu multiplizieren sind, lässt sich der Entlastungsbetrag
+  als Quote der Steuerdifferenz berechnen – (157.600 ./. 97.600) × 83,85 % = 60.000 ×
+  83,85 % = 50.310 €, identisch mit der ausführlichen Rechnung (132.148 ./. 81.838). Sie
+  macht sichtbar, was der Entlastungsbetrag wirtschaftlich ist: der auf das begünstigte
+  Vermögen entfallende Anteil des Steuerklassenunterschieds.
+
+  Mit 83,85 % ist die Quote des § 19a Abs. 3 ErbStG hier die höchste der gesamten Sammlung
+  (gegenüber 42,1 %, 38 %, 29,65 %, 18,09 % und 9,66 % in den übrigen Fällen), weil außer
+  dem Pauschbetrag keine Schulden abzuziehen sind. Entsprechend stark wirkt die
+  Tarifbegrenzung: Sie senkt die Steuer um knapp ein Drittel.
