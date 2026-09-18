@@ -4427,3 +4427,49 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   als Geschäftsgrundstück ohne ermittelbare Vergleichsmiete wieder im Sachwertverfahren; die
   Hausaufgabe 2 bewertet ein Mietwohngrundstück im Ertragswertverfahren. Der Datensatz führt
   diesen Zusammenhang mit.
+
+## Bewertungsrecht Teil 2 (Schäfer) – Tz. 5 und Beginn der Tz. 6
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`),
+  Tz. 5 vollständig und Tz. 6 bis einschließlich Buchstabe a), PDF-Seiten 12 bis 15.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 3 Teile,
+  7 Kapitel, 99 Blöcke und 8 Tabellen; Prüfung `npm run check:k1-erbst-bewertung-teil2`.
+- Noch offen aus derselben Datei: der Rest der Tz. 6 (Bewirtschaftungskosten,
+  Liegenschaftszinssatz, Restnutzungsdauer und Gebäudeertragswert) sowie die Tz. 7 bis 12
+  und die Lösungsdatei.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Nachgerechnet und zutreffend: Die Umrechnung des Vergleichspreises geht auf – 120.000 € :
+  80 qm = 1.500 €/qm, × 75 qm = 112.500 €. Auch das Beispiel zur 20-Prozent-Grenze geht auf
+  und zeigt, dass die Grenze in **beide Richtungen** wirkt: Im Fall a) weicht die
+  tatsächliche Miete von 4 um genau 20 % von der üblichen Miete von 5 ab, also nicht um
+  *mehr als* 20 %, so dass es bei 4 bleibt; im Fall b) beträgt die Abweichung (7 − 5) : 5 =
+  40 %, so dass die über der üblichen Miete liegende tatsächliche Miete auf 5 gekappt wird.
+
+  Darstellungsentscheidung: Das Schaubild zum Ertragswertverfahren steht in der Quelle als
+  zweispaltige Grafik – links die Kette vom Rohertrag über Bewirtschaftungskosten,
+  Reinertrag und Bodenwertverzinsung zum Gebäudeertragswert, rechts die Ermittlung des
+  Bodenwerts aus Bodenrichtwert und Grundstücksfläche. In der Erfassung stehen die
+  Rechenzeichen beider Spalten paarweise nebeneinander („× ×“, „= =“). Die beiden Stränge
+  sind als getrennte Tabellen wiedergegeben und am Ende wieder zusammengeführt; der Wortlaut
+  ist unverändert.
+
+  Stellen, an denen die Quelle verschrieben ist oder ihre Fundstellen nicht zutreffen –
+  wortlautgetreu übernommen und gekennzeichnet:
+
+  - **Tz. 6 a), Beispieltabelle zur 20-Prozent-Grenze.** Die Spaltenüberschrift nennt
+    „anzusetzen § **182** Abs. 2 Nr. 2 BewG“; gemeint ist § **186** Abs. 2 Nr. 2 BewG, den
+    der Absatz unmittelbar davor selbst zitiert. § 182 Abs. 2 BewG betrifft das
+    Vergleichswertverfahren.
+  - **Tz. 5 a), Beispiel.** „Diese in der Ausstattung und nach der Lage vergleichbare **und**
+    Wohnung wurde für 120.000 € verkauft“; in der Lösung außerdem die Einheit „1.500 **qm**
+    × 75 qm“ statt 1.500 €/qm.
+  - **Tz. 6, Außenanlagen.** Der Satz zu § 184 Abs. 4 BewG endet ohne Punkt.
+  - **Tz. 6 a).** „das Entgelt, **dass** für die Benutzung des bebauten Grundstücks … zu
+    zahlen ist“.
+
+  Querbezüge: Im Übungsfall Fietze scheidet das Vergleichswertverfahren für das
+  Einfamilienhaus in Hagen gerade deshalb aus, weil weder ein Vergleichswert noch geeignete
+  Vergleichswertfaktoren vorliegen – der Sachverhalt schließt beide Varianten der Tz. 5
+  ausdrücklich aus. Und die 20-Prozent-Grenze entscheidet dort über beide Obergeschosse des
+  Bochumer Grundstücks (1. OG 41,7 % Abweichung, 2. OG 3,3 %).

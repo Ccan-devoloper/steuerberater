@@ -154,7 +154,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Tiny-Häusern und drei Zuordnungsbeispielen, deren drittes mit **genau 80 %**
   Wohnnutzung der Grenzfall ist, in dem weder Absatz 3 noch Absatz 6 greift; sowie die
   Zuordnung zu den drei Bewertungsverfahren nach § 182 BewG mit dem Sachwertverfahren als
-  Auffangverfahren und der Regel für Mischfälle.
+  Auffangverfahren und der Regel für Mischfälle. Dazu das **Vergleichswertverfahren** mit
+  der hinreichenden – nicht absoluten – Übereinstimmung der Vergleichsgrundstücke, dem
+  Vorrang der Gutachterausschuss-Daten vor dem eigenen Kaufpreis nach dem BFH-Urteil vom
+  24.08.2022 und den Vergleichsfaktoren je Flächeneinheit; sowie der Aufbau des
+  **Ertragswertverfahrens** mit dem Bodenwert als Mindestwert, dem vollständigen
+  Rechenschema von der Jahresmiete über Bewirtschaftungskosten, Reinertrag und
+  Bodenwertverzinsung bis zum Grundbesitzwert und dem Rohertrag nach § 186 BewG mit der
+  **20-Prozent-Grenze** zur üblichen Miete, die in beide Richtungen wirkt.
   Prüfung: `npm run check:k1-erbst-bewertung-teil2`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des
