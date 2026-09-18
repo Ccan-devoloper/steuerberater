@@ -1,0 +1,227 @@
+/* Bilanz-Fallsammlung „laufender Unterricht“ (K3), Markus Nöthen.
+
+   Wortlautgetreue Übernahme der Übungsfälle, die den laufenden Unterricht des
+   Bilanzsteuerrechts begleiten. Die Quelle besteht aus vier Teilen; jeder Teil
+   hat einen eigenen allgemeinen Sachverhalt, eine eigene Aufgabenstellung und
+   eigene Bearbeitungshinweise, an die sich die Einzelfälle anschließen.
+
+   WICHTIG: Die Quelle enthält KEINE Lösungen. Es sind Aufgabenblätter für den
+   Unterricht. Es wird hier bewusst keine Lösung erfunden; stattdessen verweist
+   jedes Kapitel auf die Stellen im Campus, an denen dieselbe Bilanzierungsfrage
+   mit vollständiger Musterlösung steht – die Übungsklausuren Bilanzierung 1
+   bis 4, die Originalklausuren und die Module des Bilanzen-Campus.
+
+   Eine Stelle ist rekonstruiert: Der Betriebsabrechnungsbogen im 12. Fall des
+   Teils 1 steht als fünfspaltige Tabelle, die die Textextraktion zeilenweise
+   ausgibt. Die Spaltenzuordnung ist dort, wo sie verlorengeht, aus den
+   Spaltensummen der Quelle zurückgerechnet; wo auch das nicht möglich ist,
+   sagt der Datensatz es ausdrücklich, statt eine Zuordnung zu behaupten.
+
+   Blocktypen wie in den übrigen Beständen: text | titel | tabelle.
+
+   Personenbezogene Wasserzeichen des Quell-PDFs sind nicht übernommen. */
+
+export const bilUebungsfaelleQuelle = {
+  reihe: "Bilanz-Fallsammlung laufender Unterricht · Markus Nöthen",
+  stand: "Wirtschaftsjahr 2025",
+  verfasser: "Markus Nöthen",
+  didaktik: [
+    "Diese Fallsammlung ist anders gebaut als die Übungsklausuren: Jeder Teil hat einen durchgehenden Unternehmenssachverhalt, an den sich zehn bis dreizehn voneinander unabhängige Einzelfälle hängen. Man kann deshalb einen einzelnen Fall herausgreifen und in zehn Minuten bearbeiten, ohne den ganzen Sachverhalt zu lesen – und trotzdem bleibt der Rahmen konsistent, weil Rechtsform, Gewinnermittlungsart, Wirtschaftsjahr und Bilanzaufstellungstag festliegen.",
+    "Die Aufgabenstellung ist in allen Teilen dieselbe und verlangt drei Dinge: die Beurteilung handels- und steuerrechtlich unter Angabe der Vorschriften, die Entwicklung der Bilanzansätze in Handels- und Steuerbilanz zum 31.12.2025 und die noch erforderlichen Buchungssätze einschließlich Korrekturbuchungen. Dazu kommt die Zielvorgabe, die jede Wahlrechtsausübung steuert: möglichst niedriger steuerlicher Gewinn bei möglichst hohem handelsbilanziellem Jahresüberschuss, wobei das steuerrechtliche Ergebnis Vorrang hat.",
+    "Bemerkenswert ist die Buchungskreis-Technik der Quelle: Für Buchungen, die handels- und steuerrechtlich identisch sind, wird der Kreis „Alle Bereiche“ angesprochen, bei Abweichungen die Kreise „Nur Handelsrecht“ und „Nur Steuerrecht“. Wer die Fälle so bearbeitet, hat am Ende automatisch die Überleitung zwischen beiden Bilanzen sauber getrennt.",
+  ],
+};
+
+const VERFASSER = "Markus Nöthen";
+const RECHTSSTAND = "Wirtschaftsjahr 2025";
+const OHNE_LOESUNG = "Die Quelle ist ein Aufgabenblatt für den laufenden Unterricht und enthält keine Lösungen. Es wird hier bewusst keine erfunden.";
+
+export const bilUebungsfaelle = [
+  {
+    id: "bil-uf-01",
+    kapitel: "1",
+    abschnitt: "Teil 1",
+    title: "Teil 1 – Schreinerei MN in Aachen: dreizehn Fälle von der Forderungsbewertung bis zur Bewertungsvereinfachung",
+    thema: "Ein Schreinermeister mit 50 Mitarbeitern als e.K. – und dreizehn Einzelfälle, die den Kernbestand des Bilanzsteuerrechts abdecken: Einzel- und Pauschalwertberichtigung, Substanzerhaltungsverpflichtung, Ehegattengrundstück und Einlage, Leasing mit Kaufoption, Mietkauf, Beteiligung an einer Kapitalgesellschaft, Elektro-Pkw ohne Fahrtenbuch, Tausch mit Zuschuss, Erwerb auf Rentenbasis, zinslos gestundeter Kaufpreis, Herstellungskosten mit Betriebsabrechnungsbogen und Verbrauchsfolgeverfahren",
+    rechtsstand: RECHTSSTAND,
+    quelle: "Bilanz-Fallsammlung laufender Unterricht, Teil 1 (Nöthen)",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 4 Abs. 1, § 5 Abs. 1 EStG", "§ 6 Abs. 1 Nr. 1, Nr. 2, Nr. 3, Nr. 4, Nr. 5 EStG",
+      "§ 6 Abs. 1 Nr. 1a, § 6 Abs. 2, § 6 Abs. 3 EStG", "§ 7 Abs. 1, Abs. 2 EStG",
+      "§ 7g EStG", "§ 3 Nr. 40, § 3c Abs. 2 EStG", "§ 8 Abs. 2 EStG",
+      "§ 240, § 246, § 247, § 252, § 253, § 255 HGB", "§ 19 InsO", "R 6.5 EStR",
+    ],
+    themen: ["Forderungsbewertung", "Pauschaldelkredere", "Substanzerhaltung", "Ehegattengrundstück", "Leasing", "Mietkauf", "Beteiligung", "Elektrofahrzeug", "Tausch", "Kaufpreisrente", "Abzinsung", "Herstellungskosten", "Betriebsabrechnungsbogen", "Verbrauchsfolgeverfahren"],
+    bloecke: [
+      { typ: "titel", text: "Allgemeiner Sachverhalt" },
+      { text: "MN ist passionierter Schreinermeister und betreibt in Aachen eine Schreinerei als eingetragener Kaufmann (e.K.) mit 50 Mitarbeitern. Das Einzelunternehmen ist im Handelsregister eingetragen und die Gewinnermittlung erfolgt durch Betriebsvermögensvergleich. Das Wirtschaftsjahr entspricht dem Kalenderjahr." },
+      { text: "Die Schreinerei wird auf einem großen Grundstück in der Prinzregentenstraße 15 in Aachen betrieben. Hier befinden sich im Erdgeschoss ein großes und gut gefülltes Lager sowie eine Werkstatthalle. In der ersten Etage sind Büroräume." },
+      { typ: "titel", text: "Aufgaben" },
+      { text: "• Beurteilen Sie unter Angabe der einschlägigen Vorschriften, wie die dargestellten Sachverhalte für den Jahresabschluss der Tischlerei des MN handelsrechtlich und steuerlich zu beurteilen sind." },
+      { text: "• Entwickeln Sie die Bilanzansätze in der Handelsbilanz und Steuerbilanz zum 31.12.2025." },
+      { text: "• Bilden Sie die zur Aufstellung der Handelsbilanz und Steuerbilanz noch erforderlichen Buchungssätze (ggf. Korrekturbuchungssätze)." },
+      { typ: "titel", text: "Hinweise" },
+      { text: "• Die Buchhaltung ist so eingerichtet, dass für Buchungen, die handelsrechtlich und steuerrechtlich identisch sind, der Buchungskreis „Alle Bereiche“ anzusprechen ist. Im Falle von Abweichungen ist jeweils in den besonderen Buchungskreisen „Nur Handelsrecht“ und/oder „Nur Steuerrecht“ zu buchen." },
+      { text: "• MN wünscht im Jahr 2025 einen möglichst niedrigen steuerlichen Gewinn und handelsbilanziell einen möglichst hohen Jahresüberschuss. Das steuerrechtliche Ergebnis hat Vorrang." },
+      { text: "• Der steuerliche Gewinn 2024 betrug 100.000 €. Der Steuerbilanzgewinn 2024 liegt bei 180.000 €. § 7 Abs. 2 EStG ist nicht zu prüfen." },
+      { text: "• Cent-Beträge sind auf volle Euro abzurunden (bis 49 Cent) bzw. aufzurunden (ab 50 Cent). Eventuell erforderliche Rechnungen und Bescheinigungen sind ordnungsgemäß, soweit sich aus dem Sachverhalt nichts Gegenteiliges ergibt." },
+      { text: "• Der Tag der Bilanzaufstellung ist der 01.07. des Folgejahres." },
+      { typ: "titel", text: "1. Fall: Forderungen" },
+      { text: "MN hat zum 31.12.2025 einen Forderungsbestand von 595.000 € (inkl. 19 % USt). Bisher wurde von MN in 2025 keine Wertberichtigung vorgenommen. Es sind die folgenden Infos über die Forderungen bekannt:" },
+      { text: "a) Forderung über 3.570 € (inkl. 19 % USt) gegenüber der X-GmbH mit Sitz in Iserlohn. Die X-GmbH hat Ende November 2025 einen Antrag auf Eröffnung des Insolvenzverfahrens gestellt wegen Überschuldung (§ 19 InsO). Bereits kurz vor Weihnachten wurde ein vorläufiger Insolvenzverwalter bestellt. MN hat von diesem Vorgang erst am 15.01.2026 beim Friseur erfahren. Es ist mit einer Insolvenzquote von 4 % zu rechnen." },
+      { text: "b) Forderung gegenüber der Stadt Aachen über 10.000 € zzgl. 1.900 € USt. Die Stadt Aachen steckt seit Jahren in finanziellen Schwierigkeiten und ist bekannt für ihre schleppende Zahlungsweise." },
+      { text: "c) Aufgrund von betrieblichen Erfahrungen der vergangenen Jahre beträgt das Pauschaldelkredere 3 %. Von den zum 31.12.2025 offenen Forderungen wurden bis zur Bilanzaufstellung 476.000 € beglichen." },
+      { typ: "titel", text: "2. Fall: Mietverhältnis mit Substanzerhaltungsverpflichtung" },
+      { text: "MN hat von X seit 01/2025 eine neue Maschine gepachtet. Die monatliche Miete beträgt 1.800 € zzgl. 19 % USt. MN hat die monatliche Miete fristgerecht zu Beginn eines jeden Monats entrichtet und als Aufwand bzw. VSt gebucht (alle Bereiche). MN verpflichtet sich, die Substanz der gepachteten Maschine zu erhalten und ggf. – falls erforderlich – die Maschine auf seine Kosten zu ersetzen. X hatte die Maschine für 180.000 € in 01/2025 erworben und direkt an MN vermietet. Die vorgesehene Ersatzbeschaffung soll mit Ablauf des 31.12.2034 durch MN erfolgen." },
+      { text: "Wiederbeschaffungskosten der Maschine am 31.12.2025: 190.000 € · am 31.12.2026: 205.000 € · am 31.12.2034: 210.000 €. Weitere Buchungen als die o. g. Buchungen erfolgten nicht." },
+      { typ: "titel", text: "3. Fall: Miteigentum und Einlage" },
+      { text: "MN und seine Ehefrau F haben mit Kaufvertrag vom 12.12.2019 und Übergang von Besitz, Nutzen und Lasten zum 01.01.2020 das mit einer Lagerhalle bebaute Grundstück Hildener Str. 220 für 400.000 € (Anteil Grund und Boden zutreffend 20 %, Baujahr Gebäude 2013) erworben. Die Eheleute stehen mit je 50 % als Miteigentümer im Grundbuch drin. Die Eintragung in das Grundbuch erfolgte am 03.02.2020. Das Grundstück wurde seit dem 01.01.2020 für eine ortsübliche Miete von 8.000 € zzgl. 1.520 € USt an den fremden Dritten D vermietet. Die laufenden Grundstückskosten betragen jährlich 5.000 € zzgl. 500 € USt. D hat den Mietvertrag zum 31.12.2024 fristgerecht gekündigt. Da MN dringend eine neue Lagerhalle benötigte, haben die Eheleute das Grundstück ab dem 01.01.2025 zum gleichen Mietzins an das Einzelunternehmen des MN vermietet. Die monatliche Miete wurde vom betrieblichen Bankkonto des MN im Kalenderjahr 2025 fristgerecht auf das gemeinsame private Bankkonto der Eheleute überwiesen. MN hat die Mieten als Aufwand bzw. VSt in Handels- und Steuerbilanz erfasst. Weitere Konsequenzen hat MN nicht gezogen, da MN gehört hat, dass die Bilanzierung als Betriebsvermögen eher nachteilig ist." },
+      { typ: "titel", text: "4. Fall: Leasing" },
+      { text: "MN legt großen Wert auf moderne Technologien. Ihm ist es wichtig, dass seine Mitarbeiter mit den neusten Maschinen arbeiten können, um so präzise und schnell die Aufträge zu erledigen. Ende 2024 ist MN auf die Firma CNC Leasing GmbH aufmerksam geworden. Bei dieser kann MN eine neue Fräse der Marke CNC im Rahmen eines unkündbaren Leasingvertrages testen, um so eventuell auch andere Maschinen, die in die Jahre gekommen sind, umzurüsten." },
+      { text: "Aus diesem Grund schließt MN im Januar 2025 einen Leasingvertrag über eine neue Fräse der Marke CNC mit einer Leasingdauer von 6 Jahren. Die betriebsgewöhnliche Nutzungsdauer beläuft sich auf 10 Jahre. Die Firma CNC Leasing GmbH hat Anschaffungskosten i. H. v. 396.000 € zzgl. USt für die Berechnung der Leasingraten zugrunde gelegt. Im Leasingvertrag wird eine Kaufoption nach Ablauf der Leasinggrundmietzeit vereinbart. Der Kaufpreis beträgt nach Ablauf der 6 Jahre Grundmietzeit 82.000 € zzgl. Umsatzsteuer." },
+      { text: "Der Lieferung und Montage der Maschine erfolgen zum 02.03.2025 durch die Firma CNC Leasing GmbH. Nach erfolgreichem Aufbau und erster Inbetriebnahme hat MN eine Sonderzahlung i. H. v. 20.000 € zzgl. USt zu entrichten. Die monatlich nachschüssig zu entrichtenden Leasingraten betragen 5.850 € zzgl. ggf. anfallender Umsatzsteuer. Die Umsatzsteuer wurde MN mit Rechnung vom 30.12.2025 in Rechnung gestellt und von MN noch nicht bezahlt." },
+      { text: "In der Buchhaltung wurde die Einmalzahlung wie folgt gebucht (alle Bereiche): Aufwand 20.000 an Bank 20.000. Die Buchhaltung erfasst die laufenden Kosten in Form von Mietzahlungen (fristgerecht gezahlt) jeden Monat wie folgt (alle Bereiche): Aufwand 5.850 an Bank 5.850" },
+      { typ: "titel", text: "5. Fall: Mietkauf" },
+      { text: "MN hat von XY seit dem 01.04.2023 eine Kehrmaschine angemietet. Der Mietvertrag wurde am 19.03.2023 abgeschlossen. Die angemessene monatliche Miete ab dem 01.04.2023 beträgt 1.000 € zzgl. ggf. anfallende USt. Der Mietvertrag kann von beiden Parteien monatlich gekündigt werden. Außerdem wurde im Mietvertrag vereinbart, dass MN die Kehrmaschine in den ersten 2 Jahren für 50.000 € zzgl. ggf. anfallende USt erwerben kann unter Anrechnung der bisher gezahlten Miete (netto). MN übt zum 01.01.2025 für 29.000 € zzgl. ggf. anfallende USt das Kaufrecht aus. Die betriebsgewöhnliche Nutzungsdauer der Maschine beträgt 10 Jahre." },
+      { typ: "titel", text: "6. Fall: Beteiligung an KapG (GmbH, AG, UG)" },
+      { text: "MN hat im März 2025 mit Wirkung zum 01.04.2025 eine Beteiligung an der A-GmbH für 50.000 € erworben. Die Beteiligung hat MN erworben, um langfristig das Betriebskapital seines Einzelunternehmens zu stärken. Am 09.09.2025 hat die A-GmbH an MN eine Gewinnausschüttung über 100.000 € vorgenommen." },
+      { text: "Finanziert hat MN die Beteiligung u. a. mit einem Fälligkeitsdarlehen über 20.000 €, welches am 03.04.2025 von der S-Bank an MN ausgezahlt worden ist. Die zutreffenden Zinsen für das Jahr 2025 über 500 € hat MN am 31.12.2025 fristgerecht entrichtet. Buchungen hat MN keine vorgenommen." },
+      { typ: "titel", text: "7. Fall: PKW" },
+      { text: "MN hat mit Kaufvertrag vom 06.12.2024 einen neuen PKW erworben. Dabei handelt es sich um einen Elektro-PKW mit einem Bruttolistenpreis von 82.220 €. Der PKW wurde am 02.01.2025 an MN ausgeliefert und MN hat den Kaufpreis am 17.01.2025 überwiesen. Der Kaufpreis beträgt 50.000 € zzgl. 19 % Umsatzsteuer. MN führt für diesen PKW kein Fahrtenbuch. Allerdings ist ersichtlich, dass MN im Kalenderjahr 2025 insgesamt 20.000 km mit dem PKW gefahren ist (zutreffend). Die Entfernung zwischen der Wohnung des MN in Herzogenrath und der Betriebsstätte in Aachen beträgt 29 km. Insgesamt ist MN nachweislich an 200 Tagen von der Wohnung zur Betriebsstätte gefahren. Außerdem nutzt MN den PKW auch privat sowie für Fahrten zu Kunden." },
+      { text: "Die laufenden Kosten des PKW im Kalenderjahr 2025 betragen: • Wartung und Inspektionskosten: 1.100 € zzgl. Umsatzsteuer • KFZ-Versicherung: 1.200 € • Stromkosten: 7.000 € zzgl. Umsatzsteuer. MN hat die Kosten als Aufwand gebucht (alle Bereiche) und die Vorsteuer geltend gemacht. Die betriebsgewöhnliche Nutzungsdauer des PKW‘s beträgt 6 Jahre." },
+      { typ: "titel", text: "8. Fall: Tausch" },
+      { text: "MN hat mit Kaufvertrag vom 06.12.2024 einen neuen Lieferwagen „Vito 2“ erworben. Der Lieferwagen wurde am 02.01.2025 an MN ausgeliefert. Als Kaufpreis wurden originär 30.000 € zzgl. USt vereinbart. MN verpflichtete sich im Kaufvertrag, 28.000 € von seinem betrieblichen Bankkonto zu überweisen, was am 05.01.2025 passierte. Ferner verpflichtete er sich, seinen alten Lieferwagen „Vito 1“ mit einem gemeinen Wert (= subjektiven Wert) von 7.700 € in Zahlung zu geben. Die betriebsgewöhnliche Nutzungsdauer des neuen Lieferwagens „Vito 2“ beträgt 8 Jahre." },
+      { text: "Mit Abschluss des Kaufvertrags hat MN einen Anspruch auf eine Förderung des Bundeswirtschaftsministeriums erhalten, weil es sich bei dem Lieferwagen „Vito 2“ um eine hybride Variante handelt. Der entsprechende Antrag wurde am 08.01.2025 gestellt und der Zuschuss über 2.000 € wurde am 19.01.2025 ausgezahlt. Der Lieferwagen wird ausschließlich betrieblich zur Auslieferung von Waren genutzt." },
+      { typ: "titel", text: "9. Fall: Erwerb auf Rentenbasis" },
+      { text: "MN hat mit Kaufvertrag vom 08.06.2025 das unbebaute Grundstück Rheinstraße 22 erworben, auf dem MN seinen Fuhrpark abstellen möchte. Der Kaufpreis inklusive Nebenkosten beträgt 100.000 €. Übergang von Besitz, Nutzen und Lasten erfolgte am 01.07.2025. Neben dem Kaufpreis verpflichtete sich MN dem Verkäufer V eine lebenslange Rente über 2.000 €, beginnend ab 01.07.2025, zu zahlen." },
+      { text: "Die nach versicherungsmathematischen Grundsätzen zutreffend ermittelten Rentenbarwerte betragen: • 08.06.2025: 181.600 € • 01.07.2025: 180.000 € • 31.12.2025: 172.500 €. Die Rentenzahlungen wurden von MN in 2025 monatlich vom privaten Bankkonto bezahlt, sodass keine Buchung erfolgte." },
+      { text: "Hinsichtlich des Erwerbs des unbebauten Grundstücks buchte MN (alle Bereiche): Grund und Boden 100.000 € an Bank 100.000 €" },
+      { text: "Da V das Grundstück bisher an den Landwirt L vermietet hatte, der dort seine Schafe hat weiden lassen, hat MN dem Landwirt L eine Abfindung über 5.000 € zzgl. ggf. anfallende USt gezahlt, damit L das Grundstück zum 01.07.2025 räumt. MN buchte insoweit (alle Bereiche): Aufwand 5.000 € an Bank 5.000 €" },
+      { text: "Mit Bauantrag vom 08.07.2025 begann MN mit der Errichtung einer überdachten Lagerhalle, damit der Fuhrpark auch vor Wind und Wetter geschützt ist. Die Fertigstellung erfolgte am 13.12.2025. Die Herstellungskosten haben 200.000 € zzgl. USt betragen. Weitere Buchungen erfolgten bisher keine." },
+      { typ: "titel", text: "10. Fall: Stundung des Kaufpreises" },
+      { text: "MN hat am 01.02.2025 einen neuen Anhänger für seinen LKW erworben. Die betriebsgewöhnliche Nutzungsdauer beträgt 15 Jahre. Als Kaufpreis wurden 200.000 € zzgl. USt vereinbart. MN muss 50.000 € sowie die 38.000 € USt sofort entrichten. 150.000 € des Kaufpreises werden vom Verkäufer zinslos bis zum 30.01.2026 gestundet. Bis zur vollständigen Zahlung hat sich V das Eigentum vorbehalten." },
+      { text: "Für den Anhänger hat MN einen Förderzuschuss über 20.000 € bereits am 11.12.2024 beantragt und am 28.12.2024 ausgezahlt bekommen. MN hat den Zuschuss über 20.000 € handelsrechtlich als Ertrag erfasst und steuerrechtlich für den Zuschuss eine Rücklage gebildet." },
+      { text: "MN buchte in 2025 bisher in Handels- und Steuerbilanz: VSt 38.000 € an Bank 88.000 € / Anhänger 50.000 €. Gehen Sie auch von einem handelsrechtlichen Abzinsungssatz von 5,5 % aus." },
+      { typ: "titel", text: "11. Fall: Herstellungskosten" },
+      { text: "MN hat in 2025 neue Betten produziert. Für die Herstellung der Betten sind in 2025 an Fertigungseinzelkosten 100.000 € und an Materialeinzelkosten 150.000 € entstanden, die aufwandswirksam gebucht worden sind (zutreffend)." },
+      { text: "Die gesamten Fertigungseinzelkosten des Betriebs betragen 500.000 €. Die gesamten Materialeinzelkosten des Betriebs betragen 800.000 €. An Fertigungsgemeinkosten sind im Wirtschaftsjahr 2025 200.000 € angefallen und an Materialgemeinkosten 600.000 €. Die Positionen sind zutreffend gebucht worden. Die Betten sind bis zum Bilanzstichtag noch vollständig vorhanden." },
+      { typ: "titel", text: "12. Fall: Herstellungskosten" },
+      { text: "MN hat ein Verfahren entwickelt, um für seine neuen Brandschutztüren aus Holz ein Zertifikat vom TÜV zu erhalten. Mit spezieller Lasur bezogene Holztüren, deren Holz in schwerbrennbarer Flüssigkeit getränkt wurde, sind seine neuste Erfindung im Kalenderjahr 2025. Ende Mai beginnt MN bereits mit der Produktion, damit die Liefertermine zum 31.03.2025 eingehalten werden können." },
+      { text: "Die unstrittigen Einzelkosten, der zum 31.12.2025 fertiggestellten und lagernden Brandschutztüren belaufen sich auf nachstehende Beträge: Materialeinzelkosten: 110.000 € · Fertigungslöhne: 200.000 €. Die Buchhaltung des MN hat die zur Lieferung bereiten Brandschutztüren mit den Einzelkosten im Rahmen der Inventur erfasst und aktiviert." },
+      { text: "Die Brandschutztüren, bei denen noch die spezielle Lasur fehlt, wurden im Rahmen der Inventur mit folgenden Einzelkosten bewertet und aktiviert: Materialeinzelkosten: 220.000 € · Fertigungslöhne: 230.000 €." },
+      { text: "Die Buchhaltung fertigte den folgenden Betriebsabrechnungsbogen für die gesamte Tischlerei an, in dem alle Aufwendungen und auch die kalkulatorischen Kosten auf die vier Bereiche Material, Fertigung, Verwaltung und Vertrieb aufgeteilt wurden:" },
+      { typ: "tabelle", spalten: ["Kostenart", "Gesamt", "Material", "Fertigung", "Verwaltung", "Vertrieb"], zeilen: [
+        ["Einzelkosten", "7.000.000", "5.000.000", "2.000.000", "—", "—"],
+        ["Gemeinkosten: Lohnaufwand", "1.800.000", "300.000", "300.000", "600.000", "600.000"],
+        ["betriebliche Altersvorsorge", "400.000", "50.000", "100.000", "180.000", "70.000"],
+        ["Freiwilliger sozialer Aufwand", "50.000", "—", "—", "—", "50.000"],
+        ["Gewerbesteuer", "20.000", "5.000", "5.000", "5.000", "5.000"],
+        ["Energie", "220.000", "60.000", "110.000", "40.000", "10.000"],
+        ["Versicherungen", "50.000", "20.000", "20.000", "8.000", "2.000"],
+        ["kalkulatorische Zinsen", "30.000", "—", "30.000", "—", "—"],
+        ["Summe Gemeinkosten", "2.890.000", "435.000", "565.000", "833.000", "737.000"],
+        ["kalkulatorischer Unternehmerlohn", "80.000", "20.000 / 50.000 / 10.000 auf drei der vier Bereiche – die Spaltenzuordnung gibt die Quelle in der Extraktion nicht preis", "", "", ""],
+      ] },
+      { text: "Zum Betriebsabrechnungsbogen drei Hinweise. Erstens: Er steht in der Quelle als fünfspaltige Tabelle, die die Textextraktion zeilenweise ausgibt; wo eine Zeile nicht für jeden Bereich einen Wert hat, geht die Spaltenzuordnung verloren. Zweitens: Für den freiwilligen sozialen Aufwand und die kalkulatorischen Zinsen ist sie hier aus den Spaltensummen der Quelle zurückgerechnet und damit belegt – die Materialspalte ergibt mit 300.000 + 50.000 + 5.000 + 60.000 + 20.000 exakt die ausgewiesenen 435.000 €, die Verwaltungsspalte mit 600.000 + 180.000 + 5.000 + 40.000 + 8.000 exakt 833.000 €; in der Fertigungsspalte fehlen zu den ausgewiesenen 565.000 € genau die 30.000 € kalkulatorischer Zinsen, in der Vertriebsspalte zu den 737.000 € genau die 50.000 € freiwilliger sozialer Aufwand. Drittens, als eigene Feststellung: Die ausgewiesene Gesamtsumme der Gemeinkosten von 2.890.000 € geht nicht auf. Sowohl die acht Einzelpositionen als auch die vier Spaltensummen ergeben übereinstimmend 2.570.000 € – eine Differenz von 320.000 €. Entweder ist der Extraktion eine Position verlorengegangen oder die Summe der Quelle stimmt nicht; die Positionen stehen unverändert so, wie die Quelle sie ausweist. Beim kalkulatorischen Unternehmerlohn lässt sich die Spaltenzuordnung mangels Gegenprobe nicht rekonstruieren; die drei Beträge stehen deshalb in der Reihenfolge der Quelle, ohne Zuordnung." },
+      { typ: "titel", text: "13. Fall: Bewertungsvereinfachung" },
+      { text: "MN hat zum 31.12.2024 einen Holzbestand von 200 Metern. Ein Meter hat 10 € gekostet (netto). In 2025 bzw. 2026 erwirbt MN folgende Chargen (jeweils netto):" },
+      { typ: "tabelle", spalten: ["Zeitpunkt", "Menge", "Preis je Meter"], zeilen: [
+        ["Januar 2025", "100 Meter", "10 €"],
+        ["Mai 2025", "80 Meter", "9 €"],
+        ["Dezember 2025", "90 Meter", "7 €"],
+        ["Januar 2026", "120 Meter", "6,50 €"],
+        ["Juli 2026", "100 Meter", "6 €"],
+      ] },
+      { text: "Der Einkaufspreis ist in den jeweiligen Monaten konstant bei den o. g. Preisen. MN hat am 31.12.2025 noch 350 Meter auf Lager, die er mit je 10 € pro Meter bewertet hat. Der jeweilige Einkauf wurde zutreffend erfasst." },
+      { text: OHNE_LOESUNG + " Zu allen dreizehn Fällen stehen im Campus vollständig durchgerechnete Parallelfälle bereit: die Übungsklausuren Bilanzierung 1 bis 4, die Originalklausuren der Prüfungen 2011 und 2012 mit Musterlösung und die Module des Bilanzen-Campus." },
+    ],
+  },
+  {
+    id: "bil-uf-02",
+    kapitel: "2",
+    abschnitt: "Teil 2",
+    title: "Teil 2 – Elektronikhandel Michael Nehring in Dortmund: zehn Fälle rund um Grundstücke, Gebäude und Bewertung",
+    thema: "Zehn Einzelfälle mit einem Schwerpunkt auf dem Grundstücksrecht der Bilanz: zerstörtes Wirtschaftsgut mit Ersatzbeschaffung, Aktien und Aktienfonds im Anlagevermögen, Fremdwährungsverbindlichkeit mit vier Umrechnungskursen, Teilwertermittlung beim halbfertigen Erzeugnis nach Insolvenz des Bestellers, Gebäudeerrichtung mit Hausmeisterwohnung und vier Betriebsvorrichtungen, Mietereinbauten in drei Varianten, Ehegattengrundstück mit und ohne Entschädigungsanspruch, zweimal Abbruchkosten und ein Erbbaurecht über 99 Jahre",
+    rechtsstand: RECHTSSTAND,
+    quelle: "Bilanz-Fallsammlung laufender Unterricht, Teil 2 (Nöthen)",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 4 Abs. 1, § 5 Abs. 1 EStG", "§ 6 Abs. 1 Nr. 1, Nr. 2 EStG", "§ 6b EStG", "§ 7 Abs. 1, Abs. 4, Abs. 5a EStG",
+      "§ 7b EStG", "§ 252 Abs. 1 Nr. 4, § 253 Abs. 1, Abs. 3, Abs. 4, § 255 Abs. 1, Abs. 2 HGB",
+      "§ 256a HGB", "R 4.2, R 6.4, R 7.1, R 7.3 EStR", "R 6.6 EStR",
+    ],
+    themen: ["Ersatzbeschaffung", "Rücklage für Ersatzbeschaffung", "Wertpapiere", "Teilwertabschreibung", "Fremdwährung", "Halbfertige Erzeugnisse", "Betriebsvorrichtung", "Mietereinbauten", "Ehegattengrundstück", "Abbruchkosten", "Erbbaurecht"],
+    bloecke: [
+      { typ: "titel", text: "Allgemeiner Sachverhalt" },
+      { text: "Michael Nehring (MN) betreibt seit dem 01.10.2012 ein Einzelunternehmen in der Rechtsform eines e.K. MN unterhält einen Elektronikhandel inklusive der Reparatur von Elektronikartikeln. Der Sitz der Firma ist in Dortmund in der Pestalozzistraße 5. MN ermittelt seinen Gewinn durch Betriebsvermögensvergleich, § 4 Abs. 1 EStG, § 5 EStG. Das Wirtschaftsjahr entspricht dem Kalenderjahr." },
+      { typ: "titel", text: "Aufgaben" },
+      { text: "• Beurteilen Sie unter Angabe der einschlägigen Vorschriften, wie die dargestellten Sachverhalte für den Jahresabschluss des MN handelsrechtlich und steuerlich zu beurteilen sind." },
+      { text: "• Entwickeln Sie die Bilanzansätze in der Handelsbilanz und Steuerbilanz zum 31.12.2025." },
+      { text: "• Bilden Sie die zur Aufstellung der Handelsbilanz und Steuerbilanz noch erforderlichen Buchungssätze (ggf. Korrekturbuchungssätze)." },
+      { typ: "titel", text: "Hinweise" },
+      { text: "• Die Buchhaltung ist so eingerichtet, dass für Buchungen, die handelsrechtlich und steuerrechtlich identisch sind, der Buchungskreis „Alle Bereiche“ anzusprechen ist. Im Falle von Abweichungen ist jeweils in den besonderen Buchungskreisen „Nur Handelsrecht“ und/oder „Nur Steuerrecht“ zu buchen." },
+      { text: "• Der steuerliche Gewinn 2024 betrug 180.000 €. Degressive AfA ist nicht zu prüfen. Die Grenzen der De-minimis-Beihilfen sind nicht überschritten." },
+      { text: "• MN wünscht im Jahr 2025 einen möglichst niedrigen steuerlichen Gewinn und handelsbilanziell einen möglichst hohen Jahresüberschuss. Das steuerrechtliche Ergebnis hat Vorrang." },
+      { text: "• Cent-Beträge sind auf volle Euro abzurunden (bis 49 Cent) bzw. aufzurunden (ab 50 Cent). Eventuell erforderliche Rechnungen und Bescheinigungen sind ordnungsgemäß, soweit sich aus dem Sachverhalt nichts Gegenteiliges ergibt." },
+      { text: "• Der Tag der Bilanzaufstellung ist der 01.10. des Folgejahres." },
+      { typ: "titel", text: "1. Fall: Zerstörung Wirtschaftsgut (oder Diebstahl)" },
+      { text: "Am 10.10.2025 ist der Transporter des MN bei einem unverschuldeten Verkehrsunfall vollständig zerstört worden. Der Transporter war am 20.11.2020 für 50.000 € zzgl. 9.500 € USt erworben worden und zutreffend linear über die Nutzungsdauer von 8 Jahren handels- und steuerrechtlich abgeschrieben worden. Die Versicherung des Unfallverursachers hat MN am 03.11.2025 für den Transporter 40.000 € erstattet. Ferner hat die Versicherung MN für den Ausfall des Transporters Schadensersatz in Form eines Nutzungsausfallschadens von 2.000 € gezahlt. Beide Erstattungen hat MN in Handels- und Steuerbilanz als Ertrag verbucht. Den alten Transporter hat MN in 2025 weiter unverändert über die Nutzungsdauer abgeschrieben." },
+      { text: "Mit Kaufvertrag vom 02.12.2025 und Auslieferung am 17.12.2025 hat MN einen neuen Transporter für 35.00 € zzgl. 19 % USt unter Eigentumsvorbehalt erworben (so in der Quelle; der Betrag ist offensichtlich als 35.000 € gemeint). Da der Kaufpreis von MN erst am 04.01.2026 überwiesen wurde, hat MN bezüglich des neuen Transporters noch keine Buchung vorgenommen." },
+      { typ: "titel", text: "2. Fall: Aktien und Aktienfonds" },
+      { text: "MN hat im Mai 2025 Aktien an der börsennotierten X-AG für 10.000 € (= Börsenkurs) zzgl. 1.000 € Nebenkosten erworben, die er zulässigerweise zur langfristigen Kapitalanlage nutzen möchte. Der Börsenkurs am 31.12.2025 beträgt 7.500 €. Bei Bilanzaufstellung beträgt der Börsenkurs 8.000 €." },
+      { text: "Ferner hat MN im Mai auch in den F-Fonds investiert. Der F-Fonds selbst investiert zu 70 % in börsennotierte Aktien. Den Fonds möchte MN zulässigerweise als gewillkürtes Anlagevermögen behandeln. Die Anschaffungskosten haben 15.000 € betragen. Der Wert des Fonds am Bilanzstichtag beträgt 13.000 €, bei Bilanzaufstellung 9.000 €." },
+      { typ: "titel", text: "3. Fall: Fremdwährungsverbindlichkeiten" },
+      { text: "MN hat mit Kaufvertrag vom 05.10.2025 Waren in Amerika für 150.000 US-Dollar eingekauft. Die Auslieferung erfolgte am 27.11.2025. Zwischen MN und dem Verkäufer V wurde ein Zahlungsziel bis zum 10.01.2026 vereinbart, welches MN auch nutzte, sodass MN am 10.01.2026 den Kaufpreis bezahlt hat. Bis zu diesem Zeitpunkt hat V sich das Eigentum vertraglich an den Waren vorbehalten. Die Waren sind zum 31.12.2025 noch vollständig vorhanden. Die Waren sind auch in Deutschland erhältlich. Die USt, die Einfuhrumsatzsteuer sowie das Zollrecht sind nicht zu beurteilen. Mangels Zahlung in 2025 hat MN noch keine Buchung vorgenommen, jedoch die Waren mit ihren Anschaffungskosten zum 31.12.2025 im Rahmen der Inventur bzw. des Jahresabschlusses bewertet." },
+      { typ: "tabelle", spalten: ["Stichtag", "Umrechnungskurs"], zeilen: [
+        ["05.10.2025", "1 € = 1,50 Dollar"],
+        ["27.11.2025", "1 € = 1,40 Dollar"],
+        ["31.12.2025", "1 € = 1,30 Dollar"],
+        ["10.01.2026", "1 € = 1,20 Dollar"],
+      ] },
+      { text: "Fallabwandlung: 31.12.2025: 1 € = 1,70 Dollar" },
+      { typ: "titel", text: "4. Fall: Umlaufvermögen und Ermittlung Teilwert" },
+      { text: "Im September 2025 hat MN den Auftrag bekommen, eine Alarmanlage für den Kunden K zu produzieren, die Ende Mai 2026 ausgeliefert werden soll. Als Kaufpreis wurden 120.000 € zzgl. USt vereinbart. Zum 31.12.2025 betragen die bis dahin angefallenen Herstellungskosten 72.000 €. Bis zur Fertigstellung werden noch folgende Kosten anfallen: – Fertigungskosten 21.000 € – Kalkulatorische Zinsen 1.000 € – Verwaltungskosten 5.000 € – Vertriebskosten 2.000 €" },
+      { text: "Da der Kunde K Ende November das Insolvenzverfahren beantragt hat, konnte K die Alarmanlage nicht abnehmen. Als neuer Kunde konnte MN die A-OHG aus Aachen gewinnen. Diese hat sich verpflichtet, einen Kaufpreis von 90.000 € netto zu zahlen. Für pünktliche Abnahme und Bezahlung wird sie einen Rabatt von 2.000 € erhalten. Der durchschnittliche Unternehmergewinn bezogen auf dieses Geschäft beträgt 20.000 €. Buchungen wurden noch keine vorgenommen." },
+      { typ: "titel", text: "5. Fall: Grundstück" },
+      { text: "Mit Bauantrag vom 01.04.2025 begann MN, auf dem Grundstück Bonner Str. 29 in Schwerte ein Gebäude (nachweisbare tatsächliche Nutzungsdauer 25 Jahre) zu errichten. Den Grund und Boden hatte MN mit Kaufvertrag vom 11.01.2025 für 100.000 € inkl. Nebenkosten erworben. Übergang Nutzen und Lasten erfolgte am 01.02.2025. Die Eintragung in das Grundbuch erfolgte am 28.03.2025." },
+      { text: "400 qm der neuen Nutzfläche des Gebäudes sind als Verkaufsfläche sowie Lagerfläche vorgesehen. Dabei handelt es sich um das Erdgeschoss sowie die ersten 3 Etagen. Alle Etagen sind identisch groß. Zusätzlich wurde in dem Gebäude eine Hausmeisterwohnung mit einer Nutzfläche von 100 qm im Obergeschoss errichtet. Die Fertigstellung aller Baumaßnahmen erfolgte am 02.12.2025 (Abnahme). Ab diesem Zeitpunkt wurde die Wohnung an einen neu eingestellten Hausmeister überlassen. Die Überlassung erfolgte kostenlos, war aber Bestandteil des Arbeitsvertrages. Die lohnsteuerlichen und sozialversicherungsrechtlichen Konsequenzen hat MN bilanziell zutreffend beurteilt. Es handelt sich bei dem Gebäude um ein Effizienzhaus 50." },
+      { text: "MN sind für die Baumaßnahme folgende Beträge im Jahr des Leistungszeitpunktes 2025 in Rechnung gestellt worden (jeweils zzgl. 19 % USt, soweit nicht anders angegeben):" },
+      { typ: "tabelle", spalten: ["Position", "Betrag", "Hinweis der Quelle"], zeilen: [
+        ["Architekt", "50.000 €", "—"],
+        ["Rohbau", "300.000 €", "—"],
+        ["Innenausbau", "100.000 €", "—"],
+        ["Personenfahrstuhl", "50.000 €", "Nutzungsdauer 15 Jahre"],
+        ["Lastenaufzug", "20.000 €", "Nutzungsdauer 20 Jahre"],
+        ["Klimaanlage", "20.000 €", "Nutzungsdauer 20 Jahre"],
+        ["Hausanschlusskosten", "10.000 €", "zzgl. 1.500 € USt"],
+        ["Umzäunung", "750 €", "Nutzungsdauer 10 Jahre"],
+      ] },
+      { text: "Alle Kosten wurden, soweit nicht anders angegeben, im Wirtschaftsjahr 2025 von MN bezahlt. Buchungen erfolgten noch keine." },
+      { typ: "titel", text: "6. Fall: Mietereinbauten" },
+      { text: "MN hat das bebaute Grundstück Tivolistraße 2 von der Y-GmbH mit Mietvertrag vom 12.12.2024 ab dem 01.01.2025 für 10 Jahre gemietet. Die Miete wurde zutreffend behandelt. Bei dem gemieteten Gebäude handelt es sich um einen Reparaturhalle. Zur Verbesserung der Arbeitsabläufe ließ MN ein Förderband (betriebsgewöhnliche Nutzungsdauer 12 Jahre) fest in die Lagerhalle einbauen. Die Abnahme erfolgt am 11.01.2025. MN sind Aufwendungen in Höhe von 20.000 € zzgl. 3.800 € USt entstanden." },
+      { text: "MN ließ sich für den Fall, dass der Mietvertrag vor Ablauf von 10 Jahren von der Y-GmbH gekündigt werden sollte, von der Y-GmbH eine schriftliche Entschädigungszusage in Höhe des Verkehrswerts (Zeitwert) des Förderbands zum Zeitpunkt der Mietvertragsbeendigung geben." },
+      { text: "Unabhängig vom Einbau des Transportbandes ließ MN alle 10 Türen der Reparaturhalle austauschen, weil er sich hiervon niedrigere Energiekosten versprach. Hinsichtlich dieser Maßnahme wurde eine Entschädigung im Mietvertrag ausdrücklich ausgeschlossen. Die Aufwendungen pro Tür (betriebsgewöhnliche Nutzungsdauer 8 Jahre) betrugen 500 € zzgl. 95 € USt. Die Abnahme der Türen erfolgt am 12.01.2025." },
+      { text: "Weiterhin wurde von MN eine Lüftungsanlage für 50.000 € zzgl. 9.500 € Umsatzsteuer in das Gebäude eingebaut. Die Lüftungsanlage hat eine betriebliche Nutzungsdauer von 20 Jahren. Die Lüftungsanlage wurde fest in das Gebäude eingebaut und ist ohne Zerstörung nicht entfernbar. Die Abnahme erfolgt am 01.10.2025. Alle Kosten wurden, soweit nicht anders angegeben, im Wirtschaftsjahr 2025 von MN bezahlt und in Handels- und Steuerbilanz als Aufwand bzw. VSt erfasst." },
+      { typ: "titel", text: "7. Fall: Ehegattengrundstück" },
+      { text: "MN ist seit Jahren mit Nele Nehring (NN) verheiratet. NN hat vor einigen Jahren ein unbebautes Grundstück von ihrer Tante als Alleinerbin geerbt. Die Anschaffungskosten der Tante im Jahr 1997 haben umgerechnet 100.000 € betragen. Der Teilwert im Jahr 2025 liegt bei 180.000 €." },
+      { text: "Mit Bauantrag aus Januar 2025 beginnt MN mit Zustimmung von NN auf dem Grundstück eine Lagerhalle aus eigenen betrieblichen Mitteln zu errichten. Die Fertigstellung erfolgt im November 2025. Die Kosten haben 300.000 € zzgl. 57.000 € betragen und wurden von MN als Aufwand bzw. VSt gebucht (alle Bereiche). Die Nutzungsdauer der Halle beträgt laut einem Verkehrswertgutachten zutreffend 20 Jahre." },
+      { text: "Fallabwandlung: MN und NN haben ausdrücklich einen Entschädigungsanspruch zugunsten von MN in einem notariellem Ehevertrag geregelt." },
+      { typ: "titel", text: "8. Fall: Abbruchkosten" },
+      { text: "MN hat mit Kaufvertrag vom 17.12.2024 das bebaute Grundstück Rheingasse erworben. Im notariellen Kaufvertrag wurde für den Grund und Boden ein Kaufpreis von 100.000 € vereinbart und für die in die Jahre gekommene Lagerhalle ein Kaufpreis von 80.000 €. Übergang von Besitz, Nutzen und Lasten erfolgte am 01.01.2025. Die Eintragung ins Grundbuch erfolgte am 03.03.2025." },
+      { text: "Das Gebäude ist nach einem Sachverständigengutachten wertlos. Daher beginnt MN im Februar 2025 das Gebäude abzubrechen. An Abbruchkosten sind 10.000 € zzgl. 1.900 € USt entstanden. Im Juli 2025 begann MN mit dem Neubau einer Lagerhalle. Die Fertigstellung erfolgte am 01.12.2025. Die Kosten für die Lagerhalle haben 200.000 € zzgl. 38.000 € USt betragen." },
+      { text: "MN buchte bisher in allen Bereichen: Grund und Boden 100.000 an Bank 180.000 / Gebäude 80.000 · Aufwand 10.000 an Bank 11.900 / VSt 1900 · Gebäude 200.000 an Bank 238.000 / VSt 38.000" },
+      { typ: "titel", text: "9. Fall: Abbruchkosten" },
+      { text: "MN hat seit dem Erwerb zum 01.01.2016 das Betriebsgrundstück Schleyer-Straße zutreffend bilanziert. Auf dem Grundstück befindet sich ein Gebäude mit insgesamt 4 Stockwerken (Erdgeschoss, 1. und 2. Etage, Dachgeschoss). Alle sind identisch groß. Das Gebäude nutzt MN voll als Verkaufs- und Lagerfläche. Die Anschaffungskosten von Grund und Boden haben 100.000 € betragen, vom Gebäude 500.000 €. MN hat das Gebäude (Baujahr 2008) seit Erwerb zutreffend abgeschrieben und bilanziert." },
+      { text: "Im April 2025 reißt MN das Dachgeschoss ab und errichtet 2 neue Etagen. An Abbruchkosten sind 10.000 € zzgl. 1.900 € USt entstanden. Die zwei neuen Etagen wurden im November 2025 fertiggestellt. Die Kosten haben 180.000 € zzgl. 34.200 € USt betragen. Alle Positionen wurden von MN im Kalenderjahr 2025 bezahlt. Buchungen erfolgten von MN im Wirtschaftsjahr 2025 noch nicht." },
+      { typ: "titel", text: "10. Fall: Erbbaurecht" },
+      { text: "MN erwarb am 02.01.2025 (Übergang Nutzen und Lasten) an dem unbebauten Grundstück Waldstraße 22 in Dortmund ein Erbbaurecht (umsatzsteuerfrei), um eine Lagerhalle zu errichten. Die Eintragung des Erbbaurechts in das Grundbuch erfolgte am 05.04.2025. Das Erbbaurecht hat eine Laufzeit von 99 Jahren. Der Erbbaurechtsvertrag sieht vor, dass die Erschließungskosten durch MN zu tragen sind." },
+      { text: "Folgende Aufwendungen sind durch die Erbbaurechtsbestellung entstanden: Grunderwerbsteuer 5.000 € · Gerichtskosten 2.000 € · Notarkosten 2.000 € zzgl. 380 € USt. MN bezahlte die Beträge im Sommer 2025 und buchte sie in voller Höhe als Grundstücksaufwand. Ebenfalls wurden die monatlichen Erbbauzinsen über 500 € (ohne USt) als Mietaufwand gebucht. Die Buchungen erfolgten jeweils in „allen Bereichen“." },
+      { text: "Am 18.01.2025 wurde MN von der Stadt Dortmund folgende Rechnung über die Erschließungskosten erteilt: Erschließungskosten 10.000 €. Die Kosten wurden ebenfalls als Aufwand (alle Bereiche) behandelt. Die Erschließung wurde bereits im Januar 2025 abgeschlossen." },
+      { text: "Für die Lagerhalle, die MN am 09.08.2025 fertig gestellt hat, sind MN Aufwendungen über 100.000 € zzgl. 19.000 € USt entstanden. Auch hier erfolgte die Bezahlung im Wirtschaftsjahr 2025. Insoweit wurde Aufwand bzw. VSt in Handels- und Steuerbilanz gebucht." },
+      { text: OHNE_LOESUNG + " Die Parallelen im Campus: die Abgrenzung von Gebäude, Betriebsvorrichtung und selbständigem Wirtschaftsgut sowie die Mietereinbauten stehen in den Übungsklausuren Bilanzierung mit vollständiger Lösung, die Abbruchkosten und das Ehegattengrundstück in den Modulen des Bilanzen-Campus und in den Originalklausuren." },
+    ],
+  },
+];
+
+export default bilUebungsfaelle;

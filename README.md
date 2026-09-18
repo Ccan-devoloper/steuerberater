@@ -2299,6 +2299,24 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   zwei Verteilungszeiträumen bei der Fahrtenbuchmethode; ihre zweispaltige Form ist als Tabelle
   rekonstruiert und im Campus als Rekonstruktion ausgewiesen.
   Prüfung: `npm run check:k1-ust-beispielsammlung`
+- **Übungsfälle laufender Unterricht (Nöthen)** (Klausur 3, Reiter Bilanzen → „Übungsfälle
+  (Nöthen)“): die **Bilanz-Fallsammlung, die den laufenden Unterricht begleitet** – bisher die
+  Teile 1 und 2 mit 117 Abschnitten und 4 Tabellen. Jeder Teil hat einen durchgehenden
+  Unternehmenssachverhalt, an den sich unabhängige Einzelfälle hängen: **Teil 1** die
+  Schreinerei MN in Aachen mit dreizehn Fällen (Einzel- und Pauschalwertberichtigung,
+  Substanzerhaltungsverpflichtung, Ehegattengrundstück, Leasing mit Kaufoption, Mietkauf,
+  Beteiligung, Elektro-Pkw ohne Fahrtenbuch, Tausch mit Zuschuss, Erwerb auf Rentenbasis,
+  zinslose Stundung, zweimal Herstellungskosten mit Betriebsabrechnungsbogen,
+  Verbrauchsfolgeverfahren); **Teil 2** der Elektronikhandel Michael Nehring in Dortmund mit
+  zehn Fällen (zerstörter Transporter mit Ersatzbeschaffung, Aktien und Aktienfonds,
+  Fremdwährungsverbindlichkeit, Teilwert beim halbfertigen Erzeugnis, Gebäude mit
+  Hausmeisterwohnung und vier Betriebsvorrichtungen, Mietereinbauten in drei Varianten,
+  Ehegattengrundstück, zweimal Abbruchkosten, Erbbaurecht über 99 Jahre).
+  Die Aufgabenstellung ist in beiden Teilen dieselbe – Beurteilung, Bilanzansätze zum
+  31.12.2025 und Buchungssätze, mit der Zielvorgabe „möglichst niedriger steuerlicher Gewinn,
+  möglichst hoher handelsbilanzieller Jahresüberschuss, steuerrechtliches Ergebnis hat Vorrang“.
+  **Die Quelle enthält keine Lösungen** – es sind Aufgabenblätter. Es wird hier keine erfunden.
+  Die Teile 3 und 4 folgen. Prüfung: `npm run check:k3-bil-uebungsfaelle`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.

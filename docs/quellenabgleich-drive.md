@@ -10163,3 +10163,74 @@ Wert ein Bruttowert, ein Abschlag findet nicht statt, und verteilt wird auf acht
 **Noch offen im Dublettencheck** sind Umwandlungssteuerrecht, Bilanzierung, Internationales
 Steuerrecht, Einkommensteuer, Gewerbesteuer, Originalklausuren und der
 Körperschaftsteuer-Ordner des zweiten Baums.
+
+### Dublettencheck, vierter Teil: Einkommensteuer (nichts Neues) und Bilanzierung (ein neuer Bestand)
+
+**Einkommensteuer** (`1U2-gm4fDLVZ8PuBCpXfKgGZ9B_TW1uCw`): 21 Dateien, keine davon mit ihrer ID
+dokumentiert – **inhaltlich aber vollständig abgedeckt.** Die dreizehn Quellen des
+Fallsammlungs-Bestandes (`src/data/est-fallsammlungen.js`) entsprechen genau den Dateien dieses
+Ordners: die Fallrepetitorien zu § 17 EStG und zum gewerblichen Grundstückshandel, die
+Fallsammlungen zu § 4 Abs. 3, § 15, § 15a, § 16, § 21, § 23 EStG, zur Betriebsaufspaltung, zu
+den Einkünften aus Kapitalvermögen, zum Erbfall und zu Vermögensübertragungen gegen Renten
+sowie das Skript zur vorweggenommenen Erbfolge. Stichproben bestätigen die Identität: Die Datei
+„…Fallsammlung s 23-(Wiegmann)-0925.pdf“ trägt im Inneren „Mai 2025, Rechtsstand 2025“ und ist
+damit dieselbe Fassung, die im Campus steht; „2025) (10).pdf“ ist der Lösungsteil zu § 4
+Abs. 3 EStG. **Kein neuer Inhalt.**
+
+**Bilanzierung** (`12ADZ5Lr-GOvFQymvQo8NiNvjmoZaVLsm`): vier Dateien, alle undokumentiert –
+und diesmal **ein vollständig neuer Bestand**: die „Bilanz Fallsammlung laufender Unterricht“
+von Markus Nöthen in vier Teilen. Eine davon liegt wieder unter einem nichtssagenden Namen
+(„26).pdf“ ist Teil 2).
+
+### Übungsfälle laufender Unterricht (Nöthen), Teile 1 und 2 – eingepflegt
+
+Eingepflegt als Reiter „Übungsfälle (Nöthen)“ im Bilanzen-Campus
+(`src/data/k3-bil-uebungsfaelle-noethen.js`, zwei Kapitel, 117 Abschnitte, 4 Tabellen). Die
+Teile 3 und 4 folgen in der nächsten Runde.
+
+**Was diesen Bestand von den Übungsklausuren unterscheidet:** Jeder Teil hat einen
+durchgehenden Unternehmenssachverhalt, an den sich zehn bis dreizehn **voneinander unabhängige**
+Einzelfälle hängen. Man kann einen Fall herausgreifen und in zehn Minuten bearbeiten, ohne den
+ganzen Sachverhalt zu lesen – und trotzdem bleibt der Rahmen konsistent, weil Rechtsform,
+Gewinnermittlungsart, Wirtschaftsjahr und Bilanzaufstellungstag festliegen. Die Zielvorgabe
+steuert dabei jede Wahlrechtsausübung: möglichst niedriger steuerlicher Gewinn, möglichst hoher
+handelsbilanzieller Jahresüberschuss, steuerrechtliches Ergebnis hat Vorrang.
+
+Erwähnenswert ist die **Buchungskreis-Technik** der Quelle: „Alle Bereiche“ für Buchungen, die
+handels- und steuerrechtlich identisch sind, „Nur Handelsrecht“ und „Nur Steuerrecht“ bei
+Abweichungen. Wer die Fälle so bearbeitet, hat die Überleitung zwischen beiden Bilanzen am Ende
+automatisch sauber getrennt.
+
+**Auch hier: keine Lösungen.** Das ist inzwischen das durchgängige Muster der
+unterrichtsbegleitenden Materialien dieses Lehrgangs.
+
+**Der Betriebsabrechnungsbogen im 12. Fall des Teils 1 – eine Rekonstruktion mit Beweis und ein
+Befund:**
+
+Der Bogen steht als fünfspaltige Tabelle, die die Extraktion zeilenweise ausgibt; wo eine Zeile
+nicht für jeden Bereich einen Wert hat, geht die Spaltenzuordnung verloren. Für zwei Positionen
+ließ sie sich **aus den Spaltensummen zurückrechnen** und ist damit belegt, nicht geraten:
+
+- Materialspalte: 300.000 + 50.000 + 5.000 + 60.000 + 20.000 = exakt die ausgewiesenen 435.000 €
+- Verwaltungsspalte: 600.000 + 180.000 + 5.000 + 40.000 + 8.000 = exakt 833.000 €
+- Fertigungsspalte: zu den ausgewiesenen 565.000 € fehlen genau die **30.000 € kalkulatorische
+  Zinsen** → sie gehören dorthin
+- Vertriebsspalte: zu den 737.000 € fehlen genau die **50.000 € freiwilliger sozialer Aufwand**
+  → sie gehören dorthin
+
+**Eigene Feststellung:** Die ausgewiesene Gesamtsumme der Gemeinkosten von **2.890.000 €** geht
+nicht auf. Sowohl die acht Einzelpositionen als auch die vier Spaltensummen ergeben
+übereinstimmend **2.570.000 €** – eine Differenz von 320.000 €. Weil beide unabhängigen
+Rechenwege dasselbe Ergebnis liefern, ist entweder der Extraktion eine Position verlorengegangen
+oder die Summe der Quelle stimmt nicht. Die Positionen stehen unverändert; der Befund steht
+daneben.
+
+Beim **kalkulatorischen Unternehmerlohn** (80.000 €, aufgeteilt auf 20.000 / 50.000 / 10.000)
+gibt es keine Gegenprobe, weil die Zeile in keine Spaltensumme eingeht. Die Zuordnung ist
+deshalb **nicht** rekonstruiert – die drei Beträge stehen in der Reihenfolge der Quelle, mit
+dem ausdrücklichen Hinweis, dass die Spaltenzuordnung offen ist. Eine plausible Vermutung wäre
+hier genau das, was dieser Bestand vermeidet.
+
+**Noch offen im Dublettencheck** sind die Teile 3 und 4 dieser Fallsammlung sowie
+Umwandlungssteuerrecht, Internationales Steuerrecht, Gewerbesteuer, Originalklausuren und die
+Ordner des zweiten Baums, soweit noch nicht geprüft.

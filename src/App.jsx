@@ -27,6 +27,8 @@ import HausaufgabenBloecke from "./components/HausaufgabenBloecke";
 import { estKlausuren, estKlausurenQuelle } from "./data/est-klausuren.js";
 import { bilOriginalklausuren, bilOriginalklausurenQuelle } from "./data/k3-bil-originalklausuren.js";
 import { bilPruefungsklausuren, bilPruefungsklausurenQuelle } from "./data/k3-bil-pruefungsklausuren.js";
+import KurzskriptBloecke from "./components/KurzskriptBloecke";
+import { bilUebungsfaelle, bilUebungsfaelleQuelle } from "./data/k3-bil-uebungsfaelle-noethen.js";
 import { PrioBadge, PrioNorm, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./components/Prioritaet";
 
 /* Examenspriorität eines Bilanz-Moduls (🔴/🟠/🟢) nach den Beck-Auswertungen. */
@@ -48,6 +50,7 @@ const ansichten = [
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
   { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "uebungsklausur", label: "Übungsklausuren", Icon: IconTraining },
+  { id: "uebungsfaelle", label: "Übungsfälle (Nöthen)", Icon: IconFaelle },
   { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconTraining },
   { id: "pruefungsklausuren", label: "Prüfungsklausuren im Original", Icon: IconTraining },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
@@ -334,6 +337,21 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Aufgabenteile"
             einheitEinzahl="Aufgabenteil"
+          />
+        )}
+        {ansicht === "uebungsfaelle" && (
+          <KurzskriptBloecke
+            kicker="Klausur 3 · Bilanzen · Übungsfälle"
+            titel="Übungsfälle laufender Unterricht (Nöthen)"
+            lead="Die Fallsammlung, die den laufenden Unterricht begleitet, im Wortlaut. Jeder Teil hat einen durchgehenden Unternehmenssachverhalt, an den sich zehn bis dreizehn unabhängige Einzelfälle hängen – Teil 1 die Schreinerei MN in Aachen, Teil 2 der Elektronikhandel Michael Nehring in Dortmund. Die Aufgabenstellung ist immer dieselbe: handels- und steuerrechtliche Beurteilung unter Angabe der Vorschriften, Bilanzansätze in Handels- und Steuerbilanz zum 31.12.2025 und die noch erforderlichen Buchungssätze, wobei möglichst niedriger steuerlicher Gewinn bei möglichst hohem handelsbilanziellem Jahresüberschuss gewünscht ist und das steuerrechtliche Ergebnis Vorrang hat. **Die Quelle enthält keine Lösungen** – es sind Aufgabenblätter für den Unterricht. Es wird hier keine erfunden; jedes Kapitel sagt das offen und verweist auf die Stellen im Campus, an denen dieselbe Bilanzierungsfrage vollständig durchgerechnet ist."
+            quelle={bilUebungsfaelleQuelle}
+            kapitel={bilUebungsfaelle}
+            karteKicker={(k) => k.abschnitt}
+            gruppeVon={(k) => k.abschnitt}
+            gruppeLabel={(k) => k.abschnitt}
+            gruppeAria="Teile der Fallsammlung"
+            gruppeAlle="Alle Teile"
+            suchePlatzhalter="Norm, Fall oder Stichwort"
           />
         )}
         {ansicht === "originalklausuren" && (
