@@ -182,11 +182,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (`1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`, 88.000 Zeichen, vom Connector vollständig
   ausgegeben), die Lösungsdatei als
   „B-S25-ErbSt-Bewertung 2025-2026 Teil 2-Loesung-(Schaefer)-0825.pdf“
-  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`). Eingepflegt sind die Tz. 1 bis 3 (Begriff und
-  Umfang, Feststellung der Grundbesitzwerte, unbebaute Grundstücke) im Reiter
+  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`). Eingepflegt sind die Tz. 1 bis 4 (Begriff und
+  Umfang, Feststellung der Grundbesitzwerte, unbebaute und bebaute Grundstücke mit der Wahl
+  des Bewertungsverfahrens) im Reiter
   „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil2.js`. Offen sind die
-  Tz. 4 bis 12: bebaute Grundstücke mit den Grundstücksarten und der Wahl des
-  Bewertungsverfahrens, Vergleichswert-, Ertragswert- und Sachwertverfahren, Erbbaurecht,
+  Tz. 5 bis 12: Vergleichswert-, Ertragswert- und Sachwertverfahren, Erbbaurecht,
   Erbbaugrundstück, Gebäude auf fremdem Grund und Boden, Grundstücke im Zustand der
   Bebauung und der Nachweis des niedrigeren gemeinen Werts – dazu die Lösungsdatei.
 - **Erbschaftsteuer 2025-2026 Teil 2** (Schäfer), Drive-ID

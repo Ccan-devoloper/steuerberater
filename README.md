@@ -146,7 +146,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Modellkonformität und der Dreijahresregel sowie der Ausblendung besonderer
   objektspezifischer Grundstücksmerkmale nach § 177 Abs. 4 BewG; und die unbebauten
   Grundstücke mit der Bewertung nach Bodenrichtwerten einschließlich der Aufteilung in
-  Vorder- und Hinterland. Prüfung: `npm run check:k1-erbst-bewertung-teil2`.
+  Vorder- und Hinterland. Dazu die **bebauten Grundstücke**: der Begriff, die sechs
+  Grundstücksarten des § 181 BewG mit ihren Prozentgrenzen – unter 50 % betriebliche
+  Mitbenutzung beim Ein- und Zweifamilienhaus, mehr als 80 % Wohnnutzung beim
+  Mietwohngrundstück, mehr als 80 % betriebliche oder öffentliche Nutzung beim
+  Geschäftsgrundstück –, der Wohnungsbegriff des § 181 Abs. 9 BewG bis hin zu den
+  Tiny-Häusern und drei Zuordnungsbeispielen, deren drittes mit **genau 80 %**
+  Wohnnutzung der Grenzfall ist, in dem weder Absatz 3 noch Absatz 6 greift; sowie die
+  Zuordnung zu den drei Bewertungsverfahren nach § 182 BewG mit dem Sachwertverfahren als
+  Auffangverfahren und der Regel für Mischfälle.
+  Prüfung: `npm run check:k1-erbst-bewertung-teil2`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des
   Teils I: § 12 Abs. 5 ErbStG als Einstieg, der Gewerbebetrieb als Bewertungsgegenstand

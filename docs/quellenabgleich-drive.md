@@ -4384,3 +4384,46 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Aufteilung in Vorder- und Hinterland wendet der Übungsfall Fietze beim Erbbaugrundstück in
   Herten an – dort mit derselben Richtlinienstelle R B 179.2 Abs. 4, die die Fietze-Lösung
   allerdings versehentlich als „ErbStG“ statt ErbStR zitiert.
+
+## Bewertungsrecht Teil 2 (Schäfer) – Tz. 4: bebaute Grundstücke und die Verfahrenswahl
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`),
+  Tz. 4 Buchstaben a) bis c), PDF-Seiten 7 bis 11.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 2 Teile,
+  5 Kapitel, 68 Blöcke und 5 Tabellen; Prüfung `npm run check:k1-erbst-bewertung-teil2`.
+- Noch offen aus derselben Datei: die Tz. 5 bis 12 sowie die Lösungsdatei.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Der Grenzfall geht auf.** Die drei Zuordnungsbeispiele sind nachgerechnet und ergeben
+  jeweils die von der Quelle genannte Grundstücksart. Fall 1: 2.200 von 2.500 qm sind 88 %
+  Wohnnutzung, also mehr als 80 % – Mietwohngrundstück. Fall 2: 1.800 + 500 = 2.300 von
+  2.500 qm sind 92 % betriebliche und öffentliche Nutzung – Geschäftsgrundstück. Fall 3 ist
+  der eigentliche Lehrfall: 2.000 von 2.500 qm sind **genau 80 %** Wohnnutzung, also nicht
+  *mehr als* 80 %; zugleich erreichen die betrieblichen und öffentlichen Zwecke mit 500 qm
+  nur 20 %. Damit greift weder § 181 Abs. 3 noch Abs. 6 BewG, und es bleibt beim gemischt
+  genutzten Grundstück nach § 181 Abs. 7 BewG.
+
+  Darstellungsentscheidungen: Die Zeile „Öffentliche Zwecke“ der Beispieltabelle ist in der
+  Quelle nur mit zwei Beträgen (500 und 100) gedruckt. Sie gehören zu den Fällen 2 und 3;
+  im Fall 1 gibt es keine öffentliche Nutzung. Nur so ergeben alle drei Spalten die
+  ausgewiesene Summe von 2.500 qm – die Zuordnung ist damit aus der Quelle selbst belegt und
+  im Datensatz vermerkt. Die Übersicht der sechs Grundstücksarten fasst die Aufzählung und
+  die nachfolgenden Erläuterungsabsätze der Quelle zusammen; die Merkmale sind wörtlich
+  übernommen. Das Verfahrensschaubild steht in der Quelle als dreigeteilte Grafik und ist
+  zugeordnet als Tabelle wiedergegeben.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 4 b), Wohnungsbegriff.** „dass **die die** Führung eines selbständigen Haushalts
+    notwendigen **Nebenräumen** (Küche, Bad oder Dusche, Toilette) vorhanden sind“.
+  - **Tz. 4 b), Beispiele.** „Bei den nachstehend aufgeführten Grundstücken **handelt sich**
+    nicht um Ein- und Zweifamilienhäuser“.
+
+  Querbezug: Die Weiche dieser Tz. erklärt die Verfahrenswahl in allen bisher eingepflegten
+  Fällen. Im Übungsfall Fietze wird das Einfamilienhaus in Hagen mangels Vergleichswert im
+  Sachwertverfahren bewertet (§ 182 Abs. 4 Nr. 1 BewG), das gemischt genutzte Grundstück in
+  Bochum im Ertragswertverfahren (§ 182 Abs. 3 Nr. 2 BewG) und die Reitsporthalle in Herten
+  als Geschäftsgrundstück ohne ermittelbare Vergleichsmiete wieder im Sachwertverfahren; die
+  Hausaufgabe 2 bewertet ein Mietwohngrundstück im Ertragswertverfahren. Der Datensatz führt
+  diesen Zusammenhang mit.
