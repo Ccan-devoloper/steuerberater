@@ -256,9 +256,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   („Steuerberaterprüfungen 2011 – 2015“, Februar 2026) mit fünf Original-Examensklausuren
   des Prüfungsteils Verfahrensrecht – 2011 (Sven Sieger), 2012 (Eheleute Schallhammer),
   2013 (zwei Sachverhalte), 2014 und 2015, jeweils mit Lösungsvorschlag und Randpunkten;
-  eingepflegt sind daraus die Klausuren **2011** und **2012** im Reiter
-  „Originalklausuren (Examen)“ des AO-Campus, `src/data/k1-ao-originalklausuren.js`; offen
-  aus dieser Datei sind die Klausuren **2013** (zwei Sachverhalte), **2014** und **2015**. „2026) (9).pdf“
+  eingepflegt sind daraus die Klausuren **2011**, **2012** und **2013** (beide Sachverhalte
+  als eigene Einträge) im Reiter „Originalklausuren (Examen)“ des AO-Campus,
+  `src/data/k1-ao-originalklausuren.js`; offen aus dieser Datei sind die Klausuren **2014**
+  und **2015**. „2026) (9).pdf“
   (`1lIwxxyUdq_FVIqKDhGk1LHPPJm0O8FNo`, 1,4 MB) ist die **Umsatzsteuer** („Original
   Prüfungsklausuren 2011 – 2015 mit Lösungen“, Rechtsstand 2026, April 2026) – noch offen.
   „2026) (10).pdf“ (`1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, 0,5 MB) und

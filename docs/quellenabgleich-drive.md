@@ -6404,3 +6404,132 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Zusammenfassung, wo der Feststellungsbescheid vom 01.09.2011 gemeint ist; und „als das FA
   Erding den Feststellungsbescheid hätte berücksichtigen müssen“, wo das FA Freising gemeint
   ist.
+
+## Originalklausuren der Steuerberaterprüfung – Abgabenordnung, Examen 2013 (zwei Sachverhalte)
+
+- Quelle: dieselbe Datei (`1OJ04Y1ZPgn5AGKOWOFey1s9gu5q8pEGe`), dritte Klausur mit zwei
+  getrennt gestellten Sachverhalten.
+- Einpflege dieses Durchgangs: beide Sachverhalte als eigene Einträge (Nr. 3 „Dorothea Dorn“
+  und Nr. 4 „Kai Hundertmark“), weil sie getrennte Aufgabenstellungen und getrennte
+  Lösungshinweise haben. Der Datensatz umfasst jetzt 4 Originalklausuren, 279 Blöcke,
+  8 Tabellen und 70 Punkte; Prüfung `npm run check:k1-ao-originalklausuren`. Offen aus dieser
+  Datei sind die Klausuren 2014 und 2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Ab dem Jahrgang 2013 weist die Unterlage keine Randpunkte mehr aus.** Die Quelle nennt
+  ihre Lösung hier „Lösungshinweise“ und gibt auch keine Gesamtpunktzahl an; im Datensatz
+  trägt deshalb kein Block dieser beiden Einträge Punkte. Die bisher ausgewiesenen
+  70 Punkte stammen vollständig aus den Klausuren 2011 und 2012.
+
+### Sachverhalt 1 – Dorothea Dorn
+
+  **Der Fall stellt zwei verschiedene Bekanntgabestörungen nebeneinander** – das ist sein
+  didaktischer Kern. Beim Einkommensteuerbescheid greift die Drei-Tage-Fiktion des
+  § 122 Abs. 2 Nr. 1 AO **nicht**, weil die Empfängerin unter der alten Anschrift keinen
+  Machtbereich mehr hatte; maßgebend ist der tatsächliche Zugang durch Nachsendung am
+  28.03.2013. Beim Feststellungsbescheid schlägt die Bekanntgabe ganz fehl, weil der Brief im
+  Briefkasten der Nachbarin landete – geheilt wird sie erst mit der Übergabe am 05.05.2013
+  nach § 8 VwZG analog (AEAO zu § 122 Nrn. 1.7.3 und 4.4.4). Beide Male verschiebt sich der
+  Fristbeginn nach hinten, aber nur einmal reicht das aus.
+
+  **Die saubere Trennung von Bekanntgabe und Wiedereinsetzung entscheidet die Klausur.** Dass
+  die Steuerpflichtige im Koma lag, ist für die **Bekanntgabe** ohne Bedeutung – es kommt
+  nicht auf die tatsächliche Kenntnisnahme an, sondern darauf, wann sie unter normalen
+  Umständen zu erwarten ist. Derselbe Krankenhausaufenthalt ist dann aber der entschuldbare
+  Grund für die **Wiedereinsetzung** nach § 110 Abs. 1 AO. Wer beides vermischt, verliert die
+  Struktur.
+
+  **Die Fristen sind unabhängig nachgerechnet und gehen auf den Tag genau auf.** Der
+  28.04.2013 war ein Sonntag, ebenso der 02.06.2013 – beide Male verschiebt § 108 Abs. 3 AO
+  das Ende auf den Montag. Der 03.06.2013 ist damit zugleich der letzte Tag der Nachholfrist
+  des § 110 Abs. 2 Satz 1 AO **und** der Eingangstag des Einspruchs. Auch die von der Quelle
+  angebotene Alternative (Hindernis entfällt erst mit der Briefkastenleerung am 03.05.2013)
+  führt auf denselben Endtermin. Ein ausdrücklicher Wiedereinsetzungsantrag ist deshalb nach
+  § 110 Abs. 2 Satz 4 AO entbehrlich – die Bitte um Nachsicht lässt sich aber ohnehin als
+  solcher auslegen.
+
+  **Die Anbringungsbehörde hängt an einer Kette von drei Vorschriften.** § 357 Abs. 2 Satz 2
+  AO erlaubt die Anbringung beim Finanzamt des Folgebescheids; dieses ist nach § 19 Abs. 1
+  Satz 1 AO das Wohnsitzfinanzamt; und der Zuständigkeitswechsel tritt nach § 26 Satz 1 AO
+  erst mit Kenntnis ein. Weil das Finanzamt Dachau genau durch dieses Schreiben vom Umzug
+  erfuhr, war es im Zeitpunkt des Eingangs noch zuständig. Wäre der Umzug einen Tag früher
+  bekannt geworden, wäre der Einspruch bei der falschen Behörde gelandet.
+
+  **Die Pointe der Begründetheit:** Derselbe Umzug, der die Anbringungsbehörde rettet,
+  zerstört die Grundlage des Feststellungsbescheids. Weil Wohnsitz- und Tätigkeitsfinanzamt
+  nun zusammenfallen, liegt ein Fall von geringer Bedeutung nach § 180 Abs. 3 Satz 1 Nr. 2 AO
+  vor (AEAO zu § 180 Nr. 4), und die gesonderte Feststellung ist aufzuheben. Erst dadurch
+  fällt die Sperre des § 351 Abs. 2 AO, und der Einkommensteuerbescheid kann in der Sache
+  angegriffen werden. Der Einspruch gegen ihn ist also **zunächst unbegründet** und wird
+  erst durch den Erfolg des anderen Einspruchs begründet – eine Reihenfolge, die man in der
+  Klausur ausdrücklich aufschreiben muss.
+
+  **Die materielle Frage ist ein Nebensatz:** Der ungedeckte Scheck löst keinen Zufluss nach
+  § 11 Abs. 1 EStG aus; der Gewinn sinkt von 120.000 € auf 117.620 €, also genau um die
+  2.380 € der Honorarforderung.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „Schwanthaler-
+  straße 5 ind 82256“; die Adresse „Badstraße 33m 85221 Dachau“; das Kürzel „GD“ statt D;
+  „§ 347 Abs. 2 S. 1 AO“ für den Grundsatz der Vollüberprüfung (gemeint ist § 367 Abs. 2
+  Satz 1 AO); die Überschrift „Form (§ 367 Abs. 1 AO)“ (gemeint ist § 357 Abs. 1 AO); „Die
+  Bekanntgabe … schlug fehlt“; „gegen des Gewinnfeststellungsbescheid“; und die Fundstelle
+  „§ 180 Abs. 3 S. 1 Nr. 2 S. 2 AO“, die es in dieser Gliederungstiefe nicht gibt.
+
+### Sachverhalt 2 – Kai Hundertmark
+
+  **Der ganze Fall hängt an einem einzigen Satz des Gesetzes – § 171 Abs. 4 Satz 2 AO.** Die
+  Prüfung begann am 07.11.2011 um 9:00 Uhr und wurde um 11:30 Uhr desselben Tages
+  abgebrochen; wieder aufgenommen wurde sie erst am 05.11.2012. Damit ist sie „unmittelbar
+  nach ihrem Beginn für die Dauer von mehr als sechs Monaten“ unterbrochen worden, und zwar
+  aus Gründen, die die Finanzbehörde zu vertreten hat – die Einspruchseinlegung hat nach
+  § 361 Abs. 1 AO gerade **keine** aufschiebende Wirkung, die den Abbruch gerechtfertigt
+  hätte, und ein Antrag auf Aussetzung der Vollziehung war nicht gestellt. Die Ablaufhemmung
+  des § 171 Abs. 4 Satz 1 AO gilt deshalb als nicht eingetreten.
+
+  **Dieselbe Prüfung, drei Jahre, drei Ergebnisse:**
+
+  | Jahr | Frist | Korrekturvorschrift | Auswirkung |
+  | --- | --- | --- | --- |
+  | 2006 | abgelaufen zum 31.12.2011 | keine – § 164 Abs. 2 AO entfallen (§ 164 Abs. 4 Satz 1 AO), § 173 Abs. 1 Nr. 1 AO verjährt | keine Änderung |
+  | 2007 | offen – Wiederaufnahme vor dem 31.12.2012 hemmt | § 164 Abs. 2 AO | + 193.500 € |
+  | 2008 | offen – Anlaufhemmung § 175 Abs. 1 Satz 2 AO | § 175 Abs. 1 Satz 1 Nr. 2 AO | ./. 6.000 € |
+
+  **Ein Jahr Unterschied, zwei völlig verschiedene Ergebnisse:** Für 2006 läuft die Frist
+  ohne Hemmung zum 31.12.2011 ab, der Vorbehalt der Nachprüfung erlischt kraft Gesetzes, und
+  auch § 173 Abs. 1 Nr. 1 AO hilft nicht mehr – die Änderungsvorschrift ist zwar einschlägig
+  (die Abbruchabsicht war neu), aber § 169 Abs. 1 Satz 1 AO sperrt sie. Für 2007 dagegen
+  reicht die Wiederaufnahme im November 2012 gerade noch vor den Ablauf der dortigen Frist
+  zum 31.12.2012; eine neue Prüfungsanordnung war nicht nötig, weil die alte weiterwirkte.
+
+  **Wann eine Prüfung beginnt, ist die Kehrseite derselben Medaille.** Die Vorbereitung am
+  12.09.2011 an Amtsstelle zählt nicht – weder war eine Prüfungsanordnung wirksam noch ein
+  Prüfungstermin bestimmt. Erst das Erscheinen in den Geschäftsräumen am 07.11.2011 ist
+  Prüfungsbeginn. Hätte die Aktenauswertung bereits genügt, wäre die Prüfung nicht
+  „unmittelbar nach ihrem Beginn“ unterbrochen worden, und der Fall ginge anders aus.
+
+  **Die beiden Beträge der Quelle sind ohne Rechenweg gesetzt – die Herleitung ist eine
+  eigene Ableitung und im Datensatz als solche gekennzeichnet:** Von den zu aktivierenden
+  200.000 € ist im Jahr 2006 bereits eine Abschreibung zu berücksichtigen, weil das Gebäude
+  am 15.12.2006 fertiggestellt wurde – zeitanteilig ein Monat, also 6.000 € × 1/12 = 500 €.
+  Die Gewinnerhöhung 2006 beträgt daher 200.000 € ./. 500 € = 199.500 €. Weil die Korrektur
+  für 2006 verjährt ist, wandert der Betrag über den Bilanzenzusammenhang (§ 252 Abs. 1 Nr. 1
+  HGB) in die Schlussbilanz 2007, dort vermindert um die volle Jahres-AfA 2007 von 6.000 €:
+  199.500 € ./. 6.000 € = 193.500 €.
+
+  **Eine Unstimmigkeit der Quelle:** Der Sachverhalt beziffert die Abbruchkosten mit „netto
+  220.000 €“, die Prüferfeststellung und die gesamte Lösung rechnen jedoch durchgehend mit
+  200.000 €. Die 220.000 € kommen in der Rechnung an keiner Stelle vor. Beide Angaben sind
+  wortlautgetreu übernommen.
+
+  **Die Ansicht des Steuerberaters trifft nur zu einem Drittel zu** – für 2006 hat er recht,
+  für 2007 irrt er, und für 2008 wirkt sich die Korrektur sogar zu seinen Gunsten aus. Seine
+  zweite Vermutung, die Verjährung mache „zumindest jedoch eine steuererhöhende Änderung“
+  unzulässig, findet im Gesetz keine Stütze; die Verjährung wirkt in beide Richtungen gleich.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „§ 168 Abs. 1
+  S. 1 AO“ statt § 169 Abs. 1 Satz 1 AO in der Einleitung; „§ 171 Abs. 3 S. 1 AO“ statt
+  § 171 Abs. 4 Satz 1 AO; „gekannt geworden“ statt bekannt geworden; „Rückwirkendes Ergebnis“
+  statt rückwirkendes Ereignis; das Datum „07.11.12“ für die Wiederaufnahme, während der
+  Sachverhalt den 5. November 2012 nennt (beide Tage liegen vor dem Fristablauf, das Ergebnis
+  ändert sich nicht); „rechtwidrig“; und die Postleitzahl 93059 für Ingolstadt, die zu
+  Regensburg gehört.

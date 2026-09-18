@@ -1445,6 +1445,35 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Punkte gab (§ 173 Abs. 1 Nr. 2 AO bei den Renovierungskosten, § 351 Abs. 1 AO beim
   Zahlendreher); beide sind mit dem Vermerk „(0 Punkte)" übernommen. Hier gehen die
   Randpunkte genau auf: 26 × 1, 2 × 0,5, 2 × 2 und 1 × 4 Punkte ergeben die ausgewiesenen 35.
+  Aus dem **Examen 2013** kommen zwei getrennte Sachverhalte hinzu, die ab hier – wie alle
+  Klausuren der Jahrgänge 2013 bis 2015 – **keine Randpunkte** mehr ausweisen.
+  **„Dorothea Dorn"** stellt zwei Bekanntgabestörungen nebeneinander: Beim
+  Einkommensteuerbescheid greift die Drei-Tage-Fiktion nicht, weil unter der alten Anschrift
+  kein Machtbereich mehr bestand – maßgebend ist der Zugang durch Nachsendung am 28.03.2013,
+  und trotzdem ist die Frist versäumt, sodass nur die Wiedereinsetzung hilft; beim
+  Feststellungsbescheid schlägt die Bekanntgabe ganz fehl (falscher Briefkasten) und wird
+  erst durch die Übergabe am 05.05.2013 nach § 8 VwZG analog geheilt. Der Einspruch geht am
+  03.06.2013 ein – genau am letzten Tag der Nachholfrist des § 110 Abs. 2 Satz 1 AO. In der
+  Begründetheit zeigt der Fall eine Pointe: Derselbe Umzug, der über § 357 Abs. 2 Satz 2 und
+  § 26 Satz 1 AO die Anbringungsbehörde rettet, lässt die Voraussetzungen der gesonderten
+  Feststellung nachträglich entfallen (Fall von geringer Bedeutung, § 180 Abs. 3 Satz 1 Nr. 2
+  AO) – und erst deren Aufhebung öffnet über § 351 Abs. 2 AO den Weg zum
+  Einkommensteuerbescheid, dessen Gewinn dann von 120.000 € auf 117.620 € sinkt, weil ein
+  ungedeckter Scheck keinen Zufluss auslöst. **„Kai Hundertmark"** hängt dagegen an einem
+  einzigen Satz des Gesetzes: Weil die Betriebsprüfung zweieinhalb Stunden nach ihrem Beginn
+  abgebrochen und erst fast ein Jahr später wieder aufgenommen wurde, gilt die Ablaufhemmung
+  nach § 171 Abs. 4 Satz 2 AO als nicht eingetreten – die Einspruchseinlegung hat nach
+  § 361 Abs. 1 AO gerade keine aufschiebende Wirkung, die den Abbruch gerechtfertigt hätte.
+  Dasselbe Wirtschaftsgut wird deshalb in drei aufeinanderfolgenden Jahren völlig verschieden
+  behandelt: **2006** gar nicht mehr (Frist abgelaufen, Vorbehalt der Nachprüfung nach
+  § 164 Abs. 4 Satz 1 AO erloschen, § 173 Abs. 1 Nr. 1 AO verjährt), **2007** nach
+  § 164 Abs. 2 AO mit Nachaktivierung von 193.500 € über den Bilanzenzusammenhang und
+  **2008** nach § 175 Abs. 1 Satz 1 Nr. 2 AO mit 6.000 € AfA zugunsten des Steuerpflichtigen,
+  ermöglicht durch die Anlaufhemmung des § 175 Abs. 1 Satz 2 AO. Die Zahlen 199.500 € und
+  193.500 € setzt die Quelle ohne Rechenweg; ihre Herleitung (Monats-AfA für Dezember 2006
+  bzw. Jahres-AfA 2007) ist im Datensatz als **eigene Ableitung** gekennzeichnet, ebenso die
+  Unstimmigkeit, dass der Sachverhalt 220.000 € Abbruchkosten nennt, die Lösung aber
+  durchgehend mit 200.000 € rechnet.
   Prüfung: `npm run check:k1-ao-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
