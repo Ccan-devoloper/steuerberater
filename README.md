@@ -120,7 +120,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Jahre im Ausland lebt; der Finanzmitteltest scheitert am Sockelbetrag, so dass die
   quotale Schuldenverrechnung ins Leere geht; und zwei Wohnungsbefreiungen scheitern aus
   verschiedenen Gründen – § 13 Abs. 1 Nr. 4c ErbStG, weil der Neffe kein Kind ist, und
-  § 13d ErbStG, weil unentgeltliche Überlassung keine Vermietung ist.
+  § 13d ErbStG, weil unentgeltliche Überlassung keine Vermietung ist. Als siebter Fall die
+  Übungsklausur **„Morgenrot"**: Eine nichteheliche Lebensgefährtin erbt in Steuerklasse III
+  – ohne Familienheimbefreiung, mit 20.000 € statt 500.000 € Freibetrag und zu 30 % statt
+  19 % –, dafür ist die Darlehensschuld voll abziehbar. Zwei GmbH-Anteile liegen mit 12,4 %
+  und 33,33 % beiderseits der Mindestbeteiligungsgrenze und zeigen deren Wirkung unmittelbar
+  nebeneinander (Erbschaftsteuer 195.600 €).
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

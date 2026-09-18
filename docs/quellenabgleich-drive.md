@@ -5730,3 +5730,41 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   vor 2009 geltenden Bedarfswertvorschriften nennt, während dieselbe Klausur an anderer
   Stelle richtig auf die §§ 151 ff. BewG verweist; ferner „Turmstraße**.** 15“ und im
   Sachverhalt „wurde … genutzt **worden**“.
+
+## ErbSt-Fallsammlung 4. Fachtermin – Übungsklausur „Morgenrot“
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), sechste Klausur
+  (im Inhalt ohne Namen angekündigt, in der Lösung „Morgenrot“ überschrieben).
+- Einpflege dieses Durchgangs: die Übungsklausur als elfter Übungsfall; der Datensatz
+  umfasst jetzt 11 Übungsfälle, 367 Blöcke und 63 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Die Lösung ist Zeile für Zeile nachgerechnet; sie geht auf.** Vermögensanfall
+  895.813 €, Bereicherung 672.063 €, steuerpflichtiger Erwerb 652.000 €, Erbschaftsteuer
+  **195.600 €**.
+
+  **Die beiden GmbH-Anteile liegen beiderseits der Mindestbeteiligungsgrenze** und zeigen
+  deren Wirkung unmittelbar nebeneinander – nachgerechnet: ABC-GmbH 31.000/250.000 =
+  **12,4 %**, nicht begünstigungsfähig, der Anteil geht mit vollen 198.000 € in den
+  Vermögensanfall ein; D-GmbH 75.000/225.000 = **33,33 %**, begünstigungsfähig und damit am
+  Verschonungsabschlag beteiligt. Die Sachverhaltsangabe, dass beide Beteiligungen Einkünfte
+  aus Kapitalvermögen liefern, ist ein Ablenkungsmanöver: Auf die ertragsteuerliche
+  Einordnung kommt es für § 13b Abs. 1 Nr. 3 ErbStG nicht an.
+
+  **Die Härte der Steuerklasse III wird in drei Schritten vorgeführt:** keine
+  Familienheimbefreiung, weil § 13 Abs. 1 Nr. 4b ErbStG nur Ehegatten und Lebenspartner
+  erfasst und die jahrelange Haushaltsgemeinschaft nicht genügt; nur 20.000 € persönlicher
+  Freibetrag statt 500.000 €; Steuersatz 30 % statt 19 %. Die einzige Gegenbewegung: Weil
+  das Haus steuerpflichtig ist, bleibt die Darlehensschuld von 208.750 € voll abziehbar –
+  dieselbe Mechanik wie im Fall Antensteiner, nur mit umgekehrtem Vorzeichen.
+
+  **Eigene Beobachtung zu den beiden ausgeklammerten Vorschriften** (nicht Teil der Quelle,
+  im Datensatz als solche gekennzeichnet): Beim **Härteausgleich** wäre ohnehin nichts zu
+  prüfen, weil der Steuersatz der Steuerklasse III nach der Tabelle des § 19 Abs. 1 ErbStG
+  von 75.000 € bis 6.000.000 € durchgehend 30 % beträgt – an der überschrittenen Wertgrenze
+  von 600.000 € gibt es gar keinen Tarifsprung. Das deckt sich mit den Strichen, die die
+  Tabelle H E 19 ErbStH in der Spalte der Steuerklasse III ausweist. Die **Tarifbegrenzung**
+  des § 19a ErbStG dagegen wäre einschlägig, weil eine natürliche Person der Steuerklasse
+  III begünstigtes Betriebsvermögen erwirbt; sie ist der Aufgabenstellung nach nur nicht zu
+  rechnen.
