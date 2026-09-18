@@ -10617,8 +10617,53 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** die Anwendungsfälle ab 3.4.4 (Forderungsverzicht,
-Besserungsschein) und das Kapitel 4 sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** der Exkurs 3.4.6 (Gesellschafterdarlehen mit Rangrücktritt),
+die Abschnitte 3.5 bis 3.8 und das Kapitel 4 sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.4.4 und 3.4.5 – Forderungsverzicht und Besserungsschein
+
+Quelle: dieselbe Datei; übernommen als Kapitel 23 und 24. Prüfung:
+`npm run check:k2-kst-teil1` (24 Kapitel, 408 Blöcke, 14 Tabellen). Damit ist auch die Lücke
+geschlossen, auf die der Datensatz seit Abschnitt 3.1 dreimal verwiesen hat.
+
+**Die Kernaussage des Forderungsverzichts** ist die Beschränkung der verdeckten Einlage auf den
+werthaltigen Teil; der Rest ist steuerpflichtiger Wegfallgewinn. Beim **Teilverzicht** kommt die
+Regel des BFH vom 06.08.2019 hinzu, die in der Klausur leicht falsch angewandt wird: Der Verzicht
+erstreckt sich immer **zuerst auf den wertlosen Teil**. Im Beispiel der Quelle (Nennwert
+1.000.000 €, werthaltig 100.000 €, Verzicht auf 500.000 €) bleibt der Verzicht deshalb vollständig
+innerhalb der 900.000 € wertlosen Forderung und löst gar keine verdeckte Einlage aus – erst ein
+Verzicht über mehr als 900.000 € hätte eine ausgelöst, und zwar nur in Höhe des übersteigenden
+Betrags. Die Rechenprobe im Datensatz ist als eigene Ergänzung gekennzeichnet und warnt
+ausdrücklich davor, den Verzichtsbetrag anteilig aufzuteilen.
+
+**Der Zinsverzicht vom 01.07.2026** ist der didaktisch schönste Fall des Abschnitts, weil ein
+einziges Datum denselben Verzicht in zwei Rechtsfolgen zerlegt: Die sechs bereits entstandenen
+und gebuchten Monatszinsen (6.000 €) sind eine konkretisierte Verbindlichkeit und damit
+einlagefähig; der Verzicht für Juli bis Dezember ist nur der nicht einlagefähige Nutzungsvorteil
+aus Abschnitt 3.2.3. Auch diese Probe ist als eigene Ergänzung ausgewiesen.
+
+**Beim Besserungsschein** sind alle vier Unterabschnitte übernommen. Der durchgerechnete Fall
+über vier Veranlagungszeiträume (Verzicht 2022 auf 500.000 € bei 150.000 € Werthaltigkeit,
+Besserungsfall 2025, Rückzahlung 2026) geht in jeder Zahl auf: Einkommen + 350.000 € in 2022
+gegen ./. 350.000 € in 2025, Einlagekonto + 150.000 € gegen ./. 150.000 €, Anschaffungskosten
++ 150.000 € gegen ./. 150.000 €, Einkünfte des Gesellschafters ./. 350.000 € gegen + 350.000 €,
+und in 2026 folgerichtig eine Null, weil sich Rückzahlung und Anschaffungskosten der Forderung
+decken. Die Tabelle im Datensatz stellt beide Ebenen nebeneinander und ist als eigene Ergänzung
+gekennzeichnet.
+
+**Eine Stelle, die erklärungsbedürftig ist und im Datensatz erläutert wird:** Der Sachverhalt
+lässt die Zinsen von 60.000 € erst in 2026 zahlen, die Lösung erfasst den Aufwand aber bereits
+in 2025. Das ist kein Fehler, sondern folgerichtig – mit dem Eintritt des Besserungsfalles lebt
+auch die Zinsverbindlichkeit wieder auf und ist einzubuchen; maßgebend ist die Bilanzierung. Beim
+Gesellschafter dagegen gilt das Zuflussprinzip, weshalb dessen Zinsertrag zutreffend erst in 2026
+anfällt. Der Datensatz stellt das ausdrücklich klar, weil die scheinbare Abweichung beim Lesen
+irritiert.
+
+**Bemerkenswert am Rande:** Die Quelle stützt die Behandlung beim Gesellschafter im
+Privatvermögen auf das BMF-Schreiben vom 14.05.2025, Tz. 62, und bezeichnet dies ausdrücklich als
+**geänderte Rechtsauffassung**. Der Verzicht führt danach auch im Privatvermögen zu einem
+Veräußerungsverlust nach § 20 Abs. 2 Nr. 7 EStG. Die Fundstelle steht im Feld `normen` des
+Kapitels 24.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.4.1 bis 3.4.3 – die ersten drei Anwendungsfälle
 
