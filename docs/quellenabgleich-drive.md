@@ -10620,6 +10620,63 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil II (Hamacher), Abschnitt 5.5 – die beiden Mischfälle (Nachtrag)
+
+Quelle: dieselbe Datei, Seiten 63 bis 65; übernommen als Kapitel 43. Prüfung:
+`npm run check:k2-kst-teil2` (43 Kapitel, 560 Blöcke, 41 Tabellen).
+
+**Eigene Korrektur:** In der vorangegangenen Runde war der Abschnitt 5.5 nur mit seinen beiden
+einleitenden Absätzen übernommen worden; die beiden umfangreichen Rechenbeispiele auf den Seiten 63
+bis 65 waren dabei übersehen worden. Der Datensatz trägt sie jetzt nach, und der abschließende
+Hinweis auf die Vollständigkeit des Kapitels 5 ist aus Kapitel 42 in Kapitel 43 verschoben.
+
+**Die beiden Fälle unterscheiden sich in einer einzigen Zahl** – der Beteiligungsquote der A-KG an
+der ausschüttenden B-GmbH (50 % gegen 12 %) –, und der Gewerbeertrag springt von ./. 175.000 € auf
+630.000 €. Eine Differenz von 805.000 € aus derselben Ausschüttung. Der Datensatz stellt beide
+Rechenwege Schritt für Schritt in einer Vergleichstabelle gegenüber und benennt den Grund: Die
+Quote wirkt **zweimal** und nach verschiedenen Regeln – körperschaftsteuerlich über die
+durchgerechnete Streubesitzgrenze des § 8b Abs. 4 KStG (25 % gegen 6 %) und gewerbesteuerlich über
+das Schachtelprivileg des § 9 Nr. 2a GewStG mit seiner eigenen, höheren Grenze von 15 %. Beide
+Prüfungen laufen unabhängig voneinander; bei einer Quote zwischen 10 % und 15 % wäre die
+Ausschüttung körperschaftsteuerlich freigestellt und gewerbesteuerlich voll belastet.
+
+**Die Pointe des § 7 Satz 4 GewStG** spricht die Quelle im ersten Fall aus: Der Gewerbeertrag
+entspreche „genau dem Betrag, der bei einer Kapitalgesellschaft als Anteilseignerin entstanden
+wäre“. Der Datensatz weist das als eigene Herleitung nach: Eine Kapitalgesellschaft an Stelle der
+A-KG käme auf 600.000 € ./. 1.000.000 € + 50.000 € = ./. 350.000 €, davon die Hälfte sind
+./. 175.000 € – genau der Wert am Ende der Rechnung. Der Anteil der natürlichen Person ist
+vollständig neutralisiert, weil § 9 Nr. 2a Satz 3 GewStG den Kürzungsrahmen exakt um die
+abgezogenen Aufwendungen mindert.
+
+**Der anspruchsvollste Punkt** steht im zweiten Fall und ist eigens erläutert: die Verzahnung der
+beiden Hinzurechnungen. Die nach § 3c Abs. 2 EStG **nicht** abgezogenen 80.000 € haben die
+Ausgangsgröße nicht gemindert und können deshalb auch nicht nach § 8 Nr. 1a GewStG hinzugerechnet
+werden; stattdessen mindern sie **vorrangig** die Hinzurechnung nach § 8 Nr. 5 GewStG, die dadurch
+von 200.000 € auf 120.000 € sinkt. In die Bemessungsgrundlage des § 8 Nr. 1a GewStG gehen nur die
+tatsächlich abgezogenen Aufwendungen ein (200.000 € + 120.000 € = 320.000 €). Wer beide Vorschriften
+auf denselben Aufwand anwendet, rechnet ihn doppelt hinzu.
+
+**Sämtliche Zahlen beider Fälle sind unabhängig nachgerechnet und gehen auf**, von der gemeinsamen
+Ausgangsbasis (1.000.000 € ./. 400.000 € = 600.000 €, je 300.000 €) über die
+Teileinkünfte-Rechnung bei A (60 % von 500.000 € ./. 60 % von 200.000 € = 180.000 €) und das
+Ergebnis der T-GmbH im ersten Fall (300.000 € ./. 500.000 € + 25.000 € = ./. 175.000 €) bis zu den
+beiden Hinzurechnungen des zweiten Falls (120.000 € und 30.000 €).
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „Die damit zusammenhängenden Kosten von 200.000 € (**Anteil B-GmbH**)“ – gemeint ist der auf die
+  T-GmbH entfallende Anteil der Betriebsausgaben; die B-GmbH ist die ausschüttende Gesellschaft und
+  gar nicht Mitunternehmerin. Dieselbe Bezeichnung kehrt im zweiten Fall wieder („die auf den Anteil
+  der B-GmbH entfallenden Aufwendungen von 200.000 €“).
+- „Hinsichtlich der Hinzurechnung i.S. des § 8 Nr. 1a GewStG **ist beachten**“ – fehlendes „zu“.
+
+**Ebenfalls unverändert übernommen:** Das zweite Beispiel spielt in **2025**, das erste in 2026,
+obwohl beide denselben Sachverhalt in zwei Varianten zeigen.
+
+**Noch offen nach dieser Runde:** aus Teil II das Kapitel 6 (weitere Tatbestände – Finanzdienst-
+leister, Lebens- und Krankenversicherungsunternehmen, EU/EWR-Fälle, Wertpapierleihe); ganz offen
+sind die Skriptteile III bis VII.
+
 ### KSt Teil II (Hamacher), Abschnitte 5.3 bis 5.5 – Kapitel 5 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 60 bis 63; übernommen als Kapitel 40 bis 42. Prüfung:

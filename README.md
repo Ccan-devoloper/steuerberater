@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 42 Kapitel mit 541 Abschnitten und 38
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 43 Kapitel mit 560 Abschnitten und 41
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2693,8 +2693,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   gilt bei der Personengesellschaft anders als körperschaftsteuerlich die **Nettomethode** des
   § 7 Satz 4 GewStG – § 8b KStG bzw. das Teileinkünfteverfahren wirken je nach Rechtsform des
   Mitunternehmers schon dort; beim Mitunternehmer selbst wirkt der Gewinnanteil dann nicht noch
-  einmal, weil § 9 Nr. 2 und § 8 Nr. 8 GewStG ihn herausnehmen. **Damit ist auch das Kapitel 5 der
-  Quelle vollständig.**
+  einmal, weil § 9 Nr. 2 und § 8 Nr. 8 GewStG ihn herausnehmen. Zwei vollständig durchgerechnete
+  **Mischfälle**, an denen eine natürliche Person und eine Kapitalgesellschaft als Mitunternehmer
+  beteiligt sind, zeigen, wie weit das trägt. Sie unterscheiden sich in einer einzigen Zahl – der
+  Beteiligungsquote der KG an der ausschüttenden Gesellschaft –, und der Gewerbeertrag springt von
+  ./. 175.000 € auf 630.000 €. Der Grund ist, dass diese Quote **zweimal** wirkt: körperschaftsteuerlich
+  über die durchgerechnete Streubesitzgrenze des § 8b Abs. 4 KStG (25 % gegen 6 %) und
+  gewerbesteuerlich über das Schachtelprivileg des § 9 Nr. 2a GewStG mit seiner eigenen, höheren
+  Grenze von 15 %. Im ersten Fall bleibt nach der Kürzung genau der Betrag stehen, der bei einer
+  Kapitalgesellschaft als Anteilseignerin entstanden wäre – der Anteil der natürlichen Person ist
+  vollständig neutralisiert, weil § 9 Nr. 2a Satz 3 GewStG den Kürzungsrahmen exakt um die
+  abgezogenen Aufwendungen mindert. Im zweiten Fall verzahnen sich die beiden Hinzurechnungen: Die
+  nach § 3c Abs. 2 EStG nicht abgezogenen 80.000 € haben die Ausgangsgröße nicht gemindert, können
+  also nicht nach § 8 Nr. 1a GewStG hinzugerechnet werden, sondern mindern **vorrangig** die
+  Hinzurechnung nach § 8 Nr. 5 GewStG. **Damit ist auch das Kapitel 5 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
