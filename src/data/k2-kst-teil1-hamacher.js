@@ -9,9 +9,10 @@
    STAND DER ÜBERNAHME: Das Kapitel 1 (Steuerpflicht) ist vollständig – die
    Abschnitte 1.1 bis 1.6, von der unbeschränkten Steuerpflicht über die
    Steuerbefreiungen des § 5 KStG bis zur Option nach § 1a KStG. Aus Kapitel 2
-   (Einkommensermittlung) sind die Abschnitte 2.1 bis 2.2.4 übernommen. Der
-   Rest des Kapitels 2 sowie die Kapitel 3 (verdeckte Einlage) und 4 (Tarif)
-   folgen nach demselben Verfahren; der Campus weist den Stand aus.
+   (Einkommensermittlung) ist vollständig übernommen – die Abschnitte 2.1 bis
+   2.2.5, vom zu versteuernden Einkommen bis zum Verlustabzug. Die Kapitel 3
+   (verdeckte Einlage) und 4 (Tarif) folgen nach demselben Verfahren; der Campus
+   weist den Stand aus.
 
    Kleinere Tippfehler der Quelle (fehlende Endungen, ein doppeltes Subjekt)
    sind wortlautgetreu übernommen und nicht einzeln gekennzeichnet, weil sie den
@@ -508,6 +509,63 @@ export const kstTeil1 = [
         ["b) Einkommensabhängiger Höchstbetrag", "Der Spendenabzug beträgt 20 % des um den Spendenabzug erhöhten Einkommens, d. h. Bemessungsgrundlage ist hierfür der steuerliche Gewinn (§ 9 Abs. 2 Satz 1 KStG)."],
       ] },
       { text: "Beide Höchstbeträge sind zu ermitteln; für Zwecke der Einkommensermittlung ist der für den Steuerpflichtigen günstigere Höchstbetrag zu berücksichtigen." },
+    ],
+  },
+  {
+    id: "kst-t1-12",
+    kapitel: "12",
+    abschnittNr: "2.2.5",
+    title: "2.2.5 Verlustabzug – Rücktrag und Vortrag",
+    thema: "Der Verlustrücktrag in zwei Jahre zurück mit dem gemeinsamen Höchstbetrag von einer Million Euro und der Verlustvortrag mit der Mindestbesteuerung: Grundabzug von einer Million, darüber hinaus nur 70 Prozent – und ab dem VZ 2028 wieder 60 Prozent. Beide Rechenwege an durchgerechneten Beispielen. Vorangestellt der Spendenvortrag, der den Abschnitt 2.2.4 abschließt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitte 2.2.4 (Schluss) und 2.2.5 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1 KStG", "§ 9 Abs. 1 Nr. 2 Sätze 9 und 10, Abs. 3 Satz 1 und 2 KStG",
+      "§ 5 Abs. 1 Nr. 9 KStG",
+      "§ 10d Abs. 1 Satz 1, 2 und 4, Abs. 2, Abs. 4 EStG",
+      "BFH vom 10.06.2008, I B 19/08", "R 7.1 KStR Punkt 21",
+      "BMF vom 13.03.2007, BStBl. I 2008, 4 und BMF vom 31.03.2008, BStBl. I 2008, 565",
+      "Beschluss des BVerfG vom 23.07.2025, 2 BvL 19/14",
+    ],
+    themen: ["Spendenvortrag", "Zuwendungsbescheinigung", "Vertrauensschutz", "Spendenhaftung", "Verlustrücktrag", "Verlustvortrag", "Mindestbesteuerung", "Verlustfeststellung"],
+    bloecke: [
+      { typ: "titel", text: "Abschluss des Abschnitts 2.2.4: Spendenvortrag und Zuwendungsbescheinigung" },
+      { text: "Sofern die abziehbaren Spenden im Veranlagungszeitraum diese Höchstbeträge übersteigen, wird der Spendenüberhang in den nachfolgenden Veranlagungszeitraum vorgetragen und entsprechend festgestellt (§ 9 Abs. 1 Sätze 9 und 10 KStG; sog. Spendenvortrag). Für den Spendenvortrag gelten nämlich die Feststellungsgrundsätze i. S. des § 10d Abs. 4 EStG entsprechend. Im nachfolgenden Veranlagungszeitraum wird der Spendenvortrag danach im Rahmen der Höchstbeträge abgezogen, die sich aufgrund des jeweiligen steuerlichen Gewinnes ergeben." },
+      { text: "Merke: Der Spendenabzug erfolgt im Rahmen von (zwei) Höchstbeträgen. Nicht verbrauchtes Spendenpotential münden in einen Spendenvortrag." },
+      { text: "Beispiel: Die Fox-GmbH leistet im VZ 2026 Spenden von insgesamt 30.000 €. Das Einkommen (vor Spendenabzug) beträgt 100.000 €. Hinweis: es soll nur der einkommensabhängige Höchstbetrag ermittelt werden." },
+      { text: "Lösung: Die Spenden können gemäß § 9 Abs. 1 Nr. 2 (1) KStG zu 20 % des steuerlichen Gewinnes berücksichtigt werden: 20 % von 100.000 € = 20.000 €. Der Spendenüberhang von 10.000 € wird in den nachfolgenden Veranlagungszeitraum vorgetragen und im Rahmen dessen Höchstbetrags berücksichtigt. Zum 31.12.2026 ist daher ein Spendenvortrag i. H. von 10.000 € festzustellen." },
+      { text: "Materielle Voraussetzung für den Spendenabzug ist aber, dass der Zuwendungsempfänger dem Leistenden eine ordnungsgemäße Zuwendungsbescheinigung erteilt. Für diese Bescheinigung ist die Vertrauensschutzregelung des § 9 Abs. 3 Satz 1 KStG zu beachten, wonach der Leistende grundsätzlich auf die Richtigkeit der Bescheinigung vertrauen kann. Verwendet daher der Zuwendungsempfänger die zugewendeten Leistungen abweichend von der Spendenbescheinigung nicht für steuerbegünstigte Zwecke oder wird dem Zuwendungsempfänger später die Steuerbefreiung i. S. des § 5 Abs. 1 Nr. 9 KStG versagt, bleibt der Spendenabzug beim Leistenden davon grundsätzlich unberührt. In diesen Fällen bleibt dann die Spendenhaftung i. S. des § 9 Abs. 3 Satz 2 KStG zu prüfen. Der Vertrauensschutz ist aber nicht zu gewähren, wenn dem Leistenden die Unrichtigkeit selbst bereits bei Ausstellung bekannt war oder bekannt sein musste." },
+      { typ: "titel", text: "2.2.5.1 Verlustrücktrag" },
+      { text: "Erzielt die Kapitalgesellschaft einen negativen Gesamtbetrag der Einkünfte, kann dieser in die vorangegangenen Veranlagungszeiträume zurückgetragen werden. Nach § 8 Abs. 1 Satz 1 KStG i. V. mit § 10d Abs. 1 Satz 1 EStG ist dieser maximal bis zu einer Höhe von 1.000.000 € zunächst mit dem GdE des unmittelbar vorangegangenen Veranlassungszeitraums zu verrechnen. Soweit danach noch ein Verlust verbleibt, ist dieser anschließend mit dem GdE des zweiten vorangegangenen VZ zu verrechnen (§ 10d Abs. 1 Satz 2 EStG n. F.). Diese Steuerbescheide sind entsprechend zu ändern (§ 10d Abs. 1 Satz 4 EStG). Das danach verbleibende Verlustpotential ist nach § 10d Abs. 4 EStG zum Ende des Veranlagungszeitraums festzustellen. Auf den Verlustrücktrag kann auf Antrag aber auch verzichtet werden." },
+      { text: "Beispiel: Die A-GmbH (Wj. = Kj.) erzielt in 2026 ein negatives Einkommen von 40.000.000 €. In 2025 wurde ein positiver GdE von 400.000 € und in 2024 ein positiver GdE von 7.000.000 €." },
+      { text: "Lösung: Der in 2026 entstandene Verlust kann nach § 8 Abs. 1 Satz 1 KStG i. V. mit § 10d Abs. 1 EStG in Höhe von maximal 1.000.000 € mit dem positiven GdE des unmittelbar vorangegangenen VZ verrechnet werden. Der Körperschaftsteuerbescheid des VZ 2025 ist nach § 8 Abs. 1 Satz 1 KStG i. V. mit § 10d Abs. 1 EStG wie folgt zu ändern:" },
+      { typ: "tabelle", spalten: ["Veranlagungszeitraum 2025", "Betrag"], zeilen: [
+        ["GdE", "400.000 €"],
+        ["./. Verlustrücktrag aus 2026", "400.000 €"],
+        ["= Einkommen", "0 €"],
+      ] },
+      { text: "Weil der Höchstbetrag des Rücktrags i. H. von 600.000 € noch nicht ausgeschöpft worden ist, kann dieses Restpotential auch mit dem GdE des VZ 2024 verrechnet werden. Auch die Korrektur dieses Steuerbescheides richtet sich nach § 8 Abs. 1 Satz 1 KStG i. V. mit § 10d Abs. 1 KStG (so in der Quelle; gemeint ist § 10d Abs. 1 EStG):" },
+      { typ: "tabelle", spalten: ["Veranlagungszeitraum 2024", "Betrag"], zeilen: [
+        ["GdE", "7.000.000 €"],
+        ["./. Verlustrücktrag aus 2026", "600.000 €"],
+        ["= Einkommen", "6.400.000 €"],
+      ] },
+      { text: "Zum 31.12.2026 verbleibt danach ein steuerlich ungenutztes Verlustpotential von 39.000.000 €, welches in die Verlustfeststellung dieses VZ eingeht." },
+      { typ: "titel", text: "2.2.5.2 Verlustvortrag" },
+      { text: "Nach § 10d Abs. 2 EStG ist ein Verlustvortrag auf den positiven Gesamtbetrag der Einkünfte des folgenden Veranlagungszeitraumes bis zu einem Betrag von 1.000.000 € zulässig (Grundabzug; Schritt 1). Soweit darüber hinaus noch ein Einkommen und ein vortragsfähiger Verlust verbleiben, ist der Verlustvortrag auf 70 % des übersteigenden Einkommens beschränkt (Schritt 2). Es kommt daher in diesen Fällen immer zu einer 30%igen Mindestbesteuerung des Einkommens, wenn das Einkommen des Vortragsjahres 1.000.000 € übersteigt. Der Verlustabzug wird dadurch zeitlich gestreckt. Ab VZ 2028 soll sich die Verlustverrechnung wieder auf 60 % reduzieren." },
+      { text: "Zum Ende des jeweiligen Veranlagungszeitraums ist der verbleibende und vortragsfähige Verlust gesondert festzustellen (§ 10d Abs. 4 EStG)." },
+      { text: "Beispiel: Die A-GmbH (Wj. = Kj.) erzielt in 2025 ein negatives Einkommen von 2.800.000 € (Verlustrücktrag nicht möglich). Somit wurde zum 31.12.2025 nach § 10d Abs. 4 EStG eine Verlustfeststellung von 2.800.000 € durchgeführt. In 2026 beträgt der Gesamtbetrag der Einkünfte (vor Verlust) 2.100.000 €." },
+      { text: "Lösung: Der Verlustvortrag nach 2026 ermittelt sich wie folgt:" },
+      { typ: "tabelle", spalten: ["Position", "Betrag"], zeilen: [
+        ["Einkommen", "2.100.000 €"],
+        ["- Verlust Schritt 1 (max. 1.000.000 €)", "- 1.000.000 €"],
+        ["= übersteigender GdE", "1.100.000 €"],
+        ["- Verlust Stufe 2 (70 % von 1.100.000 €)", "- 770.000 €"],
+        ["= zu versteuerndes Einkommen", "330.000 €"],
+      ] },
+      { text: "Der verbleibende Verlust zum 31.12.2026 beträgt somit 1.030.000 € und ist entsprechend nach § 10d Abs. 4 EStG festzustellen." },
+      { text: "Merke: Der Verlustvortrag wird im Rahmen der Mindestgewinnbesteuerung vorgenommen. Danach kann dieser zunächst in Höhe von 1.000.000 € als Grundabzug und der verbleibende Überhang nur begrenzt in Höhe von 70 % erfolgen." },
     ],
   },
 ];

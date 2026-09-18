@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit elf Kapitel mit 207 Abschnitten und
-  6 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit zwölf Kapitel mit 229 Abschnitten und
+  9 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2364,7 +2364,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Normenkatalog und den Folgen für den Mitunternehmer, der zum Anteilseigner wird
   (Steuerverstrickung nach § 17 EStG, Sperrfrist des § 22 UmwStG, Zufluss erst bei tatsächlicher
   Entnahme seit dem VZ 2024).
-  Aus dem **Kapitel 2 (Einkommensermittlung)** sind die Abschnitte 2.1 bis 2.2.4 eingepflegt:
+  Auch das **Kapitel 2 (Einkommensermittlung)** ist vollständig:
   das zu versteuernde Einkommen als Bemessungsgrundlage mit dem abweichenden Wirtschaftsjahr,
   die Brückenvorschrift des § 8 Abs. 1 Satz 1 KStG und die Umqualifizierung aller Einkünfte nach
   § 8 Abs. 2 KStG, die zweistufige Einkommensermittlung (Bilanzberichtigung innerhalb, Zu- und
@@ -2376,10 +2376,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 233a AO (Erstattungs- und Nachzahlungszinsen teilen einander in beiden Richtungen das
   Schicksal, an zwei durchgerechneten Beispielen), die hälftige Hinzurechnung der
   Aufsichtsratsvergütungen nach § 10 Nr. 4 KStG samt der umsatzsteuerlichen Wende des BFH zur
-  festen Vergütung und der Spendenabzug mit seinen beiden Höchstbeträgen, von denen der
-  günstigere gilt.
-  Der Rest des Kapitels 2 sowie die Kapitel 3 (verdeckte Einlage) und 4 (Tarif) folgen; der
-  Campus weist den Stand aus.
+  festen Vergütung, der Spendenabzug mit seinen beiden Höchstbeträgen, von denen der günstigere
+  gilt, und dem Spendenvortrag nach § 9 Abs. 1 Sätze 9 und 10 KStG sowie der **Verlustabzug**:
+  Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
+  Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
+  darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
+  Die Kapitel 3 (verdeckte Einlage) und 4 (Tarif) folgen; der Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -10547,3 +10547,32 @@ Rahmen der Höchstbeträge vollständig.
 
 **Noch offen:** der Rest des Kapitels 2, die Kapitel 3 (verdeckte Einlage) und 4 (Tarif) sowie
 die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitt 2.2.5 – Kapitel 2 ist vollständig
+
+Der Datensatz hat jetzt zwölf Kapitel mit 229 Abschnitten und 9 Tabellen; damit sind die
+Kapitel 1 und 2 des Skripts vollständig.
+
+**Beide Rechenwege des Verlustabzugs sind an Beispielen belegt und nachgerechnet:**
+
+- **Rücktrag:** 40.000.000 € Verlust aus 2026, GdE 2025 400.000 € und GdE 2024 7.000.000 €.
+  Der Höchstbetrag von 1.000.000 € gilt für beide Rücktragsjahre **zusammen** – deshalb erst
+  400.000 € nach 2025 (Einkommen 0 €), dann die restlichen 600.000 € nach 2024 (Einkommen
+  6.400.000 €), und zum 31.12.2026 bleibt ein festzustellendes Verlustpotential von
+  39.000.000 €. Alle drei Zahlen gehen auf.
+- **Vortrag:** 2.800.000 € festgestellter Verlust, GdE 2026 2.100.000 €. Grundabzug
+  1.000.000 €, vom übersteigenden Betrag von 1.100.000 € noch 70 % = 770.000 €, zu versteuern
+  bleiben 330.000 €; verbleibender Verlust 1.030.000 €. Auch das geht auf – und zeigt die
+  Mindestbesteuerung in Zahlen: Von 1.100.000 € übersteigendem Einkommen bleiben 30 % stehen.
+
+Die Quelle nennt dabei zwei Dinge, die man leicht übersieht: Auf den Verlustrücktrag kann
+**auf Antrag verzichtet** werden, und ab dem VZ 2028 soll die Verlustverrechnung wieder auf
+**60 %** zurückgehen.
+
+**Eigene Feststellung:** In der Lösung des Rücktragsbeispiels heißt es, die Korrektur des
+Bescheides 2024 richte sich nach „§ 8 Abs. 1 Satz 1 KStG i. V. mit § 10d Abs. 1 **KStG**“ –
+gemeint ist § 10d Abs. 1 **EStG**, wie es im selben Beispiel drei Zeilen zuvor auch steht. Der
+Wortlaut ist unverändert übernommen, die Richtigstellung steht in Klammern daneben.
+
+**Noch offen:** die Kapitel 3 (verdeckte Einlage, mit rund 60 Seiten der umfangreichste Teil
+dieses Skripts) und 4 (Tarif) sowie die Skriptteile II bis VII.
