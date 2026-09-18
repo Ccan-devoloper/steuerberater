@@ -10617,8 +10617,51 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** die Abschnitte 3.8 und 3.9 und das Kapitel 4 sowie die
-Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** nur noch das Kapitel 4 (Ermittlung der Körperschaftsteuer)
+sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.8 und 3.9 – Schenkungsteuer und § 1 AStG
+
+Quelle: dieselbe Datei (vollständige PDF-Extraktion); übernommen als Kapitel 44 und 45. Prüfung:
+`npm run check:k2-kst-teil1` (45 Kapitel, 729 Blöcke, 30 Tabellen). **Damit ist das Kapitel 3
+der Quelle vollständig.**
+
+**Der Abschnitt 3.8 ist die systematische Gegenprobe zum ganzen Kapitel**, und der Datensatz
+stellt beide Ebenen in einer als eigene Ergänzung gekennzeichneten Tabelle nebeneinander. Die
+Schenkungsteuer weicht in drei Punkten vom Ertragsteuerrecht ab: Sie knüpft nicht an den Teilwert
+der Einlage an, sondern an die **Werterhöhung fremder Anteile**; sie fragt **nicht nach dem
+Zuwendungswillen**, auf den es ertragsteuerlich gerade ankommt (§ 7 Abs. 8 Satz 1 ErbStG
+fingiert); und sie erfasst mit der **Nutzungseinlage** einen Vorgang, den das Körperschaftsteuer-
+recht gerade nicht als verdeckte Einlage behandelt. Auf diesen Gegensatz hat der Datensatz schon
+im Abschnitt 3.2.4 hingewiesen; hier ist er vollständig ausgeführt.
+
+**Der schärfste Fall des Abschnitts** ist das zinslose Gesellschafterdarlehen bei zwei
+Gesellschaftern: Ertragsteuerlich passiert nichts, weil der Nutzungsvorteil nach Abschnitt 3.2.3
+nicht einlagefähig ist – schenkungsteuerlich entsteht **in jedem Jahr der Laufzeit** ein
+steuerpflichtiger Vorgang. Der Datensatz hebt das eigens hervor, weil eine rein
+körperschaftsteuerliche Prüfung eine jährlich wiederkehrende Schenkungsteuerpflicht übersieht.
+
+**Rechenprobe zu den Ausgleichsfällen** (eigene Ergänzung, weil die Quelle die Zwischenrechnung
+nicht ausschreibt): Legt A 200.000 € und B 100.000 € ein, erhält die Gesellschaft insgesamt
+300.000 €; auf B entfallen nach seiner Quote 150.000 € Wertsteigerung bei 100.000 € eigener
+Leistung, die Zuwendung beträgt also 50.000 €. Dieselbe Rechnung erklärt den Fall davor: Bei
+gleich hohen Einlagen ist die Differenz null und der Tatbestand entfällt vollständig.
+
+**Eine scheinbare Spannung im Abschnitt 3.9, die der Datensatz auflöst:** Die Quelle sagt
+zunächst, es gebe **keinen** Vorrang irgendeiner Vorschrift, und im „Merke“ dann, § 1 AStG sei in
+bestimmten Fällen **vorrangig**. Beides trifft zu, wenn man die Ebenen trennt – rechtlich stehen
+die Normen nebeneinander, praktisch bleibt für § 1 AStG nur dort etwas zu tun, wo die verdeckte
+Einlage die Einkünfte nicht schon zutreffend erfasst. Die Prüfungsreihenfolge lautet damit: erst
+die verdeckte Einlage, dann fragen, ob danach noch eine Lücke bleibt. Der lehrreichste der drei
+Fälle ist der mittlere, in dem **beide Normen nebeneinander** greifen: die verdeckte Einlage für
+den Teilwert von 1.000.000 €, § 1 AStG für die darüber hinausgehenden 100.000 € der Bandbreite.
+
+**Weitere Ungenauigkeiten der Quelle, wortlautgetreu übernommen und gekennzeichnet:** „im
+sachlichen und sachlichen Zusammenhang“ (gemeint: sachlich und zeitlich, wie das folgende
+Beispiel zeigt); ein fehlendes Subjekt im Darlehensbeispiel („In 2026 gewährt seiner A-GmbH ein
+unverzinsliches Darlehen“); und ein fehlendes „um“ im Satz zur Erhöhung der
+Beteiligungsanschaffungskosten im Abschnitt 3.9. Sämtliche Zahlen sind nachgerechnet und gehen
+auf.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.7.2.2 und 3.7.2.3 – Zwangseinlage und Kapitalgesellschaft
 

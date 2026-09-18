@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 43 Kapitel mit 690 Abschnitten und
-  28 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 45 Kapitel mit 729 Abschnitten und
+  30 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.7 eingepflegt: die
+  **Das Kapitel 3 (verdeckte Einlage) ist vollständig**, also die Abschnitte 3.1 bis 3.9: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2571,8 +2571,23 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   weil sie mangels Privatsphäre über kein Privatvermögen verfügt – jede Einlage erfolgt aus dem
   Betriebsvermögen, mit dem Teilwert und ohne die Sonderregelung des Buchstaben a. Eine Übersicht
   ordnet alle fünf Konstellationen des Abschnitts 3.7 nach der Leitfrage, wo die Beteiligung liegt.
-  Die Abschnitte 3.8 (Schenkungsteuer) und 3.9 (§ 1 AStG) und das Kapitel 4 (Tarif) folgen; der
-  Campus weist den Stand aus.
+  Die **Schenkungsteuer (Abschnitt 3.8)** funktioniert systematisch ganz anders als das
+  Ertragsteuerrecht, und der Bestand stellt beides in einer Übersicht nebeneinander. Beim
+  Alleingesellschafter löst die verdeckte Einlage keine Schenkungsteuer aus, weil der Vorgang auf
+  dem Gesellschaftsverhältnis beruht. Bei mehreren Gesellschaftern fingiert § 7 Abs. 8 Satz 1
+  ErbStG dagegen eine Zuwendung – **ohne** Zuwendungswillen, auf den es ertragsteuerlich gerade
+  ankommt –, bemessen nach der reflexartigen Werterhöhung der fremden Anteile statt nach dem
+  Teilwert der Einlage. Leisten die Mitgesellschafter quotengerecht mit, entfällt der Tatbestand;
+  bei teilweisem Ausgleich bleibt nur die Differenz. Am schärfsten ist der Fall des zinslosen
+  Gesellschafterdarlehens: ertragsteuerlich passiert nichts, weil der Nutzungsvorteil nicht
+  einlagefähig ist – schenkungsteuerlich entsteht in **jedem Jahr der Laufzeit** ein
+  steuerpflichtiger Vorgang.
+  Der Abschnitt **3.9** klärt schließlich das **Verhältnis zu § 1 AStG**: Beide Korrekturnormen
+  stehen rechtlich nebeneinander, ohne dass eine der anderen vorginge; praktisch bleibt für das
+  AStG aber nur dort etwas zu tun, wo die verdeckte Einlage die Einkünfte nicht schon zutreffend
+  erfasst – beim grenzüberschreitenden Nutzungsvorteil, wo sie überhaupt nicht greift, und bei
+  einer höheren Bewertung nach der Bandbreite des § 1 Abs. 3 AStG, wo sie zu niedrig ansetzt.
+  Nur noch das Kapitel 4 (Ermittlung der Körperschaftsteuer) folgt; der Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
