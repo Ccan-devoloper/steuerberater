@@ -1727,6 +1727,23 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   auf den Cayman Islands ohne Ertragsbesteuerung und eine bahamaische Partnership, die ein
   deutsches Bürogebäude für 50 Mio. € gekauft und für 60 Mio. € verkauft hat – drei
   Nicht-DBA-Staaten. Auf die persönliche Steuerpflicht ist ausdrücklich einzugehen.
+  Dazu kommen die beiden übrigen Teile desselben Prüfungstages, die im GewSt- bzw. im
+  KSt-Campus unter demselben Reiter stehen:
+  **Teil II – Gewerbesteuer** (MAX-OHG): zwei Geschäftszweige mit eigenen Räumen, eigener
+  Belegschaft und eigener Buchhaltung, an nur einem davon eine stille Beteiligung, deren
+  Merkmale einzeln aufgezählt sind (20 % an Gewinn und Verlust, Beteiligung an den stillen
+  Reserven, Kontrollrechte nach § 716 BGB, Widerspruchsrecht) – und dieselbe Person ist
+  zugleich Prokuristin. Die Aufgabe fragt selbst nach „dem bzw. den“ Gewerbesteuermessbeträgen.
+  **Teil III – Körperschaftsteuer** (TIP-AG): der umfangreichste Teil des Prüfungstages mit
+  fünf Einzelsachverhalten – nichtabziehbare Aufwendungen bis hin zu Hinterziehungszinsen und
+  Aufsichtsratvergütungen, eine Streubesitzbeteiligung mit Kauf, Ausschüttung und Verkauf
+  innerhalb eines halben Jahres samt Vorfälligkeitsentschädigung, ein Darlehen an die GmbH des
+  Mehrheitsaktionärs zu 10 % statt fremdüblichen 4 % bei bestandskräftigen Bescheiden auf
+  beiden anderen Seiten, eine Organschaft seit 2012 mit Ausgleichszahlung und
+  Gewinnrücklage – und deren Veräußerung mit Nutzen- und Lastenübergang am 31.12.2020 um
+  24 Uhr – sowie eine GmbH & Co. KG ohne Haftungsvergütung für die Komplementärin. Zu
+  entwickeln sind zwei Veranlagungen bis zur verbleibenden Körperschaftsteuer i. S. d.
+  R 7.2 KStR.
   Prüfung: `npm run check:k2-pruefungsklausuren`
 - **KSt-Originalklausuren** (Klausur 2, Reiter Körperschaftsteuer → „Originalklausuren
   (Prüfung)“): die Original-Prüfungsaufgaben aus dem Gebiet der Körperschaftsteuer mit den

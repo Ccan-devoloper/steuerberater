@@ -16,6 +16,7 @@ import KurzskriptBloecke from "./KurzskriptBloecke";
 import { gewstHausaufgaben, gewstHausaufgabenQuelle } from "../data/gewst-hausaufgaben.js";
 import { gewstKurzskript, gewstKurzskriptQuelle } from "../data/gewst-kurzskript.js";
 import { gewstUebungsfaelle, gewstUebungsfaelleQuelle } from "../data/gewst-uebungsfaelle.js";
+import { k2Pruefungsklausuren, k2PruefungsklausurenQuelle } from "../data/k2-pruefungsklausuren.js";
 import "./kst.css";
 
 const NAV = [
@@ -23,6 +24,7 @@ const NAV = [
   ["kurzskript", "Kurzskript", IconRegister],
   ["hausaufgaben", "Hausaufgaben GewSt", IconModule],
   ["uebungsfaelle", "Übungsfälle", IconFaelle],
+  ["pruefungsklausuren", "Prüfungsklausuren im Original", IconFaelle],
 ];
 
 /* Was aus den GewSt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
@@ -139,6 +141,21 @@ export default function K2GewStCampus({ onKlausurwechsel, onFachwechsel }) {
             quelle={gewstKurzskriptQuelle}
             kapitel={gewstKurzskript}
             suchePlatzhalter="Kurzskript durchsuchen"
+          />
+        ) : verlauf.ansicht === "pruefungsklausuren" ? (
+          <HausaufgabenBloecke
+            kicker="Klausur 2 · Gewerbesteuer · amtliche Prüfungsaufgaben"
+            titel="Prüfungsklausuren im Original – ohne Musterlösung"
+            lead="Der Gewerbesteuerteil des zweiten Prüfungstages im amtlichen Wortlaut – kein fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt ist die Prüfung **2021/2022**; die Aufgabe betrifft den Erhebungszeitraum 2020. **Zu dieser Aufgabe enthält die Quelle keine Lösung**, und es wird hier ausdrücklich keine erfunden; der Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit vollständiger Musterlösung stehen. Die MAX-OHG führt Baustoffgroßhandel und Baumaschinenverleih als getrennte Geschäftseinheiten mit eigenen Räumen, eigener Belegschaft und eigener Buchhaltung – und an nur einem der beiden Zweige ist eine Dritte still beteiligt, die zugleich als Prokuristin angestellt ist. Sämtliche Merkmale ihrer Beteiligung sind einzeln aufgezählt: 20 % an Gewinn und Verlust, Beteiligung an den stillen Reserven, Kontrollrechte nach § 716 BGB, Widerspruchsrecht bei außergewöhnlichen Geschäften. Ob daraus ein Gewerbesteuermessbetrag wird oder zwei, entscheidet die ganze Aufgabe – und die Aufgabenstellung fragt selbst nach „dem bzw. den“ Messbeträgen."
+            quelle={k2PruefungsklausurenQuelle}
+            hausaufgaben={k2Pruefungsklausuren.filter((e) => e.fach === "gewst")}
+            gruppeVon={(eintrag) => eintrag.jahrgang}
+            gruppeLabel={(eintrag) => `Prüfung ${eintrag.jahrgang}`}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · Teil ${eintrag.teil}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Aufgabenteile"
+            einheitEinzahl="Aufgabenteil"
           />
         ) : verlauf.ansicht === "uebungsfaelle" ? (
           <HausaufgabenBloecke

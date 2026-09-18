@@ -8678,3 +8678,63 @@ Hinweisblock für die ganze Klausur hält, arbeitet mit falschen Vorgaben.
 „Ausgleichszahlungen i.H.v. 350.000 €“ (Plural bei einer Zahlung) in Sachverhalt 1;
 „§ 4 Abs. 3 EstG“ und „die BP-Partnership“ mit kleinem Artikel am Satzanfang in den
 Sachverhalten 2 und 3; „Kapitalertragsteuer eingehalten“ statt „einbehalten“.
+
+### Amtliche Prüfungsaufgaben Ertragsteuerrecht 2021/2022, Teile II und III
+
+- **Quelle:** Drive-ID `1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3`, Abschnitte „Teil II:
+  Gewerbesteuer“ und „Teil III: Körperschaftsteuer“.
+- **Ziel:** `src/data/k2-pruefungsklausuren.js`, Einträge `k2-pk-2021-gewst-max-ohg`
+  (fach "gewst") und `k2-pk-2021-kst-tip-ag` (fach "kst"); neue Reiter
+  „Prüfungsklausuren im Original“ im GewSt-Campus und im KSt-Campus. Prüfung:
+  `npm run check:k2-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; Erhebungs- bzw. Veranlagungszeitraum **2020**.
+
+**Damit ist der Ertragsteuer-Prüfungstag 2021/2022 vollständig** – drei
+Einkommensteuer-Sachverhalte, der Gewerbesteuerteil und der Körperschaftsteuerteil. Offen aus
+dieser Datei bleibt nur noch der Verfahrensrechts-Prüfungstag (AO/FGO, USt, ErbSt).
+
+**Ein Datensatz, drei Campus.** Der Prüfungstag umfasst drei Fächer, die im Campus getrennt
+geführt werden. Der Datensatz hält die Quelle zusammen; das Feld `fach` steuert, welcher
+Campus welchen Eintrag zeigt. Der Gewerbesteuer-Campus hatte bisher keinen Reiter für
+Prüfungsklausuren und bekommt ihn mit diesem Eintrag.
+
+**Unabhängig nachgerechnet – die Zahlen der Quelle sind in sich schlüssig:**
+
+| Rechenschritt | Nachrechnung | Quelle |
+| --- | --- | --- |
+| Gewerbesteuer: Verlustbeteiligung | 20 % von 250.000 € = 50.000 € | 50.000 € |
+| Gewerbesteuer: Verlust Großhandel | ./. 250.000 + 50.000 = ./. 200.000 € | ./. 200.000 € |
+| Gewerbesteuer: Gesamtgewinn | ./. 200.000 + 350.000 = 150.000 € | 150.000 € |
+| KSt: SolZ zur KSt-Vorauszahlung | 5,5 % von 3.500.000 € = 192.500 € | 192.500 € |
+| KSt: Anteil an der SAT-Ausschüttung | 5 % von 400.000 € = 20.000 € | 20.000 € |
+| KSt: Kapitalertragsteuer SAT | 25 % von 20.000 € = 5.000 €; SolZ 5,5 % = 275 € | 5.000 € / 275 € |
+| KSt: Auszahlung SAT | 20.000 ./. 5.000 ./. 275 = 14.725 € | 14.725 € |
+| KSt: Anteil BERG an der TAL-Ausschüttung | 25 % von 400.000 € = 100.000 € | 100.000 € |
+| KSt: Kapitalertragsteuer TAL | 25 % von 100.000 € = 25.000 €; SolZ 5,5 % = 1.375 € | 25.000 € / 1.375 € |
+| KSt: SolZ zur KSt-Vorauszahlung BERG | 5,5 % von 6.000 € = 330 € | 330 € |
+| KSt: Gewinnabführung BERG | 100.000 + 10.000.000 ./. 25.000 ./. 1.375 ./. 6.000 ./. 330 ./. 34.000 ./. 9.500.000 = 533.295 € | 533.295 € |
+
+**Eigene Feststellungen – wortlautgetreu übernommen und gekennzeichnet:**
+
+1. **„TAG-GmbH“ gegen „TAL-GmbH“** im Körperschaftsteuerteil: Die Gesellschaft, an der die
+   BERG-GmbH zu 25 % beteiligt ist, heißt beim ersten Auftreten „TAG-GmbH“ und danach
+   durchgehend „TAL-GmbH“. Gemeint ist dieselbe Gesellschaft; der Befund ist im Eintrag
+   vermerkt.
+2. **Nicht geschlossene Klammern und ein Tippfehler im Gewerbesteuerteil:** Die Aufstellung
+   zum Gehalt der Prokuristin lautet in der Quelle „Gehalt Pia Schmidt (ohne
+   Sozialversicherungsbeiträge: 80.000 €“ und „Arbeitnehmereiträge“; auch der einleitende
+   Satz „(Berücksichtigung bei der Ermittlung des Verlusts des Geschäftszweigs
+   ‚Baustoffgroßhandel‘:“ schließt die Klammer nicht. Der Datensatz gibt die Beträge als
+   Tabelle wieder und weist den Befund gesondert aus.
+3. **Weitere Verschreiber, unverändert übernommen:** „zum Kaufpreis vom 2.500.000 €“ statt
+   „von“; „auf dem 31. Dezember 2020 aufgestellten Steuerbilanz“ statt „auf den“; „ihrer
+   Beteiligungen“ statt „ihren Beteiligungen“.
+
+**Was in den Lösungsabschnitten steht.** Wie bei allen Einträgen dieser Reihe: die offene
+Feststellung, dass keine Lösung vorliegt; was die Aufgabenstellung selbst vorgibt; die
+Nachrechnung der Zahlen, die die Quelle selbst ausweist; und die Verweise auf die
+Parallelfälle mit Musterlösung. Beim Körperschaftsteuerteil kommt eine Aufzählung der
+Sachverhaltsangaben hinzu, die erkennbar Weichenstellungen sind – etwa die Bestandskraft
+beider Bescheide auf der Gegenseite des Darlehens, die unternehmerische Rechtfertigung der
+Rücklage und der Nutzen- und Lastenübergang am 31. Dezember 2020 um 24 Uhr. Das ist
+Transkription und Hinweis, keine Lösung.

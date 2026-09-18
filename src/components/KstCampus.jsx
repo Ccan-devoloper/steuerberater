@@ -11,6 +11,7 @@ import { kstKurzskript, kstKurzskriptQuelle } from "../data/kst-kurzskript.js";
 import { kstUebungsfaelle, kstUebungsfaelleQuelle } from "../data/kst-uebungsfaelle.js";
 import { kstSchemataNoethen, kstSchemataNoethenQuelle } from "../data/kst-schemata-noethen.js";
 import { kstOriginalklausuren, kstOriginalklausurenQuelle } from "../data/k2-kst-originalklausuren.js";
+import { k2Pruefungsklausuren, k2PruefungsklausurenQuelle } from "../data/k2-pruefungsklausuren.js";
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import { kstKarteikarten, kstQuizfragen } from "../data/kst-lernstoff";
 import { REDAKTIONSSTAND } from "../data/redaktion";
@@ -54,6 +55,7 @@ const ansichten = [
   { id: "schemata-noethen", label: "Schemata (Nöthen)", Icon: IconSchema },
   { id: "uebungsklausur", label: "Übungsklausur (Breier)", Icon: IconTraining },
   { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconTraining },
+  { id: "pruefungsklausuren", label: "Prüfungsklausuren im Original", Icon: IconTraining },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconModule },
   { id: "training", label: "Training", Icon: IconTraining },
   { id: "quellen", label: "Quellenstand", Icon: IconRegister },
@@ -326,6 +328,22 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Sachverhalte"
             einheitEinzahl="Sachverhalt"
+          />
+        )}
+        {ansicht === "pruefungsklausuren" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 2 · Körperschaftsteuer · amtliche Prüfungsaufgaben"
+            titel="Prüfungsklausuren im Original – ohne Musterlösung"
+            lead="Der Körperschaftsteuerteil des zweiten Prüfungstages im amtlichen Wortlaut – kein fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt ist die Prüfung **2021/2022**; die Aufgabe betrifft den Veranlagungszeitraum 2020. **Zu dieser Aufgabe enthält die Quelle keine Lösung**, und es wird hier ausdrücklich keine erfunden; der Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit vollständiger Musterlösung stehen. Die TIP-AG ist der umfangreichste Teil des Prüfungstages: fünf Einzelsachverhalte, die alle auf dieselbe Schlussrechnung zulaufen – nichtabziehbare Aufwendungen von Vorauszahlungen bis zu Hinterziehungszinsen und Aufsichtsratvergütungen; eine 5-prozentige Beteiligung, die im Juni gekauft, im Juli mit einer bereits beschlossenen Ausschüttung bedient und im November mit 100.000 € Gewinn wieder verkauft wird; ein Darlehen an die GmbH des Mehrheitsaktionärs zu 10 % statt fremdüblichen 4 %, bei dem beide anderen Bescheide schon bestandskräftig sind; eine Organschaft seit 2012 mit 34.000 € Ausgleichszahlung, einer 120.000-€-Rücklage aus 2019 und einer Veräußerung mit Nutzen- und Lastenübergang am 31.12.2020 um 24 Uhr; und eine GmbH & Co. KG, deren Komplementärin keine Haftungsvergütung erhält, obwohl 10.000 € fremdüblich wären. Zu entwickeln sind zwei Veranlagungen: erst die der Organgesellschaft samt dem nach § 14 Abs. 5 KStG festzustellenden Einkommen, dann die der Organträgerin."
+            quelle={k2PruefungsklausurenQuelle}
+            hausaufgaben={k2Pruefungsklausuren.filter((e) => e.fach === "kst")}
+            gruppeVon={(eintrag) => eintrag.jahrgang}
+            gruppeLabel={(eintrag) => `Prüfung ${eintrag.jahrgang}`}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · Teil ${eintrag.teil}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Aufgabenteile"
+            einheitEinzahl="Aufgabenteil"
           />
         )}
         {ansicht === "originalklausuren" && (
