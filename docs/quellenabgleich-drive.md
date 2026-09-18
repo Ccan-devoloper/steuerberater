@@ -10234,3 +10234,60 @@ hier genau das, was dieser Bestand vermeidet.
 **Noch offen im Dublettencheck** sind die Teile 3 und 4 dieser Fallsammlung sowie
 Umwandlungssteuerrecht, Internationales Steuerrecht, Gewerbesteuer, Originalklausuren und die
 Ordner des zweiten Baums, soweit noch nicht geprüft.
+
+### Übungsfälle laufender Unterricht (Nöthen), Teile 3 und 4 – der Bestand ist vollständig
+
+Mit dieser Runde sind alle vier Teile übernommen (vier Kapitel, 179 Abschnitte, 7 Tabellen).
+Die Teile 3 und 4 spielen beide im Bauunternehmen „MN Bau“ in Potsdam, verfolgen aber ganz
+verschiedene Zwecke.
+
+**Teil 3 rollt die Bilanzberichtigung von der anderen Seite auf.** Die Aufgabe beginnt nicht
+mit einem Geschäftsvorfall, sondern mit einer **Prüferbilanz**: Eine Betriebsprüfung hat für
+2024 eine eigene Bilanz erstellt, die in fünf Positionen von der Steuerbilanz abweicht, und die
+erste Teilaufgabe lautet, die notwendigen **Kapitalanpassungsbuchungen** vorzunehmen. Der
+zweite Sachverhalt liefert die Erklärung für zwei der Abweichungen – als Aufwand gebuchte
+Anschaffungsnebenkosten, die der Prüfer anteilig auf Grund und Boden und Gebäude verteilt hat –
+und endet mit einem Grundstücksverkauf, dessen stille Reserven nach dem ausdrücklichen Wunsch
+des Mandanten übertragen werden sollen, „weil zukünftige Anschaffungen nicht geplant sind“.
+
+**Die Prüferbilanz-Tabelle ist rekonstruiert und die Rekonstruktion beweisbar richtig:** Die
+Quelle stellt Steuerbilanz und Prüferbilanz zweispaltig gegenüber, die Extraktion gibt beide
+Spalten zeilenweise aus. Die Zerlegung in Aktiv- und Passivtabelle ist überprüft – alle vier
+Summen gehen exakt auf: Aktiva 498.700 € und 523.475 €, Passiva ebenso 498.700 € und
+523.475 €. Anders als beim Betriebsabrechnungsbogen des Teils 1 gibt es hier also keinen
+offenen Rest.
+
+**Teil 4 ist reines Rückstellungsrecht** – sieben Fälle, die genau die Zweifelsfragen
+abschreiten, an denen sich Handels- und Steuerbilanz trennen: unterlassene Instandhaltung, die
+im März 2026 nachgeholt wird; die Patentrechtsverletzung, von der der Inhaber noch nichts weiß;
+der Schadensersatzprozess, der am 27.12.2025 gewonnen wird, während die Berufungsfrist erst
+Ende Januar 2026 abläuft; die Aufbewahrung von Geschäftsunterlagen mit drei verschiedenen
+Fristen; Jubiläumsuhren, deren Einkaufspreis bis 2029 um 30 % steigen soll; eine
+Pensionsverpflichtung mit an den Arbeitnehmer **verpfändeter** Rückdeckungsversicherung, deren
+Zeitwert (24.000 €) das Deckungskapital (10.000 €) deutlich übersteigt; und schließlich der
+Schuldbeitritt der B-GmbH gegen 240.000 € Entgelt, der die Folgen der §§ 4f und 5 Abs. 7 EStG
+auslöst.
+
+**Eigene Feststellungen – vier Stellen, an denen die Quelle sich selbst widerspricht:**
+
+1. **Fall 4 des Teils 4 beginnt mit „MN hat zwei Räume, in denen er Geschäftsunterlagen
+   aufbewahrt“ – und beschreibt anschließend drei.** Raum 3 hat eigene Kosten (7.000 €), eine
+   eigene Aufbewahrungsfrist (6 Jahre) und einen eigenen handelsrechtlichen Wert (22.000 €).
+   Der Widerspruch ist an Ort und Stelle benannt; der Wortlaut steht unverändert.
+2. **Teil 3 nennt „Max Neumann (MN)“ und sagt im selben Satz „betreibt als Einzelunternehmerin“**
+   – Teil 4 nennt dieselbe Firma unter „Manuela Neumann“. Der Sachverhalt des Teils 3 spricht
+   danach durchgehend von „seinem Team“ und „seines Einzelunternehmens“.
+3. **Teil 4 beschreibt Manuela Neumann und spricht dann von „seines Einzelunternehmens“.**
+4. **Beide Teile schreiben „sind MM jedoch einige Zweifel … gekommen“** – gemeint ist MN.
+
+Alle vier Stellen stehen im Wortlaut mit „(so in der Quelle)“.
+
+**Ein offener Punkt, der als offen vermerkt ist:** Bei Teil 3 endet die Textausgabe des
+Connectors hinter dem Sachverhalt 2 an einer Seitengrenze, während die Teile 1, 2 und 4 jeweils
+alle Fälle ausgeben. Ob Teil 3 tatsächlich nur zwei Sachverhalte enthält oder ob die Ausgabe
+abbricht, lässt sich nicht feststellen. Der Datensatz sagt das an Ort und Stelle, und der
+Eintrag steht in Abschnitt A der offenen Quellen – lieber ein ausgewiesener Zweifel als eine
+stillschweigende Annahme.
+
+**Noch offen im Dublettencheck** sind Umwandlungssteuerrecht, Internationales Steuerrecht,
+Gewerbesteuer, Originalklausuren und die Ordner des zweiten Baums, soweit noch nicht geprüft.

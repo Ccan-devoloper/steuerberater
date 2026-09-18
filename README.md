@@ -2300,8 +2300,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   rekonstruiert und im Campus als Rekonstruktion ausgewiesen.
   Prüfung: `npm run check:k1-ust-beispielsammlung`
 - **Übungsfälle laufender Unterricht (Nöthen)** (Klausur 3, Reiter Bilanzen → „Übungsfälle
-  (Nöthen)“): die **Bilanz-Fallsammlung, die den laufenden Unterricht begleitet** – bisher die
-  Teile 1 und 2 mit 117 Abschnitten und 4 Tabellen. Jeder Teil hat einen durchgehenden
+  (Nöthen)“): die **Bilanz-Fallsammlung, die den laufenden Unterricht begleitet** – alle
+  vier Teile mit 179 Abschnitten und 7 Tabellen. Jeder Teil hat einen durchgehenden
   Unternehmenssachverhalt, an den sich unabhängige Einzelfälle hängen: **Teil 1** die
   Schreinerei MN in Aachen mit dreizehn Fällen (Einzel- und Pauschalwertberichtigung,
   Substanzerhaltungsverpflichtung, Ehegattengrundstück, Leasing mit Kaufoption, Mietkauf,
@@ -2312,11 +2312,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Fremdwährungsverbindlichkeit, Teilwert beim halbfertigen Erzeugnis, Gebäude mit
   Hausmeisterwohnung und vier Betriebsvorrichtungen, Mietereinbauten in drei Varianten,
   Ehegattengrundstück, zweimal Abbruchkosten, Erbbaurecht über 99 Jahre).
-  Die Aufgabenstellung ist in beiden Teilen dieselbe – Beurteilung, Bilanzansätze zum
-  31.12.2025 und Buchungssätze, mit der Zielvorgabe „möglichst niedriger steuerlicher Gewinn,
-  möglichst hoher handelsbilanzieller Jahresüberschuss, steuerrechtliches Ergebnis hat Vorrang“.
+  **Teil 3** das Bauunternehmen „MN Bau“ in Potsdam, das mit einer Prüferbilanz aus einer
+  Betriebsprüfung beginnt – die Aufgabe startet mit den notwendigen Kapitalanpassungsbuchungen –
+  und mit einem Grundstücksverkauf endet, dessen stille Reserven nach dem Wunsch des Mandanten
+  übertragen werden sollen; **Teil 4** sieben Fälle ausschließlich zum Rückstellungsrecht
+  (unterlassene Instandhaltung, noch unentdeckte Patentrechtsverletzung, abgewiesene
+  Schadensersatzklage mit laufender Berufungsfrist, Aufbewahrung von Geschäftsunterlagen in drei
+  Räumen mit drei Fristen, Jubiläumsuhren mit künftiger Preissteigerung, Pensionsverpflichtung
+  mit verpfändeter Rückdeckungsversicherung und der Schuldbeitritt mit §§ 4f, 5 Abs. 7 EStG).
+  Die Aufgabenstellung ist in allen Teilen dieselbe – Beurteilung, Bilanzansätze zum
+  31.12.2025 und Buchungssätze, mit einer Zielvorgabe, die in den Teilen 1 und 2 dem
+  steuerlichen und in den Teilen 3 und 4 dem handelsrechtlichen Ergebnis den Vorrang gibt.
   **Die Quelle enthält keine Lösungen** – es sind Aufgabenblätter. Es wird hier keine erfunden.
-  Die Teile 3 und 4 folgen. Prüfung: `npm run check:k3-bil-uebungsfaelle`
+  Prüfung: `npm run check:k3-bil-uebungsfaelle`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
