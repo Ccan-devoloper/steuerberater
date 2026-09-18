@@ -3203,3 +3203,50 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Nachgerechnet und zutreffend: Die Punkteverteilung der ersten Prüfungsklausur – 35 Punkte
   AO/FGO, 35 Punkte USt und 30 Punkte ErbSt – ergibt die von der Quelle genannten
   **100 Punkte**.
+
+## AO Short-Skript (Jacobs) – wortlautgetreue Erfassung (Teil 2)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1fuGSbReWCvFo0ClbWr8G7WaRfYeiRySC`),
+  Abschnitt 2, Teile I und II.
+- Einpflege dieses Durchgangs: drei Kapitel – die Wirksamkeit von Bescheiden mit dem
+  zweistufigen Prüfungsschema, der Nichtigkeit nach § 125 AO und dem Beispiel des
+  verstorbenen Architekten A; das Prüfungsschema der ordnungsgemäßen Bekanntgabe mit dem
+  Umzugsfall der StB-Prüfung 2013; sowie das Verhältnis zwischen Feststellungs- und
+  Steuerbescheiden. Das Short-Skript umfasst jetzt 1 Teil, 6 Kapitel, 165 Blöcke und
+  3 Tabellen; Prüfung `npm run check:k1-ao-short-skript-jacobs`.
+- Noch nicht eingepflegt: der Teil III des Abschnitts 2 (Festsetzungsverjährung), die
+  Abschnitte 3 und 4 sowie der gesamte Teil II (Schwerpunkte der AO-Klausuren 2016 bis
+  2024).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 4, Name des Erblassers.** Der Musterzusatz für den neu zu erlassenden Bescheid
+    lautet „Dieser Bescheid ergeht an Sie als Gesamtrechtsnachfolger nach Ihrem verstorbenen
+    Vater **V**.“, während der Erblasser im Sachverhalt durchgehend **A** (Architekt A)
+    heißt.
+  - **Kapitel 5, Anschrift im ESt-02-Teil der Lösung.** Dort heißt es „Da X am 7. 3.04 keinen
+    Machtbereich mehr in der **B-Straße 2** hatte“; nach dem Sachverhalt ist die alte
+    Anschrift **A-Straße 2** gemeint – die B-Straße 3 ist gerade die neue Adresse, in der X
+    sehr wohl einen Machtbereich hatte.
+  - Kapitel 4: der verstellte Satz „… die Anwendung von Korrekturvorschriften des
+    Verhältnisses zwischen Feststellungsbescheid und Steuerbescheid …“ und „eine Vielzahl
+    aller im Teilbereich AO zu erzielende Punkte“; „erteilt S **seinen** Steuerberater eine
+    Zustellvollmacht für alle vom Finanzamt zu **erlassende** Verwaltungsakte“; die
+    Gliederung der Zulässigkeitsprüfung beginnt mit „Statthaftigkeit“ ohne Ziffer und setzt
+    mit „2. Beschwer“ fort; „weder der Frist des § 355 noch“ ohne Gesetzesangabe; die
+    Fundstelle „AEAO zu § 122, Nr. 4 .1“ mit Leerstelle.
+  - Kapitel 5: „Der Einspruch des X geht am Montag, den **20.o4.04** beim FA ein“ mit
+    Buchstabe statt Null; „des **erteilen** Nachsendeauftrags“; der fehlende Punkt nach
+    „hier also der 18. 3.04 Die Frist endet …“; die Fundstelle „AEAO zu § 122 Nr. 4 .4.4“.
+
+  Darstellungsentscheidung: Die dreiteilige Musterangabe für den neu zu erlassenden
+  Einkommensteuerbescheid (Anschriftenfeld, Bescheidkopf, Zusatz) steht in der Quelle als
+  Schaubild; sie ist zugeordnet als Tabelle wiedergegeben. Der Wortlaut ist unverändert.
+
+  Nachgerechnet und zutreffend: Im Umzugsfall der StB-Prüfung 2013 gehen beide Bescheide
+  dem X tatsächlich am **18.03.04** zu; die Monatsfrist läuft vom 19.03.04 bis zum
+  18.04.04. Da der Aufgabentext den 20.04.04 als Montag bezeichnet, fällt der 18.04.04 auf
+  einen Samstag, so dass § 108 Abs. 3 AO auf Montag, den **20.04.04** verschiebt – der an
+  diesem Tag eingehende Einspruch ist für beide Bescheide rechtzeitig.

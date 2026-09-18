@@ -461,6 +461,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Korrekturvorschriften" mit den beiden typischen Beratungssituationen sowie Gutachten- und
   Urteilsstil mit Obersatz, Subsumtion und Ergebnis – samt Beispielen zum Korrektur- und
   zum Rechtsbehelfsverfahren und der vollständigen Zulässigkeitsprüfung nach § 358 AO.
+  Der Abschnitt 2 bringt die typischen allgemeinen AO-Probleme der Fallbearbeitung: die
+  Wirksamkeit von Bescheiden mit dem zweistufigen Prüfungsschema, der Nichtigkeit nach
+  § 125 AO und dem durchgeprüften Beispiel des verstorbenen Architekten A, dessen Erbe
+  gegen einen an den Toten gerichteten Bescheid vorgeht – statthaft wegen des
+  Rechtsscheins, ohne Bindung an die Einspruchsfrist, mit Musterangaben für den neu zu
+  erlassenden Bescheid; die ordnungsgemäße Bekanntgabe mit Bekanntgabewille, Zugang und
+  richtigem Adressaten, der Unterscheidung von Inhalts-, Bekanntgabeadressat und Empfänger,
+  der Heilung von Bekanntgabemängeln, der Verlängerung der Bekanntgabefiktion auf vier Tage
+  ab 2025 und dem Umzugsfall der StB-Prüfung 2013, in dem beide Bescheide erst am 18.03.04
+  zugehen und die Frist über § 108 Abs. 3 AO am 20.04.04 endet; sowie das Verhältnis
+  zwischen Feststellungs- und Steuerbescheiden mit den MoPeG-Folgeänderungen ab 2024, der
+  Bindungswirkung des § 182 Abs. 1 AO, der Feststellungsverjährung einschließlich der
+  besonderen Ablaufhemmung des § 181 Abs. 5 AO und der Regel, Feststellungs- und
+  Folgebescheid stets getrennt zu prüfen.
   Die Quelle stellt ausdrücklich klar, dass Steuererhebungsverfahren, FGO-Verfahren,
   Steuerstrafrecht und Haftungsrecht nicht enthalten, aber gleichwohl prüfungsrelevant
   sind. Der Datensatz tritt neben die bereits vorhandene verdichtete Overlay-Fassung
