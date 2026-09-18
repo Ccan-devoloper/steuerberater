@@ -2449,3 +2449,41 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Nachgerechnet und zutreffend: die Zahl der Taten in den Beispielen – Einkommen- und
   Umsatzsteuer für 17 bis 20 ergeben acht selbständige Tathandlungen; nicht erklärte
   Kapitalerträge ab 2009 bis einschließlich 2020 ergeben zwölf vollendete Steuerstraftaten.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 8)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Teil IV, Tz. 1.8 (Fortsetzung) und 1.9.
+- Einpflege dieses Durchgangs: zwei Kapitel – der durchgerechnete Zwölfjahresfall zum
+  Berichtigungszeitraum mit beiden Prüfungsschritten und der Abwandlung für
+  Unterlassungsdelikte sowie die beiden Beispiele zum Vollständigkeitsgebot. Das Skript
+  umfasst damit 10 Teile, 103 Kapitel, 2.185 Blöcke und 204 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: die Sperrgründe des § 371 Abs. 2 AO im Einzelnen, die
+  Nachzahlungspflicht des § 371 Abs. 3 AO, der Zuschlag nach § 398a AO und der gesamte
+  Abschnitt 15 (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 21: „§§ 170 Abs. 2 Satz 1 Nr. 1, 169 Abs. 2 Satz 2 AO und § 188 Abs. 2 **AO**“
+    – gemeint ist das BGB.
+  - Kapitel 22, Fall 2: Der Onkel ist im Sachverhalt „in **Frankreich** wohnhaft“, zwei
+    Sätze später heißt es, in **Österreich** habe der Vorgang nicht der Erbschaftsteuer
+    unterlegen. Ferner das doppelte „an. an.“, das fehlende Subjekt in „noch gab eine
+    Erbschaftsteuererklärung ab“ und eine nicht geschlossene Klammer bei „(§ 370 Abs. 1
+    Nr. 2 iVm Abs. 4 Satz 1 AO.“
+
+  Nachgerechnet und zutreffend: sämtliche Fristen des Zwölfjahresfalls – die Hinterziehung
+  der ESt 2015 ist mit Ablauf des 17.08.2021 (Bekanntgabe 17.08.2016 zuzüglich fünf Jahre)
+  und damit vor Eingang der Selbstanzeige am 25.10.2021 verjährt, die der ESt 2016 erst am
+  13.07.2022; die Festsetzungsfrist für die ESt 2010 endet am 31.12.2021 (Anlaufhemmung
+  bis 31.12.2011 zuzüglich zehn Jahre). In der Abwandlung tritt der Taterfolg jeweils
+  21 Monate nach Ablauf des Veranlagungszeitraums ein – für 2009 am 01.10.2011, für 2019
+  am 01.10.2021 (noch vor der Selbstanzeige) und für 2020 erst am 01.10.2022, weshalb die
+  Selbstanzeige die Zeiträume 2009 bis 2019 umfassen muss. Im Fall 1 stimmen die
+  Taterfolge: 10.000 € (X-Bank) zuzüglich 8.000 € (Y-Bank) ergeben für 2015 und 2016 je
+  **18.000 €**, für 2017 allein **8.000 €**; im Fall 2 ergeben drei
+  Einkommensteuerhinterziehungen und eine Erbschaftsteuerhinterziehung **vier**
+  selbständige Taten.

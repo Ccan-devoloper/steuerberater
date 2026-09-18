@@ -259,7 +259,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   im Einzelnen – Materiallieferung durch den Täter mit zwei Negativbeispielen, die
   Rechtsfolge der Unvollständigkeit, Formfreiheit, die getrennte Betrachtung je Steuerart,
   das Vollständigkeitsgebot mit der Geringfügigkeitsgrenze von fünf Prozent und die
-  Berechnung des Zehnjahreszeitraums nach den AStBV (St) 2025.
+  Berechnung des Zehnjahreszeitraums nach den AStBV (St) 2025. Dazu kommt der
+  durchgerechnete Fall über zwölf Veranlagungszeiträume mit beiden Prüfungsschritten –
+  strafrechtliche Verjährung nach §§ 78, 78a StGB und fiktive Zehnjahresfrist, die bei
+  aktivem Tun an die Abgabe der Erklärung und bei Unterlassen an den Taterfolg anknüpft –
+  samt Abwandlung für nicht abgegebene Erklärungen, sowie zwei Beispiele zum
+  Vollständigkeitsgebot: die verschwiegene zweite Bank, bei der die Teilselbstanzeige auch
+  für den offenbarten Teil keine Straffreiheit bringt, und die verschwiegene Erbschaft, bei
+  der die getrennte Betrachtung der Steuerarten eine zweite Selbstanzeige offenhält.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
