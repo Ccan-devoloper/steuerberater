@@ -4188,3 +4188,44 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Substanzwert generell unberücksichtigt bleibt (R B 11.8 Abs. 2 S. 3 und 5 ErbStR). Darauf
   stützt sich der Schlusssatz der Musterlösung des Übungsfalls Beckmann der
   ErbSt-Fallsammlung. Der Datensatz führt diesen Zusammenhang an beiden Stellen mit.
+
+## Bewertungsrecht Teil 1 (Schäfer) – Abschnitt V, Tz. 2: Kapitalforderungen und Schulden
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1bKS8GZwHDb2Z4gjFc9WFqJcqTSovSLnY`),
+  Abschnitt V Tz. 2 Buchstaben a) bis e), PDF-Seiten 13 bis 18.
+- Einpflege dieses Durchgangs: ein weiteres Kapitel; der Datensatz umfasst jetzt 3 Teile,
+  7 Kapitel, 136 Blöcke und 6 Tabellen; Prüfung `npm run check:k1-erbst-bewertung-teil1`.
+- Noch offen aus derselben Datei: nur der Abschnitt V Tz. 3 (wiederkehrende Nutzungen und
+  Leistungen).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidung: Das Schaubild „Bewertung von Kapitalforderungen und -schulden“
+  steht in der Quelle als dreispaltige Tabelle, deren Zeilen in der Erfassung ineinander
+  laufen – die Bezeichnung einer Art steht jeweils am Ende der Zeile der vorangehenden
+  Bewertungsmethode. Die zehn Zeilen sind anhand dieses Musters zugeordnet und als Tabelle
+  wiedergegeben; der Wortlaut ist unverändert. Bei der ersten Zeile ist die über zwei Zeilen
+  gebrochene Formel „Nennwert × Kurs / 100“ zusammengeführt.
+
+  **Sechs Beispiele ohne Lösung.** Die Quelle stellt in diesem Abschnitt sechs Sachverhalte
+  – eine Fälligkeitsforderung über 30.000 € mit vier Jahren Restlaufzeit, eine über
+  100.000 € mit gebrochener Restlaufzeit (fällig 18.08.07, Stichtag 04.04.05), eine
+  Tilgungsforderung über 60.000 € in Monatsraten, eine Hypothekenschuld über 20.000 € mit
+  1 % und als Abwandlung mit 12 % sowie eine stille Einlage von 45.000 € mit zwei
+  Ertragsreihen – und lässt sie **sämtlich ohne Lösung**. Sie sind hier **nicht aufgelöst**;
+  der Befund ist im Datensatz vermerkt. Das entspricht der Bauart dieses Skriptteils: Auch
+  das Beispiel der Tz. 1 und die vier Beispiele des Abschnitts III stehen ohne Lösung,
+  während der Teil 3 desselben Verfassers durchrechnet. Die Lösungen liegen vermutlich in
+  der Datei „2025) (6).pdf“ (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) desselben Ordners, die
+  noch nicht geöffnet ist.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 2 d).** „Die Einlage des typisch stillen Gesellschafters **wird** als
+    Kapitalforderung grundsätzlich mit dem Nennwert angesetzt **wird**.“
+
+  Querbezug: Die Fünffachkorrektur bei der typisch stillen Beteiligung (R B 12.4 ErbStR) und
+  die Tabellen 1 und 2 für Fälligkeits- und Tilgungsdarlehen kehren im ErbSt-Campus in der
+  3. Einheit der Mitschriften wieder – dort im Fall 19 zur typisch stillen Beteiligung und
+  in der Gegenüberstellung von Fälligkeits- und Tilgungsdarlehen; die Hausaufgabe 2 (Braun
+  und Bauer) wendet beide Tabellen an. Der Datensatz führt diesen Zusammenhang mit.

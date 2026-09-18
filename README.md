@@ -104,7 +104,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Abs. 2 BewG, Beteiligungen mit dem Paketzuschlag nach § 11 Abs. 3 BewG ab mehr als 25 %
   und bis zu 25 % Zuschlag, sowie Investmentanteile mit dem Rücknahmepreis nach § 11 Abs. 4
   BewG – samt dem fünfzeiligen Schaubild der Quelle, das alle fünf Fälle bis hin zum
-  Nennwert nicht notierter Forderungspapiere zusammenfasst.
+  Nennwert nicht notierter Forderungspapiere zusammenfasst. Dazu die **Kapitalforderungen
+  und Schulden**: der Nennwert des § 12 Abs. 1 BewG mit der Behandlung des Disagios und die
+  vier Gründe, von ihm abzuweichen – uneinbringliche Forderungen (kein Ansatz) und
+  zweifelhafte Forderungen (Schätzwert), unverzinsliche Forderungen mit dem Gegenwartswert
+  nach § 12 Abs. 3 BewG bei 5,5 % über die Tabelle 1 für Fälligkeits- und die Tabelle 2 für
+  Tilgungsforderungen einschließlich der tagegenauen Restlaufzeit mit 360-Tage-Jahr und
+  linearer Interpolation, die 3- und 9-Prozent-Grenzen bei niedriger und hoher Verzinsung
+  mit der Vierjahresfrist, die Einlage des typisch stillen Gesellschafters mit der
+  Fünffachkorrektur nach R B 12.4 ErbStR und der Rückkaufswert noch nicht fälliger
+  Versicherungsansprüche nach § 12 Abs. 4 BewG – samt dem zehnzeiligen Schaubild der Quelle
+  von der kursnotierten Forderung bis zur Lebensversicherung. Sämtliche sechs Beispiele
+  dieses Abschnitts stehen in der Quelle ohne Lösung und sind hier nicht aufgelöst.
   Prüfung: `npm run check:k1-erbst-bewertung-teil1`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des
