@@ -2389,8 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 43 Kapitel mit 560 Abschnitten und 41
-  Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
+  (Stand 05/2026) im Wortlaut – **vollständig**, 45 Kapitel mit 608 Abschnitten und 44 Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
   einer Beteiligung nicht versteuert, darf die Verluste aus ihr nicht abziehen. Das
@@ -2707,6 +2706,30 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   nach § 3c Abs. 2 EStG nicht abgezogenen 80.000 € haben die Ausgangsgröße nicht gemindert, können
   also nicht nach § 8 Nr. 1a GewStG hinzugerechnet werden, sondern mindern **vorrangig** die
   Hinzurechnung nach § 8 Nr. 5 GewStG. **Damit ist auch das Kapitel 5 der Quelle vollständig.**
+  Das **Kapitel 6**, das die Quelle selbst mit „nur Hinweis“ überschreibt, rundet das Bild mit vier
+  Sonderregeln ab. § 8b Abs. 7 KStG nimmt **Finanzunternehmen** i. S. des KWG die Steuerfreiheit,
+  weil sonst ihre operativen Gewinne vollständig steuerbefreit wären – gibt ihnen dafür aber den
+  vollen Abzug der Gewinnminderungen zurück. Genau das machte die Vorschrift bis 2016 zum
+  Gestaltungsobjekt; seit dem VZ 2017 sind zwei **kumulative** Merkmale nötig, die eine
+  Konzerngesellschaft nicht frei wählen kann: die Mehrheitsbeteiligung eines Kredit- oder
+  Finanzdienstleistungsinstituts und der Ausweis der Anteile als Umlaufvermögen. § 8b Abs. 8 KStG
+  schließt **Lebens- und Krankenversicherungsunternehmen** ganz aus, weil die handelsrechtlich
+  bemessene Rückstellung für Beitragsrückerstattungen (§ 21 KStG) den Beteiligungsertrag schon
+  einmal aus dem Einkommen nimmt – die Steuerbefreiung würde ihn ein zweites Mal herausnehmen, und
+  bei Teilwertabschreibungen kehrt sich die Verwerfung zulasten des Steuerpflichtigen um. Bei der
+  Wertaufholung gilt dort abweichend vom Regelfall des Kapitels 3, dass **zuerst** mit dem Volumen
+  der steuerunwirksamen Abschreibung zu verrechnen ist. § 8b Abs. 9 KStG holt für **EU-Ausschüttungen**
+  die Freistellung wieder zurück, weil die Mutter-Tochter-Richtlinie es verlangt – aber nur für
+  Ausschüttungen, nicht für Veräußerungsgewinne und nicht für Gewinnminderungen. Und § 8b Abs. 10
+  KStG beendet die **Wertpapierleihe** als Gestaltung: Leihgebühr und Ausgleichszahlung sind beim
+  Entleiher nicht abziehbar, die Dividende ist dafür zu **100 %** frei, weil die Pauschale sonst zu
+  einer Übermaßbesteuerung führen würde. Vorgeschaltet ist dabei stets die Frage des
+  **wirtschaftlichen Eigentums** – nach dem BFH trägt es, wer Kurschance und Kursrisiko übernimmt.
+  Seit der Streubesitzregelung genügt es, dass der Verleiher unter § 8b Abs. 4 KStG fällt; zugleich
+  zählen geliehene Anteile nach § 8b Abs. 4 Satz 3 KStG für die Zehn-Prozent-Grenze **nicht** mit,
+  weshalb derjenige, der seine gesamten 10 % nur geliehen hat, die Grenze nie erreicht – und die
+  Gestaltung schon im Ansatz wertlos wird. **Damit ist das Skript vollständig übernommen – alle
+  sechs Kapitel über 70 Seiten.**
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

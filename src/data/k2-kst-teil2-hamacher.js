@@ -9,7 +9,8 @@
    und 6 weitere Tatbestände. Gegliedert wird hier nach den Abschnitten der
    Quelle; jeder Abschnitt steht als eigener Eintrag.
 
-   STAND DER ÜBERNAHME: Die Kapitel 1 (Bedeutung und persönlicher
+   STAND DER ÜBERNAHME: Das Skript ist VOLLSTÄNDIG übernommen – alle sechs
+   Kapitel über 70 Seiten. Die Kapitel 1 (Bedeutung und persönlicher
    Anwendungsbereich) und 2 (Steuerfreiheit von Gewinnausschüttungen) sind
    vollständig – vom Begriff der Gewinnausschüttung über das Korrespondenzprinzip,
    die Mindestbeteiligungsquote und die Kapitalertragsteuer bis zur
@@ -28,8 +29,12 @@
    Personengesellschaft) ist vollständig – von der Steuerfreistellung der
    Beteiligungserträge samt Brutto- und Spiegelbildmethode über die
    Gewinnausschüttungen, die Veräußerungsgewinne und die Gewinnminderungen bis
-   zu den gewerbesteuerlichen Auswirkungen. Es folgt das Kapitel 6 (weitere
-   Tatbestände); der Campus weist den Stand aus.
+   zu den gewerbesteuerlichen Auswirkungen mit ihren beiden Mischfällen. Das
+   Kapitel 6 (weitere Tatbestände), das die Quelle selbst mit „nur Hinweis“
+   überschreibt, ist ebenfalls vollständig: Finanzdienstleister (§ 8b Abs. 7
+   KStG), Lebens- und Krankenversicherungsunternehmen (§ 8b Abs. 8 KStG), die
+   EU/EWR-Rückausnahme (§ 8b Abs. 9 KStG) und die Wertpapierleihe (§ 8b Abs. 10
+   KStG).
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -1742,6 +1747,120 @@ export const kstTeil2 = [
       { text: "Anmerkung zum Satz über die Gleichstellung (eigene Ergänzung): Die Quelle hält im ersten Fall fest, der Gewerbeertrag entspreche „genau dem Betrag, der bei einer Kapitalgesellschaft als Anteilseignerin entstanden wäre“. Das ist die eigentliche Pointe des § 7 Satz 4 GewStG und lässt sich nachrechnen: Wäre die A-KG durch eine Kapitalgesellschaft ersetzt, betrüge deren Ergebnis 600.000 € ./. 1.000.000 € + 50.000 € = ./. 350.000 €; die Hälfte davon, also der auf einen 50%igen Anteil entfallende Betrag, sind ./. 175.000 €. Genau dieser Wert steht am Ende der Rechnung. Der Anteil der natürlichen Person ist durch die Kürzung vollständig neutralisiert worden, weil § 9 Nr. 2a Satz 3 GewStG den Kürzungsrahmen exakt um die abgezogenen Aufwendungen mindert – dieser Nachweis ist eigene Herleitung." },
       { text: "Anmerkung zur Reihenfolge im zweiten Fall (eigene Ergänzung): Die Verzahnung der beiden Hinzurechnungen ist der anspruchsvollste Punkt des Abschnitts. Die nach § 3c Abs. 2 EStG **nicht** abgezogenen 80.000 € haben die Ausgangsgröße nicht gemindert – sie können deshalb auch nicht nach § 8 Nr. 1a GewStG hinzugerechnet werden. Stattdessen mindern sie **vorrangig** die Hinzurechnung nach § 8 Nr. 5 GewStG, die dadurch von 200.000 € auf 120.000 € sinkt. In die Bemessungsgrundlage des § 8 Nr. 1a GewStG gehen nur die tatsächlich abgezogenen Aufwendungen ein: 200.000 € beim Anteil der Kapitalgesellschaft und 120.000 € beim Anteil des A. Wer beide Vorschriften auf denselben Aufwand anwendet, rechnet ihn doppelt hinzu." },
       { text: "Damit ist das Kapitel 5 der Quelle vollständig übernommen. (Eigene Einordnung:) Es folgt das Kapitel 6 mit den weiteren Tatbeständen – Finanzdienstleister, Lebens- und Krankenversicherungsunternehmen, EU/EWR-Fälle und Wertpapierleihe." },
+    ],
+  },
+  {
+    id: "kst-t2-44",
+    kapitel: "44",
+    abschnittNr: "6.1 bis 6.3",
+    title: "6.1 Finanzdienstleister · 6.2 Lebens- und Krankenversicherer · 6.3 EU/EWR-Fälle",
+    thema: "Drei Ausnahmen, die die Steuerfreiheit wieder einschränken – und eine vierte, die sie zurückholt. Die Quelle bezeichnet das Kapitel ausdrücklich als „nur Hinweis“",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Kapitel 6, Abschnitte 6.1 bis 6.3 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 7 KStG",
+      "§ 8b Abs. 7 Satz 2 KStG",
+      "§ 8b Abs. 8 KStG",
+      "§ 8b Abs. 9 KStG",
+      "§ 8b Abs. 3 Sätze 3 und 4 KStG",
+      "§ 21 KStG",
+      "§ 34 Abs. 5 Satz 2 KStG",
+      "§ 43b Abs. 1, 2 und 3 EStG (Mutter-Tochter-Richtlinie)",
+      "BFH vom 13.02.2019, BStBl. II 2019, 567",
+    ],
+    themen: ["Finanzunternehmen", "Umlaufvermögen", "Rückstellung für Beitragsrückerstattungen", "Mutter-Tochter-Richtlinie", "Wertaufholung"],
+    bloecke: [
+      { text: "Die Quelle überschreibt dieses Kapitel mit „6. Weitere Tatbestände des § 8b KStG (nur Hinweis)“ und behandelt die folgenden Absätze dementsprechend knapp." },
+      { typ: "titel", text: "6.1.1 Grundsätzliches" },
+      { text: "§ 8b Abs. 7 KStG schränkt die Steuerfreiheit der Beteiligungserträge für Unternehmen der Finanzwirtschaft (Finanzunternehmen i.S. des KWG) wieder ein, bei denen naturgemäß die Erzielung von Beteiligungserträgen zum Kernbestandteil ihres Hauptgeschäfts gehört. Die Anwendung des § 8b Abs. 1 und Abs. 2 KStG wäre in diesen Fällen sinnwidrig, weil ansonsten die aus der operativen Tätigkeit resultierenden Unternehmensgewinne vollständig steuerbefreit wären. Umgekehrt dazu können Gewinnminderungen (i.S. des § 8b Abs. 3 Satz 3 + 4 KStG) vollständig abgezogen werden." },
+      { typ: "titel", text: "6.1.2 Einschränkung ab VZ 2017" },
+      { text: "Für sämtliche Anteilserwerbe, die nach dem 31.12.2016 erfolgen, ist die Neuregelung des § 8b Abs. 7 Satz 2 KStG zu beachten. Denn es stellte sich heraus, dass § 8b Abs. 7 KStG a.F. zu gestaltungsanfällig war und insbesondere von Unternehmen ausgenutzt wurde, die eigentlich nicht zur Zielgruppe dieser Regelung gehören sollten. Daher hat der Gesetzgeber den Norminhalt verschärft. Danach liegt ein Anwendungsfall des § 8b Abs. 7 Satz 2 KStG nur dann noch vor, wenn an dem Finanzunternehmen i.S. des KWG" },
+      { text: "– ein Kreditinstitut oder Finanzdienstleistungsinstitut unmittelbar oder mittelbar zu mehr als 50 % beteiligt ist" },
+      { text: "– und die Anteile im Zeitpunkt ihres Zugangs als Umlaufvermögen auszuweisen sind." },
+      { text: "Die Neuregelung führt nunmehr dazu, dass sich der Anwendungsbereich dieser Norm zielgerichtet nur noch auf Unternehmen des Bankensektors erstrecken kann, was auch dem ursprünglichen Hintergrund dieser Regelung entsprach." },
+      { text: "Anmerkung zur Stoßrichtung (eigene Ergänzung): § 8b Abs. 7 KStG ist eine Vorschrift, die in beide Richtungen wirkt, und das macht sie zum Gestaltungsobjekt. Sie nimmt die Steuerfreiheit der Erträge – aber sie gibt dafür den vollen Abzug der Gewinnminderungen zurück. Für ein Unternehmen mit hohen Abschreibungen auf Beteiligungen war das also ein **Vorteil**, weshalb die Fußnote der Quelle die alte Gestaltung präzise benennt: Man wollte sich in den Genuss des Abzugs der Gewinnminderungen bringen. Die Verschärfung ab dem VZ 2017 setzt deshalb an zwei kumulativen Merkmalen an, die eine Konzerngesellschaft nicht mehr frei wählen kann: die Mehrheitsbeteiligung eines Kredit- oder Finanzdienstleistungsinstituts und der Ausweis als Umlaufvermögen. Beides muss vorliegen; die Prüfung erfolgt für jeden nach dem 31.12.2016 erworbenen Anteil gesondert." },
+      { typ: "titel", text: "6.2 Besonderheit bei Lebens- und Krankenversicherungsunternehmen" },
+      { text: "§ 8b Abs. 8 KStG schränkt die Steuerfreiheit der Beteiligungserträge aus Anteilen von Lebens- und Krankenversicherungsunternehmen ein, die bei diesen Unternehmen zu den Kapitalanlagen gehören. Eine Anwendung der Steuerbefreiung hätte zu steuerlichen Verwerfungen geführt, weil Lebens- und Krankenversicherungsunternehmen verpflichtet sind, in ihren Bilanzen steuerwirksame Rückstellungen für Beitragsrückerstattungen (§ 21 KStG) auszuweisen. Dies hätte sowohl zu vorteilhaften als auch nachteiligen Konsequenzen führen können." },
+      { text: "Denn deren Bemessungsgrundlage orientiert sich ausschließlich an dem handelsrechtlichen Ergebnis, in welchem die Beteiligungserträge aber in voller Höhe enthalten sind. Dies erhöht die Bemessungsgrundlage entsprechend, was zu einem entsprechend hohen RSt-Aufwand führt. Würde nun bei der Einkommensermittlung auch die Steuerfreiheit i.S. des § 8b KStG angewendet, würde die bereits durch die Rückstellungsbildung verminderte Ausgangsgröße (handelsrechtlicher Jahresüberschuss) nochmals um die steuerfreien Beteiligungserträge gemindert. Daraus würden sich als Konsequenz steuerliche Verluste ergeben und das Einkommen durch die Beteiligungserträge somit in „doppelter“ Hinsicht beeinflusst." },
+      { text: "Umgekehrt hätten sich im Falle erheblicher Teilwertabschreibungen auf die Beteiligungen bzw. den Aktienbesitz die umgekehrten Auswirkungen ergeben. Denn dadurch wäre die RSt-Bemessungsgrundlage entsprechend geringer, was bei der Einkommensermittlung aufgrund der erforderlichen Zurechnung i.S. des § 8b Abs. 3 Satz 3 KStG zu einem „faktischen“ Gewinn geführt hätte. In diesem Fall kam es zu einer Doppelberücksichtigung zuungunsten des Steuerpflichtigen." },
+      { text: "§ 8b Abs. 8 KStG dient letztlich dazu, diese Härten zu vermeiden. Danach sind die Vorschriften des § 8b Abs. 1 – 7 KStG bei diesen Unternehmen nicht anwendbar. In den Fällen, in denen Teilwertabschreibungen mit unterschiedlichen steuerlichen Auswirkungen vorgelegen haben, ist die Wertaufholung aber abweichend von dem allgemeinen Grundsatz, zunächst mit dem Volumen der steuerunwirksamen Teilwertabschreibung zu verrechnen." },
+      { typ: "tabelle", spalten: ["Vorgang beim Versicherungsunternehmen", "Handelsbilanz und Rückstellung nach § 21 KStG", "Ohne § 8b Abs. 8 KStG wäre die Folge", "Richtung der Verwerfung"], zeilen: [
+        ["Beteiligungsertrag", "erhöht das handelsrechtliche Ergebnis und damit die Rückstellungsbemessung – hoher Rückstellungsaufwand", "die ohnehin schon geminderte Ausgangsgröße würde nochmals um den steuerfreien Ertrag gemindert – steuerliche Verluste", "zugunsten des Steuerpflichtigen"],
+        ["Teilwertabschreibung", "mindert das handelsrechtliche Ergebnis und damit die Rückstellungsbemessung – geringerer Rückstellungsaufwand", "die Hinzurechnung nach § 8b Abs. 3 Satz 3 KStG träte hinzu – ein faktischer Gewinn", "zuungunsten des Steuerpflichtigen"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Der Mechanismus wird erst verständlich, wenn man die Reihenfolge festhält. Die Rückstellung für Beitragsrückerstattungen bemisst sich **handelsrechtlich**, und handelsrechtlich gibt es keine Steuerbefreiung – der Beteiligungsertrag steckt dort also in voller Höhe drin und erhöht die Rückstellung. Diese Rückstellung ist zugleich steuerwirksam, mindert also schon die Ausgangsgröße der Einkommensermittlung. Käme nun noch die Steuerbefreiung des § 8b Abs. 1 KStG hinzu, wäre derselbe Ertrag zweimal aus dem Einkommen herausgenommen. Bei der Teilwertabschreibung kehrt sich das exakt um. § 8b Abs. 8 KStG löst beides mit derselben radikalen Lösung: Die Absätze 1 bis 7 gelten für diese Unternehmen überhaupt nicht." },
+      { text: "Anmerkung zur Wertaufholung (eigene Ergänzung): Der letzte Satz des Abschnitts enthält eine Reihenfolgeregel, die dem widerspricht, was das Skript in Abschnitt 3.3 für den Regelfall festgehalten hat. Dort galt nach dem BFH „last in – first out“: Die **jüngere** Teilwertabschreibung wird zuerst aufgeholt, was dem Steuerpflichtigen zugutekommt. Hier dagegen ist zuerst mit dem Volumen der **steuerunwirksamen** Abschreibung zu verrechnen. Beide Regeln verfolgen dasselbe Ziel, führen aber je nach Sachverhalt zu unterschiedlichen Ergebnissen – wer die eine auf den anderen Fall überträgt, rechnet falsch." },
+      { typ: "titel", text: "6.3 Freistellung von Gewinnausschüttungen in EU/EWR-Fällen" },
+      { text: "§ 8b Abs. 7 und Abs. 8 KStG schränkt die Steuerfreiheit des § 8b KStG für bestimmte Gesellschaften zwar ein, was damit auch in Fällen von Gewinnausschüttungen innerhalb der EU eigentlich zu einer Steuerpflicht dieser Erträge führen würde. Diese Rechtsfolge ist aber aufgrund der sog. Mutter-Tochter-Richtlinie ausgeschlossen, so dass der Gesetzgeber die Auswirkungen durch § 8b Abs. 9 KStG regelungskonform wieder aushebt. Die Gewinnausschüttungen bleiben dann auch in den Fällen des § 8b Abs. 7 bzw. Abs. 8 KStG steuerfrei." },
+      { text: "Anmerkung zur Reichweite (eigene Ergänzung): § 8b Abs. 9 KStG ist eine Ausnahme von den Ausnahmen und in der Klausur leicht zu übersehen. Wichtig ist der Umfang: Zurückgeholt werden nur die **Gewinnausschüttungen**, die unter die Mutter-Tochter-Richtlinie fallen – nicht die Veräußerungsgewinne des Absatzes 2 und nicht die Gewinnminderungen des Absatzes 3. Für einen Finanzdienstleister mit einer qualifizierten EU-Beteiligung bedeutet das: Die Dividende bleibt steuerfrei, der Gewinn aus dem Verkauf derselben Beteiligung aber steuerpflichtig – und die Teilwertabschreibung auf sie bleibt abziehbar." },
+    ],
+  },
+  {
+    id: "kst-t2-45",
+    kapitel: "45",
+    abschnittNr: "6.4",
+    title: "6.4 Einschränkungen der Wertpapierleihe – § 8b Abs. 10 KStG · Teil II ist vollständig",
+    thema: "Die Vorschrift versagt dem Entleiher den Abzug von Leihgebühr und Ausgleichszahlung und stellt ihm dafür die Dividende zu 100 % frei. Seit der Streubesitzregelung genügt es, dass der Verleiher unter § 8b Abs. 4 KStG fällt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 6.4 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 10 KStG",
+      "§ 8b Abs. 10 Satz 3 KStG",
+      "§ 8b Abs. 1 KStG",
+      "§ 8b Abs. 4 Satz 3 KStG",
+      "§ 8b Abs. 5 KStG",
+      "§ 8b Abs. 7 und Abs. 8 KStG",
+      "§§ 607 ff. BGB",
+      "BFH vom 18.08.2015, BStBl. II 2016, 961",
+      "BFH vom 29.09.2021, BStBl. II 2023, 127",
+      "BFH vom 13.11.2024, BStBl. II 2026, 173",
+      "BMF vom 09.07.2021, BStBl. I 2021, 1002",
+      "OFD Frankfurt/Main vom 15.03.1995, S 213-A-15-St II 20",
+    ],
+    themen: ["Wertpapierleihe", "Kompensationszahlung", "Wirtschaftliches Eigentum", "Kurschance und Kursrisiko", "Streubesitz beim Verleiher"],
+    bloecke: [
+      { typ: "titel", text: "6.4.1 Hintergrund" },
+      { text: "Die Wertpapierleihe war bis einschließlich VZ 2006 eine willkommene steuerliche Gestaltungsmöglichkeit. Diese wurde von Banken und Versicherungsunternehmen oftmals geschäftsmäßig genutzt, um ihre eigentlich steuerpflichtigen Beteiligungserträge im Wege einer Wertpapierleihe auf andere Steuerpflichtige zu verlagern, bei denen die Erträge nach § 8b Abs. 1 KStG steuerfrei wären. Die damit einhergehende Steuerersparnis wird dann über eine Kompensationszahlung zwischen dem Verleiher und dem Entleiher geteilt." },
+      { text: "Im Rahmen der Wertpapierleihe werden Wertpapiere in Form von Aktien (oder sonstige Beteiligungen) in aller Regel von Körperschaften an andere Körperschaften im Rahmen eines Sachdarlehens (§§ 607 ff. BGB) überlassen. Der Entleiher erhält dadurch gleichzeitig das mit den Wertpapieren zusammenhängende Gewinnbezugsrecht und vereinnahmt die entsprechenden Gewinnausschüttungen. Vertraglich geregelt wird zudem, dass der Entleiher die Wertpapiere nach Ablauf einer fest geregelten Laufzeit an den Verleiher wieder zurückgeben muss und diesem – als Entgelt – neben einer Leihgebühr auch eine Ausgleichszahlung für die im Gegenzug vereinnahmte Gewinnausschüttung leistet." },
+      { text: "Entscheidend ist hierfür aber, ob dem Entleiher das wirtschaftliche Eigentum an den entliehenen Anteilen überhaupt zugerechnet werden kann. Nach der BFH-Rechtsprechung kann dies in Ausnahmefällen auch verneint werden, wenn dessen Rechte vergleichsweise gering ausgestaltet sind. Der BFH kommt in diesen Fällen zu dem Ergebnis, dass die Wertpapiere unverändert dem Verleiher zuzurechnen sind, so dass dem Entleiher daraus auch keine Beteiligungserträge entstehen können. Dazu hat das BMF mit Schreiben vom 09.07.2021 ausführlich Stellung genommen. Zwischenzeitlich hat der BFH seine Aussagen dahingehend präzisiert, wonach das wirtschaftliche Eigentum zumindest dann dem Entleiher zugerechnet werden kann, wenn dieser auch die Kurschancen und das Kursrisiko aus diesen Wertpapieren trägt." },
+      { text: "Kommt man zur Zurechnung des wirtschaftlichen Eigentums beim Entleiher, muss dieser dann auch die Gewinnausschüttung erfassen und nach den Grundsätzen des § 8b Abs. 1 KStG versteuern. Entscheidender ist aber das Schicksal der vom Entleiher zu leistenden Ausgleichszahlung bzw. Leihgebühr. Denn sowohl die Ausgleichszahlung als auch die Leihgebühr waren vor der gesetzlichen Neuregelung eine voll abziehbare Betriebsausgabe, so dass dem Entleiher im Zuge der Wertpapierleihe zusätzliche Betriebsausgaben generiert wurden. Der Effekt lag beim Entleiher damit nur in seiner Steuerersparnis. Für den Verleiher war dieses Geschäft ohne große Auswirkung, da bei diesem sowohl die Dividende als auch das Entgelt für die Wertpapierleihe (Leihgebühr und Ausgleichszahlung) steuerpflichtig waren." },
+      { text: "Anmerkung zum wirtschaftlichen Eigentum (eigene Ergänzung): Die Prüfung ist zweistufig und die erste Stufe wird oft übersprungen. **Bevor** sich die Frage nach § 8b Abs. 10 KStG stellt, ist zu klären, ob der Entleiher überhaupt wirtschaftlicher Eigentümer geworden ist. Verneint man das – weil seine Rechte zu gering ausgestaltet sind –, bleiben die Papiere beim Verleiher, dem Entleiher entstehen gar keine Beteiligungserträge, und die ganze Gestaltung fällt in sich zusammen. Das Kriterium, das der BFH dafür herausgearbeitet hat, ist die Übernahme von **Kurschance und Kursrisiko**: Wer sie trägt, ist wirtschaftlicher Eigentümer." },
+      { typ: "titel", text: "6.4.2 Einschränkung des Betriebsausgabenabzugs" },
+      { text: "§ 8b Abs. 10 KStG verhindert diese Gestaltung. Denn Auswirkung daraus ist, dass der Entleiher die Leihgebühr und die Ausgleichszahlung (= Kompensationszahlung) nicht mehr als einkommensmindernde Betriebsausgabe berücksichtigen kann. Diese Zahlungen werden außerbilanziell dem Einkommen wieder hinzugerechnet. Zudem schreibt § 8b Abs. 10 Satz 3 KStG vor, dass die durch den Entleiher vereinnahmte Gewinnausschüttung – abweichend von der herkömmlichen Behandlung – zu 100 % steuerfrei ist. Die Betriebsausgabenpauschalierung greift in diesem Fall nämlich nicht. Dies ist sachgerecht, da die mit der Gewinnausschüttung zusammenhängenden Betriebsausgaben nur die Leihgebühr und Ausgleichszahlung sein können, die bereits in voller Höhe nicht abziehbar sind. Die Anwendung der Betriebsausgabenpauschalierung würde dann zu einer Übermaßbesteuerung führen." },
+      { text: "Beispiel: Die A-GmbH (Finanzunternehmen i.S. des § 8b Abs. 7 KStG) überträgt Aktien im Rahmen einer Wertpapierleihe an die B-GmbH, bei der § 8b KStG anwendbar ist. Die der B-GmbH aufgrund dessen zuzurechnende Dividende beträgt 10.000 €. Die B-GmbH zahlt hierfür an die A-GmbH eine Leihgebühr von 1.000 € und eine Ausgleichszahlung für die vereinnahmte Dividende i.H. von 10.000 €." },
+      { text: "Lösung: Aufgrund § 8b Abs. 10 KStG kann die B-GmbH die aufgrund der Wertpapierleihe geleistete Vergütung nicht einkommensmindernd geltend machen. Diese ist daher außerhalb der Bilanz wieder hinzuzurechnen. Die vereinnahmte Gewinnausschüttung ist nach § 8b Abs. 1 KStG steuerfrei, aber die Betriebsausgabenpauschalierung ist darauf nicht anwendbar (§ 8b Abs. 10 Satz 3 KStG). Letztlich wirkt sich somit die Leihgebühr und Ausgleichszahlung nicht mehr auf das zvE aus." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung bei der B-GmbH (Entleiherin)", "Betrag"], zeilen: [
+        ["Bilanzielles Ergebnis", "./. 1.000 €"],
+        ["+ § 8b Abs. 10 KStG", "+ 11.000 €"],
+        ["./. § 8b Abs. 1 KStG", "./. 10.000 €"],
+        ["zvE", "0 €"],
+      ] },
+      { text: "Bei der A-GmbH wird die Leihgebühr und die Ausgleichszahlung von 11.000 € nach allgemeinen Grundsätzen versteuert." },
+      { text: "Rechenprobe (eigene Ergänzung): Das bilanzielle Ergebnis von ./. 1.000 € setzt sich zusammen aus der Dividende von 10.000 € abzüglich Leihgebühr 1.000 € und Ausgleichszahlung 10.000 €. Die Einkommensermittlung geht auf: ./. 1.000 € + 11.000 € ./. 10.000 € = 0 €. Die Gestaltung ist damit vollständig neutralisiert – und zwar auf **beiden** Seiten, denn die A-GmbH versteuert die 11.000 € ganz normal. Vor der Neuregelung wäre die Rechnung anders ausgegangen: bilanziell ./. 1.000 €, abzüglich der steuerfreien Dividende von 10.000 €, zuzüglich der Pauschale von 500 € ergäbe ein Einkommen von ./. 10.500 € – und genau dieser künstliche Verlust war der Gegenstand der Gestaltung (eigene Herleitung; die Quelle rechnet den Altfall nicht vor)." },
+      { typ: "titel", text: "6.4.3 Änderungen durch Streubesitzregelung" },
+      { text: "Ein Anwendungsfall des § 8b Abs. 10 KStG ist aber nur gegeben, wenn der Verleiher aufgrund der Einschränkungen der § 8b Abs. 7 bzw. Abs. 8 KStG von der Steuerbefreiung des § 8b KStG ausgeschlossen ist und beim Entleiher die Steuerfreiheit des § 8b KStG zur Anwendung kommt. Seit Einführung der Streubesitzregelung i.S. des § 8b Abs. 4 KStG gilt dieser Ausschluss auch für Zwecke des § 8b Abs. 10 KStG. Danach ist § 8b Abs. 10 KStG auch dann bereits anwendbar, wenn der Verleiher unter die Streubesitzregelung des § 8b Abs. 4 KStG fällt, der Entleiher hingegen in den Genuss der Steuerfreiheit des § 8b Abs. 1 KStG kommt. Diesbezüglich ist aber die Einschränkung des § 8b Abs. 4 Satz 3 KStG zu beachten, wonach für Zwecke der Ermittlung der Mindestbeteiligungsquote von 10 % die lediglich geliehenen Anteile beim Entleiher nicht einzubeziehen sind. Daher ist § 8b Abs. 10 KStG beim Entleiher in diesen Fällen nur anwendbar, wenn dieser selbst bereits zu mindestens 10 % unmittelbar an der ausschüttenden Gesellschaft beteiligt ist." },
+      { text: "Beispiel: Die A-GmbH (kein Fall des § 8b Abs. 7, 8 KStG) hält 2 % der Aktien an der X-AG. Diese verleiht mit Wirkung zum 01.01.2026 diese Anteile an die B-GmbH, welche selbst bereits mit 10 % an der X-AG beteiligt ist." },
+      { text: "Am 01.05.2026 erhält die B-GmbH aus ihren Aktien insgesamt eine Gewinnausschüttung von 120.000 €. Vereinbarungsgemäß leistet sie an den Verleiher eine Leihgebühr von 1.000 € und zahlt die auf den entliehenen Anteil entfallende Gewinnausschüttung (= 20.000 €) zurück. Die Zahlung von 21.000 € wird bei der B-GmbH als laufende Betriebsausgabe verbucht." },
+      { text: "Lösung: Die von der B-GmbH bezogene Gewinnausschüttung ist nach § 8b Abs. 1 KStG steuerfrei, weil diese zu Beginn des Kalenderjahres mit mindestens 10 % an der X-AG beteiligt ist. Die entliehenen Anteile von 2 % sind bei der Bestimmung der Mindestbeteiligungsquote nicht zu berücksichtigen (§ 8b Abs. 4 Satz 3 KStG), was vorliegend aber ohne Auswirkung bleibt." },
+      { text: "Weil die Gewinnausschüttung unter die Steuerbefreiung des § 8b Abs. 1 KStG fällt, diese Voraussetzungen beim Verleiher aber aufgrund § 8b Abs. 4 KStG nicht gegeben sind, unterliegt die im Zusammenhang mit der Wertpapierleihe geleistete Vergütung dem Abzugsverbot des § 8b Abs. 10 KStG. Danach ist der insoweit vorgenommene Betriebsausgabenabzug außerbilanziell wieder hinzuzurechnen." },
+      { text: "M.E. kommt der Ausschluss der Betriebsausgabenpauschalierung i.S. des § 8b Abs. 10 Satz 3 KStG aber nur insoweit in Betracht, soweit dieser mit der Gewinnausschüttung der „entliehenen“ Anteilen im Zusammenhang steht. Denn nur insoweit ist ein Betriebsausgabenabzug, der der nach § 8b Abs. 10 KStG gesperrten Kompensationszahlung entspricht, nicht möglich. In der übrigen Höhe (= 100.000 €) muss es dann bei der Anwendung des § 8b Abs. 5 KStG (= 5 % von 100.000 €) verbleiben." },
+      { typ: "tabelle", spalten: ["Einkommensauswirkung bei der B-GmbH", "Betrag"], zeilen: [
+        ["Gewinnausschüttung (Stufe 1)", "120.000 €"],
+        ["Kompensationszahlung (Stufe 1)", "./. 21.000 €"],
+        ["§ 8b Abs. 1 KStG", "./. 120.000 €"],
+        ["§ 8b Abs. 10 KStG", "+ 21.000 €"],
+        ["§ 8b Abs. 5 KStG", "+ 5.000 €"],
+        ["z.v.E.", "5.000 €"],
+      ] },
+      { text: "Abwandlung: Die B-GmbH hält lediglich 8 % der Aktien an der X-AG." },
+      { text: "Lösung: Bei der B-GmbH sind die Voraussetzungen des § 8b Abs. 1 KStG nicht erfüllt, weil die entliehenen Anteile bei der Bemessung der Mindestbeteiligungsquote durch § 8b Abs. 4 Satz 3 KStG unberücksichtigt bleiben. Daher ist die erhaltene Gewinnausschüttung bei der B-GmbH voll steuerpflichtig und ein Anwendungsfall des § 8b Abs. 10 KStG daher ausgeschlossen. Aufgrund der vollen Steuerpflicht der Betriebseinnahme bleibt dann auch der Betriebsausgabenabzug der Kompensationszahlung erhalten." },
+      { text: "Hinweis: Zu derselben Lösung käme es, wenn die B-GmbH sämtliche Aktien (= 10 %) an der X-AG geliehen hätte. Auch in dieser Situation wären die Voraussetzungen der Mindestbeteiligungsquote nicht erfüllt (§ 8b Abs. 4 Satz 3 KStG)." },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Die B-GmbH hält insgesamt 12 % (10 % eigene und 2 % entliehene Anteile), auf die eine Ausschüttung von 120.000 € entfällt – also 10.000 € je Prozentpunkt. Auf die entliehenen 2 % entfallen davon 20.000 €, die sie zurückzahlt; auf die eigenen 10 % entfallen 100.000 €, und 5 % davon sind die Pauschale von 5.000 €. Die Einkommensauswirkung geht auf: 120.000 € ./. 21.000 € ./. 120.000 € + 21.000 € + 5.000 € = 5.000 €. Die Zahl von 10.000 € je Prozentpunkt nennt die Quelle nicht ausdrücklich; sie folgt aus den beiden angegebenen Beträgen und ist eigene Herleitung." },
+      { text: "Anmerkung zur eigenen Auffassung der Quelle (eigene Ergänzung): Die Aufteilung der Pauschale ist ausdrücklich als Meinung des Verfassers gekennzeichnet („M.E.“). Der Gesetzeswortlaut des § 8b Abs. 10 Satz 3 KStG schließt die Pauschalierung für die vereinnahmte Gewinnausschüttung aus, ohne nach entliehenen und eigenen Anteilen zu unterscheiden. Die Quelle argumentiert teleologisch: Der Ausschluss soll eine Übermaßbesteuerung verhindern, und die droht nur, soweit die Kompensationszahlung bereits nicht abziehbar ist – also nur für die entliehenen 2 %. Für die eigenen 10 % bleibt es deshalb bei § 8b Abs. 5 KStG. Wer dem Wortlaut folgt, käme auf ein zu versteuerndes Einkommen von 0 € statt 5.000 €. In der Klausur ist die Auffassung der Quelle zu vertreten, der Streitstand aber zu benennen." },
+      { text: "Anmerkung zur Abwandlung (eigene Ergänzung): Sie zeigt die Schlüsselrolle des § 8b Abs. 4 Satz 3 KStG. Entliehene Anteile zählen für die Zehn-Prozent-Grenze **nicht** mit – und daraus folgt eine bemerkenswerte Kette: Die Ausschüttung ist beim Entleiher voll steuerpflichtig, damit fehlt es an der Voraussetzung des § 8b Abs. 10 KStG (Steuerfreiheit beim Entleiher), und deshalb bleibt die Kompensationszahlung abziehbar. Das ist folgerichtig, weil ohne Steuerfreiheit auch kein Vorteil entsteht, den die Vorschrift abschöpfen müsste. Der Hinweis der Quelle zieht die Konsequenz bis zum Ende: Wer seine gesamten 10 % nur geliehen hat, erreicht die Grenze überhaupt nie – die Streubesitzregelung macht die Gestaltung damit schon im Ansatz wertlos." },
+      { text: "Damit ist das Lehrgangsskript „Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“ vollständig übernommen – alle sechs Kapitel über 70 Seiten. (Eigene Einordnung.)" },
     ],
   },
 ];

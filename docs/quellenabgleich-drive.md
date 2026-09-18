@@ -10620,6 +10620,75 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil II (Hamacher), Kapitel 6 – Teil II ist vollständig
+
+Quelle: dieselbe Datei, Seiten 66 bis 70 (Schluss des Dokuments); übernommen als Kapitel 44 und 45.
+Prüfung: `npm run check:k2-kst-teil2` (45 Kapitel, 608 Blöcke, 44 Tabellen). **Damit ist das
+Lehrgangsskript „Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“ vollständig
+übernommen – alle sechs Kapitel über 70 Seiten.**
+
+Die Quelle überschreibt dieses Kapitel selbst mit „(nur Hinweis)“ und behandelt die vier
+Sonderregeln entsprechend knapp; der Datensatz übernimmt sie im Wortlaut und ordnet sie ein.
+
+**§ 8b Abs. 7 KStG (Finanzunternehmen)** wirkt in beide Richtungen, und darin liegt der Grund, dass
+die Vorschrift überhaupt verschärft werden musste. Sie nimmt die Steuerfreiheit der Erträge – gibt
+dafür aber den vollen Abzug der Gewinnminderungen zurück. Für ein Unternehmen mit hohen
+Beteiligungsabschreibungen war das ein **Vorteil**, und die Fußnote der Quelle benennt die alte
+Gestaltung präzise: Man wollte sich in den Genuss des Abzugs der Gewinnminderungen bringen. Seit
+dem VZ 2017 sind zwei **kumulative** Merkmale nötig, die eine Konzerngesellschaft nicht frei wählen
+kann – die Mehrheitsbeteiligung eines Kredit- oder Finanzdienstleistungsinstituts und der Ausweis
+als Umlaufvermögen im Zugangszeitpunkt.
+
+**§ 8b Abs. 8 KStG (Lebens- und Krankenversicherer)** ist der Abschnitt, der am meisten Erklärung
+braucht, und der Datensatz zerlegt ihn in einer Tabelle in beide Richtungen. Der Mechanismus wird
+erst verständlich, wenn man die Reihenfolge festhält: Die Rückstellung für Beitragsrückerstattungen
+bemisst sich **handelsrechtlich**, und handelsrechtlich gibt es keine Steuerbefreiung – der
+Beteiligungsertrag steckt dort also in voller Höhe drin und erhöht die Rückstellung, die ihrerseits
+steuerwirksam ist. Käme die Steuerbefreiung hinzu, wäre derselbe Ertrag zweimal aus dem Einkommen
+heraus; bei der Teilwertabschreibung kehrt sich das zulasten des Steuerpflichtigen um. § 8b Abs. 8
+KStG löst beides radikal: Die Absätze 1 bis 7 gelten für diese Unternehmen gar nicht.
+
+**Eine Reihenfolgeregel, die dem Kapitel 3 widerspricht**, ist eigens vermerkt: Für die
+Wertaufholung gilt hier, dass zuerst mit dem Volumen der **steuerunwirksamen** Teilwertabschreibung
+zu verrechnen ist – während im Regelfall nach dem BFH „last in – first out“ gilt, also die jüngere
+zuerst aufgeholt wird. Wer die eine Regel auf den anderen Fall überträgt, rechnet falsch.
+
+**§ 8b Abs. 9 KStG (EU/EWR)** ist eine Ausnahme von den Ausnahmen. Der Datensatz hält als eigene
+Ergänzung den Umfang fest, weil er leicht überdehnt wird: Zurückgeholt werden nur die
+**Gewinnausschüttungen** unter der Mutter-Tochter-Richtlinie – nicht die Veräußerungsgewinne des
+Absatzes 2 und nicht die Gewinnminderungen des Absatzes 3.
+
+**§ 8b Abs. 10 KStG (Wertpapierleihe)** schließt das Skript ab, und der Datensatz stellt die
+vorgeschaltete Frage heraus, die oft übersprungen wird: Ist der Entleiher überhaupt
+**wirtschaftlicher Eigentümer** geworden? Verneint man das, bleiben die Papiere beim Verleiher, dem
+Entleiher entstehen gar keine Beteiligungserträge, und die Gestaltung fällt in sich zusammen. Das
+Kriterium des BFH ist die Übernahme von **Kurschance und Kursrisiko**. Erst danach greift das
+Abzugsverbot, das die Gestaltung vollständig neutralisiert – im ersten Beispiel auf null, während
+die Verleiherin die 11.000 € ganz normal versteuert.
+
+**Die eigene Auffassung der Quelle** zur Aufteilung der Pauschale ist als solche gekennzeichnet und
+im Datensatz erläutert: Der Wortlaut des § 8b Abs. 10 Satz 3 KStG schließt die Pauschalierung für
+die vereinnahmte Gewinnausschüttung aus, ohne zwischen entliehenen und eigenen Anteilen zu
+unterscheiden. Die Quelle argumentiert teleologisch („M.E.“) und wendet § 8b Abs. 5 KStG auf die
+eigenen 10 % weiterhin an, woraus ein zu versteuerndes Einkommen von 5.000 € statt 0 € folgt. Der
+Datensatz vertritt die Auffassung der Quelle und benennt den Streitstand.
+
+**Die Schlüsselrolle des § 8b Abs. 4 Satz 3 KStG** ist eigens herausgearbeitet. Entliehene Anteile
+zählen für die Zehn-Prozent-Grenze nicht mit, und daraus folgt eine bemerkenswerte Kette: Die
+Ausschüttung ist beim Entleiher voll steuerpflichtig, damit fehlt die Voraussetzung des § 8b
+Abs. 10 KStG, und deshalb bleibt die Kompensationszahlung abziehbar – folgerichtig, weil ohne
+Steuerfreiheit auch kein Vorteil entsteht, den die Vorschrift abschöpfen müsste. Der Hinweis der
+Quelle zieht die Konsequenz bis zum Ende: Wer seine gesamten 10 % nur geliehen hat, erreicht die
+Grenze nie.
+
+**Alle Zahlen sind unabhängig nachgerechnet und gehen auf:** ./. 1.000 € + 11.000 € ./. 10.000 € =
+0 €; und im zweiten Beispiel 120.000 € ./. 21.000 € ./. 120.000 € + 21.000 € + 5.000 € = 5.000 €.
+Zwei Werte nennt die Quelle nicht und sind als eigene Herleitung gekennzeichnet: dass auf einen
+Prozentpunkt 10.000 € Ausschüttung entfallen (120.000 € auf 12 %), und das Einkommen von
+./. 10.500 €, das sich vor der Neuregelung ergeben hätte.
+
+**Noch offen:** die Skriptteile III bis VII der Körperschaftsteuer-Reihe.
+
 ### KSt Teil II (Hamacher), Abschnitt 5.5 – die beiden Mischfälle (Nachtrag)
 
 Quelle: dieselbe Datei, Seiten 63 bis 65; übernommen als Kapitel 43. Prüfung:
