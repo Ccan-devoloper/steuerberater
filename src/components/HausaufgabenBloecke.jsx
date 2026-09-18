@@ -5,6 +5,7 @@
    Wortlaut 1:1 aus den Quell-PDFs, Rechenwege als Tabellen und - wo die
    Musterlösung sie ausweist - die Punkte an ihrem Absatz. */
 import React, { useMemo, useState } from "react";
+import { mitHervorhebung } from "../lib/hervorhebung";
 import "./istr-fallsammlung.css";
 import "./istr-hausaufgaben.css";
 
@@ -18,7 +19,7 @@ function Punkte({ wert }) {
 }
 
 export function Block({ element }) {
-  if (element.typ === "titel") return <h4 className="istr-fs-untertitel">{element.text}</h4>;
+  if (element.typ === "titel") return <h4 className="istr-fs-untertitel">{mitHervorhebung(element.text)}</h4>;
   if (element.typ === "tabelle") {
     return (
       <div className="istr-fs-tabelle__rahmen">
@@ -40,7 +41,7 @@ export function Block({ element }) {
   }
   return (
     <p className="istr-ha-absatz">
-      {element.text}
+      {mitHervorhebung(element.text)}
       {element.punkte ? <Punkte wert={element.punkte} /> : null}
     </p>
   );
@@ -145,7 +146,7 @@ export default function HausaufgabenBloecke({
         <div>
           <span className="kicker">{kicker}</span>
           <h1>{titel}</h1>
-          <p className="lead">{lead}</p>
+          <p className="lead">{mitHervorhebung(lead)}</p>
         </div>
         <span className="zaehler">
           {gefiltert.length} von {hausaufgaben.length}{gesamtpunkte ? ` · ${gesamtpunkte} Punkte` : ""}
@@ -155,7 +156,7 @@ export default function HausaufgabenBloecke({
       <section className="panel istr-fs-source">
         <strong>{quelle.reihe}</strong>
         <p>Didaktischer Hinweis des Herausgebers:</p>
-        {quelle.didaktik.map((absatz) => <p key={absatz}>{absatz}</p>)}
+        {quelle.didaktik.map((absatz) => <p key={absatz}>{mitHervorhebung(absatz)}</p>)}
       </section>
 
       <section className="istr-fs-steuerung" aria-label={`${einheit} filtern`}>

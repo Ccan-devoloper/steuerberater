@@ -41,6 +41,7 @@
     "check:k1-pruefungsklausuren": "node tools/pruefen-k1-pruefungsklausuren.mjs",
     "check:k1-grest-skript": "node tools/pruefen-k1-grest-skript.mjs",
     "check:k2-lst-schema": "node tools/pruefen-k2-lst-schema.mjs",
+    "check:k1-ao-unterlage-mirbach": "node tools/pruefen-k1-ao-unterlage-mirbach.mjs",
     "check:k1-erbst-bewertung-teil1": "node tools/pruefen-k1-erbst-bewertung-teil1.mjs",
     "check:k1-erbst-bewertung-teil2": "node tools/pruefen-k1-erbst-bewertung-teil2.mjs",
     "check:k1-erbst-verschonung": "node tools/pruefen-k1-erbst-verschonung.mjs",

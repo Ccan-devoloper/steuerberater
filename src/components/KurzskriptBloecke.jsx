@@ -11,6 +11,7 @@
    gruppeLabel). Die Suche greift auf den Volltext des Kapitels. */
 import React, { useMemo, useState } from "react";
 import { Block } from "./HausaufgabenBloecke";
+import { mitHervorhebung } from "../lib/hervorhebung";
 import "./istr-fallsammlung.css";
 import "./istr-hausaufgaben.css";
 
@@ -91,7 +92,7 @@ export default function KurzskriptBloecke({
         <div>
           <span className="kicker">{kicker}</span>
           <h1>{titel}</h1>
-          <p className="lead">{lead}</p>
+          <p className="lead">{mitHervorhebung(lead)}</p>
         </div>
         <span className="zaehler">
           {gefiltert.length} von {kapitel.length} Kapiteln · {bloecke} Abschnitte
@@ -101,7 +102,7 @@ export default function KurzskriptBloecke({
       <section className="panel istr-fs-source">
         <strong>{quelle.reihe}</strong>
         <p>Didaktischer Hinweis des Herausgebers:</p>
-        {quelle.didaktik.map((absatz) => <p key={absatz}>{absatz}</p>)}
+        {quelle.didaktik.map((absatz) => <p key={absatz}>{mitHervorhebung(absatz)}</p>)}
       </section>
 
       <section className="istr-fs-steuerung" aria-label={`${gruppeAria} filtern`}>

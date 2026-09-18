@@ -2240,6 +2240,24 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   rekonstruiert; ein Block unter der Tabelle weist das im Campus aus. Es ist die einzige Datei
   des Drive-Ordners „Lohnsteuer“ mit Textebene – die beiden übrigen sind reine Scans und stehen
   in `docs/offene-quellen.md`, Abschnitt A. Prüfung: `npm run check:k2-lst-schema`
+- **Unterlage Verfahrensrecht (Mirbach)** (Klausur 1, Reiter Abgabenordnung → „Unterlage
+  Verfahrensrecht (Mirbach)“): die neunseitige **unterrichtsbegleitende Arbeitsunterlage zum
+  Tageslehrgang 2026/2027 von Dr. Christian Mirbach** im Wortlaut – sechs Kapitel mit
+  57 Abschnitten und 6 Tabellen. Zwei Übersichten und dreizehn Fälle, geordnet nach dem Ablauf
+  des Besteuerungsverfahrens: Mitwirkungspflichten und fünf Auskunftsersuchen mit der Frage nach
+  Zulässigkeit **und** Verwertbarkeit; vier Bekanntgabekonstellationen (überquellender
+  Briefkasten, telefonisch widerrufener Bekanntgabewille, ausgezogener Ehegatte beim
+  Zusammenveranlagungsbescheid) entlang des Prüfrasters der Quelle; zwei Fristberechnungen; vier
+  Fälle zu den neuen Tatsachen des § 173 AO (falsch beurteilte steuerfreie Einnahme, im Dezember
+  gezahlte Januarmiete, falsche Wohnflächenangabe, vergessene Mietwohnung mit 9.500 € Verlust);
+  die Wiedereinsetzung; und zuletzt der Lottogewinn vom Vortag gegenüber dem vom Folgetag als
+  Schulbeispiel für die Abgrenzung von § 130 und § 131 AO.
+  **Die Quelle enthält zu diesen Fällen keine Lösungen** – sie ist ein Arbeitsblatt mit
+  Leerzeilen und leeren Tabellenspalten. Es wird hier keine erfunden; jeder Eintrag sagt das
+  offen und verweist auf die Stellen im Campus, an denen dieselbe Rechtsfrage vollständig
+  durchgeprüft ist. Einzige Ausnahme ist die **Übersicht Verschulden § 110 Abs. 1 AO** auf
+  Seite 8, die den Fall 9 selbst auflöst und mit ihren acht Gegensatzpaaren vollständig
+  übernommen ist. Prüfung: `npm run check:k1-ao-unterlage-mirbach`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.

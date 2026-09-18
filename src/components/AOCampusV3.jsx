@@ -19,6 +19,7 @@ import AOFall334Darstellung from"./AOFall334Darstellung";
 import AOHausaufgaben,{AOHausaufgabenHinweise}from"./AOHausaufgaben";
 import AOKeyfacts from"./AOKeyfacts";
 import KurzskriptBloecke from"./KurzskriptBloecke";
+import{aoUnterlageMirbach,aoUnterlageMirbachQuelle}from"../data/k1-ao-unterlage-mirbach.js";
 import{aoSkriptJacobs,aoSkriptJacobsQuelle}from"../data/k1-ao-skript-jacobs.js";import{aoShortSkriptJacobs,aoShortSkriptJacobsQuelle}from"../data/k1-ao-short-skript-jacobs.js";import Klausurmodus,{IconKlausur}from"./Klausurmodus";
 import HausaufgabenBloecke from"./HausaufgabenBloecke";
 import{estKlausuren,estKlausurenQuelle}from"../data/est-klausuren.js";
@@ -58,7 +59,7 @@ const OBER=[
 {id:"fgo",label:"FGO & Vollstreckung",module:[367,368,384],beschreibung:"Allgemeine und maßnahmenspezifische Vollstreckungsvoraussetzungen sowie die FGO-Fahrtroute mit Sachurteilsvoraussetzungen."},
 ];
 const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o])));const oberVon=m=>OBER_BY_ID.get(m.id)||OBER[1];
-const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"skript",label:"Skript (Jacobs)",Icon:IconModule},{id:"shortskript",label:"Short-Skript (Jacobs)",Icon:IconModule},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining},{id:"originalklausuren",label:"Originalklausuren (Examen)",Icon:IconKlausur},{id:"pruefungsklausuren",label:"Prüfungsklausuren im Original",Icon:IconKlausur}]
+const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"skript",label:"Skript (Jacobs)",Icon:IconModule},{id:"shortskript",label:"Short-Skript (Jacobs)",Icon:IconModule},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"unterlage",label:"Unterlage Verfahrensrecht (Mirbach)",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining},{id:"originalklausuren",label:"Originalklausuren (Examen)",Icon:IconKlausur},{id:"pruefungsklausuren",label:"Prüfungsklausuren im Original",Icon:IconKlausur}]
 
 /* Die Teilklausur Abgabenordnung der Übungsklausur AO/USt liegt im gemeinsamen
    Klausurbestand; hier werden nur ihre Sachverhalte gezeigt. */
@@ -136,4 +137,16 @@ export default function AOCampusV3({onKlausurwechsel,onFachwechsel}){const[ansic
       gruppeAria="Teile"
       gruppeAlle="Alle Teile"
       suchePlatzhalter="Norm, Stichwort oder Prüfungsjahr"
-    />} {ansicht==="keyfacts"&&<AOKeyfacts/>} {ansicht==="hausaufgaben"&&<AOHausaufgaben onOpenInhalt={oeffnen} onOpenSchema={schemaOeffnen} inhaltById={AO_BY_ID} ziel={hausaufgabenZiel}/>} {ansicht==="klausur"&&<Klausurmodus module={AO_FAELLE} oeffnenModul={oeffnen} gebiete={[{id:"E1",label:"AO Einheit 1"},{id:"E2",label:"AO Einheit 2"},{id:"E3",label:"AO Einheit 3"},{id:"E4",label:"AO Einheit 4"},{id:"E5",label:"AO Einheit 5"},{id:"E6",label:"AO Einheit 6"},{id:"E7",label:"AO Einheit 7"},{id:"E8",label:"AO Einheit 8"}]} gebietVon={m=>`E${m.einheit}`} speicherKey="stb-k1-ao-klausurlauf" sperrtext="Erst selbst lösen: Zulässigkeit, Begründetheit, Korrekturweg und Festsetzungsfrist. Danach Musterlösung aufdecken." modulWort="Fall"/>}</main></div>}
+    />} {ansicht==="keyfacts"&&<AOKeyfacts/>} {ansicht==="unterlage"&&<KurzskriptBloecke
+      kicker="Klausur 1 · Abgabenordnung · Unterrichtsbegleitende Unterlage"
+      titel="Unterlage Verfahrensrecht (Mirbach)"
+      lead="Die neunseitige Arbeitsunterlage zum Tageslehrgang 2026/2027 von Dr. Christian Mirbach im Wortlaut: zwei Übersichten und dreizehn Fälle entlang des Besteuerungsverfahrens – Mitwirkungspflichten und Auskunftsersuchen, vier Bekanntgabekonstellationen mit dem Prüfraster der Quelle, zwei Fristberechnungen, vier Fälle zu den neuen Tatsachen des § 173 AO, die Wiedereinsetzung und schließlich die Abgrenzung von Rücknahme und Widerruf am Lottogewinn vom Vortag gegenüber dem vom Folgetag. **Die Quelle enthält zu diesen Fällen keine Lösungen** – sie ist ein Arbeitsblatt, hinter den Fragen stehen im PDF Leerzeilen. Es wird hier keine erfunden; jeder Eintrag sagt das offen und verweist auf die Stellen im Campus, an denen dieselbe Rechtsfrage vollständig durchgeprüft ist. Die einzige Ausnahme ist die Übersicht zum Verschulden nach § 110 Abs. 1 AO auf Seite 8, die den Fall 9 selbst auflöst und hier vollständig steht."
+      quelle={aoUnterlageMirbachQuelle}
+      kapitel={aoUnterlageMirbach}
+      karteKicker={(k)=>`Seite ${k.seite}`}
+      gruppeVon={(k)=>k.titelKurz}
+      gruppeLabel={(k)=>k.titelKurz}
+      gruppeAria="Abschnitte der Unterlage"
+      gruppeAlle="Alle Abschnitte"
+      suchePlatzhalter="Norm, Fall oder Stichwort"
+    />} {ansicht==="hausaufgaben"&&<AOHausaufgaben onOpenInhalt={oeffnen} onOpenSchema={schemaOeffnen} inhaltById={AO_BY_ID} ziel={hausaufgabenZiel}/>} {ansicht==="klausur"&&<Klausurmodus module={AO_FAELLE} oeffnenModul={oeffnen} gebiete={[{id:"E1",label:"AO Einheit 1"},{id:"E2",label:"AO Einheit 2"},{id:"E3",label:"AO Einheit 3"},{id:"E4",label:"AO Einheit 4"},{id:"E5",label:"AO Einheit 5"},{id:"E6",label:"AO Einheit 6"},{id:"E7",label:"AO Einheit 7"},{id:"E8",label:"AO Einheit 8"}]} gebietVon={m=>`E${m.einheit}`} speicherKey="stb-k1-ao-klausurlauf" sperrtext="Erst selbst lösen: Zulässigkeit, Begründetheit, Korrekturweg und Festsetzungsfrist. Danach Musterlösung aufdecken." modulWort="Fall"/>}</main></div>}

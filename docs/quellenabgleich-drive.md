@@ -9953,3 +9953,93 @@ ist.
 Beide sind in `docs/offene-quellen.md`, Abschnitt A, eingetragen. Aus einer Datei, die nur
 Wasserzeichen liefert, lässt sich nichts übernehmen – und eine Rekonstruktion aus dem
 Dateinamen wäre Erfindung.
+
+### Dublettencheck der Fachordner – erster Teil (KSt, PersG, AO) und ein neuer Fund
+
+Der freigegebene Drive enthält **zwei parallele Ordnerbäume** mit teilweise gleichnamigen
+Fachordnern. Bisher war nur einer von beiden systematisch abgearbeitet. Dieser Durchgang hat
+sie gegeneinander geprüft, Ordner für Ordner, anhand der Drive-IDs: Jede Datei-ID wurde gegen
+die Dokumentation geprüft, und jede nicht dokumentierte Datei wurde geöffnet.
+
+- **Baum 1**, `11bUpMhJMJ41hxKqsODTwd6ETBUFBkj5G` („StB Tageslehrgang_online_Komplett“), elf
+  Unterordner.
+- **Baum 2**, `1RsOYiVN08H26klYwJoBOZOiUG50F7rbd`, dreizehn Unterordner – darunter Lohnsteuer
+  und Grunderwerbsteuer, die es in Baum 1 nicht gibt.
+
+**Körperschaftsteuer** (`1ESknX3G1VelSgkhoDncWqn30IJPtxest`): vier Dateien, alle inhaltlich
+abgedeckt – Schema KStG, Schema Vereinsbesteuerung und die beiden Übungsfall-Teile (Nöthen).
+Keine neue Quelle.
+
+**Personengesellschaften**: zwei Ordner. Der zweite (`1u8086Ukam7Zm3DQFnjde_KFwVg7Qzjs_`) ist
+vollständig dokumentiert, alle acht Dateien sind mit ihrer ID in dieser Datei verzeichnet. Im
+ersten (`1rt20pjZFTIMajnSpkdFCf-nt_5Mjx4GX`) stehen die achtzehn Fallpaare 4_a bis 4_h mit
+ihren Lösungen – alle im Campus – **und zwei bisher nicht gesichtete Dateien**: zwei Fassungen
+der Foliensammlung von Alexander Horst. Beide sind technisch nicht verwertbar und jetzt in
+Abschnitt A der offenen Quellen eingetragen.
+
+**Abgabenordnung** (`1WC267jtZkPbcIlRCuVL4hbcr3gWhgmC5`): sechs Dateien, von denen **keine
+einzige** mit ihrer ID dokumentiert war. Die Prüfung Datei für Datei ergibt:
+
+- „25) (4).pdf“ ist das dritte **Keyfacts-Blatt (Erhebungsverfahren, Mirbach)** – inhaltlich
+  abgedeckt, es steht mit den beiden anderen im Keyfacts-Reiter.
+- „B-S25-AO-Keyfacts Vollstreckung“ und „…Aussenpruefung“ ebenso.
+- „Notfallbuch (1).pdf“ ist dieselbe Handschrift, die schon in Abschnitt A steht.
+- „FGO (2).pdf“ ist **neu gesichtet** – eine handschriftliche Übersicht zur
+  Zulässigkeitsprüfung der FGO, technisch nicht verwertbar, jetzt in Abschnitt A.
+- **„Unterrichtsbegleitende Unterlage Endriss Tageslehrgang AO 2026-2027 (2).pdf“ ist ein
+  vollständig neuer, sauber lesbarer Bestand** – und damit der eigentliche Fund dieses
+  Durchgangs.
+
+### Unterrichtsbegleitende Unterlage Verfahrensrecht (Mirbach) – eingepflegt
+
+Neun Seiten, zwei Übersichten, dreizehn Fälle, Version 1.0 des Tageslehrgangs 2026/2027.
+Eingepflegt als Reiter „Unterlage Verfahrensrecht (Mirbach)“ im AO-Campus
+(`src/data/k1-ao-unterlage-mirbach.js`, sechs Kapitel, 57 Abschnitte, 6 Tabellen).
+
+**Der entscheidende Befund zur Quelle:** Sie enthält **keine Lösungen**. Es ist ein
+Arbeitsblatt für den Unterricht – hinter den Fragen stehen Leerzeilen, die Tabellen zu Fall 2
+und Fall 9 haben leere Spalten zum Ausfüllen. Es wird hier bewusst keine Lösung erfunden. Jeder
+Eintrag sagt das an Ort und Stelle und verweist stattdessen auf die Stellen im Campus, an denen
+dieselbe Rechtsfrage vollständig durchgeprüft ist: die Keyfacts für Verspätungs- und
+Säumniszuschlag, die Originalfälle der Einheit 2 für Bekanntgabe und Fristen, das Schaubild zu
+den neuen Tatsachen und die Originalfälle der Einheit 5 für § 173 AO, die Einheiten 3 und 7 für
+§§ 130, 131 AO.
+
+**Die eine Ausnahme** ist die „Übersicht Verschulden § 110 Abs. 1 AO“ auf Seite 8: Sie löst den
+Fall 9 der Vorseite selbst auf und ist vollständig übernommen. Ihre acht Gegensatzpaare sind
+das Wertvollste der ganzen Unterlage, weil sie dieselbe Lebenssituation zweimal zeigen – Urlaub
+von vier bis sechs Wochen (kein Verschulden, sofern nicht mindestens fünf Tage innerhalb der
+Frist zuhause) gegenüber Urlaub unter vier oder über sechs Wochen; Irrtum bei der
+Fristberechnung durch den Laien gegenüber dem Profi; Einspruch beim falschen Finanzamt
+mindestens eine Woche vor Fristablauf gegenüber kurz davor oder danach; Verschulden eines
+zuverlässigen Boten gegenüber Verschulden des Beraters nach § 110 Abs. 1 Satz 2 AO.
+
+**Zwei Rekonstruktionen, beide ausgewiesen:** Sowohl die Übersicht „Ablauf des
+Besteuerungsverfahrens“ (Seite 2) als auch die Verschuldensübersicht (Seite 8) stehen im PDF
+als mehrspaltige Schaubilder, deren Spalten die Textextraktion zeilenweise ineinander schiebt.
+Beide sind als Tabelle in ihre Spaltenordnung zurückgebracht; bei der Ablaufübersicht folgt die
+Zuordnung der Stichpunkte zu den Verfahrensstufen den Normen, die die Quelle selbst nennt, bei
+der Verschuldensübersicht folgt die Paarbildung genau der Abwechslung, in der die Extraktion
+die beiden Spalten ausgibt. Ein Block unter jeder Tabelle sagt das im Campus.
+
+**Eigene Feststellung – eine Zeile, die die Übersicht nicht auflöst:** Fall 9 nennt unter
+anderem „Urlaub 30 Tage bis 2 Tage vor Fristende“. Die Übersicht auf Seite 8 beantwortet das
+nicht eindeutig, weil die Konstellation zwei ihrer Kriterien zugleich berührt: die Urlaubsdauer
+von vier bis sechs Wochen **und** das Erfordernis, mindestens fünf Tage innerhalb der Frist
+zuhause gewesen zu sein. Der Datensatz weist darauf hin, statt eine Antwort zu behaupten.
+
+### Nebenbefund: Hervorhebungen wurden als Sternchen ausgegeben
+
+Bei der Arbeit an diesem Reiter ist ein Anzeigefehler aufgefallen, der schon länger bestand:
+Die Datensätze markieren wichtige Stellen mit `**…**`, die beiden Blockrenderer gaben ihren
+Text aber wörtlich aus – die Sternchen waren im Campus sichtbar. Betroffen waren die Leads von
+sieben Campussen, einzelne Didaktik-Absätze und Textblöcke. Behoben durch
+`src/lib/hervorhebung.js`: eine kleine Funktion, die `**…**` in `<strong>` umwandelt und jeden
+Text ohne Sternchen unverändert durchreicht. Sie wird jetzt für Leads, Didaktik-Absätze,
+Zwischenüberschriften und Absätze in `HausaufgabenBloecke` und `KurzskriptBloecke` verwendet,
+also im ganzen Campus einheitlich.
+
+**Noch offen im Dublettencheck** sind die übrigen Fachordner beider Bäume: Umsatzsteuer,
+Umwandlungssteuerrecht, Erbschaftsteuer/Bewertungsrecht, Bilanzierung, Internationales
+Steuerrecht, Einkommensteuer, Gewerbesteuer, Originalklausuren und der
+Körperschaftsteuer-Ordner des zweiten Baums.
