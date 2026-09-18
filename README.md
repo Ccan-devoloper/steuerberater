@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 29 Kapitel mit 483 Abschnitten und
-  16 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 31 Kapitel mit 516 Abschnitten und
+  18 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.5.2.2 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.5.2.3.2 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2474,8 +2474,27 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   des Privatvermögens die Zuwendung an den Gesellschafter folgenlos bleibt, er nach
   § 23 Abs. 1 Satz 3 EStG in alle Besteuerungsmerkmale eintritt und erst seine eigene Einlage den
   Ersatzrealisationstatbestand auslöst.
-  Der Rest des Abschnitts 3.5 (ab 3.5.2.3: Forderungsverzicht beim Anteilseigner), die Abschnitte
-  3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen; der Campus weist den Stand aus.
+  Dazu der **Forderungsverzicht beim Anteilseigner**, dessen steuerliches Schicksal von der
+  Rechtsform des Verzichtenden und der Vermögenszugehörigkeit der Forderung abhängt. Im
+  **Privatvermögen** greift § 20 Abs. 2 Nr. 7 EStG, seit der ersatzlosen und rückwirkenden
+  Aufhebung des § 20 Abs. 6 Satz 6 EStG a. F. ohne besondere Abzugsbeschränkung – nur die
+  Verrechnungsbeschränkung des § 20 Abs. 6 Satz 1 EStG bleibt, und § 32d Abs. 2 Nr. 1b EStG greift
+  nicht, weil dem Verzicht auf Ebene der Gesellschaft keine Betriebsausgaben gegenüberstehen.
+  Geklärt ist auch die Frage der sogenannten Sogwirkung: § 17 Abs. 2a EStG und § 20 Abs. 2 EStG
+  stehen nach Tz. 61 des BMF-Schreibens vom 14.05.2025 nebeneinander, § 17 EStG greift nur, soweit
+  nachträgliche Anschaffungskosten entstehen – was bei Finanzplandarlehen, krisenbestimmten und in
+  der Krise hingegebenen Darlehen der Fall ist und den Verlust sowohl in der Einkunftsart als auch
+  im Zeitpunkt verschiebt, nämlich auf die Veräußerung der Anteile im Teileinkünfteverfahren. Im
+  **Betriebsvermögen** entscheidet § 3c Abs. 2 Sätze 2 bis 6 EStG, das Gegenstück zu
+  § 8b Abs. 3 Satz 4 KStG: Wer zu mehr als 25 % beteiligt **ist oder war** – die Prüfung erstreckt
+  sich über die gesamte Darlehenslaufzeit –, unterliegt dem Teilabzugsverbot, sofern er nicht den
+  Gegenbeweis der Fremdüblichkeit nach Satz 3 führt. Gibt eine Personengesellschaft das Darlehen,
+  zählt die Quote jedes einzelnen Mitunternehmers, weshalb dieselbe Gewinnminderung bei einem
+  Gesellschafter gekürzt und beim anderen voll abziehbar sein kann – der Fall der B-KG führt das
+  mit 28.800 € Hinzurechnung bei A und 18.000 € vollem Abzug bei B vor.
+  Der Rest des Abschnitts 3.5 (3.5.2.3.3 bei Anteilseigner-Kapitalgesellschaften und 3.5.2.4
+  Nutzungsvorteile), die Abschnitte 3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen; der Campus weist
+  den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

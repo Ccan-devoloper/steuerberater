@@ -22,10 +22,12 @@
    oder unentgeltliche Übertragung, überteuerte Lieferung, Übernahme von
    Verbindlichkeiten, Forderungsverzicht und Verzicht gegen Besserungsschein);
    dazu der vollständige Exkurs 3.4.6 zum Gesellschafterdarlehen mit Rangrücktritt.
-   Vom Abschnitt 3.5 (Auswirkungen) sind die Teile 3.5.1 und 3.5.2.1 bis 3.5.2.2.2
-   übernommen. Der Rest des Abschnitts 3.5 (ab 3.5.2.3: Forderungsverzicht beim
-   Anteilseigner), die Abschnitte 3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen
-   nach demselben Verfahren; der Campus weist den Stand aus.
+   Vom Abschnitt 3.5 (Auswirkungen) sind die Teile 3.5.1 bis 3.5.2.3.2 übernommen,
+   also auch der Forderungsverzicht beim Anteilseigner im Privat- und im
+   Betriebsvermögen. Der Rest des Abschnitts 3.5 (3.5.2.3.3 bei
+   Anteilseigner-Kapitalgesellschaften und 3.5.2.4 Nutzungsvorteile), die
+   Abschnitte 3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen nach demselben
+   Verfahren; der Campus weist den Stand aus.
 
    Kleinere Tippfehler der Quelle (fehlende Endungen, ein doppeltes Subjekt)
    sind wortlautgetreu übernommen und nicht einzeln gekennzeichnet, weil sie den
@@ -1219,6 +1221,90 @@ export const kstTeil1 = [
         ["Wirtschaftsgut des Betriebsvermögens (auch verbilligt, dann nach der Trennungstheorie)", "steuerwirksame Privatentnahme nach § 4 Abs. 1 Satz 2 EStG", "wie vorstehend: Einlage und nachträgliche Anschaffungskosten"],
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet die drei Fallgruppen, die die Quelle im Fließtext nacheinander behandelt. Der Unterschied zwischen der ersten und der zweiten Zeile ist der Prüfungspunkt: Beim Anspruch bleibt die Besteuerung bei dem, der den Anspruch hatte – die Einlage kann den Zufluss nicht verschieben. Beim Wirtschaftsgut dagegen wandert die Besteuerung mit dem Gegenstand zum Gesellschafter, weil die unentgeltliche Zuwendung selbst keinen Einkünftetatbestand kennt und § 23 Abs. 1 Satz 3 EStG ihn in alle Besteuerungsmerkmale eintreten lässt." },
+    ],
+  },
+  {
+    id: "kst-t1-30",
+    kapitel: "30",
+    abschnittNr: "3.5.2.3 und 3.5.2.3.1",
+    title: "3.5.2.3 Forderungsverzicht beim Anteilseigner – Forderung im Privatvermögen",
+    thema: "Der Verlust aus dem nicht werthaltigen Teil und sein Schicksal, das von Rechtsform und Vermögenszugehörigkeit abhängt. Im Privatvermögen greift § 20 Abs. 2 Nr. 7 EStG, seit der Aufhebung des § 20 Abs. 6 Satz 6 EStG a. F. ohne besondere Abzugsbeschränkung – aber § 17 Abs. 2a EStG geht vor, soweit nachträgliche Anschaffungskosten entstehen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitte 3.5.2.3 und 3.5.2.3.1 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 3 KStG", "§ 27 KStG",
+      "§ 20 Abs. 2 Nr. 7 EStG", "§ 20 Abs. 6 Satz 1 EStG", "§ 20 Abs. 6 Satz 6 EStG a. F.",
+      "§ 20 Abs. 8 EStG", "§ 20 Abs. 9 EStG",
+      "§ 17 Abs. 2a Satz 3 Nr. 1, Nr. 2 und Nr. 3 EStG", "§ 17 Abs. 2a Satz 4 EStG",
+      "§ 32d Abs. 2 Nr. 1b EStG", "§ 3c Abs. 2 EStG", "§ 52 Abs. 33b EStG",
+      "BMF vom 14.05.2025, Tz. 59 und 61",
+      "BMF vom 07.06.2022, BStBl. I 2022, 897, Tz. 17 und 18",
+      "BFH vom 18.07.2023, BStBl. II 2024, 169", "BFH vom 20.06.2023, IX R 2/22",
+      "BFH vom 24.10.2017, BStBl. II 2019, 34",
+    ],
+    themen: ["Forderungsverzicht beim Anteilseigner", "Privatvermögen", "Darlehensverlust", "Sogwirkung", "Finanzplandarlehen", "Subsidiarität", "Refinanzierungskosten"],
+    bloecke: [
+      { text: "Verzichtet der Gesellschafter gegenüber seiner Gesellschaft auf eine nicht mehr vollwerthaltige Forderung, resultiert ihm daraus in Höhe des Differenzbetrags ein Verlust. Das steuerliche Schicksal dieses Verlustes richtet sich nach der Rechtsform des „einlegenden“ Gesellschafters und der Vermögenszugehörigkeit der Darlehensforderung." },
+      { typ: "titel", text: "3.5.2.3.1 Forderung im Privatvermögen" },
+      { text: "Gehört die Forderung zu seinem Privatvermögen, kann der Verlust der Darlehensforderung grundsätzlich nach § 20 Abs. 2 Nr. 7 EStG steuermindernd berücksichtigt werden. Die bisher in diesem Zusammenhang bestehende Verlustabzugsbeschränkung nach § 20 Abs. 6 Satz 6 EStG a. F. wurde zwischenzeitlich ersatzlos und auch rückwirkend aufgehoben, so dass es hinsichtlich der Verlustberücksichtigung mit Ausnahme des § 20 Abs. 6 Satz 1 EStG keine weitere Einschränkung mehr gibt. Die Ausschlussregelung des § 32d Abs. 2 Nr. 1b EStG ist zudem nicht erfüllt, weil der Vorgang des Darlehensverzichtes, welcher beim Anteilseigner begrifflich erst zum Zufluss der Kapitalerträge i. S. des § 20 Abs. 2 Nr. 7 EStG führt, bei der Kapitalgesellschaft nicht zu korrespondierenden Betriebsausgaben geführt haben kann. (Erstmalige Anwendung nach § 52 Abs. 33b EStG: grundsätzlich ab VZ 2021, für Altfälle ab VZ 2024.)" },
+      { text: "Daneben ist aber auch die Konkurrenz zu § 17 Abs. 2a Satz 3 Nr. 2 und Nr. 3 EStG zu beachten, welcher Darlehensverluste erfasst, soweit die Darlehenshingabe selbst oder das Stehenlassen derselben gesellschaftsrechtlich veranlasst sind (§ 17 Abs. 2a Satz 4 EStG). Gleiches gilt für die Ansprüche aus solchen Bürgschaftsverhältnissen. Bisher war fraglich, ob § 17 Abs. 2a EStG die Anwendung des § 20 Abs. 2 EStG aufgrund der Subsidiaritätsklausel des § 20 Abs. 8 EStG wieder verdrängen kann (sog. Sogwirkung). Dies ist aber nicht der Fall, denn aus Tz. 61 des BMF-Schreibens vom 14.05.2025 ergibt sich gerade, dass in den Fällen eines Forderungsverzichtes sowohl der Anwendungsbereich des § 20 Abs. 2 EStG als auch des § 17 Abs. 2a EStG nebeneinander eröffnet ist. Entscheidend ist dabei letztlich, ob sich der Darlehensbetrag auch bei § 17 EStG als nachträgliche Anschaffungskosten auswirken kann. Danach kommt § 20 Abs. 2 EStG nur zur Anwendung, soweit keine nachträglichen Anschaffungskosten i. d. Sinne vorliegen." },
+      { text: "Gleiches ergibt sich aus dem BMF-Schreiben vom 07.06.2022, welches sich mit der Auslegung des § 17 Abs. 2a EStG befasst. Aus den Tz. 17 + 18 ist zu folgern, dass der wertlose Teil der Darlehensforderung nur bei den Einkünften aus Kapitalvermögen i. S. des § 20 Abs. 2 EStG berücksichtigt werden kann. Für die Darlehen hingegen, welche nach § 17 Abs. 2a Satz 3 Nr. 2 EStG bereits zu Anschaffungskosten der Beteiligung führen, entspricht die Handhabung unverändert den Fällen von Finanzplan-, krisenbestimmten Darlehen und in der Krise hingegebenen Darlehen. Diese führen in Höhe des Darlehensnennwertes zu Anschaffungskosten, die nur im Rahmen des § 17 EStG nach den Grundsätzen des Teileinkünfteverfahrens und erst im Zeitpunkt der Anteilsveräußerung bzw. Wegfalls der Anteile berücksichtigt werden können." },
+      { text: "Zu beachten ist daneben auch, dass die Refinanzierungskosten des Gesellschafterdarlehens nach dem Forderungsverzicht ihren Veranlassungszusammenhang wechseln und daher zukünftig nur durch das Beteiligungsverhältnis veranlasst sind. Danach unterliegen diese Aufwendungen ebenfalls der Einschränkung des § 20 Abs. 9 EStG bzw. nach Option zum Teileinkünfteverfahren dem Teilabzugsverbot des § 3c Abs. 2 EStG." },
+      { text: "Beispiel: A ist zu 100 % an der A-GmbH beteiligt und hält seine Beteiligung im Privatvermögen. In 2012 gab er seiner Gesellschaft ein normalverzinsliches Darlehen (Nominalwert: 100.000 €). Weil die A-GmbH Ende 2026 unerwartet in eine Krise geriet, sah sich A dazu gezwungen, auf seine Darlehensforderung zu verzichten. Der Teilwert des Darlehensanspruchs beträgt zu diesem Zeitpunkt noch 10.000 €. Bei dem Darlehen handelt es sich nicht um ein Finanzplandarlehen oder krisenbestimmtes Darlehen." },
+      { text: "Lösung: Bei der A-GmbH ist der gesamte Darlehensbetrag auszubuchen, was zu einem bilanziellen Ertrag von 100.000 € führt. Dieser Vorgang führt zu einer verdeckten Einlage, weil bei der A-GmbH aus gesellschaftsrechtlichen Gründen eine verhinderte Vermögensminderung eingetreten ist. Weil der Anspruch noch in Höhe von 10.000 € werthaltig ist, kommt es nach § 8 Abs. 3 Satz 3 EStG zu einem Abzug der verdeckten Einlage und einem Zugang zum steuerlichen Einlagekonto in Höhe von 10.000 €. (Die Quelle zitiert hier „§ 8 Abs. 3 Satz 3 EStG“; gemeint ist ersichtlich das KStG.)" },
+      { text: "Aufgrund des Forderungsverzichtes tätigt A in Höhe des werthaltigen Teiles eine verdeckte Einlage. Daher resultieren ihm daraus nach § 17 Abs. 2a Satz 3 Nr. 1 EStG in Höhe von 10.000 € zusätzliche Anschaffungskosten seiner im Privatvermögen gehaltenen Beteiligung." },
+      { text: "In der restlichen Höhe kommt es zu einem Wegfall seiner im Privatvermögen gehaltenen Darlehensforderung. Dies führt zu einem Verlust i. S. des § 20 Abs. 2 Nr. 7 EStG i. H. von 90.000 € (Veräußerungspreis 10.000 € ./. Anschaffungskosten 100.000 €). Dieser Verlust kann nach § 20 Abs. 6 Satz 1 EStG aber nur eingeschränkt berücksichtigt werden, wonach ein Abzug mit den positiven anderen Einkünften ausgeschlossen ist. Dem steht auch § 32d Abs. 2 Nr. 1b EStG nicht entgegen, weil der Vorgang auf Ebene der A-GmbH nicht in korrespondierender Höhe zu Betriebsausgaben geführt hat." },
+      { text: "Abwandlung: Wie Grundfall, nur soll das Darlehen ein Finanzplandarlehen gewesen sein." },
+      { text: "Lösung: An der Annahme der verdeckten Einlage ändert sich nichts. Eine Auswirkung ergibt sich vorliegend nur bei der Anerkennung des Darlehensverlustes. Denn neben der verdeckten Einlage von 10.000 €, welche nach § 17 Abs. 2a Satz 3 Nr. 1 EStG die Anschaffungskosten der Beteiligung erhöht, wird der Darlehensausfall in der übrigen Höhe von 90.000 € vorrangig von § 17 Abs. 2a Satz 3 Nr. 2 EStG erfasst und würde sich erst bei Wegfall der Beteiligung im Rahmen des Teileinkünfteverfahrens auswirken. Denn das Finanzplandarlehen rechnet bereits nach den bisherigen Grundsätzen zu den Tatbeständen, die die Anschaffungskosten der Beteiligung erhöhen. Aufgrund § 20 Abs. 8 EStG ist § 17 EStG insoweit vorrangig anzuwenden." },
+      { typ: "tabelle", spalten: ["Art des Darlehens", "Werthaltiger Teil (10.000 €)", "Nicht werthaltiger Teil (90.000 €)", "Zeitpunkt der Auswirkung"], zeilen: [
+        ["gewöhnliches Darlehen (Grundfall)", "verdeckte Einlage, Anschaffungskosten + 10.000 € nach § 17 Abs. 2a Satz 3 Nr. 1 EStG", "Verlust nach § 20 Abs. 2 Nr. 7 EStG, nur mit Kapitaleinkünften verrechenbar (§ 20 Abs. 6 Satz 1 EStG)", "sofort im Jahr des Verzichts"],
+        ["Finanzplandarlehen, krisenbestimmtes oder in der Krise hingegebenes Darlehen (Abwandlung)", "unverändert verdeckte Einlage, Anschaffungskosten + 10.000 €", "nachträgliche Anschaffungskosten nach § 17 Abs. 2a Satz 3 Nr. 2 EStG; § 20 Abs. 2 EStG ist nach § 20 Abs. 8 EStG verdrängt", "erst bei Veräußerung oder Wegfall der Anteile, dann im Teileinkünfteverfahren"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt Grundfall und Abwandlung gegenüber, die die Quelle nacheinander abhandelt. Der Unterschied betrifft nur den nicht werthaltigen Teil, und er ist doppelt: Er ändert die Einkunftsart **und** den Zeitpunkt. Das ist die praktische Bedeutung der Abgrenzung – beim gewöhnlichen Darlehen wirkt sich der Verlust sofort aus, wenn auch nur innerhalb der Kapitaleinkünfte; beim Finanzplandarlehen wandert er in die Anschaffungskosten und wartet auf die Veräußerung der Anteile." },
+      { text: "Rechenprobe (eigene Ergänzung): Der Verlust von 90.000 € ergibt sich als Veräußerungspreis 10.000 € abzüglich Anschaffungskosten 100.000 €. Bemerkenswert ist, dass der werthaltige Teil damit zweimal auftaucht – einmal als verdeckte Einlage, die die Anschaffungskosten der Beteiligung erhöht, und einmal als fiktiver Veräußerungspreis der Forderung. Das ist keine Doppelerfassung, sondern die konsequente Folge der Vorstellung, der Gesellschafter habe 10.000 € erhalten und sofort wieder eingelegt." },
+      { text: "Einordnung der „Sogwirkung“ (eigene Anmerkung): Die Frage, die die Quelle hier klärt, lautete, ob § 17 Abs. 2a EStG über die Subsidiaritätsklausel des § 20 Abs. 8 EStG den gesamten Vorgang an sich zieht. Die Antwort der Finanzverwaltung ist ein sauberes Nebeneinander: § 17 Abs. 2a EStG greift, soweit nachträgliche Anschaffungskosten entstehen, § 20 Abs. 2 EStG für den Rest. Die Prüfungsreihenfolge in der Klausur ist damit vorgegeben – erst fragen, ob das Darlehen zu den Tatbeständen des § 17 Abs. 2a Satz 3 Nr. 2 EStG gehört, und nur wenn nicht, § 20 Abs. 2 Nr. 7 EStG anwenden." },
+    ],
+  },
+  {
+    id: "kst-t1-31",
+    kapitel: "31",
+    abschnittNr: "3.5.2.3.2",
+    title: "3.5.2.3.2 Forderungsverzicht – Forderung im Betriebsvermögen",
+    thema: "Hier greift § 3c Abs. 2 Sätze 2 bis 6 EStG: Ab einer Beteiligung von mehr als 25 % – zu irgendeinem Zeitpunkt während der Darlehenslaufzeit – unterliegt die Gewinnminderung dem Teileinkünfteverfahren, vorbehaltlich des Gegenbeweises. Bei einer darlehensgebenden Personengesellschaft zählt die Quote jedes einzelnen Mitunternehmers",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.5.2.3.2 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 3c Abs. 2 Sätze 2 bis 6 EStG", "§ 3c Abs. 2 Satz 3 EStG", "§ 3c Abs. 2 Satz 4 EStG",
+      "§ 6 Abs. 6 Satz 2 EStG", "§ 8b Abs. 3 Satz 4 KStG",
+      "FG Düsseldorf vom 19.10.2012, EFG 2013 S. 1068",
+      "BFH vom 12.03.2014, BStBl. II 2014, 859",
+      "FG Münster vom 28.01.2025, 2 K 3123/21 F, rkr.",
+    ],
+    themen: ["Betriebsvermögen", "Teilabzugsverbot", "25-Prozent-Grenze", "Gegenbeweis", "Personengesellschaft", "Mitunternehmerbezogene Betrachtung"],
+    bloecke: [
+      { text: "Anders ist dies hingegen bei einer dem Betriebsvermögen zuzurechnenden Forderung, weil dafür § 3c Abs. 2 Sätze 2 – 6 EStG zu beachten sind. Damit unterliegen in den gesetzlich geregelten Fällen sämtliche Gewinnminderungen eines Gesellschafterdarlehens uneingeschränkt den Einschränkungen des Teileinkünfteverfahrens. Gleiches gilt nach § 3c Abs. 2 Satz 4 EStG auch für vergleichbare Forderungen, d. h. die wirtschaftlich wie eine Darlehensforderung ausgestaltet sind und bei denen der Finanzierungscharakter überwiegt." },
+      { text: "§ 3c Abs. 2 Satz 2 EStG, welcher grundsätzlich dem § 8b Abs. 3 Satz 4 KStG entspricht, setzt voraus, dass der Steuerpflichtige (Darlehensgeber) zu mehr als 25 % an der darlehensnehmenden Gesellschaft beteiligt ist oder war. Danach muss die qualifizierte wesentliche Beteiligung während der Darlehenslaufzeit zu irgendeinem Zeitpunkt bestanden haben. Der Steuerpflichtige muss danach bereits im Zeitpunkt der Darlehenshingabe an der darlehensnehmenden Gesellschaft beteiligt sein, auch wenn die qualifizierte Beteiligung zu diesem Zeitpunkt noch nicht vorgelegen hat. Dies führt dazu, dass die wesentliche Beteiligung entweder" },
+      { text: "• im Zeitpunkt der Gewinnminderung vorliegt (beteiligt ist)" },
+      { text: "• oder während der Darlehenslaufzeit vorgelegen hat (beteiligt war)." },
+      { text: "Sind diese Voraussetzungen erfüllt, wird eine gesellschaftsrechtliche Veranlassung des Gesellschafterdarlehens unterstellt, wobei nach § 3c Abs. 2 Satz 3 EStG der Steuerpflichtige einen Gegenbeweis führen kann, um die Fremdüblichkeit des Darlehens nachzuweisen." },
+      { text: "Ist § 3c Abs. 2 Satz 2 EStG nicht erfüllt, kann die Gewinnminderung (wie in den Fällen vor der gesetzlichen Neuregelung bis einschließlich VZ 2014) steuerlich voll abgezogen werden." },
+      { text: "Nicht von § 3c Abs. 2 Satz 2 EStG erfasst sind die Fälle, in denen ein Nichtgesellschafter bzw. eine dem Gesellschafter nahe stehende Person das Darlehen hingibt. Dies deshalb, weil der Gesetzeswortlaut die Darlehensgewährung durch eine nahestehende Person des Anteilseigners ausdrücklich nicht erwähnt." },
+      { text: "Wird das Darlehen von einer Personengesellschaft gewährt, ist für Zwecke der Ermittlung der maßgeblichen Beteiligungsquote des § 3c Abs. 2 Satz 2 EStG jeweils auf die Mitunternehmer abzustellen. Denn der eindeutige Gesetzeswortlaut verlangt eine qualifizierte (mittelbare oder unmittelbare) Beteiligung des Steuerpflichtigen an der darlehensnehmenden Gesellschaft, was im Falle einer Personengesellschaft nur der jeweilige Mitunternehmer sein kann. Daher ist es nicht entscheidend, in welcher Höhe die Personengesellschaft selbst an der darlehensnehmenden Gesellschaft beteiligt ist, sondern die Beteiligung muss jeweils quotenentsprechend den Mitunternehmern zugerechnet werden." },
+      { text: "Beispiel: A besitzt in seinem Einzelunternehmen eine Forderung über 100.000 € gegenüber seiner A-GmbH, an welcher er in 2026 mit 50 % beteiligt ist. In 2026 verzichtet er aus gesellschaftsrechtlichen Gründen auf seine Forderung, die zu diesem Zeitpunkt noch einen Teilwert von 10.000 € hat. Die Beteiligung gehört ebenfalls zu seinem Betriebsvermögen." },
+      { text: "Lösung: Der Forderungsverzicht führt in Höhe des werthaltigen Teils von 10.000 € zu einer verdeckten Einlage in die A-GmbH. In dieser Höhe entstehen dem A zusätzliche Anschaffungskosten seiner Beteiligung (§ 6 Abs. 6 Satz 2 EStG). In der restlichen Höhe von 90.000 € entsteht im Einzelunternehmen ein bilanzieller Aufwand, weil die Forderung aufgrund des Verzichts in voller Höhe auszubuchen ist: Aufwand 90.000 € und Beteiligung 10.000 € an Forderung 100.000 €." },
+      { text: "Diese Gewinnminderung ist nach § 3c Abs. 2 Satz 2 EStG nur noch i. H. von 54.000 € steuerlich abziehbar, wonach die Gewinnminderung dem Teileinkünfteverfahren unterliegt. Denn A ist als Steuerpflichtiger zu mehr als 25 % an der Darlehensnehmerin beteiligt und zudem ist kein Gegenbeweis erfolgt. Daher ist der Restbetrag von 36.000 € außerbilanziell wieder dem Einkommen des A hinzuzurechnen." },
+      { text: "Abwandlung: Das Darlehen wurde von der B-KG hingegeben, an welcher die Mitunternehmer A mit 80 % und B mit 20 % beteiligt sind." },
+      { text: "Lösung: Der Forderungsverzicht führt bei der B-KG in Höhe des werthaltigen Teils von 10.000 € zu einer verdeckten Einlage in die A-GmbH. In dieser Höhe entstehen demnach zusätzliche Anschaffungskosten der Beteiligung (§ 6 Abs. 6 Satz 2 EStG). In der restlichen Höhe von 90.000 € entsteht ein bilanzieller Aufwand, weil die Forderung aufgrund des Verzichts in voller Höhe auszubuchen ist: Aufwand 90.000 € und Beteiligung 10.000 € an Forderung 100.000 €." },
+      { text: "Hinsichtlich der Anwendung des § 3c Abs. 2 Satz 2 EStG ist zur Ermittlung der maßgeblichen Beteiligungsquote bei einer Darlehenshingabe durch eine Personengesellschaft auf die jeweiligen Mitunternehmer abzustellen, weil diese die Steuerpflichtigen sind. Danach wäre im Zusammenhang mit dem Mitunternehmer A die Einschränkung erfüllt, so dass es bei der Ermittlung seines steuerlichen Gewinnanteils zu einer Hinzurechnung des Aufwandes von 28.800 € kommt (80 % von 90.000 € = 72.000 € und davon 40 % Kürzung). Im Zusammenhang mit dem Mitunternehmer B sind die gesetzlichen Voraussetzungen nicht erfüllt, weil dieser nicht zu mehr als 25 % an der A-GmbH beteiligt ist. Ihm wird der steuerliche Verlust von 18.000 € (20 % von 90.000 €) als vollkommen abziehbar zugerechnet." },
+      { typ: "tabelle", spalten: ["Fall", "Anteil an der Gewinnminderung von 90.000 €", "§ 3c Abs. 2 Satz 2 EStG", "Außerbilanzielle Hinzurechnung", "Steuerlich abziehbar"], zeilen: [
+        ["Einzelunternehmen des A (50 % an der A-GmbH)", "90.000 €", "erfüllt, kein Gegenbeweis", "36.000 € (40 %)", "54.000 € (60 %)"],
+        ["Mitunternehmer A der B-KG (80 % Anteil, > 25 % an der A-GmbH)", "72.000 €", "erfüllt", "28.800 € (40 % von 72.000 €)", "43.200 €"],
+        ["Mitunternehmer B der B-KG (20 % Anteil, ≤ 25 % an der A-GmbH)", "18.000 €", "nicht erfüllt", "keine", "18.000 € in voller Höhe"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die Zeilen eins und zwei sowie der Wert von 43.200 € in Zeile zwei sind aus den Angaben der Quelle abgeleitet – sie nennt für den Mitunternehmer A nur die Hinzurechnung von 28.800 €, nicht den verbleibenden abziehbaren Betrag. Die Rechnung: 80 % von 90.000 € = 72.000 €, davon 40 % = 28.800 € Hinzurechnung, verbleiben 43.200 €. Alle übrigen Zahlen stammen unverändert aus der Quelle und gehen auf (90.000 € × 60 % = 54.000 €, × 40 % = 36.000 €; 20 % von 90.000 € = 18.000 €)." },
+      { text: "Merke (eigene Zusammenfassung des Abschnitts): Die Prüfung im Betriebsvermögen läuft in drei Schritten. Erstens: Wer ist der Steuerpflichtige? Bei einer Personengesellschaft nicht sie selbst, sondern jeder Mitunternehmer einzeln – deshalb kann dieselbe Gewinnminderung bei einem Gesellschafter gekürzt und beim anderen voll abziehbar sein. Zweitens: War er irgendwann während der Darlehenslaufzeit zu mehr als 25 % beteiligt? Das „oder war“ des Gesetzes macht die Prüfung zu einer Frage über die gesamte Laufzeit, nicht nur über den Stichtag. Drittens: Ist der Gegenbeweis der Fremdüblichkeit nach § 3c Abs. 2 Satz 3 EStG geführt? Nur wenn nicht, greift das Teilabzugsverbot." },
     ],
   },
 ];

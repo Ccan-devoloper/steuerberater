@@ -10617,8 +10617,49 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** der Rest des Abschnitts 3.5 (ab 3.5.2.3), die Abschnitte 3.6
-bis 3.9 und das Kapitel 4 sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** die Abschnitte 3.5.2.3.3 und 3.5.2.4, die Abschnitte 3.6 bis
+3.9 und das Kapitel 4 sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.5.2.3 bis 3.5.2.3.2 – Forderungsverzicht beim Anteilseigner
+
+Quelle: dieselbe Datei; übernommen als Kapitel 30 (Privatvermögen) und 31 (Betriebsvermögen).
+Prüfung: `npm run check:k2-kst-teil1` (31 Kapitel, 516 Blöcke, 18 Tabellen). Auf diesen Abschnitt
+hat die Quelle seit dem Abschnitt 3.4.4 fünfmal vorausverwiesen.
+
+**Eigener Fund, im Datensatz gekennzeichnet:** In der Lösung des Beispiels zum Privatvermögen
+zitiert die Quelle „§ 8 Abs. 3 Satz 3 **EStG**“; gemeint ist ersichtlich das KStG, wie der gesamte
+übrige Abschnitt zeigt. Der Wortlaut ist unverändert übernommen und der Hinweis danebengesetzt.
+
+**Die Sogwirkungsfrage ist der dogmatische Kern des Abschnitts.** Streitig war, ob
+§ 17 Abs. 2a EStG über die Subsidiaritätsklausel des § 20 Abs. 8 EStG den gesamten Vorgang an
+sich zieht. Die Antwort nach Tz. 61 des BMF-Schreibens vom 14.05.2025 ist ein Nebeneinander:
+§ 17 Abs. 2a EStG greift, soweit nachträgliche Anschaffungskosten entstehen, § 20 Abs. 2 EStG für
+den Rest. Der Datensatz leitet daraus in einer gekennzeichneten Anmerkung die Prüfungsreihenfolge
+ab – erst fragen, ob das Darlehen zu den Tatbeständen des § 17 Abs. 2a Satz 3 Nr. 2 EStG gehört
+(Finanzplandarlehen, krisenbestimmtes oder in der Krise hingegebenes Darlehen), und nur wenn
+nicht, § 20 Abs. 2 Nr. 7 EStG anwenden. Die Tabelle stellt Grundfall und Abwandlung gegenüber und
+macht sichtbar, dass der Unterschied doppelt wirkt: auf die Einkunftsart **und** auf den
+Zeitpunkt.
+
+**Eine Beobachtung zum Zahlenwerk, als eigene Ergänzung ausgewiesen:** Der werthaltige Teil von
+10.000 € taucht im Privatvermögensfall zweimal auf – als verdeckte Einlage, die die
+Anschaffungskosten der Beteiligung erhöht, und als fiktiver Veräußerungspreis der Forderung bei
+der Ermittlung des Verlustes von 90.000 €. Das ist keine Doppelerfassung, sondern die konsequente
+Folge der Zuflussfiktion aus Abschnitt 3.5.2.2.
+
+**Im Betriebsvermögen** sind alle Zahlen der Quelle nachgerechnet und gehen auf: 90.000 € × 60 %
+= 54.000 € abziehbar und × 40 % = 36.000 € Hinzurechnung im Einzelunternehmensfall; in der
+Abwandlung 80 % von 90.000 € = 72.000 € und davon 40 % = 28.800 € Hinzurechnung beim
+Mitunternehmer A, 20 % von 90.000 € = 18.000 € voll abziehbar bei B. **Eine Zahl ist ergänzt und
+als solche gekennzeichnet:** der beim Mitunternehmer A verbleibende abziehbare Betrag von
+43.200 €, den die Quelle nicht nennt.
+
+**Der praktisch wichtigste Satz des Abschnitts 3.5.2.3.2** ist die mitunternehmerbezogene
+Betrachtung bei einer darlehensgebenden Personengesellschaft: Nicht sie ist der Steuerpflichtige,
+sondern jeder Mitunternehmer einzeln – weshalb dieselbe Gewinnminderung bei einem Gesellschafter
+gekürzt und beim anderen voll abziehbar ist. Der Datensatz fasst die Prüfung in einem eigens
+gekennzeichneten „Merke“ in drei Schritten zusammen (Steuerpflichtiger, 25-Prozent-Grenze über
+die gesamte Laufzeit wegen des „oder war“, Gegenbeweis nach § 3c Abs. 2 Satz 3 EStG).
 
 ### KSt Teil I (Hamacher), Abschnitte 3.5.1 bis 3.5.2.2 – Auswirkungen und Zuflussfiktion
 
