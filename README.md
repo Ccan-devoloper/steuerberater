@@ -1882,6 +1882,29 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   steuerlichen Gewinn von 47.695 €). Zwei Unstimmigkeiten der Quelle bei der Darstellung der
   latenten Steuern (ein falsches Stichtagsdatum und eine Verrechnungsbuchung über 27.500 €
   statt 24.000 €) sind als **eigene Feststellung** gekennzeichnet.
+  **Teil III (A-B-GmbH & Co. KG, 33 Punkte)** stellt **denselben Vorfall auf zwei Ebenen**
+  nebeneinander: Ein verseuchtes Grundstück rechtfertigt bei der **OHG** die
+  Teilwertabschreibung auf einen Erinnerungswert von 1 € – und zugleich den Wechsel vom
+  Umlauf- ins Anlagevermögen, weil die Verkaufsabsicht entfällt. Bei der beteiligten **KG**
+  ist eine Abschreibung der Beteiligung dagegen **unzulässig**, weil deren Wert nicht am
+  einzelnen Wirtschaftsgut hängt und in den übrigen Aktiva noch 1.535.000 € stille Reserven
+  ruhen; handelsrechtlich ist die Buchung vollständig rückgängig zu machen. Über die
+  **Spiegelbildmethode** schlägt derselbe Verlust steuerlich trotzdem mit 250.000 € durch –
+  der Anteil steht handelsrechtlich bei 400.000 € und steuerlich bei 150.000 €. Dazu ein
+  **Squeeze-out** nach § 327a AktG, bei dem die Rücklage für Ersatzbeschaffung ausscheidet,
+  weil weder eine hoheitliche Stelle handelt (die Eintragung ins Handelsregister vollzieht nur
+  eine privatrechtliche Umgestaltung) noch höhere Gewalt vorliegt; es bleibt § 6b Abs. 10
+  EStG, den die Zwangsübertragung gerade nicht hindert – gesellschafterbezogen aber nur zu
+  80 %, weshalb 6.000 € in eine **Ergänzungsbilanz** für die Komplementär-GmbH gehen (die
+  Quelle bevorzugt ausdrücklich die Alternativlösung mit negativen Ergänzungsbilanzen für die
+  Kommanditisten). Und schließlich die Übertragung eines Mietshauses aus dem Privatvermögen
+  gegen Gesellschaftsrechte: Weil der Wert auf den Kapitalkonten I gutgeschrieben wird, ist
+  das ein **voll entgeltliches Veräußerungsgeschäft** und keine Einlage – dass die Hälfte dem
+  Sohn zufällt, ändert daran nichts, und die AfA bemisst sich deshalb nach § 6 Abs. 6 Satz 1
+  EStG und nicht nach § 7 Abs. 1 Satz 5 EStG. Drei Unstimmigkeiten der Quelle (ein
+  Zahlendreher im Gewinn der KG, die in beiden Bilanzen fehlende Einzahlung der
+  Komplementär-GmbH über 162.500 € und eine Rundungsdifferenz bei den Verlustanteilen) sind
+  als **eigene Feststellung** gekennzeichnet. **Damit ist die Prüfung 2011 vollständig.**
   Prüfung: `npm run check:k3-bil-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

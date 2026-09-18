@@ -8237,3 +8237,92 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Zahl „25. €“ statt 25.000 €; „Sie hierzu Anmerkung nach Tz. 5“ statt „Siehe“; und „Die
   aufgrund der geänderten Steuerbescheide nachzuzahlenden Gewerbesteuer und Körperschaftsteuer
   wurde“ im Sachverhalt.
+
+## Originalklausuren der Steuerberaterprüfung – Buchführung und Bilanzwesen, Prüfung 2011, Teil III
+
+- Quelle: dieselbe Datei (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`), Prüfung 2011, Teil III.
+- Einpflege dieses Durchgangs: **Teil III der Prüfung 2011** (A-B-GmbH & Co. KG, 33 Punkte);
+  der Datensatz umfasst jetzt 3 Aufgabenteile, 250 Blöcke, 23 Tabellen und **100 Punkte** –
+  **damit ist die Prüfung 2011 vollständig**. Prüfung
+  `npm run check:k3-bil-originalklausuren`. Offen und lesbar ist aus der Datei noch die
+  Prüfung 2012 bis in den Lösungsteil II.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Derselbe Vorfall, zwei Ebenen, entgegengesetztes Ergebnis.** Das ist der didaktische Kern
+  der Textziffer 1:
+
+  | Ebene | Ergebnis | Grund |
+  | --- | --- | --- |
+  | **OHG** (Eigentümerin) | Teilwertabschreibung auf 1 € (499.999 €) **zwingend** handelsrechtlich, steuerlich als Wahlrecht ausgeübt; zugleich Wechsel vom Umlauf- ins Anlagevermögen | dauernde Wertminderung: nach dem Gutachten ist das Grundstück auch nach der Sanierung kein Bauland mehr; die Verkaufsabsicht entfällt, künftige Nutzung als Lagerplatz |
+  | **KG** (Beteiligte), handelsrechtlich | Abschreibung **unzulässig**, Buchung über 399.999 € vollständig rückgängig zu machen | der Wert der Beteiligung hängt nicht am einzelnen Wirtschaftsgut; Geschäft und Gewinnerwartungen sind unberührt, und in den übrigen Aktiva ruhen noch 1.535.000 € stille Reserven (685.000 € plus 850.000 € Firmenwert) |
+  | **KG**, steuerrechtlich | Verlustanteil von **250.000 €** über den Merkposten | die Beteiligung an einer Personengesellschaft ist kein Wirtschaftsgut und keiner Bewertung fähig – der Merkposten bildet aber die anteiligen Buchwerte ab (Spiegelbildmethode, § 180 Abs. 1 Nr. 2 Buchst. a AO) |
+
+  Der Anteil an der OHG steht deshalb am Ende handelsrechtlich bei **400.000 €** und
+  steuerlich bei **150.000 €**. Dieselbe wirtschaftliche Wertminderung führt einmal zu keiner
+  und einmal zu einer vollen Auswirkung – über ganz verschiedene Mechanismen.
+
+  Nicht zu bilanzieren sind außerdem zwei Posten, die sich aufdrängen: die **bestrittene
+  Schadensersatzforderung** (Realisationsprinzip, § 252 Abs. 1 Nr. 4 HGB – die Klage wurde
+  erst 2026 eingereicht, weshalb auch eine Prozesskostenrückstellung ausscheidet) und eine
+  **Rückstellung für Sanierungsverpflichtungen**, weil der Landkreis die OHG bei der
+  Störerauswahl ausdrücklich nicht heranziehen will.
+
+  **Beim Squeeze-out scheitert die Rücklage für Ersatzbeschaffung an beiden Tatbeständen.**
+  Ein **behördlicher Eingriff** liegt nicht vor, weil keine hoheitliche Stelle handelt,
+  sondern der Hauptaktionär – die Eintragung ins Handelsregister vollzieht nur eine
+  privatrechtliche Umgestaltung. **Höhere Gewalt** scheidet aus demselben Grund aus, weil die
+  Hauptversammlung rechtmäßig im Rahmen ihrer Kompetenzen handelt. Es bleibt § 6b Abs. 10
+  EStG, den die Zwangsübertragung gerade **nicht** hindert: Es genügt ein Rechtsträgerwechsel
+  gegen Gegenleistung.
+
+  | § 6b-Rücklage | Betrag |
+  | --- | --- |
+  | Veräußerungsgewinn (80.000 € Barabfindung ./. 50.000 € Buchwert) | 30.000 € |
+  | davon rücklagefähig, weil die Komplementär-GmbH mit 20 % beteiligt ist (§ 6b Abs. 10 Satz 10 EStG) | 24.000 € |
+  | in der Gesamthandsbilanz gebildet | 30.000 € |
+  | ertragswirksam in der Ergänzungsbilanz der GmbH | 6.000 € |
+
+  Die Quelle hält ausdrücklich fest, dass sie die **Alternativlösung bevorzugt** – keine
+  Rücklage in der Gesamthandsbilanz und je eine negative Ergänzungsbilanz für A und B über
+  12.000 € –, weil das spätere Übertragungen der stillen Reserven bilanziell erleichtert.
+  Handelsrechtlich ist die von A gebuchte Rücklage nach R 6.6 EStR ohnehin auszubuchen
+  (Passivierungsverbot für steuerrechtliche Rücklagen) und in der Steuerbilanz neu
+  einzustellen.
+
+  **Bei der Grundstücksübertragung entscheidet die Gutschrift auf dem Kapitalkonto I.** Weil
+  der Wert dort erfasst wird und die Gesellschaftsrechte von A und B dadurch gestärkt werden
+  (das Kapitalkonto der GmbH wächst nicht mit), liegt ein tauschähnlicher, **voll
+  entgeltlicher** Vorgang vor – keine Einlage. § 6 Abs. 5 Satz 1 EStG passt ohnehin nicht,
+  weil das Mietshaus zuvor **Privatvermögen** war. Bemerkenswert die Nebenbemerkung der
+  Lösung: Dass die Hälfte des Werts dem **Sohn** gutgeschrieben wird, ändert nichts –
+  entscheidend ist allein, dass überhaupt eine Gegenleistung in Höhe des Teilwerts erbracht
+  wurde, gleich an wen. Folge für die AfA: Bemessungsgrundlage sind die 500.000 € nach
+  § 6 Abs. 6 Satz 1 EStG, **nicht** die abgeleiteten Werte des § 7 Abs. 1 Satz 5 EStG. Die
+  AfA beträgt 2 % von 500.000 € = 10.000 €, davon 7/12 = **5.833 €**.
+
+  **Drei Unstimmigkeiten der Quelle – eigene Feststellung:**
+  1. Die Gewinnermittlung der KG endet mit „Gewinn vor Steuern = 24.156 €“. Nachgerechnet
+     ergibt sich aus denselben Posten - 399.999 + 399.999 + 30.000 ./. 5.833 = **24.167 €**,
+     und genau darauf summieren sich auch die in der Bilanz ausgewiesenen Gewinnanteile
+     (9.667 + 9.666 + 4.834 = 24.167 €). Die 24.156 € sind ein Zahlendreher.
+  2. Die **Einzahlung der Komplementär-GmbH von 162.500 €** (Textziffer 3 des Sachverhalts,
+     gebucht Bank an Kapital I GmbH) ist in beiden Bilanzen der Anlage **nicht abgebildet**:
+     Die Bank steht mit 80.000 € und das Kapital der GmbH mit 200.000 €. Beide Seiten würden
+     um denselben Betrag steigen, die Bilanz bliebe ausgeglichen – vollständig ist sie
+     insoweit nicht.
+  3. Die Verlustanteile der Steuerbilanz summieren sich auf 255.832 € statt 255.833 €; die
+     Bilanzsumme geht dennoch auf, weil die Quelle mit 2.124.167 € rechnet.
+
+  Alle Zahlen sind wortlautgetreu übernommen und im Datensatz kenntlich gemacht.
+
+  **Alle übrigen Beträge sind unabhängig nachgerechnet und gehen auf.**
+
+  **Punktvergabe über die ganze Klausur 2011 – eigene Feststellung:** Teil I nennt 34 Punkte
+  und zählt genau 34 aus; Teil II nennt 33 und zählt 32 aus; Teil III nennt 33 und zählt
+  33,5 aus. Im Datensatz ist jeweils die Überschrift der Quelle als Gesamtpunktzahl
+  ausgewiesen, die Klausur kommt damit auf die vorgesehenen 100 Punkte.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „Teil lll“ mit
+  kleinen L statt römischer Drei; „Gewinn der KG für das Jahr 2023“ statt 2025; „Ihre
+  Gesellschaftseinlage“ mit großem I; „GruBo’s“ mit Apostroph; und „ertragssteuerrechtlichen“
+  mit drei s in der Aufgabenstellung.
