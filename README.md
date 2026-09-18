@@ -1861,6 +1861,27 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   34 Punkte. Eine Unstimmigkeit der Quelle (die Patent-AfA ist an drei Stellen mit 447 €,
   467 € und 466 € beziffert; rechnerisch richtig sind 466,67 €) ist als **eigene
   Feststellung** gekennzeichnet.
+  **Teil II (X-GmbH, 33 Punkte)** macht die **latenten Steuern zum roten Faden**: Drei der fünf
+  Textziffern erzeugen eine Differenz zwischen Handels- und Steuerbilanz – 80.000 € aus der
+  Drohverlustrückstellung und 8.333 € aus dem Firmenwert sprechen für aktive, 300.000 € aus
+  der § 6b-Rücklage für passive latente Steuern –, und keine davon lässt sich für sich allein
+  entscheiden. Erst die **Gesamtdifferenzbetrachtung** ergibt einen Saldo von 211.666 €
+  zugunsten des Steuerrechts und damit ein **Passivierungsgebot** nach § 274 Abs. 1 Satz 1 HGB
+  über 63.500 €. Die Quelle kritisiert die amtliche Originallösung an dieser Stelle
+  ausdrücklich und merkt an, dort seien für die Aussage zu den latenten Steuern überhaupt keine
+  Punkte vergeben worden. Dazu ein **Erwerb eigener Anteile**, bei dem drei Beträge drei
+  verschiedene Wege gehen (Nennwert 50.000 € offen vom gezeichneten Kapital abgesetzt, Aufpreis
+  20.000 € erfolgsneutral mit den freien Rücklagen verrechnet, Nebenkosten 3.000 € Aufwand);
+  ein **asset deal**, bei dem der Firmenwert erst als Restgröße entsteht (2.750.000 €
+  Gegenleistung ./. 2.500.000 € Zeitwert) und dann handelsrechtlich über zehn, steuerrechtlich
+  über fünfzehn Jahre abgeschrieben wird; eine **Betriebsprüfung**, die handelsrechtlich keine
+  Bilanzberichtigung auslöst, wohl aber eine außerbilanzielle Korrektur von 11.200 € gegen die
+  doppelte Besteuerung; und am Schluss eine **Steuerrückstellung, die sich selbst voraussetzt** –
+  die Steuer bemisst sich nach einem Gewinn, den sie selbst mindert (zvE 52.133 €, je 7.819 €
+  Gewerbe- und Körperschaftsteuer, handelsrechtlicher Jahresüberschuss 35.862 € gegen einen
+  steuerlichen Gewinn von 47.695 €). Zwei Unstimmigkeiten der Quelle bei der Darstellung der
+  latenten Steuern (ein falsches Stichtagsdatum und eine Verrechnungsbuchung über 27.500 €
+  statt 24.000 €) sind als **eigene Feststellung** gekennzeichnet.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

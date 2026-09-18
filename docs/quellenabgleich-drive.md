@@ -8140,3 +8140,100 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „dem notwendigen betrieblichen Umlaufvermögens“; „das u. a. BMF-Schreibens“; und „Absetzung
   für außerplanmäßige Abschreibung (AfaA)“ im Sachverhalt, wo es Absetzung für
   außergewöhnliche Abnutzung heißt.
+
+## Originalklausuren der Steuerberaterprüfung – Buchführung und Bilanzwesen, Prüfung 2011, Teil II
+
+- Quelle: dieselbe Datei (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`), Prüfung 2011, Teil II.
+- Einpflege dieses Durchgangs: **Teil II der Prüfung 2011** (X-GmbH, 33 Punkte); der Datensatz
+  umfasst jetzt 2 Aufgabenteile, 168 Blöcke, 16 Tabellen und 67 Punkte; Prüfung
+  `npm run check:k3-bil-originalklausuren`. Offen und lesbar ist noch Teil III derselben
+  Klausur sowie die Prüfung 2012 bis in den Lösungsteil II.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Die Quelle vermerkt zu diesem Teil
+  ausdrücklich, dass sie ihn inhaltlich **abgewandelt** hat: „Der Teil II beinhaltete im
+  Original in der Textziffer 5 die Problematik des Übergangs zum BilMoG und wurde aus diesem
+  Grund abgewandelt und ebenfalls auf die Rechtslage 2025 angepasst, da die
+  Übergangsproblematik nicht mehr klausurrelevant sein wird.“
+
+  **Die latenten Steuern sind der rote Faden, nicht eine Nebenfrage.** Drei der fünf
+  Textziffern erzeugen eine Differenz zwischen Handels- und Steuerbilanz, und keine davon
+  lässt sich für sich allein entscheiden:
+
+  | Textziffer | Differenz | Richtung |
+  | --- | --- | --- |
+  | Tz. 1 Drohverlustrückstellung (§ 249 Abs. 1 HGB gegen § 5 Abs. 4a EStG) | 80.000 € | Betriebsvermögen Handelsrecht **<** Steuerrecht |
+  | Tz. 4 Firmenwert (10 gegen 15 Jahre Nutzungsdauer) | 8.333 € | Betriebsvermögen Handelsrecht **<** Steuerrecht |
+  | Tz. 5 § 6b-Rücklage (nur steuerlich) | 300.000 € | Betriebsvermögen Handelsrecht **>** Steuerrecht |
+  | **Saldo** | **211.666 €** | ⇒ **Passivierungsgebot** nach § 274 Abs. 1 Satz 1 HGB, × 30 % = **63.500 €** |
+
+  Die Quelle kritisiert die amtliche Originallösung an dieser Stelle offen: Diese habe
+  übersehen, dass für die Frage von Passivierungspflicht (Satz 1) oder Aktivierungswahlrecht
+  (Satz 2) eine **Gesamtbetrachtung** anzustellen ist; unter Einbeziehung der Tz. 5 liege ein
+  Passivierungsgebot vor. Dass der Verfasser der Originallösung selbst unsicher gewesen sei,
+  zeige sich daran, dass für die Aussage zu den latenten Steuern dort **keine Punkte** vergeben
+  wurden – gepunktet worden seien nur die Buchungssätze.
+
+  **Der Erwerb eigener Anteile: drei Beträge, drei verschiedene Wege.**
+
+  | Betrag | Behandlung | Grundlage |
+  | --- | --- | --- |
+  | Nennwert 50.000 € | offen in der Vorspalte vom gezeichneten Kapital abgesetzt; die eigenen Anteile werden **nicht bewertet** | § 272 Abs. 1a Satz 1 HGB |
+  | Aufpreis 20.000 € | **erfolgsneutral** mit den frei verfügbaren Rücklagen verrechnet | § 272 Abs. 1a Satz 2 HGB |
+  | Nebenkosten 3.000 € | **Aufwand**, handels- wie steuerrechtlich | § 272 Abs. 1a Satz 3 HGB, § 5 Abs. 1 Satz 1 EStG |
+
+  Der gemeine Wert von 300.000 € spielt in der Hauptlösung keine Rolle; die Quelle vermerkt
+  aber, dass auch die Behandlung der Differenz von 230.000 € als verdeckte Einlage als richtig
+  gewertet wurde.
+
+  **Der Firmenwert entsteht als Restgröße und wird zweimal verschieden abgeschrieben.**
+  Gegenleistung 2.750.000 € (1.250.000 € bar plus 1.500.000 € Schuldübernahme) abzüglich
+  Zeitwert der Maschinen 2.500.000 € ergibt **250.000 €**. Handelsrechtlich sind das nach
+  § 253 Abs. 3 Sätze 3 und 4 HGB zehn Jahre (25.000 € p. a.), steuerrechtlich nach § 7 Abs. 1
+  Satz 3 EStG fünfzehn (16.667 € p. a.) – eine der wenigen gesetzlich angeordneten dauerhaften
+  Abweichungen. Die Maschinen selbst werden über fünf Jahre abgeschrieben: 500.000 €.
+
+  **Die Betriebsprüfung wirkt nur außerbilanziell.** Weil kein schwerwiegender Fehler vorliegt,
+  ist handelsrechtlich keine Bilanzberichtigung nötig – eine Korrektur in der laufenden
+  Buchführung genügt. Nach Aktivierung (20.000 €), AfA (4.000 €) und Steueraufwand (je
+  2.400 €) stimmen Handels- und Steuerbilanz wieder überein; es bleibt die **außerbilanzielle
+  Korrektur von 11.200 €**, die eine doppelte Besteuerung desselben Betrags verhindert.
+
+  **Am Schluss eine Steuerrückstellung, die sich selbst voraussetzt.** Die Aufgabe verlangt,
+  die Steuerrückstellungen zu berechnen und zu buchen – und die Steuer bemisst sich nach einem
+  Gewinn, den die Rückstellung selbst mindert. Die Quelle löst das in fester Reihenfolge:
+
+  | Schritt | Handelsbilanz | steuerlich |
+  | --- | --- | --- |
+  | Vorläufiger Jahresüberschuss | 700.000 € | |
+  | nach den Korrekturen der Tz. 1, 4 und 5 | **51.500 €** | |
+  | Überleitung (Tz. 1, 4, 5) | | **63.333 €** |
+  | ./. außerbilanzielle Korrektur Tz. 2 | | ./. 11.200 € |
+  | **Zu versteuerndes Einkommen** | | **52.133 €** |
+  | Gewerbesteuer und Körperschaftsteuer, je 15 % | ./. je 7.819 € | ./. je 7.819 € |
+  | **Jahresüberschuss / Gewinn** | **35.862 €** | **47.695 €** |
+
+  Die endgültige Überleitungsrechnung führt von den 35.862 € wieder auf die 47.695 € – ein
+  guter Schlusstest für die ganze Textziffernfolge.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.**
+
+  **Zwei Unstimmigkeiten der Quelle – eigene Feststellung:** (1) In der Darstellung nach der
+  Gesamtdifferenzbetrachtung heißt es „Ausgangswert 31.12.2022 = aktive latente Steuern
+  63.500 €“. Gemeint sein kann nur der 31.12.2024, und 63.500 € ist der **End**bestand an
+  **passiven** latenten Steuern; der Ausgangswert beträgt nach dem Sachverhalt 60.000 € aktive
+  latente Steuern. (2) Die Verrechnungsbuchung lautet „Passive latente Steuern 27.500 € an
+  Aktive latente Steuern 27.500 €“ – nach der Auflösung von 36.000 € verbleiben aber
+  **24.000 €** aktive latente Steuern, und nur mit diesem Betrag geht die Rechnung auf:
+  90.000 ./. 2.500 ./. 24.000 = 63.500 €. Beide Angaben sind wortlautgetreu übernommen und im
+  Datensatz kenntlich gemacht.
+
+  **Eine Abweichung bei der Punktvergabe – eigene Feststellung:** Die Überschrift nennt
+  **33 Punkte**, aus dem Text lassen sich **32** Randpunkte auszählen. Im Datensatz sind die
+  32 ausgezählten Punkte vergeben und als Gesamtpunktzahl die 33 der Quelle ausgewiesen. Im
+  Teil I derselben Klausur geht die Auszählung dagegen auf.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „Eine Korrektur
+  in der Buchführung 2023 ist ausreichend“ statt 2025; die Fundstelle „§ 274 Abs. 1a Satz 1
+  und 2 HGB“ statt § 272 Abs. 1a HGB; „§ 274 Abs. 1 Satz 3 EStG“ statt HGB; die abgebrochene
+  Zahl „25. €“ statt 25.000 €; „Sie hierzu Anmerkung nach Tz. 5“ statt „Siehe“; und „Die
+  aufgrund der geänderten Steuerbescheide nachzuzahlenden Gewerbesteuer und Körperschaftsteuer
+  wurde“ im Sachverhalt.

@@ -295,12 +295,12 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB) ist „Bilanzierung nach Handels- und
   Steuerrecht · Steuerberaterprüfungen 2011 – 2015“ (Februar 2026; Verfasser Norbert Rott,
   Markus Schmidt und Alexander Horst) mit fünf Klausuren zu je drei Teilen und 100 Punkten;
-  **begonnen** – eingepflegt ist **Teil I der Prüfung 2011** (Einzelunternehmen Herbst,
-  34 Punkte) im neuen Reiter „Originalklausuren (Prüfung)“ des Bilanzen-Campus,
+  **begonnen** – eingepflegt sind **Teil I** (Einzelunternehmen Herbst, 34 Punkte) und
+  **Teil II** (X-GmbH, 33 Punkte) **der Prüfung 2011** im Reiter „Originalklausuren (Prüfung)“ des Bilanzen-Campus,
   `src/data/k3-bil-originalklausuren.js`. **Wichtig:** Der Connector gibt die Datei nur bis
   in die Lösung der Prüfung 2012 hinein aus (rund 133.000 Zeichen); offen und lesbar sind
-  daraus noch die Teile II und III der Prüfung 2011 sowie die Prüfung 2012 mit Teil I und dem
-  Anfang von Teil II. Der Rest gehört zu den blockierten Teilen in Abschnitt A.
+  daraus noch Teil III der Prüfung 2011 sowie die Prüfung 2012 mit Teil I und dem Anfang von
+  Teil II. Der Rest gehört zu den blockierten Teilen in Abschnitt A.
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
 - Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet
 
