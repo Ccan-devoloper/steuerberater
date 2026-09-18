@@ -135,7 +135,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   aufgezehrt ist, sowie die **Weitergabeverpflichtung** mit dem Begünstigungstransfer des
   § 13a Abs. 5 Satz 3 ErbStG und dem Fall der Teilungsanordnung, in dem der Ausgleich mit
   privatem Grundbesitz von 2.100.000 € nur bis zur Höhe des übertragenen begünstigten
-  Vermögens von 2.000.000 € wirkt.
+  Vermögens von 2.000.000 € wirkt. Dazu die **Lohnsummenregelung** der Tz. 14: 400 % der
+  Ausgangslohnsumme in fünf Jahren, die abgestuften Mindestlohnsummen von 250 % und 300 %
+  bei kleinen Betrieben, der vollständige Verzicht bis fünf Beschäftigte, die
+  verhältnismäßige Kürzung des Verschonungsabschlags bei Unterschreitung (im Beispiel der
+  Quelle von 85 % auf 76,5 %) sowie die genaue Zusammensetzung der Lohnsumme mit den
+  Ausnahmen für Saisonarbeiter, Auszubildende und Leiharbeiter.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den

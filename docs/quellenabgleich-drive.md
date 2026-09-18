@@ -5055,3 +5055,50 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   auszunehmen) und „wenn **der** 85 % **übersteigenden** Anteil“ in der Tz. 12; „des
   begünstigten **Vermögen** des Dritten“, „ihren **verstorben** Vater“ und die
   Betragsangabe „2.000.000“ ohne Währungszeichen in der Tz. 13.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Tz. 14: Lohnsummenregelung
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt II
+  Tz. 14, PDF-Seiten 30 bis 32.
+- Einpflege dieses Durchgangs: ein weiteres Kapitel; der Datensatz umfasst jetzt 8 Teile,
+  19 Kapitel, 251 Blöcke und 26 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Nachgerechnet und bestätigt: Das Beispiel 1 geht auf (85 % × 0,9 = 76,5 %; 10 Mio. € ×
+  76,5 % = 7,65 Mio. €; 2,35 Mio. € steuerpflichtig). Der Bezugspunkt der Kürzung ist die
+  eigentliche Fehlerquelle: Gekürzt wird nicht um die 40 Prozentpunkte der Unterschreitung,
+  sondern um deren Verhältnis zur Mindestlohnsumme – 40/400 = ein Zehntel. Der
+  Verschonungsabschlag sinkt deshalb auf 76,5 % und nicht auf 45 %.
+
+  Redaktioneller Befund: Die **Beispiele 2 und 3 stehen ohne Lösung** und sind nicht
+  aufgelöst. Im Datensatz steht dazu eine **ausdrücklich als eigene gekennzeichnete**
+  Kontrollrechnung nach der Methode des Beispiels 1: Beispiel 2 – Unterschreitung 100 von
+  400 Prozentpunkten, Abschlag 85 % × 0,75 = 63,75 %, von 4.000.000 € bleiben 2.550.000 €
+  steuerfrei; Beispiel 3 – Unterschreitung 140 von 700 Prozentpunkten, Abschlag 100 % ×
+  0,8 = 80 %, es bleiben 3.200.000 € steuerfrei. Die Bezugsgröße von 700 % über sieben
+  Jahre für die Optionsverschonung ist dabei nicht angenommen, sondern an der Tz. 18
+  derselben Quelle geprüft, die sie ausdrücklich nennt.
+
+  Darstellungsentscheidung: Die Quelle nennt als Aufzählung nur die beiden mittleren Stufen
+  der Lohnsummenstaffel (250 % und 300 %). In der Tabelle des Datensatzes stehen zusätzlich
+  die Zeile für bis zu fünf Beschäftigte (keine Prüfung) und die Zeile für mehr als fünfzehn
+  Beschäftigte (400 %); beide geben Aussagen des unmittelbar vorangehenden Absatzes und des
+  Einleitungssatzes derselben Tz. wieder. Das ist im Datensatz vermerkt.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet: „wenn der Betrieb **mit** nicht mehr als 5 Beschäftigten **hat**“; „in
+  **diesem** Fällen“; die Fundstellenform „**A** 13a.9 Abs. 1 S. 6 ErbStR“; „Vergütungen an
+  **Beschäftige**“; die Wortdopplung „direkt **an die an die** Steuerbehörde“; „in die
+  Lohnsummenregelung **einzubeziehen(**§ 13a Abs. 3 S. 11 u. 12 ErbStG)“ ohne Leerzeichen.
+
+  **Ein Normverweis wird doppelt verwendet:** § 13a Abs. 3 Satz 5 ErbStG steht in der Quelle
+  einmal für die Kürzung des Verschonungsabschlags bei Unterschreitung und wenige Absätze
+  später für die Zusammensetzung der Lohnsumme. Nach dem Einleitungssatz derselben Tz.
+  regeln die Sätze 6 bis 13 die Zusammensetzung. Beide Stellen sind wortlautgetreu
+  übernommen und gekennzeichnet.
+
+  Querbezug: Die 25-Prozent-Grenze taucht hier ein viertes Mal auf – als Schwelle, ab der
+  Lohnsummen und Beschäftigtenzahlen einer Beteiligungsgesellschaft anteilig mitzählen.
+  Sie entspricht damit der Grenze des § 13b Abs. 1 Nr. 3 ErbStG (Begünstigungsfähigkeit),
+  des § 13b Abs. 4 Nr. 2 ErbStG (Verwaltungsvermögen) und des § 11 Abs. 3 BewG
+  (Paketzuschlag): Wo eine Beteiligung unternehmerisch ist, zählen auch ihre Arbeitsplätze.

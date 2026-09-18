@@ -203,9 +203,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Finanzmitteltests) sowie die Tz. 5 bis 8 (Altersversorgungsverpflichtungen,
   Investitionsklausel, Nettowert und unschädliches Verwaltungsvermögen) sowie die Tz. 9 und
   10 (Einschränkung der Schuldensaldierung und Verbundvermögensaufstellung) sowie die
-  Tz. 11 bis 13 (Regelverschonung, Abzugsbetrag, Weitergabeverpflichtung). Offen sind die
-  Tz. 14 bis 18 des Abschnitts II
-  (Lohnsummen- und Behaltensregelung, Familienunternehmen, Anzeigepflicht,
+  Tz. 11 bis 14 (Regelverschonung, Abzugsbetrag, Weitergabeverpflichtung,
+  Lohnsummenregelung). Offen sind die Tz. 15 bis 18 des Abschnitts II
+  (Behaltensregelung, Familienunternehmen, Anzeigepflicht,
   Optionsverschonung), die Abschnitte III bis VI (Großerwerbe über 26 Mio. €, § 13d ErbStG,
   Steuerberechnung mit Steuerklassen, Freibeträgen, Steuersätzen, Tarifbegrenzung und
   früheren Erwerben, Steuerfestsetzung und Erhebung) sowie die Lösungsdatei
