@@ -10620,6 +10620,67 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil II (Hamacher), Abschnitte 4.2.4 bis 4.2.7 – Bürgschaft, Wertaufholung, vergleichbare Forderungen
+
+Quelle: dieselbe Datei, Seiten 51 bis 54; übernommen als Kapitel 33 bis 35. Prüfung:
+`npm run check:k2-kst-teil2` (35 Kapitel, 440 Blöcke, 29 Tabellen).
+
+**Der rückgriffsberechtigte Dritte** (4.2.4) ist die konstruktiv interessanteste Figur des
+Kapitels, weil die Vorschrift hier über zwei Ecken greift. Der Gesellschafter gibt gar kein
+Darlehen – er bürgt nur. Erst wenn die Bürgschaft gezogen wird, entsteht bei ihm ein
+Rückgewähranspruch gegen die eigene Gesellschaft, und genau dessen Abschreibung ist die
+Gewinnminderung des § 8b Abs. 3 Satz 4 KStG. Wirtschaftlich ist das folgerichtig: Wer für ein
+Bankdarlehen bürgt, ersetzt die Eigenkapitalzuführung ebenso wie derjenige, der das Darlehen
+selbst hingibt. Dass die Quelle den Rückgriffstatbestand ausdrücklich **weit** auslegt und schon
+eine **faktische** Möglichkeit genügen lässt – Patronatserklärung, bloßer Konzernrückhalt –,
+erweitert den Anwendungsbereich erheblich; der Datensatz hält das als eigene Ergänzung fest. Die
+Tabelle ordnet die drei Beteiligten des Beispiels: Bei der V-Bank greift § 8b KStG nicht, weil ihr
+Anspruch befriedigt ist; bei der A-GmbH werden die 800.000 € hinzugerechnet; die B-GmbH führt zum
+folgenden Abschnitt.
+
+**Die fehlende Korrespondenz** (4.2.5) ist eine der unangenehmsten Stellen des ganzen § 8b KStG
+und im Datensatz eigens hervorgehoben: Derselbe Vorgang wird zweimal besteuert – beim
+Gesellschafter ist der Aufwand nicht abziehbar, beim Darlehensnehmer ist der Wegfall der
+Verbindlichkeit steuerpflichtiger Ertrag. Anders als beim materiellen Korrespondenzprinzip des
+§ 8b Abs. 1 Satz 2 KStG aus Kapitel 2 fehlt jede Verknüpfung der Ebenen. Der Gesetzgeber hat das
+gesehen und verweist auf den **Billigkeitserlass** – eine Ermessensentscheidung, kein
+Rechtsanspruch.
+
+**Die Wertaufholung** (4.2.6) stellt die Symmetrie wieder her, die § 8b KStG durchzieht: Was nicht
+abgezogen werden durfte, muss bei seiner Rückgängigmachung nicht versteuert werden. Der Datensatz
+rechnet den Besserungsschein-Fall über beide Jahre durch – Hinzurechnung 2026 und Abzug 2028 mit
+je 1.000.000 €, Saldo null – und macht die Bedingung des Wortlauts sichtbar: Satz 9 greift nur,
+**soweit** die frühere Gewinnminderung tatsächlich nach Satz 4 hinzugerechnet worden ist. Als
+eigene Ergänzung ist die vorrangige Prüfung der **verdeckten Einlage** vermerkt: Der Verzicht auf
+ein Gesellschafterdarlehen ist Einlage nur in Höhe des werthaltigen Teils; war die Forderung
+wertlos, ist der Teilwert 0 € und es bleibt bei Satz 4.
+
+**Die vergleichbaren Sachverhalte** (4.2.7) bringen den tragenden Gedanken des gesamten
+Abzugsverbots auf den Punkt, und der Datensatz stellt ihn heraus, weil er die naheliegende
+Gegenargumentation abschneidet. Man könnte einwenden: Die Warenlieferung über 10.000.000 € war ein
+normales Umsatzgeschäft und voll versteuert – warum soll der Ausfall dann nicht abziehbar sein?
+Die Quelle trennt die Vorgänge: Die Lieferung ist das eine, die Entscheidung, den Kaufpreis zu
+stunden statt ihn einzufordern, das andere. Diese abtrennbare **Finanzierungsentscheidung** ist
+gesellschaftsrechtlich veranlasst – und nur sie erfasst § 8b Abs. 3 Satz 8 KStG. Eine Tabelle
+ordnet die vier Forderungsarten, die die Quelle nennt, samt der verneinenden Auffassung zur
+Zinsforderung; diese ist die Kehrseite des Streitstandes aus Abschnitt 4.2.5, wo offengelassen
+wird, ob Satz 4 den Zinsausfall erfasst.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „da der Darlehensgeber (Dritter) **ein** gegenüber dem Alleingesellschafter A-GmbH
+  rückgriffsberechtigt ist“ – überzähliges Wort in der Lösung zum Bürgschaftsfall.
+- „In diesem Fall kann **ein Steuererlasses** aus Billigkeitsgründen erfolgen“ – Kasusfehler in
+  Abschnitt 4.2.5.
+
+**Eigene Herleitung, als solche gekennzeichnet:** Die Teilwertabschreibung im Beispiel zu 4.2.7
+beträgt 10.000.000 € ./. 4.000.000 € = **6.000.000 €**; genau dieser Betrag ist hinzuzurechnen.
+Die Quelle beziffert ihn nicht ausdrücklich, sondern nennt nur die beiden Ausgangswerte.
+
+**Noch offen nach dieser Runde:** aus Teil II der Gegenbeweis (4.2.8), die Wechselkursverluste
+(4.2.9), die Gewerbesteuer (4.3) sowie die Kapitel 5 und 6; ganz offen sind die Skriptteile III
+bis VII.
+
 ### KSt Teil II (Hamacher), Abschnitt 4.2.3 – nahe stehende Person als Darlehensgeber
 
 Quelle: dieselbe Datei, Seiten 48 bis 50; übernommen als Kapitel 32, dazu der Schluss des

@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 32 Kapitel mit 404 Abschnitten und 26
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 35 Kapitel mit 440 Abschnitten und 29
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2603,6 +2603,31 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   qualifiziert beteiligte Anteilseigner auch eine natürliche Person oder Personengesellschaft sein
   kann, bejaht die Finanzverwaltung in bundeseinheitlicher Abstimmung; die Frage ist beim BFH unter
   I R 11/24 anhängig.
+  Beim **rückgriffsberechtigten Dritten** greift die Vorschrift über zwei Ecken: Der Gesellschafter
+  gibt gar kein Darlehen, er bürgt nur – erst wenn die Bürgschaft gezogen wird, entsteht der
+  Rückgewähranspruch gegen die eigene Gesellschaft, und dessen Abschreibung ist die Gewinnminderung
+  i. S. des § 8b Abs. 3 Satz 4 KStG. Der Rückgriffstatbestand ist dabei **weit** auszulegen: Eine
+  vertragliche Regelung ist nicht erforderlich, schon eine **faktische** Rückgriffsmöglichkeit
+  genügt – Patronatserklärung oder bloßer Konzernrückhalt reichen aus. Beim ursprünglichen
+  Darlehensgeber greift § 8b KStG dagegen nicht, weil sein Anspruch durch den Rückgriff bereits
+  befriedigt ist. Die **Nichtabziehbarkeit** wirkt nur beim Darlehensgeber: § 8b Abs. 3 Satz 4 KStG
+  sieht **keine** korrespondierende Behandlung beim Darlehensnehmer vor, dessen Wegfall des
+  Passivpostens steuerpflichtiger Ertrag bleibt – derselbe Vorgang wird also zweimal besteuert, und
+  der Gesetzgeber verweist dafür lediglich auf einen Billigkeitserlass, der Ermessensentscheidung
+  und kein Rechtsanspruch ist. Erholt sich das Darlehen später wieder, stellt § 8b Abs. 3 Satz 9
+  KStG die Symmetrie her: Im Besserungsfall ist der Ertrag bei der Einkommensermittlung wieder
+  abzuziehen, soweit der Aufwand zuvor hinzugerechnet worden ist – im Beispiel heben sich
+  Hinzurechnung 2026 und Abzug 2028 mit je 1.000.000 € auf. Vorrangig zu prüfen bleibt dabei stets,
+  ob der Verzicht nicht in Höhe des werthaltigen Teils eine verdeckte Einlage ist; war die Forderung
+  wertlos, ist der Teilwert 0 € und es bleibt bei Satz 4. Über **§ 8b Abs. 3 Satz 8 KStG** erfasst
+  die Vorschrift schließlich auch sonstige Forderungen, die einer Darlehensgewährung wirtschaftlich
+  vergleichbar sind – Pacht, Lizenzen, Lieferungen und Leistungen –, wobei schon das bloße
+  **Stehenlassen** über einen längeren Zeitraum genügt. Nicht erfasst ist nach Auffassung der Quelle
+  die neben der Darlehensforderung bestehende **Zinsforderung**, weil ihr Wegfall nur den vorher
+  versteuerten Zinsertrag ausgleicht. Der tragende Gedanke schneidet die naheliegende
+  Gegenargumentation ab: Dass das Grundgeschäft voll gewinnwirksam war, ist unerheblich, weil der
+  Anteilseigner mit der Stundung eine davon **abtrennbare Finanzierungsentscheidung** trifft – und
+  nur diese ist gesellschaftsrechtlich veranlasst.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

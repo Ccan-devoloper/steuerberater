@@ -21,9 +21,11 @@
    Gewinnminderungen) ist der Abschnitt 4.1 (Begriff der Gewinnminderung)
    übernommen, dazu der Tatbestand der Darlehensregelung und die Ermittlung der
    qualifizierten Beteiligung samt Personengesellschaftsfällen, dem Zeitpunkt
-   der Beteiligung und der nahestehenden Person als Darlehensgeber (4.2.1 bis
-   4.2.3.2). Es folgen die Abschnitte ab 4.2.4 sowie die Kapitel 5 und 6; der
-   Campus weist den Stand aus.
+   der Beteiligung, der nahestehenden Person und dem rückgriffsberechtigten
+   Dritten als Darlehensgeber bis hin zur Wertaufholung und den wirtschaftlich
+   vergleichbaren Forderungen (4.2.1 bis 4.2.7). Es folgen der Gegenbeweis
+   (4.2.8), die Wechselkursverluste (4.2.9), die Gewerbesteuer (4.3) sowie die
+   Kapitel 5 und 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -1256,6 +1258,117 @@ export const kstTeil2 = [
       { text: "Rechenproben (eigene Ergänzung): Im ersten Beispiel beträgt die mittelbare Beteiligung der A-GmbH an der C-GmbH 25 % × 40 % = 10 %; das liegt unter der Grenze von mehr als 25 %, weshalb Satz 4 allein nicht greift. Erst Satz 5 führt zum Abzugsverbot. Im dritten Beispiel wird gar keine durchgerechnete Quote gebildet – die mittelbare Beteiligung der C-GmbH an der X-GmbH beträgt 0 %, weil zwischen ihnen überhaupt keine Beteiligungskette besteht; getragen wird das Ergebnis allein von der gemeinsamen Beteiligung der A-GmbH von jeweils 25 %. Alle Zahlen der Quelle gehen auf." },
       { text: "Anmerkung zum Vorrang der verdeckten Gewinnausschüttung (eigene Ergänzung): Die Quelle stellt in beiden Unterabschnitten denselben Vorbehalt auf – § 8 Abs. 3 Satz 2 KStG geht § 8b Abs. 3 KStG vor. Praktisch bedeutet das: Wo ein Darlehen zwischen Schwestergesellschaften ohne Sicherheiten und ohne fremdüblichen Zins gewährt wird, ist zuerst zu fragen, ob die Vermögensminderung nicht schon als verdeckte Gewinnausschüttung an eine dem gemeinsamen Gesellschafter nahe stehende Person zu korrigieren ist. Der Unterschied ist kein bloß dogmatischer: Die verdeckte Gewinnausschüttung löst auch beim Anteilseigner und beim Darlehensnehmer Folgen aus (Bezug nach § 8b Abs. 1 KStG, Einlage bei der Empfängerin), während § 8b Abs. 3 Satz 4 KStG allein die Ebene des Darlehensgebers betrifft. Genau deshalb konnte der BFH 2018 die Frage des up-stream-Darlehens offenlassen." },
       { text: "Anmerkung zum Streitstand (eigene Ergänzung): Zweimal weist die Quelle auf das anhängige Verfahren I R 11/24 hin, und beide Male geht es um dieselbe Frage – ob der qualifiziert beteiligte Anteilseigner, an den das Nahestehen anknüpft, auch eine natürliche Person oder eine Personengesellschaft sein kann. Die Finanzverwaltung bejaht das in bundeseinheitlicher Abstimmung. Bis zur Entscheidung des BFH ist in der Klausur der Verwaltungsauffassung zu folgen; ein Hinweis auf die Anhängigkeit ist die sichere Formulierung." },
+    ],
+  },
+  {
+    id: "kst-t2-33",
+    kapitel: "33",
+    abschnittNr: "4.2.4",
+    title: "4.2.4 Rückgriffsberechtigter Dritter als Darlehensgeber – der Bürgschaftsfall",
+    thema: "Sichert der qualifiziert beteiligte Gesellschafter das Darlehen eines Dritten ab, trifft ihn das Abzugsverbot über den Rückgewähranspruch. Der Rückgriffstatbestand ist weit auszulegen – schon eine faktische Rückgriffsmöglichkeit genügt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 4.2.4 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 3 Satz 5 KStG",
+      "§ 8b Abs. 3 Satz 4 KStG",
+      "§ 1 Abs. 2 AStG",
+    ],
+    themen: ["Rückgriffsberechtigter Dritter", "Bürgschaft", "Patronatserklärung", "Konzernrückhalt", "Rückgewähranspruch"],
+    bloecke: [
+      { text: "§ 8b Abs. 3 Satz 5 KStG kann ebenfalls zur Anwendung kommen, wenn der Darlehensgeber ein rückgriffsberechtigter Dritter ist, der auf den zu mehr als 25 % beteiligten Gesellschafter oder eine diesem nahe stehende Person (i.S. des § 1 Abs. 2 AStG) zurückgreifen kann. Aufgrund dieses Rückgriffsanspruchs entsteht diesem Anteilseigner bei Eintritt des Rückgriffsfalles wiederum ein Anspruch gegenüber seiner Gesellschaft, welcher aber in aller Regel wertlos sein dürfte." },
+      { text: "Kommt es daher beim qualifizierten Gesellschafter zu einer Gewinnminderung, z.B. weil dieser seinen Anspruch gegenüber seiner Gesellschaft abschreiben muss, unterliegt dieser Vorgang ebenfalls § 8b Abs. 3 Satz 4 KStG. Beim ursprünglichen Darlehensgeber liegt hingegen kein Anwendungsfall des § 8b KStG vor, weil dieser aufgrund des Rückgriffs seinen Darlehensanspruch bereits befriedigt hat." },
+      { text: "Hauptanwendungsfall dieser Regelung dürfte der Bürgschaftsfall sein, bei welchem der Anteilseigner das Darlehen absichert. Für Zwecke des § 8b Abs. 3 Satz 5 KStG ist der Rückgriffstatbestand aber weit auszulegen. Danach ist in aller Regel eine vertragliche Rückgriffsregelung (z.B. Bürgschaft) nicht erforderlich, so dass hierfür bereits eine faktische Rückgriffsmöglichkeit ausreicht (z.B. durch Patronatserklärung oder Konzernrückhalt)." },
+      { text: "Merke: Insbesondere in Bürgschaftsfällen, durch die ein qualifiziert beteiligter Gesellschafter die Darlehensgewährung eines Dritten zugunsten seiner Gesellschaft absichert, liegt auch ein Anwendungsfall des § 8b Abs. 3 Satz 4 und Satz 5 KStG vor. Dadurch kann der Rückgewährsanspruch gegenüber der darlehensnehmenden Gesellschaft nicht steuerwirksam geltend gemacht werden." },
+      { text: "Beispiel: Die V-Bank gibt der B-GmbH ein Darlehen von 1.000.000 €. Die Alleingesellschafterin der B-GmbH (die A-GmbH) sichert das Darlehen durch eine Bürgschaft ab." },
+      { text: "In 2026 wird die B-GmbH zahlungsunfähig, so dass die A-GmbH von der V-Bank i.H.v. 800.000 € in Anspruch genommen wird. Der Rückgewähranspruch gegen die B-GmbH von 800.000 € ist wertlos und wird bei der A-GmbH abgeschrieben." },
+      { text: "Lösung: Der Aufwand aus der Bürgschaftsforderung der A-GmbH gegenüber der B-GmbH fällt unter § 8b Abs. 3 Satz 4 KStG, da der Darlehensgeber (Dritter) ein gegenüber dem Alleingesellschafter A-GmbH rückgriffsberechtigt ist (§ 8b Abs. 3 Satz 5 KStG). (Das überzählige „ein“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Beteiligter", "Vorgang", "Steuerliche Behandlung", "Grund"], zeilen: [
+        ["V-Bank (ursprünglicher Darlehensgeber)", "erhält 800.000 € aus der Bürgschaft", "kein Anwendungsfall des § 8b KStG", "der Darlehensanspruch ist durch den Rückgriff bereits befriedigt"],
+        ["A-GmbH (bürgende Alleingesellschafterin)", "schreibt den wertlosen Rückgewähranspruch von 800.000 € ab", "Hinzurechnung nach § 8b Abs. 3 Satz 4 und 5 KStG", "sie ist qualifiziert beteiligt, die Bank ist ihr gegenüber rückgriffsberechtigt"],
+        ["B-GmbH (Darlehensnehmerin)", "Wegfall der Verbindlichkeit", "in Abschnitt 4.2.5 behandelt", "§ 8b Abs. 3 Satz 4 KStG sieht keine korrespondierende Behandlung vor"],
+      ] },
+      { text: "Anmerkung zur Reichweite (eigene Ergänzung): Die Vorschrift greift hier über zwei Ecken, und das macht sie so gefährlich. Der Gesellschafter gibt gar kein Darlehen – er bürgt nur. Erst wenn die Bürgschaft gezogen wird, entsteht bei ihm ein Rückgewähranspruch gegen die eigene Gesellschaft, und genau dessen Abschreibung ist die Gewinnminderung, die § 8b Abs. 3 Satz 4 KStG erfasst. Wirtschaftlich ist das folgerichtig: Wer für ein Bankdarlehen bürgt, ersetzt damit die Eigenkapitalzuführung ebenso wie derjenige, der das Darlehen selbst hingibt. Dass die Quelle den Rückgriffstatbestand ausdrücklich **weit** auslegt und schon eine **faktische** Möglichkeit genügen lässt, erweitert das erheblich: Ein bloßer **Konzernrückhalt** – also die im Konzern übliche Erwartung, dass die Mutter einspringt – kann ausreichen, ohne dass irgendein Vertrag geschlossen wurde." },
+      { text: "Rechenprobe (eigene Ergänzung): Von den 1.000.000 € Darlehen wird die A-GmbH nur mit 800.000 € in Anspruch genommen; genau dieser Betrag wird zum Rückgewähranspruch und genau dieser Betrag ist nach der Abschreibung hinzuzurechnen. Die restlichen 200.000 € bleiben Verlust der V-Bank und sind steuerlich deren Sache – bei ihr greift § 8b KStG nicht." },
+    ],
+  },
+  {
+    id: "kst-t2-34",
+    kapitel: "34",
+    abschnittNr: "4.2.5 und 4.2.6",
+    title: "4.2.5 Nichtabziehbarkeit der Gewinnminderung · 4.2.6 Besonderheit bei Wertaufholung",
+    thema: "Die Hinzurechnung erfolgt außerbilanziell und nur beim Darlehensgeber – beim Darlehensnehmer bleibt der Wegfall der Verbindlichkeit steuerpflichtig. Erholt sich das Darlehen später wieder, bleibt die Gewinnerhöhung nach § 8b Abs. 3 Satz 9 KStG außer Ansatz",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 4.2.5 und 4.2.6 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 3 Satz 4 und 5 KStG",
+      "§ 8b Abs. 3 Satz 9 KStG",
+      "§ 6 Abs. 1 Nr. 2 Satz 3 EStG",
+      "BT-Drs. 16/6290, S. 73",
+      "BMF vom 27.03.2003, BStBl. I 2003, 240",
+      "BFH vom 12.03.2014, Rz. 13",
+      "BFH, anhängiges Verfahren Az. I R 11/24",
+    ],
+    themen: ["Außerbilanzielle Hinzurechnung", "Keine Korrespondenz beim Darlehensnehmer", "Billigkeitserlass", "Zinsforderung", "Besserungsschein"],
+    bloecke: [
+      { text: "§ 8b Abs. 3 Satz 4 f. KStG führt dazu, dass die aus der Darlehensforderung resultierende substanzbezogene Gewinnminderung außerbilanziell wieder hinzuzurechnen ist. § 8b Abs. 3 Satz 4 KStG sieht aber keine korrespondierende Vorgehensweise beim Darlehensnehmer vor. Der Wegfall des Passivpostens beim Darlehensnehmer führt danach zu einer steuerpflichtigen Gewinnerhöhung. In diesem Fall kann ein Steuererlasses aus Billigkeitsgründen erfolgen. (Die Form „ein Steuererlasses“ steht so in der Quelle.)" },
+      { text: "Ob § 8b Abs. 3 Satz 4 KStG auch den Ausfall der mit der Darlehensforderung zusammenhängenden Zinsforderung erfasst, ist derzeit umstritten." },
+      { text: "Anmerkung zur fehlenden Korrespondenz (eigene Ergänzung): Das ist eine der unangenehmsten Stellen des ganzen § 8b KStG. Fällt ein Gesellschafterdarlehen aus, wird derselbe Vorgang zweimal besteuert: Beim Gesellschafter ist der Aufwand nicht abziehbar, beim Darlehensnehmer ist der Wegfall der Verbindlichkeit ein steuerpflichtiger Ertrag. Anders als beim Korrespondenzprinzip des § 8b Abs. 1 Satz 2 KStG aus Kapitel 2 – das die Ebenen ausdrücklich verknüpft – fehlt hier jede Verknüpfung. Der Gesetzgeber hat das in der Begründung gesehen und verweist auf den **Billigkeitserlass**; das ist aber eine Ermessensentscheidung des Finanzamts und kein Rechtsanspruch. In der Klausur ist die Doppelbelastung deshalb auszuweisen und der Erlass nur als Möglichkeit zu erwähnen." },
+      { typ: "titel", text: "4.2.6 Besonderheit bei Wertaufholung" },
+      { text: "§ 8b Abs. 3 Satz 9 KStG erfasst die spätere Werterholung des Darlehens i.S. des § 6 Abs. 1 Nr. 2 Satz 3 EStG oder des wirtschaftlich vergleichbaren Anspruchs. Die damit zusammenhängende Gewinnerhöhung bleibt im Rahmen der Einkommensermittlung unberücksichtigt, wenn die vorangegangene Gewinnminderung bereits nach § 8b Abs. 3 Satz 4 KStG vom Abzug ausgeschlossen war." },
+      { text: "Beispiel: Die A-GmbH gibt ihrer Tochtergesellschaft B-GmbH am 01.03.2008 ein Darlehen von 1.000.000 €. Laut Darlehensvertrag ist das Darlehen normalverzinslich. Ein Beweis über die Fremdüblichkeit des Darlehens kann nicht geführt werden." },
+      { text: "Zum 31.12.2026 verzichtet die A-GmbH auf das Darlehen unter Besserungsschein. Im Zeitpunkt des Verzichtes war das Darlehen wertlos. In 2028 lebt der Darlehensanspruch aufgrund des Eintritts des Besserungsfalles wieder auf." },
+      { text: "Lösung: Der Darlehensverzicht gegen Besserungsschein führt bei der A-GmbH zur gewinnwirksamen Ausbuchung der Gesellschafterforderung. Der daraus resultierende Aufwand von 1.000.000 € ist als Gewinnminderung i.S. des § 8b Abs. 3 Satz 4 KStG dem Einkommen wieder hinzuzurechnen. Die Annahme einer verdeckten Einlage scheidet aus, da das Darlehen zum Zeitpunkt des Verzichtes bereits wertlos war und der Teilwert damit 0 € beträgt." },
+      { text: "Beim Eintritt des Besserungsfalles in 2028 lebt das Darlehen auch zivilrechtlich wieder auf. Daher muss die A-GmbH die Darlehensforderung wieder ausweisen. Dies führt bei ihr zur Entstehung eines Ertrags von 1.000.000 €. Dieser Ertrag ist entsprechend § 8b Abs. 3 Satz 9 KStG bei der Einkommensermittlung wieder abzuziehen." },
+      { typ: "tabelle", spalten: ["Zeitpunkt", "Vorgang bei der A-GmbH", "Bilanzieller Erfolg", "Außerbilanzielle Korrektur", "Rechtsgrundlage"], zeilen: [
+        ["31.12.2026", "Verzicht gegen Besserungsschein, Ausbuchung der wertlosen Forderung", "Aufwand 1.000.000 €", "Hinzurechnung + 1.000.000 €", "§ 8b Abs. 3 Satz 4 KStG"],
+        ["2028", "Eintritt des Besserungsfalles, Wiedereinbuchung der Forderung", "Ertrag 1.000.000 €", "Abzug ./. 1.000.000 €", "§ 8b Abs. 3 Satz 9 KStG"],
+        ["Saldo über beide Jahre", "—", "0 €", "0 €", "die Symmetrie der Vorschrift"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Satz 9 ist das genaue Gegenstück zu Satz 4 und folgt derselben Symmetrie wie die Wertaufholung des Absatzes 2 aus Kapitel 3: Was steuerlich nicht abgezogen werden durfte, muss bei seiner Rückgängigmachung auch nicht versteuert werden. Wichtig ist die Bedingung im Wortlaut – der Abzug greift nur, **soweit** die frühere Gewinnminderung tatsächlich nach Satz 4 hinzugerechnet worden ist. Hätte die A-GmbH den Gegenbeweis nach Satz 7 führen können, wäre der Aufwand 2026 abziehbar gewesen und der Ertrag 2028 wäre dann folgerichtig steuerpflichtig." },
+      { text: "Anmerkung zur verdeckten Einlage (eigene Ergänzung): Die Lösung enthält eine Abgrenzung, die in der Klausur zuerst zu prüfen ist. Der Verzicht auf ein Gesellschafterdarlehen ist grundsätzlich eine verdeckte Einlage – aber nur **in Höhe des werthaltigen Teils**. War die Forderung im Zeitpunkt des Verzichts wertlos, beträgt der Teilwert 0 €, es gibt keine Einlage, und der gesamte Aufwand ist Gewinnminderung i.S. des Satzes 4. Wäre das Darlehen dagegen noch zur Hälfte werthaltig gewesen, wäre insoweit eine verdeckte Einlage anzunehmen (Erhöhung der Anschaffungskosten der Beteiligung) und nur der wertlose Rest fiele unter Satz 4. Der Zusammenhang zum Besserungsschein aus Teil I ist derselbe: Dort wurde der Vorgang aus Sicht der **Gesellschaft** betrachtet, hier aus Sicht des **Gesellschafters**." },
+    ],
+  },
+  {
+    id: "kst-t2-35",
+    kapitel: "35",
+    abschnittNr: "4.2.7",
+    title: "4.2.7 Anwendung bei vergleichbaren Sachverhalten – § 8b Abs. 3 Satz 8 KStG",
+    thema: "Auch sonstige Forderungen, die einer Darlehensgewährung wirtschaftlich vergleichbar sind, fallen unter das Abzugsverbot – Pacht, Lizenzen, Lieferungen und Leistungen. Entscheidend ist die Finanzierungsentscheidung, nicht das Grundgeschäft",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 4.2.7 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 3 Satz 8 KStG",
+      "§ 8b Abs. 3 Satz 4 und 5 KStG",
+      "§ 8b Abs. 3 Satz 7 KStG",
+      "BFH vom 15.05.2018, I B 114/17",
+      "BFH vom 24.04.2024, BStBl. II 2024, 785",
+      "BFH vom 24.04.2024, BStBl. II 2024, 790",
+      "FG Münster vom 19.12.2017, 10 K 3556/13 K,F",
+    ],
+    themen: ["Wirtschaftlich vergleichbare Forderung", "Sachdarlehen", "Stehenlassen", "Stand-alone-Betrachtung", "Finanzierungsentscheidung"],
+    bloecke: [
+      { text: "Nach § 8b Abs. 3 Satz 8 KStG gelten diese Einschränkungen auch in den Fällen, in denen die entsprechende (sonstige) Forderung einer Darlehensgewährung wirtschaftlich vergleichbar ist. Hierzu zählen z.B. Forderungen aus Nutzungsüberlassungen (Pacht, Lizenzen) oder aus Lieferungen und Leistungen. Entscheidend ist hierfür m.E., dass dieser Anspruch nicht nur mit finanzierungsgleichen Aspekten ausgestaltet ist, d.h. dass der Forderungsinhaber die Begleichung des ihm zustehenden Anspruchs zeitlich hinausschiebt oder entsprechende Zahlungsregeln vorschreibt (z.B. auch Zinsregel, Ratenzahlung, Laufzeit etc). Sondern dafür dürfte auch das bloße Stehenlassen des Anspruchs über einen längeren Zeitraum ausreichend sein." },
+      { text: "Der plötzliche Ausfall einer solchen Forderung, deren Begleichung ursprünglich zeitnah vorgesehen war, dürfte m.E. auch unter den Anwendungsbereich der Vorschrift fallen, wenn im Zeitpunkt der Lieferung die Krise der Gesellschaft bereits eingetreten war und fremde Dritte bereits keine Leistungsbeziehungen mit der Gesellschaft mehr eingegangen wären." },
+      { text: "Daraus wird deutlich, dass der Gesetzgeber auch sog. Sachdarlehen in den Anwendungsbereich dieser Norm einbeziehen möchte. Darunter fallen m.E. aber nicht die Gewinnminderungen aus einer neben der Darlehensforderung bestehenden Zinsforderung. Der gewinnwirksame Wegfall der Zinsforderung gleicht den vorherigen Zinsertrag aus." },
+      { text: "Auch in diesem Fall kann der Inhaber der Forderung grundsätzlich einen Gegenbeweis i.S. des § 8b Abs. 3 Satz 7 KStG führen. Dieser dürfte in aller Regel aber dann bereits unmöglich sein, wenn der Anteilseigner die übrigen Darlehensverbindlichkeiten seiner Gesellschaft bereits abgesichert hat und damit die „stand-alone-Betrachtung“ scheitert oder die eigenen Sicherheiten seiner Gesellschaft bereits für sämtliche Darlehensverbindlichkeiten „aufgebraucht“ sind und damit der Forderungsanspruch des Gesellschafters faktisch ungesichert wäre." },
+      { text: "Merke: Auch auf die Gewinnminderung einer sonstigen Forderung, die einer Darlehensgewährung wirtschaftlich vergleichbar ist, greift die Einschränkung des § 8b Abs. 3 Satz 4 bzw. Satz 5 KStG." },
+      { text: "Beispiel: Die A-GmbH ist Alleingesellschafterin der B-GmbH. In 2021 liefert sie ihrer Tochtergesellschaft Waren im Wert von 10.000.000 €, deren Kaufpreis aufgrund einer wirtschaftlichen Schieflage der B-GmbH erst ab 2025 ratenweise geleistet werden soll." },
+      { text: "Zum 31.12.2026 muss die A-GmbH auf ihre Kaufpreisforderung eine Teilwertabschreibung auf 4.000.000 € vornehmen." },
+      { text: "Lösung: Die Teilwertabschreibung der Kaufpreisforderung stellt eine Gewinnminderung i.S. des § 8b Abs. 3 Satz 4 KStG dar, da Satz 8 auf einer Darlehensgewährung wirtschaftlich vergleichbare Gestaltungen verweist. Dabei dürfte allerdings entscheidend sein, dass die sonstige Forderung auch von der Ausgestaltung her mit einem (Geld)Darlehen vergleichbar ist. Dies dürfte vorliegend zu bejahen sein, da der Kaufpreisanspruch zeitlich gestreckt worden ist, was dem Wesensgehalt eines Darlehens entspricht. Im Vordergrund dürfte daher nicht die Lieferung der Waren stehen, sondern dass der Anteilseigner aus gesellschaftsrechtlichen Gründen auf die Finanzlage der B-GmbH Rücksicht genommen hat." },
+      { text: "Dass der Sachverhalt, der der Forderung zugrunde gelegen hat, vollständig gewinnwirksam gewesen ist, ist für die Nichtabziehbarkeit der Gewinnminderung unerheblich. Denn mit der Entscheidung, der B-GmbH den Kaufpreisanspruch zu stunden bzw. darlehensweise zur Verfügung zu stellen, trifft der Anteilseigner eine von dem bisherigen Rechtsgeschäft abzutrennende Finanzierungsentscheidung. Diese ist gesellschaftsrechtlich veranlasst, wenn nicht erfolgreich der sog. Gegenbeweis geführt wird." },
+      { typ: "tabelle", spalten: ["Forderung", "Vergleichbar mit einem Darlehen?", "Begründung der Quelle"], zeilen: [
+        ["Pacht- und Lizenzforderung, deren Begleichung hinausgeschoben wird", "ja", "finanzierungsgleiche Ausgestaltung – Zahlungsregeln, Zinsregel, Ratenzahlung, Laufzeit"],
+        ["Forderung aus Lieferungen und Leistungen, über längere Zeit stehen gelassen", "ja", "schon das bloße Stehenlassen über einen längeren Zeitraum genügt"],
+        ["zeitnah fällige Forderung, die plötzlich ausfällt", "nach Auffassung der Quelle ja, wenn bei Lieferung die Krise schon eingetreten war", "fremde Dritte wären keine Leistungsbeziehung mehr eingegangen"],
+        ["Zinsforderung neben der Darlehensforderung", "nach Auffassung der Quelle nein", "der gewinnwirksame Wegfall gleicht den vorherigen Zinsertrag aus"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die vierte Zeile ist die Kehrseite des Streitstandes aus Abschnitt 4.2.5 – dort war offen, ob Satz 4 den Ausfall der Zinsforderung erfasst, hier begründet die Quelle ihre verneinende Auffassung. Das Argument überzeugt wirtschaftlich: Der Zins wurde vorher als Ertrag versteuert, sein Wegfall gleicht das nur aus; eine Substanzminderung des eingesetzten Kapitals liegt darin nicht. Sicher ist die Frage aber nicht, und die Quelle verweist auch hier auf das anhängige BFH-Verfahren." },
+      { text: "Anmerkung zur Finanzierungsentscheidung (eigene Ergänzung): Der tragende Gedanke des Abschnitts steht im letzten Absatz der Lösung und ist prüfungsrelevant, weil er die naheliegende Gegenargumentation abschneidet. Man könnte einwenden: Die Warenlieferung war ein ganz normales Umsatzgeschäft, der Ertrag von 10.000.000 € ist voll versteuert worden – warum soll der Ausfall dann nicht abziehbar sein? Die Antwort der Quelle trennt die beiden Vorgänge: Die Lieferung ist das eine, die Entscheidung, den Kaufpreis zu stunden statt ihn einzufordern, das andere. Diese zweite, abtrennbare **Finanzierungsentscheidung** ist gesellschaftsrechtlich veranlasst – und nur sie wird von § 8b Abs. 3 Satz 8 KStG erfasst." },
+      { text: "Anmerkung zur „stand-alone-Betrachtung“ (eigene Ergänzung): Der Begriff taucht hier zum ersten Mal auf und wird erst im folgenden Abschnitt zum Gegenbeweis entfaltet. Gemeint ist die Frage, ob die Gesellschaft das Kapital **allein aus eigener Kraft** – ohne jede Hilfe des Gesellschafters – auch von einem fremden Dritten bekommen hätte. Die Quelle nennt zwei Konstellationen, in denen diese Betrachtung von vornherein scheitert: wenn der Anteilseigner die übrigen Darlehen bereits abgesichert hat, und wenn die eigenen Sicherheiten der Gesellschaft schon vollständig aufgebraucht sind. In beiden Fällen ist der Anspruch des Gesellschafters faktisch ungesichert, und der Gegenbeweis ist praktisch nicht mehr zu führen." },
+      { text: "Rechenprobe (eigene Ergänzung): Die Teilwertabschreibung beträgt 10.000.000 € ./. 4.000.000 € = 6.000.000 €; genau dieser Betrag ist dem Einkommen der A-GmbH außerbilanziell wieder hinzuzurechnen. Die Quelle beziffert ihn nicht ausdrücklich – die Zahl ist hier eigene Herleitung aus den beiden genannten Werten." },
     ],
   },
 ];
