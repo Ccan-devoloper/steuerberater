@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 34 Kapitel mit 549 Abschnitten und
-  20 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 36 Kapitel mit 594 Abschnitten und
+  24 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.5 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.6.1 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2510,7 +2510,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   als Drittaufwand ebenfalls nicht abziehbar ist –, dann erst das Teilabzugsverbot auf den
   verbleibenden Betrag. Der Fall der Ehefrau, die selbst nicht beteiligt ist, zeigt den Grenzfall:
   Quotenüberhang 100 %, Abzug nirgends.
-  Die Abschnitte 3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen; der Campus weist den Stand aus.
+  Vom **Korrespondenzprinzip (Abschnitt 3.6)** ist die materielle Korrespondenz vollständig
+  eingepflegt. Ihr Grundsatz: Die verdeckte Einlage darf bei der Gesellschaft nur abgezogen
+  werden, wenn der Vorgang beim Anteilseigner tatsächlich erfasst wurde; andernfalls wird der
+  Einkommensschaden nach § 8 Abs. 3 Satz 4 KStG bei der Gesellschaft nachversteuert – gleichgültig
+  aus welchem Grund er unterblieben ist, und nach Auffassung der Finanzverwaltung sowohl bei
+  aktiver Minderung (überhöhter Abzug) als auch bei passiver (Nichterfassung). Nicht erfasst sind
+  Vorgänge ohne Einkommensauswirkung beim Anteilseigner, etwa die bloße Geldeinlage oder der
+  Verzicht auf eine private Darlehensforderung. Der Zugang beim steuerlichen Einlagekonto erfolgt
+  stets unabhängig davon, weil § 27 KStG kein Korrespondenzprinzip kennt. Die
+  **Soweit-Verknüpfung** begrenzt die Hinzurechnung auf den Betrag, um den das *steuerpflichtige*
+  Einkommen des Anteilseigners höher gewesen wäre: beim Grundstück der Veräußerungsgewinn nach
+  Abzug der Anschaffungskosten, bei einer eingelegten Beteiligung nur 60 % davon, beim überhöhten
+  Zins nur 60 % des zu Unrecht abgezogenen Betrags – und bei einer Anteilseigner-Kapitalgesellschaft
+  null, weil § 8b Abs. 2 KStG den Gewinn ohnehin freistellt und damit kein Schaden entstehen kann.
+  Vier durchgerechnete Fälle führen die Abstufung vor. Vermerkt ist auch der **BFH vom 19.11.2025
+  (I R 40/23)**, der die Anwendung des § 8 Abs. 3 Satz 4 KStG bei bloßer Nichterfassung entgegen
+  der Verwaltungsauffassung verneint – die Quelle referiert ihn, hält aber an der
+  Verwaltungsauffassung fest.
+  Die formelle Korrespondenz (3.6.2), die Abschnitte 3.7 bis 3.9 und das Kapitel 4 (Tarif) folgen;
+  der Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

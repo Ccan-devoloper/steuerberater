@@ -10617,8 +10617,48 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** die Abschnitte 3.6 bis 3.9 und das Kapitel 4 sowie die
-Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** die formelle Korrespondenz (3.6.2), die Abschnitte 3.7 bis 3.9
+und das Kapitel 4 sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitt 3.6.1 – materielle Korrespondenz
+
+Quelle: dieselbe Datei; übernommen als Kapitel 35 (Grundsatz) und 36 (Soweit-Verknüpfung).
+Prüfung: `npm run check:k2-kst-teil1` (36 Kapitel, 594 Blöcke, 24 Tabellen).
+
+**Eine tagesaktuelle Rechtsprechungsdivergenz, die die Quelle selbst benennt:** Der BFH hat mit
+Urteil vom **19.11.2025 (I R 40/23)** entgegen der Rechtsauffassung der Finanzverwaltung
+entschieden, dass die bloße Nichterfassung steuerpflichtiger Einkünfte beim Anteilseigner den
+Tatbestand der *Minderung* des Einkommens nicht erfüllt – § 8 Abs. 3 Satz 4 KStG wäre damit auf
+die aktive Minderung beschränkt, wie es der Gesetzeswortlaut nahelegt. Die Quelle referiert die
+Entscheidung, hält aber erkennbar an der Verwaltungsauffassung fest („Ob das Urteil überhaupt
+angewendet wird, ist aber fraglich“) und rechnet ihre Beispiele unverändert danach. Der Datensatz
+ordnet das in einer gekennzeichneten Anmerkung ein: Die Divergenz betrifft die gesamte Fallgruppe
+der passiven Minderung, und für die Klausur ist die Verwaltungsauffassung zu rechnen. Ebenfalls
+vermerkt ist die zweite offene Frage der Quelle – die Anwendung auf einen ausländischen
+EU-Gesellschafter, wozu sie auf das Sächsische FG vom 10.10.2025, 8 V 1126/25 (rkr.) verweist und
+die Sache als zweifelhaft bezeichnet.
+
+**Sämtliche Zahlen der vier durchgerechneten Fälle sind unabhängig nachgerechnet und bestätigt**
+(die Probe steht als eigene Ergänzung im Datensatz): Beteiligung C-GmbH 500.000 € ./. 100.000 € =
+400.000 €, davon 60 % = 240.000 €, Einkommen 400.000 ./. 400.000 + 240.000 = 240.000 €;
+Grundstück 600.000 € ./. 100.000 € = 500.000 €, Einkommen 600.000 ./. 600.000 + 500.000 =
+500.000 €; Überzins 10 % von 1.000.000 € = 100.000 €, angemessen 60.000 €, Überzins 40.000 €,
+beim Anteilseigner abgezogen 60.000 € statt zutreffend 36.000 €, Differenz 24.000 € = 60 % von
+40.000 €, Einkommen 100.000 ./. 40.000 + 24.000 = 84.000 €, Gegenprobe 60.000 € + 24.000 € =
+84.000 €.
+
+**Ein Ergebnis, das erklärungsbedürftig ist:** Im dritten Beispiel zu 3.6.1.1 heben sich Abzug und
+Hinzurechnung auf – das Einkommen von 100.000 € entspricht genau dem unkorrigierten Gewinn. Der
+Datensatz erläutert, dass das kein Zufall ist, sondern der Zweck der Vorschrift, und dass die
+Rechnung trotzdem in beiden Schritten aufzuschreiben ist, weil das steuerliche Einlagekonto um
+die 40.000 € steigt und dieser Zugang allein an § 8 Abs. 3 Satz 3 KStG hängt.
+
+**Die Systematik der Soweit-Verknüpfung** ist im Datensatz in einem eigens gekennzeichneten
+„Merke“ zusammengefasst, weil die vier Fälle dieselbe Prüfung in vier Abstufungen zeigen. Die
+Leitfrage lautet immer gleich: Um welchen Betrag wäre das *steuerpflichtige* Einkommen des
+Anteilseigners bei zutreffender Behandlung höher gewesen? Die verdeckte Einlage selbst und der
+Zugang beim Einlagekonto bleiben davon in allen Fällen unberührt – sie folgen dem Teilwert, nicht
+dem Einkommensschaden.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.5.2.3.3 und 3.5.2.4 – Anteilseigner-Kapitalgesellschaft und Nutzungsvorteile
 
