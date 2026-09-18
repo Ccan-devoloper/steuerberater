@@ -287,9 +287,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Ulrich Breier) mit fünf Original-Prüfungsklausuren samt Lösungshinweisen und Randpunkten;
   der Connector gibt die Datei **vollständig** aus. **Begonnen** – eingepflegt sind die
   **Prüfungen 2011** (A-GmbH, 35 Punkte), **2012** (A-UG, 40 Punkte) und **2013**
-  (Invest-Deutschland Ltda, 33 Punkte) im Reiter „Originalklausuren (Prüfung)“ des
-  KSt-Campus, `src/data/k2-kst-originalklausuren.js`; offen sind die Prüfungen **2014 und
-  2015**. Offen ist außerdem die Datei **Bilanz 2011–2015**
+  (Invest-Deutschland Ltda, 33 Punkte) und **2014** (zwei Sachverhalte, 43 Punkte) im
+  Reiter „Originalklausuren (Prüfung)“ des KSt-Campus,
+  `src/data/k2-kst-originalklausuren.js`; offen ist nur noch die Prüfung **2015**. Offen ist außerdem die Datei **Bilanz 2011–2015**
   (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB).
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
 - Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet

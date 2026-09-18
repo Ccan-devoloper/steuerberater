@@ -7842,3 +7842,86 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   zunächst“; „hat die ID grundsätzliche Einkünfte“; „dass insoweit gewerblicher Einkünfte
   erzielt werden“; „aus den Einlagekonto“; sowie die Bezeichnung „ID-GmbH“ für die
   brasilianische Ltda.
+
+## Originalklausuren der Steuerberaterprüfung – Körperschaftsteuer, Prüfung 2014 (zwei Sachverhalte)
+
+- Quelle: dieselbe Datei (`1M69J_ZCoqrXeBtX-OD83FYkJgiAksMWb`), vierte Klausur.
+- Einpflege dieses Durchgangs: die **Prüfung 2014** mit ihren beiden Sachverhalten als eigene
+  Einträge; der Datensatz umfasst jetzt 5 Einträge, 374 Blöcke, 33 Tabellen und 151 Punkte;
+  Prüfung `npm run check:k2-kst-originalklausuren`. Offen ist nur noch die Prüfung 2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Bei dieser Klausur gehen
+  Kopfangabe (43 Punkte, aufgeteilt in 21 und 22) und Auszählung der Randpunkte in beiden
+  Sachverhalten **auf** – anders als in den Klausuren 2011 bis 2013 dieser Reihe.
+
+  **Sachverhalt 1 (21 Punkte): dasselbe Darlehen, zweimal – und die Richtung der Beteiligung
+  entscheidet über den Weg, nicht über das Ergebnis.**
+
+  | | Ausgangssachverhalt (Tochter gibt der Mutter das Darlehen) | Abwandlung (Mutter gibt der Tochter dasselbe Darlehen) |
+  | --- | --- | --- |
+  | Teilwertabschreibung | ./. 500.000 € (Wahlrecht, ausgeübt wegen des Bearbeitungshinweises zum Eigenkapital) | ./. 500.000 € (identisch) |
+  | Korrektur | **vGA** nach § 8 Abs. 3 Satz 2 KStG: + 500.000 € | keine verdeckte Einlage – stattdessen **Abzugsverbot** des § 8b Abs. 3 Satz 4 KStG: + 500.000 € |
+  | Unterverzinsung (6 % ./. 2 % = 20.000 €) | vGA + 20.000 € beim Darlehensgeber | **keine** verdeckte Einlage – ein Nutzungsvorteil ist nicht einlagefähig (R 8.9 KStR) |
+  | Auswirkung beim Darlehensgeber | **+ 20.000 €** | **0 €** |
+  | Auswirkung beim Darlehensnehmer | + 1.000 € (5 % von 20.000 € nach § 8b Abs. 5 KStG) ./. 20.000 € fiktiver Zinsaufwand = **./. 19.000 €** | **keine** |
+
+  **Auslöser ist in beiden Fällen dieselbe Tatsache: die fehlenden Sicherheiten.** Wären sie
+  gestellt worden, wäre die Abschreibung ein normaler betrieblicher Verlust. Dieselbe
+  Tatsache trägt in der Abwandlung auch die Anwendung des § 8b Abs. 3 Satz 4 KStG, weil der
+  Fremdvergleich des Satzes 7 daran scheitert.
+
+  **Beim Darlehensnehmer entsteht durch die Teilwertabschreibung nichts** – weder Ertrag noch
+  aktivierbarer Anspruch –, weil die Verbindlichkeit nach § 6 Abs. 1 Nr. 3 Satz 2 EStG
+  unverändert mit dem Nennwert zu passivieren bleibt. Die Lösung hält ausdrücklich fest, dass
+  der Erfassung der vGA beim Darlehensgeber gerade **nicht** entgegensteht, dass sie beim
+  Empfänger keinen „sonstigen Bezug“ auslöst; erst der rechtliche Untergang der Forderung –
+  Erlass oder Insolvenzverfahren – würde das ändern (BFH vom 14.07.2004, BStBl II S. 1010).
+
+  Bemerkenswert ist auch, dass zum 31.12.2024 **noch nicht** abzuschreiben war: Die bloße
+  Niedrigverzinslichkeit begründet keine voraussichtlich dauernde Wertminderung, solange mit
+  Rückzahlung zu rechnen ist.
+
+  **Sachverhalt 2 (22 Punkte): getrennt rechnen, gemeinsam festsetzen.** Die gewerbesteuerliche
+  Organschaft folgt der sog. gebrochenen Einheitstheorie – der Gewerbeertrag wird für jede der
+  drei Gesellschaften getrennt ermittelt, einschließlich der Hinzurechnungen und Kürzungen,
+  und erst die Summe wird beim Organträger festgesetzt. Genau daran hängen alle vier Pointen:
+
+  | Punkt | Ergebnis |
+  | --- | --- |
+  | **Erweiterte Kürzung** bei der Grundstücksgesellschaft | bleibt erhalten: Zinserträge sind unschädliche Nebentätigkeit (aber von der Kürzung ausgenommen → 700.000 € statt 730.000 €), und die kürzungsschädlichen Tätigkeiten der Schwestergesellschaften (Lkw-Werkstatt, Bioladen) sind unerheblich, weil § 9 Nr. 1 Satz 2 GewStG je Unternehmen zu prüfen ist |
+  | **§ 7a GewStG** | zieht die körperschaftsteuerlich erst beim Organträger anzuwendende Bruttomethode für die Gewerbesteuer auf die Ebene der Organgesellschaft vor: ./. 100.000 € (§ 8b Abs. 1 KStG) und + 5.000 € (§ 8b Abs. 5 KStG) schon bei der E-GmbH; beim Organträger darf die Befreiung **nicht noch einmal** nachgeholt werden |
+  | **Konzerninterne Zinsen** | von 200.000 € Zinsaufwand unterliegen nur 100.000 € der Hinzurechnung – die Zinsen an die Organträgerin haben sich im Organkreis nicht gewinnmindernd ausgewirkt (R 7.1 Abs. 5 Satz 3 GewStR) |
+  | **Vororganschaftlicher Verlustvortrag** | bei der Organgesellschaft nach § 10a Satz 3 GewStG **gesperrt** (200.000 € bleiben ungenutzt), beim Organträger **voll** gegen den zusammengefassten Ertrag nutzbar (3.000.000 €) |
+
+  Der Freibetrag des § 8 Nr. 1 GewStG von 200.000 € steht dabei **jeder** Gesellschaft in
+  voller Höhe zu; eine Aufteilung auf den Organkreis erfolgt nicht (Gleich lautende Erlasse
+  vom 02.07.2012, Rn. 45).
+
+  | Zusammenrechnung und Messbetrag | Betrag |
+  | --- | --- |
+  | Gewerbeertrag C-GmbH (1.000.000 € + 62.500 € Hinzurechnung) | 1.062.500 € |
+  | Gewerbeertrag D-GmbH (730.000 € ./. 700.000 € erweiterte Kürzung) | + 30.000 € |
+  | Gewerbeertrag E-GmbH (364.000 € ./. 100.000 € + 5.000 € + 12.500 €) | + 281.500 € |
+  | Maßgebender Gewerbeertrag | **1.374.000 €** |
+  | ./. § 10a Satz 1 GewStG (unbeschränkt) | - 1.000.000 € |
+  | ./. § 10a Satz 2 GewStG (60 % von 374.000 €) | - 224.400 € |
+  | Gewerbeertrag nach § 10a GewStG | **149.600 €** |
+  | Messbetrag 3,5 % (§ 11 Abs. 2 GewStG) | **5.236 €** |
+  | Vortragsfähiger Gewerbeverlust 31.12.2025 (3.000.000 ./. 1.224.400) | 1.775.600 € |
+
+  **Die Ausgleichszahlung wirkt hier nur einmal** – als nicht abziehbare Betriebsausgabe nach
+  § 4 Abs. 5 Satz 1 Nr. 9 EStG (+ 34.000 €). Eine dem § 16 KStG entsprechende Regelung, nach
+  der die Organgesellschaft einen Teil ihres Einkommens selbst zu versteuern hätte, gibt es
+  im Gewerbesteuerrecht **nicht** (R 7.1 Abs. 5 Satz 10 GewStR). Das ist das Gegenstück zur
+  Klausur 2011 dieser Reihe, wo dieselbe Ausgleichszahlung körperschaftsteuerlich gleich
+  zweimal wirkt.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.**
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:**
+  „Gerinsverzinslichkeit“; „Ausgangsachverhalt“ ohne s; im Sachverhalt 1 „Von einer
+  zukünftigen Verbesserung der wirtschaftlichen Lage der **A-GmbH**“, wo die B-GmbH gemeint
+  ist; „Die Teilwertabschreibung … stellte keine verdeckte Einlage … dar“ im Präteritum;
+  „zwar eine Vermögensvorteil“; „Auswirkung zu versteuernden Einkommens A-GmbH“; im
+  Sachverhalt 2 „gem. § 15 S. 1 Nr. 2 S. 2 GewStG“ statt KStG, „§ 9 Nr. 2a S. 4 KStG“ statt
+  GewStG, „bereits den Gewinn aus Gewerbetrieb gemindert“ ohne „hat“, „Gewerbetrieb“ ohne b
+  und „vortragfähiger Gewerbeverlust“ ohne s.

@@ -1778,6 +1778,31 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   in einer Klausur – Bestandsvergleich bei der Vermietung, Zuflussprinzip bei der Beteiligung.
   Vermietungseinkünfte 66.100 €. Auch hier ist die Abweichung der Randpunkte (32 gegen 33 im
   Kopf) als **eigene Feststellung** gekennzeichnet.
+  Die **Prüfung 2014 (43 Punkte)** besteht aus zwei Sachverhalten, die als eigene Einträge
+  stehen. **Sachverhalt 1 (21 Punkte)** stellt dasselbe zinsgünstige, unbesicherte Darlehen
+  **zweimal** dar und dreht nur die Beteiligungsrichtung um: Gibt die Tochter der Mutter das
+  Darlehen, ist die Teilwertabschreibung eine **verdeckte Gewinnausschüttung** (+ 500.000 €),
+  und beim Empfänger entsteht nichts, weil die Verbindlichkeit unverändert mit dem Nennwert
+  passiviert bleibt; gibt die Mutter der Tochter dasselbe Darlehen, scheidet eine verdeckte
+  Einlage aus und es greift das **Abzugsverbot des § 8b Abs. 3 Satz 4 KStG** – wirtschaftlich
+  dasselbe Ergebnis auf ganz anderem Weg. Auslöser ist in beiden Fällen dieselbe Tatsache:
+  die fehlenden Sicherheiten. Die zu niedrige Verzinsung trennt die Wege ein zweites Mal –
+  einmal vGA von 20.000 € mit fiktivem Zinsaufwand beim Empfänger nach der **Fiktionstheorie**
+  (Auswirkung ./. 19.000 €), einmal überhaupt keine Folge, weil ein Nutzungsvorteil nicht
+  einlagefähig ist. **Sachverhalt 2 (22 Punkte)** ermittelt einen **einzigen**
+  Gewerbesteuermessbetrag für einen Organkreis aus drei Gesellschaften: getrennt rechnen,
+  gemeinsam festsetzen (gebrochene Einheitstheorie). Vier Punkte hängen dabei an der
+  Organschaft – die **erweiterte Kürzung** bleibt der Grundstücksgesellschaft erhalten,
+  obwohl Schwestergesellschaften kürzungsschädlich tätig sind; **§ 7a GewStG** zieht die
+  körperschaftsteuerlich erst beim Organträger anzuwendende Bruttomethode für die
+  Gewerbesteuer auf die Ebene der Organgesellschaft vor (./. 100.000 € und + 5.000 €); die
+  Zinsen aus dem konzerninternen Darlehen bleiben **hinzurechnungsfrei**, weil sie sich im
+  Organkreis nicht ausgewirkt haben; und der vororganschaftliche Verlustvortrag ist bei der
+  Organgesellschaft nach § 10a Satz 3 GewStG **gesperrt**, beim Organträger dagegen voll
+  gegen den zusammengefassten Ertrag nutzbar. Ergebnis: maßgebender Gewerbeertrag
+  1.374.000 €, nach Mindestbesteuerung 149.600 €, Messbetrag **5.236 €**, Restvortrag
+  1.775.600 €. Bei dieser Klausur gehen Kopfangabe und Auszählung der Randpunkte übrigens
+  in beiden Sachverhalten auf.
   Prüfung: `npm run check:k2-kst-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
