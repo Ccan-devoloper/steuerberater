@@ -274,7 +274,22 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   bis zu den vier Korrekturvorschriften für die Jahre 01 bis 04, und ein Fall zur
   Ablaufhemmung, in dem die Frist für die Einkommensteuer mit der Unanfechtbarkeit des
   Änderungsbescheids am 05.05.08 und für die Umsatzsteuer drei Monate nach der Mitteilung
-  ohne Änderung am 03.07.08 endet.
+  ohne Änderung am 03.07.08 endet. Der **Teil IV** führt durch die Durchführung der Prüfung:
+  Prüfungsbeginn und Prüfungsort als selbständige Verwaltungsakte mit dem Vorrang der
+  Geschäftsräume nach § 6 BpO, die Prüfungsgrundsätze einschließlich Kontrollmitteilungen,
+  die erweiterten Mitwirkungspflichten des § 200 AO und die Frage, wann ein Auskunfts- oder
+  Vorlageverlangen zum Verwaltungsakt wird, der digitale Datenzugriff nach § 147 Abs. 5 und
+  6 AO mit zwei BFH-Entscheidungen zur Lesbarmachung am Bildschirm und zum Sperren von
+  Einzelkonten, Schlussbesprechung und Prüfungsbericht mit den Fällen, in denen beides
+  entfällt, die abgekürzte Prüfung des § 203 AO, der begrenzte Vertrauensschutz bei der
+  Abschnittsbesteuerung mit dem Achtzehnjahresbeispiel sowie die verbindliche Zusage der
+  §§ 204 bis 207 AO samt den drei Tatbeständen für den Wegfall der Bindungswirkung. Der
+  **Teil V** schließt mit den Neuregelungen des DAC-7-Umsetzungsgesetzes: Anforderung von
+  Buchführungsunterlagen und Prüfungsschwerpunkte nach § 197 Abs. 3 und 4 AO, die
+  Bekanntgabefrist des § 197 Abs. 5 AO und ihre Wirkung auf die Fünfjahresgrenze des
+  § 171 Abs. 4 Satz 3 AO – durchgerechnet in zwei Beispielen bis zum 31.12.2035 – und der
+  bindende Teilabschluss nach § 180 Abs. 1a AO. An dieser Stelle bricht die maschinelle
+  Ausgabe der Quelldatei ab; der Rest ist in `docs/offene-quellen.md` vermerkt.
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und

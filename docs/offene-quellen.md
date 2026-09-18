@@ -119,10 +119,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Zahlungsverjährung der §§ 228 bis 232 AO sowie die Teile IV und V (Säumniszuschläge nach
   § 240 AO, sämtliche Zinstatbestände der §§ 233 bis 239 AO) eingepflegt. **Der Abschnitt 11
   ist damit vollständig.** Aus dem Abschnitt 12 (Außenprüfung) sind die Teile I (Grundlagen
-  und Zulässigkeit nach § 193 AO) , II (Umfang der Außenprüfung) und III
-  (Prüfungsanordnung einschließlich beider Übungsfälle) eingepflegt. Offen ist der Rest des
-  Abschnitts 12, soweit der Connector ihn ausgibt – die Teile IV und V bis zur Bruchstelle
-  auf Seite 27 –; der **Abschnitt 13** wird vom Connector nicht mehr erreicht
+  und Zulässigkeit nach § 193 AO) , II (Umfang der Außenprüfung), III
+  (Prüfungsanordnung einschließlich beider Übungsfälle), IV (Durchführung der Prüfung) und V
+  (DAC-7-Neuregelungen) eingepflegt – damit alles, was der Connector ausgibt. Offen ist,
+  was hinter der Bruchstelle auf Seite 27 liegt; der **Abschnitt 13** wird vom Connector nicht mehr erreicht
   (siehe Abschnitt A).
 - AO-Short-Skript
 - FGO

@@ -3102,3 +3102,47 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   der im Fall maßgebenden Dreitagesfrist auf: Bekanntgabe des Änderungsbescheids am
   05.04.08, Unanfechtbarkeit und damit Ende der Ablaufhemmung am **05.05.08**; Bekanntgabe
   der Mitteilung ohne Änderung am 03.04.08, Fristende drei Monate später am **03.07.08**.
+
+## AO-Skript (Jacobs), Teil V – Abschnitt 12: Außenprüfung (Teil 3, Abschluss des lesbaren Umfangs)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`),
+  Abschnitt 12, Teile IV und V bis zur Bruchstelle auf Seite 27.
+- Einpflege dieses Durchgangs: drei Kapitel – die Durchführung der Außenprüfung
+  (Prüfungsbeginn und Prüfungsort, Prüfungsgrundsätze, Mitwirkungspflichten, digitaler
+  Datenzugriff), der Abschluss der Prüfung (Schlussbesprechung, Prüfungsbericht, abgekürzte
+  Prüfung, Vertrauensschutz und verbindliche Zusage) sowie die DAC-7-Neuregelungen mit den
+  beiden Beispielen zu § 197 Abs. 5 AO und dem Teilabschlussbescheid. **Damit ist aus dieser
+  Datei alles eingepflegt, was der Connector ausgibt.** Das Skript umfasst jetzt 13 Teile,
+  151 Kapitel, 3.492 Blöcke und 256 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Technisch blockiert: alles hinter der Bruchstelle auf Seite 27 des Abschnitts 12 – der
+  Rest des Teils V und die nachfolgenden Teile, auf die der Abschnitt selbst mit
+  „Abschnitt 12, Teile VII und VIII“ verweist – sowie der gesamte **Abschnitt 13**. Beides
+  steht in `docs/offene-quellen.md`, Abschnitt A.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 9, Fundstelle zur einheitlichen Maßgeblichkeit.** Für den Fall mehrerer
+    Steuerbescheide verweist die Quelle auf „§ 197 Abs. **3** Satz 5 AO“, während der
+    Regelungszusammenhang und die unmittelbar folgende Lösung („§ 197 Abs. 5 Sätze 1 und 3
+    AO“) auf § 197 Abs. **5** Satz 3 AO führen.
+  - Kapitel 7: das doppelte „als“ in „Prüfungsbeginn und Prüfungsort als neben den … als
+    selbständige Verwaltungsakte“.
+  - Kapitel 8: das überzählige Komma in „nach den Grundsätzen von Treu und Glauben, ; vgl.
+    AEAO zu § 201, Nr. 5“ und die Fundstelle „nach den §§ 204ff ;“ ohne Gesetzesangabe.
+  - Kapitel 9: „aus von ihr zu **vertretenen** Gründen“.
+
+  Darstellungsentscheidungen: Die Übersichten zu den Voraussetzungen der verbindlichen
+  Zusage und zum Wegfall ihrer Bindungswirkung stehen in der Quelle als Schaubilder, deren
+  Spalten in der maschinellen Erfassung ineinanderlaufen; sie sind zugeordnet als Tabellen
+  wiedergegeben, mit Hinweis im Datensatz. Der Wortlaut ist unverändert. Am Ende des
+  Kapitels 9 steht ein Hinweis auf die Bruchstelle der Quelldatei.
+
+  Nachgerechnet und zutreffend: Im Beispiel 1 zu § 197 Abs. 5 AO ist der Steuerbescheid für
+  den letzten Prüfungszeitraum 2027 am 30.6.2029 wirksam geworden; das Folgejahr ist 2030,
+  die Prüfungsanordnung soll also bis zum **31.12.2030** ergehen, und die Fünfjahresfrist
+  des § 171 Abs. 4 Satz 3 AO läuft von dort bis zum **31.12.2035**. Im Beispiel 2 verschiebt
+  die von der Finanzbehörde zu vertretende spätere Bekanntgabe am 15.2.2031 diesen
+  Fristbeginn nicht.
