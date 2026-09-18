@@ -10620,6 +10620,66 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil II (Hamacher), Abschnitte 4.2.8 bis 4.3 – Kapitel 4 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 54 bis 56; übernommen als Kapitel 36 und 37. Prüfung:
+`npm run check:k2-kst-teil2` (37 Kapitel, 470 Blöcke, 31 Tabellen). Damit ist das Kapitel 4
+(Abzugsverbot von Gewinnminderungen) vollständig.
+
+**Der Gegenbeweis** (4.2.8) ist die Vorschrift, die auf dem Papier eine Ausnahme verspricht und in
+der Praxis kaum je greift – der Datensatz arbeitet das in einer Tabelle und drei eigenen
+Anmerkungen heraus. Die Gesetzesbegründung nennt drei Fälle, in denen die Konditionen nicht
+fremdüblich sind und ein Drittvergleich von vornherein ausscheidet: unverzinsliches Darlehen,
+verzinsliches ohne Sicherheiten, verzinsliches mit Sicherheiten, das in der Krise nicht abgezogen
+wird. Die drei Hürden bauen aufeinander auf; erst wer alle drei nimmt, darf den Nachweis
+überhaupt antreten. Das typische Gesellschafterdarlehen, das in der Krise gerade **nicht**
+zurückgefordert wird, scheitert schon an der dritten – und genau diese Fälle sind es, in denen es
+zur Gewinnminderung kommt.
+
+**Die Klammer der Quelle „einen Drittvergleich (nicht: Fremdvergleich)“** ist keine Wortklauberei,
+und der Datensatz erklärt warum: Der **Fremdvergleich** des § 8 Abs. 3 Satz 2 KStG fragt nach der
+Angemessenheit der **Konditionen**, der **Drittvergleich** des § 8b Abs. 3 Satz 7 KStG darüber
+hinaus, ob die Gesellschaft das Kapital **überhaupt** bekommen hätte. Ein Darlehen kann also zu
+völlig marktüblichen Zinsen ausgereicht sein und den Drittvergleich trotzdem nicht bestehen.
+Deshalb genügen abstrakte Kreditwürdigkeitsanalysen nicht; verlangt sind konkrete Angebote eines
+Kreditinstituts (die Frage ist beim BFH unter I R 6/25 anhängig).
+
+**Die stand-alone-Basis** macht den Gegenbeweis endgültig zur Theorie: Maßgeblich sind allein die
+**eigenen** Sicherheiten der darlehensnehmenden Gesellschaft, jede Hilfe des Gesellschafters ist
+auszublenden. Hat die Gesellschaft überhaupt Bankdarlehen, die durch Gesellschafterbürgschaften
+besichert sind, hat ein Dritter damit schon dokumentiert, dass er ihr allein nicht getraut hat. Im
+Bürgschaftsfall des Abschnitts 4.2.4 ist der Gegenbeweis nach der Quelle begrifflich
+ausgeschlossen – wer bürgt, liefert das Sicherungsmittel, ohne das die Gesellschaft das Darlehen
+nie erhalten hätte.
+
+**Die Wechselkursverluste** (4.2.9) sind die einzige echte Ausnahme vom Abzugsverbot, und ihre
+Begründung ist eine Symmetrieüberlegung, die der Datensatz von der anderen Seite her aufschlüsselt:
+Ein Kurs**gewinn** aus einem Gesellschafterdarlehen ist immer steuerpflichtig, weil § 8b KStG dafür
+keinen Befreiungstatbestand kennt – Absatz 2 erfasst nur Anteilsveräußerungen. Wären die Verluste
+unter Satz 4 gefallen, hätte das Gesetz die Kursbewegung einseitig zulasten des Steuerpflichtigen
+erfasst. Seit dem VZ 2022 stellt Satz 6 den Gleichlauf her; **bis einschließlich VZ 2021 gilt das
+nicht**, und das ist die Übergangsfalle des Abschnitts. Als eigene Ergänzung vermerkt der Datensatz
+außerdem die Abgrenzung: Ausgenommen ist nur der Kursverlust, nicht der bonitätsbedingte Ausfall
+desselben Fremdwährungsdarlehens – bei teilweisem Ausfall ist aufzuteilen.
+
+**Der Buchungssatz der Quelle geht auf:** Bank 8.100.000 € und Aufwand 300.000 € gegen
+Darlehensforderung 8.400.000 €; der Kursverlust von 300.000 € ist die Differenz der beiden
+Eurowerte (Kurs 0,84 € je Dollar bei Hingabe, 0,81 € bei Rückzahlung – diese beiden Kurse sind
+eigene Herleitung, die Quelle nennt nur die Eurobeträge).
+
+**Die gewerbesteuerlichen Auswirkungen** (4.3) kommen mit zwei Sätzen aus. Der Datensatz ordnet das
+als eigene Ergänzung in den Gesamtzusammenhang ein: § 8b KStG schlägt an drei Stellen völlig
+unterschiedlich auf die Gewerbesteuer durch – bei den Ausschüttungen des Absatzes 1 laufen
+Schachtelprivileg und Hinzurechnung nach § 8 Nr. 5 GewStG nebeneinander und können zu abweichenden
+Ergebnissen führen, bei den Veräußerungsgewinnen des Absatzes 2 und den Gewinnminderungen des
+Absatzes 3 läuft die körperschaftsteuerliche Behandlung dagegen ohne jede Korrektur durch.
+
+**Wortlautgetreu übernommen und gekennzeichnet:** „Dieser Aufwand vollständig abziehbar“ – das
+fehlende „ist“ in der Lösung zum Wechselkursbeispiel.
+
+**Noch offen nach dieser Runde:** aus Teil II die Kapitel 5 (mittelbare Beteiligung über eine
+Personengesellschaft) und 6 (weitere Tatbestände); ganz offen sind die Skriptteile III bis VII.
+
 ### KSt Teil II (Hamacher), Abschnitte 4.2.4 bis 4.2.7 – Bürgschaft, Wertaufholung, vergleichbare Forderungen
 
 Quelle: dieselbe Datei, Seiten 51 bis 54; übernommen als Kapitel 33 bis 35. Prüfung:

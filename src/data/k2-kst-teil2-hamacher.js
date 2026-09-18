@@ -17,15 +17,16 @@
    Behandlung. Auch das Kapitel 3 (Steuerfreiheit von Veräußerungsgewinnen) ist
    vollständig – vom Grundfall der Veräußerung über den weiten
    Veräußerungsbegriff und die Wertaufholung bis zur Betriebsausgabenpauschalierung
-   und den gewerbesteuerlichen Auswirkungen. Aus Kapitel 4 (Abzugsverbot von
-   Gewinnminderungen) ist der Abschnitt 4.1 (Begriff der Gewinnminderung)
-   übernommen, dazu der Tatbestand der Darlehensregelung und die Ermittlung der
-   qualifizierten Beteiligung samt Personengesellschaftsfällen, dem Zeitpunkt
-   der Beteiligung, der nahestehenden Person und dem rückgriffsberechtigten
-   Dritten als Darlehensgeber bis hin zur Wertaufholung und den wirtschaftlich
-   vergleichbaren Forderungen (4.2.1 bis 4.2.7). Es folgen der Gegenbeweis
-   (4.2.8), die Wechselkursverluste (4.2.9), die Gewerbesteuer (4.3) sowie die
-   Kapitel 5 und 6; der Campus weist den Stand aus.
+   und den gewerbesteuerlichen Auswirkungen. Auch das Kapitel 4 (Abzugsverbot
+   von Gewinnminderungen) ist vollständig – vom Begriff der Gewinnminderung über
+   die Gesellschafterdarlehen mit der Ermittlung der qualifizierten Beteiligung,
+   den Personengesellschaftsfällen, dem Zeitpunkt der Beteiligung, der
+   nahestehenden Person und dem rückgriffsberechtigten Dritten als
+   Darlehensgeber, der Wertaufholung und den wirtschaftlich vergleichbaren
+   Forderungen bis zum Gegenbeweis, den Wechselkursverlusten und der
+   Gewerbesteuer. Es folgen die Kapitel 5 (mittelbare Beteiligung über eine
+   Personengesellschaft) und 6 (weitere Tatbestände); der Campus weist den Stand
+   aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -1369,6 +1370,88 @@ export const kstTeil2 = [
       { text: "Anmerkung zur Finanzierungsentscheidung (eigene Ergänzung): Der tragende Gedanke des Abschnitts steht im letzten Absatz der Lösung und ist prüfungsrelevant, weil er die naheliegende Gegenargumentation abschneidet. Man könnte einwenden: Die Warenlieferung war ein ganz normales Umsatzgeschäft, der Ertrag von 10.000.000 € ist voll versteuert worden – warum soll der Ausfall dann nicht abziehbar sein? Die Antwort der Quelle trennt die beiden Vorgänge: Die Lieferung ist das eine, die Entscheidung, den Kaufpreis zu stunden statt ihn einzufordern, das andere. Diese zweite, abtrennbare **Finanzierungsentscheidung** ist gesellschaftsrechtlich veranlasst – und nur sie wird von § 8b Abs. 3 Satz 8 KStG erfasst." },
       { text: "Anmerkung zur „stand-alone-Betrachtung“ (eigene Ergänzung): Der Begriff taucht hier zum ersten Mal auf und wird erst im folgenden Abschnitt zum Gegenbeweis entfaltet. Gemeint ist die Frage, ob die Gesellschaft das Kapital **allein aus eigener Kraft** – ohne jede Hilfe des Gesellschafters – auch von einem fremden Dritten bekommen hätte. Die Quelle nennt zwei Konstellationen, in denen diese Betrachtung von vornherein scheitert: wenn der Anteilseigner die übrigen Darlehen bereits abgesichert hat, und wenn die eigenen Sicherheiten der Gesellschaft schon vollständig aufgebraucht sind. In beiden Fällen ist der Anspruch des Gesellschafters faktisch ungesichert, und der Gegenbeweis ist praktisch nicht mehr zu führen." },
       { text: "Rechenprobe (eigene Ergänzung): Die Teilwertabschreibung beträgt 10.000.000 € ./. 4.000.000 € = 6.000.000 €; genau dieser Betrag ist dem Einkommen der A-GmbH außerbilanziell wieder hinzuzurechnen. Die Quelle beziffert ihn nicht ausdrücklich – die Zahl ist hier eigene Herleitung aus den beiden genannten Werten." },
+    ],
+  },
+  {
+    id: "kst-t2-36",
+    kapitel: "36",
+    abschnittNr: "4.2.8",
+    title: "4.2.8 Gegenbeweis – § 8b Abs. 3 Satz 7 KStG und die stand-alone-Basis",
+    thema: "Die Beweislast liegt beim Steuerpflichtigen: Er muss nachweisen, dass ein Dritter das Darlehen zu unveränderten Konditionen gewährt und in der Krise nicht abgezogen hätte. Maßgeblich sind allein die eigenen Sicherheiten der Gesellschaft",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 4.2.8 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 3 Satz 7 KStG",
+      "§ 8b Abs. 3 Satz 4 und 5 KStG",
+      "§ 8b Abs. 3 Satz 8 KStG",
+      "§ 8b Abs. 3 Satz 3 KStG",
+      "BT-Drs. 16/6290, S. 73",
+      "BR-Drs. 544/07, S. 95",
+      "BMF vom 15.12.1994, Rz. 62",
+      "BFH vom 25.01.2005, I R 12/04",
+      "BFH, anhängiges Verfahren Az. I R 6/25",
+      "FG Münster vom 17.08.2016, 10 K 2301/13 K",
+    ],
+    themen: ["Gegenbeweis", "Beweislastumkehr", "Drittvergleich", "Fremdüblichkeit", "Stand-alone-Basis"],
+    bloecke: [
+      { text: "Sobald § 8b Abs. 3 Satz 4 f. KStG einschlägig ist, sieht § 8b Abs. 3 Satz 7 KStG die Möglichkeit des Gegenbeweises vor. Dies gilt auch in den Fällen, in denen das Darlehen von einer dem wesentlich beteiligten Anteilseigner nahestehenden Person oder einem rückgriffsberechtigten Dritten hingegeben wird. Der Gegenbeweis ist vom Darlehensgeber bzw. in den Fällen des rückgriffsberechtigten Dritten von der Gesellschaft zu führen, die das Darlehen abgesichert hat. Diese Verpflichtung trifft somit immer denjenigen, der von den Einschränkungen des § 8b Abs. 3 Satz 4 f. KStG betroffen ist. Gleiches gilt auch in den Fällen des § 8b Abs. 3 Satz 8 KStG bei vergleichbaren Tatbeständen." },
+      { text: "Kerninhalt des Gegenbeweises ist die Erbringung des Nachweises darüber, dass das Darlehen oder die Sicherheit auch von einem Dritten zu unveränderten Konditionen gewährt worden wäre bzw. dieser im Krisenfall das Darlehen oder die Sicherheit auch nicht abgezogen hätte. Hierbei handelt es sich um eine Beweislastumkehr, da der Stpfl. den Nachweis führen muss, um die Rechtsfolgen des § 8b Abs. 3 Satz 4 KStG zu verhindern. Wird der Nachweis nicht geführt, ist § 8b Abs. 3 Satz 4 KStG uneingeschränkt anwendbar." },
+      { text: "Hintergrund dafür ist, dass der Gesetzgeber durch § 8b Abs. 3 Satz 4 KStG nur den Abzug von Gewinnminderungen einschränken wollte, die mit fremdunüblichen Gesellschafterfinanzierungen im Zusammenhang stehen. Dadurch wird der vom Gesetzgeber beabsichtigte Gleichklang mit der Eigenkapitalzuführung des Gesellschafters erreicht, bei der im Fall der Gewinnminderung schon ein Anwendungsfall des § 8b Abs. 3 Satz 3 KStG gegeben wäre." },
+      { text: "Der Gegenbeweis kann aber ausweislich der Gesetzesbegründung nur in den Fällen geführt werden, in denen die Darlehenskonditionen fremdüblich sind. Eine Darlehensüberlassung ist danach in den folgenden Fällen nicht als fremdüblich anzusehen:" },
+      { text: "▪ Das Darlehen ist nicht verzinslich." },
+      { text: "▪ Das Darlehen ist verzinslich, aber es wurden keine Sicherheiten vereinbart." },
+      { text: "▪ Das Darlehen ist verzinslich und es wurden Sicherheiten vereinbart, aber das Darlehen wird bei Eintritt der Krise nicht abgezogen" },
+      { text: "In diesen Fällen ist ein Drittvergleich nicht möglich." },
+      { text: "Aussagekräftige Unterlagen für den Gegenbeweis wären z.B. konkrete Angebote eines Kreditinstitutes. Abstrakte Kreditwürdigkeitsanalysen können dabei nur ein Indiz sein, genügen keinesfalls als wirksamer Gegenbeweis. Denn § 8b Abs. 3 Satz 7 KStG sieht ausdrücklich einen Drittvergleich (nicht: Fremdvergleich) vor, woraus sich ergibt, dass die Schuldnerin dieses Fremdkapital bei sonst gleichen Umständen auch von einem fremden Dritten erhalten könnte. Der Gegenbeweis ist auf den Zeitpunkt der ursprünglichen Kreditaufnahme oder des schädlichen Stehenlassens des Darlehens zu führen." },
+      { text: "Für Zwecke des Gegenbeweises sind aber nur die eigenen Sicherheiten der darlehensnehmenden Kapitalgesellschaft zu berücksichtigen (sog. stand-alone-Basis), d.h. die Darlehensgewährung eines Dritten darf nicht von Sicherheiten der Anteilseigner oder anderer Personen (z.B. durch Bürgschaft) abhängen. Danach dürfte der Gegenbeweis dann schon unmöglich sein, wenn die darlehensnehmende Kapitalgesellschaft bereits Bankdarlehen erhalten hat, die durch Gesellschafterbürgschaften oder sonstige Sicherheiten des Gesellschafters abgesichert sind. Denn in diesem Fall dokumentiert das Verhalten eines Dritten (z.B. der Bank) bereits die Abhängigkeit seiner Finanzierungsentscheidung von den Sicherheiten einer anderen Person, so dass die Gesellschaft selbst aus eigener Kraft nicht kreditwürdig sein dürfte." },
+      { text: "Dadurch ist auch geklärt, dass in Fällen einer Gewinnminderung aus einer Bürgschafts-Inanspruchnahme bzw. Garantieübernahmen der Gegenbeweis nicht geführt werden kann. Denn die übernommene Bürgschaft ist das eigentliche Sicherungsmittel, welches die darlehensnehmende Gesellschaft erst in die Lage versetzt hat, das Darlehen zu erhalten." },
+      { typ: "tabelle", spalten: ["Ausgestaltung des Darlehens", "Fremdüblich?", "Gegenbeweis möglich?"], zeilen: [
+        ["unverzinslich", "nein", "nein – ein Drittvergleich ist nicht möglich"],
+        ["verzinslich, aber ohne Sicherheiten", "nein", "nein – ein Drittvergleich ist nicht möglich"],
+        ["verzinslich und besichert, aber in der Krise nicht abgezogen", "nein", "nein – ein Drittvergleich ist nicht möglich"],
+        ["verzinslich, besichert, in der Krise abgezogen worden", "ja", "ja – dann ist der Nachweis über den Drittvergleich zu führen"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die drei Negativfälle der Gesetzesbegründung schließen einander nicht aus, sondern bauen aufeinander auf – sie prüfen der Reihe nach Verzinsung, Besicherung und Verhalten in der Krise. Erst wenn alle drei Hürden genommen sind, ist der Gegenbeweis überhaupt eröffnet; er ist damit aber noch nicht geführt, denn dann folgt erst der eigentliche Nachweis. Praktisch bedeutet das: Das typische Gesellschafterdarlehen, das in der Krise gerade **nicht** zurückgefordert wird, scheidet schon an der dritten Hürde aus – und genau diese Fälle sind es, in denen es zur Gewinnminderung kommt. Der Gegenbeweis ist deshalb weniger eine Ausnahme als eine theoretische Möglichkeit." },
+      { text: "Anmerkung zur Unterscheidung Drittvergleich / Fremdvergleich (eigene Ergänzung): Die Klammer der Quelle – „einen Drittvergleich (nicht: Fremdvergleich)“ – ist keine Wortklauberei, sondern verschiebt den Maßstab. Der **Fremdvergleich** des § 8 Abs. 3 Satz 2 KStG fragt, ob die **Konditionen** angemessen sind: Wäre der Zinssatz auch mit einem Fremden so vereinbart worden? Der **Drittvergleich** des § 8b Abs. 3 Satz 7 KStG fragt darüber hinaus, ob die Gesellschaft das Kapital **überhaupt** bekommen hätte: Hätte ihr ein Dritter bei sonst gleichen Umständen dieses Geld gegeben? Ein Darlehen kann also zu völlig marktüblichen Konditionen ausgereicht sein und den Drittvergleich trotzdem nicht bestehen, weil keine Bank der Gesellschaft überhaupt Geld geliehen hätte. Deshalb genügen abstrakte Kreditwürdigkeitsanalysen nicht – verlangt sind konkrete Angebote eines Kreditinstituts." },
+      { text: "Anmerkung zur stand-alone-Basis (eigene Ergänzung): Sie ist die schärfste Waffe der Finanzverwaltung in diesem Abschnitt, weil sie den Gegenbeweis in der Praxis regelmäßig von vornherein zunichtemacht. Maßgeblich sind allein die **eigenen** Sicherheiten der darlehensnehmenden Gesellschaft – jede Hilfe des Gesellschafters ist auszublenden. Die Quelle zieht daraus zwei Schlüsse, die für die Klausur wichtig sind: Erstens ist der Gegenbeweis schon dann kaum noch zu führen, wenn die Gesellschaft überhaupt Bankdarlehen hat, die durch Gesellschafterbürgschaften besichert sind – denn das Verhalten der Bank dokumentiert ja gerade, dass sie der Gesellschaft allein nicht getraut hat. Zweitens ist er im **Bürgschaftsfall** des Abschnitts 4.2.4 begrifflich ausgeschlossen: Wer bürgt, liefert damit das Sicherungsmittel, ohne das die Gesellschaft das Darlehen nie erhalten hätte." },
+      { text: "Anmerkung zum Prüfungszeitpunkt (eigene Ergänzung): Der Gegenbeweis ist nach dem BFH auf **zwei** mögliche Zeitpunkte zu führen – die ursprüngliche Kreditaufnahme oder das schädliche Stehenlassen. Das ist die Brücke zum Abschnitt 4.2.7: Auch wer ein zunächst einwandfreies Darlehen später in der Krise stehen lässt, trifft in diesem Moment eine neue Finanzierungsentscheidung, und sie ist es, die dann zu prüfen ist. Ein Darlehen, das bei Hingabe jedem Drittvergleich standgehalten hätte, kann durch bloßes Nichtstun in den Anwendungsbereich des Satzes 4 hineinwachsen." },
+    ],
+  },
+  {
+    id: "kst-t2-37",
+    kapitel: "37",
+    abschnittNr: "4.2.9 und 4.3",
+    title: "4.2.9 Wechselkursverluste · 4.3 Gewerbesteuerliche Auswirkungen – Kapitel 4 ist vollständig",
+    thema: "Seit dem VZ 2022 nimmt § 8b Abs. 3 Satz 6 KStG Wechselkursverluste aus Fremdwährungsdarlehen vom Abzugsverbot aus – zum Gleichklang mit den stets steuerpflichtigen Wechselkursgewinnen. Gewerbesteuerlich gibt es zu § 8b Abs. 3 KStG keine Ausnahmen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 4.2.9 und 4.3 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 3 Satz 6 KStG",
+      "§ 8b Abs. 3 Satz 4 und 5 KStG",
+      "§ 7 Satz 1 GewStG",
+      "BFH vom 24.04.2024, BStBl. II 2024, 785 und 790",
+    ],
+    themen: ["Wechselkursverluste", "Fremdwährungsdarlehen", "Gleichklang", "VZ 2022", "Gewerbesteuer"],
+    bloecke: [
+      { text: "Seit VZ 2022 sieht § 8b Abs. 3 Satz 6 KStG vor, dass Wechselkursverluste eines in einer Fremdwährung abgewickelten Darlehens nicht als Gewinnminderung i.S. des § 8b Abs. 3 Satz 4 und 5 KStG gelten und daher steuerlich abziehbar bleiben. Dadurch wird ein Gleichklang mit entsprechenden Wechselkursgewinnen erreicht, die mangels gesetzlichen Tatbestandes besteuert werden müssen." },
+      { text: "Bis VZ 2021 unterliegen die daraus resultierenden Gewinnminderungen hingegen der Einschränkung des § 8b Abs. 3 Satz 4 f. KStG." },
+      { text: "Beispiel: Die A-GmbH ist zu 70 % an der in den USA ansässigen T-Corp. beteiligt. In 2020 gab sie ihrer Tochtergesellschaft ein in US-D abgewickeltes Darlehen von 10.000.000 $. Der €-Wechselkurs belief sich zu diesem Zeitpunkt auf 8.400.000 €." },
+      { text: "Das Darlehen wird der A-GmbH in 2025 vollständig zurückgezahlt. Im Zeitpunkt der Darlehensrückzahlung betrug der €-Wechselkurs 8.100.000 €." },
+      { text: "Lösung: Im Zeitpunkt der Darlehensrückzahlung erleidet die A-GmbH einen Wechselkursverlust von 300.000 €. Die Rückzahlung ist buchhalterisch daher wie folgt zu erfassen:" },
+      { typ: "tabelle", spalten: ["Soll", "Betrag", "Haben", "Betrag"], zeilen: [
+        ["Bank", "8.100.000 €", "Darlehensforderung", "8.400.000 €"],
+        ["Aufwand", "300.000 €", "", ""],
+      ] },
+      { text: "Dieser Aufwand vollständig abziehbar. Denn § 8b Abs. 3 Satz 6 KStG stellt klar, dass der Wechselkursverlust keine Gewinnminderung i.S. des § 8b Abs. 3 Satz 4 KStG darstellt, auch wenn diese mit einem solchen Gesellschafterdarlehen im Zusammenhang steht. (Das fehlende „ist“ steht so in der Quelle.)" },
+      { text: "Rechenprobe (eigene Ergänzung): 8.400.000 € ./. 8.100.000 € = 300.000 € Wechselkursverlust. Der Buchungssatz geht auf: Soll 8.100.000 € + 300.000 € = 8.400.000 € Haben. Die Dollarsumme selbst bleibt mit 10.000.000 $ unverändert – der Verlust entsteht allein aus der Kursbewegung, und der ursprüngliche Kurs lag bei 0,84 € je Dollar, der Rückzahlungskurs bei 0,81 €." },
+      { text: "Anmerkung zum Gleichklang (eigene Ergänzung): Die Begründung der Vorschrift ist eine Symmetrieüberlegung, die man von der anderen Seite her lesen muss. Ein Wechselkurs**gewinn** aus einem Gesellschafterdarlehen ist immer steuerpflichtig, weil § 8b KStG dafür keinen Befreiungstatbestand kennt – Absatz 2 erfasst nur Anteilsveräußerungen, nicht Darlehensforderungen. Wären die Verluste unter Satz 4 gefallen, hätte das Gesetz Gewinne besteuert und Verluste nicht zum Abzug zugelassen; die reine Kursbewegung wäre einseitig zulasten des Steuerpflichtigen erfasst worden. Satz 6 stellt den Gleichlauf her. In Altfällen bis einschließlich VZ 2021 gilt das aber nicht – dort bleibt es nach der Rechtsprechung des BFH beim Abzugsverbot, und genau das ist die Übergangsfalle dieses Abschnitts." },
+      { text: "Anmerkung zur Abgrenzung (eigene Ergänzung): Ausgenommen ist nur der **Wechselkurs**verlust, nicht jede Gewinnminderung eines Fremdwährungsdarlehens. Fällt dasselbe Dollardarlehen aus, weil die T-Corp. nicht zahlen kann, greift § 8b Abs. 3 Satz 4 KStG unverändert. Bei einem teilweisen Ausfall ist der Vorgang also aufzuteilen: Der auf die Kursentwicklung entfallende Teil bleibt abziehbar, der auf die Bonität entfallende Teil ist hinzuzurechnen." },
+      { typ: "titel", text: "4.3 Gewerbesteuerliche Auswirkungen" },
+      { text: "Für sämtliche Gewinnminderungen i.S. des § 8b Abs. 3 KStG existieren gewerbesteuerlich keine Ausnahmen. Diese sind somit in der Ausgangsgröße i.S. des § 7 Satz 1 GewStG bereits nicht mehr enthalten und unterliegen auch gewerbesteuerlich keiner Hinzurechnungsnorm." },
+      { text: "Anmerkung zur Gewerbesteuer (eigene Ergänzung): Der Abschnitt kommt mit zwei Sätzen aus, und das aus demselben Grund wie bei den Veräußerungsgewinnen in Kapitel 3: Die außerbilanzielle Hinzurechnung nach § 8b Abs. 3 KStG wirkt über § 7 Satz 1 GewStG unmittelbar auf den Gewerbeertrag durch, weil dieser an den nach körperschaftsteuerlichen Vorschriften ermittelten Gewinn anknüpft. Eine eigene gewerbesteuerliche Korrektur ist deshalb weder nötig noch vorhanden – und anders als bei den Ausschüttungen des Kapitels 2 gibt es hier auch keine Vorschrift, die das Ergebnis wieder zurückdreht. Das ist bemerkenswert, weil § 8b KStG damit an drei Stellen völlig unterschiedlich auf die Gewerbesteuer durchschlägt: Bei den Ausschüttungen (Absatz 1) laufen Schachtelprivileg und Hinzurechnung nach § 8 Nr. 5 GewStG nebeneinander und können zu abweichenden Ergebnissen führen, bei den Veräußerungsgewinnen (Absatz 2) und bei den Gewinnminderungen (Absatz 3) läuft die körperschaftsteuerliche Behandlung dagegen ohne jede Korrektur durch." },
+      { text: "Damit ist das Kapitel 4 der Quelle vollständig übernommen. (Eigene Einordnung:) Es folgt das Kapitel 5 zur mittelbaren Beteiligung über eine Personengesellschaft." },
     ],
   },
 ];

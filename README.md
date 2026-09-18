@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 35 Kapitel mit 440 Abschnitten und 29
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 37 Kapitel mit 470 Abschnitten und 31
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2628,6 +2628,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gegenargumentation ab: Dass das Grundgeschäft voll gewinnwirksam war, ist unerheblich, weil der
   Anteilseigner mit der Stundung eine davon **abtrennbare Finanzierungsentscheidung** trifft – und
   nur diese ist gesellschaftsrechtlich veranlasst.
+  Der **Gegenbeweis** des § 8b Abs. 3 Satz 7 KStG bleibt daneben weitgehend theoretisch. Die
+  Beweislast liegt beim Steuerpflichtigen, und die Gesetzesbegründung schließt ihn schon dann aus,
+  wenn das Darlehen unverzinslich ist, keine Sicherheiten vereinbart wurden oder es in der Krise
+  nicht abgezogen wird – also gerade in den Fällen, in denen es überhaupt zur Gewinnminderung
+  kommt. Verlangt ist ausdrücklich ein **Drittvergleich**, nicht ein Fremdvergleich: Nicht die
+  Angemessenheit der Konditionen ist die Frage, sondern ob die Gesellschaft das Kapital bei sonst
+  gleichen Umständen überhaupt von einem Dritten erhalten hätte. Abstrakte Kreditwürdigkeitsanalysen
+  genügen dafür nicht, verlangt sind konkrete Angebote eines Kreditinstituts. Und weil nur die
+  **eigenen** Sicherheiten der Gesellschaft zählen (sog. stand-alone-Basis), scheitert der Nachweis
+  regelmäßig schon daran, dass andere Bankdarlehen durch Gesellschafterbürgschaften besichert sind –
+  denn damit hat ein Dritter bereits dokumentiert, dass er der Gesellschaft allein nicht getraut hat;
+  im Bürgschaftsfall des Abschnitts 4.2.4 ist er begrifflich ausgeschlossen. Zu führen ist er auf
+  den Zeitpunkt der ursprünglichen Kreditaufnahme **oder** des schädlichen Stehenlassens.
+  Ausgenommen vom Abzugsverbot sind allein die **Wechselkursverluste**: Seit dem VZ 2022 stellt
+  § 8b Abs. 3 Satz 6 KStG klar, dass sie keine Gewinnminderung i. S. des Satzes 4 sind – zum
+  Gleichklang mit den Kursgewinnen, die mangels Befreiungstatbestand stets steuerpflichtig sind.
+  Bis einschließlich VZ 2021 gilt das nicht, dort bleibt es nach dem BFH beim Abzugsverbot. Erfasst
+  ist dabei nur der Kursverlust selbst; fällt dasselbe Fremdwährungsdarlehen wegen mangelnder
+  Bonität aus, greift Satz 4 unverändert. **Gewerbesteuerlich** kommt das Kapitel mit zwei Sätzen
+  aus: Für Gewinnminderungen i. S. des § 8b Abs. 3 KStG gibt es keine Ausnahmen, sie sind in der
+  Ausgangsgröße des § 7 Satz 1 GewStG schon nicht mehr enthalten und unterliegen auch keiner
+  Hinzurechnungsnorm. **Damit ist auch das Kapitel 4 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
