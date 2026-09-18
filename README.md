@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit zehn Kapitel mit 115 Abschnitten und sechs
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit zwölf Kapitel mit 144 Abschnitten und acht
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2450,6 +2450,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   nötig – erst die Abzugssteuern nach § 10 Nr. 2 KStG hinzurechnen, um die Bruttoausschüttung
   herzustellen, dann diese nach § 8b Abs. 1 KStG abziehen. Im Ergebnis bleiben genau die 5 %
   nicht abziehbaren Betriebsausgaben im Einkommen.
+  Die **Betriebsausgabenpauschalierung** des § 8b Abs. 5 KStG wirkt in zwei Richtungen: Die 5 %
+  werden auch dann hinzugerechnet, wenn überhaupt keine Beteiligungsaufwendungen angefallen sind
+  (das Bundesverfassungsgericht hat diese Typisierung gebilligt) – dafür bleiben die
+  **tatsächlichen** Aufwendungen in voller Höhe abziehbar, weil § 8b Abs. 5 Satz 2 KStG sogar
+  § 3c Abs. 1 EStG ausschließt. Bei hohen Finanzierungskosten ist die Pauschale deshalb günstiger
+  als die allgemeine Regel. Sie greift auch bei **DBA-Schachteldividenden**, weil sie keine
+  Gewinnbesteuerung ist und das Abkommen nur die Einnahmen freistellt, nicht die Einkünfte.
+  Das **gewerbesteuerliche Schachtelprivileg** des § 9 Nr. 2a GewStG geht in drei Punkten eigene
+  Wege: Es verlangt **15 %** statt 10 %, kennt **keinen Rückbezug** des unterjährigen Erwerbs – und
+  berücksichtigt dafür auch **mittelbare** Beteiligungen. Die Abweichungen wirken in beide
+  Richtungen, was zwei spiegelbildliche Fälle der Quelle zeigen: Wer am 15.04. eine 10%ige
+  Beteiligung erwirbt, ist körperschaftsteuerlich fast vollständig freigestellt (Einkommen 5.000 €),
+  gewerbesteuerlich aber voll belastet (Gewerbeertrag 100.000 € nach Hinzurechnung gemäß
+  § 8 Nr. 5 GewStG); wer 8 % unmittelbar und 7 % mittelbar hält, versteuert körperschaftsteuerlich
+  die vollen 100.000 € als Streubesitz, gewerbesteuerlich dagegen nichts.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

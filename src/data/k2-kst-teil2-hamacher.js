@@ -13,9 +13,10 @@
    Anwendungsbereich) ist vollständig. Aus Kapitel 2 sind der Begriff der
    Gewinnausschüttung (2.1.1) und das Korrespondenzprinzip (2.1.2) übernommen.
    Damit ist der Abschnitt 2.1 (Gegenstand der Steuerfreistellung) vollständig –
-   einschließlich der Mindestbeteiligungsquote und der Kapitalertragsteuer. Es
-   folgen die Betriebsausgabenpauschalierung (2.2) und die gewerbesteuerliche
-   Behandlung (2.3) sowie die Kapitel 3 bis 6; der Campus weist den Stand aus.
+   einschließlich der Mindestbeteiligungsquote und der Kapitalertragsteuer. Dazu
+   die Betriebsausgabenpauschalierung (2.2) und die Tatbestandsvoraussetzungen
+   des gewerbesteuerlichen Schachtelprivilegs (2.3.1.1). Es folgen der Rest des
+   Abschnitts 2.3 und die Kapitel 3 bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -401,6 +402,90 @@ export const kstTeil2 = [
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie führt die beiden Korrekturschritte der Quelle zusammen und ergänzt die Fünf-Prozent-Pauschale aus dem Hinweis, um das Gesamtergebnis sichtbar zu machen. Die Probe: Von der Ausschüttung bleiben am Ende genau 5.000 € im Einkommen – die fingierten nicht abziehbaren Betriebsausgaben. Rechnerisch ist das gleichbedeutend damit, dass 95 % der Ausschüttung steuerfrei sind. Die einbehaltene Kapitalertragsteuer von 26.375 € (25 % von 100.000 € zuzüglich 5,5 % Solidaritätszuschlag darauf, also 25.000 € + 1.375 €) belastet das Einkommen nicht, weil sie hinzugerechnet und anschließend auf die Steuerschuld angerechnet wird." },
       { text: "Anmerkung zur Reihenfolge (eigene Ergänzung): Der Fall zeigt, warum die Reihenfolge der beiden Schritte nicht beliebig ist. Die Steuerfreistellung erfasst die **Brutto**ausschüttung; wer die Abzugssteuern nicht zuvor hinzurechnet, stellt nur 73.625 € frei und verliert die Differenz von 26.375 € dauerhaft – obwohl sie über die Anrechnung ohnehin zurückkommt. Deshalb steht § 10 Nr. 2 KStG in der Prüfungsreihenfolge vor § 8b Abs. 1 KStG." },
+    ],
+  },
+  {
+    id: "kst-t2-11",
+    kapitel: "11",
+    abschnittNr: "2.2",
+    title: "2.2 Betriebsausgabenpauschalierung bei Gewinnausschüttungen",
+    thema: "Fünf Prozent der steuerfreien Bruttoausschüttung gelten als nicht abziehbare Betriebsausgaben – unabhängig davon, ob überhaupt welche angefallen sind, und ohne dass die tatsächlichen Beteiligungsaufwendungen gekürzt würden. Auch DBA-Schachteldividenden sind erfasst, weil die Pauschale keine Gewinnbesteuerung ist",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 Satz 1 KStG", "§ 8b Abs. 4 Satz 7 KStG",
+      "§ 8b Abs. 5 Satz 1 KStG", "§ 8b Abs. 5 Satz 2 KStG",
+      "§ 10 Nr. 2 KStG", "§ 3c Abs. 1 EStG", "§ 3 Nr. 41a EStG", "§ 10 AStG",
+      "BFH vom 29.08.2012, BStBl. II 2013, 89, Rz. 16",
+      "BFH vom 10.01.2007, BStBl. II 2007, 585",
+      "BFH vom 26.04.2017, BStBl. II 2018, 492",
+      "BFH-Beschluss vom 22.09.2016, I R 29/15",
+      "BVerfG-Beschluss vom 12.10.2010, 1 BvL 12/07",
+      "Gosch in Gosch, KStG § 8b Rz. 483",
+    ],
+    themen: ["Betriebsausgabenpauschalierung", "Bruttoeinnahmen", "Vereinfachungsregelung", "Kein § 3c Abs. 1 EStG", "DBA-Schachteldividende", "Streubesitz"],
+    bloecke: [
+      { typ: "titel", text: "2.2.1 Fiktion von nicht abziehbaren Betriebsausgaben" },
+      { text: "Sämtliche nach § 8b Abs. 1 Satz 1 KStG steuerfreien Gewinnausschüttungen lösen zugleich eine Betriebsausgabenpauschalierung aus. Denn nach § 8b Abs. 5 Satz 1 KStG gelten 5 % der steuerfreien (Brutto-)Gewinnausschüttung als nicht abziehbare Betriebsausgaben und sind im Rahmen der Einkommensermittlung wieder außerbilanziell hinzuzurechnen. Die Betriebsausgabenpauschalierung führt aber nicht zu einer „anteiligen“ Besteuerung der Gewinnausschüttung, weil es sich diesbezüglich nur um nicht abziehbare Betriebsausgaben handelt." },
+      { text: "Bemessungsgrundlage dafür sind die steuerfreien Einnahmen i. S. des § 8b Abs. 1 Satz 1 KStG. Dabei handelt es sich um die Bruttoeinnahmen, also inkl. einbehaltener Kapitalertragsteuer und Solidaritätszuschlag bzw. ausländischer Quellensteuer. Dies gilt unabhängig davon, ob die einbehaltenen Abzugssteuern nach § 10 Nr. 2 KStG bei der Einkommensermittlung hinzuzurechnen sind." },
+      { text: "Zu der Betriebsausgabenpauschalierung kommt es selbst dann, wenn die Kapitalgesellschaft tatsächlich keine mit der Beteiligung zusammenhängenden Betriebsausgaben hat. Denn diese stellt lediglich eine Vereinfachungsregelung dar, bei welcher die tatsächlichen beteiligungsbezogenen Betriebsausgaben ohne Bedeutung sind. Andererseits können die tatsächlichen mit der Beteiligung im Zusammenhang stehenden Betriebsausgaben vollständig abgezogen werden. Denn selbst die Ausschlussregelung des § 3c Abs. 1 EStG kann nicht angewendet werden (§ 8b Abs. 5 Satz 2 KStG). Lediglich in den Fällen der Streubesitzregelung ist die Anwendung der Betriebsausgabenpauschalierung ausgeschlossen (§ 8b Abs. 4 Satz 7 KStG). Zur Anwendung der Betriebsausgabenpauschalierung kommt es zudem in den Fällen, in denen die Gewinnausschüttung auf einer Hinzurechnungsbesteuerung i. S. des § 10 AStG beruht und eigentlich dem Tatbestand des § 3 Nr. 41a EStG entsprechen würde." },
+      { text: "Merke: Jede steuerfreie (Brutto-)Ausschüttung i. S. des § 8b Abs. 1 Satz 1 KStG führt zur Anwendung der Betriebsausgabenpauschalierung des § 8b Abs. 5 KStG. Die tatsächlichen beteiligungsbezogenen Betriebsausgaben sind hierfür ohne Bedeutung und sind steuerlich grundsätzlich voll abziehbar." },
+      { text: "Anmerkung zur Doppelwirkung der Pauschale (eigene Ergänzung): Der Abschnitt enthält eine Aussage, die für den Steuerpflichtigen einmal nachteilig und einmal vorteilhaft ist, und beide Seiten gehören zusammen. Nachteilig: Die 5 % werden auch dann hinzugerechnet, wenn überhaupt keine Beteiligungsaufwendungen angefallen sind – das Bundesverfassungsgericht hat diese Typisierung gebilligt. Vorteilhaft: Wer **tatsächlich** hohe Beteiligungsaufwendungen hat, darf sie in voller Höhe abziehen, weil § 8b Abs. 5 Satz 2 KStG sogar § 3c Abs. 1 EStG ausschließt. Die Pauschale ist also kein Abzugsverbot, sondern ein Ersatz dafür – und bei hohen Finanzierungskosten für eine Beteiligung günstiger als die allgemeine Regel." },
+      { typ: "titel", text: "2.2.2 Anwendung bei DBA-Schachteldividenden" },
+      { text: "§ 8b Abs. 5 KStG kommt auch in Fällen einer DBA-Schachteldividende zur Anwendung, d. h. auch wenn diese bereits nach den Grundsätzen eines DBA vollständig von der Besteuerung auszunehmen ist. Denn die Betriebsausgabenpauschalierung führt gerade nicht zu einer Gewinnbesteuerung (des Ausschüttungsertrags) und steht daher schon aus diesem Grunde nicht in Konkurrenz zu den DBA-Schachtelprivilegien. Zwar beinhaltet die Betriebsausgabenpauschalierung des § 8b Abs. 5 KStG rechnerisch auch eine Teilmenge des steuerfreien Beteiligungsertrags i. S. des § 8b Abs. 1 KStG. Es bleibt aber infolge der gesetzlichen Fiktion dabei, dass es sich bei diesem Betrag nicht um einen besteuerten Gewinn, sondern um nicht abziehbare Betriebsausgaben handelt. Die Betriebsausgabenpauschalierung ist lediglich das Ergebnis der innerstaatlichen Gewinnermittlung, die der Anwendung des DBA-Schachtelprivilegs nachgelagert ist. Sie bleibt daher vom Abkommensrecht unberührt, weil abkommensrechtlich gerade keine Regelung darüber besteht, in welcher Weise ein Vertragsstaat die mit den Schachteldividenden zusammenhängenden Betriebsausgaben berücksichtigen und ermitteln muss. Zudem bezieht sich die DBA-Freistellung in aller Regel auch nur auf die Einnahmen aus der Gewinnausschüttung, nicht aber auf die Einkünfte." },
+      { text: "Anmerkung zur Argumentationskette (eigene Ergänzung): Die Begründung der Quelle ist die Antwort auf einen naheliegenden Einwand, den sie selbst formuliert – rechnerisch sind die 5 % eben doch ein Teil der freigestellten Dividende. Sie trägt vier Argumente vor, die nebeneinander stehen: Es handelt sich der Fiktion nach um Betriebsausgaben, nicht um Gewinn; die Gewinnermittlung ist der Abkommensanwendung nachgelagert; das Abkommen regelt die Behandlung von Betriebsausgaben überhaupt nicht; und die Freistellung erfasst die **Einnahmen**, nicht die **Einkünfte**. Das letzte Argument trägt die anderen: Wo das Abkommen nur die Einnahmen freistellt, bleibt die Ermittlung der Einkünfte – und damit der Betriebsausgabenabzug – Sache des nationalen Rechts." },
+    ],
+  },
+  {
+    id: "kst-t2-12",
+    kapitel: "12",
+    abschnittNr: "2.3.1.1",
+    title: "2.3 Gewerbesteuerliche Behandlung – 2.3.1.1 Tatbestandsvoraussetzungen des Schachtelprivilegs",
+    thema: "Die Gewerbesteuer geht in drei Punkten eigene Wege: Sie verlangt 15 % statt 10 %, kennt keinen Rückbezug des unterjährigen Erwerbs – und berücksichtigt dafür auch mittelbare Beteiligungen. Jede der drei Abweichungen kann das Ergebnis umkehren",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.3.1.1 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 4 KStG", "§ 8b Abs. 4 Satz 1 KStG",
+      "§ 8b Abs. 4 Satz 6 KStG", "§ 8b Abs. 4 Satz 7 KStG", "§ 8b Abs. 5 KStG",
+      "§ 7 Satz 1 GewStG", "§ 8 Nr. 5 GewStG",
+      "§ 9 Nr. 2a GewStG", "§ 9 Nr. 7 und Nr. 8 GewStG",
+      "§ 10 Abs. 2 GewStG", "§ 14 GewStG",
+      "R 9.3 Satz 5 GewStR", "H 9.3 GewSt „Mittelbare Beteiligung“",
+      "BFH vom 18.12.2019, BStBl. II 2020, 690",
+    ],
+    themen: ["Gewerbesteuerliches Schachtelprivileg", "15-Prozent-Grenze", "Kein Rückbezug", "Mittelbare Beteiligung", "Hinzurechnung nach § 8 Nr. 5 GewStG", "Erhebungszeitraum"],
+    bloecke: [
+      { text: "Ausgangsbetrag für die Ermittlung des Gewerbeertrags ist das nach den Vorschriften des Körperschaftsteuergesetzes ermittelte Einkommen (§ 7 Satz 1 GewStG). Die Steuerfreiheit i. S. des § 8b Abs. 1 KStG und die Betriebsausgabenpauschalierung nach § 8b Abs. 5 KStG beeinflussen somit auch diese Ausgangsgröße. Hinsichtlich der Gewerbesteuer sind hinsichtlich der Gewinnausschüttungen die Schachtelprivilegien des § 9 Nr. 2a und Nr. 7 und 8 GewStG zu beachten, die von § 8b Abs. 1 KStG bzw. § 8b Abs. 4 KStG abweichen:" },
+      { text: "§ 9 Nr. 2a GewStG führt zur Gewerbesteuerfreiheit der Gewinnausschüttung und setzt dafür stichtagsbezogen voraus, dass die Beteiligung an der inländischen Gesellschaft" },
+      { text: "• zu Beginn des Erhebungszeitraums bereits bestanden hat und" },
+      { text: "• mindestens 15 % des Nenn- bzw. Stammkapitals umfasst." },
+      { text: "Für die Beteiligungsquote sind ausschließlich die stichtagsbezogenen Voraussetzungen zu Beginn des jeweiligen Erhebungszeitraums maßgeblich. Dies ist in aller Regel der 01.01. bzw. bei einem Neugründungsfall kann dies ausnahmsweise auch ein unterjähriger Stichtag sein. Bei einem abweichenden Wirtschaftsjahr ist dafür jeweils auf den Beginn des Erhebungszeitraums abzustellen, in welchem der Gewerbeertrag als bezogen gilt (siehe § 10 Abs. 2 und § 14 GewStG). Der BFH hat mit Urteil vom 18.12.2019 die Verfassungsmäßigkeit dieser Norm bestätigt." },
+      { text: "Diesbezüglich sind folgende Unterschiede zu § 8b KStG hervorzuheben:" },
+      { text: "• § 8b Abs. 4 KStG sieht eine Mindestbeteiligungsquote von 10 % vor, so dass es in den Fällen einer Beteiligungsquote zwischen 10 % und 15 % zu einer Abweichung kommt. Die Gewinnausschüttung wäre in dieser Fallgruppe nicht körperschaftsteuerpflichtig, unterliegt aber nicht dem gewerbesteuerlichen Schachtelprivileg. In diesem Fall muss die Gewinnausschüttung nach § 8 Nr. 5 GewStG dem Gewerbeertrag wieder hinzugerechnet werden." },
+      { text: "• Gleiches gilt für den Betrachtungszeitpunkt der qualifizierten Beteiligungsquote, wofür nach § 8b Abs. 4 Satz 6 KStG ein steuerlicher Rückbezug bei einem mind. 10%igen Anteilserwerb zugelassen ist. § 9 Nr. 2a GewStG sieht einen solchen Rückbezug hingegen ausdrücklich nicht vor (Rechtsfolge: Hinzurechnung nach § 8 Nr. 5 GewStG)." },
+      { text: "• Für Zwecke des gewerbesteuerlichen Schachtelprivilegs sind neben unmittelbaren auch mittelbare Anteile zu berücksichtigen. § 8b Abs. 4 Satz 1 KStG erfasst lediglich unmittelbar gehaltene Anteile. In diesem Fall wäre der Gewerbeertrag nach § 9 Nr. 2a GewStG zu kürzen." },
+      { text: "Merke: Das gewerbesteuerliche Schachtelprivileg stellt auf eine 15%ige Mindestbeteiligung zu Beginn des Erhebungszeitraums ab. Dabei sind neben den unmittelbaren auch mittelbare Anteile zu berücksichtigen, nur ein fiktiver Rückbezug (wie bei § 8b Abs. 4 Satz 6 KStG) ist nicht vorgesehen." },
+      { typ: "tabelle", spalten: ["Merkmal", "§ 8b Abs. 4 KStG (Körperschaftsteuer)", "§ 9 Nr. 2a GewStG (Gewerbesteuer)"], zeilen: [
+        ["Mindestquote", "10 %", "15 %"],
+        ["Stichtag", "01.01. des Kalenderjahres des Zuflusses", "Beginn des Erhebungszeitraums"],
+        ["Rückbezug eines unterjährigen Erwerbs", "ja, bei Erwerb von mindestens 10 % (Satz 6)", "nein"],
+        ["Mittelbare Beteiligungen", "nein (Satz 1)", "ja"],
+        ["Rechtsfolge bei Nichterfüllung", "Steuerpflicht, aber keine Pauschale (Satz 7)", "Hinzurechnung nach § 8 Nr. 5 GewStG"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt die drei Abweichungen gegenüber, die die Quelle in ihren Spiegelstrichen nennt, und ergänzt die jeweilige Rechtsfolge. Bemerkenswert ist, dass die Abweichungen in **beide** Richtungen wirken. Die höhere Quote und der fehlende Rückbezug machen die Gewerbesteuer strenger; die Berücksichtigung mittelbarer Beteiligungen macht sie großzügiger. Es gibt deshalb Fälle, in denen eine Ausschüttung körperschaftsteuerfrei, aber gewerbesteuerpflichtig ist – und umgekehrt solche, in denen sie körperschaftsteuerpflichtig, aber gewerbesteuerfrei ist. Beide Beispiele der Quelle führen je einen dieser Fälle vor." },
+      { text: "Beispiel: Die A-GmbH (Wj. = Kj.) erwirbt am 15.04.2026 eine 10%ige Beteiligung an der C-GmbH. Am 30.06.2026 beschließt die C-GmbH eine offene Gewinnausschüttung von 100.000 €." },
+      { text: "Lösung: Die Gewinnausschüttung ist bei der A-GmbH nach § 8b Abs. 1 KStG steuerfrei. Denn der unterjährige Erwerb der 10%igen Beteiligung erfüllt den Tatbestand des § 8b Abs. 4 Satz 6 KStG. Das daraus resultierende Einkommen beträgt danach unter Berücksichtigung der Auswirkungen des § 8b Abs. 5 KStG 5.000 €." },
+      { text: "Für Zwecke der Gewerbesteuer ist § 9 Nr. 2a GewStG zu beachten. Danach sind ausschließlich die Verhältnisse zum Beginn des Erhebungszeitraums (01.01.2026) maßgebend, ohne dass ein Rückbezug einer unterjährig erworbenen Beteiligung zulässig wäre. Die Gewinnausschüttung unterliegt daher in 2026 der Gewerbesteuer. Sie muss nach § 8 Nr. 5 GewStG der Ausgangsgröße des § 7 GewStG wieder hinzugerechnet werden. Die Hinzurechnung beträgt 100.000 €, wobei die Betriebsausgabenpauschalierung von 5.000 € gegengerechnet wird. Denn durch Anwendung des § 8 Nr. 5 GewStG wird die in der gewerbesteuerlichen Ausgangsgröße enthaltene steuerfreie Gewinnausschüttung wieder zurückgedreht. Der Gewerbeertrag beträgt danach 100.000 € (Ausgangsgröße i. S. des § 7 GewStG: 5.000 € + 100.000 € ./. 5.000 €)." },
+      { text: "Beispiel: Die A-GmbH besitzt zum 01.01.2026 einen 8%igen Anteil an der B-GmbH und über ihre 100%ige Tochtergesellschaft T-GmbH einen weiteren 7%igen Anteil an der B-GmbH. In 2026 schüttet die B-GmbH einen Gewinn von 100.000 € an die A-GmbH aus." },
+      { text: "Lösung: Die Gewinnausschüttung unterliegt der Streubesitzregelung des § 8b Abs. 4 KStG, weil die A-GmbH nicht die notwendige Mindestbeteiligungsquote erfüllt. Denn für Zwecke dieser Regelung werden nur die unmittelbar gehaltenen Anteile berücksichtigt. Das sich daraus ergebende körperschaftsteuerliche Einkommen beträgt somit 100.000 €. Gemäß § 8b Abs. 4 Satz 7 KStG ist die Betriebsausgabenpauschalierung nicht anzuwenden." },
+      { text: "Gewerbesteuerlich ist für die Ermittlung der Mindestbeteiligungsquote hingegen auch der mittelbar gehaltene Anteil zu berücksichtigen. Somit erfüllt die A-GmbH zu Beginn des Erhebungszeitraums die Voraussetzungen des § 9 Nr. 2a GewStG. Die Gewinnausschüttung ist gewerbesteuerlich steuerfrei und daher bei Ermittlung des Gewerbeertrags wieder abzuziehen. Der Gewerbeertrag beträgt danach 0 €." },
+      { typ: "tabelle", spalten: ["Fall", "Körperschaftsteuerliches Einkommen", "Gewerbeertrag", "Grund der Abweichung"], zeilen: [
+        ["Erwerb von 10 % am 15.04., Ausschüttung 100.000 €", "5.000 € (steuerfrei, aber § 8b Abs. 5 KStG)", "100.000 € (5.000 € + 100.000 € ./. 5.000 €)", "kein Rückbezug im Gewerbesteuerrecht"],
+        ["8 % unmittelbar und 7 % mittelbar, Ausschüttung 100.000 €", "100.000 € (Streubesitz, keine Pauschale)", "0 €", "mittelbare Beteiligung zählt nur gewerbesteuerlich"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die beiden Fälle der Quelle sind bewusst spiegelbildlich gewählt und zeigen die Abweichung in ihrer schärfsten Form. Im ersten Fall ist die Ausschüttung körperschaftsteuerlich fast vollständig freigestellt und gewerbesteuerlich voll belastet; im zweiten Fall ist es genau umgekehrt. Beide Rechnungen gehen auf: Im ersten Fall neutralisiert die Hinzurechnung nach § 8 Nr. 5 GewStG die Freistellung, wobei die Pauschale gegengerechnet wird, damit sie sich nicht doppelt auswirkt – 5.000 € + 100.000 € ./. 5.000 € = 100.000 €. Im zweiten Fall wird das volle körperschaftsteuerliche Einkommen von 100.000 € nach § 9 Nr. 2a GewStG gekürzt, und es bleibt nichts übrig." },
     ],
   },
 ];

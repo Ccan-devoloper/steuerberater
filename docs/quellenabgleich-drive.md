@@ -10617,8 +10617,45 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.2; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.3.1.2; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 2.2 und 2.3.1.1 – Pauschalierung und Schachtelprivileg
+
+Quelle: dieselbe Datei; übernommen als Kapitel 11 und 12. Prüfung:
+`npm run check:k2-kst-teil2` (12 Kapitel, 144 Blöcke, 8 Tabellen).
+
+**Die Betriebsausgabenpauschalierung wirkt in zwei Richtungen**, und der Datensatz hebt beide
+Seiten hervor, weil sie zusammengehören. Nachteilig: Die 5 % werden auch dann hinzugerechnet, wenn
+überhaupt keine Beteiligungsaufwendungen angefallen sind – das Bundesverfassungsgericht hat diese
+Typisierung gebilligt. Vorteilhaft: Wer **tatsächlich** hohe Beteiligungsaufwendungen hat, darf sie
+in voller Höhe abziehen, weil § 8b Abs. 5 Satz 2 KStG sogar § 3c Abs. 1 EStG ausschließt. Die
+Pauschale ist also kein Abzugsverbot, sondern ein Ersatz dafür – und bei hohen
+Finanzierungskosten günstiger als die allgemeine Regel.
+
+**Die Argumentationskette zu den DBA-Schachteldividenden** ist im Datensatz geordnet, weil die
+Quelle vier Argumente nebeneinanderstellt, ohne ihr Verhältnis zu klären: Der Fiktion nach handelt
+es sich um Betriebsausgaben, nicht um Gewinn; die Gewinnermittlung ist der Abkommensanwendung
+nachgelagert; das Abkommen regelt die Behandlung von Betriebsausgaben überhaupt nicht; und die
+Freistellung erfasst die **Einnahmen**, nicht die **Einkünfte**. Das letzte Argument trägt die
+anderen.
+
+**Die drei Abweichungen des gewerbesteuerlichen Schachtelprivilegs** sind tabellarisch
+gegenübergestellt (eigene Ergänzung). Bemerkenswert ist, dass sie in **beide** Richtungen wirken:
+Die höhere Quote (15 % statt 10 %) und der fehlende Rückbezug machen die Gewerbesteuer strenger,
+die Berücksichtigung mittelbarer Beteiligungen macht sie großzügiger. Die beiden Beispiele der
+Quelle sind bewusst spiegelbildlich gewählt und führen je einen Fall vor:
+
+- Erwerb einer 10%igen Beteiligung am 15.04.: körperschaftsteuerlich fast vollständig freigestellt
+  (Einkommen 5.000 €), gewerbesteuerlich voll belastet (Gewerbeertrag 100.000 €).
+- 8 % unmittelbar und 7 % mittelbar: körperschaftsteuerlich Streubesitz mit vollen 100.000 €
+  Einkommen und ohne Pauschale (§ 8b Abs. 4 Satz 7 KStG), gewerbesteuerlich dagegen ein
+  Gewerbeertrag von 0 €.
+
+Beide Rechnungen sind nachvollzogen: Im ersten Fall neutralisiert die Hinzurechnung nach
+§ 8 Nr. 5 GewStG die Freistellung, wobei die Pauschale gegengerechnet wird, damit sie sich nicht
+doppelt auswirkt (5.000 € + 100.000 € ./. 5.000 € = 100.000 €); im zweiten Fall wird das volle
+Einkommen nach § 9 Nr. 2a GewStG gekürzt.
 
 ### KSt Teil II (Hamacher), Abschnitte 2.1.3.2.2 und 2.1.4 – Hinzuerwerb und Kapitalertragsteuer
 
