@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 14 Kapitel mit 168 Abschnitten und zehn
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 16 Kapitel mit 189 Abschnitten und zwölf
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2477,6 +2477,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ist sie dagegen nur gewerbesteuerfrei, zehren sie zuerst den Kürzungsrahmen des
   § 9 Nr. 2a Satz 3 GewStG auf – bis auf null, denn eine „negative“ Kürzung soll die Vorschrift
   gerade verhindern –, und § 8 Nr. 1 GewStG greift nur noch für einen Überhang.
+  Für **ausländische** Beteiligungen gilt mit § 9 Nr. 7 GewStG dasselbe wie im Inland – die Quelle
+  rechnet denselben Fall mit einer brasilianischen Beteiligung durch und kommt auf dieselben
+  Zahlen. Im **DBA-Fall** tritt § 9 Nr. 8 GewStG daneben, beide Vorschriften sind nebeneinander zu
+  prüfen und für den Steuerpflichtigen gilt die günstigere: Die Abkommensgrenze kann die 15 % auf
+  meist 10 % senken, während umgekehrt § 9 Nr. 7 GewStG den Stichtag liefert, den § 9 Nr. 8 GewStG
+  offenlässt. Greift **kein** Schachtelprivileg, dreht § 8 Nr. 5 GewStG die körperschaftsteuerliche
+  Freistellung wieder zurück, und zwar um **95 %** der Ausschüttung, weil die Pauschale
+  gegenzurechnen ist – sie hat das Einkommen schon belastet. War die Ausschüttung dagegen bereits
+  körperschaftsteuerlich Streubesitz, entfällt die Hinzurechnung ganz, weil sie ohnehin im
+  Gewerbeertrag steckt. Über allem steht der Vorrang des Abkommensrechts: Verbietet ein DBA die
+  Besteuerung der Dividende, ist nach dem BFH auch § 8 Nr. 5 GewStG verdrängt.
+  **Damit sind die Kapitel 1 und 2 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

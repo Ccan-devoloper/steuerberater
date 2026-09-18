@@ -10617,8 +10617,43 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.3.2; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Kapitel 3 bis 6; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 2.3.2 bis 2.3.4 – Auslandsfälle und Streubesitzdividende
+
+Quelle: dieselbe Datei; übernommen als Kapitel 15 und 16. Prüfung:
+`npm run check:k2-kst-teil2` (16 Kapitel, 189 Blöcke, 12 Tabellen). **Damit sind die Kapitel 1 und
+2 der Quelle vollständig.**
+
+**Die Quelle rechnet denselben Fall dreimal durch** – im Abschnitt 2.3.1.3 mit einer inländischen,
+im Abschnitt 2.3.2 mit einer brasilianischen Beteiligung – und kommt auf dieselben Zahlen. Der
+Datensatz vermerkt, dass genau das die Aussage ist: Für die ausländische Beteiligung im
+Nicht-DBA-Fall gilt nichts anderes, nur die Kürzungsvorschrift heißt § 9 Nr. 7 statt § 9 Nr. 2a
+GewStG.
+
+**Der DBA-Fall ist der einzige, der eine echte Prüfung verlangt**, und die Quelle beschreibt sie
+genau: § 9 Nr. 7 und § 9 Nr. 8 GewStG stehen **nebeneinander**, nicht in einem Rangverhältnis, und
+der Steuerpflichtige darf sich auf die günstigere berufen. Praktisch wirkt das in zwei Richtungen,
+was der Datensatz in einer als eigene Ergänzung gekennzeichneten Tabelle festhält: Die
+Abkommensgrenze kann die 15 % auf meist 10 % senken – und umgekehrt liefert § 9 Nr. 7 GewStG den
+Stichtag, den § 9 Nr. 8 GewStG offenlässt.
+
+**Die 95 % des § 8 Nr. 5 GewStG** sind im Datensatz hergeleitet: Hinzugerechnet werden 95.000 €
+statt 100.000 €, weil die Pauschale von 5.000 € das Einkommen bereits belastet hat und sonst
+doppelt erfasst würde. Eine zweite Beobachtung ist die Gegenprobe im letzten Satz der Quelle:
+Greift bereits **körperschaftsteuerlich** die Streubesitzregelung, entfällt die Hinzurechnung
+vollständig, weil die Ausschüttung dann ohnehin im Gewerbeertrag steckt. § 8 Nr. 5 GewStG
+korrigiert also nur, was § 8b Abs. 1 KStG zuvor herausgenommen hat.
+
+**Zum Abschluss des Kapitels 2** fasst der Datensatz die gewerbesteuerliche Prüfung in einem
+eigens gekennzeichneten „Merke“ in vier Schritten zusammen (Ausgangsgröße – Schachtelprivileg –
+Hinzurechnung nach § 8 Nr. 5 GewStG – Behandlung der Aufwendungen), mit dem Vorrang des
+Abkommensrechts als übergreifender Schranke.
+
+**Eine weitere Eigenheit der Quelle, wortlautgetreu übernommen und gekennzeichnet:** der fehlende
+Artikel in „an brasilianischen Kapitalgesellschaft“. Sämtliche Zahlen sind nachgerechnet und gehen
+auf.
 
 ### KSt Teil II (Hamacher), Abschnitte 2.3.1.2 und 2.3.1.3 – Kürzungsumfang und Beteiligungsaufwand
 

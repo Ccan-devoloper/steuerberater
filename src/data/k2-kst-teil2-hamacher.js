@@ -9,15 +9,12 @@
    und 6 weitere Tatbestände. Gegliedert wird hier nach den Abschnitten der
    Quelle; jeder Abschnitt steht als eigener Eintrag.
 
-   STAND DER ÜBERNAHME: Das Kapitel 1 (Bedeutung und persönlicher
-   Anwendungsbereich) ist vollständig. Aus Kapitel 2 sind der Begriff der
-   Gewinnausschüttung (2.1.1) und das Korrespondenzprinzip (2.1.2) übernommen.
-   Damit ist der Abschnitt 2.1 (Gegenstand der Steuerfreistellung) vollständig –
-   einschließlich der Mindestbeteiligungsquote und der Kapitalertragsteuer. Dazu
-   die Betriebsausgabenpauschalierung (2.2) und das gewerbesteuerliche
-   Schachtelprivileg mit Tatbestand, Kürzungsumfang und beteiligungsbezogenen
-   Betriebsausgaben (2.3.1). Es folgen die Abschnitte 2.3.2 bis 2.3.4 und die
-   Kapitel 3 bis 6; der Campus weist den Stand aus.
+   STAND DER ÜBERNAHME: Die Kapitel 1 (Bedeutung und persönlicher
+   Anwendungsbereich) und 2 (Steuerfreiheit von Gewinnausschüttungen) sind
+   vollständig – vom Begriff der Gewinnausschüttung über das Korrespondenzprinzip,
+   die Mindestbeteiligungsquote und die Kapitalertragsteuer bis zur
+   Betriebsausgabenpauschalierung und der gesamten gewerbesteuerlichen
+   Behandlung. Es folgen die Kapitel 3 bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -558,6 +555,75 @@ export const kstTeil2 = [
       ] },
       { text: "Anmerkung zur Tabelle und zur Systematik (eigene Ergänzung): Die drei Fälle unterscheiden sich darin, ob die Aufwendungen über § 8 Nr. 1 GewStG oder über den Kürzungsrahmen des § 9 Nr. 2a Satz 3 GewStG behandelt werden – und beide Wege schließen einander aus. Die Regel dahinter lautet: Wo die Ausschüttung körperschaftsteuerlich freigestellt ist, trennt die Pauschalierung den Zusammenhang zwischen Aufwand und Ertrag; die Aufwendungen bleiben dann „gewöhnliche“ Betriebsausgaben und werden allein nach § 8 Nr. 1 GewStG behandelt (erste Zeile). Wo die Ausschüttung dagegen körperschaftsteuerpflichtig und nur gewerbesteuerfrei ist, besteht der Zusammenhang fort, und die Aufwendungen zehren zuerst den Kürzungsrahmen auf (zweite und dritte Zeile). § 8 Nr. 1 GewStG greift dann nur noch für einen etwaigen Überhang." },
       { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Grundfall: 100.000 € ./. 50.000 € Aufwand = 50.000 €, davon ./. 100.000 € Freistellung + 5.000 € Pauschale = ./. 45.000 €; zuzüglich 12.500 € Hinzurechnung = ./. 32.500 €. Abwandlung: Einkommen 50.000 €, Kürzung 100.000 € ./. 50.000 € = 50.000 €, Gewerbeertrag 0 €. Alternative: Einkommen ./. 300.000 €, Kürzungsrahmen 100.000 € ./. 400.000 €, begrenzt auf 0 €; Überhang 300.000 €, davon (300.000 € ./. 200.000 € Freibetrag) × 25 % = 25.000 €; Gewerbeertrag ./. 300.000 € + 25.000 € = ./. 275.000 €. Zur Schreibweise der Quelle in der Alternative: Sie notiert den Kürzungsrahmen als „100.000 € ./. 100.000 €“, meint damit aber, dass die Aufwendungen ihn nur bis auf null aufzehren können – die vollen 400.000 € werden nicht abgezogen, weil die Vorschrift gerade eine negative Kürzung verhindern soll." },
+    ],
+  },
+  {
+    id: "kst-t2-15",
+    kapitel: "15",
+    abschnittNr: "2.3.2 und 2.3.3",
+    title: "2.3.2 Ausländisches Schachtelprivileg – 2.3.3 Schachtelprivileg in DBA-Fällen",
+    thema: "§ 9 Nr. 7 GewStG entspricht für ausländische Beteiligungen vollständig dem § 9 Nr. 2a GewStG. § 9 Nr. 8 GewStG stellt daneben für DBA-Fälle eine einheitliche Quote von 15 % fest – ist die Abkommensgrenze niedriger, gilt sie; beide Vorschriften sind nebeneinander zu prüfen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 2.3.2 und 2.3.3 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 4 KStG", "§ 8b Abs. 5 KStG",
+      "§ 7 GewStG", "§ 8 Nr. 1 GewStG",
+      "§ 9 Nr. 2a GewStG", "§ 9 Nr. 2a Satz 3 GewStG",
+      "§ 9 Nr. 7 Satz 1 GewStG", "§ 9 Nr. 7 Satz 2 GewStG",
+      "§ 9 Nr. 8 GewStG", "§ 9 Nr. 8 Satz 1 2. Halbsatz GewStG",
+    ],
+    themen: ["Internationales Schachtelprivileg", "DBA-Schachtelprivileg", "Günstigerprüfung", "Abkommensgrenze", "Kürzungsumfang"],
+    bloecke: [
+      { typ: "titel", text: "2.3.2 Ausländisches Schachtelprivileg" },
+      { text: "§ 9 Nr. 7 GewStG regelt das gewerbesteuerliche Schachtelprivileg im Zusammenhang mit einer Beteiligung an einer ausländischen Kapitalgesellschaft. Die gesetzlichen Tatbestände und Auswirkungen entsprechen vollkommen denen des § 9 Nr. 2a GewStG." },
+      { text: "Merke: Die Voraussetzungen des internationalen Schachtelprivilegs i. S. des § 9 Nr. 7 GewStG sind identisch mit denen des § 9 Nr. 2a GewStG." },
+      { text: "Beispiel: Die A-GmbH bezieht im EZ 2026 aus ihrer 50%igen Beteiligung an brasilianischen Kapitalgesellschaft (Stand: 01.01.2026, kein DBA-Staat) eine Gewinnausschüttung i. H. von 100.000 €. Damit im Zusammenhang stehen unstrittige Betriebsausgaben von 50.000 €. (Der fehlende Artikel „einer“ vor „brasilianischen“ steht so in der Quelle.)" },
+      { text: "Lösung: Die Gewinnausschüttung ist bei der A-GmbH steuerfrei (§ 8b Abs. 1 KStG, § 8b Abs. 4 KStG). Gleichzeitig kommt die Betriebsausgabenpauschalierung zur Anwendung (§ 8b Abs. 5 KStG). Daraus resultiert letztlich ein körperschaftsteuerliches Einkommen von ./. 45.000 € (50.000 € ./. 100.000 € + 5.000 €)." },
+      { text: "Für die Ermittlung des Gewerbeertrags bildet dieses Einkommen die Ausgangsgröße (§ 7 GewStG). Die bezogene Gewinnausschüttung ist als Schachteldividende nach § 9 Nr. 7 Satz 1 GewStG gewerbesteuerfrei. Die Betriebsausgabenpauschalierung gilt dabei nicht als Gewinnausschüttung (§ 9 Nr. 7 Satz 2 GewStG). Die tatsächlichen Betriebsausgaben müssten nach den Grundsätzen des § 8 Nr. 1 GewStG hinzugerechnet werden. Unter der Voraussetzung, dass der Freibetrag des § 8 Nr. 1 GewStG i. H. von 200.000 € überschritten ist, erfolgt in Höhe von 12.500 € eine Hinzurechnung. Der Gewerbeertrag beträgt daher ./. 32.500 €." },
+      { text: "Anmerkung zum Beispiel (eigene Ergänzung): Es ist bewusst dasselbe wie im Abschnitt 2.3.1.3, nur mit einer brasilianischen statt einer inländischen Beteiligung – und es endet bei denselben Zahlen. Genau das ist die Aussage: Für die ausländische Beteiligung im Nicht-DBA-Fall gilt nichts anderes. Die Prüfung läuft über § 9 Nr. 7 GewStG statt über § 9 Nr. 2a GewStG, das Ergebnis ist identisch." },
+      { typ: "titel", text: "2.3.3 Schachtelprivileg in DBA-Fällen" },
+      { text: "In § 9 Nr. 8 GewStG ist das gewerbesteuerliche DBA-Schachtelprivileg in klarstellender Weise verankert, wenn die ausschüttende Gesellschaft in einem DBA-Staat ansässig ist. Auch dabei gilt eine Mindestbeteiligungsquote von 15 %. Hintergrund dieser Regelung ist es, für gewerbesteuerliche Zwecke eine einheitliche Beteiligungsquote festzuschreiben. Einen Zeitpunkt oder eine entsprechende Mindestdauer, zu welchem die Mindestbeteiligungsquote erfüllt sein muss, sieht die Regelung aber nicht vor. Für diese Zwecke sind daher die Bestimmungen des jeweils einschlägigen DBA maßgebend, wenn sich nicht bereits aus der Anwendung des § 9 Nr. 7 Satz 1 GewStG eine Schachtelbegünstigung ergibt. Denn § 9 Nr. 7 Satz 1 GewStG gilt auch in den Fällen, in denen die ausländische Gesellschaft in einem DBA-Staat ansässig ist, d. h. beide Vorschriften sind nebeneinander zu prüfen und für den Stpfl. gilt somit die jeweils günstigere Regelung. Ist die im DBA verankerte Schachtelgrenze (wie üblich meistens 10 %) geringer als 15 %, ist die geringere Grenze anzuwenden (§ 9 Nr. 8 Satz 1 2. Halbsatz)." },
+      { text: "Der Kürzungsumfang des § 9 Nr. 8 GewStG entspricht dem des § 9 Nr. 2a GewStG, d. h. die Betriebsausgabenpauschalierung schlägt unverändert auf den Gewerbeertrag durch und eine Kostenkürzung nach § 9 Nr. 2a Satz 3 GewStG ist grundsätzlich zu beachten." },
+      { typ: "tabelle", spalten: ["Ansässigkeit der ausschüttenden Gesellschaft", "Einschlägige Kürzungsvorschrift", "Mindestquote", "Stichtag"], zeilen: [
+        ["Inland", "§ 9 Nr. 2a GewStG", "15 %", "Beginn des Erhebungszeitraums"],
+        ["Ausland ohne DBA", "§ 9 Nr. 7 GewStG", "15 %", "Beginn des Erhebungszeitraums"],
+        ["Ausland mit DBA", "§ 9 Nr. 7 und § 9 Nr. 8 GewStG nebeneinander, für den Steuerpflichtigen gilt die günstigere Regelung", "15 %, bei niedrigerer Abkommensgrenze diese (meist 10 %)", "nach § 9 Nr. 7 GewStG der Beginn des Erhebungszeitraums; § 9 Nr. 8 GewStG nennt keinen – insoweit gilt das jeweilige DBA"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet die drei Kürzungsvorschriften, die die Quelle nacheinander abhandelt. Der DBA-Fall ist der einzige, der eine echte Prüfung verlangt, und die Quelle beschreibt sie genau: Beide Vorschriften stehen **nebeneinander**, nicht in einem Rangverhältnis, und der Steuerpflichtige darf sich auf die für ihn günstigere berufen. Praktisch heißt das zweierlei – die Abkommensgrenze kann die 15 % auf meist 10 % senken, und umgekehrt liefert § 9 Nr. 7 GewStG den Stichtag, den § 9 Nr. 8 GewStG offenlässt." },
+    ],
+  },
+  {
+    id: "kst-t2-16",
+    kapitel: "16",
+    abschnittNr: "2.3.4",
+    title: "2.3.4 Gewerbesteuerliche Streubesitzdividende",
+    thema: "Greift kein Schachtelprivileg, dreht § 8 Nr. 5 GewStG die körperschaftsteuerliche Freistellung wieder zurück – im Ergebnis werden 95 % der Ausschüttung hinzugerechnet, weil die Pauschale gegenzurechnen ist. Bei DBA-Schachteldividenden verdrängt das Abkommen die Hinzurechnung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.3.4 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 4 KStG", "§ 8b Abs. 5 KStG",
+      "§ 7 Satz 1 GewStG", "§ 8 Nr. 1 GewStG", "§ 8 Nr. 5 GewStG",
+      "§ 9 Nr. 2a GewStG", "§ 9 Nr. 7 GewStG",
+      "BFH vom 23.06.2010, BStBl. II 2011, 129",
+    ],
+    themen: ["Streubesitzdividende", "Hinzurechnung nach § 8 Nr. 5 GewStG", "95 Prozent", "Vorrang der Schachtelprivilegien", "DBA-Vorrang"],
+    bloecke: [
+      { text: "Sind die Voraussetzungen der o. g. Schachtelprivilegien nicht erfüllt, ist die Gewinnausschüttung gewerbesteuerpflichtig und daher nach § 8 Nr. 5 GewStG zur Ermittlung des Gewerbeertrags wieder hinzuzurechnen. Dadurch wird die in der gewerbesteuerlichen Ausgangsgröße des § 7 Satz 1 GewStG enthaltene Steuerbefreiung wieder zurückgedreht. Dies bedeutet, dass bei einer Anteilseigner-Kapitalgesellschaft letztlich 95 % der Gewinnausschüttung dem Gewerbeertrag wieder hinzugerechnet wird. Denn der Hinzurechnungsbetrag mindert sich um den Betrag der Betriebsausgabenpauschalierung i. S. des § 8b Abs. 5 KStG, welcher im Rahmen der Einkommensermittlung bereits als nicht abziehbare Betriebsausgabe erfasst worden ist. Die tatsächlichen beteiligungsbezogenen Betriebsausgaben sind unter den Voraussetzungen des § 8 Nr. 1 GewStG wieder hinzuzurechnen. In den Fällen der Anwendung des § 8b Abs. 4 KStG muss gewerbesteuerlich daher keine Hinzurechnung vorgenommen werden, weil die Gewinnausschüttung (inkl. Betriebsausgaben) in der gewerbesteuerlichen Ausgangsgröße enthalten ist." },
+      { text: "§ 8 Nr. 5 GewStG ist als gewerbesteuerliche Sondervorschrift anzusehen, die nur abstrakt auf die Steuerbefreiungen des § 9 Nr. 2a bzw. Nr. 7 GewStG verweist. Der Verweis ist dabei nur rein technischer Natur, da der Gesetzgeber in diesen Vorschriften allgemein die gewerbesteuerliche Steuerbefreiung definiert hat. § 8 Nr. 5 GewStG ist daher nach Sinn und Zweck auszulegen, dass die Schachtelprivilegien prinzipiell vorrangig sind. Liegen deren Voraussetzungen nicht vor, kommt es nach § 8 Nr. 5 GewStG zu einer gewerbesteuerlichen Hinzurechnung." },
+      { text: "Merke: Sind die Voraussetzungen des gewerbesteuerlichen Schachtelprivilegs nicht erfüllt, führt § 8 Nr. 5 GewStG zur Gewerbesteuerpflicht der Gewinnausschüttung. Der Hinzurechnungsbetrag beträgt dann in den Fällen einer § 8b KStG-Gewinnausschüttung letztlich 95 % der Ausschüttung, weil die Betriebsausgabenpauschalierung entsprechend gegengerechnet werden muss." },
+      { text: "Beispiel: Die A-GmbH bezieht in EZ 2026 aus ihrer 10%igen Beteiligung an der C-GmbH eine Gewinnausschüttung i. H. von 100.000 €. Damit im Zusammenhang stehen unstrittige Betriebsausgaben von 50.000 €." },
+      { text: "Lösung: Die Gewinnausschüttung ist bei der A-GmbH steuerfrei (§ 8b Abs. 1 KStG, § 8b Abs. 4 KStG). Sie ist aber nicht nach § 9 Nr. 2a GewStG gewerbesteuerfrei, weil die 15%ige Mindestbeteiligungsquote nicht erreicht wird. Somit kommt es im Rahmen der Ermittlung des Gewerbeertrags zur Hinzurechnung i. S. des § 8 Nr. 5 GewStG. Daher ist die bisher als steuerfrei behandelte Gewinnausschüttung von 100.000 € dem Gewerbeertrag wieder hinzuzurechnen, abzüglich der bisherigen Betriebsausgabenpauschalierung von 5.000 €. Die Hinzurechnung beträgt damit insgesamt 95.000 €. Die damit im Zusammenhang stehenden unmittelbaren Betriebsausgaben unterliegen der separaten Hinzurechnung i. S. des § 8 Nr. 1 GewStG. Sollte der Freibetrag von 200.000 € überschritten sein, würde sich daraus eine Hinzurechnung von 12.500 € ergeben. Der Gewerbeertrag beträgt somit 62.500 €." },
+      { text: "Bei DBA-Schachteldividenden ist aber zu beachten, dass die DBA-Bestimmungen auch eine Gewerbebesteuerung der Dividende verbieten. Der BFH hat diesbezüglich entschieden, dass das DBA-Schachtelprivileg dann auch die Anwendung des § 8 Nr. 5 GewStG verdrängt." },
+      { typ: "tabelle", spalten: ["Schritt", "Betrag"], zeilen: [
+        ["Ausgangsgröße § 7 Satz 1 GewStG (100.000 € ./. 50.000 € ./. 100.000 € + 5.000 €)", "./. 45.000 €"],
+        ["+ Hinzurechnung der Ausschüttung abzüglich Pauschale (§ 8 Nr. 5 GewStG)", "+ 95.000 €"],
+        ["+ Hinzurechnung der Schuldzinsen (§ 8 Nr. 1 GewStG, Freibetrag als überschritten unterstellt)", "+ 12.500 €"],
+        ["= Gewerbeertrag", "62.500 €"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie führt die Rechnung der Quelle in einem Zug vor, weil der Fall drei Vorschriften nacheinander durchläuft. Die Probe auf die 95 %: Hinzugerechnet werden 95.000 €, weil die 5.000 € Pauschale das Einkommen schon belastet haben – ohne die Gegenrechnung würden sie doppelt erfasst. Bemerkenswert ist die Gegenprobe im letzten Satz des ersten Absatzes: Greift bereits **körperschaftsteuerlich** die Streubesitzregelung des § 8b Abs. 4 KStG, entfällt die Hinzurechnung nach § 8 Nr. 5 GewStG vollständig, weil die Ausschüttung dann ohnehin schon im Gewerbeertrag steckt. § 8 Nr. 5 GewStG korrigiert also nur, was § 8b Abs. 1 KStG zuvor herausgenommen hat." },
+      { text: "Merke (eigene Zusammenfassung des Abschnitts 2.3): Die gewerbesteuerliche Prüfung einer Gewinnausschüttung läuft immer in derselben Reihenfolge. Erstens: Ist die Ausschüttung körperschaftsteuerlich freigestellt, so dass sie in der Ausgangsgröße des § 7 Satz 1 GewStG fehlt? Zweitens: Greift ein Schachtelprivileg – § 9 Nr. 2a GewStG im Inland, § 9 Nr. 7 GewStG im Ausland, daneben § 9 Nr. 8 GewStG im DBA-Fall? Drittens: Wenn nicht, dreht § 8 Nr. 5 GewStG die Freistellung zurück, und zwar um 95 % der Ausschüttung. Viertens: Die tatsächlichen Aufwendungen folgen entweder § 8 Nr. 1 GewStG oder – wenn die Ausschüttung nur gewerbesteuerfrei ist – dem Kürzungsrahmen des § 9 Nr. 2a Satz 3 GewStG. Und über allem steht der Vorrang des Abkommensrechts: Verbietet ein DBA die Besteuerung der Dividende, ist auch § 8 Nr. 5 GewStG verdrängt." },
     ],
   },
 ];
