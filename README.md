@@ -122,6 +122,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   durchgerechnet mit eigener Kontrollrechnung; von **Beispiel 1** steht nur der
   Sachverhalt, weil die Quelle seine Musterlösung als Grafik ohne Textebene enthält – das
   ist ausdrücklich vermerkt und die Lösung nicht rekonstruiert.
+  Dazu die **Anteile am Betriebsvermögen einer Personengesellschaft**: MoPeG und der neue
+  § 2a ErbStG, die das Transparenz- und Gesamthandsprinzip für die Erbschaftsteuer
+  fortschreiben; der Umfang des Betriebsvermögens nach § 97 Abs. 1 Satz 1 Nr. 5 BewG
+  einschließlich des Sonderbetriebsvermögens; die zweistufige Aufteilung nach § 97 Abs. 1a
+  BewG – Kapitalkonten vorweg, Restwert nach dem Gewinnverteilungsschlüssel, Vorabgewinne
+  und Ergänzungsbilanzen außer Betracht – mit der **A und B OHG vollständig durchgerechnet**
+  (Gesamthandsbilanz und zwei Sonderbilanzen, beide Gesellschafter mit je 230.000 €); die
+  Grenze von 0 € für den nicht nachschusspflichtigen Kommanditisten nach R B 97.5 ErbStR;
+  sowie die Bruchteilsbetrachtung bei vermögensverwaltenden Personengesellschaften mit dem
+  Abzug der Gesellschafterschulden über § 10 Abs. 5 ErbStG oder als Gegenleistung einer
+  gemischten Schenkung. Auch hier enthält die Quelle zu einem zweiten Beispiel (A+B OHG,
+  gemeiner Wert 1.500.000 €) nur den Sachverhalt in Textform; seine Lösung steht als Grafik
+  ohne Textebene und ist nicht rekonstruiert.
   Prüfung: `npm run check:k1-erbst-bewertung-teil3`
 - **Hausaufgaben KSt** (Reiter im Campus Körperschaftsteuer): die Kurzklausuren des
   Tageslehrgangs mit Lösung – Fachtermin 1 (A-GmbH mit dreizehn Korrekturtatbeständen,

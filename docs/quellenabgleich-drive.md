@@ -3822,3 +3822,60 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   („Teilwertabschreibung Maschine in 2024“, „Einmaliger Veräußerungsgewinn AV in 2023“,
   Einlage des Parkplatzes ein Jahr vor dem 1.1.2025) und wird durch die Musterlösung
   bestätigt; das ist im Datensatz vermerkt.
+
+## Bewertungsrecht Teil 3 (Schäfer) – Anteile am Betriebsvermögen einer Personengesellschaft (Tz. 6)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa`),
+  Teil I, Tz. 6 Buchstaben a) bis d), PDF-Seiten 24 bis 28.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel – MoPeG, § 2a ErbStG, Umfang des
+  Betriebsvermögens und das Aufteilungsschema des § 97 Abs. 1a BewG einschließlich des
+  ersten Beispiels sowie das durchgerechnete zweite Beispiel, die Besonderheiten bei der
+  Kommanditgesellschaft und die vermögensverwaltenden Personengesellschaften. Der Datensatz
+  umfasst jetzt 11 Kapitel, 204 Blöcke und 25 Tabellen; Prüfung
+  `npm run check:k1-erbst-bewertung-teil3`. **Damit ist die Tz. 6 vollständig.**
+- Noch offen aus derselben Datei: Tz. 7 (Besonderheiten bei Kapitalgesellschaften) und der
+  gesamte Teil II (Gesonderte Feststellungen, §§ 151 bis 156 BewG).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Eine zweite Seite ohne Textebene.** Wie schon bei der Lösung zu Beispiel 1 der Tz. 5 f
+  steht auch die Lösung zum ersten Beispiel der Tz. 6 c (A+B OHG) im PDF nur als Grafik. In
+  der Erfassung folgt auf die Überschrift „Lösung:“ unmittelbar die Überschrift „Beispiel:“
+  des nächsten Falls. Die Lösung ist **nicht wiedergegeben und nicht rekonstruiert**; der
+  Befund steht als redaktioneller Hinweis im Datensatz und in `docs/offene-quellen.md`,
+  Abschnitt A. Der Sachverhalt ist vollständig erfasst (gemeiner Wert der OHG 1.500.000 €,
+  Kapitalkonten 150.000 € und 250.000 €, Gewinnverteilung 20 % zu 80 %, Sonderbetriebs-
+  vermögen des A mit 300.000 €), so dass der Fall mit dem unmittelbar davor abgedruckten
+  Aufteilungsschema selbständig gerechnet werden kann.
+
+  Nachgerechnet und zutreffend – die Musterlösung des zweiten Beispiels geht vollständig
+  auf: Der Unternehmenswert von 440.000 € abzüglich der Kapitalkonten von zusammen
+  320.000 € ergibt 120.000 €, die zu je 50 % auf A und B entfallen. A erhält 130.000 +
+  60.000 = 190.000 €, B 190.000 + 60.000 = 250.000 €; zusammen wieder 440.000 €. Der
+  Vorabgewinn des B von 25.000 € bleibt nach § 97 Abs. 1a Nr. 1 Buchst. b BewG außer
+  Betracht. Das Sonderbetriebsvermögen des A beträgt 90.000 − 30.000 − 20.000 = 40.000 €
+  (Anteil 230.000 €), bei B mindert die Y-Bankschuld von 20.000 € den Wert auf ebenfalls
+  230.000 €. Das Grundstück 2 geht mit dem Grundbesitzwert von 90.000 € und nicht mit dem
+  Bilanzwert von 80.000 € ein; das Grundstück 1 der Gesamthand ist bereits im
+  Unternehmenswert enthalten und wird nicht gesondert angesetzt. Auch die drei Bilanzen
+  stimmen: Gesamthandsbilanz 520.000 € auf beiden Seiten, Sonderbilanz A 80.000 €,
+  Sonderbilanz B 0 €.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 6 a).** „Gesetz zur Modernisierung des **Personengesellschaftsrecht**“; „die
+    erbschaft- und schenkungsteuerliche Beurteilung der Beteiligten **eine**
+    Erwerbsvorgangs“; der Schlusspunkt nach „(§ 2a S. 2 und S. 3 ErbStG)“ fehlt.
+  - **Tz. 6 b).** „Zum **Gewerbetrieb** der Personengesellschaft gehören auch die
+    Wirtschaftsgüter“ – dieselbe Schreibweise auch in Tz. 6 d) („mangels eines
+    Gewerbetriebs“).
+  - **Tz. 6 c), Gesamthandsbilanz.** „Darlehnsford. A“.
+  - **Tz. 6 d).** Die Fundstelle „R E **10. 4** Abs. 2 ErbStR“ mit Leerstelle.
+  - **Tz. 6 d), Hinweis.** „der entsprechende Teilbetrag des auf den **Bewertungsstichtags**
+    festgestellten **Wert** angesetzt“.
+
+  Darstellungsentscheidung: Die drei Bilanzen des zweiten Beispiels und die Lösungstabelle
+  stehen in der Quelle als mehrspaltige Aufstellungen, deren Spalten in der maschinellen
+  Erfassung ineinanderlaufen. Sie sind zugeordnet als Tabellen wiedergegeben; die Zuordnung
+  der Beträge in der Lösungstabelle zu den Spalten „gesamt“, „A“ und „B“ folgt den in der
+  Quelle ausgewiesenen Zwischensummen und geht vollständig auf.
