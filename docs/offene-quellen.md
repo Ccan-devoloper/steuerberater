@@ -308,8 +308,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   zugehörige Lösung gibt der Connector nicht mehr aus; der Text endet unmittelbar hinter
   „Teil II gesamt 33 Punkte“. Diese Lösung und die Prüfungen 2013 bis 2015 gehören zu den
   blockierten Teilen in Abschnitt A.
-#### Lohnsteuer und Grunderwerbsteuer – gesichtet, noch nicht eingepflegt
-Für diese beiden Gebiete gibt es bislang keinen Campus. Beide Ordner sind jetzt gesichtet:
+#### Grunderwerbsteuer (in Arbeit) und Lohnsteuer (gesichtet, noch nicht eingepflegt)
+Für beide Gebiete gab es bislang keinen Campus. Beide Ordner sind gesichtet; die
+Grunderwerbsteuer hat inzwischen einen eigenen Campus, die Lohnsteuer noch nicht:
 
 - **Grunderwerbsteuer**, Ordner `1EUOPd5EtQg3eQ76LGNwfgevbhcV-96kI`, eine Datei
   („2026) (9).pdf“, `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, 1,3 MB): das vollständige
@@ -325,9 +326,11 @@ Für diese beiden Gebiete gibt es bislang keinen Campus. Beide Ordner sind jetzt
   der Grundstückszugehörigkeit nach § 1 Abs. 4a GrEStG; dazu aus **Abschnitt IV** die acht
   allgemeinen Befreiungen des § 3 GrEStG, ihre Anwendung auf die Ergänzungstatbestände
   (Fallgruppen des § 1 Abs. 2a, 2b, 3 und 3a GrEStG) und die besonderen Ausnahmen des
-  § 4 GrEStG. Offen sind aus Abschnitt IV noch die §§ 5, 6 GrEStG (Erwerbsvorgänge zwischen
-  Gesamthändern mit Zehn- und Fünfzehnjahresfristen) und § 6a GrEStG (konzerninterne
-  Umstrukturierung) sowie die Abschnitte V (Bemessungsgrundlage), VI (Steuersatz und
+  § 4 GrEStG, die §§ 5 und 6 GrEStG (Erwerbsvorgänge zwischen Gesamthändern, mit Interpolation,
+  Zehn- und Fünfzehnjahresfristen), § 6a GrEStG (konzerninterne Umstrukturierung), § 7 GrEStG
+  (Umwandlung in Flächeneigentum) und § 1 Abs. 6 GrEStG (Aufeinanderfolgen von Tatbeständen) –
+  **Abschnitt IV ist damit vollständig**. Offen sind nur noch die Abschnitte
+  V (Bemessungsgrundlage), VI (Steuersatz und
   Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
   Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG). Sie sind sämtlich
   lesbar und werden nachgezogen.

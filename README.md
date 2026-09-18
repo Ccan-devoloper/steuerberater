@@ -2198,13 +2198,32 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Unternehmeridentität nach § 10a GewStG. Zur Fallsammlung liegt im freigegebenen Ordner kein
   Lösungsteil vor; die vier Fälle stehen deshalb bewusst ohne Musterlösung, was im Campus
   ausgewiesen wird. Prüfung: `npm run check:gewst`
+- **GrESt-Campus** (Klausur 1, Reiter Grunderwerbsteuer): neuer Campus für ein Fach, das
+  bislang keinen hatte. Erfasst ist das Lehrgangsskript „Vorbereitung auf die
+  Steuerberaterprüfung · Grunderwerbsteuer“ von Dr. Stephan Vossel (Stand 01/2026) im
+  Wortlaut – derzeit 15 Kapitel mit 386 Abschnitten und 11 Tabellen. Vollständig eingepflegt
+  sind die Abschnitte **I** (Charakterisierung: steuerbar ist der Wechsel der
+  Rechtsträgerzuordnung, nicht der Übergang wirtschaftlichen Eigentums – weshalb
+  Personengesellschaften hier eigene Rechtsträger sind), **II** (das fünfstufige
+  Prüfungsschema), **III** (Steuerbarkeit: inländisches Grundstück nach § 2 GrEStG,
+  Haupttatbestand, die sechs Nebentatbestände, der Ersatztatbestand des § 1 Abs. 2 GrEStG und
+  alle vier Ergänzungstatbestände – § 1 Abs. 2a, 2b nebst Börsenklausel, 3 und 3a – samt der
+  Übergangsregeln des § 23 Abs. 20 ff. GrEStG und der Grundstückszurechnung nach § 1 Abs. 4a
+  GrEStG) und **IV** (Steuerbefreiungen und Steuervergünstigungen: die acht Befreiungen des
+  § 3 GrEStG und ihre Anwendung auf die Ergänzungstatbestände, § 4 GrEStG, die §§ 5, 6 GrEStG
+  für Erwerbsvorgänge zwischen Gesamthändern mit Interpolation, Zehn- und
+  Fünfzehnjahresfristen, die Konzernklausel des § 6a GrEStG, § 7 GrEStG zum Flächeneigentum
+  und § 1 Abs. 6 GrEStG zum Aufeinanderfolgen von Tatbeständen).
+  Offen sind noch die Abschnitte V bis IX (Bemessungsgrundlage, Steuersatz und
+  Steuerberechnung, Steuerschuldner, Zuständigkeit und Anzeigepflicht sowie § 16 GrEStG); das
+  Cockpit des Campus weist das aus. Prüfung: `npm run check:k1-grest-skript`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
 
 ## Examenspriorität: Legende
 
-Alle Lerninhalte aller Campusse (K1 AO/USt/ErbSt, K2 KSt/ESt/GewSt/IStR, K3 Bilanz/PersG/UmwStR)
+Alle Lerninhalte aller Campusse (K1 AO/USt/ErbSt/GrESt, K2 KSt/ESt/GewSt/IStR, K3 Bilanz/PersG/UmwStR)
 tragen einen von drei Markern. Grundlage sind die Auswertungen der Original-Musterlösungen der
 Finanzverwaltung 2013–2024: Neunzig, DStR 2025, 1825 (Tag 1) · Neunzig/Zeck, DStR 2025, 1961 (Tag 2)
 · Neunzig/Zeck, DStR 2025, 2097 (Tag 3); Langzeit-Gegencheck Herzig/Watrin, DStR 1994, 1282.

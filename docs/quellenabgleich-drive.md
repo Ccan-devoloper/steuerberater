@@ -9660,3 +9660,103 @@ der Nachweisform – einer **Bescheinigung des Auswärtigen Amtes** (FM Niedersa
 **Offen aus Abschnitt IV** bleiben damit nur noch die Erwerbsvorgänge zwischen Gesamthändern
 nach §§ 5 und 6 GrEStG – mit den Zehn- und Fünfzehnjahresfristen – und die konzerninterne
 Umstrukturierung nach § 6a GrEStG.
+
+### Skript Grunderwerbsteuer (Vossel), Abschnitt IV vollständig: §§ 5, 6, 6a, 7 GrEStG und § 1 Abs. 6 GrEStG
+
+Mit dieser Runde ist Abschnitt IV des Skripts vollständig übernommen (Kapitel 13 bis 15 des
+Datensatzes, 126 neue Abschnitte). Inhaltlich sind das drei sehr unterschiedliche Blöcke.
+
+**§§ 5, 6 GrEStG – der Kern des grunderwerbsteuerlichen Personengesellschaftsrechts.** Die
+Quelle setzt hier genau dort an, wo Kandidatinnen und Kandidaten aus dem Ertragsteuerrecht
+regelmäßig danebenliegen: Die Gesamthand ist grunderwerbsteuerlich ein **eigener
+Rechtsträger**, deshalb ist schon die Übertragung eines Grundstücks vom Gesellschafter auf
+„seine“ Personengesellschaft nach § 1 Abs. 1 Nr. 1 GrEStG steuerbar. Die §§ 5, 6 GrEStG
+nehmen die Steuer nur insoweit zurück, wie die **gesamthänderische Mitberechtigung** erhalten
+bleibt. Alle Beispiele der Quelle sind übernommen, darunter das ABC-OHG-Beispiel, in dem sich
+Miteigentumsbruchteil und Beteiligungsquote bei A zu 50 %, bei B nur zu 25 % decken und die
+Steuer deshalb zu **75 %** nicht erhoben wird, und das DEF-KG-Beispiel zu § 6 Abs. 1 GrEStG
+(D: KG 60 %, Grundstück 50 % → 50 %; E: KG 20 %, Grundstück 50 % → 20 %; zusammen **70 %**).
+Beide Rechnungen sind nachgerechnet und tragen.
+
+Vollständig erfasst sind außerdem die drei Begrenzungen, an denen die Klausur hängt:
+
+- Die **Interpolation** – § 5 GrEStG wird zusammen mit § 3 GrEStG gelesen, so dass im
+  VS-OHG-Beispiel auch der Anteil des Vaters begünstigt ist, weil eine Direktübertragung von
+  S auf V nach § 3 Nr. 6 GrEStG befreit wäre. Die Quelle begründet das ausdrücklich damit,
+  dass wirtschaftlich sinnvolle **Abkürzungen** von Übertragungsketten ermöglicht werden
+  sollen.
+- Die **zehnjährige Mindestbehaltensfrist** des § 5 Abs. 3 GrEStG mit ihrer Aufzählung der
+  schädlichen Vorgänge und dem Hinweis, dass die nachträgliche Anteilsverminderung ein
+  **rückwirkendes Ereignis i. S. v. § 175 Abs. 1 S. 2 AO** ist. Dazu die beiden Gegenbeispiele,
+  in denen die Frist trotz Anteilsverminderung nicht schadet, weil objektiv keine Umgehung
+  möglich ist: Verkauf des KG-Anteils an die Tochter (selbst nach § 3 Nr. 6 GrEStG befreit)
+  und Verkauf des KG-Anteils, nachdem das Grundstück die Gesellschaft bereits durch einen
+  eigenen steuerbaren Vorgang verlassen hatte.
+- Die **Fünfzehnjahresfrist** des § 6 Abs. 4 Nr. 3 GrEStG, vorgeführt am Beispiel der
+  X GmbH & Co. KG: K erwirbt im Jahr 01 80 % und im Jahr 12 die restlichen 20 %. § 1 Abs. 2a
+  GrEStG greift nicht (im Jahr 12 ist K bereits Altgesellschafter), wohl aber § 1 Abs. 3a
+  GrEStG – und die an sich mögliche Begünstigung nach § 6 Abs. 2 GrEStG wird versagt, weil der
+  Ersterwerb **innerhalb von 15 Jahren** lag. Das ist der Fall, in dem die Zehnjahresfrist
+  scheinbar „gerettet“ hat und die Fünfzehnjahresfrist dann doch zuschlägt.
+
+**§ 6a GrEStG – die Konzernklausel.** Übernommen sind die drei Gruppen begünstigter
+Rechtsvorgänge, die Abgrenzung des herrschenden Unternehmens und der abhängigen Gesellschaft
+(95 % auf **jeder** Beteiligungsstufe) sowie die Unterscheidung beim Begünstigungsumfang, die
+die Quelle sehr sauber herausarbeitet: Bei § 1 Abs. 2a und Abs. 2b GrEStG wird **quotal** nur
+für die Anteile begünstigt, die durch den umwandlungsrechtlichen Vorgang übergehen (im
+Beispiel 80 % von 98 %), bei § 1 Abs. 3 und Abs. 3a GrEStG dagegen **vollumfänglich**. Ebenso
+festgehalten ist die Rechtsprechungslinie: EuGH v. 19.12.2018 (kein Beihilfecharakter),
+BFH v. 21.08.2019 (herrschendes Unternehmen muss nicht Unternehmer i. S. d. UStG sein) und die
+Abweichung des BFH v. 25.09.2024 von der Erlassauffassung zur Ausgliederung eines
+Einzelunternehmens. Und der praktisch wichtigste Satz: Die fünfjährigen Vor- und
+Nachbehaltensfristen müssen **nur eingehalten werden, soweit das umwandlungsrechtlich möglich
+ist** – die bei einer Abspaltung zur Neugründung entstehende Gesellschaft kann eine
+Vorbehaltensfrist begriffsnotwendig nicht erfüllen.
+
+**§ 7 GrEStG und § 1 Abs. 6 GrEStG – zwei Normen, die nach Werten rechnen.** § 7 GrEStG
+stellt den Wert des erhaltenen Teilgrundstücks dem Wert des aufgegebenen Bruchteils gegenüber.
+Das ausführliche Beispiel der Quelle ist vollständig übernommen und nachgerechnet: B erhält
+ein Teilgrundstück im Wert von 700.000 € gegen einen Bruchteil von 500.000 € und übernimmt die
+Schuld von 300.000 €; Bemessungsgrundlage 500.000 € + 150.000 € = **650.000 €**, bei 3,5 %
+also 22.750 €, davon 5/7 = 16.250 € nicht erhoben, festzusetzen **6.500 €**. Alle vier Schritte
+rechnen auf. § 1 Abs. 6 GrEStG führt die Quelle am Fall der X-/Y-GmbH vor, in dem im Jahr 01
+eine wirtschaftliche Beteiligung von 89,9 % + 89,9 % × 10,1 % = **98,98 %** nach § 1 Abs. 3a
+GrEStG steuerbar ist und im Jahr 03 eine Anteilsvereinigung nach § 1 Abs. 3 Nr. 1 GrEStG
+folgt – besteuert wird dann nur der Unterschiedsbetrag der Bemessungsgrundlagen
+(1.100.000 € ./. 800.000 € = 300.000 €). Auch diese Zahl ist nachgerechnet.
+
+**Eigene Feststellungen – ein sachlicher und mehrere sprachliche Fehler der Quelle:**
+
+1. **Der sachlich relevante:** Bei § 6a S. 1 GrEStG nennt die Quelle „eine Umwandlung i. S. d.
+   **§ 1 Abs. 1 Nr. 1 bis 3 UmwStG** (Verschmelzung, Spaltung, Vermögensübertragung)“.
+   Verschmelzung, Spaltung und Vermögensübertragung sind aber § 1 Abs. 1 Nr. 1 bis 3 des
+   **Umwandlungsgesetzes**, und genau darauf verweist § 6a S. 1 GrEStG. Der Wortlaut ist
+   unverändert übernommen, die Fundstelle an Ort und Stelle richtiggestellt – in der Klausur
+   wäre der falsche Verweis ein vermeidbarer Punktverlust.
+2. „Diese Fiktion soll **doch** nur zeitlich begrenzt wirken“ (zu § 24 GrEStG) – gemeint ist
+   ersichtlich „jedoch“.
+3. „Insgesamt **ist wird** vorliegend somit die Grunderwerbsteuer vollständig nach § 5 GrEStG
+   nicht erhoben“ – doppeltes Prädikat im Interpolationsbeispiel.
+4. Zu § 6 Abs. 3 S. 4 GrEStG: „…wenn die Ausübung und Wirksamkeit der Option und die jeweilige
+   Beteiligung am Vermögen der Gesamthand **besteht länger als zehn Jahre bestehen**“ – der
+   Satz hat zwei Prädikate; gemeint ist, dass beides länger als zehn Jahre bestehen muss.
+5. Zu § 6 Abs. 4 Nr. 3 GrEStG: „Sollte der **(mittelbare Erwerb)** einer Beteiligung…“ – die
+   Klammer sitzt an der falschen Stelle, gemeint ist der „(mittelbare) Erwerb“.
+6. Zu § 6a GrEStG: „Hierbei handelt es sich Rechtsvorgänge“ (es fehlt „um“) und „eine
+   wirtschaftliche Tätigkeit…, welche keine hohen Anforderungen zu stellen sind“ (gemeint: an
+   welche keine hohen Anforderungen zu stellen sind).
+7. Im Schlussbeispiel zu § 1 Abs. 6 GrEStG: „Er **vereinigter** sämtliche Anteile“.
+
+Alle sieben Stellen stehen im Datensatz **im Wortlaut der Quelle** und sind dort mit
+„(so in der Quelle)“ beziehungsweise mit der richtigen Fundstelle in Klammern gekennzeichnet.
+
+**Eine Rekonstruktion, die ausgewiesen ist:** Fußnote 5 der Quelle (zu § 1 Abs. 6 GrEStG) kommt
+aus der Textextraktion spaltenweise ineinander verschränkt heraus – „Der Abs. Gesetzgeber 2a
+und Abs. geht 2b GrEStG übrigens…“. Das ist ein reines Extraktionsartefakt, kein Merkmal der
+Quelle. Der Satz ist in die lesbare Reihenfolge gebracht; der Datensatz sagt an dieser Stelle
+ausdrücklich, dass es sich um eine Rekonstruktion handelt, damit niemand den geglätteten
+Wortlaut für die unveränderte Quelle hält.
+
+**Offen bleiben** damit nur noch die Abschnitte V (Bemessungsgrundlage), VI (Steuersatz und
+Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
+Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG).
