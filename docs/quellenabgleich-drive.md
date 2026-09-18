@@ -4273,3 +4273,72 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   eines Wohnrechts mit der Begrenzung des § 16 BewG begegnet im Übungsfall Fietze der
   ErbSt-Fallsammlung (17.100 € gegen die Grenze von 27.962 €) und in der Hausaufgabe 3. Der
   Datensatz führt diese Zusammenhänge mit.
+
+## Bewertungsrecht Teil 1 – Lösungshinweise (Schäfer): alle dreizehn Beispiele geschlossen
+
+- Quelle im Drive, Ordner `1dYXMcr-i-IEmXuXurAfIlzo_xgtHvzDG`, Datei „2025) (6).pdf“
+  (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) – im Kopf als „Bewertungsrecht, Unterrichtsmaterial
+  zum Steuerberaterlehrgang, Stand Mai 2025, Lösungshinweise, Teil 1“ bezeichnet. Der
+  Connector gibt sie vollständig aus. Wie schon beim Teil 3 trug die Lösungsdatei den
+  nichtssagendsten Namen ihres Ordners.
+- Sie enthält genau die Beispiele, die das Skript ohne Lösung lässt, jeweils mit
+  Seitenangabe. Die Lösungen sind in das Kapitel eingefügt, das den zugehörigen Sachverhalt
+  enthält, und dort als aus der Lösungsdatei übernommen gekennzeichnet. Der Datensatz
+  umfasst jetzt 3 Teile, 9 Kapitel, 230 Blöcke und 18 Tabellen; Prüfung
+  `npm run check:k1-erbst-bewertung-teil1`. **Aus beiden Dateien steht nichts mehr offen.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Nachgerechnet und zutreffend – sämtliche Lösungen gehen auf:
+
+  - **Bedingungen und Befristungen (vier Beispiele Seite 8).** Die Lösungen machen das
+    Muster sichtbar, das die Sachverhalte allein nicht verraten: Beispiel 1 und 2 sind
+    Bedingungen, Beispiel 3 und 4 Befristungen; jeweils bleibt der aufschiebende Fall nach
+    §§ 4 und 6 BewG unberücksichtigt, während der auflösende nach §§ 5 und 7 BewG erfasst
+    wird.
+  - **Anleihe (Seite 11).** Fall a) Kurswert 10.800 € nach § 11 Abs. 1 BewG, Fall b)
+    Nennwert 10.000 € nach § 12 Abs. 1 BewG.
+  - **Gegenwartswerte (Seiten 14 und 15).** 30.000 × 0,807 = 24.210 €. Bei gebrochener
+    Restlaufzeit: 0,046 × 135/360 = 0,01725 (gerundet 0,017), 0,898 − 0,017 = 0,881,
+    × 100.000 = 88.100 €. Bei der Tilgungsforderung stimmt die Ratenzahl (10 + 12 + 8 = 30),
+    30 : 12 = 2,5 Jahre, 0,875 × 6/12 = 0,4375 (gerundet 0,438), 1,897 + 0,438 = 2,335,
+    × 24.000 = 56.040 €.
+  - **Zinsdifferenzrechnung (Seite 16).** 2 % × 20.000 = 400 € × 4,388 = 1.755,20 €
+    (abgerundet), 20.000 − 1.755 = 18.245 €; 3 % × 20.000 = 600 € × 4,388 = 2.632,80 €
+    (abgerundet), 20.000 + 2.632 = 22.632 €.
+  - **Stille Einlage (Seiten 16 und 17).** 48.000 : 3 = 16.000 €, 16.000 : 45.000 =
+    35,556 % (35,56 %), 100 + 5 × 26,56 = 232,8 %, × 45.000 = 104.760 €. In der Abwandlung
+    900 : 3 = 300 €, 300 : 45.000 = 0,667 % (0,67 %), 100 − 5 × 2,33 = 88,35 %, × 45.000 =
+    39.757,50 € (abgerundet 39.757 €).
+  - **Höchst- und Mindestzeitrenten (Seiten 19 und 20).** 24.000 × 12,279 = 294.696 €;
+    24.000 × 4,661 = 111.864 €; 24.000 × 17,872 = 428.928 €; 12.000 × 17,617 = 211.404 €;
+    12.000 × 10,314 = 123.768 €; 12.000 × 2,058 = 24.696 €. Auch hier erklärt erst die
+    Lösung die Anlage der Beispiele: Bei der Höchstzeitrente ist der niedrigere, bei der
+    Mindestzeitrente der höhere Wert anzusetzen – deshalb gewinnt beim 85-jährigen
+    Berechtigten § 14 BewG, beim 20-jährigen der Zeitrentenwert, bei der 30-jährigen
+    Berechtigten § 14 BewG und bei der 98-jährigen die Mindestlaufzeit.
+  - **Zeitrente mit gebrochener Restlaufzeit (Seite 20 unten).** 81 : 12 = 6,75 Jahre,
+    0,706 × 9/12 = 0,5295 (gerundet 0,530), 5,133 + 0,530 = 5,663, × 12.000 = 67.956 €.
+  - **Immerwährende und unbestimmte Dauer (Seite 21).** 98.000 : 18,6 = 5.268,817 €
+    (5.268,82 €) und × 18,6 wieder 98.000 € – der Kapitalwert erreicht also genau den Wert
+    des Wirtschaftsguts, was die Funktion des § 16 BewG anschaulich macht. 6.000 × 9,3 =
+    55.800 €.
+  - **Lebenslängliche Renten (Seiten 22 und 23).** 17,820 × 12.000 = 213.840 €; 12,802 ×
+    12.000 = 153.624 € (zuletzt Sterbender); 10,780 × 12.000 = 129.360 € (zuerst
+    Sterbender); beim Ehegattenfall nebeneinander Differenz 12,802 − 10,780 = 2,022,
+    × 6.000 = 12.132 €, Kapitalwert 141.492 €, aufgeteilt in 64.680 € und 76.812 €
+    (zusammen wieder 141.492 €).
+
+  Bemerkenswert an der Lösung zum Unterhalt an die geschiedene Ehefrau: Maßgebend ist der
+  Vervielfältiger der 26-jährigen Berechtigten (17,820), nicht der des 83-jährigen
+  Verpflichteten – der Anspruch erlischt mit ihrem Tod. Die Lösung ordnet die Verpflichtung
+  außerdem als auflösend bedingt nach § 7 Abs. 1 BewG ein und schließt damit an den
+  Abschnitt III desselben Skripts an.
+
+  Stellen, an denen die Lösungsdatei verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - „eine **steuerliche** zu erfassende auflösend bedingte Last“ (Beispiel 2 Seite 8).
+  - „Kapitalwert des jährlichen **Zinsverluste**“ (Beispiel 1 Seite 16).
+  - „12 % **./** 9 %“ – der zweite Punkt fehlt (Beispiel 2 Seite 16).
+  - „Auf diese **Jahrewerte** ist der niedrigere der beiden Vervielfältiger anzuwenden“
+    (Beispiel 2 Seite 23).

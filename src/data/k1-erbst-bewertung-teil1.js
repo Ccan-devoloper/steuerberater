@@ -5,7 +5,10 @@
    Das Skript ist wortlautgetreu erfasst. Übersichten und Beispiele der Quelle stehen als
    Tabellen. Ergänzt sind nur Thema, Normenliste und Themenchips sowie – ausdrücklich als
    solche gekennzeichnet – redaktionelle Hinweise und eigene Kontrollrechnungen.
-   Erfunden wird nichts.
+   Die Beispiele stehen im Skript selbst bis auf eines ohne Lösung; die Musterlösungen sind
+   aus der zugehörigen Datei „Bewertungsrecht Teil 1 – Lösungshinweise“ (Drive-ID
+   1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL) übernommen und an der jeweiligen Stelle als solche
+   gekennzeichnet. Erfunden wird nichts.
 
    Personenbezogene Wasserzeichen der Quell-PDF sind nicht übernommen.
    Blocktypen: text | titel | tabelle. */
@@ -159,7 +162,12 @@ export const erbstBewertungTeil1 = [
       { text: "B überträgt seiner Tochter C im Wege der vorweggenommenen Erbfolge ein Grundstück mit der auch ihre Erben treffenden Auflage, im Falle seines Todes ihrem Bruder D oder dessen Erben einen Betrag in Höhe von 50.000 € zu zahlen." },
       { typ: "titel", text: "Beispiel 4" },
       { text: "Nach einem Grundstückskaufvertrag ist D verpflichtet, dem Veräußerer V eine lebenslängliche Rente von monatlich 2.000 € zu zahlen. Sollte D vorher versterben, geht die Verpflichtung auf dessen Erben über." },
-      { text: "Redaktioneller Hinweis: Die Quelle stellt die vier Beispiele ohne eigene Lösungssätze nebeneinander; sie dienen der Zuordnung zu den unmittelbar davor und danach erläuterten Kategorien. Eine Zuordnung ist hier nicht ergänzt." },
+      { typ: "titel", text: "Lösungshinweise zu den Beispielen 1 bis 4" },
+      { text: "Beispiel 1 (Seite 8): Bei dem Anspruch der Tochter handelt es sich um einen aufschiebend bedingten Erwerb, der nach § 4 BewG nicht zu berücksichtigen ist. Ebenso wenig wird die sich aus dem Schenkungsversprechen ergebende Verpflichtung des A erfasst, die eine aufschiebend bedingte Last im Sinne des § 6 Abs. 1 BewG darstellt." },
+      { text: "Beispiel 2 (Seite 8): Der Rentenanspruch der Witwe D ist auflösend bedingt erworben und nach § 5 Abs. 1 BewG zu berücksichtigen. Dementsprechend liegt bei C eine steuerliche zu erfassende auflösend bedingte Last i. S. d. § 7 BewG vor. (die Wendung „eine steuerliche zu erfassende“ so in der Quelle)" },
+      { text: "Beispiel 3 (Seite 8): Die Ausgleichszahlung an den Bruder ist im Hinblick auf den Tod des Vaters von einem zukünftigen gewissen Ereignis abhängig, bei dem nur der Zeitpunkt ungewiss ist. Der Anspruch des Bruders wird als aufschiebend befristeter Erwerb i. S. d. §§ 4 und 8 BewG nicht erfasst. Auch die Zahlungsverpflichtung der Tochter bleibt als aufschiebend befristete Last unberücksichtigt (§§ 6 und 8 BewG)." },
+      { text: "Beispiel 4 (Seite 8): Da V den Rentenanspruch auflösend befristet erworben hat, wird dieser gem. §§ 5 und 8 BewG steuerlich erfasst. Die Verpflichtung des D zur Rentenzahlung stellt eine auflösend befristete Last dar, die nach §§ 7 und 8 BewG zu berücksichtigen ist." },
+      { text: "Redaktioneller Hinweis: Die Musterlösungen stehen im Skript selbst nicht; sie sind aus der zugehörigen Datei „Bewertungsrecht Teil 1 – Lösungshinweise“ (Drive-ID `1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) übernommen. Die Zuordnung zeigt das Muster: Beispiel 1 und 2 sind Bedingungen (ungewisses Ereignis), Beispiel 3 und 4 Befristungen (gewisses Ereignis); jeweils bleibt der aufschiebende Fall unberücksichtigt und der auflösende wird erfasst." },
       { typ: "titel", text: "Abgrenzung: Betagung" },
       { text: "Von den Befristungen sind die Betagungen zu unterscheiden, bei denen die Rechtsfolgen sofort und endgültig eintreten, nur die Fälligkeit ist hinausgeschoben. Im Unterschied dazu treten bei den Befristungen die Rechtsfolgen erst später ein." },
       { typ: "titel", text: "Beispiel" },
@@ -225,7 +233,8 @@ export const erbstBewertungTeil1 = [
       { text: "Nicht notierte Forderungspapiere und Schuldbuchforderungen werden vom Regelungsgehalt des § 11 BewG nicht erfasst, insoweit kommt § 12 BewG als Vorschrift für die Bewertung von Kapitalforderungen und Schulden zur Anwendung." },
       { typ: "titel", text: "Beispiel: Anleihe im Privatvermögen" },
       { text: "Eine zum Privatvermögen gehörende Anleihe mit einem Nennwert von 10.000 € hat a) zum Bewertungsstichtag einen Kurswert von 10.800 € b) keinen Kurswert." },
-      { text: "Redaktioneller Hinweis: Die Quelle stellt dieses Beispiel ohne Lösungssatz. Es ist hier nicht aufgelöst; die maßgebenden Vorschriften nennen die beiden unmittelbar vorangehenden Absätze (§ 11 Abs. 1 BewG für notierte, § 12 BewG für nicht notierte Forderungspapiere)." },
+      { text: "Lösung (Beispiel Seite 11): Im Fall a) ist gem. § 11 Abs. 1 BewG der Kurswert von 10.800 € anzusetzen. Da es sich im Fall b) um ein nicht notiertes Forderungspapier handelt, für das § 11 BewG keine Anwendung findet, wird gem. § 12 Abs. 1 BewG der Nennwert von 10.000 € zugrunde gelegt." },
+      { text: "Redaktioneller Hinweis: Die Musterlösung steht im Skript selbst nicht; sie ist aus der zugehörigen Datei „Bewertungsrecht Teil 1 – Lösungshinweise“ (Drive-ID `1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) übernommen." },
       { typ: "titel", text: "b) Anteilspapiere bzw. Anteilsrechte" },
       { text: "Während Forderungspapiere ein bloßes Forderungsrecht verbriefen, stellen die Anteilspapiere (z. B. Aktien) einen Anteil am Geschäftsvermögen und am Gewinn des Unternehmens dar (Mitgliedsrecht). Anteilsrechte sind nicht verbriefte Anteile an Kapitalgesellschaften, zu denen insbesondere die Beteiligungen an Gesellschaften mit beschränkter Haftung gehören." },
       { text: "Für notierte Anteilspapiere (z. B. Aktien) wird gem. § 11 Abs. 1 BewG der Kurswert angesetzt. Insoweit ergibt sich kein Unterschied zu den notierten Forderungspapieren." },
@@ -303,7 +312,49 @@ export const erbstBewertungTeil1 = [
         ["Hoch verzinsliche Forderungen", "Gegenwartswert (§ 12 Abs. 1 BewG)", "Nennwert + Kapitalwert des jährlichen Zinsgewinns"],
         ["Noch nicht fällige Ansprüche aus Lebens-, Kapital- oder Rentenversicherung", "Rückkaufswert (§ 12 Abs. 4 BewG)", "Bescheinigung der Versicherung"],
       ] },
-      { text: "Redaktioneller Hinweis: Sämtliche sechs Beispiele dieses Abschnitts stehen in der Quelle **ohne Lösung**; das Skript stellt lediglich die Sachverhalte. Sie sind hier nicht aufgelöst. Die Lösungen liegen vermutlich in der zugehörigen Datei des Ordners, die noch nicht geöffnet ist (siehe docs/offene-quellen.md)." },
+      { typ: "titel", text: "Lösungshinweise zu den Beispielen dieses Abschnitts" },
+      { typ: "tabelle", spalten: ["Beispiel Seite 14 – Fälligkeitsforderung, Restlaufzeit 4 Jahre", "Betrag"], zeilen: [
+        ["Gegenwartswert: 30.000 € × 0,807 (Vv. Tabelle 1, Laufzeit 4 Jahre)", "24.210 €"],
+      ] },
+      { text: "Beispiel Seite 15 (oben) – gebrochene Restlaufzeit: Ermittelt werden zunächst die vollen Jahre, dann die vollen Monate und zuletzt die Tage des letzten, nicht mehr vollen Monats (Erlasse vom 09.09.2022, Rz. 17). Laufzeit 2 Jahre, 4 Monate und 15 Tage = 2 Jahre und 135 Tage." },
+      { typ: "tabelle", spalten: ["Vervielfältiger Tabelle 1", "Wert"], zeilen: [
+        ["2 Jahre", "0,898"],
+        ["3 Jahre 0,852; Differenz 0,046 × 135/360", "./. 0,017"],
+        ["100.000 € × 0,881", "88.100 €"],
+      ] },
+      { text: "Beispiel Seite 15 (Mitte) – Tilgungsforderung: Fälligkeit der 1. Rate 20.03.06, Fälligkeit der letzten Rate 20.08.08. Im Jahre 06 werden 10, im Jahre 07 werden 12 und im Jahre 08 werden 8 Monatsraten gezahlt, Tilgungsdauer 2 Jahre und 6 Monate, Laufzeit 2 Jahre und 6 Monate. Formel: Anzahl der Raten 30 : Raten pro Kalenderjahr 12 = 2,5 Jahre." },
+      { typ: "tabelle", spalten: ["Vervielfältiger Tabelle 2", "Wert"], zeilen: [
+        ["2 Jahre", "1,897"],
+        ["3 Jahre 2,772; Differenz 0,875 × 6/12", "0,438"],
+        ["Vervielfältiger", "2,335"],
+        ["Jahresbetrag 24.000 € × 2,335", "56.040 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Beispiel 1 Seite 16 (oben) – Hypothekenschuld, 1 % Verzinsung", "Betrag"], zeilen: [
+        ["Nennwert", "20.000 €"],
+        ["3 % ./. 1 % = 2 % × 20.000 € = jährlicher Zinsverlust", "400 €"],
+        ["Tabelle 2, Vervielfältiger für 5 Jahre", "4,388"],
+        ["Kapitalwert des jährlichen Zinsverluste: 400 € × 4,388", "./. 1.755 €"],
+        ["Wert", "18.245 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Beispiel 2 Seite 16 (oben) – Abwandlung, 12 % Verzinsung", "Betrag"], zeilen: [
+        ["Nennwert", "20.000 €"],
+        ["12 % ./ 9 % = 3 % × 20.000 € = jährlicher Zinsgewinn", "600 €"],
+        ["Tabelle 2, Vervielfältiger für 5 Jahre", "4,388"],
+        ["Kapitalwert des jährlichen Zinsgewinns: 600 € × 4,388", "+ 2.632 €"],
+        ["Wert", "22.632 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Beispiel 1 Seite 16 (unten) – stille Einlage, hoher Ertrag", "Betrag"], zeilen: [
+        ["16.000 € + 20.000 € + 12.000 € = 48.000 € : 3 = Durchschnittsertrag der letzten 3 Jahre", "16.000 €"],
+        ["16.000 € : 45.000 € × 100", "35,56 %"],
+        ["100 + 5 (35,56 % ./. 9 %) = 232,8 % × 45.000 €", "104.760 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Beispiel 2 Seite 17 (oben) – Abwandlung, niedriger Ertrag", "Betrag"], zeilen: [
+        ["./. 10.100 € + 3.000 € + 8.000 € = 900 € : 3 = Durchschnittsertrag der letzten 3 Jahre", "300 €"],
+        ["300 € : 45.000 € × 100", "0,67 %"],
+        ["100 ./. 5 (3 % ./. 0,67 %) = 88,35 % × 45.000 €", "39.757 €"],
+      ] },
+      { text: "Rechnerische Kontrolle: Alle sechs Lösungen gehen auf. 30.000 × 0,807 = 24.210 €. Beim gebrochenen Fall ergibt die Interpolation 0,046 × 135/360 = 0,01725, gerundet 0,017; 0,898 − 0,017 = 0,881 und × 100.000 = 88.100 €. Bei der Tilgungsforderung stimmt die Ratenzahl (10 + 12 + 8 = 30), 30 : 12 = 2,5 Jahre, 0,875 × 6/12 = 0,4375 (gerundet 0,438), 1,897 + 0,438 = 2,335 und × 24.000 = 56.040 €. Die Zinsdifferenzen ergeben 400 € × 4,388 = 1.755,20 € beziehungsweise 600 € × 4,388 = 2.632,80 €, beide abgerundet. Bei der stillen Einlage sind 16.000 : 45.000 = 35,556 % (gerundet 35,56 %), 100 + 5 × 26,56 = 232,8 % und × 45.000 = 104.760 €; in der Abwandlung 300 : 45.000 = 0,667 % (gerundet 0,67 %), 100 − 5 × 2,33 = 88,35 % und × 45.000 = 39.757,50 €, abgerundet 39.757 €." },
+      { text: "Redaktioneller Hinweis: Die Musterlösungen stehen im Skript selbst nicht; sie sind aus der zugehörigen Datei „Bewertungsrecht Teil 1 – Lösungshinweise“ (Drive-ID `1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) übernommen. Die Schreibweisen „Kapitalwert des jährlichen Zinsverluste“ und „12 % ./ 9 %“ stehen so in der Lösungsdatei." },
       { text: "Querbezug: Die Fünffachkorrektur bei der typisch stillen Beteiligung und die Tabellen 1 und 2 für Fälligkeits- und Tilgungsdarlehen kehren im ErbSt-Campus in der 3. Einheit der Mitschriften wieder – dort im Fall 19 zur typisch stillen Beteiligung und in der Gegenüberstellung von Fälligkeits- und Tilgungsdarlehen. Die Hausaufgabe 2 (Braun und Bauer) wendet beide Tabellen an." },
     ],
   },
@@ -350,7 +401,22 @@ export const erbstBewertungTeil1 = [
       { text: "Beträgt die Restlaufzeit keine vollen Jahre, muss für die nur für volle Jahre geltenden Vervielfältiger der Anlage 9a ein Zwischenwert gefunden werden. Dieser ergibt sich durch Interpolation zwischen dem Vervielfältiger für volle Jahre vor und für volle Jahre nach dem Ende der Restlaufzeit." },
       { typ: "titel", text: "Beispiel: Zeitrente mit gebrochener Restlaufzeit" },
       { text: "Eine Zeitrente von monatlich 1.000 €, fällig zum 20. eines jeden Monats, letztmalig zum 20.9.11, ist zum 15.1.05 zu bewerten." },
-      { text: "Redaktioneller Hinweis: Die sechs Beispiele dieses Buchstabens stehen in der Quelle ohne Lösung und sind hier nicht aufgelöst. Sie sind so angelegt, dass die Deckelung des § 13 Abs. 1 Satz 2 BewG einmal greift und einmal nicht – bei einem 85-jährigen Berechtigten gegenüber einem 20-jährigen und bei einer 30-jährigen Berechtigten gegenüber einer 98-jährigen." },
+      { typ: "titel", text: "Lösungshinweise zu den Beispielen 1 bis 5 und zur Zeitrente" },
+      { text: "Beispiel 1 (Seite 19 unten): 24.000 € × 12,279 (§ 13 Abs. 1 BewG, 20 Jahre, Anlage 9a) = 294.696 €." },
+      { text: "Beispiel 2 (Seite 19 unten): Höchstzeitrente (= abgekürzte Leibrente), gem. § 13 Abs. 1 S. 2 BewG maximal der nach § 14 BewG zu ermittelnde Kapitalwert für lebenslängliche Nutzungen und Leistungen (Erlasse vom 09.09.2022, Rz. 50). 24.000 € × 4,661 (§ 14 Abs. 1 BewG, Anlage BMF-Schreiben vom 09.12.2024) = 111.864 €." },
+      { text: "Beispiel 3 (Seite 20): Höchstzeitrente (= abgekürzte Leibrente), aus dem Vergleich des Kapitalwerts nach § 13 Abs. 1 BewG (Beispiel 1: 294.696 €) mit dem Kapitalwert für lebenslängliche Nutzungen und Leistungen nach § 14 BewG ist der niedrigere Wert anzusetzen. 24.000 € × 17,872 (§ 14 Abs. 1 BewG, Anlage BMF-Schreiben vom 09.12.2024) = 428.928 €. Der maßgebende (wahrscheinlichere) Wert beträgt daher 294.696 €." },
+      { text: "Beispiel 4 (Seite 20): Mindestzeitrente (= verlängerte Leibrente), aus dem Vergleich zwischen dem Kapitalwert für Nutzungen und Leistungen auf bestimmte Zeit nach § 13 Abs. 1 BewG mit dem Kapitalwert für lebenslängliche Nutzungen und Leistungen gem. § 14 BewG ist der höhere Wert anzusetzen (Rz. 51 Ländererlasse vom 09.09.2022). 12.000 € × 17,617 (§ 14 Abs. 1 BewG) = 211.404 €; 12.000 € × 10,314 (§ 13 Abs. 1 BewG, Anlage 9a) = 123.768 €. Der Ansatz des höheren Werts von 211.404 € bringt die Wahrscheinlichkeit zum Ausdruck, dass B die Mindestlaufzeit von 15 Jahren überlebt." },
+      { text: "Beispiel 5 (Seite 20): Mindestzeitrente (= verlängerte Leibrente), aus dem Vergleich zwischen dem Kapitalwert nach § 13 Abs. 1 BewG (Beispiel 4: 123.768 €) und dem Kapitalwert für lebenslängliche Nutzungen und Leistungen nach § 14 Abs. 1 BewG ist der höhere Wert zugrunde zu legen. 12.000 € × 2,058 (§ 14 Abs. 1 BewG) = 24.696 €. Der wahrscheinlichere Wert von 123.768 € ist anzusetzen." },
+      { text: "Lösung zur Zeitrente mit gebrochener Restlaufzeit (Beispiel Seite 20 unten): Fälligkeit der 1. Zahlung nach dem Besteuerungszeitpunkt 20.01.05, Fälligkeit der letzten Zahlung 20.09.11, Laufzeit 15.01.05 bis 14.09.11 = 6 Jahre und 9 Monate. Formel: Anzahl der Zahlungen 81 : Zahlungen pro Kalenderjahr 12 = 6,75 Jahre." },
+      { typ: "tabelle", spalten: ["Vervielfältiger Anlage 9a", "Wert"], zeilen: [
+        ["6 Jahre", "5,133"],
+        ["7 Jahre 5,839; Differenz 0,706 × 9/12", "0,530"],
+        ["Vervielfältiger", "5,663"],
+        ["5,663 × 12.000 €", "67.956 €"],
+      ] },
+      { text: "Rechnerische Kontrolle: Alle sechs Lösungen gehen auf. 24.000 × 12,279 = 294.696 €; 24.000 × 4,661 = 111.864 €; 24.000 × 17,872 = 428.928 €; 12.000 × 17,617 = 211.404 €; 12.000 × 10,314 = 123.768 €; 12.000 × 2,058 = 24.696 €. Bei der Zeitrente ergeben 0,706 × 9/12 = 0,5295 (gerundet 0,530), 5,133 + 0,530 = 5,663 und × 12.000 = 67.956 €." },
+      { text: "Das Muster der fünf Beispiele wird durch die Lösungen sichtbar: Bei der Höchstzeitrente (Beispiele 2 und 3) ist der niedrigere, bei der Mindestzeitrente (Beispiele 4 und 5) der höhere Wert anzusetzen. Deshalb gewinnt beim 85-jährigen Berechtigten der Kapitalwert nach § 14 BewG (111.864 €), beim 20-jährigen dagegen der Zeitrentenwert (294.696 €); bei der 30-jährigen Berechtigten gewinnt § 14 BewG (211.404 €), bei der 98-jährigen die Mindestlaufzeit (123.768 €)." },
+      { text: "Redaktioneller Hinweis: Die Musterlösungen stehen im Skript selbst nicht; sie sind aus der zugehörigen Datei „Bewertungsrecht Teil 1 – Lösungshinweise“ (Drive-ID `1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) übernommen." },
     ],
   },
   {
@@ -398,7 +464,27 @@ export const erbstBewertungTeil1 = [
         ["IV. Lebenslängliche Nutzungen und Leistungen (§ 14 BewG)", "Grundsätzlich Kapitalwert; bei Nachweis gemeiner Wert (§ 14 Abs. 4 BewG)", "Jahreswert × Vervielfältiger lt. BMF-Schreiben vom 09.12.2024 zu § 14 Abs. 1 BewG"],
       ] },
       { text: "Mit dieser Übersicht endet der Teil 1 des Bewertungsskripts." },
-      { text: "Redaktioneller Hinweis: Auch die sechs Beispiele dieses Buchstabens stehen in der Quelle ohne Lösung und sind hier nicht aufgelöst." },
+      { typ: "titel", text: "Lösungshinweise zu den Beispielen der Buchstaben c) bis e)" },
+      { text: "Beispiel Seite 21 (oben) – zeitlich unbegrenztes Nutzungsrecht: Jahreswert § 15 BewG 15.000 €, gem. § 16 BewG maximal (98.000 € : 18,6 =) 5.268,82 €. Der Kapitalwert beträgt nach § 13 Abs. 2 BewG 98.000 € (5.268,82 € × 18,6 = 98.000 €)." },
+      { text: "Beispiel Seite 21 (unten) – Ausbildungsunterhalt: Jahreswert 6.000 € × 9,3 = 55.800 €, § 13 Abs. 2 BewG; Hinweis: Zuwendungen unter Lebenden zum Zwecke des angemessenen Unterhalts oder zur Ausbildung sind steuerfrei (§ 13 Abs. 1 Nr. 12 ErbStG)." },
+      { text: "Beispiel Seite 22 (oben) – Unterhalt an die geschiedene Ehefrau: Vervielfältiger lt. BMF-Schreiben vom 09.12.2024 für die geschiedene Ehefrau 17,820 × Jahreswert 12.000 € = 213.840 €. Im Hinblick auf die Wiederheirat ist die Verpflichtung auflösend bedingt zu berücksichtigen (§ 7 Abs. 1 BewG)." },
+      { typ: "tabelle", spalten: ["Beispiel 1 Seite 22 (unten) – zuletzt Sterbender", "Wert"], zeilen: [
+        ["Vervielfältiger lt. BMF-Schreiben vom 09.12.2024 – A 67 Jahre, männlich", "10,780"],
+        ["B 64 Jahre, weiblich = maßgebend", "12,802"],
+        ["Jahreswert 12.000 € × 12,802 (§ 14 Abs. 1 und 3 BewG)", "153.624 €"],
+      ] },
+      { text: "Beispiel 2 (Seite 22 unten) – zuerst Sterbender: Jahreswert 12.000 € × 10,780 = 129.360 € (§ 14 Abs. 1 und 3 BewG)." },
+      { text: "Beispiel 1 (Seite 23 oben) – Rente nacheinander: Vervielfältiger lt. BMF-Schreiben vom 09.12.2024 zu § 14 Abs. 1 BewG für A 10,780 × Jahreswert 12.000 € = 129.360 €. Der Rentenanspruch der Ehefrau ist aufschiebend bedingt und nach § 4 BewG nicht zu berücksichtigen (Rz. 53 Ländererlasse vom 09.09.2022)." },
+      { text: "Beispiel 2 (Seite 23 oben) – Rente nebeneinander: Stehen einem Ehepaar zu Lebzeiten beider Ehegatten Ansprüche auf Renten oder andere wiederkehrende Nutzungen und Leistungen zu und vermindern sich diese nach dem Tode des Erstversterbenden, sind die Ansprüche mit den Vervielfältigern lt. BMF-Schreiben vom 09.12.2024 zu § 14 BewG zu bewerten. Solange beide Ehegatten leben, ist davon auszugehen, dass jedem Ehegatten die Hälfte der gemeinsamen Rente zusteht, es sei denn, aus der Entstehung des Rentenanspruchs ergibt sich ein anderer Aufteilungsmaßstab. Auf diese Jahrewerte ist der niedrigere der beiden Vervielfältiger anzuwenden. Die dem überlebenden Ehegatten allein zustehende geminderte Rente ist mit der Differenz der Vervielfältiger anzusetzen (Rz. 52 Ländererlasse vom 09.09.2022). (die Schreibweise „Jahrewerte“ so in der Quelle)" },
+      { typ: "tabelle", spalten: ["Beispiel 2 Seite 23 (oben) – Berechnung", "Betrag"], zeilen: [
+        ["A 67 Jahre, männlich 10,780 × 12.000 €", "129.360 €"],
+        ["B 64 Jahre, weiblich 12,802; Differenz-Vervielfältiger 2,022 × 6.000 €", "12.132 €"],
+        ["Kapitalwert", "141.492 €"],
+        ["Anteil A: 129.360 € : 2", "64.680 €"],
+        ["Anteil B: 64.680 € + 12.132 €", "76.812 €"],
+      ] },
+      { text: "Rechnerische Kontrolle: Alle Lösungen gehen auf. 98.000 : 18,6 = 5.268,817 € (gerundet 5.268,82 €) und × 18,6 wieder 98.000 €; 500 € × 12 = 6.000 € × 9,3 = 55.800 €; 17,820 × 12.000 = 213.840 €; 12,802 × 12.000 = 153.624 €; 10,780 × 12.000 = 129.360 €. Beim letzten Beispiel beträgt die Differenz der Vervielfältiger 12,802 − 10,780 = 2,022, × 6.000 € = 12.132 €; zusammen mit 129.360 € ergibt sich der Kapitalwert von 141.492 €, der sich zutreffend in 64.680 € und 76.812 € aufteilt (64.680 + 76.812 = 141.492 €)." },
+      { text: "Redaktioneller Hinweis: Die Musterlösungen stehen im Skript selbst nicht; sie sind aus der zugehörigen Datei „Bewertungsrecht Teil 1 – Lösungshinweise“ (Drive-ID `1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) übernommen. Bemerkenswert ist die Lösung zum Unterhalt an die geschiedene Ehefrau: Maßgebend ist der Vervielfältiger der 26-jährigen Berechtigten (17,820), nicht der des 83-jährigen Verpflichteten – der Anspruch erlischt mit ihrem Tod." },
       { text: "Querbezug: Die Regel des § 14 Abs. 3 BewG zum zuerst und zuletzt Sterbenden wendet die Übungsklausur AO/USt/ErbSt/BewR 1 im Kapitalwert einer Doppelleibrente an; der Kapitalwert eines Wohnrechts mit der Begrenzung des § 16 BewG begegnet im Übungsfall Fietze der ErbSt-Fallsammlung und in der Hausaufgabe 3." },
     ],
   },

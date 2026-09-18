@@ -171,9 +171,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   und Befristungen) und IV (Bewertungsmaßstab gemeiner Wert) stehen im Reiter
   „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil1.js`; aus dem Abschnitt V
   ist der Abschnitt V vollständig eingepflegt. **Die Datei ist damit vollständig erfasst.**
-  Die Beispiele des Skripts stehen bis auf eines durchweg ohne Lösung; die Lösungen liegen
-  vermutlich in der noch nicht geöffneten Datei „2025) (6).pdf“
-  (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) desselben Ordners. Sie ist der nächste Schritt. Der Connector gibt die Datei vollständig aus (50.000 Zeichen). Im selben
+  Die Beispiele des Skripts stehen bis auf eines ohne Lösung; die Musterlösungen liegen in
+  der Datei „2025) (6).pdf“ (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) desselben Ordners und sind
+  inzwischen **vollständig ergänzt**. Aus beiden Dateien steht nichts mehr offen. Der Connector gibt die Datei vollständig aus (50.000 Zeichen). Im selben
   Ordner liegt unter dem Namen „2025) (6).pdf“ (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`)
   vermutlich der zugehörige Lösungsteil – noch nicht geöffnet.
 - **Bewertungsrecht Teil 2** (Schäfer): im Ordner `1yhRfkjP6VYO0V8a01BY2vqXbOnXilI97`

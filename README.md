@@ -127,6 +127,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (Sterbetafel 2021/2023, Stichtage ab 01.01.2025), die Regel des § 14 Abs. 3 BewG zum
   zuerst und zuletzt Sterbenden und die Behandlung sich mindernder Ehegattenrenten – samt
   dem Schlussüberblick über alle vier Arten. **Der Skriptteil 1 ist damit vollständig.**
+  Die dreizehn Beispiele, die das Skript selbst ohne Lösung lässt, stehen mit der
+  Musterlösung aus der zugehörigen Lösungsdatei an ihrer Stelle und sind sämtlich
+  nachgerechnet – darunter die Gegenwartswerte über die Tabellen 1 und 2 mit Interpolation
+  (88.100 € und 56.040 €), die Zinsdifferenzrechnung bei 1 % und bei 12 % (18.245 € und
+  22.632 €), die stille Einlage mit 232,8 % beziehungsweise 88,35 % des Nennwerts
+  (104.760 € und 39.757 €), die Höchst- und Mindestzeitrenten mit ihrem Vergleich von § 13
+  und § 14 BewG und die Ehegattenrente nebeneinander mit dem Differenz-Vervielfältiger
+  (141.492 €, aufgeteilt in 64.680 € und 76.812 €).
   Prüfung: `npm run check:k1-erbst-bewertung-teil1`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des
