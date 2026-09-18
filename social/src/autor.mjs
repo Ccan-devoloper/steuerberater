@@ -11,6 +11,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { CONFIG } from "./config.mjs";
+import { istBudgetStopp } from "./budgetstopp.mjs";
 import { FAECHER, KLAUSUREN } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
 import { folieLeer, pruefeBeitrag, korpus, gefundeneEigenbegriffe, normenOhneGesetz, quizBefunde, fachpruefungAbschliessen } from "./pruefung.mjs";
@@ -386,7 +387,7 @@ async function nachbessern(inhalt, fakten, pruefen, zweck = "faktencheck", schlu
        gereicht" aussehen - sonst schreibt der Aufrufer einen NEUEN Entwurf
        und gibt noch mehr aus. Der Fehler geht nach oben, der berichtigte
        Entwurf liegt im Speicher und wartet auf morgen. */
-    if (e instanceof BudgetFehler) throw e;
+    if (istBudgetStopp(e)) throw e;
     return null;
   }
 }
@@ -399,7 +400,7 @@ async function faktenSicher(inhalt, zweck = "faktencheck", opt = {}) {
        durchzugehen. Streng (Standard): Fällt der Prüfer technisch aus,
        erscheint der Beitrag nicht – ein ungeprüfter Steuerrechtsbeitrag ist
        teurer als ein fehlender. */
-    if (e instanceof BudgetFehler) throw e;
+    if (istBudgetStopp(e)) throw e;
     if (CONFIG.faktencheck.strikt) {
       throw new Error(`Faktencheck nicht möglich (${e.message.split("\n")[0].slice(0, 160)}) – der Beitrag erscheint nicht.`);
     }
@@ -734,7 +735,7 @@ async function webRecherche(frage, zweck = "recherche") {
     try {
       response = await claudeAufruf({ zweck, params, modell: CONFIG.ki.modellNeben, attempt: weiter.nummer, slot: zweck });
     } catch (e) {
-      if (e instanceof BudgetFehler || e?.name === "AdmissionAbgelehnt") {
+      if (istBudgetStopp(e)) {
         console.warn(`  ! Recherche nach ${runden} Runde(n) abgebrochen – das Research-Budget lässt keine weitere zu.`);
         break;
       }
@@ -863,7 +864,7 @@ export async function storiesPruefen(liste) {
        (API-Störung, unlesbares Ergebnis) darf die bezahlten Texte nicht
        mitreißen. Sie bleiben gespeichert, tragen `faktencheckOffen` und
        werden im nächsten Lauf geprüft. Ungeprüft erscheint keine. */
-    if (e instanceof BudgetFehler) console.warn(`  ⏸ ${e.message.split("\n")[0]} – die Story-Texte bleiben gespeichert und werden im nächsten Lauf geprüft.`);
+    if (istBudgetStopp(e)) console.warn(`  ⏸ ${e.message.split("\n")[0]} – die Story-Texte bleiben gespeichert und werden im nächsten Lauf geprüft.`);
     else console.warn(`  ! Story-Faktencheck ausgefallen (${e.message.split("\n")[0].slice(0, 120)}) – die Texte bleiben gespeichert und werden im nächsten Lauf geprüft.`);
     for (const o of liste) o.faktencheckOffen = true;
   }
@@ -1077,7 +1078,7 @@ export async function bildregie(reel) {
       },
     });
   } catch (e) {
-    if (e instanceof BudgetFehler) throw e;
+    if (istBudgetStopp(e)) throw e;
     console.warn(`  ! Bildregie nicht möglich (${e.message.split("\n")[0].slice(0, 100)}) – Motive des Autors bleiben.`);
     return { geprueft: 0, ersetzt: 0 };
   }
