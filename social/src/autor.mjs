@@ -13,7 +13,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { CONFIG } from "./config.mjs";
 import { FAECHER, KLAUSUREN } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
-import { folieLeer, pruefeBeitrag, korpus, gefundeneEigenbegriffe, normenOhneGesetz } from "./pruefung.mjs";
+import { folieLeer, pruefeBeitrag, korpus, gefundeneEigenbegriffe, normenOhneGesetz, quizBefunde } from "./pruefung.mjs";
 import { createHash } from "node:crypto";
 import { datumLesbar, tageBis, heuteIso } from "./zeit.mjs";
 import { erfassen, budgetPruefen, budgetFrei, BudgetFehler } from "./kosten.mjs";
@@ -771,6 +771,10 @@ Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder n
   const liste = plan.map((p) => {
     const s = nachSlot.get(p.slot) || {};
     const o = { slot: p.slot, art: p.art, fach: p.thema?.fach || "bilanz", klausur: p.thema?.klausur ?? 3 };
+    /* Frage und Antwort gehoeren zusammen und muessen das auch nach einem
+       einzelnen Neuversuch noch wissen. Bis es ein eigenes Quiz-Objekt gibt,
+       traegt das Thema die Klammer. */
+    if (p.thema?.id) o.pairId = p.thema.id;
     for (const [k, v] of Object.entries(s)) if (v != null && k !== "slot" && k !== "art") o[k] = v;
     if (o.icon && !ICONS[o.icon]) o.icon = "paragraf";
     if (p.art === "countdown") { o.zahl = String(p.tageBisExamen); o.fortschritt = Math.round(100 - Math.min(100, p.tageBisExamen / 150 * 100)); o.ueberzeile = "Noch"; }
@@ -780,6 +784,14 @@ Alles in eigenen Worten, juristisch korrekt, mit Norm. Nicht benötigte Felder n
     if (!ergebnis.ok) { o.beanstandet = ergebnis.fehler; }
     return o;
   });
+  /* Quiz-Invarianten ueber die ganze Lieferung: Einzelbefunde und die
+     Paarpruefung zwischen Frage und Antwort. Deterministisch, kostenlos, und
+     genau der Fall vom 16.09. */
+  for (const f of quizBefunde(liste)) {
+    const treffer = String(f).match(/\[(s\d+)\]/);
+    const ziele = treffer ? liste.filter((o) => o.slot === treffer[1]) : liste;
+    for (const o of ziele) (o.beanstandet ||= []).push(String(f));
+  }
 
   return storiesPruefen(liste);
 }
