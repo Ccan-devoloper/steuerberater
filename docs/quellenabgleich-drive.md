@@ -10617,8 +10617,53 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** die Abschnitte 3.7.2.2 und 3.7.2.3, 3.8 und 3.9 und das
-Kapitel 4 sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** die Abschnitte 3.8 und 3.9 und das Kapitel 4 sowie die
+Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.7.2.2 und 3.7.2.3 – Zwangseinlage und Kapitalgesellschaft
+
+Quelle: dieselbe Datei (vollständige PDF-Extraktion, siehe den Hinweis im vorigen Abschnitt);
+übernommen als Kapitel 42 und 43. Prüfung: `npm run check:k2-kst-teil1` (43 Kapitel, 690 Blöcke,
+28 Tabellen). Damit ist der Abschnitt 3.7 abgeschlossen.
+
+**Der lehrreichste Punkt des Abschnitts 3.7.2.2** sind die beiden Grundstücksbeispiele, die
+dieselben Zahlen haben – fortgeführte Anschaffungskosten 100.000 €, Teilwert 500.000 € – und
+trotzdem völlig verschieden ausgehen. Der einzige Unterschied im Sachverhalt ist das
+Anschaffungsjahr und damit der Wert, mit dem die **Zwangseinlage** anzusetzen ist:
+
+- Anschaffung 2017 (außerhalb der drei Jahre): Einlage mit dem Teilwert von 500.000 €. Im
+  Betriebsvermögen entsteht kein Gewinn, weil Einlage und verdeckte Einlage wertgleich sind; die
+  stillen Reserven von 400.000 € werden im Privatvermögen nach § 23 Abs. 1 Satz 5 Nr. 1 EStG
+  besteuert. Keine Gewerbesteuer.
+- Anschaffung 01.01.2025 (innerhalb der drei Jahre): Einlage mit den fortgeführten
+  Anschaffungskosten von 100.000 € nach § 6 Abs. 1 Nr. 5 Buchstabe a EStG. Die 400.000 € entstehen
+  als **betrieblicher** Gewinn, der Gewinn nach § 23 EStG ist null, und die stillen Reserven
+  unterliegen zusätzlich der **Gewerbesteuer** – was die Quelle in ihrer Fußnote ausdrücklich
+  vermerkt.
+
+Der Datensatz stellt beides in einer als eigene Ergänzung gekennzeichneten Tabelle gegenüber, weil
+es der wirtschaftlich teuerste Unterschied des ganzen Abschnitts 3.7 ist.
+
+**Eine zweite Übersicht** fasst am Ende des Kapitels 43 die gesamte Systematik des Abschnitts 3.7
+zusammen, die die Quelle über fünf Unterabschnitte verteilt entwickelt. Die Leitfrage lautet
+immer: Wo liegt die **Beteiligung**? Sie bestimmt, aus welchem Vermögen die verdeckte Einlage
+erfolgt. Wo das Wirtschaftsgut liegt, entscheidet nur noch darüber, ob ein vorgeschalteter Schritt
+nötig ist – eine Entnahme oder eine Einlage. Auch diese Tabelle ist als eigene Ergänzung
+ausgewiesen.
+
+**Weitere Ungenauigkeiten der Quelle, wortlautgetreu übernommen und gekennzeichnet:**
+„§ 6 Abs. 1 Nr. Buchstabe a EStG“ ohne die Ziffer 5; „§ 6 Abs. 4 Nr. 5 EStG“ statt
+§ 6 Abs. 1 Nr. 5 EStG; „erfolgt die verdeckte Einlage ebenfalls ausschließlich dem
+Betriebsvermögen heraus“ ohne „aus“; „Erst anschließend erfolgend die verdeckte Einlage“ statt
+„erfolgt“; und „Besteuerung eines Gewinns in Höhe von 400.000 €, dessen Gewinn sich … ermittelt“.
+Keine dieser Stellen berührt den Sinn oder das Ergebnis.
+
+**Zwei Angaben, die in den Lösungen nicht gebraucht werden und dennoch im Sachverhalt stehen**,
+sind im Datensatz erläutert: das Anschaffungsdatum 01.01.2024 im Beispiel zu 3.7.2.3 – es ist die
+Probe darauf, dass die Drei-Jahres-Regelung der Frist nach anwendbar wäre und allein daran
+scheitert, dass eine Kapitalgesellschaft kein Privatvermögen hat – sowie die Buchwerte der
+jeweiligen Beteiligung, aus denen sich nur der Stand nach der Einlage ergibt. Sämtliche Zahlen
+sind nachgerechnet und gehen auf.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.7.1.2 und 3.7.2.1 – Trennungstheorie und Betriebsvermögen
 

@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 41 Kapitel mit 658 Abschnitten und
-  26 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 43 Kapitel mit 690 Abschnitten und
+  28 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.7.2.1 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.7 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2559,8 +2559,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 6b EStG ist mangels Entgelts ausgeschlossen, und die Drei-Jahres-Regelung des
   § 6 Abs. 1 Nr. 5 Buchstabe a EStG greift seit dem 27.03.2024 hier nicht mehr, weshalb auch der
   Verweis des § 6 Abs. 6 Satz 3 EStG leerläuft.
-  Die Abschnitte 3.7.2.2 und 3.7.2.3, 3.8 und 3.9 und das Kapitel 4 (Tarif) folgen; der Campus
-  weist den Stand aus.
+  Liegt umgekehrt die **Beteiligung im Betriebsvermögen und das Wirtschaftsgut im
+  Privatvermögen**, geht der verdeckten Einlage eine **Zwangseinlage** voraus – und deren
+  Bewertung entscheidet über alles Weitere. Zwei Grundstücksbeispiele mit identischen Zahlen gehen
+  deshalb völlig verschieden aus: Bei Anschaffung außerhalb der drei Jahre wird mit dem Teilwert
+  eingelegt, die stillen Reserven bleiben im Privatvermögen und werden dort mit 400.000 € nach
+  § 23 Abs. 1 Satz 5 Nr. 1 EStG besteuert; bei Anschaffung innerhalb der drei Jahre wird mit den
+  fortgeführten Anschaffungskosten eingelegt, die 400.000 € entstehen als betrieblicher Gewinn und
+  unterliegen zusätzlich der **Gewerbesteuer**, während der Gewinn nach § 23 EStG null beträgt.
+  Bei einer **Kapitalgesellschaft als Anteilseigner** stellt sich die Frage von vornherein nicht,
+  weil sie mangels Privatsphäre über kein Privatvermögen verfügt – jede Einlage erfolgt aus dem
+  Betriebsvermögen, mit dem Teilwert und ohne die Sonderregelung des Buchstaben a. Eine Übersicht
+  ordnet alle fünf Konstellationen des Abschnitts 3.7 nach der Leitfrage, wo die Beteiligung liegt.
+  Die Abschnitte 3.8 (Schenkungsteuer) und 3.9 (§ 1 AStG) und das Kapitel 4 (Tarif) folgen; der
+  Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
