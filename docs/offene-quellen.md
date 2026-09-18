@@ -329,9 +329,11 @@ Grunderwerbsteuer hat inzwischen einen eigenen Campus, die Lohnsteuer noch nicht
   § 4 GrEStG, die §§ 5 und 6 GrEStG (Erwerbsvorgänge zwischen Gesamthändern, mit Interpolation,
   Zehn- und Fünfzehnjahresfristen), § 6a GrEStG (konzerninterne Umstrukturierung), § 7 GrEStG
   (Umwandlung in Flächeneigentum) und § 1 Abs. 6 GrEStG (Aufeinanderfolgen von Tatbeständen) –
-  **Abschnitt IV ist damit vollständig**. Offen sind nur noch die Abschnitte
-  V (Bemessungsgrundlage), VI (Steuersatz und
-  Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
+  **Abschnitt IV ist damit vollständig**. Ebenfalls eingepflegt sind Abschnitt **V**
+  (Bemessungsgrundlage: § 8 GrEStG, einheitlicher Erwerbsgegenstand, Gesamtgegenleistung und
+  der Katalog des § 9 GrEStG) und Abschnitt **VI** (Steuersatz mit den Ländersätzen,
+  Abrundung, Pauschbesteuerung). Offen sind nur noch die Abschnitte
+  VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
   Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG). Sie sind sämtlich
   lesbar und werden nachgezogen.
 - **Lohnsteuer**, Ordner `1O6alBKmrJsgeQaOyWOTCv6mlDD5zZ8Gv`, drei Dateien:

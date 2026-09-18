@@ -9760,3 +9760,71 @@ Wortlaut für die unveränderte Quelle hält.
 **Offen bleiben** damit nur noch die Abschnitte V (Bemessungsgrundlage), VI (Steuersatz und
 Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
 Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG).
+
+### Skript Grunderwerbsteuer (Vossel), Abschnitte V und VI: Bemessungsgrundlage, Steuersatz
+
+Mit dieser Runde sind die Abschnitte V und VI vollständig übernommen (Kapitel 16 und 17,
+54 neue Abschnitte, eine neue Tabelle).
+
+**Der Satz, der Abschnitt V trägt**, steht gleich am Anfang und ist für alle, die aus dem
+Ertragsteuerrecht kommen, kontraintuitiv: Bemessungsgrundlage ist die **vereinbarte
+Gegenleistung**, nicht der Verkehrswert – und zwar ausdrücklich auch bei Verkäufen zwischen
+Gesellschaft und Gesellschafter, „auch wenn die Gegenleistung weit unter dem Verkehrswert des
+Grundstücks liegt“. Die einzige Grenze, die die Quelle nennt: Der Kaufvertrag darf wegen der
+Unausgewogenheit nicht nichtig sein. Erst wenn keine Gegenleistung vorhanden oder bestimmbar
+ist – typischerweise bei § 1 Abs. 1 Nr. 3 und § 1 Abs. 2a ff. GrEStG –, greift der
+Grundbesitzwert des § 8 Abs. 2 GrEStG.
+
+**Der einheitliche Erwerbsgegenstand** ist vollständig mit allen vier Erlassfundstellen
+erfasst (Abschn. 3.2. bis 3.5. des Erlasses vom 20.09.2017). Das Beispiel der Quelle ist das
+lehrreichste des ganzen Abschnitts: V verkauft das Grundstück für 150.000 €, seine
+Bagger-GmbH baut für 300.000 €, zwei Verträge mit zwei verschiedenen Personen, die sich
+formal nicht bedingen – und trotzdem ist die Bemessungsgrundlage **450.000 €**, weil V
+Alleingesellschafter und Geschäftsführer der GmbH ist und der Bauvertrag **vor** dem
+Grundstückskaufvertrag geschlossen wurde. Die Gegenprobe steht ebenfalls in der Quelle: Ein
+bloß mitverkaufter Bauplan beeinflusst den Grundstückszustand nicht und bleibt außen vor.
+
+**Die Aufteilung der Gesamtgegenleistung** ist mit beiden Varianten erfasst und nachgerechnet:
+a) 570.000 € × 500.000/600.000 = **475.000 €**, b) 720.000 € × 500.000/600.000 =
+**600.000 €**. Dazu die Ausnahme für Geldforderungen – hier wird nicht quotal aufgeteilt,
+sondern die Forderung schlicht abgezogen. Das Erbbauzins-Beispiel treibt das auf die Spitze:
+Der Kapitalwert der Erbbauzinsen (295.000 €) übersteigt die Gesamtgegenleistung (235.000 €),
+so dass für das Grundstück **keine Bemessungsgrundlage mehr verbleibt** und gar keine
+Grunderwerbsteuer anfällt.
+
+**Der Katalog des § 9 GrEStG** ist mit seinen Abgrenzungen übernommen, insbesondere den drei
+Fällen, in denen etwas gerade **nicht** zur Gegenleistung zählt, weil es originär den Erwerber
+trifft: die Beurkundungs- und Grundbuchkosten nach § 448 Abs. 2 BGB, die Maklergebühr, wenn
+zwischen Käufer und Makler ein eigener Maklervertrag zustande kommt, und die Umsatzsteuer nach
+Option gemäß § 9 UStG, weil § 13b UStG sie ohnehin dem Erwerber auferlegt. Umgekehrt erhöhen
+nichtdauernde Lasten die Bemessungsgrundlage – das Wohnrecht auf Lebenszeit im Beispiel mit
+150.000 € neben dem Kaufpreis von 200.000 € –, dauernde Lasten wie Grunddienstbarkeiten und
+kommunale Abgaben dagegen nicht.
+
+**Abschnitt VI** bringt die Ländersätze. Die Tabelle des Skripts ist mit allen sechzehn
+Bundesländern und den Gültigkeitsdaten übernommen: von **3,5 % in Bayern** (dem einzigen Land
+ohne eigenen Satz und ohne Datum in der Quelle) bis **6,5 % in Brandenburg, Nordrhein-
+Westfalen, im Saarland und in Schleswig-Holstein**. Dazu die Abrundung auf volle Euro nach
+§ 11 Abs. 2 GrEStG und die Pauschbesteuerung des § 12 GrEStG, deren Anwendungshäufigkeit die
+Quelle selbst als „äußerst gering“ bezeichnet.
+
+**Eigene Feststellungen:**
+
+1. Die Tabelle ist mit „Stand 01.01.2025“ überschrieben, führt für **Bremen** aber einen Satz
+   von 5,5 % mit Gültigkeit ab **01.07.2025** – also ein zum angegebenen Stand noch
+   zukünftiges Datum. Das ist kein Widerspruch (der Bremer Beschluss lag vor), aber die
+   Überschrift und die Zeile passen nicht zueinander; beides ist unverändert übernommen.
+2. „…ist diese grundsätzlich anhand **grundsätzlich** nach dem Verhältnis des gemeinen Werts…“
+   – das Wort steht zweimal im Satz.
+3. „Die Gegenleistung gem. **§ 9 Nr. 1 und 2 GrEStG**“ – gemeint ist § 9 **Abs. 1** Nr. 1 und 2
+   GrEStG. Der Wortlaut ist übernommen, die richtige Fundstelle in Klammern ergänzt.
+4. Die drei Spiegelstriche zum engen sachlichen Zusammenhang bei zwei Veräußerern („…bestehen,
+   …erfolgen oder …gegeben sein“) sind grammatisch nicht auf ihren Einleitungssatz abgestimmt.
+   Sie stehen im Wortlaut, mit einem Hinweis an Ort und Stelle.
+5. In der Rechnung zu Variante b) der Gesamtgegenleistung ist im Quelltext eine Klammer
+   verrutscht („720.000 € x (500.000 €) / (100.000 € + 500.000 €))“). Das Ergebnis (600.000 €)
+   ist richtig; die Klammer ist als offensichtlicher Satzfehler stillschweigend gerade gerückt,
+   weil hier – anders als bei den Fällen oben – nichts Inhaltliches zur Disposition steht.
+
+**Offen bleiben** die Abschnitte VII (Steuerschuldner, Entstehung und Fälligkeit),
+VIII (Zuständigkeit, Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG).

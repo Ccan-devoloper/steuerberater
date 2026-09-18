@@ -23,8 +23,6 @@ const NAV = [
 /* Was aus dem Skript noch nicht im Wortlaut erfasst ist. Die Liste steht im
    Cockpit, damit der Stand des Campus nachprüfbar bleibt. */
 const OFFEN = [
-  "V. Bemessungsgrundlage",
-  "VI. Steuersatz und Steuerberechnung",
   "VII. Steuerschuldner, Entstehung und Fälligkeit der Grunderwerbsteuer",
   "VIII. Zuständigkeit, Anzeigepflicht und Unbedenklichkeitsbescheinigung",
   "IX. § 16 GrEStG – Nichtfestsetzung der Steuer, Aufhebung oder Änderung der Steuerfestsetzung",
@@ -63,6 +61,8 @@ function Cockpit() {
           <li><b>IV.3 §§ 5, 6 GrEStG – Gesamthänder und Gesamthand</b> – der Kern des grunderwerbsteuerlichen Personengesellschaftsrechts: Weil die Gesamthand eigener Rechtsträger ist, ist die Übertragung auf „ihre“ Gesellschafter und von ihnen steuerbar; die Steuer wird aber insoweit nicht erhoben, wie die gesamthänderische Mitberechtigung erhalten bleibt. Mit der Interpolation, den Zehnjahresfristen der §§ 5 Abs. 3, 6 Abs. 3, 6 Abs. 4 Nr. 1 und 2 GrEStG und der Fünfzehnjahresfrist des § 6 Abs. 4 Nr. 3 GrEStG.</li>
           <li><b>IV.4 § 6a GrEStG – Umstrukturierung im Konzern</b> – welche Rechtsvorgänge begünstigt sind, wer herrschendes Unternehmen und abhängige Gesellschaft ist, wann die Begünstigung nur quotal gewährt wird und warum die Fünfjahresfristen nur einzuhalten sind, soweit das umwandlungsrechtlich möglich ist.</li>
           <li><b>IV.5 und 6 § 7 GrEStG und § 1 Abs. 6 GrEStG</b> – die Umwandlung von gemeinschaftlichem Eigentum in Flächeneigentum, die nach Wertverhältnissen und nicht nach Quoten rechnet, und das Aufeinanderfolgen von Tatbeständen, das im Ergebnis zu einer einmaligen Besteuerung der höheren Bemessungsgrundlage führt. <b>Damit ist Abschnitt IV vollständig.</b></li>
+          <li><b>V Bemessungsgrundlage</b> – der Grundsatz des § 8 Abs. 1 GrEStG (die vereinbarte Gegenleistung, nicht der Verkehrswert) und der Grundbesitzwert des § 8 Abs. 2 GrEStG, wenn keine Gegenleistung bestimmbar ist. Dazu der einheitliche Erwerbsgegenstand, der aus Grundstückskauf und Bauvertrag ein bebautes Grundstück macht, die Aufteilung der Gesamtgegenleistung und der vollständige Katalog des § 9 Abs. 2 GrEStG – nichtdauernde Lasten, Maklergebühr, Grundpfandrecht, Umsatzsteueroption.</li>
+          <li><b>VI Steuersatz und Steuerberechnung</b> – der Regelsatz von 3,5 % und die Ländersätze nach der Föderalismusreform 2006 in einer Tabelle aller sechzehn Bundesländer, die Abrundung auf volle Euro und die Pauschbesteuerung des § 12 GrEStG.</li>
         </ul>
       </div>
       <div className="kst-karte">
@@ -121,7 +121,7 @@ export default function K1GrEStCampus({ onKlausurwechsel, onFachwechsel }) {
           <KurzskriptBloecke
             kicker="Klausur 1 · Grunderwerbsteuer · Skript"
             titel="Skript Grunderwerbsteuer (Vossel)"
-            lead="Das Lehrgangsskript „Vorbereitung auf die Steuerberaterprüfung · Grunderwerbsteuer“ von Dr. Stephan Vossel (Stand 01/2026) im Wortlaut. Eingepflegt sind die Abschnitte I (Charakterisierung), II (Prüfungsschema), der vollständige Abschnitt III (Steuerbarkeit) mit allen vier Ergänzungstatbeständen und der vollständige Abschnitt IV (Steuerbefreiungen und Steuervergünstigungen, §§ 3 bis 7 GrEStG nebst § 1 Abs. 6 GrEStG). Abschnitt I klärt die Frage, die alles trägt: Steuerbar ist der Wechsel der Rechtsträgerzuordnung, nicht der Übergang wirtschaftlichen Eigentums – weshalb Personengesellschaften hier eigene Rechtsträger sind und nicht, wie im Ertragsteuerrecht, transparent. Abschnitt II stellt das fünfstufige Prüfungsschema vollständig dar: Steuerbarkeit mit Haupt-, Neben-, Ersatz- und Ergänzungstatbeständen des § 1 GrEStG einschließlich der 90-Prozent-Grenzen und der Zehnjahresfristen, dann Steuerpflicht und Befreiung mit den §§ 3 bis 7 GrEStG, dann Bemessungsgrundlage, Steuersatz und schließlich die acht Steuerschuldner-Tatbestände des § 13 GrEStG."
+            lead="Das Lehrgangsskript „Vorbereitung auf die Steuerberaterprüfung · Grunderwerbsteuer“ von Dr. Stephan Vossel (Stand 01/2026) im Wortlaut. Eingepflegt sind die Abschnitte I (Charakterisierung), II (Prüfungsschema), der vollständige Abschnitt III (Steuerbarkeit) mit allen vier Ergänzungstatbeständen der vollständige Abschnitt IV (Steuerbefreiungen und Steuervergünstigungen, §§ 3 bis 7 GrEStG nebst § 1 Abs. 6 GrEStG), Abschnitt V (Bemessungsgrundlage) und Abschnitt VI (Steuersatz und Steuerberechnung). Abschnitt I klärt die Frage, die alles trägt: Steuerbar ist der Wechsel der Rechtsträgerzuordnung, nicht der Übergang wirtschaftlichen Eigentums – weshalb Personengesellschaften hier eigene Rechtsträger sind und nicht, wie im Ertragsteuerrecht, transparent. Abschnitt II stellt das fünfstufige Prüfungsschema vollständig dar: Steuerbarkeit mit Haupt-, Neben-, Ersatz- und Ergänzungstatbeständen des § 1 GrEStG einschließlich der 90-Prozent-Grenzen und der Zehnjahresfristen, dann Steuerpflicht und Befreiung mit den §§ 3 bis 7 GrEStG, dann Bemessungsgrundlage, Steuersatz und schließlich die acht Steuerschuldner-Tatbestände des § 13 GrEStG."
             quelle={grestSkriptQuelle}
             kapitel={grestSkript}
             gruppeVon={(k) => k.romisch}

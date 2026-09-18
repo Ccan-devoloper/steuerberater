@@ -2201,7 +2201,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **GrESt-Campus** (Klausur 1, Reiter Grunderwerbsteuer): neuer Campus für ein Fach, das
   bislang keinen hatte. Erfasst ist das Lehrgangsskript „Vorbereitung auf die
   Steuerberaterprüfung · Grunderwerbsteuer“ von Dr. Stephan Vossel (Stand 01/2026) im
-  Wortlaut – derzeit 15 Kapitel mit 386 Abschnitten und 11 Tabellen. Vollständig eingepflegt
+  Wortlaut – derzeit 17 Kapitel mit 440 Abschnitten und 12 Tabellen. Vollständig eingepflegt
   sind die Abschnitte **I** (Charakterisierung: steuerbar ist der Wechsel der
   Rechtsträgerzuordnung, nicht der Übergang wirtschaftlichen Eigentums – weshalb
   Personengesellschaften hier eigene Rechtsträger sind), **II** (das fünfstufige
@@ -2213,9 +2213,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 3 GrEStG und ihre Anwendung auf die Ergänzungstatbestände, § 4 GrEStG, die §§ 5, 6 GrEStG
   für Erwerbsvorgänge zwischen Gesamthändern mit Interpolation, Zehn- und
   Fünfzehnjahresfristen, die Konzernklausel des § 6a GrEStG, § 7 GrEStG zum Flächeneigentum
-  und § 1 Abs. 6 GrEStG zum Aufeinanderfolgen von Tatbeständen).
-  Offen sind noch die Abschnitte V bis IX (Bemessungsgrundlage, Steuersatz und
-  Steuerberechnung, Steuerschuldner, Zuständigkeit und Anzeigepflicht sowie § 16 GrEStG); das
+  und § 1 Abs. 6 GrEStG zum Aufeinanderfolgen von Tatbeständen), **V** (Bemessungsgrundlage:
+  der Grundsatz der vereinbarten Gegenleistung, der Grundbesitzwert des § 8 Abs. 2 GrEStG, der
+  einheitliche Erwerbsgegenstand, die Aufteilung der Gesamtgegenleistung und der Katalog des
+  § 9 Abs. 2 GrEStG) und **VI** (Steuersatz mit den Ländersätzen aller sechzehn Bundesländer,
+  Abrundung, Pauschbesteuerung).
+  Offen sind noch die Abschnitte VII bis IX (Steuerschuldner, Entstehung und Fälligkeit;
+  Zuständigkeit, Anzeigepflicht und Unbedenklichkeitsbescheinigung; § 16 GrEStG); das
   Cockpit des Campus weist das aus. Prüfung: `npm run check:k1-grest-skript`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
