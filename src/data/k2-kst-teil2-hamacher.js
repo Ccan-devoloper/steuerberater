@@ -19,8 +19,9 @@
    Veräußerungsbegriff und die Wertaufholung bis zur Betriebsausgabenpauschalierung
    und den gewerbesteuerlichen Auswirkungen. Aus Kapitel 4 (Abzugsverbot von
    Gewinnminderungen) ist der Abschnitt 4.1 (Begriff der Gewinnminderung)
-   übernommen. Es folgen die Abschnitte 4.2 und 4.3 sowie die Kapitel 5 und 6;
-   der Campus weist den Stand aus.
+   übernommen, dazu der Tatbestand der Darlehensregelung und die Ermittlung der
+   qualifizierten Beteiligung (4.2.1 und 4.2.2.1). Es folgen die Abschnitte ab
+   4.2.2.2 sowie die Kapitel 5 und 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -1051,6 +1052,78 @@ export const kstTeil2 = [
       { text: "Beispiel: Die A-GmbH beabsichtigt die Anschaffung einer Beteiligung, wofür in 2026 bereits Aufwendungen für die sog. Due-dilligence-Prüfung i. H. von 300.000 € angefallen sind. Diese wurden zunächst als Betriebsausgaben verbucht. Am 31.12.2026 nimmt die A-GmbH aber Abstand von der Anschaffung, weil ihr die Renditeaussichten zu gering waren." },
       { text: "Lösung: Die Aufwendungen, die mit der vergeblichen Anschaffung der Beteiligung im Zusammenhang stehen, können in 2026 als Betriebsausgaben abgezogen werden. Ein Anwendungsfall des § 8b Abs. 3 Satz 3 KStG ist nicht gegeben, weil sich kein Zusammenhang der Aufwendungen zu einem Anteil i. S. des § 8b Abs. 2 KStG herleiten lässt." },
       { text: "Anmerkung zur Pointe dieses Abschnitts (eigene Ergänzung): Sie liegt in einer Formulierung des Gesetzes, die man leicht überliest. § 8b Abs. 3 Satz 3 KStG knüpft an Gewinnminderungen „im Zusammenhang mit einem **Anteil** i. S. des Absatzes 2“ an – und wo der Erwerb scheitert, gibt es diesen Anteil nie. Das führt zu einem auf den ersten Blick paradoxen Ergebnis: Wer eine Beteiligung erwirbt und später mit Verlust verkauft, kann weder die Anschaffungsnebenkosten noch den Verlust abziehen; wer den Erwerb abbricht, zieht die aufgewendeten Prüfungskosten in voller Höhe ab. Der gescheiterte Erwerb ist steuerlich also günstiger als der erfolgreiche." },
+    ],
+  },
+  {
+    id: "kst-t2-28",
+    kapitel: "28",
+    abschnittNr: "4.2.1",
+    title: "4.2 Gewinnminderungen aus Gesellschafterforderungen – 4.2.1 Tatbestand der Regelung",
+    thema: "Seit 2008 erfasst § 8b Abs. 3 Sätze 4 bis 8 KStG auch Ausfall und Teilwertabschreibung von Gesellschafterdarlehen sowie die Inanspruchnahme aus Sicherheiten. Das Gesetz unterstellt die gesellschaftsrechtliche Veranlassung bei drei Gruppen von „qualifizierten Darlehensgebern“",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 4.2.1 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 3 Satz 3 KStG", "§ 8b Abs. 3 Sätze 4 bis 8 KStG",
+      "§ 8b Abs. 3 Satz 4 KStG", "§ 8b Abs. 3 Satz 5 KStG",
+      "§ 1 AStG", "§ 1 Abs. 2 AStG", "§ 6 Abs. 6 Satz 2 EStG",
+      "Art. 9 OECD-MA",
+      "BFH vom 14.01.2009, BStBl. II 2009, 674",
+      "BFH vom 19.02.2020, BStBl. II 2021, 223", "BFH vom 17.05.2023, I R 29/20",
+      "FG Münster vom 17.08.2016, 10 K 2301/13 K",
+      "FG Münster vom 19.12.2017, 10 K 3556/13 K,F (rkr.)",
+      "BMF vom 14.07.2021, BStBl. I 2021, 1098, D 1.16",
+    ],
+    themen: ["Gesellschafterdarlehen", "Qualifizierter Darlehensgeber", "Sicherheiten", "Unilaterale Missbrauchsnorm", "Verrechnungspreise"],
+    bloecke: [
+      { text: "Mit Wirkung ab dem VZ 2008 ist § 8b Abs. 3 KStG um die Sätze 4 – 8 erweitert worden, um die bisher von der Finanzverwaltung auch ohne gesetzliche Regelung vertretene Rechtsauffassung festzuschreiben. Danach kann bei einer Körperschaft eine Gewinnminderung aufgrund des" },
+      { text: "• Ausfalls" },
+      { text: "• oder einer Teilwertabschreibung" },
+      { text: "einer Darlehensforderung steuerlich nicht mehr berücksichtigt werden. Gleiches gilt für Gewinnminderungen, die im Zusammenhang mit der Inanspruchnahme aus Sicherheiten (z. B. Bürgschaften) stehen, wenn der Forderungsanspruch gegenüber der sich verbürgten Gesellschaft wertlos ist." },
+      { text: "Davon betroffen sind auch Darlehensforderungen gegenüber ausländischen Gesellschaften, d. h. die Anwendung des § 1 AStG ist insoweit nachrangig. Ob die Anwendung des § 8b Abs. 3 Satz 4 KStG in diesen Fällen auch durch Art. 9 OECD-MA gesperrt wird, kann wohl verneint werden. Dies deshalb, weil § 8b Abs. 3 Satz 4 KStG eine unilaterale Missbrauchsverhinderungsnorm ist und der in Art. 9 OECD-MA enthaltene Fremdvergleichsmaßstab hierfür unerheblich ist." },
+      { text: "Nach § 8b Abs. 3 Satz 4 ff. KStG ist die Gewinnminderung beim Darlehensgeber steuerlich nicht mehr abziehbar, wenn dieser als „qualifizierter Darlehensgeber“ anzusehen ist. Das Gesetz führt insoweit zu einer Unterstellung, dass die Darlehensforderung bzw. der Anspruch aus der Hingabe einer Sicherheit in diesen Fällen gesellschaftsrechtlich veranlasst ist und somit als gewinnwirksamer Aufwand aus einer Beteiligung das Einkommen nicht mehr mindern darf. Als qualifizierter Darlehensgeber kommen danach in Betracht:" },
+      { text: "• Der zu mehr als 25 % mittelbar oder unmittelbar an der darlehensnehmenden Kapitalgesellschaft beteiligte Gesellschafter (Satz 4)" },
+      { text: "• Eine diesem Gesellschafter nahe stehende Person (i. S. des § 1 Abs. 2 AStG, Satz 5)" },
+      { text: "• Ein rückgriffsberechtigter Dritter, der auf den zum mehr als 25 % beteiligten Anteilseigner oder eine diesem nahe stehende Person zurückgreifen kann (Satz 5)." },
+      { text: "Sind die Tatbestandsmerkmale hingegen nicht erfüllt, bleibt die Gewinnminderung bei einer Anteilseigner-Kapitalgesellschaft entsprechend den allgemeinen Grundsätzen des BFH-Urteils vom 14.01.2009 grundsätzlich voll abziehbar, wenn in der Darlehensgewährung von Anfang an nicht auch bereits eine verdeckte Einlage gesehen werden muss. Diese hätte nach § 6 Abs. 6 Satz 2 EStG die Anschaffungskosten der darlehensnehmenden Beteiligung bereits unmittelbar erhöht, so dass § 8b Abs. 3 Satz 3 KStG der Berücksichtigung der Gewinnminderung bereits entgegenstehen würde. Bei grenzüberschreitenden Darlehensgewährungen zwischen verbundenen Unternehmen sind in diesen Fällen die „Verwaltungsgrundsätze Verrechnungspreise“ anzuwenden." },
+      { text: "Merke: Bei einer Kapitalgesellschaft kann diese eine mit ihrer (Darlehens-)Forderung zusammenhängende Gewinnminderung nicht abziehen, wenn ein Anwendungsfall des § 8b Abs. 3 Satz 4 KStG vorliegt. Dies gilt insbesondere in den Fällen, in denen der Darlehensgeber zu mehr als 25 % am Darlehensnehmer beteiligt ist oder war." },
+      { text: "Anmerkung zur Verbindung mit Teil I (eigene Ergänzung): Der Abschnitt ist das körperschaftsteuerliche Gegenstück zum Abschnitt 3.5.2.3.2 aus Teil I. Dort ging es um § 3c Abs. 2 Satz 2 EStG und damit um natürliche Personen im Betriebsvermögen, hier um § 8b Abs. 3 Satz 4 KStG und damit um Kapitalgesellschaften. Die Tatbestände sind bewusst parallel gebaut – dieselbe 25-Prozent-Grenze, dieselbe Erstreckung auf nahestehende Personen und rückgriffsberechtigte Dritte, derselbe Gegenbeweis. Der Unterschied liegt in der Rechtsfolge: Bei der natürlichen Person wird die Gewinnminderung zu 40 % gekürzt, bei der Kapitalgesellschaft ist sie **vollständig** nicht abziehbar." },
+      { text: "Anmerkung zur Reihenfolge der Prüfung (eigene Ergänzung): Der vorletzte Absatz enthält einen Hinweis, der leicht untergeht und die Prüfungsreihenfolge bestimmt. Bevor man § 8b Abs. 3 Satz 4 KStG prüft, ist zu fragen, ob die Darlehensgewährung von Anfang an eine **verdeckte Einlage** war. War sie es, haben sich die Anschaffungskosten der Beteiligung bereits nach § 6 Abs. 6 Satz 2 EStG erhöht, und die spätere Gewinnminderung scheitert schon an § 8b Abs. 3 **Satz 3** KStG – auf die 25-Prozent-Grenze des Satzes 4 kommt es dann gar nicht mehr an. Erst wenn ein echtes Darlehen vorliegt, beginnt die Prüfung des Satzes 4." },
+      { text: "Anmerkung zum grenzüberschreitenden Fall (eigene Ergänzung): Die Quelle ordnet das Verhältnis zu zwei anderen Normen, und beide Male setzt sich § 8b Abs. 3 Satz 4 KStG durch. Gegenüber § 1 AStG ist er vorrangig, gegenüber Art. 9 OECD-MA nicht gesperrt – mit der Begründung, er sei eine **unilaterale Missbrauchsverhinderungsnorm**, für die der abkommensrechtliche Fremdvergleichsmaßstab keine Rolle spielt. Das ist bemerkenswert, weil es bedeutet: Selbst ein nachweislich fremdüblich verzinstes und besichertes Darlehen an eine ausländische Tochtergesellschaft fällt unter das Abzugsverbot, wenn die Beteiligungsquote stimmt – der Fremdvergleich hilft hier nur über den Gegenbeweis des Satzes 6 (siehe unter 4.2.8), nicht über das Abkommen." },
+    ],
+  },
+  {
+    id: "kst-t2-29",
+    kapitel: "29",
+    abschnittNr: "4.2.2.1",
+    title: "4.2.2 Qualifiziert beteiligter Anteilseigner als Darlehensgeber – 4.2.2.1 Ermittlung der qualifizierten Beteiligung",
+    thema: "Anders als bei § 8b Abs. 4 KStG zählen hier auch **mittelbare** Beteiligungen mit, und zwar durchgerechnet. Maßgebend ist allein der Nominalanteil, nicht die Stimmrechte – und auf eine Beherrschung der Zwischengesellschaft kommt es nicht an",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 4.2.2.1 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 3 Satz 4 KStG", "§ 8b Abs. 6 KStG", "§ 8b Abs. 4 Satz 1 KStG",
+    ],
+    themen: ["Qualifizierte Beteiligung", "Mittelbare Beteiligung", "Durchrechnung", "Nominalanteil", "Personengesellschaft als Darlehensgeberin"],
+    bloecke: [
+      { text: "Für die Prüfung des qualifizierten Darlehensgebers ist gemäß § 8b Abs. 3 Satz 4 KStG auf eine zu mehr als 25 % bestehende unmittelbare oder mittelbare Beteiligung an der darlehensnehmenden Gesellschaft abzustellen. Hierfür ist ausschließlich der Nominalanteil an der darlehensnehmenden Gesellschaft maßgebend, d. h. der Umfang der Stimmrechte ist für diese Prüfung uninteressant. Sofern dem Darlehensgeber neben einer unmittelbaren Beteiligung auch eine mittelbare Beteiligung an der darlehensnehmenden Gesellschaft zuzurechnen ist, z. B. über Personengesellschaften oder über andere Kapitalgesellschaften, sind diese Beteiligungen zusammenzurechnen. Für Zwecke des § 8b Abs. 3 Satz 4 KStG kann sich die notwendige Beteiligungsquote auch aus einer ausschließlich mittelbaren Beteiligung ergeben." },
+      { text: "In Fällen einer mittelbaren Beteiligung ist danach ausschließlich der durchgerechnete Wert maßgebend, weil § 8b Abs. 3 Satz 4 KStG auf die „Beteiligung am Grund- oder Stammkapital“ des Darlehensnehmers abstellt. Ist der Darlehensgeber daher an der Gesellschaft, die die Beteiligung am Darlehensnehmer vermittelt, zu weniger als 100 % beteiligt, ist die mittelbare Beteiligung am Nennkapital des Darlehensnehmers beteiligungskongruent zu berechnen. Auf die Beherrschung der mittelbaren Gesellschaft durch den Darlehensgeber kommt es nicht an, so dass die Durchrechnung auch in den Fällen einer Beteiligung < 50 % erfolgt." },
+      { text: "Merke: Für die Ermittlung der qualifizierten Beteiligung (> 25 %) des Darlehensgebers werden sowohl unmittelbare als auch (durchgerechnet) mittelbare Beteiligungen berücksichtigt. Dafür ist zudem nur die Nominalbeteiligung und nicht die Stimmrechte ausschlaggebend." },
+      { text: "Beispiel: Die A-GmbH ist zu 100 % an der B-GmbH beteiligt und darüber hinaus auch zu 11 % an der C-GmbH. Die B-GmbH ist wiederum zu 30 % an der C-GmbH beteiligt. Die A-GmbH gibt der C-GmbH ein Darlehen über 1.000.000 €." },
+      { text: "Lösung: Für Zwecke des § 8b Abs. 3 Satz 4 KStG ist die A-GmbH als qualifizierter Darlehensgeber anzusehen, da sie unmittelbar und mittelbar über die B-GmbH mit 41 % (11 % + 30 %) an der C-GmbH beteiligt ist." },
+      { text: "Beispiel: Die A-GmbH ist zu 40 % an der B-GmbH beteiligt. Die B-GmbH ist wiederum zu 80 % an der C-GmbH beteiligt. Die A-GmbH gibt der C-GmbH ein Darlehen über 1.000.000 €." },
+      { text: "Lösung: Für Zwecke des § 8b Abs. 3 Satz 4 KStG ist die A-GmbH als qualifizierter Darlehensgeber anzusehen, weil die Beteiligung bei 32 % (40 % von 80 %) liegt." },
+      { text: "Wird das Darlehen von einer Personengesellschaft selbst gewährt, die auch selbst unmittelbar an dem Darlehensnehmer zu mehr als 25 % beteiligt ist, führt dies bei einer Mitunternehmer-Kapitalgesellschaft zu einem Anwendungsfall des § 8b Abs. 3 Satz 4 KStG. Bei der Mitunternehmer-Kapitalgesellschaft sind aufgrund § 8b Abs. 6 KStG sämtliche Regelungen des § 8b KStG entsprechend anzuwenden (siehe hierzu unter 5.). Weil die (gewerbliche) Personengesellschaft als Gewinnermittlungssubjekt in dieser Situation selbst der zivilrechtliche Darlehensgeber ist, ist für die Ermittlung der qualifizierten Beteiligungsquote auch nur auf die Beteiligung der Personengesellschaft abzustellen. (Der Abschnitt setzt sich in der Quelle auf der folgenden Seite fort.)" },
+      { typ: "tabelle", spalten: ["Merkmal", "§ 8b Abs. 4 KStG (Streubesitz, Kapitel 2)", "§ 8b Abs. 3 Satz 4 KStG (Darlehen, hier)"], zeilen: [
+        ["Schwelle", "mindestens 10 %", "mehr als 25 %"],
+        ["Unmittelbare Beteiligung", "ja", "ja"],
+        ["Mittelbare Beteiligung", "nein – bleibt außer Betracht", "ja – durchgerechnet und mit der unmittelbaren zusammenzurechnen"],
+        ["Beteiligung über eine Personengesellschaft", "anteilig wie unmittelbar (Sätze 4 und 5)", "durchgerechnet; gibt die Personengesellschaft selbst das Darlehen, zählt ihre eigene Quote"],
+        ["Stimmrechte", "unerheblich", "unerheblich"],
+        ["Stichtag", "01.01. des Kalenderjahres", "ist oder war beteiligt – die gesamte Darlehenslaufzeit (siehe 4.2.2.2)"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt die beiden Beteiligungsprüfungen des § 8b KStG gegenüber, weil sie in derselben Vorschrift stehen und trotzdem nach entgegengesetzten Regeln funktionieren – eine der häufigsten Verwechslungen in diesem Stoff. Der auffälligste Unterschied betrifft die **mittelbaren** Beteiligungen: Für die Streubesitzgrenze des Absatzes 4 bleiben sie außer Betracht, für das Darlehensabzugsverbot des Absatzes 3 zählen sie mit. Der Grund liegt in der verschiedenen Funktion: Absatz 4 will die Steuerfreiheit auf unternehmerische Beteiligungen begrenzen und prüft deshalb subjektbezogen; Absatz 3 Satz 4 ist eine Missbrauchsnorm und fragt nach dem tatsächlichen wirtschaftlichen Einfluss, den auch eine mittelbare Beteiligung vermittelt." },
+      { text: "Rechenproben (eigene Ergänzung): Beide Beispiele gehen auf. Im ersten Fall vermittelt die 100%ige Beteiligung an der B-GmbH deren 30 % an der C-GmbH in voller Höhe (100 % × 30 % = 30 %), zuzüglich der unmittelbaren 11 % ergibt das 41 %. Im zweiten Fall bleibt von den 80 % der B-GmbH nur der auf die A-GmbH entfallende Anteil: 40 % × 80 % = 32 %. Beide Male liegt die Quote über 25 %, aber im zweiten Fall zeigt sich die Bedeutung der Durchrechnung besonders deutlich – ohne sie hätte man fälschlich 80 % oder 40 % angesetzt. Bemerkenswert ist der ausdrückliche Hinweis der Quelle, dass es auf eine **Beherrschung** der Zwischengesellschaft nicht ankommt: Auch eine Minderheitsbeteiligung von 40 % vermittelt anteilig mit." },
     ],
   },
 ];

@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 27 Kapitel mit 324 Abschnitten und 22
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 29 Kapitel mit 349 Abschnitten und 23
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2558,6 +2558,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Kosten eines gescheiterten Beteiligungserwerbs** bleiben dagegen voll abziehbar, weil es an
   einem „Anteil i. S. des Absatzes 2“ fehlt – der abgebrochene Erwerb ist steuerlich also günstiger
   als der erfolgreiche.
+  Die **Gesellschafterdarlehen** (§ 8b Abs. 3 Sätze 4 bis 8 KStG, seit dem VZ 2008) unterliegen
+  demselben Abzugsverbot, wenn der Darlehensgeber „qualifiziert“ ist – das sind der zu mehr als
+  25 % beteiligte Gesellschafter, eine ihm nahestehende Person und ein rückgriffsberechtigter
+  Dritter. Die Regelung ist das körperschaftsteuerliche Gegenstück zu § 3c Abs. 2 Satz 2 EStG aus
+  Teil I und bewusst parallel gebaut; der Unterschied liegt in der Rechtsfolge, denn bei der
+  Kapitalgesellschaft ist die Gewinnminderung **vollständig** nicht abziehbar statt nur zu 40 %
+  gekürzt. Vorrangig zu prüfen ist stets, ob die Darlehensgewährung von Anfang an eine verdeckte
+  Einlage war – dann scheitert der Abzug schon an Satz 3, und auf die 25-Prozent-Grenze kommt es
+  nicht mehr an. Bei der Ermittlung dieser Grenze zählen – **anders als bei der Streubesitzgrenze
+  des Absatzes 4** – auch mittelbare Beteiligungen mit, und zwar durchgerechnet und ohne dass es
+  auf eine Beherrschung der Zwischengesellschaft ankäme (40 % × 80 % = 32 %). Eine Übersicht stellt
+  die beiden Beteiligungsprüfungen gegenüber, die in derselben Vorschrift stehen und nach
+  entgegengesetzten Regeln funktionieren.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

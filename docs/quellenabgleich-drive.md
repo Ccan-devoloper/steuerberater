@@ -10617,8 +10617,48 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.2.2; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 4.2.1 und 4.2.2.1 – Gesellschafterdarlehen
+
+Quelle: dieselbe Datei; übernommen als Kapitel 28 und 29. Prüfung:
+`npm run check:k2-kst-teil2` (29 Kapitel, 349 Blöcke, 23 Tabellen).
+
+**Eine zweite Verbindung zu Teil I**, die der Datensatz herstellt: Der Abschnitt ist das
+körperschaftsteuerliche Gegenstück zum Abschnitt 3.5.2.3.2 aus Teil I. Dort ging es um
+§ 3c Abs. 2 Satz 2 EStG und damit um natürliche Personen, hier um § 8b Abs. 3 Satz 4 KStG und
+damit um Kapitalgesellschaften. Die Tatbestände sind bewusst parallel gebaut – dieselbe
+25-Prozent-Grenze, dieselbe Erstreckung auf nahestehende Personen und rückgriffsberechtigte
+Dritte, derselbe Gegenbeweis. Der Unterschied liegt in der Rechtsfolge: 40 % Kürzung dort,
+**vollständiges** Abzugsverbot hier.
+
+**Ein Hinweis, der die Prüfungsreihenfolge bestimmt** und leicht untergeht: Bevor § 8b Abs. 3
+Satz 4 KStG geprüft wird, ist zu fragen, ob die Darlehensgewährung von Anfang an eine **verdeckte
+Einlage** war. War sie es, haben sich die Anschaffungskosten bereits nach § 6 Abs. 6 Satz 2 EStG
+erhöht, und die spätere Gewinnminderung scheitert schon an Satz 3 – auf die 25-Prozent-Grenze
+kommt es dann gar nicht mehr an.
+
+**Zum grenzüberschreitenden Fall** ordnet die Quelle das Verhältnis zu zwei Normen, und beide Male
+setzt sich § 8b Abs. 3 Satz 4 KStG durch: Gegenüber § 1 AStG ist er vorrangig, durch
+Art. 9 OECD-MA nicht gesperrt – weil er eine **unilaterale Missbrauchsverhinderungsnorm** ist, für
+die der abkommensrechtliche Fremdvergleichsmaßstab keine Rolle spielt. Der Datensatz zieht daraus
+die Folgerung, die die Quelle nicht ausspricht: Selbst ein nachweislich fremdüblich verzinstes und
+besichertes Darlehen an eine ausländische Tochter fällt unter das Abzugsverbot, wenn die Quote
+stimmt; der Fremdvergleich hilft nur über den Gegenbeweis des Satzes 6, nicht über das Abkommen.
+
+**Die auffälligste Verwechslungsgefahr des ganzen Skripts** ist im Datensatz tabellarisch
+aufgelöst: § 8b Abs. 4 KStG und § 8b Abs. 3 Satz 4 KStG stehen in derselben Vorschrift und prüfen
+die Beteiligung nach **entgegengesetzten** Regeln. Für die Streubesitzgrenze bleiben mittelbare
+Beteiligungen außer Betracht, für das Darlehensabzugsverbot zählen sie durchgerechnet mit. Der
+Grund liegt in der verschiedenen Funktion – Absatz 4 begrenzt die Steuerfreiheit auf
+unternehmerische Beteiligungen und prüft subjektbezogen, Absatz 3 Satz 4 ist eine Missbrauchsnorm
+und fragt nach dem tatsächlichen wirtschaftlichen Einfluss.
+
+**Beide Rechenbeispiele sind nachgerechnet** (Proben als eigene Ergänzung): 100 % × 30 % + 11 % =
+41 %; 40 % × 80 % = 32 %. Eigens hervorgehoben ist der Hinweis der Quelle, dass es auf eine
+**Beherrschung** der Zwischengesellschaft nicht ankommt – auch eine Minderheitsbeteiligung von
+40 % vermittelt anteilig mit.
 
 ### KSt Teil II (Hamacher), Abschnitt 4.1 – Begriff der Gewinnminderung
 
