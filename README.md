@@ -97,6 +97,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Besteuerungszeitpunkt. Die drei Beispiele der Quelle stehen durchgerechnet; wo die
   Quelle eine Vermögensaufstellung ohne Ergebnis stehen lässt, ist das ausdrücklich
   vermerkt und die eigene Kontrollrechnung als solche gekennzeichnet.
+  Dazu das **vereinfachte Ertragswertverfahren**: der Anwendungsbereich mit dem Wahlrecht
+  des § 199 BewG, der Abgrenzung zu branchentypischen Multiplikatorenverfahren und dem
+  Katalog der Fälle offensichtlich unzutreffender Ergebnisse (zeitnahe Verkäufe,
+  Erbauseinandersetzungen, verbundene Unternehmen, Branchenwechsel, Neugründungen); die
+  drei Sonderbewertungen des § 200 BewG für nicht betriebsnotwendiges Vermögen,
+  (Unter-)Beteiligungen ohne Mindestquote und junges Betriebsvermögen samt der Frage, wie
+  die zugehörigen Erträge und Aufwendungen aus dem Jahresertrag auszuscheiden sind; sowie
+  der zukünftig nachhaltig erzielbare Jahresertrag mit dem dreijährigen Ermittlungszeitraum
+  und seinen Ausnahmen (Einbeziehung des laufenden Wirtschaftsjahres, verkürzter Zeitraum
+  mit Division durch zwei, Rumpfwirtschaftsjahre, Umwandlungsfälle) und dem vollständigen
+  Korrekturschema des § 202 BewG in 19 Zeilen vom Unterschiedsbetrag über drei
+  Zwischensummen und die 30-Prozent-Pauschale bis zum bereinigten Betriebsergebnis,
+  einschließlich der Erläuterungen zu Unternehmerlohn, Doppelerfassung und verdeckter
+  Gewinnausschüttung.
   Prüfung: `npm run check:k1-erbst-bewertung-teil3`
 - **Hausaufgaben KSt** (Reiter im Campus Körperschaftsteuer): die Kurzklausuren des
   Tageslehrgangs mit Lösung – Fachtermin 1 (A-GmbH mit dreizehn Korrekturtatbeständen,

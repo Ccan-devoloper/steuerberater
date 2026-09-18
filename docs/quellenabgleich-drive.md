@@ -3706,3 +3706,53 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   R B 11.5 Abs. 7 ErbStR formuliert die 30 % als Mindestgrenze eines angemessenen
   Restwerts. Die Quelle wendet die Vereinfachungsregel als Wertansatz an; ihr Wortlaut und
   ihre Zahlen sind unverändert übernommen.
+
+## Bewertungsrecht Teil 3 (Schäfer) – vereinfachtes Ertragswertverfahren (Tz. 5 a bis e)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa`),
+  Teil I, Tz. 5 Buchstaben a) bis e), PDF-Seiten 12 bis 17.
+- Einpflege dieses Durchgangs: drei weitere Kapitel – Anwendungsbereich des vereinfachten
+  Ertragswertverfahrens, die drei Sonderbewertungen des § 200 BewG sowie der zukünftig
+  nachhaltig erzielbare Jahresertrag mit dem Korrekturschema des § 202 BewG. Der Datensatz
+  umfasst jetzt 7 Kapitel, 124 Blöcke und 10 Tabellen; Prüfung
+  `npm run check:k1-erbst-bewertung-teil3`.
+- Noch offen aus derselben Datei: Tz. 5 f) (Kapitalisierungsfaktor), Tz. 6 (Anteile am
+  Betriebsvermögen einer Personengesellschaft), Tz. 7 (Besonderheiten bei
+  Kapitalgesellschaften) und der gesamte Teil II (Gesonderte Feststellungen).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidungen: Das Schema „Ermittlung des Betriebsergebnisses § 202 BewG“
+  steht in der Quelle als Rechenstaffel, deren Rechenzeichen am linken Rand stehen und
+  deren Positionen über mehrere Zeilen umbrechen. Es ist als zweispaltige Tabelle
+  „Rechenschritt / Position“ mit 19 Zeilen wiedergegeben; die Reihenfolge, die drei
+  Zwischensummen und der Wortlaut der Positionen sind unverändert. Die Übersicht der drei
+  Sonderbewertungen des § 200 BewG ist dagegen **neu gebildet**: Die Quelle behandelt die
+  Absätze 2, 3 und 4 nacheinander im Fließtext und enthält an dieser Stelle kein eigenes
+  Schaubild. Das ist im Datensatz als redaktioneller Hinweis vermerkt; die Formulierungen
+  der Übersicht stammen aus dem Fließtext der Quelle.
+
+  Stellen, an denen die Quelle verschrieben ist oder ihre Fundstellen nicht zutreffen –
+  wortlautgetreu übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Tz. 5 a).** „ein Wahlrecht, das vereinfachte Ertragswertverfahren anzuwenden, wenn
+    **diese** nicht zu offensichtlich unzutreffenden Ergebnissen führt“.
+  - **Tz. 5 a), letzter Absatz.** „den Substanzwert als Mindestwert § 11 Abs. 2 BewG)
+    anzusetzen“ – die öffnende Klammer fehlt.
+  - **Tz. 5 c).** „Die Einbeziehung in das **Ertragswertwertverfahren** wäre insbesondere
+    dann ungeeignet“.
+  - **Tz. 5 e), Durchschnittsertrag.** „Die Summe der Betriebsergebnisse wird durch 3
+    dividiert … Das Ergebnis stellt den Jahresertrag dar (§ **202** Abs. 2 Sätze 3 und 4
+    BewG)“ – die Division durch drei und die Bestimmung des Jahresertrags regelt
+    § **201** Abs. 2 Sätze 3 und 4 BewG. § 202 Abs. 2 BewG betrifft die Gewinnermittlung
+    nach § 4 Abs. 3 EStG, die die Quelle zwei Absätze später selbst so zitiert.
+  - **Schema § 202 BewG.** Die Hinzurechnungszeile nennt den „**Gewinnerzielungszeitraum**“,
+    die spätere Kürzungszeile denselben Zeitraum zutreffend als „Gewinnermittlungszeitraum“;
+    in der Kürzungszeile steht außerdem ein überzähliges Komma in „Zuschlagsteuern, und
+    Gewerbesteuer“.
+
+  Inhaltlich geprüft und stimmig: Das Beispiel zum Rumpfwirtschaftsjahr geht auf. Bei
+  Neugründung zum 01.08.2022 mit Rumpfwirtschaftsjahr bis zum 31.12.2022 und
+  Bewertungsstichtag 30.09.2025 umfasst der dreijährige Ermittlungszeitraum die
+  Wirtschaftsjahre 2023, 2024 und 2025 – das Rumpfwirtschaftsjahr bleibt außen vor, und das
+  laufende Wirtschaftsjahr 2025 tritt an seine Stelle, wie R B 201 Abs. 4 ErbStR es
+  vorsieht.

@@ -154,9 +154,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (`1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa`) erwies sich als vollständig lesbares
   Unterrichtsskript „Bewertung des Betriebsvermögens; gesonderte Feststellungen“
   (35 Seiten, 80.000 Zeichen, vom Connector vollständig ausgegeben). **Begonnen:** der
-  Anfang des Teils I (Allgemeines, Begriff und Umfang, Bewertungsverfahren, Substanzwert)
-  steht im neuen Reiter „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil3.js`.
-  Noch offen sind aus dem Teil I das vereinfachte Ertragswertverfahren (Tz. 5), die Anteile
+  Teil I ist bis einschließlich Tz. 5 e) eingepflegt (Allgemeines, Begriff und Umfang,
+  Bewertungsverfahren, Substanzwert sowie das vereinfachte Ertragswertverfahren mit
+  Anwendungsbereich, den drei Sonderbewertungen des § 200 BewG und dem Korrekturschema des
+  § 202 BewG) – Reiter „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil3.js`.
+  Noch offen sind aus dem Teil I der Kapitalisierungsfaktor (Tz. 5 f), die Anteile
   am Betriebsvermögen einer Personengesellschaft (Tz. 6) und die Besonderheiten bei
   Kapitalgesellschaften (Tz. 7) sowie der gesamte Teil II (Gesonderte Feststellungen).
   Dazu kommt die zugehörige Lösungsdatei „B-S25-ErbSt-Bewertung 2025-2026 Teil 3-Loesung“
