@@ -5023,3 +5023,35 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
   gekennzeichnet: „Gemeiner Wert des **Verwaltungsvermögen**“ in der Tabelle des
   Beispiels 1 der Tz. 9 a) und „Damit wird **gewähreistet**“ in der Tz. 10.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Tz. 11 bis 13: Regelverschonung, Abzugsbetrag, Weitergabe
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt II
+  Tz. 11 bis 13, PDF-Seiten 28 bis 30.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 7 Teile,
+  18 Kapitel, 229 Blöcke und 25 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Nachgerechnet und bestätigt: Der Fall der Teilungsanordnung (Tz. 13) geht auf. A erhält
+  durch den Erbanfall die Hälfte des Betriebs, also 2.000.000 € begünstigtes Vermögen; für
+  den hingegebenen privaten Grundbesitz von 2.100.000 € erhöht sich dieser Wert, aber nur
+  bis zur Höhe des von B auf ihn übertragenen begünstigten Vermögens von 2.000.000 €. Die
+  überschießenden 100.000 € bleiben ohne Wirkung – genau diese Deckelung ist der Punkt des
+  Falls. Im Ergebnis wird A behandelt, als habe er den Betrieb von Anfang an vollständig
+  erhalten, und B verliert die Begünstigung für ihren Anteil vollständig.
+
+  Redaktioneller Befund: Das Beispiel zum Abzugsbetrag (Tz. 12) steht **ohne Lösung** und
+  ist **nicht aufgelöst**. Seine Anlage ist jedoch aus dem Text derselben Tz. ablesbar: Die
+  Quelle nennt die Grenze, ab der der Abzugsbetrag aufgezehrt ist – 450.000 € des 85 %
+  übersteigenden Anteils, entsprechend einem Betriebsvermögen von 3.000.000 €. Die Variante
+  c) trifft genau diese Grenze, die Variante a) mit einem 15-Prozent-Anteil von 150.000 €
+  die untere Grenze, bis zu der der Abzugsbetrag ungekürzt greift, und b) liegt dazwischen
+  und prüft die Abschmelzung. Im Datensatz steht dazu eine **ausdrücklich als eigene
+  gekennzeichnete** Kontrollrechnung nach der in der Tz. beschriebenen Formel (0 €,
+  225.000 € und 450.000 € steuerpflichtig); die Musterlösung liegt in der Lösungsdatei.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet: „Bagatellfälle von vornherein von einer Bewertung **ausnehmen**“ (statt
+  auszunehmen) und „wenn **der** 85 % **übersteigenden** Anteil“ in der Tz. 12; „des
+  begünstigten **Vermögen** des Dritten“, „ihren **verstorben** Vater“ und die
+  Betragsangabe „2.000.000“ ohne Währungszeichen in der Tz. 13.

@@ -128,6 +128,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Schuldenverrechnung bis zum begünstigten Betriebsvermögen von 12.532.585 € führt – und
   die **Verbundvermögensaufstellung** des § 13b Abs. 9 ErbStG gegen den Kaskadeneffekt,
   mit dem durchgerechneten Fall der A-GmbH/B-GmbH (begünstigtes Vermögen 2.661.285 €).
+  Weiter mit den **Tz. 11 bis 13**: die **Regelverschonung** mit der erwerbsbezogenen
+  Prüfschwelle von 26 Mio. €, ihrer Zehnjahres-Zusammenrechnung und ihrer Herleitung aus
+  dem Steuertarif des § 19 Abs. 1 ErbStG, der **gleitende Abzugsbetrag**, der bei einem
+  15-Prozent-Anteil von 450.000 € – einem Betriebsvermögen von 3.000.000 € – vollständig
+  aufgezehrt ist, sowie die **Weitergabeverpflichtung** mit dem Begünstigungstransfer des
+  § 13a Abs. 5 Satz 3 ErbStG und dem Fall der Teilungsanordnung, in dem der Ausgleich mit
+  privatem Grundbesitz von 2.100.000 € nur bis zur Höhe des übertragenen begünstigten
+  Vermögens von 2.000.000 € wirkt.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den
