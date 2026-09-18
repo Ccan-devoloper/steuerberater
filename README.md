@@ -135,6 +135,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   gemischten Schenkung. Auch hier enthält die Quelle zu einem zweiten Beispiel (A+B OHG,
   gemeiner Wert 1.500.000 €) nur den Sachverhalt in Textform; seine Lösung steht als Grafik
   ohne Textebene und ist nicht rekonstruiert.
+  Den Abschluss des Teils I bilden die **Besonderheiten bei Kapitalgesellschaften**: die
+  Ableitung des Substanzwerts aus der letzten Vermögensaufstellung mit ihren drei
+  Korrekturen, die Wertanteile nach § 97 Abs. 1b BewG einschließlich des nicht vollständig
+  eingezahlten Nennkapitals (ABC-GmbH durchgerechnet), die Sonderfälle nach R B 11.4 ErbStR
+  und der Paketzuschlag mit der 25-Prozent-Grenze. Der **Teil II** bringt die gesonderten
+  Feststellungen nach §§ 151 bis 156 BewG vollständig: die vier Feststellungsgegenstände,
+  das mehrstufige Verfahren mit den Mechanismen für Grundlagen- und Folgebescheide, die
+  Feststellungen zu Art, Zurechnung und Anteilshöhe, die Zusatzfeststellungen zu
+  Lohnsummen, Finanzmitteln und Verwaltungsvermögen für §§ 13a, 13b und 19a ErbStG, die
+  Basiswertregelung mit ihrer bedingten einjährigen Dauerwirkung, die örtliche
+  Zuständigkeit von Lage-, Betriebs- und Sitzfinanzamt, die Erklärungspflicht sowie
+  Beteiligte, Bekanntgabe, Rechtsbehelfsbefugnis und Außenprüfung.
+  **Das Skript ist damit vollständig eingepflegt** – bis auf drei Musterlösungen, die im
+  PDF nur als Grafik ohne Textebene vorliegen.
   Prüfung: `npm run check:k1-erbst-bewertung-teil3`
 - **Hausaufgaben KSt** (Reiter im Campus Körperschaftsteuer): die Kurzklausuren des
   Tageslehrgangs mit Lösung – Fachtermin 1 (A-GmbH mit dreizehn Korrekturtatbeständen,

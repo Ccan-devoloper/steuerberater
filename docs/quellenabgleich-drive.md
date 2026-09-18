@@ -3879,3 +3879,63 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Erfassung ineinanderlaufen. Sie sind zugeordnet als Tabellen wiedergegeben; die Zuordnung
   der Beträge in der Lösungstabelle zu den Spalten „gesamt“, „A“ und „B“ folgt den in der
   Quelle ausgewiesenen Zwischensummen und geht vollständig auf.
+
+## Bewertungsrecht Teil 3 (Schäfer) – Kapitalgesellschaften (Tz. 7) und der vollständige Teil II
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1Nf9VVWSkEUHlhWm_y-mQ9XQaAbIKLWWa`),
+  Teil I Tz. 7 und Teil II, PDF-Seiten 28 bis 35 (Ende der Datei).
+- Einpflege dieses Durchgangs: vier weitere Kapitel – Substanzwert und Wertanteile bei
+  Kapitalgesellschaften, Sonderfälle und Paketzuschlag sowie der Teil II mit den
+  gesonderten Feststellungen in zwei Kapiteln. Der Datensatz umfasst jetzt **2 Teile,
+  15 Kapitel, 274 Blöcke und 30 Tabellen**; Prüfung
+  `npm run check:k1-erbst-bewertung-teil3`. **Damit ist das Skript vollständig erfasst.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Eine dritte Seite ohne Textebene.** Auch die Lösung zu Beispiel 1 der Tz. 7 b (Anteil
+  an der A-GmbH) liegt im PDF nur als Grafik vor; in der Erfassung folgt auf die Überschrift
+  „Lösung:“ unmittelbar „Beispiel 2:“. Sie ist **nicht wiedergegeben und nicht
+  rekonstruiert**. Damit sind es insgesamt drei blockierte Musterlösungen in dieser sonst
+  vollständig lesbaren Datei; die Zeile in `docs/offene-quellen.md`, Abschnitt A, führt alle
+  drei auf.
+
+  Bei diesem Beispiel bleibt zusätzlich eine inhaltliche Frage offen, die ohne die Lösung
+  nicht zu entscheiden ist: Der Sachverhalt nennt „der Anteil an der A-GmbH mit einem
+  gemeinen Wert von 500.000 €“. Ob damit der Anteil des A oder das Betriebsvermögen der
+  A-GmbH insgesamt gemeint ist, lässt der Satzbau offen – im ersten Fall wäre die
+  anschließende Aufteilung nach § 97 Abs. 1b BewG gegenstandslos. Die Frage ist im Datensatz
+  ausdrücklich als offen vermerkt und **nicht durch eine eigene Auslegung entschieden**.
+
+  Nachgerechnet und zutreffend: Im Beispiel 2 der Tz. 7 b ergeben 60.000/200.000,
+  100.000/200.000 und 40.000/200.000 von 2.000.000 € die ausgewiesenen 600.000 €,
+  1.000.000 € und 400.000 €, zusammen wieder 2.000.000 €. Das bei B noch nicht eingezahlte
+  Nennkapital von 20.000 € mindert seinen Anteilswert nicht – genau der Fall, den der
+  vorangehende Absatz zu § 97 Abs. 1b Satz 1 und 3 BewG beschreibt. Auch die Angaben des
+  Beispiels 1 sind in sich stimmig: 30 % von 100.000 € sind 30.000 € Nennkapital, davon
+  80 % die genannten 24.000 €.
+
+  Stellen, an denen die Quelle verschrieben ist oder ihre Fundstellen nicht zutreffen –
+  wortlautgetreu übernommen und gekennzeichnet:
+
+  - **Teil II, Tz. 2.** „Feststellungen zu treffen über die Art der wirtschaftlichen
+    Einheit (§ 151 Abs. 2 Nr. 1 **AO**)“ – gemeint ist § 151 Abs. 2 Nr. 1 **BewG**, wie der
+    unmittelbar folgende Satz für die Nummer 2 selbst zitiert.
+  - **Teil I, Tz. 7 a).** „Bei der Ermittlung des Substanzwerts (§ 11 Abs. 2 S. 3 BewG wird
+    das Vermögen … zugrunde gelegt“ – die schließende Klammer fehlt; „soweit dies im
+    Einzelfall nicht zu unzutreffenden **Ergebnisses** führt“; die Fundstelle
+    „R B 11. 6 Abs. 3 S. 2 Nr. 3 ErbStR“ mit Leerstelle.
+  - **Teil II, Tz. 2, Basiswertregelung.** „Das setzt voraus, **das** sich **für** die erste
+    Bewertung die maßgeblichen Verhältnisse nicht wesentlich geändert haben“ – gemeint ist
+    ersichtlich „dass sich seit der ersten Bewertung“; „Mithin wird dem **gesonderten**
+    festgestellten Wert eine bedingte einjährige Dauerwirkung zugesprochen“.
+  - **Teil II, Tz. 4.** „Die Frist **für zur** Abgabe der Feststellungserklärung“.
+
+  Darstellungsentscheidungen: Die Aufzählung der vier Feststellungsgegenstände des § 151
+  Abs. 1 Satz 1 BewG, die Zuständigkeitsregeln des § 152 BewG und die Aussagen zum
+  Paketzuschlag in den verschiedenen Bewertungsverfahren stehen in der Quelle als Fließtext
+  beziehungsweise als Aufzählung. Sie sind zusätzlich als Tabellen aufbereitet; dass die
+  Quelle an diesen Stellen kein eigenes Schaubild enthält, ist jeweils als redaktioneller
+  Hinweis vermerkt, und die Formulierungen stammen aus dem Quelltext.
+
+  Querbezug: Die Aussage „Im vereinfachten Ertragswertverfahren ist in der Regel kein
+  Paketzuschlag vorzunehmen“ (R B 11.8 Abs. 2 S. 3 ErbStR) erklärt den Schlusssatz der
+  Musterlösung des Übungsfalls Beckmann in der ErbSt-Fallsammlung.
