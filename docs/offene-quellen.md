@@ -225,9 +225,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Antensteiner** und die Übungsklausur **Backhaus** im Reiter „Fallsammlung“,
   `src/data/k1-erbst-fallsammlung.js`, als neuer Block „Klausuren und Übungsaufgaben ·
   4. Fachtermin“; dazu die sieben Einzelfälle zum begünstigungsfähigen Vermögen des
-  § 13b Abs. 1 ErbStG und die Übungsklausur **Engelkamp**. Offen sind die übrigen fünf
-  Klausuren (Glücklich, ein Fall ohne Namensangabe, Müller GmbH, Walter Olfmann und Paul
-  Pollmann).
+  § 13b Abs. 1 ErbStG und die Übungsklausuren **Engelkamp** und **Kurt Glücklich**. Offen sind
+  die übrigen vier Klausuren (eine Übungsklausur Bewertungsrecht/Erbschaftsteuer ohne
+  Namensangabe, Müller GmbH, Walter Olfmann und Paul Pollmann).
 - **ErbStR, 4. und 5. Einheit** – im Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` liegen seit
   September 2026 vier weitere Dateien („ErbStR, 4. Einheit_Teil 1“ und „ErbStR. 4.
   Einheit_Teil 2“, „ErbStR, 5. Einheit_Teil 1“ und „ErbSt, 5 Einheit - Teil 2“). Der Campus

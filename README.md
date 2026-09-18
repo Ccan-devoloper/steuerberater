@@ -113,7 +113,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Vermächtnisnehmerin (13.290 €). Dazu die **Jahreswertbegrenzung des § 16 BewG** beim
   Wohnrecht, die dessen Jahreswert von 21.600 € auf 16.398 € drückt, und der Kapitalwert
   einer lebenslänglichen Rente – beide mit demselben Vervielfältiger 10,724, der in
-  derselben Lösung einmal als Last und einmal als Erwerb auftritt.
+  derselben Lösung einmal als Last und einmal als Erwerb auftritt. Als sechster Fall die
+  Übungsklausur **„Kurt Glücklich"**: Der Betrieb geht als **Vorausvermächtnis** allein an
+  den Neffen und wird deshalb vor der Teilung aus dem Nachlass herausgenommen; die Nichte
+  bleibt trotz Wohnsitz in Amsterdam unbeschränkt steuerpflichtig, weil sie noch keine fünf
+  Jahre im Ausland lebt; der Finanzmitteltest scheitert am Sockelbetrag, so dass die
+  quotale Schuldenverrechnung ins Leere geht; und zwei Wohnungsbefreiungen scheitern aus
+  verschiedenen Gründen – § 13 Abs. 1 Nr. 4c ErbStG, weil der Neffe kein Kind ist, und
+  § 13d ErbStG, weil unentgeltliche Überlassung keine Vermietung ist.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

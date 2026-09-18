@@ -5673,3 +5673,60 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Pflichtteilsverbindlichkeit und eine Zeile der Verteilungstabelle nennen ihn dagegen
   **D**, während die Steuerberechnung wieder von B spricht. Gemeint ist durchgehend
   dieselbe Person.
+
+## ErbSt-Fallsammlung 4. Fachtermin – Übungsklausur „Kurt Glücklich“
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), fünfte Klausur.
+- Einpflege dieses Durchgangs: die Übungsklausur als zehnter Übungsfall; der Datensatz
+  umfasst jetzt 10 Übungsfälle, 340 Blöcke und 60 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Die Lösung ist Zeile für Zeile nachgerechnet; sie geht auf** und endet – der
+  Aufgabenstellung entsprechend – beim steuerpflichtigen Erwerb: Paul Fröhlich 380.400 €,
+  Rita Fröhlich 152.000 €.
+
+  **Das Vorausvermächtnis trägt den Fall.** Der Betrieb geht allein an den Neffen, sein
+  Steuerwert von 1.340.650 € wird deshalb vorab aus dem Nachlass herausgenommen, und nur
+  der Rest von 359.000 € wird hälftig geteilt. Die Quelle betont, dass die Herausnahme
+  **vor** Anwendung des § 13a ErbStG erfolgt (R E 13a.11 Abs. 1 Nr. 2 ErbStR) – die
+  Verschonung wirkt erst auf der Ebene des Vermächtnisnehmers.
+
+  **Der Finanzmitteltest scheitert am Sockelbetrag – der Gegenfall zu Backhaus.** 300.000 €
+  ./. 243.000 € = 57.000 € gegenüber 15 % von 1.340.650 € = 201.098 €. Es bleibt deshalb
+  weder Finanzmittel-Verwaltungsvermögen noch ein verbleibender Schuldenabzug, so dass die
+  quotale Schuldenverrechnung des § 13b Abs. 6 ErbStG ins Leere geht und der Nettowert des
+  Verwaltungsvermögens ungekürzt dem GmbH-Anteil entspricht. In Backhaus überstiegen die
+  Schulden die Finanzmittel, und genau deshalb blieb dort ein Rest von 94.000 € für die
+  Verrechnung übrig.
+
+  **Zwei Wohnungsbefreiungen scheitern aus verschiedenen Gründen** – das ist der eigentliche
+  Prüfungspunkt: Beim Neffen kommt § 13 Abs. 1 Nr. 4c ErbStG nicht in Betracht, weil er kein
+  Kind der Steuerklasse I Nr. 2 ist; der Einzug hilft ihm nichts. Bei der Nichte scheitert
+  § 13d ErbStG daran, dass die unentgeltliche Überlassung an die Schwägerin keine Vermietung
+  zu Wohnzwecken ist (R E 13d Abs. 6 S. 3 ErbStR). Die Erbauseinandersetzung ist beide Male
+  grundsätzlich beachtlich – sie führt hier nur zu nichts.
+
+  **Der Abzugsbetrag wirkt hier mit 139.147 € fast in voller Höhe**, weil der nach dem
+  Verschonungsabschlag verbleibende Wert von 171.707 € nur knapp über der Wertgrenze von
+  150.000 € liegt. Zusammen mit Ackermann (24.078 €), Antensteiner (30.000 €) und Backhaus
+  (21.462 €) zeigt die Sammlung die Abschmelzung damit über ihre gesamte Spannweite.
+
+  **Nachgerechnet zur erweiterten unbeschränkten Steuerpflicht:** Vom Wegzug am 01.02.2022
+  bis zum Erbfall am 10.06.2025 sind es drei Jahre und gut vier Monate, also weniger als die
+  fünf Jahre des § 2 Abs. 1 Nr. 1 Buchst. b ErbStG. Zwei Jahre später wäre nur das
+  Inlandsvermögen steuerpflichtig – und der Freibetrag nach § 16 Abs. 2 ErbStG anteilig zu
+  kürzen, wie es das Skript Teil 2 an seinem Schweizer Beispiel vorführt.
+
+  Redaktioneller Befund: Die Aufgabenstellung verlangt, „auch Antragstellungen im Hinblick
+  auf das steuerlich günstigste Ergebnis“ zu prüfen. **Die Lösung kommt darauf nicht mehr
+  zurück**; ergänzt wurde nichts. Im Datensatz steht dazu nur eine ausdrücklich als eigene
+  gekennzeichnete Kontrollrechnung: Die Optionsverschonung wäre hier ohnehin ausgeschlossen,
+  weil die Verwaltungsvermögensquote mit 300.000/1.340.650 = 22,38 % über der
+  20-Prozent-Grenze des § 13a Abs. 10 S. 2 ErbStG liegt.
+
+  Stellen, an denen die Quelle verschrieben oder überholt ist – wortlautgetreu übernommen
+  und gekennzeichnet: die Fundstelle „§ 12 Abs. 3 ErbStG i.V.m. **§§ 138 ff BewG**“, die die
+  vor 2009 geltenden Bedarfswertvorschriften nennt, während dieselbe Klausur an anderer
+  Stelle richtig auf die §§ 151 ff. BewG verweist; ferner „Turmstraße**.** 15“ und im
+  Sachverhalt „wurde … genutzt **worden**“.
