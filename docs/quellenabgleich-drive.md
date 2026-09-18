@@ -8888,3 +8888,57 @@ steht dort **nicht** – eine eigene Lösung wird nicht erfunden.
 **Zeitliche Einordnung:** Der Erbfall tritt am 01.07.2020 ein. Seither hat insbesondere das
 Jahressteuergesetz 2022 die Grundbesitzbewertung geändert; der Datensatz weist darauf hin und
 gibt die Aufgabe unverändert wieder.
+
+### Amtliche Prüfungsaufgaben Ertragsteuerrecht 2022/2023, Teil I (drei Sachverhalte)
+
+- **Quelle:** Drive-ID `1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, Abschnitt „Prüfungsaufgabe aus
+  dem Einkommensteuer- und Ertragsteuerrecht, Teil I: Einkommensteuer“.
+- **Ziel:** `src/data/k2-pruefungsklausuren.js`, Einträge `k2-pk-2022-est-sv1-simone-k`,
+  `-sv2-uli-v` und `-sv3-michael-h` (Nummern 6 bis 8), Reiter „Prüfungsklausuren im Original“
+  im ESt-Campus. Prüfung: `npm run check:k2-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; Veranlagungszeitraum **2021**.
+
+**Dieser Jahrgang weist Wertungspunkte je Sachverhalt aus** – 25, 17 und 18 von 100 für die
+drei Einkommensteuer-Sachverhalte, 8 von 100 für die Gewerbesteuer. Damit ist der
+Einkommensteuerteil mit 60 von 100 Punkten belegt; der Rest verteilt sich auf Gewerbe- und
+Körperschaftsteuer. Der Schwesterjahrgang 2021/2022 weist solche Punkte nicht aus.
+
+**Wichtiger Befund zur Textqualität – und wie damit umgegangen wird.** Die Texterkennung
+dieses PDFs ist deutlich schlechter als die der Datei zum Jahrgang 2021/2022. Sie verwechselt
+durchgehend kleines i mit großem I („In 2021“, „Ist“, „Im selben Mehrfamilienhaus“), setzt
+Punkte statt Kommas („Uli V. (U). geboren am 5. Juli 1960. ledig“), zerlegt oder verstümmelt
+Wörter („10%lgon“, „seil 2010“, „Sachvorhalt“, „Lösungsmöglichkelten“, „Stoppelfeld. An- 
+schaffungskosten“) und lässt Klammern und Anführungszeichen unvollständig („(- 1.
+Tätigkeitsstätte)“, „imposto de renda retido da fonte")“).
+
+Das sind **Artefakte der Extraktion, nicht Fehler der amtlichen Aufgabe**. Sie sind deshalb
+stillschweigend bereinigt – anders als bei allen bisherigen Datensätzen, wo echte Verschreiber
+der Quelle wortlautgetreu übernommen und gekennzeichnet werden. Diese Unterscheidung ist
+wesentlich: Einen OCR-Fehler als „so in der Quelle“ auszuweisen wäre genauso falsch wie einen
+echten Verschreiber stillschweigend zu korrigieren. Der Befund ist im Kopf des Datensatzes
+vermerkt, damit die Behandlung nachvollziehbar bleibt. Alle Zahlen, Daten, Namen und
+Prozentsätze sind unverändert übernommen; bereinigt ist ausschließlich, was erkennbar die
+Zeichenerkennung verursacht hat.
+
+**Was die drei Sachverhalte tragen:**
+
+1. **Simone K. (25 Punkte)** – gefragt ist die **festzusetzende Einkommensteuer**, nicht nur
+   die Summe der Einkünfte, und ausdrücklich auch die persönliche Steuerpflicht. Der
+   Sachverhalt stellt Lebensmittelpunkt Düsseldorf und mehr als 183 Aufenthaltstage in Italien
+   bewusst nebeneinander. Zwei weitere Weichen: Die brasilianische Ausschüttung hat dort das
+   Einkommen der ausschüttenden Gesellschaft gemindert, und die italienische Beteiligung liegt
+   im Betriebsvermögen der **ausländischen** Betriebsstätte, die brasilianische im
+   **inländischen** Betriebsvermögen.
+2. **Uli V. (17 Punkte)** – gefragt ist nur die Summe der Einkünfte; tarifliche
+   Fragestellungen sind ausgenommen. Der Hinweis „Anträge nach § 32d EStG wurden jedoch nicht
+   gestellt“ ist der einzige, der die sonst geltende Regel „Erforderliche Anträge gelten als
+   gestellt“ durchbricht, und schließt damit gezielt einen Prüfungspfad aus.
+3. **Michael H. (18 Punkte)** – gefragt ist die Summe der Einkünfte **einschließlich**
+   tariflicher Besonderheiten und einschließlich der Punkte, die in einem Grundlagenbescheid
+   festzustellen wären. Die Merkmale für eine Betriebsaufspaltung sind einzeln aufgeführt
+   (Alleingeschäftsführung, einfaches Mehrheitsprinzip abweichend von § 119 Abs. 1 HGB,
+   40 % an der mietenden GmbH zuzüglich 30 % Zuerwerb zum 1. März 2021).
+
+Wie bei allen Einträgen dieser Reihe erfindet der Lösungsabschnitt keine Lösung, sondern hält
+fest, was die Aufgabenstellung vorgibt, welche Zahlen der Sachverhalt bereitstellt und welche
+Angaben erkennbar Weichen stellen.

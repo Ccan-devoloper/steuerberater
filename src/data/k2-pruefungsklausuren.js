@@ -19,12 +19,22 @@
    Einkommensteuer-Sachverhalte, der Gewerbesteuerteil und der
    Körperschaftsteuerteil.
 
+   Hinweis zur Textqualität: Beim Jahrgang 2022/2023 ist die Texterkennung des
+   Quell-PDFs deutlich schlechter als beim Jahrgang 2021/2022. Sie verwechselt
+   durchgehend kleines i mit großem I ("In 2021", "Ist", "Im"), setzt Punkte
+   statt Kommas ("Uli V. (U). geboren am 5. Juli 1960.") und zerlegt Wörter
+   ("10%lgon", "seil 2010", "Sachvorhalt", "Lösungsmöglichkelten"). Das sind
+   Artefakte der Extraktion, nicht Fehler der amtlichen Aufgabe. Sie sind hier
+   stillschweigend bereinigt - anders als echte Verschreiber der Quelle, die
+   wortlautgetreu übernommen und gekennzeichnet werden. Der Befund ist in
+   docs/quellenabgleich-drive.md festgehalten.
+
    Personenbezogene Wasserzeichen des Quell-PDFs sind nicht übernommen.
    Blocktypen wie bei den übrigen Klausurdatensätzen: text | titel | tabelle. */
 
 export const k2PruefungsklausurenQuelle = {
   reihe: "Steuerberaterprüfung · Prüfungsaufgaben aus dem Gebiet Einkommen- und Ertragsteuerrecht · amtlicher Wortlaut",
-  stand: "Prüfungsjahrgang 2021/2022, Veranlagungszeitraum 2020 · Rechtsstand des Prüfungstages",
+  stand: "Prüfungsjahrgänge 2021/2022 und 2022/2023, Veranlagungszeiträume 2020 und 2021 · Rechtsstand des jeweiligen Prüfungstages",
   verfasser: "Amtliche Prüfungsaufgabe der Steuerberaterprüfung – ohne Musterlösung",
   didaktik: [
     "Der zweite Prüfungstag dauert wie die übrigen sechs Stunden und zerfällt in Einkommensteuer, Gewerbesteuer und Körperschaftsteuer. Der Einkommensteuerteil trägt dabei das meiste Gewicht und besteht seinerseits aus mehreren voneinander unabhängigen Sachverhalten, die jeweils ihre eigene Aufgabenstellung und ihre eigenen Hinweise haben – wer nur den ersten Hinweisblock liest, übersieht, dass sich die Vorgaben von Sachverhalt zu Sachverhalt ändern.",
@@ -339,6 +349,143 @@ export const k2Pruefungsklausuren = [
       { text: "Die Zahlen der Quelle sind in sich schlüssig und unabhängig nachgerechnet: Der Solidaritätszuschlag von 192.500 € entspricht 5,5 % der Körperschaftsteuervorauszahlung von 3.500.000 €. Bei der SAT-GmbH ergeben 5 % von 400.000 € die gebuchten 20.000 €, davon 25 % Kapitalertragsteuer = 5.000 € und 5,5 % darauf = 275 €, so dass 14.725 € ausgezahlt werden. Bei der BERG-GmbH entsprechen 25.000 € einem Viertel von 100.000 €, 1.375 € sind 5,5 % davon und 330 € sind 5,5 % von 6.000 €; die Gewinnabführungsrechnung geht auf 533.295 € auf." },
       { text: "Mehrere Sachverhaltsangaben sind ausdrücklich als Weichenstellungen gesetzt und keine Ausschmückung: dass die Nebenkosten des Erwerbs jeweils die Gegenseite getragen hat; dass die TIP-AG den SAT-Anteil „ursprünglich dauerhaft halten wollte“; dass beim Darlehen an die VEIT-GmbH sowohl deren Körperschaftsteuerbescheid als auch der Einkommensteuerbescheid von Olaf Olm verfahrensrechtlich nicht mehr änderbar sind; dass die Rücklage der BERG-GmbH unternehmerisch gerechtfertigt war und bis zum 31.12.2020 nicht aufgelöst wurde; und dass der Nutzen- und Lastenübergang bei der Veräußerung der BERG-Beteiligung auf den 31. Dezember 2020, 24 Uhr, gelegt ist." },
       { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Nichtabziehbare Aufwendungen nach § 10 KStG, die Streubesitzregel des § 8b Abs. 4 KStG, verdeckte Gewinnausschüttungen an nahestehende Personen und die Organschaft nach §§ 14 bis 17 KStG einschließlich der Ausgleichszahlung nach § 16 KStG behandelt der Körperschaftsteuer-Campus (Klausur 2) mit eigenen Einheiten und mit den Originalklausuren 2011 bis 2015 – dort steht unter anderem eine vollständig durchgerechnete Organkreis-Aufgabe. Die Beteiligung einer Kapitalgesellschaft an einer GmbH & Co. KG und die Haftungsvergütung der Komplementärin behandelt der Reiter „Personengesellschaften“ (Klausur 3)." },
+    ],
+  },
+  {
+    id: "k2-pk-2022-est-sv1-simone-k",
+    fach: "est",
+    block: "amtlich",
+    blockLabel: "Steuerberaterprüfung · amtliche Prüfungsaufgabe",
+    nummer: 6,
+    jahrgang: "2022/2023",
+    teil: "I",
+    wertung: "25 von 100 Wertungspunkten",
+    title: "Teil I, Sachverhalt 1 – Simone K. (Prüfung 2022/2023): eine Influencerin zwischen Düsseldorf und Rom, mit Betriebsstätte in Italien und Beteiligung in Brasilien",
+    thema: "Der punktstärkste Sachverhalt des Prüfungstages und zugleich der internationalste. Eine Influencerin mit Mittelpunkt der Lebensinteressen in Düsseldorf hält sich beruflich an mehr als 183 Tagen im Jahr in Italien auf – schon das ist keine Randnotiz, sondern die erste Prüfungsfrage. Sie zahlt Unterhalt an den geschiedenen italienischen Ehemann, der ihn in Italien versteuert hat, und unterstützt die mittellose ehemalige Schwiegermutter ohne rechtliche Verpflichtung. In Rom hat sie drei Eigentumswohnungen, eine selbst genutzt, zwei vermietet, davon eine im November 2021 mit 40.000 € Gewinn verkauft. Der inländische Gewerbebetrieb wirft 140.000 € ab, die italienische Zweigniederlassung 20.000 € – darin eine Ausschüttung einer italienischen S.R.L., an der sie zu 30 % beteiligt ist. Und aus Brasilien fließen 50.000 € Ausschüttung mit 30 % Quellensteuer, die dort das Einkommen der ausschüttenden Gesellschaft gemindert haben, sowie ein Vermietungsverlust von 5.000 €",
+    rechtsstand: "Rechtsstand des Prüfungsjahrgangs 2022/2023 · Veranlagungszeitraum 2021",
+    quelle: "Steuerberaterprüfung 2022/2023, Prüfungsaufgaben aus dem Einkommen- und Ertragsteuerrecht, Teil I: Einkommensteuer, Sachverhalt 1 · amtlicher Aufgabentext, Bearbeitungszeit 6 Stunden",
+    normen: [
+      "§ 10 Abs. 1 Nr. 3 EStG", "§ 35 EStG (ausdrücklich ausgenommen)",
+    ],
+    themen: ["Amtliche Prüfungsaufgabe", "Ohne Musterlösung", "Unbeschränkte Steuerpflicht", "Ansässigkeit", "Ausländische Betriebsstätte", "Hybride Gewinnausschüttung", "Quellensteueranrechnung", "Unterhaltsleistungen", "Realsplitting", "Progressionsvorbehalt"],
+    sachverhalt: [
+      { typ: "titel", text: "Steuerberaterprüfung 2022/2023 · Prüfungsaufgaben aus dem Einkommen- und Ertragsteuerrecht · Teil I: Einkommensteuer · Sachverhalt 1 (Erreichbare Punkte: 25 von 100)" },
+      { text: "Bearbeitungszeit: 6 Stunden. Hilfsmittel: Die zugelassenen Hilfsmittel ergeben sich aus den gleich lautenden Erlassen der obersten Finanzbehörden der Länder. Vor der Bearbeitung sind Sachverhalt und Aufgaben vollständig zu lesen." },
+      { text: "Die Influencerin Simone K. (S), 40 Jahre alt, geschieden, konfessionslos mit Wohnsitz in Düsseldorf, verliebte sich im Jahr 2010 während eines Italienurlaubs in Enrico S. (E). Schon nach wenigen Monaten zog S zu E nach Italien. Die beiden heirateten noch im selben Jahr. Nur wenige Jahre später trennten sich S und E. S zog im Jahr 2018 zurück nach Deutschland und hat seitdem in Düsseldorf ihren Mittelpunkt der Lebensinteressen. Die Scheidung wurde in 2019 vollzogen." },
+      { text: "S zahlt seit ihrer Trennung regelmäßigen Unterhalt an E in Höhe von 750 € pro Monat. Sie ist hierzu auch in dieser Höhe rechtlich verpflichtet. E hat die erhaltenen Unterhaltsleistungen zutreffend in Italien versteuert und gegenüber S eine entsprechende Bescheinigung vorgelegt. Aus alter Verbundenheit zu ihrer verwitweten ehemaligen und in Italien lebenden Schwiegermutter, Anna E. (A), überweist S ihr monatlich Unterstützungsleistungen in Höhe von 500 €, ohne dazu rechtlich verpflichtet zu sein. Andere Einkünfte und Bezüge erzielt die ansonsten mittellose A nachweislich nicht." },
+      { text: "Beruflich bedingt hält sich S regelmäßig an mehr als 183 Tagen im Jahr in Italien auf. S wohnt während dieser Zeit in einer von ihr im Jahr 2012 angeschafften und ausschließlich selbst genutzten Eigentumswohnung in Rom. S hat in 2015 neben der selbst genutzten Eigentumswohnung noch zwei weitere Eigentumswohnungen im selben Mehrfamilienhaus erworben, die sie seitdem zu dauerhaften Wohnzwecken an fremde Dritte vermietet hat. Die nach deutschen Vorschriften ermittelten Vermietungseinkünfte für das Jahr 2021 betragen für beide Wohnungen insgesamt 5.000 €. Am 30. November 2021 veräußerte S eine der beiden vermieteten Eigentumswohnungen und konnte hieraus einen nach deutschen Vorschriften ermittelten Veräußerungsgewinn in Höhe von 40.000 € erzielen." },
+      { text: "Als Influencerin bewirbt S im Wesentlichen Markenprodukte, wofür sie von den jeweiligen Herstellern Werbeprämien ausgezahlt bekommt. Sie produziert hierfür eigene Foto- und Videoaufnahmen, die sie auf diversen Social-Media-Plattformen veröffentlicht. Hierfür hat S Gewerbeflächen in Düsseldorf angemietet, die sie für die Foto- und Videoaufnahmen nutzt. In 2021 erzielte S aus ihrer inländischen Tätigkeit als Influencerin einen – soweit im weiteren Sachverhalt nicht anders dargestellt – steuerlich zutreffend ermittelten Gewinn in Höhe von 140.000 €." },
+      { text: "Da S inzwischen auch weltweit und insbesondere in Italien einen hohen Bekanntheitsgrad erreicht hat, hat S in 2019 in Rom in eigens hierfür angemieteten Gewerberäumen eine Zweigniederlassung gegründet, um vor Ort den italienischen Markt mit Werbedienstleistungen bedienen zu können. Der steuerlich zutreffend ermittelte Gewinn der italienischen Betriebsstätte betrug in 2021 20.000 €. Hierin enthalten ist eine Gewinnausschüttung der italienischen Kapitalgesellschaft Italien-S.R.L. (I-S.R.L.) mit Sitz und Geschäftsleitung in Rom in Höhe von 4.000 €. Die I-S.R.L. erbringt ausschließlich Werbedienstleistungen an italienische Kunden. S ist zu 30 % an der I-S.R.L. beteiligt und hat die Beteiligung zutreffend dem Betriebsvermögen ihrer ausländischen Betriebsstätte zugeordnet. Es wurden nachweislich keine Quellensteuern auf die Gewinnausschüttung erhoben. Eine italienische S.R.L. entspricht im Typenvergleich einer deutschen GmbH." },
+      { text: "S ist darüber hinaus zu 30 % an einer brasilianischen Kapitalgesellschaft Brasilien-S.A. (B-S.A.) mit Sitz und Ort der Geschäftsleitung in Rio de Janeiro (Brasilien, Nicht-DBA-Staat) beteiligt. Die Beteiligung wird von S zutreffend im inländischen Betriebsvermögen gehalten. Die B-S.A. erbringt ebenfalls ausschließlich Werbedienstleistungen, bedient dabei aber ausschließlich den brasilianischen Markt. Am 10. September 2021 schüttete die B-S.A. 50.000 € an S aus, wobei in Brasilien 30 % Quellensteuer („imposto de renda retido da fonte“) erhoben wurden, sodass S lediglich 35.000 € auf ihrem Privatkonto gutgeschrieben wurden. Nach zutreffender Auskunft der B-S.A. hat die Gewinnausschüttung das steuerliche Einkommen der B-S.A. in Brasilien gemindert. Der Geschäftsvorfall wurde von S bisher noch nicht in ihrer Gewinnermittlung erfasst. Eine brasilianische S.A. entspricht im Typenvergleich einer deutschen Aktiengesellschaft." },
+      { text: "In Brasilien erzielt S zudem Vermietungseinkünfte aus der Vermietung einer Ferienwohnung, die sie im Privatvermögen hält. Die nach deutschen Vorschriften ermittelten Einkünfte ergaben für 2021 einen Verlust in Höhe von 5.000 €." },
+      { text: "Weitere Einkünfte erzielt S in 2021 nicht. Steuerlich absetzbare Vorsorgeaufwendungen gem. § 10 Absatz 1 Nr. 3 EStG sind S in 2021 in Höhe von 2.500 € entstanden." },
+    ],
+    aufgabe: [
+      { text: "Ermitteln Sie für S die festzusetzende Einkommensteuer für den Veranlagungszeitraum 2021." },
+      { text: "Begründen Sie Ihre Ergebnisse jeweils ausführlich unter Hinweis auf die einschlägigen Rechtsgrundlagen. Gehen Sie hierbei auch auf die persönliche Einkommensteuerpflicht von S ein." },
+      { typ: "titel", text: "Hinweise" },
+      { text: "Erforderliche Anträge gelten als gestellt. Erforderliche Nachweise gelten als erbracht." },
+      { text: "Auf gewerbesteuerliche Fragestellungen ist nicht einzugehen. Eine mögliche Anrechnung der Gewerbesteuer nach § 35 EStG ist nicht zu prüfen." },
+      { text: "Auf Cent lautende Beträge sind (auch in Zwischenrechnungen) abzurunden. In Zweifelsfällen ist der aktuellen Verwaltungsauffassung zu folgen." },
+      { text: "Sofern verschiedene Lösungsmöglichkeiten bestehen, ist das für 2021 günstigste steuerliche Ergebnis zu ermitteln." },
+    ],
+    loesung: [
+      { typ: "titel", text: "Keine Musterlösung in der Quelle" },
+      { text: KEINE_LOESUNG },
+      { text: "Was die Aufgabenstellung selbst vorgibt: Verlangt ist nicht die Summe der Einkünfte, sondern die **festzusetzende Einkommensteuer** – also der vollständige Weg bis zur Steuerfestsetzung einschließlich Anrechnungen. Auf die persönliche Einkommensteuerpflicht ist ausdrücklich einzugehen; gewerbesteuerliche Fragen und § 35 EStG sind ausdrücklich ausgenommen. Der Sachverhalt sagt eigens, dass der Mittelpunkt der Lebensinteressen seit 2018 in Düsseldorf liegt und dass sich S gleichwohl an mehr als 183 Tagen im Jahr in Italien aufhält – beide Angaben stehen nebeneinander, weil sie unterschiedliche Anknüpfungspunkte betreffen." },
+      { text: "Die Struktur der Einkünfte, wie der Sachverhalt sie nennt: 140.000 € aus dem Inland, 20.000 € aus der italienischen Betriebsstätte (darin 4.000 € Ausschüttung der I-S.R.L., die dem Betriebsvermögen der Betriebsstätte zugeordnet ist, ohne Quellensteuer), 50.000 € Ausschüttung der brasilianischen B-S.A. bei 30 % Quellensteuer und Auszahlung von 35.000 €, 5.000 € Vermietungseinkünfte aus Rom, 40.000 € Veräußerungsgewinn aus einer der römischen Wohnungen (erworben 2015, veräußert am 30.11.2021) und ./. 5.000 € Vermietungsverlust aus Brasilien. Dazu die Unterhaltszahlungen von 750 € monatlich an den geschiedenen Ehemann (rechtliche Verpflichtung, Versteuerung in Italien bescheinigt) und 500 € monatlich an die frühere Schwiegermutter (keine rechtliche Verpflichtung, keine weiteren Einkünfte)." },
+      { text: "Zwei Angaben sind erkennbar Weichen und keine Ausschmückung: dass die Ausschüttung der B-S.A. „das steuerliche Einkommen der B-S.A. in Brasilien gemindert“ hat, und dass die brasilianische Beteiligung im **inländischen** Betriebsvermögen, die italienische dagegen im Betriebsvermögen der **ausländischen** Betriebsstätte gehalten wird. Ebenso, dass Brasilien ausdrücklich als Nicht-DBA-Staat bezeichnet ist, Italien dagegen nicht." },
+      { text: "Zeitliche Einordnung: Der Veranlagungszeitraum ist 2021. Wer die Aufgabe nach heutigem Rechtsstand löst, muss selbst prüfen, was sich seither geändert hat – etwa bei der Behandlung hybrider Gestaltungen und bei den Höchstbeträgen des Unterhaltsabzugs. Die Aufgabe ist hier unverändert wiedergegeben." },
+      { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Unbeschränkte und beschränkte Steuerpflicht, Betriebsstättenbesteuerung, Anrechnung und Abzug ausländischer Steuern nach § 34c EStG, Progressionsvorbehalt und § 4k EStG behandelt der Reiter „Internationales Steuerrecht“ (Klausur 2). Unterhaltsleistungen an geschiedene Ehegatten (Realsplitting, § 10 Abs. 1a EStG) und an unterhaltsberechtigte Personen (§ 33a EStG) stehen im Einkommensteuer-Campus." },
+    ],
+  },
+  {
+    id: "k2-pk-2022-est-sv2-uli-v",
+    fach: "est",
+    block: "amtlich",
+    blockLabel: "Steuerberaterprüfung · amtliche Prüfungsaufgabe",
+    nummer: 7,
+    jahrgang: "2022/2023",
+    teil: "I",
+    wertung: "17 von 100 Wertungspunkten",
+    title: "Teil I, Sachverhalt 2 – Uli V. (Prüfung 2022/2023): ein Elektro-Firmenwagen, ein verbilligt erworbener Geschäftsanteil und eine Übertragung gegen lebenslange Rente",
+    thema: "Ein Geschäftsführer, bei dem Arbeitslohn und Beteiligung ineinandergreifen. Der rein elektrische Firmenwagen mit 80.000 € Bruttolistenpreis wird an 120 von 230 Arbeitstagen für Fahrten zur 30 km entfernten Tätigkeitsstätte genutzt, an den übrigen 110 Tagen arbeitet er von zu Hause – ohne häusliches Arbeitszimmer und ohne Fahrtenbuch. 2013 erwarb er im Rahmen einer Kapitalerhöhung 10 % für 20.000 €, obwohl ein fremder Dritter 50.000 € hätte zahlen müssen; 2015 kaufte er weitere 40 % zu angemessenen 150.000 €. Im März 2021 schüttet die GmbH 500.000 € aus, davon 400.000 € aus dem steuerlichen Einlagekonto. Und zum 1. Dezember 2021 überträgt er die gesamte Beteiligung auf seinen Neffen – im Wege vorweggenommener Erbfolge gegen Zusage einer lebenslangen Rente von 1.000 € monatlich, während der Neffe zugleich seine Nachfolge als Geschäftsführer antritt",
+    rechtsstand: "Rechtsstand des Prüfungsjahrgangs 2022/2023 · Veranlagungszeitraum 2021",
+    quelle: "Steuerberaterprüfung 2022/2023, Prüfungsaufgaben aus dem Einkommen- und Ertragsteuerrecht, Teil I: Einkommensteuer, Sachverhalt 2 · amtlicher Aufgabentext",
+    normen: [
+      "§ 27 KStG", "§ 32d EStG (Anträge ausdrücklich nicht gestellt)", "§ 119 Abs. 1 HGB",
+    ],
+    themen: ["Amtliche Prüfungsaufgabe", "Ohne Musterlösung", "Firmenwagen", "Elektrofahrzeug", "Entfernungspauschale", "Homeoffice-Pauschale", "Verbilligter Anteilserwerb", "Einlagenrückgewähr", "Vorweggenommene Erbfolge", "Versorgungsleistungen"],
+    sachverhalt: [
+      { typ: "titel", text: "Steuerberaterprüfung 2022/2023 · Teil I: Einkommensteuer · Sachverhalt 2 (Erreichbare Punkte: 17 von 100)" },
+      { text: "Uli V. (U), geboren am 5. Juli 1960, ledig und wohnhaft in München, ist seit 2010 als Geschäftsführer der A-GmbH mit Sitz und Geschäftsleitung in München beruflich tätig." },
+      { text: "Für seine Tätigkeit erhält U ein angemessenes monatliches Bruttogehalt in Höhe von 10.000 €. Darüber hinaus darf er den betrieblichen, rein elektrisch betriebenen Firmenwagen auch für private Zwecke nutzen. Der Firmenwagen mit einem Bruttolistenpreis in Höhe von 80.000 € wurde am 1. Juni 2020 ausgeliefert und noch am selben Tag dem U zur Privatnutzung übergeben. U nutzt den Firmenwagen im Jahr 2021 nachweislich an 120 Tagen auch für Fahrten zwischen Wohnung und dem 30 km entfernten Betrieb der A-GmbH (= 1. Tätigkeitsstätte). Ein ordnungsgemäßes Fahrtenbuch führt U jedoch nicht. An den anderen 110 Arbeitstagen arbeitet U ausschließlich von zu Hause aus. Ein häusliches Arbeitszimmer besitzt U jedoch nicht." },
+      { text: "In 2013 hat U im Rahmen einer Kapitalerhöhung Gesellschaftsanteile in Höhe von 10 % an der A-GmbH erworben. U zahlte für den 10%igen Geschäftsanteil am 10. Juli 2013 20.000 €. Ein fremder Dritter hätte zu diesem Zeitpunkt 50.000 € für den Geschäftsanteil aufbringen müssen. Weitere Anschaffungskosten sind dem U in diesem Zusammenhang nicht entstanden." },
+      { text: "Am 1. Dezember 2015 nutzte U die Gelegenheit, seine Beteiligung an der A-GmbH aufzustocken und erwarb vom Altgesellschafter B dessen damaligen 40%igen Geschäftsanteil an der A-GmbH für angemessene 150.000 €. Weitere Anschaffungskosten sind dem U in diesem Zusammenhang nicht entstanden. U hält seine Beteiligung im Privatvermögen." },
+      { text: "Am 10. März 2021 beschließt die A-GmbH, einen Gewinn in Höhe von 500.000 € auszuschütten. Laut ordnungsgemäßer Bescheinigung erfolgt die Ausschüttung in Höhe von 400.000 € aus dem steuerlichen Einlagekonto i. S. d. § 27 KStG der A-GmbH. Die Ausschüttung wurde dem U am 15. März 2021 auf seinem Privatkonto gutgeschrieben." },
+      { text: "Mit Wirkung zum 1. Dezember 2021 überträgt U die gesamten Geschäftsanteile an der A-GmbH auf seinen Neffen C im Wege der vorweggenommenen Erbfolge gegen Zusage einer lebenslangen monatlichen Rente in Höhe von 1.000 €. C überweist noch am 15. Dezember 2021 die erste Rentenzahlung auf das Privatkonto von U. Zum 30. November 2021 beendet U seine Geschäftsführertätigkeit. Zum 1. Dezember 2021 tritt C die Nachfolge von U als Geschäftsführer der A-GmbH an." },
+    ],
+    aufgabe: [
+      { text: "Ermitteln Sie die Summe der steuerpflichtigen Einkünfte des U für das Jahr 2021. Auf tarifliche Fragestellungen ist nicht einzugehen." },
+      { text: "Begründen Sie Ihre Ergebnisse jeweils ausführlich unter Hinweis auf die einschlägigen Rechtsgrundlagen. Auf allgemeine Fragen (Einkommensteuerpflicht, Tarif etc.) ist nicht einzugehen." },
+      { typ: "titel", text: "Hinweise" },
+      { text: "Erforderliche Anträge gelten als gestellt. Anträge nach § 32d EStG wurden jedoch nicht gestellt. Erforderliche Nachweise gelten als erbracht." },
+      { text: "Auf Cent lautende Beträge sind (auch in Zwischenberechnungen) abzurunden. In Zweifelsfällen ist der aktuellen Verwaltungsauffassung zu folgen." },
+      { text: "Sofern verschiedene Lösungsmöglichkeiten bestehen, ist das für 2021 günstigste steuerliche Ergebnis zu wählen." },
+    ],
+    loesung: [
+      { typ: "titel", text: "Keine Musterlösung in der Quelle" },
+      { text: KEINE_LOESUNG },
+      { text: "Was die Aufgabenstellung selbst vorgibt: Gefragt ist nur die **Summe der steuerpflichtigen Einkünfte**, nicht die festzusetzende Steuer – tarifliche Fragestellungen sind ausdrücklich ausgenommen. Der Hinweis, dass Anträge nach § 32d EStG **nicht** gestellt wurden, steht als einziger Hinweis im Widerspruch zur sonst geltenden Regel „Erforderliche Anträge gelten als gestellt“ und schließt damit gezielt einen Prüfungspfad aus." },
+      { text: "Die Zahlen des Sachverhalts, wie er sie nennt: Bruttogehalt 10.000 € monatlich; Bruttolistenpreis des Elektrofahrzeugs 80.000 €, Auslieferung und Übergabe am 1. Juni 2020; 120 Tage Fahrten zur 30 km entfernten ersten Tätigkeitsstätte und 110 weitere Arbeitstage ausschließlich zu Hause, ohne häusliches Arbeitszimmer und ohne Fahrtenbuch; Erwerb von 10 % für 20.000 € am 10. Juli 2013 bei einem Fremdvergleichswert von 50.000 €; Erwerb weiterer 40 % für angemessene 150.000 € am 1. Dezember 2015; Ausschüttung von 500.000 € am 10. März 2021, davon 400.000 € aus dem steuerlichen Einlagekonto, Gutschrift am 15. März 2021; Übertragung der gesamten Beteiligung zum 1. Dezember 2021 gegen 1.000 € monatliche lebenslange Rente, erste Zahlung am 15. Dezember 2021." },
+      { text: "Erkennbar gesetzte Weichen: dass der Anteilserwerb 2013 im Rahmen einer **Kapitalerhöhung** und verbilligt erfolgte, während U bereits Geschäftsführer war; dass die Beteiligung im Privatvermögen gehalten wird; dass die Ausschüttung zu vier Fünfteln aus dem Einlagekonto stammt; dass U seine Geschäftsführertätigkeit zum 30. November 2021 beendet und der Neffe zum 1. Dezember 2021 die Nachfolge antritt – also zeitgleich mit der Übertragung." },
+      { text: "Zeitliche Einordnung: Der Veranlagungszeitraum ist 2021. Die Homeoffice-Regelung und die Begünstigung von Elektrofahrzeugen bei der Dienstwagenbesteuerung sind seither mehrfach geändert worden; die Aufgabe ist hier unverändert mit dem Rechtsstand des Prüfungsjahrgangs wiedergegeben." },
+      { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Die Dienstwagenbesteuerung nach § 8 Abs. 2 EStG einschließlich der Begünstigung für Elektrofahrzeuge und die Entfernungspauschale behandelt der Einkommensteuer-Campus; die Einlagenrückgewähr nach § 27 KStG und ihre Folgen beim Gesellschafter stehen im Körperschaftsteuer-Campus (Klausur 2); die Übertragung gegen Versorgungsleistungen und § 17 EStG behandelt der Einkommensteuer-Campus in eigenen Einheiten." },
+    ],
+  },
+  {
+    id: "k2-pk-2022-est-sv3-michael-h",
+    fach: "est",
+    block: "amtlich",
+    blockLabel: "Steuerberaterprüfung · amtliche Prüfungsaufgabe",
+    nummer: 8,
+    jahrgang: "2022/2023",
+    teil: "I",
+    wertung: "18 von 100 Wertungspunkten",
+    title: "Teil I, Sachverhalt 3 – Michael H. (Prüfung 2022/2023): eine Verwaltungs-OHG, die zur Betriebsaufspaltung werden könnte, und der Verkauf des Mitunternehmeranteils zum 1. Dezember",
+    thema: "Eine OHG vermietet eine selbst errichtete Eventhalle an eine GmbH und verwaltet daneben einen GmbH-Anteil – mehr tut sie nicht. Ob daraus Einkünfte aus Vermietung und Verpachtung oder gewerbliche Einkünfte werden, hängt an Beteiligungsverhältnissen, die sich mitten im Jahr verschieben: Der zu 60 % beteiligte Mitgesellschafter hält 40 % an der mietenden GmbH und kauft zum 1. März 2021 weitere 30 % von einer Ehefrau hinzu. Im Gesellschaftsvertrag der OHG gilt abweichend vom Gesetz das einfache Mehrheitsprinzip, und er ist allein geschäftsführungs- und vertretungsbefugt. Zum 1. Mai 2021 erwirbt die OHG 10 % an einer weiteren GmbH, die im September 200.000 € vorab ausschüttet. Und zum 1. Dezember 2021 verkauft der zu 40 % beteiligte Michael H. seinen gesamten Anteil für 1,5 Mio. € an den Mitgesellschafter – mit gegebenen Teilwerten für Grund und Boden, Halle und Beteiligung",
+    rechtsstand: "Rechtsstand des Prüfungsjahrgangs 2022/2023 · Veranlagungszeitraum 2021",
+    quelle: "Steuerberaterprüfung 2022/2023, Prüfungsaufgaben aus dem Einkommen- und Ertragsteuerrecht, Teil I: Einkommensteuer, Sachverhalt 3 · amtlicher Aufgabentext",
+    normen: [
+      "§ 119 Abs. 1 HGB",
+    ],
+    themen: ["Amtliche Prüfungsaufgabe", "Ohne Musterlösung", "Betriebsaufspaltung", "Personelle Verflechtung", "Sachliche Verflechtung", "Mitunternehmeranteil", "Veräußerungsgewinn", "Gesonderte Feststellung", "Tarifbegünstigung"],
+    sachverhalt: [
+      { typ: "titel", text: "Steuerberaterprüfung 2022/2023 · Teil I: Einkommensteuer · Sachverhalt 3 (Erreichbare Punkte: 18 von 100)" },
+      { text: "Michael H. (M), geboren am 5. Januar 1966, ledig und wohnhaft in Bonn, hat im Jahr 2010 zusammen mit seinem Freund René P. (R) die im Handelsregister eingetragene Verwaltungs-OHG (V-OHG) gegründet. M ist zu 40 % an der V-OHG beteiligt, R zu 60 %. Laut Gesellschaftsvertrag gilt abweichend zur gesetzlichen Regelung nach § 119 Absatz 1 HGB das einfache Mehrheitsprinzip. R ist zur alleinigen Geschäftsführung und Vertretung der V-OHG bestimmt. Gesellschaftszweck ist die Vermietung des Grundstücks Stoppelfeld mit aufstehender Eventhalle in Bonn sowie die Verwaltung des Anteils an der B-GmbH." },
+      { text: "Mit notariellem Vertrag vom 10. Januar 2012 erwarb die V-OHG das unbebaute Grundstück Stoppelfeld in Bonn (Übergang von Besitz, Nutzen und Lasten: 1. Februar 2012). Die Anschaffungskosten (einschließlich Anschaffungsnebenkosten) betrugen 400.000 €. Mit Bauantrag vom 1. Februar 2012 wurde das Grundstück mit einer Eventhalle bebaut (Fertigstellung: 15. Februar 2013). Die Herstellungskosten für das Gebäude betrugen 2.000.000 €." },
+      { text: "Die Eventhalle wurde ab dem 1. März 2013 an die Event GmbH (E-GmbH) zu einer angemessenen monatlichen Miete von 10.000 € (umsatzsteuerfrei) vermietet, die dort regelmäßig Konzerte veranstaltet. Die laufenden Betriebskosten für das Grundstück und die Eventhalle betragen monatlich 2.000 €. Sämtliche Einnahmen und Ausgaben sind jeweils monatlich zu Monatsbeginn fristgerecht vereinnahmt bzw. gezahlt worden." },
+      { text: "An der E-GmbH, die ihren Sitz und Geschäftsleitung in Bonn hat, ist R zu 40 % beteiligt. Neben R sind an der E-GmbH die Eheleute Florian T. (F) und Steffanie T. (S) zu jeweils 30 % beteiligt. Mit Wirkung zum 1. März 2021 veräußerte S ihren gesamten Geschäftsanteil an R." },
+      { text: "Die V-OHG hat mit Wirkung zum 1. Mai 2021 10 % der Geschäftsanteile der B-GmbH für 100.000 € erworben. Die B-GmbH zahlt am 30. September 2021 eine Vorabgewinnausschüttung von insgesamt 200.000 € für das Wirtschaftsjahr 2021 aus." },
+      { text: "Sämtliche Einnahmen der V-OHG werden den Gesellschaftern unmittelbar nach Eingang entsprechend den Beteiligungsverhältnissen an die Gesellschafter ausgezahlt. Sämtliche Ausgaben der V-OHG werden entsprechend den Beteiligungsverhältnissen anteilig von den Gesellschaftern getragen und die erforderlichen finanziellen Mittel zeitnah der V-OHG zur Verfügung gestellt." },
+      { text: "Mit notariellem Vertrag vom 1. Dezember 2021 veräußert M seinen gesamten Anteil an der V-OHG mit Wirkung zum 1. Dezember 2021 an R. Der Kaufpreis beträgt 1.500.000 €, wovon zutreffend 50.000 € auf die Beteiligung an der B-GmbH entfallen. Der gesamte Kaufpreis wurde M am 15. Dezember 2021 auf seinem Privatkonto gutgeschrieben." },
+      { text: "Die Teilwerte für das gesamte Jahr 2021 betragen für den Grund und Boden 800.000 €, für die Veranstaltungshalle 2.500.000 € und für die Beteiligung an der B-GmbH 100.000 €." },
+    ],
+    aufgabe: [
+      { text: "Ermitteln Sie die Summe der steuerpflichtigen Einkünfte des M für das Jahr 2021. Gehen Sie dabei auch auf tarifliche Besonderheiten ein. Soweit sich Auswirkungen auf die Veranlagung ergeben, müssen auch Punkte behandelt werden, die in einem Grundlagenbescheid festzustellen sind." },
+      { text: "Begründen Sie Ihre Ergebnisse jeweils ausführlich unter Hinweis auf die einschlägigen Rechtsgrundlagen." },
+      { typ: "titel", text: "Hinweise" },
+      { text: "Erforderliche Anträge gelten als gestellt. Erforderliche Nachweise gelten als erbracht." },
+      { text: "Auf Cent lautende Beträge sind (auch in Zwischenrechnungen) abzurunden. In Zweifelsfällen ist der aktuellen Verwaltungsauffassung zu folgen." },
+      { text: "Sofern verschiedene Lösungsmöglichkeiten bestehen, ist das für 2021 günstigste steuerliche Ergebnis zu wählen." },
+    ],
+    loesung: [
+      { typ: "titel", text: "Keine Musterlösung in der Quelle" },
+      { text: KEINE_LOESUNG },
+      { text: "Was die Aufgabenstellung selbst vorgibt: Gefragt ist die Summe der steuerpflichtigen Einkünfte des M – aber anders als in Sachverhalt 2 ausdrücklich **einschließlich** der tariflichen Besonderheiten. Zusätzlich sind die Punkte zu behandeln, die in einem Grundlagenbescheid festzustellen wären; die V-OHG ist also gesondert und einheitlich festzustellen, und die Feststellung gehört zur Lösung." },
+      { text: "Der Sachverhalt versammelt die Merkmale, an denen sich die Einkunftsart entscheidet, und nennt sie einzeln: Gegenstand der V-OHG ist ausschließlich die Vermietung des Grundstücks und die Verwaltung eines GmbH-Anteils; R hält 60 % an der V-OHG und ist allein geschäftsführungs- und vertretungsbefugt; im Gesellschaftsvertrag gilt abweichend von § 119 Abs. 1 HGB das einfache Mehrheitsprinzip; R hält 40 % an der mietenden E-GmbH und erwirbt zum 1. März 2021 weitere 30 % hinzu. Der Zeitpunkt dieses Zuerwerbs – mitten im Jahr – ist offensichtlich bewusst gesetzt." },
+      { text: "Die Zahlen, wie die Quelle sie nennt: Anschaffungskosten des Grundstücks 400.000 €, Herstellungskosten der Halle 2.000.000 €, Fertigstellung 15. Februar 2013, Vermietung ab 1. März 2013 zu 10.000 € monatlich bei 2.000 € monatlichen Betriebskosten; Erwerb von 10 % an der B-GmbH zum 1. Mai 2021 für 100.000 €, Vorabausschüttung von 200.000 € am 30. September 2021; Veräußerung des Anteils des M zum 1. Dezember 2021 für 1.500.000 €, davon 50.000 € auf die B-Beteiligung; Teilwerte für das ganze Jahr 2021: Grund und Boden 800.000 €, Veranstaltungshalle 2.500.000 €, Beteiligung 100.000 €." },
+      { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Die Betriebsaufspaltung mit sachlicher und personeller Verflechtung, ihre Begründung und Beendigung behandelt der Reiter „Personengesellschaften“ (Klausur 3) ausführlich; die Veräußerung eines Mitunternehmeranteils nach § 16 EStG und die Tarifbegünstigung nach § 34 EStG stehen dort ebenfalls. Die gesonderte und einheitliche Feststellung behandelt der AO-Campus (Klausur 1)." },
     ],
   },
 ];

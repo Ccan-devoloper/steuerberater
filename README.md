@@ -1776,6 +1776,24 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   auf den Cayman Islands ohne Ertragsbesteuerung und eine bahamaische Partnership, die ein
   deutsches Bürogebäude für 50 Mio. € gekauft und für 60 Mio. € verkauft hat – drei
   Nicht-DBA-Staaten. Auf die persönliche Steuerpflicht ist ausdrücklich einzugehen.
+  Aus dem Jahrgang **2022/2023** kommen drei weitere Sachverhalte hinzu, die den
+  Veranlagungszeitraum 2021 betreffen und ihre Wertungspunkte selbst ausweisen:
+  **Sachverhalt 1** (Simone K., 25 von 100): eine Influencerin mit Lebensmittelpunkt in
+  Düsseldorf, die sich an mehr als 183 Tagen im Jahr in Italien aufhält, dort eine
+  Zweigniederlassung und drei Eigentumswohnungen hat, zu 30 % an einer italienischen S.R.L.
+  im Betriebsvermögen der Betriebsstätte und zu 30 % an einer brasilianischen S.A. im
+  inländischen Betriebsvermögen beteiligt ist – deren Ausschüttung dort das Einkommen
+  gemindert hat – und Unterhalt sowohl an den geschiedenen Ehemann als auch an die frühere
+  Schwiegermutter zahlt.
+  **Sachverhalt 2** (Uli V., 17 von 100): ein Elektro-Firmenwagen bei 120 Bürotagen und
+  110 Homeoffice-Tagen ohne Arbeitszimmer, ein 2013 im Rahmen einer Kapitalerhöhung
+  verbilligt erworbener Geschäftsanteil (20.000 € statt 50.000 €), eine Ausschüttung von
+  500.000 €, die zu vier Fünfteln aus dem steuerlichen Einlagekonto stammt, und die
+  Übertragung der gesamten Beteiligung auf den Neffen gegen lebenslange Rente – zeitgleich
+  mit dem Wechsel in der Geschäftsführung.
+  **Sachverhalt 3** (Michael H., 18 von 100): eine bloß vermietende OHG, bei der sich die für
+  eine Betriebsaufspaltung maßgeblichen Beteiligungsverhältnisse zum 1. März 2021 mitten im
+  Jahr verschieben, und der Verkauf des Mitunternehmeranteils zum 1. Dezember für 1,5 Mio. €.
   Dazu kommen die beiden übrigen Teile desselben Prüfungstages, die im GewSt- bzw. im
   KSt-Campus unter demselben Reiter stehen:
   **Teil II – Gewerbesteuer** (MAX-OHG): zwei Geschäftszweige mit eigenen Räumen, eigener
