@@ -474,7 +474,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   zwischen Feststellungs- und Steuerbescheiden mit den MoPeG-Folgeänderungen ab 2024, der
   Bindungswirkung des § 182 Abs. 1 AO, der Feststellungsverjährung einschließlich der
   besonderen Ablaufhemmung des § 181 Abs. 5 AO und der Regel, Feststellungs- und
-  Folgebescheid stets getrennt zu prüfen.
+  Folgebescheid stets getrennt zu prüfen. Den Abschluss des Abschnitts 2 bildet die
+  **Festsetzungsverjährung** mit dem vollständigen Prüfungsschema zur Fristberechnung –
+  Fristdauer von vier, zehn und fünf Jahren, Beginn mit Anlaufhemmung, Ende und
+  Fristwahrung nach § 169 Abs. 1 Satz 3 AO – und dem Katalog aller zehn prüfungsrelevanten
+  Ablaufhemmungen des § 171 AO; dazu die Besonderheiten der Feststellungsfrist mit dem
+  Beispiel der XY-OHG, in dem derselbe Feststellungsbescheid vom 11.12.07 gegenüber X
+  wirkt (Festsetzungsfrist bis Ende Kj. 07) und gegenüber Y nicht mehr (Frist bereits Ende
+  Kj. 06 abgelaufen) – einschließlich der zweijährigen Ablaufhemmung des § 171 Abs. 10
+  Satz 1 AO bis zum 14.12.09 und der Heilung eines fehlenden Hinweises nach § 126 AO.
   Die Quelle stellt ausdrücklich klar, dass Steuererhebungsverfahren, FGO-Verfahren,
   Steuerstrafrecht und Haftungsrecht nicht enthalten, aber gleichwohl prüfungsrelevant
   sind. Der Datensatz tritt neben die bereits vorhandene verdichtete Overlay-Fassung

@@ -3250,3 +3250,48 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   18.04.04. Da der Aufgabentext den 20.04.04 als Montag bezeichnet, fällt der 18.04.04 auf
   einen Samstag, so dass § 108 Abs. 3 AO auf Montag, den **20.04.04** verschiebt – der an
   diesem Tag eingehende Einspruch ist für beide Bescheide rechtzeitig.
+
+## AO Short-Skript (Jacobs) – wortlautgetreue Erfassung (Teil 3)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1fuGSbReWCvFo0ClbWr8G7WaRfYeiRySC`),
+  Abschnitt 2, Teil III.
+- Einpflege dieses Durchgangs: zwei Kapitel – das Prüfungsschema zur Fristberechnung mit
+  dem Katalog aller zehn prüfungsrelevanten Ablaufhemmungen des § 171 AO sowie die
+  Besonderheiten der Feststellungsfrist mit dem durchgerechneten Beispiel der XY-OHG zu
+  § 181 Abs. 5 AO. **Der Abschnitt 2 ist damit vollständig.** Das Short-Skript umfasst jetzt
+  8 Kapitel, 222 Blöcke und 4 Tabellen; Prüfung
+  `npm run check:k1-ao-short-skript-jacobs`.
+- Noch nicht eingepflegt: die Abschnitte 3 und 4 des Teils I sowie der gesamte Teil II.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 8, Einleitungssatz der Lösung.** „Der Bescheid vom 11. 12. 07 durfte nur dann
+    erlassen werden, wenn die Feststellungsfrist noch **abgelaufen** ist“ – gemeint ist
+    erkennbar „noch **nicht** abgelaufen ist“; die gesamte nachfolgende Prüfung geht davon
+    aus.
+  - **Kapitel 8, Bekanntgabe des Grundlagenbescheids.** Der Sachverhalt bezeichnet den
+    11.12.07 ausdrücklich als „Tag der Aufgabe zur Post“; bei der Prüfung des § 181 Abs. 5
+    AO heißt es dann, der Bescheid sei „am 11. 12. 07 bekannt gegeben worden“, während
+    dieselbe Lösung für die Ablaufhemmung des § 171 Abs. 10 Satz 1 AO folgerichtig mit dem
+    14.12.07 rechnet.
+  - Kapitel 8: Fundstelle „§ 108 Abs. 1 **BGB**“ statt § 108 Abs. 1 AO; „§ 169 Abs. 2 Nr. 2
+    AO“ ohne Satzangabe; „§ 180 Abs. 1 Nr. 2b AO“ ohne Satz 1; „obliegt … dem Hinweis im
+    Feststellungsbescheid **Wohnsitz-FA**“ ohne Artikel; „hingewiesen werden.; vgl. hierzu
+    **der** wichtige Hinweis“.
+  - Kapitel 7: der überzählige Punkt in „Regelmäßig werden. auch dann Wertungspunkte …“;
+    die nicht gepaarten Klammern in der Darstellung der Anlaufhemmung; „§ § 188 Abs. 2 BGB“
+    mit Leerstelle; „4. –Teilweises-- Ende der Festsetzungsfrist“.
+
+  Darstellungsentscheidung: Der Katalog der Ablaufhemmungen des § 171 AO steht in der Quelle
+  als Aufzählung und ist als Tabelle wiedergegeben; der Wortlaut ist unverändert.
+
+  Nachgerechnet und zutreffend: Im Beispiel der XY-OHG beginnt die Feststellungsfrist nach
+  dreijähriger Anlaufhemmung mit Ablauf des Kj. 02 und endet mit Ablauf des **Kj. 06** – der
+  Bescheid vom 11.12.07 liegt also außerhalb. Bei X (ESt-Erklärung im Kj. 03) läuft die
+  Festsetzungsfrist bis Ende **Kj. 07** und ist am 11.12.07 noch offen, bei Y (ESt-Erklärung
+  bereits im Kj. 02) nur bis Ende **Kj. 06**. Die zweijährige Ablaufhemmung des § 171
+  Abs. 10 Satz 1 AO rechnet ab der Bekanntgabe des Grundlagenbescheides: 11.12.07 zuzüglich
+  der im Fall maßgebenden drei Tage ergibt den 14.12.07 und damit das Fristende am
+  **14.12.09**, so dass die Änderung im April 08 möglich ist.

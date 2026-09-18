@@ -132,11 +132,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   zusätzlich **wortlautgetreu** erfasst (Reiter „Short-Skript (Jacobs)“,
   `src/data/k1-ao-short-skript-jacobs.js`). Eingepflegt ist der Abschnitt 1 des Teils I
   (Klausuraufbau, Klausurtechnik, Hilfsmittel, fundamentale Aufbauregel, Gutachtenstil)
-  sowie aus dem Abschnitt 2 die Teile I (Wirksamkeit von Bescheiden) und II (Verhältnis
-  Feststellungs-/Steuerbescheide); offen sind der Teil III des Abschnitts 2
-  (Festsetzungsverjährung), die Abschnitte 3 und 4 (Einspruch und Korrekturvorschriften in
-  der Fallbearbeitung) sowie der gesamte Teil II (Schwerpunkte der AO-Klausuren 2016 bis
-  2024).
+  sowie der **vollständige Abschnitt 2** (Wirksamkeit von Bescheiden, Verhältnis
+  Feststellungs-/Steuerbescheide, Festsetzungsverjährung); offen sind die Abschnitte 3 und 4
+  (Einspruch und Korrekturvorschriften in der Fallbearbeitung) sowie der gesamte Teil II
+  (Schwerpunkte der AO-Klausuren 2016 bis 2024).
 - FGO
 - Notfallbuch
 
