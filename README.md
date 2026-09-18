@@ -97,7 +97,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Schwebezustand und Vorschriften; sowie der Bewertungsmaßstab mit gemeinem Wert, Teilwert
   und Ertragswert, den sechs abgeleiteten Maßstäben von Kurswert über Nennwert,
   Gegenwartswert und Rückkaufswert bis zum Kapitalwert und dem gemeinen Wert des § 9
-  Abs. 1 BewG als Einzelveräußerungspreis einschließlich der Umsatzsteuer.
+  Abs. 1 BewG als Einzelveräußerungspreis einschließlich der Umsatzsteuer. Aus dem
+  **Abschnitt V** steht die Bewertung der Wertpapiere und Anteile: Forderungspapiere und
+  Schuldbuchforderungen mit dem Kurswert nach § 11 Abs. 1 BewG und der 30-Tage-Regel,
+  Anteilspapiere und Anteilsrechte, nicht notierte Anteile mit dem gemeinen Wert nach § 11
+  Abs. 2 BewG, Beteiligungen mit dem Paketzuschlag nach § 11 Abs. 3 BewG ab mehr als 25 %
+  und bis zu 25 % Zuschlag, sowie Investmentanteile mit dem Rücknahmepreis nach § 11 Abs. 4
+  BewG – samt dem fünfzeiligen Schaubild der Quelle, das alle fünf Fälle bis hin zum
+  Nennwert nicht notierter Forderungspapiere zusammenfasst.
   Prüfung: `npm run check:k1-erbst-bewertung-teil1`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des

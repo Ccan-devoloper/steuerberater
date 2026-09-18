@@ -169,9 +169,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   `1bKS8GZwHDb2Z4gjFc9WFqJcqTSovSLnY` im Ordner `1dYXMcr-i-IEmXuXurAfIlzo_xgtHvzDG`:
   **begonnen.** Die Abschnitte I (Einführung), II (Bewertungsgegenstand), III (Bedingungen
   und Befristungen) und IV (Bewertungsmaßstab gemeiner Wert) stehen im Reiter
-  „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil1.js`. Offen ist nur noch
-  der Abschnitt V (Wertpapiere und Anteile, Kapitalforderungen und Schulden, wiederkehrende
-  Nutzungen und Leistungen) – mit rund 370 Zeilen der umfangreichste Abschnitt der Datei. Der Connector gibt die Datei vollständig aus (50.000 Zeichen). Im selben
+  „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil1.js`; aus dem Abschnitt V
+  ist die Tz. 1 (Wertpapiere und Anteile) eingepflegt. Offen sind aus dem Abschnitt V noch
+  die Tz. 2 (Kapitalforderungen und Schulden mit Uneinbringlichkeit, Unverzinslichkeit,
+  hoher und niedriger Verzinsung, typisch stiller Beteiligung und Versicherungsansprüchen)
+  und die Tz. 3 (wiederkehrende Nutzungen und Leistungen mit den Rentenfällen). Der Connector gibt die Datei vollständig aus (50.000 Zeichen). Im selben
   Ordner liegt unter dem Namen „2025) (6).pdf“ (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`)
   vermutlich der zugehörige Lösungsteil – noch nicht geöffnet.
 - **Bewertungsrecht Teil 2** (Schäfer): im Ordner `1yhRfkjP6VYO0V8a01BY2vqXbOnXilI97`

@@ -4147,3 +4147,44 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   dass ungewöhnliche oder persönliche Verhältnisse beim gemeinen Wert außer Betracht
   bleiben, kehrt im Teil 3 bei den Sonderfällen der Anteilsbewertung wieder (R B 11.4
   ErbStR).
+
+## Bewertungsrecht Teil 1 (Schäfer) – Abschnitt V, Tz. 1: Wertpapiere und Anteile
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1bKS8GZwHDb2Z4gjFc9WFqJcqTSovSLnY`),
+  Abschnitt V Tz. 1 Buchstaben a) und b), PDF-Seiten 11 bis 13.
+- Einpflege dieses Durchgangs: ein weiteres Kapitel; der Datensatz umfasst jetzt 3 Teile,
+  6 Kapitel, 99 Blöcke und 5 Tabellen; Prüfung `npm run check:k1-erbst-bewertung-teil1`.
+- Noch offen aus derselben Datei: Abschnitt V Tz. 2 (Kapitalforderungen und Schulden) und
+  Tz. 3 (wiederkehrende Nutzungen und Leistungen).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidung: Das Schaubild „Bewertung von Wertpapieren und Anteilen“ steht in
+  der Quelle als zweispaltige Tabelle, deren Zeilen in der Erfassung über mehrere Zeilen
+  umbrechen (die Klammerzusätze zu den Zeilen 3 und 5 sowie die Fortsetzung der Zeile 1
+  stehen jeweils abgesetzt). Sie ist zusammengeführt als Tabelle wiedergegeben; der Wortlaut
+  ist unverändert.
+
+  Redaktioneller Befund: Das Beispiel zur Anleihe im Privatvermögen (Nennwert 10.000 €,
+  Variante a mit Kurswert 10.800 €, Variante b ohne Kurswert) steht in der Quelle **ohne
+  Lösungssatz**. Es ist **nicht aufgelöst**; im Datensatz ist stattdessen vermerkt, dass die
+  maßgebenden Vorschriften in den beiden unmittelbar vorangehenden Absätzen genannt sind.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 1 a).** „Im **Unterscheid** zu den Anteilspapieren bzw. -rechten“ – dieselbe
+    Schreibweise wie im Abschnitt III desselben Skripts.
+  - **Tz. 1 b).** „unter Berücksichtigung **Ertragsaussichten** der Kapitalgesellschaft“ –
+    das „der“ fehlt; „die Beteiligung an einer Kapitalgesellschaft, die einer Person
+    **gehören**“; „Die Einzelanteile **geltend** dann nicht mehr als selbständige
+    Wirtschaftsgüter“; die Fundstelle „R B 11. 8 Abs. 3 ErbStR“ mit Leerstelle.
+  - **Tz. 1 b), Investmentvermögen.** „im Sinne des **Kapitalanlagengesetzbuches**“ (das
+    Gesetz heißt Kapitalanlagegesetzbuch) und „**Es handelt** Kapitalsammelstellen für
+    Investitionen“ – dort fehlt „sich um“.
+
+  Querbezug: Die Zeile 3 des Schaubilds ist die Grundlage dessen, was der Teil 3 desselben
+  Skripts in seiner Tz. 7 d) ausführt – dort mit dem Zusatz, dass im vereinfachten
+  Ertragswertverfahren in der Regel kein Paketzuschlag vorzunehmen ist und er beim
+  Substanzwert generell unberücksichtigt bleibt (R B 11.8 Abs. 2 S. 3 und 5 ErbStR). Darauf
+  stützt sich der Schlusssatz der Musterlösung des Übungsfalls Beckmann der
+  ErbSt-Fallsammlung. Der Datensatz führt diesen Zusammenhang an beiden Stellen mit.
