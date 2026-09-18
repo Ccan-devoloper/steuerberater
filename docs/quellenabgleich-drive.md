@@ -3939,3 +3939,77 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Querbezug: Die Aussage „Im vereinfachten Ertragswertverfahren ist in der Regel kein
   Paketzuschlag vorzunehmen“ (R B 11.8 Abs. 2 S. 3 ErbStR) erklärt den Schlusssatz der
   Musterlösung des Übungsfalls Beckmann in der ErbSt-Fallsammlung.
+
+## Bewertungsrecht Teil 3 – Lösungshinweise (Schäfer): alle vier offenen Beispiele geschlossen
+
+- Quelle im Drive, Ordner `1C96T8I4WDh2wYVnoGyUgHUJVwnPsqr_X`:
+  „B-S25-ErbSt-Bewertung 2025-2026 Teil 3-Loesung-(Schaefer)-1025.pdf“
+  (`142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`). Der Connector gibt die Datei vollständig aus.
+- Sie enthält genau die vier Musterlösungen, die im Skript selbst fehlten: „Beispiel
+  Seite 10“, „Beispiel Seite 11“, „Beispiel Seite 19“, „Beispiel Seite 25“ und „Beispiel 1
+  Seite 29“ – wobei die Seiten 10 und 11 zwei getrennte Beispiele desselben Abschnitts sind.
+  **Damit ist die Zeile zum Bewertungsskript in Abschnitt A der offenen Quellen erledigt und
+  entfernt.**
+- Einpflege: Die Lösungen sind jeweils in das Kapitel eingefügt, das ihren Sachverhalt
+  enthält, und an Ort und Stelle als aus der Lösungsdatei übernommen gekennzeichnet. Der
+  Datensatz umfasst jetzt 2 Teile, 15 Kapitel, 297 Blöcke und 38 Tabellen; Prüfung
+  `npm run check:k1-erbst-bewertung-teil3`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Die eigene Kontrollrechnung wird von der Quelle bestätigt.** Für das Beispiel Seite 10
+  hatte der Datensatz bislang eine ausdrücklich als solche gekennzeichnete eigene Ableitung
+  von 3.231.000 € enthalten, weil das Skript die Spalte „Wert nach BewG“ ohne Summe lässt.
+  Die Lösungsdatei weist genau diesen Substanzwert aus (3.711.000 € Aktiva abzüglich
+  480.000 € Verbindlichkeiten) und stellt fest, dass er den vereinfachten Ertragswert von
+  2.800.000 € übersteigt und deshalb als Mindestwert anzusetzen ist. Die eigene
+  Kontrollrechnung ist durch den Quellentext ersetzt.
+
+  Nachgerechnet und zutreffend – alle vier Musterlösungen gehen auf:
+
+  - **Beispiel Seite 10.** 3.000.000 + 16.000 + 450.000 + 95.000 + 150.000 = 3.711.000 €;
+    abzüglich 480.000 € ergibt sich der Substanzwert von 3.231.000 €. Grund und Boden,
+    Gebäude und Außenanlagen der Steuerbilanz (zusammen 1.575.000 €) gehen im einheitlichen
+    Grundbesitzwert von 3.000.000 € auf; Kapital und § 6b-Rücklage bleiben außer Ansatz.
+  - **Beispiel Seite 19** (die Lösung zu Beispiel 1 der Tz. 5 f). Substanzwert 1.500.000 +
+    900.000 + 300.000 + 150.000 + 190.000 + 40.000 + 10.000 − 400.000 − 310.000 =
+    2.380.000 €. Die Aufwendungen für das Mietwohngrundstück setzen sich aus Zinsen
+    (12.000 / 10.000 / 8.000 €), Bewirtschaftungskosten (jeweils 9.000 €) und AfA (jeweils
+    11.000 €) zusammen und ergeben die angesetzten 32.000 / 30.000 / 28.000 €. Die
+    Zwischenergebnisse 128.000 / 174.000 / 160.000 € gehen auf; nach der 30-%-Pauschale
+    verbleiben 89.600 / 121.800 / 112.000 €, Summe 323.400 €, geteilt durch drei genau
+    107.800 €, mal 13,75 genau 1.482.250 €. Zuzüglich 900.000 €, abzüglich 400.000 € und
+    zuzüglich 190.000 € ergeben sich 2.172.250 €. Da dieser Wert den Substanzwert
+    unterschreitet, ist der Mindestwert von 2.380.000 € anzusetzen – der Fall ist damit das
+    Gegenstück zum Übungsfall Pack der ErbSt-Fallsammlung, in dem der Ertragswert den
+    Substanzwert deutlich übersteigt.
+  - **Beispiel Seite 25** (die Lösung zum ersten Beispiel der Tz. 6 c). 1.500.000 −
+    400.000 = 1.100.000 €, davon 20 % auf A (220.000 €) und 80 % auf B (880.000 €); A
+    erhält 150.000 + 220.000 = 370.000 €, B 250.000 + 880.000 = 1.130.000 €, zusammen wieder
+    1.500.000 €. Zuzüglich des Sonderbetriebsvermögens von 300.000 € beträgt der Wert des
+    Anteils des A 670.000 €.
+  - **Beispiel 1 Seite 29** (die Lösung zu Beispiel 1 der Tz. 7 b). 30.000 / 100.000 ×
+    500.000 = 150.000 €.
+
+  **Eine offene Auslegungsfrage ist damit entschieden – durch die Quelle, nicht durch uns.**
+  Beim Beispiel 1 der Tz. 7 b war im vorangegangenen Durchgang vermerkt worden, dass der
+  Satzbau des Sachverhalts offenlässt, ob die genannten 500.000 € den Anteil des A oder das
+  Betriebsvermögen der A-GmbH insgesamt bezeichnen. Die Musterlösung rechnet
+  30.000 / 100.000 × 500.000 € und behandelt die 500.000 € damit als gemeinen Wert des
+  Betriebsvermögens. Der Vermerk ist entsprechend ersetzt.
+
+  Stellen, an denen die Lösungsdatei verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Beispiel Seite 10.** „Firmenwert (selbst **geschafften**, eigenständiger Wert
+    16.000 €)“.
+  - **Beispiel Seite 11.** „§ 12 Abs. 3, § 11 ErbStG, § 151 Abs. 1 Nr. 1 **ErbStG**“ –
+    gemeint ist § 151 Abs. 1 Nr. 1 BewG.
+  - **Beispiel Seite 19, Erläuterungssatz.** Gleich drei Fundstellen in einem Satz: „Für die
+    Aufwendungen im Zusammenhang mit der Aktienbeteiligung (§ **202** Abs. 3 BewG) kommt es
+    nicht zu einer Korrektur nach § 202 **Abs. Nr. 1f** BewG, da insoweit nur Aufwendungen
+    hinzuzurechnen sind, die mit Vermögen im Sinne des § **202** Abs. 2 und 4 BewG
+    zusammenhängen.“ Gemeint sind § 200 Abs. 3 BewG, § 202 Abs. 1 Nr. 1f BewG und § 200
+    Abs. 2 und 4 BewG. Damit setzt sich die schon zweimal beobachtete Verwechslung von
+    § 200 und § 202 BewG in den Unterlagen dieses Verfassers fort.
+  - **Beispiel 1 Seite 29.** „nach dem Verhältnis des Anteils am **Nennkapitel** der
+    Gesellschaft“.

@@ -147,8 +147,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Basiswertregelung mit ihrer bedingten einjährigen Dauerwirkung, die örtliche
   Zuständigkeit von Lage-, Betriebs- und Sitzfinanzamt, die Erklärungspflicht sowie
   Beteiligte, Bekanntgabe, Rechtsbehelfsbefugnis und Außenprüfung.
-  **Das Skript ist damit vollständig eingepflegt** – bis auf drei Musterlösungen, die im
-  PDF nur als Grafik ohne Textebene vorliegen.
+  **Das Skript ist damit vollständig eingepflegt.** Drei Musterlösungen liegen im Skript
+  selbst nur als Grafik ohne Textebene vor, ein viertes Beispiel lässt das Skript ohne
+  Ergebnis; alle vier stehen jetzt aus der zugehörigen Lösungsdatei im Wortlaut an ihrer
+  Stelle – darunter der Substanzwertvergleich mit 3.231.000 € gegen 2.800.000 €
+  Ertragswert, die vollständige Lösung zur Schenkung des Einzelunternehmens (Substanzwert
+  2.380.000 € gegen korrigierten Ertragswert 2.172.250 €, also Ansatz des Mindestwerts),
+  die Aufteilung der A+B OHG (A 670.000 €) und der Anteilswert an der A-GmbH (150.000 €).
+  Jede Lösung ist als aus der Lösungsdatei übernommen gekennzeichnet und nachgerechnet.
   Prüfung: `npm run check:k1-erbst-bewertung-teil3`
 - **Hausaufgaben KSt** (Reiter im Campus Körperschaftsteuer): die Kurzklausuren des
   Tageslehrgangs mit Lösung – Fachtermin 1 (A-GmbH mit dreizehn Korrekturtatbeständen,

@@ -6,8 +6,10 @@
    Quelle stehen als Tabellen, damit Vermögensaufstellungen und Wertermittlungen Zeile
    für Zeile nachvollziehbar bleiben. Ergänzt sind nur Thema, Normenliste und Themenchips
    sowie – ausdrücklich als solche gekennzeichnet – redaktionelle Hinweise und eigene
-   Kontrollrechnungen. Wo die Quelle ein Beispiel ohne Ergebnis stehen lässt, ist das
-   ausdrücklich vermerkt; erfunden wird nichts.
+   Kontrollrechnungen. Vier Musterlösungen stehen im Skript selbst
+   nur als Grafik ohne Textebene oder gar nicht; sie sind aus der zugehörigen Datei
+   „Bewertung 2025-2026 Teil 3 – Lösung“ (Drive-ID 142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk)
+   übernommen und an der jeweiligen Stelle als solche gekennzeichnet. Erfunden wird nichts.
 
    Personenbezogene Wasserzeichen der Quell-PDF sind nicht übernommen.
    Blocktypen: text | titel | tabelle. */
@@ -201,8 +203,31 @@ export const erbstBewertungTeil3 = [
         ["Bewegliches abnutzbares Anlagevermögen gemeiner Wert (30 % AK/HK)", "450.000 €"],
         ["Umlaufvermögen Wiederbeschaffungs-/Wiederherstellungskosten", "95.000 €"],
       ] },
-      { text: "Redaktioneller Hinweis: Die Quelle stellt dieses Beispiel als Vermögensaufstellung mit zwei Spalten dar und weist für die Spalte „Wert nach BewG“ keine Summe aus; ein Lösungssatz folgt nicht. Der Substanzwert nach BewG ist hier deshalb nicht ergänzt. Die zugehörige Musterlösung liegt im Drive als eigene Datei (Bewertung 2025-2026 Teil 3 – Lösung)." },
-      { text: "Eigene Kontrollrechnung, nicht Bestandteil der Quelle: Aus den angegebenen Werten – Grundbesitzwert 3.000.000 €, Firmenwert 16.000 €, bewegliches Anlagevermögen 450.000 €, Umlaufvermögen 95.000 €, übrige Aktiva 150.000 € abzüglich Verbindlichkeiten 480.000 € und ohne Ansatz der § 6b-Rücklage – ergäbe sich ein Substanzwert von 3.231.000 €, der über dem vereinfachten Ertragswert von 2.800.000 € läge und damit als Mindestwert zum Ansatz käme. Ob die Quelle genau so rechnet, ist ihrem Text nicht zu entnehmen." },
+      { typ: "titel", text: "Lösungshinweis (Beispiel Seite 10)" },
+      { typ: "tabelle", spalten: ["Aktiva", "Steuerbilanz", "Wert nach BewG"], zeilen: [
+        ["Grund und Boden", "500.000 €", ""],
+        ["Gebäude", "1.000.000 €", "3.000.000 €"],
+        ["Außenanlagen", "75.000 €", ""],
+        ["Firmenwert (selbst geschafften, eigenständiger Wert 16.000 €)", "----", "16.000 €"],
+        ["Bewegliches abnutzbares Anlagevermögen", "300.000 €", "450.000 €"],
+        ["Umlaufvermögen", "86.000 €", "95.000 €"],
+        ["Übrige Aktiva (Kundenforderungen, Bankguthaben u. a.)", "150.000 €", "150.000 €"],
+        ["Summe", "2.111.000", "3.711.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Passiva", "Steuerbilanz", "Wert nach BewG"], zeilen: [
+        ["Kapital", "1.567.000 €", "---"],
+        ["Verbindlichkeiten", "480.000 €", "./. 480.000 €"],
+        ["Rücklage § 6b EStG", "64.000 €", "---"],
+        ["Substanzwert", "2.111.000 €", "3.231.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Wertansätze nach BewG", "Betrag"], zeilen: [
+        ["Grundbesitzwert für das in vollem Umfang betrieblich genutzte Geschäftsgrundstück (§ 151 Abs. 1 Nr. 1 BewG)", "3.000.000 €"],
+        ["Bewegliches abnutzbares Anlagevermögen gemeiner Wert (30 % AK/HK)", "450.000 €"],
+        ["Umlaufvermögen Wiederbeschaffungs-/Wiederherstellungskosten", "95.000 €"],
+      ] },
+      { text: "Da gem. § 11 Abs. 2 Satz 3 BewG die Summe der gemeinen Werte der zum Betriebsvermögen gehörenden Wirtschaftsgüter und sonstigen aktiven Ansätze abzüglich der zum Betriebsvermögen gehörenden Schulden und sonstigen Abzüge nicht unterschritten werden darf, kommt der Substanzwert (Mindestwert) 3.231.000 € zum Ansatz. (die Schreibweise „selbst geschafften“ in der Aufstellung so in der Quelle)" },
+      { text: "Rechnerische Kontrolle: 3.000.000 + 16.000 + 450.000 + 95.000 + 150.000 = 3.711.000 €; abzüglich der Verbindlichkeiten von 480.000 € ergibt sich der Substanzwert von 3.231.000 €. Er übersteigt den im vereinfachten Ertragswertverfahren ermittelten Wert von 2.800.000 € und ist deshalb als Mindestwert anzusetzen. Der Grund und Boden, das Gebäude und die Außenanlagen der Steuerbilanz (zusammen 1.575.000 €) gehen in dem einheitlichen Grundbesitzwert von 3.000.000 € auf; Kapital und § 6b-Rücklage bleiben außer Ansatz." },
+      { text: "Redaktioneller Hinweis: Die Quelle druckt dieses Beispiel im Skript ohne Ergebnis; die Musterlösung steht in der zugehörigen Datei „Bewertung 2025-2026 Teil 3 – Lösung“ (Drive-ID `142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`) unter der Überschrift „Beispiel Seite 10“ und ist von dort wortlautgetreu übernommen." },
       { typ: "titel", text: "Ableitung aus der letzten Vermögensaufstellung" },
       { text: "Bei der Ermittlung des Substanzwerts ist das Betriebsvermögen mit dem Wert zum Bewertungsstichtag (§§ 9, 11 ErbStG) zugrunde zu legen (R B 109.3 Abs. 1 ErbStR)." },
       { text: "Der Erwerber von Betriebsvermögen hat nach amtlichem Vordruck eine Vermögensaufstellung auf den Bewertungsstichtag als Anlage zur Feststellungserklärung abzugeben, aus der sich die für die Wertermittlung erforderlichen Angaben ergeben (R B 109.3 Abs. 4 ErbStR)." },
@@ -214,6 +239,9 @@ export const erbstBewertungTeil3 = [
       { text: "Der auf den Zeitraum vom letzten Abschlusszeitpunkt vor dem Besteuerungszeitpunkt bis zum Besteuerungszeitpunkt entfallende Gewinn oder Verlust und die Aufwendungen auf den Grundbesitz (vgl. Nr. 2) sind zeitanteilig aus den entsprechenden Jahresbeträgen abzuleiten, soweit dies nicht im Einzelfall zu unangemessenen Ergebnissen führt (R B 109.3 Abs. 3 S. 2 Nr. 1 S. 5 ErbStR). (die Quelle verweist im Klammerzusatz auf „Nr. 2“, obwohl die Aufwendungen auf den Grundbesitz unter Nummer 1 aufgeführt sind)" },
       { typ: "titel", text: "Beispiel: Grundstückserwerb zwischen Bilanzstichtag und Besteuerungszeitpunkt" },
       { text: "Zwischen dem Bilanzstichtag 31.12.2024 und dem Besteuerungszeitpunkt 30.09.2025 wurde ein Betriebsgrundstück mit einem Grundbesitzwert von 600.000 € erworben. Der zum Teil fremdfinanzierte Kaufpreis betrug 610.000 €." },
+      { typ: "titel", text: "Lösungshinweis (Beispiel Seite 11)" },
+      { text: "Das Betriebsgrundstück ist mit dem auf den Bewertungsstichtag gesondert festgestellten Grundbesitzwert zu erfassen (§ 12 Abs. 3, § 11 ErbStG, § 151 Abs. 1 Nr. 1 ErbStG). Gem. R B 109.3 Abs. 3 S. 2 Nr. 2 ErbStR muss der zum Erwerb des Grundstücks aufgebrachte Gegenwert bei der Wertermittlung des Betriebsvermögens abgezogen werden, um eine Doppelerfassung (Wert des Betriebsgrundstücks und Gegenwert) zu vermeiden. (die Fundstelle „§ 151 Abs. 1 Nr. 1 ErbStG“ so in der Quelle; gemeint ist § 151 Abs. 1 Nr. 1 BewG)" },
+      { text: "Redaktioneller Hinweis: Die Musterlösung steht in der Datei „Bewertung 2025-2026 Teil 3 – Lösung“ unter der Überschrift „Beispiel Seite 11“ und ist von dort wortlautgetreu übernommen." },
     ],
   },
   {
@@ -392,7 +420,46 @@ export const erbstBewertungTeil3 = [
       ] },
       { text: "Für den Betriebsinhaber kann in den drei zurückliegenden Jahren von einem angemessenen Unternehmerlohn von jeweils 90.000 € ausgegangen werden." },
       { text: "Aufgabe: Ermitteln Sie für Zwecke der Schenkungsteuer den gemeinen Wert des Einzelunternehmens auf den 1.6.2025 fest. Verkäufe unter fremden Dritten haben sich in den Jahren 2024 und 2025 nicht ergeben. Ein Erwerber würde bei der Bemessung des Kaufpreises die Ertragsaussichten zugrunde legen. Das vereinfachte Ertragswertverfahren führt nicht zu offensichtlich unzutreffenden Ergebnissen." },
-      { text: "Redaktioneller Hinweis: Die Quelle trägt auf der folgenden Seite die Überschrift „Lösung Beispiel 1:“, unter der die Musterlösung als Grafik ohne Textebene steht. Der Drive-Connector gibt zu dieser Seite keinen Text aus. Die Lösung zu Beispiel 1 ist deshalb hier **nicht** wiedergegeben und auch nicht rekonstruiert; sie ist in docs/offene-quellen.md als technisch blockiert vermerkt. Der Sachverhalt ist vollständig erfasst, so dass der Fall selbständig gerechnet werden kann." },
+      { typ: "titel", text: "Lösung Beispiel 1 (Beispiel Seite 19)" },
+      { text: "Auf der Basis der gemeinen Werte der zum Betriebsvermögen gehörenden Wirtschaftsgüter und Schulden ist der Substanzwert des Betriebes wie folgt zu ermitteln (§ 11 Abs. 2 S. 3 BewG):" },
+      { typ: "tabelle", spalten: ["Ermittlung des Substanzwerts", "Betrag"], zeilen: [
+        ["Betriebsgrundstück 1 § 12 Abs. 3 ErbStG", "1.500.000 €"],
+        ["Betriebsgrundstück 2 § 12 Abs. 3 ErbStG", "900.000 €"],
+        ["Maschinen und maschinelle Anlagen", "300.000 €"],
+        ["Betriebs- u. Geschäftsausstattung", "150.000 €"],
+        ["Aktien Kurswert § 11 Abs. 1 BewG", "190.000 €"],
+        ["Kundenforderungen", "40.000 €"],
+        ["Bank und Kassenbestand", "10.000 €"],
+        ["Darlehensschuld MWG § 103 Abs. 1 BewG", "./. 400.000 €"],
+        ["Verbindlichkeiten § 103 Abs. 1 BewG", "./. 310.000 €"],
+        ["Rücklage § 6b EStG, § 103 Abs. 3 BewG", "---"],
+        ["Mindestwert", "2.380.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Ermittlung des Ertragswerts", "2022", "2023", "2024", "BewG"], zeilen: [
+        ["Bilanzgewinn (Ausgangswert)", "209.000 €", "248.000 €", "239.000 €", "§ 202 Abs. 1"],
+        ["Gewerbesteueraufwand", "+ 19.000 €", "+ 28.000 €", "+ 25.000 €", "§ 202 Abs. 1 Nr. 1e"],
+        ["Aufwendungen MWG (Zinsen, AfA, Bewirtschaftungskosten)", "+ 32.000 €", "+ 30.000 €", "+ 28.000 €", "§ 202 Abs. 1 Nr. 1f"],
+        ["Fiktiver Unternehmerlohn", "./. 90.000 €", "./. 90.000 €", "./. 90.000 €", "§ 202 Abs. 1 Nr. 2d"],
+        ["Mieteinnahmen MWG", "./. 40.000 €", "./. 40.000 €", "./. 40.000 €", "§ 202 Abs. 1 Nr. 2f"],
+        ["Erträge aus Aktien", "./. 2.000 €", "./. 2.000 €", "./. 2.000 €", "§ 202 Abs. 1 Nr. 2f"],
+        ["Zwischenergebnis", "+ 128.000 €", "+ 174.000 €", "+ 160.000 €", ""],
+        ["30 % Ertragsteueraufwand", "./. 38.400 €", "./. 52.200 €", "./. 48.000 €", "§ 202 Abs. 3"],
+        ["Betriebsergebnis", "89.600 €", "121.800 €", "112.000 €", ""],
+      ] },
+      { typ: "tabelle", spalten: ["Ermittlung des korrigierten Ertragswerts", "Betrag", "BewG"], zeilen: [
+        ["Summe", "323.400 €", ""],
+        ["Ø Jahresertrag", "107.800 €", "§ 201 Abs. 2 S. 3, 4"],
+        ["Kapitalisierungsfaktor", "13,75", "§ 203 Abs. 1"],
+        ["Jahresertrag 107.800 € × 13,75 = Ertragswert", "1.482.250 €", ""],
+        ["MWG", "+ 900.000 €", "§ 200 Abs. 2"],
+        ["Hypothek MWG", "./. 400.000 €", "§ 200 Abs. 2"],
+        ["Aktien", "+ 190.000 €", "§ 200 Abs. 3 i. V. m. § 11 Abs. 1 S. 1"],
+        ["Korrigierter Ertragswert", "2.172.250 €", ""],
+      ] },
+      { text: "Für die Aufwendungen im Zusammenhang mit der Aktienbeteiligung (§ 202 Abs. 3 BewG) kommt es nicht zu einer Korrektur nach § 202 Abs. Nr. 1f BewG, da insoweit nur Aufwendungen hinzuzurechnen sind, die mit Vermögen im Sinne des § 202 Abs. 2 und 4 BewG zusammenhängen. (die drei Fundstellen „§ 202 Abs. 3“, „§ 202 Abs. Nr. 1f“ und „§ 202 Abs. 2 und 4“ so in der Quelle; gemeint sind § 200 Abs. 3 BewG, § 202 Abs. 1 Nr. 1f BewG und § 200 Abs. 2 und 4 BewG)" },
+      { text: "Da der nach § 11 Abs. 2 S. 4 i. V. m. §§ 199 - 203 BewG im vereinfachten Ertragswertverfahren ermittelte Wert den Substanzwert unterschreitet, ist der Substanzwert in Höhe von 2.380.000 € anzusetzen." },
+      { text: "Rechnerische Kontrolle: Der Substanzwert ergibt sich zu 1.500.000 + 900.000 + 300.000 + 150.000 + 190.000 + 40.000 + 10.000 − 400.000 − 310.000 = 2.380.000 €. Die Aufwendungen für das Mietwohngrundstück setzen sich aus Zinsen (12.000 / 10.000 / 8.000 €), Bewirtschaftungskosten (jeweils 9.000 €) und AfA (jeweils 11.000 €) zusammen und ergeben die angesetzten 32.000 / 30.000 / 28.000 €. Die Zwischenergebnisse 128.000 / 174.000 / 160.000 € gehen auf; nach der 30-Prozent-Pauschale (38.400 / 52.200 / 48.000 €) verbleiben 89.600 / 121.800 / 112.000 €, in der Summe 323.400 €, geteilt durch drei genau 107.800 €, multipliziert mit 13,75 genau 1.482.250 €. Zuzüglich 900.000 €, abzüglich 400.000 € und zuzüglich 190.000 € ergeben sich 2.172.250 €. Die jährlichen Aufwendungen von 200 € im Zusammenhang mit den Aktien bleiben – wie der Erläuterungssatz begründet – unkorrigiert." },
+      { text: "Redaktioneller Hinweis: Die Musterlösung steht im Skript selbst nur als Grafik ohne Textebene, zu der der Drive-Connector keinen Text ausgibt. Sie ist hier aus der zugehörigen Datei „Bewertung 2025-2026 Teil 3 – Lösung“ (Drive-ID `142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`) übernommen, wo sie unter der Überschrift „Beispiel Seite 19“ als Text vorliegt." },
     ],
   },
   {
@@ -513,7 +580,17 @@ export const erbstBewertungTeil3 = [
         ["Gewinnverteilung A", "20 %"],
         ["Gewinnverteilung B", "80 %"],
       ] },
-      { text: "Redaktioneller Hinweis: Die Quelle trägt anschließend die Überschrift „Lösung:“, unter der die Musterlösung als Grafik ohne Textebene steht; der Drive-Connector gibt zu dieser Stelle keinen Text aus. Die Lösung ist deshalb hier **nicht** wiedergegeben und auch nicht rekonstruiert; sie ist in docs/offene-quellen.md als technisch blockiert vermerkt. Der Sachverhalt ist vollständig erfasst, so dass der Fall mit dem Aufteilungsschema der beiden vorstehenden Punkte selbständig gerechnet werden kann." },
+      { typ: "titel", text: "Lösung (Beispiel Seite 25)" },
+      { typ: "tabelle", spalten: ["Verteilung nach § 97 Abs. 1a Nr. 1 BewG", "gesamt", "A", "B"], zeilen: [
+        ["Gemeiner Wert OHG (GHV)", "1.500.000 €", "", ""],
+        ["Kapitalkonten", "./. 400.000 €", "150.000 €", "250.000 €"],
+        ["Verteilung des Rests nach Gewinnverteilungsschlüssel", "1.100.000 €", "(20 %) 220.000 €", "(80 %) 880.000 €"],
+        ["Summe", "1.500.000 €", "370.000 €", "1.130.000 €"],
+        ["Gemeiner Wert des Sonderbetriebsvermögens § 97 Abs. 1a Nr. 2 BewG", "", "300.000 €", ""],
+        ["Wert des Anteils am Betriebsvermögen des A § 97 Abs. 1a Nr. 3 BewG", "", "670.000 €", ""],
+      ] },
+      { text: "Rechnerische Kontrolle: Der gemeine Wert von 1.500.000 € abzüglich der Kapitalkonten von zusammen 400.000 € ergibt 1.100.000 €; davon entfallen 20 % auf A (220.000 €) und 80 % auf B (880.000 €). A erhält 150.000 + 220.000 = 370.000 €, B 250.000 + 880.000 = 1.130.000 €; zusammen wieder 1.500.000 €. Zuzüglich des Sonderbetriebsvermögens von 300.000 € beträgt der Wert des Anteils des A 670.000 €." },
+      { text: "Redaktioneller Hinweis: Die Musterlösung steht im Skript selbst nur als Grafik ohne Textebene. Sie ist hier aus der zugehörigen Datei „Bewertung 2025-2026 Teil 3 – Lösung“ (Drive-ID `142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`) übernommen, wo sie unter der Überschrift „Beispiel Seite 25“ als Text vorliegt." },
     ],
   },
   {
@@ -601,7 +678,13 @@ export const erbstBewertungTeil3 = [
       { text: "Der gemeine Wert des Anteils an einer Kapitalgesellschaft im Sinne des § 97 Abs. 1 Nr. 1 BewG (Aktiengesellschaften, Kommanditgesellschaften auf Aktien, Gesellschaften mit beschränkter Haftung, Europäische Gesellschaften) bestimmt sich gem. § 97 Abs. 1b Satz 1 BewG nach dem Verhältnis des Anteils am Nennkapital (Grund- oder Stammkapital) der Gesellschaft zum gemeinen Wert des Betriebsvermögens der Kapitalgesellschaft am Bewertungsstichtag (R B 11.7 ErbStR). Diese Regelung gilt auch in den Fällen, in denen das Nennkapital noch nicht vollständig eingezahlt ist. Insoweit kommt es nicht darauf an, ob mit einer Einzahlung des Restkapitals noch zu rechnen ist. Wenn sich jedoch die Beteiligung am Vermögen und am Gewinn der Gesellschaft aufgrund einer ausdrücklichen Vereinbarung der Gesellschafter nach der jeweiligen Höhe des eingezahlten Kapitals richtet, bezieht sich der gemeine Wert nur auf das tatsächlich eingezahlte Nennkapital (§ 97 Abs. 1b Satz 3 BewG, R B 97.6 Abs. 1 ErbStR)." },
       { typ: "titel", text: "Beispiel 1: Anteil an der A-GmbH mit teilweise eingezahltem Nennkapital" },
       { text: "Zum Nachlass des verstorbenen A, der auf seine Tochter übergeht, gehört der Anteil an der A-GmbH mit einem gemeinen Wert von 500.000 €. A war an dem Nennkapital der GmbH von 100.000 € zu 30 % beteiligt und hatte davon nur 80 % (24.000 €) eingezahlt. Eine ausdrückliche Vereinbarung, dass sich die Beteiligung am Vermögen und am Gewinn der Gesellschaft nach der jeweiligen Höhe des eingezahlten Kapitals richtet, besteht nicht." },
-      { text: "Redaktioneller Hinweis: Die Quelle trägt anschließend die Überschrift „Lösung:“, unter der die Musterlösung als Grafik ohne Textebene steht; der Drive-Connector gibt zu dieser Stelle keinen Text aus. Die Lösung ist deshalb hier **nicht** wiedergegeben und nicht rekonstruiert; sie ist in docs/offene-quellen.md als technisch blockiert vermerkt. Offen bleibt damit auch, ob der genannte gemeine Wert von 500.000 € den Anteil des A oder das Betriebsvermögen der A-GmbH insgesamt bezeichnet; der Satzbau der Quelle lässt beides zu, und die Frage wird hier nicht durch eine eigene Auslegung entschieden. Rechnerisch stimmen die übrigen Angaben: 30 % von 100.000 € sind 30.000 € Nennkapital, davon 80 % die genannten 24.000 €." },
+      { typ: "titel", text: "Lösung (Beispiel 1 Seite 29)" },
+      { text: "Gem. § 97 Abs. 1b Satz 1 und 2 BewG ermittelt sich der gemeine Wert des Anteils an der GmbH - ungeachtet der Höhe des eingezahlten Nennkapitals - nach dem Verhältnis des Anteils am Nennkapitel der Gesellschaft zum gemeinen Wert des Betriebsvermögens der GmbH: (die Schreibweise „Nennkapitel“ so in der Quelle)" },
+      { typ: "tabelle", spalten: ["Berechnung", "Ergebnis"], zeilen: [
+        ["30.000 € / 100.000 € × 500.000 € = gemeiner Wert des Anteils", "150.000 €"],
+      ] },
+      { text: "Rechnerische Kontrolle: 30 % von 100.000 € sind 30.000 € Nennkapital, davon 80 % die im Sachverhalt genannten 24.000 € eingezahltes Kapital. Der Anteilswert von 150.000 € entspricht 30 % von 500.000 €. Die Lösung klärt damit zugleich, dass der im Sachverhalt genannte gemeine Wert von 500.000 € das Betriebsvermögen der A-GmbH insgesamt bezeichnet und nicht den Anteil des A – der Satzbau des Sachverhalts lässt beides zu. Das nicht eingezahlte Restkapital bleibt ohne Einfluss, weil eine ausdrückliche Vereinbarung im Sinne des § 97 Abs. 1b Satz 3 BewG nicht besteht." },
+      { text: "Redaktioneller Hinweis: Die Musterlösung steht im Skript selbst nur als Grafik ohne Textebene. Sie ist hier aus der zugehörigen Datei „Bewertung 2025-2026 Teil 3 – Lösung“ (Drive-ID `142ZtQKFSpnSZrH6eGLoXh9ZahUJ787mk`) übernommen, wo sie unter der Überschrift „Beispiel 1 Seite 29“ als Text vorliegt." },
       { typ: "titel", text: "Beispiel 2: ABC-GmbH mit drei Gesellschaftern" },
       { text: "Der für das Betriebsvermögen ermittelte Wert der ABC-GmbH beträgt 2.000.000 €. Am Stammkapital in Höhe von 200.000 € sind A, B und C wie folgt beteiligt:" },
       { typ: "tabelle", spalten: ["Gesellschafter", "Anteil am Nennkapital", "Besonderheiten"], zeilen: [
