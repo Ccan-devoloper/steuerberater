@@ -2928,3 +2928,36 @@ test("Safety 0c: ein Formcheck löscht keinen fachlichen Befund", async () => {
     titel: "Antwort", text: "kurz", befundeTypisiert: true, beanstandet: ["alter Formbefund"] };
   assert.equal(storyFreigabe(quiz).frei, false, "ein kaputter Index bleibt ein Hindernis");
 });
+
+test("Safety 0b: der Prüfer sieht, welche Option als richtig markiert ist", async () => {
+  const { textAus } = await import("../src/faktencheck.mjs");
+  /* Bis zum 18.09. standen die Optionen als blosse Aufzählung im Prüftext,
+     und der Index `richtig` kam darin gar nicht vor. Der Prüfer konnte nicht
+     bemerken, dass ein formal gültiger Index auf die fachlich falsche Option
+     zeigt - genau das ist am 16.09. passiert. */
+  const stories = [
+    { slot: "s4", art: "frage", pairId: "t1", titel: "Wie heißt der Posten?", optionen: ["Wirtschaftsgut", "Rückstellung", "Merkposten"], richtig: null },
+    { slot: "s5", art: "antwort", pairId: "t1", titel: "Auflösung", optionen: ["Wirtschaftsgut", "Rückstellung", "Merkposten"], richtig: 1, richtigText: "Es ist eine Rückstellung.", norm: "§ 249 HGB" },
+    { slot: "s7", art: "merksatz", titel: "Merksatz", text: "Ein kurzer Satz." },
+  ];
+  const text = textAus({ stories });
+
+  assert.match(text, /ALS RICHTIG MARKIERT: B - Rückstellung/,
+    "die Markierung muss im Klartext dastehen, nicht als Zahl irgendwo");
+  assert.match(text, /\[QuizPair t1\]/, "Frage und Antwort stehen unter einem gemeinsamen Kopf");
+  assert.match(text, /A: Wirtschaftsgut[\s\S]*B: Rückstellung[\s\S]*C: Merkposten/,
+    "die Optionen tragen Buchstaben in ihrer Reihenfolge");
+  /* Die Frage steht vor der Antwort, damit der Widerspruch sichtbar wird. */
+  assert.ok(text.indexOf("FRAGE [Story s4") < text.indexOf("ANTWORT [Story s5"));
+  /* Andere Kacheln bleiben, wie sie waren. */
+  assert.match(text, /\[Story s7 merksatz\] Merksatz · Ein kurzer Satz\./);
+
+  /* Eine Antwort ohne Markierung fällt auf. */
+  const ohne = textAus({ stories: [{ slot: "s5", art: "antwort", pairId: "t2", optionen: ["A", "B", "C"], richtig: null }] });
+  assert.match(ohne, /ALS RICHTIG MARKIERT: \(keine Markierung\)/);
+
+  /* Und der Auftrag an den Prüfer sagt ausdrücklich, dass das Paar ein
+     Gegenstand ist - „jede Kachel steht für sich" war dort falsch. */
+  const autor = fs.readFileSync(new URL("../src/autor.mjs", import.meta.url), "utf8");
+  assert.match(autor, /Was unter \[QuizPair\] steht, ist EIN Gegenstand/);
+});
