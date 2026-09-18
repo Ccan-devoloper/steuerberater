@@ -1,0 +1,16 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "ueberzeile": "Richtig ist B",
+  "titel": "Schon die Vorgesellschaft ist körperschaftsteuerpflichtig.",
+  "text": "Ab notarieller Beurkundung besteht die Vorgesellschaft als Vorstufe der GmbH; sie wird bereits in die unbeschränkte KSt-Pflicht einbezogen, wenn die Eintragung später tatsächlich erfolgt.",
+  "optionen": [
+    "Mit dem ersten Gründungsbeschluss",
+    "Mit der notariellen Beurkundung",
+    "Mit der Handelsregistereintragung"
+  ],
+  "richtig": 1,
+  "fachLabel": "Körperschaftsteuer"
+}
