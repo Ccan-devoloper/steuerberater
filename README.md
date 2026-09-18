@@ -171,7 +171,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   die **Berücksichtigung früherer Erwerbe** nach § 14 ErbStG mit fiktiver Abzugssteuer,
   dem Vorrang der höheren tatsächlich entrichteten Steuer und der Mindeststeuer des
   Satzes 4, gezeigt am Wechsel von der Steuerklasse III in die Steuerklasse I durch
-  Eheschließung.
+  Eheschließung. Den Schluss bildet der **Abschnitt VI** zu Steuerfestsetzung und Erhebung:
+  Steuerschuldner und Gesamtschuld bei Schenkungen, die Anzeigepflichten von Erwerber,
+  Banken, Versicherungen, Gerichten und Notaren, die Steuererklärung sowie die
+  Kleinbetragsgrenze von 50 € und die beiden Stundungstatbestände des § 28 ErbStG – sieben
+  Jahre für begünstigtes Betriebsvermögen und zehn Jahre für zu Wohnzwecken genutzten
+  Grundbesitz nach dem Jahressteuergesetz 2024. **Das Skript ist damit von der ersten bis
+  zur letzten Seite vollständig erfasst.**
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den

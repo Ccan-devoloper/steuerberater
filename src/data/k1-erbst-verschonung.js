@@ -6,8 +6,9 @@
    stehen als Tabellen. Ergänzt sind nur Thema, Normenliste und Themenchips sowie –
    ausdrücklich als solche gekennzeichnet – redaktionelle Hinweise und eigene
    Kontrollrechnungen. Wo die Quelle ein Beispiel ohne Ergebnis lässt, ist das vermerkt;
-   erfunden wird nichts. Die zugehörige Lösungsdatei liegt im Drive unter
-   1LASeajqIfpq5PYMCg1htyXI7voY2EF_4.
+   erfunden wird nichts. Das Skript ist von der ersten bis zur letzten Seite vollständig
+   erfasst (Abschnitte I bis VI). Die zugehörige Lösungsdatei liegt im Drive unter
+   1LASeajqIfpq5PYMCg1htyXI7voY2EF_4 und ist noch nicht geöffnet.
 
    Personenbezogene Wasserzeichen der Quell-PDF sind nicht übernommen.
    Blocktypen: text | titel | tabelle. */
@@ -29,6 +30,7 @@ const TV11 = { teil: "V-III", teilLabel: "Skript Teil 2 · Abschnitt III", teilT
 const TV12 = { teil: "V-IV", teilLabel: "Skript Teil 2 · Abschnitt IV", teilTitel: "Steuerbefreiung für zu Wohnzwecken vermietete Grundstücke" };
 const TV13 = { teil: "V-V", teilLabel: "Skript Teil 2 · Abschnitt V (Tz. 1 bis 3)", teilTitel: "Steuerberechnung: Steuerklassen, Freibeträge und Steuersätze" };
 const TV14 = { teil: "V-V-4", teilLabel: "Skript Teil 2 · Abschnitt V (Tz. 4 und 5)", teilTitel: "Tarifbegrenzung nach § 19a ErbStG und Berücksichtigung früherer Erwerbe" };
+const TV15 = { teil: "V-VI", teilLabel: "Skript Teil 2 · Abschnitt VI", teilTitel: "Steuerfestsetzung und Erhebung" };
 
 export const erbstVerschonungQuelle = {
   reihe: "Erbschaft- und Schenkungsteuer · Unterrichtsmaterial zum Steuerberaterlehrgang, Teil 2 · Martin Schäfer",
@@ -1310,6 +1312,71 @@ export const erbstVerschonung = [
         ["Festzusetzende Steuer", "22.000 €"],
       ] },
       { text: "Redaktioneller Hinweis: Die Lösung steht vollständig in der Quelle und ist nachgerechnet; sie geht auf (900.000 ./. 20.000 = 880.000, × 30 % = 264.000; 700.000 + 900.000 ./. 500.000 = 1.100.000, × 19 % = 209.000; fiktiv 880.000 × 19 % = 167.200; 700.000 ./. 500.000 = 200.000, × 11 % = 22.000). Der Fall ist so gebaut, dass alle drei Regeln des § 14 Abs. 1 ErbStG nacheinander greifen: Die Steuer für den Gesamterwerb beträgt 209.000 €; die tatsächlich gezahlte Steuer von 264.000 € ist höher als die fiktive von 167.200 € und käme deshalb nach Satz 3 zum Abzug – womit rechnerisch nichts zu zahlen wäre; die Untergrenze des Satzes 4 setzt aber die Steuer an, die der Erwerb 2025 allein auslösen würde, also 22.000 €. Der Grund für die hohe Vorerwerbsteuer ist der Wechsel der Steuerklasse: 2023 war die Erwerberin noch Lebensgefährtin (Steuerklasse III, 30 %), 2025 Ehefrau (Steuerklasse I, 19 %). Beim persönlichen Freibetrag der fiktiven Steuer bleibt es dennoch bei den 20.000 €, weil nur dieser Betrag 2023 verbraucht wurde." },
+    ],
+  },
+  {
+    ...TV15,
+    id: "erbst-v-32",
+    kapitel: "1",
+    title: "Steuerschuldner, Anzeigepflichten und Steuererklärung",
+    thema: "Wer die Steuer schuldet und wer sie anzuzeigen hat – der Erwerber und bei Schenkungen zusätzlich der Schenker als Gesamtschuldner, die Dreimonatsfrist des § 30 ErbStG, die Anzeigepflichten der Banken, Versicherungen, Gerichte und Notare sowie die Steuererklärung, die das Finanzamt von jedem Beteiligten verlangen kann",
+    normen: ["§ 20 Abs. 1 ErbStG", "§ 30 Abs. 1, 2 und 4 ErbStG", "§ 31 Abs. 1, 2 und 5 ErbStG", "§ 33 ErbStG", "§ 33 Abs. 3 ErbStG", "§ 34 ErbStG", "§ 44 AO"],
+    themen: ["Steuerschuldner", "Gesamtschuldner", "Anzeigepflicht", "Vermögensverwahrer", "Versicherungsunternehmen", "Steuererklärung"],
+    verfasser: VERFASSER,
+    rechtsstand: RECHTSSTAND,
+    quelle: QUELLE,
+    bloecke: [
+      { typ: "titel", text: "VI. Steuerfestsetzung und Erhebung" },
+      { typ: "titel", text: "1. Steuerschuldner" },
+      { text: "Steuerschuldner ist gem. § 20 Abs. 1 ErbStG der Erwerber, d.h. in den Fällen des Erwerbs von Todes wegen z. B. der Erbe, der Pflichtteilsberechtigte oder der Vermächtnisnehmer. Bei Schenkungen unter Lebenden schuldet neben dem Beschenkten auch der Schenker die Steuer, Schenker und Beschenkter sind insoweit Gesamtschuldner i. S. d. § 44 AO. Da die Erbschaftsteuer (Schenkungsteuer) auf die Bereicherung des Erwerbers abstellt, muss sich das Finanzamt im Rahmen des Ermessens vorrangig an den Beschenkten halten, ersatzweise kann der Schenker in Anspruch genommen werden." },
+      { typ: "titel", text: "2. Anzeigepflichten" },
+      { text: "Gem. § 30 Abs. 1 ErbStG hat der Erwerber den der Erbschaftsteuer unterliegenden Erwerb innerhalb von 3 Monaten, nachdem er von dem Erwerb Kenntnis erlangt hat, dem für die Erbschaftsteuer zuständigen Finanzamt anzuzeigen. Bei Schenkungen unter Lebenden trifft diese Anzeigepflicht auch den Schenker (§ 30 Abs. 2 ErbStG). Die geforderten Angaben für die Anzeige ergeben sich aus § 30 Abs. 4 ErbStG." },
+      { text: "Darüber hinaus sind in den Fällen des Erwerbs von Todes wegen Vermögensverwahrer und Vermögensverwalter, die sich geschäftsmäßig mit der Verwahrung und Verwaltung fremden Vermögens befassen (insbesondere Banken) gem. § 33 ErbStG anzeigepflichtig. Sie haben innerhalb eines Monats, nachdem ihnen der Todesfall bekannt geworden ist, dem zuständigen Finanzamt die Vermögensgegenstände und Schulden des Erblassers anzugeben." },
+      { text: "Für Versicherungsunternehmen besteht die Verpflichtung, bevor sie Versicherungssummen oder Leibrenten einem anderen als dem Versicherungsnehmer auszahlen bzw. zur Verfügung stellen, hiervon dem Finanzamt Anzeige zu erstatten (§ 33 Abs. 3 ErbStG)." },
+      { text: "§ 34 ErbStG verpflichtet Gerichte, Behörden, Beamte und Notare, dem für die Erbschaftsteuer zuständigen Finanzamt Vorgänge anzuzeigen, die für die Festsetzung der Erbschaftsteuer bedeutsam sein können." },
+      { typ: "titel", text: "3. Steuererklärung" },
+      { text: "Nach § 31 Abs. 1 ErbStG kann das Finanzamt von jedem, der an einem Erbfall oder einer Schenkung beteiligt ist, die Abgabe einer Steuererklärung verlangen. Dabei kommt es nicht darauf an, ob der Betreffende selbst steuerpflichtig ist. Gegebenenfalls hat ein Testamentsvollstrecker oder Nachlassverwalter die Erklärung abzugeben (§ 31 Abs. 5 ErbStG). Die vom Finanzamt zu bestimmende Frist zur Abgabe der Steuererklärung muss mindestens einen Monat betragen. Für den Inhalt der Erklärung verlangt § 31 Abs. 2 ErbStG ein Verzeichnis der zum Nachlass gehörenden Gegenstände und die sonstigen für die Feststellung des Gegenstandes und des Werts des Erwerbs erforderlichen Angaben." },
+      { text: "Redaktioneller Hinweis: Die drei Anzeigefristen dieses Abschnitts sind leicht zu verwechseln und stehen deshalb hier nebeneinander: drei Monate für den Erwerber (§ 30 Abs. 1 ErbStG), ein Monat für Banken und andere Vermögensverwahrer (§ 33 ErbStG) und mindestens ein Monat als Untergrenze der vom Finanzamt zu setzenden Erklärungsfrist (§ 31 Abs. 1 ErbStG). Hinzu kommen die Fristen der Verschonungsvorschriften aus dem Abschnitt II: sechs Monate nach Ablauf der Lohnsummenfrist für die Anzeige des Unterschreitens und ein Monat nach Verwirklichung eines Behaltensverstoßes (§ 13a Abs. 7 ErbStG)." },
+    ],
+  },
+  {
+    ...TV15,
+    id: "erbst-v-33",
+    kapitel: "2",
+    title: "Kleinbetragsgrenze und Steuerstundung nach § 28 ErbStG",
+    thema: "Die Nichtfestsetzung bei Kleinbeträgen sowie die beiden Stundungstatbestände – sieben Jahre für die Steuer auf begünstigtes Betriebsvermögen beim Erwerb von Todes wegen, das erste Jahr zinslos und danach in Sechsteln, und zehn Jahre für zu Wohnzwecken genutzten Grundbesitz nach der Neufassung durch das Jahressteuergesetz 2024",
+    normen: ["§ 22 ErbStG", "§ 28 Abs. 1 Sätze 1, 3, 5 und 6 ErbStG", "§ 28 Abs. 3 ErbStG", "§ 13a Abs. 1 ErbStG", "§ 13a Abs. 2 ErbStG", "§ 13a Abs. 3 ErbStG", "§ 13a Abs. 6 ErbStG", "§ 13a Abs. 10 ErbStG", "§ 13b Abs. 2 ErbStG", "§ 13c ErbStG", "§ 28a ErbStG", "§ 222 AO", "§ 234 AO", "§ 238 AO", "R E 28 Abs. 7 ErbStR"],
+    themen: ["Kleinbetragsgrenze", "Steuerstundung", "Siebenjahresstundung", "Wohnzwecke", "Stundungszinsen", "Feststellungslast"],
+    verfasser: VERFASSER,
+    rechtsstand: RECHTSSTAND,
+    quelle: QUELLE,
+    bloecke: [
+      { typ: "titel", text: "4. Kleinbetragsgrenze, Steuerstundung" },
+      { text: "Die Erbschafsteuer wird durch Steuerbescheid festgesetzt. Nach der Kleinbetragsregelung des § 22 ErbStG ist von einer Festsetzung abzusehen, wenn die Steuer für den einzelnen Steuerfall 50 € nicht übersteigt. (die Schreibweise „Erbschafsteuer“ so in der Quelle)" },
+      { text: "Gehört zum Erwerb von Todes begünstigtes Vermögen i. S. d. § 13b Abs. 2 ErbStG, ist dem Erwerber die darauf entfallende Erbschaftsteuer auf Antrag bis zu 7 Jahre zu stunden (§ 28 Abs. 1 S. 1 ErbStG). (in der Wendung „Erwerb von Todes“ fehlt „wegen“ – so in der Quelle)" },
+      { text: "• Der erste Jahresbetrag ist ein Jahr nach der Steuerfestsetzung (nicht nach dem Zeitpunkt der Steuerentstehung) fällig und bis dahin zinslos zu stunden." },
+      { text: "• Für die weiteren zu entrichtenden Jahresbeträge sind die §§ 234 und 238 AO (Stundungszinsen) ab dem zweiten Jahr nach der Steuerfestsetzung anzuwenden. § 222 AO (Stundung) bleibt insoweit unberührt." },
+      { text: "Ab dem zweiten bis zum siebten Jahr ist die entsprechende Steuer ratenweise zu 1/6 des Stundungsbetrages zu tilgen. Der Verweis auf § 222 AO macht deutlich, dass in diesen Fällen eine Stundung nach den allgemeinen Regeln in Betracht kommt, wenn die Voraussetzungen des § 28 Abs. 1 ErbStG nicht vorliegen." },
+      { text: "Die Stundung kommt insbesondere in Betracht" },
+      { text: "• in den Fällen der Regelverschonung für die Steuer auf begünstigtes Vermögen nach Abzug des Verschonungsabschlags (§ 13a Abs. 1 ErbStG) und des Abzugsbetrags (§ 13a Abs. 2 ErbStG);" },
+      { text: "• in den Fällen des § 13c ErbStG für die Steuer auf begünstigtes Vermögen nach Abzug des abgeschmolzenen Verschonungsabschlags;" },
+      { text: "• in den Fällen des § 28a ErbStG für die nicht erlassene Steuer auf begünstigtes Vermögen." },
+      { text: "Für die Steuer, die auf das nicht begünstigte Vermögen entfällt, kann die Steuer nach § 28 Abs. 1 ErbStG nicht gestundet werden." },
+      { text: "Die Stundung endet gem. § 28 Abs. 1 S. 5 ErbStG, sobald der Erwerber, ausgehend vom Zeitpunkt der Steuerentstehung, den Tatbestand nach § 13a Abs. 3 ErbStG nicht einhält (Verstoß gegen die Lohnsummenregelung) oder einen der Tatbestände des § 13a Abs. 6 ErbStG erfüllt (Verstoß gegen die Behaltensregelungen)." },
+      { text: "In den Fällen der Optionsverschonung (§ 13a Abs. 10 ErbStG) oder der Verschonungsbedarfsprüfung (§ 28a ErbStG) ist bei der Anwendung des § 28 Abs. 1 S. 3 ErbStG § 13a Abs. 10 ErbStG entsprechend anzuwenden (§ 28 Abs. 1 S. 6 ErbStG)." },
+      { text: "Für Schenkungsfälle kommt eine Steuerstundung nach § 28 Abs. 1 ErbStG nicht in Betracht." },
+      { text: "Gehört zum Erwerb Grundbesitz, der zu Wohnwecken genutzt wird, ist dem Erwerber nach der Neufassung des § 28 Abs. 3 ErbStG durch das Jahressteuergesetz 2024 die darauf entfallende Erbschafsteuer bis zu zehn Jahre zu stunden, soweit der Erwerber die Steuer nur durch Veräußerung dieses Vermögens aufbringen kann. Die Regelung bezieht sich auf den gesamten Grundbesitz, der Wohnzwecken dient und erfasst folglich auch Wohnungen, die sich z. B. in Mietwohngrundstücken, gemischt genutzten Grundstücken oder Geschäftsgrundstücken befinden. Enthält ein Gebäude neben zu Wohnwecken genutzten Grundstücksteilen andere Teile (z. B. Nutzung zu gewerblichen, freiberuflichen oder zu öffentlichen Zwecken), sind diese nicht begünstigt. Die Stundung ist nach den tatsächlichen Nutzungsverhältnissen zum Besteuerungszeitpunkt nur für die anteilige Erbschaftsteuer bzw. Schenkungsteuer auf den Teil des Grundbesitzwerts zu gewähren, der auf den zu Wohnzwecken genutzten Teil des Gebäudes entfällt. (die Schreibweisen „zu Wohnwecken“ und „Erbschafsteuer“ so in der Quelle)" },
+      { text: "Die Stundung nach § 28 Abs. 3 ErbStG, die sowohl für Erwerbe von Todes wegen als auch für Schenkungen unter Lebenden gilt, endet, soweit der Grundbesitz auf Dritte übergeht oder dauerhaft keinen Wohnzwecken mehr dient. Bei einem Erwerb von Todes wegen erfolgt die Stundung zinslos. In allen übrigen Fällen ist die Stundung zinspflichtig (§§ 234, 238 AO)." },
+      { text: "Kann der Erwerber die auf das begünstigte Vermögen entfallende Steuer entweder aus weiterem erworbenem Vermögen oder aus seinem vorhandenen eigenen Vermögen aufbringen, besteht kein Rechtsanspruch auf die Stundung. Der Erwerber muss insoweit auch die Möglichkeit der Kreditaufnahme ausschöpfen. Die Feststellungslast dafür, dass kein eigenes Vermögen vorhanden und keine Kreditaufnahme möglich ist, obliegt dem Steuerpflichtigen (R E 28 Abs. 7 ErbStR)." },
+      { typ: "tabelle", spalten: ["", "§ 28 Abs. 1 ErbStG", "§ 28 Abs. 3 ErbStG"], zeilen: [
+        ["Gegenstand", "begünstigtes Vermögen i. S. d. § 13b Abs. 2 ErbStG", "Grundbesitz, der zu Wohnzwecken genutzt wird"],
+        ["Dauer", "bis zu 7 Jahre", "bis zu zehn Jahre"],
+        ["Erwerbsart", "nur Erwerb von Todes wegen, nicht bei Schenkungen", "Erwerb von Todes wegen und Schenkung unter Lebenden"],
+        ["Verzinsung", "erster Jahresbetrag zinslos, danach §§ 234, 238 AO", "bei Erwerb von Todes wegen zinslos, sonst zinspflichtig"],
+        ["Ende der Stundung", "Verstoß gegen Lohnsummen- oder Behaltensregelung", "Übergang auf Dritte oder dauerhafter Wegfall der Wohnnutzung"],
+      ] },
+      { text: "Redaktioneller Hinweis: Die Tabelle stellt die beiden Stundungstatbestände gegenüber; sie ist eine redaktionelle Zusammenfassung des unmittelbar vorstehenden Textes der Quelle, nicht eine Übersicht der Quelle selbst. Alle Angaben stammen wörtlich aus den Absätzen darüber. Bemerkenswert ist die gegenläufige Systematik: Die Betriebsvermögensstundung gilt nur bei Erwerben von Todes wegen, weil Schenkungen planbar sind – dasselbe Argument, mit dem die Investitionsklausel der Tz. 6 des Abschnitts II auf Erwerbe von Todes wegen beschränkt ist. Die Wohnzweckstundung gilt dagegen auch bei Schenkungen, dort aber nur gegen Zinsen." },
+      { text: "Redaktioneller Hinweis: Hier endet das Skript Teil 2. Mit dem Abschnitt VI ist die Quelle von der ersten bis zur letzten Seite vollständig erfasst; ein weiterer Text folgt nicht." },
     ],
   },
 ];

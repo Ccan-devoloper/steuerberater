@@ -209,10 +209,14 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   **Abschnitt IV** (Steuerbefreiung für zu Wohnzwecken vermietete Grundstücke nach § 13d
   ErbStG) sowie aus dem **Abschnitt V** die Tz. 1 bis 3 (Steuerklassen, Freibeträge,
   Steuersätze mit Härteausgleich, Tarifbegrenzung nach § 19a ErbStG und die
-  Berücksichtigung früherer Erwerbe) – damit ist der **Abschnitt V vollständig**. Offen ist
-  nur noch der **Abschnitt VI** (Steuerschuldner, Anzeigepflichten, Steuererklärung,
-  Kleinbetragsgrenze und Steuerstundung) und die Lösungsdatei
-  `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`.
+  Berücksichtigung früherer Erwerbe) sowie der **Abschnitt VI** (Steuerschuldner,
+  Anzeigepflichten, Steuererklärung, Kleinbetragsgrenze und Steuerstundung). **Das Skript
+  ist damit vollständig erfasst.** Offen ist aus diesem Ordner nur noch die Lösungsdatei
+  `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`; sie enthält die Musterlösungen zu den sieben
+  Beispielen, die das Skript ohne Ergebnis lässt (GmbH-Mindestbeteiligung, Nettowert und
+  unschädliches Verwaltungsvermögen, Abzugsbetrag, zwei Lohnsummenfälle, zwei
+  Abschmelzungsfälle, Versorgungsfreibetrag und die beiden unvollständigen Fälle zur
+  Tarifbegrenzung).
 - **ErbSt-Fallsammlung 4. Termin** (`1HuXWysA6NBRDAltBmHei54XFo3POwOtV`, 2,4 MB, im selben
   Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`): bei der Sichtung dieses Ordners neu
   entdeckt. Noch nicht bearbeitet.

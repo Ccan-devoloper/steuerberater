@@ -5338,3 +5338,48 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Abs. 5 ErbStG (Wegfall Verschonungsabschlag und Abzugsbetrag)“, während derselbe Satz
   anschließend zutreffend § 13a Abs. 6 ErbStG nennt; § 13a Abs. 5 ErbStG regelt die
   Weitergabeverpflichtung. Dazu die Wendung „nach Verschonungsabschlags“ im Beispiel 1.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Abschnitt VI: Skript vollständig
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt VI,
+  PDF-Seiten 56 bis 58 (Ende der Datei).
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 15 Teile,
+  33 Kapitel, 501 Blöcke und 50 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+  **Damit ist das Skript „Erbschaft- und Schenkungsteuer, Teil 2“ von der ersten bis zur
+  letzten Seite vollständig erfasst – Abschnitte I bis VI.**
+- Noch offen aus demselben Ordner: die Lösungsdatei
+  (`1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`) und die Fallsammlung 4. Termin
+  (`1HuXWysA6NBRDAltBmHei54XFo3POwOtV`).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Der Abschnitt VI enthält keine Beispiele; er ist reiner Vorschriftentext.
+
+  Zwei redaktionelle Zusammenstellungen sind im Datensatz als solche gekennzeichnet:
+
+  - **Die drei Anzeigefristen nebeneinander**, weil sie leicht zu verwechseln sind: drei
+    Monate für den Erwerber (§ 30 Abs. 1 ErbStG), ein Monat für Banken und andere
+    Vermögensverwahrer (§ 33 ErbStG) und mindestens ein Monat als Untergrenze der vom
+    Finanzamt zu setzenden Erklärungsfrist (§ 31 Abs. 1 ErbStG). Hinzu kommen die Fristen
+    des § 13a Abs. 7 ErbStG aus dem Abschnitt II (sechs Monate nach Ablauf der
+    Lohnsummenfrist, ein Monat nach einem Behaltensverstoß).
+  - **Eine Gegenüberstellung der beiden Stundungstatbestände** des § 28 ErbStG nach
+    Gegenstand, Dauer, Erwerbsart, Verzinsung und Ende. Sie ist eine Zusammenfassung des
+    unmittelbar vorstehenden Textes, keine Übersicht der Quelle; alle Angaben stammen
+    wörtlich aus den Absätzen darüber. Bemerkenswert ist die gegenläufige Systematik: Die
+    Betriebsvermögensstundung gilt **nur** bei Erwerben von Todes wegen, weil Schenkungen
+    planbar sind – dasselbe Argument, mit dem die Investitionsklausel der Tz. 6 des
+    Abschnitts II auf Erwerbe von Todes wegen beschränkt ist. Die Wohnzweckstundung gilt
+    dagegen auch bei Schenkungen, dort aber nur gegen Zinsen.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet: „**Erbschafsteuer**“ (zweimal), „Gehört zum **Erwerb von Todes**
+  begünstigtes Vermögen“ ohne „wegen“ und „zu **Wohnwecken** genutzt“ (zweimal).
+
+  **Bilanz der Quelle:** Von den rund vierzig Beispielen des Skripts sind die meisten mit
+  Lösung versehen und sämtlich nachgerechnet; sieben stehen ohne Ergebnis (GmbH-Mindest-
+  beteiligung, Nettowert und unschädliches Verwaltungsvermögen, Abzugsbetrag, zwei
+  Lohnsummenfälle, zwei Abschmelzungsfälle, Versorgungsfreibetrag), und zwei brechen
+  mitten in der Lösung ab (Beispiel 2 der Tz. 9 a) nach der Bezugsgröße, Beispiel 2 der
+  Tz. 4 des Abschnitts V nach der tariflichen Steuer). Erfunden wurde in keinem Fall etwas;
+  wo eine eigene Kontrollrechnung hinterlegt ist, ist sie ausdrücklich als solche
+  gekennzeichnet.
