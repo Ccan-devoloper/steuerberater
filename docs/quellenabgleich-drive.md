@@ -10620,6 +10620,80 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil III (Hamacher), Abschnitte 1.3.4 bis 1.3.9 – Abschnitt 1.3 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 13 bis 18; übernommen als Kapitel 8 bis 12. Prüfung:
+`npm run check:k2-kst-teil3` (12 Kapitel, 165 Blöcke, 15 Tabellen). Damit ist der Abschnitt 1.3
+(Feststellung des steuerlichen Einlagekontos) vollständig.
+
+**Drei leicht zu verwechselnde Punkte** hebt der Datensatz beim Auslandsfall (1.3.4) hervor: Im
+Antragsverfahren nach § 27 Abs. 8 KStG wird **kein Einlagekonto** festgestellt, sondern nur der
+Betrag der Einlagenrückgewähr für diese eine Leistung; ermittelt wird trotzdem ausschließlich nach
+**nationalen** Maßstäben, also nach der Verwendungsberechnung des Abschnitts 1.3.3; und die
+Zwölfmonatsfrist ist eine **Ausschlussfrist**, deren Versäumnis die Leistung beim inländischen
+Anteilseigner in voller Höhe steuerpflichtig macht – handeln muss die Gesellschaft, die Last trägt
+der Gesellschafter.
+
+**Die abstrakte Betrachtung** in 1.3.5 ist eigens eingeordnet, weil ihr Grund derselbe ist, der
+schon die Fehlerfortschreibung trägt: Weil jeder Bescheid Grundlagenbescheid für den nächsten ist,
+würde eine Lücke die Kette unterbrechen. Deshalb ist auch in Jahren ohne jede Leistung
+festzustellen – die Quelle nennt das treffend die Vermeidung von „Feststellungspausen“.
+
+**Die Spannung in 1.3.6** ist tabellarisch sichtbar gemacht: Nach der Auffassung der Quelle gilt der
+fiktive Rückbezug auch bei rein inländischen Neugründungen und unabhängig davon, ob ein
+Umwandlungstatbestand vorliegt – seit dem Jahressteuergesetz 2024 ist er für die Umwandlungsfälle
+des § 29 KStG aber ausdrücklich ausgeschlossen. Wer einen Bestand im Wege der Umwandlung übernimmt,
+muss also ein volles Wirtschaftsjahr warten. Vermerkt ist außerdem die **Nachweislast**: Der
+Rückbezug wirkt nicht von selbst, die Einlagen über das Nennkapital hinaus sind nachzuweisen.
+
+**Die Quelle variiert in 1.3.7 ihr eigenes Beispiel um eine einzige Zahl**, und der Datensatz stellt
+den Effekt heraus: Dieselbe F-GmbH, dasselbe Einlagekonto von 70.000 €, aber ein Eigenkapital von
+100.000 € statt 200.000 €. Dort ergab sich ein ausschüttbarer Gewinn von 80.000 €, hier ein
+rechnerisch negativer. Obwohl **weniger** ausgeschüttet wird (90.000 € statt 95.000 €), ist die
+Einlagenrückgewähr mit 70.000 € fast fünfmal so hoch wie dort mit 15.000 € – und zugleich bleiben
+20.000 € steuerpflichtiger Bezug übrig, weil § 27 Abs. 1 Satz 4 KStG beim Bestand von 0 € die
+Grenze zieht. Die Quelle begründet die Härte damit, dass die Verwendungsreihenfolge „lediglich aus
+Vereinfachungsgründen“ von den Vorjahresbeständen ausgeht.
+
+**Die Pointe des Abschnitts 1.3.8** beruht auf einer reinen Wortlautauslegung, die der Datensatz
+ausdrücklich benennt: § 27 Abs. 1 Satz 4 KStG verbietet einen Negativbestand nur „durch
+**Leistungen**“. Der Abgang beim Eintritt des Besserungsfalls ist aber keine Leistung an den
+Gesellschafter – die Gesellschaft schüttet nichts aus, sondern bucht eine Verbindlichkeit wieder
+ein. Damit gibt es im Recht des Einlagekontos **zwei Kategorien von Abgängen** mit unterschiedlichen
+Grenzen: Leistungen sind beim Bestand gedeckelt, Direktzugriffe nicht. Zum Rangrücktritt ist als
+eigene Ergänzung die leicht übersehene Voraussetzung vermerkt, dass die Verbindlichkeit nach § 5
+Abs. 2a EStG dem Passivierungsverbot unterliegen muss – ein Rangrücktritt, der die Tilgung auch aus
+sonstigem freien Vermögen zulässt, führt zu gar nichts.
+
+**Eine eigene Herleitung** betrifft den Besserungsschein-Fall: Von dem Ertrag aus dem Wegfall der
+Verbindlichkeit hatten sich 2005 nur **100.000 €** steuerlich ausgewirkt, weil die verdeckte Einlage
+von 50.000 € abgezogen wurde – deshalb darf sich 2025 auch nur ein Aufwand von 100.000 € auswirken.
+Diese Zahl nennt die Quelle nicht; sie trägt aber die „umgekehrte analoge Anwendung“ des § 8 Abs. 3
+Satz 3 KStG. Der Datensatz verweist zugleich auf denselben Fall im Teil II unter § 8b Abs. 3 Satz 9
+KStG, wo er aus Sicht des Gesellschafters und mit einer wertlosen Forderung auftrat.
+
+**Die optierende Gesellschaft** (1.3.9) rechnet der Datensatz nach: Der Anfangsbestand von
+900.000 € ist die Summe der vier Kapitalkonten (100.000 € + 100.000 € + 300.000 € + 400.000 €); die
+Quelle bildet sie nicht ausdrücklich. Weil kein Nennkapital abzuziehen ist, beträgt der
+ausschüttbare Gewinn des Erstjahres 900.000 € ./. 900.000 € = 0 €, so dass jede Ausschüttung des
+Jahres 2025 Einlagenrückgewähr ist. Als eigene Ergänzung ist festgehalten, dass das kein Schlupfloch
+ist, sondern systemgerecht – die Gewinne sind bei den Mitunternehmern bereits versteuert –, und dass
+die drei Daten (Option ab Wj. 2025, Übertragungsstichtag 31.12.2024, erstmalige Feststellung auf
+denselben Tag) sorgfältig zu unterscheiden sind.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „Genossenschaften …, die Leistungen i.S. des § 20 Abs. 1 Nr. 1 **KStG** bewirken können“ – gemeint
+  ist § 20 Abs. 1 Nr. 1 EStG.
+- „reine inländische **Neugründungfälle**“ – Schreibweise der Quelle.
+- Der Halbsatz „welcher nur zur Hälfte steuerpflichtig ist“ kehrt in 1.3.7 wörtlich wieder und
+  beschreibt weiterhin das überholte **Halbeinkünfteverfahren**; der Datensatz stellt die Rechtslage
+  wie schon bei 1.3.3 in einem eigenen Hinweisblock klar.
+
+**Noch offen:** aus Teil III die Verwendungsfestschreibung und Haftungsregelung (1.4) sowie die
+Kapitel 2 (Kapitalerhöhung) und 3 (Kapitalherabsetzung und eigene Anteile); ganz offen sind die
+Skriptteile IV bis VII.
+
 ### KSt Teil III (Hamacher), Abschnitte 1.3.1 bis 1.3.3 – Feststellung und Verwendungsberechnung
 
 Quelle: dieselbe Datei, Seiten 8 bis 13; übernommen als Kapitel 5 bis 7. Prüfung:

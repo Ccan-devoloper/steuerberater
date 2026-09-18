@@ -2734,7 +2734,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil III (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil III (§§ 27, 28 KStG)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil III: Steuerliches Einlagekonto (§ 27 KStG);
   Grundzüge der Kapitalherauf- und -herabsetzung (§ 28 KStG)“** (21. Auflage, Stand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 7 Kapitel mit 113 Abschnitten und 10 Tabellen. Anders als die
+  Wortlaut – **in Arbeit**, derzeit 12 Kapitel mit 165 Abschnitten und 15 Tabellen. Anders als die
   Teile I und II trägt dieses Skript den Stand **Mai 2025** und rechnet seine Beispiele im VZ 2025.
   Das steuerliche Einlagekonto beantwortet eine einzige Frage: Was von dem, was die Gesellschaft
   auskehrt, hat der Gesellschafter ihr vorher selbst gegeben? Der entscheidende Satz steht gleich am
@@ -2782,6 +2782,33 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   200/220 zu 20/220 – auch auf die verdeckte Gewinnausschüttung) und kein Vorgriff (maßgebend sind
   allein die **Vorjahreswerte**, unterjährige Einlagen helfen erst im Folgejahr). Abgeflossen muss
   die Leistung sein: Eine bloß passivierte Ausschüttungsverbindlichkeit zählt nicht mit.
+  **Damit ist der Abschnitt 1.3 der Quelle vollständig.** Für **ausländische** Gesellschaften – seit
+  2023 auch solche aus Drittstaaten – wird im Antragsverfahren nach § 27 Abs. 8 KStG gerade **kein**
+  Einlagekonto festgestellt, sondern nur der Betrag der Einlagenrückgewähr für diese eine Leistung,
+  und zwar ausschließlich nach **nationalen** Maßstäben. Die Antragsfrist von zwölf Monaten nach dem
+  Wirtschaftsjahr des Abflusses ist eine Ausschlussfrist mit harter Folge: Ohne rechtzeitigen Antrag
+  ist die Leistung beim inländischen Anteilseigner voll steuerpflichtig, gleichgültig ob
+  wirtschaftlich nur Einlagen zurückgezahlt wurden – handeln muss die Gesellschaft, die Last trägt
+  der Gesellschafter. Im Inland trifft die Feststellungspflicht über § 27 Abs. 7 KStG auch
+  Körperschaften, die keine Kapitalgesellschaften sind (Genossenschaften, Zweckvermögen, Betriebe
+  gewerblicher Art – nicht aber rechtsfähige private Stiftungen), und zwar nach einer **abstrakten**
+  Betrachtung auch in leistungslosen Jahren, damit keine „Feststellungspause“ die Kette der
+  Grundlagenbescheide unterbricht. Beim **Beginn der unbeschränkten Steuerpflicht** ersetzt der
+  fiktive Rückbezug des § 27 Abs. 2 Satz 3 KStG den fehlenden Vorjahresbestand – seit dem
+  Jahressteuergesetz 2024 allerdings nicht mehr in Umwandlungsfällen des § 29 KStG, wo der
+  übernommene Bestand im Erstjahr nicht ausgekehrt werden kann. Beim **Negativbestand** variiert die
+  Quelle ihr eigenes Beispiel um eine einzige Zahl: Sinkt das Eigenkapital von 200.000 € auf
+  100.000 €, steigt die Einlagenrückgewähr von 15.000 € auf 70.000 € – und trotzdem bleiben
+  20.000 € steuerpflichtiger Bezug, weil § 27 Abs. 1 Satz 4 KStG beim Bestand von 0 € die Grenze
+  zieht. Beim **Direktzugriff** gilt das gerade nicht: Die Vorschrift verbietet einen Negativbestand
+  nur „durch **Leistungen**“, und der Abgang beim Eintritt des Besserungsfalls oder bei der
+  Wiederpassivierung nach einem Rangrücktritt ist keine Leistung – das Konto darf hier ins Minus
+  laufen. Damit gibt es zwei Kategorien von Abgängen mit unterschiedlichen Grenzen. Und die
+  **optierende Gesellschaft** nach § 1a KStG verfügt über kein Nennkapital, weshalb ihr gesamtes
+  steuerliches Eigenkapital den Anfangsbestand des Einlagekontos bildet (im Beispiel 900.000 €): Der
+  ausschüttbare Gewinn des Erstjahres beträgt 0 €, jede Ausschüttung ist Einlagenrückgewähr – kein
+  Schlupfloch, sondern systemgerecht, weil die Gewinne bei den Mitunternehmern bereits versteuert
+  worden sind.
   Prüfung: `npm run check:k2-kst-teil3`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
