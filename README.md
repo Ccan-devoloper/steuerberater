@@ -170,7 +170,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   mit den vier gesetzlichen Sätzen von 3,5 % bis 6,0 % und der selbständig nutzbaren
   Teilfläche; sowie die **Restnutzungsdauer** mit der Mindestgrenze von 30 % der
   Gesamtnutzungsdauer, der Verlängerung durch Modernisierung nach dem Punktesystem des
-  AEBew und der Verkürzung allein bei Abbruchverpflichtung.
+  AEBew und der Verkürzung allein bei Abbruchverpflichtung. Schließlich das vollständige
+  **Sachwertverfahren**: das Rechenschema von den Regelherstellungskosten der Anlage 24
+  über Bruttogrundfläche und Baupreisindex zu den durchschnittlichen Herstellungskosten,
+  weiter über Regionalfaktor und Alterswertminderungsfaktor zum Gebäudesachwert und
+  zusammen mit dem Bodenwert zum vorläufigen Sachwert; die Baupreisindizes 183,3 und 186,7
+  für 2025; der Regionalfaktor mit dem Auffangwert 1,0; die Alterswertminderung mit
+  derselben 30-Prozent-Mindestgrenze wie im Ertragswertverfahren und der getrennten
+  Bewertung selbständiger Gebäudeteile; sowie die **Wertzahlen der Anlage 25** mit dem
+  Vorrang der Sachwertfaktoren der Gutachterausschüsse und der **Kreuzinterpolation**, die
+  die Quelle in zwei gleichwertigen Rechenwegen vorführt (beide nachgerechnet, beide
+  ergeben 1,653).
   Prüfung: `npm run check:k1-erbst-bewertung-teil2`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des
