@@ -8574,3 +8574,56 @@ bestehende Reihe sind die Prüfungen 2011–2015 **mit** den Lösungshinweisen d
 Aufgabentexte **ohne** Lösung und mit den Jahreszahlen des Originaljahrgangs. Die beiden
 Reihen in einem Datensatz zu mischen, würde genau die Unterscheidung verwischen, auf die es
 beim Üben ankommt.
+
+### Amtliche Prüfungsaufgaben Buchführung und Bilanzierung 2021/2022 (Teile I–III)
+
+- **Quelle:** Drive-ID `1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3`, „Pruefungsklausur Steuerberater
+  2021-2022-0226.pdf“, 0,7 MB, 34 Seiten. Der Connector gibt das PDF **vollständig** aus
+  (rund 90.000 Zeichen).
+- **Ziel:** `src/data/k3-bil-pruefungsklausuren.js`, Einträge `bil-pk-2021-teil1-becker`,
+  `bil-pk-2021-teil2-mutter` und `bil-pk-2021-teil3-mueller` (Nummern 5 bis 7). Prüfung:
+  `npm run check:k3-bil-pruefungsklausuren`.
+- **Zeitlogik:** wie beim Jahrgang 2022/2023 **nicht** fortgeschrieben. Die Klausur spielt im
+  **Wirtschaftsjahr 2020**.
+
+**Aufbau wie beim Schwesterjahrgang:** Die Datei enthält die Prüfungsaufgaben aller drei
+Prüfungstage im amtlichen Wortlaut und **keine Lösung**. Eingepflegt ist in dieser Runde der
+Bilanz-Prüfungstag mit seinen drei Teilen; die Ertragsteuer- und Verfahrensrechtsklausuren
+stehen in `docs/offene-quellen.md`, Abschnitt A.
+
+**Ein Unterschied zum Jahrgang 2022/2023:** Dieser Jahrgang weist **keine Wertungspunkte je
+Teil** aus – die Überschriften lauten schlicht „Teil I: Klaus Becker“, „Teil II:
+Mutter-GmbH“, „Teil III: Müller-OGH“. Das Feld `wertung` trägt hier deshalb den Text „ohne
+Punkteangabe in der Quelle“, und die Didaktik des Datensatzes hält fest, dass dort allein der
+Umfang der Sachverhalte die Gewichtung vorgibt.
+
+**Das Jahr 2020 und der Umsatzsteuersatz.** In derselben Klausur stehen 16 % und 19 %
+nebeneinander: die Notarrechnung des Teils I vom 16.12.2020 (7.000 € netto, 1.120 € = 16 %)
+und die Baurechnung des Teils III vom 10.08.2020 (215.000 € netto, 34.400 € = 16 %) gegen die
+Vorsteuer von 2.850 € auf 15.000 € (= 19 %) beim Wiederaufbau der Garage im Juni 2020 und
+190 € auf 1.000 € beim Transport des Kinderkarussells im März 2020. Das ist kein Fehler der
+Quelle, sondern der befristet abgesenkte Steuersatz des zweiten Halbjahres 2020; im Datensatz
+ist es bei den betroffenen Einträgen erläutert.
+
+**Eigene Feststellungen – wortlautgetreu übernommen und gekennzeichnet:**
+
+1. **„bis einschließlich November 2002“** in Teil I bei den Rentenzahlungen; gemeint ist
+   offensichtlich November 2020. Der Datensatz gibt den Wortlaut wieder und setzt den Hinweis
+   in Klammern daneben.
+2. **„Teil III: Müller-OGH“** in der Überschrift, während der Sachverhalt durchgehend von der
+   „Müller-OHG“ spricht. Auch das ist im Eintrag vermerkt.
+3. Weitere Verschreiber, die unverändert übernommen sind: „Nach dem Betriebsgrößenmerkmalen“
+   und die nicht geschlossene Klammer in „(auch bei der T-GmbH möglichst niedrig ausfallen“
+   in Teil II; „am 15.01.2015 … fertigstellte Garage“ und „§ 7 Abs. 4 Satz 1 Nr. 1 EstG“ in
+   Teil III; „Kaufpreis vom 50.000 €“ statt „von“.
+
+**Nachgerechnet, soweit die Quelle Zahlen selbst fortschreibt:** Die Kontenentwicklung der
+Verwertungsrechte in Teil II geht auf (55.000 ./. 4 × 2.750 ./. 24.000 = 20.000 €; danach
+6 × 1.250 = 7.500 €, Buchwert 30.06.2020 also 12.500 €), ebenso die Kontenentwicklung der
+Garage in Teil III (50.000 ./. 5 × 1.500 ./. 20.000 = 22.500 € zum 31.12.2019, ./. 1.500 =
+21.000 € zum 31.12.2020) und die Ergänzungsbilanz der Buch-KG (45.000 ./. 3.000 = 42.000 €).
+Die Rechnung der Lokal-Bau-GmbH stimmt (200.000 + 15.000 = 215.000 €; 16 % = 34.400 €;
+249.400 €). Die vorgebuchten Beträge des Kinderkarussells sind rechnerisch schlüssig
+(28.000 CAD × 0,75 = 21.000 €; 1.400 CAD × 0,725 = 1.015 €; 20 % von 22.015 = 4.403 €;
+28.000 × 0,025 = 700 €) – ob sie **richtig** sind, ist gerade die Frage der Klausur, und dazu
+gibt die Quelle keine Antwort.

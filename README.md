@@ -1953,8 +1953,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Reiter „Prüfungsklausuren im Original“): die Aufgabentexte der Steuerberaterprüfung im
   **amtlichen Wortlaut**, so wie sie am Prüfungstag vorgelegen haben – kein fortgeschriebener
   Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt ist die
-  Klausur aus dem Gebiet Buchführung und Bilanzierung des Prüfungsjahrgangs **2022/2023**:
-  sechs Stunden, vier unabhängige Teile, 100 Wertungspunkte (33 / 17 / 22 / 28).
+  Klausuren aus dem Gebiet Buchführung und Bilanzierung der Prüfungsjahrgänge **2022/2023**
+  (vier Teile, 100 Wertungspunkte: 33 / 17 / 22 / 28) und **2021/2022** (drei Teile, in der
+  Quelle ohne Punkteangabe) – je sechs Stunden Bearbeitungszeit.
   **Zu diesen Aufgaben enthält die Quelle keine Lösung** – und es wird hier keine erfunden.
   Jeder Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst als Zielvorgabe
   nennt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit
@@ -1974,6 +1975,25 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Grundstücksübertragung gegen bloße Schuldübernahme bei 840.000 € Verkehrswert und ein
   rückwirkender Mietverzicht des Bruders – am Ende stehen steuerlicher Gewinn, Einkünfte
   beider Angehöriger, Anschaffungskosten des Anteils und das steuerliche Einlagekonto.
+  Aus dem Jahrgang **2021/2022** kommen drei Teile hinzu, die im Wirtschaftsjahr 2020 spielen –
+  mit dem unterjährigen Wechsel des Umsatzsteuersatzes, weshalb 16 % und 19 % in derselben
+  Klausur nebeneinanderstehen.
+  **Teil I** (Klaus Becker): Grundstückskauf gegen Schuldübernahme und lebenslängliche
+  Leibrente, die nach fünf Monaten für 150.000 € abgelöst wird; ein Verwaltungsgebäude, das
+  nicht bezahlt, sondern gegen eine gebrauchte Krananlage plus 174.000 € Barausgleich
+  getauscht wird; eine selbst hergestellte Stahlladerampe samt vollständigem
+  Zuschlagssatzgerüst; dazu ein Pkw mit 1-Prozent-Regelung, der auch freiberuflich genutzt
+  wird.
+  **Teil II** (Mutter-GmbH): eine rückwirkende Aufwärtsverschmelzung mit abweichendem
+  Wirtschaftsjahr und Rumpfwirtschaftsjahr – die Verwertungsrechte an den Romanen eines für
+  den Friedenspreis nominierten Autors stehen mit 12.500 € im Buch und sind 200.000 € wert –,
+  daneben ein 5-prozentiger Kommanditanteil mit Ergänzungsbilanz über einen selbst
+  geschaffenen Firmenwert.
+  **Teil III** (Müller-OHG): vier kleinere Fälle – Gebäude in Leichtbauweise mit fest
+  eingebauter Theke in einer Rechnungssumme, Verkauf einer 26-prozentigen Beteiligung, eine
+  nach Unwetter teilabgerissene und wieder aufgebaute Garage und ein Kinderkarussell in
+  kanadischen Dollar mit gestundetem Kaufpreis und einer bereits gebuchten
+  Teilwertabschreibung „wegen Kursrückgang des CAD“.
   Prüfung: `npm run check:k3-bil-pruefungsklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
