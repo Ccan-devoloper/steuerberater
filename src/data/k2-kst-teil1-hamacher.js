@@ -27,10 +27,15 @@
    Nutzungsvorteilen einschließlich der überquotalen Nutzungseinlage. Die
    Der Abschnitt 3.6 (Korrespondenzprinzip) ist vollständig – materielle und
    formelle Korrespondenz. Vom Abschnitt 3.7 (Ausgangsvermögen) sind der
-   Grundsatz und die unentgeltliche Übertragung (3.7.1.1) übernommen. Die
-   teilentgeltliche Übertragung (3.7.1.2), der Abschnitt 3.7.2, die Abschnitte
-   3.8 und 3.9 und das Kapitel 4 (Tarif) folgen nach demselben Verfahren; der
-   Campus weist den Stand aus.
+   Grundsatz, die unentgeltliche und die teilentgeltliche Übertragung (3.7.1)
+   sowie der Fall des im Betriebsvermögen gehaltenen Wirtschaftsguts (3.7.2.1)
+   übernommen. Die Abschnitte 3.7.2.2 und 3.7.2.3, 3.8 und 3.9 und das Kapitel 4
+   (Tarif) folgen nach demselben Verfahren; der Campus weist den Stand aus.
+
+   HINWEIS ZUR QUELLE: Die Textextraktion des Drive-Readers bricht bei Seite 79
+   des 91-seitigen PDF ab. Der Rest ist unmittelbar aus der PDF-Datei extrahiert
+   (pypdf); die Seitenzählung des vollständigen Texts liegt im Arbeitsverzeichnis
+   der Sitzung vor.
 
    Kleinere Tippfehler der Quelle (fehlende Endungen, ein doppeltes Subjekt)
    sind wortlautgetreu übernommen und nicht einzeln gekennzeichnet, weil sie den
@@ -1627,6 +1632,75 @@ export const kstTeil1 = [
         ["4. Anschaffungskosten der Beteiligung an der A-GmbH", "+ 600.000 €", "+ 450.000 €"],
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt die beiden Fälle der Quelle in ihren vier Schritten nebeneinander, weil die Systematik in beiden dieselbe ist und nur die Steuerpflicht des Entnahmegewinns abweicht – voll beim Grundstück, nach dem Teileinkünfteverfahren beim Anteil. Der dritte Schritt ist in beiden Fällen eine Null, und das ist die eigentliche Pointe des Abschnitts: Die stillen Reserven werden vollständig im ersten Schritt aufgedeckt. Die Ersatzrealisationstatbestände laufen danach ins Leere, müssen in der Klausur aber geprüft und mit dem Ergebnis 0 € ausgewiesen werden. Rechenproben: 600.000 ./. 100.000 = 500.000; 450.000 ./. 50.000 = 400.000, davon 40 % = 160.000 steuerfrei und 60 % = 240.000 steuerpflichtig. Alle Zahlen der Quelle gehen auf." },
+    ],
+  },
+  {
+    id: "kst-t1-40",
+    kapitel: "40",
+    abschnittNr: "3.7.1.2",
+    title: "3.7.1.2 Teilentgeltliche Übertragung",
+    thema: "Die Trennungstheorie spaltet den Vorgang in ein voll entgeltliches und ein voll unentgeltliches Geschäft, aufgeteilt nach dem Verhältnis von Kaufpreis zu Verkehrswert. Der entgeltliche Teil folgt Veräußerungsgrundsätzen, der unentgeltliche den Grundsätzen der verdeckten Einlage",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.7.1.2 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 6 Abs. 1 Nr. 4 EStG", "§ 6 Abs. 1 Nr. 5 EStG",
+      "§ 23 Abs. 1 Nr. 1 EStG", "§ 23 Abs. 1 Satz 2 EStG", "§ 23 Abs. 1 Satz 5 Nr. 2 EStG",
+      "BFH vom 17.07.1980, BStBl. II 1981, 11",
+      "BFH vom 11.12.2001, BStBl. II 2002, 420",
+    ],
+    themen: ["Trennungstheorie", "Entgeltlichkeitsquote", "Teilentgeltliche Übertragung", "Entnahmegewinn", "Werteübereinstimmung"],
+    bloecke: [
+      { text: "Wird das Wirtschaftsgut teilentgeltlich übertragen, ist der Vorgang nach den Grundsätzen der sog. Trennungstheorie zu behandeln. Der Sachverhalt ist daher einerseits in einen voll entgeltlichen Vorgang und andererseits in einen voll unentgeltlichen Vorgang aufzuspalten. Der entgeltliche Teil wird nach Veräußerungsgrundsätzen behandelt, der unentgeltliche Teil richtet sich nach den Grundsätzen der verdeckten Einlage. Für die Aufteilung dieser Tatbestände ist das Verhältnis des geleisteten Kaufpreises zum Verkehrswert des Wirtschaftsgutes maßgebend." },
+      { text: "Diese Grundsätze gelten unabhängig davon, in welchem Vermögen die Beteiligung oder das „verdeckt“ eingelegte Wirtschaftsgut gehalten wird. Erfolgt die teilentgeltliche Veräußerung aus dem Betriebsvermögen heraus, wird der dadurch realisierte Veräußerungsgewinn aber noch im Betriebsvermögen erfasst. Lediglich die verdeckte Einlage erfolgt dann aus dem Privatvermögen heraus, so dass es in Höhe dieser Substanz zur Erfassung eines Entnahmegewinnes kommt." },
+      { text: "Beispiel: A veräußert sein bisher im Privatvermögen gehaltenes Grundstück (fortgeführte Anschaffungskosten aus 2017: 100.000 €, Teilwert: 600.000 €) im Jahr 2026 für 100.000 € an die A-GmbH. Die bisherigen Anschaffungskosten der im Privatvermögen gehaltenen Beteiligung betragen 50.000 €." },
+      { text: "Lösung: Das Grundstück wird teilentgeltlich übertragen, weil A dieses zu einem nicht fremdvergleichbar niedrigen Kaufpreis übertragen hat. In Höhe der Entgeltlichkeitsquote von 17 % (100.000 € zu 600.000 €) liegt ein voll entgeltliches Geschäft vor. Dies führt zu einer Veräußerung i. S. des § 23 Abs. 1 Nr. 1 EStG und daher zu einem Veräußerungsgewinn von 83.000 € (100.000 € ./. 17.000 €; 17 % von 100.000 €)." },
+      { text: "In der restlichen Höhe (= 83 %) ist eine verdeckte Einlage in die A-GmbH gegeben, die aus dem Privatvermögen heraus erfolgt. Diese führt aus Sicht des A zu einer Veräußerung i. S. des § 23 Abs. 1 Satz 5 Nr. 2 EStG. Weil die verdeckte Einlage mit dem Teilwert i. S. des § 6 Abs. 1 Nr. 5 EStG (abzüglich der Gegenleistung von 100.000 €) von 500.000 € zu bewerten ist, ergibt sich daraus ein Veräußerungsgewinn von 417.000 € (500.000 € ./. 83.000 €; 83 % von 100.000 €)." },
+      { text: "Abwandlung: Das Grundstück befindet sich im Betriebsvermögen, die Beteiligung im Privatvermögen." },
+      { text: "Lösung: Das Grundstück wird teilentgeltlich übertragen, weil A dieses zu einem nicht fremdvergleichbar niedrigen Kaufpreis übertragen wurde. In Höhe der Entgeltlichkeitsquote von 17 % (100.000 € zu 600.000 €) liegt aus dem Betriebsvermögen heraus ein voll entgeltliches Geschäft vor. Dies führt zur Entstehung eines betrieblichen Veräußerungsgewinnes von 83.000 € (100.000 € ./. 17.000 €; 17 % von 100.000 €)." },
+      { text: "In der restlichen Höhe (= 83 %) ist eine verdeckte Einlage in die A-GmbH gegeben, die aus dem Privatvermögen heraus erfolgt. Das Grundstück ist daher zunächst aus dem Betriebsvermögen zu entnehmen, was nach allgemeinen Grundsätzen bereits zur Erfassung eines Entnahmegewinnes führt. Die Entnahme bemisst sich nach dem Teilwert i. S. des § 6 Abs. 1 Nr. 4 EStG (abzüglich der Gegenleistung von 100.000 €) von 500.000 €, woraus sich ein Entnahmegewinn von 417.000 € (500.000 € ./. 83.000 €; 83 % von 100.000 €) ergibt." },
+      { text: "Zu beachten ist, dass die vorherige Entnahme für Zwecke des § 23 EStG im Privatvermögen zu einem Anschaffungsvorgang führt (§ 23 Abs. 1 Satz 2 EStG). Die Anschaffungskosten betragen hierfür 500.000 €. Die anschließende Weiterübertragung im Rahmen der verdeckten Einlage ist dann auch für Zwecke des § 23 EStG ein Veräußerungsvorgang (§ 23 Abs. 1 Satz 5 Nr. 2 EStG). Aufgrund der Werteübereinstimmung entsteht aber kein weiterer Veräußerungsgewinn: Veräußerungspreis 500.000 € ./. Anschaffungskosten 500.000 € = Gewinn § 23 EStG: 0 €." },
+      { typ: "tabelle", spalten: ["Schritt", "Entgeltlicher Teil (17 %)", "Unentgeltlicher Teil (83 %)"], zeilen: [
+        ["Erlös bzw. Einlagewert", "Kaufpreis 100.000 €", "Teilwert 600.000 € ./. Gegenleistung 100.000 € = 500.000 €"],
+        ["anteilige Anschaffungskosten", "17 % von 100.000 € = 17.000 €", "83 % von 100.000 € = 83.000 €"],
+        ["Gewinn", "83.000 €", "417.000 €"],
+        ["Rechtsgrundlage (Grundfall, alles im Privatvermögen)", "§ 23 Abs. 1 Nr. 1 EStG", "§ 23 Abs. 1 Satz 5 Nr. 2 EStG"],
+        ["Rechtsgrundlage (Abwandlung, Wirtschaftsgut im Betriebsvermögen)", "betrieblicher Veräußerungsgewinn", "Entnahme nach § 6 Abs. 1 Nr. 4 EStG; § 23 EStG danach 0 €"],
+      ] },
+      { text: "Rechenprobe (eigene Ergänzung): Die Aufteilung geht vollständig auf. Die Entgeltlichkeitsquote beträgt 100.000 € zu 600.000 €, also rund 17 %; die Quelle rundet auf volle Prozent. Die anteiligen Anschaffungskosten teilen die ursprünglichen 100.000 € im selben Verhältnis (17.000 € und 83.000 €). Die beiden Gewinne von 83.000 € und 417.000 € summieren sich auf 500.000 € – genau die gesamten stillen Reserven des Grundstücks (600.000 € ./. 100.000 €). Diese Summenprobe ist die schnellste Kontrolle in der Klausur: Die Trennungstheorie verschiebt die stillen Reserven zwischen zwei Tatbeständen, sie verändert ihre Summe nicht." },
+      { text: "Anmerkung zum Unterschied der beiden Lösungen (eigene Ergänzung): Die Zahlen sind in Grundfall und Abwandlung identisch, die Rechtsgrundlagen dagegen nicht – und darin liegt der Prüfungspunkt. Im Grundfall sind beide Teile private Veräußerungsgeschäfte nach § 23 EStG. In der Abwandlung wird der entgeltliche Teil als betrieblicher Veräußerungsgewinn erfasst und der unentgeltliche Teil als Entnahme nach § 6 Abs. 1 Nr. 4 EStG; die anschließende verdeckte Einlage aus dem Privatvermögen läuft dann wegen der Werteübereinstimmung mit 0 € ins Leere. Wer nur die Beträge notiert, übersieht, dass sich Einkunftsart und – bei gewerblichen Einkünften – auch die Gewerbesteuer unterscheiden." },
+    ],
+  },
+  {
+    id: "kst-t1-41",
+    kapitel: "41",
+    abschnittNr: "3.7.2.1",
+    title: "3.7.2 Einlage bei im Betriebsvermögen gehaltener Beteiligung – 3.7.2.1 Wirtschaftsgut des Betriebsvermögens",
+    thema: "Liegen Beteiligung und Wirtschaftsgut im Betriebsvermögen, bleibt alles dort: § 6 Abs. 6 Satz 2 i. V. mit § 6 Abs. 1 Nr. 5 EStG führt zur Bewertung mit dem Teilwert, zur Vollaufdeckung der stillen Reserven und zur Erhöhung der Beteiligungsanschaffungskosten. § 6b EStG ist mangels Entgelts ausgeschlossen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.7.2.1 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1 KStG", "§ 27 KStG",
+      "§ 6 Abs. 6 Satz 2 EStG", "§ 6 Abs. 6 Satz 3 EStG",
+      "§ 6 Abs. 1 Nr. 5 EStG", "§ 6 Abs. 1 Nr. 5 Buchstabe a EStG", "§ 6b EStG",
+      "BFH vom 29.07.1997, BStBl. II 1998, 652", "BT-DrS 14/265, 174",
+      "H/H/R in EStG § 6, Rz. 1728",
+    ],
+    themen: ["Betriebsvermögen", "Vollaufdeckung stiller Reserven", "Reflexartige Anschaffungskostenerhöhung", "§ 6b EStG", "Drei-Jahres-Regelung"],
+    bloecke: [
+      { text: "Wird ein Wirtschaftsgut des Betriebsvermögens verdeckt in die Kapitalgesellschaft eingelegt, erfolgt dieser Vorgang aus dem Betriebsvermögen des Anteilseigners heraus, wenn auch die Beteiligung dazu gehört. Für ertragsteuerliche Zwecke und deren Bewertung gilt aus Sicht des Anteilseigners ausschließlich § 6 Abs. 6 Satz 2 i. V. mit § 6 Abs. 1 Nr. 5 EStG, so dass die verdeckte Einlage mit dem Teilwert des Wirtschaftsgutes zu bewerten ist." },
+      { text: "Die Vorschrift spricht bereits davon, dass sich dann im Gegenzug die Anschaffungskosten der – ebenfalls im BV gehaltenen – Anteile um den Teilwert des Einlagegegenstandes erhöhen müssen, so dass sich die Auswirkungen der verdeckten Einlage dann ebenfalls nur im Betriebsvermögen reflexartig abbilden können. Dies führt dazu, dass die verdeckte Einlage im Betriebsvermögen zu einer Aufdeckung der stillen Reserven und einer Erhöhung der Anschaffungskosten führt. Die Anwendung des § 6b EStG ist aber ausgeschlossen, weil es bei der unentgeltlichen Übertragung im Rahmen der verdeckten Einlage letztlich an einem Entgelt fehlt, was für Zwecke dieser Regelung erforderlich ist." },
+      { text: "Beispiel: A hält die Anteile an der A-GmbH im Betriebsvermögen seines Einzelunternehmens (Buchwert: 50.000 €). A legt sein im Jahr 1980 angeschafftes und im Betriebsvermögen gehaltenes Grundstück verdeckt in die A-GmbH ein. Der Buchwert des Grundstücks beträgt 100.000 €; der Teilwert in 2026 beläuft sich auf 500.000 €." },
+      { text: "Lösung: Die verdeckte Einlage führt dazu, dass das eingelegte Wirtschaftsgut zwingend aus dem Betriebsvermögen des A auf seine Kapitalgesellschaft übertragen wird. Dafür ist § 6 Abs. 6 Satz 2 EStG die maßgebende Verweisquelle, was reflexartig zu einer Anschaffungskostenerhöhung in Höhe des Teilwertes führt. Die Bemessung mit dem Teilwert ergibt sich aus § 6 Abs. 1 Nr. 5 EStG. Der Vorgang führt dann insgesamt zu einer Vollaufdeckung der im Wirtschaftsgut enthaltenen stillen Reserven, was durch folgenden Buchungssatz abgebildet werden muss: Bet. A-GmbH 500.000 € an Grundstück 100.000 € und Ertrag 400.000 €." },
+      { text: "Bei der A-GmbH selbst die die verdeckte Einlage nach § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG mit dem Teilwert zu bewerten. Gleichzeitig ergibt sich eine Erhöhung des steuerlichen Einlagekontos i. S. des § 27 KStG um 500.000 €. (Der verkürzte Satzbau „selbst die die“ ist so in der Quelle; gemeint ist „ist die verdeckte Einlage … zu bewerten“.)" },
+      { text: "Zur Bewertung mit dem Teilwert kommt es auch bei Einlagen von Wirtschaftsgütern, die noch innerhalb von 3 Jahren angeschafft oder hergestellt wurden und die nach dem 27.03.2024 in die Kapitalgesellschaft verdeckt eingelegt werden. Denn § 6 Abs. 1 Nr. 5 Buchstabe a EStG kann für Vorgänge aus dem Betriebsvermögen heraus nicht mehr angewendet werden. Der Tatbestand des § 6 Abs. 6 Satz 3 EStG, der in den Fällen der verdeckten Einlage auf die Anwendung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG verweist, ist seit der Neuregelung der Vorschrift bedeutungslos." },
+      { text: "Beispiel: A hält die Anteile an der A-GmbH im Betriebsvermögen seines Einzelunternehmens (Buchwert: 50.000 €). A legt sein nach dem 27.03.2024 angeschafftes und im Betriebsvermögen gehaltenes Grundstück am 01.01.2026 verdeckt in die A-GmbH ein. Der Buchwert des Grundstücks beträgt zum Zeitpunkt der Einlage 100.000 €; der Teilwert in 2026 beläuft sich auf 500.000 €." },
+      { text: "Lösung: Die verdeckte Einlage ist bei der A-GmbH nach § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG mit dem Teilwert zu bewerten. Denn die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG kann nur noch für Einlagen angewendet werden, die aus dem Privatvermögen heraus erfolgen." },
+      { text: "Gleiches gilt daher auch für die Auswirkungen beim Anteilseigner, bei dem sich aufgrund der verdeckten Einlage die Anschaffungskosten seiner im Betriebsvermögen gehaltenen Beteiligung an der A-GmbH nach § 6 Abs. 6 Satz 2 EStG ebenfalls um den Einlagewert erhöhen, welcher dem Teilwert i. S. des § 6 Abs. 1 Nr. 5 EStG entspricht. Damit kommt es bei diesem zu einer Vollaufdeckung der in dem Grundstück ruhenden stillen Reserven und damit zur Entstehung eines Entnahmegewinnes von 400.000 €." },
+      { text: "Anmerkung zur Bezeichnung „Entnahmegewinn“ im letzten Satz (so in der Quelle): Eine Entnahme findet in dieser Konstellation gerade nicht statt – Beteiligung und Wirtschaftsgut bleiben im Betriebsvermögen, und genau deshalb ist hier § 6 Abs. 6 Satz 2 EStG und nicht § 6 Abs. 1 Nr. 4 EStG einschlägig. Der Betrag von 400.000 € ist der laufende Gewinn aus der Aufdeckung der stillen Reserven, wie ihn der Buchungssatz des ersten Beispiels ausweist. Die Bezeichnung ist erkennbar aus den Fällen des Abschnitts 3.7.1 übernommen; das Ergebnis ist davon nicht berührt." },
+      { text: "Rechenprobe (eigene Ergänzung): 500.000 € Teilwert ./. 100.000 € Buchwert = 400.000 € aufgedeckte stille Reserven – in beiden Beispielen derselbe Betrag, weil sich nur die Anschaffungszeitpunkte unterscheiden. Der Buchwert der Beteiligung von 50.000 € wird in den Lösungen nicht gebraucht; er steht im Sachverhalt, damit erkennbar ist, dass die Beteiligung nach der Einlage mit 550.000 € zu Buche steht." },
+      { text: "Merke (eigene Zusammenfassung): Der Abschnitt 3.7.2.1 ist der einfachste Fall des ganzen Abschnitts 3.7, weil kein Vermögenswechsel stattfindet – es gibt weder Entnahme noch Einlage in das Privatvermögen, sondern nur einen Aktivtausch mit Ertrag im Betriebsvermögen. Zwei Punkte sind dennoch prüfungsrelevant: Der Ausschluss des § 6b EStG mangels Entgelts nimmt dem Steuerpflichtigen die Möglichkeit, die aufgedeckten stillen Reserven zu übertragen. Und die Drei-Jahres-Regelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG greift seit dem 27.03.2024 hier nicht mehr, weshalb auch der Verweis des § 6 Abs. 6 Satz 3 EStG leerläuft – ein Restbestand des alten Rechts, der in der Klausur nicht mehr zu prüfen ist." },
     ],
   },
 ];

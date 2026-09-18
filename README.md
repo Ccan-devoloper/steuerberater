@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 39 Kapitel mit 634 Abschnitten und
-  25 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 41 Kapitel mit 658 Abschnitten und
+  26 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.7.1.1 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.7.2.1 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2545,8 +2545,22 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 17 Abs. 1 Satz 2 EStG danach ins Leere laufen, in der Klausur aber gleichwohl mit dem Ergebnis
   0 € zu prüfen sind. Dasselbe gilt bei einer nahestehenden Person, bei der zusätzlich die
   Rechtsnachfolge des § 23 Abs. 1 Satz 3 EStG greift.
-  Die teilentgeltliche Übertragung (3.7.1.2), der Abschnitt 3.7.2, die Abschnitte 3.8 und 3.9 und
-  das Kapitel 4 (Tarif) folgen; der Campus weist den Stand aus.
+  Bei **teilentgeltlicher Übertragung** greift die Trennungstheorie: Der Vorgang wird nach dem
+  Verhältnis von Kaufpreis zu Verkehrswert in ein voll entgeltliches und ein voll unentgeltliches
+  Geschäft gespalten, der entgeltliche Teil nach Veräußerungsgrundsätzen, der unentgeltliche nach
+  den Grundsätzen der verdeckten Einlage behandelt. Im Beispiel führt eine Entgeltlichkeitsquote
+  von 17 % zu 83.000 € und 417.000 € Gewinn – zusammen genau die 500.000 € stiller Reserven, was
+  die schnellste Kontrollrechnung der Klausur ist. Grundfall und Abwandlung haben dieselben
+  Zahlen, aber verschiedene Rechtsgrundlagen und damit verschiedene Einkunftsarten.
+  Liegen Beteiligung **und** Wirtschaftsgut im **Betriebsvermögen**, bleibt alles dort: Es gibt
+  weder Entnahme noch Einlage in das Privatvermögen, sondern nach § 6 Abs. 6 Satz 2 i. V. mit
+  § 6 Abs. 1 Nr. 5 EStG einen Aktivtausch mit Ertrag, der die stillen Reserven voll aufdeckt und
+  die Beteiligungsanschaffungskosten reflexartig erhöht. Zwei Punkte sind dabei prüfungsrelevant:
+  § 6b EStG ist mangels Entgelts ausgeschlossen, und die Drei-Jahres-Regelung des
+  § 6 Abs. 1 Nr. 5 Buchstabe a EStG greift seit dem 27.03.2024 hier nicht mehr, weshalb auch der
+  Verweis des § 6 Abs. 6 Satz 3 EStG leerläuft.
+  Die Abschnitte 3.7.2.2 und 3.7.2.3, 3.8 und 3.9 und das Kapitel 4 (Tarif) folgen; der Campus
+  weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

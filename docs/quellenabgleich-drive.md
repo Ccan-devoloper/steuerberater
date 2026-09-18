@@ -10617,8 +10617,51 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** die Abschnitte 3.7.1.2, 3.7.2, 3.8 und 3.9 und das Kapitel 4
-sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** die Abschnitte 3.7.2.2 und 3.7.2.3, 3.8 und 3.9 und das
+Kapitel 4 sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.7.1.2 und 3.7.2.1 – Trennungstheorie und Betriebsvermögen
+
+Quelle: dieselbe Datei; übernommen als Kapitel 40 und 41. Prüfung:
+`npm run check:k2-kst-teil1` (41 Kapitel, 658 Blöcke, 26 Tabellen).
+
+**Wichtiger Befund zur Quelle selbst, der auch für künftige Runden gilt:** Die Textextraktion des
+Drive-Readers **bricht bei Seite 79 des PDF ab**. Das Dokument hat aber **91 Seiten** – es fehlten
+damit die Abschnitte 3.7.1.2 bis 3.9 sowie das gesamte Kapitel 4 (Tarif). Der Abbruch war nicht
+erkennbar, weil die Extraktion nicht mit einem Fehler endet, sondern in eine Liste von
+Fußnoten-Ankern übergeht. Die Datei wurde daher unmittelbar als PDF geladen und mit `pypdf`
+vollständig extrahiert; die weiteren Abschnitte werden aus diesem vollständigen Text übernommen.
+**Konsequenz für andere Bestände:** Bei umfangreichen PDF-Quellen ist künftig zu prüfen, ob die
+Seitenzahl des Dokuments mit dem Ende des extrahierten Textes zusammenpasst.
+
+**Die Trennungstheorie** (3.7.1.2) spaltet den Vorgang nach dem Verhältnis von Kaufpreis zu
+Verkehrswert. Alle Zahlen der Quelle sind nachgerechnet und gehen auf; der Datensatz ergänzt die
+Summenprobe als eigene Ergänzung, weil sie die schnellste Kontrolle in der Klausur ist: 83.000 €
++ 417.000 € = 500.000 €, also genau die stillen Reserven des Grundstücks (600.000 € ./.
+100.000 €). Die Trennungstheorie verschiebt die stillen Reserven zwischen zwei Tatbeständen, sie
+verändert ihre Summe nicht. Ebenfalls als eigene Ergänzung gekennzeichnet ist der Hinweis, dass
+Grundfall und Abwandlung dieselben Beträge, aber verschiedene Rechtsgrundlagen und damit
+verschiedene Einkunftsarten haben.
+
+**Zwei Ungenauigkeiten der Quelle im Abschnitt 3.7.2.1**, wortlautgetreu übernommen und
+gekennzeichnet:
+
+1. „Bei der A-GmbH selbst **die die** verdeckte Einlage … zu bewerten“ – gemeint ist „ist die
+   verdeckte Einlage“.
+2. Gewichtiger inhaltlich: Der letzte Satz des Abschnitts spricht von einem **Entnahmegewinn** von
+   400.000 €. Eine Entnahme findet in dieser Konstellation gerade nicht statt – Beteiligung und
+   Wirtschaftsgut bleiben im Betriebsvermögen, und genau deshalb ist § 6 Abs. 6 Satz 2 EStG und
+   nicht § 6 Abs. 1 Nr. 4 EStG einschlägig. Der Betrag ist der laufende Gewinn aus der Aufdeckung
+   der stillen Reserven, wie ihn der Buchungssatz des ersten Beispiels ausweist. Die Bezeichnung
+   ist erkennbar aus den Fällen des Abschnitts 3.7.1 übernommen; das Ergebnis ist davon nicht
+   berührt.
+
+**Zwei Punkte des Abschnitts 3.7.2.1 sind prüfungsrelevant** und im Datensatz in einem eigens
+gekennzeichneten „Merke“ festgehalten: Der Ausschluss des § 6b EStG mangels Entgelts nimmt dem
+Steuerpflichtigen die Möglichkeit, die aufgedeckten stillen Reserven zu übertragen. Und die
+Drei-Jahres-Regelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG greift seit dem 27.03.2024 für Einlagen
+aus dem Betriebsvermögen nicht mehr, weshalb auch der Verweis des § 6 Abs. 6 Satz 3 EStG leerläuft
+– ein Restbestand des alten Rechts, der nicht mehr zu prüfen ist.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.6.2 und 3.7.1.1 – formelle Korrespondenz und Ausgangsvermögen
 
