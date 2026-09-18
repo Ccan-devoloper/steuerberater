@@ -193,7 +193,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Bebauung** nach § 196 BewG mit der Hinzurechnung der bis zum Stichtag entstandenen
   Herstellungskosten; und der **Nachweis des niedrigeren gemeinen Werts** nach § 198 BewG
   mit Gutachten und Kaufpreis als Nachweismitteln. Damit ist das Skript Teil 2 von der
-  Tz. 1 bis zur Tz. 12 vollständig erfasst.
+  Tz. 1 bis zur Tz. 12 vollständig erfasst. Eingearbeitet sind außerdem die **elf
+  Musterlösungen der zugehörigen Lösungsdatei**, jeweils im passenden Kapitel: das
+  Mietwohngrundstück (1.021.604 €), die beiden Sachwertfälle (566.648 € und 541.189 €),
+  die vier Erbbaurechtsfälle (1.032.268 €, 947.977 €, 802.775 € und 1.003.030 €), die
+  beiden Erbbaugrundstücksfälle (420.000 € und 428.387 €), das Gebäude auf fremdem Grund
+  und Boden samt belastetem Grundstück (294.337 € und 166.753 €) und das Grundstück im
+  Zustand der Bebauung (358.000 €). Jede Zwischensumme ist unabhängig nachgerechnet;
+  zwei eigene Kontrollrechnungen zeigen, dass die finanzmathematische Methode den
+  Grundstückswert bis auf Rundungsdifferenzen von 7 € bzw. 1 € restlos auf die beiden
+  wirtschaftlichen Einheiten aufteilt.
   Prüfung: `npm run check:k1-erbst-bewertung-teil2`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des

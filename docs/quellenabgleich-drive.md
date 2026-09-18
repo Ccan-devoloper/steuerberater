@@ -4661,3 +4661,87 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   durchgerechneter Fall zum **Erbbaugrundstück** nach Tz. 9 fehlt in der Fallsammlung
   bislang; die beiden Beispiele dieser Tz. führen denselben Sachverhalt aus der Gegenrichtung
   fort (Bodenwert 600.000 €, Erbbauzins 12.000 €, Restlaufzeit 32 Jahre).
+
+## Bewertungsrecht Teil 2 (Schäfer) – die Lösungsdatei: elf Musterlösungen, Ordner abgeschlossen
+
+- Quelle: „B-S25-ErbSt-Bewertung 2025-2026 Teil 2-Loesung-(Schaefer)-0825.pdf“, Drive-ID
+  `1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`, acht Seiten, vom Connector vollständig ausgegeben.
+- Einpflege dieses Durchgangs: alle elf Musterlösungen sind in die bestehenden Kapitel
+  eingesetzt – an die Stelle der Hinweise „steht in der Quelle ohne Lösung“. Der Datensatz
+  umfasst jetzt 9 Teile, 17 Kapitel, 341 Blöcke und 39 Tabellen; Prüfung
+  `npm run check:k1-erbst-bewertung-teil2`.
+  **Damit ist der Ordner `1yhRfkjP6VYO0V8a01BY2vqXbOnXilI97` vollständig abgearbeitet:
+  Skript und Lösungsdatei.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Jede Zwischensumme der elf Lösungen ist unabhängig nachgerechnet; alle gehen auf.**
+  Die Endwerte: Mietwohngrundstück 15.06.2025 **1.021.604 €**; Sachwert aus dem
+  vorläufigen Sachwert 487.230 € mit der Wertzahl 1,163 **566.648 €**; Bochumer
+  Einfamilienhaus **541.189 €**; Erbbaurecht über den Koeffizienten **1.032.268 €**, über
+  die finanzmathematische Methode **947.977 €**, nach Abzug des nicht zu entschädigenden
+  Gebäudewertanteils **802.775 €** und bei 62-jähriger Restlaufzeit ohne diesen Abzug
+  **1.003.030 €**; Erbbaugrundstück über den Koeffizienten **420.000 €** und
+  finanzmathematisch **428.387 €**; Gebäude auf fremdem Grund und Boden **294.337 €**,
+  das belastete Grundstück **166.753 €**; Grundstück im Zustand der Bebauung
+  **358.000 €**.
+
+  **Zwei eigene Kontrollrechnungen bestätigen die innere Geschlossenheit der
+  finanzmathematischen Methode.** Erbbaurecht 947.977 € und Erbbaugrundstück 428.387 €
+  ergeben zusammen 1.376.364 €, der Wert des unbelasteten Grundstücks beträgt
+  1.376.357 € – eine Rundungsdifferenz von 7 €. Gebäude auf fremdem Grund und Boden
+  294.337 € und belastetes Grundstück 166.753 € ergeben 461.090 € gegenüber einem
+  Ertragswert des unbelasteten Grundstücks von 461.089 € – 1 € Differenz. Die Methode
+  teilt den Grundstückswert also restlos auf die beiden wirtschaftlichen Einheiten auf.
+
+  **Aufgelöst: die Restlaufzeit-Frage aus dem Beispiel der Tz. 10.** Im vorangegangenen
+  Durchgang war vermerkt, dass die Restlaufzeit mit „10 Jahren (31.12.2036)“ angegeben
+  ist, vom Stichtag 20.04.2025 aus aber rund 11,7 Jahre verbleiben. Die Musterlösung
+  verwendet **beide** Zahlen, jede für eine andere Größe: die **Restlaufzeit des
+  Nutzungsrechts** mit 10 Jahren (Vervielfältiger 7,3601, Abzinsungsfaktor 0,5584) und die
+  **Restnutzungsdauer des Gebäudes** mit 11 Jahren, gewonnen aus dem Kalenderjahresvergleich
+  (2036 ./. 2002 = 34 Jahre tatsächliche Gesamtnutzungsdauer ./. 23 Jahre Alter,
+  § 185 Abs. 3 S. 7 BewG; Vervielfältiger 7,8869). Beide Größen betreffen denselben
+  Zeitraum und weichen um ein Jahr voneinander ab (so in der Quelle). Bemerkenswert an
+  dieser Lösung ist außerdem, dass die Restnutzungsdauer nicht über die
+  Gesamtnutzungsdauer der Anlage 22 (40 Jahre), sondern über die durch die
+  Abbruchverpflichtung begrenzte tatsächliche Gesamtnutzungsdauer ermittelt wird.
+
+  **Bestätigt: die eigene Kontrollrechnung zur Tz. 11.** Für das Grundstück im Zustand der
+  Bebauung war im vorangegangenen Durchgang eine ausdrücklich als eigene gekennzeichnete
+  Herleitung vermerkt (208.000 € + 150.000 € = 358.000 €). Die Musterlösung bestätigt sie
+  Zeile für Zeile; die eigene Rechnung ist durch den Wortlaut der Quelle ersetzt. Das ist
+  derselbe Ablauf wie beim „Beispiel Seite 10“ des Teils 3.
+
+  **Der Indexstreit ist entschieden.** Die Lösungsdatei rechnet durchgehend mit dem
+  Oktober-2001-Index **77,11**, während das Skript selbst **77,1** nennt. Beide Wege führen
+  zu denselben Ansätzen (359 € Verwaltungskosten, 14,00 € Instandhaltungskosten). Damit
+  steht die Lösungsdatei auf derselben Seite wie die Fietze-Musterlösung, die ebenfalls
+  77,11 verwendet; die abweichende Angabe im Skripttext bleibt eine Einzelstelle.
+
+  Stellen, an denen die Lösungsdatei nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und gekennzeichnet:
+
+  - **Instandhaltungskosten 14,00 € gegenüber 14,03 €.** 9 € × 120,2/77,11 ergibt
+    14,0288 €, kaufmännisch auf zwei Stellen also 14,03 €. Die Lösungen zum
+    Mietwohngrundstück und zum Erbbaurecht setzen 14,00 € an (8.820 € statt 8.839 €),
+    die Lösung zum Gebäude auf fremdem Grund und Boden dagegen 14,03 € (× 30 % = 4,209 €,
+    gerundet 4,20 €). Beide Ansätze stehen in derselben Datei.
+  - **Beispiel 2 Seite 33.** In der wiederholten Ermittlung des unbelasteten
+    Grundstückswerts steht „9 € × 120,2/77,11 = **13,80 €** × Nutzfläche 75 qm = 1.050 €“.
+    Der ausgewiesene Betrag von 1.050 € entspricht 14,00 € × 75 qm; 13,80 € × 75 qm wären
+    1.035 €. Die Summe der Bewirtschaftungskosten (10.401 €) rechnet mit 1.050 € weiter.
+  - **Beispiel 3 Seite 33.** „Wert des Erbbaurechts (**§ 193 Abs. BewG**)“ – die
+    Absatzziffer fehlt.
+  - **Beispiel 1 Seite 32.** „Es erfolgt **eine gesonderten** Feststellung“.
+  - **Beispiel Seite 20 und Beispiel Seite 27.** Beide Einleitungen öffnen eine Klammer
+    nach der Grundstücksart, die nicht geschlossen wird.
+  - **Beispiel Seite 27.** „**Altersminderungsfaktor** § 190 Abs. 6 BewG“ statt
+    Alterswertminderungsfaktor.
+  - **Beispiel Seite 42.** „kapitalisierter vertraglich **vereinbartes jährliches**
+    Nutzungsentgelt“.
+
+  Querbezug: Die Lösung zum Beispiel 1 der Tz. 8 rechnet dieselben
+  Bewirtschaftungskosten-Schritte wie der Übungsfall **Fietze** und bestätigt die dort
+  verwendeten Ansätze 359 € und 14,00 €. Die Lösung zum Bochumer Einfamilienhaus
+  verwendet den Baupreisindex 183,3 – denselben, den der Fall Fietze für das Hagener
+  Einfamilienhaus ansetzt.
