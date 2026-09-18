@@ -10500,3 +10500,50 @@ bloß formellen Fehlern nach § 4 Abs. 7 EStG.
 
 **Noch offen:** der Rest des Kapitels 2 (ab 2.2.3.2, den nichtabziehbaren Aufwendungen des
 § 10 KStG), die Kapitel 3 (verdeckte Einlage) und 4 (Tarif) sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 2.2.3.2 und 2.2.4 – Kapitel 2 bis zum Spendenabzug
+
+Der Datensatz hat jetzt elf Kapitel mit 207 Abschnitten.
+
+**§ 10 Nr. 2 KStG mit seinem vollständigen Katalog** ist der Kern dieser Runde. Die Quelle
+arbeitet dabei zwei Abgrenzungen heraus, die in der Klausur regelmäßig darüber entscheiden, ob
+eine Position hinzugerechnet wird oder nicht:
+
+- **Nebenleistungen zur Umsatzsteuer bleiben abziehbar** – Säumniszuschlag, Zinsen,
+  Verspätungszuschlag –, weil die Umsatzsteuer eine abziehbare Betriebssteuer ist. Für die
+  Gewerbesteuer gilt dagegen ausschließlich § 4 Abs. 5b EStG.
+- **Nebenleistungen zur Kapitalertragsteueranmeldung** der Gesellschaft fallen ebenfalls nicht
+  unter das Abzugsverbot, weil die Gesellschaft dort nur eine Verpflichtung **zugunsten des
+  Anteilseigners** erfüllt.
+
+**Die Zinsbesonderheit ist in beide Richtungen ausgearbeitet** und mit zwei Beispielen belegt,
+die sich spiegeln. Erst der Aufwandsfall: 80.000 € Nachzahlungszinsen sind nicht abziehbar;
+werden sie später erstattet, teilen die Erstattungszinsen ihr Schicksal und bleiben
+unversteuert – aber nur bis zur ursprünglichen Höhe, so dass von 90.000 € Erstattungszinsen
+genau 10.000 € steuerpflichtig blieben. Dann der Ertragsfall: 80.000 € Erstattungszinsen sind
+steuerpflichtig; folgen daraus später 100.000 € Nachzahlungszinsen, sind 80.000 € abziehbar und
+nur der Überhang von 20.000 € fällt unter das Abzugsverbot. Beide Rechnungen sind nachgerechnet
+und gehen auf. Ergänzend nennt die Quelle die Billigkeitslösung des § 163 AO für den Fall, dass
+Nachzahlungs- und Erstattungszinsen aus **demselben** Sachverhalt folgen.
+
+**Bei § 10 Nr. 4 KStG** steht der Satz, der über die Anwendung entscheidet: Das Gremium muss
+tatsächlich **überwachen**. Hat es nach dem Gesellschaftsvertrag nur beratende Funktion,
+scheidet die hälftige Hinzurechnung aus. Umgekehrt ist der Begriff der Vergütung weit –
+Tagegelder, Sitzungsgelder und pauschale Reisegelder gehören dazu, sogar Entgelte für
+Nebentätigkeiten wie eine Finanzierungsberatung; nur der Aufwendungsersatz nach
+Einzelnachweis bleibt außen vor. Mitgenommen ist auch die umsatzsteuerliche Wende: Nach dem
+BFH-Urteil vom 27.11.2019 schließt eine **feste** Aufsichtsratsvergütung die
+Unternehmereigenschaft mangels Vergütungsrisiko aus; die Verwaltung ist dem in Abschn. 2.2
+Abs. 3a UStAE gefolgt.
+
+**Beim Spendenabzug** kommt es auf die Reihenfolge an, und die Quelle sagt sie klar: Zuerst
+werden sämtliche gewinnwirksam gebuchten Zuwendungen nach § 9 Abs. 2 KStG wieder hinzugerechnet
+– dieses erhöhte Einkommen ist der „steuerliche Gewinn“ –, und erst darauf werden die beiden
+Höchstbeträge angewandt (4 v. T. aus Umsätzen, Löhnen und Gehältern oder 20 % des steuerlichen
+Gewinns), von denen der günstigere gilt. Zwei Fallstricke stehen daneben: Parteispenden sind
+bei Körperschaften über § 4 Abs. 6 EStG gar nicht abziehbar, und eine gesellschaftsrechtlich
+motivierte Spende ist schon verdeckte Gewinnausschüttung – dann entfällt die Begünstigung im
+Rahmen der Höchstbeträge vollständig.
+
+**Noch offen:** der Rest des Kapitels 2, die Kapitel 3 (verdeckte Einlage) und 4 (Tarif) sowie
+die Skriptteile II bis VII.
