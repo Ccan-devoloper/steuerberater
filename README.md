@@ -102,7 +102,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sieben Monaten, kann dafür aber die Hypothek voll abziehen; eine nicht zuzuordnende
   Einkommensteuerschuld von 10.000 € wird nach Nettowerten auf fünf Vermögensgruppen
   verteilt und dort jeweils gekürzt; am Ende stehen der um den Kapitalwert der Witwenrente
-  gekürzte Versorgungsfreibetrag und eine Erbschaftsteuer von 631.313 €.
+  gekürzte Versorgungsfreibetrag und eine Erbschaftsteuer von 631.313 €. Dazu **sieben
+  Einzelfälle** zum begünstigungsfähigen Vermögen des § 13b Abs. 1 ErbStG: Sie tasten die
+  drei Nummern der Vorschrift an ihren Rändern ab – Einzelwirtschaftsgüter statt ganzem
+  Betrieb, mittelbare Betriebsschenkung, Mitunternehmeranteil und Teil davon – und zeigen
+  an drei Varianten, dass die 25-Prozent-Grenze ausschließlich beim Erblasser oder Schenker
+  und ausschließlich unmittelbar gemessen wird.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

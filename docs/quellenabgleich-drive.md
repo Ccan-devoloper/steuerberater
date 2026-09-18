@@ -5579,3 +5579,48 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Vermögensgegenstände „10.000 € × 270.000 € **×** 6.469.500 €“ statt einer Division –
   gerechnet ist, wie das Ergebnis von 417 € und die Summe von genau 10.000 € belegen,
   richtig geteilt.
+
+## ErbSt-Fallsammlung 4. Fachtermin – sieben Einzelfälle zu § 13b Abs. 1 ErbStG
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), im Anschluss an die
+  Übungsklausur „Backhaus“.
+- Einpflege dieses Durchgangs: die sieben Kurzfälle als achter Eintrag; der Datensatz
+  umfasst jetzt 8 Übungsfälle, 265 Blöcke und 48 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Alle sieben Lösungen stehen in der Quelle und sind wortlautgetreu übernommen; gerechnet
+  wird hier nicht, geprüft wird nur die Einordnung.
+
+  **Die Reihe ist systematisch gebaut und lässt sich in drei Gruppen lesen** – das sagt die
+  Quelle nicht, es ergibt sich aber aus ihren Antworten und ist im Datensatz vermerkt:
+
+  - **Beispiele 1 und 2 verneinen**, weil kein Betrieb als solcher vom Übertragenden auf
+    den Erwerber übergeht: einmal, weil nur Einzelwirtschaftsgüter übertragen werden und
+    die wesentliche Betriebsgrundlage zurückbleibt; einmal, weil der Beschenkte den Betrieb
+    bei einer mittelbaren Betriebsschenkung selbst erwirbt.
+  - **Beispiele 3 und 4 bejahen** für den Mitunternehmeranteil und ausdrücklich auch für
+    einen Teil davon.
+  - **Beispiele 5 bis 7 kreisen um die 25-Prozent-Grenze** und zeigen drei verschiedene
+    Fallen.
+
+  **Die Grenze wird ausschließlich beim Erblasser oder Schenker und ausschließlich
+  unmittelbar gemessen.** Deshalb schadet es im Beispiel 5 nicht, dass jedes Kind nur 15 %
+  erhält; deshalb ist im Beispiel 6 dieselbe Beteiligung einmal begünstigungsfähig
+  (Schenkung bei 30 %) und zwölf Jahre später nicht mehr (Erbfall bei 15 %); und deshalb
+  hilft im Beispiel 7 die mittelbare Beteiligung über die OHG nicht, obwohl der Erblasser
+  wirtschaftlich über 20 % + 50 % von 80 % = 60 % der X-GmbH verfügt. Der Anteil an der OHG
+  selbst bleibt davon unberührt und ist nach der Nummer 2 begünstigungsfähig.
+
+  Querbezug: Die Übungsklausur „Backhaus“ derselben Sammlung wendet genau diese Regel an –
+  dort ist der 20-Prozent-Anteil an der X-GmbH mit 2.336.000 € in voller Höhe
+  steuerpflichtig. Beispiel 7 erklärt, warum daran auch eine mittelbare Beteiligung nichts
+  ändern würde. Dieselbe Grenze taucht im Skriptteil 2 an drei weiteren Stellen auf: beim
+  Verwaltungsvermögen (§ 13b Abs. 4 Nr. 2 ErbStG), bei der Lohnsummenregelung und im
+  Bewertungsrecht beim Paketzuschlag nach § 11 Abs. 3 BewG.
+
+  Zwei Anmerkungen zur Darstellung: Die Quelle enthält für diese Reihe **keine eigene
+  Aufgabenstellung**; sie ergibt sich aus der Frage, mit der jeder Fall endet, und ist im
+  Datensatz nur zusammengefasst wiedergegeben – das ist dort ausdrücklich vermerkt. Und in
+  der Lösung zum Beispiel 5 spricht die Quelle vom Erblasser **A**, während der Sachverhalt
+  ihn **E** nennt (so in der Quelle).
