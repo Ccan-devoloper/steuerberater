@@ -350,7 +350,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Aufhebung der Home-Cinema-Pfändung wegen des Miteigentums der Ehefrau mit Verweis auf
   die Pfändung des Miteigentumsanteils nach § 321 Abs. 1 AO, Rücknahme der
   PC-Anlagen-Pfändung nach § 130 Abs. 1 AO bei auf null reduziertem Ermessen und Aufhebung
-  der Standuhr-Pfändung wegen nachgewiesenen Dritteigentums.
+  der Standuhr-Pfändung wegen nachgewiesenen Dritteigentums. Den Abschluss bilden die
+  beiden **Anlagen** mit den Gesetzesauszügen, auf die die Arbeitsunterlage durchgehend
+  verweist: aus dem BGB die §§ 90, 90a, 91 bis 97 sowie 1120 und 1362, aus der ZPO die
+  §§ 739, 769 bis 772, 811 mit dem vollständigen Katalog der unpfändbaren Sachen, 811a
+  (Austauschpfändung) und 865. **Abschnitt 15 und damit der gesamte Teil VI sind
+  vollständig eingepflegt.**
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

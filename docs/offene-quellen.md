@@ -98,16 +98,16 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Beispielen sowie die Sperrgründe des § 371 Abs. 2 AO einschließlich des Zuschlags nach
   § 398a AO eingepflegt, ebenso die Teile V und VI (leichtfertige Steuerverkürzung als
   Ordnungswidrigkeit, Ablaufhemmung des § 171 Abs. 9 AO). **Der Abschnitt 14 ist damit
-  vollständig.** Aus dem **Abschnitt 15** (Vollstreckungsrecht, §§ 249 bis 327 AO) sind der
-  Teil I (rechtliche Grundlagen, Überblick über die gesetzlichen Regelungen), der Teil II
-  (allgemeine Vollstreckungsvoraussetzungen von § 249 Abs. 1 AO bis zur Mahnung nach § 259
-  AO, einschließlich Übungsfall zur Steueranmeldung) und der Teil III (Einstellung und
-  Beschränkung der Vollstreckung nach § 257 AO) und der Teil IV (Vollstreckung wegen
-  Geldforderungen in bewegliche Sachen, §§ 281ff AO, einschließlich der Vollstreckung gegen
-  Ehegatten), der Teil V (Einwendungen gegen Vollstreckungsmaßnahmen und Rechtsschutz) sowie
-  die Teile VI und VII mit beiden Übungsfällen und ihren Lösungshinweisen eingepflegt. Offen
-  sind aus diesem Band nur noch die **Anlagen 1 und 2 des Abschnitts 15** (Auszüge aus BGB
-  und ZPO).
+  vollständig.** Der **Abschnitt 15** (Vollstreckungsrecht, §§ 249 bis 327 AO) ist ebenfalls
+  vollständig eingepflegt: Teil I (rechtliche Grundlagen, Überblick über die gesetzlichen
+  Regelungen), Teil II (allgemeine Vollstreckungsvoraussetzungen von § 249 Abs. 1 AO bis zur
+  Mahnung nach § 259 AO, einschließlich Übungsfall zur Steueranmeldung), Teil III
+  (Einstellung und Beschränkung der Vollstreckung nach § 257 AO), Teil IV (Vollstreckung
+  wegen Geldforderungen in bewegliche Sachen, §§ 281ff AO, einschließlich der Vollstreckung
+  gegen Ehegatten), Teil V (Einwendungen gegen Vollstreckungsmaßnahmen und Rechtsschutz),
+  die Teile VI und VII mit beiden Übungsfällen und ihren Lösungshinweisen sowie die Anlagen
+  1 und 2 (Auszüge aus BGB und ZPO). **Damit ist der gesamte Band AO Teil VI abgearbeitet;
+  aus dieser Datei ist nichts mehr offen.**
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript

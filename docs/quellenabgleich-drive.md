@@ -2769,3 +2769,33 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Dienstag, dem 17.07.07 ein und war um acht Tage verspätet. Auch die Wochentagsangaben des
   Sachverhalts treffen zu (08.06.2007 Freitag, 14.06.2007 Donnerstag, 08.07.2007 Sonntag,
   17.07.2007 Dienstag; ebenso 10.05.2007 Donnerstag).
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 15: Vollstreckungsrecht (Teil 5, Abschluss)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 15, Anlagen 1 und 2.
+- Einpflege dieses Durchgangs: zwei Kapitel – die Anlage 1 mit den Auszügen aus dem BGB
+  (§§ 90, 90a, 91 bis 97 sowie 1120 und 1362) und die Anlage 2 mit den Auszügen aus der ZPO
+  (§§ 739, 769 bis 772, 811 mit dem vollständigen Katalog der unpfändbaren Sachen, 811a und
+  865). **Damit sind der Abschnitt 15 und der gesamte Band AO Teil VI vollständig
+  eingepflegt.** Das Skript umfasst 11 Teile, 128 Kapitel, 2.772 Blöcke und 222 Tabellen;
+  Prüfung `npm run check:k1-ao-skript-jacobs`.
+- Aus dieser Drive-Datei ist nichts mehr offen.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Anmerkungen zu den Anlagen:
+
+  - Die Anlage 1 druckt § 98 BGB nicht ab, obwohl der Abschnitt mehrfach auf „§§ 97, 98 BGB“
+    verweist (so in der Quelle). Ergänzt wurde nichts.
+  - Der zweite Satz des § 865 Abs. 2 ZPO bricht am Ende der letzten Seite mitten im Satz ab
+    („… solange nicht ihre Beschlagnahme im Wege der Zwangsvollstreckung in das
+    unbewegliche“). Der Datensatz gibt den Torso wieder und weist darauf hin.
+  - Der Auszug zu § 811 ZPO gibt eine ältere Fassung der Vorschrift wieder – erkennbar unter
+    anderem an der Nr. 3 (Milchkuh, Schweine, Ziegen, Schafe) und der Nr. 6 (Witwen und
+    minderjährige Erben). Die Vorschrift ist zwischenzeitlich neu gefasst worden. Der
+    Wortlaut der Arbeitsunterlage ist unverändert übernommen; im Datensatz steht ein Hinweis
+    darauf, dass für die Bearbeitung die jeweils geltende Fassung heranzuziehen ist.
+
+  Darstellungsentscheidung: Der Katalog des § 811 Abs. 1 ZPO ist als Tabelle mit den Nummern
+  1 bis 13 (einschließlich 4a) wiedergegeben, damit die dreizehn Tatbestände einzeln
+  ansteuerbar bleiben; der Wortlaut ist unverändert.
