@@ -17,9 +17,9 @@
    Eintrag dem passenden Campus zu ("ao", "ust", "erbst"); jeder Campus zeigt
    nur seine eigenen Einträge. Der Prüfungstag 2021/2022 ist damit vollständig:
    AO/FGO (Dr. Bruno Bayer), Umsatzsteuer (Bartel, BB-GmbH, Prager) und
-   Erbschaftsteuer (Erbfall Muhr). Vom Jahrgang 2022/2023 ist der AO/FGO-Teil
-   (Monika Beer) eingepflegt; dieser Jahrgang weist anders als der vorige
-   Wertungspunkte aus.
+   Erbschaftsteuer (Erbfall Muhr). Vom Jahrgang 2022/2023 sind der AO/FGO-Teil
+   (Monika Beer, 35 Punkte) und der Umsatzsteuerteil (Inge Irlbacher, 35 Punkte)
+   eingepflegt; dieser Jahrgang weist anders als der vorige Wertungspunkte aus.
 
    Personenbezogene Wasserzeichen des Quell-PDFs sind nicht übernommen.
    Blocktypen wie bei den übrigen Klausurdatensätzen: text | titel | tabelle. */
@@ -370,6 +370,98 @@ export const k1Pruefungsklausuren = [
       { text: "Eine Änderung gegenüber dem Schwesterjahrgang, die in der Anlage steht: Die Rechtsbehelfsbelehrung dieses Bescheids nennt die Bekanntgabefiktion mit dem **vierten** Tag nach Aufgabe zur Post. Die Rechtsbehelfsbelehrung der Prüfung 2021/2022 nennt noch den **dritten** Tag. Beide sind hier wortlautgetreu wiedergegeben; die Verlängerung von drei auf vier Tage gilt für nach dem 31.12.2021 abgesandte Verwaltungsakte." },
       { text: "Zeitliche Einordnung: Der Fall spielt im Jahr 2022. Wer ihn nach heutigem Rechtsstand löst, muss selbst prüfen, was sich seither geändert hat. Die Aufgabe ist hier unverändert mit den Jahreszahlen des Prüfungsjahrgangs wiedergegeben." },
       { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Bekanntgabe und Bekanntgabefiktion, Gesamtrechtsnachfolge nach § 45 AO, Form, Frist und Beschwer beim Einspruch sowie die Wiedereinsetzung nach § 110 AO behandelt der AO-Campus (Klausur 1) in eigenen Einheiten; die Originalklausuren 2011 bis 2015 enthalten mehrere ausformulierte Zulässigkeitsgutachten. Die Vollstreckung gegen den Gesamtrechtsnachfolger und die Voraussetzungen der §§ 249 ff. AO stehen dort ebenfalls." },
+    ],
+  },
+  {
+    id: "k1-pk-2022-ust-irlbacher",
+    fach: "ust",
+    block: "amtlich",
+    blockLabel: "Steuerberaterprüfung · amtliche Prüfungsaufgabe",
+    nummer: 5,
+    jahrgang: "2022/2023",
+    teil: "II",
+    wertung: "35 von 100 Wertungspunkten (Tz. 1: 9, Tz. 2: 10, Tz. 3: 11, Tz. 4: 5)",
+    title: "Teil II – Inge Irlbacher (Prüfung 2022/2023): Differenzbesteuerung, ein Auktionshaus, eine Verkaufskommission und vier Gemälde in vier Länder",
+    thema: "Eine Kunst- und Antiquitätenhändlerin, die zur Differenzbesteuerung nach § 25a UStG optiert hat – und jeder der vier Sachverhalte prüft, ob diese Option hier überhaupt trägt. Ein Gemälde wird in Salzburg von einer Privatperson gekauft, in Düsseldorf über ein Auktionshaus im eigenen Namen der Einlieferin versteigert und vom niederländischen Erwerber abgeholt, wobei eine niederländische Spedition transportiert und ihre Rechnung erst im Juli eingeht. Eine Meißner Figurengruppe wird für fremde Rechnung, aber im eigenen Namen verkauft – an einen österreichischen Rechtsanwalt, wobei die Abrechnung gegenüber der Auftraggeberin einen Umsatzsteuerausweis enthält, der rechnerisch aufgeht. Vier Gemälde eines Künstlers, zwei davon 2018 gekauft, eines davon aus dessen Wiener Atelier innergemeinschaftlich geliefert, gehen an Käufer in Berlin, Köln, Mailand und Zürich – der Züricher bekommt sein Bild von der Händlerin persönlich im Weihnachtsurlaub nach Davos gebracht. Und schließlich ein BMW, der zu 60 % im Kunsthandel, zu 10 % bei der steuerfreien Wohnraumvermietung und zu 30 % privat gefahren wird",
+    rechtsstand: "Rechtsstand des Prüfungsjahrgangs 2022/2023 · Besteuerungszeitraum 2022 (in Tz. 3 auch 2018)",
+    quelle: "Steuerberaterprüfung 2022/2023, Prüfungsaufgaben aus dem Verfahrensrecht und anderen Steuerrechtsgebieten, Teil II: Umsatzsteuer · amtlicher Aufgabentext",
+    normen: [
+      "§ 25a UStG", "§§ 14, 14a UStG", "§ 14a Abs. 5, § 14 Abs. 7 UStG", "§§ 33, 34 UStDV",
+      "§ 18a UStG", "§ 19 Abs. 2 UStG",
+      "§ 4 Nr. 9 Buchst. a, Nr. 12 Buchst. a UStG",
+      "§ 21 EStG", "Art. 138 MwStSystRL",
+    ],
+    themen: ["Amtliche Prüfungsaufgabe", "Ohne Musterlösung", "Differenzbesteuerung", "Kunstgegenstände", "Verkaufskommission", "Auktion", "Innergemeinschaftliche Lieferung", "Innergemeinschaftlicher Erwerb", "Ausfuhrlieferung", "Vorsteueraufteilung", "Ermäßigter Steuersatz"],
+    sachverhalt: [
+      { typ: "titel", text: "Steuerberaterprüfung 2022/2023 · Teil II: Umsatzsteuer · Allgemeine Hinweise" },
+      { text: "Erforderliche Belege und Aufzeichnungen sind vorhanden. Voranmeldungszeitraum ist der Kalendermonat. Soweit aus dem Sachverhalt nichts Gegenteiliges hervorgeht, gilt:" },
+      { text: "Rechnungen enthalten die nach §§ 14, 14a UStG bzw. §§ 33, 34 UStDV erforderlichen Angaben, insbesondere auch die erforderlichen Angaben nach § 14a Abs. 5 und § 14 Abs. 7 UStG; es wurden keine Erklärungen nach § 19 Abs. 2 UStG abgegeben; es besteht gegebenenfalls Einverständnis über die Abrechnung im Gutschriftenweg; alle angesprochenen Unternehmer versteuern ihre Umsätze nach den allgemeinen Vorschriften des UStG und nach vereinbarten Entgelten; alle Unternehmer geben monatliche Voranmeldungen ab." },
+      { text: "Die Unternehmer verwenden im innergemeinschaftlichen Waren- und Dienstleistungsverkehr jeweils die gültige Umsatzsteuer-Identifikationsnummer ihres Heimatlandes; die Umsatz- bzw. Erwerbsschwellen wurden ggf. überschritten; alle Unternehmer sind ihrer Pflicht zur Abgabe von Zusammenfassenden Meldungen (§ 18a UStG) ordnungsgemäß nachgekommen; gemischt genutzte Wirtschaftsgüter wurden dem Unternehmensvermögen zugeordnet; die geplante Verwendung entspricht der tatsächlichen; alle angegebenen Orte liegen im Inland." },
+      { text: "Auf die Steuerbefreiungen nach § 4 Nr. 12 Buchst. a und Nr. 9 Buchst. a UStG wurde – soweit möglich – gegebenenfalls ordnungsgemäß verzichtet. Insoweit handelt es sich bei den in den folgenden Sachverhalten genannten Beträgen um Nettobeträge. Auf die Ermittlung der Bemessungsgrundlage für die private Nutzung von Gebäudeteilen wird gegebenenfalls verzichtet." },
+      { text: "Auf die EUSt und den dazugehörigen Vorsteuerabzug braucht nicht eingegangen zu werden. Die Kalenderjahre bis einschließlich 2021 sind bestandskräftig veranlagt. Die steuerliche Beurteilung war jeweils zutreffend. Das Kalenderjahr 2022 gilt als abgelaufen. Vereinfachungsregelungen des UStAE sind anzuwenden. Unterstellen Sie in den anderen Mitgliedstaaten der EU inhaltsgleiche Regelungen wie im deutschen UStG." },
+      { text: "Aus Vereinfachungsgründen ist im gesamten Kalenderjahr 2020 von dem Regelsteuersatz in Höhe von 19 % und von dem ermäßigten Steuersatz in Höhe von 7 % auszugehen. (so in der Quelle: Der Hinweis nennt das Kalenderjahr 2020, während der zu beurteilende Besteuerungszeitraum 2022 ist – die Zeile stammt offenbar unverändert aus dem Vorjahrgang, in dem der Steuersatzwechsel des Jahres 2020 eine Rolle spielte.)" },
+      { typ: "titel", text: "Sachverhalt" },
+      { text: "Inge Irlbacher ist seit vielen Jahren als Kunst- und Antiquitätenhändlerin tätig. Ihr Unternehmen betreibt sie in gemieteten Räumen in München, Brienner Str. 25. Im selben Gebäude wohnt Inge auch zur Miete. Mit der UStVA Januar 2020 hat Inge ordnungsgemäß zur Differenzbesteuerung nach § 25a UStG optiert." },
+      { text: "Seit 2003 besitzt Inge auch mehrere Mietwohngrundstücke in Freising, die sie langfristig an Privatpersonen zu deren privaten Wohnzwecken vermietet. Sämtliche Mietobjekte stellen ertragsteuerlich Privatvermögen dar, aus denen Inge Einkünfte aus Vermietung und Verpachtung nach § 21 EStG erzielt. Im Besteuerungszeitraum 2022 kam es u. a. zu folgenden Geschäftsvorfällen:" },
+      { typ: "titel", text: "1. Gemälde aus Salzburg, Versteigerung in Düsseldorf (9 Punkte)" },
+      { text: "Am 28.01.2022 kam der Bankangestellte Karl Kraus aus Salzburg (Österreich) in das Geschäft von Inge. Kraus hatte von seinem Onkel eine ansehnliche Privatsammlung von Kunstwerken vorwiegend aus dem 19. und 20. Jahrhundert geerbt. Das Gemälde eines bekannten bayerischen Landschaftsmalers aus der 2. Hälfte des 19. Jahrhunderts erregte das Interesse von Inge. Am 02.02.2022 fuhr sie deshalb nach Salzburg, um das Gemälde in Augenschein zu nehmen. Da ihre Erwartungen umfänglich bestätigt wurden, erwarb sie sogleich das Gemälde für 10.000,00 € und nahm es umgehend mit nach München. Den Kaufpreis überwies Inge tags darauf." },
+      { text: "Um einen möglichst hohen Verkaufspreis zu erzielen, reichte Inge das Gemälde zur Versteigerung beim Auktionshaus Pracht in Düsseldorf ein. Pracht sollte das Gemälde im Namen von Inge und für eine Provision von 10 % des Meistgebots bei nächster Gelegenheit versteigern. Inge brachte das Gemälde am 11.02.2022 mit eigenem Transporter von München zum Auktionshaus nach Düsseldorf." },
+      { text: "Im Rahmen der Auktion am 12.04.2022 erhielt der Kunsthändler van Dyke aus Amsterdam (Niederlande) für sein Meistgebot in Höhe von 15.000,00 € den Zuschlag. Van Dyke beglich den Betrag unmittelbar nach der Auktion. Inge beauftragte noch am selben Tag die auf Kunsttransporte spezialisierte Spedition Vermeer aus Rotterdam (Niederlande) mit dem Transport des Gemäldes vom Auktionshaus in Düsseldorf zu van Dyke nach Amsterdam. Am 13.04.2022 holte Vermeer das Gemälde in Düsseldorf ab und brachte es nach Amsterdam zu van Dyke. Aufgrund eines Versehens in der Buchhaltung von Vermeer ging die Rechnung über die vereinbarten Transportkosten in Höhe von 400,00 € erst am 04.07.2022 bei Inge ein. Inge beglich den Betrag umgehend." },
+      { text: "Am 19.04.2022 ging bei Inge folgende verkürzt wiedergegebene Abrechnung des Auktionshauses Pracht ein:" },
+      { typ: "tabelle", spalten: ["Position", "Betrag"], zeilen: [
+        ["Vereinnahmtes Meistgebot", "15.000,00 €"],
+        ["abzüglich 10 % Provision", "1.500,00 €"],
+        ["zuzüglich 19 % USt", "285,00 €"],
+        ["Summe des Abzugs", "./. 1.785,00 €"],
+        ["Zahlungsbetrag", "13.215,00 €"],
+      ] },
+      { text: "Die Überweisung nahm Pracht noch am selben Tag vor." },
+      { typ: "titel", text: "2. Figurengruppe aus Meißner Porzellan (10 Punkte)" },
+      { text: "Am 10.05.2022 erhielt Inge das Angebot, eine 200 Jahre alte Figurengruppe aus Meißner Porzellan (Kunstgegenstand laut Zolltarif) zu erwerben. Die Figurengruppe stand bisher im Büro des erfolgreichen Wirtschaftsprüfers Walter Weber. Weber hatte die Figurengruppe vor 20 Jahren als Einrichtungsgegenstand für seine Kanzlei erworben und dafür den vollen Vorsteuerabzug in Anspruch genommen. Nachdem Weber seine Kanzlei in Ingolstadt an seine Tochter Veronika Weber übergeben hatte, wollte diese sich neu einrichten und bot deshalb die wunderschöne Figurengruppe Inge zum Verkauf an." },
+      { text: "Allerdings scheute Inge das Risiko. Sie einigte sich deshalb mit Veronika, im eigenen Namen einen Käufer zu suchen, wollte aber nur für fremde Rechnung, also auf Provisionsbasis, tätig werden. Veronika war damit einverstanden und beide einigten sich auf eine Provision von 15 % des Verkaufspreises. Inge fertigte von der Figurengruppe aussagekräftige Bilder und bot sie auf ihrer Homepage zum Verkauf an." },
+      { text: "Am 08.06.2022 meldete sich daraufhin der selbständige Rechtsanwalt Karl Klammer aus Innsbruck (Österreich), der für seine Kanzleiräume in Innsbruck (Österreich) auf der Suche nach repräsentativen Einrichtungsgegenständen und Accessoires war. Schon am nächsten Tag wurde man sich handelseinig und Inge verkaufte die Figurengruppe an Klammer für 25.000,00 €. Am 15.06.2022 holte ein Angestellter von Inge die Figurengruppe in der Kanzlei von Veronika in Ingolstadt ab und brachte sie nach Innsbruck (Österreich). Klammer beglich die beiliegende Rechnung umgehend. Am 20.06.2022 erhielt Veronika folgende auszugsweise wiedergegebene Rechnung:" },
+      { typ: "tabelle", spalten: ["Position", "Betrag"], zeilen: [
+        ["Verkaufspreis", "25.000,00 €"],
+        ["abzüglich 15 % Provision", "3.750,00 €"],
+        ["zuzüglich 19 % USt", "712,50 €"],
+        ["Summe des Abzugs", "./. 4.462,50 €"],
+        ["Zahlungsbetrag", "20.537,50 €"],
+        ["Zusatz der Rechnung", "„In diesem Betrag ist die USt von 19 % in Höhe von 3.279,10 € (netto 17.258,40 €) enthalten.“"],
+      ] },
+      { text: "Inge überwies den Betrag noch am selben Tag." },
+      { typ: "titel", text: "3. Vier Gemälde von Max Marc (11 Punkte)" },
+      { text: "Inge kaufte seit vielen Jahren immer wieder Gemälde von dem freiberuflich tätigen Künstler Max Marc aus Regensburg. Marc war als angesagter Künstler gut im Geschäft. Seine Gemälde waren in Sammlerkreisen gut gefragt. Im November 2022 hatte Inge zwei Gemälde von Marc erworben. Für das Gemälde „Frau mit Hut“ bezahlte Inge 3.500,00 € zuzüglich 7 % USt in Höhe von 245,00 €. Der Preis für das Gemälde mit Titel „Donau“ betrug 6.000,00 € zuzüglich 7 % USt in Höhe von 420,00 €. Inge holte die Gemälde noch im November 2018 bei Marc in Regensburg ab und beglich bei dieser Gelegenheit die Rechnungen des Marc vom selben Tag." },
+      { text: "(Eigene Feststellung: Die Quelle nennt in einem Satz „Im November 2022“ und im nächsten „noch im November 2018“. Die Aufgabenstellung verlangt ausdrücklich, in Tz. 3 auch auf „den Besteuerungszeitraum 2018“ einzugehen; gemeint ist danach der Erwerb der beiden ersten Gemälde im November 2018. Der Wortlaut ist unverändert wiedergegeben.)" },
+      { text: "Zwei weitere Gemälde konnte sie im Mai 2022 erwerben. Der Preis für das Gemälde „Wintersturm“ belief sich auf 4.000,00 € zuzüglich 7 % USt in Höhe von 280,00 €. Das Gemälde „Weinlese in der Wachau“ kostete Inge 8.000,00 €. Inge holte auch das Gemälde „Wintersturm“ bei Marc in Regensburg ab und brachte es am 18.05.2022 nach München. Die Rechnung des Marc vom selben Tag beglich Inge umgehend." },
+      { text: "Marc hatte auch ein Atelier in Wien (Österreich). Das Gemälde „Weinlese in der Wachau“ entstand dort. Marc brachte dieses Gemälde am 25.05.2022 persönlich von Wien (Österreich) zu Inge nach München. Bei diesem Verkauf verwendete er seine österreichische USt-IdNr. und wies mit Hinweis auf Art. 138 MwStSystRL keine Umsatzsteuer in seiner Rechnung aus. Die Bezahlung der von Marc bei dieser Gelegenheit übergebenen Rechnung durch Inge erfolgte umgehend bei Übergabe des Gemäldes." },
+      { text: "3.1 Das Gemälde „Frau mit Hut“ konnte Inge an den Kunsthändler Polke aus Berlin veräußern. Polke nahm das Gemälde am 11.08.2022, anlässlich eines Besuchs in München, bei Inge in Empfang und brachte es nach Berlin in seine Kunstgalerie. Inge stellte dem Polke für das Gemälde 6.500,00 € zuzüglich 7 % USt in Höhe von 455,00 € in Rechnung, die dieser bei Abholung auch gleich beglich." },
+      { text: "3.2 Am 05.09.2022 kam der passionierte Kunstsammler Schmittke aus Köln zu Inge ins Geschäft. Er war sofort derart von dem Gemälde „Donau“ begeistert, dass er es auf der Stelle für 9.000,00 € erwarb. Schmittke beglich den Kaufpreis umgehend und nahm auch das Gemälde gleich mit, da er sich nicht mehr davon trennen wollte." },
+      { text: "3.3 Anlässlich seines Besuchs des Oktoberfestes entdeckte der Kunsthändler Rossi aus Mailand (Italien) am 19.09.2022 das Gemälde „Weinlese in der Wachau“. Er bezahlte den Kaufpreis in Höhe von 10.000,00 € sofort und ließ das Gemälde eine Woche später von seinem Fahrer abholen und nach Mailand in seine Kunstgalerie bringen." },
+      { text: "3.4 Das Gemälde „Wintersturm“ fand in dem Bankmanager Rütli aus Zürich (Schweiz) einen Käufer. Rütli erwarb das Gemälde anlässlich einer Geschäftsreise am 07.12.2022 nach München, um es seiner kunstbeflissenen Ehefrau zu Weihnachten zu schenken. Den Kaufpreis in Höhe von 5.000,00 € beglich Rütli auf der Stelle. Da Inge ihren Weihnachtsurlaub in der Schweiz gebucht hatte, brachte sie das Kunstwerk am 22.12.2022 zum privaten Chalet des Rütli nach Davos (Schweiz)." },
+      { typ: "titel", text: "4. BMW 520 (5 Punkte)" },
+      { text: "Am 03.01.2022 hatte Inge beim BMW-Autohaus in Dachau einen neuen BMW 520 erworben und ihn nach Übergabe am selben Tag sofort in Betrieb genommen. Das Autohaus gewährte Inge auf den Bruttolistenpreis in Höhe von 71.400,00 € einen Sofortrabatt von 10 %. Den bei Übergabe in Rechnung gestellten Betrag beglich Inge eine Woche später. Inge ging von einer betriebsgewöhnlichen Nutzungsdauer von 7 Jahren aus." },
+      { text: "Nach dem ordnungsgemäß geführten Fahrtenbuch verwendete Inge das Fahrzeug im Jahr 2022 zu 60 % in Zusammenhang mit ihrem Kunst- und Antiquitätenhandel, zu 10 % in Zusammenhang mit ihren Mietobjekten und zu 30 % für reine Privatfahrten im In- und Ausland. Folgende laufende Ausgaben sind im Jahr 2022 angefallen, wobei sie sich gleichmäßig auf das ganze Jahr verteilen:" },
+      { typ: "tabelle", spalten: ["Position", "Netto", "Umsatzsteuer"], zeilen: [
+        ["Benzin und Schmierstoffe", "3.000,00 €", "570,00 €"],
+        ["Wartung und Pflege", "2.000,00 €", "380,00 €"],
+        ["Steuer und Versicherung", "2.000,00 €", "–"],
+      ] },
+    ],
+    aufgabe: [
+      { text: "Beurteilen Sie die angeführten Sachverhalte in ihrer umsatzsteuerlichen Auswirkung auf Inge Irlbacher im Besteuerungszeitraum 2022. Gehen Sie in Tz. 2 auch auf Veronika Weber und in Tz. 3 auch auf Max Marc und den Besteuerungszeitraum 2018 ein." },
+      { text: "Hierbei ist insbesondere auf die Umsatzart, die Steuerpflicht, die Bemessungsgrundlage für steuerpflichtige Umsätze und auf den Vorsteuerabzug einzugehen. Die Umsatzsteuer für steuerpflichtige Umsätze ist zu berechnen." },
+      { text: "Wo es der Sachverhalt erlaubt, ist auch anzugeben, in welchem Voranmeldungszeitraum die Steuer entsteht bzw. zu berichtigen ist und die Vorsteuer abgezogen werden kann. Begründen Sie bitte Ihre Entscheidungen unter Angabe der gesetzlichen Bestimmungen." },
+      { typ: "titel", text: "Grobe Punkteverteilung" },
+      { typ: "tabelle", spalten: ["Textziffer", "Punkte"], zeilen: [["Tz. 1", "9 Punkte"], ["Tz. 2", "10 Punkte"], ["Tz. 3", "11 Punkte"], ["Tz. 4", "5 Punkte"]] },
+    ],
+    loesung: [
+      { typ: "titel", text: "Keine Musterlösung in der Quelle" },
+      { text: KEINE_LOESUNG },
+      { text: "Was die Aufgabenstellung selbst vorgibt: Beurteilt wird grundsätzlich nur die Auswirkung auf **Inge Irlbacher** und nur für den Besteuerungszeitraum **2022** – mit zwei ausdrücklichen Erweiterungen: in Textziffer 2 auch auf Veronika Weber, in Textziffer 3 auch auf Max Marc und auf den Besteuerungszeitraum **2018**. Diese beiden Erweiterungen sind der Schlüssel zu den punktstärksten Textziffern. Verlangt sind je Vorgang vier Punkte – Umsatzart, Steuerpflicht, Bemessungsgrundlage und Vorsteuerabzug – sowie die Berechnung der Steuer und, wo möglich, der Voranmeldungszeitraum." },
+      { text: "Die Punkteverteilung nennt die Quelle selbst als „grobe“ Verteilung: Tz. 1 neun, Tz. 2 zehn, Tz. 3 elf, Tz. 4 fünf – zusammen 35 von 100. Zusammen mit den 35 Punkten des Verfahrensrechtsteils sind damit 70 der 100 Punkte dieses Prüfungstages belegt." },
+      { text: "Unabhängig nachgerechnet – die Zahlen der Quelle gehen auf: Die Auktionsabrechnung ergibt 10 % von 15.000,00 € = 1.500,00 € Provision zuzüglich 19 % = 285,00 €, zusammen 1.785,00 €, und 15.000,00 ./. 1.785,00 = 13.215,00 €. Die Abrechnung gegenüber Veronika Weber ergibt 15 % von 25.000,00 € = 3.750,00 € zuzüglich 19 % = 712,50 €, zusammen 4.462,50 €, und 25.000,00 ./. 4.462,50 = 20.537,50 €; der Zusatz „darin 3.279,10 € USt (netto 17.258,40 €)“ stimmt ebenfalls, denn 20.537,50 : 1,19 = 17.258,40 €. Beim BMW ergeben 71.400,00 € abzüglich 10 % genau 64.260,00 € brutto, also 54.000,00 € netto und 10.260,00 € Umsatzsteuer. Die ermäßigten Steuersätze passen durchgehend: 7 % von 3.500 = 245 €, von 6.000 = 420 €, von 4.000 = 280 €, von 6.500 = 455 €; ebenso 19 % von 3.000 = 570 € und von 2.000 = 380 €." },
+      { text: "Erkennbar gesetzte Weichen, die der Sachverhalt eigens benennt: dass die Option zur Differenzbesteuerung mit der Voranmeldung Januar 2020 erklärt wurde; dass der Verkäufer in Salzburg Bankangestellter ist und das Gemälde geerbt hat; dass das Auktionshaus „im Namen von Inge“ versteigern soll; dass der Wirtschaftsprüfer seinerzeit den vollen Vorsteuerabzug in Anspruch genommen hatte und die Figurengruppe ein Kunstgegenstand laut Zolltarif ist; dass Inge bei der Figurengruppe „im eigenen Namen“, aber „für fremde Rechnung“ tätig wird; dass der Künstler für das in Wien entstandene Gemälde seine österreichische USt-IdNr. verwendet und sich auf Art. 138 MwStSystRL beruft; dass der Schweizer Käufer das Bild für seine Ehefrau erwirbt und es die Händlerin selbst im Urlaub nach Davos bringt; und dass der Pkw zu 10 % im Zusammenhang mit der nach § 4 Nr. 12 Buchst. a UStG steuerfreien Wohnraumvermietung genutzt wird." },
+      { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Die Differenzbesteuerung nach § 25a UStG, Kommissionsgeschäfte, innergemeinschaftliche Lieferungen und Erwerbe, Ausfuhrlieferungen nach § 6 UStG und die Vorsteueraufteilung nach § 15 Abs. 4 UStG behandelt der Umsatzsteuer-Campus (Klausur 1) in eigenen Einheiten; die Originalklausuren 2011 bis 2015 enthalten dazu mehrere durchgerechnete Fälle, darunter eine Klausur, die § 13b UStG sechsmal mit sechs verschiedenen Ergebnissen prüft." },
     ],
   },
 ];

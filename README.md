@@ -1561,6 +1561,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ein Turmdrehkran mit Totalschaden auf der Rückfahrt, italienische Dachziegel über zwei
   Stationen und ein fünftes Haus, das die Tochter zur Hochzeit bekommt. Alle Beträge der
   Quelle sind unabhängig nachgerechnet und gehen auf.
+  Aus dem Jahrgang **2022/2023** kommt der Umsatzsteuerteil hinzu (Inge Irlbacher, 35 von 100
+  Punkten; die Quelle nennt selbst eine „grobe Punkteverteilung“ von 9, 10, 11 und 5): eine
+  Kunst- und Antiquitätenhändlerin, die zur **Differenzbesteuerung** nach § 25a UStG optiert
+  hat – und jeder der vier Sachverhalte prüft, ob diese Option hier trägt. Ein Gemälde wird in
+  Salzburg von einer Privatperson gekauft, in Düsseldorf über ein Auktionshaus im eigenen
+  Namen der Einlieferin versteigert und vom niederländischen Erwerber übernommen. Eine
+  Meißner Figurengruppe wird im eigenen Namen, aber für fremde Rechnung an einen
+  österreichischen Rechtsanwalt verkauft. Vier Gemälde eines Künstlers – zwei davon 2018
+  gekauft, eines aus dessen Wiener Atelier innergemeinschaftlich geliefert – gehen an Käufer
+  in Berlin, Köln, Mailand und Zürich. Und ein BMW wird zu 60 % im Kunsthandel, zu 10 % bei
+  der steuerfreien Wohnraumvermietung und zu 30 % privat gefahren. Auch hier sind alle Beträge
+  unabhängig nachgerechnet und gehen auf.
   Und schließlich der **Erbschaftsteuerteil** (Erbfall Max Muhr), der im ErbSt-Campus unter
   demselben Reiter steht: ein Motorradunfall im Allgäu, ein Berliner Testament, Gütertrennung –
   und ein Nachlass, der in fast jeder Position eine eigene Bewertungsfrage aufwirft. Der Sohn

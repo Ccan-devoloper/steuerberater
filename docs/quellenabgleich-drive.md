@@ -9046,3 +9046,56 @@ sind unabhängig erreichbar.
 Ertragsteuerteil derselben Datei. Bereinigt sind nur einzelne Zeilenumbruch-Trennungen; echte
 Verschreiber der Quelle sind nicht aufgefallen. Die Bezeichnung „Widerspruch“ statt
 „Einspruch“ ist kein Fehler, sondern Teil des Sachverhalts.
+
+### Amtliche Prüfungsaufgabe Verfahrensrecht 2022/2023, Teil II (Umsatzsteuer)
+
+- **Quelle:** Drive-ID `1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, Abschnitt „Teil II: Umsatzsteuer“.
+- **Ziel:** `src/data/k1-pruefungsklausuren.js`, Eintrag `k1-pk-2022-ust-irlbacher` (fach
+  "ust"), Reiter „Prüfungsklausuren im Original“ im USt-Campus. Prüfung:
+  `npm run check:k1-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; Besteuerungszeitraum **2022**, in Textziffer 3
+  zusätzlich **2018**.
+
+**Punkteverteilung.** Die Quelle nennt sie selbst und bezeichnet sie ausdrücklich als „grobe“
+Verteilung: Tz. 1 neun, Tz. 2 zehn, Tz. 3 elf, Tz. 4 fünf – zusammen 35 von 100. Mit den
+35 Punkten des AO/FGO-Teils sind damit 70 der 100 Punkte dieses Prüfungstages belegt; für die
+Erbschaftsteuer verbleiben rechnerisch 30.
+
+**Unabhängig nachgerechnet – alle Beträge gehen auf:**
+
+| Rechenschritt | Nachrechnung | Quelle |
+| --- | --- | --- |
+| Provision des Auktionshauses | 10 % von 15.000,00 € = 1.500,00 €; 19 % darauf = 285,00 € | 1.500,00 € / 285,00 € |
+| Auszahlung des Auktionshauses | 15.000,00 ./. 1.785,00 = 13.215,00 € | 13.215,00 € |
+| Provision bei der Figurengruppe | 15 % von 25.000,00 € = 3.750,00 €; 19 % darauf = 712,50 € | 3.750,00 € / 712,50 € |
+| Auszahlung an Veronika Weber | 25.000,00 ./. 4.462,50 = 20.537,50 € | 20.537,50 € |
+| Umsatzsteuer im Auszahlungsbetrag | 20.537,50 : 1,19 = 17.258,40 €; Differenz 3.279,10 € | 17.258,40 € / 3.279,10 € |
+| Kaufpreis des BMW | 71.400,00 ./. 10 % = 64.260,00 € brutto = 54.000,00 € netto + 10.260,00 € USt | – |
+| Ermäßigte Steuersätze | 7 % von 3.500 / 6.000 / 4.000 / 6.500 = 245 / 420 / 280 / 455 € | ebenso |
+| Regelsteuersatz auf laufende Kosten | 19 % von 3.000 = 570 €; von 2.000 = 380 € | 570 € / 380 € |
+
+**Zwei eigene Feststellungen:**
+
+1. **Ein stehengebliebener Hinweis aus dem Vorjahrgang.** Die allgemeinen Hinweise schließen
+   mit dem Satz: „Aus Vereinfachungsgründen ist im gesamten Kalenderjahr **2020** von dem
+   Regelsteuersatz in Höhe von 19 % und von dem ermäßigten Steuersatz in Höhe von 7 %
+   auszugehen.“ Zu beurteilen ist aber der Besteuerungszeitraum 2022. Die Zeile stammt
+   offenbar unverändert aus dem Jahrgang 2021/2022, in dem der unterjährige Steuersatzwechsel
+   des Jahres 2020 tatsächlich eine Rolle spielte. Der Wortlaut ist übernommen und der Befund
+   unmittelbar daneben vermerkt.
+2. **Eine Jahreszahl, die in sich widersprüchlich ist.** Textziffer 3 beginnt mit „Im
+   November **2022** hatte Inge zwei Gemälde von Marc erworben“ und fährt zwei Sätze später
+   fort: „Inge holte die Gemälde noch im November **2018** bei Marc in Regensburg ab.“ Die
+   Aufgabenstellung verlangt ausdrücklich, in Tz. 3 auch auf „den Besteuerungszeitraum 2018“
+   einzugehen – gemeint ist danach der Erwerb im November 2018. Der Wortlaut ist unverändert
+   wiedergegeben und der Befund im Sachverhalt vermerkt.
+
+**Textqualität.** Dieser Abschnitt weist zwei größere Extraktionsartefakte auf. Im ersten
+Sachverhalt sind die Worte „Salzburg, um“ an den Anfang der Textziffer verschoben worden, so
+dass dort „Salzburg, um1. Am 28.01.2022 kam …“ steht und im späteren Satz „fuhr sie deshalb
+nach das Gemälde in Augenschein zu nehmen“ – die Lücke ist eindeutig zu schließen zu „fuhr
+sie deshalb nach Salzburg, um das Gemälde in Augenschein zu nehmen“. Ebenso fehlt in „Wartung
+und Pflege2.000,00 €“ ein Leerzeichen. Beides ist bereinigt, weil es die Zeichenerkennung
+verursacht hat und nicht die amtliche Aufgabe – im Unterschied zu den beiden oben genannten
+echten Fehlern der Quelle, die wortlautgetreu übernommen und gekennzeichnet sind. Die
+Unterscheidung folgt derselben Regel wie beim Ertragsteuerteil dieser Datei.
