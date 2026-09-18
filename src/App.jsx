@@ -26,6 +26,7 @@ import K3Fachleiste from "./components/K3Fachleiste";
 import HausaufgabenBloecke from "./components/HausaufgabenBloecke";
 import { estKlausuren, estKlausurenQuelle } from "./data/est-klausuren.js";
 import { bilOriginalklausuren, bilOriginalklausurenQuelle } from "./data/k3-bil-originalklausuren.js";
+import { bilPruefungsklausuren, bilPruefungsklausurenQuelle } from "./data/k3-bil-pruefungsklausuren.js";
 import { PrioBadge, PrioNorm, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./components/Prioritaet";
 
 /* Examenspriorität eines Bilanz-Moduls (🔴/🟠/🟢) nach den Beck-Auswertungen. */
@@ -48,6 +49,7 @@ const ansichten = [
   { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "uebungsklausur", label: "Übungsklausuren", Icon: IconTraining },
   { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconTraining },
+  { id: "pruefungsklausuren", label: "Prüfungsklausuren im Original", Icon: IconTraining },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
   { id: "schema", label: "Prüfungsschema", Icon: IconSchema },
   { id: "formeln", label: "Rechenwege", Icon: IconFormel },
@@ -316,6 +318,22 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Textziffern"
             einheitEinzahl="Textziffer"
+          />
+        )}
+        {ansicht === "pruefungsklausuren" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 3 · Buchführung und Bilanzierung · amtliche Prüfungsaufgaben"
+            titel="Prüfungsklausuren im Original – ohne Musterlösung"
+            lead="Die Aufgabentexte der Steuerberaterprüfung im amtlichen Wortlaut, so wie sie am Prüfungstag vorgelegen haben: kein fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt ist die Klausur aus dem Gebiet Buchführung und Bilanzierung des Prüfungsjahrgangs 2022/2023 – sechs Stunden, vier unabhängige Teile, 100 Wertungspunkte, verteilt auf 33, 17, 22 und 28 Punkte. **Zu diesen Aufgaben enthält die Quelle keine Lösung**, und es wird hier ausdrücklich keine erfunden; jeder Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit vollständiger Musterlösung stehen. Teil I (Einzelunternehmen Kevin Klein) verbindet Mietereinbauten mit Rückbaupflicht, Bezugsrechte aus einer Kapitalerhöhung 6 zu 1 und ein städtisches Umlegungsverfahren. Teil II (Maier GmbH) ist der einzige Teil mit Kostenrechnung: Aus einem vollständigen Betriebsabrechnungsbogen und sieben Korrekturfeststellungen sind die Herstellungskosten zweier Werkverträge zu entwickeln – einer am 30.12. abgenommenen und einer am Stichtag unfertigen Maschine. Teil III (Maurer & Hauser OHG) ist eine Realteilung mit Spitzenausgleich aus dem Privatvermögen, gefolgt von Veräußerungen im Jahr 2023, deren Rückwirkung ausdrücklich abgefragt wird. Teil IV (Killer GmbH) zieht die Bilanzklausur in die Körperschaftsteuer: verbilligte Miete der Alleingesellschafterin, Grundstücksübertragung gegen bloße Schuldübernahme bei 840.000 € Verkehrswert und ein rückwirkender Mietverzicht des Bruders – am Ende stehen der steuerliche Gewinn, die Einkünfte beider Angehöriger, die Anschaffungskosten des Anteils und das steuerliche Einlagekonto."
+            quelle={bilPruefungsklausurenQuelle}
+            hausaufgaben={bilPruefungsklausuren}
+            gruppeVon={(eintrag) => eintrag.jahrgang}
+            gruppeLabel={(eintrag) => `Prüfung ${eintrag.jahrgang}`}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · Teil ${eintrag.teil} · ${eintrag.wertung}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Aufgabenteile"
+            einheitEinzahl="Aufgabenteil"
           />
         )}
         {ansicht === "originalklausuren" && (

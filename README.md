@@ -1948,6 +1948,33 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hinzugerechnet) sowie stehengebliebene Jahresangaben „2022/2023“ in der
   Verlustvortragstabelle.
   Prüfung: `npm run check:k3-bil-originalklausuren`
+
+- **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,
+  Reiter „Prüfungsklausuren im Original“): die Aufgabentexte der Steuerberaterprüfung im
+  **amtlichen Wortlaut**, so wie sie am Prüfungstag vorgelegen haben – kein fortgeschriebener
+  Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt ist die
+  Klausur aus dem Gebiet Buchführung und Bilanzierung des Prüfungsjahrgangs **2022/2023**:
+  sechs Stunden, vier unabhängige Teile, 100 Wertungspunkte (33 / 17 / 22 / 28).
+  **Zu diesen Aufgaben enthält die Quelle keine Lösung** – und es wird hier keine erfunden.
+  Jeder Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst als Zielvorgabe
+  nennt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit
+  vollständiger Musterlösung stehen. Die fehlenden Lösungen sind in
+  `docs/offene-quellen.md`, Abschnitt A, vermerkt.
+  **Teil I** (Einzelunternehmen Kevin Klein, 33 Punkte): Mietereinbauten mit Rückbaupflicht,
+  die von einem Schwager gegen 30.000 € übernommen werden, während dieser 9.500 € für die
+  Übernahme der Beseitigungspflicht zahlt; Bezugsrechte aus einer Kapitalerhöhung 6 zu 1; ein
+  städtisches Umlegungsverfahren mit 30.000 € Wertausgleich für die Minderzuteilung.
+  **Teil II** (Maier GmbH, 17 Punkte): der einzige Teil mit Kostenrechnung – aus einem
+  vollständigen Betriebsabrechnungsbogen und sieben Korrekturfeststellungen sind die
+  Herstellungskosten zweier Werkverträge zu entwickeln.
+  **Teil III** (Maurer & Hauser OHG, 22 Punkte): Realteilung mit Spitzenausgleich aus dem
+  Privatvermögen, gefolgt von Veräußerungen im Jahr 2023, deren Rückwirkung ausdrücklich
+  abgefragt wird.
+  **Teil IV** (Killer GmbH, 28 Punkte): verbilligte Miete der Alleingesellschafterin,
+  Grundstücksübertragung gegen bloße Schuldübernahme bei 840.000 € Verkehrswert und ein
+  rückwirkender Mietverzicht des Bruders – am Ende stehen steuerlicher Gewinn, Einkünfte
+  beider Angehöriger, Anschaffungskosten des Anteils und das steuerliche Einlagekonto.
+  Prüfung: `npm run check:k3-bil-pruefungsklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
   1.017 Abschnitten und 30 Tabellen: die Einführung in die Einkommensteuer (persönliche

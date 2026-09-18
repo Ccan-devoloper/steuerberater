@@ -8515,3 +8515,62 @@ Mutter, Darlehen an einen insolventen Gesellschafter) liegt vollständig vor, di
 Lösung gibt der Connector nicht mehr aus; der Text endet unmittelbar hinter „Teil II gesamt
 33 Punkte“. Teil III der Prüfung 2012 und die Prüfungen 2013–2015 stehen in
 `docs/offene-quellen.md`, Abschnitt A.
+
+### Amtliche Prüfungsaufgaben Buchführung und Bilanzierung 2022/2023 (Teile I–IV)
+
+- **Quelle:** Drive-ID `1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, Dateititel „2026) (10).pdf“,
+  0,5 MB, 34 Seiten. Der Connector gibt das PDF **vollständig** aus (rund 82.000 Zeichen).
+- **Ziel:** neuer Datensatz `src/data/k3-bil-pruefungsklausuren.js` mit vier Einträgen
+  (`bil-pk-2022-teil1-klein` bis `bil-pk-2022-teil4-killer`), neuer Reiter
+  „Prüfungsklausuren im Original“ im Bilanzen-Campus. Prüfung:
+  `npm run check:k3-bil-pruefungsklausuren`.
+- **Zeitlogik:** **nicht** fortgeschrieben. Die Klausur spielt im Wirtschaftsjahr 2021 und
+  trägt den Rechtsstand des Prüfungstages. Das unterscheidet diese Reihe von allen übrigen
+  Originalklausuren des Campus und ist im Datensatzkopf, in der Didaktik und in jedem
+  Eintrag festgehalten.
+
+**Was die Datei ist.** Sie enthält die Prüfungsaufgaben **aller drei Prüfungstage** des
+Jahrgangs im amtlichen Wortlaut – Buchführung und Bilanzierung (vier Teile), Einkommen- und
+Ertragsteuerrecht (ESt, GewSt mit 8 von 100 Punkten, KSt) sowie Verfahrensrecht und andere
+Steuerrechtsgebiete (AO/FGO, USt, ErbSt – Erbfall Schüssel). Eingepflegt ist in dieser Runde
+der Bilanz-Prüfungstag; die übrigen sechs Aufgabenteile stehen in
+`docs/offene-quellen.md`, Abschnitt A.
+
+**Was die Datei nicht ist.** Sie enthält **keine Lösung** – weder eine amtliche noch eine
+des Lehrgangs. Das ist kein Connector-Abbruch: Der Text läuft vollständig bis zur letzten
+Aufgabenstellung der Erbschaftsteuer durch und endet dort. Im Datensatz ist das ausdrücklich
+festgehalten; der Lösungsabschnitt jedes Eintrags besteht aus der offenen Feststellung
+„Die Quelle ist die amtliche Prüfungsaufgabe im Wortlaut und enthält keine Lösung“, aus dem,
+was die Aufgabenstellung selbst als Zielvorgabe nennt (das ist Transkription, keine
+Herleitung), und aus Verweisen auf die Parallelfälle mit Musterlösung im Campus. Eine eigene
+Lösung ist **bewusst nicht** erfunden worden.
+
+**Wertungspunkte.** Diese Prüfung weist die Punkte je Teil in der Überschrift aus: Teil I 33,
+Teil II 17, Teil III 22, Teil IV 28 – zusammen 100. Da es keine Lösung und damit keine
+Randpunkte gibt, trägt der Datensatz die Punkte im Feld `wertung` als Text und **nicht** im
+Feld `punkte`; das gemeinsame Prüfskript verlangt für eine ausgewiesene Gesamtpunktzahl
+Randpunkte an den Lösungsblöcken, die es hier nicht geben kann.
+
+**Eigene Feststellungen:**
+
+1. **Falscher Jahrgangskopf ab dem Ertragsteuerteil.** Das Deckblatt und der Bilanzteil sind
+   mit „STEUERBERATERPRÜFUNG 2022/2023“ überschrieben; ab dem Ertragsteuer-Prüfungstag trägt
+   dieselbe Datei den Kopf „STEUERBERATERPRÜFUNG 2021/2022“. Das betrifft die in dieser Runde
+   eingepflegten vier Bilanzteile nicht, ist für die noch offenen Teile aber zu beachten.
+2. **Spaltenartefakt im Betriebsabrechnungsbogen (Teil II).** Die Zeilen „Gehalt
+   Geschäftsführer“ und „Sozialkosten“ laufen im PDF-Satz ineinander. Die Verteilung des
+   Geschäftsführergehalts auf Reparatur (30.000), Material (80.000), Fertigung (250.000) und
+   Verwaltung (40.000) ergibt zusammen 400.000 € und geht damit auf; die Sozialkosten sind
+   nur mit einem Gesamtbetrag ausgewiesen. Die Tabelle ist wortlautgetreu übernommen und der
+   Befund im Datensatz vermerkt.
+3. **Verschreiber der Quelle – wortlautgetreu übernommen:** „5 Arbeitnehmerin der
+   Verwaltung“ statt „5 Arbeitnehmer in der Verwaltung“; „Kostensteller ‚Material‘“ statt
+   „Kostenstelle“; „handeis- und steuerrechtlich“ in Teil IV; „Sonst, betriebl. Erträge“ mit
+   Komma statt Punkt in Teil I; die Aufzählungszeichen „•.“ in mehreren Hinweislisten.
+
+**Warum ein eigener Datensatz und kein Anhang an `k3-bil-originalklausuren.js`.** Die
+bestehende Reihe sind die Prüfungen 2011–2015 **mit** den Lösungshinweisen des Lehrgangs und
+**auf Rechtsstand 2025 fortgeschrieben**. Diese hier sind unbearbeitete amtliche
+Aufgabentexte **ohne** Lösung und mit den Jahreszahlen des Originaljahrgangs. Die beiden
+Reihen in einem Datensatz zu mischen, würde genau die Unterscheidung verwischen, auf die es
+beim Üben ankommt.
