@@ -2734,7 +2734,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil III (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil III (§§ 27, 28 KStG)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil III: Steuerliches Einlagekonto (§ 27 KStG);
   Grundzüge der Kapitalherauf- und -herabsetzung (§ 28 KStG)“** (21. Auflage, Stand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 14 Kapitel mit 206 Abschnitten und 20 Tabellen. Anders als die
+  Wortlaut – **in Arbeit**, derzeit 17 Kapitel mit 252 Abschnitten und 25 Tabellen. Anders als die
   Teile I und II trägt dieses Skript den Stand **Mai 2025** und rechnet seine Beispiele im VZ 2025.
   Das steuerliche Einlagekonto beantwortet eine einzige Frage: Was von dem, was die Gesellschaft
   auskehrt, hat der Gesellschafter ihr vorher selbst gegeben? Der entscheidende Satz steht gleich am
@@ -2829,6 +2829,29 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Verzicht** darauf belastet sie, und dann verstärkt um die darauf wiederum entfallende
   Kapitalertragsteuer – ein Folgevorgang, der erneut eine Verwendungsfestschreibung auslösen kann.
   **Damit ist das Kapitel 1 der Quelle vollständig.**
+  Bei der **Kapitalerhöhung** (Kapitel 2) entscheidet zuerst die Handelsregistereintragung, denn sie
+  benennt die Art der Kapitalerhöhung und ist für die steuerliche Beurteilung **bindend**. Die
+  **externe** Kapitalerhöhung ist bei der Gesellschaft ein reiner Aktiv-Passiv-Vorgang ohne
+  Einkommenswirkung; die ins Nennkapital geleistete Einlage erhöht das Einlagekonto gerade **nicht**,
+  wohl aber ein **Aufgeld**, weil insoweit kein Zugang beim Nennkapital erfolgt. Beim Anteilseigner
+  droht das **Überspringen stiller Reserven**, wenn ein Nahestehender zu billig einsteigt: Im Beispiel
+  zahlt der Sohn 100.000 € für einen Anteil im gemeinen Wert von 200.000 €, erwirbt also zur Hälfte
+  unentgeltlich. Realisiert wird deshalb nichts – stattdessen spaltet sich 1/9 der Anschaffungskosten
+  des Vaters ab (das Verhältnis der übergesprungenen 100.000 € zum bisherigen Wert von 900.000 €) und
+  wandert mit 44.444 € auf den neuen Anteil, so dass die Besteuerung auf die spätere Veräußerung durch
+  den Sohn verschoben wird. Bei der **internen** Kapitalerhöhung ändert sich nur die Zusammensetzung
+  des Eigenkapitals, weshalb Gewinn und Einkommen unberührt bleiben; für die Feststellung fingiert
+  § 28 Abs. 1 Satz 1 KStG aber **unabhängig von der tatsächlich verwendeten Rücklage** vorrangig den
+  Verbrauch des Einlagekontos. Was darüber hinausgeht, wird als **Sonderausweis** festgestellt – ein
+  Merkposten, der festhält, dass im Nennkapital versteuerter, ausschüttbarer Gewinn steckt, dessen
+  spätere Auskehrung beim Gesellschafter zu einem Bezug führen muss. Er schmilzt nach § 28 Abs. 3
+  KStG bei späteren Einlagen wieder ab, und weil diese Verrechnung die **letzte Maßnahme** vor der
+  endgültigen Feststellung ist, können Einlagekonto und Sonderausweis nie nebeneinander festgestellt
+  werden. Beim Anteilseigner sind die neuen Anteile weder Einkünfte (§ 1 KapErhStG) noch zusätzliche
+  Anschaffungskosten – die vorhandenen werden lediglich nach dem Verhältnis der **Nennwerte** neu
+  verteilt, im Beispiel 2/3 zu 1/3. Der Maßstab unterscheidet sich damit bewusst von dem der externen
+  Kapitalerhöhung, weil dort Wert von einem Gesellschafter auf einen anderen übergeht, hier dagegen
+  nicht. **Damit ist auch das Kapitel 2 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil3`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

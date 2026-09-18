@@ -10620,6 +10620,68 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil III (Hamacher), Kapitel 2 – Kapitalerhöhung
+
+Quelle: dieselbe Datei, Seiten 23 bis 28; übernommen als Kapitel 15 bis 17. Prüfung:
+`npm run check:k2-kst-teil3` (17 Kapitel, 252 Blöcke, 25 Tabellen). Damit ist das Kapitel 2
+(Grundzüge der Kapitalerhöhung) vollständig.
+
+**Der erste Prüfungsschritt** ist im Datensatz eigens hervorgehoben: Ob eine Kapitalerhöhung extern
+oder intern ist, entscheidet nicht die wirtschaftliche Betrachtung, sondern die **Eintragung im
+Handelsregister**, die für die steuerliche Beurteilung bindend ist. Weil die Kapitalerhöhung ohnehin
+erst mit der Eintragung wirksam wird, fallen Zeitpunkt und Qualifikation zusammen – was für die
+interne Kapitalerhöhung unmittelbar den maßgebenden Stichtag des Einlagekontos bestimmt.
+
+**Das Aufgeld** schließt den Kreis zum Abschnitt 1.1: Die ins Nennkapital geleistete Einlage erhöht
+das Einlagekonto gerade **nicht**, das Agio dagegen schon, weil insoweit kein Zugang beim Nennkapital
+erfolgt. Der Datensatz vermerkt als eigene Ergänzung die praktische Folge – wer 500.000 € einzahlt
+und 100.000 € Nennkapital erhält, schafft 400.000 € Einlagekontopotential –, samt der zeitlichen
+Schranke aus 1.3.3.
+
+**Das Überspringen stiller Reserven** ist der interessanteste Fall des Kapitels. Der Sohn zahlt
+100.000 € für einen Anteil im gemeinen Wert von 200.000 €, erwirbt also zur Hälfte unentgeltlich.
+Realisiert wird trotzdem nichts: Es spaltet sich **1/9** der Anschaffungskosten des Vaters ab und
+wandert auf den neuen Anteil. Woher der Bruch stammt, sagt die Quelle nicht – der Datensatz leitet
+ihn als eigene Ergänzung her: 100.000 € übergesprungene stille Reserven zu 900.000 € bisherigem Wert
+der Altanteile. Die Besteuerung wird damit auf die spätere Veräußerung durch den Sohn verschoben.
+Eine weitere eigene Gegenrechnung zeigt, dass eine Aufteilung nach **Nennwerten** hier der falsche
+Maßstab wäre (sie ergäbe 80.000 € statt 44.444 €) – anders als bei der internen Kapitalerhöhung, wo
+gerade nach Nennwerten verteilt wird, weil kein Wert von einem Gesellschafter auf einen anderen
+übergeht.
+
+**Die Fiktion des § 28 Abs. 1 Satz 1 KStG** ist im Datensatz der Verwendungsberechnung aus 1.3.3
+gegenübergestellt: Beide erklären eine Bezeichnung für unmaßgeblich – dort die der Ausschüttung,
+hier die der verwendeten Rücklage –, aber die Wirkungsrichtung ist die umgekehrte. Bei der
+Ausschüttung wird das Einlagekonto **nachrangig** verbraucht, bei der Kapitalerhöhung **vorrangig**.
+
+**Die Funktion des Sonderausweises** ist als eigene Ergänzung erläutert: Er ist ein Merkposten, der
+festhält, dass im Nennkapital versteuerter, ausschüttbarer Gewinn steckt. Ohne ihn ließe sich die
+Ausschüttungsbesteuerung umgehen – erst Rücklagen in Nennkapital umwandeln, dann herabsetzen und
+auskehren. Genau deshalb erlangt er seine Bedeutung erst bei der späteren Kapitalherabsetzung.
+Vermerkt ist außerdem, dass die Verrechnung nach § 28 Abs. 3 KStG ausdrücklich die **letzte
+Maßnahme** vor der endgültigen Feststellung ist, weshalb Einlagekonto und Sonderausweis nie
+nebeneinander festgestellt werden können.
+
+**Sämtliche Zahlen sind nachgerechnet und gehen auf:** Wert nach Kapitalerhöhung 1.000.000 €, davon
+20 % = 200.000 €, übergesprungene stille Reserven 100.000 €, 1/9 von 400.000 € = 44.444,44 € (in der
+Quelle auf 44.444 € gerundet), Anschaffungskosten danach 355.556 € und 144.444 € mit unveränderter
+Summe von 500.000 €; Variante a) 120.000 € ./. 100.000 € = 20.000 € Restbestand, Variante b)
+100.000 € ./. 60.000 € = 40.000 € Sonderausweis, nach der verdeckten Einlage von 20.000 € noch
+20.000 €; Nennwerte 10.000 € zu 5.000 € ergeben 2/3 zu 1/3 von 60.000 €, also 40.000 € und 20.000 €.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „In **diesen** Fall erwirbt der neue Anteilseigner …“
+- „Dies dürfte ausschließlich **darauf dem** persönlichen Näheverhältnis … beruhen.“
+- „Dadurch **gilt** die Fiktion, dass die interne Kapitalerhöhung nachträglich durch Einlagen des
+  Gesellschafters finanziert **gilt**.“
+- „Danach wird zunächst der positive Bestand des steuerlichen Einlagekontos **als verwendet**, welches
+  sich danach bis auf 0 € reduziert“ – unvollständiger Satz, gemeint ist „gilt … als verwendet“.
+- „A besitzt Anteile an der A-GmbH mit einem Nennwert von 10.000 € **für 60.000 € erworben**.“
+
+**Noch offen:** aus Teil III das Kapitel 3 (Grundzüge der Kapitalherabsetzung einschließlich Erwerb
+und Veräußerung eigener Anteile); ganz offen sind die Skriptteile IV bis VII.
+
 ### KSt Teil III (Hamacher), Abschnitt 1.4 – Kapitel 1 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 18 bis 22; übernommen als Kapitel 13 und 14. Prüfung:

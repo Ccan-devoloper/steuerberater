@@ -25,9 +25,13 @@
    (1.3.7), des Direktzugriffs in Sonderfällen (1.3.8) und der optierenden
    Gesellschaft (1.3.9) – und mit der Verwendungsfestschreibung und
    Haftungsregelung des § 27 Abs. 5 KStG (1.4) ist damit das gesamte Kapitel 1
-   vollständig. Es folgen die Kapitel 2 (Grundzüge der Kapitalerhöhung) und 3
-   (Grundzüge der Kapitalherabsetzung einschließlich eigener Anteile); der
-   Campus weist den Stand aus.
+   vollständig. Auch das Kapitel 2 (Grundzüge der Kapitalerhöhung) ist
+   vollständig – Arten der Kapitalerhöhung, die externe Kapitalerhöhung bei
+   Gesellschaft und Anteilseigner samt dem Überspringen stiller Reserven sowie
+   die interne Kapitalerhöhung mit Verwendungsreihenfolge, Sonderausweis und
+   der Neuverteilung der Anschaffungskosten. Es folgt das Kapitel 3 (Grundzüge
+   der Kapitalherabsetzung einschließlich Erwerb und Veräußerung eigener
+   Anteile); der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Anders als die Teile I und II trägt dieses Skript den
    Stand Mai 2025 und rechnet seine Beispiele im VZ 2025.
@@ -695,6 +699,134 @@ export const kstTeil3 = [
       { text: "Anmerkung zum Satz von 33,95 % (eigene Ergänzung): Der Satz stammt aus dem BMF-Schreiben vom 16.11.2010 und ist die Hochrechnung für den Fall, dass die **Gesellschaft** die Kapitalertragsteuer trägt. Er ergibt sich aus 25 % geteilt durch (1 ./. 25 % ./. 1,375 %) = 25 % / 73,625 % = 33,95 %, wobei 1,375 % der Solidaritätszuschlag von 5,5 % auf die Kapitalertragsteuer ist. Auf einen Nettobetrag angewandt liefert er unmittelbar die Kapitalertragsteuer, so dass Netto- und Steuerbetrag zusammen die Bruttoausschüttung ergeben. Diese Herleitung nennt die Quelle nicht; sie ist eigene Ergänzung." },
       { text: "Anmerkung zum Rückforderungsanspruch (eigene Ergänzung): Der Buchungssatz „Forderung Gesellschafter an Verbindlichkeit Finanzamt“ ist erfolgsneutral, und das ist der entscheidende Punkt: Die Haftung belastet die Gesellschaft wirtschaftlich zunächst gar nicht, weil sie nur für eine fremde Steuerschuld einsteht und in gleicher Höhe einen Anspruch gegen den Gesellschafter erwirbt. Erst der **Verzicht** auf diesen Anspruch führt zur Belastung – und dann nicht nur in Höhe des Verzichts, sondern verstärkt um die darauf wiederum entfallende Kapitalertragsteuer. Dieser Folgevorgang kann nach dem letzten Satz des Abschnitts erneut eine Verwendungsfestschreibung nach § 27 Abs. 5 Satz 2 KStG auslösen, weil für ihn im laufenden Jahr wiederum keine Bescheinigung vorliegen wird. Damit schließt sich der Kreis zum Abschnitt 1.4.1." },
       { text: "Damit ist das Kapitel 1 (Steuerliches Einlagekonto) der Quelle vollständig übernommen. (Eigene Einordnung:) Es folgen die Kapitel 2 (Grundzüge der Kapitalerhöhung) und 3 (Grundzüge der Kapitalherabsetzung einschließlich eigener Anteile)." },
+    ],
+  },
+  {
+    id: "kst-t3-15",
+    kapitel: "15",
+    abschnittNr: "2.1 und 2.2",
+    title: "2.1 Arten einer Kapitalerhöhung · 2.2 Steuerliche Folgen einer externen Kapitalerhöhung",
+    thema: "Die externe Kapitalerhöhung ist bei der Gesellschaft ein reiner Aktiv-Passiv-Vorgang; nur ein Aufgeld erhöht das Einlagekonto. Beim Anteilseigner droht das Überspringen stiller Reserven, wenn ein Nahestehender zu billig einsteigt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil III (Hamacher), Abschnitte 2.1 und 2.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 28 Abs. 1 KStG",
+      "§ 27 KStG",
+      "§ 17 Abs. 2a Satz 3 Nr. 1 EStG",
+      "§ 20 UmwStG, §§ 11 ff. UmwStG",
+      "BFH vom 10.10.1973, BStBl. II 1974, 32",
+      "BFH vom 15.12.2004, BStBl. II 2009, 197",
+      "BMF vom 02.01.2025, Tz. 22.43",
+    ],
+    themen: ["Externe Kapitalerhöhung", "Interne Kapitalerhöhung", "Aufgeld", "Überspringen stiller Reserven", "Abspaltung der Anschaffungskosten"],
+    bloecke: [
+      { text: "Die Kapitalerhöhung aus Einlagen (externe Kapitalerhöhung) dient der Beschaffung von zusätzlichem Eigenkapital. Dabei wird das Nennkapital der Gesellschaft durch Leistung zusätzlicher (Bar-)Einlagen der Gesellschafter erhöht. Die Einlage kann dabei auch in Form von Wirtschaftsgütern erfolgen, was dann zu einer sog. Sacheinlage führt (z.B. Fall des § 20 UmwStG)." },
+      { text: "Im Gegensatz dazu werden bei einer Kapitalerhöhung aus Gesellschaftsmitteln (interne Kapitalerhöhung) der Gesellschaft gerade keine neuen Einlagen von außen zugeführt, sondern diese erfolgt aus vorhandenen Rücklagen (sog. Rücklagenumwandlung). Dies erfolgt häufig im Zusammenhang mit einer Verschmelzung von Kapitalgesellschaften (§§ 11 ff. UmwStG)." },
+      { text: "In beiden Fällen ist jeweils ein Beschluss der Gesellschafterversammlung notwendig. Der Beschluss wird in das Handelsregister eingetragen, wodurch zivilrechtlich erst die Nennkapitalerhöhung wirksam wird. Die Eintragung im Handelsregister umfasst auch die Bezeichnung der Art der Kapitalerhöhung, d.h. ob es sich dabei um eine externe oder interne Kapitalerhöhung handelt, wird durch die Eintragung ebenfalls dokumentiert. Diese Eintragung ist für die steuerliche Beurteilung bindend." },
+      { text: "Gegenstand der nachfolgenden Darstellungen sind ausschließlich die steuerlichen Auswirkungen einer Kapitalerhöhung, jeweils bei der Kapitalgesellschaft und den Anteilseignern." },
+      { text: "Anmerkung zur Bindungswirkung der Eintragung (eigene Ergänzung): Der Satz, die Eintragung sei für die steuerliche Beurteilung **bindend**, ist in der Klausur der erste Prüfungsschritt und entscheidet über alles Weitere. Extern oder intern ist keine Frage der wirtschaftlichen Betrachtung, sondern der Registereintragung – und weil die Kapitalerhöhung ohnehin erst mit der Eintragung zivilrechtlich wirksam wird, fallen Zeitpunkt und Qualifikation zusammen. Das hat für die interne Kapitalerhöhung einen unmittelbaren Folgeeffekt, den die Quelle im Abschnitt 2.3.1.2 ausspricht: Maßgebend ist der Bestand des Einlagekontos zum Schluss des Wirtschaftsjahres, in dem die Eintragung erfolgt." },
+      { typ: "titel", text: "2.2.1 Steuerliche Folgen bei der Kapitalgesellschaft" },
+      { text: "Die externe Kapitalerhöhung stellt für die Kapitalgesellschaft einen gesellschaftsrechtlichen Vorgang dar, welcher keine Auswirkung auf das Einkommen entfaltet. Dabei handelt es sich bilanziell um eine Aktiv-/Passivverlängerung (Buchung: Bank an Nennkapital)." },
+      { text: "Die in das Nennkapital geleisteten Einlagen erhöhen nicht den Bestand des steuerlichen Einlagekontos. Anders ist dies hingegen in Fällen eines Aufgeldes. Dieses wird – weil insoweit kein Zugang beim Nennkapital erfolgt – dem steuerlichen Einlagekonto (§ 27 KStG) entsprechend zugerechnet." },
+      { text: "Anmerkung zum Aufgeld (eigene Ergänzung): Hier schließt sich der Kreis zum Abschnitt 1.1. Das Einlagekonto erfasst definitionsgemäß nur die Einlagen, die das **Nennkapital nicht erhöhen** – deshalb bleibt die Nennkapitalerhöhung selbst außen vor, das Agio dagegen nicht. Wer 500.000 € einzahlt und dafür 100.000 € Nennkapital erhält, schafft damit zugleich 400.000 € Einlagekontopotential, das später steuerneutral zurückgeführt werden kann. Die Gestaltung liegt auf der Hand und ist nicht zu beanstanden; sie unterliegt lediglich der zeitlichen Schranke des Abschnitts 1.3.3, wonach der Zugang erst im Folgejahr verwendbar ist." },
+      { typ: "titel", text: "2.2.2 Auswirkungen beim Anteilseigner" },
+      { text: "Die vom Anteilseigner für den Erwerb der neuen Anteile (bzw. auf die Erhöhung des Anteilswerts) gezahlte Einlage führt zu (nachträglichen) Anschaffungskosten der Beteiligung (siehe § 17 Abs. 2a Satz 3 Nr. 1 EStG)." },
+      { text: "In diesem Zusammenhang muss gerade bei der Aufnahme neuer Gesellschafter auf ein angemessenes Entgelt geachtet werden, wenn der Neugesellschafter eine nahe stehende Person des bisherigen Gesellschafters ist. Denn bei einer zu niedrigen Einlageverpflichtung kommt es zu einem anteiligen Überspringen der stillen Reserven. In diesen Fall erwirbt der neue Anteilseigner einen Teil der Anteile unentgeltlich und tritt insoweit in die Rechtsstellung des bisherigen Anteilseigners ein. Dies führt dazu, dass sich die Anschaffungskosten der Altanteile verringern bzw. abspalten und verhältnismäßig auf die Anschaffungskosten der Neuanteile verlagern. Dieser Vorgang führt in aller Regel zu keiner Gewinnauswirkung, es sei denn, dass eine verdeckte Gewinnausschüttung angenommen werden muss. (Die Wendung „In diesen Fall“ steht so in der Quelle.)" },
+      { text: "Beispiel: A hält 100 % der Anteile an der A-GmbH (Stammkapital: 400.000 € aus einer Bareinlage). In 2024 erfolgt eine Kapitalerhöhung um 100.000 € auf nunmehr 500.000 €. Die neuen Anteile werden von S, dem Sohn des bisherigen Alleingesellschafters, gegen Zahlung von 100.000 € übernommen. S ist damit nominell zu 20 % an der A-GmbH beteiligt. Der Unternehmenswert der A-GmbH betrug vor Kapitalerhöhung 900.000 €." },
+      { text: "Lösung: Für die A-GmbH ist die Kapitalerhöhung ohne steuerliche Folgen." },
+      { text: "Lediglich auf Ebene der Anteilseigner ergeben sich Auswirkungen. Denn es ist zu beachten, dass S für den Erwerb der neuen Anteile ein zu niedriges Entgelt leisten muss. Dies dürfte ausschließlich darauf dem persönlichen Näheverhältnis zwischen A und S beruhen. Denn der 20%ige Anteil an der A-GmbH hätte einen gemeinen Wert von 200.000 €: (Die Wendung „darauf dem“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Ermittlung des gemeinen Werts", "Betrag"], zeilen: [
+        ["Wert vor Kapitalerhöhung", "900.000 €"],
+        ["+ Bareinlage", "+ 100.000 €"],
+        ["= Wert nach Kapitalerhöhung", "1.000.000 €"],
+        ["davon 20 %", "200.000 €"],
+      ] },
+      { text: "S hat seine Beteiligung daher zu 50 % entgeltlich und zu 50 % unentgeltlich erworben (100.000 € zu 200.000 €). Somit springen stille Reserven von 100.000 € von den Altanteilen des A auf den neuen Anteil des S über. Dies führt nicht zu einer sofortigen Realisierung der stillen Reserven, sondern von den Altanteilen werden anteilig die Anschaffungskosten abgespalten und auf den neuen Anteil verlagert. Für die Anschaffungskosten ergeben sich daher folgende Auswirkungen:" },
+      { typ: "tabelle", spalten: ["Position", "Betrag"], zeilen: [
+        ["Wert der Anteile bisher", "900.000 €"],
+        ["Anschaffungskosten des A", "400.000 €"],
+        ["Übersprungene stille Reserven", "100.000 €"],
+        ["Verlagerung: 1/9 von 400.000 €", "44.444 €"],
+      ] },
+      { text: "Die Anschaffungskosten des A vermindern sich daher auf 355.556 €. Die Anschaffungskosten des S betragen danach 144.444 €." },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Wert nach Kapitalerhöhung 900.000 € + 100.000 € = 1.000.000 €, davon 20 % = 200.000 €; S zahlt 100.000 €, erwirbt also zur Hälfte unentgeltlich, die übergesprungenen stillen Reserven betragen 200.000 € ./. 100.000 € = 100.000 €. Der Bruch von 1/9 ergibt sich aus dem Verhältnis der übergesprungenen stillen Reserven zum bisherigen Wert der Altanteile: 100.000 € / 900.000 € = 1/9 – diese Herleitung nennt die Quelle nicht, sie gibt nur den Bruch an. 1/9 von 400.000 € = 44.444,44 €, in der Quelle auf 44.444 € gerundet. Anschaffungskosten des A danach 400.000 € ./. 44.444 € = 355.556 €, des S 100.000 € + 44.444 € = 144.444 €; die Summe beider bleibt mit 500.000 € unverändert." },
+      { text: "Anmerkung zur Abspaltung (eigene Ergänzung): Der Vorgang ist wirtschaftlich eine unentgeltliche Übertragung, wird aber technisch ganz anders abgewickelt, und darin liegt die Prüfungsfalle. Es kommt **nicht** zu einer Realisierung: A versteuert nichts, obwohl ihm wirtschaftlich 100.000 € entzogen werden. Stattdessen wandert ein Teil seiner Anschaffungskosten auf den neuen Anteil, und die Besteuerung wird auf den Zeitpunkt der späteren Veräußerung verschoben – dann allerdings bei **S**, der einen entsprechend höheren Gewinn versteuert. Die Rechtsfolge entspricht § 17 Abs. 1 Satz 4 und Abs. 2 Satz 5 EStG für den unentgeltlichen Erwerb: Eintritt in die Rechtsstellung des Rechtsvorgängers. Nur wenn ausnahmsweise eine verdeckte Gewinnausschüttung anzunehmen ist, kommt es zu einer Gewinnauswirkung." },
+      { text: "Anmerkung zum Maßstab der Verlagerung (eigene Ergänzung): Der Bruch von 1/9 misst, welcher **Anteil des bisherigen Werts** auf den neuen Gesellschafter übergegangen ist, und überträgt genau diesen Anteil der Anschaffungskosten. Die Anschaffungskosten folgen damit dem Wert, nicht dem Nennkapital – hätte man nach Nennwerten aufgeteilt (400.000 € zu 100.000 €, also 4/5 zu 1/5), käme man auf 80.000 € statt 44.444 €. Diese Gegenrechnung stellt die Quelle nicht an; sie zeigt aber, dass die Nennwertquote hier der falsche Maßstab wäre. Anders ist es bei der **internen** Kapitalerhöhung im folgenden Abschnitt: Dort wird gerade nach Nennwerten verteilt, weil kein Wert von einem Gesellschafter auf einen anderen übergeht." },
+    ],
+  },
+  {
+    id: "kst-t3-16",
+    kapitel: "16",
+    abschnittNr: "2.3.1",
+    title: "2.3.1 Interne Kapitalerhöhung bei der Kapitalgesellschaft – Verwendungsreihenfolge und Sonderausweis",
+    thema: "§ 28 Abs. 1 KStG fingiert unabhängig von der tatsächlich verwendeten Rücklage vorrangig den Verbrauch des Einlagekontos. Was darüber hinausgeht, wird als Sonderausweis festgestellt – und schmilzt bei späteren Einlagen wieder ab",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil III (Hamacher), Abschnitt 2.3.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 28 Abs. 1 Satz 1 KStG",
+      "§ 28 Abs. 1 Satz 3 KStG",
+      "§ 28 Abs. 3 KStG",
+      "§ 27 KStG",
+      "BMF vom 04.06.2003, Tz. 44",
+    ],
+    themen: ["Rücklagenumwandlung", "Verbindliche Verwendungsreihenfolge", "Sonderausweis", "Nachträgliche Einlagen", "Verrechnung"],
+    bloecke: [
+      { text: "Bei einer Kapitalerhöhung aus Gesellschaftsmitteln ändert sich lediglich die Zusammensetzung des Eigenkapitals der Kapitalgesellschaft, mangels tatsächlicher Vermögenszuführung nicht aber ihr Betriebsvermögen. Die Kapitalerhöhung aus Gesellschaftsmitteln hat deshalb keine Auswirkung auf Gewinn oder Einkommen der Kapitalgesellschaft." },
+      { typ: "titel", text: "2.3.1.2 Auswirkungen auf die Feststellungen" },
+      { text: "In Fällen einer internen Kapitalerhöhung ergeben sich bei der Kapitalgesellschaft ausschließlich Auswirkungen im Zusammenhang mit der Feststellung des steuerlichen Einlagekontos. Denn diesbezüglich gilt § 28 Abs. 1 KStG, welcher für diese Zwecke eine verbindliche Verwendungsreihenfolge vorsieht. Unabhängig davon, aus welchen „Rücklagen“ die Kapitalerhöhung gespeist wird, sieht § 28 Abs. 1 Satz 1 KStG hierfür immer zunächst eine Verwendung des positiven Bestandes des steuerlichen Einlagekontos vor. Dieses gilt – nur für die Auswirkungen auf die Feststellung – als vorrangig für die Durchführung der Kapitalerhöhung verwendet und ist daher entsprechend bis auf 0 € zu reduzieren. Maßgebend für diese Betrachtung ist das steuerliche Einlagekonto zum Schluss des Wirtschaftsjahres der Rücklagenumwandlung, d.h. in dem die zivilrechtliche Wirksamkeit der Kapitalerhöhung durch Eintragung im Handelsregister erfolgt." },
+      { text: "Übersteigt die Kapitalerhöhung hingegen den Bestand des steuerlichen Einlagekontos oder ist ein solcher Bestand im Zeitpunkt der Kapitalerhöhung nicht vorhanden, ergibt sich in Höhe des Überhanges ein Sonderausweis i.S. des § 28 Abs. 1 Satz 3 KStG. Dieser Bestand ist jährlich festzustellen und dokumentiert, dass dem Nennkapital aufgrund der Fiktion des § 28 Abs. 1 KStG neben dem Bestand des steuerlichen Einlagekontos auch andere Beträge, nämlich die aus dem ausschüttbaren Gewinn stammenden Bestände, zugeführt worden sind. Bedeutung hat dieser Posten insbesondere im Fall einer späteren Herabsetzung mit anschließender Auskehrung des Nennkapitals (siehe unter 3.3.1)." },
+      { text: "Beispiel: Die A-GmbH (Stammkapital: 50.000 €) erhöht in 2024 ihr Stammkapital um 100.000 € durch Verwendung ihrer Kapitalrücklage. Das steuerliche Einlagekonto der A-GmbH betrug zu diesem Zeitpunkt a) 120.000 € b) 60.000 €" },
+      { text: "Lösung: Für Zwecke der internen Kapitalerhöhung ist im Zusammenhang mit der Feststellung des steuerlichen Einlagekontos die verbindliche Verwendungsreihenfolge des § 28 Abs. 1 Satz 1 KStG zu beachten. Danach gilt zunächst der positive Bestand des steuerlichen Einlagekontos als für die Kapitalerhöhung verwendet. Welchen bilanziellen Bestand die Kapitalgesellschaft dafür tatsächlich verwendet, ist hierfür unmaßgeblich. Danach kommt es in der Variante a) in voller Höhe zu einer Verwendung des steuerlichen Einlagekontos. Dieses ist zum 31.12.2024 noch in Höhe von 20.000 € festzustellen." },
+      { text: "In der Variante b) gilt zunächst ebenfalls der positive Bestand des steuerlichen Einlagekontos als verwendet, welches sich danach bis auf 0 € reduziert. Zum 31.12.2024 ist das steuerliche Einlagekonto daher mit 0 € festzustellen. Der Überhang von 40.000 € wird zum 31.12.2024 in Form des Sonderausweises i.S. des § 28 Abs. 1 Satz 3 KStG festgestellt." },
+      { typ: "tabelle", spalten: ["Variante", "Einlagekonto vor der Kapitalerhöhung", "Kapitalerhöhung", "Verbrauch des Einlagekontos", "Einlagekonto zum 31.12.2024", "Sonderausweis zum 31.12.2024"], zeilen: [
+        ["a)", "120.000 €", "100.000 €", "100.000 €", "20.000 €", "0 €"],
+        ["b)", "60.000 €", "100.000 €", "60.000 €", "0 €", "40.000 €"],
+      ] },
+      { text: "Gemäß § 28 Abs. 3 KStG entfällt der Sonderausweis hingegen auch ohne Kapitalherabsetzung, wenn der Gesellschafter nachfolgend tatsächliche Einlagen leistet. In diesem Fall verringert sich sowohl der Bestand des Sonderausweises als auch der Bestand des steuerlichen Einlagekontos. Es ist daher nicht denkbar, dass neben einem Bestand des steuerlichen Einlagekontos auch ein Sonderausweis festgestellt wird. Dadurch gilt die Fiktion, dass die interne Kapitalerhöhung nachträglich durch Einlagen des Gesellschafters finanziert gilt. Die Verrechnung des Bestands des steuerlichen Einlagekontos mit dem bestehenden Sonderausweis erfolgt als letzte Maßnahme vor endgültiger Feststellung des Bestands des steuerlichen Einlagekontos und des Sonderausweises. (Die doppelte Verwendung von „gilt“ steht so in der Quelle.)" },
+      { text: "Beispiel: Die A-GmbH (Stammkapital: 50.000 €) erhöht in 2024 ihr Stammkapital um 100.000 € durch Verwendung ihrer Kapitalrücklage. Das steuerliche Einlagekonto der A-GmbH betrug zu diesem Zeitpunkt 60.000 €. In 2025 leistet der Gesellschafter A eine verdeckte Einlage von 20.000 €." },
+      { text: "Lösung: Für Zwecke der internen Kapitalerhöhung ist im Zusammenhang mit der Feststellung des steuerlichen Einlagekontos die verbindliche Verwendungsreihenfolge des § 28 Abs. 1 Satz 1 KStG zu beachten. Danach gilt zunächst der positive Bestand des steuerlichen Einlagekontos als für die Kapitalerhöhung verwendet. Welchen bilanziellen Bestand die Kapitalgesellschaft dafür tatsächlich verwendet, ist hierfür unmaßgeblich. Danach wird zunächst der positive Bestand des steuerlichen Einlagekontos als verwendet, welches sich danach bis auf 0 € reduziert. Zum 31.12.2024 ist das steuerliche Einlagekonto daher mit 0 € festzustellen. Der Überhang von 40.000 € wird zum 31.12.2024 in Form des Sonderausweises i.S. des § 28 Abs. 1 Satz 3 KStG festgestellt. (Der Satz „Danach wird zunächst der positive Bestand … als verwendet“ ist so in der Quelle unvollständig; gemeint ist „gilt … als verwendet“.)" },
+      { text: "Die nachfolgende verdeckte Einlage in 2025 führt zunächst zu einem Zugang zum steuerlichen Einlagekonto. Dadurch greift gemäß § 28 Abs. 3 KStG die Fiktion, dass die vorangegangene Kapitalerhöhung durch die tatsächliche Einlage als finanziert gilt. Aufgrund dessen vermindert sich der Sonderausweis um 20.000 €, welcher zum 31.12.2025 mit 20.000 € festzustellen ist. Gleichzeitig reduziert sich der bisherige (vorläufige) Bestand des steuerlichen Einlagekontos um 20.000 € und wird zum 31.12.2025 mit 0 € festgestellt." },
+      { typ: "tabelle", spalten: ["Stichtag", "Vorgang", "Steuerliches Einlagekonto", "Sonderausweis"], zeilen: [
+        ["31.12.2024", "interne Kapitalerhöhung um 100.000 € bei einem Bestand von 60.000 €", "0 €", "40.000 €"],
+        ["2025 vorläufig", "verdeckte Einlage von 20.000 €", "20.000 €", "40.000 €"],
+        ["31.12.2025 endgültig", "Verrechnung nach § 28 Abs. 3 KStG als letzte Maßnahme", "0 €", "20.000 €"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die mittlere Zeile ist der vorläufige Zwischenstand, den die Quelle als „bisherigen (vorläufigen) Bestand“ bezeichnet – er wird nie festgestellt, sondern nur zur Ermittlung gebildet. Die Verrechnung ist ausdrücklich die **letzte Maßnahme** vor der endgültigen Feststellung; sie kommt also nach allen Zu- und Abgängen des Jahres. Daraus folgt der Satz, den die Quelle zuvor aufstellt: Ein Sonderausweis und ein positiver Bestand des Einlagekontos können nie nebeneinander festgestellt werden. Wer in einer Klausur beides gleichzeitig ausweist, hat die Verrechnung vergessen." },
+      { text: "Anmerkung zur Fiktion des § 28 Abs. 1 Satz 1 KStG (eigene Ergänzung): Der wichtigste Satz des Abschnitts ist die Feststellung, dass es **unmaßgeblich** ist, welche Rücklage die Gesellschaft bilanziell tatsächlich verwendet. Ob der Beschluss die Kapitalrücklage oder die Gewinnrücklage nennt, ändert an der steuerlichen Reihenfolge nichts: Zuerst gilt immer das Einlagekonto als verbraucht. Das ist dieselbe Denkweise wie bei der Verwendungsberechnung des Abschnitts 1.3.3 – dort war die Bezeichnung der Ausschüttung unerheblich, hier ist es die Bezeichnung der Rücklage. Die Wirkungsrichtung ist allerdings die umgekehrte: Bei der Ausschüttung wird das Einlagekonto **nachrangig** verbraucht, bei der Kapitalerhöhung **vorrangig**." },
+      { text: "Anmerkung zur Funktion des Sonderausweises (eigene Ergänzung): Er ist ein Merkposten und kein Vermögen. Er hält fest, dass im Nennkapital Beträge stecken, die aus **versteuertem, ausschüttbarem Gewinn** stammen – Beträge also, deren spätere Auskehrung beim Gesellschafter zu einem Bezug führen muss und nicht zu einer steuerneutralen Einlagenrückgewähr. Ohne ihn ließe sich die Ausschüttungsbesteuerung durch den Umweg über das Nennkapital umgehen: erst Rücklagen in Nennkapital umwandeln, dann das Nennkapital herabsetzen und auskehren. Genau deshalb erlangt der Posten, wie die Quelle sagt, seine Bedeutung erst bei der späteren Kapitalherabsetzung." },
+    ],
+  },
+  {
+    id: "kst-t3-17",
+    kapitel: "17",
+    abschnittNr: "2.3.2",
+    title: "2.3.2 Interne Kapitalerhöhung beim Anteilseigner – Neuverteilung der Anschaffungskosten",
+    thema: "Die neuen Anteile sind keine Einkünfte und begründen keine zusätzlichen Anschaffungskosten. Die vorhandenen werden lediglich nach dem Verhältnis der Nennwerte auf alte und neue Anteile verteilt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil III (Hamacher), Abschnitt 2.3.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 1 KapErhStG",
+      "§ 3 KapErhStG",
+      "§ 57o GmbHG",
+      "§ 20 EStG",
+    ],
+    themen: ["Keine Einkünfte", "Keine zusätzlichen Anschaffungskosten", "Neuverteilung", "Nennwertverhältnis", "Gratisaktien"],
+    bloecke: [
+      { text: "Die im Rahmen einer Kapitalerhöhung aus Gesellschaftsmitteln ausgegebenen neuen Anteile führen beim Anteilseigner nicht zu steuerpflichtigen Einkünften aus Kapitalvermögen (siehe § 1 KapErhStG). Ebenfalls entstehen diesem mangels eigener Einlagen keine zusätzlichen Anschaffungskosten seiner Beteiligung. Weil der Anteilseigner aber aufgrund der Kapitalerhöhung zusätzliche Anteile erhält, müssen die bisherigen Anschaffungskosten der Altanteile neu verteilt werden. Als Aufteilungsmaßstab der Anschaffungskosten gelten die Nennwerte der „alten“ Anteile zu den Nennwerten der „neuen“ Anteile." },
+      { text: "Beispiel: A besitzt Anteile an der A-GmbH mit einem Nennwert von 10.000 € für 60.000 € erworben. In 2024 führt die A-GmbH eine interne Kapitalerhöhung durch. A erhält aufgrund dessen neue Anteile mit Nennwert von 5.000 €. (Der Satzbau „besitzt Anteile … für 60.000 € erworben“ steht so in der Quelle.)" },
+      { text: "Lösung: A erzielt durch die Zuwendung der neuen Anteile keine Einkünfte i.S. des § 20 EStG. Die Anschaffungskosten der Anteile ermitteln sich diesbezüglich aber unter Berücksichtigung der Kapitalerhöhung wie folgt:" },
+      { typ: "tabelle", spalten: ["Anteil", "Nennwert", "Anteil am Gesamtnennwert", "Anteilige Anschaffungskosten"], zeilen: [
+        ["Altanteil", "10.000 €", "2/3", "2/3 von 60.000 € = 40.000 €"],
+        ["Neuanteil", "5.000 €", "1/3", "1/3 von 60.000 € = 20.000 €"],
+        ["Summe", "15.000 €", "3/3", "60.000 €"],
+      ] },
+      { text: "Rechenprobe (eigene Ergänzung): Die Zahlen gehen auf. Der Gesamtnennwert beträgt nach der Kapitalerhöhung 10.000 € + 5.000 € = 15.000 €, woraus sich die Quoten 10/15 = 2/3 und 5/15 = 1/3 ergeben. Die Anschaffungskosten von insgesamt 60.000 € bleiben unverändert und verteilen sich mit 40.000 € und 20.000 €. Die Summe des Gesamtnennwerts nennt die Quelle nicht ausdrücklich; sie ist eigene Herleitung." },
+      { text: "Anmerkung zum Unterschied gegenüber der externen Kapitalerhöhung (eigene Ergänzung): Beide Abschnitte enden mit einer Verteilung von Anschaffungskosten, aber aus entgegengesetzten Gründen und nach unterschiedlichen Maßstäben. Bei der **externen** Kapitalerhöhung des Abschnitts 2.2 wandern Anschaffungskosten von einem Gesellschafter auf einen **anderen**, weil Wert übergesprungen ist – Maßstab ist deshalb das Wertverhältnis (im Beispiel 1/9). Bei der **internen** Kapitalerhöhung bleibt alles beim selben Gesellschafter; es entsteht kein neuer Wert und geht kein Wert über, weshalb schlicht nach **Nennwerten** aufgeteilt wird. Der Vorgang ist reine Rechentechnik: Aus einem Anteil mit 60.000 € Anschaffungskosten werden zwei Anteile mit zusammen 60.000 €." },
+      { text: "Anmerkung zur Bedeutung der Aufteilung (eigene Ergänzung): Dass die Aufteilung überhaupt vorgenommen werden muss, obwohl sich am Gesamtvermögen nichts ändert, hat einen praktischen Grund: Jeder Anteil ist gesellschaftsrechtlich selbständig und kann einzeln veräußert werden – derselbe Gedanke, den die Quelle im Abschnitt 1.2.1.4 unter Berufung auf § 15 Abs. 2 GmbHG entwickelt hat. Verkauft A später nur die neuen Anteile, braucht er für die Gewinnermittlung deren eigene Anschaffungskosten, und die sind eben nicht null, obwohl er für sie nichts gezahlt hat." },
+      { text: "Damit ist das Kapitel 2 (Grundzüge der Kapitalerhöhung) der Quelle vollständig übernommen. (Eigene Einordnung:) Es folgt das Kapitel 3 zur Kapitalherabsetzung einschließlich des Erwerbs und der Veräußerung eigener Anteile." },
     ],
   },
 ];
