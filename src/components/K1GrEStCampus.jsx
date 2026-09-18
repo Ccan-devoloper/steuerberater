@@ -23,7 +23,7 @@ const NAV = [
 /* Was aus dem Skript noch nicht im Wortlaut erfasst ist. Die Liste steht im
    Cockpit, damit der Stand des Campus nachprüfbar bleibt. */
 const OFFEN = [
-  "III. Steuerbarkeit – der Rest des Abschnitts: Nebentatbestände (§ 1 Abs. 1 Nr. 2 bis 7 GrEStG), Ersatztatbestand (§ 1 Abs. 2) und die Ergänzungstatbestände (§ 1 Abs. 2a, 2b, 3, 3a) einschließlich der Grundstückszugehörigkeit zum Vermögen einer Gesellschaft",
+  "III. Steuerbarkeit – der Rest des Abschnitts: die einzelnen Ergänzungstatbestände (§ 1 Abs. 2a, 2b, 3 und 3a GrEStG), ihre Übersicht, das Weitergelten der bis zum 30.06.2021 geltenden Fassung und die Grundstückszugehörigkeit zum Vermögen einer Gesellschaft",
   "IV. Steuerbefreiungen und Steuervergünstigungen (§§ 3 bis 7 GrEStG)",
   "V. Bemessungsgrundlage",
   "VI. Steuersatz und Steuerberechnung",
@@ -54,6 +54,8 @@ function Cockpit() {
           <li><b>II. Prüfungsschema</b> – das vollständige fünfstufige Schema mit allen Tatbeständen des § 1 GrEStG, den Befreiungen der §§ 3 bis 7 GrEStG, der Bemessungsgrundlage nach §§ 8 und 9 GrEStG, Steuersatz und Steuerberechnung sowie den acht Steuerschuldner-Tatbeständen des § 13 GrEStG.</li>
           <li><b>III.1 Inländisches Grundstück</b> – der erste Prüfungsschritt: der Grundstücksbegriff über §§ 3, 4 GBO, der Umfang nach §§ 93 bis 96 BGB mit Scheinbestandteilen und Zubehör, die drei Ausnahmen des § 2 Abs. 1 Satz 2 GrEStG (Betriebsvorrichtungen, Mineralgewinnungsrechte, Erbbauzinsanspruch) und die drei grundstücksgleichen Rechte des § 2 Abs. 2 GrEStG – mit dem Pächter-Beispiel und der Behandlung von Miteigentumsanteilen und Wohnungseigentum.</li>
           <li><b>III.2.1 Haupttatbestand (§ 1 Abs. 1 Nr. 1 GrEStG)</b> – steuerbar ist das Verpflichtungsgeschäft, nicht die Erfüllung: dazu Tausch, Schenkungsversprechen, Einbringungs-, Auseinandersetzungs- und Erbbaurechtsvertrag, jeweils mit den Beispielen der Quelle.</li>
+          <li><b>III.2.2 Nebentatbestände (§ 1 Abs. 1 Nr. 2 bis 7 GrEStG)</b> – Auflassung ohne Verpflichtungsgeschäft, Eigentumsübergang kraft Gesetzes mit Erbfall, Verschmelzung, Spaltung und Anwachsung, dazu die Abgrenzung zum nicht steuerbaren Formwechsel, das Meistgebot in der Zwangsversteigerung und die Abtretungsgeschäfte.</li>
+          <li><b>III.2.3 Ersatztatbestand (§ 1 Abs. 2 GrEStG)</b> – Verschaffung der Verwertungsbefugnis ohne Eigentumsübertragung: atypischer Maklervertrag, Treuhandverhältnisse und ausnahmsweise Leasingverträge, abgegrenzt vom einfachen Pachtvertrag. Dazu die Einleitung zu den Ergänzungstatbeständen.</li>
         </ul>
       </div>
       <div className="kst-karte">
@@ -112,7 +114,7 @@ export default function K1GrEStCampus({ onKlausurwechsel, onFachwechsel }) {
           <KurzskriptBloecke
             kicker="Klausur 1 · Grunderwerbsteuer · Skript"
             titel="Skript Grunderwerbsteuer (Vossel)"
-            lead="Das Lehrgangsskript „Vorbereitung auf die Steuerberaterprüfung · Grunderwerbsteuer“ von Dr. Stephan Vossel (Stand 01/2026) im Wortlaut. Eingepflegt sind bislang die Abschnitte I (Charakterisierung), II (Prüfungsschema) sowie aus Abschnitt III der erste Prüfungsschritt (inländisches Grundstück) und der Haupttatbestand des § 1 Abs. 1 Nr. 1 GrEStG. Der Abschnitt I klärt die Frage, die alles trägt: Steuerbar ist der Wechsel der Rechtsträgerzuordnung, nicht der Übergang wirtschaftlichen Eigentums – weshalb Personengesellschaften hier eigene Rechtsträger sind und nicht, wie im Ertragsteuerrecht, transparent. Abschnitt II stellt das fünfstufige Prüfungsschema vollständig dar: Steuerbarkeit mit Haupt-, Neben-, Ersatz- und Ergänzungstatbeständen des § 1 GrEStG einschließlich der 90-Prozent-Grenzen und der Zehnjahresfristen, dann Steuerpflicht und Befreiung mit den §§ 3 bis 7 GrEStG, dann Bemessungsgrundlage, Steuersatz und schließlich die acht Steuerschuldner-Tatbestände des § 13 GrEStG."
+            lead="Das Lehrgangsskript „Vorbereitung auf die Steuerberaterprüfung · Grunderwerbsteuer“ von Dr. Stephan Vossel (Stand 01/2026) im Wortlaut. Eingepflegt sind bislang die Abschnitte I (Charakterisierung), II (Prüfungsschema) sowie aus Abschnitt III der erste Prüfungsschritt (inländisches Grundstück), der Haupttatbestand des § 1 Abs. 1 Nr. 1 GrEStG, die Nebentatbestände des § 1 Abs. 1 Nr. 2 bis 7 GrEStG und der Ersatztatbestand des § 1 Abs. 2 GrEStG. Der Abschnitt I klärt die Frage, die alles trägt: Steuerbar ist der Wechsel der Rechtsträgerzuordnung, nicht der Übergang wirtschaftlichen Eigentums – weshalb Personengesellschaften hier eigene Rechtsträger sind und nicht, wie im Ertragsteuerrecht, transparent. Abschnitt II stellt das fünfstufige Prüfungsschema vollständig dar: Steuerbarkeit mit Haupt-, Neben-, Ersatz- und Ergänzungstatbeständen des § 1 GrEStG einschließlich der 90-Prozent-Grenzen und der Zehnjahresfristen, dann Steuerpflicht und Befreiung mit den §§ 3 bis 7 GrEStG, dann Bemessungsgrundlage, Steuersatz und schließlich die acht Steuerschuldner-Tatbestände des § 13 GrEStG."
             quelle={grestSkriptQuelle}
             kapitel={grestSkript}
             gruppeVon={(k) => k.romisch}

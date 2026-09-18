@@ -9299,3 +9299,55 @@ Wortlaut ist unverändert übernommen und mit „(so in der Quelle)“ gekennzei
 mitten im Fließtext erscheinen (etwa die Anmerkung zur Uneinheitlichkeit der Begriffe
 „Ergänzungstatbestand“). Sie sind als eigener Absatz mit dem Zusatz „(Fußnote der Quelle: …)“
 wiedergegeben, damit sie weder verlorengehen noch den Haupttext zerreißen.
+
+### Skript Grunderwerbsteuer (Vossel), Abschnitt III – zweiter Teil
+
+- **Quelle:** Drive-ID `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, Abschnitt III, Unterabschnitte
+  2.2 (Nebentatbestände) und 2.3 (Ersatztatbestand) sowie die Einleitung zu 2.4.
+- **Ziel:** `src/data/k1-grest-skript.js`, Einträge `grest-05` und `grest-06`. Prüfung:
+  `npm run check:k1-grest-skript`.
+
+**Was dieser Teil bringt.** Die vier Nebentatbestände sind sämtlich subsidiär zum
+Kaufvertrag. Die Auflassung (Nr. 2) greift nur, wenn ihr kein Verpflichtungsgeschäft
+vorausging – praktisch selten, aber denkbar bei ungerechtfertigter Bereicherung,
+Schadenersatzansprüchen oder dem Herausgabeanspruch des Auftraggebers. Der Eigentumsübergang
+kraft Gesetzes (Nr. 3) trägt den Erbfall, die Umwandlungen nach dem UmwG und die Anwachsung
+nach § 712a BGB. Das Meistgebot (Nr. 4) ist bemerkenswert, weil der steuerbare Tatbestand
+**vor** dem Abschluss des Zwangsversteigerungsverfahrens liegt; entfällt das Meistgebot
+nachträglich, ist der Bescheid nach § 175 Abs. 1 Satz 1 Nr. 2 AO aufzuheben. Die
+Abtretungsgeschäfte (Nr. 5 bis 7) erfassen Zwischengeschäfte, die das Grundstück gar nicht
+unmittelbar betreffen.
+
+Zwei Abgrenzungen des Skripts sind für die Klausur zentral und hier vollständig übernommen:
+Der **Formwechsel** löst keine Grunderwerbsteuer aus, weil die Identität des Rechtsträgers
+erhalten bleibt – ertragsteuerlich liegt über § 25 UmwStG zwar ein Fall des § 20 UmwStG vor,
+grunderwerbsteuerlich fehlt es an einer zivilrechtlichen Übertragung. Und das **Ausscheiden
+eines Gesellschafters aus einer mehrgliedrigen Personengesellschaft** ist kein steuerbarer
+Vorgang, weil die Gesellschaft als eigener Rechtsträger dieselbe bleibt – die Quelle weist
+aber ausdrücklich darauf hin, dass ein Ergänzungstatbestand ausgelöst sein kann.
+
+Der Ersatztatbestand des § 1 Abs. 2 GrEStG lebt von der Abgrenzung Substanz gegen Nutzung:
+Der atypische Maklervertrag ist erfasst, weil der Makler am Verwertungsergebnis teilnimmt;
+der einfache Pachtvertrag nicht, weil der Pächter Besitz und Nutzung, aber nicht die Substanz
+hat. Leasingverträge sind der Ausnahmefall, für den die Quelle drei kumulative Merkmale
+nennt.
+
+**Zwei eigene Feststellungen:**
+
+1. **Ein unvollständiger Satz.** Zu § 1 Abs. 1 Nr. 3 GrEStG heißt es: „Der Besteuerungstatbestand
+   des Übergangs des Eigentums selbst.“ Dem Satz fehlt das Prädikat; gemeint ist ersichtlich,
+   dass der Eigentumsübergang selbst den Besteuerungstatbestand bildet. Wortlautgetreu
+   übernommen und gekennzeichnet.
+2. **Ein Rechtsformwechsel mitten im Beispiel.** In der Lösung zum Verschmelzungsbeispiel
+   steht „im Handelsregister der **M-GmbH**“, während Sachverhalt und der Rest derselben
+   Lösung durchgehend von der **M-AG** sprechen. Ebenfalls wortlautgetreu übernommen und an
+   Ort und Stelle gekennzeichnet.
+
+**Was noch fehlt.** Der Eintrag `grest-06` schließt mit einem als solchem gekennzeichneten
+redaktionellen Hinweis, dass die einzelnen Ergänzungstatbestände noch nicht eingepflegt sind.
+Das ist bewusst: Sie sind mit rund 400 Zeilen der umfangreichste Teil des ganzen Skripts –
+§ 1 Abs. 2a (Personengesellschaften), Abs. 2b (Kapitalgesellschaften), Abs. 3
+(Anteilsvereinigung), Abs. 3a (wirtschaftliche Beteiligung), dazu eine Übersicht, das
+Weitergelten der bis zum 30.06.2021 geltenden Fassung und die Grundstückszugehörigkeit zum
+Vermögen einer Gesellschaft. Der Hinweis steht im Datensatz, damit niemand den Abschnitt für
+vollständig hält.
