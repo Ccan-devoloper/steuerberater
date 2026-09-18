@@ -10462,3 +10462,41 @@ Gründungsbeispiel des Abschnitts 1.3.
 
 **Noch offen:** die Kapitel 2 (Einkommensermittlung mit dem Berechnungsschema), 3 (verdeckte
 Einlage, der umfangreichste Teil) und 4 (Tarif) sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Kapitel 2 bis Abschnitt 2.2.3.1 – Einkommensermittlung
+
+Der Datensatz hat jetzt acht Kapitel mit 167 Abschnitten und 5 Tabellen.
+
+**Die zweistufige Einkommensermittlung** ist das Herzstück dieses Kapitels und wird von der
+Quelle so klar auseinandergelegt, wie man es sich wünscht: Stufe 1 ist die Gewinnermittlung
+**innerhalb** der Steuerbilanz (dort wirken Bilanzberichtigungen nach § 4 Abs. 2 EStG), Stufe 2
+die Einkommensermittlung **außerhalb** der Steuerbilanz (dort wirken die Zu- und Abrechnungen).
+Das Beispiel führt beides an einem Sachverhalt vor – eine zu Unrecht gebildete Rückstellung von
+500.000 € wird auf Stufe 1 ausgebucht, nicht abziehbare Betriebsausgaben von 10.000 € werden
+auf Stufe 2 hinzugerechnet, Einkommensauswirkung insgesamt +510.000 € – und schließt mit dem
+Merksatz, dass Stufe 2 die bedeutendere ist.
+
+**Die Rückrechnung vom Bilanzgewinn auf den Jahresüberschuss** ist der praktisch wichtigste
+Handgriff des Abschnitts, weil die Ausgangsgröße der Einkommensermittlung eben **nicht** der
+Bilanzgewinn ist. Das Schema der Quelle ist als Tabelle übernommen, ebenso das Beispiel der
+A-GmbH; nachgerechnet: 193.800 € ./. 40.000 € Gewinnvortrag + 35.000 € Zuführung zur Rücklage
+= 188.800 € Jahresüberschuss. Die Quelle nennt auch, wo man dem Bilanzgewinn typischerweise
+begegnet: bei der Aktiengesellschaft und bei der Unternehmergesellschaft, die nach § 5a Abs. 3
+GmbHG ein Viertel ihres Jahresüberschusses in die gesetzliche Rücklage einstellen muss.
+
+**Eigene Feststellung zu einer Fundstelle:** Die Quelle begründet die Rücklagenpflicht der
+Aktiengesellschaft mit **§ 300 AktG**. Diese Vorschrift trägt zwar ebenfalls die Überschrift
+„Gesetzliche Rücklage“, enthält aber Sondervorschriften für den Fall eines Gewinnabführungs-
+oder Beherrschungsvertrags; die allgemeine Pflicht folgt aus **§ 150 Abs. 2 AktG**. Der
+Wortlaut steht unverändert, der Hinweis daneben – das ist genau die Art Fundstelle, die man in
+der Klausur ungeprüft abschreibt.
+
+**Beim Katalog der nicht abziehbaren Ausgaben** lohnt der Blick auf zwei Feinheiten, die die
+Quelle ausdrücklich macht: Hinterziehungszinsen nach § 4 Abs. 5 Nr. 8a EStG erfassen auch die
+zur Umsatzsteuer, **nicht** aber die zur Körperschaftsteuer – dort geht § 10 Nr. 2 KStG vor.
+Und umsatzsteuerlich zieht das Abzugsverbot nach § 15 Abs. 1a Satz 1 UStG grundsätzlich den
+Vorsteuerabzug mit, mit zwei Ausnahmen: bei Bewirtungskosten (§ 15 Abs. 1a Satz 2 UStG) und bei
+bloß formellen Fehlern nach § 4 Abs. 7 EStG.
+
+**Noch offen:** der Rest des Kapitels 2 (ab 2.2.3.2, den nichtabziehbaren Aufwendungen des
+§ 10 KStG), die Kapitel 3 (verdeckte Einlage) und 4 (Tarif) sowie die Skriptteile II bis VII.

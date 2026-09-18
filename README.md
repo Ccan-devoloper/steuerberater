@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit fünf Kapitel mit 118 Abschnitten und
-  2 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit acht Kapitel mit 167 Abschnitten und
+  5 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2364,8 +2364,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Normenkatalog und den Folgen für den Mitunternehmer, der zum Anteilseigner wird
   (Steuerverstrickung nach § 17 EStG, Sperrfrist des § 22 UmwStG, Zufluss erst bei tatsächlicher
   Entnahme seit dem VZ 2024).
-  Die Kapitel 2 (Einkommensermittlung), 3 (verdeckte Einlage) und 4 (Tarif) folgen; der Campus
-  weist den Stand aus.
+  Aus dem **Kapitel 2 (Einkommensermittlung)** sind die Abschnitte 2.1 bis 2.2.3.1 eingepflegt:
+  das zu versteuernde Einkommen als Bemessungsgrundlage mit dem abweichenden Wirtschaftsjahr,
+  die Brückenvorschrift des § 8 Abs. 1 Satz 1 KStG und die Umqualifizierung aller Einkünfte nach
+  § 8 Abs. 2 KStG, die zweistufige Einkommensermittlung (Bilanzberichtigung innerhalb, Zu- und
+  Abrechnungen außerhalb der Steuerbilanz), das Berechnungsschema des R 7.1 KStR mit der
+  Rückrechnung vom Bilanzgewinn auf den Jahresüberschuss samt durchgerechnetem Beispiel, die
+  außerbilanziell herauszunehmenden „steuerfreien“ Erträge und der Katalog der nicht abziehbaren
+  Ausgaben des § 4 Abs. 5 EStG mit der umsatzsteuerlichen Folge des § 15 Abs. 1a UStG.
+  Der Rest des Kapitels 2 sowie die Kapitel 3 (verdeckte Einlage) und 4 (Tarif) folgen; der
+  Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
