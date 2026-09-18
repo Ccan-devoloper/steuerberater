@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 25 Kapitel mit 289 Abschnitten und 20
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 27 Kapitel mit 324 Abschnitten und 22
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2544,6 +2544,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Hinzurechnungstatbestand die Freistellung zurückholt. Nur die steuerpflichtige Wertaufholung
   bleibt auf beiden Ebenen steuerpflichtig.
   **Damit sind die Kapitel 1 bis 3 der Quelle vollständig.**
+  Aus **Kapitel 4 (Abzugsverbot von Gewinnminderungen)** ist der Begriff der Gewinnminderung
+  eingepflegt. Er enthält die schärfste Asymmetrie des Skripts: Substanzbezogene Gewinnminderungen
+  sind auch bei **Streubesitz** nicht abziehbar, weil § 8b Abs. 4 KStG nur den Absatz 1
+  ausschließt – der Streubesitzgesellschafter trägt damit die Nachteile beider Systeme, volle
+  Steuerpflicht der laufenden Erträge **und** volles Abzugsverbot der Substanzverluste. Ob das auch
+  für die ausschüttungsbedingte Teilwertabschreibung gilt, ist beim BFH unter I R 24/25 anhängig.
+  Nicht erfasst sind die laufenden Betriebsausgaben der Beteiligung. Beim **Ausfall der
+  Kaufpreisforderung** entsteht kein abziehbarer Aufwand, sondern der Veräußerungsgewinn wird
+  rückwirkend neu berechnet – in beiden Jahren rein außerbilanziell; zwei durchgerechnete Varianten
+  zeigen, wie nah Steuerfreiheit und Abzugsverbot beieinanderliegen, denn welche Vorschrift greift,
+  entscheidet allein das Vorzeichen des nach § 8b Abs. 2 Satz 2 KStG ermittelten Betrags. Die
+  **Kosten eines gescheiterten Beteiligungserwerbs** bleiben dagegen voll abziehbar, weil es an
+  einem „Anteil i. S. des Absatzes 2“ fehlt – der abgebrochene Erwerb ist steuerlich also günstiger
+  als der erfolgreiche.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

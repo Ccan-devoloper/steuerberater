@@ -10617,8 +10617,50 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Kapitel 4 bis 6; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitt 4.1 – Begriff der Gewinnminderung
+
+Quelle: dieselbe Datei; übernommen als Kapitel 26 und 27. Prüfung:
+`npm run check:k2-kst-teil2` (27 Kapitel, 324 Blöcke, 22 Tabellen).
+
+**Die schärfste Asymmetrie des ganzen Skripts** steht im ersten Absatz und ist leicht zu
+überlesen: Substanzbezogene Gewinnminderungen sind auch bei einem **Streubesitzanteil** nicht
+abziehbar, weil § 8b Abs. 4 KStG nur den Absatz 1 ausschließt und nicht den Absatz 3. Der
+Streubesitzgesellschafter trägt damit die Nachteile beider Systeme: volle Steuerpflicht der
+laufenden Erträge und volles Abzugsverbot der Substanzverluste. Der Datensatz hebt das eigens
+hervor.
+
+**Die praktische Zuspitzung dieser Asymmetrie** ist beim BFH anhängig (I R 24/25) und im Datensatz
+eingeordnet: Schüttet eine Streubesitzbeteiligung aus, ist die Ausschüttung voll steuerpflichtig;
+sinkt dadurch ihr Wert und wird eine ausschüttungsbedingte Teilwertabschreibung nötig, wäre sie
+nach dem Wortlaut gleichwohl nicht abziehbar – der Gesellschafter stünde dann schlechter da als
+ohne die Ausschüttung.
+
+**Eine Rechenprobe, die zwei Wege nebeneinanderstellt** (eigene Ergänzung): Im Beispiel zur
+verdeckten Gewinnausschüttung führen die bilanzielle Rechnung (./. 81.000 € zuzüglich 30.000 €
+Hinzurechnung) und die Formel des § 8b Abs. 2 Satz 2 KStG mit dem gemeinen Wert als
+Veräußerungspreis (50.000 € ./. 100.000 € ./. 1.000 €) beide auf ./. 51.000 € – und genau deshalb
+geht das Einkommen auf null auf. Die Reihenfolge ist zwingend: erst § 8 Abs. 3 Satz 2 KStG, dann
+§ 8b Abs. 3 Satz 3 KStG.
+
+**Ein Schreibversehen der Quelle, wortlautgetreu übernommen und gekennzeichnet:** In der
+Variante a) des Kaufpreisausfalls steht „= Verlust Stufe 1: 550.000 €“, in der Variante b) bei
+identischer Rechnung „= Gewinn Stufe 1: 550.000 €“. Es handelt sich beide Male um einen Gewinn.
+
+**Der Unterschied der beiden Varianten** ist im Datensatz eigens eingeordnet, weil er zeigt, wie
+nah Steuerfreiheit und Abzugsverbot beieinanderliegen: In Variante a kippt das Ergebnis in einen
+Verlust von ./. 250.000 €, dann greift § 8b Abs. 3 Satz 3 KStG und macht ihn unbeachtlich; in
+Variante b bleibt ein Gewinn von 150.000 €, dann greift § 8b Abs. 2 KStG und stellt ihn frei,
+wobei 7.500 € Pauschale bleiben. Welche Vorschrift greift, entscheidet allein das Vorzeichen des
+nach Satz 2 ermittelten Betrags.
+
+**Die Pointe des Abschnitts 4.1.4** liegt in einer Formulierung des Gesetzes, die man leicht
+überliest und die der Datensatz herausstellt: § 8b Abs. 3 Satz 3 KStG knüpft an Gewinnminderungen
+im Zusammenhang mit einem **Anteil** i. S. des Absatzes 2 an – und wo der Erwerb scheitert, gibt
+es diesen Anteil nie. Wer eine Beteiligung erwirbt und mit Verlust verkauft, zieht nichts ab; wer
+den Erwerb abbricht, zieht die Prüfungskosten in voller Höhe ab.
 
 ### KSt Teil II (Hamacher), Abschnitte 3.4 und 3.5 – Pauschalierung und Gewerbesteuer
 

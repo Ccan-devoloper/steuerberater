@@ -17,8 +17,10 @@
    Behandlung. Auch das Kapitel 3 (Steuerfreiheit von Veräußerungsgewinnen) ist
    vollständig – vom Grundfall der Veräußerung über den weiten
    Veräußerungsbegriff und die Wertaufholung bis zur Betriebsausgabenpauschalierung
-   und den gewerbesteuerlichen Auswirkungen. Es folgen die Kapitel 4 bis 6; der
-   Campus weist den Stand aus.
+   und den gewerbesteuerlichen Auswirkungen. Aus Kapitel 4 (Abzugsverbot von
+   Gewinnminderungen) ist der Abschnitt 4.1 (Begriff der Gewinnminderung)
+   übernommen. Es folgen die Abschnitte 4.2 und 4.3 sowie die Kapitel 5 und 6;
+   der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -953,6 +955,102 @@ export const kstTeil2 = [
         ["Ausnahme", "materielle Korrespondenz (§ 8b Abs. 1 Satz 2 KStG)", "steuerpflichtige Wertaufholung (§ 8b Abs. 2 Sätze 4 und 5 KStG) – dann volle Gewerbesteuerpflicht"],
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt die beiden Kapitel gegenüber, weil der Abschnitt 3.5 mit drei Sätzen auskommt, wo das Kapitel 2 vier Unterabschnitte brauchte – und dieser Unterschied erklärungsbedürftig ist. Der Grund liegt in der Systematik: Für Ausschüttungen hält das Gewerbesteuerrecht mit § 9 Nr. 2a GewStG **eigene** Schachtelprivilegien mit abweichenden Voraussetzungen bereit, weshalb die Ebenen auseinanderfallen können und § 8 Nr. 5 GewStG als Korrektur gebraucht wird. Für Veräußerungsgewinne gibt es nichts dergleichen – hier folgt die Gewerbesteuer der Körperschaftsteuer vollständig, weil die Freistellung schon in der Ausgangsgröße des § 7 Satz 1 GewStG steckt und kein Hinzurechnungstatbestand sie zurückholt. Die einzige Abweichung ist die steuerpflichtige Wertaufholung nach § 8b Abs. 2 Sätze 4 und 5 KStG, die ohnehin auf beiden Ebenen steuerpflichtig bleibt." },
+    ],
+  },
+  {
+    id: "kst-t2-26",
+    kapitel: "26",
+    abschnittNr: "4.1 bis 4.1.2",
+    title: "4. Abzugsverbot von Gewinnminderungen (§ 8b Abs. 3 KStG) – Veräußerungsverluste und Teilwertabschreibungen",
+    thema: "Die Kehrseite der Steuerfreiheit: Substanzbezogene Gewinnminderungen bleiben außer Ansatz – und zwar auch bei Streubesitz, weil § 8b Abs. 4 KStG nur den Absatz 1 ausschließt. Laufende Betriebsausgaben der Beteiligung sind davon nicht betroffen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 4.1 bis 4.1.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1 KStG", "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 2 Satz 2 KStG", "§ 8b Abs. 2 Satz 3 KStG",
+      "§ 8b Abs. 3 Satz 1 KStG", "§ 8b Abs. 3 Satz 3 KStG", "§ 8b Abs. 4 KStG",
+      "§ 6 Abs. 1 Nr. 2 EStG",
+      "BMF vom 28.04.2003, Tz. 26", "BMF vom 05.10.2020, BStBl. I 2020, 1033",
+      "FG München vom 28.09.2009, EFG 2010 S. 257, rkr.",
+      "BFH I R 24/25 (anhängig)",
+    ],
+    themen: ["Abzugsverbot", "Substanzbezogene Gewinnminderung", "Veräußerungsverlust", "Teilwertabschreibung", "Streubesitz", "Ausschüttungsbedingte Teilwertabschreibung"],
+    bloecke: [
+      { text: "Korrespondierend zur Steuerfreiheit der Veräußerungsgewinne sowie der Gewinnausschüttungen schreibt § 8b Abs. 3 Satz 3 KStG vor, dass sämtliche substanzbezogenen Gewinnminderungen bei der Einkommensermittlung nicht zu berücksichtigen sind. Dies gilt auch in den Fällen eines Streubesitzanteils, weil § 8b Abs. 4 KStG lediglich die Anwendung des § 8b Abs. 1 KStG ausschließt. Nicht davon umfasst werden die laufenden Betriebsausgaben der Beteiligung. Diese sind unabhängig davon abziehbar bzw. werden als Veräußerungskosten vom Tatbestand des § 8b Abs. 2 Satz 2 KStG erfasst." },
+      { text: "Anmerkung zur Reichweite bei Streubesitz (eigene Ergänzung): Der Satz ist die schärfste Asymmetrie des ganzen Skripts und in der Klausur leicht zu übersehen. Bei einem Streubesitzanteil ist die **Ausschüttung steuerpflichtig** (§ 8b Abs. 4 KStG schließt Absatz 1 aus), der **Veräußerungsverlust aber gleichwohl nicht abziehbar**, weil Absatz 4 eben nur den Absatz 1 betrifft und nicht den Absatz 3. Der Streubesitzgesellschafter trägt damit die Nachteile beider Systeme: volle Steuerpflicht der laufenden Erträge und volles Abzugsverbot der Substanzverluste." },
+      { text: "Als substanzbezogene Gewinnminderung gelten in diesem Zusammenhang insbesondere folgende Tatbestände:" },
+      { typ: "titel", text: "4.1.1 Veräußerungsverluste" },
+      { text: "Die Ermittlung des Veräußerungsverlustes richtet sich nach § 8b Abs. 2 Satz 2 KStG und umfassen damit auch etwaige Veräußerungskosten. Gleiches gilt in Fällen der Liquidation oder Insolvenz der Gesellschaft, weil der Anteil durch Auflösung entsprechend untergeht." },
+      { text: "Wird der Veräußerungspreis in einer Fremdwährung abgewickelt und gleichzeitig mit der Anteilsveräußerung ein mögliches Währungskursrisiko ausgeschlossen bzw. dieses vermindert, unterliegen die daraus resultierenden Veräußerungsverluste ebenfalls der Nichtabziehbarkeit des § 8b Abs. 3 Satz 3 KStG." },
+      { text: "Merke: Die Ermittlung des Veräußerungsverlustes erfolgt entsprechend nach § 8b Abs. 2 Satz 2 KStG. Damit unterliegen auch etwaige Veräußerungskosten der Nichtabziehbarkeit." },
+      { text: "Beispiel: Die F-GmbH veräußert in 2026 einen 30%igen Anteil an der T-GmbH für 60.000 € (Anschaffungskosten: 100.000 €). Gleichzeitig muss sie als Veräußerungskosten 5.000 € aufwenden." },
+      { text: "Lösung: Der Veräußerungsverlust von 45.000 € (60.000 € ./. 100.000 € ./. 5.000 €) ist als Gewinnminderung nach § 8b Abs. 3 Satz 3 KStG nicht abziehbar und daher im Rahmen der Einkommensermittlung wieder hinzuzurechnen. Der maßgebliche Verlust ermittelt sich ebenfalls nach den Grundsätzen des § 8b Abs. 2 Satz 2 KStG und umfasst damit auch die Veräußerungskosten." },
+      { text: "Kommt es bei einer verdeckten Gewinnausschüttung nach Anwendung der Gewinnkorrektur i. S. des § 8 Abs. 3 Satz 2 KStG zu einem Veräußerungsverlust, unterliegt auch dieser Verlust dem Abzugsverbot des § 8b Abs. 3 Satz 3 KStG. Die Anwendung des § 8b Abs. 3 Satz 3 KStG folgt der Anwendung des § 8 Abs. 3 Satz 2 KStG nach." },
+      { text: "Beispiel: Die Z-GmbH veräußert ihre 40%ige Beteiligung an der G-GmbH (Buchwert: 100.000 €) an ihren Anteilseigner für 20.000 €, obwohl der gemeine Wert bei 50.000 € liegt. An Veräußerungskosten sind 1.000 € angefallen (Unterstellung: Gewinn insgesamt ./. 81.000 €)." },
+      { text: "Lösung: Aus der Anteilsveräußerung entsteht der Z-GmbH eine verdeckte Gewinnausschüttung in Form einer verhinderten Vermögensmehrung von 30.000 € (50.000 € ./. 20.000 €), die nach § 8 Abs. 3 Satz 2 KStG dem Einkommen hinzuzurechnen ist. Dadurch wird der bilanzielle Veräußerungsverlust zunächst von ./. 80.000 € auf nunmehr ./. 50.000 € vermindert (Zwischensumme: ./. 51.000 €). Dafür gilt § 8b Abs. 3 Satz 3 KStG entsprechend, wofür sich die Gewinnermittlung ebenfalls nach § 8b Abs. 2 Satz 2 KStG richtet. Daraus resultiert eine Gewinnminderung von 51.000 € (50.000 € ./. 100.000 € ./. 1.000 €), welche bei der Einkommensermittlung wieder hinzugerechnet werden muss. Das Einkommen der Z-GmbH beträgt danach 0 €." },
+      { text: "Rechenprobe zum zweiten Beispiel (eigene Ergänzung): Der Fall verlangt zwei Rechnungen nebeneinander, die leicht durcheinandergeraten. Bilanziell entsteht ein Verlust von 20.000 € ./. 100.000 € ./. 1.000 € = ./. 81.000 €. Die Hinzurechnung der verdeckten Gewinnausschüttung von 30.000 € führt zur Zwischensumme von ./. 51.000 €. Die maßgebliche Gewinnminderung nach § 8b Abs. 2 Satz 2 KStG rechnet dagegen mit dem **gemeinen Wert** als Veräußerungspreis: 50.000 € ./. 100.000 € ./. 1.000 € = ./. 51.000 €. Beide Wege führen auf denselben Betrag – und genau deshalb geht das Einkommen auf null auf. Die Reihenfolge ist dabei zwingend: erst § 8 Abs. 3 Satz 2 KStG, dann § 8b Abs. 3 Satz 3 KStG." },
+      { typ: "titel", text: "4.1.2 Teilwertabschreibungen" },
+      { text: "Auch wenn die Teilwertabschreibung gemäß § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 2 EStG aufgrund der dauerhaften Wertminderung steuerlich anerkannt wird, ist diese als Gewinnminderung nach § 8b Abs. 3 Satz 3 KStG nicht abziehbar und daher wieder hinzuzurechnen. Deren Wertaufholung ist nach § 8b Abs. 2 Satz 3 KStG entsprechend wieder steuerfrei, führt aber zur Anwendung der Betriebsausgabenpauschalierung des § 8b Abs. 3 Satz 1 KStG. Ob diese Hinzurechnung nach § 8b Abs. 3 Satz 3 KStG auch in den Fällen vorgenommen werden muss, in denen bei einem Streubesitzanteil i. S. des § 8b Abs. 4 KStG eine ausschüttungsbedingte Teilwertabschreibung durchgeführt werden muss, ist derzeit aber umstritten." },
+      { text: "Hinweis der Quelle in der Fußnote: Die Frage ist beim BFH unter dem Aktenzeichen I R 24/25 anhängig – weil die vorangegangene Gewinnausschüttung steuerpflichtig war." },
+      { text: "Einordnung der anhängigen Frage (eigene Anmerkung): Sie ist die praktische Zuspitzung der Asymmetrie, auf die schon der erste Absatz dieses Kapitels hinausläuft. Schüttet eine Streubesitzbeteiligung aus, ist die Ausschüttung voll steuerpflichtig; sinkt dadurch der Wert der Beteiligung und wird eine ausschüttungsbedingte Teilwertabschreibung nötig, wäre sie nach dem Wortlaut des § 8b Abs. 3 Satz 3 KStG gleichwohl nicht abziehbar. Wirtschaftlich stünde der Gesellschafter dann schlechter da als ohne die Ausschüttung. Der Ausgang des Verfahrens ist offen; für die Klausur genügt es, die Frage zu erkennen und den Streitstand zu benennen." },
+    ],
+  },
+  {
+    id: "kst-t2-27",
+    kapitel: "27",
+    abschnittNr: "4.1.3 und 4.1.4",
+    title: "4.1.3 Ausfall der Kaufpreisforderung – 4.1.4 Kosten eines gescheiterten Beteiligungserwerbs",
+    thema: "Fällt der Kaufpreis später aus, entsteht kein abziehbarer Aufwand, sondern der Veräußerungsgewinn wird rückwirkend neu berechnet – in beiden Jahren rein außerbilanziell. Aufwendungen für einen **nicht** zustande gekommenen Erwerb bleiben dagegen voll abziehbar",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitte 4.1.3 und 4.1.4 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 2 Satz 2 KStG", "§ 8b Abs. 3 Satz 1 KStG", "§ 8b Abs. 3 Satz 3 KStG",
+      "§ 175 Abs. 1 Nr. 2 AO",
+      "BFH vom 22.12.2010, BStBl. II 2015, 668", "BFH vom 12.03.2014, BStBl. II 2015, 658",
+      "BMF vom 24.07.2015, BStBl. I 2015, 612",
+      "H 8b KStH „Veräußerungskosten/nachträgliche Kaufpreisänderungen“",
+    ],
+    themen: ["Forderungsausfall", "Rückwirkendes Ereignis", "Außerbilanzielle Korrektur", "Vergebliche Anschaffungskosten", "Due Diligence"],
+    bloecke: [
+      { text: "Wird der Kaufpreis aus der Veräußerung einer Beteiligung in einem nachfolgenden Jahr ganz oder teilweise uneinbringlich, wirkt dieser Tatbestand auf das Jahr der tatsächlichen Anteilsveräußerung zurück. In die Gewinnermittlung i. S. des § 8b Abs. 2 Satz 2 KStG ist danach nur der tatsächlich zugeflossene Kaufpreis einzubeziehen (siehe unter 3.2.1.2)." },
+      { text: "Nach dem BFH-Urteil vom 22.12.2010 ergibt sich im Jahr des Forderungsausfalles kein abziehbarer Aufwand, sondern lediglich eine rückwirkende Neuberechnung des Veräußerungsgewinnes im VZ der Anteilsveräußerung. Denn die Kaufpreisminderung führt zu einem rückwirkendes Ereignis, welches nach § 175 Abs. 1 Nr. 2 AO auf die stichtagsbezogene Gewinnermittlung des § 8b Abs. 2 Satz 2 KStG des Veräußerungsjahres zurückwirkt. Im Jahr der Kaufpreisminderung muss der bilanzielle Aufwand durch eine außerbilanzielle Hinzurechnung wieder ausgeglichen werden. Dieser Aufwand muss danach ebenfalls außerbilanziell im VZ der Anteilsveräußerung vom bisherigen bilanziellen Ergebnis abgezogen werden, wodurch bei der Gewinnermittlung i. S. des § 8b Abs. 2 Satz 2 KStG danach der zutreffend geminderte Kaufpreis berücksichtigt wird. Die Finanzverwaltung ist dem mit BMF-Schreiben vom 24.07.2015 uneingeschränkt gefolgt." },
+      { text: "Merke: Nachfolgende Veränderungen des Kaufpreises wirken sich rückwirkend auf die Gewinnermittlung des § 8b Abs. 2 Satz 2 KStG aus. Diese Auswirkungen erfolgen sowohl im Jahr des Ausfalles als auch bei der Veräußerung entsprechend außerbilanziell." },
+      { text: "Beispiel: Die B-GmbH veräußert in 2025 ihre Beteiligung an der A-GmbH für 1.000.000 € (Buchwert: 400.000 €). Der Kaufpreis wird in Höhe von 200.000 € direkt beglichen. An Veräußerungskosten sind insgesamt 50.000 € angefallen. In 2026 fällt der Restkaufpreis a) in voller Höhe oder b) in Höhe von 400.000 € aus." },
+      { text: "Lösung: Die nachfolgende Kaufpreisminderung wirkt sich für Zwecke der stichtagsbezogenen Gewinnermittlung i. S. des § 8b Abs. 2 Satz 2 KStG auch im Jahr 2025 aus. Dies stellt ein rückwirkendes Ereignis i. S. des § 175 Abs. 1 Nr. 2 AO dar. Gleichzeitig sind die Ergebnisminderungen im Jahr der Kaufpreisminderung zu beseitigen. Diese Konsequenzen erfolgen in beiden Jahren ausschließlich außerbilanziell. Danach ist in der Variante a) die aus der Forderungsabschreibung von 800.000 € resultierende Gewinnminderung außerbilanziell wieder hinzuzurechnen. Gleichzeitig ist in 2025 dieser Betrag außerbilanziell wieder vom bisherigen Gewinn abzuziehen. In die Gewinnermittlung i. S. des § 8b Abs. 2 Satz 2 KStG kann daher nur der tatsächliche Kaufpreis von 200.000 € einfließen:" },
+      { typ: "tabelle", spalten: ["Variante a) – vollständiger Ausfall, VZ 2025", "Betrag"], zeilen: [
+        ["Veräußerungspreis", "1.000.000 €"],
+        ["./. Buchwert", "./. 400.000 €"],
+        ["./. Veräußerungskosten", "./. 50.000 €"],
+        ["= Verlust Stufe 1 (so in der Quelle – es handelt sich um einen Gewinn)", "550.000 €"],
+        ["./. außerbilanzielle Korrektur", "./. 800.000 €"],
+        ["= Zwischensumme", "./. 250.000 €"],
+        ["+ § 8b Abs. 3 Satz 3 KStG", "+ 250.000 €"],
+        ["= Einkommen", "0 €"],
+      ] },
+      { text: "In 2026 ergeben sich aus dem tatsächlichen Kaufpreisausfall keine einkommenswirksamen Konsequenzen, weil der bilanzielle Aufwand gegenläufig wieder zu eliminieren ist: Aufwand ./. 800.000 €, außerbilanzielle Korrektur + 800.000 €." },
+      { text: "In der Variante b) ist der Forderungsausfall in Höhe von 400.000 € auf das Veräußerungsjahr zurückzubeziehen. Danach ist der in 2026 eingetretene Aufwand außerbilanziell hinzuzurechnen. In 2025 ist dieser Betrag außerbilanziell vom bisherigen bilanziellen Ergebnis abzuziehen. In die Gewinnermittlung i. S. des § 8b Abs. 2 Satz 2 KStG ist danach nur der tatsächlich geleistete Kaufpreis von 600.000 € einzubeziehen:" },
+      { typ: "tabelle", spalten: ["Variante b) – Teilausfall von 400.000 €, VZ 2025", "Betrag"], zeilen: [
+        ["Veräußerungspreis", "1.000.000 €"],
+        ["./. Buchwert", "./. 400.000 €"],
+        ["./. Veräußerungskosten", "./. 50.000 €"],
+        ["= Gewinn Stufe 1", "550.000 €"],
+        ["./. außerbilanzielle Korrektur", "./. 400.000 €"],
+        ["= Zwischensumme", "150.000 €"],
+        ["./. § 8b Abs. 2 Satz 2 KStG", "./. 150.000 €"],
+        ["+ § 8b Abs. 3 KStG", "+ 7.500 €"],
+        ["= Einkommen", "7.500 €"],
+      ] },
+      { text: "In 2026 ergeben sich aus dem tatsächlichen Kaufpreisausfall keine einkommenswirksamen Konsequenzen: Aufwand ./. 400.000 €, außerbilanzielle Korrektur + 400.000 €." },
+      { text: "Anmerkung zur Bezeichnung in Variante a (so in der Quelle): Die Quelle schreibt dort „= Verlust Stufe 1: 550.000 €“, in der Variante b dagegen „= Gewinn Stufe 1: 550.000 €“ – bei identischer Rechnung. Es handelt sich in beiden Fällen um einen **Gewinn**; die Bezeichnung als Verlust in Variante a ist ein Schreibversehen. Der Wortlaut ist unverändert übernommen und der Hinweis danebengesetzt." },
+      { text: "Rechenproben (eigene Ergänzung): Beide Varianten gehen auf, und die Probe ist jeweils dieselbe – man rechnet den Fall mit dem tatsächlich zugeflossenen Kaufpreis nach. Variante a: 200.000 € ./. 400.000 € ./. 50.000 € = ./. 250.000 €, also ein Verlust, der nach § 8b Abs. 3 Satz 3 KStG nicht abziehbar ist; Einkommen null. Variante b: 600.000 € ./. 400.000 € ./. 50.000 € = 150.000 €, also ein steuerfreier Gewinn mit 5 % Pauschale = 7.500 €. Die außerbilanziellen Korrekturen in den beiden Jahren heben sich jeweils auf; sie dienen allein dazu, die Formel des § 8b Abs. 2 Satz 2 KStG mit dem richtigen Veräußerungspreis zu füttern." },
+      { text: "Anmerkung zum Unterschied der beiden Varianten (eigene Ergänzung): Er ist bemerkenswert, weil er zeigt, wie nah Steuerfreiheit und Abzugsverbot beieinanderliegen. In Variante a kippt das Ergebnis in einen Verlust – dann greift § 8b Abs. 3 Satz 3 KStG und macht ihn unbeachtlich. In Variante b bleibt ein Gewinn – dann greift § 8b Abs. 2 KStG und stellt ihn frei, wobei die Pauschale bleibt. Dieselbe Vorschrift regelt beide Richtungen; welche greift, entscheidet allein das Vorzeichen des nach Satz 2 ermittelten Betrags." },
+      { typ: "titel", text: "4.1.4 Kosten eines gescheiterten Beteiligungserwerbs" },
+      { text: "Aufwendungen, die im Hinblick auf einen geplanten, später jedoch tatsächlich nicht realisierten Anteilserwerb getätigt wurden (sog. vergebliche Anschaffungskosten), unterliegen nicht dem Abzugsverbot des § 8b Abs. 3 Satz 3 KStG. Denn es mangelt an einem Zusammenhang mit einem „Anteil i. S. des § 8b Abs. 2 KStG“." },
+      { text: "Beispiel: Die A-GmbH beabsichtigt die Anschaffung einer Beteiligung, wofür in 2026 bereits Aufwendungen für die sog. Due-dilligence-Prüfung i. H. von 300.000 € angefallen sind. Diese wurden zunächst als Betriebsausgaben verbucht. Am 31.12.2026 nimmt die A-GmbH aber Abstand von der Anschaffung, weil ihr die Renditeaussichten zu gering waren." },
+      { text: "Lösung: Die Aufwendungen, die mit der vergeblichen Anschaffung der Beteiligung im Zusammenhang stehen, können in 2026 als Betriebsausgaben abgezogen werden. Ein Anwendungsfall des § 8b Abs. 3 Satz 3 KStG ist nicht gegeben, weil sich kein Zusammenhang der Aufwendungen zu einem Anteil i. S. des § 8b Abs. 2 KStG herleiten lässt." },
+      { text: "Anmerkung zur Pointe dieses Abschnitts (eigene Ergänzung): Sie liegt in einer Formulierung des Gesetzes, die man leicht überliest. § 8b Abs. 3 Satz 3 KStG knüpft an Gewinnminderungen „im Zusammenhang mit einem **Anteil** i. S. des Absatzes 2“ an – und wo der Erwerb scheitert, gibt es diesen Anteil nie. Das führt zu einem auf den ersten Blick paradoxen Ergebnis: Wer eine Beteiligung erwirbt und später mit Verlust verkauft, kann weder die Anschaffungsnebenkosten noch den Verlust abziehen; wer den Erwerb abbricht, zieht die aufgewendeten Prüfungskosten in voller Höhe ab. Der gescheiterte Erwerb ist steuerlich also günstiger als der erfolgreiche." },
     ],
   },
 ];
