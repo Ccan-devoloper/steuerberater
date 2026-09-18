@@ -21,6 +21,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **KSt-Übungsfälle Teil 1 und 2** (Nöthen) | Der gesamte **Lösungsteil** zu allen fünf Fällen | Beide Aufgaben-PDFs enden nach der Aufgabenstellung; im Ordner liegt keine Musterlösung. Die Fälle stehen im Campus ohne Lösung, ausdrücklich gekennzeichnet. |
 | **KSt-Kurz-Skript** (Breier, Mai 2026), Drive-ID `1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0` | Ab etwa Seite 90 von 196: **der Rest von Teil 4 (Veräußerung von Anteilen, § 8b Abs. 2 und 3 KStG), Teil 5 (verdeckte Gewinnausschüttung), Teil 6, Teil 7 (Zinsschranke), Teil 8 (Organschaft), Teil 9 (Liquidation), Teil 10 (Nennkapital)** | Der Connector gibt das PDF nur bis etwa Seite 90 aus. Die Teile 1 bis 3 und der Anfang von Teil 4 sind lesbar und eingepflegt; ab der Bruchstelle fehlt auch der Rest von Teil 4. |
 | **„KStG, 1. bis 7. Einheit"** (Nöthen), Ordner `1bqhD4ayOUTo8A7WBUXgce3otxy5L7YrN` | Alle sieben Dateien vollständig | **Reine Scans ohne Textebene.** Der Connector liefert nur Seitenplatzhalter („Page 1", „Page 2", …), keinen Text. Über den Connector grundsätzlich nicht erfassbar. |
+| **ErbStR, 4. und 5. Einheit** (Mitschriften), Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` | Alle vier Dateien vollständig: „ErbStR, 4. Einheit_Teil 1“ (`185fNc_fJW2CCUVfeUD6MaDCQ5EHFAK1O`, 114 Seiten, 14,4 MB), „ErbStR. 4. Einheit_Teil 2“ (`1DTUXD5w5NHs2U4V9tvC1MlbHkdlbu1wV`, 42,5 MB), „ErbStR, 5. Einheit_Teil 1“ (`1ObPFd8dnae_W8WIj1wr6rj8CDFnUMQ7o`, 35,8 MB) und „ErbSt, 5 Einheit - Teil 2“ (`1BbwheGqCbRBMzeNstEcWXlXmAXLWcH6k`, 17,0 MB) | **Reine Scans ohne Textebene.** Der Connector liefert für alle vier nur Seitenplatzhalter („Page 1“, „Page 2“, …), keinen Text. Der Download scheitert am 10-MB-Limit des Connectors (für die kleinste der vier Dateien geprüft: „File too large for download, over limit of 10 MB“). Die Einheiten 1 bis 3 desselben Ordners stehen dagegen vollständig im Campus. |
 | **PersG Fact Sheets** (Horst, April 2025), Drive-ID `179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5` | Die vollständigen 24 Seiten | **Reiner Scan ohne Textebene.** Der Connector gibt aus dem 17,4-MB-PDF nur den Wasserzeichentext zurück, sonst nichts. Der Download bricht am 10-MB-Limit des Connectors ab; eine lokale Texterkennung steht in dieser Umgebung nicht zur Verfügung. |
 | **AO Teil I** (Jacobs, Mai 2025), Drive-ID `1aHWnqQ5PE_XXgbI3Aw7ShlMe_AuEj2gQ` | Der Rest des Abschnitts 3 (ab Seite 30) und der vollständige **Abschnitt 4** | Der Connector gibt aus dem 1,4-MB-PDF 144.000 Zeichen bis Abschnitt 3, Seite 30 aus und bricht dort an einer Seitengrenze ab. Das Deckblatt kündigt „Teil I: Abschnitte 1 bis 4“ an. Die Abschnitte 1 bis 3 sind bis zur Bruchstelle eingepflegt. |
 | **AO Teil II** (Jacobs, Mai 2025), Drive-ID `15kFDJkIW4sHvVz5tlf5_s4DIEwUm0cDd` | Aus Abschnitt 6 die Seiten 43 bis 74: die Ablaufhemmungen des **§ 171 Abs. 9, 10, 10a, 14 und 15 AO** einschließlich der gesonderten Feststellung nach § 181 Abs. 5 AO | Der Connector gibt aus dem PDF 170.000 Zeichen aus und bricht in Abschnitt 6 auf Seite 42 ab. Abschnitt 5 und Abschnitt 6 bis § 171 Abs. 7 AO sind lesbar und eingepflegt. |
@@ -168,8 +169,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
 - **ErbStR, 4. und 5. Einheit** – im Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` liegen seit
   September 2026 vier weitere Dateien („ErbStR, 4. Einheit_Teil 1“ und „ErbStR. 4.
   Einheit_Teil 2“, „ErbStR, 5. Einheit_Teil 1“ und „ErbSt, 5 Einheit - Teil 2“). Der Campus
-  deckt bislang nur die Einheiten 1 bis 3 ab. Ob die Dateien – wie die Einheiten 1 bis 3 –
-  als Scans mit Textebene lesbar sind, ist noch nicht geprüft.
+  deckt die Einheiten 1 bis 3 ab. Die vier neuen Dateien sind **geprüft und technisch
+  blockiert**: reine Scans ohne Textebene, zugleich zu groß für den Download über den
+  Connector – siehe Abschnitt A.
 
 ### Übergreifend
 - Originalklausuren

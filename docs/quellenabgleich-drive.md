@@ -4013,3 +4013,26 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
     § 200 und § 202 BewG in den Unterlagen dieses Verfassers fort.
   - **Beispiel 1 Seite 29.** „nach dem Verhältnis des Anteils am **Nennkapitel** der
     Gesellschaft“.
+
+## ErbStR, 4. und 5. Einheit – geprüft, technisch blockiert
+
+- Quellen im Drive, Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` (derselbe Ordner, aus dem
+  die im Campus vollständig erfassten Einheiten 1 bis 3 stammen): „ErbStR, 4. Einheit_Teil 1“
+  (`185fNc_fJW2CCUVfeUD6MaDCQ5EHFAK1O`, 14,4 MB), „ErbStR. 4. Einheit_Teil 2“
+  (`1DTUXD5w5NHs2U4V9tvC1MlbHkdlbu1wV`, 42,5 MB), „ErbStR, 5. Einheit_Teil 1“
+  (`1ObPFd8dnae_W8WIj1wr6rj8CDFnUMQ7o`, 35,8 MB) und „ErbSt, 5 Einheit - Teil 2“
+  (`1BbwheGqCbRBMzeNstEcWXlXmAXLWcH6k`, 17,0 MB). Die Dateien wurden im September 2026 in
+  den Ordner gelegt, nachdem die Einheiten 1 bis 3 bereits eingepflegt waren.
+- Befund: **Alle vier sind reine Scans ohne Textebene.** Der Connector gibt für die erste
+  Datei 114 Seiten aus, jede davon nur als Platzhalter der Form „Page 1“, „Page 2“, … ohne
+  jeden Inhalt; für die drei übrigen zeigt der Inhaltsauszug dasselbe Muster. Ein Download,
+  der eine eigene Texterkennung ermöglichen würde, scheitert am 10-MB-Limit des Connectors –
+  für die kleinste der vier Dateien geprüft und mit der Meldung „File too large for
+  download, over limit of 10 MB“ bestätigt. Eine lokale Texterkennung steht in dieser
+  Umgebung nicht zur Verfügung.
+- Es ist damit **nichts eingepflegt** und auch nichts rekonstruiert. Die vier Dateien stehen
+  jetzt als eigene Zeile in `docs/offene-quellen.md`, Abschnitt A.
+- Zur Einordnung: Es ist derselbe Befund wie bei den sieben KStG-Einheiten (Nöthen) und den
+  PersG Fact Sheets (Horst). Die Einheiten 1 bis 3 desselben ErbStR-Ordners liegen dagegen
+  vollständig im Campus vor, so dass der Campus für die Erbschaftsteuer-Mitschriften
+  derzeit bei Einheit 3 endet.
