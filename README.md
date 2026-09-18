@@ -136,6 +136,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und § 14 BewG und die Ehegattenrente nebeneinander mit dem Differenz-Vervielfältiger
   (141.492 €, aufgeteilt in 64.680 € und 76.812 €).
   Prüfung: `npm run check:k1-erbst-bewertung-teil1`.
+  Aus dem **Teil 2** („Bewertung des Grundvermögens", Stand August 2025) sind die Tz. 1
+  bis 3 eingepflegt: Begriff und Umfang des Grundvermögens als Teil des Oberbegriffs
+  Grundbesitz, der bewertungsrechtliche Gebäudebegriff mit seinen fünf Merkmalen, die
+  Abgrenzung zu sonstigen Bestandteilen, Zubehör und Betriebsvorrichtungen und die
+  Zuordnung land- und forstwirtschaftlich genutzter Flächen nach § 159 BewG mit dem
+  Vorrang des Absatzes 3; die Feststellung der Grundbesitzwerte mit dem gemeinen Wert als
+  Verkehrswert nach § 194 BauGB, den Daten der Gutachterausschüsse, dem Grundsatz der
+  Modellkonformität und der Dreijahresregel sowie der Ausblendung besonderer
+  objektspezifischer Grundstücksmerkmale nach § 177 Abs. 4 BewG; und die unbebauten
+  Grundstücke mit der Bewertung nach Bodenrichtwerten einschließlich der Aufteilung in
+  Vorder- und Hinterland. Prüfung: `npm run check:k1-erbst-bewertung-teil2`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des
   Teils I: § 12 Abs. 5 ErbStG als Einstieg, der Gewerbebetrieb als Bewertungsgegenstand

@@ -4342,3 +4342,45 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   - „12 % **./** 9 %“ – der zweite Punkt fehlt (Beispiel 2 Seite 16).
   - „Auf diese **Jahrewerte** ist der niedrigere der beiden Vervielfältiger anzuwenden“
     (Beispiel 2 Seite 23).
+
+## Bewertungsrecht Teil 2 (Schäfer) – Tz. 1 bis 3
+
+- Quelle im Drive, Ordner `1yhRfkjP6VYO0V8a01BY2vqXbOnXilI97`, Datei „2025) (6).pdf“
+  (`1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`) – im Kopf als „Bewertungsrecht, Unterrichtsmaterial
+  zum Steuerberaterlehrgang, Stand August 2025, Teil 2: Bewertung des Grundvermögens“
+  bezeichnet. Der Connector gibt sie mit rund 88.000 Zeichen vollständig aus, in zwölf
+  Tz. von den Begriffen bis zum Nachweis des niedrigeren gemeinen Werts. Die Lösungsdatei
+  liegt im selben Ordner unter ihrem sprechenden Namen
+  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`).
+- Einpflege dieses Durchgangs: neuer Datensatz `src/data/k1-erbst-bewertung-teil2.js` mit
+  drei Kapiteln, 36 Blöcken und 2 Tabellen; neues Prüfskript
+  `npm run check:k1-erbst-bewertung-teil2`. Der Reiter „Bewertungsrecht (Schäfer)“ zeigt
+  jetzt alle drei Skriptteile zusammen.
+- Noch offen aus derselben Datei: die Tz. 4 bis 12 (bebaute Grundstücke, Vergleichswert-,
+  Ertragswert- und Sachwertverfahren, Erbbaurecht, Erbbaugrundstück, Gebäude auf fremdem
+  Grund und Boden, Grundstücke im Zustand der Bebauung, Nachweis des niedrigeren gemeinen
+  Werts) sowie die Lösungsdatei.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidungen: Das Schaubild zum Grundbesitz (drei Kästen unter dem
+  Oberbegriff) und die fünf Merkmale des Gebäudebegriffs stehen in der Quelle als Schaubild
+  beziehungsweise als Aufzählung; beide sind zugeordnet als Tabellen wiedergegeben. Der
+  Wortlaut ist unverändert, einschließlich der Satzzeichen am Ende der fünf Merkmale.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 1.** „dass der Betrieb der **Land und Forstwirtschaft** die Existenzgrundlage des
+    Betriebsinhabers bildet“ – der Bindestrich fehlt.
+  - **Tz. 2.** „Liegt der Bezugsstichtag mehr als drei Jahre zurück oder ist **keine**
+    Bezugsstichtag bestimmt“.
+  - **Tz. 3 b).** „ist der Bodenwert aus den Werten **vergleichbar Flächen** abzuleiten“.
+
+  Drei Querbezüge sind im Datensatz vermerkt, weil sie die Skriptteile und die Fallsammlung
+  verbinden: Das Beispiel des Teils 1, in dem eine landwirtschaftlich genutzte Fläche im
+  Bebauungsplan als Bauland ausgewiesen ist, ist genau der Vorrangfall des § 159 Abs. 3
+  BewG, den die Tz. 1 hier beschreibt. Vom Nachweis des niedrigeren gemeinen Werts nach
+  § 198 BewG macht der ErbSt-Teil der Übungsklausur AO/USt/ErbSt/BewR 1 Gebrauch. Und die
+  Aufteilung in Vorder- und Hinterland wendet der Übungsfall Fietze beim Erbbaugrundstück in
+  Herten an – dort mit derselben Richtlinienstelle R B 179.2 Abs. 4, die die Fietze-Lösung
+  allerdings versehentlich als „ErbStG“ statt ErbStR zitiert.

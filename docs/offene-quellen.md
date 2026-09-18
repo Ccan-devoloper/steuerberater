@@ -176,11 +176,19 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   inzwischen **vollständig ergänzt**. Aus beiden Dateien steht nichts mehr offen. Der Connector gibt die Datei vollständig aus (50.000 Zeichen). Im selben
   Ordner liegt unter dem Namen „2025) (6).pdf“ (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`)
   vermutlich der zugehörige Lösungsteil – noch nicht geöffnet.
-- **Bewertungsrecht Teil 2** (Schäfer): im Ordner `1yhRfkjP6VYO0V8a01BY2vqXbOnXilI97`
-  gefunden – der Aufgabenteil unter dem Namen „2025) (6).pdf“
-  (`1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`), die Lösung als
+- **Bewertungsrecht Teil 2** (Schäfer, Stand August 2025), Ordner
+  `1yhRfkjP6VYO0V8a01BY2vqXbOnXilI97`: **begonnen.** Das Skript „Bewertung des
+  Grundvermögens“ liegt unter dem Namen „2025) (6).pdf“
+  (`1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`, 88.000 Zeichen, vom Connector vollständig
+  ausgegeben), die Lösungsdatei als
   „B-S25-ErbSt-Bewertung 2025-2026 Teil 2-Loesung-(Schaefer)-0825.pdf“
-  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`). Noch nicht bearbeitet.
+  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`). Eingepflegt sind die Tz. 1 bis 3 (Begriff und
+  Umfang, Feststellung der Grundbesitzwerte, unbebaute Grundstücke) im Reiter
+  „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil2.js`. Offen sind die
+  Tz. 4 bis 12: bebaute Grundstücke mit den Grundstücksarten und der Wahl des
+  Bewertungsverfahrens, Vergleichswert-, Ertragswert- und Sachwertverfahren, Erbbaurecht,
+  Erbbaugrundstück, Gebäude auf fremdem Grund und Boden, Grundstücke im Zustand der
+  Bebauung und der Nachweis des niedrigeren gemeinen Werts – dazu die Lösungsdatei.
 - **Erbschaftsteuer 2025-2026 Teil 2** (Schäfer), Drive-ID
   `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6` im Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`:
   ein weiteres Skript derselben Reihe, bei der Suche nach den Bewertungsteilen neu
