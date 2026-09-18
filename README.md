@@ -180,7 +180,20 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Bewertung selbständiger Gebäudeteile; sowie die **Wertzahlen der Anlage 25** mit dem
   Vorrang der Sachwertfaktoren der Gutachterausschüsse und der **Kreuzinterpolation**, die
   die Quelle in zwei gleichwertigen Rechenwegen vorführt (beide nachgerechnet, beide
-  ergeben 1,653).
+  ergeben 1,653). Den Abschluss bilden die **Erbbaurechtsfälle und die Öffnungsklausel**:
+  das **Erbbaurecht** nach § 193 BewG und das **Erbbaugrundstück** nach § 194 BewG als
+  zwei getrennt zu bewertende wirtschaftliche Einheiten mit dem Mindestwert 0 €, jeweils
+  mit dem Vorrang des vom Gutachterausschuss ermittelten Koeffizienten, sonst der
+  finanzmathematischen Methode mit dem Auffangfaktor 1,0, der Abzinsung nach Anlage 26 und
+  der Kapitalisierung nach Anlage 21 – der nicht zu entschädigende Gebäudewertanteil wird
+  dabei beim Erbbaurecht abgezogen und beim Erbbaugrundstück hinzugerechnet; die **Gebäude
+  auf fremdem Grund und Boden** nach § 195 BewG mit dem angemessenen
+  Bodenwertverzinsungsbetrag, dem vertraglich vereinbarten Nutzungsentgelt und dem
+  Wegfall des Gebäudewertanteils bei Abrissverpflichtung; die **Grundstücke im Zustand der
+  Bebauung** nach § 196 BewG mit der Hinzurechnung der bis zum Stichtag entstandenen
+  Herstellungskosten; und der **Nachweis des niedrigeren gemeinen Werts** nach § 198 BewG
+  mit Gutachten und Kaufpreis als Nachweismitteln. Damit ist das Skript Teil 2 von der
+  Tz. 1 bis zur Tz. 12 vollständig erfasst.
   Prüfung: `npm run check:k1-erbst-bewertung-teil2`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des

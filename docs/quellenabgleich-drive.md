@@ -4580,3 +4580,84 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Kreuzinterpolation der Tz. 7 e) ist genau der Rechenweg der Hagener Wertzahl (k1 = 1,152,
   k2 = 1,252, k = 1,162) – dort in der Variante des zweiten der beiden hier gezeigten
   Rechenwege.
+
+## Bewertungsrecht Teil 2 (Schäfer) – Tz. 8 bis 12: Erbbaurecht bis Öffnungsklausel, Skript vollständig
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`),
+  Tz. 8 bis 12, PDF-Seiten 29 bis 44 (Ende der Datei).
+- Einpflege dieses Durchgangs: sechs weitere Kapitel; der Datensatz umfasst jetzt 9 Teile,
+  17 Kapitel, 296 Blöcke und 27 Tabellen; Prüfung `npm run check:k1-erbst-bewertung-teil2`.
+  **Damit ist das Skript Teil 2 von der Tz. 1 bis zur Tz. 12 vollständig erfasst.**
+- Noch offen aus demselben Ordner: nur noch die Lösungsdatei
+  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Aufbau der neuen Kapitel: Die Tz. 8 und 9 behandeln die beiden wirtschaftlichen Einheiten
+  des Erbbaurechtsfalls spiegelbildlich – § 193 BewG das Erbbaurecht, § 194 BewG das
+  Erbbaugrundstück. Beide folgen demselben Muster: Vorrang des vom Gutachterausschuss
+  ermittelten Koeffizienten, sonst finanzmathematische Methode mit dem Auffangfaktor 1,0,
+  Abzinsung nach Anlage 26, Kapitalisierung nach Anlage 21 und die Zinssätze des
+  § 193 Abs. 4 S. 3 BewG als Auffanglösung. Der entscheidende Unterschied liegt beim nicht
+  zu entschädigenden Gebäudewertanteil: Beim Erbbaurecht wird er **abgezogen**, beim
+  Erbbaugrundstück **hinzugerechnet** – er verbleibt beim Eigentümer des Grund und Bodens.
+  Die Tz. 10 überträgt dieselbe Systematik nach § 195 BewG auf Gebäude auf fremdem Grund
+  und Boden, wo an die Stelle des Erbbauzinses das Nutzungsentgelt und an die Stelle des
+  Erbbaurechtskoeffizienten die Differenz zum angemessenen Bodenwertverzinsungsbetrag
+  tritt. Die Tz. 11 (Grundstücke im Zustand der Bebauung) und 12 (Nachweis des niedrigeren
+  gemeinen Werts) schließen das Skript ab.
+
+  Redaktioneller Befund: Die vier Beispiele dieser Tz. (zwei zum Erbbaugrundstück, zwei zu
+  Gebäuden auf fremdem Grund und Boden) und das Beispiel der Tz. 11 stehen **ohne Lösung**.
+  Erfunden wurde nichts. Für das Beispiel der Tz. 11 ist eine **ausdrücklich als eigene
+  gekennzeichnete Kontrollrechnung** vermerkt: 800 qm × 260 €/qm = 208.000 € zuzüglich der
+  bis zum Besteuerungszeitpunkt entstandenen Herstellungskosten von 150.000 € ergibt
+  358.000 €; die restlichen 250.000 € der Gesamtherstellungskosten bleiben außer Ansatz,
+  weil sie am Stichtag noch nicht entstanden sind. Für die Beispiele der Tz. 10 ist nur der
+  Bodenwert eigenständig nachgerechnet (1.200 qm × 150 €/qm = 180.000 €).
+
+  **Nicht aufgehende Angabe im Beispiel der Tz. 10** – wortlautgetreu übernommen und
+  gekennzeichnet: Die Restlaufzeit des Nutzungsrechts ist mit „10 Jahren (31.12.2036)“
+  angegeben. Vom Besteuerungszeitpunkt 20.04.2025 aus sind das rund 11,7 Jahre, auf volle
+  Jahre abgerundet also **11 Jahre** (so in der Quelle). Welcher der beiden Werte gemeint
+  ist, entscheidet die Lösungsdatei; der Datensatz vermerkt die Abweichung, ohne sie
+  aufzulösen.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 9 Einleitung.** „Mit der Bewertung des Erbbaugrundstücks ist das Recht auf **den
+    Erbbauzinses** abgegolten“.
+  - **Tz. 9 a).** „**Der Wert des Erbbaurechts** ist gem. § 194 Abs. 1 BewG vorrangig durch
+    Multiplikation des Bodenwerts … mit einem **Erbbaugrundstücks**koeffizienten zu
+    ermitteln“ – § 194 BewG regelt den Wert des Erbbaugrundstücks, und die unmittelbar
+    folgende Übersicht der Quelle nennt ihn auch so. Ebenso „nach **§§** 179 BewG“.
+  - **Tz. 9 b).** „durch Multiplikation des **Werts des Erbbaugrundstücks** nach
+    § 194 Abs. 3 bis 5 BewG“ – gemeint ist der finanzmathematische Wert, wie ihn das
+    Schaubild der Quelle selbst benennt. Ferner „über **(die auf volle Jahre
+    abgerundeten) Restlaufzeit**“ und im Beispiel 2 „stehen nicht **zu** Verfügung“.
+  - **Schaubild Erbbaugrundstück.** Wie schon beim Erbbaurecht fehlen drei schließende
+    Klammern, und die Zeile zum Gebäudewertanteil trägt stattdessen eine überzählige;
+    außerdem „kapitalisierter vertraglich **vereinbarten jährlicher** Erbbauzins“.
+  - **Tz. 10 a).** „wenn **das Gebäudes** Scheinbestandteil des Grund und Bodens ist“.
+  - **Tz. 10 b).** „wird gem. § 195 Abs. 2 S. 1 BewG **durch die die Summe** aus“;
+    „**Der angemessen** Verzinsungsbetrag“; in der Beschreibung des nicht zu
+    entschädigenden Wertanteils fehlt das „abzüglich des“: „nach §§ 179, 192 bis 196 BewG
+    **Bodenwert** des fiktiv unbelasteten Grundstücks“.
+  - **Tz. 10 c).** „wenn **der bei Ablauf des Nutzungsrechts Gebäudewert** nicht oder nur
+    teilweise zu entschädigen ist“.
+
+  **Falscher Normverweis, zweimal an derselben Stelle:** Die Quelle verweist bei der
+  Kapitalisierung der Differenz zwischen angemessenem Verzinsungsbetrag und Nutzungsentgelt
+  zweimal auf **§ 193 Abs. 3 BewG** (einmal in der Aufzählung zu § 195 Abs. 2 S. 1 Nr. 2
+  BewG, einmal im erläuternden Absatz). Einschlägig ist **§ 195 Abs. 3 BewG**, den die
+  Quelle unmittelbar danach auch inhaltlich erläutert. Beide Stellen sind wortlautgetreu
+  übernommen und gekennzeichnet. Damit reiht sich der Befund in die schon dokumentierte
+  Serie vertauschter Paragraphenziffern in Schäfers Materialien ein (§ 200 statt § 202
+  BewG an drei Stellen des Teils 3).
+
+  Querbezug: Der Übungsfall **Fietze** rechnet die finanzmathematische Methode der Tz. 8 für
+  das Erbbaurecht in Herten vollständig durch (6 % × 87.000 € = 5.220 € abzüglich des
+  Erbbauzinses von 3.000 €, kapitalisiert mit 15,4558, Erbbaurechtsfaktor 1,0). Ein
+  durchgerechneter Fall zum **Erbbaugrundstück** nach Tz. 9 fehlt in der Fallsammlung
+  bislang; die beiden Beispiele dieser Tz. führen denselben Sachverhalt aus der Gegenrichtung
+  fort (Bodenwert 600.000 €, Erbbauzins 12.000 €, Restlaufzeit 32 Jahre).

@@ -182,14 +182,19 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (`1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`, 88.000 Zeichen, vom Connector vollständig
   ausgegeben), die Lösungsdatei als
   „B-S25-ErbSt-Bewertung 2025-2026 Teil 2-Loesung-(Schaefer)-0825.pdf“
-  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`). Eingepflegt sind die Tz. 1 bis 7
-  (Begriff und Umfang, Feststellung der Grundbesitzwerte, unbebaute und
-  bebaute Grundstücke mit der Wahl des Bewertungsverfahrens, Vergleichswertverfahren sowie
-  das vollständige Ertrags- und Sachwertverfahren) im Reiter
-  „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil2.js`. Die Tz. 6 und 7 sind damit vollständig.
-  Offen sind die Tz. 8 bis 12: Erbbaurecht,
+  (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`). Das Skript steht im Reiter
+  „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil2.js`. Eingepflegt sind
+  **alle zwölf Tz.**: Begriff und Umfang, Feststellung der Grundbesitzwerte, unbebaute und
+  bebaute Grundstücke mit der Wahl des Bewertungsverfahrens, Vergleichswertverfahren, das
+  vollständige Ertrags- und Sachwertverfahren sowie Erbbaurecht,
   Erbbaugrundstück, Gebäude auf fremdem Grund und Boden, Grundstücke im Zustand der
-  Bebauung und der Nachweis des niedrigeren gemeinen Werts – dazu die Lösungsdatei.
+  Bebauung und Nachweis des niedrigeren gemeinen Werts. Offen ist aus diesem Ordner nur
+  noch die **Lösungsdatei** (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`); sie enthält die
+  Musterlösungen zu den Beispielen, die das Skript selbst ohne Ergebnis lässt (Tz. 6
+  Mehrfamilienhaus, Tz. 7 vorläufiger Sachwert 487.230 € und Bochumer Einfamilienhaus,
+  Tz. 8 vier Erbbaurecht-Beispiele, Tz. 9 zwei Erbbaugrundstück-Beispiele, Tz. 10 zwei
+  Beispiele zum Gebäude auf fremdem Grund und Boden, Tz. 11 Grundstück im Zustand der
+  Bebauung).
 - **Erbschaftsteuer 2025-2026 Teil 2** (Schäfer), Drive-ID
   `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6` im Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`:
   ein weiteres Skript derselben Reihe, bei der Suche nach den Bewertungsteilen neu
