@@ -39,6 +39,7 @@
     "check:k3-bil-pruefungsklausuren": "node tools/pruefen-k3-bil-pruefungsklausuren.mjs",
     "check:k2-pruefungsklausuren": "node tools/pruefen-k2-pruefungsklausuren.mjs",
     "check:k1-pruefungsklausuren": "node tools/pruefen-k1-pruefungsklausuren.mjs",
+    "check:k1-grest-skript": "node tools/pruefen-k1-grest-skript.mjs",
     "check:k1-erbst-bewertung-teil1": "node tools/pruefen-k1-erbst-bewertung-teil1.mjs",
     "check:k1-erbst-bewertung-teil2": "node tools/pruefen-k1-erbst-bewertung-teil2.mjs",
     "check:k1-erbst-verschonung": "node tools/pruefen-k1-erbst-verschonung.mjs",

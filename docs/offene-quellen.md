@@ -314,9 +314,15 @@ Für diese beiden Gebiete gibt es bislang keinen Campus. Beide Ordner sind jetzt
 - **Grunderwerbsteuer**, Ordner `1EUOPd5EtQg3eQ76LGNwfgevbhcV-96kI`, eine Datei
   („2026) (9).pdf“, `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, 1,3 MB): das vollständige
   Lehrgangsskript **„Vorbereitung auf die Steuerberaterprüfung · Grunderwerbsteuer“ von
-  Dr. Stephan Vossel, Januar 2026**, mit Inhaltsverzeichnis, Vorbemerkung, Charakterisierung,
-  Prüfungsschema und einem ausführlichen Teil zur Steuerbarkeit (§ 1 GrEStG). **Sauber lesbar**
-  – der Connector gibt gesetzten Text aus, keinen Scan. Einzupflegen.
+  Dr. Stephan Vossel, Januar 2026** (195.000 Zeichen, vom Connector vollständig ausgegeben).
+  **Begonnen:** Das Fachgebiet hat jetzt einen eigenen Campus (Klausur 1, Fachleiste „GrESt“,
+  `src/components/K1GrEStCampus.jsx`, Datensatz `src/data/k1-grest-skript.js`). Eingepflegt
+  sind die Abschnitte **I (Charakterisierung)** und **II (Prüfungsschema)**. Offen sind die
+  Abschnitte III (Steuerbarkeit, der mit Abstand längste), IV (Steuerbefreiungen und
+  -vergünstigungen, §§ 3 bis 7 GrEStG), V (Bemessungsgrundlage), VI (Steuersatz und
+  Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
+  Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG). Sie sind sämtlich
+  lesbar und werden nachgezogen.
 - **Lohnsteuer**, Ordner `1O6alBKmrJsgeQaOyWOTCv6mlDD5zZ8Gv`, drei Dateien:
   - „Schema LSt StB und Stfw.pdf“ (`1CXkUXmNJRG1AVTi7d6qqokYyafhJFj97`, 0,09 MB) – das
     **Lohnsteuer-Prüfungsschema Arbeitslohn von Markus Nöthen** in fünf Stufen (Einnahme in

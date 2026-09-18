@@ -11,6 +11,7 @@ const AOQuerverweiseEnhancer = lazy(() => import("./AOQuerverweiseEnhancer"));
 const AOFall311Tabelle = lazy(() => import("./AOFall311Tabelle"));
 const AOEinheit2RandseitenEnhancer = lazy(() => import("./AOEinheit2RandseitenEnhancer"));
 const K1ErbStCampus = lazy(() => import("./K1ErbStCampus"));
+const K1GrEStCampus = lazy(() => import("./K1GrEStCampus"));
 const K1FachleisteEnhancer = lazy(() => import("./K1FachleisteEnhancer"));
 const K1ThemenEnhancer = lazy(() => import("./K1ThemenEnhancer"));
 const K1FallsammlungEnhancer = lazy(() => import("./K1FallsammlungEnhancer"));
@@ -69,6 +70,9 @@ export default function CampusShell() {
     }
     if (k1Fach === "erbst") {
       return <Suspense fallback={<Laden />}><K1ErbStCampus onKlausurwechsel={wechseln} onFachwechsel={k1FachWechseln} /></Suspense>;
+    }
+    if (k1Fach === "grest") {
+      return <Suspense fallback={<Laden />}><K1GrEStCampus onKlausurwechsel={wechseln} onFachwechsel={k1FachWechseln} /></Suspense>;
     }
     return (
       <Suspense fallback={<Laden />}>

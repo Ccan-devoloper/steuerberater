@@ -9215,3 +9215,44 @@ Für beide Gebiete gibt es bislang keinen Campus. Das ist die nächste Entscheid
 einen eigenen Reiter bekommen oder den bestehenden Campus zugeordnet werden – die
 Grunderwerbsteuer inhaltlich am ehesten der Klausur 1 (Verkehrsteuern neben Umsatz- und
 Erbschaftsteuer), die Lohnsteuer der Klausur 2 (Ertragsteuern).
+
+### Skript Grunderwerbsteuer (Vossel), Abschnitte I und II – neuer Campus
+
+- **Quelle:** Drive-ID `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, „Vorbereitung auf die
+  Steuerberaterprüfung · Grunderwerbsteuer“, Dr. Stephan Vossel, Stand 01/2026, 1,3 MB.
+  Der Connector gibt die Datei vollständig aus: 195.000 Zeichen, neun Abschnitte.
+- **Ziel:** neuer Datensatz `src/data/k1-grest-skript.js`, neues Prüfskript
+  `npm run check:k1-grest-skript`, neue Campus-Komponente `src/components/K1GrEStCampus.jsx`.
+- **Einordnung:** Die Grunderwerbsteuer ist als **viertes Fachgebiet der Klausur 1** angelegt,
+  neben Umsatzsteuer, Abgabenordnung und Erbschaftsteuer. Das entspricht dem Zuschnitt des
+  dritten Prüfungstages („Verfahrensrecht und andere Steuerrechtsgebiete“), zu dem die
+  Verkehrsteuern gehören. Die Fachleiste der Klausur 1 hat deshalb jetzt vier Einträge; die
+  Umschaltung läuft über denselben Mechanismus wie bei den übrigen Fächern
+  (`CampusShell.jsx`, `k1Fach === "grest"`).
+
+**Eingepflegt sind die Abschnitte I und II.** Abschnitt I klärt die Frage, die das ganze
+Gebiet trägt: Steuerbar ist der **Wechsel der Rechtsträgerzuordnung**, nicht der Übergang
+wirtschaftlichen Eigentums. Daraus folgt unmittelbar, dass Einlage und Entnahme beim
+Einzelunternehmer nicht steuerbar sind, der Verkauf an die eigene Ein-Mann-GmbH dagegen schon –
+und dass Personengesellschaften hier **eigene Rechtsträger** sind und nicht, wie im
+Ertragsteuerrecht, transparent. Das Beispiel der ABC-OHG und die Fundstellen der Quelle (BFH
+vom 20.12.1972 zu Erbengemeinschaften, BFH vom 21.08.2019 zu § 6a GrEStG) sind mit übernommen.
+
+Abschnitt II ist das vollständige fünfstufige Prüfungsschema. Die Quelle stellt es als
+Schaubild dar; hier steht es als vier Tabellen – die Tatbestandsgruppen des § 1 GrEStG
+(Haupt-, Neben-, Ersatz- und Ergänzungstatbestände einschließlich der 90-Prozent-Grenzen, der
+Zehnjahresfristen und der Börsenklausel des § 1 Abs. 2c), die Befreiungsgruppen der §§ 3 bis 7
+GrEStG, die Fälle des Grundbesitzwerts nach § 8 Abs. 2 GrEStG und die acht
+Steuerschuldner-Tatbestände des § 13 GrEStG.
+
+**Zur Textqualität.** Das PDF ist sauber gesetzt; das einzige durchgehende Artefakt sind die
+Trennstriche des Blocksatzes („inlän- dischem“, „grunderwerbsteu- erliche“). Sie sind
+zusammengeführt, weil sie die Textextraktion verursacht hat und nicht die Quelle – dieselbe
+Regel wie bei den amtlichen Prüfungsaufgaben. Eine Stelle ist dagegen als **„(so in der
+Quelle)“** gekennzeichnet: In der Zeile zu § 3 Nr. 1 („Bagatellfälle“) ist das
+Vergleichszeichen vor „2.500 €“ bei der Extraktion verlorengegangen, so dass dort nur ein
+Leerraum steht; der Betrag selbst ist unverändert übernommen.
+
+**Offen aus diesem Skript** sind die Abschnitte III bis IX; sie stehen im Cockpit des neuen
+Campus namentlich, damit der Stand nachprüfbar bleibt. Abschnitt III (Steuerbarkeit) ist mit
+Abstand der längste und wird die nächsten Runden tragen.
