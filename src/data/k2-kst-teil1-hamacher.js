@@ -11,12 +11,15 @@
    Steuerbefreiungen des § 5 KStG bis zur Option nach § 1a KStG. Aus Kapitel 2
    (Einkommensermittlung) ist vollständig übernommen – die Abschnitte 2.1 bis
    2.2.5, vom zu versteuernden Einkommen bis zum Verlustabzug. Aus Kapitel 3
-   (verdeckte Einlage) sind die Abschnitte 3.1 bis 3.2.4 übernommen – Begriff und
+   (verdeckte Einlage) sind die Abschnitte 3.1 bis 3.3 übernommen – Begriff und
    Rechtsfolgen, die gesellschaftsrechtliche Veranlassung, der einlagefähige
-   Vermögensvorteil samt der Abgrenzung zum nicht einlagefähigen Nutzungsvorteil
-   und die Zurechnung bei disquotaler Einlage. Der Rest des Kapitels 3 (ab
-   Abschnitt 3.3 Bewertung) und das Kapitel 4 (Tarif) folgen nach demselben
-   Verfahren; der Campus weist den Stand aus.
+   Vermögensvorteil samt der Abgrenzung zum nicht einlagefähigen Nutzungsvorteil,
+   die Zurechnung bei unmittelbarer, disquotaler und mittelbarer Einlage
+   einschließlich der Beteiligungskette sowie die vollständige Bewertung
+   (Teilwert, Drei-Jahres-Regelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG für
+   Privat- und Betriebsvermögen, Einlage einer Beteiligung). Der Rest des
+   Kapitels 3 (ab Abschnitt 3.4 Anwendungsfälle) und das Kapitel 4 (Tarif) folgen
+   nach demselben Verfahren; der Campus weist den Stand aus.
 
    Kleinere Tippfehler der Quelle (fehlende Endungen, ein doppeltes Subjekt)
    sind wortlautgetreu übernommen und nicht einzeln gekennzeichnet, weil sie den
@@ -678,7 +681,8 @@ export const kstTeil1 = [
     normen: [
       "§ 8 Abs. 1 Satz 1, Abs. 3 Satz 3 KStG", "§ 27 KStG",
       "§ 6 Abs. 1 Nr. 5 EStG", "§ 17 Abs. 2a Satz 3 Nr. 1 EStG",
-      "§ 23 Abs. 1 Satz 1 Nr. 1 i. V. mit Satz 5 Nr. 2 EStG", "§ 7 Abs. 8 Satz 1 ErbStG",
+      "§ 23 Abs. 1 Satz 1 Nr. 1 i. V. mit Satz 5 Nr. 2 EStG", "§ 23 Abs. 1 Satz 3 EStG",
+      "§ 7 Abs. 8 Satz 1 ErbStG", "§ 7 Abs. 1 Nr. 1 ErbStG",
       "R 8.9 Abs. 3 Satz 1 KStR", "H 8.5 III „Nahe stehende Person“",
       "BFH vom 19.08.1999, BStBl. II 2001, 43", "BFH vom 12.12.2000, BStBl. II 2001, 234",
     ],
@@ -694,7 +698,141 @@ export const kstTeil1 = [
       { text: "Lösung: Vorliegend tätigt A eine verdeckte Einlage, weil nur dieser aus gesellschaftsrechtlichen Gründen der Gesellschaft einen Vermögensvorteil (= Vermögensmehrung) zuwendet. Die verdeckte Einlage ist daher ausschließlich dem Gesellschafter A zuzurechnen, was sich durch Erhöhung seiner Anschaffungskosten der Beteiligung an der A-GmbH um 600.000 € (§ 17 Abs. 2a Satz 3 Nr. 1 EStG) sowie der Versteuerung eines Veräußerungsgewinnes i. S. des § 23 Abs. 1 Satz 1 Nr. 1 i. V. mit Satz 5 Nr. 2 EStG ergibt. Eine anteilige Zurechnung der verdeckten Einlage auch zugunsten des Gesellschafters D erfolgt nicht, weil der Gesellschafter A nur im eigenen Interesse gehandelt hat." },
       { text: "Bei der A-GmbH wird die verdeckte Einlage mit dem Teilwert (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG) bewertet. Dadurch ist das erhaltene Wirtschaftsgut für steuerliche Zwecke mit dem Teilwert auszuweisen (Buchung: Grundstück an Ertrag 600.000 €). Die Gewinnerhöhung ist sodann bei der Einkommensermittlung wieder nach § 8 Abs. 3 Satz 3 KStG abzuziehen und dem steuerlichen Einlagekonto i. S. des § 27 KStG zuzurechnen." },
       { text: "Beachte: Unabhängig davon ist für schenkungsteuerliche Zwecke § 7 Abs. 8 Satz 1 ErbStG zu beachten, wonach es zu einer unterstellten Zuwendung von A an D kommt. Diese liegt in der reflexartigen Erhöhung des Beteiligungswertes begründet." },
+      { text: "Abwandlung: Wäre die unentgeltliche Leistung auch mit dem Willen der Zuwendung an den Mitgesellschafter D erfolgt, würde ertragsteuerlich auch aus Sicht des D eine unmittelbare verdeckte Einlage vorliegen. Weil ihm danach auch der Einlagegegenstand zuzurechnen wäre, würde auch dieser – neben A – aufgrund § 23 Abs. 1 Satz 5 Nr. 2 EStG einen Veräußerungsgewinn erzielen. Dafür ist maßgebend, dass ihm durch § 23 Abs. 1 Satz 3 EStG sämtliche Besteuerungsmerkmale zuzurechnen sind, damit auch die Anschaffungskosten des A. Denn vor dem Vollzug der verdeckten Einlage erfolgt eine unentgeltliche Zuwendung des hälftigen Grundstücksanteils an D. Somit versteuern A und D jeweils einen Veräußerungsgewinn von 250.000 €. Gleichzeitig erhöhen sich deren Anschaffungskosten ihrer Beteiligung um jeweils 300.000 €. Bei der A-GmbH ergeben sich keine abweichenden Lösungen." },
+      { text: "Beachte: Schenkungsteuerlich wäre in diesem Fall bereits eine freigebige Zuwendung i. S. des § 7 Abs. 1 Nr. 1 ErbStG zwischen A und D anzunehmen." },
+      { text: "Rechenprobe zur Abwandlung (eigene Ergänzung): Die stillen Reserven des Grundstücks betragen 600.000 € ./. 100.000 € = 500.000 €, auf jeden der beiden Gesellschafter entfallen davon 250.000 €; die Anschaffungskosten der Beteiligung erhöhen sich um je die Hälfte des Teilwerts, also um 300.000 €. Beide Zahlen der Quelle gehen damit auf." },
       { text: "Anmerkung zum Zusammenspiel der beiden letzten Absätze: Ertragsteuerlich bleibt die reflexartige Wertsteigerung beim Mitgesellschafter D folgenlos, schenkungsteuerlich löst sie nach § 7 Abs. 8 Satz 1 ErbStG dagegen eine Zuwendung aus – und zwar unabhängig vom Zuwendungswillen, auf den es ertragsteuerlich gerade ankommt. Die Quelle stellt beides unmittelbar nebeneinander; der Datensatz hebt den Unterschied hervor, weil er in der Klausur leicht untergeht." },
+    ],
+  },
+  {
+    id: "kst-t1-17",
+    kapitel: "17",
+    abschnittNr: "3.2.4.2",
+    title: "3.2.4.2 Mittelbare verdeckte Einlage",
+    thema: "Die verdeckte Einlage durch eine nahestehende Person und damit durch einen Nichtgesellschafter: Ertragsteuerlich wird sie in zwei Schritte zerlegt – Zuwendung an den Gesellschafter, dann dessen Einlage – und immer dem Anteilseigner zugerechnet. In der Beteiligungskette wird sie Stufe für Stufe durchgeleitet",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.2.4.2 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1, Abs. 3 Satz 3 KStG", "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG", "§ 6 Abs. 6 Satz 2 EStG", "§ 23 EStG",
+      "R 8.9 Abs. 3 Satz 1 KStR", "H 8.5 III „Nahe stehende Person“",
+      "BFH vom 12.12.2000, BStBl. II 2001, 385, BStBl. II 2001, 286, BStBl. II 2001, 234",
+      "BFH vom 23.10.1985, BStBl. II 1986, 195",
+    ],
+    themen: ["Mittelbare verdeckte Einlage", "Nahestehende Person", "Beteiligungskette", "Weitergeleitete verdeckte Einlage", "Steuerliches Einlagekonto"],
+    bloecke: [
+      { text: "Eine verdeckte Einlage kann daneben aber auch mittelbar von einer dem Anteilseigner nahe stehenden Personen und damit auch von einem Nichtgesellschafter erfolgen. Das Nahestehen des unmittelbar Leistenden zum Gesellschafter rechtfertigt es, auch in diesem Fall bei unüblichen bzw. nicht fremdvergleichbaren Gestaltungen eine gesellschaftsrechtliche Veranlassung anzunehmen. Dies beruht auf der Argumentation, dass die nahe stehende Person insoweit im Interesse des Gesellschafters gehandelt hat und dem Gesellschafter daher auch dieses Handeln zugerechnet werden muss. Als nahe stehende Person ist derjenige anzusehen, welcher mit dem Gesellschafter aufgrund" },
+      { text: "– persönlicher (z. B. Verwandte)" },
+      { text: "– geschäftlicher (z. B. Geschäftsfreund, andere Gesellschaft)" },
+      { text: "– schuldrechtlicher (z. B. Gläubiger eines Kaufvertrags)" },
+      { text: "– oder rein tatsächlicher" },
+      { text: "Beziehungen verbunden ist." },
+      { text: "Ertragsteuerlich fingiert die Finanzverwaltung in diesen Fällen eine sog. mittelbare verdeckte Einlage, bei welcher sämtliche steuerlichen Konsequenzen ausschließlich beim Anteilseigner gezogen werden. Denn nur der Anteilseigner selbst kann begrifflich die Einlage in „seine“ Kapitalgesellschaft vornehmen. Diesem ist daher der unmittelbar von der nahe stehenden Person vollzogene Vorgang steuerlich zuzurechnen, was zu folgender Reihenfolge führt:" },
+      { text: "1. Steuerlich wendet zunächst die nahe stehende Person dem Gesellschafter den (in die Kapitalgesellschaft eingelegten) Vermögensvorteil zu;" },
+      { text: "2. Anschließend nimmt der Gesellschafter die verdeckte Einlage in seine Gesellschaft vor." },
+      { text: "Die verdeckte Einlage wird daher immer dem Gesellschafter zugerechnet, der von dem Vermögensvorteil der Gesellschaft profitiert. Eine Ausnahme gilt nur insoweit, als bei der „einlegenden“ nahe stehenden Person selbst steuerliche Konsequenzen eintreten würden, z. B. bei verbilligter Übertragung eines Wirtschaftsgutes in Höhe des tatsächlichen Veräußerungspreises oder wenn der Einlagegegenstand bei diesem zum Betriebsvermögen gehört. Diese Besteuerungsfolgen sind dann bei der nahe stehenden Person selbst zu berücksichtigen, lediglich die verdeckte Einlage erfolgt über den Gesellschafter." },
+      { text: "Die damit zusammenhängenden schenkungsteuerlichen Konsequenzen werden unter 3.8.3 dargestellt." },
+      { text: "Merke: Eine verdeckte Einlage kann auch von einer dem Anteilseigner nahe stehenden Person ausgehen. In diesem Fall wird die verdeckte Einlage immer dem Anteilseigner zugerechnet, bei diesem sich dann u. U. steuerliche Auswirkungen ergeben können." },
+      { text: "Beispiel: Die Ehefrau des Alleingesellschafters überträgt ein Grundstück ihres Privatvermögens unentgeltlich auf die A-GmbH des Ehemannes." },
+      { text: "Lösung: Es handelt sich hierbei um eine mittelbare verdeckte Einlage, weil die Vermögenszuwendung durch eine nahe stehende Person des Anteilseigners erfolgt. Damit gilt der Vorgang auch aus Sicht der Kapitalgesellschaft als durch das Gesellschaftsverhältnis veranlasst. Für Zwecke der Besteuerung wird ertragsteuerlich zunächst eine Zuwendung des Grundstücks der Ehefrau an den Ehemann angenommen. Anschließend legt der Ehemann das Grundstück in seine Gesellschaft nach den Grundsätzen der verdeckten Einlage ein. Die ertragsteuerlichen Konsequenzen dieser Vermögenszuwendung (d. h. eventuell Anwendung des § 23 EStG und Erhöhung der Beteiligungsanschaffungskosten) werden ausschließlich beim Anteilseigner gezogen." },
+      { typ: "titel", text: "Verdeckte Einlage in der Beteiligungskette" },
+      { text: "Bei verdeckten Einlagen in der Beteiligungskette, z. B. wenn die Muttergesellschaft eine verdeckte Einlage unmittelbar in ihre (mittelbare) Enkelgesellschaft (die Muttergesellschaft ist in dieser Konstellation eine nahe stehende Person des Anteilseigners der bevorteilten Gesellschaft) vornimmt, erfolgt die Zurechnung immer nach dem Beteiligungsstrang. Auf jeder Beteiligungsstufe sind daher die Auswirkungen der verdeckten Einlage zu ziehen. Dies führt dazu, dass dann die Muttergesellschaft das Wirtschaftsgut zunächst in die Tochtergesellschaft verdeckt einlegt (sog. weitergeleitete verdeckte Einlage) und anschließend die verdeckte Einlage von der Tochter- in die Enkelgesellschaft erfolgt." },
+      { text: "Beispiel: Die A-GmbH ist Alleingesellschafterin der B-GmbH, welche ihrerseits 100 % der Anteile an der D-GmbH hält. In 2026 überträgt die A-GmbH ihrer „Enkelgesellschaft“ D-GmbH unentgeltlich ein Grundstück (Buchwert: 100.000 €, Teilwert: 600.000 €)." },
+      { text: "Lösung: Bei dem Vorgang handelt es sich aus Sicht der D-GmbH um eine verdeckte Einlage, weil dieser aus gesellschaftsrechtlichen Gründen ein Vermögensvorteil (= Vermögensmehrung) zugewendet wurde. Der unmittelbar Einlegende ist dabei zwar nicht ihr Anteilseigner, sondern einer diesem nahe stehende Person. Dies rechtfertigt es, insoweit eine Veranlassung aus dem Gesellschaftsverhältnis abzuleiten. Daher muss die verdeckte Einlage bei der D-GmbH mit dem Teilwert ausgewiesen werden, woraus sich wiederum aufgrund § 8 Abs. 3 Satz 3 KStG Auswirkungen auf das Einkommen und das steuerliche Einlagekonto ergeben." },
+      { text: "Die verdeckte Einlage wird unmittelbar von der A-GmbH ausgelöst. Dies führt dazu, dass diese in der Beteiligungskette zunächst eine verdeckte Einlage in ihre Tochtergesellschaft B-GmbH vornimmt. Auf Ebene der A-GmbH ergeben sich die Auswirkungen aus der Anwendung des § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 6 Satz 2 EStG, so dass sich der Beteiligungsbuchwert ihrer Beteiligung an der B-GmbH um 600.000 € erhöht. Aufgrund dessen entsteht ihr ein steuerpflichtiger Ertrag von 500.000 €, welcher die stillen Reserven des übertragenen Grundstücks abbildet (Buchung: Beteiligung B-GmbH 600.000 € an Grundstück 100.000 € und Ertrag 500.000 €). Dadurch wird erreicht, dass bei der Übertragerin des Grundstücks die angemessene Aufdeckung der stillen Reserven aufgrund des ansonsten gesellschaftsrechtlich motivierten Vorgangs eintritt." },
+      { text: "Bei der B-GmbH wird die verdeckte Einlage lediglich durchgeleitet. Denn der Vermögensvorteil gelangt in ihre Tochtergesellschaft D-GmbH. Daher ergeben sich auf Ebene der B-GmbH wiederum die Auswirkungen des § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 6 Satz 2 EStG, was zu einer bilanziellen Werterhöhung des Buchwertes an der D-GmbH führt (Buchung: Beteiligung D-GmbH an Ertrag). Dieser Ertrag von 600.000 € ist aber im Rahmen der Einkommensermittlung nach § 8 Abs. 3 Satz 3 KStG abzuziehen und gleichzeitig dem steuerlichen Einlagekonto (§ 27 KStG) gutzuschreiben. Denn der Ertrag symbolisiert bei der B-GmbH den Vermögensvorteil, den sie „steuerlich“ in die D-GmbH weiterleitet und ist daher nach den Grundsätzen der verdeckten Einlage wieder zu eliminieren." },
+      { text: "Bei der D-GmbH wird das im Rahmen der verdeckten Einlage erhaltene Grundstück zunächst mit dem Teilwert aktiviert (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG). Der daraus resultierende Ertrag (Buchung: Grundstück an Ertrag) wird nach § 8 Abs. 3 Satz 3 KStG außerbilanziell wieder abgezogen. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos i. S. des § 27 KStG um den Wert der verdeckten Einlage von 600.000 €." },
+      { typ: "tabelle", spalten: ["Ebene", "Buchung", "Außerbilanzielle Korrektur", "Einlagekonto § 27 KStG"], zeilen: [
+        ["A-GmbH (Mutter, Übertragerin)", "Beteiligung B-GmbH 600.000 € an Grundstück 100.000 € und Ertrag 500.000 €", "keine – Ertrag 500.000 € bleibt steuerpflichtig", "unverändert"],
+        ["B-GmbH (Tochter, Durchleitung)", "Beteiligung D-GmbH 600.000 € an Ertrag 600.000 €", "Abzug 600.000 € nach § 8 Abs. 3 Satz 3 KStG", "+ 600.000 €"],
+        ["D-GmbH (Enkelin, Empfängerin)", "Grundstück 600.000 € an Ertrag 600.000 €", "Abzug 600.000 € nach § 8 Abs. 3 Satz 3 KStG", "+ 600.000 €"],
+      ] },
+      { text: "Anmerkung zur Tabelle: Sie fasst nur zusammen, was die Quelle in den drei vorstehenden Absätzen im Fließtext beschreibt; eigene Wertungen enthält sie nicht. Zu beachten ist die Asymmetrie, die den Fall trägt: Nur auf der obersten Stufe entsteht ein steuerpflichtiger Ertrag – und zwar in Höhe der stillen Reserven von 500.000 € –, während die beiden nachfolgenden Stufen ihren Ertrag jeweils in voller Höhe des Teilwerts von 600.000 € wieder herausrechnen." },
+    ],
+  },
+  {
+    id: "kst-t1-18",
+    kapitel: "18",
+    abschnittNr: "3.3.1 und 3.3.2.1",
+    title: "3.3 Bewertung der verdeckten Einlage – Teilwert und die Drei-Jahres-Regelung",
+    thema: "Bewertet wird grundsätzlich mit dem Teilwert. Die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG (fortgeführte Anschaffungskosten bei Anschaffung innerhalb von drei Jahren) gilt nur für Einlagen aus dem Privatvermögen und auch dort nicht, wenn die Einlage schon beim Gesellschafter § 23 Abs. 1 Satz 5 Nr. 2 EStG auslöst",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitte 3.3.1 und 3.3.2.1 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1, Abs. 3 Satz 3 KStG", "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG", "§ 6 Abs. 1 Nr. 5 Satz 2 EStG",
+      "§ 6 Abs. 1 Nr. 5 Buchstabe a EStG", "§ 6 Abs. 6 Satz 2 EStG",
+      "§ 23 Abs. 1 Nr. 1, Nr. 2 EStG", "§ 23 Abs. 1 Satz 5 Nr. 2 EStG", "§ 23 Abs. 3 Satz 2 EStG",
+      "§ 52 Abs. 12 Satz 6 EStG",
+      "R 8.9 Abs. 2, Abs. 4 Sätze 1 und 4 KStR", "R 6.12 Abs. 1 Satz 2 EStR",
+      "BFH vom 29.04.1999, BStBl. II 2004, 639",
+    ],
+    themen: ["Bewertung", "Teilwert", "Fortgeführte Anschaffungskosten", "Drei-Jahres-Zeitraum", "Privatvermögen", "Betriebsvermögen", "Ersatzrealisationstatbestand"],
+    bloecke: [
+      { typ: "titel", text: "3.3.1 Teilwert" },
+      { text: "Die Bewertung der verdeckten Einlage erfolgt bei der Kapitalgesellschaft – vergleichbar mit „normalen“ Einlagen – gemäß § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG grundsätzlich mit dem Teilwert des Vermögensvorteils. Dieser kann sich um etwaige Nebenkosten (z. B. Notar, Gerichtskosten) erhöhen. Eventuelle Gegenleistungen, egal ob bei Leistungen des Gesellschafters an die Gesellschaft oder umgekehrt, sind dabei mindernd zu berücksichtigen. Nur in Höhe der Differenz zwischen dem Teilwert und der tatsächlichen Gegenleistung ist es auf Seiten der Gesellschaft zu einer Vorteilszuwendung gekommen. Bei der Kapitalgesellschaft ist dann die verdeckte Einlage nach § 8 Abs. 3 Satz 3 KStG in Höhe dieses Teilwerts bei der Einkommensermittlung abzuziehen, wenn und soweit der Vorgang gewinnwirksam geworden ist. Gleiches gilt in Fällen einer verhinderten Vermögensminderung, wonach auf den werthaltigen Teil der weggefallenen Verbindlichkeit abgestellt werden muss." },
+      { text: "Merke: Die verdeckte Einlage wird grundsätzlich mit dem Teilwert des Wirtschaftsgutes bewertet, weil nur in Höhe dieses werthaltigen Teiles ein Vermögensvorteil gegeben ist. Gleiches gilt in den Fällen der verhinderten Vermögensminderung auch für den Wegfall der entsprechenden Verbindlichkeit." },
+      { typ: "titel", text: "3.3.2.1.1 Anschaffung oder Herstellung innerhalb von drei Jahren – Einlage aus dem Privatvermögen" },
+      { text: "Bei verdeckten Einlagen des Anteilseigners aus dem Privatvermögen heraus ist diesbezüglich auch die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG zu beachten, wonach der Einlagewert abweichend vom Grundsatz den fortgeführten Anschaffungs- oder Herstellungskosten entspricht. Dies ist der Fall, wenn das Wirtschaftsgut vom Gesellschafter bzw. dessen nahe stehender Person innerhalb von 3 Jahren vor der verdeckten Einlage hergestellt oder angeschafft worden ist. Dadurch ergibt sich wiederum ein Gleichklang zu herkömmlichen Einlagen, so dass sich die in dem Wirtschaftsgut enthaltenen stillen Reserven in dieser Situation zulässigerweise auf die Kapitalgesellschaft und damit im Gegenzug auch auf deren Anteile verlagern, weil sich die Anschaffungskosten der Beteiligung im Gegenzug entsprechend erhöhen." },
+      { text: "Diese Sonderregelung gilt dann aber nicht, wenn die verdeckte Einlage beim Einlegenden bereits zur Anwendung des Veräußerungsersatzrealisationstatbestandes i. S. des § 23 Abs. 1 Satz 5 Nr. 2 EStG führt. Dieser Tatbestand ist nur bei der verdeckten Einlage eines Grundstücks i. S. des § 23 Abs. 1 Nr. 1 EStG erfüllt, weil § 23 Abs. 1 Satz 5 Nr. 2 EStG gerade auch nur die verdeckte Einlage eines Wirtschaftsgutes i. S. des § 23 Abs. 1 Nr. 1 EStG (= Grundstück) erfasst. Der Ausschluss des § 6 Abs. 1 Nr. 5 Buchstabe a EStG ist dann folgerichtig, weil beim Gesellschafter ein Veräußerungsgewinn entsteht, der sich aus dem Ansatz des gemeinen Wertes ergibt (siehe § 23 Abs. 3 Satz 2 EStG). Weil der Gesellschafter die stillen Reserven bereits besteuert hat, muss die verdeckte Einlage bei der Kapitalgesellschaft dann auch wieder mit dem erhöhten Wert i. S. des § 6 Abs. 1 Nr. 5 EStG bewertet werden. Dadurch wird eine Doppelbesteuerung der in dem Wirtschaftsgut bereits versteuerten stillen Reserven vermieden. Die anderen Wirtschaftsgüter i. S. des § 23 Abs. 1 Nr. 2 EStG sind hingegen davon nicht betroffen und können zur Anwendung dieser Sonderregelung führen. Diese gilt somit insbesondere bei der verdeckten Einlage von" },
+      { text: "– sonstigen Wirtschaftsgütern des Privatvermögens i. S. des § 23 Abs. 1 Nr. 2 EStG (z. B. Kunstgegenständen etc.), bei denen die verdeckte Einlage nicht zu einem Veräußerungstatbestand im Rahmen des § 23 EStG führt;" },
+      { text: "– aber auch bei Grundstücken, die nicht der Steuerverstrickung i. S. des § 23 Abs. 1 Nr. 1 EStG unterliegen, d. h. Grundstücke mit selbstgenutzten Gebäuden." },
+      { text: "Zu beachten ist, dass sich der Einlagewert immer auch um die Abschreibung vermindert, auch wenn diese bisher mangels Verwendung des Einlagegegenstandes für Zwecke der Einkunftserzielung nicht einkommensmindernd geltend gemacht werden konnte (siehe auch § 6 Abs. 1 Nr. 5 Satz 2 EStG)." },
+      { text: "Merke: Bei sonstigen Wirtschaftsgütern des Privatvermögens muss die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG beachtet werden. Dies gilt nicht in Fällen der verdeckten Einlage eines Grundstücks i. S. des § 23 Abs. 1 Nr. 1 EStG." },
+      { text: "Beispiel: A legt am 30.12.2026 ein im Privatbesitz gehaltenes Gemälde (Anschaffung: 04.05.2026) in die A-GmbH ein. Die Anschaffungskosten des – steuerlich nicht abschreibbaren – Gemäldes betrugen 200.000 €. Der Teilwert am 30.12.2026 beträgt 500.000 €." },
+      { text: "Lösung: Die verdeckte Einlage der Fallgruppe „Vermögensmehrung“ ist bei der A-GmbH abweichend vom Grundsatz mit den fortgeführten Anschaffungskosten des Wirtschaftsgutes i. S. des § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 a) EStG von 200.000 € zu bewerten. Denn die verdeckte Einlage dieses Wirtschaftsgutes, welches dem Grunde nach unter § 23 Abs. 1 Nr. 2 EStG fallen dürfte, stellt aus Sicht des A kein Veräußerungstatbestand i. S. des § 23 Abs. 1 Satz 5 Nr. 2 EStG dar. Damit werden im Privatvermögen dessen stille Reserven nicht aufgedeckt, so dass bei der Bewertung der verdeckten Einlage auch der allgemeine Grundsatz der Übernahme der fortgeführten Anschaffungskosten fortgelten kann. Bei der A-GmbH entsteht daher steuerbilanziell ein Ertrag von 200.000 € (Buchung: Wirtschaftsgut an Ertrag), welcher dann wieder nach § 8 Abs. 3 Satz 3 KStG das Einkommen wieder mindert und dem steuerlichen Einlagekonto i. S. des § 27 KStG zuzurechnen ist." },
+      { text: "Beispiel: A legt sein Grundstück (Anschaffung: 2024) im Jahr 2026 verdeckt in die A-GmbH ein. Die (fortgeführten) Anschaffungskosten betrugen 100.000 €; der Teilwert im Zeitpunkt der Einlage beträgt 500.000 €. Das Grundstück wird von A seit der Anschaffung ausschließlich zur Erzielung von Mieteinnahmen verwendet." },
+      { text: "Lösung: Die verdeckte Einlage ist bei der A-GmbH nach § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG mit dem Teilwert von 500.000 € zu bewerten. Die Anwendung der Sonderregelung des § 6 Abs. 1 Nr. 5a EStG ist ausgeschlossen, weil die verdeckte Einlage selbst bereits auf Ebene des A zu einer steuerpflichtigen Veräußerung i. S. des § 23 Abs. 1 Nr. 1 EStG i. V. mit § 23 Abs. 1 Satz 5 Nr. 2 EStG führt. Weil anlässlich dessen bereits sämtliche stille Reserven aufgedeckt werden, bleibt für eine Bewertung der verdeckten Einlage mit den fortgeführten Anschaffungskosten kein Raum. Der auf Ebene der A-GmbH entstehende steuerbilanzielle Gewinn von 500.000 € (Buchung: Grundstück an Ertrag) ist nach § 8 Abs. 3 Satz 3 KStG außerbilanziell wieder zu beseitigen und gleichzeitig dem steuerlichen Einlagekonto i. S. des § 27 KStG wieder hinzuzurechnen." },
+      { text: "Beachte: Wäre das Grundstück ausschließlich zu eigenen Wohnzwecken genutzt worden, wäre die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG wieder anwendbar. Dieses wäre dann nicht nach § 23 Abs. 1 Nr. 1 EStG steuerverstrickt, so dass die verdeckte Einlage auch nicht den Ersatzrealisationstatbestand des § 23 Abs. 1 Satz 5 Nr. 2 EStG erfüllen würde. Zur Ermittlung der fortgeführten Anschaffungskosten wären auch die fiktiven Abschreibungsbeträge zu berücksichtigen." },
+      { typ: "titel", text: "3.3.2.1.2 Einlage aus dem Betriebsvermögen" },
+      { text: "Bisher war umstritten, ob die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG auch in den Fällen angewendet werden konnte, in denen die verdeckte Einlage aus dem Betriebsvermögen des Anteilseigners heraus erfolgte und das eingelegte Wirtschaftsgut im Betriebsvermögen innerhalb des 3-Jahreszeitraums angeschafft oder hergestellt wurde. Dies hat der Gesetzgeber durch eine Gesetzesänderung nunmehr untersagt, weil er den Anwendungsbereich dieser Vorschrift nur noch auf die Fälle beschränkt, bei denen die Zuführung des Wirtschaftsgutes „aus dem Privatvermögen“ erfolgt. Damit muss in diesen Fällen aus dem Betriebsvermögen heraus immer der Teilwert angesetzt werden, was auch der Grundaussage des § 6 Abs. 6 Satz 2 EStG entspricht. Die Neuregelung gilt erst für sämtliche Einlagen, die nach dem 27.03.2024 erfolgen (§ 52 Abs. 12 Satz 6 EStG)." },
+      { text: "Merke: Bei einer verdeckten Einlage aus dem Betriebsvermögen heraus kommt immer der Teilwert zum Ansatz. Die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG ist bei einer Einlage aus dem Betriebsvermögen heraus nicht anwendbar." },
+      { text: "Beispiel: A legt sein Grundstück am 03.05.2026 sein in 2024 im Betriebsvermögen angeschafftes Grundstück in seine A-GmbH (Beteiligung im Betriebsvermögen) ein. Der Buchwert beträgt 100.000 €; der Teilwert im Zeitpunkt der Einlage beträgt 500.000 €. (Der doppelte Satzbau ist so in der Quelle.)" },
+      { text: "Lösung: Auch unabhängig von dem Tatbestand, dass das in die A-GmbH verdeckt eingelegte Grundstück innerhalb des 3-Jahreszeitraums angeschafft wurde, ist dieser Vorgang bei der A-GmbH nach § 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG mit dem Teilwert zu bewerten. Denn die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG kann nur bei einer Einlage aus dem Privatvermögen heraus angewendet werden. Damit muss das Grundstück in der Steuerbilanz der A-GmbH mit dem Teilwert ausgewiesen werden (Buchung: Grundstück an Ertrag 500.000 €), die dadurch eingetretene Gewinnerhöhung wird nach § 8 Abs. 3 Satz 3 KStG bei der Einkommensermittlung wieder abgezogen. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos i. S. des § 27 KStG entsprechend." },
+      { text: "Auf Ebene des A führt die verdeckte Einlage damit zu einer Gewinnauswirkung. Denn nach § 6 Abs. 6 Satz 2 EStG ist – mangels Anwendung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG – die verdeckte Einlage ebenfalls mit dem Teilwert zu bewerten. Danach erhöhen sich im Gegenzug die Anschaffungskosten der Beteiligung an der A-GmbH um den Teilwert (Buchung: Bet. A-GmbH 500.000 € an Grundstück 100.000 € und an Ertrag 400.000 €), so dass A den angemessenen Veräußerungsgewinn daraus versteuert." },
+      { typ: "tabelle", spalten: ["Einlage aus …", "Anschaffung/Herstellung innerhalb von drei Jahren", "Wertansatz bei der Kapitalgesellschaft"], zeilen: [
+        ["Privatvermögen, sonstiges Wirtschaftsgut i. S. des § 23 Abs. 1 Nr. 2 EStG (z. B. Gemälde)", "ja", "fortgeführte Anschaffungskosten (§ 6 Abs. 1 Nr. 5 Buchstabe a EStG) – im Beispiel 200.000 €"],
+        ["Privatvermögen, steuerverstricktes Grundstück i. S. des § 23 Abs. 1 Nr. 1 EStG", "ja", "Teilwert (§ 6 Abs. 1 Nr. 5 EStG) – Buchstabe a ausgeschlossen, weil § 23 Abs. 1 Satz 5 Nr. 2 EStG greift; im Beispiel 500.000 €"],
+        ["Privatvermögen, Grundstück mit selbstgenutztem Gebäude", "ja", "fortgeführte Anschaffungskosten, dabei auch fiktive Abschreibungsbeträge (§ 6 Abs. 1 Nr. 5 Satz 2 EStG)"],
+        ["Betriebsvermögen (Einlagen nach dem 27.03.2024)", "gleichgültig", "immer Teilwert – Buchstabe a nicht anwendbar; beim Gesellschafter § 6 Abs. 6 Satz 2 EStG"],
+      ] },
+      { text: "Anmerkung zur Tabelle: Sie ordnet die vier Konstellationen, die die Quelle im Fließtext und in ihren Beispielen nacheinander abhandelt; die Zuordnungen und Beträge stammen unverändert aus der Quelle." },
+    ],
+  },
+  {
+    id: "kst-t1-19",
+    kapitel: "19",
+    abschnittNr: "3.3.2.2",
+    title: "3.3.2.2 Einlage einer Beteiligung",
+    thema: "Weder § 6 Abs. 1 Nr. 5 Buchstabe b noch Buchstabe c EStG greifen: Weil § 17 Abs. 1 Satz 2 EStG und § 20 Abs. 2 Satz 2 EStG die verdeckte Einlage jeweils als Veräußerung zum gemeinen Wert erfassen, ist bei der übernehmenden Gesellschaft immer der Teilwert anzusetzen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.3.2.2 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1, Abs. 3 Satz 3 KStG", "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG", "§ 6 Abs. 1 Nr. 5 Buchstaben b und c EStG",
+      "§ 17 Abs. 1 Satz 2 EStG", "§ 17 Abs. 2 Satz 2 EStG",
+      "§ 3 Nr. 40c EStG", "§ 3c Abs. 2 EStG",
+      "§ 20 Abs. 2 Nr. 1 EStG", "§ 20 Abs. 2 Satz 2 EStG", "§ 20 Abs. 4 Satz 2 EStG",
+      "§ 32d Abs. 1 EStG",
+      "R 8.9 Abs. 4 Sätze 2 und 3 KStR",
+    ],
+    themen: ["Einlage einer Beteiligung", "§ 17 EStG", "Streubesitz", "Teileinkünfteverfahren", "Abgeltungsteuer", "Gemeiner Wert"],
+    bloecke: [
+      { typ: "titel", text: "3.3.2.2.1 Beteiligung i. S. des § 17 EStG" },
+      { text: "Keine Anwendung findet bei einer verdeckten Einlage einer Beteiligung die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe b EStG. Die verdeckte Einlage eines nach § 17 EStG steuerverstrickten Anteils führt nach § 17 Abs. 1 Satz 2 EStG zu einem Veräußerungstatbestand, was beim Gesellschafter bereits die Aufdeckung der stillen Reserven nach sich zieht. Denn der Veräußerungspreis entspricht nach § 17 Abs. 2 Satz 2 EStG dem gemeinen Wert des eingelegten Anteils. Daher muss die Kapitalgesellschaft die verdeckte Einlage des Gesellschaftsanteils mit dem Teilwert i. S. des § 6 Abs. 1 Nr. 5 EStG bewerten." },
+      { text: "Beispiel: A legt im Jahr 2026 eine im Privatvermögen gehaltene 100 % Beteiligung an der B-GmbH (Anschaffungskosten: 100.000 €; Teilwert: 500.000 €) in die A-GmbH ein." },
+      { text: "Lösung: Die verdeckte Einlage ist bei der A-GmbH mit dem Teilwert von 500.000 € zu bewerten (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG). Die Sonderregelung des § 6 Abs. 1 Nr. 5b EStG kommt dabei nicht zur Anwendung, weil die verdeckte Einlage der Beteiligung bei A bereits nach § 17 Abs. 1 Satz 2 EStG zu einer Veräußerung zum gemeinen Wert führt (§ 17 Abs. 2 Satz 2 EStG). Dabei werden die stillen Reserven von 400.000 € vollständig aufgedeckt, was zu einem steuerpflichtigen Veräußerungsgewinn (nach Anwendung des Teileinkünfteverfahrens i. S. des § 3 Nr. 40c EStG und § 3c Abs. 2 EStG) von 240.000 € führt." },
+      { text: "Der bei der A-GmbH entstehende steuerbilanzielle Ertrag von 500.000 € (Buchung: Beteiligung B-GmbH an Ertrag) ist nach § 8 Abs. 3 Satz 3 KStG außerbilanziell wieder zu beseitigen. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos entsprechend." },
+      { text: "Anmerkung zur Rechenprobe: Die 240.000 € sind 60 % der aufgedeckten stillen Reserven von 400.000 € – das Teileinkünfteverfahren stellt 40 % steuerfrei. Die Quelle nennt nur das Ergebnis; die Probe ist hier ergänzt." },
+      { typ: "titel", text: "3.3.2.2.2 Beteiligung i. S. des § 20 Abs. 2 EStG" },
+      { text: "Gleiches gilt bei der Einlage von Streubesitzanteilen (Beteiligung unter 1 %), wofür die verdeckte Einlage nach § 20 Abs. 2 Nr. 1 EStG i. V. mit § 20 Abs. 2 Satz 2 EStG ebenfalls als Veräußerungstatbestand gilt. Der Veräußerungspreis entspricht in diesen Fällen gemäß § 20 Abs. 4 Satz 2 EStG dem gemeinen Wert dieses Anteils. Daher ist die verdeckte Einlage bei der übernehmenden Kapitalgesellschaft ebenfalls mit dem Teilwert i. S. des § 6 Abs. 1 Nr. 5 EStG zu bewerten, so dass die Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe c EStG ebenfalls nicht angewendet werden kann." },
+      { text: "Beispiel: A legt im Jahr 2026 eine im Privatvermögen gehaltene 0,9%ige Beteiligung an der B-GmbH (Anschaffungskosten: 100.000 €; Teilwert: 500.000 €) in die A-GmbH ein." },
+      { text: "Lösung: Die verdeckte Einlage ist bei der A-GmbH mit dem Teilwert von 500.000 € zu bewerten (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG). Die Sonderregelung des § 6 Abs. 1 Nr. 5c EStG kommt dabei nicht zur Anwendung, weil die verdeckte Einlage der Beteiligung bei A bereits nach § 20 Abs. 2 Satz 2 EStG zu einer Veräußerung führt. Dabei werden die stillen Reserven von 400.000 € vollständig aufgedeckt, was zu einem steuerpflichtigen Veräußerungsgewinn führt, der der Abgeltungsteuer i. S. des § 32d Abs. 1 EStG unterliegt." },
+      { text: "Der bei der A-GmbH entstehende steuerbilanzielle Ertrag von 500.000 € (Buchung: Beteiligung B-GmbH an Ertrag) ist nach § 8 Abs. 3 Satz 3 KStG außerbilanziell wieder zu beseitigen. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos entsprechend." },
+      { text: "Merke (zusammenfassend zu 3.3.2.2): Der Ansatz bei der übernehmenden Kapitalgesellschaft ist in beiden Fällen derselbe – der Teilwert. Der Unterschied liegt allein beim einlegenden Gesellschafter: Bei der Beteiligung i. S. des § 17 EStG greift das Teileinkünfteverfahren, beim Streubesitzanteil die Abgeltungsteuer. Diese Gegenüberstellung fasst zusammen, was die Quelle in ihren beiden Unterabschnitten nacheinander sagt." },
     ],
   },
 ];

@@ -10617,8 +10617,59 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** der Rest des Kapitels 3 (ab 3.3: Bewertung und die neun
-Anwendungsfälle) und das Kapitel 4 sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** der Rest des Kapitels 3 (ab 3.4: die neun Anwendungsfälle)
+und das Kapitel 4 sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.2.4.2 und 3.3 – mittelbare Einlage und Bewertung
+
+Quelle: dieselbe Datei; übernommen in `src/data/k2-kst-teil1-hamacher.js` als Kapitel 17
+(Abschnitt 3.2.4.2), 18 (Abschnitte 3.3.1 und 3.3.2.1) und 19 (Abschnitt 3.3.2.2). Im
+Kapitel 16 ist außerdem die in der vorigen Runde noch offene **Abwandlung** des Beispiels A/D
+nachgetragen. Prüfung: `npm run check:k2-kst-teil1` (19 Kapitel, 338 Blöcke, 12 Tabellen).
+
+**Die mittelbare verdeckte Einlage** zerlegt die Quelle ertragsteuerlich in zwei Schritte:
+Zuerst wendet die nahestehende Person dem Gesellschafter den Vorteil zu, dann legt dieser ihn
+verdeckt in seine Gesellschaft ein. Die Folgen werden immer beim Anteilseigner gezogen – mit
+der einen Ausnahme, dass steuerliche Konsequenzen, die bei der nahestehenden Person selbst
+eintreten (etwa ein tatsächlicher Veräußerungspreis oder Betriebsvermögenszugehörigkeit des
+Einlagegegenstands), auch bei dieser zu berücksichtigen sind.
+
+**In der Beteiligungskette** (A-GmbH → B-GmbH → D-GmbH, Grundstück Buchwert 100.000 €, Teilwert
+600.000 €) rechnet die Quelle jede Stufe einzeln ab. Die Tabelle im Datensatz fasst nur
+zusammen, was die Quelle im Fließtext sagt; sie enthält keine eigenen Wertungen. Bemerkenswert
+ist die Asymmetrie, auf die der Datensatz ausdrücklich hinweist: Nur auf der obersten Stufe
+entsteht ein steuerpflichtiger Ertrag, und zwar in Höhe der stillen Reserven von 500.000 €,
+während die beiden nachfolgenden Stufen ihren Ertrag jeweils in voller Höhe des Teilwerts von
+600.000 € nach § 8 Abs. 3 Satz 3 KStG wieder herausrechnen.
+
+**Die Bewertung** trägt den Abschnitt 3.3. Grundsatz ist der Teilwert nach § 8 Abs. 1 Satz 1 KStG
+i. V. mit § 6 Abs. 1 Nr. 5 EStG, erhöht um Nebenkosten und gemindert um Gegenleistungen. Die
+Sonderregelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG (fortgeführte Anschaffungskosten bei
+Anschaffung oder Herstellung innerhalb von drei Jahren) unterliegt zwei Einschränkungen, die
+die Quelle an vier Beispielen durchspielt und die der Datensatz zusätzlich in einer Tabelle
+ordnet: Sie gilt seit der Gesetzesänderung nur noch für Einlagen **aus dem Privatvermögen**
+(§ 52 Abs. 12 Satz 6 EStG: Einlagen nach dem 27.03.2024), und sie ist auch dort ausgeschlossen,
+wenn die Einlage beim Gesellschafter schon den Ersatzrealisationstatbestand des § 23 Abs. 1
+Satz 5 Nr. 2 EStG auslöst. Daraus folgt die für die Klausur entscheidende Dreiteilung: Gemälde
+(§ 23 Abs. 1 Nr. 2 EStG) → fortgeführte Anschaffungskosten; vermietetes Grundstück (§ 23 Abs. 1
+Nr. 1 EStG) → Teilwert; selbstgenutztes Grundstück → wieder fortgeführte Anschaffungskosten,
+dann aber unter Abzug auch der **fiktiven** Abschreibungsbeträge.
+
+**Bei der Einlage einer Beteiligung** greifen weder Buchstabe b noch Buchstabe c des § 6 Abs. 1
+Nr. 5 EStG, weil § 17 Abs. 1 Satz 2 EStG bzw. § 20 Abs. 2 Satz 2 EStG die verdeckte Einlage
+bereits als Veräußerung zum gemeinen Wert erfassen. Der Ansatz bei der übernehmenden Gesellschaft
+ist daher in beiden Fällen der Teilwert; der Unterschied liegt allein beim Gesellschafter
+(Teileinkünfteverfahren bei § 17 EStG, Abgeltungsteuer beim Streubesitzanteil). Der Datensatz
+sagt das in einem abschließenden „Merke“, das als Zusammenfassung der beiden Unterabschnitte
+gekennzeichnet ist.
+
+**Eigene Ergänzungen, im Datensatz als solche gekennzeichnet:** zwei Rechenproben. Zur
+Abwandlung des Beispiels A/D geht die Quelle ohne Rechenweg von je 250.000 € Veräußerungsgewinn
+und je 300.000 € zusätzlichen Anschaffungskosten aus – das sind die Hälfte der stillen Reserven
+von 500.000 € und die Hälfte des Teilwerts von 600.000 €; beide Zahlen gehen auf. Und im
+Abschnitt 3.3.2.2.1 nennt die Quelle nur das Ergebnis von 240.000 €, was 60 % der aufgedeckten
+stillen Reserven von 400.000 € entspricht (Teileinkünfteverfahren). Die Proben sind ergänzt, die
+Zahlen der Quelle nicht verändert.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.2.2 bis 3.2.4 – Veranlassung, Einlagefähigkeit, Zurechnung
 

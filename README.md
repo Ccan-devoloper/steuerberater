@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit sechzehn Kapitel mit 277 Abschnitten und
-  10 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit neunzehn Kapitel mit 338 Abschnitten und
+  12 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.2.4 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.3 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2400,8 +2400,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   allein dem Einlegenden zugerechnet (BFH vom 19.08.1999), die reflexartige Wertsteigerung beim
   Mitgesellschafter bleibt folgenlos, während § 7 Abs. 8 Satz 1 ErbStG sie schenkungsteuerlich
   unabhängig vom Zuwendungswillen dennoch erfasst; der Datensatz stellt diesen Unterschied
-  ausdrücklich heraus.
-  Der Rest des Kapitels 3 ab Abschnitt 3.3 (Bewertung) und das Kapitel 4 (Tarif) folgen; der
+  ausdrücklich heraus. Dazu die **mittelbare verdeckte Einlage** durch eine nahestehende Person,
+  die ertragsteuerlich in zwei Schritte zerlegt und immer dem Anteilseigner zugerechnet wird, und
+  die verdeckte Einlage in der **Beteiligungskette**, in der Mutter-, Tochter- und
+  Enkelgesellschaft jede für sich abzurechnen sind (nur auf der obersten Stufe entsteht ein
+  steuerpflichtiger Ertrag in Höhe der stillen Reserven, die beiden nachfolgenden Stufen ziehen
+  ihren Ertrag in voller Höhe des Teilwerts wieder ab). Schließlich die **Bewertung** vollständig:
+  der Teilwert als Grundsatz einschließlich Nebenkosten und Gegenleistungen; die Drei-Jahres-
+  Regelung des § 6 Abs. 1 Nr. 5 Buchstabe a EStG, die seit dem 27.03.2024 nur noch für Einlagen
+  aus dem Privatvermögen gilt und auch dort nicht, wenn die Einlage beim Gesellschafter schon den
+  Ersatzrealisationstatbestand des § 23 Abs. 1 Satz 5 Nr. 2 EStG auslöst (Gemälde ja, vermietetes
+  Grundstück nein, selbstgenutztes Grundstück wieder ja); und die **Einlage einer Beteiligung**,
+  bei der weder § 6 Abs. 1 Nr. 5 Buchstabe b noch Buchstabe c EStG anwendbar ist, weil § 17 Abs. 1
+  Satz 2 EStG und § 20 Abs. 2 Satz 2 EStG die Einlage bereits als Veräußerung zum gemeinen Wert
+  erfassen – beim Gesellschafter mit Teileinkünfteverfahren beziehungsweise Abgeltungsteuer.
+  Der Rest des Kapitels 3 ab Abschnitt 3.4 (Anwendungsfälle) und das Kapitel 4 (Tarif) folgen; der
   Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
