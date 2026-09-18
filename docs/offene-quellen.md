@@ -96,9 +96,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Übungsfall zur Gaststätten- und Großküchen GmbH; aus dem Teil IV sind der Überblick zur
   Selbstanzeige nach § 371 AO, die Berichtigungserklärung und der Zehnjahreszeitraum samt
   Beispielen sowie die Sperrgründe des § 371 Abs. 2 AO einschließlich des Zuschlags nach
-  § 398a AO eingepflegt; **der Teil IV ist damit vollständig**. Offen sind daraus noch der
-  **Teil V** (leichtfertige Steuerverkürzung als Ordnungswidrigkeit, §§ 377 bis 380 AO)
-  sowie der gesamte **Abschnitt 15** (Vollstreckungsrecht).
+  § 398a AO eingepflegt, ebenso die Teile V und VI (leichtfertige Steuerverkürzung als
+  Ordnungswidrigkeit, Ablaufhemmung des § 171 Abs. 9 AO). **Der Abschnitt 14 ist damit
+  vollständig.** Offen ist aus diesem Band nur noch der gesamte **Abschnitt 15**
+  (Vollstreckungsrecht).
 - Noch nicht bearbeitet ist **AO Teil V** unter seinem eigenen Dateinamen (Drive-ID
   `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`).
 - AO-Short-Skript

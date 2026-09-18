@@ -282,7 +282,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Jahreserklärungen 39 Steuerstraftaten abdecken – sowie die fristgerechte Nachzahlung nach
   § 371 Abs. 3 AO mit dem Prinzip der Schadenswiedergutmachung, wegen dessen das
   Kompensationsverbot hier gerade nicht gilt, und vier Fallgestaltungen zur Hinterziehung
-  zum Vorteil eines anderen. Der Teil IV ist damit vollständig.
+  zum Vorteil eines anderen. Den Abschluss bilden der Teil V mit der leichtfertigen
+  Steuerverkürzung als Ordnungswidrigkeit – eigenes Prüfungsschema zu § 378 AO, der
+  eingeschränkte Täterkreis, die bußgeldrechtliche Selbstanzeige, die anders als § 371 AO
+  auch nach Prüfungsanordnung und Tatentdeckung offensteht, sowie Steuergefährdung
+  (§ 379 AO) und Gefährdung der Abzugssteuern (§ 380 AO, § 26b UStG) mit ihrer
+  Subsidiarität – und der Teil VI mit der Ablaufhemmung des § 171 Abs. 9 AO, die je nach
+  Anzeige nach §§ 153, 371 oder 378 Abs. 3 AO auf einer Vier-, Zehn- oder Fünfjahresfrist
+  aufsetzt, samt Fallbeispiel mit zwei Varianten. **Abschnitt 14 ist damit vollständig.**
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,

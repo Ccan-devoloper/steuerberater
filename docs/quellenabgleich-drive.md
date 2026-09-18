@@ -2546,3 +2546,36 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Nachgerechnet und zutreffend: die Tatzahlen des zweiten Beispiels – zwölf Voranmeldungen
   zuzüglich der Jahreserklärung ergeben je Jahr **13** Straftaten und für die Jahre 14 bis
   16 insgesamt **39**.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 11, Abschluss)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Teile V und VI.
+- Einpflege dieses Durchgangs: zwei Kapitel – die leichtfertige Steuerverkürzung als
+  Ordnungswidrigkeit nach §§ 377, 378 AO einschließlich Steuergefährdung (§ 379 AO) und
+  Gefährdung der Abzugssteuern (§ 380 AO, § 26b UStG) sowie die Ablaufhemmung des
+  § 171 Abs. 9 AO mit dem Fallbeispiel in zwei Varianten. **Der Abschnitt 14 ist damit
+  vollständig.** Das Skript umfasst 10 Teile, 109 Kapitel, 2.286 Blöcke und 212 Tabellen;
+  Prüfung `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: der gesamte Abschnitt 15 (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 27: „Gefährungstatbestand“; „II. Rechtwidrigkeit“; „Subjektiv ist nach
+    Leichtfertigkeit erforderlich“.
+  - Kapitel 28: erneut „§ 108 Abs. 1 AO iVm § 188 Abs. 2 **AO**“ statt BGB; „in der G+V des
+    **des** Jahres 01“; Großschreibung „Reguläre Festsetzungsfrist“ mitten im Satz.
+  - Kapitel 28, Korrekturvorschrift zu Variante I: Der Satz „… und die Ablaufhemmung des
+    § 171 Abs. 9 AO nicht durch …“ bricht am Seitenumbruch ab. Der Datensatz gibt den
+    Torso wieder und weist darauf hin, dass dasselbe Skript denselben Gedanken zwei Seiten
+    zuvor vollständig ausführt („… wird durch § 164 Abs. 4 Satz 2 … nicht ausgeschlossen!“);
+    ergänzt wurde nichts.
+
+  Nachgerechnet und zutreffend: die Fristen des Fallbeispiels – Erklärung vom 28.02.03,
+  Anlaufhemmung bis 31.12.03, reguläre Festsetzungsfrist bis **31.12.07**; in Variante I
+  Anzeige am 28.10.07 und Ablaufhemmung bis **28.10.08**; in Variante II verlängerte Frist
+  bis 31.12.13, Anzeige am 25.08.13 und Ablaufhemmung bis **25.08.14**. Beide
+  Bearbeitungsstichtage (10.03.08 und 01.02.14) liegen innerhalb der jeweiligen
+  Ablaufhemmung.
