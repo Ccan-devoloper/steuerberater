@@ -2387,6 +2387,29 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   einen Prozentpunkt in den Jahren 2028 bis 2032, der Solidaritätszuschlag auf die festzusetzende
   Körperschaftsteuer und das Berechnungsschema des R 7.2 KStR.
   Prüfung: `npm run check:k2-kst-teil1`
+- **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
+  Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit drei Kapitel mit 35 Abschnitten und einer
+  Tabelle. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
+  verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
+  mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
+  einer Beteiligung nicht versteuert, darf die Verluste aus ihr nicht abziehen. Das
+  **Kapitel 1 (Bedeutung und persönlicher Anwendungsbereich)** ist vollständig, mit dem Merksatz,
+  der über jeden Fall entscheidet: § 8b KStG greift nur, wo überhaupt eine inländische
+  Einkommensermittlung stattfindet – wo die Kapitalertragsteuer nach § 32 Abs. 1 Nr. 2 KStG
+  abgeltend wirkt, gibt es kein Einkommen zu korrigieren und damit auch keine Steuerfreiheit. Dazu
+  die Sonderfälle der beschränkt Steuerpflichtigen ohne inländische Betriebsstätte: Bei
+  Ausschüttungen schleust § 44a Abs. 9 EStG die 25%ige Quellensteuer über eine Erstattung von 2/5
+  rechnerisch auf den Körperschaftsteuersatz von 15 % herunter (in EU/EWR-Fällen sogar vollständig
+  nach § 43b EStG); bei Veräußerungsgewinnen bleibt es dagegen bei der Veranlagung, dann aber nach
+  dem BFH-Urteil vom 31.05.2017 **ohne** die Fünf-Prozent-Pauschale des § 8b Abs. 3 Satz 1 KStG,
+  weil ohne inländische Betriebsstätte keine inländischen Betriebsausgaben angefallen sein
+  können – die Einkünfte betragen dann 0 €. Aus **Kapitel 2** ist der Begriff der
+  Gewinnausschüttung übernommen: erfasst sind ordentliche **und verdeckte** Ausschüttungen,
+  Genussrechte mit Eigenkapitalcharakter, Liquidations- und Kapitalherabsetzungsraten jenseits des
+  Nennkapitals sowie Ausschüttungen nach einer Hinzurechnungsbesteuerung – alles vorbehaltlich der
+  Streubesitzregelung des § 8b Abs. 4 KStG.
+  Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.

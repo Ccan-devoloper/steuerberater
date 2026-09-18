@@ -10617,8 +10617,39 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** nichts mehr aus Teil I – offen sind nur noch die Skriptteile II
-bis VII.
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.1.1.2; ganz offen sind die
+Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Kapitel 1 und Abschnitt 2.1.1.1 – neuer Bestand
+
+Quelle: `B-S26-KSt-Teil II-Beteiligungsertraege s 8b KStG (2026)-(Hamacher)-0526.pdf`
+(Datei-ID `1xDCo16TIgZPdqfkWBOZhkxvNhllNfg33`, 70 Seiten). Neuer Datensatz
+`src/data/k2-kst-teil2-hamacher.js` mit Prüfskript `tools/pruefen-k2-kst-teil2.mjs` und neuem
+Reiter „Teil II (§ 8b KStG)“ im Körperschaftsteuer-Campus. Prüfung:
+`npm run check:k2-kst-teil2` (3 Kapitel, 35 Blöcke, 1 Tabelle).
+
+**Die Quelle ist diesmal von vornherein binär geladen und mit `pypdf` extrahiert worden**, nach
+dem Befund aus Teil I. Die Seitenzahl (70) stimmt mit dem Ende des Texts überein; ein Abbruch wie
+bei Teil I liegt nicht vor.
+
+**Der Merksatz des ersten Kapitels** entscheidet über jeden Fall und wird in der Klausur oft
+übersprungen: § 8b KStG greift nur, wo überhaupt eine **inländische Einkommensermittlung**
+stattfindet. Wo die Kapitalertragsteuer nach § 32 Abs. 1 Nr. 2 KStG abgeltend wirkt, gibt es kein
+Einkommen zu korrigieren – und damit auch keine Steuerfreiheit.
+
+**Die Asymmetrie beim beschränkt Steuerpflichtigen ohne Betriebsstätte** ist der lehrreichste Teil
+des Kapitels und im Datensatz tabellarisch geordnet (als eigene Ergänzung gekennzeichnet):
+Dieselbe Gesellschaft wird bei der Ausschüttung gar nicht veranlagt – die Belastung wird über die
+Erstattung von 2/5 nach § 44a Abs. 9 EStG rechnerisch auf 15 % gebracht –, beim Veräußerungsgewinn
+dagegen schon, und zahlt dort im Ergebnis nichts: Nach dem BFH-Urteil vom 31.05.2017 ist die
+Fünf-Prozent-Pauschale des § 8b Abs. 3 Satz 1 KStG ausgeschlossen, weil ohne inländische
+Betriebsstätte keine inländischen Betriebsausgaben angefallen sein können. Die Einkünfte betragen
+0 €. Die Rechenprobe zur Erstattung ist ebenfalls als eigene Ergänzung ausgewiesen: 25 % von
+100.000 € = 25.000 €, davon 2/5 = 10.000 € Erstattung, verbleiben 15.000 € = 15 %.
+
+**Ein Verweisfehler der Quelle, wortlautgetreu übernommen und gekennzeichnet:** Der Abschnitt
+2.1.1.1 verweist für das materielle Korrespondenzprinzip auf „2.2.1.2“; nach dem
+Inhaltsverzeichnis steht dieser Stoff unter **2.1.2**.
 
 ### KSt Teil I (Hamacher), Kapitel 4 – Abschluss des Bestandes
 

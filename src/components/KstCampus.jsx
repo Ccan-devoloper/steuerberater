@@ -25,6 +25,7 @@ import {
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
 import KurzskriptBloecke from "./KurzskriptBloecke";
 import { kstTeil1, kstTeil1Quelle } from "../data/k2-kst-teil1-hamacher.js";
+import { kstTeil2, kstTeil2Quelle } from "../data/k2-kst-teil2-hamacher.js";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K2Fachleiste from "./K2Fachleiste";
 import KstHausaufgaben from "./KstHausaufgaben";
@@ -51,6 +52,7 @@ const ansichten = [
   { id: "module", label: "Lernmodule", Icon: IconModule },
   { id: "kurzskript", label: "Kurz-Skript (Breier)", Icon: IconRegister },
   { id: "teil1", label: "Teil I (Hamacher)", Icon: IconRegister },
+  { id: "teil2", label: "Teil II (§ 8b KStG)", Icon: IconRegister },
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
   { id: "uebungsfaelle", label: "Übungsfälle (Nöthen)", Icon: IconFaelle },
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
@@ -292,6 +294,21 @@ export default function KstCampus({ onKlausurwechsel, onFachwechsel }) {
             lead="Das Lehrgangsskript „Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“ von Hamacher (Stand 04/2026) **vollständig im Wortlaut** – alle vier Kapitel auf 91 Seiten. Es beginnt mit dem Satz, der die ganze Systematik trägt: Die Körperschaftsteuer ist vereinfachend die „Einkommensteuer der Kapitalgesellschaften“ – das KStG enthält nur die Spezialregelungen, alles Übrige holt § 8 Abs. 1 Satz 1 KStG aus dem EStG. **Kapitel 1 (Steuerpflicht)**: unbeschränkte Steuerpflicht mit Typenvergleich, britischer Limited nach dem Brexit und optierender Gesellschaft; beschränkte Steuerpflicht in ihren zwei Spielarten; Beginn und Ende mit Vorgründungsgesellschaft, Vorgesellschaft und eingetragener Kapitalgesellschaft; die Steuerbefreiungen des § 5 KStG mit Gemeinnützigkeit, Geprägetheorie und der Freigrenze des § 64 Abs. 3 AO; und die Option nach § 1a KStG. **Kapitel 2 (Einkommensermittlung)**: die Brückenvorschrift des § 8 Abs. 1 Satz 1 KStG, die zweistufige Einkommensermittlung, das Schema des R 7.1 KStR mit Rückrechnung vom Bilanzgewinn, die nicht abziehbaren Ausgaben, das Abzugsverbot für Personensteuern mit den Zinsen des § 233a AO, die Aufsichtsratsvergütungen, der Spendenabzug und der Verlustabzug mit Mindestbesteuerung. **Kapitel 3 (verdeckte Einlage)** – der Schwerpunkt des Skripts: Begriff und Abgrenzung zur vGA, gesellschaftsrechtliche Veranlassung, der einlagefähige Vermögensvorteil und der niemals einlagefähige Nutzungsvorteil, Zurechnung bei unmittelbarer, disquotaler und mittelbarer Einlage einschließlich der Beteiligungskette, die vollständige Bewertung mit der Drei-Jahres-Regelung, die neun Anwendungsfälle mit Forderungsverzicht und Besserungsschein, der Exkurs zum Rangrücktritt, die Auswirkungen bei Gesellschaft und Gesellschafter mit Zuflussfiktion und Teilabzugsverboten, das Korrespondenzprinzip in materieller und formeller Gestalt, das Ausgangsvermögen in allen fünf Konstellationen, die Schenkungsteuer nach § 7 Abs. 8 Satz 1 ErbStG und das Verhältnis zu § 1 AStG. **Kapitel 4**: Tarif von 15 % mit der Absenkung ab dem VZ 2028, Solidaritätszuschlag und das Berechnungsschema des R 7.2 KStR."
             quelle={kstTeil1Quelle}
             kapitel={kstTeil1}
+            karteKicker={(k) => `Abschnitt ${k.abschnittNr}`}
+            gruppeVon={(k) => k.abschnittNr}
+            gruppeLabel={(k) => `Abschnitt ${k.abschnittNr}`}
+            gruppeAria="Abschnitte"
+            gruppeAlle="Alle Abschnitte"
+            suchePlatzhalter="Norm, Stichwort oder Beispiel"
+          />
+        )}
+        {ansicht === "teil2" && (
+          <KurzskriptBloecke
+            kicker="Klausur 2 · Körperschaftsteuer · Lehrgangsunterlage"
+            titel="KSt Teil II – Beteiligungserträge § 8b KStG (Hamacher)"
+            lead="Das Lehrgangsskript „Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“ von Hamacher (Stand 05/2026) im Wortlaut – **in Arbeit**. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus einer Beteiligung nicht versteuert, darf die Verluste aus ihr nicht abziehen. **Eingepflegt ist das Kapitel 1 (Bedeutung und persönlicher Anwendungsbereich)** mit dem Merksatz, der über jeden Fall entscheidet: § 8b KStG greift nur, wo überhaupt eine inländische Einkommensermittlung stattfindet – wo die Kapitalertragsteuer nach § 32 Abs. 1 Nr. 2 KStG abgeltend wirkt, gibt es kein Einkommen zu korrigieren. Dazu die Sonderfälle der beschränkt Steuerpflichtigen ohne Betriebsstätte, bei denen § 44a Abs. 9 EStG die Quellensteuer rechnerisch auf den Körperschaftsteuersatz herunterschleust und ein Veräußerungsgewinn nach der Rechtsprechung des BFH sogar ohne die Fünf-Prozent-Pauschale vollständig freigestellt bleibt. Aus **Kapitel 2** ist der Begriff der Gewinnausschüttung übernommen. Die Abschnitte zum Korrespondenzprinzip, zur Streubesitzgrenze, zu Veräußerungsgewinnen, Gewinnminderungen und zur Personengesellschaft folgen nach demselben Verfahren."
+            quelle={kstTeil2Quelle}
+            kapitel={kstTeil2}
             karteKicker={(k) => `Abschnitt ${k.abschnittNr}`}
             gruppeVon={(k) => k.abschnittNr}
             gruppeLabel={(k) => `Abschnitt ${k.abschnittNr}`}
