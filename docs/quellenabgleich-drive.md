@@ -2519,3 +2519,30 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Zuschlag, über 25.000 bis 100.000 € zehn Prozent, über 100.000 € bis 1 Mio. fünfzehn
   Prozent, darüber zwanzig Prozent) und ihre Anwendung im Beispiel – die Mehrsteuer von
   120.000 € fällt in die dritte Stufe, der Zuschlag von **15 %** ist zutreffend.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 14: Steuerstraf- und Bußgeldrecht (Teil 10)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 14, Teil IV, Tz. 3 und 4.
+- Einpflege dieses Durchgangs: zwei Kapitel – die Teilselbstanzeige bei Umsatzsteuer- und
+  Lohnsteueranmeldungen nach § 371 Abs. 2a AO und die fristgerechte Nachzahlung nach
+  § 371 Abs. 3 AO. **Der Teil IV ist damit vollständig.** Das Skript umfasst 10 Teile,
+  107 Kapitel, 2.257 Blöcke und 207 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: der Teil V des Abschnitts 14 (leichtfertige Steuerverkürzung als
+  Ordnungswidrigkeit, §§ 377 bis 380 AO) und der gesamte Abschnitt 15
+  (Vollstreckungsrecht).
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt; die im Rohtext enthaltenen
+  Verweislinks auf kostenpflichtige Fachportale sind nicht übernommen worden.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 25, erstes Beispiel: Der Sachverhalt nennt „Unternehmer **U**“, die Lösung
+    spricht durchgehend von „**T**“.
+  - Kapitel 25, zweites Beispiel: umgekehrt – der Sachverhalt nennt „**T**“, die Lösung
+    „**U**“. Ferner „Durch die korrigierte Jahreserklärungen“.
+
+  Nachgerechnet und zutreffend: die Tatzahlen des zweiten Beispiels – zwölf Voranmeldungen
+  zuzüglich der Jahreserklärung ergeben je Jahr **13** Straftaten und für die Jahre 14 bis
+  16 insgesamt **39**.

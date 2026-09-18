@@ -276,6 +276,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Tatentdeckung nach Nr. 2 mit objektiver und subjektiver Seite und dem Übungsfall
   Sparstrumpf in drei Varianten sowie die 25.000-Euro-Grenze der Nr. 3 mit den gestaffelten
   Zuschlägen des § 398a AO (10, 15 und 20 Prozent) und der schwere Fall nach Nr. 4.
+  Den Abschluss bilden die Teilselbstanzeige bei Umsatzsteuer- und Lohnsteueranmeldungen
+  nach § 371 Abs. 2a AO – mit der Ausnahme vom Vollständigkeitsgebot für Voranmeldungen,
+  ihrer Grenze bei der Jahresanmeldung und dem Fall, in dem drei korrigierte
+  Jahreserklärungen 39 Steuerstraftaten abdecken – sowie die fristgerechte Nachzahlung nach
+  § 371 Abs. 3 AO mit dem Prinzip der Schadenswiedergutmachung, wegen dessen das
+  Kompensationsverbot hier gerade nicht gilt, und vier Fallgestaltungen zur Hinterziehung
+  zum Vorteil eines anderen. Der Teil IV ist damit vollständig.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
