@@ -320,9 +320,10 @@ Für diese beiden Gebiete gibt es bislang keinen Campus. Beide Ordner sind jetzt
   sind die Abschnitte **I (Charakterisierung)** und **II (Prüfungsschema)** sowie aus
   **Abschnitt III** der erste Prüfungsschritt (inländisches Grundstück, § 2 GrEStG), der
   Haupttatbestand (§ 1 Abs. 1 Nr. 1 GrEStG), die Nebentatbestände (§ 1 Abs. 1 Nr. 2 bis 7)
-  der Ersatztatbestand (§ 1 Abs. 2) und der Ergänzungstatbestand des § 1 Abs. 2a
-  (Personengesellschaften). Offen sind der Rest des Abschnitts III (§ 1 Abs. 2b, 3 und 3a
-  nebst Übersicht, Altfassung und Grundstückszugehörigkeit), IV (Steuerbefreiungen und
+  der Ersatztatbestand (§ 1 Abs. 2) und die Ergänzungstatbestände des § 1 Abs. 2a
+  (Personengesellschaften) und Abs. 2b (Kapitalgesellschaften) nebst Börsenklausel
+  (§ 1 Abs. 2c). Offen sind der Rest des Abschnitts III (§ 1 Abs. 3 und 3a nebst Übersicht,
+  Altfassung und Grundstückszugehörigkeit), IV (Steuerbefreiungen und
   -vergünstigungen, §§ 3 bis 7 GrEStG), V (Bemessungsgrundlage), VI (Steuersatz und
   Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
   Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG). Sie sind sämtlich

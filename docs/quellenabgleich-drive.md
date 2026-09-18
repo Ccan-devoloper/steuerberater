@@ -9407,3 +9407,47 @@ rechnerisch und sprachlich durchgehend sauber.
 **Der Hinweis im vorigen Eintrag ist nachgezogen.** Der redaktionelle Schlusshinweis in
 `grest-06` nannte bisher alle vier Ergänzungstatbestände als offen; er verweist jetzt für
 § 1 Abs. 2a auf den neuen Eintrag und führt nur noch die tatsächlich fehlenden auf.
+
+### Skript Grunderwerbsteuer (Vossel), § 1 Abs. 2b und Abs. 2c GrEStG
+
+- **Quelle:** Drive-ID `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, Abschnitt III.2.4.2.
+- **Ziel:** `src/data/k1-grest-skript.js`, Eintrag `grest-08`. Prüfung:
+  `npm run check:k1-grest-skript`.
+
+**Die Parallelnorm und ihr Anlass.** § 1 Abs. 2b GrEStG überträgt die Systematik des
+§ 1 Abs. 2a GrEStG seit dem 01.07.2021 auf Kapitalgesellschaften – gleiche Schwelle, gleicher
+Zeitraum, gleiche Regeln für mittelbare Beteiligungsänderungen. Das erste Beispiel der Quelle
+zeigt, worum es dem Gesetzgeber ging: Die klassische **RETT-Blocker-Gestaltung** – 89,9 % an
+den eigentlichen Erwerber, 10,1 % an einen unabhängigen Dritten – scheitert an dieser Norm,
+weil insgesamt 100 % auf neue Gesellschafter übergehen.
+
+**Zwei Korrekturen des Gesetzgebers, die die Quelle beide ausarbeitet:**
+
+1. **§ 23 Abs. 23 GrEStG** löst das Rückwirkungsproblem, das der Zehnjahreszeitraum bei einer
+   neuen Norm zwangsläufig erzeugt. Das Beispiel führt es vor: 50 % in 2018, 50 % in 2022 –
+   nach dem Wortlaut wären das 100 % innerhalb von zehn Jahren und damit steuerbar. Weil aber
+   vor Inkrafttreten niemand mit dieser Steuerbarkeit rechnen konnte, bleiben Anteilsübergänge
+   vor dem 01.07.2021 außer Betracht; der Erwerber von 2018 gilt als Altgesellschafter, und
+   es verbleiben 50 %.
+2. **§ 1 Abs. 2c GrEStG (Börsenklausel)** löst das Streubesitzproblem. Bei einer
+   börsennotierten Gesellschaft wäre es durch den laufenden Handel nur eine Frage der Zeit,
+   bis 90 % erreicht sind – ohne dass es um Grundstücke ginge. Die Klausel nimmt solche
+   Übergänge aus der Berechnung, verlangt aber zweierlei: Zulassung zum Handel an einem
+   organisierten Markt im Inland oder EU-/EWR-Raum **und** tatsächliche Abwicklung über diese
+   Börse. Sie gilt für § 1 Abs. 2b **und** für § 1 Abs. 2a GrEStG, dort vor allem bei
+   mittelbaren Beteiligungen.
+
+**Ergänzung des Datensatzes.** Da die beiden Normen dieselbe Systematik mit unterschiedlichen
+Details haben, ist dem Eintrag eine Vergleichstabelle beigefügt (Schwelle und Zeitraum,
+Inkrafttreten, Übergangsregel, mittelbare Beteiligungsänderungen, Börsenklausel). Sie ist
+**keine Übernahme aus der Quelle**, sondern eine Zusammenstellung aus deren Text; das ist im
+Datensatz daran erkennbar, dass sie keinen Wortlaut wiedergibt, sondern die Aussagen der
+beiden Abschnitte gegenüberstellt.
+
+**Eigene Feststellung.** In der Lösung zum RETT-Blocker-Beispiel fehlen zwei Wörter
+beziehungsweise Zeichen: „… auf neue Gesellschafter übergehen liegt ein steuerbarer Vorgang
+§ 1 Abs. 2b GrEStG vor“ – vor „liegt“ fehlt das Komma, vor der Paragraphenangabe ein „gem.“
+oder „nach“. Der Wortlaut ist unverändert übernommen und gekennzeichnet.
+
+**Der Hinweis in `grest-06` ist erneut nachgezogen** und nennt jetzt nur noch § 1 Abs. 3 und
+Abs. 3a GrEStG sowie die drei Schlussstücke des Abschnitts als offen.
