@@ -1473,7 +1473,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   193.500 € setzt die Quelle ohne Rechenweg; ihre Herleitung (Monats-AfA für Dezember 2006
   bzw. Jahres-AfA 2007) ist im Datensatz als **eigene Ableitung** gekennzeichnet, ebenso die
   Unstimmigkeit, dass der Sachverhalt 220.000 € Abbruchkosten nennt, die Lösung aber
-  durchgehend mit 200.000 € rechnet.
+  durchgehend mit 200.000 € rechnet. Das **Examen 2014** („Bayerische-Wind-Energy-GmbH")
+  hängt an einem einzigen Datum: Weil das Finanzamt die seit Juni 2012 aktenkundige
+  Empfangsvollmacht überging und die Prüfungsanordnung an die Geschäftsadresse schickte, war
+  sie nicht wirksam bekannt gegeben – aus dem „kann" des § 122 Abs. 1 Satz 3 AO wird durch
+  die vorgelegte Vollmacht nach Satz 4 ein Muss. Geheilt wurde der Mangel erst am
+  **14.01.2013**, und diese Verschiebung um drei Monate entscheidet alles: Für **2007** lief
+  die Frist am 31.12.2012 ab, die Prüfung begann erst danach – keine Änderung. Für **2008**
+  reicht es gerade, weil die Frist erst Ende 2013 endet – Änderung nach § 164 Abs. 2 AO. Für
+  **2006** greift die Prüfungsanordnung gar nicht (sie erfasst nur 2007–2009), sodass die
+  verdeckte Gewinnausschüttung als materieller Fehler nach § 177 Abs. 3 AO stehen bleibt,
+  während die **Schmiergeldzahlung** wegen der zehnjährigen Frist des § 169 Abs. 2 Sätze 2
+  und 3 AO noch bis Ende 2019 über § 173 Abs. 1 Nr. 1 AO korrigiert werden kann. Dazu die
+  Zählaufgabe, wie viele selbständig anfechtbare Verwaltungsakte in einer Prüfungsanordnung
+  stecken (**elf**: 3 Steuerarten × 3 Jahre plus Prüfungsort und Prüfungsbeginn; die
+  Bestimmung der Prüferin ist keiner), die Frage nach einem Verwertungsverbot für Feststellungen
+  zu einem nicht geprüften Jahr – sie scheitert daran, dass die Mitteilung der
+  Staatsanwaltschaft schon vorher in der Akte lag – und ein lehrreicher Gegensatz zur Klausur
+  2013: Auch hier wird die Prüfung über sechs Monate unterbrochen, diesmal aber **folgenlos**,
+  weil sie kurz vor ihrem Abschluss und nicht unmittelbar nach ihrem Beginn abgebrochen wurde.
+  Nicht die Dauer der Unterbrechung entscheidet, sondern ihr Zeitpunkt.
   Prüfung: `npm run check:k1-ao-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

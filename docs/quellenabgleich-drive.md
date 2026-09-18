@@ -6533,3 +6533,101 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Sachverhalt den 5. November 2012 nennt (beide Tage liegen vor dem Fristablauf, das Ergebnis
   ändert sich nicht); „rechtwidrig“; und die Postleitzahl 93059 für Ingolstadt, die zu
   Regensburg gehört.
+
+## Originalklausuren der Steuerberaterprüfung – Abgabenordnung, Examen 2014 (Bayerische-Wind-Energy-GmbH)
+
+- Quelle: dieselbe Datei (`1OJ04Y1ZPgn5AGKOWOFey1s9gu5q8pEGe`), vierte Klausur.
+- Einpflege dieses Durchgangs: die Klausur **2014**; der Datensatz umfasst jetzt
+  5 Originalklausuren, 347 Blöcke, 11 Tabellen und 70 Punkte; Prüfung
+  `npm run check:k1-ao-originalklausuren`. Offen aus dieser Datei ist nur noch die Klausur
+  2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Quelle für
+  diesen Jahrgang nicht aus.
+
+  **Die ganze Klausur hängt an einem einzigen Datum – dem 14.01.2013.** Die Empfangsvollmacht
+  für den Steuerberater lag seit dem 25.06.2012 in beglaubigter Abschrift bei der zuständigen
+  Veranlagungsstelle. Damit war aus der Möglichkeit des § 122 Abs. 1 Satz 3 AO nach Satz 4
+  eine **Pflicht** geworden, an den Bevollmächtigten zu übermitteln. Die Prüfungsanordnung
+  ging stattdessen an die Geschäftsadresse der GmbH und wurde deshalb nicht wirksam bekannt
+  gegeben (AEAO zu § 122 Nr. 1.7.3); geheilt wurde der Mangel erst, als der Geschäftsführer
+  sie dem Steuerberater am 14.01.2013 aushändigte (AEAO zu § 122 Nr. 1.7.4). Die
+  Einspruchsfrist begann am 15.01.2013 – und die Verschiebung um knapp drei Monate entscheidet
+  über zwei Veranlagungszeiträume.
+
+  **Vier Prüfungsgegenstände, vier verschiedene Ergebnisse:**
+
+  | Gegenstand | Reguläres Fristende | Ergebnis |
+  | --- | --- | --- |
+  | KSt 2006 – vGA | 31.12.2013 | keine Änderung; Vorbehalt entfallen, § 173 Abs. 1 Nr. 1 AO verjährt, es bleibt § 177 Abs. 3 AO |
+  | KSt 2006 – Schmiergelder | 31.12.2019 (zehn Jahre, § 169 Abs. 2 Sätze 2 und 3 AO) | Änderung nach § 173 Abs. 1 Nr. 1 AO, auch § 172 Abs. 1 Satz 1 Nr. 2c AO |
+  | KSt 2007 – vGA | 31.12.2012 | keine Änderung; Prüfung begann erst 2013 |
+  | KSt 2008 – vGA | 31.12.2013 | Änderung nach § 164 Abs. 2 AO |
+
+  **Der lehrreichste Fund dieses Durchgangs ist der Gegensatz zur Klausur 2013.** Beide
+  Klausuren enthalten eine Betriebsprüfung, die für mehr als sechs Monate unterbrochen wird –
+  mit genau entgegengesetztem Ergebnis. 2013 wurde die Prüfung zweieinhalb Stunden nach ihrem
+  Beginn abgebrochen, also „unmittelbar nach ihrem Beginn“; die Ablaufhemmung entfällt nach
+  § 171 Abs. 4 Satz 2 AO, und die Festsetzung für 2006 ist nicht mehr änderbar. 2014 prüfte
+  die Prüferin zwei Wochen lang und musste „kurz vor Beendigung der Außenprüfung“ ins
+  Krankenhaus; der Tatbestand des Satzes 2 ist damit nicht erfüllt, und die Unterbrechung von
+  über einem Jahr (30.01.2013 bis 03.03.2014) bleibt folgenlos. **Nicht die Dauer der
+  Unterbrechung entscheidet, sondern ihr Zeitpunkt.** Die beiden Klausuren stehen im Campus
+  unmittelbar nebeneinander und lassen sich als Paar lesen.
+
+  **§ 164 Abs. 4 Satz 2 AO an einer leicht zu übersehenden Stelle:** Für die Schmiergelder
+  gilt wegen der Steuerhinterziehung eine zehnjährige Festsetzungsfrist – der Vorbehalt der
+  Nachprüfung lebt dadurch aber **nicht** wieder auf; er ist mit Ablauf der regulären
+  vierjährigen Frist erloschen. Die Änderung muss deshalb auf § 173 Abs. 1 Nr. 1 AO gestützt
+  werden, nicht auf § 164 Abs. 2 AO. Genau umgekehrt bei der verdeckten Gewinnausschüttung:
+  Dort fehlt die Hinterziehung, es bleibt bei vier Jahren, und der materielle Fehler bleibt
+  nach § 177 Abs. 3 AO stehen. Derselbe Bescheid, dasselbe Jahr – zwei verschiedene
+  Fristenläufe.
+
+  **Die Anlaufhemmung stößt genau einmal an ihre Grenze.** Die KSt-Erklärung 2006 ging erst
+  im Juni 2010 ein; die Anlaufhemmung des § 170 Abs. 2 Nr. 1 AO endet aber spätestens mit
+  Ablauf des dritten Jahres nach Entstehung des Steueranspruchs, also Ende 2009. Ohne diese
+  Grenze begänne die Frist erst Ende 2010 und liefe bis Ende 2014 – die Klausur ginge anders
+  aus. Die übrigen Jahre (Erklärungen 2008, 2009, 2011) bleiben unterhalb der Grenze.
+
+  **Die Falle beim Verwertungsverbot:** Die Prüfungsanordnung erfasste nur 2007 bis 2009 –
+  die Feststellungen zu 2006 stammen also aus einem Zeitraum, der gar nicht geprüft werden
+  durfte. Die Quelle löst das über die Herkunft der Tatsache: Die Mitteilung der
+  Staatsanwaltschaft Würzburg lag bereits seit dem 12.11.2012 in der Veranlagungsakte, mit
+  dem Vermerk „Bei BP überprüfen“. Sie ist also nicht durch die Außenprüfung bekannt
+  geworden, und die anschließenden Ermittlungen waren gewöhnliche Maßnahmen nach § 88 AO,
+  für die keine Sonderbefugnisse der §§ 193 ff. AO nötig waren.
+
+  **Die Zählaufgabe ist kein Selbstzweck.** Elf Verwaltungsakte ergeben sich aus 3 Steuerarten
+  × 3 Veranlagungszeiträumen = 9 Duldungsanordnungen nach § 196 AO plus je einem
+  Verwaltungsakt für Prüfungsort und Prüfungsbeginn (AEAO zu § 196 Nr. 1); die Bestimmung der
+  Prüferin ist keiner. Weil jede Steuerart und jedes Jahr ein eigener Verwaltungsakt ist,
+  konnte die Anordnung die KSt 2006 auch nicht stillschweigend miterfassen – eine Erweiterung
+  hätte einen eigenen Verwaltungsakt erfordert, und genau daran scheitert die Ablaufhemmung
+  für 2006.
+
+  **Auch die Rechtmäßigkeit der Prüfungsanordnung wird geprüft und bejaht:** Die GmbH ist
+  Steuerpflichtige i. S. d. §§ 33, 43 AO für alle drei Steuerarten; die namentliche Nennung
+  des Geschäftsführers war entbehrlich, weil die GmbH nicht in Liquidation ist (AEAO zu § 122
+  Nr. 2.8.1.1); der auf drei Jahre verkürzte Prüfungszeitraum ist trotz Großbetriebs nicht
+  ermessensfehlerhaft (§ 4 Abs. 1 bis 3 und 5 BpO); und als Begründung nach § 121 AO genügt
+  bei einer Prüfung nach § 193 Abs. 1 AO die Nennung dieser Rechtsgrundlage (AEAO zu § 193
+  Nr. 4).
+
+  **Der Vortrag des Steuerberaters liefert den subjektiven Tatbestand.** Dass die Deklarierung
+  als Gutachterhonorar „in der Branche üblich“ sei und immerhin für die Versteuerung beim
+  Empfänger sorge, ist steuerlich ohne Belang. Wer aber erklärt, man habe „keine Skrupel
+  gehabt, die Ausgaben bei der GmbH steuerlich abzusetzen“, bestätigt den Vorsatz – und damit
+  die zehnjährige Frist, die die Änderung für 2006 überhaupt erst ermöglicht.
+
+  **Alle vier Fristen sind unabhängig nachgerechnet und gehen auf.**
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „Der
+  Prüfungsbeginn wird auf dem 03.12.2012 festgelegt“; „Eine von Ted Turbo … unterzeichneten
+  Vollmachtsurkunde“; „mit de KSt-Erklärung“; „Stadtrat Gier“ statt Stadtbaurat; „Die
+  Prüfungsordnung muss …“ statt Prüfungsanordnung; „später als am 18.12.2012“ statt
+  18.10.2012; „§ 169 Abs. 2 Satz 1 Nr. 1 AO“ statt Nr. 2; „eine Änderung nach § 164 Abs. 4 AO
+  ist damit nicht mehr möglich“ statt § 164 Abs. 2 AO; „§ 172 Abs. 1 Satz 1 Nr. 2c EStG“
+  statt AO; „§ 169 Abs. 1 Satz 1 Nr. 2 AO“ statt § 169 Abs. 2 Satz 1 Nr. 2 AO; „§ 196 Abs. 2
+  Satz 2 AO“ statt § 169 Abs. 2 Satz 2 AO; „AEAO Tz. zu § 198 AO“ ohne Nummer; „Aufgabe 2 zur
+  PS“ statt PA; „die PA für die KSt 2009“ statt KSt 2008; und „§ 164 Abs. 4 Satz 1“ ohne
+  Gesetzesangabe.
