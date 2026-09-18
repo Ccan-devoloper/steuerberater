@@ -116,7 +116,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Finanzmittel** als vorab herauszunehmender Einlagenüberhang der letzten zwei Jahre und
   die Zusatzvoraussetzung gegen Cash-Gesellschaften, die den Sockelbetrag an einen
   begünstigten Hauptzweck knüpft und deshalb zwei Berechnungswege erzwingt. Alle sechs
-  Beispiele dieses Blocks sind nachgerechnet.
+  Beispiele dieses Blocks sind nachgerechnet. Weiter mit den **Tz. 5 bis 8**: das dem
+  Gläubigerzugriff entzogene Deckungsvermögen der CTA-Strukturen nach § 13b Abs. 3 ErbStG,
+  die auf Erwerbe von Todes wegen beschränkte **Investitionsklausel** mit Zweijahresfrist
+  und vorgefasstem Plan des Erblassers, der **Nettowert des Verwaltungsvermögens** mit der
+  quotalen Schuldenverrechnung des § 13b Abs. 6 ErbStG samt der Quotenformel der Quelle und
+  das **unschädliche Verwaltungsvermögen** mit der vom Bundesverfassungsgericht nicht
+  beanstandeten 10-Prozent-Quote.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den

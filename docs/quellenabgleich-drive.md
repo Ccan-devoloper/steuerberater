@@ -4933,3 +4933,44 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   13.09.2023 und die Ländererlasse vom 19.06.2024 den Schuldenabzug von den Finanzmitteln
   eröffnet. In beiden Fällen entscheidet sie darüber, ob eine reine Cash-Gesellschaft von
   einer Vergünstigung profitiert.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Tz. 5 bis 8: Altersversorgung bis unschädliches Verwaltungsvermögen
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt II
+  Tz. 5 bis 8, PDF-Seiten 19 bis 22.
+- Einpflege dieses Durchgangs: drei weitere Kapitel; der Datensatz umfasst jetzt 5 Teile,
+  13 Kapitel, 169 Blöcke und 17 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Redaktioneller Befund: **Beide Beispiele dieses Blocks stehen ohne Lösung.** Die Tz. 7
+  nennt nur die Ausgangsgrößen (Betriebsvermögen 4.000.000 €, Verwaltungsvermögen
+  645.000 €, Finanzmittel 900.000 €, Schulden 1.200.000 €); ein Rechenweg folgt nicht. Die
+  Tz. 8 nimmt denselben Sachverhalt mit „Beispiel, wie vorangegangenes Beispiel“ auf, und
+  auch dort folgt unter der Überschrift unmittelbar der nächste Absatz. Beide sind **nicht
+  aufgelöst**; die Lösungen liegen in der Lösungsdatei
+  (`1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`). Der Aufbau ist erkennbar: Ein durchgehender Fall
+  soll beide Stufen zeigen – erst den Nettowert nach quotaler Schuldenverrechnung, dann das
+  unschädliche Verwaltungsvermögen darauf.
+
+  **Die Reihenfolgeregel des ganzen Blocks** steht unscheinbar am Ende der Tz. 5: Was bei
+  § 13b Abs. 3 ErbStG an Finanzmitteln und Schulden berücksichtigt wurde, bleibt beim
+  Finanzmitteltest und bei der quotalen Schuldenverrechnung außer Betracht. Dieselbe
+  Reihenfolge erklärt die erste Zeile der Übersicht zum 90-Prozent-Test („vor Anwendung
+  § 13b Abs. 3 ErbStG“) und den Nenner B der Quotenformel der Tz. 7, der den
+  Betriebsvermögenswert um die **verbliebenen** Schulden erhöht. Im Datensatz ist das an
+  beiden Stellen vermerkt.
+
+  **Das Bild der jungen Werte ist mit der Tz. 8 vollständig:** Junge Finanzmittel und junges
+  Verwaltungsvermögen nehmen weder am Schuldenabzug des Finanzmitteltests noch am
+  Sockelbetrag von 15 %, noch an der 10-Prozent-Quote des unschädlichen
+  Verwaltungsvermögens und – nach der folgenden Tz. 9 – auch nicht an der quotalen
+  Schuldensaldierung teil. Kurz vor dem Stichtag eingelegte Werte bleiben also in voller
+  Höhe steuerpflichtig; das ist die durchgehende Linie von vier Vorschriften.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 6.** „die Beauftragung **eine** Bauunternehmers“.
+  - **Tz. 7.** „für die Berechnung des Nettowerts des **Verwaltungsvermögen**“; „zum
+    gemeinen **Werts** des Betriebsvermögens“; „nach Anwendung **der** § 13b Abs. 3
+    ErbStG“.

@@ -200,9 +200,10 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Eingepflegt sind der Abschnitt I (sachliche Steuerbefreiungen des § 13 ErbStG) und die
   Tz. 1 bis 4 des Abschnitts II (Überblick, begünstigungsfähiges und begünstigtes Vermögen,
   90-Prozent-Test sowie der vollständige Verwaltungsvermögenskatalog einschließlich des
-  Finanzmitteltests). Offen sind die Tz. 5 bis 18 des Abschnitts II
-  (Altersversorgungsverpflichtungen, Investitionsklausel, Nettowert, unschädliches
-  Verwaltungsvermögen, Schuldensaldierung, Verbundvermögensaufstellung,
+  Finanzmitteltests) sowie die Tz. 5 bis 8 (Altersversorgungsverpflichtungen,
+  Investitionsklausel, Nettowert und unschädliches Verwaltungsvermögen). Offen sind die
+  Tz. 9 bis 18 des Abschnitts II
+  (Einschränkung der Schuldensaldierung, Verbundvermögensaufstellung,
   Regelverschonung, Abzugsbetrag, Lohnsummen- und Behaltensregelung, Familienunternehmen,
   Optionsverschonung), die Abschnitte III bis VI (Großerwerbe über 26 Mio. €, § 13d ErbStG,
   Steuerberechnung mit Steuerklassen, Freibeträgen, Steuersätzen, Tarifbegrenzung und
