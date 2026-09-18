@@ -8627,3 +8627,54 @@ Die Rechnung der Lokal-Bau-GmbH stimmt (200.000 + 15.000 = 215.000 €; 16 % = 3
 (28.000 CAD × 0,75 = 21.000 €; 1.400 CAD × 0,725 = 1.015 €; 20 % von 22.015 = 4.403 €;
 28.000 × 0,025 = 700 €) – ob sie **richtig** sind, ist gerade die Frage der Klausur, und dazu
 gibt die Quelle keine Antwort.
+
+### Amtliche Prüfungsaufgaben Einkommen- und Ertragsteuerrecht 2021/2022, Teil I (drei Sachverhalte)
+
+- **Quelle:** Drive-ID `1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3` (dieselbe Datei wie der
+  Bilanz-Prüfungstag 2021/2022), Abschnitt „Prüfungsaufgabe aus dem Einkommensteuer- und
+  Ertragsteuerrecht, Teil I: Einkommensteuer“.
+- **Ziel:** neuer Datensatz `src/data/k2-pruefungsklausuren.js` mit drei Einträgen
+  (`k2-pk-2021-est-sv1-anne-t`, `-sv2-thomas-s`, `-sv3-hanno-p`), neuer Reiter
+  „Prüfungsklausuren im Original“ im ESt-Campus. Prüfung:
+  `npm run check:k2-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; Veranlagungszeitraum **2020**.
+
+**Aufbau des Datensatzes.** Der zweite Prüfungstag zerfällt in Einkommensteuer,
+Gewerbesteuer und Körperschaftsteuer – drei Fächer, die im Campus in drei verschiedenen
+Reitern stehen. Der Datensatz hält sie deshalb zusammen und trägt ein Feld `fach`
+("est" / "gewst" / "kst"); jeder Campus filtert auf seinen eigenen Wert. In dieser Runde ist
+der Einkommensteuerteil eingepflegt; die Teile II und III stehen in
+`docs/offene-quellen.md`, Abschnitt A.
+
+**Wie beim Bilanz-Prüfungstag: keine Lösung.** Die Datei enthält ausschließlich
+Aufgabentexte. Der Lösungsabschnitt jedes Eintrags besteht aus der offenen Feststellung, aus
+dem, was die Aufgabenstellung selbst vorgibt (Transkription, keine Herleitung), aus einer
+zeitlichen Einordnung und aus Verweisen auf die Parallelfälle mit Musterlösung. Eine eigene
+Lösung ist **bewusst nicht** erfunden worden.
+
+**Warum die zeitliche Einordnung hier besonders wichtig ist.** Anders als beim Bilanzteil
+hängt bei diesen drei Sachverhalten viel an Vorschriften, die sich seit 2020 geändert haben:
+
+- **Sachverhalt 1** berührt die Förderung energetischer Gebäudesanierung (Fachunternehmer­
+  bescheinigungen, De-minimis-Klausel) und die Verrechnung von Verlusten aus
+  Termingeschäften und Aktienveräußerungen.
+- **Sachverhalt 2** gibt den Rechtsstand ausdrücklich selbst vor („Gehen Sie dabei vom
+  Rechtsstand 2020 aus“) und verlangt das für 2020 **und** 2023 zusammen günstigste Ergebnis –
+  die Wertansatzwahl bei der Einbringung wirkt also über die Sperrfrist hinweg fort.
+- **Sachverhalt 3** betrifft die Hinzurechnungsbesteuerung, die zum 01.01.2022 neu gefasst
+  wurde (Beherrschungskriterium, Wegfall des Zeitversatzes). Das im Sachverhalt eigens
+  erwähnte abweichende Geschäftsjahr der O-Ltd. ist deshalb nach dem Rechtsstand des
+  Prüfungsjahrgangs zu würdigen.
+
+Jeder Eintrag sagt das an der betreffenden Stelle ausdrücklich.
+
+**Jede Aufgabenstellung hat ihre eigenen Hinweise.** Der Datensatz gibt sie je Sachverhalt
+gesondert wieder, weil sie sich unterscheiden: Sachverhalt 2 schließt Gewerbesteuer,
+Grunderwerbsteuer, Umsatzsteuer und Solidaritätszuschlag aus und verlangt das für zwei Jahre
+günstigste Ergebnis, die Sachverhalte 1 und 3 nur das für 2020 günstigste. Wer den ersten
+Hinweisblock für die ganze Klausur hält, arbeitet mit falschen Vorgaben.
+
+**Verschreiber der Quelle – wortlautgetreu übernommen:** „das haus“ (klein) und
+„Ausgleichszahlungen i.H.v. 350.000 €“ (Plural bei einer Zahlung) in Sachverhalt 1;
+„§ 4 Abs. 3 EstG“ und „die BP-Partnership“ mit kleinem Artikel am Satzanfang in den
+Sachverhalten 2 und 3; „Kapitalertragsteuer eingehalten“ statt „einbehalten“.

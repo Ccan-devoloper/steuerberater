@@ -19,6 +19,7 @@ import { estKurzskript2, estKurzskript2Quelle } from "../data/est-kurzskript-2.j
 import { estFallsammlungen, estFallsammlungenQuelle } from "../data/est-fallsammlungen.js";
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import { estOriginalklausuren, estOriginalklausurenQuelle } from "../data/k2-est-originalklausuren.js";
+import { k2Pruefungsklausuren, k2PruefungsklausurenQuelle } from "../data/k2-pruefungsklausuren.js";
 import "./kst.css";
 
 /* Die Übungsklausur Körperschaftsteuer steht im KSt-Campus, die beiden
@@ -36,6 +37,7 @@ const NAV = [
   ["fallsammlungen", "Fallsammlungen", IconFaelle],
   ["klausuren", "Übungsklausuren", IconTraining],
   ["originalklausuren", "Originalklausuren (Prüfung)", IconTraining],
+  ["pruefungsklausuren", "Prüfungsklausuren im Original", IconTraining],
 ];
 
 /* Was aus den ESt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
@@ -191,6 +193,21 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
             gruppeAria="Teile"
             gruppeAlle="Alle Teile"
             suchePlatzhalter="Norm, Stichwort oder Betrag"
+          />
+        ) : verlauf.ansicht === "pruefungsklausuren" ? (
+          <HausaufgabenBloecke
+            kicker="Klausur 2 · Ertragsteuern · amtliche Prüfungsaufgaben"
+            titel="Prüfungsklausuren im Original – ohne Musterlösung"
+            lead="Die Aufgabentexte des zweiten Prüfungstages im amtlichen Wortlaut, so wie sie am Prüfungstag vorgelegen haben: kein fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt ist der Einkommensteuerteil der Prüfung **2021/2022** mit seinen drei unabhängigen Sachverhalten; die Klausur betrifft den Veranlagungszeitraum 2020. **Zu diesen Aufgaben enthält die Quelle keine Lösung**, und es wird hier ausdrücklich keine erfunden; jeder Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit vollständiger Musterlösung stehen. Sachverhalt 1 (Anne T.) beginnt mit einer Übertragung in vorweggenommener Erbfolge gegen 350.000 € Gleichstellungsgeld, bei der Leistung und Gegenleistung ausdrücklich nicht kaufmännisch abgewogen sind, und führt über eine energetische Sanierung mit Fachunternehmerbescheinigungen, eine Baderneuerung, die nicht dazugehört, und eine Aufstockung um ein ganzes Dachgeschoss bis zu Kapitalerträgen aus Dividenden, Zinsen, Aktienverlusten und Termingeschäften. Sachverhalt 2 (Thomas S.) bringt eine Steuerberatungspraxis gegen neue Anteile in eine GmbH ein – aber ohne den Oldtimer mit Teilwert 50.000 € und ohne die offenen Honorarforderungen über 40.000 €, und genau daran hängt die Aufgabe; am Ende steht der Verkauf des Anteils für 2 Mio. € drei Jahre später. Sachverhalt 3 (Hanno P.) beginnt mit der Frage, ob eine dreimal jährlich genutzte Wohnung in Frankfurt einen Wohnsitz begründet, und führt über eine Ltd. auf den Cayman Islands ohne Ertragsbesteuerung zu einer bahamaischen Partnership, die ein deutsches Bürogebäude für 50 Mio. € gekauft und für 60 Mio. € verkauft hat – drei Nicht-DBA-Staaten, kein Abkommen als Rettung."
+            quelle={k2PruefungsklausurenQuelle}
+            hausaufgaben={k2Pruefungsklausuren.filter((e) => e.fach === "est")}
+            gruppeVon={(eintrag) => eintrag.jahrgang}
+            gruppeLabel={(eintrag) => `Prüfung ${eintrag.jahrgang}`}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · Teil ${eintrag.teil} · Sachverhalt ${eintrag.nummer}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Sachverhalte"
+            einheitEinzahl="Sachverhalt"
           />
         ) : verlauf.ansicht === "originalklausuren" ? (
           <HausaufgabenBloecke

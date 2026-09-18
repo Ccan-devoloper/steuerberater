@@ -1700,6 +1700,34 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   im Datensatz. Eine Rundungsdifferenz von einem Euro bei der Zerlegung ist als **eigene
   Feststellung** gekennzeichnet.
   Prüfung: `npm run check:k2-est-originalklausuren`
+
+- **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,
+  Reiter „Prüfungsklausuren im Original“ im ESt-Campus): die Aufgabentexte des **zweiten
+  Prüfungstages** (Einkommen- und Ertragsteuerrecht) im **amtlichen Wortlaut** – kein
+  fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs.
+  Eingepflegt ist der Einkommensteuerteil der Prüfung **2021/2022** mit seinen drei
+  unabhängigen Sachverhalten; die Klausur betrifft den Veranlagungszeitraum 2020.
+  **Zu diesen Aufgaben enthält die Quelle keine Lösung** – und es wird hier keine erfunden.
+  Jeder Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und
+  verweist auf die Parallelfälle mit Musterlösung im Campus.
+  **Sachverhalt 1** (Anne T.): Übertragung eines Zweifamilienhauses in vorweggenommener
+  Erbfolge gegen 350.000 € Gleichstellungsgeld an den Bruder – bei ausdrücklich nicht
+  kaufmännisch abgewogener Gegenleistung –, dazu eine energetische Sanierung mit
+  Fachunternehmerbescheinigungen, eine Baderneuerung, die nicht dazugehört, eine Aufstockung
+  um ein Dachgeschoss und Kapitalerträge aus Dividenden, Zinsen, Aktienverlusten und
+  Termingeschäften. Die Wohnung im Obergeschoss ist an die Schwester des Vaters zur halben
+  ortsüblichen Miete vermietet.
+  **Sachverhalt 2** (Thomas S.): Einbringung einer Steuerberatungspraxis gegen neue Anteile in
+  eine GmbH – ohne den Oldtimer (Buchwert 0 €, Teilwert 50.000 €, nur zu Werbezwecken
+  gehalten) und ohne die offenen Honorarforderungen über 40.000 €, die erst im März 2021
+  privat vereinnahmt werden; am Ende steht der Verkauf des gesamten Anteils für 2 Mio. € zum
+  31.12.2023. Gefragt sind ausdrücklich beide Veranlagungszeiträume und das für beide zusammen
+  günstigste Ergebnis.
+  **Sachverhalt 3** (Hanno P.): eine dreimal jährlich genutzte Wohnung in Frankfurt, eine Ltd.
+  auf den Cayman Islands ohne Ertragsbesteuerung und eine bahamaische Partnership, die ein
+  deutsches Bürogebäude für 50 Mio. € gekauft und für 60 Mio. € verkauft hat – drei
+  Nicht-DBA-Staaten. Auf die persönliche Steuerpflicht ist ausdrücklich einzugehen.
+  Prüfung: `npm run check:k2-pruefungsklausuren`
 - **KSt-Originalklausuren** (Klausur 2, Reiter Körperschaftsteuer → „Originalklausuren
   (Prüfung)“): die Original-Prüfungsaufgaben aus dem Gebiet der Körperschaftsteuer mit den
   Lösungshinweisen des Lehrgangs („Körperschaftsteuer, Umwandlungssteuerrecht und
