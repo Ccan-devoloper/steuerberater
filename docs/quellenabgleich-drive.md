@@ -8942,3 +8942,58 @@ Zeichenerkennung verursacht hat.
 Wie bei allen Einträgen dieser Reihe erfindet der Lösungsabschnitt keine Lösung, sondern hält
 fest, was die Aufgabenstellung vorgibt, welche Zahlen der Sachverhalt bereitstellt und welche
 Angaben erkennbar Weichen stellen.
+
+### Amtliche Prüfungsaufgaben Ertragsteuerrecht 2022/2023, Teile II und III
+
+- **Quelle:** Drive-ID `1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, Abschnitte „Teil II –
+  Gewerbesteuer“ und „Teil III – Körperschaftsteuer“ (zwei Sachverhalte).
+- **Ziel:** `src/data/k2-pruefungsklausuren.js`, Einträge `k2-pk-2022-gewst-elektro-ohg`,
+  `k2-pk-2022-kst-sv1-restaurant-gmbh` und `k2-pk-2022-kst-sv2-theater-verein` (Nummern 9 bis
+  11). Prüfung: `npm run check:k2-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; Erhebungs- bzw. Veranlagungszeitraum **2021**.
+
+**Die Wertungspunkte gehen auf 100 auf.** Dieser Jahrgang weist sie für jeden Aufgabenteil
+aus: Einkommensteuer 25 + 17 + 18, Gewerbesteuer 8, Körperschaftsteuer 28 + 4 – zusammen
+genau 100. Das ist zugleich die Probe darauf, dass kein Aufgabenteil übersehen wurde. Der
+Ertragsteuer-Prüfungstag 2022/2023 ist damit vollständig eingepflegt.
+
+**Gegenläufige Vorgaben innerhalb desselben Prüfungstages – dreimal.** Diese Klausur ist ein
+Lehrstück dafür, dass die Hinweise je Aufgabenteil zu lesen sind:
+
+1. Im Gewerbesteuerteil **2021/2022** bildet die persönliche und sachliche Gewerbesteuerpflicht
+   den Kern der Aufgabe; im Gewerbesteuerteil **2022/2023** ist sie ausdrücklich ausgenommen.
+2. Im Körperschaftsteuerteil ist bei der Restaurant-GmbH die Körperschaftsteuerpflicht
+   ausdrücklich ausgenommen, beim THEATER-Verein wenige Zeilen später ausdrücklich verlangt.
+3. Bei Sachverhalt 2 der Einkommensteuer durchbricht der Hinweis „Anträge nach § 32d EStG
+   wurden jedoch nicht gestellt“ die sonst durchgehende Regel „Erforderliche Anträge gelten
+   als gestellt“.
+
+**Unabhängig nachgerechnet – die Zahlen der Quelle sind in sich schlüssig:**
+
+| Rechenschritt | Nachrechnung | Quelle |
+| --- | --- | --- |
+| Kapitalertragsteuer auf die Ausgleichszahlung | 25 % von 13.600 € = 3.400 € | 3.400 € |
+| Solidaritätszuschlag darauf | 5,5 % von 3.400 € = 187 € | 187 € |
+| Auszahlung der Ausgleichszahlung | 13.600 ./. 3.400 ./. 187 = 10.013 € | 10.013 € |
+| Zinsen des Darlehens an die F-GmbH | 2 % von 200.000 € = 4.000 € | 4.000 € |
+| Geschäftsführergehalt | 12 × 11.000 € = 132.000 € | 132.000 € |
+| Überstundenvergütung | 80 Stunden × 50 € = 4.000 € | 4.000 € |
+| Buchwert des Grundstücks | 1.300.000 + 200.000 = 1.500.000 € | 1.500.000 € |
+| Mieteinnahmen Februar bis Dezember | 11 × 30.000 € = 330.000 € | 330.000 € |
+| Kapitalkonto W-KG | 500.000 ./. 800.000 = ./. 300.000 € | ./. 300.000 € |
+| Einnahmenüberschuss THEATER-Verein | 50.000 + 30.000 + 480.000 + 52.000 ./. 562.000 ./. 40.000 = 10.000 € | 10.000 € |
+
+**Eigene Feststellung – eine Datumsangabe, die nicht aufgeht.** Im Körperschaftsteuerteil,
+Buchstabe b), heißt es: „Die D-GmbH hat der F-GmbH am **1. Januar 2022** ein Darlehen i. H. v.
+200.000 € … gewährt“ – und im selben Absatz: „Die F-GmbH hat die Zinsen **für 2021** i. H. v.
+4.000 € pünktlich am **31. Dezember 2021** an die D-GmbH gezahlt.“ Ein Darlehen, das erst 2022
+gewährt wird, kann 2021 keine Jahreszinsen abwerfen, und der gesamte Aufgabenteil betrifft
+den Veranlagungszeitraum 2021. Nach dem Zusammenhang muss die Gewährung am 1. Januar **2021**
+erfolgt sein; rechnerisch passen 2 % von 200.000 € genau zu den genannten 4.000 € für ein
+volles Jahr. Der Wortlaut ist unverändert wiedergegeben und der Befund im Sachverhalt
+unmittelbar daneben sowie im Lösungsabschnitt vermerkt.
+
+Zur Abgrenzung: Dies ist ein **echter Fehler der Quelle**, kein Artefakt der Texterkennung,
+und wird deshalb – anders als die OCR-Eigenheiten dieses PDFs – wortlautgetreu übernommen und
+gekennzeichnet. Die stillschweigende Bereinigung der Extraktionsartefakte ist im Kopf des
+Datensatzes und im vorigen Abschnitt dieser Datei beschrieben.

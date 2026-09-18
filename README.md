@@ -1794,6 +1794,23 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Sachverhalt 3** (Michael H., 18 von 100): eine bloß vermietende OHG, bei der sich die für
   eine Betriebsaufspaltung maßgeblichen Beteiligungsverhältnisse zum 1. März 2021 mitten im
   Jahr verschieben, und der Verkauf des Mitunternehmeranteils zum 1. Dezember für 1,5 Mio. €.
+  Dazu die beiden übrigen Teile dieses Prüfungstages:
+  **Teil II – Gewerbesteuer** (Elektro-OHG, 8 von 100): drei von vier Gesellschaftern wechseln
+  in einem Jahr – einer überträgt am 1. Januar unentgeltlich auf seinen Sohn, zwei veräußern
+  am 31. Dezember an denselben Erwerber –, während ein festgestellter Gewerbeverlust von
+  200.000 € einem laufenden Gewinn von 80.000 € gegenübersteht. Anders als im Jahrgang
+  2021/2022 ist die Gewerbesteuerpflicht hier ausdrücklich **nicht** zu prüfen.
+  **Teil III – Körperschaftsteuer**, zwei sehr ungleiche Sachverhalte: die **Restaurant-GmbH**
+  (28 von 100) mit einer 2019 falsch gebuchten Sacheinlage, die ausdrücklich mit zu prüfen ist,
+  einer Ausgleichszahlung nach § 304 AktG, einem Darlehen zu 2 % statt fremdüblichen 5 %, einem
+  rückwirkend erhöhten Geschäftsführergehalt, einem Bürogebäude ohne Aufteilung und ohne AfA,
+  das an eine KG vermietet ist, deren Kommanditanteil dieselbe GmbH acht Monate später erwirbt,
+  und einer Vorabausschüttung mit verspätet abgeführter Kapitalertragsteuer – und der
+  **THEATER-Verein** (4 von 100), der kürzeste Aufgabenteil der ganzen Prüfung: sechs Zahlen,
+  ein Einnahmenüberschuss von 10.000 € und die Frage, welche Position in welchen
+  Tätigkeitsbereich gehört.
+  Die Wertungspunkte dieses Prüfungstages ergeben zusammen genau 100: 25 + 17 + 18 (ESt) + 8
+  (GewSt) + 28 + 4 (KSt).
   Dazu kommen die beiden übrigen Teile desselben Prüfungstages, die im GewSt- bzw. im
   KSt-Campus unter demselben Reiter stehen:
   **Teil II – Gewerbesteuer** (MAX-OHG): zwei Geschäftszweige mit eigenen Räumen, eigener
