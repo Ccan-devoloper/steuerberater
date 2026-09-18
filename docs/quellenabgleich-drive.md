@@ -10620,6 +10620,66 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil II (Hamacher), Abschnitte 5.3 bis 5.5 – Kapitel 5 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 60 bis 63; übernommen als Kapitel 40 bis 42. Prüfung:
+`npm run check:k2-kst-teil2` (42 Kapitel, 541 Blöcke, 38 Tabellen). Damit ist das Kapitel 5
+(mittelbare Beteiligung über eine Personengesellschaft) vollständig.
+
+**Der schwierigste Fall des Abschnitts 5.3** ist die Veräußerung des Mitunternehmeranteils selbst,
+und der Datensatz hebt hervor, warum: Zwei Rechnungen laufen nebeneinander, die leicht vermischt
+werden. Der **Gesamtgewinn** bemisst sich nach dem steuerlichen Kapitalkonto (500.000 € ./.
+120.000 € = 380.000 €), der **steuerfreie Teil** dagegen nach dem anteiligen Buchwert der
+Beteiligung (200.000 € ./. 40.000 € = 160.000 €). Beide Größen haben nichts miteinander zu tun; es
+wäre falsch, den steuerfreien Teil quotal aus dem Gesamtgewinn abzuleiten. Die Quelle beziffert das
+Ergebnis nicht – steuerpflichtig bleiben 220.000 €, mit der Pauschale sind 228.000 € zu versteuern;
+das ist im Datensatz als eigene Herleitung gekennzeichnet.
+
+**Die Altabschreibung von 1997** führt die Symmetrie aus Abschnitt 3.3 in die Personengesellschaft
+hinein, mit zwei Feinheiten, die der Datensatz benennt: Die historische Teilwertabschreibung betrug
+200.000 €, auf die Mitunternehmerin entfällt davon aber nur die **Hälfte**, also 100.000 € – und
+die Fünf-Prozent-Pauschale bemisst sich wie im Kapitel 3 ausschließlich nach dem **steuerfreien**
+Teil des Gewinns, hier also nach 100.000 € und nicht nach 200.000 €.
+
+**Der schärfste Kontrast des Kapitels** steht in Abschnitt 5.4, und der Datensatz stellt ihn in
+einer Tabelle nebeneinander: Es ist **dasselbe Darlehen über 1.000.000 € an dieselbe Gesellschaft**,
+und in beiden Fällen ist es vollständig nicht abziehbar – aber der Weg dorthin und das Ergebnis bei
+der I-GmbH sind völlig verschieden. Liegt das Darlehen im **Gesamthandsvermögen**, ist die
+Personengesellschaft selbst die qualifizierte Darlehensgeberin (ihre 50 % überschreiten die Grenze),
+und über § 8b Abs. 6 KStG trifft die GmbH nur ihr 40%iger Anteil von 400.000 €. Liegt es im
+**Sonderbetriebsvermögen**, gehört es ihr allein und die Gewinnminderung beträgt bei ihr
+1.000.000 €. Dass sie selbst nur mittelbar zu 20 % beteiligt ist und damit an Satz 4 scheitert,
+hilft ihr nicht: Über Satz 5 ist sie nahestehende Person der Personengesellschaft, weil sie an
+dieser zu 40 % beteiligt ist.
+
+**Die zweistufige Prüfung für Darlehen aus dem Sonderbetriebsvermögen** ist eigens festgehalten.
+Erste Stufe: Ist der Mitunternehmer-Kapitalgesellschaft selbst eine qualifizierte Beteiligung
+zuzurechnen (40 % × 50 % = 20 %, also nein)? Zweite Stufe: Ist sie nahestehende Person des
+qualifiziert beteiligten Gesellschafters, also der Personengesellschaft (40 % ≥ 25 %, also ja)?
+Bemerkenswert ist, dass die Personengesellschaft dabei die Rolle des „Steuerpflichtigen“ i. S. des
+§ 1 Abs. 2 AStG einnimmt – genau deshalb hält die Quelle in Abschnitt 4.2.3 fest, dass der
+qualifiziert beteiligte Anteilseigner auch eine Personengesellschaft sein kann, und genau diese
+Frage ist beim BFH unter I R 11/24 anhängig.
+
+**Die gewerbesteuerlichen Auswirkungen** (5.5) tragen einen Gegensatz, den der Datensatz
+tabellarisch festhält: Körperschaftsteuerlich gilt bei der Personengesellschaft die
+**Bruttomethode**, gewerbesteuerlich nach § 7 Satz 4 GewStG dagegen die **Nettomethode**. Dieselbe
+Ausschüttung wird also in zwei Bescheiden unterschiedlich behandelt. Der Grund ist einfach:
+Gewerbesteuersubjekt ist die Personengesellschaft selbst, es gibt keine zweite Ebene, auf der die
+Korrektur nachgeholt werden könnte. Und weil der Gewinnanteil damit schon dort erfasst ist, muss er
+beim Mitunternehmer wieder heraus – dafür sorgen § 9 Nr. 2 GewStG bei Gewinn- und § 8 Nr. 8 GewStG
+bei Verlustanteilen.
+
+**Alle Zahlen der Quelle sind nachgerechnet und gehen auf:** 250.000 € ./. 50.000 € ./. 10.000 € =
+190.000 € und 5 % davon 9.500 €; 500.000 € ./. 120.000 € = 380.000 € und 200.000 € ./. 40.000 € =
+160.000 € mit 8.000 € Pauschale; 500.000 € ./. 100.000 € = 400.000 €, je 200.000 €, davon 100.000 €
+steuerpflichtig mit 5.000 € Pauschale; 40 % von 30.000 € = 12.000 €; 40 % von 1.000.000 € =
+400.000 €; 40 % × 50 % = 20 %.
+
+**Noch offen nach dieser Runde:** aus Teil II das Kapitel 6 (weitere Tatbestände – Finanzdienst-
+leister, Lebens- und Krankenversicherungsunternehmen, EU/EWR-Fälle, Wertpapierleihe); ganz offen
+sind die Skriptteile III bis VII.
+
 ### KSt Teil II (Hamacher), Abschnitte 5.1 und 5.2 – Mitunternehmeranteil und Spiegelbild
 
 Quelle: dieselbe Datei, Seiten 57 bis 60; übernommen als Kapitel 38 und 39. Prüfung:

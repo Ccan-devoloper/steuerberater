@@ -24,12 +24,12 @@
    nahestehenden Person und dem rückgriffsberechtigten Dritten als
    Darlehensgeber, der Wertaufholung und den wirtschaftlich vergleichbaren
    Forderungen bis zum Gegenbeweis, den Wechselkursverlusten und der
-   Gewerbesteuer. Aus Kapitel 5 (mittelbare Beteiligung über eine
-   Personengesellschaft) sind die Steuerfreistellung der Beteiligungserträge
-   samt Spiegelbildmethode (5.1) und die Gewinnausschüttungen (5.2) übernommen.
-   Es folgen die Veräußerungsgewinne (5.3), die Gewinnminderungen (5.4), die
-   Gewerbesteuer (5.5) sowie das Kapitel 6 (weitere Tatbestände); der Campus
-   weist den Stand aus.
+   Gewerbesteuer. Auch das Kapitel 5 (mittelbare Beteiligung über eine
+   Personengesellschaft) ist vollständig – von der Steuerfreistellung der
+   Beteiligungserträge samt Brutto- und Spiegelbildmethode über die
+   Gewinnausschüttungen, die Veräußerungsgewinne und die Gewinnminderungen bis
+   zu den gewerbesteuerlichen Auswirkungen. Es folgt das Kapitel 6 (weitere
+   Tatbestände); der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -1570,6 +1570,117 @@ export const kstTeil2 = [
       { text: "Anmerkung zur durchgerechneten Quote (eigene Ergänzung): Hier zeigt sich derselbe Mechanismus wie in Abschnitt 2.1.3.1.1, nur aus der anderen Richtung. Die KG hält 30 % an der C-GmbH – für sich genommen weit über der Streubesitzgrenze. Maßgeblich ist aber die **durchgerechnete** Quote der B-GmbH von 50 % × 30 % = 15 %. Sie liegt noch über 10 %, die Ausschüttung bleibt also steuerfrei. Wäre die B-GmbH nur zu 30 % an der KG beteiligt, betrüge die Quote 9 % – und dieselbe Ausschüttung wäre nach § 8b Abs. 4 KStG voll steuerpflichtig, obwohl sich an der Beteiligung der KG nichts geändert hätte." },
       { text: "Anmerkung zur Anrechnung (eigene Ergänzung): Der Satz zu § 31 KStG ist verfahrensrechtlich bemerkenswert. Einbehalten wird die Kapitalertragsteuer auf Ebene der **Personengesellschaft**, angerechnet wird sie aber erst bei der Steuerfestsetzung der **Mitunternehmer-Kapitalgesellschaft** – die Personengesellschaft ist nicht körperschaft- oder einkommensteuerpflichtig und hat deshalb keine Steuer, auf die etwas angerechnet werden könnte. Die anteilige Kapitalertragsteuer wird darum wie der Gewinnanteil selbst nach der Beteiligungsquote verteilt und im Feststellungsverfahren mitgeteilt." },
       { text: "Anmerkung zur verdeckten Gewinnausschüttung (eigene Ergänzung): Der Hinweis auf § 8b Abs. 1 Satz 2 KStG schließt den Kreis zum materiellen Korrespondenzprinzip aus Kapitel 2. Es gilt auch dann, wenn die verdeckte Gewinnausschüttung nicht unmittelbar der Kapitalgesellschaft, sondern der Personengesellschaft oder ihrem Sonderbetriebsvermögen zufließt: Hat sie bei der leistenden Gesellschaft das Einkommen gemindert, entfällt die Steuerfreiheit – über § 8b Abs. 6 KStG genauso wie bei unmittelbarem Bezug." },
+    ],
+  },
+  {
+    id: "kst-t2-40",
+    kapitel: "40",
+    abschnittNr: "5.3",
+    title: "5.3 Veräußerungsgewinne über die Personengesellschaft – auch beim Verkauf des Mitunternehmeranteils",
+    thema: "Steuerfrei ist nicht nur die Veräußerung des Anteils durch die Personengesellschaft, sondern auch der anteilige Gewinn aus dem Verkauf des Mitunternehmeranteils selbst, soweit er auf eine Kapitalbeteiligung entfällt. Alte Teilwertabschreibungen holen den Gewinn wieder in die Steuerpflicht",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 5.3 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 6 KStG",
+      "§ 8b Abs. 2 Satz 1 KStG",
+      "§ 8b Abs. 2 Satz 2 KStG",
+      "§ 8b Abs. 2 Sätze 4 und 5 KStG",
+      "§ 8b Abs. 3 Satz 1 KStG",
+      "§ 6 Abs. 1 Nr. 2 Satz 3 EStG",
+    ],
+    themen: ["Veräußerung aus dem Gesamthandsvermögen", "Veräußerung des Mitunternehmeranteils", "Wertaufholung", "Altabschreibung", "Pauschalierung"],
+    bloecke: [
+      { text: "§ 8b Abs. 2 KStG gilt entsprechend, wenn die Personengesellschaft aus dem Gesamthandsvermögen heraus einen Anteil an einer Kapitalgesellschaft veräußert. Der über den Gewinnanteil der Mitunternehmer-Kapitalgesellschaft zuzurechnende Veräußerungsgewinn ist bei dieser dann unter den Voraussetzungen des § 8b Abs. 6 i.V. mit § 8b Abs. 2 KStG steuerfrei. Ebenfalls sind die Auswirkungen der Betriebsausgabenpauschalierung i.S. des § 8b Abs. 3 Satz 1 KStG zu beachten. Gleiches gilt in den Fällen einer Anteilsveräußerung aus dem Sonderbetriebsvermögen der Mitunternehmer-Kapitalgesellschaft." },
+      { text: "Beispiel: An der A+B GmbH & Co KG ist die B-GmbH zu 50 % beteiligt. Zum Betriebsvermögen der KG gehört u.a. eine 60%ige Beteiligung an der C-GmbH (Buchwert: 100.000 €). In 2026 wird diese Beteiligung für 500.000 € veräußert. Die der B-GmbH zuzurechnenden Veräußerungskosten (entsprechend dem Mitunternehmeranteil) betragen 10.000 €." },
+      { text: "Lösung: Der auf die B-GmbH entfallende Veräußerungsgewinn i.S. des § 8b Abs. 2 Satz 2 KStG beträgt 190.000 € (250.000 € ./. 50.000 € ./. 10.000 €). Dieser unterliegt bei der B-GmbH der Steuerfreiheit i.S. des § 8b Abs. 6 i.V. mit § 8b Abs. 2 KStG und wird im Rahmen der Einkommensermittlung vom anteiligen Gewinn aus der Mitunternehmerschaft abgezogen. Gleichzeitig entstehen nicht abziehbare Betriebsausgaben von 9.500 € (§ 8b Abs. 3 Satz 1 KStG)." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung bei der B-GmbH", "Betrag"], zeilen: [
+        ["Ertrag lt. Bilanz", "190.000 €"],
+        ["./. § 8b Abs. 2 KStG", "./. 190.000 €"],
+        ["+ § 8b Abs. 3 Satz 1 KStG", "+ 9.500 €"],
+      ] },
+      { text: "Dies gilt auch dann, wenn die Kapitalgesellschaft ihren Mitunternehmeranteil veräußert, in dem auch ein Anteil einer Kapitalgesellschaft enthalten ist. Dabei ist unerheblich, ob der Anteil im Gesamthands- oder Sonderbetriebsvermögen gehalten wird. Der anteilige Veräußerungsgewinn, welcher auf den Anteil entfällt, unterliegt bei der Mitunternehmer-Kapitalgesellschaft der Steuerfreiheit des § 8b Abs. 6 i.V. mit § 8b Abs. 2 KStG." },
+      { text: "Beispiel: Zum Betriebsvermögen der I-GmbH gehört ein 40%iger Mitunternehmeranteil an der T-KG. Zum Gesamthandsvermögen der KG rechnet auch eine Beteiligung an der R-GmbH (Buchwert: 100.000 €). In 2026 veräußert die GmbH den Mitunternehmeranteil für 500.000 €, wovon 200.000 € auf die Beteiligung entfallen. Das steuerliche Kapitalkonto der GmbH betrug im Zeitpunkt der Veräußerung 120.000 €." },
+      { text: "Lösung: Die GmbH erzielt aus der Veräußerung des Mitunternehmeranteils einen Gewinn von 380.000 € (500.000 € ./. 120.000 €)." },
+      { text: "Der Gewinn entfällt i.H. von 160.000 € (200.000 € ./. 40.000 €: 40 % von 100.000 €) anteilig auf eine Beteiligung an einer Kapitalgesellschaft, so dass dieser gemäß § 8b Abs. 2 + Abs. 6 KStG steuerfrei ist und bei der Einkommensermittlung wieder abzuziehen ist. Gleichzeitig entstehen nicht abziehbare Betriebsausgaben von 8.000 € (§ 8b Abs. 3 Satz 1 KStG)." },
+      { text: "Bedeutsam sind auch die Auswirkungen einer Wertaufholung i.S. des § 6 Abs. 1 Nr. 2 Satz 3 EStG. Hat die Personengesellschaft in der Vergangenheit eine gewinnwirksame Teilwertabschreibung vorgenommen, ist die Einschränkung des § 8b Abs. 2 Satz 4 + 5 KStG zu beachten. Gleiches gilt bei einem Anteil des Sonderbetriebsvermögens." },
+      { text: "Beispiel: An der A+B GmbH & Co KG sind A und die B-GmbH zu jeweils 50 % beteiligt. Zum Betriebsvermögen der KG gehört seit 1980 u.a. eine 60%ige Beteiligung an der C-GmbH. Auf diese wurde am 31.12.1997 eine zutreffende Teilwertabschreibung von 200.000 € vorgenommen (Buchwert seitdem: 100.000 €). In 2026 wird diese Beteiligung für angemessene 500.000 € veräußert." },
+      { text: "Lösung: Der Veräußerungsgewinn von 400.000 € entfällt zu jeweils 200.000 € auf A und die B-GmbH. Bei der B-GmbH ist der auf sie entfallende Gewinn i.H. von 100.000 € nach § 8b Abs. 2 Satz 4 KStG steuerpflichtig und in der übrigen Höhe von 100.000 € nach § 8b Abs. 2 Satz 1 KStG steuerfrei. Gemäß § 8b Abs. 3 Satz 1 KStG entstehen nicht abziehbare Betriebsausgaben von 5.000 €." },
+      { typ: "tabelle", spalten: ["Beispiel", "Veräußerungsgegenstand", "Steuerfrei nach § 8b Abs. 2 KStG", "Pauschale nach § 8b Abs. 3 Satz 1 KStG"], zeilen: [
+        ["Anteil aus dem Gesamthandsvermögen", "60%ige Beteiligung an der C-GmbH", "190.000 €", "9.500 €"],
+        ["Mitunternehmeranteil selbst", "40%iger Anteil an der T-KG, darin die R-GmbH", "160.000 € von 380.000 €", "8.000 €"],
+        ["Anteil mit Altabschreibung von 1997", "60%ige Beteiligung an der C-GmbH", "100.000 € von 200.000 €", "5.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen der Quelle gehen auf. Erstes Beispiel: Anteiliger Veräußerungspreis 50 % von 500.000 € = 250.000 €, anteiliger Buchwert 50 % von 100.000 € = 50.000 €, abzüglich 10.000 € Veräußerungskosten ergibt 190.000 €; 5 % davon sind 9.500 €. Zweites Beispiel: 500.000 € ./. 120.000 € = 380.000 € Gesamtgewinn; auf die Beteiligung entfallen 200.000 € ./. 40.000 € = 160.000 €; 5 % davon sind 8.000 €. Drittes Beispiel: 500.000 € ./. 100.000 € = 400.000 €, je 200.000 €; davon sind 100.000 € (die Hälfte der historischen Teilwertabschreibung von 200.000 €) nach Satz 4 steuerpflichtig, 5 % der steuerfreien 100.000 € sind 5.000 €." },
+      { text: "Anmerkung zum zweiten Beispiel (eigene Ergänzung): Es ist der schwierigste Fall des Abschnitts, weil zwei Rechnungen nebeneinander laufen. Der **Gesamtgewinn** bemisst sich nach dem steuerlichen Kapitalkonto (500.000 € ./. 120.000 € = 380.000 €), der **steuerfreie Teil** dagegen nach dem anteiligen Buchwert der Beteiligung (200.000 € ./. 40.000 € = 160.000 €). Beide Größen haben nichts miteinander zu tun, und es wäre falsch, den steuerfreien Teil quotal aus dem Gesamtgewinn abzuleiten. Die Quelle beziffert das Ergebnis nicht; steuerpflichtig bleiben 380.000 € ./. 160.000 € = 220.000 €, und das Einkommen erhöht sich um die Pauschale, so dass 228.000 € zu versteuern sind – das ist eigene Herleitung." },
+      { text: "Anmerkung zur Altabschreibung (eigene Ergänzung): Das dritte Beispiel führt die Symmetrie aus Abschnitt 3.3 in die Personengesellschaft hinein. Die Teilwertabschreibung von 1997 hat das Einkommen damals gemindert – sie lag vor dem Systemwechsel zum 31.12.2001 –, und deshalb ist der Veräußerungsgewinn nach § 8b Abs. 2 Satz 4 KStG bis zu ihrer Höhe steuerpflichtig. Beachtenswert ist die **Quotelung**: Die historische Abschreibung betrug 200.000 €, auf die B-GmbH entfällt davon aber nur die Hälfte, also 100.000 €. Und die Pauschale bemisst sich – wie in Kapitel 3 – ausschließlich nach dem **steuerfreien** Teil des Gewinns, hier also nach 100.000 € und nicht nach 200.000 €. Für den Mitunternehmer A gilt daneben das Teileinkünfteverfahren mit seinen eigenen Regeln; darauf geht die Quelle hier nicht ein." },
+    ],
+  },
+  {
+    id: "kst-t2-41",
+    kapitel: "41",
+    abschnittNr: "5.4",
+    title: "5.4 Gewinnminderungen über die Personengesellschaft – Gesamthand und Sonderbetriebsvermögen",
+    thema: "Teilwertabschreibungen auf Anteile und auf Gesellschafterdarlehen der Personengesellschaft schlagen anteilig auf die Mitunternehmer-Kapitalgesellschaft durch. Liegt das Darlehen im Sonderbetriebsvermögen, entscheidet der Umweg über die nahestehende Person",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 5.4 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 6 KStG",
+      "§ 8b Abs. 3 Satz 3 KStG",
+      "§ 8b Abs. 3 Satz 4 KStG",
+      "§ 8b Abs. 3 Satz 5 KStG",
+      "§ 1 Abs. 2 Nr. 1 Buchstabe a AStG",
+    ],
+    themen: ["Teilwertabschreibung im Gesamthandsvermögen", "Gesellschafterdarlehen der Personengesellschaft", "Sonderbetriebsvermögen", "Nahestehende Person", "Durchschlagen der Qualifikation"],
+    bloecke: [
+      { text: "§ 8b Abs. 6 i.V. mit § 8b Abs. 3 Satz 3 KStG steht auch der Berücksichtigung von substanzbezogenen Gewinnminderungen entgegen, wenn diese im Gewinnanteil der Mitunternehmer-Kapitalgesellschaft enthalten sind." },
+      { text: "Gleiches gilt im Zusammenhang mit Gewinnminderungen aus Gesellschafterdarlehen, wenn die darlehensgebende (nicht vermögensverwaltende) Personengesellschaft > 25 % an der darlehensnehmenden Kapitalgesellschaft beteiligt ist oder war (§ 8b Abs. 3 Satz 4 KStG). Denn die Vorschrift stellt zur Ermittlung der maßgeblichen qualifizierten Beteiligungsquote auf den Gesellschafter ab (siehe unter 4.2.2.1)." },
+      { text: "Dies gilt auch für Darlehensforderungen des Sonderbetriebsvermögens, wenn die Mitunternehmer-Kapitalgesellschaft als qualifizierte Darlehensgeberin angesehen werden kann. Dazu ist erforderlich, dass der Kapitalgesellschaft entweder selbst eine qualifizierte Beteiligung zugerechnet werden kann, wozu die Beteiligung der Personengesellschaft an der darlehensnehmenden Kapitalgesellschaft dann quotenentsprechend zu berücksichtigen ist. Anderenfalls muss § 8b Abs. 3 Satz 5 KStG geprüft werden, ob die Mitunternehmer-Kapitalgesellschaft als Darlehensgeber eine nach den Grundsätzen des § 1 Abs. 2 AStG als nahe stehende Person des qualifiziert beteiligten Gesellschafters (Personengesellschaft) angesehen werden kann." },
+      { text: "Beispiel: Zum Betriebsvermögen der I-GmbH gehört ein 40%iger Mitunternehmeranteil an der gewerblich tätigen T-KG. Zum Gesamthandsvermögen der KG rechnet auch eine 50%ige Beteiligung an der R-GmbH (Buchwert: 100.000 €). Die T-KG schreibt zum 31.12.2026 den Anteil an der R-GmbH mit 30.000 € ab. Der Verlust beläuft sich in 2026 auf 1.000.000 €." },
+      { text: "Lösung: Der auf die I-GmbH entfallende Verlustanteil von 400.000 € führt zunächst zu einer Aufwandsbuchung (Aufwand an Beteiligung KG 400.000 €). Die darin enthaltene Teilwertabschreibung auf den Anteil an der R-GmbH (40 % von 30.000 €) kann gemäß § 8b Abs. 6 i.V. mit § 8b Abs. 3 Satz 3 KStG nicht berücksichtigt werden und ist daher im Rahmen der Einkommensermittlung wieder hinzuzurechnen (Einkommen: + 12.000 €)." },
+      { text: "Beispiel: Zum Betriebsvermögen der I-GmbH gehört ein 40%iger Mitunternehmeranteil an der gewerblich tätigen T-KG. Zum Gesamthandsvermögen der KG rechnet auch eine 50%ige Beteiligung an der R-GmbH. Die T-KG hat ihrer Tochtergesellschaft in 2018 ein Darlehen i.H. von 1.000.000 € gegeben, welches in 2026 zutreffend auf den Teilwert von 0 € abgeschrieben wurde." },
+      { text: "Lösung: Die im Gesamthandsvermögen angefallene Gewinnminderung von 1.000.000 € unterliegt bei der I-GmbH nach § 8b Abs. 6 i.V. mit § 8b Abs. 3 Satz 4 KStG der Hinzurechnung von 400.000 € (40 % von 1.000.000 €). Weil die T-KG selbst als qualifizierter Darlehensgeber i.S. des § 8b Abs. 3 Satz 4 KStG anzusehen ist, schlägt dieses Kriterium insoweit auch auf die Mitunternehmer-Kapitalgesellschaft durch und führt auf ihren Mitunternehmeranteil bezogen zur Nichtabziehbarkeit der Gewinnminderung. Auf die mittelbare Beteiligung der I-GmbH an der R-GmbH kommt es nicht an." },
+      { text: "Abwandlung: Die Darlehensforderung ist der I-GmbH selbst zuzurechnen, die diese zutreffend im Sonderbetriebsvermögen der T-KG ausweist." },
+      { text: "Lösung: Die I-GmbH ist keine qualifizierte Darlehensgeberin i.S. des § 8b Abs. 3 Satz 4 KStG, weil sie lediglich über eine mittelbare Beteiligung von 20 % (40 % von 50 %) an der darlehensnehmenden R-GmbH verfügt. Trotzdem unterliegt die Gewinnminderung des Sonderbetriebsvermögens von 1.000.000 € den Grundsätzen des § 8b Abs. 6 KStG i.V. mit § 8b Abs. 3 Satz 4 KStG, weil sie nach § 8b Abs. 3 Satz 5 KStG als nahestehende Person des qualifizierten Anteilseigners anzusehen ist. Denn sie ist mit mindestens 25 % an dem qualifizierten Anteilseigner des Darlehensnehmers beteiligt. Nach § 1 Abs. 2 Nr. 1 Buchstabe a AStG gilt sie danach als wesentlich beteiligt und nahestehend." },
+      { typ: "tabelle", spalten: ["Fall", "Wo liegt die Forderung?", "Qualifizierter Darlehensgeber", "Rechtsgrundlage", "Hinzurechnung bei der I-GmbH"], zeilen: [
+        ["Teilwertabschreibung auf den Anteil an der R-GmbH", "Gesamthandsvermögen", "—", "§ 8b Abs. 6 i. V. mit Abs. 3 Satz 3 KStG", "12.000 € (40 % von 30.000 €)"],
+        ["Darlehen der T-KG an die R-GmbH", "Gesamthandsvermögen", "die T-KG selbst (50 % an der R-GmbH)", "§ 8b Abs. 6 i. V. mit Abs. 3 Satz 4 KStG", "400.000 € (40 % von 1.000.000 €)"],
+        ["Darlehen der I-GmbH an die R-GmbH", "Sonderbetriebsvermögen", "die I-GmbH als nahestehende Person der T-KG", "§ 8b Abs. 3 Satz 5 KStG, § 1 Abs. 2 Nr. 1 Buchstabe a AStG", "1.000.000 € in voller Höhe"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Der Vergleich der beiden letzten Zeilen ist der Kern des Abschnitts. Es ist **dasselbe Darlehen über 1.000.000 € an dieselbe Gesellschaft**, und in beiden Fällen ist es vollständig nicht abziehbar – aber der Weg dorthin und das Ergebnis bei der I-GmbH sind völlig verschieden. Liegt das Darlehen im **Gesamthandsvermögen**, ist die Personengesellschaft selbst die qualifizierte Darlehensgeberin (ihre 50 % überschreiten die Grenze), und über § 8b Abs. 6 KStG trifft die I-GmbH nur ihr 40%iger Anteil, also 400.000 €. Liegt es im **Sonderbetriebsvermögen**, gehört es ihr allein – die Gewinnminderung beträgt bei ihr 1.000.000 €. Dass sie selbst nur mittelbar zu 20 % beteiligt ist und damit an Satz 4 scheitert, hilft ihr nicht: Über Satz 5 ist sie nahestehende Person der T-KG, weil sie an dieser zu 40 % und damit zu mindestens 25 % beteiligt ist." },
+      { text: "Anmerkung zur Prüfungsreihenfolge (eigene Ergänzung): Für Darlehen aus dem Sonderbetriebsvermögen gibt die Quelle eine zweistufige Prüfung vor, die man sich merken sollte. **Erste Stufe:** Ist der Mitunternehmer-Kapitalgesellschaft selbst eine qualifizierte Beteiligung zuzurechnen? Dafür ist die Beteiligung der Personengesellschaft quotenentsprechend durchzurechnen – hier 40 % × 50 % = 20 %, also nein. **Zweite Stufe:** Ist sie nahestehende Person des qualifiziert beteiligten Gesellschafters, also der Personengesellschaft? Dafür genügen mindestens 25 % an dieser – hier 40 %, also ja. Bemerkenswert ist dabei, dass die Personengesellschaft in dieser zweiten Stufe die Rolle des „Steuerpflichtigen“ i. S. des § 1 Abs. 2 AStG einnimmt; genau deshalb hält die Quelle in Abschnitt 4.2.3 fest, dass der qualifiziert beteiligte Anteilseigner auch eine Personengesellschaft sein kann – und genau diese Frage ist beim BFH unter I R 11/24 anhängig." },
+      { text: "Rechenproben (eigene Ergänzung): 40 % von 30.000 € = 12.000 €; 40 % von 1.000.000 € = 400.000 €; die durchgerechnete Beteiligung der I-GmbH an der R-GmbH beträgt 40 % × 50 % = 20 % und liegt damit unter der Grenze von mehr als 25 %. Alle Zahlen der Quelle gehen auf." },
+    ],
+  },
+  {
+    id: "kst-t2-42",
+    kapitel: "42",
+    abschnittNr: "5.5",
+    title: "5.5 Gewerbesteuerliche Auswirkungen – Kapitel 5 ist vollständig",
+    thema: "Nach § 7 Satz 4 GewStG wirken sich die Verhältnisse der Mitunternehmer schon auf den Gewerbeertrag der Personengesellschaft aus. Beim Mitunternehmer selbst wirkt der Gewinnanteil nicht noch einmal, weil § 9 Nr. 2 und § 8 Nr. 8 GewStG ihn herausnehmen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 5.5 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 7 Satz 4 GewStG",
+      "§ 8 Nr. 5 GewStG",
+      "§ 8 Nr. 8 GewStG",
+      "§ 9 Nr. 2 GewStG",
+      "§ 9 Nr. 2a GewStG",
+      "§ 9 Nr. 7 GewStG",
+    ],
+    themen: ["Nettomethode", "§ 7 Satz 4 GewStG", "Schachtelprivileg bei der Personengesellschaft", "Kürzung nach § 9 Nr. 2 GewStG", "Keine Doppelerfassung"],
+    bloecke: [
+      { text: "§ 8 Nr. 5 GewStG sowie § 9 Nr. 2a und Nr. 7 GewStG sind auch in den Fällen zu beachten, in denen Anteilseigner der ausschüttenden Gesellschaft eine Personengesellschaft ist. Nach § 7 Satz 4 GewStG wirken sich dabei die Verhältnisse der Mitunternehmer auf den Gewerbeertrag der Personengesellschaft aus, so dass sich der Gewerbeertrag bereits nach den Grundsätzen der sog. Nettomethode ermittelt. Je nach Rechtsform des Mitunternehmers sind somit das Teileinkünfteverfahren bzw. § 8b KStG bei der Ermittlung des Gewerbeertrags zu berücksichtigen. Die Beteiligungserträge werden der Personengesellschaft auch in den Fällen zugerechnet, in denen sich die Beteiligungen im Sonderbetriebsvermögen der Mitunternehmer befinden." },
+      { text: "Der sich aus der gesonderten und einheitlichen Gewinnfeststellung ergebende Gewinn- oder Verlustanteil wirkt sich bei den Mitunternehmern nicht nochmals gewerbesteuerlich aus, weil beim Mitunternehmer die Kürzung des § 9 Nr. 2 GewStG bzw. Hinzurechnung nach § 8 Nr. 8 GewStG greifen." },
+      { typ: "tabelle", spalten: ["Ebene", "Körperschaftsteuer", "Gewerbesteuer"], zeilen: [
+        ["Personengesellschaft", "Feststellung nach der Bruttomethode – § 8b KStG bleibt außen vor, wird aber nachrichtlich und bindend mitgeteilt", "Nettomethode nach § 7 Satz 4 GewStG – § 8b KStG bzw. das Teileinkünfteverfahren wirken schon hier, je nach Rechtsform des Mitunternehmers"],
+        ["Mitunternehmer-Kapitalgesellschaft", "Anwendung des § 8b KStG über Abs. 6 auf den Gewinnanteil", "keine nochmalige Auswirkung – Kürzung nach § 9 Nr. 2 GewStG bzw. Hinzurechnung nach § 8 Nr. 8 GewStG"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt den Gegensatz heraus, der diesen kurzen Abschnitt trägt und den die Quelle über zwei Abschnitte verteilt: Körperschaftsteuerlich gilt bei der Personengesellschaft die **Bruttomethode**, gewerbesteuerlich dagegen die **Nettomethode**. Dieselbe Ausschüttung wird also in zwei verschiedenen Bescheiden unterschiedlich behandelt – im Feststellungsbescheid ohne § 8b KStG (aber mit bindender Zusatzangabe), im Gewerbesteuermessbescheid der Personengesellschaft schon mit. Der Grund ist einfach: Gewerbesteuersubjekt ist die Personengesellschaft selbst, es gibt also keine zweite Ebene, auf der die Korrektur nachgeholt werden könnte." },
+      { text: "Anmerkung zur Doppelerfassung (eigene Ergänzung): Der letzte Satz der Quelle ist die notwendige Gegenkorrektur dazu. Weil der Gewinnanteil schon bei der Personengesellschaft gewerbesteuerlich erfasst ist, muss er beim Mitunternehmer wieder heraus – dafür sorgen § 9 Nr. 2 GewStG bei Gewinnanteilen und § 8 Nr. 8 GewStG bei Verlustanteilen. Der Mechanismus ist im Gewerbesteuerrecht allgemein und hat mit § 8b KStG nichts zu tun; er ist aber der Grund, weshalb die Verhältnisse der Mitunternehmer nach § 7 Satz 4 GewStG überhaupt schon eine Ebene früher berücksichtigt werden müssen. Würde man auch gewerbesteuerlich brutto feststellen, fiele die Korrektur ersatzlos aus." },
+      { text: "Damit ist das Kapitel 5 der Quelle vollständig übernommen. (Eigene Einordnung:) Es folgt das Kapitel 6 mit den weiteren Tatbeständen – Finanzdienstleister, Lebens- und Krankenversicherungsunternehmen, EU/EWR-Fälle und Wertpapierleihe." },
     ],
   },
 ];

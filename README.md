@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 39 Kapitel mit 507 Abschnitten und 34
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 42 Kapitel mit 541 Abschnitten und 38
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2673,6 +2673,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Streubesitzquote ist **durchzurechnen** (50 % an der KG × 30 % an der Tochter = 15 %), und die
   Kapitalertragsteuer wird nach § 31 KStG erst bei der Mitunternehmer-Kapitalgesellschaft
   angerechnet, weil die Personengesellschaft selbst keine Steuer schuldet.
+  Bei den **Veräußerungsgewinnen** gilt § 8b Abs. 2 KStG nicht nur, wenn die Personengesellschaft
+  einen Anteil aus dem Gesamthandsvermögen verkauft, sondern auch, wenn die Kapitalgesellschaft
+  ihren **Mitunternehmeranteil** veräußert, in dem ein Kapitalgesellschaftsanteil steckt. Dabei
+  laufen zwei Rechnungen nebeneinander, die nicht vermischt werden dürfen: Der Gesamtgewinn bemisst
+  sich nach dem steuerlichen Kapitalkonto (500.000 € ./. 120.000 € = 380.000 €), der steuerfreie
+  Teil dagegen nach dem anteiligen Buchwert der Beteiligung (200.000 € ./. 40.000 € = 160.000 €).
+  Alte **Teilwertabschreibungen** holen den Gewinn anteilig in die Steuerpflicht zurück – im
+  Beispiel sind von 200.000 € Gewinnanteil 100.000 € nach § 8b Abs. 2 Satz 4 KStG steuerpflichtig,
+  weil die Hälfte der historischen Abschreibung von 1997 auf die Mitunternehmerin entfällt –, und
+  die Pauschale bemisst sich wie in Kapitel 3 nur nach dem **steuerfreien** Teil. Bei den
+  **Gewinnminderungen** steht der schärfste Kontrast des Kapitels: Dasselbe Darlehen über
+  1.000.000 € an dieselbe Gesellschaft führt bei der Mitunternehmerin zu einer Hinzurechnung von
+  400.000 €, wenn es im **Gesamthandsvermögen** liegt (dann ist die Personengesellschaft selbst die
+  qualifizierte Darlehensgeberin und nur der 40%ige Anteil trifft die GmbH), und von 1.000.000 €,
+  wenn es im **Sonderbetriebsvermögen** liegt. Dort scheitert die GmbH zwar mit ihren
+  durchgerechneten 20 % an § 8b Abs. 3 Satz 4 KStG, wird aber über Satz 5 als nahestehende Person
+  der Personengesellschaft erfasst, weil sie an dieser zu 40 % beteiligt ist. **Gewerbesteuerlich**
+  gilt bei der Personengesellschaft anders als körperschaftsteuerlich die **Nettomethode** des
+  § 7 Satz 4 GewStG – § 8b KStG bzw. das Teileinkünfteverfahren wirken je nach Rechtsform des
+  Mitunternehmers schon dort; beim Mitunternehmer selbst wirkt der Gewinnanteil dann nicht noch
+  einmal, weil § 9 Nr. 2 und § 8 Nr. 8 GewStG ihn herausnehmen. **Damit ist auch das Kapitel 5 der
+  Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
