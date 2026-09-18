@@ -9256,3 +9256,46 @@ Leerraum steht; der Betrag selbst ist unverändert übernommen.
 **Offen aus diesem Skript** sind die Abschnitte III bis IX; sie stehen im Cockpit des neuen
 Campus namentlich, damit der Stand nachprüfbar bleibt. Abschnitt III (Steuerbarkeit) ist mit
 Abstand der längste und wird die nächsten Runden tragen.
+
+### Skript Grunderwerbsteuer (Vossel), Abschnitt III – erster Teil
+
+- **Quelle:** wie zuvor, Drive-ID `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, Abschnitt III
+  („Steuerbarkeit“), Unterabschnitte 1 und 2.1.
+- **Ziel:** `src/data/k1-grest-skript.js`, Einträge `grest-03` und `grest-04`. Prüfung:
+  `npm run check:k1-grest-skript`.
+
+**Aufteilung des Abschnitts.** Abschnitt III ist der mit Abstand längste des Skripts (rund
+630 Zeilen des extrahierten Textes gegenüber 30 für Abschnitt I). Er ist deshalb nicht als ein
+Eintrag erfasst, sondern nach der Gliederung der Quelle aufgeteilt: Der erste Prüfungsschritt
+(inländisches Grundstück) und der Haupttatbestand sind jetzt eingepflegt; die Nebentatbestände
+(§ 1 Abs. 1 Nr. 2 bis 7), der Ersatztatbestand (§ 1 Abs. 2) und die Ergänzungstatbestände
+(§ 1 Abs. 2a, 2b, 3, 3a) folgen. Alle Einträge tragen dieselbe römische Abschnittsnummer, so
+dass die Gruppierung im Campus den Abschnitt zusammenhält.
+
+**Was in diesem Teil steht.** Der erste Prüfungsschritt klärt den Grundstücksbegriff: Das BGB
+definiert ihn nicht, deshalb der Rückgriff auf §§ 3, 4 GBO; der Umfang folgt aus §§ 93 bis 96
+BGB, wobei Scheinbestandteile (§ 95 BGB) und Zubehör (§ 97 BGB) ausscheiden. Darauf setzt
+§ 2 Abs. 1 Satz 2 GrEStG drei Ausnahmen (Betriebsvorrichtungen, Mineralgewinnungsrechte, das
+Recht auf den Erbbauzins) und § 2 Abs. 2 GrEStG drei Erweiterungen (Erbbaurechte, Gebäude auf
+fremdem Boden, dinglich gesicherte Sondernutzungsrechte). Wichtig für die Klausur ist der
+Satz, dass die Inlandsbelegenheit **nur** die Lage des Grundstücks betrifft – nicht den Ort
+des Vertragsschlusses und nicht die Ansässigkeit der Beteiligten.
+
+Der Haupttatbestand bringt den Kernsatz des ganzen Gebiets: Steuerbar ist **der Vertrag und
+nicht die Erfüllung**. Das Beispiel der Quelle führt es vor – der Kaufvertrag vom 17.11.01 ist
+steuerbar, obwohl Nutzen und Lasten erst zum 01.01.02 übergehen. Die fünf weiteren
+Rechtsgeschäfte des Haupttatbestands (Tausch, Schenkungsversprechen, Einbringungs-,
+Auseinandersetzungs- und Erbbaurechtsvertrag) stehen mit ihren Beispielen und Lösungen im
+Wortlaut.
+
+**Eigene Feststellung – ein grammatisch verunglückter Satz der Quelle.** Die Lösung zum
+Tausch-Beispiel lautet: „Also stellt sowohl die Übertragung des Grundstücks des P auf die
+Industrie-GmbH als auch **für** die Übertragung des Grundstücks der Industrie-GmbH auf P einen
+grunderwerbsteuerbaren Vorgang dar.“ Die Konstruktion „sowohl … als auch für“ geht nicht auf;
+gemeint ist ersichtlich, dass beide Übertragungen je einen steuerbaren Vorgang darstellen. Der
+Wortlaut ist unverändert übernommen und mit „(so in der Quelle)“ gekennzeichnet.
+
+**Zur Behandlung der Fußnoten.** Das Skript arbeitet mit Fußnoten, die im extrahierten Text
+mitten im Fließtext erscheinen (etwa die Anmerkung zur Uneinheitlichkeit der Begriffe
+„Ergänzungstatbestand“). Sie sind als eigener Absatz mit dem Zusatz „(Fußnote der Quelle: …)“
+wiedergegeben, damit sie weder verlorengehen noch den Haupttext zerreißen.

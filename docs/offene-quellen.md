@@ -317,8 +317,10 @@ Für diese beiden Gebiete gibt es bislang keinen Campus. Beide Ordner sind jetzt
   Dr. Stephan Vossel, Januar 2026** (195.000 Zeichen, vom Connector vollständig ausgegeben).
   **Begonnen:** Das Fachgebiet hat jetzt einen eigenen Campus (Klausur 1, Fachleiste „GrESt“,
   `src/components/K1GrEStCampus.jsx`, Datensatz `src/data/k1-grest-skript.js`). Eingepflegt
-  sind die Abschnitte **I (Charakterisierung)** und **II (Prüfungsschema)**. Offen sind die
-  Abschnitte III (Steuerbarkeit, der mit Abstand längste), IV (Steuerbefreiungen und
+  sind die Abschnitte **I (Charakterisierung)** und **II (Prüfungsschema)** sowie aus
+  **Abschnitt III** der erste Prüfungsschritt (inländisches Grundstück, § 2 GrEStG) und der
+  Haupttatbestand (§ 1 Abs. 1 Nr. 1 GrEStG). Offen sind der Rest des Abschnitts III
+  (Nebentatbestände, Ersatztatbestand, Ergänzungstatbestände), IV (Steuerbefreiungen und
   -vergünstigungen, §§ 3 bis 7 GrEStG), V (Bemessungsgrundlage), VI (Steuersatz und
   Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
   Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG). Sie sind sämtlich
