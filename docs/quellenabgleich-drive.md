@@ -10617,8 +10617,43 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.1.3.2.2; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.2; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 2.1.3.2.2 und 2.1.4 – Hinzuerwerb und Kapitalertragsteuer
+
+Quelle: dieselbe Datei; übernommen als Kapitel 9 und 10, dazu zwei Beispiele im Kapitel 8.
+Prüfung: `npm run check:k2-kst-teil2` (10 Kapitel, 115 Blöcke, 6 Tabellen). Damit ist der
+Abschnitt 2.1 (Gegenstand der Steuerfreistellung) vollständig.
+
+**Die sieben Konstellationen des Hinzuerwerbs** verteilt die Quelle über zwei Unterabschnitte; der
+Datensatz ordnet sie in einer als eigene Ergänzung gekennzeichneten Tabelle. Zwei davon sind die
+eigentlichen Stolpersteine:
+
+- **Aufstockung von 4 % auf 10 %:** Die Ausschüttung bleibt **vollständig** steuerpflichtig. Es
+  kommt auf den *erworbenen* Anteil an, nicht auf die erreichte Quote – erworben wurden nur 6 %.
+- **Erwerb von 10 % neben 4 % Altbestand:** Die Fiktion erfasst nur den erworbenen Anteil, der
+  Altbestand bleibt Streubesitz. Die Ausschüttung ist deshalb aufzuteilen: 140.000 € × 10/14 =
+  100.000 € steuerfrei, × 4/14 = 40.000 € steuerpflichtig.
+
+**Drei Einzelheiten zur Reichweite der Fiktion** stehen nur beiläufig im Text und sind im
+Datensatz eigens hervorgehoben: Sie gilt für **jeden** Erwerb, auch den unentgeltlichen; sie gilt
+auch für eine unterjährig **neu gegründete** Gesellschaft, die am Stichtag noch gar nicht
+existierte; und eine kurz darauf folgende Teilveräußerung ist unschädlich, weil die Dauer der
+Mindestbeteiligung nach dem Gesetzeswortlaut unerheblich ist.
+
+**Zur Kapitalertragsteuer** ergänzt der Datensatz eine Gesamtübersicht der Einkommensermittlung,
+die die beiden Korrekturschritte der Quelle mit der Fünf-Prozent-Pauschale aus dem Hinweis
+zusammenführt. Die Probe: Von der Ausschüttung von 100.000 € bleiben am Ende genau 5.000 € im
+Einkommen. Die einbehaltenen 26.375 € (25 % Kapitalertragsteuer zuzüglich 5,5 % Solidaritätszuschlag
+darauf) belasten das Einkommen nicht, weil sie hinzugerechnet und anschließend angerechnet werden.
+Eigens vermerkt ist, warum die **Reihenfolge** der beiden Schritte nicht beliebig ist: Die
+Steuerfreistellung erfasst die Bruttoausschüttung, wer die Abzugssteuern nicht zuvor hinzurechnet,
+stellt nur 73.625 € frei und verliert die Differenz dauerhaft.
+
+**Eine weitere Eigenheit der Quelle, wortlautgetreu übernommen und gekennzeichnet:** der verkürzte
+Satzbau „Erfolgt nach den Grundsätzen der Nettomethode (Regelfall) als Betriebsausgaben verbucht
+gewinnwirksam“ im Abschnitt 2.1.4.
 
 ### KSt Teil II (Hamacher), Abschnitt 2.1.3 – Mindestbeteiligungsquote
 

@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit acht Kapitel mit 86 Abschnitten und vier
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit zehn Kapitel mit 115 Abschnitten und sechs
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2438,7 +2438,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und die Betrachtung wirkt in beide Richtungen: Ein späterer Anstieg über 10 % hilft nicht, ein
   späteres Absinken schadet nicht. Bei abweichendem Wirtschaftsjahr können in einem Wirtschaftsjahr
   zwei verschiedene Stichtage maßgebend sein, während die Gewerbesteuer nach § 9 Nr. 2a GewStG
-  daneben auf den Beginn des Erhebungszeitraums abstellt.
+  daneben auf den Beginn des Erhebungszeitraums abstellt. Die einzige Ausnahme von der
+  Stichtagsregel ist der **Hinzuerwerb** eines Anteils von mindestens 10 %, der nach
+  § 8b Abs. 4 Satz 6 KStG auf den 01.01. zurückbezogen wird – nach dem BFH auch bei mehreren
+  Erwerben aus einem wirtschaftlich einheitlichen Vorgang, nicht aber bei zusammenhanglosen
+  Zukäufen. Entscheidend ist der **erworbene** Anteil, nicht die erreichte Quote: Eine Aufstockung
+  von 4 % auf 10 % bringt nichts, während der Erwerb eines 10%igen Anteils neben 4 % Altbestand zur
+  Aufteilung der Ausschüttung führt (im Beispiel 140.000 € × 10/14 steuerfrei, × 4/14
+  steuerpflichtig). Schließlich die **Kapitalertragsteuer**: Sie ist auch auf die steuerfreie
+  Ausschüttung einzubehalten, und bei der Nettomethode sind zwei Schritte in fester Reihenfolge
+  nötig – erst die Abzugssteuern nach § 10 Nr. 2 KStG hinzurechnen, um die Bruttoausschüttung
+  herzustellen, dann diese nach § 8b Abs. 1 KStG abziehen. Im Ergebnis bleiben genau die 5 %
+  nicht abziehbaren Betriebsausgaben im Einkommen.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

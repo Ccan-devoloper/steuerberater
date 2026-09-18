@@ -12,11 +12,10 @@
    STAND DER ÜBERNAHME: Das Kapitel 1 (Bedeutung und persönlicher
    Anwendungsbereich) ist vollständig. Aus Kapitel 2 sind der Begriff der
    Gewinnausschüttung (2.1.1) und das Korrespondenzprinzip (2.1.2) übernommen.
-   Dazu die Ermittlung der Mindestbeteiligungsquote (2.1.3.1) und der
-   Betrachtungsstichtag (2.1.3.2.1). Es folgen der Hinzuerwerb (2.1.3.2.2), die
-   Kapitalertragsteuer (2.1.4), die Betriebsausgabenpauschalierung (2.2) und die
-   gewerbesteuerliche Behandlung (2.3) sowie die Kapitel 3 bis 6; der Campus
-   weist den Stand aus.
+   Damit ist der Abschnitt 2.1 (Gegenstand der Steuerfreistellung) vollständig –
+   einschließlich der Mindestbeteiligungsquote und der Kapitalertragsteuer. Es
+   folgen die Betriebsausgabenpauschalierung (2.2) und die gewerbesteuerliche
+   Behandlung (2.3) sowie die Kapitel 3 bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -318,7 +317,90 @@ export const kstTeil2 = [
         ["zweite Hälfte", "01.01. bis 30.06.2026", "01.01.2026", "01.01.2026 (Beginn des Erhebungszeitraums)"],
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt den Fall des abweichenden Wirtschaftsjahres dar, den die Quelle im Fließtext entwickelt. Der Befund ist unbequem, aber eindeutig: In **einem** Wirtschaftsjahr können für die Körperschaftsteuer **zwei verschiedene** Stichtage maßgebend sein, je nachdem, in welches Kalenderjahr der Zufluss fällt – und für die Gewerbesteuer gilt daneben ein dritter Maßstab, nämlich der Beginn des Erhebungszeitraums. Wer bei abweichendem Wirtschaftsjahr nur einen Stichtag prüft, rechnet für die eine Hälfte des Jahres falsch." },
+      { text: "Merke: Für die Prüfung der Mindestbeteiligungsquote sind ausschließlich die Verhältnisse zu Beginn des Kalenderjahres (01.01.) maßgebend, in dem die Beteiligungserträge bezogen wurden." },
+      { text: "Beispiel: Die A-GmbH ist am 01.01.2026 mit 8 % an der B-GmbH beteiligt. Aufgrund eines Hinzuerwerbs am 15.04.2026 steigt die Beteiligungsquote auf 10 %." },
+      { text: "Lösung: Für sämtliche Gewinnausschüttungen greift in 2026 die Streubesitzregelung des § 8b Abs. 4 KStG, weil sich die Mindestbeteiligungsquote ausschließlich nach den Verhältnissen zum 01.01.2026 orientiert. Ein Anwendungsfall i. S. des § 8b Abs. 4 Satz 6 KStG ist nicht gegeben, weil nicht ein mind. 10%iger Anteil erworben wurde." },
+      { text: "Beispiel: Die A-GmbH ist am 01.01.2026 mit 18 % an der B-GmbH beteiligt. Aufgrund einer am 15.04.2026 vollzogenen Veräußerung sinkt die Beteiligungsquote auf 8 %." },
+      { text: "Lösung: Die Gewinnausschüttungen sind in 2026 unverändert nach § 8b Abs. 1 Satz 1 KStG steuerfrei, weil nach den Verhältnissen zum 01.01.2026 die Mindestbeteiligungsquote erfüllt ist." },
       { text: "Merke (eigene Zusammenfassung): Die Stichtagsbetrachtung wirkt in beide Richtungen und ist damit für den Steuerpflichtigen einmal Risiko und einmal Chance. Wer am 01.01. unter 10 % liegt, bleibt für das ganze Jahr steuerpflichtig, auch wenn er im Februar aufstockt (vorbehaltlich des § 8b Abs. 4 Satz 6 KStG). Wer am 01.01. über 10 % liegt, bleibt für das ganze Jahr freigestellt, auch wenn er im Februar verkauft. Maßgebend für die Zurechnung ist dabei nicht das zivilrechtliche, sondern das **wirtschaftliche** Eigentum – so der BFH vom 07.06.2023." },
+    ],
+  },
+  {
+    id: "kst-t2-09",
+    kapitel: "9",
+    abschnittNr: "2.1.3.2.2",
+    title: "2.1.3.2.2 Hinzuerwerb eines 10%igen Anteils",
+    thema: "Die einzige Ausnahme von der Stichtagsregel: Wer unterjährig einen Anteil von mindestens 10 % erwirbt, wird nach § 8b Abs. 4 Satz 6 KStG so behandelt, als hätte er ihn schon am 01.01. gehalten. Die Fiktion erfasst aber nur den erworbenen Anteil – ein daneben bestehender Kleinanteil bleibt Streubesitz",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.1.3.2.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 1 Satz 1 KStG", "§ 8b Abs. 4 KStG",
+      "§ 8b Abs. 4 Satz 6 KStG", "§ 8b Abs. 5 KStG",
+      "BFH vom 06.09.2023, BStBl. II 2024, 778", "BFH vom 13.03.2024, I R 30/21",
+      "Verfügung der OFD Frankfurt/Main vom 07.03.2025",
+      "Herlinghaus in Rödder/Herlinghaus/Neumann, KStG § 8b Rz. 458",
+    ],
+    themen: ["Hinzuerwerb", "Rückbezugsfiktion", "Einheitlicher Erwerbsvorgang", "Aufteilung der Ausschüttung", "Neu gegründete Gesellschaft"],
+    bloecke: [
+      { text: "Eine Besonderheit ist im Fall des unterjährigen Erwerbs einer Beteiligung von mindestens 10 % zu beachten, wenn zu Beginn des Kalenderjahres die qualifizierte Beteiligungsquote nicht erfüllt ist. Dieser Erwerb gilt nach § 8b Abs. 4 Satz 6 KStG bereits als zu Beginn des Kalenderjahres erfolgt, so dass eine aus diesem Anteil resultierende Gewinnausschüttung nach § 8b Abs. 1 Satz 1 KStG steuerfrei ist. Nach der mittlerweile verfestigten Rechtsprechung des BFH ist dies auch in den Fällen erfüllt, in denen Anteile von mehreren Veräußerern erworben wurden und diese Erwerbe auf einem wirtschaftlich zusammenhängenden einheitlichen Vorgang beruhen, z. B. wenn sich die Erwerbe bereits aus einem Kaufvertrag ergeben. Die Finanzverwaltung wendet die Rechtsprechungsgrundsätze aber nur eingeschränkt bei einem wirtschaftlich einheitlichen Tatbestand an, d. h. sie gelten nicht bei einem zusammenhanglosen Erwerb mehrerer Anteile. Dafür ist eine entsprechende Beweisführung seitens des Stpfl. notwendig." },
+      { text: "In diesem Zusammenhang ist es unerheblich, ob der Erwerb unentgeltlich oder entgeltlich erfolgt, d. h. jeglicher Erwerb wird unter diesen Gesichtspunkten zurückbezogen. Gleiches gilt in den Fällen des Anteilserwerbs durch eine unterjährig neu gegründete Gesellschaft, so dass auch die Fiktion des § 8b Abs. 4 Satz 6 KStG zu einem Rückbezug auf den 01.01. des jeweiligen Kalenderjahres führt." },
+      { text: "Umgekehrt ist es unschädlich, wenn die Gesellschaft einen mind. 10%igen Anteil erwirbt und diesen kurzzeitig danach teilweise wieder veräußert, so dass die Beteiligungsquote danach wieder unter 10 % liegt. Eine aus dem Restanteil resultierende Gewinnausschüttung ist bei der Anteilseigner-Kapitalgesellschaft nach § 8b Abs. 1 Satz 1 KStG steuerfrei, weil aufgrund der gesetzlichen Fiktion durch den qualifizierten Erwerb bereits zum 01.01. die Mindestbeteiligungsquote als erfüllt unterstellt gilt. Wie lange diese Mindestbeteiligung tatsächlich bestanden hat, ist nach dem eindeutigen Gesetzeswortlaut unerheblich." },
+      { text: "Beispiel: Die A-GmbH erwirbt am 15.04.2026 eine 10%ige Beteiligung an der C-GmbH. Am 30.06.2026 beschließt die C-GmbH eine offene Gewinnausschüttung." },
+      { text: "Lösung: Die Gewinnausschüttung ist bei der A-GmbH nach § 8b Abs. 1 KStG steuerfrei. Die 10%ige Beteiligung erfüllt nicht die Einschränkungen des § 8b Abs. 4 KStG, weil der nach dem 01.01. erfolgte Erwerb dieser 10%igen Beteiligung aufgrund § 8b Abs. 4 Satz 6 KStG als zu Beginn des Jahres vorgenommen gilt." },
+      { text: "Beispiel: Die A-GmbH erwirbt am 15.04.2026 jeweils eine 5%ige Beteiligung an der C-GmbH von C und X. Die Kaufentscheidung beruht auf einem einheitlichen Kaufvertrag. Am 30.06.2026 beschließt die C-GmbH eine offene Gewinnausschüttung." },
+      { text: "Lösung: Die Gewinnausschüttung ist bei der A-GmbH nach § 8b Abs. 1 KStG steuerfrei. Denn aufgrund des wirtschaftlich einheitlichen Erwerbs der beiden Anteile ist die Ausnahmeregelung des § 8b Abs. 4 Satz 6 KStG erfüllt, so dass ein mindestens 10%iger Anteilserwerb angenommen werden kann, der auf den 01.01.2026 zurückbezogen wird. Andererseits wäre eine Anwendung des § 8b Abs. 4 Satz 6 KStG ausgeschlossen, wenn es sich um zwei unterschiedliche und zusammenhanglose Erwerbe handeln würde." },
+      { text: "Beispiel: Die A-GmbH ist zum 01.01.2026 mit 4 % an der C-GmbH beteiligt. Die A-GmbH erwirbt am 15.04.2026 einen weiteren 6%igen Anteil an der C-GmbH hinzu. Am 30.06.2026 beschließt die C-GmbH eine offene Gewinnausschüttung." },
+      { text: "Lösung: Die Gewinnausschüttung ist bei der A-GmbH nach § 8b Abs. 4 KStG steuerpflichtig. Denn es liegt weder zum 01.01.2026 eine mindestens 10%ige Beteiligung vor, noch hat die A-GmbH im Laufe des Jahres eine solche Beteiligung erworben. Denn § 8b Abs. 4 Satz 6 KStG kann nur bei einem Mindesterwerb einer 10%igen Beteiligung angewendet werden." },
+      { text: "Diese Fiktion gilt nach der derzeitigen Verwaltungsauffassung auch nur für den (mindestens 10%igen) erworbenen Anteil selbst, welcher danach nicht mehr unter die Streubesitzregelung fällt. Dies gilt im Umkehrschluss aber nicht für einen bereits zum 01.01. vorhandenen Anteil (< 10 %) oder einen danach unterjährig erworbenen weiteren Anteil < 10 %, welche durch den qualifizierten Hinzuerwerb nicht infiziert werden. Für diesen Anteil (< 10 %) bleibt es somit bei der Anwendung der Streubesitzregelung. In diesen Fällen muss die Gewinnausschüttung aufgeteilt werden, die danach bezogen auf den hinzuerworbenen Anteil i. S. des § 8b Abs. 4 Satz 6 KStG nach § 8b Abs. 1 KStG steuerfrei ist, der andere Teil hingegen unterliegt der Streubesitzregelung." },
+      { text: "Merke: Erfolgt unterjährig ein Erwerb eines mindestens 10%igen Anteils, wird dieser Anteil für Zwecke der Prüfung der Mindestbeteiligungsquote auf den Beginn des Kalenderjahres zurückbezogen. Aus diesem Anteil resultierende Gewinnausschüttungen sind danach steuerfrei." },
+      { text: "Beispiel: Die A-GmbH ist zum 01.01.2026 mit 4 % an der C-GmbH beteiligt. Die A-GmbH erwirbt am 15.04.2026 einen weiteren 10%igen Anteil an der C-GmbH hinzu. Am 30.06.2026 beschließt die C-GmbH eine offene Gewinnausschüttung, die in Höhe von 140.000 € auf die A-GmbH entfällt." },
+      { text: "Lösung: Nach der derzeitigen und bundesweit abgestimmten Rechtsauffassung kann nur die Gewinnausschüttung nach § 8b Abs. 1 KStG steuerfrei sein, die mit dem unterjährig hinzuerworbenen Anteil von mindestens 10 % zusammenhängt. Denn nur insoweit greift die Fiktion des § 8b Abs. 4 Satz 6 KStG, wonach der Zuerwerb des 10%igen Anteils bereits als zu Beginn des Jahres erfolgt gilt. Für die bereits vorhandenen 4 % bleibt es hingegen bei der Anwendung der Streubesitzregelung. Für Zwecke der Einkommensermittlung muss daher die Gewinnausschüttung zwingend aufgeteilt werden: steuerfrei 140.000 € × 10/14 = 100.000 € (§ 8b Abs. 1 und Abs. 5 KStG); steuerpflichtig 140.000 € × 4/14 = 40.000 € (§ 8b Abs. 4 KStG)." },
+      { typ: "tabelle", spalten: ["Ausgangslage zum 01.01.", "Unterjähriger Erwerb", "§ 8b Abs. 4 Satz 6 KStG", "Ergebnis"], zeilen: [
+        ["8 %", "2 % (auf 10 % aufgestockt)", "nicht erfüllt – erworben wurde kein 10%iger Anteil", "gesamte Ausschüttung steuerpflichtig"],
+        ["18 %", "Veräußerung auf 8 %", "nicht nötig – Quote zum 01.01. erfüllt", "gesamte Ausschüttung steuerfrei"],
+        ["0 %", "10 % in einem Vorgang", "erfüllt", "gesamte Ausschüttung steuerfrei"],
+        ["0 %", "2 × 5 % aus einem Kaufvertrag", "erfüllt (BFH: wirtschaftlich einheitlicher Vorgang)", "gesamte Ausschüttung steuerfrei"],
+        ["0 %", "2 × 5 % ohne Zusammenhang", "nicht erfüllt", "gesamte Ausschüttung steuerpflichtig"],
+        ["4 %", "6 %", "nicht erfüllt – der erworbene Anteil erreicht 10 % nicht", "gesamte Ausschüttung steuerpflichtig"],
+        ["4 %", "10 %", "erfüllt, aber nur für den erworbenen Anteil", "Aufteilung: 10/14 steuerfrei, 4/14 steuerpflichtig"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet die sieben Konstellationen, die die Quelle über die Abschnitte 2.1.3.2.1 und 2.1.3.2.2 verteilt vorführt. Zwei Zeilen sind die eigentlichen Stolpersteine. Die sechste zeigt, dass es auf den **erworbenen** Anteil ankommt, nicht auf die erreichte Quote: Wer von 4 % auf 10 % aufstockt, hat keine 10%ige Beteiligung erworben und bleibt vollständig steuerpflichtig, obwohl er die Grenze im Ergebnis überschreitet. Die siebte zeigt die Kehrseite: Wer die 10 % in einem Erwerb erreicht, wird für diesen Anteil freigestellt – sein Altbestand von 4 % aber nicht, weshalb die Ausschüttung aufzuteilen ist. Rechenprobe dazu: 140.000 € × 10/14 = 100.000 € und × 4/14 = 40.000 €; die Aufteilung folgt den Beteiligungsquoten, nicht der Zahl der Anteile." },
+      { text: "Anmerkung zur Reichweite der Fiktion (eigene Ergänzung): Drei Einzelheiten der Quelle sind für die Klausur wichtig und stehen nur beiläufig im Text. Erstens gilt die Rückbeziehung für **jeden** Erwerb, auch den unentgeltlichen. Zweitens greift sie auch bei einer unterjährig **neu gegründeten** Gesellschaft, die zum 01.01. noch gar nicht existierte – die Fiktion fragt nicht, ob der Erwerber am Stichtag hätte beteiligt sein können. Drittens ist es unschädlich, den Anteil kurz nach dem Erwerb wieder teilweise zu veräußern: Wie lange die Mindestbeteiligung bestanden hat, ist nach dem Gesetzeswortlaut unerheblich." },
+    ],
+  },
+  {
+    id: "kst-t2-10",
+    kapitel: "10",
+    abschnittNr: "2.1.4",
+    title: "2.1.4 Berücksichtigung der Kapitalertragsteuer",
+    thema: "Auch die steuerfreie Ausschüttung unterliegt dem Kapitalertragsteuerabzug. Bei der Nettomethode ist deshalb zweistufig zu rechnen: erst die Abzugssteuern nach § 10 Nr. 2 KStG hinzurechnen, um die Bruttoausschüttung herzustellen, dann diese nach § 8b Abs. 1 KStG abziehen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.1.4 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 4 KStG", "§ 8b Abs. 5 Satz 1 KStG",
+      "§ 10 Nr. 2 KStG", "§ 26 KStG", "§ 31 Abs. 1 KStG",
+      "§ 43 Abs. 1 Satz 3 EStG", "§ 36 EStG",
+    ],
+    themen: ["Kapitalertragsteuer", "Nettomethode", "Bruttoausschüttung", "Anrechnung", "Nicht abziehbare Betriebsausgaben"],
+    bloecke: [
+      { text: "Obwohl die Gewinnausschüttung – unter den weiteren Voraussetzungen des § 8b Abs. 4 KStG – steuerfrei ist, muss die ausschüttende Gesellschaft hierfür die 25%ige Kapitalertragsteuer zzgl. Solidaritätszuschlag einbehalten und abführen (§ 43 Abs. 1 Satz 3 EStG). Beim Anteilseigner erfolgt danach die Anrechnung nach den allgemeinen Grundsätzen (siehe § 31 Abs. 1 KStG). Bei der Anrechnung ausländischer Steuern erfolgt die Anrechnung nach Maßgabe des § 26 KStG." },
+      { text: "Bei der Einkommensermittlung des Anteilseigners ist diesbezüglich auf die Verbuchung der Abzugssteuern zu achten. Erfolgt nach den Grundsätzen der Nettomethode (Regelfall) als Betriebsausgaben verbucht gewinnwirksam, muss zunächst eine Hinzurechnung nach § 10 Nr. 2 KStG erfolgen. Im zweiten Schritt wird sodann die gesamte Gewinnausschüttung (Bruttogewinnausschüttung) nach § 8b Abs. 1 KStG i. V. mit § 8b Abs. 4 KStG steuerfrei gestellt. (Der verkürzte Satzbau „Erfolgt nach den Grundsätzen der Nettomethode (Regelfall) als Betriebsausgaben verbucht gewinnwirksam“ steht so in der Quelle.)" },
+      { text: "Beispiel: Die A-GmbH erhält in 2026 eine Gewinnausschüttung der B-GmbH von 100.000 €, an welcher die A-GmbH mit 20 % beteiligt ist. Bei Auszahlung wurde wie folgt gebucht: Bank 73.625 € und Steueraufwand 26.375 € an Beteiligungsertrag 100.000 €. Eine ordnungsgemäße Steuerbescheinigung wird vorgelegt." },
+      { text: "Lösung: Die bei Auszahlung einbehaltene Kapitalertragsteuer und der Solidaritätszuschlag sind nach § 10 Nr. 2 KStG bei der Einkommensermittlung wieder hinzuzurechnen (+ 26.375 €). Dadurch wird letztlich die Bruttoausschüttung hergestellt, die nach § 8b Abs. 1 KStG steuerfrei ist, weil die Streubesitzregelung des § 8b Abs. 4 KStG dem nicht entgegensteht. Bei der Einkommensermittlung ist diese daher außerbilanziell wieder abzuziehen (./. 100.000 €). Die einbehaltene Kapitalertragsteuer ist auf die Körperschaftsteuer anzurechnen (§ 36 EStG)." },
+      { text: "Hinweis: Die steuerfreie Gewinnausschüttung führt zu nicht abziehbaren Betriebsausgaben von 5.000 € (5 % von 100.000 €), die dem Einkommen hinzuzurechnen sind (§ 8b Abs. 5 Satz 1 KStG)." },
+      { typ: "tabelle", spalten: ["Schritt der Einkommensermittlung", "Betrag"], zeilen: [
+        ["Beteiligungsertrag laut Buchung (brutto)", "100.000 €"],
+        ["./. gewinnwirksam gebuchter Steueraufwand", "./. 26.375 €"],
+        ["= Auswirkung auf den Jahresüberschuss", "73.625 €"],
+        ["+ Hinzurechnung der Abzugssteuern (§ 10 Nr. 2 KStG)", "+ 26.375 €"],
+        ["./. Steuerfreistellung der Bruttoausschüttung (§ 8b Abs. 1 KStG)", "./. 100.000 €"],
+        ["+ nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 Satz 1 KStG)", "+ 5.000 €"],
+        ["= Auswirkung auf das Einkommen", "+ 5.000 €"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie führt die beiden Korrekturschritte der Quelle zusammen und ergänzt die Fünf-Prozent-Pauschale aus dem Hinweis, um das Gesamtergebnis sichtbar zu machen. Die Probe: Von der Ausschüttung bleiben am Ende genau 5.000 € im Einkommen – die fingierten nicht abziehbaren Betriebsausgaben. Rechnerisch ist das gleichbedeutend damit, dass 95 % der Ausschüttung steuerfrei sind. Die einbehaltene Kapitalertragsteuer von 26.375 € (25 % von 100.000 € zuzüglich 5,5 % Solidaritätszuschlag darauf, also 25.000 € + 1.375 €) belastet das Einkommen nicht, weil sie hinzugerechnet und anschließend auf die Steuerschuld angerechnet wird." },
+      { text: "Anmerkung zur Reihenfolge (eigene Ergänzung): Der Fall zeigt, warum die Reihenfolge der beiden Schritte nicht beliebig ist. Die Steuerfreistellung erfasst die **Brutto**ausschüttung; wer die Abzugssteuern nicht zuvor hinzurechnet, stellt nur 73.625 € frei und verliert die Differenz von 26.375 € dauerhaft – obwohl sie über die Anrechnung ohnehin zurückkommt. Deshalb steht § 10 Nr. 2 KStG in der Prüfungsreihenfolge vor § 8b Abs. 1 KStG." },
     ],
   },
 ];
