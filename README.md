@@ -2224,6 +2224,22 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Herabsetzung der Gegenleistung und dem Signing-Closing-Problem, das ein einziger
   Anteilsverkauf zweimal auslöst, samt § 16 Abs. 4a GrEStG und dem AdV-Beschluss des BFH vom
   09.07.2025). Prüfung: `npm run check:k1-grest-skript`
+- **Lohnsteuer-Schema** (Klausur 2, Reiter Einkommensteuer → „Lohnsteuer-Schema“): das
+  einseitige **Prüfungsschema Arbeitslohn von Markus Nöthen** im Wortlaut, fünf Kapitel mit
+  24 Abschnitten und einer Tabelle. Die fünf Stufen der Quelle: Einnahme in Geld oder
+  Geldeswert (§ 19 Abs. 1 S. 1 Nr. 1 EStG, § 2 Abs. 1 LStDV, § 8 Abs. 1 S. 1 EStG), steuerbarer
+  Arbeitslohn mit den drei Fällen, in denen begrifflich keiner vorliegt (Betriebsveranstaltung,
+  R 19.3 und R 19.6 LStR), steuerpflichtiger Arbeitslohn mit den fünf praxisrelevanten
+  Befreiungen des § 3 EStG (Nr. 15 Jobticket, Nr. 16 Reisekosten, Nr. 37 Dienstfahrrad, Nr. 39
+  Vermögensbeteiligung – dort mit dem Prüfungsbefehl, anschließend **immer** § 19a EStG zu
+  prüfen –, Nr. 45 Elektronik), die Bewertung des Sachbezugs (50-Euro-Freigrenze nach § 8 Abs. 2
+  EStG gegenüber dem Rabattfreibetrag von 1.080 € nach § 8 Abs. 3 EStG, dazu Pkw-Überlassung und
+  Fahrrad durch Gehaltsumwandlung) und schließlich die Entscheidung zwischen Ansatz beim
+  Arbeitnehmer und Pauschalversteuerung nach § 40 Abs. 2 oder § 37b Abs. 2 EStG samt deren
+  Abgeltungswirkung. Die zweispaltige Bewertungsübersicht der Quelle ist als Tabelle
+  rekonstruiert; ein Block unter der Tabelle weist das im Campus aus. Es ist die einzige Datei
+  des Drive-Ordners „Lohnsteuer“ mit Textebene – die beiden übrigen sind reine Scans und stehen
+  in `docs/offene-quellen.md`, Abschnitt A. Prüfung: `npm run check:k2-lst-schema`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.

@@ -16,6 +16,7 @@ import KurzskriptBloecke from "./KurzskriptBloecke";
 import { estHausaufgaben, estHausaufgabenQuelle } from "../data/est-hausaufgaben.js";
 import { estKurzskript1, estKurzskript1Quelle } from "../data/est-kurzskript-1.js";
 import { estKurzskript2, estKurzskript2Quelle } from "../data/est-kurzskript-2.js";
+import { lstSchema, lstSchemaQuelle } from "../data/k2-lst-schema.js";
 import { estFallsammlungen, estFallsammlungenQuelle } from "../data/est-fallsammlungen.js";
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import { estOriginalklausuren, estOriginalklausurenQuelle } from "../data/k2-est-originalklausuren.js";
@@ -33,6 +34,7 @@ const NAV = [
   ["cockpit", "Cockpit", IconCockpit],
   ["kurzskript1", "Kurzskript I", IconRegister],
   ["kurzskript2", "Kurzskript II", IconRegister],
+  ["lst-schema", "Lohnsteuer-Schema", IconRegister],
   ["hausaufgaben", "Hausaufgaben ESt", IconModule],
   ["fallsammlungen", "Fallsammlungen", IconFaelle],
   ["klausuren", "Übungsklausuren", IconTraining],
@@ -55,9 +57,10 @@ function Cockpit() {
           <span className="kicker">Klausur 2 · Einkommensteuer</span>
           <h1>ESt-Cockpit</h1>
           <p className="lead">
-            Der Campus wächst mit den Quellen des Tageslehrgangs. Erfasst sind das Kurzskript II,
-            die Hausaufgaben mit Lösung und die Fallrepetitorien; alles steht im Wortlaut, mit den
-            Ermittlungsschemata der Musterlösung als Tabelle.
+            Der Campus wächst mit den Quellen des Tageslehrgangs. Erfasst sind die beiden
+            Kurzskripte, das Prüfungsschema Arbeitslohn zur Lohnsteuer, die Hausaufgaben mit Lösung
+            und die Fallrepetitorien; alles steht im Wortlaut, mit den Ermittlungsschemata der
+            Musterlösung als Tabelle.
           </p>
         </div>
         <span className="zaehler">
@@ -80,6 +83,13 @@ function Cockpit() {
           Veräußerungsgeschäfte, sonstige Einkünfte, vorweggenommene Erbfolge, Erbfall und
           Erbauseinandersetzung, nichtselbständige Arbeit, § 15a EStG und wiederkehrende Leistungen
           bei Vermögensübertragungen – mit allen Beispielen und Ermittlungsschemata der Quelle.
+        </p>
+        <p>
+          Das Prüfungsschema Arbeitslohn (Nöthen) steht im Reiter „Lohnsteuer-Schema“ mit den fünf
+          Stufen der Quelle: Einnahme in Geld oder Geldeswert, steuerbarer Arbeitslohn,
+          steuerpflichtiger Arbeitslohn, Bewertung des Sachbezugs und die Entscheidung zwischen
+          Ansatz beim Arbeitnehmer und Pauschalversteuerung. Es ist die einzige lesbare Datei des
+          Drive-Ordners „Lohnsteuer“; die beiden übrigen sind reine Scans.
         </p>
         <p>
           Hausaufgaben mit Lösung zu {termine.length === 1 ? "Fachtermin" : "den Fachterminen"}{" "}
@@ -193,6 +203,20 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
             gruppeAria="Teile"
             gruppeAlle="Alle Teile"
             suchePlatzhalter="Norm, Stichwort oder Betrag"
+          />
+        ) : verlauf.ansicht === "lst-schema" ? (
+          <KurzskriptBloecke
+            kicker="Klausur 2 · Einkommensteuer · Lohnsteuer"
+            titel="Prüfungsschema Arbeitslohn (Nöthen)"
+            lead="Das einseitige Prüfungsschema von Markus Nöthen im Wortlaut. Es führt in fünf Stufen von der Einnahme bis zur Rechtsfolge und trennt dabei sauber, was im Sprachgebrauch oft vermischt wird: Nicht steuerbarer Arbeitslohn (Stufe II) ist begrifflich kein Arbeitslohn – Aufmerksamkeiten, Betriebsveranstaltung, eigenbetriebliches Interesse. Steuerfreier Arbeitslohn (Stufe III) ist Arbeitslohn, den § 3 EStG freistellt. Erst danach wird bewertet (Stufe IV: 50-Euro-Freigrenze nach § 8 Abs. 2 EStG gegenüber dem Rabattfreibetrag von 1.080 Euro nach § 8 Abs. 3 EStG), erst zuletzt fällt die Entscheidung zwischen Ansatz beim Arbeitnehmer und Pauschalversteuerung."
+            quelle={lstSchemaQuelle}
+            kapitel={lstSchema}
+            karteKicker="Stufe"
+            gruppeVon={(k) => k.romisch}
+            gruppeLabel={(k) => `Stufe ${k.romisch}`}
+            gruppeAria="Stufen des Prüfungsschemas"
+            gruppeAlle="Alle Stufen"
+            suchePlatzhalter="Norm, Stichwort oder Befreiung"
           />
         ) : verlauf.ansicht === "pruefungsklausuren" ? (
           <HausaufgabenBloecke

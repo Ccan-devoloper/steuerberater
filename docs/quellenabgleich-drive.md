@@ -9900,3 +9900,56 @@ der Zahlendreher zusätzlich mit der Richtigstellung in Klammern.
 
 **Damit ist der Drive-Ordner Grunderwerbsteuer abgeschlossen.** Der Campus zeigt keine
 Offen-Liste mehr, sondern den Stand des Bestandes.
+
+### Lohnsteuer – der Ordner ist abgearbeitet, soweit er lesbar ist
+
+Der Drive-Ordner „Lohnsteuer“ enthält drei Dateien. Das Ergebnis der Sichtung ist eindeutig
+und begrenzt: **Nur eine davon hat eine Textebene.**
+
+**Eingepflegt** ist das **Prüfungsschema Arbeitslohn von Markus Nöthen** – eine einzige Seite,
+aber eine sehr dichte. Es steht jetzt als Reiter „Lohnsteuer-Schema“ im
+Einkommensteuer-Campus der Klausur 2 (fünf Kapitel, 24 Abschnitte, eine Tabelle,
+`src/data/k2-lst-schema.js`).
+
+**Warum die Einkommensteuer und kein eigener Campus:** Die Lohnsteuer ist keine eigene
+Steuerart, sondern eine Erhebungsform der Einkommensteuer auf die Einkünfte aus
+nichtselbständiger Arbeit; das Kurzskript II desselben Campus behandelt § 19 EStG bereits im
+Zusammenhang. Ein eigenes Fach mit einem einzigen Einseiter hätte einen Campus erzeugt, der
+mehr verspricht als er zeigt – genau das, was die übrigen Cockpits dieses Projekts vermeiden.
+Der Reiter steht deshalb dort, wo man beim Lernen ohnehin nachsieht.
+
+**Was das Schema didaktisch leistet**, ist die Trennung zweier Stufen, die im Sprachgebrauch
+regelmäßig verschwimmen: **Stufe II** fragt nach dem *steuerbaren* Arbeitslohn – hier geht es
+um Zuwendungen, die schon begrifflich kein Arbeitslohn sind (Betriebsveranstaltung nach § 19
+Abs. 1 S. 1 Nr. 1a EStG, R 19.3 LStR, Aufmerksamkeiten nach R 19.6 LStR). **Stufe III** fragt
+nach dem *steuerpflichtigen* Arbeitslohn – hier liegt Arbeitslohn vor, den § 3 EStG
+freistellt. Wer das vermengt, zitiert in der Klausur die falsche Norm. Erst danach wird
+bewertet, und erst ganz zum Schluss fällt die Entscheidung über die Rechtsfolge.
+
+Zwei Einzelheiten der Quelle sind es wert, festgehalten zu werden: der ausdrückliche
+Prüfungsbefehl, nach § 3 Nr. 39 EStG **immer** § 19a EStG anzuschließen (vorläufige
+Nichtbesteuerung bei Vermögensbeteiligungen), und der Hinweis auf das
+Zusätzlichkeitserfordernis des § 8 Abs. 4 EStG, das die Quelle sowohl bei § 3 Nr. 15 EStG als
+auch bei § 3 Nr. 37 EStG notiert.
+
+**Eine Rekonstruktion, die ausgewiesen ist:** Die Bewertungsübersicht der Stufe IV steht im PDF
+**zweispaltig** – links die allgemeine Bewertung nach § 8 Abs. 2 EStG mit der 50-Euro-
+Freigrenze, rechts die Bewertung nach § 8 Abs. 3 EStG mit dem Rabattfreibetrag von 1.080 €.
+Die Textextraktion gibt beide Spalten zeilenweise ineinander verschränkt aus („Allgemeine
+Bewertung: Rabattfreibetrag 1.080 € § 8 Abs. 2 S. 1 EStG iVm. wenn Sachbezug aus
+ArbG-Sortiment …“). Der Datensatz bringt die Spaltenordnung als Tabelle zurück und sagt
+unmittelbar darunter, dass die Tabellenform von hier stammt und inhaltlich nichts hinzugefügt
+ist.
+
+**Technisch blockiert – und damit ein Fall für Abschnitt A der offenen Quellen:**
+
+- „Korrektur allerletzte Berechnung, Rundungsfehler.pdf“ (0,15 MB): Der Connector gibt aus der
+  gesamten Datei **eine einzige Zeile** zurück – den Wasserzeichentext.
+- „Lohnsteuervideo Mitschrift.pdf“ (3,7 MB, 24 Seiten): dasselbe Bild, nur 24-fach – für jede
+  Seite einmal der Wasserzeichentext, sonst nichts. Die Vermutung aus der ersten Sichtung, es
+  handele sich um eine Handschrift, bestätigt sich damit insoweit, als keine Textebene
+  existiert.
+
+Beide sind in `docs/offene-quellen.md`, Abschnitt A, eingetragen. Aus einer Datei, die nur
+Wasserzeichen liefert, lässt sich nichts übernehmen – und eine Rekonstruktion aus dem
+Dateinamen wäre Erfindung.

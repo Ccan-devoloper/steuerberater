@@ -33,6 +33,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **Steuerberaterprüfung 2022/2023 – amtliche Prüfungsaufgaben**, Drive-ID `1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h` (Dateititel „2026) (10).pdf“) | Die **Musterlösungen zu sämtlichen Teilen** – die Datei enthält ausschließlich Aufgabentexte. Aus dieser Datei sind damit sämtliche Aufgabentexte aller drei Prüfungstage eingepflegt; es fehlen nur die Lösungen, die die Quelle nicht enthält | Der Connector gibt das 0,5-MB-PDF vollständig aus (rund 82.000 Zeichen, 34 Seiten). Es sind die reinen Prüfungsaufgaben aller drei Prüfungstage ohne jede Lösung. Der Bilanz-Prüfungstag (vier Teile, 100 Wertungspunkte), der vollständige Ertragsteuer-Prüfungstag (ESt 25 + 17 + 18, GewSt 8, KSt 28 + 4 = 100 Wertungspunkte) und der vollständige Verfahrensrechtstag (AO/FGO Monika Beer 35, USt Inge Irlbacher 35, ErbSt Erbfall Schüssel) stehen in den Reitern „Prüfungsklausuren im Original“. Eigene Feststellung: Ab dem Ertragsteuerteil trägt die Datei den Kopf „STEUERBERATERPRÜFUNG 2021/2022“, obwohl das Deckblatt 2022/2023 nennt. |
 | **Steuerberaterprüfung 2021/2022 – amtliche Prüfungsaufgaben**, Drive-ID `1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3` | Die **Musterlösungen zu sämtlichen Teilen** – auch diese Datei enthält ausschließlich Aufgabentexte. Der Bilanz-Prüfungstag (Klaus Becker, Mutter-GmbH, Müller-OHG), der vollständige Ertragsteuer-Prüfungstag (ESt mit den Sachverhalten Anne T., Thomas S. und Hanno P.; GewSt MAX-OHG; KSt TIP-AG) und der vollständige Verfahrensrechtstag (AO/FGO Dr. Bruno Bayer; USt Bartel, BB-Baustoffhandels-GmbH und Prager; ErbSt Erbfall Muhr) stehen in den Reitern „Prüfungsklausuren im Original“ des Bilanzen-, des ESt-, des GewSt-, des KSt-, des AO-, des USt- und des ErbSt-Campus. Aus dieser Datei sind damit sämtliche Aufgabentexte aller drei Prüfungstage eingepflegt; es fehlen nur die Lösungen, die die Quelle nicht enthält | Der Connector gibt das 0,7-MB-PDF vollständig aus (rund 90.000 Zeichen, 34 Seiten). |
 | **Ordner „Mitschriften_Markierungen“**, Drive-ID `1YkeROsff1n89Qj4T8qs4DMYZ8lxpMSKE` | Sämtliche Inhalte: rund 40 handschriftliche Mitschriften („Notiz …“, „Mitschrift …“, je 2–10 MB) und 13 ZIP-Archive („Markierung Wiegmann/Mirbach …“) | **Gesichtet und technisch nicht verwertbar.** Die Mitschriften sind Fotos bzw. Scans von Handschrift. Der Connector führt zwar eine Texterkennung durch, deren Ergebnis ist aber unbrauchbar: Paragraphenzeichen werden durchgehend als Ziffern gelesen („Genie Wohnsitz 9870“ für § 8 AO, „9970“ für § 9 AO, „92111“ für § 2 Abs. 1 EStG, „4350 1“ für § 35a EStG), Wörter werden verstümmelt („Steuerpflikt“, „Splittenglauf“, „Witwensplitting“ neben „Zahlung dasKto“). Eine wortlautgetreue Übernahme ist daraus nicht möglich; eine Rekonstruktion wäre Erfindung. Die ZIP-Archive kann der Connector überhaupt nicht lesen – das Format gehört nicht zu den unterstützten Typen. |
+| **Lohnsteuer – zwei der drei Dateien**, Ordner `1O6alBKmrJsgeQaOyWOTCv6mlDD5zZ8Gv` | „Korrektur allerletzte Berechnung, Rundungsfehler.pdf“ (`1c3sKXOHq10Hc64yEtQ2pWvJiEvoBiYWW`, 0,15 MB) und „Lohnsteuervideo Mitschrift.pdf“ (`1_pq7S0hPgWxnJb92toX_iS43YfSUd3Li`, 3,7 MB, 24 Seiten) vollständig | **Reine Scans ohne Textebene.** Der Connector gibt aus beiden Dateien ausschließlich den Wasserzeichentext zurück – bei der Mitschrift 24 Mal hintereinander, für jede Seite einmal –, sonst nichts. Die dritte Datei des Ordners, das Prüfungsschema Arbeitslohn von Markus Nöthen, ist sauber lesbar und vollständig eingepflegt. |
 | **Notfallbuch**, Drive-ID `1i0ZTLaEYMK2uMqkvu_50s8zV-hpOnQOy` (im Ordner „Abgabenordnung“) | Die vollständige Datei | **Gesichtet und technisch nicht verwertbar.** Ebenfalls eine Handschrift; die Texterkennung liefert dieselbe Art unbrauchbarer Ausgabe („v 370 515347370AEAO GIN1“, „5370 574 Klage 3391N1.1“). Inhaltlich handelt es sich erkennbar um eine Stichwortsammlung zur AO und FGO mit Paragraphenverweisen. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
@@ -308,9 +309,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   zugehörige Lösung gibt der Connector nicht mehr aus; der Text endet unmittelbar hinter
   „Teil II gesamt 33 Punkte“. Diese Lösung und die Prüfungen 2013 bis 2015 gehören zu den
   blockierten Teilen in Abschnitt A.
-#### Grunderwerbsteuer (erledigt) und Lohnsteuer (gesichtet, noch nicht eingepflegt)
-Für beide Gebiete gab es bislang keinen Campus. Beide Ordner sind gesichtet; die
-Grunderwerbsteuer ist inzwischen vollständig eingepflegt, die Lohnsteuer noch nicht:
+#### Grunderwerbsteuer und Lohnsteuer – beide erledigt, soweit lesbar
+Für beide Gebiete gab es bislang keinen Campus. Beide Ordner sind gesichtet und abgearbeitet:
+Die Grunderwerbsteuer hat einen eigenen Campus und ist vollständig eingepflegt; aus dem
+Lohnsteuer-Ordner ist die einzige Datei mit Textebene eingepflegt, die beiden übrigen sind
+reine Scans und stehen in Abschnitt A:
 
 - **Grunderwerbsteuer**, Ordner `1EUOPd5EtQg3eQ76LGNwfgevbhcV-96kI`, eine Datei
   („2026) (9).pdf“, `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, 1,3 MB): das vollständige
@@ -321,15 +324,16 @@ Grunderwerbsteuer ist inzwischen vollständig eingepflegt, die Lohnsteuer noch n
   **vollständig** im Wortlaut übernommen – alle neun Abschnitte I bis IX in 20 Kapiteln mit
   488 Abschnitten und 12 Tabellen, einschließlich sämtlicher Beispiele, Lösungen und
   Fundstellen. Aus diesem Ordner ist damit nichts mehr offen.
-- **Lohnsteuer**, Ordner `1O6alBKmrJsgeQaOyWOTCv6mlDD5zZ8Gv`, drei Dateien:
+- **Lohnsteuer**, Ordner `1O6alBKmrJsgeQaOyWOTCv6mlDD5zZ8Gv`, drei Dateien – **eine eingepflegt,
+  zwei technisch blockiert**:
   - „Schema LSt StB und Stfw.pdf“ (`1CXkUXmNJRG1AVTi7d6qqokYyafhJFj97`, 0,09 MB) – das
-    **Lohnsteuer-Prüfungsschema Arbeitslohn von Markus Nöthen** in fünf Stufen (Einnahme in
-    Geld oder Geldeswert, steuerbarer Arbeitslohn, steuerpflichtiger Arbeitslohn, Bewertung
-    des Sachbezugs, Sachbezug oder Pauschalversteuerung). **Sauber lesbar.** Einzupflegen.
+    **Lohnsteuer-Prüfungsschema Arbeitslohn von Markus Nöthen** in fünf Stufen. **Eingepflegt**
+    als Reiter „Lohnsteuer-Schema“ im Einkommensteuer-Campus der Klausur 2, Datensatz
+    `src/data/k2-lst-schema.js`, Prüfung `npm run check:k2-lst-schema`.
   - „Korrektur allerletzte Berechnung, Rundungsfehler.pdf“ (`1c3sKXOHq10Hc64yEtQ2pWvJiEvoBiYWW`,
-    0,15 MB) – noch zu prüfen.
-  - „Lohnsteuervideo Mitschrift.pdf“ (`1_pq7S0hPgWxnJb92toX_iS43YfSUd3Li`, 3,7 MB) – nach
-    Größe und Titel vermutlich wieder eine Handschrift; noch zu prüfen.
+    0,15 MB) – **reiner Scan**, siehe Abschnitt A.
+  - „Lohnsteuervideo Mitschrift.pdf“ (`1_pq7S0hPgWxnJb92toX_iS43YfSUd3Li`, 3,7 MB) – **reiner
+    Scan** über 24 Seiten, siehe Abschnitt A.
 
 #### Ordner „Ergänzungslieferungen“ – existiert nicht
 Ein Ordner dieses Namens ist im freigegebenen Drive **nicht vorhanden.** Die Suche über alle
