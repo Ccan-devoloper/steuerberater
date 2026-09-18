@@ -167,14 +167,13 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   **Aus beiden Dateien steht nichts mehr offen.**
 - **Bewertungsrecht Teil 1** (Schäfer, Stand Mai 2025), Drive-ID
   `1bKS8GZwHDb2Z4gjFc9WFqJcqTSovSLnY` im Ordner `1dYXMcr-i-IEmXuXurAfIlzo_xgtHvzDG`:
-  **begonnen.** Die Abschnitte I (Einführung), II (Bewertungsgegenstand), III (Bedingungen
+  **vollständig eingepflegt.** Die Abschnitte I (Einführung), II (Bewertungsgegenstand), III (Bedingungen
   und Befristungen) und IV (Bewertungsmaßstab gemeiner Wert) stehen im Reiter
   „Bewertungsrecht (Schäfer)“, `src/data/k1-erbst-bewertung-teil1.js`; aus dem Abschnitt V
-  sind die Tz. 1 (Wertpapiere und Anteile) und die Tz. 2 (Kapitalforderungen und Schulden)
-  eingepflegt. Offen ist aus dem Abschnitt V nur noch die Tz. 3 (wiederkehrende Nutzungen
-  und Leistungen mit den Rentenfällen). Die Beispiele des Skripts stehen durchweg ohne
-  Lösung; die Lösungen liegen vermutlich in der noch nicht geöffneten Datei
-  „2025) (6).pdf“ (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) desselben Ordners. Der Connector gibt die Datei vollständig aus (50.000 Zeichen). Im selben
+  ist der Abschnitt V vollständig eingepflegt. **Die Datei ist damit vollständig erfasst.**
+  Die Beispiele des Skripts stehen bis auf eines durchweg ohne Lösung; die Lösungen liegen
+  vermutlich in der noch nicht geöffneten Datei „2025) (6).pdf“
+  (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`) desselben Ordners. Sie ist der nächste Schritt. Der Connector gibt die Datei vollständig aus (50.000 Zeichen). Im selben
   Ordner liegt unter dem Namen „2025) (6).pdf“ (`1CJ_D5IjjGN9qDrXKFjKORa1YDDjTMlxL`)
   vermutlich der zugehörige Lösungsteil – noch nicht geöffnet.
 - **Bewertungsrecht Teil 2** (Schäfer): im Ordner `1yhRfkjP6VYO0V8a01BY2vqXbOnXilI97`

@@ -4229,3 +4229,47 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   3. Einheit der Mitschriften wieder – dort im Fall 19 zur typisch stillen Beteiligung und
   in der Gegenüberstellung von Fälligkeits- und Tilgungsdarlehen; die Hausaufgabe 2 (Braun
   und Bauer) wendet beide Tabellen an. Der Datensatz führt diesen Zusammenhang mit.
+
+## Bewertungsrecht Teil 1 (Schäfer) – Abschnitt V, Tz. 3: Skriptteil 1 abgeschlossen
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1bKS8GZwHDb2Z4gjFc9WFqJcqTSovSLnY`),
+  Abschnitt V Tz. 3 Buchstaben a) bis e) einschließlich des Schlussüberblicks,
+  PDF-Seiten 18 bis 24 (Ende der Datei).
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 3 Teile,
+  9 Kapitel, 193 Blöcke und 8 Tabellen; Prüfung `npm run check:k1-erbst-bewertung-teil1`.
+  **Damit ist der Skriptteil 1 vollständig erfasst.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidungen: Die Aufzählung der vier zeitlichen Arten und der
+  Schlussüberblick stehen in der Quelle als Aufzählung beziehungsweise als dreispaltige
+  Tabelle, deren Zeilen in der Erfassung über mehrere Zeilen umbrechen. Beide sind
+  zugeordnet als Tabellen wiedergegeben; der Wortlaut ist unverändert.
+
+  **Das einzige aufgelöste Beispiel des Teils 1 – und es geht auf.** Der Nießbrauchsfall zu
+  § 16 BewG ist das einzige Beispiel dieses Skriptteils, zu dem die Quelle selbst eine
+  Lösung gibt. Sie ist nachgerechnet: 55.700 + 58.600 + 60.900 = 175.200 €, geteilt durch
+  drei genau 58.400 €; der Grundbesitzwert ist ein glattes Vielfaches von 18,6, denn
+  28.600 × 18,6 = 531.960 €. Der begrenzte Jahreswert von 28.600 € ist damit zutreffend.
+
+  Die übrigen zwölf Beispiele des Abschnitts V Tz. 3 stehen **ohne Lösung** und sind hier
+  **nicht aufgelöst**. Bemerkenswert ist ihre Anlage: Die fünf Beispiele zur bestimmten Zeit
+  sind so gebaut, dass die Deckelung des § 13 Abs. 1 Satz 2 BewG einmal greift und einmal
+  nicht – ein 85-jähriger Berechtigter gegenüber einem 20-jährigen, eine 30-jährige
+  Berechtigte gegenüber einer 98-jährigen. Die beiden Beispiele zu § 14 Abs. 3 BewG stellen
+  den zuletzt Sterbenden dem zuerst Sterbenden gegenüber, die beiden letzten die
+  nacheinander bezogene Ehegattenrente der nebeneinander bezogenen.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 3 a), Überschrift.** „Jahreswert und Begrenzung des **Jahreswert**“.
+  - **Tz. 3 c).** „an einem städtischen Grundstück mit **einen** Grundbesitzwert von
+    98.000 €“.
+  - **Tz. 3 e).** „und **ist** für Bewertungsstichtage ab dem 01.01.2025 anzuwenden **ist**“
+    – das Verb steht doppelt.
+
+  Querbezüge: Die Regel des § 14 Abs. 3 BewG zum zuerst und zuletzt Sterbenden wendet die
+  Übungsklausur AO/USt/ErbSt/BewR 1 im Kapitalwert einer Doppelleibrente an; der Kapitalwert
+  eines Wohnrechts mit der Begrenzung des § 16 BewG begegnet im Übungsfall Fietze der
+  ErbSt-Fallsammlung (17.100 € gegen die Grenze von 27.962 €) und in der Hausaufgabe 3. Der
+  Datensatz führt diese Zusammenhänge mit.

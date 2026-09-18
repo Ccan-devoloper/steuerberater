@@ -116,6 +116,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Versicherungsansprüche nach § 12 Abs. 4 BewG – samt dem zehnzeiligen Schaubild der Quelle
   von der kursnotierten Forderung bis zur Lebensversicherung. Sämtliche sechs Beispiele
   dieses Abschnitts stehen in der Quelle ohne Lösung und sind hier nicht aufgelöst.
+  Den Abschluss bilden die **wiederkehrenden Nutzungen und Leistungen**: die Abgrenzung
+  von Nutzungen und Leistungen (nur für erstere gilt die Jahreswertbegrenzung), die vier
+  zeitlichen Arten der §§ 13 und 14 BewG, der Jahreswert nach § 15 BewG mit der Obergrenze
+  des § 16 BewG – Wirtschaftsgutwert geteilt durch 18,6, weil 18,6 zugleich der höchste
+  Vervielfältiger ist –, die Anlage 9a für bestimmte Zeit mit der Deckelung durch § 13
+  Abs. 1 Satz 2 BewG und der Interpolation bei gebrochener Restlaufzeit, die Vervielfältiger
+  18,6 und 9,3 für immerwährende und unbestimmte Dauer, der nach Alter und Geschlecht
+  gestaffelte Vervielfältiger des § 14 Abs. 1 BewG nach dem BMF-Schreiben vom 09.12.2024
+  (Sterbetafel 2021/2023, Stichtage ab 01.01.2025), die Regel des § 14 Abs. 3 BewG zum
+  zuerst und zuletzt Sterbenden und die Behandlung sich mindernder Ehegattenrenten – samt
+  dem Schlussüberblick über alle vier Arten. **Der Skriptteil 1 ist damit vollständig.**
   Prüfung: `npm run check:k1-erbst-bewertung-teil1`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des
