@@ -4745,3 +4745,77 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   verwendeten Ansätze 359 € und 14,00 €. Die Lösung zum Bochumer Einfamilienhaus
   verwendet den Baupreisindex 183,3 – denselben, den der Fall Fietze für das Hagener
   Einfamilienhaus ansetzt.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Abschnitt I und der Einstieg in die Verschonung
+
+- Quelle: „B-S25-ErbSt-Erbschaftsteuer 2025-2026 Teil 2-(Schaefer)-0126.pdf“, Drive-ID
+  `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6` im Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`,
+  57 Seiten, Stand Dezember 2025. Der Connector hat die Datei vollständig ausgegeben
+  (148.424 Zeichen).
+- Sichtung des Ordners: Er enthält drei Dateien – das Skript, seine Lösungsdatei
+  („…-Loesung-0126.pdf“, `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`) und eine bislang unbekannte
+  **Fallsammlung 4. Termin** (`1HuXWysA6NBRDAltBmHei54XFo3POwOtV`, 2,4 MB), die in
+  `docs/offene-quellen.md` aufgenommen ist.
+- Einpflege dieses Durchgangs: neuer Datensatz `src/data/k1-erbst-verschonung.js` mit
+  2 Teilen, 4 Kapiteln, 60 Blöcken und 4 Tabellen; neues Prüfskript
+  `tools/pruefen-k1-erbst-verschonung.mjs`, Aufruf `npm run check:k1-erbst-verschonung`.
+  Der neue Reiter „Verschonung & Steuerberechnung (Schäfer)“ zeigt ihn.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Warum diese Quelle wichtig ist:** Das Cockpit des ErbSt-Campus weist seit der
+  Klausurauswertung die Übertragung von Betriebsvermögen (§§ 13a, 13b ErbStG, §§ 95 ff.,
+  199 ff. BewG) als größte Lücke aus – in 11 von 11 Examensklausuren mit 7 bis 24 Punkten
+  vertreten, in den Einheiten 1 bis 3 aber ohne Quelle. Der Abschnitt II dieses Skripts
+  deckt genau diesen Block ab; der Bewertungsteil 3 (Schäfer) liefert dazu bereits die
+  Bewertungsseite.
+
+  Eingepflegt sind der vollständige **Abschnitt I** (sachliche Steuerbefreiungen, Tz. 1
+  bis 4) und die **Tz. 1 und 2 des Abschnitts II** (Überblick über die Verschonung und
+  begünstigungsfähiges Vermögen).
+
+  Nachgerechnet: Das Familienheim-Beispiel der Tz. 3 geht auf. Grundbesitzwert 450.000 €,
+  Wohnfläche 300 qm, zwei Kinder je zur Hälfte: 200 qm von 300 qm sind 2/3, von je
+  225.000 € also 150.000 € befreit und 75.000 € steuerpflichtig. Der Punkt, den das
+  Beispiel trägt: Die 200-qm-Grenze bezieht sich auf die Wohnung des Erblassers, sie wird
+  also nicht pro Kind gewährt.
+
+  Redaktioneller Befund: Das Beispiel zur Mindestbeteiligung bei GmbH-Anteilen (26 % / 1 %
+  gegenüber 25 % / 25 %) steht **ohne Lösung**; die Spalte mit der Frage bleibt in der
+  Quelle leer. Es ist nicht aufgelöst. Die Anlage ist erkennbar: Beide Fälle stellen den
+  übertragenen Anteil der Beteiligungsquote des Übertragenden gegenüber, und maßgeblich ist
+  nach dem zitierten Wortlaut die Beteiligung des Erblassers oder Schenkers. Die Lösung
+  liegt in der Lösungsdatei.
+
+  Darstellungsentscheidungen: Das Schaubild zur Regelverschonung steht in der Quelle als
+  Grafik mit zwei nebeneinander laufenden Strängen (85 % und 15 %) und ist als Tabelle mit
+  einer Stufenspalte wiedergegeben; der Wortlaut ist unverändert. In der Freibetragstabelle
+  des § 13 Abs. 1 Nr. 1 ErbStG steht der Betrag von 12.000 € für die Steuerklassen II und
+  III in der Quelle nur einmal über beide Spalten hinweg – für die Tabellendarstellung ist
+  er in beide Spalten übernommen, was im Datensatz ausdrücklich vermerkt ist, damit daraus
+  kein zweiter Freibetrag gelesen wird.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 2.** „Der ursprüngliche **Erbschafsteuerbescheid**“.
+  - **Tz. 3.** „oder **eine rechtsgeschäftlichen** Verfügung“; „begünstigtes Vermögen
+    einem **Mieterben** überträgt“ (gemeint ist der Miterbe); „**Ist** der Erwerber
+    verpflichtet **ist**, das begünstigt erworbene Grundstück …“; in der Übersicht
+    „Nutzung zu **eignen** Wohnzwecken“.
+  - **Abschnitt II Tz. 1.** „Abzugsbetrag von höchstens **150 000 €**“ ohne Tausenderpunkt;
+    im Schaubild „Nettowert des **Verwaltungsvermögen**“ ohne Genitiv-s.
+  - **Abschnitt II Tz. 2 a).** „Erwerb von land- und forstwirtschaftlichem Vermögen **im
+    Sinne des** und selbst bewirtschafteten Grundstücken“ und „selbst bewirtschaftete
+    Grundstücke **im Sinne des** bleiben“ – an beiden Stellen bricht der Verweis ohne
+    Normangabe ab. Nach dem vorangehenden Absatz gemeint sind § 168 Abs. 1 Nr. 1 BewG und
+    § 159 BewG.
+  - **Abschnitt II Tz. 2 b).** „eines ganzen Gewerbebetriebs, **eine** Teilbetriebs“;
+    „nicht jedoch **ausländischen Betriebsvermögen** in Drittstaaten“.
+
+  Querbezüge: Der Bewertungsteil 3 (Schäfer) liefert die Bewertungsseite desselben
+  Themenblocks – Substanzwert, vereinfachtes Ertragswertverfahren und die Bewertung von
+  Anteilen an Kapitalgesellschaften. Die 25-Prozent-Grenze des § 13b Abs. 1 Nr. 3 ErbStG
+  entspricht der Beteiligungsgrenze, ab der der Bewertungsteil 1 den **Paketzuschlag** nach
+  § 11 Abs. 3 BewG ansetzt; beide Vorschriften benutzen dieselbe Schwelle für dieselbe
+  Erwägung – ab dort ist der Anteilseigner unternehmerisch eingebunden und nicht mehr nur
+  Kapitalanleger.

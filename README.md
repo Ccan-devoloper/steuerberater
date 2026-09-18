@@ -78,6 +78,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   der Quelle ist unabhängig nachgerechnet und die Kontrollrechnung steht am Ende der
   Lösung; die Spaltenzuordnung der Rechenwerke ist dokumentiert.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
+- **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
+  Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,
+  Teil 2: Steuerbefreiungen, Verschonungsregelungen, Berechnung der Steuer" von Martin
+  Schäfer (Stand Dezember 2025) **im Wortlaut**. Dieses Skript schließt den größten
+  offenen Posten des ErbSt-Campus: die Übertragung von Betriebsvermögen nach §§ 13a, 13b
+  ErbStG, die laut Klausurauswertung in 11 von 11 Examensklausuren mit 7 bis 24 Punkten
+  vorkam. Eingepflegt ist bisher der **Abschnitt I** – die sachlichen Steuerbefreiungen des
+  § 13 ErbStG: die nach Steuerklassen gestaffelten Freibeträge für Hausrat (41.000 €) und
+  andere bewegliche körperliche Gegenstände (12.000 €) mit ihren Ausnahmen, die Gegenstände
+  im öffentlichen Interesse (60 % bzw. 85 %) mit der zehnjährigen Nachbehaltensfrist und
+  der Korrektur nach § 175 Abs. 1 Nr. 2 AO, das **Familienheim** in den drei Varianten des
+  § 13 Abs. 1 Nr. 4a bis 4c ErbStG – lebzeitige Zuwendung ohne Behaltensfrist, Erwerb von
+  Todes wegen durch den Ehegatten mit Zehnjahresfrist, Erwerb durch Kinder zusätzlich mit
+  der 200-qm-Grenze – samt dem durchgerechneten Beispiel (450.000 €, 300 qm: je Kind
+  150.000 € von 225.000 € befreit) und dem Katalog der sonstigen Befreiungen. Dazu der
+  Einstieg in den **Abschnitt II**: Regelverschonung von 85 % mit dem gleitenden
+  Abzugsbetrag von 150.000 €, Optionsverschonung zu 100 %, das Wahlrecht bei Großerwerben
+  über 26 Mio. € zwischen abschmelzendem Verschonungsabschlag (§ 13c ErbStG) und
+  Verschonungsbedarfsprüfung (§ 28a ErbStG) sowie das begünstigungsfähige Vermögen der drei
+  Nummern des § 13b Abs. 1 ErbStG bis zur Poolvereinbarung als Weg über die
+  25-Prozent-Grenze.
+  Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den
   Skriptteilen 1 und 3 in einem Reiter. Aus dem **Teil 1** („Bewertung nach den Allgemeinen

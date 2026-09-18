@@ -192,9 +192,21 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (`1KG701MsTDFm91Fp8BBV_Nc3sRUDdN5y0`) ist ebenfalls eingearbeitet: alle elf
   Musterlösungen stehen in den jeweiligen Kapiteln. **Damit ist dieser Ordner
   abgeschlossen.**
-- **Erbschaftsteuer 2025-2026 Teil 2** (Schäfer), Drive-ID
+- **Erbschaftsteuer 2025-2026 Teil 2** (Schäfer, Stand Dezember 2025), Drive-ID
   `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6` im Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`:
-  ein weiteres Skript derselben Reihe, bei der Suche nach den Bewertungsteilen neu
+  **begonnen.** Das Skript („Steuerbefreiungen, Verschonungsregelungen, Berechnung der
+  Steuer“, 57 Seiten, vom Connector vollständig ausgegeben) steht im neuen Reiter
+  „Verschonung & Steuerberechnung (Schäfer)“, `src/data/k1-erbst-verschonung.js`.
+  Eingepflegt sind der Abschnitt I (sachliche Steuerbefreiungen des § 13 ErbStG) und der
+  Einstieg in den Abschnitt II (Tz. 1 und 2). Offen sind die Tz. 3 bis 18 des Abschnitts II
+  (begünstigtes Vermögen, Verwaltungsvermögen, Verbundvermögensaufstellung,
+  Regelverschonung, Abzugsbetrag, Lohnsummen- und Behaltensregelung, Familienunternehmen,
+  Optionsverschonung), die Abschnitte III bis VI (Großerwerbe über 26 Mio. €, § 13d ErbStG,
+  Steuerberechnung mit Steuerklassen, Freibeträgen, Steuersätzen, Tarifbegrenzung und
+  früheren Erwerben, Steuerfestsetzung und Erhebung) sowie die Lösungsdatei
+  `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`.
+- **ErbSt-Fallsammlung 4. Termin** (`1HuXWysA6NBRDAltBmHei54XFo3POwOtV`, 2,4 MB, im selben
+  Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`): bei der Sichtung dieses Ordners neu
   entdeckt. Noch nicht bearbeitet.
 - **ErbStR, 4. und 5. Einheit** – im Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` liegen seit
   September 2026 vier weitere Dateien („ErbStR, 4. Einheit_Teil 1“ und „ErbStR. 4.
