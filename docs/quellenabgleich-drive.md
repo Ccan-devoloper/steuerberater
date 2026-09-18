@@ -10410,3 +10410,55 @@ erzielten Einkünfte von 19.500 € im Rahmen einer gesonderten und einheitliche
 
 **Noch offen:** die Abschnitte 1.5 bis 4 des Teils I sowie die Teile II bis VII (§ 8b KStG,
 Teil III, vGA, Verluste und Zinsschranke, Organschaft, Liquidation).
+
+### KSt Teil I (Hamacher), Abschnitte 1.5 und 1.6 – Kapitel 1 ist vollständig
+
+Mit dieser Runde ist das Kapitel 1 des Teils I vollständig übernommen (fünf Kapitel des
+Datensatzes, 118 Abschnitte).
+
+**Abschnitt 1.5 rollt die Gemeinnützigkeit von § 5 Abs. 1 Nr. 9 KStG her auf** und ist dabei
+angenehm praxisnah: Er erklärt nicht nur die Voraussetzungen, sondern auch das Verfahren
+drumherum – die zwingend zu verwendende Mustersatzung als Anlage 1 zu § 60 AO, das
+Feststellungsverfahren des § 60a AO, mit dem das Finanzamt schon vorab die Satzungsmäßigkeit
+bestätigt (was zur Entgegennahme von Spenden berechtigt, aber die Steuerfreistellung noch
+nicht vorwegnimmt), und den Freistellungsbescheid, der nach § 155 Abs. 1 Satz 3 AO wie ein
+Steuerbescheid behandelt wird und deshalb nach §§ 129, 164, 165, 172 ff. AO korrigierbar ist.
+
+Zwei Punkte lohnen besondere Aufmerksamkeit:
+
+- **Die „Geprägetheorie“ der Finanzverwaltung.** Ein wirtschaftlicher Geschäftsbetrieb ist für
+  die Gemeinnützigkeit grundsätzlich unschädlich – aber die Verwaltung gewichtet zwischen
+  ideeller und wirtschaftlicher Tätigkeit und versagt die Steuerfreiheit, wenn die
+  wirtschaftliche Tätigkeit bei einer Gesamtbetrachtung das Gepräge gibt.
+- **Die Freigrenze des § 64 Abs. 3 AO.** Das Skript nennt im Text 50.000 € und hält in einer
+  Fußnote fest: „Neuregelung ab 01.01.2026; bis 2025: Freigrenze von 45.000 €.“ Weil die
+  Fußnoten dieses Skripts nicht als eigene Blöcke übernommen werden, ist dieser Hinweis in den
+  Fließtext eingerückt und als Zitat der Fußnote gekennzeichnet – er ist für die Klausur zu
+  wichtig, um in der Fundstellenliste zu verschwinden.
+
+**Der Spendenfall am Ende des Abschnitts** ist ein schönes Beispiel dafür, wie zwei Rechtsgebiete
+ineinandergreifen: Die A-GmbH zahlt 10.000 € an den Sportverein, dessen Mitglied ihr
+Alleingesellschafter ist; das Geld fließt in die Vereinsgaststätte, also in den
+wirtschaftlichen Geschäftsbetrieb. Ergebnis: kein Spendenabzug nach § 9 Abs. 1 Nr. 2 KStG,
+stattdessen eine verdeckte Gewinnausschüttung nach § 8 Abs. 3 Satz 2 KStG – und zwar
+unabhängig von einer ausgestellten Spendenbescheinigung, weil § 9 Abs. 3 Satz 1 KStG den
+Vertrauensschutz versagt, wenn die Unrichtigkeit bekannt war.
+
+**Abschnitt 1.6 zur Option nach § 1a KStG** bringt drei Punkte, die man sich merken sollte: Die
+eingetragene GbR ist seit 2024 optionsfähig, die herkömmliche GbR, Innengesellschaften und der
+Komplementär einer KGaA dagegen nicht. Die Option kostet den gewerbesteuerlichen Freibetrag des
+§ 11 Abs. 1 Nr. 2 GewStG, weil die Gesellschaft auch gewerbesteuerlich als Kapitalgesellschaft
+behandelt wird. Und für den Mitunternehmer, der zum Anteilseigner wird, gilt seit dem VZ 2024
+die Sonderregel des § 1a Abs. 3 Satz 5 KStG: Zufluss erst bei der **tatsächlichen Entnahme**
+der Gewinnanteile.
+
+**Zur Behandlung kleinerer Tippfehler:** Das Skript enthält an einigen Stellen fehlende
+Endungen oder ein doppeltes Subjekt („Auf deren Einkommensermittlung der optierenden
+Gesellschaft werden …“, „hingegeben Darlehen“, „Arbeitsvertrag abschlossen worden ist“). Sie
+sind wortlautgetreu übernommen und **nicht einzeln gekennzeichnet**, weil sie den Sinn nicht
+berühren; der Dateikopf des Datensatzes sagt das ausdrücklich. Gekennzeichnet wird weiterhin
+dort, wo eine Stelle inhaltlich unklar bleibt – so wie beim fehlenden Prädikat im
+Gründungsbeispiel des Abschnitts 1.3.
+
+**Noch offen:** die Kapitel 2 (Einkommensermittlung mit dem Berechnungsschema), 3 (verdeckte
+Einlage, der umfangreichste Teil) und 4 (Tarif) sowie die Skriptteile II bis VII.

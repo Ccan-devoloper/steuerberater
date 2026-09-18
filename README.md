@@ -2344,8 +2344,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit drei Kapitel mit 66 Abschnitten und
-  2 Tabellen. Eingepflegt sind die Abschnitte **1.1 bis 1.4**: die unbeschränkte Steuerpflicht
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit fünf Kapitel mit 118 Abschnitten und
+  2 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
   Gesellschaft nach § 1a KStG und dem Welteinkommensprinzip; die beschränkte Steuerpflicht in
@@ -2354,9 +2355,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   der auf 3/5 reduzierten Kapitalertragsteuer nach § 44a Abs. 8 EStG); sowie Beginn und Ende
   der Steuerpflicht mit der Unterscheidung von Vorgründungsgesellschaft, Vorgesellschaft und
   eingetragener Kapitalgesellschaft, der abweichenden Behandlung bei der Gewerbesteuer und dem
-  Ende erst nach Sperrjahr und Erfüllung aller steuerlichen Pflichten.
-  Die übrigen Abschnitte – Steuerbefreiungen des § 5 KStG, Option nach § 1a KStG,
-  Einkommensermittlung, verdeckte Einlage und Tarif – folgen; der Campus weist den Stand aus.
+  Ende erst nach Sperrjahr und Erfüllung aller steuerlichen Pflichten. Dazu die
+  **Steuerbefreiungen des § 5 KStG** – Gemeinnützigkeit mit Mustersatzung, Feststellungsverfahren
+  nach § 60a AO und Freistellungsbescheid, die Vier-Sphären-Abgrenzung mit der Geprägetheorie
+  der Finanzverwaltung und der auf 50.000 € angehobenen Freigrenze des § 64 Abs. 3 AO, sowie der
+  Spendenabzug mit dem Beispiel der Zahlung an den Sportverein, die beim Leistenden zur
+  verdeckten Gewinnausschüttung wird – und die **Option nach § 1a KStG** mit Antragsfrist,
+  Normenkatalog und den Folgen für den Mitunternehmer, der zum Anteilseigner wird
+  (Steuerverstrickung nach § 17 EStG, Sperrfrist des § 22 UmwStG, Zufluss erst bei tatsächlicher
+  Entnahme seit dem VZ 2024).
+  Die Kapitel 2 (Einkommensermittlung), 3 (verdeckte Einlage) und 4 (Tarif) folgen; der Campus
+  weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
