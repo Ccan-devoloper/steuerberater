@@ -9506,3 +9506,51 @@ Stellen sind wortlautgetreu übernommen und an Ort und Stelle gekennzeichnet.
 **Unabhängig nachgerechnet:** 75 % + 23 % = 98 % ≥ 90 % (Anteilsvereinigung); 94 % ≥ 90 %
 (Übertragung vereinigter Anteile); 12 % + 88 % = 100 %; 30 % + 70 % = 100 % (mittelbar ab der
 Schwelle); 60 % + 32 % = 92 % (Organkreis). Alle Beispiele der Quelle gehen auf.
+
+### Skript Grunderwerbsteuer (Vossel), § 1 Abs. 3a GrEStG und die Schlussstücke – Abschnitt III vollständig
+
+- **Quelle:** Drive-ID `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, Abschnitte III.2.4.4 bis III.2.4.7.
+- **Ziel:** `src/data/k1-grest-skript.js`, Eintrag `grest-10`. Prüfung:
+  `npm run check:k1-grest-skript`.
+
+**Damit ist Abschnitt III – der längste des Skripts – vollständig erfasst.** Er steht in acht
+Einträgen (`grest-03` bis `grest-10`), die alle dieselbe römische Nummer tragen und im Campus
+deshalb als eine Gruppe erscheinen.
+
+**Der letzte Ergänzungstatbestand schließt die Lücke, die die drei anderen lassen.** Das
+Beispiel der Quelle ist die vollständig durchkonstruierte RETT-Blocker-Gestaltung: 89,9 %
+direkt, der Rest über eine Tochter, an der man selbst nur 89,9 % hält, und das alles über
+zehn Jahre gestreckt. Jede der drei anderen Normen scheitert an einer anderen Stelle –
+Abs. 2a an der Rechtsform, Abs. 2b am Zehnjahreszeitraum, Abs. 3 an der
+90-Prozent-Schwelle für die vermittelnde Gesellschaft. Die Quelle rechnet die wirtschaftliche
+Beteiligung dann selbst aus: 89,9 % unmittelbar plus 89,9 % × 10,1 % = 9,08 % mittelbar
+ergeben 98,98 % – und § 1 Abs. 3a GrEStG greift, weil er **ohne Mindestbeteiligungsschwellen
+durchrechnet**. Das ist der Unterschied zu Abs. 3 in einem Satz.
+
+**Das Aufstockungsproblem.** Die Absenkung von 95 % auf 90 % zum 01.07.2021 erzeugte einen
+Effekt, den der Gesetzgeber nicht wollte: Wer am Stichtag zwischen 90 % und 95 % hielt, war
+nach neuem Recht bereits „anteilsvereinigt“ – und konnte danach beliebig aufstocken, ohne je
+einen steuerbaren Vorgang auszulösen. Die Quelle führt es an 94,9 % vor und zeigt dann die
+Lösung: § 23 Abs. 20 bis 22 GrEStG hält die Altfassung am Leben, teils befristet bis
+30.06.2026 (Abs. 2a), teils zeitlich unbegrenzt (Abs. 3, Abs. 3a). Die beiden Schlussbeispiele
+stellen beide Konstellationen nebeneinander – 94,9 % am Stichtag (Altfassung greift, weil mit
+95,9 % erstmals 95 % erreicht sind) gegen 80 % am Stichtag (neue Fassung greift, Altfassung
+tritt zurück).
+
+**Eine bewusst gekennzeichnete Eigenleistung.** Der Abschnitt 2.4.5 der Quelle heißt
+„Übersicht Ergänzungstatbestände“ und besteht aus einem Schaubild, das die Textextraktion
+nicht ausgibt – die Überschrift steht unmittelbar vor der nächsten. Statt die Überschrift
+ohne Inhalt stehen zu lassen, ist dort eine Vergleichstabelle der vier Tatbestände eingefügt
+(Betrifft, Schwelle, Zeitraum, Fiktion, mittelbare Beteiligung). Sie ist im Datensatz
+**ausdrücklich als Nicht-Übernahme gekennzeichnet**: Der vorangestellte Hinweis sagt, dass
+die Quelle hier ein Schaubild führt, das der Textauszug nicht wiedergibt, und dass die
+Tabelle aus den Aussagen der Abschnitte 2.4.1 bis 2.4.4 zusammengestellt ist. Damit bleibt
+die Grenze zwischen Transkription und eigener Aufbereitung nachprüfbar.
+
+**Eigene Feststellung.** In der Fragestellung zum Aufstockungsbeispiel wird eine Klammer
+nicht geschlossen: „… weiter aufstocken (z. B. auf 100 %, da ihre Beteiligungshöhe nach
+aktuellem GrEStG über der auslösenden Grenze von 90 % liegt?“ Wortlautgetreu übernommen und
+gekennzeichnet.
+
+**Unabhängig nachgerechnet:** 89,9 % × 10,1 % = 9,0799 % ≈ 9,08 %; 89,9 + 9,08 = 98,98 %;
+94,9 + 1 = 95,9 %; 94,9 + 5,1 = 100 %; 80 + 20 = 100 %. Alle Beispiele gehen auf.

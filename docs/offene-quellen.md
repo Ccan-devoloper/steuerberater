@@ -317,13 +317,12 @@ Für diese beiden Gebiete gibt es bislang keinen Campus. Beide Ordner sind jetzt
   Dr. Stephan Vossel, Januar 2026** (195.000 Zeichen, vom Connector vollständig ausgegeben).
   **Begonnen:** Das Fachgebiet hat jetzt einen eigenen Campus (Klausur 1, Fachleiste „GrESt“,
   `src/components/K1GrEStCampus.jsx`, Datensatz `src/data/k1-grest-skript.js`). Eingepflegt
-  sind die Abschnitte **I (Charakterisierung)** und **II (Prüfungsschema)** sowie aus
-  **Abschnitt III** der erste Prüfungsschritt (inländisches Grundstück, § 2 GrEStG), der
-  Haupttatbestand (§ 1 Abs. 1 Nr. 1 GrEStG), die Nebentatbestände (§ 1 Abs. 1 Nr. 2 bis 7)
-  der Ersatztatbestand (§ 1 Abs. 2) und die Ergänzungstatbestände des § 1 Abs. 2a
-  (Personengesellschaften) und Abs. 2b (Kapitalgesellschaften) nebst Börsenklausel
-  (§ 1 Abs. 2c) und Abs. 3 (Anteilsvereinigung). Offen sind der Rest des Abschnitts III
-  (§ 1 Abs. 3a nebst Übersicht, Altfassung und Grundstückszugehörigkeit), IV (Steuerbefreiungen und
+  sind die Abschnitte **I (Charakterisierung)** und **II (Prüfungsschema)** sowie der
+  **vollständige Abschnitt III** (Steuerbarkeit): inländisches Grundstück (§ 2 GrEStG),
+  Haupttatbestand (§ 1 Abs. 1 Nr. 1), Nebentatbestände (§ 1 Abs. 1 Nr. 2 bis 7),
+  Ersatztatbestand (§ 1 Abs. 2) und alle vier Ergänzungstatbestände (§ 1 Abs. 2a, 2b nebst
+  Börsenklausel, 3 und 3a) einschließlich der Übergangsregeln des § 23 Abs. 20 ff. GrEStG und
+  der Grundstückszugehörigkeit nach § 1 Abs. 4a GrEStG. Offen sind die Abschnitte IV (Steuerbefreiungen und
   -vergünstigungen, §§ 3 bis 7 GrEStG), V (Bemessungsgrundlage), VI (Steuersatz und
   Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
   Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG). Sie sind sämtlich
