@@ -12,8 +12,9 @@
    STAND DER ÜBERNAHME: Das Kapitel 1 (Bedeutung und persönlicher
    Anwendungsbereich) ist vollständig. Aus Kapitel 2 sind der Begriff der
    Gewinnausschüttung (2.1.1) und das Korrespondenzprinzip (2.1.2) übernommen.
-   Es folgen die Mindestbeteiligungsquote (2.1.3), die Kapitalertragsteuer
-   (2.1.4), die Betriebsausgabenpauschalierung (2.2) und die
+   Dazu die Ermittlung der Mindestbeteiligungsquote (2.1.3.1) und der
+   Betrachtungsstichtag (2.1.3.2.1). Es folgen der Hinzuerwerb (2.1.3.2.2), die
+   Kapitalertragsteuer (2.1.4), die Betriebsausgabenpauschalierung (2.2) und die
    gewerbesteuerliche Behandlung (2.3) sowie die Kapitel 3 bis 6; der Campus
    weist den Stand aus.
 
@@ -226,7 +227,8 @@ export const kstTeil2 = [
     quelle: "KSt Teil II (Hamacher), Abschnitt 2.1.2.2 · Stand 05/2026",
     verfasser: VERFASSER,
     normen: [
-      "§ 32a Abs. 1 KStG", "§ 32a KStG",
+      "§ 32a Abs. 1 KStG", "§ 32a Abs. 1 Satz 2 KStG", "§ 32a KStG",
+      "§ 8 Abs. 3 Satz 2 KStG",
       "§ 8b Abs. 1 Satz 1 KStG",
       "§ 3 Nr. 40 Buchstabe d EStG", "§ 32d Abs. 1 EStG", "§ 10d Abs. 4 EStG",
       "BFH vom 10.12.2019, BStBl. II 2020, 679",
@@ -247,7 +249,76 @@ export const kstTeil2 = [
         ["Soweit-Verknüpfung?", "ja – begrenzt auf das steuerpflichtige Einkommen", "ja – begrenzt auf den tatsächlichen Einkommensschaden"],
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt die beiden Korrespondenzmechanismen gegenüber, die in Teil I und Teil II an verschiedenen Stellen behandelt werden und in der Klausur regelmäßig verwechselt werden. Die Technik ist in beiden Fällen dieselbe: Ein Vorgang wird auf einer Ebene nicht erfasst, also wird er auf der anderen nachgeholt, und wenn die erste Ebene später korrigiert wird, darf die zweite verfahrensrechtlich zurückgenommen werden. Nur die Richtung ist umgekehrt – und daran entscheidet sich, ob § 32a Abs. 1 oder Abs. 2 KStG einschlägig ist." },
+      { text: "Abwandlung des Beispiels: Die A-GmbH erhält als Alleingesellschafterin der B-GmbH in 2026 für die Überlassung eines Grundstücks eine Miete von 980.000 €. Angemessen sind lt. Feststellungen des Finanzamtes aber nur 500.000 €. Die Veranlagung der B-GmbH für den VZ 2026 wurde nach den Feststellungen der Betriebsprüfung unter Anwendung des § 8 Abs. 3 Satz 2 KStG durchgeführt. Dagegen wurde von der B-GmbH Einspruch eingelegt, welcher schließlich in 2029 durch Urteil des Finanzgerichtes erfolgreich beschieden wurde. Die Hinzurechnung der vGA wurde daher vom Finanzamt durch Änderung des KSt-Steuerbescheides zurückgenommen. Das Finanzamt der A-GmbH hat bisher die verdeckte Gewinnausschüttung nach § 8b Abs. 1 Satz 1 KStG steuerfreigestellt." },
+      { text: "Lösung: Die Voraussetzungen zur Annahme einer vGA sind in 2029 entfallen, so dass der Steuerbescheid der A-GmbH nach § 32a Abs. 1 KStG zu korrigieren ist. Die bisher als steuerfrei behandelte Einnahme i. H. von 480.000 € ist daher wieder als „normale“ Betriebseinnahme zu behandeln und daher in voller Höhe steuerpflichtig. Auslöser dieser Korrektur ist die Änderung des KSt-Steuerbescheides der B-GmbH, wofür hinsichtlich der Festsetzungsverjährung die Hemmung nach § 32a Abs. 1 Satz 2 KStG zu beachten wäre." },
+      { text: "Anmerkung zur Richtung dieser Abwandlung (eigene Ergänzung): Sie zeigt § 32a Abs. 1 KStG in der zweiten, weniger erwarteten Richtung. Im Regelfall bringt die Korrektur dem Anteilseigner die Steuerbefreiung zurück; hier nimmt sie ihm eine bereits gewährte Behandlung, weil mit der verdeckten Gewinnausschüttung auch der Beteiligungsertrag entfallen ist – aus dem freigestellten Bezug wird wieder eine voll steuerpflichtige Betriebseinnahme. Die Vorschrift ist also ergebnisoffen: Sie stellt her, was materiell richtig ist, gleich zu wessen Gunsten." },
       { text: "Anmerkung zur eigenen Prüfungskompetenz (eigene Ergänzung): Der Satz, dass der Körperschaftsteuerbescheid **kein Grundlagenbescheid** ist, hat eine praktische Folge, die die Quelle ausspricht und die leicht unterschätzt wird: Das Finanzamt des Anteilseigners darf Vorliegen und Höhe der verdeckten Gewinnausschüttung eigenständig prüfen. Es kann also zu einem anderen Ergebnis kommen als das Finanzamt der Gesellschaft – dieselbe Zahlung kann bei der einen Ebene als verdeckte Gewinnausschüttung behandelt werden und bei der anderen nicht. Die Korrespondenz ist eine verfahrensrechtliche Brücke, keine Bindung." },
+    ],
+  },
+  {
+    id: "kst-t2-07",
+    kapitel: "7",
+    abschnittNr: "2.1.3.1",
+    title: "2.1.3 Mindestbeteiligungsquote (§ 8b Abs. 4 KStG) – 2.1.3.1 Ermittlung",
+    thema: "Die Steuerfreiheit setzt eine unmittelbare Beteiligung von mindestens 10 % am Nennkapital voraus. Stimmrechte und mittelbare Beteiligungen zählen nicht – wohl aber anteilig die über eine Personengesellschaft gehaltenen Anteile. Geliehene Anteile bleiben beim Verleiher",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.1.3.1 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 Satz 1 KStG", "§ 8b Abs. 4 KStG", "§ 8b Abs. 4 Satz 1 KStG",
+      "§ 8b Abs. 4 Satz 3 KStG", "§ 8b Abs. 4 Sätze 4 und 5 KStG",
+      "§ 8b Abs. 6 KStG", "§ 8b Abs. 10 KStG", "§ 1a KStG",
+      "§ 6 AktG", "§ 5 GmbHG",
+    ],
+    themen: ["Streubesitzregelung", "Mindestbeteiligungsquote", "Unmittelbare Beteiligung", "Mitunternehmeranteil", "Durchgerechnete Quote", "Wertpapierleihe"],
+    bloecke: [
+      { typ: "titel", text: "2.1.3.1.1 Unmittelbare Beteiligungen" },
+      { text: "Sämtliche Bezüge i. S. des § 8b Abs. 1 Satz 1 KStG sind vor Anwendung der Steuerfreiheit bei der Anteilseigner-Kapitalgesellschaft darauf hin zu überprüfen, ob die Voraussetzungen des § 8b Abs. 4 KStG erfüllt sind. Danach kommt die Steuerfreiheit nur dann zur Anwendung, wenn diese an der ausschüttenden Gesellschaft unmittelbar zu mindestens 10 % beteiligt ist. Dafür ist ausschließlich auf die Beteiligung am Nennkapital abzustellen, d. h. die sich dahinter verbergenden Stimmrechte sind hierfür unmaßgeblich. Ist ein solches Nennkapital nicht vorhanden, ist auf die Beteiligung an dem Vermögen oder bei Genossenschaften auf das anteilige Genossenschaftsguthaben abzustellen. Bei der Ausschüttung einer optierenden Gesellschaft i. S. des § 1a KStG ist mangels eines Nennkapitals die hierfür notwendige Beteiligung aus dem jeweiligen Kapitalkonto I abzuleiten, welches die notwendigen (Mitunternehmer-)Rechte abbildet. Bezüge eines Genussrechtes sind daher bei einer Kapitalgesellschaft steuerpflichtig, wenn diese neben dem gezeichneten Genussrecht nicht auch über eine Beteiligung von mind. 10 % an der Gesellschaft verfügt." },
+      { text: "Bei der Ermittlung der Mindest-Beteiligungshöhe sind nur die unmittelbaren Beteiligungen zu berücksichtigen (§ 8b Abs. 4 Satz 1 KStG). Abgestellt wird also auf die Beteiligung am Grundkapital einer AG (§ 6 AktG) bzw. am Stammkapital einer GmbH (§ 5 GmbHG) bzw. auf eine nach dem Rechtstypenvergleich entsprechende Beteiligung bei ausländischen Gesellschaften. Abweichende Stimmrechtsvereinbarungen und besondere Gewinnbezugsrechte sind hierfür nicht maßgebend. Mittelbare Beteiligungen der Anteilseigner-Kapitalgesellschaft, z. B. über andere Kapitalgesellschaften gehaltene Anteile, bleiben außen vor. Hintergrund dafür ist, dass die Streubesitzregelung für jedes Besteuerungssubjekt getrennt zu überprüfen ist und die Anwendung dieser Regelung nicht von Besteuerungsmerkmalen anderer Steuerpflichtiger beeinflusst werden darf." },
+      { text: "Merke: Für Zwecke der notwendigen 10%igen Mindestbeteiligung ist nur auf die unmittelbare Beteiligung am Nennkapital bzw. Stammkapital (nicht: Stimmrechte) der ausschüttenden Gesellschaft abzustellen. Mittelbare Beteiligungen bleiben unberücksichtigt." },
+      { text: "Eine Besonderheit gilt diesbezüglich bei über eine Personengesellschaft unmittelbar gehaltene Anteile. Diese werden der Mitunternehmer-Kapitalgesellschaft anteilig wie eine unmittelbare Beteiligung zugerechnet (§ 8b Abs. 4 Satz 4 und Satz 5 KStG). Hintergrund dafür ist, dass der Mitunternehmeranteil ertragsteuerlich transparent ist und dem Mitunternehmer jeweils nur einen Anteil an sämtlichen Wirtschaftsgütern der Gesamthand vermittelt. Die vom Mitunternehmer in dessen Sonderbetriebsvermögen gehaltenen Anteile werden diesem unabhängig davon bereits als unmittelbare Anteile zugerechnet. Daneben ist zu beachten, dass über § 8b Abs. 6 KStG bei den über den Mitunternehmeranteil bezogenen Beteiligungserträgen auch die Regelungen der § 8b Abs. 1 – Abs. 5 KStG angewendet werden müssen (siehe unter 5.)." },
+      { text: "Merke: Eine Besonderheit gilt nur bei den Anteilen, die der Kapitalgesellschaft über einen Mitunternehmeranteil zugerechnet werden. Diese gelten (anteilig) als unmittelbarer Anteil, wofür eine durchgerechnete Berücksichtigung erfolgt." },
+      { text: "Beispiel: Die A-GmbH ist an der B-GmbH zu 6 % beteiligt. Des Weiteren hält sie einen 80%-Anteil an der X-GmbH, welche selbst über einen 60%-Anteil an der B-GmbH verfügt." },
+      { text: "Lösung: Für Zwecke der Mindestbeteiligungsquote i. S. des § 8b Abs. 4 KStG ist nur die unmittelbare Beteiligung der A-GmbH an der B-GmbH zu berücksichtigen. Dass die A-GmbH daneben auch noch mittelbar über ihren Anteil an der X-GmbH an der B-GmbH beteiligt ist, ist hierfür unerheblich und wird ausgeblendet. Daher sind sämtliche Gewinnausschüttungen, die der A-GmbH aus der B-GmbH zufließen, voll steuerpflichtig." },
+      { text: "Beispiel: Die A-GmbH ist an der B-GmbH zu 6 % beteiligt. Des Weiteren hält sie einen 80%-Anteil an der X-KG, welche selbst einen 60%-Anteil an der B-GmbH besitzt." },
+      { text: "Lösung: Für Zwecke der Mindestbeteiligungsquote i. S. des § 8b Abs. 4 KStG ist in diesem Fall neben der unmittelbaren Beteiligung von 6 % auch der in ihrem Mitunternehmeranteil an der X-KG abgebildete Anteil der A-GmbH „anteilig“ wie ein unmittelbarer Anteil zuzurechnen (80 % von 60 % = 48 %). Die maßgebende Beteiligungsquote beträgt daher 54 % (48 % + 6 %), so dass die Gewinnausschüttungen der B-GmbH auf Ebene der A-GmbH nach § 8b Abs. 1 Satz 1 KStG steuerfrei sind." },
+      { typ: "tabelle", spalten: ["Zwischengeschaltete Gesellschaft", "Unmittelbare Beteiligung", "Zurechnung über die Zwischengesellschaft", "Maßgebliche Quote", "Ergebnis"], zeilen: [
+        ["X-GmbH (Kapitalgesellschaft)", "6 %", "keine – mittelbare Beteiligung bleibt außen vor", "6 %", "steuerpflichtig"],
+        ["X-KG (Personengesellschaft)", "6 %", "80 % von 60 % = 48 % (§ 8b Abs. 4 Sätze 4 und 5 KStG)", "54 %", "steuerfrei"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die beiden Beispiele der Quelle unterscheiden sich in einem einzigen Buchstaben – X-GmbH gegen X-KG – und führen zu genau entgegengesetzten Ergebnissen. Der Grund ist die ertragsteuerliche Transparenz der Personengesellschaft: Ihr Mitunternehmer hält anteilig die Wirtschaftsgüter der Gesamthand, also auch anteilig die Beteiligung. Die Kapitalgesellschaft schirmt dagegen ab. Wer in der Klausur die Rechtsform der Zwischengesellschaft überliest, verfehlt den Fall vollständig. Rechenprobe: 80 % × 60 % = 48 %, zuzüglich 6 % unmittelbar = 54 %." },
+      { typ: "titel", text: "2.1.3.1.2 Keine Berücksichtigung von geliehenen Anteilen" },
+      { text: "§ 8b Abs. 4 Satz 3 KStG schließt die Berücksichtigung von im Rahmen einer Wertpapierleihe geliehenen Anteile aus, so dass der Entleiher die Mindestbeteiligungsquote durch diese Gestaltung nicht erfüllen kann. Diese Anteile werden für Zwecke der Mindestbeteiligungsquote unverändert dem Verleiher zugerechnet, obwohl dem Entleiher unter Umständen das wirtschaftliche Eigentum an den geliehenen Anteilen zugerechnet werden kann. Zu den weiteren Auswirkungen der Wertpapierleihe wird auf § 8b Abs. 10 KStG verwiesen (siehe unter 6.4.)." },
+      { text: "Beispiel: Die A-GmbH hält 8 % der Anteile an der B-GmbH. Mit Wirkung zum 01.01.2026 leiht sich die A-GmbH von der X-GmbH einen 2%igen Anteil an der B-GmbH aus, mit der Verpflichtung, diese Anteile nach Durchführung der für den 01.05.2026 geplanten Gewinnausschüttung zurückzugeben." },
+      { text: "Lösung: Für Zwecke des § 8b Abs. 4 KStG erfüllt die A-GmbH im VZ 2026 nicht die Voraussetzungen des § 8b Abs. 1 KStG, weil ihr lediglich ein unmittelbarer Anteil von 8 % zugerechnet werden kann. Der entliehene Anteil von 2 % wird unverändert der X-GmbH zugerechnet, weil § 8b Abs. 4 Satz 3 KStG die Berücksichtigung entliehener Anteile für Zwecke der Bestimmung der Mindestbeteiligungsquote nicht zulässt." },
+      { text: "Anmerkung zur Funktion der Vorschrift (eigene Ergänzung): § 8b Abs. 4 Satz 3 KStG ist eine gezielte Missbrauchsabwehr. Die Gestaltung, die er verhindert, liegt auf der Hand und wird im Beispiel vorgeführt: Wer knapp unter der Grenze liegt, leiht sich zum Stichtag die fehlenden Prozentpunkte und gibt sie nach der Ausschüttung zurück. Bemerkenswert ist, dass die Vorschrift dafür sogar das wirtschaftliche Eigentum überspielt – die Quelle sagt ausdrücklich, dass die Zurechnung beim Verleiher bleibt, obwohl der Entleiher wirtschaftlicher Eigentümer sein kann." },
+    ],
+  },
+  {
+    id: "kst-t2-08",
+    kapitel: "8",
+    abschnittNr: "2.1.3.2.1",
+    title: "2.1.3.2 Maßgeblicher Betrachtungsstichtag – 2.1.3.2.1 Verhältnisse zu Beginn des Kalenderjahres",
+    thema: "Entscheidend ist allein der 01.01. des Kalenderjahres, und zwar auch bei abweichendem Wirtschaftsjahr. Die Stichtagsbetrachtung wirkt in beide Richtungen: Ein späterer Anstieg über 10 % hilft nicht, ein späteres Absinken schadet nicht. Gewerbesteuerlich gilt dagegen der Beginn des Erhebungszeitraums",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.1.3.2.1 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 4 KStG", "§ 8b Abs. 4 Satz 6 KStG",
+      "§ 9 Nr. 2a GewStG", "§ 14 GewStG",
+      "BFH vom 07.06.2023, BStBl. II 2024, 76",
+    ],
+    themen: ["Stichtagsbetrachtung", "01.01. des Kalenderjahres", "Abweichendes Wirtschaftsjahr", "Wirtschaftliches Eigentum", "Erhebungszeitraum", "Gewerbesteuerliche Abweichung"],
+    bloecke: [
+      { text: "Maßgeblich für die Prüfung der Mindestbeteiligungshöhe sind – abweichend vom Wirtschaftsjahr des Anteilseigners – ausschließlich die Verhältnisse zu Beginn des Kalenderjahres, d. h. dem 01.01. Dabei handelt es sich um eine stichtagsbezogene Betrachtungsweise, dessen Verhältnisse für den gesamten Veranlagungszeitraum maßgebend sind. Beträgt die Beteiligung daher zu diesem Stichtag weniger als 10 % des Grund- oder Stammkapitals, greift die Streubesitzregelung grundsätzlich für sämtliche Beteiligungserträge dieses Veranlagungszeitraum. Dies gilt auch in den Fällen, in denen die Beteiligungsquote nach dem 01.01. auf mindestens 10 % ansteigt, mit Ausnahme der in § 8b Abs. 4 Satz 6 KStG geregelten Fälle (siehe unter 2.1.3.2.2). Umgekehrt bedeutet dies, dass die Steuerfreiheit des § 8b Abs. 1 KStG für diesen Veranlagungszeitraum erhalten bleibt, wenn die Beteiligungsquote zum 01.01. zunächst mindestens 10 % betragen hat, anschließend aber z. B. aufgrund einer Anteilsveräußerung auf unter 10 % sinkt. Für die Frage der Zurechnung der maßgeblichen Anteile ist auf das wirtschaftliche Eigentum abzustellen." },
+      { text: "Die Verhältnisse zum 01.01. des Kalenderjahres sind auch in Fällen eines abweichenden Wirtschaftsjahres der Anteilseigner-Kapitalgesellschaft maßgebend. Für Zwecke der Überprüfung der Mindestbeteiligungsquote ist danach jeweils auf den Beginn des Kalenderjahres abzustellen, in dem die Gewinnausschüttung der Anteilseigner-Kapitalgesellschaft zugeflossen ist. So sind z. B. bei einem vom 01.07.2025 – 30.06.2026 laufenden Wirtschaftsjahr für die in der Zeit vom 01.07. – 31.12.2025 zugeflossenen Gewinnausschüttungen ausschließlich die Beteiligungsverhältnisse zum 01.01.2025 maßgebend, wohingegen für die Gewinnausschüttungen in der Zeit vom 01.01. – 30.06.2026 die Beteiligungsquote zum 01.01.2026 entscheidungsrelevant wäre." },
+      { text: "Für gewerbesteuerliche Zwecke des § 9 Nr. 2a GewStG ist abweichend davon auf den Beginn des maßgeblichen Erhebungszeitraums abzustellen, was vorliegend der 01.01.2026 wäre. Denn die Kapitalgesellschaft bezieht den maßgeblichen Gewerbeertrag i. S. des § 14 GewStG im Kalenderjahr 2026, wofür das Ergebnis des Wirtschaftsjahres 2025/2026 die Ausgangsgröße bilden würde. Daher würde sich das gewerbesteuerliche Schicksal nur nach dieser Beteiligungsquote für das maßgebliche Kalenderjahr dieses Erhebungszeitraums richten." },
+      { typ: "tabelle", spalten: ["Wirtschaftsjahr 01.07.2025 – 30.06.2026", "Zufluss der Ausschüttung", "Maßgeblicher Stichtag für § 8b Abs. 4 KStG", "Maßgeblicher Stichtag für § 9 Nr. 2a GewStG"], zeilen: [
+        ["erste Hälfte", "01.07. bis 31.12.2025", "01.01.2025", "01.01.2026 (Beginn des Erhebungszeitraums)"],
+        ["zweite Hälfte", "01.01. bis 30.06.2026", "01.01.2026", "01.01.2026 (Beginn des Erhebungszeitraums)"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt den Fall des abweichenden Wirtschaftsjahres dar, den die Quelle im Fließtext entwickelt. Der Befund ist unbequem, aber eindeutig: In **einem** Wirtschaftsjahr können für die Körperschaftsteuer **zwei verschiedene** Stichtage maßgebend sein, je nachdem, in welches Kalenderjahr der Zufluss fällt – und für die Gewerbesteuer gilt daneben ein dritter Maßstab, nämlich der Beginn des Erhebungszeitraums. Wer bei abweichendem Wirtschaftsjahr nur einen Stichtag prüft, rechnet für die eine Hälfte des Jahres falsch." },
+      { text: "Merke (eigene Zusammenfassung): Die Stichtagsbetrachtung wirkt in beide Richtungen und ist damit für den Steuerpflichtigen einmal Risiko und einmal Chance. Wer am 01.01. unter 10 % liegt, bleibt für das ganze Jahr steuerpflichtig, auch wenn er im Februar aufstockt (vorbehaltlich des § 8b Abs. 4 Satz 6 KStG). Wer am 01.01. über 10 % liegt, bleibt für das ganze Jahr freigestellt, auch wenn er im Februar verkauft. Maßgebend für die Zurechnung ist dabei nicht das zivilrechtliche, sondern das **wirtschaftliche** Eigentum – so der BFH vom 07.06.2023." },
     ],
   },
 ];

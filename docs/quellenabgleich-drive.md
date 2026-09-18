@@ -10617,8 +10617,45 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.1.3; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.1.3.2.2; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitt 2.1.3 – Mindestbeteiligungsquote
+
+Quelle: dieselbe Datei; übernommen als Kapitel 7 und 8, dazu die Abwandlung des
+Korrespondenz-Beispiels im Kapitel 6. Prüfung: `npm run check:k2-kst-teil2` (8 Kapitel,
+86 Blöcke, 4 Tabellen).
+
+**Die Abwandlung zum Abschnitt 2.1.2.2** zeigt § 32a Abs. 1 KStG in der zweiten, weniger
+erwarteten Richtung, was der Datensatz eigens vermerkt: Im Regelfall bringt die Korrektur dem
+Anteilseigner die Steuerbefreiung zurück; hier nimmt sie ihm eine bereits gewährte Behandlung,
+weil das Finanzgericht die verdeckte Gewinnausschüttung verneint hat – aus dem freigestellten
+Bezug wird wieder eine voll steuerpflichtige Betriebseinnahme. Die Vorschrift ist ergebnisoffen.
+
+**Das lehrreichste Beispielpaar des Abschnitts 2.1.3.1** unterscheidet sich in einem einzigen
+Buchstaben – X-GmbH gegen X-KG – und führt zu entgegengesetzten Ergebnissen: über die
+Kapitalgesellschaft bleibt es bei 6 % und damit voller Steuerpflicht, über die Personengesellschaft
+kommen nach § 8b Abs. 4 Sätze 4 und 5 KStG 48 % hinzu (80 % × 60 %), die Quote beträgt 54 % und
+die Ausschüttung ist steuerfrei. Der Grund ist die ertragsteuerliche Transparenz der
+Personengesellschaft. Der Datensatz stellt beides tabellarisch gegenüber und weist die
+Gegenüberstellung samt Rechenprobe als eigene Ergänzung aus.
+
+**Zur Wertpapierleihe** merkt der Datensatz an, dass § 8b Abs. 4 Satz 3 KStG eine gezielte
+Missbrauchsabwehr ist und dafür sogar das wirtschaftliche Eigentum überspielt – die Quelle sagt
+ausdrücklich, dass die Zurechnung beim Verleiher bleibt, obwohl der Entleiher wirtschaftlicher
+Eigentümer sein kann.
+
+**Der unbequemste Befund des Abschnitts 2.1.3.2.1** betrifft das abweichende Wirtschaftsjahr und
+ist im Datensatz tabellarisch geordnet: In **einem** Wirtschaftsjahr können für die
+Körperschaftsteuer **zwei verschiedene** Stichtage maßgebend sein, je nachdem, in welches
+Kalenderjahr der Zufluss fällt – und für die Gewerbesteuer gilt nach § 9 Nr. 2a GewStG daneben ein
+dritter Maßstab, der Beginn des Erhebungszeitraums. Wer nur einen Stichtag prüft, rechnet für die
+eine Hälfte des Jahres falsch.
+
+**Die Stichtagsbetrachtung wirkt in beide Richtungen** und ist damit einmal Risiko und einmal
+Chance – der Datensatz fasst das in einem eigens gekennzeichneten „Merke“ zusammen. Maßgebend für
+die Zurechnung ist dabei nicht das zivilrechtliche, sondern das **wirtschaftliche** Eigentum (BFH
+vom 07.06.2023).
 
 ### KSt Teil II (Hamacher), Abschnitte 2.1.1.2 bis 2.1.2.2 – Ansässigkeit und Korrespondenzprinzip
 

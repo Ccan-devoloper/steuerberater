@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit sechs Kapitel mit 60 Abschnitten und zwei
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit acht Kapitel mit 86 Abschnitten und vier
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2422,7 +2422,23 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   der Bescheid der leistenden Körperschaft gerade wegen der verdeckten Gewinnausschüttung
   korrigiert wird; ein Grundlagenbescheid ist er auch dort nicht, weshalb das Finanzamt des
   Anteilseigners eigenständig prüfen darf. Eine Übersicht stellt diesen Mechanismus dem
-  spiegelverkehrten der verdeckten Einlage aus Teil I gegenüber.
+  spiegelverkehrten der verdeckten Einlage aus Teil I gegenüber; eine Abwandlung zeigt
+  § 32a Abs. 1 KStG in der umgekehrten Richtung, in der die Korrektur dem Anteilseigner eine
+  bereits gewährte Steuerbefreiung wieder nimmt.
+  Die **Streubesitzgrenze des § 8b Abs. 4 KStG** ist ebenfalls eingepflegt: Maßgebend ist allein
+  die **unmittelbare** Beteiligung am Nenn- oder Stammkapital, nicht die Stimmrechte und nicht
+  mittelbare Beteiligungen – wohl aber anteilig die über eine **Personengesellschaft** gehaltenen
+  Anteile (§ 8b Abs. 4 Sätze 4 und 5 KStG), weil der Mitunternehmeranteil ertragsteuerlich
+  transparent ist. Zwei Beispiele der Quelle unterscheiden sich nur in der Rechtsform der
+  Zwischengesellschaft und gehen deshalb entgegengesetzt aus: über eine GmbH bleibt es bei 6 %
+  und damit voller Steuerpflicht, über eine KG kommen 48 % hinzu und die Ausschüttung ist
+  steuerfrei. Geliehene Anteile bleiben nach § 8b Abs. 4 Satz 3 KStG beim Verleiher, was die
+  naheliegende Gestaltung des Zukaufs zum Stichtag abschneidet – die Vorschrift überspielt dafür
+  sogar das wirtschaftliche Eigentum. Maßgeblicher Stichtag ist der **01.01. des Kalenderjahres**,
+  und die Betrachtung wirkt in beide Richtungen: Ein späterer Anstieg über 10 % hilft nicht, ein
+  späteres Absinken schadet nicht. Bei abweichendem Wirtschaftsjahr können in einem Wirtschaftsjahr
+  zwei verschiedene Stichtage maßgebend sein, während die Gewerbesteuer nach § 9 Nr. 2a GewStG
+  daneben auf den Beginn des Erhebungszeitraums abstellt.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
