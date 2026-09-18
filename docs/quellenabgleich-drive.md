@@ -2579,3 +2579,59 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   bis 31.12.13, Anzeige am 25.08.13 und Ablaufhemmung bis **25.08.14**. Beide
   Bearbeitungsstichtage (10.03.08 und 01.02.14) liegen innerhalb der jeweiligen
   Ablaufhemmung.
+
+## AO-Skript (Jacobs), Teil VI – Abschnitt 15: Vollstreckungsrecht (Teil 1)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `16BvLDqXslOh1SUuI8TBFtDFrg19JjlRc`),
+  Abschnitt 15 „Arbeitsunterlage Vollstreckungsrecht – §§ 249 bis 327 AO“, laut
+  Stoffverteilungsplan 53 Seiten.
+- Einpflege dieses Durchgangs: sechs Kapitel – Teil I (rechtliche Grundlagen, Überblick
+  über die gesetzlichen Regelungen), Teil II Tz. 1 bis 6 (vollziehbarer und vollstreckbarer
+  Verwaltungsakt, Leistungsgebot einschließlich Gesamtrechtsnachfolge, Steueranmeldungen
+  mit Übungsfall, Vollstreckungsschonfrist, Fälligkeit, Mahnung) und Teil III (Einstellung
+  und Beschränkung der Vollstreckung nach § 257 AO mit zwei Fallbeispielen). Das Skript
+  umfasst jetzt 11 Teile, 115 Kapitel, 2.406 Blöcke und 216 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: Teil IV (Vollstreckung in bewegliche Sachen, §§ 281ff AO) und die
+  nachfolgenden Teile des Abschnitts 15.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - Kapitel 1: Verweis „§ 295 AO iVm § 811ff ZPO“ (Einzahl-Paragraphenzeichen bei einer
+    Mehrzahl von Vorschriften). Der Überblick über die gesetzlichen Regelungen endet bei
+    § 326 AO, obwohl die Überschrift der Arbeitsunterlage den Bereich mit „§§ 249 – 327 AO“
+    bezeichnet.
+  - Kapitel 2, FG 1: „➢ Somit sind die Voraussetzungen für den Beginn der Vollstreckung bei
+    Bekanntgabefehlern trotz der Rechtswidrigkeit und Verstoß gegeben § 249 I 1 AO
+    grundsätzlich erfüllt.“ – der Satz ist in der Quelle verstellt; gemeint ist erkennbar
+    „… trotz der Rechtswidrigkeit und des Verstoßes gegen § 249 I 1 AO …“. Ferner
+    „Vollstreckungsnahnahmen“ statt Vollstreckungsmaßnahmen und eine überzählige
+    schließende Klammer hinter „zu gewähren ist)“.
+  - Kapitel 2, FG 2: „durch den Stpfll.“ statt Stpfl.
+  - Kapitel 4: „§§ 150 Abs. 1 Satz i.V.m. 167, 168 AO“ ohne Satzangabe – an anderer Stelle
+    desselben Abschnitts (Tz. 4) heißt es zutreffend „§ 150 I Satz 3“. Im selben Absatz
+    fehlt das schließende Anführungszeichen bei „gesetzliches Leistungsgebot. In Tz. 3.4
+    steht „Hautanspruch“ statt Hauptanspruch.
+  - Kapitel 4, Lösungstabelle Variante b): Fundstelle „§ 220 I AO iVm § 18 O AO“ – gemeint
+    ist, wie in Variante a), § 18 Abs. 1 UStG.
+  - Kapitel 4: Der Sachverhalt bezeichnet die Fallgestaltungen als „Variante 1/2/3“, die
+    Lösungstabelle dagegen als „Variante a)/b)/c)“. Die Zuordnung ist der Reihenfolge nach
+    eindeutig; der Datensatz gibt beide Bezeichnungen wieder und weist auf die Abweichung
+    hin.
+  - Kapitel 6, Übersichtstabelle: In der Zeile zu § 257 I Nr. 2 und 3 AO fehlt die
+    schließende Klammer nach „Rechtsbehelfsverfahren“. In Fall ❷ verweist die Quelle für
+    das Unterbleiben der Aufhebung auf „§ 257 I Nr. 3 AO“; nach dem Regelungszusammenhang
+    ergibt sich diese Rechtsfolge aus § 257 Abs. 2 Satz 3 AO. Beides ist im Wortlaut
+    übernommen und im Datensatz vermerkt.
+
+  Nachgerechnet und zutreffend: das Beispiel zum Anrechnungs-Verwaltungsakt – Aufgabe zur
+  Post am 07.11.02, Bekanntgabe nach vier Tagen am 11.11.02, Zahlungsfrist von einem Monat
+  bis zum **11.12.02**, zu entrichtender Betrag 100.000 ./. 80.000 = **20.000 €**. Ebenso
+  der Übungsfall zur Steueranmeldung: Variante a) Fälligkeit 10.09.01 (§ 18 Abs. 1 UStG),
+  Wirksamkeit bereits am 07.09.01, Vollstreckung ab **11.09.01**; Variante b) Wirksamkeit
+  erst am 18.09.01 nach eingetretener Fälligkeit, Vollstreckung ab **19.09.01**; Variante c)
+  Bescheid vom 02.10.01, Bekanntgabe am 06.10.01, Schonfrist bis 13.10.01, Fälligkeit des
+  Erhöhungsbetrages von 4.000 € am 06.11.01 (§ 220 Abs. 2 AO, § 18 Abs. 4 Satz 2 UStG),
+  Vollstreckung ab **07.11.01**.

@@ -290,6 +290,25 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Subsidiarität – und der Teil VI mit der Ablaufhemmung des § 171 Abs. 9 AO, die je nach
   Anzeige nach §§ 153, 371 oder 378 Abs. 3 AO auf einer Vier-, Zehn- oder Fünfjahresfrist
   aufsetzt, samt Fallbeispiel mit zwei Varianten. **Abschnitt 14 ist damit vollständig.**
+  Aus Teil VI ist außerdem Abschnitt 15 (Vollstreckungsrecht, §§ 249 bis 327 AO) begonnen.
+  Der Teil I ordnet die Vollstreckung wegen Geldforderungen in das Zusammenspiel von AO, BGB
+  (§§ 90ff, 1120, 1362), ZPO (§§ 739, 769ff, 811ff, 865), ZVG sowie Vollstreckungs- und
+  Vollziehungsanweisung ein und stellt die vier Normblöcke der §§ 249–267, 281–308, 309–321
+  und 322–326 AO gegenüber. Der Teil II bringt die sechs allgemeinen Vollstreckungs-
+  voraussetzungen: den vollziehbaren Verwaltungsakt des § 249 Abs. 1 AO mit den vier
+  Fallgruppen zum wirksamen Verwaltungsakt – Bekanntgabefehler (Vollstreckungsmaßnahme nur
+  anfechtbar, Heilung über § 126 AO möglich), Entstehungsfehler (Nichtigkeit, keine Heilung,
+  Aufhebung nach § 257 Abs. 1 Nr. 2 AO), bloße Rechtswidrigkeit (§ 256 AO) und anhängiger
+  Rechtsbehelf (§§ 361 Abs. 1 AO, 69 Abs. 1 FGO) – jeweils mit den Leitsätzen 1 bis 3 des BFH
+  in BStBl II 2003, S. 109; den vollstreckbaren Verwaltungsakt des § 251 Abs. 1 AO; das
+  Leistungsgebot des § 254 AO mit dem Anrechnungs-Verwaltungsakt zum Einkommensteuerbescheid
+  und den drei Fallgruppen der Gesamtrechtsnachfolge; die Steueranmeldung als gesetzliches
+  Leistungsgebot nach § 254 Abs. 1 Satz 4 AO samt dem Übungsfall zur Umsatzsteuer-
+  Voranmeldung 08/01, dessen drei Varianten in einer vierspaltigen Lösungstabelle bis zum
+  Vollstreckungsbeginn am 11.09.01, 19.09.01 und 07.11.01 durchgerechnet sind;
+  Vollstreckungsschonfrist, Fälligkeit nach § 220 AO und die Mahnung als Sollvorschrift. Der
+  Teil III behandelt Einstellung und Beschränkung der Vollstreckung nach § 257 AO mit zwei
+  Fallbeispielen zur Pkw-Pfändung.
   Prüfung: `npm run check:k1-ao-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf
   Blöcken (§ 6 Abs. 5 EStG, § 6 Abs. 3 EStG, Gesellschafterwechsel, § 24 UmwStG,
