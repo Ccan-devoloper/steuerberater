@@ -322,7 +322,8 @@ Für diese beiden Gebiete gibt es bislang keinen Campus. Beide Ordner sind jetzt
   Haupttatbestand (§ 1 Abs. 1 Nr. 1), Nebentatbestände (§ 1 Abs. 1 Nr. 2 bis 7),
   Ersatztatbestand (§ 1 Abs. 2) und alle vier Ergänzungstatbestände (§ 1 Abs. 2a, 2b nebst
   Börsenklausel, 3 und 3a) einschließlich der Übergangsregeln des § 23 Abs. 20 ff. GrEStG und
-  der Grundstückszugehörigkeit nach § 1 Abs. 4a GrEStG. Offen sind die Abschnitte IV (Steuerbefreiungen und
+  der Grundstückszugehörigkeit nach § 1 Abs. 4a GrEStG; dazu aus **Abschnitt IV** die acht
+  allgemeinen Befreiungen des § 3 GrEStG. Offen sind der Rest des Abschnitts IV (Steuerbefreiungen und
   -vergünstigungen, §§ 3 bis 7 GrEStG), V (Bemessungsgrundlage), VI (Steuersatz und
   Steuerberechnung), VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
   Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG). Sie sind sämtlich

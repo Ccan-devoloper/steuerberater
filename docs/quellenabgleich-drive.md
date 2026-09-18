@@ -9554,3 +9554,52 @@ gekennzeichnet.
 
 **Unabhängig nachgerechnet:** 89,9 % × 10,1 % = 9,0799 % ≈ 9,08 %; 89,9 + 9,08 = 98,98 %;
 94,9 + 1 = 95,9 %; 94,9 + 5,1 = 100 %; 80 + 20 = 100 %. Alle Beispiele gehen auf.
+
+### Skript Grunderwerbsteuer (Vossel), § 3 GrEStG – die acht allgemeinen Befreiungen
+
+- **Quelle:** Drive-ID `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, Abschnitt IV.1.1.
+- **Ziel:** `src/data/k1-grest-skript.js`, Eintrag `grest-11`. Prüfung:
+  `npm run check:k1-grest-skript`.
+
+**Der Beginn von Abschnitt IV.** Nach der vollständigen Steuerbarkeit folgt jetzt die zweite
+Stufe des Prüfungsschemas. § 3 GrEStG enthält acht Befreiungen, die sämtlich im Wortlaut
+erfasst sind – jede mit eigener Zwischenüberschrift, so dass sie im Campus einzeln auffindbar
+bleiben.
+
+**Zwei Punkte, an denen die Quelle über den Gesetzeswortlaut hinausgeht und die deshalb
+besonders wertvoll sind:**
+
+1. **§ 3 Nr. 1 GrEStG ist eine Freigrenze, keine Bagatellregel im üblichen Sinn** – und sie
+   ist **grundstücksbezogen** zu prüfen, bei Miteigentum sogar anteilsbezogen. Das Beispiel
+   führt es vor: Zwei Eheleute erwerben von zwei Eheleuten je zur Hälfte, Kaufpreis
+   insgesamt 10.000 €. Grunderwerbsteuerlich sind das **vier** Erwerbsvorgänge zu je
+   2.500 € – und weil 2.500 € die Grenze nicht *übersteigt*, ist der gesamte Vorgang
+   steuerfrei. Die Quelle merkt zusätzlich an, dass § 3 Nr. 1 GrEStG **neben** anderen
+   Befreiungen anwendbar bleibt: Bleibt nach einer anderen Befreiung ein Restbetrag von
+   höchstens 2.500 €, greift die Freigrenze auf diesen Rest.
+2. **§ 3 Nr. 2 GrEStG greift schon bei bloßer Einschlägigkeit des ErbStG** – es kommt nicht
+   darauf an, ob Erbschaft- oder Schenkungsteuer tatsächlich erhoben wird. Auch wenn die
+   Freibeträge des § 16 ErbStG alles abdecken, tritt die Grunderwerbsteuer zurück. Bei der
+   gemischten Schenkung bezieht sich die Befreiung dagegen nur auf den unentgeltlichen Teil.
+
+**Die Systematik von § 3 Nr. 2 zu Nr. 3 GrEStG** ist im Zusammenhang erfasst: Der Erbanfall
+auf die Erbengemeinschaft ist nach Nr. 2 befreit; die spätere Erbauseinandersetzung ist ein
+**zweiter** steuerbarer Vorgang, für den Nr. 2 nicht mehr gilt und für den auch §§ 6, 7 GrEStG
+keine vollständige Befreiung brächten – deshalb Nr. 3. Das Beispiel mit zwei Erben und zwei
+Grundstücken zeigt beide Stufen nebeneinander.
+
+**Eigene Feststellungen – zwei sprachliche Fehler der Quelle:**
+
+1. „…wenn der für die Berechnung der Steuer maßgebende **Werte** (gem. § 8 GrEStG) 2.500 €
+   nicht übersteigt“ – gemeint ist „Wert“.
+2. Bei § 3 Nr. 4 GrEStG heißt es, nicht befreit seien Übertragungen zwischen Verlobten oder
+   „Personen, welche in einer **nichtehelichen / eingetragenen** Lebenspartnerschaft leben“.
+   Das widerspricht dem unmittelbar vorangehenden Satz, nach dem gerade die eingetragene
+   Lebenspartnerschaft befreit ist; gemeint ist ersichtlich die nichteheliche bzw. **nicht**
+   eingetragene Lebensgemeinschaft. Der Wortlaut ist unverändert übernommen und der
+   Widerspruch an Ort und Stelle benannt.
+
+**Offen aus Abschnitt IV** bleiben die Ausnahmen bei Ergänzungstatbeständen (Abschnitt 1.2),
+§ 4 GrEStG, die Erwerbsvorgänge zwischen Gesamthändern nach §§ 5 und 6 GrEStG – mit den
+Zehn- und Fünfzehnjahresfristen, die schon im Prüfungsschema angeklungen sind – und die
+konzerninterne Umstrukturierung nach § 6a GrEStG.
