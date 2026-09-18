@@ -22,10 +22,9 @@
    oder unentgeltliche Übertragung, überteuerte Lieferung, Übernahme von
    Verbindlichkeiten, Forderungsverzicht und Verzicht gegen Besserungsschein);
    dazu der vollständige Exkurs 3.4.6 zum Gesellschafterdarlehen mit Rangrücktritt.
-   Vom Abschnitt 3.5 (Auswirkungen) sind die Teile 3.5.1 bis 3.5.2.3.2 übernommen,
-   also auch der Forderungsverzicht beim Anteilseigner im Privat- und im
-   Betriebsvermögen. Der Rest des Abschnitts 3.5 (3.5.2.3.3 bei
-   Anteilseigner-Kapitalgesellschaften und 3.5.2.4 Nutzungsvorteile), die
+   Der Abschnitt 3.5 (Auswirkungen) ist vollständig – bis zum Forderungsverzicht
+   beim Anteilseigner in allen drei Konstellationen und zu den Aufwendungen bei
+   Nutzungsvorteilen einschließlich der überquotalen Nutzungseinlage. Die
    Abschnitte 3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen nach demselben
    Verfahren; der Campus weist den Stand aus.
 
@@ -1305,6 +1304,104 @@ export const kstTeil1 = [
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die Zeilen eins und zwei sowie der Wert von 43.200 € in Zeile zwei sind aus den Angaben der Quelle abgeleitet – sie nennt für den Mitunternehmer A nur die Hinzurechnung von 28.800 €, nicht den verbleibenden abziehbaren Betrag. Die Rechnung: 80 % von 90.000 € = 72.000 €, davon 40 % = 28.800 € Hinzurechnung, verbleiben 43.200 €. Alle übrigen Zahlen stammen unverändert aus der Quelle und gehen auf (90.000 € × 60 % = 54.000 €, × 40 % = 36.000 €; 20 % von 90.000 € = 18.000 €)." },
       { text: "Merke (eigene Zusammenfassung des Abschnitts): Die Prüfung im Betriebsvermögen läuft in drei Schritten. Erstens: Wer ist der Steuerpflichtige? Bei einer Personengesellschaft nicht sie selbst, sondern jeder Mitunternehmer einzeln – deshalb kann dieselbe Gewinnminderung bei einem Gesellschafter gekürzt und beim anderen voll abziehbar sein. Zweitens: War er irgendwann während der Darlehenslaufzeit zu mehr als 25 % beteiligt? Das „oder war“ des Gesetzes macht die Prüfung zu einer Frage über die gesamte Laufzeit, nicht nur über den Stichtag. Drittens: Ist der Gegenbeweis der Fremdüblichkeit nach § 3c Abs. 2 Satz 3 EStG geführt? Nur wenn nicht, greift das Teilabzugsverbot." },
+    ],
+  },
+  {
+    id: "kst-t1-32",
+    kapitel: "32",
+    abschnittNr: "3.5.2.3.3",
+    title: "3.5.2.3.3 Forderungsverzicht bei Kapitalgesellschaften als Anteilseigner",
+    thema: "Ist der verzichtende Gesellschafter selbst eine Kapitalgesellschaft, tritt an die Stelle des § 3c Abs. 2 EStG das Abzugsverbot des § 8b Abs. 3 Sätze 4 bis 9 KStG – die Gewinnminderung ist dann in voller Höhe hinzuzurechnen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.5.2.3.3 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1 KStG", "§ 8b Abs. 3 Sätze 4 bis 9 KStG",
+      "§ 6 Abs. 6 Satz 2 EStG",
+    ],
+    themen: ["Anteilseigner-Kapitalgesellschaft", "Abzugsverbot", "Gewinnminderung aus Gesellschafterdarlehen"],
+    bloecke: [
+      { text: "Bei einer Anteilseigner-Kapitalgesellschaft unterliegt die aus dem Gesellschafterdarlehen resultierende Gewinnminderung dem Abzugsverbot des § 8b Abs. 3 Satz 4 – 9 KStG. (Die Quelle verweist für die Einzelheiten auf das Skript KSt Teil II „Beteiligungserträge i. S. des § 8b KStG“.)" },
+      { text: "Beispiel: Die A-GmbH besitzt eine Darlehensforderung über 100.000 € gegenüber ihrer B-GmbH (Beteiligung von 100 %). In 2026 verzichtet die A-GmbH aus gesellschaftsrechtlichen Gründen auf die Forderung, die zu diesem Zeitpunkt noch einen Teilwert von 10.000 € hat." },
+      { text: "Lösung: Der Forderungsverzicht führt in Höhe des werthaltigen Teils von 10.000 € zu einer verdeckten Einlage in die B-GmbH. In dieser Höhe resultieren der A-GmbH zusätzliche Anschaffungskosten der Beteiligung (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 6 Satz 2 EStG). In der restlichen Höhe von 90.000 € entsteht ein bilanzieller Aufwand, weil die Forderung aufgrund des Verzichts in voller Höhe auszubuchen ist: Aufwand 90.000 € und Beteiligung 10.000 € an Forderung 100.000 €." },
+      { text: "Diese Gewinnminderung ist dem Einkommen der A-GmbH nach § 8b Abs. 3 Satz 4 KStG wieder hinzuzurechnen." },
+      { typ: "tabelle", spalten: ["Verzichtender Gesellschafter", "Norm für den nicht werthaltigen Teil (90.000 €)", "Ergebnis"], zeilen: [
+        ["natürliche Person, Forderung im Privatvermögen", "§ 20 Abs. 2 Nr. 7 EStG, ggf. verdrängt durch § 17 Abs. 2a Satz 3 Nr. 2 EStG", "Verlust abziehbar, aber nur mit Kapitaleinkünften verrechenbar (§ 20 Abs. 6 Satz 1 EStG)"],
+        ["natürliche Person, Forderung im Betriebsvermögen", "§ 3c Abs. 2 Satz 2 EStG bei Beteiligung von mehr als 25 %", "Teilabzugsverbot: 60 % abziehbar, 40 % hinzuzurechnen (54.000 € / 36.000 €)"],
+        ["Kapitalgesellschaft", "§ 8b Abs. 3 Sätze 4 bis 9 KStG", "Gewinnminderung in voller Höhe hinzuzurechnen (90.000 €)"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie fasst die drei Unterabschnitte 3.5.2.3.1 bis 3.5.2.3.3 zusammen, die dieselbe Ausgangslage – Forderung 100.000 €, werthaltig 10.000 € – dreimal durchspielen. Die Quelle hat dieses Beispiel bewusst durch alle drei Konstellationen geführt; die Gegenüberstellung macht sichtbar, worin sie sich unterscheiden. Beim werthaltigen Teil von 10.000 € ist die Behandlung überall dieselbe: verdeckte Einlage und nachträgliche Anschaffungskosten. Unterschiedlich ist nur das Schicksal der 90.000 €, und die Skala reicht vom eingeschränkt verrechenbaren Verlust über das Teilabzugsverbot bis zum vollständigen Abzugsverbot bei der Kapitalgesellschaft." },
+    ],
+  },
+  {
+    id: "kst-t1-33",
+    kapitel: "33",
+    abschnittNr: "3.5.2.4.1",
+    title: "3.5.2.4 Aufwendungen bei Nutzungsvorteilen – 3.5.2.4.1 Umqualifizierung der Aufwendungen",
+    thema: "Der Nutzungsvorteil ist zwar keine verdeckte Einlage – folgenlos bleibt er beim Gesellschafter dennoch nicht: Seine Aufwendungen wechseln den Veranlassungszusammenhang, weil sie nun der Erzielung von Beteiligungserträgen dienen. Bei natürlichen Personen greift deshalb § 3c Abs. 2 Satz 6 EStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.5.2.4.1 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 5 KStG",
+      "§ 3 Nr. 40 EStG", "§ 3c Abs. 2 Satz 1 EStG", "§ 3c Abs. 2 Satz 2 EStG",
+      "§ 3c Abs. 2 Satz 6 EStG", "§ 20 Abs. 9 EStG", "§ 32d Abs. 2 Nr. 3 EStG",
+      "BT-Drucks. 18/3017, 38",
+      "BMF vom 23.10.2013, BStBl. I 2013, 1269",
+    ],
+    themen: ["Nutzungsvorteil", "Nutzungseinlage", "Aufwandseinlage", "Teilabzugsverbot", "Betriebsaufspaltung", "Substanzbezogene Aufwendungen", "Option zum Teileinkünfteverfahren"],
+    bloecke: [
+      { text: "Überlässt der Gesellschafter seiner Gesellschaft Wirtschaftsgüter zu verbilligten Konditionen oder unentgeltlich, führt der daraus entstehende Nutzungsvorteil bei der Gesellschaft nicht zu einer verdeckten Einlage. Dies kann beim Anteilseigner dann allerdings Auswirkungen auf die Abziehbarkeit der mit dem Nutzungsvorteil zusammenhängenden Aufwendungen haben, wie z. B. die Refinanzierungskosten. Dabei ist wiederum die Rechtsform des Anteilseigners entscheidend." },
+      { text: "– Anteilseigner in der Rechtsform einer Kapitalgesellschaft: Unproblematisch sind die Fälle, in denen der Anteilseigner die Rechtsform einer Kapitalgesellschaft besitzt. Muss die Kapitalgesellschaft den zugewendeten Nutzungsvorteil ihrerseits refinanzieren, stehen diese Aufwendungen ausschließlich mit der Beteiligung an der bevorteilten Kapitalgesellschaft im Zusammenhang. Diese beteiligungsbezogenen Aufwendungen sind bei dieser voll abziehbar, weil über das Schicksal dieser Betriebsausgaben ausschließlich im Rahmen der Betriebsausgabenpauschalierung i. S. des § 8b Abs. 5 KStG entschieden wird." },
+      { text: "– Anteilseigner in der Rechtsform einer natürlichen Person: Anders ist dies hingegen bei einer natürlichen Person als Anteilseigner, weil diese Aufwendungen ihren Veranlassungszusammenhang wechseln (sog. Aufwands- bzw. Nutzungseinlage). Dies deshalb, weil in Höhe der fremdunüblichen Konditionen und der dann bei der Kapitalgesellschaft ersparten Aufwendungen vorrangig Beteiligungserträge i. S. des § 3 Nr. 40 EStG ermöglicht werden können. Die Aufwendungen stehen somit wirtschaftlich mit Beteiligungserträgen im Zusammenhang, so dass diesbezüglich ein Anwendungsfall des § 3c Abs. 2 EStG vorliegt. Nach § 3c Abs. 2 Satz 6 EStG unterliegen die mit der verbilligten bzw. unentgeltlichen Überlassung des Wirtschaftsgutes zusammenhängenden Aufwendungen dem Teilabzugsverbot. Einzige Voraussetzung ist dafür wiederum, dass der Steuerpflichtige an der Kapitalgesellschaft zu mehr als 25 % beteiligt ist oder war (entsprechend § 3c Abs. 2 Satz 2 EStG)." },
+      { text: "Diese Einschränkung gilt nach dem eindeutigen Gesetzeswortlaut nur für Betriebsvermögensminderungen bzw. Betriebsausgaben, weil der Gesetzgeber insbesondere (und damit beispielhaft) die Fälle einer Betriebsaufspaltung regeln wollte. Erfolgt die verbilligte bzw. unentgeltliche Überlassung im Privatvermögen, gilt diese Einschränkung m. E. auch für die Werbungskosten, die dann nach den Grundsätzen des Teilabzugsverbotes nur eingeschränkt berücksichtigt werden. Dies deshalb, weil § 3c Abs. 2 Satz 6 EStG den Tatbestand des § 3c Abs. 2 Satz 1 EStG lediglich erweitert. Dies setzt selbstverständlich aber die Option des Steuerpflichtigen nach § 32d Abs. 2 Nr. 3 EStG zum Teileinkünfteverfahren voraus, weil andererseits § 20 Abs. 9 EStG den Werbungskostenabzug verbieten würde." },
+      { text: "Sind die Voraussetzungen des § 3c Abs. 2 Satz 6 EStG nicht erfüllt, unterliegen lediglich die sog. nicht substanzbezogenen Aufwendungen der Einschränkung des § 3c Abs. 2 EStG, wie z. B. Schuldzinsen." },
+      { text: "Beispiel: A gewährt seiner A-GmbH, an welcher er zu 100 % beteiligt ist, im Rahmen einer Betriebsaufspaltung ein unverzinsliches Darlehen, welches von ihm vollumfänglich fremd refinanziert werden musste. Die damit zusammenhängenden Schuldzinsen betragen in 2026 10.000 €." },
+      { text: "Lösung: Die unverzinsliche Darlehensgewährung führt aus Sicht der A-GmbH zu einem Nutzungsvorteil und nicht zu einer verdeckten Einlage. Beim Anteilseigner ergibt sich diesbezüglich die Auswirkung, dass die damit zusammenhängenden Aufwendungen ebenfalls als durch das Beteiligungsverhältnis verursacht gelten, weil durch die unverzinsliche Darlehensgewährung vorrangig Beteiligungserträge ermöglicht werden sollen. Danach greift im Betriebsvermögen die Einschränkung des § 3c Abs. 2 Satz 6 EStG, weil der Nutzungsvorteil von einem qualifiziert beteiligten Steuerpflichtigen ausgeht. Danach sind die Betriebsausgaben um 40 % zu kürzen (40 % von 10.000 €). (Das Ergebnis von 4.000 € nennt die Quelle nicht ausdrücklich; abziehbar bleiben 6.000 €.)" },
+      { text: "Beispiel: A verpachtet eine Lagerhalle unentgeltlich an seine A-GmbH, an welcher er zu 100 % beteiligt ist (Betriebsaufspaltung). Die angemessene Pacht beträgt 150.000 €. Die laufenden Betriebsausgaben betragen in 2026 60.000 €, wovon 20.000 € auf die Gebäudeabschreibung entfallen. Betriebliche Gründe sind für die unentgeltliche Überlassung nicht erkennbar." },
+      { text: "Lösung: Die unentgeltliche Überlassung stellt keine verdeckte Einlage dar, da es sich lediglich um einen nicht einlagefähigen Nutzungsvorteil handelt. Durch die unentgeltliche Überlassung führt A der A-GmbH aber einen Vorteil zu, der dazu führt, dass die GmbH in Höhe der ersparten Kosten höhere Gewinne erzielt, die A nachfolgend in Form von Gewinnausschüttungen zufließen. Diesbezüglich ist die Einschränkung des § 3c Abs. 2 Satz 6 EStG zu beachten, wonach sämtliche mit dem überlassenen Wirtschaftsgut zusammenhängenden Aufwendungen nur zu 60 % abziehbar sind. Somit sind die abziehbaren Aufwendungen von 60.000 € um 24.000 € zu kürzen." },
+      { text: "Hinweis: Wäre die qualifizierte Beteiligungsquote nicht erfüllt, wären nur die nicht substanzbezogenen Aufwendungen nach § 3c Abs. 2 EStG zu kürzen, die substanzbezogenen Aufwendungen (wie die Gebäudeabschreibung) wären hingegen voll abziehbar." },
+      { text: "Anmerkung zur Bedeutung dieses Hinweises (eigene Ergänzung): Er erklärt, warum die Quelle im Sachverhalt eigens die 20.000 € Gebäudeabschreibung ausweist, obwohl sie in der Lösung nicht gesondert auftaucht. Sie wird erst in der Gegenprobe gebraucht: Bei einer Beteiligung von 25 % oder weniger wäre die Abschreibung als substanzbezogener Aufwand voll abziehbar, und nur die übrigen 40.000 € unterlägen der Kürzung. Die Zahl im Sachverhalt ist also kein überflüssiges Beiwerk, sondern der Schlüssel zur Alternativlösung." },
+      { text: "Abwandlung: A verpachtet die Lagerhalle für eine jährliche Pacht von 100.000 €. Die angemessene Pacht beträgt 150.000 €. Betriebliche Gründe sind für die verbilligte Überlassung nicht erkennbar." },
+      { text: "Lösung: Die Verpachtung erfolgt in Höhe von 2/3 entgeltlich und zu 1/3 unentgeltlich. Daraus resultiert bei der Gesellschaft ein Nutzungsvorteil, der eine verdeckte Einlage ausschließt. Beim Anteilseigner stehen die Betriebsausgaben aber im Umfang der unentgeltlichen Nutzungsüberlassung im wirtschaftlichen Zusammenhang zu der Beteiligung an der A-GmbH. Dies führt dann wiederum zur Anwendung des § 3c Abs. 2 Satz 6 EStG, welche zur anteiligen Kürzung sämtlicher Aufwendungen führt, welche mit dem unentgeltlichen Teil im Zusammenhang stehen. Daher sind die übrigen Aufwendungen wie folgt zu kürzen: 60.000 € x 1/3 (unentgeltlicher Teil) = 20.000 €; davon § 3c Abs. 2 EStG: 40 % von 20.000 € = 8.000 €." },
+      { text: "Rechenproben (eigene Ergänzung): Die Quote von 1/3 ergibt sich aus 150.000 € angemessener Pacht abzüglich 100.000 € gezahlter Pacht = 50.000 €, bezogen auf 150.000 €. Die Kürzungen gehen auf: 40 % von 60.000 € = 24.000 € im Grundfall, 40 % von 20.000 € = 8.000 € in der Abwandlung. Die Systematik ist in beiden Fällen dieselbe – erst den unentgeltlichen Anteil bestimmen, dann darauf das Teilabzugsverbot anwenden." },
+    ],
+  },
+  {
+    id: "kst-t1-34",
+    kapitel: "34",
+    abschnittNr: "3.5.2.4.2",
+    title: "3.5.2.4.2 Überquotale Nutzungseinlage",
+    thema: "Sind Mitgesellschafter beteiligt, trägt der Überlassende die Aufwendungen teilweise in deren Interesse. Die Folge ist eine zweistufige Kürzung: erst die Entnahme in Höhe des Quotenüberhangs, dann das Teilabzugsverbot auf den Rest – und beim Mitgesellschafter ist nichts abziehbar, weil es Drittaufwand ist",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.5.2.4.2 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 3c Abs. 2 EStG", "§ 3c Abs. 2 Satz 6 EStG", "§ 8 Abs. 3 Satz 2 KStG",
+      "H 4.7 EStH „Drittaufwand“",
+      "BFH vom 28.03.2000, VIII R 68/96", "BFH vom 25.07.2000, VIII R 35/99",
+      "BFH vom 24.02.2000, BStBl. II 2000, 314",
+    ],
+    themen: ["Überquotale Nutzungseinlage", "Quotenüberhang", "Drittaufwand", "Entnahme", "Eigenbetriebliche Gründe", "Nahestehende Person"],
+    bloecke: [
+      { text: "Sind an der Kapitalgesellschaft, welcher die unentgeltliche bzw. verbilligte Nutzungsüberlassung zugutekommt, auch nahe stehende Personen des Überlassenden beteiligt, kann dies insoweit beim Überlasser zu einer anteiligen Kürzung seiner Betriebsausgaben bzw. Werbungskosten führen:" },
+      { text: "– überquotale Nutzungseinlage: In den Fällen einer überquotalen Nutzungseinlage wendet der Anteilseigner den Mitgesellschaftern durch die ersparten Aufwendungen einen Vorteil zu. Dies deshalb, weil der Gesellschaft wiederum Aufwendungen erspart werden, woraus dann bei sämtlichen Anteilseignern höhere Gewinnausschüttungen resultieren können. Dadurch wird unterstellt, dass der Überlassende die mit der verbilligten bzw. unentgeltlichen Nutzungsüberlassung zusammenhängenden Aufwendungen auch im Interesse der übrigen Anteilseigner getragen hat, so dass bei ihm aufgrund der „privaten“ Mitveranlassung insoweit ein Abzug ausscheidet. Rechtsfolge dessen ist somit eine „Entnahme“ der mit dem Nutzungsvorteil zusammenhängenden Aufwendungen in Höhe des Beteiligungsquotenüberhangs, die bei den bevorteilten nahe stehenden Personen als Drittaufwand aber nicht steuerwirksam abgezogen werden können. Besitzt der Überlassende die Rechtsform einer Kapitalgesellschaft, wäre insoweit eine verdeckte Gewinnausschüttung anzunehmen." },
+      { text: "– eigenbetriebliche Gründe für die Überlassung: Diese Rechtsfolgen gelten nur dann nicht, wenn der Überlassende betriebliche Gründe für die überquotale Nutzungseinlage vorbringen kann und danach bereits eigennützig gehandelt hat, z. B. um durch die verbilligte Überlassung seine zukünftigen Geschäftsbeziehungen zu sichern." },
+      { text: "Die o. g. Grundsätze gelten auch in den Fällen, in denen eine dem Gesellschafter nahe stehende Person dieser Gesellschaft einen Nutzungsvorteil zuwendet. Ein Abzug der mit diesem Vorteil zusammenhängenden Aufwendungen scheidet danach aus, weil diese vorrangig mit der Erzielung von Beteiligungserträgen einer anderen Person zusammenhängen. Diese Aufwendungen sind – sofern im betrieblichen Bereich abgebildet – als Privatentnahme zu würdigen. Aus Sicht des Anteilseigners kommt ein Abzug der Aufwendungen wegen Drittaufwands ebenfalls nicht in Betracht." },
+      { text: "Beispiel: A verpachtet eine Lagerhalle für 100.000 € an seine A-GmbH (Betriebsaufspaltung), an welcher er zu 80 % beteiligt ist. Die restlichen Anteile (20 %) sind seiner Ehefrau zuzurechnen. Die angemessene Pacht beträgt 150.000 €. Die laufenden Betriebsausgaben betragen in 2026 60.000 €. Betriebliche Gründe sind für die teilentgeltliche Überlassung nicht erkennbar." },
+      { text: "Lösung: A erbringt mit der verbilligten Grundstücksüberlassung eine überquotale Nutzungseinlage, weil er insoweit einen über seine Beteiligung hinausgehenden Gesellschafterbeitrag erbringt. Weil A für die Überlassung teilweise ein Entgelt erhält, liegt lediglich in Höhe von 1/3 eine unentgeltliche Überlassung vor, deren damit zusammenhängende Betriebsausgaben 20.000 € (1/3 von 60.000 €) betragen. Aufgrund der gesellschaftsrechtlichen Veranlassung der Teilentgeltlichkeit kommt es insoweit in Höhe von 20 % zu einer Zuwendung an eine ihm nahe stehende Person, so dass die Betriebsausgaben insoweit bereits nach Entnahmengrundsätzen zu kürzen sind (= 4.000 €; 20 % von 20.000 €)." },
+      { text: "Die restlichen, mit dem unentgeltlichen Anteil zusammenhängenden Betriebsausgaben von 16.000 € (20.000 € ./. 4.000 €) unterliegen bei A der Einschränkung des § 3c Abs. 2 Satz 6 EStG. Die Kürzung dieser Aufwendungen (16.000 € x 40 %) beträgt 6.400 €. In 2026 kommt es bei A somit zu einer Versagung des Betriebsausgabenabzugs von insgesamt 10.400 € (4.000 € + 6.400 €)." },
+      { typ: "tabelle", spalten: ["Ermittlung der Einkünfte aus der Gebäudeüberlassung", "Betrag"], zeilen: [
+        ["Betriebseinnahmen", "100.000 €"],
+        ["./. anteilige Aufwendungen (2/3 von 60.000 €)", "./. 40.000 €"],
+        ["./. überquotale Aufwendungen (nach Anwendung § 3c Abs. 2 EStG)", "./. 9.600 €"],
+        ["= Gewinn", "50.400 €"],
+      ] },
+      { text: "Anmerkung zur Tabelle: Sie gibt die Ermittlung der Quelle unverändert wieder. Zur Herkunft der 9.600 € (eigene Ergänzung, weil die Quelle die Zwischenrechnung nicht ausschreibt): Von den 20.000 € Aufwendungen des unentgeltlichen Teils sind zunächst 4.000 € als Entnahme ausgeschieden; von den verbleibenden 16.000 € sind nach § 3c Abs. 2 EStG 60 % abziehbar, also 9.600 €. Die Probe geht auf: 100.000 € ./. 40.000 € ./. 9.600 € = 50.400 €, und die Summe der versagten Beträge 4.000 € + 6.400 € = 10.400 € entspricht 20.000 € ./. 9.600 €." },
+      { text: "Merke zur Reihenfolge (eigene Ergänzung): Die Zweistufigkeit ist der eigentliche Prüfungspunkt dieses Abschnitts und die häufigste Fehlerquelle. Erst wird der auf den Mitgesellschafter entfallende Quotenüberhang nach **Entnahmegrundsätzen** ausgeschieden – dieser Teil ist endgültig verloren, weil er beim Mitgesellschafter als Drittaufwand ebenfalls nicht abziehbar ist. Erst auf den **verbleibenden** Betrag wird das Teilabzugsverbot des § 3c Abs. 2 EStG angewandt. Wer die Reihenfolge vertauscht oder eine der beiden Stufen übergeht, kommt auf ein anderes Ergebnis." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH. Seine Ehefrau gibt der A-GmbH ein unverzinsliches Darlehen, wofür diese Refinanzierungskosten i. H. von 60.000 € aufwenden musste. Betriebliche Gründe sind nicht gegeben." },
+      { text: "Lösung: Der Vorgang führt aus Sicht der A-GmbH zu einem Nutzungsvorteil. Bei der Ehefrau hingegen ergeben sich Auswirkungen hinsichtlich der Abziehbarkeit der Refinanzierungskosten. Denn diese stehen nunmehr wirtschaftlich im Zusammenhang mit Beteiligungserträgen des A, weil der ersparte Zinsaufwand den ausschüttbaren Gewinn der A-GmbH erhöht. Dieser Veranlassungszusammenhang führt dazu, dass die Ehefrau insoweit eine überquotale Nutzungseinlage (von 100 %) erbringt. Aufgrund dessen scheidet daher ein Abzug der Kosten (Werbungskosten oder Betriebsausgaben) bei der Ehefrau aus, weil sich bei dieser kein Zusammenhang zu ihren Einkünften feststellen lässt. Bei A können die Aufwendungen nach den Grundsätzen des Drittaufwandes nicht berücksichtigt werden." },
+      { text: "Anmerkung zum letzten Beispiel (eigene Ergänzung): Es ist der Grenzfall des Abschnitts und zeigt die Härte der Rechtsfolge. Die Ehefrau ist überhaupt nicht beteiligt, ihr Quotenüberhang beträgt daher 100 % – die gesamten 60.000 € sind bei ihr nicht abziehbar, und bei A sind sie es als Drittaufwand ebenso wenig. Der Aufwand fällt damit vollständig aus der Besteuerung heraus, ohne dass ihm irgendwo ein Abzug gegenübersteht. Genau darin liegt der praktische Rat des Abschnitts: Der Nutzungsvorteil sollte, wenn möglich, vom Gesellschafter selbst kommen." },
     ],
   },
 ];

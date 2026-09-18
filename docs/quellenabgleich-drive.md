@@ -10617,8 +10617,50 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** die Abschnitte 3.5.2.3.3 und 3.5.2.4, die Abschnitte 3.6 bis
-3.9 und das Kapitel 4 sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** die Abschnitte 3.6 bis 3.9 und das Kapitel 4 sowie die
+Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.5.2.3.3 und 3.5.2.4 – Anteilseigner-Kapitalgesellschaft und Nutzungsvorteile
+
+Quelle: dieselbe Datei; übernommen als Kapitel 32 bis 34. Prüfung:
+`npm run check:k2-kst-teil1` (34 Kapitel, 549 Blöcke, 20 Tabellen). Damit ist der Abschnitt 3.5
+vollständig.
+
+**Die Quelle führt dasselbe Beispiel dreimal durch** – Forderung 100.000 €, werthaltig 10.000 € –
+und variiert nur, wer verzichtet. Der Datensatz stellt die drei Ergebnisse in einer als eigene
+Ergänzung gekennzeichneten Tabelle gegenüber, weil der Vergleich die Systematik sichtbar macht:
+Der werthaltige Teil wird überall gleich behandelt (verdeckte Einlage, nachträgliche
+Anschaffungskosten); unterschiedlich ist nur das Schicksal der 90.000 €, und die Skala reicht vom
+eingeschränkt verrechenbaren Verlust nach § 20 Abs. 2 Nr. 7 EStG über das Teilabzugsverbot des
+§ 3c Abs. 2 EStG bis zum vollständigen Abzugsverbot des § 8b Abs. 3 Satz 4 KStG.
+
+**Eine Zahl des Sachverhalts, die in der Lösung nicht auftaucht und dennoch dort steht:** die
+20.000 € Gebäudeabschreibung im zweiten Beispiel zu 3.5.2.4.1. Sie wird erst in der Gegenprobe
+des „Hinweis“ gebraucht – bei einer Beteiligung von höchstens 25 % wäre sie als substanzbezogener
+Aufwand voll abziehbar. Der Datensatz erklärt das in einer gekennzeichneten Anmerkung, weil die
+Zahl sonst als überflüssiges Beiwerk erscheint.
+
+**Ergänzte Ergebnisse, als eigene Ergänzung ausgewiesen:** Die Quelle schreibt im ersten Beispiel
+„40 % von 10.000 €“, ohne das Ergebnis von 4.000 € zu nennen; abziehbar bleiben 6.000 €. Und im
+Fall der überquotalen Nutzungseinlage nennt sie den Posten „überquotale Aufwendungen ./. 9.600 €“
+ohne Zwischenrechnung: Von den 20.000 € des unentgeltlichen Teils scheiden zunächst 4.000 € als
+Entnahme aus, von den verbleibenden 16.000 € sind 60 % abziehbar, also 9.600 €. **Sämtliche
+Zahlen der Quelle gehen auf** – die Probe 100.000 € ./. 40.000 € ./. 9.600 € = 50.400 € ebenso
+wie die Gegenprobe 4.000 € + 6.400 € = 10.400 € = 20.000 € ./. 9.600 €.
+
+**Der Prüfungspunkt des Abschnitts 3.5.2.4.2 ist die Reihenfolge**, und der Datensatz hebt sie in
+einem eigens gekennzeichneten „Merke“ hervor, weil hier die häufigste Fehlerquelle liegt: Erst
+wird der auf die Mitgesellschafter entfallende Quotenüberhang nach **Entnahmegrundsätzen**
+ausgeschieden – endgültig verloren, weil er beim Mitgesellschafter als Drittaufwand ebenfalls
+nicht abziehbar ist –, und erst auf den **verbleibenden** Betrag wird das Teilabzugsverbot
+angewandt. Wer die Stufen vertauscht oder eine übergeht, rechnet falsch.
+
+**Der Grenzfall am Ende des Abschnitts** verdient eine eigene Bemerkung, die der Datensatz auch
+macht: Gibt die überhaupt nicht beteiligte Ehefrau das unverzinsliche Darlehen, beträgt ihr
+Quotenüberhang 100 %. Die Refinanzierungskosten von 60.000 € sind dann bei ihr nicht abziehbar
+und beim Gesellschafter als Drittaufwand ebenso wenig – der Aufwand fällt vollständig aus der
+Besteuerung heraus. Daraus folgt der praktische Rat, den die Quelle nicht ausspricht: Der
+Nutzungsvorteil sollte, wenn irgend möglich, vom Gesellschafter selbst kommen.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.5.2.3 bis 3.5.2.3.2 – Forderungsverzicht beim Anteilseigner
 

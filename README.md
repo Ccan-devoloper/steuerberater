@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 31 Kapitel mit 516 Abschnitten und
-  18 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 34 Kapitel mit 549 Abschnitten und
+  20 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.5.2.3.2 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.5 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2492,9 +2492,25 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   zählt die Quote jedes einzelnen Mitunternehmers, weshalb dieselbe Gewinnminderung bei einem
   Gesellschafter gekürzt und beim anderen voll abziehbar sein kann – der Fall der B-KG führt das
   mit 28.800 € Hinzurechnung bei A und 18.000 € vollem Abzug bei B vor.
-  Der Rest des Abschnitts 3.5 (3.5.2.3.3 bei Anteilseigner-Kapitalgesellschaften und 3.5.2.4
-  Nutzungsvorteile), die Abschnitte 3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen; der Campus weist
-  den Stand aus.
+  Ist der Verzichtende selbst eine **Kapitalgesellschaft**, tritt an die Stelle des
+  § 3c Abs. 2 EStG das vollständige Abzugsverbot des § 8b Abs. 3 Sätze 4 bis 9 KStG. Die Quelle
+  führt dasselbe Beispiel – Forderung 100.000 €, werthaltig 10.000 € – durch alle drei
+  Konstellationen; die Behandlung des werthaltigen Teils ist überall dieselbe, unterschiedlich ist
+  nur das Schicksal der 90.000 €.
+  Damit ist auch der Abschnitt **3.5.2.4 (Aufwendungen bei Nutzungsvorteilen)** eingepflegt: Der
+  Nutzungsvorteil ist zwar keine verdeckte Einlage, bleibt beim Gesellschafter aber nicht
+  folgenlos – seine Aufwendungen wechseln den Veranlassungszusammenhang, weil sie nun der
+  Erzielung von Beteiligungserträgen dienen. Bei einer Anteilseigner-Kapitalgesellschaft bleiben
+  sie voll abziehbar (§ 8b Abs. 5 KStG entscheidet allein), bei einer natürlichen Person greift
+  § 3c Abs. 2 Satz 6 EStG, sofern sie zu mehr als 25 % beteiligt ist oder war; andernfalls sind
+  nur die nicht substanzbezogenen Aufwendungen betroffen, die Gebäudeabschreibung also nicht. Bei
+  der **überquotalen Nutzungseinlage** kommt die zweistufige Kürzung hinzu, die den häufigsten
+  Fehler dieses Stoffs verursacht: erst der auf die Mitgesellschafter entfallende Quotenüberhang
+  nach Entnahmegrundsätzen – dieser Teil ist endgültig verloren, weil er beim Mitgesellschafter
+  als Drittaufwand ebenfalls nicht abziehbar ist –, dann erst das Teilabzugsverbot auf den
+  verbleibenden Betrag. Der Fall der Ehefrau, die selbst nicht beteiligt ist, zeigt den Grenzfall:
+  Quotenüberhang 100 %, Abzug nirgends.
+  Die Abschnitte 3.6 bis 3.9 und das Kapitel 4 (Tarif) folgen; der Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
