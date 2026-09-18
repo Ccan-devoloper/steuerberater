@@ -56,7 +56,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   des auf den Stichtag fortgeschriebenen Festgelds, Finanzmitteltest nach § 13b Abs. 4
   Nr. 5 ErbStG, jungem Verwaltungsvermögen ohne Schuldensaldierung, anteiligem
   Schuldenabzug, 85-prozentigem Verschonungsabschlag und Härteausgleich nach § 19 Abs. 3
-  ErbStG (festzusetzende Schenkungsteuer 124.000 € statt 126.920 €). Jede Zwischensumme
+  ErbStG (festzusetzende Schenkungsteuer 124.000 € statt 126.920 €). Dazu **Fietze** – die
+  Übungsklausur Bewertungsrecht/Erbschaftsteuer mit drei Grundbesitzwertermittlungen: ein
+  Einfamilienhaus im Sachwertverfahren mit doppelter Wertzahlinterpolation über
+  vorläufigen Sachwert und Bodenrichtwert (520.086 €), ein gemischt genutztes Grundstück
+  im Ertragswertverfahren mit der 20-Prozent-Grenze des § 186 Abs. 2 BewG, vollständig
+  aufgeschlüsselten Bewirtschaftungskosten und Bodenwertverzinsung (672.743 €) und ein
+  Erbbaurecht nach der finanzmathematischen Methode des § 193 BewG mit Vorder- und
+  Hinterlandbewertung (436.315 €); anschließend die Erbschaftsteuer für die
+  Wohnrechtsvermächtnisnehmerin (Kapitalwert nach §§ 14, 15 Abs. 2, 16 BewG, 45.260 €) und
+  für den Alleinerben mit § 13d-Befreiung, Nachlassverbindlichkeiten und Vorerwerb nach
+  § 14 ErbStG (307.021 €). Jede Zwischensumme
   der Quelle ist unabhängig nachgerechnet und die Kontrollrechnung steht am Ende der
   Lösung; die Spaltenzuordnung der Rechenwerke ist dokumentiert.
   Prüfung: `npm run check:k1-erbst-fallsammlung`

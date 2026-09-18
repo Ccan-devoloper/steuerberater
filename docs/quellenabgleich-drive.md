@@ -3512,3 +3512,67 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Einordnung: Beide Dateien tragen im Dateinamen die Fallsammlung, im Dokumentkopf aber die
   Bezeichnungen „Übungsaufgabe“ (Beckmann) und „Übungsklausur“ (Haßlinghaus). Der Wortlaut
   der Überschriften ist unverändert übernommen.
+
+## ErbSt-Fallsammlung (Schäfer) – Übungsfall Fietze
+
+- Quellen im Drive, Ordner `1C96T8I4WDh2wYVnoGyUgHUJVwnPsqr_X`: der Aufgabenteil liegt unter
+  dem nichtssagenden Namen „2025) (7).pdf“ (`1ZLuJ2Oscivb1ty72YlinHuLMUtfo8-oK`), der
+  Lösungsteil als „B-S25-ErbSt-Fietze 2025-Loesung-(Schaefer)-1025.pdf“
+  (`1afWZpH7Q57U4LgtmJk1TWOWBBjtGKsoy`).
+- Einpflege: dritter Übungsfall im Datensatz `src/data/k1-erbst-fallsammlung.js`, jetzt
+  3 Übungsfälle, 104 Blöcke, 20 Tabellen; Prüfung `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidung: Die Musterlösung druckt die drei Wertermittlungen als
+  zweispaltige Aufstellung, bei der der gesamte Rechenweg links und nur das Ergebnis rechts
+  steht. Diese Struktur ist als Tabelle „Rechenweg / Betrag“ übernommen; der Wortlaut der
+  linken Spalte ist unverändert. Die Fußnote zu den Verbraucherpreisindizes, die im PDF am
+  Seitenfuß steht und in der Erfassung mitten in die Kostenaufstellung geriet, ist als
+  eigener Hinweisblock unter die Tabelle gesetzt.
+
+  Nachgerechnet und zutreffend – sämtliche Zwischenwerte der Quelle gehen auf:
+
+  - **Hagen (Sachwertverfahren).** 880 € × 240 qm × 1,833 = 387.129,60 € (gerundet
+    387.130 €); davon 71/80 = 343.577,88 € (343.578 €); zuzüglich Bodenwert 104.000 €
+    ergibt sich der vorläufige Sachwert von 447.578 €. Die Wertzahlen: k1 = 1,2 − 47.578 ×
+    0,1/100.000 = 1,15242, k2 = 1,3 − 47.578 × 0,1/100.000 = 1,25242, k = 1,152 + 10 ×
+    (1,252 − 1,152)/100 = 1,162; 1,162 × 447.578 € = 520.085,63 € (520.086 €).
+  - **Bochum (Ertragswertverfahren).** Die Wohnnutzung beträgt 300 von 500 qm, also die
+    genannten 60 %. Beim 1. OG weicht die tatsächliche Miete von 6.300 € um 41,7 % von der
+    üblichen Miete von 10.800 € ab (§ 186 Abs. 2 Nr. 2 BewG), beim 2. OG weichen 10.440 €
+    nur um 3,3 % ab (§ 186 Abs. 1 BewG). Rohertrag 40.440 €, Bewirtschaftungskosten
+    718 + 576 + 4.200 + 2.800 + 425 + 768 = 9.487 €, Reinertrag 30.953 €, abzüglich
+    Bodenwertverzinsung 9.900 € ergibt 21.053 €; × 21,5049 = 452.742,60 € (452.743 €).
+  - **Herten (Erbbaurecht).** Vorderland 60 × 35 × 40 € = 84.000 €, Hinterland 60 × 5 ×
+    10 € = 3.000 €, zusammen 87.000 €. 260 € × 1.200 qm × 1,867 = 582.504 €, davon 27/30 =
+    524.253,60 € (524.254 €); vorläufiger Sachwert 611.254 €, davon 80 % = 489.003,20 €
+    (489.003 €). Die Restlaufzeit ist zutreffend: Bestellung 1.2.2021, Stichtag 28.2.2025,
+    also 4 Jahre und 1 Monat verstrichen, Restlaufzeit 45 Jahre und 11 Monate, abgerundet
+    45 Jahre; 15,4558 × 2.220 € = 34.311,88 € (34.312 €).
+  - **Erbschaftsteuer.** Der Jahreswert des Wohnrechts von 17.100 € bleibt unter der Grenze
+    des § 16 BewG von 520.086 € : 18,6 = 27.961,61 €; × 14,642 = 250.378,20 € (250.378 €).
+    Beim Enkel ergeben 520.086 + 672.743 − 40.365 + 436.315 + 462.500 = 2.051.279 € und
+    abzüglich 3.000 + 250.378 + 12.000 = 265.378 € die Bereicherung von 1.785.901 €. Die
+    Beerdigungskosten von 16.000 € teilen sich zu 25 % auf DS (4.000 €) und zu 75 % auf JC
+    (12.000 €). Mit dem Vorerwerb von 230.000 € und dem Freibetrag von 400.000 € verbleiben
+    1.615.901 €, abgerundet 1.615.900 €; 19 % davon sind genau 307.021 €. Auch die
+    Steuerberechnung bei DS geht auf: 226.300 € × 20 % = 45.260 €.
+
+  Stellen, an denen die Quelle verschrieben ist oder ihre Fundstellen nicht zusammenpassen –
+  wortlautgetreu übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Einleitung der Bedarfsbewertung.** „§§ 11, 9 Abs. Nr. 1 ErbStG“ – die Absatzangabe
+    fehlt; gemeint ist § 9 Abs. 1 Nr. 1 ErbStG.
+  - **Herten, Bodenwert.** Der Ansatz des Hinterlands wird mit „R B 179.2 Abs. 4 **ErbStG**“
+    belegt; gemeint sind ersichtlich die ErbStR.
+  - **Wertzahl.** Beim Grundstück in Hagen belegt die Quelle die Wertzahl mit „§§ 189
+    Abs. 3 S. 2, **190** S. 2 BewG“, beim Erbbaurecht in Herten dagegen mit „§ 189 Abs. 3
+    S. 2, **§ 191** S. 2 BewG“. Die beiden Angaben stimmen nicht überein.
+  - **§ 13d-Befreiung.** Die Kürzung wird mit „R E **13c** Abs. 3 S. 5 bis 7 ErbStR“
+    belegt, also mit der Richtlinienstelle zur früheren Paragrafennummer, während die
+    Befreiung selbst als § 13d Abs. 1 und 3 ErbStG zitiert wird.
+  - **Überschrift des zweiten Teils.** „2. **Erbschafsteuer** für Jürgen Christ“.
+  - **Weitere Schreibweisen.** „2025 ./ 2023 = 2 Jahre“ ohne den zweiten Punkt; „eine
+    Steuerbefreiung für zu Wohnzwecken vermietete Grundstück“; „Vertraglich vereinbarte
+    jährlicher Erbbauzins“; „Zu einer Abzugssteuer nach § 14 Abs. 1 S. 2 u. S. 3 ErbStG
+    kommt es nicht“.
