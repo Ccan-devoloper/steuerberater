@@ -5923,3 +5923,59 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   (gegenüber 42,1 %, 38 %, 29,65 %, 18,09 % und 9,66 % in den übrigen Fällen), weil außer
   dem Pauschbetrag keine Schulden abzuziehen sind. Entsprechend stark wirkt die
   Tarifbegrenzung: Sie senkt die Steuer um knapp ein Drittel.
+
+## ErbSt-Fallsammlung 4. Fachtermin – Weitergabeverpflichtung, Erbauseinandersetzung und Vorausvermächtnis
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), Schlussabschnitt
+  „Weitergabeverpflichtung, Erbauseinandersetzung, Teilung des Nachlasses,
+  Vorausvermächtnis“ mit drei Beispielen.
+- Einpflege dieses Durchgangs: der Abschnitt als sechzehnter Übungsfall; der Datensatz
+  umfasst jetzt 16 Übungsfälle, 502 Blöcke und 92 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`. **Damit ist die Datei vollständig ausgewertet.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Alle drei Lösungen stehen in der Quelle, sind Zeile für Zeile nachgerechnet und gehen
+  auf.** Beispiel 1: Sohn **271.890 €**, Lebensgefährtin **0 €**. Beispiel 2: T **3.850 €**,
+  S **274.075 €**. Beispiel 3: S **131.575 €**, T **152.950 €**.
+
+  **Beispiel 1 (§ 13a Abs. 5 S. 1 ErbStG) führt eine Umkehrung vor, die der Text der Quelle
+  nicht kommentiert:** Der Sohn muss 20 % der geerbten GmbH als Vermächtnis weitergeben,
+  also sind bei ihm nur 80 % begünstigt – Verschonungsabschlag 85 % × 80 % = 2.176.000 €.
+  Sein verbleibender Anteil von 384.000 € liegt weit über der Wertgrenze von 150.000 €, der
+  Abzugsbetrag schmilzt deshalb auf 33.000 € ab. Bei der Lebensgefährtin bleiben nach dem
+  85-prozentigen Abschlag nur 96.000 €; dieser Betrag liegt **unter** der Wertgrenze, der
+  Abzugsbetrag greift ungekürzt und zehrt ihn vollständig auf. Ergebnis: Die
+  Lebensgefährtin zahlt trotz Steuerklasse III **keine** Steuer, der Sohn zahlt 271.890 €.
+  Der kleinere Anteil ist hier der steuerlich günstigere.
+
+  **Beispiel 2 zeigt den Begünstigungstransfer des § 13a Abs. 5 S. 3 ErbStG in seiner
+  schärfsten Form.** Zunächst wird beiden Geschwistern je die Hälfte des Betriebsvermögens
+  (750.000 €) zugerechnet – die Erbauseinandersetzung ist für die Zurechnung unbeachtlich
+  (R E 3.1 Abs. 1 ErbStR). Weil T den ganzen Betrieb übernimmt und dafür nicht begünstigtes,
+  vom Erblasser erworbenes Vermögen hingibt, wird sie so gestellt, als habe sie von Anfang
+  an 1.500.000 € begünstigtes Vermögen erworben; Verschonungsabschlag (1.275.000 €) und
+  Abzugsbetrag (112.500 €) stehen deshalb **allein ihr** zu, während S nach § 13a Abs. 5
+  S. 2 ErbStG leer ausgeht. Bei rechnerisch gleich großen Erbteilen zahlt T 3.850 € und S
+  274.075 € – ein Faktor von mehr als siebzig.
+
+  **Beispiel 3 verschiebt nicht die Verschonung, sondern den Erwerb selbst.** Beim
+  Vorausvermächtnis (§ 2150 BGB, R E 3.1 Abs. 4 ErbStR) erhält T ihren Erbteil am Betrieb
+  (750.000 €) **und zusätzlich** das Vorausvermächtnis (1.500.000 €); die Vermächtnislast
+  von 750.000 € tragen beide Erben je zur Hälfte. Weil sich die Lasten damit gleich
+  verteilen, liegen die Steuerbeträge mit 131.575 € und 152.950 € nahe beieinander. Die
+  Verschonung folgt dem Erwerb, statt von ihm abgespalten zu werden.
+
+  **Querbezüge innerhalb des Campus:** Beispiel 1 ist der Fall, den die Klausur „Olfmann“
+  derselben Sammlung vollständig durchrechnet; Beispiel 2 entspricht der Mechanik der
+  Tz. 13 des Skriptteils 2 (dort mit greifender Deckelung auf den gemeinen Wert des
+  übertragenen begünstigten Vermögens).
+
+  **Wortlautgetreu übernommene Schreibfehler der Quelle – jeweils im Datensatz
+  gekennzeichnet:** die Wortdopplung „nach seinem Vater am 10.04.2025 verstorbenen Vater“
+  im Sachverhalt des Beispiels 1; der Verweis auf „§ 13b Abs. 5 S. 3 ErbStG“ statt
+  § 13a Abs. 5 S. 3 ErbStG im Erläuterungstext zum Begünstigungstransfer; die Fundstelle
+  „§ 13a Abs. 2 **ErbStR**“ statt ErbStG in beiden Tabellen der Beispiele 2 und 3;
+  „150.000 **E**“ ohne Eurozeichen; und die Fundstellenform „R E 3. 1. Abs. 4 ErbStR“ mit
+  Leerstellen. In der Tabelle des Beispiels 3 fehlt beim Verschonungsabschlag außerdem das
+  Abzugszeichen, obwohl der Betrag ausweislich der Zwischensumme abgezogen wird (so in der
+  Quelle).

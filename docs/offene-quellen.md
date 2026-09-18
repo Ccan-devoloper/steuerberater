@@ -213,10 +213,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Anzeigepflichten, Steuererklärung, Kleinbetragsgrenze und Steuerstundung). **Das Skript
   ist damit vollständig erfasst.** Die **Lösungsdatei**
   (`1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`) ist ebenfalls eingearbeitet: alle zwölf
-  Musterlösungen stehen in den jeweiligen Kapiteln. Offen ist aus diesem Ordner nur noch
-  die Fallsammlung 4. Termin.
+  Musterlösungen stehen in den jeweiligen Kapiteln.
 - **ErbSt-Fallsammlung 4. Termin** (`1HuXWysA6NBRDAltBmHei54XFo3POwOtV`, 2,4 MB, im selben
-  Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`): **begonnen.** Die Datei („Fallsammlungen und
+  Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`): **vollständig eingepflegt.** Die Datei („Fallsammlungen und
   Lösungen Erbschaftsteuer/Bewertungsrecht, 4. Fachtermin“, Rechtsstand 2025, vom Connector
   vollständig ausgegeben) enthält **neun Klausuren und Übungsaufgaben mit
   Lösungshinweisen**: Ackermann, August Antensteiner, Backhaus, Engelkamp, Glücklich, ein
@@ -227,9 +226,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   4. Fachtermin“; dazu die sieben Einzelfälle zum begünstigungsfähigen Vermögen des
   § 13b Abs. 1 ErbStG und die Übungsklausuren **Engelkamp**, **Kurt Glücklich** und
   **Morgenrot**, **Müller GmbH**, **Walter Olfmann**, die Schenkung **Paul
-  Pollmann** und der Kurzfall zu Tarifbegrenzung und Härteausgleich. Offen ist nur noch der
+  Pollmann**, der Kurzfall zu Tarifbegrenzung und Härteausgleich und zuletzt der
   Schlussabschnitt „Weitergabeverpflichtung, Erbauseinandersetzung, Teilung des Nachlasses,
-  Vorausvermächtnis“ mit drei durchgerechneten Beispielen.
+  Vorausvermächtnis“ mit seinen drei durchgerechneten Beispielen. Damit ist die Datei
+  vollständig ausgewertet; aus dem Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA` ist nichts
+  mehr offen.
 - **ErbStR, 4. und 5. Einheit** – im Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` liegen seit
   September 2026 vier weitere Dateien („ErbStR, 4. Einheit_Teil 1“ und „ErbStR. 4.
   Einheit_Teil 2“, „ErbStR, 5. Einheit_Teil 1“ und „ErbSt, 5 Einheit - Teil 2“). Der Campus

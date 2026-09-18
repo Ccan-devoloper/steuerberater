@@ -142,10 +142,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Pollmann"), in der vier Gegenleistungen auf vier verschiedene Arten behandelt werden –
   anteilig gekürzt, voll abziehbar, gar nicht abziehbar und ohne Kürzung trotz Freibetrag –
   und die Familienheimbefreiung daran scheitert, dass § 13 Abs. 1 Nr. 4c ErbStG nur für
-  Erwerbe von Todes wegen gilt. Den Abschluss bildet ein kurzer Fall, in dem **Härteausgleich
+  Erwerbe von Todes wegen gilt. Danach folgt ein kurzer Fall, in dem **Härteausgleich
   und Tarifbegrenzung ineinandergreifen**: Der Ausgleich wirkt in beiden Steuerklassen, und
   erst die korrigierten Beträge gehen in die Verhältnisrechnung ein; die Quelle zeigt dazu
-  eine Kurzform, die den Entlastungsbetrag als Quote der Steuerdifferenz berechnet.
+  eine Kurzform, die den Entlastungsbetrag als Quote der Steuerdifferenz berechnet. Den
+  Abschluss bildet der Schlussabschnitt zu **Weitergabeverpflichtung, Erbauseinandersetzung
+  und Vorausvermächtnis** mit drei durchgerechneten Beispielen zu § 13a Abs. 5 ErbStG:
+  das Vermächtnis eines 20-Prozent-GmbH-Anteils an die Lebensgefährtin, bei dem der Sohn
+  271.890 € zahlt und die Lebensgefährtin trotz Steuerklasse III 0 € (Beispiel 1); dieselbe
+  Vermögensverteilung als Erbauseinandersetzung mit Begünstigungstransfer (3.850 € bzw.
+  274.075 €, Beispiel 2) und als Vorausvermächtnis nach § 2150 BGB (131.575 € bzw.
+  152.950 €, Beispiel 3). Die drei Varianten zeigen, dass der Abzugsbetrag des § 13a Abs. 2
+  ErbStG jedem Letzterwerber eigenständig zusteht und je nach Weg voll, abgeschmolzen oder
+  gar nicht wirkt.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,
