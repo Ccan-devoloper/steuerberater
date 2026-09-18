@@ -10291,3 +10291,59 @@ stillschweigende Annahme.
 
 **Noch offen im Dublettencheck** sind Umwandlungssteuerrecht, Internationales Steuerrecht,
 Gewerbesteuer, Originalklausuren und die Ordner des zweiten Baums, soweit noch nicht geprüft.
+
+### Dublettencheck, fünfter Teil: UmwStR und GewSt abgedeckt, IStR mit neuem Bestand
+
+**Umwandlungssteuerrecht** (`1Xefys1BB8f5jv6QTk_8GKUpieOlnpN9y`): dreizehn Dateien, alle
+Prüfschemata – und genau die dreizehn Prüfschemata, die der Campus bereits führt (Nummern 1
+bis 13, von den Voraussetzungen des § 20 UmwStG über die Verschmelzung von Kapitalgesellschaften
+nach §§ 11, 12 UmwStG bis zum Formwechsel und zur Abspaltung). **Kein neuer Inhalt.**
+
+**Gewerbesteuer-Übungsfälle** (`1zyuuFZ1FJrVi38slTD9JOaFFPBOl1snF`): eine Datei, die
+Übungsfälle von Nöthen – im Campus als Fallsammlung GewSt enthalten. **Kein neuer Inhalt.**
+
+**Internationales Steuerrecht** (`1Xk3jTEYrhvom7Sc1V9cNeO690aowem2X`): sieben Dateien, keine
+dokumentiert – und **sechs davon mit neuem, sauber lesbarem Inhalt.** Der Campus führte für
+IStR bisher die Einheiten 1 bis 4, die Fallsammlung, die Hausaufgaben und die Originalfälle;
+die Schemata und Übungsfälle von Nöthen fehlten. Die Gegenprobe war eindeutig: Weder das
+„Meine Oma Prinzip“ noch die Frage „Wie kommt der Staat an die Kohle?“ fand sich irgendwo im
+Bestand.
+
+### IStR-Schemata und Übungsfälle (Nöthen) – eingepflegt
+
+Eingepflegt als Reiter „Schemata und Fälle (Nöthen)“ im IStR-Campus
+(`src/data/k2-istr-noethen.js`, fünf Kapitel, 45 Abschnitte).
+
+**Das Schema ist der eigentliche Gewinn dieser Runde.** Es passt auf eine Seite und ordnet das
+ganze Gebiet: zuerst § 1 Abs. 1 S. 1 EStG mit den Folgefragen DBA, § 34c EStG beziehungsweise
+§ 32d Abs. 5 EStG falls kein DBA, § 7 AStG, § 2a EStG, § 1a EStG; falls der nicht greift, der
+Antrag nach § 1 Abs. 3 EStG mit der Begründung, warum man ihn stellt (Grundfreibetrag,
+Sonderausgaben und außergewöhnliche Belastungen, die § 50 Abs. 1 S. 2, 4 EStG sonst versagt);
+dann der Wegzugsfall; und zuletzt § 1 Abs. 4 EStG in vier Schritten, deren dritter die Frage
+stellt, die das Erhebungsverfahren aufschließt: „Wie kommt der Staat an die Kohle?“ – Abzug mit
+Abgeltungswirkung nach § 50 Abs. 2 S. 1 EStG, sonst Veranlagung. Das DBA-Schema auf der
+Rückseite ist ebenso knapp: Anwendbarkeit, Ansässigkeit, Verteilung, Vermeidung.
+
+**Zwei Dateien, ein Inhalt:** Der Übungsfall Wegzug liegt zweimal im Ordner, einmal als
+„IStR-Uebungsfall (Noethen) (1).pdf“ und einmal als „Uebungsfall laufender Unterricht
+IStR.pdf“. Beide Fassungen sind wortgleich; der Datensatz führt ihn einmal. Dasselbe gilt für
+das Schema, das ebenfalls in zwei Dateien liegt.
+
+**Eigene Feststellungen:**
+
+1. Das Schema kürzt den DBA-Aufbau an der ersten Station mit **„AAVV“** ab, an der letzten mit
+   **„AAV“**. Gemeint sind beide Male dieselben vier Schritte, wie das DBA-Schema auf der
+   Folgeseite zeigt. Beide Schreibweisen stehen unverändert, der Befund daneben.
+2. Im Fall der B-Limitada liegen beide Veräußerungen im Jahr **2025**, die zugehörigen
+   Veräußerungskosten sollen aber jeweils **2024** bezahlt worden sein (Tz. b: „auch im
+   Kalenderjahr 2024“; Tz. c: „am 11. Dezember 2024“). Da die Verträge vom 22. Oktober und
+   vom 15. Dezember 2025 datieren, geht das zeitlich nicht auf.
+3. Der zweite Fall der Fallsammlung DBA handelt durchgehend von **Ö**, verlangt in der
+   Aufgabenstellung aber „das zu versteuernde Einkommen des **MN**“ – der Name aus dem ersten
+   Fall.
+
+**Technisch blockiert:** „Beispiel Hinzurechnungsbesteuerung.pdf“ (0,6 MB) ist ein reiner Scan;
+der Connector gibt vier Zeilen Wasserzeichentext zurück. Eintrag in Abschnitt A.
+
+**Noch offen im Dublettencheck** sind die Originalklausuren-Ordner und die Ordner des zweiten
+Baums, soweit noch nicht geprüft.

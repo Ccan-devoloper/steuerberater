@@ -2325,6 +2325,23 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   steuerlichen und in den Teilen 3 und 4 dem handelsrechtlichen Ergebnis den Vorrang gibt.
   **Die Quelle enthält keine Lösungen** – es sind Aufgabenblätter. Es wird hier keine erfunden.
   Prüfung: `npm run check:k3-bil-uebungsfaelle`
+- **IStR-Schemata und Übungsfälle (Nöthen)** (Klausur 2, Reiter Internationales Steuerrecht →
+  „Schemata und Fälle (Nöthen)“): fünf Kapitel mit 45 Abschnitten. Das **zweiteilige
+  Prüfungsschema** ist die kürzeste brauchbare Landkarte des Gebiets – vier Stationen von
+  § 1 Abs. 1 S. 1 EStG über § 1 Abs. 3 EStG und den Wegzugsfall bis § 1 Abs. 4 EStG, jede mit
+  ihren Folgefragen, dazu der vierstufige DBA-Aufbau (Anwendbarkeit, Ansässigkeit, Verteilung,
+  Vermeidung) mit den Merkhilfen der Quelle: dem „Meine Oma Prinzip“ für die Verteilungsnormen
+  der Art. 6 ff. und der Frage „Wie kommt der Staat an die Kohle?“ für das Erhebungsverfahren
+  bei beschränkter Steuerpflicht. Dazu **vier Fälle**, die genau die vier Klausurkonstellationen
+  abdecken: der **Wegzug** eines freiberuflichen Musikers in den Irak (kein DBA) mit Wechsel der
+  Steuerpflicht mitten im Jahr, einem Auftritt im Dezember und einer 30-prozentigen
+  GmbH-Beteiligung; die **beschränkte Körperschaftsteuerpflicht** einer brasilianischen
+  Limitada mit Grundstück in Dortmund und zwei Beteiligungen; und die zweiteilige
+  **Fallsammlung DBA** mit unbeschränkter Steuerpflicht (Betriebsaufspaltung über die Grenze,
+  Warenlager in Wien, 80 von 200 Arbeitstagen in Österreich) und beschränkter Steuerpflicht
+  (Grundstücksklausel bei einer Gesellschaft mit Grundbesitz auf Sylt, Aufsichtsratsvergütung).
+  **Die Quellen enthalten keine Lösungen** – die Fälle enden mit der Aufgabenstellung. Es wird
+  hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
