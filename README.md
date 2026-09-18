@@ -90,7 +90,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Sicherungsübereignung, Grundstückskauf und Eigentumsvorbehalt, die Sonderregel für
   Grundstückskaufverträge im Erbfall (Grundbucheintragung statt Besitz- und Lastenwechsel),
   das gemeinschaftliche Eigentum nach dem MoPeG und der Grundsatz der Gesamtbewertung mit
-  dem Paketzuschlag. Prüfung: `npm run check:k1-erbst-bewertung-teil1`.
+  dem Paketzuschlag. Dazu die Abschnitte III und IV: Bedingungen und Befristungen der
+  §§ 4 bis 8 BewG – aufschiebend und auflösend, ungewisses gegen gewisses Ereignis – mit
+  vier Beispielen, der Abgrenzung zur Betagung (nur die Fälligkeit ist hinausgeschoben,
+  die Schuld ist bereits entstanden) und der vierspaltigen Übersicht zu Wirkung,
+  Schwebezustand und Vorschriften; sowie der Bewertungsmaßstab mit gemeinem Wert, Teilwert
+  und Ertragswert, den sechs abgeleiteten Maßstäben von Kurswert über Nennwert,
+  Gegenwartswert und Rückkaufswert bis zum Kapitalwert und dem gemeinen Wert des § 9
+  Abs. 1 BewG als Einzelveräußerungspreis einschließlich der Umsatzsteuer.
+  Prüfung: `npm run check:k1-erbst-bewertung-teil1`.
   Der **Teil 3** („Bewertung des Betriebsvermögens; gesonderte Feststellungen", Stand
   Oktober 2025, 35 Seiten) steht vollständig. Eingepflegt ist bisher der Anfang des
   Teils I: § 12 Abs. 5 ErbStG als Einstieg, der Gewerbebetrieb als Bewertungsgegenstand

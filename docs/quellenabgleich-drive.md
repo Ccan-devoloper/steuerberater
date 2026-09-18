@@ -4098,3 +4098,52 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   verweist auf denselben Paketzuschlag, den der Teil 3 in seiner Tz. 7 d) mit der Grenze von
   mehr als 25 % und einem Zuschlag von im Allgemeinen bis zu 25 % behandelt. Einen
   Zahlenwert nennt die Quelle für dieses Beispiel nicht; er ist auch nicht ergänzt.
+
+## Bewertungsrecht Teil 1 (Schäfer) – Abschnitte III und IV
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1bKS8GZwHDb2Z4gjFc9WFqJcqTSovSLnY`),
+  Abschnitt III (Bedingungen und Befristungen) und Abschnitt IV (Bewertungsmaßstab –
+  gemeiner Wert), PDF-Seiten 8 bis 11.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt
+  2 Teile, 5 Kapitel, 80 Blöcke und 4 Tabellen; Prüfung
+  `npm run check:k1-erbst-bewertung-teil1`.
+- Noch offen aus derselben Datei: der Abschnitt V mit den Wertpapieren und Anteilen, den
+  Kapitalforderungen und Schulden und den wiederkehrenden Nutzungen und Leistungen.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidung: Die Übersicht „Bedingungen und Befristungen“ steht in der Quelle
+  als vierspaltiges Schaubild, dessen Kästen in der maschinellen Erfassung untereinander
+  laufen – erst die vier Überschriften, dann nacheinander Wirkungsbeschreibung,
+  Schwebezustand und Vorschriften jeder Spalte. Sie ist zugeordnet als Tabelle
+  wiedergegeben; die Zuordnung folgt der Reihenfolge des Schaubilds und ist im Datensatz als
+  redaktioneller Hinweis vermerkt. Die Rechtsgrundlagen des BGB (§§ 158–162 für die
+  Bedingungen, § 163 für die Befristungen) stehen in der Quelle in einer gemeinsamen
+  Kopfzeile und sind in die jeweiligen Zeilen übernommen.
+
+  Redaktioneller Befund: Die Quelle stellt die vier Beispiele des Abschnitts III **ohne
+  eigene Lösungssätze** nebeneinander; sie dienen ersichtlich der Zuordnung zu den unmittelbar
+  davor und danach erläuterten Kategorien. Eine Zuordnung ist **nicht ergänzt**, sondern der
+  Befund vermerkt. Nur das Beispiel zur Betagung trägt in der Quelle selbst eine Auflösung.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Abschnitt III.** „Im **Unterscheid** zu den Bedingungen hängt die Wirksamkeit eines
+    Rechtsgeschäfts bei den Befristungen von einem zukünftigen gewissen Ereignis ab.“
+  - **Abschnitt IV.** „gem. § 9 Abs.1 BewG“ ohne Leerzeichen.
+
+  Beobachtung ohne Quellenfehler: Der Satz „Der Teilwert kommt vorbehaltlich anderer
+  Bestimmungen bei Wirtschaftsgütern des Betriebsvermögens zum Ansatz“ beschreibt die
+  Systematik des Allgemeinen Teils des Bewertungsgesetzes. Für die erbschaftsteuerliche
+  Bewertung gilt die Sonderregel des Zweiten Teils: Nach § 109 Abs. 1 BewG ist das
+  Betriebsvermögen mit dem gemeinen Wert anzusetzen – so rechnet auch der Teil 3 desselben
+  Skripts durchgehend. Der Wortlaut ist unverändert übernommen und der Befund als
+  redaktioneller Hinweis kenntlich gemacht.
+
+  Zwei Querbezüge sind im Datensatz vermerkt, weil sie den Zusammenhang der Skriptteile
+  sichtbar machen: Die auflösende Bedingung des § 5 BewG aus Beispiel 2 dieses Abschnitts
+  begegnet im Übungsfall Fietze der ErbSt-Fallsammlung wieder, wo die Möglichkeit der
+  Wiederverheiratung der Wohnrechtsberechtigten nach § 5 BewG unberücksichtigt bleibt. Und
+  dass ungewöhnliche oder persönliche Verhältnisse beim gemeinen Wert außer Betracht
+  bleiben, kehrt im Teil 3 bei den Sonderfällen der Anteilsbewertung wieder (R B 11.4
+  ErbStR).
