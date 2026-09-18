@@ -7044,3 +7044,105 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „also in
   Starnberg, und damit im Inland und sind somit steuerbar“; „Da die Vermietung ist somit
   steuerbar“; „Königsee“ statt Königssee; und „wo Claudius Cosinus es in Empfang nahm“.
+
+## Originalklausuren der Steuerberaterprüfung – Umsatzsteuer, Klausur 2014 (Anton Asam)
+
+- Quelle: dieselbe Datei (`1lIwxxyUdq_FVIqKDhGk1LHPPJm0O8FNo`), vierte Klausur.
+- Einpflege dieses Durchgangs: die Klausur **2014**; der Datensatz umfasst jetzt
+  4 Originalklausuren, 292 Blöcke und 29 Tabellen; Prüfung
+  `npm run check:k1-ust-originalklausuren`. Offen ist nur noch die Klausur 2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage
+  nicht aus.
+
+  **Der Gebäudekauf ist die anspruchsvollste Stelle der ganzen Reihe: Ein einziger
+  Kaufvertrag zerfällt in zwei umsatzsteuerliche Hälften.**
+
+  | Etage | Behandlung | Folge |
+  | --- | --- | --- |
+  | 1. und 2. OG | Geschäftsveräußerung im Ganzen (§ 1 Abs. 1a UStG), weil die Mietverhältnisse fortgeführt werden | nicht steuerbar; Fortführung des Berichtigungszeitraums |
+  | Erdgeschoss | keine GiG – die Eigennutzung stand schon beim Kauf fest | steuerpflichtige Lieferung durch Option |
+  | 3. Obergeschoss | keine GiG – Brechtl hatte gar nicht vermietet | steuerpflichtige Lieferung durch Option |
+
+  Maßgebend ist die **Absicht im Zeitpunkt des Kaufs**: Dass das Erdgeschoss noch drei Monate
+  weitervermietet wird, ändert nichts (Abschn. 1.5 Abs. 2a Sätze 5 und 6 UStAE). Für die
+  steuerpflichtige Hälfte schuldet der Erwerber die Steuer selbst (§ 13b Abs. 2 Nr. 3 UStG):
+  1 Mio. € × 19 % = 190.000 €, davon wegen § 15 Abs. 1b UStG für die eigene Wohnung nur die
+  Hälfte abziehbar – 95.000 €.
+
+  **Die Fußstapfentheorie greift hier nur für die halbe Immobilie – und bleibt folgenlos.**
+  Nach § 1 Abs. 1a Satz 3 und § 15a Abs. 10 UStG tritt Asam für das 1. und 2. Obergeschoss in
+  die Rechtsstellung des Veräußerers ein; der Berichtigungszeitraum vom 1.11.2017 bis
+  31.10.2027 läuft weiter. Weil er aber beide Mietverhältnisse **unverändert** fortsetzt – das
+  1. OG steuerpflichtig optiert, das 2. OG steuerfrei –, ändern sich die Verhältnisse nicht.
+  Das ist das genaue Gegenstück zur Klausur 2013 („Terra GmbH“), wo die Erwerberin die Nutzung
+  ändert und 1.520 € berichtigen muss, obwohl der Vorsteuerabzug Jahre zuvor von der
+  Veräußerin vorgenommen wurde. Die beiden Fälle stehen im Campus nebeneinander.
+
+  **Die 5-Prozent-Bagatellgrenze entscheidet über ein Viertel der Mieteinnahmen.** Der Makler
+  im 2. Obergeschoss führt zu 20 % steuerfreie Kreditvermittlungen aus; damit ist die Grenze
+  des Abschn. 9.2 Abs. 3 Satz 2 UStAE überschritten und die Option nach § 9 Abs. 2 UStG
+  ausgeschlossen – obwohl die Voraussetzungen des § 9 Abs. 1 UStG vorliegen.
+
+  **Die Differenzbesteuerung wird in zwei Schwierigkeitsgraden geprüft:**
+
+  | | Ölgemälde | Kommissionsgeschäft |
+  | --- | --- | --- |
+  | Verkaufspreis | 4.000 € | 90.000 € |
+  | Einkaufspreis | 2.000 € | 72.500 € (90.000 ./. 13.500 Provision ./. 4.000 Spesen) |
+  | Differenz | 2.000 € | 17.500 € |
+  | Bemessungsgrundlage | 1.680,67 € | 14.705,88 € |
+  | Umsatzsteuer 19 % | 319,33 € | 2.794,12 € |
+  | Entstehung | VAZ März 2026 (Vereinnahmung vor Ausführung) | VAZ Juni 2026 |
+
+  Beim Kommissionsgeschäft muss der Einkaufspreis erst konstruiert werden: Er entspricht dem,
+  was dem Einlieferer letztlich zusteht. Das **Expertisenhonorar von 6.000 € bleibt dabei
+  außen vor** – es ist eine eigene, mit 19 % steuerpflichtige sonstige Leistung (1.140 €,
+  Leistungsort Starnberg nach § 3a Abs. 3 Nr. 3 Buchst. c UStG) und mindert den Einkaufspreis
+  nicht. Beide Male sperrt § 25a Abs. 7 Nr. 3 UStG die innergemeinschaftliche Lieferung bzw.
+  den Fernverkauf.
+
+  **Ein Kommissionsgeschäft ist gerade kein Reihengeschäft**, weil der Einlieferer als
+  Privatmann kein Unternehmer ist. Genau das eröffnet die Differenzbesteuerung: Für die
+  Lieferung an den Wiederverkäufer wurde keine Umsatzsteuer geschuldet (§ 25a Abs. 1 Nr. 2
+  Satz 2 Buchst. a UStG).
+
+  **Zwei unentgeltliche Abgaben mit gegenläufiger Begründung.** Die **Bewirtung** am Tag der
+  offenen Tür ist eine sonstige Leistung aus unternehmerischen Gründen; § 3 Abs. 9a Nr. 2 UStG
+  erfasst nur Zwecke außerhalb des Unternehmens, also bleibt sie unversteuert. Der
+  Vorsteuerabzug bleibt trotzdem erhalten – gerade **weil** keine Wertabgabenbesteuerung
+  stattfindet, fehlt der unmittelbare Zusammenhang mit einem konkreten Ausgangsumsatz, und es
+  zählt die Gesamttätigkeit. Die **Verlosung** ist dagegen eine Lieferung; hier greift der
+  Auffangtatbestand des § 3 Abs. 1b Satz 1 Nr. 3 UStG, weil die Verwendung beim Einkauf noch
+  nicht feststand. Besteuert wird zum ermäßigten Satz von 7 % (Kunstgegenstand, Anlage 2
+  Nr. 53), und die Ausfuhr in die Schweiz hilft wegen § 6 Abs. 5 UStG nicht.
+
+  **Die Lohnveredelung prüft in einem Satz den Unterschied zwischen Ortsbestimmung und
+  Steuerbefreiung.** Der Leistungsort liegt nach § 3a Abs. 3 Nr. 3 Buchst. c UStG in München;
+  steuerfrei ist die Restaurierung trotzdem nach § 4 Nr. 1 Buchst. a UStG, weil der Schweizer
+  Auftraggeber das Gemälde selbst ein- und wieder ausführt (§ 7 Abs. 1 Satz 1 Nr. 2, Abs. 2
+  UStG).
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.** Gebäude: 2 Mio. € × 50 % =
+  1 Mio. €, × 19 % = 190.000 €, davon 50 % = 95.000 €. Mieten: 3.000 € × 19 % = 570 €;
+  3.500 € × 19 % = 665 €. Moser: 5.000 € × 19 % = 950 €. Parkett: 4.000 € × 19 % = 760 €.
+  Differenzbesteuerung wie in der Tabelle. Expertise: 6.000 € × 19 % = 1.140 €. Spedition:
+  200 € × 19 % = 38 €. Auch die Abrechnung mit Kraus geht auf: 72.500 ./. 7.140 = 65.360 €.
+
+  **Ein Widerspruch innerhalb der Lösung – eigene Feststellung:** Zum Partyservice nennt die
+  Quelle den Vorsteuerbetrag im selben Absatz zweimal verschieden – zuerst „ein
+  Vorsteuerabzug in Höhe von 950 €“, am Ende „einen Vorsteuerabzug in Höhe von 600 €
+  vornehmen“. Maßgebend ist der in der Rechnung ausgewiesene Betrag von 600 €; die 950 €
+  entsprächen 19 % von 5.000 € und passen nicht zu der im Sachverhalt als zutreffend
+  bezeichneten Rechnung. Dass 600 € nicht 19 % von 5.000 € sind, erklärt sich daraus, dass
+  eine Bewirtung mit Speisen und Getränken unterschiedlichen Steuersätzen unterliegt; die
+  Quelle nennt die Aufteilung nicht und braucht sie auch nicht, weil der volle ausgewiesene
+  Betrag abziehbar ist. Beide Zahlen sind wortlautgetreu übernommen und die Abweichung ist im
+  Datensatz gekennzeichnet.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** der Lieferort
+  „in Aachen“ statt München; die Wiederholung „und der Buchladen vorsteuerabzugsberechtigt
+  ist“ auch bei der Vermietung an Freund & Partner; „erst garkeine Vermietungstätigkeit“; „Das
+  weder beim 1. Obergeschoss … eine Änderung … vorliegt“ statt „Da“; „entsteht entsteht“;
+  „seinen langen gehegten Traum“; „Restaurationsleistung“ statt Restaurierungsleistung; und
+  zwei überzählige schließende Klammern bei den Fundstellen zu § 13b Abs. 2 Nr. 3 und
+  § 15 Abs. 1 S. 1 Nr. 4 UStG.

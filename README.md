@@ -1587,7 +1587,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sie **bereits** fest (Vorsteuerabzug versagt, keine Wertabgabe) – entscheidend ist nicht die
   Zuwendung, sondern die Absicht im Zeitpunkt des Einkaufs. Eine Abweichung zwischen
   Sachverhalt (Abschreibung auf sechs Jahre) und Lösung (Verteilung auf acht Jahre) ist als
-  **eigene Feststellung** gekennzeichnet und erklärt.
+  **eigene Feststellung** gekennzeichnet und erklärt. Die Klausur
+  **„Anton Asam" (Prüfung 2014)** dreht dieselbe Vorschrift um: Dort zerfällt **ein einziger
+  Gebäudekauf in zwei umsatzsteuerliche Hälften** – für die beiden Etagen, deren
+  Mietverhältnisse fortgeführt werden, liegt eine Geschäftsveräußerung im Ganzen vor, für das
+  selbst genutzte Erdgeschoss und die eigene Wohnung dagegen eine steuerpflichtige Lieferung
+  mit Steuerschuldnerschaft des Erwerbers (§ 13b Abs. 2 Nr. 3 UStG): 190.000 €, davon wegen
+  § 15 Abs. 1b UStG nur 95.000 € abziehbar. Entscheidend ist die **Absicht im Zeitpunkt des
+  Kaufs** – dass das Erdgeschoss noch drei Monate weitervermietet wird, ändert nichts. Die
+  Fußstapfentheorie des § 15a Abs. 10 UStG greift damit nur für die halbe Immobilie und
+  bleibt hier folgenlos, weil beide Mietverhältnisse unverändert weiterlaufen – das genaue
+  Gegenstück zur Klausur 2013. Dazu die **Differenzbesteuerung in zwei Schwierigkeitsgraden**:
+  beim Ölgemälde schlicht (4.000 € ./. 2.000 €, Bemessungsgrundlage 1.680,67 €, Steuer
+  319,33 €), beim Kommissionsgeschäft erst zu konstruieren, weil der Einkaufspreis dem
+  entspricht, was dem Einlieferer letztlich zusteht (90.000 € ./. 13.500 € Provision ./.
+  4.000 € Spesen = 72.500 €; Differenz 17.500 €, Bemessungsgrundlage 14.705,88 €, Steuer
+  2.794,12 €) – das Expertisenhonorar von 6.000 € bleibt dabei außen vor und ist eine eigene,
+  voll steuerpflichtige Leistung. Beide Male sperrt § 25a Abs. 7 Nr. 3 UStG die
+  innergemeinschaftliche Lieferung. Schließlich zwei unentgeltliche Abgaben mit gegenläufiger
+  Begründung – die Bewirtung bleibt unversteuert **und** behält den Vorsteuerabzug, die
+  Verlosung wird mit 7 % besteuert – und eine steuerfreie Lohnveredelung für einen Schweizer
+  Auftraggeber. Ein Widerspruch innerhalb der Lösung (Vorsteuer aus der Partyservice-Rechnung
+  einmal mit 950 €, einmal mit 600 € beziffert) ist als **eigene Feststellung** gekennzeichnet.
   Prüfung: `npm run check:k1-ust-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
