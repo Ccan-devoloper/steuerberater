@@ -502,11 +502,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 172 Abs. 1 Satz 1 Nr. 2 Buchst. a und c AO, § 173 Abs. 1 AO, § 173a AO, § 175 Abs. 1
   Satz 1 Nr. 1 und Nr. 2 AO mit dem durchgerechneten Beispiel zum Ratenausfall (Anlaufhemmung
   ab Ablauf 08, Frist bis 31.12.12), § 175b AO bei Datenübermittlung durch Dritte und
-  § 177 AO mit vierstufigem Prüfungsschema und Kontrollrechnung. **Der Teil I des
-  Short-Skripts ist damit vollständig.**
+  § 177 AO mit vierstufigem Prüfungsschema und Kontrollrechnung.
   Die Quelle stellt ausdrücklich klar, dass Steuererhebungsverfahren, FGO-Verfahren,
   Steuerstrafrecht und Haftungsrecht nicht enthalten, aber gleichwohl prüfungsrelevant
-  sind. Der Datensatz tritt neben die bereits vorhandene verdichtete Overlay-Fassung
+  sind.
+  Der **Teil II** stellt die Schwerpunkte aller neun AO-Klausuren von 2016 bis 2024
+  zusammen. Vorangestellt ist die Vorbemerkung zur Veröffentlichung der Aufgabentexte
+  (ab 2015 eingestellt, für das Prüfungsjahr 2021 im Jahre 2024 wieder aufgenommen,
+  BStBl I 2024 Seite 954) und zur Angabe der Teilaufgaben-Punktzahlen seit 2022. Es
+  folgen: **2024** der vollständige Sachverhalt der geschiedenen Mandantin mit den fünf
+  Teilaufgaben (5 + 10 + 9 + 6 + 5 = 35 Punkte) von der Wirksamkeit des per
+  Postzustellungsurkunde an einem Samstag zugestellten Bescheides über die Unterhalts-
+  zahlungen nach Anlage U als rückwirkendes Ereignis bis zur Aussetzung der Vollziehung
+  und Stundung; **2023** der Verspätungszuschlag mit Urlaubsfall und MeinElster-Einspruch
+  vom 26.06.2023 (10 + 3 + 9 + 13 = 35 Punkte) samt nachgerechneter Fristberechnung
+  (Bescheid 17.05.2023 + drei Tage = Samstag 20.05.2023, über § 108 Abs. 3 AO Montag
+  22.05.2023, Fristende 22.06.2023 – der Einspruch war verspätet); **2022** die
+  ausführliche Zulässigkeitsprüfung des Erben-Einspruchs mit doppelter Wiedereinsetzung
+  (30 Punkte) und die allgemeinen Vollstreckungsvoraussetzungen mit dem Leistungsgebot
+  nach § 254 Abs. 1 Satz 3 AO (5 Punkte); **2021** die Einsprüche gegen zwei
+  Prüfungsanordnungen samt Herausgabeverlangen gegenüber der Ex-Gattin (§§ 101, 104
+  Abs. 2, 200, 97, 93 AO); **2020** der geänderte ESt-Bescheid mit aufgegebenem
+  Bekanntgabewillen (AEAO zu § 124 Nr. 4 bis 6) und übergangener Empfangsvollmacht;
+  **2019** der Steuerbescheid gegen den „Nicht-Erben“ mit nachträglich aufgefundenem
+  Testament (Aufgaben 1 und 2 ca. 25, Aufgabe 3 ca. 10 Punkte) und den Ablaufhemmungen
+  des § 171 Abs. 12 und 14 AO; **2018** der Gewinnfeststellungsbescheid der
+  Partnerschaftsgesellschaft mit Teilnichtigkeit nach § 182 Abs. 3 AO und
+  Ergänzungsbescheid; **2017** die Rechtsbehelfe gegen die Ablehnung von Nichtigkeits-,
+  Aufhebungs- und Erstattungsantrag samt Abrechnungsbescheid nach § 218 Abs. 2 AO; und
+  **2016** die erneute Änderung eines ESt-Bescheids mit Verböserung nach § 367 Abs. 2 AO
+  und der Kette der Ablaufhemmungen des § 171 Abs. 2, 3a, 4 und 10 AO.
+  **Das Short-Skript ist damit vollständig eingepflegt.** Der Datensatz tritt neben die bereits vorhandene verdichtete Overlay-Fassung
   (`ao-shortskript-2025.js`), die dieselbe Quelle als Einblendung in die AO-Lernmodule
   aufbereitet. Prüfung: `npm run check:k1-ao-short-skript-jacobs`
 - **Fallsammlung PersG** (Reiter im Campus Personengesellschaften): dreizehn Fälle in fünf

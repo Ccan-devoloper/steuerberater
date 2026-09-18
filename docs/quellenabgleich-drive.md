@@ -3382,3 +3382,55 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   endete; die gesonderte Anlaufhemmung des § 175 Abs. 1 Satz 2 AO setzt hinsichtlich des
   Ratenausfalls mit Ablauf des Jahres 08 neu an und endet nach vier Jahren am **31.12.12** –
   wie in der Lösung angegeben.
+
+## AO Short-Skript (Jacobs) – wortlautgetreue Erfassung (Teil 6): Teil II und Abschluss der Datei
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1fuGSbReWCvFo0ClbWr8G7WaRfYeiRySC`),
+  Teil II „Schwerpunkte der AO-Klausuren in den Jahren 2016 bis 2024“ bis zum Ende der
+  Datei (Seite 49).
+- Einpflege dieses Durchgangs: sechs Kapitel mit allen neun Prüfungsjahren. Kapitel 1 bringt
+  die Vorbemerkung zur Veröffentlichung der Aufgabentexte (bis 2014 im Bundessteuerblatt,
+  ab 2015 eingestellt, für das Prüfungsjahr 2021 im Jahre 2024 wieder aufgenommen –
+  BStBl I 2024 Seite 954) und zur Angabe der Teilaufgaben-Punktzahlen seit 2022, dazu den
+  vollständigen Sachverhalt 2024 mit seinen fünf Teilaufgaben. Kapitel 2 bringt 2023 und
+  2022, Kapitel 3 die Jahre 2021 und 2020, Kapitel 4 das Jahr 2019, Kapitel 5 die Jahre
+  2018 und 2017 und Kapitel 6 das Jahr 2016. **Damit ist das Short-Skript vollständig
+  erfasst.** Der Datensatz umfasst jetzt 2 Teile, 19 Kapitel, 469 Blöcke und 18 Tabellen;
+  Prüfung `npm run check:k1-ao-short-skript-jacobs`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Darstellungsentscheidung: Die Quelle druckt an zwei Stellen die vollständige URL des
+  BStBK-Lösungsvorschlags zur Abgabenordnung, Steuerberaterprüfung 2021–2022 (Stand
+  29.07.2024) ab – einmal in der Vorbemerkung, einmal als letzte Zeile der Datei, dort
+  doppelt. Sie ist jeweils durch die Angabe der Fundstelle ersetzt und der Ersatz mit einem
+  redaktionellen Hinweis kenntlich gemacht; inhaltlich fehlt nichts.
+
+  Die Aufzählungslisten der Prüfungsjahre 2021 bis 2016 sind als zweispaltige Tabellen
+  (Prüfungspunkt / Vorschriften) zugeordnet wiedergegeben. Der Wortlaut der Einträge ist
+  unverändert; die Gliederungspunkte der Aufgabenstellungen stehen weiterhin als Textblöcke.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Prüfungsjahr 2020, Fundstelle im AEAO.** Der Verweis lautet „AEAO zu § 122,
+    Nr. **17.1 bis 1.7.4**“. Gemeint ist ersichtlich die Nummernfolge 17.1 bis 17.4.
+  - **Prüfungsjahr 2020, Typografie.** „–wie schon häufig in der Vergangenheit--“ mit
+    Gedankenstrich am Anfang und doppeltem Bindestrich am Ende.
+  - **Prüfungsjahr 2019, vier nicht geschlossene Klammern.** „(§ 118 AO, § 155 Abs. 1
+    Satz 3 Alt. 2 AO“, „(Antrag auf Aufhebung vor Ablauf der regulären Festsetzungsfrist“,
+    „(insbesondere § 170 Abs. 2 Satz 1 Nr. 1 Alt. 2 AO und 169 Abs. 2 Satz 1 Nr. 2 AO“ sowie
+    „(Erstattungsanspruch aufgrund eines nichtigen Steuerbescheides“.
+  - **Prüfungsjahr 2018, Zitierweise.** „§ 180 Abs. 1 Nr. 2 Buchst. a“ – die Vorschrift
+    lautet vollständig § 180 Abs. 1 **Satz 1** Nr. 2 Buchst. a AO. Im Prüfungsjahr 2016
+    zitiert dieselbe Quelle die Norm korrekt mit Satzangabe.
+  - **Prüfungsjahr 2017, Zitierweise.** „§ 170 Abs. 2 Nr. 2 Alt. 2 AO“ – die Vorschrift
+    lautet vollständig § 170 Abs. 2 **Satz 1** Nr. 2 AO.
+  - **Prüfungsjahr 2021, Zitierweise.** „§§ 101 Abs. 1, 15 Abs. 1 Nr. 2 und Abs. 2 Nr. 1“ –
+    die Paragrafenkette lässt offen, dass § 15 hier der Angehörigenbegriff der AO ist und
+    nicht § 15 EStG, der im selben Satzteil des Prüfungsjahres 2018 gemeint ist.
+
+  Nachgerechnet und zutreffend: Die Punktverteilung des Prüfungsjahres 2024 (5 + 10 + 9 +
+  6 + 5) ergibt die 35 Wertungspunkte des AO-Teils, ebenso die des Prüfungsjahres 2023
+  (10 + 3 + 9 + 13) und die beiden Teilbereiche des Prüfungsjahres 2022 (30 + 5). Für 2019
+  nennt die Quelle „ca. 25“ für die Aufgaben 1 und 2 und „ca. 10“ für die Aufgabe 3, was
+  dieselbe Summe von 35 Punkten ergibt.

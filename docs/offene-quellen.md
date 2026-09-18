@@ -134,8 +134,9 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (Klausuraufbau, Klausurtechnik, Hilfsmittel, fundamentale Aufbauregel, Gutachtenstil)
   sowie der **vollständige Abschnitt 2** (Wirksamkeit von Bescheiden, Verhältnis
   Feststellungs-/Steuerbescheide, Festsetzungsverjährung), der Abschnitt 3 (Einspruch) und der
-  Abschnitt 4 (Korrekturvorschriften) – **der Teil I ist damit vollständig**; offen ist nur
-  noch der Teil II (Schwerpunkte der AO-Klausuren 2016 bis 2024).
+  Abschnitt 4 (Korrekturvorschriften) sowie der **Teil II** mit den Schwerpunkten aller neun
+  AO-Klausuren von 2016 bis 2024. **Die Datei ist damit vollständig erfasst und aus dieser
+  Quelle steht nichts mehr offen.**
 - FGO
 - Notfallbuch
 
