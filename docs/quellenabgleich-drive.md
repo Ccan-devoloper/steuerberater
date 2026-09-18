@@ -9099,3 +9099,61 @@ und Pflege2.000,00 €“ ein Leerzeichen. Beides ist bereinigt, weil es die Zei
 verursacht hat und nicht die amtliche Aufgabe – im Unterschied zu den beiden oben genannten
 echten Fehlern der Quelle, die wortlautgetreu übernommen und gekennzeichnet sind. Die
 Unterscheidung folgt derselben Regel wie beim Ertragsteuerteil dieser Datei.
+
+### Amtliche Prüfungsaufgabe Verfahrensrecht 2022/2023, Teil III (Erbschaftsteuer)
+
+- **Quelle:** Drive-ID `1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, Abschnitt „Teil III:
+  Erbschaftsteuer (Erbfall Schüssel)“.
+- **Ziel:** `src/data/k1-pruefungsklausuren.js`, Eintrag `k1-pk-2022-erbst-schuessel` (fach
+  "erbst"), Reiter „Prüfungsklausuren im Original“ im ErbSt-Campus. Prüfung:
+  `npm run check:k1-pruefungsklausuren`.
+- **Zeitlogik:** nicht fortgeschrieben; **Todestag 01.07.2021**.
+
+**Damit sind beide Drive-Dateien mit amtlichen Prüfungsaufgaben vollständig ausgewertet.**
+Neunzehn Aufgabenteile aus sechs Prüfungstagen zweier Jahrgänge stehen im Campus, verteilt
+auf sieben Reiter in sieben Campus:
+
+| Prüfungstag | 2021/2022 | 2022/2023 |
+| --- | --- | --- |
+| Buchführung und Bilanzierung | 3 Teile (ohne Punkteangabe) | 4 Teile (33 / 17 / 22 / 28) |
+| Einkommen- und Ertragsteuerrecht | ESt 3 Sachverhalte, GewSt, KSt | ESt 25 / 17 / 18, GewSt 8, KSt 28 / 4 |
+| Verfahrensrecht und andere Gebiete | AO/FGO, USt, ErbSt | AO/FGO 35, USt 35, ErbSt |
+
+Es fehlen nur die Lösungen, die keine der beiden Quellen enthält; sie stehen in
+`docs/offene-quellen.md`, Abschnitt A.
+
+**Punkteverteilung dieses Aufgabenteils.** Anders als der AO/FGO-Teil (35 Punkte) und der
+Umsatzsteuerteil (35 Punkte) desselben Prüfungstages weist der Erbschaftsteuerteil keine
+eigene Punkteangabe aus. Rechnerisch verbleiben 30 von 100; der Datensatz sagt das so und
+behauptet keine Angabe, die die Quelle nicht macht.
+
+**Eine Stufe weniger als beim Schwesterjahrgang.** Der Erbschaftsteuerteil 2021/2022 verlangt
+den *steuerpflichtigen Erwerb*, dieser hier nur die *Bereicherung* der Erbin. Zur Steuerpflicht
+ist in beiden Jahrgängen ausdrücklich Stellung zu nehmen, und beide nehmen § 13a Abs. 4 ErbStG
+und die Grunderwerbsteuer ausdrücklich aus.
+
+**Eigene Feststellung zum Erbbauzins.** Die Quelle schreibt: „Der vertraglich vereinbarte
+**jährliche** Erbbauzins beträgt **monatlich** 500 €.“ Beide Zeitangaben stehen im selben Satz
+und schließen einander aus; welche gilt, entscheidet über die Höhe um den Faktor zwölf. Der
+Wortlaut ist unverändert wiedergegeben und der Befund im Sachverhalt sowie im Lösungsabschnitt
+vermerkt.
+
+**Eine Bestätigung im Nachhinein.** Der extrahierte Text dieses Abschnitts endet mit der Zeile
+`<http://salzburg.um/>`. Das ist kein Bestandteil der Aufgabe, sondern das Gegenstück zu dem
+Extraktionsartefakt, das im Umsatzsteuerteil derselben Datei aufgetreten war: Dort waren die
+Worte „Salzburg, um“ aus dem Satz „fuhr sie deshalb nach Salzburg, um das Gemälde in
+Augenschein zu nehmen“ herausgelöst und an den Anfang der Textziffer verschoben worden. Die
+Zeichenerkennung hat sie am Dateiende zusätzlich als URL interpretiert. Die im vorigen
+Abschnitt vorgenommene Rekonstruktion des Satzes wird dadurch bestätigt.
+
+**Was der Lösungsabschnitt leistet.** Er hält fest, dass die Bereicherung und nicht der
+steuerpflichtige Erwerb gefragt ist; er listet auf, was der Sachverhalt für das vereinfachte
+Ertragswertverfahren bereitstellt (drei Jahresüberschüsse mit Korrekturen, Sonder- und
+Ergänzungsbilanzergebnissen und Gewerbesteueraufwand, Vermögensaufstellung, Finanzmittel,
+Schulden, Kapitalkonten, Entnahmen ohne Einlagen, Beteiligung, Pkw mit drei verschiedenen
+Werten); und er benennt die Angaben, die erkennbar Weichen stellen – Gütertrennung,
+kinderlose Ehe, angemietete Wohnung, Fortführungsabsicht der Witwe, 15 % Beteiligung am
+wichtigsten Lieferanten, ein am Todestag geschlossener, aber erst danach erfüllter
+Grundstückskaufvertrag mit 50.000 € Anzahlung, eine Lebensversicherung mit beiden Eheleuten
+als Versicherungsnehmern und ein Hausrat, der „beiden Ehegatten zuzurechnen ist“. Rechtsfolgen
+zieht er nicht.

@@ -1573,6 +1573,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   in Berlin, Köln, Mailand und Zürich. Und ein BMW wird zu 60 % im Kunsthandel, zu 10 % bei
   der steuerfreien Wohnraumvermietung und zu 30 % privat gefahren. Auch hier sind alle Beträge
   unabhängig nachgerechnet und gehen auf.
+  Und schließlich der **Erbschaftsteuerteil 2022/2023** (Erbfall Schüssel), der eine Stufe
+  weniger verlangt als sein Gegenstück: die **Bereicherung** der Erbin statt des
+  steuerpflichtigen Erwerbs – dafür fast durchgehend Bewertungsarbeit. Ein Bergunfall an der
+  Eiger-Nordwand, ein Testament zugunsten der Ehefrau bei Gütertrennung, eine kinderlose Ehe,
+  eine angemietete Wohnung (also kein Familienheim im Nachlass). Der 60-Prozent-Komplementär­
+  anteil an einer KG ist über das vereinfachte Ertragswertverfahren zu bewerten – mit drei
+  Jahresüberschüssen, außerbilanziellen Korrekturen, Sonder- und Ergänzungsbilanzergebnissen,
+  Gewerbesteueraufwand, Finanzmitteln, Schulden, drei Kapitalkonten, Entnahmen ohne jede
+  Einlage und einem Alfa Romeo, dessen Anschaffungskosten, Steuerbilanzwert und
+  Händlerangebot auseinanderfallen. Dazu ein Erbbaugrundstück mit Gebäude des
+  Erbbauberechtigten, ein zweites Grundstück, das am Todestag gekauft, aber erst nach dem Tod
+  bezahlt und umgeschrieben wurde, und eine Lebensversicherung über 2.000.000 €, bei der beide
+  Eheleute Versicherungsnehmer sind. **Damit sind beide Drive-Dateien mit amtlichen
+  Prüfungsaufgaben vollständig ausgewertet: alle 19 Aufgabenteile der sechs Prüfungstage
+  zweier Jahrgänge.**
   Und schließlich der **Erbschaftsteuerteil** (Erbfall Max Muhr), der im ErbSt-Campus unter
   demselben Reiter steht: ein Motorradunfall im Allgäu, ein Berliner Testament, Gütertrennung –
   und ein Nachlass, der in fast jeder Position eine eigene Bewertungsfrage aufwirft. Der Sohn

@@ -17,9 +17,10 @@
    Eintrag dem passenden Campus zu ("ao", "ust", "erbst"); jeder Campus zeigt
    nur seine eigenen Einträge. Der Prüfungstag 2021/2022 ist damit vollständig:
    AO/FGO (Dr. Bruno Bayer), Umsatzsteuer (Bartel, BB-GmbH, Prager) und
-   Erbschaftsteuer (Erbfall Muhr). Vom Jahrgang 2022/2023 sind der AO/FGO-Teil
-   (Monika Beer, 35 Punkte) und der Umsatzsteuerteil (Inge Irlbacher, 35 Punkte)
-   eingepflegt; dieser Jahrgang weist anders als der vorige Wertungspunkte aus.
+   Erbschaftsteuer (Erbfall Muhr). Ebenso der Prüfungstag 2022/2023:
+   AO/FGO (Monika Beer, 35 Punkte), Umsatzsteuer (Inge Irlbacher, 35 Punkte) und
+   Erbschaftsteuer (Erbfall Schüssel, ohne eigene Punkteangabe - rechnerisch 30).
+   Dieser Jahrgang weist anders als der vorige Wertungspunkte aus.
 
    Personenbezogene Wasserzeichen des Quell-PDFs sind nicht übernommen.
    Blocktypen wie bei den übrigen Klausurdatensätzen: text | titel | tabelle. */
@@ -462,6 +463,72 @@ export const k1Pruefungsklausuren = [
       { text: "Unabhängig nachgerechnet – die Zahlen der Quelle gehen auf: Die Auktionsabrechnung ergibt 10 % von 15.000,00 € = 1.500,00 € Provision zuzüglich 19 % = 285,00 €, zusammen 1.785,00 €, und 15.000,00 ./. 1.785,00 = 13.215,00 €. Die Abrechnung gegenüber Veronika Weber ergibt 15 % von 25.000,00 € = 3.750,00 € zuzüglich 19 % = 712,50 €, zusammen 4.462,50 €, und 25.000,00 ./. 4.462,50 = 20.537,50 €; der Zusatz „darin 3.279,10 € USt (netto 17.258,40 €)“ stimmt ebenfalls, denn 20.537,50 : 1,19 = 17.258,40 €. Beim BMW ergeben 71.400,00 € abzüglich 10 % genau 64.260,00 € brutto, also 54.000,00 € netto und 10.260,00 € Umsatzsteuer. Die ermäßigten Steuersätze passen durchgehend: 7 % von 3.500 = 245 €, von 6.000 = 420 €, von 4.000 = 280 €, von 6.500 = 455 €; ebenso 19 % von 3.000 = 570 € und von 2.000 = 380 €." },
       { text: "Erkennbar gesetzte Weichen, die der Sachverhalt eigens benennt: dass die Option zur Differenzbesteuerung mit der Voranmeldung Januar 2020 erklärt wurde; dass der Verkäufer in Salzburg Bankangestellter ist und das Gemälde geerbt hat; dass das Auktionshaus „im Namen von Inge“ versteigern soll; dass der Wirtschaftsprüfer seinerzeit den vollen Vorsteuerabzug in Anspruch genommen hatte und die Figurengruppe ein Kunstgegenstand laut Zolltarif ist; dass Inge bei der Figurengruppe „im eigenen Namen“, aber „für fremde Rechnung“ tätig wird; dass der Künstler für das in Wien entstandene Gemälde seine österreichische USt-IdNr. verwendet und sich auf Art. 138 MwStSystRL beruft; dass der Schweizer Käufer das Bild für seine Ehefrau erwirbt und es die Händlerin selbst im Urlaub nach Davos bringt; und dass der Pkw zu 10 % im Zusammenhang mit der nach § 4 Nr. 12 Buchst. a UStG steuerfreien Wohnraumvermietung genutzt wird." },
       { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Die Differenzbesteuerung nach § 25a UStG, Kommissionsgeschäfte, innergemeinschaftliche Lieferungen und Erwerbe, Ausfuhrlieferungen nach § 6 UStG und die Vorsteueraufteilung nach § 15 Abs. 4 UStG behandelt der Umsatzsteuer-Campus (Klausur 1) in eigenen Einheiten; die Originalklausuren 2011 bis 2015 enthalten dazu mehrere durchgerechnete Fälle, darunter eine Klausur, die § 13b UStG sechsmal mit sechs verschiedenen Ergebnissen prüft." },
+    ],
+  },
+  {
+    id: "k1-pk-2022-erbst-schuessel",
+    fach: "erbst",
+    block: "amtlich",
+    blockLabel: "Steuerberaterprüfung · amtliche Prüfungsaufgabe",
+    nummer: 6,
+    jahrgang: "2022/2023",
+    teil: "III",
+    wertung: "ohne gesonderte Punkteangabe (rechnerisch 30 von 100)",
+    title: "Teil III – Erbfall Anton Schüssel (Prüfung 2022/2023): ein Komplementäranteil im vereinfachten Ertragswertverfahren, ein Erbbaugrundstück und eine Lebensversicherung über zwei Millionen",
+    thema: "Ein Bergunfall an der Eiger-Nordwand, ein Testament zugunsten der Ehefrau bei Gütertrennung, eine kinderlose Ehe – und ein Nachlass, der fast vollständig aus Betriebsvermögen und Grundbesitz besteht. Der 60-Prozent-Komplementäranteil an einer KG ist über das vereinfachte Ertragswertverfahren zu bewerten: Drei Jahresüberschüsse, außerbilanzielle Korrekturen, Ergebnisse aus Sonder- und Ergänzungsbilanz und der Gewerbesteueraufwand sind gegeben, dazu Finanzmittel, Schulden, drei Kapitalkonten, Entnahmen ohne jede Einlage, eine Ergänzungsbilanz mit Grundstücks-Minderwert und ein Alfa Romeo, dessen Steuerbilanzwert, Buchwert und Händlerangebot auseinanderfallen. Dazu ein Grundstück, an dem 2010 ein Erbbaurecht bestellt wurde, mit Gebäude des Erbbauberechtigten, Entschädigungsabrede und einem Erbbauzins, den die Quelle in einem Satz jährlich und monatlich nennt. Ein zweites Grundstück war am Todestag gekauft, aber noch nicht bezahlt und nicht umgeschrieben – 50.000 € waren am Vortag der Abreise angezahlt. Und eine Lebensversicherung über 2.000.000 €, bei der beide Eheleute Versicherungsnehmer sind und die im Todesfall vollständig an den Überlebenden fließt",
+    rechtsstand: "Rechtsstand des Prüfungsjahrgangs 2022/2023 · Todestag 01.07.2021",
+    quelle: "Steuerberaterprüfung 2022/2023, Prüfungsaufgaben aus dem Verfahrensrecht und anderen Steuerrechtsgebieten, Teil III: Erbschaftsteuer (Erbfall Schüssel) · amtlicher Aufgabentext",
+    normen: [
+      "§ 13a Abs. 4 ErbStG (ausdrücklich ausgenommen)",
+    ],
+    themen: ["Amtliche Prüfungsaufgabe", "Ohne Musterlösung", "Vereinfachtes Ertragswertverfahren", "Betriebsvermögen", "Verwaltungsvermögen", "Finanzmittel", "Erbbaurecht", "Erbbaugrundstück", "Lebensversicherung", "Gütertrennung", "Hausrat"],
+    sachverhalt: [
+      { typ: "titel", text: "Steuerberaterprüfung 2022/2023 · Teil III: Erbschaftsteuer (Erbfall Schüssel)" },
+      { text: "Anton Schüssel (geb. 26.04.1960) verstarb am 01.07.2021 bei einem Bergunfall an der Eiger-Nordwand in der Schweiz, als sein Sicherungsseil riss. In seinem gültigen Testament vom 01.02.2018 hat Schüssel seine Ehefrau Christa Schüssel (geb. 01.04.1962), mit der er im Güterstand der Gütertrennung lebte, als Alleinerbin eingesetzt. Die Ehe war kinderlos. Weitere erbberechtigte Personen sind nicht vorhanden. Schüssel und seine Frau lebten bis zum Tod von Anton Schüssel in einer angemieteten Wohnung in Berchtesgaden." },
+      { typ: "titel", text: "Nachlass: Schüssel-Hampel-Hahn KG (SHH-KG)" },
+      { text: "Die SHH-KG betreibt seit 1998 in Berchtesgaden eine kleine Fabrik zur Herstellung medizinischer Schutzkleidung. Am Gewinn der KG sind der Komplementär Schüssel mit 60 % und die beiden Kommanditisten Hampel und Hahn mit je 20 % beteiligt. Alle Gesellschafter haben ihre Gründungseinlagen voll erbracht. Die Ehefrau Schüssels, Christa, will die Gesellschafterstellung ihres verstorbenen Ehemanns fortführen." },
+      { text: "Auf den 01.07.2021 wurde eine Gesamthandsbilanz erstellt, die den Grundsätzen ordnungsgemäßer Buchführung entspricht. In der dem Finanzamt vorliegenden Vermögensaufstellung sind die Besitz- und Schuldposten auf Grundlage der o. g. Bilanz mit 5.000.000 € angegeben. Soweit sich nachfolgend nichts anderes ergibt, sind die Wertansätze nicht zu beanstanden. In der Vermögensaufstellung sind Finanzmittel i. H. v. 800.000 € und Schulden i. H. v. 500.000 € enthalten." },
+      { text: "Die Kapitalkonten lt. Handelsbilanz zum 01.07.2021 stellen sich wie folgt dar:" },
+      { typ: "tabelle", spalten: ["Gesellschafter", "Kapitalkonto"], zeilen: [["Schüssel", "1.200.000 €"], ["Hampel", "600.000 €"], ["Hahn", "500.000 €"]] },
+      { text: "Der Anton Schüssel gehörende PKW der Marke Alfa Romeo wurde fast ausschließlich zu betrieblichen Zwecken der KG genutzt. Die Privatnutzung wurde ertragsteuerlich zutreffend erfasst. Die Anschaffungskosten des am 01.07.2020 gekauften PKW betrugen 80.000 €. Steuerlich wurde der PKW mit 64.000 € zum 01.07.2021 erfasst. Ein Kfz-Händler würde aufgrund des Zustandes und eines von einem unabhängigen Gutachter erstellten Gutachtens 60.000 € zahlen. Die mit dem PKW in Zusammenhang stehenden Kosten wurden ertragsteuerlich zutreffend erfasst." },
+      { text: "Die KG ist seit dem 30.12.2019 mit 15 % an der Stoff-GmbH in Rosenheim beteiligt. Die Stoff-GmbH stellt hochwertige medizinische Stoffe her und ist der wichtigste Stofflieferant der KG. Der Ansatz in der Bilanz der KG zum 01.07.2021 erfolgte mit dem nicht zu beanstandenden Anteilswert von 100.000 € zutreffend. Im Jahr 2020 erfolgte seitens der Stoff-GmbH eine Ausschüttung an die SHH-KG in Höhe von 20.000 €, die in der Buchführung zutreffend erfasst wurde." },
+      { text: "In der Buchführung 2021 sind für den Komplementär Schüssel Entnahmen i. H. v. 50.000 € und für die Kommanditisten Hampel 30.000 € sowie Hahn 20.000 € verbucht worden. Einlagen wurden im Jahr 2021, wie in den Vorjahren auch, von keinem der Gesellschafter getätigt. Auf den 01.07.2021 ist für den Kommanditisten Hahn eine Ergänzungsbilanz erstellt worden, in der ein Minderwert Grundstück mit 75.000 € zutreffend ausgewiesen wurde." },
+      { text: "Aus den Aufzeichnungen der Steuererklärungen ergibt sich Folgendes:" },
+      { typ: "tabelle", spalten: ["Position", "2018", "2019", "2020"], zeilen: [
+        ["Jahresüberschuss", "400.000 €", "500.000 €", "450.000 €"],
+        ["Außerbilanzielle Korrekturen", "+ 14.000 €", "+ 9.000 €", "+ 5.000 €"],
+        ["Ergebnis Ergänzungsbilanz Hahn", "0 €", "0 €", "0 €"],
+        ["Ergebnis Sonderbilanz Schüssel", "./. 17.000 €", "./. 18.000 €", "./. 19.000 €"],
+        ["Nachrichtlich: Gewerbesteueraufwand", "48.000 €", "54.000 €", "50.000 €"],
+      ] },
+      { typ: "titel", text: "Nachlass: Grundstück Felsstr. 1, Berchtesgaden" },
+      { text: "Anton Schüssel ist seit 2006 Eigentümer eines am Todestag mit einem 4-stöckigen Gebäude bebauten 1.000 qm großen Grundstücks in der Felsstr. 1, Berchtesgaden. Die zu Wohnzwecken genutzten gleichgroßen Wohnungen (je 100 qm) sind fremdvermietet. Der Rohertrag des Gebäudes beläuft sich auf 60.000 €. Die für dieses Grundstück zulässige Geschossflächenzahl (GFZ) beträgt 0,8." },
+      { text: "Anton Schüssel hat Otto Huhn mit Vertrag vom 01.03.2010 ein Erbbaurecht an dem Grundstück eingeräumt. Huhn hat darauf das Grundstück mit dem am Todestag bestehenden Gebäude bebaut. Die Fertigstellung des Gebäudes erfolgte zum 30.12.2010. Der vertraglich vereinbarte jährliche Erbbauzins beträgt monatlich 500 €. Bei Ablauf des Erbbaurechts am 01.01.2052 ist der Verkehrswert des Gebäudes zu entschädigen." },
+      { text: "(so in der Quelle: „Der vertraglich vereinbarte **jährliche** Erbbauzins beträgt **monatlich** 500 €“ – beide Zeitangaben stehen im selben Satz.)" },
+      { text: "Der am 01.07.2021 maßgebende Bodenrichtwert beträgt lt. zuständigem Gutachterausschuss für diese Gegend in Berchtesgaden 300 €/qm bei einer GFZ von 0,5." },
+      { typ: "titel", text: "Nachlass: Grundstück Geisberg 2, Berchtesgaden" },
+      { text: "Am Todestag Schüssels liegt ein notarieller Kaufvertrag über ein unbebautes 300 qm großes Grundstück am Geisberg 2 in Berchtesgaden vor. Schüssel hatte vor, dort ein Einfamilienhaus für sich und seine Frau zu errichten. In dem Kaufvertrag verpflichtet sich Schüssel, an den Verkäufer Rudi Rundlich am 20.07.2021 150.000 € als angemessenen Kaufpreis zu überweisen." },
+      { text: "Am 30.06.2021 überwies Schüssel, vor seiner Abfahrt in die Schweiz, an Rundlich vorab einen vereinbarten Betrag von 50.000 €, der auf den Kaufpreis angerechnet werden soll. Der Eintrag ins Grundbuch der Gemeinde Berchtesgaden erfolgte nach der termingerechten Bezahlung des restlichen Kaufpreises durch Christa Schüssel am 20.07.2021. Der maßgebliche Bodenrichtwert für dieses Grundstück beträgt lt. zuständigem Gutachterausschuss für diese Gegend 485 €/qm, bei einer zulässigen GFZ von 0,5." },
+      { typ: "titel", text: "Nachlass: Lebensversicherung" },
+      { text: "Anton Schüssel und Christa Schüssel haben am 01.12.1999 eine Lebensversicherung bei der Lebewohl-Lebensversicherungs-AG in Höhe von 2.000.000 € abgeschlossen, die nach 30 Jahren an beide Ehegatten zu je 50 % ausbezahlt werden soll. Sollte jedoch ein Ehepartner vorher versterben, wird die gesamte Versicherungssumme an den überlebenden Ehegatten ausbezahlt. Beide Ehegatten sind Versicherungsnehmer." },
+      { typ: "titel", text: "Nachlass: Bankguthaben, Bargeld, Hausrat" },
+      { text: "Anton Schüssel zuzurechnende Bankguthaben liegen lt. Mitteilung seiner Bank am Todestag nicht vor. Auch wurde am Todestag kein Bargeld bei ihm vorgefunden. Der Hausrat, der beiden Ehegatten zuzurechnen ist, hat einen Gesamtwert von 51.000 €." },
+    ],
+    aufgabe: [
+      { text: "Nehmen Sie zur Steuerpflicht Stellung und ermitteln Sie für Zwecke der Erbschaftsteuer die für die Erbin anfallende Bereicherung. Sie soll möglichst niedrig gehalten werden." },
+      { text: "Alle erforderlichen Anträge gegenüber dem Finanzamt gelten als gestellt. Notwendige gesonderte Feststellungen sind ggf. vorab darzustellen." },
+      { text: "Begründen Sie Ihre Entscheidungen unter Angabe der maßgebenden Vorschriften. Auf § 13a Abs. 4 ErbStG und die Grunderwerbsteuer ist nicht einzugehen." },
+    ],
+    loesung: [
+      { typ: "titel", text: "Keine Musterlösung in der Quelle" },
+      { text: KEINE_LOESUNG },
+      { text: "Was die Aufgabenstellung selbst vorgibt: Zu ermitteln ist die **Bereicherung** der Erbin, nicht der steuerpflichtige Erwerb und nicht die festzusetzende Steuer – die Aufgabe endet also eine Stufe früher als der Erbschaftsteuerteil des Jahrgangs 2021/2022, der den steuerpflichtigen Erwerb verlangt. Zur Steuerpflicht ist ausdrücklich Stellung zu nehmen. Die Bereicherung soll möglichst niedrig gehalten werden, alle erforderlichen Anträge gelten als gestellt, und notwendige gesonderte Feststellungen sind vorab darzustellen. Ausgenommen sind § 13a Abs. 4 ErbStG und die Grunderwerbsteuer – dieselbe Ausnahme wie im Schwesterjahrgang." },
+      { text: "Punkteverteilung: Dieser Aufgabenteil weist – anders als der AO/FGO-Teil (35 Punkte) und der Umsatzsteuerteil (35 Punkte) desselben Prüfungstages – keine eigene Punkteangabe aus. Rechnerisch verbleiben 30 von 100 Punkten." },
+      { text: "Was der Sachverhalt für das vereinfachte Ertragswertverfahren bereitstellt, ohne dass hier Schlüsse gezogen würden: drei Jahresüberschüsse (2018 bis 2020) mit außerbilanziellen Korrekturen, den Ergebnissen der Ergänzungsbilanz Hahn und der Sonderbilanz Schüssel sowie dem Gewerbesteueraufwand als nachrichtlicher Angabe; eine Vermögensaufstellung über 5.000.000 € mit Finanzmitteln von 800.000 € und Schulden von 500.000 €; drei Kapitalkonten; Entnahmen von 50.000 €, 30.000 € und 20.000 € ohne jede Einlage; eine Ergänzungsbilanz mit einem Grundstücks-Minderwert von 75.000 €; eine seit dem 30.12.2019 gehaltene 15%ige Beteiligung mit einem Anteilswert von 100.000 € und einer Ausschüttung von 20.000 € im Jahr 2020; und ein Alfa Romeo mit Anschaffungskosten von 80.000 €, steuerlichem Wert von 64.000 € und einem Händlerangebot von 60.000 €." },
+      { text: "Erkennbar gesetzte Weichen: die Gütertrennung und die kinderlose Ehe; die angemietete Wohnung, so dass kein Familienheim im Nachlass ist; die Absicht der Witwe, die Gesellschafterstellung fortzuführen; dass der Pkw dem Erblasser persönlich gehört und fast ausschließlich betrieblich genutzt wird; dass die Beteiligung an der Stoff-GmbH genau 15 % beträgt und diese Gesellschaft zugleich wichtigster Lieferant ist; dass am Todestag ein notarieller Kaufvertrag vorliegt, der Kaufpreis aber erst am 20.07.2021 fällig war und nur 50.000 € angezahlt waren, während die Umschreibung erst nach dem Tod erfolgte; dass beide Eheleute Versicherungsnehmer der Lebensversicherung sind und die gesamte Summe an den Überlebenden fließt; und dass der Hausrat „beiden Ehegatten zuzurechnen ist“." },
+      { text: "Eigene Feststellung zum Erbbauzins: Die Quelle schreibt „Der vertraglich vereinbarte **jährliche** Erbbauzins beträgt **monatlich** 500 €“. Beide Zeitangaben stehen im selben Satz und schließen einander aus; der Wortlaut ist unverändert wiedergegeben. Welche Angabe maßgeblich ist, entscheidet über die Höhe des Erbbauzinses um den Faktor zwölf." },
+      { text: "Zeitliche Einordnung: Der Erbfall tritt am 01.07.2021 ein. Wer die Aufgabe nach heutigem Rechtsstand löst, muss selbst prüfen, was sich seither geändert hat – insbesondere hat das Jahressteuergesetz 2022 die Grundbesitzbewertung einschließlich der Bewertung von Erbbaurechten und Erbbaugrundstücken neu gefasst. Die Aufgabe ist hier unverändert mit den Werten des Prüfungsjahrgangs wiedergegeben." },
+      { text: "Parallelfälle mit vollständiger Musterlösung im Campus: Das vereinfachte Ertragswertverfahren nach §§ 199 ff. BewG, die Abgrenzung von Verwaltungsvermögen und Finanzmitteln und die Verschonung des Betriebsvermögens behandelt der Erbschaftsteuer-Campus (Klausur 1); die Bewertung von Erbbaurechten und Erbbaugrundstücken nach §§ 192 ff. BewG, das Ertragswertverfahren für Mietwohngrundstücke und die Umrechnung von Bodenrichtwerten bei abweichender Geschossflächenzahl stehen dort ebenfalls, ebenso die Behandlung von Lebensversicherungen und der Hausratsfreibetrag des § 13 Abs. 1 Nr. 1 ErbStG." },
     ],
   },
 ];
