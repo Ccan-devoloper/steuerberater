@@ -9451,3 +9451,58 @@ oder „nach“. Der Wortlaut ist unverändert übernommen und gekennzeichnet.
 
 **Der Hinweis in `grest-06` ist erneut nachgezogen** und nennt jetzt nur noch § 1 Abs. 3 und
 Abs. 3a GrEStG sowie die drei Schlussstücke des Abschnitts als offen.
+
+### Skript Grunderwerbsteuer (Vossel), § 1 Abs. 3 GrEStG
+
+- **Quelle:** Drive-ID `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, Abschnitt III.2.4.3.
+- **Ziel:** `src/data/k1-grest-skript.js`, Eintrag `grest-09`. Prüfung:
+  `npm run check:k1-grest-skript`.
+
+**Die umgekehrte Fiktion.** Das ist der Kern dieses Abschnitts und der Grund, warum er
+gesondert steht: § 1 Abs. 2a und 2b GrEStG fingieren eine **neue Gesellschaft**, auf die das
+Grundstück übergeht. § 1 Abs. 3 GrEStG dreht das um und fingiert, dass **der Erwerber selbst**
+den Grundbesitz erwirbt. Daraus folgen die übrigen Unterschiede, die die Quelle in einem
+Absatz zusammenfasst: keine Zehnjahresfrist, dafür eine engere Erwerberdefinition – nicht
+„neue Gesellschafter“ in beliebiger Zahl, sondern **ein** Erwerber.
+
+Das Einstiegsbeispiel führt beides vor: Ein Aktionär mit 12 % kauft die restlichen 88 % aus
+dem Streubesitz. § 1 Abs. 2a GrEStG scheitert an der Rechtsform, § 1 Abs. 2b GrEStG daran,
+dass der Erwerber Altgesellschafter ist – aber § 1 Abs. 3 Nr. 1 GrEStG greift, weil in seiner
+Hand mehr als 90 % vereinigt werden.
+
+**Die vier Tatbestände** sind im Datensatz als Tabelle aufbereitet (Anteilsvereinigung und
+Übertragung vereinigter Anteile, jeweils mit und ohne Rechtsgeschäft – Nr. 1 bis 4).
+
+**Die Besonderheit bei Personengesellschaften.** Bei unmittelbaren Erwerben zählt nicht die
+vermögensmäßige Beteiligung, sondern das **Mitgliedschaftsrecht**. Die Quelle stellt zwei
+Beispiele nebeneinander, die genau an diesem Punkt auseinanderlaufen: Erwirbt ein Dritter
+beide Kommanditanteile, während die Komplementär-GmbH einem anderen gehört, liegen zwei
+Mitgliedschaftsrechte vor und es kommt **nicht** zur Vereinigung. Hält derselbe Erwerber
+dagegen auch die Komplementär-GmbH zu 100 %, vereinigt er beide Mitgliedschaftsrechte – und
+der Vorgang ist steuerbar. Bei **mittelbaren** Erwerben gilt wieder die Vermögensbeteiligung.
+Die Quelle zitiert dazu auch das abweichende Erwägen des BFH (Urteil vom 27.05.2020) und
+übernimmt es ausdrücklich als Fußnote.
+
+**Die 90-Prozent-Schwelle der vermittelnden Gesellschaft und ihre Ausnahme.** Eine
+Kapitalgesellschaft vermittelt eine Beteiligung nur, wenn man an ihr selbst mindestens 90 %
+hält; darunter bleiben ihre Anteile außer Betracht. Das Beispiel mit 80 % im Jahr 01 und 90 %
+im Jahr 02 zeigt den Sprung: Ab der Schwelle wird die vermittelte Beteiligung **vollständig**
+zugerechnet, nicht durchgerechnet – 30 % unmittelbar plus 70 % mittelbar ergeben 100 %.
+
+Die **grunderwerbsteuerliche Organschaft** hebelt genau diese Schwelle aus: Im Organkreis
+entfällt das 90-Prozent-Kriterium für die vermittelnde Gesellschaft. Das Beispiel rechnet es
+vor – 60 % beim herrschenden Unternehmen plus 32 % beim abhängigen ergeben 92 %, obwohl die
+Beteiligung an der Tochter nur 70 % beträgt. Die Quelle stellt daneben den Fall ohne
+Organschaft (nicht steuerbar) und den Fall der bloßen Begründung einer Organschaft (ebenfalls
+nicht steuerbar, weil § 1 Abs. 3 Nr. 1 GrEStG ein Rechtsgeschäft verlangt).
+
+**Eigene Feststellung – wieder ein Rechtsformwechsel mitten im Beispiel.** Im
+Organschaftsbeispiel steht zweimal „M-GmbH“, wo nach Sachverhalt und übrigem Text die **M-AG**
+gemeint ist („Vor dem Jahr 02 hielt die M-GmbH lediglich 60 %“ und „könnte die T-GmbH der
+M-GmbH keine mittelbare Beteiligung … vermitteln“). Das ist derselbe Fehlertyp wie im
+Verschmelzungsbeispiel des Abschnitts III.2.2, wo einmal „M-GmbH“ statt „M-AG“ steht. Beide
+Stellen sind wortlautgetreu übernommen und an Ort und Stelle gekennzeichnet.
+
+**Unabhängig nachgerechnet:** 75 % + 23 % = 98 % ≥ 90 % (Anteilsvereinigung); 94 % ≥ 90 %
+(Übertragung vereinigter Anteile); 12 % + 88 % = 100 %; 30 % + 70 % = 100 % (mittelbar ab der
+Schwelle); 60 % + 32 % = 92 % (Organkreis). Alle Beispiele der Quelle gehen auf.
