@@ -113,8 +113,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Aus dem Abschnitt 11 (Steuererhebungsverfahren) sind der Teil I (allgemeine Grundlagen
   einschließlich des Beispiels Rumpel-/Grobi-GmbH) und der Teil II (Abrechnungsbescheid
   nach § 218 Abs. 2 AO mit den Fällen Baghira und Leo Lügner sowie § 218 Abs. 3 AO)
-  eingepflegt. Offen sind die Teile III bis V des Abschnitts 11 (Erlöschen von Ansprüchen,
-  Säumniszuschläge, Zinsen), der Abschnitt 12 (Außenprüfung) und der Abschnitt 13.
+  eingepflegt, aus dem Teil III (Erlöschen von Ansprüchen nach § 47 AO) die Übersicht und
+  die Aufrechnung nach § 226 AO bis einschließlich des Musterfalls. Offen sind der Rest des
+  Teils III (§ 406 BGB bei abgetretenen Forderungen, Erlass und Zahlungsverjährung), die
+  Teile IV und V des Abschnitts 11 (Säumniszuschläge, Zinsen), der Abschnitt 12
+  (Außenprüfung) und der Abschnitt 13.
 - AO-Short-Skript
 - FGO
 - Notfallbuch

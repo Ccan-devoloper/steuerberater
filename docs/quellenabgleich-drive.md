@@ -2853,3 +2853,63 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   zusammen; die Festsetzungsfrist für die hinterzogene Steuer endet am **31.12.12**, der
   Vorbehalt der Nachprüfung entfiel am **31.12.06**, und die Zahlungsverjährung des
   Änderungsbescheides vom 01.09.07 läuft zehn Jahre bis zum **31.12.17**.
+
+## AO-Skript (Jacobs), Teil V – Abschnitt 11: Steuererhebungsverfahren (Teil 2)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN`),
+  Abschnitt 11, Teil III bis einschließlich des Musterfalls zur Aufrechnung.
+- Einpflege dieses Durchgangs: drei Kapitel – die Übersicht zu § 47 AO mit den
+  unterschiedlichen Rechtswirkungen von Festsetzungs- und Zahlungsverjährung, die
+  Aufrechnung nach § 226 AO mit den vier Voraussetzungen und den beiden
+  Erläuterungsübersichten, die zwei Übungsfälle Anton Arm und Berta Brot mit
+  Lösungshinweisen sowie Rechtsfolgen, Rechtsbehelfe und der Musterfall. Das Skript umfasst
+  jetzt 12 Teile, 135 Kapitel, 3.002 Blöcke und 234 Tabellen; Prüfung
+  `npm run check:k1-ao-skript-jacobs`.
+- Noch nicht eingepflegt: der Rest des Teils III (§ 406 BGB bei abgetretenen Forderungen,
+  Erlass, Zahlungsverjährung), die Teile IV und V des Abschnitts 11 sowie der Abschnitt 12.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 6, Sachverhalt 1 – Fälligkeitsdatum.** Die Lösung nennt als Fälligkeit der
+    Einkommensteuernachzahlung den „19.07.10 (Fr)“. Der Sachverhalt legt seinen eigenen
+    Kalender fest – der 15.06.10 ist ein Montag, der 15.07.10 ein Mittwoch, was zueinander
+    passt. Danach ist der 19.07.10 ein **Sonntag**. Rechnet man mit der Dreitagesfrist,
+    endet die Monatsfrist am Samstag, dem 18.07.10, rechnet man mit der von der Lösung
+    zitierten Viertagesfrist („§ 122 Abs. 2 Nr. 1 AO nF“), am Sonntag, dem 19.07.10 – in
+    beiden Fällen verschiebt § 108 Abs. 3 AO, den die Lösung selbst zitiert, die Fälligkeit
+    auf **Montag, den 20.07.10**. Auf das Ergebnis des Falles wirkt sich das nicht aus.
+  - **Kapitel 7, Musterfall – Fristenmaßstab.** Der Musterfall rechnet durchgehend mit der
+    bis 2024 geltenden Dreitagesfrist (Bescheid vom 31.08.13, Bekanntgabe 03.09.13;
+    Abrechnungsbescheid vom 20.09.13, Einspruchsfrist bis 23.10.13), während die
+    Übungsfälle der Tz. 3 desselben Teils die Viertagesfrist ansetzen. Beide Rechenwege
+    stehen unverändert nebeneinander.
+  - Kapitel 7: Die Übersicht zum Musterfall bezeichnet die Rückstände der Ehefrau als
+    „USt-Rückstände **10**“, der Sachverhalt dagegen als „USt-Rückstände 07/13“. Ferner der
+    Schreibfehler „Der Restbetrag sollte … an ihn **g** ausgezahlt werden“, die Schreibweise
+    „sondere eine verwaltungsrechtliche Willenserklärung“ und ein fehlendes schließendes
+    Anführungszeichen beim AEAO-Zitat zu § 226 AO.
+  - Kapitel 5: Die Lücken am Ende der Voraussetzungs-Übersicht („Finanzamt:
+    _____ / Steuerpflichtiger: _____“) sind Teil der Arbeitsunterlage und dort nicht
+    ausgefüllt; ebenso bleiben in den Lösungsbögen der Übungsfälle die nicht zutreffenden
+    Antwortzeilen leer.
+
+  Darstellungsentscheidungen: Die Übersicht zu § 47 AO, die beiden Erläuterungsübersichten
+  zu Fälligkeit und Entstehung, die Ankreuzbögen der Übungsfälle, die Übersicht zum
+  Musterfall und die Gegenüberstellung von Schuldner und Gläubiger stehen in der Quelle als
+  Schaubilder, deren Spalten in der maschinellen Erfassung ineinanderlaufen. Sie sind
+  spaltenweise zugeordnet als Tabellen wiedergegeben, mit Hinweis im Datensatz; der Wortlaut
+  ist unverändert.
+
+  Nachgerechnet und zutreffend: Im Sachverhalt 2 ist die Umsatzsteuer-Voranmeldung Juni 10
+  am 10.07.10 fällig – nach dem Kalender des Falles ein Samstag –, so dass § 108 Abs. 3 AO
+  auf Montag, den **12.07.10** verschiebt und die Säumnis am 13.07.10 beginnt; der
+  Einkommensteuerbescheid vom Mittwoch, dem 27.10.10 ist vier Tage später am Sonntag, dem
+  31.10.10 bekannt gegeben und wegen Allerheiligen auf Dienstag, den **02.11.10** zu
+  verschieben. Vom 13.07.10 bis zum 02.11.10 liegen vier angefangene Monate, mithin
+  15.000 € x 4 % = **600 €**. Im Beispiel zu Tz. 4 ergibt die Aufgabe zur Post am 17.05.09
+  zuzüglich vier Tagen die Bekanntgabe am **21.05.09** und damit drei angefangene Monate ab
+  dem 11.03.09, mithin 10.000 € x 3 % = **300 €**. Im Musterfall entsprechen die
+  verlangten 2.000 € der Erstattung von 7.000 € abzüglich der Vorauszahlung von 5.000 €,
+  die Säumniszuschläge von 50 € einem Prozent von 5.000 €.

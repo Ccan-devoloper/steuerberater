@@ -209,7 +209,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Anrechnungsverfügung nach § 130 Abs. 1 AO) und Leo Lügner (arglistige Täuschung nach
   § 130 Abs. 2 Nr. 2 AO, Steuerhinterziehung und die zehnjährige Zahlungsverjährung nach
   § 228 Satz 2 AO) sowie die Korrekturvorschrift des § 218 Abs. 3 AO für widerstreitende
-  Anrechnungsverfügungen bei Ehegatten und Lebenspartnern.
+  Anrechnungsverfügungen bei Ehegatten und Lebenspartnern. Der **Teil III** (Erlöschen von
+  Ansprüchen, § 47 AO) beginnt mit der Übersicht über die Erlöschenstatbestände im
+  Festsetzungs- und im Erhebungsverfahren und dem Unterschied zwischen Festsetzungs- und
+  Zahlungsverjährung; es folgt die **Aufrechnung nach § 226 AO** mit den Wortlauten der
+  §§ 387 bis 389 BGB, den vier Voraussetzungen der Aufrechnungslage und zwei Übersichten,
+  die Fälligkeit der Aktivforderung und Entstehung der Passivforderung getrennt danach
+  aufschlüsseln, ob das Finanzamt oder der Steuerpflichtige aufrechnet. Dazu kommen die
+  beiden Übungsfälle Anton Arm und Berta Brot mit vollständiger Fristberechnung und der
+  Frage nach Säumniszuschlägen (600 € für vier angefangene Monate), die Rechtsfolgen des
+  § 389 BGB und ihre Grenze in § 240 Abs. 1 Satz 5 AO samt durchgerechnetem Beispiel, die
+  Rechtsbehelfe gegen Aufrechnungen beider Seiten und der Musterfall, in dem das Finanzamt
+  das Umsatzsteuerguthaben des Ehemannes mangels Gegenseitigkeit nicht gegen die
+  Umsatzsteuerrückstände der Ehefrau aufrechnen kann.
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und
