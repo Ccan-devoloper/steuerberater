@@ -18,6 +18,7 @@ import { estKurzskript1, estKurzskript1Quelle } from "../data/est-kurzskript-1.j
 import { estKurzskript2, estKurzskript2Quelle } from "../data/est-kurzskript-2.js";
 import { estFallsammlungen, estFallsammlungenQuelle } from "../data/est-fallsammlungen.js";
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
+import { estOriginalklausuren, estOriginalklausurenQuelle } from "../data/k2-est-originalklausuren.js";
 import "./kst.css";
 
 /* Die Übungsklausur Körperschaftsteuer steht im KSt-Campus, die beiden
@@ -34,6 +35,7 @@ const NAV = [
   ["hausaufgaben", "Hausaufgaben ESt", IconModule],
   ["fallsammlungen", "Fallsammlungen", IconFaelle],
   ["klausuren", "Übungsklausuren", IconTraining],
+  ["originalklausuren", "Originalklausuren (Prüfung)", IconTraining],
 ];
 
 /* Was aus den ESt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
@@ -189,6 +191,21 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
             gruppeAria="Teile"
             gruppeAlle="Alle Teile"
             suchePlatzhalter="Norm, Stichwort oder Betrag"
+          />
+        ) : verlauf.ansicht === "originalklausuren" ? (
+          <HausaufgabenBloecke
+            kicker="Klausur 2 · Ertragsteuern · Original-Prüfungsklausuren"
+            titel="Ertragsteuern – Originalklausuren der Steuerberaterprüfung"
+            lead="Die Original-Prüfungsaufgaben aus dem Gebiet der Ertragsteuern (Einkommensteuer und Gewerbesteuer) mit den Lösungsvorschlägen des Lehrgangs („Ertragsteuern · Steuerberaterprüfungen 2011 – 2015“, Rechtsstand 2025). Jeder Sachverhalt steht als eigener Eintrag – mit Bearbeitungshinweisen, Musterlösung und den Randpunkten der Quelle. Die Sachverhalte rechnen in abstrakten Jahreszahlen („Jahr 10“, „01.03.11“): Das sind Platzhalter für aufeinanderfolgende Veranlagungszeiträume, nicht für Kalenderjahre; maßgeblich ist der Rechtsstand zum 31.12.2025. Eingepflegt ist bisher die Prüfung 2011 mit ihren vier Sachverhalten: Sonderbetriebsvermögen über eine zweite Personengesellschaft und die Rücknahme des § 34a-Antrags (eine Günstigerprüfung, die um 440,31 € entschieden wird); die Einbringung eines Einzelunternehmens nach § 24 UmwStG, bei der aus dem leitenden Angestellten ein Kommanditist wird – mit zwei Gewerbesteuermessbeträgen für ein und dasselbe Unternehmen; der Verkauf an sich selbst über eine GbR ohne Einkunftserzielungsabsicht, der die Schuldzinsen kostet und trotzdem ein privates Veräußerungsgeschäft auslöst; und die erweiterte Kürzung bei gewerblicher Prägung, die durch eine einzige geänderte Beteiligung zur Betriebsaufspaltung wird und den Messbetrag von 927 € auf 3.423 € treibt. Jede Zahl ist unabhängig nachgerechnet."
+            quelle={estOriginalklausurenQuelle}
+            hausaufgaben={estOriginalklausuren}
+            gruppeVon={(eintrag) => eintrag.block}
+            gruppeLabel={(eintrag) => eintrag.blockLabel}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · Sachverhalt ${eintrag.nummer} · ${eintrag.punkte} Punkte`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Sachverhalte"
+            einheitEinzahl="Sachverhalt"
           />
         ) : verlauf.ansicht === "klausuren" ? (
           <HausaufgabenBloecke

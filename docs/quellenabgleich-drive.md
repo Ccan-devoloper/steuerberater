@@ -7258,3 +7258,167 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   kein Ausschlusstatbestände gem. § 15 Abs. 2 UStG gegeben“ (dreimal); „eines im Ausland
   ansässiges Unternehmen“; „§§ 14. 14a UStG“ mit Punkt statt Komma; „zurück liegt“; und
   „Kein Rückausschluss gem. § 15 Abs. 3 Satz 1 Nr. 1 UStG“ ohne Satzzeichen.
+
+## Originalklausuren der Steuerberaterprüfung – Ertragsteuern, Prüfung 2011
+
+- Quelle: „Ertragsteuern · Steuerberaterprüfungen 2011 – 2015“, Rechtsstand 2025, März 2026
+  (`1QwClx7BL_66vssgQcF4xq7CIzknvfIcy`, 2,3 MB), Ordner „Originalklausuren“.
+- Einpflege dieses Durchgangs: die **Prüfung 2011** mit ihren vier Sachverhalten;
+  neuer Datensatz `src/data/k2-est-originalklausuren.js` mit 4 Sachverhalten, 152 Blöcken,
+  18 Tabellen und 65 Punkten; neuer Reiter „Originalklausuren (Prüfung)“ im ESt-Campus;
+  Prüfung `npm run check:k2-est-originalklausuren`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. **Randpunkte weist diese
+  Unterlage aus** – anders als die USt- und ErbSt-Originalklausuren; sie stehen als
+  Zwischensummen an den Abschnitten der Lösung.
+- **Grenze der Quelle:** Der Connector gibt aus dem PDF rund 168.000 Zeichen aus und bricht
+  im Sachverhalt der Prüfung 2013 (Klausur E 18) auf Seite 7 von 11 ab. Die Prüfungen 2013
+  (ab dort), 2014 und 2015 sind daraus nicht lesbar und stehen in `docs/offene-quellen.md`,
+  Abschnitt A.
+
+  **Eine dritte Zeitlogik in der Reihe der Originalklausuren.** Die AO-Klausuren spielen im
+  Jahr ihres Prüfungsjahrgangs, die USt-Klausuren sind auf 2026 fortgeschrieben – die
+  Ertragsteuerklausuren gehen einen dritten Weg: Sie sind „überarbeitet und fortgeschrieben
+  auf den Rechtsstand zum 31.12.2025“, rechnen die Sachverhalte aber in **abstrakten
+  Jahreszahlen** („Jahr 09“, „Jahr 10“, „01.03.11“). Diese zweistelligen Zahlen sind
+  Platzhalter für aufeinanderfolgende Veranlagungszeiträume und keine Kalenderjahre. Wer sie
+  als echte Jahre liest, verrechnet sich bei Fristen und AfA-Zeiträumen. Der Umstand ist im
+  Kopfkommentar des Datensatzes, im didaktischen Hinweis der Quelle und in der
+  Reiter-Einleitung ausdrücklich festgehalten.
+
+  **Sachverhalt 1 – Mayer GmbH & Co. KG (19 Punkte): Sonderbetriebsvermögen über eine zweite
+  Personengesellschaft.** Die Versuchung liegt in der mitunternehmerischen
+  Betriebsaufspaltung – BM beherrscht mit 80 % die OHG und mit 100 % die KG, und das
+  Grundstück ist wesentliche Betriebsgrundlage. Sie scheitert an einem einzigen Wort des
+  Sachverhalts: Die Überlassung erfolgt **unentgeltlich**, und damit greift Nr. 1 des
+  BMF-Schreibens vom 28.04.1998 nicht. Die Folge ist nicht, dass nichts passiert, sondern
+  dass der 80-prozentige Grundstücksanteil Sonderbetriebsvermögen I wird:
+
+  | Schritt | Betrag |
+  | --- | --- |
+  | Kaufpreis 800.000 € + Notarkosten 10.000 € + Grunderwerbsteuer 52.000 € | 862.000 € |
+  | davon 75 % Gebäude | 646.500 € |
+  | davon 80 % notwendiges BV des BM | 517.200 € |
+  | AfA 3 % für 11 Monate (§ 7 Abs. 1 Satz 4 EStG) | 14.223 € |
+  | Schuldzinsen 3.500 € × 80 % × **11** Monate | 30.800 € |
+  | Gewinnanteil 44.523 € + Geldbuße 2.000 € ./. 14.223 € ./. 30.800 € | **1.500 €** |
+
+  Bemerkenswert ist der Zinszeitpunkt: Die Raten für November und Dezember fließen erst am
+  05.01.11 ab. Weil BM seinen Sonderbetriebsgewinn – wie die KG – durch
+  **Betriebsvermögensvergleich** ermittelt, kommt es darauf nicht an; gerechnet wird mit elf
+  Monatsraten, nicht mit neun. Wer hier nach § 11 EStG denkt, verliert zwei Raten.
+
+  **Die Günstigerprüfung zu § 34a EStG ist der eigentliche Kern.** Vier Rechnungen stehen
+  nebeneinander: 63.500 € Begünstigungsbetrag ergeben 17.938,75 € ESt und 986,63 € Soli,
+  also einen nachversteuerungspflichtigen Betrag von 44.574,62 €. Der Entnahmeüberhang 10
+  von 68.300 € (95.000 € ./. 1.500 € ./. 9 × 2.800 € Einlagen im Sonderbetriebsvermögen)
+  löst die Nachversteuerung aus: 25 % = 11.143,66 € zuzüglich 612,90 € Soli. Zusammen
+  30.681,94 € gegen 30.146,63 € bei Rücknahme des Antrags (45 % Spitzensteuersatz plus
+  Soli) – Differenz 535,31 €, abzüglich 95,00 € Nachzahlungszinsen bleiben **440,31 €**.
+
+  **Eigene Nachvollziehung:** Die Quelle nennt die 95,00 € ohne Rechenweg. Sie ergeben sich
+  aus § 238 Abs. 2 AO: Der zu verzinsende Betrag von 10.636,25 € ist auf volle 50 € nach
+  unten abzurunden (10.600 €); 0,15 % × 6 Monate = 0,9 % davon sind 95,40 €, auf volle Euro
+  abgerundet 95 €. Ohne diese Abrundung käme man auf 95,73 € und damit auf 439,58 € statt
+  440,31 € – am Ergebnis ändert das nichts. Der Hinweis ist im Datensatz als eigene
+  Feststellung gekennzeichnet.
+
+  **Sachverhalt 2 – Bauen Döring KG (22 Punkte): ein einziger Stichtag ändert alles.** Am
+  28.02. endet für D das Einzelunternehmen und für H das Arbeitsverhältnis. Ab dem 01.03.
+  wird aus dem Gewinn der Einzelunternehmerin ein Verlustanteil, aus dem Arbeitslohn eine
+  Sondervergütung und aus dem nach § 3 Nr. 62 EStG steuerfreien Arbeitgeberanteil eine
+  steuerpflichtige Vergütung.
+
+  Das **gegenläufige Paar** ist lehrreich: Die Tätigkeitsvergütung der **D** von monatlich
+  30.000 € ist **keine** Sondervergütung, obwohl sie gewinnunabhängig gezahlt wird – weil
+  der Gesellschaftsvertrag anordnet, sie als **Entnahme** zu buchen. Der Arbeitslohn des
+  **H** ist dagegen Sondervergütung, weil die KG ihn als Aufwand erfasst. Nicht die
+  Bezeichnung entscheidet, sondern die bilanzielle Behandlung. Deshalb steht in der
+  Gewinnverteilung bei D ein Gewinnvorab von 300.000 €, und der zu verteilende Verlust
+  wächst auf 520.000 € (D: - 416.000 €, H: - 104.000 €).
+
+  Die **Pensionszusage** ist die schärfste Stelle: Zusage vom 01.11.10, Rückstellung am
+  31.12.10 bereits 150.000 € – und dieser **volle** Betrag ist Sondervergütung des Jahres
+  10, obwohl er wirtschaftlich zwei Monate Dienstzeit abgilt. Grund ist die
+  Spiegelbildmethode: Was die KG passiviert, hat H in seiner Sonderbilanz zu aktivieren.
+  Zusammen mit Gehalt (100.000 €) und Arbeitgeberanteilen (13.000 €) ergeben sich 263.000 €
+  Sondervergütungen – mehr, als der Gesamtverlust ausmacht. Genau das führt dazu, dass die
+  KG trotz 220.000 € Verlust einen Gewerbesteuermessbetrag zahlt.
+
+  | Gewerbesteuer 10 | D (01.01.–28.02.) | KG (01.03.–31.12.) |
+  | --- | --- | --- |
+  | Gewinn | 100.000 € | - 220.000 € |
+  | Sonderbetriebsvermögen | – | 263.000 € |
+  | ./. anteiliger Freibetrag | 2 × 2.042 € | 10 × 2.042 € |
+  | Gewerbeertrag | 95.916 € | 22.580 € |
+  | Messbetrag 3,5 % | **3.357 €** | **790 €** |
+
+  Sachlich bleibt die Steuerpflicht durchgehend bestehen – es liegt kein Unternehmerwechsel
+  vor, weil D ihre Tätigkeit als Mitunternehmerin fortsetzt (R 2.7 Abs. 2 GewStR).
+  **Persönlich** wechselt der Steuerschuldner, und deshalb ergehen zwei Messbescheide mit je
+  zeitanteiligem Freibetrag. § 15a EStG bleibt dabei nach R 7.1 Abs. 3 Satz 1 Nr. 5 GewStR
+  außer Betracht: Der bei H nicht ausgleichsfähige Verlust von 4.000 € kürzt den
+  Gewerbeertrag nicht.
+
+  **Sachverhalt 3 – Abel & Witte GbR (10 Punkte): der Verkauf an sich selbst.** Was wie eine
+  Gesellschaftsgründung aussieht, ist steuerlich keine: Der GbR fehlt die
+  Einkunftserzielungsabsicht, weil die Mieterin ihren Anteil zu eigenen Wohnzwecken nutzt
+  (§ 12 Nr. 1 EStG). Damit entfällt die einheitliche und gesonderte Feststellung, und die
+  Einkünfte sind unmittelbar bei A zu erfassen – ab 01.07. nur noch zur Hälfte, weil ihm das
+  Grundstück nach § 39 Abs. 2 Nr. 2 AO nur noch zur Hälfte zuzurechnen ist.
+
+  Die **Asymmetrie ist die Pointe**: Die Veräußerung an sich selbst wird nicht anerkannt,
+  soweit sie nützen würde – es bleibt bei den ursprünglichen Anschaffungskosten als
+  AfA-Bemessungsgrundlage, und die Schuldzinsen sind **in voller Höhe** nicht abziehbar,
+  weil kein Anschaffungsgeschäft vorliegt und das Darlehensgeld frei verfügbar an A fließt.
+  Sie wird aber sehr wohl anerkannt, soweit sie **belastet**: Die auf W übergehende Hälfte
+  ist ein privates Veräußerungsgeschäft innerhalb der Zehnjahresfrist.
+
+  | Rechnung | Betrag |
+  | --- | --- |
+  | Mieteinnahmen 6 × 2.500 € + 6 × 2.500 € × 50 % | 22.500 € |
+  | ./. laufende Kosten 4.800 € + 2.400 € | - 7.200 € |
+  | ./. AfA 2 % von 300.000 €: 3.000 € + 1.500 € | - 4.500 € |
+  | **Einkünfte § 21 EStG** | **10.800 €** |
+  | Veräußerungspreis 50 % von 700.000 € ./. 50 % AK 250.000 € | 100.000 € |
+  | + AfA-Hinzurechnung § 23 Abs. 3 Satz 4 EStG (6 Jahre 3 Monate × 6.000 €, davon 50 %) | 18.750 € |
+  | **Sonstige Einkünfte §§ 22 Nr. 2, 23 EStG** | **118.750 €** |
+
+  **Sachverhalt 4 – Grundbesitz-Verwaltungs GmbH & Co. KG (14 Punkte): dieselbe Gesellschaft
+  zweimal.** Die beiden Aufgabenteile unterscheiden sich in **einer einzigen Tatsache** – und
+  führen zu fast dem Vierfachen an Gewerbesteuer. Solange fremde Dritte an der
+  Betriebs-GmbH beteiligt sind, ist die KG nur **gewerblich geprägt** (§ 15 Abs. 3 Nr. 2
+  EStG) und darf die erweiterte Kürzung des § 9 Nr. 1 Satz 2 GewStG nutzen. Sind dieselben
+  Personen an beiden Gesellschaften beteiligt, entsteht eine **Betriebsaufspaltung**: Die KG
+  wird originär gewerblich, die Prägung ist überflüssig – und mit ihr fällt die erweiterte
+  Kürzung weg (H 9.2 Abs. 2 GewStH).
+
+  | | mit Prägung (Aufgabe 1) | mit Betriebsaufspaltung (Aufgabe 2) |
+  | --- | --- | --- |
+  | Gewinn § 7 GewStG | 124.000 € | 124.000 € |
+  | Kürzung | § 9 Nr. 1 Satz 2: - 73.000 € | § 9 Nr. 1 Satz 1: - 1.680 € |
+  | Gewerbeertrag | 51.000 € | 122.300 € |
+  | ./. Freibetrag | - 24.500 € | - 24.500 € |
+  | Messbetrag 3,5 % | **927 €** | **3.423 €** |
+
+  Die erweiterte Kürzung erfasst nur den Teil des Ertrags, der auf die Verwaltung und
+  Nutzung des eigenen Grundbesitzes entfällt. Drei Posten bleiben draußen: die Festgeldzinsen
+  von 8.000 € (auch wenn sie aus Mietüberschüssen stammen, H 9.2 Abs. 3 GewStH) und die
+  Sondervergütungen von 13.000 € und 30.000 €; 124.000 € ./. 51.000 € ergeben die Kürzung
+  von 73.000 €. Der Einheitswert wird nach § 121a BewG mit 140 % angesetzt:
+  100.000 € × 140 % × 1,2 % = 1.680 €.
+
+  Bemerkenswert ist der **Umweg der Geschäftsführervergütung**: Sie wird von der KG
+  unmittelbar an Fleißig gezahlt, ist aber zwischen KG und **GmbH** vereinbart. Die Lösung
+  führt sie in drei Schritten (Sonderbetriebseinnahme der GmbH, Sonderbetriebsausgabe der
+  GmbH, Sonderbetriebseinnahme des Fleißig). Netto bleibt eine einmalige Hinzurechnung von
+  30.000 € – wer den Umweg überspringt, kommt zahlenmäßig hin, verliert aber die Begründung,
+  warum die Vergütung bei der erweiterten Kürzung nicht begünstigt ist.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.** Zusätzlich geprüft: der
+  Monatsfreibetrag von 2.042 € (24.500 € : 12 = 2.041,67 €, aufgerundet), die Abrundung des
+  Gewerbeertrags auf volle 100 € (122.320 € → 122.300 €) und die Abrundung des Messbetrags
+  auf volle Euro nach R 14.1 Satz 3 GewStR (927,50 € → 927 €).
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** die Angabe in
+  Sachverhalt 2, die persönliche Gewerbesteuerpflicht liege „vom 01.03.’31.03.“ bei der KG,
+  wo 31.12. gemeint ist – zwei Sätze zuvor nennt die Quelle den Zeitraum selbst richtig.

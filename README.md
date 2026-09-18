@@ -1629,6 +1629,45 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   abziehbar (228 €) und lösen eine Wertabgabe aus, das einzelne teurere Geschenk sperrt den
   Abzug nach § 15 Abs. 1a UStG und bleibt deshalb ohne Wertabgabe.
   Prüfung: `npm run check:k1-ust-originalklausuren`
+- **ESt-Originalklausuren** (Klausur 2, Reiter Einkommensteuer → „Originalklausuren
+  (Prüfung)“): die Original-Prüfungsaufgaben aus dem Gebiet der Ertragsteuern
+  (Einkommensteuer und Gewerbesteuer) mit den Lösungsvorschlägen des Lehrgangs
+  („Ertragsteuern · Steuerberaterprüfungen 2011 – 2015“, Rechtsstand 2025, März 2026).
+  Jeder Sachverhalt steht als eigener Eintrag mit Bearbeitungshinweisen, Musterlösung und
+  den **Randpunkten der Quelle**. Eigene Zeitlogik: Die Sachverhalte rechnen in abstrakten
+  Jahreszahlen („Jahr 10“, „01.03.11“) – Platzhalter für aufeinanderfolgende
+  Veranlagungszeiträume, nicht für Kalenderjahre; maßgeblich ist der Rechtsstand zum
+  31.12.2025. Eingepflegt ist die **Prüfung 2011** mit ihren vier Sachverhalten (65 Punkte).
+  **Sachverhalt 1 (Mayer GmbH & Co. KG, 19 Punkte)** baut das Sonderbetriebsvermögen über
+  eine **zweite Personengesellschaft** auf: Eine mitunternehmerische Betriebsaufspaltung
+  scheitert an einem einzigen Wort des Sachverhalts – die Überlassung ist
+  **unentgeltlich** –, und der 80-prozentige Grundstücksanteil wird deshalb
+  Sonderbetriebsvermögen I. AfA (14.223 €) und Schuldzinsen (30.800 €) lassen vom
+  Gewinnanteil von 44.523 € nur 1.500 € übrig. Der zweite Teil ist eine reine
+  **Günstigerprüfung** zu § 34a EStG: Der Entnahmeüberhang löst die Nachversteuerung aus,
+  und die Rücknahme des Antrags ist um **440,31 €** günstiger. **Sachverhalt 2 (Bauen
+  Döring KG, 22 Punkte)** dreht sich um einen einzigen Stichtag: Zum 01.03. wird aus dem
+  Einzelunternehmen eine KG (Einbringung nach § 24 UmwStG zum Buchwert über eine negative
+  Ergänzungsbilanz, Einbringungsgewinn 0 €) und aus dem leitenden Angestellten ein
+  Kommanditist. Gehalt, Arbeitgeberanteile zur Sozialversicherung **und** die volle
+  Zuführung zur Pensionsrückstellung von 150.000 € sind Sondervergütungen – zusammen
+  263.000 €. Die Vergütung der Komplementärin ist dagegen **kein** Sondervergütung, weil
+  der Gesellschaftsvertrag sie als Entnahme bucht. Gewerbesteuerlich bleibt die sachliche
+  Steuerpflicht bestehen, die persönliche wechselt: **zwei Messbeträge** (3.357 € und
+  790 €) mit je zeitanteiligem Freibetrag. **Sachverhalt 3 (Abel & Witte GbR, 10 Punkte)**
+  ist ein **Verkauf an sich selbst**: Der GbR fehlt die Einkunftserzielungsabsicht, weil die
+  Mieterin ihren Anteil zu eigenen Wohnzwecken nutzt. Die Asymmetrie ist die Pointe – die
+  Veräußerung wird nicht anerkannt, soweit sie nützen würde (alte Anschaffungskosten bleiben
+  AfA-Bemessungsgrundlage, Schuldzinsen in voller Höhe nicht abziehbar), wohl aber, soweit
+  sie belastet: 118.750 € privates Veräußerungsgeschäft. **Sachverhalt 4
+  (Grundbesitz-Verwaltungs GmbH & Co. KG, 14 Punkte)** stellt dieselbe Gesellschaft zweimal
+  vor, mit einer einzigen geänderten Tatsache: Bei fremden Dritten an der Betriebs-GmbH ist
+  die KG nur **gewerblich geprägt** und darf die erweiterte Kürzung nutzen (Messbetrag
+  927 €); sind es dieselben Personen, entsteht eine **Betriebsaufspaltung**, die Prägung
+  wird überflüssig und mit ihr fällt die erweiterte Kürzung weg (Messbetrag 3.423 €). Jede
+  Zahl ist unabhängig nachgerechnet; die Herleitung der Nachzahlungszinsen von 95,00 € über
+  die Abrundung des § 238 Abs. 2 AO ist als **eigene Nachvollziehung** gekennzeichnet.
+  Prüfung: `npm run check:k2-est-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
   1.017 Abschnitten und 30 Tabellen: die Einführung in die Einkommensteuer (persönliche

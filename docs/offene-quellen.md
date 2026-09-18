@@ -28,6 +28,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **AO Teil III** (Jacobs, Mai 2025), Drive-ID `17QT3RU22R0kTxP5MfyzWc6HrX3i77TEg` | Aus Abschnitt 7 die Seiten 80 bis 118: die Lösungshinweise zu den Übungsfällen zu **§ 175 Abs. 1 Satz 1 Nr. 1 AO**, **§ 175 Abs. 1 Satz 1 Nr. 2 AO** (rückwirkendes Ereignis) sowie **§§ 176 und 177 AO** | Der Connector gibt aus dem PDF 156.000 Zeichen aus und bricht in Abschnitt 7 auf Seite 79 mitten im ersten Übungsfall zu § 175 AO ab. Abschnitt 7 ist bis dorthin vollständig eingepflegt. |
 | **AO Teil V** (Jacobs, Mai 2025), Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN` | Aus Abschnitt 12 (Außenprüfung) alles ab Seite 28: der Rest des **Teils V** (Neuregelungen zu § 197 Abs. 5 und § 180 Abs. 1a AO) sowie die **Teile VI bis VIII** (Prüfungsfeststellungen, Schlussbesprechung, Prüfungsbericht, Auswirkungen auf die Festsetzungsverjährung); dazu der gesamte **Abschnitt 13** | Der Connector gibt aus dem 1,4-MB-PDF 145.000 Zeichen aus: den Abschnitt 11 vollständig und den Abschnitt 12 bis Seite 27, wo er abbricht. Das Deckblatt kündigt „Teil V: Abschnitte 11 bis 13“ an. |
 | **AO Teil IV** (Jacobs, Mai 2025), Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA` | Aus Abschnitt 9 ab Seite 18: der Rest des Teils V (**Wiedereinsetzung, § 56 FGO**), Teil VI (**Form und Inhalt der Klageschrift, §§ 64, 65 FGO**), die **Begründetheit der Klage** und das **Revisionsverfahren**; dazu der gesamte **Abschnitt 10** (vorläufiger Rechtsschutz) | Der Connector gibt aus dem PDF 141.000 Zeichen aus: Abschnitt 8 vollständig (62 Seiten) und Abschnitt 9 bis Seite 17, wo er mitten im Satz abbricht. Das Deckblatt kündigt „Teil IV: Abschnitte 8 bis 10“ an. |
+| **Ertragsteuern · Steuerberaterprüfungen 2011–2015** (März 2026), Drive-ID `1QwClx7BL_66vssgQcF4xq7CIzknvfIcy` | Die Prüfungen **2013 (ab der Hälfte des Sachverhalts), 2014 und 2015** einschließlich ihrer Lösungsvorschläge | Der Connector gibt aus dem 2,3-MB-PDF rund 168.000 Zeichen aus: die Prüfung 2011 vollständig, die Prüfung 2012 vollständig (einschließlich der DBA-Anlagen) und den Anfang der Prüfung 2013 (Klausur E 18) bis Seite 7 von 11, wo er abbricht. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
 Rest: wortlautgetreu, mit Kennzeichnung jeder Stelle, an der die Quelle selbst nicht
@@ -269,8 +270,17 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   „2026) (10).pdf“ (`1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, 0,5 MB) und
   „Pruefungsklausur Steuerberater 2021-2022-0226.pdf“ (`1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3`,
   0,7 MB) sind die **Prüfungsaufgaben Buchführung und Bilanzierung** der
-  Steuerberaterprüfungen 2022/2023 bzw. 2021/2022 – noch offen. Offen sind außerdem die
-  Dateien zu **ESt** (`1QwClx7BL_66vssgQcF4xq7CIzknvfIcy`, 2,3 MB), **Bilanz 2011–2015**
+  Steuerberaterprüfungen 2022/2023 bzw. 2021/2022 – noch offen. Die Datei **ESt**
+  (`1QwClx7BL_66vssgQcF4xq7CIzknvfIcy`, 2,3 MB) ist „Ertragsteuern · Steuerberaterprüfungen
+  2011 – 2015“ (Rechtsstand 2025, März 2026) mit den Original-Prüfungsaufgaben aus
+  Einkommensteuer und Gewerbesteuer; **begonnen** – eingepflegt ist die **Prüfung 2011**
+  mit ihren vier Sachverhalten (Mayer GmbH & Co. KG, Bauen Döring KG, Abel & Witte GbR,
+  Grundbesitz-Verwaltungs GmbH & Co. KG) im Reiter „Originalklausuren (Prüfung)“ des
+  ESt-Campus, `src/data/k2-est-originalklausuren.js`. Offen sind daraus die Prüfungen
+  **2012 bis 2015**. **Wichtig:** Der Connector gibt die Datei nur bis etwa zur Hälfte
+  der Prüfung 2013 aus (rund 168.000 Zeichen); die Prüfungen 2012 und der Anfang von
+  2013 liegen vor, der Rest ist aus dem Drive-Text nicht lesbar und gehört zu den
+  blockierten Teilen in Abschnitt A. Offen sind außerdem die Dateien **Bilanz 2011–2015**
   (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB) und **KSt**
   (`1M69J_ZCoqrXeBtX-OD83FYkJgiAksMWb`, 1,0 MB).
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
