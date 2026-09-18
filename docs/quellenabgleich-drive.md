@@ -5207,3 +5207,48 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   dritten Jahr, 560 % Lohnsumme) – dort jedoch mit einem Wert von 4.000.000 € und **ohne**
   Lösung, hier mit dem Wert 100 und **mit** Lösung. Der Datensatz weist an beiden Stellen
   darauf hin.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Abschnitte III und IV: Großerwerbe und § 13d ErbStG
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitte III und
+  IV, PDF-Seiten 41 bis 46.
+- Einpflege dieses Durchgangs: drei weitere Kapitel; der Datensatz umfasst jetzt 12 Teile,
+  26 Kapitel, 382 Blöcke und 35 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Alle Rechnungen dieser Abschnitte sind nachgerechnet; alle gehen auf.**
+  12.000.000/750.000 = 16 Prozentpunkte, also 69 % Regelverschonung und 84 %
+  Optionsverschonung; 89.750.000 € ./. 26.000.000 € = 63.750.000 €, geteilt durch
+  750.000 € genau 85 Prozentpunkte. Im Fall des § 13d ErbStG: je 1.000.000 € Grundstück und
+  1.500.000 € Kapitalvermögen, Erhöhung um 1.000.000 €, Abschlag 10 % × 2.000.000 € =
+  200.000 €, Vermögensanfall des A 2.300.000 € gegenüber 2.500.000 € bei B.
+
+  **Zwei Grenzwerte unterschiedlicher Natur** stehen im Abschnitt III nebeneinander, was
+  die Quelle nicht eigens hervorhebt: Die 89.750.000 € für die Regelverschonung ergeben
+  sich **rechnerisch** aus der Abschmelzung, die 90 Mio. € für die Optionsverschonung
+  stehen dagegen als **gesetzliche** Grenze in § 13c Abs. 1 S. 2 ErbStG – rein rechnerisch
+  wären dort erst 85 Prozentpunkte verbraucht und 15 % Verschonung übrig.
+
+  **Das Verhältnis der beiden Befreiungen im Abschnitt IV ist auf den ersten Blick
+  paradox:** Gerade wenn die Verschonung des § 13a ErbStG vollständig scheitert, weil die
+  Verwaltungsvermögensquote mindestens 90 % beträgt, lebt der Abschlag des § 13d ErbStG
+  wieder auf. Wo die Verschonung dagegen greift, aber einen steuerpflichtigen Rest lässt,
+  gibt es für diesen Rest keinen zweiten Abschlag. Die beiden Vergünstigungen schließen
+  einander aus, ohne sich zu ergänzen; im Datensatz ist das vermerkt.
+
+  Querbezug: Der Begünstigungstransfer des § 13d Abs. 2 S. 3 ErbStG funktioniert wie der
+  des § 13a Abs. 5 S. 3 ErbStG in der Tz. 13 des Abschnitts II – mit dem Unterschied, dass
+  die Deckelung dort griff (Ausgleich 2.100.000 € gegenüber übertragenen 2.000.000 €) und
+  hier nicht (1.000.000 € gegenüber 1.000.000 €). Die beiden Fälle ergeben zusammen ein
+  vollständiges Bild der Vorschrift.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und gekennzeichnet:
+
+  - **Gesamtschaubild des Abschnitts III.** In der Spalte zu § 28a ErbStG steht
+    „Lohnsummen-/Behaltensfrist: **5 Jahre/7 Jahre**“, während der Text der Tz. 2 und die
+    Zeile zur auflösenden Bedingung übereinstimmend **7 Jahre** nennen.
+  - **Abschnitt IV Tz. 1.** „Die Grundstücke im Sinne des **§ 13c Abs. 3 ErbStG**“ –
+    § 13d Abs. 1 ErbStG verweist auf den Absatz 3 derselben Vorschrift, den die Quelle
+    unmittelbar danach auch zitiert.
+  - **Abschnitt IV Tz. 2.** „Der verminderte Wertansatz gilt **dem** § 13d Abs. 3 ErbStG“.

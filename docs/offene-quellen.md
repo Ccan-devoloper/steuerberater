@@ -204,12 +204,13 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Investitionsklausel, Nettowert, unschädliches Verwaltungsvermögen, Einschränkung der
   Schuldensaldierung, Verbundvermögensaufstellung, Regelverschonung, Abzugsbetrag,
   Weitergabeverpflichtung, Lohnsummenregelung, Behaltensregelung, Familienunternehmen,
-  Anzeigepflichten und Optionsverschonung). Offen sind die **Abschnitte III bis VI**
-  (Großerwerbe über 26 Mio. € mit § 13c ErbStG und der Verschonungsbedarfsprüfung nach
-  § 28a ErbStG, die Steuerbefreiung für zu Wohnzwecken vermietete Grundstücke nach § 13d
-  ErbStG, die Steuerberechnung mit Steuerklassen, Freibeträgen, Steuersätzen,
-  Tarifbegrenzung und der Berücksichtigung früherer Erwerbe sowie Steuerfestsetzung und
-  Erhebung) und die Lösungsdatei `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`.
+  Anzeigepflichten und Optionsverschonung), der **Abschnitt III** (Großerwerbe über
+  26 Mio. € mit § 13c ErbStG und der Verschonungsbedarfsprüfung nach § 28a ErbStG) und der
+  **Abschnitt IV** (Steuerbefreiung für zu Wohnzwecken vermietete Grundstücke nach § 13d
+  ErbStG). Offen sind die **Abschnitte V und VI** (Steuerberechnung mit Steuerklassen,
+  Freibeträgen, Steuersätzen, Tarifbegrenzung und der Berücksichtigung früherer Erwerbe
+  sowie Steuerfestsetzung und Erhebung) und die Lösungsdatei
+  `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`.
 - **ErbSt-Fallsammlung 4. Termin** (`1HuXWysA6NBRDAltBmHei54XFo3POwOtV`, 2,4 MB, im selben
   Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`): bei der Sichtung dieses Ordners neu
   entdeckt. Noch nicht bearbeitet.

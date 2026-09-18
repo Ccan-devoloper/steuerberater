@@ -152,7 +152,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Anzeigepflichten und die **Optionsverschonung** – 100 % Steuerbefreiung gegen sieben Jahre
   Behaltensfrist, 700 % Mindestlohnsumme und eine Verwaltungsvermögensquote von höchstens
   20 %, ohne Rückfall auf die Regelverschonung, wenn die Grenze verfehlt wird. Damit ist der
-  Abschnitt II – der Verschonungsblock der §§ 13a und 13b ErbStG – vollständig.
+  Abschnitt II – der Verschonungsblock der §§ 13a und 13b ErbStG – vollständig. Es folgen
+  der **Abschnitt III** zu den Großerwerben über 26 Mio. € mit dem abschmelzenden
+  Verschonungsabschlag des § 13c ErbStG (ein Prozentpunkt je volle 750.000 €) und der
+  Verschonungsbedarfsprüfung des § 28a ErbStG samt dem Gesamtschaubild der Quelle sowie der
+  **Abschnitt IV** zum 10-Prozent-Abschlag für zu Wohnzwecken vermietete Grundstücke
+  (§ 13d ErbStG) mit der Amtshilfevoraussetzung für Drittstaaten nach dem
+  Jahressteuergesetz 2024 und dem durchgerechneten Fall der Erbauseinandersetzung mit
+  Ausgleichszahlung.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den
