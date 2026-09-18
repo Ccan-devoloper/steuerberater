@@ -5526,3 +5526,56 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Skriptteil 2:** Der Nenner beträgt 947.595 € – der gesamte Vermögensanfall abzüglich der
   beiden mit einzelnen Gegenständen zusammenhängenden Schulden, aber **ohne** den
   Pauschbetrag für Beerdigungskosten von 15.000 €.
+
+## ErbSt-Fallsammlung 4. Fachtermin – Übungsklausur „Backhaus“
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), dritter Fall.
+- Einpflege dieses Durchgangs: die Übungsklausur als siebter Übungsfall; der Datensatz
+  umfasst jetzt 7 Übungsfälle, 244 Blöcke und 48 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Die Lösung ist Zeile für Zeile nachgerechnet; sie geht vollständig auf** – bis hin zur
+  Aufteilung der Einkommensteuerschuld, deren fünf Teilbeträge sich exakt zu 10.000 €
+  summieren. Der Rechengang ist der umfangreichste der Sammlung: Finanzmitteltest
+  (110.000 € gegen 204.000 € Schulden, kein Finanzmittel-Verwaltungsvermögen, 94.000 €
+  verbleibender Schuldenabzug), 90-Prozent-Test (500.000/2.951.700 = 16,94 %), quotale
+  Schuldenverrechnung (15.432 €), Nettowert 484.568 €, 10-Prozent-Quote (246.713 €),
+  gekürzter Nettowert 237.855 €, begünstigtes Betriebsvermögen 2.713.845 €,
+  Verschonungsabschlag 2.306.768 €, Abzugsbetrag 21.462 €, steuerpflichtiges
+  Betriebsvermögen 623.470 €; Vermögensanfall 4.284.010 €, Bereicherung 4.008.938 €,
+  steuerpflichtiger Erwerb 3.322.700 €, Erbschaftsteuer **631.313 €**.
+
+  **Das Familienheim ist hier das Gegenstück zu den beiden vorangegangenen Fällen.** In
+  Ackermann und Antensteiner wird die Wohnung bezogen und bleibt steuerfrei; hier verkauft
+  die Witwe das Einfamilienhaus knapp sieben Monate nach dem Erbfall und verliert die
+  Befreiung nach § 13 Abs. 1 Nr. 4b S. 5 ErbStG rückwirkend. Die Folge ist doppelt: Das
+  Haus ist mit 378.000 € anzusetzen – dafür ist die Hypothek von 46.400 € in voller Höhe
+  abziehbar, was bei einem steuerfreien Familienheim nach § 10 Abs. 6 S. 1 ErbStG gerade
+  nicht möglich wäre. Damit zeigen die drei Fälle der Sammlung die Vorschrift in allen
+  Richtungen.
+
+  **Die Aufteilung der nicht zuzuordnenden Einkommensteuerschuld** ist der lehrreichste
+  Teil und in der Quelle vollständig durchgerechnet: Die 10.000 € werden nach dem
+  Verhältnis der Nettowerte auf fünf Gruppen verteilt (4.562 €, 3.611 €, 513 €, 897 €,
+  417 €) und dann gruppenweise gekürzt – beim Mietwohngrundstück um 10 % wegen § 13d
+  ErbStG, beim Gewerbebetrieb im Verhältnis des steuerpflichtigen zum gesamten
+  Betriebsvermögen (623.470/2.951.700 = 21,12 %), während die übrigen Teile voll abziehbar
+  bleiben. Dass die pauschalen Freibeträge für Hausrat und Pkw nach R E 10.10 Abs. 2 S. 2
+  ErbStR keine Kürzung auslösen, erklärt zugleich, warum das übrige Vermögen in der
+  Nettowerttabelle mit seinem vollen Betrag von 270.000 € steht.
+
+  **Ein dritter Vervielfältiger aus derselben Tabelle:** Der Wert 9,691 für eine 74-jährige
+  Frau stammt aus der Anlage zum BMF-Schreiben vom 09.12.2024 – dieselbe Quelle, aus der
+  die Lösungsdatei zum Skriptteil 2 den Wert 11,050 für eine 70-Jährige nimmt. Die vier
+  Jahre Altersunterschied kosten gut 1,36 Punkte. Geburtsdatum und Stichtag ergeben
+  nachgerechnet 74 Jahre.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet: im Sachverhalt „hat **der** von der Erbfolge ausgeschlossen“ (der
+  Erblasser fehlt) und „(§ 15 Abs. 1 ErbStG.“ ohne schließende Klammer; in der
+  Nettowerttabelle „EFH **Düsseldorf**“, obwohl der Sachverhalt das Einfamilienhaus
+  durchgehend in Recklinghausen verortet; und in der Aufteilungszeile für die übrigen
+  Vermögensgegenstände „10.000 € × 270.000 € **×** 6.469.500 €“ statt einer Division –
+  gerechnet ist, wie das Ergebnis von 417 € und die Summe von genau 10.000 € belegen,
+  richtig geteilt.

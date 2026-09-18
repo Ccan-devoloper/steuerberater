@@ -95,7 +95,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   abziehbare Darlehensschuld nach § 10 Abs. 6 Satz 1 ErbStG, getrennte statt
   zusammengefasste Freibeträge für Hausrat und Pkw und der persönliche Freibetrag von
   400.000 € statt 20.000 €. Hier greift auch der **Härteausgleich**, der im Fall Ackermann
-  entfällt.
+  entfällt. Als dritter Fall die Übungsklausur **„Backhaus"** – der umfangreichste
+  Rechengang der Sammlung: ein Gewerbebetrieb mit fremdvermietetem Grundstück durchläuft
+  Finanzmitteltest, 90-Prozent-Test (16,94 %), quotale Schuldenverrechnung und
+  10-Prozent-Quote; die Witwe verliert das Familienheim rückwirkend durch den Verkauf nach
+  sieben Monaten, kann dafür aber die Hypothek voll abziehen; eine nicht zuzuordnende
+  Einkommensteuerschuld von 10.000 € wird nach Nettowerten auf fünf Vermögensgruppen
+  verteilt und dort jeweils gekürzt; am Ende stehen der um den Kapitalwert der Witwenrente
+  gekürzte Versorgungsfreibetrag und eine Erbschaftsteuer von 631.313 €.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,
