@@ -22,6 +22,7 @@ import KurzskriptBloecke from"./KurzskriptBloecke";
 import{aoSkriptJacobs,aoSkriptJacobsQuelle}from"../data/k1-ao-skript-jacobs.js";import{aoShortSkriptJacobs,aoShortSkriptJacobsQuelle}from"../data/k1-ao-short-skript-jacobs.js";import Klausurmodus,{IconKlausur}from"./Klausurmodus";
 import HausaufgabenBloecke from"./HausaufgabenBloecke";
 import{estKlausuren,estKlausurenQuelle}from"../data/est-klausuren.js";
+import{aoOriginalklausuren,aoOriginalklausurenQuelle}from"../data/k1-ao-originalklausuren.js";
 import{IconCockpit,IconModule,IconFaelle,IconSchema,IconHaken,IconTraining}from"./Icons";
 import"./kst.css";import"./ao.css";
 import{PrioBadge,PrioFilter,PrioCockpit,prioZaehlen,usePrioFilter,prioritaetFuer}from"./Prioritaet";
@@ -56,7 +57,7 @@ const OBER=[
 {id:"fgo",label:"FGO & Vollstreckung",module:[367,368,384],beschreibung:"Allgemeine und maßnahmenspezifische Vollstreckungsvoraussetzungen sowie die FGO-Fahrtroute mit Sachurteilsvoraussetzungen."},
 ];
 const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o])));const oberVon=m=>OBER_BY_ID.get(m.id)||OBER[1];
-const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"skript",label:"Skript (Jacobs)",Icon:IconModule},{id:"shortskript",label:"Short-Skript (Jacobs)",Icon:IconModule},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining}]
+const ANSICHTEN=[{id:"cockpit",label:"Cockpit",Icon:IconCockpit},{id:"module",label:"Abgabenordnung",Icon:IconModule},{id:"faelle",label:"Originalfälle",Icon:IconFaelle},{id:"klausur",label:"Klausurmodus",Icon:IconKlausur},{id:"schema",label:"Prüfschema",Icon:IconSchema},{id:"training",label:"Training",Icon:IconTraining},{id:"skript",label:"Skript (Jacobs)",Icon:IconModule},{id:"shortskript",label:"Short-Skript (Jacobs)",Icon:IconModule},{id:"keyfacts",label:"Keyfacts",Icon:IconSchema},{id:"hausaufgaben",label:"Hausaufgaben AO",Icon:IconModule},{id:"uebungsklausur",label:"Übungsklausur (AO)",Icon:IconTraining},{id:"originalklausuren",label:"Originalklausuren (Examen)",Icon:IconKlausur}]
 
 /* Die Teilklausur Abgabenordnung der Übungsklausur AO/USt liegt im gemeinsamen
    Klausurbestand; hier werden nur ihre Sachverhalte gezeigt. */
@@ -84,6 +85,19 @@ export default function AOCampusV3({onKlausurwechsel,onFachwechsel}){const[ansic
       suchePlatzhalter="Norm, Frist oder Stichwort"
       einheit="Sachverhalte"
       einheitEinzahl="Sachverhalt"
+    />} {ansicht==="originalklausuren"&&<HausaufgabenBloecke
+      kicker="Klausur 1 · Abgabenordnung · Originalklausuren"
+      titel="Originalklausuren des Examens (Verfahrensrecht)"
+      lead="Die Original-Examensklausuren des Prüfungsteils Verfahrensrecht mit den Lösungsvorschlägen des Lehrgangs („Abgabenordnung – Steuerberaterprüfungen 2011–2015“, Februar 2026), im Wortlaut und mit den Randpunkten der Musterlösung. Anders als in den Erbschaftsteuerklausuren sind die Jahreszahlen nicht fortgeschrieben: Die Klausuren spielen im Jahr ihres Prüfungsjahrgangs; wo eine Vorschrift zwischenzeitlich geändert wurde, gibt die Quelle die maßgebende Fassung als Anlage mit. Eingepflegt ist bisher die Klausur „Sven Sieger“ (Examen 2011, 35 Punkte): eine Gutachtenklausur, in der die Änderung eines Einkommensteuerbescheids an einer dreifach geschachtelten Vorfrage hängt. Der Feststellungsbescheid hätte mangels Auseinanderfallens von Wohnsitz- und Betriebsstättenfinanzamt gar nicht ergehen dürfen – bleibt aber wirksam und damit bindend; der Änderungsbescheid der Betriebsprüfung ist nichtig, weil er einen bereits Verstorbenen als Inhaltsadressaten nennt; und die Prüfungsanordnung eines unzuständigen Finanzamts ist zwar rechtswidrig, legalisiert den Prüfungsbeginn aber trotzdem, weil §§ 126 und 127 AO auf Ermessensverwaltungsakte nicht passen. Erst daraus ergibt sich der Weg: Aufhebung nach § 164 Abs. 2 AO, neue Ablaufhemmung nach § 171 Abs. 10 AO, Änderung nach § 175 Abs. 1 Satz 1 Nr. 1 AO. Der zweite Teil führt über das rückwirkende Ereignis des § 175 Abs. 1 Satz 1 Nr. 2 AO zu einem eigenen Fristbeginn. Alle Fristen sind unabhängig nachgerechnet."
+      quelle={aoOriginalklausurenQuelle}
+      hausaufgaben={aoOriginalklausuren}
+      gruppeVon={eintrag=>eintrag.block}
+      gruppeLabel={eintrag=>eintrag.blockLabel}
+      gruppeAria="Prüfungsjahrgänge"
+      karteKicker={eintrag=>`Examen ${eintrag.jahrgang} · ${eintrag.rechtsstand}`}
+      suchePlatzhalter="Norm, Frist oder Stichwort"
+      einheit="Originalklausuren"
+      einheitEinzahl="Originalklausur"
     />} {ansicht==="schema"&&<AOPruefschema/>} {ansicht==="training"&&<AOTraining/>} {ansicht==="skript"&&<KurzskriptBloecke
       kicker="Klausur 1 · Abgabenordnung · Skript"
       titel="AO-Skript (Jacobs)"

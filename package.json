@@ -31,6 +31,7 @@
     "check:k1-erbst-hausaufgaben": "node tools/pruefen-k1-erbst-hausaufgaben.mjs",
     "check:k1-erbst-fallsammlung": "node tools/pruefen-k1-erbst-fallsammlung.mjs",
     "check:k1-erbst-originalklausuren": "node tools/pruefen-k1-erbst-originalklausuren.mjs",
+    "check:k1-ao-originalklausuren": "node tools/pruefen-k1-ao-originalklausuren.mjs",
     "check:k1-erbst-bewertung-teil1": "node tools/pruefen-k1-erbst-bewertung-teil1.mjs",
     "check:k1-erbst-bewertung-teil2": "node tools/pruefen-k1-erbst-bewertung-teil2.mjs",
     "check:k1-erbst-verschonung": "node tools/pruefen-k1-erbst-verschonung.mjs",

@@ -6209,3 +6209,101 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „R B 179.1 Abs, 1 ErbStR“, „§ 151 Ab. 1 S. 1 Nr. 1 BewG“ und der unvollständige Satz zu
   den Beteiligungserträgen 2024. Im Sachverhalt sind beim EG Wasser und Strom gegenüber dem
   1. OG vertauscht – ohne Auswirkung, weil nur die Summe von 445 € gebraucht wird.
+
+## Originalklausuren der Steuerberaterprüfung – Abgabenordnung, Examen 2011 (Sven Sieger)
+
+- Quelle: Drive-Ordner „Originalklausuren“, Datei „2026)  .pdf“
+  (`1OJ04Y1ZPgn5AGKOWOFey1s9gu5q8pEGe`, 1,8 MB). Der abgeschnittene Dateiname verbirgt die
+  Unterlage „Abgabenordnung – Steuerberaterprüfungen 2011 – 2015“, Februar 2026. Der
+  Connector gibt die Datei vollständig aus (165.205 Zeichen). Sie enthält **fünf
+  Original-Examensklausuren des Prüfungsteils Verfahrensrecht** – 2011 (Sven Sieger), 2012
+  (Eheleute Schallhammer), 2013 (zwei Sachverhalte), 2014 und 2015 –, jeweils mit
+  Lösungsvorschlag und Randpunkten.
+- Einpflege dieses Durchgangs: die Klausur **2011** im neuen Datensatz
+  `src/data/k1-ao-originalklausuren.js`, neuer Campus-Reiter „Originalklausuren (Examen)“ im
+  AO-Campus, neues Prüfskript `tools/pruefen-k1-ao-originalklausuren.mjs`, neues npm-Skript
+  `npm run check:k1-ao-originalklausuren`. Der Datensatz umfasst 1 Originalklausur,
+  85 Blöcke, 1 Tabelle und 35 Punkte.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Diese Klausuren sind anders als die Erbschaftsteuerklausuren nicht auf den heutigen
+  Rechtsstand fortgeschrieben.** Sie spielen im Jahr ihres Prüfungsjahrgangs und werden nach
+  dem damaligen Recht gelöst; wo sich eine Vorschrift seither geändert hat, gibt die Quelle
+  die maßgebende Fassung als Anlage mit – hier § 171 Abs. 4 AO in der bis zum 31.12.2022
+  geltenden Fassung, zusammen mit der Übergangsvorschrift des EGAO. Das ist im Kopfkommentar
+  des Datensatzes und im Lead des Reiters ausdrücklich festgehalten, damit die beiden
+  Zeitlogiken im Campus nicht durcheinandergeraten.
+
+  **Die Klausur ist ein Musterbeispiel für die Schachtelung im Verfahrensrecht.** Gefragt ist
+  die Änderung des Einkommensteuerbescheids 2004 im Oktober 2011 – beantworten lässt sich
+  das erst über drei Vorfragen:
+
+  1. **Der Grundlagenbescheid hätte nie ergehen dürfen – und bindet trotzdem.** § 180 Abs. 1
+     Nr. 2b AO setzt voraus, dass Wohnsitz- und Betriebsstättenfinanzamt auseinanderfallen.
+     Durch die Verlegung des Büros nach Landsberg und die Anzeige im November 2004 war das
+     FA Landsberg am 31.12.2004 beides zugleich (§§ 19 Abs. 1, 18 Abs. 1 Nr. 3, 26 Satz 1
+     AO). Die Tatbestandsvoraussetzungen fehlten also. Der Fehler ist aber nicht zugleich
+     schwerwiegend **und** offenkundig, also keine Nichtigkeit nach § 125 Abs. 1 AO – der
+     Bescheid ist rechtswidrig, aber wirksam und nach § 182 Abs. 1 Satz 1 AO voll bindend.
+  2. **Der Änderungsbescheid ist nichtig.** Er ging am 19.02.2007 an den Steuerberater „für
+     seinen Mandanten Sven Sieger“ – der aber war am 12.01.2007 gestorben. Mangels
+     inhaltlicher Bestimmtheit (§ 119 Abs. 1 AO) ist der Bescheid nichtig (§ 125 Abs. 1 AO)
+     und unwirksam (§ 124 Abs. 3 AO); gegenüber der Erbin wird er nicht wirksam, weil sie
+     nicht Inhaltsadressatin ist. Er löst deshalb auch keine Ablaufhemmung aus.
+  3. **Dieselbe Unzuständigkeit wirkt bei der Prüfungsanordnung genau umgekehrt.** Sie macht
+     die Anordnung rechtswidrig, aber nicht nichtig; heilbar nach § 126 AO ist der Fehler
+     nicht und unbeachtlich nach § 127 AO ebenso wenig, weil Prüfungsanordnungen
+     Ermessensverwaltungsakte sind. Aufgehoben wurde sie nie und müsste auch jetzt nicht nach
+     § 130 Abs. 1 AO aufgehoben werden, weil auch das zuständige Finanzamt hätte prüfen
+     dürfen. Sie bleibt also wirksam und legalisiert den Prüfungsbeginn – und damit greift
+     § 171 Abs. 4 AO. Genau dieser Gegensatz zwischen Nr. 1 und Nr. 3 trägt das Ergebnis.
+
+  **Der Ausweg ist ein Aufhebungsbescheid.** Ein neuer Feststellungsbescheid scheidet aus
+  (die Tatbestandsvoraussetzungen fehlen weiterhin), wohl aber kann der Bescheid vom November
+  2005 gegenüber der Erbin aufgehoben werden. Dafür muss zweierlei stimmen: Die
+  Feststellungsfrist muss offen sein – sie ist es über § 171 Abs. 4 Satz 3 AO bis zum
+  31.12.2011 –, und es braucht eine Korrekturvorschrift – § 164 Abs. 2 AO, denn der Vorbehalt
+  der Nachprüfung ist nach § 164 Abs. 4 Satz 2 AO noch nicht entfallen, weil die dortige
+  Ausnahmeliste die Hemmung des § 171 Abs. 4 AO gerade nicht ausnimmt. Der Aufhebungsbescheid
+  ist selbst Grundlagenbescheid und löst die zweijährige Ablaufhemmung des § 171 Abs. 10 AO
+  aus; erst dann greift § 175 Abs. 1 Satz 1 Nr. 1 AO für den Einkommensteuerbescheid.
+
+  **Alle Fristen sind unabhängig nachgerechnet und gehen auf.** Einkommensteuer 2004:
+  Erklärung Dezember 2005, Anlaufhemmung bis 31.12.2005 (§ 170 Abs. 2 Satz 1 AO), vier Jahre
+  (§ 169 Abs. 2 Nr. 2 AO), Ende 31.12.2009. Feststellung 2004: Erklärung Oktober 2005,
+  gleicher Anlauf, gleiches reguläres Ende – aber Ablaufhemmung nach § 171 Abs. 4 Satz 3 AO
+  vom Ablauf des Jahres der Schlussbesprechung (31.12.2007) an nochmals vier Jahre, also bis
+  31.12.2011. Die zweijährige Hemmung des ersten Feststellungsbescheids (November 2005 +
+  2 Jahre) geht dagegen in der regulären Frist unter. Im zweiten Teil beginnt die Frist wegen
+  § 175 Abs. 1 Satz 2 AO erst mit Ablauf des Jahres des rückwirkenden Ereignisses (2007) und
+  endet mit Ablauf 2011 – beide Wege führen zielgenau in den Monat der Geschäftsprüfung.
+
+  **Die Erklärungspflicht trägt zwei Punkte – und ist die feinste Stelle der Klausur.** Weil
+  die Voraussetzungen der gesonderten Feststellung fehlten, folgt sie **nicht** aus § 181
+  Abs. 2 Nr. 1 AO, sondern allein aus der ausdrücklichen Aufforderung des FA Weilheim nach
+  § 149 Abs. 1 Satz 2 AO. Ohne diese Aufforderung gäbe es keine Anlaufhemmung, die Frist
+  begänne schon mit Ablauf 2004 – und die Klausur endete zwei Jahre früher.
+
+  **Die verlängerten Fristen scheitern an der Beweislast.** Der Sachverhalt lässt
+  ausdrücklich offen, ob die Gewinnerhöhung auf Vorsatz oder Leichtfertigkeit beruht; die
+  Feststellungslast für die steuererhöhende Norm trägt das Finanzamt, also bleibt es bei
+  vier Jahren.
+
+  **Die Quelle setzt sich an einer Stelle von der amtlichen Musterlösung ab** und schreibt
+  das offen: Die amtliche Lösung nahm auch für die Einkommensteuerfestsetzung eine
+  Ablaufhemmung nach § 171 Abs. 4 AO an; der Verfasser hält dem entgegen, dass eine laut
+  Prüfungsanordnung auf die gesonderte Feststellung gerichtete Prüfung nicht als Prüfung der
+  gesamten Einkommensteuergrundlagen gewertet werden könne – und merkt an, dass es darauf
+  im Ergebnis nicht ankam. Diese Anmerkung ist im Datensatz als solche übernommen.
+
+  **Randpunkte:** Die Quelle weist 35 Punkte als Gesamtpunktzahl aus; die einzelnen Absätzen
+  zugeordneten Randpunkte summieren sich auf 31 (25 × 1 Punkt, 4 × 0,5 Punkte, 2 × 2 Punkte).
+  Die Differenz von 4 Punkten ordnet die Quelle keinem Absatz zu. Übernommen sind nur die
+  eindeutig zugeordneten Werte; das Prüfskript lässt eine Untersumme zu und meldet nur eine
+  Überschreitung.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „Artikel 94
+  § 37 EGAO“ statt Artikel 97 § 37 EGAO; „Abzugsbeträgt“; „Sachverhaltsuntersicherheiten“;
+  „Da dies lt. Sachverhalt nicht möglich“ ohne „ist“; „Danach endet die **Feststellungs**frist
+  für den Einkommensteuerbescheid“, wo die Festsetzungsfrist gemeint ist; „Betriebstätten-“;
+  und in der Aufgabenstellung „Einkommensbescheid“ statt Einkommensteuerbescheid.

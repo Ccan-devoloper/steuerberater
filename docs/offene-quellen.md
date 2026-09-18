@@ -251,7 +251,22 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   2015. **Beide sind eingepflegt** im Reiter „Originalklausuren (Prüfung)“,
   `src/data/k1-erbst-originalklausuren.js`; die ErbSt-Datei ist damit vollständig
   ausgewertet. Offen aus dem Ordner sind die sieben übrigen PDFs, die andere Klausurfächer
-  betreffen (ESt, Bilanz, KSt sowie vier Dateien mit abgeschnittenen Titeln).
+  betreffen. Diese sind inzwischen **identifiziert**: „2026)  .pdf“
+  (`1OJ04Y1ZPgn5AGKOWOFey1s9gu5q8pEGe`, 1,8 MB) ist die **Abgabenordnung**
+  („Steuerberaterprüfungen 2011 – 2015“, Februar 2026) mit fünf Original-Examensklausuren
+  des Prüfungsteils Verfahrensrecht – 2011 (Sven Sieger), 2012 (Eheleute Schallhammer),
+  2013 (zwei Sachverhalte), 2014 und 2015, jeweils mit Lösungsvorschlag und Randpunkten;
+  eingepflegt ist daraus die Klausur **2011** im neuen Reiter „Originalklausuren (Examen)“
+  des AO-Campus, `src/data/k1-ao-originalklausuren.js`. „2026) (9).pdf“
+  (`1lIwxxyUdq_FVIqKDhGk1LHPPJm0O8FNo`, 1,4 MB) ist die **Umsatzsteuer** („Original
+  Prüfungsklausuren 2011 – 2015 mit Lösungen“, Rechtsstand 2026, April 2026) – noch offen.
+  „2026) (10).pdf“ (`1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, 0,5 MB) und
+  „Pruefungsklausur Steuerberater 2021-2022-0226.pdf“ (`1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3`,
+  0,7 MB) sind die **Prüfungsaufgaben Buchführung und Bilanzierung** der
+  Steuerberaterprüfungen 2022/2023 bzw. 2021/2022 – noch offen. Offen sind außerdem die
+  Dateien zu **ESt** (`1QwClx7BL_66vssgQcF4xq7CIzknvfIcy`, 2,3 MB), **Bilanz 2011–2015**
+  (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB) und **KSt**
+  (`1M69J_ZCoqrXeBtX-OD83FYkJgiAksMWb`, 1,0 MB).
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
 - Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet
 

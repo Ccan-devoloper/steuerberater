@@ -1402,6 +1402,31 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sich in der Extraktion nicht sicher von den Seitenzahlen trennen; deshalb trägt kein Block
   Randpunkte, die ausgewiesenen Summen stehen je Aufgabenteil als Text.
   Prüfung: `npm run check:est-klausuren`
+- **AO-Originalklausuren** (Klausur 1, Reiter Abgabenordnung → „Originalklausuren (Examen)"):
+  die Original-Examensklausuren des Prüfungsteils Verfahrensrecht mit den Lösungsvorschlägen
+  des Lehrgangs („Abgabenordnung – Steuerberaterprüfungen 2011–2015", Februar 2026)
+  **im Wortlaut**, mit den Randpunkten der Musterlösung. Anders als in den
+  Erbschaftsteuerklausuren sind die Jahreszahlen hier **nicht** fortgeschrieben: Die
+  Klausuren spielen im Jahr ihres Prüfungsjahrgangs; wo eine Vorschrift zwischenzeitlich
+  geändert wurde, gibt die Quelle die maßgebende Fassung als Anlage mit – hier § 171 Abs. 4
+  AO in der bis zum 31.12.2022 geltenden Fassung. Eingepflegt ist die Klausur
+  **„Sven Sieger" (Examen 2011, 35 Punkte)**, eine Gutachtenklausur, deren Ergebnis an drei
+  geschachtelten Vorfragen hängt: Der Gewinnfeststellungsbescheid hätte mangels
+  Auseinanderfallens von Wohnsitz- und Betriebsstättenfinanzamt gar nicht ergehen dürfen –
+  er ist rechtswidrig, aber nicht nichtig und deshalb voll bindend (§ 182 Abs. 1 Satz 1 AO);
+  der Änderungsbescheid der Betriebsprüfung ist dagegen nichtig, weil er einen bereits
+  Verstorbenen als Inhaltsadressaten nennt und auch gegenüber der Erbin nicht wirksam wird;
+  und die Prüfungsanordnung des unzuständigen Finanzamts bleibt trotz Rechtswidrigkeit
+  wirksam, weil §§ 126 und 127 AO auf Ermessensverwaltungsakte nicht passen – sie legalisiert
+  damit den Prüfungsbeginn und löst § 171 Abs. 4 AO aus. Daraus ergibt sich der Weg:
+  Aufhebung des Feststellungsbescheids nach § 164 Abs. 2 AO (der Vorbehalt der Nachprüfung
+  ist nach § 164 Abs. 4 Satz 2 AO noch nicht entfallen), dadurch eine neue zweijährige
+  Ablaufhemmung nach § 171 Abs. 10 AO und schließlich die Änderung nach § 175 Abs. 1 Satz 1
+  Nr. 1 AO. Der zweite Teil führt über das rückwirkende Ereignis des § 175 Abs. 1 Satz 1
+  Nr. 2 AO und die Anlaufhemmung des Satzes 2 zu einem eigenen Fristbeginn. Alle Fristen sind
+  unabhängig nachgerechnet; die Randpunkte summieren sich auf 31 der ausgewiesenen 35 Punkte,
+  die Differenz ordnet die Quelle keinem Absatz zu.
+  Prüfung: `npm run check:k1-ao-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
   1.017 Abschnitten und 30 Tabellen: die Einführung in die Einkommensteuer (persönliche
