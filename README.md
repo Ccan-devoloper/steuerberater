@@ -125,7 +125,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   – ohne Familienheimbefreiung, mit 20.000 € statt 500.000 € Freibetrag und zu 30 % statt
   19 % –, dafür ist die Darlehensschuld voll abziehbar. Zwei GmbH-Anteile liegen mit 12,4 %
   und 33,33 % beiderseits der Mindestbeteiligungsgrenze und zeigen deren Wirkung unmittelbar
-  nebeneinander (Erbschaftsteuer 195.600 €).
+  nebeneinander (Erbschaftsteuer 195.600 €). Als achter Fall die große Bewertungsklausur
+  **„Müller Eisenwaren GmbH"**, die alles verbindet: Ertragswertverfahren für ein
+  Mietwohngrundstück im Betriebsvermögen (831.370 €), vereinfachtes Ertragswertverfahren
+  mit acht Korrekturen nach § 202 BewG und der Hinzurechnung nicht betriebsnotwendigen
+  Vermögens (2.171.270 €), Substanzwert als Mindestwert (981.370 €) und der vollständige
+  Verschonungsblock bis zur Erbschaftsteuer von 66.600 €. Die drei Mieten zeigen dabei die
+  drei Fälle des § 186 BewG nebeneinander, und die betriebsnotwendige 20-Prozent-Beteiligung
+  wird je nach Rechenweg dreimal unterschiedlich behandelt.
   Prüfung: `npm run check:k1-erbst-fallsammlung`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,

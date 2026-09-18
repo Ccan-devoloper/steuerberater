@@ -5768,3 +5768,58 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   des § 19a ErbStG dagegen wäre einschlägig, weil eine natürliche Person der Steuerklasse
   III begünstigtes Betriebsvermögen erwirbt; sie ist der Aufgabenstellung nach nur nicht zu
   rechnen.
+
+## ErbSt-Fallsammlung 4. Fachtermin – Übungsklausur „Müller Eisenwaren GmbH“
+
+- Quelle: dieselbe Datei (Drive-ID `1HuXWysA6NBRDAltBmHei54XFo3POwOtV`), siebte Klausur.
+- Einpflege dieses Durchgangs: die Übungsklausur als zwölfter Übungsfall; der Datensatz
+  umfasst jetzt 12 Übungsfälle, 411 Blöcke und 73 Tabellen; Prüfung
+  `npm run check:k1-erbst-fallsammlung`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Die umfangreichste Bewertungsaufgabe der Sammlung, Zeile für Zeile nachgerechnet; sie
+  geht auf.** Grundbesitzwert 831.370 €, vereinfachtes Ertragswertverfahren 2.171.270 €,
+  Substanzwert 981.370 € (also keine Mindestwertwirkung), begünstigtes Vermögen
+  1.402.884 €, Wertansatz des GmbH-Anteils 859.035 €, Erbschaftsteuer **66.600 €**.
+
+  **Die drei Mieten zeigen die drei Fälle des § 186 BewG nebeneinander** – nachgerechnet:
+  Im Erdgeschoss liegt die vereinbarte Miete von 950 € um 20,83 % unter der üblichen Miete
+  von 1.200 € und damit über der 20-Prozent-Grenze, so dass die übliche Miete anzusetzen
+  ist; im 1. Obergeschoss greift der Leerstand; im 2. Obergeschoss liegt die vereinbarte
+  Miete von 1.000 € nur 16,67 % darunter und bleibt maßgebend. Die umlagefähigen
+  Nebenkosten von 200 € bleiben in allen drei Fällen außen vor – dieselbe Unterscheidung
+  wie im Fall Engelkamp.
+
+  **Die wichtigste Weichenstellung des Falls: Betriebsnotwendig und Verwaltungsvermögen
+  sind zwei verschiedene Fragen.** Die Beteiligung an der X-GmbH ist ausdrücklich
+  betriebsnotwendig (Zulieferer) und wird im vereinfachten Ertragswertverfahren nach § 200
+  Abs. 3 BewG gesondert hinzugerechnet – ihre Anschaffungsschuld von 20.000 € bleibt dort
+  mit dem Ertragswert abgegolten. Für § 13b Abs. 4 Nr. 2 ErbStG zählt sie trotzdem zum
+  Verwaltungsvermögen, weil 20 % die 25-Prozent-Grenze nicht überschreiten. Im Substanzwert
+  wird dieselbe Schuld wiederum abgezogen. Dieselbe Position wird also je nach Rechenweg
+  dreimal unterschiedlich behandelt; im Datensatz ist das vermerkt.
+
+  **Das junge Verwaltungsvermögen tritt hier zum zweiten Mal in seiner vierfachen
+  Sonderrolle auf** (nach Beispiel 3 der Tz. 9 des Skriptteils 2): Die 2023 erworbenen
+  DAX-Wertpapiere sind am Stichtag weniger als zwei Jahre im Betrieb, zählen beim
+  90-Prozent-Test mit (44,28 %), bleiben beim anteiligen Schuldenabzug außen vor, mindern
+  die Bemessungsgrundlage der 10-Prozent-Quote und werden am Ende in voller Höhe wieder
+  hinzugerechnet.
+
+  Beachtenswert im Substanzwert: die Ansätze nach R B 11.5 Abs. 7 ErbStR mit jeweils 30 %
+  der Anschaffungskosten (Maschinen 50.000 €, Pkw 70.000 €, Büroausstattung 30.000 €) und
+  der Warenbestand, der mit den Wiederbeschaffungskosten von 40.000 € **unter** die
+  Anschaffungskosten von 50.000 € fällt.
+
+  Darstellungsentscheidung: Die Bilanz steht in der Quelle als zweispaltige Aufstellung,
+  deren Spalten in der maschinellen Erfassung ineinanderlaufen. Die Zuordnung der drei
+  Darlehen zu den Passiva ist aus der Bilanzsumme und aus dem Substanzwert der Lösung
+  rekonstruiert und geht auf (430.000 + 200.000 + 20.000 + 30.000 + 10.000 = 690.000 €);
+  im Datensatz ist das vermerkt.
+
+  Fundstellen, die in der Quelle nicht stimmen – wortlautgetreu übernommen und
+  gekennzeichnet: In der Korrekturliste verweist die Nummer 4 auf „**§ 200** Abs. 1 Nr. 2 b)
+  BewG“ statt auf § 202 Abs. 1 Nr. 2 b BewG, während die zugehörige Tabellenzeile richtig
+  § 202 Abs. 1 Nr. 2b nennt. Die Zeile zum pauschalen Ertragsteueraufwand nennt „§ 202
+  Abs. **4** BewG“, obwohl der erläuternde Text unmittelbar davor richtig § 202 Abs. 3 BewG
+  anführt. Und im 90-Prozent-Test heißt es „Anteile DAX-**GmbH**“ statt DAX-AG.
