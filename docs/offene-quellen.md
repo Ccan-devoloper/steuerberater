@@ -308,34 +308,19 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   zugehörige Lösung gibt der Connector nicht mehr aus; der Text endet unmittelbar hinter
   „Teil II gesamt 33 Punkte“. Diese Lösung und die Prüfungen 2013 bis 2015 gehören zu den
   blockierten Teilen in Abschnitt A.
-#### Grunderwerbsteuer (in Arbeit) und Lohnsteuer (gesichtet, noch nicht eingepflegt)
+#### Grunderwerbsteuer (erledigt) und Lohnsteuer (gesichtet, noch nicht eingepflegt)
 Für beide Gebiete gab es bislang keinen Campus. Beide Ordner sind gesichtet; die
-Grunderwerbsteuer hat inzwischen einen eigenen Campus, die Lohnsteuer noch nicht:
+Grunderwerbsteuer ist inzwischen vollständig eingepflegt, die Lohnsteuer noch nicht:
 
 - **Grunderwerbsteuer**, Ordner `1EUOPd5EtQg3eQ76LGNwfgevbhcV-96kI`, eine Datei
   („2026) (9).pdf“, `1TMZnajkQ6sG-EDJdKia_LmlrDcmZHp_7`, 1,3 MB): das vollständige
   Lehrgangsskript **„Vorbereitung auf die Steuerberaterprüfung · Grunderwerbsteuer“ von
   Dr. Stephan Vossel, Januar 2026** (195.000 Zeichen, vom Connector vollständig ausgegeben).
-  **Begonnen:** Das Fachgebiet hat jetzt einen eigenen Campus (Klausur 1, Fachleiste „GrESt“,
-  `src/components/K1GrEStCampus.jsx`, Datensatz `src/data/k1-grest-skript.js`). Eingepflegt
-  sind die Abschnitte **I (Charakterisierung)** und **II (Prüfungsschema)** sowie der
-  **vollständige Abschnitt III** (Steuerbarkeit): inländisches Grundstück (§ 2 GrEStG),
-  Haupttatbestand (§ 1 Abs. 1 Nr. 1), Nebentatbestände (§ 1 Abs. 1 Nr. 2 bis 7),
-  Ersatztatbestand (§ 1 Abs. 2) und alle vier Ergänzungstatbestände (§ 1 Abs. 2a, 2b nebst
-  Börsenklausel, 3 und 3a) einschließlich der Übergangsregeln des § 23 Abs. 20 ff. GrEStG und
-  der Grundstückszugehörigkeit nach § 1 Abs. 4a GrEStG; dazu aus **Abschnitt IV** die acht
-  allgemeinen Befreiungen des § 3 GrEStG, ihre Anwendung auf die Ergänzungstatbestände
-  (Fallgruppen des § 1 Abs. 2a, 2b, 3 und 3a GrEStG) und die besonderen Ausnahmen des
-  § 4 GrEStG, die §§ 5 und 6 GrEStG (Erwerbsvorgänge zwischen Gesamthändern, mit Interpolation,
-  Zehn- und Fünfzehnjahresfristen), § 6a GrEStG (konzerninterne Umstrukturierung), § 7 GrEStG
-  (Umwandlung in Flächeneigentum) und § 1 Abs. 6 GrEStG (Aufeinanderfolgen von Tatbeständen) –
-  **Abschnitt IV ist damit vollständig**. Ebenfalls eingepflegt sind Abschnitt **V**
-  (Bemessungsgrundlage: § 8 GrEStG, einheitlicher Erwerbsgegenstand, Gesamtgegenleistung und
-  der Katalog des § 9 GrEStG) und Abschnitt **VI** (Steuersatz mit den Ländersätzen,
-  Abrundung, Pauschbesteuerung). Offen sind nur noch die Abschnitte
-  VII (Steuerschuldner, Entstehung, Fälligkeit), VIII (Zuständigkeit,
-  Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG). Sie sind sämtlich
-  lesbar und werden nachgezogen.
+  **Erledigt:** Das Fachgebiet hat jetzt einen eigenen Campus (Klausur 1, Fachleiste „GrESt“,
+  `src/components/K1GrEStCampus.jsx`, Datensatz `src/data/k1-grest-skript.js`). Das Skript ist
+  **vollständig** im Wortlaut übernommen – alle neun Abschnitte I bis IX in 20 Kapiteln mit
+  488 Abschnitten und 12 Tabellen, einschließlich sämtlicher Beispiele, Lösungen und
+  Fundstellen. Aus diesem Ordner ist damit nichts mehr offen.
 - **Lohnsteuer**, Ordner `1O6alBKmrJsgeQaOyWOTCv6mlDD5zZ8Gv`, drei Dateien:
   - „Schema LSt StB und Stfw.pdf“ (`1CXkUXmNJRG1AVTi7d6qqokYyafhJFj97`, 0,09 MB) – das
     **Lohnsteuer-Prüfungsschema Arbeitslohn von Markus Nöthen** in fünf Stufen (Einnahme in

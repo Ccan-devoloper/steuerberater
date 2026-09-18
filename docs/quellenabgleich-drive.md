@@ -9828,3 +9828,75 @@ Quelle selbst als „äußerst gering“ bezeichnet.
 
 **Offen bleiben** die Abschnitte VII (Steuerschuldner, Entstehung und Fälligkeit),
 VIII (Zuständigkeit, Anzeigepflicht, Unbedenklichkeitsbescheinigung) und IX (§ 16 GrEStG).
+
+### Skript Grunderwerbsteuer (Vossel), Abschnitte VII bis IX – das Skript ist vollständig
+
+Mit dieser Runde ist das Lehrgangsskript **vollständig** übernommen: 20 Kapitel, 488
+Abschnitte, 12 Tabellen, alle neun Abschnitte I bis IX im Wortlaut.
+
+**Abschnitt VII** bringt § 13 GrEStG mit allen acht Nummern. Die Systematik, die die Quelle
+herausarbeitet, ist die eigentliche Lernleistung: Bei den Regelfällen des rechtsgeschäftlichen
+Erwerbs schulden **beide Vertragsteile** als Gesamtschuldner nach § 44 AO – und zwar
+unabhängig davon, was im Innenverhältnis vereinbart ist. Bei den Ergänzungstatbeständen kippt
+das: Bei § 1 Abs. 2a und Abs. 2b GrEStG schuldet die **Gesellschaft selbst** (§ 13 Nr. 6, 7
+GrEStG), bei § 1 Abs. 3 Nr. 1 und 2 sowie Abs. 3a GrEStG **allein der Erwerber** (§ 13 Nr. 5
+lit. a, Nr. 8 GrEStG) – bei der Übertragung bereits vereinigter Anteile nach § 1 Abs. 3 Nr. 3
+und 4 GrEStG dagegen wieder beide, weil § 13 GrEStG dafür keine Sonderregel enthält (BFH vom
+31.03.2004). Mitgenommen ist auch, was ertragsteuerlich daraus folgt: Die Grunderwerbsteuer
+ist in diesen Fällen jeweils **sofort abziehbare Betriebsausgabe**, mit drei Fundstellen.
+
+Eine Formulierung der Quelle verdient Beachtung, weil sie eine verbreitete Fehllesart
+korrigiert: Zum Wort „regelmäßig“ in § 13 Nr. 1 GrEStG heißt es ausdrücklich, die
+Formulierung sei **missverständlich und lasse keine Ausnahmen zu**. Ebenso praxisnah ist der
+Hinweis, wie die Finanzverwaltung ihr Auswahlermessen ausübt: In der Regel wird sie denjenigen
+in Anspruch nehmen, der die Steuer nach dem Vertrag tragen soll; fehlt eine solche Regelung,
+den Erwerber.
+
+Bei der Entstehung ist die Abgrenzung sauber erfasst, an der in der Klausur gern gestolpert
+wird: § 14 GrEStG greift nur bei echten **aufschiebenden Bedingungen**, die das „Ob“
+betreffen. Eine bloße **Befristung** – der Vertrag wird erst zu einem späteren Tag wirksam –
+ändert nichts daran, dass die Steuer nach § 38 AO schon mit Vertragsschluss entsteht. Das
+Beispiel der Quelle führt genau das vor (Kaufvertrag am 23.02., Wirksamkeit zum 01.06., Steuer
+entsteht am **23.02.**).
+
+**Abschnitt VIII** ist das Verfahrensrecht: Belegenheitsfinanzamt, gesonderte Feststellungen
+des § 17 Abs. 2, 3 GrEStG bei mehreren Finanzämtern, mehreren Grundstücken, Umwandlungen und
+den Ergänzungstatbeständen, die doppelte Anzeigepflicht (Notare und Behörden nach § 18 GrEStG
+binnen **zwei Wochen**, Beteiligte komplementär dazu nach § 19 GrEStG) und die
+Unbedenklichkeitsbescheinigung des § 22 GrEStG, ohne die das Grundbuchamt nicht einträgt.
+
+**Abschnitt IX** ist der inhaltlich spannendste des Schlussteils. § 16 GrEStG ist erfasst mit
+der Zweijahresfrist der Nr. 1 gegenüber der **fristlosen** Nr. 2, dem Erfordernis, dass auch
+das *wirtschaftliche* Ergebnis beseitigt sein muss, der Anwendung nach Eigentumsübergang
+(Abs. 2, dann für Hin- **und** Rückerwerb), der Herabsetzung der Gegenleistung (Abs. 3) und
+der einjährigen Ablaufhemmung (Abs. 4).
+
+Der Kern ist aber das **Signing-Closing-Problem**, das die Quelle Schritt für Schritt
+auseinanderlegt: § 1 Abs. 2a/2b GrEStG knüpfen an die dingliche Übertragung (Closing), § 1
+Abs. 3/3a GrEStG an das Verpflichtungsgeschäft (Signing). Weil beide zu **verschiedenen
+Zeitpunkten** auslösen, greift die Subsidiarität nicht – im Beispiel liegt am 17.03. noch kein
+Vorgang nach § 1 Abs. 2b GrEStG vor, so dass § 1 Abs. 3 Nr. 3 GrEStG anwendbar bleibt und der
+Verkauf „zumindest nach Ansicht der Finanzverwaltung“ **zweimal** Grunderwerbsteuer auslöst.
+§ 16 Abs. 4a GrEStG entschärft das auf Antrag, aber nur unter den engen Anzeigeanforderungen
+des § 16 Abs. 5 S. 2 GrEStG. Die Quelle stellt die Richtigkeit dieser Doppelbelastung
+ausdrücklich in Frage und verweist auf den **AdV-Beschluss des BFH vom 09.07.2025, II B 13/25**
+– ein sehr aktueller Stand, der den Wert des Skripts unterstreicht.
+
+**Eigene Feststellungen:**
+
+1. **Eine falsche Jahreszahl mitten in der Lösung:** Im Signing-Closing-Beispiel heißt es
+   „Datum des steuerbaren Vorgangs ist der 17.03. des **Jahres 03**“. Nach dem Sachverhalt ist
+   das der 17.03. des **Jahres 01** – der Satz unmittelbar danach rechnet auch wieder mit
+   Jahr 01. Der Wortlaut steht unverändert, die Richtigstellung daneben. Das ist die Art
+   Zahlendreher, die in der Klausur eine ganze Folgerechnung kippt.
+2. „**Der der** Wortlaut des § 1 Abs. 3 und Abs. 3a GrEStG beinhaltet…“ – doppelter Artikel.
+3. „…dass es **ist** rechtlich zweifelhaft **ist**…“ im Referat des BFH-Beschlusses – doppeltes
+   Prädikat.
+4. § 19 Abs. 1 S. 2 GrEStG ist referiert mit „…befreit, **bei der** Gerichte, Behörden und
+   Notare gem. § 18 GrEStG angezeigt haben“ – gemeint ist „bei denen“.
+
+Alle vier Stellen stehen im Wortlaut der Quelle, die ersten drei mit „(so in der Quelle)“ und
+der Zahlendreher zusätzlich mit der Richtigstellung in Klammern.
+
+**Damit ist der Drive-Ordner Grunderwerbsteuer abgeschlossen.** Der Campus zeigt keine
+Offen-Liste mehr, sondern den Stand des Bestandes.
