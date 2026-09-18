@@ -4524,3 +4524,59 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   - **Tz. 6 c).** „4,5 % für **gemischt genutzt** Grundstücke“; der Satz zu den
     Geschäftsgrundstücken endet ohne Punkt; „**Ist** das zu bewertende Grundstück wesentlich
     größer **ist**, als es einer den Gebäuden angemessenen Nutzung entspricht“.
+
+## Bewertungsrecht Teil 2 (Schäfer) – Tz. 7: Sachwertverfahren vollständig
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1nYoKz99ROMSt8IWAde-zaBHrcmjX-zL5`),
+  Tz. 7 Buchstaben a) bis e), PDF-Seiten 21 bis 28.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 5 Teile,
+  11 Kapitel, 191 Blöcke und 20 Tabellen; Prüfung `npm run check:k1-erbst-bewertung-teil2`.
+  **Damit sind die Tz. 6 und 7 – Ertrags- und Sachwertverfahren – vollständig.**
+- Noch offen aus derselben Datei: die Tz. 8 bis 12 sowie die Lösungsdatei.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Beide Rechenwege der Kreuzinterpolation sind nachgerechnet und führen zum selben
+  Ergebnis.** Rechenweg 1 interpoliert zuerst über den Bodenrichtwert: 1,7 + (1,8 − 1,7)/
+  (500 − 350) × (400 − 350) = 1,7333 (gerundet 1,733) und 1,5 + 0,0333 = 1,5333 (1,533),
+  dann über den Sachwert: 1,733 − (1,733 − 1,533)/(100.000 − 50.000) × (70.000 − 50.000) =
+  1,733 − 0,08 = 1,653. Rechenweg 2 dreht die Reihenfolge um: k1 = 1,7 − 20.000 × 0,2/50.000
+  = 1,620, k2 = 1,8 − 20.000 × 0,2/50.000 = 1,720, k = 1,620 + 50 × 0,1/150 = 1,6533
+  (1,653). Die Reihenfolge der beiden Interpolationen ist also vertauschbar – das ist der
+  eigentliche Punkt, den die Quelle mit ihrem „oder:“ zeigt.
+
+  Darstellungsentscheidung: Das Schaubild zum Sachwertverfahren steht in der Quelle wie
+  schon das zum Ertragswertverfahren als zweispaltige Grafik mit paarweise nebeneinander
+  gedruckten Rechenzeichen („× ×“, „= =“). Die beiden Stränge sind als getrennte Tabellen
+  wiedergegeben und über den vorläufigen Sachwert zusammengeführt; der Wortlaut ist
+  unverändert.
+
+  Redaktioneller Befund: Die beiden abschließenden Beispiele der Tz. 7 (Einfamilienhaus mit
+  vorläufigem Sachwert 487.230 € und Bodenrichtwert 300 €/qm sowie das Bochumer
+  Einfamilienhaus aus dem Nachlass des E.) stehen **ohne Lösung** und sind **nicht
+  aufgelöst**. Beachtenswert ist die Anlage des letzten Falls: Der Gutachterausschuss hat
+  zwar keinen Regionalfaktor, wohl aber einen Sachwertfaktor von 1,2 mitgeteilt – nach
+  dieser Tz. geht der mitgeteilte Sachwertfaktor der Wertzahl der Anlage 25 vor, während für
+  den Regionalfaktor der Auffangwert 1,0 gilt. Der Fall prüft damit beide Vorrangregeln in
+  entgegengesetzter Richtung.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 7 b).** „die Summe der bezogen auf die jeweilige Gebäudeart **marktüblich**
+    Grundflächen“.
+  - **Tz. 7 aa).** „Zu diesem Zweck ist **die** auf die Gebäudeart abzustellen“; „Ein
+    ausgebautes Dachgeschoss liegt vor, wenn dies zu **mehr 50 %** ausgebaut ist“.
+  - **Tz. 7 bb).** Der Satz zur Veröffentlichung im Bundessteuerblatt endet ohne Punkt;
+    „das Bundesministerium **für** Finanzen“.
+  - **Tz. 7 cc).** „Die durchschnittlichen Herstellungskosten des Gebäudes **entsprechend**
+    dem bundesdurchschnittlichen Baukostenniveau“ – das Verb fehlt; der letzte Satz des
+    Abschnitts endet ohne Punkt.
+
+  Querbezüge: Der Übungsfall Fietze rechnet dieses Schema zweimal durch – für das
+  Einfamilienhaus in Hagen (880 € × 240 qm × 183,3/100, Alterswertminderung 71/80,
+  Regionalfaktor 1,0) und für die Reitsporthalle in Herten (260 € × 1.200 qm × 186,7/100,
+  Alterswertminderung 27/30). Beide Fälle verwenden genau die beiden Baupreisindizes, die
+  diese Tz. für 2025 ausweist, und in beiden greift der Auffangwert 1,0. Die
+  Kreuzinterpolation der Tz. 7 e) ist genau der Rechenweg der Hagener Wertzahl (k1 = 1,152,
+  k2 = 1,252, k = 1,162) – dort in der Variante des zweiten der beiden hier gezeigten
+  Rechenwege.
