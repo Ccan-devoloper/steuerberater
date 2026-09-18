@@ -17,7 +17,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { CONFIG } from "./config.mjs";
-import { istBudgetStopp, budgetStoppGrund } from "./budgetstopp.mjs";
+import { istKostenKontrollFehler, budgetStoppGrund } from "./kostenfehler.mjs";
 import { mindsetThema } from "./kalender.mjs";
 import { stickerFarbe } from "./stile.mjs";
 import { zeitStatistik } from "./zeiten.mjs";
@@ -431,8 +431,15 @@ async function main() {
     vorSichern: () => {
       /* Das Journal schreibt seine offenen Uebergaenge (abgerechnet,
          ungeklaert) hier mit fest - sie durften bis dahin im Speicher
-         stehen, weil ihr Verlust nur konservativer, nie riskanter rechnet. */
-      hosting.jsonSchreiben("budget-journal.json", { datum, kanal: KANAL, eintraege: journal.eintraege(), stand: new Date().toISOString() });
+         stehen, weil ihr Verlust nur konservativer, nie riskanter rechnet.
+
+         Und zwar ueber journal.snapshot(), nicht von Hand nachgebaut: Die
+         erste Fassung setzte das Objekt hier selbst zusammen und vergass
+         legacyBaseline. Der naechste Runner leitete sie dann wieder aus
+         kosten.json ab - inklusive der Aufrufe, die im Journal schon
+         standen. Ein von Hand nachgebautes Format ist ein Format, das
+         auseinanderlaeuft. */
+      hosting.jsonSchreiben("budget-journal.json", journal.snapshot());
       if (!telemetrie?.anzahl?.()) return;
       const bestand = hosting.jsonLesen("profile.json", {});
       hosting.jsonSchreiben("profile.json", telemetrie.fensterFortschreiben(bestand));
@@ -549,7 +556,7 @@ async function main() {
         if (r.beantwortet) { ledgerSpeichern(ledgerPfad, ledger); hosting.commit(`Kommentare beantwortet ${datum}`); await hosting.push(); }
         log(`Interaktion: ${r.beantwortet} Antworten (${r.geprueft} Beiträge, ${r.kommentare ?? 0} Kommentare geprüft)`);
       } catch (e) {
-        if (istBudgetStopp(e)) log(`  ⏸ ${e.message}`); else console.error(`  ✗ Interaktion: ${e.message}`);
+        if (istKostenKontrollFehler(e)) log(`  ⏸ ${e.message}`); else console.error(`  ✗ Interaktion: ${e.message}`);
       }
     }
     /* Postfach: Direktnachrichten beantworten – ebenfalls bei jedem Lauf.
@@ -562,7 +569,7 @@ async function main() {
         if (r.beantwortet) { ledgerSpeichern(ledgerPfad, ledger); hosting.commit(`Nachrichten beantwortet ${datum}`); await hosting.push(); }
         log(`Postfach: ${r.beantwortet} Antworten (${r.unterhaltungen} Unterhaltungen, ${r.offen} offen)`);
       } catch (e) {
-        if (istBudgetStopp(e)) log(`  ⏸ ${e.message}`); else console.error(`  ✗ Postfach: ${e.message}`);
+        if (istKostenKontrollFehler(e)) log(`  ⏸ ${e.message}`); else console.error(`  ✗ Postfach: ${e.message}`);
       }
     }
     /* Schlüsselwort-Nachrichten: Spickzettel-Karten an Kommentierende. */
@@ -685,7 +692,7 @@ async function main() {
             if (ersatz) return ersatz;
           } else log(`  Recherche: ${recherche.titel || "(ohne Titel)"} · ${recherche.quellen.length} Quellen`);
         } catch (e) {
-          if (!istBudgetStopp(e)) throw e;
+          if (!istKostenKontrollFehler(e)) throw e;
           /* Kein Geld für die Recherche - aber ein Beitrag ohne Recherche ist
              besser als kein Beitrag. „aktuell" und „loesungsskizze" leben von
              ihr und haben kein eigenes Thema; also weicht der Slot auf ein
@@ -724,7 +731,7 @@ async function main() {
          nächsten. Ein `break` hier hätte am 17.09. nach dem ersten teuren
          Beitrag alles Übrige mitgerissen. */
       if (e?.name === "PostenFehler") { log(`  ⏸ ${e.message}`); continue; }
-      if (istBudgetStopp(e)) { log(`  ⏸ ${e.message}`); break; }
+      if (istKostenKontrollFehler(e)) { log(`  ⏸ ${e.message}`); break; }
       /* Nach allen Versuchen nicht freigegeben: heute nicht noch einmal
          bezahlen – morgen mit frischem Entwurf, der Plan trägt ihn über.
          Alles andere (Netz, API) ist vorübergehend: der nächste Lauf
@@ -796,11 +803,11 @@ async function main() {
           }
           hosting.commit(`Story-Texte ${datum} (zweiter Versuch)`);
         } catch (e) {
-          if (istBudgetStopp(e)) log(`  ⏸ ${e.message}`);
+          if (istKostenKontrollFehler(e)) log(`  ⏸ ${e.message}`);
           else console.error(`  ✗ Stories nachschreiben: ${e.message}`);
         }
       } catch (e) {
-        if (istBudgetStopp(e)) log(`  ⏸ ${e.message}`);
+        if (istKostenKontrollFehler(e)) log(`  ⏸ ${e.message}`);
         else { fehler++; console.error(`  ✗ Stories schreiben: ${e.message}`); }
       }
     }
@@ -822,7 +829,7 @@ async function main() {
         for (const s of ungeprueft) hosting.jsonSchreiben(`inhalte/${datum}-${s.slot}.json`, s);
         hosting.commit(`Story-Faktencheck nachgeholt ${datum}`);
       } catch (e) {
-        if (istBudgetStopp(e)) log(`  ⏸ ${e.message}`);
+        if (istKostenKontrollFehler(e)) log(`  ⏸ ${e.message}`);
         else { fehler++; console.error(`  ✗ Story-Faktencheck nachholen: ${e.message}`); }
       }
     }
@@ -910,7 +917,7 @@ async function main() {
          gewordenes Journal, alter Deckel - bedeutet dasselbe: Der Slot bleibt
          geplant und erscheint heute nicht. Unterschieden wird nur, wie
          ausführlich vermerkt wird. */
-      if (istBudgetStopp(e)) {
+      if (istKostenKontrollFehler(e)) {
         eintrag.budgetBlockiert = { seit: new Date().toISOString(), grund: budgetStoppGrund(e), topf: e.topf || null, art: e.name };
         log(`  ⛔ ${eintrag.slot} budget-blockiert: ${budgetStoppGrund(e)}`);
         continue;
@@ -993,7 +1000,7 @@ async function main() {
       if (echt.bestaetigt) log(`  ✓ Story ${eintrag.slot} ${story.art} → ${medienId}`);
       else log(`  ○ Story ${eintrag.slot} ${story.art} gerendert, aber nicht gesendet.`);
     } catch (e) {
-      if (istBudgetStopp(e)) { log(`  ⏸ ${e.message}`); continue; }
+      if (istKostenKontrollFehler(e)) { log(`  ⏸ ${e.message}`); continue; }
       fehler++;
       eintrag.fehler = `${new Date().toISOString()} ${e.message}`;
       planSpeichern(hosting, plan);
@@ -1093,7 +1100,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       if (i + 1 < grenze && !trocken) await new Promise((r) => setTimeout(r, CONFIG.instagram.auffuellPauseSekunden * 1000));
     } catch (e) {
       console.error(`  ✗ Auffüllen ${i + 1}: ${e.message}`);
-      if (istBudgetStopp(e)) { log(`  ⏸ ${e.message} Auffüllen wird morgen fortgesetzt.`); budgetStopp = true; break; }
+      if (istKostenKontrollFehler(e)) { log(`  ⏸ ${e.message} Auffüllen wird morgen fortgesetzt.`); budgetStopp = true; break; }
       if (/credit|billing|insufficient|402|quota/i.test(e.message)) { console.error("Guthaben oder Kontingent erschöpft – Auffüllen wird beim nächsten Aufruf fortgesetzt."); break; }
       const ratenlimit = /request limit|code (4|17|32|613)\b/i.test(e.message);
       if (ratenlimit) {

@@ -11,7 +11,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 import { CONFIG } from "./config.mjs";
-import { istBudgetStopp } from "./budgetstopp.mjs";
+import { istKostenKontrollFehler } from "./kostenfehler.mjs";
 import { FAECHER, KLAUSUREN } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
 import { folieLeer, pruefeBeitrag, korpus, gefundeneEigenbegriffe, normenOhneGesetz, quizBefunde, fachpruefungAbschliessen } from "./pruefung.mjs";
@@ -387,7 +387,7 @@ async function nachbessern(inhalt, fakten, pruefen, zweck = "faktencheck", schlu
        gereicht" aussehen - sonst schreibt der Aufrufer einen NEUEN Entwurf
        und gibt noch mehr aus. Der Fehler geht nach oben, der berichtigte
        Entwurf liegt im Speicher und wartet auf morgen. */
-    if (istBudgetStopp(e)) throw e;
+    if (istKostenKontrollFehler(e)) throw e;
     return null;
   }
 }
@@ -396,11 +396,15 @@ async function faktenSicher(inhalt, zweck = "faktencheck", opt = {}) {
   try {
     return await pruefeFakten(inhalt, zweck, opt);
   } catch (e) {
-    /* Kein Geld ist kein Ausfall des Prüfers: Der Text wartet, statt ungeprüft
-       durchzugehen. Streng (Standard): Fällt der Prüfer technisch aus,
-       erscheint der Beitrag nicht – ein ungeprüfter Steuerrechtsbeitrag ist
-       teurer als ein fehlender. */
-    if (istBudgetStopp(e)) throw e;
+    /* ZUERST die Kostenkontrolle, und zwar die ganze - nicht nur die Fälle vor
+       dem Senden. Ein Budgetstopp, eine gebrochene Kostenzusage
+       (InvarianteVerletzt), ein Zweck ohne Topf, ein bezahlter Pfad ohne
+       Laufkontext: keiner davon ist ein Ausfall des Prüfers, und keiner darf
+       unten in den Degrade-Pfad geraten. Der gibt bei strikt=false
+       { ok: true } zurück - „kein Geld für die Prüfung" würde dann „gilt als
+       geprüft" heißen. Ein ungeprüfter Steuerrechtsbeitrag ist teurer als ein
+       fehlender. */
+    if (istKostenKontrollFehler(e)) throw e;
     if (CONFIG.faktencheck.strikt) {
       throw new Error(`Faktencheck nicht möglich (${e.message.split("\n")[0].slice(0, 160)}) – der Beitrag erscheint nicht.`);
     }
@@ -735,8 +739,12 @@ async function webRecherche(frage, zweck = "recherche") {
     try {
       response = await claudeAufruf({ zweck, params, modell: CONFIG.ki.modellNeben, attempt: weiter.nummer, slot: zweck });
     } catch (e) {
-      if (istBudgetStopp(e)) {
-        console.warn(`  ! Recherche nach ${runden} Runde(n) abgebrochen – das Research-Budget lässt keine weitere zu.`);
+      /* Auch hier die weite Klasse: Der Ausweg ist der Themenpool, also ein
+         KOSTENLOSER Pfad - keine fachliche Freigabe. Ein gesperrter Topf oder
+         eine gebrochene Zusage darf ebenso dorthin führen wie ein
+         Budgetstopp; was nicht geht, ist weiterzuzahlen. */
+      if (istKostenKontrollFehler(e)) {
+        console.warn(`  ! Recherche nach ${runden} Runde(n) abgebrochen – die Kostenkontrolle lässt keine weitere Anfrage zu.`);
         break;
       }
       throw e;
@@ -864,7 +872,7 @@ export async function storiesPruefen(liste) {
        (API-Störung, unlesbares Ergebnis) darf die bezahlten Texte nicht
        mitreißen. Sie bleiben gespeichert, tragen `faktencheckOffen` und
        werden im nächsten Lauf geprüft. Ungeprüft erscheint keine. */
-    if (istBudgetStopp(e)) console.warn(`  ⏸ ${e.message.split("\n")[0]} – die Story-Texte bleiben gespeichert und werden im nächsten Lauf geprüft.`);
+    if (istKostenKontrollFehler(e)) console.warn(`  ⏸ ${e.message.split("\n")[0]} – die Story-Texte bleiben gespeichert und werden im nächsten Lauf geprüft.`);
     else console.warn(`  ! Story-Faktencheck ausgefallen (${e.message.split("\n")[0].slice(0, 120)}) – die Texte bleiben gespeichert und werden im nächsten Lauf geprüft.`);
     for (const o of liste) o.faktencheckOffen = true;
   }
@@ -1078,7 +1086,7 @@ export async function bildregie(reel) {
       },
     });
   } catch (e) {
-    if (istBudgetStopp(e)) throw e;
+    if (istKostenKontrollFehler(e)) throw e;
     console.warn(`  ! Bildregie nicht möglich (${e.message.split("\n")[0].slice(0, 100)}) – Motive des Autors bleiben.`);
     return { geprueft: 0, ersetzt: 0 };
   }
