@@ -5383,3 +5383,62 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Tz. 4 des Abschnitts V nach der tariflichen Steuer). Erfunden wurde in keinem Fall etwas;
   wo eine eigene Kontrollrechnung hinterlegt ist, ist sie ausdrücklich als solche
   gekennzeichnet.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – die Lösungsdatei: zwölf Musterlösungen
+
+- Quelle: „B-S25-ErbSt-Erbschaftsteuer 2025-2026 Teil 2-(Schaefer)-Loesung-0126.pdf“,
+  Drive-ID `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`, sechs Seiten, vom Connector vollständig
+  ausgegeben.
+- Einpflege dieses Durchgangs: alle zwölf Musterlösungen sind in die bestehenden Kapitel
+  eingesetzt – an die Stelle der Hinweise „steht in der Quelle ohne Lösung“ und der beiden
+  abgebrochenen Rechnungen. Der Datensatz umfasst jetzt 15 Teile, 33 Kapitel, 532 Blöcke
+  und 64 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+  **Damit ist der Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA` bis auf die Fallsammlung
+  4. Termin abgearbeitet.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Jede Zwischensumme der zwölf Lösungen ist unabhängig nachgerechnet; alle gehen auf.**
+  Die Ergebnisse: GmbH-Mindestbeteiligung a) ja, b) nein; Nettowert des
+  Verwaltungsvermögens **600.000 €**; begünstigtes Vermögen nach 10-Prozent-Quote
+  **3.740.000 €**; Fortsetzung des Schuldensaldierungsfalls **3.360.000 €** begünstigt;
+  Abzugsbetrag in drei Varianten **0 €, 225.000 € und 450.000 €** steuerpflichtig;
+  Lohnsummenverstoß im Regelmodell **+850.000 €**, im Optionsmodell **+800.000 €**
+  Bemessungsgrundlage; Nachversteuerung nach Veräußerung **163.350 €** und **82.600 €**;
+  Versorgungsfreibetrag **123.400 €**; Entlastungsbetrag **183.620 €** und **22.455 €**.
+
+  **Zwei im Skript abgebrochene Rechnungen sind damit zu Ende geführt.** Das Beispiel 2 der
+  Tz. 9 a), das nach der Bezugsgröße von 5.500.000 € abbrach, endet bei einem begünstigten
+  Betriebsvermögen von 3.360.000 €; bemerkenswert ist, dass die 10-Prozent-Quote dort das
+  gesamte alte Verwaltungsvermögen aufzehrt (310.036 € gegenüber einem Nettowert von
+  259.636 €), so dass allein die 40.000 € jungen Verwaltungsvermögens nicht begünstigt
+  bleiben – genau der Betrag, den § 13b Abs. 8 S. 3 ErbStG ohnehin als Mindestwert
+  vorschreibt. Und das Beispiel 2 der Tz. 4 des Abschnitts V, das nach der tariflichen
+  Steuer von 206.550 € abbrach, endet bei einer Erbschaftsteuer von 184.095 €.
+
+  **Drei eigene Kontrollrechnungen sind bestätigt und durch den Wortlaut der Quelle
+  ersetzt:** die drei Varianten des Abzugsbetrags (0 €, 225.000 €, 450.000 €) und die
+  beiden Lohnsummenfälle (Verschonungsabschlag 2.550.000 € bzw. 20 % von 4.000.000 €).
+  Alle drei stimmen mit der Musterlösung exakt überein. Ebenso ist der Vervielfältiger
+  geliefert, der im Skript fehlte und hier ausdrücklich nicht ergänzt worden war:
+  **11,050** für eine 70-jährige Frau nach der Anlage zum BMF-Schreiben vom 09.12.2024.
+
+  Zwei Feinheiten der Verhältnisrechnung nach § 19a Abs. 3 ErbStG werden erst durch die
+  Lösungsdatei sichtbar und sind im Datensatz vermerkt:
+
+  - **Der Pauschbetrag für Bestattungskosten bleibt im Nenner außer Betracht.** Im
+    Beispiel 1 beträgt der Nenner 4.000.000 € statt 3.985.000 €, im Beispiel 2
+    723.558 € statt 708.558 €. Genau darauf zielte der Hinweis des Skripts, dass Schulden
+    ohne Bezug zu einzelnen Vermögensgegenständen unberücksichtigt bleiben.
+  - **Der mit dem Anteil zusammenhängende Schuldenabzug wird ein zweites Mal quotiert.**
+    Von den 17.442 € entfallen 225.000/375.000, also 10.465 €, auf den begünstigten Teil.
+
+  Ein Vergleich, den die Quelle nicht zieht: Die Quote des § 19a Abs. 3 ErbStG beträgt im
+  Beispiel 1 **42,1 %**, im Beispiel 2 **29,65 %** und im Beispiel 3 nur **9,66 %**.
+  Entsprechend unterschiedlich wirkt die Tarifbegrenzung – 183.620 €, 22.455 € und
+  23.310 €. Je mehr der Verschonungsabschlag und der Abzugsbetrag vom begünstigten
+  Vermögen bereits aufgezehrt haben, desto weniger bleibt für die Tarifbegrenzung übrig.
+
+  Stellen, an denen die Lösungsdatei verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet: „verbleibende **anteige** Schulden“; „Einzelunternehmen, **begünstigt§**
+  13b Abs. 2 ErbStG“ ohne Leerzeichen; die Wortdopplung „unterschreitet **die die**
+  Mindestlohnsumme“; „214.535 €/**723.558**“ ohne zweites Währungszeichen.

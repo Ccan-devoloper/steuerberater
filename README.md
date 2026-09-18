@@ -177,7 +177,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Kleinbetragsgrenze von 50 € und die beiden Stundungstatbestände des § 28 ErbStG – sieben
   Jahre für begünstigtes Betriebsvermögen und zehn Jahre für zu Wohnzwecken genutzten
   Grundbesitz nach dem Jahressteuergesetz 2024. **Das Skript ist damit von der ersten bis
-  zur letzten Seite vollständig erfasst.**
+  zur letzten Seite vollständig erfasst.** Eingearbeitet sind außerdem die **zwölf
+  Musterlösungen der zugehörigen Lösungsdatei**, jeweils im passenden Kapitel: die
+  GmbH-Mindestbeteiligung, Nettowert (600.000 €) und unschädliches Verwaltungsvermögen
+  (begünstigt 3.740.000 €), die Fortsetzung des im Skript abgebrochenen
+  Schuldensaldierungsfalls (begünstigt 3.360.000 €), die drei Varianten des Abzugsbetrags
+  (0 €, 225.000 €, 450.000 €), zwei Lohnsummenfälle (850.000 € bzw. 800.000 € höhere
+  Bemessungsgrundlage), zwei Abschmelzungsfälle (Nachzahlung 163.350 € und 82.600 €), der
+  Versorgungsfreibetrag (Vervielfältiger 11,050, verbleibend 123.400 €) und beide Fälle zur
+  Tarifbegrenzung (Entlastungsbetrag 183.620 € und 22.455 €). Jede Zwischensumme ist
+  unabhängig nachgerechnet.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den
