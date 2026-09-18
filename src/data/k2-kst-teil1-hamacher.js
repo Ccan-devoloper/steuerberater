@@ -11,9 +11,12 @@
    Steuerbefreiungen des § 5 KStG bis zur Option nach § 1a KStG. Aus Kapitel 2
    (Einkommensermittlung) ist vollständig übernommen – die Abschnitte 2.1 bis
    2.2.5, vom zu versteuernden Einkommen bis zum Verlustabzug. Aus Kapitel 3
-   (verdeckte Einlage) sind die Abschnitte 3.1 und 3.2.1 übernommen. Der Rest des
-   Kapitels 3 und das Kapitel 4 (Tarif) folgen nach demselben Verfahren; der
-   Campus weist den Stand aus.
+   (verdeckte Einlage) sind die Abschnitte 3.1 bis 3.2.4 übernommen – Begriff und
+   Rechtsfolgen, die gesellschaftsrechtliche Veranlassung, der einlagefähige
+   Vermögensvorteil samt der Abgrenzung zum nicht einlagefähigen Nutzungsvorteil
+   und die Zurechnung bei disquotaler Einlage. Der Rest des Kapitels 3 (ab
+   Abschnitt 3.3 Bewertung) und das Kapitel 4 (Tarif) folgen nach demselben
+   Verfahren; der Campus weist den Stand aus.
 
    Kleinere Tippfehler der Quelle (fehlende Endungen, ein doppeltes Subjekt)
    sind wortlautgetreu übernommen und nicht einzeln gekennzeichnet, weil sie den
@@ -629,6 +632,69 @@ export const kstTeil1 = [
       { text: "Beispiel: Der Gesellschafter A besitzt gegenüber seiner A-GmbH eine Darlehensforderung im Nennwert von 1.000.000 € (Teilwert: 600.000 €). In 2026 verzichtet der A aus gesellschaftsrechtlichen Gründen auf seine Darlehensforderung." },
       { text: "Lösung: Bei der A-GmbH kommt es aufgrund des Forderungsverzichtes des Anteilseigners aus gesellschaftsrechtlichen Gründen zu einem Wegfall der Darlehensverbindlichkeit und daher zu einer verhinderten Vermögensminderung (Buchung: Darlehensverbindlichkeit A gegen Ertrag 1.000.000 €). Die verdeckte Einlage beträgt daher 600.000 €, weil diese mit dem werthaltigen Teil zu bewerten ist. Dieser Vermögensvorteil ist daher nach § 8 Abs. 3 Satz 3 KStG bei der Einkommensermittlung wieder zu beseitigen und gleichzeitig dem steuerlichen Einlagekonto i. S. des § 27 KStG zuzurechnen." },
       { text: "Anmerkung zur Reichweite dieses Beispiels: Die Quelle beziffert die verdeckte Einlage hier nur mit dem werthaltigen Teil von 600.000 €, während der Buchungssatz den vollen Nennwert von 1.000.000 € ausbucht. Die Differenz von 400.000 € bleibt danach steuerpflichtiger Ertrag. Die Quelle führt das an dieser Stelle nicht weiter aus, sondern verweist auf die Abschnitte 3.4.4 und 3.4.5, in denen der Forderungsverzicht und der Verzicht gegen Besserungsschein ausführlich behandelt werden." },
+    ],
+  },
+  {
+    id: "kst-t1-15",
+    kapitel: "15",
+    abschnittNr: "3.2.2 und 3.2.3",
+    title: "3.2.2 Gesellschaftsrechtliche Veranlassung und 3.2.3 Einlagefähiger Vermögensvorteil",
+    thema: "Der Fremdvergleich als Prüfstein der Veranlassung – und die Grenze, an der die verdeckte Einlage scheitert: Nutzungsvorteile. Die verbilligte Überlassung eines Wirtschaftsguts und das zinslose Gesellschafterdarlehen sind mangels Bilanzierbarkeit niemals verdeckte Einlage, was die Quelle an einem Zehn-Millionen-Darlehen vorführt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitte 3.2.2 und 3.2.3 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 3 KStG", "R 8.9 Abs. 2, Abs. 3 KStR",
+      "H 8.9 „Gesellschaftsrechtliche Veranlassung“, „Immaterielle Wirtschaftsgüter“, „Nutzungsvorteile“",
+      "BFH vom 25.09.2018, I B 49/16", "BFH vom 06.11.2003, BStBl. II 2004, 416",
+      "BFH vom 26.10.1987, BStBl. II 1988, 348", "§ 6 Abs. 1 Nr. 3 EStG",
+    ],
+    themen: ["Gesellschaftsrechtliche Veranlassung", "Fremdvergleich", "Einlagefähigkeit", "Immaterielle Wirtschaftsgüter", "Geschäftschance", "Nutzungsvorteil", "Zinsloses Gesellschafterdarlehen", "Abzinsung"],
+    bloecke: [
+      { typ: "titel", text: "3.2.2 Gesellschaftsrechtliche Veranlassung" },
+      { text: "Sämtliche Fälle, die eine verdeckte Einlage nach sich ziehen können, haben gemeinsam, dass diese gesellschaftsrechtlich veranlasst sind und daher von der Ausgestaltung her unüblich sind. Eine solche Veranlassung ist gegeben, wenn ein Nichtgesellschafter bei Anwendung der Sorgfalt eines ordentlichen und gewissenhaften Kaufmanns den Vermögensvorteil der Gesellschaft nicht eingeräumt hätte. Der Vorgang ist somit von seiner Ausgestaltung her nicht fremdvergleichbar bzw. unüblich. Dies ist der Fall, wenn die Kapitalgesellschaft ohne erkennbare betriebliche Gründe" },
+      { text: "– für eine Leistung des Anteilseigners bzw. einer diesem nahe stehenden Person eine unangemessen niedrige Gegenleistung erbringt;" },
+      { text: "– für ihre Leistung vom Anteilseigner bzw. einer diesem nahe stehenden Person ein überhöhtes Leistungsentgelt erhält;" },
+      { text: "– oder von einer Verbindlichkeit gegenüber dem Gesellschafter bzw. einer diesem nahe stehenden Person befreit wird." },
+      { text: "Dadurch, dass die Vorteilszuwendung ausschließlich im Gesellschaftsverhältnis begründet liegt, ist daher auch eine Gleichsetzung mit einer „Einlage“ gerechtfertigt." },
+      { typ: "titel", text: "3.2.3.1 Einlagefähiger Vermögensvorteil – Auswirkungen auf die Bilanz" },
+      { text: "Die verdeckte Einlage setzt immer einen einlagefähigen Vermögensvorteil voraus. Einlagefähig sind danach nur Wirtschaftsgüter, die bei der empfangenden Kapitalgesellschaft bilanzierungsfähig sind. Dazu können auch immaterielle Wirtschaftsgüter gehören, die auf Ebene des Einlegenden bisher nicht aktivierungsfähig gewesen sind. Gleiches gilt auch für Geschäftschancen, die beim Einlegenden bereits hinreichend konkretisiert sind. Das Vermögen der Kapitalgesellschaft muss sich aufgrund der verdeckten Einlage durch – den Ansatz eines Aktivpostens (Vermögensmehrung) oder – durch den Wegfall eines Passivpostens (verhinderte Vermögensminderung) erhöhen." },
+      { typ: "titel", text: "3.2.3.2 Nutzungsvorteil" },
+      { text: "Keine verdeckte Einlage kann daher – die verbilligte oder unentgeltliche Überlassung von Wirtschaftsgütern oder – die zinslose oder zinsverbilligte Überlassung von Darlehen an die Kapitalgesellschaft auslösen. Denn diese Nutzungsvorteile können mangels Wirtschaftsgutseigenschaft nicht bilanziert werden. Es mangelt daher an einer unmittelbaren Erhöhung der Aktiva bzw. Verminderung der Passiva, so dass sich daraus auch schon keine Einkommensbeeinflussung ergeben kann." },
+      { text: "Merke: Die verdeckte Einlage setzt die Übertragung eines Wirtschaftsgutes (Vermögensmehrung) bzw. den Wegfall eines Passivpostens (verhinderte Vermögensminderung) voraus. Ein Nutzungsvorteil kann daher niemals zu einer verdeckten Einlage führen." },
+      { text: "Beispiel: Der Alleingesellschafter A gibt seiner A-GmbH in 2026 ein Darlehen über 10.000.000 €, welches nicht verzinst wird (angemessener Zinssatz: 5 %)." },
+      { text: "Lösung: Die unverzinsliche Darlehensgewährung stellt keine verdeckte Einlage dar. Diesbezüglich mangelt es an einem einlagefähigen Vermögensvorteil, weil die A-GmbH die Zinslosigkeit nicht bilanziell abbilden kann. Dabei handelt es sich um einen bloßen Nutzungsvorteil, welcher keine körperschaftsteuerliche Konsequenz auslöst. Weil seit 2023 zudem die Abzinsungspflicht von unverzinslichen Darlehen entfallen ist, löst dieser Vorgang bei der Kapitalgesellschaft keine weiteren Konsequenzen aus." },
+    ],
+  },
+  {
+    id: "kst-t1-16",
+    kapitel: "16",
+    abschnittNr: "3.2.4",
+    title: "3.2.4 Zurechnung der verdeckten Einlage",
+    thema: "Wem die Einlage zuzurechnen ist, wenn nicht alle Gesellschafter einlegen: Im Grundfall nur dem tatsächlich Einlegenden – auch bei der disquotalen Einlage, deren reflexartige Wertsteigerung bei den Mitgesellschaftern ertragsteuerlich folgenlos bleibt. Anders nur beim feststellbaren Zuwendungswillen. Schenkungsteuerlich greift § 7 Abs. 8 Satz 1 ErbStG dagegen auch ohne ihn",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil I (Hamacher), Abschnitt 3.2.4 · Stand 04/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 1 Satz 1, Abs. 3 Satz 3 KStG", "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG", "§ 17 Abs. 2a Satz 3 Nr. 1 EStG",
+      "§ 23 Abs. 1 Satz 1 Nr. 1 i. V. mit Satz 5 Nr. 2 EStG", "§ 7 Abs. 8 Satz 1 ErbStG",
+      "R 8.9 Abs. 3 Satz 1 KStR", "H 8.5 III „Nahe stehende Person“",
+      "BFH vom 19.08.1999, BStBl. II 2001, 43", "BFH vom 12.12.2000, BStBl. II 2001, 234",
+    ],
+    themen: ["Zurechnung", "Disquotale Einlage", "Zuwendungswille", "Reflexartige Wertsteigerung", "Anschaffungskosten der Beteiligung", "Privates Veräußerungsgeschäft", "Schenkungsteuer"],
+    bloecke: [
+      { typ: "titel", text: "3.2.4.1 Unmittelbare verdeckte Einlage" },
+      { text: "Die verdeckte Einlage wird dabei im Grundfall durch den Gesellschafter selbst vorgenommen (sog. unmittelbare verdeckte Einlage), weil sich die gesellschaftsrechtliche Veranlassung aus der Gesellschafterstellung ableitet. Bei einer 100%-Beteiligung des Gesellschafters ergeben sich daher in diesem Zusammenhang keine Besonderheiten." },
+      { text: "Diese Annahme gilt grundsätzlich auch in den Fällen einer disquotalen verdeckten Einlage, bei welcher der Gesellschafter (Beteiligung < 100 %) einen über seine Beteiligungsquote hinausgehenden Beitrag liefert. M. E. ist die verdeckte Einlage unabhängig davon, dass von dem Vorgang auch die anderen Gesellschafter profitieren können, ertragsteuerlich immer nur dem tatsächlich einlegenden Gesellschafter zuzurechnen, d. h. die Besteuerungsfolgen sind nur bei diesem zu ziehen. Dies ergibt sich auch aus dem BFH-Urteil vom 19.08.1999, wonach der einlegende Gesellschafter regelmäßig im Eigeninteresse handelt und damit aus seiner Sicht auch „betriebliche bzw. eigennützige Gründe“ für die Einlage sprechen können. Dies gilt auch, wenn sich durch die verdeckte Einlage reflexartig eine Wertsteigerung zugunsten der Anteile der Mitgesellschafter ergibt." },
+      { text: "Erfolgt die verdeckte Einlage hingegen feststellbar auch mit dem Willen der unentgeltlichen Zuwendung an einen oder mehrere andere Mitgesellschafter (eigen- und fremdnützige Motivation), wird die verdeckte Einlage ertragsteuerlich so behandelt, als ob auch der andere Mitgesellschafter die Leistung erhalten habe und diese seinerseits verdeckt in die Kapitalgesellschaft einlegt. Die Auswirkungen der verdeckten Einlage werden dann bei sämtlichen Anteilseignern nachvollzogen, wodurch der Gesellschafter seinen Mitgesellschaftern das eingelegte Wirtschaftsgut anteilig zuwendet. Dies führt zu der Rechtsfolge, dass die verdeckte Einlage anteilig, d. h. entsprechend der jeweiligen Beteiligungsquote, auch dem Mitgesellschafter zuzurechnen ist." },
+      { text: "Zu den schenkungsteuerlichen Konsequenzen siehe unter 3.8." },
+      { text: "Merke: Die verdeckte Einlage ist in aller Regel dem Anteilseigner zuzurechnen, bei dem sich dann korrespondierende steuerliche Auswirkungen ergeben können. Bei mehreren Gesellschaftern erfolgt eine Zurechnung nur dann, wenn zwischen den Gesellschaftern auch ein Zuwendungswille besteht." },
+      { text: "Beispiel: A ist zu 50 % an der A-GmbH beteiligt (Beteiligung im Privatvermögen), die restlichen 50 % sind D zuzurechnen (kein Angehöriger). In 2026 überträgt A seiner Gesellschaft unentgeltlich ein von ihm bisher zu Vermietungszwecken genutztes Grundstück des Privatvermögens (Anschaffungskosten 2018: 100.000 €, Teilwert: 600.000 €). Mit der Einlage bezweckt A keine Zuwendung an den fremden Mitgesellschafter." },
+      { text: "Lösung: Vorliegend tätigt A eine verdeckte Einlage, weil nur dieser aus gesellschaftsrechtlichen Gründen der Gesellschaft einen Vermögensvorteil (= Vermögensmehrung) zuwendet. Die verdeckte Einlage ist daher ausschließlich dem Gesellschafter A zuzurechnen, was sich durch Erhöhung seiner Anschaffungskosten der Beteiligung an der A-GmbH um 600.000 € (§ 17 Abs. 2a Satz 3 Nr. 1 EStG) sowie der Versteuerung eines Veräußerungsgewinnes i. S. des § 23 Abs. 1 Satz 1 Nr. 1 i. V. mit Satz 5 Nr. 2 EStG ergibt. Eine anteilige Zurechnung der verdeckten Einlage auch zugunsten des Gesellschafters D erfolgt nicht, weil der Gesellschafter A nur im eigenen Interesse gehandelt hat." },
+      { text: "Bei der A-GmbH wird die verdeckte Einlage mit dem Teilwert (§ 8 Abs. 1 Satz 1 KStG i. V. mit § 6 Abs. 1 Nr. 5 EStG) bewertet. Dadurch ist das erhaltene Wirtschaftsgut für steuerliche Zwecke mit dem Teilwert auszuweisen (Buchung: Grundstück an Ertrag 600.000 €). Die Gewinnerhöhung ist sodann bei der Einkommensermittlung wieder nach § 8 Abs. 3 Satz 3 KStG abzuziehen und dem steuerlichen Einlagekonto i. S. des § 27 KStG zuzurechnen." },
+      { text: "Beachte: Unabhängig davon ist für schenkungsteuerliche Zwecke § 7 Abs. 8 Satz 1 ErbStG zu beachten, wonach es zu einer unterstellten Zuwendung von A an D kommt. Diese liegt in der reflexartigen Erhöhung des Beteiligungswertes begründet." },
+      { text: "Anmerkung zum Zusammenspiel der beiden letzten Absätze: Ertragsteuerlich bleibt die reflexartige Wertsteigerung beim Mitgesellschafter D folgenlos, schenkungsteuerlich löst sie nach § 7 Abs. 8 Satz 1 ErbStG dagegen eine Zuwendung aus – und zwar unabhängig vom Zuwendungswillen, auf den es ertragsteuerlich gerade ankommt. Die Quelle stellt beides unmittelbar nebeneinander; der Datensatz hebt den Unterschied hervor, weil er in der Klausur leicht untergeht." },
     ],
   },
 ];

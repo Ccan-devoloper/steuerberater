@@ -10617,6 +10617,41 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen:** der Rest des Kapitels 3 (ab 3.2.2: gesellschaftsrechtliche Veranlassung,
-Einlagefähigkeit, Zurechnung, Bewertung und die neun Anwendungsfälle) und das Kapitel 4 sowie
-die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** der Rest des Kapitels 3 (ab 3.3: Bewertung und die neun
+Anwendungsfälle) und das Kapitel 4 sowie die Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitte 3.2.2 bis 3.2.4 – Veranlassung, Einlagefähigkeit, Zurechnung
+
+Quelle: dieselbe Datei; übernommen in `src/data/k2-kst-teil1-hamacher.js` als Kapitel 15
+(Abschnitte 3.2.2 und 3.2.3) und 16 (Abschnitt 3.2.4). Prüfung: `npm run check:k2-kst-teil1`
+(16 Kapitel, 277 Blöcke, 10 Tabellen).
+
+**Die gesellschaftsrechtliche Veranlassung** bemisst die Quelle nach dem Fremdvergleich: Sie
+liegt vor, wenn ein Nichtgesellschafter der Körperschaft den Vermögensvorteil bei Anwendung der
+Sorgfalt eines ordentlichen Kaufmanns nicht eingeräumt hätte. Die drei Spiegelstriche der Quelle
+sind wortlautgetreu übernommen.
+
+**Die Einlagefähigkeit ist der Angelpunkt des Abschnitts.** Einlagefähig ist jeder
+bilanzierungsfähige Vermögensvorteil, also auch ein immaterielles Wirtschaftsgut und eine
+bereits konkretisierte Geschäftschance. **Nicht** einlagefähig ist der bloße Nutzungsvorteil –
+daraus folgt der Satz, den die Quelle hervorhebt und den der Datensatz übernimmt: Die
+unentgeltliche oder verbilligte Nutzungsüberlassung und namentlich das **zinslose
+Gesellschafterdarlehen** sind **niemals** verdeckte Einlage. Das Beispiel führt ein Darlehen über
+10.000.000 € vor; der Datensatz übernimmt auch den Hinweis der Quelle, dass die Abzinsungspflicht
+des § 6 Abs. 1 Nr. 3 EStG seit 2023 entfallen ist, weil die Klausurfolgen sonst falsch gezogen
+werden.
+
+**Die Zurechnung** trennt zwei Ebenen, die in der Klausur leicht ineinanderlaufen. Am Beispiel
+der zu je 50 % beteiligten A und D, von denen A ein Grundstück (Anschaffungskosten 100.000 €,
+Teilwert 600.000 €) unentgeltlich überträgt, gilt: Ertragsteuerlich wird die **disquotale**
+Einlage allein dem Einlegenden A zugerechnet (BFH vom 19.08.1999), bewertet mit dem Teilwert nach
+§ 6 Abs. 1 Nr. 5 EStG und erhöht dessen Anschaffungskosten nach § 17 Abs. 2a Satz 3 Nr. 1 EStG;
+die reflexartige Wertsteigerung der Anteile des D bleibt ertragsteuerlich folgenlos, weil es am
+Zuwendungswillen fehlt.
+
+**Eigene Hervorhebung, im Datensatz als solche gekennzeichnet:** Der Schlussblock des Kapitels 16
+stellt ausdrücklich fest, dass § 7 Abs. 8 Satz 1 ErbStG die reflexartige Wertsteigerung beim
+Mitgesellschafter D schenkungsteuerlich **unabhängig vom Zuwendungswillen** erfasst – also gerade
+unabhängig von dem Merkmal, auf das es ertragsteuerlich ankommt. Die Quelle stellt beide Absätze
+nur unmittelbar nebeneinander, ohne den Gegensatz auszusprechen; der Datensatz hebt ihn hervor
+und weist den Zusatz als eigene Anmerkung aus.
