@@ -1425,7 +1425,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Nr. 1 AO. Der zweite Teil führt über das rückwirkende Ereignis des § 175 Abs. 1 Satz 1
   Nr. 2 AO und die Anlaufhemmung des Satzes 2 zu einem eigenen Fristbeginn. Alle Fristen sind
   unabhängig nachgerechnet; die Randpunkte summieren sich auf 31 der ausgewiesenen 35 Punkte,
-  die Differenz ordnet die Quelle keinem Absatz zu.
+  die Differenz ordnet die Quelle keinem Absatz zu. Dazu die Klausur **„Eheleute
+  Schallhammer" (Examen 2012, 35 Punkte)**, die in drei Teilen fragt, wie viele Einsprüche
+  zwei Schreiben auslösen, ob sie zulässig sind und ob sie Erfolg haben. Weil die
+  Zusammenveranlagung nach § 155 Abs. 3 Satz 1 AO **zwei** Festsetzungen in einem Bescheid
+  bündelt und der Gewinnfeststellungsbescheid wegen § 351 Abs. 2 AO gesondert anzufechten
+  ist, ergeben sich **fünf** Einsprüche – von denen am Ende nur zwei zulässig bleiben. Die
+  Zulässigkeit hängt an einer fehlgeschlagenen Ersatzzustellung: Die Hauseigentümerin gehört
+  nicht zum Personenkreis des § 178 Abs. 1 ZPO, die Zustellung wird erst durch den
+  tatsächlichen Zugang am 19.08.2012 nach § 8 VwZG geheilt – und genau am letzten Tag der so
+  berechneten Frist (19.09.2012) geht das Schreiben des Steuerberaters ein; der hilfsweise
+  gestellte Wiedereinsetzungsantrag wird dadurch überflüssig. In der Begründetheit greifen
+  Gesamtaufrollung (§ 367 Abs. 2 Satz 1 AO) und Anfechtungsbeschränkung (§ 351 Abs. 1 AO)
+  ineinander: Der übersehene Verlustfeststellungsbescheid senkt das zu versteuernde Einkommen
+  von 98.155 € auf 68.155 €, der Änderungsrahmen gegenüber der letzten bestandskräftigen
+  Festsetzung (60.000 €) beträgt damit 8.155 €, und die außergewöhnlichen Belastungen von
+  4.700 € bleiben darunter – Endstand 63.455 €. Der Verfasser kritisiert die amtliche
+  Musterlösung an mehreren Stellen offen und ergänzt zwei Prüfungspunkte, für die es keine
+  Punkte gab (§ 173 Abs. 1 Nr. 2 AO bei den Renovierungskosten, § 351 Abs. 1 AO beim
+  Zahlendreher); beide sind mit dem Vermerk „(0 Punkte)" übernommen. Hier gehen die
+  Randpunkte genau auf: 26 × 1, 2 × 0,5, 2 × 2 und 1 × 4 Punkte ergeben die ausgewiesenen 35.
   Prüfung: `npm run check:k1-ao-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

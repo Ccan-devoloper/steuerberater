@@ -6307,3 +6307,100 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „Da dies lt. Sachverhalt nicht möglich“ ohne „ist“; „Danach endet die **Feststellungs**frist
   für den Einkommensteuerbescheid“, wo die Festsetzungsfrist gemeint ist; „Betriebstätten-“;
   und in der Aufgabenstellung „Einkommensbescheid“ statt Einkommensteuerbescheid.
+
+## Originalklausuren der Steuerberaterprüfung – Abgabenordnung, Examen 2012 (Eheleute Schallhammer)
+
+- Quelle: dieselbe Datei (`1OJ04Y1ZPgn5AGKOWOFey1s9gu5q8pEGe`), zweite Klausur.
+- Einpflege dieses Durchgangs: die Klausur **2012** als zweite Originalklausur; der Datensatz
+  umfasst jetzt 2 Originalklausuren, 191 Blöcke, 4 Tabellen und 70 Punkte; Prüfung
+  `npm run check:k1-ao-originalklausuren`. Offen aus dieser Datei sind die Klausuren 2013
+  (zwei Sachverhalte), 2014 und 2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Anders als die Klausur 2011 ist diese dreiteilig aufgebaut** – Einspruchsgegenstand,
+  Zulässigkeit, Begründetheit – und prüft damit den kompletten Aufbau des außergerichtlichen
+  Rechtsbehelfsverfahrens an einem einzigen Sachverhalt. Die Randpunkte gehen hier genau auf:
+  26 × 1 Punkt, 2 × 0,5 Punkte, 2 × 2 Punkte und 1 × 4 Punkte ergeben die ausgewiesenen
+  35 Punkte.
+
+  **Die erste Frage ist eine Zählfrage – und der Schlüssel ist § 155 Abs. 3 Satz 1 AO.** Die
+  Zusammenveranlagung bündelt verfahrensrechtlich **zwei** Festsetzungen in einem Bescheid;
+  ein gemeinsames Schreiben beider Ehegatten ist deshalb zweierlei, nicht einerlei. Dazu
+  tritt der Gewinnfeststellungsbescheid des FA Erding, der wegen § 351 Abs. 2 AO ein eigenes
+  Anfechtungsbedürfnis begründet, aber nur der Ehefrau zusteht. Macht **fünf** Einsprüche:
+  zwei aus dem Fax vom 14.09.2012, zwei aus dem Schreiben des Steuerberaters vom 18.09.2012
+  und einer gegen den Feststellungsbescheid. Am Ende sind nur die beiden aus dem Fax
+  zulässig – die beiden anderen gegen den Einkommensteuerbescheid scheitern am fehlenden
+  Rechtsschutzbedürfnis (§ 358 AO), der gegen den Feststellungsbescheid an der Frist.
+
+  **Der didaktische Kern der Zulässigkeitsprüfung ist eine fehlgeschlagene Zustellung.** Die
+  Hauseigentümerin gehört nicht zum Personenkreis des § 178 Abs. 1 ZPO – sie ist weder
+  Familienangehörige noch in der Familie beschäftigt noch ständige Mitbewohnerin **der
+  Wohnung**; dass sie schon öfter Sendungen entgegengenommen hat, ändert daran nichts. Die
+  Zustellung ist damit fehlgeschlagen, wird aber nach § 8 VwZG im Zeitpunkt des tatsächlichen
+  Zugangs geheilt, hier am 19.08.2012. Der Fristbeginn richtet sich nach diesem Tag, und die
+  Drei-Tage-Fiktion des § 122 Abs. 2 Nr. 1 AO ist unanwendbar. Die Frist endet am 19.09.2012 –
+  genau an diesem Tag geht das Schreiben des Steuerberaters ein. Der hilfsweise gestellte
+  Wiedereinsetzungsantrag läuft dadurch ins Leere.
+
+  **Drei Fristberechnungen sind unabhängig nachgerechnet und gehen auf:** Bescheid vom
+  21.05.2012 – Bekanntgabefiktion 24.05.2012, Fristende 25.06.2012, weil der 24.06.2012 ein
+  Sonntag war (§ 108 Abs. 3 AO). Feststellungsbescheid vom 01.09.2011 – Bekanntgabefiktion
+  Montag, 05.09.2011, weil der 04.09.2011 ein Sonntag war; der tatsächlich frühere Zugang am
+  02.09.2011 ist unbeachtlich, Fristende 05.10.2011. Bescheid vom 29.05.2012 – wirksam erst
+  mit der Heilung am 19.08.2012, Fristende 19.09.2012.
+
+  **Ein Anwalt ohne Mandat kann keinen Einspruch zurücknehmen.** Weil der Steuerberater in
+  seinem Schreiben vom 02.10.2012 selbst mitteilt, dass das Mandat bereits beendet ist, ist
+  die Rücknahme den Eheleuten nach § 80 Abs. 1 Satz 3 AO nicht zurechenbar – er handelt für
+  das Finanzamt erkennbar als Vertreter ohne Vertretungsmacht. Die Einsprüche bleiben
+  anhängig.
+
+  **In der Begründetheit greifen Gesamtaufrollung und Anfechtungsbeschränkung ineinander.**
+  Der übersehene Verlustfeststellungsbescheid senkt das zu versteuernde Einkommen von
+  98.155 € auf 68.155 €; die letzte **bestandskräftige** Festsetzung ist die vom 12.05.2011
+  mit 60.000 € – die dazwischenliegende vom 21.05.2012 zählt nicht, weil sie nie
+  bestandskräftig wurde. Der Änderungsrahmen des § 351 Abs. 1 AO beträgt damit 8.155 €, und
+  die außergewöhnlichen Belastungen von 4.700 € bleiben darunter. Endstand: 63.455 €, also
+  34.700 € unter dem angefochtenen Betrag.
+
+  **Der Vorläufigkeitsvermerk überlebt den Änderungsbescheid.** Dass er im Bescheid vom
+  21.05.2012 nicht wiederholt wurde, hebt ihn nicht auf – dafür hätte es einer ausdrücklichen
+  Aufhebungserklärung bedurft. Und eine Vorläufigkeit dem Grunde nach (Einkunftserzielungs-
+  absicht) erfasst auch die Höhe nach, weil sich die Absicht unterjährig ändern kann. Beides
+  trägt die Änderung nach § 165 Abs. 2 Satz 1 AO – sie ist nach der Lösung die **einzige**
+  Norm, die den Änderungsbescheid vom 29.05.2012 deckt.
+
+  **Der Zahlendreher ist ein Lehrstück zu § 129 AO.** Der Fehler ist dem Steuerpflichtigen
+  unterlaufen, nicht dem Finanzamt – weil er aber aus den eingereichten Belegen erkennbar
+  war, hat das Finanzamt ihn sich zu eigen gemacht, und damit ist er „bei Erlass“ des
+  Verwaltungsakts unterlaufen. Auf ein Verschulden kommt es nicht an. Umgekehrt scheidet
+  § 173 Abs. 1 Nr. 1 AO gerade wegen dieser Erkennbarkeit aus (Ermittlungsfehler), und
+  § 172 Abs. 1 Nr. 2a AO scheitert daran, dass eine Berichtigungsanzeige nach § 153 AO kein
+  Änderungsantrag ist. Das falsche Normzitat des Finanzamts bleibt folgenlos: ein
+  Begründungsmangel nach § 121 AO, heilbar nach § 126 Abs. 1 Nr. 2 und Abs. 2 AO. § 173a AO
+  war 2012 noch nicht anwendbar – die Quelle merkt an, dass er „in der aktuellen
+  Examensklausur … durchaus einschlägig gewesen“ wäre.
+
+  **Der Verfasser kritisiert die amtliche Musterlösung offen** – das ist bei den bislang
+  eingepflegten Materialien einmalig und deshalb im Datensatz vollständig übernommen. Er
+  hält den amtlichen Lösungsvorschlag für „unglücklich geraten“, bemängelt den Lösungsaufbau
+  bei § 351 Abs. 1 AO als „sehr fragwürdig“ und ergänzt zwei Prüfungspunkte, für die es keine
+  Punkte gab: die Prüfung des § 173 Abs. 1 Nr. 2 AO bei den Renovierungskosten (sie wird
+  überhaupt erst nötig, weil der Verfasser – anders als die amtliche Lösung – ein
+  rückwirkendes Ereignis nach § 175 Abs. 1 Nr. 2 AO ablehnt, gestützt auf AEAO zu § 175
+  Tz. 2.3) und die Vorfrage, ob der Einwand gegen den Zahlendreher überhaupt noch durchgreift,
+  obwohl der angefochtene Bescheid diese Änderung gar nicht enthält. Beide sind mit dem
+  Vermerk „(0 Punkte)“ übernommen. Der Verfasser hält außerdem die Punktvergabe an zwei
+  Stellen für unangemessen – drei Punkte für den Feststellungsbescheid seien „hoch gegriffen“,
+  ein Punkt für dessen Zulässigkeitsprüfung „sparsam“.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „führte sich“
+  statt führte sie; „Son“ statt Sohn; „Einkunfterzielungsabsicht“; „der Beratungsvertrag …
+  sein einvernehmlich … beendet worden“; „ein Antrag sein darüber hinaus nicht gestellt
+  worden“; „durch da Fax“; „§ 187 ZPO“ statt § 178 ZPO beim Personenkreis der
+  Ersatzzustellung; „§ 355 Abs. 1 OA“; „31,12,2011“; „Da endgültig ergangen ist“; „da schon
+  keine Tatsachen nachträglich gekannt werden“; „§ 129 AOP“; „Fest-B vom 29.05.2012“ in der
+  Zusammenfassung, wo der Feststellungsbescheid vom 01.09.2011 gemeint ist; und „als das FA
+  Erding den Feststellungsbescheid hätte berücksichtigen müssen“, wo das FA Freising gemeint
+  ist.
