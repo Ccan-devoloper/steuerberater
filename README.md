@@ -2344,8 +2344,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hier keine erfunden. Prüfung: `npm run check:k2-istr-noethen`
 - **KSt Teil I (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil I (Hamacher)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil I: Allgemeines und verdeckte Einlage (2026)“**
-  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 24 Kapitel mit 408 Abschnitten und
-  14 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
+  (Stand 04/2026) im Wortlaut – **in Arbeit**, derzeit 26 Kapitel mit 443 Abschnitten und
+  15 Tabellen. **Das Kapitel 1 (Steuerpflicht) ist vollständig**, also die Abschnitte
   **1.1 bis 1.6**: die unbeschränkte Steuerpflicht
   mit der Anknüpfung an Sitz **oder** Geschäftsleitung, dem Typenvergleich bei ausländischen
   Kapitalgesellschaften einschließlich der britischen Ltd. nach dem Brexit, der optierenden
@@ -2381,7 +2381,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rücktrag in die beiden vorangegangenen Veranlagungszeiträume mit einem gemeinsamen
   Höchstbetrag von 1.000.000 € und Vortrag mit der Mindestbesteuerung (Grundabzug 1.000.000 €,
   darüber hinaus 70 %, ab dem VZ 2028 wieder 60 %) – beides an durchgerechneten Beispielen.
-  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.4.5 eingepflegt: die
+  Aus dem **Kapitel 3 (verdeckte Einlage)** sind die Abschnitte 3.1 bis 3.4.6 eingepflegt: die
   Begriffsdefinition, die das Gesetz gerade nicht liefert (§ 8 Abs. 3 Satz 3 KStG regelt nur die
   Rechtsfolge, definiert wird sie in R 8.9 Abs. 1 KStR), die Abgrenzung zur offenen Einlage und
   zum Tauschvorgang bei teilweiser Gewährung von Gesellschaftsrechten, die Rolle der Buchung für
@@ -2441,8 +2441,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   abziehbar und sonst verdeckte Gewinnausschüttung, und beim Gesellschafter läuft alles
   spiegelbildlich. Ein durchgerechneter Fall über vier Veranlagungszeiträume (2022 Verzicht, 2025
   Besserungsfall, 2026 Rückzahlung) stellt beide Ebenen nebeneinander.
-  Der Exkurs 3.4.6 (Rangrücktritt), die Abschnitte 3.5 bis 3.8 und das Kapitel 4 (Tarif) folgen;
-  der Campus weist den Stand aus.
+  Dazu der vollständige **Exkurs 3.4.6 zum Gesellschafterdarlehen mit Rangrücktritt**: zunächst
+  die zivilrechtlichen Grundlagen – warum der Rangrücktritt überhaupt erklärt wird, obwohl
+  § 39 Abs. 1 Nr. 5 InsO Gesellschafterdarlehen ohnehin nachrangig stellt, warum die
+  Verbindlichkeit in der Handelsbilanz trotzdem Fremdkapital bleibt, und warum die Unterscheidung
+  zwischen einfachem und qualifiziertem Rangrücktritt seit dem 01.01.2008 insolvenzrechtlich
+  kaum noch trägt, weil § 19 Abs. 2 InsO den Rücktritt in den „Rang Nr. 6“ genügen lässt. Dann die
+  steuerlichen Rechtsfolgen, die an einer einzigen Frage hängen: Greift das Passivierungsverbot
+  des § 5 Abs. 2a EStG? Darüber entscheidet **nicht die Bezeichnung des Rangrücktritts, sondern
+  allein die Tilgungsabrede** – fehlt der Bezug auf das freie Vermögen, ist die Verbindlichkeit
+  erfolgswirksam auszubuchen, in Höhe des werthaltigen Teils liegt nach dem BFH-Urteil vom
+  15.04.2015 eine verdeckte Einlage vor, und Zinsen wie Tilgungen vor Eintritt des
+  Besserungsfalles werden nach dem BFH-Urteil vom 11.12.2018 zur verdeckten Gewinnausschüttung,
+  weil die Gesellschaft steuerlich Zinsen auf ihr eigenes Eigenkapital zahlt. Eine Tabelle ordnet
+  die fünf Konstellationen; drei Beispiele der Quelle führen sie vor.
+  Die Abschnitte 3.5 bis 3.9 und das Kapitel 4 (Tarif) folgen; der Campus weist den Stand aus.
   Prüfung: `npm run check:k2-kst-teil1`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

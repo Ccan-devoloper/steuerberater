@@ -10617,8 +10617,52 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** der Exkurs 3.4.6 (Gesellschafterdarlehen mit Rangrücktritt),
-die Abschnitte 3.5 bis 3.8 und das Kapitel 4 sowie die Skriptteile II bis VII.
+**Noch offen nach dieser Runde:** die Abschnitte 3.5 bis 3.9 und das Kapitel 4 sowie die
+Skriptteile II bis VII.
+
+### KSt Teil I (Hamacher), Abschnitt 3.4.6 – Gesellschafterdarlehen mit Rangrücktritt
+
+Quelle: dieselbe Datei; übernommen als Kapitel 25 (zivilrechtliche Grundlagen, 3.4.6 bis
+3.4.6.2) und 26 (steuerliche Rechtsfolgen, 3.4.6.3). Prüfung: `npm run check:k2-kst-teil1`
+(26 Kapitel, 443 Blöcke, 15 Tabellen).
+
+**Der Abschnitt hat zwei Ebenen, die auseinanderzuhalten sind** – der Datensatz sagt das in einem
+eigens gekennzeichneten Ordnungshinweis, weil die Quelle beide unmittelbar nacheinander
+abhandelt. Insolvenzrechtlich ist die Unterscheidung zwischen einfachem und qualifiziertem
+Rangrücktritt seit dem 01.01.2008 weitgehend bedeutungslos, weil § 19 Abs. 2 InsO schon den
+einfachen Rücktritt hinter die Gläubiger des § 39 Abs. 1 Nr. 1 bis 5 InsO genügen lässt – den
+Rücktritt in den „Rang Nr. 6“. Steuerlich bleibt die Frage erheblich, aber aus einem ganz anderen
+Grund.
+
+**Die entscheidende Einsicht steht nicht in einer Überschrift, sondern zwischen den beiden
+Spiegelstrichen der Quelle:** Über die Anwendung des § 5 Abs. 2a EStG entscheidet nicht die
+Bezeichnung des Rangrücktritts, sondern **allein die Tilgungsabrede**. Fehlt der Bezug auf das
+freie Vermögen, greift das Passivierungsverbot – auch beim qualifizierten Rangrücktritt; ist er
+vorhanden, greift es nicht – auch beim einfachen. Die Tabelle im Datensatz ordnet die fünf
+Konstellationen und ist als eigene Ergänzung gekennzeichnet, ebenso der Hinweis, dass eine
+Sortierung nach „einfach oder qualifiziert“ am Prüfungspunkt vorbeigeht.
+
+**Die Rechtsfolgenkette bei Anwendung des § 5 Abs. 2a EStG** ist für die Klausur vollständig
+übernommen: erfolgswirksame Ausbuchung der Verbindlichkeit, verdeckte Einlage in Höhe des
+werthaltigen Teils nach dem BFH-Urteil vom 15.04.2015 (bestätigt am 10.08.2016), Zugang beim
+Einlagekonto und korrespondierende Erhöhung der Beteiligungsanschaffungskosten beim
+Anteilseigner – sowie die Behandlung späterer Zinsen und Tilgungen als **verdeckte
+Gewinnausschüttung** nach dem BFH-Urteil vom 11.12.2018, weil die Gesellschaft steuerlich Zinsen
+auf ihr eigenes Eigenkapital zahlt. Im Beispiel der Quelle ist der Teilwert 0 €, weshalb der
+Ertrag von 100.000 € voll steuerpflichtig bleibt; der „Beachte“-Zusatz spielt die Werthaltigkeit
+als Gegenprobe durch.
+
+**Eine Besonderheit dieses Abschnitts:** Er ist die deutlichste Stelle des ganzen Skripts, an der
+die Maßgeblichkeit gerade nicht gilt. Handelsrechtlich bleibt die Verbindlichkeit passiviert,
+steuerlich wird sie ausgebucht. Die Quelle referiert die Rechtsprechung und merkt mit erkennbarer
+Zurückhaltung an, der BFH lasse „die zivilrechtliche Wirkung des Rangrücktritts vollkommen
+unberücksichtigt“; der Datensatz hält diese Spannung in einer gekennzeichneten Anmerkung fest,
+ohne sie aufzulösen.
+
+**Kleinere Eigenheiten der Quelle, wortlautgetreu übernommen und benannt:** einmal „Nach 19 Abs. 2
+InsO“ ohne Paragrafenzeichen, und der verkürzte Satz „In den Fällen des § 5 Abs. 2a EStG
+gleiches“. Beide berühren den Sinn nicht; der Datensatz vermerkt sie, ohne den Wortlaut zu
+ändern.
 
 ### KSt Teil I (Hamacher), Abschnitte 3.4.4 und 3.4.5 – Forderungsverzicht und Besserungsschein
 
