@@ -10620,6 +10620,76 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil III (Hamacher), Abschnitte 1.1 und 1.2 – neuer Bestand, Einlagenrückgewähr
+
+Quelle: Google Drive, „2025) (6).pdf“ (Drive-ID `1-EhRMtvKCLnlE2axXNVkniAWtyGwW5rp`), das
+Lehrgangsskript **„Körperschaftsteuer, Teil III: Steuerliches Einlagekonto (§ 27 KStG); Grundzüge
+der Kapitalherauf- und -herabsetzung (§ 28 KStG)“** von Frank Hamacher, 21. Auflage, Stand Mai 2025,
+39 Seiten. Neu angelegt als `src/data/k2-kst-teil3-hamacher.js` mit dem Prüfskript
+`npm run check:k2-kst-teil3` (4 Kapitel, 53 Blöcke, 4 Tabellen) und dem Campus-Reiter
+„Teil III (§§ 27, 28 KStG)“. Der Text ist wie bei den Teilen I und II binär geladen und mit pypdf
+extrahiert worden.
+
+**Abweichender Rechtsstand:** Anders als die Teile I und II trägt dieses Skript den Stand **Mai
+2025** und rechnet seine Beispiele im VZ 2025. Der Datensatz-Header weist das eigens aus, damit die
+Bestände nicht vermischt werden.
+
+**Der entscheidende Satz** steht gleich am Anfang und wird leicht überlesen: Das Einlagekonto wird
+**gesellschaftsbezogen** geführt, nicht gesellschafterbezogen. Die Gesellschaft hat immer nur
+**einen** Bestand, gleichgültig wer die Einlage geleistet hat. Der Datensatz hebt als eigene
+Ergänzung hervor, dass daraus die Grundkonstellation des ganzen Kapitels folgt: Von einer
+Einlagenrückgewähr profitiert jeder Anteilseigner nach seiner Quote – auch derjenige, der nie etwas
+eingelegt hat –, und deshalb kann die Auskehrung bei ihm die Anschaffungskosten überschreiten,
+obwohl die Gesellschaft nur zurückgibt, was sie einmal erhalten hat.
+
+**Die drei Rechtsfolgen des Überhangs** sind tabellarisch geordnet, weil sie vollständig
+auseinanderfallen. Im Betriebsvermögen einer natürlichen Person und beim nach § 17 EStG
+steuerverstrickten Anteil entsteht ein Veräußerungsgewinn im Teileinkünfteverfahren – bei § 17
+Abs. 4 EStG allerdings **ohne** den Freibetrag des Absatzes 3, weil tatsächlich gar nicht veräußert
+wird. Bei einer Kapitalgesellschaft greift § 8b Abs. 2 KStG. Und bei Anteilen i. S. des § 20 Abs. 2
+Nr. 1 EStG bleibt der Überhang **vollständig unbesteuert** – nicht weil er freigestellt wäre,
+sondern weil § 20 Abs. 2 Satz 2 EStG für die Einlagenrückgewähr schlicht keinen Tatbestand
+vorsieht. Der Datensatz vermerkt als eigene Ergänzung, dass die daraus entstehenden **negativen
+Anschaffungskosten** die Besteuerung nur aufschieben: Bei einer späteren Veräußerung erhöhen sie
+den Gewinn – wer nie veräußert, wird insoweit nie besteuert.
+
+**Zwei Pauschalen aus zwei Vorschriften** löst im Beispiel zu 1.2.1.2 dieselbe Ausschüttung von
+200.000 € aus: 5.000 € nach § 8b Abs. 5 KStG für den regulären Bezug und 1.000 € nach § 8b Abs. 3
+Satz 1 KStG für den Veräußerungsgewinn. Der Befund deckt sich mit dem, was der Teil II bei der
+Einlagenrückgewähr festgehalten hatte.
+
+**Das fehlende Wahlrecht bei mehreren Anteilen** ist im Datensatz mit einer Vergleichsrechnung
+unterlegt, die die Quelle nicht anstellt und die deshalb als eigene Herleitung gekennzeichnet ist:
+Die zwingende Aufteilung nach Nominalanteilen führt zu einem Veräußerungsgewinn von 310.000 €,
+während eine zusammengefasste Betrachtung (600.000 € Einlagenrückgewähr gegen 450.000 €
+Anschaffungskosten insgesamt) nur 150.000 € ergäbe – ein Unterschied von 160.000 € zulasten des
+Steuerpflichtigen, weil die überschüssigen Anschaffungskosten des zweiten Anteils nicht übertragen
+werden dürfen.
+
+**Eine weitere eigene Herleitung** betrifft Abschnitt 1.2.2: Dass bei einem nach § 8b Abs. 2 Satz 4
+KStG steuerpflichtigen Überhang keine Pauschale anfällt, spricht die Quelle nicht aus; es folgt
+aber zwingend daraus, dass § 8b Abs. 3 Satz 1 KStG an den steuerfreien Gewinn anknüpft.
+
+**Sämtliche Zahlen der vier Beispiele sind nachgerechnet und gehen auf:** 200.000 € ./. 90.000 € =
+110.000 € und 90.000 € ./. 80.000 € = 10.000 € mit 6.000 € steuerpflichtig; 5 % von 100.000 € =
+5.000 € und 5 % von 20.000 € = 1.000 €; 600.000 € × 30/50 = 360.000 € und × 20/50 = 240.000 €,
+Veräußerungsgewinn 310.000 € mit 186.000 € steuerpflichtig, Restanschaffungskosten 160.000 €.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- Der Sachverhalt des Beispiels in 1.2.1.2 bezeichnet die beiden Varianten mit **c) und d)**, die
+  Lösung dieselben Varianten anschließend mit **a) und b)**.
+- „Diese stellt eine Einlagenrückgewähr **das**“ – gemeint ist „dar“.
+
+**Eine Lücke im Inhaltsverzeichnis der Quelle:** Auf 1.2.1.2 folgt unmittelbar **1.2.1.4**; einen
+Abschnitt 1.2.1.3 gibt es weder im Verzeichnis noch im Text. Die Gliederung des Datensatzes folgt
+der Quelle unverändert.
+
+**Noch offen:** aus Teil III die Feststellung des Einlagekontos (1.3), die
+Verwendungsfestschreibung und Haftungsregelung (1.4), die Kapitalerhöhung (Kapitel 2) und die
+Kapitalherabsetzung einschließlich eigener Anteile (Kapitel 3); ganz offen sind die Skriptteile IV
+bis VII.
+
 ### KSt Teil II (Hamacher), Kapitel 6 – Teil II ist vollständig
 
 Quelle: dieselbe Datei, Seiten 66 bis 70 (Schluss des Dokuments); übernommen als Kapitel 44 und 45.

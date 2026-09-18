@@ -2731,6 +2731,36 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gestaltung schon im Ansatz wertlos wird. **Damit ist das Skript vollständig übernommen – alle
   sechs Kapitel über 70 Seiten.**
   Prüfung: `npm run check:k2-kst-teil2`
+- **KSt Teil III (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil III (§§ 27, 28 KStG)“):
+  das Lehrgangsskript **„Körperschaftsteuer, Teil III: Steuerliches Einlagekonto (§ 27 KStG);
+  Grundzüge der Kapitalherauf- und -herabsetzung (§ 28 KStG)“** (21. Auflage, Stand 05/2025) im
+  Wortlaut – **in Arbeit**, derzeit 4 Kapitel mit 53 Abschnitten und 4 Tabellen. Anders als die
+  Teile I und II trägt dieses Skript den Stand **Mai 2025** und rechnet seine Beispiele im VZ 2025.
+  Das steuerliche Einlagekonto beantwortet eine einzige Frage: Was von dem, was die Gesellschaft
+  auskehrt, hat der Gesellschafter ihr vorher selbst gegeben? Der entscheidende Satz steht gleich am
+  Anfang und wird leicht überlesen – das Konto wird **gesellschaftsbezogen** geführt, nicht
+  gesellschafterbezogen. Die Gesellschaft hat immer nur **einen** Bestand, gleichgültig wer die
+  Einlage geleistet hat, und deshalb profitiert von einer Einlagenrückgewähr jeder Anteilseigner
+  nach seiner Quote – auch derjenige, der nie etwas eingelegt hat. Genau daraus entsteht die
+  Grundkonstellation des Kapitels: Die Auskehrung kann die Anschaffungskosten eines Gesellschafters
+  überschreiten, obwohl die Gesellschaft nur zurückgibt, was sie einmal erhalten hat. Bis zur Höhe
+  der Anschaffungskosten ist der Vorgang immer **steuerneutral**; erst der **Überhang** löst Folgen
+  aus, und die fallen je nach Rechtsform und Zugehörigkeit des Anteils auseinander. Im
+  Betriebsvermögen einer natürlichen Person und bei § 17 EStG entsteht ein Veräußerungsgewinn im
+  Teileinkünfteverfahren – bei § 17 Abs. 4 EStG allerdings **ohne** den Freibetrag des Absatzes 3,
+  weil tatsächlich gar nicht veräußert wird. Bei einer Kapitalgesellschaft greift § 8b Abs. 2 KStG,
+  so dass dieselbe Ausschüttung **zwei verschiedene** Fünf-Prozent-Pauschalen aus zwei verschiedenen
+  Vorschriften auslösen kann (5.000 € nach § 8b Abs. 5 KStG für den regulären Bezug, 1.000 € nach
+  § 8b Abs. 3 Satz 1 KStG für den Veräußerungsgewinn). Bei Anteilen unter einem Prozent im
+  Privatvermögen bleibt der Überhang dagegen **vollständig unbesteuert** – nicht weil er freigestellt
+  wäre, sondern weil das Gesetz dafür keinen Tatbestand vorsieht; die Folge sind **negative
+  Anschaffungskosten**, die ein Dogma des Bilanzsteuerrechts durchbrechen und die Besteuerung nur
+  aufschieben. Besteht die Beteiligung aus mehreren Anteilen, ist zwingend nach dem Verhältnis der
+  **Nominalanteile** aufzuteilen, und zwar ohne Wahlrecht – was im Beispiel der Quelle zu einem um
+  160.000 € höheren Veräußerungsgewinn führt als eine zusammengefasste Betrachtung. Alte
+  **steuerwirksame Teilwertabschreibungen** holen den Überhang schließlich über § 8b Abs. 2 Satz 4
+  KStG bzw. § 3 Nr. 40 EStG in die Steuerpflicht zurück.
+  Prüfung: `npm run check:k2-kst-teil3`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.

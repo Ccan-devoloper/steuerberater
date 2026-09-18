@@ -48,6 +48,7 @@
     "check:k2-istr-noethen": "node tools/pruefen-k2-istr-noethen.mjs",
     "check:k2-kst-teil1": "node tools/pruefen-k2-kst-teil1.mjs",
     "check:k2-kst-teil2": "node tools/pruefen-k2-kst-teil2.mjs",
+    "check:k2-kst-teil3": "node tools/pruefen-k2-kst-teil3.mjs",
     "check:k1-erbst-bewertung-teil1": "node tools/pruefen-k1-erbst-bewertung-teil1.mjs",
     "check:k1-erbst-bewertung-teil2": "node tools/pruefen-k1-erbst-bewertung-teil2.mjs",
     "check:k1-erbst-verschonung": "node tools/pruefen-k1-erbst-verschonung.mjs",
