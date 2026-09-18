@@ -7146,3 +7146,115 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „seinen langen gehegten Traum“; „Restaurationsleistung“ statt Restaurierungsleistung; und
   zwei überzählige schließende Klammern bei den Fundstellen zu § 13b Abs. 2 Nr. 3 und
   § 15 Abs. 1 S. 1 Nr. 4 UStG.
+
+## Originalklausuren der Steuerberaterprüfung – Umsatzsteuer, Klausur 2015 (Georg Gründlich)
+
+- Quelle: dieselbe Datei (`1lIwxxyUdq_FVIqKDhGk1LHPPJm0O8FNo`), fünfte und letzte Klausur.
+- Einpflege dieses Durchgangs: die Klausur **2015**; der Datensatz umfasst jetzt
+  5 Originalklausuren, 358 Blöcke und 37 Tabellen; Prüfung
+  `npm run check:k1-ust-originalklausuren`. **Damit ist die USt-Datei vollständig
+  ausgewertet.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage
+  nicht aus.
+
+  **Der didaktische Kern: § 13b UStG wird sechsmal hintereinander an ein und derselben
+  Baustelle geprüft – und führt sechsmal zu einem anderen Ergebnis.**
+
+  | Eingangsleistung | Wechsel der Steuerschuldnerschaft? | tragender Grund |
+  | --- | --- | --- |
+  | Architekt Jung, Salzburg | ja, § 13b Abs. 2 Nr. 1 UStG (2.850 €, VAZ 09/2025) | im Ausland ansässiger Unternehmer; Planungsarbeiten sind aus Nr. 4 ausdrücklich ausgenommen |
+  | Erdbau GmbH, inländisch | ja, § 13b Abs. 2 Nr. 4 UStG (3.800 €, VAZ 11/2025) | Erdarbeiten sind Bauleistung; Gründlich erbringt selbst nachhaltig Bauleistungen (Abs. 5 Satz 2) |
+  | Fensterhersteller Huber, Innsbruck | **nein** | reine Lieferung ohne Einbau – keine Bauleistung; stattdessen innergemeinschaftlicher Erwerb (15.200 €, VAZ 06/2026) |
+  | Spedition Klammer, Innsbruck | ja, § 13b **Abs. 1** UStG (95 €, VAZ 05/2026) | innergemeinschaftliche Güterbeförderung an einen Unternehmer, § 3a Abs. 2 UStG |
+  | Monteur Pawlicek, Pilsen | ja, § 13b Abs. 2 **Nr. 1** UStG (3.800 €, VAZ 07/2026) | Montage ist Bauleistung, aber Nr. 1 geht der Nr. 4 vor (§ 13b Abs. 2 Nr. 4 Satz 3 UStG) |
+  | Wichtel & Glanz, inländisch | **nein** | Reinigung ist keine Bauleistung; Nr. 8 scheitert daran, dass Gründlich selbst kein Gebäudereiniger ist (Abs. 5 Satz 5) |
+
+  **Die Gegenrichtung ist ebenso lehrreich.** Auch der Ausgangsumsatz – die schlüsselfertige
+  Errichtung des Verwaltungsgebäudes – ist eine Bauleistung. Die Stadtsparkasse wird
+  trotzdem **nicht** Steuerschuldnerin, weil § 13b Abs. 5 Satz 2 UStG nicht auf die
+  *empfangene*, sondern auf die *erbrachte* Leistung abstellt. Dieselbe Vorschrift, die
+  Gründlich sechs Eingangsleistungen zurechnet, entlastet ihn bei seinem eigenen Umsatz
+  gerade nicht.
+
+  **Die Anzahlungsbesteuerung ist ein Zeitstrahl über drei Voranmeldungszeiträume.** Die
+  erste Abschlagsrechnung datiert vom 30.12.2025, das Geld geht erst am 20.01.2026 ein –
+  maßgebend ist nach § 13 Abs. 1 Nr. 1 Buchst. a Satz 4 UStG die **Vereinnahmung**, also
+  VAZ Januar 2026 (19.000 €). Bei der zweiten Abschlagszahlung fallen Fälligkeit (25.08.)
+  und Zahlung (02.09.) auseinander – wieder zählt die Vereinnahmung, VAZ September 2026
+  (95.000 €). Der Rest entsteht mit der Leistungsausführung im Dezember 2026:
+  380.000 ./. 19.000 ./. 95.000 = **266.000 €**. Die Konventionalstrafe von 25.000 € mindert
+  das Entgelt nicht (Schadensersatzcharakter) – die Bemessungsgrundlage bleibt bei
+  2.000.000 €. Dieselbe Wertung findet sich in der Klausur 2011 bei der Vertragsstrafe gegen
+  den Maler Pinsel.
+
+  **Drei ineinandergreifende Berichtigungen nach § 15a UStG, die bis 2031 laufen.** Der Pkw
+  wird 2025 zu 100 % unternehmerisch genutzt (70 % Bauunternehmen, 30 % Bauträger) und
+  deshalb **zwingend** dem Unternehmensvermögen zugeordnet; ein Wahlrecht besteht nicht. Weil
+  die Bauträgerumsätze nach § 4 Nr. 9 Buchst. a UStG steuerfrei sind, bleiben von 10.260 €
+  Vorsteuer nur **7.182 €** abziehbar. 2026 verschieben sich die Anteile auf 70 %
+  Bauunternehmen, 10 % Bauträger, 20 % privat – die Abzugsquote steigt auf 90 %, und
+  gleichzeitig entsteht erstmals eine unentgeltliche Wertabgabe. Die Schenkung an die Ehefrau
+  am 31.12.2026 ist voll steuerpflichtig (30.000 € × 19 % = 5.700 €) und führt nach
+  § 15a Abs. 9 UStG dazu, dass der Pkw für die restlichen vier Jahre und drei Monate des
+  Berichtigungszeitraums als zu 100 % abzugsberechtigt verwendet gilt.
+
+  | Berichtigung | Berechnung | Betrag |
+  | --- | --- | --- |
+  | Pkw 2026 (Änderung 20 %) | 2.052 € × 20 % | 410,40 € |
+  | Pkw 2027–2029 (Änderung 30 %) | 3 × (2.052 € × 30 %) | 1.846,80 € |
+  | Pkw 2030 (drei Monate) | 513 € × 30 % | 153,90 € |
+  | **Summe Pkw**, in einem Zug im VAZ 12/2026 (§ 44 Abs. 3 Satz 2 UStDV) | | **2.411,10 €** |
+  | Lackierung 2027–2030 (Änderung genau 10 %) | 4 × (228 € × 10 %) | 91,20 € |
+  | Lackierung 2031 (vier Monate) | 76 € × 10 % | 7,60 € |
+  | **Summe Lackierung**, zugunsten Gründlichs im VAZ 12/2026 | | **98,80 €** |
+
+  Die **Lackierung** ist dabei ein eigenständiges Berichtigungsobjekt nach § 15a Abs. 3
+  Satz 1 UStG: Ihr Zeitraum beginnt erst am 01.05.2026 und reicht deshalb bis zum
+  30.04.2031 – ein Jahr länger als der des Pkw selbst. Die Änderung beträgt **genau 10 %**,
+  und die Quelle hält ausdrücklich fest, dass § 44 Abs. 2 UStDV deshalb nicht greift –
+  dieselbe Grenzfrage wie in den Klausuren 2013 und 2014 dieser Reihe, jedes Mal mit
+  demselben Ergebnis.
+
+  **Das Motorrad ist der vierte Fahrzeugfall der Reihe** – nach der Segelyacht (2011) und
+  der Cessna (2013) diesmal ein Landfahrzeug, und wieder in beiden Richtungen: beim Erwerb
+  § 1b UStG (15.000 € × 19 % = 2.850 € Erwerbsteuer, **kein** Vorsteuerabzug, weil für den
+  nichtunternehmerischen Bereich erworben), beim Verkauf § 2a UStG (steuerfreie
+  innergemeinschaftliche Lieferung an eine Privatperson, nachträglicher Vorsteuerabzug nach
+  § 15 Abs. 4a UStG auf 10.000 € × 19 % = **1.900 €** begrenzt). Die Pointe liegt im Detail:
+  Das Motorrad ist beim Verkauf **immer noch neu**, weil seit der ersten Inbetriebnahme keine
+  sechs Monate vergangen sind – auf die 6.342 gefahrenen Kilometer kommt es dann nicht mehr
+  an, weil bei Landfahrzeugen die 6.000-Kilometer-Grenze und die Sechsmonatsfrist alternativ
+  zu prüfen sind. Vorgelagert ist ein Reihengeschäft (§ 3 Abs. 6a UStG): Die warenbewegte
+  Lieferung ist der des Händlers Bradl zuzuordnen, weil Gründlich abholt – sie ist in Italien
+  ausgeführt und im Inland nicht steuerbar.
+
+  **Zwei Geschenke, dasselbe Ergebnis auf zwei Wegen.** Bei den 20 Werkzeugkoffern war der
+  Vorsteuerabzug im Januar zu Recht vorgenommen worden (der Verkauf im Baumarkt war
+  beabsichtigt); erst die Zuwendung im Dezember macht ihn über § 15 Abs. 1a UStG i. V. m.
+  § 4 Abs. 5 Satz 1 Nr. 1 EStG unzulässig, und die Korrektur läuft über § 17 Abs. 2 Nr. 5
+  UStG: 20 × 11,40 € = **228 €** im VAZ Dezember 2026. Beim Bierfass stand die
+  Schenkungsabsicht dagegen schon beim Einkauf fest, sodass der Vorsteuerabzug von vornherein
+  zu versagen ist (Abschn. 15.2b Abs. 2 Satz 5 UStAE). In beiden Fällen entfällt die
+  unentgeltliche Wertabgabe mangels Vorsteuerabzug (§ 3 Abs. 1b Satz 2 UStG) – aber nur im
+  ersten Fall ist überhaupt etwas zu korrigieren. Damit greift die Klausur dasselbe Motiv
+  auf, das die Klausuren 2011 und 2013 dieser Reihe gegenläufig durchspielen.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.** Pkw-Anschaffung:
+  60.000 € ./. 10 % = 54.000 € netto, Vorsteuer 90 % von 11.400 € = 10.260 €, davon 70 % =
+  7.182 €. Laufende Kosten 2026: (760 + 475) × 90 % = 1.111,50 €; Lackierung
+  1.140 × 90 % = 1.026 €. Wertabgabe: 54.000 : 5 = 10.800 €; + 4.000 + 2.500 + 6.000 =
+  23.300 €; × 20 % = 4.660 €; × 19 % = 885,40 €. § 15a wie in der Tabelle. Gebäude:
+  2.000.000 × 19 % = 380.000 €.
+
+  **Eine Ungenauigkeit der Quelle – eigene Feststellung:** Die Lösung schreibt beim Pkw
+  „Aufteilungsmaßstab sind die Umsätze“, wendet dann aber die Fahrleistungsquote des
+  Fahrtenbuchs an (70 % bzw. 90 %). Beides führt hier zum selben Ergebnis, weil der
+  Sachverhalt die Nutzung ausschließlich über das Fahrtenbuch beschreibt; die Formulierung
+  ist gleichwohl missverständlich. Sie ist wortlautgetreu übernommen und im Datensatz
+  gekennzeichnet.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „die gesamte
+  gewerbliche oder berufliche Tätigkeit des Unternehmens“ statt des Unternehmers; „Es ist
+  kein Ausschlusstatbestände gem. § 15 Abs. 2 UStG gegeben“ (dreimal); „eines im Ausland
+  ansässiges Unternehmen“; „§§ 14. 14a UStG“ mit Punkt statt Komma; „zurück liegt“; und
+  „Kein Rückausschluss gem. § 15 Abs. 3 Satz 1 Nr. 1 UStG“ ohne Satzzeichen.

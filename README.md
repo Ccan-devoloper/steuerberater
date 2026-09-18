@@ -1609,6 +1609,25 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Verlosung wird mit 7 % besteuert – und eine steuerfreie Lohnveredelung für einen Schweizer
   Auftraggeber. Ein Widerspruch innerhalb der Lösung (Vorsteuer aus der Partyservice-Rechnung
   einmal mit 950 €, einmal mit 600 € beziffert) ist als **eigene Feststellung** gekennzeichnet.
+  Die Klausur **„Georg Gründlich“ (Prüfung 2015)** schließlich prüft **§ 13b UStG sechsmal an
+  derselben Baustelle** und kommt sechsmal zu einem anderen Ergebnis: Abs. 2 Nr. 1 beim
+  österreichischen Architekten, Abs. 2 Nr. 4 beim inländischen Erdbauer, **gar nicht** beim
+  Innsbrucker Fensterhersteller, der ohne Einbau liefert und deshalb keine Bauleistung erbringt
+  – an die Stelle des § 13b UStG tritt dort ein innergemeinschaftlicher Erwerb über 15.200 € –,
+  Abs. 1 bei der österreichischen Spedition (innergemeinschaftliche Güterbeförderung nach
+  § 3a Abs. 2 UStG), **Nr. 1 vor Nr. 4** beim tschechischen Monteur – und wieder **gar nicht**
+  beim inländischen Gebäudereiniger, weil Gründlich selbst keine Gebäudereinigungsleistungen
+  erbringt. Dazu die **Anzahlungsbesteuerung über drei Voranmeldungszeiträume** (Vereinnahmung,
+  Restzahlung, Leistungszeitpunkt) und **drei ineinandergreifende Berichtigungen nach § 15a
+  UStG**, die bis 2031 laufen: der Pkw (Anschaffung, Nutzungsänderung, Veräußerung – 410,40 €,
+  1.846,80 € und 153,90 €) und die nachträgliche Lackierung als eigenes Berichtigungsobjekt
+  (91,20 € und 7,60 €, letzteres an § 44 Abs. 1 UStDV scheiternd). Das Motorrad ist der
+  **vierte Fahrzeugfall der Reihe**: § 1b UStG beim Erwerb (2.850 € Erwerbsteuer, Vorsteuer
+  nach § 15 Abs. 4a UStG auf 1.900 € begrenzt) und § 2a UStG beim Verkauf – noch **„neu“**,
+  weil zwischen Erstinbetriebnahme und Lieferung keine sechs Monate liegen. Schließlich zwei
+  Geschenke mit **gegenläufiger Vorsteuerfolge**: zwanzig Werkzeugkoffer zu je 60 € bleiben
+  abziehbar (228 €) und lösen eine Wertabgabe aus, das einzelne teurere Geschenk sperrt den
+  Abzug nach § 15 Abs. 1a UStG und bleibt deshalb ohne Wertabgabe.
   Prüfung: `npm run check:k1-ust-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
