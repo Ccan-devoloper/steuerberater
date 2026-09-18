@@ -1515,6 +1515,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Kontobewegung die Ablenkung. Damit ist die AO-Datei des Drive-Ordners vollständig
   ausgewertet.
   Prüfung: `npm run check:k1-ao-originalklausuren`
+- **USt-Originalklausuren** (Klausur 1, Reiter Umsatzsteuer →
+  „Originalklausuren (Prüfung)"): die Original-Prüfungsklausuren des Umsatzsteuerteils mit
+  den Lösungen des Lehrgangs („Umsatzsteuer Original Prüfungsklausuren 2011 – 2015 mit
+  Lösungen", Rechtsstand 2026, April 2026) **im Wortlaut**. Anders als die Klausuren des
+  Verfahrensrechts sind diese ausdrücklich **auf den Rechtsstand 2026 fortgeschrieben** –
+  Besteuerungszeitraum ist das Jahr 2026, die Jahreszahl im Titel bezeichnet nur den
+  Prüfungsjahrgang. Eingepflegt ist die Klausur **„Trachten Ferstl" (Prüfung 2011)**, deren
+  halbe Lösung an einer **Organschaft auf Zeit** hängt: Sie entsteht mit der Einbringung des
+  Einzelunternehmens zum 1.1.2026 und endet am 1.8.2026, weil mit der Übertragung von 60 %
+  der Anteile die finanzielle und mit dem Rückzug aus der Geschäftsführung die
+  organisatorische Eingliederung entfallen. Daran hängen drei Ergebnisse gleichzeitig: Die
+  Miete für EG und 1. OG ist bis Juli nicht steuerbarer Innenumsatz und erst ab August
+  steuerpflichtig; die ausgewiesene Steuer löst dabei **kein** § 14c UStG aus, weil ein
+  innerbetrieblicher Buchungsbeleg keine Rechnung ist; und der Vorsteuerabzug aus der
+  Notarrechnung der GmbH steht dem Organträger zu. Dazu ein vierstöckiges Gebäude mit drei
+  Vermietungsarten und einer **Vorsteuerberichtigung nach Flächenschlüssel** (75 % gegen
+  60,42 %, Berichtigungsbetrag 27,70 €), die Firmenwagenüberlassung als tauschähnlicher
+  Umsatz auf Basis der Gesamtausgaben (6.300 € × 32 % = 2.016 €), zwei
+  Preisausschreiben-Gewinne mit **entgegengesetztem Ergebnis** – die Lederhose steuerbar über
+  den Auffangtatbestand des § 3 Abs. 1b Satz 1 Nr. 3 UStG und ohne Ausfuhrbefreiung (§ 6
+  Abs. 5 UStG), das Gourmet-Menü mangels vergleichbaren Auffangtatbestands bei sonstigen
+  Leistungen gar nicht –, eine Segelyacht, die als **neues Fahrzeug beide Richtungen
+  durchläuft** (Erwerb nach § 1b UStG ohne Vorsteuerabzug, Verkauf nach § 2a UStG steuerfrei
+  an eine Privatperson, nachträglicher Vorsteuerabzug nach § 15 Abs. 4a UStG auf 9.500 €
+  begrenzt), und ein Reihengeschäft Innsbruck–Amsterdam, bei dem Deutschland physisch nie
+  berührt wird und der Erwerb dennoch über § 3d Satz 2 UStG im Inland steuerbar ist – mit
+  323 € Steuer ohne Vorsteuerabzug. Jede Zahl ist unabhängig nachgerechnet. Die
+  Restaurantrechnung über „zutreffend 95,40 € USt" erklärt die Quelle nicht; die
+  Rekonstruktion als Mischung aus 630 € zu 7 % und 270 € zu 19 % ist im Datensatz als
+  **eigene Ableitung** gekennzeichnet.
+  Prüfung: `npm run check:k1-ust-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
   1.017 Abschnitten und 30 Tabellen: die Einführung in die Einkommensteuer (persönliche

@@ -24,6 +24,7 @@ import { K1Aufgabenblock, K1Quellskizze } from "./K1FallExtras";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
+import { ustOriginalklausuren, ustOriginalklausurenQuelle } from "../data/k1-ust-originalklausuren.js";
 import Klausurmodus, { IconKlausur } from "./Klausurmodus";
 import {
   IconCockpit, IconModule, IconFaelle, IconSchema, IconHaken, IconTraining,
@@ -43,6 +44,7 @@ const ansichten = [
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
   { id: "uebungsklausur", label: "Übungsklausur (USt)", Icon: IconTraining },
+  { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconKlausur },
   { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "schema", label: "Prüfschema", Icon: IconSchema },
   { id: "training", label: "Training", Icon: IconTraining },
@@ -600,6 +602,22 @@ export default function K1Campus({ onKlausurwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Sachverhalte"
             einheitEinzahl="Sachverhalt"
+          />
+        )}
+        {ansicht === "originalklausuren" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 1 · Umsatzsteuer · Originalklausuren"
+            titel="Originalklausuren der Steuerberaterprüfung (USt)"
+            lead="Die Original-Prüfungsklausuren des Umsatzsteuerteils der Steuerberaterprüfung mit den Lösungen des Lehrgangs („Umsatzsteuer Original Prüfungsklausuren 2011 – 2015 mit Lösungen“, Rechtsstand 2026). Anders als die Klausuren des Verfahrensrechts sind diese ausdrücklich auf den Rechtsstand 2026 fortgeschrieben – Besteuerungszeitraum ist das Jahr 2026, die Jahreszahl im Titel bezeichnet den Prüfungsjahrgang. Eingepflegt ist bisher die Klausur „Trachten Ferstl“ (Prüfung 2011), deren halbe Lösung an einer Organschaft auf Zeit hängt: Sie entsteht mit der Einbringung des Einzelunternehmens zum 1.1.2026 und endet sieben Monate später mit der Anteilsübertragung – bis dahin sind Miete und Vorsteuerabzug dem Organträger zuzuordnen, und die in den Innenumsätzen ausgewiesene Steuer löst kein § 14c UStG aus. Dazu ein vierstöckiges Gebäude mit drei verschiedenen Vermietungsarten und einer Vorsteuerberichtigung nach Flächenschlüssel (75 % gegen 60,42 %, Berichtigungsbetrag 27,70 €), die Firmenwagenüberlassung als tauschähnlicher Umsatz auf Basis der Gesamtausgaben, zwei Preisausschreiben-Gewinne mit entgegengesetztem Ergebnis – die Lederhose steuerbar über § 3 Abs. 1b UStG, das Gourmet-Menü mangels Auffangtatbestand nicht –, eine Segelyacht, die als neues Fahrzeug beide Richtungen durchläuft (§ 1b und § 2a UStG, Vorsteuerabzug nach § 15 Abs. 4a UStG auf 9.500 € begrenzt), und ein Reihengeschäft Innsbruck–Amsterdam mit doppeltem Erwerbsort nach § 3d Satz 2 UStG. Jede Zahl ist unabhängig nachgerechnet."
+            quelle={ustOriginalklausurenQuelle}
+            hausaufgaben={ustOriginalklausuren}
+            gruppeVon={(eintrag) => eintrag.block}
+            gruppeLabel={(eintrag) => eintrag.blockLabel}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · ${eintrag.rechtsstand}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Originalklausuren"
+            einheitEinzahl="Originalklausur"
           />
         )}
         {ansicht === "schema" && <UstPruefschema />}

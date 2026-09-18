@@ -6730,3 +6730,124 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „Bertis Golf-Shop“. Die Nummerierung des Sachverhalts (Punkte 1 bis 5) und die der Lösung
   (Tz. 1 bis 4) stimmen nicht überein, weil die Lösung den Hinweis auf den
   Brutto-für-netto-Effekt nicht als eigenen Punkt führt.
+
+## Originalklausuren der Steuerberaterprüfung – Umsatzsteuer, Klausur 2011 (Trachten Ferstl)
+
+- Quelle: Drive-Ordner „Originalklausuren“, Datei „2026) (9).pdf“
+  (`1lIwxxyUdq_FVIqKDhGk1LHPPJm0O8FNo`, 1,4 MB). Der abgeschnittene Dateiname verbirgt die
+  Unterlage „Umsatzsteuer Original Prüfungsklausuren 2011 – 2015 mit Lösungen“, Rechtsstand
+  2026, April 2026. Der Connector gibt die Datei vollständig aus (159.630 Zeichen). Sie
+  enthält **fünf Klausuren des Teils II Umsatzsteuer**: 2011 (Trachten Ferstl), 2012
+  (Eheleute Taff), 2013 (Terra GmbH), 2014 (Anton Asam) und 2015 (Georg Gründlich), jeweils
+  mit vollständiger Lösung.
+- Einpflege dieses Durchgangs: die Klausur **2011** im neuen Datensatz
+  `src/data/k1-ust-originalklausuren.js`, neuer Campus-Reiter „Originalklausuren (Prüfung)“
+  im USt-Campus, neues Prüfskript `tools/pruefen-k1-ust-originalklausuren.mjs`, neues
+  npm-Skript `npm run check:k1-ust-originalklausuren`. Der Datensatz umfasst
+  1 Originalklausur, 78 Blöcke und 4 Tabellen.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage
+  nicht aus.
+
+  **Wichtiger Unterschied zu den AO-Originalklausuren: Diese Klausuren sind fortgeschrieben.**
+  Sie sind ausdrücklich „aktualisiert auf den Rechtsstand 2026“, Besteuerungszeitraum ist das
+  Jahr 2026, und die Lösung nennt sogar eine erst ab 2026 geltende Änderung
+  (§ 15 Abs. 4 „Sätze 1-3 (ab 2026: + S. 4)“). Die AO-Klausuren derselben Ordnerfamilie
+  spielen dagegen im Jahr ihres Prüfungsjahrgangs und geben geänderte Vorschriften als Anlage
+  mit. Beide Zeitlogiken stehen jetzt im Campus nebeneinander und sind im Kopfkommentar
+  beider Datensätze und in beiden Reiter-Leads ausdrücklich erklärt.
+
+  **Der Angelpunkt der Klausur ist eine Organschaft auf Zeit.** Sie beginnt mit der
+  Einbringung des Einzelunternehmens am 1.1.2026 und endet am 1.8.2026, weil mit der
+  Übertragung von 60 % der Anteile die finanzielle und mit dem Rückzug aus der
+  Geschäftsführung die organisatorische Eingliederung entfallen. Daran hängen drei Ergebnisse
+  gleichzeitig: Die Miete für Erdgeschoss und 1. Obergeschoss ist bis Juli nicht steuerbarer
+  Innenumsatz und erst ab August steuerpflichtig; die in dieser Zeit ausgewiesene
+  Umsatzsteuer löst **kein** § 14c Abs. 1 UStG aus, weil ein innerbetrieblicher
+  Buchungsbeleg keine Rechnung ist (Abschn. 2.7 Abs. 1 UStAE); und der Vorsteuerabzug aus der
+  Notarrechnung der GmbH steht dem Organträger zu, nicht der GmbH. Wer die Organschaft
+  übersieht, rechnet sieben Monate lang falsch.
+
+  **Die beiden Notarrechnungen führen zum entgegengesetzten Ergebnis** – das ist kein Zufall,
+  sondern gebaut. Die Gründungsrechnung (380 €) ist voll abziehbar, weil sie mit den
+  steuerpflichtigen Umsätzen des Trachtengeschäfts zusammenhängt. Die Rechnung über die
+  Anteilsübertragung (190 €) ist es nicht, weil die Übertragung als gleichgestellte sonstige
+  Leistung nach § 3 Abs. 9a Nr. 2 UStG steuerbar, aber nach § 4 Nr. 8 Buchst. f UStG
+  steuerfrei ist. Voraussetzung dafür ist, dass die Anteile überhaupt zum Unternehmensvermögen
+  gehören – sie tun es, weil sie der Förderung des Unternehmens dienen (Abschn. 2.3 Abs. 3
+  Satz 5 Nr. 2 UStAE). Dass Anteile kein Gegenstand sind, entscheidet außerdem darüber, dass
+  nur eine sonstige Leistung und nicht eine Lieferung gleichgestellt werden kann.
+
+  **Die Vorsteuerberichtigung ist unabhängig nachgerechnet und geht auf.** Das Gebäude hat
+  4 × 200 qm = 800 qm. 2025 sind EG, 1. OG und 2. OG (600 qm) vorsteuerabzugsberechtigend
+  genutzt = 75 %. Ab Juni 2026 fällt das 2. OG weg, es bleiben 400 qm = 50 %. Die Verwendung
+  2026 beträgt (5/12 × 75 %) + (7/12 × 50 %) = 31,25 % + 29,17 % = **60,42 %**; die Änderung
+  der Verhältnisse 14,58 %. Bei einem Berichtigungszeitraum von zehn Jahren ergibt
+  190 € × 14,58 % = **27,70 €**, nach § 44 Abs. 3 Satz 1 UStDV in der Jahreserklärung 2026 zu
+  zahlen. Weder § 44 Abs. 1 UStDV (1.900 € > 1.000 €) noch § 44 Abs. 2 Satz 1 UStDV
+  (14,58 % ≥ 10 %) greifen.
+
+  **Die zu wenig überwiesenen 1.140 € sind eine Falle.** Ferstl zahlt dem Maler nur 11.400 €
+  statt 11.900 €. Das ist eine vertraglich vereinbarte Vertragsstrafe mit
+  Schadensersatzcharakter und ändert weder die Umsatzsteuer noch den Vorsteuerabzug – anders
+  als eine Entgeltminderung nach § 17 UStG, an die man zuerst denkt.
+
+  **Die Firmenwagenüberlassung wird zweistufig geprüft.** Auf der ersten Stufe vermietet
+  Franz Ferstl den Pkw gegen Sonderentgelt an die GmbH – eine steuerpflichtige sonstige
+  Leistung am Sitz des Leistungsempfängers (§ 3a Abs. 2 UStG), 190 € monatlich. Auf der
+  zweiten Stufe überlässt die GmbH ihn der Geschäftsführerin im Rahmen eines tauschähnlichen
+  Umsatzes (§ 3 Abs. 12 Satz 2 UStG) – Leistungsort ist ihr Wohnsitz in Prien, weil eine
+  langfristige Vermietung eines Beförderungsmittels an einen Nichtunternehmer vorliegt
+  (§ 3a Abs. 3 Nr. 2 Satz 3 UStG). Bemessungsgrundlage sind die Gesamtausgaben einschließlich
+  der nicht vorsteuerbelasteten: 3.000 + 1.500 + 1.000 + 800 = 6.300 €, davon der Privatanteil
+  von 32 % (2.200 km Wohnung–Tätigkeitsstätte bei 55 Tagen × 40 km plus 1.000 km sonstige
+  Privatfahrten von 10.000 km) = 2.016 €, Umsatzsteuer 383,04 €, verteilt auf drei Monate
+  127,68 €. Alle Zwischenschritte sind nachgerechnet.
+
+  **Die zwei Preise des Preisausschreibens sind ein bewusst konstruiertes Gegensatzpaar.** Die
+  Lederhose ist eine **Lieferung**, und für Lieferungen gibt es mit § 3 Abs. 1b Satz 1 Nr. 3
+  UStG einen Auffangtatbestand für Zuwendungen aus unternehmerischen Gründen; sie ist deshalb
+  steuerbar, die Ausfuhrbefreiung greift wegen § 6 Abs. 5 UStG gerade nicht, und
+  Bemessungsgrundlage sind die Selbstkosten von 1.660 € (600 € Material + 1.000 € Lohn + 60 €
+  Versand), also 315,40 € Umsatzsteuer. Das Gourmet-Menü ist eine **sonstige Leistung**, und
+  dort fehlt ein vergleichbarer Auffangtatbestand: § 3 Abs. 9a Nr. 1 und Nr. 2 UStG erfassen
+  nur Entnahmen für nichtunternehmerische Zwecke. Der Vorsteuerabzug bleibt in beiden Fällen
+  erhalten – aber nur der erste Preis wird besteuert.
+
+  **Die Segelyacht ist das Musterbeispiel für das neue Fahrzeug, weil dieselbe Yacht beide
+  Richtungen durchläuft.** Beim Erwerb wird die Privatperson nach § 1b UStG zum
+  Erwerbsbesteuerer (9 m > 7,5 m, § 1b Abs. 2 Satz 1 Nr. 2 UStG) – 11.400 € Steuer, kein
+  Vorsteuerabzug. Beim Verkauf wird dieselbe Privatperson nach § 2a UStG für diesen einen
+  Umsatz zum Unternehmer; die innergemeinschaftliche Lieferung ist steuerfrei, obwohl der
+  Abnehmer Privatperson ist und keine USt-IdNr. verwendet – beides ausdrücklich zugelassen,
+  weil es um ein neues Fahrzeug geht (§ 6a Abs. 1 Satz 1 Nr. 2 Buchst. c und Nr. 4 UStG). Erst
+  dadurch entsteht ein nachträglicher Vorsteuerabzug, den § 15 Abs. 4a UStG auf die Steuer
+  begrenzt, die bei einer steuerpflichtigen Lieferung angefallen wäre: 50.000 € × 19 % =
+  **9.500 €** statt 11.400 €. Der Verlust von 10.000 € beim Weiterverkauf schlägt also
+  unmittelbar auf den Vorsteuerabzug durch.
+
+  **Das Reihengeschäft berührt Deutschland physisch nie.** Die Ware geht von Innsbruck nach
+  Amsterdam. Weil der erste Lieferer transportiert, ist die bewegte Lieferung die von
+  Achleitner an die GmbH (§ 3 Abs. 6a Satz 2 UStG); die Lieferung der GmbH an die van Bommels
+  ruht am Ende der Beförderung, also in den Niederlanden, und ist im Inland nicht steuerbar.
+  Deshalb bleibt auch die Anzahlung von 700 € unversteuert (§ 13 Abs. 1 Nr. 1 Buchst. a Satz 4
+  UStG). Der innergemeinschaftliche Erwerb der GmbH findet eigentlich in den Niederlanden
+  statt; weil sie aber ihre deutsche USt-IdNr. verwendet, gilt er nach § 3d Satz 2 UStG
+  zusätzlich als im Inland bewirkt – 1.700 € × 19 % = **323 €** Steuer **ohne** Vorsteuerabzug.
+  Ein Dreiecksgeschäft nach § 25b UStG scheitert daran, dass die Endabnehmer Privatpersonen
+  sind.
+
+  **Eine bewusst zu niedrig ausgewiesene Steuer:** Die Materialrechnung über 600 € weist 76 €
+  statt 114 € Umsatzsteuer aus. Die Quelle greift das auf – abgezogen werden kann nur der
+  ausgewiesene Betrag. Wer den Betrag stillschweigend auf 19 % korrigiert, rechnet falsch.
+
+  **Eine Zahl, die die Quelle nicht erklärt – eigene Ableitung:** Die Restaurantrechnung über
+  900 € weist „zutreffend 95,40 € USt“ aus. Rechnerisch lässt sich das nur als Mischung
+  zweier Steuersätze auflösen: 630 € zu 7 % (44,10 €) und 270 € zu 19 % (51,30 €) ergeben
+  zusammen 95,40 €. Die Quelle nennt die Aufteilung nicht und braucht sie auch nicht, weil der
+  volle ausgewiesene Betrag als Vorsteuer abziehbar ist; die Rekonstruktion ist im Datensatz
+  ausdrücklich als eigene gekennzeichnet.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „§§ 14. 14a
+  UStG“ mit Punkt statt Komma; „Chikago“ statt Chicago; „Theresa Ferstl“ neben „Therese
+  Ferstl“; „Riva de Garda“ statt Riva del Garda; „Da der Erwerb ist somit auch in Deutschland
+  steuerbar“; „um ihrer selbst Willen“; und „2. Preis Gourmet-Menue“.

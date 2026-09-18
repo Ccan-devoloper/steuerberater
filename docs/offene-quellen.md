@@ -261,7 +261,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   `src/data/k1-ao-originalklausuren.js`, dazu die Klausuren **2014** und **2015**. **Damit ist
   die AO-Datei vollständig ausgewertet.** „2026) (9).pdf“
   (`1lIwxxyUdq_FVIqKDhGk1LHPPJm0O8FNo`, 1,4 MB) ist die **Umsatzsteuer** („Original
-  Prüfungsklausuren 2011 – 2015 mit Lösungen“, Rechtsstand 2026, April 2026) – noch offen.
+  Prüfungsklausuren 2011 – 2015 mit Lösungen“, Rechtsstand 2026, April 2026) mit fünf
+  Klausuren des Teils II Umsatzsteuer (2011 Trachten Ferstl, 2012 Eheleute Taff, 2013 Terra
+  GmbH, 2014 Anton Asam, 2015 Georg Gründlich); **begonnen** – eingepflegt ist die Klausur
+  **2011** im neuen Reiter „Originalklausuren (Prüfung)“ des USt-Campus,
+  `src/data/k1-ust-originalklausuren.js`; offen sind die Klausuren 2012 bis 2015.
   „2026) (10).pdf“ (`1OIu1EKJ2j5uSv3egnNYjfCqKqDTWiw2h`, 0,5 MB) und
   „Pruefungsklausur Steuerberater 2021-2022-0226.pdf“ (`1fD7j6QKx7MX2zt9gdlKZW7MFQe1UYtC3`,
   0,7 MB) sind die **Prüfungsaufgaben Buchführung und Bilanzierung** der
