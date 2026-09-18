@@ -483,6 +483,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   wirkt (Festsetzungsfrist bis Ende Kj. 07) und gegenüber Y nicht mehr (Frist bereits Ende
   Kj. 06 abgelaufen) – einschließlich der zweijährigen Ablaufhemmung des § 171 Abs. 10
   Satz 1 AO bis zum 14.12.09 und der Heilung eines fehlenden Hinweises nach § 126 AO.
+  Der **Abschnitt 3** behandelt den Einspruch in der Fallbearbeitung: die vier Gründe, aus
+  denen er den größeren Rechtsschutz bietet, Einstieg und Aufbau der Falllösung mit
+  Obersatz, die Auslegung unklarer Erklärungen nach § 133 BGB (der Antrag auf Änderung, der
+  als Einspruch zu lesen ist), die Vollüberprüfung und Verböserungsmöglichkeit in der
+  Begründetheit, die sachliche Anfechtungsbeschränkung des § 351 Abs. 1 AO mit drei
+  Grundregeln und einem zweiteiligen Rechenbeispiel – einschließlich der Abgrenzung, wann
+  mit § 351 Abs. 1 AO und wann mit § 177 AO zu begründen ist – sowie die Bindung an
+  Grundlagenbescheide nach § 351 Abs. 2 AO mit dem Fall des Arztes Dr. S, dessen Einspruch
+  gegen den Folgebescheid zugleich als Einspruch gegen den Feststellungsbescheid auszulegen
+  ist.
   Die Quelle stellt ausdrücklich klar, dass Steuererhebungsverfahren, FGO-Verfahren,
   Steuerstrafrecht und Haftungsrecht nicht enthalten, aber gleichwohl prüfungsrelevant
   sind. Der Datensatz tritt neben die bereits vorhandene verdichtete Overlay-Fassung

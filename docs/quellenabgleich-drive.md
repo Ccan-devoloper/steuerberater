@@ -3295,3 +3295,45 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Abs. 10 Satz 1 AO rechnet ab der Bekanntgabe des Grundlagenbescheides: 11.12.07 zuzüglich
   der im Fall maßgebenden drei Tage ergibt den 14.12.07 und damit das Fristende am
   **14.12.09**, so dass die Änderung im April 08 möglich ist.
+
+## AO Short-Skript (Jacobs) – wortlautgetreue Erfassung (Teil 4)
+
+- Quelle: dieselbe Datei wie zuvor (Drive-ID `1fuGSbReWCvFo0ClbWr8G7WaRfYeiRySC`),
+  Abschnitt 3.
+- Einpflege dieses Durchgangs: zwei Kapitel – der Einspruch in der Fallbearbeitung
+  (Vorrang, Aufbau, Zulässigkeit mit Auslegungsbeispiel, Begründetheit) sowie die Einsprüche
+  gegen Änderungs- und gegen Folgebescheide nach § 351 Abs. 1 und 2 AO. **Der Abschnitt 3
+  ist damit vollständig.** Das Short-Skript umfasst jetzt 10 Kapitel, 302 Blöcke und
+  4 Tabellen; Prüfung `npm run check:k1-ao-short-skript-jacobs`.
+- Noch nicht eingepflegt: der Abschnitt 4 des Teils I sowie der gesamte Teil II.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  Stellen, an denen die Quelle nicht aufgeht oder verschrieben ist – wortlautgetreu
+  übernommen und mit „(so in der Quelle)“ gekennzeichnet:
+
+  - **Kapitel 10, Abwandlung des § 351-Beispiels – die Zahlen gehen nicht auf.** Aus der
+    bestandskräftigen Festsetzung von 10.000 € ergibt sich mit einer Erhöhung um 2.300 €
+    (§ 173 Abs. 1 Nr. 1 AO) und einer Minderung um 300 € (§ 175 Abs. 1 Satz 1 Nr. 1 AO) ein
+    Änderungsbescheid über **12.000 €** – die Aufgabenstellung nennt dagegen **12.600 €**.
+    Das Lösungsergebnis von 10.100 € entspricht genau 12.600 ./. 2.500 €. Entweder ist der
+    Änderungsbescheid mit 12.000 € anzusetzen (dann wären 9.500 € festzusetzen) oder die
+    Erhöhung beträgt 2.900 € statt 2.300 €. Beide Angaben sind wortlautgetreu übernommen und
+    im Datensatz gegenübergestellt.
+  - **Kapitel 10, Fall Dr. S – Fundstelle und Datum.** Der gesonderte Feststellungsbescheid
+    für einen Einzelunternehmer mit auswärtiger Praxis wird auf „§ 180 Abs. 1 Satz 1
+    **Nr. 2a** AO“ gestützt; einschlägig ist die gesonderte Feststellung nach § 180 Abs. 1
+    Satz 1 Nr. 2 Buchst. **b** AO, die der Sachverhalt selbst als „gesonderten
+    Feststellungsbescheid“ bezeichnet. Ferner heißt es, die Einspruchsfrist sei „am
+    **10. 12. 02** noch nicht abgelaufen“ – dieses Datum kommt im Sachverhalt nicht vor und
+    läge nach dem Fristende; entscheidend ist der Eingang am 30.11.02.
+  - Kapitel 9 und 10: die OCR-Verschreibungen „Günsfigste“, „unrichfige“ und
+    „Berichfigungsrahmens“ (zweimal); „die die **Spfl.** gegenüber dem FA abgegeben haben“;
+    „wenn Sie die **Vorschriftkurz** erwähnen“; „auf den Bp-Bericht verwiesen **werden**“;
+    „hat Dr. Schiwago zwei zulässige Einsprüche **einlegt**“.
+
+  Nachgerechnet und zutreffend: Im Grundfall des § 351-Beispiels ergibt 10.000 € zuzüglich
+  2.000 € den Änderungsbescheid über **12.000 €**; die Betriebsausgaben sind nur im Umfang
+  dieser Erhöhung saldierbar, so dass **10.000 €** festzusetzen sind – der Einspruch hat in
+  Höhe von 2.000 € Erfolg, in Höhe der restlichen 500 € nicht. Im Fall Dr. S läuft die
+  Monatsfrist ab der Bekanntgabe am 01.11.02 bis zum **01.12.02**; das am 30.11.02 beim FA
+  A-Stadt eingegangene Schreiben wahrt sie über § 357 Abs. 2 Satz 2 AO.
