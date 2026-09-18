@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 31 Kapitel mit 377 Abschnitten und 25
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 32 Kapitel mit 404 Abschnitten und 26
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2585,7 +2585,24 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sie anwendbar bleibt, wenn die Beteiligung längst verkauft ist; auf die Dauer der qualifizierten
   Beteiligung kommt es nicht an. Einzige Schranke ist, dass der Darlehensgeber im Zeitpunkt der
   Hingabe überhaupt beteiligt war. Das ist wiederum das Gegenstück zur Stichtagsregel des
-  Absatzes 4, die genau **einen** Tag prüft.
+  Absatzes 4, die genau **einen** Tag prüft. Eine schon **vor** der Darlehenshingabe gesunkene
+  Quote zählt dagegen nach der ausdrücklich umstrittenen Auffassung der Quelle nicht mit – anders
+  nur bei gezielter Reduzierung im zeitlichen Zusammenhang mit der Darlehensvergabe.
+  Die **nahe stehende Person als Darlehensgeber** erweitert das Abzugsverbot über
+  § 8b Abs. 3 Satz 5 KStG auf Darlehen, bei denen der Geber selbst gar nicht oder nur gering
+  beteiligt ist: die Mutter an die Enkelin ebenso wie die Schwester an die Schwester. Maßgebend
+  ist § 1 Abs. 2 Nr. 1 bis 3 AStG, und dort sind stets zwei Rollen zu besetzen – die „Person“ ist
+  immer der Darlehensgeber, der „Steuerpflichtige“ immer derjenige, der zu mehr als 25 % an der
+  Darlehensnehmerin beteiligt ist. Die beiden Quoten arbeiten dabei gegeneinander: Für das
+  Nahestehen genügen **mindestens** 25 %, für die qualifizierte Beteiligung sind **mehr als** 25 %
+  nötig. Im Beispiel reicht die mittelbare Beteiligung von 25 % × 40 % = 10 % für Satz 4 nicht aus,
+  das Nahestehen zur zwischengeschalteten Gesellschaft aber gerade eben. Über allem steht der
+  Vorrang der **verdeckten Gewinnausschüttung**: § 8 Abs. 3 Satz 2 KStG geht § 8b Abs. 3 KStG
+  generell vor, weil er auch beim Anteilseigner und beim Darlehensnehmer Folgen auslöst – weshalb
+  der BFH 2018 offenlassen konnte, ob auch up-stream-Darlehen unter Satz 5 fallen. Ob der
+  qualifiziert beteiligte Anteilseigner auch eine natürliche Person oder Personengesellschaft sein
+  kann, bejaht die Finanzverwaltung in bundeseinheitlicher Abstimmung; die Frage ist beim BFH unter
+  I R 11/24 anhängig.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

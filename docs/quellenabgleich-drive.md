@@ -10620,6 +10620,67 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil II (Hamacher), Abschnitt 4.2.3 – nahe stehende Person als Darlehensgeber
+
+Quelle: dieselbe Datei, Seiten 48 bis 50; übernommen als Kapitel 32, dazu der Schluss des
+Abschnitts 4.2.2.2 nachgetragen in Kapitel 31. Prüfung: `npm run check:k2-kst-teil2`
+(32 Kapitel, 404 Blöcke, 26 Tabellen).
+
+**Der Kern dieses Abschnitts** ist eine Rollenverteilung, die in der Klausur leicht
+durcheinandergerät. § 8b Abs. 3 Satz 5 KStG erweitert das Abzugsverbot auf Darlehen, bei denen
+der Geber selbst gar nicht oder nur gering beteiligt ist, sofern er dem qualifiziert beteiligten
+Anteilseigner **nahe steht**. Dafür verweist die Vorschrift auf § 1 Abs. 2 Nr. 1 bis 3 AStG, und
+dort sind stets zwei Rollen zu besetzen: Die **„Person“** ist immer der Darlehensgeber, der
+**„Steuerpflichtige“** immer derjenige, der zu mehr als 25 % an der Darlehensnehmerin beteiligt
+ist. Erst danach lässt sich fragen, welche Quote zwischen beiden bestehen muss. Der Datensatz
+ordnet die drei Konstellationen der Quelle – Mutter an Enkelin, Schwester an Schwester, dritte
+Person an beiden – in einer Tabelle nach genau diesem Schema.
+
+**Zwei Quoten, die gegeneinander arbeiten** und die die Quelle mit einem eigenen Ausrufezeichen
+markiert („mindestens (!) 25 %“): Für das **Nahestehen** genügen **mindestens** 25 %, die Grenze
+ist also eingeschlossen; für die **qualifizierte Beteiligung** des Anteilseigners sind dagegen
+**mehr als** 25 % nötig. Im ersten Beispiel führt genau das zum Ergebnis: Die mittelbare
+Beteiligung der A-GmbH an der C-GmbH beträgt 25 % × 40 % = **10 %** und reicht für Satz 4 nicht;
+für das Nahestehen zur B-GmbH genügen ihre 25 % aber gerade. Im Beispiel zu § 1 Abs. 2 Nr. 3 AStG
+wird überhaupt keine durchgerechnete Quote gebildet – zwischen der darlehensgebenden C-GmbH und
+der X-GmbH besteht gar keine Beteiligungskette; getragen wird das Ergebnis allein von den jeweils
+25 % der A-GmbH an beiden Gesellschaften. Alle Zahlen der Quelle gehen auf.
+
+**Der Vorrang der verdeckten Gewinnausschüttung** zieht sich durch beide Unterabschnitte: § 8
+Abs. 3 Satz 2 KStG geht § 8b Abs. 3 KStG generell vor, weil er auch beim Anteilseigner und beim
+Darlehensnehmer Folgen auslöst, während § 8b Abs. 3 Satz 4 KStG allein die Ebene des
+Darlehensgebers betrifft. Der Datensatz hält als eigene Ergänzung fest, warum das kein bloß
+dogmatischer Unterschied ist – und dass der BFH gerade deshalb 2018 offenlassen konnte, ob auch
+up-stream-Darlehen unter Satz 5 fallen.
+
+**Nachgetragener Schluss des Abschnitts 4.2.2.2:** Ob die Vorschrift auch dann greift, wenn der
+Gesellschafter seine Beteiligung **vor** der Darlehenshingabe unter die Grenze gesenkt hat, ist
+umstritten. Die Quelle verneint es („m.E.“), weil die Rechtsprechung auf die Darlehens**laufzeit**
+abstellt – anders nur bei gezielter Reduzierung im zeitlichen Zusammenhang mit der Darlehensvergabe
+(schädlicher Gesamtplan). Die Übersichtstabelle des Kapitels 31 hat dafür eine vierte Zeile
+bekommen.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- In der Lösung zum Beispiel „beteiligt war“ heißt es „dass im Zeitpunkt der Gewinnminderung
+  **keine Beteiligung** vorgelegen hat“, obwohl die A-GmbH dort noch zu 20 % beteiligt ist;
+  gemeint ist „keine qualifizierte Beteiligung“. Der Datensatz führte die Stelle bisher in der
+  gemeinten Fassung und gibt sie jetzt im Wortlaut der Quelle wieder, mit dem Hinweis daneben.
+- „**besitzt danach nur noch über eine Beteiligung** von 15 %“ – gemischte Konstruktion im
+  Beispiel zur Anteilsreduzierung.
+- „Denn **diese** ist hauptsächlich auf natürliche Personen ausgerichtet“ – das Bezugswort passt
+  nicht zu § 1 Abs. 2 Nr. 4 AStG; gemeint ist der Tatbestand der Nummer 4, wie der Folgesatz
+  („ist dieser Tatbestand somit nicht entscheidungserheblich“) zeigt.
+
+**Zweimal weist die Quelle auf dasselbe anhängige Verfahren hin** (BFH I R 11/24), und beide Male
+geht es um die Frage, ob der qualifiziert beteiligte Anteilseigner, an den das Nahestehen
+anknüpft, auch eine natürliche Person oder eine Personengesellschaft sein kann. Die
+Finanzverwaltung bejaht das in bundeseinheitlicher Abstimmung; der Datensatz vermerkt als eigene
+Ergänzung, dass bis zur Entscheidung des BFH der Verwaltungsauffassung zu folgen ist.
+
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.4; ganz offen sind die
+Skriptteile III bis VII.
+
 ### KSt Teil II (Hamacher), Abschnitte 4.2.2.1 (Fortsetzung) und 4.2.2.2 – Personengesellschaft und Zeitpunkt
 
 Quelle: dieselbe Datei; übernommen als Kapitel 30 und 31. Prüfung:
