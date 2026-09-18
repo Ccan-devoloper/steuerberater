@@ -146,7 +146,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Reinvestitionsklausel** mit ihrer Sechsmonatsfrist und die zeitanteilige **Abschmelzung**
   des Verschonungsabschlags – mit dem vollständig durchgerechneten Fall, in dem Veräußerung
   und Lohnsummenverstoß zusammentreffen und nach R E 13a.19 Abs. 3 ErbStR der höhere
-  Kürzungsbetrag zählt (Bemessungsgrundlage 600.000 € → 2.215.000 €).
+  Kürzungsbetrag zählt (Bemessungsgrundlage 600.000 € → 2.215.000 €). Den Abschluss des
+  Abschnitts bilden die **Tz. 16 bis 18**: der **Vorab-Abschlag** von bis zu 30 % für
+  gesellschaftsvertraglich gebundene Familienunternehmen mit seiner 20-Jahres-Bindung, die
+  Anzeigepflichten und die **Optionsverschonung** – 100 % Steuerbefreiung gegen sieben Jahre
+  Behaltensfrist, 700 % Mindestlohnsumme und eine Verwaltungsvermögensquote von höchstens
+  20 %, ohne Rückfall auf die Regelverschonung, wenn die Grenze verfehlt wird. Damit ist der
+  Abschnitt II – der Verschonungsblock der §§ 13a und 13b ErbStG – vollständig.
   Prüfung: `npm run check:k1-erbst-verschonung`
 - **Bewertungsrecht** (Reiter „Bewertungsrecht (Schäfer)" im Campus Erbschaftsteuer): das
   Unterrichtsmaterial zum Steuerberaterlehrgang von Martin Schäfer **im Wortlaut**, mit den

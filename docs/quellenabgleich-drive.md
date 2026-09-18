@@ -5146,3 +5146,64 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   Schlusspunkt; die Zeilenbezeichnung „Betriebsvermögen (nicht begünstigt) 4.000.000 €“ in
   der Schlusstabelle, obwohl dort der gemeine Wert des Betriebsvermögens insgesamt gemeint
   ist.
+
+## Erbschaftsteuer Teil 2 (Schäfer) – Tz. 16 bis 18: Abschnitt II vollständig
+
+- Quelle: dieselbe Datei (Drive-ID `1TDeGlLDEjaWjMYrxXIz4XsDKldKCwAH6`), Abschnitt II
+  Tz. 16 bis 18, PDF-Seiten 36 bis 41.
+- Einpflege dieses Durchgangs: zwei weitere Kapitel; der Datensatz umfasst jetzt 10 Teile,
+  23 Kapitel, 339 Blöcke und 33 Tabellen; Prüfung `npm run check:k1-erbst-verschonung`.
+  **Damit ist der Abschnitt II – der Verschonungsblock der §§ 13a und 13b ErbStG, die
+  größte bisherige Lücke des ErbSt-Campus – vollständig erfasst.**
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt.
+
+  **Alle Beispiele dieses Durchgangs sind gelöst und nachgerechnet; alle gehen auf.**
+  Familienunternehmen: 10 % von 5.000.000 € = 500.000 €, 85 % von 4.500.000 € =
+  3.825.000 €, Rest 675.000 €; in der Abwandlung 30 % = 1.500.000 €, 85 % von 3.500.000 €
+  = 2.975.000 €, Rest 525.000 €. Optionsverschonung: 3/5 × 85 = 51; bei sieben Jahren
+  erlöschen die Jahre 3 bis 7, also 5/7; 700 % ./. 560 % = 140/700. Verwaltungsvermögens-
+  quote: 300.000 €/2.000.000 € = 15 %, also unter der Grenze von 20 %.
+
+  **Der Preis der Option lässt sich an den Beispielen 1 und 2 der Tz. 18 beziffern.** Im
+  Regelmodell sind nach der Veräußerung im dritten Jahr 51 % nachzuversteuern, zuzüglich
+  der bereits bei Erwerb versteuerten 15 % also insgesamt 66 % des Unternehmenswerts. Im
+  Optionsmodell sind es 5/7, also rund 71,4 %. Die längere Frist trifft am Ende härter,
+  obwohl die Verschonung zunächst höher war – diesen Vergleich zieht die Quelle nicht
+  selbst; er ist im Datensatz als eigene Beobachtung gekennzeichnet.
+
+  Zwei weitere Beobachtungen sind im Datensatz vermerkt:
+
+  - **Die 20-Jahres-Bindung des Vorab-Abschlags ist die längste Frist des ganzen
+    Verschonungsrechts** – viermal so lang wie die Behaltensfrist der Regelverschonung.
+    Zugleich ist der Vorab-Abschlag von den übrigen Verstößen entkoppelt: Ein Lohnsummen-
+    oder Behaltensverstoß lässt ihn unberührt (R E 13a.20 Abs. 7 S. 15 ErbStR), und
+    umgekehrt trifft ein Verstoß gegen die 20-Jahres-Bindung nur ihn.
+  - **Der härteste Satz der Tz. 18 steht unscheinbar in der Mitte:** Wird die
+    Vollverschonung für eine wirtschaftliche Einheit beantragt, die die 20-Prozent-Grenze
+    nicht einhält, gibt es für diese Einheit auch keine Regelverschonung; ein Rückfall
+    findet nicht statt. Zusammen mit der Unwiderruflichkeit des Antrags kann die Option
+    also vollständig verloren gehen. Die Ländererlasse vom 22.12.2023 mildern das, indem
+    jede wirtschaftliche Einheit für sich betrachtet wird.
+
+  Beim Beispiel zur Verwaltungsvermögensquote ist außerdem festgehalten, welche
+  Rechenschritte dort **nicht** vorkommen: weder die quotale Schuldenverrechnung noch die
+  10-Prozent-Quote des unschädlichen Verwaltungsvermögens. Die Quote der Option ist eine
+  eigene, ungekürzte Größe; nur der Sockelbetrag von 15 % ist nach dem Sachverhalt bereits
+  im Überbestand der Finanzmittel enthalten.
+
+  Stellen, an denen die Quelle verschrieben ist – wortlautgetreu übernommen und
+  gekennzeichnet:
+
+  - **Tz. 16.** „vor der Anwendung **des zur Wahl stehenden** Verschonungsregelungen“.
+  - **Tz. 17.** „das **Unterschreiben** der Lohnsummengrenze anzuzeigen“ – gemeint ist das
+    Unterschreiten.
+  - **Tz. 18.** „Grundmodell mit einem Verschonungsabschlag von 85 % (**§ 13b Abs. 1 S. 1
+    ErbStG**)“ – einschlägig ist § 13a Abs. 1 S. 1 ErbStG; „gem. **§ 13 Abs. 10 Nr. 1
+    ErbStG**“ ohne das a; „**R E 13a.1 Abs. 2 S. 3 ErbStG**“ statt ErbStR; „gegen **ein**
+    Verschonungsvoraussetzung“.
+
+  Hinweis zur Verwechslungsgefahr: Die Beispiele 2 und 3 der Tz. 18 tragen dieselben
+  Nummern wie die Beispiele der Tz. 14 und behandeln denselben Sachverhalt (Verkauf im
+  dritten Jahr, 560 % Lohnsumme) – dort jedoch mit einem Wert von 4.000.000 € und **ohne**
+  Lösung, hier mit dem Wert 100 und **mit** Lösung. Der Datensatz weist an beiden Stellen
+  darauf hin.

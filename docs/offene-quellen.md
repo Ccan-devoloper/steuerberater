@@ -197,19 +197,19 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   **begonnen.** Das Skript („Steuerbefreiungen, Verschonungsregelungen, Berechnung der
   Steuer“, 57 Seiten, vom Connector vollständig ausgegeben) steht im neuen Reiter
   „Verschonung & Steuerberechnung (Schäfer)“, `src/data/k1-erbst-verschonung.js`.
-  Eingepflegt sind der Abschnitt I (sachliche Steuerbefreiungen des § 13 ErbStG) und die
-  Tz. 1 bis 4 des Abschnitts II (Überblick, begünstigungsfähiges und begünstigtes Vermögen,
-  90-Prozent-Test sowie der vollständige Verwaltungsvermögenskatalog einschließlich des
-  Finanzmitteltests) sowie die Tz. 5 bis 8 (Altersversorgungsverpflichtungen,
-  Investitionsklausel, Nettowert und unschädliches Verwaltungsvermögen) sowie die Tz. 9 und
-  10 (Einschränkung der Schuldensaldierung und Verbundvermögensaufstellung) sowie die
-  Tz. 11 bis 14 (Regelverschonung, Abzugsbetrag, Weitergabeverpflichtung,
-  Lohnsummenregelung, Behaltensregelung). Offen sind die Tz. 16 bis 18 des Abschnitts II
-  (Familienunternehmen, Anzeigepflicht,
-  Optionsverschonung), die Abschnitte III bis VI (Großerwerbe über 26 Mio. €, § 13d ErbStG,
-  Steuerberechnung mit Steuerklassen, Freibeträgen, Steuersätzen, Tarifbegrenzung und
-  früheren Erwerben, Steuerfestsetzung und Erhebung) sowie die Lösungsdatei
-  `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`.
+  Eingepflegt sind der **Abschnitt I** (sachliche Steuerbefreiungen des § 13 ErbStG) und
+  der **vollständige Abschnitt II** (Tz. 1 bis 18: Überblick über die Verschonung,
+  begünstigungsfähiges und begünstigtes Vermögen, 90-Prozent-Test, vollständiger
+  Verwaltungsvermögenskatalog mit Finanzmitteltest, Altersversorgungsverpflichtungen,
+  Investitionsklausel, Nettowert, unschädliches Verwaltungsvermögen, Einschränkung der
+  Schuldensaldierung, Verbundvermögensaufstellung, Regelverschonung, Abzugsbetrag,
+  Weitergabeverpflichtung, Lohnsummenregelung, Behaltensregelung, Familienunternehmen,
+  Anzeigepflichten und Optionsverschonung). Offen sind die **Abschnitte III bis VI**
+  (Großerwerbe über 26 Mio. € mit § 13c ErbStG und der Verschonungsbedarfsprüfung nach
+  § 28a ErbStG, die Steuerbefreiung für zu Wohnzwecken vermietete Grundstücke nach § 13d
+  ErbStG, die Steuerberechnung mit Steuerklassen, Freibeträgen, Steuersätzen,
+  Tarifbegrenzung und der Berücksichtigung früherer Erwerbe sowie Steuerfestsetzung und
+  Erhebung) und die Lösungsdatei `1LASeajqIfpq5PYMCg1htyXI7voY2EF_4`.
 - **ErbSt-Fallsammlung 4. Termin** (`1HuXWysA6NBRDAltBmHei54XFo3POwOtV`, 2,4 MB, im selben
   Ordner `18BU5Mtf5b0TRVioC1G63ELnXdl2wdYHA`): bei der Sichtung dieses Ordners neu
   entdeckt. Noch nicht bearbeitet.
