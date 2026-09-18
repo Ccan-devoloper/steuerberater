@@ -14,9 +14,10 @@
    Gewinnausschüttung (2.1.1) und das Korrespondenzprinzip (2.1.2) übernommen.
    Damit ist der Abschnitt 2.1 (Gegenstand der Steuerfreistellung) vollständig –
    einschließlich der Mindestbeteiligungsquote und der Kapitalertragsteuer. Dazu
-   die Betriebsausgabenpauschalierung (2.2) und die Tatbestandsvoraussetzungen
-   des gewerbesteuerlichen Schachtelprivilegs (2.3.1.1). Es folgen der Rest des
-   Abschnitts 2.3 und die Kapitel 3 bis 6; der Campus weist den Stand aus.
+   die Betriebsausgabenpauschalierung (2.2) und das gewerbesteuerliche
+   Schachtelprivileg mit Tatbestand, Kürzungsumfang und beteiligungsbezogenen
+   Betriebsausgaben (2.3.1). Es folgen die Abschnitte 2.3.2 bis 2.3.4 und die
+   Kapitel 3 bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -486,6 +487,77 @@ export const kstTeil2 = [
         ["8 % unmittelbar und 7 % mittelbar, Ausschüttung 100.000 €", "100.000 € (Streubesitz, keine Pauschale)", "0 €", "mittelbare Beteiligung zählt nur gewerbesteuerlich"],
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die beiden Fälle der Quelle sind bewusst spiegelbildlich gewählt und zeigen die Abweichung in ihrer schärfsten Form. Im ersten Fall ist die Ausschüttung körperschaftsteuerlich fast vollständig freigestellt und gewerbesteuerlich voll belastet; im zweiten Fall ist es genau umgekehrt. Beide Rechnungen gehen auf: Im ersten Fall neutralisiert die Hinzurechnung nach § 8 Nr. 5 GewStG die Freistellung, wobei die Pauschale gegengerechnet wird, damit sie sich nicht doppelt auswirkt – 5.000 € + 100.000 € ./. 5.000 € = 100.000 €. Im zweiten Fall wird das volle körperschaftsteuerliche Einkommen von 100.000 € nach § 9 Nr. 2a GewStG gekürzt, und es bleibt nichts übrig." },
+    ],
+  },
+  {
+    id: "kst-t2-13",
+    kapitel: "13",
+    abschnittNr: "2.3.1.2",
+    title: "2.3.1.2 Umfang der Kürzung",
+    thema: "Die gewerbesteuerliche Kürzung läuft meist ins Leere, weil die Ausschüttung schon körperschaftsteuerlich freigestellt ist. Praktisch bedeutsam wird sie dort, wo die Ebenen auseinanderfallen – vor allem beim materiellen Korrespondenzprinzip, das § 9 Nr. 2a GewStG nicht kennt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.3.1.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 1 Satz 2 KStG", "§ 8b Abs. 4 KStG",
+      "§ 8b Abs. 5 Satz 1 KStG", "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 7 Satz 1 GewStG", "§ 9 Nr. 2a GewStG", "§ 9 Nr. 2a Satz 4 GewStG",
+      "§ 20 Abs. 1 Nr. 1 und Nr. 2 EStG",
+      "BFH vom 15.09.2004, BStBl. II 2005, 297",
+    ],
+    themen: ["Umfang der Kürzung", "Leerlauf des Schachtelprivilegs", "Materielle Korrespondenz", "Betriebsausgabenpauschalierung im Gewerbeertrag"],
+    bloecke: [
+      { text: "Das Schachtelprivileg umfasst sämtliche Beteiligungserträge i. S. des § 20 Abs. 1 Nr. 1 + Nr. 2 EStG. Weil die Gewinnausschüttung in den Fällen des § 8b Abs. 1 KStG bereits im körperschaftsteuerlichen Einkommen nicht mehr enthalten ist, wirkt sich dieses auch auf die gewerbesteuerliche Ausgangsgröße i. S. des § 7 Satz 1 GewStG aus. Diesbezüglich läuft § 9 Nr. 2a GewStG insoweit ins Leere. Ein gewerbesteuerlicher Abzug nach § 9 Nr. 2a GewStG ist bei einer Anteilseigner-Kapitalgesellschaft in aller Regel insbesondere dann durchzuführen, wenn die Gewinnausschüttung aufgrund des materiellen Korrespondenzprinzips des § 8b Abs. 1 Satz 2 KStG in dem körperschaftsteuerlichen Einkommen enthalten wäre. Denn § 9 Nr. 2a GewStG sieht ausdrücklich keine materielle Korrespondenz vor." },
+      { text: "Die Betriebsausgabenpauschalierung des § 8b Abs. 5 Satz 1 KStG wirkt sich hingegen auch auf den Gewerbeertrag aus, weil diese für Zwecke des § 9 Nr. 2a GewStG nicht als Gewinnausschüttung gilt (§ 9 Nr. 2a Satz 4 GewStG)." },
+      { text: "Merke: Eine Kürzung erfolgt beim Gewerbeertrag in aller Regel nicht, wenn die Gewinnausschüttung bereits nach § 8b Abs. 1 KStG steuerfrei ist. Die Betriebsausgabenpauschalierung stellt hingegen keine Gewinnausschüttung dar und bleibt im Gewerbeertrag enthalten." },
+      { text: "Beispiel: Die A-GmbH ist zum 01.01.2026 mit 15 % an der X-GmbH beteiligt. Die X-GmbH schüttet in 2026 an die A-GmbH brutto 1.000.000 € aus." },
+      { text: "Lösung: Die Gewinnausschüttung ist nach § 8b Abs. 1 KStG i. V. mit § 8b Abs. 4 KStG steuerfrei, führt aber zur Anwendung der Betriebsausgabenpauschalierung i. S. des § 8b Abs. 5 KStG. Somit beläuft sich das körperschaftsteuerliche Einkommen daraus auf 50.000 €." },
+      { text: "Dieses bildet auch die Ausgangsgröße für die Gewerbeertragsermittlung i. S. des § 7 Satz 1 GewStG. Zwar unterliegt die Gewinnausschüttung auch dem gewerbesteuerlichen Schachtelprivileg i. S. des § 9 Nr. 2a GewStG, was aber nicht zu einem Abzug beim Gewerbeertrag führt. Denn die Gewinnausschüttung ist im Gewerbeertrag bereits nicht mehr enthalten. Nicht als Gewinnausschüttung gilt das Ergebnis der Betriebsausgabenpauschalierung, welches nach § 9 Nr. 2a Satz 4 GewStG keiner eigenständigen Kürzung unterliegt. Der Gewerbeertrag beträgt unverändert 50.000 €." },
+      { text: "Beispiel: Die A-GmbH besitzt zum 01.01.2026 einen 50%igen Anteil an der inländischen B-GmbH. Die A-GmbH gibt ihrer Tochtergesellschaft ein Darlehen über 1.000.000 €, wofür sie einen vereinbarten Zins von 30 % erhält, angemessen wären lediglich 10 %. Bei der B-GmbH wurde der verbuchte Zinsaufwand von 300.000 € als Betriebsausgabe abgezogen, ohne dass es zur Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG gekommen ist." },
+      { text: "Lösung: Die A-GmbH erhält aus ihrer Beteiligung an der B-GmbH eine verdeckte Gewinnausschüttung von 200.000 €. Diese wäre dem Grunde nach aufgrund § 8b Abs. 1 Satz 1 KStG steuerfrei, weil es sich um keinen Anwendungsfall der Streubesitzregelung i. S. des § 8b Abs. 4 KStG handelt. Die Steuerfreiheit wird aber durch die materielle Korrespondenzregelung des § 8b Abs. 1 Satz 2 KStG ausgeschlossen, so dass sich ein körperschaftsteuerliches Einkommen von 300.000 € (angemessener Zins von 100.000 € + vGA von 200.000 €). (Der unvollständige Satzschluss steht so in der Quelle; gemeint ist „…ergibt“.)" },
+      { text: "Für Zwecke der Gewerbesteuer greift die materielle Korrespondenz des § 8b Abs. 1 Satz 2 KStG nicht. Daher kommt es aufgrund § 9 Nr. 2a GewStG zur Anwendung des Schachtelprivilegs und damit zum Abzug der verdeckten Gewinnausschüttung von 200.000 €. Der Gewerbeertrag beträgt danach 100.000 €." },
+      { typ: "tabelle", spalten: ["Fall", "Körperschaftsteuerliches Einkommen", "Kürzung nach § 9 Nr. 2a GewStG", "Gewerbeertrag"], zeilen: [
+        ["15 % Beteiligung, Ausschüttung 1.000.000 €", "50.000 € (nur die Pauschale)", "keine – die Ausschüttung ist schon nicht mehr enthalten; die Pauschale gilt nach Satz 4 nicht als Ausschüttung", "50.000 €"],
+        ["50 % Beteiligung, überhöhter Zins, vGA 200.000 € ohne Hinzurechnung bei der Tochter", "300.000 € (Korrespondenz schließt die Freistellung aus)", "200.000 € – § 9 Nr. 2a GewStG kennt keine materielle Korrespondenz", "100.000 €"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie zeigt, wann das gewerbesteuerliche Schachtelprivileg überhaupt etwas bewirkt. Im Regelfall – erste Zeile – läuft es leer, weil die Ausschüttung die Ausgangsgröße des § 7 Satz 1 GewStG gar nicht mehr erreicht; übrig bleibt nur die Pauschale, die § 9 Nr. 2a Satz 4 GewStG ausdrücklich nicht als Ausschüttung behandelt. Praktische Bedeutung gewinnt die Kürzung erst, wenn die beiden Ebenen auseinanderfallen. Der wichtigste Fall ist die materielle Korrespondenz: Sie ist eine rein körperschaftsteuerliche Regelung, die § 9 Nr. 2a GewStG nicht übernimmt – die verdeckte Gewinnausschüttung bleibt also körperschaftsteuerpflichtig und wird gewerbesteuerlich gleichwohl gekürzt. Rechenprobe: Zins 30 % von 1.000.000 € = 300.000 €, angemessen 10 % = 100.000 €, verdeckte Gewinnausschüttung 200.000 €; Einkommen 300.000 €, Gewerbeertrag 300.000 € ./. 200.000 € = 100.000 €." },
+    ],
+  },
+  {
+    id: "kst-t2-14",
+    kapitel: "14",
+    abschnittNr: "2.3.1.3",
+    title: "2.3.1.3 Beteiligungsbezogene Betriebsausgaben",
+    thema: "§ 9 Nr. 2a Satz 3 GewStG mindert den Kürzungsrahmen um die beteiligungsbezogenen Aufwendungen – bei der Kapitalgesellschaft aber nur dort, wo die Ausschüttung körperschaftsteuerpflichtig und zugleich gewerbesteuerfrei ist. Sonst trennt die Pauschalierung den Zusammenhang",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 2.3.1.3 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 1 KStG", "§ 8b Abs. 1 Satz 2 KStG", "§ 8b Abs. 4 KStG",
+      "§ 8b Abs. 4 Satz 7 KStG", "§ 8b Abs. 5 KStG",
+      "§ 7 Satz 1 und Satz 4 GewStG", "§ 8 Nr. 1 GewStG",
+      "§ 9 Nr. 2a GewStG", "§ 9 Nr. 2a Satz 3 GewStG", "§ 9 Nr. 2a Satz 4 GewStG",
+      "§ 3c Abs. 2 EStG",
+    ],
+    themen: ["Kürzungsrahmen", "Beteiligungsbezogene Aufwendungen", "Aufwandsüberhang", "Hinzurechnung nach § 8 Nr. 1 GewStG", "Trennung des Zusammenhangs"],
+    bloecke: [
+      { text: "Stehen mit der Schachteldividende auch tatsächliche beteiligungsbezogene Aufwendungen (z. B. Schuldzinsen) im unmittelbaren Zusammenhang, mindern diese auch die gewerbesteuerliche Ausgangsgröße i. S. des § 7 Satz 1 GewStG. Diese sind gewerbesteuerlich in den Fällen der Anwendung des § 8b Abs. 1 KStG grundsätzlich nur unter den Voraussetzungen des § 8 Nr. 1 GewStG hinzuzurechnen." },
+      { text: "Dem steht nicht Grundaussage des § 9 Nr. 2a Satz 3 GewStG entgegen, wonach eine Verrechnung mit den beteiligungsbezogenen Kosten vorzunehmen ist. Diese Vorschrift soll verhindern, dass es bei einem Überhang der beteiligungsbezogenen Kosten zu einer „negativen“ Kürzung i. S. des § 9 Nr. 2a GewStG kommt, d. h. dadurch soll eine faktische Hinzurechnung – ohne Berücksichtigung der Voraussetzungen des § 8 Nr. 1 GewStG – ausgeschlossen werden. Die Regelung führt schließlich dazu, dass sich der Kürzungsrahmen in Höhe der Aufwendungen bis auf maximal 0 € reduziert, wodurch insoweit auch die Anwendung des § 8 Nr. 1 GewStG ausgeschlossen wird. Nur in den Fällen eines Aufwandsüberhanges unterliegt dieser Überhang der isolierten Hinzurechnung i. S. des § 8 Nr. 1 GewStG. (Das fehlende „die“ vor „Grundaussage“ steht so in der Quelle.)" },
+      { text: "§ 9 Nr. 2a Satz 3 GewStG kann aber nur angewendet werden, wenn die beteiligungsbezogenen Kosten den Gewerbeertrag auch tatsächlich gemindert haben, was bei einer Anteilseigner-Kapitalgesellschaft aufgrund des Vorranges der Betriebsausgabenpauschalierung des § 8b Abs. 5 KStG ausgeschlossen ist. Die Betriebsausgabenpauschalierung trennt nämlich den Zusammenhang zwischen den tatsächlichen beteiligungsbezogenen Betriebsausgaben und der Gewinnausschüttung, weil dem (körperschaftsteuerlichen) Einkommen nur das Ergebnis der Betriebsausgabenpauschalierung hinzugerechnet wird. § 9 Nr. 2a Satz 3 GewStG kann bei einer Anteilseigner-Kapitalgesellschaft daher nur in dem Fall zur Anwendung kommen, wenn die Gewinnausschüttung nicht nach § 8b Abs. 1 KStG steuerfrei ist, für gewerbesteuerliche Zwecke hingegen § 9 Nr. 2a GewStG unterliegt. Dann würden die tatsächlichen Betriebsausgaben auch nur mit der (gewerbesteuerfreien) Gewinnausschüttung im Zusammenhang stehen und reduzieren dadurch den gewerbesteuerlichen Kürzungsrahmen. Dies wäre insbesondere bei der Berücksichtigung von mittelbaren Anteilen zur Ermittlung der 15%igen Mindestbeteiligungsquote oder bei einem Anwendungsfall der materiellen Korrespondenzregelung i. S. des § 8b Abs. 1 Satz 2 KStG gegeben. Ansonsten ist diese Vorschrift eher bedeutsam bei der Gewerbeertragsermittlung von natürlichen Personen oder Personengesellschaften (mit natürlichen Personen als Mitunternehmer), bei denen die Aufwendungen die Ausgangsgröße des § 7 Satz 1 und Satz 4 GewStG bisher teilweise nach Anwendung des § 3c Abs. 2 EStG beeinflusst haben." },
+      { text: "Beispiel: Die A-GmbH bezieht in EZ 2026 aus ihrer 50%igen Beteiligung an der C-GmbH (Stand: 01.01.2026) eine Gewinnausschüttung i. H. von 100.000 €. Damit im Zusammenhang stehen unstrittige Betriebsausgaben von 50.000 €." },
+      { text: "Lösung: Die Gewinnausschüttung ist bei der A-GmbH steuerfrei (§ 8b Abs. 1 KStG, § 8b Abs. 4 KStG). Gleichzeitig kommt die Betriebsausgabenpauschalierung zur Anwendung (§ 8b Abs. 5 KStG). Daraus resultiert ein körperschaftsteuerliches Einkommen von ./. 45.000 € (50.000 € ./. 100.000 € + 5.000 €)." },
+      { text: "Für die Ermittlung des Gewerbeertrags bildet dieses Einkommen die Ausgangsgröße (§ 7 Satz 1 GewStG). Die bezogene Gewinnausschüttung ist als Schachteldividende nach § 9 Nr. 2a GewStG gewerbesteuerfrei. Zu einer isolierten Kürzung kommt es aber nicht, weil die Ausgangsgröße i. S. des § 7 Satz 1 GewStG bereits gemindert wurde. Die bereits erfasste Betriebsausgabenpauschalierung gilt zudem nicht als Gewinnausschüttung (§ 9 Nr. 2a Satz 4 GewStG)." },
+      { text: "Die tatsächlichen Betriebsausgaben können nur nach den Grundsätzen des § 8 Nr. 1 GewStG hinzugerechnet werden. Wäre vorliegend der Freibetrag des § 8 Nr. 1 GewStG i. H. von 200.000 € überschritten (Unterstellung), ergäbe sich eine Hinzurechnung von 12.500 € (25 % von 50.000 €). Der Gewerbeertrag beträgt danach ./. 32.500 €." },
+      { text: "Abwandlung: Die A-GmbH ist zum 01.01.2026 mit 9 % unmittelbar an der C-GmbH beteiligt. Gleichzeitig hält sie über ihre 100%ige Tochtergesellschaft T-GmbH einen weiteren 91%igen Anteil an der C-GmbH. Im EHZ 2026 bezieht die A-GmbH aus ihrem Anteil an der C-GmbH eine Gewinnausschüttung von 100.000 €. Mit diesem Anteil stehen zudem Schuldzinsen in Höhe von 50.000 € (bzw. alternativ von 400.000 €) im Zusammenhang." },
+      { text: "Lösung: Die bezogene Gewinnausschüttung ist körperschaftsteuerpflichtig, weil die Streubesitzregelung des § 8b Abs. 4 KStG dies vorschreibt. Denn für Zwecke der Ermittlung der 10%igen Mindestbeteiligung werden nur die unmittelbar gehaltenen Anteile von 9 % berücksichtigt. Damit ergibt sich ein Einkommen von 50.000 € (100.000 € ./. 50.000 €) bzw. in der Alternative von ./. 300.000 € (100.000 € ./. 400.000 €). Die Anwendung der Betriebsausgabenpauschalierung ist zudem ausgeschlossen (§ 8b Abs. 4 Satz 7 KStG)." },
+      { text: "Für Zwecke der Gewerbesteuer ist dies hingegen anders, weil sich die 15%ige Mindestbeteiligung des § 9 Nr. 2a GewStG auch unter Berücksichtigung der mittelbar gehaltenen Anteile ermittelt. Damit unterliegt die Gewinnausschüttung dem gewerbesteuerlichen Schachtelprivileg. Hinsichtlich des Kürzungsrahmens, welcher zur Rückgängigmachung der steuerpflichtigen Gewinnausschüttung ermittelt wird, ist die Grundaussage des § 9 Nr. 2a Satz 3 GewStG zu beachten. Danach mindern die im wirtschaftlichen Zusammenhang mit der Gewinnausschüttung stehenden Betriebsausgaben diesen Kürzungsrahmen. Damit beträgt die Kürzung im Grundfall 50.000 €, so dass der Gewerbeertrag letztlich 0 € beträgt. Weil die Betriebsausgaben den Kürzungsrahmen mindern, scheidet insoweit auch die Anwendung des § 8 Nr. 1 GewStG aus. In der Alternative mindern die Betriebsausgaben den Kürzungsrahmen bis auf 0 € (100.000 € ./. 100.000 €), so dass sich nach § 9 Nr. 2a GewStG keine Kürzung mehr ergibt. Der Überhang der Betriebsausgaben von 300.000 € ist dann aber nach § 8 Nr. 1 GewStG zu behandeln, so dass sich daraus eine Hinzurechnung von 25.000 € (300.000 € ./. 200.000 € × ¼) ergibt. Der Gewerbeertrag beträgt danach ./. 275.000 €." },
+      { typ: "tabelle", spalten: ["Fall", "Einkommen (§ 7 Satz 1 GewStG)", "Kürzung nach § 9 Nr. 2a GewStG", "Hinzurechnung nach § 8 Nr. 1 GewStG", "Gewerbeertrag"], zeilen: [
+        ["50 % unmittelbar, Ausschüttung 100.000 €, Aufwand 50.000 €", "./. 45.000 €", "keine – Ausschüttung nicht mehr enthalten", "12.500 € (25 % von 50.000 €)", "./. 32.500 €"],
+        ["9 % unmittelbar + 91 % mittelbar, Aufwand 50.000 €", "50.000 €", "50.000 € (100.000 € ./. 50.000 € Aufwand)", "keine – die Aufwendungen haben schon den Kürzungsrahmen gemindert", "0 €"],
+        ["derselbe Fall, Aufwand 400.000 €", "./. 300.000 €", "0 € (Kürzungsrahmen aufgezehrt)", "25.000 € ((300.000 € ./. 200.000 €) × ¼)", "./. 275.000 €"],
+      ] },
+      { text: "Anmerkung zur Tabelle und zur Systematik (eigene Ergänzung): Die drei Fälle unterscheiden sich darin, ob die Aufwendungen über § 8 Nr. 1 GewStG oder über den Kürzungsrahmen des § 9 Nr. 2a Satz 3 GewStG behandelt werden – und beide Wege schließen einander aus. Die Regel dahinter lautet: Wo die Ausschüttung körperschaftsteuerlich freigestellt ist, trennt die Pauschalierung den Zusammenhang zwischen Aufwand und Ertrag; die Aufwendungen bleiben dann „gewöhnliche“ Betriebsausgaben und werden allein nach § 8 Nr. 1 GewStG behandelt (erste Zeile). Wo die Ausschüttung dagegen körperschaftsteuerpflichtig und nur gewerbesteuerfrei ist, besteht der Zusammenhang fort, und die Aufwendungen zehren zuerst den Kürzungsrahmen auf (zweite und dritte Zeile). § 8 Nr. 1 GewStG greift dann nur noch für einen etwaigen Überhang." },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Grundfall: 100.000 € ./. 50.000 € Aufwand = 50.000 €, davon ./. 100.000 € Freistellung + 5.000 € Pauschale = ./. 45.000 €; zuzüglich 12.500 € Hinzurechnung = ./. 32.500 €. Abwandlung: Einkommen 50.000 €, Kürzung 100.000 € ./. 50.000 € = 50.000 €, Gewerbeertrag 0 €. Alternative: Einkommen ./. 300.000 €, Kürzungsrahmen 100.000 € ./. 400.000 €, begrenzt auf 0 €; Überhang 300.000 €, davon (300.000 € ./. 200.000 € Freibetrag) × 25 % = 25.000 €; Gewerbeertrag ./. 300.000 € + 25.000 € = ./. 275.000 €. Zur Schreibweise der Quelle in der Alternative: Sie notiert den Kürzungsrahmen als „100.000 € ./. 100.000 €“, meint damit aber, dass die Aufwendungen ihn nur bis auf null aufzehren können – die vollen 400.000 € werden nicht abgezogen, weil die Vorschrift gerade eine negative Kürzung verhindern soll." },
     ],
   },
 ];

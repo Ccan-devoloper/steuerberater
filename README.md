@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit zwölf Kapitel mit 144 Abschnitten und acht
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 14 Kapitel mit 168 Abschnitten und zehn
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2465,6 +2465,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   gewerbesteuerlich aber voll belastet (Gewerbeertrag 100.000 € nach Hinzurechnung gemäß
   § 8 Nr. 5 GewStG); wer 8 % unmittelbar und 7 % mittelbar hält, versteuert körperschaftsteuerlich
   die vollen 100.000 € als Streubesitz, gewerbesteuerlich dagegen nichts.
+  Der **Umfang der Kürzung** ist die nächste Feinheit: Sie läuft im Regelfall leer, weil die
+  freigestellte Ausschüttung die Ausgangsgröße des § 7 Satz 1 GewStG gar nicht mehr erreicht, und
+  die Pauschale gilt nach § 9 Nr. 2a Satz 4 GewStG ausdrücklich nicht als Ausschüttung. Praktische
+  Bedeutung gewinnt die Kürzung erst dort, wo die Ebenen auseinanderfallen – vor allem beim
+  materiellen Korrespondenzprinzip, das rein körperschaftsteuerlich ist: Die verdeckte
+  Gewinnausschüttung bleibt dann körperschaftsteuerpflichtig und wird gewerbesteuerlich gleichwohl
+  gekürzt. Bei den **beteiligungsbezogenen Aufwendungen** schließen sich zwei Wege gegenseitig
+  aus: Ist die Ausschüttung körperschaftsteuerfrei, trennt die Pauschalierung den Zusammenhang
+  zwischen Aufwand und Ertrag, und die Aufwendungen werden allein nach § 8 Nr. 1 GewStG behandelt;
+  ist sie dagegen nur gewerbesteuerfrei, zehren sie zuerst den Kürzungsrahmen des
+  § 9 Nr. 2a Satz 3 GewStG auf – bis auf null, denn eine „negative“ Kürzung soll die Vorschrift
+  gerade verhindern –, und § 8 Nr. 1 GewStG greift nur noch für einen Überhang.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

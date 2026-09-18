@@ -10617,8 +10617,44 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.3.1.2; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 2.3.2; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 2.3.1.2 und 2.3.1.3 – Kürzungsumfang und Beteiligungsaufwand
+
+Quelle: dieselbe Datei; übernommen als Kapitel 13 und 14. Prüfung:
+`npm run check:k2-kst-teil2` (14 Kapitel, 168 Blöcke, 10 Tabellen).
+
+**Wann das gewerbesteuerliche Schachtelprivileg überhaupt etwas bewirkt**, ist die Frage, die der
+Abschnitt 2.3.1.2 beantwortet – der Datensatz stellt es tabellarisch dar. Im Regelfall läuft die
+Kürzung leer, weil die freigestellte Ausschüttung die Ausgangsgröße des § 7 Satz 1 GewStG gar
+nicht mehr erreicht; übrig bleibt nur die Pauschale, die § 9 Nr. 2a Satz 4 GewStG ausdrücklich
+nicht als Ausschüttung behandelt. Praktische Bedeutung gewinnt die Kürzung erst, wenn die Ebenen
+auseinanderfallen, und der wichtigste Fall ist die **materielle Korrespondenz**: Sie ist rein
+körperschaftsteuerlich, § 9 Nr. 2a GewStG übernimmt sie nicht – die verdeckte Gewinnausschüttung
+bleibt also körperschaftsteuerpflichtig und wird gewerbesteuerlich gleichwohl gekürzt.
+
+**Die systematische Einsicht des Abschnitts 2.3.1.3** ist im Datensatz als eigene Ergänzung
+herausgearbeitet, weil die Quelle sie über mehrere Absätze verteilt: Die Behandlung der
+beteiligungsbezogenen Aufwendungen folgt zwei Wegen, die einander ausschließen.
+
+- Ist die Ausschüttung **körperschaftsteuerfrei**, trennt die Pauschalierung den Zusammenhang
+  zwischen Aufwand und Ertrag. Die Aufwendungen bleiben gewöhnliche Betriebsausgaben und werden
+  allein nach § 8 Nr. 1 GewStG behandelt.
+- Ist sie **nur gewerbesteuerfrei** (etwa wegen mittelbarer Anteile oder wegen der materiellen
+  Korrespondenz), besteht der Zusammenhang fort. Die Aufwendungen zehren zuerst den Kürzungsrahmen
+  des § 9 Nr. 2a Satz 3 GewStG auf – höchstens bis auf null, weil die Vorschrift eine „negative“
+  Kürzung gerade verhindern soll –, und § 8 Nr. 1 GewStG greift nur noch für einen Überhang.
+
+**Sämtliche Zahlen der drei Fälle sind nachgerechnet und gehen auf**; die Proben stehen als eigene
+Ergänzung im Datensatz. Erläutert ist auch die verkürzte Schreibweise der Quelle in der
+Alternative („100.000 € ./. 100.000 €“ für den aufgezehrten Kürzungsrahmen): Die vollen 400.000 €
+werden nicht abgezogen, weil der Rahmen nur bis auf null sinken kann.
+
+**Zwei weitere Eigenheiten der Quelle, wortlautgetreu übernommen und gekennzeichnet:** ein
+unvollständiger Satzschluss im Abschnitt 2.3.1.2 („so dass sich ein körperschaftsteuerliches
+Einkommen von 300.000 €“ ohne „ergibt“) und ein fehlendes „die“ vor „Grundaussage“ im
+Abschnitt 2.3.1.3.
 
 ### KSt Teil II (Hamacher), Abschnitte 2.2 und 2.3.1.1 – Pauschalierung und Schachtelprivileg
 
