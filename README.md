@@ -1829,6 +1829,39 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   als **eigene Feststellung** gekennzeichnet. **Damit ist die KSt-Datei vollständig
   ausgewertet.**
   Prüfung: `npm run check:k2-kst-originalklausuren`
+- **Bilanz-Originalklausuren** (Klausur 3, Reiter „Originalklausuren (Prüfung)“): die
+  Original-Prüfungsaufgaben aus dem Gebiet der Buchführung und des Bilanzwesens mit den
+  Lösungshinweisen des Lehrgangs („Bilanzierung nach Handels- und Steuerrecht ·
+  Steuerberaterprüfungen 2011 – 2015“, Februar 2026; Verfasser Norbert Rott, Markus Schmidt
+  und Alexander Horst), mit den **Randpunkten der Quelle** in halben Punkten. Jede Klausur
+  dauert sechs Stunden und besteht aus drei unabhängigen Teilen zu zusammen 100 Punkten –
+  regelmäßig ein Einzelunternehmen (34 Punkte), eine Kapitalgesellschaft (33 Punkte) und eine
+  Personengesellschaft (33 Punkte); jeder Teil steht als eigener Eintrag. Eingepflegt ist
+  **Teil I der Prüfung 2011 (Einzelunternehmen Herbst, 34 Punkte)**. Sein didaktischer Kern
+  ist ein einziger Satz der Aufgabenstellung: „möglichst hoher Eigenkapitalausweis in der
+  Handelsbilanz (1. Priorität), möglichst niedriger steuerlicher Gewinn (2. Priorität)“ – und
+  weil die erste Priorität vorgeht, fallen mehrere Wahlrechte **anders aus, als man es vom
+  Steuerrecht her erwarten würde**: Das selbst geschaffene Patent wird handelsrechtlich
+  aktiviert (§ 248 Abs. 2 Satz 1 HGB) und steuerrechtlich nicht (§ 5 Abs. 2 EStG), und bei der
+  selbst hergestellten Maschine werden Verwaltungskosten und Bauzinsen **auch steuerlich**
+  aktiviert, obwohl das den Gewinn erhöht – § 6 Abs. 1 Nr. 1b EStG und R 6.3 Abs. 5 EStR sind
+  eben keine eigenständigen steuerlichen Wahlrechte, sondern hängen an der Handelsbilanz. Dazu
+  ein **Außenanstrich**, der über die ganze Halle geht, von der nur 20 % neu sind, und deshalb
+  zu 4.000 € nachträgliche Herstellungskosten und zu 16.000 € Erhaltungsaufwand zerfällt; eine
+  AfA-Bemessungsgrundlage, die um die AfaA des Vorjahres zu kürzen ist (§ 11c Abs. 2 Satz 1
+  EStDV); die **Trennlinie zwischen Forschung und Entwicklung**, die hier auf einem Datum
+  liegt (alles vor dem 01.04.2025 bleibt Aufwand), während der kalkulatorische Unternehmerlohn
+  und der um 150.000 € gestiegene selbst geschaffene Firmenwert vollständig draußen bleiben;
+  **zwei Aktienpakete**, bei denen dieselbe Fünf-Prozent-Grenze zu entgegengesetzten
+  Ergebnissen führt (bei den einen greift sie nicht, weil der weitere Rückgang nur 2,7 %
+  beträgt, bei den anderen gilt sie für die Zuschreibung gar nicht); und eine
+  **Fremdwährungsforderung**, bei der § 256a Satz 2 HGB wegen der Restlaufzeit unter einem
+  Jahr sowohl die Anschaffungskostenobergrenze als auch das Realisationsprinzip aushebelt –
+  aber nur handelsrechtlich. Die Anlage mit der Überleitung ist kein Anhang, sondern 5 der
+  34 Punkte. Eine Unstimmigkeit der Quelle (die Patent-AfA ist an drei Stellen mit 447 €,
+  467 € und 466 € beziffert; rechnerisch richtig sind 466,67 €) ist als **eigene
+  Feststellung** gekennzeichnet.
+  Prüfung: `npm run check:k3-bil-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,
   1.017 Abschnitten und 30 Tabellen: die Einführung in die Einkommensteuer (persönliche

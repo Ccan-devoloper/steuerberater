@@ -8024,3 +8024,119 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   **Stand der Reihe:** Von den fünf Klausuren dieses Bandes gehen Kopfangabe und Auszählung
   der Randpunkte nur bei der Klausur 2014 auf; 2011 (36 gegen 35) und 2012 (42 gegen 40)
   weichen nach oben ab, 2013 (32 gegen 33) und 2015 (39 gegen 40) nach unten.
+
+## Originalklausuren der Steuerberaterprüfung – Buchführung und Bilanzwesen, Prüfung 2011, Teil I
+
+- Quelle: „Bilanzierung nach Handels- und Steuerrecht · Steuerberaterprüfungen 2011 – 2015“,
+  Februar 2026, Verfasser Norbert Rott, Markus Schmidt und Alexander Horst
+  (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB), Ordner „Originalklausuren“.
+- Einpflege dieses Durchgangs: **Teil I der Prüfung 2011** (Einzelunternehmen Herbst,
+  34 Punkte); neuer Datensatz `src/data/k3-bil-originalklausuren.js` mit 1 Aufgabenteil,
+  92 Blöcken, 9 Tabellen und 34 Punkten; neuer Reiter „Originalklausuren (Prüfung)“ im
+  Bilanzen-Campus der Klausur 3; Prüfung `npm run check:k3-bil-originalklausuren`.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage in
+  **halben Punkten** aus; dazu enthält sie ein Punkte- und Notenschema für die ganze Klausur,
+  das im Datensatz beim ersten Teil wiedergegeben ist.
+- **Grenze der Quelle:** Der Connector gibt aus dem PDF rund 133.000 Zeichen aus – die
+  Prüfung 2011 vollständig und die Prüfung 2012 bis in den Lösungsteil II hinein, wo er
+  abbricht. Die Prüfungen 2013 bis 2015 sind daraus nicht lesbar und stehen in
+  `docs/offene-quellen.md`, Abschnitt A.
+- **Aufbau der Reihe:** Jede Klausur dauert sechs Stunden und hat drei unabhängige Teile –
+  regelmäßig ein Einzelunternehmen (34 Punkte), eine Kapitalgesellschaft (33 Punkte) und eine
+  Personengesellschaft (33 Punkte). Jeder Teil steht als eigener Eintrag.
+- **Hinweis der Quelle zur Fortschreibung:** „Die Klausur ist im Teil I und Teil III auf den
+  Rechtsstand 2025 fortgeschrieben. Der Teil II beinhaltete im Original in der Textziffer 5
+  die Problematik des Übergangs zum BilMoG und wurde aus diesem Grund abgewandelt und
+  ebenfalls auf die Rechtslage 2025 angepasst, da die Übergangsproblematik nicht mehr
+  klausurrelevant sein wird.“
+
+  **Ein Satz der Aufgabenstellung entscheidet fünf Wahlrechte.** Der Sachverhalt sagt:
+  „möglichst hoher Eigenkapitalausweis in der Handelsbilanz (1. Priorität), möglichst
+  niedriger steuerlicher Gewinn (2. Priorität)“. Weil die **erste** Priorität vorgeht, fallen
+  zwei Entscheidungen gegen die zweite aus:
+
+  | Wahlrecht | Entscheidung | Grund |
+  | --- | --- | --- |
+  | Selbst geschaffenes Patent (§ 248 Abs. 2 Satz 1 HGB) | handelsrechtlich **aktivieren**, steuerrechtlich nicht (§ 5 Abs. 2 EStG) | Aktivierung erhöht das Eigenkapital; die Durchbrechung der Maßgeblichkeit ist gesetzlich angeordnet |
+  | Kosten der allgemeinen Verwaltung (§ 255 Abs. 2 Satz 3 HGB, § 6 Abs. 1 Nr. 1b EStG) | **auch steuerlich** aktivieren | § 6 Abs. 1 Nr. 1b EStG ist kein eigenständiges steuerliches Wahlrecht – er verlangt Übereinstimmung mit der Handelsbilanz |
+  | Fremdkapitalzinsen (§ 255 Abs. 3 Satz 2 HGB, R 6.3 Abs. 5 EStR) | **auch steuerlich** aktivieren | steuerlich kann von der Aktivierung nur abgesehen werden, wenn auch handelsrechtlich nicht aktiviert wird |
+
+  **Ein Anstrich, zwei Rechtsfolgen.** Der Außenanstrich geht über die **gesamte** Halle, von
+  der aber nur 20 % neu sind. Nach Tz. 33 des BMF-Schreibens vom 18.07.2003 folgt er der
+  Substanz: 20 % von 20.000 € = **4.000 €** nachträgliche Herstellungskosten, die restlichen
+  **16.000 €** sofort abzugsfähiger Erhaltungsaufwand.
+
+  | AfA-Bemessungsgrundlage ab 01.01.2025 | Betrag |
+  | --- | --- |
+  | ursprüngliche Herstellungskosten | 300.000 € |
+  | ./. AfaA 2024 (§ 11c Abs. 2 Satz 1 EStDV, R 7.4 Abs. 9 Satz 3 EStR) | - 40.000 € |
+  | + nachträgliche Herstellungskosten (100.000 € Bauunternehmer + 4.000 € Maler) | + 104.000 € |
+  | **AfA-BMG** | **364.000 €** |
+  | Buchwert 01.01.2025 (300.000 ./. 7 × 9.000 ./. 40.000) | 197.000 € |
+  | + nachträgliche Herstellungskosten, ./. AfA 2025 (364.000 × 3 % = 10.920 €) | **290.080 €** |
+
+  Wer die AfaA bei der Bemessungsgrundlage vergisst, rechnet mit 404.000 € und liegt bei der
+  AfA um 1.200 € daneben.
+
+  **Beim Patent liegt die Trennlinie zwischen Forschung und Entwicklung auf einem Datum.**
+  Alles vor dem 01.04.2025 – der „überraschenden Eingebung“ – ist **Forschung**
+  (§ 255 Abs. 2a Satz 3 HGB) und bleibt Aufwand: 7.000 € Material und 5.000 € Gemeinkosten.
+  Alles danach ist **Entwicklung**: 9.000 € Entwurf und 12.000 € Beratung und Registrierung,
+  zusammen **21.000 €** Herstellungskosten. Zwei Posten fallen vollständig heraus: der
+  **Unternehmerlohn** von 6.000 € und 4.000 € (kalkulatorische Kosten, H 6.3 EStH – weder
+  Herstellungskosten noch Betriebsausgabe) und der um 150.000 € gestiegene **selbst
+  geschaffene Firmenwert**, der kein Vermögensgegenstand ist.
+
+  **Eine Unstimmigkeit der Quelle – eigene Feststellung:** Die AfA auf das Patent ist an drei
+  Stellen verschieden beziffert. Der Lösungstext nennt **447 €**, der im selben Satz
+  ausgewiesene Buchwert von 20.533 € setzt **467 €** voraus, und die Anlage rechnet mit
+  **466 €**. Rechnerisch richtig sind 21.000 € : 15 Jahre × 4/12 = **466,67 €**; die 447 €
+  sind ein Zahlendreher. Die Gesamtsumme der Anlage von 551.334 € geht mit 466 € auf. Alle
+  drei Zahlen sind wortlautgetreu übernommen und im Datensatz kenntlich gemacht.
+
+  **Zwei Aktienpakete, dieselbe Grenze, entgegengesetztes Ergebnis.** Für beide gilt die
+  Fünf-Prozent-Regel des BMF-Schreibens vom 02.09.2016, und für den Folgestichtag ist sie auf
+  den **vorangegangenen Bilanzstichtag** zu beziehen:
+
+  | | Entwicklung | Ergebnis zum 31.12.2025 |
+  | --- | --- | --- |
+  | X-Aktien | 74.000 € → 72.000 €, also nur 2,7 % Rückgang | Ansatz bleibt bei **74.000 €** – die Grenze ist nicht erreicht, obwohl der Kurs weiter fällt |
+  | Y-Aktien | 26.000 € → 40.000 € | **Wertaufholung** auf 40.000 €; für die Zuschreibung gilt die Fünf-Prozent-Grenze **nicht** |
+
+  Die Kursentwicklung bis zur Bilanzaufstellung bleibt in beiden Fällen außen vor – sie ist
+  wertbegründend, nicht werterhellend (§ 252 Abs. 1 Nr. 4 HGB). Außerbilanziell mindern sich
+  die 14.000 € um 40 % (§ 3 Nr. 40 Buchst. a EStG) auf 8.400 €.
+
+  **Bei der Fremdwährungsforderung hebelt § 256a Satz 2 HGB zwei Grundsätze aus.**
+  Normalerweise sperren die Anschaffungskosten als Höchstgrenze und das Realisationsprinzip
+  jeden Ausweis eines Kursgewinns. Weil die Restlaufzeit am Bilanzstichtag aber **weniger als
+  ein Jahr** beträgt (Zahlungsfrist bis 01.05.2026), ist die Forderung mit dem Stichtagskurs
+  zu bewerten: 30.000 USD : 1,25 = 24.000 €, also 2.000 € nicht realisierter Gewinn –
+  handelsrechtlich auszuweisen, steuerrechtlich nicht (§ 5 Abs. 6 EStG).
+
+  | Anlage: Überleitung (1 Punkt je Textziffer = 5 Punkte) | Handelsbilanz | steuerlich |
+  | --- | --- | --- |
+  | Vorläufiger Jahresüberschuss | 500.000 € | 500.000 € |
+  | Produktionshalle | + 4.000 € ./. 10.920 € | + 4.000 € ./. 10.920 € |
+  | Multifunktionswerkzeug | + 21.000 € ./. 466 € | – |
+  | Maschine | + 19.700 € + 2.020 € | + 19.700 € + 2.020 € |
+  | Wertpapiere | + 14.000 € | + 14.000 € |
+  | Forderungen | + 2.000 € | – |
+  | **Zwischensumme** | **551.334 €** | **528.800 €** |
+  | Außerbilanzielle Korrektur | – | ./. 5.600 € |
+  | **Steuerliches Ergebnis** | | **523.200 €** |
+
+  Die Anlage ist kein Anhang, sondern **5 von 34 Punkten**: Sie zwingt dazu, jede Abweichung
+  zwischen Handels- und Steuerbilanz explizit zu machen – genau das, was die
+  Überleitungsrechnung nach § 60 Abs. 2 Satz 1 EStDV verlangt. Drei Posten stehen nur in
+  einer Spalte.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.** Auch die Punktvergabe geht
+  auf: Die Überschrift nennt 34 Punkte, und die Auszählung der Randpunkte ergibt genau 34.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „patenfähiges
+  Konzept“ (zweimal) statt patentfähig; der Umrechnungskurs „am 31.03.2024 = 1,20 USD“, wo
+  der 31.03.2026 gemeint ist; „Vorläufiger Jahresüberschuss 2023“ in der Anlage statt 2025;
+  „dem notwendigen betrieblichen Umlaufvermögens“; „das u. a. BMF-Schreibens“; und „Absetzung
+  für außerplanmäßige Abschreibung (AfaA)“ im Sachverhalt, wo es Absetzung für
+  außergewöhnliche Abnutzung heißt.

@@ -25,6 +25,7 @@ import { BEISPIELE, UEBUNGEN } from "./data/buchungssaetze";
 import K3Fachleiste from "./components/K3Fachleiste";
 import HausaufgabenBloecke from "./components/HausaufgabenBloecke";
 import { estKlausuren, estKlausurenQuelle } from "./data/est-klausuren.js";
+import { bilOriginalklausuren, bilOriginalklausurenQuelle } from "./data/k3-bil-originalklausuren.js";
 import { PrioBadge, PrioNorm, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./components/Prioritaet";
 
 /* Examenspriorität eines Bilanz-Moduls (🔴/🟠/🟢) nach den Beck-Auswertungen. */
@@ -46,6 +47,7 @@ const ansichten = [
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
   { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "uebungsklausur", label: "Übungsklausuren", Icon: IconTraining },
+  { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconTraining },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
   { id: "schema", label: "Prüfungsschema", Icon: IconSchema },
   { id: "formeln", label: "Rechenwege", Icon: IconFormel },
@@ -314,6 +316,22 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Textziffern"
             einheitEinzahl="Textziffer"
+          />
+        )}
+        {ansicht === "originalklausuren" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 3 · Buchführung und Bilanzwesen · Original-Prüfungsklausuren"
+            titel="Bilanz-Originalklausuren der Steuerberaterprüfung"
+            lead="Die Original-Prüfungsaufgaben aus dem Gebiet der Buchführung und des Bilanzwesens mit den Lösungshinweisen des Lehrgangs („Bilanzierung nach Handels- und Steuerrecht · Steuerberaterprüfungen 2011 – 2015“, Februar 2026; Verfasser Norbert Rott, Markus Schmidt und Alexander Horst) – Sachverhalt, Aufgabenstellung und Musterlösung im Wortlaut, mit den Randpunkten der Quelle. Jede Klausur dauert sechs Stunden und besteht aus drei unabhängigen Teilen zu zusammen 100 Punkten; jeder Teil steht als eigener Eintrag. Eingepflegt ist bisher Teil I der Prüfung 2011 (Einzelunternehmen Herbst, 34 Punkte), in dem ein einziger Satz der Aufgabenstellung – möglichst hoher Eigenkapitalausweis in der Handelsbilanz vor möglichst niedrigem steuerlichem Gewinn – über fünf Wahlrechte entscheidet: Das selbst geschaffene Patent wird handelsrechtlich aktiviert und steuerrechtlich nicht, und bei der selbst hergestellten Maschine werden Verwaltungskosten und Bauzinsen auch steuerlich aktiviert, weil § 6 Abs. 1 Nr. 1b EStG und R 6.3 Abs. 5 EStR keine eigenständigen steuerlichen Wahlrechte sind. Dazu ein Außenanstrich, der zu einem Fünftel Herstellungskosten und zu vier Fünfteln Erhaltungsaufwand ist, zwei Aktienpakete, bei denen dieselbe Fünf-Prozent-Grenze zu entgegengesetzten Ergebnissen führt, und eine Fremdwährungsforderung, bei der § 256a Satz 2 HGB das Realisationsprinzip aushebelt – aber nur handelsrechtlich. Jede Zahl ist unabhängig nachgerechnet."
+            quelle={bilOriginalklausurenQuelle}
+            hausaufgaben={bilOriginalklausuren}
+            gruppeVon={(eintrag) => eintrag.jahrgang}
+            gruppeLabel={(eintrag) => `Prüfung ${eintrag.jahrgang}`}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · Teil ${eintrag.teil} · ${eintrag.punkte} Punkte`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Aufgabenteile"
+            einheitEinzahl="Aufgabenteil"
           />
         )}
         {ansicht === "hausaufgaben" && (

@@ -29,6 +29,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **AO Teil V** (Jacobs, Mai 2025), Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN` | Aus Abschnitt 12 (Außenprüfung) alles ab Seite 28: der Rest des **Teils V** (Neuregelungen zu § 197 Abs. 5 und § 180 Abs. 1a AO) sowie die **Teile VI bis VIII** (Prüfungsfeststellungen, Schlussbesprechung, Prüfungsbericht, Auswirkungen auf die Festsetzungsverjährung); dazu der gesamte **Abschnitt 13** | Der Connector gibt aus dem 1,4-MB-PDF 145.000 Zeichen aus: den Abschnitt 11 vollständig und den Abschnitt 12 bis Seite 27, wo er abbricht. Das Deckblatt kündigt „Teil V: Abschnitte 11 bis 13“ an. |
 | **AO Teil IV** (Jacobs, Mai 2025), Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA` | Aus Abschnitt 9 ab Seite 18: der Rest des Teils V (**Wiedereinsetzung, § 56 FGO**), Teil VI (**Form und Inhalt der Klageschrift, §§ 64, 65 FGO**), die **Begründetheit der Klage** und das **Revisionsverfahren**; dazu der gesamte **Abschnitt 10** (vorläufiger Rechtsschutz) | Der Connector gibt aus dem PDF 141.000 Zeichen aus: Abschnitt 8 vollständig (62 Seiten) und Abschnitt 9 bis Seite 17, wo er mitten im Satz abbricht. Das Deckblatt kündigt „Teil IV: Abschnitte 8 bis 10“ an. |
 | **Ertragsteuern · Steuerberaterprüfungen 2011–2015** (März 2026), Drive-ID `1QwClx7BL_66vssgQcF4xq7CIzknvfIcy` | Die Prüfungen **2013 (ab der Hälfte des Sachverhalts), 2014 und 2015** einschließlich ihrer Lösungsvorschläge | Der Connector gibt aus dem 2,3-MB-PDF rund 168.000 Zeichen aus: die Prüfung 2011 vollständig, die Prüfung 2012 vollständig (einschließlich der DBA-Anlagen) und den Anfang der Prüfung 2013 (Klausur E 18) bis Seite 7 von 11, wo er abbricht. |
+| **Bilanzierung nach Handels- und Steuerrecht · Steuerberaterprüfungen 2011–2015** (Februar 2026), Drive-ID `1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ` | Aus der Prüfung 2012 der Rest des Teils II und der gesamte Teil III sowie die Prüfungen **2013, 2014 und 2015** vollständig (je drei Aufgabenteile mit 100 Punkten) | Der Connector gibt aus dem 3,3-MB-PDF rund 133.000 Zeichen aus: die Prüfung 2011 vollständig (Sachverhalte und Lösungen zu allen drei Teilen) und die Prüfung 2012 bis in den Lösungsteil II (Sommer GmbH), wo er abbricht. |
 
 Sobald diese Teile vorliegen, werden sie nach demselben Verfahren eingepflegt wie der
 Rest: wortlautgetreu, mit Kennzeichnung jeder Stelle, an der die Quelle selbst nicht
@@ -290,8 +291,16 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   (Invest-Deutschland Ltda, 33 Punkte) , **2014** (zwei Sachverhalte, 43 Punkte) und **2015**
   (40 Punkte) im Reiter „Originalklausuren (Prüfung)“ des KSt-Campus,
   `src/data/k2-kst-originalklausuren.js`. **Damit ist die KSt-Datei vollständig
-  ausgewertet.** Offen ist außerdem die Datei **Bilanz 2011–2015**
-  (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB).
+  ausgewertet.** Die Datei **Bilanz 2011–2015**
+  (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 3,3 MB) ist „Bilanzierung nach Handels- und
+  Steuerrecht · Steuerberaterprüfungen 2011 – 2015“ (Februar 2026; Verfasser Norbert Rott,
+  Markus Schmidt und Alexander Horst) mit fünf Klausuren zu je drei Teilen und 100 Punkten;
+  **begonnen** – eingepflegt ist **Teil I der Prüfung 2011** (Einzelunternehmen Herbst,
+  34 Punkte) im neuen Reiter „Originalklausuren (Prüfung)“ des Bilanzen-Campus,
+  `src/data/k3-bil-originalklausuren.js`. **Wichtig:** Der Connector gibt die Datei nur bis
+  in die Lösung der Prüfung 2012 hinein aus (rund 133.000 Zeichen); offen und lesbar sind
+  daraus noch die Teile II und III der Prüfung 2011 sowie die Prüfung 2012 mit Teil I und dem
+  Anfang von Teil II. Der Rest gehört zu den blockierten Teilen in Abschnitt A.
 - Lohnsteuer und Grunderwerbsteuer (für diese Gebiete gibt es bislang keinen Campus)
 - Ordner „Ergänzungslieferungen“ und „Mitschriften_Markierungen“ – noch nicht gesichtet
 

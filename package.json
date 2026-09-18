@@ -35,6 +35,7 @@
     "check:k1-ust-originalklausuren": "node tools/pruefen-k1-ust-originalklausuren.mjs",
     "check:k2-est-originalklausuren": "node tools/pruefen-k2-est-originalklausuren.mjs",
     "check:k2-kst-originalklausuren": "node tools/pruefen-k2-kst-originalklausuren.mjs",
+    "check:k3-bil-originalklausuren": "node tools/pruefen-k3-bil-originalklausuren.mjs",
     "check:k1-erbst-bewertung-teil1": "node tools/pruefen-k1-erbst-bewertung-teil1.mjs",
     "check:k1-erbst-bewertung-teil2": "node tools/pruefen-k1-erbst-bewertung-teil2.mjs",
     "check:k1-erbst-verschonung": "node tools/pruefen-k1-erbst-verschonung.mjs",
