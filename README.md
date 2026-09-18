@@ -1563,7 +1563,31 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **§ 15a UStG fünfmal** prüft und dreimal an der Bagatellgrenze des § 44 UStDV scheitert, und
   dass die Rechnung des Museums die Anzahlung fälschlich als Nettobetrag behandelt – die
   Lösung rechnet aus 23.610 € brutto eine Bemessungsgrundlage von 19.840,34 € und teilt die
-  Steuer von 3.769,66 € auf 159,66 € (VAZ 12/2025) und 3.610 € (VAZ 02/2026) auf.
+  Steuer von 3.769,66 € auf 159,66 € (VAZ 12/2025) und 3.610 € (VAZ 02/2026) auf. Die Klausur
+  **„Terra GmbH" (Prüfung 2013)** ist dagegen um **Dreiergruppen** gebaut: drei Mieter lösen
+  drei verschiedene Optionsergebnisse aus (möglich – nach § 9 Abs. 2 UStG gesperrt – nach
+  § 9 Abs. 1 UStG gar nicht eröffnet); ein einziger Parkettkauf führt zu **drei
+  innergemeinschaftlichen Erwerben an drei Orten** (400 qm nach Starnberg = 1.520 €; 600 qm
+  nach Innsbruck mit doppeltem Erwerbsort nach § 3d Satz 2 UStG = 2.280 € ohne
+  Vorsteuerabzug; 100 qm später umgelagert = innergemeinschaftliches Verbringen nach
+  § 1a Abs. 2 UStG = 380 €, entstanden erst im Folgemonat mangels Rechnung); und drei Preise
+  eines Preisausschreibens führen auf **drei verschiedenen Wegen zum selben Ergebnis** –
+  beim Roller wird der Vorsteuerabzug versagt, sodass die Wertabgabe entfällt; beim Rundflug
+  bleibt der Abzug erhalten, weil es für sonstige Leistungen keinen Auffangtatbestand gibt;
+  bei den Bildbändern, weil sie Geschenke von geringem Wert sind. Der anspruchsvollste Teil
+  ist das **Ausscheiden der Gesellschafterin** gegen ein Grundstück und 2,5 Mio. € Bargeld:
+  für sie nicht steuerbar (bloßes Halten einer Beteiligung), für die GmbH eine
+  **Geschäftsveräußerung im Ganzen** – und weil die Erwerberin nach § 1 Abs. 1a Satz 3 und
+  § 15a Abs. 10 UStG den Berichtigungszeitraum fortführt, schlägt ihre eigene Nutzungsänderung
+  vier Monate später auf einen Vorsteuerabzug durch, den Jahre zuvor die GmbH vorgenommen
+  hatte (1.520 € zu ihren Lasten). Dabei wird die 10-Prozent-Grenze des § 44 Abs. 2 Satz 1
+  UStDV **genau** erreicht – ein Monat weniger, und die Berichtigung entfiele. Bemerkenswert
+  ist außerdem der Gegensatz zur Klausur 2011: Dort stand die Verwendung des Gewinns beim
+  Einkauf **noch nicht** fest (Vorsteuerabzug bleibt, Wertabgabe wird versteuert), hier stand
+  sie **bereits** fest (Vorsteuerabzug versagt, keine Wertabgabe) – entscheidend ist nicht die
+  Zuwendung, sondern die Absicht im Zeitpunkt des Einkaufs. Eine Abweichung zwischen
+  Sachverhalt (Abschreibung auf sechs Jahre) und Lösung (Verteilung auf acht Jahre) ist als
+  **eigene Feststellung** gekennzeichnet und erklärt.
   Prüfung: `npm run check:k1-ust-originalklausuren`
 - **ESt-Kurzskript I** (Klausur 2, Reiter Einkommensteuer → „Kurzskript I“): das Lehrgangsskript
   von Martin Engelberth (Stand 07/2026), Seiten 1 bis 79 – drei Teile mit 23 Kapiteln,

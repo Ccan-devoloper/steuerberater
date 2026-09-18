@@ -6945,3 +6945,102 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
   „§ 15 Abs. 1 Satz 1 Nr. 1 Sätze 1, 2, kein § 15 Abs. 2“ ohne Gesetzesangabe; „im
   Voranmeldungszeitraums 12/2025 – 12/2026“; „bekommt Eva in der Jahreserklärung“ statt
   erhält; und die Jahresangabe „seit dem Jahr 25“ für 2025.
+
+## Originalklausuren der Steuerberaterprüfung – Umsatzsteuer, Klausur 2013 (Terra GmbH)
+
+- Quelle: dieselbe Datei (`1lIwxxyUdq_FVIqKDhGk1LHPPJm0O8FNo`), dritte Klausur.
+- Einpflege dieses Durchgangs: die Klausur **2013**; der Datensatz umfasst jetzt
+  3 Originalklausuren, 223 Blöcke und 22 Tabellen; Prüfung
+  `npm run check:k1-ust-originalklausuren`. Offen sind die Klausuren 2014 und 2015.
+- Der personenbezogene PDF-Wasserzeichentext ist entfernt. Randpunkte weist die Unterlage
+  nicht aus.
+
+  **Die Klausur ist um Dreiergruppen gebaut.** Drei Mieter lösen drei verschiedene
+  Optionsergebnisse aus: Bei der Rechtsanwaltskanzlei und beim Steuerberater ist die Option
+  möglich; beim Versicherungsmakler ist sie nach § 9 Abs. 2 UStG gesperrt, weil er steuerfreie
+  Umsätze nach § 4 Nr. 11 UStG ausführt; und bei der Dienstwohnung des Geschäftsführers ist
+  sie schon nach § 9 Abs. 1 UStG gar nicht eröffnet, weil er kein anderer Unternehmer ist. Ein
+  einziger Parkettkauf führt zu drei innergemeinschaftlichen Erwerben an drei Orten. Und drei
+  Preise eines Preisausschreibens führen auf drei verschiedenen Wegen zum selben
+  wirtschaftlichen Ergebnis.
+
+  **Der anspruchsvollste Teil ist die Gesellschafterabfindung.** Berta gibt Anteile im Wert
+  von 4 Mio. € zurück und erhält ein Grundstück plus 2,5 Mio. € Bargeld – ein tauschähnlicher
+  Umsatz mit Baraufgabe. Für sie ist der Vorgang **nicht steuerbar**, weil das bloße Halten
+  einer Beteiligung keine Unternehmereigenschaft begründet. Für die GmbH ist die
+  Grundstücksübertragung eine **Geschäftsveräußerung im Ganzen**, weil das Mietobjekt ein
+  gesondert geführter Betrieb ist und Berta in die Mietverträge eintritt; dass sie erst
+  dadurch Unternehmerin wird, ist unerheblich (Abschn. 1.5 UStAE). Die Folge ist die
+  eigentliche Pointe: Nach § 1 Abs. 1a Satz 3 UStG tritt Berta als Einzelrechtsnachfolgerin
+  ein und führt nach § 15a Abs. 10 UStG den **Berichtigungszeitraum der GmbH** fort. Deshalb
+  schlägt ihre eigene Nutzungsänderung vier Monate später auf einen Vorsteuerabzug durch, den
+  nicht sie, sondern die GmbH im Jahr 2020 vorgenommen hat – 1.520 € zu ihren Lasten.
+
+  **Die 10-Prozent-Grenze wird genau erreicht.** Der ursprüngliche Vorsteuerabzug betrug 60 %
+  (600 von 1.000 qm: Erdgeschoss 400 qm und Rührig-Einheit 200 qm). Ab Juli fällt die
+  Rührig-Einheit weg, es bleiben 400 qm = 40 %. Über das Jahr gemittelt: (6/12 × 60 %) +
+  (6/12 × 40 %) = 50 %. Die Änderung beträgt damit **genau 10 %** – und weil § 44 Abs. 2
+  Satz 1 UStDV erst unterhalb von 10 % greift, ist die Berichtigung durchzuführen. Ein Monat
+  weniger, und sie entfiele. Beim Pkw derselben Klausur geht dieselbe Prüfung anders aus:
+  Dort liegt die Änderung bei 5 % und der Betrag bei 85,50 €, sodass **beide** Schwellen des
+  § 44 Abs. 2 UStDV die Berichtigung ausschließen.
+
+  **Das Parkett – drei Erwerbe aus einem Kauf:**
+
+  | Vorgang | Menge | Bemessungsgrundlage | Steuer | Entstehung |
+  | --- | --- | --- | --- | --- |
+  | Erwerb nach Starnberg (§ 3d Satz 1 UStG) | 400 qm | 8.000 € | 1.520 € | VAZ April 2026 |
+  | Erwerb nach Innsbruck, Erwerbsort zusätzlich im Inland (§ 3d Satz 2 UStG) | 600 qm | 12.000 € | 2.280 €, ohne Vorsteuerabzug | VAZ April 2026 |
+  | Verbringen Innsbruck → Starnberg (§ 1a Abs. 2 UStG) | 100 qm | 2.000 € | 380 € | VAZ Juni 2026, mangels Rechnung im Folgemonat |
+
+  Die GmbH holt die Ware selbst in Straßburg ab. Damit ist sie als letzte Abnehmerin die
+  Transportverantwortliche, die Warenbewegung wird der Lieferung an sie zugeordnet
+  (§ 3 Abs. 6a Satz 3 UStG), und ein Dreiecksgeschäft nach § 25b UStG scheidet aus, weil
+  weder der erste Lieferer noch der erste Abnehmer befördert.
+
+  **Die drei Preise führen dreimal zu keiner Umsatzsteuer – aus drei verschiedenen Gründen:**
+  Beim Elektro-Roller wird der Vorsteuerabzug versagt, weil die Verwendungsabsicht schon beim
+  Einkauf feststand (Abschn. 15.2b Abs. 2 Satz 5 UStAE); mangels Vorsteuerabzug entfällt dann
+  nach § 3 Abs. 1b Satz 2 UStG auch die unentgeltliche Wertabgabe. Beim Rundflug bleibt der
+  Vorsteuerabzug erhalten, weil es für sonstige Leistungen aus unternehmerischen Gründen
+  keinen Auffangtatbestand gibt. Bei den Bildbänden bleibt er erhalten, weil sie Geschenke von
+  geringem Wert unter 50 € sind.
+
+  **Ein Gegensatz zur Klausur 2011 – das dritte Fallpaar dieser Ordnerfamilie:** Dieselbe
+  Reihe prüft dieselbe Frage zweimal mit entgegengesetztem Ergebnis. Bei der Lederhose des
+  Preisausschreibens 2011 stand „bei Ankauf … die weitere Verwendung noch nicht fest“ – der
+  Vorsteuerabzug bleibt erhalten, und die Abgabe ist als unentgeltliche Wertabgabe zu
+  versteuern (315,40 €). Beim Elektro-Roller 2013 stand „bereits beim Einkauf … die
+  Verwendungsabsicht fest“ – der Vorsteuerabzug wird versagt, und die Abgabe bleibt
+  unversteuert. Entscheidend ist also nicht die Zuwendung, sondern was der Unternehmer im
+  **Zeitpunkt des Einkaufs** vorhatte.
+
+  **Die Cessna ist der dritte Fahrzeugfall der Reihe.** Nach der Segelyacht der Klausur 2011
+  (Wasserfahrzeug über 7,5 m) prüft diese Klausur das Luftfahrzeug. Beide Merkmale sind knapp
+  erfüllt: 1.650 kg Starthöchstmasse gegenüber der Grenze von 1.550 kg (§ 1b Abs. 2 Satz 1
+  Nr. 3 UStG) und 30 gegenüber 40 Betriebsstunden (§ 1b Abs. 3 Nr. 3 UStG) – das Flugzeug ist
+  „neu“, obwohl es bereits ein Jahr alt ist. Anders als bei der Yacht weist die Lösung hier
+  ausdrücklich auf die **Fahrzeugeinzelbesteuerung** nach §§ 16 Abs. 5a, 18 Abs. 5a UStG hin,
+  weil der Erwerber Nichtunternehmer ist und keine Voranmeldungen abgibt.
+
+  **Alle Beträge sind unabhängig nachgerechnet und gehen auf.** Pkw: 5.625 + 5.200 + 2.000 +
+  1.500 + 1.350 = 15.675 €; Privatanteil (8.000 + 7.000) / 40.000 = 37,5 %; 15.675 € × 37,5 %
+  = 5.878,13 €; × 19 % = 1.116,84 €; : 12 = 93,07 €. Vorsteuer der laufenden Kosten:
+  (988 + 380) × 85 % = 1.162,80 €. § 15a Pkw: 45.000 × 19 % × 90 % = 7.695 €; 8.550 : 5 =
+  1.710 €; × 5 % = 85,50 €. Gebäude: 152.000 : 10 = 15.200 €; × 10 % = 1.520 €. Parkett und
+  Svoboda wie in der Tabelle. Cessna: 100.000 × 19 % = 19.000 €. Bildbände: 18 Stück × 2,10 €
+  = 37,80 €.
+
+  **Eine Abweichung zwischen Sachverhalt und Lösung – eigene Feststellung:** Der Sachverhalt
+  gibt an, der Pkw werde „linear auf sechs Jahre abgeschrieben“. Die Lösung rechnet die
+  Anschaffungskosten dagegen mit „45.000 € : 8 Jahre (neu) = 5.625 €“ in die
+  Bemessungsgrundlage ein. Beides ist in sich stimmig: Die ertragsteuerliche Nutzungsdauer ist
+  für die umsatzsteuerliche Bemessungsgrundlage des tauschähnlichen Umsatzes nicht maßgebend;
+  dort werden die Anschaffungskosten nach Abschn. 15.23 UStAE auf den dort genannten Zeitraum
+  verteilt, und der Zusatz „(neu)“ deutet auf eine geänderte Verwaltungsauffassung hin. Die
+  Quelle erläutert den Wechsel nicht; der Hinweis darauf ist im Datensatz als eigene
+  Beobachtung gekennzeichnet. Rechnerisch trägt die Lösung die Zahl 5.625 € durch.
+
+  **Verschreiber der Quelle – wortlautgetreu übernommen und gekennzeichnet:** „also in
+  Starnberg, und damit im Inland und sind somit steuerbar“; „Da die Vermietung ist somit
+  steuerbar“; „Königsee“ statt Königssee; und „wo Claudius Cosinus es in Empfang nahm“.
