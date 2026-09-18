@@ -20,8 +20,9 @@
    und den gewerbesteuerlichen Auswirkungen. Aus Kapitel 4 (Abzugsverbot von
    Gewinnminderungen) ist der Abschnitt 4.1 (Begriff der Gewinnminderung)
    übernommen, dazu der Tatbestand der Darlehensregelung und die Ermittlung der
-   qualifizierten Beteiligung (4.2.1 und 4.2.2.1). Es folgen die Abschnitte ab
-   4.2.2.2 sowie die Kapitel 5 und 6; der Campus weist den Stand aus.
+   qualifizierten Beteiligung samt Personengesellschaftsfällen und dem Zeitpunkt
+   der Beteiligung (4.2.1 bis 4.2.2.2). Es folgen die Abschnitte ab 4.2.3 sowie
+   die Kapitel 5 und 6; der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Wie bei Teil I ist der Text unmittelbar aus der PDF-Datei
    extrahiert (pypdf, 70 Seiten), weil die Textausgabe des Drive-Readers bei
@@ -1113,7 +1114,6 @@ export const kstTeil2 = [
       { text: "Lösung: Für Zwecke des § 8b Abs. 3 Satz 4 KStG ist die A-GmbH als qualifizierter Darlehensgeber anzusehen, da sie unmittelbar und mittelbar über die B-GmbH mit 41 % (11 % + 30 %) an der C-GmbH beteiligt ist." },
       { text: "Beispiel: Die A-GmbH ist zu 40 % an der B-GmbH beteiligt. Die B-GmbH ist wiederum zu 80 % an der C-GmbH beteiligt. Die A-GmbH gibt der C-GmbH ein Darlehen über 1.000.000 €." },
       { text: "Lösung: Für Zwecke des § 8b Abs. 3 Satz 4 KStG ist die A-GmbH als qualifizierter Darlehensgeber anzusehen, weil die Beteiligung bei 32 % (40 % von 80 %) liegt." },
-      { text: "Wird das Darlehen von einer Personengesellschaft selbst gewährt, die auch selbst unmittelbar an dem Darlehensnehmer zu mehr als 25 % beteiligt ist, führt dies bei einer Mitunternehmer-Kapitalgesellschaft zu einem Anwendungsfall des § 8b Abs. 3 Satz 4 KStG. Bei der Mitunternehmer-Kapitalgesellschaft sind aufgrund § 8b Abs. 6 KStG sämtliche Regelungen des § 8b KStG entsprechend anzuwenden (siehe hierzu unter 5.). Weil die (gewerbliche) Personengesellschaft als Gewinnermittlungssubjekt in dieser Situation selbst der zivilrechtliche Darlehensgeber ist, ist für die Ermittlung der qualifizierten Beteiligungsquote auch nur auf die Beteiligung der Personengesellschaft abzustellen. (Der Abschnitt setzt sich in der Quelle auf der folgenden Seite fort.)" },
       { typ: "tabelle", spalten: ["Merkmal", "§ 8b Abs. 4 KStG (Streubesitz, Kapitel 2)", "§ 8b Abs. 3 Satz 4 KStG (Darlehen, hier)"], zeilen: [
         ["Schwelle", "mindestens 10 %", "mehr als 25 %"],
         ["Unmittelbare Beteiligung", "ja", "ja"],
@@ -1124,6 +1124,79 @@ export const kstTeil2 = [
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie stellt die beiden Beteiligungsprüfungen des § 8b KStG gegenüber, weil sie in derselben Vorschrift stehen und trotzdem nach entgegengesetzten Regeln funktionieren – eine der häufigsten Verwechslungen in diesem Stoff. Der auffälligste Unterschied betrifft die **mittelbaren** Beteiligungen: Für die Streubesitzgrenze des Absatzes 4 bleiben sie außer Betracht, für das Darlehensabzugsverbot des Absatzes 3 zählen sie mit. Der Grund liegt in der verschiedenen Funktion: Absatz 4 will die Steuerfreiheit auf unternehmerische Beteiligungen begrenzen und prüft deshalb subjektbezogen; Absatz 3 Satz 4 ist eine Missbrauchsnorm und fragt nach dem tatsächlichen wirtschaftlichen Einfluss, den auch eine mittelbare Beteiligung vermittelt." },
       { text: "Rechenproben (eigene Ergänzung): Beide Beispiele gehen auf. Im ersten Fall vermittelt die 100%ige Beteiligung an der B-GmbH deren 30 % an der C-GmbH in voller Höhe (100 % × 30 % = 30 %), zuzüglich der unmittelbaren 11 % ergibt das 41 %. Im zweiten Fall bleibt von den 80 % der B-GmbH nur der auf die A-GmbH entfallende Anteil: 40 % × 80 % = 32 %. Beide Male liegt die Quote über 25 %, aber im zweiten Fall zeigt sich die Bedeutung der Durchrechnung besonders deutlich – ohne sie hätte man fälschlich 80 % oder 40 % angesetzt. Bemerkenswert ist der ausdrückliche Hinweis der Quelle, dass es auf eine **Beherrschung** der Zwischengesellschaft nicht ankommt: Auch eine Minderheitsbeteiligung von 40 % vermittelt anteilig mit." },
+    ],
+  },
+  {
+    id: "kst-t2-30",
+    kapitel: "30",
+    abschnittNr: "4.2.2.1 (Fortsetzung)",
+    title: "4.2.2.1 Ermittlung der qualifizierten Beteiligung – Darlehensgewährung über eine Personengesellschaft",
+    thema: "Gibt eine Personengesellschaft das Darlehen, entscheidet ihre Rechtsnatur über alles: Bei der gewerblichen zählt ihre **eigene** Beteiligung, bei der vermögensverwaltenden greift die Bruchteilsbetrachtung des § 39 Abs. 2 Nr. 2 AO – mit entgegengesetztem Ergebnis",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 4.2.2.1 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 3 Satz 4 KStG", "§ 8b Abs. 3 Satz 4 f. KStG", "§ 8b Abs. 6 KStG",
+      "§ 3c Abs. 2 Satz 2 EStG", "§ 39 Abs. 2 Nr. 2 AO",
+      "FG Münster vom 28.01.2025, 2 K 3123/21 F, Rn. 47 und 48",
+      "BFH vom 27.11.2024, BStBl. II 2025, 531",
+    ],
+    themen: ["Personengesellschaft als Darlehensgeberin", "Gewerbliche Mitunternehmerschaft", "Vermögensverwaltende Personengesellschaft", "Bruchteilsbetrachtung", "Gesellschafter statt Steuerpflichtiger"],
+    bloecke: [
+      { text: "Wird das Darlehen von einer Personengesellschaft selbst gewährt, die auch selbst unmittelbar an dem Darlehensnehmer zu mehr als 25 % beteiligt ist, führt dies bei einer Mitunternehmer-Kapitalgesellschaft zu einem Anwendungsfall des § 8b Abs. 3 Satz 4 KStG. Bei der Mitunternehmer-Kapitalgesellschaft sind aufgrund § 8b Abs. 6 KStG sämtliche Regelungen des § 8b KStG entsprechend anzuwenden (siehe hierzu unter 5.). Weil die (gewerbliche) Personengesellschaft als Gewinnermittlungssubjekt in dieser Situation selbst der zivilrechtliche Darlehensgeber ist, ist für die Ermittlung der qualifizierten Beteiligungsquote auch nur auf die unmittelbare oder mittelbare Beteiligung der Personengesellschaft selbst abzustellen. Eine quotenbezogene Umrechnung auf die an der Personengesellschaft beteiligte Kapitalgesellschaft erfolgt nicht. Dies ist bereits für Zwecke des § 8b Abs. 3 Satz 4 f. KStG ausreichend, weil der qualifizierte Darlehensgeber ausweislich des Gesetzeswortlautes nicht unbedingt die Rechtsform einer Kapitalgesellschaft besitzen muss. Zudem stellt die Vorschrift – anders als § 3c Abs. 2 Satz 2 EStG – nicht auf den Steuerpflichtigen ab, sondern nur auf den „Gesellschafter“ ab." },
+      { text: "Anders ist es hingegen bei einer vermögensverwaltenden und nicht gewerblich geprägten Personengesellschaft. Nach der Rechtsprechung des BFH kommt dabei die Bruchteilsbetrachtung des § 39 Abs. 2 Nr. 2 AO zur Anwendung, wonach der an der Personengesellschaft beteiligten Kapitalgesellschaft neben dem Darlehen dann auch die Beteiligung an der darlehensnehmenden Gesellschaft durchgerechnet und quotenentsprechend unmittelbar zuzurechnen sind. Auf die eigentliche Beteiligung der Personengesellschaft kommt es nicht mehr an. Zudem liegt ein Anwendungsfall des § 8b Abs. 6 KStG nicht vor." },
+      { text: "Merke: Bei einer Darlehensgewährung über eine Personengesellschaft ist für die Ermittlung der qualifizierten Beteiligung entscheidend, ob diese gewerblich tätig oder vermögensverwaltend ist. Nur bei einer gewerblichen Personengesellschaft ist für die Mitunternehmer-Kapitalgesellschaft für Zwecke des § 8b Abs. 3 Satz 4 KStG die „eigene“ Beteiligung der Personengesellschaft maßgeblich." },
+      { text: "Beispiel: Die A-GmbH ist zu 30 % an der B-GmbH & Co. KG beteiligt, daneben sind auch B und C zu jeweils 35 % an der Mitunternehmerschaft beteiligt. Die B-GmbH & Co. KG hält ihrerseits eine 30%ige Beteiligung an der C-GmbH. Diese gibt der C-GmbH in 2026 ein Darlehen von 1.000.000 €, welches in 2026 notleidend wird und vollständig abgeschrieben werden muss." },
+      { text: "Lösung – Auswirkungen bei der A-GmbH: Die Darlehensabschreibung unterliegt § 8b Abs. 3 Satz 4 KStG, da der Darlehensgeber und Gesellschafter (B-GmbH & Co. KG) zu mehr als 25 % an der C-GmbH beteiligt ist. Über § 8b Abs. 6 KStG gilt dies für die Einkommensermittlung der A-GmbH entsprechend, soweit ihr über den 30%igen Mitunternehmeranteil diese Gewinnminderung zuzurechnen ist. Daher ist der steuerliche Gewinnanteil der A-GmbH nach § 8b Abs. 3 Satz 4 KStG um 300.000 € (30 % von 1.000.000 €) zu erhöhen. Das aus Sicht der A-GmbH lediglich eine mittelbare Beteiligung an der C-GmbH von 9 % vorliegt, ist unerheblich. Denn § 8b Abs. 3 Satz 4 KStG stellt auf die qualifizierte Beteiligung des Gesellschafters und Darlehensnehmers ab, was vorliegend auch unter ertragsteuerlichen Gesichtspunkten die B-GmbH & Co. KG selbst ist." },
+      { text: "Lösung – Auswirkungen bei B und C: Das Darlehen der Personengesellschaft wird den beiden Mitunternehmern entsprechend ihrer Beteiligungsquote zugerechnet, weil für Zwecke des § 3c Abs. 2 Satz 2 EStG auf den jeweiligen Steuerpflichtigen abgestellt werden muss. Daraus würde sich aus Sicht der beiden Mitunternehmer eine Beteiligungsquote von 10,5 % (35 % von 30 %) gegeben, so dass § 3c Abs. 2 Satz 2 EStG nicht zur Anwendung kommen kann. Der Darlehensverlust wäre daher bei den Mitunternehmern in voller Höhe abziehbar." },
+      { text: "Abwandlung: Die B-GmbH & Co. KG ist lediglich vermögensverwaltend tätig und ist nicht gewerblich geprägt." },
+      { text: "Lösung: In diesem Fall ist der an der Personengesellschaft beteiligten A-GmbH das gesamte Vermögen der B-GmbH & Co. KG nach § 39 Abs. 2 Nr. 2 AO bereits quotenentsprechend zuzurechnen. Dazu gehört neben dem anteiligen Darlehensanspruch auch die Beteiligung an der C-GmbH, was zu einer unmittelbaren 9%igen Beteiligung der A-GmbH führt. Damit kann § 8b Abs. 3 Satz 4 KStG auf die anteilige Gewinnminderung von 300.000 € nicht angewendet werden und mindert das Einkommen der A-GmbH entsprechend. Bei den natürlichen Personen scheidet – wie im Grundfall – die Anwendung des § 3c Abs. 2 Satz 2 EStG ebenfalls mangels qualifizierter Beteiligung des Steuerpflichtigen aus." },
+      { typ: "tabelle", spalten: ["Rechtsnatur der darlehensgebenden Personengesellschaft", "Maßgebliche Beteiligung", "Quote", "Folge für die A-GmbH (30 % Anteil)"], zeilen: [
+        ["gewerblich (Mitunternehmerschaft)", "eigene Beteiligung der Personengesellschaft an der C-GmbH", "30 % – über 25 %", "§ 8b Abs. 3 Satz 4 KStG greift über § 8b Abs. 6 KStG; Hinzurechnung von 300.000 €"],
+        ["vermögensverwaltend, nicht geprägt", "durchgerechnete Beteiligung der A-GmbH nach § 39 Abs. 2 Nr. 2 AO", "9 % – unter 25 %", "kein Abzugsverbot; die anteilige Gewinnminderung von 300.000 € mindert das Einkommen"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Derselbe Sachverhalt, dieselben Beteiligungsquoten – und ein um 300.000 € abweichendes Einkommen, je nachdem, ob die Personengesellschaft gewerblich tätig oder nur vermögensverwaltend ist. Der Grund liegt darin, **wer** steuerlich als Darlehensgeber und Gesellschafter gilt. Bei der gewerblichen Personengesellschaft ist sie es selbst, weil sie Gewinnermittlungssubjekt ist; ihre 30 % überschreiten die Grenze. Bei der vermögensverwaltenden zerlegt § 39 Abs. 2 Nr. 2 AO das Gesamthandsvermögen, und übrig bleiben für die A-GmbH durchgerechnete 9 %. Bemerkenswert ist, dass die **vermögensverwaltende** Gestaltung hier die günstigere ist – ein seltener Fall, in dem die fehlende Gewerblichkeit steuerlich hilft." },
+      { text: "Anmerkung zur Wortlautanalyse der Quelle (eigene Ergänzung): Die Begründung für die Behandlung der gewerblichen Personengesellschaft ist eine feine Wortlautbeobachtung, die leicht übersehen wird: § 8b Abs. 3 Satz 4 KStG spricht vom **„Gesellschafter“**, § 3c Abs. 2 Satz 2 EStG dagegen vom **„Steuerpflichtigen“**. Weil eine Personengesellschaft Gesellschafterin, aber nicht Steuerpflichtige sein kann, greift die körperschaftsteuerliche Norm auf ihrer Ebene, die einkommensteuerliche dagegen erst bei den Mitunternehmern. Genau daraus folgt das gespaltene Ergebnis des Grundfalls: Bei der A-GmbH greift das Abzugsverbot in voller Höhe, bei B und C mit ihren durchgerechneten 10,5 % überhaupt nicht." },
+      { text: "Rechenproben (eigene Ergänzung): 30 % von 1.000.000 € = 300.000 € Hinzurechnung bei der A-GmbH. Ihre mittelbare Quote beträgt 30 % × 30 % = 9 %, die der Mitunternehmer B und C jeweils 35 % × 30 % = 10,5 % – beide unter 25 %, weshalb § 3c Abs. 2 Satz 2 EStG bei ihnen ausscheidet. Alle Zahlen der Quelle gehen auf." },
+    ],
+  },
+  {
+    id: "kst-t2-31",
+    kapitel: "31",
+    abschnittNr: "4.2.2.2",
+    title: "4.2.2.2 Zeitpunkt der wesentlichen Beteiligung – „beteiligt ist“ und „beteiligt war“",
+    thema: "Die Quote muss zu irgendeinem Zeitpunkt der Darlehenslaufzeit über 25 % gelegen haben – vorher oder im Zeitpunkt der Gewinnminderung. Ein Darlehen kann deshalb nachträglich in die Vorschrift hineinwachsen und bleibt darin, auch wenn die Beteiligung längst verkauft ist",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil II (Hamacher), Abschnitt 4.2.2.2 · Stand 05/2026",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 3 Satz 4 KStG",
+      "BFH vom 12.03.2014, BStBl. II 2014, 859",
+      "H 8b KStH „Abzugsverbot von Gewinnminderungen im Zusammenhang mit Gesellschafterdarlehen“",
+    ],
+    themen: ["Zeitpunkt der Beteiligung", "Hineinwachsen", "Ehemaliger Gesellschafter", "Beteiligung bei Hingabe", "Nichtgesellschafter"],
+    bloecke: [
+      { text: "§ 8b Abs. 3 Satz 4 KStG stellt für die Prüfung der qualifizierten Beteiligung des Darlehensgebers ausschließlich darauf ab, dass dieser an der darlehensnehmenden Gesellschaft zu mehr als 25 % unmittelbar oder mittelbar „beteiligt ist oder war“. Es ist daher erforderlich, dass die qualifizierte Beteiligung während der Darlehenslaufzeit zu irgendeinem Zeitpunkt bestanden hat. Vorausgesetzt wird lediglich, dass der Darlehensgeber bereits im Zeitpunkt der Darlehenshingabe an der darlehensnehmenden Gesellschaft beteiligt ist, wobei die Beteiligungsquote dabei noch unmaßgeblich ist. Ausgeschlossen sind aber die Fälle, in denen ein Nichtgesellschafter dieses Darlehen hingibt. Dies führt dazu, dass die qualifizierte Beteiligung entweder" },
+      { text: "• im Zeitpunkt der Gewinnminderung vorliegt (beteiligt ist)" },
+      { text: "• oder während der Darlehenslaufzeit vorgelegen hat (beteiligt war)." },
+      { text: "Unstrittig sind die Fälle, bei denen der Darlehensgeber von Anfang an zu mehr als 25 % an der darlehensnehmenden Gesellschaft beteiligt ist und sich die Beteiligungsquote bis zum Eintritt der Gewinnminderung nicht mehr verändert. Anders ist dies hingegen in den anderen Fällen, in denen die Beteiligungsquote schwankt." },
+      { text: "Merke: Die qualifizierte Beteiligung muss während der Darlehenslaufzeit zu irgendeinem Zeitpunkt vorgelegen haben. Dies kann entweder beim Darlehensausfall oder in der Vergangenheit der Fall gewesen sein." },
+      { typ: "titel", text: "4.2.2.2.1 Beteiligt ist" },
+      { text: "Die qualifizierte Beteiligung gegeben, wenn die Beteiligungsquote im Zeitpunkt der Gewinnminderung mehr als 25 % beträgt. Dies ist der späteste Zeitpunkt, zu welchem die qualifizierte Beteiligung vorliegen muss. Dabei spielt es keine Rolle, wie hoch die Beteiligungsquote im Zeitpunkt der Darlehenshingabe gewesen ist, so dass ein Darlehen auch durch eine nachträgliche Erhöhung der Beteiligungsquote in den Anwendungsbereich dieser Vorschrift hineinwachsen kann. (Das fehlende „ist“ im ersten Satz steht so in der Quelle.)" },
+      { text: "Beispiel: Die A-GmbH gibt ihrer B-GmbH in 2005 ein Darlehen über 1.000.000 €. Im Zeitpunkt der Darlehensvergabe ist die A-GmbH an der B-GmbH zu 20 % beteiligt. In 2007 erwirbt die A-GmbH zu ihrer Beteiligung weitere 50%-Anteile hinzu. Aufgrund einer wirtschaftlichen Schieflage der B-GmbH muss die A-GmbH in ihrer Bilanz auf den 31.12.2026 eine Teilwertabschreibung in voller Höhe vornehmen." },
+      { text: "Lösung: Die Teilwertabschreibung unterliegt in 2026 der Einschränkung des § 8b Abs. 3 Satz 4 KStG. Entscheidend dafür ist, dass die A-GmbH im Zeitpunkt der Gewinnminderung (2026) qualifiziert an der B-GmbH beteiligt ist. Die Beteiligungsquote im Zeitpunkt der Darlehenshingabe ist unerheblich." },
+      { typ: "titel", text: "4.2.2.2.2 Beteiligt war" },
+      { text: "Für Zwecke der Vorschrift ist es ausreichend, wenn die qualifizierte Beteiligung während der Darlehenslaufzeit zu irgendeinem Zeitpunkt vorgelegen hat, auch wenn diese im Zeitpunkt der Gewinnminderung nicht mehr besteht. Der Zeitraum, über den die qualifizierte Beteiligung tatsächlich bestanden hat, ist hierfür ebenfalls unmaßgeblich." },
+      { text: "Daher können auch Darlehensforderungen ehemaliger qualifiziert beteiligter Gesellschafter unter den Anwendungsbereich dieser Vorschrift fallen, wenn diese ihre Anteile vor Eintritt der Gewinnminderung veräußert haben oder sich die qualifizierte Beteiligung unter die maßgebliche Quote bewegt hat. Voraussetzung ist wiederum nur, dass der Darlehensgeber im Zeitpunkt der Darlehensgewährung an der darlehensnehmenden Gesellschaft beteiligt gewesen ist." },
+      { text: "Beispiel: Die A-GmbH ist seit Jahren zu 50 % an der B-GmbH beteiligt. In 2005 gibt sie der B-GmbH ein Darlehen über 1.000.000 €. In 2007 sinkt die Beteiligung aufgrund Anteilsverkäufe auf 20 %. Die B-GmbH gerät in 2026 in eine wirtschaftliche Schieflage, so dass die A-GmbH gezwungen ist, in ihrer Bilanz auf den 31.12.2026 eine vollständige Teilwertabschreibung vorzunehmen." },
+      { text: "Lösung: Die Teilwertabschreibung des Gesellschafterdarlehens unterliegt in 2026 den Einschränkungen des § 8b Abs. 3 Satz 4 KStG, da die A-GmbH zu irgendeinem Zeitpunkt der Darlehenslaufzeit qualifiziert an der B-GmbH beteiligt war. Dabei ist es unerheblich, dass im Zeitpunkt der Gewinnminderung keine qualifizierte Beteiligung vorgelegen hat." },
+      { typ: "tabelle", spalten: ["Quote bei Hingabe", "Quote später", "Quote bei Gewinnminderung", "§ 8b Abs. 3 Satz 4 KStG", "Grund"], zeilen: [
+        ["20 %", "70 % ab 2007", "70 %", "greift", "„beteiligt ist“ – das Darlehen wächst in die Vorschrift hinein"],
+        ["50 %", "20 % ab 2007", "20 %", "greift", "„beteiligt war“ – die Quote lag irgendwann über 25 %"],
+        ["0 % (Nichtgesellschafter)", "beliebig", "beliebig", "greift nicht", "Beteiligung im Zeitpunkt der Hingabe ist Grundvoraussetzung"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie ordnet die drei Konstellationen, die die Quelle in den beiden Unterabschnitten entwickelt. Die Vorschrift ist damit in zeitlicher Hinsicht außerordentlich weit: Sie greift nach vorn (das Darlehen wächst durch späteren Zukauf hinein) und nach hinten (sie bleibt anwendbar, wenn die Beteiligung längst verkauft ist), und auf die **Dauer** der qualifizierten Beteiligung kommt es überhaupt nicht an – ein einziger Tag genügt. Die einzige Schranke ist die Grundvoraussetzung, dass der Darlehensgeber im Zeitpunkt der Hingabe überhaupt beteiligt war; ein Darlehen des Nichtgesellschafters bleibt außerhalb, auch wenn er später Mehrheitsgesellschafter wird." },
+      { text: "Anmerkung zum Vergleich mit § 8b Abs. 4 KStG (eigene Ergänzung): Die zeitliche Betrachtung ist damit das Gegenstück zur Stichtagsregel der Streubesitzgrenze – und wieder gilt das Umgekehrte. Absatz 4 prüft **einen** Zeitpunkt, den 01.01., und alles davor oder danach ist gleichgültig. Absatz 3 Satz 4 prüft die **gesamte Laufzeit** und lässt jeden beliebigen Moment genügen. Wer die eine Regel auf die andere Vorschrift überträgt, kommt regelmäßig zum falschen Ergebnis." },
     ],
   },
 ];

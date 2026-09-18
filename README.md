@@ -2389,7 +2389,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil1`
 - **KSt Teil II (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil II (§ 8b KStG)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil II: Beteiligungserträge § 8b KStG (2026)“**
-  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 29 Kapitel mit 349 Abschnitten und 23
+  (Stand 05/2026) im Wortlaut – **in Arbeit**, derzeit 31 Kapitel mit 377 Abschnitten und 25
   Tabellen. § 8b KStG ist die Vorschrift, die das Körperschaftsteuerrecht zum System macht: Sie
   verhindert, dass ein einmal versteuerter Gewinn auf dem Weg durch eine Beteiligungskette
   mehrfach besteuert wird, und zieht daraus konsequent auch die Kehrseite – wer die Gewinne aus
@@ -2571,6 +2571,21 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   auf eine Beherrschung der Zwischengesellschaft ankäme (40 % × 80 % = 32 %). Eine Übersicht stellt
   die beiden Beteiligungsprüfungen gegenüber, die in derselben Vorschrift stehen und nach
   entgegengesetzten Regeln funktionieren.
+  Gibt eine **Personengesellschaft** das Darlehen, entscheidet ihre Rechtsnatur über das Ergebnis:
+  Bei der gewerblichen Mitunternehmerschaft zählt ihre **eigene** Beteiligung (30 % – Abzugsverbot
+  greift über § 8b Abs. 6 KStG), bei der vermögensverwaltenden zerlegt § 39 Abs. 2 Nr. 2 AO das
+  Gesamthandsvermögen und übrig bleiben durchgerechnete 9 % (kein Abzugsverbot). Derselbe
+  Sachverhalt, ein um 300.000 € abweichendes Einkommen – und ausnahmsweise ist die fehlende
+  Gewerblichkeit die günstigere Gestaltung. Die Begründung liegt in einer feinen Wortlautbeobachtung
+  der Quelle: § 8b Abs. 3 Satz 4 KStG spricht vom **„Gesellschafter“**, § 3c Abs. 2 Satz 2 EStG vom
+  **„Steuerpflichtigen“** – deshalb greift die körperschaftsteuerliche Norm auf Ebene der
+  Personengesellschaft, die einkommensteuerliche erst bei den Mitunternehmern (die mit 10,5 %
+  unter der Grenze bleiben). **Zeitlich** ist die Vorschrift außerordentlich weit: Sie greift nach
+  vorn, weil ein Darlehen durch späteren Zukauf in sie hineinwachsen kann, und nach hinten, weil
+  sie anwendbar bleibt, wenn die Beteiligung längst verkauft ist; auf die Dauer der qualifizierten
+  Beteiligung kommt es nicht an. Einzige Schranke ist, dass der Darlehensgeber im Zeitpunkt der
+  Hingabe überhaupt beteiligt war. Das ist wiederum das Gegenstück zur Stichtagsregel des
+  Absatzes 4, die genau **einen** Tag prüft.
   Prüfung: `npm run check:k2-kst-teil2`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -10617,8 +10617,47 @@ Senats, die die Quelle hier aber nicht ausspricht, sondern auf die Abschnitte 3.
 verschiebt. Der Datensatz benennt die Lücke und verweist mit, statt sie stillschweigend zu
 füllen.
 
-**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.2.2; ganz offen sind die
+**Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil II (Hamacher), Abschnitte 4.2.2.1 (Fortsetzung) und 4.2.2.2 – Personengesellschaft und Zeitpunkt
+
+Quelle: dieselbe Datei; übernommen als Kapitel 30 und 31. Prüfung:
+`npm run check:k2-kst-teil2` (31 Kapitel, 377 Blöcke, 25 Tabellen).
+
+**Der lehrreichste Fall dieser Runde** steht im Abschnitt 4.2.2.1: Derselbe Sachverhalt mit
+denselben Beteiligungsquoten führt zu einem um 300.000 € abweichenden Einkommen, je nachdem, ob
+die darlehensgebende Personengesellschaft gewerblich tätig oder nur vermögensverwaltend ist. Bei
+der gewerblichen Mitunternehmerschaft ist sie selbst Darlehensgeberin und Gesellschafterin, ihre
+30 % überschreiten die Grenze; bei der vermögensverwaltenden zerlegt § 39 Abs. 2 Nr. 2 AO das
+Gesamthandsvermögen, und übrig bleiben für die A-GmbH durchgerechnete 9 %. Der Datensatz ordnet
+beides tabellarisch und hebt hervor, dass hier ausnahmsweise die **fehlende Gewerblichkeit** die
+günstigere Gestaltung ist.
+
+**Eine feine Wortlautbeobachtung der Quelle**, die der Datensatz herausstellt, trägt dieses
+Ergebnis: § 8b Abs. 3 Satz 4 KStG spricht vom **„Gesellschafter“**, § 3c Abs. 2 Satz 2 EStG
+dagegen vom **„Steuerpflichtigen“**. Weil eine Personengesellschaft Gesellschafterin, aber nicht
+Steuerpflichtige sein kann, greift die körperschaftsteuerliche Norm auf ihrer Ebene, die
+einkommensteuerliche erst bei den Mitunternehmern. Daraus folgt das gespaltene Ergebnis des
+Grundfalls: volles Abzugsverbot bei der A-GmbH, gar keines bei B und C mit ihren durchgerechneten
+10,5 %.
+
+**Die zeitliche Reichweite des § 8b Abs. 3 Satz 4 KStG** ist im Datensatz in einer Tabelle
+zusammengefasst und als außerordentlich weit eingeordnet: Die Vorschrift greift **nach vorn** (ein
+Darlehen wächst durch späteren Zukauf in sie hinein) und **nach hinten** (sie bleibt anwendbar,
+wenn die Beteiligung längst verkauft ist), und auf die **Dauer** der qualifizierten Beteiligung
+kommt es überhaupt nicht an – ein einziger Tag genügt. Einzige Schranke ist die
+Grundvoraussetzung, dass der Darlehensgeber im Zeitpunkt der Hingabe überhaupt beteiligt war.
+
+**Wieder ein Gegensatz zu § 8b Abs. 4 KStG**, den der Datensatz eigens vermerkt: Die
+Streubesitzgrenze prüft **einen** Zeitpunkt, den 01.01., und alles davor oder danach ist
+gleichgültig; das Darlehensabzugsverbot prüft die **gesamte Laufzeit** und lässt jeden beliebigen
+Moment genügen. Wer die eine Regel auf die andere Vorschrift überträgt, kommt regelmäßig zum
+falschen Ergebnis.
+
+**Eine weitere Eigenheit der Quelle, wortlautgetreu übernommen und gekennzeichnet:** das fehlende
+„ist“ in „Die qualifizierte Beteiligung gegeben, wenn …“. Sämtliche Zahlen sind nachgerechnet und
+gehen auf.
 
 ### KSt Teil II (Hamacher), Abschnitte 4.2.1 und 4.2.2.1 – Gesellschafterdarlehen
 
