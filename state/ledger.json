@@ -2810,6 +2810,17 @@
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "18337971106257114",
       "veroeffentlicht": "2026-09-18T11:44:21.576Z"
+    },
+    {
+      "datum": "2026-09-18",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "fehler",
+      "thema": "istr-modul-istr-istr2-08",
+      "fach": "istr",
+      "titel": "Progressionsvorbehalt trotz Freistellung übersehen",
+      "medienId": "18560324404073908",
+      "veroeffentlicht": "2026-09-18T13:43:56.666Z"
     }
   ],
   "fachZaehler": {
