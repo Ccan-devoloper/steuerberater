@@ -261,6 +261,42 @@ function korrigiereRueckstellungskatalog(thema) {
   normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
+function korrigiereVorgesellschaft(thema) {
+  normErgaenzen(thema, "§ 1 Abs. 1 Nr. 1 KStG", "H 1.1 KStH");
+  const hinweis = "Die körperschaftsteuerliche Rückwirkung auf die notarielle Beurkundung gilt für die echte Vorgesellschaft, wenn die spätere Kapitalgesellschaft tatsächlich in das Handelsregister eingetragen wird. Scheitert die Eintragung endgültig, ist die Vorgesellschaft nach der BFH-Rechtsprechung nicht als Kapitalgesellschaft körperschaftsteuerpflichtig, sondern grundsätzlich nach den Regeln eines Einzelunternehmens bzw. einer Personengesellschaft zu behandeln.";
+  if (thema.typ === "quiz") {
+    thema.titel = "Wann beginnt die Körperschaftsteuerpflicht einer erfolgreich gegründeten GmbH?";
+    thema.kern = {
+      ...thema.kern,
+      frage: "Wann beginnt bei einer GmbH, die später tatsächlich in das Handelsregister eingetragen wird, die Körperschaftsteuerpflicht?",
+      erklaerung: `Bei erfolgreicher Eintragung bilden echte Vorgesellschaft und spätere GmbH steuerlich ein einheitliches Steuersubjekt; die Steuerpflicht reicht grundsätzlich bis zur notariellen Beurkundung des Gesellschaftsvertrags zurück. ${hinweis}`,
+    };
+    return;
+  }
+  if (thema.typ === "karteikarte") {
+    thema.kern = {
+      ...thema.kern,
+      antwort: `Vorgründungsgesellschaft: grundsätzlich eigenes transparent besteuertes Gebilde. Echte Vorgesellschaft: bei später erfolgreicher Registereintragung steuerliche Einheit mit der GmbH und grundsätzlich Körperschaftsteuerpflicht ab notarieller Beurkundung. ${hinweis}`,
+    };
+    return;
+  }
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Vorgründungsgesellschaft, Vorgesellschaft und eingetragene GmbH sind zeitlich und steuerlich zu trennen.",
+      "Bei einer später tatsächlich eingetragenen GmbH bilden echte Vorgesellschaft und GmbH steuerlich ein einheitliches Steuersubjekt; die Körperschaftsteuerpflicht reicht grundsätzlich bis zur notariellen Beurkundung zurück.",
+      hinweis,
+    ],
+    pruefschritte: [
+      "Vorgründungsphase bis zur notariellen Beurkundung abgrenzen.",
+      "Ab notarieller Beurkundung prüfen, ob eine echte Vorgesellschaft mit fortbestehender Eintragungsabsicht vorliegt.",
+      "Erfolgt die Handelsregistereintragung, Vorgesellschaft und GmbH steuerlich als einheitliches Steuersubjekt behandeln; Beginn grundsätzlich mit der notariellen Beurkundung.",
+      "Scheitert die Eintragung endgültig oder entfällt die Eintragungsabsicht, die Körperschaftsteuerpflicht nicht pauschal ab Beurkundung fortschreiben, sondern die Behandlung als Einzelunternehmen/Personengesellschaft prüfen.",
+    ],
+    merksatz: "Notar vor Register gilt nur bei der echten, erfolgreich zur GmbH führenden Vorgesellschaft. Scheitert die Eintragung, fehlt die rückwirkende Körperschaftsteuerpflicht der GmbH.",
+  };
+}
+
 function korrigiereLeasing4090(thema) {
   thema.titel = "Finanzierungsleasing: 40/90-Regel und Kaufoption";
   thema.kern = {
@@ -468,6 +504,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-formel-latente-steuern": korrigiereLatenteSteuern(thema); break;
       case "bilanz-formel-teileinkuenfte": korrigiereTeileinkuenfte(thema); break;
       case "kst-modul-kst-12": korrigiereVerein(thema); break;
+      case "kst-modul-kst-1": korrigiereVorgesellschaft(thema); break;
       case "bilanz-modul-k3-35": korrigiereElektroPkw(thema); break;
       case "bilanz-modul-k3-29": korrigiereRueckstellungskatalog(thema); break;
       case "ust-modul-ust-161": kennzeichneGastronomie(thema); break;
@@ -488,6 +525,8 @@ export function socialKorrekturenAnwenden(pool) {
     if (thema.typ === "karteikarte" && /Wie wird § 8b KStG technisch umgesetzt/i.test(thema.titel || "")) korrigiereAchtBTechnik(thema);
     if (/Vereinsbesteuerung/i.test(thema.titel || "") && thema.id !== "kst-modul-kst-12") korrigiereVerein(thema);
     if (thema.typ === "quiz" && /Welcher Vereinsbereich.*steuerpflichtig/i.test(thema.titel || "")) korrigiereVereinsQuiz(thema);
+    if (thema.typ === "quiz" && /Wann beginnt im Gründungsfall die unbeschränkte Körperschaftsteuerpflicht der GmbH/i.test(thema.titel || "")) korrigiereVorgesellschaft(thema);
+    if (thema.typ === "karteikarte" && /Vorgründung vs\. Vorgesellschaft/i.test(thema.titel || "")) korrigiereVorgesellschaft(thema);
 
     const kernText = JSON.stringify(thema.kern || {});
     const achtBThema = /§\s*8b/i.test(`${thema.titel || ""} ${(thema.normen || []).join(" ")}`);
