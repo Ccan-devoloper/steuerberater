@@ -10,53 +10,25 @@
    Gegliedert wird hier nach den Abschnitten der Quelle; jeder Abschnitt steht
    als eigener Eintrag.
 
-   STAND DER ÜBERNAHME: Die Kapitel 1 und 2 des Skripts sind VOLLSTÄNDIG
-   übernommen – die Formen der Organschaft (1.1, 1.2) und sämtliche
-   Voraussetzungen von den Tatbestandsmerkmalen über Organgesellschaft,
-   Organträger und finanzielle Eingliederung bis zum Gewinnabführungsvertrag
-   mit Mindestlaufzeit, Höhe der Abführung, tatsächlicher Durchführung,
-   Heilungsvorschrift, Verstoß und Beendigung (2.1 bis 2.5.10).
+   STAND DER ÜBERNAHME: Die Kapitel 1 bis 3 des Skripts sind VOLLSTÄNDIG
+   übernommen:
+   - Kapitel 1: die Formen der Organschaft (1.1, 1.2),
+   - Kapitel 2: sämtliche Voraussetzungen von den Tatbestandsmerkmalen über
+     Organgesellschaft, Organträger und finanzielle Eingliederung bis zum
+     Gewinnabführungsvertrag mit Mindestlaufzeit, Höhe der Abführung,
+     tatsächlicher Durchführung, Heilungsvorschrift, Verstoß und Beendigung
+     (2.1 bis 2.5.10),
+   - Kapitel 3: das Feststellungsverfahren (3.1), die Einkommensermittlung
+     bei der Organgesellschaft einschließlich der drei Nichtgeltungsfälle
+     des § 15 KStG, der Ausgleichszahlungen und der Gewinnausschüttungen
+     (3.2), die Auswirkungen beim Organträger einschließlich § 8c und § 8d
+     KStG (3.3), die organschaftlichen Mehr- und Minderabführungen mit
+     Einlagenlösung, mittelbarer Organschaft und Kettenorganschaft (3.4),
+     die vororganschaftlich verursachten Mehr- und Minderabführungen (3.5)
+     sowie die verunglückte Organschaft (3.6).
 
-   Aus Kapitel 3 sind übernommen:
-   - das Feststellungsverfahren (3.1),
-   - die Einkommensermittlung bei der Organgesellschaft VOLLSTÄNDIG, also
-     Ausgangsgröße, Schema und herkömmliche Tatbestände (3.2.1 bis 3.2.3), die
-     drei Nichtgeltungsfälle des § 15 KStG – Verlustabzug, Bruttomethode und
-     Zinsschranke (3.2.4) –, die Ausgleichszahlungen von den zivilrechtlichen
-     Grundlagen bis zu den Auswirkungen beim Minderheitsgesellschafter (3.2.5)
-     sowie die Gewinnausschüttungen der Organgesellschaft (3.2.6),
-   - aus den Auswirkungen beim Organträger die Einkommenszusammenrechnung
-     (3.3.1), die zeitliche Erfassung des Organeinkommens (3.3.2) und die
-     Besonderheiten bei Beteiligungserträgen (3.3.3) sowie die weiteren
-     Einzelfragen von der Rückstellung für die Verlustübernahme über die
-     Teilwertabschreibung, den Spendenabzug und die vorweggenommene
-     Gewinnabführung bis zur verdeckten Einlage (3.3.4).
-
-     Hinzu kommen § 8c KStG bei Organschaft mit dem unterjährigen Erwerb und
-     dem Erwerb mit Ablauf des Wirtschaftsjahres (3.3.5) sowie § 8d KStG bei
-     Organträger und Organgesellschaft (3.3.6). Damit sind die Auswirkungen
-     beim Organträger VOLLSTÄNDIG übernommen.
-   - aus den organschaftlichen Mehr- und Minderabführungen die
-     Begriffsbestimmung mit den bilanziellen Abweichungen und der
-     abweichenden BFH-Rechtsprechung (3.4.1), die Minderabführung (3.4.2),
-     die Mehrabführung (3.4.3), die Auswirkungen bei der
-     Organgesellschaft mit Einkommenswirkung und steuerlichem Einlagekonto
-     (3.4.4) sowie die Auswirkungen beim Organträger mit dem Übergang zur
-     Einlagenlösung, der Minderabführung als Einlage und der Mehrabführung
-     als Einlagenrückgewähr (3.4.5) sowie aus der mittelbaren Organschaft
-     alle vier Abschnitte von der Begriffsdefinition über die
-     Zwischengesellschaft und die Zusammenrechnung der Beteiligungen bis
-     zur Kettenorganschaft (3.4.6). Damit sind die organschaftlichen Mehr-
-     und Minderabführungen VOLLSTÄNDIG übernommen.
-   - aus den vororganschaftlich verursachten Mehr- und Minderabführungen
-     der Begriff, die Rechtsfolgen des § 14 Abs. 3 KStG und die
-     alle Abschnitte vom Begriff über die Rechtsfolgen des § 14 Abs. 3 KStG
-     und die Auswirkungen beim Organträger bis zu denen bei der
-     Organgesellschaft (3.5). Damit sind auch die vororganschaftlichen
-     Mehr- und Minderabführungen VOLLSTÄNDIG übernommen.
-
-   Es folgen die verunglückte Organschaft (3.6)
-   sowie Kapitel 4 zur gewerbesteuerlichen Organschaft. Der Campus weist den Stand aus.
+   Es folgt Kapitel 4 zur gewerbesteuerlichen Organschaft. Der Campus weist
+   den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -3366,6 +3338,118 @@ export const kstTeil6 = [
       { text: "Anmerkung zur Umkehrung als Grundmuster (eigene Ergänzung): Das zweite Beispiel ist das lehrreichste des ganzen Abschnitts, weil es **beide** Richtungen in einem einzigen Sachverhalt zeigt. In den Jahren 2025 bis 2028 schreibt die Handelsbilanz **schneller** ab als die Steuerbilanz – es entstehen **Minderabführungen** und damit Einlagen. Ab 2029 ist die Handelsbilanz **fertig**, während die Steuerbilanz weiterläuft – es entstehen **Mehrabführungen** und damit Ausschüttungen. Über die gesamte Laufzeit gleicht sich alles aus, doch die **steuerlichen Folgen sind gänzlich verschieden**: Die Einlagen bleiben einkommensneutral und erhöhen nur Buchwert und Einlagekonto, die Ausschüttungen lösen § 8b KStG, die Pauschale und Kapitalertragsteuer aus. Der Steuerpflichtige zahlt also in der zweiten Phase, was er in der ersten nicht gespart hat – ein Ergebnis, das allein aus der zeitlichen Verteilung folgt." },
       { text: "Anmerkung zum Ausschluss des § 27 Abs. 6 KStG (eigene Ergänzung): Der knappe Satz, § 27 Abs. 6 KStG sei auf die vororganschaftliche Mehrabführung **nicht** anwendbar, hat erhebliche Folgen und schließt an Abschnitt 3.4.4.2 an. Dort galten drei Durchbrechungen: keine Verwendungsreihenfolge, vorrangiger Abzug, möglicher Negativbestand. **Keine** davon greift hier. Die vororganschaftliche Mehrabführung ist eine **gewöhnliche Leistung** und durchläuft die reguläre Verwendungsreihenfolge des § 27 Abs. 1 Satz 3 KStG – erst der ausschüttbare Gewinn, dann das Einlagekonto, und ein **Negativbestand ist ausgeschlossen**. Das ist folgerichtig, denn sie ist eben keine bloße bilanzielle Korrekturgröße, sondern eine echte Ausschüttung." },
       { text: "Anmerkung zum Vergleich beider Rechtsformen (eigene Ergänzung): Die beiden Aufstellungen zum ersten Beispiel erlauben einen unmittelbaren Vergleich, der sonst selten so klar wird. Bei derselben Mehrabführung von 10.000 € beträgt die Einkommenswirkung bei einer **Kapitalgesellschaft** nur **500 €** (die 5%-Pauschale), bei einer **natürlichen Person** dagegen **6.000 €** (der steuerpflichtige Teil von 60 %) – also das **Zwölffache**. Hinzu kommt, dass bei der natürlichen Person zusätzlich der Einkommensteuertarif statt der 15 % Körperschaftsteuer greift. Die Rechtsform des Organträgers entscheidet damit über die Belastung vororganschaftlicher Mehrabführungen weit stärker als über die der laufenden Organeinkommen." },
+    ],
+  },
+  {
+    id: "kst-t6-66",
+    kapitel: "66",
+    abschnittNr: "3.6.1",
+    title: "3.6.1 Verunglückte Organschaft – Begriff",
+    thema: "Wird die Organschaft nicht anerkannt, gelten für beide Gesellschaften wieder die herkömmlichen Regeln; innerhalb der Mindestlaufzeit wirkt das auf alle Vorjahre zurück",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.6.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 1 KStG",
+      "§ 14 Abs. 1 Nr. 3 KStG",
+      "§ 301 AktG",
+    ],
+    themen: ["verunglückte Organschaft", "Rückwirkung", "Mindestlaufzeit", "herkömmliche Regeln"],
+    bloecke: [
+      { typ: "titel", text: "3.6 Verunglückte Organschaft" },
+      { typ: "titel", text: "3.6.1 Begriff" },
+      { text: "Wird die Organschaft steuerlich **nicht anerkannt**, führt dies zu einer **verunglückten Organschaft**. Dabei ist **unerheblich**, ob dies auf den Tatbeständen des § 14 Abs. 1 KStG oder auf einer **fehlerhaften Gewinnabführung** beruht." },
+      { text: "Rechtsfolge dessen ist, dass der bisherige Organträger und die bisherige Organgesellschaft wieder **nach herkömmlichen Regeln** behandelt werden. Erfolgt dieser Verstoß **innerhalb der 5jährigen Mindestlaufzeit** i.S. des § 14 Abs. 1 Nr. 3 KStG, gelten diese Grundsätze auch für **sämtliche Vorzeiträume**, weil die Organschaft dann **rückwirkend** nicht mehr anerkannt wird." },
+      { text: "Anmerkung zur Zäsur der Mindestlaufzeit (eigene Ergänzung): Der Abschnitt fasst in zwei Sätzen zusammen, was Abschnitt 2.5.8 ausführlich entwickelt hat, und die Zäsur ist der praktisch entscheidende Punkt. **Innerhalb** der fünf Jahre vernichtet ein Verstoß **alles** – auch längst bestandskräftig veranlagte Vorjahre sind nach § 175 Abs. 1 Satz 1 Nr. 2 AO zu ändern. **Danach** trifft er nur das laufende Jahr. Für den Steuerpflichtigen bedeutet das ein Risiko, das mit jedem Jahr der Mindestlaufzeit **wächst**: Im fünften Jahr steht die gesamte Steuerwirkung von fünf Veranlagungszeiträumen auf dem Spiel." },
+      { text: "Anmerkung zur Gleichbehandlung beider Fehlerarten (eigene Ergänzung): Dass es **unerheblich** ist, woran die Organschaft scheitert, verdient Beachtung, weil die beiden Fehlerquellen sehr verschiedenen Charakter haben. Ein Mangel der **Tatbestandsvoraussetzungen** – etwa eine unterbrochene finanzielle Eingliederung oder ein nicht eingetragener Vertrag – liegt regelmäßig offen zutage. Ein **Durchführungsmangel** dagegen zeigt sich oft erst Jahre später bei einer Betriebsprüfung, wenn ein Bilanzierungsfehler aufgedeckt wird. Die Rechtsfolge ist dieselbe, das praktische Risiko aber ungleich verteilt – und genau deshalb ist die **Heilungsvorschrift** des § 14 Abs. 1 Nr. 3 Sätze 4 ff. KStG (Abschnitt 2.5.7) so bedeutsam." },
+    ],
+  },
+  {
+    id: "kst-t6-67",
+    kapitel: "67",
+    abschnittNr: "3.6.2",
+    title: "3.6.2 Verunglückte Organschaft – bisherige Gewinnabführung",
+    thema: "Die tatsächlich vorgenommene Gewinnabführung wird zur verdeckten Gewinnausschüttung; eine Rückforderung beseitigt sie nicht, sondern ist selbst eine verdeckte Einlage",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.6.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 301 AktG",
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 27 Abs. 5 KStG",
+      "§ 8b Abs. 1 Satz 1 KStG",
+      "§ 8b Abs. 1 Satz 2 KStG",
+      "§ 8b Abs. 4 Satz 1 KStG",
+      "§ 8b Abs. 5 Satz 1 KStG",
+      "BFH vom 06.08.1981, BStBl. 1981 II, 599",
+    ],
+    themen: ["verdeckte Gewinnausschüttung", "Beteiligungsertrag", "Zufluss", "Rückforderung", "materielle Korrespondenz"],
+    bloecke: [
+      { typ: "titel", text: "3.6.2 Bisherige Gewinnabführung" },
+      { text: "Die **tatsächlich vorgenommene handelsrechtliche Gewinnabführung** i.S. des § 301 AktG (d.h. **nicht**: das steuerliche Einkommen) wird als **verdeckte Gewinnausschüttung** an den Organträger behandelt. Die Organgesellschaft erhöht danach ihr Einkommen nach § 8 Abs. 3 Satz 2 KStG um den Betrag des fälschlicherweise abgeführten Gewinnes, weil die Gewinnabführung zu einer **Gewinnminderung** geführt hat." },
+      { text: "Beim Anteilseigner wird die bisherige „Gewinnabführung“ daher als **Beteiligungsertrag** i.S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG behandelt, **sobald diese bei ihm zugeflossen** ist. Dafür ist auf die **Fälligkeit des Anspruchs** abzustellen. Eine **Verwendung des steuerlichen Einlagekontos** dürfte aufgrund der **Verwendungsfestschreibung** des § 27 Abs. 5 KStG **ausgeschlossen** sein." },
+      { text: "Diese Grundsätze gelten **selbst dann**, wenn die Organgesellschaft eine **Rückforderung** gegen den Organträger aktiviert. Diese stellt lediglich eine **Einlageforderung** dar, welche die verwirklichte verdeckte Gewinnausschüttung **nicht mehr beseitigen** kann. Die Bezahlung der Rückforderung führt daher zu einer verdeckte Einlage des Organträgers (so in der Quelle; im Akkusativ müsste es „verdeckten Einlage“ heißen) – BFH vom 06.08.1981, BStBl. 1981 II, 599." },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH ist seit 2014 eine Organgesellschaft der B-GmbH. In 2025 wird ein handelsrechtlicher Gewinn von 400.000 € erzielt und in 2026 entsprechend abgeführt. Bei der Ermittlung der Gewinnabführung ist aber ein schwerwiegender Fehler unterlaufen, welcher nicht korrigiert werden kann." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Aufgrund des handelsbilanziellen Fehlers wird der unzutreffende Gewinn abgeführt, was einen **Durchführungsmangel** der Organschaft nach sich zieht. Daher scheitert **ab 2025** die steuerliche Anerkennung des Organschaftsverhältnisses, was aber zumindest die **Vorjahre unberührt** lässt. Daher sind für Zwecke der Einkommensermittlung die herkömmlichen Grundsätze anzuwenden." },
+      { text: "Bei der A-GmbH ist daher das Einkommen nach allgemeinen Grundsätzen zu ermitteln. Dabei ist die gewinnwirksam gebuchte Gewinnabführung von 400.000 € eine **verdeckte Gewinnausschüttung** an die B-GmbH, die nach § 8 Abs. 3 Satz 2 KStG im Rahmen der Einkommensermittlung für 2025 wieder **außerbilanziell hinzuzurechnen** ist. Das steuerliche Einkommen beträgt danach (ohne etwaige sonstige Korrekturen) **500.000 €** (so in der Quelle; nach dem Sachverhalt ergeben sich 400.000 € – siehe die eigene Nachrechnung unten)." },
+      { text: "Bei der B-GmbH wird die in 2026 zugeflossene Gewinnabführung als **Beteiligungsertrag** i.S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG behandelt. Denn dieser Anspruch wird **erst mit der Feststellung des Jahresabschlusses** der A-GmbH fällig. Der Bezug von 400.000 € ist nach § 8b Abs. 1 Satz 1 KStG i.V. mit § 8b Abs. 4 Satz 1 KStG **steuerfrei** (so in der Quelle; § 8b Abs. 4 Satz 1 KStG ordnet der Sache nach die Steuerpflicht der Streubesitzdividende an – gemeint ist, dass er der Steuerfreiheit nicht entgegensteht), wobei die Auswirkungen der **materiellen Korrespondenz** i.S. des § 8b Abs. 1 Satz 2 KStG zu beachten sind. Gleichzeitig kommt die **Betriebsausgabenpauschalierung** des § 8b Abs. 5 Satz 1 KStG zur Anwendung, so dass das steuerliche Einkommen daraus **20.000 €** beträgt." },
+      { typ: "tabelle", spalten: ["Ebene", "Folge der verunglückten Organschaft"], zeilen: [
+        ["A-GmbH (bisherige Organgesellschaft)", "die abgeführten 400.000 € sind vGA und nach § 8 Abs. 3 Satz 2 KStG hinzuzurechnen"],
+        ["Zeitpunkt bei der A-GmbH", "Veranlagungszeitraum 2025 – Jahr der Gewinnentstehung"],
+        ["B-GmbH (bisheriger Organträger)", "Beteiligungsertrag nach § 20 Abs. 1 Nr. 1 Satz 2 EStG"],
+        ["Zeitpunkt bei der B-GmbH", "Veranlagungszeitraum 2026 – Zufluss mit Fälligkeit, also Feststellung des Jahresabschlusses"],
+        ["Steuerfreiheit", "§ 8b Abs. 1 Satz 1 KStG, mit der Einschränkung der materiellen Korrespondenz nach Satz 2"],
+        ["Pauschale", "5 % von 400.000 € = 20.000 €"],
+        ["Einlagekonto", "Verwendung wegen der Verwendungsfestschreibung des § 27 Abs. 5 KStG ausgeschlossen"],
+      ] },
+      { text: "Eigene Nachrechnung (eigene Ergänzung): Die Angabe der Quelle, das steuerliche Einkommen der A-GmbH betrage 500.000 €, lässt sich aus dem Sachverhalt **nicht herleiten**. Der handelsrechtliche Gewinn beträgt 400.000 € und wird vollständig abgeführt, so dass der Jahresüberschuss 0 € beträgt; die außerbilanzielle Hinzurechnung der vGA von 400.000 € führt zu einem Einkommen von **400.000 €**. Die Quelle stellt ihre Zahl selbst unter den Vorbehalt „ohne etwaige sonstige Korrekturen“, was weitere Posten gerade **ausschließt**. Die Angabe von 20.000 € beim Organträger ist dagegen zutreffend: 5 % von 400.000 €." },
+      { text: "Anmerkung zur Maßgeblichkeit der Abführung statt des Einkommens (eigene Ergänzung): Die Quelle betont ausdrücklich, dass die **handelsrechtliche Abführung** und **nicht** das steuerliche Einkommen zur vGA wird – ein Punkt, der in der Klausur leicht untergeht. Der Grund ist einfach: Ohne Organschaft gibt es kein zuzurechnendes Organeinkommen mehr; was tatsächlich geflossen ist, ist allein die **Abführung**, und genau sie hat den Gewinn der Gesellschaft gemindert. Die Differenz zwischen beiden Größen, die während der Organschaft zu Mehr- und Minderabführungen führte, verliert damit ihre Bedeutung – bei der verunglückten Organschaft zählt nur noch der **tatsächlich gezahlte** Betrag." },
+      { text: "Anmerkung zum Auseinanderfallen der Jahre (eigene Ergänzung): Das Beispiel zeigt eine Verschiebung, die für beide Seiten verschiedene Veranlagungszeiträume betrifft. Bei der **Organgesellschaft** wirkt die Hinzurechnung im Jahr der **Gewinnentstehung** (2025), weil dort die Gewinnminderung gebucht wurde. Beim **Organträger** wirkt der Beteiligungsertrag erst im Jahr des **Zuflusses** (2026), und der richtet sich nach der **Fälligkeit** – also nach der Feststellung des Jahresabschlusses. Dasselbe Muster begegnete schon bei der vororganschaftlichen Mehrabführung (Abschnitt 3.5.3.1), wo Zufluss und Kapitalertragsteuer auseinanderfielen. Wer beide Seiten in demselben Jahr erfasst, rechnet falsch." },
+      { text: "Anmerkung zur Rückforderung und zur Verwendungsfestschreibung (eigene Ergänzung): Zwei Hinweise der Quelle verschließen dem Steuerpflichtigen nachträgliche Rettungsversuche. Erstens kann eine **Rückforderung** die vGA nicht mehr beseitigen – sie ist ein **neuer** Vorgang und selbst eine verdeckte Einlage; die Rechtsprechung dazu stammt bereits aus 1981. Zweitens ist die **Einlagenrückgewähr** praktisch versperrt, weil § 27 Abs. 5 KStG die einmal bescheinigte Verwendung **festschreibt**: Für die vermeintliche Gewinnabführung wurde seinerzeit keine Steuerbescheinigung über eine Einlagenverwendung erteilt, und das lässt sich nicht nachholen. Die verunglückte Organschaft führt deshalb nahezu zwangsläufig zur **vollen Ausschüttungsbesteuerung**." },
+    ],
+  },
+  {
+    id: "kst-t6-68",
+    kapitel: "68",
+    abschnittNr: "3.6.3",
+    title: "3.6.3 Verunglückte Organschaft – bisherige Verlustübernahme",
+    thema: "Der Verlustausgleich wird zur verdeckten Einlage: bei der Organgesellschaft einkommensneutral über § 8 Abs. 3 Satz 3 KStG, beim Organträger als nachträgliche Anschaffungskosten",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.6.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 302 AktG",
+      "§ 8 Abs. 3 Satz 3 KStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "§ 6 Abs. 6 Satz 2 EStG",
+      "§ 27 KStG",
+      "§ 14 Abs. 1 Nr. 3 KStG",
+    ],
+    themen: ["verdeckte Einlage", "Verlustübernahme", "Einlagekonto", "Anschaffungskosten", "Heilung"],
+    bloecke: [
+      { typ: "titel", text: "3.6.3 Bisherige Verlustübernahme" },
+      { text: "Hat der Organträger den Verlust ausgeglichen, führt dies insoweit zu einer **verdeckten Einlage**. Diese hat bei der Organgesellschaft **keine steuerliche Auswirkung**, weil ihr Einkommen in dieser Höhe nach § 8 Abs. 3 Satz 3 KStG zu **mindern** ist. Dadurch wird der handelsbilanziell als **Ertrag** erfasste Betrag im Rahmen der Einkommensermittlung wieder **eliminiert**. Das steuerliche Einlagekonto erhöht sich **beim tatsächlichen Zufluss** entsprechend." },
+      { text: "Beim Organträger erhöhen sich die **Beteiligungsanschaffungskosten** entsprechend (§ 6 Abs. 6 Satz 2 EStG)." },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH ist seit 2014 eine Organgesellschaft der B-GmbH. In 2025 wird ein handelsrechtlicher Verlust von 400.000 € durch den Organträger in 2026 ausgeglichen. Im Rahmen der handelsrechtlichen Jahresabschlussarbeiten ist aber ein Bilanzierungsfehler eingetreten, der eine Gewinnauswirkung von 90.000 € hatte. Weil der Jahresabschluss der A-GmbH **nicht testiert** wurde, scheidet eine **Heilung** dieses Bilanzierungsfehlers nach § 14 Abs. 1 Nr. 3 KStG aus." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Die Anerkennung des Organschaftsverhältnisses setzt **zwingend** voraus, dass die Organgesellschaft einen handelsrechtlich **zutreffenden Jahresabschluss** erstellt und der daraus resultierende Jahresfehlbetrag ausgeglichen wird. Dies ist vorliegend ausgeschlossen, so dass die Organschaft **ab 2025 nicht mehr anerkannt** werden kann." },
+      { text: "Der aufgrund des unzutreffenden Jahresabschlusses ausgeglichene Verlust der A-GmbH führt danach zu einer **verdeckten Einlage** der B-GmbH. Weil im Rahmen der handelsrechtlichen Gewinnermittlung bisher der **Anspruch auf Verlustübernahme gewinnerhöhend** eingebucht wurde, ist dieser Ertrag für steuerliche Zwecke nach § 8 Abs. 3 Satz 3 KStG zu **korrigieren**." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung der A-GmbH", "Betrag"], zeilen: [
+        ["Jahresüberschuss lt. Handelsbilanz", "0 €"],
+        ["./. verdeckte Einlage (§ 8 Abs. 3 Satz 3 KStG)", "./. 400.000 €"],
+        ["+ Korrektur", "+ 90.000 €"],
+        ["= Einkommen (ohne weitere Korrekturen)", "./. 310.000 €"],
+      ] },
+      { text: "Bei Ausgleich der Verlustübernahmeforderung in 2026 erhöht sich bei der A-GmbH der Bestand des **steuerlichen Einlagekontos um 400.000 €**." },
+      { text: "Bei der B-GmbH erhöhen sich im Zeitpunkt der **tatsächlichen Verlustübernahme** die Beteiligungsanschaffungskosten an der A-GmbH (§ 8 Abs. 1 Satz 1 KStG i.V. mit § 6 Abs. 6 Satz 2 EStG). Dies wird buchhalterisch wie folgt erfasst: **Beteiligung A-GmbH an Ertrag**. Dadurch wird der bisherige **Aufwand aus der Einbuchung der Verlustübernahme** entsprechend korrigiert. Bei der tatsächlichen Verlustübernahme und damit Leistung der Einlage ist diese Verbindlichkeit entsprechend auszubuchen (**Verbindlichkeit an Bank**)." },
+      { text: "Rechenprobe (eigene Ergänzung): Die Aufstellung geht auf: 0 € ./. 400.000 € + 90.000 € = **./. 310.000 €**. Der als Ertrag gebuchte Anspruch auf Verlustübernahme von 400.000 € wird als verdeckte Einlage herausgerechnet, so dass der tatsächliche Verlust von 400.000 € sichtbar wird; die Korrektur des Bilanzierungsfehlers von 90.000 € mindert ihn auf 310.000 €. Bemerkenswert ist, dass gerade der Fehler, der die Organschaft zu Fall bringt, hier das steuerliche Ergebnis **verbessert**." },
+      { text: "Anmerkung zum Gegensatz zu Abschnitt 3.6.2 (eigene Ergänzung): Die beiden Abschnitte behandeln **spiegelbildliche** Lagen, deren steuerliche Folgen jedoch ungleich schwer wiegen. Die verunglückte **Gewinnabführung** wird zur **vGA** und löst beim Organträger eine – wenn auch nach § 8b KStG weitgehend steuerfreie – **Ausschüttungsbesteuerung** samt Pauschale aus; bei der Organgesellschaft erhöht sie das Einkommen. Die verunglückte **Verlustübernahme** wird dagegen zur **verdeckten Einlage** und bleibt auf beiden Seiten **einkommensneutral**: Bei der Organgesellschaft neutralisiert § 8 Abs. 3 Satz 3 KStG den Ertrag, beim Organträger erhöhen sich nur die Anschaffungskosten. Wirtschaftlich trifft die verunglückte Organschaft den Steuerpflichtigen im **Gewinnfall** also deutlich härter als im Verlustfall – dort verliert er vor allem die Möglichkeit, den Verlust mit eigenen Gewinnen zu verrechnen." },
+      { text: "Anmerkung zum verlorenen Verlust (eigene Ergänzung): Die eigentliche Härte des Verlustfalls steht nicht in der Rechnung, sondern ergibt sich aus ihr. Der Verlust von 310.000 € bleibt nun **bei der Organgesellschaft** hängen und geht in **ihren** Verlustvortrag nach § 10d EStG ein, statt dem Organträger zugerechnet und dort sofort mit dessen Gewinnen verrechnet zu werden. Er ist damit nicht verloren, aber auf Jahre gebunden – und, wie Abschnitt 3.2.4.1 zeigt, durch § 8c KStG gefährdet. Genau diese sofortige Verlustverrechnung ist der praktische Hauptvorteil der Organschaft, und genau er entfällt." },
+      { text: "Anmerkung zur Rolle der Heilungsvorschrift (eigene Ergänzung): Der Sachverhalt ist mit Bedacht so gewählt, dass die **Heilung** ausscheidet: Der Jahresabschluss wurde **nicht testiert**, und ohne uneingeschränktes Testat fehlt die unwiderlegliche Fiktion der Sorgfalt (Abschnitt 2.5.7). Das zeigt, wie eng beide Abschnitte zusammenhängen – ein Bilanzierungsfehler von 90.000 € führt hier zum Verlust der gesamten Organschaft, während er bei geprüftem Abschluss folgenlos geblieben wäre. Für die Beratungspraxis folgt daraus eine klare Empfehlung: Wo eine Organschaft besteht, ist die **freiwillige Prüfung** des Jahresabschlusses auch bei kleinen Gesellschaften erwägenswert." },
     ],
   },
 ];

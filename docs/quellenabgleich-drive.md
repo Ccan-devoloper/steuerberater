@@ -10620,6 +10620,54 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitt 3.6 – verunglückte Organschaft
+
+Übernommen sind die Seiten 83 bis 86 der Quelle: der Begriff mit der Rückwirkung
+innerhalb der Mindestlaufzeit (3.6.1), die Behandlung der bisherigen Gewinnabführung
+als verdeckte Gewinnausschüttung mit Beispiel (3.6.2) und die Behandlung der bisherigen
+Verlustübernahme als verdeckte Einlage mit Beispiel (3.6.3). Damit ist **Kapitel 3 des
+Skripts vollständig** übernommen. Der Datensatz umfasst 68 Kapitel mit 1.171 Abschnitten
+und 95 Tabellen; geprüft mit `npm run check:k2-kst-teil6`. Der Kopfabschnitt
+„STAND DER ÜBERNAHME“ des Datensatzes ist bei dieser Gelegenheit erneut gestrafft
+worden.
+
+**Zentraler Befund: nicht herleitbare Zahl in 3.6.2.** Die Lösung des Beispiels nennt
+für die A-GmbH ein steuerliches Einkommen von **500.000 €**. Aus dem Sachverhalt ergeben
+sich **400.000 €**: Der handelsrechtliche Gewinn beträgt 400.000 € und wird vollständig
+abgeführt, so dass der Jahresüberschuss 0 € beträgt; die außerbilanzielle Hinzurechnung
+der verdeckten Gewinnausschüttung von 400.000 € führt zu einem Einkommen von 400.000 €.
+Die Quelle stellt ihre Zahl selbst unter den Vorbehalt „ohne etwaige sonstige
+Korrekturen“, was weitere Posten gerade ausschließt. Der Wert ist wortlautgetreu
+übernommen und im Datensatz mit der eigenen Nachrechnung gekennzeichnet. Die weitere
+Angabe von 20.000 € beim Organträger ist dagegen zutreffend (5 % von 400.000 €).
+
+**Weitere Befunde der Quelle** (wortlautgetreu übernommen und gekennzeichnet):
+
+- Abschnitt 3.6.2: „Die Bezahlung der Rückforderung führt daher zu einer verdeckte
+  Einlage des Organträgers“ – Kasus.
+- Abschnitt 3.6.2 formuliert erneut, der Bezug sei „nach § 8b Abs. 1 Satz 1 KStG
+  i.V. mit § 8b Abs. 4 Satz 1 KStG steuerfrei“; diese Vorschrift ordnet der Sache nach
+  die Steuerpflicht der Streubesitzdividende an. Dies ist nach den Abschnitten 3.2.4.2
+  und 3.5.4 das dritte Vorkommen derselben Verkürzung.
+
+**Eigene Nachrechnung.** Das Beispiel zu 3.6.3 geht auf: 0 € ./. 400.000 € + 90.000 € =
+./. 310.000 €. Der als Ertrag gebuchte Anspruch auf Verlustübernahme wird als verdeckte
+Einlage herausgerechnet, die Korrektur des Bilanzierungsfehlers mindert den Verlust auf
+310.000 €. Bemerkenswert: Gerade der Fehler, der die Organschaft zu Fall bringt,
+verbessert hier das steuerliche Ergebnis.
+
+Als eigene Ergänzungen im Datensatz ausgewiesen: die Erläuterung, warum die
+**tatsächliche Abführung** und nicht das steuerliche Einkommen zur vGA wird; das
+Auseinanderfallen der Veranlagungszeiträume zwischen Gewinnentstehung (Organgesellschaft)
+und Zufluss (Organträger); die doppelte Sperre gegen nachträgliche Rettungsversuche
+(Rückforderung als neuer Vorgang, Verwendungsfestschreibung nach § 27 Abs. 5 KStG); der
+Vergleich beider Fallgruppen, wonach der Gewinnfall deutlich härter trifft als der
+Verlustfall; der Hinweis, dass die eigentliche Härte des Verlustfalls im **Verlust der
+sofortigen Verrechnung** liegt, weil der Verlust nun bei der Organgesellschaft hängen
+bleibt und dort durch § 8c KStG gefährdet ist; und die Beobachtung, dass der Sachverhalt
+die Heilung bewusst ausschließt (kein testierter Abschluss), so dass ein
+Bilanzierungsfehler von 90.000 € die gesamte Organschaft kostet.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.5.3.2 und 3.5.4 – Abschluss der vororganschaftlichen Mehr- und Minderabführungen
 
 Übernommen sind die Seiten 80 bis 83 der Quelle: die Minderabführung als Einlage mit

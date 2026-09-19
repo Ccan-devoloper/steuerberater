@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 65 Kapitel mit 1.135 Abschnitten und 93 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 68 Kapitel mit 1.171 Abschnitten und 95 Tabellen; die Kapitel 1 bis 3 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5482,6 +5482,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   dagegen zu **6.000 €** (dem steuerpflichtigen Teil von 60 %) – dem **Zwölffachen**, und dies vor dem
   Unterschied zwischen Einkommensteuertarif und 15 % Körperschaftsteuer. Sämtliche Zahlen beider
   Beispiele sind unabhängig nachgerechnet.
+  Die **verunglückte Organschaft** trifft beide Seiten, aber ungleich schwer. Die bisherige
+  **Gewinnabführung** wird zur **verdeckten Gewinnausschüttung**, und maßgeblich ist dabei – die
+  Quelle betont es ausdrücklich – die **tatsächliche handelsrechtliche Abführung** und **nicht** das
+  steuerliche Einkommen. Der Grund ist einfach: Ohne Organschaft gibt es kein zuzurechnendes
+  Organeinkommen mehr; geflossen ist allein die Abführung, und genau sie hat den Gewinn gemindert.
+  Die Differenz zwischen beiden Größen, die zuvor Mehr- und Minderabführungen erzeugte, verliert damit
+  ihre Bedeutung. Bemerkenswert ist das **Auseinanderfallen der Jahre**: Bei der Organgesellschaft
+  wirkt die Hinzurechnung im Jahr der **Gewinnentstehung**, beim Organträger der Beteiligungsertrag
+  erst im Jahr des **Zuflusses**, der sich nach der **Fälligkeit** und damit nach der Feststellung des
+  Jahresabschlusses richtet. Nachträgliche Rettungsversuche verschließt die Quelle gleich zweifach:
+  Eine **Rückforderung** kann die verwirklichte vGA nicht mehr beseitigen, sondern ist selbst eine
+  verdeckte Einlage; und die **Einlagenrückgewähr** ist praktisch versperrt, weil § 27 Abs. 5 KStG die
+  Verwendung **festschreibt** und eine seinerzeit nicht erteilte Steuerbescheinigung nicht nachgeholt
+  werden kann. Die verunglückte Organschaft führt deshalb nahezu zwangsläufig zur vollen
+  Ausschüttungsbesteuerung – wenn auch bei einer Kapitalgesellschaft als Organträger weitgehend durch
+  § 8b KStG abgefedert, vorbehaltlich der **materiellen Korrespondenz** nach dessen Absatz 1 Satz 2.
+  Die bisherige **Verlustübernahme** wird dagegen zur **verdeckten Einlage** und bleibt auf **beiden**
+  Seiten **einkommensneutral**: Bei der Organgesellschaft neutralisiert § 8 Abs. 3 Satz 3 KStG den als
+  Ertrag gebuchten Anspruch, beim Organträger erhöhen sich lediglich die Anschaffungskosten nach § 6
+  Abs. 6 Satz 2 EStG. Wirtschaftlich trifft die verunglückte Organschaft den Steuerpflichtigen im
+  **Gewinnfall** also deutlich härter. Die eigentliche Härte des Verlustfalls steht allerdings nicht
+  in der Rechnung: Der Verlust von 310.000 € bleibt nun **bei der Organgesellschaft** hängen und geht
+  in **ihren** Verlustvortrag ein, statt dem Organträger zugerechnet und dort sofort mit dessen
+  Gewinnen verrechnet zu werden. Er ist damit nicht verloren, aber auf Jahre gebunden und durch § 8c
+  KStG gefährdet – genau die sofortige Verlustverrechnung, die den praktischen Hauptvorteil der
+  Organschaft ausmacht, entfällt. Der Sachverhalt ist schließlich mit Bedacht so gewählt, dass die
+  **Heilung** ausscheidet, weil der Jahresabschluss **nicht testiert** wurde und damit die
+  unwiderlegliche Fiktion der Sorgfalt fehlt: Ein Bilanzierungsfehler von 90.000 € kostet hier die
+  gesamte Organschaft, der bei geprüftem Abschluss folgenlos geblieben wäre. Für die Praxis folgt
+  daraus, dass eine **freiwillige Prüfung** auch bei kleinen Organgesellschaften erwägenswert ist.
+  Damit sind die Kapitel 1 bis 3 des Skripts vollständig abgebildet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
