@@ -114,7 +114,7 @@ test("§13d-ErbStG-Modul kennt begünstigte Drittstaaten", () => {
   const t = byId("erbst-modul-erbst-513");
   assert.match(kern(t), /Drittstaaten[^"]*Amtshilfe|Drittstaaten[^"]*Informationsaustausch/i);
   assert.match(kern(t), /BMF[^"]*Staatenliste/);
-  assert.doesNotMatch(kern(t), /Drittstaaten sind.*pauschal ausgeschlossen/i);
+  assert.match(kern(t), /Drittstaaten sind nicht mehr pauschal ausgeschlossen/i);
 });
 
 test("Erbfallkostenmodul nennt den aktuellen 15.000-Euro-Pauschbetrag", () => {
@@ -231,7 +231,8 @@ test("Abbruchkosten behandeln die Dreijahresfrist nur als Anscheinsbeweis", () =
 
 
 test("§9-UStG-Karte verallgemeinert das notarielle Formerfordernis nicht", () => {
-  const t = byTitle(/Option nach § 9 UStG/i);
+  const t = pool.find((x) => x.typ === "karteikarte" && /Option nach § 9 UStG/i.test(x.titel || ""));
+  assert.ok(t, "§9-UStG-Karte fehlt im Social-Pool");
   assert.match(kern(t), /Vermietungs-\/Verpachtungsumsätzen[^"]*§ 9 Abs\. 2/);
   assert.match(kern(t), /notarielle Formerfordernis[^"]*§ 9 Abs\. 3 S\. 2/);
   assert.match(kern(t), /nicht pauschal für jede Grundstücksvermietung/);
