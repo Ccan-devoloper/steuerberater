@@ -10620,6 +10620,62 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 4.1 und 4.2.1 bis 4.2.3 – gewerbesteuerliche Organschaft
+
+Übernommen sind die Seiten 86 bis 89 der Quelle: Voraussetzungen, getrennte Ermittlung
+der Gewerbeerträge und Betriebsstättenfiktion (4.1.1 bis 4.1.3) sowie aus der
+Gewerbeertragsermittlung die Ausgangsgröße, die Besonderheiten bei den Hinzurechnungen
+mit Beispiel und die Besonderheiten bei den Kürzungen (4.2.1 bis 4.2.3). Der Datensatz
+umfasst damit 74 Kapitel mit 1.223 Abschnitten und 99 Tabellen; geprüft mit
+`npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** § 2 Abs. 2 Satz 2 GewStG verweist vollständig auf die
+körperschaftsteuerlichen Tatbestandsmerkmale; ein Durchführungsmangel vernichtet beide
+Organschaften. Es gilt die gebrochene Einheitstheorie: getrennte Ermittlung, dann
+Zusammenführung, nur ein Messbescheid an den Organträger, kein Feststellungsverfahren
+nach § 14 Abs. 5 KStG und damit kein eigener Rechtsbehelf der Organgesellschaft. Sie
+gilt als Betriebsstätte, weshalb der Messbetrag zu zerlegen ist. Ausgangsgröße ist das
+körperschaftsteuerliche Einkommen vor Zurechnung; § 16 KStG wird gewerbesteuerlich nicht
+nachvollzogen. Hinzurechnungen unterbleiben, soweit ihnen korrespondierende Erträge im
+Organkreis gegenüberstehen; die erweiterte Kürzung ist bei konzerninterner Überlassung
+von Grundbesitz ausgeschlossen.
+
+**Zentraler Befund: vertauschte Zuordnung in 4.2.1.** Der Fließtext lautet
+„Sodann sind die nach § 8 GewStG bzw. § 9 GewStG notwendigen Kürzungen bzw.
+Hinzurechnungen vorzunehmen“. Die Zuordnung ist vertauscht: § 8 GewStG regelt die
+**Hinzurechnungen**, § 9 GewStG die **Kürzungen**. Das unmittelbar folgende Schema der
+Quelle weist es selbst zutreffend aus („+ Hinzurechnungen i.S. des § 8 GewStG“,
+„./. Kürzungen i.S. des § 9 GewStG“). Der Satz ist wortlautgetreu übernommen und
+mit dem Hinweis auf den Widerspruch zum eigenen Schema gekennzeichnet.
+
+**Weitere Befunde der Quelle** (wortlautgetreu übernommen und gekennzeichnet):
+
+- Abschnitt 4.1.1: „ist in § 2 Abs. 2 Satz 2 GewStG verankert, deren
+  Tatbestandsmerkmale vollständig denen der körperschaftsteuerrechtlichen Organschaft
+  entsprechen“ – das Relativpronomen bezieht sich seinem Wortlaut nach auf die
+  Vorschrift, gemeint ist die Organschaft.
+- Abschnitt 4.2.2 zitiert „§ 8 Nr. 1a GewStG“; gesetzlich § 8 Nr. 1 Buchst. a
+  GewStG.
+- Abschnitt 4.2.3: „Ebenso wie in den Fällen der Hinzurechnungen, sind grundsätzlich
+  auch sämtliche Kürzungsvorschriften …“ – das Komma trennt Subjekt und Prädikat.
+
+**Eigene Nachrechnung und Einordnung.** Die Abschnitte enthalten keine durchgerechneten
+Beispiele; das Beispiel zu 4.2.2 arbeitet mit einem einzigen Betrag von 500.000 €
+Schuldzinsen. Als eigene Ergänzung ist im Datensatz eine Gegenüberstellung aufgenommen,
+die die Wirkung der Rückausnahme sichtbar macht: Ohne sie stünden im einheitlichen
+Gewerbeertrag ein Zinsertrag von 500.000 €, ein Zinsaufwand von 500.000 € und
+zusätzlich eine Hinzurechnung von 125.000 € (25 % von 500.000 € nach § 8 Nr. 1 GewStG) –
+der Organkreis würde also für einen reinen Innenvorgang belastet. Mit der Rückausnahme
+gleichen sich Aufwand und Ertrag zu null aus.
+
+Ebenfalls als eigene Ergänzungen ausgewiesen: die Erläuterung des Begriffs der
+gebrochenen Einheitstheorie und ihr Gegensatz zur Betriebsfiktion bei der Zinsschranke,
+der praktische Hinweis zum Rechtsschutz (der Rechtsbehelf ist vom Organträger
+einzulegen), der Zweck der Betriebsstättenfiktion für die Verteilung des
+Gemeindeaufkommens, der Gegensatz zwischen Körperschaft- und Gewerbesteuer bei § 16 KStG
+(gewerbesteuerlich trägt der Organträger die Belastung) und die Klarstellung, dass die
+Rückausnahme ein Korrespondenzprinzip und kein allgemeines Konzernprivileg ist.
+
 ### KSt Teil VI (Hamacher), Abschnitt 3.6 – verunglückte Organschaft
 
 Übernommen sind die Seiten 83 bis 86 der Quelle: der Begriff mit der Rückwirkung

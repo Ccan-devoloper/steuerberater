@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 68 Kapitel mit 1.171 Abschnitten und 95 Tabellen; die Kapitel 1 bis 3 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 74 Kapitel mit 1.223 Abschnitten und 99 Tabellen; die Kapitel 1 bis 3 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5513,6 +5513,47 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   gesamte Organschaft, der bei geprüftem Abschluss folgenlos geblieben wäre. Für die Praxis folgt
   daraus, dass eine **freiwillige Prüfung** auch bei kleinen Organgesellschaften erwägenswert ist.
   Damit sind die Kapitel 1 bis 3 des Skripts vollständig abgebildet.
+  Die **gewerbesteuerliche Organschaft** hat **keine eigenen** Voraussetzungen: § 2 Abs. 2 Satz 2
+  GewStG verweist vollständig auf die körperschaftsteuerlichen Tatbestandsmerkmale, so dass jede
+  Prüfung dort zugleich diese hier erledigt. Der Gleichlauf wirkt allerdings auch in die **ungünstige**
+  Richtung – ein **Durchführungsmangel** vernichtet beide Organschaften zugleich, innerhalb der
+  Mindestlaufzeit rückwirkend; die Folgen einer verunglückten Organschaft verdoppeln sich damit.
+  Anders als die Zinsschranke, die den Organkreis ausdrücklich als **einen Betrieb** fingiert, folgt
+  die Gewerbesteuer der **gebrochenen Einheitstheorie**: Die Gewerbeerträge werden zunächst
+  **getrennt** ermittelt und erst danach zusammengeführt – die Einheit ist also „gebrochen“, und genau
+  daraus entstehen die Besonderheiten bei Hinzurechnungen und Kürzungen. Verfahrensrechtlich hat das
+  erhebliches Gewicht: Es ergeht nur **ein** Messbetragsbescheid an den Organträger, das
+  Feststellungsverfahren des § 14 Abs. 5 KStG gilt gewerbesteuerlich **nicht** (so der BFH 2023), und
+  die Besteuerungsgrundlagen der Organgesellschaft werden nur **nachrichtlich** mitgeteilt. Sie kann
+  daher gegen ihren eigenen Gewerbeertrag **gar nichts** unternehmen – der Rechtsbehelf ist vom
+  **Organträger** gegen dessen Messbescheid einzulegen; wer den Streit auf der falschen Ebene führt,
+  verliert ihn aus formalen Gründen. Gewerbesteuerlich gilt die Organgesellschaft zudem als
+  **Betriebsstätte** des Organträgers, was ein Verteilungsproblem löst: Ohne diese Fiktion stünde das
+  gesamte Aufkommen der Gemeinde des Organträgers zu; die **Zerlegung** nach § 28 GewStG sichert jeder
+  beteiligten Gemeinde ihren Anteil.
+  Ausgangsgröße der Ermittlung ist nach § 7 Satz 1 GewStG das **körperschaftsteuerliche Einkommen vor
+  Zurechnung** – der Angelpunkt des ganzen Kapitels, denn die aufwendige Einkommensermittlung mit
+  Bruttomethode, Zinsschranke und allen übrigen Korrekturen ist damit **auch** gewerbesteuerlich
+  erledigt und muss nicht wiederholt werden. Eine deutliche Abweichung besteht bei **§ 16 KStG**:
+  Körperschaftsteuerlich behält die Organgesellschaft bei Ausgleichszahlungen ein eigenes Einkommen
+  von 20/17 – praktisch der einzige Fall, in dem sie überhaupt Körperschaftsteuer zahlt.
+  Gewerbesteuerlich wird das **nicht nachvollzogen**: Ihr gesamter Gewerbeertrag geht über, sie
+  schuldet **niemals** eigene Gewerbesteuer, und die Belastung aus der Ausgleichszahlung trägt der
+  **Organträger** – eine Verschiebung, die bei deren Bemessung zu bedenken ist.
+  Bei den **Hinzurechnungen** zeigt sich die Kehrseite der getrennten Ermittlung: Ein konzerninternes
+  Darlehen erscheint bei der Organgesellschaft wie ein gewöhnliches Geschäft mit einem Dritten, so
+  dass § 8 Nr. 1 GewStG zugriffe – obwohl sich Zinsaufwand und Zinsertrag im einheitlichen
+  Gewerbeertrag ohnehin aufheben. Die **Rückausnahme** der R 7.1 (5) Satz 3 GewStR lässt die
+  Hinzurechnung deshalb unterbleiben und stellt nachträglich her, was bei einer reinen
+  Einheitsbetrachtung von vornherein gälte. Sie erfasst auch Vorgänge zwischen
+  **Schwestergesellschaften** und gilt ebenso für **Miet- und Pachtaufwendungen**; steht dem Aufwand
+  dagegen **kein** Ertrag im Organkreis gegenüber, bleibt es bei der regulären Hinzurechnung. Es ist
+  also ein **Korrespondenzprinzip**, kein allgemeines Konzernprivileg. Derselbe Gedanke trägt die
+  Ausnahme bei den **Kürzungen**: Wird Grundbesitz **innerhalb** des Organkreises überlassen, ist die
+  **erweiterte Kürzung** ausgeschlossen, weil sie den ohnehin ausgeglichenen Ertrag ein zweites Mal
+  entlasten würde; bei Überlassung **nach außen** bleibt sie erhalten. Für konzerneigene
+  Besitzgesellschaften ist das eine empfindliche Einschränkung, die bei gemischter Nutzung eine
+  genaue Zuordnung der Erträge verlangt.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
