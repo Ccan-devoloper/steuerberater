@@ -226,6 +226,40 @@ function korrigiereWirtschaftlichesEigentum(thema) {
   };
 }
 
+
+function korrigiereEinlageGrundstueck(thema) {
+  normErgaenzen(
+    thema,
+    "§ 6 Abs. 1 Nr. 5 EStG",
+    "§ 23 Abs. 1 S. 1 Nr. 1 und S. 5 Nr. 1 EStG",
+    "§ 23 Abs. 3 S. 2 und 6 EStG"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Einlagen sind grundsätzlich mit dem Teilwert anzusetzen. Für innerhalb der letzten drei Jahre vor der Einlage angeschaffte oder hergestellte Wirtschaftsgüter begrenzt § 6 Abs. 1 Nr. 5 EStG den Einlagewert auf die fortgeführten Anschaffungs- oder Herstellungskosten.",
+      "Bei Grundstücken darf aus dem Ablauf dieser Dreijahresgrenze nicht gefolgert werden, die bis zur Einlage entstandene private Wertsteigerung sei in jedem Fall endgültig steuerfrei. § 23 Abs. 1 S. 5 Nr. 1 EStG enthält eine eigenständige Zehnjahresregel.",
+      "Wird ein zuvor privat angeschafftes Grundstück in ein Betriebsvermögen eingelegt und anschließend innerhalb von zehn Jahren seit der ursprünglichen Anschaffung aus dem Betriebsvermögen veräußert, gilt die Einlage für § 23 EStG rückwirkend als Veräußerung. Für den privaten Veräußerungsgewinn tritt nach § 23 Abs. 3 S. 2 EStG der Einlagewert an die Stelle des Veräußerungspreises; die zeitliche Erfassung richtet sich nach Satz 6.",
+    ],
+    lernziele: [
+      "Teilwertgrundsatz und Dreijahresdeckel des § 6 Abs. 1 Nr. 5 EStG unterscheiden",
+      "bei Grundstückseinlagen zusätzlich die Zehnjahresfrist des § 23 EStG prüfen",
+      "Dreijahresgrenze des Einlagewerts nicht mit der Spekulationsfrist verwechseln",
+      "spätere Veräußerung aus dem Betriebsvermögen auf § 23 Abs. 1 S. 5 Nr. 1 prüfen",
+      "privaten Wertzuwachs bis zur Einlage und betrieblichen Wertzuwachs nach der Einlage rechnerisch trennen",
+    ],
+    pruefschritte: [
+      "Teilwert im Zeitpunkt der Einlage bestimmen.",
+      "Prüfen, ob Anschaffung oder Herstellung innerhalb der letzten drei Jahre lag; falls ja, Einlagewert nach § 6 Abs. 1 Nr. 5 begrenzen.",
+      "Bei Grundstücken ursprünglichen Anschaffungszeitpunkt zusätzlich für § 23 Abs. 1 S. 1 Nr. 1 EStG festhalten.",
+      "Wird das Grundstück später aus dem Betriebsvermögen veräußert, prüfen, ob dies noch innerhalb von zehn Jahren seit der ursprünglichen Anschaffung geschieht.",
+      "Greift § 23 Abs. 1 S. 5 Nr. 1, privaten Veräußerungsgewinn mit dem Einlagewert als Ersatz-Veräußerungspreis nach § 23 Abs. 3 S. 2 bestimmen und im gesetzlich vorgesehenen Veranlagungszeitraum erfassen.",
+      "Daneben den betrieblichen Gewinn aus der späteren Veräußerung gesondert ermitteln.",
+    ],
+    merksatz: "Drei Jahre und zehn Jahre nicht vermischen: § 6 Abs. 1 Nr. 5 deckelt den Einlagewert drei Jahre lang; bei Grundstücken kann § 23 EStG den privaten Wertzuwachs trotzdem erfassen, wenn innerhalb von zehn Jahren seit Anschaffung aus dem Betriebsvermögen veräußert wird.",
+  };
+}
+
 function korrigiereErsatzbeschaffungsruecklage(thema) {
   normErgaenzen(
     thema,
@@ -1729,6 +1763,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "istr-modul-istr-istr3-07": korrigiereAStG2(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
       case "bilanz-modul-k3-2": korrigiereWirtschaftlichesEigentum(thema); break;
+      case "bilanz-modul-k3-41": korrigiereEinlageGrundstueck(thema); break;
       case "bilanz-modul-k3-26": korrigiereErsatzbeschaffungsruecklage(thema); break;
       case "bilanz-formel-anschaffungsnah": korrigiereAnschaffungsnah(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
