@@ -44,9 +44,13 @@
    einschließlich des nur teilweise gesellschaftsrechtlich veranlassten
    Passivpostens, dazu die Posten der Aktivseite (4.1.4), die
    Kapitalertragsteuer (4.1.5) und das steuerliche Einlagekonto (4.1.6). Damit
-   ist der Abschnitt 4.1 vollständig. Es folgen die Auswirkungen beim
-   Gesellschafter (4.2) und die Kapitel 5 und 6; der Campus weist den Stand
-   aus.
+   ist der Abschnitt 4.1 vollständig. Aus dem Abschnitt 4.2 (Auswirkungen beim
+   Gesellschafter) sind die Einnahmen aus Kapitalvermögen mit dem
+   Zuflusszeitpunkt (4.2.1), die natürlichen Personen als Anteilseigner (4.2.2
+   mit Teileinkünfteverfahren und Anteilen des Privatvermögens) und die
+   Kapitalgesellschaften als Anteilseigner (4.2.3) übernommen. Es folgt die
+   Umqualifizierung der Einkünfte (4.2.4) sowie die Kapitel 5 und 6; der
+   Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -1548,6 +1552,115 @@ export const kstTeil4 = [
       { text: "Anmerkung zum Verzicht bei inländischen Anteilseignern (eigene Ergänzung): Der Grund, weshalb bei inländischen Anteilseignern verzichtet werden kann, ist rein **verfahrensrechtlich** und nicht materiell. Die Kapitalertragsteuer ist nur eine Erhebungsform der Einkommen- oder Körperschaftsteuer; wird derselbe Betrag ohnehin im Veranlagungsverfahren erfasst, liefe die Nacherhebung auf eine bloße Verkomplizierung hinaus, weil die Steuer anschließend angerechnet würde. Beim **ausländischen** Anteilseigner fehlt dagegen gerade das Veranlagungsverfahren, in dem die Anrechnung stattfinden könnte – dort ist der Steuerabzug **abgeltend**, und mit ihm steht und fällt der deutsche Steuerzugriff. Das erklärt, weshalb § 50d Abs. 1 EStG keinen Verzicht zulässt." },
       { text: "Anmerkung zum Zeitpunkt beim Einlagekonto (eigene Ergänzung): Abschnitt 4.1.6 ist die Einlösung dessen, was Abschnitt 4.1.2 nur angedeutet hat. Dort hieß es, der Abflusszeitpunkt habe „allenfalls Bedeutung“ für die Verwendungsreihenfolge – hier zeigt sich, dass das keine Randbemerkung ist: Für das Einlagekonto gilt ein **anderer Zeitpunkt** als für die Einkommenshinzurechnung. Die Hinzurechnung folgt der Gewinnbeeinflussung, die Verwendung des Einlagekontos dem tatsächlichen **Abfluss**. Beide Ebenen können deshalb in verschiedene Veranlagungszeiträume fallen, und die Klausur prüft gern genau diese Verschiebung." },
       { text: "Anmerkung zur Ratenzahlung und zur Aufteilung (eigene Ergänzung): Zwei technische Regeln des Abschnitts wirken sich praktisch stark aus. Die **Ratenunterstellung** – erst der angemessene Kaufpreis, dann die vGA – verschiebt den Abfluss der vGA so weit wie möglich nach **hinten** und damit auch die Verwendung des Einlagekontos. Und weil sich die Verwendung auf **sämtliche** Leistungen des Veranlagungszeitraums bezieht, lässt sich der Bestand nicht gezielt einer einzelnen Ausschüttung zuordnen: Eine offene Ausschüttung und eine vGA desselben Jahres teilen sich den verwendbaren Bestand anteilig. Zusammen mit der **Verwendungsfestschreibung** des § 27 Abs. 5 KStG, die greift, weil die vGA regelmäßig nicht erklärt wurde, führt das dazu, dass für die nachträglich aufgedeckte vGA praktisch kaum je Einlagekonto zur Verfügung steht – sie bleibt also fast immer ein voll steuerpflichtiger Bezug." },
+    ],
+  },
+  {
+    id: "kst-t4-34",
+    kapitel: "34",
+    abschnittNr: "4.2.1",
+    title: "4.2.1 Einnahmen aus Kapitalvermögen – der Zufluss beim beherrschenden Gesellschafter",
+    thema: "Die vGA führt beim Gesellschafter zu Einnahmen nach § 20 Abs. 1 Nr. 1 Satz 2 EStG. Beim beherrschenden Gesellschafter fließt sie bereits bei Fälligkeit zu, beim nicht beherrschenden erst bei tatsächlichem Zufluss",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 4.2.1 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 20 Abs. 5 EStG",
+      "§ 11 EStG",
+      "§ 4 Abs. 1 Satz 1 EStG",
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "H 20.2 EStH „Zuflusszeitpunkt bei Gewinnausschüttungen“",
+      "BFH vom 30.05.2023, VIII B 15/22",
+      "BFH vom 08.10.1991, BStBl. II 1992, 174",
+      "BFH vom 22.05.1973, BStBl. II 1973, 815",
+      "BFH vom 17.11.1998, BStBl. II 1999, 223",
+    ],
+    themen: ["Einnahmen aus Kapitalvermögen", "mittelbare vGA", "fehlende Bindungswirkung", "Zuflusszeitpunkt", "beherrschender Gesellschafter", "Zahlungsfähigkeit", "Betriebsvermögen"],
+    bloecke: [
+      { text: "Die verdeckte Gewinnausschüttung führt beim Gesellschafter zu Einnahmen aus Kapitalvermögen i.S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG. Dies gilt auch in den Fällen einer mittelbaren vGA, bei welcher der Vermögensvorteil unmittelbar einer dem Gesellschafter nahe stehenden Person zuzurechnen ist, weil nach § 20 Abs. 5 EStG die Beteiligungserträge nur dem Anteilseigner zugerechnet werden können." },
+      { text: "Die Höhe des Beteiligungsertrags muss aber nicht mit dem Betrag i.S. des § 8 Abs. 3 Satz 2 KStG übereinstimmen, weil zwischen der Besteuerungsebene des Anteilseigners und der Kapitalgesellschaft auch keine Bindungswirkung besteht. Im Regelfall dürften die Beträge aber identisch sein, so dass dieser in den Fällen einer Vermögensminderung dem eingetretenen Mehraufwand auf Ebene der Kapitalgesellschaft entsprechen dürfte bzw. bei der verhinderten Vermögensmehrung dem gemeinen Wert bzw. der erzielbaren Vergütung entspricht. Zu beachten ist ebenfalls, dass die Besteuerung der vGA auf Ebene des Anteilseigners keine Gewinnauswirkung auf Ebene der Gesellschaft voraussetzt (= andere Ausschüttung)." },
+      { text: "Bei natürlichen Personen (nicht beherrschender Gesellschafter) werden die Einnahmen aus der vGA, wenn die Beteiligung an der Kapitalgesellschaft im Privatvermögen gehalten wird, grundsätzlich erst beim tatsächlichen Zufluss i.S. des § 11 EStG bezogen. Entscheidend ist hierfür der Zeitpunkt, zu welchem der Gesellschafter über seinen Anspruch wirtschaftlich verfügen kann (Auszahlung, Gutschrift, Novation oder Verrechnung)." },
+      { text: "Bei einem beherrschenden Gesellschafter hingegen ist ein Zufluss bereits bei Fälligkeit des Anspruchs anzunehmen, d.h. unabhängig vom tatsächlichen Abfluss bei der Gesellschaft. Voraussetzung ist hierfür aber, dass die Gesellschaft bei Fälligkeit auch zahlungsfähig gewesen ist, da ansonsten auch keine Verfügung über den Geldanspruch möglich gewesen wäre. Gleiches gilt auch in den Fällen, in denen die vGA einer nahe stehenden Person des Gesellschafters zugeflossen ist." },
+      { text: "Sofern die Beteiligung zum Betriebsvermögen des Gesellschafters (gilt daher auch bei Kapitalgesellschaften als Anteilseigner) gehört, gelten im Zusammenhang mit der Erfassung der verdeckten Gewinnausschüttung die allgemeinen Gewinnermittlungsgrundsätze des § 4 Abs. 1 Satz 1 EStG. Daher ist die verdeckte Gewinnausschüttung bereits im Zeitpunkt der Entstehung bzw. der wirtschaftlichen Veranlassung zu erfassen, d.h. der tatsächliche Zufluss ist hierfür unerheblich." },
+      { text: "Beispiel: Die A-GmbH gewährt ihrem Alleingesellschafter für 2023 eine Gewinntantieme von 50.000 €, die steuerlich nicht anzuerkennen ist. Diese sollte laut Vereinbarung innerhalb eines Monats nach Feststellung des Jahresabschlusses 2023 ausbezahlt werden. Die Feststellung des Jahresabschlusses erfolgte zum 15.05.2024, die tatsächliche Ausbezahlung der Tantieme erst am 02.09.2025, obwohl Zahlungsengpässe bei der Gesellschaft nicht bestanden haben." },
+      { text: "Lösung: Bei der Einkommensermittlung der A-GmbH in 2023 wird der Aufwand nach § 8 Abs. 3 Satz 2 KStG wieder hinzugerechnet. Der tatsächliche Abfluss erfolgte bei der Gesellschaft erst in 2024. (Die Jahresangabe „2024“ steht so in der Quelle; nach dem Sachverhalt erfolgte die Auszahlung am 02.09.2025.)" },
+      { text: "Der Zufluss beim Gesellschafter erfolgte schon in 2024, da dessen Anspruch in diesem VZ entstanden und fällig geworden ist. Die verzögerte Auszahlung in 2025 ändert daran nichts, weil der Anspruch im Zeitpunkt der Fälligkeit auch geleistet werden konnte." },
+      { typ: "tabelle", spalten: ["Anteilseigner", "Zuflusszeitpunkt", "Grundlage"], zeilen: [
+        ["natürliche Person, nicht beherrschend, Anteile im Privatvermögen", "tatsächlicher Zufluss – Auszahlung, Gutschrift, Novation oder Verrechnung", "§ 11 EStG"],
+        ["beherrschender Gesellschafter", "bereits bei Fälligkeit des Anspruchs, unabhängig vom Abfluss bei der Gesellschaft", "H 20.2 EStH „Zuflusszeitpunkt bei Gewinnausschüttungen“"],
+        ["beherrschender Gesellschafter, Gesellschaft bei Fälligkeit zahlungsunfähig", "kein Zufluss bei Fälligkeit – eine Verfügung war nicht möglich", "BFH vom 22.05.1973 und vom 17.11.1998"],
+        ["nahe stehende Person des beherrschenden Gesellschafters", "wie beim beherrschenden Gesellschafter", "dieselben Grundsätze"],
+        ["Anteile im Betriebsvermögen, auch bei Kapitalgesellschaften als Anteilseigner", "Zeitpunkt der Entstehung bzw. der wirtschaftlichen Veranlassung – der Zufluss ist unerheblich", "§ 4 Abs. 1 Satz 1 EStG"],
+      ] },
+      { typ: "tabelle", spalten: ["Zeitpunkt im Beispiel", "Ereignis", "steuerliche Folge"], zeilen: [
+        ["Wirtschaftsjahr 2023", "Tantieme wird als Aufwand gebucht", "Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG bei der A-GmbH"],
+        ["15.05.2024", "Feststellung des Jahresabschlusses 2023", "der Anspruch entsteht"],
+        ["binnen eines Monats danach", "Fälligkeit nach der Vereinbarung", "Zufluss beim beherrschenden Gesellschafter im VZ 2024"],
+        ["02.09.2025", "tatsächliche Auszahlung", "für den Zufluss unerheblich, weil die Gesellschaft bei Fälligkeit zahlungsfähig war"],
+      ] },
+      { text: "Anmerkung zur fehlenden Bindungswirkung (eigene Ergänzung): Der Satz, dass zwischen den beiden Besteuerungsebenen **keine Bindungswirkung** besteht, wirkt harmlos, ist aber weitreichend. Er bedeutet, dass der Bescheid der Gesellschaft für den Bescheid des Gesellschafters kein Grundlagenbescheid ist – beide Finanzämter entscheiden selbständig und können theoretisch zu verschiedenen Beträgen kommen. Die Quelle relativiert das sofort („im Regelfall dürften die Beträge aber identisch sein“), doch der Grundsatz erklärt, warum es die **materielle Korrespondenz** und den § 32a KStG überhaupt braucht: Beides sind Korrekturmechanismen, die eine Bindung gerade nicht voraussetzen, sondern ersetzen." },
+      { text: "Anmerkung zur „anderen Ausschüttung“ (eigene Ergänzung): Der Hinweis, die Besteuerung beim Anteilseigner setze **keine Gewinnauswirkung** bei der Gesellschaft voraus, ist der Gegenbegriff zur vGA im engeren Sinn. Abschnitt 1.5 hat gezeigt, dass die Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG eine eingetretene Gewinnminderung **voraussetzt**. Beim Gesellschafter gilt das nicht: Dort genügt ein Zufluss, der seine Ursache im Gesellschaftsverhältnis hat. Genau deshalb kann der Gesellschafter selbst dann versteuern, wenn bei der Gesellschaft nichts hinzuzurechnen war – dieselbe Asymmetrie, die schon Abschnitt 4.1.3.2.1 für den Teilbetrag I beschrieben hat." },
+      { text: "Anmerkung zum Zuflusszeitpunkt (eigene Ergänzung): Die Vorverlagerung auf die **Fälligkeit** beim beherrschenden Gesellschafter beruht auf demselben Gedanken wie der strenge formelle Vergleich des Kapitels 2: Wer die Gesellschaft beherrscht, kann sich den fälligen Betrag jederzeit auszahlen lassen – er hat also wirtschaftlich bereits die Verfügungsmacht. Die **Zahlungsfähigkeit** ist deshalb keine willkürliche Zusatzbedingung, sondern die logische Grenze dieser Fiktion: Über Geld, das gar nicht vorhanden ist, kann auch der Beherrschende nicht verfügen. Im Beispiel wird das eigens erwähnt („obwohl Zahlungsengpässe bei der Gesellschaft nicht bestanden haben“) – der Satz ist also kein Beiwerk, sondern trägt die Lösung." },
+      { text: "Anmerkung zum Auseinanderfallen der Zeitpunkte (eigene Ergänzung): Das Beispiel führt **drei** verschiedene Veranlagungszeiträume vor, und jeder hat seine eigene Funktion. Bei der Gesellschaft wird **2023** hinzugerechnet, weil dort die Gewinnbeeinflussung eingetreten ist (Abschnitt 4.1.2). Beim Gesellschafter fließt die vGA **2024** zu, weil dort der Anspruch fällig wurde. Und die Verwendung des steuerlichen Einlagekontos richtet sich nach Abschnitt 4.1.6 nach dem tatsächlichen **Abfluss**, also nach 2025. Wer in der Klausur alle drei Ebenen sauber trennt, hat den Abschnitt verstanden." },
+      { text: "Anmerkung zum Betriebsvermögensfall (eigene Ergänzung): Für Anteile im Betriebsvermögen verschwindet die Zuflussfrage vollständig, weil dort nicht § 11 EStG, sondern der Betriebsvermögensvergleich gilt – die vGA ist schon mit ihrer **Entstehung** zu erfassen. Damit laufen Gesellschaft und Gesellschafter in diesem Fall regelmäßig **zeitgleich**, während sie bei Anteilen im Privatvermögen auseinanderfallen. Das ist für die Praxis der wichtigere Fall, als der knappe Satz der Quelle vermuten lässt, denn er gilt ausdrücklich auch für Kapitalgesellschaften als Anteilseigner – und damit für sämtliche Beteiligungsketten des Kapitels 5." },
+    ],
+  },
+  {
+    id: "kst-t4-35",
+    kapitel: "35",
+    abschnittNr: "4.2.3",
+    title: "4.2.2 Natürliche Personen und 4.2.3 Kapitalgesellschaften als Anteilseigner",
+    thema: "Im Betriebsvermögen gilt das Teileinkünfteverfahren, im Privatvermögen die Abgeltungsteuer, bei Kapitalgesellschaften § 8b KStG – überall begrenzt durch die materielle Korrespondenz, die dem gewerbesteuerlichen Schachtelprivileg jedoch nicht entgegensteht",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 4.2.2 und 4.2.3 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 3 Nr. 40 Buchstabe d EStG",
+      "§ 3 Nr. 40 Buchstabe d Satz 2 EStG",
+      "§ 32d Abs. 1 EStG",
+      "§ 32d Abs. 2 Nr. 3 EStG",
+      "§ 32d Abs. 2 Nr. 4 EStG",
+      "§ 32d Abs. 3 EStG",
+      "§ 44 Abs. 5 EStG",
+      "§ 27 Abs. 3 KStG",
+      "§ 8b Abs. 1 KStG",
+      "§ 8b Abs. 1 Satz 2 KStG",
+      "§ 8b Abs. 4 KStG",
+      "§ 8b Abs. 5 Satz 1 KStG",
+      "§ 8 Nr. 5 GewStG",
+      "§ 9 Nr. 2a GewStG",
+      "§ 9 Nr. 7 GewStG",
+      "BMF vom 22.12.2009, Tz. 144",
+    ],
+    themen: ["Teileinkünfteverfahren", "materielle Korrespondenz", "Abgeltungsteuer", "Sondersteuersatz", "Einlagenrückgewähr", "Schachtelprivileg", "Streubesitz"],
+    bloecke: [
+      { typ: "titel", text: "4.2.2.1 Teileinkünfteverfahren" },
+      { text: "Gehört die Beteiligung zum Betriebsvermögen einer natürlichen Person, gilt für den Beteiligungsertrag das Teileinkünfteverfahren. Die verdeckte Gewinnausschüttung ist nach § 3 Nr. 40d EStG zu 40 % steuerfrei. Gemäß § 3 Nr. 40d Satz 2 EStG kommt das Teileinkünfteverfahren allerdings nur insoweit zur Anwendung, soweit die verdeckte Gewinnausschüttung das Einkommen der benachteiligten Gesellschaft nicht gemindert hat (sog. materielle Korrespondenz)." },
+      { text: "Diese Grundsätze können auch bei Anteilen des Privatvermögens zur Anwendung kommen, wenn der Anteilseigner gemäß § 32d Abs. 2 Nr. 3 EStG zum Teileinkünfteverfahren optiert hat." },
+      { text: "Wird die vGA bei der Gesellschaft zutreffend aus dem steuerlichen Einlagekonto finanziert und liegt diesbezüglich eine ordnungsgemäße Steuerbescheinigung i.S. des § 27 Abs. 3 KStG vor, führt dies zu einer Einlagenrückgewähr." },
+      { text: "Hinsichtlich der gewerbesteuerlichen Erfassung des Beteiligungsertrags sind die Grundsätze des § 9 Nr. 2a GewStG bzw. § 9 Nr. 7 GewStG zu beachten. Dem gewerbesteuerlichen Schachtelprivileg steht das materielle Korrespondenzprinzip nicht entgegen. Greift dieses Schachtelprivileg nicht, unterliegt die vGA aufgrund § 8 Nr. 5 GewStG auch der Gewerbesteuer." },
+      { typ: "titel", text: "4.2.2.2 Anteile des Privatvermögens" },
+      { text: "Für Gewinnausschüttungen i.S. des § 20 Abs. 1 Nr. 1 EStG gilt für im Privatvermögen gehaltene Anteile die Abgeltungsteuer (§ 32d Abs. 1 EStG, § 44 Abs. 5 EStG). Bei einer vGA wird die Kapitalertragsteuer aber in aller Regel nicht einbehalten, weil diese Vorgänge vom Stpfl. bisher auch nicht deklariert wurden. Mangels Kapitalertragsteuerabzug muss die vGA dann erstmals im Rahmen einer Veranlagung erfasst werden (§ 32d Abs. 3 EStG). Diese Einnahmen werden beim Anteilseigner im Rahmen der Einkommensteuerveranlagung mit dem Sondersteuersatz von 25 % i.S. des § 32d Abs. 1 EStG besteuert." },
+      { text: "Auch diesbezüglich sind die Einschränkungen der materiellen Korrespondenz zu beachten. Denn nach § 32d Abs. 2 Nr. 4 EStG kann der Sondersteuersatz nur angewendet werden, wenn die vGA bei der benachteiligten Kapitalgesellschaft das Einkommen nicht gemindert hat. Ist dies nicht der Fall muss der Anteilseigner die verdeckte Gewinnausschüttung mit seinem persönlichen, tariflichen Steuersatz versteuern." },
+      { typ: "titel", text: "4.2.3 Kapitalgesellschaften als Anteilseigner" },
+      { text: "Bei einer Kapitalgesellschaft als Anteilseigner führt die verdeckte Gewinnausschüttung als Bezug i.S. des § 20 Abs. 1 Nr. 1 EStG zur Anwendung der Steuerfreiheit i.S. des § 8b Abs. 1 KStG und zur Betriebsausgabenpauschalierung i.S. des § 8b Abs. 5 Satz 1 KStG. Dabei sind wiederum die Grundsätze der materiellen Korrespondenz i.S. des § 8b Abs. 1 Satz 2 KStG zu beachten. Die Anwendung der Steuerfreiheit hängt zudem von der Streubesitzregelung des § 8b Abs. 4 KStG ab." },
+      { text: "Hinsichtlich der gewerbesteuerlichen Erfassung des Beteiligungsertrags sind die Grundsätze des § 9 Nr. 2a GewStG bzw. § 9 Nr. 7 GewStG zu beachten, auch wenn das materielle Korrespondenzprinzip i.S. des § 8b Abs. 1 Satz 2 KStG einschlägig ist. Greift dieses Schachtelprivileg nicht, unterliegt die vGA aufgrund § 8 Nr. 5 GewStG auch der Gewerbesteuer." },
+      { typ: "tabelle", spalten: ["Anteilseigner und Anteile", "Begünstigung", "Norm", "Korrespondenzvorbehalt"], zeilen: [
+        ["natürliche Person, Anteile im Betriebsvermögen", "Teileinkünfteverfahren, 40 % steuerfrei", "§ 3 Nr. 40 Buchstabe d EStG", "§ 3 Nr. 40 Buchstabe d Satz 2 EStG"],
+        ["natürliche Person, Anteile im Privatvermögen mit Option", "Teileinkünfteverfahren", "§ 32d Abs. 2 Nr. 3 EStG", "§ 3 Nr. 40 Buchstabe d Satz 2 EStG"],
+        ["natürliche Person, Anteile im Privatvermögen ohne Option", "Sondersteuersatz von 25 %", "§ 32d Abs. 1 EStG", "§ 32d Abs. 2 Nr. 4 EStG – sonst persönlicher tariflicher Steuersatz"],
+        ["Kapitalgesellschaft als Anteilseigner", "Steuerfreiheit, abzüglich 5 % nichtabziehbarer Betriebsausgaben", "§ 8b Abs. 1 und Abs. 5 Satz 1 KStG", "§ 8b Abs. 1 Satz 2 KStG; zusätzlich Streubesitz nach § 8b Abs. 4 KStG"],
+      ] },
+      { typ: "tabelle", spalten: ["Gewerbesteuerliche Frage", "Antwort der Quelle"], zeilen: [
+        ["maßgebliche Kürzungsvorschriften", "§ 9 Nr. 2a GewStG (Inland) bzw. § 9 Nr. 7 GewStG (Ausland)"],
+        ["Wirkt die materielle Korrespondenz auf das Schachtelprivileg?", "nein – sie steht ihm nicht entgegen, und zwar sowohl bei natürlichen Personen als auch bei Kapitalgesellschaften"],
+        ["Folge, wenn das Schachtelprivileg nicht greift", "Hinzurechnung nach § 8 Nr. 5 GewStG – die vGA unterliegt der Gewerbesteuer"],
+      ] },
+      { text: "Anmerkung zur Systematik der drei Regime (eigene Ergänzung): Der Abschnitt führt drei Besteuerungsregime nebeneinander, und die **materielle Korrespondenz** taucht in allen dreien auf – nur mit verschiedenen Rechtsfolgen und in verschiedenen Vorschriften. Beim Teileinkünfteverfahren entfällt die 40-prozentige Freistellung (§ 3 Nr. 40 Buchstabe d Satz 2 EStG), bei der Abgeltungsteuer entfällt der **Sondersteuersatz** und es gilt der persönliche Tarif (§ 32d Abs. 2 Nr. 4 EStG), bei der Kapitalgesellschaft entfällt die Steuerfreiheit (§ 8b Abs. 1 Satz 2 KStG). Wer sich diese drei Fundstellen merkt, hat den Abschnitt beisammen – der Auslöser ist stets derselbe: Die vGA hat das Einkommen der **benachteiligten** Gesellschaft gemindert." },
+      { text: "Anmerkung zur Wirkung bei der Abgeltungsteuer (eigene Ergänzung): Die Korrespondenz wirkt hier anders als in den beiden anderen Regimen und deshalb leicht übersehbar. Sie nimmt dem Gesellschafter nicht eine Freistellung, sondern den **günstigen Steuersatz**: Statt 25 % greift der persönliche, tarifliche Satz, der bis 45 % betragen kann. Bemerkenswert ist dabei die Richtung der Belastung – die Regelung verschärft ausgerechnet dort, wo der Gesellschafter am wenigsten ausweichen kann, weil die Kapitalertragsteuer bei einer vGA ohnehin nicht einbehalten wurde und er die Einkünfte nach § 32d Abs. 3 EStG **selbst erklären** muss." },
+      { text: "Anmerkung zum Schachtelprivileg (eigene Ergänzung): Dass die materielle Korrespondenz dem gewerbesteuerlichen Schachtelprivileg **nicht** entgegensteht, ist der überraschendste Satz des Abschnitts – die Quelle sagt ihn für beide Anteilseignertypen ausdrücklich. Er bedeutet, dass die Kürzung nach § 9 Nr. 2a oder Nr. 7 GewStG auch dann greift, wenn die vGA einkommensteuerlich oder körperschaftsteuerlich ihre Begünstigung verloren hat. Der Grund liegt in der Eigenständigkeit des Gewerbesteuerrechts: Die Kürzungsvorschriften verlangen eine Mindestbeteiligung, aber keine Vorbelastung bei der ausschüttenden Gesellschaft. Greift das Privileg dagegen nicht – etwa weil die Mindestbeteiligung fehlt –, führt § 8 Nr. 5 GewStG die Erträge in den Gewerbeertrag zurück, und die vGA wird zusätzlich gewerbesteuerpflichtig." },
+      { text: "Anmerkung zur Einlagenrückgewähr (eigene Ergänzung): Der Hinweis auf § 27 Abs. 3 KStG setzt voraus, was Abschnitt 4.1.6 gerade als praktisch selten beschrieben hat. Die Quelle verlangt **zweierlei**: Die vGA muss zutreffend aus dem steuerlichen Einlagekonto finanziert worden sein, **und** es muss eine ordnungsgemäße Steuerbescheinigung vorliegen. Beides scheitert bei einer nachträglich aufgedeckten vGA regelmäßig, weil sie weder erklärt noch bescheinigt wurde – erst recht nach der Verwendungsfestschreibung des § 27 Abs. 5 KStG. Der Satz beschreibt also eher die theoretische Möglichkeit als den Regelfall." },
+      { text: "Anmerkung zur Streubesitzregelung (eigene Ergänzung): Der kurze Verweis auf § 8b Abs. 4 KStG fügt der Prüfung bei Kapitalgesellschaften eine **zusätzliche** Hürde hinzu, die mit der Korrespondenz nichts zu tun hat. Beträgt die Beteiligung zu Beginn des Kalenderjahres weniger als 10 %, ist die Steuerfreiheit von vornherein ausgeschlossen, und die vGA ist voll steuerpflichtig – dann stellt sich die Korrespondenzfrage gar nicht mehr. In der Klausur ist die Reihenfolge deshalb: erst **Streubesitz** prüfen, dann Korrespondenz, dann die Fünf-Prozent-Pauschale des § 8b Abs. 5 Satz 1 KStG auf den freigestellten Betrag." },
     ],
   },
 ];

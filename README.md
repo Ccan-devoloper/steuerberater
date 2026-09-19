@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 33 Kapitel mit 504
-  Abschnitten und 45 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 35 Kapitel mit 537
+  Abschnitten und 49 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3276,6 +3276,38 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   erfasst wurde, greift die **Verwendungsfestschreibung** des § 27 Abs. 5 KStG – im Ergebnis steht für
   die nachträglich aufgedeckte vGA praktisch kaum je Einlagekonto zur Verfügung, sie bleibt also fast
   immer ein voll steuerpflichtiger Bezug. **Damit ist der Abschnitt 4.1 vollständig.**
+  Beim **Gesellschafter** führt die vGA zu Einnahmen aus Kapitalvermögen nach § 20 Abs. 1 Nr. 1 Satz 2
+  EStG, und zwar auch bei der mittelbaren vGA, weil § 20 Abs. 5 EStG die Beteiligungserträge nur dem
+  Anteilseigner zurechnet. Dass zwischen den beiden Besteuerungsebenen **keine Bindungswirkung**
+  besteht, wirkt harmlos, ist aber weitreichend: Der Bescheid der Gesellschaft ist für den des
+  Gesellschafters kein Grundlagenbescheid, beide Finanzämter entscheiden selbständig – genau deshalb
+  braucht es die materielle Korrespondenz und § 32a KStG, die eine Bindung nicht voraussetzen, sondern
+  ersetzen. Und weil die Besteuerung beim Anteilseigner **keine Gewinnauswirkung** bei der Gesellschaft
+  voraussetzt, kann er selbst dann versteuern, wenn dort nichts hinzuzurechnen war. Beim
+  **Zuflusszeitpunkt** gilt für den nicht beherrschenden Gesellschafter mit Anteilen im
+  Privatvermögen § 11 EStG, für den **beherrschenden** dagegen die Vorverlagerung auf die
+  **Fälligkeit** – dieselbe Logik wie beim strengen formellen Vergleich: Wer die Gesellschaft
+  beherrscht, hat wirtschaftlich bereits die Verfügungsmacht. Die **Zahlungsfähigkeit** ist deshalb
+  keine willkürliche Zusatzbedingung, sondern die logische Grenze dieser Fiktion. Das Beispiel führt
+  drei Veranlagungszeiträume vor, jeder mit eigener Funktion: Hinzurechnung 2023 (Gewinnbeeinflussung),
+  Zufluss beim Gesellschafter 2024 (Fälligkeit), Verwendung des Einlagekontos 2025 (Abfluss). Bei
+  Anteilen im **Betriebsvermögen** verschwindet die Zuflussfrage vollständig, weil der
+  Betriebsvermögensvergleich gilt – dort laufen beide Ebenen regelmäßig zeitgleich, und das gilt
+  ausdrücklich auch für Kapitalgesellschaften als Anteilseigner.
+  Die drei **Besteuerungsregime** unterscheiden sich weniger im Auslöser als in der Rechtsfolge der
+  Korrespondenz, und wer die drei Fundstellen beisammen hat, hat den Abschnitt beisammen: Beim
+  **Teileinkünfteverfahren** (Anteile im Betriebsvermögen einer natürlichen Person, oder im
+  Privatvermögen mit Option nach § 32d Abs. 2 Nr. 3 EStG) entfällt die 40-prozentige Freistellung
+  nach § 3 Nr. 40 Buchstabe d Satz 2 EStG; bei der **Abgeltungsteuer** entfällt nach § 32d Abs. 2 Nr. 4
+  EStG nicht eine Freistellung, sondern der **Sondersteuersatz** von 25 % zugunsten des persönlichen
+  Tarifs; bei der **Kapitalgesellschaft** entfällt die Steuerfreiheit nach § 8b Abs. 1 Satz 2 KStG,
+  wobei zusätzlich die Streubesitzgrenze des § 8b Abs. 4 KStG vorab zu prüfen ist und die
+  Fünf-Prozent-Pauschale des § 8b Abs. 5 Satz 1 KStG folgt. Überraschend – und von der Quelle für
+  beide Anteilseignertypen ausdrücklich gesagt – ist, dass die materielle Korrespondenz dem
+  gewerbesteuerlichen **Schachtelprivileg** *nicht* entgegensteht: Die Kürzung nach § 9 Nr. 2a bzw.
+  Nr. 7 GewStG greift auch dann, wenn die Begünstigung ertragsteuerlich verloren ist, weil die
+  Kürzungsvorschriften eine Mindestbeteiligung, aber keine Vorbelastung verlangen. Greift das Privileg
+  nicht, führt § 8 Nr. 5 GewStG die Erträge in den Gewerbeertrag zurück.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

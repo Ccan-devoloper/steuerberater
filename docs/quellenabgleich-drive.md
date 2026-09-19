@@ -10620,6 +10620,39 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 4.2.1 bis 4.2.3 – Auswirkungen beim Gesellschafter
+
+Quelle: dieselbe Datei, Seiten 48 bis 51; übernommen als Kapitel 34 und 35. Prüfung:
+`npm run check:k2-kst-teil4` (35 Kapitel, 537 Blöcke, 49 Tabellen).
+
+**Ein Widerspruch der Quelle ist im Datensatz benannt.** In der Lösung des Beispiels zu 4.2.1 heißt
+es: „Der tatsächliche Abfluss erfolgte bei der Gesellschaft erst in 2024.“ Nach dem Sachverhalt
+erfolgte die Auszahlung aber am 02.09.2025, und derselbe Absatz spricht zwei Sätze später selbst von
+der „verzögerten Auszahlung in 2025“. Die Jahresangabe ist wortlautgetreu übernommen und die
+Abweichung ausdrücklich gekennzeichnet. Auf das Ergebnis wirkt sie sich nicht aus: Der Zufluss beim
+beherrschenden Gesellschafter tritt in beiden Lesarten 2024 mit der Fälligkeit ein.
+
+**Das Auseinanderfallen der drei Veranlagungszeiträume ist als eigene Ergänzung herausgearbeitet:**
+Hinzurechnung bei der Gesellschaft 2023 (Gewinnbeeinflussung nach 4.1.2), Zufluss beim Gesellschafter
+2024 (Fälligkeit), Verwendung des steuerlichen Einlagekontos 2025 (Abfluss nach 4.1.6). Die Quelle
+nennt alle drei Zeitpunkte, stellt sie aber nicht nebeneinander.
+
+**Ebenfalls als eigene Ergänzungen eingeordnet** sind die Tragweite der fehlenden Bindungswirkung
+(der Bescheid der Gesellschaft ist kein Grundlagenbescheid – deshalb braucht es Korrespondenz und
+§ 32a KStG), die Begründung der Zuflussvorverlagerung beim beherrschenden Gesellschafter aus dessen
+Verfügungsmacht samt der Zahlungsfähigkeit als deren logischer Grenze sowie die Systematik der drei
+Besteuerungsregime, in denen die materielle Korrespondenz jeweils eine andere Rechtsfolge auslöst:
+Wegfall der 40-prozentigen Freistellung, Wegfall des Sondersteuersatzes, Wegfall der Steuerfreiheit.
+
+**Der Satz zum gewerbesteuerlichen Schachtelprivileg ist als eigene Feststellung erläutert.** Die
+Quelle sagt für beide Anteilseignertypen, dass die materielle Korrespondenz dem Privileg nicht
+entgegensteht, begründet es aber nicht; die Ergänzung führt das auf die Eigenständigkeit der
+gewerbesteuerlichen Kürzungsvorschriften zurück, die eine Mindestbeteiligung, aber keine Vorbelastung
+verlangen.
+
+**Noch offen:** aus Teil IV die Umqualifizierung der Einkünfte (4.2.4) und die Kapitel 5
+(Dreiecksfälle) und 6 (Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 4.1.4 bis 4.1.6 – Abschnitt 4.1 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 46 bis 48; übernommen als Kapitel 32 und 33. Prüfung:
