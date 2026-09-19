@@ -240,7 +240,7 @@ function korrigiereRueckstellungskatalog(thema) {
 }
 
 function korrigiereRealteilung(thema) {
-  normErgaenzen(thema, "§ 16 Abs. 3 S. 2–4 EStG", "BMF v. 19.12.2018");
+  normErgaenzen(thema, "§ 16 Abs. 3 S. 2–4 EStG");
   if (thema.typ === "karteikarte") {
     thema.kern = {
       ...thema.kern,
