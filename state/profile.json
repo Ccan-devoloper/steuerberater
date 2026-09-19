@@ -208,5 +208,20 @@
     "ceilingGesetztAm": "2026-09-19T09:44:36.594Z",
     "unkalibriert": true,
     "zuletzt": "2026-09-19T09:44:36.594Z"
+  },
+  "erklaerbild:stueck": {
+    "profilId": "erklaerbild:stueck",
+    "familie": "erklaerbild / gpt-image-1-mini / - / stueck",
+    "letzteAusgabeTokens": [],
+    "aufrufeGesamt": 4,
+    "erfolgreicheAufrufe": 0,
+    "abschnitte": 0,
+    "schemaFehler": 0,
+    "anbieterFehler": 0,
+    "sonstigeFehler": 0,
+    "aktuellesCeiling": null,
+    "ceilingGesetztAm": null,
+    "unkalibriert": true,
+    "zuletzt": "2026-09-19T10:45:14.916Z"
   }
 }
