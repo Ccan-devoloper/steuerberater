@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 25 Kapitel mit 372
-  Abschnitten und 32 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 27 Kapitel mit 405
+  Abschnitten und 35 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3151,6 +3151,36 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sind nur 19.000 €. Beim Anteilseigner bleibt der Beteiligungsertrag in beiden Varianten der gemeine
   Wert von 150.000 €, so dass nach der Gegenauffassung über die **materielle Korrespondenz** des § 3
   Nr. 40d Satz 2 EStG genau diese 4.950 € die Begünstigung des Teileinkünfteverfahrens verlieren.
+  Leistet die Gesellschaft **verbilligt**, greift die **Mindestbemessungsgrundlage** des § 10 Abs. 5
+  Nr. 1 UStG: Die Bemessungsgrundlage muss mindestens dem Wert nach § 10 Abs. 4 UStG entsprechen, und
+  die Umsatzsteuer wird in Höhe der Differenz nacherhoben – bei voll vorsteuerabzugsberechtigten
+  Unternehmern allerdings nur, wenn die Eingangsleistung dem Grunde nach der Berichtigung nach § 15a
+  UStG unterliegen kann, also im Regelfall nur bei der **Lieferung von Wirtschaftsgütern**.
+  Bemerkenswert ist, dass diese Grenze zu genau demselben Mindestbetrag führt wie die unentgeltliche
+  Wertabgabe; der Gesetzgeber stellt die verbilligte Leistung der unentgeltlichen also bewusst gleich.
+  Der entscheidende Unterschied liegt beim Empfänger: Bei der unentgeltlichen Leistung ist der
+  Vorsteuerabzug endgültig ausgeschlossen, weil über den Vorgang **keine Rechnung** erteilt werden
+  kann; bei der verbilligten gibt es eine Rechnung, sie ist nur nach § 14 Abs. 4 Satz 2 UStG zu
+  **korrigieren** – und bis dahin aktiviert der Empfänger einen noch nicht realisierten
+  Vermögensanspruch. Im Beispiel (gemeiner Wert 200.000 €, Einkaufspreis 100.000 €, Buchwert 50.000 €,
+  Kaufpreis 80.000 € zzgl. 19 %) ergibt sich ein Einkommen von 131.000 €, nach der abweichenden
+  Auffassung 118.067 €, und der Korrespondenzbetrag beträgt 12.933 €.
+  Leistet umgekehrt der **Gesellschafter** überhöht an die Gesellschaft (Fallgruppe der
+  Vermögensminderung), bleibt die Umsatzsteuer schlicht unverändert – der Vorsteuerabzug der
+  Gesellschaft richtet sich nach der ordnungsgemäßen Rechnung. Die vGA bemisst sich deshalb auf beiden
+  Ebenen nur nach dem **Nettowert**, und die Quelle stützt das auf zwei Argumente, die genau den beiden
+  Ebenen entsprechen: Bei der Gesellschaft fehlt es an der **Entreicherung**, weil ihr Vorsteueranspruch
+  erhalten bleibt; beim Anteilseigner an der **Bereicherung**, weil er die vereinnahmte Umsatzsteuer
+  abführen muss – und damit, wie die Quelle ausdrücklich sagt, an der **Vorteilsgeneigtheit**. Hier
+  begrenzt dieses Merkmal also nicht das Ob der vGA, sondern ihre Höhe. Der scheinbare Widerspruch zu
+  den beiden vorangegangenen Abschnitten – dort brutto, hier netto – löst sich über den Maßstab des
+  Abschnitts 3.1: Gibt die Gesellschaft ein Wirtschaftsgut her, verliert sie den vollen Marktwert
+  einschließlich der darin steckenden Umsatzsteuer; zahlt sie zu viel, bleibt ihr die Vorsteuer
+  erhalten, so dass sie nur um den Nettobetrag ärmer wird. Einzige Ausnahme ist der **unrichtige
+  Steuerausweis** nach § 14c Abs. 1 UStG: Dort scheidet der Vorsteuerabzug dem Grunde nach aus, der
+  bisherige Abzug ist aufwandswirksam anzupassen, und dieser Aufwand bleibt nach R 8.6 KStR abziehbare
+  Betriebsausgabe – daneben und davon unabhängig bleibt es bei der bilanziellen Anpassung auf den
+  Teilwert. **Damit ist auch das Kapitel 3 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -10620,6 +10620,53 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 3.2.2 und 3.2.3 – Kapitel 3 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 37 bis 40; übernommen als Kapitel 26 und 27. Prüfung:
+`npm run check:k2-kst-teil4` (27 Kapitel, 405 Blöcke, 35 Tabellen). Das Inhaltsverzeichnis der Quelle
+führt unter Kapitel 3 nur 3.1 bis 3.2.3 auf, danach beginnt Kapitel 4 – damit ist das Kapitel
+vollständig.
+
+**Alle Zahlen beider Beispiele sind unabhängig nachgerechnet und gehen auf.** Zu 3.2.2: 80.000 € ./.
+50.000 € = 30.000 €; 19 % von 80.000 € = 15.200 €, brutto 95.200 €; 200.000 € ./. 95.200 € =
+104.800 €; 100.000 € ./. 80.000 € = 20.000 €, davon 19 % = 3.800 €; 30.000 € ./. 3.800 € + 104.800 €
+= 131.000 €; 200.000 € ÷ 1,19 = 168.067,23 €, abgerundet 168.067 €, ./. 80.000 € = 88.067 €, + 3.800 €
+= 91.867 €; 30.000 € + 91.867 € ./. 3.800 € = 118.067 €; 104.800 € ./. 91.867 € = 12.933 €; 40 % von
+104.800 € = 41.920 €. Zu 3.2.3: 59.500 € ÷ 1,19 = 50.000 €, deckungsgleich mit dem angegebenen
+Teilwert; 100.000 € ./. 50.000 € = 50.000 €; die Buchung beim Anteilseigner geht auf (10.000 € +
+50.000 € + 40.000 € + 19.000 € = 119.000 €).
+
+**Die Anschaffungskosten von 181.000 € beim Anteilseigner sind als eigene Ergänzung erklärt.** Die
+Quelle nennt in der Buchung 101.000 € für die Maschine, ohne die Zahl herzuleiten. Zusammen mit den
+zuvor gebuchten 80.000 € ergeben sich 181.000 € – das ist weder der gemeine Wert von 200.000 € noch
+dessen Nettowert von 168.067 €. Die Erklärung: Die Anschaffungskosten sind der gemeine Wert abzüglich
+der *tatsächlich* in Rechnung gestellten Umsatzsteuer, und diese beträgt hier nur 19.000 €
+(15.200 € + 3.800 €), weil die umsatzsteuerliche Bemessungsgrundlage bei 100.000 € gedeckelt ist.
+181.000 € + 19.000 € = 200.000 €.
+
+**Ein fehlerhafter Querverweis der Quelle ist im Datensatz benannt.** Abschnitt 3.2.3 verweist für die
+bilanzielle Anpassung auf „1.4.2.1“. Einen solchen Abschnitt gibt es nicht: Das Inhaltsverzeichnis
+kennt unter 1.4 nur 1.4.1 (Fremdvergleich) und 1.4.2 (Unübliche Vereinbarungen), beide ohne
+Untergliederung. Gemeint ist ersichtlich 1.5.2.1 (Erwerb eines aktivierungspflichtigen
+Wirtschaftsguts), worauf auch Abschnitt 3.1.1 zutreffend verweist. Der Verweis ist wortlautgetreu
+übernommen und die Einordnung als solche gekennzeichnet.
+
+**Zwei weitere Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „Beträgt das
+Entgelt daher mindestens dem Wert i.S. des § 10 Abs. 4 UStG“ (Kasusfehler) und „Das ertragsteuerlich
+diesbezüglich eine verdeckte Gewinnausschüttung vorliegt“ (gemeint ist „Dass“) sowie „mit dem
+angemessen Nettowert“.
+
+**Der scheinbare Widerspruch zwischen Brutto- und Nettobemessung ist als eigene Ergänzung
+aufgelöst.** Leistet die Gesellschaft, wird die vGA brutto bemessen, leistet der Gesellschafter, nur
+netto. Beides folgt aus demselben Maßstab des Abschnitts 3.1, dem Vermögensnachteil bei der
+Gesellschaft: Gibt sie ein Wirtschaftsgut her, verliert sie den vollen Marktwert samt Umsatzsteuer;
+zahlt sie zu viel, bleibt ihr die Vorsteuer erhalten. Ebenfalls als eigene Feststellung festgehalten
+ist, dass die Vorteilsgeneigtheit hier ausnahmsweise nicht über das Ob, sondern über die Höhe der vGA
+entscheidet.
+
+**Noch offen:** aus Teil IV die Kapitel 4 (Auswirkungen der verdeckten Gewinnausschüttung),
+5 (Dreiecksfälle) und 6 (Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 3.1 bis 3.2.1 – Bewertung und Umsatzsteuer-Exkurs
 
 Quelle: dieselbe Datei, Seiten 35 bis 37; übernommen als Kapitel 24 und 25. Prüfung:
