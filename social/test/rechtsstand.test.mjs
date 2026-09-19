@@ -69,6 +69,13 @@ test("wirtschaftliches Eigentum bei Miete ist nicht absolut ausgeschlossen", () 
 
 
 
+
+test("Erbfallkostenmodul nennt den aktuellen 15.000-Euro-Pauschbetrag", () => {
+  const t = byId("erbst-modul-erbst-506");
+  assert.match(kern(t), /15\.000 €.*ohne Nachweis/);
+  assert.match(kern(t), /10\.300 €.*31\.12\.2024/);
+});
+
 test("Vorgesellschaft setzt erfolgreiche GmbH-Gründung voraus", () => {
   const modul = byId("kst-modul-kst-1");
   assert.match(kern(modul), /Scheitert die Eintragung/);
