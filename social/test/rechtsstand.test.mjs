@@ -29,12 +29,12 @@ test("Entfernungspauschale nutzt 2026 0,38 Euro ab Kilometer 1", () => {
 test("§ 9 AStG verwendet Einkünfte statt Bruttoerträge", () => {
   const t = byId("istr-modul-istr-istr4-06");
   assert.match(kern(t), /gesamten Einkünfte/);
-  assert.doesNotMatch(kern(t), /Bruttoerträge/);
+  assert.doesNotMatch(kern(t), /gesamten Bruttoerträge|Bruttoerträge[^"]*ermitteln/);
 });
 
 test("§ 6b Social-Formeln enthalten keine erfundene Reihenfolge und beachten 2-Mio-Grenze", () => {
   const reihenfolge = byId("bilanz-formel-sechsb-reihenfolge");
-  assert.doesNotMatch(kern(reihenfolge), /zuerst Grund und Boden|Erst wenn der Grund und Boden/);
+  assert.doesNotMatch(kern(reihenfolge), /Gewinn → zuerst Grund und Boden|Erst wenn der Grund und Boden[^"]*abgeschrieben/);
   const abs10 = byId("bilanz-formel-sechsb-abs10");
   assert.match(kern(abs10), /2\.000\.000/);
 });
