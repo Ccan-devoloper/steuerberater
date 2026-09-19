@@ -10620,6 +10620,44 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 1.4.3.2 bis 1.4.5.2 – Kapitalerhöhung, mittelbarer Erwerb, Konzernklausel
+
+Quelle: dieselbe Datei, Seiten 15 bis 17; übernommen als Kapitel 7 und 8. Prüfung:
+`npm run check:k2-kst-teil5` (8 Kapitel, 171 Blöcke, 17 Tabellen).
+
+**Alle Quoten sind unabhängig nachgerechnet und gehen auf.** Kapitalerhöhung: 50.000 € + 100.000 € =
+150.000 € von 200.000 € = 75 %, erworben 75 % ./. 50 % = 25 Prozentpunkte. Beteiligungskette: 80 % ×
+80 % = 64 % und 80 % × 80 % × 90 % = 57,6 %. Abwärtsverschmelzung: 80 % × 100 % = 80 % und 80 % ×
+90 % = 72 %.
+
+**Der Kontrast zwischen Kapitalerhöhung und Umwandlung ist als eigene Feststellung herausgearbeitet.**
+Die Beispiele der Abschnitte 1.4.3.1 und 1.4.3.2 enden bei derselben Quote von 75 %, gehen aber
+entgegengesetzt aus: Dort erwarb der Einbringende aus dem Nichts 75 %, hier wächst der bisherige
+Gesellschafter von 50 % auf 75 % und erwirbt damit nur 25 Prozentpunkte. Gemessen wird der Zuwachs,
+nicht die neue Quote – die Verwechslung ist die naheliegendste Fehlerquelle des Abschnitts.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die Erklärung, weshalb auch die interne
+Kapitalerhöhung durch Rücklagenumwandlung erfasst wird und wann sie folgenlos bleibt; die
+Überwachungslast, die sich daraus ergibt, dass der mittelbare Erwerb auch bei unveränderter
+Gesellschafterliste der Verlustgesellschaft greift; die Faustregel zur verdünnenden Wirkung der
+Durchrechnung über mehrere Stufen; die Einordnung der Konzernklausel als teleologische Korrektur
+einer zu weit geratenen Typisierung, gestützt auf den Schlusssatz der Quelle zur fehlenden
+Partizipation einer fremden Person; die Gegenüberstellung der beiden Beteiligungsquoten (100 % zur
+Veräußerin, weniger zur Verlustgesellschaft); die Verbindung zu Abschnitt 1.3.1 bei der
+Personenhandelsgesellschaft samt der Abgrenzung zur GbR und zur bloßen Personengruppe; und die
+Vergegenwärtigung des Direkterwerbs bei der Abwärtsverschmelzung.
+
+**Vier Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** das überflüssige
+„beträgt“ in „auf nunmehr 75 % (150/200) beträgt“, „in Höhe von 75%ige der Anteil“, „zu einer
+mittelbaren 64%igen Anteilserwerb“ sowie der unvollständige Satz „Bereits mit Wirkung ab dem VZ 2010
+wurde für sämtliche Erwerbe, die nach dem 31.12.2009 als gesetzliche Ausnahme eine Konzernklausel
+geschaffen“.
+
+**Noch offen:** aus Teil V die beiden übrigen Fallgruppen der Konzernklausel und deren Rechtsfolgen
+(1.4.5.3 bis 1.4.5.5), der Fünfjahreszeitraum (1.4.6), die Verschonungsgrenze (1.5), die
+Verlustkürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; ganz offen sind die
+Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 1.4.2 und 1.4.3.1 – gleichgestellte Sachverhalte und Umwandlungen
 
 Quelle: dieselbe Datei, Seiten 12 bis 14; übernommen als Kapitel 5 und 6. Prüfung:

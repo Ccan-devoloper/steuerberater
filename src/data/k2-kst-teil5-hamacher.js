@@ -18,10 +18,13 @@
    der Erwerberkreis (1.3 mit der Rechtsform des Erwerbers und den
    gleichgerichteten Interessen) und der Grundfall des Anteilserwerbs (1.4.1).
    Dazu kommen die gleichgestellten Sachverhalte (1.4.2) und die Umwandlungen
-   (1.4.3.1). Es folgen die Kapitalerhöhung (1.4.3.2), der mittelbare Erwerb
-   (1.4.4), die Konzernregelung (1.4.5), der Fünfjahreszeitraum (1.4.6), die
-   Verschonungsgrenze (1.5), die Verlustkürzung (1.6), die Organschaftsfälle
-   (1.7) sowie die Kapitel 2 bis 4; der Campus weist den Stand aus.
+   (1.4.3.1), die Kapitalerhöhung (1.4.3.2), der mittelbare Erwerb (1.4.4)
+   sowie der Hintergrund der Konzernregelung und deren erste Fallgruppe
+   (1.4.5.1 und 1.4.5.2). Es folgen die beiden übrigen Fallgruppen und die
+   Rechtsfolgen der Konzernklausel (1.4.5.3 bis 1.4.5.5), der
+   Fünfjahreszeitraum (1.4.6), die Verschonungsgrenze (1.5), die
+   Verlustkürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4;
+   der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -395,6 +398,108 @@ export const kstTeil5 = [
       { text: "Anmerkung zum Zeitpunkt (eigene Ergänzung): Die Quelle betont den Zeitpunkt in allen drei Beispielen, und das hat einen handfesten Grund. Die Umwandlung wirkt steuerlich auf den **31.12.2024** zurück, der schädliche Erwerb tritt aber erst 2025 mit der **Handelsregistereintragung** beziehungsweise dem Übergang des wirtschaftlichen Eigentums ein. Daraus folgt, dass der Verlust des Jahres 2024 zunächst **bestehen bleibt** und erst im VZ 2025 untergeht – und weil § 8c KStG auch die laufenden unterjährigen Verluste erfasst, entscheidet der genaue Tag darüber, welcher Teil des Jahres 2025 noch mit erfasst wird (Abschnitt 1.6.2). Wer die umwandlungssteuerliche Rückwirkung hier anwendet, verschiebt den Untergang um ein ganzes Jahr." },
       { text: "Anmerkung zum Vorrang des UmwStG (eigene Ergänzung): Der Hinweis auf § 4 Abs. 2 Satz 2 und § 15 Abs. 3 UmwStG verhindert eine Doppelprüfung und klärt zugleich, **wessen** Verlust gemeint ist. § 8c KStG betrifft den Verlust der **übernehmenden** Verlustgesellschaft, deren Anteilseignerkreis sich ändert; § 4 Abs. 2 Satz 2 UmwStG dagegen den Verlust der **übertragenden** Gesellschaft, der ohnehin nicht übergeht. Beide Normen treffen also verschiedene Größen und stehen nur scheinbar in Konkurrenz. Die Quelle führt das in den Schlusssätzen der beiden Verschmelzungsbeispiele konsequent vor: Der Verlust der B-GmbH geht nach § 8c KStG unter, der Verlust der A-GmbH geht schon gar nicht erst über." },
       { text: "Anmerkung zum Formwechsel (eigene Ergänzung): Er ist die einzige Umwandlungsart, die § 8c KStG **nicht** auslöst, und die Begründung ist rein zivilrechtlich: Es kommt zu keiner Vermögensübertragung, der Rechtsträger bleibt identisch und wechselt nur sein Rechtskleid. Das passt zur Grundlinie des ganzen Abschnitts, die an die **Übertragung von Gesellschaftsrechten** anknüpft. Für die Gestaltung heißt das: Wer die Rechtsform einer Verlustgesellschaft ändern will, kann das gefahrlos tun – solange dabei keine neuen Gesellschafter hinzutreten und sich die Quoten nicht verschieben." },
+    ],
+  },
+  {
+    id: "kst-t5-7",
+    kapitel: "7",
+    abschnittNr: "1.4.4",
+    title: "1.4.3.2 Kapitalerhöhung und 1.4.4 mittelbarer Erwerb",
+    thema: "Bei der Kapitalerhöhung zählt nur die Erhöhung der Quote, nicht die neue Quote selbst. Beim mittelbaren Erwerb ist jede Veränderung oberhalb der Verlustgesellschaft zu prüfen – maßgeblich ist die durchgerechnete Beteiligung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 1.4.3.2 und 1.4.4 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 3 KStG",
+      "§ 8c Abs. 1 Satz 4 KStG",
+      "§ 20 UmwStG",
+      "BMF vom 28.11.2017, Tz. 9, 11, 12 und 14",
+      "BFH-Verfahren I R 5/19",
+    ],
+    themen: ["Kapitalerhöhung", "Rücklagenumwandlung", "Zählerwerb", "mittelbarer Erwerb", "durchgerechnete Quote", "Beteiligungskette", "Abwärtsverschmelzung"],
+    bloecke: [
+      { typ: "titel", text: "1.4.3.2 Kapitalerhöhung" },
+      { text: "Gleiches gilt auch in Fällen einer Kapitalerhöhung. Berücksichtigt wird dabei sowohl die externe Kapitalerhöhung (durch Gesellschaftereinlagen) als auch die interne Kapitalerhöhung (durch Rücklagenumwandlung), da in beiden Fällen neue Gesellschaftsanteile geschaffen werden. Kommt es im Rahmen dieses Vorgangs zu einer Verschiebung der Beteiligungsquoten, führt dies ebenfalls zu einem Anteilserwerb i.S. des § 8c Abs. 1 Satz 3 KStG. Maßgebend für die Berechnung der Beteiligungsquoten ist dabei das Verhältnis zum Nennkapital, welches sich nach der Kapitalerhöhung ergibt. Der schädliche Erwerb gilt zu dem Zeitpunkt als vorgenommen, zu dem die Eintragung im Handelsregister erfolgt." },
+      { text: "Beispiel: Die A-GmbH (Gesellschafter A und B zu jeweils 50 %) erhöht durch in 2024 erfolgten Beschluss der Gesellschafterversammlung ihr Stammkapital von 100.000 € auf 200.000 €. Den neuen Gesellschaftsanteil erhält B durch entsprechende Einzahlung von 100.000 €. Die Eintragung der Kapitalerhöhung erfolgt in 2025." },
+      { text: "Lösung: Im Zuge der Kapitalerhöhung erhöht sich die Beteiligung des B von bisher 50 % auf nunmehr 75 % (150/200) beträgt. Für Zwecke des § 8c Abs. 1 Satz 1 KStG ist die schädliche Erwerbsquote nicht überschritten, weil bisher lediglich ein Anteilserwerb von 25 % stattgefunden hat. Dieser in 2025 erfolgte Erwerb gilt aber als Zählerwerb des B, welcher in den kommenden 5 Jahren mit weiteren Erwerben zusammenzurechnen ist. (Das überflüssige „beträgt“ steht so in der Quelle.)" },
+      { typ: "titel", text: "1.4.4 Mittelbarer Erwerb" },
+      { text: "§ 8c KStG erfasst neben dem unmittelbaren, ausdrücklich auch den mittelbaren Anteilserwerb an der Verlustgesellschaft. Dabei ist unerheblich, ob der Anteil mittelbar über eine andere Kapitalgesellschaft oder Personengesellschaft gehalten wird. Die Ansässigkeit der Gesellschaft, über welche der mittelbare Anteilserwerb erfolgt, ist hierfür ebenfalls irrelevant. Tritt daher bei einer Gesellschaft unmittelbar eine Veränderung ihres Gesellschafterbestandes ein, wirkt sich dieser Vorgang ebenfalls mittelbar auf den nachfolgenden Stufen aus." },
+      { text: "Es gilt daher der Grundsatz, dass jedwede Veränderung oberhalb der Verlustgesellschaft immer auch für Zwecke des § 8c KStG geprüft werden muss. Dies gilt auch dann, wenn sich bei der Verlustgesellschaft unmittelbar die Zusammensetzung der Anteilseigner nicht verändert. Für Zwecke der maßgeblichen Erwerbsquote ist auf den durchgerechneten Wert abzustellen." },
+      { text: "Beispiel: An der A-GmbH (Verlustgesellschaft) sind die Gesellschafter A zu 25 % und die B-GmbH & Co KG zu 75 % beteiligt. Alleiniger Kommanditist ist B. Zum 01.01.2025 erwirbt C den vollständigen Mitunternehmeranteil an der KG." },
+      { text: "Lösung: Durch den Erwerb des Mitunternehmeranteils wird mittelbar auch in Höhe von 75%ige der Anteil an der A-GmbH erworben. Dies führt zu einem Anwendungsfall des § 8c Abs. 1 Satz 1 KStG, wodurch in 2025 ein Verlustuntergang eintritt. (Die Form „in Höhe von 75%ige der Anteil“ steht so in der Quelle.)" },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH, die wiederum zu 80 % an der B-GmbH (Verlustgesellschaft) beteiligt ist. Die B-GmbH ist 90%ige Anteilseignerin der X-GmbH (Verlustgesellschaft). In 2025 veräußert A 80 % seiner Anteile der A-GmbH (= 80 % des Stammkapitals) an C." },
+      { text: "Lösung: Die unmittelbare 80%ige Anteilsübertragung an der A-GmbH (Fall des § 8c Abs. 1 Satz 1 KStG) führt auch zu einer mittelbaren Übertragung der Anteile an der B-GmbH und X-GmbH. Bezogen auf die B-GmbH kommt es zu einer mittelbaren 64%igen Anteilserwerb (80 % von 80 %) und bei der X-GmbH werden mittelbar 57,6 % (80 % von 80 % von 90 %) erworben. Dies führt auch in diesen beiden Fällen jeweils zu einem Anwendungsfall des § 8c Abs. 1 Satz 1 KStG. (Die Form „zu einer mittelbaren 64%igen Anteilserwerb“ steht so in der Quelle.)" },
+      { text: "Dies gilt auch im Zusammenhang mit Umstrukturierungen (z.B. Verschmelzungen oder Spaltungen), wenn es oberhalb der Verlustgesellschaft auf einer anderen Konzernstufe unmittelbar zu einer Veränderung im Anteilseignerbestand kommt. Die Frage, ob eine dadurch eingetretene Verkürzung der Beteiligungskette auch für Zwecke des § 8c KStG schädlich sein kann, ist aber umstritten. In diesen Fällen ist aber die Konzernklausel i.S. des § 8c Abs. 1 Satz 4 KStG (siehe unter 1.4.5) zu beachten." },
+      { text: "Beispiel: Die A-KG (A und B zu jeweils 50 %) ist zu 80 % an der A-GmbH beteiligt. Diese hält wiederum sämtliche Anteile an der B-GmbH (Verluste). Die B-GmbH ihrerseits ist zu 90 % an der C-GmbH (= Verluste) beteiligt. Mit Wirkung zum 31.12.2024 wird die A-KG abwärts auf die A-GmbH verschmolzen (Vorgang i.S. des § 20 UmwStG), wodurch sämtliche Anteile anschließend A und B zugerechnet werden. Die Verschmelzung wird in 2025 durch Eintragung in das Handelsregister formwirksam vollzogen." },
+      { text: "Lösung: Die Verschmelzung der A-KG auf die A-GmbH führt zu einer unmittelbaren Anteilsübertragung an der A-GmbH und gleichzeitig zu einer mittelbaren Anteilsübertragung der Anteile an der B-GmbH und C-GmbH. Denn durch die Einbringung ändert sich unmittelbar auf Ebene der A-GmbH ihr Anteilseigner (bisher: A-KG; jetzt: A und B), so dass sich auch auf den unteren Beteiligungsebenen mittelbare Veränderungen ergeben." },
+      { text: "Für Zwecke des § 8c KStG wird aber nur die durchgerechnete Beteiligungsquote berücksichtigt. Dies bedeutet, dass der unmittelbare Erwerb der Anteile an der A-GmbH zu einem mittelbaren Erwerb der Anteile an der B-GmbH i.H. von 80 % (80 % von 100 %) führt. Bei ihr sind somit die Voraussetzungen des § 8c Abs. 1 Satz 1 KStG gegeben. Aus Sicht der C-GmbH führt der Vorgang zu einem mittelbaren Erwerb i.H. von 72 % (80 % von 90 %) und führt somit ebenfalls zur Anwendung des § 8c Abs. 1 Satz 1 KStG." },
+      { text: "Als mittelbare Veräußerung würde in diesem Fall aus Sicht der C-GmbH auch die Verschmelzung der A-GmbH auf die B-GmbH gelten. Die Verschmelzung der B-GmbH als übertragender Rechtsträger würde hingegen bei der C-GmbH einer unmittelbaren Anteilsübertragung gleichstehen. Ein Anwendungsfall des § 8c Abs. 1 Satz 4 KStG ist nicht gegeben, da es an der 100%igen Beteiligung einer Person fehlt. A und B können danach nicht als Einheit betrachtet werden." },
+      { typ: "tabelle", spalten: ["Beteiligungsstufe", "Beispiel der Kette A – A-GmbH – B-GmbH – X-GmbH", "durchgerechnete Erwerbsquote", "schädlich?"], zeilen: [
+        ["A-GmbH", "unmittelbare Veräußerung von 80 %", "80 %", "ja"],
+        ["B-GmbH", "A-GmbH hält 80 %", "80 % × 80 % = 64 %", "ja"],
+        ["X-GmbH", "B-GmbH hält 90 %", "80 % × 80 % × 90 % = 57,6 %", "ja"],
+      ] },
+      { typ: "tabelle", spalten: ["Beteiligungsstufe", "Beispiel der Abwärtsverschmelzung", "durchgerechnete Erwerbsquote", "schädlich?"], zeilen: [
+        ["A-GmbH", "Anteilseignerwechsel von der A-KG auf A und B", "80 %", "ja"],
+        ["B-GmbH", "A-GmbH hält 100 %", "80 % × 100 % = 80 %", "ja"],
+        ["C-GmbH", "B-GmbH hält 90 %", "80 % × 90 % = 72 %", "ja"],
+        ["Konzernklausel", "§ 8c Abs. 1 Satz 4 KStG", "entfällt – es fehlt an der 100%igen Beteiligung einer Person", "A und B sind keine Einheit"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle Quoten gehen auf. Kapitalerhöhung: B hält nach der Erhöhung 50.000 € + 100.000 € = 150.000 € von 200.000 €, also 75 %; erworben hat er 75 % ./. 50 % = **25 Prozentpunkte**. Beteiligungskette: 80 % × 80 % = 64 % und 80 % × 80 % × 90 % = 57,6 %. Abwärtsverschmelzung: 80 % × 100 % = 80 % und 80 % × 90 % = 72 %. Bemerkenswert ist die letzte Zahl: Obwohl die C-GmbH drei Stufen unterhalb des Vorgangs liegt, wird die Schwelle mit 72 % noch deutlich überschritten – erst weiter unten in der Kette könnte die Multiplikation unter 50 % fallen." },
+      { text: "Anmerkung zur Kapitalerhöhung im Vergleich zur Umwandlung (eigene Feststellung): Die beiden Beispiele der Abschnitte 1.4.3.1 und 1.4.3.2 enden bei **derselben** Quote von 75 % und doch mit entgegengesetztem Ergebnis – das ist der lehrreichste Vergleich dieses Kapitels. Im Umwandlungsfall hielt A vorher **nichts** und erwirbt deshalb 75 %: schädlich. Im Kapitalerhöhungsfall hielt B bereits 50 % und erwirbt deshalb nur **25 Prozentpunkte**: unschädlich. Gemessen wird also nicht die **neue Quote**, sondern ihr **Zuwachs**. Wer in der Klausur die Endquote mit der Erwerbsquote verwechselt, kommt genau hier zum falschen Ergebnis." },
+      { text: "Anmerkung zur internen Kapitalerhöhung (eigene Ergänzung): Dass auch die **Rücklagenumwandlung** erfasst wird, ist bemerkenswert, weil dabei kein Cent von außen zufließt – die Gesellschaft wandelt nur eigenes Kapital um. Die Quelle begründet es damit, dass auch hier **neue Gesellschaftsanteile geschaffen** werden. Schädlich ist der Vorgang allerdings nur, wenn sich dadurch die **Quoten verschieben**; die übliche quotengleiche Rücklagenumwandlung bleibt folgenlos. Praktisch relevant wird das erst, wenn einzelne Gesellschafter von der Kapitalerhöhung ausgeschlossen werden oder disquotal teilnehmen." },
+      { text: "Anmerkung zur Reichweite des mittelbaren Erwerbs (eigene Ergänzung): Der Grundsatz, dass **jedwede** Veränderung oberhalb der Verlustgesellschaft zu prüfen ist, hat eine Konsequenz, die die Quelle eigens hervorhebt: Er gilt auch dann, wenn sich bei der Verlustgesellschaft selbst **gar nichts** ändert. Deren Gesellschafterliste bleibt unverändert, der Verlust geht trotzdem unter. Für die Praxis bedeutet das eine erhebliche Überwachungslast, denn die Verlustgesellschaft erfährt von Transaktionen auf höheren Konzernstufen unter Umständen gar nichts. Dass dabei weder die Rechtsform noch die **Ansässigkeit** der Zwischengesellschaft eine Rolle spielt, weitet den Anwendungsbereich zusätzlich auf rein ausländische Vorgänge aus." },
+      { text: "Anmerkung zur Durchrechnung (eigene Ergänzung): Dass nur die **durchgerechnete** Quote zählt, wirkt in beide Richtungen und ist für den Steuerpflichtigen oft günstig. Im zweiten Beispiel verwandelt sich ein unmittelbarer Erwerb von 80 % auf der dritten Stufe in nur noch 57,6 % – jede Zwischenstufe mit einer Beteiligung unter 100 % verdünnt die Quote. Daraus folgt eine brauchbare Faustregel: Je **länger** die Kette und je niedriger die Zwischenquoten, desto eher bleibt eine tiefer liegende Verlustgesellschaft verschont. Im dritten Beispiel genügen allerdings zwei Stufen noch für 72 %." },
+      { text: "Anmerkung zum Streitpunkt der Kettenverkürzung (eigene Ergänzung): Die Quelle hält ausdrücklich fest, dass die Frage, ob eine bloße **Verkürzung der Beteiligungskette** schädlich sein kann, umstritten und beim BFH anhängig ist. Der Einwand liegt auf der Hand: Wirtschaftlich ändert sich nichts, wenn eine Zwischengesellschaft wegfällt und dieselben Personen die Verlustgesellschaft nun unmittelbar halten. Die Quelle verweist für diese Fälle auf die **Konzernklausel** – und das dritte Beispiel zeigt sogleich, warum das nicht immer hilft: Sie scheitert dort an der fehlenden 100%igen Beteiligung **einer** Person, weil A und B nicht als Einheit zählen." },
+    ],
+  },
+  {
+    id: "kst-t5-8",
+    kapitel: "8",
+    abschnittNr: "1.4.5.2",
+    title: "1.4.5 Konzernregelung – Hintergrund und die erste Fallgruppe",
+    thema: "Die Konzernklausel nimmt konzerninterne Erwerbe aus. Die erste Fallgruppe erfasst den Erwerb durch die Konzernspitze selbst – Voraussetzung ist die 100%ige Beteiligung des Erwerbers an der Veräußerin, nicht an der Verlustgesellschaft",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 1.4.5.1 und 1.4.5.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 4 KStG",
+      "§ 8c Abs. 1 Satz 4 Nr. 1 KStG",
+      "BMF vom 28.11.2017, Tz. 40, 41, 42 und 43",
+      "BMF vom 02.01.2025, Rn. 11.18",
+      "FG Düsseldorf vom 15.10.2018, 12 V 1531/18 A (G, F)",
+    ],
+    themen: ["Konzernklausel", "Konzernspitze", "Aufwärtsübertragung", "Verkürzung der Beteiligungskette", "Abwärtsverschmelzung", "Direkterwerb", "Personenhandelsgesellschaft"],
+    bloecke: [
+      { typ: "titel", text: "1.4.5.1 Gesetzlicher Hintergrund" },
+      { text: "Bereits mit Wirkung ab dem VZ 2010 wurde für sämtliche Erwerbe, die nach dem 31.12.2009 als gesetzliche Ausnahme eine Konzernklausel geschaffen. Diese Regelung war notwendig, weil dem Regelungsbereich des § 8c KStG eine Konzernbetrachtung fremd war. (Der Satz ist so in der Quelle unvollständig; gemeint ist ersichtlich, dass für sämtliche Erwerbe nach dem 31.12.2009 eine Konzernklausel als gesetzliche Ausnahme geschaffen wurde.)" },
+      { text: "Als maßgeblicher Erwerb i.S. dieser Vorschrift gelten sämtliche Vorgänge, die bei § 8c KStG zu einem schädlichen Anteilserwerb führen können. Dies bedeutet, dass hierfür nicht nur ein entgeltlicher Erwerb (z.B. auch im Rahmen einer Umwandlung oder einer konzerninternen Veräußerung) vorausgesetzt wird. Begünstigt ist danach auch eine unentgeltliche Übertragung (z.B. im Rahmen einer verdeckten Einlage). Der Regelungsbereich der Vorschrift untergliedert sich danach in 3 Tatbestände:" },
+      { typ: "titel", text: "1.4.5.2 Fallgruppe des § 8c Abs. 1 Satz 4 Nr. 1 KStG" },
+      { text: "Unter den Regelungsbereich des § 8c Abs. 1 Satz 4 Nr. 1 KStG fallen die Erwerbe der Konzernspitze selbst oder einer dieser nachfolgenden Konzernstufe. Der Anteil an der Verlustgesellschaft wird in dieser Fallgruppe somit konzernintern „aufwärts“ übertragen, wodurch eine Verkürzung der Beteiligungskette eintritt. Erfasst wird davon z.B. auch die Anteilsübertragung im Rahmen einer Abwärtsverschmelzung einer Tochtergesellschaft, wodurch der von dieser gehaltene Anteil an der übernehmenden (Verlust-)Gesellschaft im Wege eines Direkterwerbs auf den 100%igen-Anteilseigner der übertragenden Tochtergesellschaft übergeht, weil dieser als Erwerber anzusehen ist." },
+      { text: "Dies setzt voraus, dass der Erwerber an der Veräußerin unmittelbar oder mittelbar zu 100 % beteiligt ist. Die Beteiligung an der Verlustgesellschaft selbst kann hingegen < 100 % sein. Als Erwerber kommen dabei entweder eine natürliche Person, eine juristische Person oder eine Personenhandelsgesellschaft in Betracht. Damit ist auch eindeutig geklärt, dass eine Personenhandelsgesellschaft im Rahmen des § 8c KStG nicht als transparent gilt. Dafür ist aber Voraussetzung, dass der 100 % mittelbare oder unmittelbare Anteil am Veräußerer sowie der erworbene Anteil an der Verlustgesellschaft dem Gesamthandsvermögen zugerechnet wird." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH. Diese hält 90 % an der X-GmbH (Verluste). In 2025 veräußert die A-GmbH ihre Beteiligung an der X-GmbH an A." },
+      { text: "Lösung: Der Anwendungsbereich des § 8c Abs. 1 Satz 4 Nr. 1 KStG ist erfüllt, so dass der Erwerb der Beteiligung an der Verlustgesellschaft X-GmbH für Zwecke dieser Vorschrift unschädlich ist. Dafür ist entscheidend, dass der Erwerber A unmittelbar zu 100 % an der Veräußerin (A-GmbH) beteiligt ist und es aufgrund dessen ausgeschlossen ist, dass an den Verlusten eine fremde Person partizipiert." },
+      { typ: "tabelle", spalten: ["Frage zur Konzernklausel", "Antwort der Quelle"], zeilen: [
+        ["zeitliche Anwendung", "alle Erwerbe nach dem 31.12.2009, also ab dem VZ 2010"],
+        ["Grund der Einführung", "dem Regelungsbereich des § 8c KStG war eine Konzernbetrachtung fremd"],
+        ["erfasste Vorgänge", "sämtliche Vorgänge, die zu einem schädlichen Anteilserwerb führen können – auch Umwandlungen und konzerninterne Veräußerungen"],
+        ["unentgeltliche Übertragungen", "ebenfalls begünstigt, etwa im Rahmen einer verdeckten Einlage"],
+        ["Zahl der Fallgruppen", "drei Tatbestände in § 8c Abs. 1 Satz 4 Nr. 1 bis 3 KStG"],
+      ] },
+      { typ: "tabelle", spalten: ["Voraussetzung der Nr. 1", "Anforderung"], zeilen: [
+        ["Richtung der Übertragung", "konzernintern aufwärts – der Anteil wandert zur Konzernspitze oder einer nachgelagerten Stufe, die Beteiligungskette verkürzt sich"],
+        ["Beteiligung des Erwerbers an der Veräußerin", "unmittelbar oder mittelbar 100 %"],
+        ["Beteiligung an der Verlustgesellschaft selbst", "darf unter 100 % liegen"],
+        ["mögliche Erwerber", "natürliche Person, juristische Person oder Personenhandelsgesellschaft"],
+        ["nicht als Erwerber", "eine Personengruppe; ebenso wenig eine GbR – nur KG, OHG oder vergleichbare ausländische Gesellschaften"],
+        ["bei Personenhandelsgesellschaften zusätzlich", "der 100%ige Anteil am Veräußerer und der erworbene Anteil an der Verlustgesellschaft müssen dem Gesamthandsvermögen zugerechnet werden"],
+        ["erfasster Sonderfall", "Abwärtsverschmelzung einer Tochtergesellschaft – der Anteil geht im Wege eines Direkterwerbs auf deren 100%igen Anteilseigner über"],
+      ] },
+      { text: "Anmerkung zur Grundidee (eigene Ergänzung): Die Quelle nennt den tragenden Gedanken im Schlusssatz des Beispiels, und er lohnt das Merken: Unschädlich ist der Erwerb, weil **ausgeschlossen ist, dass an den Verlusten eine fremde Person partizipiert**. Genau das ist der Grund, weshalb § 8c KStG überhaupt eingreift – der Mantelkauf verschafft einem Außenstehenden Zugriff auf fremde Verluste. Bleibt der Vorgang innerhalb desselben wirtschaftlichen Eigentümers, fehlt dieser Grund. Die Konzernklausel ist damit keine Billigkeitsregel, sondern die **teleologische Korrektur** einer zu weit geratenen Typisierung." },
+      { text: "Anmerkung zu den beiden Beteiligungsquoten (eigene Ergänzung): Die Vorschrift arbeitet mit **zwei** Quoten, die leicht verwechselt werden, und die Quelle stellt sie ausdrücklich gegenüber. Die 100 % beziehen sich auf das Verhältnis **Erwerber zu Veräußerin** – dort darf keine fremde Person beteiligt sein. Die Beteiligung an der **Verlustgesellschaft** selbst darf dagegen darunter liegen; im Beispiel sind es nur 90 %, und die restlichen 10 % hält ein Dritter, ohne dass das schadet. Der Grund ist einleuchtend: Dieser Dritte war schon vorher beteiligt und gewinnt durch den Vorgang nichts hinzu." },
+      { text: "Anmerkung zur Personenhandelsgesellschaft (eigene Ergänzung): Die Quelle zieht hier eine Linie, die zu Abschnitt 1.3.1 passt und ihn bestätigt: Die Personenhandelsgesellschaft gilt für § 8c KStG **nicht als transparent** und kann deshalb selbst Erwerberin im Sinne der Konzernklausel sein. Zwei Einschränkungen sind dabei wichtig. Erstens zählt nur die **Personenhandelsgesellschaft** – KG, OHG oder vergleichbare ausländische Gesellschaften –, nicht die **GbR**; und eine bloße **Personengruppe** genügt ebenfalls nicht, wie das dritte Beispiel des Abschnitts 1.4.4 gezeigt hat, in dem die Konzernklausel an A und B scheiterte. Zweitens müssen beide Beteiligungen dem **Gesamthandsvermögen** zugerechnet werden – ein Anteil im Sonderbetriebsvermögen eines Gesellschafters trägt die Begünstigung nicht." },
+      { text: "Anmerkung zur Abwärtsverschmelzung (eigene Ergänzung): Der Fall ist technisch anspruchsvoll und verdient eine Vergegenwärtigung. Verschmilzt eine Tochtergesellschaft **abwärts** auf ihre eigene Tochter – die Verlustgesellschaft –, muss der von ihr gehaltene Anteil an dieser Verlustgesellschaft irgendwohin; er geht im Wege eines **Direkterwerbs** auf die Muttergesellschaft über, die damit als Erwerberin gilt. Der Vorgang sieht also wie eine reine Verschmelzung aus, enthält aber einen Anteilserwerb. Weil die Mutter zu 100 % an der übertragenden Tochter beteiligt war, greift die Konzernklausel – die Kette verkürzt sich, ohne dass ein Fremder hinzutritt." },
     ],
   },
 ];

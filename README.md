@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 6 Kapitel mit 133 Abschnitten und 13 Tabellen. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 8 Kapitel mit 171 Abschnitten und 17 Tabellen. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3774,6 +3774,44 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   stehen dabei nur scheinbar in Konkurrenz: Sie betreffen den Verlust der **übertragenden**
   Gesellschaft, § 8c KStG den der **übernehmenden** – im Verschmelzungsbeispiel geht der Verlust der
   B-GmbH nach § 8c KStG unter, während der Verlust der A-GmbH schon gar nicht erst übergeht.
+  Bei der **Kapitalerhöhung** liefert der Vergleich mit dem Umwandlungsfall den lehrreichsten Kontrast
+  des ganzen Kapitels: Beide Beispiele enden bei **derselben** Quote von 75 % und doch mit
+  entgegengesetztem Ergebnis. Im Umwandlungsfall hielt der Einbringende vorher **nichts** und erwirbt
+  deshalb 75 % – schädlich. Im Kapitalerhöhungsfall hielt B bereits 50 % und wächst auf 75 %, erwirbt
+  also nur **25 Prozentpunkte** – unschädlich, wenn auch als Zählerwerb zu merken. Gemessen wird also
+  nicht die **neue Quote**, sondern ihr **Zuwachs**; wer beides verwechselt, kommt genau hier zum
+  falschen Ergebnis. Erfasst ist dabei auch die **interne** Kapitalerhöhung durch Rücklagenumwandlung,
+  obwohl dort kein Cent von außen zufließt – allerdings nur, soweit sie **disquotal** erfolgt und die
+  Beteiligungsquoten verschiebt.
+  Beim **mittelbaren Erwerb** gilt der Grundsatz, dass **jedwede** Veränderung oberhalb der
+  Verlustgesellschaft zu prüfen ist, und die Quelle hebt eigens hervor: Das gilt auch dann, wenn sich
+  bei der Verlustgesellschaft selbst **gar nichts** ändert – deren Gesellschafterliste bleibt
+  unverändert, der Verlust geht trotzdem unter. Weder Rechtsform noch **Ansässigkeit** der
+  Zwischengesellschaft spielen eine Rolle, so dass auch rein ausländische Vorgänge erfasst werden; für
+  die Praxis bedeutet das eine erhebliche Überwachungslast, denn von Transaktionen auf höheren
+  Konzernstufen erfährt die Verlustgesellschaft unter Umständen nichts. Maßgeblich ist die
+  **durchgerechnete** Quote, und das wirkt in beide Richtungen: Aus einem unmittelbaren Erwerb von
+  80 % werden über zwei Stufen 80 % × 80 % × 90 % = 57,6 %. Je länger die Kette und je niedriger die
+  Zwischenquoten, desto eher bleibt eine tiefer liegende Verlustgesellschaft verschont – im Beispiel
+  der Abwärtsverschmelzung genügen zwei Stufen allerdings noch für 72 %. Ob die bloße **Verkürzung
+  der Beteiligungskette** schädlich sein kann, ist umstritten und beim BFH anhängig.
+  Die **Konzernklausel** ist keine Billigkeitsregel, sondern die **teleologische Korrektur** einer zu
+  weit geratenen Typisierung: Unschädlich ist der Erwerb, weil ausgeschlossen ist, dass an den
+  Verlusten eine **fremde Person** partizipiert – genau das ist ja der Grund, weshalb § 8c KStG
+  überhaupt eingreift. Sie gilt für alle Erwerbe nach dem 31.12.2009 und erfasst auch **unentgeltliche**
+  Übertragungen, etwa verdeckte Einlagen. Ihre erste Fallgruppe betrifft die Übertragung
+  konzernintern **aufwärts**, bei der sich die Beteiligungskette verkürzt, und arbeitet mit **zwei**
+  leicht zu verwechselnden Quoten: Die 100 % betreffen das Verhältnis des Erwerbers zur
+  **Veräußerin** – dort darf keine fremde Person beteiligt sein –, während die Beteiligung an der
+  **Verlustgesellschaft** selbst darunter liegen darf; im Beispiel sind es nur 90 %, und der
+  10-Prozent-Gesellschafter gewinnt durch den Vorgang nichts hinzu. Erwerber kann auch eine
+  **Personenhandelsgesellschaft** sein – womit bestätigt ist, dass sie für § 8c KStG nicht als
+  transparent gilt –, allerdings nur KG, OHG oder vergleichbare ausländische Gesellschaften, nicht
+  die GbR und erst recht keine bloße **Personengruppe**; zudem müssen beide Beteiligungen dem
+  **Gesamthandsvermögen** zugerechnet werden. Erfasst wird schließlich auch die **Abwärtsverschmelzung**
+  einer Tochtergesellschaft: Der von ihr gehaltene Anteil an der Verlustgesellschaft geht im Wege
+  eines **Direkterwerbs** auf die Muttergesellschaft über, so dass der Vorgang trotz seines Aussehens
+  als reine Verschmelzung einen Anteilserwerb enthält.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
