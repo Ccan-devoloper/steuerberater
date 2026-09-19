@@ -268,6 +268,32 @@ function korrigiereRueckstellungskatalog(thema) {
   normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
+function korrigierePar34(thema) {
+  normErgaenzen(thema, "§ 16 Abs. 4 EStG", "§ 34 Abs. 1–3 EStG");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Veräußerungs- und Aufgabegewinne nach § 16 EStG können neben dem Freibetrag nach § 16 Abs. 4 auch tariflich nach § 34 EStG begünstigt sein. Die Begünstigungen haben unterschiedliche persönliche Voraussetzungen.",
+      "Die Fünftelregelung nach § 34 Abs. 1 EStG hat keine Altersgrenze und kann bei erneut verwirklichten Tatbeständen des § 34 Abs. 2 grundsätzlich erneut angewandt werden. Dagegen setzen der Freibetrag nach § 16 Abs. 4 und der ermäßigte Durchschnittssteuersatz nach § 34 Abs. 3 grundsätzlich Vollendung des 55. Lebensjahrs oder dauernde Berufsunfähigkeit voraus; beide sind jeweils nur einmal im Leben begünstigt.",
+    ],
+    lernziele: [
+      "Veräußerungsgewinn nach § 16 Abs. 2 EStG ermitteln",
+      "laufenden Gewinn vom begünstigten Veräußerungs- oder Aufgabegewinn abgrenzen",
+      "Freibetrag nach § 16 Abs. 4 EStG mit Alters-/Berufsunfähigkeitsvoraussetzung und Abschmelzung prüfen",
+      "Fünftelregelung nach § 34 Abs. 1 ohne Altersgrenze von § 34 Abs. 3 unterscheiden",
+      "ermäßigten Durchschnittssteuersatz nach § 34 Abs. 3 nur bei persönlichen Voraussetzungen, Antrag und Einmal-im-Leben-Grenze prüfen",
+    ],
+    pruefschritte: [
+      "Begünstigten Veräußerungs- oder Aufgabegewinn nach § 16 EStG bestimmen und laufende Gewinne abgrenzen.",
+      "Freibetrag nach § 16 Abs. 4 EStG nur auf Antrag und bei Vollendung des 55. Lebensjahrs oder dauernder Berufsunfähigkeit prüfen; Abschmelzung beachten.",
+      "Fünftelregelung nach § 34 Abs. 1 EStG als eigenständige Tarifermäßigung prüfen: keine Altersgrenze und keine Einmal-im-Leben-Beschränkung.",
+      "Alternativ für begünstigte Gewinne nach § 34 Abs. 2 Nr. 1 den ermäßigten Durchschnittssteuersatz nach § 34 Abs. 3 prüfen: Antrag, 55. Lebensjahr oder dauernde Berufsunfähigkeit, einmal im Leben und Höchstbetrag 5 Mio. €.",
+      "Fünftelregelung und § 34 Abs. 3 für denselben Gewinn nicht doppelt anwenden.",
+    ],
+    merksatz: "55 Jahre/einmal im Leben gehören nicht zur Fünftelregelung: Sie betreffen § 16 Abs. 4 und den ermäßigten Steuersatz des § 34 Abs. 3. § 34 Abs. 1 hat keine Altersgrenze.",
+  };
+}
+
 function korrigiereVorgesellschaft(thema) {
   normErgaenzen(thema, "§ 1 Abs. 1 Nr. 1 KStG", "H 1.1 KStH");
   const hinweis = "Die körperschaftsteuerliche Rückwirkung auf die notarielle Beurkundung gilt für die echte Vorgesellschaft, wenn die spätere Kapitalgesellschaft tatsächlich in das Handelsregister eingetragen wird. Scheitert die Eintragung endgültig, ist die Vorgesellschaft nach der BFH-Rechtsprechung nicht als Kapitalgesellschaft körperschaftsteuerpflichtig, sondern grundsätzlich nach den Regeln eines Einzelunternehmens bzw. einer Personengesellschaft zu behandeln.";
@@ -502,6 +528,7 @@ export function socialKorrekturenAnwenden(pool) {
   for (const thema of pool || []) {
     switch (thema.id) {
       case "bilanz-modul-k3-36": korrigiereEntfernungspauschale(thema); break;
+      case "bilanz-modul-k3-47": korrigierePar34(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
