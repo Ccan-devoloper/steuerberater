@@ -10620,6 +10620,42 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 2.1 und 2.2 – § 8d KStG: zeitliche Anwendung und Antragswahlrecht
+
+Quelle: dieselbe Datei, Seiten 35 bis 37; übernommen als Kapitel 21 und 22. Prüfung:
+`npm run check:k2-kst-teil5` (22 Kapitel, 431 Blöcke, 57 Tabellen).
+
+**Alle Zahlen des Beispiels sind unabhängig nachgerechnet und gehen auf:** nach § 8c KStG gefährdet
+sind 12.000.000 € Vortrag zuzüglich 1.000.000 € unterjährigen Verlusts = 13.000.000 €; für § 8d KStG
+maßgebend ist der Verlust zum Ende des Wirtschaftsjahres, also 12.000.000 € + 4.000.000 € =
+16.000.000 €; abzüglich 4.000.000 € Altverluste bleiben 12.000.000 €, die sich als 8.000.000 €
+bereinigter Vortrag zuzüglich 4.000.000 € Verlust 2025 aufteilen; die Feststellung bestätigt es mit
+12.000.000 € ./. 4.000.000 € + 4.000.000 € = 12.000.000 €.
+
+**Drei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** die Fügung „weder
+eingestellt oder ruhend gestellt" (statt „weder … noch"), „so sich in der Verlustfeststellung"
+(gemeint ist „so dass sich") und der Satz „muss dieser ausschließlich für Zwecke der Gewerbesteuer
+gestellt werden", in dem sich das Pronomen auf den Verlust statt auf den Antrag bezieht.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Hervorhebung des unterschiedlichen
+Bemessungszeitpunkts von § 8c und § 8d KStG, den die Quelle nur in einer Klammer erwähnt, samt der
+Bezifferung der Differenz von 3.000.000 € und der Einordnung als Kehrseite der Bindung; die
+Erläuterung der Reaktivierungssperre des § 34 Abs. 6a Satz 1 KStG und der Teilbarkeit ihrer
+Rechtsfolge; die Deutung der Jahreszahlen des Beispiels, die zeigt, dass die Sperre weiter
+zurückreicht als der Betrachtungszeitraum des § 8d Abs. 1 Satz 1 KStG; die Abwägung zwischen
+Verschonungsregelung und § 8d KStG, weil der Antrag beide Begünstigungen nicht nebeneinander
+zulässt; die Begründung, warum Konzern-, Angehörigen- und Sanierungsfälle konsequenterweise
+ausgeschlossen sind und der Steuerpflichtige dort sogar besser steht; die praktische Bedeutung der
+Antragsfrist bis zur Unanfechtbarkeit nebst dem Betriebsprüfungsfall; und die Erklärung, warum
+körperschaft- und gewerbesteuerlicher Verlust über §§ 8, 9 GewStG auseinanderlaufen können.
+
+**Neu ist eine Übersicht,** die den vier Vorschriften, die einen Untergang vermeiden, jeweils die
+Anwendbarkeit des § 8d KStG zuordnet.
+
+**Noch offen:** aus Teil V der Geschäftsbetrieb (2.3) und die weiteren Abschnitte des Kapitels 2
+sowie die Kapitel 3 (Zinsschranke) und 4 (stille Beteiligungen); ganz offen sind die Skriptteile VI
+und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 1.6.3.2.3 und 1.7 – abweichende Wirtschaftsjahre und Organschaft: Kapitel 1 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 32 bis 34; übernommen als Kapitel 19 und 20. Prüfung:

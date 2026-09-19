@@ -31,7 +31,10 @@
    (1.6.2.1), der unterjährige Verlust (1.6.2.2.1) und der unterjährige Gewinn
    samt Abwandlung (1.6.2.2.2), die abweichenden Wirtschaftsjahre und die
    Organschaftsfälle (1.7). Damit ist Kapitel 1 des Skripts VOLLSTÄNDIG
-   übernommen. Es folgen die Kapitel 2 bis 4; der Campus weist den Stand aus.
+   übernommen. Aus Kapitel 2 (§ 8d KStG) sind die zeitliche Anwendung (2.1) und
+   das Antragswahlrecht (2.2) übernommen. Es folgen der Geschäftsbetrieb (2.3)
+   und die weiteren Abschnitte sowie die Kapitel 3 und 4; der Campus weist den
+   Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -1177,6 +1180,98 @@ export const kstTeil5 = [
       { text: "Anmerkung zum Gegenstück zum ersten Beispiel (eigene Ergänzung): Die beiden Beispiele zum abweichenden Wirtschaftsjahr unterscheiden sich nur im **Vorzeichen** des Folgejahres, und das ändert alles. Im ersten Fall rettet der unterjährige **Gewinn** von 3.000.000 € einen Teil des Verlustvortrags, so dass nur 7.000.000 € gekürzt werden. Im zweiten Fall vergrößert der unterjährige **Verlust** von 3.000.000 € den Schaden: Der Vortrag geht vollständig unter, und der laufende Verlust wird zusätzlich erfasst. Die Anordnung aus Tz. 36, die Auswirkungen in die Feststellung zum 31.12.2025 vorzuziehen, gilt in beiden Richtungen." },
       { text: "Anmerkung zur Verteilung auf zwei Veranlagungszeiträume (eigene Ergänzung): Der zweite Fall macht die Folge des Zeitversatzes besonders anschaulich, weil ein einziger Erwerbsvorgang in **zwei** Veranlagungszeiträumen wirkt. In der Feststellung zum 31.12.2025 werden 10.000.000 € gekürzt, im Einkommen 2026 kommen 3.000.000 € hinzu. Wer nur einen der beiden Zeiträume prüft, übersieht die Hälfte der Rechtsfolge. Das Einkommen 2025 bleibt dabei unberührt, weil es allein vom Wj. 2024/2025 abhängt." },
       { text: "Anmerkung zum Verweis in Abschnitt 1.7 (eigene Ergänzung): Der Abschnitt zu den Organschaftsfällen besteht aus einem einzigen Satz und verweist auf das Skript Teil VI. Die Aussagen zum Organkreis, die dieses Skript gleichwohl bereits enthält, stehen in Abschnitt 1.5.1: Beim **Organträger** zählen die stillen Reserven der Beteiligung an der Organgesellschaft nicht mit, bei der **Organgesellschaft** stehen ihre eigenen stillen Reserven nur für den laufenden Verlust und einen vororganschaftlichen Verlustvortrag zur Verfügung. Damit ist Kapitel 1 des Skripts abgeschlossen; es folgt der fortführungsgebundene Verlustvortrag nach § 8d KStG." },
+    ],
+  },
+  {
+    id: "kst-t5-21",
+    kapitel: "21",
+    abschnittNr: "2.1",
+    title: "2. Fortführungsgebundener Verlust i.S. des § 8d KStG – 2.1 Zeitliche Anwendung",
+    thema: "§ 8d KStG gilt für schädliche Erwerbe nach dem 31.12.2015; ein vor dem 01.01.2016 eingestellter oder ruhend gestellter Geschäftsbetrieb sperrt die Norm für die bis dahin entstandenen Altverluste",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 2 bis 2.1.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d KStG",
+      "§ 8d Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 34 Abs. 6a Satz 1 KStG",
+      "BMF vom 18.03.2021, BStBl. I 2021, 363",
+      "BMF (2), Tz. 78 und 79",
+    ],
+    themen: ["§ 8d KStG", "zeitliche Anwendung", "Zählerwerbe", "Einstellung des Geschäftsbetriebs", "Ruhendstellung", "Altverluste", "fortführungsgebundener Verlustvortrag"],
+    bloecke: [
+      { typ: "titel", text: "2. Fortführungsgebundener Verlust i.S. des § 8d KStG" },
+      { text: "Vorbemerkung: Zu Zweifelsfragen im Zusammenhang mit der Anwendung des § 8d KStG hat die Finanzverwaltung mit BMF-Schreiben vom 18.03.2021 Stellung genommen. (Die Fußnote nennt BStBl. I 2021, 363 und bezeichnet dieses Schreiben im weiteren Verlauf als „BMF (2)“.)" },
+      { typ: "titel", text: "2.1 Zeitliche Anwendung" },
+      { typ: "titel", text: "2.1.1 Schädlicher Erwerb nach dem 31.12.2015" },
+      { text: "§ 8d KStG gilt erstmals für sämtliche „schädlichen“ Anteilserwerbe i.S. des § 8c Abs. 1 Satz 1 KStG, die nach dem 31.12.2015 vorgenommen worden sind. Dabei sind auch etwaige Zählerwerbe der Vorjahre zu berücksichtigen, so dass unter Berücksichtigung der nachfolgenden Erwerbe ab 01.01.2016 die maßgebliche Quote überschritten werden kann. Bei einem vom Kalenderjahr abweichenden Wirtschaftsjahr der Verlustgesellschaft muss der schädliche Erwerb ebenfalls nach dem 31.12.2015 erfolgt sein." },
+      { typ: "titel", text: "2.1.2 Einstellung bzw. Ruhendstellung des Geschäftsbetriebs" },
+      { text: "Voraussetzung für die Anwendbarkeit des § 8d KStG ist nach § 34 Abs. 6a Satz 1 KStG zudem, dass der Geschäftsbetrieb der Verlustgesellschaft vor dem 01.01.2016 und somit außerhalb des Betrachtungszeitraums i.S. des § 8d Abs. 1 Satz 1 KStG weder eingestellt oder ruhend gestellt worden sein darf. Dadurch soll verhindert werden, dass für Zwecke des § 8d KStG bisher inaktive Gesellschaften wieder reaktiviert werden, um die Verluste durch Anwendung des § 8d KStG zu retten. (Die Fügung „weder eingestellt oder ruhend gestellt“ steht so in der Quelle.)" },
+      { text: "Die Anwendung des § 8d KStG scheidet in diesen Fällen insoweit aus. Davon betroffen sind vom Umfang her aber nur die Verluste, die vor dem 01.01.2016 entstanden sind. Diese Altverluste unterliegen dann auch den Einschränkungen des § 8c KStG. Für die nachfolgend entstandenen Verluste kann § 8d KStG beantragt werden." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH (Wj. = Kj.). Mit Wirkung zum 01.03.2025 erwirbt C den 100%igen Anteil an der A-GmbH, welcher über keine stille Reserven verfügt. Zum 31.12.2024 besteht ein Verlustvortrag von 12.000.000 €. In 2025 erzielt die A-GmbH insgesamt einen negativen GdE von -4.000.000 €, welcher in Höhe von -1.000.000 € auf die Zeit bis zum 01.03.2025 entfällt. Die A-GmbH hat bis 2007 einen Autohandel als Geschäftsbetrieb ausgeübt, welcher aber in 2011 eingestellt worden ist. Seit dem 01.01.2013 übt die A-GmbH diesen Autohandel wieder aus. Von dem Verlust bis zum 31.12.2025 entfallen 4.000.000 € auf Zeiträume vor dem 01.01.2016. Der Antrag auf Anwendung des § 8d KStG wird gestellt." },
+      { text: "Lösung: Durch den schädlichen Anteilserwerb i. S. des § 8c Abs. 1 Satz 1 KStG zum 01.03.2025 würde dem Grunde nach ein Verlust von 13.000.000 € untergehen. Der Erwerb fällt aber auch unter den zeitlichen Anwendungsbereich des § 8d KStG. Vorliegend ist aber die Besonderheit des § 34 Abs. 6a Satz 1 KStG zu beachten, wonach die Anwendung ausgeschlossen ist, wenn der Geschäftsbetrieb der Verlustgesellschaft vor dem 01.01.2016 eingestellt oder ruhendgestellt worden ist. Vom Ausschluss des § 8d KStG ist aber nur der Verlust betroffen, welcher vor dem 01.01.2016 entstanden ist. Daher kann der Verlust der A-GmbH nur in Höhe von 12.000.000 € (8.000.000 € + 4.000.000 €) durch § 8d KStG gerettet werden, der Restbetrag (= Altverlust) von 4.000.000 € ist davon ausgeschlossen. (Anmerkung: im Gegensatz zu § 8c KStG stellt § 8d KStG auf den Verlust zum Ende des Wj. des schädlichen Erwerbs ab). Dieser Verlust geht daher nach den allgemeinen Grundsätzen des § 8c KStG unter, so sich in der Verlustfeststellung zum 31.12.2025 folgende Auswirkungen ergeben: (Die Fügung „so sich in der Verlustfeststellung“ steht so in der Quelle; gemeint ist „so dass sich“.)" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "12.000.000 €"],
+        ["./. Kürzung aufgrund § 8c Abs. 1 Satz 1 KStG", "./. 4.000.000 €"],
+        ["+ Verlust 2025", "+ 4.000.000 €"],
+        ["= fortführungsgebundener Verlust", "12.000.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen des Beispiels gehen auf. Der nach § 8c KStG gefährdete Verlust beträgt 12.000.000 € Vortrag zuzüglich 1.000.000 € unterjährigen Verlusts bis zum 01.03.2025 = 13.000.000 €. Für § 8d KStG ist dagegen der Verlust zum **Ende** des Wirtschaftsjahres maßgebend: 12.000.000 € + 4.000.000 € = 16.000.000 €. Davon sind 4.000.000 € Altverluste ausgeschlossen, so dass 12.000.000 € gerettet werden – die von der Quelle genannte Aufteilung 8.000.000 € + 4.000.000 € ergibt sich aus dem um die Altverluste bereinigten Vortrag (12.000.000 € ./. 4.000.000 €) zuzüglich des vollen Verlustes 2025. Die Feststellung bestätigt es: 12.000.000 € ./. 4.000.000 € + 4.000.000 € = 12.000.000 €." },
+      { text: "Anmerkung zum Unterschied der Bemessungszeitpunkte (eigene Ergänzung): Die von der Quelle eingeklammerte Anmerkung ist die wichtigste Aussage des Abschnitts und verdient mehr als eine Klammer. § 8c KStG erfasst den Verlust **im Zeitpunkt des Erwerbs**, § 8d KStG dagegen den Verlust **zum Ende des Wirtschaftsjahres**. Im Beispiel liegen zwischen beiden Größen 3.000.000 €: Gefährdet sind 13.000.000 €, gerettet werden können 16.000.000 € abzüglich der Altverluste. Der nach dem Erwerb entstandene Verlust von 3.000.000 € wird also vom fortführungsgebundenen Verlustvortrag mit erfasst, obwohl ihn § 8c KStG gar nicht bedroht hätte. Das ist kein Nachteil, sondern die Kehrseite der Bindung: Auch dieser Teil unterliegt künftig den schädlichen Ereignissen des § 8d Abs. 2 KStG." },
+      { text: "Anmerkung zur Reaktivierungssperre (eigene Ergänzung): § 34 Abs. 6a Satz 1 KStG schließt eine Gestaltung, die sich beim Inkrafttreten des § 8d KStG aufdrängte. Ohne die Vorschrift hätte man einen vor Jahren stillgelegten Mantel wiederbeleben, den alten Geschäftsbetrieb formal fortführen und so die Altverluste unter den Schutz des § 8d KStG stellen können. Bemerkenswert ist die **Teilbarkeit** der Rechtsfolge: Die Sperre trifft nicht die Gesellschaft, sondern nur die vor dem 01.01.2016 entstandenen **Verluste**. Für alles danach steht § 8d KStG offen, so dass ein und derselbe Erwerb einen Verlust in zwei Teile zerlegt – einen nach § 8c KStG untergehenden und einen fortführungsgebundenen." },
+      { text: "Anmerkung zu den Jahreszahlen des Beispiels (eigene Ergänzung): Die Angaben zum Autohandel sind bewusst gewählt. Die Einstellung liegt in **2011** und die Wiederaufnahme am **01.01.2013**, also beides deutlich vor dem 01.01.2016 – die Sperre greift damit, obwohl der Geschäftsbetrieb im maßgeblichen Betrachtungszeitraum des § 8d Abs. 1 Satz 1 KStG (dazu Abschnitt 2.3.1) durchgehend bestand. Genau das ist der Sinn der Vorschrift: Sie schaut **weiter zurück** als § 8d KStG selbst. Läge die Einstellung nach dem 31.12.2015, wäre sie kein Fall des § 34 Abs. 6a KStG, sondern ein schädliches Ereignis nach § 8d Abs. 2 KStG." },
+    ],
+  },
+  {
+    id: "kst-t5-22",
+    kapitel: "22",
+    abschnittNr: "2.2",
+    title: "2.2 Schädlicher Erwerb und Antragswahlrecht",
+    thema: "§ 8d KStG setzt einen dem Grunde nach schädlichen Erwerb voraus; der Antrag ist in der Steuererklärung zu stellen, verdrängt § 8c KStG vollständig und wirkt über § 10a Satz 11 GewStG auch gewerbesteuerlich",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 2.2 bis 2.2.2.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d Abs. 1 Satz 5 KStG",
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 4 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 8c Abs. 1a KStG",
+      "§ 31 Abs. 1a KStG",
+      "§ 15 AO",
+      "§ 10a Sätze 11 und 12 GewStG",
+      "§ 36 Abs. 5a GewStG",
+      "BMF (2), Tz. 5 bis 11",
+      "Gleichlautender Ländererlass vom 19.03.2021",
+    ],
+    themen: ["Antragswahlrecht", "Unanfechtbarkeit", "Konzernklausel", "Sanierungsklausel", "Verschonungsregelung", "Gewerbesteuer", "Rücknahme des Antrags"],
+    bloecke: [
+      { typ: "titel", text: "2.2 Schädlicher Erwerb und Antragswahlrecht" },
+      { typ: "titel", text: "2.2.1 Schädlicher Erwerb i.S. des § 8c KStG" },
+      { text: "§ 8d KStG setzt einen schädlichen Anteilserwerb i.S. des § 8c Abs. 1 Satz 1 KStG voraus, bei dem es dem Grunde nach zu einer Verlustkürzung kommen würde. Nur in dieser Situation kann antragsgemäß der ansonsten drohende Verlustuntergang durch § 8d KStG vermieden werden. Kommt die Verlustkürzung nach § 8c KStG daher nicht zur Anwendung, ist § 8d KStG ebenfalls ausgeschlossen. Dazu kommt es" },
+      { text: "• bei Anwendung der Konzernklausel i.S. des § 8c Abs. 1 Satz 4 KStG," },
+      { text: "• bei unentgeltlichen Anteilserwerben zwischen Angehörigen i.S. des § 15 AO oder" },
+      { text: "• bei der Sanierungsklausel i.S. des § 8c Abs. 1a KStG." },
+      { text: "Wird die Verlustkürzung nur durch Anwendung der Verschonungsregelung nach § 8c Abs. 1 Satz 5 KStG teilweise vermieden oder reduziert, liegt dem Grunde nach ein schädlicher Erwerb i.S. des § 8c Abs. 1 Satz 1 KStG und damit ein Anwendungsfall des § 8d KStG vor. Durch § 8d KStG wird dann aber auch die Auswirkung der Verschonungsregelung verdrängt." },
+      { typ: "titel", text: "2.2.2 Antrag durch Verlustgesellschaft" },
+      { typ: "titel", text: "2.2.2.1 Zeitpunkt und Form der Antragsstellung" },
+      { text: "Die Verlustgesellschaft kann im Fall des schädlichen Erwerbs einen Antrag auf Anwendung des § 8d KStG stellen. Dadurch werden die Auswirkungen des § 8c KStG vollkommen verdrängt. Der Antrag ist nach § 8d Abs. 1 Satz 5 KStG in der KSt-Steuererklärung des Veranlagungszeitraums zu stellen, in dem der schädliche Anteilserwerb erfolgt ist. Die Antragstellung ist daher nur im Rahmen der Steuererklärung möglich und muss die Formvoraussetzungen i.S. des § 31 Abs. 1a KStG erfüllen." },
+      { text: "Der Antrag kann dabei grundsätzlich bis zur Unanfechtbarkeit der Steuerfestsetzung oder der Verlustfeststellung gestellt werden. Gleiches gilt in Fällen einer Änderungsveranlagung, wenn im Rahmen der Steuerfestsetzung erstmals die Auswirkungen des § 8c KStG (z.B. nach einer Betriebsprüfung) auftreten. Nach Eintritt der Unanfechtbarkeit kann eine Antragstellung nur noch erfolgen, wenn auf die Verlustfeststellung oder den Steuerbescheid die allgemeinen AO-Korrekturvorschriften angewendet werden können." },
+      { text: "Im Übrigen kann der Antrag unter den gleichen Voraussetzungen auch wieder zurückgenommen werden, wofür aber die Abgabe einer berichtigten Steuererklärung notwendig ist." },
+      { typ: "titel", text: "2.2.2.2 Auswirkungen bei der Gewerbesteuer" },
+      { text: "Der Antrag i.S. des § 8d Abs. 1 Satz 5 KStG hat gemäß § 10a Satz 11 GewStG auch Auswirkungen auf den gewerbesteuerlichen Verlust der Kapitalgesellschaft, d.h. dieser gilt einheitlich auch für gewerbesteuerliche Zwecke. Nur in den Fällen, in denen abweichend von der Körperschaftsteuer ein gewerbesteuerlich ungenutzter Verlust i.S. des § 10a GewStG besteht, muss dieser ausschließlich für Zwecke der Gewerbesteuer gestellt werden (§ 10a Satz 12 GewStG). (Die Fügung „muss dieser ausschließlich für Zwecke der Gewerbesteuer gestellt werden“ steht so in der Quelle; gemeint ist der Antrag, nicht der Verlust.)" },
+      { text: "Die Grundsätze des BMF-Schreibens vom 18.03.2021 gelten auch für Zwecke der Gewerbesteuer. (Die Fußnote verweist auf den gleichlautenden Erlass der obersten Finanzbehörden der Länder vom 19.03.2021 sowie zur zeitlichen Anwendung auf § 36 Abs. 5a GewStG, der auch vor 2020 liegende Erhebungszeiträume erfasst.)" },
+      { typ: "tabelle", spalten: ["Vorschrift, die den Untergang vermeidet", "§ 8d KStG anwendbar?"], zeilen: [
+        ["Konzernklausel, § 8c Abs. 1 Satz 4 KStG", "nein – es fehlt am schädlichen Erwerb"],
+        ["unentgeltlicher Erwerb zwischen Angehörigen i.S. des § 15 AO", "nein – ebenso"],
+        ["Sanierungsklausel, § 8c Abs. 1a KStG", "nein – ebenso"],
+        ["Verschonungsregelung, § 8c Abs. 1 Satz 5 KStG", "ja – der Erwerb bleibt dem Grunde nach schädlich; § 8d KStG verdrängt dann auch die Verschonung"],
+      ] },
+      { text: "Anmerkung zum Alles-oder-nichts-Verhältnis der beiden Normen (eigene Ergänzung): Der Satz, § 8d KStG verdränge die Auswirkungen des § 8c KStG „vollkommen“, ist wörtlich zu nehmen und hat eine unbequeme Folge. Wer den Antrag stellt, gibt die Verschonung nach § 8c Abs. 1 Satz 5 KStG auf – ein Nebeneinander beider Begünstigungen gibt es nicht. Vor der Antragstellung ist deshalb zu rechnen: Reichen die stillen Reserven aus, den Verlust ohnehin weitgehend zu retten, ist die Verschonung vorzuziehen, weil sie den Verlust **unbelastet** erhält. § 8d KStG rettet zwar mehr, unterwirft den gesamten Bestand aber den schädlichen Ereignissen des Absatzes 2 – ein Verlust, der jederzeit nachträglich untergehen kann." },
+      { text: "Anmerkung zur Logik des Ausschlusses (eigene Ergänzung): Dass Konzernklausel, Angehörigenerwerb und Sanierungsklausel den § 8d KStG ausschließen, wirkt zunächst wie eine Härte, ist aber nur konsequent. In diesen drei Fällen liegt schon **kein** schädlicher Erwerb vor, und ohne drohenden Untergang gibt es nichts zu retten. Praktisch bedeutet das: Wer sich auf eine dieser Klauseln stützen kann, braucht § 8d KStG nicht – und steht sogar besser, weil sein Verlust nicht fortführungsgebunden wird. Der Unterschied zur Verschonungsregelung liegt darin, dass diese den Erwerb nicht ungeschehen macht, sondern nur seine Rechtsfolge mindert." },
+      { text: "Anmerkung zur Frist und ihrer Verlängerung (eigene Ergänzung): Die Antragsfrist ist großzügiger, als der Wortlaut des § 8d Abs. 1 Satz 5 KStG vermuten lässt. Zwar ist der Antrag „in der Steuererklärung“ zu stellen, doch reicht er nach Tz. 7 und 8 des BMF-Schreibens bis zur **Unanfechtbarkeit** – und der praktisch wichtigste Fall ist ausdrücklich erfasst: Stellt erst eine **Betriebsprüfung** den schädlichen Erwerb fest, lebt das Antragsrecht wieder auf. Danach hilft nur noch eine Korrekturvorschrift der AO. Dass die Rücknahme eine **berichtigte Steuererklärung** verlangt, ist die Kehrseite der Formbindung: Was nur in der Erklärung erklärt werden kann, kann auch nur dort zurückgenommen werden." },
+      { text: "Anmerkung zur gewerbesteuerlichen Einheitlichkeit (eigene Ergänzung): Die Regelung des § 10a Sätze 11 und 12 GewStG folgt einem einfachen Grundsatz: **ein** Antrag für beide Steuerarten, solange die Verluste deckungsgleich sind. Auseinander laufen sie regelmäßig, weil der Gewerbeertrag Hinzurechnungen und Kürzungen nach §§ 8, 9 GewStG kennt und der gewerbesteuerliche Fehlbetrag deshalb höher oder niedriger ausfallen kann als der körperschaftsteuerliche Verlust. Nur für diesen **Mehrbetrag** ist ein eigener Antrag nötig. Die Rückwirkung über § 36 Abs. 5a GewStG auf Erhebungszeiträume vor 2020 verhindert, dass zwischen der Einführung des § 8d KStG und der gewerbesteuerlichen Anpassung eine Lücke entsteht." },
     ],
   },
 ];

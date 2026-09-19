@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 20 Kapitel mit 396 Abschnitten und 55 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 22 Kapitel mit 431 Abschnitten und 57 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3998,6 +3998,44 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   3.000.000 € unterjähriger Verlust, zusammen 13.000.000 €; beide Beträge finden sich in den Tabellen
   der Quelle wieder, die im Übrigen aufgehen. Die **Organschaftsfälle** verweist die Quelle mit einem
   Satz auf das Skript Teil VI.
+  Das zweite Kapitel des Skripts behandelt den **fortführungsgebundenen Verlustvortrag** nach
+  § 8d KStG, zu dem die Finanzverwaltung mit BMF-Schreiben vom 18.03.2021 (BStBl. I 2021, 363)
+  Stellung genommen hat. Die Norm gilt für schädliche Erwerbe **nach dem 31.12.2015**, wobei frühere
+  **Zählerwerbe** mitzählen und erst die späteren Erwerbe die Quote überschreiten lassen können.
+  § 34 Abs. 6a Satz 1 KStG sperrt sie zusätzlich, wenn der Geschäftsbetrieb **vor** dem 01.01.2016
+  eingestellt oder ruhend gestellt war – die Vorschrift schaut damit **weiter zurück** als § 8d KStG
+  selbst und verhindert, dass alte Mäntel wiederbelebt werden, um ihre Verluste unter den Schutz der
+  Norm zu stellen. Ihre Rechtsfolge ist dabei **teilbar**: Betroffen sind nicht die Gesellschaft,
+  sondern nur die vor 2016 entstandenen **Altverluste**, so dass ein und derselbe Erwerb den Verlust
+  in zwei Teile zerlegt – einen nach § 8c KStG untergehenden und einen fortführungsgebundenen. Im
+  Beispiel bleiben von 16.000.000 € nach Abzug der Altverluste 12.000.000 € gerettet.
+  Entscheidend ist der unterschiedliche **Bemessungszeitpunkt**, den die Quelle nur in einer Klammer
+  erwähnt: § 8c KStG erfasst den Verlust **im Zeitpunkt des Erwerbs** (im Beispiel 13.000.000 €),
+  § 8d KStG dagegen den Verlust zum **Ende des Wirtschaftsjahres** (16.000.000 €). Der nach dem Erwerb
+  entstandene Verlust wird also mit erfasst, obwohl ihn § 8c KStG gar nicht bedroht hätte – kein
+  Nachteil, sondern die Kehrseite der Bindung, denn auch er unterliegt künftig den schädlichen
+  Ereignissen des § 8d Abs. 2 KStG.
+  Der **Antrag** setzt einen dem Grunde nach schädlichen Erwerb voraus. **Konzernklausel**,
+  unentgeltlicher Erwerb zwischen Angehörigen i.S. des § 15 AO und **Sanierungsklausel** schließen
+  § 8d KStG deshalb aus – dort liegt schon kein schädlicher Erwerb vor, und ohne drohenden Untergang
+  gibt es nichts zu retten. Wer sich auf eine dieser Klauseln stützen kann, steht sogar besser, weil
+  sein Verlust nicht fortführungsgebunden wird. Die **Verschonungsregelung** des § 8c Abs. 1 Satz 5
+  KStG wirkt anders: Sie macht den Erwerb nicht ungeschehen, sondern mindert nur die Rechtsfolge,
+  so dass § 8d KStG anwendbar bleibt – ihn zu beantragen **verdrängt** sie dann allerdings. Ein
+  Nebeneinander beider Begünstigungen gibt es nicht, weshalb vor der Antragstellung zu rechnen ist:
+  Reichen die stillen Reserven ohnehin weitgehend aus, ist die Verschonung vorzuziehen, weil sie den
+  Verlust **unbelastet** erhält, während § 8d KStG zwar mehr rettet, den gesamten Bestand aber den
+  schädlichen Ereignissen aussetzt.
+  Gestellt wird der Antrag nach § 8d Abs. 1 Satz 5 KStG in der **Steuererklärung** des
+  Veranlagungszeitraums des Erwerbs und in der Form des § 31 Abs. 1a KStG, praktisch aber bis zur
+  **Unanfechtbarkeit** der Festsetzung oder Feststellung – ausdrücklich auch dann noch, wenn erst eine
+  **Betriebsprüfung** die Auswirkungen des § 8c KStG aufdeckt; danach hilft nur eine
+  AO-Korrekturvorschrift. Die Rücknahme ist unter denselben Voraussetzungen möglich, verlangt aber
+  eine **berichtigte Steuererklärung** – die Kehrseite der Formbindung. Über § 10a Sätze 11 und 12
+  GewStG wirkt der Antrag **einheitlich** auch für die Gewerbesteuer; nur soweit der gewerbesteuerliche
+  Fehlbetrag wegen der Hinzurechnungen und Kürzungen der §§ 8, 9 GewStG abweicht, ist für diesen
+  Mehrbetrag ein eigener Antrag nötig. § 36 Abs. 5a GewStG erfasst dabei auch Erhebungszeiträume vor
+  2020.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
