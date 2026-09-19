@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 49 Kapitel mit 804
-  Abschnitten und 72 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 51 Kapitel mit 844
+  Abschnitten und 76 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3534,6 +3534,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   vGA-Potential soll genau einmal besteuert werden, nicht keinmal und nicht zweimal. Das ergibt
   zugleich die Kontrollfrage für jede Klausurlösung: Taucht der Betrag der vGA am Ende genau einmal in
   einer Bemessungsgrundlage auf?
+  Die **Rückausnahme des § 8b Abs. 1 Satz 5 KStG** stellt die Steuerfreiheit beim Anteilseigner wieder
+  her, wenn sich das Einkommen der bevorteilten Gesellschaft tatsächlich erhöht hat **und** § 32a KStG
+  auf deren Veranlagung nicht anwendbar ist. Sie macht sichtbar, dass die materielle Korrespondenz
+  kein Selbstzweck ist, sondern ein Instrument gegen **weiße Einkünfte**: Sie versagt die Begünstigung
+  nur, weil der Betrag sonst nirgends besteuert würde – ist er im Ausland bereits erfasst, entfällt
+  der Grund, und ohne die Rückausnahme entstünde die umgekehrte Fehlbesteuerung, nämlich eine
+  **Doppelbesteuerung** im In- und Ausland. Die zweite Voraussetzung wirkt zunächst überflüssig und
+  ist doch der eigentliche Auslöser: Solange sich die Einkommenserhöhung bei der bevorteilten
+  Gesellschaft über § 32a Abs. 2 KStG **zurückdrehen** lässt, muss das geschehen; nur wo dieser Weg
+  versperrt ist, weil ein **ausländischer** Bescheid nicht nach einer deutschen Vorschrift geändert
+  werden kann, bleibt die Steuerfreiheit als einziges Mittel. Maßgebend sind dabei die tatsächlichen
+  ausländischen Verhältnisse, und den Nachweis trägt der Steuerpflichtige, etwa durch Vorlage des
+  ausländischen Steuerbescheids. In beiden Auslandsbeispielen bleibt am Ende genau die
+  **Fünf-Prozent-Pauschale** steuerpflichtig – 25.000 € bzw. 5.000 €.
+  Beim **periodenübergreifenden Sonderfall** – der verbilligten Übertragung eines Wirtschaftsguts ins
+  Ausland – ist umstritten, ob die spätere Gewinnerhöhung durch Minderabschreibung oder
+  Veräußerungsgewinn genügt. Die Literatur liest § 8b Abs. 1 Satz 5 KStG **periodenübergreifend**, die
+  Verwaltung **periodenbezogen** und prüft abschließend im Jahr der Einlage; ihr sprachlicher Anker
+  ist die Vergangenheitsform des Gesetzes („erhöht **hat**“), die Minderabschreibung sei bloße
+  **Reflexwirkung**. Das Schweizer Beispiel und das Inlandsbeispiel gehören dabei zusammen gelesen:
+  Beide betreffen die verhinderte Vermögensmehrung und gehen doch entgegengesetzt aus, und den
+  Unterschied macht allein, **was** zugewendet wird. Beim **Wirtschaftsgut** wird bei der Erwerberin
+  mit dem niedrigen Wert aktiviert, ihr Einkommen steigt zunächst nicht, die Rückausnahme scheitert.
+  Beim **Nutzungsvorteil** ist nichts aktivierbar, der ersparte Aufwand wirkt sich aber **sofort** im
+  Einkommen aus, die Rückausnahme greift. Genau deshalb ist der Nutzungsvorteil der **einzig
+  denkbare** inländische Anwendungsfall: Immer wenn ein Wirtschaftsgut wandert, entsteht eine
+  verdeckte Einlage und damit die Anwendbarkeit des § 32a Abs. 2 KStG – die zweite Voraussetzung ist
+  dann nicht erfüllt. Im Inlandsbeispiel ergibt sich ein zu versteuerndes Einkommen von
+  **./. 380.000 €** – dasselbe Muster wie die ./. 76.000 € aus Abschnitt 5.5, weil § 8b Abs. 1 KStG
+  den Ertrag zu 100 % freistellt, der beteiligungsbezogene Aufwand voll abziehbar bleibt und die
+  Pauschale sich nur nach dem Ertrag bemisst.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

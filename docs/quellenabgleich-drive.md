@@ -10620,6 +10620,45 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitt 5.6.2.2 – Rückausnahme des § 8b Abs. 1 Satz 5 KStG
+
+Quelle: dieselbe Datei, Seiten 74 bis 77; übernommen als Kapitel 50 und 51. Prüfung:
+`npm run check:k2-kst-teil4` (51 Kapitel, 844 Blöcke, 76 Tabellen).
+
+**Alle Zahlen der vier Beispiele sind unabhängig nachgerechnet und gehen auf:** 1.000.000 € ./.
+500.000 € = 500.000 €, davon 5 % = 25.000 €; 200.000 € ./. 100.000 € = 100.000 €, davon 5 % =
+5.000 €; 600.000 € ./. 200.000 € = 400.000 €; 500.000 € ./. 100.000 € = 400.000 €, davon 5 % =
+20.000 €, zu versteuerndes Einkommen ./. 380.000 €.
+
+**Der Gegensatz der beiden letzten Beispiele ist als eigene Feststellung herausgearbeitet.** Beide
+betreffen die Fallgruppe der verhinderten Vermögensmehrung und gehen doch entgegengesetzt aus. Den
+Unterschied macht allein, was zugewendet wird: Beim Wirtschaftsgut steigt das Einkommen der
+Erwerberin zunächst nicht, beim Nutzungsvorteil schlägt der ersparte Aufwand sofort durch. Es ist
+dieselbe Unterscheidung, die schon die Abschnitte 4.2.5.2 und 5.5 getragen hat.
+
+**Ebenfalls als eigene Ergänzungen eingeordnet** sind: die Deutung der materiellen Korrespondenz als
+Instrument gegen weiße Einkünfte, aus der sich der Sinn der Rückausnahme ergibt; die Erklärung, warum
+die zweite Voraussetzung der eigentliche Auslöser der Vorschrift ist; der Hinweis auf die
+Darlegungslast des Steuerpflichtigen; die Herleitung, weshalb der Nutzungsvorteil der einzig denkbare
+inländische Anwendungsfall ist; die Einordnung des negativen Einkommens von 380.000 € als dasselbe
+Muster wie in Abschnitt 5.5; und die Zuspitzung des Streitstands auf die periodenbezogene gegenüber
+der periodenübergreifenden Lesart samt dem sprachlichen Anker der Verwaltung („erhöht *hat*“).
+
+**Eine eigene Rechnung ist ergänzt:** Im Schweizer Beispiel stellt die Quelle nur die Buchung dar,
+ohne das Ergebnis auszurechnen; weil die Rückausnahme nicht greift, bleibt der Ertrag von 400.000 €
+in voller Höhe steuerpflichtig.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „verdeckten Einlage
+i.H. in die C-GmbH von 400.000 €“ und „Das der Vorgang nach den Grundsätzen des ausländischen
+Steuerrechts zutreffend abgebildet wurde“.
+
+**Der Gliederungsfehler der Quelle ist nun auch im Dateikopf vermerkt:** Die Nummer 5.6 kommt zweimal
+vor – als „Korrespondenzprinzip in Dreiecksfällen“ (Seite 68) und als „Anwendung des § 1 AStG“
+(Seite 76). Die Abschnittsnummern der Datensätze folgen dem Wortlaut der Quelle.
+
+**Noch offen:** aus Teil IV die Anwendung des § 1 AStG in Dreiecksfällen, die Schenkungsteuer (5.7)
+und das Kapitel 6 (Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Rückausnahme zu 5.6.1 und Abschnitt 5.6.2.1
 
 Quelle: dieselbe Datei, Seiten 71 bis 73; übernommen als Kapitel 48 und 49. Prüfung:
