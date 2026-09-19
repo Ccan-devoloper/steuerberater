@@ -57,7 +57,7 @@ function korrigiereEntfernungspauschale(thema) {
   thema.kern = {
     ...thema.kern,
     einordnung: [
-      "Fahrten zwischen Wohnung und Betriebsstätte sind nur in Höhe der Entfernungspauschale abziehbar. Bei einem betrieblichen Pkw wird der pauschale Nutzungswert dem nach dem jeweligen Veranlagungsjahr abzugsfähigen Betrag gegenübergestellt.",
+      "Fahrten zwischen Wohnung und Betriebsstätte sind nur in Höhe der Entfernungspauschale abziehbar. Bei einem betrieblichen Pkw wird der pauschale Nutzungswert dem nach dem jeweiligen Veranlagungsjahr abzugsfähigen Betrag gegenübergestellt.",
       "Rechtsstand 2026: Für jeden vollen Entfernungskilometer sind 0,38 € je Arbeitstag anzusetzen; die bis 2025 geltende Staffelung entfällt.",
     ],
     lernziele: [
@@ -84,7 +84,7 @@ function korrigiereEntfernungspauschale(thema) {
     abJahr: 2026,
     vorherJahr: 2025,
     norm: "§ 9 Abs. 1 S. 3 Nr. 4 EStG",
-    aktuell: "0,38 € e vollem Entfernungskilometer ab dem ersten Kilometer.",
+    aktuell: "0,38 € je vollem Entfernungskilometer ab dem ersten Kilometer.",
     vorher: "0,30 € je km für die ersten 20 km und 0,38 € ab dem 21. km.",
   });
 }
@@ -125,10 +125,17 @@ function korrigiereSechsBReihenfolge(thema) {
 function korrigiereSechsBAbs10(thema) {
   thema.kern = {
     ...thema.kern,
-    ausdruck: "begünstigter Anteilsgewinn höchstens 2.000.000 €; Höhe des Abzugs hängt vom Ersatzwirtschaftsgut ab",
-    erklaerung: "§ 6b Abs. 10 EStG begünstigt Gewinne aus der Veräußerung von Anteilen nur bis 2.000.000 €. Bei der Übertragung auf Gebäude oder abnutzbare bewegliche Wirtschaftsgüter ist zusätzlich die Teilfreistellung nach § 3 Nr. 40 EStG zu beachten; bei begünstigten Anteilen gelten die besonderen Regeln des Absatzes 10. Eine Formel ohne die 2-Mio.-€-Grenze ist unvollständig.",
+    ausdruck: "begünstigter Anteilsgewinn: bis 2.000.000 € nach neuem Recht; Übergangsregel des § 52 Abs. 14 S. 7 EStG beachten",
+    erklaerung: "§ 6b Abs. 10 EStG begünstigt Gewinne aus der Veräußerung von Anteilen nach aktuellem Recht bis 2.000.000 €. Die Erhöhung gilt nach § 52 Abs. 14 S. 7 EStG erstmals für Gewinne, die in nach dem 10. Februar 2026 beginnenden Wirtschaftsjahren entstehen. Bei der Übertragung auf Gebäude oder abnutzbare bewegliche Wirtschaftsgüter ist nur der nicht nach § 3 Nr. 40 i. V. m. § 3c Abs. 2 EStG steuerbefreite Teil abziehbar; für Ersatzanteile gelten die besonderen Regeln des Absatzes 10.",
   };
-  thema.normen = ["§ 6b Abs. 10 S. 1–6 EStG", "§ 3 Nr. 40 EStG"];
+  thema.normen = ["§ 6b Abs. 10 S. 1–6 EStG", "§ 52 Abs. 14 S. 7 EStG", "§ 3 Nr. 40 EStG", "§ 3c Abs. 2 EStG"];
+  rechtsstandswechsel(thema, {
+    abJahr: 2026,
+    vorherJahr: 2025,
+    norm: "§ 6b Abs. 10 S. 1 i. V. m. § 52 Abs. 14 S. 7 EStG",
+    aktuell: "Höchstbetrag 2.000.000 € für Gewinne aus Anteilsveräußerungen, die in nach dem 10.02.2026 beginnenden Wirtschaftsjahren entstehen.",
+    vorher: "Höchstbetrag 500.000 € nach der bis zur Neuregelung geltenden Fassung.",
+  });
 }
 
 function korrigiereMiete(thema) {
