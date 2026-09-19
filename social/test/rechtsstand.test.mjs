@@ -72,6 +72,15 @@ test("wirtschaftliches Eigentum bei Miete ist nicht absolut ausgeschlossen", () 
 
 
 
+
+test("Außenprüfungsmodul nutzt neue §171-Abs.4-Fünfjahresgrenze", () => {
+  const t = byId("ao-modul-ao-335");
+  assert.match(kern(t), /nach dem 31\.12\.2024/);
+  assert.match(kern(t), /fünf Jahre nach Ablauf des Kalenderjahres/);
+  assert.match(kern(t), /Art\. 97 § 37 Abs\. 2 EGAO|altes Recht/);
+  assert.doesNotMatch(kern(t), /äußerste zeitliche Grenze nach Schlussbesprechung bzw\. letzter Prüfungshandlung/);
+});
+
 test("Familienheim behandelt Pflegeheim und Sechs-Monats-Frist nicht absolut", () => {
   const t = byId("erbst-modul-erbst-512");
   assert.match(kern(t), /objektiv unmöglich oder unzumutbar/);
