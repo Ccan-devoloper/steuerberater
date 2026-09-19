@@ -133,11 +133,24 @@
       "attempt": 1,
       "slot": "exam paper with blank answer space",
       "reservedUsd": 0.01,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.01,
+      "state": "settled",
       "createdAt": "2026-09-19T10:44:24.301Z",
-      "updatedAt": "2026-09-19T10:44:26.516Z"
+      "updatedAt": "2026-09-19T10:44:37.074Z"
+    },
+    {
+      "reservationId": "2026-09-19-0011-erklaerbild",
+      "date": "2026-09-19",
+      "bucket": "core",
+      "purpose": "erklaerbild",
+      "attempt": 1,
+      "slot": "handwritten heading on lined paper",
+      "reservedUsd": 0.01,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-19T10:44:38.295Z",
+      "updatedAt": "2026-09-19T10:44:38.295Z"
     }
   ],
-  "stand": "2026-09-19T10:44:26.516Z"
+  "stand": "2026-09-19T10:44:38.295Z"
 }
