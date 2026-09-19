@@ -37,6 +37,12 @@ test("§ 6b Social-Formeln enthalten keine erfundene Reihenfolge und beachten 2-
   assert.doesNotMatch(kern(reihenfolge), /Gewinn → zuerst Grund und Boden|Erst wenn der Grund und Boden[^"]*abgeschrieben/);
   const abs10 = byId("bilanz-formel-sechsb-abs10");
   assert.match(kern(abs10), /2\.000\.000/);
+  assert.match(kern(abs10), /10\. Februar 2026/);
+  const auftrag = rechtsstandAuftrag(abs10, new Date("2026-09-19T12:00:00Z"));
+  assert.match(auftrag, /Rechtsstand 2026/);
+  assert.match(auftrag, /2\.000\.000/);
+  assert.match(auftrag, /Rechtsstand 2025/);
+  assert.match(auftrag, /500\.000/);
 });
 
 test("wirtschaftliches Eigentum bei Miete ist nicht absolut ausgeschlossen", () => {
