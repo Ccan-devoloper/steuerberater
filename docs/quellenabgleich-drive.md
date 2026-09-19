@@ -10620,6 +10620,62 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.4.6.3 und 3.4.6.4 – Zusammenrechnung und Kettenorganschaft
+
+Übernommen sind die Seiten 73 bis 77 der Quelle: die Zusammenrechnung der Beteiligungen
+mit Grundfall und zwei Abwandlungen (3.4.6.3) und die Kettenorganschaft mit beiden
+Fallgruppen und dem durchgerechneten Beispiel (3.4.6.4). Damit sind die
+organschaftlichen Mehr- und Minderabführungen (Abschnitt 3.4) **vollständig**
+übernommen. Der Datensatz umfasst 60 Kapitel mit 1.024 Abschnitten und 83 Tabellen;
+geprüft mit `npm run check:k2-kst-teil6`.
+
+**Zentraler Befund: Rechenfehler in der ersten Abwandlung zu 3.4.6.3.** Bei einer
+unmittelbaren Beteiligung von 30 % und einer mittelbaren von 80 % × 70 % = 56 % beträgt
+die Gesamtquote 86 %. Die Quelle rechnet den unmittelbaren Anteil zutreffend mit
+30/86 = 34,88 %, gerundet **35 %**. Für den mittelbaren Strang nennt sie anschließend
+**75 %**. Richtig sind **65 %** (56/86 = 65,12 %); 35 % und 75 % ergäben zusammen 110 %.
+Der Wert ist wortlautgetreu übernommen und im Datensatz mit der eigenen Nachrechnung
+gekennzeichnet; die übrigen Aussagen der Abwandlung bleiben davon unberührt.
+
+**Weitere Befunde der Quelle** (wortlautgetreu übernommen und gekennzeichnet):
+
+- Abschnitt 3.4.6.3 verweist auf „siehe unter 3.6.4.2“; gemeint ist 3.4.6.2.
+- Abschnitt 3.4.6.3 verweist auf „die unter 3.4.3.2 und 3.4.3.3 dargestellten
+  Grundsätze“; diese Abschnitte gibt es nicht – gemeint sind 3.4.5.2 und 3.4.5.3.
+- Abschnitt 3.4.6.3: „die mit dem Beteiligungsbuchwert an der B-GmbH zu verrechnen
+  ist und der Überhang zu einem Veräußerungsgewinn führt“ – Konstruktionsbruch.
+- Abschnitt 3.4.6.3, Abwandlung 1: „gelten aber auch in den Fällen, in denen sich die
+  finanzielle Eingliederung auch bereits vollkommen aus der mittelbaren Beteiligung …
+  ergeben würde“ – „auch“ steht zweimal im Satz.
+- Abschnitt 3.4.6.4: „Besteuerung des Organeinkommmens“ – Verschreibung mit drei
+  Buchstaben „m“.
+- Abschnitt 3.4.6.4: „Dieser Vorgang führt zu einer bereits zu einer Abweichung“ –
+  „zu einer“ steht doppelt.
+
+**Eigene Nachrechnung.** Alle Quoten und Beträge sind unabhängig nachgerechnet.
+
+| Fall (3.4.6.3) | unmittelbar / mittelbar | gesamt | Aufteilung |
+| --- | --- | --- | --- |
+| Grundfall | 30 % / 24 % | 54 % | 56 % zu 44 % – beide Angaben der Quelle zutreffend |
+| Abwandlung 1 | 30 % / 56 % | 86 % | 35 % zutreffend, 65 % statt der genannten 75 % |
+| Abwandlung 2 | 60 % / 32 % | 92 % | keine mittelbare Organschaft, § 14 Abs. 1 Nr. 1 Satz 3 KStG |
+
+Kettenorganschaft (3.4.6.4): Minderabführung 30.000 € – Beteiligung an der C-GmbH
+60.000 € + 30.000 € = 90.000 €, Beteiligung an der B-GmbH 100.000 € + 30.000 € =
+130.000 €, Einlagekonten je + 30.000 €. Mehrabführung 70.000 € – Buchwert der C-GmbH
+60.000 €, Überhang 10.000 €, Saldo der Buchung ./. 60.000 € und damit Mehrabführung der
+zweiten Stufe von 60.000 €, Pauschale beim obersten Organträger 5 % von 10.000 € =
+500 €, Buchwert der B-GmbH 100.000 € ./. 60.000 € = 40.000 €. Sämtliche Angaben der
+Quelle treffen zu.
+
+Als eigene Ergänzungen im Datensatz ausgewiesen: der Aufteilungsmaßstab (Verhältnis des
+Beitrags zur Stimmrechtsmehrheit, Nenner ist die Gesamtquote), die Asymmetrie zwischen
+den beiden Abwandlungen (die unmittelbare Beteiligung ist privilegiert, die mittelbare
+nicht), die Erklärung des Kettenmechanismus aus dem rein bilanziellen Begriff des § 14
+Abs. 4 Satz 6 KStG, der Größenunterschied zwischen den Stufen (70.000 € unten, 60.000 €
+oben, weil der Überhang als Ertrag und nicht als Aufwand gebucht wird) und das
+Zusammenspiel mit der Bruttomethode.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.4.6.1 und 3.4.6.2 – mittelbare Organschaft über eine Zwischengesellschaft
 
 Übernommen sind die Seiten 71 bis 73 der Quelle: die Begriffsdefinition der mittelbaren

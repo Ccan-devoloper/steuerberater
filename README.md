@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 58 Kapitel mit 969 Abschnitten und 80 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 60 Kapitel mit 1.024 Abschnitten und 83 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5370,6 +5370,38 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rechtsgrundlage für den Zugriff auf das Einlagekonto der **Zwischengesellschaft**, die selbst keine
   Organgesellschaft ist – rückwirkend für alle nach dem 31.12.2021 erfolgenden Mehr- und
   Minderabführungen und damit für den gesamten Anwendungszeitraum der Einlagenlösung.
+  Wird die finanzielle Eingliederung erst durch **Zusammenrechnung** beider Stränge erreicht, ist die
+  Mehr- oder Minderabführung **aufzuteilen** – und zwar nach dem Verhältnis, in dem sie zur
+  **Stimmrechtsmehrheit beitragen**, nicht nach der Höhe der Beteiligungen selbst. Im Grundfall sind
+  das 30 zu 24 Prozentpunkte, woraus sich **56 % zu 44 %** ergeben; der Nenner ist dabei stets die
+  Gesamtquote von 54 %, nicht 100 %. Der unmittelbare Teil folgt den Regeln der Einlagenlösung, der
+  mittelbare durchläuft dieselbe **Kaskade** wie bei der Zwischengesellschaft. Die erste Abwandlung
+  enthält eine überraschende Feststellung: Die Aufteilung gilt **auch dann**, wenn die mittelbare
+  Beteiligung für sich schon zur Eingliederung genügt hätte. Daraus ergibt sich eine **Asymmetrie**,
+  die beim Nebeneinanderlegen beider Abwandlungen sichtbar wird – genügt die **unmittelbare**
+  Beteiligung allein, bleibt die mittelbare folgenlos (§ 14 Abs. 1 Nr. 1 Satz 3 KStG); genügt die
+  **mittelbare** allein, wird gleichwohl aufgeteilt. Der Grund liegt schlicht im Wortlaut des Satzes 3,
+  der nur einen der beiden Fälle nennt.
+  In der **Kettenorganschaft** greift § 14 Abs. 4 KStG auf jeder Stufe, weil die nachfolgende
+  Organgesellschaft zugleich Organträgerin ist – und die Abweichung **pflanzt sich fort**. Der Grund
+  steht in einem einzigen Satz der Quelle: Die Buchwertkorrektur bei der Zwischen-Organgesellschaft
+  ist zwar **einkommens**neutral, **berührt aber trotzdem deren Steuerbilanzgewinn**. Weil § 14 Abs. 4
+  Satz 6 KStG allein auf die **Bilanzdifferenz** abstellt, löst sie dort eine **eigene** Mehr- oder
+  Minderabführung aus, und das wiederholt sich Stufe um Stufe bis zum obersten Organträger. Das ist
+  die unmittelbare Folge des rein bilanziellen Begriffs. Aufschlussreich ist dabei der
+  **Größenunterschied** zwischen den Stufen: Aus einer Mehrabführung von 70.000 € unten werden oben
+  nur **60.000 €**, weil nur der durch den Buchwert gedeckte Teil als **Aufwand** gebucht wird,
+  während der Überhang von 10.000 € als **Ertrag** erscheint und den Steuerbilanzgewinn gerade nicht
+  mindert. Bei der **Minderabführung** fehlt diese Verzweigung, weshalb dort auf beiden Stufen
+  derselbe Betrag von 30.000 € steht – wer das übersieht, rechnet oben mit der falschen Zahl.
+  Der Fall verbindet schließlich zwei zuvor getrennt behandelte Vorschriften: Der Überhang von
+  10.000 € wäre bei der Zwischen-Organgesellschaft ein Beteiligungsertrag nach § 8b Abs. 2 KStG, doch
+  **§ 15 Satz 1 Nr. 2 Satz 1 KStG sperrt** die Vorschrift dort, weil sie selbst Organgesellschaft ist.
+  Der Betrag wandert deshalb **brutto** im Organeinkommen nach oben und wird erst beim obersten
+  Organträger gewürdigt – mit dem Ergebnis von **500 €** Pauschale. Der Feststellungsbescheid muss den
+  Beteiligungsertrag folglich **gesondert** ausweisen, weil er sonst im Organeinkommen gar nicht mehr
+  auffindbar wäre. Damit sind die organschaftlichen Mehr- und Minderabführungen vollständig
+  abgebildet; sämtliche Zahlen sind unabhängig nachgerechnet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
