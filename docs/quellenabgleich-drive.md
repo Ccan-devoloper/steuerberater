@@ -10620,6 +10620,57 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.4.6.1 und 3.4.6.2 – mittelbare Organschaft über eine Zwischengesellschaft
+
+Übernommen sind die Seiten 71 bis 73 der Quelle: die Begriffsdefinition der mittelbaren
+Organschaft (3.4.6.1) und die finanzielle Eingliederung über eine Zwischengesellschaft
+mit dem Beispiel zu Minder- und Mehrabführung (3.4.6.2). Der Datensatz umfasst damit 58
+Kapitel mit 969 Abschnitten und 80 Tabellen; geprüft mit `npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Fehlt eine unmittelbare Beteiligung, gibt es beim Organträger
+keinen Beteiligungsansatz an der Organgesellschaft; § 14 Abs. 4 Satz 4 KStG setzt
+deshalb an der vermittelnden Beteiligung an. Die Korrektur wird auf jeder
+Beteiligungsstufe nachvollzogen – die Minderabführung von oben nach unten, die
+Mehrabführung von unten nach oben. Genügt die unmittelbare Beteiligung schon für sich,
+liegt keine mittelbare Organschaft vor und die mittelbare Beteiligung bleibt unberührt.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Die Aufstellung zur Einkommensermittlung der Zwischengesellschaft enthält die Zeile
+  „Saldo: -60.000 € (Saldo)“ – das Wort steht doppelt.
+- Dieselbe Aufstellung schreibt „§ 8b Abs. 3 Satz 1KStG“ ohne Leerzeichen.
+- Die Quelle weist für diese Einkommensermittlung **kein Endergebnis** aus. Es beträgt
+  nach eigener Rechnung 1.500 € und ist im Datensatz als eigene Ergänzung ausgewiesen.
+- Die Quelle formuliert „was klarstellend durch § 27 Abs. 6 Satz 3 KStG geregelt
+  werden soll“ im Futur, obwohl das JStG 2024, auf das ihre eigene Fußnote verweist,
+  bereits ergangen ist.
+
+**Eigene Nachrechnung.** Alle Zahlen gehen auf.
+
+| Vorgang | Ebene | Rechnung | Ergebnis |
+| --- | --- | --- | --- |
+| Minderabführung 40.000 € | A-GmbH | 100.000 € + 40.000 € | Buchwert B-GmbH 140.000 € |
+| Minderabführung 40.000 € | B-GmbH | 60.000 € + 40.000 € | Buchwert C-GmbH 100.000 € |
+| Minderabführung 40.000 € | B- und C-GmbH | Einlagekonto je + 40.000 € | — |
+| Mehrabführung 90.000 € | B-GmbH | 90.000 € ./. 60.000 € | Überhang 30.000 €, Pauschale 1.500 € |
+| Mehrabführung 90.000 € | B-GmbH Einkommen | ./. 60.000 € + 90.000 € ./. 30.000 € + 1.500 € | 1.500 € |
+| Mehrabführung 90.000 € | A-GmbH | 100.000 € ./. 90.000 € | Buchwert B-GmbH 10.000 € |
+
+Bemerkenswert und als eigene Ergänzung ausgewiesen: Steuer entsteht **allein bei der
+Zwischengesellschaft** – beim Organträger bleibt der Vorgang neutral, weil sein Buchwert
+ausreicht, während der Buchwert der Zwischengesellschaft an der Organgesellschaft zu
+niedrig ist. Die Steuerlast hängt also davon ab, auf welcher Stufe der niedrigere
+Buchwert steht, und zwar bei derjenigen Gesellschaft, die gar nicht Partei des
+Gewinnabführungsvertrags ist. Das Ergebnis von 1.500 € entspricht wiederum genau der
+5%-Pauschale, wie schon in Abschnitt 3.4.5.3.
+
+Ebenfalls ergänzt sind: die Herleitung des § 14 Abs. 4 Satz 4 KStG aus dem fehlenden
+Beteiligungsansatz, das Bild der Kaskade in beide Richtungen und der Hinweis, dass
+§ 27 Abs. 6 Satz 3 KStG i.d.F. des JStG 2024 eine echte Regelungslücke schließt – für
+die Zwischengesellschaft, die selbst keine Organgesellschaft ist, fehlte bis dahin die
+Rechtsgrundlage, obwohl die Verwaltung den Nachvollzug auf jeder Stufe bereits 2022
+verlangte.
+
 ### KSt Teil VI (Hamacher), Abschnitt 3.4.5 – Einlagenlösung beim Organträger
 
 Übernommen sind die Seiten 68 bis 71 der Quelle: der Übergang zur Einlagenlösung mit

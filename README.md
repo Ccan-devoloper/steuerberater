@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 56 Kapitel mit 929 Abschnitten und 75 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 58 Kapitel mit 969 Abschnitten und 80 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5339,6 +5339,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   beiden Fällen entspricht das Ergebnis **genau der 5%-Pauschale** – alles andere hebt sich auf, was
   zugleich die Probe darauf ist, dass der Vorgang im Übrigen steuerneutral bleibt. Sämtliche Zahlen
   sind unabhängig nachgerechnet.
+  Bei der **mittelbaren Organschaft** stößt die Einlagenlösung auf ein einfaches Problem: Sie bucht in
+  die **Anschaffungskosten** derjenigen Beteiligung, über die Organträger und Organgesellschaft
+  verbunden sind – besteht **keine unmittelbare** Beteiligung, gibt es beim Organträger gar keinen
+  Ansatz, den er erhöhen oder mindern könnte. **§ 14 Abs. 4 Satz 4 KStG** setzt deshalb an der
+  **vermittelnden** Beteiligung an. Daraus folgt zugleich die Abgrenzung: Genügt die unmittelbare
+  Beteiligung schon für sich zur finanziellen Eingliederung, liegt nach § 14 Abs. 1 Nr. 1 Satz 3 KStG
+  **keine** mittelbare Organschaft vor, und eine daneben bestehende mittelbare Beteiligung bleibt
+  **vollständig folgenlos** – obwohl sie wirtschaftlich dieselbe Verbindung schafft. Die Prüfung
+  verläuft also in zwei Schritten: erst klären, **woraus** sich die Stimmrechtsmehrheit ergibt, dann
+  die Rechtsfolge bestimmen.
+  Läuft die Eingliederung über eine **Zwischengesellschaft**, wird die Korrektur **auf jeder
+  Beteiligungsstufe** nachvollzogen – dass zwischen den einzelnen Gesellschaften kein
+  Organschaftsverhältnis besteht, ist ausdrücklich unerheblich. Es entsteht eine **Kaskade**, die in
+  beide Richtungen läuft: Die **Minderabführung** fließt von **oben nach unten** (der Organträger legt
+  in die Zwischengesellschaft ein, diese leitet in die Organgesellschaft weiter; auf jeder Stufe
+  steigen ein Beteiligungsbuchwert und ein Einlagekonto), die **Mehrabführung** von **unten nach
+  oben** (die Organgesellschaft mindert ihr Einlagekonto, die Zwischengesellschaft verrechnet mit
+  ihrem Buchwert und mindert ihr eigenes Konto, der Organträger verrechnet mit seinem Buchwert an der
+  Zwischengesellschaft). Aufschlussreich ist, **wo** dabei Steuer entsteht: Im Beispiel bleibt der
+  Vorgang beim **Organträger** vollständig neutral, weil sein Buchwert an der Zwischengesellschaft mit
+  100.000 € für die Mehrabführung von 90.000 € ausreicht und auf 10.000 € sinkt. Bei der
+  **Zwischengesellschaft** reicht der Buchwert von 60.000 € dagegen nicht, so dass dort ein
+  **Überhang von 30.000 €** als Beteiligungsertrag entsteht und die 5%-Pauschale von **1.500 €**
+  anfällt – bei derjenigen Gesellschaft also, die gar nicht Partei des Gewinnabführungsvertrags ist.
+  Die Steuerlast hängt damit davon ab, **auf welcher Stufe** der niedrigere Buchwert steht. Die Quelle
+  weist für diese Einkommensermittlung **kein Endergebnis** aus; es beträgt nach eigener Rechnung
+  1.500 € und entspricht damit wiederum genau der Pauschale. Nicht zuletzt schließt der Abschnitt eine
+  echte Regelungslücke: **§ 27 Abs. 6 Satz 3 KStG** i.d.F. des **JStG 2024** schafft erstmals die
+  Rechtsgrundlage für den Zugriff auf das Einlagekonto der **Zwischengesellschaft**, die selbst keine
+  Organgesellschaft ist – rückwirkend für alle nach dem 31.12.2021 erfolgenden Mehr- und
+  Minderabführungen und damit für den gesamten Anwendungszeitraum der Einlagenlösung.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -43,9 +43,12 @@
      Organgesellschaft mit Einkommenswirkung und steuerlichem Einlagekonto
      (3.4.4) sowie die Auswirkungen beim Organträger mit dem Übergang zur
      Einlagenlösung, der Minderabführung als Einlage und der Mehrabführung
-     als Einlagenrückgewähr (3.4.5).
+     als Einlagenrückgewähr (3.4.5) sowie aus der mittelbaren Organschaft
+     die Begriffsdefinition und die finanzielle Eingliederung über eine
+     Zwischengesellschaft (3.4.6.1, 3.4.6.2).
 
-   Es folgen die mittelbare Organschaft (3.4.6), die vororganschaftlichen
+   Es folgen die Zusammenrechnung der Beteiligungen und die
+   Kettenorganschaft (3.4.6.3, 3.4.6.4), die vororganschaftlichen
    Mehr- und Minderabführungen (3.5), die verunglückte Organschaft (3.6)
    sowie Kapitel 4 zur gewerbesteuerlichen Organschaft. Der Campus weist den Stand aus.
 
@@ -2826,6 +2829,116 @@ export const kstTeil6 = [
       { text: "Anmerkung zur Deckelung bei 0 € (eigene Ergänzung): Die Grenze ist der eigentliche Grund dafür, dass die Mehrabführung überhaupt Steuer auslösen kann. Solange ein **Buchwert** vorhanden ist, wird die Einlagenrückgewähr schlicht mit ihm verrechnet – wie bei jeder Einlagenrückgewähr im Sinne des § 20 Abs. 1 Nr. 1 Satz 3 EStG (Abschnitt 3.2.5.7). Weil aber ein **negativer** Beteiligungsansatz ausgeschlossen ist, muss der darüber hinausgehende Betrag irgendwo hin – und das Gesetz behandelt ihn als **Veräußerungsgewinn**, obwohl nichts veräußert wurde. Dieselbe Technik verwendet § 17 Abs. 4 EStG beim privaten Anteilseigner. Der Unterschied zur alten Rechtslage ist erheblich: Der **passive Ausgleichsposten** wurde erst bei der tatsächlichen Veräußerung aufgelöst, jetzt wird, wie die Quelle sagt, „**zeitnaher**“ versteuert." },
       { text: "Anmerkung zur Saldierung (eigene Ergänzung): § 14 Abs. 4 Satz 7 KStG verlangt die Saldierung **innerhalb** eines Wirtschaftsjahres, und das dritte Beispiel zeigt, dass sie **nicht** nur eine Rechenvereinfachung ist. Ohne Saldierung wäre zunächst die Minderabführung von 40.000 € als Einlage zu erfassen (Buchwert 90.000 €) und anschließend die Mehrabführung von 200.000 € abzuziehen, was zu einem Überhang von 110.000 € führte – rechnerisch dasselbe Ergebnis. Die Saldierung erspart also die Doppelbuchung, ändert am Ergebnis hier aber nichts. Anders läge es, wenn **verschiedene Wirtschaftsjahre** betroffen wären: Dann entstünde im ersten Jahr eine Einlage und im zweiten ein Überhang, der sich am zwischenzeitlich erhöhten Buchwert bemisst. Die zeitliche Zuordnung nach dem Wirtschaftsjahr der Organgesellschaft entscheidet also mit über die Steuerlast." },
       { text: "Anmerkung zur Rechtsform des Organträgers (eigene Ergänzung): Die Verweisung des § 14 Abs. 4 Satz 5 KStG auf § 8b KStG **bzw.** das Teileinkünfteverfahren führt die schon mehrfach begegnete Linie fort: Über die Behandlung eines Beteiligungsertrags entscheidet die **Rechtsform desjenigen, bei dem er anfällt**. Bei einer Kapitalgesellschaft als Organträger bleiben 95 % steuerfrei, bei einer natürlichen Person greifen § 3 Nr. 40 Buchst. a EStG und spiegelbildlich § 3c Abs. 2 EStG. Im Beispiel wäre das zu versteuernde Einkommen der Variante b) bei einer natürlichen Person als Organträger deshalb ganz anders zu berechnen – die Quelle rechnet durchgehend mit der Kapitalgesellschaft." },
+    ],
+  },
+  {
+    id: "kst-t6-57",
+    kapitel: "57",
+    abschnittNr: "3.4.6.1",
+    title: "3.4.6.1 Mittelbare Organschaft – Begriffsdefinition",
+    thema: "Mittelbar ist die Organschaft, wenn die finanzielle Eingliederung nur über eine Zwischengesellschaft oder durch Zusammenrechnung erreicht wird; dann erfasst § 14 Abs. 4 Satz 4 KStG auch die vermittelnde Beteiligung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.6.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 1 Nr. 1 Satz 2 KStG",
+      "§ 14 Abs. 1 Nr. 1 Satz 3 KStG",
+      "§ 14 Abs. 4 Satz 4 KStG",
+      "BMF vom 29.09.2022, Tz. 6",
+    ],
+    themen: ["mittelbare Organschaft", "Zwischengesellschaft", "Zusammenrechnung", "vermittelnde Beteiligung"],
+    bloecke: [
+      { typ: "titel", text: "3.4.6 Auswirkungen bei mittelbarer Organschaft" },
+      { typ: "titel", text: "3.4.6.1 Begriffsdefinition" },
+      { text: "Eine **mittelbare Organschaft** liegt vor, wenn der Organträger die finanzielle Eingliederung nach den Grundsätzen des § 14 Abs. 1 Nr. 1 Satz 2 KStG entweder" },
+      { text: "**a)** ausschließlich über eine **Zwischengesellschaft** oder" },
+      { text: "**b)** durch **Zusammenrechnung** der unmittelbaren und mittelbaren Beteiligung" },
+      { text: "erreicht (§ 14 Abs. 1 Nr. 1 Satz 2 KStG). Dies führt nach **§ 14 Abs. 4 Satz 4 KStG** dazu, dass die v.g. Grundsätze **auch hinsichtlich der Beteiligung an der Gesellschaft gelten, die dem Organträger die finanzielle Eingliederung vermittelt**." },
+      { text: "Erreicht der Organträger die finanzielle Eingliederung hingegen **bereits ausschließlich über seine unmittelbare Beteiligung** an der Organgesellschaft, liegt **keine** mittelbare Organschaft vor (§ 14 Abs. 1 Nr. 1 Satz 3 KStG). Die sich aus einer Mehr- oder Minderabführung ergebenden Auswirkungen entsprechen dann ausschließlich den unter 3.4.5.2 und 3.4.5.3 dargestellten Grundsätzen. Die mittelbare Beteiligung bleibt in diesen Fällen **davon unberührt**." },
+      { typ: "tabelle", spalten: ["Wie wird die finanzielle Eingliederung erreicht?", "Folge für Mehr- und Minderabführungen"], zeilen: [
+        ["ausschließlich über eine Zwischengesellschaft (Fall a)", "mittelbare Organschaft – Nachvollzug auf jeder Beteiligungsstufe, § 14 Abs. 4 Satz 4 KStG"],
+        ["durch Zusammenrechnung unmittelbarer und mittelbarer Beteiligung (Fall b)", "mittelbare Organschaft – Aufteilung auf beide Beteiligungen"],
+        ["bereits allein durch die unmittelbare Beteiligung", "keine mittelbare Organschaft, § 14 Abs. 1 Nr. 1 Satz 3 KStG – es bleibt bei 3.4.5.2 und 3.4.5.3"],
+      ] },
+      { text: "Anmerkung zum tragenden Gedanken (eigene Ergänzung): § 14 Abs. 4 Satz 4 KStG knüpft an eine schlichte Überlegung an: Die Einlagenlösung bucht in die **Anschaffungskosten** derjenigen Beteiligung, über die der Organträger mit der Organgesellschaft verbunden ist. Besteht **keine unmittelbare** Beteiligung, gibt es bei ihm gar keinen Beteiligungsansatz an der Organgesellschaft, den er erhöhen oder mindern könnte – die Korrektur muss deshalb an der **vermittelnden** Beteiligung ansetzen. Daraus folgt zugleich die Abgrenzung des Satzes 3: Genügt die **unmittelbare** Beteiligung schon für sich, ist ein Ansatz vorhanden, und eine daneben bestehende mittelbare Beteiligung bleibt unberührt." },
+      { text: "Anmerkung zur Abgrenzung in der Klausur (eigene Ergänzung): Die Prüfung verläuft in **zwei Schritten** und ist leicht zu übersehen. Zuerst ist zu klären, **woraus** sich die Stimmrechtsmehrheit ergibt – allein aus der unmittelbaren Beteiligung, allein aus der mittelbaren oder erst aus beiden zusammen. Erst danach steht fest, welcher der drei Fälle vorliegt. Bemerkenswert ist, dass eine mittelbare Beteiligung **neben** einer bereits ausreichenden unmittelbaren vollständig folgenlos bleibt: Sie wird für die Mehr- und Minderabführungen schlicht ausgeblendet, obwohl sie wirtschaftlich dieselbe Verbindung schafft." },
+    ],
+  },
+  {
+    id: "kst-t6-58",
+    kapitel: "58",
+    abschnittNr: "3.4.6.2",
+    title: "3.4.6.2 Finanzielle Eingliederung über eine Zwischengesellschaft",
+    thema: "Die Einlage und die Einlagenrückgewähr werden auf jeder Beteiligungsstufe nachvollzogen – mit Buchwertkorrektur und Einlagekonto bei der Zwischengesellschaft und beim Organträger",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.6.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 1 Nr. 1 Satz 2 KStG",
+      "§ 14 Abs. 4 Satz 1 KStG",
+      "§ 14 Abs. 4 Satz 2 KStG",
+      "§ 14 Abs. 4 Satz 3 KStG",
+      "§ 14 Abs. 4 Satz 4 KStG",
+      "§ 14 Abs. 4 Satz 5 KStG",
+      "§ 27 KStG",
+      "§ 27 Abs. 6 Satz 1 KStG",
+      "§ 27 Abs. 6 Satz 3 KStG",
+      "§ 8b Abs. 2 KStG",
+      "§ 8b Abs. 3 Satz 1 KStG",
+      "BMF vom 29.09.2022, Tz. 30 ff.",
+      "BMF vom 29.09.2022, Tz. 32",
+    ],
+    themen: ["Zwischengesellschaft", "Beteiligungsstufe", "Weiterleitung", "Direktzugriff", "Negativbestand", "Beteiligungsertrag"],
+    bloecke: [
+      { typ: "titel", text: "3.4.6.2 Finanzielle Eingliederung über Zwischengesellschaft" },
+      { text: "Die Auswirkungen des § 14 Abs. 4 Satz 1 und Satz 2 KStG werden **auf jeder Beteiligungsstufe nachvollzogen** (BMF vom 29.09.2022, Tz. 30 ff.). Dies betrifft sowohl die Beteiligung an der Zwischengesellschaft als auch die Beteiligung der Zwischengesellschaft an der (mittelbaren) Organgesellschaft. Dass im Verhältnis zur Zwischengesellschaft und der nachfolgenden Organgesellschaft **kein unmittelbares Organschaftsverhältnis** besteht, ist hierfür **unerheblich**." },
+      { typ: "titel", text: "Minderabführung" },
+      { text: "Daher leistet der Organträger in den Fällen einer Minderabführung zunächst nach § 14 Abs. 4 Satz 1 KStG eine **Einlage in die Zwischengesellschaft**, die einerseits bei dieser **einkommensneutral den Beteiligungsbuchwert erhöht** (§ 14 Abs. 4 Satz 3 und Satz 4 KStG) und andererseits bei der Zwischengesellschaft auch zu einem **Zugang zum steuerlichen Einlagekonto** nach § 27 KStG führt. Dieser Zugang erfolgt ebenfalls nach § 27 Abs. 6 KStG, was klarstellend durch **§ 27 Abs. 6 Satz 3 KStG** geregelt werden soll (Fußnote der Quelle: i.d.F. des JStG 2024; gilt für sämtliche Mehr- oder Minderabführungen, die nach dem 31.12.2021 erfolgen)." },
+      { text: "Anschließend **leitet die Zwischengesellschaft diese Einlage in die Organgesellschaft weiter**, was dann bei der Zwischengesellschaft wiederum einkommensneutral den Beteiligungsbuchwert an der Organgesellschaft erhöht (entsprechend § 14 Abs. 4 Satz 1 und Satz 3 KStG) und bei der Organgesellschaft selbst nach § 27 Abs. 6 KStG zu einem **Zugang beim steuerlichen Einlagekonto** führt." },
+      { typ: "titel", text: "Mehrabführung" },
+      { text: "In den Fällen einer Mehrabführung wird diese zunächst **von der Organgesellschaft der Zwischengesellschaft zugerechnet**, welche bei der Zwischengesellschaft mit dem Beteiligungsbuchwert an der Organgesellschaft **verrechnet** wird (entsprechend § 14 Abs. 4 Satz 2 und Satz 3 KStG); ein etwaiger **Überhang** führt nach den o.g. Grundsätzen zu einem **Beteiligungsertrag** (§ 14 Abs. 4 Satz 5 KStG)." },
+      { text: "Anschließend erfolgt eine **Weiterleitung der Mehrabführung von der Zwischengesellschaft an den Organträger**, was bei der Zwischengesellschaft auch zu einem **Direktzugriff auf deren steuerliches Einlagekonto** führt (§ 27 Abs. 6 Satz 1 KStG; BMF vom 29.09.2022, Tz. 32). Auch dieser Abzug regelt sich bei der Zwischengesellschaft nach § 27 Abs. 6 Satz 3 KStG. Beim Organträger erfolgt eine **Verrechnung der Mehrabführung mit dem Beteiligungsbuchwert der Zwischengesellschaft** nach § 14 Abs. 4 Satz 2 und Satz 3 KStG aufgrund § 14 Abs. 4 Satz 4 KStG." },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH ist zu 100 % an der B-GmbH beteiligt, welche ebenfalls zu 100 % an der C-GmbH beteiligt ist. Zwischen der A-GmbH und der C-GmbH wurde ein Gewinnabführungsvertrag abgeschlossen. Der Beteiligungsbuchwert an der B-GmbH beträgt 100.000 € und der Beteiligungsbuchwert an der C-GmbH beläuft sich auf 60.000 €. In 2025 entsteht bei der C-GmbH eine organschaftliche Minderabführung von 40.000 € (Abwandlung: eine organschaftliche Mehrabführung von 90.000 €)." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Zwischen der A-GmbH und der C-GmbH besteht nach § 14 Abs. 1 Nr. 1 Satz 2 KStG eine **finanzielle Eingliederung**, weil die B-GmbH als Zwischengesellschaft der A-GmbH die dafür notwendige **Stimmrechtsmehrheit** an der C-GmbH verschafft. Daher sind die Voraussetzungen einer **mittelbaren Organschaft** gegeben." },
+      { text: "Aufgrund der in 2025 verwirklichten organschaftlichen **Minderabführung von 40.000 €** ergibt sich aufgrund § 14 Abs. 4 Satz 1 KStG eine entsprechende **Erhöhung des Beteiligungsbuchwertes an der B-GmbH** (§ 14 Abs. 4 Satz 3 KStG). Weil zwischen dem Organträger und der Organgesellschaft **kein unmittelbares Beteiligungsverhältnis** besteht, wird diese Einlage **auf jeder Beteiligungsstufe** nachvollzogen, so dass auch die Zwischengesellschaft in die steuerlichen Konsequenzen einbezogen wird (§ 14 Abs. 4 Satz 4 KStG)." },
+      { text: "Daher leistet die A-GmbH die Einlage von 40.000 € zunächst in ihre B-GmbH. Dies führt bei der A-GmbH zu einer **einkommensneutralen Erhöhung** des Beteiligungsbuchwertes der B-GmbH:" },
+      { typ: "tabelle", spalten: ["Ebene A-GmbH (Organträger)", "Betrag"], zeilen: [
+        ["Bet. B-GmbH an Ertrag", "+ 40.000 €"],
+        ["./. Korrektur außerbilanziell", "./. 40.000 €"],
+        ["Buchwert neu", "140.000 €"],
+      ] },
+      { text: "Bei der B-GmbH führt die Einlage entsprechend zu einer **Erhöhung des steuerlichen Einlagekontos** zum 31.12.2025 (+ 40.000 €) nach § 27 Abs. 6 KStG (siehe § 27 Abs. 6 Satz 3 KStG). Gleichzeitig **leitet sie diese Einlage in ihre C-GmbH weiter**, was bei ihr nach § 14 Abs. 4 Satz 1 KStG wiederum eine einkommensneutrale Erhöhung dieses Beteiligungsbuchwertes nach sich zieht:" },
+      { typ: "tabelle", spalten: ["Ebene B-GmbH (Zwischengesellschaft)", "Betrag"], zeilen: [
+        ["Bet. C-GmbH an Ertrag", "+ 40.000 €"],
+        ["./. Korrektur außerbilanziell", "./. 40.000 €"],
+        ["Buchwert neu", "100.000 €"],
+      ] },
+      { text: "Bei der Organgesellschaft wird die Minderabführung nach § 27 Abs. 6 KStG dem **steuerlichen Einlagekonto** zum 31.12.2025 (+ 40.000 €) zugerechnet." },
+      { typ: "titel", text: "Abwandlung: Mehrabführung von 90.000 €" },
+      { text: "Bei der organschaftlichen **Mehrabführung von 90.000 €** erfolgt auch in dieser Situation eine Zurechnung **auf jeder Beteiligungsstufe**. Daher verringert diese bei der C-GmbH zunächst nach § 27 Abs. 6 Satz 1 KStG deren **steuerliches Einlagekonto**, welches dadurch auch **negativ** werden kann." },
+      { text: "Auf Ebene der B-GmbH führt die Mehrabführung zu einer **Verrechnung mit dem Beteiligungsbuchwert an der C-GmbH** (§ 14 Abs. 4 Satz 2 und Satz 3 KStG), dessen **Überhang** zu einem Beteiligungsertrag i.S. des § 8b Abs. 2 KStG und damit letztlich zur Anwendung der **Betriebsausgabenpauschalierung** i.S. des § 8b Abs. 3 Satz 1 KStG führt (§ 14 Abs. 4 Satz 5 KStG):" },
+      { typ: "tabelle", spalten: ["Ebene B-GmbH (Zwischengesellschaft)", "Betrag"], zeilen: [
+        ["Aufwand an Bet. C-GmbH", "./. 90.000 €"],
+        ["+ Ertrag", "+ 30.000 €"],
+        ["Saldo", "./. 60.000 € (Saldo)"],
+        ["+ außerbilanzielle Korrektur", "+ 90.000 €"],
+        ["./. § 8b Abs. 2 KStG", "./. 30.000 €"],
+        ["+ § 8b Abs. 3 Satz 1 KStG", "+ 1.500 €"],
+      ] },
+      { text: "(Die Tabelle gibt die Aufstellung der Quelle wieder, einschließlich der doppelten Angabe „Saldo“ und der Schreibweise „§ 8b Abs. 3 Satz 1KStG“ ohne Leerzeichen. Ein **Endergebnis weist die Quelle nicht aus**; es beträgt nach eigener Rechnung **1.500 €** – siehe die Rechenprobe unten.)" },
+      { text: "Aufgrund der Weiterleitung der Mehrabführung an die A-GmbH erfolgt bei der B-GmbH gleichzeitig ein **Direktzugriff auf deren steuerliches Einlagekonto** i.S. des § 27 Abs. 6 Satz 1 KStG, was auch zu einem **Negativbestand** führen kann (siehe § 27 Abs. 6 Satz 3 KStG n.F.)." },
+      { text: "Beim Organträger ergeben sich die Konsequenzen aus § 14 Abs. 4 Satz 2 und Satz 3 KStG, weil die Mehrabführung **auch die Beteiligung an der Zwischengesellschaft betrifft** (§ 14 Abs. 4 Satz 4 KStG). Daraus resultiert eine **Einlagenrückgewähr**, die mit dem Beteiligungsbuchwert an der B-GmbH zu verrechnen ist:" },
+      { typ: "tabelle", spalten: ["Ebene A-GmbH (Organträger)", "Betrag"], zeilen: [
+        ["Aufwand an Bet. B-GmbH", "./. 90.000 €"],
+        ["+ außerbilanzielle Korrektur", "+ 90.000 €"],
+        ["= Buchwert neu", "10.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. **Minderabführung:** Beteiligung an der B-GmbH 100.000 € + 40.000 € = **140.000 €**; Beteiligung an der C-GmbH 60.000 € + 40.000 € = **100.000 €**; Einlagekonto bei B-GmbH und C-GmbH je + 40.000 €. **Mehrabführung:** Der Buchwert an der C-GmbH beträgt nur 60.000 €, die Mehrabführung 90.000 € – der Überhang von **30.000 €** ist der Beteiligungsertrag; die Pauschale beträgt 5 % davon, also **1.500 €**. Die Einkommensermittlung der B-GmbH ergibt ./. 60.000 € + 90.000 € ./. 30.000 € + 1.500 € = **1.500 €**, also wiederum genau die Pauschale – dasselbe Muster wie in Abschnitt 3.4.5.3. Beim Organträger sinkt der Buchwert an der B-GmbH von 100.000 € auf **10.000 €**." },
+      { text: "Anmerkung zum Durchreichen über die Stufen (eigene Ergänzung): Der Abschnitt beschreibt eine **Kaskade**, die in beide Richtungen läuft. Bei der **Minderabführung** fließt die Einlage von **oben nach unten**: Der Organträger legt in die Zwischengesellschaft ein, diese leitet weiter in die Organgesellschaft – auf jeder Stufe steigt ein Beteiligungsbuchwert und ein Einlagekonto. Bei der **Mehrabführung** läuft alles von **unten nach oben**: Die Organgesellschaft mindert ihr Einlagekonto, die Zwischengesellschaft verrechnet mit ihrem Buchwert an der Organgesellschaft und mindert zugleich ihr eigenes Einlagekonto, der Organträger verrechnet mit seinem Buchwert an der Zwischengesellschaft. Wer die Richtung im Kopf behält, findet die richtige Stufe von selbst." },
+      { text: "Anmerkung zur Besonderheit der Zwischengesellschaft (eigene Ergänzung): Die Zwischengesellschaft ist **nicht** Partei des Gewinnabführungsvertrags – die Quelle betont ausdrücklich, dass das unerheblich ist. Gleichwohl trifft sie die **einzige** Stelle des ganzen Vorgangs, an der tatsächlich Steuer entsteht: Weil ihr Buchwert an der Organgesellschaft (60.000 €) kleiner ist als die Mehrabführung (90.000 €), entsteht **bei ihr** der Beteiligungsertrag und damit die Pauschale von 1.500 €. Beim Organträger blieb der Vorgang dagegen vollständig neutral, weil sein Buchwert an der Zwischengesellschaft mit 100.000 € ausreichte. Die Steuerlast hängt hier also davon ab, **auf welcher Stufe** der niedrigere Buchwert steht – ein Umstand, der sich gestalterisch beeinflussen lässt." },
+      { text: "Anmerkung zur Klarstellung durch das JStG 2024 (eigene Ergänzung): Der Hinweis auf **§ 27 Abs. 6 Satz 3 KStG** betrifft eine echte Regelungslücke. § 27 Abs. 6 KStG sprach zunächst nur von Mehr- und Minderabführungen der **Organgesellschaft**; für die **Zwischengesellschaft**, die selbst gar keine Organgesellschaft ist, fehlte die Rechtsgrundlage, obwohl die Verwaltung den Nachvollzug auf jeder Stufe schon 2022 verlangte. Das JStG 2024 hat das nachgeholt, und zwar **rückwirkend** für alle nach dem 31.12.2021 erfolgenden Mehr- und Minderabführungen – also für den gesamten Anwendungszeitraum der Einlagenlösung. Die Quelle formuliert mit „geregelt werden soll“ noch im Futur, obwohl das Gesetz bereits ergangen ist." },
     ],
   },
 ];
