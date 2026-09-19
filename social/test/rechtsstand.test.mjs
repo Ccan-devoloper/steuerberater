@@ -215,6 +215,22 @@ test("Bekanntgabe an Bevollmächtigte trennt Kann-Regel und Empfangsvollmacht", 
   assert.match(kern(t), /frühere Bekanntgabe.*kein.*Muss-Tatbestand|Frühere Praxis ersetzt/i);
 });
 
+test("§8b-Glossar kennt die unterjährige 10%-Erwerbsfiktion", () => {
+  const t = byTitle(/^Streubesitzdividende$/i);
+  assert.equal(t.typ, "begriff");
+  assert.match(kern(t), /Abs\. 4 S\. 6|Erwerbsfiktion/i);
+  assert.match(kern(t), /laufenden Kalenderjahr.*mindestens 10 %/i);
+  assert.match(kern(t), /5-%-Pauschale.*nicht anzuwenden/i);
+});
+
+test("Abbruch-Quiz behandelt drei Jahre nur als widerlegbaren Anscheinsbeweis", () => {
+  const t = byTitle(/^Abbruch innerhalb von drei Jahren/i);
+  assert.equal(t.typ, "quiz");
+  assert.match(kern(t), /widerlegbarer Anscheinsbeweis/i);
+  assert.match(kern(t), /Gegenbeweis/i);
+  assert.doesNotMatch(kern(t), /gilt allein deshalb objektiv als wertlos[^"]*"richtig":0/i);
+});
+
 test("§6-AStG-Wegzug enthält Rückkehr, Raten und Mitteilungspflichten 2026", () => {
   const t = byId("istr-modul-istr-istr3-08");
   assert.match(kern(t), /letzten zwölf Jahre.*mindestens sieben Jahre/i);
