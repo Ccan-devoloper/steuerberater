@@ -10620,6 +10620,47 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitt 2.5 – Rechtsfolgen des § 8d KStG
+
+Quelle: dieselbe Datei, Seiten 43 bis 47; übernommen als Kapitel 27 und 28. Prüfung:
+`npm run check:k2-kst-teil5` (28 Kapitel, 565 Blöcke, 74 Tabellen).
+
+**Alle Kennzahlen sind unabhängig nachgerechnet und gehen auf:** im ersten Beispiel ein
+fortführungsgebundener Verlust von 10.000.000 € + 3.000.000 € = 13.000.000 €, der um 8.300.000 €
+über dem Endbestand ohne Antrag liegt; im zweiten 1.000.000 € + 70 % × 3.000.000 € = 3.100.000 €
+Verlustnutzung, 900.000 € zvE und 6.900.000 € gebundener Verlust; in Abschnitt 2.5.3 Variante 1
+1.000.000 € + 700.000 € = 1.700.000 € und Variante 2 1.000.000 € + 3.500.000 € = 4.500.000 €.
+
+**Ein Rechenfehler der Quelle ist nachgewiesen und wortlautgetreu daneben stehen gelassen.** In
+Variante 2 des Beispiels zu 2.5.3 heißt es, der „Restbetrag von 2.000.000 €“ werde vom Neuverlust
+verwendet. Von der höchstzulässigen Verrechnung von 4.500.000 € entfallen aber 2.000.000 € auf den
+fortführungsgebundenen Vortrag, auf den Neuverlust damit **2.500.000 €**. Die Endzahl der Quelle
+bestätigt die eigene Rechnung: Der Neuverlust sinkt von 4.000.000 € auf 1.500.000 €, also um genau
+2.500.000 €.
+
+**Ein fehlerhafter Querverweis ist übernommen und markiert:** Abschnitt 2.5.2 verweist für die
+Verlustnutzung auf „siehe unter 2.5.2“, also auf sich selbst; gemeint ist 2.5.3, auf den die Quelle
+wenige Zeilen später auch ausdrücklich verweist.
+
+**Vier sprachliche Eigenheiten sind ebenfalls übernommen und markiert:** die Überschrift „Feststellung
+des fortgebundenen Verlustvortrags“, die Form „verbliebende“, das doppelte „die die A-GmbH“
+und die Fügung „ermittelt sich des § 10d Abs. 2 EStG“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Bezifferung des Preises, den der Antrag im zweiten
+Beispiel kostet (100.000 € mehr Verlustverbrauch gegen 6.900.000 € gerettetes Volumen); die
+Hervorhebung der drei leicht übersehenen Erweiterungen – fortbestehende Verlustverrechnung,
+wiederauflebender Verlustrücktrag und Erfassung sämtlicher Verlustarten samt Zinsvortrag; die
+Erläuterung, warum das Ausrufezeichen der Quelle hinter dem Wort „Ende“ berechtigt ist und in der
+Klausur zwei verschiedene Verlustbeträge zu ermitteln sind; die Einordnung der vorrangigen
+Verwendung als zweischneidig, weil sie den gefährdeten Verlust dem Zugriff entzieht, dem
+Steuerpflichtigen aber die Wahl nimmt; die Verdeutlichung der Bedeutung des einen
+Verlustverrechnungskreises durch die Gegenrechnung mit zwei Kreisen (3.400.000 € statt 1.700.000 €
+in Variante 1); und die Folgerung aus der Festschreibung der Höhe, dass der gebundene Anteil am
+Gesamtverlust von Jahr zu Jahr kleiner wird.
+
+**Noch offen:** aus Teil V das Fortführungserfordernis (2.6) sowie die Kapitel 3 (Zinsschranke) und 4
+(stille Beteiligungen); ganz offen sind die Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 2.3.2.2.2 und 2.4 – geringfügige Betätigung und weitere Einschränkungen
 
 Quelle: dieselbe Datei, Seiten 41 bis 43; übernommen als Kapitel 25 und 26. Prüfung:

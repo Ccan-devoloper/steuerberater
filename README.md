@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 26 Kapitel mit 517 Abschnitten und 63 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 28 Kapitel mit 565 Abschnitten und 74 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4118,6 +4118,41 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 20 UmwStG eingebracht, ist das unschädlich, sofern es auf einen Zeitpunkt **vor Beginn** des
   Betrachtungszeitraums wirkt. Die Organträgerstellung ist damit nicht nach dem Handelsregister,
   sondern nach dem steuerlichen Bestand der Organschaft zu beurteilen.
+  **Rechtsfolge** des § 8d KStG ist, dass § 8c KStG vollkommen verdrängt und stattdessen ein
+  **fortführungsgebundener Verlustvortrag** nach § 10d Abs. 4 EStG festgestellt wird. Die Quelle setzt
+  hinter das Wort „Ende“ ein Ausrufezeichen, und das zu Recht: Maßgebend ist der Verlust zum **Ende**
+  des Veranlagungszeitraums, während § 8c KStG **taggenau** auf den Erwerb rechnet. Wer beide Normen
+  prüft, muss deshalb **zwei verschiedene Verlustbeträge** ermitteln – im ersten Beispiel unterscheiden
+  sie sich um 2.700.000 €, den nach dem 31.03.2025 entstandenen Teil des Jahresverlustes.
+  Drei Erweiterungen werden dabei leicht übersehen. Erstens bleibt die **Verlustverrechnung** mit dem
+  laufenden positiven Gesamtbetrag der Einkünfte des ganzen Veranlagungszeitraums erhalten;
+  fortführungsgebunden wird nur, was danach übrig ist. Zweitens lebt der **Verlustrücktrag** wieder
+  auf, den § 8c KStG gerade ausschließt – weil § 8d KStG ihn vollständig verdrängt, entfällt auch
+  diese Sperre. Drittens erfasst die Norm **sämtliche** ungenutzten Verluste: auch solche nach § 2a,
+  § 15a und § 15b EStG, die Verlustvorträge nach § 10a GewStG und den **Zinsvortrag**, der unter
+  § 8c KStG nur über den engen Umweg des § 8a Abs. 1 Satz 3 KStG zu retten war.
+  Der Preis des Antrags lässt sich am zweiten Beispiel beziffern, das beide Wege nebeneinander stellt.
+  Ohne Antrag beträgt das zvE 1.000.000 € und der Verlust ist vollständig verbraucht oder untergegangen;
+  mit Antrag beträgt das zvE 900.000 € – weil die günstige Begrenzung „max. 2.000.000 €“ entfällt,
+  sobald genug Verlust vorhanden ist – und es bleiben **6.900.000 €** fortführungsgebundener Verlust.
+  Der Antrag kostet also 100.000 € mehr Verlustverbrauch im laufenden Jahr und bringt dafür ein
+  Vielfaches an gerettetem Volumen; die Gegenleistung ist die dauerhafte Bindung nach § 8d Abs. 2 KStG.
+  Der gebundene Verlust ist der Höhe nach **festgeschrieben**: Er kann sich nur noch verringern, nie
+  erhöhen. Künftige Verluste desselben Geschäftsbetriebs werden deshalb nicht ebenfalls gebunden,
+  sondern laufen als gewöhnlicher **Neuverlust** in einer getrennten Feststellung nach § 10d Abs. 4
+  EStG daneben – woraus eine günstige Entwicklung folgt: Der gebundene Anteil am Gesamtverlust wird von
+  Jahr zu Jahr kleiner, so dass ein schädliches Ereignis mit der Zeit immer weniger trifft. Verbraucht
+  wird er nach § 8d Abs. 1 Satz 8 KStG **vorrangig** vor dem Neuverlust. Das ist zweischneidig:
+  **günstig**, weil gerade dieser Verlust dauerhaft gefährdet ist und dem Zugriff des § 8d Abs. 2 KStG
+  durch den Verbrauch entzogen wird; **ungünstig**, weil der Steuerpflichtige keine Wahl hat und den
+  sicheren Neuverlust nicht vorziehen kann. Entscheidend ist dabei, dass insgesamt nur **ein**
+  Verlustverrechnungskreis besteht: Grundabzug und 70-%-Grenze des § 10d Abs. 2 EStG gelten für beide
+  Töpfe **zusammen** und nicht je Topf – andernfalls wären in Variante 1 bis zu 3.400.000 € statt
+  1.700.000 € abziehbar gewesen. Die getrennte Feststellung dient allein der Zuordnung, nicht der
+  Vervielfachung des Abzugsvolumens. In Variante 2 geht die Zwischenzahl der Quelle allerdings nicht
+  auf: Von der höchstzulässigen Verrechnung von 4.500.000 € entfallen 2.000.000 € auf den gebundenen
+  Vortrag, auf den Neuverlust damit **2.500.000 €** und nicht die genannten 2.000.000 €. Die Endzahl
+  der Quelle bestätigt die eigene Rechnung, denn der Neuverlust sinkt von 4.000.000 € auf 1.500.000 €.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

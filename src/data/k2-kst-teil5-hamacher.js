@@ -36,9 +36,11 @@
    die Definition des Geschäftsbetriebs (2.3.2.1), die mehreren Geschäfts-
    betriebe (2.3.2.2) und der einheitliche Geschäftsbetrieb (2.3.2.2.1). Es
    dazu die geringfügige Betätigung (2.3.2.2.2) und die weiteren Einschränkungen
-   des § 8d Abs. 1 Satz 2 KStG (2.4). Es folgen die Rechtsfolgen (2.5), die
-   schädlichen Ereignisse (2.6) und die Kapitel 3 und 4; der Campus weist den
-   Stand aus.
+   des § 8d Abs. 1 Satz 2 KStG (2.4) und die Rechtsfolgen (2.5 mit der
+   Feststellung des fortführungsgebundenen Verlustvortrags, dem Nebeneinander
+   von Alt- und Neuverlust und der Verlustverrechnung in den Folgejahren). Es
+   folgt das Fortführungserfordernis (2.6) sowie die Kapitel 3 und 4; der Campus
+   weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -1476,6 +1478,153 @@ export const kstTeil5 = [
       { text: "Anmerkung zum Unterschied der beiden Nummern (eigene Ergänzung): Die beiden Einschränkungen des § 8d Abs. 1 Satz 2 KStG wirken völlig verschieden, was die Quelle für Nr. 1 ausdrücklich sagt und für Nr. 2 aus dem Ergebnis folgt. **Nr. 1** ist eine Einschränkung der **Höhe** nach: Die Norm bleibt anwendbar, nur die Altverluste fallen heraus – im Beispiel bleiben 10.000.000 € von 14.000.000 € erhalten. **Nr. 2** ist dagegen ein Ausschluss dem **Grunde** nach: Wer im Betrachtungszeitraum Organträger oder Mitunternehmer war, verliert den gesamten Verlust. Der Unterschied ist erheblich und in der Klausur zuerst zu klären." },
       { text: "Anmerkung zur Begründung des Organschaftsausschlusses (eigene Ergänzung): Der Grund, den die Quelle nennt, ist stimmig und erklärt die Härte der Vorschrift. Beim **Organträger** fließt ihm das Einkommen der Organgesellschaft zu, bei der **Mitunternehmerschaft** der Anteil am Gewinn oder Verlust der Personengesellschaft – in beiden Fällen enthält der Verlust der Kapitalgesellschaft also Bestandteile aus einem **fremden** Tätigkeitsbereich, der nach § 8d KStG als eigener Geschäftsbetrieb gilt. Da § 8d KStG genau **einen** Geschäftsbetrieb verlangt, ist die Voraussetzung systematisch von vornherein verfehlt. Bemerkenswert ist gleichwohl, dass die Norm nicht danach unterscheidet, ob überhaupt Verluste aus diesen Quellen stammen." },
       { text: "Anmerkung zur rückwirkenden Beseitigung (eigene Ergänzung): Dass ein **Durchführungsmangel** innerhalb der fünfjährigen Mindestlaufzeit die Organschaft rückwirkend beseitigt und damit § 8d KStG rettet, ist ein seltener Fall, in dem eine misslungene Organschaft dem Steuerpflichtigen nützt. Entscheidend ist der Zeitpunkt: Die Beseitigung muss auf einen Zeitpunkt **vor Beginn** des Betrachtungszeitraums zurückwirken. Dasselbe gilt für die Einbringung eines Mitunternehmeranteils nach § 20 UmwStG mit steuerlicher Rückwirkung. Beides sind keine Gestaltungsempfehlungen, sondern Hinweise für die Prüfung: Die Organträgerstellung ist nicht nach dem Handelsregister, sondern nach dem steuerlichen Bestand der Organschaft zu beurteilen." },
+    ],
+  },
+  {
+    id: "kst-t5-27",
+    kapitel: "27",
+    abschnittNr: "2.5.1",
+    title: "2.5 Rechtsfolgen des § 8d KStG – 2.5.1 Feststellung des fortführungsgebundenen Verlustvortrags",
+    thema: "Fortführungsgebunden wird der Verlust zum Ende des Veranlagungszeitraums; Verlustverrechnung und Verlustrücktrag bleiben möglich, die Verschonungsregelung ist unerheblich",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 2.5 und 2.5.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d Abs. 1 Satz 6 KStG",
+      "§ 8d Abs. 1 Satz 7 KStG",
+      "§ 8d Abs. 2 KStG",
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 10d Abs. 4 EStG",
+      "§ 2a EStG",
+      "§ 15a EStG",
+      "§ 15b EStG",
+      "§ 10a GewStG",
+      "R 7.1 Zeile 34 KStR",
+      "BMF (2), Tz. 2, 53 und 55",
+    ],
+    themen: ["fortführungsgebundener Verlustvortrag", "Bemessungszeitpunkt", "Verlustrücktrag", "Zinsvortrag", "Verschonungsregelung", "Mindestbesteuerung"],
+    bloecke: [
+      { typ: "titel", text: "2.5 Rechtsfolgen des § 8d KStG" },
+      { typ: "titel", text: "2.5.1 Feststellung des fortgebundenen Verlustvortrags" },
+      { text: "(Die Überschrift „Feststellung des fortgebundenen Verlustvortrags“ steht so in der Quelle; gemeint ist der fortführungsgebundene Verlustvortrag.)" },
+      { text: "Rechtsfolge des § 8d KStG ist, dass § 8c KStG vollkommen verdrängt wird. Denn der Verlust, der zum Ende (!) des Veranlagungszeitraums des schädlichen Anteilserwerbs noch vorhanden ist, geht nicht unter. Dieser wird nunmehr als „fortführungsgebundener Verlustvortrag“ fortgeführt (§ 8d Abs. 1 Satz 6 KStG) und nach den Grundsätzen des § 10d Abs. 4 EStG festgestellt (§ 8d Abs. 1 Satz 7 KStG). Die erste Verlustfeststellung erfolgt zum Ende des Veranlagungszeitraums des schädlichen Anteilserwerbs i.S. des § 8c KStG. Zukünftig ist zu beachten, dass sich das Schicksal dieses Verlustes auch nach den Einschränkungen des § 8d Abs. 2 KStG orientiert, woraus sich das notwendige Fortführungserfordernis ergibt (siehe hierzu auch unter 2.6)." },
+      { text: "Der fortführungsgebundene Verlust ist zudem nicht mit dem Verlust identisch, welcher vom Verlustuntergang i.S. des § 8c KStG betroffen wäre. Denn für Zwecke des § 8d KStG ist zum einen die Verschonungsgrenze i.S. des § 8c Abs. 1 Satz 5 KStG unerheblich. Zum anderen ist hierfür ausschließlich der Verlust maßgebend, der sich zum Ende des VZ des schädlichen Anteilserwerbs ergeben hat, wo hingegen § 8c KStG taggenau auf den Verlust zum Zeitpunkt des schädlichen Erwerbs abstellt. Damit umfasst § 8d KStG in den Fällen des unterjährigen schädlichen Erwerbs auch den Verlust, welcher zeitlich nachfolgend angefallen ist." },
+      { text: "§ 8d KStG ermöglicht es zudem, dass der von § 8c KStG bedrohte Verlust noch mit dem laufenden positiven GdE des gesamten Veranlagungszeitraums unter den Voraussetzungen des § 10d Abs. 2 EStG verrechnet werden kann. Der nach der Verlustverrechnung verbliebende Verlust wird damit zum fortführungsgebundenen Verlust. Gleiches gilt für die Vornahme eines Verlustrücktrags, weil § 8c KStG, welcher den Rücktrag des bedrohten Verlustes nicht zulässt, durch § 8d KStG gerade verdrängt wird. (Die Form „verbliebende“ steht so in der Quelle.)" },
+      { text: "§ 8d KStG erstreckt sich im Übrigen – wie § 8c KStG auch – auf sämtliche ungenutzten Verluste. Davon betroffen sind somit auch Verluste i.S. des § 2a EStG, § 15a EStG, § 15b EStG und auch die Verlustvorträge i.S. des § 10a GewStG. Gleiches gilt für einen eventuell vorhandenen Zinsvortrag." },
+      { text: "Beispiel: An der A-GmbH (Wj. = Kj.) ist der Alleingesellschafter A beteiligt, welche in 1996 gegründet worden ist. Seit Gründung betreibt die A-GmbH einen Autohandel. Am 31.03.2025 erwirbt C den kompletten Anteil des A. Zum 31.12.2024 beträgt der vortragsfähige Verlust 10.000.000 €. Der steuerliche Gesamtverlust des Jahres 2025 beträgt -3.000.000 €, wovon zutreffend ein GdE von -300.000 € auf den Zeitraum bis zum Anteilserwerb entfallen soll. Der Anteil soll über stille Reserven von 2.000.000 € verfügen." },
+      { text: "Lösung – Auswirkungen des § 8c KStG: Der Anteilserwerb des C führt zum vollständigen Untergang des bis zum Tag des Anteilserwerbes aufgelaufenen Verlustes i.S. des § 8c Abs. 1 Satz 1 KStG. Den Einschränkungen des § 8c KStG unterliegt dabei neben dem bestehenden Verlustvortrag auch ein bis zum schädlichen Anteilserwerb erzielter Verlust, welcher vorliegend 300.000 € betragen soll. Danach ergibt sich ein grundsätzlicher Verlustuntergang von 10.300.000 €." },
+      { text: "Gemäß § 8c Abs. 1 Satz 5 KStG bleibt der Gesellschaft ein Verlust in Höhe der stillen Reserven von 2.000.000 € erhalten. Diese stillen Reserven werden zunächst zur Verschonung des laufenden Verlustes verwendet, so dass von diesem der Komplettbetrag erhalten bleibt. Der Restbetrag von 1.700.000 € wird für die Verschonung des Verlustvortrages verwendet, so dass dieser in Höhe des Überhanges von 8.300.000 € untergeht." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025 – nur § 8c KStG", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte (vorl. Einkommen)", "./. 3.000.000 €"],
+        ["./. Kürzung aufgrund § 8c KStG (R 7.1 Zeile 34) – Verschonungsregelung", "0 €"],
+        ["= z.v.E.", "./. 3.000.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025 – nur § 8c KStG", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG", "./. 8.300.000 €"],
+        ["= Zwischensumme", "1.700.000 €"],
+        ["+ laufender Verlust 2025", "3.000.000 €"],
+        ["= Endbestand", "4.700.000 €"],
+      ] },
+      { text: "Auswirkungen des § 8d KStG: Beantragt die die A-GmbH in der KSt-Erklärung für den VZ 2025 die Anwendung des § 8d KStG, wird der zum Ende des VZ 2025 vorhandene Verlustvortrag zum fortführungsgebundenen Verlust. Damit umfasst der fortführungsgebundene Verlust auch den nach dem schädlichen Erwerb anfallenden Verlust. Zudem ist die Verschonungsregelung hierfür ebenfalls unerheblich, weil für Zwecke des § 8d KStG die Anwendung des § 8c KStG ausgeblendet wird. (Das doppelte „die die“ steht so in der Quelle.)" },
+      { text: "Danach ergibt sich zum 31.12.2025 ein fortführungsgebundener Verlust von insgesamt 13.000.000 €. Dieser ist nach den Grundsätzen des § 10d Abs. 4 EStG festzustellen und als fortführungsgebundener Verlust zu bezeichnen." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH (Wj. = Kj.), welche in 1996 gegründet worden ist. Seit Gründung betreibt die A-GmbH einen Autohandel. Mit Wirkung zum 01.03.2025 erwirbt C den 100%igen Anteil an der A-GmbH, welcher über keine stille Reserven verfügt. Zum 31.12.2024 besteht ein Verlustvortrag von 10.000.000 €. In 2025 erzielt die A-GmbH insgesamt einen positiven GdE von 4.000.000 €. Nach einem Zwischenabschluss soll davon auf die Zeit bis zum Anteilserwerb ein Betrag von 3.000.000 € entfallen." },
+      { text: "Lösung – Auswirkungen des § 8c KStG: Der Anteilserwerb in 2025 erfüllt die Voraussetzungen des § 8c Abs. 1 Satz 1 KStG, so dass dieser in vollständiger Höhe untergeht. Von der Verlustkürzung betroffen ist der ungenutzte Verlust im Zeitpunkt des schädlichen Erwerbs, welcher am 01.03.2025 und somit unterjährig erfolgt ist. Dabei ist auch die Besonderheit zu berücksichtigen, dass der ungenutzte Verlust mit dem Gewinn verrechnet werden kann, welcher bis zum schädlichen Beteiligungserwerb entstanden ist, was die Verlustgesellschaft vorliegend im Rahmen eines Zwischenabschlusses auch nachgewiesen hat." },
+      { text: "Bei der Verrechnung der unterjährigen Gewinne sind die Auswirkungen der Mindestbesteuerung i.S. des § 10d Abs. 2 EStG nicht zu beachten. Daher kann der Verlustvortrag in Höhe von 3.000.000 € mit dem unterjährigen positiven GdE verrechnet werden, lediglich der verbleibende Verlustüberhang von 7.000.000 € unterliegt der Verlustkürzung i.S. des § 8c Abs. 1 Satz 1 KStG. Somit verbleibt der Gesellschaft letztlich ein Verlustpotential von 3.000.000 €, welches mit dem GdE des VZ 2025 noch verrechnet werden kann. Dabei sind aber die Einschränkungen des § 10d Abs. 2 EStG zu beachten." },
+      { typ: "tabelle", spalten: ["zvE 2025 – nur § 8c KStG", "Betrag"], zeilen: [
+        ["GdE", "4.000.000 €"],
+        ["./. Grundabzug", "./. 1.000.000 €"],
+        ["./. 70% von 3.000.000 €, max. 2.000.000 €", "./. 2.000.000 €"],
+        ["= zvE", "1.000.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025 – nur § 8c KStG", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG", "./. 7.000.000 €"],
+        ["./. Verlustvortrag", "./. 3.000.000 €"],
+        ["Endbestand", "0 €"],
+      ] },
+      { text: "Auswirkungen des § 8d KStG: Wird der Antrag nach § 8d KStG gestellt, wird der zum 31.12.2025 vorhandene Verlustvortrag zum fortführungsgebundenen Verlust. Danach würde dieser – unter Ausblendung des § 8c KStG - insgesamt 6.900.000 € betragen, weil bei der Verlustverrechnung die Voraussetzungen des § 10d Abs. 2 EStG zu beachten sind. Daher ergeben sich für 2025 folgende Auswirkungen:" },
+      { typ: "tabelle", spalten: ["zvE 2025 – mit § 8d KStG", "Betrag"], zeilen: [
+        ["GdE", "4.000.000 €"],
+        ["./. Grundabzug", "./. 1.000.000 €"],
+        ["./. 70% von 3.000.000 €", "./. 2.100.000 €"],
+        ["= zvE", "900.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025 – mit § 8d KStG", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. Verlustvortrag", "./. 3.100.000 €"],
+        ["Fortführungsgebundener Verlust", "6.900.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Beide Beispiele gehen auf. Erstes Beispiel: Der fortführungsgebundene Verlust von 13.000.000 € ist der Verlustvortrag von 10.000.000 € zuzüglich des vollen Jahresverlustes 2025 von 3.000.000 €; er liegt damit um 8.300.000 € über dem Endbestand von 4.700.000 €, der sich ohne den Antrag ergäbe – genau der Betrag, den § 8c KStG gekürzt hätte. Zweites Beispiel: 1.000.000 € Grundabzug zuzüglich 70 % × 3.000.000 € = 3.100.000 € Verlustnutzung, 4.000.000 € ./. 3.100.000 € = 900.000 € zvE, 10.000.000 € ./. 3.100.000 € = 6.900.000 € fortführungsgebundener Verlust." },
+      { text: "Anmerkung zum Preis des Antrags (eigene Ergänzung): Das zweite Beispiel stellt beide Wege sauber nebeneinander und lohnt den Vergleich in Zahlen. Ohne den Antrag beträgt das zvE **1.000.000 €** und der Verlust ist vollständig verbraucht oder untergegangen; mit dem Antrag beträgt das zvE **900.000 €** und es bleiben **6.900.000 €** fortführungsgebundener Verlust. Der Antrag kostet also 100.000 € mehr Verlustverbrauch im laufenden Jahr – weil die günstige Begrenzung „max. 2.000.000 €“ entfällt, sobald genug Verlust vorhanden ist – und bringt dafür 6.900.000 € gerettetes Verlustvolumen. Der Vorteil ist eindeutig; die Gegenleistung ist die dauerhafte Bindung nach § 8d Abs. 2 KStG." },
+      { text: "Anmerkung zu drei leicht übersehenen Erweiterungen (eigene Ergänzung): Der Abschnitt enthält drei Aussagen, die den Anwendungsbereich weiter ziehen als erwartet. Erstens bleibt die **Verlustverrechnung** mit dem laufenden Gewinn des gesamten Veranlagungszeitraums erhalten – fortführungsgebunden wird nur, was danach übrig ist. Zweitens lebt der **Verlustrücktrag** wieder auf, den § 8c KStG gerade ausschließt; weil § 8d KStG ihn vollständig verdrängt, entfällt auch diese Sperre. Drittens erfasst die Norm **sämtliche** Verlustarten – § 2a, § 15a, § 15b EStG, den Gewerbeverlust nach § 10a GewStG und den Zinsvortrag. Der Zinsvortrag ist dabei besonders bemerkenswert, weil er unter § 8c KStG nur über den engen Umweg des § 8a Abs. 1 Satz 3 KStG gerettet werden konnte." },
+      { text: "Anmerkung zur Bedeutung des Ausrufezeichens (eigene Ergänzung): Die Quelle setzt hinter das Wort „Ende“ ein Ausrufezeichen, und das ist berechtigt, weil daraus der wichtigste Zahlenunterschied beider Normen folgt. § 8c KStG rechnet **taggenau** auf den Erwerb, § 8d KStG auf den **Bilanzstichtag**. Im ersten Beispiel beträgt der Unterschied 2.700.000 € – der nach dem 31.03.2025 entstandene Teil des Jahresverlustes –, im Fall des Abschnitts 2.4.1 waren es 3.000.000 €. Wer in der Klausur beide Normen prüft, muss also **zwei verschiedene Verlustbeträge** ermitteln und darf sie nicht miteinander verwechseln." },
+    ],
+  },
+  {
+    id: "kst-t5-28",
+    kapitel: "28",
+    abschnittNr: "2.5.3",
+    title: "2.5.2 Altverlust neben Neuverlust und 2.5.3 Verlustverrechnung in nachfolgenden Veranlagungszeiträumen",
+    thema: "Der fortführungsgebundene Verlust ist der Höhe nach festgeschrieben und wird neben dem Neuverlust getrennt festgestellt; er ist vorrangig zu verbrauchen, innerhalb nur eines Verrechnungskreises",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 2.5.2 und 2.5.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d Abs. 1 Satz 8 KStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 10d Abs. 4 EStG",
+      "BMF (2), Tz. 58",
+    ],
+    themen: ["Altverlust", "Neuverlust", "getrennte Feststellung", "vorrangige Verwendung", "Verlustverrechnungskreis", "Mindestbesteuerung", "vorzeitiger Verbrauch"],
+    bloecke: [
+      { typ: "titel", text: "2.5.2 Altverlust neben Neuverlust" },
+      { text: "Der festgestellte fortführungsgebundene Verlustvortrag kann sich in den nachfolgenden Veranlagungszeiträumen nicht erhöhen, aber im Rahmen der Verlustnutzung wieder verringern (siehe unter 2.5.2). Die weiteren Verluste (Neuverluste) werden regulär nach den Grundsätzen des § 10d Abs. 4 EStG und damit neben den fortführungsgebundenen Verlusten (Altverluste) festgestellt. (Der Verweis „siehe unter 2.5.2“ steht so in der Quelle und verweist auf den Abschnitt selbst; gemeint ist ersichtlich 2.5.3, auf den die Quelle wenige Zeilen später auch ausdrücklich verweist.)" },
+      { text: "Beispiel: Bei der A-GmbH ist zum 31.12.2024 zutreffend ein fortführungsgebundener Verlust von 13.000.000 € festgestellt worden. Im nachfolgenden VZ 2025 erzielt die A-GmbH einen negativen GdE von 4.000.000 €." },
+      { text: "Lösung: Der fortführungsgebundene Verlust kann sich in den nachfolgenden VZ nicht mehr erhöhen, weil er auf diese maximale Höhe festgeschrieben ist. Dieser Verlust kann in den nachfolgenden VZ im Rahmen eines Verlustvortrags verbraucht werden (siehe nachfolgend unter 2.5.3). Der im VZ 2025 erzielte steuerliche Verlust wird daher neben dem fortführungsgebundenen Verlust im Rahmen einer weiteren und getrennten Verlustfeststellung i.S. des § 10d Abs. 4 EStG ausgewiesen (Neuverlust). Daher ergeben sich zum 31.12.2025 folgende Verlustfeststellungen:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellungen zum 31.12.2025", "Betrag"], zeilen: [
+        ["Fortführungsgebundener Verlust", "13.000.000 €"],
+        ["Verlustfeststellung § 10d Abs. 4 EStG", "4.000.000 €"],
+      ] },
+      { typ: "titel", text: "2.5.3 Verlustverrechnung in nachfolgenden VZ" },
+      { text: "In den nachfolgenden Veranlagungszeiträumen sieht § 8d Abs. 1 Satz 8 KStG eine vorrangige Verwendung des fortführungsgebundenen Verlustes vor etwaigen Neuverlusten vor. Damit kann es zu einem vorzeitigen Verbrauch des fortführungsgebundenen Verlustes kommen. Für Zwecke der Verlustverrechnung sind die Grundsätze des § 10d Abs. 2 EStG zu beachten, wobei insgesamt nur ein Verlustverrechnungskreis vorliegt. Dies bedeutet, dass der sich aus § 10d Abs. 2 EStG ergebende Betrag ausschließlich für beide Verlusttöpfe zur Verfügung steht." },
+      { text: "Beispiel: Bei der A-GmbH ist zum 31.12.2024 sowohl ein fortführungsgebundener Verlustvortrag i.H. von 2.000.000 € als auch ein regulärer Verlustvortrag i.S. des § 10d Abs. 4 EStG von 4.000.000 € festgestellt worden. Im VZ 2025 erzielt die A-GmbH einen positiven GdE (vor Verlustverrechnung) von 2.000.000 € (Variante 1) bzw. 6.000.000 € (Variante 2)." },
+      { text: "Lösung: Nach § 8d Abs. 1 Satz 8 KStG ist der fortführungsgebundene Verlustvortrag vor dem regulären Verlustvortrag i.S. des § 10d Abs. 4 EStG zu verwenden. Dabei liegt insgesamt nur 1 Verlustverrechnungskreis vor. Der höchstzulässige Verlustvortrag ermittelt sich des § 10d Abs. 2 EStG. (Die Fügung „ermittelt sich des § 10d Abs. 2 EStG“ steht so in der Quelle; gemeint ist „nach § 10d Abs. 2 EStG“.)" },
+      { text: "Danach ergibt sich in der Variante 1 folgende Verlustverrechnung:" },
+      { typ: "tabelle", spalten: ["Variante 1 – GdE 2.000.000 €", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte", "2.000.000 €"],
+        ["./. Grundabzug", "./. 1.000.000 €"],
+        ["= Überhang", "1.000.000 €"],
+        ["./. 70% des Überhanges", "./. 700.000 €"],
+        ["= z.v.E.", "300.000 €"],
+        ["Höchstzulässige Verlustverrechnung", "1.700.000 €"],
+      ] },
+      { text: "Nach § 8d Abs. 1 Satz 8 KStG wird für die Verlustverrechnung der fortführungsgebundene Verlustvortrag verwendet, so dass sich dessen Bestand zum 31.12.2025 um 1.700.000 € verringert. Zum 31.12.2025 sind daher folgende Verlustfeststellungen vorzunehmen:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellungen zum 31.12.2025 – Variante 1", "Betrag"], zeilen: [
+        ["Fortführungsgebundener Verlustvortrag", "300.000 €"],
+        ["Verlust i.S. des § 10d Abs. 4 EStG", "4.000.000 €"],
+      ] },
+      { text: "In der Variante 2 ergibt sich folgende Verlustverrechnung:" },
+      { typ: "tabelle", spalten: ["Variante 2 – GdE 6.000.000 €", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte", "6.000.000 €"],
+        ["./. Grundabzug", "./. 1.000.000 €"],
+        ["= Überhang", "5.000.000 €"],
+        ["./. 70% des Überhanges", "./. 3.500.000 €"],
+        ["= z.v.E.", "1.500.000 €"],
+        ["Höchstzulässige Verlustverrechnung", "4.500.000 €"],
+      ] },
+      { text: "Nach § 8d Abs. 1 Satz 8 KStG wird für die Verlustverrechnung zunächst der fortführungsgebundene Verlustvortrag verwendet, bis dieser vollkommen aufgezehrt wird. Der Restbetrag von 2.000.000 € wird dann bereits vom Neuverlust verwendet. Zum 31.12.2025 ergeben sich danach folgende Verlustfeststellungen:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellungen zum 31.12.2025 – Variante 2", "Betrag"], zeilen: [
+        ["Fortführungsgebundener Verlustvortrag", "0 €"],
+        ["Verlust i.S. des § 10d Abs. 4 EStG", "1.500.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Variante 1 geht auf: 2.000.000 € ./. 1.000.000 € = 1.000.000 € Überhang, davon 70 % = 700.000 €, zusammen 1.700.000 € höchstzulässige Verrechnung; das z.v.E. beträgt 2.000.000 € ./. 1.700.000 € = 300.000 €, und der fortführungsgebundene Vortrag sinkt von 2.000.000 € auf 300.000 €, während der Neuverlust von 4.000.000 € unberührt bleibt. Auch die Kennzahlen der Variante 2 gehen auf: 6.000.000 € ./. 1.000.000 € = 5.000.000 €, davon 70 % = 3.500.000 €, zusammen 4.500.000 €, z.v.E. 1.500.000 €." },
+      { text: "Abweichung in Variante 2 (eigene Nachrechnung): Der Zwischenbetrag im Lösungstext geht nicht auf. Von der höchstzulässigen Verrechnung von 4.500.000 € entfallen 2.000.000 € auf den fortführungsgebundenen Vortrag; auf den Neuverlust entfallen damit 4.500.000 € ./. 2.000.000 € = **2.500.000 €** und nicht die genannten 2.000.000 €. Die Endzahl der Quelle bestätigt die eigene Rechnung: Der Neuverlust sinkt von 4.000.000 € auf 1.500.000 €, also um genau 2.500.000 €. Der Satz der Quelle ist oben unverändert wiedergegeben." },
+      { text: "Anmerkung zur Zweischneidigkeit der Reihenfolge (eigene Ergänzung): Die vorrangige Verwendung des fortführungsgebundenen Verlustes nach § 8d Abs. 1 Satz 8 KStG ist auf den ersten Blick günstig, auf den zweiten ambivalent, und die Quelle spricht das mit dem Wort „vorzeitiger Verbrauch“ an. **Günstig** ist sie, weil gerade dieser Verlust dauerhaft gefährdet ist – jedes schädliche Ereignis nach § 8d Abs. 2 KStG kann ihn vernichten, den Neuverlust dagegen nicht. Wird er zuerst verbraucht, ist er dieser Gefahr entzogen. **Ungünstig** ist sie, weil der Steuerpflichtige keine Wahl hat: Er kann den sicheren Neuverlust nicht vorziehen, um den gebundenen Verlust für später aufzusparen. In der Variante 2 löst sich die Bindung dadurch vollständig auf – nach dem Verbrauch gibt es keinen fortführungsgebundenen Verlust mehr, und damit auch keine Fortführungspflicht." },
+      { text: "Anmerkung zum einen Verrechnungskreis (eigene Ergänzung): Die Aussage, es liege insgesamt nur **ein** Verlustverrechnungskreis vor, ist die praktisch wichtigste des Abschnitts und keineswegs selbstverständlich. Denkbar wäre auch gewesen, für jeden der beiden Verlusttöpfe einen eigenen Grundabzug von 1.000.000 € und eine eigene 70-%-Grenze zu gewähren – das hätte in Variante 1 eine Verrechnung von bis zu 3.400.000 € statt 1.700.000 € erlaubt. Die Verwaltung entscheidet sich in Tz. 58 des BMF-Schreibens dagegen: Der eine nach § 10d Abs. 2 EStG errechnete Betrag steht für beide Töpfe zusammen zur Verfügung. Die getrennte **Feststellung** ändert daran nichts; sie dient allein der Zuordnung, nicht der Vervielfachung des Abzugsvolumens." },
+      { text: "Anmerkung zur Festschreibung der Höhe (eigene Ergänzung): Dass sich der fortführungsgebundene Verlust nicht mehr **erhöhen** kann, ist die logische Folge seiner Herkunft: Er ist eine einmal zum Ende des Erwerbsjahres ermittelte Größe. Künftige Verluste desselben Geschäftsbetriebs werden deshalb nicht etwa ebenfalls gebunden, sondern laufen als gewöhnlicher Verlust nach § 10d Abs. 4 EStG daneben. Daraus folgt eine für den Steuerpflichtigen günstige Entwicklung im Zeitablauf: Der gebundene Anteil am Gesamtverlust wird von Jahr zu Jahr kleiner, weil er vorrangig verbraucht wird und zugleich nicht mehr wächst. Ein schädliches Ereignis nach § 8d Abs. 2 KStG trifft also mit jedem Jahr weniger." },
     ],
   },
 ];
