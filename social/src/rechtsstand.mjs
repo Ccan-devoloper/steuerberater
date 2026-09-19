@@ -48,7 +48,7 @@ export function rechtsstandAuftrag(thema, datum = new Date()) {
 }
 
 export function rechtsstandPruefhinweis(thema, datum = new Date()) {
-  const auftrag = rechtstandAuftrag(thema, datum);
+  const auftrag = rechtsstandAuftrag(thema, datum);
   if (!auftrag) return "";
   return `${auftrag}\nPrüfe insbesondere, ob beide Jahresfassungen im veröffentlichten Text inhaltlich richtig und eindeutig beschriftet sind.`;
 }
