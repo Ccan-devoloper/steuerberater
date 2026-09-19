@@ -12,7 +12,13 @@
       "themaId": "ao-modul-ao-359",
       "themaTitel": "§ 173 AO: Rechtserheblichkeit, anhängiges BFH-Verfahren und Änderungssperre",
       "fach": "ao",
-      "status": "geplant"
+      "status": "geplant",
+      "budgetBlockiert": {
+        "seit": "2026-09-19T06:43:45.704Z",
+        "grund": "autor: 0.2681 $ im Topf „core“ nicht mehr zulässig (frei 0.2395 $ von 0.3000 $) - der Aufruf startet nicht.",
+        "topf": "core",
+        "art": "AdmissionAbgelehnt"
+      }
     },
     {
       "slot": "b2",
