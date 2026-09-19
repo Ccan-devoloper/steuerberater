@@ -347,6 +347,14 @@ function korrigiereAussenpruefung171(thema) {
 
 function korrigiereFamilienheim(thema) {
   normErgaenzen(thema, "§ 13 Abs. 1 Nr. 4a–4c ErbStG");
+  const einordnung = [...(thema.kern?.einordnung || [])].map((x) =>
+    /zwingenden Gründen wie Krankheit, Heimunterbringung oder Tod/i.test(x)
+      ? x.replace(
+          /zu zwingenden Gründen wie Krankheit, Heimunterbringung oder Tod.?/i,
+          "zur zehnjährigen Selbstnutzungslogik. Ein vorzeitiger Auszug bleibt nur bei objektiv zwingenden Gründen unschädlich; eine Heimunterbringung allein reicht dafür nicht."
+        )
+      : x
+  );
   const schritte = [...(thema.kern?.pruefschritte || [])].map((x) =>
     /Aufgabe innerhalb zehn Jahren|schwere Krankheit\/?Heim\/?Tod|Krankheit.*Heim.*Tod/i.test(x)
       ? "Bei Aufgabe der Selbstnutzung innerhalb von zehn Jahren grundsätzlich Nachversteuerung prüfen. Ausnahme nur bei objektiv zwingenden Gründen: Die Selbstnutzung muss objektiv unmöglich oder unzumutbar sein; eine Heimunterbringung genügt nicht allein, sondern etwa dann, wenn Pflegebedürftigkeit eine selbständige Haushaltsführung nicht mehr zulässt."
@@ -355,6 +363,7 @@ function korrigiereFamilienheim(thema) {
   schritte.push("Bei Nr. 4b/4c die unverzügliche Bestimmung zur Selbstnutzung anhand der konkreten Umstände würdigen. Die von der BFH-Rechtsprechung entwickelte Sechs-Monats-Orientierung ist nach BFH-Beschluss vom 27.05.2026 keine starre Ausschlussfrist.");
   thema.kern = {
     ...thema.kern,
+    einordnung,
     pruefschritte: schritte,
     merksatz: "Familienheim: Tatbestand 4a/4b/4c sauber trennen. Innerhalb der Zehnjahresfrist schützt nur ein objektiv zwingender Hinderungsgrund; Pflegeheim ist kein Automatismus. Beim erstmaligen Einzug ist die Sechs-Monats-Linie nur eine Orientierung, keine starre Frist.",
   };
