@@ -328,6 +328,86 @@ test("Teileinkünfte-Formel verallgemeinert §8b nicht auf jede Körperschaftsdi
   assert.match(kern(t), /5-%-Pauschale greift nur/);
 });
 
+test("§164 Abs.4 behandelt Ablaufhemmungen nicht als geschlossene Dreierliste", () => {
+  const t = byId("ao-modul-ao-347");
+  assert.match(kern(t), /§ 164 Abs\. 4 S\. 2 AO/);
+  assert.match(kern(t), /§ 169 Abs\. 2 S\. 2/);
+  assert.match(kern(t), /§ 170 Abs\. 6/);
+  assert.match(kern(t), /§ 171 Abs\. 7, 8 und 10/);
+  assert.match(kern(t), /Alle übrigen.*Fristvorschriften berücksichtigen/i);
+  assert.doesNotMatch(kern(t), /nur die auf S\. 10 notierten Ablaufhemmungen/);
+});
+
+test("Feststellungsbescheid trennt §182-Bindung von §181-Abs.5-Sonderfall", () => {
+  const t = byId("ao-modul-ao-351");
+  assert.match(t.titel, /Sonderfall § 181 Abs\. 5 AO/);
+  assert.match(kern(t), /§ 182 Abs\. 1 AO/);
+  assert.match(kern(t), /Feststellungsfrist bereits abgelaufen/);
+  assert.match(kern(t), /§ 171 Abs\. 10 AO.*außer Betracht/);
+  assert.match(kern(t), /keine allgemeine.*Wirksamkeitsformel|keine allgemeine.*Wirksamkeitsvoraussetzung/i);
+  assert.doesNotMatch(kern(t), /erst nach vollständiger Wirksamkeitsformel als bindend behandeln/i);
+});
+
+test("§129 trennt Ermessen und Berichtigungsanspruch bei berechtigtem Interesse", () => {
+  const t = byId("ao-modul-ao-352");
+  assert.match(kern(t), /Satz 1.*Ermessen/);
+  assert.match(kern(t), /berechtigtem Interesse.*Berichtigungsanspruch/);
+  assert.match(kern(t), /§ 171 Abs\. 2 S\. 1 AO/);
+  assert.doesNotMatch(kern(t), /§ 129 S\. 2:[^"]*zwingend/);
+});
+
+test("§173 Nr.1 macht Ermittlungsfehler nicht zum ungeschriebenen Tatbestandsmerkmal", () => {
+  const t = byId("ao-modul-ao-354");
+  assert.match(kern(t), /Treu und Glauben/);
+  assert.match(kern(t), /Mitwirkungspflicht/);
+  assert.match(kern(t), /Ermittlungspflicht/);
+  assert.match(kern(t), /kein zusätzliches geschriebenes Tatbestandsmerkmal/);
+  assert.doesNotMatch(kern(t), /5a\. Nr\. 1: kein Ermittlungsfehler FA/);
+});
+
+test("§177 verwendet die Legaldefinition des materiellen Fehlers", () => {
+  const t = byId("ao-modul-ao-363");
+  assert.match(kern(t), /keine selbständige Änderungsnorm/);
+  assert.match(kern(t), /einschließlich.*§ 129 AO/);
+  assert.match(kern(t), /kraft Gesetzes entstandenen Steuer/);
+  assert.match(kern(t), /nicht zur Definition/);
+  assert.doesNotMatch(kern(t), /Materieller Fehler § 177 Abs\. 3 AO: Fehler[^"]*nicht mehr nach einer eigenen Korrekturvorschrift/);
+});
+
+test("Wiedereinsetzung trennt Monatsfrist der AO von Zweiwochenfrist der FGO", () => {
+  for (const id of ["ao-modul-ao-371", "ao-modul-ao-373"]) {
+    const t = byId(id);
+    assert.match(kern(t), /§ 110.*ein Monat|AO.*ein Monat/i);
+    assert.match(kern(t), /§ 56 FGO.*zwei Wochen|FGO.*Zweiwochenfrist/i);
+  }
+  assert.match(kern(byId("ao-modul-ao-371")), /Revision oder Nichtzulassungsbeschwerde.*einen Monat/);
+});
+
+test("§371-Selbstanzeige enthält Mindestberichtigungsverbund und §398a-Abgrenzung", () => {
+  const t = byId("ao-modul-ao-388");
+  assert.match(kern(t), /letzten zehn Kalenderjahre/);
+  assert.match(kern(t), /25\.000 € je Tat/);
+  assert.match(kern(t), /§ 398a AO/);
+  assert.match(kern(t), /§ 371 Abs\. 2a AO/);
+});
+
+test("§69-AO-Modul behandelt Geschäftsführerstellung nicht als Verschuldensautomatik", () => {
+  const t = byId("ao-modul-ao-390");
+  assert.match(kern(t), /Vorsatz oder grobe Fahrlässigkeit.*Einzelfall/);
+  assert.match(kern(t), /keine automatische Haftung allein wegen Geschäftsführerstellung/);
+  assert.match(kern(t), /keine Geschäftsführer-Gefährdungshaftung/);
+  assert.doesNotMatch(kern(t), /GmbH-GF[^"]*i\.d\.R\. erfüllt/i);
+});
+
+test("§71-AO-Modul macht fremden Vorteil nicht zum Tatbestandsmerkmal", () => {
+  const t = byId("ao-modul-ao-392");
+  assert.match(kern(t), /kein eigenständiges Tatbestandsmerkmal/);
+  assert.match(kern(t), /§ 370 AO/);
+  assert.match(kern(t), /§ 374 AO/);
+  assert.match(kern(t), /Steuerschuldnerschaft und Haftung/);
+  assert.doesNotMatch(kern(t), /Steuerhinterziehung muss zum fremden Vorteil erfolgt sein/);
+});
+
 test("Gastronomie trägt den 2025/2026-Rechtsstandswechsel", () => {
   const t = byId("ust-modul-ust-161");
   const auftrag = rechtsstandAuftrag(t, new Date("2026-09-19T12:00:00Z"));
