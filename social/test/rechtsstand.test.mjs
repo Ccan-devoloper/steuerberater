@@ -103,6 +103,16 @@ test("Außenprüfungsmodul nutzt neue §171-Abs.4-Fünfjahresgrenze", () => {
   assert.doesNotMatch(kern(t), /äußerste zeitliche Grenze nach Schlussbesprechung bzw\. letzter Prüfungshandlung/);
 });
 
+test("§2-AStG-Modul verwendet nur existente Normen und aktuelle Grenzen", () => {
+  const t = byId("istr-modul-istr-istr3-07");
+  assert.match(kern(t), /mindestens fünf Jahre/);
+  assert.match(kern(t), /16\.500/);
+  assert.match(kern(t), /62\.000/);
+  assert.match(kern(t), /154\.000/);
+  assert.match(kern(t), /Ablauf von zehn Jahren/);
+  assert.doesNotMatch(JSON.stringify(t.normen || []), /§\s*2a\s+AStG/i);
+});
+
 test("§14-BewG-Modul verwendet 2026er Tabelle und kennzeichnet den Wechsel zu 2025", () => {
   const t = byId("erbst-modul-erbst-532");
   assert.match(kern(t), /BMF-Tabelle vom 21\.10\.2025/);
