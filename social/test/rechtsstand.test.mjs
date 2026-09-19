@@ -110,6 +110,22 @@ test("Elektro-Pkw-Merksatz verallgemeinert nicht mehr auf Halbierung", () => {
 
 
 
+
+test("Mietereinbau-AfA verwechselt §7 Abs.4 Satz 2 nicht mit der Regel-AfA", () => {
+  const t = byTitle(/Mietdauer oder Nutzungsdauer beim Mietereinbau/i);
+  assert.match(kern(t), /§ 7 Abs\. 4 S\. 1 EStG/);
+  assert.match(kern(t), /kürzerer tatsächlicher Nutzungsdauer/);
+  assert.doesNotMatch(kern(t), /betriebsgewöhnliche Nutzungsdauer nach § 7 Abs\. 4 S\. 2/i);
+});
+
+test("Abbruchkosten behandeln die Dreijahresfrist nur als Anscheinsbeweis", () => {
+  const t = byTitle(/Wie wirken sich Abbruchkosten aus/i);
+  assert.match(kern(t), /widerlegbaren Anscheinsbeweis/);
+  assert.match(kern(t), /Restbuchwert und Abbruchkosten.*Herstellungskosten/);
+  assert.match(kern(t), /Anschaffungskosten des Grund und Bodens/);
+  assert.doesNotMatch(kern(t), /Restbuchwert → Grund und Boden/);
+});
+
 test("USt-Quiz zur innergemeinschaftlichen Lieferung nennt alle tragenden Voraussetzungen", () => {
   const t = byTitle(/Innergemeinschaftliche Lieferung: Voraussetzungen der Steuerfreiheit/i);
   assert.match(kern(t), /anderen EU-Mitgliedstaat/);
