@@ -478,6 +478,13 @@ function korrigiereAchtB(thema) {
     };
     return;
   }
+  if (thema.typ === "begriff") {
+    thema.kern = {
+      ...thema.kern,
+      definition: `Streubesitzdividende: Bezüge nach § 8b Abs. 1 KStG sind nach Abs. 4 grundsätzlich steuerpflichtig, wenn die unmittelbare Beteiligung zu Beginn des Kalenderjahres weniger als 10 % beträgt. ${zusatz} Greift diese Erwerbsfiktion nicht, bleibt der Bezug steuerpflichtig und die 5-%-Pauschale des § 8b Abs. 5 ist nach § 8b Abs. 4 S. 7 nicht anzuwenden.`,
+    };
+    return;
+  }
   const einordnung = [...(thema.kern?.einordnung || [])].map((x) =>
     /einzige Ausnahme von der Freistellung.*Streubesitzdividende/i.test(x)
       ? "Bei Dividenden ist im Grundfall zusätzlich § 8b Abs. 4 KStG zu prüfen. Daneben kennt § 8b KStG weitere Einschränkungen und Sondertatbestände; die Streubesitzregel darf daher nicht als einzige Ausnahme von der Freistellung dargestellt werden."
@@ -923,6 +930,24 @@ function korrigiereAbbruchkosten(thema) {
   thema.kern = {
     ...thema.kern,
     antwort: "Zuerst die Abbruchabsicht beim Erwerb klären. Ein Abbruchbeginn innerhalb von drei Jahren nach dem Erwerb begründet lediglich einen widerlegbaren Anscheinsbeweis für eine bereits beim Erwerb bestehende Abbruchabsicht. Ohne Abbruchabsicht sind Restbuchwert und Abbruchkosten grundsätzlich sofort abzugsfähig. Bei Erwerb mit Abbruchabsicht gehören Restbuchwert und Abbruchkosten bei engem wirtschaftlichem Zusammenhang mit einem Neubau grundsätzlich zu dessen Herstellungskosten; fehlt dieser Zusammenhang, gehören sie grundsätzlich zu den Anschaffungskosten des Grund und Bodens. Sonderfälle, etwa ein bereits objektiv wertloses Gebäude, sind gesondert zu prüfen.",
+  };
+}
+
+
+function korrigiereAbbruchQuiz(thema) {
+  normErgaenzen(thema, "H 6.4 EStH – Abbruchkosten");
+  thema.titel = "Abbruch innerhalb von drei Jahren: Was folgt daraus?";
+  thema.kern = {
+    ...thema.kern,
+    frage: "Mit dem Abbruch eines erworbenen Gebäudes wird innerhalb von drei Jahren nach dem Erwerb begonnen. Welche Aussage ist richtig?",
+    optionen: [
+      "Das Gebäude gilt allein deshalb objektiv als wertlos.",
+      "Es spricht ein widerlegbarer Anscheinsbeweis dafür, dass bereits beim Erwerb Abbruchabsicht bestand.",
+      "Restbuchwert und Abbruchkosten gehören immer zum Grund und Boden.",
+      "Die Dreijahresfrist ist eine unwiderlegbare gesetzliche Vermutung.",
+    ],
+    richtig: 1,
+    erklaerung: "H 6.4 EStH behandelt den Abbruchbeginn innerhalb von drei Jahren als widerlegbaren Anscheinsbeweis für eine bereits beim Erwerb bestehende Abbruchabsicht. Der Steuerpflichtige kann den Gegenbeweis führen; umgekehrt kann in besonderen Fällen auch bei mehr als drei Jahren eine Abbruchabsicht beim Erwerb nachgewiesen werden. Ob Restwert und Abbruchkosten sofort abziehbar, dem Grund und Boden oder einem Neubau zuzuordnen sind, hängt anschließend vom konkreten Abbruchfall ab.",
   };
 }
 
@@ -1945,6 +1970,7 @@ export function socialKorrekturenAnwenden(pool) {
     if (thema.typ === "karteikarte" && /Option nach § 9 UStG/i.test(thema.titel || "")) korrigiereOption9(thema);
     if (thema.typ === "karteikarte" && /Mietdauer oder Nutzungsdauer beim Mietereinbau/i.test(thema.titel || "")) korrigiereMietereinbauAfa(thema);
     if (thema.typ === "karteikarte" && /Wie wirken sich Abbruchkosten aus/i.test(thema.titel || "")) korrigiereAbbruchkosten(thema);
+    if (thema.typ === "quiz" && /Wann gilt ein mit Abbruchabsicht erworbenes Gebäude als wertlos/i.test(thema.titel || "")) korrigiereAbbruchQuiz(thema);
     if (thema.typ === "karteikarte" && /Wann ist die Einlage auf die Anschaffungskosten gedeckelt/i.test(thema.titel || "")) korrigiereEinlageDeckel(thema);
     if (thema.typ === "karteikarte" && /Wie prüft man § 15a EStG in vier Schritten/i.test(thema.titel || "")) korrigiere15aVierSchritte(thema);
     if (/Realteilung (?:oder|und) Sachwertabfindung/i.test(thema.titel || "")) korrigiereRealteilung(thema);
