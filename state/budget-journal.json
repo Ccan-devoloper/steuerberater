@@ -42,10 +42,10 @@
       "slot": "autor",
       "reservedUsd": 0.153111,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-19T08:43:43.475Z",
-      "updatedAt": "2026-09-19T08:43:43.475Z"
+      "updatedAt": "2026-09-19T08:43:44.581Z"
     }
   ],
-  "stand": "2026-09-19T08:43:43.475Z"
+  "stand": "2026-09-19T08:43:44.581Z"
 }
