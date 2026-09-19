@@ -239,6 +239,64 @@ function korrigiereRueckstellungskatalog(thema) {
   normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
+function korrigiereRealteilung(thema) {
+  normErgaenzen(thema, "§ 16 Abs. 3 S. 2–4 EStG", "BMF v. 19.12.2018");
+  if (thema.typ === "karteikarte") {
+    thema.kern = {
+      ...thema.kern,
+      antwort: "Realteilung gibt es als echte und als unechte Realteilung. Echte Realteilung: Die Mitunternehmerschaft wird beendet und Betriebsvermögen auf die Realteiler verteilt. Unechte Realteilung: Ein Mitunternehmer scheidet gegen Übertragung von Wirtschaftsgütern aus, die bei ihm zumindest teilweise Betriebsvermögen bleiben, während die Mitunternehmerschaft von den übrigen Gesellschaftern fortgeführt wird. Eine reine Barabfindung ist keine Realteilung; ebenso greift die Buchwertregel nicht, soweit übertragene Einzelwirtschaftsgüter vollständig ins Privatvermögen gelangen. Die Voraussetzungen des § 16 Abs. 3 S. 2–4 EStG sind gesondert zu prüfen.",
+    };
+    return;
+  }
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 16 Abs. 3 S. 2 EStG erfasst nach BFH und BMF sowohl die echte als auch die unechte Realteilung.",
+      "Echte Realteilung liegt bei Beendigung der Mitunternehmerschaft und Verteilung des Betriebsvermögens vor. Unechte Realteilung kann vorliegen, wenn ein Mitunternehmer gegen Übertragung von Wirtschaftsgütern ausscheidet, die bei ihm zumindest teilweise Betriebsvermögen bleiben, während die übrigen Gesellschafter die Mitunternehmerschaft fortführen.",
+    ],
+    lernziele: [
+      "echte und unechte Realteilung unterscheiden",
+      "reine Barabfindung und Überführung vollständig ins Privatvermögen von der Realteilung abgrenzen",
+      "die Buchwertfortführung nach § 16 Abs. 3 S. 2 EStG bei erfüllten Voraussetzungen anwenden",
+      "Sperrfrist und Körperschaftsklausel des § 16 Abs. 3 S. 3, 4 EStG prüfen",
+      "Spitzenausgleich beziehungsweise Gegenleistungen gesondert würdigen",
+    ],
+    pruefschritte: [
+      "Zuerst klären, ob eine echte Realteilung (Beendigung der Mitunternehmerschaft) oder eine unechte Realteilung (Ausscheiden eines Mitunternehmers bei Fortbestand der Mitunternehmerschaft) vorliegt.",
+      "Prüfen, ob die übertragenen Wirtschaftsgüter beim Realteiler zumindest teilweise in einem Betriebsvermögen fortgeführt werden.",
+      "Bei erfüllten Voraussetzungen die zwingende Buchwertfortführung nach § 16 Abs. 3 S. 2 EStG anwenden.",
+      "Keine Realteilung annehmen, wenn der Ausscheidende ausschließlich Geld erhält oder übertragene Einzelwirtschaftsgüter vollständig in sein Privatvermögen überführt werden.",
+      "Sperrfrist nach § 16 Abs. 3 S. 3 EStG und Körperschaftsklausel nach Satz 4 prüfen.",
+      "Spitzenausgleich oder sonstige Gegenleistungen gesondert auf entgeltliche Bestandteile prüfen.",
+    ],
+    merksatz: "Realteilung setzt nicht zwingend die Auflösung der Mitunternehmerschaft voraus: Neben der echten gibt es die unechte Realteilung beim Ausscheiden eines Mitunternehmers gegen betrieblich fortgeführte Wirtschaftsgüter.",
+  };
+}
+
+function korrigierePwb(thema) {
+  thema.kern = {
+    ...thema.kern,
+    erklaerung: "Die Bemessungsgrundlage ist der Nettobestand ohne sichere und bereits einzelwertberichtigte Forderungen. Der Risikosatz ist anhand objektiver Umstände am Bilanzstichtag und betrieblicher Erfahrungswerte nachvollziehbar zu schätzen; eine allgemeine gesetzliche oder verwaltungsseitige 1-%-Pauschale für sämtliche Forderungsbestände gibt es nicht.",
+  };
+  normErgaenzen(thema, "BFH v. 31.05.2017 – X R 29/15");
+}
+
+function korrigiereAchtBTechnik(thema) {
+  normErgaenzen(thema, "§ 8b Abs. 1–5 KStG");
+  thema.kern = {
+    ...thema.kern,
+    antwort: "Zuerst den Vorgang vollständig bilanzieren. Bei Dividenden anschließend § 8b Abs. 4 KStG einschließlich der Erwerbsfiktion des Satzes 6 prüfen: Nur wenn die Freistellung nach § 8b Abs. 1 greift, wird der Ertrag außerbilanziell abgezogen und die 5-%-Pauschale nach Abs. 5 hinzugerechnet. Veräußerungsgewinne fallen im Grundfall unabhängig von einer 10-%-Mindestquote unter § 8b Abs. 2; die 5-%-Pauschale folgt dort aus Abs. 3. Gewinnminderungen nach § 8b Abs. 3 S. 3 sind außerbilanziell hinzuzurechnen.",
+  };
+}
+
+function korrigiereTeileinkuenfte(thema) {
+  thema.kern = {
+    ...thema.kern,
+    erklaerung: "Bei natürlichen Personen mit begünstigten Beteiligungserträgen im Betriebsvermögen werden grundsätzlich 40 % des Ertrags steuerfrei gestellt und 40 % der damit zusammenhängenden Ausgaben nicht abgezogen. Bei Körperschaften ist § 8b KStG gesondert zu prüfen: Dividenden können wegen § 8b Abs. 4 KStG insbesondere bei Streubesitz von der Freistellung ausgeschlossen sein; für Veräußerungsgewinne nach Abs. 2 gilt keine 10-%-Mindestquote. Die jeweilige 5-%-Pauschale greift nur, soweit die entsprechende Freistellung anwendbar ist.",
+  };
+  normErgaenzen(thema, "§ 8b Abs. 1–5 KStG");
+}
+
 function kennzeichneGastronomie(thema) {
   rechtsstandswechsel(thema, {
     abJahr: 2026,
@@ -260,6 +318,8 @@ export function socialKorrekturenAnwenden(pool) {
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
+      case "bilanz-formel-pwb": korrigierePwb(thema); break;
+      case "bilanz-formel-teileinkuenfte": korrigiereTeileinkuenfte(thema); break;
       case "kst-modul-kst-12": korrigiereVerein(thema); break;
       case "bilanz-modul-k3-35": korrigiereElektroPkw(thema); break;
       case "bilanz-modul-k3-29": korrigiereRueckstellungskatalog(thema); break;
@@ -268,6 +328,8 @@ export function socialKorrekturenAnwenden(pool) {
     }
 
     if (thema.typ === "karteikarte" && /Begründet ein Mietverhältnis wirtschaftliches Eigentum/i.test(thema.titel || "")) korrigiereMiete(thema);
+    if (/Realteilung (?:oder|und) Sachwertabfindung/i.test(thema.titel || "")) korrigiereRealteilung(thema);
+    if (thema.typ === "karteikarte" && /Wie wird § 8b KStG technisch umgesetzt/i.test(thema.titel || "")) korrigiereAchtBTechnik(thema);
     if (/Vereinsbesteuerung/i.test(thema.titel || "") && thema.id !== "kst-modul-kst-12") korrigiereVerein(thema);
 
     const kernText = JSON.stringify(thema.kern || {});
