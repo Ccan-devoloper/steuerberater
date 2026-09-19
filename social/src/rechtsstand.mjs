@@ -227,6 +227,39 @@ function korrigiereWirtschaftlichesEigentum(thema) {
 }
 
 
+
+function korrigiereEinfachesMietverhaeltnis(thema) {
+  normErgaenzen(
+    thema,
+    "§ 39 Abs. 1 und Abs. 2 Nr. 1 AO",
+    "AEAO zu § 39 Nr. 1",
+    "BFH 02.06.2016 – IV R 23/13"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Im konkreten einfachen Mietfall bleibt die Maschine beim Vermieter zuzurechnen: Die Mietzeit ist im Verhältnis zur betriebsgewöhnlichen Nutzungsdauer kurz, es bestehen keine Kauf- oder Verlängerungsoptionen und die wesentlichen Substanzrisiken verbleiben beim Vermieter.",
+      "Allgemein gilt aber keine absolute „Miete = niemals wirtschaftliches Eigentum“-Regel. Nach dem AEAO ist ein Mieter oder Pächter regelmäßig nicht wirtschaftlicher Eigentümer; § 39 Abs. 2 Nr. 1 AO verlangt jedoch stets die konkrete Prüfung, ob der zivilrechtliche Eigentümer für die gewöhnliche Nutzungsdauer wirtschaftlich ausgeschlossen ist.",
+      "Leasing- und ähnliche Nutzungsüberlassungen können deshalb ausnahmsweise zur Zurechnung beim Nutzenden führen. Maßgeblich sind insbesondere Laufzeit, Substanz- und Ertragszuordnung, Optionen, Spezialleasing und die wirtschaftliche Bedeutung des Herausgabeanspruchs.",
+    ],
+    lernziele: [
+      "den konkreten Mietfall zutreffend dem Vermieter zurechnen",
+      "Regelfall und Ausnahme beim wirtschaftlichen Eigentum auseinanderhalten",
+      "Mietdauer mit betriebsgewöhnlicher Nutzungsdauer vergleichen",
+      "Optionen und Substanzrisiken in die §-39-Prüfung einbeziehen",
+      "Mietvorauszahlungen zeitlich über Rechnungsabgrenzung abgrenzen",
+    ],
+    pruefschritte: [
+      "Zivilrechtliches Eigentum beim Vermieter feststellen.",
+      "§ 39 Abs. 2 Nr. 1 AO konkret prüfen: tatsächliche Herrschaft und wirtschaftlicher Ausschluss des Vermieters für die gewöhnliche Nutzungsdauer.",
+      "Im vorliegenden Fall kurzen Nutzungszeitraum, fehlende Optionen und beim Vermieter verbleibende Substanzrisiken würdigen; deshalb kein wirtschaftliches Eigentum des Mieters.",
+      "Aus diesem Fall keine allgemeine Nie-Regel für sämtliche Miet-/Leasingverhältnisse ableiten.",
+      "Mangels Zurechnung keinen Bilanzansatz und keine AfA beim Mieter ansetzen; Mietaufwand und bei Vorauszahlung gegebenenfalls ARAP prüfen.",
+    ],
+    merksatz: "Einfacher Mietfall: regelmäßig kein wirtschaftliches Eigentum des Mieters. Entscheidend ist aber § 39 Abs. 2 Nr. 1 AO im Einzelfall – nicht das Wort „Miete“ allein.",
+  };
+}
+
 function korrigiereEinlageGrundstueck(thema) {
   normErgaenzen(
     thema,
@@ -1763,6 +1796,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "istr-modul-istr-istr3-07": korrigiereAStG2(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
       case "bilanz-modul-k3-2": korrigiereWirtschaftlichesEigentum(thema); break;
+      case "bilanz-modul-k3-34": korrigiereEinfachesMietverhaeltnis(thema); break;
       case "bilanz-modul-k3-41": korrigiereEinlageGrundstueck(thema); break;
       case "bilanz-modul-k3-26": korrigiereErsatzbeschaffungsruecklage(thema); break;
       case "bilanz-formel-anschaffungsnah": korrigiereAnschaffungsnah(thema); break;
