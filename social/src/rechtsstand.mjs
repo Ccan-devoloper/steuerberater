@@ -950,6 +950,42 @@ function korrigiereFeststellungsbescheid181(thema) {
   };
 }
 
+
+function korrigiereSchlichteAenderung172(thema) {
+  normErgaenzen(
+    thema,
+    "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+    "AEAO zu § 172 Nr. 2",
+    "BFH 20.12.2006 – X R 30/05",
+    "BFH 22.05.2019 – XI R 17/18"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Der Antrag auf schlichte Änderung nach § 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO ist kein Einspruch und kein förmlicher Rechtsbehelf. Er ist ein formfreier Änderungsantrag mit gegenüber dem Einspruch engerer Reichweite.",
+      "Zugunsten des Steuerpflichtigen muss der Antrag grundsätzlich vor Ablauf der Einspruchsfrist gestellt werden; nach einer Einspruchsentscheidung kommt nach § 172 Abs. 1 S. 3 AO ein Antrag bis zum Ablauf der Klagefrist in Betracht.",
+      "Der Änderungsantrag muss innerhalb der maßgeblichen Frist eine genau bestimmte Änderung bezogen auf einen konkreten Lebenssachverhalt verlangen beziehungsweise den sachlichen Gehalt des Änderungsbegehrens zumindest in groben Zügen erkennen lassen. Eine Bezifferung der steuerlichen Auswirkung ist weder allgemein erforderlich noch für sich allein ausreichend.",
+    ],
+    lernziele: [
+      "schlichten Änderungsantrag und Einspruch rechtlich trennen",
+      "Formfreiheit des Änderungsantrags kennen",
+      "Frist für den Änderungsantrag zugunsten des Steuerpflichtigen richtig bestimmen",
+      "Konkretisierung auf einen konkreten Lebenssachverhalt statt bloßer Betragsangabe prüfen",
+      "engere Reichweite, fehlende Gesamtaufrollung und fehlende AdV-Wirkung gegenüber dem Einspruch beachten",
+      "§ 172 Abs. 1 Nr. 2 Buchst. c AO als eigenständigen Korrekturtatbestand getrennt prüfen",
+    ],
+    pruefschritte: [
+      "Prüfen, ob eine Erklärung als Einspruch oder als Antrag auf schlichte Änderung auszulegen ist; bei Unklarheit Reichweite und Rechtsschutzinteresse würdigen.",
+      "Beim schlichten Änderungsantrag Formfreiheit beachten; auch mündliche oder telefonische Anträge sind möglich und aktenkundig zu machen.",
+      "Für eine Änderung zugunsten des Steuerpflichtigen Antragstellung innerhalb der Einspruchsfrist prüfen; nach Einspruchsentscheidung die Sonderregel des § 172 Abs. 1 S. 3 AO und die Klagefrist beachten.",
+      "Innerhalb der maßgeblichen Frist den konkreten Lebenssachverhalt beziehungsweise den sachlichen Gehalt des Änderungsbegehrens feststellen. Eine bloße Herabsetzung auf einen Betrag ohne Sachverhaltsbezug genügt nicht; eine exakte Bezifferung ist umgekehrt nicht generell erforderlich.",
+      "Änderung nur innerhalb der rechtzeitig konkretisierten Reichweite des Antrags prüfen; keine Gesamtaufrollung wie im Einspruchsverfahren.",
+      "Aussetzung der Vollziehung nicht aus dem Änderungsantrag selbst herleiten.",
+    ],
+    merksatz: "Schlichte Änderung ≠ Einspruch: formfreier, punktueller Änderungsantrag. Rechtzeitig muss der konkrete sachliche Änderungswunsch erkennbar sein – nicht zwingend ein exakt bezifferter Steuerbetrag.",
+  };
+}
+
 function korrigiereAo177(thema) {
   normErgaenzen(thema, "§ 177 Abs. 1–4 AO");
   thema.kern = {
@@ -1564,6 +1600,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "ao-modul-ao-351": korrigiereFeststellungsbescheid181(thema); break;
       case "ao-modul-ao-352": korrigiereAo129(thema); break;
       case "ao-modul-ao-354": korrigiereAo173(thema); break;
+      case "ao-modul-ao-360": korrigiereSchlichteAenderung172(thema); break;
       case "ao-modul-ao-363": korrigiereAo177(thema); break;
       case "ao-modul-ao-367": korrigiereVollstreckung(thema); break;
       case "ao-modul-ao-384": korrigiereVollstreckung(thema); break;
