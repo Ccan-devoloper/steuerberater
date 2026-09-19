@@ -475,6 +475,32 @@ test("USt-Organschaft kennt 50-Prozent-Ausnahme und aktuelle Innenleistungsregel
   assert.match(auftrag2027, /Rechtsstand 2026/);
 });
 
+test("PV-30-kW-Regel ist nur Vereinfachung und keine Nullsteuersatz-Höchstgrenze", () => {
+  const t = byId("ust-modul-ust-161");
+  assert.match(kern(t), /30 kW \(peak\).*Vereinfachung|Vereinfachungsregel.*30 kW/i);
+  assert.match(kern(t), /größeren Anlagen.*Nullsteuersatz.*ebenfalls greifen|oberhalb von 30 kW.*nicht automatisch ausgeschlossen/i);
+  assert.match(kern(t), /§ 12 Abs\. 3 Nr\. 1 S\. 1 UStG/);
+  assert.doesNotMatch(kern(t), /30-kWp-Grenze des Nullsteuersatzes/);
+});
+
+test("Vorsteuer-/§14c-Modul enthält aktuelle Endverbraucher-Ausnahme", () => {
+  const t = byId("ust-modul-ust-164");
+  assert.match(kern(t), /BFH V R 46\/25/);
+  assert.match(kern(t), /nicht steuerpflichtigen Endverbraucher/);
+  assert.match(kern(t), /nur nach § 14c geschuldeter Betrag.*keine abziehbare Vorsteuer/);
+  assert.doesNotMatch(kern(t), /schuldet auch den Mehrbetrag/);
+});
+
+test("Dienstwagenmodul prüft Entgeltlichkeit und Leistungsort nach BMF 03.03.2026", () => {
+  const t = byId("ust-modul-ust-225");
+  assert.match(kern(t), /nicht allein wegen des Arbeitsverhältnisses automatisch entgeltlich/);
+  assert.match(kern(t), /mündliche Vereinbarungen|betriebliche Übung/);
+  assert.match(kern(t), /§ 3a Abs\. 3 Nr\. 2 S\. 3 UStG/);
+  assert.match(kern(t), /§ 3a Abs\. 1 UStG/);
+  assert.match(kern(t), /30\.06\.2026/);
+  assert.doesNotMatch(kern(t), /Bei Überlassung an Arbeitnehmer aufgrund Arbeitsverhältnis entgeltliche Überlassung/);
+});
+
 test("Gastronomie trägt den 2025/2026-Rechtsstandswechsel", () => {
   const t = byId("ust-modul-ust-161");
   const auftrag = rechtsstandAuftrag(t, new Date("2026-09-19T12:00:00Z"));
