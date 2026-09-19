@@ -143,11 +143,11 @@ test("allgemeine USt-Steuersatzkarte enthält auch den Nullsteuersatz", () => {
 test("Bilanzänderung verlangt keine zusätzliche Zustimmung des Finanzamts", () => {
   const karte = byTitle(/Bilanzberichtigung oder Bilanzänderung/i);
   assert.match(kern(karte), /engen zeitlichen und sachlichen Zusammenhang/);
-  assert.match(kern(karte), /keine zusätzliche gesetzliche Zustimmung/);
+  assert.match(kern(karte), /zusätzliche gesetzliche Zustimmung[^"]*nicht/);
   assert.doesNotMatch(kern(karte), /nur mit Zustimmung des Finanzamts/i);
 
   const modul = byTitle(/Bilanzberichtigung und Bilanzänderung/i);
-  assert.match(kern(modul), /keine zusätzliche Zustimmungspflicht/);
+  assert.match(kern(modul), /zusätzliche Zustimmungspflicht[^"]*nicht/);
   assert.doesNotMatch(kern(modul), /Zustimmungsbedürftigkeit|zustimmungsbedürftig/i);
 });
 
@@ -182,7 +182,7 @@ test("Realteilung erfasst auch die unechte Realteilung", () => {
 test("PWB enthält keine pauschale 1-Prozent-Verwaltungsregel", () => {
   const t = byId("bilanz-formel-pwb");
   assert.match(kern(t), /betrieblicher Erfahrungswerte/);
-  assert.match(kern(t), /keine allgemeine.*1-%-Pauschale/i);
+  assert.match(kern(t), /allgemeine.*1-%-Pauschale[^"]*gibt es nicht/i);
   assert.match(kern(t), /risikobehafteter Nettobestand/);
   assert.doesNotMatch(kern(t), /Gesamtbestand brutto.*÷ 1,19/);
   assert.doesNotMatch(kern(t), /Verwaltung regelmäßig nur 1 %/i);
