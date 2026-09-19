@@ -146,11 +146,24 @@
       "attempt": 1,
       "slot": "handwritten heading on lined paper",
       "reservedUsd": 0.01,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.01,
+      "state": "settled",
       "createdAt": "2026-09-19T10:44:38.295Z",
-      "updatedAt": "2026-09-19T10:44:39.477Z"
+      "updatedAt": "2026-09-19T10:44:49.910Z"
+    },
+    {
+      "reservationId": "2026-09-19-0012-erklaerbild",
+      "date": "2026-09-19",
+      "bucket": "core",
+      "purpose": "erklaerbild",
+      "attempt": 1,
+      "slot": "open ring binder with legal text",
+      "reservedUsd": 0.01,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-19T10:44:51.162Z",
+      "updatedAt": "2026-09-19T10:44:51.162Z"
     }
   ],
-  "stand": "2026-09-19T10:44:39.477Z"
+  "stand": "2026-09-19T10:44:51.162Z"
 }

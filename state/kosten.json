@@ -232,9 +232,9 @@
       "stand": "2026-09-18T10:44:18.191Z"
     },
     "2026-09-19": {
-      "usd": 0.2413,
+      "usd": 0.2513,
       "antworten": 0,
-      "aufrufe": 9,
+      "aufrufe": 10,
       "zwecke": {
         "reel": 0.0605,
         "bildregie": 0.0137,
@@ -242,7 +242,7 @@
         "faktencheck": 0.0301,
         "stories": 0.0595,
         "story-faktencheck": 0.0065,
-        "erklaerbild": 0.01
+        "erklaerbild": 0.02
       },
       "messungen": {
         "reel": 0.0605,
@@ -253,7 +253,7 @@
         "story-faktencheck": 0.0065,
         "erklaerbild": 0.01
       },
-      "stand": "2026-09-19T10:44:37.075Z"
+      "stand": "2026-09-19T10:44:49.911Z"
     }
   }
 }
