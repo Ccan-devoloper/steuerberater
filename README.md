@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 55 Kapitel mit 925
-  Abschnitten und 85 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **vollständig** mit 57 Kapiteln, 952
+  Abschnitten und 89 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3635,6 +3635,39 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Differenzbetrag** zwischen der tatsächlichen Rückstellung nach § 6a EStG und derjenigen bei
   ratierlicher Unverfallbarkeit. Dahinter steht der Fremdvergleich: Ein fremder Geschäftsführer
   erdient sich seine Anwartschaft über die Jahre.
+  Bei der **Angemessenheit** geht die Zusage mit der **fiktiven Jahresnettoprämie** in die
+  Gesamtausstattung ein – nach dem Alter im Zusagezeitpunkt und mit den Rechnungsgrundlagen der
+  Rückstellung. Eine **Überversorgung** liegt vor, wenn die versprochenen Leistungen zusammen mit
+  gesetzlicher Rente und Direktversicherung **75 %** der letzten steuerlich anzuerkennenden
+  Aktivbezüge übersteigen. Eine Feinheit ist leicht falsch zu machen: Die fiktive Jahresnettoprämie
+  zählt zwar **in** die Gesamtausstattung, aber **nicht** zu den Aktivbezügen – andernfalls entstünde
+  ein Zirkelschluss, weil eine höhere Zusage ihre eigene Bezugsgröße und damit ihre Angemessenheit
+  herbeirechnen würde. Die Rechtsfolge hängt an der Art der Zusage: Bei der **entgeltsabhängigen**
+  Zusage (fester Prozentsatz des Endgehalts) bleibt die Bilanz unberührt, und die Zuführungen sind
+  laufend vGA, soweit die Rückstellung die Grenze übersteigt. Bei der **Festbetragszusage** greift
+  dagegen § 6a Abs. 3 Satz 2 Nr. 1 Satz 4 EStG: Die Rückstellung wird **innerhalb der Bilanz** auf
+  75 % der Aktivbezüge zurückgeführt, eine vGA entsteht zunächst nicht – dafür aber bei der
+  **Auszahlung**, weil der Aufwand dort durch keine Rückstellung mehr gedeckt ist. Die **Nur-Pension**
+  ist die Zuspitzung: Ohne laufende Bezüge ist die Bezugsgröße null, die Überversorgung beträgt 100 %,
+  die Rückstellung ist vollständig aufzulösen – und auch hier kehrt die vGA bei der Auszahlung zurück.
+  Darin liegt das durchgehende Muster: **Wo die Bilanz korrigiert wird, verdrängt das die vGA – aber
+  nur vorläufig.** Sie verschwindet nie, sie verschiebt sich nur; dasselbe hatten Abschnitt 6.1 und
+  Abschnitt 4.1.3 schon gesagt.
+  Die **Finanzierbarkeit** verlangt eine **fiktive Überschuldungsprüfung**, bei der die
+  Pensionsverpflichtung mit dem **Anwartschaftsbarwert** anzusetzen ist – der Maßstab ist also
+  strenger, als man meint: Geprüft wird nicht, ob die laufenden Zuführungen tragbar sind, sondern ob
+  die Gesellschaft überlebte, wenn der Versorgungsfall **sofort** einträte. Maßgeblich ist wieder der
+  Zusagezeitpunkt, so dass eine spätere Krise die Zusage nicht nachträglich zur vGA macht; die
+  Ausnahme knüpft nicht an die Krise an, sondern an ein **Unterlassen** – bleibt eine vertraglich
+  vorgesehene Anpassung aus, indiziert das gesellschaftsrechtlich motiviertes Verhalten. Die
+  **Rückdeckungsversicherung** schließlich ist nicht zwingend erforderlich, und ihre Beiträge sind
+  **selbst dann** keine vGA, wenn die abgesicherte Zusage eine ist: Der Anspruch aus der Versicherung
+  steht der **Gesellschaft** zu, so dass es an der **Vorteilsgeneigtheit** fehlt – dieselbe
+  Begründung, mit der Abschnitt 1.7 schon die Schuldzinsen für ein überhöhtes Gehalt abziehbar
+  gelassen hat. Damit endet das Skript nicht zufällig bei einem Merkmal aus dem ersten Kapitel: Die
+  sechs Prüfungskriterien der Pensionszusage sind durchweg Anwendungen dessen, was die Kapitel 1 und 2
+  allgemein entwickelt haben – das Kapitel 6 ist weniger ein neues Thema als die **Probe** auf alles
+  Vorangegangene. **Damit ist das Skript vollständig übernommen.**
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

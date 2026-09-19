@@ -10,74 +10,22 @@
    6 Pensionszusage als verdeckte Gewinnausschüttung. Gegliedert wird hier nach
    den Abschnitten der Quelle; jeder Abschnitt steht als eigener Eintrag.
 
-   STAND DER ÜBERNAHME: Aus Kapitel 1 sind die Abschnitte 1.1 (Definition),
-   1.2 (Tatbestandsmerkmale), 1.3 (Fallgruppen), 1.4 (Veranlassung durch das
-   Gesellschaftsverhältnis) und 1.5 (Auswirkung auf den Gewinn) übernommen –
-   letzterer einschließlich der Sonderfälle zum Erwerb eines
-   aktivierungspflichtigen Wirtschaftsguts (1.5.2.1) und zum Verkauf einer
-   Beteiligung (1.5.2.2) sowie zu den Schadensersatzansprüchen der Gesellschaft
-   (1.5.2.3 mit dem schlampigen und dem gierigen Gesellschafter). Damit ist der
-   gesamte Abschnitt 1.5 vollständig. Dazu kommen der fehlende Zusammenhang mit
-   einer offenen Gewinnausschüttung (1.6), die Vorteilsgeneigtheit (1.7) und
-   die unbewussten Handlungen (1.8), die nahe stehenden Personen (1.9) mit
-   Definition, Zurechnung und durchgeleiteter vGA, der Vorteilsausgleich
-   (1.10), die Beweislast (1.11), die Rückgewähr (1.12) und die Schenkungsteuer
-   (1.13). Damit ist das Kapitel 1 vollständig. Aus Kapitel 2 (Besonderheiten
-   beim beherrschenden Gesellschafter) sind der Begriff des beherrschenden
-   Gesellschafters (2.1) sowie der strenge formelle Vergleich mit den klaren
-   und eindeutigen Vereinbarungen (2.2 und 2.2.1), die zivilrechtliche
-   Wirksamkeit (2.2.2), das Rückwirkungsverbot (2.2.3), die tatsächliche
-   Durchführung des Vertrags (2.2.4 mit den unregelmäßigen Gehaltszahlungen
-   und den Tantiemenzahlungen) und die Anwendung bei nahe stehenden Personen
-   (2.2.5) übernommen. Damit ist auch das Kapitel 2 der Quelle vollständig.
-   Aus Kapitel 3 (Bewertung) sind der Wert des Vermögensnachteils (3.1 mit den
-   beiden Fallgruppen 3.1.1 und 3.1.2) sowie der Beginn des
-   Umsatzsteuer-Exkurses (3.2 und 3.2.1, unentgeltliche Leistung der
-   Gesellschaft) übernommen, dazu die verbilligte Leistung mit der
-   Mindestbemessungsgrundlage (3.2.2) und die Umsatzsteuer des Gesellschafters
-   (3.2.3). Damit ist auch das Kapitel 3 der Quelle vollständig. Aus Kapitel 4
-   (Auswirkungen) sind die außerbilanzielle Hinzurechnung (4.1.1), die vGA bei
-   Betriebsausgaben (4.1.2) und bei der Passivierung von Verpflichtungen
-   (4.1.3) sowie der Wegfallgewinn mit der Teilbetragsrechnung (4.1.3.1)
-   übernommen, dazu die Bedeutung der Teilbeträge (4.1.3.2 mit Teilbetrag I,
-   Teilbetrag II und der Fortschreibung) und ihre Auflösung (4.1.3.2.4)
-   einschließlich des nur teilweise gesellschaftsrechtlich veranlassten
-   Passivpostens, dazu die Posten der Aktivseite (4.1.4), die
-   Kapitalertragsteuer (4.1.5) und das steuerliche Einlagekonto (4.1.6). Damit
-   ist der Abschnitt 4.1 vollständig. Aus dem Abschnitt 4.2 (Auswirkungen beim
-   Gesellschafter) sind die Einnahmen aus Kapitalvermögen mit dem
-   Zuflusszeitpunkt (4.2.1), die natürlichen Personen als Anteilseigner (4.2.2
-   mit Teileinkünfteverfahren und Anteilen des Privatvermögens) und die
-   Kapitalgesellschaften als Anteilseigner (4.2.3) übernommen, dazu die
-   Umqualifizierung der Einkünfte bei der Vermögensminderung (4.2.4) und die
-   Verbrauchstheorie beim Anteilseigner (4.2.5.1) und bei einer nahe stehenden
-   Person (4.2.5.2), die formelle Korrespondenz des § 32a KStG (4.3) und das
-   Verhältnis zu § 1 AStG (4.4). Damit ist auch das Kapitel 4 der Quelle
-   vollständig. Aus Kapitel 5 (Dreiecksfälle) ist die Begriffsdefinition mit
-   der zweistufigen Betrachtungsweise (5.1) sowie die erste Fallgruppe, die
-   unentgeltliche oder verbilligte Lieferung von Wirtschaftsgütern (5.2 mit
-   5.2.1 und 5.2.2 einschließlich der Wertdifferenz zwischen Einlage und
-   Ausschüttung), die überteuerte Lieferung von Wirtschaftsgütern (5.3) und die
-   überteuerten Dienstleistungen (5.4) und die verbilligten Dienstleistungen
-   (5.5) übernommen. Damit sind alle vier Fallgruppen der Dreiecksfälle
-   erfasst. Dazu kommen das Korrespondenzprinzip in Dreiecksfällen (5.6) und
-   die materielle Korrespondenz bei verdeckten Einlagen (5.6.1) samt der
-   Rückausnahme des § 8 Abs. 3 Satz 5 KStG sowie der Grundsatz der materiellen
-   Korrespondenz bei den Einnahmen (5.6.2.1) sowie die Rückausnahme des § 8b
-   Abs. 1 Satz 5 KStG mit den Auslandsgestaltungen und den Inlandsfällen
-   (5.6.2.2), die Anwendung des § 1 AStG in Dreiecksfällen und die
-   Besonderheit bei der Schenkungsteuer (5.7). Damit ist auch das Kapitel 5
-   der Quelle vollständig. Aus Kapitel 6 (Pensionszusage) sind die
-   Prüfungsreihenfolge (6.1), die Ernsthaftigkeit (6.2.1), die Erdienbarkeit
-   (6.2.2 mit Lebensalter, Erdienenszeitraum und Pensionierungsalter), die
-   Warte- und Probezeiten (6.2.3) und die Unverfallbarkeit (6.2.4) übernommen.
-   Es folgen die Angemessenheit (6.2.5), die Finanzierbarkeit (6.2.6) und die
-   Rückdeckungsversicherung (6.3); der Campus weist den Stand aus.
-
-   HINWEIS ZUR GLIEDERUNG DER QUELLE: Das Inhaltsverzeichnis führt die Nummer
-   5.6 zweimal – einmal als „Korrespondenzprinzip in Dreiecksfällen" (Seite 68)
-   und einmal als „Anwendung des § 1 AStG" (Seite 76). Die Abschnittsnummern
-   der Datensätze folgen dem Wortlaut der Quelle.
+   STAND DER ÜBERNAHME: Das Skript ist VOLLSTÄNDIG übernommen – alle sechs
+   Kapitel über 87 Seiten. Kapitel 1 (Tatbestandsmerkmale) mit Definition,
+   Tatbestandsmerkmalen, Fallgruppen, Veranlassung, Gewinnauswirkung samt den
+   Sonderfällen, Vorteilsgeneigtheit, unbewussten Handlungen, nahe stehenden
+   Personen, Vorteilsausgleich, Beweislast, Rückgewähr und Schenkungsteuer.
+   Kapitel 2 (beherrschender Gesellschafter) mit dem Begriff und dem strengen
+   formellen Vergleich in allen fünf Ausprägungen. Kapitel 3 (Bewertung) mit
+   dem Wert des Vermögensnachteils und dem vollständigen Umsatzsteuer-Exkurs.
+   Kapitel 4 (Auswirkungen) mit der Einkommenshinzurechnung samt
+   Teilbetragsrechnung, Kapitalertragsteuer und Einlagekonto, den Auswirkungen
+   beim Gesellschafter samt Umqualifizierung und Verbrauchstheorie, der
+   formellen Korrespondenz des § 32a KStG und dem Verhältnis zu § 1 AStG.
+   Kapitel 5 (Dreiecksfälle) mit allen vier Fallgruppen, dem
+   Korrespondenzprinzip samt Rückausnahmen, der Anwendung des § 1 AStG und der
+   Schenkungsteuer. Kapitel 6 (Pensionszusage) mit der Prüfungsreihenfolge,
+   allen sechs Kriterien und der Rückdeckungsversicherung.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -2847,6 +2795,105 @@ export const kstTeil4 = [
       { text: "Anmerkung zum Verhältnis der beiden Fristen (eigene Ergänzung): Warte- und Probezeit werden leicht verwechselt, betreffen aber ganz verschiedene Dinge und laufen **nebeneinander**. Die **Wartezeit** von fünf Jahren knüpft an das **Unternehmen** an – vor Ablauf fehlen gesicherte Erkenntnisse über die Ertragsentwicklung. Die **Probezeit** von zwei bis drei Jahren knüpft an die **Person** an – der Geschäftsführer muss sich erst bewähren. Daraus folgt, dass bei einer neu gegründeten Gesellschaft mit neuem Geschäftsführer die **längere** Frist maßgeblich ist, während bei einer eingebrachten Einzelunternehmung beide entfallen können: Das Unternehmen ist bekannt und der Geschäftsführer auch. Die Quelle nennt genau diese beiden Ausnahmefälle." },
       { text: "Anmerkung zur Unverfallbarkeit (eigene Ergänzung): Der Abschnitt ist ein Musterbeispiel für eine vGA **der Höhe nach** und zeigt zugleich, dass die Quelle die Rechtsfolge fein abstuft. Verboten ist nicht die Unverfallbarkeit als solche, sondern nur die **sofortige volle** Unverfallbarkeit beim beherrschenden Gesellschafter; die **ratierliche** – also mit der Dienstzeit anwachsende – ist ausdrücklich zulässig. Hinzuzurechnen ist deshalb auch nicht die ganze Zuführung, sondern nur der **Differenzbetrag** zwischen der tatsächlichen Rückstellung nach § 6a EStG und derjenigen, die sich bei ratierlicher Unverfallbarkeit ergäbe. Der dahinterstehende Gedanke ist der Fremdvergleich: Ein fremder Geschäftsführer erdient sich seine Anwartschaft über die Jahre; nur wer die Gesellschaft beherrscht, kann sie sich sofort in voller Höhe zusagen lassen." },
       { text: "Anmerkung zum Statuswechsel (eigene Ergänzung): Die Aussage zum Wechsel vom nicht beherrschenden zum beherrschenden Gesellschafter ist für den Steuerpflichtigen günstig und folgt aus dem Stichtagsprinzip: Maßgeblich sind die Verhältnisse **bei Erteilung** der Zusage, und ein späterer Anteilserwerb ändert daran nichts. Die Quelle nennt aber zwei Gegenausnahmen, die in der Klausur die eigentliche Falle bilden. Treten **weitere Anhaltspunkte** hinzu – die Quelle nennt die zeitliche Nähe von Zusage und Erwerb der beherrschenden Stellung –, ist doch zu prüfen. Und wird die Zusage **wesentlich geändert**, ist ohnehin neu zu prüfen; das entspricht dem, was Abschnitt 6.2.2.2.1 für den Erdienenszeitraum bei Erhöhungen sagt." },
+    ],
+  },
+  {
+    id: "kst-t4-56",
+    kapitel: "56",
+    abschnittNr: "6.2.5",
+    title: "6.2.5 Angemessenheit – die 75-Prozent-Grenze der Überversorgung",
+    thema: "Die Pensionszusage geht mit der fiktiven Jahresnettoprämie in die Gesamtausstattung ein. Übersteigen die Versorgungsansprüche 75 % der letzten Aktivbezüge, liegt eine Überversorgung vor – mit verschiedenen Folgen je nach Art der Zusage",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 6.2.5 bis 6.2.5.2 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 6a Abs. 3 Satz 2 Nr. 1 Satz 4 EStG",
+      "H 8.7 KStH „Nur-Pension“",
+      "BMF vom 14.10.2002, BStBl. I 2002, 972",
+      "BMF vom 03.11.2004, BStBl. I 2004, 1045",
+      "BMF vom 13.12.2012, BStBl. I 2013, 35",
+      "BFH vom 26.10.1982, BStBl. II 1983, 209",
+      "BFH vom 31.03.2004, BStBl. II 2004, 940",
+      "BFH vom 27.03.2012, BStBl. II 2012, 665",
+      "BFH vom 20.12.2016, BStBl. II 2017, 678",
+      "BFH vom 09.11.2005, BStBl. II 2008, 523",
+      "BFH vom 28.04.2010, BStBl. II 2013, 41",
+    ],
+    themen: ["Angemessenheit", "fiktive Jahresnettoprämie", "Gesamtausstattung", "Überversorgung", "75-Prozent-Grenze", "Festbetragszusage", "Nur-Pension"],
+    bloecke: [
+      { typ: "titel", text: "6.2.5.1 Auswirkungen auf die Pensionsrückstellung" },
+      { text: "Die Pensionszusage ist zudem beim Gesellschafter-Geschäftsführer in die Prüfung seiner Gesamtausstattung einzubeziehen. Diese ist mit der fiktiven Jahresnettoprämie nach dem Alter des Gesellschafter-Geschäftsführers im Zeitpunkt der Pensionszusage anzusetzen, die er selbst für eine entsprechende Versicherung zu zahlen hätte. Sieht die Pensionszusage spätere Erhöhungen vor, ist die fiktive Jahresnettoprämie für den Erhöhungsbetrag auf den Zeitpunkt der Erhöhung der Pensionszusage zu berechnen. Dabei ist von den Rechnungsgrundlagen auszugehen, die für die Berechnung der Pensionsrückstellung verwendet werden." },
+      { text: "Unter diesem Gesichtspunkt ist auch der Tatbestand der Überversorgung zu beachten. Eine solche Überversorgung ist anzunehmen, wenn die versprochenen Leistungen stichtagsbezogen zusammen mit evtl. zu erwartenden Ansprüchen aus der gesetzlichen Rentenversicherung und Leistungen aus einer Direktversicherung 75 % der letzten steuerlich anzuerkennenden Aktivbezüge übersteigen. Die fiktive Jahresnettoprämie aus der Pensionsanwartschaft ist dabei nicht in die Ermittlung der maßgeblichen Aktivbezüge einzubeziehen. Bemessungsgrundlage dafür ist nämlich nur der tatsächliche Aktivlohn." },
+      { text: "Hinsichtlich der steuerlichen Auswirkungen ist danach wie folgt zu unterscheiden:" },
+      { text: "Entgeltsabhängige Pensionszusage: Bemisst sich die Pensionszusage nach einem festen Prozentsatz des Endgehalts, kann dies zu einer vGA führen. Übersteigen die Versorgungsansprüche diese 75-%-Grenze, kommt es nicht zu einer bilanziellen Korrektur der Pensionsrückstellung nach § 6a Abs. 3 Satz 2 Nr. 1 Satz 4 EStG. Vielmehr sind die jährlichen Zuführungen zur Pensionsrückstellung danach als vGA i.S. des § 8 Abs. 3 Satz 2 KStG zu behandeln, soweit der Betrag der Rückstellung diese Grenze (von 75 %) übersteigt." },
+      { text: "Entgeltsunabhängige Pensionszusage: Wenn die Versorgungsbezüge in Höhe eines festen Betrages zugesagt sind, liegt eine Überversorgung vor, wenn die zugesagte Pension im Verhältnis zu den Aktivbezügen am Bilanzstichtag überhöht ist. Dabei ist nach Auffassung des BFH die Pensionsrückstellung im Falle einer überhöhten Festbetragszusage gemäß § 6a Abs. 3 Satz 2 Nr. 1 Satz 4 EStG auch nur unter Zugrundelegung eines angemessenen Prozentsatzes der jeweiligen letzten Aktivbezüge zu ermitteln und innerhalb der Bilanz auf ein angemessenes Maß zurückzuführen. Die angemessene Versorgungsgrenze zieht der BFH typisierend bei 75 v. H. der am Bilanzstichtag bezogenen Aktivbezüge." },
+      { text: "Bei Überschreiten der Versorgungsgrenze unterstellt der BFH eine Vorwegnahme künftiger Entwicklungen in Gestalt ansteigender säkularer Einkommenstrends, die bei der Rückstellungsbildung nicht abgebildet werden dürfen. Zwar vermeidet die Bilanzberichtigung zunächst die Annahme einer vGA i.S. des § 8 Abs. 3 Satz 2 KStG. Zu der vGA kommt es dann erst tatsächlicher Auszahlung der insoweit überhöhten Beträge. Diese Auszahlungen sind nachfolgend durch die Rückstellung nicht mehr abgedeckt und führen dementsprechend zu einem Aufwand, welcher zu diesem Zeitpunkt nach § 8 Abs. 3 Satz 2 KStG zu korrigieren wäre. (Die Form „Zu der vGA kommt es dann erst tatsächlicher Auszahlung“ steht so in der Quelle.)" },
+      { typ: "titel", text: "6.2.5.2 Nur-Pension" },
+      { text: "Erhält der Gesellschafter-Geschäftsführer als ausschließliche Tätigkeitsvergütung lediglich eine Pensionszusage, ohne dass er laufende Bezüge bezieht (sog. Nur-Pension), führt dies nach der BFH-Rechtsprechung bereits zu einer Überversorgung von 100 %. Nach § 6a Abs. 3 Satz 2 Nr. 1 Satz 4 EStG muss die Pensionsrückstellung dann bereits aufgelöst werden, was damit auch zunächst die außerbilanzielle Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG verdrängen würde." },
+      { text: "Die Finanzverwaltung hat sich mit BMF-Schreiben vom 13.12.2012 der BFH-Rechtsprechung angeschlossen. Zu beachten ist aber, dass dann spätestens bei Auszahlung der Pension dem Anteilseigner verdeckte Gewinnausschüttung zufließen und bei der Gesellschaft auch wieder zur Anwendung des § 8 Abs. 3 Satz 2 KStG führen würde, weil der Aufwand aus der Auszahlung durch keinen Rückstellungsbetrag gedeckt ist. (Die Form „dem Anteilseigner verdeckte Gewinnausschüttung zufließen“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Art der Zusage", "Wirkung der Überversorgung in der Bilanz", "Zeitpunkt der vGA"], zeilen: [
+        ["entgeltsabhängig (fester Prozentsatz des Endgehalts)", "keine bilanzielle Korrektur nach § 6a Abs. 3 Satz 2 Nr. 1 Satz 4 EStG", "laufend – die jährlichen Zuführungen sind vGA, soweit die Rückstellung die 75-Prozent-Grenze übersteigt"],
+        ["entgeltsunabhängig (Festbetragszusage)", "bilanzielle Rückführung auf 75 % der Aktivbezüge am Bilanzstichtag", "erst bei tatsächlicher Auszahlung der überhöhten Beträge"],
+        ["Nur-Pension", "die Pensionsrückstellung ist bereits aufzulösen – Überversorgung von 100 %", "erst bei Auszahlung der Pension"],
+      ] },
+      { typ: "tabelle", spalten: ["Frage zur Überversorgung", "Antwort der Quelle"], zeilen: [
+        ["Grenze", "75 % der letzten steuerlich anzuerkennenden Aktivbezüge"],
+        ["einzubeziehende Leistungen", "die versprochenen Leistungen, zu erwartende Ansprüche aus der gesetzlichen Rentenversicherung und Leistungen aus einer Direktversicherung"],
+        ["Betrachtungsweise", "stichtagsbezogen"],
+        ["Ansatz in der Gesamtausstattung", "fiktive Jahresnettoprämie nach dem Alter im Zusagezeitpunkt, die der Geschäftsführer selbst für eine entsprechende Versicherung zahlen müsste"],
+        ["Erhöhungen der Zusage", "eigene fiktive Jahresnettoprämie, berechnet auf den Zeitpunkt der Erhöhung"],
+        ["Rechnungsgrundlagen", "dieselben wie für die Berechnung der Pensionsrückstellung"],
+        ["Gehört die fiktive Jahresnettoprämie zu den Aktivbezügen?", "nein – Bemessungsgrundlage ist nur der tatsächliche Aktivlohn"],
+        ["Begründung des BFH für die Grenze", "sonst würden künftige Entwicklungen in Gestalt ansteigender säkularer Einkommenstrends vorweggenommen"],
+      ] },
+      { text: "Anmerkung zur doppelten Rolle der fiktiven Jahresnettoprämie (eigene Ergänzung): Die Quelle stellt eine Feinheit klar, die man leicht falsch macht. Die fiktive Jahresnettoprämie zählt **in** die Gesamtausstattung hinein, mit der geprüft wird, ob die Vergütung insgesamt angemessen ist. Sie zählt aber **nicht** zu den Aktivbezügen, an denen die 75-Prozent-Grenze gemessen wird – dort ist nur der tatsächliche Aktivlohn maßgebend. Andernfalls entstünde ein Zirkelschluss: Eine höhere Pensionszusage würde die Bezugsgröße erhöhen und damit ihre eigene Angemessenheit herbeirechnen. Die Quelle stützt das ausdrücklich auf zwei BFH-Entscheidungen." },
+      { text: "Anmerkung zum Unterschied der beiden Zusagearten (eigene Ergänzung): Der Abschnitt enthält eine Weichenstellung, die auf den ersten Blick willkürlich wirkt und doch der Systematik des ganzen Kapitels folgt. Bei der **entgeltsabhängigen** Zusage bleibt die Bilanz unberührt, und die Überversorgung wird **außerbilanziell** korrigiert – laufend, Jahr für Jahr. Bei der **Festbetragszusage** greift dagegen § 6a Abs. 3 Satz 2 Nr. 1 Satz 4 EStG, die Rückstellung wird **innerhalb der Bilanz** zurückgeführt, und damit ist die Gewinnminderung schon beseitigt. Das ist genau der Gedanke aus Abschnitt 6.1: **Wo die Bilanz korrigiert wird, bleibt für die vGA nichts übrig.** Der Preis ist die Verschiebung – die vGA entsteht dann erst bei der **Auszahlung**, weil der Aufwand dort nicht mehr durch eine Rückstellung gedeckt ist." },
+      { text: "Anmerkung zur Nur-Pension (eigene Ergänzung): Sie ist die Zuspitzung desselben Gedankens und zugleich der Fall, in dem die Rechnung besonders einfach ist: Ohne laufende Bezüge beträgt die Bezugsgröße null, und jede Versorgungszusage übersteigt 75 % davon – daher die **Überversorgung von 100 %**. Die Rückstellung ist vollständig aufzulösen, eine vGA entsteht zunächst nicht, und beides ist für den Steuerpflichtigen nur scheinbar günstig: Spätestens bei der Auszahlung schlägt sie in voller Höhe zu. Bemerkenswert ist, dass Verwaltung und BFH hier ausnahmsweise **übereinstimmen** – das BMF-Schreiben vom 13.12.2012 hat sich der Rechtsprechung ausdrücklich angeschlossen. Die Nur-Pension war zudem schon in Abschnitt 1.4.1 als Beispiel dafür genannt, dass eine vGA auch in einer für die Gesellschaft **günstigen** Vereinbarung liegen kann." },
+      { text: "Anmerkung zum durchgehenden Muster (eigene Feststellung): Alle drei Konstellationen dieses Abschnitts folgen derselben Regel, und wer sie erkennt, braucht die Einzelfälle nicht auswendig zu lernen. Wird die **Bilanz** korrigiert, verdrängt das die vGA – aber nur **vorläufig**; sie kehrt im Zeitpunkt der **Auszahlung** zurück, weil der Aufwand dann durch keine Rückstellung mehr gedeckt ist. Wird die Bilanz dagegen **nicht** korrigiert, entsteht die vGA sofort und laufend. Dasselbe Muster hat schon Abschnitt 6.1 für die Prüfungsreihenfolge und Abschnitt 4.1.3 für die Behandlung der Passivposten beschrieben – die vGA verschwindet nie, sie verschiebt sich nur." },
+    ],
+  },
+  {
+    id: "kst-t4-57",
+    kapitel: "57",
+    abschnittNr: "6.3",
+    title: "6.2.6 Finanzierbarkeit und 6.3 Rückdeckungsversicherung",
+    thema: "Die Zusage muss im Zusagezeitpunkt finanzierbar sein, was eine fiktive Überschuldungsprüfung verlangt. Die Beiträge zur Rückdeckungsversicherung sind auch dann keine vGA, wenn die abgesicherte Zusage selbst eine ist",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 6.2.6 und 6.3 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "H 8.7 KStH „Finanzierung“",
+      "BFH vom 15.10.1997, BStBl. II 1999, 316",
+      "BFH vom 29.10.1997, BStBl. II 1999, 318",
+      "BFH vom 07.08.2002, BStBl. II 2004, 131",
+    ],
+    themen: ["Finanzierbarkeit", "fiktive Überschuldungsprüfung", "Anwartschaftsbarwert", "Stichtagsprinzip", "Rückdeckungsversicherung", "Vorteilsgeneigtheit"],
+    bloecke: [
+      { text: "Die Pensionszusage kann steuerlich nur anerkannt werden, wenn diese im Zeitpunkt der Zusageerteilung von der Gesellschaft finanziert werden kann. Dabei ist auf das Risiko der Gesellschaft abzustellen, im Falle einer vorzeitigen Inanspruchnahme aus der Pensionszusage in die Insolvenz zu geraten. Dies bedeutet, dass eine fiktive Überschuldungsprüfung vorgenommen werden muss, bei welcher die Pensionsverpflichtung grundsätzlich mit ihrem Anwartschaftsbarwert angesetzt werden muss." },
+      { text: "Weil bei dieser Prüfung ausschließlich die Verhältnisse zum Zusagezeitpunkt maßgeblich sind, können nachfolgende Ereignisse die Finanzierbarkeit grundsätzlich nicht beeinflussen. Eine Ausnahme würde hingegen gelten, wenn eine zunächst finanzierbare Pensionszusage in späteren Wirtschaftsjahren nicht mehr finanzierbar wird, z.B. weil die Gesellschaft in eine Krise geraten ist und eine vertraglich vorgesehene Anpassung nicht vornimmt. Dies würde dann ein gesellschaftsrechtlich motiviertes Verhalten indizieren." },
+      { typ: "titel", text: "6.3 Rückdeckungsversicherung" },
+      { text: "Der Abschluss einer Rückdeckungsversicherung ist nicht zwingende Voraussetzung für die Anerkennung einer Pensionszusage. Dies gilt allerdings nur, wenn die Erfüllbarkeit im Einzelfall gesichert ist." },
+      { text: "Der BFH hat in seinem Urteil vom 07.08.2002 entschieden, dass Beitragszahlungen einer Kapitalgesellschaft für eine von ihr abgeschlossene Rückdeckungsversicherung auch dann keine verdeckte Gewinnausschüttung darstellen, wenn die hierdurch abgesicherte Pensionszusage durch das Gesellschaftsverhältnis veranlasst ist und damit zu einer verdeckten Gewinnausschüttung führt. Der Anspruch aus der Rückdeckungsversicherung steht nämlich der Gesellschaft zu, unabhängig von dem, für welchen Zweck diese abgeschlossen wurde (sog. Vorteilsgeneigtheit, siehe unter 1.7)." },
+      { typ: "tabelle", spalten: ["Frage zur Finanzierbarkeit", "Antwort der Quelle"], zeilen: [
+        ["maßgeblicher Zeitpunkt", "ausschließlich die Verhältnisse bei Erteilung der Zusage"],
+        ["Prüfungsmaßstab", "Risiko, im Falle einer vorzeitigen Inanspruchnahme in die Insolvenz zu geraten"],
+        ["Prüfungsmethode", "fiktive Überschuldungsprüfung"],
+        ["Ansatz der Pensionsverpflichtung dabei", "grundsätzlich mit dem Anwartschaftsbarwert"],
+        ["spätere Ereignisse", "beeinflussen die Finanzierbarkeit grundsätzlich nicht"],
+        ["Ausnahme", "die Zusage wird später nicht mehr finanzierbar und eine vertraglich vorgesehene Anpassung unterbleibt – das indiziert gesellschaftsrechtlich motiviertes Verhalten"],
+      ] },
+      { typ: "tabelle", spalten: ["Frage zur Rückdeckungsversicherung", "Antwort der Quelle"], zeilen: [
+        ["zwingende Voraussetzung der Anerkennung?", "nein – vorausgesetzt, die Erfüllbarkeit ist im Einzelfall gesichert"],
+        ["Beiträge als vGA?", "nein, auch dann nicht, wenn die abgesicherte Pensionszusage selbst eine vGA ist"],
+        ["Begründung", "der Anspruch aus der Versicherung steht der Gesellschaft zu – es fehlt an der Vorteilsgeneigtheit (Abschnitt 1.7)"],
+        ["Verhältnis zur Probezeit", "der Abschluss einer Rückdeckungsversicherung ersetzt die Probezeit nicht (Abschnitt 6.2.3)"],
+      ] },
+      { text: "Anmerkung zum Stichtagsprinzip (eigene Ergänzung): Die Finanzierbarkeit ist das sechste und letzte der in Abschnitt 6.1 genannten Kriterien, und sie folgt derselben Logik wie alle übrigen: Geprüft wird der **Zusagezeitpunkt**. Das wirkt für den Steuerpflichtigen zunächst günstig – eine später eintretende Krise macht die Zusage nicht nachträglich zur vGA. Die Ausnahme der Quelle ist aber sorgfältig formuliert und knüpft nicht an die Krise selbst an, sondern an ein **Unterlassen**: Sieht der Vertrag eine Anpassung vor und unterbleibt sie, liegt darin ein eigenes gesellschaftsrechtlich motiviertes Verhalten. Nicht die verschlechterte Lage schadet also, sondern dass niemand darauf reagiert – ein fremder Geschäftsführer hätte auf der vereinbarten Anpassung bestanden oder sie hinnehmen müssen." },
+      { text: "Anmerkung zur fiktiven Überschuldungsprüfung (eigene Ergänzung): Der Maßstab ist bemerkenswert streng und wird oft unterschätzt. Geprüft wird nicht, ob die Gesellschaft die **laufenden Zuführungen** tragen kann, sondern ob sie überlebte, wenn der Versorgungsfall **sofort** einträte – deshalb der Ansatz mit dem **Anwartschaftsbarwert** und nicht mit dem niedrigeren Teilwert nach § 6a EStG. Dahinter steht der Gedanke des Fremdvergleichs: Ein ordentlicher Geschäftsleiter würde keine Verpflichtung eingehen, die die Gesellschaft bei vorzeitiger Inanspruchnahme in die Insolvenz führt. Praktisch ist das Kriterium vor allem bei jungen oder kleinen Gesellschaften mit hohen Zusagen die entscheidende Hürde." },
+      { text: "Anmerkung zur Rückdeckungsversicherung (eigene Ergänzung): Der Schlussabschnitt des Skripts ist zugleich seine eleganteste Anwendung eines früh eingeführten Begriffs. Dass die Beiträge **selbst dann** keine vGA sind, wenn die abgesicherte Zusage eine ist, folgt allein aus der **Vorteilsgeneigtheit** aus Abschnitt 1.7: Der Anspruch aus der Versicherung steht der **Gesellschaft** zu, nicht dem Geschäftsführer – er kann daraus keine Einnahmen nach § 20 Abs. 1 Nr. 1 EStG erzielen, und damit fehlt ein Tatbestandsmerkmal. Die vGA erfasst also nur die **Zuwendung selbst**, nicht ihre Begleitkosten. Dasselbe hatte Abschnitt 1.7 schon für die Schuldzinsen gesagt, mit denen eine Gesellschaft ein überhöhtes Gehalt finanziert." },
+      { text: "Anmerkung zum Abschluss des Skripts (eigene Ergänzung): Mit diesem Abschnitt endet das Skript, und es endet nicht zufällig bei einem Merkmal aus dem ersten Kapitel. Die sechs Prüfungskriterien der Pensionszusage sind durchweg **Anwendungen** dessen, was die Kapitel 1 und 2 allgemein entwickelt haben: die Ernsthaftigkeit und die Warte-/Probezeit als Ausprägungen des Fremdvergleichs, der Erdienenszeitraum als Folge des Rückwirkungsverbots beim beherrschenden Gesellschafter, die Angemessenheit als Frage der Gesamtausstattung, die Unverfallbarkeit als vGA der Höhe nach, die Finanzierbarkeit als Maßstab des ordentlichen Geschäftsleiters – und die Rückdeckungsversicherung als Fall der fehlenden Vorteilsgeneigtheit. Das Kapitel 6 ist damit weniger ein neues Thema als die **Probe** auf alles Vorangegangene." },
     ],
   },
 ];

@@ -10620,6 +10620,50 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 6.2.5 bis 6.3 – das Skript ist vollständig
+
+Quelle: dieselbe Datei, Seiten 85 bis 87 (Schluss); übernommen als Kapitel 56 und 57. Prüfung:
+`npm run check:k2-kst-teil4` (57 Kapitel, 952 Blöcke, 89 Tabellen). **Damit ist das Lehrgangsskript
+„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3 Satz 2 KStG“
+(Hamacher, 21. Auflage, Stand 07/2025) über alle 87 Seiten und alle sechs Kapitel vollständig
+übernommen.**
+
+**Ein durchgehendes Muster ist als eigene Feststellung herausgearbeitet:** Alle drei Konstellationen
+des Abschnitts 6.2.5 folgen derselben Regel – wo die Bilanz korrigiert wird, verdrängt das die vGA,
+aber nur vorläufig; sie kehrt im Zeitpunkt der Auszahlung zurück, weil der Aufwand dann durch keine
+Rückstellung mehr gedeckt ist. Wo die Bilanz nicht korrigiert wird, entsteht die vGA sofort und
+laufend. Dasselbe Muster hatten bereits Abschnitt 6.1 (Prüfungsreihenfolge) und Abschnitt 4.1.3
+(Passivposten) beschrieben.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die doppelte Rolle der fiktiven Jahresnettoprämie
+und der Zirkelschluss, den ihre Nichtberücksichtigung bei den Aktivbezügen verhindert; die Rechnung
+hinter der Überversorgung von 100 % bei der Nur-Pension (ohne laufende Bezüge ist die Bezugsgröße
+null); die Strenge der fiktiven Überschuldungsprüfung, die mit dem Anwartschaftsbarwert und nicht mit
+dem Teilwert nach § 6a EStG rechnet; der Hinweis, dass die Ausnahme bei der Finanzierbarkeit nicht an
+die Krise, sondern an das Unterlassen der vertraglich vorgesehenen Anpassung anknüpft; und die
+Einordnung der Rückdeckungsversicherung als Anwendung der Vorteilsgeneigtheit aus Abschnitt 1.7,
+derselben Begründung, mit der dort die Schuldzinsen abziehbar blieben.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „Zu der vGA kommt es
+dann erst tatsächlicher Auszahlung“ und „dem Anteilseigner verdeckte Gewinnausschüttung zufließen“.
+
+**Zusammenfassung der Befunde zum gesamten Skript Teil IV.** Über alle Runden hinweg sind folgende
+Stellen wortlautgetreu übernommen und als „so in der Quelle“ gekennzeichnet worden: rund dreißig
+grammatikalische Abweichungen (Kasus-, Numerus- und Tippfehler) sowie inhaltlich bedeutsamer: ein
+Widerspruch bei der Jahresangabe des Abflusses im Beispiel zu 4.2.1; ein Schreibversehen bei der
+Begründung der Rückausnahme in 5.6.1, wo „ein Einkommensschaden“ statt „kein Einkommensschaden“
+steht; eine mehrdeutige Sachverhaltsangabe im Beispiel zu 5.6.2.1; drei fehlerhafte oder mehrdeutige
+Querverweise („1.4.2.1“ in Abschnitt 3.2.3, „4.4.4“ in Abschnitt 4.2.5.2 und „5.6“ bei doppelt
+vergebener Gliederungsnummer); eine abweichende Fundstellenangabe (§ 6 Abs. 1 Nr. 5a statt Nr. 5 EStG
+im Beispiel zu 5.6.1); und eine Doppelung desselben Gedankens im Abschnitt 4.3. Eigene Rechnungen
+sind an vier Stellen ergänzt worden, an denen die Quelle Zwischen- oder Endergebnisse nicht
+ausgerechnet hat, jeweils ausdrücklich als solche gekennzeichnet. Bei der Festsetzungsfrist im
+Beispiel zu 4.3 weicht die eigene Nachrechnung von der Quelle ab; die Abweichung ist im Datensatz
+begründet.
+
+**Noch offen aus der Reihe:** die Skriptteile V (Verluste und Zinsschranke), VI (Organschaft) und VII
+(Liquidation).
+
 ### KSt Teil IV (Hamacher), Abschnitte 6.1 bis 6.2.4 – Pensionszusage als verdeckte Gewinnausschüttung
 
 Quelle: dieselbe Datei, Seiten 81 bis 84; übernommen als Kapitel 54 und 55. Prüfung:
