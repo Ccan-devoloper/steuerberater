@@ -10620,6 +10620,68 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 1.1 bis 1.5.1 – neuer Bestand, verdeckte Gewinnausschüttung
+
+Quelle: Google Drive, „B-S25-KSt Teil IV-vGA (2025)-Hamacher-0725.pdf“ (Drive-ID
+`1y1hFk9VRTqix7lp5Tpi3JEgFcaTObZeX`), das Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte
+Gewinnausschüttung i. S. des § 8 Abs. 3 Satz 2 KStG“** von Frank Hamacher, 21. Auflage, Stand Juli
+2025, 87 Seiten. Neu angelegt als `src/data/k2-kst-teil4-hamacher.js` mit dem Prüfskript
+`npm run check:k2-kst-teil4` (4 Kapitel, 50 Blöcke, 5 Tabellen) und dem Campus-Reiter „Teil IV
+(vGA)“. Der Text ist binär geladen und mit pypdf extrahiert worden.
+
+**Personenbezogenes Wasserzeichen entfernt:** Das Quell-PDF trägt auf allen 87 Seiten die Zeile
+„Persönliches PDF für …“; sie ist vor der Übernahme aus dem Extrakt entfernt worden und steht in
+keinem Datensatz.
+
+**Der praktische Einstieg** in jeden Fall ist im Datensatz als eigene Ergänzung hervorgehoben, weil
+er sich in zwei Sätzen beantworten lässt, wo die Prüfung der Tatbestandsmerkmale eine halbe Seite
+braucht: **Wer erzielt den Vermögensvorteil?** Liegt er bei der Gesellschaft, ist es eine verdeckte
+Einlage; liegt er beim Gesellschafter, eine verdeckte Gewinnausschüttung. Die Richtung entscheidet
+zugleich, welches der beiden Korrespondenzprinzipien greift.
+
+**Die ausschließlich außerbilanzielle Korrektur** ist als der wichtigste technische Grundsatz des
+Skripts vermerkt: Die Steuerbilanz bleibt unverändert, der überhöhte Aufwand bleibt gebucht, und
+erst bei der Einkommensermittlung wird hinzugerechnet. Nur in den Sonderfällen des Abschnitts 1.5.2
+tritt eine bilanzielle Anpassung hinzu – dann aber, weil der Bilanzansatz selbst unzutreffend ist,
+nicht wegen der vGA.
+
+**Das fünfte, ungeschriebene Tatbestandsmerkmal** ist tabellarisch von den vier Merkmalen der
+Richtlinien abgesetzt. Die **Vorteilsgeneigtheit** hat der BFH ergänzt, weil § 8 Abs. 3 Satz 2 KStG
+nur dort korrigieren soll, wo dem Nachteil der Gesellschaft ein möglicher Vorteil beim
+Gesellschafter gegenübersteht.
+
+**Die beiden Fallgruppen** sind mit ihren unterschiedlichen **Bewertungsmaßstäben**
+gegenübergestellt – die Quelle verweist dafür eigens auf zwei verschiedene Abschnitte des Kapitels 3.
+Der Datensatz hält als eigene Ergänzung fest, was daraus praktisch folgt: Verschenkt die Gesellschaft
+ein Wirtschaftsgut, wird ihr der volle **gemeine Wert** zugerechnet, also einschließlich des
+Gewinnaufschlags, und nicht etwa nur ihr Selbstkostenpreis.
+
+**Der überraschendste Gedanke des Abschnitts 1.4** ist eigens eingeordnet: Eine vGA kann auch in
+einer für die Gesellschaft **günstigen** Vereinbarung liegen, wenn kein fremder Dritter ihr
+zugestimmt hätte. Der Fremdvergleich ist also in beide Richtungen zu führen – wenn ein angestellter
+Fremder niemals auf sein laufendes Gehalt verzichtet hätte, beruht die Vereinbarung nicht auf dem
+Anstellungs-, sondern auf dem Gesellschaftsverhältnis. Entscheidend ist der Veranlassungszusammenhang,
+nicht die wirtschaftliche Vorteilhaftigkeit.
+
+**Beide Beispiele des Abschnitts 1.5.1 sind nachgerechnet und gehen auf:** gebuchter Gewinn
+100.000 € ./. 50.000 € = 50.000 €, angemessener Gewinn 400.000 € ./. 50.000 € = 350.000 €, vGA
+400.000 € ./. 100.000 € = 300.000 €, Einkommen 50.000 € + 300.000 € = 350.000 €; sowie
+(10.000 € ./. 5.000 €) × 12 = 60.000 €. Der Datensatz stellt die Gegenüberstellung von tatsächlichem
+und angemessenem Verlauf in einer Tabelle dar, die die Quelle nicht bildet, und leitet daraus die
+**Kontrollrechnung** ab: Das Einkommen nach der Hinzurechnung muss genau dem entsprechen, was die
+Gesellschaft bei angemessenen Konditionen versteuert hätte.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „wird bei der Kapitalgesellschaft das Einkommen ermittelt, **welche** sich auch bei angemessenen …
+  Rahmenbedingungen ergeben hätte“.
+- „für eine vom Anteilseigner oder dessen **nach stehende** Person erhaltene Leistung“.
+- „wenn ein Rechtsverhältnis zu beurteilen ist, **dass** ebenso im Verhältnis zwischen der
+  Gesellschaft und einem Nichtgesellschafter bestehen könnte“.
+
+**Noch offen:** aus Teil IV die Sonderfälle der Gewinnauswirkung (1.5.2) und die übrigen Abschnitte
+des Kapitels 1 sowie die Kapitel 2 bis 6; ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil III (Hamacher), Abschnitt 3.4 – Teil III ist vollständig
 
 Quelle: dieselbe Datei, Seiten 33 bis 39 (Schluss des Dokuments); übernommen als Kapitel 20 und 21.

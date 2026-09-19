@@ -2901,6 +2901,36 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Anschaffungskosten erhält und damit auf genau den angemessenen Wert kommt. **Damit ist das Skript
   vollständig übernommen – alle drei Kapitel über 39 Seiten.**
   Prüfung: `npm run check:k2-kst-teil3`
+- **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
+  Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 4 Kapitel mit 50
+  Abschnitten und 5 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
+  weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
+  gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
+  einzige Frage: **Wer erzielt den Vermögensvorteil?** Liegt er bei der Gesellschaft, ist es eine
+  verdeckte Einlage; liegt er beim Gesellschafter oder einer nahe stehenden Person, eine verdeckte
+  Gewinnausschüttung. Die Richtung des Vorteils entscheidet damit zugleich, welches der beiden
+  Korrespondenzprinzipien greift. Technisch am wichtigsten: Die Korrektur erfolgt **ausschließlich
+  außerhalb der Steuerbilanz** – diese bleibt unverändert, der überhöhte Aufwand bleibt gebucht, der
+  zu niedrige Ertrag bleibt zu niedrig, und erst bei der Einkommensermittlung wird hinzugerechnet.
+  Geprüft werden **fünf** Tatbestandsmerkmale, von denen vier aus R 8.5 Abs. 1 KStR stammen und das
+  fünfte – die **Vorteilsgeneigtheit** – ungeschrieben vom BFH ergänzt wurde: Die Gewinnminderung
+  muss überhaupt geeignet sein, beim Gesellschafter Einnahmen nach § 20 Abs. 1 Nr. 1 EStG
+  auszulösen. Die beiden **Fallgruppen** unterscheiden sich nach der Richtung der Leistung, und
+  daran hängt der Bewertungsmaßstab: Bei der **verhinderten Vermögensmehrung** (die Gesellschaft
+  bekommt zu wenig) ist der **gemeine Wert** anzusetzen, also einschließlich des Gewinnaufschlags,
+  den ein fremder Dritter gezahlt hätte; bei der **Vermögensminderung** (die Gesellschaft zahlt zu
+  viel) die Differenz zum angemessenen Entgelt. Beim **Fremdvergleich** ist der ordentliche und
+  gewissenhafte Geschäftsleiter der Maßstab – und zwar in **beide** Richtungen: Eine vGA kann auch in
+  einer für die Gesellschaft **günstigen** Vereinbarung liegen, wenn kein fremder Dritter ihr
+  zugestimmt hätte, wie im BFH-Fall der Nur-Pension oder beim Verzicht auf laufendes Gehalt.
+  Entscheidend ist der Veranlassungszusammenhang, nicht die wirtschaftliche Vorteilhaftigkeit.
+  Hinzugerechnet werden kann schließlich nur, was das Ergebnis der **Stufe 1** (§ 4 Abs. 1 Satz 1
+  EStG) tatsächlich beeinflusst hat: Die Vorschrift stellt nicht den angemessenen Zustand her,
+  sondern beseitigt nur eine eingetretene Gewinnminderung – was zugleich die Kontrollrechnung
+  liefert, mit der sich jede Lösung prüfen lässt.
+  Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
