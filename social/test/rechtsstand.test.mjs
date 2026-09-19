@@ -440,6 +440,18 @@ test("§352-GuE-Einspruch nennt Belehrung und Übergangs-Altfälle", () => {
   assert.match(kern(t), /vor dem 1\.1\.2026/);
 });
 
+test("§14c-Quiz und Karte kennen die Endverbraucher-Ausnahme", () => {
+  const quiz = byId("ust-quiz-ust-5");
+  assert.match(kern(quiz), /nicht steuerpflichtigen Endverbraucher/);
+  assert.match(kern(quiz), /BFH V R 46\/25/);
+  assert.doesNotMatch(kern(quiz), /Er schuldet auch den Mehrbetrag nach § 14c Abs\. 1 UStG, kann die Rechnung aber berichtigen/);
+
+  const karte = byId("ust-karte-ust-14");
+  assert.match(kern(karte), /nicht steuerpflichtigen Endverbraucher/);
+  assert.match(kern(karte), /BFH V R 46\/25/);
+  assert.doesNotMatch(kern(karte), /Abs\. 1 unrichtiger \(zu hoher\) Ausweis: Mehrbetrag wird geschuldet, Berichtigung möglich/);
+});
+
 test("§14c bildet BFH-Rechtsprechungsänderung und engen Endverbraucherbegriff ab", () => {
   const t = byId("ust-modul-ust-209");
   assert.match(kern(t), /BFH V R 46\/25/);
