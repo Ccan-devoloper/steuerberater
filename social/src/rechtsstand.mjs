@@ -261,6 +261,23 @@ function korrigiereRueckstellungskatalog(thema) {
   normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
+function korrigiereIgLieferungQuiz(thema) {
+  normErgaenzen(thema, "§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1, 3 UStG");
+  thema.kern = {
+    ...thema.kern,
+    frage: "Ein Unternehmer befördert oder versendet Ware aus Deutschland in einen anderen EU-Mitgliedstaat an einen dort umsatzsteuerlich erfassten Unternehmer. Der Abnehmer erwirbt für sein Unternehmen, der Erwerb unterliegt dort der Erwerbsbesteuerung und er verwendet eine gültige USt-IdNr. des anderen Mitgliedstaats. Wie ist die Lieferung bei erfüllten Nachweispflichten zu behandeln?",
+    erklaerung: "Die gültige USt-IdNr. ist nur eine von mehreren materiellen Voraussetzungen. Zusätzlich verlangt § 6a Abs. 1 UStG insbesondere die Warenbewegung in das übrige Gemeinschaftsgebiet, einen begünstigten Abnehmer und die Erwerbsbesteuerung im anderen Mitgliedstaat; die Voraussetzungen sind nach § 6a Abs. 3 nachzuweisen. Für die Steuerbefreiung ist außerdem § 4 Nr. 1 Buchst. b UStG einschließlich der Vorgaben zur Zusammenfassenden Meldung zu beachten.",
+  };
+}
+
+function korrigiereUstSteuersaetzeKarte(thema) {
+  normErgaenzen(thema, "§ 12 Abs. 3 UStG");
+  thema.kern = {
+    ...thema.kern,
+    antwort: "§ 12 UStG kennt den Regelsteuersatz von 19 %, ermäßigte Steuersätze von 7 % für die gesetzlich begünstigten Umsätze und den Nullsteuersatz von 0 % nach § 12 Abs. 3 UStG für die dort begünstigten Photovoltaikumsätze. Der konkrete Steuersatz ist stets über den jeweiligen Tatbestand zu begründen; aus Bruttobeträgen mit 19 % bzw. 7 % wird bei Bedarf mit 19/119 bzw. 7/107 herausgerechnet.",
+  };
+}
+
 function korrigiereBilanzaenderung(thema) {
   thema.kern = {
     ...thema.kern,
@@ -386,6 +403,8 @@ export function socialKorrekturenAnwenden(pool) {
     if (thema.typ === "karteikarte" && /Begründet ein Mietverhältnis wirtschaftliches Eigentum/i.test(thema.titel || "")) korrigiereMiete(thema);
     if (thema.typ === "karteikarte" && /Wie unterscheidet sich die Rückstellungsbewertung in HB und StB/i.test(thema.titel || "")) korrigiereRueckstellungsbewertung(thema);
     if (thema.typ === "karteikarte" && /Bilanzberichtigung oder Bilanzänderung/i.test(thema.titel || "")) korrigiereBilanzaenderung(thema);
+    if (thema.typ === "quiz" && /Eine innergemeinschaftliche Lieferung an einen Unternehmer mit USt-IdNr/i.test(thema.titel || "")) korrigiereIgLieferungQuiz(thema);
+    if (thema.typ === "karteikarte" && /^Steuersätze \(§ 12 UStG\)$/i.test(thema.titel || "")) korrigiereUstSteuersaetzeKarte(thema);
     if (/Realteilung (?:oder|und) Sachwertabfindung/i.test(thema.titel || "")) korrigiereRealteilung(thema);
     if (thema.typ === "karteikarte" && /Wie wird § 8b KStG technisch umgesetzt/i.test(thema.titel || "")) korrigiereAchtBTechnik(thema);
     if (/Vereinsbesteuerung/i.test(thema.titel || "") && thema.id !== "kst-modul-kst-12") korrigiereVerein(thema);
