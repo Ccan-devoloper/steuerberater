@@ -71,6 +71,15 @@ test("wirtschaftliches Eigentum bei Miete ist nicht absolut ausgeschlossen", () 
 
 
 
+
+test("Familienheim behandelt Pflegeheim und Sechs-Monats-Frist nicht absolut", () => {
+  const t = byId("erbst-modul-erbst-512");
+  assert.match(kern(t), /objektiv unmöglich oder unzumutbar/);
+  assert.match(kern(t), /Pflegebedürftigkeit.*selbständige Haushaltsführung/);
+  assert.match(kern(t), /Sechs-Monats.*keine starre/);
+  assert.doesNotMatch(kern(t), /Heimunterbringung oder Tod.*zwingenden Grund/i);
+});
+
 test("ErbSt-Schuldenabzug trennt §10 Abs.6 und 6a seit 2025", () => {
   const t = byId("erbst-modul-erbst-515");
   assert.match(kern(t), /Abs\. 6 = beschränkte Steuerpflicht/);
