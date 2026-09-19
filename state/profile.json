@@ -5,20 +5,35 @@
     "letzteAusgabeTokens": [
       1751
     ],
-    "aufrufeGesamt": 3,
+    "aufrufeGesamt": 4,
     "erfolgreicheAufrufe": 1,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
-    "sonstigeFehler": 2,
+    "sonstigeFehler": 3,
     "aktuellesCeiling": 16000,
     "ceilingGesetztAm": "2026-09-19T05:44:04.386Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-19T06:43:45.419Z"
+    "zuletzt": "2026-09-19T07:43:35.832Z"
   },
   "stories:d821e2741580": {
     "profilId": "stories:d821e2741580",
     "familie": "stories / claude-sonnet-5 / low / a7cb5c",
+    "letzteAusgabeTokens": [],
+    "aufrufeGesamt": 3,
+    "erfolgreicheAufrufe": 0,
+    "abschnitte": 0,
+    "schemaFehler": 0,
+    "anbieterFehler": 0,
+    "sonstigeFehler": 3,
+    "aktuellesCeiling": 16000,
+    "ceilingGesetztAm": "2026-09-19T05:44:04.574Z",
+    "unkalibriert": true,
+    "zuletzt": "2026-09-19T07:43:35.969Z"
+  },
+  "autor:3ea1fcc7436e": {
+    "profilId": "autor:3ea1fcc7436e",
+    "familie": "autor / claude-sonnet-5 / medium / 457eb0",
     "letzteAusgabeTokens": [],
     "aufrufeGesamt": 2,
     "erfolgreicheAufrufe": 0,
@@ -27,23 +42,8 @@
     "anbieterFehler": 0,
     "sonstigeFehler": 2,
     "aktuellesCeiling": 16000,
-    "ceilingGesetztAm": "2026-09-19T05:44:04.574Z",
-    "unkalibriert": true,
-    "zuletzt": "2026-09-19T06:43:45.574Z"
-  },
-  "autor:3ea1fcc7436e": {
-    "profilId": "autor:3ea1fcc7436e",
-    "familie": "autor / claude-sonnet-5 / medium / 457eb0",
-    "letzteAusgabeTokens": [],
-    "aufrufeGesamt": 1,
-    "erfolgreicheAufrufe": 0,
-    "abschnitte": 0,
-    "schemaFehler": 0,
-    "anbieterFehler": 0,
-    "sonstigeFehler": 1,
-    "aktuellesCeiling": 16000,
     "ceilingGesetztAm": "2026-09-19T06:43:45.704Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-19T06:43:45.704Z"
+    "zuletzt": "2026-09-19T07:43:36.102Z"
   }
 }

@@ -14,7 +14,7 @@
       "fach": "ao",
       "status": "geplant",
       "budgetBlockiert": {
-        "seit": "2026-09-19T06:43:45.704Z",
+        "seit": "2026-09-19T07:43:36.102Z",
         "grund": "autor: 0.2681 $ im Topf „core“ nicht mehr zulässig (frei 0.2395 $ von 0.3000 $) - der Aufruf startet nicht.",
         "topf": "core",
         "art": "AdmissionAbgelehnt"
