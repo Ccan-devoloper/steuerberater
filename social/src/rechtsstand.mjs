@@ -914,6 +914,68 @@ function korrigiereHaftung71(thema) {
   };
 }
 
+function korrigiereGuEBekanntgabe(thema) {
+  normErgaenzen(thema, "§ 14a Abs. 2–4 AO", "§ 183 AO", "§ 183a AO", "Art. 97 § 39 Abs. 3 EGAO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Seit der MoPeG-Anpassung unterscheidet die AO rechtsfähige und nicht rechtsfähige Personenvereinigungen nach § 14a AO. Die dort genannten Fälle sind Regelbeispiele; rechtsfähige Personengesellschaften stehen insbesondere in § 14a Abs. 2 Nr. 2, Erbengemeinschaften in Abs. 3 Nr. 3 und auf nicht rechtsfähige Gesellschaften ist Abs. 4 zu beachten.",
+      "Bei rechtsfähigen Personenvereinigungen ist § 183 AO der Regelweg: Bekanntgabe an die Personenvereinigung in Vertretung der Feststellungsbeteiligten mit dem Hinweis auf die Wirkung für und gegen alle Beteiligten. Bei nicht rechtsfähigen Personenvereinigungen gilt § 183a AO mit dem gemeinsamen beziehungsweise von der Finanzbehörde bestimmten Empfangsbevollmächtigten.",
+      "Rechtsstand 2026 für neu bekanntzugebende Verwaltungsakte: Die Übergangsoption des Art. 97 § 39 Abs. 3 EGAO ist ausgelaufen. Bis einschließlich 2025 konnten Verwaltungsakte an rechtsfähige Personenvereinigungen unter den Voraussetzungen dieser Übergangsregel noch nach § 183 AO a. F. an einen Empfangsbevollmächtigten bekanntgegeben werden.",
+    ],
+    lernziele: [
+      "rechtsfähige und nicht rechtsfähige Personenvereinigungen nach § 14a AO typisieren",
+      "bei rechtsfähigen Personenvereinigungen § 183 AO und bei nicht rechtsfähigen § 183a AO anwenden",
+      "Wirkungshinweis und Ausnahmen von der Sammelbekanntgabe prüfen",
+      "bei ausgeschiedenen Beteiligten § 183 Abs. 2 S. 1 Nr. 2 und die Fortwirkungsmöglichkeit des Satzes 2 getrennt lesen",
+      "den Ablauf der Übergangsregel des Art. 97 § 39 Abs. 3 EGAO zum 1.1.2026 erkennen",
+    ],
+    pruefschritte: [
+      "Personenvereinigung nach § 14a AO als rechtsfähig oder nicht rechtsfähig einordnen.",
+      "Rechtsfähige Personenvereinigung: grundsätzlich Bekanntgabe nach § 183 Abs. 1 AO an die Personenvereinigung; Hinweis auf Wirkung für und gegen alle Feststellungsbeteiligten aufnehmen.",
+      "Nicht rechtsfähige Personenvereinigung: § 183a AO und den gemeinsamen beziehungsweise von der Finanzbehörde bestimmten Empfangsbevollmächtigten prüfen.",
+      "Ausnahmen nach § 183 Abs. 2 beziehungsweise § 183a Abs. 2 prüfen, insbesondere Vollbeendigung, Statuswechsel, Ausscheiden und ernstliche Meinungsverschiedenheiten.",
+      "Bei einem ausgeschiedenen Beteiligten ist § 183 Abs. 1 nach § 183 Abs. 2 S. 1 Nr. 2 grundsätzlich nicht anwendbar; nach Satz 2 kann die Bekanntgabe an die Personenvereinigung dennoch auch für ihn wirken, solange er nicht widersprochen hat.",
+      "Für Bekanntgaben ab 1.1.2026 die ausgelaufene Übergangsoption des Art. 97 § 39 Abs. 3 EGAO nicht mehr anwenden; Alt- und Insolvenzfälle nach den besonderen Übergangsregeln gesondert prüfen.",
+    ],
+    merksatz: "GuE 2026: rechtsfähige PersV grundsätzlich § 183, nicht rechtsfähige § 183a. Die Übergangs-Bekanntgabe nach altem § 183 für rechtsfähige PersV endete für neue Bekanntgaben mit Ablauf 2025.",
+  };
+  rechtsstandswechsel(thema, {
+    abJahr: 2026,
+    vorherJahr: 2025,
+    norm: "Art. 97 § 39 Abs. 3 EGAO i. V. m. § 183 AO",
+    aktuell: "Für ab 1.1.2026 neu bekanntzugebende Verwaltungsakte einer rechtsfähigen Personenvereinigung steht die bis Ende 2025 befristete alternative Bekanntgabe nach § 183 AO a. F. nicht mehr zur Verfügung; maßgeblich ist grundsätzlich § 183 AO n. F.",
+    vorher: "Bis vor den 1.1.2026 konnten Verwaltungsakte und Mitteilungen einer rechtsfähigen Personenvereinigung nach Art. 97 § 39 Abs. 3 EGAO alternativ noch nach § 183 AO a. F. an den Empfangsbevollmächtigten wirksam bekanntgegeben werden.",
+  });
+}
+
+function korrigiereGuEEinspruch(thema) {
+  normErgaenzen(thema, "§ 352 Abs. 1 und 2 AO", "Art. 97 § 39 Abs. 4 EGAO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 352 AO ist die besondere Einspruchsbefugnis bei gesonderten und einheitlichen Feststellungen. Bei einer bestehenden rechtsfähigen Personenvereinigung ist grundsätzlich die Personenvereinigung selbst einspruchsbefugt; ihr gesetzlicher Vertreter handelt nur für sie, nicht kraft eines eigenen Einspruchsrechts.",
+      "Bei nicht rechtsfähigen Personenvereinigungen ist grundsätzlich der gemeinsame beziehungsweise nach § 183a bestimmte Empfangsbevollmächtigte nach Maßgabe des § 352 Abs. 2 AO einspruchsbefugt. Die Rechtsfolge der Sätze 1 und 2 des Absatzes 2 setzt die dort vorgesehene Belehrung über die Einspruchsbefugnis voraus.",
+      "Sonderbefugnisse nach § 352 Abs. 1 Nr. 3 bis 5 bleiben gesondert zu prüfen. Für bestimmte Altbescheide und für rechtsfähige Personenvereinigungen, deren Bescheid bis Ende 2025 noch nach der Übergangsregel des Art. 97 § 39 Abs. 3 EGAO bekanntgegeben wurde, ordnet Art. 97 § 39 Abs. 4 EGAO weiterhin die alte Fassung des § 352 an.",
+    ],
+    lernziele: [
+      "rechtsfähige Personenvereinigung selbst als Einspruchsbefugte nach § 352 Abs. 1 Nr. 1 AO erkennen",
+      "Vertreterhandeln nicht mit einem eigenen Einspruchsrecht des Vertreters verwechseln",
+      "bei nicht rechtsfähigen Personenvereinigungen § 352 Abs. 1 Nr. 2 und Abs. 2 einschließlich Belehrungsvoraussetzung prüfen",
+      "Sonderbefugnisse der Nummern 3 bis 5 fallbezogen anwenden",
+      "Alt- und Übergangsfälle nach Art. 97 § 39 Abs. 4 EGAO erkennen",
+    ],
+    pruefschritte: [
+      "Rechtsfähigkeit der Personenvereinigung bestimmen.",
+      "Bestehende rechtsfähige Personenvereinigung: grundsätzlich Einspruch durch die Personenvereinigung nach § 352 Abs. 1 Nr. 1 Buchst. a AO, vertreten durch ihren gesetzlichen Vertreter.",
+      "Nicht rechtsfähige Personenvereinigung: § 352 Abs. 1 Nr. 2 und Abs. 2 AO prüfen; bei Empfangsbevollmächtigten die Belehrungsvoraussetzung des § 352 Abs. 2 S. 3 AO beachten.",
+      "Zusätzliche persönliche Einspruchsbefugnisse nach § 352 Abs. 1 Nr. 3 bis 5 prüfen.",
+      "Bei vor dem 1.1.2024 wirksam gewordenen Bescheiden sowie den in Art. 97 § 39 Abs. 4 S. 2 EGAO genannten Übergangs-Bekanntgaben vor dem 1.1.2026 die alte Fassung des § 352 AO anwenden.",
+    ],
+    merksatz: "§ 352: Bei der bestehenden rechtsfähigen PersV legt die PersV den Einspruch ein; ihr Geschäftsführer handelt nur als Vertreter. Bei nicht rechtsfähigen PersV die besondere Empfangsbevollmächtigten- und Belehrungsregel des Absatzes 2 prüfen. Altfälle können über Art. 97 § 39 Abs. 4 EGAO weiter altem § 352 folgen.",
+  };
+}
+
 function kennzeichneGastronomie(thema) {
   rechtsstandswechsel(thema, {
     abJahr: 2026,
@@ -942,6 +1004,8 @@ export function socialKorrekturenAnwenden(pool) {
       case "ao-modul-ao-363": korrigiereAo177(thema); break;
       case "ao-modul-ao-371": korrigiereWiedereinsetzung(thema); break;
       case "ao-modul-ao-373": korrigiereWiedereinsetzung(thema); break;
+      case "ao-modul-ao-375": korrigiereGuEBekanntgabe(thema); break;
+      case "ao-modul-ao-376": korrigiereGuEEinspruch(thema); break;
       case "ao-modul-ao-388": korrigiereSelbstanzeige371(thema); break;
       case "ao-modul-ao-390": korrigiereHaftung69(thema); break;
       case "ao-modul-ao-392": korrigiereHaftung71(thema); break;
