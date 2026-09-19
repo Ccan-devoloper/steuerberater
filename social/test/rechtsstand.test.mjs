@@ -59,6 +59,20 @@ test("wirtschaftliches Eigentum bei Miete ist nicht absolut ausgeschlossen", () 
   assert.doesNotMatch(kern(t), /Nein, niemals/);
 });
 
+
+test("KSt-Quiz erklärt §8b-Erwerbsfiktion und Vereinsgrenze", () => {
+  const streubesitz = byTitle(/Welche Beteiligungsquote ist für die Streubesitzdividende/i);
+  assert.match(kern(streubesitz), /§ 8b Abs\. 4 S\. 6 KStG/);
+  assert.match(kern(streubesitz), /mindestens 10 %/);
+
+  const verein = byTitle(/Welcher Vereinsbereich.*steuerpflichtig/i);
+  assert.match(kern(verein), /§ 64 Abs\. 3 AO/);
+  assert.match(kern(verein), /50\.000/);
+  const auftrag = rechtsstandAuftrag(verein, new Date("2026-09-19T12:00:00Z"));
+  assert.match(auftrag, /45\.000/);
+  assert.match(auftrag, /50\.000/);
+});
+
 test("Vereinsbesteuerung prüft § 64 Abs. 3 AO vor § 24 KStG", () => {
   const t = byId("kst-modul-kst-12");
   assert.match(kern(t), /§ 64 Abs\. 3 AO/);
