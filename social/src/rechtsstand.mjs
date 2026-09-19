@@ -216,7 +216,8 @@ function korrigiereAchtB(thema) {
   if (!pruefschritte.some((x) => /Abs\. 4 S\. 6|Erwerb.*mindestens 10/i.test(x))) {
     pruefschritte.splice(stichtag >= 0 ? stichtag + 1 : 2, 0, "Unterjährigen Erwerb einer Beteiligung von mindestens 10 % nach § 8b Abs. 4 S. 6 KStG als Erwerb zu Jahresbeginn behandeln.");
   }
-  thema.kern = { ...thema.kern, einordnung, pruefschritte };
+  const merksatz = "Bei Dividenden zuerst § 8b Abs. 4 KStG prüfen: Nur wenn die Freistellung nach § 8b Abs. 1 greift, wird der Ertrag abgezogen und die 5-%-Pauschale nach Abs. 5 hinzugerechnet. Veräußerungsgewinne nach § 8b Abs. 2 haben keine 10-%-Mindestquote; im Grundfall greift dort die 5-%-Pauschale des Abs. 3.";
+  thema.kern = { ...thema.kern, einordnung, pruefschritte, merksatz };
 }
 
 function korrigiereElektroPkw(thema) {
