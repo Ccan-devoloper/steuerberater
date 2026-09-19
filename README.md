@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 21 Kapitel mit 315
-  Abschnitten und 26 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 23 Kapitel mit 341
+  Abschnitten und 29 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3094,6 +3094,31 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gesellschafter neben das Arbeitsverhältnis **immer** auch das Gesellschaftsverhältnis tritt. Bei der
   Aktiengesellschaft läuft das Verbot dagegen leer, solange kein Einfluss auf den Aufsichtsrat
   feststellbar ist.
+  Mit der **tatsächlichen Durchführung** schließt sich der Kreis des formellen Vergleichs: Die drei
+  vorangegangenen Abschnitte prüfen den Vertrag auf dem **Papier**, erst dieser fragt, ob er auch
+  **gelebt** wird. Zahlt die Gesellschaft das Gehalt unregelmäßig oder nicht zu den vorgesehenen
+  Zeitpunkten, liegt schon darin ein Verstoß – auch dann, wenn Lohnsteuer und Sozialversicherungs-
+  abgaben ordnungsgemäß geleistet werden, weil gerade die tatsächliche Auszahlung das aussagekräftige
+  Indiz ist. Umgekehrt schadet ein wegen unrichtiger Bewertung **zu niedriger** Lohnsteuerabzug nicht.
+  Ein **Liquiditätsengpass** hilft nur über eine doppelte Hürde hinweg: Er muss nachgewiesen sein
+  **und** es muss eine dem Fremdvergleich standhaltende Stundungsvereinbarung vorliegen – beschäftigt
+  die Gesellschaft weitere Arbeitnehmer, nur dann, wenn sich auch diese auf Gehaltsstundungen
+  eingelassen haben. Bemerkenswert ist, dass der Vergleich mit der Belegschaft hier erstmals
+  **zugunsten** des Gesellschafters wirkt, während er beim Rückwirkungsverbot gerade nicht half. Die
+  **Schuldnovation**, also die Umwandlung der Gehalts- in eine Darlehensforderung, ist zivilrechtlich
+  möglich, steuerlich aber nur bei einer **besonderen schriftlichen** Vereinbarung – der typische
+  Rettungsversuch nach einer Betriebsprüfung scheitert deshalb fast immer an der Form. Bei
+  **Tantiemen** gilt eine der wenigen festen Fristenstaffeln des Skripts, und sie läuft nicht ab dem
+  Bilanzstichtag, sondern ab der **Fälligkeit**, die mangels abweichender Vereinbarung erst mit
+  Feststellung des Jahresabschlusses eintritt: Auszahlung binnen drei Monaten ist stets unschädlich,
+  drei bis sechs Monate sind Einzelfall (bei einmaligem, nachgewiesenem Engpass wohl unschädlich), und
+  erst die **regelmäßige** Überschreitung von sechs Monaten belegt die fehlende Durchführung. Der
+  strenge formelle Vergleich gilt schließlich auch dann, wenn die vGA einer dem beherrschenden
+  Gesellschafter **nahe stehenden Person** zufließt. Im Beispiel erhält der Sohn als Geschäftsführer
+  eine rückwirkende und ausdrücklich **angemessene** Gehaltserhöhung von 7.000 € auf 10.000 € – wer
+  nur die Angemessenheit prüft, kommt zum falschen Ergebnis, denn 4 × 3.000 € = 12.000 € sind allein
+  wegen des **Formverstoßes** hinzuzurechnen. Die Einschaltung einer nahe stehenden Person ist also
+  kein Ausweg aus dem formellen Vergleich. **Damit ist auch das Kapitel 2 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

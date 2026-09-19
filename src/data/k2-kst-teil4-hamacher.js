@@ -26,9 +26,11 @@
    beim beherrschenden Gesellschafter) sind der Begriff des beherrschenden
    Gesellschafters (2.1) sowie der strenge formelle Vergleich mit den klaren
    und eindeutigen Vereinbarungen (2.2 und 2.2.1), die zivilrechtliche
-   Wirksamkeit (2.2.2) und das Rückwirkungsverbot (2.2.3) übernommen. Es folgen
-   die tatsächliche Durchführung (2.2.4) und die nahe stehenden Personen
-   (2.2.5) sowie die Kapitel 3 bis 6; der Campus weist den Stand aus.
+   Wirksamkeit (2.2.2), das Rückwirkungsverbot (2.2.3), die tatsächliche
+   Durchführung des Vertrags (2.2.4 mit den unregelmäßigen Gehaltszahlungen
+   und den Tantiemenzahlungen) und die Anwendung bei nahe stehenden Personen
+   (2.2.5) übernommen. Damit ist auch das Kapitel 2 der Quelle vollständig.
+   Es folgen die Kapitel 3 bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -962,6 +964,91 @@ export const kstTeil4 = [
       { text: "Anmerkung zum zweiten Beispiel (eigene Ergänzung): Es ist der lehrreichste Fall des Abschnitts, weil **dieselbe Vereinbarung vom selben Tag** für die drei Vergütungsbestandteile zu unterschiedlichen Ergebnissen führt. Das laufende Gehalt ist unproblematisch, weil es monatsweise verdient wird und die Erhöhung erst ab Juli greift. Weihnachtsgeld und Tantieme dagegen werden **für das gesamte Kalenderjahr** gezahlt – sie sind wirtschaftlich schon in den ersten sechs Monaten anteilig entstanden, und insoweit wirkt die Erhöhung zurück. Die Faustregel lautet deshalb: Bei jahresbezogenen Vergütungen führt **jede** unterjährige Erhöhung zu einer anteiligen vGA, gleichgültig wie die Vereinbarung datiert ist. Wer eine Sonderzahlung erhöhen will, muss das vor Beginn des Wirtschaftsjahres tun." },
       { text: "Anmerkung zur Gleichbehandlung mit anderen Arbeitnehmern (eigene Ergänzung): Der Satz, dass ein Verstoß selbst dann vorliegt, wenn **alle** Arbeitnehmer dieselbe rückwirkende Erhöhung erhalten, ist überraschend und schneidet das naheliegendste Gegenargument ab. Die Begründung der Quelle ist dabei nicht die Angemessenheit – die steht ja außer Frage –, sondern der doppelte Veranlassungszusammenhang: Beim beherrschenden Gesellschafter tritt neben das Arbeitsverhältnis **immer** auch das Gesellschaftsverhältnis. Genau deshalb hilft der Fremdvergleich hier nicht weiter; es bleibt beim formellen Maßstab." },
       { text: "Anmerkung zur Aktiengesellschaft (eigene Ergänzung): Zum dritten Mal in diesem Kapitel entscheidet dieselbe Frage – ob der Mehrheitsaktionär Einfluss auf den Aufsichtsrat hat. Lässt sich das nicht feststellen, scheidet die vGA aus, und zwar **auch bei ausdrücklich rückwirkender** Gehaltsvereinbarung. Das Rückwirkungsverbot ist damit kein Selbstzweck, sondern nur ein Beweisanzeichen für die gesellschaftsrechtliche Veranlassung: Wo diese von vornherein fehlt, läuft es leer." },
+    ],
+  },
+  {
+    id: "kst-t4-22",
+    kapitel: "22",
+    abschnittNr: "2.2.4",
+    title: "2.2.4 Tatsächliche Durchführung – warum die pünktliche Überweisung zum Tatbestandsmerkmal wird",
+    thema: "Vereinbarungen mit dem beherrschenden Gesellschafter müssen auch tatsächlich durchgeführt werden. Unregelmäßige Gehaltszahlungen verstoßen gegen das Durchführungsgebot; bei Tantiemen entscheidet die Frist nach Fälligkeit",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 2.2.4 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "BFH vom 23.01.2008, BStBl. II 2012, 260",
+      "BFH vom 23.04.2009, BStBl. II 2012, 262",
+      "BFH vom 13.11.1996, BFH/NV 1997, 622",
+      "BFH vom 25.07.1991, BStBl. II 1991, 842",
+      "BFH vom 03.02.2011, BStBl. II 2014, 491",
+      "BFH vom 02.05.1974, BStBl. II 1974, 585",
+      "BFH vom 24.01.1990, BStBl. II 1990, 645",
+      "BFH vom 14.02.1984, BStBl. II 1984, 480",
+    ],
+    themen: ["Durchführungsgebot", "Dauerschuldverhältnisse", "Lohnsteuereinbehalt", "Liquiditätsengpass", "Stundungsvereinbarung", "Schuldnovation", "Tantiemenzahlung"],
+    bloecke: [
+      { text: "Im Verhältnis zwischen Kapitalgesellschaft und beherrschendem Gesellschafter müssen die Vereinbarungen auch entsprechend durchgeführt werden. Führen die Vertragspartner die Vereinbarung nicht wie dargelegt aus, so indiziert dies regelmäßig die gesellschaftsrechtliche Veranlassung. Insbesondere bei Dauerschuldverhältnissen (z.B. Darlehens- und Arbeitsverträgen) stellt sich häufig die Frage, ob ein zur Annahme von verdeckter Gewinnausschüttung führender Verstoß gegen das Durchführungsgebot vorliegt." },
+      { text: "Die tatsächliche Durchführung der Gehaltsvereinbarung erfordert auch, dass von den Tätigkeitsvergütungen Lohnsteuer und ggf. Kirchensteuer einbehalten und an das Finanzamt abgeführt wird. Fehlt es hieran, ist dies schon ein Indiz gegen die Ernsthaftigkeit der Vereinbarung. Gleiches gilt auch für Sachbezüge. So muss die private Nutzung des Firmenwagens durch den Gesellschafter-Geschäftsführer spätestens in der Lohnsteueranmeldung für Dezember jeden Jahres angegeben werden. Dies gilt aber nur dann, wenn die Privatnutzung auch vertraglich vereinbart wurde. Ein infolge unrichtiger Bewertung der Tätigkeitsvergütung zu niedriger Lohnsteuerabzug steht der tatsächlichen Durchführung aber nicht entgegen." },
+      { typ: "titel", text: "2.2.4.1 Unregelmäßige Gehaltszahlungen" },
+      { text: "Zahlt die Kapitalgesellschaft das Gehalt ihres beherrschenden Gesellschafters nur unregelmäßig bzw. nicht zu den vorgesehenen Zeitpunkten aus, führt dies nach ständiger BFH-Rechtsprechung bereits zu einem Verstoß gegen das Durchführungsgebot. Dies gilt selbst dann, wenn die Kapitalgesellschaft ansonsten sämtliche mit dem Gehalt zusammenhängenden Abgaben (Lohnsteuer, Sozialversicherungsabgaben) leistet, da die tatsächliche Auszahlung ein aussagekräftiges Indiz für die Vertragsdurchführung ist." },
+      { text: "Ist die verspätete Gehaltszahlung hingegen auf Liquiditätsengpässe der Kapitalgesellschaft zurückzuführen, ist dies – den Nachweis dieser Liquiditätsengpässe vorausgesetzt – nur dann unschädlich, wenn dem eine dem Fremdvergleich standhaltende Stundungsvereinbarung zugrunde liegt. Hieran sind sehr strenge Maßstäbe anzulegen. Ein fremder Arbeitnehmer würde nämlich nur im äußersten Notfall zustimmen und auch nur dann, wenn keine andere Lösung in Betracht kommt. Beschäftigt die Kapitalgesellschaft andere Arbeitnehmer, ist eine Stundungsvereinbarung nur anzuerkennen, wenn sich auch die anderen Arbeitnehmer auf entsprechende Gehaltsstundungen eingelassen haben." },
+      { text: "Häufig wird in diesem Zusammenhang auch vorgebracht, dass die Gehaltsforderung des beherrschenden Gesellschafters in eine Darlehensforderung umgewandelt worden sei. Hierzu ist zu beachten, dass eine Umwandlung einer Gehalts- in eine Darlehensforderung (sog. Schuldnovation) zwar grundsätzlich möglich ist. Sie kann aber unter dem Gesichtspunkt des Fremdvergleichs steuerlich nur dann anerkannt werden, wenn sie Gegenstand einer besonderen schriftlichen Vereinbarung ist." },
+      { typ: "titel", text: "2.2.4.2 Tantiemenzahlungen" },
+      { text: "Bei Tantiemevereinbarungen stellt sich häufig dieselbe Problematik. Der Anspruch auf Auszahlung von Tantiemen ist – vorbehaltlich abweichender Vereinbarungen – mit Feststellung des Jahresabschlusses fällig. Daraus können sich folgende Konsequenzen ergeben:" },
+      { text: "– Erfolgt die Auszahlung innerhalb von drei Monaten nach dieser Fälligkeit ist stets von einer tatsächlichen Durchführung auszugehen;" },
+      { text: "– Bei einer Auszahlung innerhalb eines Zeitraums von drei bis sechs Monaten nach Fälligkeit hängt die Beurteilung vom jeweiligen Einzelfall ab. Bei einmaligen und nachgewiesenen Liquiditätsengpässen dürfte die verspätete Auszahlung wohl als unschädlich zu beurteilen sein." },
+      { text: "– Wird die Tantieme regelmäßig jedoch erst nach Ablauf von sechs Monaten nach ihrer Fälligkeit ausbezahlt, ist von der fehlenden tatsächlichen Durchführung auszugehen." },
+      { text: "Kurzfristige Auszahlungsverzögerungen dürften dagegen unschädlich sein, wenn die Tantieme ordnungsgemäß verbucht und als Gehaltsschuld passiviert wird und dabei auch die Auswirkungen des Lohnsteuerabzugs berücksichtigt wurden." },
+      { typ: "tabelle", spalten: ["Zeitraum nach Fälligkeit", "Beurteilung der Tantiemenzahlung"], zeilen: [
+        ["bis drei Monate", "stets tatsächliche Durchführung"],
+        ["drei bis sechs Monate", "Beurteilung nach dem Einzelfall; bei einmaligem und nachgewiesenem Liquiditätsengpass wohl unschädlich"],
+        ["regelmäßig erst nach mehr als sechs Monaten", "fehlende tatsächliche Durchführung"],
+      ] },
+      { typ: "tabelle", spalten: ["Sachverhalt", "Folge", "Rettung möglich?"], zeilen: [
+        ["Gehalt wird unregelmäßig oder nicht zum vereinbarten Zeitpunkt ausgezahlt", "Verstoß gegen das Durchführungsgebot", "nein – auch nicht durch Abführung von Lohnsteuer und Sozialabgaben"],
+        ["Verspätung beruht auf nachgewiesenem Liquiditätsengpass", "grundsätzlich schädlich", "ja – bei fremdvergleichsfester Stundungsvereinbarung; bei weiteren Arbeitnehmern nur, wenn sich auch diese auf Stundungen eingelassen haben"],
+        ["Gehaltsforderung wird in eine Darlehensforderung umgewandelt (Schuldnovation)", "grundsätzlich möglich", "ja – nur bei besonderer schriftlicher Vereinbarung"],
+        ["Lohnsteuer und ggf. Kirchensteuer werden nicht einbehalten und abgeführt", "Indiz gegen die Ernsthaftigkeit der Vereinbarung", "die Quelle nennt hier keine Heilung"],
+        ["Lohnsteuerabzug ist wegen unrichtiger Bewertung zu niedrig", "steht der tatsächlichen Durchführung nicht entgegen", "kein Mangel"],
+        ["private Firmenwagennutzung wird nicht spätestens in der Lohnsteueranmeldung für Dezember angegeben", "Mangel der Durchführung, aber nur bei vertraglich vereinbarter Privatnutzung", "entfällt, wenn die Privatnutzung gar nicht vereinbart war"],
+      ] },
+      { text: "Anmerkung zur Systematik (eigene Ergänzung): Mit dem Durchführungsgebot schließt sich der Kreis des strengen formellen Vergleichs. Die drei vorangegangenen Abschnitte prüfen den Vertrag auf dem **Papier** – klar und eindeutig (2.2.1), zivilrechtlich wirksam (2.2.2), im Voraus vereinbart (2.2.3). Erst 2.2.4 fragt, ob er auch **gelebt** wird. Das ist die Gegenprobe: Ein perfekt formulierter Anstellungsvertrag nützt nichts, wenn das Gehalt unregelmäßig fließt, weil gerade die tatsächliche Auszahlung zeigt, ob die Beteiligten die Vereinbarung ernst meinen." },
+      { text: "Anmerkung zum Liquiditätsengpass (eigene Ergänzung): Die Quelle stellt hier eine doppelte Hürde auf, die in der Klausur leicht übersehen wird. Es genügt **nicht**, den Engpass nachzuweisen; verlangt wird zusätzlich eine Stundungsvereinbarung, die dem Fremdvergleich standhält. Und für diese gilt ein eigener Maßstab: Beschäftigt die Gesellschaft weitere Arbeitnehmer, muss sich **auch** von diesen jemand auf eine Gehaltsstundung eingelassen haben. Das ist bemerkenswert, weil hier zum ersten Mal in diesem Kapitel der Vergleich mit der übrigen Belegschaft zugunsten des Gesellschafters wirkt – beim Rückwirkungsverbot (2.2.3) half die Gleichbehandlung aller Arbeitnehmer gerade nicht." },
+      { text: "Anmerkung zur Schuldnovation (eigene Ergänzung): Die Umwandlung der Gehalts- in eine Darlehensforderung ist der typische Rettungsversuch nach einer Betriebsprüfung – und sie scheitert fast immer an der Form. Die Quelle lässt sie zivilrechtlich ausdrücklich zu, knüpft die steuerliche Anerkennung aber an eine **besondere schriftliche** Vereinbarung. Wer die Novation erst im Nachhinein behauptet, hat damit regelmäßig verloren; nachträglich lässt sich die Schriftform nicht herstellen, ohne zugleich gegen das Rückwirkungsverbot zu verstoßen." },
+      { text: "Anmerkung zur Drei- und Sechsmonatsgrenze (eigene Ergänzung): Die Tantiemestaffel ist eine der wenigen Stellen des Skripts mit festen Fristen und deshalb gut abprüfbar. Zwei Feinheiten lohnen die Aufmerksamkeit. Erstens läuft die Frist nicht ab dem Bilanzstichtag, sondern ab der **Fälligkeit**, und diese tritt mangels abweichender Vereinbarung erst mit **Feststellung des Jahresabschlusses** ein – eine späte Feststellung verschiebt also die gesamte Staffel nach hinten. Zweitens wird die Sechsmonatsgrenze nur bei **regelmäßiger** Überschreitung schädlich; ein einzelner Ausreißer fällt in den Einzelfallbereich. Die Passivierung als Gehaltsschuld samt Lohnsteuerfolgen ist dabei das Gegenstück zum Lohnsteuereinbehalt beim laufenden Gehalt: Sie belegt, dass die Gesellschaft die Schuld tatsächlich als solche behandelt hat." },
+    ],
+  },
+  {
+    id: "kst-t4-23",
+    kapitel: "23",
+    abschnittNr: "2.2.5",
+    title: "2.2.5 Anwendung bei nahe stehenden Personen – der Sohn als Geschäftsführer",
+    thema: "Der strenge formelle Vergleich gilt auch dann, wenn die vGA nicht dem beherrschenden Gesellschafter selbst, sondern einer ihm nahe stehenden Person zufließt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 2.2.5 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "H 8.5 KStH „Nahe stehende Person – Verhältnis zum beherrschenden Gesellschafter“",
+    ],
+    themen: ["nahe stehende Person", "formeller Fremdvergleich", "Rückwirkungsverbot", "Gehaltserhöhung"],
+    bloecke: [
+      { text: "Der strenge formelle Vergleich gilt auch, wenn die verdeckte Gewinnausschüttung einer dem beherrschenden Gesellschafter nahe stehenden Person zufließt." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH. Geschäftsführer ist dessen Sohn S, welchem am 01.05.2025 eine rückwirkende Gehaltserhöhung auf angemessene 10.000 € monatlich zugesagt wird. Das bisherige Gehalt betrug 7.000 €." },
+      { text: "Lösung: Aufgrund der rückwirkenden Gehaltserhöhung um monatlich 3.000 € kommt es zu einem Verstoß gegen das Rückwirkungsgebot, welches auch bei dem beherrschenden Gesellschafter nahe stehenden Personen zur Anwendung gelangt. Daher sind die um jeweils 3.000 € erhöhten Gehaltszahlungen für die Monate Januar bis April 2025 als verdeckte Gewinnausschüttung anzusehen (= 12.000 €). Das Einkommen 2025 ist nach § 8 Abs. 3 Satz 2 KStG um diesen Betrag zu erhöhen. (Die Quelle schreibt hier „Rückwirkungsgebot“ statt wie sonst „Rückwirkungsverbot“ und formuliert „bei dem beherrschenden Gesellschafter nahe stehenden Personen“ – beides so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Schritt", "Wert"], zeilen: [
+        ["bisheriges Monatsgehalt des S", "7.000 €"],
+        ["neues Monatsgehalt ab der Zusage vom 01.05.2025", "10.000 €"],
+        ["monatlicher Erhöhungsbetrag", "3.000 €"],
+        ["rückwirkend erfasste Monate (Januar bis April 2025)", "4 Monate"],
+        ["verdeckte Gewinnausschüttung", "12.000 €"],
+        ["Einkommenserhöhung 2025 nach § 8 Abs. 3 Satz 2 KStG", "12.000 €"],
+      ] },
+      { text: "Rechenprobe (eigene Ergänzung): 10.000 € ./. 7.000 € = 3.000 € monatlich; 3.000 € × 4 Monate (Januar bis April 2025) = 12.000 €. Der Betrag der Quelle geht auf. Ab Mai 2025 wirkt die Zusage in die Zukunft, so dass die erhöhten Bezüge insoweit angemessene Tätigkeitsvergütung bleiben und keine vGA auslösen." },
+      { text: "Anmerkung zur Zurechnung (eigene Ergänzung): Der Abschnitt ist kurz, aber systematisch wichtig, weil er zwei Stränge des Skripts zusammenführt. Nach Abschnitt 1.9 wird eine Zuwendung an eine nahe stehende Person **dem Gesellschafter** zugerechnet – hier also dem Vater A, obwohl das Geld an den Sohn S fließt. Das Kapitel 2 fügt hinzu, dass dann auch der **strenge formelle Vergleich** gilt, der sonst nur für den beherrschenden Gesellschafter selbst greift. Beides zusammen bedeutet: S wird für die Formfragen behandelt, als wäre er selbst beherrschender Gesellschafter, obwohl er überhaupt nicht beteiligt ist." },
+      { text: "Anmerkung zur Klausurfalle (eigene Ergänzung): Im Beispiel ist die Gehaltserhöhung ausdrücklich **angemessen** – der materielle Fremdvergleich ist also bestanden. Wer nur die Angemessenheit prüft, kommt deshalb zum falschen Ergebnis. Die vGA entsteht allein aus dem **Formverstoß**, und zwar in voller Höhe des rückwirkenden Anteils. Das ist die Kernaussage des ganzen Kapitels 2: Beim beherrschenden Gesellschafter und seinen nahe stehenden Personen kann eine der Höhe nach völlig unbedenkliche Vergütung zur vGA werden, nur weil sie zu spät vereinbart wurde." },
+      { text: "Anmerkung zum Verhältnis zu 2.2.3 (eigene Ergänzung): Das Beispiel ist die Parallele zum ersten Beispiel des Rückwirkungsverbots, nur mit ausgetauschtem Empfänger. Dort erhielt der Gesellschafter X selbst die rückwirkende Erhöhung, hier sein Sohn. Das Ergebnis ist in beiden Fällen dasselbe, und genau darin liegt der Sinn des Abschnitts: Die Einschaltung einer nahe stehenden Person ist **kein** Ausweg aus dem formellen Vergleich. Damit ist zugleich das Kapitel 2 abgeschlossen." },
     ],
   },
 ];

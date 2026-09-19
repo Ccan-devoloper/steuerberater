@@ -10620,6 +10620,46 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 2.2.4 und 2.2.5 – Kapitel 2 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 32 bis 34; übernommen als Kapitel 22 und 23. Prüfung:
+`npm run check:k2-kst-teil4` (23 Kapitel, 341 Blöcke, 29 Tabellen).
+
+**Mit der tatsächlichen Durchführung schließt sich der Kreis des strengen formellen Vergleichs.** Die
+drei vorangegangenen Abschnitte prüfen den Vertrag auf dem Papier – klar und eindeutig (2.2.1),
+zivilrechtlich wirksam (2.2.2), im Voraus vereinbart (2.2.3); erst 2.2.4 fragt, ob er auch gelebt
+wird. Der Datensatz stellt die Mängel und ihre Rechtsfolgen in einer Sechszeilentabelle zusammen und
+ergänzt die Tantiemenstaffel als eigene Tabelle.
+
+**Zwei Beobachtungen sind als eigene Ergänzung gekennzeichnet.** Erstens die doppelte Hürde beim
+Liquiditätsengpass: Es genügt nicht, ihn nachzuweisen, verlangt wird zusätzlich eine
+fremdvergleichsfeste Stundungsvereinbarung – und beschäftigt die Gesellschaft weitere Arbeitnehmer,
+müssen sich auch diese auf Gehaltsstundungen eingelassen haben. Damit wirkt der Vergleich mit der
+Belegschaft hier erstmals zugunsten des Gesellschafters, während er beim Rückwirkungsverbot (2.2.3)
+gerade nicht half. Zweitens die Feinheiten der Tantiemenstaffel: Die Frist läuft nicht ab dem
+Bilanzstichtag, sondern ab der Fälligkeit, die mangels abweichender Vereinbarung erst mit Feststellung
+des Jahresabschlusses eintritt; und die Sechsmonatsgrenze schadet nur bei *regelmäßiger*
+Überschreitung.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und im Datensatz als solche
+gekennzeichnet.** In der Lösung des Beispiels zu 2.2.5 schreibt die Quelle „Verstoß gegen das
+Rückwirkungs**gebot**“, obwohl sie den Grundsatz im gesamten Abschnitt 2.2.3 als Rückwirkungs*verbot*
+bezeichnet; ebenfalls dort heißt es „welches auch bei dem beherrschenden Gesellschafter nahe stehenden
+Personen zur Anwendung gelangt“ – der Bezug des Relativpronomens und der Kasus gehen nicht auf. Beides
+steht so in der Quelle und ist unverändert übernommen.
+
+**Die Rechenprobe zum Beispiel geht auf** (eigene Nachrechnung): 10.000 € ./. 7.000 € = 3.000 €
+monatlich; 3.000 € × 4 Monate (Januar bis April 2025) = 12.000 €. Bemerkenswert ist die Klausurfalle,
+die der Datensatz ausdrücklich benennt: Die Erhöhung ist der Höhe nach ausdrücklich angemessen, der
+materielle Fremdvergleich also bestanden – die vGA entsteht allein aus dem Formverstoß.
+
+**Damit ist das Kapitel 2 der Quelle vollständig.** README, Campus-Lead und Datei-Header sind
+entsprechend fortgeschrieben.
+
+**Noch offen:** aus Teil IV die Kapitel 3 (Bewertung der verdeckten Gewinnausschüttung, mit dem
+Umsatzsteuer-Exkurs), 4 (Auswirkungen der verdeckten Gewinnausschüttung), 5 (Dreiecksfälle) und
+6 (Pensionszusage als verdeckte Gewinnausschüttung); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 2.2.2 und 2.2.3 – Wirksamkeit und Rückwirkungsverbot
 
 Quelle: dieselbe Datei, Seiten 29 bis 33; übernommen als Kapitel 20 und 21. Prüfung:
