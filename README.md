@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 24 Kapitel mit 476 Abschnitten und 29 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 28 Kapitel mit 530 Abschnitten und 34 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4952,6 +4952,53 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und die B-GmbH in keinen Konzernabschluss einbezogen wird, greift keine der drei Ausnahmen; da
   **§ 8a Abs. 2 KStG a.F.** ersatzlos aufgehoben ist, entscheidet allein das verrechenbare EBITDA
   über den Umfang des Abzugsverbots und damit über einen Zins- oder EBITDA-Vortrag.
+  Die **Ausgleichszahlungen** nach § 16 KStG sind die zivilrechtliche Kehrseite der vollständigen
+  Abführung. Weil § 301 AktG den ganzen Jahresüberschuss dem Organträger zuweist, bleibt für eine
+  Dividende der Minderheitsgesellschafter **nichts übrig**; ihre Beteiligung wäre ohne Ausgleich
+  wirtschaftlich entwertet. **§ 304 AktG** gibt ihnen deshalb einen **Ausgleichsanspruch**, und die
+  Sanktionen sind scharf: Fehlt er im Vertrag, ist dieser bei AG und KGaA nach § 304 Abs. 3 AktG
+  **nichtig**; tritt ein außenstehender Gesellschafter erst während der Organschaft hinzu, **endet**
+  der Vertrag nach § 307 AktG von selbst zum Ende des Wirtschaftsjahres – besonders gefährlich, weil
+  der notwendige Neuabschluss die **Mindestlaufzeit neu** beginnen lässt. Bei der **GmbH** löst die
+  Quelle den zivilrechtlichen Streit mit einem prozessualen Argument: Nicht die Rechtslage
+  entscheidet, sondern dass sie **unklar** ist – und eine im Zeitpunkt des Vertragsschlusses ungeklärte
+  Zivilrechtsfrage darf nach der Rechtsprechung des BFH nicht zu Lasten des Steuerpflichtigen wirken.
+  Die Organschaft ist dort also auch **ohne** vereinbarte Ausgleichszahlung anzuerkennen.
+  Der Begriff des **außenstehenden Gesellschafters** entscheidet über **zwei gegenläufige Risiken**,
+  die beide die Organschaft treffen: Wird **nicht** gezahlt, obwohl der Gesellschafter außensteht,
+  droht bei AG und KGaA die Nichtigkeit; wird gezahlt, obwohl er über Konzernbeziehungen verbunden
+  ist, liegt ein **Durchführungsmangel** vor, weil dann nicht mehr der **ganze** Gewinn i.S. des
+  § 301 AktG abgeführt wird. Zwischen beiden Fehlern liegt allein die Einordnung eines
+  Gesellschafters – und für sie gibt es, wie die Quelle ausdrücklich einräumt, **keine abschließende
+  Definition**. Nicht außenstehend ist, wer zu 100 % in den Konzern einbezogen ist, wessen Vermögen
+  mit dem des anderen Vertragsteils eine **wirtschaftliche Einheit** bildet oder wessen Erträge diesem
+  zufließen; nach einer Schrifttumsmeinung genügt sogar ein **faktisches Konzernverhältnis**. Die
+  Quelle formuliert deshalb **negativ** und rät damit zur Prüfung in der sicheren Richtung.
+  Die **Bemessung** folgt § 304 Abs. 2 Satz 1 AktG: Die Zahlung muss aus einem **festen Betrag**
+  bestehen – der **Garantiedividende** – und ist auch in **Verlustjahren** zu leisten. Der außenstehende
+  Gesellschafter ist damit besser gestellt als ein gewöhnlicher Anteilseigner, während der Organträger
+  im selben Jahr den Verlust nach § 302 AktG ausgleicht. Eine **ausschließlich variable** Bemessung am
+  Gewinn der **Organgesellschaft** wird nicht anerkannt, eine am Gewinn des **Organträgers** dagegen
+  schon – der Unterschied beantwortet eine einzige Frage: **wessen** Gewinn gemindert wird. Die erste
+  verteilt das Ergebnis der Organgesellschaft um und verletzt § 301 AktG, die zweite belastet den
+  Empfänger des Gewinns, nicht dessen Quelle. Der Festbetrag ist deshalb kein Selbstzweck, sondern das
+  Mittel, die Zahlung vom Ergebnis der Organgesellschaft **abzukoppeln**.
+  Die **gemischte** Ausgleichszahlung aus Festbetrag und variablem Zuschlag rettet **§ 14 Abs. 2 KStG**
+  mit einer **Durchführungsfiktion** – ein seltener Fall, in dem der Gesetzgeber eine
+  Verwaltungsauffassung **gegen den BFH** in Gesetzesform gießt. Die Norm prüft gar nicht mehr, ob der
+  ganze Gewinn abgeführt wurde, sondern setzt an dessen Stelle eine **betragsmäßige Obergrenze**: den
+  Gewinnanteil, der dem außenstehenden Gesellschafter **ohne** Organschaft zugestanden hätte. Deren
+  Maßstab ist eine **doppelte Fiktion** – der handelsrechtliche Gesamtgewinn **vor Abführung** und
+  **ohne Annahme einer Organschaft**, ein Ergebnis also, das in keiner Bilanz steht. Maßgeblich ist
+  allein die **Nominalbeteiligung**, so dass disquotale Gewinnverteilungsabreden den Höchstbetrag nicht
+  anheben können, und er ist **für jedes Wirtschaftsjahr erneut** zu berechnen. Hinzu kommt der
+  **Kaufmannstest** des § 14 Abs. 2 Satz 3 KStG, der unter fremden Dritten regelmäßig erfüllt ist. Wird
+  die variable Komponente in einem Jahr **nicht gezahlt**, ist § 14 Abs. 2 KStG dort nicht anwendbar –
+  keine Sanktion, sondern das Gegenteil: Gezahlt wurde nur der ohnehin unschädliche Festbetrag. Wird
+  der Höchstbetrag dagegen **überschritten**, ist das ein Durchführungsmangel, der **innerhalb der
+  Mindestlaufzeit** auf sämtliche Vorjahre zurückwirkt (R 14.5 Abs. 8 KStR) – ein erhebliches Risiko,
+  weil ein unerwartet schlechtes Ergebnis eine seit Jahren unveränderte Vereinbarung erstmals über die
+  Grenze treten lassen kann. Eine vertragliche Begrenzungsklausel liegt deshalb nahe.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

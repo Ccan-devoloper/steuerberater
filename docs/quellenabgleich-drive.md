@@ -10620,6 +10620,54 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.2.5.1 bis 3.2.5.4 – Ausgleichszahlungen
+
+Übernommen sind die Seiten 45 bis 48 der Quelle: die zivilrechtlichen Grundlagen
+des § 304 AktG (3.2.5.1), der Begriff des außenstehenden Gesellschafters (3.2.5.2),
+die Bemessung der Ausgleichszahlung (3.2.5.3) und die Durchführungsfiktion des
+§ 14 Abs. 2 KStG samt dem Höchstbetrag nach dem BMF-Schreiben vom 04.03.2020
+(3.2.5.4). Der Datensatz umfasst damit 28 Kapitel mit 530 Abschnitten und 34
+Tabellen; geprüft mit `npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Der außenstehende Gesellschafter verliert durch den GAV seine
+Dividendenberechtigung und erhält dafür nach § 304 AktG einen Ausgleichsanspruch;
+sein Fehlen führt bei AG und KGaA zur Nichtigkeit des Vertrags, sein nachträgliches
+Entstehen nach § 307 AktG zur Beendigung. Bei der GmbH ist die Organschaft auch ohne
+Ausgleichszahlung anzuerkennen. Die Zahlung muss aus einem festen Betrag bestehen und
+ist auch in Verlustjahren zu leisten; eine rein variable Bemessung am Gewinn der
+Organgesellschaft wird nicht anerkannt, eine am Gewinn des Organträgers dagegen schon.
+Die gemischte Zahlung rettet § 14 Abs. 2 KStG durch eine Durchführungsfiktion,
+begrenzt auf den Gewinnanteil nach Nominalbeteiligung, berechnet aus dem Gewinn vor
+Abführung und ohne Organschaft und für jedes Wirtschaftsjahr neu.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.2.5.1 schließt mit „muss es sich aber bei dem Anspruchsberechtigten um
+  einen außenstehenden Gesellschafter handeln und sich die Bemessung der
+  Ausgleichszahlung nach den Grundsätzen des § 304 AktG orientieren“; sprachlich
+  richtig wäre „an den Grundsätzen … orientieren“.
+- Abschnitt 3.2.5.2 stellt das Pronomen „dieser“ zweimal in denselben Satz:
+  „Dieser ist nach herrschender Meinung dann nicht außenstehend …, wenn dieser
+  bereits zu 100% in den Konzern einbezogen ist“.
+- Abschnitt 3.2.5.2 eröffnet mit „wenn entweder der Organträger bzw. ein Unternehmen
+  auf einer höheren Konzernstufe“ eine Alternative, der kein „oder“ folgt.
+- Abschnitt 3.2.5.2 schreibt „Ausgleichzahlung“ ohne Fugen-s.
+- Abschnitt 3.2.5.2 formuliert „führt dies … zu einem für die Anerkennung des
+  Organschaftsverhältnisses schädlichen Verstoß, ihren ganzen Gewinn i.S. des § 301
+  AktG an den Organträger abzuführen“. Gemeint ist ein Verstoß **gegen die Pflicht**,
+  den ganzen Gewinn abzuführen; der Satz sagt dem Wortlaut nach das Gegenteil.
+- Abschnitt 3.2.5.2 wechselt im Satz zur Gesetzesbegründung den Bezug von
+  „solche Gesellschafter …, deren Vermögen“ zu „oder dessen Erträge“.
+
+**Eigene Nachrechnung.** Die Abschnitte enthalten keine Zahlenbeispiele; die
+Rechenfälle zu § 16 KStG folgen in Abschnitt 3.2.5.5. Nachgeprüft ist die
+Normenkette: § 304 Abs. 2 Satz 1 AktG (Festbetrag), Satz 2 (variable Beteiligung am
+Gewinn des Organträgers), § 304 Abs. 3 AktG (Nichtigkeit), § 307 AktG (Beendigung),
+§ 14 Abs. 2 Satz 2 KStG (Höchstbetrag) und Satz 3 (Kaufmannstest) – sämtlich
+zutreffend zitiert. Die Quelle datiert die auslösende BFH-Entscheidung auf den
+10.05.2017 (BStBl. II 2019, 278) und das Zweifelsfragen-Schreiben auf den 04.03.2020
+(BStBl. I 2020, 256); beides ist stimmig.
+
 ### KSt Teil VI (Hamacher), Abschnitt 3.2.4.3 – Zinsschranke im Organkreis
 
 Übernommen ist der Abschnitt zur Zinsschranke (Seiten 43 bis 45 der Quelle) mit
