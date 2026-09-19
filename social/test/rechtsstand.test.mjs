@@ -485,6 +485,14 @@ test("Vorsteuer-Zuordnung trennt private von nichtwirtschaftlicher Nutzung", () 
   assert.match(auftrag2027, /Rechtsstand 2026/);
 });
 
+test("§25-Reiseleistungsmodul kennt die 2026 verlängerte Drittlands-Nichtbeanstandung", () => {
+  const t = byId("ust-modul-ust-232");
+  assert.match(kern(t), /Sitz im Drittland/);
+  assert.match(kern(t), /grundsätzlich nicht anzuwenden/);
+  assert.match(kern(t), /31\.12\.2029/);
+  assert.match(kern(t), /BMF.*28\.04\.2026/);
+});
+
 test("USt-Organschaft kennt 50-Prozent-Ausnahme und aktuelle Innenleistungsregel", () => {
   const t = byId("ust-modul-ust-234");
   assert.match(kern(t), /genau 50 % der Stimmrechte/);
