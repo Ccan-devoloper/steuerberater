@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 76 Kapitel mit 1.272 Abschnitten und 104 Tabellen; die Kapitel 1 bis 3 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 78 Kapitel mit 1.312 Abschnitten und 111 Tabellen; die Kapitel 1 bis 3 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5587,6 +5587,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   einen Fall des § 9 Nr. 2a GewStG voraus, also mindestens **15 %** zu **Beginn** des
   Erhebungszeitraums; fehlt es daran, verbleibt die Bruttoausschüttung im Gewerbeertrag, und für § 8
   Nr. 5 GewStG bleibt kein Raum, weil nichts gekürzt wurde.
+  Kommen **Kosten** hinzu, durchlaufen sie eine **Schleife**, die man sich merken sollte. Zunächst
+  schaltet § 7a Abs. 1 Satz 2 GewStG die Hinzurechnung nach § 8 Nr. 1 GewStG **aus** – solange die
+  Ausschüttung noch brutto im Gewerbeertrag steht, wäre eine Hinzurechnung der zugehörigen Zinsen
+  verfrüht. Nach Anwendung der Nettomethode holt § 7a Abs. 2 Satz 2 GewStG sie **nach**, aber nur für
+  die Aufwendungen, **die sich bisher mindernd ausgewirkt haben**. Genau diese Einschränkung erklärt
+  die Zahlen: Bei der Kapitalgesellschaft haben sich die Zinsen voll ausgewirkt, weshalb 25 % des
+  vollen Betrags hinzuzurechnen sind (12.500 € bei 50.000 €, 37.500 € bei 150.000 €); beim
+  Personenunternehmen sind dagegen 40 % bereits durch § 3c Abs. 2 EStG neutralisiert.
+  Dabei **kehrt sich der Rechtsformvorteil um**. Ohne Kosten stand das **Personenunternehmen** besser
+  (Gewerbeertrag 0 € statt 5.000 €); bei **hohen** Kosten steht es schlechter. Der Grund ist § 9
+  Nr. 2a **Satz 3** GewStG, der den **Kürzungsrahmen** um die im Gewerbeertrag enthaltenen
+  Aufwendungen **reduziert**: Bei 50.000 € Zinsen verbleibt eine Kürzung von 30.000 € und damit ein
+  Gewerbeertrag von 0 €; bei 150.000 € ist der Rahmen von 60.000 € durch die verbliebenen Kosten von
+  90.000 € **vollständig aufgezehrt**, die Kürzung unterbleibt, und der Überhang wird sogar noch
+  hinzugerechnet. Bei der **Kapitalgesellschaft** stellt sich diese Frage gar nicht, weil dort die
+  Ausschüttung nach § 8b Abs. 1 KStG **vollständig** aus dem Gewerbeertrag ausscheidet und für § 9
+  Nr. 2a GewStG nichts übrig bleibt. In der Alternative treffen die Zinsen beim Personenunternehmen
+  damit **drei** Regelungen nacheinander, was die Quelle in einer einzigen Klammer zusammenfasst:
+  § 3c Abs. 2 EStG kürzt um 40 % auf 90.000 €, § 9 Nr. 2a Satz 3 GewStG zehrt mit ihnen den
+  Kürzungsrahmen von 60.000 € auf, und der verbleibende Überhang von 30.000 € unterliegt der
+  Hinzurechnung – die Rechnung 150.000 € ./. 60.000 € ./. 60.000 € = 30.000 € führt genau diese drei
+  Stufen vor.
+  **Vororganschaftliche Gewerbeverluste** schließlich sind wie ihre körperschaftsteuerlichen
+  Gegenstücke **eingefroren**: Sie können während der Organschaft nicht genutzt werden, werden jedes
+  Jahr unverändert festgestellt und leben erst nach deren Beendigung wieder auf – bleiben aber die
+  ganze Zeit durch einen schädlichen Anteilserwerb **gefährdet**. Bemerkenswert ist, dass beide
+  Steuerarten **verschiedene Wege** zum selben Ergebnis gehen: Körperschaftsteuerlich folgt das
+  Abzugsverbot **mittelbar** daraus, dass § 15 Satz 1 Nr. 1 KStG die Anwendung des § 10d EStG
+  aufhebt, gewerbesteuerlich ordnet § 10a Satz 3 GewStG es **unmittelbar** an; dieselbe Doppelung
+  findet sich bei der Feststellung (§ 10d Abs. 4 EStG einerseits, § 10a Satz 6 GewStG andererseits).
+  Sämtliche Zahlen aller vier Fallvarianten sind unabhängig nachgerechnet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

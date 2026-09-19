@@ -10620,6 +10620,62 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 4.2.4.2 und 4.2.5 – Schachtelprivileg mit Kosten, vororganschaftliche Gewerbeverluste
+
+Übernommen sind die Seiten 92 bis 95 der Quelle: der Fall mit Kosten in vier Varianten
+(Kapitalgesellschaft und Personenunternehmen als Organträger, jeweils mit Zinsen von
+50.000 € und 150.000 €) sowie die vororganschaftlichen Verluste der Organgesellschaft
+(4.2.5). Der Datensatz umfasst damit 78 Kapitel mit 1.312 Abschnitten und 111 Tabellen;
+geprüft mit `npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** § 7a Abs. 1 Satz 2 GewStG schaltet die Hinzurechnung nach § 8
+Nr. 1 GewStG zunächst aus, Absatz 2 Satz 2 holt sie nach – aber nur für Aufwendungen,
+die sich bisher mindernd ausgewirkt haben. Beim Personenunternehmen tritt § 9 Nr. 2a
+Satz 3 GewStG hinzu, der den Kürzungsrahmen um die im Gewerbeertrag enthaltenen Kosten
+reduziert. Vororganschaftliche Gewerbeverluste sind nach § 10a Satz 3 GewStG vom Abzug
+ausgeschlossen und bleiben eingefroren, können aber nach § 8c KStG untergehen.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- **Zweimal fehlendes Minuszeichen:** In beiden Alternativen (Kapitalgesellschaft und
+  Personenunternehmen) heißt es im Fließtext, die Ausgangsgröße sei das
+  körperschaftsteuerlich ermittelte Einkommen, „welches 50.000 € beträgt“ – während
+  die jeweils unmittelbar folgende Aufstellung zutreffend ./. 50.000 € ausweist und die
+  Quelle das Ergebnis zuvor selbst mit ./. 50.000 € (./. 75.000 € + 25.000 €) hergeleitet
+  hat.
+- Der Hinweis zum Freibetrag endet zweimal mit einem **Komma** statt einem Punkt:
+  „Der Freibetrag von 200.000 € für Zwecke des § 8 Nr. 1 GewStG soll ausgeschöpft
+  sein,“.
+- „Daher würde sich die Kürzung … um dem Betrag der bisher abgezogenen Kosten
+  (90.000 €) von 60.000 € reduzieren“ – der Kasus ist nicht durchgeführt.
+- Abschnitt 4.2.5 zitiert „§ 15 Nr. 1 Satz 1 KStG“; gesetzlich § 15 Satz 1 Nr. 1
+  KStG.
+- Die Quelle zitiert weiterhin „§ 8 Nr. 1a GewStG“ und „§ 3 Nr. 40d EStG“.
+
+**Eigene Nachrechnung.** Alle vier Varianten gehen auf.
+
+| Variante | Einkommen OG | Ergebnis Organträger / Gewerbeertrag |
+| --- | --- | --- |
+| KapG, Kosten 50.000 € | 50.000 € | Einkommen ./. 45.000 €; Gewerbeertrag ./. 45.000 € + 12.500 € = ./. 32.500 € |
+| KapG, Kosten 150.000 € | ./. 50.000 € | Einkommen ./. 145.000 €; Gewerbeertrag ./. 145.000 € + 37.500 € = ./. 107.500 € |
+| PersU, Kosten 50.000 € | 50.000 € | Einkommen 30.000 €; Gewerbeertrag 30.000 €, Kürzung 30.000 € = 0 € |
+| PersU, Kosten 150.000 € | ./. 50.000 € | Einkommen ./. 30.000 €; Gewerbeertrag ./. 30.000 € + 7.500 € = ./. 22.500 € |
+
+Die Hinzurechnung beträgt jeweils 25 % der maßgebenden Aufwendungen; beim
+Personenunternehmen sind das nach § 3c Abs. 2 EStG und § 9 Nr. 2a Satz 3 GewStG nur noch
+30.000 € (150.000 € ./. 60.000 € ./. 60.000 €).
+
+Als eigene Ergänzungen im Datensatz ausgewiesen: die Beschreibung der „Schleife“,
+die die Kosten durch § 7a Abs. 1 Satz 2 und Abs. 2 Satz 2 GewStG durchlaufen; die
+Beobachtung, dass sich der **Rechtsformvorteil umkehrt** – ohne Kosten steht das
+Personenunternehmen besser (0 € statt 5.000 €), bei hohen Kosten schlechter, weil § 9
+Nr. 2a Satz 3 GewStG den Kürzungsrahmen aufzehrt, während bei der Kapitalgesellschaft
+die Ausschüttung ohnehin vollständig ausscheidet; die Darstellung der **dreifachen**
+Wirkung der Kosten beim Personenunternehmen; und der Hinweis, dass Körperschaft- und
+Gewerbesteuer beim vororganschaftlichen Verlust auf **verschiedenen Wegen** zum selben
+Ergebnis gelangen (mittelbar über den Ausschluss des § 10d EStG einerseits, unmittelbar
+durch § 10a Satz 3 GewStG andererseits).
+
 ### KSt Teil VI (Hamacher), Abschnitte 4.2.4 und 4.2.4.1 – gewerbesteuerliches Schachtelprivileg
 
 Übernommen sind die Seiten 89 bis 92 der Quelle: die Entwicklung des Streits von der
