@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 14 Kapitel mit 289 Abschnitten und 17 Tabellen. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 16 Kapitel mit 326 Abschnitten und 19 Tabellen. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4759,6 +4759,49 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Heilung durch Zeitablauf** nach § 256 Abs. 6 AktG, wonach Nichtigkeitsgründe nach **drei Jahren**
   nicht mehr geltend gemacht werden können – wer einen nichtigen Abschluss vorfindet, prüft deshalb
   zuerst das Datum.
+  Eigentümlich ist der Aufbau der Norm, weil sie zwei Maßstäbe verbindet, die sonst als Gegensätze
+  gelten: Für die **Höhe** der Abführung gilt der **objektive** Fehlerbegriff, für die **Heilung**
+  dagegen ein **subjektives** Element – der Fehler darf bei kaufmännischer Sorgfalt nicht erkennbar
+  gewesen sein. Wer ihn kannte oder hätte kennen müssen, kann handelsrechtlich korrigieren, rettet
+  damit aber die Organschaft nicht: Die Heilung schützt den sorgfältigen, nicht den nachlässigen
+  Steuerpflichtigen. Den Nachweis führt ein **uneingeschränktes Testat**, und zwar mit **unwiderlegbarer**
+  Wirkung – die Sorgfaltsfrage ist dann nicht mehr verhandelbar, auch nicht für das Finanzamt. Die
+  Kehrseite ist ebenso scharf: Ein **eingeschränktes** Testat ist **immer** schädlich, ausdrücklich auch
+  bei Einschränkungen zu ganz anderen Fragen, und die Aufzählung der Nachweismittel ist
+  **abschließend**. Für nicht prüfungspflichtige Gesellschaften bleibt damit nur die
+  **IDW-7-Bescheinigung**, deren Einholung faktisch Pflicht wird. Eine Falle betrifft internationale
+  Konzerne: Nutzt die Organgesellschaft die Befreiung des **§ 264 Abs. 3 HGB**, ist in den
+  IFRS-Konzernabschluss gar kein HGB-Abschluss eingegangen, und die Fiktion greift nicht – in
+  Organschaftsfällen ist der handelsrechtliche Abschluss deshalb **immer** zu erstellen.
+  Die **Korrekturfrist** bürdet dem Steuerpflichtigen ein erhebliches Risiko auf, und die Quelle sagt
+  das ungewöhnlich deutlich. Korrigiert werden muss spätestens im nächsten nach der **Beanstandung**
+  aufzustellenden Jahresabschluss beider Gesellschaften, wobei ein Wahlrecht zwischen Korrektur in
+  laufender Rechnung und im Fehlerjahr besteht. Die Beanstandung setzt die Frist in Gang, ist aber
+  **kein Verwaltungsakt** nach § 118 AO und damit nicht anfechtbar; ein Rechtsbehelf gegen die
+  Feststellung **unterbricht die Frist nicht**. Wer die Auffassung des Finanzamts für falsch hält, muss
+  also vorsorglich korrigieren und den Streit getrennt führen. Entlastend wirkt die
+  **Wesentlichkeitsschwelle**: Was handelsrechtlich nicht korrigiert werden muss, verlangt auch das
+  Steuerrecht nicht – die Beurteilung obliegt dem **Abschlussprüfer**, bindet das Finanzamt aber nicht.
+  Erfasst sind damit nur **wesentliche** Fehler, die der Prüfer **nicht erkannt** hat.
+  **Verstoß** und **Beendigung** sind sauber zu trennen: Jener ist ein Mangel in der **Durchführung** des
+  fortbestehenden Vertrags und nach den vorstehenden Regeln **heilbar**, diese beseitigt den **Vertrag
+  selbst** und lässt sich nur durch einen **wichtigen Grund** rechtfertigen. Bei beiden ist die Zäsur
+  nach fünf Jahren die folgenreichste Unterscheidung des Kapitels: **Innerhalb** der Mindestlaufzeit
+  vernichtet ein Verstoß die Organschaft **von Anfang an** – denn wird die Mindestlaufzeit gerissen,
+  fehlt sie rückwirkend –, **danach** wirkt er nur auf den Beginn des laufenden Jahres zurück. Leicht
+  überlesen wird, wovon die Zukunft abhängt: Der Vertrag besteht **unverändert fort**, und die
+  Organschaft lebt ab dem Folgejahr wieder auf, wenn seine **Restlaufzeit** noch mindestens fünf Jahre
+  beträgt – ein weiteres Argument für eine großzügige Laufzeitgestaltung.
+  Der **wichtige Grund** für eine vorzeitige Beendigung ist nach der Präzisierung des BFH ein rein
+  **steuerlicher** Begriff, weil dem Zivilrecht eine Mindestlaufzeit des Gewinnabführungsvertrags
+  **unbekannt** ist. Daraus folgt der Prüfstein: Eine Beendigung, die **ausschließlich steuerlich
+  motiviert** ist und die fünf Jahre unterlaufen soll, genügt nie. Anerkannt sind Vorgänge, die die
+  Organschaft ohnehin gegenstandslos machen – Veräußerung oder Einbringung der Beteiligung,
+  Umwandlung, Liquidation, Insolvenz – sowie eine ernsthafte **Störung des Vertragsverhältnisses**. Am
+  schärfsten ist die Gegenausnahme: Stand die vorzeitige Beendigung schon **bei Vertragsschluss** fest,
+  ist die Anerkennung **von Anfang an** zu versagen. Und der wichtige Grund rettet nur die
+  **Mindestlaufzeit**, nicht die **tatsächliche Durchführung** – war der Vertrag in den Vorjahren
+  mangelhaft durchgeführt, bleibt es bei der Nichtanerkennung, wie der BFH 2022 bestätigt hat.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

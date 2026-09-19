@@ -10620,6 +10620,38 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 2.5.7.2 bis 2.5.9.1 – Heilung, Verstoß und Beendigung
+
+Quelle: dieselbe Datei, Seiten 28 bis 30; übernommen als Kapitel 15 und 16. Prüfung:
+`npm run check:k2-kst-teil6` (16 Kapitel, 326 Blöcke, 19 Tabellen).
+
+Der Abschnitt enthält keine Rechenbeispiele; die Kataloge der Nachweismittel und der wichtigen
+Gründe sind vollständig und in der Reihenfolge der Quelle übernommen.
+
+**Eine sprachliche Eigenheit ist übernommen und markiert:** das doppelte „nach“ in „Die steuerliche
+Würdigung erfolgt nach wieder nach den herkömmlichen Grundsätzen“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Beobachtung, dass die Norm für die Höhe den
+objektiven und für die Heilung einen subjektiven Fehlerbegriff verbindet und damit den sorgfältigen
+Steuerpflichtigen schützt; die Tragweite der unwiderleglichen Fiktion samt der Schärfe der Kehrseite
+und der Folgerung, dass die IDW-7-Bescheinigung faktisch Pflicht wird; die Falle des
+IFRS-Konzernabschlusses bei Nutzung der Befreiung des § 264 Abs. 3 HGB; die Darstellung des
+Fristrisikos, weil die Beanstandung kein Verwaltungsakt ist und der Rechtsbehelf die Frist nicht
+unterbricht, samt dem praktischen Rat zur vorsorglichen Korrektur; die Einordnung der
+Wesentlichkeitsschwelle und des Zuschnitts der Norm auf wesentliche, vom Prüfer nicht erkannte
+Fehler; die Trennung von Verstoß und Beendigung nach Gegenstand und Rechtfertigungsmöglichkeit; die
+Erklärung der Zäsur nach fünf Jahren aus der Funktion der Mindestlaufzeit; der leicht überlesene
+Hinweis, dass die Zukunft von der Restlaufzeit abhängt; die Prüfungsreihenfolge bei vorzeitiger
+Beendigung, weil der wichtige Grund nur die Mindestlaufzeit und nicht die Durchführung rettet; und
+die Auswertung der BFH-Präzisierung, wonach der wichtige Grund ein rein steuerlicher Begriff ist.
+
+**Neu sind zwei Übersichten:** eine zu den Nachweismitteln der Sorgfalt samt ihrer Wirkung und eine
+zu den Rechtsfolgen von Verstoß und Beendigung je nach Zeitpunkt.
+
+**Noch offen:** aus Teil VI die Beendigung außerhalb der Mindestlaufzeit (2.5.9.2), die Auflösung von
+Organgesellschaft oder Organträger (2.5.10) sowie die Kapitel 3 und 4; ganz offen ist der Skriptteil
+VII (Liquidation).
+
 ### KSt Teil VI (Hamacher), Abschnitte 2.5.5.4 bis 2.5.7.1 – Durchführung und Heilung
 
 Quelle: dieselbe Datei, Seiten 25 bis 27; übernommen als Kapitel 13 und 14. Prüfung:
