@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 12 Kapitel mit 242 Abschnitten und 24 Tabellen. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 14 Kapitel mit 279 Abschnitten und 29 Tabellen. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3877,6 +3877,48 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Reserven der Beteiligung an der Organgesellschaft nicht mit, bei der **Organgesellschaft** stehen
   ihre eigenen nur für den laufenden Verlust und einen vororganschaftlichen Verlustvortrag zur
   Verfügung.
+  Bei einem Erwerb unter 100 % ist der gemeine Wert auf **100 %** **hochzurechnen**, weil der Verlust
+  ohnehin vollständig untergeht. Ist das steuerliche Eigenkapital **negativ**, versagt die
+  Vereinfachung des § 8c Abs. 1 Satz 6 KStG vollständig, weil sie allein aus dem Minus rechnerische
+  stille Reserven erzeugt: Bei einem Eigenkapital von ./. 5.000.000 € und einem symbolischen
+  Kaufpreis von 1 € wären das rund 5.000.000 €, ohne dass auch nur ein Euro davon tatsächlich
+  vorhanden sein müsste – dass der Kaufpreis bei 1 € liegt, spricht sogar dagegen (die Bezifferung
+  ist eine eigene Ergänzung, die Quelle beschreibt den Effekt nur verbal). § 8c Abs. 1 Satz 7 KStG
+  tauscht deshalb die **Ausgangsgröße** aus: nicht mehr der gemeine Wert des **Anteils**, sondern der
+  des **Betriebsvermögens**, zu ermitteln im Wege einer **Unternehmensbewertung** – das gezahlte
+  Entgelt ist dafür unmaßgeblich. Der Preis dieser Genauigkeit ist erheblicher Aufwand, den der
+  Steuerpflichtige tragen muss, wenn er die Verschonung beanspruchen will. Häufigster
+  Anwendungsfall ist die Sanierungskonstellation, in der das Negativkapital auf
+  **Gesellschafterdarlehen** beruht und der Altgesellschafter im Zuge der Anteilsübertragung darauf
+  verzichtet.
+  Berücksichtigt werden ferner nur die **im Inland steuerpflichtigen** stillen Reserven – die
+  konsequente Fortsetzung des Verschonungsgedankens, denn was im Inland nicht besteuert werden kann,
+  braucht dort auch keinen Verlust. Auszuscheiden sind stille Reserven des ausländischen
+  Betriebsvermögens in einem DBA-Staat, solche von **Beteiligungen i. S. des § 8b Abs. 2 KStG** und
+  – allein für die Gewerbesteuer über § 10a Satz 10 GewStG – die stillen Reserven eines
+  **Mitunternehmeranteils**, weil die Personengesellschaft selbst gewerbesteuerpflichtig ist und ihre
+  Reserven nur ihren eigenen Gewerbeverlust verschonen können. Daraus folgt, dass die
+  Verschonungsrechnungen für Körperschaft- und Gewerbesteuer **auseinanderfallen** können. Im
+  Beispiel kostet eine einzige Beteiligung 400.000 € Verschonungsvolumen: Aus 10.000.000 € ./.
+  4.000.000 € = 6.000.000 € werden nach Abzug der stillen Reserven der Z-Beteiligung
+  (500.000 € ./. 100.000 €) noch **5.600.000 €**.
+  Eine naheliegende Gestaltung sperrt § 8c Abs. 1 Satz 8 KStG: Wer nach dem schädlichen Erwerb eine
+  werthaltige Gesellschaft **rückwirkend** auf die Verlustgesellschaft verschmilzt, erzeugt damit
+  keine stillen Reserven zum maßgeblichen Stichtag. Maßgebend sind die Verhältnisse, die sich **ohne**
+  die Umwandlung ergeben hätten – die Rückwirkung des § 2 Abs. 1 UmwStG gilt für § 8c KStG also auch
+  hier **nicht**, ebenso wenig wie für den Zeitpunkt des Erwerbs. Im Beispiel liegen der Erwerb am
+  10.04.2025, der Vollzug der Verschmelzung am 04.05.2025 und der steuerliche Übertragungsstichtag am
+  31.12.2024, also **vor** dem Erwerb; ohne die Sperre entstünden genau die 10.000.000 € stiller
+  Reserven, die der gefährdete Verlust benötigte.
+  Beim **Zinsvortrag** entscheidet wiederum die Reihenfolge. § 8a Abs. 1 Satz 3 KStG erstreckt § 8c
+  KStG auf ihn, doch die stillen Reserven verschonen **zuerst** den Verlust; nur ein Überhang rettet
+  den Zinsvortrag. Die Quelle nennt diese Verschonung deshalb selbst „eher theoretisch“ – sie greift
+  praktisch nur bei hohen stillen Reserven und vergleichsweise geringem Verlust, und gerade dort ist
+  der Verlustuntergang das kleinere Problem. Im Beispiel verschonen 12.000.000 € stille Reserven
+  zunächst den Verlust von 10.000.000 € vollständig; der Überhang von 2.000.000 € rettet einen Teil
+  des Zinsvortrags von 5.000.000 €, die übrigen 3.000.000 € gehen unter. Der **EBITDA-Vortrag** wird
+  nach dem eindeutigen Wortlaut des § 8a Abs. 1 Satz 3 KStG dagegen gar nicht erfasst und bleibt
+  unberührt – für die Klausur eine reine Merkfrage: Zinsvortrag ja, EBITDA-Vortrag nein.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

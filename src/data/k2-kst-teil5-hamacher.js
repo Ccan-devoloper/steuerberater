@@ -24,9 +24,10 @@
    Rechtsfolgen vollständig. Dazu kommen der fünfjährige Betrachtungszeitraum
    (1.4.6) sowie der Grundsatz der Verschonungsgrenze mit der Ermittlung der
    stillen Reserven, dem gemeinen Wert und der Höhe des Eigenkapitals (1.5.1
-   bis 1.5.1.1.2). Es folgen die Besonderheit bei negativem Kapital
-   (1.5.1.1.3), die steuerpflichtigen stillen Reserven (1.5.1.2), die
-   Verlustkürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4;
+   bis 1.5.1.1.2), die Besonderheit bei negativem Kapital (1.5.1.1.3), die nur
+   inländisch steuerpflichtigen stillen Reserven (1.5.1.2), die Rückwirkungs-
+   sperre (1.5.1.3) und der Zinsvortrag (1.5.1.4). Es folgen die Verlust-
+   kürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4;
    der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
@@ -701,6 +702,114 @@ export const kstTeil5 = [
       { text: "Anmerkung zur typisierenden Berechnung (eigene Ergänzung): Die Formel „gemeiner Wert abzüglich steuerliches Eigenkapital“ ist bemerkenswert grob und kommt ohne jede Einzelbewertung von Wirtschaftsgütern aus. Sie unterstellt, dass die **gesamte** Differenz zwischen Marktwert und Buchwert aus stillen Reserven besteht – also auch ein selbst geschaffener Firmenwert, der bilanziell gar nicht ansetzbar wäre. Für den Steuerpflichtigen ist das meist günstig, weil es die Verschonung erhöht. Die Kehrseite zeigt Abschnitt 1.5.1.1.3: Ist das Eigenkapital **negativ**, verschiebt sich die Rechnung, und die Quelle behandelt diesen Fall eigens." },
       { text: "Anmerkung zur Verrechnungsreihenfolge (eigene Ergänzung): Dass die stillen Reserven **vorrangig den laufenden Verlust** verschonen und erst ein Überhang den Verlustvortrag erreicht, ist eine Reihenfolge, die man sich merken muss, weil sie über die Zahlen entscheidet. Sie ist für den Steuerpflichtigen tendenziell **ungünstig**: Der laufende Verlust wäre ohnehin im laufenden Jahr verrechenbar gewesen, während der Verlustvortrag ohne Verschonung ersatzlos verfällt. Dass der Erwerbszeitpunkt innerhalb des Jahres dafür **unmaßgeblich** ist, vereinfacht die Anwendung – die Aufteilungsfragen des Abschnitts 1.6.2 spielen hier also keine Rolle." },
       { text: "Anmerkung zur Organschaft (eigene Ergänzung): Die beiden Sätze zur Organschaft ergeben zusammen ein strenges Bild. Beim **Organträger** werden die stillen Reserven der Beteiligung an der Organgesellschaft **nicht** mitgerechnet – obwohl sie wirtschaftlich zu seinem Vermögen gehören. Bei der **Organgesellschaft** wiederum stehen ihre eigenen stillen Reserven nur für den laufenden Verlust und einen **vororganschaftlichen** Verlustvortrag zur Verfügung. Beides zusammen führt dazu, dass im Organkreis deutlich weniger verschont wird als bei einer vergleichbaren Struktur ohne Organschaft. Der Grund ist die getrennte Betrachtung, auf die die Quelle ausdrücklich hinweist." },
+    ],
+  },
+  {
+    id: "kst-t5-13",
+    kapitel: "13",
+    abschnittNr: "1.5.1.2",
+    title: "1.5.1.1.3 Negatives Kapital und 1.5.1.2 nur inländisch steuerpflichtige stille Reserven",
+    thema: "Bei negativem Eigenkapital tritt an die Stelle des Anteilswerts der gemeine Wert des Betriebsvermögens. Auszuscheiden sind stille Reserven, die im Inland nicht besteuert werden können",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 1.5.1.1.2 (Schluss) bis 1.5.1.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 8c Abs. 1 Satz 6 KStG",
+      "§ 8c Abs. 1 Satz 7 KStG",
+      "§ 8b Abs. 2 KStG",
+      "§ 10a GewStG",
+      "§ 10a Satz 10 GewStG",
+      "BMF vom 28.11.2017, Tz. 52, 53 und 56",
+    ],
+    themen: ["negatives Eigenkapital", "gemeiner Wert des Betriebsvermögens", "Unternehmensbewertung", "Gesellschafterdarlehen", "inländisch steuerpflichtige stille Reserven", "DBA-Betriebsstätte", "Mitunternehmeranteil"],
+    bloecke: [
+      { text: "Werden sämtliche Anteile erworben, wird vom gemeinen Wert des Anteils das komplette Eigenkapital abgezogen. Erwirbt der Gesellschafter hingegen einen Anteil < 100 %, muss der gemeine Wert auf 100 % des Anteils hochgerechnet werden. Denn § 8c Abs. 1 Satz 1 KStG führt immer zu einem vollständigen Verlustuntergang, so dass im Rahmen des § 8c Abs. 1 Satz 5 KStG auch auf sämtliche stille Reserven abzustellen ist." },
+      { typ: "titel", text: "1.5.1.1.3 Besonderheit bei negativem Kapital" },
+      { text: "Die Vereinfachungsregelung des § 8c Abs. 1 Satz 6 KStG kann hingegen nicht angewendet werden, wenn das Eigenkapital lt. Steuerbilanz bereits negativ ist, weil in diesen Fällen § 8c Abs. 1 Satz 7 KStG eine andere Ermittlung der stillen Reserven vorsieht. In dieser Situation würde § 8c Abs. 1 Satz 6 KStG zu einem offensichtlich unzutreffenden Ergebnis führen, weil sich dann mathematisch z.B. bei einem symbolischen Kaufpreis von 1 € in Höhe des negativen Eigenkapitals immer auch stillen Reserven ergeben würden. Häufigster Anwendungsfall dieser Regelung dürften Kapitalgesellschaften sein, bei denen das bilanzielle Negativkapital insbesondere auf Gesellschafterdarlehen beruht und der bisherige Gesellschafter im Zuge der Anteilsübertragung auf seinen Darlehensanspruch verzichtet. (Die Form „in Höhe des negativen Eigenkapitals immer auch stillen Reserven ergeben würden“ steht so in der Quelle.)" },
+      { text: "Aus diesem Grund hat der Gesetzgeber klarstellend § 8c Abs. 1 Satz 7 KStG eingefügt. Ausgangsgröße für die Ermittlung der stillen Reserven ist in diesem Fall abweichend von der o.g. Handhabung der gemeine Wert des Betriebsvermögens (!) der Kapitalgesellschaft, abzüglich des in der Steuerbilanz ausgewiesenen Eigenkapitals. Der gemeine Wert des Betriebsvermögens ist im Rahmen einer Unternehmensbewertung zu ermitteln, d.h. das für die erworbenen Anteile geleistete Entgelt ist hierfür unmaßgeblich. Dies führt dazu, dass in die Verschonungsgrenze auch nur die tatsächlichen stillen Reserven der Kapitalgesellschaft einfließen können." },
+      { typ: "titel", text: "1.5.1.2 Berücksichtigung der steuerpflichtigen stillen Reserven" },
+      { text: "Gemäß § 8c Abs. 1 Satz 5 KStG werden bei der Verschonungsgrenze nur die stillen Reserven berücksichtigt, die im Inland steuerpflichtig sind. Dies ist konsequent, weil die verschonten Verluste nur die zukünftigen stillen Reserven abdecken sollen, die im Rahmen einer inländischen Veranlagung zum Ansatz kommen können. Daher sind für Zwecke dieser Verschonungsregelung die stillen Reserven auszuscheiden, die im Inland nicht der Besteuerung unterliegen können. Dies betrifft insbesondere die stillen Reserven, die bei der Verlustgesellschaft mit" },
+      { text: "– ausländischen Betriebsvermögen in einem DBA-Staat" },
+      { text: "– Beteiligungen i.S. des § 8b Abs. 2 KStG" },
+      { text: "zusammenhängen. Bei Anwendung des § 10a Satz 10 GewStG ist zudem zu beachten, dass stille Reserven eines Mitunternehmeranteils für Zwecke des auf Ebene der Kapitalgesellschaft verbleibenden Gewerbeverlustes i.S. des § 10a GewStG ebenfalls auszuscheiden sind, weil die Personengesellschaft selbst der Gewerbesteuerpflicht unterliegt. Die stillen Reserven der Personengesellschaft können daher nur ihren eigenen Gewerbeverlust verschonen." },
+      { text: "Beispiel: A erwirbt zum 01.01.2025 sämtliche Anteile an der B-GmbH. Zu deren Betriebsvermögen gehört u.a. auch eine Beteiligung an der Z-GmbH (gemeiner Wert: 500.000 €, Buchwert: 100.000 €). A bezahlt für den Anteil an der B-GmbH einen fremdvergleichbaren Preis von 10.000.000 €. Das steuerliche Eigenkapital der Gesellschaft beträgt 4.000.000 €." },
+      { text: "Lösung: Der Anteilserwerb ist nach § 8c Abs. 1 Satz 1 KStG schädlich und würde grundsätzlich zu einem vollständigen Verlustuntergang führen. Dabei ist aber die Auswirkung der Verschonungsregelung zu beachten. Nach der typisierenden Methode des § 8c Abs. 1 Satz 6 KStG ergeben sich die stillen Reserven nach folgender Berechnung: Gemeiner Wert): 10.000.000 €; abzüglich Eigenkapital 4.000.000 €; = stille Reserven 6.000.000 €. (Die überzählige Klammer in „Gemeiner Wert)“ steht so in der Quelle.)" },
+      { text: "Für Zwecke des § 8c Abs. 1 Satz 6 KStG werden aber nur die stillen Reserven berücksichtigt, die bei einer späteren Veräußerung im Inland steuerpflichtig wären. Dabei sind die stillen Reserven der (mittelbar) erworbenen Beteiligung an der Z-GmbH in Höhe von 400.000 € auszuscheiden, da der Gewinn nach § 8b Abs. 2 KStG steuerfrei wäre. Daher ist für die Verschonungsgrenze von einem Betrag der stillen Reserven von 5.600.000 € auszugehen." },
+      { text: "Wäre die Z-GmbH ebenfalls eine Verlustgesellschaft, wären bei dieser die für ihre Verschonung maßgeblichen stillen Reserven nach den Grundsätzen des § 8c Abs. 1 Satz 5 KStG zu ermitteln." },
+      { typ: "tabelle", spalten: ["Ausgangslage", "maßgebliche Ausgangsgröße", "Norm", "Ermittlung"], zeilen: [
+        ["Eigenkapital positiv, Erwerb von 100 %", "gemeiner Wert des Anteils", "§ 8c Abs. 1 Satz 6 KStG", "abgeleitet aus dem Veräußerungspreis"],
+        ["Eigenkapital positiv, Erwerb unter 100 %", "gemeiner Wert des Anteils, hochgerechnet auf 100 %", "§ 8c Abs. 1 Satz 6 KStG", "ebenso"],
+        ["Eigenkapital negativ", "gemeiner Wert des Betriebsvermögens", "§ 8c Abs. 1 Satz 7 KStG", "Unternehmensbewertung – das gezahlte Entgelt ist unmaßgeblich"],
+      ] },
+      { typ: "tabelle", spalten: ["Auszuscheidende stille Reserven", "Grund"], zeilen: [
+        ["ausländisches Betriebsvermögen in einem DBA-Staat mit Freistellungsmethode", "die Realisierung unterliegt nicht der inländischen Besteuerung"],
+        ["Beteiligungen i. S. des § 8b Abs. 2 KStG", "ein späterer Veräußerungsgewinn wäre steuerfrei"],
+        ["stille Reserven eines Mitunternehmeranteils, für den Gewerbeverlust der Kapitalgesellschaft", "die Personengesellschaft unterliegt selbst der Gewerbesteuerpflicht – ihre stillen Reserven können nur ihren eigenen Gewerbeverlust verschonen"],
+      ] },
+      { typ: "tabelle", spalten: ["Schritt des Beispiels", "Betrag"], zeilen: [
+        ["gemeiner Wert des Anteils (Kaufpreis für 100 %)", "10.000.000 €"],
+        ["abzüglich steuerliches Eigenkapital", "./. 4.000.000 €"],
+        ["stille Reserven nach § 8c Abs. 1 Satz 6 KStG", "6.000.000 €"],
+        ["abzüglich stille Reserven der Beteiligung an der Z-GmbH (500.000 € ./. 100.000 €)", "./. 400.000 €"],
+        ["für die Verschonungsgrenze maßgebliche stille Reserven", "5.600.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. 10.000.000 € ./. 4.000.000 € = 6.000.000 €; die stillen Reserven der Z-Beteiligung betragen 500.000 € ./. 100.000 € = 400.000 €; 6.000.000 € ./. 400.000 € = 5.600.000 €." },
+      { text: "Eigene Rechnung zum negativen Kapital: Die Quelle beschreibt das „offensichtlich unzutreffende Ergebnis“ nur verbal. Es lässt sich leicht beziffern. Wäre das Eigenkapital etwa ./. 5.000.000 € und würde der Anteil für den symbolischen Preis von 1 € erworben, ergäbe § 8c Abs. 1 Satz 6 KStG stille Reserven von 1 € ./. (./. 5.000.000 €) = rund **5.000.000 €** – und zwar allein deshalb, weil das Eigenkapital negativ ist. Tatsächlich stille Reserven in dieser Höhe müssen aber gar nicht vorhanden sein; dass der Kaufpreis bei 1 € liegt, spricht sogar dagegen. Genau diesen Rechenfehler beseitigt § 8c Abs. 1 Satz 7 KStG, indem er den **Anteilswert** durch den Wert des **Betriebsvermögens** ersetzt." },
+      { text: "Anmerkung zum Wechsel der Ausgangsgröße (eigene Ergänzung): Der Unterschied zwischen Satz 6 und Satz 7 lässt sich auf eine Formel bringen, und die Quelle hebt das Wort mit einem Ausrufezeichen hervor. Satz 6 rechnet vom **Anteil** her, Satz 7 vom **Betriebsvermögen**. Das ist deshalb wirksam, weil ein negatives Eigenkapital den Anteil rechnerisch wertlos macht, während das Betriebsvermögen sehr wohl noch Reserven enthalten kann. Die Folge ist zugleich ein erheblicher **Aufwand**: Der Kaufpreis taugt nicht mehr als Anknüpfungspunkt, es bedarf einer vollständigen **Unternehmensbewertung**. Der Steuerpflichtige muss sie erbringen, wenn er die Verschonung beanspruchen will." },
+      { text: "Anmerkung zum typischen Anwendungsfall (eigene Ergänzung): Das von der Quelle genannte Beispiel ist die klassische Sanierungskonstellation und verdient eine Vergegenwärtigung. Das negative Eigenkapital beruht auf **Gesellschafterdarlehen**, die wegen eines Rangrücktritts die Überschuldung zwar bilanziell abwenden, aber das steuerliche Eigenkapital ins Minus drücken. Verzichtet der bisherige Gesellschafter im Zuge der Anteilsübertragung auf seinen Darlehensanspruch, entsteht daraus eine verdeckte Einlage – und die Gesellschaft ist plötzlich wieder werthaltig. Ohne § 8c Abs. 1 Satz 7 KStG ließe sich über diesen Weg eine Verschonung in Höhe des zuvor negativen Kapitals erzeugen." },
+      { text: "Anmerkung zum Territorialitätsgedanken (eigene Ergänzung): Die Beschränkung auf **im Inland steuerpflichtige** stille Reserven ist die konsequente Fortsetzung des Grundgedankens aus Abschnitt 1.5.1. Verschont wird der Verlust, weil er bei Realisierung der stillen Reserven gebraucht wird – kann die Realisierung im Inland gar nicht besteuert werden, wird dort auch kein Verlust benötigt. Praktisch bedeutet das eine zweistufige Rechnung: erst die stillen Reserven insgesamt nach Satz 6 oder 7, dann der Abzug der nicht steuerbaren Teile. Im Beispiel kostet allein eine einzige Beteiligung 400.000 € Verschonungsvolumen." },
+      { text: "Anmerkung zur Gewerbesteuer (eigene Ergänzung): Der Hinweis auf § 10a Satz 10 GewStG fügt eine dritte, leicht übersehene Ausscheidungsgruppe hinzu und folgt derselben Logik auf der Ebene der **Steuersubjekte**. Die stillen Reserven eines Mitunternehmeranteils gehören gewerbesteuerlich zur **Personengesellschaft**, weil diese selbst gewerbesteuerpflichtig ist. Sie können deshalb nur deren eigenen Gewerbeverlust verschonen, nicht den der beteiligten Kapitalgesellschaft. Daraus folgt, dass die Verschonungsrechnung für Körperschaftsteuer und Gewerbesteuer **auseinanderfallen** kann – ein Punkt, den die Quelle an dieser Stelle nur andeutet, der aber in gemischten Strukturen eine getrennte Berechnung erzwingt." },
+    ],
+  },
+  {
+    id: "kst-t5-14",
+    kapitel: "14",
+    abschnittNr: "1.5.1.4",
+    title: "1.5.1.3 Keine rückwirkende Beeinflussung und 1.5.1.4 Auswirkungen auf den Zinsvortrag",
+    thema: "Eine rückwirkende Umwandlung erhöht die stillen Reserven nicht. Die Reserven verschonen zuerst den Verlust; nur ein Überhang rettet den Zinsvortrag – der EBITDA-Vortrag bleibt ohnehin unberührt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 1.5.1.3 und 1.5.1.4 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 8c Abs. 1 Satz 8 KStG",
+      "§ 8a Abs. 1 Satz 3 KStG",
+      "§ 2 Abs. 1 UmwStG",
+    ],
+    themen: ["Rückwirkung", "§ 2 Abs. 1 UmwStG", "stille Reserven", "Zinsvortrag", "EBITDA-Vortrag", "Verrechnungsreihenfolge"],
+    bloecke: [
+      { text: "§ 8c Abs. 1 Satz 8 KStG regelt einen Sonderfall, der sich aus der Anwendung der Rückwirkung i.S. des § 2 Abs. 1 UmwStG ergibt. Dies hätte gerade im Zusammenhang mit der Ermittlung der stillen Reserven zu unerwünschten Effekten führen können, wenn nach der schädlichen Anteilsübertragung eine rückwirkende Umwandlung auf die Verlustgesellschaft stattgefunden hätte und sich somit deren steuerliches Eigenkapital und deren stille Reserven erhöhen würden. Daher regelt die Vorschrift, dass für Zwecke der Verschonungsgrenze nur auf die stillen Reserven abzustellen ist, die in dem Betriebsvermögen der Kapitalgesellschaft vor der rückwirkenden Umwandlungsmaßnahme enthalten waren. Die Rückwirkung wird somit für Zwecke der Verschonungsregelung ausgeblendet." },
+      { text: "Beispiel: A erwirbt zum 10.04.2025 sämtliche Anteile an der B-GmbH (ungenutzter Verlust: 10.000.000 €). Die stillen Reserven sollen unstrittig 0 € betragen. Am 04.05.2025 verschmilzt A mit steuerlicher Wirkung i.S. des § 2 Abs. 1 UmwStG zum 31.12.2024 seine A-GmbH zum Buchwert auf die B-GmbH, die danach über ein steuerliches Betriebsvermögen von 1.000.000 € und stille Reserven von 10.000.000 € verfügt." },
+      { text: "Lösung: Die rückwirkende Verschmelzung beeinflusst das für die Ermittlung der stillen Reserven i.S. des § 8c Abs. 1 Satz 5 KStG maßgebliche Betriebsvermögen nicht. Gemäß § 8c Abs. 1 Satz 8 KStG sind hierfür ausschließlich die Verhältnisse maßgebend, die sich ohne rückwirkende Verschmelzung ergeben hätten. Daher sind hierfür die Werte zum 10.04.2025 und damit die stillen Reserven von 0 € maßgebend." },
+      { typ: "titel", text: "1.5.1.4 Auswirkungen auf den Zinsvortrag" },
+      { text: "Gemäß § 8a Abs. 1 Satz 3 KStG wirkt sich § 8c KStG auch auf einen bestehenden Zinsvortrag aus, welcher in den Grenzen des § 8c Abs. 1 Satz 1 KStG ebenfalls untergehen kann. Im Zusammenhang mit der Verschonungsgrenze ist aber zu beachten, dass die stillen Reserven i.S. des § 8c Abs. 1 Satz 5 KStG zunächst mit dem nicht genutzten Verlust zu verrechnen sind. Erst ein danach verbleibender Überhang der stillen Reserven steht für eine (eher theoretische) Verschonung des Zinsvortrags zur Verwendung. Nach dem eindeutigen Gesetzeswortlaut des § 8a Abs. 1 Satz 3 KStG erstreckt sich § 8c KStG aber nicht auf den EBITDA-Vortrag, welcher davon somit unberührt bleibt." },
+      { text: "Beispiel: A erwirbt zum 01.01.2025 sämtliche Anteile an der B-GmbH (Verlust zum 31.12.2024: 10.000.000 €, Zinsvortrag: 5.000.000 €). Die stillen Reserven i.S. des § 8c Abs. 1 Satz 5 KStG sollen 12.000.000 € betragen." },
+      { text: "Lösung: Nach § 8c Abs. 1 Satz 1 KStG würde in 2025 sowohl der Verlust als auch der Zinsvortrag vollständig untergehen. Die vorhandenen stillen Reserven von 12.000.000 € führen aber nach § 8c Abs. 1 Satz 5 KStG zunächst zu einer Verschonung des Verlustes, so dass dieser in vollständiger Höhe erhalten bleibt." },
+      { text: "Die nicht genutzten stillen Reserven von 2.000.000 € werden aufgrund § 8a Abs. 1 Satz 3 KStG dazu verwendet, um einen Teil des Zinsvortrags zu erhalten. Der Überhang des Zinsvortrags von 3.000.000 € geht aber ungenutzt unter, so dass in 2025 nur noch ein Zinsvortrag von 2.000.000 € genutzt werden könnte." },
+      { typ: "tabelle", spalten: ["Zeitpunkt im Rückwirkungsbeispiel", "Vorgang", "Bedeutung für die Verschonung"], zeilen: [
+        ["10.04.2025", "A erwirbt sämtliche Anteile an der B-GmbH", "maßgeblicher Stichtag – stille Reserven 0 €"],
+        ["04.05.2025", "Verschmelzung der A-GmbH auf die B-GmbH", "tatsächlicher Vollzug, für die Verschonung unbeachtlich"],
+        ["31.12.2024", "steuerlicher Übertragungsstichtag nach § 2 Abs. 1 UmwStG", "wird nach § 8c Abs. 1 Satz 8 KStG ausgeblendet"],
+        ["Ergebnis", "stille Reserven nach der Verschmelzung 10.000.000 €", "bleiben außer Betracht – der Verlust von 10.000.000 € geht unter"],
+      ] },
+      { typ: "tabelle", spalten: ["Schritt des Zinsvortragsbeispiels", "Betrag"], zeilen: [
+        ["vorhandene stille Reserven", "12.000.000 €"],
+        ["Verlust zum 31.12.2024", "10.000.000 €"],
+        ["davon verschont – vorrangige Verwendung der stillen Reserven", "10.000.000 €, also vollständig"],
+        ["verbleibender Überhang der stillen Reserven", "2.000.000 €"],
+        ["Zinsvortrag", "5.000.000 €"],
+        ["davon verschont nach § 8a Abs. 1 Satz 3 KStG", "2.000.000 €"],
+        ["untergehender Zinsvortrag", "3.000.000 €"],
+        ["EBITDA-Vortrag", "unberührt"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. 12.000.000 € stille Reserven abzüglich 10.000.000 € Verlust ergeben einen Überhang von 2.000.000 €; 5.000.000 € Zinsvortrag abzüglich 2.000.000 € verschont ergeben 3.000.000 € Untergang, so dass 2.000.000 € Zinsvortrag erhalten bleiben. Bemerkenswert ist, dass die stillen Reserven hier **ausreichen**, um den gesamten Verlust zu retten – der Fall ist bewusst so gebaut, dass überhaupt ein Überhang entsteht und die Zinsvortragsregel sichtbar wird." },
+      { text: "Anmerkung zur „eher theoretischen“ Verschonung (eigene Ergänzung): Die Quelle bezeichnet die Verschonung des Zinsvortrags selbst als eher theoretisch, und die Verrechnungsreihenfolge erklärt, warum. Weil die stillen Reserven **zuerst** und vollständig auf den Verlust treffen, bleibt für den Zinsvortrag nur etwas übrig, wenn die Reserven den gesamten Verlust übersteigen – dann aber ist ohnehin der gesamte Verlust gerettet. Praktisch greift die Regel also nur bei Gesellschaften mit **hohen stillen Reserven und vergleichsweise geringem Verlust**, und gerade dort ist der Verlustuntergang das kleinere Problem. Wer die Reihenfolge umkehrte, käme zu einem für den Steuerpflichtigen deutlich günstigeren Ergebnis." },
+      { text: "Anmerkung zum EBITDA-Vortrag (eigene Ergänzung): Dass § 8c KStG den **EBITDA-Vortrag** nicht erfasst, ist eine für den Steuerpflichtigen günstige Lücke und beruht allein auf dem **Wortlaut** des § 8a Abs. 1 Satz 3 KStG, den die Quelle als eindeutig bezeichnet. Systematisch wäre auch das Gegenteil vertretbar, denn der EBITDA-Vortrag ist wie der Zinsvortrag eine gesellschaftsbezogene Rechengröße der Zinsschranke. Für die Klausur ist die Abgrenzung damit eine reine **Merkfrage**: Zinsvortrag ja, EBITDA-Vortrag nein. Kapitel 3 dieses Skripts behandelt beide Größen im Zusammenhang." },
+      { text: "Anmerkung zur Rückwirkungssperre (eigene Ergänzung): § 8c Abs. 1 Satz 8 KStG schließt eine Gestaltungslücke, die sich fast von selbst aufdrängt. Ohne die Vorschrift könnte der Erwerber nach dem schädlichen Erwerb eine werthaltige Gesellschaft **rückwirkend** auf die Verlustgesellschaft verschmelzen und so die stillen Reserven zum maßgeblichen Stichtag nachträglich erzeugen – im Beispiel wären das 10.000.000 €, also genau der Betrag des gefährdeten Verlustes. Die Vorschrift fügt sich damit in eine Linie, die dieses Skript mehrfach zieht: Die umwandlungssteuerliche Rückwirkung gilt für § 8c KStG **nicht** – weder für den Zeitpunkt des Erwerbs (Abschnitt 1.4.1) noch für die Bewertung der stillen Reserven." },
+      { text: "Anmerkung zur Zeitenfolge im Beispiel (eigene Ergänzung): Die drei Daten sind bewusst gewählt und lohnen die Betrachtung. Der Erwerb liegt am **10.04.2025**, die Verschmelzung wird am **04.05.2025** vollzogen und wirkt steuerlich auf den **31.12.2024** zurück – also auf einen Zeitpunkt **vor** dem Erwerb. Genau daraus entstünde ohne die Sperre der Effekt: Am 10.04.2025 hätte die B-GmbH rückblickend bereits das übernommene Vermögen besessen. Die Quelle stellt deshalb ausdrücklich auf die Verhältnisse ab, die sich **ohne** die Verschmelzung ergeben hätten." },
     ],
   },
 ];

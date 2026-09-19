@@ -10620,6 +10620,45 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 1.5.1.1.3 bis 1.5.1.4 – negatives Kapital, steuerpflichtige stille Reserven, Rückwirkungssperre, Zinsvortrag
+
+Quelle: dieselbe Datei, Seiten 24 bis 26; übernommen als Kapitel 13 und 14. Prüfung:
+`npm run check:k2-kst-teil5` (14 Kapitel, 279 Blöcke, 29 Tabellen).
+
+**Alle Beträge sind unabhängig nachgerechnet und gehen auf:** 10.000.000 € ./. 4.000.000 € =
+6.000.000 € stille Reserven; die stillen Reserven der Beteiligung an der Z-GmbH betragen
+500.000 € ./. 100.000 € = 400.000 €; 6.000.000 € ./. 400.000 € = 5.600.000 € maßgebliche stille
+Reserven. Zinsvortragsbeispiel: 12.000.000 € ./. 10.000.000 € = 2.000.000 € Überhang;
+5.000.000 € ./. 2.000.000 € = 3.000.000 € untergehender Zinsvortrag, 2.000.000 € bleiben erhalten.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „in Höhe des
+negativen Eigenkapitals immer auch stillen Reserven ergeben würden" (Numerusfehler) und die
+überzählige Klammer in „Gemeiner Wert)" im Rechenweg des Beispiels.
+
+**Eine Bezifferung ist eigens ergänzt.** Die Quelle beschreibt das „offensichtlich unzutreffende
+Ergebnis" des § 8c Abs. 1 Satz 6 KStG bei negativem Eigenkapital nur verbal. Die eigene Rechnung
+macht es sichtbar: Bei einem Eigenkapital von ./. 5.000.000 € und einem symbolischen Kaufpreis von
+1 € ergäben sich rechnerisch 1 € ./. (./. 5.000.000 €) = rund 5.000.000 € stille Reserven – allein
+deshalb, weil das Eigenkapital negativ ist. Genau diesen Effekt beseitigt § 8c Abs. 1 Satz 7 KStG,
+indem er die Ausgangsgröße vom Anteil auf das Betriebsvermögen umstellt.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die Formel zum Wechsel der Ausgangsgröße
+(Satz 6 rechnet vom Anteil, Satz 7 vom Betriebsvermögen) samt dem daraus folgenden Aufwand einer
+vollständigen Unternehmensbewertung; die Vergegenwärtigung des typischen Anwendungsfalls
+(Gesellschafterdarlehen mit Rangrücktritt, Verzicht im Zuge der Anteilsübertragung); die Einordnung
+der Inlandsbeschränkung als Fortsetzung des Territorialitätsgedankens aus Abschnitt 1.5.1 samt der
+daraus folgenden zweistufigen Rechnung; die Feststellung, dass die Verschonungsrechnungen für
+Körperschaft- und Gewerbesteuer wegen § 10a Satz 10 GewStG auseinanderfallen können – ein Punkt,
+den die Quelle an dieser Stelle nur andeutet; die Erklärung, warum die Quelle die Verschonung des
+Zinsvortrags selbst als „eher theoretisch" bezeichnet (die Reserven treffen zuerst vollständig auf
+den Verlust); die Einordnung der EBITDA-Ausnahme als reine Wortlautfolge; die Gestaltungslücke, die
+§ 8c Abs. 1 Satz 8 KStG schließt; und die Betrachtung der drei Daten im Rückwirkungsbeispiel
+(10.04.2025 Erwerb, 04.05.2025 Vollzug, 31.12.2024 steuerlicher Übertragungsstichtag, also vor dem
+Erwerb).
+
+**Noch offen:** aus Teil V die Verlustkürzung (1.6), die Organschaftsfälle (1.7) sowie die
+Kapitel 2 bis 4; ganz offen sind die Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 1.4.6 und 1.5.1 – Fünfjahreszeitraum und Verschonungsgrenze
 
 Quelle: dieselbe Datei, Seiten 20 bis 23; übernommen als Kapitel 11 und 12. Prüfung:
