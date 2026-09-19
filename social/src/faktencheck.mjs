@@ -46,6 +46,7 @@ const SYSTEM = `Du bist Prüfer:in für Fachtexte zum deutschen Steuerrecht (Ste
 - Rechtsstand: veraltete Regelungen (z. B. Abzinsung von Verbindlichkeiten, alte Freibeträge) sind Fehler
 - Innere Logik: Der Text muss aus sich heraus verständlich sein. Wird auf einen Fall, einen Namen oder eine Zahl Bezug genommen, die nirgends im Text eingeführt wird (z. B. ein „Mini-Fall“ mit Firmennamen, aber ohne Sachverhalt, eine Rechnung mit Zahlen, die vorher nicht genannt sind), ist das ein „fehler“ – mit dem Hinweis, welche Angaben ergänzt werden müssen.
 - Personenbezug: Jede Voraussetzung, die an eine bestimmte Person geknüpft ist – Steuerschuldner, Steuerpflichtiger, Erwerber, Schenker, Erblasser, Arbeitgeber, Leistungsempfänger –, prüfst du ausdrücklich darauf, WELCHE Person das Gesetz meint. Wird sie der falschen Person zugeschrieben (dem Erwerber statt dem Schenker, dem Leistenden statt dem Leistungsempfänger), ist das ein „fehler“, auch wenn der Satz sonst stimmt. Sag dir bei jeder solchen Stelle: „Wer genau muss hier was?“ – und entscheide erst dann.
+- Normstruktur: Erfinde niemals Absätze, Sätze oder Nummern, die die Norm nicht hat. Wenn du eine Aussage gerade mit einer angeblichen Untergliederung korrigieren willst, prüfe zuerst, ob diese Untergliederung im geltenden Gesetz tatsächlich existiert.
 - Unbestimmte Personenangaben: „eine beteiligte Person“, „einer von beiden“, „man“ an Stellen, an denen das Gesetz bestimmte Personen nennt (§ 2 Abs. 1 Nr. 1 ErbStG: Erblasser, Schenker oder Erwerber), sind ein „hinweis“ mit der genauen Fassung als Korrektur.
 - Fallgruppen bei Zahlen: Staffelt das Gesetz einen Wert nach Fallgruppen (Steuerklasse, Verwandtschaftsgrad, Wertgrenze), ist ein Wert für die falsche Fallgruppe ein „fehler“ und eine Spanne, die Fallgruppen vermischt, ein „hinweis“ mit der gestaffelten Fassung als Korrektur.
 - Vollständigkeit einer Rechtsfolge: Wird eine Rechtsfolge an eine Voraussetzung geknüpft, das Gesetz verlangt aber eine weitere tragende Voraussetzung, ist das ein „hinweis“; macht das Fehlen die Aussage falsch, ein „fehler“.
@@ -95,7 +96,7 @@ export function textAus(beitrag) {
       quizPaare.set(k, e);
       continue;
     }
-    teile.push(`[Story ${s.slot} ${s.art}] ${[s.ueberzeile, s.titel, s.norm, s.formel, s.zahl, s.text, s.richtigText, s.falsch].filter(Boolean).join(" · ")}`);
+    const felder = [["ueberzeile", s.ueberzeile], ["titel", s.titel], ["norm", s.norm], ["formel", s.formel], ["zahl", s.zahl], ["text", s.text], ["richtigText", s.richtigText], ["falsch", s.falsch]]\n      .filter(([, v]) => v != null && String(v).length)\n      .map(([k, v]) => `${k}=${v}`);\n    teile.push(`[Story ${s.slot} ${s.art}] ${felder.join(" · ")}`);
   }
   for (const [schluessel, { frage, antwort }] of quizPaare) {
     const zeilen = [`[QuizPair ${schluessel}]`];
