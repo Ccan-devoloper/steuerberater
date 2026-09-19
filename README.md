@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 43 Kapitel mit 704 Abschnitten und 50 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 45 Kapitel mit 754 Abschnitten und 60 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5157,6 +5157,43 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Beteiligung. Was hier eingelegt wird, kehrt später als **Einlagenrückgewähr** zurück, weil die
   Organgesellschaft regelmäßig keinen ausschüttbaren Gewinn hat. Sämtliche Zahlen aller drei Beispiele
   sind unabhängig nachgerechnet und gehen auf.
+  Bei **§ 8c KStG im Organkreis** entscheidet allein der **Zeitpunkt** des schädlichen Erwerbs, und
+  der Unterschied ist erheblich. Erfolgt er **unterjährig**, unterbleibt jede
+  **Ergebniskonsolidierung**, und die Quelle begründet das mit einer zeitlichen Überlegung, die sie
+  ausdrücklich als zutreffend bezeichnet: Die Gewinnabführung entsteht erst mit **Ablauf** des
+  Wirtschaftsjahres, im Erwerbszeitpunkt gibt es also noch **keine Zurechnung**, die konsolidiert
+  werden könnte – Organgesellschaft und Organträger stehen sich in diesem Augenblick wie zwei
+  **selbstständige** Gesellschaften gegenüber. Daraus folgt alles Weitere: die getrennte Kürzung auf
+  beiden Ebenen, die getrennte Prüfung der stillen Reserven und die Notwendigkeit von
+  **Zwischenabschlüssen**, denn nur ausnahmsweise darf geschätzt werden. Erfolgt der Erwerb dagegen
+  **mit Ablauf des Wirtschaftsjahres**, wird zuerst **konsolidiert**; das negative Organeinkommen
+  wird damit Teil des Verlustes des Organträgers und geht mit unter.
+  Wie stark sich das auswirkt, zeigt der Vergleich beider Beispiele, die bis auf den Erwerbszeitpunkt
+  identisch sind. **Unterjährig** (01.07.2025) gehen bei der Organgesellschaft 500.000 € laufender
+  Verlust unter, so dass ein Organeinkommen von ./. 400.000 € verbleibt; beim Organträger gehen
+  600.000 € laufender Verlust und der Verlustvortrag von 1.000.000 € unter – gleichwohl weist seine
+  Verlustfeststellung zum 31.12.2025 wieder **1.000.000 €** aus, weil der **nach** dem Erwerb
+  entstandene Verlust und das zugerechnete negative Organeinkommen unberührt bleiben. **Mit Ablauf
+  des Wirtschaftsjahres** (31.12.2025) verlagert sich der gesamte Verlust der Organgesellschaft als
+  Organeinkommen von ./. 900.000 € zum Organträger, dessen konsolidiertes Ergebnis von ./. 2.100.000 €
+  vollständig untergeht – zusammen mit seinem Verlustvortrag und dem vororganschaftlichen Verlust der
+  Organgesellschaft insgesamt **3.400.000 €**; es verbleibt **nichts**. Ein Erwerb einen Tag vor dem
+  Bilanzstichtag ist für den Erwerber also spürbar **günstiger** als einer mit dessen Ablauf.
+  Für die **Organgesellschaft** kehrt sich das Bild um: Unterjährig trifft § 8c KStG ihren **eigenen**
+  laufenden Verlust, beim Stichtagserwerb bleibt dieser erhalten, weil er sich bereits verlagert hat,
+  und es kann nur noch der **vororganschaftliche** Verlust untergehen. Dass dieser in **beiden**
+  Fällen verloren ist, bestätigt die Warnung aus § 15 Satz 1 Nr. 1 KStG: Der eingefrorene Verlust ist
+  über Jahre nicht nutzbar, bleibt aber die ganze Zeit **gefährdet**. Die **Stille-Reserven-Klausel**
+  wirkt im Organkreis **ungünstiger** als bei sonst gleicher Lage, und der Grund ist systematisch:
+  Beim Organträger bleiben die stillen Reserven der **Organbeteiligung** außer Betracht, weil ihre
+  Realisierung nach § 8b Abs. 2 KStG **steuerfrei** wäre – und was steuerfrei ist, kann keinen Verlust
+  verschonen. Damit fällt gerade der Posten aus, in dem sich die Werthaltigkeit des Organkreises
+  typischerweise sammelt. Bei der Organgesellschaft wirken sie nur für ihre **eigenen** Verluste, und
+  zwar in fester **Rangfolge**: zuerst das laufende unterjährige negative Einkommen, erst danach der
+  vororganschaftliche Verlust. Erzielt der Organträger bis zum Erwerb einen **Gewinn**, wird der
+  Verlustvortrag damit **ohne Mindestbesteuerung** verrechnet und ist insoweit dem Zugriff des § 8c
+  KStG entzogen – eine für den Steuerpflichtigen günstige Reihenfolge, die im ersten Beispiel 600.000 €
+  rettet. Sämtliche Zahlen aller vier Rechnungen sind unabhängig nachgerechnet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

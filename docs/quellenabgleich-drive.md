@@ -10620,6 +10620,67 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitt 3.3.5 – § 8c KStG bei Organschaft
+
+Übernommen sind die Seiten 58 bis 61 der Quelle: der unterjährige Erwerb der Anteile
+(3.3.5.1) und der Erwerb mit Ablauf des Wirtschaftsjahres (3.3.5.2), jeweils mit
+Grundfall und Abwandlung, insgesamt vier durchgerechnete Fälle. Der Datensatz umfasst
+damit 45 Kapitel mit 754 Abschnitten und 60 Tabellen; geprüft mit
+`npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Entscheidend ist der Zeitpunkt des Erwerbs. Unterjährig
+unterbleibt die Ergebniskonsolidierung, weil die Gewinnabführung noch nicht entstanden
+ist; gekürzt wird auf beiden Ebenen getrennt, nötig sind Zwischenabschlüsse. Beim
+Erwerb mit Ablauf des Wirtschaftsjahres wird zuerst konsolidiert, so dass das negative
+Organeinkommen Teil des untergehenden Verlustes des Organträgers wird; bei der
+Organgesellschaft kann dann nur noch der vororganschaftliche Verlust untergehen. Die
+Stille-Reserven-Klausel ist stets getrennt zu prüfen; beim Organträger bleiben die
+stillen Reserven der Organbeteiligung außer Betracht, weil ihre Realisierung nach
+§ 8b KStG steuerfrei wäre.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Beide Sachverhalte schreiben „Zum 31.12.2024 besitzen die A-GmbH einen
+  Verlustvortrag“ – „besitzen“ statt „besitzt“.
+- Beide Sachverhalte schreiben „Sowohl der Anteil an der A-GmbH, als auch der Anteil
+  der B-GmbH“; gemeint ist „der Anteil an der B-GmbH“.
+- Abschnitt 3.3.5.1 schreibt „sowie deren weiteren ungenutzte Verluste“ und
+  „nur bei ihren eigenen Verluste aus“; die Deklination ist jeweils nicht
+  durchgeführt.
+- Abschnitt 3.3.5.2 schreibt „dessen verbleibendes negative Einkommen“ – ebenso.
+- Die Anmerkung zu 3.3.5.1 nennt das Ergebnis „Das gesamte Organeinkommen würde
+  danach 200.000 € betragen“. Gemeint ist das **zu versteuernde Einkommen des
+  Organträgers**; das Organeinkommen beträgt in diesem Fall unverändert ./. 400.000 €.
+  Die Zahl selbst ist richtig.
+- Abschnitt 3.3.5.2 schreibt „so dass der auch für Zwecke des § 8c KStG maßgebliche
+  ungenutzte Verlust des Jahres 2025 insgesamt 2.100.000 € beträgt. Dazu gehört auch der
+  zum 31.12.2024 bestehende Verlustvortrag von 1.000.000 €.“ Die Formulierung legt
+  nahe, der Verlustvortrag sei in den 2.100.000 € enthalten. Das ist nicht der Fall – er
+  tritt hinzu, wie die getrennt geführte Verlustfeststellung zeigt, so dass beim
+  Organträger insgesamt 3.100.000 € untergehen.
+
+**Eigene Nachrechnung.** Alle vier Fälle sind unabhängig nachgerechnet und gehen auf.
+
+| Fall | Rechnung | Ergebnis |
+| --- | --- | --- |
+| 3.3.5.1 Organgesellschaft | ./. 900.000 € + 500.000 € | Organeinkommen ./. 400.000 €, zvE 0 € |
+| 3.3.5.1 Organträger | ./. 1.200.000 € + 600.000 € ./. 400.000 € | zvE ./. 1.000.000 €, Verlustfeststellung 1.000.000 € |
+| 3.3.5.1 Abwandlung | 1.200.000 € ./. 400.000 € ./. 600.000 € | zvE 200.000 €, Verlustfeststellung 0 € |
+| 3.3.5.2 Organträger | ./. 1.200.000 € ./. 900.000 € + 2.100.000 € | zvE 0 €, Verlustfeststellung 0 € |
+| 3.3.5.2 Abwandlung | 1.200.000 € ./. 900.000 € ./. 300.000 € | zvE 0 €, Verlustfeststellung 0 € |
+
+Die Mindestbesteuerung wirkt sich in keiner der beiden Abwandlungen aus, weil die
+abgezogenen Beträge (600.000 € beziehungsweise 300.000 €) unter der Grenze von
+1.000.000 € liegen. Die von der Quelle genannte Nebenrechnung 600.000 € ./. 400.000 € =
+200.000 € führt auf dasselbe Ergebnis wie die Tabelle: verbleibendes eigenes Einkommen
+nach Verlustabzug abzüglich des negativen Organeinkommens.
+
+Als eigene Ergänzungen sind im Datensatz ausgewiesen: eine Gegenüberstellung beider
+Erwerbszeitpunkte in Tabellenform, die Erläuterung, warum unterjährig 1.000.000 €
+Verlustvortrag erhalten bleiben und beim Stichtagserwerb nichts, die Asymmetrie der
+Stille-Reserven-Klausel im Organkreis und der Hinweis, dass sich hier die in Abschnitt
+3.2.4.1 beschriebene Gefahr für den eingefrorenen Verlust verwirklicht.
+
 ### KSt Teil VI (Hamacher), Abschnitt 3.3.4 – weitere Einzelfragen beim Organträger
 
 Übernommen sind die Seiten 55 bis 58 der Quelle: die Rückstellung für die
