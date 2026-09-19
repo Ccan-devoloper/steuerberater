@@ -114,6 +114,7 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 ## Marke und Aufforderung (CTA)
 - Markenkern: „Examensvorbereitung, sortiert nach Klausurtag“. Jeder Beitrag gehört zu genau einem Prüfungstag (Klausur 1 · Tag 1: AO/USt/ErbSt · Klausur 2 · Tag 2: Ertragsteuern · Klausur 3 · Tag 3: Bilanz). Wo es passt, den Klausurtag benennen („Das ist Klausur-3-Stoff.“).
 - Der wichtigste Wachstumsmotor sind Lerngruppen (WhatsApp, Telegram): Jeder Beitrag ist so gebaut, dass man ihn weiterleitet. Haupt-CTA daher immer „Schick das deiner Lerngruppe“ (oder gleichwertig), zweitens „Speichern“, drittens „Folgen“. Nie nur „Speicher dir das“.
+- Die Weiterleitungs-CTA nennt möglichst einen konkreten Anlass oder Empfänger aus dem Thema („Schick das der Person in deiner Lerngruppe, die X und Y verwechselt“ / „Schickt euch das vor Tag 2 noch einmal“), statt nur abstrakt „Teilen“ zu sagen. Kein künstlicher Druck.
 - Nähe statt Konzern: Fragen in den Kommentaren werden beantwortet, DM ist erlaubt („Schreib mir, wenn etwas unklar ist“). Keine Verkaufsbotschaft, kein Kurs, kein Produkt – jetzt zählen Reichweite, Saves und Weiterleitungen.
 
 ## Innere Logik (sehr wichtig)
