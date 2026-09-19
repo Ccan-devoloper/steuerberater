@@ -1037,6 +1037,31 @@ function korrigiereUst14c(thema) {
   };
 }
 
+
+function korrigiereUst14cKurzform(thema) {
+  normErgaenzen(thema, "§ 14c Abs. 1 UStG", "EuGH 01.08.2025 – C-794/23", "BFH 26.03.2026 – V R 46/25");
+  if (thema.typ === "quiz") {
+    thema.kern = {
+      ...thema.kern,
+      optionen: [
+        "Er schuldet stets nur die 7 %",
+        "Grundsätzlich kommt § 14c Abs. 1 für den Mehrbetrag in Betracht; bei Rechnung an einen nicht steuerpflichtigen Endverbraucher entsteht insoweit nach BFH V R 46/25 keine §-14c-Steuerschuld",
+        "Die Rechnung ist nichtig",
+        "Der Leistungsempfänger schuldet die Differenz",
+      ],
+      richtig: 1,
+      erklaerung: "19 % statt richtig 7 % ist grundsätzlich ein unrichtiger Steuerausweis nach § 14c Abs. 1 UStG. Seit BFH V R 46/25 gilt aber: Soweit die Rechnung an einen nicht steuerpflichtigen Endverbraucher erteilt wird, entsteht aus dem Mehrbetrag keine §-14c-Abs.-1-Steuerschuld. Ein steuerpflichtiger Empfänger ist nicht schon wegen privater Verwendung Endverbraucher.",
+    };
+    return;
+  }
+  if (thema.typ === "karteikarte") {
+    thema.kern = {
+      ...thema.kern,
+      antwort: "§ 14c Abs. 1: unrichtiger, insbesondere zu hoher Steuerausweis. Grundsätzlich kann der Mehrbetrag geschuldet werden; soweit die Rechnung an einen nicht steuerpflichtigen Endverbraucher geht, entsteht nach EuGH C-794/23 und BFH V R 46/25 jedoch keine §-14c-Abs.-1-Steuerschuld. § 14c Abs. 2 betrifft den unberechtigten Steuerausweis; dessen Berichtigung setzt grundsätzlich die Beseitigung der Gefährdung des Steueraufkommens voraus.",
+    };
+  }
+}
+
 function korrigiereUwa9a(thema) {
   normErgaenzen(thema, "§ 3 Abs. 9a Nr. 1 und 2 UStG", "§ 15a UStG", "BMF 01.04.2026 – III C 2 - S 7316/00022/007/023");
   thema.kern = {
@@ -1285,6 +1310,8 @@ export function socialKorrekturenAnwenden(pool) {
       case "ust-modul-ust-161": kennzeichneGastronomie(thema); korrigierePv30Kwp(thema); break;
       case "ust-modul-ust-164": korrigiereUstVorsteuer14c(thema); break;
       case "ust-modul-ust-209": korrigiereUst14c(thema); break;
+      case "ust-quiz-ust-5": korrigiereUst14cKurzform(thema); break;
+      case "ust-karte-ust-14": korrigiereUst14cKurzform(thema); break;
       case "ust-modul-ust-212": korrigiereUwa9a(thema); break;
       case "ust-modul-ust-224": korrigiereUstZuordnung2026(thema); break;
       case "ust-modul-ust-225": korrigierePkwArbeitnehmer(thema); break;
