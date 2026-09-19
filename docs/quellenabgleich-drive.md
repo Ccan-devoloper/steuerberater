@@ -10620,6 +10620,47 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 4.2.5.2 und 4.3 – nahe stehende Personen und § 32a KStG
+
+Quelle: dieselbe Datei, Seiten 53 bis 57; übernommen als Kapitel 38 und 39. Prüfung:
+`npm run check:k2-kst-teil4` (39 Kapitel, 612 Blöcke, 57 Tabellen).
+
+**Alle Beträge sind unabhängig nachgerechnet und gehen auf:** 500.000 € ./. 100.000 € = 400.000 €
+vGA, davon 60 % = 240.000 € steuerpflichtig, Anschaffungskosten der Ehefrau 100.000 € + 400.000 € =
+500.000 €; 60 % von 10.000 € = 6.000 €; 980.000 € ./. 500.000 € = 480.000 € vGA, davon 60 % =
+288.000 €.
+
+**Ein zweiter fehlerhafter Querverweis der Quelle ist benannt.** Abschnitt 4.2.5.2 verweist für die
+Dreiecksfälle auf „4.4.4“. Das Inhaltsverzeichnis kennt keinen solchen Abschnitt – das Kapitel 4
+endet bei 4.4 (Verhältnis zu § 1 AStG), die Dreiecksfälle bilden das Kapitel 5. Das entspricht dem
+schon in einer früheren Runde festgehaltenen Befund, dass die Quelle für die Dreiecksfälle an anderer
+Stelle auf „4.4“ verweist. Der Verweis ist wortlautgetreu übernommen und die Einordnung
+gekennzeichnet.
+
+**Die Festsetzungsfrist des Beispiels zu 4.3 ist eigens nachgerechnet.** Die Quelle nennt den
+19.09.2027 und kommt damit über 16.08.2026 zuzüglich drei Tagen Bekanntgabefiktion, einem Monat
+Einspruchsfrist und einem Jahr. Nach eigener Rechnung ergäbe sich der 21.09.2027: Seit dem 01.01.2025
+beträgt die Bekanntgabefiktion des § 122 Abs. 2 AO vier Tage (Bekanntgabe am 20.08.2026), die
+Einspruchsfrist endete am Sonntag, dem 20.09.2026, und verschöbe sich nach § 108 Abs. 3 AO auf Montag,
+den 21.09.2026. Auch nach der früheren Dreitagesfrist käme man dorthin, weil der 19.09.2026 ein
+Samstag ist. Die Abweichung ist ausdrücklich als eigene Herleitung gekennzeichnet und ändert an der
+Aussage des Beispiels nichts.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die Unterscheidung zwischen verkörpertem
+Wirtschaftsgut und bloßer Ersparnis als Schlüssel des Abschnitts 4.2.5.2; der Preisvergleich zwischen
+Eigenbezug und Bezug durch die Ehefrau beim zinslosen Darlehen; die Abgrenzung von formeller und
+materieller Korrespondenz (die eine regelt das Ob der Änderung, die andere die Höhe der Besteuerung);
+die Zweischneidigkeit des § 32a KStG samt Korrekturpflicht; und die Probe, dass die Differenz von
+192.000 € im Beispiel genau dem freigestellten Teil entspricht.
+
+**Zwei Eigenheiten der Quelle sind festgehalten:** die Form „eine diesem nahe stehender Person“ sowie
+die Doppelung des Gedankens, der Körperschaftsteuerbescheid sei kein Grundlagenbescheid – er steht im
+Abschnitt 4.3 zweimal, einmal mit der Begründung „lediglich eine formelle Korrespondenz“, einmal mit
+„keine verfahrensrechtliche Bindung“. Beide Stellen sind unverändert übernommen.
+
+**Noch offen:** aus Teil IV das Verhältnis zu § 1 AStG (4.4) sowie die Kapitel 5 (Dreiecksfälle) und
+6 (Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 4.2.4 und 4.2.5.1 – Umqualifizierung und Verbrauchstheorie
 
 Quelle: dieselbe Datei, Seiten 51 bis 53; übernommen als Kapitel 36 und 37. Prüfung:

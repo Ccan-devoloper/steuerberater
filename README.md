@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 37 Kapitel mit 572
-  Abschnitten und 52 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 39 Kapitel mit 612
+  Abschnitten und 57 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3342,6 +3342,41 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ergibt eine **Einlage**. Im Maschinenbeispiel führt das zu einem Bilanzansatz von 109.500 € – genau
   der gemeine Wert abzüglich der tatsächlich angefallenen Umsatzsteuer, dasselbe Muster wie bei den
   181.000 € des Abschnitts 3.2.2.
+  Bei **nahe stehenden Personen** hängt der ganze Abschnitt an einer einzigen Frage: Ist der Vorteil
+  in einem **Wirtschaftsgut** verkörpert oder nicht? Beim Wirtschaftsgut wandert ein Vermögenswert
+  mit und bleibt bei der nahe stehenden Person als „geschenkte“ Anschaffungskosten sichtbar – im
+  Beispiel der Ehefrau 100.000 € gezahlt zuzüglich 400.000 € zugewendet, also genau der volle gemeine
+  Wert von 500.000 €; die Verbrauchstheorie stellt sie so, als hätte sie den vollen Preis bezahlt.
+  Beim bloßen **Nutzungsvorteil** wandert dagegen nichts Greifbares, sondern nur eine Ersparnis, und
+  eine Ersparnis lässt sich nicht aktivieren. Deshalb bricht die Kette dort ab: Der Anteilseigner
+  versteuert, aber **niemand** darf abziehen – bei ihr, weil ihr tatsächlich keine Aufwendungen
+  entstanden sind, bei ihm, weil er aus der Finanzierung keine eigenen Einkünfte erzielt und § 12
+  Nr. 2 EStG die Zuwendung sperrt. Der Vergleich mit dem vorigen Abschnitt macht das Ergebnis
+  greifbar: Hätte der Gesellschafter selbst das zinslose Darlehen erhalten, wären 10.000 €
+  Werbungskosten abziehbar gewesen; erhält es die Ehefrau, versteuert er dieselben 10.000 € und der
+  Abzug entfällt vollständig. Die Begründung des Großen Senats – maßgebend sind nur **tatsächliche
+  oder rechtliche**, nicht fiktive Gegebenheiten – zeigt dabei, dass die Verbrauchstheorie keine
+  Billigkeitsregel ist, sondern eine Konsequenz der Zurechnung: Wo eine Belastung eingetreten ist,
+  darf abgezogen werden; wo nicht, nicht.
+  **§ 32a Abs. 1 KStG** löst genau das Problem, das die fehlende Bindungswirkung aufwirft: Weil der
+  Bescheid des Gesellschafters nicht automatisch mitläuft, ist er bei Aufdeckung der vGA häufig längst
+  bestandskräftig oder verjährt. Die Vorschrift schafft dafür eine eigene **Änderungsnorm**, die die
+  §§ 171 ff. AO verdrängt und auch bei einkommensteuerpflichtigen Anteilseignern gilt, sowie eine
+  eigene **Ablaufhemmung**: Die Festsetzungsfrist endet nicht vor Ablauf eines Jahres nach Bestandskraft
+  des Bescheids der benachteiligten Gesellschaft. Die fehlende Bindung lässt sie ausdrücklich bestehen –
+  genau darin liegt der Unterschied zwischen **formeller** und **materieller** Korrespondenz: Die
+  materielle regelt, *wie hoch* besteuert wird, die formelle nur, *ob überhaupt noch geändert* werden
+  darf. Sie wirkt dabei in **beide** Richtungen: Sie erlaubt nicht nur die nachträgliche Erfassung,
+  sondern verpflichtet das Finanzamt auch, die Begünstigung zu gewähren, und greift ebenso, wenn die
+  Gesellschaft die vGA im Klageverfahren wieder wegbekommt. Weil eine **Korrekturpflicht** ohne
+  Ermessensspielraum besteht, ist sie ein echter Anspruch des Steuerpflichtigen. Drei Grenzen
+  entscheiden in der Klausur die Punkte: Die Änderung des Körperschaftsteuerbescheids muss **gerade
+  die vGA** betreffen (ob sich die festgesetzte Steuer ändert, ist dagegen gleichgültig – wichtig in
+  Verlustjahren); der **Gewerbesteuermessbetrag** ist nicht erfasst, dort führt der Weg über § 35b
+  GewStG; und die erhöhten **Abschreibungen der Folgejahre** hält die Quelle ausdrücklich als eigene
+  Auffassung für nicht abgedeckt. Im Beispiel wirkt die Vorschrift doppelt: Die Einkünfte nach § 19
+  EStG sinken um 480.000 €, die nach § 20 EStG steigen um 288.000 € – die Differenz von 192.000 € ist
+  genau der nach § 3 Nr. 40 Buchstabe d EStG freigestellte Teil.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
