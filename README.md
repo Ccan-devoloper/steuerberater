@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 63 Kapitel mit 1.082 Abschnitten und 86 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 65 Kapitel mit 1.135 Abschnitten und 93 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5444,6 +5444,44 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ausschüttbare Gewinn, bleibt es bei der Ausschüttung; greift die Leistung auf das **Einlagekonto**
   durch, wird daraus eine Einlagenrückgewähr ohne Kapitalertragsteuer, die den Beteiligungsbuchwert
   verzehrt.
+  Bei der **Minderabführung** unterscheiden sich die beiden Absätze im Ergebnis **nicht**: Sie ist
+  stets **Einlage** und erhöht erfolgsneutral die Anschaffungskosten der Organbeteiligung. Ein feiner
+  Unterschied liegt nur in der Rechtsgrundlage – dort ordnet § 14 Abs. 4 Satz 3 KStG die Erhöhung
+  ausdrücklich an, hier wird auf die **allgemeinen** Einlagengrundsätze des § 6 Abs. 6 Satz 2 EStG
+  zurückgegriffen; und beim Einlagekonto gilt hier der reguläre § 27 Abs. 1 Satz 1 KStG statt des
+  Sonderrechts des Absatzes 6. Der Musterfall ist der **vororganschaftliche Verlustvortrag**, bei dem
+  drei Regeln ineinandergreifen: **Handelsrechtlich** zwingt § 301 AktG die Organgesellschaft, ihn
+  **selbst** auszugleichen, so dass im Beispiel nur 1.000.000 € statt 10.000.000 € abgeführt werden
+  dürfen; **steuerlich** bleibt er ungenutzt, weil § 15 Satz 1 Nr. 1 KStG den Verlustabzug
+  ausschließt; **bilanziell** entsteht aus der Differenz eine Minderabführung von 9.000.000 €, die
+  nach § 14 Abs. 3 KStG zur **Einlage** wird. Der Verlust wird also nicht vernichtet, sondern in
+  **Anschaffungskosten und Einlagekonto umgewandelt** und bleibt dem Organträger als künftiges
+  Veräußerungspotential erhalten. Der beiläufige Schlusshinweis der Quelle ist dabei der praktisch
+  wichtigste Satz: Wer die Abführung **nicht** um den vororganschaftlichen Verlust kürzt, verletzt
+  § 301 AktG und lässt die Organschaft **verunglücken** – die Minderabführung ist also nicht nur eine
+  Rechtsfolge, sondern das Kennzeichen einer **korrekt durchgeführten** Organschaft in dieser Lage.
+  Bei der **Organgesellschaft** löst die Mehrabführung keine Einkommensfolgen aus, durchläuft aber
+  die **reguläre** Verwendungsreihenfolge des § 27 Abs. 1 Satz 3 KStG – und der knappe Hinweis, dass
+  **§ 27 Abs. 6 KStG hier nicht anwendbar** ist, hat erhebliche Folgen: **Keine** der drei dortigen
+  Durchbrechungen greift, es wird also zuerst der ausschüttbare Gewinn geprüft, kein vorrangiger
+  Abzug vorgenommen und ein **Negativbestand bleibt ausgeschlossen**. Das ist folgerichtig, denn die
+  vororganschaftliche Mehrabführung ist keine bloße bilanzielle Korrekturgröße, sondern eine echte
+  Ausschüttung. Das lehrreichste der beiden Beispiele zeigt **beide Richtungen in einem einzigen
+  Sachverhalt**: Schreibt die Handelsbilanz einen Firmenwert auf fünf Jahre ab, die Steuerbilanz nach
+  § 7 Abs. 1 Satz 3 EStG aber auf fünfzehn, entstehen zunächst **Minderabführungen** von jährlich
+  20.000 € (Einlagen, einkommensneutral); ist die Handelsbilanz ab 2029 fertig, während die
+  Steuerbilanz weiterläuft, kehrt sich das Verhältnis um und es entstehen **Mehrabführungen** von
+  10.000 € (Ausschüttungen mit § 8b KStG, Pauschale und Kapitalertragsteuer). Über die gesamte
+  Laufzeit gleicht sich die Differenz vollständig aus, die **steuerlichen Folgen jedoch nicht** – der
+  Steuerpflichtige zahlt in der zweiten Phase, was er in der ersten nicht gespart hat. Dasselbe
+  Ausgleichsmuster bestätigt die Probe beim ersten Beispiel: Die Summe der Mehrabführungen
+  (9 × 10.000 € + 5.000 €) entspricht **genau** der Bilanzansatzerhöhung von 95.000 €.
+  Wie stark die **Rechtsform des Organträgers** wirkt, macht der unmittelbare Vergleich beider
+  Aufstellungen deutlich: Dieselbe Mehrabführung von 10.000 € führt bei einer **Kapitalgesellschaft**
+  zu einer Einkommenswirkung von **500 €** (der 5%-Pauschale), bei einer **natürlichen Person**
+  dagegen zu **6.000 €** (dem steuerpflichtigen Teil von 60 %) – dem **Zwölffachen**, und dies vor dem
+  Unterschied zwischen Einkommensteuertarif und 15 % Körperschaftsteuer. Sämtliche Zahlen beider
+  Beispiele sind unabhängig nachgerechnet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

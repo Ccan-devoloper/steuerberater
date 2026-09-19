@@ -10620,6 +10620,64 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.5.3.2 und 3.5.4 – Abschluss der vororganschaftlichen Mehr- und Minderabführungen
+
+Übernommen sind die Seiten 80 bis 83 der Quelle: die Minderabführung als Einlage mit
+dem Beispiel zum vororganschaftlichen Verlustvortrag (3.5.3.2) und die Auswirkungen bei
+der Organgesellschaft mit beiden Beispielen – nachaktivierte Herstellungskosten und
+Firmenwert mit abweichender Abschreibungsdauer (3.5.4). Damit ist Abschnitt 3.5
+**vollständig** übernommen. Der Datensatz umfasst 65 Kapitel mit 1.135 Abschnitten und
+93 Tabellen; geprüft mit `npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Die vororganschaftliche Minderabführung erhöht erfolgsneutral die
+Anschaffungskosten (§ 6 Abs. 6 Satz 2 EStG) und das Einlagekonto (§ 27 Abs. 1 Satz 1
+KStG); insoweit besteht kein Unterschied zu § 14 Abs. 4 KStG. Bei der Organgesellschaft
+löst die Mehrabführung keine Einkommensfolgen aus, durchläuft aber die reguläre
+Verwendungsreihenfolge – § 27 Abs. 6 KStG ist ausdrücklich **nicht** anwendbar, so dass
+keine der dortigen drei Durchbrechungen greift.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.5.4: „Bei der B-GmbH (Organträger) gilt werden die Einlagengrundsätze …
+  nachvollzogen“ – eines der beiden Verben steht überschüssig.
+- Abschnitt 3.5.4: „wirken sich die aktivierten Kosten in Jahren 2025 – 2034 aus“ –
+  es fehlt der Artikel.
+- Abschnitt 3.5.4: „Diese erfolgt in dem VZ der Erfassung der Gewinnausschüttung“ –
+  der Numerus passt nicht zum vorangehenden Plural; gemeint ist die Anrechnung.
+- Abschnitt 3.5.4: „wo hingegen“ statt „wohingegen“.
+- Abschnitt 3.5.4 formuliert zweimal, die Ausschüttung sei „nach § 8b Abs. 1 KStG und
+  § 8b Abs. 4 Satz 1 KStG steuerfrei“. § 8b Abs. 4 Satz 1 KStG ordnet der Sache nach
+  gerade die **Steuerpflicht** der Streubesitzdividende an; zutreffend formuliert es
+  Abschnitt 3.5.3.1, wonach die Streubesitzregelung der Steuerfreiheit **nicht
+  entgegensteht**. Dieselbe Verkürzung war bereits in Abschnitt 3.2.4.2 zu beanstanden.
+- Abschnitt 3.5.4 zitiert erneut „§ 3 Nr. 40d EStG“ statt § 3 Nr. 40 Buchst. d EStG.
+
+**Eigene Nachrechnung.** Alle Zahlen der drei Beispiele gehen auf.
+
+- *Vororganschaftlicher Verlustvortrag:* Steuerbilanzgewinn 10.000.000 € ./. Abführung
+  1.000.000 € = Minderabführung 9.000.000 €; Einlagekonto und Beteiligungsbuchwert je
+  + 9.000.000 €.
+- *Nachaktivierte Herstellungskosten:* Bei Anschaffung am 01.07.2024 und zehnjähriger
+  Nutzungsdauer entfallen auf 2024 zeitanteilig 5.000 €, der Bilanzansatz erhöht sich um
+  95.000 €. Die Mehrabführungen betragen 2025 bis 2033 je 10.000 € und 2034 noch
+  5.000 € – in der Summe **9 × 10.000 € + 5.000 € = 95.000 €** und damit genau die
+  Bilanzansatzerhöhung. Das ist die Probe darauf, dass sich die Differenz über die
+  Nutzungsdauer vollständig ausgleicht. Organträger als Kapitalgesellschaft: 990.500 €;
+  als natürliche Person: 996.000 €.
+- *Firmenwert:* handelsrechtlich 150.000 €/5 = 30.000 €, steuerlich 150.000 €/15 =
+  10.000 €, Differenz 20.000 € jährlich (2025 bis 2028); Organeinkommen 520.000 €,
+  Organträger 1.020.000 €. Ab 2029 kehrt sich das Verhältnis um: Mehrabführung 10.000 €,
+  Organeinkommen 490.000 €, Organträger 990.500 €.
+
+Als eigene Ergänzungen im Datensatz ausgewiesen: das Zusammenspiel der drei Vorschriften
+beim Verlustvortrag (§ 301 AktG, § 15 Satz 1 Nr. 1 KStG, § 14 Abs. 3 KStG), der Hinweis
+auf die drohende verunglückte Organschaft bei unterbliebener Kürzung der Abführung, die
+Tragweite des Ausschlusses von § 27 Abs. 6 KStG (keine der drei Durchbrechungen, kein
+Negativbestand), die Deutung des Firmenwert-Beispiels als Grundmuster mit beiden
+Richtungen in einem Sachverhalt und der unmittelbare Rechtsformvergleich: Dieselbe
+Mehrabführung von 10.000 € kostet die Kapitalgesellschaft 500 €, die natürliche Person
+6.000 € – das Zwölffache.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.5.1 bis 3.5.3.1 – vororganschaftliche Mehr- und Minderabführungen
 
 Übernommen sind die Seiten 77 bis 80 der Quelle: der Begriff mit den fünf
