@@ -467,6 +467,42 @@ function korrigierePar34(thema) {
 }
 
 
+
+function korrigiereAuskunftsersuchen93(thema) {
+  normErgaenzen(
+    thema,
+    "§ 93 Abs. 1–6 AO",
+    "§ 119 Abs. 2 AO",
+    "§ 356 AO",
+    "AEAO zu § 93 Nr. 1.1"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Auskunftsersuchen nach § 93 Abs. 1 AO sind Verwaltungsakte, für die grundsätzlich keine bestimmte Form vorgeschrieben ist (§ 119 Abs. 2 AO). Nach § 93 Abs. 2 S. 2 AO müssen sie auf Verlangen des Auskunftspflichtigen schriftlich ergehen; regelmäßig ist Schriftform nach dem AEAO ohnehin sachgerecht.",
+      "Die Rechtsbehelfsbelehrung ist keine Wirksamkeitsvoraussetzung des Auskunftsersuchens. Bei einem schriftlichen oder elektronischen Verwaltungsakt bewirkt eine fehlende oder unrichtige Belehrung nach § 356 AO grundsätzlich, dass statt der regulären Einspruchsfrist die dort geregelte Jahresfrist gilt.",
+      "Bei Drittauskunftsersuchen gilt § 93 Abs. 1 S. 3 AO als Subsidiaritätsregel: Andere Personen sollen grundsätzlich erst herangezogen werden, wenn die Sachverhaltsaufklärung durch die Beteiligten nicht zum Ziel führt oder keinen Erfolg verspricht. Sammelauskunftsersuchen nach Abs. 1a folgen einer eigenen Regelung.",
+    ],
+    lernziele: [
+      "Auskunftsersuchen nach § 93 AO als Verwaltungsakte einordnen",
+      "Formfreiheit nach § 119 Abs. 2 und Schriftform auf Verlangen nach § 93 Abs. 2 S. 2 unterscheiden",
+      "Rechtsbehelfsbelehrung nicht als Wirksamkeitsvoraussetzung behandeln",
+      "Fristfolge einer fehlenden oder unrichtigen Rechtsbehelfsbelehrung nach § 356 AO kennen",
+      "Subsidiarität von Drittauskunftsersuchen und Sonderregel für Sammelauskunftsersuchen trennen",
+      "Auskunftsverweigerungsrechte nach §§ 101–103 AO gesondert prüfen",
+    ],
+    pruefschritte: [
+      "Prüfen, ob ein hinreichend bestimmtes Auskunftsersuchen nach § 93 AO vorliegt und welche Person in Anspruch genommen wird.",
+      "Bei einem Dritten § 93 Abs. 1 S. 3 AO prüfen; bei Sammelauskunftsersuchen § 93 Abs. 1a gesondert anwenden.",
+      "Form bestimmen: grundsätzlich formfrei; auf Verlangen des Auskunftspflichtigen schriftlich (§ 93 Abs. 2 S. 2 AO).",
+      "Inhalt des Ersuchens nach § 93 Abs. 2 S. 1 AO sowie angemessene Antwortfrist und verlangte Auskunftsform prüfen.",
+      "Rechtsbehelfsbelehrung getrennt würdigen: Ihr Fehlen macht den Verwaltungsakt nicht unwirksam, sondern verändert nach § 356 AO grundsätzlich die Einspruchsfrist.",
+      "Verweigerungsrechte sowie mögliche Folgen eines rechtswidrigen Ersuchens gesondert prüfen; kein automatisches allgemeines Verwertungsverbot unterstellen.",
+    ],
+    merksatz: "§ 93-Auskunftsersuchen sind grundsätzlich formfreie Verwaltungsakte. Eine fehlende Rechtsbehelfsbelehrung macht sie nicht unwirksam; sie verschiebt den Rechtsschutz regelmäßig in die Jahresfrist des § 356 AO.",
+  };
+}
+
 function korrigiereBekanntgabeBevollmaechtigter(thema) {
   normErgaenzen(
     thema,
@@ -1664,6 +1700,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-modul-k3-36": korrigiereEntfernungspauschale(thema); break;
       case "bilanz-modul-k3-47": korrigierePar34(thema); break;
       case "erbst-modul-erbst-506": ergaenzeErbfallkosten(thema); break;
+      case "ao-modul-ao-303": korrigiereAuskunftsersuchen93(thema); break;
       case "ao-modul-ao-308": korrigiereBekanntgabeBevollmaechtigter(thema); break;
       case "ao-modul-ao-313": korrigiereAo122a(thema); break;
       case "ao-modul-ao-347": korrigiereAo164Vdn(thema); break;
