@@ -29,6 +29,7 @@ test("Entfernungspauschale nutzt 2026 0,38 Euro ab Kilometer 1", () => {
 test("§ 9 AStG verwendet Einkünfte und kennzeichnet 2025/2026", () => {
   const t = byId("istr-modul-istr-istr4-06");
   assert.match(kern(t), /gesamten Einkünfte/);
+  assert.match(kern(t), /§ 21 Abs\. 9 AStG/);
   assert.doesNotMatch(kern(t), /gesamten Bruttoerträge|Bruttoerträge[^"]*ermitteln/);
   const auftrag = rechtsstandAuftrag(t, new Date("2026-09-19T12:00:00Z"));
   assert.match(auftrag, /Rechtsstand 2026/);
@@ -45,6 +46,8 @@ test("§ 6b Social-Formeln enthalten keine erfundene Reihenfolge und beachten 2-
   const abs10 = byId("bilanz-formel-sechsb-abs10");
   assert.match(kern(abs10), /2\.000\.000/);
   assert.match(kern(abs10), /10\. Februar 2026/);
+  assert.match(kern(abs10), /kalendergleichem Wirtschaftsjahr[^"]*2027/);
+  assert.match(kern(abs10), /Kalenderwirtschaftsjahr 2026[^"]*500\.000/);
   const auftrag = rechtsstandAuftrag(abs10, new Date("2026-09-19T12:00:00Z"));
   assert.match(auftrag, /Rechtsstand 2026/);
   assert.match(auftrag, /2\.000\.000/);
