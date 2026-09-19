@@ -396,6 +396,41 @@ function korrigierePar34(thema) {
   };
 }
 
+
+function korrigiereBekanntgabeBevollmaechtigter(thema) {
+  normErgaenzen(
+    thema,
+    "§ 80 Abs. 2 und 5 AO",
+    "§ 122 Abs. 1 S. 3 und 4 AO",
+    "AEAO zu § 122 Nr. 1.7"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Eine allgemeine Bevollmächtigung und eine Empfangsvollmacht sind für die Bekanntgabe auseinanderzuhalten. Die Mitwirkung eines Steuerberaters an der Steuererklärung allein macht ihn nicht zum Empfangsbevollmächtigten.",
+      "Ohne nachgewiesene Empfangsvollmacht kann die Finanzbehörde einen Verwaltungsakt nach § 122 Abs. 1 S. 3 AO grundsätzlich auch gegenüber einem Bevollmächtigten bekannt geben. Liegt der Finanzbehörde dagegen eine schriftliche oder nach amtlich vorgeschriebenem Datensatz elektronisch übermittelte Empfangsvollmacht vor, soll der Verwaltungsakt nach Satz 4 grundsätzlich dem Bevollmächtigten bekannt gegeben werden; im Regelfall ist diese Soll-Vorgabe bindend, atypische Ausnahmefälle bleiben möglich.",
+      "Eine frühere Bekanntgabe an den Berater ist für sich genommen kein eigenständiger gesetzlicher Muss-Tatbestand. Entscheidend sind Bestand, Inhalt und Reichweite der Empfangsvollmacht im konkreten Verfahren.",
+    ],
+    lernziele: [
+      "allgemeine Vertretungsvollmacht und Empfangsvollmacht unterscheiden",
+      "Vermutung der ordnungsgemäßen Bevollmächtigung nach § 80 Abs. 2 AO nicht mit einer Empfangsvollmacht gleichsetzen",
+      "§ 122 Abs. 1 S. 3 als Kann-Bekanntgabe und Satz 4 als Soll-Bekanntgabe bei dokumentierter Empfangsvollmacht unterscheiden",
+      "Reichweite einer Empfangsvollmacht konkret auslegen",
+      "Widerruf oder Änderung der Vollmacht erst ab Zugang bei der Finanzbehörde berücksichtigen",
+      "Ehegatten-Sonderregeln nach § 122 Abs. 6 und 7 AO getrennt prüfen",
+    ],
+    pruefschritte: [
+      "Feststellen, ob und in welchem Umfang ein Bevollmächtigter nach § 80 AO bestellt ist.",
+      "Gesondert prüfen, ob der Bevollmächtigte zum Empfang von Verwaltungsakten ermächtigt ist; bloße Mitwirkung an der Steuererklärung genügt nicht.",
+      "Ohne dokumentierte Empfangsvollmacht § 122 Abs. 1 S. 3 AO anwenden: Bekanntgabe an den Bevollmächtigten ist möglich, aber nicht zwingend.",
+      "Bei schriftlicher oder nach amtlich vorgeschriebenem Datensatz elektronisch übermittelter Empfangsvollmacht § 122 Abs. 1 S. 4 AO anwenden: grundsätzlich Bekanntgabe an den Bevollmächtigten; atypische Ausnahmegründe gesondert prüfen.",
+      "Eine frühere Bekanntgabe an den Berater nicht als selbständigen Ersatz für die Prüfung der aktuellen Empfangsvollmacht behandeln.",
+      "Bei Ehegatten anschließend § 122 Abs. 6 und 7 AO sowie beantragte Einzelbekanntgabe oder bekannte ernstliche Meinungsverschiedenheiten prüfen.",
+    ],
+    merksatz: "Empfangsvollmacht entscheidet: Ohne sie ist die Beraterbekanntgabe nach § 122 Abs. 1 S. 3 grundsätzlich Kann-Sache; mit schriftlich oder elektronisch übermittelter Empfangsvollmacht greift Satz 4 als Soll-Regel. Frühere Praxis ersetzt diese Prüfung nicht.",
+  };
+}
+
 function korrigiereAo122a(thema) {
   normErgaenzen(thema, "§ 122a Abs. 1–5 AO", "Art. 97 § 28 Abs. 2 EGAO");
   const schritte = [...(thema.kern?.pruefschritte || [])];
@@ -1523,6 +1558,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-modul-k3-36": korrigiereEntfernungspauschale(thema); break;
       case "bilanz-modul-k3-47": korrigierePar34(thema); break;
       case "erbst-modul-erbst-506": ergaenzeErbfallkosten(thema); break;
+      case "ao-modul-ao-308": korrigiereBekanntgabeBevollmaechtigter(thema); break;
       case "ao-modul-ao-313": korrigiereAo122a(thema); break;
       case "ao-modul-ao-347": korrigiereAo164Vdn(thema); break;
       case "ao-modul-ao-351": korrigiereFeststellungsbescheid181(thema); break;
