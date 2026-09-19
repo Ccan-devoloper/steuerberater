@@ -134,10 +134,10 @@
       "slot": "exam paper with blank answer space",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-19T10:44:24.301Z",
-      "updatedAt": "2026-09-19T10:44:24.301Z"
+      "updatedAt": "2026-09-19T10:44:26.516Z"
     }
   ],
-  "stand": "2026-09-19T10:44:24.301Z"
+  "stand": "2026-09-19T10:44:26.516Z"
 }
