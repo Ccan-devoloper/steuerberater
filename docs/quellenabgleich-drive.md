@@ -10620,6 +10620,51 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.3.1 bis 3.3.3 – Auswirkungen beim Organträger
+
+Übernommen sind die Seiten 53 bis 55 der Quelle: die Einkommenszusammenrechnung
+(3.3.1), die zeitliche Erfassung des Organeinkommens mit dem Beispiel zum abweichenden
+Wirtschaftsjahr (3.3.2) und die Besonderheiten bei Beteiligungserträgen – Steuerfreistellung
+(3.3.3.1), Abzug einer ausländischen Steuer (3.3.3.2) und eigene Aufwendungen des
+Organträgers (3.3.3.3). Der Datensatz umfasst damit 38 Kapitel mit 652 Abschnitten und
+45 Tabellen; geprüft mit `npm run check:k2-kst-teil6`. Der Kopfabschnitt
+„STAND DER ÜBERNAHME“ des Datensatzes ist bei dieser Gelegenheit gestrafft und neu
+gegliedert worden, weil er über die Runden unübersichtlich geworden war.
+
+**Sachlicher Gehalt.** Beim Organträger ist zunächst der gebuchte Ertrag aus der
+Abführungsforderung zu eliminieren, bevor das festgestellte Organeinkommen zugerechnet
+wird; für die Verrechnung gelten die Grundsätze des § 10d EStG nicht. Zeitlich
+entscheidet allein das Wirtschaftsjahresende der Organgesellschaft, weshalb bei
+abweichenden Wirtschaftsjahren Zurechnung und Eliminierung auseinanderfallen. Bei einer
+Personengesellschaft als Organträger geht der unterjährig ausgeschiedene Mitunternehmer
+leer aus. Beteiligungserträge und das Wahlrecht zum Abzug ausländischer Steuer werden
+beim Organträger gewürdigt. Seine laufenden Beteiligungsaufwendungen sind voll abziehbar,
+substanzbezogene Gewinnminderungen dagegen nicht.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.3.1 schreibt „wenn das Organeinkommen z.B. negativ ist, dass originäre
+  Einkommen des Organträgers hingegen positiv“ – „dass“ statt „das“.
+- Abschnitt 3.3.2 schreibt „ist dem Organträger im dem Veranlagungszeitraum
+  zuzurechnen“ – „im dem“ statt „in dem“.
+- Abschnitt 3.3.2 schreibt „Den unterjährig ausgeschiedenen Gesellschafter ist das
+  Organeinkommen auch nicht zeitanteilig zuzurechnen“; der Kasus ist nicht durchgeführt.
+
+**Eigene Nachrechnung und Einordnung.** Das Beispiel zu 3.3.2 enthält keine Rechnung,
+sondern eine Zuordnung von Zeiträumen; sie ist eigenständig nachvollzogen und trifft zu:
+Das Wirtschaftsjahr 2025 der A-GmbH endet am 31.12.2025, die Zurechnung erfolgt daher im
+VZ 2025 der B-GmbH, deren Einkommen auf dem Ergebnis des am 31.05.2025 endenden
+Wirtschaftsjahres 2024/2025 beruht; der Ertrag aus dem Abführungsanspruch wird dagegen
+erst im Wirtschaftsjahr 2025/2026 gebucht und deshalb erst im VZ 2026 eliminiert. Die
+Quelle stützt die Zurechnung auf § 7 Abs. 4 KStG; diese Vorschrift betrifft die
+Ermittlung nach dem Wirtschaftsjahr, die Zurechnung selbst folgt aus § 14 Abs. 1 Satz 2
+KStG. Beides ist im Ergebnis stimmig, im Datensatz aber als eigene Ergänzung erläutert.
+Ebenfalls als eigene Ergänzungen ausgewiesen sind: die Spiegelbildlichkeit der
+Eliminierung gegenüber Abschnitt 3.2.1, die Tragweite der Nichtgeltung des § 10d EStG
+(keine Mindestbesteuerung bei der Zusammenrechnung), die Auflösung des Zeitversatzes im
+Beispiel und die Unterscheidung zwischen der Pauschale des § 8b Abs. 5 KStG und der
+Aufteilung nach § 3c Abs. 2 EStG.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.2.5.6 bis 3.2.6 – Abschluss der Einkommensermittlung bei der Organgesellschaft
 
 Übernommen sind die Seiten 51 bis 53 der Quelle: Kapitalertragsteuer und steuerliches

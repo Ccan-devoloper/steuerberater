@@ -10,40 +10,29 @@
    Gegliedert wird hier nach den Abschnitten der Quelle; jeder Abschnitt steht
    als eigener Eintrag.
 
-   STAND DER ÜBERNAHME: Aus Kapitel 1 sind die körperschaftsteuerliche
-   Organschaft mit ihren Hintergründen und Rechtsgrundlagen (1.1) sowie die
-   gewerbe- und umsatzsteuerliche Organschaft (1.2) übernommen. Aus Kapitel 2
-   sind die Tatbestandsvoraussetzungen (2.1), die Organgesellschaft (2.2) und
-   der Organträger mit der Rechtsformunabhängigkeit (2.3.1) und der Besonderheit
-   bei Personengesellschaften (2.3.2) übernommen, dazu die inländische
-   Besteuerung des Organeinkommens (2.3.3) und die finanzielle Eingliederung
-   (2.4 einschließlich der zeitlichen Voraussetzungen) sowie die Einleitung zum
-   Gewinnabführungsvertrag (2.5 mit den Rechtsformen, der EU/EWR-Gesellschaft und
-   der Mindestlaufzeit bis 2.5.4), dazu die Höhe der Gewinnabführung mit dem
-   Betrag des § 301 AktG, den Abführungssperren und den vorvertraglichen
-   Rücklagen (2.5.5), dazu die tatsächliche Durchführung (2.5.6) und der Beginn
-   der Heilungsvorschrift (2.5.7), dazu der Verstoß gegen den Vertrag (2.5.8) und
-   die Beendigung des Vertrags und die Auflösung der Beteiligten (2.5.9, 2.5.10).
-   Damit ist Kapitel 2 des Skripts VOLLSTÄNDIG übernommen. Aus Kapitel 3 sind das
-   Feststellungsverfahren (3.1), die Einkommensermittlung bei der
-   Organgesellschaft mit Ausgangsgröße, Schema und den herkömmlichen
-   Tatbeständen (3.2.1 bis 3.2.3) übernommen, dazu aus der Nichtgeltung von
-   Vorschriften der Ausschluss des Verlustabzugs (3.2.4.1) und die Bruttomethode
-   des § 15 Satz 1 Nr. 2 KStG (3.2.4.2) und die Zinsschranke mit dem
-   Anwendungsausschluss bei der Organgesellschaft und der Anwendung beim
-   Organträger (3.2.4.3) übernommen, dazu aus den Ausgleichszahlungen die
-   zivilrechtlichen Grundlagen, der Begriff des außenstehenden Gesellschafters,
-   die Bemessung und die Durchführungsfiktion des § 14 Abs. 2 KStG (3.2.5.1 bis
-   3.2.5.4) sowie die Auswirkungen der Ausgleichszahlung mit der
-   Einkommenshinzurechnung und dem eigenen Einkommen der Organgesellschaft
-   (3.2.5.5), Kapitalertragsteuer und Einlagekonto (3.2.5.6), die
-   Auswirkungen beim Minderheitsgesellschafter (3.2.5.7) sowie die
-   Gewinnausschüttungen der Organgesellschaft (3.2.6). Damit ist die
-   Einkommensermittlung bei der Organgesellschaft VOLLSTÄNDIG übernommen.
-   Es folgen die Gewinnausschüttungen (3.2.6), die
-   Auswirkungen beim Organträger (3.3), die Mehr- und Minderabführungen (3.4,
-   3.5), die verunglückte Organschaft (3.6) sowie Kapitel 4. Der Campus weist
-   den Stand aus.
+   STAND DER ÜBERNAHME: Die Kapitel 1 und 2 des Skripts sind VOLLSTÄNDIG
+   übernommen – die Formen der Organschaft (1.1, 1.2) und sämtliche
+   Voraussetzungen von den Tatbestandsmerkmalen über Organgesellschaft,
+   Organträger und finanzielle Eingliederung bis zum Gewinnabführungsvertrag
+   mit Mindestlaufzeit, Höhe der Abführung, tatsächlicher Durchführung,
+   Heilungsvorschrift, Verstoß und Beendigung (2.1 bis 2.5.10).
+
+   Aus Kapitel 3 sind übernommen:
+   - das Feststellungsverfahren (3.1),
+   - die Einkommensermittlung bei der Organgesellschaft VOLLSTÄNDIG, also
+     Ausgangsgröße, Schema und herkömmliche Tatbestände (3.2.1 bis 3.2.3), die
+     drei Nichtgeltungsfälle des § 15 KStG – Verlustabzug, Bruttomethode und
+     Zinsschranke (3.2.4) –, die Ausgleichszahlungen von den zivilrechtlichen
+     Grundlagen bis zu den Auswirkungen beim Minderheitsgesellschafter (3.2.5)
+     sowie die Gewinnausschüttungen der Organgesellschaft (3.2.6),
+   - aus den Auswirkungen beim Organträger die Einkommenszusammenrechnung
+     (3.3.1), die zeitliche Erfassung des Organeinkommens (3.3.2) und die
+     Besonderheiten bei Beteiligungserträgen (3.3.3).
+
+   Es folgen die weiteren Einzelfragen beim Organträger (3.3.4), § 8c und § 8d
+   KStG bei Organschaft (3.3.5, 3.3.6), die Mehr- und Minderabführungen (3.4,
+   3.5), die verunglückte Organschaft (3.6) sowie Kapitel 4 zur
+   gewerbesteuerlichen Organschaft. Der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -1832,6 +1821,167 @@ export const kstTeil6 = [
       { text: "Anmerkung zum gemeinsamen Nenner der fünf Fälle (eigene Ergänzung): Die Aufzählung wirkt zunächst zusammengewürfelt, folgt aber einer klaren Logik: Erfasst sind genau die Beträge, die der **Abführungspflicht des § 301 AktG nicht unterliegen**. Bei den ersten beiden ist es die gesetzliche Ausnahme des § 16 KStG zugunsten außenstehender Gesellschafter. Bei den **vororganschaftlichen** Rücklagen ist es der Minderheitenschutz des Abschnitts 2.5.5.3 – sie sind vor der Organschaft entstanden und bleiben der Abführung dauerhaft entzogen. Bei den **Kapital**rücklagen kommt hinzu, dass § 301 AktG ihre Auflösung ohnehin nicht einbezieht, weil sie aus Einlagen stammen; deshalb stehen dort auch die **während** der Organschaft gebildeten zur Verfügung. Die **Mehrabführung** schließlich ist gar keine echte Ausschüttung, sondern wird von § 14 Abs. 3 KStG nur als solche **fingiert**. Wer die Liste so liest, muss sie nicht auswendig lernen." },
       { text: "Anmerkung zum Ergebnis auf beiden Ebenen (eigene Ergänzung): Der Schlussabsatz zieht eine Folgerung, die für die Klausur bequem ist: Weil die Organgesellschaft ihren Gewinn vollständig abführt, hat sie regelmäßig **keinen ausschüttbaren Gewinn**, so dass jede dieser Leistungen die Verwendungsreihenfolge **durchläuft** und auf das **Einlagekonto** trifft. Beim Anteilseigner steht damit im Regelfall eine **Einlagenrückgewähr**, nicht eine steuerpflichtige Dividende. Das gilt für alle fünf Fälle gleichermaßen und verbindet diesen Abschnitt unmittelbar mit den Abschnitten 3.2.5.6 und 3.2.5.7. Praktisch bedeutsam ist dabei vor allem die **Verwendungsfestschreibung** des § 27 Abs. 5 KStG, weil eine einmal erteilte oder unterbliebene Steuerbescheinigung nicht mehr korrigiert werden kann." },
       { text: "Anmerkung zum Abschluss des Abschnitts 3.2 (eigene Ergänzung): Mit diesem Abschnitt ist die **Einkommensermittlung bei der Organgesellschaft** vollständig behandelt. Der Bogen reicht von der Ausgangsgröße und der Eliminierung der Abführung über die herkömmlichen Korrekturtatbestände und die drei Nichtgeltungsfälle des § 15 KStG bis zu den Ausgleichszahlungen und den ausnahmsweise möglichen Ausschüttungen. Es folgen die Auswirkungen **beim Organträger** (3.3), die Mehr- und Minderabführungen (3.4 und 3.5), die verunglückte Organschaft (3.6) und schließlich die gewerbesteuerliche Organschaft (Kapitel 4)." },
+    ],
+  },
+  {
+    id: "kst-t6-34",
+    kapitel: "34",
+    abschnittNr: "3.3.1",
+    title: "3.3.1 Auswirkungen beim Organträger – Einkommenszusammenrechnung",
+    thema: "Das festgestellte Organeinkommen wird dem Organträger zugerechnet; zuvor sind die Auswirkungen der handelsbilanziellen Gewinnabführung und Verlustübernahme zu beseitigen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.3.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 5 KStG",
+      "§ 14 Abs. 1 Satz 1 KStG",
+      "§ 10d EStG",
+      "§ 277 Abs. 3 HGB",
+      "R 7.1 Zeile 21 KStR",
+    ],
+    themen: ["Einkommenszusammenrechnung", "Zurechnung", "Eliminierung", "Gewinnabführungsforderung", "Verlustübernahmeverpflichtung"],
+    bloecke: [
+      { typ: "titel", text: "3.3 Auswirkungen beim Organträger" },
+      { typ: "titel", text: "3.3.1 Einkommenszusammenrechnung" },
+      { text: "Das im **Feststellungsbescheid** i.S. des § 14 Abs. 5 KStG ausgewiesene **Organeinkommen** wird dem Organträger **zugerechnet**. Dadurch kann sich insgesamt auch ein **negatives Einkommen** ergeben, wenn das Organeinkommen z.B. negativ ist, dass originäre Einkommen des Organträgers hingegen positiv (so in der Quelle; gemeint ist „das originäre Einkommen“). Für die Verrechnung des Organeinkommens gelten die **Grundsätze des § 10d EStG nicht**." },
+      { text: "Die eigene Einkommensermittlung erfolgt beim Organträger dabei zunächst **unter Ausblendung der Organschaft**. Korrespondierend zur Organgesellschaft sind dabei zunächst die Auswirkungen der handelsbilanziellen **Gewinnabführung** bzw. der **Verlustübernahme** (siehe § 277 Abs. 3 HGB) zu **beseitigen** (R 7.1 Zeile 21 KStR). Bei der Einkommensermittlung ist" },
+      { text: "– der **Ertrag** aus der gebuchten Gewinnabführungsforderung" },
+      { text: "– bzw. der **Aufwand** aus der gebuchten Verlustübernahmeverpflichtung" },
+      { text: "außerbilanziell wieder **abzuziehen** bzw. **hinzuzurechnen**." },
+      { typ: "tabelle", spalten: ["Schritt beim Organträger", "Wirkung"], zeilen: [
+        ["Ausgangspunkt: eigene Einkommensermittlung unter Ausblendung der Organschaft", "die Organschaft wird zunächst wie nicht vorhanden behandelt"],
+        ["gebuchter Ertrag aus der Gewinnabführungsforderung", "außerbilanziell abzuziehen, R 7.1 Zeile 21 KStR"],
+        ["gebuchter Aufwand aus der Verlustübernahmeverpflichtung", "außerbilanziell hinzuzurechnen"],
+        ["Zurechnung des festgestellten Organeinkommens", "der Betrag des Feststellungsbescheids nach § 14 Abs. 5 KStG"],
+        ["Verrechnung mit dem eigenen Einkommen", "ohne die Beschränkungen des § 10d EStG; ein negatives Gesamteinkommen ist möglich"],
+      ] },
+      { text: "Anmerkung zur Spiegelbildlichkeit der Korrektur (eigene Ergänzung): Der Organträger vollzieht **dieselbe Bewegung** wie die Organgesellschaft, nur mit umgekehrtem Vorzeichen. Dort war der erste Schritt die Eliminierung der als **Aufwand** gebuchten Abführung (Abschnitt 3.2.1), hier ist es die Eliminierung des als **Ertrag** gebuchten Abführungsanspruchs. Der Grund ist in beiden Fällen derselbe: Die handelsrechtliche Buchung ist bereits die **Erfüllung** des Vertrags und darf das steuerliche Ergebnis nicht zusätzlich beeinflussen – zugerechnet wird das **steuerliche** Einkommen, nicht der handelsrechtliche Gewinn. Ohne diese Korrektur würde derselbe Betrag beim Organträger zweimal erfasst, einmal als Ertrag und einmal als zugerechnetes Einkommen." },
+      { text: "Anmerkung zur Nichtgeltung des § 10d EStG (eigene Ergänzung): Der knappe Satz hat erhebliche Tragweite und ist nicht mit dem Ausschluss des Verlustabzugs bei der Organgesellschaft (Abschnitt 3.2.4.1) zu verwechseln. Gemeint ist hier, dass die Zusammenrechnung **kein Verlustabzug** ist: Ein negatives Organeinkommen wird mit dem positiven Einkommen des Organträgers **unmittelbar und unbeschränkt** verrechnet – die **Mindestbesteuerung** des § 10d Abs. 2 EStG greift also nicht. Genau darin liegt einer der praktischen Hauptvorteile der Organschaft. Erst das **Ergebnis** der Zusammenrechnung unterliegt, wenn es negativ bleibt, beim Organträger den gewöhnlichen Regeln des § 10d EStG." },
+    ],
+  },
+  {
+    id: "kst-t6-35",
+    kapitel: "35",
+    abschnittNr: "3.3.2",
+    title: "3.3.2 Zeitliche Erfassung des Organeinkommens",
+    thema: "Das Organeinkommen ist im Veranlagungszeitraum zuzurechnen, in dem das Wirtschaftsjahr der Organgesellschaft endet; bei abweichenden Wirtschaftsjahren fallen Zurechnung und Eliminierung auseinander",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.3.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 1 Satz 2 KStG",
+      "§ 7 Abs. 4 KStG",
+      "R 7.1 Zeile 21 KStR",
+      "BFH vom 29.10.1974, BStBl. II 1975, 126",
+      "BFH vom 28.02.2013, BStBl. II 2013, 494",
+    ],
+    themen: ["zeitliche Erfassung", "abweichendes Wirtschaftsjahr", "Veranlagungszeitraum", "Personengesellschaft als Organträger", "unterjährig ausgeschiedener Gesellschafter"],
+    bloecke: [
+      { typ: "titel", text: "3.3.2 Zeitliche Erfassung des Organeinkommens" },
+      { text: "Das Einkommen der Organgesellschaft ist dem Organträger im dem Veranlagungszeitraum zuzurechnen (so in der Quelle; gemeint ist „in dem Veranlagungszeitraum“), in welchem das **Wj. der Organgesellschaft endet** (BFH vom 29.10.1974, BStBl. II 1975, 126). Dies gilt auch in den Fällen, in denen die Wj. des Organträgers und der Organgesellschaft **nicht übereinstimmen**." },
+      { text: "In dieser Situation **fallen die Zeitpunkte** der Einkommenshinzurechnung einerseits und der Korrektur aufgrund der handelsbilanziell gebuchten Gewinnabführung bzw. Verlustübernahme andererseits **auseinander**." },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH (Wj. = Kj.) ist Organgesellschaft der B-GmbH (Wj. 01.06. – 31.05.). Das Organeinkommen der A-GmbH beträgt im Wj. 2025 insgesamt 500.000 €." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Das der B-GmbH zuzurechnende Organeinkommen ist im **VZ 2025** zu erfassen (§ 7 Abs. 4 KStG). Daher ist das Einkommen der B-GmbH auf der Grundlage ihres Ergebnisses zum **31.05.2025** (Wj. 2024/2025) inklusive des Organeinkommens 2025 zu ermitteln. Denn selbst ohne Organschaft hätte die A-GmbH ihr Einkommen in 2025 versteuern müssen, so dass die Vereinbarung des Organschaftsverhältnisses **nicht zu einer Verschiebung des Besteuerungszeitraumes** führen kann." },
+      { text: "Handelsrechtlich entsteht der Anspruch aus der Gewinnabführung aber erst mit **Ablauf des 31.12.2025**. Daher kann der Anspruch des Organträgers handelsbilanziell auch nur in der Bilanz des **Wj. 2025/2026** enthalten sein. Erst bei der **Einkommensermittlung 2026** ist dieser Betrag entsprechend zu **eliminieren** (R 7.1 Zeile 21 KStR)." },
+      { text: "Bestand das Organschaftsverhältnis schon vor 2025, ist in der Handelsbilanz zum 31.05.2025 der Gewinnabführungsanspruch **für 2024** enthalten. Dieser ist bei der Einkommensermittlung **2025** abzuziehen." },
+      { typ: "tabelle", spalten: ["Vorgang im Beispiel", "Veranlagungszeitraum der B-GmbH"], zeilen: [
+        ["Zurechnung des Organeinkommens 2025 der A-GmbH (Wj. endet 31.12.2025)", "VZ 2025, auf Grundlage des Ergebnisses zum 31.05.2025 (Wj. 2024/2025)"],
+        ["handelsbilanzielle Erfassung des Abführungsanspruchs für 2025", "erst im Wj. 2025/2026, also im VZ 2026"],
+        ["Eliminierung dieses Ertrags", "VZ 2026"],
+        ["Eliminierung des in der Bilanz zum 31.05.2025 enthaltenen Anspruchs für 2024", "VZ 2025"],
+      ] },
+      { typ: "titel", text: "Personengesellschaft als Organträger" },
+      { text: "Ist Organträger eine **Personengesellschaft**, ist das Organeinkommen nur den Mitunternehmern zuzurechnen, die **zum Abschluss des Wj.** an der Personengesellschaft beteiligt sind. Den unterjährig ausgeschiedenen Gesellschafter ist das Organeinkommen auch **nicht zeitanteilig** zuzurechnen (so in der Quelle; der Kasus ist nicht durchgeführt – gemeint ist „Dem unterjährig ausgeschiedenen Gesellschafter“) – BFH vom 28.02.2013, BStBl. II 2013, 494. Dies deshalb, weil die Gewinnabführung als **zeitpunktbezogener Geschäftsvorfall** erst mit **Ablauf des Wirtschaftsjahres** entsteht." },
+      { text: "Anmerkung zum tragenden Gedanken der Zeitregel (eigene Ergänzung): Die Quelle begründet die Zurechnung in den VZ des Wj.-Endes der **Organgesellschaft** mit einem Satz, der die ganze Regel erklärt: Ohne Organschaft hätte die Organgesellschaft ihr Einkommen in genau diesem Jahr versteuern müssen, und die Organschaft darf den **Besteuerungszeitraum nicht verschieben**. Die Organschaft ändert also, **wer** versteuert, nicht **wann**. Daraus folgt zwingend, dass das Wj. des Organträgers für die Zurechnung ohne Bedeutung ist – sein abweichendes Wj. entscheidet nur darüber, welches **eigene** Ergebnis in denselben Veranlagungszeitraum fällt." },
+      { text: "Anmerkung zum Auseinanderfallen im Beispiel (eigene Ergänzung): Der Fall ist auf den ersten Blick verwirrend, wird aber durchsichtig, wenn man die beiden Bewegungen **getrennt** verfolgt. Die **Zurechnung** folgt dem Wj.-Ende der Organgesellschaft (31.12.2025 → VZ 2025) und trifft dort auf das Ergebnis des Organträgers aus dessen Wj. 2024/2025, das bereits am 31.05.2025 endete – also **vor** dem Entstehen des Anspruchs. Die **Eliminierung** dagegen folgt der Buchung und kann erst dort greifen, wo der Ertrag steht: im Wj. 2025/2026, also im VZ 2026. In jedem laufenden Jahr wird deshalb das Organeinkommen des **aktuellen** Jahres zugerechnet und der Abführungsanspruch des **Vorjahres** eliminiert – bei durchgehender Organschaft gleicht sich das aus, im ersten und im letzten Jahr jedoch nicht." },
+      { text: "Anmerkung zur Personengesellschaft als Organträger (eigene Ergänzung): Die Regel wirkt hart, folgt aber zwingend aus dem Charakter der Gewinnabführung als **zeitpunktbezogenem** Vorgang: Der Anspruch entsteht in einer einzigen logischen Sekunde mit Ablauf des Wirtschaftsjahres, und wer da nicht mehr beteiligt ist, war an ihm nie berechtigt. Dieselbe Zeitpunktbetrachtung ist im Skript schon mehrfach tragend gewesen – bei R 14.4 Abs. 2 KStR zur Veräußerung zum Ende des Wirtschaftsjahres (Abschnitt 2.4.2) und bei der Entstehung des Abführungsanspruchs als maßgeblichem Zeitpunkt der gewerblichen Tätigkeit (Abschnitt 2.3.1). Für den ausscheidenden Mitunternehmer bedeutet sie, dass er weder an einem Gewinn noch an einem Verlust der Organgesellschaft teilnimmt – ein Umstand, der bei der Bemessung seiner Abfindung zu bedenken ist." },
+    ],
+  },
+  {
+    id: "kst-t6-36",
+    kapitel: "36",
+    abschnittNr: "3.3.3.1",
+    title: "3.3.3.1 Beteiligungserträge – Steuerfreistellung beim Organträger",
+    thema: "Beteiligungserträge im Organeinkommen sind nach § 15 Satz 1 Nr. 2 Satz 2 KStG erst beim Organträger zu würdigen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.3.3.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 15 Satz 1 Nr. 2 Satz 2 KStG",
+      "§ 8b KStG",
+      "§ 3 Nr. 40 EStG",
+    ],
+    themen: ["Beteiligungserträge", "Bruttomethode", "Steuerfreistellung", "Organträger"],
+    bloecke: [
+      { typ: "titel", text: "3.3.3 Besonderheit bei Beteiligungserträgen" },
+      { typ: "titel", text: "3.3.3.1 Steuerfreistellung beim Organträger" },
+      { text: "Beinhaltet das Organeinkommen auch **Beteiligungserträge der Organgesellschaft**, sind diese nach § 15 Satz 1 Nr. 2 Satz 2 KStG auf Ebene des Organträgers im Rahmen der Einkommensermittlung des Organträgers zu **würdigen** (siehe hierzu unter 3.2.4.2)." },
+      { text: "Anmerkung zur Stellung des Abschnitts (eigene Ergänzung): Der Abschnitt ist bewusst knapp, weil er nur die **zweite Hälfte** der Bruttomethode aufgreift, deren erste Hälfte – der Ausschluss des § 8b KStG bei der Organgesellschaft – bereits in Abschnitt 3.2.4.2 behandelt ist. Hier wird sichtbar, warum das Skript die Vorschrift zweimal anspricht: § 15 Satz 1 Nr. 2 KStG ist eine Norm mit **zwei Adressaten**. Satz 1 richtet sich an die Organgesellschaft und nimmt ihr die Anwendung des § 8b KStG, Satz 2 richtet sich an den Organträger und gibt sie ihm zurück – nach **seinen** Verhältnissen. Für die Fallbearbeitung heißt das: Die Prüfung der Steuerfreistellung gehört systematisch in die Einkommensermittlung des Organträgers, nicht in die der Organgesellschaft." },
+    ],
+  },
+  {
+    id: "kst-t6-37",
+    kapitel: "37",
+    abschnittNr: "3.3.3.2",
+    title: "3.3.3.2 Beteiligungserträge – Abzug einer ausländischen Steuer",
+    thema: "Der Antrag auf Abzug einer ausländischen Steuer nach § 34c Abs. 2 EStG ist vom Organträger zu stellen; die Beträge werden im Feststellungsbescheid ausgewiesen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.3.3.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 34c Abs. 2 EStG",
+      "§ 26 Abs. 2 Satz 2 KStG",
+      "§ 14 Abs. 5 KStG",
+      "§ 19 Abs. 5 KStG",
+      "Verfügung der OFD Frankfurt/Main vom 15.01.2018, S 2770 A 58 – St 51",
+    ],
+    themen: ["ausländische Steuer", "Abzug statt Anrechnung", "Antragsrecht", "Feststellungsbescheid"],
+    bloecke: [
+      { typ: "titel", text: "3.3.3.2 Abzug einer ausländischen Steuer" },
+      { text: "In den Fällen des **Abzugs einer ausländischen Steuer** i.S. des § 34c Abs. 2 EStG (§ 26 Abs. 2 Satz 2 KStG), die mit **Beteiligungserträgen der Organgesellschaft** zusammenhängen, muss der dafür maßgebliche **Antrag vom Organträger** gestellt werden (Verfügung der OFD Frankfurt/Main vom 15.01.2018, S 2770 A 58 – St 51). Diese Steuerbeträge werden daher auch im **Feststellungsbescheid** i.S. des § 14 Abs. 5 KStG ausgewiesen." },
+      { text: "Anmerkung zur durchgehenden Linie (eigene Ergänzung): Die Regel fügt sich lückenlos in das bisherige Bild: Wo eine Entscheidung von den **Verhältnissen des Steuerpflichtigen** abhängt, trifft sie der **Organträger**, weil bei ihm das Einkommen versteuert wird. Dasselbe gilt für die Steuerfreistellung nach § 8b KStG (Abschnitt 3.2.4.2), für die Ausnahmetatbestände der Zinsschranke (Abschnitt 3.2.4.3.2) und für die Anrechnung der Kapitalertragsteuer nach § 19 Abs. 5 KStG. Das **Wahlrecht** zwischen Anrechnung und Abzug ist dafür ein besonders klarer Fall, denn der Abzug lohnt nur, wenn die Anrechnung leerläuft – etwa bei einem Verlust –, und das lässt sich erst auf der Ebene beurteilen, auf der alle Ergebnisse zusammentreffen." },
+      { text: "Anmerkung zur Rolle des Feststellungsbescheids (eigene Ergänzung): Der Satz „werden daher auch im Feststellungsbescheid ausgewiesen“ zeigt zum dritten Mal dieselbe Technik. Der Bescheid nach § 14 Abs. 5 KStG trägt neben dem Organeinkommen sämtliche **Nebengrößen**, die der Organträger für seine eigenen Entscheidungen braucht: die Zinsaufwendungen und EBITDA-Bestandteile (Abschnitt 3.2.4.3.1), die Beteiligungserträge für die Bruttomethode und hier die ausländischen Steuern. Er ist damit nicht nur Grundlagenbescheid für einen Betrag, sondern die **Datenbrücke** zwischen den beiden Einkommensermittlungen." },
+    ],
+  },
+  {
+    id: "kst-t6-38",
+    kapitel: "38",
+    abschnittNr: "3.3.3.3",
+    title: "3.3.3.3 Eigene Aufwendungen des Organträgers",
+    thema: "Beteiligungsaufwendungen des Organträgers sind voll abziehbar, weil er regelmäßig keine Gewinnausschüttungen bezieht; substanzbezogene Gewinnminderungen bleiben dagegen ausgeschlossen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.3.3.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 3c Abs. 2 EStG",
+      "§ 8b KStG",
+      "§ 8b Abs. 1 KStG",
+      "§ 8b Abs. 5 Satz 1 KStG",
+      "§ 8b Abs. 3 Satz 3 KStG",
+      "§ 8b Abs. 3 Satz 4 KStG",
+      "§ 3 Nr. 40 EStG",
+      "BMF vom 26.08.2003, Tz. 24",
+      "BFH vom 25.07.2019, IV R 61/16",
+    ],
+    themen: ["Beteiligungsaufwendungen", "Betriebsausgabenpauschalierung", "Teileinkünfteverfahren", "substanzbezogene Gewinnminderung", "Teilwertabschreibung"],
+    bloecke: [
+      { typ: "titel", text: "3.3.3.3 Eigene Aufwendungen des Organträgers" },
+      { text: "Entstehen dem Organträger **laufende Aufwendungen**, die im wirtschaftlichen Zusammenhang mit der Beteiligung an der Organgesellschaft stehen, können diese **vollständig abgezogen** werden. Hierfür gelten die Einschränkungen des § 3c Abs. 2 EStG oder des § 8b KStG **grundsätzlich nicht**, weil der Organträger aus seiner Organbeteiligung in aller Regel **keine Gewinnausschüttungen** bezieht (BMF vom 26.08.2003, Tz. 24)." },
+      { text: "**Etwas Anderes** gilt nur in den Fällen, in denen die Organgesellschaft auch **Gewinnausschüttungen an den Organträger** vornimmt (siehe hierzu unter 3.2.6). Für die beteiligungsbezogenen Aufwendungen gilt dann folgendes:" },
+      { text: "– Bei einer **Kapitalgesellschaft** als Organträger löst die nach § 8b Abs. 1 KStG steuerfreie Gewinnausschüttung die **Betriebsausgabenpauschalierung** i.S. des § 8b Abs. 5 Satz 1 KStG aus. Die tatsächlichen Betriebsausgaben können daher (**unverändert**) abgezogen werden." },
+      { text: "– Bei einer **natürlichen Person** als Organträger gilt das **Teileinkünfteverfahren**. Die beteiligungsbezogenen Kosten sind für Zwecke des § 3c Abs. 2 EStG im **Schätzungswege aufzuteilen**, wofür das **Verhältnis der Ausschüttung und der Gewinnabführung** maßgebend ist (BFH vom 25.07.2019, IV R 61/16)." },
+      { text: "**Andererseits** können die **substanzbezogenen Gewinnminderungen** zur Organbeteiligung des Organträgers das Einkommen **nicht mindern**. § 8b Abs. 3 Satz 3 KStG bzw. § 8b Abs. 3 Satz 4 KStG gelten auch in diesen Fällen. Bei einer natürlichen Person als Organträger sind diesbezüglich die Einschränkungen des § 3c Abs. 2 EStG zu beachten." },
+      { typ: "tabelle", spalten: ["Aufwendung des Organträgers", "Behandlung"], zeilen: [
+        ["laufende Beteiligungsaufwendungen, keine Ausschüttung der Organgesellschaft", "vollständig abziehbar – § 3c Abs. 2 EStG und § 8b KStG greifen nicht"],
+        ["laufende Aufwendungen, Organträger ist Kapitalgesellschaft und erhält eine Ausschüttung", "unverändert voll abziehbar; die Ausschüttung löst die Pauschale des § 8b Abs. 5 Satz 1 KStG aus"],
+        ["laufende Aufwendungen, Organträger ist natürliche Person und erhält eine Ausschüttung", "Aufteilung im Schätzungswege nach dem Verhältnis von Ausschüttung und Gewinnabführung, § 3c Abs. 2 EStG"],
+        ["substanzbezogene Gewinnminderungen (z.B. Teilwertabschreibung auf die Organbeteiligung)", "nicht abziehbar, § 8b Abs. 3 Satz 3 und 4 KStG; bei natürlicher Person § 3c Abs. 2 EStG"],
+      ] },
+      { text: "Anmerkung zum Grund der vollen Abziehbarkeit (eigene Ergänzung): Die Regel beruht auf einer einfachen Beobachtung: § 3c Abs. 2 EStG und § 8b Abs. 5 KStG knüpfen an **steuerfreie Einnahmen** an – und gerade die bezieht der Organträger aus seiner Organbeteiligung **nicht**. Was er erhält, ist die **Gewinnabführung**, und die ist keine Dividende, sondern wird ohnehin eliminiert; besteuert wird bei ihm das **zugerechnete Einkommen** in voller Höhe. Wo es an der Steuerfreiheit fehlt, fehlt auch der Grund, den Aufwand zu kürzen. Refinanzierungszinsen für den Erwerb einer Organbeteiligung sind deshalb **voll** abziehbar – ein handfester Vorteil der Organschaft gegenüber der schlichten Beteiligung, bei der § 8b Abs. 5 KStG stets 5 % als nichtabziehbar behandelt." },
+      { text: "Anmerkung zum Gegensatz der beiden Rechtsformen (eigene Ergänzung): Kommt es doch zu einer Ausschüttung – möglich in den fünf Fällen des Abschnitts 3.2.6 –, laufen die Folgen **auseinander**, und der Grund liegt in der Bauweise der beiden Vorschriften. § 8b Abs. 5 KStG arbeitet mit einer **Pauschale**: 5 % der Ausschüttung gelten als nichtabziehbar, dafür bleibt der tatsächliche Aufwand **unberührt**. § 3c Abs. 2 EStG arbeitet dagegen mit einem **Zusammenhang**: Der tatsächliche Aufwand wird gekürzt, soweit er mit teilweise steuerfreien Einnahmen zusammenhängt – und weil derselbe Aufwand hier sowohl mit der Ausschüttung als auch mit der Gewinnabführung zusammenhängt, muss er **aufgeteilt** werden. Der BFH lässt dafür eine Schätzung nach dem Verhältnis beider Beträge genügen." },
+      { text: "Anmerkung zur Gegenrichtung bei Substanzverlusten (eigene Ergänzung): Der letzte Absatz kehrt die günstige Regel um, und das ist nur auf den ersten Blick widersprüchlich. **§ 8b Abs. 3 Satz 3 KStG** knüpft nämlich gerade **nicht** an steuerfreie Einnahmen an, sondern an die Beteiligung **als solche**: Weil ein Veräußerungsgewinn aus ihr nach § 8b Abs. 2 KStG steuerfrei wäre, bleibt auch die Gewinnminderung unberücksichtigt – unabhängig davon, ob je eine Ausschüttung geflossen ist. Eine **Teilwertabschreibung** auf die Organbeteiligung ist deshalb stets außer Ansatz zu lassen; Abschnitt 3.3.4.2 kommt darauf zurück. Für den Organträger ergibt sich damit eine klare Zweiteilung: **laufender** Aufwand voll abziehbar, **substanzbezogener** Aufwand nicht." },
     ],
   },
 ];
