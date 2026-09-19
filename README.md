@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 50 Kapitel mit 827 Abschnitten und 66 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 53 Kapitel mit 879 Abschnitten und 71 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5268,6 +5268,42 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   entspricht die Minderabführung genau dem Posten, der die Bilanzen auseinandertreten lässt: 100.000 €
   Rücklage im ersten, 500.000 € Rückstellung im zweiten Fall. Beide Rechnungen sind unabhängig
   nachgerechnet.
+  Bei der **Mehrabführung** steht es genau umgekehrt: Abgeführt wird **mehr**, als steuerlich
+  erwirtschaftet wurde. Der Abschnitt zeigt zugleich, dass Mehr- und Minderabführungen typischerweise
+  **paarweise** auftreten und sich über die Zeit **ausgleichen**. Die Gewinnrücklage erzeugt im Jahr
+  ihrer **Bildung** eine Minderabführung und im Jahr ihrer **Auflösung** eine Mehrabführung in
+  derselben Höhe – die Quelle nennt das ausdrücklich eine „Folgewirkung“. Bei der
+  **Drohverlustrückstellung** ist es ebenso: Ihre Bildung führt zur Minderabführung, weil sie
+  steuerlich nicht passiviert werden darf, ihr **Verbrauch** zur Mehrabführung, weil der Aufwand dann
+  erstmals steuerlich wirkt. Handels- und Steuerbilanz verhalten sich dabei spiegelbildlich –
+  handelsrechtlich ist der Aufwand vorweggenommen und der Eintritt nur noch eine **erfolgsneutrale**
+  Ausbuchung, steuerlich wirkt er **erstmals**. Die zeitliche Verschiebung des Aufwands zwischen
+  beiden Rechenwerken ist die eigentliche Ursache; Mehr- und Minderabführung sind nur ihr bilanzieller
+  Ausdruck. Wer den Zusammenhang erkennt, kann jede Mehrabführung auf ihre frühere Minderabführung
+  zurückführen und braucht die Fallgruppen nicht auswendig zu lernen.
+  Beim **Organeinkommen** schlägt die Abweichung unmittelbar durch, weil es aus dem
+  **Steuerbilanz**gewinn abgeleitet wird: Die Minderabführung erhöht es, die Mehrabführung mindert es.
+  Der Feststellungsbescheid weist deshalb **beides** aus – das Organeinkommen und den Betrag der
+  Abweichung. Das ist kein Doppel, sondern notwendig, weil beide Größen **verschiedene Adressaten**
+  haben: Das Einkommen wird dem Organträger zugerechnet und versteuert, die Abweichung löst bei ihm
+  eine **bilanzielle** Folge aus – eine Einlage oder eine Einlagenrückgewähr nach der Einlagenlösung.
+  Beim **steuerlichen Einlagekonto** durchbricht **§ 27 Abs. 6 KStG** gleich **drei** Grundsätze des
+  § 27 KStG, und alle drei haben denselben Grund: Die Mehrabführung ist kein gewöhnlicher Vorgang
+  zwischen Gesellschaft und Gesellschafter, sondern eine bloße **bilanzielle Korrekturgröße**.
+  Erstens gilt die **Verwendungsreihenfolge** des § 27 Abs. 1 Satz 3 KStG nicht, weil die
+  Gewinnabführung keine „Leistung“ ist – es wird also gar nicht geprüft, ob ein ausschüttbarer Gewinn
+  vorhanden ist. Zweitens wird die Mehrabführung **immer vorrangig** vor allen übrigen Leistungen
+  abgezogen (§ 27 Abs. 6 Satz 2 KStG). Drittens kann der Bestand dadurch sogar **negativ** werden,
+  was § 27 Abs. 1 Satz 4 KStG ausdrücklich zulässt, während er sonst gerade einen Negativbestand
+  verhindert. Der **Vorrang** hat dabei erhebliche praktische Sprengkraft: Er zehrt genau den Bestand
+  auf, aus dem sonst die **Einlagenrückgewähr** bedient wird – und weil die Organgesellschaft
+  regelmäßig keinen ausschüttbaren Gewinn hat, hängt daran die Behandlung ihrer eigenen Leistungen.
+  Für den außenstehenden Gesellschafter kann aus einer steuerneutralen Rückgewähr seiner
+  **Ausgleichszahlung** damit ein **steuerpflichtiger Beteiligungsertrag** werden; die Reihenfolge des
+  § 27 Abs. 6 Satz 2 KStG entscheidet also mittelbar über seine Steuerpflicht. Das durchgerechnete
+  Beispiel über zwei Jahre zeigt schließlich, dass sich alles **vollständig ausgleicht**: 2025 erhöhen
+  Minderabführung und Einlagekonto sich um je 500.000 €, 2026 mindern sie sich um denselben Betrag –
+  in der Summe null Einkommenswirkung und ein unveränderter Einlagekontostand.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

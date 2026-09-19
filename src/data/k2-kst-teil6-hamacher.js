@@ -38,11 +38,14 @@
      beim Organträger VOLLSTÄNDIG übernommen.
    - aus den organschaftlichen Mehr- und Minderabführungen die
      Begriffsbestimmung mit den bilanziellen Abweichungen und der
-     abweichenden BFH-Rechtsprechung (3.4.1) sowie die Minderabführung
-     (3.4.2).
+     abweichenden BFH-Rechtsprechung (3.4.1), die Minderabführung (3.4.2),
+     die Mehrabführung (3.4.3) sowie die Auswirkungen bei der
+     Organgesellschaft mit Einkommenswirkung und steuerlichem Einlagekonto
+     (3.4.4).
 
-   Es folgen die Mehrabführung (3.4.3) und die weiteren Abschnitte zu den
-   Mehr- und Minderabführungen (3.4.4 bis 3.4.6, 3.5), die verunglückte
+   Es folgen die Auswirkungen beim Organträger mit der Einlagenlösung und
+   die mittelbare Organschaft (3.4.5, 3.4.6) sowie die vororganschaftlichen
+   Mehr- und Minderabführungen (3.5), die verunglückte
    Organschaft (3.6) sowie Kapitel 4 zur
    gewerbesteuerlichen Organschaft. Der Campus weist den Stand aus.
 
@@ -2542,6 +2545,144 @@ export const kstTeil6 = [
       { text: "Rechenproben (eigene Ergänzung): Beide Fälle gehen auf. **Erster Fall:** 0 € + 900.000 € + 100.000 € = 1.000.000 € Steuerbilanzgewinn; abzüglich der Abführung von 900.000 € verbleibt eine Minderabführung von **100.000 €** – genau der Betrag der Rücklage. **Zweiter Fall:** 10.000.000 € + 500.000 € = 10.500.000 € Steuerbilanzgewinn; die Differenz zur Abführung beträgt **500.000 €** – genau der Betrag der Rückstellung. In beiden Fällen entspricht die Minderabführung also unmittelbar dem Posten, der die Bilanzen auseinandertreten lässt." },
       { text: "Anmerkung zur Merkregel (eigene Ergänzung): Die Richtung lässt sich an einer einzigen Frage festmachen: **Wo bleibt Vermögen zurück?** Bei der **Minder**abführung führt die Organgesellschaft **weniger** ab, als sie steuerlich verdient hat – Vermögen bleibt also **bei ihr**, und zwar in Gestalt der Rücklage oder der handelsrechtlichen Rückstellung. Wirtschaftlich stammt dieses Vermögen aus einem Gewinn, der beim Organträger **bereits versteuert** wird; es wird ihm deshalb wie eine **Einlage** zugerechnet (Abschnitt 3.4.5.2). Umgekehrt steht bei der Mehrabführung mehr ab, als steuerlich erwirtschaftet wurde. Wer sich die Richtung merken will, sollte vom **Abführungsbetrag** ausgehen: „weniger abgeführt als verdient“ ist die Minderabführung." },
       { text: "Anmerkung zu den drei Fallgruppen (eigene Ergänzung): Die Aufzählung der Quelle nennt zwei Arten von Ursachen, die sich sauber trennen lassen. Die ersten beiden betreffen die **Gewinnverwendung**: Beträge, die die Organgesellschaft in die gesetzliche Rücklage (§ 300 Nr. 1 AktG) oder in zulässige Gewinnrücklagen (§ 14 Abs. 1 Nr. 4 KStG) einstellt, mindern die Abführung, nicht aber den steuerlichen Gewinn – hier knüpft der Abschnitt unmittelbar an die Abführungssperren des Abschnitts 2.5.5 an. Die dritte betrifft die **Bewertung**: Wo Handels- und Steuerbilanz auseinanderfallen, entsteht die Differenz von selbst, ohne dass jemand etwas zurückbehält. Die Drohverlustrückstellung ist dafür der Standardfall – und zugleich die Kehrseite des Abschnitts 3.3.4.1, wo dieselbe Rückstellung beim Organträger am Passivierungsverbot scheiterte." },
+    ],
+  },
+  {
+    id: "kst-t6-51",
+    kapitel: "51",
+    abschnittNr: "3.4.3",
+    title: "3.4.3 Mehrabführung",
+    thema: "Bei der Mehrabführung übersteigt die Gewinnabführung den Steuerbilanzgewinn; häufigster Fall ist die Folgewirkung einer früheren Minderabführung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 301 AktG",
+      "§ 302 AktG",
+      "§ 14 Abs. 4 Satz 6 KStG",
+      "§ 5 Abs. 4a EStG",
+    ],
+    themen: ["Mehrabführung", "Auflösung der Gewinnrücklage", "Drohverlustereignis", "Spiegelbildmethode", "Geschäftswert"],
+    bloecke: [
+      { typ: "titel", text: "3.4.3 Mehrabführung" },
+      { text: "Eine **Mehrabführung** liegt vor, wenn die Gewinnabführung i.S. des § 301 AktG den **Steuerbilanzgewinn übersteigt**. In Verlustfällen bedeutet dies, dass die handelsrechtliche Verlustübernahme den steuerbilanziellen Verlust der Organgesellschaft **unterschreitet**. Dazu kann es z.B. kommen, wenn die Organgesellschaft" },
+      { text: "– eine **organschaftlich gebildete Gewinnrücklage** zugunsten der Gewinnabführung wieder **auflöst** (d.h. **Folgewirkung** der Minderabführung);" },
+      { text: "– in ihrer Handelsbilanz **unterschiedliche Bewertungen** vornimmt, z.B. abweichende Abschreibungen des **Geschäftswertes** in der Steuerbilanz;" },
+      { text: "– das **Drohverlustereignis eintritt**, welches in der Handelsbilanz bereits durch Rückstellung berücksichtigt wurde (so in der Quelle; dieser Aufzählungspunkt bricht die mit „wenn die Organgesellschaft“ begonnene Satzkonstruktion);" },
+      { text: "– einen **Mitunternehmeranteil** hält, der in der Steuerbilanz nach der sog. **Spiegelbildmethode** abgebildet wird und es daher zu abweichenden Bilanzansätzen kommt." },
+      { typ: "titel", text: "Fortsetzung des Beispiels zur Gewinnrücklage" },
+      { text: "In 2026 löst die A-GmbH die Gewinnrücklage wieder auf und führt diese an den Organträger zutreffend ab. Die Gewinnabführung i.S. des § 301 AktG beträgt daher 10.100.000 € (so in der Quelle; das Ausgangsbeispiel des Abschnitts 3.4.2 ging von einem Jahresüberschuss von 1.000.000 € und einer Abführung von 900.000 € aus – der Betrag von 10.000.000 € stammt aus dem dortigen **zweiten** Beispiel zur Drohverlustrückstellung. Die Rücklage von 100.000 € und damit die Mehrabführung bleiben davon unberührt)." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Die Auflösung der organschaftlich gebildeten Gewinnrücklage unterliegt der Gewinnabführung i.S. des § 301 AktG. Für Zwecke der Besteuerung ist aber der **tatsächliche Jahresüberschuss** maßgebend, welcher sich aus dem Bilanzgewinn ermittelt. Dabei wird die Auflösung der Gewinnrücklage **nicht berücksichtigt**, so dass der steuerbilanzielle Jahresüberschuss 10.000.000 € beträgt. Weil die Gewinnabführung den bilanziellen Gewinn um 100.000 € übersteigt, liegt insoweit eine **Mehrabführung i.H. von 100.000 €** vor." },
+      { typ: "titel", text: "Beispiel (Eintritt des Drohverlustereignisses)" },
+      { text: "Die A-GmbH ist die Organgesellschaft der B-GmbH. In 2024 bildete die Organgesellschaft eine Drohverlustrückstellung von 600.000 €, deren Behandlung steuerlich zutreffend erfolgte. In 2025 ist es zum Eintritt des Sachverhaltes gekommen, welches den Drohverlust bisher abgebildet hat (so in der Quelle; „welches“ statt „welcher“ – und der Sache nach hat die **Rückstellung** den Drohverlust abgebildet, nicht der Sachverhalt). Dafür sind der A-GmbH Aufwendungen von 600.000 € entstanden." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Der Eintritt des bisherigen Drohverlustes hat **keine Auswirkungen auf die Handelsbilanz** und damit dem Tatbestand der Gewinnabführung (so in der Quelle; im Akkusativ müsste es „den Tatbestand“ heißen). Denn die A-GmbH wird die damit zusammenhängenden Aufwendungen **mit der Rückstellung verrechnen**, so dass dieser Vorgang handelsbilanziell **erfolgsneutral** bleibt." },
+      { text: "**Anders** ist dies hingegen für die steuerbilanziellen Auswirkungen, weil diesbezüglich **erstmals ein Aufwand** berücksichtigt werden muss. Weil die Gewinnabführung lt. Handelsbilanz den steuerbilanziellen Gewinn in Höhe von 600.000 € übersteigt, liegt diesbezüglich eine **Mehrabführung** vor." },
+      { typ: "titel", text: "Merke" },
+      { typ: "tabelle", spalten: ["Verhältnis", "Folge"], zeilen: [
+        ["Gewinnabführung > steuerbilanzieller Gewinn", "Mehrabführung"],
+        ["Gewinnabführung < steuerbilanzieller Gewinn", "Minderabführung"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Beide Fälle gehen auf. **Gewinnrücklage:** 10.100.000 € Abführung ./. 10.000.000 € Steuerbilanzgewinn = **100.000 €** Mehrabführung – genau der Betrag der aufgelösten Rücklage. **Drohverlustereignis:** Der Aufwand von 600.000 € trifft nur die Steuerbilanz, weil er handelsrechtlich gegen die Rückstellung gebucht wird; die Abführung übersteigt den Steuerbilanzgewinn folglich um **600.000 €** – genau den Betrag der 2024 gebildeten Rückstellung." },
+      { text: "Anmerkung zum Zwei-Jahres-Zyklus (eigene Ergänzung): Der Abschnitt zeigt, dass Mehr- und Minderabführungen typischerweise **paarweise** auftreten und sich über die Zeit **ausgleichen**. Die Gewinnrücklage erzeugt im Jahr ihrer **Bildung** eine Minderabführung (Abschnitt 3.4.2) und im Jahr ihrer **Auflösung** eine Mehrabführung in derselben Höhe – die Quelle nennt das ausdrücklich eine „Folgewirkung“. Ebenso bei der Drohverlustrückstellung: Ihre **Bildung** führt zur Minderabführung, weil sie steuerlich nicht passiviert werden darf, ihr **Verbrauch** zur Mehrabführung, weil der Aufwand dann erstmals steuerlich wirkt. Wer den Zusammenhang erkennt, kann jede Mehrabführung auf ihre frühere Minderabführung zurückführen – und umgekehrt." },
+      { text: "Anmerkung zur Kehrseite bei der Drohverlustrückstellung (eigene Ergänzung): Der zweite Fall ist besonders lehrreich, weil sich **beide** Bilanzen genau umgekehrt verhalten wie im Jahr der Bildung. **Handelsrechtlich** ist der Aufwand bereits 2024 vorweggenommen worden, so dass der Eintritt 2025 nur noch eine **erfolgsneutrale** Ausbuchung ist. **Steuerlich** war 2024 nichts zu erfassen, weil § 5 Abs. 4a EStG die Passivierung verbietet, so dass der Aufwand 2025 **erstmals** wirkt. Die zeitliche Verschiebung des Aufwands zwischen beiden Rechenwerken ist damit die eigentliche Ursache – Mehr- und Minderabführung sind hier nichts anderes als ihr bilanzieller Ausdruck." },
+    ],
+  },
+  {
+    id: "kst-t6-52",
+    kapitel: "52",
+    abschnittNr: "3.4.4.1",
+    title: "3.4.4.1 Auswirkungen bei der Organgesellschaft – Einkommensauswirkung",
+    thema: "Die Minderabführung erhöht, die Mehrabführung mindert den Steuerbilanzgewinn und damit das Organeinkommen; der Feststellungsbescheid weist beides gesondert aus",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.4.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 5 KStG",
+      "§ 14 Abs. 4 KStG",
+    ],
+    themen: ["Einkommensauswirkung", "Minderabführung", "Mehrabführung", "Feststellungsbescheid"],
+    bloecke: [
+      { typ: "titel", text: "3.4.4 Auswirkungen bei der Organgesellschaft" },
+      { typ: "titel", text: "3.4.4.1 Einkommensauswirkung" },
+      { typ: "titel", text: "3.4.4.1.1 Minderabführung" },
+      { text: "In **sämtlichen** Fällen einer Minderabführung **erhöht** sich der Steuerbilanzgewinn der Organgesellschaft und damit folgerichtig auch der Organeinkommen (so in der Quelle; gemeint ist „das Organeinkommen“), weil in diesen Fallgestaltungen die Differenz zur Gewinnabführung **steuerrechtlich nicht nachvollzogen** wird. Der in der Handelsbilanz zutreffend berücksichtigte Aufwand wird in der Steuerbilanz entsprechend **gegenläufig** behandelt." },
+      { text: "Der Feststellungsbescheid nach § 14 Abs. 5 KStG weist in diesem Fall neben dem (**erhöhten**) Organeinkommen auch die **Minderabführung** aus." },
+      { typ: "titel", text: "3.4.4.1.2 Mehrabführung" },
+      { text: "**Umgekehrt** dazu kommt es bei einer Mehrabführung **immer** zu einer **Reduzierung** des Steuerbilanzgewinnes und damit des Organeinkommens. Denn in diesen Fallgestaltungen wird die handelsrechtliche Erhöhung der Gewinnabführung, der auch auf einem Ertrag beruhen kann (so in der Quelle; gemeint ist „die auch auf einem Ertrag beruhen kann“), steuerbilanziell **nicht übernommen**." },
+      { text: "Der Feststellungsbescheid nach § 14 Abs. 5 KStG weist in diesem Fall neben dem (**verminderten**) Organeinkommen auch die **Mehrabführung** aus." },
+      { typ: "tabelle", spalten: ["Vorgang", "Steuerbilanzgewinn und Organeinkommen", "Feststellung nach § 14 Abs. 5 KStG"], zeilen: [
+        ["Minderabführung", "erhöht sich", "erhöhtes Organeinkommen und die Minderabführung"],
+        ["Mehrabführung", "vermindert sich", "vermindertes Organeinkommen und die Mehrabführung"],
+      ] },
+      { text: "Anmerkung zur doppelten Feststellung (eigene Ergänzung): Dass der Bescheid **beides** ausweist – das Organeinkommen **und** den Betrag der Abweichung –, ist kein Doppel, sondern notwendig, weil beide Größen **verschiedene Adressaten** haben. Das Organeinkommen wird dem Organträger **zugerechnet** und dort versteuert; die Mehr- oder Minderabführung löst bei ihm eine **bilanzielle** Folge aus, nämlich eine Einlage oder eine Einlagenrückgewähr nach der Einlagenlösung (Abschnitt 3.4.5). Ohne die gesonderte Feststellung könnte der Organträger diese zweite Folge gar nicht nachvollziehen – der Feststellungsbescheid erweist sich damit zum fünften Mal als **Datenbrücke** zwischen den Ebenen." },
+      { text: "Anmerkung zur Gegenläufigkeit (eigene Ergänzung): Die beiden Unterabschnitte beschreiben **denselben** Mechanismus mit umgekehrtem Vorzeichen, und der Satz „der in der Handelsbilanz zutreffend berücksichtigte Aufwand wird in der Steuerbilanz gegenläufig behandelt“ trifft den Kern. Weil das Organeinkommen aus dem **Steuerbilanz**gewinn abgeleitet wird, schlägt jede Abweichung unmittelbar auf es durch. Bei der Minderabführung fehlt der handelsrechtliche Aufwand in der Steuerbilanz – das Einkommen steigt; bei der Mehrabführung fehlt der handelsrechtliche Ertrag beziehungsweise wirkt der steuerliche Aufwand erstmals – das Einkommen sinkt. Der Organträger versteuert damit stets das **steuerliche** Ergebnis, auch wenn ihm ein abweichender Betrag zufließt." },
+    ],
+  },
+  {
+    id: "kst-t6-53",
+    kapitel: "53",
+    abschnittNr: "3.4.4.2",
+    title: "3.4.4.2 Auswirkungen beim steuerlichen Einlagekonto",
+    thema: "§ 27 Abs. 6 KStG lässt Minderabführungen das Einlagekonto erhöhen und Mehrabführungen es mindern – ohne Verwendungsreihenfolge, vorrangig vor allen Leistungen und bis in den Negativbestand",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.4.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 27 Abs. 6 Satz 1 KStG",
+      "§ 27 Abs. 6 Satz 2 KStG",
+      "§ 27 Abs. 1 Satz 3 KStG",
+      "§ 27 Abs. 1 Satz 4 KStG",
+      "§ 16 KStG",
+      "§ 14 Abs. 3 KStG",
+      "§ 14 Abs. 5 KStG",
+      "§ 5 Abs. 4a EStG",
+      "§ 60 Abs. 2 EStDV",
+      "§ 5b Abs. 1 Satz 2 EStG",
+    ],
+    themen: ["steuerliches Einlagekonto", "§ 27 Abs. 6 KStG", "Verwendungsreihenfolge", "vorrangiger Abzug", "Negativbestand"],
+    bloecke: [
+      { typ: "titel", text: "3.4.4.2 Auswirkungen beim steuerlichen Einlagekonto" },
+      { text: "Nach **§ 27 Abs. 6 Satz 1 KStG** **erhöhen Minderabführungen** bei der Organgesellschaft den Bestand des steuerlichen Einlagekontos **zum Ende ihres Wirtschaftsjahres**. Dadurch wird ein **Gleichklang** mit der Behandlung auf Ebene des Organträgers erreicht, weil die Minderabführung bei diesem als **Einlage** in die Organgesellschaft gilt (siehe unter 3.4.5)." },
+      { text: "**Mehrabführungen mindern** hingegen den Bestand des steuerlichen Einlagekontos (§ 27 Abs. 6 Satz 1 KStG). Die **Verwendungsreihenfolge** des § 27 Abs. 1 Satz 3 KStG gilt hierfür **nicht**, weil die Gewinnabführung gerade **keine Leistung** i.d. Sinne darstellt." },
+      { text: "Nach **§ 27 Abs. 6 Satz 2 KStG** wird der Betrag der Mehrabführungen zudem **immer vor den übrigen Leistungen** abgezogen, was dazu führen kann, dass für die nachfolgenden Leistungen der Organgesellschaft ein **geringerer bzw. kein verwendbarer Bestand** des steuerlichen Einlagekontos mehr besteht. Dies kann die eigenen Leistungen der Organgesellschaft beeinflussen, wie z.B. **Ausgleichszahlungen** i.S. des § 16 KStG oder **vororganschaftliche Mehrabführungen** i.S. des § 14 Abs. 3 KStG, die dann auf Ebene des Anteilseigners zu **herkömmlichen Beteiligungserträge** führen (so in der Quelle; im Dativ Plural müsste es „Beteiligungserträgen“ heißen)." },
+      { text: "Durch den (**vorrangigen**) Abzug der Mehrabführungen kann der Bestand des steuerlichen Einlagekontos zudem auch **negativ** werden, weil auch § 27 Abs. 1 Satz 4 KStG die Anwendung des Absatzes 6 gerade auch unberührt lässt (so in der Quelle; „auch“ steht zweimal im Satz)." },
+      { typ: "tabelle", spalten: ["Frage zum Einlagekonto", "Antwort nach § 27 Abs. 6 KStG"], zeilen: [
+        ["Wirkung der Minderabführung", "Zugang zum Einlagekonto zum Ende des Wirtschaftsjahres"],
+        ["Wirkung der Mehrabführung", "Abgang vom Einlagekonto"],
+        ["Gilt die Verwendungsreihenfolge des § 27 Abs. 1 Satz 3 KStG?", "nein – die Gewinnabführung ist keine Leistung"],
+        ["Reihenfolge gegenüber anderen Leistungen", "die Mehrabführung wird immer vorrangig abgezogen, § 27 Abs. 6 Satz 2 KStG"],
+        ["Kann der Bestand negativ werden?", "ja – § 27 Abs. 1 Satz 4 KStG lässt Absatz 6 unberührt"],
+        ["Folge für andere Leistungen", "weniger oder kein verwendbarer Bestand für Ausgleichszahlungen und vororganschaftliche Mehrabführungen"],
+      ] },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH ist die Organgesellschaft der B-GmbH. Zum 31.12.2025 weist sie in ihrer Handelsbilanz eine Drohverlustrückstellung von 500.000 € aus. Die Gewinnabführung i.S. des § 301 AktG beträgt 10.000.000 €." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Die handelsbilanzielle Gewinnabführung beträgt 10.000.000 € und weicht damit von der steuerbilanziellen Ausgleichsgröße ab. Denn die Drohverlustrückstellung ist in der Steuerbilanz der A-GmbH im Rahmen der **Überleitungsrechnung** des § 60 Abs. 2 EStDV bzw. § 5b Abs. 1 Satz 2 EStG **gewinnwirksam aufzulösen** (§ 8 Abs. 1 Satz 1 KStG i.V. mit § 5 Abs. 4a EStG). Der Steuerbilanzgewinn beträgt damit 10.500.000 €. Der Vorgang führt damit zu einer **Minderabführung i.H. von 500.000 €**." },
+      { text: "Dies führt auf Ebene der Organgesellschaft zunächst zu einer **Erhöhung des Organeinkommens**, weil für diese Zwecke von einer Ausgangsgröße von 10.500.000 € auszugehen ist. Im Rahmen der Feststellung i.S. des § 14 Abs. 5 KStG werden daher ein **Organeinkommen von 10.500.000 €** sowie eine **Minderabführung von 500.000 €** festgestellt. Gleichzeitig kommt es zum 31.12.2024 nach § 27 Abs. 6 Satz 1 KStG zu einem **Zugang beim steuerlichen Einlagekonto von 500.000 €** (so in der Quelle; der Sachverhalt spielt zum 31.12.**2025**, der Zugang tritt folglich zu diesem Stichtag ein)." },
+      { typ: "tabelle", spalten: ["Wirkung bei der A-GmbH (2025)", "Betrag"], zeilen: [
+        ["handelsbilanzielle Gewinnabführung", "10.000.000 €"],
+        ["Steuerbilanzgewinn nach Auflösung der Rückstellung", "10.500.000 €"],
+        ["festgestelltes Organeinkommen", "10.500.000 €"],
+        ["festgestellte Minderabführung", "500.000 €"],
+        ["Zugang zum steuerlichen Einlagekonto", "+ 500.000 €"],
+      ] },
+      { typ: "titel", text: "Fortsetzung des Beispiels" },
+      { text: "In 2026 tritt das Ereignis ein, welches in 2025 die Bildung Drohverlustrückstellung veranlasst hat (so in der Quelle; es fehlt „der“). Daraus entsteht der A-GmbH ein Aufwand von 500.000 €." },
+      { typ: "titel", text: "Lösung" },
+      { text: "In der Handelsbilanz wirkt sich der Eintritt dieses Ereignisses **nicht mehr** aus, sondern führt zu einer **erfolgsneutralen Ausbuchung** der bisherigen Rückstellung. Anders ist dies hingegen in der Steuerbilanz, weil dort **erstmals ein Aufwand** von 500.000 € eintritt. Damit ist die handelsbilanzielle Gewinnabführung um 500.000 € **größer** als der steuerbilanzielle Gewinn, was zu einer **Mehrabführung** führt." },
+      { text: "Damit ist das Organeinkommen um 500.000 € **geringer**, weil die Ausgangsgröße für dessen Ermittlung dem Steuerbilanzgewinn entspricht. Im Rahmen der Feststellung i.S. des § 14 Abs. 5 KStG werden daher ein **Organeinkommen von ./. 500.000 €** sowie eine **Mehrabführung von 500.000 €** festgestellt. Gleichzeitig muss zum 31.12.2026 nach § 27 Abs. 6 Satz 1 KStG der Bestand des steuerlichen Einlagekontos **vermindert** werden. Daraus kann dann auch ein **Negativbestand** entstehen, weil der Abzug der Mehrabführung **nicht an den Anfangsbestand gebunden** ist." },
+      { typ: "tabelle", spalten: ["Wirkung bei der A-GmbH (2026)", "Betrag"], zeilen: [
+        ["Handelsbilanz: Ausbuchung der Rückstellung", "erfolgsneutral"],
+        ["Steuerbilanz: erstmaliger Aufwand", "500.000 €"],
+        ["festgestelltes Organeinkommen", "./. 500.000 €"],
+        ["festgestellte Mehrabführung", "500.000 €"],
+        ["Abgang beim steuerlichen Einlagekonto", "./. 500.000 €"],
+      ] },
+      { text: "Rechenprobe und Gesamtschau (eigene Ergänzung): Über beide Jahre hinweg gleicht sich alles **vollständig** aus, und genau darin liegt die Systematik. 2025 erhöht die Minderabführung das Organeinkommen um 500.000 € und das Einlagekonto um denselben Betrag; 2026 mindert die Mehrabführung beide wieder um 500.000 €. In der Summe beträgt die Einkommenswirkung **null** und der Einlagekontostand ist **unverändert** – verschoben wurde lediglich der Zeitpunkt, zu dem der Aufwand steuerlich wirkt. Der Fall ist damit ein Musterbeispiel für den in Abschnitt 3.4.3 beschriebenen **Zwei-Jahres-Zyklus**." },
+      { text: "Anmerkung zur Sonderstellung des § 27 Abs. 6 KStG (eigene Ergänzung): Die Vorschrift durchbricht **gleich drei** Grundsätze des § 27 KStG, und die Quelle benennt alle drei. Erstens gilt die **Verwendungsreihenfolge** des § 27 Abs. 1 Satz 3 KStG nicht, weil die Gewinnabführung keine „Leistung“ ist – es wird also nicht geprüft, ob ein ausschüttbarer Gewinn vorhanden ist. Zweitens wird die Mehrabführung **vorrangig** vor allen übrigen Leistungen abgezogen (§ 27 Abs. 6 Satz 2 KStG). Drittens kann der Bestand dadurch sogar **negativ** werden – eine Ausnahme, die § 27 Abs. 1 Satz 4 KStG ausdrücklich zulässt, während er sonst gerade einen Negativbestand verhindert. Alle drei Durchbrechungen haben denselben Grund: Die Mehrabführung ist kein Vorgang zwischen Gesellschaft und Gesellschafter im üblichen Sinne, sondern eine bloße **bilanzielle Korrekturgröße**." },
+      { text: "Anmerkung zur praktischen Sprengkraft des Vorrangs (eigene Ergänzung): Der beiläufig wirkende Hinweis auf § 27 Abs. 6 Satz 2 KStG hat erhebliche Folgen für die Abschnitte 3.2.5.6 und 3.2.6. Dort war die **Einlagenrückgewähr** der Normalfall, weil die Organgesellschaft regelmäßig keinen ausschüttbaren Gewinn hat und ihre Leistungen deshalb auf das Einlagekonto durchgreifen. Genau dieser Bestand wird nun durch Mehrabführungen **vorrangig aufgezehrt**. Für den außenstehenden Gesellschafter kann das die Behandlung seiner **Ausgleichszahlung** umkehren: Statt einer steuerneutralen Einlagenrückgewähr erhält er dann einen **steuerpflichtigen Beteiligungsertrag**. Die Reihenfolge des § 27 Abs. 6 Satz 2 KStG entscheidet also mittelbar über die Steuerpflicht beim Minderheitsgesellschafter." },
     ],
   },
 ];

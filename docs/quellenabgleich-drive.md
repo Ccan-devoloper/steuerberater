@@ -10620,6 +10620,71 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.4.3 und 3.4.4 – Mehrabführung und Auswirkungen bei der Organgesellschaft
+
+Übernommen sind die Seiten 66 bis 68 der Quelle: die Mehrabführung mit beiden
+Beispielen und dem Merksatz (3.4.3), die Einkommensauswirkung bei Minder- und
+Mehrabführung (3.4.4.1) und die Auswirkungen beim steuerlichen Einlagekonto mit dem
+zweijährigen Beispiel (3.4.4.2). Der Datensatz umfasst damit 53 Kapitel mit 879
+Abschnitten und 71 Tabellen; geprüft mit `npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Die Mehrabführung liegt vor, wenn die Gewinnabführung den
+Steuerbilanzgewinn übersteigt; häufigster Fall ist die Folgewirkung einer früheren
+Minderabführung. Die Minderabführung erhöht, die Mehrabführung mindert das
+Organeinkommen; der Feststellungsbescheid weist beides gesondert aus. Nach § 27 Abs. 6
+KStG erhöhen Minderabführungen das steuerliche Einlagekonto und mindern
+Mehrabführungen es – ohne Verwendungsreihenfolge, vorrangig vor allen übrigen
+Leistungen und bis in einen Negativbestand hinein.
+
+**Zentraler Befund: Zahlensprung in der „Fortsetzung des Beispiels“.** Abschnitt
+3.4.3 setzt das Beispiel zur Gewinnrücklage aus Abschnitt 3.4.2 fort und nennt eine
+Gewinnabführung von **10.100.000 €** bei einem steuerbilanziellen Jahresüberschuss von
+10.000.000 €. Das Ausgangsbeispiel ging jedoch von einem Jahresüberschuss von
+**1.000.000 €** und einer Abführung von 900.000 € aus. Der Betrag von 10.000.000 €
+stammt ersichtlich aus dem **zweiten** Beispiel des Abschnitts 3.4.2 (Drohverlust-
+rückstellung), so dass die Größenordnung zwischen Ausgangsfall und Fortsetzung um den
+Faktor zehn springt. Die Rücklage von 100.000 € und damit die Mehrabführung bleiben
+davon unberührt; die Rechnung selbst ist richtig. Der Befund ist im Datensatz
+gekennzeichnet.
+
+**Weiterer bedeutsamer Befund: falscher Stichtag.** Die Lösung des Beispiels zu
+3.4.4.2 schreibt „Gleichzeitig kommt es zum 31.12.2024 nach § 27 Abs. 6 Satz 1 KStG
+zu einem Zugang beim steuerlichen Einlagekonto von 500.000 €“. Der Sachverhalt spielt
+zum **31.12.2025**; zu diesem Stichtag tritt der Zugang ein, wie auch die Fortsetzung
+(Minderung zum 31.12.2026) voraussetzt.
+
+**Sprachliche Eigenheiten** (wortlautgetreu übernommen und gekennzeichnet):
+
+- Der dritte Aufzählungspunkt in 3.4.3 („Das Drohverlustereignis eintritt“) bricht
+  die mit „wenn die Organgesellschaft“ begonnene Satzkonstruktion.
+- „zum Eintritt des Sachverhaltes gekommen, welches den Drohverlust bisher abgebildet
+  hat“ – falsches Relativpronomen; der Sache nach hat die Rückstellung den Drohverlust
+  abgebildet, nicht der Sachverhalt.
+- „keine Auswirkungen auf die Handelsbilanz und damit dem Tatbestand der
+  Gewinnabführung“ – Kasus.
+- „und damit folgerichtig auch der Organeinkommen“ (3.4.4.1.1) – Genus.
+- „die handelsrechtliche Erhöhung der Gewinnabführung, der auch auf einem Ertrag
+  beruhen kann“ (3.4.4.1.2) – Relativpronomen.
+- „zu herkömmlichen Beteiligungserträge führen“ (3.4.4.2) – Dativ Plural.
+- „weil auch § 27 Abs. 1 Satz 4 KStG die Anwendung des Absatzes 6 gerade auch
+  unberührt lässt“ – „auch“ steht zweimal im Satz.
+- „welches in 2025 die Bildung Drohverlustrückstellung veranlasst hat“ – es fehlt
+  der Artikel.
+
+**Eigene Nachrechnung.** Alle Fälle gehen auf. Gewinnrücklage: 10.100.000 € ./.
+10.000.000 € = 100.000 € Mehrabführung, genau der Betrag der aufgelösten Rücklage.
+Drohverlustereignis: Aufwand 600.000 € nur in der Steuerbilanz, Mehrabführung 600.000 €.
+Zweijähriges Beispiel: 2025 Steuerbilanzgewinn 10.500.000 €, Organeinkommen 10.500.000 €,
+Minderabführung und Zugang zum Einlagekonto je 500.000 €; 2026 Organeinkommen
+./. 500.000 €, Mehrabführung und Abgang je 500.000 €. Über beide Jahre beträgt die
+Einkommenswirkung **null** und der Einlagekontostand ist **unverändert** – ein
+Musterbeispiel für den Zwei-Jahres-Zyklus, das als eigene Ergänzung im Datensatz
+ausgewiesen ist. Ebenfalls ergänzt sind die Zusammenstellung der drei Durchbrechungen
+des § 27 KStG durch dessen Absatz 6 und der Hinweis auf die praktische Sprengkraft des
+Vorrangs: Er zehrt den Bestand auf, aus dem sonst die Einlagenrückgewähr bedient wird,
+und kann damit beim außenstehenden Gesellschafter aus einer steuerneutralen Rückgewähr
+einen steuerpflichtigen Beteiligungsertrag machen.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.4.1 und 3.4.2 – Begriff der Mehr- und Minderabführung, Minderabführung
 
 Übernommen sind die Seiten 63 bis 66 der Quelle: die bilanziellen Abweichungen als
