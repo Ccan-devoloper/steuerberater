@@ -92,6 +92,39 @@ test("Elektro-Pkw-Merksatz verallgemeinert nicht mehr auf Halbierung", () => {
   assert.doesNotMatch(kern(t), /Einkommensteuer halbiert/);
 });
 
+
+test("Realteilung erfasst auch die unechte Realteilung", () => {
+  const karte = byTitle(/Realteilung oder Sachwertabfindung/i);
+  assert.match(kern(karte), /unechte Realteilung/i);
+  assert.match(kern(karte), /fortgeführt|fortführen/i);
+  assert.doesNotMatch(kern(karte), /Realteilung setzt die Auflösung der Mitunternehmerschaft/i);
+
+  const modul = byTitle(/Realteilung und Sachwertabfindung/i);
+  assert.match(kern(modul), /unechte Realteilung/i);
+  assert.match(kern(modul), /ausschließlich Geld|Barabfindung/i);
+});
+
+test("PWB enthält keine pauschale 1-Prozent-Verwaltungsregel", () => {
+  const t = byId("bilanz-formel-pwb");
+  assert.match(kern(t), /betrieblicher Erfahrungswerte/);
+  assert.match(kern(t), /keine allgemeine.*1-%-Pauschale/i);
+  assert.doesNotMatch(kern(t), /Verwaltung regelmäßig nur 1 %/i);
+});
+
+test("allgemeine §8b-Technikkarte berücksichtigt Streubesitz", () => {
+  const t = byTitle(/Wie wird § 8b KStG technisch umgesetzt/i);
+  assert.match(kern(t), /§ 8b Abs\. 4 KStG/);
+  assert.match(kern(t), /Nur wenn die Freistellung/);
+  assert.match(kern(t), /Erwerbsfiktion/);
+});
+
+test("Teileinkünfte-Formel verallgemeinert §8b nicht auf jede Körperschaftsdividende", () => {
+  const t = byId("bilanz-formel-teileinkuenfte");
+  assert.match(kern(t), /Streubesitz/);
+  assert.match(kern(t), /§ 8b Abs\. 4 KStG/);
+  assert.match(kern(t), /5-%-Pauschale greift nur/);
+});
+
 test("Gastronomie trägt den 2025/2026-Rechtsstandswechsel", () => {
   const t = byId("ust-modul-ust-161");
   const auftrag = rechtsstandAuftrag(t, new Date("2026-09-19T12:00:00Z"));
