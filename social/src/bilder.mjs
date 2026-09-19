@@ -141,11 +141,30 @@ export async function fotoLaden(foto, ablage = null) {
  * Motiv aus der Kachel läuft statt als Rechteck darauf zu liegen.
  * Gibt { bild, quelle, frei } oder null zurück; null heißt: Icon-Bühne.
  */
+/* Deterministischer Notfall fuer alte/fehlerhafte Entwuerfe ohne bildSzene.
+   Das Cover bleibt fotografierbar und fachnah, statt auf eine reine Icon-Kachel zurueckzufallen. */
+export function fallbackBildSzene(beitrag = {}) {
+  const icon = beitrag?.folien?.find((f) => f.art === "titel")?.icon || beitrag?.icon || "";
+  const szenen = {
+    kalender: "calendar beside receipt folder", uhr: "desk clock beside tax folder",
+    vertrag: "signed contract beside invoice folder", dokument: "stapled documents on office desk",
+    schriftrolle: "sealed document beside file folder", umschlag: "unopened letter beside document folder",
+    haus: "house keys beside invoice folder", schluessel: "house keys beside document folder",
+    rechner: "calculator beside open ledger", diagramm: "ledger beside financial chart",
+    muenzen: "coins beside blank invoice", fabrik: "industrial machine in workshop",
+    lkw: "delivery truck beside warehouse", personen: "students reviewing tax documents",
+    person: "student reviewing tax documents", lupe: "magnifying glass beside invoice folder",
+    globus: "travel documents beside accounting folder", buch: "open notebook beside receipts",
+    warnung: "red folder beside deadline calendar",
+  };
+  return szenen[icon] || "student reviewing tax documents";
+}
 export async function titelbild(beitrag, ablage = null, opt = {}) {
   if (!CONFIG.bilder.aktiv) return null;
   /* Zwei Szenen vom Autor: Liefert die erste nichts Brauchbares, die zweite. */
-  const szenen = [beitrag?.bildSzene || beitrag?.folien?.[0]?.bildSzene, beitrag?.bildSzeneAlt || beitrag?.folien?.[0]?.bildSzeneAlt].filter(Boolean);
-  if (!szenen.length) return null;
+  const fallback = fallbackBildSzene(beitrag);
+  const szenen = [beitrag?.bildSzene || beitrag?.folien?.[0]?.bildSzene || fallback, beitrag?.bildSzeneAlt || beitrag?.folien?.[0]?.bildSzeneAlt].filter(Boolean);
+  if (!szenen.includes(fallback)) szenen.push(fallback);
 
   /* Zeichnen geht vor Suchen: Das Motiv entsteht zum Thema und kommt
      freigestellt - kein Stockfoto, das danebenliegt, kein Freisteller, der
@@ -163,7 +182,8 @@ export async function titelbild(beitrag, ablage = null, opt = {}) {
     const archiv = archivDir ? archivLaden(archivDir) : null;
     /* Ein Foto-Cover darf nicht mit einer flachen Figur aus dem Archiv
        bedient werden und umgekehrt - sonst mischen sich die Looks im Feed. */
-    const look = (opt.zweck || "bild") === "erklaerbild" ? "flach" : CONFIG.bilder.ki.look || "flach";
+    /* Feed- und Reel-Cover sind fest fotorealistisch; nur Erklaerfiguren bleiben flach. */
+    const look = (opt.zweck || "bild") === "erklaerbild" ? "flach" : "foto";
     /* Erst im Archiv nachsehen: Ein Motiv, das lange genug her ist und zur
        Szene passt, kostet nichts mehr. */
     if (archiv) {
@@ -176,7 +196,7 @@ export async function titelbild(beitrag, ablage = null, opt = {}) {
         const bild = `data:image/png;base64,${fs.readFileSync(wieder.pfad).toString("base64")}`;
         fs.rmSync(wieder.pfad, { force: true });
         console.log(`  → Motiv aus dem Archiv: „${fund.eintrag.szene}" für „${szene}" (${fund.alter} Tage alt, ${(fund.aehnlich * 100).toFixed(0)} % Übereinstimmung) - kostet nichts.`);
-        return { bild, quelle: null, seite: null, frei: true, breite: wieder.breite, hoehe: wieder.hoehe };
+        return { bild, quelle: null, seite: null, frei: true, breite: wieder.breite, hoehe: wieder.hoehe, typ: look === "foto" ? "foto" : "illustration" };
       }
     }
     /* Erklaervideo mit vielen Szenen: Ab dem Deckel wird nicht mehr gezeichnet,
@@ -195,10 +215,10 @@ export async function titelbild(beitrag, ablage = null, opt = {}) {
       }
       const bild = `data:image/png;base64,${fs.readFileSync(motiv.pfad).toString("base64")}`;
       fs.rmSync(motiv.pfad, { force: true });
-      return { bild, quelle: null, seite: null, frei: true, breite: motiv.breite, hoehe: motiv.hoehe };
+      return { bild, quelle: null, seite: null, frei: true, breite: motiv.breite, hoehe: motiv.hoehe, typ: look === "foto" ? "foto" : "illustration" };
     }
     console.log(`  → kein Motiv zu „${szenen.join("\u201c / \u201e")}" - Titelfolie bleibt beim Icon.`);
-    return null;
+    /* KI fehlgeschlagen: kostenloser Pexels-Pfad darunter bleibt als Rettungsweg. */
   }
   if (!CONFIG.bilder.key) return null;
   let ersterRoh = null, erstesFoto = null, ersteSzene = null;
@@ -213,7 +233,7 @@ export async function titelbild(beitrag, ablage = null, opt = {}) {
       const quelle = `Foto: ${foto.fotograf || "Pexels"} / Pexels`;
       if (!CONFIG.bilder.freistellen) {
         console.log(`  → Titelbild: „${szene}“ · ${foto.fotograf || "Pexels"}`);
-        return { bild: `data:image/jpeg;base64,${fs.readFileSync(roh).toString("base64")}`, quelle, seite: foto.seite, frei: false };
+        return { bild: `data:image/jpeg;base64,${fs.readFileSync(roh).toString("base64")}`, quelle, seite: foto.seite, frei: false, typ: "foto" };
       }
       /* Der Freisteller entscheidet: unscharf, angeschnitten oder ohne
          erkennbares Motiv heißt nächster Kandidat. */
@@ -224,12 +244,12 @@ export async function titelbild(beitrag, ablage = null, opt = {}) {
       console.log(`  → Titelbild freigestellt: „${szene}“ · ${foto.fotograf || "Pexels"} (Deckung ${(frei.deckung * 100).toFixed(0)} %, Passung ${(foto.passung * 100).toFixed(0)} %)`);
       /* Die Maße wandern mit: Die Vorlage rechnet daraus die Bühne aus, damit
          ein breites Motiv nicht als Briefmarke in der Ecke endet. */
-      return { bild, quelle, seite: foto.seite, frei: true, breite: frei.breite || null, hoehe: frei.hoehe || null };
+      return { bild, quelle, seite: foto.seite, frei: true, breite: frei.breite || null, hoehe: frei.hoehe || null, typ: "foto" };
     }
   }
   console.log(`  → kein brauchbares Motiv zu „${szenen.join("“ / „")}“ – Titelfolie bleibt beim Icon.`);
   /* Freistellen misslungen: lieber kein Bild als ein aufgeklebtes Rechteck. */
   if (!CONFIG.bilder.rechteckErlaubt || !ersterRoh) return null;
   console.log(`  → Titelbild als Karte: „${ersteSzene}“ · ${erstesFoto.fotograf || "Pexels"}`);
-  return { bild: `data:image/jpeg;base64,${fs.readFileSync(ersterRoh).toString("base64")}`, quelle: `Foto: ${erstesFoto.fotograf || "Pexels"} / Pexels`, seite: erstesFoto.seite, frei: false };
+  return { bild: `data:image/jpeg;base64,${fs.readFileSync(ersterRoh).toString("base64")}`, quelle: `Foto: ${erstesFoto.fotograf || "Pexels"} / Pexels`, seite: erstesFoto.seite, frei: false, typ: "foto" };
 }
