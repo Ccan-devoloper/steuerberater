@@ -596,6 +596,44 @@ function korrigiereAo122a(thema) {
   });
 }
 
+
+function korrigiereAussenpruefungUnterbrechung(thema) {
+  normErgaenzen(
+    thema,
+    "§ 171 Abs. 4 S. 1–7 AO",
+    "AEAO zu § 171 Nr. 3.2.5–3.2.10",
+    "BFH 24.04.2003 – VII R 3/02",
+    "BFH 26.04.2017 – I R 76/15"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 171 Abs. 4 S. 2 AO ist die Ausnahme zur Ablaufhemmung durch Außenprüfung: Wird eine ernsthaft begonnene Prüfung unmittelbar nach ihrem Beginn länger als sechs Monate aus von der Finanzverwaltung zu vertretenden Gründen unterbrochen, entfällt die durch den ursprünglichen Prüfungsbeginn ausgelöste Ablaufhemmung rückwirkend.",
+      "Ob die Unterbrechung noch „unmittelbar nach Beginn“ erfolgt ist, richtet sich nach dem Einzelfall. Hat die Prüfung bereits erhebliches Gewicht erreicht oder erste verwertbare Ergebnisse erbracht, greift Satz 2 nicht allein wegen einer späteren langen Unterbrechung.",
+      "Eine Wiederaufnahme nach einer schädlichen Anfangsunterbrechung kann die Ablaufhemmung erneut auslösen, wenn die hierfür erforderlichen Prüfungshandlungen für den Steuerpflichtigen als Fortsetzung der Außenprüfung erkennbar sind und die Festsetzungsfrist zu diesem Zeitpunkt noch nicht abgelaufen ist.",
+      "Rechtsstand 2026: Die Ablaufhemmung nach § 171 Abs. 4 S. 1 endet grundsätzlich spätestens fünf Jahre nach Ablauf des Kalenderjahres der Bekanntgabe der Prüfungsanordnung. Die Sätze 4 bis 7 enthalten Verlängerungen beziehungsweise Ausnahmen, etwa bei einem vom Steuerpflichtigen beantragten Aufschub/Unterbruch, zwischenstaatlicher Amtshilfe oder strafverfahrensbedingter Unterbrechung.",
+    ],
+    lernziele: [
+      "ernsthaften Prüfungsbeginn von bloßer Vorbereitung oder Scheinbeginn unterscheiden",
+      "schädliche Anfangsunterbrechung nach § 171 Abs. 4 S. 2 mit allen Voraussetzungen prüfen",
+      "spätere Unterbrechung von einer Unterbrechung unmittelbar nach Prüfungsbeginn unterscheiden",
+      "erkennbare Wiederaufnahme und deren zeitliche Wirkung einordnen",
+      "Fünfjahres-Höchstfrist des § 171 Abs. 4 S. 3 für den Rechtsstand 2026 beachten",
+      "Verlängerungen und Ausnahmen nach § 171 Abs. 4 S. 4–7 gesondert prüfen",
+    ],
+    pruefschritte: [
+      "Wirksame Prüfungsanordnung und ernsthaften Prüfungsbeginn vor Ablauf der Festsetzungsfrist feststellen.",
+      "Prüfen, ob die Außenprüfung unmittelbar nach ihrem Beginn unterbrochen wurde; Gewicht und verwertbare Ergebnisse der bisherigen Prüfungshandlungen würdigen.",
+      "Dauer von mehr als sechs Monaten und Zurechnung des Unterbrechungsgrundes zur Finanzverwaltung prüfen.",
+      "Bei schädlicher Anfangsunterbrechung die ursprüngliche Ablaufhemmung rückwirkend entfallen lassen.",
+      "Bei späterer Wiederaufnahme prüfen, ob nach außen erkennbare qualifizierte Prüfungshandlungen vorliegen und die reguläre Festsetzungsfrist noch offen war.",
+      "Zusätzlich die Befristung nach § 171 Abs. 4 S. 3 beachten: grundsätzlich fünf Jahre nach Ablauf des Kalenderjahres der Bekanntgabe der Prüfungsanordnung.",
+      "Danach mögliche Verlängerungen/Ausnahmen nach Sätzen 4 bis 7 prüfen.",
+    ],
+    merksatz: "§ 171 Abs. 4: schädliche Anfangsunterbrechung > 6 Monate lässt die erste Hemmung rückwirkend entfallen; Wiederaufnahme kann neu hemmen. Für 2026 zusätzlich die grundsätzlich fünfjährige Befristung nach Satz 3 mit ihren Sonderregeln beachten.",
+  };
+}
+
 function korrigiereAussenpruefung171(thema) {
   normErgaenzen(thema, "§ 171 Abs. 4 S. 1–8 AO", "Art. 97 § 37 Abs. 2 EGAO");
   thema.kern = {
@@ -1823,6 +1861,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "ao-modul-ao-392": korrigiereHaftung71(thema); break;
       case "ao-modul-ao-393": korrigiereHaftung74(thema); break;
       case "ao-modul-ao-335": korrigiereAussenpruefung171(thema); break;
+      case "ao-modul-ao-336": korrigiereAussenpruefungUnterbrechung(thema); break;
       case "erbst-modul-erbst-532": korrigiereBewg14Faktoren(thema); break;
       case "erbst-modul-erbst-512": korrigiereFamilienheim(thema); break;
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
