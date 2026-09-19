@@ -10620,6 +10620,46 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher) – neuer Bestand, Verlustabzug und Zinsschranke
+
+Quelle: Google Drive, „B-S25-KSt-Teil V-Verluste-Zinsschranke (2025)-(Hamacher)-0525.pdf“ (Drive-ID
+`13CK4KSM02S6T6QoXrHDmqPzpNbzewgx5`), das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug
+und fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
+stillen Beteiligungen (§ 15 Abs. 4 EStG)“** von Frank Hamacher, 21. Auflage, Rechtsstand Mai 2025,
+74 Seiten. Neu angelegt sind der Datensatz `src/data/k2-kst-teil5-hamacher.js`, das Prüfskript
+`npm run check:k2-kst-teil5` (2 Kapitel, 51 Blöcke, 4 Tabellen) und der Campus-Reiter „Teil V (§§ 8c,
+8d, Zinsschranke)“.
+
+**Beschaffung.** Die Datei ist über `download_file_content` als Base64 geladen und lokal mit pypdf
+extrahiert worden, weil die Textausgabe des Drive-Readers bei umfangreichen PDF-Dateien ohne
+Fehlermeldung abbricht. Das personenbezogene Wasserzeichen der Vorlage ist auf **allen 74 Seiten**
+entfernt; eine Kontrolle mit `grep` bestätigt, dass es im extrahierten Text nicht mehr vorkommt.
+
+**Übernommen sind in dieser Runde** die Verfassungswidrigkeit des § 8c KStG (1.1) und die
+Tatbestandsmerkmale (1.2) mit dem schädlichen Anteilserwerb, den nicht genutzten Verlusten, den
+gewerbesteuerlichen Auswirkungen, dem Verhältnis zu § 3a EStG und der Sanierungsklausel.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Zuspitzung auf die einzige verbliebene Schwelle und
+die Faustregel „alles oder nichts“ samt der Fortwirkung der aufgehobenen Erwerbe als Zählerwerbe; die
+Klarstellung, dass stets am gesamten gezeichneten Kapital und nie an der Beteiligung des Veräußerers
+gemessen wird, mit einem eigenen Gegenbeispielpaar; der Zusammenhang zwischen der
+Mehrheitsgesellschafterstellung und dem Mantelkauf als Begründung für die 50-Prozent-Schwelle und
+zugleich für die Verwerfung der alten Stufe; die Einordnung des Kapitalkontos I bei der optierenden
+Gesellschaft; der Hinweis, dass auch der Zinsvortrag und der fortführungsgebundene Verlustvortrag
+erfasst sind, § 8d KStG also nicht dauerhaft immunisiert; die Rangfolge gegenüber § 3a EStG; die
+Reichweite der Ausblendung als Zählerwerb im Unterschied zur aufgehobenen Quotenstufe; die
+kumulative beziehungsweise alternative Struktur der Voraussetzungen der Sanierungsklausel samt der
+Rückwirkung des Branchenwechsels; und die über den Wortlaut des § 8c KStG hinausgehende Reichweite
+des § 10a Satz 10 GewStG auf Mitunternehmerschaften.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „wurde zum anderen
+auch Konzernklausel i.S. des § 8c Abs. 1 Satz 4 KStG eingeführt“ und „Der Erwerber muss daher
+objektiv die Absicht verfolgen, dass Unternehmen zu sanieren“.
+
+**Noch offen:** aus Teil V der Erwerberkreis (1.3), der Anteilserwerb (1.4), die Verschonungsgrenze
+(1.5), die Verlustkürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 (§ 8d KStG),
+3 (Zinsschranke) und 4 (stille Beteiligungen); ganz offen sind die Skriptteile VI und VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 6.2.5 bis 6.3 – das Skript ist vollständig
 
 Quelle: dieselbe Datei, Seiten 85 bis 87 (Schluss); übernommen als Kapitel 56 und 57. Prüfung:

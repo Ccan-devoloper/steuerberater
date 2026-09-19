@@ -3670,6 +3670,49 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Vorangegangene. **Damit ist das Skript vollständig übernommen.**
   Prüfung: `npm run check:k2-kst-teil4`
 
+- **KSt Teil V (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil V (§§ 8c, 8d,
+  Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
+  fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
+  stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
+  Arbeit**, derzeit 2 Kapitel mit 51 Abschnitten und 4 Tabellen. Nach der Aufhebung der ersten
+  Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
+  Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
+  vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
+  Das BVerfG hatte die frühere Stufe von über 25 bis 50 % mit Beschluss vom 29.03.2017 für
+  unvereinbar mit Art. 3 GG erklärt, weil es dort an einem sachlich überzeugenden Grund fehle, und
+  der Gesetzgeber hat sie für alle Erwerbe nach dem 31.12.2007 **ersatzlos aufgehoben**. Der Grund
+  für die verbliebene Schwelle ist die **zivilrechtliche** Qualität des Anteils: Ab mehr als 50 % ist
+  der Erwerber Mehrheitsgesellschafter, kann durch Mehrheitsbeschluss den Gesellschaftszweck ändern
+  und die erworbenen Verluste mit Gewinnen aus einer ganz neuen Tätigkeit verrechnen – genau das ist
+  der **Mantelkauf**, den die Norm treffen soll. Die aufgehobenen Erwerbe bleiben allerdings
+  **Zählerwerbe** und können zusammen mit späteren die Schwelle überschreiten. Gemessen wird dabei
+  stets am **gesamten** gezeichneten Kapital, nie an der Beteiligung des Veräußerers – wer von einem
+  Gesellschafter mit 60 % dessen gesamte Beteiligung erwirbt, überschreitet die Schwelle; wer von
+  zwei Gesellschaftern je 30 % ihres Anteils erwirbt, nicht. Bei der zur Körperschaftsbesteuerung
+  **optierenden** Gesellschaft nach § 1a KStG tritt an die Stelle des Nennkapitals das Kapitalkonto I
+  des Mitunternehmeranteils.
+  Erfasst sind **sämtliche** nicht genutzten Verluste, und die Aufzählung reicht weiter als der Name
+  der Norm vermuten lässt: neben den Verlustvorträgen auch der **Zinsvortrag** nach § 4h Abs. 1
+  Satz 5 EStG – eine Verbindung zum dritten Kapitel des Skripts, die in der Klausur leicht übersehen
+  wird –, der **fortführungsgebundene** Verlustvortrag (§ 8d KStG bewirkt also keine dauerhafte
+  Immunisierung) und die laufenden unterjährigen Verluste. Über § 10a Satz 10 GewStG schlägt die Norm
+  auf den **Gewerbeertrag** durch, und zwar sogar auf den Gewerbeverlust von Mitunternehmerschaften,
+  an denen unmittelbar oder über mehrere Stufen eine Kapitalgesellschaft beteiligt ist. Die
+  Steuerfreiheit eines Sanierungsgewinns nach § 3a EStG **rettet die Verluste nicht**: Der schädliche
+  Anteilserwerb lässt sie gleichwohl untergehen, gleichgültig ob der Schuldenerlass vor oder nach dem
+  Erwerb ausgesprochen wurde – denn für § 8c KStG gilt die **eigene** Sanierungsklausel des
+  Absatzes 1a, deren Voraussetzungen nicht über § 3a EStG umgangen werden sollen. Deren Rechtsfolge
+  geht weiter, als man erwartet: Der Erwerb wird **komplett ausgeblendet** und zählt auch für spätere
+  Erwerbe nicht als Zählerwerb, fällt also aus der Fünfjahresbetrachtung heraus. Verlangt werden
+  **kumulativ** die Sanierungsabsicht und der Erhalt der wesentlichen Betriebsstrukturen – innerhalb
+  des zweiten Merkmals genügt eine von drei Alternativen (Betriebsvereinbarung, Lohnsumme oder
+  Zuführung von Betriebsvermögen binnen zwölf Monaten) –, dazu treten zwei **negative**
+  Voraussetzungen: kein bereits im Wesentlichen eingestellter Geschäftsbetrieb und kein
+  **Branchenwechsel** binnen fünf Jahren. Die letzte ist besonders unangenehm, weil sie über § 175
+  Abs. 1 Nr. 2 AO **rückwirkend** greift – wer die Klausel nutzt, bindet sich fünf Jahre an die
+  Branche.
+  Prüfung: `npm run check:k2-kst-teil5`
+
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
 

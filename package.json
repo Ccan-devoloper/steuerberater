@@ -50,6 +50,7 @@
     "check:k2-kst-teil2": "node tools/pruefen-k2-kst-teil2.mjs",
     "check:k2-kst-teil3": "node tools/pruefen-k2-kst-teil3.mjs",
     "check:k2-kst-teil4": "node tools/pruefen-k2-kst-teil4.mjs",
+    "check:k2-kst-teil5": "node tools/pruefen-k2-kst-teil5.mjs",
     "check:k1-erbst-bewertung-teil1": "node tools/pruefen-k1-erbst-bewertung-teil1.mjs",
     "check:k1-erbst-bewertung-teil2": "node tools/pruefen-k1-erbst-bewertung-teil2.mjs",
     "check:k1-erbst-verschonung": "node tools/pruefen-k1-erbst-verschonung.mjs",
