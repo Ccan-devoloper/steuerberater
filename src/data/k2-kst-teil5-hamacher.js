@@ -29,9 +29,9 @@
    sperre (1.5.1.3) und der Zinsvortrag (1.5.1.4). Dazu kommen die Grundsätze
    der Verlustkürzung (1.6.1), der Erwerb zum Ende des Wirtschaftsjahres
    (1.6.2.1), der unterjährige Verlust (1.6.2.2.1) und der unterjährige Gewinn
-   samt Abwandlung (1.6.2.2.2). Es folgen die abweichenden Wirtschaftsjahre,
-   die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; der Campus weist den
-   Stand aus.
+   samt Abwandlung (1.6.2.2.2), die abweichenden Wirtschaftsjahre und die
+   Organschaftsfälle (1.7). Damit ist Kapitel 1 des Skripts VOLLSTÄNDIG
+   übernommen. Es folgen die Kapitel 2 bis 4; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -1069,6 +1069,114 @@ export const kstTeil5 = [
       { text: "Abweichung in Variante a) (eigene Nachrechnung): Hier geht die Rechnung der Quelle nicht auf, und die Abweichung ist erklärbar. Nach der Kürzung von 5.800.000 € verbleiben der Gesellschaft 10.000.000 € ./. 5.800.000 € = **4.200.000 €** Verlustvortrag, nicht die im Text genannten 3.000.000 €. Nach § 10d Abs. 2 EStG wären damit 1.000.000 € + 70 % × 3.000.000 € = **3.100.000 €** abziehbar, das zvE betrüge **900.000 €** und der Endbestand 4.200.000 € ./. 3.100.000 € = **1.100.000 €**. Die Quelle übernimmt dagegen die Angaben des Grundfalls unverändert – dort waren nur 3.000.000 € verschont, weshalb die Begrenzung auf 2.000.000 € zutraf. Mit den zusätzlichen stillen Reserven von 1.200.000 € entfällt dieser Grund. Die Sätze und Tabellen sind oben gleichwohl **wortlautgetreu** wiedergegeben; die abweichende eigene Rechnung steht bewusst daneben und ersetzt sie nicht." },
       { text: "Anmerkung zur Kontrolle über den Endbestand (eigene Ergänzung): Die in Abschnitt 1.6.2.2.1 eingeführte Gegenprobe – die Differenz der Endbestände mit und ohne stille Reserven muss genau den Reserven entsprechen – trägt hier nur in Variante b): 4.100.000 € ./. 2.900.000 € = 1.200.000 €. In Variante a) ergibt sie 1.200.000 € ./. 0 € = 1.200.000 € und stimmt damit scheinbar ebenfalls, weil der Grundfall auf 0 € endete. Erst die vollständige Rechnung zeigt, dass es 1.100.000 € sein müssten und zusätzlich 100.000 € mehr Verlust genutzt worden wären. Die Probe ist also ein nützlicher, aber kein hinreichender Test." },
       { text: "Anmerkung zur Reihenfolge der drei Schritte (eigene Ergänzung): Die Abwandlung fügt der Rechnung eine dritte Stufe hinzu, und ihre Reihenfolge ist zwingend. Zuerst wird der Verlustvortrag mit dem **unterjährigen Gewinn** verrechnet – ohne Mindestbesteuerung. Auf den danach verbleibenden **Überhang** wird die Verschonung nach § 8c Abs. 1 Satz 5 KStG angewandt. Was übrig bleibt, geht unter, und der gesamte verschonte Betrag wird schließlich im Veranlagungszeitraum nach § 10d Abs. 2 EStG – jetzt **mit** Mindestbesteuerung – genutzt. Wer die ersten beiden Schritte vertauscht, kommt zum selben Ergebnis, weil beide nur den Überhang bestimmen; wer aber die Mindestbesteuerung in den ersten Schritt zieht, rechnet erheblich zu ungünstig." },
+    ],
+  },
+  {
+    id: "kst-t5-19",
+    kapitel: "19",
+    abschnittNr: "1.6.3.2.3",
+    title: "1.6.3.2.3 Abweichende Wirtschaftsjahre",
+    thema: "Liegt der schädliche Erwerb nach Ablauf des Verlustentstehungs-Wirtschaftsjahres, aber noch im selben Veranlagungszeitraum, ist die Verlustfeststellung vorwegzunehmen – notfalls vorläufig nach § 165 Abs. 1 Nr. 1 AO",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 1.6.3.2.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 10d Abs. 4 EStG",
+      "§ 165 Abs. 1 Nr. 1 AO",
+      "R 7.1 Zeile 34 KStR",
+      "BMF vom 28.11.2017, Tz. 36",
+    ],
+    themen: ["abweichendes Wirtschaftsjahr", "Verlustfeststellung", "vorläufige Festsetzung", "Zeitversatz", "Mindestbesteuerung"],
+    bloecke: [
+      { typ: "titel", text: "1.6.3.2.3 Abweichende Wirtschaftsjahre" },
+      { text: "(Die Gliederungsnummer „1.6.3.2.3“ steht so in der Quelle; nach der Systematik des Abschnitts müsste sie „1.6.2.2.3“ lauten, weil der Abschnitt unmittelbar auf 1.6.2.2.2 folgt.)" },
+      { text: "Besitzt die Verlustgesellschaft ein abweichendes Wirtschaftsjahr ist eine Besonderheit zu beachten. Tritt der schädliche Erwerb i.S. des § 8c KStG nach Ablauf des Verlustentstehungs-Wirtschaftsjahres, aber innerhalb der verbliebenen Zeit des Veranlagungszeitraums ein, ergeben sich daraus Auswirkungen auf die zum Ende dieses VZ vorzunehmende Verlustfeststellung. Denn die Verlustfeststellung i.S. des § 10d Abs. 4 EStG erfolgt zum Ende des Veranlagungszeitraums und lässt damit die Zeitspanne nach Ablauf des Wirtschaftsjahres unberücksichtigt." },
+      { text: "Dies kann insbesondere in den Fällen, in denen im nachfolgenden Wj. ein Gewinn entsteht, welcher nach den v.g. Grundsätzen noch mit dem ungenutzten Verlust verrechnet werden könnte, zu Verwerfungen führen. Tz. 36 des BMF-Schreibens schreibt daher vor, dass in der Verlustfeststellung zum Ende dieses Veranlagungszeitraums des schädlichen Erwerbs auch die Auswirkungen der unterjährigen Verlustverrechnung zu erfassen sind. Damit wird in dieser Verlustfeststellung der Teil des „verschonten Verlustes“ festgestellt und kann im nachfolgenden Wj. nach den Grundsätzen des § 10d Abs. 2 EStG genutzt werden. Stehen die Ergebnisse des nachfolgenden Wirtschaftsjahres noch nicht fest, ist die Verlustfeststellung insoweit als vorläufig nach § 165 Abs. 1 Nr. 1 AO durchzuführen." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH (Wj.: 01.06. – 31.05.). Mit Wirkung zum 01.07.2025 erwirbt C den kompletten Anteil, welcher über keine stillen Reserven verfügt. Im Wj. 2024/2025 erzielte die A-GmbH einen steuerlichen Verlust von 10.000.000 €, zum 31.12.2024 ergibt sich kein Verlustvortrag. Im Wj. 2025/2026 erzielt die A-GmbH insgesamt einen positiven GdE von 4.000.000 €. Nach einem Zwischenabschluss soll davon auf die Zeit bis zum schädlichen Anteilserwerb ein Betrag von 3.000.000 € entfallen." },
+      { text: "Lösung: Der 100%ige Anteilserwerb in 2025 erfüllt die Voraussetzungen des § 8c Abs. 1 Satz 1 KStG, so dass der Verlust in vollständiger Höhe untergehen würde. Von der Verlustkürzung betroffen ist der ungenutzte Verlust im Zeitpunkt des schädlichen Erwerbs zum 01.07.2025, welcher aber unterjährig bereits im nachfolgenden Wj. 2025/2026 liegt. Dabei ist die Besonderheit zu berücksichtigen, dass bei der A-GmbH zum 31.12.2025 eine Verlustfeststellung i.S. des § 10d Abs. 4 EStG erfolgt, welche lediglich das Ergebnis des Wj. 2024/2025 beinhaltet. Weil dieser Verlust aufgrund des zum 01.07.2025 (d.h. nach Ende des Wj. 2024/2025) erfolgten schädlichen Erwerbs untergeht, muss in dieser Verlustfeststellung auch die Auswirkung des § 8c Abs. 1 Satz 1 KStG berücksichtigt werden." },
+      { text: "Im Rahmen der Einkommensermittlung 2025, welche von den Ergebnissen des Wj. 2024/2025 abhängt, ergeben sich daher folgende Konsequenzen:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025", "Betrag"], zeilen: [
+        ["vorläufiges Einkommen", "./. 10.000.000 €"],
+        ["= Einkommen", "./. 10.000.000 €"],
+      ] },
+      { text: "Beachte: die Auswirkungen des § 8c KStG ergeben sich erst im Wj. 2025/2026." },
+      { text: "Aufgrund des unterjährigen Gewinnes im nachfolgenden Wj. gilt aber, dass der ungenutzte Verlust von 10.000.000 € noch mit dem Gewinn verrechnet werden kann, welcher bis zum schädlichen Beteiligungserwerb entstanden ist. Daher ist in Höhe des Überhanges von 7.000.000 € die komplette Verlustkürzung vorzunehmen. Zum 31.12.2025 lautet die Verlustfeststellung i.S. des § 10d EStG daher 3.000.000 €:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand 01.01.2025", "0 €"],
+        ["+ Verlust 2025", "10.000.000 €"],
+        ["./. Kürzung aufgrund § 8c KStG", "./. 7.000.000 €"],
+        ["= Bestand zum 31.12.2025", "3.000.000 €"],
+      ] },
+      { text: "Dieser Verlust kann dann mit dem im Wj. 2025/2026 erzielten GdE von 4.000.000 € verrechnet werden, wobei hierfür die Einschränkungen der Mindestbesteuerung zu beachten sind:" },
+      { typ: "tabelle", spalten: ["Ermittlung des zvE 2026", "Betrag"], zeilen: [
+        ["GdE", "4.000.000 €"],
+        ["./. Grundabzug", "./. 1.000.000 €"],
+        ["./. 70% von 3.000.000 €, max.: 2.000.000 € (so in der Quelle)", "./. 2.000.000 €"],
+        ["= zvE", "1.000.000 €"],
+      ] },
+      { text: "Die nachfolgende Verlustfeststellung zum 31.12.2026 lautet wie folgt:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2026", "Betrag"], zeilen: [
+        ["Anfangsbestand", "3.000.000 €"],
+        ["./. Verlustvortrag nach 2025/2026", "./. 3.000.000 €"],
+        ["= Endbestand", "0 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. 10.000.000 € ./. 3.000.000 € unterjährig verrechnet = 7.000.000 € Kürzung; 0 € + 10.000.000 € ./. 7.000.000 € = 3.000.000 € festgestellter Verlust. Bei der Nutzung im Veranlagungszeitraum 2026 sind rechnerisch 1.000.000 € + 70 % × 3.000.000 € = 3.100.000 € abziehbar, vorhanden sind aber nur 3.000.000 € – daher der Vermerk „max. 2.000.000 €“ neben dem Grundabzug; 4.000.000 € ./. 3.000.000 € = 1.000.000 € zvE, Endbestand 0 €." },
+      { text: "Anmerkung zum Kern der Besonderheit (eigene Ergänzung): Das Problem entsteht allein aus einem **Zeitversatz** zwischen zwei Größen. Der Verlust wird zum Ende des **Veranlagungszeitraums** festgestellt, der schädliche Erwerb wirkt aber auf den Zeitpunkt im **Wirtschaftsjahr**. Liegt der Erwerb – wie hier am 01.07.2025 – nach dem 31.05.2025 und damit nach Ablauf des Verlustjahres, aber vor dem 31.12.2025, fällt er in die Lücke: Die Feststellung zum 31.12.2025 kennt nur das Wj. 2024/2025 und würde den vollen Verlust ausweisen, obwohl er längst gekürzt ist. Tz. 36 des BMF-Schreibens zieht die Kürzung deshalb in diese Feststellung **vor**." },
+      { text: "Anmerkung zur vorläufigen Feststellung (eigene Ergänzung): Die Anordnung, die Feststellung nach § 165 Abs. 1 Nr. 1 AO **vorläufig** durchzuführen, ist die logische Folge des Zeitversatzes und in der Praxis der Regelfall. Wie hoch die Kürzung ausfällt, hängt vom unterjährigen Ergebnis des **nachfolgenden** Wirtschaftsjahres ab – hier vom Zwischenabschluss auf den 01.07.2025 innerhalb des Wj. 2025/2026, das erst am 31.05.2026 endet. Zum Zeitpunkt der Feststellung für 2025 steht diese Zahl regelmäßig noch nicht fest. Die Vorläufigkeit ist dabei auf diesen Punkt beschränkt; sie öffnet den Bescheid nicht in vollem Umfang." },
+      { text: "Anmerkung zum Nebeneinander von Einkommen und Feststellung (eigene Ergänzung): Der Fall trennt beides sauber, und die Quelle hebt es mit „Beachte“ hervor. Das **Einkommen 2025** bleibt bei ./. 10.000.000 €, weil es allein vom Wj. 2024/2025 abhängt und der Erwerb erst danach liegt – eine Hinzurechnung nach R 7.1 Zeile 34 unterbleibt also. Gekürzt wird ausschließlich in der **Feststellung**. Das ist der Unterschied zum unterjährigen Erwerb bei deckungsgleichem Wirtschaftsjahr, wo beide Größen betroffen sind." },
+    ],
+  },
+  {
+    id: "kst-t5-20",
+    kapitel: "20",
+    abschnittNr: "1.7",
+    title: "Abweichendes Wirtschaftsjahr mit unterjährigem Verlust und 1.7 Organschaftsfälle",
+    thema: "Im zweiten Beispiel geht auch der unterjährige Verlust des Folgejahres unter; die Organschaftsfälle verweist die Quelle auf das Skript Teil VI",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 1.6.3.2.3 (zweites Beispiel) und Abschnitt 1.7 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 10d Abs. 4 EStG",
+      "R 7.1 Zeile 34 KStR",
+      "BMF vom 28.11.2017, Tz. 36",
+    ],
+    themen: ["abweichendes Wirtschaftsjahr", "unterjähriger Verlust", "Hinzurechnung", "Organschaft", "Organträger", "Organgesellschaft"],
+    bloecke: [
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH (Wj.: 01.06. – 31.05.). Mit Wirkung zum 01.07.2025 erwirbt C den kompletten Anteil, welcher über keine stillen Reserven verfügt. Im Wj. 2024/2025 erzielte die A-GmbH einen steuerlichen Verlust von 10.000.000 €. Ein Verlustvortrag zum 31.12.2024 besteht nicht. Im Wj. 2025/2026 erzielt die A-GmbH insgesamt einen negativen GdE von -4.000.000 €. Nach einem Zwischenabschluss soll davon auf die Zeit bis zum Anteilserwerb ein Betrag von -3.000.000 € entfallen." },
+      { text: "Lösung: Der 100%ige Anteilserwerb in 2025 erfüllt die Voraussetzungen des § 8c Abs. 1 Satz 1 KStG, so dass der Verlust in vollständiger Höhe untergehen würde. Von der Verlustkürzung betroffen ist der ungenutzte Verlust im Zeitpunkt des 01.07.2025 von 12.000.000 €. Bei der Einkommensermittlung für 2025, die von den Ergebnissen des Wj. 2024/2025 abhängt, werden folgende Konsequenzen gezogen: (Die Angabe „12.000.000 €“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025", "Betrag"], zeilen: [
+        ["vorläufiges Einkommen", "./. 10.000.000 €"],
+        ["= Einkommen", "./. 10.000.000 €"],
+      ] },
+      { text: "Beachte: die Auswirkungen des § 8c KStG ergeben sich beim Einkommen erst im Wj. 2025/2026." },
+      { text: "In der Verlustfeststellung auf den 31.12.2025 ergeben sich folgende Auswirkungen:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "0 €"],
+        ["+ Verlust 2024/2025", "10.000.000 €"],
+        ["./. Kürzung § 8c KStG", "./. 10.000.000 €"],
+        ["= Bestand zum 31.12.2025", "0 €"],
+      ] },
+      { text: "Im Rahmen der Einkommensermittlung für den VZ 2026, welches von dem Ergebnis des Wirtschaftsjahres 2025/2026 abhängt, steht der unterjährige Betrag i.H. von -3.000.000 € nicht mehr für eine Verlustverrechnung zur Verfügung, weil dieser ebenfalls nach § 8c Abs. 1 Satz 1 KStG untergeht. Im Rahmen der Einkommensermittlung für 2026 sind daher folgende Konsequenzen zu ziehen:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2026", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte (vorl. Einkommen)", "./. 4.000.000 €"],
+        ["+ Kürzung (R 7.1 Zeile 34)", "+ 3.000.000 €"],
+        ["= z.v.E.", "./. 1.000.000 €"],
+      ] },
+      { text: "Die Verlustfeststellung auf den 31.12.2026 lautet danach wie folgt:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2026", "Betrag"], zeilen: [
+        ["Anfangsbestand", "0 €"],
+        ["+ Verlust 2026", "+ 1.000.000 €"],
+        ["= Bestand zum 31.12.2026", "1.000.000 €"],
+      ] },
+      { typ: "titel", text: "1.7 Auswirkungen in Organschaftsfällen" },
+      { text: "Die Auswirkungen des § 8c KStG auf die Verluste des Organträgers und der Organgesellschaft werden im KSt-Skript Teil VI „Organschaft“ behandelt." },
+      { text: "Rechenprobe und Abweichung (eigene Nachrechnung): Die Rechnungen des Beispiels gehen auf – ./. 4.000.000 € + 3.000.000 € = ./. 1.000.000 € z.v.E.; 0 € + 1.000.000 € = 1.000.000 € Endbestand – die Zwischenangabe im Lösungstext dagegen nicht. Betroffen sind der Verlust des Wj. 2024/2025 von 10.000.000 € und der unterjährige Verlust von 3.000.000 €, zusammen also **13.000.000 €** und nicht die genannten 12.000.000 €. Beide Beträge finden sich in den Tabellen wieder: 10.000.000 € als Kürzung in der Feststellung zum 31.12.2025, 3.000.000 € als Hinzurechnung im Einkommen 2026. Der Satz der Quelle ist oben unverändert wiedergegeben." },
+      { text: "Anmerkung zum Gegenstück zum ersten Beispiel (eigene Ergänzung): Die beiden Beispiele zum abweichenden Wirtschaftsjahr unterscheiden sich nur im **Vorzeichen** des Folgejahres, und das ändert alles. Im ersten Fall rettet der unterjährige **Gewinn** von 3.000.000 € einen Teil des Verlustvortrags, so dass nur 7.000.000 € gekürzt werden. Im zweiten Fall vergrößert der unterjährige **Verlust** von 3.000.000 € den Schaden: Der Vortrag geht vollständig unter, und der laufende Verlust wird zusätzlich erfasst. Die Anordnung aus Tz. 36, die Auswirkungen in die Feststellung zum 31.12.2025 vorzuziehen, gilt in beiden Richtungen." },
+      { text: "Anmerkung zur Verteilung auf zwei Veranlagungszeiträume (eigene Ergänzung): Der zweite Fall macht die Folge des Zeitversatzes besonders anschaulich, weil ein einziger Erwerbsvorgang in **zwei** Veranlagungszeiträumen wirkt. In der Feststellung zum 31.12.2025 werden 10.000.000 € gekürzt, im Einkommen 2026 kommen 3.000.000 € hinzu. Wer nur einen der beiden Zeiträume prüft, übersieht die Hälfte der Rechtsfolge. Das Einkommen 2025 bleibt dabei unberührt, weil es allein vom Wj. 2024/2025 abhängt." },
+      { text: "Anmerkung zum Verweis in Abschnitt 1.7 (eigene Ergänzung): Der Abschnitt zu den Organschaftsfällen besteht aus einem einzigen Satz und verweist auf das Skript Teil VI. Die Aussagen zum Organkreis, die dieses Skript gleichwohl bereits enthält, stehen in Abschnitt 1.5.1: Beim **Organträger** zählen die stillen Reserven der Beteiligung an der Organgesellschaft nicht mit, bei der **Organgesellschaft** stehen ihre eigenen stillen Reserven nur für den laufenden Verlust und einen vororganschaftlichen Verlustvortrag zur Verfügung. Damit ist Kapitel 1 des Skripts abgeschlossen; es folgt der fortführungsgebundene Verlustvortrag nach § 8d KStG." },
     ],
   },
 ];

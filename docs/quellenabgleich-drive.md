@@ -10620,6 +10620,41 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 1.6.3.2.3 und 1.7 – abweichende Wirtschaftsjahre und Organschaft: Kapitel 1 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 32 bis 34; übernommen als Kapitel 19 und 20. Prüfung:
+`npm run check:k2-kst-teil5` (20 Kapitel, 396 Blöcke, 55 Tabellen). Damit ist **Kapitel 1 des
+Skripts (§ 8c KStG) vollständig** übernommen.
+
+**Die Tabellen beider Beispiele sind unabhängig nachgerechnet und gehen auf.** Erstes Beispiel:
+10.000.000 € ./. 3.000.000 € = 7.000.000 € Kürzung; 0 € + 10.000.000 € ./. 7.000.000 € = 3.000.000 €
+festgestellter Verlust; 4.000.000 € ./. 3.000.000 € = 1.000.000 € zvE; Endbestand 0 €. Zweites
+Beispiel: ./. 4.000.000 € + 3.000.000 € = ./. 1.000.000 € z.v.E.; 0 € + 1.000.000 € = 1.000.000 €
+Endbestand.
+
+**Eine Zwischenangabe der Quelle geht nicht auf und ist wortlautgetreu daneben stehen gelassen.** Im
+zweiten Beispiel nennt der Lösungstext einen betroffenen Verlust von 12.000.000 €. Betroffen sind
+aber der Verlust des Wj. 2024/2025 von 10.000.000 € und der unterjährige Verlust von 3.000.000 €,
+zusammen **13.000.000 €**. Beide Beträge erscheinen in den Tabellen der Quelle selbst – 10.000.000 €
+als Kürzung in der Feststellung zum 31.12.2025, 3.000.000 € als Hinzurechnung im Einkommen 2026 –,
+so dass es sich um einen isolierten Zahlendreher im Fließtext handelt.
+
+**Drei weitere Eigenheiten der Quelle sind übernommen und markiert:** die Gliederungsnummer
+„1.6.3.2.3", die nach der Systematik „1.6.2.2.3" lauten müsste, weil der Abschnitt unmittelbar auf
+1.6.2.2.2 folgt; der überzählige Doppelpunkt in „70% von 3.000.000 €, max.: 2.000.000 €"; und der
+Genusfehler „für den VZ 2026, welches von dem Ergebnis des Wirtschaftsjahres 2025/2026 abhängt".
+
+**Als eigene Ergänzungen eingeordnet** sind: die Erklärung des Zeitversatzes zwischen der Feststellung
+zum Ende des Veranlagungszeitraums und der Wirkung des Erwerbs im Wirtschaftsjahr; die Einordnung der
+Vorläufigkeit nach § 165 Abs. 1 Nr. 1 AO als Regelfall samt der Begrenzung auf diesen Punkt; die
+Trennung von Einkommen und Feststellung, die die Quelle nur mit „Beachte" hervorhebt; der Vergleich
+der beiden Beispiele, die sich allein im Vorzeichen des Folgejahres unterscheiden; die Feststellung,
+dass ein einziger Erwerbsvorgang in zwei Veranlagungszeiträumen wirkt; und die Rückbindung des
+Verweises in 1.7 an die bereits in 1.5.1 enthaltenen Aussagen zum Organkreis.
+
+**Noch offen:** aus Teil V die Kapitel 2 (§ 8d KStG), 3 (Zinsschranke) und 4 (stille Beteiligungen);
+ganz offen sind die Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitt 1.6.2.2.2 – unterjähriger Gewinn und Abwandlung mit stillen Reserven
 
 Quelle: dieselbe Datei, Seiten 30 bis 32; übernommen als Kapitel 17 und 18. Prüfung:

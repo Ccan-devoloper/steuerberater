@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 18 Kapitel mit 361 Abschnitten und 47 Tabellen. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 20 Kapitel mit 396 Abschnitten und 55 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3976,6 +3976,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Quelle sind gleichwohl wortlautgetreu wiedergegeben; die abweichende Rechnung steht als eigene
   Ergänzung daneben. Variante b) der Abwandlung geht dagegen auf, und die Gegenprobe über die
   Endbestände bestätigt sie: 4.100.000 € ./. 2.900.000 € = 1.200.000 €, genau die stillen Reserven.
+  Beim **abweichenden Wirtschaftsjahr** entsteht ein **Zeitversatz** zwischen zwei Größen: Der Verlust
+  wird zum Ende des **Veranlagungszeitraums** festgestellt, der schädliche Erwerb wirkt aber auf einen
+  Zeitpunkt im **Wirtschaftsjahr**. Liegt er nach Ablauf des Verlustentstehungsjahres, aber noch
+  innerhalb desselben Veranlagungszeitraums – im Beispiel am 01.07.2025 bei einem Wirtschaftsjahr vom
+  01.06. bis 31.05. –, kennt die Feststellung zum 31.12.2025 nur das Wj. 2024/2025 und wiese den
+  ungekürzten Verlust aus. Tz. 36 des BMF-Schreibens zieht die Kürzung deshalb in diese Feststellung
+  **vor**; stehen die Ergebnisse des nachfolgenden Wirtschaftsjahres noch nicht fest – der Regelfall,
+  weil es erst am 31.05.2026 endet –, ist sie insoweit **vorläufig** nach § 165 Abs. 1 Nr. 1 AO
+  durchzuführen. Die beiden Beispiele der Quelle unterscheiden sich nur im **Vorzeichen** des
+  Folgejahres und laufen genau entgegengesetzt: Der unterjährige **Gewinn** von 3.000.000 € rettet
+  einen Teil des Vortrags, so dass nur 7.000.000 € gekürzt werden und 3.000.000 € festgestellt
+  bleiben; der unterjährige **Verlust** von 3.000.000 € vergrößert dagegen den Schaden – der Vortrag
+  geht vollständig unter und der laufende Verlust wird zusätzlich erfasst. Ein einziger
+  Erwerbsvorgang wirkt dann in **zwei** Veranlagungszeiträumen: 10.000.000 € als Kürzung in der
+  Feststellung zum 31.12.2025, 3.000.000 € als Hinzurechnung im Einkommen 2026. Wer nur einen der
+  beiden Zeiträume prüft, übersieht die Hälfte der Rechtsfolge. Das Einkommen 2025 bleibt dabei
+  unberührt, weil es allein vom Wj. 2024/2025 abhängt – der Unterschied zum unterjährigen Erwerb bei
+  deckungsgleichem Wirtschaftsjahr, wo beide Größen betroffen sind. Die Zwischenangabe von
+  12.000.000 € im zweiten Beispiel geht allerdings nicht auf: Betroffen sind 10.000.000 € Vortrag und
+  3.000.000 € unterjähriger Verlust, zusammen 13.000.000 €; beide Beträge finden sich in den Tabellen
+  der Quelle wieder, die im Übrigen aufgehen. Die **Organschaftsfälle** verweist die Quelle mit einem
+  Satz auf das Skript Teil VI.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
