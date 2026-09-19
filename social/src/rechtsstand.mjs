@@ -976,6 +976,144 @@ function korrigiereGuEEinspruch(thema) {
   };
 }
 
+function korrigiereUst14c(thema) {
+  normErgaenzen(thema, "§ 14c Abs. 1 und 2 UStG", "EuGH 01.08.2025 – C-794/23", "BFH 26.03.2026 – V R 46/25");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 14c Abs. 1 UStG betrifft den unrichtigen Steuerausweis eines grundsätzlich zum Steuerausweis berechtigten Unternehmers; Abs. 2 erfasst insbesondere den unberechtigten Steuerausweis. Beide Tatbestände sind von der materiell für den Umsatz geschuldeten Steuer zu trennen.",
+      "Nach EuGH C-794/23 und BFH V R 46/25 entsteht bei § 14c Abs. 1 keine Steuerschuld, soweit eine Rechnung an einen Endverbraucher im unionsrechtlich engen Sinn erteilt wird. Der BFH hat seine entgegenstehende Rechtsprechung am 26.03.2026 ausdrücklich aufgegeben.",
+      "Als Endverbraucher in diesem Sinn gelten nach EuGH C-794/23 nur nicht steuerpflichtige Personen. Ein Steuerpflichtiger wird nicht schon deshalb zum Endverbraucher, weil er die konkrete Leistung privat oder für nicht zum Vorsteuerabzug berechtigende Zwecke bezieht. Bei gemischtem Empfängerkreis kann der Anteil erforderlichenfalls geschätzt werden.",
+    ],
+    lernziele: [
+      "§ 14c Abs. 1 und Abs. 2 vom materiellen Umsatz trennen",
+      "unrichtigen und unberechtigten Steuerausweis unterscheiden",
+      "Endverbraucher-Ausnahme nach EuGH C-794/23 und BFH V R 46/25 beachten",
+      "Endverbraucher unionsrechtlich eng als nicht steuerpflichtige Personen verstehen",
+      "Berichtigungsvoraussetzungen des jeweils einschlägigen Absatzes gesondert prüfen",
+    ],
+    pruefschritte: [
+      "Zuerst die materiell geschuldete Umsatzsteuer des zugrunde liegenden Umsatzes bestimmen.",
+      "Dann klären, ob ein unrichtiger Steuerausweis nach § 14c Abs. 1 oder ein unberechtigter Steuerausweis nach Abs. 2 vorliegt.",
+      "Bei § 14c Abs. 1 prüfen, ob und in welchem Umfang Rechnungen an nicht steuerpflichtige Endverbraucher erteilt wurden; insoweit entsteht nach EuGH/BFH keine §-14c-Steuerschuld.",
+      "Steuerpflichtige Rechnungsempfänger nicht allein wegen privater Verwendung oder fehlender Vorsteuerabzugsberechtigung als Endverbraucher behandeln.",
+      "Bei nicht eindeutig feststellbarem Empfängerkreis eine unionsrechtskonforme Schätzung anhand der verfügbaren Umstände in Betracht ziehen.",
+      "Erst anschließend die jeweilige Berichtigungsmöglichkeit nach § 14c prüfen.",
+    ],
+    merksatz: "§ 14c Abs. 1 seit BFH V R 46/25: keine Steuerschuld für Rechnungen an Endverbraucher; Endverbraucher sind nach EuGH C-794/23 aber nur Nichtsteuerpflichtige, nicht jeder Unternehmer ohne Vorsteuerabzug.",
+  };
+}
+
+function korrigiereUwa9a(thema) {
+  normErgaenzen(thema, "§ 3 Abs. 9a Nr. 1 und 2 UStG", "§ 15a UStG", "BMF 01.04.2026 – III C 2 - S 7316/00022/007/023");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 3 Abs. 9a Nr. 1 UStG setzt bei der Verwendung eines dem Unternehmen zugeordneten Gegenstands für unternehmensfremde Zwecke voraus, dass der Gegenstand oder seine Bestandteile zum vollen oder teilweisen Vorsteuerabzug berechtigt haben. Nr. 2 betrifft andere unentgeltliche sonstige Leistungen für unternehmensfremde Zwecke oder für den privaten Bedarf des Personals.",
+      "Die Finanzverwaltung unterscheidet seit dem BMF-Schreiben vom 01.04.2026 klar zwischen unternehmensfremdem, insbesondere privatem Bereich und nichtwirtschaftlicher Tätigkeit im engeren Sinn. Für eine Nutzungsänderung zwischen unternehmerischem Bereich und nichtwirtschaftlicher Tätigkeit i. e. S. ist grundsätzlich der Vorsteuerabzug beziehungsweise § 15a UStG zu prüfen, nicht eine unentgeltliche Wertabgabe.",
+      "Die neuen Verwaltungsgrundsätze gelten in allen offenen Fällen. Für Besteuerungszeiträume vor dem 01.01.2027 wird es jedoch nicht beanstandet, wenn der Unternehmer einheitlich für alle betroffenen Sachverhalte noch die bisherige Verwaltungsauffassung anwendet.",
+    ],
+    lernziele: [
+      "§ 3 Abs. 9a Nr. 1 und Nr. 2 unterscheiden",
+      "bei Nr. 1 die volle oder teilweise Vorsteuerabzugsberechtigung des Gegenstands beziehungsweise seiner Bestandteile als Tatbestandsvoraussetzung prüfen",
+      "unternehmensfremde/private Zwecke von nichtwirtschaftlicher Tätigkeit i. e. S. trennen",
+      "bei Wechsel zur nichtwirtschaftlichen Tätigkeit i. e. S. Vorsteuerabzug und § 15a statt automatisch eine unentgeltliche Wertabgabe prüfen",
+      "Übergangsregelung der Finanzverwaltung für Zeiträume bis Ende 2026 beachten",
+      "Bemessungsgrundlage erst nach zutreffender Tatbestandsqualifikation bestimmen",
+    ],
+    pruefschritte: [
+      "Lieferung und sonstige Leistung abgrenzen.",
+      "Bei § 3 Abs. 9a Nr. 1: Verwendung eines dem Unternehmen zugeordneten Gegenstands für unternehmensfremde Zwecke feststellen und zusätzlich prüfen, ob der Gegenstand oder seine Bestandteile zum vollen oder teilweisen Vorsteuerabzug berechtigt haben.",
+      "Bei § 3 Abs. 9a Nr. 2: andere unentgeltliche sonstige Leistung für unternehmensfremde Zwecke oder für den privaten Bedarf des Personals prüfen.",
+      "Nichtwirtschaftliche Tätigkeit i. e. S. nicht mit unternehmensfremder/private Nutzung gleichsetzen: nach der Verwaltungsauffassung vom 01.04.2026 grundsätzlich Vorsteuerabzug beziehungsweise § 15a prüfen.",
+      "Für Besteuerungszeiträume vor 2027 die Nichtbeanstandungsregel beachten: die bisherige Verwaltungsauffassung darf nur einheitlich für alle betroffenen Sachverhalte weiter angewendet werden.",
+      "Nur bei erfülltem Wertabgabentatbestand die Kosten-Bemessungsgrundlage nach § 10 Abs. 4 S. 1 Nr. 2 oder 3 UStG bestimmen.",
+    ],
+    merksatz: "§ 3 Abs. 9a Nr. 1 verlangt Vorsteuerabzug aus Gegenstand oder Bestandteilen. Seit BMF 01.04.2026 gilt außerdem: nichtwirtschaftliche Tätigkeit i. e. S. grundsätzlich über Vorsteuerabzug/§ 15a lösen, nicht automatisch über unentgeltliche Wertabgabe.",
+  };
+  rechtsstandswechsel(thema, {
+    abJahr: 2027,
+    vorherJahr: 2026,
+    norm: "BMF 01.04.2026 – III C 2 - S 7316/00022/007/023",
+    aktuell: "Die Nichtbeanstandungsregel ist abgelaufen: Bei Nutzungsänderungen zwischen unternehmerischem Bereich und nichtwirtschaftlicher Tätigkeit i. e. S. ist nach der Verwaltungsauffassung vom 01.04.2026 Vorsteuerabzug bzw. § 15a UStG zu prüfen; eine unentgeltliche Wertabgabe wird dafür nicht mehr nach der früheren Verwaltungsauffassung angesetzt.",
+    vorher: "Die neuen BMF-Grundsätze gelten bereits in offenen Fällen. Für Besteuerungszeiträume vor dem 1.1.2027 wird aber nicht beanstandet, wenn der Unternehmer einheitlich für alle betroffenen Sachverhalte noch die bisherige Verwaltungsauffassung zu Vorsteuerabzug und unentgeltlicher Wertabgabe anwendet.",
+  });
+}
+
+function korrigiereUstZuordnung2026(thema) {
+  normErgaenzen(thema, "A 15.2b/15.2c UStAE", "§ 15a UStG", "BMF 01.04.2026 – III C 2 - S 7316/00022/007/023");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Für den Vorsteuerabzug ist nicht jede nichtunternehmerische Nutzung gleich zu behandeln. Zu unterscheiden sind unternehmensfremde, insbesondere private Zwecke und eine nichtwirtschaftliche Tätigkeit im engeren Sinn.",
+      "Bei einem einheitlichen Gegenstand, der teilweise unternehmerisch und teilweise unternehmensfremd privat genutzt werden soll, kann unter den gesetzlichen Voraussetzungen weiterhin ein Zuordnungswahlrecht bestehen. Bei einer Verwendung für unternehmerische und nichtwirtschaftliche Tätigkeit i. e. S. gilt dagegen grundsätzlich ein Aufteilungsgebot für den Vorsteuerabzug.",
+      "Ändert sich das Nutzungsverhältnis später zwischen unternehmerischer und nichtwirtschaftlicher Tätigkeit i. e. S., ist nach BMF 01.04.2026 grundsätzlich § 15a UStG zu prüfen. Die neuen Grundsätze gelten in offenen Fällen; für Besteuerungszeiträume vor 2027 ist die einheitliche Anwendung der bisherigen Verwaltungsauffassung noch nicht zu beanstanden.",
+    ],
+    lernziele: [
+      "unternehmensfremde/private Nutzung und nichtwirtschaftliche Tätigkeit i. e. S. auseinanderhalten",
+      "Zuordnungswahlrecht nur für die dafür vorgesehenen gemischt privat/unternehmerisch genutzten einheitlichen Gegenstände anwenden",
+      "bei unternehmerischer und nichtwirtschaftlicher Tätigkeit i. e. S. den Vorsteuerabzug grundsätzlich aufteilen",
+      "spätere Nutzungsänderungen zur nichtwirtschaftlichen Tätigkeit i. e. S. über § 15a prüfen",
+      "10-%-Grenze und Grundstückssonderregel des § 15 Abs. 1b UStG gesondert beachten",
+      "Nichtbeanstandungsregel für Besteuerungszeiträume vor 2027 kennen",
+    ],
+    pruefschritte: [
+      "Beabsichtigte Verwendung bei Leistungsbezug bestimmen und unternehmerischen von nichtunternehmerischen Bereichen trennen.",
+      "Im nichtunternehmerischen Bereich zwischen unternehmensfremd/privat und nichtwirtschaftlicher Tätigkeit i. e. S. unterscheiden.",
+      "Bei einheitlichen Gegenständen mit unternehmerischer und privater Nutzung Zuordnungswahlrecht und 10-%-Mindestnutzung prüfen.",
+      "Bei Verwendung für unternehmerische und nichtwirtschaftliche Tätigkeit i. e. S. den Vorsteuerabzug grundsätzlich nach dem Nutzungsverhältnis aufteilen.",
+      "Bei späterer Änderung dieses Nutzungsverhältnisses § 15a UStG einschließlich § 44 UStDV prüfen.",
+      "Für Zeiträume vor 2027 die einheitlich auszuübende Nichtbeanstandungsregel des BMF-Schreibens vom 01.04.2026 berücksichtigen.",
+      "Bei Grundstücken zusätzlich § 15 Abs. 1b und die einschlägigen Übergangsregeln prüfen.",
+    ],
+    merksatz: "Seit BMF 01.04.2026 ist die Trennlinie zentral: privat/unternehmensfremd kann ein Zuordnungswahlrecht und eine Wertabgabe auslösen; nichtwirtschaftliche Tätigkeit i. e. S. führt grundsätzlich zur Vorsteueraufteilung und bei späterer Änderung zu § 15a.",
+  };
+  rechtsstandswechsel(thema, {
+    abJahr: 2027,
+    vorherJahr: 2026,
+    norm: "BMF 01.04.2026 – III C 2 - S 7316/00022/007/023",
+    aktuell: "Die bis Ende 2026 gewährte Nichtbeanstandung ist ausgelaufen. Für die Abgrenzung von unternehmerischer und nichtwirtschaftlicher Tätigkeit i. e. S. sind die neuen Verwaltungsgrundsätze zu Vorsteueraufteilung und § 15a maßgeblich.",
+    vorher: "Die neuen Verwaltungsgrundsätze gelten bereits in offenen Fällen; für Besteuerungszeiträume vor 2027 darf jedoch einheitlich noch die bisherige Verwaltungsauffassung zu Vorsteuerabzug und unentgeltlicher Wertabgabe angewandt werden.",
+  });
+}
+
+function korrigiereUstOrganschaft(thema) {
+  normErgaenzen(thema, "§ 2 Abs. 2 Nr. 2 UStG", "BFH 18.01.2023 – XI R 29/22", "BFH 29.08.2024 – V R 14/24", "BMF 01.04.2026 – III C 2 - S 7105/00035/008/056");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Die umsatzsteuerliche Organschaft setzt finanzielle, wirtschaftliche und organisatorische Eingliederung voraus. Für die finanzielle Eingliederung ist die Mehrheit der Stimmrechte der Regelfall, aber keine ausnahmslose starre >50-%-Grenze.",
+      "Nach BFH XI R 29/22 kann finanzielle Eingliederung ausnahmsweise auch bei genau 50 % der Stimmrechte vorliegen, wenn der Organträger zugleich eine Mehrheitsbeteiligung am Kapital hält und den einzigen Geschäftsführer der Organgesellschaft stellt, sodass seine Willensdurchsetzung gesichert ist.",
+      "Innenleistungen im Organkreis sind nach BFH V R 14/24 und BMF 01.04.2026 auch dann nicht steuerbar, wenn sie für nichtwirtschaftliche Tätigkeiten i. e. S. des Organträgers oder der Organgesellschaft verwendet werden. Für den Vorsteuerabzug bzw. § 15a gelten die gesonderten Regeln.",
+    ],
+    lernziele: [
+      "Organträger und Organgesellschaft bestimmen",
+      "finanzielle, wirtschaftliche und organisatorische Eingliederung getrennt prüfen",
+      "Mehrheit der Stimmrechte als Grundregel und die BFH-Ausnahme bei genau 50 % plus Kapitalmehrheit und Alleingeschäftsführung kennen",
+      "zeitlichen Eintritt und Wegfall der Organschaft bestimmen",
+      "Nichtsteuerbarkeit von Innenleistungen auch bei Verwendung für nichtwirtschaftliche Tätigkeiten i. e. S. beachten",
+      "Inlandsbegrenzung und Vorsteuerfolgen gesondert prüfen",
+    ],
+    pruefschritte: [
+      "Geeigneten Organträger und Organgesellschaft bestimmen.",
+      "Finanzielle Eingliederung prüfen: grundsätzlich Stimmenmehrheit; bei genau 50 % zusätzlich prüfen, ob Kapitalmehrheit und Stellung des einzigen Geschäftsführers die Willensdurchsetzung sichern.",
+      "Wirtschaftliche Eingliederung anhand der wirtschaftlichen Verflechtung prüfen.",
+      "Organisatorische Eingliederung anhand der tatsächlichen organisatorischen Beherrschung prüfen; Personenidentität in der Geschäftsführung ist eine starke, aber nicht die einzig denkbare Ausprägung.",
+      "Nur bei kumulativem Vorliegen der Voraussetzungen Rechtsfolgen des § 2 Abs. 2 Nr. 2 UStG ziehen.",
+      "Innenleistungen als nicht steuerbar behandeln; dies gilt nach aktueller BFH-/BMF-Linie auch bei Verwendung für nichtwirtschaftliche Tätigkeiten i. e. S.",
+      "Inlandsbegrenzung sowie Vorsteuerabzug und gegebenenfalls § 15a gesondert prüfen.",
+    ],
+    merksatz: "Organschaft: Stimmenmehrheit ist die Grundregel, aber 50 % können bei Kapitalmehrheit plus Alleingeschäftsführung genügen. Innenleistungen bleiben auch bei Verwendung für nichtwirtschaftliche Tätigkeiten i. e. S. nicht steuerbar.",
+  };
+  rechtsstandswechsel(thema, {
+    abJahr: 2027,
+    vorherJahr: 2026,
+    norm: "BMF 01.04.2026 – III C 2 - S 7105/00035/008/056",
+    aktuell: "Die bis 31.12.2026 gewährte Nichtbeanstandung ist ausgelaufen. Die aktualisierte Verwaltungslinie zur Nichtsteuerbarkeit von Innenleistungen auch bei Verwendung für nichtwirtschaftliche Tätigkeiten i. e. S. ist ohne diese Übergangsoption anzuwenden.",
+    vorher: "Die neuen BMF-Grundsätze gelten in offenen Fällen; bis 31.12.2026 wird jedoch nicht beanstandet, wenn noch die bisherige Verwaltungsauffassung angewandt wird.",
+  });
+}
+
 function kennzeichneGastronomie(thema) {
   rechtsstandswechsel(thema, {
     abJahr: 2026,
@@ -1026,6 +1164,10 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-modul-k3-35": korrigiereElektroPkw(thema); break;
       case "bilanz-modul-k3-29": korrigiereRueckstellungskatalog(thema); break;
       case "ust-modul-ust-161": kennzeichneGastronomie(thema); break;
+      case "ust-modul-ust-209": korrigiereUst14c(thema); break;
+      case "ust-modul-ust-212": korrigiereUwa9a(thema); break;
+      case "ust-modul-ust-224": korrigiereUstZuordnung2026(thema); break;
+      case "ust-modul-ust-234": korrigiereUstOrganschaft(thema); break;
       default: break;
     }
 
