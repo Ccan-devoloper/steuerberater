@@ -159,6 +159,16 @@ test("PersG-SBV-II verwendet keine starre 10%-Grenze für Komplementär-GmbH-Ant
   assert.match(kern(t), /bloße.*finanzielle Teilhabe.*nicht|bloße Vermögensmehrung.*nicht/i);
 });
 
+test("§181-Wirkhinweis ist Regelungsinhalt, aber keine Wirksamkeitsvoraussetzung", () => {
+  const t = byId("ao-modul-ao-340");
+  assert.match(kern(t), /Regelungscharakter/i);
+  assert.match(kern(t), /wirksam, aber rechtswidrig/i);
+  assert.match(kern(t), /Nachholung.*Einspruch/i);
+  assert.match(kern(t), /§ 171 Abs\. 10.*außer Betracht/i);
+  assert.match(kern(t), /keine konkrete Verjährungsentscheidung|konkrete Aussagen.*nicht/i);
+  assert.doesNotMatch(kern(t), /nur mit einschränkendem Wirksamkeitsvermerk/i);
+});
+
 test("§173-Änderungssperre nennt Hinterziehung und leichtfertige Steuerverkürzung", () => {
   const t = byId("ao-modul-ao-359");
   assert.match(kern(t), /Änderungssperre/i);
