@@ -35,8 +35,12 @@
    Umsatzsteuer-Exkurses (3.2 und 3.2.1, unentgeltliche Leistung der
    Gesellschaft) übernommen, dazu die verbilligte Leistung mit der
    Mindestbemessungsgrundlage (3.2.2) und die Umsatzsteuer des Gesellschafters
-   (3.2.3). Damit ist auch das Kapitel 3 der Quelle vollständig. Es folgen die
-   Kapitel 4 bis 6; der Campus weist den Stand aus.
+   (3.2.3). Damit ist auch das Kapitel 3 der Quelle vollständig. Aus Kapitel 4
+   (Auswirkungen) sind die außerbilanzielle Hinzurechnung (4.1.1), die vGA bei
+   Betriebsausgaben (4.1.2) und bei der Passivierung von Verpflichtungen
+   (4.1.3) sowie der Wegfallgewinn mit der Teilbetragsrechnung (4.1.3.1)
+   übernommen. Es folgen die Bedeutung der Teilbeträge (4.1.3.2) und die
+   übrigen Abschnitte der Kapitel 4 bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -1263,6 +1267,92 @@ export const kstTeil4 = [
       { text: "Anmerkung zur Begründung (eigene Ergänzung): Die Quelle stützt die Nettobemessung auf **zwei** Argumente, die genau den beiden Ebenen entsprechen und deshalb gut zu merken sind. Bei der Gesellschaft fehlt es an der **Entreicherung**, weil ihr Vorsteueranspruch unverändert bleibt – die Umsatzsteuer war für sie nie ein Aufwand. Beim Anteilseigner fehlt es an der **Bereicherung**, weil er die vereinnahmte Umsatzsteuer abführen muss – und damit, wie die Quelle ausdrücklich sagt, an der **Vorteilsgeneigtheit**, also an dem fünften Tatbestandsmerkmal aus Abschnitt 1.2. Das ist bemerkenswert, weil hier ein Merkmal, das sonst nur über das Ob der vGA entscheidet, die **Höhe** begrenzt." },
       { text: "Anmerkung zum Gegensatz zu 3.2.1 und 3.2.2 (eigene Ergänzung): Wer die drei Abschnitte nebeneinanderlegt, sieht ein auf den ersten Blick widersprüchliches Bild: Leistet die **Gesellschaft** (verhinderte Vermögensmehrung), wird die vGA **brutto** mit dem gemeinen Wert bemessen; leistet der **Gesellschafter** (Vermögensminderung), nur **netto**. Der Widerspruch löst sich über den Maßstab des Abschnitts 3.1, den Vermögensnachteil bei der Gesellschaft. Gibt die Gesellschaft ein Wirtschaftsgut her, verliert sie den vollen Marktwert einschließlich der darin steckenden Umsatzsteuer. Zahlt sie dagegen zu viel, bleibt ihr die Vorsteuer erhalten, so dass sie nur um den Nettobetrag ärmer wird. Beide Ergebnisse folgen also aus derselben Regel." },
       { text: "Anmerkung zu § 14c UStG (eigene Ergänzung): Der Fall des unrichtigen Steuerausweises ist der einzige, in dem die Umsatzsteuer doch ertragsteuerlich durchschlägt, und die Quelle behandelt ihn in einem einzigen Satz. Die Kette ist: Vorsteuerabzug dem Grunde nach ausgeschlossen → bisheriger Abzug **aufwandswirksam** anzupassen → dieser Aufwand bleibt nach R 8.6 KStR abziehbare Betriebsausgabe. Die Fußnote der Quelle nennt als Beispiel eine Rechnung, die ein noch höheres Entgelt ausweist, als die Gesellschaft tatsächlich zahlt. Daneben – und davon unabhängig – bleibt es bei der bilanziellen Anpassung auf den Teilwert; das „abweichend davon“ der Quelle stellt klar, dass beides **nebeneinander** zu prüfen ist." },
+    ],
+  },
+  {
+    id: "kst-t4-28",
+    kapitel: "28",
+    abschnittNr: "4.1.3",
+    title: "4.1 Einkommenshinzurechnung – außerbilanziell, im Jahr der Gewinnbeeinflussung",
+    thema: "Die vGA wird außerbilanziell hinzugerechnet, und zwar im Veranlagungszeitraum der Gewinnbeeinflussung. Der Abfluss ist unmaßgeblich; ein durch das Gesellschaftsverhältnis veranlasster Passivposten bleibt in der Bilanz stehen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 4.1 bis 4.1.3 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8 Abs. 3 Satz 3 KStG",
+      "§ 27 Abs. 1 Satz 3 KStG",
+      "§ 20 EStG",
+      "R 7.1 Abs. 1 Punkt 8 KStR",
+      "BFH vom 29.06.1994, BStBl. II 2002, 366",
+      "BMF vom 28.05.2002, BStBl. I 2002, 603 (Tz. 4, 10, 42)",
+    ],
+    themen: ["außerbilanzielle Hinzurechnung", "Zeitpunkt der Hinzurechnung", "Betriebsausgaben", "Passivposten", "Tantiemerückstellung", "Pensionszusage", "Wegfallgewinn"],
+    bloecke: [
+      { typ: "titel", text: "4.1.1 Außerbilanzielle Hinzurechnung" },
+      { text: "Bei der Kapitalgesellschaft wird die verdeckte Gewinnausschüttung nach § 8 Abs. 3 Satz 2 KStG außerbilanziell hinzugerechnet. Die Steuerbilanz selbst, d.h. insbesondere der mit der vGA zusammenhängende Bilanzposten, bleibt hiervon in aller Regel unberührt. Eine Ausnahme ergibt sich nur in Fällen der überteuerten Anschaffung eines Wirtschaftsgutes, welches steuerbilanziell mit den angemessenen Anschaffungskosten (= Teilwert) ausgewiesen werden muss. Die Einkommenshinzurechnung ist ausschließlich in dem Veranlagungszeitraum vorzunehmen, in dem die Gewinnbeeinflussung eingetreten ist." },
+      { typ: "titel", text: "4.1.2 Verdeckte Gewinnausschüttung bei Betriebsausgaben" },
+      { text: "Sobald sich der durch die verdeckte Gewinnausschüttung ausgelöste Aufwand ausgewirkt hat, ist die Einkommenshinzurechnung nach § 8 Abs. 3 Satz 2 KStG vorzunehmen. Der tatsächliche Abfluss der verdeckten Gewinnausschüttung ist dafür unmaßgebend." },
+      { text: "Beispiel: A ist Alleingesellschafter seiner A-GmbH. Am 15.12.2024 erhöht er sich rückwirkend sein Gehalt um 100.000 €. Die Auszahlung erfolgt erst am 15.01.2025." },
+      { text: "Lösung: Der Gehaltsaufwand wird bereits im Wirtschaftsjahr 2024 gewinnwirksam. Bei der Einkommensermittlung für 2024 ist die verdeckte Gewinnausschüttung nach § 8 Abs. 3 Satz 2 KStG wieder hinzuzurechnen." },
+      { text: "Der Abfluss in 2025 ist dafür unbeachtlich. Dieser Zeitpunkt hat bei der A-GmbH allenfalls Bedeutung für die Berücksichtigung im Rahmen der Verwendungsreihenfolge i.S. des § 27 Abs. 1 Satz 3 KStG und für den Anteilseigner, dessen Beteiligungsertrag i.S. des § 20 EStG dann grundsätzlich im VZ 2025 entsteht." },
+      { typ: "titel", text: "4.1.3 Verdeckte Gewinnausschüttung bei Passivierung von Verpflichtungen" },
+      { text: "Ist ein auf der Passivseite ausgewiesener Bilanzposten ganz oder teilweise durch das Gesellschaftsverhältnis veranlasst und führt der mit diesem Posten zusammenhängende Aufwand zu einer verdeckten Gewinnausschüttung, bleibt die Steuerbilanz von diesem Vorgang unberührt. Der Passivposten ist daher unverändert in der Bilanz auszuweisen. Dies betrifft insbesondere die folgenden Fälle:" },
+      { text: "– Tantiemerückstellungen;" },
+      { text: "– Pensionszusagen" },
+      { text: "Hat das Finanzamt die vGA bisher nicht erkannt und den damit zusammenhängenden Aufwand nicht außerbilanziell hinzugerechnet, ist der Passivposten auch nicht in einer diesem VZ nachfolgenden Bilanz erfolgswirksam auszubuchen. Die Hinzurechnung der verdeckten Gewinnausschüttung nach § 8 Abs. 3 Satz 2 KStG unterbleibt für diesen Veranlagungszeiträume endgültig. Zu einer Nachversteuerung kann es nachfolgend nur im Fall des gewinnwirksamen Wegfalles des Passivpostens kommen, weil dieser dann entsprechend ausgebucht werden muss. (Die Form „für diesen Veranlagungszeiträume“ steht so in der Quelle.)" },
+      { text: "Wurde hingegen die mit dem Passivposten zusammenhängende vGA zutreffend erfasst und fällt dieser Passivposten in einem nachfolgenden Jahr gewinnwirksam weg (z.B. durch Verzicht auf den dann wertlosen Anspruch), ist zur Vermeidung einer Doppelbelastung ein einkommenswirksamer Abzug im Rahmen der Einkommensermittlung vorzunehmen (siehe auch R 7.1 Abs. 1 Punkt 8 KStR). Ist der Anspruch voll werthaltig, ergeben sich daraus aufgrund Erfassung einer verdeckten Einlage und der Einkommenskorrektur nach § 8 Abs. 3 Satz 3 KStG keine weiteren Auswirkungen." },
+      { typ: "tabelle", spalten: ["Konstellation", "Behandlung des Passivpostens", "Folge für das Einkommen"], zeilen: [
+        ["laufendes Jahr: Passivposten ist gesellschaftsrechtlich veranlasst", "bleibt unverändert in der Bilanz stehen", "außerbilanzielle Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG"],
+        ["Finanzamt hat die vGA nicht erkannt, Veranlagung bestandskräftig", "keine erfolgswirksame Ausbuchung in einer späteren Bilanz", "die Hinzurechnung unterbleibt für diesen Veranlagungszeitraum endgültig"],
+        ["vGA war erfasst, Passivposten fällt später gewinnwirksam weg (Verzicht auf den wertlosen Anspruch)", "erfolgswirksame Ausbuchung", "einkommenswirksamer Abzug zur Vermeidung der Doppelbelastung, R 7.1 Abs. 1 Punkt 8 KStR"],
+        ["Verzicht auf einen voll werthaltigen Anspruch", "erfolgswirksame Ausbuchung", "verdeckte Einlage, Korrektur nach § 8 Abs. 3 Satz 3 KStG – im Ergebnis keine Auswirkung"],
+        ["vGA wurde nicht erfasst und der Passivposten fällt später gewinnwirksam weg", "erfolgswirksame Ausbuchung", "Nachversteuerung über den Wegfallgewinn"],
+      ] },
+      { text: "Anmerkung zum Zeitpunkt (eigene Ergänzung): Der Abschnitt 4.1.2 bestätigt und schärft, was schon Abschnitt 1.5 gesagt hat: Maßgeblich ist die **Gewinnbeeinflussung**, nicht der Abfluss. Das Beispiel ist deshalb so gewählt, dass beide Zeitpunkte auseinanderfallen – Aufwand 2024, Auszahlung 2025. Bemerkenswert ist, dass die Quelle dem Abflusszeitpunkt trotzdem zwei Funktionen zuweist, die in der Klausur leicht untergehen: Er entscheidet über die **Verwendungsreihenfolge** beim steuerlichen Einlagekonto (§ 27 Abs. 1 Satz 3 KStG) und über den Zufluss beim Anteilseigner (§ 20 EStG). Die vGA wird also bei der Gesellschaft 2024 hinzugerechnet und beim Gesellschafter 2025 versteuert – die beiden Ebenen laufen hier **zeitlich auseinander**, obwohl sie der Höhe nach korrespondieren." },
+      { text: "Anmerkung zur Ausnahme in 4.1.1 (eigene Ergänzung): Der Abschnitt nennt genau **eine** Ausnahme vom Grundsatz der unberührten Steuerbilanz – die überteuerte Anschaffung eines Wirtschaftsguts, das mit dem Teilwert auszuweisen ist. Das ist derselbe Fall, den Abschnitt 1.5.2.1 ausführlich behandelt und auf den Abschnitt 3.2.3 bei der Umsatzsteuer des Gesellschafters zurückkommt. Es lohnt sich, diese drei Stellen zusammen zu lesen: Sie beschreiben denselben Vorgang aus drei Blickwinkeln – Gewinnauswirkung, Bewertung und Hinzurechnungstechnik." },
+      { text: "Anmerkung zur Bestandskraft (eigene Ergänzung): Der zweite Absatz zu 4.1.3 enthält eine für den Fiskus unangenehme Konsequenz, die spiegelbildlich zu der aus Abschnitt 1.5.2.1.2 ist. Wurde die vGA im Jahr der Rückstellungsbildung übersehen und ist die Veranlagung bestandskräftig, ist sie **endgültig** verloren – der Passivposten darf gerade **nicht** in einem späteren offenen Jahr erfolgswirksam ausgebucht werden, um die Hinzurechnung nachzuholen. Die Finanzverwaltung kann nur noch auf den natürlichen **Wegfallgewinn** warten. Genau deshalb braucht sie die Teilbetragsrechnung des folgenden Abschnitts: Ohne sie wüsste sie Jahre später nicht mehr, ob die vGA damals erfasst wurde oder nicht." },
+      { text: "Anmerkung zur Werthaltigkeit (eigene Ergänzung): Der letzte Absatz unterscheidet zwei Verzichtsfälle, die zum selben Bilanzbild, aber zu verschiedenen Begründungen führen. Beim Verzicht auf einen **wertlosen** Anspruch entsteht ein echter Wegfallgewinn, der die bereits versteuerte vGA ein zweites Mal treffen würde – deshalb der einkommenswirksame **Abzug**. Beim Verzicht auf einen **voll werthaltigen** Anspruch liegt dagegen eine verdeckte **Einlage** vor, die nach § 8 Abs. 3 Satz 3 KStG ohnehin abzuziehen ist; der Wegfallgewinn und die Einlagekorrektur heben sich auf. Der Maßstab ist also in beiden Fällen derselbe – es soll genau einmal versteuert werden –, nur der Weg dorthin unterscheidet sich." },
+    ],
+  },
+  {
+    id: "kst-t4-29",
+    kapitel: "29",
+    abschnittNr: "4.1.3.1",
+    title: "4.1.3.1 Wegfallgewinn und Teilbetragsrechnung – die unsichtbare Nebenrechnung",
+    thema: "Die Finanzverwaltung führt bei Pensions- und Tantiemerückstellungen zwei Teilbeträge in einer internen Nebenrechnung: Teilbetrag I ist die vGA, Teilbetrag II die tatsächlich hinzugerechnete vGA",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 4.1.3.1 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "BMF vom 28.05.2002, BStBl. I 2002, 603, Tz. 8 und 9",
+      "BFH vom 21.08.2007, BStBl. II 2008, 277",
+    ],
+    themen: ["Teilbetragsrechnung", "Teilbetrag I", "Teilbetrag II", "Pensionsrückstellung", "Tantiemerückstellung", "Wegfallgewinn"],
+    bloecke: [
+      { text: "Die Finanzverwaltung bildet im Zusammenhang mit einer Pensionsrückstellung bzw. einer Tantiemerückstellung zur weiteren Überwachung der vGA zwei Teilbeträge. Diese werden im Rahmen einer internen Nebenberechnung ermittelt und festgehalten, d.h. sie sind nicht Gegenstand einer offiziellen Feststellung und für den Stpfl. nicht erkennbar. Diesbezüglich sind folgende Teilbeträge zu unterscheiden:" },
+      { text: "Teilbetrag I: entspricht dem Betrag der verdeckten Gewinnausschüttung, unabhängig von der tatsächlichen Hinzurechnung beim Einkommen;" },
+      { text: "Teilbetrag II: entspricht der verdeckten Gewinnausschüttung, die tatsächlich dem Einkommen hinzugerechnet worden ist." },
+      { text: "Diese Vorgehensweise wurde von der Rechtsprechung bestätigt. Bei den anderen Passivposten kann darauf verzichtet werden, da diese bei der späteren Auflösung grundsätzlich keine Gewinnauswirkung entfalten können." },
+      { text: "Beispiel: Die A-GmbH bildet zum 31.12.2025 eine Tantiemerückstellung von 100.000 € zugunsten ihres Alleingesellschafters A, die steuerlich nicht anzuerkennen ist. Das Finanzamt hat den Aufwand bei der Veranlagung 2025 a) wieder hinzugerechnet b) nicht hinzugerechnet und die Veranlagung ist bestandskräftig." },
+      { text: "Lösung: Die Tantiemerückstellung ist unabhängig davon, dass diese zu einer verdeckten Gewinnausschüttung führt, zu passivieren. Die Hinzurechnung der vGA von 100.000 € erfolgt nur außerbilanziell." },
+      { text: "Danach beträgt in dem Unterfall a) der Teilbetrag I und II jeweils 100.000 €. Im Unterfall b) ist die Hinzurechnung unterblieben und kann in keinem anderen VZ mehr nachgeholt werden. Der Teilbetrag I beträgt daher 100.000 € und der Teilbetrag II 0 €." },
+      { typ: "tabelle", spalten: ["Unterfall", "Rückstellung in der Steuerbilanz", "Hinzurechnung 2025", "Teilbetrag I", "Teilbetrag II"], zeilen: [
+        ["a) Finanzamt hat hinzugerechnet", "100.000 €, unverändert passiviert", "+ 100.000 €", "100.000 €", "100.000 €"],
+        ["b) Finanzamt hat nicht hinzugerechnet, Veranlagung bestandskräftig", "100.000 €, unverändert passiviert", "keine – nicht mehr nachholbar", "100.000 €", "0 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Merkmal", "Teilbetrag I", "Teilbetrag II"], zeilen: [
+        ["Inhalt", "der Betrag der verdeckten Gewinnausschüttung", "die verdeckte Gewinnausschüttung, die tatsächlich dem Einkommen hinzugerechnet worden ist"],
+        ["hängt von der Hinzurechnung ab?", "nein – unabhängig davon", "ja"],
+        ["Rechtsnatur", "interne Nebenberechnung, keine offizielle Feststellung", "interne Nebenberechnung, keine offizielle Feststellung"],
+        ["für den Steuerpflichtigen erkennbar?", "nein", "nein"],
+        ["wird geführt bei", "Pensionsrückstellungen und Tantiemerückstellungen", "Pensionsrückstellungen und Tantiemerückstellungen"],
+        ["Verzicht möglich bei", "anderen Passivposten, weil deren spätere Auflösung grundsätzlich keine Gewinnauswirkung entfaltet", "anderen Passivposten, aus demselben Grund"],
+      ] },
+      { text: "Anmerkung zum Zweck der Teilbeträge (eigene Ergänzung): Die Quelle sagt nicht ausdrücklich, wozu die Verwaltung zwei Zahlen statt einer führt – der Grund erschließt sich aber unmittelbar aus dem vorangegangenen Abschnitt. Fällt der Passivposten später gewinnwirksam weg, muss entschieden werden, ob ein einkommenswirksamer **Abzug** zu gewähren ist. Und das hängt genau davon ab, ob die vGA damals tatsächlich hinzugerechnet wurde. **Teilbetrag II** beantwortet diese Frage, **Teilbetrag I** hält den Umfang der vGA unabhängig davon fest. Die Differenz der beiden Beträge ist damit der Teil der vGA, der endgültig unversteuert geblieben ist – im Unterfall b) die vollen 100.000 €." },
+      { text: "Anmerkung zur fehlenden Erkennbarkeit (eigene Ergänzung): Dass die Teilbeträge **keine** offizielle Feststellung sind und für den Steuerpflichtigen nicht erkennbar bleiben, ist mehr als eine Verfahrensnotiz. Es bedeutet, dass sie nicht selbständig angreifbar sind – wer sie für falsch hält, muss den **Folgebescheid** angreifen, in dem sie sich auswirken, also den Körperschaftsteuerbescheid des Wegfalljahres. Zugleich heißt es, dass die Beträge in der Praxis oft erst in einer späteren Betriebsprüfung rekonstruiert werden müssen. Der BFH hat die Vorgehensweise gleichwohl gebilligt." },
+      { text: "Anmerkung zur Beschränkung auf zwei Rückstellungsarten (eigene Ergänzung): Die Begründung der Quelle, bei anderen Passivposten könne auf die Teilbeträge verzichtet werden, weil deren spätere Auflösung „grundsätzlich keine Gewinnauswirkung entfalten“ könne, ist der Schlüssel zum Verständnis. Gewöhnliche Verbindlichkeiten werden **erfüllt** und verschwinden erfolgsneutral gegen die Zahlung. Pensions- und Tantiemerückstellungen dagegen können auch **wegfallen**, ohne dass gezahlt wird – etwa durch Verzicht oder den Tod des Berechtigten –, und dann entsteht ein Ertrag, der ohne die Teilbetragsrechnung nicht richtig behandelt werden könnte. Die Auswahl der beiden Rückstellungsarten ist also keine willkürliche, sondern folgt der Frage, ob ein **Wegfallgewinn** überhaupt entstehen kann." },
     ],
   },
 ];

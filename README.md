@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 27 Kapitel mit 405
-  Abschnitten und 35 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 29 Kapitel mit 435
+  Abschnitten und 38 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3181,6 +3181,34 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   bisherige Abzug ist aufwandswirksam anzupassen, und dieser Aufwand bleibt nach R 8.6 KStR abziehbare
   Betriebsausgabe – daneben und davon unabhängig bleibt es bei der bilanziellen Anpassung auf den
   Teilwert. **Damit ist auch das Kapitel 3 der Quelle vollständig.**
+  Bei den **Auswirkungen** (Kapitel 4) wird die vGA außerbilanziell hinzugerechnet, und die
+  Steuerbilanz bleibt unberührt – einzige Ausnahme ist die überteuerte Anschaffung eines
+  Wirtschaftsguts, das mit dem Teilwert auszuweisen ist. Maßgeblich ist der Veranlagungszeitraum der
+  **Gewinnbeeinflussung**, nicht der Abfluss: Erhöht sich der Alleingesellschafter am 15.12.2024
+  rückwirkend das Gehalt und wird erst am 15.01.2025 ausgezahlt, ist 2024 hinzuzurechnen. Der
+  Abflusszeitpunkt behält dabei zwei Funktionen, die leicht untergehen – er entscheidet über die
+  **Verwendungsreihenfolge** beim steuerlichen Einlagekonto (§ 27 Abs. 1 Satz 3 KStG) und über den
+  Zufluss beim Anteilseigner (§ 20 EStG). Die beiden Ebenen korrespondieren also der Höhe nach und
+  laufen zeitlich auseinander.
+  Ist ein **Passivposten** durch das Gesellschaftsverhältnis veranlasst, bleibt er unverändert in der
+  Bilanz stehen; korrigiert wird allein außerbilanziell. Daraus folgt eine für den Fiskus unangenehme
+  Konsequenz: Hat das Finanzamt die vGA im Jahr der Rückstellungsbildung übersehen und ist die
+  Veranlagung bestandskräftig, ist sie **endgültig** verloren – der Posten darf gerade **nicht** in
+  einem späteren offenen Jahr erfolgswirksam ausgebucht werden, um die Hinzurechnung nachzuholen.
+  Bleibt nur der natürliche **Wegfallgewinn**. Wurde die vGA dagegen zutreffend erfasst und fällt der
+  Posten später gewinnwirksam weg, ist zur Vermeidung der Doppelbelastung ein einkommenswirksamer
+  Abzug vorzunehmen (R 7.1 Abs. 1 Punkt 8 KStR); beim Verzicht auf einen voll **werthaltigen**
+  Anspruch heben sich Wegfallgewinn und verdeckte Einlage nach § 8 Abs. 3 Satz 3 KStG ohnehin auf.
+  Genau dafür führt die Finanzverwaltung bei Pensions- und Tantiemerückstellungen zwei
+  **Teilbeträge** in einer internen Nebenberechnung, die keine offizielle Feststellung ist und für den
+  Steuerpflichtigen nicht erkennbar bleibt: **Teilbetrag I** ist der Betrag der vGA unabhängig von der
+  Hinzurechnung, **Teilbetrag II** die tatsächlich hinzugerechnete vGA. Die Differenz der beiden ist
+  damit der Teil, der endgültig unversteuert geblieben ist – im Beispiel der Quelle im Unterfall b)
+  die vollen 100.000 €. Auf andere Passivposten kann verzichtet werden, weil sie erfüllt werden und
+  bei der Auflösung keine Gewinnauswirkung entfalten; Pensions- und Tantiemerückstellungen dagegen
+  können **wegfallen**, ohne dass gezahlt wird. Weil die Teilbeträge nicht selbständig festgestellt
+  werden, sind sie auch nicht selbständig angreifbar – wer sie für falsch hält, muss den
+  Körperschaftsteuerbescheid des Wegfalljahres angreifen.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -10620,6 +10620,44 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 4.1 bis 4.1.3.1 – Hinzurechnung und Teilbetragsrechnung
+
+Quelle: dieselbe Datei, Seiten 42 und 43; übernommen als Kapitel 28 und 29. Prüfung:
+`npm run check:k2-kst-teil4` (29 Kapitel, 435 Blöcke, 38 Tabellen).
+
+**Der Zweck der beiden Teilbeträge ist als eigene Ergänzung hergeleitet.** Die Quelle definiert sie,
+sagt aber nicht, wozu die Verwaltung zwei Zahlen statt einer führt. Der Grund folgt unmittelbar aus
+dem vorangegangenen Abschnitt: Fällt der Passivposten später gewinnwirksam weg, hängt der
+einkommenswirksame Abzug davon ab, ob die vGA damals tatsächlich hinzugerechnet wurde – diese Frage
+beantwortet Teilbetrag II, während Teilbetrag I den Umfang der vGA unabhängig davon festhält. Die
+Differenz ist der endgültig unversteuert gebliebene Teil.
+
+**Ebenfalls als eigene Ergänzung eingeordnet** sind zwei weitere Punkte. Erstens die Folge der
+fehlenden Erkennbarkeit: Weil die Teilbeträge keine Feststellung sind, sind sie nicht selbständig
+angreifbar – anzugreifen ist der Körperschaftsteuerbescheid des Wegfalljahres. Zweitens die
+Begründung dafür, dass nur Pensions- und Tantiemerückstellungen überwacht werden: Gewöhnliche
+Verbindlichkeiten werden erfüllt und verschwinden erfolgsneutral, diese beiden Rückstellungsarten
+können dagegen wegfallen, ohne dass gezahlt wird.
+
+**Zwei Beobachtungen zum Zusammenhang mit früheren Abschnitten** sind als eigene Feststellungen
+gekennzeichnet. Die Bestandskraftfolge in 4.1.3 ist das Spiegelbild zu der aus 1.5.2.1.2: Dort
+vernichtet die Bestandskraft Steuersubstrat zu Lasten des Steuerpflichtigen, hier zu Lasten des
+Fiskus. Und die in 4.1.1 genannte einzige Ausnahme vom Grundsatz der unberührten Steuerbilanz ist
+derselbe Fall, den 1.5.2.1 ausführlich behandelt und auf den 3.2.3 zurückkommt.
+
+**Eine Formulierung der Quelle ist wortlautgetreu übernommen und markiert:** „unterbleibt für diesen
+Veranlagungszeiträume endgültig“.
+
+**Zur Quelle selbst:** Die Kopfzeile der Seite 43 lautet „4. Verdeckte Gewinnausschüttung in
+Dreiecksfällen“, obwohl dort das Kapitel 4 (Auswirkungen der verdeckten Gewinnausschüttung) läuft;
+die Dreiecksfälle sind das Kapitel 5. Die Kopfzeile ist nicht Teil des Fließtextes und deshalb nicht
+in den Datensatz übernommen, hier aber der Vollständigkeit halber festgehalten.
+
+**Noch offen:** aus Teil IV die Bedeutung der Teilbeträge (4.1.3.2), die vGA bei Posten der Aktivseite
+(4.1.4), die Kapitalertragsteuer (4.1.5), das steuerliche Einlagekonto (4.1.6), die Auswirkungen beim
+Gesellschafter (4.2) und die weiteren Abschnitte der Kapitel 4 bis 6; ganz offen sind die Skriptteile
+V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 3.2.2 und 3.2.3 – Kapitel 3 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 37 bis 40; übernommen als Kapitel 26 und 27. Prüfung:
