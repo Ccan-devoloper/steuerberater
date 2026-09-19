@@ -379,6 +379,47 @@ function korrigiereAussenpruefung171(thema) {
   };
 }
 
+
+function korrigiereBewg14Faktoren(thema) {
+  normErgaenzen(
+    thema,
+    "§ 14 Abs. 1 BewG",
+    "BMF 21.10.2025 – IV D 4 - S 3104/00002/013/003",
+    "BMF 09.12.2024 – IV D 4 - S 3104/19/10001 :010"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Für lebenslängliche Nutzungen und Leistungen nach § 14 Abs. 1 BewG ist der zum Bewertungsstichtag geltende amtliche Vervielfältiger nach vollendetem Lebensalter und Geschlecht zu verwenden.",
+      "Rechtsstand 2026: Für Bewertungsstichtage ab 1.1.2026 gilt die vom BMF am 21.10.2025 veröffentlichte Tabelle auf Basis der Allgemeinen Sterbetafel 2022/2024. Die 2025er Tabelle darf für 2026 nicht fortgeschrieben werden.",
+      "Bei bestimmter Dauer bleibt § 13 BewG i.V.m. Anlage 9a einschlägig. Beim §-14-Tabellenwert wird nicht zwischen Alterszeilen interpoliert.",
+    ],
+    lernziele: [
+      "bestimmte Dauer nach § 13 von lebenslänglicher Dauer nach § 14 BewG trennen",
+      "für § 14 die zum Bewertungsstichtag geltende BMF-Tabelle verwenden",
+      "vollendetes Lebensalter und Geschlecht am Stichtag richtig zuordnen",
+      "2026er und 2025er §-14-Tabelle nicht vermischen",
+      "den Tabellenwert ohne Interpolation zwischen Alterszeilen übernehmen",
+    ],
+    pruefschritte: [
+      "Bewertungsstichtag bestimmen.",
+      "Bestimmte Dauer: § 13 BewG und Anlage 9a anwenden.",
+      "Lebenslängliche Nutzung/Leistung: vollendetes Lebensalter und Geschlecht am Bewertungsstichtag feststellen.",
+      "Für Stichtage ab 1.1.2026 die BMF-Tabelle vom 21.10.2025 (Sterbetafel 2022/2024) verwenden; für Stichtage im Jahr 2025 die hierfür geltende BMF-Tabelle vom 09.12.2024 (Sterbetafel 2021/2023).",
+      "Passenden Vervielfältiger unmittelbar aus der jeweiligen Tabelle übernehmen; nicht zwischen Alterszeilen interpolieren.",
+      "Jahreswert mit dem maßgebenden Vervielfältiger multiplizieren.",
+    ],
+    merksatz: "§ 14 BewG ist stichtagsabhängig: 2026 gilt die neue BMF-Tabelle auf Basis 2022/2024; 2025 galt die vorherige Tabelle auf Basis 2021/2023. Keine Interpolation zwischen Alterszeilen.",
+  };
+  rechtsstandswechsel(thema, {
+    abJahr: 2026,
+    vorherJahr: 2025,
+    norm: "§ 14 Abs. 1 BewG; BMF 21.10.2025 und BMF 09.12.2024",
+    aktuell: "Für Bewertungsstichtage ab 1.1.2026 gilt die BMF-Tabelle vom 21.10.2025 auf Basis der Sterbetafel 2022/2024.",
+    vorher: "Für Bewertungsstichtage im Jahr 2025 galt die BMF-Tabelle vom 09.12.2024 auf Basis der Sterbetafel 2021/2023.",
+  });
+}
+
 function korrigiereFamilienheim(thema) {
   normErgaenzen(thema, "§ 13 Abs. 1 Nr. 4a–4c ErbStG");
   const einordnung = [...(thema.kern?.einordnung || [])].map((x) =>
@@ -1402,6 +1443,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "ao-modul-ao-392": korrigiereHaftung71(thema); break;
       case "ao-modul-ao-393": korrigiereHaftung74(thema); break;
       case "ao-modul-ao-335": korrigiereAussenpruefung171(thema); break;
+      case "erbst-modul-erbst-532": korrigiereBewg14Faktoren(thema); break;
       case "erbst-modul-erbst-512": korrigiereFamilienheim(thema); break;
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
       case "erbst-modul-erbst-515": korrigiereErbStSchuldenabzug(thema); break;
