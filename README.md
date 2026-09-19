@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 14 Kapitel mit 279 Abschnitten und 29 Tabellen. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 16 Kapitel mit 330 Abschnitten und 39 Tabellen. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3919,6 +3919,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   des Zinsvortrags von 5.000.000 €, die übrigen 3.000.000 € gehen unter. Der **EBITDA-Vortrag** wird
   nach dem eindeutigen Wortlaut des § 8a Abs. 1 Satz 3 KStG dagegen gar nicht erfasst und bleibt
   unberührt – für die Klausur eine reine Merkfrage: Zinsvortrag ja, EBITDA-Vortrag nein.
+  Bei der **Verlustkürzung** ist zunächst die maßgebliche Größe zu klären: Verlust im Sinne der Norm
+  ist der negative **Gesamtbetrag der Einkünfte** (R 7.1 Zeile 31), ausdrücklich **nicht** der
+  bilanzielle Verlust – zwischen beiden liegen sämtliche außerbilanziellen Korrekturen von der
+  verdeckten Gewinnausschüttung bis zu § 8b KStG, so dass ein bilanzieller Verlust durchaus zu einem
+  positiven Gesamtbetrag der Einkünfte führen kann. Die Kürzung ist **verbindlich** in der
+  Verlustfeststellung des Wirtschaftsjahres zu entscheiden, in dem der schädliche Erwerb liegt, und
+  kann später **nicht nachgeholt** werden; das wirkt in beide Richtungen, denn eine übersehene
+  Kürzung bleibt ebenso endgültig wie eine zu hohe. Erfasst werden dabei zwei Größen an zwei
+  verschiedenen Stellen: der **Verlustvortrag** durch Kürzung in der Feststellung, der **laufende
+  Verlust** durch Hinzurechnung im Einkommen (R 7.1 Zeile 34). Wer nur die Feststellung betrachtet,
+  findet den zweiten Betrag nicht wieder und hält die Rechnung für falsch – in der Abwandlung des
+  unterjährigen Beispiels stehen 10.000.000 € in der Feststellung und 300.000 € im Einkommen, zusammen
+  die genannten 10.300.000 €.
+  Erfolgt der Erwerb **mit Ablauf** des Wirtschaftsjahres, verschonen die stillen Reserven zuerst den
+  laufenden Verlust und erst der Überhang den Vortrag: Aus 5.000.000 € Reserven decken 3.000.000 € den
+  laufenden Verlust, die verbleibenden 2.000.000 € retten einen Teil des Vortrags, 8.000.000 € gehen
+  unter. Erzielt die Gesellschaft dagegen einen **Gewinn**, gilt eine für den Steuerpflichtigen
+  günstige Reihenfolge, die leicht übersehen wird: Der Vortrag wird zunächst nach § 10d Abs. 2 EStG
+  verrechnet (1.000.000 € Grundabzug + 70 % des Überhangs = 2.400.000 €) und **erst danach** gekürzt.
+  Beide Beispiele enden bei einem Bestand von 5.000.000 € – gerettet wird jeweils genau in Höhe der
+  stillen Reserven, nur mit unterschiedlichem Ansatzpunkt.
+  Beim **unterjährigen** Erwerb tritt zum Verlustvortrag der bis zum Stichtag aufgelaufene Verlust
+  hinzu. Er ist punktgenau zu bestimmen, und zwar nicht nur durch einen **Zwischenabschluss**, sondern
+  zusätzlich durch eine **Zwischeneinkommensermittlung**, weil die Norm auf den Gesamtbetrag der
+  Einkünfte abstellt; eine Schätzung über betriebswirtschaftliche Auswertung oder zeitanteilige
+  Aufteilung bleibt dem **Ausnahmefall** vorbehalten und ist bei saisonalem Geschäft untauglich – im
+  Beispiel entfallen auf das erste Quartal nur 300.000 € von 3.000.000 €, also ein Zehntel statt eines
+  Viertels. Die schnellste Kontrolle solcher Aufgaben ist der Vergleich der Endbestände:
+  4.700.000 € ./. 2.700.000 € = 2.000.000 €, genau der Betrag der stillen Reserven. Der Ausschluss des
+  **Verlustrücktrags** beruht allein auf dem BMF-Schreiben und nicht auf dem Gesetzeswortlaut; er
+  liegt dem BFH unter **I R 1/23** zur Entscheidung vor.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

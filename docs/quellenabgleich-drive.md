@@ -10620,6 +10620,42 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 1.6 bis 1.6.2.2.1 – Verlustkürzung, Erwerb zum Wirtschaftsjahresende, unterjähriger Verlust
+
+Quelle: dieselbe Datei, Seiten 26 bis 29; übernommen als Kapitel 15 und 16. Prüfung:
+`npm run check:k2-kst-teil5` (16 Kapitel, 330 Blöcke, 39 Tabellen).
+
+**Alle vier Beispiele sind unabhängig nachgerechnet und gehen auf.** Erstes Beispiel:
+10.000.000 € ./. 10.000.000 € + 4.000.000 € = 4.000.000 €. Zweites Beispiel: 10.000.000 € +
+3.000.000 € = 13.000.000 € gefährdet; 5.000.000 € stille Reserven decken zuerst 3.000.000 €, der
+Überhang von 2.000.000 € verschont den Vortrag, 8.000.000 € gehen unter; 10.000.000 € ./.
+8.000.000 € + 3.000.000 € = 5.000.000 €. Drittes Beispiel: 1.000.000 € + 70 % × 2.000.000 € =
+2.400.000 € Mindestbesteuerung; 10.000.000 € ./. 2.400.000 € = 7.600.000 €; ./. 5.000.000 € =
+2.600.000 € Untergang; 3.000.000 € ./. 2.400.000 € = 600.000 € z.v.E.; Endbestand 5.000.000 €.
+Viertes Beispiel samt Abwandlung: 10.300.000 € gefährdet; 2.000.000 € Reserven decken 300.000 €,
+der Rest von 1.700.000 € verschont den Vortrag, 8.300.000 € gehen unter; Endbestand 4.700.000 €
+gegenüber 2.700.000 € ohne Reserven.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „verfügte die A-GmbH
+einen Verlustvortrag" (statt „über einen") und „keine stille Reserven" in der Abwandlung.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Tragweite der Aussage, dass die Kürzung verbindlich
+im Erwerbsjahr zu entscheiden und nicht nachholbar ist, und zwar zulasten beider Seiten; die
+Bedeutung der Abgrenzung zwischen Gesamtbetrag der Einkünfte und bilanziellem Verlust samt der
+Folgerung, dass die Zwischenermittlung eine Zwischeneinkommensermittlung voraussetzt; der Vergleich
+der beiden Beispiele zu 1.6.2.1, die beide bei 5.000.000 € enden, weil jeweils in Höhe der stillen
+Reserven verschont wird; die günstige Reihenfolge im Gewinnfall, in dem der Vortrag erst nach § 10d
+Abs. 2 EStG verrechnet und danach gekürzt wird; die Erklärung, warum der untergehende Verlust an
+zwei Stellen erscheint (Kürzung in der Feststellung, Hinzurechnung im Einkommen) – die Quelle stellt
+den Zusammenhang nur über die Tabelle in 1.6.1 her; die Gegenprobe über die Differenz der
+Endbestände von 2.000.000 €; die Untauglichkeit der zeitanteiligen Aufteilung bei saisonalem
+Geschäft, im Beispiel ein Zehntel statt eines Viertels; die begrenzte Reichweite einer Gestaltung
+über den Erwerbszeitpunkt; und der Hinweis auf das anhängige Verfahren I R 1/23 samt der Anregung,
+Einspruch einzulegen und das Ruhen nach § 363 Abs. 2 Satz 2 AO zu beantragen.
+
+**Noch offen:** aus Teil V die weiteren Abschnitte zum unterjährigen Erwerb (ab 1.6.2.2.2), die
+Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; ganz offen sind die Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 1.5.1.1.3 bis 1.5.1.4 – negatives Kapital, steuerpflichtige stille Reserven, Rückwirkungssperre, Zinsvortrag
 
 Quelle: dieselbe Datei, Seiten 24 bis 26; übernommen als Kapitel 13 und 14. Prüfung:

@@ -26,9 +26,11 @@
    stillen Reserven, dem gemeinen Wert und der Höhe des Eigenkapitals (1.5.1
    bis 1.5.1.1.2), die Besonderheit bei negativem Kapital (1.5.1.1.3), die nur
    inländisch steuerpflichtigen stillen Reserven (1.5.1.2), die Rückwirkungs-
-   sperre (1.5.1.3) und der Zinsvortrag (1.5.1.4). Es folgen die Verlust-
-   kürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4;
-   der Campus weist den Stand aus.
+   sperre (1.5.1.3) und der Zinsvortrag (1.5.1.4). Dazu kommen die Grundsätze
+   der Verlustkürzung (1.6.1), der Erwerb zum Ende des Wirtschaftsjahres
+   (1.6.2.1) und der unterjährige Verlust (1.6.2.2.1). Es folgen die weiteren
+   Abschnitte zum unterjährigen Erwerb, die Organschaftsfälle (1.7) sowie die
+   Kapitel 2 bis 4; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -810,6 +812,151 @@ export const kstTeil5 = [
       { text: "Anmerkung zum EBITDA-Vortrag (eigene Ergänzung): Dass § 8c KStG den **EBITDA-Vortrag** nicht erfasst, ist eine für den Steuerpflichtigen günstige Lücke und beruht allein auf dem **Wortlaut** des § 8a Abs. 1 Satz 3 KStG, den die Quelle als eindeutig bezeichnet. Systematisch wäre auch das Gegenteil vertretbar, denn der EBITDA-Vortrag ist wie der Zinsvortrag eine gesellschaftsbezogene Rechengröße der Zinsschranke. Für die Klausur ist die Abgrenzung damit eine reine **Merkfrage**: Zinsvortrag ja, EBITDA-Vortrag nein. Kapitel 3 dieses Skripts behandelt beide Größen im Zusammenhang." },
       { text: "Anmerkung zur Rückwirkungssperre (eigene Ergänzung): § 8c Abs. 1 Satz 8 KStG schließt eine Gestaltungslücke, die sich fast von selbst aufdrängt. Ohne die Vorschrift könnte der Erwerber nach dem schädlichen Erwerb eine werthaltige Gesellschaft **rückwirkend** auf die Verlustgesellschaft verschmelzen und so die stillen Reserven zum maßgeblichen Stichtag nachträglich erzeugen – im Beispiel wären das 10.000.000 €, also genau der Betrag des gefährdeten Verlustes. Die Vorschrift fügt sich damit in eine Linie, die dieses Skript mehrfach zieht: Die umwandlungssteuerliche Rückwirkung gilt für § 8c KStG **nicht** – weder für den Zeitpunkt des Erwerbs (Abschnitt 1.4.1) noch für die Bewertung der stillen Reserven." },
       { text: "Anmerkung zur Zeitenfolge im Beispiel (eigene Ergänzung): Die drei Daten sind bewusst gewählt und lohnen die Betrachtung. Der Erwerb liegt am **10.04.2025**, die Verschmelzung wird am **04.05.2025** vollzogen und wirkt steuerlich auf den **31.12.2024** zurück – also auf einen Zeitpunkt **vor** dem Erwerb. Genau daraus entstünde ohne die Sperre der Effekt: Am 10.04.2025 hätte die B-GmbH rückblickend bereits das übernommene Vermögen besessen. Die Quelle stellt deshalb ausdrücklich auf die Verhältnisse ab, die sich **ohne** die Verschmelzung ergeben hätten." },
+    ],
+  },
+  {
+    id: "kst-t5-15",
+    kapitel: "15",
+    abschnittNr: "1.6.2.1",
+    title: "1.6.1 Verlustuntergang und 1.6.2.1 schädlicher Erwerb zum Ende des Wirtschaftsjahres",
+    thema: "Der Untergang tritt nur im Wirtschaftsjahr des schädlichen Erwerbs ein und ist dort verbindlich zu entscheiden; beim Erwerb mit Ablauf des Wirtschaftsjahres treffen die stillen Reserven zuerst den laufenden Verlust",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 1.6 bis 1.6.2.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 10d Abs. 4 EStG",
+      "R 7.1 Zeile 31 KStR",
+      "R 7.1 Zeile 34 KStR",
+      "R 7.1 Nummern 24 und 27 KStR",
+      "BMF vom 28.11.2017, Tz. 31",
+      "BFH vom 22.10.2003, BStBl. II 2004, 468",
+      "BFH vom 01.10.2014, BStBl. II 2015, 612",
+      "BFH vom 27.06.2018, BStBl. II 2019, 632",
+      "BFH I R 1/23 (anhängig)",
+    ],
+    themen: ["Verlustkürzung", "Gesamtbetrag der Einkünfte", "Verlustfeststellung", "Verlustrücktrag", "Verrechnungsreihenfolge", "Mindestbesteuerung"],
+    bloecke: [
+      { typ: "titel", text: "1.6 Verlustkürzung" },
+      { typ: "titel", text: "1.6.1 Verlustuntergang i.S. des § 8c Abs. 1 Satz 1 KStG" },
+      { text: "Der bis zum Zeitpunkt des schädlichen Erwerbes vorhandene Verlust geht vollständig unter. Diese Rechtsfolge tritt ausschließlich in dem Wirtschaftsjahr ein, in dem der schädliche Erwerb i.S. des § 8c KStG wirksam vollzogen wurde. Dieser Verlust kann, soweit er der Kürzung durch § 8c Abs. 1 Satz 1 KStG unterliegt, auch nicht mit zukünftigen Gewinnen verrechnet werden. Auch ein Verlustrücktrag des von der Kürzung betroffenen Verlustes scheidet aus. Als Verlust in diesem Sinne ist der negative Gesamtbetrag der Einkünfte (steuerlicher Gewinn i.S. der R 7.1 Zeile 31) zu verstehen, nicht aber der bilanzielle Verlust." },
+      { text: "Die Entscheidung über den anteiligen Verlustuntergang i.S. des § 8c KStG ist verbindlich in der Verlustfeststellung des Wirtschaftsjahres zu treffen, in dem der schädliche Anteilserwerb eingetreten ist. Eine spätere Nachholung der Kürzung im Rahmen einer der nachfolgenden Verlustfeststellungen ist daher nicht möglich. Gleiches gilt für die Auswirkungen im Rahmen der Einkommensermittlung hinsichtlich des laufenden Verlustes des Erwerbsjahres. Hinsichtlich der steuerlichen Konsequenzen ist folgendes zu beachten:" },
+      { typ: "tabelle", spalten: ["betroffene Größe", "Ort der Auswirkung"], zeilen: [
+        ["Untergang des laufenden Verlustes", "Hinzurechnung, siehe R 7.1 Zeile 34 (nach Berücksichtigung der Verschonungsregelung)"],
+        ["Verlustvortrag (§ 10d Abs. 4 EStG)", "Kürzung in der Verlustfeststellung des Wj. des schädlichen Erwerbs (nach Berücksichtigung der Verschonungsregelung)"],
+      ] },
+      { text: "Beispiel: An der A-GmbH ist Gesellschafter A zu 100% beteiligt. Mit Wirkung zum 01.01.2025 erwirbt C den 100%igen Anteil. Zum 31.12.2024 beträgt der vortragsfähige Verlust 10.000.000 €. Stille Reserven sollen nicht vorhanden sein. In 2025 erzielt die A-GmbH einen weiteren Verlust (GdE) von 4.000.000 €." },
+      { text: "Lösung: Der schädliche Anteilserwerb führt ab 01.01.2025 nach § 8c Abs. 1 Satz 1 KStG zu einem vollständigen Untergang des Verlustes von 10.000.000 € und steht ab diesem Zeitpunkt nicht mehr für eine Verlustverrechnung zur Verfügung. Weder ein Verlustvortrag noch ein -rücktrag sind zulässig. Der nach dem 01.01.2025 entstandene Verlust wird von den Auswirkungen des § 8c KStG aber nicht erfasst. In der Verlustfeststellung i.S. des § 10d Abs. 4 EStG zum 31.12.2025 sind folgende Konsequenzen zu ziehen:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG", "10.000.000 €"],
+        ["+ Verlust aus 2025", "4.000.000 €"],
+        ["= verbleibender Verlust zum 31.12.2025", "4.000.000 €"],
+      ] },
+      { typ: "titel", text: "1.6.2 Ermittlung des untergehenden Verlustes" },
+      { typ: "titel", text: "1.6.2.1 Schädlicher Erwerb zum Ende des Wirtschaftsjahres" },
+      { text: "Erfolgt der schädliche Erwerb punktgenau zum Abschluss des Wirtschaftsjahres, geht der zum Ende des jeweiligen Wirtschaftsjahres bestehende Verlust vollständig unter. Ein solcher Anteilserwerb liegt vor, wenn der maßgebliche Anteil wirtschaftlich mit Ablauf des Wirtschaftsjahres (= 24 Uhr) auf den Erwerber übergeht. Der maßgebliche Gesamtverlust setzt sich aus dem laufenden Verlust (= negativer GdE) des entsprechenden Wj. sowie dem Verlustvortrag i.S. des § 10d Abs. 4 EStG zusammen. Für Zwecke des § 8c Abs. 1 Satz 5 KStG ist zu beachten, dass die stillen Reserven zunächst nur für die Verschonung des laufenden Verlustes verwendet werden können, d.h. nur der Überhang der stillen Reserven verschont den Untergang des Verlustvortrags." },
+      { text: "Verfügt die Gesellschaft im Wj. des schädlichen Erwerbs über einen positiven Gesamtbetrag der Einkünfte, kann dieser noch in den Grenzen des § 10d Abs. 2 EStG mit dem vorangegangenen Verlustvortrag verrechnet werden. Lediglich der Verlust, der sich zum Ende des jeweiligen Wj. ergibt, unterliegt dann dem Verlustuntergang unter Berücksichtigung der Verschonungsregelung." },
+      { text: "Beispiel: C erwirbt mit Ablauf des 31.12.2025 sämtliche Anteile an der A-GmbH (Wj. = Kj.). Zum 31.12.2024 verfügte die A-GmbH einen Verlustvortrag von 10.000.000 € und erzielte in 2025 einen weiteren Verlust von 3.000.000 €. Die stillen Reserven i.S. des § 8c Abs. 1 Satz 5 KStG betragen 5.000.000 €. (Die Formulierung „verfügte die A-GmbH einen Verlustvortrag“ steht so in der Quelle.)" },
+      { text: "Lösung: Der Anteilserwerb ist für Zwecke des § 8c Abs. 1 Satz 1 KStG schädlich, so dass dem Grunde nach der zum Zeitpunkt des schädlichen Erwerbs (31.12.2025) vorhandene ungenutzte Verlust von 13.000.000 € untergehen würde. Dabei ist aber die Verschonungsregelung des § 8c Abs. 1 Satz 5 KStG zu beachten, wonach in Höhe der stillen Reserven von 5.000.000 € kein Verlustuntergang eintritt. Dabei gilt, dass die stillen Reserven zunächst den laufenden Verlust des Jahres 2025 verschonen, so dass der Überhang von 2.000.000 € für den Verlustvortrag zur Verfügung steht. Von diesem geht in 2025 ein Betrag von 8.000.000 € unter." },
+      { text: "Im Rahmen der Einkommensermittlung 2025 ergibt sich daher folgende Konsequenz:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte (vorl. Einkommen)", "./. 3.000.000 €"],
+        ["+ Kürzung aufgrund § 8c KStG (R 7.1 Zeile 34) – wegen Anwendung der Verschonungsregelung", "0 €"],
+        ["= z.v.E.", "./. 3.000.000 €"],
+      ] },
+      { text: "Die Verlustfeststellung zum 31.12.2025 lautet danach wie folgt:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. Kürzung aufgrund § 8c KStG (Verschonung in Höhe von 2.000.000 €)", "./. 8.000.000 €"],
+        ["+ Verlust 2025", "+ 3.000.000 €"],
+        ["= Bestand zum 31.12.2025", "5.000.000 €"],
+      ] },
+      { text: "Beispiel: C erwirbt mit Ablauf des 31.12.2025 sämtliche Anteile an der A-GmbH (Wj. = Kj.). Zum 31.12.2024 verfügte die A-GmbH einen Verlustvortrag von 10.000.000 € und erzielte in 2025 einen Gewinn von 3.000.000 €. Die stillen Reserven i.S. des § 8c Abs. 1 Satz 5 KStG betragen 5.000.000 €." },
+      { text: "Lösung: Der Anteilserwerb ist für Zwecke des § 8c Abs. 1 Satz 1 KStG schädlich, so dass dem Grunde nach der zum Zeitpunkt des schädlichen Erwerbs vorhandene Verlust untergehen würde. Der Verlustvortrag kann in 2025 noch nach den Grundsätzen des § 10d Abs. 2 EStG verwendet werden (= 1.000.000 € Grundabzug + 70% des Überhangs von 2.000.000 € = insgesamt 2.400.000 €). Der zum 31.12.2025 verbleibende und damit ungenutzte Verlust beträgt somit noch 7.600.000 € (10.000.000 € - 2.400.000 €). Dabei ist aber die Verschonungsregelung des § 8c Abs. 1 Satz 5 KStG zu beachten, wonach in Höhe der stillen Reserven von 5.000.000 € kein Verlustuntergang eintritt. Daraus resultiert vorliegend ein Verlustuntergang i.H. von 2.600.000 €." },
+      { text: "Im Rahmen der Einkommensermittlung 2025 ergeben sich damit folgende Auswirkungen:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte (vorl. Einkommen)", "3.000.000 €"],
+        ["./. Verlustvortrag i.S. des § 10d Abs. 2 EStG", "./. 2.400.000 €"],
+        ["= z.v.E.", "600.000 €"],
+      ] },
+      { text: "Die Verlustfeststellung auf den 31.12.2025 lautet danach wie folgt:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. Verlustnutzung 2025", "./. 2.400.000 €"],
+        ["./. Kürzung aufgrund § 8c KStG – wegen Anwendung der Verschonungsregelung", "./. 2.600.000 €"],
+        ["= Bestand zum 31.12.2025", "5.000.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle drei Beispiele gehen auf. Erstes Beispiel: 10.000.000 € ./. 10.000.000 € + 4.000.000 € = 4.000.000 €. Zweites Beispiel: 10.000.000 € Verlustvortrag + 3.000.000 € laufender Verlust = 13.000.000 € gefährdet; die stillen Reserven von 5.000.000 € decken zuerst die 3.000.000 €, der Überhang von 2.000.000 € verschont den Vortrag, so dass 10.000.000 € ./. 2.000.000 € = 8.000.000 € untergehen; die Feststellung lautet 10.000.000 € ./. 8.000.000 € + 3.000.000 € = 5.000.000 €. Drittes Beispiel: Mindestbesteuerung 1.000.000 € + 70 % × 2.000.000 € = 1.000.000 € + 1.400.000 € = 2.400.000 €; 10.000.000 € ./. 2.400.000 € = 7.600.000 €; 7.600.000 € ./. 5.000.000 € = 2.600.000 € Untergang; 3.000.000 € ./. 2.400.000 € = 600.000 € z.v.E.; 10.000.000 € ./. 2.400.000 € ./. 2.600.000 € = 5.000.000 €." },
+      { text: "Anmerkung zur einmaligen Gelegenheit (eigene Ergänzung): Die Aussage, die Entscheidung über den Verlustuntergang sei **verbindlich** in der Verlustfeststellung des Erwerbsjahres zu treffen und eine spätere Nachholung sei **nicht möglich**, wirkt technisch, hat aber erhebliche praktische Folgen – und zwar in beide Richtungen. Übersieht die Finanzverwaltung den schädlichen Erwerb und wird die Feststellung bestandskräftig, bleibt der Verlust erhalten. Übersieht ihn umgekehrt der Steuerpflichtige und unterlässt er den Einspruch gegen eine zu hohe Kürzung, ist auch diese endgültig. Die Quelle stützt das auf drei BFH-Entscheidungen und damit auf die allgemeine Bindungswirkung des Grundlagenbescheids, nicht auf eine Besonderheit des § 8c KStG." },
+      { text: "Anmerkung zur maßgeblichen Größe (eigene Ergänzung): Dass als Verlust der **negative Gesamtbetrag der Einkünfte** und ausdrücklich **nicht der bilanzielle Verlust** gemeint ist, ist eine häufige Fehlerquelle. Zwischen beiden liegen sämtliche außerbilanziellen Korrekturen – verdeckte Gewinnausschüttungen, nichtabziehbare Aufwendungen, steuerfreie Bezüge nach § 8b KStG. Ein bilanzieller Verlust kann deshalb zu einem positiven Gesamtbetrag der Einkünfte führen und umgekehrt. Für die Zwischenermittlung bei unterjährigem Erwerb (Abschnitt 1.6.2.2) bedeutet das, dass ein bloßer Zwischenabschluss nicht genügt: Es braucht eine **Zwischeneinkommensermittlung**." },
+      { text: "Anmerkung zum Vergleich der beiden Beispiele zu 1.6.2.1 (eigene Ergänzung): Beide enden bei einem Bestand von **5.000.000 €**, und das ist kein Zufall, sondern zeigt die Systematik. Im Verlustfall verschonen die stillen Reserven zuerst den laufenden Verlust von 3.000.000 €; im Gewinnfall gibt es keinen laufenden Verlust, dafür verbraucht die Mindestbesteuerung 2.400.000 € des Vortrags, bevor die Reserven greifen. In beiden Fällen werden also 5.000.000 € durch die Reserven gerettet. Der Unterschied liegt allein darin, **was** gerettet wird: einmal der laufende Verlust zuzüglich 2.000.000 € Vortrag, einmal 5.000.000 € Vortrag." },
+      { text: "Anmerkung zur Reihenfolge im Gewinnfall (eigene Ergänzung): Das dritte Beispiel zeigt eine für den Steuerpflichtigen günstige Reihenfolge, die leicht übersehen wird. Der Verlustvortrag wird **zuerst** nach § 10d Abs. 2 EStG mit dem laufenden Gewinn verrechnet und **erst danach** gekürzt. Der Erwerb mit Ablauf des 31.12.2025 lässt die Verrechnung des Jahres 2025 also unberührt. Nur der danach noch verbleibende Rest unterliegt § 8c KStG. Läge der Erwerb einen Tag früher, wäre die Rechnung eine andere – dann griffe Abschnitt 1.6.2.2." },
+    ],
+  },
+  {
+    id: "kst-t5-16",
+    kapitel: "16",
+    abschnittNr: "1.6.2.2.1",
+    title: "1.6.2.2.1 Unterjähriger schädlicher Anteilserwerb – unterjähriger Verlust",
+    thema: "Beim unterjährigen Erwerb ist auch der bis zu diesem Zeitpunkt aufgelaufene Verlust betroffen; er ist durch Zwischenabschluss und Zwischeneinkommensermittlung punktgenau zu bestimmen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 1.6.2.2 und 1.6.2.2.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 10d Abs. 4 EStG",
+      "R 7.1 Zeile 34 KStR",
+      "BMF vom 28.11.2017, Tz. 31, 33 und 35",
+      "BFH I R 1/23 (anhängig)",
+    ],
+    themen: ["unterjähriger Erwerb", "Zwischenabschluss", "Zwischeneinkommensermittlung", "Schätzung", "betriebswirtschaftliche Auswertung", "Verlustrücktrag"],
+    bloecke: [
+      { typ: "titel", text: "1.6.2.2 Unterjähriger schädlicher Anteilserwerb" },
+      { typ: "titel", text: "1.6.2.2.1 Unterjähriger Verlust" },
+      { text: "Erfolgt der schädliche Anteilserwerb hingegen unterjährig, d.h. innerhalb des laufenden Wirtschaftsjahres, ist von der Verlustkürzung neben dem bestehenden Verlustvortrag des Vorjahres auch der anteilige „steuerliche Verlust“ des laufenden Wirtschaftsjahres betroffen. Dies umfasst punktgenau den Verlust, der bis zum Zeitpunkt des schädlichen Anteilserwerbes erzielt wurde. Dieser anteilige Verlust ist grundsätzlich nach wirtschaftlichen Kriterien zu ermitteln, was eine Erstellung eines Zwischenabschlusses auf den Zeitpunkt des schädlichen Erwerbes erfordert sowie – weil auf den GdE abgestellt wird – eine (Zwischen-)Einkommensermittlung voraussetzt. In Ausnahmefällen kann dieser maßgebliche GdE auch nach anderen wirtschaftlichen und sachlich begründeten Kriterien geschätzt werden, z.B. durch eine betriebswirtschaftliche Auswertung oder zeitanteilige Aufteilung." },
+      { text: "Der anteilige Verlust unterliegt vollumfänglich den Einschränkungen des § 8c Abs. 1 Satz 1 KStG, wobei die Grundsätze der Verschonungsregelung des § 8c Abs. 1 Satz 5 KStG zu beachten sind. Die maßgeblichen stillen Reserven verschonen wiederum zunächst den laufenden unterjährigen Verlust, erst danach den bestehenden Verlustvortrag. Ein Verlustrücktrag in den vorangegangenen Veranlagungszeitraum ist ebenfalls ausgeschlossen." },
+      { text: "Beispiel: An der A-GmbH (Wj. = Kj.) ist der Alleingesellschafter A beteiligt. Am 31.03.2025 erwirbt C den kompletten Anteil des A. Zum 31.12.2024 beträgt der vortragsfähige Verlust 10.000.000 €. Der steuerliche Gesamtverlust des Jahres 2025 beträgt -3.000.000 €, wovon zutreffend ein GdE von -300.000 € auf den Zeitraum bis zum Anteilserwerb entfallen soll (aufgrund Erstellung eines Zwischenabschlusses sowie einer Einkommensermittlung). Der Anteil soll über stille Reserven von 2.000.000 € verfügen." },
+      { text: "Lösung: Der Anteilserwerb des C führt zum vollständigen Untergang des bis zum Tag des Anteilserwerbes aufgelaufenen Verlustes i.S. des § 8c Abs. 1 Satz 1 KStG. Den Einschränkungen des § 8c KStG unterliegt dabei neben dem bestehenden Verlustvortrag auch der unterjährige Verlust von 300.000 €. Danach ergibt sich ein grundsätzlicher Verlustuntergang von 10.300.000 €." },
+      { text: "Gemäß § 8c Abs. 1 Satz 5 KStG bleibt der Gesellschaft ein Verlust in Höhe der stillen Reserven von 2.000.000 € erhalten. Diese stillen Reserven werden zunächst zur Verschonung des laufenden Verlustes verwendet, so dass dieser vollständig erhalten bleibt. Der Restbetrag von 1.700.000 € wird für die Verschonung des Verlustvortrages verwendet, so dass dieser in Höhe des Überhanges von 8.300.000 € untergeht. Im Rahmen der Einkommensermittlung 2025 sind daher folgende Konsequenzen zu ziehen:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte (vorl. Einkommen)", "./. 3.000.000 €"],
+        ["+ Kürzung aufgrund § 8c KStG (R 7.1 Zeile 34) – wegen Anwendung der Verschonungsregelung", "0 €"],
+        ["= z.v.E.", "./. 3.000.000 €"],
+      ] },
+      { text: "In der Verlustfeststellung auf den 31.12.2025 werden folgende Bestände festgestellt:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG (Verschonung i.H. von 1.700.000 €)", "./. 8.300.000 €"],
+        ["= Zwischensumme", "1.700.000 €"],
+        ["+ Verlust 2025", "+ 3.000.000 €"],
+        ["= Endbestand", "4.700.000 €"],
+      ] },
+      { text: "Abwandlung: Der Anteil soll über keine stille Reserven verfügen. (Die Form „keine stille Reserven“ steht so in der Quelle.)" },
+      { text: "Lösung: Der Anteilserwerb des C führt zum vollständigen Untergang des bis zum Tag des Anteilserwerbes aufgelaufenen Verlustes i.S. des § 8c Abs. 1 Satz 1 KStG. Den Einschränkungen des § 8c KStG unterliegt dabei neben dem bestehenden Verlustvortrag auch der unterjährige Verlust von 300.000 €. Danach ergibt sich mangels stiller Reserven ein Verlustuntergang von 10.300.000 €." },
+      { text: "Im Rahmen der Einkommensermittlung 2025 sind daher folgende Konsequenzen zu ziehen:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025 (Abwandlung)", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte (vorl. Einkommen)", "./. 3.000.000 €"],
+        ["+ Kürzung aufgrund § 8c KStG (R 7.1 Zeile 34)", "300.000 €"],
+        ["= z.v.E.", "./. 2.700.000 €"],
+      ] },
+      { text: "In der Verlustfeststellung auf den 31.12.2025 werden folgende Bestände festgestellt:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025 (Abwandlung)", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG", "./. 10.000.000 €"],
+        ["= Zwischensumme", "0 €"],
+        ["+ Verlust 2025", "+ 2.700.000 €"],
+        ["= Endbestand", "2.700.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Beide Varianten gehen auf. Grundfall: 10.000.000 € Vortrag + 300.000 € unterjähriger Verlust = 10.300.000 € gefährdet; die stillen Reserven von 2.000.000 € decken zuerst die 300.000 €, der Rest von 1.700.000 € verschont den Vortrag, so dass 10.000.000 € ./. 1.700.000 € = 8.300.000 € untergehen; die Feststellung lautet 10.000.000 € ./. 8.300.000 € = 1.700.000 €, zuzüglich 3.000.000 € = 4.700.000 €. Abwandlung: Es gehen 10.300.000 € unter, davon 10.000.000 € in der Feststellung und 300.000 € über die Hinzurechnung im Einkommen; ./. 3.000.000 € + 300.000 € = ./. 2.700.000 € z.v.E., und 0 € + 2.700.000 € = 2.700.000 € Endbestand." },
+      { text: "Anmerkung zur doppelten Erfassung (eigene Ergänzung): Warum der untergehende Verlust an **zwei** Stellen auftaucht, erklärt die Quelle nicht ausdrücklich, es folgt aber aus der Tabelle in Abschnitt 1.6.1. Der **Verlustvortrag** wird in der Feststellung gekürzt, der **laufende Verlust** dagegen im Einkommen hinzugerechnet – er ist ja noch gar nicht festgestellt. In der Abwandlung sieht man beides nebeneinander: 10.000.000 € Kürzung in der Feststellung, 300.000 € Hinzurechnung im Einkommen, zusammen die genannten 10.300.000 €. Wer nur auf die Feststellung schaut, findet die 300.000 € nicht wieder und hält die Rechnung für falsch." },
+      { text: "Anmerkung zur Gegenprobe über die Endbestände (eigene Ergänzung): Der Vergleich der beiden Endbestände macht die Wirkung der stillen Reserven sichtbar. 4.700.000 € ./. 2.700.000 € = **2.000.000 €** – genau der Betrag der stillen Reserven. Das ist die schnellste Kontrolle einer solchen Aufgabe: Die Verschonung muss sich Euro für Euro im Endbestand wiederfinden, gleichgültig, ob sie beim laufenden Verlust oder beim Vortrag ansetzt." },
+      { text: "Anmerkung zum Aufwand der Zwischenermittlung (eigene Ergänzung): Die Anforderung der Quelle ist in der Praxis erheblich. Verlangt wird nicht nur ein **Zwischenabschluss** auf den Stichtag, sondern zusätzlich eine **Zwischeneinkommensermittlung**, weil § 8c KStG auf den Gesamtbetrag der Einkünfte abstellt. Außerbilanzielle Korrekturen müssen also ebenfalls periodengerecht zugeordnet werden. Die von der Quelle genannten Erleichterungen – betriebswirtschaftliche Auswertung oder zeitanteilige Aufteilung – sind ausdrücklich auf **Ausnahmefälle** beschränkt. Die zeitanteilige Aufteilung ist dabei die gröbste Methode und führt bei saisonalem Geschäft zu offensichtlich unzutreffenden Ergebnissen; im Beispiel entfallen auf ein Vierteljahr nur 300.000 € von 3.000.000 €, also gerade **ein Zehntel** statt eines Viertels." },
+      { text: "Anmerkung zur Gestaltung (eigene Ergänzung): Aus dem Beispiel folgt eine naheliegende Überlegung, die die Quelle nicht ausspricht. Weil nur der **bis** zum Erwerb aufgelaufene Verlust betroffen ist, verringert ein früher im Wirtschaftsjahr liegender Erwerb den gefährdeten Betrag. Der Verlustvortrag des Vorjahres bleibt davon allerdings unberührt – und er ist in aller Regel die größere Position. Die Gestaltung wirkt deshalb nur am Rand; das eigentliche Instrument bleiben die stillen Reserven und § 8d KStG." },
+      { text: "Hinweis zum anhängigen Verfahren (eigene Ergänzung): Die Quelle verweist an zwei Stellen auf das beim BFH anhängige Verfahren **I R 1/23** – einmal zum Ausschluss des Verlustrücktrags in Abschnitt 1.6.1, einmal erneut hier. Der Ausschluss des Rücktrags beruht allein auf der Verwaltungsauffassung im BMF-Schreiben, nicht auf dem Gesetzeswortlaut, der von „nicht genutzten Verlusten“ spricht. Bis zur Entscheidung sollte in vergleichbaren Fällen Einspruch eingelegt und das Ruhen des Verfahrens nach § 363 Abs. 2 Satz 2 AO beantragt werden." },
     ],
   },
 ];
