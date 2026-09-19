@@ -115,6 +115,16 @@ test("Elektro-Pkw-Merksatz verallgemeinert nicht mehr auf Halbierung", () => {
 
 
 
+
+test("Leasing-40/90-Formel berücksichtigt gemeinen Wert und Vertragsart", () => {
+  const t = byId("bilanz-formel-leasing-4090");
+  assert.match(t.titel, /Finanzierungsleasing/);
+  assert.match(kern(t), /Vollamortisationsverträge/);
+  assert.match(kern(t), /niedrigere gemeine Wert/);
+  assert.match(kern(t), /Mietverlängerungs- und Spezialleasingfälle/);
+  assert.doesNotMatch(kern(t), /Optionspreis kleiner als der lineare Restbuchwert bedeutet ebenfalls/);
+});
+
 test("Einlage-Deckel nennt Satz 3 und nur eigenes vorheriges Betriebsvermögen", () => {
   const t = byTitle(/Wann ist die Einlage auf die Anschaffungskosten gedeckelt/i);
   assert.match(kern(t), /§ 6 Abs\. 1 Nr\. 5 S\. 1 Buchst\. a EStG/);
