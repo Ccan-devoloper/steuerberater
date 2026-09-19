@@ -159,6 +159,15 @@ test("PersG-SBV-II verwendet keine starre 10%-Grenze für Komplementär-GmbH-Ant
   assert.match(kern(t), /bloße.*finanzielle Teilhabe.*nicht|bloße Vermögensmehrung.*nicht/i);
 });
 
+test("§173-Änderungssperre nennt Hinterziehung und leichtfertige Steuerverkürzung", () => {
+  const t = byId("ao-modul-ao-359");
+  assert.match(kern(t), /Änderungssperre/i);
+  assert.match(kern(t), /Steuerhinterziehung/);
+  assert.match(kern(t), /leichtfertige Steuerverkürzung/);
+  assert.match(kern(t), /§ 202 Abs\. 1 S\. 3 AO/);
+  assert.doesNotMatch(kern(t), /nur noch geändert werden, soweit Steuerhinterziehung betroffen ist/i);
+});
+
 test("§172 schlichte Änderung ist kein Einspruch und verlangt sachliche Konkretisierung", () => {
   const t = byId("ao-modul-ao-360");
   assert.match(kern(t), /kein Einspruch.*kein förmlicher Rechtsbehelf|Schlichte Änderung ≠ Einspruch/i);
