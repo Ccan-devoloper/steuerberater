@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 74 Kapitel mit 1.223 Abschnitten und 99 Tabellen; die Kapitel 1 bis 3 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 76 Kapitel mit 1.272 Abschnitten und 104 Tabellen; die Kapitel 1 bis 3 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5554,6 +5554,39 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   entlasten würde; bei Überlassung **nach außen** bleibt sie erhalten. Für konzerneigene
   Besitzgesellschaften ist das eine empfindliche Einschränkung, die bei gemischter Nutzung eine
   genaue Zuordnung der Erträge verlangt.
+  Beim **gewerbesteuerlichen Schachtelprivileg** ist die **Reihenfolge** der Prüfungsschritte das
+  eigentliche Streitthema, und der Abschnitt wird erst verständlich, wenn man das erkennt. Die
+  **Bruttomethode** lässt die Ausschüttung **ungekürzt** in die gewerbesteuerliche Ausgangsgröße
+  gelangen; damit sind bei der Organgesellschaft die Voraussetzungen des § 9 Nr. 2a GewStG
+  **originär erfüllt**, und die Kürzung erfasst den **vollen** Betrag – auch jene 5 %, die
+  körperschaftsteuerlich als Pauschale steuerpflichtig bleiben. Genau das stellte der **BFH 2014**
+  fest: Steht nichts mehr im Gewerbeertrag, kann beim Organträger auch nichts mehr hinzugerechnet
+  werden; die von der Verwaltung beabsichtigte Besteuerung der Pauschale unterblieb. Mit **§ 7a
+  GewStG** hat der Gesetzgeber ab 2017 reagiert und die Verwaltungsauffassung, wie die Quelle sagt,
+  **rechtsprechungsbrechend** auf eine gesetzliche Grundlage gestellt. Die Norm kehrt die Reihenfolge
+  um: Zuerst schließt Absatz 1 die Schachtelprivilegien der §§ 9 Nr. 2a, 7, 8 GewStG aus (und für
+  zugehörige Kosten auch § 8 Nr. 1 GewStG), dann ordnet Absatz 2 die **Nettomethode** an, so dass
+  § 8b KStG beziehungsweise das Teileinkünfteverfahren **schon bei der Organgesellschaft** wirken, und
+  **erst danach** greifen Kürzungen und Hinzurechnungen. Weil § 9 Nr. 2a **Satz 4** GewStG die
+  Pauschale ausdrücklich nicht kürzt, bleibt sie damit im Gewerbeertrag erhalten.
+  Bemerkenswert ist die **Umkehrung der Zuständigkeit**, die die Quelle eigens hervorhebt:
+  **Abweichend** von der körperschaftsteuerlichen Behandlung wird **bei der Organgesellschaft** über
+  das Schicksal der Ausschüttung entschieden. Körperschaftsteuerlich ist § 8b KStG dort gesperrt und
+  wirkt erst beim Organträger; gewerbesteuerlich wird er über § 7a Abs. 2 GewStG **eine Ebene tiefer**
+  angewandt – der Maßstab bleibt aber die **Rechtsform des Organträgers**. Und die entscheidet im
+  Grundfall über **alles oder nichts**, aus einem feinen systematischen Grund: Bei einer
+  **Kapitalgesellschaft** stellt § 8b Abs. 1 KStG die Ausschüttung **vollständig** frei, so dass
+  allein die Pauschale von **5.000 €** im Gewerbeertrag verbleibt, die Satz 4 nicht mehr kürzen kann.
+  Bei einem **Personenunternehmen** stellt § 3 Nr. 40 EStG dagegen nur 60 % frei, so dass 60.000 € im
+  Gewerbeertrag stehen – und genau diese trifft die Kürzung des § 9 Nr. 2a **Satz 1** GewStG in voller
+  Höhe, weil Satz 4 nur die Pauschale des § 8b Abs. 5 KStG ausnimmt. Der Organkreis mit
+  Kapitalgesellschaft an der Spitze zahlt damit Gewerbesteuer auf 5.000 €, der mit Personenunternehmen
+  **gar keine**. Im Grundfall stimmen Einkommen und Gewerbeertrag mit je 5.000 € überein – genau
+  dieser Gleichlauf war das Ziel der Gesetzesänderung –, in der Abwandlung fallen sie mit 60.000 € und
+  0 € auseinander. Nicht zu übersehen ist schließlich die **Anwendungsgrenze**: § 7a GewStG setzt
+  einen Fall des § 9 Nr. 2a GewStG voraus, also mindestens **15 %** zu **Beginn** des
+  Erhebungszeitraums; fehlt es daran, verbleibt die Bruttoausschüttung im Gewerbeertrag, und für § 8
+  Nr. 5 GewStG bleibt kein Raum, weil nichts gekürzt wurde.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -10620,6 +10620,55 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 4.2.4 und 4.2.4.1 – gewerbesteuerliches Schachtelprivileg
+
+Übernommen sind die Seiten 89 bis 92 der Quelle: die Entwicklung des Streits von der
+früheren Verwaltungsauffassung über das BFH-Urteil vom 17.12.2014 bis zur Einführung des
+§ 7a GewStG ab 2017 samt dessen zweistufigem Aufbau und der Anwendungsgrenze (4.2.4)
+sowie der Grundfall ohne Kosten mit Abwandlung (4.2.4.1). Der Datensatz umfasst damit 76
+Kapitel mit 1.272 Abschnitten und 104 Tabellen; geprüft mit `npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Die Bruttomethode lässt die Ausschüttung ungekürzt in die
+gewerbesteuerliche Ausgangsgröße gelangen, so dass § 9 Nr. 2a GewStG bei der
+Organgesellschaft originär erfüllt ist und den vollen Betrag kürzt – der BFH entschied
+2014, dass beim Organträger dann nichts mehr hinzugerechnet werden kann. § 7a GewStG
+kehrt die Reihenfolge um: erst Ausschluss der Schachtelprivilegien (Absatz 1), dann
+Nettomethode mit § 8b KStG schon bei der Organgesellschaft (Absatz 2), erst danach
+Kürzungen und Hinzurechnungen. Weil § 9 Nr. 2a Satz 4 GewStG die Pauschale nicht kürzt,
+bleibt sie im Gewerbeertrag. § 7a GewStG greift nur, wenn ein Fall des § 9 Nr. 2a GewStG
+vorliegt (mindestens 15 % zu Beginn des Erhebungszeitraums).
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 4.2.4 zitiert zweimal „§ 15 Nr. 2 Satz 1 KStG“ beziehungsweise
+  „§ 15 Nr. 2 Satz 2 KStG“; gesetzlich § 15 Satz 1 Nr. 2 Satz 1 und 2 KStG.
+- Abschnitt 4.2.4: „für die Gewinnausschüttung, soweit sie aus Anteilen i.S. des § 9
+  Nr. 2a, 7 oder 8 GewStG resultieren“ – der Numerus wechselt gegenüber dem Singular.
+- Abschnitt 4.2.4.1 zitiert erneut „§ 3 Nr. 40d EStG“ statt § 3 Nr. 40 Buchst. d
+  EStG.
+
+**Eigene Nachrechnung.** Alle Zahlen gehen auf. Die Ausschüttung beträgt brutto
+100.000 €; weil die Kapitalertragsteuer von 25.000 € gewinnmindernd gebucht wurde, sind
+nur 75.000 € erfasst, und § 10 Nr. 2 KStG stellt den Bruttobetrag wieder her. Die
+Pauschale beträgt 5 % von 100.000 € = 5.000 €, das Teileinkünfteverfahren stellt 40 % =
+40.000 € frei.
+
+| Variante | Körperschaftsteuer | Gewerbesteuer |
+| --- | --- | --- |
+| Kapitalgesellschaft als Organträger | 100.000 € ./. 100.000 € + 5.000 € = 5.000 € | ebenso 5.000 €; § 9 Nr. 2a GewStG kürzt nichts mehr |
+| Personenunternehmen als Organträger | 100.000 € ./. 40.000 € = 60.000 € | 60.000 €, danach nach § 9 Nr. 2a Satz 1 GewStG voll gekürzt = 0 € |
+
+Als eigene Ergänzungen im Datensatz ausgewiesen: die Erläuterung, dass die **Reihenfolge**
+der Prüfungsschritte der Kern des Streits ist; die Umkehrung der Zuständigkeit
+(gewerbesteuerlich entscheidet sich das Schicksal der Ausschüttung **bei der
+Organgesellschaft**, während körperschaftsteuerlich § 8b KStG dort gesperrt ist); die
+Einordnung des Wortes „rechtsprechungsbrechend“ als drittes Vorkommen dieses
+Musters im Skript (neben § 14 Abs. 2 KStG und dem Ertragszuschuss); der systematische
+Grund des Rechtsformunterschieds (Satz 4 nimmt nur die Pauschale des § 8b Abs. 5 KStG
+aus, weshalb beim Personenunternehmen die vollen 60.000 € der Kürzung des Satzes 1
+unterliegen); und der Hinweis, dass der angestrebte Gleichlauf von Einkommen und
+Gewerbeertrag nur im Kapitalgesellschaftsfall eintritt.
+
 ### KSt Teil VI (Hamacher), Abschnitte 4.1 und 4.2.1 bis 4.2.3 – gewerbesteuerliche Organschaft
 
 Übernommen sind die Seiten 86 bis 89 der Quelle: Voraussetzungen, getrennte Ermittlung
