@@ -914,6 +914,39 @@ function korrigiereHaftung71(thema) {
   };
 }
 
+function korrigiereHaftung74(thema) {
+  normErgaenzen(
+    thema,
+    "§ 74 Abs. 1 und 2 AO",
+    "§ 191 AO",
+    "BFH 06.08.2024 – VII R 25/21"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 74 AO ist eine gegenstandsgebundene Haftung: Gehören einem wesentlich Beteiligten Gegenstände, die dem Unternehmen dienen, haftet der Eigentümer mit diesen Gegenständen für betriebsbezogene Steuern des Unternehmens. Erfasst sind nur Steuern, die während des Bestehens der wesentlichen Beteiligung entstanden sind; Erstattungsansprüche auf Steuervergütungen stehen ihnen gleich.",
+      "Wesentlich beteiligt ist nach § 74 Abs. 2 S. 1 AO, wer unmittelbar oder mittelbar zu mehr als einem Viertel am Grund- oder Stammkapital oder am Vermögen des Unternehmens beteiligt ist. Daneben gilt nach Satz 2 auch als wesentlich beteiligt, wer beherrschenden Einfluss ausübt und durch sein Verhalten dazu beiträgt, dass fällige betriebsbezogene Steuern nicht entrichtet werden.",
+      "Nach BFH VII R 25/21 dienen Gegenstände dem Unternehmen, wenn sie für die Führung des Betriebs und die Erzielung steuerbarer Umsätze von wesentlicher Bedeutung sind; eine Einordnung als wesentliche Betriebsgrundlage ist dafür nicht zusätzlich erforderlich.",
+    ],
+    lernziele: [
+      "Eigentum eines vom Unternehmen verschiedenen wesentlich Beteiligten feststellen",
+      "mehr-als-ein-Viertel-Grenze und alternative Beherrschungsregel des § 74 Abs. 2 AO prüfen",
+      "Unternehmensdienlichkeit nach der aktuellen BFH-Rechtsprechung bestimmen",
+      "Haftung auf betriebsbezogene Steuern während der wesentlichen Beteiligung begrenzen",
+      "gegenstandsgebundenen Haftungsumfang und anschließend § 191 AO prüfen",
+    ],
+    pruefschritte: [
+      "Feststellen, welche Gegenstände dem Unternehmen dienen und wem sie gehören.",
+      "Prüfen, ob der Eigentümer unmittelbar oder mittelbar zu mehr als einem Viertel am Grund-/Stammkapital oder Vermögen beteiligt ist.",
+      "Falls diese Quote nicht erreicht wird, § 74 Abs. 2 S. 2 AO prüfen: beherrschender Einfluss plus eigenes Verhalten, das zur Nichtentrichtung fälliger betriebsbezogener Steuern beiträgt.",
+      "Unternehmensdienlichkeit prüfen: Der Gegenstand muss für Betriebsführung und Erzielung steuerbarer Umsätze von wesentlicher Bedeutung sein; eine wesentliche Betriebsgrundlage ist nicht erforderlich.",
+      "Nur betriebsbezogene Steuern beziehungsweise gleichgestellte Erstattungsansprüche erfassen, die während der wesentlichen Beteiligung entstanden sind.",
+      "Haftung als Haftung mit den überlassenen Gegenständen bestimmen und anschließend Haftungsbescheid/Ermessen nach § 191 AO prüfen.",
+    ],
+    merksatz: "§ 74 AO: mehr als 25 % oder besondere Beherrschung + Beitrag zur Nichtzahlung; der Eigentümer haftet nicht pauschal persönlich, sondern mit den dienenden Gegenständen und nur für betriebsbezogene Steuern aus dem Beteiligungszeitraum.",
+  };
+}
+
 function korrigiereGuEBekanntgabe(thema) {
   normErgaenzen(thema, "§ 14a Abs. 2–4 AO", "§ 183 AO", "§ 183a AO", "Art. 97 § 39 Abs. 3 EGAO");
   thema.kern = {
@@ -1232,6 +1265,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "ao-modul-ao-388": korrigiereSelbstanzeige371(thema); break;
       case "ao-modul-ao-390": korrigiereHaftung69(thema); break;
       case "ao-modul-ao-392": korrigiereHaftung71(thema); break;
+      case "ao-modul-ao-393": korrigiereHaftung74(thema); break;
       case "ao-modul-ao-335": korrigiereAussenpruefung171(thema); break;
       case "erbst-modul-erbst-512": korrigiereFamilienheim(thema); break;
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
