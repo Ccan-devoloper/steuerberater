@@ -103,6 +103,20 @@ test("Außenprüfungsmodul nutzt neue §171-Abs.4-Fünfjahresgrenze", () => {
   assert.doesNotMatch(kern(t), /äußerste zeitliche Grenze nach Schlussbesprechung bzw\. letzter Prüfungshandlung/);
 });
 
+test("§14-BewG-Modul verwendet 2026er Tabelle und kennzeichnet den Wechsel zu 2025", () => {
+  const t = byId("erbst-modul-erbst-532");
+  assert.match(kern(t), /BMF-Tabelle vom 21\.10\.2025/);
+  assert.match(kern(t), /Sterbetafel 2022\/2024/);
+  assert.match(kern(t), /BMF-Tabelle vom 09\.12\.2024/);
+  assert.match(kern(t), /Sterbetafel 2021\/2023/);
+  assert.doesNotMatch(kern(t), /zum 1\.1\.2025 geltenden geschlechtsbezogenen Faktoren/);
+  const auftrag = rechtsstandAuftrag(t, new Date("2026-09-19T12:00:00Z"));
+  assert.match(auftrag, /Rechtsstand 2026/);
+  assert.match(auftrag, /Rechtsstand 2025/);
+  assert.match(auftrag, /2022\/2024/);
+  assert.match(auftrag, /2021\/2023/);
+});
+
 test("Familienheim behandelt Pflegeheim und Sechs-Monats-Frist nicht absolut", () => {
   const t = byId("erbst-modul-erbst-512");
   assert.match(kern(t), /objektiv unmöglich oder unzumutbar/);
