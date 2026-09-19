@@ -53,6 +53,11 @@ test("§ 6b Social-Formeln enthalten keine erfundene Reihenfolge und beachten 2-
   assert.match(auftrag, /2\.000\.000/);
   assert.match(auftrag, /Rechtsstand 2025/);
   assert.match(auftrag, /500\.000/);
+  const auftrag2027 = rechtsstandAuftrag(abs10, new Date("2027-03-01T12:00:00Z"));
+  assert.match(auftrag2027, /Rechtsstand 2027/);
+  assert.match(auftrag2027, /2\.000\.000/);
+  assert.match(auftrag2027, /Rechtsstand 2026/);
+  assert.match(auftrag2027, /500\.000/);
 });
 
 test("wirtschaftliches Eigentum bei Miete ist nicht absolut ausgeschlossen", () => {
