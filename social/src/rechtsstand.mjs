@@ -1766,6 +1766,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-modul-k3-2": korrigiereWirtschaftlichesEigentum(thema); break;
       case "bilanz-modul-k3-41": korrigiereEinlageGrundstueck(thema); break;
       case "bilanz-modul-k3-26": korrigiereErsatzbeschaffungsruecklage(thema); break;
+      case "bilanz-modul-k3-23": korrigiereAnschaffungsnah(thema); break;
       case "bilanz-formel-anschaffungsnah": korrigiereAnschaffungsnah(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
