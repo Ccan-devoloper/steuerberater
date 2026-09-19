@@ -67,8 +67,12 @@
    Abs. 1 Satz 5 KStG mit den Auslandsgestaltungen und den Inlandsfällen
    (5.6.2.2), die Anwendung des § 1 AStG in Dreiecksfällen und die
    Besonderheit bei der Schenkungsteuer (5.7). Damit ist auch das Kapitel 5
-   der Quelle vollständig. Es folgt das Kapitel 6 (Pensionszusage als
-   verdeckte Gewinnausschüttung); der Campus weist den Stand aus.
+   der Quelle vollständig. Aus Kapitel 6 (Pensionszusage) sind die
+   Prüfungsreihenfolge (6.1), die Ernsthaftigkeit (6.2.1), die Erdienbarkeit
+   (6.2.2 mit Lebensalter, Erdienenszeitraum und Pensionierungsalter), die
+   Warte- und Probezeiten (6.2.3) und die Unverfallbarkeit (6.2.4) übernommen.
+   Es folgen die Angemessenheit (6.2.5), die Finanzierbarkeit (6.2.6) und die
+   Rückdeckungsversicherung (6.3); der Campus weist den Stand aus.
 
    HINWEIS ZUR GLIEDERUNG DER QUELLE: Das Inhaltsverzeichnis führt die Nummer
    5.6 zweimal – einmal als „Korrespondenzprinzip in Dreiecksfällen" (Seite 68)
@@ -2721,6 +2725,128 @@ export const kstTeil4 = [
       { text: "Anmerkung zum Verhältnis zu Abschnitt 1.13 (eigene Ergänzung): Der Abschnitt schließt einen Kreis, den das Skript ganz am Anfang geöffnet hat. Abschnitt 1.13 hatte festgehalten, dass der BFH 2017 an einem Tag in drei Urteilen entschieden hat, zwischen Gesellschaft und Gesellschafter – und auch gegenüber dessen nahe stehender Person – gebe es begrifflich nichts Freigebiges. Hier zeigt sich die **Gegenbewegung des Gesetzgebers**: § 7 Abs. 8 ErbStG stellt für den Konzernfall ausdrücklich klar, dass eine Zuwendung zwischen Kapitalgesellschaften schenkungsteuerbar sein kann. Beides zusammen ergibt das heutige Bild – die Schenkungsteuer wandert von der Achse Gesellschaft–Gesellschafter auf die Achse **Gesellschafter–Gesellschafter**." },
       { text: "Anmerkung zu § 15 Abs. 4 ErbStG (eigene Ergänzung): Die Vorschrift löst ein Problem, das sich aus der Konstruktion zwangsläufig ergibt. Zuwendender ist nach § 7 Abs. 8 ErbStG die **Kapitalgesellschaft**, und zu einer juristischen Person besteht nie ein Verwandtschaftsverhältnis – es gälte also stets die ungünstigste Steuerklasse III mit einem Freibetrag von nur 20.000 €. § 15 Abs. 4 ErbStG stellt deshalb für die Steuerberechnung auf das **persönliche Verhältnis der Anteilseigner** ab. Im Beispiel sind A und B nahe Angehörige, so dass je nach Verwandtschaftsgrad eine günstigere Steuerklasse und ein höherer Freibetrag greifen. Die Quelle weist eigens darauf hin, dass dies „Auswirkungen auf den Steuersatz und den anzuwendenden Freibetrag“ hat." },
       { text: "Anmerkung zur Beteiligungsidentität (eigene Ergänzung): Die Abwandlung liefert die praktisch wichtigste Gestaltungsregel des Abschnitts, und ihre Begründung ist rein wirtschaftlich. Sind beide Gesellschaften **beteiligungsidentisch**, verliert jeder Gesellschafter bei der einen Gesellschaft genau so viel, wie er bei der anderen gewinnt – eine Wertverschiebung **zwischen** den Gesellschaftern findet nicht statt. Ohne Wertverschiebung gibt es keine Bereicherung und damit keinen Steuertatbestand. Ertragsteuerlich ändert das nichts: vGA und verdeckte Einlage bleiben und sind beiden Gesellschaftern anteilig zuzurechnen. Schenkungsteuer und Ertragsteuer laufen hier also **auseinander**." },
+    ],
+  },
+  {
+    id: "kst-t4-54",
+    kapitel: "54",
+    abschnittNr: "6.2.2",
+    title: "6.1 Prüfungsreihenfolge, 6.2.1 Ernsthaftigkeit und 6.2.2 Erdienbarkeit",
+    thema: "Zuerst ist § 6a EStG zu prüfen – scheitert die Rückstellung schon dort, ist eine vGA ausgeschlossen. Erst danach folgen die sechs Kriterien der gesellschaftsrechtlichen Veranlassung, darunter die Altersgrenze von 60 Jahren und der Erdienenszeitraum",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 6.1 bis 6.2.2.2 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 6a Abs. 1 EStG",
+      "§ 4 Abs. 2 Satz 1 EStG",
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "R 8.7 KStR",
+      "H 8.7 KStH „Ernsthaftigkeit“",
+      "H 8.7 KStH „Erdienbarkeit“",
+      "BFH vom 25.06.2014, BStBl. II 2015, 665",
+      "BFH vom 05.04.1995, BStBl. II 1995, 478",
+      "BFH vom 11.09.2013, I R 26/12",
+      "BFH vom 14.07.2004, I R 14/04",
+      "BFH vom 20.05.2015, BStBl. II 2015, 1022",
+      "BFH vom 24.01.1996, BStBl. II 1997, 440",
+    ],
+    themen: ["Pensionszusage", "Prüfungsreihenfolge", "Ernsthaftigkeit", "Erdienbarkeit", "Altersgrenze", "Erdienenszeitraum", "Teilbetragsberechnung"],
+    bloecke: [
+      { typ: "titel", text: "6.1 Prüfungsreihenfolge" },
+      { text: "Pensionszusagen an den Gesellschafter-Geschäftsführer sind zunächst daraufhin zu untersuchen, ob diese steuerbilanziell die Tatbestandsmerkmale des § 6a Abs. 1 EStG erfüllen und die Versorgungszusage betrieblich veranlasst ist. Sind diese Voraussetzungen nicht erfüllt bzw. wurde die Pensionsrückstellung unzutreffend ermittelt, ist vorrangig der Rückstellungswert zu korrigieren. Eine verdeckte Gewinnausschüttung i.S. des § 8 Abs. 3 Satz 2 KStG scheidet in diesen Fällen aus, weil bereits der steuerbilanzielle Ausweis unzutreffend ist und durch die notwendige Bilanzberichtigung i.S. des § 4 Abs. 2 Satz 1 EStG dann auch die bisherige Gewinnminderung entfällt." },
+      { text: "Ist die Pensionsrückstellung hingegen auch steuerbilanziell zutreffend auszuweisen, muss die Pensionszusage anschließend unter dem Gesichtspunkt der gesellschaftsrechtlichen Veranlassung betrachtet werden, was dann zu einer Hinzurechnung im Rahmen einer verdeckten Gewinnausschüttung i.S. des § 8 Abs. 3 Satz 2 KStG führt (siehe hierzu auch: R 8.7 KStR). Dabei sind im Zeitpunkt der Zusageerteilung die Kriterien" },
+      { text: "– der Ernsthaftigkeit," },
+      { text: "– der Erdienbarkeit," },
+      { text: "– der Warte-/Probezeit," },
+      { text: "– der Angemessenheit," },
+      { text: "– der Unverfallbarkeit" },
+      { text: "– und der Finanzierbarkeit" },
+      { text: "zu überprüfen. Bei einem Verstoß gegen diese Kriterien liegt eine gesellschaftsrechtliche Veranlassung der Pensionszusage vor, was zur Hinzurechnung der jährlichen Zuführungsbeträge zur Pensionsrückstellung nach § 8 Abs. 3 Satz 2 KStG führt. Dabei sind auch die Auswirkungen der sog. Teilbetragsberechnung zu beachten (siehe unter 4.1.3.1). Zu einem Zufluss der vGA beim Anteilseigner kommt es abweichend von der Handhabung auf Ebene der Kapitalgesellschaft aber erst bei Eintritt des Versorgungsfalles bzw. bei einem vorherigen Verzicht auf die Zusage." },
+      { typ: "titel", text: "6.2.1 Ernsthaftigkeit der Pensionszusage" },
+      { text: "Grundsatz für die Anerkennung der Pensionszusage ist, dass diese ernsthaft gewollt ist und vertragsgetreu durchgeführt wird. Mangelt es daran, liegt eine vGA i.S. des § 8 Abs. 3 Satz 2 KStG vor. Davon ist z.B. auszugehen, wenn der Pensionszusage eine vertragliche Altersgrenze von weniger als 62 Jahren zugrundeliegt." },
+      { typ: "titel", text: "6.2.2.1 Lebensalter im Zusagezeitpunkt" },
+      { text: "Die Gewährung der Pensionszusage setzt voraus, dass der Pensionsberechtigte diesen Anspruch durch seine Tätigkeit im Betrieb noch erdienen kann. Dabei sind im Zeitpunkt der Erteilung der Versorgungszusage das Alter des Gesellschafter-Geschäftsführers, die Länge der Wartezeit und die künftige aktive Dienstzeit zu berücksichtigen. Eine Pensionszusage ist danach nicht mehr erdienbar, wenn der Gesellschafter-Geschäftsführer im Zusagezeitpunkt das 60. Lebensjahr bereits vollendet hatte. Hat der Gesellschafter-Geschäftsführer im Zeitpunkt der Pensionszusage sein 60. Lebensjahr daher bereits vollendet, ist die Zusage grundsätzlich nicht anzuerkennen. Dies deshalb, weil nach der allgemeinen Lebenserfahrung in diesen Fällen nur noch mit einer begrenzten Dienstzeit zu rechnen ist, so dass das Risiko einer vorzeitigen Inanspruchnahme der Pension in nicht mehr kalkulierbarer Weise steigt. Dabei ist unerheblich, ob der Gesellschafter-Geschäftsführer beherrschend ist." },
+      { typ: "titel", text: "6.2.2.2.1 Beherrschender Gesellschafter-Geschäftsführer" },
+      { text: "Erfüllt der Geschäftsführer diese Altershöchstgrenze, muss der Erdienenszeitraum beachtet werden. Bei beherrschenden Gesellschafter-Geschäftsführern ist daher grundsätzlich eine 10-jährige Restdienstzeit absolute Voraussetzung für die steuerliche Anerkennung. Dies umfasst die Zeitspanne zwischen dem Zusagezeitpunkt und dem vorgesehenen Zeitpunkt des Eintritts in den Ruhestand. Im Hinblick auf das Rückwirkungsverbot bei beherrschenden Gesellschaftern bleiben für die Ermittlung dieses Zeitraums diejenigen Dienstzeiten unberücksichtigt, die vor Erteilung der Zusage abgelaufen waren. Selbst ein kurzes Unterschreiten des 10-Jahreszeitraums führt nach Auffassung des BFH in aller Regel zu einer verdeckten Gewinnausschüttung." },
+      { text: "Wird daher z.B. einem 59jähriger Gesellschafter-Geschäftsführer eine Pensionszusage auf das 65. Lebensjahr erteilt wird, ist diese mangels Erdienbarkeit nicht anzuerkennen. Anders wäre dies, wenn in diesem Fall der Versorgungseintritt auf das 70. Lebensjahr festgelegt würde. Dieser Erdienenszeitraum ist sowohl in Fällen einer erstmaligen Zusage als auch bei Erhöhung des bisherigen Anspruchs zu beachten. (Die Form „einem 59jähriger Gesellschafter-Geschäftsführer … erteilt wird“ steht so in der Quelle.)" },
+      { typ: "titel", text: "6.2.2.2.2 Nicht beherrschender Gesellschafter-Geschäftsführer" },
+      { text: "Nach dem BFH-Urteil vom 24.01.1996 führt die Zusage einer Pension an einen nicht beherrschenden Gesellschafter-Geschäftsführer zu einer vGA, wenn der Zeitraum zwischen dem Zeitpunkt der Zusage der Pension und dem vorgesehenen Zeitpunkt des Eintritts in den Ruhestand weniger als 10 Jahre beträgt oder wenn dieser Zeitraum zwar mindestens drei Jahre beträgt, der Gesellschafter-Geschäftsführer dem Betrieb aber weniger als 12 Jahre angehört." },
+      { text: "Da bei nicht beherrschenden Gesellschafter-Geschäftsführern das Rückwirkungsverbot nicht gilt, kann auch eine im Zusagezeitpunkt bereits abgeleistete Dienstzeit mit in die Betrachtung einbezogen werden." },
+      { typ: "tabelle", spalten: ["Prüfungsschritt", "Inhalt", "Rechtsfolge bei Verstoß"], zeilen: [
+        ["1. Stufe: Steuerbilanz", "Tatbestandsmerkmale des § 6a Abs. 1 EStG und betriebliche Veranlassung", "Bilanzberichtigung nach § 4 Abs. 2 Satz 1 EStG – eine vGA scheidet aus, weil die Gewinnminderung dadurch entfällt"],
+        ["2. Stufe: gesellschaftsrechtliche Veranlassung", "Ernsthaftigkeit, Erdienbarkeit, Warte- und Probezeit, Angemessenheit, Unverfallbarkeit, Finanzierbarkeit", "Hinzurechnung der jährlichen Zuführungen nach § 8 Abs. 3 Satz 2 KStG, dazu die Teilbetragsberechnung nach Abschnitt 4.1.3.1"],
+        ["Zufluss beim Anteilseigner", "abweichend von der Gesellschaftsebene", "erst bei Eintritt des Versorgungsfalles oder bei vorherigem Verzicht"],
+      ] },
+      { typ: "tabelle", spalten: ["Erdienbarkeit", "beherrschender Gesellschafter-Geschäftsführer", "nicht beherrschender Gesellschafter-Geschäftsführer"], zeilen: [
+        ["Höchstalter im Zusagezeitpunkt", "das 60. Lebensjahr darf nicht vollendet sein", "dasselbe – die Beherrschung ist insoweit unerheblich"],
+        ["erforderlicher Erdienenszeitraum", "mindestens 10 Jahre Restdienstzeit, absolute Voraussetzung", "mindestens 10 Jahre; bei 3 bis unter 10 Jahren nur, wenn der Geschäftsführer dem Betrieb mindestens 12 Jahre angehört"],
+        ["bereits abgeleistete Dienstzeit", "bleibt unberücksichtigt – Rückwirkungsverbot", "wird einbezogen, weil das Rückwirkungsverbot nicht gilt"],
+        ["kurzes Unterschreiten der Frist", "führt nach dem BFH in aller Regel zur vGA", "keine gesonderte Aussage der Quelle"],
+        ["Anwendungsfälle", "erstmalige Zusage und Erhöhung des bisherigen Anspruchs", "erstmalige Zusage und Erhöhung"],
+      ] },
+      { text: "Rechenproben zum Beispiel (eigene Ergänzung): Die Quelle nennt keine Jahreszahlen, die Rechnung ist aber eindeutig. Bei einer Zusage an einen 59-Jährigen auf das 65. Lebensjahr beträgt der Erdienenszeitraum **6 Jahre** und unterschreitet die Zehnjahresgrenze deutlich – die Zusage ist nicht anzuerkennen. Wird der Versorgungseintritt auf das 70. Lebensjahr gelegt, sind es **11 Jahre**, und die Grenze ist gewahrt. Bemerkenswert ist, dass der Geschäftsführer mit 59 Jahren zugleich die Altersgrenze des Abschnitts 6.2.2.1 knapp einhält – das Beispiel ist also bewusst an beiden Grenzen entlang gebaut." },
+      { text: "Anmerkung zur Prüfungsreihenfolge (eigene Ergänzung): Der erste Abschnitt enthält die praktisch wichtigste Aussage des ganzen Kapitels, und sie wirkt zunächst überraschend: Scheitert die Rückstellung schon an § 6a EStG, ist eine vGA **ausgeschlossen**. Der Grund ist derselbe, der das ganze Skript durchzieht – hinzugerechnet werden kann nur, was den Gewinn tatsächlich gemindert hat. Wird die Rückstellung im Wege der **Bilanzberichtigung** korrigiert, verschwindet die Gewinnminderung bereits innerhalb der Bilanz, und für eine außerbilanzielle Korrektur bleibt nichts übrig. Wer in der Klausur sofort mit dem Fremdvergleich beginnt, hat die erste Stufe übersprungen und rechnet doppelt." },
+      { text: "Anmerkung zum auseinanderfallenden Zeitpunkt (eigene Ergänzung): Der letzte Satz des Abschnitts 6.1 ist für die Klausur zentral und leicht zu übersehen. Bei der **Gesellschaft** wird Jahr für Jahr die Zuführung zur Rückstellung hinzugerechnet; beim **Gesellschafter** fließt dagegen überhaupt nichts zu, bis der Versorgungsfall eintritt oder er auf die Zusage verzichtet. Die beiden Ebenen laufen also über Jahrzehnte auseinander – und genau dafür braucht die Verwaltung die **Teilbetragsberechnung** aus Abschnitt 4.1.3.1, auf die die Quelle hier ausdrücklich verweist. Ohne sie ließe sich Jahrzehnte später nicht mehr feststellen, welcher Teil der Rückstellung bereits hinzugerechnet wurde." },
+      { text: "Anmerkung zur Altersgrenze (eigene Ergänzung): Die Zahlen des Kapitels lassen sich leicht verwechseln, weil gleich drei Altersgrenzen nebeneinanderstehen und jede etwas anderes bedeutet. Das **60. Lebensjahr** ist die Höchstgrenze im **Zusagezeitpunkt** (Erdienbarkeit, Abschnitt 6.2.2.1). Das **62. Lebensjahr** ist die Untergrenze des vereinbarten **Pensionsalters** und betrifft die Ernsthaftigkeit – eine vGA **dem Grunde nach**. Das **67. Lebensjahr** ist die Untergrenze des Pensionsalters bei **beherrschenden** Geschäftsführern und betrifft die Angemessenheit – eine vGA **der Höhe nach**. Wer sich merkt, dass 60 auf den Zusagezeitpunkt und 62 beziehungsweise 67 auf den Versorgungseintritt zielen, kommt nicht durcheinander." },
+      { text: "Anmerkung zum Erdienenszeitraum beim nicht beherrschenden Geschäftsführer (eigene Ergänzung): Die Regel des BFH liest sich sperrig und lässt sich in drei Stufen auflösen. Beträgt der Zeitraum bis zum Ruhestand **mindestens 10 Jahre**, ist alles in Ordnung. Beträgt er **3 bis unter 10 Jahre**, kommt es auf die Betriebszugehörigkeit an – sie muss mindestens 12 Jahre betragen. Beträgt er **weniger als 3 Jahre**, hilft auch eine lange Betriebszugehörigkeit nicht. Der Unterschied zum beherrschenden Geschäftsführer hat dabei einen klaren Grund: Weil das **Rückwirkungsverbot** dort nicht gilt, darf die bereits abgeleistete Dienstzeit mitzählen – genau das ist der Inhalt der Zwölfjahresvariante." },
+    ],
+  },
+  {
+    id: "kst-t4-55",
+    kapitel: "55",
+    abschnittNr: "6.2.4",
+    title: "6.2.2.3 Pensionierungsalter, 6.2.3 Warte- und Probezeiten, 6.2.4 Unverfallbarkeit",
+    thema: "Für Neuzusagen gilt eine Untergrenze von 62 Jahren, bei beherrschenden Geschäftsführern von 67 Jahren. Die Probezeit beträgt zwei bis drei Jahre, die Wartezeit fünf; die sofortige Unverfallbarkeit führt beim beherrschenden Gesellschafter zur vGA",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 6.2.2.3 bis 6.2.4 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 6a EStG",
+      "H 8.7 KStH „Warte-/Probezeit“",
+      "BMF vom 09.12.2016, BStBl. I 2016, 1427",
+      "BMF vom 14.12.2012, BStBl. I 2013, 58",
+      "BMF vom 14.05.1999, BStBl. I 1999, 512",
+      "BMF vom 09.12.2002, BStBl. I 2002, 1393",
+      "BFH vom 31.03.2004, BStBl. II 2005, 665",
+      "BFH vom 28.04.2010, BStBl. II 2013, 41",
+      "BFH vom 29.10.1997, BStBl. II 1999, 318",
+      "BFH vom 18.02.1999, BFH/NV 1999, 1398",
+    ],
+    themen: ["Pensionierungsalter", "Neuzusage und Altzusage", "Statuswechsel", "Probezeit", "Wartezeit", "Unverfallbarkeit", "ratierliche Unverfallbarkeit"],
+    bloecke: [
+      { typ: "titel", text: "6.2.2.3 Pensionierungsalter" },
+      { text: "Zum maßgeblichen Pensionierungsalter hat die Verwaltung mit BMF-Schreiben vom 09.12.2016 Stellung genommen. Für Neuzusagen (d.h. nach dem 09.12.2016) ist bei einer vertraglichen Altersgrenze von weniger als 62 Jahren grundsätzlich davon auszugehen, dass keine ernsthafte Vereinbarung vorliegt (vGA dem Grunde nach). Bei Altzusagen (d.h. vor dem 09.12.2016) lag diese Altersgrenze bei 60 Jahren. Bei beherrschenden Gesellschafter-Geschäftsführern ist grundsätzlich davon auszugehen, dass eine Pensionszusage insoweit unangemessen ist, als eine geringere vertragliche Altersgrenze als 67 Jahre vereinbart wird (vGA der Höhe nach). Zuführungen zur Pensionsrückstellung sind dann insoweit vGA, als diese nicht auf das 67. Lebensjahr, sondern auf das vertraglich vereinbarte geringere Pensionsalter berechnet werden. Den Steuerpflichtigen bleibt es aber unbenommen, die Fremdüblichkeit eines niedrigeren Pensionsalters darzulegen." },
+      { text: "Für die Frage, ob eine vGA vorliegt, ist grundsätzlich auf die Verhältnisse bei Erteilung der Zusage abzustellen. Ein Statuswechsel vom nicht beherrschenden zum beherrschenden Gesellschafter begründet für sich alleine regelmäßig noch keinen Anlass zur Prüfung, ob das in der Zusage vereinbarte Pensionsalter durch das Gesellschaftsverhältnis veranlasst ist. Dies gilt jedoch nicht, wenn weitere Anhaltspunkte für eine mögliche Veranlassung durch das Gesellschaftsverhältnis hinzutreten (z.B. eine zeitliche Nähe von Erteilung der Zusage und Erwerb der beherrschenden Stellung). Wird die Zusage wesentlich geändert, ist stets auch im Hinblick auf das vereinbarte Pensionsalter erneut zu prüfen, ob die Pensionszusage durch das Gesellschaftsverhältnis veranlasst ist." },
+      { typ: "titel", text: "6.2.3 Wartezeiten, Probezeiten" },
+      { text: "Erhält ein Gesellschafter-Geschäftsführer erstmalig eine Pensionszusage, muss zunächst eine Probezeit abgewartet werden. Dies gilt selbst dann, wenn anlässlich der Zusage eine Rückdeckungsversicherung abgeschlossen wurde. Im Übrigen darf eine Pensionszusage an den Gesellschafter-Geschäftsführer – unabhängig von der erforderlichen Erprobung des neuen Geschäftsführers – erst einige Jahre nach Gründung des Unternehmens erteilt werden (Wartezeit), weil vorher regelmäßig keine gesicherten Erkenntnisse über die künftige Ertragsentwicklung vorliegen." },
+      { text: "Die Finanzverwaltung geht dabei von folgenden Fristen aus: Wartezeit zur Abschätzung der wirtschaftlichen Entwicklung = 5 Jahre; persönliche Erprobung des Gesellschafter-Geschäftsführers = 2 bis 3 Jahre." },
+      { text: "Die Einhaltung einer Probezeit ist aber nicht erforderlich, wenn ein Einzelunternehmen in eine GmbH eingebracht wird oder die GmbH aus eigener Kenntnis (Vortätigkeit im Unternehmen) die Befähigung des neuen Gesellschafter-Geschäftsführers bereits hinreichend kennt." },
+      { text: "Nach dem BFH-Urteil vom 28.04.2010 und dem BMF-Schreiben vom 14.12.2012 führt die Nichtbeachtung der Warte- bzw. Probezeit nunmehr insgesamt zu einer vGA. Ausschlaggebend ist die Situation im Zeitpunkt der Zusage, so dass sich die Anwartschaft auch nach Ablauf der angemessenen Probezeit nicht zu einer fremdvergleichsgerechten Pensionszusage wandelt. Den Vertragspartnern bleibt es aber unbenommen, die ursprüngliche, gegen die Probezeit verstoßende Vereinbarung aufzuheben und eine neue Pensionszusage nach Ablauf der Probezeit abzuschließen." },
+      { text: "Die o.g. Rechtsauffassung gilt aber nicht für Altzusagen, die vor dem 29.07.2010 abgeschlossen wurden. In diesen Fällen sind gelten die Rechtsgrundsätze des (inzwischen) aufgehobenen BMF-Schreiben vom 14.05.1999 weiter. Danach führt die Pensionszusage bis zum Ablauf der angemessenen Probezeit bzw. Wartezeit zu einer vGA. Nach Ablauf dieser Frist werden alle weiteren Zuführungen zu der Pensionsrückstellung steuerlich wieder anerkannt. (Die Form „In diesen Fällen sind gelten die Rechtsgrundsätze“ steht so in der Quelle.)" },
+      { typ: "titel", text: "6.2.4 Unverfallbarkeit" },
+      { text: "Ein weiteres Kriterium für den Fremdvergleich ist, ob die dem Gesellschafter-Geschäftsführer erteilte Pensionszusage mit sofortiger Wirkung unverfallbar wird. Unverfallbarkeit bedeutet, dass der Gesellschafter-Geschäftsführer seine vertraglichen Versorgungsansprüche auch bei einem vorzeitigem Ausscheiden aus dem Unternehmen behält. (Die Form „bei einem vorzeitigem Ausscheiden“ steht so in der Quelle.)" },
+      { text: "Dazu nimmt das BMF-Schreiben vom 09.12.2002 Stellung. Danach führt eine sofortige volle Unverfallbarkeit einer Pensionszusage zugunsten eines beherrschenden Gesellschafter-Geschäftsführer zu einer gesellschaftsrechtlichen Veranlassung und damit zur Annahme einer vGA. Betragsmäßig liegt eine vGA aber nur insoweit vor, als der tatsächliche Rückstellungsbetrag nach § 6a EStG den Betrag übersteigt, der sich bei angenommener „ratierlicher“ Unverfallbarkeit ergeben würde. Insoweit sind die Zuführungen zur Pensionsrückstellung außerbilanziell nach § 8 Abs. 3 Satz 2 KStG zu korrigieren. Eine ratierliche Unverfallbarkeit ist dagegen bei einem beherrschenden Gesellschafter-Geschäftsführer zulässig." },
+      { typ: "tabelle", spalten: ["Altersgrenze des Pensionierungsalters", "Zusagezeitpunkt", "Rechtsfolge bei Unterschreiten"], zeilen: [
+        ["62 Jahre", "Neuzusage nach dem 09.12.2016", "keine ernsthafte Vereinbarung – vGA dem Grunde nach"],
+        ["60 Jahre", "Altzusage vor dem 09.12.2016", "keine ernsthafte Vereinbarung – vGA dem Grunde nach"],
+        ["67 Jahre bei beherrschenden Gesellschafter-Geschäftsführern", "unabhängig vom Zusagezeitpunkt", "unangemessen – vGA der Höhe nach; hinzuzurechnen ist der Unterschied zwischen der Berechnung auf das vereinbarte und auf das 67. Lebensjahr"],
+        ["Gegenbeweis", "jederzeit", "der Steuerpflichtige darf die Fremdüblichkeit eines niedrigeren Pensionsalters darlegen"],
+      ] },
+      { typ: "tabelle", spalten: ["Frist", "Dauer", "Zweck"], zeilen: [
+        ["Wartezeit", "5 Jahre", "Abschätzung der wirtschaftlichen Entwicklung des Unternehmens"],
+        ["Probezeit", "2 bis 3 Jahre", "persönliche Erprobung des Gesellschafter-Geschäftsführers"],
+        ["Probezeit entbehrlich", "keine", "Einbringung eines Einzelunternehmens in eine GmbH oder hinreichende Kenntnis der Befähigung aus einer Vortätigkeit"],
+      ] },
+      { typ: "tabelle", spalten: ["Verstoß gegen die Warte- oder Probezeit", "Zusage ab dem 29.07.2010", "Zusage vor dem 29.07.2010"], zeilen: [
+        ["maßgebliche Rechtsgrundlage", "BFH vom 28.04.2010, BMF vom 14.12.2012", "BMF vom 14.05.1999, inzwischen aufgehoben"],
+        ["Rechtsfolge", "insgesamt vGA – die Anwartschaft heilt auch nach Ablauf der Frist nicht", "vGA nur bis zum Ablauf der angemessenen Frist; danach werden die Zuführungen wieder anerkannt"],
+        ["Ausweg", "Aufhebung der alten und Abschluss einer neuen Zusage nach Ablauf der Probezeit", "entfällt – die Anerkennung tritt von selbst ein"],
+      ] },
+      { text: "Anmerkung zur Verschärfung ab 2010 (eigene Ergänzung): Der Wechsel der Rechtsauffassung ist die einschneidendste Aussage des Abschnitts, und der Unterschied ist erheblich. Nach **altem** Recht war der Verstoß gegen die Probezeit ein **vorübergehender** Mangel: Die Zusage heilte mit Fristablauf, und nur die bis dahin angefallenen Zuführungen blieben vGA. Nach **neuem** Recht ist er **endgültig** – maßgeblich ist allein die Situation im Zusagezeitpunkt, und die Anwartschaft wandelt sich nicht nachträglich in eine fremdvergleichsgerechte Zusage. Praktisch bedeutet das, dass eine zu früh erteilte Zusage dauerhaft unbrauchbar ist; der einzige Ausweg ist die **Aufhebung und Neuerteilung**, auf die die Quelle ausdrücklich hinweist. In der Klausur entscheidet damit allein das Datum der Zusage darüber, welche der beiden Rechtsfolgen gilt." },
+      { text: "Anmerkung zum Verhältnis der beiden Fristen (eigene Ergänzung): Warte- und Probezeit werden leicht verwechselt, betreffen aber ganz verschiedene Dinge und laufen **nebeneinander**. Die **Wartezeit** von fünf Jahren knüpft an das **Unternehmen** an – vor Ablauf fehlen gesicherte Erkenntnisse über die Ertragsentwicklung. Die **Probezeit** von zwei bis drei Jahren knüpft an die **Person** an – der Geschäftsführer muss sich erst bewähren. Daraus folgt, dass bei einer neu gegründeten Gesellschaft mit neuem Geschäftsführer die **längere** Frist maßgeblich ist, während bei einer eingebrachten Einzelunternehmung beide entfallen können: Das Unternehmen ist bekannt und der Geschäftsführer auch. Die Quelle nennt genau diese beiden Ausnahmefälle." },
+      { text: "Anmerkung zur Unverfallbarkeit (eigene Ergänzung): Der Abschnitt ist ein Musterbeispiel für eine vGA **der Höhe nach** und zeigt zugleich, dass die Quelle die Rechtsfolge fein abstuft. Verboten ist nicht die Unverfallbarkeit als solche, sondern nur die **sofortige volle** Unverfallbarkeit beim beherrschenden Gesellschafter; die **ratierliche** – also mit der Dienstzeit anwachsende – ist ausdrücklich zulässig. Hinzuzurechnen ist deshalb auch nicht die ganze Zuführung, sondern nur der **Differenzbetrag** zwischen der tatsächlichen Rückstellung nach § 6a EStG und derjenigen, die sich bei ratierlicher Unverfallbarkeit ergäbe. Der dahinterstehende Gedanke ist der Fremdvergleich: Ein fremder Geschäftsführer erdient sich seine Anwartschaft über die Jahre; nur wer die Gesellschaft beherrscht, kann sie sich sofort in voller Höhe zusagen lassen." },
+      { text: "Anmerkung zum Statuswechsel (eigene Ergänzung): Die Aussage zum Wechsel vom nicht beherrschenden zum beherrschenden Gesellschafter ist für den Steuerpflichtigen günstig und folgt aus dem Stichtagsprinzip: Maßgeblich sind die Verhältnisse **bei Erteilung** der Zusage, und ein späterer Anteilserwerb ändert daran nichts. Die Quelle nennt aber zwei Gegenausnahmen, die in der Klausur die eigentliche Falle bilden. Treten **weitere Anhaltspunkte** hinzu – die Quelle nennt die zeitliche Nähe von Zusage und Erwerb der beherrschenden Stellung –, ist doch zu prüfen. Und wird die Zusage **wesentlich geändert**, ist ohnehin neu zu prüfen; das entspricht dem, was Abschnitt 6.2.2.2.1 für den Erdienenszeitraum bei Erhöhungen sagt." },
     ],
   },
 ];

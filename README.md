@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 53 Kapitel mit 879
-  Abschnitten und 80 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 55 Kapitel mit 925
+  Abschnitten und 85 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3599,6 +3599,42 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ist die Gegenbewegung des Gesetzgebers, und im Ergebnis wandert die Schenkungsteuer von der Achse
   Gesellschaft–Gesellschafter auf die Achse **Gesellschafter–Gesellschafter**. **Damit ist auch das
   Kapitel 5 der Quelle vollständig.**
+  Bei der **Pensionszusage** (Kapitel 6) enthält schon die Prüfungsreihenfolge die praktisch
+  wichtigste Aussage, und sie wirkt zunächst überraschend: Scheitert die Rückstellung bereits an
+  § 6a EStG, ist eine vGA **ausgeschlossen**. Der Grund ist derselbe, der das ganze Skript durchzieht –
+  hinzugerechnet werden kann nur, was den Gewinn tatsächlich gemindert hat; wird die Rückstellung im
+  Wege der **Bilanzberichtigung** korrigiert, verschwindet die Gewinnminderung schon innerhalb der
+  Bilanz. Wer sofort mit dem Fremdvergleich beginnt, rechnet doppelt. Erst auf der zweiten Stufe
+  folgen die sechs Kriterien: Ernsthaftigkeit, Erdienbarkeit, Warte- und Probezeit, Angemessenheit,
+  Unverfallbarkeit und Finanzierbarkeit. Zentral und leicht zu übersehen ist dabei, dass die beiden
+  Ebenen über Jahrzehnte **auseinanderlaufen**: Bei der Gesellschaft wird Jahr für Jahr die Zuführung
+  hinzugerechnet, beim Gesellschafter fließt bis zum Versorgungsfall oder einem Verzicht überhaupt
+  nichts zu – genau dafür braucht die Verwaltung die **Teilbetragsberechnung** aus Abschnitt 4.1.3.1.
+  Drei **Altersgrenzen** stehen nebeneinander und bedeuten Verschiedenes: **60 Jahre** ist die
+  Höchstgrenze im **Zusagezeitpunkt** und betrifft die Erdienbarkeit (unabhängig davon, ob der
+  Geschäftsführer beherrschend ist); **62 Jahre** ist die Untergrenze des vereinbarten
+  **Pensionsalters** und betrifft die Ernsthaftigkeit – eine vGA **dem Grunde nach**, bei Altzusagen
+  vor dem 09.12.2016 waren es 60 Jahre; **67 Jahre** ist dieselbe Untergrenze bei **beherrschenden**
+  Geschäftsführern und betrifft die Angemessenheit – eine vGA **der Höhe nach**, nämlich in Höhe des
+  Unterschieds zwischen der Berechnung auf das vereinbarte und auf das 67. Lebensjahr. Der
+  **Erdienenszeitraum** beträgt bei beherrschenden Geschäftsführern zwingend zehn Jahre, und schon ein
+  kurzes Unterschreiten führt zur vGA; beim nicht beherrschenden genügen drei Jahre, wenn er dem
+  Betrieb mindestens zwölf Jahre angehört – der Unterschied hat einen klaren Grund: Weil dort das
+  **Rückwirkungsverbot** nicht gilt, darf die bereits abgeleistete Dienstzeit mitzählen. Im Beispiel
+  der Quelle sind einem 59-Jährigen sechs Jahre zu wenig, elf dagegen genug.
+  **Warte- und Probezeit** betreffen ganz verschiedene Dinge und laufen nebeneinander: fünf Jahre
+  Wartezeit knüpfen an das **Unternehmen** an (gesicherte Erkenntnisse über die Ertragsentwicklung),
+  zwei bis drei Jahre Probezeit an die **Person** des Geschäftsführers. Bei einer eingebrachten
+  Einzelunternehmung oder bekannter Vortätigkeit entfallen sie. Einschneidend ist der Wechsel der
+  Rechtsauffassung ab dem 29.07.2010: Nach altem Recht war der Verstoß ein **vorübergehender** Mangel,
+  der mit Fristablauf heilte; nach neuem Recht ist er **endgültig** – maßgeblich ist allein der
+  Zusagezeitpunkt, und der einzige Ausweg ist die Aufhebung und Neuerteilung der Zusage. Bei der
+  **Unverfallbarkeit** stuft die Quelle die Rechtsfolge fein ab: Verboten ist nicht die
+  Unverfallbarkeit als solche, sondern nur die **sofortige volle** beim beherrschenden Gesellschafter;
+  die **ratierliche** ist ausdrücklich zulässig, und hinzuzurechnen ist deshalb nur der
+  **Differenzbetrag** zwischen der tatsächlichen Rückstellung nach § 6a EStG und derjenigen bei
+  ratierlicher Unverfallbarkeit. Dahinter steht der Fremdvergleich: Ein fremder Geschäftsführer
+  erdient sich seine Anwartschaft über die Jahre.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

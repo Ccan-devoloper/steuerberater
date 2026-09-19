@@ -10620,6 +10620,41 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 6.1 bis 6.2.4 – Pensionszusage als verdeckte Gewinnausschüttung
+
+Quelle: dieselbe Datei, Seiten 81 bis 84; übernommen als Kapitel 54 und 55. Prüfung:
+`npm run check:k2-kst-teil4` (55 Kapitel, 925 Blöcke, 85 Tabellen).
+
+**Die Zahlen des Beispiels zum Erdienenszeitraum sind eigens ausgerechnet.** Die Quelle nennt nur die
+Lebensjahre: Bei einer Zusage an einen 59-Jährigen auf das 65. Lebensjahr beträgt der
+Erdienenszeitraum sechs Jahre und unterschreitet die Zehnjahresgrenze; auf das 70. Lebensjahr sind es
+elf Jahre. Als eigene Beobachtung festgehalten ist, dass der Geschäftsführer mit 59 Jahren zugleich
+die Altersgrenze des Abschnitts 6.2.2.1 knapp einhält – das Beispiel ist also an beiden Grenzen
+entlang gebaut.
+
+**Die drei Altersgrenzen sind als eigene Ergänzung auseinandergehalten**, weil sie leicht zu
+verwechseln sind: 60 Jahre als Höchstgrenze im Zusagezeitpunkt (Erdienbarkeit), 62 Jahre als
+Untergrenze des Pensionsalters (Ernsthaftigkeit, vGA dem Grunde nach) und 67 Jahre als dieselbe
+Untergrenze bei beherrschenden Geschäftsführern (Angemessenheit, vGA der Höhe nach).
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die Tragweite der Prüfungsreihenfolge (scheitert
+die Rückstellung an § 6a EStG, ist eine vGA ausgeschlossen, weil die Bilanzberichtigung die
+Gewinnminderung bereits beseitigt); das Auseinanderfallen der Zeitpunkte bei Gesellschaft und
+Gesellschafter und der daraus folgende Bedarf für die Teilbetragsberechnung; die Auflösung der
+BFH-Regel zum nicht beherrschenden Geschäftsführer in drei Stufen samt der Begründung aus dem
+fehlenden Rückwirkungsverbot; die Abgrenzung von Warte- und Probezeit nach Unternehmen und Person;
+die Einordnung der Verschärfung ab dem 29.07.2010 als Wechsel von einem vorübergehenden zu einem
+endgültigen Mangel; die Feinabstufung bei der Unverfallbarkeit; und die beiden Gegenausnahmen beim
+Statuswechsel.
+
+**Drei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „einem 59jähriger
+Gesellschafter-Geschäftsführer eine Pensionszusage … erteilt wird“ (doppeltes Verb und Kasus), „In
+diesen Fällen sind gelten die Rechtsgrundsätze“ und „bei einem vorzeitigem Ausscheiden“.
+
+**Noch offen:** aus Teil IV die Angemessenheit der Pensionszusage (6.2.5 mit den Auswirkungen auf die
+Pensionsrückstellung und der Nur-Pension), die Finanzierbarkeit (6.2.6) und die
+Rückdeckungsversicherung (6.3); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), § 1 AStG in Dreiecksfällen und Abschnitt 5.7 – Kapitel 5 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 77 bis 80; übernommen als Kapitel 52 und 53. Prüfung:
