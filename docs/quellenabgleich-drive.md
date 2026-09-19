@@ -10620,6 +10620,65 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitt 1.5.2.3 – Schadensersatzansprüche, Abschnitt 1.5 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 12 bis 16; übernommen als Kapitel 8 und 9. Prüfung:
+`npm run check:k2-kst-teil4` (9 Kapitel, 133 Blöcke, 13 Tabellen). Damit ist der Abschnitt 1.5
+(Auswirkung auf den Gewinn) vollständig.
+
+**Die Quelle stellt die Begriffe „schlampiger“ und „gieriger Gesellschafter“ nebeneinander, ohne sie
+ausdrücklich zu vergleichen** – der Datensatz holt das als eigene Ergänzung nach und bringt den
+Unterschied auf eine Frage: **Hat der Gesellschafter sich selbst einen Vorteil verschafft?** Beim
+schlampigen lautet die Antwort nein, der Ersatzanspruch ist vorrangig und schließt die vGA aus; beim
+gierigen lautet sie ja, die vGA ist mit dem Grundgeschäft vollzogen und der Anspruch nur noch eine
+Einlageforderung. Die Merkmale der Quelle für den zweiten Fall – „wissentlich und zweckgerichtet“ –
+sind subjektiv, was die Abgrenzung praktisch zu einer Beweisfrage macht.
+
+**Der maßgebliche Veranlagungszeitraum** ist beim schlampigen Gesellschafter eigens hervorgehoben,
+weil er leicht falsch gewählt wird: Die vGA knüpft nicht am schädigenden Geschäft an, sondern am
+**Unterlassen der Durchsetzung** – also am Jahr des Verzichts, der Verjährung oder der
+Uneinbringlichkeit. Der Datensatz ordnet das in drei Stufen und merkt an, dass auf der zweiten Stufe
+die Bilanzberichtigung den Nachteil rechnerisch ausgleicht, so dass es schon am dritten
+Tatbestandsmerkmal fehlt.
+
+**Die Verbindung zum fünften Tatbestandsmerkmal** ist als eigene Ergänzung gezogen: Wo der
+Gesellschafter nur schlecht gearbeitet hat, fehlt es an der **Vorteilsgeneigtheit** – ein Zufluss bei
+ihm ist nicht einmal denkbar. Damit erklärt sich, warum die Quelle als entscheidendes Kriterium die
+„gleichzeitig erfolgte Vermögensmehrung des Anteilseigners“ nennt.
+
+**Die Ausnahme für den Alleingesellschafter** ist eingeordnet: Weil er aus eigenen Geschäften nicht
+haftet, entsteht gar kein Anspruch, der vorrangig zu aktivieren wäre – die zweite Stufe entfällt.
+Der Grund ist gesellschaftsrechtlich, er kann sich die Zustimmung selbst erteilen; die Grenze sind
+die Kapitalerhaltungsvorschriften.
+
+**Die Pointe des Abschnitts 1.5.2.3.2** ist im Datensatz in einer Dreijahrestabelle sichtbar
+gemacht: Über beide Jahre bleibt es bei genau **einer** Einkommenskorrektur von + 50.000 € aus 2025;
+die Einbuchung des Anspruchs (Ertrag, nach § 8 Abs. 3 Satz 3 KStG abgezogen) und der spätere
+Verzicht (Aufwand, in analoger Anwendung derselben Vorschrift hinzugerechnet) sind erfolgsneutral.
+Daraus folgt die praktische Antwort auf die naheliegende Gestaltungsidee: Wer eine **Steuerklausel**
+in die Satzung schreibt, um entdeckte verdeckte Gewinnausschüttungen nachträglich ungeschehen zu
+machen, erreicht steuerlich nichts – der Bezug bleibt, die Hinzurechnung bleibt, und obendrein hat
+der Gesellschafter zurückgezahlt.
+
+**Das Einlagekonto** bleibt dabei unverändert, und der Datensatz verknüpft das ausdrücklich mit
+Abschnitt 1.3.2 des Teils III: Einlagen erhöhen den Bestand nur im Jahr des **tatsächlichen
+Zuflusses**; eine bloße Einlageforderung genügt nicht. Hätte A gezahlt, wäre der Bestand um 50.000 €
+gestiegen und bei ihm wären zusätzliche Anschaffungskosten entstanden.
+
+**Die analoge Anwendung des § 8 Abs. 3 Satz 3 KStG beim Verzicht** ist als feine, aber folgerichtige
+Konstruktion erläutert: Die Vorschrift ist ihrem Wortlaut nach eine Abzugsnorm und wird hier in ihr
+Gegenteil verkehrt, weil der spiegelbildliche Vorgang rückabgewickelt wird. Der Datensatz verweist
+auf dieselbe Denkfigur im Teil III, wo die Quelle beim Besserungsschein von der „umgekehrten
+analogen Anwendung“ spricht.
+
+**Wortlautgetreu übernommen und gekennzeichnet:** „Übernahme von Risikogeschäften durch die
+Gesellschaft, deren Nutzen im Bereich des Anteilseigners **liegen**“.
+
+**Noch offen:** aus Teil IV die Abschnitte ab 1.6 (kein Zusammenhang mit einer offenen
+Gewinnausschüttung, Vorteilsgeneigtheit, unbewusste Handlungen, nahe stehende Personen,
+Vorteilsausgleich, Beweislast, Rückgewähr, Schenkungsteuer) sowie die Kapitel 2 bis 6; ganz offen
+sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 1.5.2.1 und 1.5.2.2 – Sonderfälle der Gewinnauswirkung
 
 Quelle: dieselbe Datei, Seiten 9 bis 12; übernommen als Kapitel 5 bis 7. Prüfung:

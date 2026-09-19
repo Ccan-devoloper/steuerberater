@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 7 Kapitel mit 94
-  Abschnitten und 11 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 9 Kapitel mit 133
+  Abschnitten und 13 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -2953,6 +2953,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Hinzurechnung ein Veräußerungsverlust, rechnet § 8b Abs. 3 Satz 3 KStG auch ihn wieder hinzu, so
   dass die Gesellschaft im Ergebnis so dasteht, als wäre der Vorgang vollständig erfolgsneutral
   gewesen.
+  Bei den **Schadensersatzansprüchen der Gesellschaft** entscheidet eine einzige Frage: **Hat sich
+  der Gesellschafter selbst einen Vorteil verschafft?** Beim **„schlampigen Gesellschafter“** lautet
+  die Antwort nein – er hat nur gegen seine Sorgfaltspflichten aus § 43 Abs. 1 GmbHG verstoßen, der
+  Schaden liegt allein bei der Gesellschaft, und deshalb ist der zivilrechtliche Ersatzanspruch
+  **vorrangig zu aktivieren**, notfalls im Wege der Bilanzberichtigung. Er schließt die vGA aus,
+  solange er durchsetzbar ist; sie entsteht erst, wenn die Gesellschaft ausdrücklich verzichtet, den
+  Anspruch verjähren lässt oder er uneinbringlich wird. Maßgeblich ist damit nicht das Schadensjahr,
+  sondern das Jahr des Verzichts – wer den Fall im Schadensjahr löst, kommt zum falschen Ergebnis.
+  Der **Alleingesellschafter-Geschäftsführer** haftet aus eigenen Geschäften ohnehin nicht, weil er
+  sich die Zustimmung selbst erteilen kann; die Grenze sind die Kapitalerhaltungsvorschriften der
+  §§ 30, 31, 43 Abs. 3 GmbHG. Beim **„gierigen Gesellschafter“** lautet die Antwort dagegen ja: Er
+  hat wissentlich und zweckgerichtet Vermögen entzogen, die vGA ist mit dem Grundgeschäft bereits
+  vollzogen, und der Rückforderungsanspruch ist nur noch eine steuerlich unbeachtliche
+  **Einlageforderung**, die zu einer verdeckten Einlage führt. Das gilt ausdrücklich auch für
+  **Satzungs- und Steuerklauseln**, mit denen sich die Gesellschafter zur Rückzahlung entdeckter
+  verdeckter Gewinnausschüttungen verpflichten: Über beide Jahre bleibt es bei genau **einer**
+  Einkommenskorrektur, alles Weitere ist erfolgsneutral – der Bezug beim Gesellschafter bleibt
+  bestehen, die Hinzurechnung bei der Gesellschaft bleibt bestehen, und obendrein hat er
+  zurückgezahlt. Das steuerliche Einlagekonto erhöht sich dabei nur, wenn tatsächlich gezahlt wird;
+  eine bloße Einlageforderung berührt den Bestand nach dem Zuflussprinzip des Teils III nicht.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

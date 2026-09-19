@@ -15,9 +15,11 @@
    Gesellschaftsverhältnis) und 1.5 (Auswirkung auf den Gewinn) übernommen –
    letzterer einschließlich der Sonderfälle zum Erwerb eines
    aktivierungspflichtigen Wirtschaftsguts (1.5.2.1) und zum Verkauf einer
-   Beteiligung (1.5.2.2). Es folgen die Schadensersatzansprüche (1.5.2.3) und
-   die übrigen Abschnitte des Kapitels 1 sowie die Kapitel 2 bis 6; der Campus
-   weist den Stand aus.
+   Beteiligung (1.5.2.2) sowie zu den Schadensersatzansprüchen der Gesellschaft
+   (1.5.2.3 mit dem schlampigen und dem gierigen Gesellschafter). Damit ist der
+   gesamte Abschnitt 1.5 vollständig. Es folgen die übrigen Abschnitte des
+   Kapitels 1 ab 1.6 sowie die Kapitel 2 bis 6; der Campus weist den Stand
+   aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -333,6 +335,105 @@ export const kstTeil4 = [
       { text: "Anmerkung zur Reihenfolge (eigene Ergänzung): Der Abschnitt zeigt eine **zweistufige** Prüfung, die unbedingt in dieser Reihenfolge abzuarbeiten ist. Zuerst stellt § 8 Abs. 3 Satz 2 KStG den Zustand her, der bei angemessenem Preis bestanden hätte; erst auf dieses Ergebnis wird § 8b KStG angewandt. Wer die Reihenfolge umkehrt, hat gar keinen Veräußerungsgewinn, den er freistellen könnte – im Gewinnfall steht in der Buchführung ja nur ein Aufwand von 101.000 €. Die vGA-Korrektur ist damit die Voraussetzung dafür, dass § 8b Abs. 2 KStG überhaupt einen Anknüpfungspunkt hat." },
       { text: "Anmerkung zum Ergebnis des Gewinnfalls (eigene Ergänzung): Bemerkenswert ist, was per Saldo übrig bleibt. Die Hinzurechnung von 500.000 € und die Freistellung von 399.000 € heben sich weitgehend auf; belastet wird die Gesellschaft im Ergebnis mit dem rückgängig gemachten Aufwand von 101.000 € und der Pauschale von 19.950 €. Wirtschaftlich ist das folgerichtig: Hätte sie die Beteiligung zum angemessenen Preis verkauft, wäre der Gewinn von 399.000 € ebenfalls bis auf die Pauschale steuerfrei geblieben – der einzige Unterschied besteht darin, dass sie bei der Verschenkung zusätzlich den Buchwert und die Kosten nicht abziehen darf." },
       { text: "Anmerkung zum Verlustfall (eigene Ergänzung): Er zeigt die schärfste Konsequenz des Abschnitts. Obwohl die Gesellschaft wirtschaftlich einen echten Verlust erleidet – die Beteiligung ist weniger wert, als sie in den Büchern steht –, bleibt davon steuerlich nichts übrig: § 8b Abs. 3 Satz 3 KStG rechnet auch den nach der vGA-Korrektur verbleibenden Verlust wieder hinzu. Die Einkommensauswirkung von insgesamt 301.000 € entspricht damit exakt dem gesamten gebuchten Aufwand. Die Gesellschaft steht also so da, als wäre der Vorgang vollständig erfolgsneutral gewesen – und das ist dieselbe Symmetrie, die der Teil II für die substanzbezogenen Gewinnminderungen entwickelt hat." },
+    ],
+  },
+  {
+    id: "kst-t4-8",
+    kapitel: "8",
+    abschnittNr: "1.5.2.3.1",
+    title: "1.5.2.3.1 Zivilrechtliche Schadensersatzansprüche – der „schlampige Gesellschafter“",
+    thema: "Solange ein durchsetzbarer Schadensersatzanspruch besteht, ist er vorrangig einzubuchen und schließt die vGA aus. Entscheidend ist, dass dem Nachteil der Gesellschaft kein gleichzeitiger Vorteil beim Gesellschafter gegenübersteht",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 1.5.2.3.1 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 43 Abs. 1 GmbHG",
+      "§§ 30, 31, 43 Abs. 3 GmbHG",
+      "H 8.5 KStH „Rechtsverzicht“",
+      "BFH vom 18.12.1996, I R 26/95",
+      "BFH vom 11.01.2011, I B 87/10",
+      "BFH vom 13.11.1996, BFH/NV 1997, 315",
+      "BFH vom 13.11.1996, I R 149/94",
+      "BFH vom 14.09.1994, BStBl. II 1997, 69",
+    ],
+    themen: ["Schadensersatzanspruch", "Vorrang der Aktivierung", "Schlampiger Gesellschafter", "Sorgfaltspflichtverletzung", "Alleingesellschafter"],
+    bloecke: [
+      { text: "Die für die Annahme einer verdeckten Gewinnausschüttung erforderliche verhinderte Vermögensmehrung bzw. Vermögensminderung ist nur dann gegeben, wenn gegenüber dem Anteilseigner kein zivilrechtlicher und daher aktivierungspflichtiger Schadensersatzanspruch besteht. Denn nach Auffassung des BFH ist ein bilanzieller Schadensersatzanspruch immer vorrangig zu erfassen. Dessen Aktivierung schließt dann zunächst auch eine vGA i.S. des § 8 Abs. 3 Satz 2 KStG aus. Entscheidend dafür ist aber, ob es sich" },
+      { text: "– um einen zivilrechtlichen Anspruch gegenüber dem Anteilseigner handelt (Fall des sog. schlampigen Gesellschafters) oder" },
+      { text: "– ob der Anspruch lediglich eine steuerlich unbeachtliche Einlageforderung darstellt (Fall des sog. gierigen Gesellschafters)." },
+      { text: "Zivilrechtliche Schadensersatzansprüche einer Kapitalgesellschaft gegen ihren Gesellschafter-Geschäftsführer schließen die Annahme einer verdeckten Gewinnausschüttung im Sinne des § 8 Abs. 3 Satz 2 KStG aus. Die bloße Nichtgeltendmachung eines Schadensersatzanspruchs führt daher solange nicht zu einer verdeckten Gewinnausschüttung, wie der Anspruch zivilrechtlich fortbesteht und durchsetzbar ist. Das bedeutet, dass die Annahme einer verdeckten Gewinnausschüttung voraussetzt, dass die Kapitalgesellschaft in diesen Fällen ausdrücklich auf die Forderung verzichtet, die Forderung verjähren lässt oder diese uneinbringlich wird." },
+      { text: "Das Rechtsgeschäft, welches zur Entstehung des Anspruchs geführt hat, stellt daher selbst auch noch keine verdeckte Gewinnausschüttung dar. Dem Schadensersatzanspruch ist immer Vorrang einzuräumen, wenn die bei der Gesellschaft eingetretene Gewinnminderung nicht mit einer gleichzeitig erfolgten Vermögensmehrung des Anteilseigners einhergeht. Dies ist der Fall, wenn der Anteilseigner lediglich seine Pflichten als Geschäftsführer verletzt und der Gesellschaft dadurch einen Schaden produziert hat (sog. schlampiger Gesellschafter). Hat der Gesellschafter-Geschäftsführer daher lediglich gegen seine Sorgfaltspflichten i.S. des § 43 Abs. 1 GmbHG verstoßen, d.h. ohne ein eigenes Interesse an der schädigenden Haltung zu haben und ohne sich und eine ihm nahe stehende Person zu begünstigen, kommt eine verdeckte Gewinnausschüttung (zunächst) nicht in Betracht, wenn die GmbH den Schadensersatzanspruch durchsetzt. Ist der Anspruch bisher unberücksichtigt geblieben, muss dies im Wege einer Bilanzberichtigung nachgeholt werden. Die Einbuchung der Schadensersatzforderung gleicht den bisherigen Nachteil der Gesellschaft dann wieder aus." },
+      { text: "Dies ist gerade bei Gesellschafter-Geschäftsführern mehrgliedriger Kapitalgesellschaften bedeutsam, bei denen es beispielhaft in folgenden Fällen zu zivilrechtlichen Schadensersatzansprüchen kommen kann:" },
+      { text: "– Warenverkauf an ein unbekanntes Unternehmen ohne vorherige Bonitätsprüfung;" },
+      { text: "– Darlehensvergabe an unbekannte Geschäftspartner;" },
+      { text: "– Unfall mit einem Betriebs-Pkw auf einer betrieblichen Fahrt, der durch Trunkenheit des Anteilseigners herbeigeführt wurde." },
+      { text: "Ein zivilrechtlicher Schadensersatzanspruch entsteht hingegen nicht, wenn" },
+      { text: "– die Haftung bereits durch den Anstellungsvertrag eingeschränkt bzw. abbedungen worden ist bzw. auf Vorsatz und grobe Fahrlässigkeit beschränkt ist;" },
+      { text: "– die Gesellschaft dem Abschluss des Geschäftes mutmaßlich zugestimmt hätte." },
+      { text: "Anders als der Anteilseigner einer mehrgliedrigen Gesellschaft haftet der Alleingesellschafter-Geschäftsführer nicht aus Geschäften, die er während seiner Stellung als Alleingesellschafter abgeschlossen hat. Etwas anderes gilt nur bei einem Verstoß gegen die Kapitalerhaltungsvorschriften, d.h. wenn dessen fahrlässige Handlungen zu einer Aufzehrung des Stammkapitals geführt haben." },
+      { text: "Beispiel: A ist Gesellschafter-Geschäftsführer der A+B GmbH, an der er selbst zu 50 % beteiligt ist. In 2025 schließt er mit einem ausländischen Geschäftspartner einen Kaufvertrag ab, ohne hingegen die Identität und die Bonität dieses Unternehmers zu überprüfen. Aufgrund dieses Vertrages leistet die A+B GmbH vereinbarungsgemäß einen Betrag von 500.000 €, ohne nachfolgend eine Gegenleistung zu erhalten. Die Rückforderung dieses Betrags beim angeblichen Geschäftspartner bleibt erfolglos." },
+      { text: "Lösung: Die bei der Gesellschaft eingetretene Vermögensminderung führt für sich betrachtet noch nicht zu einer verdeckten Gewinnausschüttung. Denn diese hat nicht gleichzeitig zu einer Vermögensmehrung beim Anteilseigner geführt." },
+      { text: "Es bleibt aber zu prüfen, ob dem Gesellschafter-Geschäftsführer ein pflichtwidriges Verhalten nachgewiesen werden kann. In diesem Fall besitzt die Gesellschaft einen zivilrechtlichen Schadensersatzanspruch gegenüber ihrem Geschäftsführer. Dieser Anspruch wäre vorrangig einzubuchen und würde eine verdeckte Gewinnausschüttung ausschließen. Verzichtet die Gesellschaft auf diesen Anspruch oder unterlässt sie es bis zur zivilrechtlichen Verjährung diesen einzufordern, führt erst dieser Vorgang zu einer verdeckten Gewinnausschüttung." },
+      { typ: "tabelle", spalten: ["Stufe", "Vorgang", "Steuerliche Folge"], zeilen: [
+        ["1", "das schädigende Rechtsgeschäft selbst", "keine vGA – der Nachteil der Gesellschaft geht nicht mit einem Vorteil des Gesellschafters einher"],
+        ["2", "Entstehung des Schadensersatzanspruchs nach § 43 Abs. 1 GmbHG", "vorrangig zu aktivieren, notfalls im Wege der Bilanzberichtigung; der Nachteil ist damit ausgeglichen"],
+        ["3", "Verzicht, Verjährung oder Uneinbringlichkeit des Anspruchs", "erst jetzt eine vGA – der Gesellschafter wird von einer Verbindlichkeit frei"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die drei Stufen zeigen, dass die vGA hier nicht am schädigenden Geschäft anknüpft, sondern am **Unterlassen der Durchsetzung**. Das hat eine praktische Folge, die leicht übersehen wird: Der maßgebliche Veranlagungszeitraum ist nicht das Jahr des Schadens, sondern das Jahr des Verzichts oder des Verjährungseintritts. Wer den Fall im Schadensjahr löst, kommt zum falschen Ergebnis. Und weil die Bilanzberichtigung auf der zweiten Stufe den Nachteil rechnerisch ausgleicht, ist das Ergebnis der Gesellschaft in diesem Jahr überhaupt nicht gemindert – es fehlt damit schon am dritten Tatbestandsmerkmal, der Gewinnauswirkung." },
+      { text: "Anmerkung zum entscheidenden Kriterium (eigene Ergänzung): Der Satz, dem Schadensersatzanspruch sei Vorrang einzuräumen, „wenn die bei der Gesellschaft eingetretene Gewinnminderung nicht mit einer **gleichzeitig erfolgten Vermögensmehrung des Anteilseigners** einhergeht“, ist der Schlüssel zum gesamten Abschnitt und zugleich die Verbindung zum fünften Tatbestandsmerkmal aus 1.2. Wo der Gesellschafter nur schlecht gearbeitet hat, fehlt es an der **Vorteilsgeneigtheit** – ein Zufluss bei ihm ist nicht einmal denkbar. Wo er sich dagegen selbst bereichert hat, ist der Vorteil bereits eingetreten, und dann hilft ihm kein Ersatzanspruch mehr; das ist der Gegenstand des folgenden Abschnitts." },
+      { text: "Anmerkung zum Alleingesellschafter (eigene Ergänzung): Die Ausnahme ist in der Klausur ergebnisrelevant und wird gern übersehen. Weil der Alleingesellschafter-Geschäftsführer aus seinen eigenen Geschäften grundsätzlich **nicht haftet**, entsteht bei ihm gar kein zivilrechtlicher Anspruch, der vorrangig zu aktivieren wäre – die zweite Stufe der Tabelle entfällt also. Der Grund ist gesellschaftsrechtlich: Er kann sich die Zustimmung selbst erteilen und damit die Pflichtverletzung heilen. Die einzige Grenze sind die **Kapitalerhaltungsvorschriften** der §§ 30, 31, 43 Abs. 3 GmbHG: Wo das Stammkapital angegriffen wird, kann er sich nicht mehr selbst entlasten. Dieselbe Überlegung trägt auch die beiden Fälle, in denen schon bei mehrgliedrigen Gesellschaften kein Anspruch entsteht – eine vertraglich abbedungene Haftung und die mutmaßliche Zustimmung." },
+    ],
+  },
+  {
+    id: "kst-t4-9",
+    kapitel: "9",
+    abschnittNr: "1.5.2.3.2",
+    title: "1.5.2.3.2 Einlageforderungen – der „gierige Gesellschafter“ und die Satzungsklausel",
+    thema: "Hat der Gesellschafter sich selbst bereichert, liegt die vGA bereits im Grundgeschäft. Der Rückforderungsanspruch ist dann nur eine steuerlich unbeachtliche Einlageforderung – auch wenn die Satzung ihn ausdrücklich vorsieht",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 1.5.2.3.2 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8 Abs. 3 Satz 3 KStG",
+      "§ 17 Abs. 2a Satz 3 Nr. 1 EStG",
+      "§ 6 Abs. 6 Satz 2 EStG",
+      "H 8.5 KStH „Erstattungsanspruch“",
+      "H 8.9 KStH „Rückgewähr einer verdeckten Gewinnausschüttung“",
+      "BFH vom 23.05.1984, BStBl. II 1984, 723",
+      "BFH vom 29.04.1987, BStBl. II 1987, 733",
+      "BFH vom 29.05.1996, BStBl. II 1997, 92",
+      "BFH vom 06.08.1981, BStBl. II 1981, 599",
+      "BFH vom 25.05.2004, VIII R 4/01",
+      "BMF vom 04.06.2003, BStBl. I 2003, 366, Tz. 26",
+      "BMF vom 20.05.2003, BStBl. I 2003, 333",
+    ],
+    themen: ["Einlageforderung", "Gieriger Gesellschafter", "Satzungsklausel", "Keine Rückgängigmachung", "Zuflussprinzip"],
+    bloecke: [
+      { text: "Etwas anderes gilt, wenn die Schadensersatzforderung lediglich eine Einlageforderung darstellt, weil sie dann tatbestandlich der Rückgängigmachung einer verdeckten Gewinnausschüttung dienen soll (siehe auch unter 1.8). Dadurch erhält die Gesellschaft den durch das ursprüngliche Rechtsgeschäft entstandenen Vermögensnachteil zurück. Die diesem Vorgang vorgeschaltete vGA wird steuerlich dadurch aber nicht beseitigt." },
+      { text: "In diesem Fall führt bereits das der Schadensersatzforderung zugrunde liegende Rechtsgeschäft zu einer verdeckten Gewinnausschüttung. Die daraus reflexartig resultierende Einlageforderung ist ein der vGA nachfolgender Sachverhalt und führt zu einer verdeckten Einlage. Wird die Einlageforderung erfolgswirksam eingebucht, ist der Ertrag nach § 8 Abs. 3 Satz 3 KStG wieder abzuziehen. Sofern der Anteilseigner die Forderung tatsächlich begleicht, entsteht aufgrund des Zuflusses der Einlage zudem ein Zugang beim steuerlichen Einlagekonto. Beim Anteilseigner entstehen – im Falle der Rückzahlung – daraus zusätzliche Anschaffungskosten seiner Beteiligung (z.B. nach § 17 Abs. 2a Satz 3 Nr. 1 EStG oder § 6 Abs. 6 Satz 2 EStG)." },
+      { text: "Der Verzicht auf diese Schadensersatzforderung (d.h. Einlageforderung) löst keine weitere verdeckte Gewinnausschüttung aus, da die Einlageforderung steuerlich bereits unbeachtlich ist. Der damit zusammenhängende Aufwand wird daher, korrespondierend zum Ertrag, außerbilanziell wieder hinzugerechnet." },
+      { text: "Zu einer steuerlich unbeachtlichen Einlageforderung kommt es immer dann, wenn der Anteilseigner seiner Gesellschaft aufgrund der von ihm beeinflussten vertraglichen Gestaltung wissentlich und zweckgerichtet Vermögen entzieht und er oder seine nahe stehende Person dadurch bereits einen eigenen Vermögensvorteil erzielt (sog. gieriger Gesellschafter). Dies wäre z.B. in folgenden Fällen erfüllt:" },
+      { text: "– Vereinnahmung von der Gesellschaft zustehenden Forderungen, z.B. auch im Zusammenhang mit Schmiergeldzahlungen an den Gesellschafter-Geschäftsführer;" },
+      { text: "– Übernahme von Risikogeschäften durch die Gesellschaft, deren Nutzen im Bereich des Anteilseigners liegen; (Die Form „liegen“ steht so in der Quelle.)" },
+      { text: "– Langjährige Verlusttätigkeiten der Gesellschaft, die im Interesse des Anteilseigners erfolgen;" },
+      { text: "– Überhöhte Leistungsentgelte oder verbilligte Leistungen der Gesellschaft an nahe stehende Personen des Anteilseigners;" },
+      { text: "– Warenlieferung zu überhöhten Rabatten an die Anteilseigner oder diesem nahe stehenden Personen." },
+      { text: "Zu solchen Einlageforderungen kommt es insbesondere auch in Fällen sog. Satzungs- oder Steuerklauseln. Danach verpflichten sich die Anteilseigner den von der Gesellschaft erhaltenen Vermögensvorteil an die Gesellschaft zurückzuzahlen, wenn dieser auf einer verdeckten Gewinnausschüttung beruht. Auch wenn dies gesellschaftsvertraglich geregelt ist, führen die daraus resultierenden Ansprüche zu steuerlich unbeachtlichen Einlageforderungen. Gleiches gilt, wenn der Anteilseigner den Vermögensvorteil auf freiwilliger Basis zurückzahlt." },
+      { text: "Beispiel: A erwirbt von seiner A-GmbH in 2025 Waren zu einem Kaufpreis von 50.000 €. Der angemessene Veräußerungspreis hätte 100.000 € betragen, welchen A durch einen großzügigen Preisnachlass reduzieren konnte. Lt. Gesellschaftsvertrag müssen die Anteilseigner verdeckte Gewinnausschüttungen an die Gesellschaft zurückzahlen. Nachdem im Rahmen einer Betriebsprüfung die verdeckte Gewinnausschüttung festgestellt worden ist und nach § 8 Abs. 3 Satz 2 KStG hinzugerechnet wurde, bucht die A-GmbH aufgrund einer im Gesellschaftsvertrag enthaltenen Satzungsklausel wie folgt: Forderung A an Ertrag 50.000 €. Auf den Anspruch verzichtet die A-GmbH in 2026 erfolgswirksam." },
+      { text: "Lösung: Bei der Gesellschaft ist die verdeckte Gewinnausschüttung im VZ 2025 nach § 8 Abs. 3 Satz 2 KStG dem Einkommen mit 50.000 € hinzuzurechnen." },
+      { text: "Daran ändert auch die Auswirkung der Satzungsklausel nichts, da schon die verbilligte Lieferung zu einer verdeckten Gewinnausschüttung geführt hat. Der Anteilseigner hat dadurch einen Vermögensvorteil erhalten. Die Einbuchung des Ersatzanspruchs stellt daher lediglich eine Einlageforderung dar, wodurch die verdeckte Gewinnausschüttung aber nicht beseitigt werden kann. Diese Forderung führt daher zu einer verdeckten Einlage, so dass der Ertrag nach § 8 Abs. 3 Satz 3 KStG wieder außerbilanziell abzuziehen ist. Das steuerliche Einlagekonto ist nicht zu erhöhen, da der Gesellschaft die Einlage nicht zugeflossen ist." },
+      { text: "Der Verzicht auf die Einlageforderung in 2026 löst keine verdeckte Gewinnausschüttung aus, da es sich um eine steuerlich unbeachtliche Einlageforderung handelt. Der Aufwand wird aber außerbilanziell wieder hinzugerechnet (analoge Anwendung des § 8 Abs. 3 Satz 3 KStG), da sich auch schon der Ertrag nicht ausgewirkt hat." },
+      { typ: "tabelle", spalten: ["Jahr", "Vorgang", "Bilanziell", "Außerbilanziell", "Steuerliches Einlagekonto"], zeilen: [
+        ["2025", "verbilligte Warenlieferung", "der Ertrag ist um 50.000 € zu niedrig", "+ 50.000 € nach § 8 Abs. 3 Satz 2 KStG", "unverändert"],
+        ["2025", "Einbuchung des Anspruchs aus der Satzungsklausel", "Ertrag 50.000 € (Forderung A an Ertrag)", "./. 50.000 € nach § 8 Abs. 3 Satz 3 KStG", "unverändert – kein Zufluss"],
+        ["2026", "Verzicht auf den Anspruch", "Aufwand 50.000 €", "+ 50.000 € in analoger Anwendung des § 8 Abs. 3 Satz 3 KStG", "unverändert"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die drei Zeilen zeigen die Pointe des Abschnitts in Zahlen. Über beide Jahre hinweg bleibt es bei genau **einer** Einkommenskorrektur von + 50.000 € aus dem Jahr 2025; alles, was danach kommt, ist erfolgsneutral. Die Satzungsklausel ändert also nichts – weder zugunsten noch zulasten der Gesellschaft. Das ist die Antwort auf die naheliegende Gestaltungsidee: Wer eine Steuerklausel in die Satzung schreibt, um entdeckte verdeckte Gewinnausschüttungen nachträglich ungeschehen zu machen, erreicht steuerlich nichts. Der Bezug beim Gesellschafter bleibt bestehen, die Hinzurechnung bei der Gesellschaft bleibt bestehen – und obendrein hat er zurückgezahlt." },
+      { text: "Anmerkung zum Einlagekonto (eigene Ergänzung): Der Schlusssatz der Lösung ist die unmittelbare Anwendung dessen, was der Teil III im Abschnitt 1.3.2 festgehalten hat: Einlagen erhöhen das steuerliche Einlagekonto **nur im Jahr des tatsächlichen Zuflusses**; eine bloß gegenüber dem Gesellschafter ausgewiesene Einlageforderung berührt den Bestand noch nicht. Hier wird nie gezahlt, sondern verzichtet – das Einlagekonto bleibt deshalb über beide Jahre unverändert. Hätte A tatsächlich gezahlt, wäre der Bestand um 50.000 € gestiegen und bei ihm wären zusätzliche Anschaffungskosten entstanden." },
+      { text: "Anmerkung zur Abgrenzung der beiden Gesellschaftertypen (eigene Ergänzung): Die Quelle stellt die Begriffe „schlampiger“ und „gieriger Gesellschafter“ nebeneinander, ohne sie ausdrücklich zu vergleichen; der Unterschied lässt sich aber auf eine einzige Frage bringen – **hat der Gesellschafter sich selbst einen Vorteil verschafft?** Beim schlampigen Gesellschafter lautet die Antwort nein: Er hat nur schlecht gearbeitet, der Schaden liegt allein bei der Gesellschaft, und deshalb ist der zivilrechtliche Ersatzanspruch vorrangig und schließt die vGA aus. Beim gierigen Gesellschafter lautet sie ja: Er hat wissentlich und zweckgerichtet Vermögen entzogen, die vGA ist mit dem Grundgeschäft bereits vollzogen, und der Rückforderungsanspruch ist nur noch eine Einlageforderung. Die Merkmale der Quelle für den zweiten Fall – „wissentlich und zweckgerichtet“ – sind dabei subjektiv, was die Abgrenzung in der Praxis zu einer Beweisfrage macht." },
+      { text: "Anmerkung zur analogen Anwendung beim Verzicht (eigene Ergänzung): Dass der Aufwand aus dem Verzicht in **analoger** Anwendung des § 8 Abs. 3 Satz 3 KStG hinzugerechnet wird, ist eine feine, aber folgerichtige Konstruktion. Die Vorschrift ist ihrem Wortlaut nach eine Abzugsnorm für verdeckte Einlagen – hier wird sie in ihr Gegenteil verkehrt, weil der spiegelbildliche Vorgang rückabgewickelt wird. Die Begründung der Quelle ist dabei die Symmetrie: Weil sich schon der Ertrag aus der Einbuchung nicht ausgewirkt hat, darf sich auch der Aufwand aus dem Verzicht nicht auswirken. Dieselbe Denkfigur ist im Teil III beim Besserungsschein begegnet, wo die Quelle von der „umgekehrten analogen Anwendung“ des § 8 Abs. 3 Satz 3 KStG spricht." },
     ],
   },
 ];
