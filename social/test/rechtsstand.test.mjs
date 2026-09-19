@@ -73,6 +73,19 @@ test("wirtschaftliches Eigentum bei Miete ist nicht absolut ausgeschlossen", () 
 
 
 
+
+test("§122a-AO-Modul bildet Übergang 2026 und Regelfall 2027 ab", () => {
+  const t = byId("ao-modul-ao-313");
+  assert.match(kern(t), /vierten Tag nach der Bereitstellung/);
+  assert.match(kern(t), /Benachrichtigung.*Hinweisfunktion/);
+  assert.match(kern(t), /Übergang 2026/);
+  const auftrag2027 = rechtsstandAuftrag(t, new Date("2027-02-01T12:00:00Z"));
+  assert.match(auftrag2027, /Rechtsstand 2027/);
+  assert.match(auftrag2027, /ohne vorherige Einwilligung/);
+  assert.match(auftrag2027, /Rechtsstand 2026/);
+  assert.match(auftrag2027, /Übergangsjahr/);
+});
+
 test("Außenprüfungsmodul nutzt neue §171-Abs.4-Fünfjahresgrenze", () => {
   const t = byId("ao-modul-ao-335");
   assert.match(kern(t), /nach dem 31\.12\.2024/);
