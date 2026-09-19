@@ -10620,6 +10620,51 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.4.1 und 3.4.2 – Begriff der Mehr- und Minderabführung, Minderabführung
+
+Übernommen sind die Seiten 63 bis 66 der Quelle: die bilanziellen Abweichungen als
+Grundtatbestand (3.4.1.1), die abweichende BFH-Rechtsprechung mit beiden Urteilen
+(3.4.1.2) und die Minderabführung mit zwei Beispielen (3.4.2). Der Datensatz umfasst
+damit 50 Kapitel mit 827 Abschnitten und 66 Tabellen; geprüft mit
+`npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** § 14 Abs. 4 Satz 6 KStG stellt allein auf die rechnerische
+Differenz zwischen Handels- und Steuerbilanz ab; ein Vermögenstransfer ist nicht
+erforderlich, außerbilanzielle Korrekturen bleiben außer Betracht. Der BFH verlangt
+demgegenüber eine Auswirkung auf das Einkommen (Urteil vom 29.08.2012, § 15a-Verlust),
+bejaht beim Ertragszuschuss aber umgekehrt eine Mehrabführung (Urteil vom 15.03.2017);
+die Finanzverwaltung hat insoweit 2024 nachgegeben. Bei der Minderabführung ist die
+Gewinnabführung geringer als der steuerbilanzielle Gewinn – Ursache ist entweder die
+Gewinnverwendung (Rücklagen) oder eine abweichende handelsrechtliche Bewertung.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.4.1.2 schreibt „weil sich der Verlust … spätestens bei Veräußerung
+  desselben ausgewirkt würde“; sprachlich richtig wäre „auswirken würde“.
+- Abschnitt 3.4.1.2 formuliert „Die Urteilsgrundsätze sind aber nur eingeschränkt
+  anzuwenden, wenn die tatsächliche Fallgestaltung dem Urteilsfall entspricht“. Der
+  Satz ist in sich widersprüchlich: Eine Anwendung ist gerade dann geboten, wenn die
+  Fallgestaltung entspricht. Gemeint ist ersichtlich „nur dann, wenn“.
+- Abschnitt 3.4.2 schreibt „Gleiches gilt auch in Verlustfällen, bei welcher umgekehrt
+  …“; gemeint ist „in denen“.
+- Die Lösung des ersten Beispiels leitet mit „zum einen“ ein, ohne dass ein
+  „zum anderen“ folgt.
+
+**Eigene Nachrechnung.** Beide Beispiele gehen auf. Erster Fall: 0 € Bilanzgewinn +
+900.000 € gebuchte Abführung + 100.000 € Rücklagenzuführung = 1.000.000 €
+Steuerbilanzgewinn; abzüglich der Abführung von 900.000 € verbleibt eine Minderabführung
+von 100.000 € – genau der Betrag der Rücklage. Zweiter Fall: 10.000.000 € + 500.000 €
+Auflösung der Drohverlustrückstellung = 10.500.000 € Steuerbilanzgewinn; Differenz zur
+Abführung 500.000 € – genau der Betrag der Rückstellung. In beiden Fällen entspricht die
+Minderabführung unmittelbar dem Posten, der die Bilanzen auseinandertreten lässt.
+
+**Hinweis zum Zeitablauf beim Ertragszuschuss.** Die Fundstellen verdienen einen zweiten
+Blick und sind im Datensatz eigens erläutert: Das BFH-Urteil datiert vom 15.03.2017, ist
+aber erst 2024 im Bundessteuerblatt veröffentlicht worden (BStBl. II 2024, 571); die
+Finanzverwaltung hat ihre abweichende Auffassung erst mit BMF-Schreiben vom 04.07.2024
+aufgegeben, und ausdrücklich nur für den Ertragszuschuss. Der Streit ist damit punktuell
+entschieden, nicht grundsätzlich.
+
 ### KSt Teil VI (Hamacher), Abschnitt 3.3.6 – § 8d KStG bei Organschaft
 
 Übernommen sind die Seiten 61 bis 63 der Quelle: der Ausschluss beim Organträger

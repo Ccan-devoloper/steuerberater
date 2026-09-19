@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 47 Kapitel mit 784 Abschnitten und 62 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 50 Kapitel mit 827 Abschnitten und 66 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5224,6 +5224,50 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   gefährdet und unterliegt nun zusätzlich § 8d Abs. 2 KStG – **doppelt gebunden**, ohne in dieser Zeit
   Nutzen zu stiften. Der Antrag lohnt gleichwohl, weil der gerettete laufende Verlust beim Organträger
   **sofort** verwendbar ist. Damit sind die Auswirkungen beim Organträger vollständig abgebildet.
+  Die **Mehr- und Minderabführungen** haben ihre Wurzel im Gewinnabführungsvertrag selbst, und die
+  Quelle benennt sie gleich im ersten Absatz: Abgeführt wird der **handelsrechtliche** Gewinn,
+  zugerechnet wird das **steuerliche** Einkommen – zwei Größen, die praktisch **nie** übereinstimmen.
+  Die Differenz ist deshalb kein Ausnahmefall und kein Fehler, sondern die zwangsläufige Folge der
+  Zweigleisigkeit von Handels- und Steuerbilanz; genau darum braucht es mit § 14 Abs. 4 KStG eine
+  eigene Rechtsgrundlage für ihre Behandlung. **§ 14 Abs. 4 Satz 6 KStG** stellt dabei allein auf die
+  **rechnerische Differenz zwischen Handels- und Steuerbilanz** ab. Ein **tatsächlicher
+  Vermögenstransfer** in dieser Höhe ist **nicht** erforderlich, und **außerbilanzielle** Korrekturen
+  bleiben außer Betracht – der wichtigste Merksatz des Abschnitts, der sich leicht erklärt: Eine nicht
+  abziehbare Betriebsausgabe steht in der Handels- **wie** in der Steuerbilanz als Aufwand und mindert
+  beide gleichermaßen; erst die Einkommensermittlung rechnet sie hinzu. Zwischen den **Bilanzen**
+  besteht also gar keine Differenz, und nur auf diese kommt es an.
+  Genau dort setzt die **abweichende BFH-Rechtsprechung** an, und der Streit lässt sich auf eine Frage
+  zuspitzen: Genügt die **Bilanz**differenz, oder muss auch die **Einkommens**differenz bestehen? Die
+  Verwaltung liest § 14 Abs. 4 Satz 6 KStG als **abschließende** Definition und kommt mit dem rein
+  rechnerischen Vergleich aus; der BFH verlangt zusätzlich, dass sich die Differenz **steuerlich
+  auswirkt**. Im Urteilsfall von 2012 war ein Verlust aus einem Mitunternehmeranteil steuerbilanziell
+  nach der **Spiegelbildmethode** gewinnmindernd erfasst, durch **§ 15a EStG** aber außerbilanziell
+  wieder hinzugerechnet worden – auf das Einkommen bezogen blieb also nichts übrig, und der BFH
+  verneinte die Mehrabführung. Die Grundsätze sind nach dem BMF-Schreiben von 2013 jedoch **nicht zu
+  verallgemeinern**: Geklärt ist allein der „§ 15a-Verlust“, sonst bleibt es beim bilanziellen
+  Maßstab. Beim **Ertragszuschuss** schlägt der BFH 2017 die **Gegenrichtung** ein und bejaht eine
+  Mehrabführung, wo die Verwaltung sie verneinte. Der Vorgang läuft in zwei Schritten: Der Zuschuss
+  ist zunächst eine **verdeckte Einlage**, erhöht also das Einlagekonto und bleibt einkommensneutral
+  (Organeinkommen 0 €), und wird anschließend über die **Gewinnabführung** an den Organträger
+  zurückgereicht. Ohne die Mehrabführung bliebe das **Einlagekonto** dauerhaft erhöht, obwohl bei der
+  Organgesellschaft „im Saldo kein Vermögensvorteil geblieben“ ist – § 27 Abs. 6 KStG stellt das
+  richtig; tragender Gedanke ist die **Einmalbesteuerung**. Bemerkenswert ist der Zeitablauf: Das
+  Urteil stammt von 2017, wurde aber erst **2024** im Bundessteuerblatt veröffentlicht, und die
+  Verwaltung hat ihre Auffassung erst mit dem BMF-Schreiben vom 04.07.2024 aufgegeben, ausdrücklich
+  nur „was die Handhabung des Ertragszuschusses angeht“.
+  Die Richtung der Abweichung merkt man sich an einer einzigen Frage: **Wo bleibt Vermögen zurück?**
+  Bei der **Minderabführung** führt die Organgesellschaft **weniger** ab, als sie steuerlich verdient
+  hat, so dass Vermögen **bei ihr** bleibt. Die Quelle nennt drei Fallgruppen, die sich sauber in zwei
+  Gruppen trennen lassen. Die ersten beiden betreffen die **Gewinnverwendung** – Einstellungen in die
+  gesetzliche Rücklage (§ 300 Nr. 1 AktG) oder in zulässige Gewinnrücklagen (§ 14 Abs. 1 Nr. 4 KStG)
+  mindern die Abführung, nicht aber den steuerlichen Gewinn; hier knüpft der Abschnitt unmittelbar an
+  die Abführungssperren an. Die dritte betrifft die **Bewertung**: Wo Handels- und Steuerbilanz
+  auseinanderfallen, entsteht die Differenz von selbst, ohne dass jemand etwas zurückbehält – die
+  **Drohverlustrückstellung** ist dafür der Standardfall und zugleich die Kehrseite des
+  Passivierungsverbots, an dem dieselbe Rückstellung beim Organträger scheiterte. In beiden Beispielen
+  entspricht die Minderabführung genau dem Posten, der die Bilanzen auseinandertreten lässt: 100.000 €
+  Rücklage im ersten, 500.000 € Rückstellung im zweiten Fall. Beide Rechnungen sind unabhängig
+  nachgerechnet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

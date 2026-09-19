@@ -36,9 +36,14 @@
      dem Erwerb mit Ablauf des Wirtschaftsjahres (3.3.5) sowie § 8d KStG bei
      Organträger und Organgesellschaft (3.3.6). Damit sind die Auswirkungen
      beim Organträger VOLLSTÄNDIG übernommen.
+   - aus den organschaftlichen Mehr- und Minderabführungen die
+     Begriffsbestimmung mit den bilanziellen Abweichungen und der
+     abweichenden BFH-Rechtsprechung (3.4.1) sowie die Minderabführung
+     (3.4.2).
 
-   Es folgen die Mehr- und Minderabführungen (3.4,
-   3.5), die verunglückte Organschaft (3.6) sowie Kapitel 4 zur
+   Es folgen die Mehrabführung (3.4.3) und die weiteren Abschnitte zu den
+   Mehr- und Minderabführungen (3.4.4 bis 3.4.6, 3.5), die verunglückte
+   Organschaft (3.6) sowie Kapitel 4 zur
    gewerbesteuerlichen Organschaft. Der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
@@ -2402,6 +2407,141 @@ export const kstTeil6 = [
       { text: "Anmerkung zum doppelten Gewinn des Antrags (eigene Ergänzung): Der Antrag der Organgesellschaft wirkt an **zwei** Stellen, und die zweite ist die überraschendere. Erstens rettet er den **laufenden** Verlust von 500.000 €, der sonst bei ihr untergegangen wäre; er fließt als Teil des Organeinkommens zum Organträger und erhöht dessen Verlustfeststellung von 1.000.000 € auf 1.500.000 € – die Differenz von genau 500.000 € ist die rechnerische Probe. Zweitens rettet er den **vororganschaftlichen** Verlust von 300.000 €, der sonst ersatzlos verloren gewesen wäre. Und das Bemerkenswerteste: Der beim Organträger ankommende Verlust ist **nicht fortführungsgebunden**, weil § 8d KStG dort gar nicht anwendbar ist. Der Antrag der Organgesellschaft verschafft dem Organträger also **ungebundenes** Verlustpotential – die Bindung bleibt allein am vororganschaftlichen Restbestand der Organgesellschaft hängen." },
       { text: "Anmerkung zum tragenden Zeitargument (eigene Ergänzung): Warum der unterjährige Verlust vollständig gerettet wird, erklärt ein einziger Halbsatz der Quelle: Für Zwecke des § 8d KStG ist auf den Verlust **zum Ende des Wirtschaftsjahres** abzustellen. § 8c KStG greift also auf den Stand im **Erwerbszeitpunkt** zu, § 8d KStG dagegen auf den Stand am **Bilanzstichtag** – und weil er den § 8c-Untergang verdrängt, bleibt der gesamte Jahresverlust erhalten. Dieselbe Unterscheidung zwischen Zeitpunkt und Stichtag prägt schon die Abschnitte 3.3.2 und 3.3.5: Sie ist der rote Faden durch den ganzen Abschnitt 3.3." },
       { text: "Anmerkung zur Lage des eingefrorenen Verlustes (eigene Ergänzung): Der Abschnitt vervollständigt das Bild aus Abschnitt 3.2.4.1. Ein vororganschaftlicher Verlust der Organgesellschaft ist während der Organschaft **nicht nutzbar** (§ 15 Satz 1 Nr. 1 KStG), bleibt aber durch § 8c KStG **gefährdet** – und wenn er über § 8d KStG gerettet wird, tritt mit § 8d Abs. 2 KStG eine **zweite** Gefährdung hinzu. Er ist dann **doppelt gebunden**: eingefroren und zugleich an die Fortführung des Geschäftsbetriebs gekettet, ohne in dieser Zeit irgendeinen Nutzen zu stiften. Wirtschaftlich lohnt der Antrag gleichwohl, weil er den laufenden Verlust rettet, der beim Organträger **sofort** verwendbar ist." },
+    ],
+  },
+  {
+    id: "kst-t6-48",
+    kapitel: "48",
+    abschnittNr: "3.4.1.1",
+    title: "3.4.1.1 Mehr- und Minderabführungen – bilanzielle Abweichungen",
+    thema: "§ 14 Abs. 4 Satz 6 KStG stellt allein auf die rechnerische Differenz zwischen Handels- und Steuerbilanz ab; ein tatsächlicher Vermögenstransfer ist nicht erforderlich, außerbilanzielle Korrekturen bleiben außer Betracht",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.1.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 4 KStG",
+      "§ 14 Abs. 4 Satz 6 KStG",
+      "§ 14 KStG",
+      "§ 301 AktG",
+      "§ 302 AktG",
+      "BFH vom 06.06.2013, BStBl. II 2014, 398",
+    ],
+    themen: ["Mehrabführung", "Minderabführung", "bilanzielle Abweichung", "Vermögenstransfer", "außerbilanzielle Korrektur"],
+    bloecke: [
+      { typ: "titel", text: "3.4 Organschaftliche Mehr- oder Minderabführungen" },
+      { typ: "titel", text: "3.4.1 Begriffsbestimmung" },
+      { typ: "titel", text: "3.4.1.1 Bilanzielle Abweichungen" },
+      { text: "**§ 14 KStG** rechnet dem Organträger das Organeinkommen **unabhängig** von der Höhe der handelsrechtlichen Gewinnabführung i.S. des § 301 AktG bzw. Verlustübernahme i.S. des § 302 AktG zu. Denn das Organeinkommen ermittelt sich **ausschließlich nach steuerlichen Vorschriften**, wofür die handelsrechtlichen Ergebnisse lediglich als **Ausgangswert** dienen. Der Organträger versteuert danach **das Organeinkommen**, nicht aber die handelsrechtliche Gewinnabführung bzw. Verlustübernahme." },
+      { text: "In **nahezu allen** denkbaren Fällen bestehen zwischen der handelsrechtlichen Gewinnabführung und dem steuerbilanziellen Gewinn aber **immer Abweichungen**, welche dann steuerlich zu **Mehr- oder Minderabführungen** führen. Für die steuerlichen Auswirkungen, die sich daraus beim Organträger ergeben können, ist **§ 14 Abs. 4 KStG** die maßgebliche Rechtsgrundlage." },
+      { text: "**§ 14 Abs. 4 Satz 6 KStG** definiert dafür den Begriff der Mehr- und Minderabführung und stellt dabei „insbesondere“ nur auf **rein bilanzielle Abweichungen** ab, d.h. maßgebend ist lediglich die **rechnerische Differenz zwischen Handels- und Steuerbilanz**. Ein **tatsächlicher Vermögenstransfer** in Höhe dieser Wertdifferenz ist hingegen **nicht erforderlich** (vergleichend dazu BFH vom 06.06.2013, BStBl. II 2014, 398). Dies gilt umgekehrt auch in Fällen der Verlustübernahme." },
+      { text: "Minder- und Mehrabführungen haben somit gemeinsam, dass diese **nur aus Abweichungen zwischen der Handels- und Steuerbilanz** resultieren können (zur abweichenden Rechtsprechung siehe unter 3.4.1.2). Daher können insbesondere **nicht abziehbare Betriebsausgaben** oder **steuerfreie Einnahmen**, die lediglich **außerbilanziell** im Rahmen der Einkommensermittlung hinzu- oder abgerechnet werden, diesen Tatbestand **nicht beeinflussen**. Dies ist folgerichtig, weil in dieser Situation die handelsbilanzielle Gewinnabführung und der steuerbilanzielle Gewinn nach der Grundaussage des § 14 Abs. 4 Satz 6 KStG auch **wieder übereinstimmen**." },
+      { typ: "tabelle", spalten: ["Vorgang", "Mehr- oder Minderabführung?"], zeilen: [
+        ["Abweichung zwischen Handels- und Steuerbilanz", "ja – allein darauf kommt es an"],
+        ["tatsächlicher Vermögenstransfer in dieser Höhe", "nicht erforderlich"],
+        ["nicht abziehbare Betriebsausgaben (außerbilanzielle Hinzurechnung)", "nein – die Bilanzen stimmen überein"],
+        ["steuerfreie Einnahmen (außerbilanzielle Kürzung)", "nein – ebenso"],
+        ["Fall der Verlustübernahme", "dieselben Grundsätze, nur mit umgekehrtem Vorzeichen"],
+      ] },
+      { text: "Anmerkung zum Ursprung der Mehr- und Minderabführungen (eigene Ergänzung): Der erste Absatz benennt die **Wurzel** des gesamten Abschnitts 3.4, die schon im Gewinnabführungsvertrag angelegt ist. Abgeführt wird der **handelsrechtliche** Gewinn, zugerechnet wird das **steuerliche** Einkommen – zwei Größen, die praktisch **nie** übereinstimmen. Die Differenz ist kein Ausnahmefall, sondern der Normalfall, und genau deshalb braucht es eine eigene Rechtsgrundlage für ihre Behandlung. Mehr- und Minderabführungen sind also nicht Ausdruck eines Fehlers, sondern die zwangsläufige Folge der Zweigleisigkeit von Handels- und Steuerbilanz." },
+      { text: "Anmerkung zur Beschränkung auf die Bilanz (eigene Ergänzung): Dass **außerbilanzielle** Korrekturen ausscheiden, ist der wichtigste Merksatz des Abschnitts und erklärt sich aus einem einfachen Gedanken. Eine nicht abziehbare Betriebsausgabe mindert **beide** Bilanzen gleichermaßen – sie steht in der Handels- wie in der Steuerbilanz als Aufwand; erst die Einkommensermittlung rechnet sie hinzu. Zwischen den **Bilanzen** besteht also gar keine Differenz, und nur auf diese kommt es an. Wer dagegen die **Einkommens**wirkung prüft, gelangt zu einem anderen Ergebnis – und genau dort setzt die abweichende Rechtsprechung des folgenden Abschnitts an." },
+    ],
+  },
+  {
+    id: "kst-t6-49",
+    kapitel: "49",
+    abschnittNr: "3.4.1.2",
+    title: "3.4.1.2 Abweichende BFH-Rechtsprechung zu Mehr- und Minderabführungen",
+    thema: "Der BFH verlangt zusätzlich eine Auswirkung auf das Einkommen; beim Ertragszuschuss des Organträgers bejaht er dagegen eine Mehrabführung – die Finanzverwaltung hat insoweit nachgegeben",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.1.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 4 Satz 6 KStG",
+      "§ 14 Abs. 4 KStG",
+      "§ 27 Abs. 6 KStG",
+      "§ 15a EStG",
+      "§ 4 Abs. 6 UmwStG",
+      "BFH vom 29.08.2012, BStBl. II 2013, 555",
+      "BFH vom 15.03.2017, BStBl. II 2024, 571",
+      "BMF vom 15.07.2013, BStBl. I 2013, 921",
+      "BMF vom 04.07.2024, BStBl. I 2024, 1101",
+      "BT-Drucks. 16/7036, S. 20",
+    ],
+    themen: ["BFH-Rechtsprechung", "Einkommensauswirkung", "Spiegelbildmethode", "§ 15a EStG-Verlust", "Ertragszuschuss", "Einmalbesteuerung"],
+    bloecke: [
+      { typ: "titel", text: "3.4.1.2 Abweichende BFH-Rechtsprechung" },
+      { text: "Der BFH hat in seinem Urteil vom 29.08.2012 (BStBl. II 2013, 555) den Tatbestand der Mehr- oder Minderabführungen hingegen **nur auf solche Sachverhalte beschränkt**, bei denen die bilanzielle Differenz auch **auf das steuerliche Einkommen bezogen** zu einer Abweichung geführt hat. Damit erteilt der BFH der Verwaltungsauffassung eine **Absage**, wonach § 14 Abs. 4 Satz 6 KStG eine **abschließende** Regelung darstellen sollte. Nach dieser Auffassung wäre eine Mehr- oder Minderabführung danach bereits **ausgeschlossen**, wenn die bilanzielle Differenz im Rahmen der Einkommensermittlung wieder **beseitigt** würde (z.B. durch § 15a EStG oder § 4 Abs. 6 UmwStG)." },
+      { text: "Dem Urteilsfall lag dabei die Behandlung eines **Verlustes** zugrunde, den die Organgesellschaft aus einem **Mitunternehmeranteil (KG)** erzielte. Dieser Verlust wirkte sich auf die handelsbilanzielle Gewinnabführung **nicht** aus, weil sich der Verlust aus dem als Wirtschaftsgut anzusehenden Personengesellschaftsanteil spätestens bei Veräußerung desselben **ausgewirkt würde** (so in der Quelle; sprachlich richtig wäre „auswirken würde“). **Steuerbilanziell** führte dieser Vorgang aber nach den Grundsätzen der sog. **Spiegelbildmethode** bereits zu einer **Minderung des Gewinnes** der Organgesellschaft." },
+      { text: "Weil dieser Verlust im Rahmen der Einkommensermittlung der Organgesellschaft nach § 15a EStG aber wieder **außerbilanziell hinzugerechnet** wurde, ergab sich **auf das Einkommen bezogen keine Differenz** mehr. Die Urteilsgrundsätze sind aber nur **eingeschränkt** anzuwenden, wenn die tatsächliche Fallgestaltung dem Urteilsfall entspricht (BMF vom 15.07.2013, BStBl. I 2013, 921) – so in der Quelle; der Satz ist in sich widersprüchlich, denn eine Anwendung ist gerade dann geboten, wenn die Fallgestaltung entspricht. Gemeint ist ersichtlich: **nur dann**, wenn sie dem Urteilsfall entspricht." },
+      { text: "Damit ist zumindest geklärt, dass bei Vorliegen eines „**§ 15a EStG-Verlustes**“ insoweit **keine** Mehrabführung vorliegt. In den übrigen Fällen bleibt es aber dabei, dass die **Einkommensauswirkung irrelevant** bleibt, weil nur auf reine bilanzielle Differenzen abzustellen ist." },
+      { typ: "titel", text: "Der Ertragszuschuss (BFH vom 15.03.2017)" },
+      { text: "In einem weiteren BFH-Urteil vom 15.03.2017 (BStBl. II 2024, 571) wurde entschieden, dass handelsrechtliche **Ertragszuschüsse des Organträgers an die Organgesellschaft**, welche zunächst als **verdeckte Einlage** zu behandeln sind, aufgrund der **Rückführung im Rahmen der Gewinnabführung** nachfolgend auch zu einer organschaftlichen **Mehrabführung** führen." },
+      { text: "Denn nach Ansicht des BFH führt dies dazu, dass die **Gewinnabführung** (die auch den Ertragszuschuss umfasst) sowie das zu besteuernde **Organeinkommen** (nach Erfassung der verdeckten Einlage: 0 €) wieder **auseinanderfallen**, was nach den o.g. Rechtsprechungsgrundsätzen die Annahme einer Mehrabführung rechtfertige. Diese Rechtsauffassung gilt **unabhängig von der bilanziellen Handhabung** des Zuschusses und beruht auf der systematischen Annahme, dass nur durch Erfassung der Mehrabführung eine **Einmalbesteuerung** des Organeinkommens sichergestellt werden könne." },
+      { text: "Zudem wird durch Anwendung des **§ 27 Abs. 6 KStG**, wonach die Mehrabführung den Bestand des steuerlichen Einlagekontos der Organgesellschaft wieder **mindert**, der zutreffende Bestand des Einlagekontos abgebildet. Denn in dieser Situation ist bei der Organgesellschaft **im Saldo auch kein Vermögensvorteil geblieben**. Diese Vorgehensweise entspricht im Übrigen auch der **Gesetzesbegründung** zu § 14 Abs. 4 KStG, welche gerade in den Fällen eines Ertragszuschusses des Organträgers eine Mehrabführung annimmt (BT-Drucks. 16/7036, S. 20)." },
+      { text: "Weil dieses BFH-Urteil zwischenzeitlich auch im **Bundessteuerblatt veröffentlicht** worden ist, hat die Finanzverwaltung, zumindest was die Handhabung des Ertragszuschusses angeht, ihre **abweichende Rechtsauffassung aufgegeben** (BMF vom 04.07.2024, BStBl. I 2024, 1101)." },
+      { typ: "tabelle", spalten: ["Sachverhalt", "Verwaltungsauffassung (§ 14 Abs. 4 Satz 6 KStG)", "BFH und heutiger Stand"], zeilen: [
+        ["allgemeiner Grundsatz", "allein die bilanzielle Differenz zählt", "zusätzlich muss sich das Einkommen unterscheiden"],
+        ["Verlust aus Mitunternehmeranteil, durch § 15a EStG neutralisiert", "Mehrabführung, weil die Bilanzen abweichen", "keine Mehrabführung – insoweit geklärt"],
+        ["Ertragszuschuss des Organträgers", "keine Mehrabführung", "Mehrabführung; die Verwaltung hat 2024 nachgegeben"],
+        ["übrige Fälle", "allein die Bilanzdifferenz zählt", "unverändert – die Einkommensauswirkung bleibt irrelevant"],
+      ] },
+      { text: "Anmerkung zum Gegensatz der beiden Maßstäbe (eigene Ergänzung): Der Streit lässt sich auf eine Frage zuspitzen: Genügt die **Bilanz**differenz, oder muss auch die **Einkommens**differenz bestehen? Die Verwaltung liest § 14 Abs. 4 Satz 6 KStG als **abschließende** Definition und kommt mit einem rein rechnerischen Vergleich aus. Der BFH verlangt zusätzlich, dass sich die Differenz **steuerlich auswirkt** – sonst gebe es nichts auszugleichen. Bemerkenswert ist, dass beide Auffassungen im Ergebnis **teils zugunsten, teils zulasten** des Steuerpflichtigen wirken, weshalb die Quelle zu Recht auf die genaue Fallgestaltung abstellt: Der Urteilsfall ist eng, die Grundsätze sind nach dem BMF-Schreiben von 2013 nicht zu verallgemeinern." },
+      { text: "Anmerkung zum Ertragszuschuss als Gegenprobe (eigene Ergänzung): Der zweite Fall ist besonders lehrreich, weil der BFH dort die **gegenteilige** Richtung einschlägt – er bejaht eine Mehrabführung, wo die Verwaltung sie verneinte. Der Vorgang läuft in zwei Schritten: Der Zuschuss ist zunächst eine **verdeckte Einlage**, erhöht also das Einlagekonto und bleibt nach § 8 Abs. 3 Satz 3 KStG einkommensneutral (Organeinkommen 0 €); anschließend wird er über die **Gewinnabführung** wieder an den Organträger zurückgereicht. Ohne die Mehrabführung bliebe das Einlagekonto dauerhaft erhöht, obwohl bei der Organgesellschaft „im Saldo kein Vermögensvorteil geblieben“ ist – § 27 Abs. 6 KStG stellt das richtig. Der tragende Gedanke ist die **Einmalbesteuerung**: Was einmal als Einlage hineinkam und wieder hinausfließt, darf das Einlagekonto nicht dauerhaft aufblähen." },
+      { text: "Anmerkung zum Zeitablauf (eigene Ergänzung): Die Fundstellen verdienen einen zweiten Blick. Das Urteil stammt vom **15.03.2017**, ist aber erst 2024 im Bundessteuerblatt veröffentlicht worden (BStBl. II **2024**, 571) – sieben Jahre, in denen die Finanzverwaltung es nicht allgemein anwandte. Erst mit dem BMF-Schreiben vom **04.07.2024** hat sie ihre Auffassung aufgegeben, und auch das ausdrücklich nur „was die Handhabung des Ertragszuschusses angeht“. Für die Prüfung heißt das: Der Streit ist **punktuell** entschieden, nicht grundsätzlich; für alle übrigen Fälle bleibt es beim rein bilanziellen Maßstab." },
+    ],
+  },
+  {
+    id: "kst-t6-50",
+    kapitel: "50",
+    abschnittNr: "3.4.2",
+    title: "3.4.2 Minderabführung",
+    thema: "Bei der Minderabführung ist die handelsrechtliche Gewinnabführung geringer als der steuerbilanzielle Gewinn – etwa bei Rücklagenbildung oder abweichender handelsrechtlicher Bewertung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 301 AktG",
+      "§ 302 AktG",
+      "§ 300 Nr. 1 AktG",
+      "§ 14 Abs. 1 Nr. 4 KStG",
+      "§ 5 Abs. 4a EStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "§ 60 Abs. 2 EStDV",
+      "§ 5b Abs. 1 Satz 2 EStG",
+    ],
+    themen: ["Minderabführung", "gesetzliche Rücklage", "Gewinnrücklage", "Drohverlustrückstellung", "Überleitungsrechnung"],
+    bloecke: [
+      { typ: "titel", text: "3.4.2 Minderabführung" },
+      { text: "Bei einer organschaftlichen **Minderabführung** ist die handelsbilanzielle Gewinnabführung i.S. des § 301 AktG **geringer** als der steuerbilanzielle Gewinn, der Grundlage für die Ermittlung des Organeinkommens ist. Gleiches gilt auch in Verlustfällen, bei welcher (so in der Quelle; gemeint ist „in denen“) umgekehrt die handelsrechtliche **Verlustübernahme** i.S. des § 302 AktG den steuerbilanziellen Verlust der Organgesellschaft **übersteigt**. Dies ist z.B. der Fall, wenn die Organgesellschaft" },
+      { text: "– Beträge ihres Jahresüberschusses in die **gesetzliche Rücklage** (§ 300 Nr. 1 AktG) einstellt;" },
+      { text: "– Beträge ihres Jahresüberschusses zutreffend in die **Gewinnrücklagen** einstellt (siehe § 14 Abs. 1 Nr. 4 KStG);" },
+      { text: "– von der Steuerbilanz abweichende **handelsrechtliche Bewertungen** vornimmt (z.B. bei Drohverlustrückstellungen i.S. des § 5 Abs. 4a EStG)." },
+      { typ: "titel", text: "Beispiel (Rücklagenbildung)" },
+      { text: "Die A-GmbH ist die Organgesellschaft der B-GmbH. Die A-GmbH erzielt in 2025 einen handelsbilanziellen Jahresüberschuss von 1.000.000 € (vor Abführung), wovon sie zutreffend begründet einen Betrag von 100.000 € in ihre Gewinnrücklage einstellt. Die handelsbilanzielle Gewinnabführung i.S. des § 301 AktG beträgt daher 900.000 €." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Die handelsbilanzielle Gewinnabführung i.S. des § 301 AktG beträgt nach der zulässigen Rücklagenbildung 900.000 €, so dass die Organgesellschaft in ihrer Handelsbilanz eine **Gewinnrücklage von 100.000 €** und eine **Verbindlichkeit gegenüber dem Organträger von 900.000 €** ausweist. Der **Bilanzgewinn** beträgt somit **0 €**." },
+      { text: "Für Zwecke der Besteuerung ist bei der Einkommensermittlung von dem Jahresüberschuss von 1.000.000 € auszugehen. Denn dem Bilanzgewinn von 0 € wird **zum einen** die gebuchte Gewinnabführung von 900.000 € und die Einstellung in die Gewinnrücklage von 100.000 € wieder hinzugerechnet (so in der Quelle; dem „zum einen“ folgt kein „zum anderen“). Damit ist die Gewinnabführung **geringer** als der steuerbilanzielle Gewinn, so dass der Tatbestand der **Minderabführung i.H. von 100.000 €** erfüllt ist." },
+      { typ: "tabelle", spalten: ["Ermittlung bei der A-GmbH", "Betrag"], zeilen: [
+        ["Bilanzgewinn", "0 €"],
+        ["+ gebuchte Gewinnabführung", "+ 900.000 €"],
+        ["+ Einstellung in die Gewinnrücklage", "+ 100.000 €"],
+        ["= steuerbilanzieller Gewinn (Jahresüberschuss vor Abführung)", "1.000.000 €"],
+        ["./. handelsbilanzielle Gewinnabführung nach § 301 AktG", "./. 900.000 €"],
+        ["= Minderabführung", "100.000 €"],
+      ] },
+      { typ: "titel", text: "Beispiel (Drohverlustrückstellung)" },
+      { text: "Die A-GmbH ist die Organgesellschaft der B-GmbH. Zum 31.12.2025 weist sie in ihrer Handelsbilanz eine Drohverlustrückstellung von 500.000 € aus. Die Gewinnabführung i.S. des § 301 AktG beträgt 10.000.000 €." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Die handelsbilanzielle Gewinnabführung beträgt 10.000.000 € und weicht damit von der **steuerbilanziellen Ausgleichsgröße** ab. Denn die **Drohverlustrückstellung ist in der Steuerbilanz** der A-GmbH **nicht zu passivieren** und entsprechend im Rahmen der **Überleitungsrechnung** i.S. des § 60 Abs. 2 EStDV bzw. § 5b Abs. 1 Satz 2 EStG wieder **aufzulösen** (§ 8 Abs. 1 Satz 1 KStG i.V. mit § 5 Abs. 4a EStG). Der **Steuerbilanzgewinn** beträgt damit **10.500.000 €**. Der Vorgang führt damit zu einer **Minderabführung i.H. von 500.000 €**." },
+      { typ: "tabelle", spalten: ["Ermittlung bei der A-GmbH", "Betrag"], zeilen: [
+        ["handelsbilanzielle Gewinnabführung nach § 301 AktG", "10.000.000 €"],
+        ["+ Auflösung der Drohverlustrückstellung in der Überleitungsrechnung", "+ 500.000 €"],
+        ["= Steuerbilanzgewinn", "10.500.000 €"],
+        ["= Minderabführung", "500.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Beide Fälle gehen auf. **Erster Fall:** 0 € + 900.000 € + 100.000 € = 1.000.000 € Steuerbilanzgewinn; abzüglich der Abführung von 900.000 € verbleibt eine Minderabführung von **100.000 €** – genau der Betrag der Rücklage. **Zweiter Fall:** 10.000.000 € + 500.000 € = 10.500.000 € Steuerbilanzgewinn; die Differenz zur Abführung beträgt **500.000 €** – genau der Betrag der Rückstellung. In beiden Fällen entspricht die Minderabführung also unmittelbar dem Posten, der die Bilanzen auseinandertreten lässt." },
+      { text: "Anmerkung zur Merkregel (eigene Ergänzung): Die Richtung lässt sich an einer einzigen Frage festmachen: **Wo bleibt Vermögen zurück?** Bei der **Minder**abführung führt die Organgesellschaft **weniger** ab, als sie steuerlich verdient hat – Vermögen bleibt also **bei ihr**, und zwar in Gestalt der Rücklage oder der handelsrechtlichen Rückstellung. Wirtschaftlich stammt dieses Vermögen aus einem Gewinn, der beim Organträger **bereits versteuert** wird; es wird ihm deshalb wie eine **Einlage** zugerechnet (Abschnitt 3.4.5.2). Umgekehrt steht bei der Mehrabführung mehr ab, als steuerlich erwirtschaftet wurde. Wer sich die Richtung merken will, sollte vom **Abführungsbetrag** ausgehen: „weniger abgeführt als verdient“ ist die Minderabführung." },
+      { text: "Anmerkung zu den drei Fallgruppen (eigene Ergänzung): Die Aufzählung der Quelle nennt zwei Arten von Ursachen, die sich sauber trennen lassen. Die ersten beiden betreffen die **Gewinnverwendung**: Beträge, die die Organgesellschaft in die gesetzliche Rücklage (§ 300 Nr. 1 AktG) oder in zulässige Gewinnrücklagen (§ 14 Abs. 1 Nr. 4 KStG) einstellt, mindern die Abführung, nicht aber den steuerlichen Gewinn – hier knüpft der Abschnitt unmittelbar an die Abführungssperren des Abschnitts 2.5.5 an. Die dritte betrifft die **Bewertung**: Wo Handels- und Steuerbilanz auseinanderfallen, entsteht die Differenz von selbst, ohne dass jemand etwas zurückbehält. Die Drohverlustrückstellung ist dafür der Standardfall – und zugleich die Kehrseite des Abschnitts 3.3.4.1, wo dieselbe Rückstellung beim Organträger am Passivierungsverbot scheiterte." },
     ],
   },
 ];
