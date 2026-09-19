@@ -294,6 +294,49 @@ function korrigierePar34(thema) {
   };
 }
 
+function korrigiereErbStSchuldenabzug(thema) {
+  thema.normen = (thema.normen || []).filter((n) => !/§ 10 Abs\. 6 ErbStG/.test(n));
+  normErgaenzen(thema, "§ 10 Abs. 6a ErbStG", "§ 10 Abs. 6 ErbStG", "§ 10 Abs. 6b ErbStG");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Rechtsstand seit 2025: § 10 Abs. 6 ErbStG betrifft den Schuldenabzug bei beschränkter Steuerpflicht bzw. beschränktem deutschen Besteuerungsrecht.",
+      "Die Kürzung von Schulden und Lasten wegen vollständig oder teilweise steuerbefreiten Vermögens steht in § 10 Abs. 6a ErbStG. Nicht unmittelbar einzelnen Vermögensgegenständen zuordenbare Schulden werden nach den gesetzlichen Verhältnisregeln des Absatzes 6a verteilt.",
+      "§ 10 Abs. 6b enthält ergänzende Sonderregeln für bestimmte Fälle der beschränkten Steuerpflicht.",
+    ],
+    lernziele: [
+      "§ 10 Abs. 6, 6a und 6b nach ihrer aktuellen Funktion auseinanderhalten",
+      "wirtschaftlich direkt mit steuerbefreitem Vermögen zusammenhängende Schulden nach § 10 Abs. 6a kürzen",
+      "nicht unmittelbar zuordenbare Schulden nach § 10 Abs. 6a verhältnismäßig zuordnen",
+      "beschränkte Steuerpflicht gesondert nach § 10 Abs. 6 und 6b prüfen",
+    ],
+    pruefschritte: [
+      "Zuerst feststellen, ob der Fall unbeschränkte oder beschränkte Steuerpflicht bzw. ein beschränktes deutsches Besteuerungsrecht betrifft.",
+      "Bei wirtschaftlichem Zusammenhang mit vollständig oder teilweise steuerbefreitem Vermögen die Kürzung nach § 10 Abs. 6a ErbStG bestimmen.",
+      "Nicht unmittelbar einzelnen Vermögensgegenständen zuordenbare Schulden nach der Verhältnisregel des § 10 Abs. 6a zuordnen.",
+      "Nur bei beschränkter Steuerpflicht bzw. beschränktem deutschen Besteuerungsrecht zusätzlich § 10 Abs. 6 und 6b ErbStG anwenden.",
+      "Richtlinienausnahmen für einzelne Befreiungstatbestände nur nach aktueller Fundstelle und Tatbestand anwenden.",
+    ],
+    merksatz: "Seit 2025 sauber trennen: Abs. 6 = beschränkte Steuerpflicht; Abs. 6a = Schuldenkürzung bei steuerbefreitem Vermögen und Verhältniszuordnung; Abs. 6b = ergänzende Sonderregel.",
+  };
+}
+
+function ergaenzeErbSt13dDrittstaat(thema) {
+  normErgaenzen(thema, "§ 13d Abs. 3 Nr. 2 ErbStG");
+  const einordnung = [...(thema.kern?.einordnung || [])];
+  einordnung.push("Aktueller internationaler Anwendungsbereich: Inland und EU/EWR sind begünstigungsfähig; seit der Neufassung durch das JStG 2024 können auch in Drittstaaten belegene Wohnimmobilien begünstigt sein, wenn der Drittstaat für die Erbschaftsteuer den gesetzlich geforderten Informationsaustausch/Amtshilfe gewährleistet und auf der BMF-Liste steht.");
+  const pruefschritte = [...(thema.kern?.pruefschritte || [])];
+  const lage = pruefschritte.findIndex((x) => /Lagevoraussetzung/i.test(x));
+  const satz = "Lage prüfen: Bei Drittstaaten § 13d Abs. 3 Nr. 2 ErbStG anwenden – Begünstigung nur bei qualifiziertem Informationsaustausch/Amtshilfe; maßgeblich ist die vom BMF veröffentlichte Staatenliste.";
+  if (!pruefschritte.some((x) => /Drittstaaten.*Amtshilfe|BMF.*Staatenliste/i.test(x))) pruefschritte.splice(lage >= 0 ? lage + 1 : 2, 0, satz);
+  thema.kern = {
+    ...thema.kern,
+    einordnung,
+    pruefschritte,
+    merksatz: "§ 13d: 90-%-Wertansatz bei begünstigter Wohnvermietung; Drittstaaten sind nicht mehr pauschal ausgeschlossen, sondern bei gesetzlich gesicherter Amtshilfe/Informationsaustausch begünstigungsfähig.",
+  };
+}
+
 function ergaenzeErbfallkosten(thema) {
   normErgaenzen(thema, "§ 10 Abs. 5 Nr. 3 S. 2 ErbStG", "§ 37 Abs. 21 ErbStG");
   const schritte = [...(thema.kern?.pruefschritte || [])];
@@ -552,6 +595,8 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-modul-k3-36": korrigiereEntfernungspauschale(thema); break;
       case "bilanz-modul-k3-47": korrigierePar34(thema); break;
       case "erbst-modul-erbst-506": ergaenzeErbfallkosten(thema); break;
+      case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
+      case "erbst-modul-erbst-515": korrigiereErbStSchuldenabzug(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
