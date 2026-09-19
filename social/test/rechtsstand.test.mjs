@@ -69,6 +69,14 @@ test("Ersatzbeschaffungsrücklage enthält vollständige Verwaltungsfristen und 
   assert.doesNotMatch(kern(t), /Frist beachten: ein Jahr, bei Grundstücken und Gebäuden vier Jahre, verlängerbar/);
 });
 
+test("Gebäudemodul verwendet dieselbe 15%-Abgrenzung wie die Formel", () => {
+  const t = byId("bilanz-modul-k3-23");
+  assert.match(kern(t), /Erweiterungen.*nicht in die 15-%-Grenze/i);
+  assert.match(kern(t), /ohnehin.*Herstellungskosten|originäre Herstellungskosten/i);
+  assert.match(kern(t), /Unter 15 %.*keine Fiktion|Unterschreiten.*nicht automatisch Sofortabzug/i);
+  assert.doesNotMatch(kern(t), /90\.000 €.*sofort abziehbarer Erhaltungsaufwand/i);
+});
+
 test("15%-Grenze trennt Erweiterungen von anschaffungsnahen Herstellungskosten", () => {
   const t = byId("bilanz-formel-anschaffungsnah");
   assert.match(kern(t), /Erweiterungen.*nicht in die 15-%-Grenze/i);
