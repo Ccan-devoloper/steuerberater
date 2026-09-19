@@ -55,11 +55,19 @@ test("Vereinsbesteuerung prüft § 64 Abs. 3 AO vor § 24 KStG", () => {
   assert.match(auftrag, /45\.000/);
 });
 
-test("§ 8b-Themen enthalten Erwerbsfiktion des Satzes 6", () => {
+test("§ 8b-Themen enthalten Erwerbsfiktion des Satzes 6 und keine falsche Einzigkeitsbehauptung", () => {
   for (const id of ["kst-modul-kst-7", "bilanz-modul-k3-50"]) {
     assert.match(kern(byId(id)), /mindestens 10 %/);
     assert.match(kern(byId(id)), /§ 8b Abs\. 4 S\. 6 KStG/);
   }
+  assert.doesNotMatch(kern(byId("bilanz-modul-k3-50")), /einzige Ausnahme von der Freistellung/i);
+});
+
+test("Rückstellungskatalog nennt die gesetzlichen Sonderfälle vollständig genug", () => {
+  const t = byId("bilanz-modul-k3-29");
+  assert.match(kern(t), /Abraumbeseitigung/);
+  assert.match(kern(t), /Gewährleistungen ohne rechtliche Verpflichtung/);
+  assert.doesNotMatch(kern(t), /einzige praktische Ausnahme/i);
 });
 
 test("Elektro-Pkw-Merksatz verallgemeinert nicht mehr auf Halbierung", () => {
