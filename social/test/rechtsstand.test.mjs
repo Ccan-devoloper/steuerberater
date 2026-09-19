@@ -111,6 +111,23 @@ test("Elektro-Pkw-Merksatz verallgemeinert nicht mehr auf Halbierung", () => {
 
 
 
+
+test("Einlage-Deckel nennt Satz 3 und nur eigenes vorheriges Betriebsvermögen", () => {
+  const t = byTitle(/Wann ist die Einlage auf die Anschaffungskosten gedeckelt/i);
+  assert.match(kern(t), /§ 6 Abs\. 1 Nr\. 5 S\. 1 Buchst\. a EStG/);
+  assert.match(kern(t), /Betriebsvermögen desselben Steuerpflichtigen/);
+  assert.match(kern(t), /nach Satz 3/);
+  assert.doesNotMatch(kern(t), /aus einem anderen Betriebsvermögen entnommen wurde/);
+});
+
+test("§15a-Karte macht aus der Haftsumme keine pauschale Verlustgrenze", () => {
+  const t = byTitle(/Wie prüft man § 15a EStG in vier Schritten/i);
+  assert.match(kern(t), /eingetragene Einlage.*tatsächlich geleistete Einlage/);
+  assert.match(kern(t), /Außenhaftung.*tatsächlich besteht/);
+  assert.match(kern(t), /vertraglich ausgeschlossen/);
+  assert.doesNotMatch(kern(t), /erweitert um die eingetragene Haftsumme/);
+});
+
 test("Mietereinbau-AfA verwechselt §7 Abs.4 Satz 2 nicht mit der Regel-AfA", () => {
   const t = byTitle(/Mietdauer oder Nutzungsdauer beim Mietereinbau/i);
   assert.match(kern(t), /§ 7 Abs\. 4 S\. 1 EStG/);
