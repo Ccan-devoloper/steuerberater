@@ -10,8 +10,8 @@
    Gegliedert wird hier nach den Abschnitten der Quelle; jeder Abschnitt steht
    als eigener Eintrag.
 
-   STAND DER ÜBERNAHME: Die Kapitel 1 bis 3 des Skripts sind VOLLSTÄNDIG
-   übernommen:
+   STAND DER ÜBERNAHME: Das Skript ist VOLLSTÄNDIG übernommen – alle vier
+   Kapitel über 98 Seiten:
    - Kapitel 1: die Formen der Organschaft (1.1, 1.2),
    - Kapitel 2: sämtliche Voraussetzungen von den Tatbestandsmerkmalen über
      Organgesellschaft, Organträger und finanzielle Eingliederung bis zum
@@ -25,15 +25,11 @@
      KStG (3.3), die organschaftlichen Mehr- und Minderabführungen mit
      Einlagenlösung, mittelbarer Organschaft und Kettenorganschaft (3.4),
      die vororganschaftlich verursachten Mehr- und Minderabführungen (3.5)
-     sowie die verunglückte Organschaft (3.6).
-
-   Aus Kapitel 4 sind die Tatbestandsmerkmale und Auswirkungen (4.1) sowie
-   aus der Gewerbeertragsermittlung die Ausgangsgröße und die
-   Besonderheiten bei Hinzurechnungen und Kürzungen (4.2.1 bis 4.2.3)
-   übernommen, dazu das gewerbesteuerliche Schachtelprivileg mit § 7a GewStG
-   in allen Abschnitten einschließlich des Falls mit Kosten (4.2.4) sowie die
-   vororganschaftlichen Verluste der Organgesellschaft (4.2.5). Es folgt nur
-   noch das zusammenfassende Beispiel (4.3). Der Campus weist den Stand aus.
+     sowie die verunglückte Organschaft (3.6),
+   - Kapitel 4: die gewerbesteuerliche Organschaft mit Tatbestandsmerkmalen,
+     Gewerbeertragsermittlung, Schachtelprivileg und § 7a GewStG,
+     vororganschaftlichen Verlusten und dem zusammenfassenden Beispiel
+     (4.1 bis 4.3).
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -3914,6 +3910,118 @@ export const kstTeil6 = [
       ] },
       { text: "Anmerkung zum vollständigen Gleichlauf (eigene Ergänzung): Der Abschnitt ist bewusst knapp, weil er nur wiederholt, was Abschnitt 3.2.4.1 ausführlich entwickelt hat – und die Quelle stellt den Bezug mit dem Wort „vergleichbar“ selbst her. Das Bild des **eingefrorenen** Verlustes trägt auch hier: Er wird **weder genutzt noch vernichtet**, sondern jedes Jahr unverändert festgestellt und lebt nach Beendigung der Organschaft wieder auf. Ebenso gilt die dort beschriebene **Gefahr**: Ein schädlicher Anteilserwerb kann ihn während des Einfrierens jederzeit vernichten, ohne dass er je einen Vorteil gebracht hätte. Der Hinweis auf § 8c KStG am Ende ist also keine Nebensächlichkeit, sondern der praktisch bedeutsamste Satz des Abschnitts." },
       { text: "Anmerkung zur Parallele der Rechtsgrundlagen (eigene Ergänzung): Bemerkenswert ist, dass Körperschaft- und Gewerbesteuer hier **verschiedene Wege** zum selben Ergebnis gehen. Körperschaftsteuerlich wird der Verlustabzug **mittelbar** ausgeschlossen, indem § 15 Satz 1 Nr. 1 KStG die Anwendung des § 10d EStG bei der Organgesellschaft aufhebt. Gewerbesteuerlich ordnet § 10a Satz 3 GewStG das Abzugsverbot **unmittelbar** an. Dieselbe Doppelung findet sich bei der Verlustfeststellung – dort § 10d Abs. 4 EStG, hier § 10a Satz 6 GewStG. Wer in der Klausur nur die körperschaftsteuerliche Vorschrift nennt, hat die gewerbesteuerliche Seite nicht begründet." },
+    ],
+  },
+  {
+    id: "kst-t6-79",
+    kapitel: "79",
+    abschnittNr: "4.3",
+    title: "4.3 Zusammenfassendes Beispiel – Körperschaft- und Gewerbesteuer im Organkreis",
+    thema: "Ein Fall verbindet Ausgleichszahlung, Bruttomethode, vororganschaftliche Verluste, konzerninterne Zinsen und § 7a GewStG – mit vollständiger Ermittlung auf beiden Ebenen und in beiden Steuerarten",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 4.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 301 AktG",
+      "§ 14 Abs. 5 KStG",
+      "§ 15 Satz 1 Nr. 1 KStG",
+      "§ 15 Satz 1 Nr. 2 Satz 1 KStG",
+      "§ 15 Satz 1 Nr. 2 Satz 2 KStG",
+      "§ 15 Satz 1 Nr. 2 Satz 4 KStG",
+      "§ 16 Satz 1 KStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "§ 8b Abs. 1 Satz 1 KStG",
+      "§ 8b Abs. 4 KStG",
+      "§ 8b Abs. 5 KStG",
+      "§ 10 Nr. 2 KStG",
+      "§ 19 Abs. 5 KStG",
+      "§ 10d Abs. 4 EStG",
+      "§ 4 Abs. 5 Nr. 9 EStG",
+      "§ 4 Abs. 5b EStG",
+      "§ 2 Abs. 2 Satz 2 GewStG",
+      "§ 7 Satz 1 GewStG",
+      "§ 7a Abs. 1 GewStG",
+      "§ 7a Abs. 2 GewStG",
+      "§ 8 Nr. 1 Buchst. a GewStG",
+      "§ 9 Nr. 2a Satz 4 GewStG",
+      "§ 10a Satz 3 GewStG",
+      "R 7.1 Abs. 5 Satz 3 und 4 GewStR",
+      "R 7.1 Abs. 5 Satz 10 GewStR",
+    ],
+    themen: ["Gesamtfall", "Ausgleichszahlung", "Bruttomethode", "§ 7a GewStG", "konzerninterne Zinsen", "Verlustfeststellung"],
+    bloecke: [
+      { typ: "titel", text: "4.3 Zusammenfassendes Beispiel" },
+      { typ: "titel", text: "Sachverhalt" },
+      { text: "Die A-GmbH (Wj. = Kj.) ist seit dem 01.01.2020 aufgrund eines formwirksam abgeschlossenen Gewinnabführungsvertrag (so in der Quelle; der Genitiv ist nicht gebildet) die Organgesellschaft ihres **90%igen** Anteilseigners B-GmbH. Der restliche 10%ige Anteil ist einem **außenstehenden Gesellschafter** zuzurechnen, der eine angemessene **fixe Ausgleichszahlung von 85.000 €** erhält. Die Auszahlung ist von der A-GmbH am 05.12.2025 erfolgt." },
+      { text: "Im Wj. 2025 ist der A-GmbH ein zutreffender handelsrechtlicher **Jahresüberschuss i.S. des § 301 AktG von 1.200.000 €** entstanden, der in angemessener Zeit auch an den Organträger abgeführt wurde. Im Rahmen der Gewinnermittlung der A-GmbH sind u.a. folgende Sachverhalte eingetreten:" },
+      { text: "– angemessene **Zinszahlungen an die B-GmbH von 300.000 €** aufgrund eines fremdüblichen Darlehensverhältnisses (kein Zinsschrankenproblem);" },
+      { text: "– **Gewinnausschüttung der X-GmbH von netto 750.000 €**, an welcher die A-GmbH zu **30 %** beteiligt ist. Die einbehaltene KapSt wurde gewinnwirksam gebucht (auf den Solidaritätszuschlag ist aus Vereinfachungsgründen nicht einzugehen);" },
+      { text: "– die A-GmbH besitzt aus der Zeit vor Geltung (so in der Quelle; gemeint ist: vor Geltung des GAV) einen **Verlust i.S. des § 10d EStG von 3.000.000 €** bzw. einen **Gewerbeverlust i.S. des § 10a GewStG von 2.800.000 €**." },
+      { text: "Die B-GmbH erzielt einen handelsrechtlichen **Jahresüberschuss von 9.000.000 €**. In ihrer Gewinnermittlung sind u.a. **KSt-Aufwendungen von 600.000 €** sowie **Gewerbesteuerzahlungen von 700.000 €** aufgezeichnet worden. Welche Auswirkungen ergeben sich hinsichtlich bei der körperschaftsteuerlichen und gewerbesteuerlichen Organschaft? (so in der Quelle; „hinsichtlich bei“ – eines der beiden Wörter steht überschüssig)" },
+      { typ: "titel", text: "a) Körperschaftsteuerliche Einkommensermittlung – Ebene der A-GmbH" },
+      { text: "– Die **Gewinnausschüttung der X-GmbH bleibt im Organeinkommen enthalten**, weil die Anwendung des § 8b Abs. 1 KStG nach § 15 Satz 1 Nr. 2 Satz 1 KStG bei der Organgesellschaft ausgeschlossen ist. Die bisher gewinnwirksam abgezogene **Kapitalertragsteuer von 250.000 €** wird nach § 10 Nr. 2 KStG wieder hinzugerechnet." },
+      { text: "– Die **Ausgleichszahlung** an den außenstehenden Gesellschafter stellt bei der Organgesellschaft eine **nicht abziehbare Betriebsausgabe** dar (§ 8 Abs. 1 Satz 1 KStG i.V. mit § 4 Abs. 5 Nr. 9 EStG). Gleiches gilt für die darauf entfallene **Körperschaftsteuer von 15.000 €** (§ 10 Nr. 2 KStG)." },
+      { text: "– Der **vororganschaftliche Verlust** i.S. des § 10d EStG kann bei der Organgesellschaft nach § 15 Nr. 1 Satz 1 KStG (so in der Quelle; gesetzlich § 15 Satz 1 Nr. 1 KStG) **nicht genutzt** werden. Zum 31.12.2025 ist auf dieser Ebene eine **unveränderte Verlustfeststellung** i.S. des § 8 Abs. 1 Satz 1 KStG i.V. mit § 10d Abs. 4 EStG von 3.000.000 € vorzunehmen." },
+      { text: "– Aufgrund **§ 16 Satz 1 KStG** verbleibt der Organgesellschaft ein **eigenes Einkommen von 100.000 €** (20/17 von 85.000 €)." },
+      { text: "– Aus den angemessenen **Zinszahlungen** ergeben sich **keine** steuerlichen Auswirkungen." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung der A-GmbH", "Betrag"], zeilen: [
+        ["Jahresüberschuss lt. HB", "0 €"],
+        ["+ gebuchte Abführung", "+ 1.200.000 €"],
+        ["= Ausgangsgröße der Einkommensermittlung", "1.200.000 €"],
+        ["+ § 10 Nr. 2 KStG (KapSt)", "+ 250.000 €"],
+        ["+ § 8 Abs. 1 Satz 1 KStG / § 4 Abs. 5 Nr. 9 EStG", "+ 85.000 €"],
+        ["+ § 10 Nr. 2 KStG (KSt auf Ausgleichszahlung)", "+ 15.000 €"],
+        ["= steuerlicher Gewinn", "1.550.000 €"],
+        ["./. Organeinkommen (nach § 16 KStG)", "./. 1.450.000 €"],
+        ["= zu versteuerndes Einkommen", "100.000 €"],
+      ] },
+      { text: "Im Feststellungsbescheid i.S. des § 14 Abs. 5 KStG sind daher folgende Angaben enthalten:" },
+      { typ: "tabelle", spalten: ["Feststellung nach § 14 Abs. 5 KStG", "Betrag"], zeilen: [
+        ["Organeinkommen", "1.450.000 €"],
+        ["Beteiligungserträge", "1.000.000 €"],
+        ["KapSt", "250.000 €"],
+      ] },
+      { typ: "titel", text: "a) Körperschaftsteuerliche Einkommensermittlung – Ebene der B-GmbH" },
+      { text: "– Der **Beteiligungsertrag** unterliegt beim Organträger der **Steuerfreiheit des § 8b Abs. 1 Satz 1 KStG** (§ 15 Satz 1 Nr. 2 Satz 2 KStG). Dies deshalb, weil die A-GmbH als Anteilseignerin **unmittelbar zu mindestens 10 %** an der X-GmbH beteiligt ist und für Zwecke des § 8b Abs. 4 KStG der Organträger und die Organgesellschaft jeweils **getrennt** betrachtet werden (§ 15 Nr. 2 Satz 4 KStG – so in der Quelle; gesetzlich § 15 Satz 1 Nr. 2 Satz 4 KStG). Gleichzeitig kommt die **Betriebsausgabenpauschalierung** des § 8b Abs. 5 KStG zur Anwendung." },
+      { text: "– Der **Steueraufwand** ist nach § 10 Nr. 2 KStG (600.000 €) bzw. § 8 Abs. 1 Satz 1 KStG i.V. mit § 4 Abs. 5b EStG (700.000 €) hinzuzurechnen." },
+      { text: "– Die **Kapitalertragsteuer** wird auf die Körperschaftsteuer des Organträgers **angerechnet** (§ 19 Abs. 5 KStG)." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung der B-GmbH", "Betrag"], zeilen: [
+        ["Jahresüberschuss lt. HB", "9.000.000 €"],
+        ["./. gebuchte Abführung", "./. 1.200.000 €"],
+        ["= Ausgangsgröße der Einkommensermittlung", "7.800.000 €"],
+        ["+ § 10 Nr. 2 KStG", "+ 600.000 €"],
+        ["+ § 8 Abs. 1 Satz 1 KStG / § 4 Abs. 5b EStG", "+ 700.000 €"],
+        ["= vorläufiges Einkommen", "9.100.000 €"],
+        ["+ Organeinkommen", "+ 1.450.000 €"],
+        ["./. § 8b Abs. 1 Satz 1 KStG", "./. 1.000.000 €"],
+        ["+ § 8b Abs. 5 KStG", "+ 50.000 €"],
+        ["= zu versteuerndes Einkommen", "9.600.000 €"],
+      ] },
+      { typ: "titel", text: "b) Gewerbesteuerliche Auswirkungen" },
+      { text: "Neben der körperschaftsteuerlichen Organschaft ergeben sich nach § 2 Abs. 2 Satz 2 GewStG auch Auswirkungen bei der gewerbesteuerlichen Organschaft. Zwar erfolgt die einheitliche Gewerbeertragsermittlung des Organkreises auf Ebene des Organträgers. Zunächst ergibt sich für diese Zwecke aber eine **getrennte Ermittlung** des Gewerbeertrags auf Ebene der Organgesellschaft." },
+      { text: "Nach § 7 Satz 1 GewStG bildet die Ausgangsgröße dafür, dass sich nach körperschaftsteuerlichen Grundsätzen ermittelte Einkommen (so in der Quelle; „dass“ statt „das“, zudem ist der Satzbau verstellt – gemeint ist: das Einkommen bildet die Ausgangsgröße), **vor Berücksichtigung der Gewinnabführungsvereinbarung** und auch **einschließlich des nach § 16 KStG nur bei der Organgesellschaft verbleibenden Einkommens** (R 7.1 Abs. 5 Satz 10 GewStR). Damit verbleibt der Organgesellschaft **kein eigener Gewerbeertrag**, weil § 16 KStG gewerbesteuerlich nicht gleichwertig nachvollzogen wird." },
+      { text: "Bei der A-GmbH beträgt die Ausgangsgröße der Gewerbeertragsermittlung somit **1.550.000 €**. Nachfolgend ist dieser Betrag um etwaige Hinzurechnungen i.S. des § 8 GewStG bzw. Kürzungen nach § 9 GewStG zu bereinigen:" },
+      { text: "– Die **Zinszahlungen** würden grundsätzlich der Hinzurechnung nach § 8 Nr. 1a GewStG unterliegen. Weil der Organträger als Darlehensgeber **korrespondierend** dazu die entsprechenden Zinserträge gebucht hat, würde eine danach vorzunehmende Hinzurechnung zu einer **Doppelbelastung** im einheitlichen Gewerbeertrag führen. Damit hat die **Hinzurechnung zu unterbleiben**, weil sich im Organkreis der Zinsaufwand und der Zinsertrag wieder ausgleichen (R 7.1 Abs. 5 Satz 3 und 4 GewStR)." },
+      { text: "– Hinsichtlich des im Organeinkommens enthaltenen Beteiligungsertrags (so in der Quelle; der Kasus ist nicht durchgeführt) von 1.000.000 € greift die Sonderregelung des **§ 7a GewStG**. Danach wird aufgrund § 7a Abs. 1 GewStG die Anwendung des § 9 Nr. 2a GewStG zunächst **ausgeschlossen**, obwohl die Gewinnausschüttung aufgrund der Anwendung des § 15 Satz 1 Nr. 2 Satz 1 KStG im Einkommen enthalten ist. Nach § 7a Abs. 2 GewStG wird **nur für Zwecke der Ermittlung des Gewerbeertrags der Organgesellschaft** § 15 Satz 1 Nr. 2 Satz 2 KStG angewendet, wodurch die Gewinnausschüttung auf dieser Ebene bereits nach § 8b Abs. 1 Satz 1 KStG **steuerfreigestellt** wird und gleichzeitig die Betriebsausgabenpauschalierung zur Anwendung gelangt." },
+      { text: "Dadurch wird erreicht, dass der Gewerbeertrag der Organgesellschaft aus der Gewinnausschüttung einen Betrag von **50.000 €** beinhaltet, welcher nach § 9 Nr. 2a Satz 4 GewStG **nicht als Gewinnausschüttung gilt** und dementsprechend dem Gewerbeertrag des Organträgers zuzurechnen ist. Dadurch bleibt das Ergebnis der Betriebsausgabenpauschalierung im einheitlichen Gewerbeertrag **erhalten**, was bei einer uneingeschränkten Anwendung des § 9 Nr. 2a GewStG bei der Organgesellschaft ansonsten zu einer **Unterdrückung** dieses Betrags geführt hätte." },
+      { text: "– Der **vororganschaftliche Gewerbeverlust** kann während der Organschaftsperiode nicht genutzt werden und ist daher bei der Organgesellschaft **unverändert festzustellen** (§ 10a Satz 3 GewStG)." },
+      { typ: "tabelle", spalten: ["Gewerbeertrag der Organgesellschaft (A-GmbH)", "Betrag"], zeilen: [
+        ["Organeinkommen (vor Zurechnung)", "1.550.000 €"],
+        ["./. § 7a Abs. 2 GewStG", "./. 1.000.000 €"],
+        ["+ § 7a Abs. 2 GewStG", "+ 50.000 €"],
+        ["= Gewerbeertrag der Organgesellschaft", "600.000 €"],
+      ] },
+      { text: "**Fazit:** Damit verlagert sich mit dem Gewerbeertrag der Organgesellschaft zum einen der steuerpflichtige Betrag der Gewinnausschüttung von 50.000 € sowie das bisherige Einkommen der Organgesellschaft von 100.000 € (aus § 16 KStG) auf den Gewerbeertrag des Organträgers." },
+      { typ: "tabelle", spalten: ["Einheitlicher Gewerbeertrag (B-GmbH)", "Betrag"], zeilen: [
+        ["Einkommen (vor Organeinkommen)", "9.100.000 €"],
+        ["+ Gewerbeertrag der Organgesellschaft", "+ 600.000 €"],
+        ["= einheitlicher Gewerbeertrag", "9.700.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Sämtliche Zahlen des Gesamtfalls sind unabhängig nachgerechnet und gehen auf. Die **Ausschüttung** beträgt netto 750.000 €; bei 25 % Kapitalertragsteuer entspricht das einem Bruttobetrag von **1.000.000 €** und einer Kapitalertragsteuer von **250.000 €**. Die **Ausgleichszahlung** von 85.000 € führt nach § 16 KStG zu einem eigenen Einkommen von 20/17 = **100.000 €**, darauf 15 % Körperschaftsteuer = **15.000 €** – zugleich die Probe, dass 100.000 € ./. 15.000 € = 85.000 € ergeben. **A-GmbH:** 0 € + 1.200.000 € + 250.000 € + 85.000 € + 15.000 € = 1.550.000 €; abzüglich des Organeinkommens von 1.450.000 € verbleiben **100.000 €** – genau das Einkommen aus § 16 KStG. **B-GmbH:** 9.000.000 € ./. 1.200.000 € + 600.000 € + 700.000 € = 9.100.000 €; zuzüglich 1.450.000 € Organeinkommen, abzüglich 1.000.000 € nach § 8b Abs. 1 KStG und zuzüglich 50.000 € Pauschale (5 % von 1.000.000 €) = **9.600.000 €**. **Gewerbesteuer:** 1.550.000 € ./. 1.000.000 € + 50.000 € = **600.000 €**; einheitlicher Gewerbeertrag 9.100.000 € + 600.000 € = **9.700.000 €**." },
+      { text: "Anmerkung zur Ausgangsgröße der Gewerbesteuer (eigene Ergänzung): Die Aufstellung überschreibt die erste Zeile mit „Organeinkommen (vor Zurechnung)“ und nennt 1.550.000 €. Das ist erklärungsbedürftig, denn das **Organeinkommen** beträgt nach § 16 KStG nur 1.450.000 €. Gemeint ist der **steuerliche Gewinn vor Abzug** des bei der Organgesellschaft verbleibenden Einkommens – und genau darauf kommt es gewerbesteuerlich an, weil § 16 KStG dort **nicht nachvollzogen** wird (R 7.1 Abs. 5 Satz 10 GewStR). Die Bezeichnung ist also ungenau, der Wert richtig. Wer stattdessen mit 1.450.000 € rechnete, käme auf einen Gewerbeertrag von 500.000 € und würde die 100.000 € aus der Ausgleichszahlung nirgends erfassen." },
+      { text: "Anmerkung zur Doppelbezeichnung in der Aufstellung (eigene Ergänzung): Beide Korrekturzeilen sind mit derselben Vorschrift „§ 7a Abs. 2 GewStG“ überschrieben, obwohl sie Verschiedenes bewirken. Der Abzug von 1.000.000 € beruht der Sache nach auf **§ 8b Abs. 1 Satz 1 KStG**, die Hinzurechnung von 50.000 € auf **§ 8b Abs. 5 KStG** – § 7a Abs. 2 GewStG ordnet lediglich an, dass beide Vorschriften über § 15 Satz 1 Nr. 2 Satz 2 KStG **schon auf dieser Ebene** anzuwenden sind. Die Kurzbezeichnung der Quelle ist damit nicht falsch, verdeckt aber, dass es sich um zwei getrennte Schritte handelt." },
+      { text: "Anmerkung zum Gesamtbild (eigene Ergänzung): Der Fall verbindet auf engem Raum nahezu alle Themen des Skripts und eignet sich deshalb als Schlussprobe. Enthalten sind die **Ausgleichszahlung** an den außenstehenden Gesellschafter mit ihrer doppelten Wirkung (nichtabziehbare Betriebsausgabe **und** eigenes Einkommen von 20/17), die **Bruttomethode** mit der getrennten Streubesitzprüfung nach § 15 Satz 1 Nr. 2 Satz 4 KStG, die **eingefrorenen** vororganschaftlichen Verluste in beiden Steuerarten, die **konzerninternen Zinsen** mit der Rückausnahme bei der Hinzurechnung und schließlich **§ 7a GewStG** mit der Rettung der Pauschale. Bemerkenswert ist, wie die Einzelregelungen zusammenwirken: Die 250.000 € Kapitalertragsteuer erhöhen zunächst das Organeinkommen und werden dann beim Organträger angerechnet; die 85.000 € Ausgleichszahlung werden hinzugerechnet und kehren als 100.000 € eigenes Einkommen zurück; die 1.000.000 € Beteiligungsertrag wandern brutto nach oben und werden dort zu 50.000 € Pauschale." },
+      { text: "Anmerkung zum Vergleich beider Steuerarten (eigene Ergänzung): Der Fall zeigt am Schluss den systematischen Unterschied in Zahlen. **Körperschaftsteuerlich** verbleiben der Organgesellschaft **100.000 €** eigenes Einkommen, der Organträger versteuert 9.600.000 €. **Gewerbesteuerlich** verbleibt ihr **nichts** – ihr gesamter Gewerbeertrag von 600.000 € geht über, und der einheitliche Gewerbeertrag beträgt 9.700.000 €. Die Differenz von genau 100.000 € zwischen beiden Endgrößen ist das nach § 16 KStG bei der Organgesellschaft verbliebene Einkommen, das gewerbesteuerlich eben nicht bei ihr bleibt. Wer beide Rechnungen nebeneinanderlegt, sieht die Aussage des Abschnitts 4.2.1 unmittelbar bestätigt." },
     ],
   },
 ];

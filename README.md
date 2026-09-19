@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 78 Kapitel mit 1.312 Abschnitten und 111 Tabellen; die Kapitel 1 bis 3 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **vollständig** mit 79 Kapiteln, 1.350 Abschnitten und 116 Tabellen über alle vier Kapitel und 98 Seiten. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5618,6 +5618,33 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   aufhebt, gewerbesteuerlich ordnet § 10a Satz 3 GewStG es **unmittelbar** an; dieselbe Doppelung
   findet sich bei der Feststellung (§ 10d Abs. 4 EStG einerseits, § 10a Satz 6 GewStG andererseits).
   Sämtliche Zahlen aller vier Fallvarianten sind unabhängig nachgerechnet.
+  Das **zusammenfassende Beispiel** verbindet auf engem Raum nahezu alle Themen des Skripts und
+  eignet sich deshalb als Schlussprobe. Enthalten sind die **Ausgleichszahlung** an den außenstehenden
+  Gesellschafter mit ihrer doppelten Wirkung – nichtabziehbare Betriebsausgabe **und** eigenes
+  Einkommen von 20/17 –, die **Bruttomethode** mit der getrennten Streubesitzprüfung nach § 15 Satz 1
+  Nr. 2 Satz 4 KStG, die **eingefrorenen** vororganschaftlichen Verluste in beiden Steuerarten, die
+  **konzerninternen Zinsen** mit der Rückausnahme bei der Hinzurechnung und schließlich **§ 7a
+  GewStG** mit der Rettung der Pauschale. Aufschlussreich ist, wie die Einzelregelungen ineinander
+  greifen: Die 250.000 € Kapitalertragsteuer erhöhen zunächst das Organeinkommen und werden dann beim
+  Organträger angerechnet; die 85.000 € Ausgleichszahlung werden hinzugerechnet und kehren als
+  **100.000 €** eigenes Einkommen zurück – die Probe dazu ist, dass 100.000 € abzüglich 15 %
+  Körperschaftsteuer genau die 85.000 € ergeben; die 1.000.000 € Beteiligungsertrag (netto 750.000 €
+  zuzüglich 250.000 € Kapitalertragsteuer) wandern brutto nach oben und werden dort zu **50.000 €**
+  Pauschale.
+  Am Schluss zeigt der Fall den systematischen Unterschied beider Steuerarten in Zahlen:
+  Körperschaftsteuerlich verbleiben der Organgesellschaft **100.000 €** eigenes Einkommen, der
+  Organträger versteuert 9.600.000 €; gewerbesteuerlich verbleibt ihr **nichts** – ihr gesamter
+  Gewerbeertrag von 600.000 € geht über, und der einheitliche Gewerbeertrag beträgt 9.700.000 €. Die
+  Differenz von genau 100.000 € zwischen beiden Endgrößen ist das nach § 16 KStG bei der
+  Organgesellschaft verbliebene Einkommen, das gewerbesteuerlich eben nicht bei ihr bleibt. Eine
+  Besonderheit der Darstellung ist dabei erklärungsbedürftig und als eigene Ergänzung vermerkt: Die
+  gewerbesteuerliche Aufstellung überschreibt ihre erste Zeile mit „Organeinkommen (vor Zurechnung)“
+  und nennt 1.550.000 €, obwohl das Organeinkommen 1.450.000 € beträgt. Gemeint ist der steuerliche
+  Gewinn **vor Abzug** des bei der Organgesellschaft verbleibenden Einkommens – genau darauf kommt es
+  gewerbesteuerlich an, weil § 16 KStG dort nicht nachvollzogen wird. Wer stattdessen mit 1.450.000 €
+  rechnete, käme auf 500.000 € und würde die 100.000 € aus der Ausgleichszahlung nirgends erfassen.
+  Damit ist das Skript über alle vier Kapitel und 98 Seiten vollständig abgebildet; sämtliche Zahlen
+  sind unabhängig nachgerechnet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

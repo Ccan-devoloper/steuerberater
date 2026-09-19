@@ -10620,6 +10620,71 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitt 4.3 – zusammenfassendes Beispiel: Skript VOLLSTÄNDIG
+
+Übernommen sind die Seiten 95 bis 98 der Quelle mit dem Gesamtfall, der Körperschaft-
+und Gewerbesteuer auf beiden Ebenen durchrechnet. **Damit ist das Lehrgangsskript
+KSt Teil VI vollständig übernommen** – alle vier Kapitel über 98 Seiten. Der Datensatz
+umfasst 79 Kapitel mit 1.350 Abschnitten und 116 Tabellen; geprüft mit
+`npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Der Fall verbindet Ausgleichszahlung an einen außenstehenden
+Gesellschafter, Bruttomethode mit getrennter Streubesitzprüfung, vororganschaftliche
+Verluste in beiden Steuerarten, konzerninterne Zinsen mit der Rückausnahme bei der
+Hinzurechnung und § 7a GewStG. Ergebnis: zu versteuerndes Einkommen der
+Organgesellschaft 100.000 €, des Organträgers 9.600.000 €; Gewerbeertrag der
+Organgesellschaft 600.000 €, einheitlicher Gewerbeertrag 9.700.000 €.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Der Sachverhalt schreibt „aufgrund eines formwirksam abgeschlossenen
+  Gewinnabführungsvertrag“ – der Genitiv ist nicht gebildet.
+- „die A-GmbH besitzt aus der Zeit vor Geltung einen Verlust“ – es fehlt das
+  Bezugswort (des Gewinnabführungsvertrags).
+- Die Fragestellung lautet „Welche Auswirkungen ergeben sich hinsichtlich bei der
+  körperschaftsteuerlichen und gewerbesteuerlichen Organschaft?“ – eines der beiden
+  Wörter steht überschüssig.
+- „Nach § 7 Satz 1 GewStG bildet die Ausgangsgröße dafür, dass sich nach
+  körperschaftsteuerlichen Grundsätzen ermittelte Einkommen …“ – „dass“ statt
+  „das“, zudem ist der Satzbau verstellt.
+- „Hinsichtlich des im Organeinkommens enthaltenen Beteiligungsertrags“ – Kasus.
+- Die Quelle zitiert erneut verkürzt „§ 15 Nr. 1 Satz 1 KStG“ und
+  „§ 15 Nr. 2 Satz 4 KStG“.
+
+**Eigene Nachrechnung.** Sämtliche Zahlen des Gesamtfalls gehen auf.
+
+| Schritt | Rechnung | Ergebnis |
+| --- | --- | --- |
+| Ausschüttung brutto | netto 750.000 € bei 25 % KapSt | 1.000.000 €, KapSt 250.000 € |
+| eigenes Einkommen nach § 16 KStG | 20/17 von 85.000 € | 100.000 €, darauf 15 % KSt = 15.000 € |
+| A-GmbH | 1.200.000 € + 250.000 € + 85.000 € + 15.000 € | 1.550.000 €, abzüglich Organeinkommen 1.450.000 € = 100.000 € |
+| B-GmbH | 7.800.000 € + 600.000 € + 700.000 € + 1.450.000 € ./. 1.000.000 € + 50.000 € | 9.600.000 € |
+| Gewerbeertrag A-GmbH | 1.550.000 € ./. 1.000.000 € + 50.000 € | 600.000 € |
+| einheitlicher Gewerbeertrag | 9.100.000 € + 600.000 € | 9.700.000 € |
+
+Die Probe zur Ausgleichszahlung bestätigt den Bruch 20/17: 100.000 € abzüglich 15 %
+Körperschaftsteuer ergeben genau die 85.000 €.
+
+**Erklärungsbedürftige Bezeichnung.** Die gewerbesteuerliche Aufstellung überschreibt
+ihre erste Zeile mit „Organeinkommen (vor Zurechnung)“ und nennt 1.550.000 €,
+obwohl das Organeinkommen nach § 16 KStG 1.450.000 € beträgt. Gemeint ist der steuerliche
+Gewinn **vor Abzug** des bei der Organgesellschaft verbleibenden Einkommens – genau darauf
+kommt es gewerbesteuerlich an, weil § 16 KStG dort nicht nachvollzogen wird
+(R 7.1 Abs. 5 Satz 10 GewStR). Die Bezeichnung ist ungenau, der Wert richtig; wer mit
+1.450.000 € rechnete, käme auf 500.000 € und würde die 100.000 € aus der Ausgleichszahlung
+nirgends erfassen. Ebenfalls vermerkt: Beide Korrekturzeilen der Aufstellung sind mit
+derselben Vorschrift „§ 7a Abs. 2 GewStG“ überschrieben, obwohl der Abzug von
+1.000.000 € der Sache nach auf § 8b Abs. 1 Satz 1 KStG und die Hinzurechnung von 50.000 €
+auf § 8b Abs. 5 KStG beruht.
+
+**Abschluss des Skripts.** Mit diesem Abschnitt ist die wortlautgetreue Übernahme des
+Lehrgangsskripts abgeschlossen. Insgesamt sind 79 Kapitel mit 1.350 Abschnitten und 116
+Tabellen entstanden; sämtliche Zahlenbeispiele sind unabhängig nachgerechnet, und alle
+Befunde der Quelle – darunter zwei echte Rechenfehler (die Aufteilungsquote von 75 %
+statt 65 % in Abschnitt 3.4.6.3 und das nicht herleitbare Einkommen von 500.000 € in
+Abschnitt 3.6.2), mehrere vertauschte oder fehlende Vorzeichen und Zuordnungen sowie
+zahlreiche sprachliche Eigenheiten – sind in diesem Protokoll festgehalten.
+
 ### KSt Teil VI (Hamacher), Abschnitte 4.2.4.2 und 4.2.5 – Schachtelprivileg mit Kosten, vororganschaftliche Gewerbeverluste
 
 Übernommen sind die Seiten 92 bis 95 der Quelle: der Fall mit Kosten in vier Varianten
