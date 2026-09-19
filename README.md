@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 40 Kapitel mit 803 Abschnitten und 98 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 42 Kapitel mit 851 Abschnitten und 101 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4383,6 +4383,54 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gesellschafterfremdfinanzierung des § 8a Abs. 2 KStG a.F. ist ersatzlos aufgehoben, weil das
   Merkmal der nahestehenden Person dasselbe Ergebnis erreicht – wer mit älterer Literatur arbeitet,
   findet dort also eine Prüfungsstufe, die es seit 2024 nicht mehr gibt.
+  Auch der **Konzernbegriff** hat sich gravierend geändert: Konzern ist nach § 4h Abs. 3 Satz 4 EStG
+  nur noch, wer nach den maßgeblichen Rechnungslegungsstandards **tatsächlich voll konsolidiert** wird.
+  Die Prüfung verschiebt sich damit von einer rechtlichen auf eine **bilanzielle** Frage – nicht die
+  beherrschende Beteiligung entscheidet, sondern ob der Abschluss in einen Konzernabschluss eingeht.
+  Wer nach §§ 290 ff. HGB von der Konsolidierung befreit ist, gehört nicht zum Konzern, verliert damit
+  die Escape-Klausel und gewinnt nichts hinzu, weil die Stand-alone-Ausnahme an der
+  25-Prozent-Beteiligung der Mutter scheitert. Dasselbe gilt für den **Gleichordnungskonzern**, jene
+  deutsche Sonderform ohne Mutter-Tochter-Verhältnis: Er ist für die Zinsschranke entfallen, und die
+  betroffenen Familiengesellschaften fallen nun in dieselbe Lücke. Der Konzernbegriff ist dabei nicht
+  auf das Inland beschränkt – auch die einzige inländische Gesellschaft eines internationalen Konzerns
+  gehört dazu.
+  Die **Escape-Klausel** des § 4h Abs. 2 Satz 1c EStG steht nur konzernabhängigen Gesellschaften offen
+  und verlangt eine **Eigenkapitalquote** – Eigenkapital zur Bilanzsumme –, die die des Gesamtkonzerns
+  erreicht oder um höchstens **zwei Prozentpunkte** unterschreitet. Der Gedanke dahinter: Wer im
+  Konzernvergleich vertretbar kapitalisiert ist, verlagert keine Gewinne über Finanzierungsinstrumente.
+  Maßgebend sind die Verhältnisse zum **Schluss des Vorjahres** – günstig, weil die Quoten bei Abgabe
+  der Erklärung feststehen und eine Kapitalzuführung zum Bilanzstichtag die Klausel für das Folgejahr
+  sichert; in der Klausur eine Fehlerquelle, weil der Sachverhalt meist die Quoten des laufenden Jahres
+  nennt. Die Toleranz bezieht sich auf **Prozentpunkte**, nicht auf Prozent: Ein Fall von 4 % auf 2 %
+  halbiert die Quote und bleibt dennoch innerhalb der Grenze. Für den Vergleich gilt eine feste
+  Rangfolge – IFRS, dann das Handelsrecht eines EU-Mitgliedstaates, dann US-GAAP oder HGB –, wobei
+  eine **Fünfjahressperre** verhindert, kurzfristig auf den günstigeren Standard umzustellen; für den
+  inländischen Mittelstand ist die dritte Stufe damit der Regelfall. Die Berechnungsgrafik des
+  Abschnitts 3.7.3.2 ließ sich aus der PDF-Datei nicht extrahieren und ist deshalb nicht wiedergegeben.
+  Bei Kapitalgesellschaften tritt der **Zehn-Prozent-Check** des § 8a Abs. 3 KStG hinzu: Die Escape-
+  Klausel greift nur, wenn Vergütungen für **konzernfremde** Gesellschafterfremdfinanzierung – an
+  Gesellschafter mit mindestens 25 %, ihnen nahestehende Personen oder rückgriffsberechtigte Dritte
+  etwa aus Bürgschaft oder Patronatserklärung – zusammengerechnet nicht mehr als 10 % des
+  Nettozinsaufwands ausmachen. Im Beispiel sind das 500.000 € von 5.000.000 €, die tatsächlichen
+  300.000 € bleiben darunter, und mit 30 % gegenüber 28 % Eigenkapitalquote gelingt der Nachweis. Die
+  weitreichendste Aussage steht dabei in einem einzigen Satz: Der Check bezieht sich auf **sämtliche**
+  Konzerngesellschaften **weltweit** – wird irgendeine von ihnen zu mehr als 10 % konzernfremd
+  finanziert, verlieren **alle inländischen** Gesellschaften die Klausel. Für die inländische Tochter
+  eines großen Konzerns ist der Nachweis damit kaum zu führen. Hinzu kommt eine ungewöhnliche
+  Wechselwirkung: Darlehen der eigenen Konzernmutter verbrauchen die Zehn-Prozent-Grenze **nicht**,
+  weil sie konsolidiert werden – sie mindern aber die **Eigenkapitalquote** und gefährden damit die
+  zweite Stufe. Eine Finanzierung, die die eine Prüfung rettet, kann die andere kosten.
+  Schließlich schließt § 4h Abs. 1 Satz 7 EStG eine Lücke, die die Quelle treffend benennt: Ohne sie
+  hätte sich ein Zinsvortrag in einem Ausnahmejahr „wie ein Verlustvortrag“ ausgewirkt, und die
+  Zinsschranke wäre zu einer bloßen zeitlichen Verschiebung geworden. Für den **Vortragsteil** gilt die
+  Schranke deshalb **immer**, auch wenn der Betrieb im Übrigen befreit ist. Das führt zu einer
+  gespaltenen Prüfung innerhalb desselben Jahres: Im Beispiel bleibt der laufende Nettozinsaufwand von
+  900.000 € voll abziehbar, weil die Freigrenze nicht überschritten ist, während der Zinsvortrag von
+  2.000.000 € nur bis zur Höhe des verrechenbaren EBITDA von 900.000 € genutzt werden darf und
+  1.100.000 € verbleiben. In der Abwandlung mit einem EBITDA von 10.000.000 € ist der Vortrag
+  vollständig verbraucht, und es entsteht sogar ein **EBITDA-Vortrag** von 1.000.000 € – scheinbar im
+  Widerspruch zur Regel, dass Ausnahmen kein Potential entstehen lassen, doch die Quelle löst das auf:
+  Bezogen auf den Zinsvortrag ist die Schranke gerade nicht ausgeschlossen.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

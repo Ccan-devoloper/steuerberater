@@ -10620,6 +10620,49 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 3.7.3 und 3.7.4 – Konzernregelung und Zinsvortrag in Ausnahmejahren
+
+Quelle: dieselbe Datei, Seiten 65 bis 68; übernommen als Kapitel 41 und 42. Prüfung:
+`npm run check:k2-kst-teil5` (42 Kapitel, 851 Blöcke, 101 Tabellen).
+
+**Alle Beträge sind unabhängig nachgerechnet und gehen auf:** im Beispiel zu 3.7.3.3
+6.000.000 € ./. 1.000.000 € = 5.000.000 € Nettozinsaufwand, 10 % davon 500.000 € gegenüber
+tatsächlichen 300.000 €, Eigenkapitalquote 30 % gegenüber 28 % des Konzerns – der Vergleich gelingt
+sogar ohne die Zwei-Prozentpunkte-Toleranz. Im Beispiel zu 3.7.4 ergeben 900.000 € + 2.000.000 € =
+2.900.000 € und damit ein Unterschreiten der Freigrenze; 30 % × 3.000.000 € = 900.000 € nutzbarer
+Zinsvortrag, Rest 1.100.000 €; in der Abwandlung 30 % × 10.000.000 € = 3.000.000 €, Vortrag
+vollständig verbraucht, EBITDA-Vortrag 1.000.000 €.
+
+**Eine weitere Lücke der Quelle ist benannt statt gefüllt:** Auf den Satz „Vereinfacht ergibt sich
+folgende Ermittlung“ folgt im Skript eine Grafik zur Berechnung der Eigenkapitalquote, die sich aus
+der PDF-Datei nicht extrahieren ließ. Der Datensatz sagt das an Ort und Stelle und verweist auf
+Rn. 89 und 90 des BMF-Schreibens; erfunden wird nichts.
+
+**Vier sprachliche Eigenheiten sind übernommen und markiert:** „orientiert sich zudem nach den
+IFRS-Abschlüssen“, die Kasus „einen diesem Gesellschafter nahestehende Person“ und „einem …
+rückgriffsberechtigten Dritten“ sowie das überzählige Komma in „des jeweiligen Betriebs,
+vermindern“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Einordnung des neuen Konzernbegriffs als Verschiebung
+von einer rechtlichen auf eine bilanzielle Frage samt der Folge für nach § 293 HGB befreite
+Gesellschaften; die zweischneidige Wirkung des Wegfalls des Gleichordnungskonzerns; die Erläuterung,
+dass sich die Toleranz auf Prozentpunkte und nicht auf Prozent bezieht, mit Zahlenbeispiel; die
+Bedeutung des Vorjahresstichtags für Gestaltung und Klausur; die Deutung der Fünfjahressperre in der
+Rangfolge der Rechnungslegungsstandards; die Feststellung, dass der weltweite Bezug des
+Zehn-Prozent-Checks die Escape-Klausel gerade für inländische Töchter großer Konzerne entwertet; die
+Wechselwirkung, wonach konzerninterne Darlehen die Zehn-Prozent-Grenze nicht verbrauchen, aber die
+Eigenkapitalquote mindern; die Erklärung des Gedankens hinter § 4h Abs. 1 Satz 7 EStG und der daraus
+folgenden gespaltenen Prüfung mit zwei Regimen in einem Jahr; und die Auflösung des scheinbaren
+Widerspruchs, dass in der Abwandlung trotz Unterschreitens der Freigrenze ein EBITDA-Vortrag
+entsteht.
+
+**Neu sind drei Übersichten:** eine zur Rangfolge der Rechnungslegungsstandards, eine zum Rechenweg
+des Beispiels zur Escape-Klausel und eine Gegenüberstellung von Grundfall und Abwandlung des
+Beispiels zu 3.7.4.
+
+**Noch offen:** aus Teil V die restlichen Abschnitte des Kapitels 3 (Zinsschranke) und das Kapitel 4
+(stille Beteiligungen); ganz offen sind die Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 3.6.5 bis 3.7.2 – Betriebsbezogenheit der Vorträge, Freigrenze und Stand-alone-Betrachtung
 
 Quelle: dieselbe Datei, Seiten 62 bis 65; übernommen als Kapitel 39 und 40. Prüfung:
