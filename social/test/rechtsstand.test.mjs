@@ -215,6 +215,18 @@ test("Bekanntgabe an Bevollmächtigte trennt Kann-Regel und Empfangsvollmacht", 
   assert.match(kern(t), /frühere Bekanntgabe.*kein.*Muss-Tatbestand|Frühere Praxis ersetzt/i);
 });
 
+test("§6-AStG-Wegzug enthält Rückkehr, Raten und Mitteilungspflichten 2026", () => {
+  const t = byId("istr-modul-istr-istr3-08");
+  assert.match(kern(t), /letzten zwölf Jahre.*mindestens sieben Jahre/i);
+  assert.match(kern(t), /innerhalb von sieben Jahren/i);
+  assert.match(kern(t), /höchstens fünf Jahre/i);
+  assert.match(kern(t), /sieben gleichen.*Jahresraten/i);
+  assert.match(kern(t), /unverzins/i);
+  assert.match(kern(t), /Sicherheitsleistung/i);
+  assert.match(kern(t), /binnen eines Monats|innerhalb eines Monats/i);
+  assert.match(kern(t), /31\. Juli/);
+});
+
 test("§2-AStG-Modul verwendet nur existente Normen und aktuelle Grenzen", () => {
   const t = byId("istr-modul-istr-istr3-07");
   assert.match(kern(t), /mindestens fünf Jahre/);
