@@ -261,6 +261,22 @@ function korrigiereRueckstellungskatalog(thema) {
   normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
+function korrigiereEinlageDeckel(thema) {
+  normErgaenzen(thema, "§ 6 Abs. 1 Nr. 5 S. 1–3 EStG");
+  thema.kern = {
+    ...thema.kern,
+    antwort: "Grundsatz: Einlagen sind mit dem Teilwert anzusetzen. Bei einem innerhalb der letzten drei Jahre vor der Einlage aus dem Privatvermögen angeschafften oder hergestellten Wirtschaftsgut greift die Deckelung nach § 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG auf die fortgeführten Anschaffungs- oder Herstellungskosten. Wurde das Wirtschaftsgut zuvor aus einem Betriebsvermögen desselben Steuerpflichtigen entnommen, ersetzt nach Satz 3 der Entnahmewert die Anschaffungs-/Herstellungskosten und der Entnahmezeitpunkt den Anschaffungs-/Herstellungszeitpunkt. Weitere Sonderfälle für Beteiligungen und bestimmte Kapitalanlagen nach Buchst. b und c gesondert prüfen.",
+  };
+}
+
+function korrigiere15aVierSchritte(thema) {
+  normErgaenzen(thema, "§ 15a Abs. 1 S. 1–3 EStG");
+  thema.kern = {
+    ...thema.kern,
+    antwort: "1. Kommanditist bzw. vergleichbar beschränkt haftender Mitunternehmer? 2. Steuerliches Kapitalkonto bestimmen; Verluste sind nach § 15a Abs. 1 S. 1 nur bis zur Grenze ausgleichs-/abzugsfähig, bei der kein negatives Kapitalkonto entsteht oder sich erhöht. 3. Erweiterter Verlustausgleich nach Satz 2 nur bis zum Betrag, um den die im Handelsregister eingetragene Einlage die tatsächlich geleistete Einlage übersteigt – und nur, wenn die Außenhaftung nach § 171 Abs. 1 HGB am Bilanzstichtag tatsächlich besteht, nachgewiesen ist und eine Vermögensminderung weder vertraglich ausgeschlossen noch nach der Art des Geschäftsbetriebs unwahrscheinlich ist (Satz 3). 4. Nicht ausgleichsfähiger Rest ist verrechenbarer Verlust; gesonderte Feststellung nach § 15a Abs. 4 EStG. Sonderbetriebsergebnis gesondert behandeln.",
+  };
+}
+
 function kennzeichneERechnung(thema) {
   thema.titel = "E-Rechnung im B2B-Inland: Übergangsfristen";
   normErgaenzen(thema, "§ 14 UStG", "§ 27 Abs. 38 UStG");
@@ -453,6 +469,8 @@ export function socialKorrekturenAnwenden(pool) {
     if (thema.typ === "karteikarte" && /^Steuersätze \(§ 12 UStG\)$/i.test(thema.titel || "")) korrigiereUstSteuersaetzeKarte(thema);
     if (thema.typ === "karteikarte" && /Mietdauer oder Nutzungsdauer beim Mietereinbau/i.test(thema.titel || "")) korrigiereMietereinbauAfa(thema);
     if (thema.typ === "karteikarte" && /Wie wirken sich Abbruchkosten aus/i.test(thema.titel || "")) korrigiereAbbruchkosten(thema);
+    if (thema.typ === "karteikarte" && /Wann ist die Einlage auf die Anschaffungskosten gedeckelt/i.test(thema.titel || "")) korrigiereEinlageDeckel(thema);
+    if (thema.typ === "karteikarte" && /Wie prüft man § 15a EStG in vier Schritten/i.test(thema.titel || "")) korrigiere15aVierSchritte(thema);
     if (/Realteilung (?:oder|und) Sachwertabfindung/i.test(thema.titel || "")) korrigiereRealteilung(thema);
     if (thema.typ === "karteikarte" && /Wie wird § 8b KStG technisch umgesetzt/i.test(thema.titel || "")) korrigiereAchtBTechnik(thema);
     if (/Vereinsbesteuerung/i.test(thema.titel || "") && thema.id !== "kst-modul-kst-12") korrigiereVerein(thema);
