@@ -197,6 +197,9 @@ test("Realteilung erfasst auch die unechte Realteilung", () => {
   const modul = byTitle(/Realteilung und Sachwertabfindung/i);
   assert.match(kern(modul), /unechte Realteilung/i);
   assert.match(kern(modul), /ausschließlich Geld|Barabfindung/i);
+  assert.match(kern(modul), /§ 6 Abs\. 5 S\. 7 EStG/);
+  assert.match(kern(modul), /§ 16 Abs\. 5 EStG/);
+  assert.match(kern(modul), /siebenjährige Nachversteuerungsregel/);
 });
 
 test("PWB enthält keine pauschale 1-Prozent-Verwaltungsregel", () => {
