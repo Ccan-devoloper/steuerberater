@@ -11,50 +11,28 @@
    4 Verluste aus stillen Beteiligungen. Gegliedert wird hier nach den
    Abschnitten der Quelle; jeder Abschnitt steht als eigener Eintrag.
 
-   STAND DER ÜBERNAHME: Aus Kapitel 1 sind die Verfassungswidrigkeit des § 8c
-   KStG (1.1) und die Tatbestandsmerkmale (1.2 mit dem schädlichen
-   Anteilserwerb, den nicht genutzten Verlusten, der Gewerbesteuer, dem
-   Wegfall des § 8c Abs. 2 KStG und der Sanierungsklausel) übernommen, dazu
-   der Erwerberkreis (1.3 mit der Rechtsform des Erwerbers und den
-   gleichgerichteten Interessen) und der Grundfall des Anteilserwerbs (1.4.1).
-   Dazu kommen die gleichgestellten Sachverhalte (1.4.2) und die Umwandlungen
-   (1.4.3.1), die Kapitalerhöhung (1.4.3.2), der mittelbare Erwerb (1.4.4)
-   sowie der Hintergrund der Konzernregelung und deren erste Fallgruppe
-   (1.4.5). Damit ist die Konzernregelung mit allen drei Fallgruppen und ihren
-   Rechtsfolgen vollständig. Dazu kommen der fünfjährige Betrachtungszeitraum
-   (1.4.6) sowie der Grundsatz der Verschonungsgrenze mit der Ermittlung der
-   stillen Reserven, dem gemeinen Wert und der Höhe des Eigenkapitals (1.5.1
-   bis 1.5.1.1.2), die Besonderheit bei negativem Kapital (1.5.1.1.3), die nur
-   inländisch steuerpflichtigen stillen Reserven (1.5.1.2), die Rückwirkungs-
-   sperre (1.5.1.3) und der Zinsvortrag (1.5.1.4). Dazu kommen die Grundsätze
-   der Verlustkürzung (1.6.1), der Erwerb zum Ende des Wirtschaftsjahres
-   (1.6.2.1), der unterjährige Verlust (1.6.2.2.1) und der unterjährige Gewinn
-   samt Abwandlung (1.6.2.2.2), die abweichenden Wirtschaftsjahre und die
-   Organschaftsfälle (1.7). Damit ist Kapitel 1 des Skripts VOLLSTÄNDIG
-   übernommen. Aus Kapitel 2 (§ 8d KStG) sind die zeitliche Anwendung (2.1) und
-   das Antragswahlrecht (2.2) übernommen, dazu der Betrachtungszeitraum (2.3.1),
-   die Definition des Geschäftsbetriebs (2.3.2.1), die mehreren Geschäfts-
-   betriebe (2.3.2.2) und der einheitliche Geschäftsbetrieb (2.3.2.2.1). Es
-   dazu die geringfügige Betätigung (2.3.2.2.2) und die weiteren Einschränkungen
-   des § 8d Abs. 1 Satz 2 KStG (2.4) und die Rechtsfolgen (2.5 mit der
-   Feststellung des fortführungsgebundenen Verlustvortrags, dem Nebeneinander
-   von Alt- und Neuverlust und der Verlustverrechnung in den Folgejahren). Es
-   folgt das Fortführungserfordernis (2.6.1 Einstellung und 2.6.2.1 bis 2.6.2.5
-   der weiteren schädlichen Sachverhalte), die Übertragung von Wirtschaftsgütern
-   unter dem gemeinen Wert (2.6.2.6), der Vorrang des § 8c KStG (2.7) und der
-   Verweis zur Organgesellschaft (2.8). Damit ist Kapitel 2 des Skripts
-   VOLLSTÄNDIG übernommen. Aus Kapitel 3 (Zinsschranke) sind das anhängige
-   BVerfG-Verfahren (3.2), die Neuregelung ab 2024 (3.3) und die Grundzüge (3.4)
-   übernommen, dazu die Tatbestände (3.5) und die Ermittlung von steuerlichem und
-   verrechenbarem EBITDA (3.6.1 und 3.6.2), der Zinsvortrag (3.6.3) und der
-   EBITDA-Vortrag (3.6.4), der betriebliche Zusammenhang der Vorträge (3.6.5),
-   die Freigrenze (3.7.1), die Stand-alone-Betrachtung (3.7.2), die
-   Konzernregelung mit Konzernbegriff, Escape-Klausel und Zehn-Prozent-Check
-   (3.7.3) sowie die Auswirkungen der Ausnahmen auf den Zinsvortrag (3.7.4); es
-   folgen die restlichen Abschnitte des Kapitels 3. Aus Kapitel 4 (Verluste aus
-   stillen Beteiligungen) sind der Ausschluss der Verlustverrechnung (4.1.1) und
-   die Verlustberücksichtigung mit beiden Beispielen und den getrennten
-   Verrechnungskreisen (4.1.2) übernommen. Der Campus weist den Stand aus.
+   STAND DER ÜBERNAHME: Das Skript ist VOLLSTÄNDIG übernommen – alle vier
+   Kapitel über 74 Seiten. Kapitel 1 behandelt den Verlustabzug bei
+   Körperschaften (§ 8c KStG) von der Verfassungswidrigkeit über den
+   Erwerberkreis, den Anteilserwerb und seine gleichgestellten Sachverhalte,
+   die Konzernregelung mit allen drei Fallgruppen, den Fünfjahreszeitraum und
+   die Verschonungsgrenze bis zur Verlustkürzung mit allen Zeitpunktfragen und
+   den abweichenden Wirtschaftsjahren. Kapitel 2 behandelt den
+   fortführungsgebundenen Verlustvortrag (§ 8d KStG) von der zeitlichen
+   Anwendung über das Antragswahlrecht, den Geschäftsbetrieb und die weiteren
+   Einschränkungen bis zu den Rechtsfolgen, dem Fortführungserfordernis und dem
+   Vorrang des § 8c KStG. Kapitel 3 behandelt die Zinsschranke (§ 4h EStG,
+   § 8a KStG) in ihrer ab 2024 geltenden Fassung mit Nettozinsaufwand,
+   Betriebsbegriff, steuerlichem und verrechenbarem EBITDA, Zins- und
+   EBITDA-Vortrag sowie sämtlichen Ausnahmetatbeständen. Kapitel 4 behandelt die
+   Verluste aus stillen Beteiligungen (§ 15 Abs. 4 Sätze 6 bis 8 EStG)
+   einschließlich der Konkurrenz zu § 15a EStG.
+
+   NICHT ÜBERNOMMEN sind zwei Grafiken der Quelle, deren Text sich aus der
+   PDF-Datei nicht extrahieren ließ: das Prüfungsschema für Zinsschrankenfälle
+   (Abschnitt 3.1) und die vereinfachte Ermittlung der Eigenkapitalquote
+   (Abschnitt 3.7.3.2). Der Datensatz weist beide Stellen ausdrücklich aus,
+   statt Inhalte zu erfinden.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -2521,6 +2499,122 @@ export const kstTeil5 = [
       { text: "Anmerkung zur Zwangsläufigkeit der beiden Kreise (eigene Ergänzung): Dass die Mindestbesteuerung **innerhalb** des besonderen Kreises anzuwenden ist, ergibt sich nicht unmittelbar aus dem Gesetz, sondern aus dem Verweis des § 15 Abs. 4 Satz 7 EStG auf § 10d EStG und ist durch das BMF-Schreiben vom 29.11.2004 bestätigt. Der Unterschied zu § 8d KStG ist bemerkenswert: Dort bilden fortführungsgebundener und gewöhnlicher Verlust ausdrücklich **einen** Verrechnungskreis, hier sind es **zwei**. Für den Steuerpflichtigen ist die Lösung hier günstiger, weil jeder Kreis seinen **eigenen** Grundabzug von 1.000.000 € erhält – im Beispiel sind das im besonderen Kreis 1.000.000 €, die ohne die Trennung mit dem allgemeinen Kreis hätten geteilt werden müssen." },
       { text: "Anmerkung zur Reihenfolge der Verrechnung (eigene Ergänzung): Die Quelle beschreibt den Weg in zwei Schritten, die nicht vertauscht werden dürfen. **Zuerst** wird der besondere Verlustvortrag gegen den Gewinn aus derselben stillen Beteiligung gerechnet, und zwar nach § 10d Abs. 2 EStG. **Erst der danach verbleibende** Gewinnanteil fließt in das übrige Einkommen und steht dort für den allgemeinen Verlustabzug zur Verfügung. Im Beispiel sind das die 180.000 €, die mit dem Eigenverlust von 300.000 € zusammentreffen. Wer die Schritte umkehrt und zunächst saldiert, kommt zu einem Einkommen von 1.300.000 € und rechnet den besonderen Verlust dagegen – ein Ergebnis, das die Trennung der Kreise gerade verhindern soll." },
       { text: "Anmerkung zur Haftsumme (eigene Ergänzung): Die Angabe der **Haftsumme von 2.000.000 €** im Sachverhalt bleibt in der Lösung unerwähnt, ist aber kein Beiwerk. Sie stellt sicher, dass § 15a EStG dem Verlustabzug nicht bereits vorgelagert entgegensteht: Der Verlustanteil von 1.600.000 € bleibt darunter, so dass der Verlust dem Grunde nach ausgleichsfähig wäre und allein § 15 Abs. 4 EStG ihn sperrt. In einer Klausur wäre der umgekehrte Fall – Verlustanteil über der Haftsumme – vorrangig zu prüfen; die Quelle vermeidet diese Überlagerung durch die Wahl der Zahlen." },
+    ],
+  },
+  {
+    id: "kst-t5-45",
+    kapitel: "45",
+    abschnittNr: "4.2.1",
+    title: "Beide Verrechnungskreise im Zusammenspiel und 4.2.1 Einschränkungen durch § 15a EStG",
+    thema: "Der Verlustabzug ist für jeden Kreis getrennt zu ermitteln; bei § 15a EStG zählt nur das Kapital des Gesamthandsvermögens, so dass Gewinne des Sonderbetriebsvermögens voll zu versteuern sind",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 4.1.2 (drittes Beispiel), 4.2 und 4.2.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 15 Abs. 4 Satz 6 EStG",
+      "§ 15 Abs. 4 Satz 7 EStG",
+      "§ 15a EStG",
+      "§ 15a Abs. 1 Satz 1 EStG",
+      "§ 15a Abs. 2 EStG",
+      "§ 15a Abs. 4 EStG",
+      "§ 15a Abs. 5 Nr. 1 EStG",
+      "§ 10d EStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "R 15a Abs. 2 EStR",
+    ],
+    themen: ["getrennte Verrechnungskreise", "Sockelbetrag", "negatives Kapitalkonto", "Sonderbetriebsvermögen", "verrechenbarer Verlust", "Feststellungsebene"],
+    bloecke: [
+      { text: "Beispiel: Die Z-GmbH ist an der T-GmbH atypisch still beteiligt (Haftsumme: 2.000.000 €). Im VZ 2024 erzielt sie aus dieser Beteiligung einen steuerlichen Verlust von 1.600.000 € und aus ihrer eigenen Tätigkeit einen weiteren steuerlichen Verlust von 300.000 €. In 2025 beträgt der steuerliche Gewinn aus der Beteiligung 1.600.000 € und der aus der eigenen Tätigkeit entsteht ein weiterer steuerlicher Gewinn von 400.000 €." },
+      { text: "Lösung – VZ 2024: Das Einkommen des VZ 2024 beträgt – 300.000 €, da der Verlust aus der stillen Beteiligung nach § 8 Abs. 1 Satz 1 KStG i.V. mit § 15 Abs. 4 Satz 6 EStG lediglich mit zukünftigen Gewinnanteilen verrechenbar ist und daher im Rahmen der Einkommensermittlung wieder hinzuzurechnen ist. Zum 31.12.2024 beträgt der allgemein vortragsfähige Verlust daher 300.000 € und der verrechenbare Verlust i.S. des § 15 Abs. 4 Satz 7 EStG 1.600.000 €." },
+      { text: "VZ 2025: Der maximal zulässige Verlustabzug i.S. des § 10d Abs. 2 EStG ermittelt sich für jeden Verrechnungskreis getrennt, da die Abzugsbeschränkungen sowohl für die besonderen Verluste als auch den „normalen“ Verlustvortrag gelten:" },
+      { typ: "tabelle", spalten: ["a) stille Beteiligung", "Betrag"], zeilen: [
+        ["Gewinn", "1.600.000 €"],
+        ["./. Sockelbetrag", "./. 1.000.000 €"],
+        ["= Restbetrag", "600.000 €"],
+        ["./. übersteigender Abzug (70%)", "./. 420.000 €"],
+        ["= Resteinkommen (stille Bet.)", "180.000 €"],
+      ] },
+      { text: "Der besondere Verlust i.S. des § 15 Abs. 4 EStG kann in 2025 nur in Höhe von 1.420.000 € abgezogen werden. Zum 31.12.2025 beträgt das daraus noch bestehende Vortragspotential noch 180.000 € und ist gesondert festzustellen." },
+      { typ: "tabelle", spalten: ["b) Resteinkommen", "Betrag"], zeilen: [
+        ["übriger Gewinn", "400.000 €"],
+        ["Restgewinn st. Bet.", "180.000 €"],
+        ["=", "580.000 €"],
+        ["./. Verlust § 10d EStG (innerhalb des Sockelbetrags)", "./. 300.000 €"],
+        ["= Einkommen 2025", "280.000 €"],
+      ] },
+      { text: "Zum 31.12.2025 besteht aus dem allgemeinen Verlust kein Verlustvortragspotential i.S. des § 10d EStG." },
+      { typ: "titel", text: "4.2 Konkurrenz zu § 15a EStG" },
+      { text: "Neben § 15 Abs. 4 Sätze 6 – 8 EStG kann es bei einer atypisch stillen Beteiligung auch zur Anwendung des § 15a EStG kommen (siehe § 15a Abs. 5 Nr. 1 EStG). Nach § 15a EStG ist der Verlust nur abzugsfähig, soweit dem atypisch still beteiligten Gesellschafter durch Verlustzurechnung kein negatives Kapitalkonto entsteht. In der übrigen Höhe ist der Verlust nur verrechenbar i.S. des § 15a Abs. 2 EStG. Hinsichtlich dieser beiden Vorschriften sind folgende Unterschiede zu beachten:" },
+      { typ: "titel", text: "4.2.1 Einschränkungen durch § 15a EStG" },
+      { text: "Unterliegt der Verlust der Einschränkung des § 15a EStG, ist dieser lediglich mit zukünftigen Gewinnanteilen derselben stillen Gesellschaft verrechenbar. Eine Verrechnung mit zurückliegenden Verlusten ist nicht möglich. Der sich daraus ergebende Verlust wird auf Ebene der Mitunternehmerschaft nach § 15a Abs. 4 EStG gesondert festgestellt." },
+      { text: "Des Weiteren ist für Zwecke des § 15a EStG ein vorhandenes Sonderbetriebsvermögen unmaßgeblich. Zum Umfang des Kapitalkontos i.S. des § 15a EStG gehört nur das Kapital lt. Gesamthandsvermögen. Dies bedeutet, dass der stille Gesellschafter den Gewinn seines Sonderbetriebsvermögens besteuern muss, obwohl ihm aus der stillen Gesellschaft eine Verlustbeteiligung zuzurechnen ist. (Die Fußnote verweist auf R 15a Abs. 2 EStR.)" },
+      { text: "Beispiel: Die Z-GmbH ist an der T-GmbH atypisch still beteiligt (Haftsumme: 2.000.000 €). Im VZ 2025 erzielt sie aus dieser Beteiligung einen steuerlichen Verlust von 1.600.000 €. Gleichzeitig überlässt sie der T-GmbH ein Grundstück, woraus sie in 2025 einen steuerlichen Gewinn von 100.000 € erzielt. Die Haftsumme war seit VZ 2024 vollständig aufgebraucht." },
+      { text: "Lösung: Der aus der stillen Beteiligung entstandene Verlust von 1.600.000 € ist nach § 8 Abs. 1 Satz 1 KStG i.V. mit § 15a Abs. 1 Satz 1 EStG in voller Höhe nur verrechenbar und kann nur noch mit zukünftigen Gewinnen der stillen Beteiligung verrechnet werden. Daher muss der Verlust von 1.600.000 € bei der Einkommensermittlung wieder hinzurechnet werden. Gleichzeitig ergibt sich zum 31.12.2025 ein festgestellter verrechenbarer Verlust i.S. des § 15a Abs. 4 EStG. Diese Feststellung erfolgt aber auf Ebene der atypisch stillen Gesellschaft. (Die Form „hinzurechnet“ steht so in der Quelle.)" },
+      { text: "Der Gewinn aus dem Sonderbetriebsvermögen ist hingegen in voller Höhe steuerpflichtig. Denn das Sonderbetriebsvermögen gehört nicht zum Umfang des maßgeblichen Kapitalkontos i.S. des § 15a EStG. Damit ergibt sich aus diesem Vorgang ein steuerpflichtiges Einkommen von 100.000 €." },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Drittes Beispiel zu 4.1.2, VZ 2024: Der Beteiligungsverlust wird hinzugerechnet, so dass das Einkommen dem Eigenverlust von ./. 300.000 € entspricht. VZ 2025, Kreis a): 1.600.000 € ./. 1.000.000 € = 600.000 €, davon 70 % = 420.000 €, zusammen 1.420.000 € Abzug, Resteinkommen 180.000 € und restlicher besonderer Verlust 1.600.000 € ./. 1.420.000 € = 180.000 €. Kreis b): 400.000 € + 180.000 € = 580.000 €, abzüglich 300.000 € = 280.000 €; der allgemeine Vortrag ist damit aufgebraucht. Beispiel zu 4.2.1: Der Beteiligungsverlust von 1.600.000 € bleibt vollständig verrechenbar, der Sonderbetriebsgewinn von 100.000 € vollständig steuerpflichtig." },
+      { text: "Anmerkung zum Nutzen der getrennten Kreise (eigene Ergänzung): Das dritte Beispiel zeigt die günstige Seite der Trennung, die im vorangegangenen Fall noch belastend wirkte. Weil **jeder** Kreis seinen eigenen Sockelbetrag von 1.000.000 € erhält, stehen der Z-GmbH insgesamt zwei Grundabzüge zur Verfügung: 1.000.000 € im besonderen Kreis und ein weiterer im allgemeinen, aus dem der Verlust von 300.000 € vollständig abgezogen wird. Bei einem einheitlichen Kreis wäre der Abzug in der Summe geringer ausgefallen. Die Trennung wirkt also in beide Richtungen – sie verhindert die Verrechnung über die Kreisgrenze, verdoppelt aber den Sockelbetrag." },
+      { text: "Anmerkung zur Reihenfolge im dritten Beispiel (eigene Ergänzung): Der Aufbau der Lösung ist die Musterform für solche Aufgaben und sollte genau so übernommen werden. **Zuerst** wird der besondere Kreis vollständig durchgerechnet, bis das „Resteinkommen (stille Bet.)“ feststeht. **Dann** wandert dieser Rest in das übrige Einkommen, wo er mit dem Eigenergebnis zusammentrifft und der allgemeine Verlustvortrag greift. Nur so ergibt sich das Einkommen von 280.000 €; rechnete man zuerst zusammen, käme man auf 1.700.000 € und einen ganz anderen Abzug." },
+      { text: "Anmerkung zum Unterschied der Feststellungsebenen (eigene Ergänzung): Ein Punkt, der in der Klausur leicht zu Punktverlusten führt: Der nach **§ 15a Abs. 4 EStG** verrechenbare Verlust wird auf Ebene der **Mitunternehmerschaft** – also der atypisch stillen Gesellschaft – festgestellt, der besondere Verlust nach **§ 15 Abs. 4 EStG** dagegen auf Ebene des **Gesellschafters**, hier der Z-GmbH. Beide Feststellungen können nebeneinander bestehen und werden von verschiedenen Finanzämtern erlassen. Wer beide verwechselt, ordnet die Beträge der falschen Ebene zu." },
+      { text: "Anmerkung zur Härte bei Sonderbetriebsvermögen (eigene Ergänzung): Die Aussage, das Sonderbetriebsvermögen sei für § 15a EStG **unmaßgeblich**, führt zu einem Ergebnis, das die Quelle selbst als bemerkenswert kennzeichnet: Der Gesellschafter versteuert einen Gewinn von 100.000 €, obwohl ihm im selben Jahr ein Verlust von 1.600.000 € aus derselben Gesellschaft zugerechnet wird. Der Grund liegt in der Technik des § 15a EStG, der allein an das **Kapitalkonto im Gesamthandsvermögen** anknüpft – eine Größe, die der Sonderbereich nicht berührt. Genau hier liegt der entscheidende Unterschied zu § 15 Abs. 4 EStG, der nach dem folgenden Abschnitt den **Saldo** beider Bereiche erfasst." },
+    ],
+  },
+  {
+    id: "kst-t5-46",
+    kapitel: "46",
+    abschnittNr: "4.2.3",
+    title: "4.2.2 Einschränkungen durch § 15 Abs. 4 EStG und 4.2.3 Vorrang des § 15a EStG",
+    thema: "§ 15 Abs. 4 EStG erfasst den Saldo aus Gesamthands- und Sonderbetriebsergebnis und erlaubt den Rücktrag, unterliegt aber der Mindestbesteuerung; § 15a EStG geht vor",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 4.2.2 und 4.2.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 15 Abs. 4 Satz 6 EStG",
+      "§ 15 Abs. 4 Sätze 6 bis 8 EStG",
+      "§ 15a EStG",
+      "§ 15a Abs. 4 EStG",
+      "§ 10d EStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "BMF vom 19.11.2008, Tz. 8 und 9",
+    ],
+    themen: ["Saldo aus Gesamthand und Sonderbereich", "Verlustrücktrag", "Mindestbesteuerung", "Vorrang des § 15a EStG", "negatives Kapitalkonto", "doppelte Hinzurechnung"],
+    bloecke: [
+      { typ: "titel", text: "4.2.2 Einschränkungen durch § 15 Abs. 4 EStG" },
+      { text: "Im Gegensatz dazu kann der § 15 Abs. 4 Satz 6 EStG unterliegende Verlust auch im Rahmen des § 10d EStG auf Vorjahresgewinne aus derselben stillen Gesellschaft zurückgetragen werden. (Die Fügung „der § 15 Abs. 4 Satz 6 EStG unterliegende Verlust“ steht so in der Quelle.)" },
+      { text: "Eine Besonderheit ergibt sich zudem bei den Ergebnissen des Sonderbetriebsvermögens. Diese gehören mit zum steuerlichen Umfang der stillen Beteiligung, so dass sämtliche Gewinne oder Verluste in das saldierte Ergebnis des § 15 Abs. 4 Satz 6 EStG einfließen. Maßgebend ist daher immer der steuerliche Gewinn oder Verlust, der sich aus dem Saldo aus Gesamthands- und Sonderbetriebsvermögen ergibt." },
+      { text: "Zu beachten ist ebenfalls, dass der Verlust i.S. des § 15 Abs. 4 Satz 6 – 8 EStG in späteren Veranlagungszeiträumen auch den Einschränkungen des § 10d Abs. 2 EStG unterliegt. Dies gilt für Zwecke des § 15a EStG nicht, d.h. dieser verrechenbare Verlust mindert den entsprechenden Gesamthandsgewinn immer in voller Höhe." },
+      { text: "Beispiel: Die Z-GmbH ist an der T-GmbH atypisch still beteiligt (Haftsumme: 2.000.000 €). Im VZ 2025 erzielt sie aus dieser Beteiligung einen steuerlichen Verlust von 1.600.000 €. Gleichzeitig hat sie der T-GmbH ein Grundstück überlassen, woraus ihr ein steuerlicher Gewinn von 500.000 € entsteht. Die Haftsumme ist noch nicht überschritten worden." },
+      { text: "Lösung: Der Verlust i.S. des § 15 Abs. 4 Satz 6 EStG beträgt 1.100.000 €, da hierfür die Summe aus Verlust der Gesamthand und Sonderbetriebsgewinn maßgebend ist. Da die Voraussetzungen des § 15a EStG mangels negativen Kapitalkontos noch nicht erfüllt sind, ist der Verlust nach § 8 Abs. 1 Satz 1 KStG i.V. mit § 15 Abs. 4 Satz 6 EStG bei der Einkommensermittlung wieder hinzuzurechnen. Gleichzeitig erfolgt auf Ebene der Z-GmbH eine Verlustfeststellung." },
+      { text: "Abwandlung: In 2026 erzielt die Z-GmbH aus der stillen Beteiligung einen steuerlichen Gewinn von 500.000 € und aus dem Sonderbetriebsvermögen einen steuerlichen Verlust von 100.000 €" },
+      { text: "Lösung: Der steuerliche Gewinn in 2026 beträgt 400.000 €. Dieser wird im Rahmen der Einkommensermittlung im Rahmen eines Verlustvortrags nach § 10d Abs. 2 EStG vollständig mit dem Verlust aus 2025 verrechnet. Zum 31.12.2026 beträgt das noch vorhandene Vortragspotential auf Ebene der Z-GmbH insgesamt 700.000 € (1.100.000 € - 400.000 €)." },
+      { typ: "titel", text: "4.2.3 Vorrang des § 15a EStG" },
+      { text: "§ 15a EStG ist gegenüber § 15 Abs. 4 EStG vorrangig. Nur die übrigen Verluste, die nicht von § 15a EStG erfasst werden, unterliegen dem Anwendungsbereich des § 15 Abs. 4 EStG. (Die Fußnote verweist auf BMF vom 19.11.2008, Tz. 8 und 9.)" },
+      { text: "Beispiel: Die A-GmbH beteiligt sich mit einer Einlage von 100.000 € atypisch still am Handelsgewerbe der B-GmbH. Im VZ 2024 erzielt sie daraus einen steuerlichen Verlustanteil von 150.000 €. Ein Ergebnis aus dem Sonderbetriebsvermögen ist in diesem VZ nicht angefallen. Im VZ 2025 erzielt die A-GmbH einen steuerlichen Verlustanteil von 200.000 €, worin auch ein Gewinn des Sonderbetriebsvermögens von 50.000 € (Verpachtung eines Grundstücks) enthalten ist." },
+      { text: "Lösung – VZ 2024: Der in 2024 erzielte Verlust von 150.000 € kann bei der Einkommensermittlung nicht abgezogen werden. Denn nach § 15a EStG ist der Verlust i.H. von 50.000 € verrechenbar, da in dieser Höhe ein negatives Kapitalkonto entstanden ist. Dieser Verlust kann zukünftig nur mit Gewinnen verrechnet werden, die aus der Beteiligung an dem Handelsgewerbe entstanden sind, wobei etwaige Gewinne des Sonderbetriebsvermögens hierfür unbeachtlich sind. Daher ist der Verlust nach § 8 Abs. 1 Satz 1 KStG i.V. mit § 15a EStG wieder bei der Einkommensermittlung hinzuzurechnen. Gleichzeitig ist nach § 15a Abs. 4 EStG auf Ebene der atypisch stillen Gesellschaft eine Verlustfeststellung durchzuführen." },
+      { text: "Aber auch dieser restliche Verlust von 100.000 € kann steuerlich nicht berücksichtigt werden, weil insoweit bereits die Einschränkung des § 15 Abs. 4 Satz 6 EStG greift. Der Verlust ist nach § 8 Abs. 1 Satz 1 KStG i.V. mit § 15 Abs. 4 Satz 6 EStG wieder dem Einkommen hinzuzurechnen. Zum 31.12.2024 besteht insoweit ein verrechenbarer Verlust von 100.000 €, welcher bei der A-GmbH gesondert festgestellt wird." },
+      { text: "VZ 2025: Der steuerliche Verlust aus der stillen Gesellschaft in 2025 von 250.000 € (abzüglich Gewinn des Sonderbetriebsvermögens) ist nach § 15a EStG nur verrechenbar, weil sich das negative Kapitalkonto des Gesamthandsbereiches entsprechend erhöht. Dieser ist daher nach § 8 Abs. 1 Satz 1 KStG i.V. mit § 15a EStG wieder dem Einkommen hinzuzurechnen. Zum 31.12.2025 beträgt die Verlustfeststellung i.S. des § 15a Abs. 4 EStG insgesamt 300.000 € (50.000 € + 250.000 €). Diese Verlustfeststellung erfolgt auf Ebene der Mitunternehmerschaft." },
+      { text: "Der Gewinn des Sonderbetriebsvermögens von 50.000 € kann nicht mit dem Verlust i.S. des § 15a EStG verrechnet werden, wohl aber mit dem zum 31.12.2024 bestehenden Verlust i.S. des § 8 Abs. 1 Satz 1 KStG i.V. mit § 15 Abs. 4 Satz 6 EStG. Damit beträgt das steuerpflichtige Einkommen aus diesem Vorgang insgesamt 0 €." },
+      { text: "Zum 31.12.2025 besteht daher noch ein verrechenbarer Verlust i.S. des § 15 Abs. 4 Satz 6 EStG von 50.000 € (100.000 € - 50.000 €), welcher auf Ebene der A-GmbH gesondert festgestellt wird." },
+      { typ: "tabelle", spalten: ["Unterschied", "§ 15a EStG", "§ 15 Abs. 4 Sätze 6 bis 8 EStG"], zeilen: [
+        ["Verlustrücktrag", "nicht möglich – nur künftige Gewinne", "möglich auf Vorjahresgewinne aus derselben stillen Gesellschaft"],
+        ["Sonderbetriebsvermögen", "unmaßgeblich – nur das Kapital der Gesamthand zählt", "einbezogen – maßgebend ist der Saldo beider Bereiche"],
+        ["Mindestbesteuerung beim späteren Abzug", "gilt nicht – der Gesamthandsgewinn wird stets voll gemindert", "gilt – § 10d Abs. 2 EStG ist zu beachten"],
+        ["Ebene der Feststellung", "Mitunternehmerschaft (§ 15a Abs. 4 EStG)", "Gesellschafter (§ 10d Abs. 4 EStG)"],
+        ["Rangverhältnis", "vorrangig", "nachrangig – erfasst nur die von § 15a EStG nicht erfassten Verluste"],
+      ] },
+      { typ: "tabelle", spalten: ["Beispiel zu 4.2.3", "§ 15a EStG", "§ 15 Abs. 4 Satz 6 EStG"], zeilen: [
+        ["VZ 2024 – Verlustanteil 150.000 € bei Einlage 100.000 €", "50.000 € verrechenbar (negatives Kapitalkonto)", "100.000 € verrechenbar"],
+        ["VZ 2025 – Gesamthandsverlust 250.000 €", "250.000 €, Bestand damit 300.000 €", "unverändert 100.000 €"],
+        ["VZ 2025 – Sonderbetriebsgewinn 50.000 €", "nicht verrechenbar", "verrechenbar – Einkommen aus dem Vorgang 0 €"],
+        ["Bestand zum 31.12.2025", "300.000 € (Ebene der Mitunternehmerschaft)", "50.000 € (Ebene der A-GmbH)"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Sämtliche Zahlen gehen auf. Beispiel zu 4.2.2: 1.600.000 € Gesamthandsverlust abzüglich 500.000 € Sonderbetriebsgewinn ergeben einen Saldo von 1.100.000 €. Abwandlung: 500.000 € ./. 100.000 € = 400.000 € Gewinn 2026, der innerhalb des Sockelbetrags vollständig abziehbar ist; 1.100.000 € ./. 400.000 € = 700.000 € Restvortrag. Beispiel zu 4.2.3: Die Einlage von 100.000 € wird durch den Verlustanteil von 150.000 € aufgezehrt, so dass 50.000 € negatives Kapitalkonto entstehen und in dieser Höhe § 15a EStG greift; die restlichen 100.000 € fallen unter § 15 Abs. 4 Satz 6 EStG. 2025 erhöht der Gesamthandsverlust von 250.000 € den § 15a-Bestand auf 50.000 € + 250.000 € = 300.000 €; der Sonderbetriebsgewinn von 50.000 € trifft auf den § 15-Abs.-4-Verlust von 100.000 €, so dass 0 € zu versteuern sind und 100.000 € ./. 50.000 € = 50.000 € verbleiben." },
+      { text: "Anmerkung zur gegensätzlichen Behandlung des Sonderbetriebsvermögens (eigene Ergänzung): Der wichtigste Unterschied beider Vorschriften ist zugleich der überraschendste: **Dieselbe** Größe wird einmal ausgeblendet und einmal einbezogen. Für **§ 15a EStG** zählt allein das Kapitalkonto der **Gesamthand**, so dass ein Sonderbetriebsgewinn in voller Höhe zu versteuern ist. Für **§ 15 Abs. 4 EStG** bildet dagegen der **Saldo** beider Bereiche die maßgebliche Größe. Das Beispiel zu 4.2.2 zeigt die Folge: Aus 1.600.000 € Gesamthandsverlust und 500.000 € Sonderbetriebsgewinn wird ein besonderer Verlust von 1.100.000 € – während unter § 15a EStG die 500.000 € zu versteuern gewesen wären. Wer beide Vorschriften prüft, muss die Bemessungsgrundlage also **zweimal verschieden** bilden." },
+      { text: "Anmerkung zur Wirkung des Vorrangs (eigene Ergänzung): Die Rangfolge hat eine praktische Folge, die das Beispiel zu 4.2.3 in Reinform zeigt: Ein einziger Verlustanteil kann sich auf **beide** Vorschriften **aufteilen**. Von den 150.000 € des Jahres 2024 entfallen 50.000 € auf § 15a EStG – soweit das Kapitalkonto negativ wird – und die restlichen 100.000 € auf § 15 Abs. 4 EStG. Beide Teile sind nicht abziehbar und beide werden dem Einkommen hinzugerechnet, aber sie werden auf **verschiedenen Ebenen** festgestellt und folgen **verschiedenen Regeln**. Die Prüfungsreihenfolge ist deshalb zwingend: erst § 15a EStG, dann der Rest." },
+      { text: "Anmerkung zum Sonderbetriebsgewinn 2025 (eigene Ergänzung): Der Schlussteil des Beispiels ist die eleganteste Stelle des Kapitels und fügt die Unterschiede zusammen. Der Sonderbetriebsgewinn von 50.000 € kann **nicht** mit dem § 15a-Verlust verrechnet werden, weil dieser nur Gesamthandsgewinne mindert – **wohl aber** mit dem § 15-Abs.-4-Verlust von 100.000 €, dessen Bemessungsgrundlage den Sonderbereich einschließt. Das Ergebnis ist ein steuerpflichtiges Einkommen von 0 € statt 50.000 €. Genau hier zahlt sich der Nachrang des § 15 Abs. 4 EStG für den Steuerpflichtigen aus: Der Verlusttopf, der übrig bleibt, ist der **breitere**." },
+      { text: "Anmerkung zur Mindestbesteuerung als drittem Unterschied (eigene Ergänzung): Dass der spätere Abzug des § 15-Abs.-4-Verlustes der **Mindestbesteuerung** unterliegt, der des § 15a-Verlustes dagegen nicht, ist der dritte und in der Wirkung oft gewichtigste Unterschied. Der § 15a-Verlust mindert den entsprechenden Gesamthandsgewinn **immer in voller Höhe** – ein erheblicher Vorteil gegenüber dem besonderen Verlust, bei dem 1.000.000 € zuzüglich 70 % des Überhangs die Grenze bilden. In der Abwandlung zu 4.2.2 fällt das nicht auf, weil der Gewinn von 400.000 € ohnehin unter dem Sockelbetrag bleibt; bei größeren Beträgen kehrt sich der Vorteil des breiteren Verlusttopfes teilweise um." },
+      { text: "Abschließende Einordnung (eigene Ergänzung): Damit ist das Skript vollständig. Kapitel 4 schließt den Bogen zu den vorangegangenen Kapiteln: Die besonderen Verluste aus stillen Beteiligungen sind ungenutzte Verluste im Sinne des § 8c KStG, für ihre Verschonung zählen nur die stillen Reserven der stillen Gesellschaft, und § 8d KStG ist wegen des Mitunternehmeranteils von vornherein versperrt. Die GmbH & atypisch Still verbindet damit drei Beschränkungen – § 15a EStG, § 15 Abs. 4 EStG und § 8c KStG –, die in dieser Reihenfolge zu prüfen sind." },
     ],
   },
 ];

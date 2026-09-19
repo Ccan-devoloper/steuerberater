@@ -3673,8 +3673,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil V (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil V (§§ 8c, 8d,
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
-  stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 44 Kapitel mit 887 Abschnitten und 105 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut –
+  **vollständig** mit 46 Kapiteln, 931 Abschnitten und 109 Tabellen über alle vier Kapitel und
+  74 Seiten; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4470,6 +4471,32 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sie gleichwohl einen Gewinnanteil von 180.000 €, weil 1.000.000 € + 70 % × 600.000 € = 1.420.000 €
   die Grenze des Abzugs bilden. Die Belastung entsteht allein aus der zeitlichen Streckung und
   gleicht sich erst über den allgemeinen Verlustvortrag von 120.000 € aus – sofern es je dazu kommt.
+  Im Verhältnis zu **§ 15a EStG**, der bei der atypisch stillen Beteiligung über § 15a Abs. 5 Nr. 1
+  EStG ebenfalls gilt, zeigen sich drei Unterschiede, die sich alle auf dieselben Zahlen auswirken.
+  Erstens der **Rücktrag**: § 15 Abs. 4 EStG erlaubt ihn auf Vorjahresgewinne aus derselben stillen
+  Gesellschaft, § 15a EStG kennt nur die Verrechnung mit künftigen Gewinnen. Zweitens das
+  **Sonderbetriebsvermögen**: Für § 15a EStG ist es unmaßgeblich, weil nur das Kapitalkonto der
+  **Gesamthand** zählt – die Folge ist, dass ein Sonderbetriebsgewinn voll zu versteuern ist, im
+  Beispiel 100.000 €, obwohl im selben Jahr ein Verlust von 1.600.000 € zugerechnet wird. § 15 Abs. 4
+  EStG erfasst dagegen den **Saldo** beider Bereiche: Aus 1.600.000 € Gesamthandsverlust und
+  500.000 € Sonderbetriebsgewinn wird ein besonderer Verlust von 1.100.000 €. Dieselbe Größe wird also
+  einmal ausgeblendet und einmal einbezogen, und die Bemessungsgrundlage ist **zweimal verschieden**
+  zu bilden. Drittens die **Mindestbesteuerung**: Sie gilt für den späteren Abzug des besonderen
+  Verlustes, nicht aber für den § 15a-Verlust, der den entsprechenden Gesamthandsgewinn **immer in
+  voller Höhe** mindert – ein Vorteil, der den breiteren Verlusttopf bei größeren Beträgen teilweise
+  wieder aufwiegt.
+  **§ 15a EStG geht dabei vor**; nur die von ihm nicht erfassten Verluste unterliegen § 15 Abs. 4
+  EStG. Ein einziger Verlustanteil kann sich deshalb **aufteilen**: Von 150.000 € entfallen im
+  Beispiel 50.000 € auf § 15a EStG, soweit das Kapitalkonto negativ wird, und 100.000 € auf
+  § 15 Abs. 4 EStG. Beide Teile sind nicht abziehbar, werden aber auf verschiedenen Ebenen
+  festgestellt – der eine bei der Mitunternehmerschaft, der andere beim Gesellschafter – und folgen
+  verschiedenen Regeln. Die eleganteste Stelle des Kapitels ist der Schluss dieses Beispiels: Der
+  Sonderbetriebsgewinn von 50.000 € lässt sich **nicht** mit dem § 15a-Verlust verrechnen, weil dieser
+  nur Gesamthandsgewinne mindert, **wohl aber** mit dem besonderen Verlust, dessen
+  Bemessungsgrundlage den Sonderbereich einschließt. Das steuerpflichtige Einkommen beträgt damit 0 €
+  statt 50.000 € – hier zahlt sich der Nachrang des § 15 Abs. 4 EStG aus, weil der verbleibende
+  Verlusttopf der **breitere** ist. Für die Klausur ergibt sich daraus eine feste Prüfungsreihenfolge:
+  erst § 15a EStG, dann § 15 Abs. 4 EStG, dann § 8c KStG.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

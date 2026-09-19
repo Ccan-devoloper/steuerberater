@@ -10620,6 +10620,49 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 4.1.2 (Schluss) bis 4.2.3 – das Skript ist vollständig
+
+Quelle: dieselbe Datei, Seiten 71 bis 74 (Schluss); übernommen als Kapitel 45 und 46. Prüfung:
+`npm run check:k2-kst-teil5` (46 Kapitel, 931 Blöcke, 109 Tabellen). Damit ist **das gesamte Skript
+Teil V vollständig** übernommen – alle vier Kapitel über 74 Seiten.
+
+**Sämtliche Zahlen sind unabhängig nachgerechnet und gehen auf.** Drittes Beispiel zu 4.1.2:
+1.600.000 € ./. 1.000.000 € = 600.000 €, davon 70 % = 420.000 €, zusammen 1.420.000 € Abzug,
+Resteinkommen und Restvortrag je 180.000 €; 400.000 € + 180.000 € ./. 300.000 € = 280.000 €.
+Beispiel zu 4.2.1: Verlust 1.600.000 € verrechenbar, Sonderbetriebsgewinn 100.000 € steuerpflichtig.
+Beispiel zu 4.2.2: 1.600.000 € ./. 500.000 € = 1.100.000 €; Abwandlung 500.000 € ./. 100.000 € =
+400.000 €, Restvortrag 700.000 €. Beispiel zu 4.2.3: Einlage 100.000 € gegen Verlustanteil
+150.000 € ergibt 50.000 € nach § 15a EStG und 100.000 € nach § 15 Abs. 4 EStG; 2025 erhöht sich der
+§ 15a-Bestand auf 50.000 € + 250.000 € = 300.000 €, der Sonderbetriebsgewinn von 50.000 € trifft auf
+den besonderen Verlust, so dass 0 € zu versteuern sind und 50.000 € verbleiben.
+
+**Drei sprachliche Eigenheiten sind übernommen und markiert:** „hinzurechnet{RQ} statt
+„hinzugerechnet{RQ}, „der § 15 Abs. 4 Satz 6 EStG unterliegende Verlust{RQ} und das doppelte „im Rahmen{RQ}
+in der Abwandlung.
+
+**Als eigene Ergänzungen eingeordnet** sind: der Nutzen der getrennten Kreise, weil jeder seinen
+eigenen Sockelbetrag erhält; die Musterreihenfolge der Lösung mit dem Hinweis, wohin eine vorzeitige
+Saldierung führte; die Unterscheidung der Feststellungsebenen von § 15a Abs. 4 EStG und § 15 Abs. 4
+EStG; die Härte, dass ein Sonderbetriebsgewinn unter § 15a EStG trotz hoher Verluste zu versteuern
+ist; die Gegenüberstellung der drei Unterschiede beider Vorschriften samt der Feststellung, dass die
+Bemessungsgrundlage zweimal verschieden zu bilden ist; die Wirkung des Vorrangs, der einen einzigen
+Verlustanteil auf zwei Vorschriften und zwei Feststellungsebenen aufteilt; die Auflösung des
+Schlussfalls, in dem der Nachrang des § 15 Abs. 4 EStG den breiteren Verlusttopf beschert; die
+Einordnung der Mindestbesteuerung als dritten, oft gewichtigsten Unterschied; und eine abschließende
+Einordnung, die den Bogen zu §§ 8c und 8d KStG schlägt und die Prüfungsreihenfolge festhält.
+
+**Neu sind vier Übersichten:** zwei zu den beiden Verrechnungskreisen des dritten Beispiels, eine
+Gegenüberstellung der fünf Unterschiede zwischen § 15a EStG und § 15 Abs. 4 EStG und eine zum
+Verlauf des Beispiels zu 4.2.3 über beide Jahre und beide Vorschriften.
+
+**Zwei Grafiken der Quelle sind ausdrücklich nicht übernommen,** weil ihr Text sich aus der PDF-Datei
+nicht extrahieren ließ: das Prüfungsschema für Zinsschrankenfälle (3.1) und die vereinfachte
+Ermittlung der Eigenkapitalquote (3.7.3.2). Der Datensatz weist beide Stellen aus, statt Inhalte zu
+erfinden. Der Kopf der Datei hält das ebenfalls fest.
+
+**Noch offen aus dem Drive-Ordner:** die Skriptteile VI (Organschaft) und VII (Liquidation) sowie
+der Dublettencheck der übrigen Fachordner.
+
 ### KSt Teil V (Hamacher), Abschnitt 4.1 – Verluste aus stillen Beteiligungen
 
 Quelle: dieselbe Datei, Seiten 69 bis 71; übernommen als Kapitel 43 und 44. Prüfung:
