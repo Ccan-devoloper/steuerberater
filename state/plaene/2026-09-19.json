@@ -13,12 +13,6 @@
       "themaTitel": "§ 173 AO: Rechtserheblichkeit, anhängiges BFH-Verfahren und Änderungssperre",
       "fach": "ao",
       "status": "veroeffentlicht",
-      "budgetBlockiert": {
-        "seit": "2026-09-19T07:43:36.102Z",
-        "grund": "autor: 0.2681 $ im Topf „core“ nicht mehr zulässig (frei 0.2395 $ von 0.3000 $) - der Aufruf startet nicht.",
-        "topf": "core",
-        "art": "AdmissionAbgelehnt"
-      },
       "medienId": "18108914296892223",
       "veroeffentlicht": "2026-09-19T08:45:16.192Z",
       "kanaele": {}
@@ -41,7 +35,9 @@
       "art": "frage",
       "themaId": "persg-quiz-k3-24",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18098528306338741",
+      "veroeffentlicht": "2026-09-19T09:44:48.747Z"
     },
     {
       "slot": "s4",
