@@ -67,11 +67,11 @@
       "attempt": 1,
       "slot": null,
       "reservedUsd": 0.057282,
-      "actualUsd": null,
-      "state": "unresolved",
+      "actualUsd": 0,
+      "state": "settled",
       "createdAt": "2026-09-19T08:44:19.217Z",
-      "updatedAt": "2026-09-19T08:44:21.758Z",
-      "grund": "Error"
+      "updatedAt": "2026-09-19T09:15:52.971Z",
+      "grund": "HTTP 400 aus Run 318 nachträglich reconciled; Provider hat Request vor Modelllauf abgewiesen, Fallback attempt 2 lief danach erfolgreich."
     },
     {
       "reservationId": "2026-09-19-0006-faktencheck",
@@ -100,5 +100,5 @@
       "updatedAt": "2026-09-19T08:44:34.241Z"
     }
   ],
-  "stand": "2026-09-19T08:45:27.621Z"
+  "stand": "2026-09-19T09:15:52.975Z"
 }
