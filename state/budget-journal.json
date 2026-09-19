@@ -120,11 +120,11 @@
       "attempt": 1,
       "slot": null,
       "reservedUsd": 0.023303,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.006475,
+      "state": "settled",
       "createdAt": "2026-09-19T09:44:24.968Z",
-      "updatedAt": "2026-09-19T09:44:26.319Z"
+      "updatedAt": "2026-09-19T09:44:36.422Z"
     }
   ],
-  "stand": "2026-09-19T09:44:26.319Z"
+  "stand": "2026-09-19T09:45:13.419Z"
 }
