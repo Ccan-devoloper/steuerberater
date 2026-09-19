@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 38 Kapitel mit 652 Abschnitten und 45 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 43 Kapitel mit 704 Abschnitten und 50 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5115,6 +5115,48 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   bleiben dagegen stets außer Ansatz, weil § 8b Abs. 3 Satz 3 KStG nicht an steuerfreie Einnahmen,
   sondern an die **Beteiligung als solche** anknüpft. Für den Organträger gilt damit eine klare
   Zweiteilung: laufender Aufwand voll abziehbar, substanzbezogener Aufwand nicht.
+  Die **weiteren Einzelfragen** kreisen sämtlich um einen Gedanken: **keine doppelte Erfassung
+  desselben Vorgangs**. Die handelsrechtlich gebotene **Drohverlustrückstellung** für die
+  Verlustübernahme scheitert schon am allgemeinen Passivierungsverbot des § 5 Abs. 4a EStG, wäre aber
+  auch sachlich verfehlt: Der Verlust der Organgesellschaft erreicht den Organträger ohnehin als
+  **negatives Organeinkommen**, so dass er sonst zweimal abgezogen würde. Die **Teilwertabschreibung**
+  auf die Organbeteiligung scheitert an **zwei** unabhängigen Hürden, die in der Klausur
+  auseinanderzuhalten sind. Die erste betrifft die **Bewertung**: Eine erwartete Verlustübernahme
+  taugt gar nicht erst als Begründung, weil § 302 AktG den Verlust **ausgleicht** – die Beteiligung
+  verliert durch ihn also gerade **nicht** an Wert. Die zweite betrifft die **Auswirkung**: Selbst
+  eine sachlich berechtigte Abschreibung bliebe nach § 8b Abs. 3 Satz 3 KStG außer Ansatz. Der
+  **Spendenabzug** bleibt spiegelbildlich zur Organgesellschaft **getrennt**: Das zugerechnete
+  Organeinkommen hebt den Höchstbetrag des Organträgers **nicht** an, maßgebend ist allein sein
+  eigener Gewinn vor dessen Erfassung. Wer den Abzug optimieren will, muss die Spende deshalb dort
+  leisten, wo das Volumen entsteht.
+  Bei der **vorweggenommenen Gewinnabführung** wird dem Organträger das erhöhte Organeinkommen
+  zugerechnet; nach R 14.7 Abs. 2 KStR ist dann bei ihm – und **nur** bei ihm, nie am Organeinkommen –
+  zu korrigieren. Die beiden Beispiele zeigen, warum das Endergebnis gleichwohl verschieden ausfällt.
+  Im **Zinsfall** (überhöhter Zinssatz von 10 % statt 5 %, also 50.000 € bei einem aus dem Zinsertrag
+  von 100.000 € ableitbaren Darlehen von 1.000.000 €) hat der Organträger den Betrag bereits als
+  Ertrag vereinnahmt; die Korrektur nimmt genau das wieder heraus, was die Zurechnung zusätzlich
+  bringt, so dass sein zu versteuerndes Einkommen mit **2.000.000 €** unverändert bleibt. Im
+  **Grundstücksfall** (Verkauf für 10.000 € bei einem gemeinen Wert von 500.000 €, also 490.000 €
+  verhinderte Vermögensmehrung) hat er dagegen einen **Vermögensvorteil** erhalten, den er noch gar
+  nicht versteuert hatte: Die Zuaktivierung holt ihn in die Bilanz, die Korrektur verhindert nur die
+  **doppelte** Erfassung, nicht die Erfassung überhaupt – es verbleiben **2.490.000 €**. Das ist auch
+  wirtschaftlich richtig, denn er hält ein Grundstück im Wert von 500.000 €, für das er 10.000 €
+  gezahlt hat; seine Anschaffungskosten betragen folgerichtig genau 500.000 €. Der im Sachverhalt
+  genannte Buchwert von 100.000 € taucht in keiner Zeile der Lösung auf, weil er bereits im
+  Jahresüberschuss der Organgesellschaft steckt – die Gegenprobe bestätigt es: Bei angemessenem
+  Entgelt hätte sie 400.000 € Gewinn erzielt, tatsächlich erzielte sie ./. 90.000 €, Differenz
+  490.000 €.
+  Die **verdeckte Einlage** ist der **spiegelbildliche** Fall: Dort fließt der Vorteil von der
+  Organgesellschaft zum Organträger, hier umgekehrt. Ihr Ertrag wird nach § 8 Abs. 3 Satz 3 KStG
+  neutralisiert, so dass das Organeinkommen **unberührt** bleibt und eine Korrektur nach R 14.7 Abs. 2
+  KStR gerade **nicht** nötig ist; ihr Einlagekonto steigt um den Teilwert. Beim Organträger leistet
+  eine einzige Buchung **zweierlei**: Sie erhöht die **Anschaffungskosten** der Organbeteiligung um
+  den Teilwert von 500.000 € und deckt zugleich die **stillen Reserven** von 400.000 € auf. Er steht
+  damit so, als hätte er das Grundstück zum gemeinen Wert **veräußert** und den Erlös **eingelegt**;
+  der Übertragungsgewinn ist ein regulärer Gewinn, weil er aus dem Grundstück stammt und nicht aus der
+  Beteiligung. Was hier eingelegt wird, kehrt später als **Einlagenrückgewähr** zurück, weil die
+  Organgesellschaft regelmäßig keinen ausschüttbaren Gewinn hat. Sämtliche Zahlen aller drei Beispiele
+  sind unabhängig nachgerechnet und gehen auf.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

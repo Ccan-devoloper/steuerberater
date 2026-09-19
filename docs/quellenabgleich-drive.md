@@ -10620,6 +10620,63 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitt 3.3.4 – weitere Einzelfragen beim Organträger
+
+Übernommen sind die Seiten 55 bis 58 der Quelle: die Rückstellung für die
+Verlustübernahme (3.3.4.1), die Teilwertabschreibung auf die Organbeteiligung
+(3.3.4.2), der Spendenabzug (3.3.4.3), die vorweggenommene Gewinnabführung mit beiden
+Beispielen (3.3.4.4) und die verdeckte Einlage mit Beispiel (3.3.4.5). Der Datensatz
+umfasst damit 43 Kapitel mit 704 Abschnitten und 50 Tabellen; geprüft mit
+`npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Alle fünf Abschnitte kreisen um die Vermeidung einer doppelten
+Erfassung. Die Drohverlustrückstellung scheitert an § 5 Abs. 4a EStG, die
+Teilwertabschreibung an § 8b Abs. 3 Satz 3 KStG und daran, dass § 302 AktG den Verlust
+ausgleicht. Der Spendenabzug bleibt getrennt. Bei der vorweggenommenen Gewinnabführung
+korrigiert R 14.7 Abs. 2 KStR nur beim Organträger, nie am Organeinkommen. Die
+verdeckte Einlage ist der spiegelbildliche Fall: Das Organeinkommen bleibt unberührt,
+beim Organträger steigen die Anschaffungskosten und die stillen Reserven werden
+aufgedeckt.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.3.4.4 schreibt „Weil dieser Vorgang beim Organträger im reflexartig
+  ebenfalls zu Einkommensauswirkungen führen kann“ – das Wort „im“ steht
+  überschüssig im Satz.
+- Abschnitt 3.3.4.5 schreibt „Daneben entsteht dieser im Zusammenhang mit der
+  Übertragung von Wirtschaftsgütern ein regulärer Übertragungsgewinn“; im Dativ
+  müsste es „diesem“ heißen.
+- Abschnitt 3.3.4.5 fährt fort „weil diese mit dem Teilwert i.S. des § 6 Abs. 1 Nr. 5
+  EStG zu bewerten ist“ – der Numerus wechselt gegenüber den zuvor genannten
+  „Wirtschaftsgütern“.
+
+**Eigene Nachrechnung.** Alle drei Beispiele sind unabhängig nachgerechnet und gehen auf.
+
+- *Zinsfall:* Der Darlehensbetrag wird im Sachverhalt **nicht genannt**; er ergibt sich
+  erst aus der Lösung – ein Zinsertrag von 100.000 € bei 10 % entspricht 1.000.000 €, so
+  dass die überhöhten 5 Prozentpunkte genau 50.000 € ausmachen. Organgesellschaft:
+  0 € + 1.000.000 € + 50.000 € = 1.050.000 €. Organträger: 2.000.000 € ./. 1.000.000 € +
+  1.050.000 € ./. 50.000 € = 2.000.000 €, das zu versteuernde Einkommen bleibt also
+  unverändert.
+- *Grundstücksfall:* verhinderte Vermögensmehrung 500.000 € ./. 10.000 € = 490.000 €.
+  Organgesellschaft: 0 € + 1.000.000 € + 490.000 € = 1.490.000 €. Organträger:
+  2.000.000 € ./. 1.000.000 € + 490.000 € + 1.490.000 € ./. 490.000 € = 2.490.000 €.
+  Der im Sachverhalt genannte **Buchwert von 100.000 €** erscheint in keiner Zeile der
+  Lösung, weil er bereits im Jahresüberschuss der Organgesellschaft steckt. Die
+  Gegenprobe bestätigt die 490.000 €: Bei angemessenem Entgelt hätte sie
+  500.000 € ./. 100.000 € = 400.000 € Gewinn erzielt, tatsächlich erzielte sie
+  10.000 € ./. 100.000 € = ./. 90.000 €. Beim Organträger betragen die
+  Anschaffungskosten 10.000 € + 490.000 € = 500.000 €, also genau den gemeinen Wert.
+- *Verdeckte Einlage:* Beteiligung + 500.000 €, Grundstück ./. 100.000 €, Ertrag
+  400.000 € – die Buchung geht auf; bei der Organgesellschaft heben sich Ertrag und
+  Abzug zu 500.000 € auf, das Organeinkommen beträgt 0 €.
+
+Als eigene Ergänzungen sind im Datensatz ausgewiesen: die Erläuterung, warum das zu
+versteuernde Einkommen im Zinsfall gleich bleibt und im Grundstücksfall steigt, die
+Rolle des in der Lösung nicht auftauchenden Buchwerts, die zweifache Sperre bei der
+Teilwertabschreibung und der spiegelbildliche Vergleich zwischen vorweggenommener
+Gewinnabführung und verdeckter Einlage.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.3.1 bis 3.3.3 – Auswirkungen beim Organträger
 
 Übernommen sind die Seiten 53 bis 55 der Quelle: die Einkommenszusammenrechnung
