@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 6 Kapitel mit 134 Abschnitten und 8 Tabellen. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 8 Kapitel mit 168 Abschnitten und 10 Tabellen. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4607,6 +4607,41 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   als Rechenhilfe für die Anteile ihrer Gesellschafter dienen. Auch hier fällt der Gegensatz zum
   Skript Teil V auf, wo die gewerblich geprägte Personengesellschaft für § 8c KStG selbst der Erwerber
   ist, als Organträgerin aber gerade nicht genügt.
+  **Zeitlich** muss die finanzielle Eingliederung **vom Beginn des Wirtschaftsjahres** der
+  Organgesellschaft an **ununterbrochen** bestehen. Ein **Rückbezug** scheidet aus, und der BFH
+  begründet das überzeugend: Die Eingliederung ist ein **tatsächlicher Lebenssachverhalt**, der eine
+  wirkliche und nicht nur fingierte Beherrschung verlangt. Davon zu unterscheiden sind zwei Fallgruppen,
+  die auf den ersten Blick gleich aussehen. Bei der **umwandlungsbedingten Rechtsnachfolge** – dem
+  Anteilstausch nach § 21 UmwStG und der Verschmelzung – wird dem Erwerber die **Vorbesitzzeit** des
+  Rechtsvorgängers zugerechnet: Die Beherrschung hat stattgefunden, nur durch eine andere Person. Beim
+  **steuerlichen Rückbezug** der Einbringung nach § 20 Abs. 5 und 6 UmwStG in eine **bestehende**
+  Gesellschaft wird dagegen eine Beherrschung fingiert, die es nie gab – das genügt nicht. Fein ist der
+  Grenzfall der **Sachgründung**: Entsteht die Gesellschaft erst durch die Einbringung, gibt es keine
+  Zeitspanne fremder Beherrschung, und die erstmals gewährten Anteile wirken zurück.
+  Die praktische Lösung nennt die Quelle beiläufig, sie ist aber die wichtigste Erkenntnis des
+  Abschnitts: die **Umstellung des Wirtschaftsjahres**. Ein Rumpfwirtschaftsjahr ab dem Erwerbstag
+  lässt die Eingliederung auf dieses Jahr bezogen von Anfang an bestehen; ohne Umstellung kostet ein
+  Erwerb am 01.03. ein ganzes Jahr. Im Jahr der Begründung darf sogar **zweimal** umgestellt werden –
+  erst auf den Beginn des Organschaftsverhältnisses, dann auf den im Organkreis üblichen Stichtag –,
+  und die Zustimmung nach § 7 Abs. 4 Satz 3 KStG **ist** zu erteilen, weil die Organschaft ein
+  gewichtiger Grund ist. Spiegelbildlich löst R 14.4 Abs. 2 KStR den **Veräußerungsfall**: Bei einer
+  Veräußerung zum Ende des Wirtschaftsjahres wird der Übergang exakt zwischen **24:00 Uhr** und
+  **00:00 Uhr** geschnitten, so dass **beide** Organschaften bestehen – die alte für das abgelaufene,
+  die neue für das folgende Jahr; bei unterjähriger Veräußerung hilft wieder nur die Umstellung.
+  Für die **Folgejahre** hat sich die Lage erheblich gebessert. Nach früherer Verwaltungsauffassung
+  vernichtete ein einziges Jahr ohne finanzielle Eingliederung die Organschaft für die gesamte
+  Restlaufzeit und riss dabei regelmäßig die Mindestlaufzeit ein. Der BFH hat dem widersprochen, die
+  Verwaltung ist gefolgt: Die Eingliederung ist ein **zeitpunktbezogenes** Merkmal des jeweiligen
+  Wirtschaftsjahres, kein vertragslaufzeitbezogenes Erfordernis. Fehlt sie in einem Jahr, entfällt nur
+  dieses, und die Organschaft lebt danach wieder auf – vorausgesetzt, der Gewinnabführungsvertrag wird
+  auch in der Zwischenzeit **tatsächlich durchgeführt**.
+  Der **Gewinnabführungsvertrag** ist das zentrale Element der Organschaft und verpflichtet **beide**
+  Seiten: die Organgesellschaft zur Abführung ihres **handelsbilanziellen** Ergebnisses, den
+  Organträger zum Ausgleich ihrer handelsbilanziellen Verluste. Erst dadurch arbeitet die
+  Organgesellschaft **auf Rechnung** des Organträgers, was die Einkommenszurechnung rechtfertigt.
+  Bemerkenswert ist die Anknüpfung ans **Handelsrecht**: Abgeführt wird der handelsbilanzielle Gewinn,
+  zugerechnet dagegen das **steuerliche** Einkommen – aus dieser Abweichung entstehen die später
+  behandelten Mehr- und Minderabführungen.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -10620,6 +10620,38 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 2.4.4 und 2.5 (Einleitung) – zeitliche Voraussetzungen
+
+Quelle: dieselbe Datei, Seiten 16 bis 18; übernommen als Kapitel 7 und 8. Prüfung:
+`npm run check:k2-kst-teil6` (8 Kapitel, 168 Blöcke, 10 Tabellen).
+
+Der Abschnitt enthält keine Rechenbeispiele; sämtliche Zeitangaben der fünf Sachverhalte sind auf
+ihre innere Stimmigkeit geprüft und tragen die jeweilige Lösung.
+
+**Vier sprachliche Eigenheiten sind übernommen und markiert:** der unvollständige Satz „bringt die
+A-GmbH einen Teilbetrieb zu Buchwerten in die C-GmbH und schließt“, die fehlende Klammer in
+„Wj. 01.10. – 30.09)“, die Fügung „sowohl beim Veräußerer und beim Erwerber“ und die Deklination
+„ihr ganzes handelsbilanziellen Ergebnis“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Unterscheidung zwischen umwandlungsbedingter
+Rechtsnachfolge, bei der die Vorbesitzzeit übergeht, und steuerlichem Rückbezug, der eine
+Beherrschung fingiert – und die Begründung, warum der BFH nur die erste zulässt; die Auflösung des
+Grenzfalls der Sachgründung, bei der keine fremde Beherrschung übersprungen wird; die Tragweite der
+Kehrtwende bei den Folgejahren, die früher über die Mindestlaufzeit die gesamte Organschaft
+vernichtete; die Hervorhebung der Umstellung des Wirtschaftsjahres als wichtigste praktische
+Erkenntnis; die Erläuterung, wozu die beiden Umstellungen im Begründungsjahr jeweils dienen und dass
+insoweit kein Ermessen besteht; die Deutung der Mitternachtsregel der R 14.4 Abs. 2 KStR als Lösung
+eines sonst zwangsläufigen Problems; und die Beobachtung, dass der Vertrag am Handelsrecht anknüpft,
+während das steuerliche Einkommen zugerechnet wird, woraus die Mehr- und Minderabführungen
+entstehen.
+
+**Neu sind zwei Übersichten:** eine zu den Vorgängen, bei denen ein Rückbezug der finanziellen
+Eingliederung möglich ist, und eine zum Verlauf der beiden Rumpfwirtschaftsjahre im Beispiel zur
+zweifachen Umstellung.
+
+**Noch offen:** aus Teil VI die weiteren Abschnitte zum Gewinnabführungsvertrag (2.5) sowie die
+Kapitel 3 und 4; ganz offen ist der Skriptteil VII (Liquidation).
+
 ### KSt Teil VI (Hamacher), Abschnitte 2.3.3 und 2.4 – Besteuerungsrecht und finanzielle Eingliederung
 
 Quelle: dieselbe Datei, Seiten 12 bis 15; übernommen als Kapitel 5 und 6. Prüfung:

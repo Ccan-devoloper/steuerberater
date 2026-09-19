@@ -17,8 +17,9 @@
    der Organträger mit der Rechtsformunabhängigkeit (2.3.1) und der Besonderheit
    bei Personengesellschaften (2.3.2) übernommen, dazu die inländische
    Besteuerung des Organeinkommens (2.3.3) und die finanzielle Eingliederung
-   (2.4). Es folgen der Gewinnabführungsvertrag (2.5) sowie die Kapitel 3 und 4;
-   der Campus weist den Stand aus.
+   (2.4 einschließlich der zeitlichen Voraussetzungen) sowie die Einleitung zum
+   Gewinnabführungsvertrag (2.5). Es folgen dessen weitere Abschnitte sowie die
+   Kapitel 3 und 4; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -392,6 +393,99 @@ export const kstTeil6 = [
       { text: "Anmerkung zur Durchlässigkeit der Zwischengesellschaft (eigene Ergänzung): Dass die vermittelnde Gesellschaft **selbst nicht organschaftsfähig** sein muss, erweitert den Anwendungsbereich erheblich und wird in der Klausur gern geprüft. Die Zwischengesellschaft dient nur als **Rechenposten**: Sie muss beherrscht werden und ihre Quote wird durchgerechnet, mehr verlangt das Gesetz nicht. Deshalb genügt auch eine **ausländische** Gesellschaft ohne jeden Inlandsbezug oder eine **nicht gewerblich tätige** Personengesellschaft. Der Gewinnabführungsvertrag wird gleichwohl unmittelbar zwischen Organträger und Organgesellschaft geschlossen – die Zwischengesellschaft bleibt an ihm unbeteiligt." },
       { text: "Anmerkung zum Ausschluss des Sonderbetriebsvermögens (eigene Ergänzung): Die Regel des § 14 Abs. 1 Nr. 2 Satz 3 KStG ist eine der wenigen Stellen, an denen das Steuerrecht das Sonderbetriebsvermögen **ausblendet**, obwohl es sonst zum Betriebsvermögen der Mitunternehmerschaft rechnet. Der Grund ist derselbe wie bei der originär gewerblichen Tätigkeit: Die Personengesellschaft soll die Organgesellschaft **selbst** beherrschen und nicht als Rechenhilfe für die Anteile ihrer Gesellschafter dienen. Das erste Beispiel führt genau die verbotene Gestaltung vor – zwei Gesellschafter mit je 50 % an der C-GmbH, gebündelt über eine KG. Bemerkenswert ist der Gegensatz zum Skript Teil V: Für § 8c KStG ist die **gewerblich geprägte** Personengesellschaft selbst der Erwerber, hier genügt sie als Organträgerin gerade nicht." },
       { text: "Anmerkung zur Kombination beider Regeln (eigene Ergänzung): Das dritte Beispiel zur Personengesellschaft verbindet die Anforderungen aus 2.4.2 und 2.4.3 und zeigt, wie sie zusammenwirken. Die mittelbare Beteiligung über die D-GmbH wird anerkannt, weil zwei Bedingungen zugleich erfüllt sind: Die M-KG **beherrscht** die D-GmbH mit 100 %, und der Anteil an der D-GmbH gehört zum **Gesamthandsvermögen**. Läge er im Sonderbetriebsvermögen eines Mitunternehmers, bliebe er ebenso außer Betracht wie die unmittelbaren Anteile im ersten Beispiel – die Eingliederung betrüge dann nur 40 % und scheiterte." },
+    ],
+  },
+  {
+    id: "kst-t6-7",
+    kapitel: "7",
+    abschnittNr: "2.4.4.1",
+    title: "2.4.4 Zeitliche Voraussetzungen – ununterbrochene Eingliederung und Auswirkungen für die Folgejahre",
+    thema: "Die finanzielle Eingliederung muss vom Beginn des Wirtschaftsjahres an ununterbrochen bestehen; ein Rückbezug ist nur bei umwandlungsbedingter Rechtsnachfolge möglich",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitte 2.4.4.1 und 2.4.4.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 1 Nr. 1 Satz 1 KStG",
+      "§ 14 Abs. 1 Nr. 3 KStG",
+      "§ 14 KStG",
+      "§ 21 UmwStG",
+      "§ 23 Abs. 1 UmwStG",
+      "§ 4 Abs. 2 Satz 3 UmwStG",
+      "§ 20 Abs. 5 und Abs. 6 UmwStG",
+      "§§ 3 bis 10 und 11 bis 13 UmwStG",
+      "R 14.4 KStR",
+      "BFH vom 18.09.1984, BStBl. II 1985, 55",
+      "BFH vom 10.05.2017, BStBl. II 2018, 30 und BStBl. II 2019, 81",
+      "BFH vom 11.07.2023, BStBl. II 2024, 413, 419, 434 und 438",
+      "BMF vom 02.01.2025, Org. 13 und Org. 15",
+    ],
+    themen: ["ununterbrochene Eingliederung", "Rückbezug", "Vorbesitzzeit", "Anteilstausch", "Sachgründung", "zeitpunktbezogenes Tatbestandsmerkmal"],
+    bloecke: [
+      { typ: "titel", text: "2.4.4 Zeitliche Voraussetzungen" },
+      { typ: "titel", text: "2.4.4.1 Ununterbrochene Eingliederung" },
+      { text: "§ 14 Abs. 1 Nr. 1 Satz 1 KStG setzt zudem voraus, dass die finanzielle Eingliederung vom Beginn des Wirtschaftsjahres der Organgesellschaft an und in diesem ununterbrochen gegeben ist. Wird die finanzielle Eingliederung daher erst im Laufe eines Wirtschaftsjahres der Organgesellschaft begründet, bleibt die Organschaft zumindest für dieses Wj. unberücksichtigt, wenn nicht das Wirtschaftsjahr der Organgesellschaft für diese Zwecke umgestellt wird (siehe unter 2.4.4.3). Anteile, die im laufenden Wirtschaftsjahr erworben werden, können grundsätzlich nicht auf den Beginn des Wirtschaftsjahres zurückbezogen werden. Etwas anderes gilt wiederum in den Fällen der unterjährigen Anteilseinbringung nach § 21 UmwStG, weil dem Erwerber dann über § 23 Abs. 1 UmwStG auch die Vorbesitzzeit des Einbringenden zugerechnet wird. Gleiches gilt bei einer unterjährigen Verschmelzung i.S. der §§ 3 – 10 und 11 – 13 UmwStG, weil die Vorbesitzzeit dann ebenfalls über § 4 Abs. 2 Satz 3 UmwStG auf den Rechtsnachfolger übergeht." },
+      { text: "Beispiel: Die A-GmbH erwirbt am 01.03.2025 die 100%-Beteiligung an der C-GmbH (Wj. = Kj.)." },
+      { text: "Lösung: Maßgebend für die finanzielle Eingliederung ist, dass die C-GmbH im gesamten Wirtschaftsjahr 2025 ununterbrochen beherrscht wird. Dies ist vorliegend auszuschließen, weil der A-GmbH die Anteile erst ab dem 01.03.2025 zuzurechnen sind und daher die Zeitspanne vom 01.01. – 28.02.2025 nicht in die Beherrschung fällt. Frühestens ab VZ 2026 liegen die Organschaftsvoraussetzungen vor. Etwas anderes gilt, wenn die C-GmbH in 2025 ihr Wirtschaftsjahr umstellt (01.01. – 28.02. und ab 01.03.) und ein Rumpf-Wj. ab dem 01.03. begründet. Dann wird die Beherrschung ab dem Beginn des Wj. 01.03.2025 gewertet und liegt auf dieses Wj. bezogen ununterbrochen vor." },
+      { text: "Beispiel: Die A-GmbH bringt mit Wirkung zum 01.07.2025 ihre in 1997 erworbene 100%ige Beteiligung an der X-GmbH (Wj. = Kj.) zu Buchwerten in die B-GmbH ein. Die Voraussetzungen des § 21 UmwStG sollen erfüllt sein. Die X-GmbH ist bereits eine Organgesellschaft der A-GmbH." },
+      { text: "Lösung: Die Voraussetzungen der finanziellen Eingliederung i.S. des § 14 Abs. 1 Nr. 1 Satz 1 KStG sind erfüllt, weil die X-GmbH ununterbrochen in die B-GmbH eingegliedert ist. Zwar kann der Anteilstausch i.S. des § 21 UmwStG nicht zurückbezogen werden und gilt erst zum 01.07.2025 als vollzogen. Trotzdem wird der B-GmbH nach § 23 Abs. 1 UmwStG i.V. mit § 4 Abs. 2 Satz 3 UmwStG die Vorbesitzzeit des Einbringenden A-GmbH vom 01.01. – 30.06.2025 als Rechtsnachfolger zugerechnet (siehe auch Org. 15 des BMF-Schreibens vom 02.01.2025)." },
+      { text: "Der BFH hat aber mit Urteil vom 10.05.2017 entschieden, dass sich die finanzielle Eingliederung steuerlich nicht zurückbeziehen lässt. Dieses Kriterium als tatsächlicher Lebenssachverhalt setzt nämlich voraus, dass die Organgesellschaft tatsächlich und nicht nur fiktiv beherrscht wird. Diese Beherrschung muss daher bereits ab dem Zeitpunkt vorliegen, ab dem die Anteile dem Organträger erstmals zugerechnet werden, d.h. ein Rückbezug ist mit Ausnahme der Fälle der umwandlungsbedingten Rechtsnachfolge nicht möglich. Daher kann eine steuerlich zurückbezogene Einbringung in eine zuvor unterjährig erworbene (Organ-)Beteiligung nicht zu einer ununterbrochenen finanziellen Eingliederung führen. Hinsichtlich der Auswirkungen auf die Mindestlaufzeit i.S. des § 14 Abs. 1 Nr. 3 KStG siehe unter 2.5.3." },
+      { text: "Beispiel: Die A-GmbH erwirbt am 31.03.2025 die 100%-Beteiligung an der C-GmbH (Wj. = Kj.), welche in 1997 gegründet worden ist. Mit Wirkung zum 31.12.2024 bringt die A-GmbH einen Teilbetrieb zu Buchwerten in die C-GmbH ein und schließt gleichzeitig für das Wirtschaftsjahr 2025 einen GAV mit dieser ab." },
+      { text: "Lösung: Obwohl die Einbringung des Teilbetriebs nach § 20 Abs. 5 und Abs. 6 UmwStG steuerlich zurückbezogen werden kann, ist die C-GmbH in 2025 nicht ununterbrochen in die A-GmbH finanziell eingegliedert, weil für diese Zwecke erst auf den 31.03.2025 abzustellen ist. Daran ändert auch die im Rahmen der Einbringung notwendige Kapitalerhöhung nichts, weil die A-GmbH ihre Mehrheitsbeteiligung erst am 31.03.2025 erworben hat. Die davor liegende Zeitspanne kann der A-GmbH nicht zugerechnet werden." },
+      { text: "Etwas Anderes würde nur in dem Fall gelten, in dem die C-GmbH aufgrund der Einbringung neugegründet worden wäre, weil es sich dann um einen Tatbestand der auf den 31.12.2024 zurückbezogenen Sachgründung gehandelt hätte. Die dadurch erstmals gewährten Anteile wären der A-GmbH dann auch rückwirkend zum 31.12.2024 zuzurechnen, so dass der Tatbestand der ununterbrochenen finanziellen Eingliederung für 2025 ganzjährig gegeben wäre (siehe auch Org. 13 des BMF-Schreibens vom 02.01.2025)." },
+      { typ: "titel", text: "2.4.4.2 Auswirkungen für die Folgejahre" },
+      { text: "Die Voraussetzungen des § 14 Abs. 1 Nr. 1 KStG mussten nach bisheriger Verwaltungsauffassung während der gesamten Laufzeit der Organschaft und somit in jedem Wj. gegeben sein. Bei Nichterfüllung wurde die Organschaft ab diesem Wj. steuerlich nicht mehr anerkannt. Dieser Rechtsauffassung hat der BFH widersprochen, die Finanzverwaltung ist dieser zwischenzeitlich gefolgt. Danach ist das Nichtvorliegen der finanziellen Eingliederung für die nachfolgenden Jahre wieder unschädlich, wenn der Gewinnabführungsvertrag in dieser Zeitspanne insgesamt auch tatsächlich durchgeführt wird (d.h. Gewinnabführung oder Verlustübernahme ist erfolgt) und die weiteren Voraussetzungen i.S. des § 14 KStG in diesen Jahren erfüllt sind. Die ununterbrochene finanzielle Eingliederung stellt danach nur ein zeitpunktbezogenes Tatbestandsmerkmal des jeweils betroffenen Wirtschaftsjahres dar, nicht aber ein darüber hinausgehendes vertragslaufzeitbezogenes Erfordernis. In diesem Fall würde die Anerkennung der Organschaft dann nur in dem betreffenden Wirtschaftsjahr ausscheiden." },
+      { text: "Beispiel: Die A-GmbH erwirbt am 31.03.2024 die 100%-Beteiligung an der C-GmbH (Wj. = Kj.), welche in 1997 gegründet worden ist. Mit Wirkung zum 31.12.2023 bringt die A-GmbH einen Teilbetrieb zu Buchwerten in die C-GmbH und schließt gleichzeitig einen GAV mit dieser ab (Laufzeit: 5 (Zeit-)Jahre). (Der unvollständige Satz „bringt … einen Teilbetrieb … in die C-GmbH und schließt“ steht so in der Quelle; gemeint ist „ein“.)" },
+      { text: "Lösung: Obwohl die Einbringung des Teilbetriebs steuerlich zurückbezogen werden kann, ist die C-GmbH in 2024 nicht ununterbrochen in die A-GmbH finanziell eingegliedert. Damit kann die Organschaft für den VZ 2024 nicht anerkannt werden." },
+      { text: "Anders ist dies hingegen in den Folgejahren. Denn die Anerkennung der Organschaft scheitert in den nachfolgenden Jahren nicht daran, dass in einem Jahr der Organschaftsperiode die Voraussetzungen nicht gegeben waren. Daher wäre die Organschaft nachfolgend ab dem VZ 2025 anzuerkennen, wenn in diesen Jahren die Voraussetzungen erfüllt sind und der Gewinnabführungsvertrag tatsächlich durchgeführt wird." },
+      { typ: "tabelle", spalten: ["Vorgang", "Rückbezug der finanziellen Eingliederung?", "Norm"], zeilen: [
+        ["gewöhnlicher Anteilserwerb im laufenden Wirtschaftsjahr", "nein", "BFH vom 18.09.1984; BFH vom 10.05.2017"],
+        ["Anteilseinbringung nach § 21 UmwStG", "ja – Vorbesitzzeit des Einbringenden", "§ 23 Abs. 1 UmwStG i.V. mit § 4 Abs. 2 Satz 3 UmwStG"],
+        ["Verschmelzung nach §§ 3 bis 10 und 11 bis 13 UmwStG", "ja – Vorbesitzzeit geht über", "§ 4 Abs. 2 Satz 3 UmwStG"],
+        ["Einbringung eines Teilbetriebs in eine bestehende Gesellschaft", "nein – trotz Rückbezug nach § 20 Abs. 5, 6 UmwStG", "BFH vom 10.05.2017"],
+        ["Sachgründung durch Einbringung", "ja – die erstmals gewährten Anteile wirken zurück", "Org. 13 des BMF-Schreibens vom 02.01.2025"],
+      ] },
+      { text: "Anmerkung zum Unterschied zwischen Rückbezug und Rechtsnachfolge (eigene Ergänzung): Die Quelle stellt zwei Fallgruppen nebeneinander, die auf den ersten Blick gleich aussehen, rechtlich aber verschieden sind. Bei der **umwandlungsbedingten Rechtsnachfolge** – Anteilstausch nach § 21 UmwStG, Verschmelzung – wird dem Erwerber die **Vorbesitzzeit** des Rechtsvorgängers zugerechnet: Die Beherrschung hat tatsächlich stattgefunden, nur durch eine andere Person. Beim **steuerlichen Rückbezug** nach § 20 Abs. 5 und 6 UmwStG wird dagegen eine Beherrschung **fingiert**, die es nie gab. Genau darauf stützt der BFH seine Ablehnung: Die finanzielle Eingliederung ist ein **tatsächlicher Lebenssachverhalt**, der sich nicht fingieren lässt. Wer beide Fälle verwechselt, kommt in der Klausur zum falschen Ergebnis." },
+      { text: "Anmerkung zum Grenzfall der Sachgründung (eigene Ergänzung): Die Ausnahme am Ende des Abschnitts 2.4.4.1 ist fein und lohnt die Betrachtung, weil sie die Regel bestätigt. Wird die Gesellschaft durch die Einbringung **erst gegründet**, gibt es keine Zeitspanne, in der sie von jemand anderem beherrscht wurde – die erstmals gewährten Anteile sind der A-GmbH von Anfang an zuzurechnen. Der Unterschied zur Einbringung in eine **bestehende** Gesellschaft ist damit kein formaler: Dort existierte die C-GmbH seit 1997 und wurde bis zum 31.03. von anderen beherrscht, hier existiert sie überhaupt erst seit dem Rückwirkungsstichtag. Die Fiktion trägt also nur, wo sie keine reale Beherrschung überspringt." },
+      { text: "Anmerkung zur Kehrtwende bei den Folgejahren (eigene Ergänzung): Die Änderung der Verwaltungsauffassung ist für den Steuerpflichtigen erheblich günstiger, als der nüchterne Wortlaut vermuten lässt. Nach altem Verständnis vernichtete ein einziges Jahr ohne finanzielle Eingliederung die Organschaft **für die gesamte Restlaufzeit** – und riss damit regelmäßig auch die Mindestlaufzeit des § 14 Abs. 1 Nr. 3 KStG ein, so dass rückwirkend sämtliche Jahre entfielen. Nach der neuen Sicht ist die Eingliederung ein **zeitpunktbezogenes** Merkmal: Sie fehlt nur in dem betroffenen Jahr, und die Organschaft lebt danach wieder auf. Voraussetzung bleibt, dass der Gewinnabführungsvertrag auch in der Zwischenzeit **tatsächlich durchgeführt** wird – die Abführung oder Verlustübernahme darf also nicht ausgesetzt werden." },
+      { text: "Anmerkung zur Gestaltungsempfehlung aus dem ersten Beispiel (eigene Ergänzung): Die Quelle nennt die Lösung beiläufig, sie ist aber die wichtigste praktische Erkenntnis des Abschnitts: Wer unterjährig Anteile erwirbt und die Organschaft **sofort** begründen will, muss das **Wirtschaftsjahr der Organgesellschaft umstellen** und ein Rumpfwirtschaftsjahr ab dem Erwerbstag bilden. Dann beginnt das maßgebliche Wirtschaftsjahr erst mit dem Erwerb, und die Eingliederung besteht auf dieses Jahr bezogen von Anfang an. Ohne Umstellung kostet ein Erwerb am 01.03. ein ganzes Jahr – die Organschaft greift erst ab dem folgenden Veranlagungszeitraum." },
+    ],
+  },
+  {
+    id: "kst-t6-8",
+    kapitel: "8",
+    abschnittNr: "2.4.4.3",
+    title: "2.4.4.3 Umstellung des Wirtschaftsjahres und 2.5 Gewinnabführungsvertrag",
+    thema: "Im Jahr der Begründung darf das Wirtschaftsjahr zweimal umgestellt werden; der Gewinnabführungsvertrag ist das zentrale Element der Organschaft",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitte 2.4.4.3 und 2.5 (Einleitung) · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 1 Satz 1 KStG",
+      "§ 7 Abs. 4 Satz 3 KStG",
+      "R 14.4 Abs. 1 Satz 3 KStR",
+      "R 14.4 Abs. 2 KStR",
+      "R 14.4 Abs. 3 KStR",
+      "R 14.4 Abs. 3 Satz 2 KStR",
+    ],
+    themen: ["Rumpfwirtschaftsjahr", "Umstellung des Wirtschaftsjahres", "Zustimmung des Finanzamts", "Veräußerungsfall", "Gewinnabführungsvertrag", "Verlustübernahme"],
+    bloecke: [
+      { typ: "titel", text: "2.4.4.3 Umstellung des Wirtschaftsjahres" },
+      { text: "Im Veranlagungszeitraum der Begründung der Organschaft lässt die Verwaltung bei der Organgesellschaft die Bildung eines Rumpf-Wj. zu. In diesem Fall ist für die Frage der ununterbrochenen Eingliederung ausschließlich auf das Rumpf-Wj. der Organgesellschaft abzustellen. Für Zwecke der Bildung bzw. Umstellung des abweichenden Wirtschaftsjahres ist der Organgesellschaft die notwendige Zustimmung i.S. des § 7 Abs. 4 Satz 3 KStG zu erteilen, weil die Begründung der Organschaft hierfür einen gewichtigen Grund darstellt. Dies gilt auch dann, wenn das Wirtschaftsjahr im Jahr der Begründung der Organschaft ein weiteres Mal umgestellt werden muss, nämlich einerseits" },
+      { text: "- auf den Zeitpunkt, an dem das Organschaftsverhältnis beginnt und" },
+      { text: "- anschließend auf den im Organkreis üblichen Abschlussstichtag." },
+      { text: "Beispiel: Die A-GmbH (Wj. 01.10. – 30.09) erwirbt am 01.04.2024 die 100%-Beteiligung an der C-GmbH (Wj. = Kj.). Die C-GmbH stellt mit Zustimmung des Finanzamts ihr Wirtschaftsjahr auf den 01.04. – 31.03. um. Am 15.09.2024 stellt sie ihr Wirtschaftsjahr auf das der A-GmbH entsprechende Wj. um, so dass sie vom 01.04. – 30.09. über ein Rumpf-Wj. verfügt." },
+      { text: "Lösung: Die zweimalige Umstellung des Wj. ist zulässig, wobei diese Ausnahme nur für das Jahr der Begründung der Organschaft gilt. Aufgrund der Umstellung hat die C-GmbH in 2024 zwei Rumpf-Wj., nämlich vom 01.01. – 31.03.2024 und vom 01.04. – 30.09.2024. Zu Beginn des zweiten Rumpf-Wj. ist die C-GmbH ununterbrochen in die A-GmbH finanziell eingegliedert, so dass die Organschaftsvoraussetzungen bereits für 2024 erfüllt sind." },
+      { text: "Dies gilt auch im Veräußerungsfall, weil die Anteilsveräußerung im laufenden Wj. der Organgesellschaft ebenfalls die finanzielle Eingliederung beendet. Veräußert der Organträger seine Beteiligung zum „Ende des Wj der Organgesellschaft“, geht die Finanzverwaltung aus Vereinfachungsgründen davon aus, dass der Organträger das Eigentum an den Anteilen bis zum letzten Tag (24:00 Uhr) des Wj behält und der Erwerber das Eigentum folgerichtig erst am nachfolgenden Tag (00:00 Uhr) des anschließenden Wj begründet. In diesen Fällen wäre die finanzielle Eingliederung sowohl beim Veräußerer und beim Erwerber erfüllt. Anderenfalls muss das Wj. der Organgesellschaft nach den Grundsätzen der R 14.4 Abs. 3 KStR umgestellt werden. (Die Fügung „sowohl beim Veräußerer und beim Erwerber“ steht so in der Quelle.)" },
+      { typ: "titel", text: "2.5 Gewinnabführungsvertrag" },
+      { text: "§ 14 Abs. 1 Satz 1 KStG setzt als zentrales Element der Organschaft einen Ergebnis- oder Gewinnabführungsvertrag (GAV) voraus. Dessen wesentlicher Inhalt besteht in der Verpflichtung der Organgesellschaft, ihr ganzes handelsbilanziellen Ergebnis an den Organträger abzuführen sowie auch in der Verpflichtung des Organträgers, die handelsbilanziellen Verluste der Organgesellschaft auszugleichen. Dadurch wird deutlich, dass die Tätigkeit der Organgesellschaft faktisch ausschließlich auf Rechnung des Organträgers ausgeübt wird und daher schon aus diesem Grunde eine Einkommenszurechnung beim Organträger gerechtfertigt ist. (Die Deklination „ihr ganzes handelsbilanziellen Ergebnis“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Zeitraum im Beispiel zur zweifachen Umstellung", "Wirtschaftsjahr der C-GmbH", "finanzielle Eingliederung"], zeilen: [
+        ["01.01. – 31.03.2024", "erstes Rumpf-Wj.", "nein – der Erwerb erfolgt erst am 01.04.2024"],
+        ["01.04. – 30.09.2024", "zweites Rumpf-Wj.", "ja – von Beginn dieses Wj. an ununterbrochen"],
+        ["ab 01.10.2024", "Wj. 01.10. – 30.09. wie beim Organträger", "ja"],
+      ] },
+      { text: "Anmerkung zum Zusammenspiel von Umstellung und Eingliederung (eigene Ergänzung): Das Beispiel zeigt, wie sich die strenge Regel des Abschnitts 2.4.4.1 durch Gestaltung entschärfen lässt, und die zweifache Umstellung ist dabei nur auf den ersten Blick umständlich. Die **erste** Umstellung dient allein der Organschaft: Sie legt den Beginn des Wirtschaftsjahres auf den Erwerbstag, so dass die Eingliederung von Anfang an besteht. Die **zweite** dient der Praktikabilität: Sie gleicht den Abschlussstichtag dem des Organträgers an, damit Gewinnabführung und Einkommenszurechnung in einem Rhythmus laufen. Die Verwaltung lässt beides im selben Jahr zu und muss die Zustimmung nach § 7 Abs. 4 Satz 3 KStG erteilen, weil die Organschaft ein gewichtiger Grund ist – ein Ermessen besteht insoweit nicht." },
+      { text: "Anmerkung zur Mitternachtsregel im Veräußerungsfall (eigene Ergänzung): Die Vereinfachung der R 14.4 Abs. 2 KStR löst ein Problem, das sich sonst zwangsläufig stellte. Veräußert der Organträger zum Ende des Wirtschaftsjahres, fiele der Übergang an sich in **beide** Wirtschaftsjahre nicht sauber hinein – entweder dem Veräußerer fehlte der letzte Tag oder dem Erwerber der erste. Die Verwaltung schneidet den Übergang deshalb exakt zwischen **24:00 Uhr** und **00:00 Uhr** und lässt damit **beide** Organschaften bestehen: die alte für das abgelaufene, die neue für das folgende Jahr. Liegt die Veräußerung dagegen unterjährig, hilft nur die Umstellung des Wirtschaftsjahres nach R 14.4 Abs. 3 KStR." },
+      { text: "Anmerkung zur doppelten Verpflichtung des Vertrags (eigene Ergänzung): Der Gewinnabführungsvertrag verpflichtet **beide** Seiten, und das ist mehr als eine Formalie. Die Organgesellschaft schuldet die Abführung ihres **handelsbilanziellen** Ergebnisses, der Organträger den Ausgleich ihrer **handelsbilanziellen** Verluste. Beide Pflichten sind Bedingung für die Einkommenszurechnung, weil erst sie bewirken, dass die Organgesellschaft **auf Rechnung** des Organträgers arbeitet. Bemerkenswert ist die Anknüpfung an das **Handelsrecht**: Abgeführt wird der handelsbilanzielle Gewinn, zugerechnet dagegen das **steuerliche** Einkommen – aus dieser Abweichung entstehen die in Abschnitt 3.4 behandelten Mehr- und Minderabführungen." },
     ],
   },
 ];
