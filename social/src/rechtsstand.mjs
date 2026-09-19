@@ -1092,6 +1092,34 @@ function korrigiereFeststellungsbescheid181(thema) {
 }
 
 
+
+function korrigiereAo173Aenderungssperre(thema) {
+  normErgaenzen(thema, "§ 173 Abs. 2 AO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 173 Abs. 2 AO enthält nach einer Außenprüfung eine besondere Änderungssperre. Sie gilt für Steuerbescheide, soweit sie aufgrund einer Außenprüfung ergangen sind, und ebenso nach einer Mitteilung nach § 202 Abs. 1 S. 3 AO.",
+      "Die Sperre ist nicht absolut: Eine Aufhebung oder Änderung nach § 173 Abs. 1 bleibt möglich, wenn eine Steuerhinterziehung oder eine leichtfertige Steuerverkürzung vorliegt. Beide Alternativen müssen ausdrücklich geprüft werden.",
+      "Rechtserheblichkeit bleibt davon getrennt: Eine nachträglich bekannt gewordene Tatsache muss bei zutreffender Anwendung des im Erlasszeitpunkt maßgeblichen Rechts zu einer anderen Steuer geführt haben; eine bloße spätere Änderung der Rechtsauffassung ist selbst keine neue Tatsache.",
+    ],
+    lernziele: [
+      "Rechtserheblichkeit einer neuen Tatsache von einer späteren Rechtsänderung oder Rechtsprechungsänderung trennen",
+      "§ 173 Abs. 2 nach Außenprüfung oder Mitteilung nach § 202 Abs. 1 S. 3 prüfen",
+      "Steuerhinterziehung als Ausnahme von der Änderungssperre erkennen",
+      "leichtfertige Steuerverkürzung als gleichrangige zweite Ausnahme erkennen",
+      "Änderungssperre nur soweit auf den von der Außenprüfung erfassten Steuerbescheid beziehen",
+    ],
+    pruefschritte: [
+      "Neue Tatsache oder neues Beweismittel und Rechtserheblichkeit nach § 173 Abs. 1 prüfen.",
+      "Feststellen, ob der betreffende Steuerbescheid aufgrund einer Außenprüfung ergangen ist oder eine Mitteilung nach § 202 Abs. 1 S. 3 AO vorliegt.",
+      "Falls ja, § 173 Abs. 2 anwenden: Änderungssperre als Grundsatz.",
+      "Ausnahmen vollständig prüfen: Steuerhinterziehung oder leichtfertige Steuerverkürzung.",
+      "Nur soweit eine dieser beiden Ausnahmen vorliegt, kann § 173 Abs. 1 trotz Änderungssperre eingreifen.",
+    ],
+    merksatz: "§ 173 Abs. 2 nach Außenprüfung sperrt § 173 Abs. 1 grundsätzlich – aber nicht nur bei Steuerhinterziehung: Auch leichtfertige Steuerverkürzung durchbricht die Sperre.",
+  };
+}
+
 function korrigiereSchlichteAenderung172(thema) {
   normErgaenzen(
     thema,
@@ -1742,6 +1770,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "ao-modul-ao-351": korrigiereFeststellungsbescheid181(thema); break;
       case "ao-modul-ao-352": korrigiereAo129(thema); break;
       case "ao-modul-ao-354": korrigiereAo173(thema); break;
+      case "ao-modul-ao-359": korrigiereAo173Aenderungssperre(thema); break;
       case "ao-modul-ao-360": korrigiereSchlichteAenderung172(thema); break;
       case "ao-modul-ao-363": korrigiereAo177(thema); break;
       case "ao-modul-ao-367": korrigiereVollstreckung(thema); break;
