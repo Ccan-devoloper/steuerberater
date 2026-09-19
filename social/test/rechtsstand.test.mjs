@@ -175,6 +175,14 @@ test("Abbruchkosten behandeln die Dreijahresfrist nur als Anscheinsbeweis", () =
   assert.doesNotMatch(kern(t), /Restbuchwert → Grund und Boden/);
 });
 
+
+test("§9-UStG-Karte verallgemeinert das notarielle Formerfordernis nicht", () => {
+  const t = byTitle(/Option nach § 9 UStG/i);
+  assert.match(kern(t), /Vermietungs-\/Verpachtungsumsätzen[^"]*§ 9 Abs\. 2/);
+  assert.match(kern(t), /notarielle Formerfordernis[^"]*§ 9 Abs\. 3 S\. 2/);
+  assert.match(kern(t), /nicht pauschal für jede Grundstücksvermietung/);
+});
+
 test("USt-Quiz zur innergemeinschaftlichen Lieferung nennt alle tragenden Voraussetzungen", () => {
   const t = byTitle(/Innergemeinschaftliche Lieferung: Voraussetzungen der Steuerfreiheit/i);
   assert.match(kern(t), /anderen EU-Mitgliedstaat/);
