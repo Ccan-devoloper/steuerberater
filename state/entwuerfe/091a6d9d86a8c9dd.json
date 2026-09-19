@@ -1,0 +1,151 @@
+{
+  "datum": "2026-09-19",
+  "zweck": "autor",
+  "daten": {
+    "folien": [
+      {
+        "art": "titel",
+        "titel": "Kennst du alle sechs Prüfungsstationen des § 173 AO auswendig?",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "paragraf"
+      },
+      {
+        "art": "karte",
+        "titel": "Das Schema auf einer Karte",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": [
+          {
+            "titel": "Neue Tatsache nachträglich bekannt",
+            "text": "§ 173 (1) AO"
+          },
+          {
+            "titel": "Rechtserheblichkeit: wäre anders entschieden worden?",
+            "text": "AEAO zu § 173 Nr. 3"
+          },
+          {
+            "titel": "Bei Rechtsprechungswechsel: früher schon beachtet?",
+            "text": "AEAO zu § 173 Nr. 3"
+          },
+          {
+            "titel": "Vorläufigkeit wegen anhängigem BFH-Verfahren sichern",
+            "text": "§ 165 (1) S. 2 Nr. 4 AO"
+          },
+          {
+            "titel": "Alternativ: Einspruch mit Ruhen des Verfahrens",
+            "text": "§ 363 (2) AO"
+          },
+          {
+            "titel": "Zugunsten nur ohne grobes Verschulden",
+            "text": "§ 173 (1) Nr. 2 AO"
+          },
+          {
+            "titel": "Änderungssperre nach Außenprüfung beachten",
+            "text": "§ 173 (2) AO"
+          },
+          {
+            "titel": "Ausnahme: Steuerhinterziehung durchbricht die Sperre",
+            "text": "§ 173 (2) AO"
+          }
+        ],
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      },
+      {
+        "art": "text",
+        "titel": "Hier gehen die Punkte verloren",
+        "untertitel": null,
+        "text": null,
+        "punkte": [
+          "Die geänderte *Rechtsauffassung* selbst wird fälschlich als neue Tatsache behandelt – geprüft wird nur, ob die zugrunde liegende Tatsache rechtserheblich war.",
+          "Nach abgeschlossener Außenprüfung wird die *Änderungssperre* des § 173 (2) AO schlicht übersehen, obwohl der Sachverhalt geprüft war."
+        ],
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "warnung"
+      },
+      {
+        "art": "merke",
+        "titel": "Merksatz",
+        "untertitel": null,
+        "text": "Eine neue Tatsache öffnet die Tür, aber Rechtserheblichkeit und Außenprüfungssperre entscheiden, ob sie auch durchgelassen wird.",
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      },
+      {
+        "art": "cta",
+        "titel": "Diese Karte gehört in jede Lerngruppe.",
+        "untertitel": null,
+        "text": null,
+        "punkte": [
+          "Schick das deiner Lerngruppe – vor der Klausur nochmal durchgehen",
+          "Speichern für die letzte Wiederholung",
+          "Wo hakt's bei § 173 AO? Kommentiere!"
+        ],
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      }
+    ],
+    "caption": "§ 173 AO Schema Änderung Steuerbescheid neue Tatsachen – reicht dir „neue Tatsache“ als Antwort? Dann fehlen dir zwei Stationen, die im Examen fast immer Punkte kosten: die Rechtserheblichkeit bei geänderter Rechtsprechung und die Änderungssperre nach Außenprüfung.\n\nDie Karte zeigt alle sechs Stufen in der richtigen Reihenfolge – von der neuen Tatsache bis zur Ausnahme bei Steuerhinterziehung.\n\nSchick sie deiner Lerngruppe und speichere sie für die letzte Wiederholung vor der Klausur.\n\nWelche Stufe vergisst du am ehesten – Rechtserheblichkeit oder die Sperre nach der Außenprüfung?",
+    "hashtags": [
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#stbexamen",
+      "#abgabenordnung",
+      "#paragraf173ao",
+      "#verfahrensrecht",
+      "#steuerberater",
+      "#examensvorbereitung",
+      "#steuerrecht",
+      "#klausurtipps",
+      "#aussenpruefung",
+      "#neuetatsachen"
+    ],
+    "kurztitel": "§ 173 AO: das ganze Schema",
+    "bildSzene": "open ring binder with tabs",
+    "bildSzeneAlt": "stamped document pulled from file drawer",
+    "quellen": null,
+    "hooks": [
+      {
+        "typ": "frage",
+        "titel": "Kennst du alle sechs Prüfungsstationen des § 173 AO auswendig?"
+      },
+      {
+        "typ": "fehler",
+        "titel": "Der Fehler bei § 173 AO, der nach der Außenprüfung teuer wird"
+      },
+      {
+        "typ": "zahl",
+        "titel": "6 Stufen in § 173 AO – die meisten kennen nur die erste"
+      }
+    ]
+  }
+}
