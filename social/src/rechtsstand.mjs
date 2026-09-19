@@ -154,6 +154,21 @@ function korrigiereMiete(thema) {
   normErgaenzen(thema, "§ 39 Abs. 2 Nr. 1 AO");
 }
 
+function korrigiereVereinsQuiz(thema) {
+  normErgaenzen(thema, "§ 64 Abs. 3 AO");
+  thema.kern = {
+    ...thema.kern,
+    erklaerung: "Der nicht begünstigte wirtschaftliche Geschäftsbetrieb ist der grundsätzlich steuerpflichtige Tätigkeitsbereich. Vor der tatsächlichen Belastung mit Körperschaft- und Gewerbesteuer ist jedoch § 64 Abs. 3 AO zu prüfen; Rechtsstand 2026 liegt die Einnahmengrenze einschließlich Umsatzsteuer bei 50.000 €.",
+  };
+  rechtsstandswechsel(thema, {
+    abJahr: 2026,
+    vorherJahr: 2025,
+    norm: "§ 64 Abs. 3 AO",
+    aktuell: "Besteuerungsgrenze 50.000 € Einnahmen einschließlich Umsatzsteuer.",
+    vorher: "Besteuerungsgrenze 45.000 € Einnahmen einschließlich Umsatzsteuer.",
+  });
+}
+
 function korrigiereVerein(thema) {
   normErgaenzen(thema, "§ 64 Abs. 3 AO", "§ 24 KStG");
   if (thema.typ === "karteikarte") {
@@ -198,6 +213,13 @@ function korrigiereVerein(thema) {
 function korrigiereAchtB(thema) {
   const zusatz = "Erwirbt die Körperschaft im laufenden Kalenderjahr eine Beteiligung von mindestens 10 %, gilt dieser Erwerb nach § 8b Abs. 4 S. 6 KStG für die Streubesitzprüfung als zu Beginn des Kalenderjahres erfolgt.";
   normErgaenzen(thema, "§ 8b Abs. 4 S. 6 KStG");
+  if (thema.typ === "quiz") {
+    thema.kern = {
+      ...thema.kern,
+      erklaerung: "Für Dividenden ist grundsätzlich die Beteiligungsquote zu Beginn des Kalenderjahres maßgeblich. Erwirbt die Körperschaft im laufenden Kalenderjahr eine Beteiligung von mindestens 10 %, gilt dieser Erwerb nach § 8b Abs. 4 S. 6 KStG als zu Beginn des Kalenderjahres erfolgt. Erst nach dieser Prüfung steht fest, ob die Streubesitzregel greift.",
+    };
+    return;
+  }
   if (thema.typ === "karteikarte") {
     thema.kern = {
       ...thema.kern,
@@ -367,6 +389,7 @@ export function socialKorrekturenAnwenden(pool) {
     if (/Realteilung (?:oder|und) Sachwertabfindung/i.test(thema.titel || "")) korrigiereRealteilung(thema);
     if (thema.typ === "karteikarte" && /Wie wird § 8b KStG technisch umgesetzt/i.test(thema.titel || "")) korrigiereAchtBTechnik(thema);
     if (/Vereinsbesteuerung/i.test(thema.titel || "") && thema.id !== "kst-modul-kst-12") korrigiereVerein(thema);
+    if (thema.typ === "quiz" && /Welcher Vereinsbereich.*steuerpflichtig/i.test(thema.titel || "")) korrigiereVereinsQuiz(thema);
 
     const kernText = JSON.stringify(thema.kern || {});
     const achtBThema = /§\s*8b/i.test(`${thema.titel || ""} ${(thema.normen || []).join(" ")}`);
