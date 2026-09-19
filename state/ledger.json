@@ -2940,6 +2940,39 @@
       "titel": "Dividende an ausländische Körperschaft: 3 Ebenen",
       "medienId": "18096533537100169",
       "veroeffentlicht": "2026-09-19T09:45:11.948Z"
+    },
+    {
+      "datum": "2026-09-19",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "12:30",
+      "stunde": 12,
+      "format": "reel",
+      "thema": "mindset-8",
+      "fach": "mindset",
+      "titel": "Blackout bei Aufgabe 3",
+      "hookTyp": "kosten",
+      "hookMuster": "szene",
+      "medienId": "18005672321785513",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#klausurtechnik",
+        "#prüfungsangst",
+        "#zeitmanagement",
+        "#klausurtipps",
+        "#mindset"
+      ],
+      "stimmeId": null,
+      "stimmeName": null,
+      "layout": "erklaer",
+      "dauer": 57.7,
+      "veroeffentlicht": "2026-09-19T10:47:58.178Z"
     }
   ],
   "fachZaehler": {
@@ -2949,7 +2982,8 @@
     "ao": 13,
     "bilanz": 14,
     "istr": 9,
-    "erbst": 3
+    "erbst": 3,
+    "mindset": 1
   },
   "nachrichten": []
 }
