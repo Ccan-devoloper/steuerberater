@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 12 Kapitel mit 244 Abschnitten und 14 Tabellen. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 14 Kapitel mit 289 Abschnitten und 17 Tabellen. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4720,6 +4720,45 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   kommt. Wird eine solche Rücklage **irrtümlich abgeführt**, ist das nicht durch § 301 AktG gedeckt und
   kostet die Anerkennung der Organschaft – seit Einführung der Heilungsregelung des § 14 Abs. 1 Nr. 3
   Satz 4 f. KStG immerhin nicht mehr zwangsläufig endgültig.
+  Bei **Kapitalrücklagen** geht die Regel weiter und wird deshalb leicht verwechselt: Anders als bei
+  Gewinnrücklagen kommt es auf den Zeitpunkt der Bildung **nicht** an – auch eine während der
+  Organschaft gebildete Kapitalrücklage unterliegt bei ihrer Auflösung nicht der Gewinnabführung, weil
+  § 301 AktG sie schlicht nicht einbezieht. Wirtschaftlich leuchtet das ein, weil sie aus **Einlagen**
+  stammt und nicht aus erwirtschaftetem Gewinn.
+  Die **tatsächliche Durchführung** ist Kerninhalt der Organschaft und verlangt der Sache nach **drei**
+  Schritte, die je für sich einen Durchführungsmangel begründen können: Der Betrag muss **zutreffend
+  ermittelt** sein – schon ein Bilanzierungsfehler genügt –, Forderung und Verbindlichkeit müssen zum
+  Bilanzstichtag **gebucht** werden, und der Anspruch muss **zeitnah erfüllt** werden, also Geld
+  fließen. Zulässig sind dabei die Umwandlung in ein **Darlehen** und die Verrechnung mit werthaltigen
+  Gegenansprüchen, weil der Anspruch dann durch eine neue Rechtsbeziehung ersetzt wird; das bloße
+  **Stehenlassen** genügt nicht. Eine feste Frist nennt die Quelle nicht, ihre Fußnote hält **3 bis 12
+  Monate** für angemessen, und das anhängige Verfahren I R 37/22 könnte sie schärfen. Die beiden
+  Listen der schädlichen und unschädlichen Tatbestände folgen einem gemeinsamen Maßstab: Schädlich ist,
+  was den Betrag des § 301 AktG **verfälscht** – Abführung nicht dazugehöriger Beträge, Unterlassen
+  gebotener Abzüge, unzulässige Zurückbehaltung –, unschädlich, was er **selbst vorsieht**. Fein
+  unterscheidet die Quelle schließlich zwischen **Entstehung**, **Fälligkeit** und **Verzinsung**:
+  Beide Ansprüche entstehen zum Bilanzstichtag, doch die **Verlustübernahme** wird sofort fällig, die
+  **Gewinnabführung** erst mit der Bilanzerstellung. Für die Organschaft bleibt das folgenlos, weil die
+  Verzinsung nur eine **vertragliche Nebenpflicht** ist und eine daraus folgende verdeckte
+  Gewinnausschüttung im Organkreis als vorweggenommene Gewinnabführung ohnehin unschädlich wäre.
+  Die **Heilungsvorschrift** des § 14 Abs. 1 Nr. 3 Sätze 4 ff. KStG entschärft eine Lage, die früher
+  kaum tragbar war: Maßgeblich ist die Abführung, die sich bei **objektiv ordnungsgemäßer**
+  Bilanzierung ergäbe – also der richtige, nicht der gebuchte Betrag –, so dass jeder Bilanzierungsfehler
+  die Organschaft zunichtemachte, und zwar regelmäßig erst Jahre später durch eine Betriebsprüfung, mit
+  Rückwirkung auf alle Jahre wegen der dann gerissenen Mindestlaufzeit. Die Gesetzesbegründung geht von
+  einem **weiten Fehlerbegriff** aus: Erfasst sind auch Fehler, die den Bilanzansatz gar nicht
+  berühren – der unterlassene Ausgleich mit einem vororganschaftlichen Verlust ist eine Frage der
+  Verwendungsrechnung, die Abführung vorvertraglicher Rücklagen eine Frage des Beschlusses. Nicht die
+  **Art** des Fehlers entscheidet also, sondern seine **Wirkung auf den Betrag**. Zwei Ausnahmen bleiben,
+  und ihnen liegt ein gemeinsamer Grund zugrunde, den die Quelle nicht ausspricht: Beim Verstoß gegen
+  § 14 Abs. 1 Nr. 4 KStG und bei der **unterlassenen Buchung** fehlt es nicht an der Richtigkeit des
+  Abschlusses, sondern am **Willen zur Durchführung** – ein solcher Mangel lässt sich nachträglich nicht
+  beseitigen. Die Fehlerabstufung ist schließlich dreistufig: Ein **nichtiger** Abschluss nach § 256
+  AktG gilt als nicht festgestellt und ist von der Heilung ausgenommen; ein gewichtiger, aber nicht
+  nichtigkeitsbegründender **GoB-Verstoß** ist gerade ihr Anwendungsfall; und dazwischen steht die
+  **Heilung durch Zeitablauf** nach § 256 Abs. 6 AktG, wonach Nichtigkeitsgründe nach **drei Jahren**
+  nicht mehr geltend gemacht werden können – wer einen nichtigen Abschluss vorfindet, prüft deshalb
+  zuerst das Datum.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

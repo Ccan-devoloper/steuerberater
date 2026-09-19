@@ -10620,6 +10620,39 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 2.5.5.4 bis 2.5.7.1 – Durchführung und Heilung
+
+Quelle: dieselbe Datei, Seiten 25 bis 27; übernommen als Kapitel 13 und 14. Prüfung:
+`npm run check:k2-kst-teil6` (14 Kapitel, 289 Blöcke, 17 Tabellen).
+
+Der Abschnitt enthält keine Rechenbeispiele; die beiden Kataloge der schädlichen und der
+unschädlichen Tatbestände sind vollständig und in der Reihenfolge der Quelle übernommen.
+
+**Drei sprachliche Eigenheiten sind übernommen und markiert:** das doppelte „ein“ in „liegt ein
+schädlicher ein Durchführungsmangel vor“, die Form „welcher einer Durchführung nicht
+entgegenstehen“ und die Numerus-Inkongruenz „Sätze 4f entschärft diesen Tatbestand und regeln“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Aufgliederung der Durchführung in drei getrennt zu
+prüfende Schritte; die Abgrenzung zwischen zulässiger Stundung und schädlichem Stehenlassen anhand
+der rechtlichen Umgestaltung des Anspruchs samt Gestaltungshinweis; der gemeinsame Maßstab hinter
+beiden Katalogen, der sie als Kehrseiten des Ermittlungsschemas ausweist; die Trennung von Entstehung,
+Fälligkeit und Verzinsung mit der Folgerung, dass ein Verzinsungsverstoß praktisch folgenlos bleibt;
+die Abgrenzung der Kapitalrücklage von der Gewinnrücklage, bei der es anders als dort nicht auf den
+Bildungszeitpunkt ankommt; die Einordnung der Heilungsvorschrift vor dem Hintergrund der früheren
+Rechtslage; die Auswertung des weiten Fehlerbegriffs mit der Folgerung, dass die Wirkung auf den
+Betrag und nicht die Art des Fehlers entscheidet; der gemeinsame Grund der beiden Gegenausnahmen,
+bei denen es am Willen zur Durchführung und nicht an der Richtigkeit fehlt; die dreistufige
+Fehlerabstufung samt dem Hinweis, bei einem nichtigen Abschluss zuerst das Datum zu prüfen; und die
+Betonung, dass die Voraussetzungen der Heilung kumulativ sind und vollständig durchzuprüfen bleiben.
+
+**Neu sind drei Übersichten:** eine Gegenüberstellung der schädlichen und unschädlichen Tatbestände
+der Durchführung, eine zu Entstehung, Fälligkeit und Verzinsung beider Ansprüche und eine zu den
+heilbaren und nicht heilbaren Fehlern.
+
+**Noch offen:** aus Teil VI die weiteren Voraussetzungen der Heilung (2.5.7.2 und 2.5.7.3), der
+Verstoß gegen den Vertrag und dessen Beendigung (2.5.8 bis 2.5.10) sowie die Kapitel 3 und 4; ganz
+offen ist der Skriptteil VII (Liquidation).
+
 ### KSt Teil VI (Hamacher), Abschnitte 2.5.4 (Schluss) bis 2.5.5.3 – Höhe der Gewinnabführung
 
 Quelle: dieselbe Datei, Seiten 22 bis 24; übernommen als Kapitel 11 und 12. Prüfung:
