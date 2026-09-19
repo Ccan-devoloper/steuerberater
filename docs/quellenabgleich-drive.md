@@ -10620,6 +10620,59 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitt 3.3.6 – § 8d KStG bei Organschaft
+
+Übernommen sind die Seiten 61 bis 63 der Quelle: der Ausschluss beim Organträger
+(3.3.6.1) und die Wirkungen bei der Organgesellschaft samt Beispiel (3.3.6.2). Damit
+ist Abschnitt 3.3 – die Auswirkungen beim Organträger – **vollständig** übernommen. Der
+Datensatz umfasst 47 Kapitel mit 784 Abschnitten und 62 Tabellen; geprüft mit
+`npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Beim Organträger ist § 8d KStG ausgeschlossen – die
+Organträgerstellung ist zugleich Antragshindernis (§ 8d Abs. 1 Satz 2 Nr. 2 KStG) und
+schädliches Ereignis (§ 8d Abs. 2 Satz 2 Nr. 5 KStG); das gilt auch für die mittlere
+Gesellschaft einer Kettenorganschaft. Die Organgesellschaft kann den Antrag dagegen
+selbst stellen und verdrängt damit § 8c KStG, weil für § 8d KStG auf den Verlust zum
+Ende des Wirtschaftsjahres abzustellen ist. Der laufende Verlust wird dadurch gerettet
+und als Organeinkommen zugerechnet; der vororganschaftliche Verlust wird erstmals als
+fortführungsgebundener Verlust festgestellt und unterliegt künftig § 8d Abs. 2 KStG.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Die Lösung leitet die Schlussrechnung ein mit „Das sich danach für 2024 ergebende
+  Einkommen beträgt danach:“. Gemeint ist das Einkommen für **2025**, wie die
+  unmittelbar folgende Zeile („= z.v.E. für 2025“) selbst ausweist; zudem steht
+  „danach“ zweimal im selben Satz.
+- „Weil die Auswirkungen des § 8c Abs. 1 Satz 1 KStG vor der Ergebniskonsolidierung
+  erfolgt“ – der Numerus ist nicht durchgeführt.
+- Der Sachverhalt übernimmt die schon in Abschnitt 3.3.5 beanstandeten Wendungen
+  „besitzen die A-GmbH“ und „der Anteil der B-GmbH“.
+
+**Eigene Nachrechnung.** Die Zahlen gehen auf. Der Klammerzusatz „eigentlich
+1.200.000 €“ meint die Summe aus laufendem Verlust der Organgesellschaft (900.000 €)
+und vororganschaftlichem Verlustvortrag (300.000 €); festgestellt werden bei ihr aber
+nur die 300.000 €, weil die 900.000 € als Organeinkommen zum Organträger wandern. Dort
+ergibt sich ./. 600.000 € ./. 900.000 € = ./. 1.500.000 €.
+
+Weil der Sachverhalt mit dem des Abschnitts 3.3.5.1 **identisch** ist und allein der
+Antrag hinzutritt, ist der Wert des Antrags exakt bezifferbar; die Gegenüberstellung ist
+als eigene Ergänzung in den Datensatz aufgenommen:
+
+| Größe | ohne § 8d-Antrag | mit § 8d-Antrag |
+| --- | --- | --- |
+| laufender Verlust der Organgesellschaft | 500.000 € gehen unter | bleibt erhalten |
+| Organeinkommen | ./. 400.000 € | ./. 900.000 € |
+| vororganschaftlicher Verlust | geht unter | 300.000 €, fortführungsgebunden |
+| zvE des Organträgers | ./. 1.000.000 € | ./. 1.500.000 € |
+| Verlustfeststellung beim Organträger | 1.000.000 € | 1.500.000 € |
+
+Die Differenz von genau 500.000 € ist die rechnerische Probe für den geretteten
+unterjährigen Verlust. Ebenfalls als eigene Ergänzungen ausgewiesen sind: die Herleitung
+des Ausschlusses beim Organträger aus dem Erfordernis desselben Geschäftsbetriebs, das
+Zeitargument (§ 8c KStG greift auf den Erwerbszeitpunkt, § 8d KStG auf den
+Bilanzstichtag zu) und der Hinweis, dass der beim Organträger ankommende Verlust gerade
+**nicht** fortführungsgebunden ist, weil § 8d KStG dort nicht gilt.
+
 ### KSt Teil VI (Hamacher), Abschnitt 3.3.5 – § 8c KStG bei Organschaft
 
 Übernommen sind die Seiten 58 bis 61 der Quelle: der unterjährige Erwerb der Anteile

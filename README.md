@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 45 Kapitel mit 754 Abschnitten und 60 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 47 Kapitel mit 784 Abschnitten und 62 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5194,6 +5194,36 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Verlustvortrag damit **ohne Mindestbesteuerung** verrechnet und ist insoweit dem Zugriff des § 8c
   KStG entzogen – eine für den Steuerpflichtigen günstige Reihenfolge, die im ersten Beispiel 600.000 €
   rettet. Sämtliche Zahlen aller vier Rechnungen sind unabhängig nachgerechnet.
+  **§ 8d KStG** ist beim **Organträger ausgeschlossen**, und der Grund liegt in der Bauweise der
+  Vorschrift: Sie setzt voraus, dass die Körperschaft **denselben Geschäftsbetrieb** unverändert
+  fortführt – genau daran fehlt es dort, wo **fremdes** Einkommen zugerechnet wird und sich das
+  Ergebnis aus **mehreren** Geschäftsbetrieben speist. Das Gesetz nennt die Organträgerstellung
+  deshalb doppelt: als **Antragshindernis** (§ 8d Abs. 1 Satz 2 Nr. 2 KStG) und als **schädliches
+  Ereignis** (§ 8d Abs. 2 Satz 2 Nr. 5 KStG); die eine Vorschrift verhindert die Entstehung, die
+  andere beendet einen bestehenden fortführungsgebundenen Verlust. In der **Kettenorganschaft** gilt
+  der Ausschluss auch für die mittlere Gesellschaft, die zugleich Organgesellschaft ist – der Antrag
+  steht dort nur der **untersten** Gesellschaft offen.
+  Die **Organgesellschaft** kann ihn dagegen selbst stellen und **verdrängt damit § 8c KStG**
+  vollständig. Warum der unterjährige Verlust dabei ungeschmälert erhalten bleibt, erklärt ein
+  einziger Halbsatz: Für Zwecke des § 8d KStG ist auf den Verlust **zum Ende des Wirtschaftsjahres**
+  abzustellen. § 8c KStG greift also auf den Stand im **Erwerbszeitpunkt** zu, § 8d KStG auf den
+  Stand am **Bilanzstichtag** – dieselbe Unterscheidung zwischen Zeitpunkt und Stichtag, die schon
+  die zeitliche Erfassung und die beiden § 8c-Fälle prägt. Weil der Sachverhalt des Beispiels mit dem
+  des unterjährigen Erwerbs **identisch** ist und allein der Antrag hinzutritt, lässt sich sein Wert
+  exakt beziffern. Er wirkt an **zwei** Stellen: Erstens rettet er den **laufenden** Verlust von
+  500.000 €, der sonst bei der Organgesellschaft untergegangen wäre; er fließt als Teil des
+  Organeinkommens (nunmehr ./. 900.000 € statt ./. 400.000 €) zum Organträger und erhöht dessen
+  Verlustfeststellung von 1.000.000 € auf **1.500.000 €** – die Differenz von genau 500.000 € ist die
+  rechnerische Probe. Zweitens rettet er den **vororganschaftlichen** Verlust von 300.000 €, der sonst
+  ersatzlos verloren gewesen wäre und nun erstmals als **fortführungsgebundener** Verlust festgestellt
+  wird. Das Bemerkenswerteste steht am Schluss: Der beim Organträger ankommende Verlust ist **nicht**
+  fortführungsgebunden, weil § 8d KStG dort gar nicht anwendbar ist. Der Antrag der Organgesellschaft
+  verschafft dem Organträger also **ungebundenes** Verlustpotential, während die Bindung allein am
+  vororganschaftlichen Restbestand hängen bleibt. Für diesen vervollständigt sich damit das Bild aus
+  § 15 Satz 1 Nr. 1 KStG: Er ist während der Organschaft nicht nutzbar, war schon durch § 8c KStG
+  gefährdet und unterliegt nun zusätzlich § 8d Abs. 2 KStG – **doppelt gebunden**, ohne in dieser Zeit
+  Nutzen zu stiften. Der Antrag lohnt gleichwohl, weil der gerettete laufende Verlust beim Organträger
+  **sofort** verwendbar ist. Damit sind die Auswirkungen beim Organträger vollständig abgebildet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

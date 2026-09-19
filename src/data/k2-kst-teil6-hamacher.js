@@ -32,10 +32,12 @@
      Teilwertabschreibung, den Spendenabzug und die vorweggenommene
      Gewinnabführung bis zur verdeckten Einlage (3.3.4).
 
-     Hinzu kommt § 8c KStG bei Organschaft mit dem unterjährigen Erwerb und
-     dem Erwerb mit Ablauf des Wirtschaftsjahres (3.3.5).
+     Hinzu kommen § 8c KStG bei Organschaft mit dem unterjährigen Erwerb und
+     dem Erwerb mit Ablauf des Wirtschaftsjahres (3.3.5) sowie § 8d KStG bei
+     Organträger und Organgesellschaft (3.3.6). Damit sind die Auswirkungen
+     beim Organträger VOLLSTÄNDIG übernommen.
 
-   Es folgen § 8d KStG bei Organschaft (3.3.6), die Mehr- und Minderabführungen (3.4,
+   Es folgen die Mehr- und Minderabführungen (3.4,
    3.5), die verunglückte Organschaft (3.6) sowie Kapitel 4 zur
    gewerbesteuerlichen Organschaft. Der Campus weist den Stand aus.
 
@@ -2316,6 +2318,90 @@ export const kstTeil6 = [
       ] },
       { text: "Anmerkung zum Unterschied der beiden Fälle (eigene Ergänzung): Der Vergleich der beiden Abschnitte lohnt sich, weil derselbe Sachverhalt – nur mit verschobenem Erwerbszeitpunkt – zu **deutlich verschiedenen** Ergebnissen führt. Beim unterjährigen Erwerb bleiben dem Organträger **1.000.000 €** Verlustvortrag erhalten, beim Erwerb mit Ablauf des Wirtschaftsjahres **nichts**. Der Grund liegt allein in der **Konsolidierung**: Findet sie noch statt, wird das negative Organeinkommen Teil des Verlustes des Organträgers und damit vom Untergang erfasst; findet sie nicht mehr statt, entsteht der nach dem Erwerb angefallene Verlust erst **nach** dem schädlichen Ereignis und bleibt unberührt. Ein Erwerb einen Tag vor dem Bilanzstichtag ist für den Erwerber also **günstiger** als einer mit Ablauf des Stichtages – ein Unterschied, der sich gestalterisch nutzen lässt und in der Klausur leicht übersehen wird." },
       { text: "Anmerkung zur Lage der Organgesellschaft (eigene Ergänzung): Für sie kehrt sich das Bild um. Beim **unterjährigen** Erwerb trifft § 8c KStG ihren eigenen laufenden Verlust, soweit er bis zum Erwerb angefallen ist – im Beispiel 500.000 €. Beim Erwerb **mit Ablauf** des Wirtschaftsjahres bleibt ihr laufender Verlust dagegen vollständig erhalten, weil er sich bereits als Organeinkommen zum Organträger **verlagert** hat; bei ihr kann dann nur noch der **vororganschaftliche** Verlust untergehen. Dass dieser in **beiden** Fällen verloren ist, bestätigt die Warnung des Abschnitts 3.2.4.1: Der eingefrorene Verlust ist über Jahre nicht nutzbar, bleibt aber die ganze Zeit gefährdet." },
+    ],
+  },
+  {
+    id: "kst-t6-46",
+    kapitel: "46",
+    abschnittNr: "3.3.6.1",
+    title: "3.3.6.1 § 8d KStG bei Organschaft – Organträger",
+    thema: "Beim Organträger ist § 8d KStG ausgeschlossen, auch wenn er in einer Kettenorganschaft zugleich Organgesellschaft ist",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.3.6.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d Abs. 1 Satz 2 Nr. 2 KStG",
+      "§ 8d Abs. 2 Satz 2 Nr. 5 KStG",
+      "BMF vom 18.03.2021, Tz. 41",
+      "BMF vom 18.03.2021, Tz. 59",
+    ],
+    themen: ["§ 8d KStG", "Antragsausschluss", "Organträger", "Kettenorganschaft"],
+    bloecke: [
+      { typ: "titel", text: "3.3.6 Auswirkungen des § 8d KStG" },
+      { typ: "titel", text: "3.3.6.1 Organträger" },
+      { text: "Beim Organträger ist **§ 8d KStG nicht anwendbar** (§ 8d Abs. 1 Satz 2 Nr. 2 KStG, § 8d Abs. 2 Satz 2 Nr. 5 KStG; BMF vom 18.03.2021, Tz. 59). Dies gilt im Übrigen auch in Fällen einer **durchgängigen (Ketten-)Organschaft**, wenn der Organträger gleichzeitig auch die Stellung einer **Organgesellschaft** hat (BMF vom 18.03.2021, Tz. 41)." },
+      { text: "Anmerkung zum Grund des Ausschlusses (eigene Ergänzung): § 8d KStG setzt voraus, dass die Körperschaft **denselben Geschäftsbetrieb** unverändert fortführt – der fortführungsgebundene Verlustvortrag ist an ihn gebunden. Genau daran fehlt es beim Organträger: Ihm wird **fremdes** Einkommen zugerechnet, sein steuerliches Ergebnis speist sich also aus **mehreren** Geschäftsbetrieben, und das Gesetz nennt die Organträgerstellung deshalb ausdrücklich als **schädliches Ereignis** (§ 8d Abs. 2 Satz 2 Nr. 5 KStG) und als **Antragshindernis** (§ 8d Abs. 1 Satz 2 Nr. 2 KStG). Beide Vorschriften greifen ineinander: Die eine verhindert die Entstehung, die andere beendet einen bereits bestehenden fortführungsgebundenen Verlust." },
+      { text: "Anmerkung zur Kettenorganschaft (eigene Ergänzung): Der Zusatz schließt eine naheliegende Umgehung. In einer Kette ist die mittlere Gesellschaft **beides zugleich** – Organgesellschaft gegenüber der Spitze und Organträgerin gegenüber der unteren Stufe. Man könnte versucht sein, ihr die Vergünstigung in ihrer Eigenschaft als Organgesellschaft zu gewähren; die Finanzverwaltung stellt dagegen auf die **Organträgerstellung** ab, die den Ausschluss auslöst. Für die Kettenorganschaft bedeutet das: § 8d KStG steht nur der **untersten** Gesellschaft offen, die keine weitere Organgesellschaft unter sich hat." },
+    ],
+  },
+  {
+    id: "kst-t6-47",
+    kapitel: "47",
+    abschnittNr: "3.3.6.2",
+    title: "3.3.6.2 § 8d KStG bei Organschaft – Organgesellschaft",
+    thema: "Die Organgesellschaft kann den Antrag stellen und verdrängt damit § 8c KStG; der laufende Verlust wird gerettet und dem Organträger zugerechnet, der vororganschaftliche Verlust wird fortführungsgebunden festgestellt",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.3.6.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d KStG",
+      "§ 8d Abs. 2 KStG",
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 15 Satz 1 Nr. 1 KStG",
+      "§ 10d EStG",
+      "§ 10d Abs. 4 EStG",
+      "§ 14 Abs. 5 KStG",
+      "BMF vom 18.03.2021, Tz. 60",
+      "BMF vom 18.03.2021, Tz. 61",
+    ],
+    themen: ["§ 8d KStG", "fortführungsgebundener Verlustvortrag", "Antrag der Organgesellschaft", "Verdrängung des § 8c KStG", "vororganschaftlicher Verlust"],
+    bloecke: [
+      { typ: "titel", text: "3.3.6.2 Organgesellschaft" },
+      { text: "Die zeitlich **vor Geltung des GAV** bei der Organgesellschaft entstandenen Verlustvorträge können als bereits vorhandene **vororganschaftliche fortführungsgebundene Verlustvorträge** i.S. des § 8d KStG in **unveränderter Höhe** fortgeführt und festgestellt werden. Aufgrund § 15 Satz 1 Nr. 1 KStG ist eine **Nutzung** dieses Bestandes während der Organschaftsperiode aufgrund der Nichtanwendbarkeit des § 10d EStG **ausgeschlossen**." },
+      { text: "Während der Organschaft sind diesbezüglich aber die Voraussetzungen des **§ 8d Abs. 2 KStG** zu beachten, wonach es bei Eintritt eines solchen **schädlichen Ereignisses** bei der Organgesellschaft auch zum **Untergang** dieser Verluste kommen kann. Ansonsten wird auch der bisherige Betrag „eingefroren“ und muss während der Organschaft **unverändert festgestellt** werden." },
+      { text: "Kommt es während der Organschaft **unterjährig** zu einem schädlichen Erwerb i.S. des § 8c Abs. 1 Satz 1 KStG und daher zu einem etwaigen Verlustuntergang, kann die **Organgesellschaft selbst** hingegen den Antrag nach § 8d KStG stellen (BMF vom 18.03.2021, Tz. 61). Dadurch wird die Anwendung des **§ 8c KStG verdrängt** und das negative Einkommen des jeweiligen Veranlagungszeitraums anschließend dem Organträger **zugerechnet**." },
+      { text: "Durch § 8d KStG wird dieser „unterjährige Verlust“ **gerettet** und kann vom Organträger **vollständig genutzt** werden, denn für Zwecke des § 8d KStG ist auf den Verlust **zum Ende des Wirtschaftsjahres** abzustellen. Auf Ebene des Organträgers ist die Anwendung des § 8d KStG aber **ausgeschlossen**." },
+      { text: "Die vororganschaftlichen Verlustvorträge der Organgesellschaft werden bei Anwendung des § 8d KStG zum entsprechenden Stichtag **erstmalig** als vororganschaftliche fortführungsgebundene Verlustvorträge **festgestellt** (BMF vom 18.03.2021, Tz. 60). Dafür sind zukünftig auch die Einschränkungen des § 8d Abs. 2 KStG zu beachten." },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH (Wj. = Kj.) ist Organträgerin und Alleingesellschafterin der B-GmbH (Wj. = Kj.). Zum 31.12.2024 besitzen die A-GmbH einen Verlustvortrag von 1.000.000 € und die B-GmbH einen vororganschaftlichen Verlustvortrag von 300.000 €. Zum 01.07.2025 werden 80 % der Anteile an der A-GmbH an einen Erwerber veräußert. In 2025 erzielt die A-GmbH ein negatives Einkommen (vor § 14 KStG) von ./. 1.200.000 €. Die B-GmbH erzielt in 2025 ganzjährig ein negatives Einkommen (vor § 14 KStG) von ./. 900.000 €. Aufgrund von Zwischenabschlüssen ergibt sich, dass die A-GmbH bis zum schädlichen Erwerb einen negativen Gesamtbetrag der Einkünfte von ./. 600.000 € und die B-GmbH einen solchen von ./. 500.000 € erzielt haben. Sowohl der Anteil an der A-GmbH, als auch der Anteil der B-GmbH sollen keine stillen Reserven beinhalten." },
+      { text: "**Die B-GmbH stellt zutreffend den Antrag auf Anwendung des § 8d KStG.**" },
+      { typ: "titel", text: "Lösung" },
+      { text: "Die 80%ige Anteilsveräußerung an der A-GmbH erfüllt die Voraussetzungen des § 8c Abs. 1 Satz 1 KStG, wonach es zu einem vollständigen Verlustuntergang des zum Zeitpunkt des schädlichen Anteilserwerbes vorhandenen ungenutzten Verlustes kommt. Diese Konsequenz betrifft sowohl die A-GmbH als auch die B-GmbH, weil deren Anteile mittelbar veräußert werden." },
+      { text: "**Organgesellschaft:** Weil es sich um einen unterjährigen Anteilserwerb handelt, ist zunächst keine Ergebniskonsolidierung beim Organträger vorzunehmen. Dem Grunde nach wäre von den Auswirkungen des § 8c KStG auch die Organgesellschaft betroffen, deren negativer Gesamtbetrag der Einkünfte untergeht, welcher bis zum Zeitpunkt des schädlichen Beteiligungserwerbs angefallen ist. Dazu gehören ebenfalls die vororganschaftlichen Verluste. Weil die Organgesellschaft zutreffend den Antrag auf Anwendung des § 8d KStG stellt, werden die Auswirkungen des § 8c KStG **vollkommen ausgehebelt**, so dass der zwingende Verlustuntergang durch die Anwendung des § 8d KStG **verdrängt** wird." },
+      { text: "Damit wird dem Grunde nach der zum Ende des VZ 2025 vorhandene steuerliche Verlust der Organgesellschaft zu einem fortführungsgebundenen Verlustvortrag (**eigentlich 1.200.000 €**). Dabei muss aber beachtet werden, dass der **laufende** Verlust des VZ 2025 **zwingend dem Organträger zuzurechnen** ist, lediglich der bisherige Verlustvortrag aus der **vororganschaftlichen** Zeit bleibt bestehen. Dieser ist bei der B-GmbH daher zum 31.12.2025 als vororganschaftlicher fortführungsgebundener Verlust i.H. von **300.000 €** festzustellen und unterliegt zukünftig auch den Einschränkungen des § 8d Abs. 2 KStG." },
+      { text: "Das Organeinkommen der B-GmbH, welches dem Organträger zuzurechnen ist, beträgt daher **unverändert ./. 900.000 €** und wird entsprechend § 14 Abs. 5 KStG festgestellt." },
+      { text: "**Organträger:** Bei der A-GmbH geht der „laufende Verlust“ unter, soweit dieser bis zum 30.06.2025 angefallen ist. Aufgrund der nach wirtschaftlichen Gesichtspunkten erfolgten Aufteilung betrifft dies somit einen Betrag von 600.000 €, welcher nicht mehr mit nachfolgenden Ergebnissen verrechnet werden kann. Davon betroffen ist ebenfalls der zum 31.12.2024 bestehende Verlustvortrag von 1.000.000 €." },
+      { text: "Weil die Auswirkungen des § 8c Abs. 1 Satz 1 KStG **vor** der Ergebniskonsolidierung erfolgt (so in der Quelle; der Numerus ist nicht durchgeführt), bleibt das **Organeinkommen davon unberührt**. Denn über den Untergang des Organeinkommens wird beim unterjährigen Anteilserwerb **getrennt auf der Ebene der Organgesellschaft** entschieden. Dies vermeidet vorliegend der entsprechende Antrag auf Anwendung des § 8d KStG." },
+      { text: "Das sich danach für 2024 ergebende Einkommen beträgt danach (so in der Quelle; gemeint ist das Einkommen für **2025**, wie die folgende Zeile selbst ausweist – zudem steht „danach“ zweimal im Satz):" },
+      { typ: "tabelle", spalten: ["Einkommen der A-GmbH", "Betrag"], zeilen: [
+        ["Verbleibender Verlust", "./. 600.000 €"],
+        ["+ negatives Einkommen der OG", "./. 900.000 €"],
+        ["= z.v.E. für 2025", "./. 1.500.000 €"],
+      ] },
+      { text: "Zum 31.12.2025 ergibt sich bei der A-GmbH eine **Verlustfeststellung** i.S. des § 10d Abs. 4 EStG über **1.500.000 €**. Dieser Verlust ist auf Ebene der A-GmbH **nicht fortführungsgebunden**, weil die Anwendung des § 8d KStG auf Ebene des Organträgers ausgeschlossen ist. Damit erstreckt sich die Rechtsfolge des Antrags der B-GmbH auf Anwendung des § 8d KStG insbesondere auf den **Erhalt des entsprechenden Verlustpotentials**." },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. Der Klammerzusatz „eigentlich 1.200.000 €“ meint die Summe aus laufendem Verlust der Organgesellschaft (900.000 €) und vororganschaftlichem Verlustvortrag (300.000 €); festgestellt werden bei ihr aber nur die **300.000 €**, weil die 900.000 € als Organeinkommen zum Organträger wandern. Dort ergibt sich ./. 600.000 € ./. 900.000 € = **./. 1.500.000 €**." },
+      { text: "Vergleich mit dem Fall ohne Antrag (eigene Ergänzung): Der Sachverhalt ist mit dem des Abschnitts 3.3.5.1 **identisch**; hinzu tritt allein der Antrag der Organgesellschaft. Der Unterschied lässt sich deshalb exakt beziffern:" },
+      { typ: "tabelle", spalten: ["Größe", "ohne § 8d-Antrag (3.3.5.1)", "mit § 8d-Antrag (3.3.6.2)"], zeilen: [
+        ["laufender Verlust der Organgesellschaft", "500.000 € gehen unter", "bleibt vollständig erhalten"],
+        ["Organeinkommen", "./. 400.000 €", "./. 900.000 €"],
+        ["vororganschaftlicher Verlust der Organgesellschaft", "geht unter, keine Feststellung", "300.000 €, nunmehr fortführungsgebunden"],
+        ["zu versteuerndes Einkommen des Organträgers", "./. 1.000.000 €", "./. 1.500.000 €"],
+        ["Verlustfeststellung beim Organträger zum 31.12.2025", "1.000.000 €", "1.500.000 €"],
+        ["Fortführungsbindung beim Organträger", "keine", "keine – § 8d KStG ist dort ausgeschlossen"],
+      ] },
+      { text: "Anmerkung zum doppelten Gewinn des Antrags (eigene Ergänzung): Der Antrag der Organgesellschaft wirkt an **zwei** Stellen, und die zweite ist die überraschendere. Erstens rettet er den **laufenden** Verlust von 500.000 €, der sonst bei ihr untergegangen wäre; er fließt als Teil des Organeinkommens zum Organträger und erhöht dessen Verlustfeststellung von 1.000.000 € auf 1.500.000 € – die Differenz von genau 500.000 € ist die rechnerische Probe. Zweitens rettet er den **vororganschaftlichen** Verlust von 300.000 €, der sonst ersatzlos verloren gewesen wäre. Und das Bemerkenswerteste: Der beim Organträger ankommende Verlust ist **nicht fortführungsgebunden**, weil § 8d KStG dort gar nicht anwendbar ist. Der Antrag der Organgesellschaft verschafft dem Organträger also **ungebundenes** Verlustpotential – die Bindung bleibt allein am vororganschaftlichen Restbestand der Organgesellschaft hängen." },
+      { text: "Anmerkung zum tragenden Zeitargument (eigene Ergänzung): Warum der unterjährige Verlust vollständig gerettet wird, erklärt ein einziger Halbsatz der Quelle: Für Zwecke des § 8d KStG ist auf den Verlust **zum Ende des Wirtschaftsjahres** abzustellen. § 8c KStG greift also auf den Stand im **Erwerbszeitpunkt** zu, § 8d KStG dagegen auf den Stand am **Bilanzstichtag** – und weil er den § 8c-Untergang verdrängt, bleibt der gesamte Jahresverlust erhalten. Dieselbe Unterscheidung zwischen Zeitpunkt und Stichtag prägt schon die Abschnitte 3.3.2 und 3.3.5: Sie ist der rote Faden durch den ganzen Abschnitt 3.3." },
+      { text: "Anmerkung zur Lage des eingefrorenen Verlustes (eigene Ergänzung): Der Abschnitt vervollständigt das Bild aus Abschnitt 3.2.4.1. Ein vororganschaftlicher Verlust der Organgesellschaft ist während der Organschaft **nicht nutzbar** (§ 15 Satz 1 Nr. 1 KStG), bleibt aber durch § 8c KStG **gefährdet** – und wenn er über § 8d KStG gerettet wird, tritt mit § 8d Abs. 2 KStG eine **zweite** Gefährdung hinzu. Er ist dann **doppelt gebunden**: eingefroren und zugleich an die Fortführung des Geschäftsbetriebs gekettet, ohne in dieser Zeit irgendeinen Nutzen zu stiften. Wirtschaftlich lohnt der Antrag gleichwohl, weil er den laufenden Verlust rettet, der beim Organträger **sofort** verwendbar ist." },
     ],
   },
 ];
