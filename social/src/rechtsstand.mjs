@@ -221,7 +221,7 @@ function kennzeichneGastronomie(thema) {
  * Wendet ausschließlich auf die Social-Skelette fachliche Korrekturen an.
  * src/data und damit die Examenscampus-Webseite werden nicht verändert.
  */
-export function socialKorrekturenAnvenden(pool) {
+export function socialKorrekturenAnwenden(pool) {
   for (const thema of pool || []) {
     switch (thema.id) {
       case "bilanz-modul-k3-36": korrigiereEntfernungspauschale(thema); break;
@@ -239,8 +239,8 @@ export function socialKorrekturenAnvenden(pool) {
 
     const kernText = JSON.stringify(thema.kern || {});
     const achtBThema = /§\s*8b/i.test(`${thema.titel || ""} ${(thema.normen || []).join(" ")}`);
-    const verkuerzt = /10[-‑]?%|weniger als 10|Beteiligungsquote/i.test(kernText) && /Beginn des Kalenderjahres|Jahresbeginn|Stichtag/i.test(kernText);
-    if (achtBThema && verkuerzt && !/Abs\. 4 S\. 6|ordentlicher Erwerb/i.test(kernText)) korrigiereAchtB(thema);
+    const verkuerzt = /10[-‑ ]?%|weniger als 10|Beteiligungsquote/i.test(kernText) && /Beginn des Kalenderjahres|Jahresbeginn|Stichtag/i.test(kernText);
+    if (achtBThema && verkuerzt && !/Abs\. 4 S\. 6|mindestens 10 %.*laufenden Kalenderjahr|unterjährigen Erwerb/i.test(kernText)) korrigiereAchtB(thema);
   }
   return pool;
 }
