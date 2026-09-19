@@ -103,6 +103,16 @@ test("Außenprüfungsmodul nutzt neue §171-Abs.4-Fünfjahresgrenze", () => {
   assert.doesNotMatch(kern(t), /äußerste zeitliche Grenze nach Schlussbesprechung bzw\. letzter Prüfungshandlung/);
 });
 
+test("Vollstreckung trennt §254-Wochenfrist von der Soll-Mahnung nach §259", () => {
+  for (const id of ["ao-modul-ao-367", "ao-modul-ao-384"]) {
+    const t = byId(id);
+    assert.match(kern(t), /Leistungsgebot.*mindestens eine Woche/i);
+    assert.match(kern(t), /Mahnung.*Soll-Regel|Soll-Mahnung/i);
+    assert.match(kern(t), /keine zwingende Rechtmäßigkeitsvoraussetzung/i);
+    assert.match(kern(t), /Unterbleiben.*nicht.*unzulässig/i);
+  }
+});
+
 test("§2-AStG-Modul verwendet nur existente Normen und aktuelle Grenzen", () => {
   const t = byId("istr-modul-istr-istr3-07");
   assert.match(kern(t), /mindestens fünf Jahre/);
