@@ -90,6 +90,43 @@ function korrigiereEntfernungspauschale(thema) {
 }
 
 
+
+function korrigiereSbvKomplementaerGmbh(thema) {
+  normErgaenzen(
+    thema,
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "H 4.2 EStH – Sonderbetriebsvermögen",
+    "BFH 16.04.2015 – IV R 1/12",
+    "BFH 25.09.2025 – IV R 12/23"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Sonderbetriebsvermögen I umfasst Wirtschaftsgüter des Mitunternehmers, die objektiv erkennbar unmittelbar dem Betrieb der Personengesellschaft dienen. Sonderbetriebsvermögen II setzt demgegenüber voraus, dass das Wirtschaftsgut unmittelbar zur Begründung oder Stärkung der Beteiligung des Mitunternehmers eingesetzt wird.",
+      "Für Anteile eines Kommanditisten an der geschäftsführungsbefugten Komplementär-GmbH gibt es keine allgemeine starre 10-%-Grenze, ab der notwendiges SBV II automatisch vorliegt. Der BFH hat Beteiligungen von weniger als 10 % im gesetzlichen Mehrheitsregelfall als regelmäßig nicht ausreichend angesehen; ob 10 bis 25 % allein genügen, hat er ausdrücklich offengelassen.",
+      "Entscheidend bleiben der konkrete Veranlassungs- und Funktionszusammenhang, der durch die GmbH-Beteiligung vermittelte Einfluss auf die KG und ein etwaiger eigener Geschäftsbetrieb der GmbH. Die neuere BFH-Rechtsprechung verlangt bei der wirtschaftlichen-Vorteils-Alternative zudem eine enge wirtschaftliche Verflechtung und Beherrschung; bloße finanzielle Teilhabe genügt nicht.",
+    ],
+    lernziele: [
+      "SBV I und SBV II anhand ihres Funktionszusammenhangs unterscheiden",
+      "Komplementär-GmbH-Anteile nicht allein nach einer Beteiligungsquote zuordnen",
+      "bei weniger als 10 % die BFH-Negativregel zum gesetzlichen Mehrheitsregelfall beachten",
+      "bei 10 bis 25 % keine automatische SBV-II-Zuordnung unterstellen",
+      "Einfluss auf die Geschäftsführung, Veranlassungszusammenhang und eigenen Geschäftsbetrieb der GmbH würdigen",
+      "Sonderbilanz und Sonder-GuV nur nach geklärter Zuordnung erstellen",
+    ],
+    pruefschritte: [
+      "Wirtschaftsgut dem Mitunternehmer zurechnen.",
+      "Unmittelbare betriebliche Nutzung durch die Personengesellschaft prüfen; falls ja, SBV I.",
+      "Für SBV II prüfen, ob das Wirtschaftsgut ganz überwiegend der Begründung oder Stärkung der Mitunternehmerstellung dient.",
+      "Bei Beteiligung an der Komplementär-GmbH konkret feststellen, welchen Einfluss die Beteiligung auf die Geschäftsführung der KG vermittelt; keine starre 10-%-Automatik verwenden.",
+      "Eigenen Geschäftsbetrieb der GmbH von nicht ganz untergeordneter Bedeutung als mögliches Gegenindiz würdigen.",
+      "Bei der wirtschaftlichen-Vorteils-Alternative enge wirtschaftliche Verflechtung und Beherrschung prüfen; bloße Vermögensmehrung aus der Beteiligung reicht nicht.",
+      "Zugehörige Finanzierung und erst danach Sonderbilanz/Sonder-GuV abbilden.",
+    ],
+    merksatz: "Komplementär-GmbH-Anteile sind nicht ab 10 % automatisch SBV II. Entscheidend sind Funktion, Einfluss und Veranlassung; unter 10 % greift im gesetzlichen Mehrheitsregelfall regelmäßig die BFH-Negativregel.",
+  };
+}
+
 function korrigiereAStG2(thema) {
   thema.normen = (thema.normen || []).filter((n) => !/§\s*2a\s+AStG/i.test(n));
   normErgaenzen(thema, "§ 2 Abs. 1–5 AStG");
@@ -1508,6 +1545,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "erbst-modul-erbst-512": korrigiereFamilienheim(thema); break;
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
       case "erbst-modul-erbst-515": korrigiereErbStSchuldenabzug(thema); break;
+      case "persg-modul-persg-7": korrigiereSbvKomplementaerGmbh(thema); break;
       case "istr-modul-istr-istr3-07": korrigiereAStG2(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
       case "bilanz-formel-anschaffungsnah": korrigiereAnschaffungsnah(thema); break;
