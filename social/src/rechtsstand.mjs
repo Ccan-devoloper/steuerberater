@@ -189,6 +189,40 @@ function korrigiereAStG9(thema) {
 }
 
 
+
+function korrigiereErsatzbeschaffungsruecklage(thema) {
+  normErgaenzen(
+    thema,
+    "R 6.6 Abs. 4 EStR",
+    "BFH 12.01.2012 – IV R 4/09"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Die Rücklage für Ersatzbeschaffung ist ein gewohnheitsrechtlich anerkanntes Institut zur Übertragung stiller Reserven bei Ausscheiden eines Wirtschaftsguts infolge höherer Gewalt oder behördlichen Eingriffs. Sie setzt insbesondere eine ernstlich geplante und zu erwartende funktionsgleiche Ersatzbeschaffung voraus.",
+      "Nach der aktuellen Verwaltungsauffassung in R 6.6 Abs. 4 EStR gilt für das Ausscheiden eines beweglichen Wirtschaftsguts grundsätzlich eine Reinvestitionsfrist bis zum Schluss des ersten auf die Rücklagenbildung folgenden Wirtschaftsjahres. Diese Einjahresfrist kann im Einzelfall bei fortbestehender ernstlicher Ersatzbeschaffungsabsicht aus besonderen Gründen angemessen bis auf vier Jahre verlängert werden.",
+      "Für Wirtschaftsgüter i.S.d. § 6b Abs. 1 S. 1 EStG beträgt die Verwaltungsfrist vier Jahre; bei neu hergestellten Gebäuden sechs Jahre. Der BFH hat in IV R 4/09 die Reinvestitionsfrist demgegenüber allgemein mit vier Wirtschaftsjahren und bei neu hergestellten funktionsgleichen Gebäuden mit sechs Wirtschaftsjahren beschrieben. Die abweichende Verwaltungsbehandlung beweglicher Wirtschaftsgüter ist deshalb als Verwaltungsauffassung zu kennzeichnen.",
+    ],
+    lernziele: [
+      "Voraussetzungen der Rücklage für Ersatzbeschaffung von § 6b EStG unterscheiden",
+      "ernsthafte Ersatzbeschaffungsabsicht bereits bei Rücklagenbildung prüfen",
+      "Verwaltungsfristen für bewegliche Wirtschaftsgüter sowie §-6b-Wirtschaftsgüter unterscheiden",
+      "Sechsjahresfrist bei neu hergestellten Gebäuden kennen",
+      "abweichende BFH-Rechtsprechung IV R 4/09 zur Reinvestitionsfrist einordnen",
+      "Rücklage bei Ersatzbeschaffung, Aufgabe der Absicht oder Fristablauf zutreffend auflösen",
+    ],
+    pruefschritte: [
+      "Ausscheiden durch höhere Gewalt oder behördlichen Eingriff und Aufdeckung stiller Reserven prüfen.",
+      "Am Schluss des Ausscheidensjahres ernstlich geplante und zu erwartende funktionsgleiche Ersatzbeschaffung feststellen.",
+      "Verwaltungsauffassung R 6.6 Abs. 4 EStR anwenden: bewegliches Wirtschaftsgut grundsätzlich ein Jahr; im begründeten Einzelfall Verlängerung bis vier Jahre.",
+      "Bei einem Wirtschaftsgut i.S.d. § 6b Abs. 1 S. 1 EStG vier Jahre und bei neu hergestelltem Gebäude sechs Jahre berücksichtigen.",
+      "BFH IV R 4/09 als abweichende Rechtsprechung im Blick behalten: vier Wirtschaftsjahre allgemein, sechs bei neu hergestelltem funktionsgleichen Gebäude.",
+      "Bei Anschaffung/Herstellung die Rücklage auf die AK/HK übertragen; bei Aufgabe der Absicht oder Fristablauf gewinnerhöhend auflösen.",
+    ],
+    merksatz: "RfE-Fristen nicht auf „1 Jahr / Gebäude 4 Jahre“ verkürzen: Verwaltung = beweglich 1 Jahr (ggf. bis 4), §6b-WG 4 Jahre, neues Gebäude 6 Jahre; BFH IV R 4/09 formuliert 4/6 Jahre.",
+  };
+}
+
 function korrigiereAnschaffungsnah(thema) {
   normErgaenzen(
     thema,
@@ -1621,6 +1655,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "persg-modul-persg-7": korrigiereSbvKomplementaerGmbh(thema); break;
       case "istr-modul-istr-istr3-07": korrigiereAStG2(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
+      case "bilanz-modul-k3-26": korrigiereErsatzbeschaffungsruecklage(thema); break;
       case "bilanz-formel-anschaffungsnah": korrigiereAnschaffungsnah(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
