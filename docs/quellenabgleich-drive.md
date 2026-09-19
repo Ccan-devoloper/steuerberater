@@ -10620,6 +10620,48 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 2.3.2.2.2 und 2.4 – geringfügige Betätigung und weitere Einschränkungen
+
+Quelle: dieselbe Datei, Seiten 41 bis 43; übernommen als Kapitel 25 und 26. Prüfung:
+`npm run check:k2-kst-teil5` (26 Kapitel, 517 Blöcke, 63 Tabellen).
+
+**Alle Zahlen sind unabhängig nachgerechnet und gehen auf:** 20.000 € von 1.000.000 € sind genau
+2 %, so dass beide Grenzen der Bagatellregelung eingehalten sind; im Beispiel zu 2.4.1 ergeben
+10.000.000 € + 4.000.000 € = 14.000.000 €, abzüglich 4.000.000 € Altverluste verbleiben 10.000.000 €
+fortführungsgebundener Verlust.
+
+**Ein Datumsfehler der Quelle ist wortlautgetreu übernommen und markiert.** Das Beispiel zu 2.4.2
+nennt als Erwerbszeitpunkt den 01.03.2024, während die übrigen Angaben desselben Sachverhalts und
+die gesamte Lösung von einem Erwerb zum 01.03.2025 ausgehen – der Betrachtungszeitraum wird mit
+01.01.2022 bis 31.12.2025 angegeben, der unterjährige Verlust mit der Zeit bis zum 01.03.2025.
+
+**Vier sprachliche Eigenheiten sind ebenfalls übernommen und markiert:** „nicht zusammenfassen lassen
+können“, „nicht hinreichend genug“, „gilt diese Einschränkung erstmals, in denen die
+Einstellung“ und „innerhalb des Betrachtungszeitraum“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Beobachtung, dass nicht die Art der Tätigkeit,
+sondern ihre Verflechtung über den einheitlichen Geschäftsbetrieb entscheidet, samt der daraus
+folgenden zweistufigen Prüfung; die Herkunft der Werte 3 % und 24.500 € aus der Abfärbetheorie des
+§ 15 Abs. 3 Nr. 1 EStG und dem Gewerbesteuerfreibetrag sowie der Hinweis, dass ihre Übernahme allein
+auf Verwaltungsauffassung beruht; die Bezifferung der kumulativen Wirkung beider Grenzen; die
+Feststellung, dass die jahrweise Prüfung die Bagatellregelung erheblich verschärft und die
+Gesamtrechnung der Quelle eine Vereinfachung ist; die Einordnung der Geringfügigkeitsgrenze als
+Dauerbedingung mit der Pflicht, einen Geschäftsbereich klein zu halten; der Nachvollzug der
+Anwendungsgrenze „ab VZ 2020“, die die Quelle nur als Ergebnis nennt; der Hinweis, dass in das
+Beispiel zu 2.4.1 der volle Jahresverlust und nicht nur der unterjährige Teil eingeht; die
+Gegenüberstellung der Nummern 1 und 2 als Einschränkung der Höhe nach gegenüber einem Ausschluss dem
+Grunde nach; die Begründung des Organschaftsausschlusses samt der Kritik, dass die Norm nicht nach
+der Herkunft der Verluste unterscheidet; und die Einordnung der rückwirkenden Beseitigung als
+Prüfungshinweis statt als Gestaltungsempfehlung.
+
+**Neu sind drei Übersichten:** eine zu den drei Beispielsfällen des Geschäftsbetriebs mit Ergebnis
+und tragendem Grund, eine zur unterschiedlichen Rechtsfolge der beiden Nummern des § 8d Abs. 1
+Satz 2 KStG und eine zum Rechenweg des Beispiels zu 2.4.1.
+
+**Noch offen:** aus Teil V die Rechtsfolgen des § 8d KStG (2.5), die schädlichen Ereignisse (2.6)
+sowie die Kapitel 3 (Zinsschranke) und 4 (stille Beteiligungen); ganz offen sind die Skriptteile VI
+und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 2.3.1 und 2.3.2 – Betrachtungszeitraum und Geschäftsbetrieb
 
 Quelle: dieselbe Datei, Seiten 37 bis 40; übernommen als Kapitel 23 und 24. Prüfung:

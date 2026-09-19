@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 24 Kapitel mit 481 Abschnitten und 60 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 26 Kapitel mit 517 Abschnitten und 63 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4076,6 +4076,48 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   gemeinsamer Lieferanten- und Kundenkreis. Räumliche Trennung oder Andersartigkeit sprechen dagegen,
   und eine bloß gemeinsame **Buchführung oder Verwaltung** genügt ausdrücklich nicht: Sie lässt sich
   jederzeit herstellen und sagt über die wirtschaftliche Verbindung nichts aus.
+  Die beiden Beispiele der Quelle zeigen, dass nicht die **Art** der Tätigkeit den Ausschlag gibt,
+  sondern ihre **Verflechtung**: Die Kfz-Werkstatt im angeschlossenen Gebäude lebt von den Kunden des
+  Autohauses und bildet mit ihm einen einheitlichen Geschäftsbetrieb, die Waschanlage 60 Kilometer
+  entfernt in Münster dagegen nicht – obwohl beide kfz-nahe Dienstleistungen neben einem Autohandel
+  sind. Im ersten Fall sagt die Quelle sogar ausdrücklich, die Unterschiede nach § 8d Abs. 1 Satz 4
+  KStG seien „gegeben“, und lässt sie vom Förder- und Sachzusammenhang **überlagern**. Für die Klausur
+  folgt daraus eine zweistufige Prüfung: erst die vier Merkmale, dann der Zusammenhang, der das
+  Ergebnis der ersten Stufe umstoßen kann.
+  Die zweite Ausnahme, die wirtschaftlich **geringfügige** Betätigung, lässt einen weiteren
+  Geschäftsbetrieb unberücksichtigt, wenn seine Nettoumsätze **3 %** der Gesamtnettoerlöse und
+  **24.500 €** nicht übersteigen. Beide Werte stammen nicht aus § 8d KStG, sondern aus der
+  Rechtsprechung zur **Abfärbetheorie** des § 15 Abs. 3 Nr. 1 EStG und gelten nur entsprechend auf
+  Grundlage von Tz. 24 des BMF-Schreibens; der absolute Betrag entspricht dem Gewerbesteuerfreibetrag.
+  Die Grenzen wirken **kumulativ**: Im Beispiel sind 20.000 € von 1.000.000 € Umsatz genau 2 % und
+  unschädlich, während 30.000 € an der absoluten Grenze scheiterten und dieselben 20.000 € bei einem
+  Gesamtumsatz von 500.000 € mit 4 % bereits schädlich wären. Geprüft wird in **jedem**
+  Veranlagungszeitraum, und ein einziges Überschreiten genügt; überschreitet der Nebenbetrieb später
+  im **Nachbetrachtungszeitraum**, gilt er als weiterer Geschäftsbetrieb im Sinne des § 8d Abs. 2
+  Satz 2 Nr. 3 KStG und der fortführungsgebundene Verlust fällt weg. Wer sich auf die Bagatellregelung
+  stützt, erkauft sich die Begünstigung also mit der Pflicht, einen Geschäftsbereich dauerhaft klein
+  zu halten.
+  Die beiden **weiteren Einschränkungen** des § 8d Abs. 1 Satz 2 KStG wirken völlig verschieden und
+  sind in der Klausur zuerst auseinanderzuhalten. **Nr. 1** – Einstellung oder Ruhendstellung des
+  Geschäftsbetriebs – greift nur der **Höhe** nach: Die Norm bleibt anwendbar, nur die vorher
+  entstandenen Verluste fallen heraus und gehen nach § 8c KStG unter; im Beispiel bleiben von
+  14.000.000 € Verlustvortrag 10.000.000 € als fortführungsgebundener Verlust erhalten. Dass dabei der
+  volle Jahresverlust 2025 von 4.000.000 € einbezogen wird und nicht nur der bis zum Erwerb entstandene
+  Teil von 1.000.000 €, ist wieder die Folge des abweichenden Bemessungszeitpunkts. Über
+  § 34 Abs. 6a Satz 2 KStG gilt diese Einschränkung erstmals bei einem schädlichen Erwerb ab dem
+  Veranlagungszeitraum 2020 – die Einstellung muss nach dem 31.12.2015 und zugleich vor dem
+  Betrachtungszeitraum liegen, was sich erstmals für das Jahr 2016 bei einem ab 01.01.2017 laufenden
+  Zeitraum vereinbaren lässt. **Nr. 2** – Organträger nach § 14 KStG oder Mitunternehmer einer
+  Personengesellschaft zu Beginn oder innerhalb des Betrachtungszeitraums – schließt § 8d KStG dagegen
+  dem **Grunde** nach vollständig aus: Der Verlust enthält dann Bestandteile eines **fremden**
+  Tätigkeitsbereichs, der selbst als Geschäftsbetrieb gilt, so dass die Voraussetzung eines einzigen
+  Geschäftsbetriebs systematisch verfehlt ist. Bemerkenswert ist, dass die Norm nicht danach
+  unterscheidet, ob überhaupt Verluste aus diesen Quellen stammen. Wird das Organschaftsverhältnis
+  **rückwirkend** beseitigt – etwa durch einen **Durchführungsmangel** innerhalb der Mindestlaufzeit
+  des § 14 Abs. 1 Nr. 3 KStG – oder der Mitunternehmeranteil mit steuerlicher Rückwirkung nach
+  § 20 UmwStG eingebracht, ist das unschädlich, sofern es auf einen Zeitpunkt **vor Beginn** des
+  Betrachtungszeitraums wirkt. Die Organträgerstellung ist damit nicht nach dem Handelsregister,
+  sondern nach dem steuerlichen Bestand der Organschaft zu beurteilen.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
