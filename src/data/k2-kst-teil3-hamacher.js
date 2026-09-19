@@ -29,9 +29,12 @@
    vollständig – Arten der Kapitalerhöhung, die externe Kapitalerhöhung bei
    Gesellschaft und Anteilseigner samt dem Überspringen stiller Reserven sowie
    die interne Kapitalerhöhung mit Verwendungsreihenfolge, Sonderausweis und
-   der Neuverteilung der Anschaffungskosten. Es folgt das Kapitel 3 (Grundzüge
-   der Kapitalherabsetzung einschließlich Erwerb und Veräußerung eigener
-   Anteile); der Campus weist den Stand aus.
+   der Neuverteilung der Anschaffungskosten. Aus Kapitel 3 (Grundzüge der
+   Kapitalherabsetzung) sind die Formen der Kapitalherabsetzung (3.1), die
+   vereinfachte Kapitalherabsetzung bei Gesellschaft und Anteilseigner (3.2)
+   und die ordentliche Kapitalherabsetzung (3.3) übernommen. Es folgt der
+   Abschnitt 3.4 (Erwerb und Veräußerung eigener Anteile); der Campus weist den
+   Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Anders als die Teile I und II trägt dieses Skript den
    Stand Mai 2025 und rechnet seine Beispiele im VZ 2025.
@@ -827,6 +830,112 @@ export const kstTeil3 = [
       { text: "Anmerkung zum Unterschied gegenüber der externen Kapitalerhöhung (eigene Ergänzung): Beide Abschnitte enden mit einer Verteilung von Anschaffungskosten, aber aus entgegengesetzten Gründen und nach unterschiedlichen Maßstäben. Bei der **externen** Kapitalerhöhung des Abschnitts 2.2 wandern Anschaffungskosten von einem Gesellschafter auf einen **anderen**, weil Wert übergesprungen ist – Maßstab ist deshalb das Wertverhältnis (im Beispiel 1/9). Bei der **internen** Kapitalerhöhung bleibt alles beim selben Gesellschafter; es entsteht kein neuer Wert und geht kein Wert über, weshalb schlicht nach **Nennwerten** aufgeteilt wird. Der Vorgang ist reine Rechentechnik: Aus einem Anteil mit 60.000 € Anschaffungskosten werden zwei Anteile mit zusammen 60.000 €." },
       { text: "Anmerkung zur Bedeutung der Aufteilung (eigene Ergänzung): Dass die Aufteilung überhaupt vorgenommen werden muss, obwohl sich am Gesamtvermögen nichts ändert, hat einen praktischen Grund: Jeder Anteil ist gesellschaftsrechtlich selbständig und kann einzeln veräußert werden – derselbe Gedanke, den die Quelle im Abschnitt 1.2.1.4 unter Berufung auf § 15 Abs. 2 GmbHG entwickelt hat. Verkauft A später nur die neuen Anteile, braucht er für die Gewinnermittlung deren eigene Anschaffungskosten, und die sind eben nicht null, obwohl er für sie nichts gezahlt hat." },
       { text: "Damit ist das Kapitel 2 (Grundzüge der Kapitalerhöhung) der Quelle vollständig übernommen. (Eigene Einordnung:) Es folgt das Kapitel 3 zur Kapitalherabsetzung einschließlich des Erwerbs und der Veräußerung eigener Anteile." },
+    ],
+  },
+  {
+    id: "kst-t3-18",
+    kapitel: "18",
+    abschnittNr: "3.1 und 3.2",
+    title: "3.1 Formen einer Kapitalherabsetzung · 3.2 Die vereinfachte Kapitalherabsetzung",
+    thema: "Ohne Rückzahlung ändert sich nur die Zusammensetzung des Eigenkapitals. Der Herabsetzungsbetrag wird dem Einlagekonto gutgeschrieben – aber erst, nachdem ein bestehender Sonderausweis aufgezehrt ist",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil III (Hamacher), Abschnitte 3.1 und 3.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 28 Abs. 2 KStG",
+      "§ 28 Abs. 2 Sätze 1, 2 und 3 KStG",
+      "§ 28 Abs. 1 Satz 3 KStG",
+      "§ 224 AktG, § 54 Abs. 3 GmbHG",
+      "BMF vom 04.06.2003, Tz. 37 und Tz. 38",
+    ],
+    themen: ["Vereinfachte Kapitalherabsetzung", "Unterbilanz", "Gutschrift beim Einlagekonto", "Verrechnung mit dem Sonderausweis", "Zeitpunkt der Eintragung"],
+    bloecke: [
+      { text: "Die Kapitalherabsetzung führt zu einer Minderung des satzungsmäßig vorgeschriebenen Nennkapitals. Diese erfolgt i.d.R. zur Beseitigung einer Unterbilanz (z.B. um einen Bilanzverlust oder Jahresfehlbetrag auszugleichen) oder zur Freisetzung nicht mehr benötigten Stammkapitals. Mit der Eintragung des Beschlusses über die Kapitalherabsetzung in das Handelsregister gilt das Nennkapital als herabgesetzt (vgl. § 224 AktG, § 54 Abs. 3 GmbHG)." },
+      { typ: "titel", text: "3.2.1 Auswirkungen bei der Kapitalgesellschaft" },
+      { text: "Mangels tatsächlicher Kapitalrückzahlung ändert sich durch die vereinfachte Kapitalherabsetzung nicht der Bestand des Eigenkapitals, sondern lediglich dessen Zusammensetzung. Der Herabsetzungsbetrag wird letztlich vom Nennkapital auf einen anderen Posten des Eigenkapitals (z.B. Kapitalrücklage) umgebucht. In der Bilanz hat die Kapitalgesellschaft die veränderte Zusammensetzung ihres Eigenkapitals erstmals zu dem Bilanzstichtag auszuweisen, welcher der Handelsregister-Eintragung folgt." },
+      { text: "Als gesellschaftsrechtlicher Vorgang auf der Vermögensebene ist die Kapitalherabsetzung ohne Auswirkung auf das Einkommen der Kapitalgesellschaft." },
+      { typ: "titel", text: "3.2.1.2 Feststellungen" },
+      { text: "Auswirkungen ergeben sich wiederum auf die Feststellung des steuerlichen Einlagekontos. Denn gemäß § 28 Abs. 2 KStG wird der Betrag der Kapitalherabsetzung dem steuerlichen Einlagekonto gutgeschrieben. Besteht im Zeitpunkt der Kapitalherabsetzung hingegen ein Sonderausweis i.S. des § 28 Abs. 1 Satz 3 KStG, ist dieser zunächst um den Betrag der Kapitalherabsetzung zu mindern (§ 28 Abs. 2 Satz 1 KStG). Dies gilt unabhängig davon, dass im Zuge der Kapitalherabsetzung tatsächlich keine Auskehrung an den Anteilseigner erfolgt. Ein darüber hinausgehender Betrag wird dann dem steuerlichen Einlagekonto gutgeschrieben. Mangels tatsächlicher Rückzahlung gilt § 28 Abs. 2 Satz 3 KStG nicht, so dass der Bestand des steuerlichen Einlagekontos nicht reduziert wird. Gleichzeitig ergeben sich aus der Verrechnung des Sonderausweises beim Anteilseigner auch keine Besteuerungsfolgen, weil ihm tatsächlich keine Beträge zufließen. Diese Maßnahmen werden im Zeitpunkt der zivilrechtlichen Wirksamkeit der Kapitalherabsetzung vollzogen, die mit Eintragung im Handelsregister eintritt." },
+      { text: "Beispiel: Die A-GmbH (Stammkapital: 500.000 €) beschließt in 2024 ihr Stammkapital um 180.000 € herabzusetzen. Der Betrag soll zur Deckung eines Bilanzverlustes verwendet werden (vereinfachte Kapitalherabsetzung). Der Bestand des steuerlichen Einlagekontos beträgt vor Kapitalherabsetzung 50.000 €." },
+      { text: "Lösung: Die Kapitalherabsetzung ist gemäß § 28 Abs. 2 Satz 1 KStG dem Bestand des steuerlichen Einlagekontos zuzurechnen:" },
+      { typ: "tabelle", spalten: ["Beispiel ohne Sonderausweis", "Betrag"], zeilen: [
+        ["Bestand des steuerlichen Einlagekontos", "50.000 €"],
+        ["+ Zugang zum steuerlichen Einlagekonto", "180.000 €"],
+        ["Endbestand des steuerlichen Einlagekontos", "230.000 €"],
+      ] },
+      { text: "Bei der A-GmbH wird zum 31.12.2024 ein Bestand des steuerlichen Einlagekontos von 230.000 € festgestellt." },
+      { text: "Beispiel: Die A-GmbH (Stammkapital: 500.000 €) beschließt in 2024 ihr Stammkapital um 180.000 € herabzusetzen. Die Eintragung im Handelsregister erfolgt noch in 2024. Der Betrag soll zur Deckung eines Bilanzverlustes verwendet werden (vereinfachte Kapitalherabsetzung). Zu diesem Zeitpunkt besteht auch noch ein Sonderausweis i.S. des § 28 Abs. 1 Satz 3 KStG von 70.000 €." },
+      { text: "Lösung: Die Kapitalherabsetzung ist gemäß § 28 Abs. 2 Satz 1 KStG dem Bestand des steuerlichen Einlagekontos zuzurechnen. Diese ist aber gemäß § 28 Abs. 2 Satz 2 KStG zunächst mit dem Bestand des Sonderausweises zu verrechnen. Lediglich der Überhang wird dem steuerlichen Einlagekonto zugerechnet:" },
+      { typ: "tabelle", spalten: ["Beispiel mit Sonderausweis", "Betrag"], zeilen: [
+        ["Bestand des Sonderausweises", "70.000 €"],
+        ["./. Verrechnung nach § 28 Abs. 2 Satz 2 KStG", "./. 70.000 €"],
+        ["Bestand zum 31.12.2024", "0 €"],
+        ["Zugang zum steuerlichen Einlagekonto", "110.000 €"],
+        ["Bestand zum 31.12.2024", "110.000 €"],
+      ] },
+      { typ: "titel", text: "3.2.2 Auswirkungen beim Anteilseigner" },
+      { text: "Die vereinfachte Kapitalherabsetzung führt nicht zu einem vermögensmäßigen Abfluss bei der Kapitalgesellschaft und auch zu keinem Zufluss von Kapitalerträgen bei den Anteilseignern. Sie zieht bei diesem somit keine Auswirkungen nach sich." },
+      { text: "Rechenproben (eigene Ergänzung): Beide Beispiele gehen auf. Ohne Sonderausweis: 50.000 € + 180.000 € = 230.000 €. Mit Sonderausweis: 180.000 € ./. 70.000 € = 110.000 € Zugang zum Einlagekonto. Im zweiten Beispiel nennt die Quelle keinen Anfangsbestand des Einlagekontos; der ausgewiesene Endbestand von 110.000 € setzt voraus, dass dieser 0 € betrug – das ist eigene Herleitung." },
+      { text: "Anmerkung zur Reihenfolge (eigene Ergänzung): Die Verrechnung mit dem Sonderausweis ist der Kern des Abschnitts und vollzieht genau die Gegenbewegung zu § 28 Abs. 1 KStG aus dem Kapitel 2. Dort war beim Weg **in** das Nennkapital zuerst das Einlagekonto verbraucht worden und der Rest zum Sonderausweis geworden; hier wird auf dem Weg **aus** dem Nennkapital zuerst der Sonderausweis aufgelöst und nur der Rest dem Einlagekonto gutgeschrieben. Beides zusammen stellt sicher, dass versteuerter Gewinn, der einmal ins Nennkapital gewandert ist, bei seiner Rückkehr nicht als Einlage behandelt wird. Wäre es umgekehrt, ließe sich die Ausschüttungsbesteuerung durch den Umweg über das Nennkapital dauerhaft vermeiden." },
+      { text: "Anmerkung zum Fehlen von Besteuerungsfolgen (eigene Ergänzung): Dass die Auflösung des Sonderausweises beim Anteilseigner **nichts** auslöst, obwohl sie bei der ordentlichen Kapitalherabsetzung zu Bezügen nach § 20 Abs. 1 Nr. 2 EStG führt, ist der entscheidende Unterschied der beiden Formen. Die Quelle begründet es schlicht damit, dass dem Anteilseigner tatsächlich keine Beträge zufließen. Der Sonderausweis ist damit zwar verbraucht, das Potential aber nicht besteuert worden – wirtschaftlich hat sich der Merkposten in Einlagekontopotential verwandelt, ohne dass jemals eine Besteuerung stattgefunden hätte. Das ist konsequent, weil die spätere Auskehrung des nunmehr erhöhten Einlagekontos die Anschaffungskosten mindert und bei ihrem Überschreiten nach Abschnitt 1.2 doch noch zu einem Veräußerungsgewinn führt." },
+      { text: "Anmerkung zu den beiden Zeitpunkten (eigene Ergänzung): Sie fallen auseinander und sind sorgfältig zu unterscheiden. **Steuerlich** werden die Maßnahmen im Zeitpunkt der zivilrechtlichen Wirksamkeit vollzogen, also mit der Eintragung im Handelsregister. **Bilanziell** ist die veränderte Zusammensetzung des Eigenkapitals dagegen erst zu dem Bilanzstichtag auszuweisen, der **der Eintragung folgt**. Erfolgt die Eintragung im laufenden Jahr, wirkt sie steuerlich sofort auf das Einlagekonto, während die Handelsbilanz erst zum folgenden Stichtag umgestellt wird." },
+    ],
+  },
+  {
+    id: "kst-t3-19",
+    kapitel: "19",
+    abschnittNr: "3.3",
+    title: "3.3 Die ordentliche Kapitalherabsetzung – Rückzahlung, Kapitalertragsteuer und Direktzugriff",
+    thema: "Mit der Auskehrung kommt § 28 Abs. 2 Satz 3 KStG hinzu: Der Auszahlungsbetrag mindert das Einlagekonto unmittelbar, unabhängig von der allgemeinen Verwendungsreihenfolge. Die Auflösung des Sonderausweises führt zu Bezügen und Kapitalertragsteuer",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil III (Hamacher), Abschnitt 3.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 28 Abs. 2 Sätze 1 bis 4 KStG",
+      "§ 27 Abs. 1 Satz 3 KStG",
+      "§ 27 Abs. 3 KStG",
+      "§ 20 Abs. 1 Nr. 2 EStG",
+      "§ 44 Abs. 1 Satz 2 EStG",
+      "§ 45a EStG",
+      "BMF vom 04.06.2003, Tz. 23, 40 und 42",
+    ],
+    themen: ["Ordentliche Kapitalherabsetzung", "Direktzugriff", "Bezüge nach § 20 Abs. 1 Nr. 2 EStG", "Keine Steuerbescheinigung", "Überhang"],
+    bloecke: [
+      { text: "Als gesellschaftsrechtlicher Vorgang auf der Vermögensebene bleibt die Kapitalherabsetzung mit Rückzahlung an die Gesellschafter ohne Auswirkung auf den Gewinn und das Einkommen der Kapitalgesellschaft. Auswirkungen hat der Vorgang wiederum auf die Feststellung des steuerlichen Einlagekontos, weil § 28 Abs. 2 KStG zunächst zu einem Zugang beim steuerlichen Einlagekonto und zu einer Verringerung des Sonderausweises führt. Dafür gilt folgende Verwendungsreihenfolge:" },
+      { text: "a) Minderung des Sonderausweises gem. § 28 Abs. 2 Satz 1 KStG" },
+      { text: "b) Zugang beim steuerlichen Einlagekonto, soweit die Einlage in das Nennkapital geleistet ist." },
+      { text: "Die Verwendung des Sonderausweises führt bei der Gesellschaft zur Einbehaltung von Kapitalertragsteuern und des Solidaritätszuschlags, weil es aufgrund der gesetzlichen Definition insoweit zur Entstehung von Bezügen i.S. des § 20 Abs. 1 Nr. 2 EStG kommt. Die Kapitalertragsteuer entsteht aber erst bei tatsächlicher Auskehrung des Nennkapitals (§ 44 Abs. 1 Satz 2 EStG)." },
+      { text: "Die Auswirkungen der Kapitalherabsetzung und damit auch der mögliche Zugang zum steuerlichen Einlagekonto erfolgen zum Abschluss des Wirtschaftsjahres, in welchem diese durch Eintragung im Handelsregister wirksam wird. Dabei ist unerheblich, wann die tatsächliche Auskehrung an den Anteilseigner vorgenommen wird." },
+      { text: "Weil es in Fällen einer ordentlichen Kapitalherabsetzung auch tatsächlich zu einer Rückzahlung an den Anteilseigner kommt, vermindert sich der Bestand des steuerlichen Einlagekontos nachfolgend gemäß § 28 Abs. 2 Satz 3 KStG um den verbleibenden Auszahlungsbetrag – nach Saldierung mit dem Sonderausweis – entsprechend. Reicht der um die Kapitalherabsetzung erhöhte Bestand des steuerlichen Einlagekontos hingegen nicht aus, um diesen Abzugsbetrag abzudecken, führt der Überhang beim Anteilseigner gemäß § 28 Abs. 2 Satz 4 KStG ebenfalls zu Beteiligungserträgen i.S. des § 20 Abs. 1 Nr. 2 EStG. Die Auswirkungen des § 28 Abs. 2 Satz 3 KStG und damit die Reduzierung des steuerlichen Einlagekontos, die Verwendung des Sonderausweises und auch die Finanzierung des Überhangbestandes der Auskehrung erfolgen erst bei tatsächlicher Auskehrung (= Abfluss) der Nennkapitalrückzahlung." },
+      { text: "Über die Verwendung des Sonderausweises – und eines eventuellen Überhanges i.S. des § 28 Abs. 2 Satz 4 KStG – erhält der Anteilseigner keine Steuerbescheinigung i.S. des § 27 Abs. 3 KStG, weil § 28 Abs. 2 KStG eine diesbezügliche Verpflichtung gerade nicht beinhaltet. Der Anteilseigner muss daher die aus der Nennkapitalrückzahlung resultierenden Einnahmen als „normale“ Beteiligungserträge i.S. des § 20 Abs. 1 Nr. 2 EStG erklären. Über die von der Gesellschaft einbehaltene Kapitalertragsteuer und den Solidaritätszuschlag erhält er für Zwecke der Steueranrechnung eine Bescheinigung i.S. des § 45a EStG. Auch über die Verwendung des steuerlichen Einlagekontos, welches sich aus dem Direktzugriff des § 28 Abs. 2 Satz 3 KStG ergibt, erteilt die Gesellschaft keine Steuerbescheinigung, d.h. der Anteilseigner muss sich für Zwecke seiner Besteuerung an der Bescheinigung über den Kapitalertragsteuerabzug orientieren." },
+      { text: "Beispiel: Die A-GmbH (Stammkapital: 500.000 €) beschließt in 2024 ihr Stammkapital um 180.000 € herabzusetzen und an den Anteilseigner auszuzahlen. Zu diesem Zeitpunkt besteht auch noch ein Sonderausweis i.S. des § 28 Abs. 1 Satz 3 KStG von 70.000 €." },
+      { text: "Lösung: Die Kapitalherabsetzung ist gemäß § 28 Abs. 2 Satz 1 KStG dem Bestand des steuerlichen Einlagekontos zuzurechnen. Diese ist aber gemäß § 28 Abs. 2 Satz 1 KStG zunächst mit dem Bestand des Sonderausweises zu verrechnen. Lediglich der Überhang wird dem steuerlichen Einlagekonto zugerechnet: (Die zweite Angabe „Satz 1“ steht so in der Quelle; die zugehörige Rechnung und das entsprechende Beispiel im Abschnitt 3.2 nennen dafür Satz 2.)" },
+      { typ: "tabelle", spalten: ["Schritt 1 – Wirksamkeit der Kapitalherabsetzung", "Betrag"], zeilen: [
+        ["Bestand des Sonderausweises", "70.000 €"],
+        ["./. Verrechnung nach § 28 Abs. 2 Satz 2 KStG", "./. 70.000 €"],
+        ["Bestand zum 31.12.2024", "0 €"],
+        ["Zugang zum steuerlichen Einlagekonto", "110.000 €"],
+        ["Zwischensaldo", "110.000 €"],
+      ] },
+      { text: "Aufgrund der Kapitalrückzahlung ist gemäß § 28 Abs. 2 Satz 3 KStG der Auszahlungsbetrag – sofern er aus dem steuerlichen Einlagekonto zu entnehmen ist – mit dem o.g. Zwischenbestand zu verrechnen. Die Verrechnung erfolgt unabhängig von der allgemeinen Verwendungsreihenfolge des § 27 Abs. 1 Satz 3 KStG:" },
+      { typ: "tabelle", spalten: ["Schritt 2 – tatsächliche Auskehrung", "Betrag"], zeilen: [
+        ["Zwischensaldo", "110.000 €"],
+        ["./. Verrechnung § 28 Abs. 2 Satz 3 KStG", "./. 110.000 €"],
+        ["Bestand zum 31.12.2024", "0 €"],
+      ] },
+      { typ: "titel", text: "3.3.2 Auswirkungen beim Anteilseigner" },
+      { text: "Bezüge auf Grund einer Kapitalherabsetzung werden als Einkünfte aus Kapitalvermögen i.S. des § 20 Abs. 1 Nr. 2 EStG erfasst, soweit sie mit einer Minderung des Sonderausweises zusammenhängen (§ 28 Abs. 2 Satz 2 KStG). Gleiches gilt für einen Überhang i.S. des § 28 Abs. 2 Satz 4 KStG." },
+      { text: "Soweit bei der Kapitalherabsetzung das steuerliche Einlagekonto gemindert wird, führt dies beim Anteilseigner zu einer Einlagenrückgewähr (§ 20 Abs. 1 Satz 1 Nr. 2 EStG, § 28 Abs. 2 Satz 3 KStG). Nur in den Fällen des Überhangs der Verwendung des steuerlichen Einlagekontos über die Anschaffungskosten der Beteiligung, ergeben sich die Konsequenzen eines veräußerungsgleichen Tatbestands (siehe diesbezüglich unter 1.2)." },
+      { typ: "tabelle", spalten: ["Teil der Auskehrung von 180.000 €", "Bei der Gesellschaft", "Beim Anteilseigner", "Kapitalertragsteuer"], zeilen: [
+        ["70.000 € aus dem Sonderausweis", "Minderung des Sonderausweises auf 0 €", "Bezug nach § 20 Abs. 1 Nr. 2 EStG", "ja – entsteht mit der tatsächlichen Auskehrung"],
+        ["110.000 € aus dem Einlagekonto", "Zugang und unmittelbarer Abgang nach § 28 Abs. 2 Sätze 1 und 3 KStG", "Einlagenrückgewähr – Minderung der Anschaffungskosten, Überhang nach Abschnitt 1.2", "nein"],
+        ["etwaiger weiterer Überhang", "Einlagekonto reicht nicht aus", "Bezug nach § 20 Abs. 1 Nr. 2 EStG (§ 28 Abs. 2 Satz 4 KStG)", "ja"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. Sonderausweis 70.000 € ./. 70.000 € = 0 €; Zugang zum Einlagekonto 180.000 € ./. 70.000 € = 110.000 €; Abgang nach § 28 Abs. 2 Satz 3 KStG in Höhe des verbleibenden Auszahlungsbetrags von ebenfalls 110.000 €, Endbestand 0 €. Die Quelle nennt keinen Anfangsbestand des Einlagekontos; dass der Endbestand 0 € beträgt, setzt einen Anfangsbestand von 0 € voraus – eigene Herleitung. Der Anteilseigner erhält 180.000 €, davon 70.000 € als Bezug nach § 20 Abs. 1 Nr. 2 EStG und 110.000 € als Einlagenrückgewähr; die Aufteilung spricht die Quelle im Beispiel nicht aus, sie folgt aber aus den beiden Rechenschritten." },
+      { text: "Anmerkung zum Zusammenspiel der beiden Schritte (eigene Ergänzung): Der Fall zeigt eine Besonderheit, die man verstanden haben muss: Der Zugang zum Einlagekonto von 110.000 € und sein sofortiger Abgang in gleicher Höhe heben sich auf – das Konto bleibt betragsmäßig unverändert. Trotzdem sind **beide** Schritte nötig, und zwar aus einem zeitlichen Grund, den die Quelle ausdrücklich nennt: Der Zugang erfolgt zum Abschluss des Wirtschaftsjahres der Handelsregistereintragung, der Abgang dagegen erst bei der tatsächlichen Auskehrung. Fallen beide in verschiedene Jahre, steht zwischenzeitlich ein erhöhter Bestand in der Feststellung – und erst der zweite Schritt zehrt ihn auf. Nur wenn beides im selben Jahr geschieht, sieht es wie ein Nullsummenspiel aus." },
+      { text: "Anmerkung zum Direktzugriff (eigene Ergänzung): § 28 Abs. 2 Satz 3 KStG ist einer der Fälle, die das Skript schon in Abschnitt 1.3.8 als **Direktzugriff** bezeichnet hat. Die Quelle betont es hier eigens: Die Verrechnung erfolgt **unabhängig von der allgemeinen Verwendungsreihenfolge** des § 27 Abs. 1 Satz 3 KStG. Es wird also weder ein ausschüttbarer Gewinn ermittelt noch auf Vorjahreswerte abgestellt – der Auszahlungsbetrag geht unmittelbar vom Einlagekonto ab. Das ist der entscheidende Unterschied zur gewöhnlichen Gewinnausschüttung und der Grund, weshalb die Nennkapitalrückzahlung dem Gesellschafter überhaupt als Einlagenrückgewähr zugutekommen kann, obwohl das neutrale Vermögen vielleicht gar nicht verbraucht ist." },
+      { text: "Anmerkung zur fehlenden Steuerbescheinigung (eigene Ergänzung): Dass die Gesellschaft hier **keine** Bescheinigung nach § 27 Abs. 3 KStG erteilt, hat eine unmittelbare Folge für das gesamte Kapitel 1: Die strenge Verwendungsfestschreibung des § 27 Abs. 5 KStG kann auf diesen Vorgang nicht angewandt werden, weil es an der Bescheinigung fehlt, an die sie anknüpft. Der Anteilseigner muss sich stattdessen an der Bescheinigung über den Kapitalertragsteuerabzug nach § 45a EStG orientieren – er erfährt also nur mittelbar, welcher Teil der Auskehrung Bezug und welcher Einlagenrückgewähr war: Was besteuert wurde, ergibt sich aus der Kapitalertragsteuer, der Rest ist Einlagenrückgewähr." },
+      { text: "Anmerkung zum Überhang des § 28 Abs. 2 Satz 4 KStG (eigene Ergänzung): Er ist die Parallele zu § 27 Abs. 1 Satz 4 KStG aus Abschnitt 1.3.7 und tritt ein, wenn das um die Kapitalherabsetzung erhöhte Einlagekonto den Auszahlungsbetrag nicht deckt. Die Fußnote der Quelle nennt dafür den praktisch wichtigsten Grund: einen **negativen** Bestand des Einlagekontos, wie er nach Abschnitt 1.3.8 durch einen Direktzugriff entstehen kann. Auch hier gilt also, dass die Auskehrung nicht mehr als Einlagenrückgewähr sein kann, als an Einlagekonto vorhanden ist – der Rest ist Bezug nach § 20 Abs. 1 Nr. 2 EStG." },
     ],
   },
 ];

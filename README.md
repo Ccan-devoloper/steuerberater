@@ -2734,7 +2734,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil III (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil III (§§ 27, 28 KStG)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil III: Steuerliches Einlagekonto (§ 27 KStG);
   Grundzüge der Kapitalherauf- und -herabsetzung (§ 28 KStG)“** (21. Auflage, Stand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 17 Kapitel mit 252 Abschnitten und 25 Tabellen. Anders als die
+  Wortlaut – **in Arbeit**, derzeit 19 Kapitel mit 292 Abschnitten und 30 Tabellen. Anders als die
   Teile I und II trägt dieses Skript den Stand **Mai 2025** und rechnet seine Beispiele im VZ 2025.
   Das steuerliche Einlagekonto beantwortet eine einzige Frage: Was von dem, was die Gesellschaft
   auskehrt, hat der Gesellschafter ihr vorher selbst gegeben? Der entscheidende Satz steht gleich am
@@ -2852,6 +2852,31 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   verteilt, im Beispiel 2/3 zu 1/3. Der Maßstab unterscheidet sich damit bewusst von dem der externen
   Kapitalerhöhung, weil dort Wert von einem Gesellschafter auf einen anderen übergeht, hier dagegen
   nicht. **Damit ist auch das Kapitel 2 der Quelle vollständig.**
+  Die **Kapitalherabsetzung** (Kapitel 3) vollzieht genau die Gegenbewegung zu § 28 Abs. 1 KStG: Auf
+  dem Weg **in** das Nennkapital wurde zuerst das Einlagekonto verbraucht und der Rest zum
+  Sonderausweis; auf dem Weg **heraus** wird zuerst der Sonderausweis aufgelöst und nur der Überhang
+  dem Einlagekonto gutgeschrieben. Beides zusammen stellt sicher, dass versteuerter Gewinn, der
+  einmal ins Nennkapital gewandert ist, bei seiner Rückkehr nicht als Einlage behandelt wird – sonst
+  ließe sich die Ausschüttungsbesteuerung über den Umweg des Nennkapitals dauerhaft vermeiden. Bei
+  der **vereinfachten** Kapitalherabsetzung ohne Rückzahlung ändert sich nur die Zusammensetzung des
+  Eigenkapitals; beim Anteilseigner löst sie nichts aus, weil ihm tatsächlich nichts zufließt – der
+  Sonderausweis ist dann zwar verbraucht, aber nie besteuert worden, was konsequent ist, weil die
+  spätere Auskehrung des erhöhten Einlagekontos die Anschaffungskosten mindert und bei deren
+  Überschreiten doch noch zu einem Veräußerungsgewinn führt. Steuerlich wirkt die Maßnahme mit der
+  **Handelsregistereintragung**, bilanziell erst zum darauf folgenden Bilanzstichtag. Kommt es
+  dagegen zur **Auskehrung** (ordentliche Kapitalherabsetzung), tritt § 28 Abs. 2 Satz 3 KStG hinzu:
+  Der Auszahlungsbetrag mindert das Einlagekonto **unmittelbar** und ausdrücklich **unabhängig von der
+  allgemeinen Verwendungsreihenfolge** des § 27 Abs. 1 Satz 3 KStG – einer der Direktzugriffsfälle,
+  weshalb die Nennkapitalrückzahlung dem Gesellschafter auch dann als Einlagenrückgewähr zugutekommen
+  kann, wenn das neutrale Vermögen gar nicht verbraucht ist. Zugang und Abgang heben sich
+  betragsmäßig auf, fallen zeitlich aber auseinander: der Zugang zum Abschluss des Wirtschaftsjahres
+  der Eintragung, der Abgang erst bei der tatsächlichen Auskehrung. Die Auflösung des Sonderausweises
+  führt zu Bezügen nach § 20 Abs. 1 Nr. 2 EStG mit Kapitalertragsteuer, die nach § 44 Abs. 1 Satz 2
+  EStG ebenfalls erst mit der Auskehrung entsteht; reicht das Einlagekonto nicht aus, wird auch der
+  Überhang nach § 28 Abs. 2 Satz 4 KStG zum Bezug. Bemerkenswert ist, dass die Gesellschaft über all
+  das **keine** Steuerbescheinigung nach § 27 Abs. 3 KStG erteilt – weshalb die strenge
+  Verwendungsfestschreibung mangels Anknüpfungspunkt ins Leere läuft und der Anteilseigner sich an
+  der Bescheinigung über den Kapitalertragsteuerabzug nach § 45a EStG orientieren muss.
   Prüfung: `npm run check:k2-kst-teil3`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

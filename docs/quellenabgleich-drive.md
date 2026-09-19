@@ -10620,6 +10620,68 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil III (Hamacher), Abschnitte 3.1 bis 3.3 – Kapitalherabsetzung
+
+Quelle: dieselbe Datei, Seiten 29 bis 33; übernommen als Kapitel 18 und 19. Prüfung:
+`npm run check:k2-kst-teil3` (19 Kapitel, 292 Blöcke, 30 Tabellen).
+
+**Die Gegenbewegung zu § 28 Abs. 1 KStG** ist im Datensatz als tragender Gedanke herausgearbeitet:
+Auf dem Weg **in** das Nennkapital wurde zuerst das Einlagekonto verbraucht und der Rest zum
+Sonderausweis; auf dem Weg **heraus** wird zuerst der Sonderausweis aufgelöst und nur der Überhang
+dem Einlagekonto gutgeschrieben. Beides zusammen verhindert, dass versteuerter Gewinn, der einmal
+ins Nennkapital gewandert ist, bei seiner Rückkehr als Einlage behandelt wird – sonst ließe sich die
+Ausschüttungsbesteuerung über den Umweg des Nennkapitals dauerhaft vermeiden.
+
+**Zwei Zeitpunkte, die auseinanderfallen**, sind bei der vereinfachten Kapitalherabsetzung eigens
+vermerkt: Steuerlich werden die Maßnahmen im Zeitpunkt der zivilrechtlichen Wirksamkeit vollzogen,
+also mit der Handelsregistereintragung; bilanziell ist die veränderte Zusammensetzung des
+Eigenkapitals dagegen erst zu dem Bilanzstichtag auszuweisen, der **der Eintragung folgt**.
+
+**Dass die Auflösung des Sonderausweises ohne Rückzahlung beim Anteilseigner nichts auslöst**,
+während sie bei der ordentlichen Kapitalherabsetzung zu Bezügen nach § 20 Abs. 1 Nr. 2 EStG führt,
+ist der entscheidende Unterschied der beiden Formen. Der Datensatz ordnet das als eigene Ergänzung
+ein: Der Merkposten ist dann zwar verbraucht, aber nie besteuert worden – konsequent, weil die
+spätere Auskehrung des erhöhten Einlagekontos die Anschaffungskosten mindert und bei deren
+Überschreiten nach Abschnitt 1.2 doch noch zu einem Veräußerungsgewinn führt.
+
+**Das Zusammenspiel der beiden Schritte** bei der ordentlichen Kapitalherabsetzung ist eigens
+erläutert, weil es wie ein Nullsummenspiel aussieht: Der Zugang von 110.000 € und sein Abgang in
+gleicher Höhe heben sich auf. Beide Schritte sind trotzdem nötig, und zwar aus einem zeitlichen
+Grund, den die Quelle ausspricht – der Zugang erfolgt zum Abschluss des Wirtschaftsjahres der
+Eintragung, der Abgang erst bei der tatsächlichen Auskehrung. Fallen sie in verschiedene Jahre,
+steht zwischenzeitlich ein erhöhter Bestand in der Feststellung.
+
+**Der Direktzugriff** des § 28 Abs. 2 Satz 3 KStG ist mit Abschnitt 1.3.8 verknüpft: Die Verrechnung
+erfolgt ausdrücklich **unabhängig von der allgemeinen Verwendungsreihenfolge** des § 27 Abs. 1 Satz 3
+KStG. Es wird also weder ein ausschüttbarer Gewinn ermittelt noch auf Vorjahreswerte abgestellt –
+weshalb die Nennkapitalrückzahlung dem Gesellschafter auch dann als Einlagenrückgewähr zugutekommen
+kann, wenn das neutrale Vermögen gar nicht verbraucht ist.
+
+**Eine Folge der fehlenden Steuerbescheinigung** ist als eigene Ergänzung festgehalten: Weil die
+Gesellschaft über die Verwendung des Sonderausweises und über den Direktzugriff **keine**
+Bescheinigung nach § 27 Abs. 3 KStG erteilt, läuft die strenge Verwendungsfestschreibung des § 27
+Abs. 5 KStG hier mangels Anknüpfungspunkt ins Leere. Der Anteilseigner erfährt nur mittelbar über
+die Bescheinigung nach § 45a EStG, welcher Teil Bezug und welcher Einlagenrückgewähr war.
+
+**Der Überhang des § 28 Abs. 2 Satz 4 KStG** ist als Parallele zu § 27 Abs. 1 Satz 4 KStG aus
+Abschnitt 1.3.7 eingeordnet; die Fußnote der Quelle nennt als praktisch wichtigsten Grund einen
+**negativen** Bestand des Einlagekontos, wie er nach 1.3.8 durch einen Direktzugriff entstehen kann.
+
+**Alle Zahlen sind nachgerechnet und gehen auf:** 50.000 € + 180.000 € = 230.000 €; 180.000 € ./.
+70.000 € = 110.000 € Zugang bei aufgezehrtem Sonderausweis; im Auszahlungsfall Abgang von ebenfalls
+110.000 €, Endbestand 0 €. In beiden Beispielen mit Sonderausweis nennt die Quelle keinen
+Anfangsbestand des Einlagekontos – dass die ausgewiesenen Endbestände stimmen, setzt einen
+Anfangsbestand von 0 € voraus; das ist als eigene Herleitung gekennzeichnet, ebenso die Aufteilung
+der Auskehrung von 180.000 € in 70.000 € Bezug und 110.000 € Einlagenrückgewähr.
+
+**Wortlautgetreu übernommen und gekennzeichnet:** In der Lösung zum Beispiel der ordentlichen
+Kapitalherabsetzung heißt es zweimal „gemäß § 28 Abs. 2 **Satz 1** KStG“, obwohl die Verrechnung mit
+dem Sonderausweis gemeint ist – die zugehörige Rechnung derselben Lösung und das entsprechende
+Beispiel im Abschnitt 3.2 nennen dafür Satz 2.
+
+**Noch offen:** aus Teil III der Abschnitt 3.4 (Erwerb und Veräußerung eigener Anteile); ganz offen
+sind die Skriptteile IV bis VII.
+
 ### KSt Teil III (Hamacher), Kapitel 2 – Kapitalerhöhung
 
 Quelle: dieselbe Datei, Seiten 23 bis 28; übernommen als Kapitel 15 bis 17. Prüfung:
