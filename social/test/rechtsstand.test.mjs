@@ -159,6 +159,15 @@ test("PersG-SBV-II verwendet keine starre 10%-Grenze für Komplementär-GmbH-Ant
   assert.match(kern(t), /bloße.*finanzielle Teilhabe.*nicht|bloße Vermögensmehrung.*nicht/i);
 });
 
+test("§171-Außenprüfungsunterbrechung kennt Rückfall und Fünfjahresbefristung", () => {
+  const t = byId("ao-modul-ao-336");
+  assert.match(kern(t), /mehr als sechs Monate/i);
+  assert.match(kern(t), /rückwirkend/i);
+  assert.match(kern(t), /Wiederaufnahme.*erneut|neu hemmen/i);
+  assert.match(kern(t), /fünf Jahre/i);
+  assert.match(kern(t), /S\. 4–7|Sätze 4 bis 7/i);
+});
+
 test("§181-Wirkhinweis ist Regelungsinhalt, aber keine Wirksamkeitsvoraussetzung", () => {
   const t = byId("ao-modul-ao-340");
   assert.match(kern(t), /Regelungscharakter/i);
