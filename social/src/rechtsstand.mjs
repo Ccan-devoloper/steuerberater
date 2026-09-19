@@ -1135,6 +1135,41 @@ function korrigiereUstZuordnung2026(thema) {
   });
 }
 
+
+function korrigiereReiseleistungen25(thema) {
+  normErgaenzen(
+    thema,
+    "§ 25 Abs. 1–4 UStG",
+    "A 25.1 Abs. 1 UStAE",
+    "BMF 28.04.2026 – III C 2 - S 7419/00016/022/023"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 25 UStG gilt für Reiseleistungen, wenn der Unternehmer gegenüber dem Leistungsempfänger im eigenen Namen auftritt und Reisevorleistungen in Anspruch nimmt. Mehrere solche Leistungen an einen Leistungsempfänger gelten als einheitliche sonstige Leistung; ihr Ort richtet sich nach § 3a Abs. 1 UStG.",
+      "Nach der Verwaltungsauffassung in A 25.1 Abs. 1 UStAE ist § 25 UStG bei Unternehmern mit Sitz im Drittland und ohne unmittelbar am Verkauf beteiligte feste Niederlassung im Gemeinschaftsgebiet grundsätzlich nicht anzuwenden.",
+      "Für diese Drittlandsunternehmer besteht jedoch eine Nichtbeanstandungsregelung: Nach BMF vom 28.04.2026 wird es bis einschließlich 31.12.2029 nicht beanstandet, wenn die Sonderregelung des § 25 UStG weiterhin angewandt wird.",
+    ],
+    lernziele: [
+      "eigenes Auftreten und Reisevorleistungen als Grundvoraussetzungen des § 25 UStG prüfen",
+      "einheitliche Reiseleistung und Leistungsort nach § 3a Abs. 1 bestimmen",
+      "Drittlandsanteile nach § 25 Abs. 2 abgrenzen",
+      "Marge nach § 25 Abs. 3 bestimmen",
+      "Vorsteuerausschluss für Reisevorleistungen nach § 25 Abs. 4 beachten",
+      "Verwaltungssonderregel für Drittlandsunternehmer und Nichtbeanstandung bis 31.12.2029 kennen",
+    ],
+    pruefschritte: [
+      "Prüfen, ob der Unternehmer im eigenen Namen auftritt und Reisevorleistungen Dritter in Anspruch nimmt, die dem Reisenden unmittelbar zugutekommen.",
+      "Mehrere Reiseleistungen an denselben Leistungsempfänger als einheitliche sonstige Leistung behandeln; Ort nach § 3a Abs. 1 UStG bestimmen.",
+      "Bei Unternehmern mit Sitz im Drittland ohne feste Niederlassung im Gemeinschaftsgebiet die Verwaltungsauffassung beachten: § 25 grundsätzlich nicht anwendbar; Nichtbeanstandung der Anwendung für bis 31.12.2029 ausgeführte Reiseleistungen.",
+      "Steuerfreiheit nach § 25 Abs. 2 nur insoweit prüfen, als die zuzurechnenden Reisevorleistungen im Drittlandsgebiet bewirkt werden.",
+      "Bemessungsgrundlage als Marge nach § 25 Abs. 3 bestimmen; Umsatzsteuer gehört nicht zur Bemessungsgrundlage.",
+      "Vorsteuer aus Reisevorleistungen nach § 25 Abs. 4 ausschließen.",
+    ],
+    merksatz: "§ 25 ist ein Sonderregime; bei Drittlandsunternehmern zusätzlich A 25.1 UStAE beachten. Die Verwaltung lässt die Anwendung der Margenbesteuerung aufgrund BMF 28.04.2026 noch bis 31.12.2029 unbeanstandet.",
+  };
+}
+
 function korrigiereUstOrganschaft(thema) {
   normErgaenzen(thema, "§ 2 Abs. 2 Nr. 2 UStG", "BFH 18.01.2023 – XI R 29/22", "BFH 29.08.2024 – V R 14/24", "BMF 01.04.2026 – III C 2 - S 7105/00035/008/056");
   thema.kern = {
@@ -1315,6 +1350,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "ust-modul-ust-212": korrigiereUwa9a(thema); break;
       case "ust-modul-ust-224": korrigiereUstZuordnung2026(thema); break;
       case "ust-modul-ust-225": korrigierePkwArbeitnehmer(thema); break;
+      case "ust-modul-ust-232": korrigiereReiseleistungen25(thema); break;
       case "ust-modul-ust-234": korrigiereUstOrganschaft(thema); break;
       default: break;
     }
