@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 51 Kapitel mit 844
-  Abschnitten und 76 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 53 Kapitel mit 879
+  Abschnitten und 80 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3565,6 +3565,40 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **./. 380.000 €** – dasselbe Muster wie die ./. 76.000 € aus Abschnitt 5.5, weil § 8b Abs. 1 KStG
   den Ertrag zu 100 % freistellt, der beteiligungsbezogene Aufwand voll abziehbar bleibt und die
   Pauschale sich nur nach dem Ertrag bemisst.
+  Bei der **Anwendung des § 1 AStG in Dreiecksfällen** hängt alles an einer Frage, die die Quelle mit
+  „gegenläufig wieder verbraucht“ umschreibt: Bleibt die Einkünftekorrektur im Inland stehen oder
+  nicht? Wandert ein Wirtschaftsgut oder Geld zur ausländischen Schwester, verbraucht sich die vGA
+  beim Gesellschafter in einer **verdeckten Einlage**, die nur die Anschaffungskosten erhöht und das
+  Einkommen nicht mindert – die Korrektur bleibt wirksam, und § 1 AStG wird nicht gebraucht. Wandert
+  dagegen ein **Nutzungsvorteil**, verbraucht sie sich in **abziehbarem Aufwand**: Der Hinzurechnung
+  von 80.000 € bei der leistenden Gesellschaft stünden 80.000 € Aufwand beim Gesellschafter gegenüber,
+  das Inlandseinkommen wäre 0 € – und genau dieses Ergebnis verwirft die Quelle als unzutreffend, weil
+  der Verbrauch wirtschaftlich im **Ausland** eintreten müsste. Dann verdrängt § 1 AStG die vGA
+  **insgesamt**, so dass beim gemeinsamen Anteilseigner überhaupt keine vGA-Folgen mehr eintreten –
+  weder Beteiligungserträge noch Aufwandsverbrauch. Das unterscheidet die Konstellation deutlich von
+  Abschnitt 4.4, wo beide Normen nebeneinanderstanden und § 1 AStG nur ergänzend hinzurechnete. Das
+  Nahestehen prüft die Quelle dabei über eine eigene Vorschrift: nicht § 8 Abs. 3 Satz 2 KStG, sondern
+  § 1 Abs. 2 Nr. 3 Buchstabe a AStG mit seiner **Mindestbeteiligung von 25 %** – die Schwestern stehen
+  einander nicht unmittelbar nahe, sondern über die Mutter als „dritte Person“.
+  Bei der **Schenkungsteuer** (5.7) ist § 7 Abs. 8 Satz 2 ErbStG zu beachten, der die freigebigen
+  Zuwendungen im Konzern **abschließend** definiert. Der wichtigste Unterschied: Satz 1 enthält eine
+  **Fiktion**, Satz 2 setzt den **Bereicherungswillen voraus** – die Gesellschaft muss fremdnützig
+  gehandelt haben. Bei nahen Angehörigen i. S. des § 15 AO wird dieser Wille **widerlegbar
+  unterstellt**; wer nachweist, dass ausschließlich im eigenbetrieblichen Interesse gehandelt wurde,
+  entgeht der Steuer trotz eingetretener Wertverschiebung. Zuwendender ist die Kapitalgesellschaft,
+  bei der die vGA ausgelöst wurde – und weil zu einer juristischen Person nie ein
+  Verwandtschaftsverhältnis besteht, stellt **§ 15 Abs. 4 ErbStG** für die Steuerberechnung auf das
+  persönliche Verhältnis der **Anteilseigner** ab, was Steuersatz und Freibetrag verändert. Im
+  Beispiel ist B zu 50 % an der bevorteilten Gesellschaft beteiligt, so dass seine Anteile um
+  250.000 € an Wert gewinnen; die anderen 250.000 € entfallen auf A selbst, und insoweit kann er sich
+  nichts schenken. Sind beide Gesellschaften **beteiligungsidentisch**, scheidet die Schenkungsteuer
+  aus, denn jeder Gesellschafter verliert bei der einen Gesellschaft genau so viel, wie er bei der
+  anderen gewinnt – ertragsteuerlich bleibt es gleichwohl bei vGA und verdeckter Einlage, beide
+  Steuern laufen also auseinander. Damit schließt sich der Kreis zu Abschnitt 1.13: Der BFH hatte 2017
+  entschieden, zwischen Gesellschaft und Gesellschafter gebe es nichts Freigebiges; § 7 Abs. 8 ErbStG
+  ist die Gegenbewegung des Gesetzgebers, und im Ergebnis wandert die Schenkungsteuer von der Achse
+  Gesellschaft–Gesellschafter auf die Achse **Gesellschafter–Gesellschafter**. **Damit ist auch das
+  Kapitel 5 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

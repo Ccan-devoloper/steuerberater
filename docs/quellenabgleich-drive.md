@@ -10620,6 +10620,41 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), § 1 AStG in Dreiecksfällen und Abschnitt 5.7 – Kapitel 5 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 77 bis 80; übernommen als Kapitel 52 und 53. Prüfung:
+`npm run check:k2-kst-teil4` (53 Kapitel, 879 Blöcke, 80 Tabellen).
+
+**Alle Zahlen sind unabhängig nachgerechnet und gehen auf:** 8 % von 1.000.000 € = 80.000 €; 10 % von
+1.000.000 € = 100.000 €, davon 5 % = 5.000 €; 50 % von 500.000 € = 250.000 €.
+
+**Das Entscheidungskriterium des § 1 AStG ist als eigene Ergänzung herausgearbeitet.** Die Quelle
+umschreibt es mit „gegenläufig wieder verbraucht“; die Ergänzung führt es auf die Frage zurück, ob
+sich die vGA beim Gesellschafter in einer verdeckten Einlage (dann bleibt die Korrektur wirksam) oder
+in abziehbarem Aufwand (dann hebt sie sich auf) verbraucht. Eigens festgehalten ist auch die Probe
+über beide Ebenen: Ohne § 1 AStG stünden + 80.000 € bei der A-GmbH und ./. 80.000 € beim
+Anteilseigner, die sich zu 0 € aufheben – genau das Ergebnis, das die Quelle verwirft.
+
+**Ein Unterschied zu Abschnitt 4.4 ist als eigene Feststellung benannt:** Dort standen vGA und § 1
+AStG nebeneinander und die Vorschrift rechnete nur ergänzend hinzu; hier verdrängt sie die vGA
+insgesamt, so dass beim gemeinsamen Anteilseigner überhaupt keine vGA-Folgen mehr eintreten.
+
+**Zur Schenkungsteuer als eigene Ergänzungen eingeordnet** sind: der Unterschied zwischen der Fiktion
+des § 7 Abs. 8 Satz 1 ErbStG und dem Erfordernis des Bereicherungswillens in Satz 2; die Erklärung,
+weshalb § 15 Abs. 4 ErbStG gebraucht wird (zu einer juristischen Person besteht nie ein
+Verwandtschaftsverhältnis, es gälte sonst stets Steuerklasse III); die wirtschaftliche Begründung der
+Beteiligungsidentität (jeder verliert bei der einen Gesellschaft so viel, wie er bei der anderen
+gewinnt); und der Zusammenhang mit Abschnitt 1.13, wonach § 7 Abs. 8 ErbStG die Gegenbewegung des
+Gesetzgebers zur BFH-Rechtsprechung von 2017 ist.
+
+**Drei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „aufgrund die
+Leistungsbeziehung“, das doppelte „erzielt“ in „Daneben erzielt die C-GmbH erzielt aus der vGA
+Einnahmen“ sowie „weil auch § 8b Abs. 4 Satz 1 KStG und § 8b Abs. 1 Satz 2 KStG steuerfrei sind“ –
+gemeint ist, dass beide Vorschriften der Steuerfreiheit nicht entgegenstehen.
+
+**Noch offen:** aus Teil IV das Kapitel 6 (Pensionszusage als verdeckte Gewinnausschüttung, Seiten 80
+bis 87); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitt 5.6.2.2 – Rückausnahme des § 8b Abs. 1 Satz 5 KStG
 
 Quelle: dieselbe Datei, Seiten 74 bis 77; übernommen als Kapitel 50 und 51. Prüfung:
