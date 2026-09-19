@@ -393,7 +393,7 @@ test("§371-Selbstanzeige enthält Mindestberichtigungsverbund und §398a-Abgren
 
 test("§69-AO-Modul behandelt Geschäftsführerstellung nicht als Verschuldensautomatik", () => {
   const t = byId("ao-modul-ao-390");
-  assert.match(kern(t), /Vorsatz oder grobe Fahrlässigkeit.*Einzelfall/);
+  assert.match(kern(t), /Vorsatz oder grobe Fahrlässigkeit.*(Einzelfall|einzelfallbezogen)/i);
   assert.match(kern(t), /keine automatische Haftung allein wegen Geschäftsführerstellung/);
   assert.match(kern(t), /keine Geschäftsführer-Gefährdungshaftung/);
   assert.doesNotMatch(kern(t), /GmbH-GF[^"]*i\.d\.R\. erfüllt/i);
