@@ -429,6 +429,52 @@ test("§352-GuE-Einspruch nennt Belehrung und Übergangs-Altfälle", () => {
   assert.match(kern(t), /vor dem 1\.1\.2026/);
 });
 
+test("§14c bildet BFH-Rechtsprechungsänderung und engen Endverbraucherbegriff ab", () => {
+  const t = byId("ust-modul-ust-209");
+  assert.match(kern(t), /BFH V R 46\/25/);
+  assert.match(kern(t), /ausdrücklich aufgegeben/);
+  assert.match(kern(t), /nur nicht steuerpflichtige Personen/);
+  assert.match(kern(t), /privat.*nicht.*Endverbraucher|nicht schon deshalb.*privat/i);
+  assert.match(kern(t), /geschätzt|Schätzung/);
+});
+
+test("§3 Abs.9a prüft Vorsteuer und trennt nichtwirtschaftliche Tätigkeit i.e.S.", () => {
+  const t = byId("ust-modul-ust-212");
+  assert.match(kern(t), /vollen oder teilweisen Vorsteuerabzug/);
+  assert.match(kern(t), /nichtwirtschaftliche Tätigkeit i\. e\. S\./);
+  assert.match(kern(t), /§ 15a UStG/);
+  assert.match(kern(t), /vor dem 01\.01\.2027|vor 2027/);
+  const auftrag2027 = rechtsstandAuftrag(t, new Date("2027-02-01T12:00:00Z"));
+  assert.match(auftrag2027, /Rechtsstand 2027/);
+  assert.match(auftrag2027, /Nichtbeanstandungsregel.*abgelaufen/);
+  assert.match(auftrag2027, /Rechtsstand 2026/);
+  assert.match(auftrag2027, /bisherige Verwaltungsauffassung/);
+});
+
+test("Vorsteuer-Zuordnung trennt private von nichtwirtschaftlicher Nutzung", () => {
+  const t = byId("ust-modul-ust-224");
+  assert.match(kern(t), /unternehmensfremde.*private/i);
+  assert.match(kern(t), /nichtwirtschaftliche Tätigkeit im engeren Sinn|nichtwirtschaftliche Tätigkeit i\. e\. S\./);
+  assert.match(kern(t), /Vorsteuerabzug grundsätzlich.*aufteilen|Vorsteueraufteilung/i);
+  assert.match(kern(t), /§ 15a UStG/);
+  const auftrag2027 = rechtsstandAuftrag(t, new Date("2027-02-01T12:00:00Z"));
+  assert.match(auftrag2027, /Rechtsstand 2027/);
+  assert.match(auftrag2027, /Rechtsstand 2026/);
+});
+
+test("USt-Organschaft kennt 50-Prozent-Ausnahme und aktuelle Innenleistungsregel", () => {
+  const t = byId("ust-modul-ust-234");
+  assert.match(kern(t), /genau 50 % der Stimmrechte/);
+  assert.match(kern(t), /Mehrheitsbeteiligung am Kapital/);
+  assert.match(kern(t), /einzigen Geschäftsführer/);
+  assert.match(kern(t), /nichtwirtschaftliche Tätigkeiten i\. e\. S\./);
+  assert.doesNotMatch(kern(t), /Finanzielle Eingliederung:[^"]*mehr als 50 % der Stimmrechte/);
+  const auftrag2027 = rechtsstandAuftrag(t, new Date("2027-02-01T12:00:00Z"));
+  assert.match(auftrag2027, /Rechtsstand 2027/);
+  assert.match(auftrag2027, /31\.12\.2026/);
+  assert.match(auftrag2027, /Rechtsstand 2026/);
+});
+
 test("Gastronomie trägt den 2025/2026-Rechtsstandswechsel", () => {
   const t = byId("ust-modul-ust-161");
   const auftrag = rechtsstandAuftrag(t, new Date("2026-09-19T12:00:00Z"));
