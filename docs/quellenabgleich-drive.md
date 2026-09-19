@@ -10620,6 +10620,38 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 2.5.1 bis 2.5.4 – Form, Auslandsfälle und Mindestlaufzeit des Gewinnabführungsvertrags
+
+Quelle: dieselbe Datei, Seiten 19 bis 21; übernommen als Kapitel 9 und 10. Prüfung:
+`npm run check:k2-kst-teil6` (10 Kapitel, 209 Blöcke, 12 Tabellen).
+
+**Die Laufzeit des Beispiels ist unabhängig nachgerechnet und geht auf:** Beginnt die Mindestlaufzeit
+mit dem Wirtschaftsjahr 2026 und endet der Vertrag am 31.12.2029, umfasst er die Jahre 2026 bis 2029
+und damit vier statt fünf Zeitjahre; bei einer Laufzeit bis zum 31.12.2030 wäre sie knapp erfüllt
+gewesen.
+
+**Vier sprachliche Eigenheiten sind übernommen und markiert:** „statuarischen Sitz“, die Fügung
+„die sowohl im Vertrag enthalten sein und“, „vereinbaren werden“ und „auch wenn dem Stpfl. kein
+Verschulden daran trifft“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Einordnung der Handelsregistereintragung als
+konstitutiv und des daraus folgenden Zeitrisikos; die Erläuterung der Eingliederung nach §§ 319 bis
+327 AktG und warum dort eine eigene Eintragung entbehrlich ist; der Nachvollzug der verschlungenen
+Verweisungstechnik des § 17 KStG, die aktienrechtliche Anforderungen ohne unmittelbare gesetzliche
+Anordnung herstellt; die Vorgeschichte des dynamischen Verweises und die beiden zu merkenden Punkte
+dazu; die Erklärung, warum die Verlustübernahmeklausel nur bei der GmbH und nicht bei der AG nötig
+ist; die Trennung der inhaltlichen und der formalen Prüfung beim ausländischen Vertrag; die Deutung
+des Vertragsverletzungsverfahrens als strukturellen Konflikt und faktisches Marktzugangshindernis;
+die Hervorhebung der relativen Laufzeitklausel als wichtigste Vertragsklausel samt Gegenrechnung; und
+die Begründung, warum eine Billigkeitsmaßnahme nach § 163 AO ausscheidet, weil die Mindestlaufzeit
+ein Tatbestandsmerkmal ist.
+
+**Neu sind zwei Übersichten:** eine zu Form und Wirksamkeit des Vertrags je nach Rechtsform der
+Organgesellschaft und eine zu den vier Anforderungen an den ausländischen Gewinnabführungsvertrag.
+
+**Noch offen:** aus Teil VI die Höhe der Gewinnabführung (2.5.5) und die weiteren Abschnitte zum
+Vertrag sowie die Kapitel 3 und 4; ganz offen ist der Skriptteil VII (Liquidation).
+
 ### KSt Teil VI (Hamacher), Abschnitte 2.4.4 und 2.5 (Einleitung) – zeitliche Voraussetzungen
 
 Quelle: dieselbe Datei, Seiten 16 bis 18; übernommen als Kapitel 7 und 8. Prüfung:

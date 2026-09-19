@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 8 Kapitel mit 168 Abschnitten und 10 Tabellen. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 10 Kapitel mit 209 Abschnitten und 12 Tabellen. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4642,6 +4642,47 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Bemerkenswert ist die Anknüpfung ans **Handelsrecht**: Abgeführt wird der handelsbilanzielle Gewinn,
   zugerechnet dagegen das **steuerliche** Einkommen – aus dieser Abweichung entstehen die später
   behandelten Mehr- und Minderabführungen.
+  Bei einer **AG oder KGaA** verlangt § 291 AktG Schriftform, Zustimmung der Hauptversammlung mit
+  Dreiviertelmehrheit und **Eintragung** in das Handelsregister – und diese wirkt **konstitutiv**: Vor
+  ihr besteht kein wirksamer Vertrag und damit keine Organschaft. § 14 Abs. 1 Satz 2 KStG knüpft die
+  erstmalige Zurechnung genau daran, so dass die Dauer des Registerverfahrens über den Beginn
+  entscheidet – ein **Zeitrisiko**, das der Steuerpflichtige nicht beherrscht. Nur bei der
+  **eingegliederten AG** nach §§ 319 bis 327 AktG wird der Vertrag schon mit schriftlichem Abschluss
+  wirksam, weil die Eingliederung selbst eingetragen wird. Für die **GmbH** fehlen entsprechende
+  handelsrechtliche Vorschriften; der Weg des Gesetzgebers ist verschlungen: Die §§ 291 ff. AktG gelten
+  nach überwiegender Auffassung **analog**, § 17 Abs. 1 Satz 1 KStG verweist auf die §§ 14 bis 16 KStG,
+  die ihrerseits das Aktienrecht voraussetzen – im Ergebnis gelten aktienrechtliche Anforderungen, ohne
+  dass ein Gesetz sie unmittelbar anordnet, ergänzt um die **notarielle Beurkundung** entsprechend
+  § 53 Abs. 2 Satz 1 GmbHG. Hinzu tritt bei der GmbH die **Verlustübernahmeklausel** des § 17 Abs. 1
+  Satz 2 Nr. 2 KStG mit einem **dynamischen Verweis** auf § 302 AktG in der jeweils gültigen Fassung.
+  Sie hat eine leidvolle Vorgeschichte – zahllose Organschaften scheiterten daran, dass die Klausel
+  nach einer Gesetzesänderung nicht mehr passte – und ist seit dem 26.02.2013 vorgeschrieben. Bei der
+  **AG** wäre sie überflüssig, weil § 302 AktG dort unmittelbar gilt: eine einfache Prüffrage für die
+  Klausur.
+  Beim **ausländischen** Gewinnabführungsvertrag laufen zwei Prüfungen nebeneinander, die sauber zu
+  trennen sind. Inhaltlich muss er dem **deutschen** Maßstab genügen – vollständig § 291 AktG
+  einschließlich der Verlustübernahme nach § 302 AktG –, formal dagegen dem **ausländischen** Recht und
+  dort eintragungspflichtig sein, entweder durch Registerpflicht für den Vertrag selbst oder durch
+  Aufnahme in die Satzung bei Eintragungspflicht für Satzungsänderungen. Beides kann auseinanderfallen;
+  nur wenn es zusammentrifft, wird die Organschaft anerkannt, und auch dann erst ab dem Jahr der
+  **Eintragung im dortigen Register**. Der Grundkonflikt bleibt, weshalb die EU-Kommission ein
+  **Vertragsverletzungsverfahren** eingeleitet hat: Für den Abschluss ist ausschließlich das
+  Gesellschaftsrecht des Sitzstaats maßgeblich – kennt dieses keinen solchen Vertrag, ist die
+  Organschaft dort von vornherein unerreichbar, so dass die deutsche Regelung faktisch als
+  Marktzugangshindernis wirkt.
+  Die **Mindestlaufzeit** von fünf **Zeitjahren** muss im Vertrag stehen und tatsächlich eingehalten
+  werden; eine kürzere vereinbarte Laufzeit lässt die Organschaft scheitern. Entscheidend ist ihr
+  **Beginn**: Sie läuft erst ab dem Wirtschaftsjahr, in dem **sämtliche** Voraussetzungen des
+  § 14 Abs. 1 Satz 1 KStG erstmals erfüllt sind – der vertraglich gewollte Beginn bleibt unbeachtlich.
+  Daraus folgt die wichtigste Klausel des gesamten Vertrags. Wer ein **festes Enddatum** vereinbart,
+  trägt das Zeitrisiko des Registerverfahrens: Im Beispiel wird der Vertrag erst am 01.02.2026
+  eingetragen, so dass von der Laufzeit bis zum 31.12.2029 nur die Jahre 2026 bis 2029 – also **vier**
+  Zeitjahre – zählen und die Organschaft scheitert; bei einer Laufzeit bis zum 31.12.2030 wäre sie
+  knapp erfüllt gewesen. Wer die Laufzeit dagegen **relativ** formuliert – Beginn im Wirtschaftsjahr
+  der Eintragung, erstmalige Kündigung nach Ablauf von fünf Jahren –, verschiebt mit der Eintragung
+  auch das Ende. Auf Billigkeit nach § 163 AO ist kein Verlass: Der BFH hat sie selbst dann versagt,
+  wenn den Steuerpflichtigen **kein Verschulden** an der verspäteten Eintragung trifft, weil die
+  Mindestlaufzeit ein Tatbestandsmerkmal und nicht bloß eine Verfahrensfrist ist.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
