@@ -2590,7 +2590,7 @@ test("Obergrenze je Beitrag gilt in jedem Schreibpfad, verschachtelt läuft der 
 
 test("nachbessern bezahlt nach exakten Fundstellen keine zweite Providerprüfung", async () => {
   const autor = fs.readFileSync(new URL("../src/autor.mjs", import.meta.url), "utf8");
-  const block = autor.slice(autor.indexOf("async function nachbessern"), autor.indexOf("export function pruefHinweis"));
+  const block = autor.slice(autor.indexOf("async function nachbessern"), autor.indexOf("async function faktenSicher"));
   assert.match(block, /Alle harten Prüfbefunde wurden per exakter Fundstelle korrigiert/);
   assert.ok(!/await pruefeFakten\(/.test(block));
 });
