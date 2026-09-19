@@ -10620,6 +10620,42 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.2.4.1 und 3.2.4.2 – Verlustabzug und Bruttomethode
+
+Übernommen sind die beiden ersten Unterabschnitte zur Nichtgeltung von Vorschriften
+(Seiten 38 bis 41 der Quelle): der **Ausschluss des Verlustabzugs** nach § 15 Satz 1
+Nr. 1 KStG (3.2.4.1) mit drei Beispielen und die **Bruttomethode** des § 15 Satz 1
+Nr. 2 KStG (3.2.4.2) mit drei Beispielen. Der Datensatz umfasst damit 22 Kapitel mit
+446 Abschnitten und 27 Tabellen; geprüft mit `npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Der vororganschaftliche Verlust wird nicht vernichtet, sondern
+„eingefroren“: weder bei der Organgesellschaft abziehbar noch auf den Organträger
+übertragbar, aber nach Beendigung der Organschaft wieder verwendbar. Die Sperre erfasst
+ebenso § 15 Abs. 4 EStG, § 15a EStG und den fortführungsgebundenen Verlust nach § 8d
+KStG, bei dem zusätzlich § 8d Abs. 2 KStG weiterläuft. Die Bruttomethode schließt § 8b
+KStG bei der Organgesellschaft aus und verlagert die Entscheidung über Freistellung oder
+Teileinkünfteverfahren auf den Organträger; die Streubesitzgrenze des § 8b Abs. 4 KStG
+wird nach § 15 Satz 1 Nr. 2 Satz 4 KStG für beide Ebenen getrennt geprüft.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.2.4.1 schreibt „auf den Organträgers“ – der Kasus ist nicht durchgeführt.
+- Abschnitt 3.2.4.1 verweist auf „unter 3.3.4“; gemeint ist ersichtlich 3.3.5.
+- Abschnitt 3.2.4.2 formuliert: „Erfüllt die Organgesellschaft die Voraussetzungen des
+  § 8b Abs. 4 KStG, bleiben die Gewinnausschüttungen … steuerfrei“. Gemeint ist das
+  Gegenteil: § 8b Abs. 4 KStG ordnet gerade die **Steuerpflicht** der Streubesitzdividende
+  an; steuerfrei bleiben die Ausschüttungen, wenn seine Voraussetzungen **nicht** vorliegen.
+  Die Beispiele der Quelle rechnen richtig, nur der einleitende Satz ist verdreht.
+- Abschnitt 3.2.4.2 schreibt „die vorrangigere Rechtsnorm“ – ein Doppelkomparativ.
+
+**Eigene Nachrechnung.** Die drei Beispiele zu 3.2.4.1 (vororganschaftlicher Verlust
+1.000.000 € bei Abführung 500.000 €; Verlustübernahme 1.000.000 € neben vororganschaftlichem
+Verlust 200.000 €; § 8d-Antrag über 1.000.000 €) und die drei Beispiele zu 3.2.4.2
+(Ausschüttung 100.000 € mit 25.000 € Kapitalertragsteuer und 50.000 € Betriebsausgaben →
+Organeinkommen 50.000 €, Organträger ./. 45.000 €; A-GmbH 10 % / B-GmbH 8 % an der Y-GmbH;
+C-GmbH 3 % an der B-KG neben 10 % der B-GmbH an der X-GmbH → 3.000 € steuerfrei, 150 €
+Pauschale nach § 8b Abs. 3 KStG) sind unabhängig nachgerechnet und treffen zu.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.2.1 (Schluss) bis 3.2.4 – Einkommensermittlung bei der Organgesellschaft
 
 Quelle: dieselbe Datei, Seiten 35 bis 37; übernommen als Kapitel 19 und 20. Prüfung:

@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 20 Kapitel mit 403 Abschnitten und 24 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 22 Kapitel mit 446 Abschnitten und 27 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4882,6 +4882,42 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Eine ertragsstarke Organgesellschaft schafft eigenes Abzugsvolumen, eine ertragsschwache kann ihre
   Spenden nur in einen **Spendenvortrag** nach § 9 Abs. 1 Nr. 2 Satz 9 KStG einstellen – der ihr
   allerdings erhalten bleibt, weil § 15 Satz 1 Nr. 1 KStG nur § 10d EStG ausschließt.
+  Die **Nichtgeltung von Vorschriften** zerfällt in zwei sehr verschiedene Regelungen. Der
+  **Ausschluss des § 10d EStG** betrifft den **vororganschaftlichen** Verlust. Er wird nicht
+  vernichtet, sondern **eingefroren**: Während der Organschaft ist er weder bei der Organgesellschaft
+  abziehbar – sie hat regelmäßig ohnehin kein eigenes Einkommen – noch auf den Organträger
+  übertragbar, denn § 15 Satz 1 Nr. 1 Satz 2 KStG ordnet ausdrücklich an, dass er beim Organträger
+  nicht abgezogen werden darf. Erst nach Beendigung der Organschaft lebt er wieder auf. Diese Sperre
+  ist die **Kehrseite** der handelsrechtlichen Regelung: § 301 AktG zwingt die Organgesellschaft, den
+  Verlustvortrag zunächst selbst auszugleichen, so dass er wirtschaftlich schon einmal verbraucht
+  ist; ein zweiter, steuerlicher Abzug beim Organträger wäre eine Doppelbegünstigung. Gefährlich ist
+  die **Wartezeit**: Ein Anteilseignerwechsel nach **§ 8c KStG** während des Einfrierens vernichtet
+  den Verlust endgültig – ein erhebliches Risiko, weil eine Organschaft fünf Jahre bindet. Dieselbe
+  Sperre erfasst die Verluste nach **§ 15 Abs. 4 EStG** und **§ 15a EStG** sowie den
+  fortführungsgebundenen Verlust nach **§ 8d KStG**, der dadurch **doppelt** gebunden ist: eingefroren
+  wie jeder andere Verlust und zusätzlich weiterhin an die schädlichen Ereignisse des § 8d Abs. 2
+  KStG gefesselt – im dritten Beispiel rettet der § 8d-Antrag 1.000.000 €, die dann aber jahrelang
+  unbenutzbar bleiben. **Spiegelbildlich** gilt für Verluste, die **während** der Organschaft
+  entstehen: Sie erreichen die Ebene des Verlustvortrags gar nicht erst, weil der Organträger sie
+  nach § 302 AktG ausgleicht und ihm das negative Einkommen zugerechnet wird.
+  Die **Bruttomethode** des § 15 Satz 1 Nr. 2 KStG löst ein ganz anderes Problem, nämlich ein
+  **Zurechnungs**problem. Weil das Organeinkommen dem Organträger zugerechnet wird, dessen Rechtsform
+  aber über die Behandlung von Beteiligungserträgen entscheidet, wäre eine Anwendung des § 8b KStG
+  schon bei der Organgesellschaft eine Vorentscheidung nach der **falschen** Rechtsform. § 15 Satz 1
+  Nr. 2 Satz 1 KStG schließt ihn deshalb bei der Organgesellschaft aus, das Ergebnis geht **brutto**
+  über, und erst **beim Organträger** entscheidet Satz 2 nach dessen Verhältnissen: Freistellung nach
+  § 8b KStG bei einer Kapitalgesellschaft, **Teileinkünfteverfahren** nach § 3 Nr. 40 EStG bei einer
+  natürlichen Person, bei einer Personengesellschaft gesellschafterbezogen gemischt. Die
+  **Streubesitzgrenze** des § 8b Abs. 4 KStG prüft Satz 4 **getrennt** für jede Ebene – die
+  Beteiligungen von Organträger und Organgesellschaft werden also **nicht** zusammengerechnet. Das
+  wirkt in beide Richtungen: Im zweiten Beispiel bleiben 10 % beim Organträger und 8 % bei der
+  Organgesellschaft je für sich zu beurteilen, obwohl sie zusammen 18 % ergäben. Die
+  **Kapitalertragsteuer**, die die Organgesellschaft wirtschaftlich getragen hat, rechnet § 19 Abs. 5
+  KStG beim **Organträger** an – die Anrechnung folgt damit derselben Verlagerung wie das Einkommen.
+  Das erste Beispiel zeigt, wie das zu einem **negativen** Ergebnis führen kann: Das Organeinkommen
+  beträgt 50.000 € (100.000 € Ausschüttung ./. 50.000 € Betriebsausgaben), beim Organträger werden
+  aber 95.000 € freigestellt, so dass ./. 45.000 € verbleiben – die Betriebsausgaben bleiben in
+  voller Höhe abziehbar, während der Ertrag fast vollständig steuerfrei ist.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
