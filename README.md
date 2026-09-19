@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 17 Kapitel mit 230
-  Abschnitten und 22 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 19 Kapitel mit 280
+  Abschnitten und 24 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3046,6 +3046,32 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   anzunehmen ist. Schenkungsteuer und Einkommensteuer schließen sich dabei **betragsmäßig** aus:
   Soweit ein Gesellschafter die vGA selbst als Beteiligungsertrag versteuert, kann ihm insoweit nichts
   geschenkt worden sein. **Damit ist das Kapitel 1 der Quelle vollständig.**
+  Beim **beherrschenden Gesellschafter** (Kapitel 2) zählt die **Stimmrechts-, nicht die
+  Kapitalmehrheit**: Eigene Anteile der Gesellschaft und stimmrechtslose Anteile bleiben bei der
+  Berechnung außen vor, so dass schon eine nominale Beteiligung von 45 oder 46 % beherrschend sein
+  kann – ein Stimmrechtsausschluss nach § 47 Abs. 4 GmbHG bleibt dagegen unberücksichtigt, weil die
+  betroffenen Anteile dem Grunde nach stimmberechtigt sind. Verlangt die Satzung **generell** eine
+  qualifizierte Mehrheit, muss der Gesellschafter auch über diese verfügen; gilt das Erfordernis nur
+  für außerordentliche Vorgänge, genügt die einfache Mehrheit. Bei der **Aktiengesellschaft** greift
+  die Stimmrechtsmehrheit ins Leere, weil über den Vorstandsvertrag allein der weisungsfreie
+  Aufsichtsrat entscheidet – Beherrschung ist also **funktional** zu verstehen und nicht formal; ein
+  mittelbarer Einfluss über die Besetzung des Aufsichtsrats bleibt aber eine Frage des Einzelfalls.
+  Bei der **Personengruppentheorie** gilt jeder einzelne Gesellschafter der Gruppe als beherrschend,
+  auch der mit der kleinsten Quote; die bloße Angehörigeneigenschaft reicht nach dem
+  Bundesverfassungsgericht dafür nicht, es müssen gleichgerichtete **wirtschaftliche** Interessen
+  hinzukommen, wofür die gemeinsame Geschäftsführerstellung das wichtigste Indiz ist. Die schärfste
+  Regel des ganzen Skripts ist dann der **strenge formelle Vergleich**: Schon das Scheitern der Form
+  führt zur vGA, und zwar „ungeachtet ihrer Angemessenheit“. Ein Geschäftsführergehalt kann also der
+  Höhe nach völlig marktüblich sein und trotzdem in voller Höhe hinzugerechnet werden, wenn die
+  Vereinbarung nicht klar, nicht im Voraus getroffen, nicht zivilrechtlich wirksam oder nicht
+  tatsächlich durchgeführt worden ist – diese vier Punkte bilden eine Reihenfolge, die **vor** der
+  Angemessenheitsprüfung abzuarbeiten ist. **Klar und eindeutig** ist eine Vereinbarung nur, wenn die
+  Höhe allein durch **Rechenvorgänge** und für einen externen Dritten nachvollziehbar feststeht: Jeder
+  Gremiumsvorbehalt, jede bloße Ober- oder Untergrenze und jede Abhängigkeit von der „wirtschaftlichen
+  Lage“ genügt dem nicht, und zwei für sich einwandfreie, aber widersprüchliche Vereinbarungen lösen
+  zusammen eine vGA aus. Eine nachträgliche Klarstellung wirkt dabei **nur für die Zukunft**. In
+  grenzüberschreitenden Fällen entfaltet allerdings der Fremdvergleichsgrundsatz des Art. 9 OECD-MA
+  eine **Sperrwirkung**, weil er nur materielle, nicht aber rein formelle Abweichungen trägt.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

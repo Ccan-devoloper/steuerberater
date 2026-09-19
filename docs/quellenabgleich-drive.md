@@ -10620,6 +10620,73 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 2.1 bis 2.2.1 – der beherrschende Gesellschafter
+
+Quelle: dieselbe Datei, Seiten 25 bis 29; übernommen als Kapitel 18 und 19. Prüfung:
+`npm run check:k2-kst-teil4` (19 Kapitel, 280 Blöcke, 24 Tabellen).
+
+**Die wichtigste Pointe des Abschnitts 2.1** führen beide Beispiele vor, und der Datensatz stellt sie
+in einer Tabelle nebeneinander: Maßgebend ist die **Stimmrechts-, nicht die Kapitalmehrheit**. Wer
+nominal unter 50 % liegt, kann trotzdem beherrschen, sobald ein Teil des Kapitals bei der Abstimmung
+nicht mitzählt – eigene Anteile der Gesellschaft und stimmrechtslose Anteile. Scharf davon
+abzugrenzen ist der **Stimmrechtsausschluss** nach § 47 Abs. 4 GmbHG, der unberücksichtigt bleibt,
+weil die Anteile dem Grunde nach stimmberechtigt sind.
+
+**Beide Beispiele sind nachgerechnet:** 46/86 = 53,49 % (in der Quelle auf 53 % gerundet) und
+45/85 = 52,94 % – die zweite Quote nennt die Quelle nicht, sie ist eigene Herleitung. Bei der
+Personengruppe halten A und C zusammen 40 % + 20 % = 60 %; auch diese Summe bildet die Quelle nicht
+ausdrücklich. Bemerkenswert ist, dass **B** mit seinen 40 % außen vor bleibt, obwohl er der größte
+Einzelgesellschafter neben A ist.
+
+**Der funktionale Begriff der Beherrschung** ist bei der Aktiengesellschaft eigens eingeordnet: Es
+kommt nicht darauf an, wer die Mehrheit der Stimmen hält, sondern wer den Vertrag tatsächlich
+beeinflussen kann. Bei der GmbH fällt beides zusammen, bei der AG auseinander, weil über den
+Vorstandsvertrag allein der weisungsfreie Aufsichtsrat entscheidet. Den Umweg über die Besetzung des
+Aufsichtsrats nennt die Quelle sogleich – das ist dann aber eine Frage des Einzelfalls.
+
+**Die Schärfe der Personengruppentheorie** ist als eigene Ergänzung benannt: Nicht die Gruppe als
+solche, sondern **jeder einzelne** ihrer Mitglieder gilt als beherrschend – auch C mit 20 %. Damit
+unterliegt jeder von ihnen dem strengen formellen Fremdvergleich. Die Schranke zieht das
+Bundesverfassungsgericht beim Verwandtschaftsverhältnis: Die bloße Angehörigeneigenschaft genügt
+nicht.
+
+**Die schärfste Regel des ganzen Skripts** steht im Abschnitt 2.2 und ist im Datensatz als solche
+hervorgehoben: Beim beherrschenden Gesellschafter führt schon das **Scheitern der Form** zur vGA –
+„ungeachtet ihrer Angemessenheit“. Ein marktübliches Gehalt wird also in voller Höhe hinzugerechnet,
+wenn die Vereinbarung formell mangelhaft ist. Die vier Prüfungspunkte bilden deshalb eine
+Reihenfolge, die **vor** der Angemessenheitsprüfung abzuarbeiten ist.
+
+**Die Sperrwirkung des Art. 9 OECD-MA** ist erläutert, weil die Quelle sie nur in einem Halbsatz
+erwähnt: Der abkommensrechtliche Fremdvergleichsgrundsatz trägt nur **materielle** Abweichungen,
+nicht rein formelle Mängel – im grenzüberschreitenden Fall sperrt er deshalb den strengen formellen
+Vergleich des nationalen Rechts.
+
+**Die elf Einzelfälle der Fallliste** zählt die Quelle ungeordnet auf; der Datensatz führt sie auf
+**fünf Muster** zurück (Gremiumsvorbehalt, bloße Ober- oder Untergrenze, Abhängigkeit von
+unbestimmten Umständen, unbestimmte Bemessungsgrundlage, widersprüchliche Regelungen) und benennt den
+gemeinsamen Nenner: Die Höhe muss allein durch Rechenvorgänge und für einen externen Dritten
+nachvollziehbar feststehen. Bemerkenswert ist der letzte Fall – zwei Vereinbarungen können **jede für
+sich** einwandfrei sein und trotzdem zusammen eine vGA auslösen.
+
+**Die drei Aussagen zur Auslegung** sind auseinandergehalten: Mehrdeutigkeit schließt die Auslegung
+nach § 157 BGB nicht aus, die Zweifel gehen aber zu Lasten dessen, der sich auf Mündliches beruft;
+eine jahrelange Übung wirkt erst ab ihrem Erkennbarwerden; und die Beseitigung einer Unklarheit wirkt
+**nur für die Zukunft** – darin liegt der Übergang zum Rückwirkungsverbot des Abschnitts 2.2.3.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „Stimmt das **zwischen** schriftlich Vereinbarte mit dem tatsächlich Gewollten nicht überein“.
+- „Eine ursprünglich objektiv bestehende Unklarheit kann später beseitigt werden; **die** aber nur
+  für die Zukunft wirkt.“
+- „eine Vereinbarung, ob die Tantieme vom Jahresüberschuss vor oder nach Abzug der Tantieme zu
+  berechnen ist“ – gemeint ist das **Fehlen** einer solchen Vereinbarung.
+- „BFH vom **24.05.1990**, BStBl. II 1989 S. 800“ – die Fundstelle und die Fußnote desselben
+  Abschnitts nennen das Urteil vom 24.05.1989.
+
+**Noch offen:** aus Teil IV die zivilrechtliche Wirksamkeit (2.2.2), das Rückwirkungsverbot (2.2.3),
+die tatsächliche Durchführung (2.2.4) und die nahe stehenden Personen (2.2.5) sowie die Kapitel 3 bis
+6; ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 1.10 bis 1.13 – Kapitel 1 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 21 bis 24; übernommen als Kapitel 15 bis 17. Prüfung:
