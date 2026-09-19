@@ -10620,6 +10620,54 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 3.6.3 und 3.6.4 – Zinsvortrag und EBITDA-Vortrag
+
+Quelle: dieselbe Datei, Seiten 59 bis 62; übernommen als Kapitel 37 und 38. Prüfung:
+`npm run check:k2-kst-teil5` (38 Kapitel, 764 Blöcke, 96 Tabellen).
+
+**Alle vier Beispiele sind unabhängig nachgerechnet und gehen auf.** Zinsvortrag 2025:
+6.000.000 € ./. 1.000.000 € = 5.000.000 € Nettozinsaufwand, 30 % × 10.000.000 € = 3.000.000 €,
+Hinzurechnung und Vortrag 2.000.000 €. 2026: 2.000.000 € + 2.000.000 € = 4.000.000 €, abziehbar
+3.000.000 €, Restvortrag 1.000.000 €. EBITDA-Vortrag: 9.000.000 € ./. 5.000.000 € = 4.000.000 €;
+in der Fortsetzung 3.000.000 € + 4.000.000 € = 7.000.000 € gegenüber 15.000.000 €, also 8.000.000 €
+Hinzurechnung. Drittes Beispiel: 2026 ergibt 4.500.000 € ./. 4.000.000 € = 500.000 € zusätzlicher
+Vortrag und 4.500.000 € Bestand; 2027 werden 9.000.000 € ./. 4.800.000 € = 4.200.000 € benötigt, so
+dass 300.000 € verbleiben.
+
+**Eine unzutreffende Zuordnung der Quelle ist nachgewiesen und wortlautgetreu daneben stehen
+gelassen.** Im dritten Beispiel bezeichnet die Quelle die 2027 verwendeten 4.200.000 € als
+„EBITDA-Vortrag aus 2025“. Der Betrag stimmt, seine Herkunft nicht: Der Jahrgang 2025 umfasst nur
+4.000.000 €, die restlichen 200.000 € stammen aus 2026. Die Quelle bestätigt das selbst mit ihrem
+Schlusssatz, das Potential aus 2025 gelte vorrangig als verwendet, und mit dem bis 2031 – also nach
+der Frist des Jahrgangs 2026 – nutzbaren Restbetrag von 300.000 €.
+
+**Eine widersprüchliche Fundstelle ist festgehalten:** § 4h Abs. 1 Satz 3 EStG wird in Abschnitt
+3.5.1 für den Begriff des Nettozinsaufwandes und in Abschnitt 3.6.4 für den EBITDA-Vortrag zitiert.
+Beide Angaben sind unverändert übernommen; der Datensatz vermerkt den Widerspruch.
+
+**Zwei sprachliche Eigenheiten sind ebenfalls übernommen und markiert:** das doppelte „getrennt“ in
+„eine getrennte Feststellung nach Wirtschaftsjahren getrennt erfolgt nicht“ sowie die eigenwillige
+Zitierweise „§ 4h Abs. 2 a) EStG“ und „§ 8 Abs. 1 Satz 1 KStG i.V. mit § 4h Abs. 2 a) EStG“ für
+die Freigrenze.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Asymmetrie des Zinsvortrags, der den
+Nettozinsaufwand erhöht, das EBITDA aber unberührt lässt, samt der Folgerung, wann er sich überhaupt
+abbauen lässt; die Wirkung des Vortrags auf die Freigrenze, die einen Betrieb erst in die
+Zinsschranke heben kann; die Einordnung der Stand-alone-Ausnahme, die bei einem Alleingesellschafter
+als nahestehender Person regelmäßig leerläuft; die zeitversetzte gewerbesteuerliche Kehrseite; die
+Auflösung des scheinbaren Widerspruchs, dass ein EBITDA-Vortrag die Anwendbarkeit der Zinsschranke
+voraussetzt, obwohl sie im Beispiel gerade nicht greift, samt dem Nachteil für kleinere Betriebe; die
+Falle der kalendarisch laufenden Fünfjahresfrist und die daraus folgende Nebenrechnung neben der
+einheitlichen Feststellung; und die Einordnung der Verbrauchsreihenfolge als günstigste denkbare
+Regel.
+
+**Neu sind drei Übersichten:** zwei zum Rechenweg der beiden Jahre des Zinsvortragsbeispiels und eine
+zum dreijährigen Verlauf des EBITDA-Vortrags.
+
+**Noch offen:** aus Teil V der betriebliche Zusammenhang der Vorträge (3.6.5), die
+Ausnahmetatbestände (3.7 ff.) und das Kapitel 4 (stille Beteiligungen); ganz offen sind die
+Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 3.5 und 3.6 – Tatbestände und Ermittlung der Zinsschranke
 
 Quelle: dieselbe Datei, Seiten 56 bis 59; übernommen als Kapitel 35 und 36. Prüfung:

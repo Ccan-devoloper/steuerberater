@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 36 Kapitel mit 729 Abschnitten und 93 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 38 Kapitel mit 764 Abschnitten und 96 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4314,6 +4314,34 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Klausur ist die Verbindung zur Gewerbesteuer: Soweit die Zinsschranke greift, entfällt die
   Hinzurechnung nach § 8 Nr. 1a GewStG, weil die Zinsen den Gewerbeertrag bereits nicht gemindert
   haben und eine erneute Hinzurechnung denselben Betrag doppelt belasten würde.
+  Der **Zinsvortrag** nimmt den nicht abziehbaren Überhang auf und wird nach § 4h Abs. 4 EStG i.V. mit
+  § 10d Abs. 4 EStG gesondert festgestellt. Der entscheidende Satz ist dabei leicht zu übersehen: Der
+  Vortrag gilt in den Folgejahren als **Zinsaufwand** und erhöht den Nettozinsaufwand, lässt den
+  maßgeblichen Gewinn und damit das **steuerliche EBITDA** aber **unberührt**. Daraus folgt eine
+  ungünstige Asymmetrie – er vergrößert die Seite, die begrenzt wird, ohne die Seite zu vergrößern,
+  die begrenzt. Ein Betrieb mit gleichbleibendem EBITDA und gleichbleibendem Zinsaufwand baut seinen
+  Vortrag deshalb nie ab; genutzt wird er nur, soweit der laufende Zinsaufwand unter das verrechenbare
+  EBITDA sinkt. Im Beispiel gelingt genau das: Der originäre Aufwand fällt von 5.000.000 € auf
+  2.000.000 €, und erst dieser Rückgang schafft Raum für 1.000.000 € Vortragsnutzung. Weil der Vortrag
+  in den Nettozinsaufwand eingeht, wirkt er auch auf die **Freigrenze** – 2026 liegen die originären
+  2.000.000 € darunter, erst der Vortrag führt zu 4.000.000 € und damit überhaupt in die Zinsschranke.
+  Gewerbesteuerlich kehrt sich die Wirkung mit zeitlicher Verzögerung um: Im Jahr der Hinzurechnung
+  entfällt § 8 Nr. 1a GewStG, im Jahr der Nutzung des Vortrags ist die Hinzurechnung zu prüfen.
+  Der **EBITDA-Vortrag** entsteht spiegelbildlich, wenn der Nettozinsaufwand einschließlich Zinsvortrag
+  das verrechenbare EBITDA nicht ausschöpft. Er setzt allerdings voraus, dass die Zinsschranke dem
+  Grunde nach **anwendbar** ist: Wer keinen Nettozinsaufwand hat oder unter einen Ausnahmetatbestand
+  des § 4h Abs. 2 EStG fällt, sammelt kein Potential an – das trifft gerade kleinere Betriebe unter der
+  Freigrenze, die deshalb ohne Puffer dastehen, wenn sie die Grenze später einmal überschreiten. Der
+  Vortrag ist auf die folgenden **fünf** Wirtschaftsjahre befristet, wird **einheitlich** festgestellt
+  und in **zeitlicher Reihenfolge** verbraucht, so dass die ältesten Jahrgänge zuerst genutzt werden –
+  die für den Steuerpflichtigen günstigste Regel, weil sie den Verfall vermeidet. Die Frist läuft dabei
+  **kalendarisch** und nicht nach Nutzungsgelegenheiten: Ein Betrieb, der zwischenzeitlich unter die
+  Freigrenze rutscht, verliert sein Potential trotzdem Jahr für Jahr. Zusammen mit der einheitlichen
+  Feststellung erzwingt das eine Nebenrechnung, die aus dem Bescheid nicht hervorgeht – im dritten
+  Beispiel laufen von den festgestellten 4.500.000 € genau 4.000.000 € Ende 2030 und der Rest Ende
+  2031 aus. Dort ordnet die Quelle die 2027 verwendeten 4.200.000 € allerdings dem Vortrag „aus
+  2025“ zu, der nur 4.000.000 € beträgt: 200.000 € stammen aus dem Jahrgang 2026 – was die Quelle mit
+  ihrem eigenen Schlusssatz und dem bis 2031 nutzbaren Restbetrag von 300.000 € selbst bestätigt.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
