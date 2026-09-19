@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 43 Kapitel mit 677
-  Abschnitten und 63 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 45 Kapitel mit 719
+  Abschnitten und 65 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3441,6 +3441,35 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   die Umsatzsteuer **des Gesellschafters**) noch § 3c Abs. 2 EStG (er hat den Betrag nicht
   **tatsächlich aufgewendet**), so dass er den steuerpflichtigen Teil des Beteiligungsertrags von
   357.000 € auf 262.000 € drückt – obwohl der Ertrag selbst nur zu 60 % steuerpflichtig ist.
+  Bei der **überteuerten Lieferung** (5.3) läuft derselbe Dreiecksweg in der Gegenrichtung: Die
+  kaufende Gesellschaft muss das Wirtschaftsgut mit den **angemessenen** Anschaffungskosten
+  aktivieren, der überhöhte Teil ist im Wege der **Bilanzberichtigung** erfolgswirksam abzustocken,
+  und erst der dadurch entstehende Aufwand trägt die Hinzurechnung – genau das Muster aus Abschnitt
+  1.5.2.1. Der Überpreis fließt als **verdeckte Einlage** in die liefernde Schwestergesellschaft.
+  Anders als in 5.2 entsteht beim Gesellschafter dabei **kein** Aufwand, und der Grund ist
+  systematisch: Bei der verhinderten Vermögensmehrung wird die vGA mit dem gemeinen Wert bewertet,
+  also **brutto**, die Einlage mit dem Teilwert, also **netto** – daraus entstand dort die Lücke. Bei
+  der Vermögensminderung bemisst sich die vGA nach Abschnitt 3.2.3 von vornherein nur nach dem
+  **Nettowert**, weil die Gesellschaft in Höhe der Vorsteuer gar nicht entreichert ist; beide Seiten
+  arbeiten also mit Nettowerten und gehen punktgenau auf (250.000 € gegen 250.000 €). Das
+  Maschinenbeispiel ist erkennbar mit denselben Zahlenverhältnissen gebaut wie das aus 5.2, damit der
+  Unterschied sichtbar wird. Bemerkenswert ist ferner, was bei der liefernden Gesellschaft **stehen
+  bleibt**: Von 400.000 € gebuchtem Ertrag werden nur 250.000 € abgezogen, die verbleibenden
+  150.000 € sind der **angemessene Veräußerungsgewinn** (Teilwert 250.000 € abzüglich Buchwert
+  100.000 €), den sie auch gegenüber einem Fremden erzielt hätte. Umsatzsteuerlich ändert sich nichts:
+  Die Bemessungsgrundlage bleibt das tatsächlich vereinbarte Entgelt, und der Vorsteueranspruch der
+  kaufenden Gesellschaft bleibt in voller Höhe erhalten.
+  Die **überteuerte Dienstleistung** (5.4) ist die einfachste der vier Fallgruppen, und der Grund ist
+  ein sachlicher: Der zugewendete Vorteil ist **Geld**, nicht ein Wirtschaftsgut. Damit entfallen auf
+  einen Schlag drei Problemfelder – keine Bilanzberichtigung, weil nichts zu aktivieren ist; keine
+  Bewertungsfrage, weil Geld zum Nennwert angesetzt wird; keine Umsatzsteuerdifferenz. Teilwert und
+  Betrag der vGA stimmen deshalb zwangsläufig überein. Im Darlehensbeispiel bleiben bei der
+  empfangenden Gesellschaft von 200.000 € gebuchtem Zinsertrag 100.000 € steuerpflichtig, und die
+  zahlende darf 100.000 € abziehen – über beide Gesellschaften gerechnet also genau das Bild eines
+  **fremdüblichen** Darlehens. Bemerkenswert ist schließlich, dass hier **dieselbe** Gesellschaft
+  leistet und bevorteilt wird, während die liefernde Gesellschaft in 5.2 die benachteiligte und in 5.3
+  die bevorteilte war. Wer die Lösung an der Leistungsrichtung aufhängt, kommt durcheinander –
+  maßgeblich ist allein, **wer ärmer und wer reicher** geworden ist.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

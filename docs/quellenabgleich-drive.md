@@ -10620,6 +10620,50 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 5.3 und 5.4 – überteuerte Lieferung und Dienstleistung
+
+Quelle: dieselbe Datei, Seiten 63 bis 66; übernommen als Kapitel 44 und 45. Prüfung:
+`npm run check:k2-kst-teil4` (45 Kapitel, 719 Blöcke, 65 Tabellen).
+
+**Alle Zahlen aller drei Beispiele sind unabhängig nachgerechnet und gehen auf.** Grundstück:
+500.000 € ./. 200.000 € = 300.000 €, davon 60 % = 180.000 € steuerpflichtig. Maschine: 595.000 €
+brutto zerfallen in 500.000 € Entgelt und 95.000 € Umsatzsteuer; angemessen netto 250.000 €, also
+250.000 € zu viel; beide Buchungen sind ausgeglichen (250.000 € + 250.000 € + 95.000 € = 595.000 €
+und 100.000 € + 400.000 € + 95.000 € = 595.000 €); der gemeine Wert von 297.500 € entspricht dem
+Teilwert von 250.000 € zuzüglich 19 %. Darlehen: 20 % von 1.000.000 € = 200.000 €, angemessen
+100.000 €, vGA 100.000 €, davon 60 % = 60.000 € steuerpflichtig.
+
+**Zwei stehen gebliebene Beträge sind als eigene Ergänzung erklärt.** Die Quelle zieht in beiden
+Fällen nicht den ganzen Ertrag ab, ohne den Rest zu kommentieren: Bei der A-GmbH im Maschinenbeispiel
+bleiben 150.000 € stehen – der angemessene Veräußerungsgewinn (Teilwert 250.000 € ./. Buchwert
+100.000 €); im Darlehensbeispiel bleiben 100.000 € stehen – der angemessene Zinsertrag. Beides ist
+zugleich die Probe darauf, dass die Lösung stimmt.
+
+**Der Gegensatz zu Abschnitt 5.2 ist als eigene Feststellung herausgearbeitet.** Dort blieb beim
+Gesellschafter ein Aufwand von 95.000 €, hier entsteht keiner. Der Grund liegt in den Wertmaßstäben:
+Bei der verhinderten Vermögensmehrung wird die vGA brutto (gemeiner Wert), die Einlage netto
+(Teilwert) bewertet; bei der Vermögensminderung bemisst sich die vGA nach Abschnitt 3.2.3 von
+vornherein netto, so dass beide Seiten mit Nettowerten arbeiten. Das Maschinenbeispiel des Abschnitts
+5.3 ist erkennbar mit denselben Zahlenverhältnissen gebaut wie das aus 5.2, damit der Unterschied
+sichtbar wird.
+
+**Ebenfalls als eigene Ergänzungen eingeordnet** sind: der Grund für die Einfachheit der Fallgruppe
+5.4 (der Vorteil ist Geld, deshalb keine Bilanzberichtigung, keine Bewertungsfrage, keine
+Umsatzsteuerdifferenz); die Beobachtung, dass in 5.4 dieselbe Gesellschaft leistet und bevorteilt
+wird, während die liefernde Gesellschaft in 5.2 die benachteiligte und in 5.3 die bevorteilte ist –
+maßgeblich ist daher nicht die Leistungsrichtung, sondern wer ärmer und wer reicher geworden ist; und
+der Hinweis, dass die unveränderte Umsatzsteuer die Anwendung des in Abschnitt 3.2.3 aufgestellten
+Grundsatzes ist.
+
+**Eine verkürzte Formulierung der Quelle ist festgehalten:** „der überhöhte Bilanzansatz von
+300.000 €“ beziehungsweise „von 250.000 €“ – der Bilanzansatz betrug jeweils 500.000 €, überhöht war
+er nur um den genannten Betrag. Gemeint ist ersichtlich der überhöhte Teil; beide Stellen sind
+unverändert übernommen.
+
+**Noch offen:** aus Teil IV die verbilligten Dienstleistungen (5.5), das Korrespondenzprinzip in
+Dreiecksfällen (5.6), die Anwendung des § 1 AStG, die Schenkungsteuer (5.7) und das Kapitel 6
+(Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitt 5.2 – verbilligte Lieferung im Dreiecksfall
 
 Quelle: dieselbe Datei, Seiten 59 bis 63; übernommen als Kapitel 42 und 43. Prüfung:
