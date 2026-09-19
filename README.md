@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 45 Kapitel mit 719
-  Abschnitten und 65 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 47 Kapitel mit 778
+  Abschnitten und 70 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3470,6 +3470,41 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   leistet und bevorteilt wird, während die liefernde Gesellschaft in 5.2 die benachteiligte und in 5.3
   die bevorteilte war. Wer die Lösung an der Leistungsrichtung aufhängt, kommt durcheinander –
   maßgeblich ist allein, **wer ärmer und wer reicher** geworden ist.
+  Die **verbilligte Dienstleistung** (5.5) fällt aus dem Rahmen der übrigen drei Fallgruppen, weil ein
+  bloßer **Nutzungsvorteil kein Wirtschaftsgut** und damit nicht einlagefähig ist – derselbe
+  Grundsatz, der schon in Abschnitt 4.2.5.2 die nahe stehenden Personen betraf. Bei der bevorteilten
+  Gesellschaft geschieht deshalb **überhaupt nichts**: kein Ertrag, kein Abzug, kein Zugang beim
+  steuerlichen Einlagekonto, das in allen anderen Fallgruppen anwuchs. An die Stelle der Einlage tritt
+  der **Aufwandsverbrauch** beim gemeinsamen Gesellschafter: Er wird behandelt, als hätte er die
+  Aufwendungen im Interesse der bevorteilten Gesellschaft getragen, weil diese eigene Kosten spart,
+  ihr Gewinn steigt und ihm daraus künftig Beteiligungserträge zufließen können – eine „mittelbare
+  Verknüpfung“, die die Quelle ausdrücklich genügen lässt. Daraus folgt die praktisch wichtige
+  Konsequenz, dass Ertrag und Aufwand an **verschiedenen** Beteiligungen hängen. Das Ergebnis ist
+  überraschend asymmetrisch: Die natürliche Person landet bei **0 €**, weil das Teileinkünfteverfahren
+  Ertrag und Aufwand gleichermaßen auf 60 % kürzt und sich die Korrekturen von je 32.000 € aufheben;
+  die Kapitalgesellschaft dagegen bei **./. 76.000 €**, weil § 8b Abs. 1 KStG den Ertrag zu 100 %
+  freistellt, der Aufwand aber voll abziehbar bleibt und die Fünf-Prozent-Pauschale sich nur nach dem
+  **Ertrag** bemisst. Im Privatvermögen schließlich bleiben volle 80.000 € Bemessungsgrundlage stehen,
+  weil § 20 Abs. 9 EStG jeden Abzug sperrt – ein starkes Argument für die Option nach § 32d Abs. 2
+  Nr. 3 EStG.
+  Das **Korrespondenzprinzip in Dreiecksfällen** (5.6) ordnet die Regeln nicht nach Vorschriften,
+  sondern danach, **auf welcher Ebene** der Sachverhalt gerade gewürdigt wird: Bei der bevorteilten
+  Gesellschaft hilft § 8 Abs. 3 Satz 5 KStG, beim Anteilseigner § 8b Abs. 1 Satz 2 KStG, § 3 Nr. 40
+  Buchstabe d Satz 2 EStG oder § 32d Abs. 2 Nr. 4 EStG. Beide setzen den **Einkommensschaden** bei der
+  leistenden Gesellschaft voraus, und weder der Grund des Schadens noch die verfahrensrechtliche
+  Änderbarkeit spielen eine Rolle – das trennt die **materielle** Korrespondenz klar von der
+  **formellen** des § 32a KStG, die genau umgekehrt nur das Verfahren betrifft. § 8 Abs. 3 Satz 5 KStG
+  gilt **ausschließlich** in Dreiecksfällen und ordnet die Nachversteuerung des Schadens bei der
+  bevorteilten Gesellschaft an; folgerichtig entstehen dem Gesellschafter nach Satz 6 dann auch keine
+  nachträglichen Anschaffungskosten – wobei Satz 6 nur auf Satz 5 verweist und in den Fällen des
+  Satzes 4 gerade nicht gilt. Auffällig ist, dass die Einlage trotz der Nachversteuerung gleichwohl
+  dem **steuerlichen Einlagekonto** zuwächst: § 8 Abs. 3 Satz 5 KStG betrifft nur die
+  Einkommensermittlung, und § 27 KStG kennt keine materielle Korrespondenz. Einkommen und Einlagekonto
+  laufen hier also bewusst auseinander. Der Streit zwischen dem BFH-Urteil vom 13.06.2018 und dem
+  **Nichtanwendungserlass** lässt sich auf eine Frage zuspitzen: Genügt es, dass das Einkommen des
+  Gesellschafters rechnerisch dasselbe wäre, oder muss der Beteiligungsertrag tatsächlich angesetzt
+  worden sein? Das stärkste Argument der Verwaltung ist dabei, dass bei vollständiger Erfassung eben
+  nicht 0 €, sondern **5 %** des Ertrags steuerpflichtig geworden wären.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

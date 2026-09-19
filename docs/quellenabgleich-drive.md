@@ -10620,6 +10620,47 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 5.5 und 5.6.1 – Aufwandsverbrauch und materielle Korrespondenz
+
+Quelle: dieselbe Datei, Seiten 66 bis 71; übernommen als Kapitel 46 und 47. Prüfung:
+`npm run check:k2-kst-teil4` (47 Kapitel, 778 Blöcke, 70 Tabellen). Damit sind alle vier Fallgruppen
+der Dreiecksfälle erfasst.
+
+**Alle Zahlen sind unabhängig nachgerechnet und gehen auf.** Darlehensbeispiel: 2 % von 1.000.000 € =
+20.000 €, angemessen 100.000 €, vGA 80.000 €; Grundfall 60 % = 48.000 € Ertrag und 48.000 € Aufwand,
+Korrekturen von je 32.000 €, Einkommen 0 €; Abwandlung 5 % von 80.000 € = 4.000 €, Einkommen
+./. 76.000 €. Beispiel zu 5.6.1: 500.000 € ./. 300.000 € = 200.000 € verdeckte Einlage; ohne § 8
+Abs. 3 Satz 5 KStG betrüge das Einkommen 300.000 €, mit der Vorschrift 500.000 € – die
+Nachversteuerung ist betragsgenau.
+
+**Die Asymmetrie des Ergebnisses ist als eigene Feststellung erklärt.** Dass die Kapitalgesellschaft
+ein negatives Einkommen von 76.000 € erzielt, während die natürliche Person auf 0 € kommt, erklärt
+die Quelle nicht. Der Grund: Das Teileinkünfteverfahren kürzt Ertrag *und* Aufwand gleichermaßen auf
+60 %, so dass sie sich aufheben; § 8b KStG stellt dagegen den Ertrag zu 100 % frei, lässt den Aufwand
+voll zum Abzug zu und bemisst die Fünf-Prozent-Pauschale nur nach dem Ertrag.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: der Grund für das Fehlen der Einlage (ein
+Nutzungsvorteil ist kein Wirtschaftsgut – derselbe Grundsatz wie in Abschnitt 4.2.5.2), verbunden mit
+der Beobachtung, dass hier als einziger Fallgruppe auch das steuerliche Einlagekonto unberührt
+bleibt; die Konsequenz, dass Ertrag und Aufwand an verschiedenen Beteiligungen hängen; die Einordnung
+der Privatvermögensvariante als schlechtestes Ergebnis des Kapitels; die Abgrenzung der materiellen
+von der formellen Korrespondenz des § 32a KStG; das Verhältnis von § 8 Abs. 3 Satz 5 und Satz 6 KStG;
+die Doppelwirkung beim Einlagekonto; und die Zuspitzung des Streits zwischen BFH und
+Nichtanwendungserlass auf die Frage, ob eine rechnerische oder eine tatsächliche Erfassung verlangt
+wird.
+
+**Eine abweichende Fundstellenangabe der Quelle ist festgehalten:** Im Beispiel zu 5.6.1 wird die
+verdeckte Einlage mit dem Teilwert bewertet und dafür § 6 Abs. 1 Nr. 5a EStG zitiert, während das
+Skript an allen anderen Stellen für den Teilwertansatz der verdeckten Einlage § 6 Abs. 1 Nr. 5 EStG
+nennt. Die Angabe ist wortlautgetreu übernommen.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „Das steuerliche
+Behandlung dieser Aufwendungen“ und „ist damit durch das Beteiligungsverhältnis zurückzuführen“.
+
+**Noch offen:** aus Teil IV die Rückausnahme des § 8 Abs. 3 Satz 5 KStG, die materielle Korrespondenz
+bei den Einnahmen (5.6.2), die Anwendung des § 1 AStG, die Schenkungsteuer (5.7) und das Kapitel 6
+(Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 5.3 und 5.4 – überteuerte Lieferung und Dienstleistung
 
 Quelle: dieselbe Datei, Seiten 63 bis 66; übernommen als Kapitel 44 und 45. Prüfung:
