@@ -109,13 +109,13 @@ function korrigiereAStG9(thema) {
       "Rechtsstand 2026: Absolute Grenze prüfen – die nach § 9 AStG außer Ansatz zu lassenden Beträge dürfen beim Steuerpflichtigen insgesamt 100.000 € nicht übersteigen.",
       "Nur wenn beide Grenzen eingehalten sind, greift die Freigrenze.",
     ],
-    merksatz: "§ 9 AStG arbeitet mit Einkünften, nicht mit Bruttoerträgen. 2026 gelten ein Drittel und 100.000 €; bei 2025er Sachverhalten noch 10 % und 80.000 €.",
+    merksatz: "§ 9 AStG arbeitet mit Einkünften, nicht mit Bruttoerträgen. Für Zwischeneinkünfte aus Wirtschaftsjahren, die nach dem 31.12.2025 beginnen, gelten ein Drittel und 100.000 €; für die davor liegende Rechtslage 10 % und 80.000 €. Anwendung: § 21 Abs. 9 AStG.",
   };
   rechtsstandswechsel(thema, {
     abJahr: 2026,
     vorherJahr: 2025,
-    norm: "§ 9 AStG",
-    aktuell: "Relative Freigrenze: nicht mehr als ein Drittel der gesamten Einkünfte der ausländischen Gesellschaft; absolute Freigrenze: 100.000 €.",
+    norm: "§ 9 i. V. m. § 21 Abs. 9 AStG",
+    aktuell: "Für Zwischeneinkünfte aus Wirtschaftsjahren, die nach dem 31.12.2025 beginnen: relative Freigrenze nicht mehr als ein Drittel der gesamten Einkünfte der ausländischen Gesellschaft; absolute Freigrenze 100.000 €.",
     vorher: "Relative Freigrenze: nicht mehr als 10 % der gesamten Einkünfte der ausländischen Gesellschaft; absolute Freigrenze: 80.000 €.",
   });
 }
@@ -134,14 +134,14 @@ function korrigiereSechsBAbs10(thema) {
   thema.kern = {
     ...thema.kern,
     ausdruck: "begünstigter Anteilsgewinn: bis 2.000.000 € nach neuem Recht; Übergangsregel des § 52 Abs. 14 S. 7 EStG beachten",
-    erklaerung: "§ 6b Abs. 10 EStG begünstigt Gewinne aus der Veräußerung von Anteilen nach aktuellem Recht bis 2.000.000 €. Die Erhöhung gilt nach § 52 Abs. 14 S. 7 EStG erstmals für Gewinne, die in nach dem 10. Februar 2026 beginnenden Wirtschaftsjahren entstehen. Bei der Übertragung auf Gebäude oder abnutzbare bewegliche Wirtschaftsgüter ist nur der nicht nach § 3 Nr. 40 i. V. m. § 3c Abs. 2 EStG steuerbefreite Teil abziehbar; für Ersatzanteile gelten die besonderen Regeln des Absatzes 10.",
+    erklaerung: "§ 6b Abs. 10 EStG nennt nach aktuellem Gesetzesstand einen Höchstbetrag von 2.000.000 €. Entscheidend ist aber die Übergangsregel: Die Erhöhung gilt nach § 52 Abs. 14 S. 7 EStG erstmals für Gewinne, die in nach dem 10. Februar 2026 beginnenden Wirtschaftsjahren entstehen. Bei kalendergleichem Wirtschaftsjahr greift die 2-Mio.-€-Grenze daher regelmäßig erstmals für 2027; für das Kalenderwirtschaftsjahr 2026 bleibt es noch bei 500.000 €. Bei der Übertragung auf Gebäude oder abnutzbare bewegliche Wirtschaftsgüter ist nur der nicht nach § 3 Nr. 40 i. V. m. § 3c Abs. 2 EStG steuerbefreite Teil abziehbar; für Ersatzanteile gelten die besonderen Regeln des Absatzes 10.",
   };
   thema.normen = ["§ 6b Abs. 10 S. 1–6 EStG", "§ 52 Abs. 14 S. 7 EStG", "§ 3 Nr. 40 EStG", "§ 3c Abs. 2 EStG"];
   rechtsstandswechsel(thema, {
     abJahr: 2026,
     vorherJahr: 2025,
     norm: "§ 6b Abs. 10 S. 1 i. V. m. § 52 Abs. 14 S. 7 EStG",
-    aktuell: "Höchstbetrag 2.000.000 € für Gewinne aus Anteilsveräußerungen, die in nach dem 10.02.2026 beginnenden Wirtschaftsjahren entstehen.",
+    aktuell: "Gesetzesstand: Höchstbetrag 2.000.000 € für Gewinne aus Anteilsveräußerungen, die in nach dem 10.02.2026 beginnenden Wirtschaftsjahren entstehen. Bei kalendergleichem Wirtschaftsjahr wirkt die Erhöhung regelmäßig erst 2027; im Kalenderwirtschaftsjahr 2026 bleibt es noch bei 500.000 €.",
     vorher: "Höchstbetrag 500.000 € nach der bis zur Neuregelung geltenden Fassung.",
   });
 }
