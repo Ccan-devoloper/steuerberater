@@ -431,18 +431,30 @@ function korrigiereErbStSchuldenabzug(thema) {
 }
 
 function ergaenzeErbSt13dDrittstaat(thema) {
-  normErgaenzen(thema, "§ 13d Abs. 3 Nr. 2 ErbStG");
-  const einordnung = [...(thema.kern?.einordnung || [])];
+  normErgaenzen(thema, "§ 13d Abs. 3 Nr. 1–3 ErbStG", "R E 13d Abs. 2, 6 ErbStR");
+  const einordnung = [...(thema.kern?.einordnung || [])].map((x) =>
+    /langfristige Vermietung|>\s*6 Monate|6 Monate/i.test(x)
+      ? "Maßgeblich sind die Verhältnisse im Besteuerungszeitpunkt: Begünstigt ist die entgeltliche Vermietung zu Wohnzwecken. § 13d ErbStG enthält keine starre Mindestmietdauer von sechs Monaten; bei Leerstand kann eine bereits konkretisierte Vermietungsabsicht genügen."
+      : x
+  );
+  if (!einordnung.some((x) => /keine starre Mindestmietdauer/i.test(x))) {
+    einordnung.push("§ 13d ErbStG enthält keine starre Mindestmietdauer von sechs Monaten. Entscheidend sind Wohnzweck, Entgeltlichkeit und die Verhältnisse im Besteuerungszeitpunkt; die Einordnung kurzfristiger beziehungsweise wechselnder Nutzungen ist anhand des konkreten Wohnzwecks zu prüfen.");
+  }
   einordnung.push("Aktueller internationaler Anwendungsbereich: Inland und EU/EWR sind begünstigungsfähig; seit der Neufassung durch das JStG 2024 können auch in Drittstaaten belegene Wohnimmobilien begünstigt sein, wenn der Drittstaat für die Erbschaftsteuer den gesetzlich geforderten Informationsaustausch/Amtshilfe gewährleistet und auf der BMF-Liste steht.");
-  const pruefschritte = [...(thema.kern?.pruefschritte || [])];
-  const lage = pruefschritte.findIndex((x) => /Lagevoraussetzung/i.test(x));
+
+  const pruefschritte = [...(thema.kern?.pruefschritte || [])].map((x) =>
+    /Stichtagsverhältnisse.*>\s*6 Monate|langfristige Wohnvermietung.*6 Monate/i.test(x)
+      ? "Stichtagsverhältnisse prüfen: entgeltliche Vermietung zu Wohnzwecken oder bei Leerstand eine bereits konkretisierte Vermietungsabsicht. Keine starre Sechs-Monats-Grenze anwenden."
+      : x
+  );
+  const lage = pruefschritte.findIndex((x) => /Lagevoraussetzung|Lage prüfen/i.test(x));
   const satz = "Lage prüfen: Bei Drittstaaten § 13d Abs. 3 Nr. 2 ErbStG anwenden – Begünstigung nur bei qualifiziertem Informationsaustausch/Amtshilfe; maßgeblich ist die vom BMF veröffentlichte Staatenliste.";
   if (!pruefschritte.some((x) => /Drittstaaten.*Amtshilfe|BMF.*Staatenliste/i.test(x))) pruefschritte.splice(lage >= 0 ? lage + 1 : 2, 0, satz);
   thema.kern = {
     ...thema.kern,
     einordnung,
     pruefschritte,
-    merksatz: "§ 13d: 90-%-Wertansatz bei begünstigter Wohnvermietung; Drittstaaten sind nicht mehr pauschal ausgeschlossen, sondern bei gesetzlich gesicherter Amtshilfe/Informationsaustausch begünstigungsfähig.",
+    merksatz: "§ 13d: 90-%-Wertansatz bei entgeltlicher Wohnvermietung am Stichtag; keine starre Sechs-Monats-Mindestdauer. Drittstaaten sind bei gesetzlich gesicherter Amtshilfe/Informationsaustausch begünstigungsfähig.",
   };
 }
 
