@@ -190,6 +190,42 @@ function korrigiereAStG9(thema) {
 
 
 
+
+function korrigiereWirtschaftlichesEigentum(thema) {
+  normErgaenzen(
+    thema,
+    "§ 39 Abs. 1 und Abs. 2 Nr. 1 AO",
+    "AEAO zu § 39 Nr. 1",
+    "BFH 02.06.2016 – IV R 23/13",
+    "BFH 13.10.2016 – IV R 33/13"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Ausgangspunkt ist § 39 Abs. 1 AO: Ein Wirtschaftsgut wird grundsätzlich dem zivilrechtlichen Eigentümer zugerechnet. Abweichend davon ist es nach § 39 Abs. 2 Nr. 1 AO dem wirtschaftlichen Eigentümer zuzurechnen, wenn dieser den zivilrechtlichen Eigentümer im Regelfall für die gewöhnliche Nutzungsdauer wirtschaftlich von der Einwirkung ausschließen kann.",
+      "Ein bloßer Mieter oder Pächter ist nach dem AEAO in der Regel nicht wirtschaftlicher Eigentümer. Das ist aber keine ausnahmslose Regel. Bei Leasing, Mietkauf oder ähnlichen Nutzungsüberlassungen kann wirtschaftliches Eigentum beim Nutzenden liegen, wenn ihm nach dem Gesamtbild der Verhältnisse Substanz und Ertrag für die voraussichtliche Nutzungsdauer wirtschaftlich zustehen und der Herausgabeanspruch des zivilrechtlichen Eigentümers wirtschaftlich bedeutungslos ist.",
+      "Bei Leasingfällen sind insbesondere Grundmietzeit, betriebsgewöhnliche Nutzungsdauer, Kauf- oder Verlängerungsoptionen, Andienungsrechte, Spezialleasing und die tatsächliche Risikoverteilung zu würdigen. Eine bloße Vertragsbezeichnung entscheidet nicht.",
+    ],
+    lernziele: [
+      "zivilrechtliches Eigentum als Ausgangspunkt von wirtschaftlichem Eigentum trennen",
+      "§ 39 Abs. 2 Nr. 1 AO anhand tatsächlicher Herrschaft und wirtschaftlichen Ausschlusses prüfen",
+      "Miete und Pacht als Regelfall ohne wirtschaftliches Eigentum einordnen, aber Ausnahmen offenhalten",
+      "Leasing- und Mietkaufverträge nach Laufzeit, Optionen, Substanz-/Ertragszuordnung und Risikoverteilung beurteilen",
+      "Spezialleasing und wirtschaftlich bedeutungslosen Herausgabeanspruch als wichtige Fallgruppen erkennen",
+      "Zurechnung vor Ansatz und Bewertung des Wirtschaftsguts abschließen",
+    ],
+    pruefschritte: [
+      "Zivilrechtlichen Eigentümer feststellen (§ 39 Abs. 1 AO).",
+      "Tatsächliche Herrschaft des Nutzenden über das Wirtschaftsgut feststellen.",
+      "Prüfen, ob der zivilrechtliche Eigentümer im Regelfall für die gewöhnliche Nutzungsdauer wirtschaftlich von der Einwirkung ausgeschlossen ist.",
+      "Bei Miete/Pacht zunächst vom Regelfall fehlenden wirtschaftlichen Eigentums des Nutzenden ausgehen, aber die konkrete Vertrags- und Risikostruktur prüfen.",
+      "Bei Leasing insbesondere Grundmietzeit versus betriebsgewöhnliche Nutzungsdauer sowie Kauf-/Verlängerungsoption, Andienungsrecht und Spezialleasing würdigen.",
+      "Erst nach der Zurechnung Ansatz, Abschreibung und weitere Bewertung beim zutreffenden Rechtsträger prüfen.",
+    ],
+    merksatz: "Miete oder Leasing bedeutet nicht automatisch Fremdeigentum: Der Mieter/Pächter ist zwar regelmäßig nicht wirtschaftlicher Eigentümer, aber § 39 Abs. 2 Nr. 1 AO kann bei wirtschaftlichem Ausschluss des zivilrechtlichen Eigentümers zur Zurechnung an den Nutzenden führen.",
+  };
+}
+
 function korrigiereErsatzbeschaffungsruecklage(thema) {
   normErgaenzen(
     thema,
@@ -1655,6 +1691,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "persg-modul-persg-7": korrigiereSbvKomplementaerGmbh(thema); break;
       case "istr-modul-istr-istr3-07": korrigiereAStG2(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
+      case "bilanz-modul-k3-2": korrigiereWirtschaftlichesEigentum(thema); break;
       case "bilanz-modul-k3-26": korrigiereErsatzbeschaffungsruecklage(thema); break;
       case "bilanz-formel-anschaffungsnah": korrigiereAnschaffungsnah(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
