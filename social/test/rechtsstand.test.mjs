@@ -113,6 +113,15 @@ test("Vollstreckung trennt §254-Wochenfrist von der Soll-Mahnung nach §259", (
   }
 });
 
+test("PersG-SBV-II verwendet keine starre 10%-Grenze für Komplementär-GmbH-Anteile", () => {
+  const t = byId("persg-modul-persg-7");
+  assert.match(kern(t), /keine allgemeine starre 10-%-Grenze|nicht ab 10 % automatisch/i);
+  assert.match(kern(t), /weniger als 10 %/);
+  assert.match(kern(t), /10 bis 25 %.*keine automatische|10 bis 25 %.*nicht.*automatisch/i);
+  assert.match(kern(t), /Einfluss.*Geschäftsführung|Veranlassungs.*Funktion/i);
+  assert.match(kern(t), /bloße.*finanzielle Teilhabe.*nicht|bloße Vermögensmehrung.*nicht/i);
+});
+
 test("§2-AStG-Modul verwendet nur existente Normen und aktuelle Grenzen", () => {
   const t = byId("istr-modul-istr-istr3-07");
   assert.match(kern(t), /mindestens fünf Jahre/);
