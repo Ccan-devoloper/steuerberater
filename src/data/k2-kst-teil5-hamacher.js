@@ -20,11 +20,10 @@
    Dazu kommen die gleichgestellten Sachverhalte (1.4.2) und die Umwandlungen
    (1.4.3.1), die Kapitalerhöhung (1.4.3.2), der mittelbare Erwerb (1.4.4)
    sowie der Hintergrund der Konzernregelung und deren erste Fallgruppe
-   (1.4.5.1 und 1.4.5.2). Es folgen die beiden übrigen Fallgruppen und die
-   Rechtsfolgen der Konzernklausel (1.4.5.3 bis 1.4.5.5), der
-   Fünfjahreszeitraum (1.4.6), die Verschonungsgrenze (1.5), die
-   Verlustkürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4;
-   der Campus weist den Stand aus.
+   (1.4.5). Damit ist die Konzernregelung mit allen drei Fallgruppen und ihren
+   Rechtsfolgen vollständig. Es folgen der Fünfjahreszeitraum (1.4.6), die
+   Verschonungsgrenze (1.5), die Verlustkürzung (1.6), die Organschaftsfälle
+   (1.7) sowie die Kapitel 2 bis 4; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -500,6 +499,90 @@ export const kstTeil5 = [
       { text: "Anmerkung zu den beiden Beteiligungsquoten (eigene Ergänzung): Die Vorschrift arbeitet mit **zwei** Quoten, die leicht verwechselt werden, und die Quelle stellt sie ausdrücklich gegenüber. Die 100 % beziehen sich auf das Verhältnis **Erwerber zu Veräußerin** – dort darf keine fremde Person beteiligt sein. Die Beteiligung an der **Verlustgesellschaft** selbst darf dagegen darunter liegen; im Beispiel sind es nur 90 %, und die restlichen 10 % hält ein Dritter, ohne dass das schadet. Der Grund ist einleuchtend: Dieser Dritte war schon vorher beteiligt und gewinnt durch den Vorgang nichts hinzu." },
       { text: "Anmerkung zur Personenhandelsgesellschaft (eigene Ergänzung): Die Quelle zieht hier eine Linie, die zu Abschnitt 1.3.1 passt und ihn bestätigt: Die Personenhandelsgesellschaft gilt für § 8c KStG **nicht als transparent** und kann deshalb selbst Erwerberin im Sinne der Konzernklausel sein. Zwei Einschränkungen sind dabei wichtig. Erstens zählt nur die **Personenhandelsgesellschaft** – KG, OHG oder vergleichbare ausländische Gesellschaften –, nicht die **GbR**; und eine bloße **Personengruppe** genügt ebenfalls nicht, wie das dritte Beispiel des Abschnitts 1.4.4 gezeigt hat, in dem die Konzernklausel an A und B scheiterte. Zweitens müssen beide Beteiligungen dem **Gesamthandsvermögen** zugerechnet werden – ein Anteil im Sonderbetriebsvermögen eines Gesellschafters trägt die Begünstigung nicht." },
       { text: "Anmerkung zur Abwärtsverschmelzung (eigene Ergänzung): Der Fall ist technisch anspruchsvoll und verdient eine Vergegenwärtigung. Verschmilzt eine Tochtergesellschaft **abwärts** auf ihre eigene Tochter – die Verlustgesellschaft –, muss der von ihr gehaltene Anteil an dieser Verlustgesellschaft irgendwohin; er geht im Wege eines **Direkterwerbs** auf die Muttergesellschaft über, die damit als Erwerberin gilt. Der Vorgang sieht also wie eine reine Verschmelzung aus, enthält aber einen Anteilserwerb. Weil die Mutter zu 100 % an der übertragenden Tochter beteiligt war, greift die Konzernklausel – die Kette verkürzt sich, ohne dass ein Fremder hinzutritt." },
+    ],
+  },
+  {
+    id: "kst-t5-9",
+    kapitel: "9",
+    abschnittNr: "1.4.5.4",
+    title: "1.4.5.2 bis 1.4.5.4 – die drei Fallgruppen der Konzernklausel",
+    thema: "Nr. 1 erfasst die Aufwärts-, Nr. 2 die Abwärts- und Nr. 3 die Seitwärtsübertragung. Gefordert ist jeweils eine 100%ige Beteiligung – bei Nr. 3 einer „dieselben Person“ an beiden Rechtsträgern",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 1.4.5.2 (Schluss) bis 1.4.5.4 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 4 Nr. 1 KStG",
+      "§ 8c Abs. 1 Satz 4 Nr. 2 KStG",
+      "§ 8c Abs. 1 Satz 4 Nr. 3 KStG",
+      "§ 21 UmwStG",
+      "BMF vom 28.11.2017, Tz. 42, 43 und 44",
+    ],
+    themen: ["Konzernklausel", "Aufwärtsübertragung", "Abwärtsübertragung", "Seitwärtsübertragung", "dieselbe Person", "Zurechnungsebene", "Handlungsebene"],
+    bloecke: [
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH, die wiederum selbst zu 100 % an der B-GmbH (= Verluste) beteiligt ist. In 2025 wird die A-GmbH zu Buchwerten auf die B-GmbH verschmolzen (Abwärtsverschmelzung)." },
+      { text: "Lösung: Die Abwärtsverschmelzung der A-GmbH auf die B-GmbH führt aus Sicht des Anteilseigners zu einem Direkterwerb der Anteile an der B-GmbH. Auch dieser Direkterwerb führt nach dem Wortlaut des § 8c Abs. 1 Satz 4 Nr. 1 KStG dazu, dass dieser für Zwecke des § 8c KStG unschädlich ist. Dies deshalb, weil der Erwerber A selbst unmittelbar an der für diese Zwecke veräußernden A-GmbH zu 100 % beteiligt gewesen ist." },
+      { text: "Beispiel: Die A-AG (börsennotiert) ist Alleingesellschafterin der B-GmbH, welche wiederum zu 100 % an der C-GmbH beteiligt ist. Die C-GmbH selbst hält eine 90%ige Beteiligung an der V-GmbH (Verluste). In 2025 veräußert die C-GmbH ihre Beteiligung an der V-GmbH an die A-AG." },
+      { text: "Lösung: Die Konzernklausel des § 8c Abs. 1 Satz 4 Nr. 1 KStG ist anwendbar, weil die Erwerberin A-AG eine juristische Person ist und mittelbar zu 100 % an der Veräußerin C-GmbH beteiligt ist. Unerheblich ist, dass an dem Erwerber wiederum mehrere Personen beteiligt sind." },
+      { typ: "titel", text: "1.4.5.3 Fallgruppe des § 8c Abs. 1 Satz 4 Nr. 2 KStG" },
+      { text: "§ 8c Abs. 1 Satz 4 Nr. 2 KStG erfasst den Fall, in dem die Konzernspitze selbst oder eine dieser nachfolgenden Konzernstufe den Anteil an der Verlustgesellschaft im Rahmen des Konzerns überträgt. Dabei wird der Anteil an der Verlustgesellschaft konzernintern „abwärts“ übertragen. Entscheidend ist dafür, dass der Veräußerer unmittelbar oder mittelbar zu 100 % am Erwerber beteiligt ist. Als Veräußerer kommen dabei aber wiederum nur eine natürliche Person, eine juristische Person oder eine Personenhandelsgesellschaft in Betracht. Der übertragene Anteil an der Verlustgesellschaft kann auch < 100 % betragen." },
+      { text: "Beispiel: A ist Gesellschafter der A-GmbH (Verluste) und Alleingesellschafter der B-GmbH. In 2025 bringt A seine 90%ige Beteiligung der A-GmbH nach § 21 UmwStG in die B-GmbH ein." },
+      { text: "Lösung: § 8c Abs. 1 Satz 4 Nummer 2 KStG ist erfüllt, weil A als Veräußerer selbst zu 100 % unmittelbar an der Erwerberin B-GmbH beteiligt ist und der Übertrager (Veräußerer) eine natürliche Person ist." },
+      { typ: "titel", text: "1.4.5.4 Fallgruppe des § 8c Abs. 1 Satz 4 Nr. 3 KStG" },
+      { text: "Der Wortlaut des § 8c Abs. 1 Satz 4 Nr. 3 KStG entspricht dem bisherigen Inhalt der überholten Fassung und erfasst die Anteilserwerbe auf den nachfolgenden Konzernstufen. Dafür wird vorausgesetzt, dass an dem übertragenden und dem übernehmenden Rechtsträger unmittelbar oder mittelbar „dieselbe Person“ zu jeweils 100 % unmittelbar oder mittelbar beteiligt ist (sog. Zurechnungsebene). Dieser dient danach als Klammer zwischen beiden handelnden Rechtsträgern (sog. Handlungsebene) und führt im Unterschied zu den beiden vorgenannten Fallgruppen dazu, dass der Anteil an der Verlustgesellschaft konzernintern „seitwärts“ übertragen wird." },
+      { text: "Als „dieselbe“ Person gilt wiederum nur eine natürliche Person, eine juristische Person oder aber eine Personenhandelsgesellschaft. Der übertragene Anteil an der Verlustgesellschaft kann dabei auch < 100 % betragen. Dieses gilt auch für die vorangegangenen Tatbestände der Nr. 1 und 2." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH. Diese ist wiederum zu jeweils 100 % an der B-GmbH und C-GmbH beteiligt. Die B-GmbH ist zu 70 % an der X-GmbH (Verluste) beteiligt. In 2025 veräußert die B-GmbH ihre Beteiligung an der X-GmbH an die C-GmbH." },
+      { text: "Lösung: Die zwischen den Konzerngesellschaften vorgenommene Anteilsveräußerung wird von der Konzernregelung des § 8c Abs. 1 Satz 4 Nr. 3 KStG erfasst und ist unschädlich. Die Tatbestandsmerkmale sind erfüllt, da an der übertragenden B-GmbH und der übernehmenden C-GmbH die A-GmbH mit jeweils 100 % beteiligt ist. Unerheblich ist in diesem Zusammenhang, dass die B-GmbH nur zu 70 % an der X-GmbH beteiligt ist." },
+      { text: "Beispiel: A und B sind zu jeweils 50 % an der A-GmbH & Co KG als Kommanditist beteiligt. Sie sind zudem in gleichem Verhältnis an der Komplementärgesellschaft A-GmbH beteiligt. Die KG ihrerseits hält jeweils 100%ige Beteiligungen an der C-GmbH und an der D-GmbH. Die C-GmbH ist zu 80 % an der X-GmbH (Verluste) beteiligt. In 2025 veräußert die C-GmbH ihre Beteiligung an der X-GmbH an die D-GmbH." },
+      { text: "Lösung: Die Anteilsveräußerung fällt unter § 8c Abs. 1 Satz 4 Nr. 3 KStG, weil an der übertragenden C-GmbH und der übernehmenden D-GmbH jeweils die A-GmbH & Co KG unmittelbar zu 100 % beteiligt ist und als Personenhandelsgesellschaft als „dieselbe Person“ gilt. Die Ebene der Mitunternehmer wird dabei ausgeblendet." },
+      { typ: "tabelle", spalten: ["Fallgruppe", "Richtung der Übertragung", "erforderliche 100%ige Beteiligung", "Beispiel der Quelle"], zeilen: [
+        ["§ 8c Abs. 1 Satz 4 Nr. 1 KStG", "aufwärts – die Beteiligungskette verkürzt sich", "des Erwerbers an der Veräußerin", "die A-GmbH veräußert an ihren Alleingesellschafter A; die börsennotierte A-AG erwirbt von ihrer Enkelgesellschaft"],
+        ["§ 8c Abs. 1 Satz 4 Nr. 2 KStG", "abwärts – die Kette verlängert sich", "des Veräußerers am Erwerber", "A bringt seine Beteiligung nach § 21 UmwStG in seine B-GmbH ein"],
+        ["§ 8c Abs. 1 Satz 4 Nr. 3 KStG", "seitwärts – zwischen Schwestergesellschaften", "„derselben Person“ an beiden Rechtsträgern", "die B-GmbH veräußert an ihre Schwester C-GmbH; die C-GmbH veräußert an ihre Schwester D-GmbH"],
+      ] },
+      { typ: "tabelle", spalten: ["Gemeinsame Anforderung aller drei Fallgruppen", "Inhalt"], zeilen: [
+        ["erfasste Personen", "natürliche Person, juristische Person oder Personenhandelsgesellschaft – keine bloße Personengruppe und keine GbR"],
+        ["Höhe der Beteiligung an der Verlustgesellschaft", "darf unter 100 % liegen – das gilt für alle drei Nummern"],
+        ["Beteiligungsstruktur oberhalb des Erwerbers", "unerheblich; an der Erwerberin dürfen mehrere Personen beteiligt sein, sogar börsennotiert"],
+        ["Mitunternehmerebene bei einer Personenhandelsgesellschaft", "wird ausgeblendet – die Gesellschaft selbst gilt als „dieselbe Person“"],
+      ] },
+      { text: "Anmerkung zur Systematik der drei Nummern (eigene Ergänzung): Die drei Fallgruppen lassen sich als **drei Richtungen** im Konzernaufbau merken, und mit ihnen ist der Anwendungsbereich vollständig abgedeckt. **Nr. 1** ist die Bewegung nach **oben** – der Anteil wandert zur Spitze, die Kette verkürzt sich; dort muss der **Erwerber** zu 100 % an der Veräußerin beteiligt sein. **Nr. 2** ist die Bewegung nach **unten**; spiegelbildlich muss dort der **Veräußerer** zu 100 % am Erwerber beteiligt sein. **Nr. 3** ist die Bewegung zur **Seite**; weil dort weder das eine noch das andere zutrifft, braucht es eine dritte Ebene oberhalb beider – die Quelle nennt sie treffend die **Zurechnungsebene**, die als Klammer über den beiden handelnden Rechtsträgern liegt. Wer sich die Richtung merkt, findet die zugehörige Beteiligungsvoraussetzung von selbst." },
+      { text: "Anmerkung zur durchgängigen Asymmetrie der Quoten (eigene Ergänzung): In allen drei Fallgruppen gilt dieselbe Zweiteilung, die die Quelle bei Nr. 3 ausdrücklich für alle Nummern bestätigt: **100 % innerhalb** der Konzernbeziehung, **beliebig wenig** an der Verlustgesellschaft. Im Beispiel sind es 70 % beziehungsweise 80 % – die übrigen Anteile halten Fremde, und das schadet nicht. Der Grund ist derselbe wie in Abschnitt 1.4.5.2: Diese Fremden waren schon vorher beteiligt und gewinnen durch die konzerninterne Verschiebung nichts hinzu. Die 100 % sichern nur, dass **oberhalb** der Übertragung kein Außenstehender sitzt." },
+      { text: "Anmerkung zur börsennotierten Erwerberin (eigene Ergänzung): Das zweite Beispiel zu Nr. 1 ist bewusst zugespitzt und macht einen wichtigen Punkt: Die A-AG ist **börsennotiert**, an ihr sind also unzählige fremde Personen beteiligt – und trotzdem greift die Konzernklausel. Das wirkt auf den ersten Blick wie ein Widerspruch zum Gedanken, dass keine fremde Person an den Verlusten partizipieren soll. Es löst sich auf, wenn man bedenkt, dass diese Aktionäre schon **vor** dem Erwerb mittelbar an der V-GmbH beteiligt waren; die Übertragung verkürzt nur die Kette zwischen ihnen und der Verlustgesellschaft. Geprüft wird also nicht die Struktur **oberhalb** des Erwerbers, sondern allein das Verhältnis zwischen Erwerber und Veräußerin." },
+      { text: "Anmerkung zur Personenhandelsgesellschaft als „dieselbe Person“ (eigene Ergänzung): Das zweite Beispiel zu Nr. 3 ist die Gegenprobe zu dem Fall, der in Abschnitt 1.4.4 an der Konzernklausel gescheitert war. Dort hielten **A und B unmittelbar** die Anteile und konnten nicht als Einheit betrachtet werden; hier halten dieselben beiden Personen ihre Beteiligung **über eine KG**, und diese gilt als „dieselbe Person“. Der Unterschied ist allein die zwischengeschaltete Personenhandelsgesellschaft – die Mitunternehmerebene wird ausdrücklich ausgeblendet. Daraus folgt ein praktischer Hinweis: Eine **Holding-Personengesellschaft** kann die Konzernklausel überhaupt erst eröffnen, wo mehrere natürliche Personen sie sonst blockieren würden." },
+    ],
+  },
+  {
+    id: "kst-t5-10",
+    kapitel: "10",
+    abschnittNr: "1.4.5.5",
+    title: "1.4.5.5 Rechtsfolgen der Konzernklausel – vollständige Ausblendung",
+    thema: "Der begünstigte Erwerb wird komplett ausgeblendet, zählt nicht als Zählerwerb und löst auch den Fünfjahreszeitraum nicht aus. Jeder Anteilserwerb ist dabei getrennt zu prüfen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 1.4.5.5 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 4 KStG",
+      "§ 8c Abs. 1 Satz 4 Nr. 3 KStG",
+      "BMF vom 28.11.2017, Tz. 48 und Beispiel 11",
+    ],
+    themen: ["Rechtsfolgen der Konzernklausel", "Ausblendung", "Zählerwerb", "Fünfjahreszeitraum", "getrennte Prüfung"],
+    bloecke: [
+      { text: "Fällt der Anteilserwerb unter die Konzernregelung des § 8c Abs. 1 Satz 4 KStG, wird dieser für Zwecke des § 8c KStG komplett ausgeblendet. Dies führt dazu, dass dieser Erwerb auch nicht als Zählerwerb gilt und daher nachfolgende bzw. vorangegangene Erwerbe hinsichtlich der Überprüfung der maßgeblichen Erwerbsquoten nicht beeinflussen kann. Zugleich führt ein solcher Erwerb auch nicht dazu, dass der 5jährige Betrachtungszeitraum ausgelöst würde." },
+      { text: "§ 8c Abs. 1 Satz 4 KStG ist zudem bei jedem Anteilserwerb getrennt voneinander zu überprüfen. Dies kann dazu führen, dass mehrere Anteilserwerbe unterschiedlich zu würdigen sind." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH. Diese ist wiederum zu jeweils 100 % an der B-GmbH und C-GmbH beteiligt. Die B-GmbH ist zu 60 % an der X-GmbH (Verluste) beteiligt, die restlichen 40 % sind anderen Gesellschaftern zuzurechnen. In diesem Zusammenhang ergeben sich folgende Anteilserwerbe: 2018: Die B-GmbH veräußert ihren 60%igen Anteil an der X-GmbH an die C-GmbH. 2019: Die C-GmbH erwirbt weitere 20 % an der X-GmbH von einem fremden Dritten. 2023: Die C-GmbH erwirbt einen weiteren 7%igen Anteil an der X-GmbH von einem fremden Dritten." },
+      { text: "Lösung: Der Vorgang in 2018 unterliegt § 8c Abs. 1 Satz 4 Nr. 3 KStG. Dieser wird daher für Zwecke des § 8c KStG komplett ausgeblendet und beeinflusst somit die nachfolgenden Vorgänge nicht. Dies führt auch dazu, dass der 5jährige Betrachtungszeitraum noch nicht ausgelöst wird." },
+      { text: "Erst der Anteilserwerb in 2019 führt als Zählerwerb dazu, dass der 5jährige Betrachtungszeitraum beginnt. Aufgrund dessen ist dieser Erwerb mit dem nachfolgend in 2023 erfolgten Erwerb zusammenzurechnen, so dass zu einem 27%igen Anteilserwerb kommt und als Zählerwerb insoweit bestehen bleibt. Bei einem nachfolgenden Erwerb in 2024 kann dabei aber der Erwerb von 20 % bereits gelöscht werden, weil nur dieser Erwerb aus 2019 nur weitere 5 Jahre ausstrahlt. Der 7%ige Erwerb kann noch bis 2028 mit weiteren Erwerben zusammengerechnet werden. (Die Formen „so dass zu einem 27%igen Anteilserwerb kommt“ und das doppelte „nur“ stehen so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Jahr", "Vorgang", "Behandlung", "kumulierter Zählerwerb der C-GmbH"], zeilen: [
+        ["2018", "die B-GmbH veräußert 60 % an ihre Schwester C-GmbH", "§ 8c Abs. 1 Satz 4 Nr. 3 KStG – komplett ausgeblendet, kein Zählerwerb, kein Fristbeginn", "0 %"],
+        ["2019", "die C-GmbH erwirbt 20 % von einem fremden Dritten", "Zählerwerb, beginnt den Fünfjahreszeitraum", "20 %"],
+        ["2023", "die C-GmbH erwirbt weitere 7 % von einem fremden Dritten", "Zählerwerb, mit 2019 zusammenzurechnen", "27 %"],
+        ["2024", "gedachter weiterer Erwerb", "der Erwerb aus 2019 ist ausgelaufen und wird gelöscht", "7 %, ausstrahlend bis 2028"],
+      ] },
+      { text: "Rechenprobe (eigene Ergänzung): 20 % + 7 % = 27 % – die Schwelle bleibt damit deutlich unterschritten. Bemerkenswert ist der Vergleich mit der zivilrechtlichen Lage: Die C-GmbH hält nach allen drei Vorgängen **87 %** an der X-GmbH (60 % + 20 % + 7 %), für § 8c KStG zählen davon aber nur **27 %**. Der konzerninterne Erwerb von 60 % ist vollständig aus der Rechnung verschwunden. Erst ein weiterer Erwerb von mehr als 23 Prozentpunkten bis 2024 hätte die Schwelle überschritten." },
+      { text: "Anmerkung zur Reichweite der Ausblendung (eigene Ergänzung): Die Rechtsfolge ist weitreichender, als das Wort „Ausnahme“ vermuten lässt, und sie wirkt in **drei** Richtungen. Der begünstigte Erwerb ist erstens selbst unschädlich, zählt zweitens nicht als **Zählerwerb** für spätere Erwerbe und beeinflusst drittens – wie die Quelle ausdrücklich sagt – auch **vorangegangene** Erwerbe nicht. Hinzu kommt, dass er den Fünfjahreszeitraum **nicht auslöst**. Damit ist er nicht etwa ein neutraler Posten in der Rechnung, sondern kommt in ihr überhaupt nicht vor. Dieselbe Technik verwendet die Sanierungsklausel des Abschnitts 1.2.5 – und in beiden Fällen unterscheidet sie sich grundlegend von der aufgehobenen Quotenstufe des Abschnitts 1.1.1, deren Erwerbe gerade als Zählerwerbe bestehen bleiben." },
+      { text: "Anmerkung zur getrennten Prüfung (eigene Ergänzung): Der knappe Satz, § 8c Abs. 1 Satz 4 KStG sei bei **jedem** Anteilserwerb getrennt zu prüfen, ist die Grundlage des ganzen Beispiels. Er bedeutet, dass ein und derselbe Erwerberkreis – hier die C-GmbH – teils begünstigte und teils schädliche Erwerbe tätigen kann, die **nebeneinander** zu würdigen sind. In der Klausur empfiehlt sich deshalb eine Tabelle mit einer Zeile je Erwerb: Fällt er unter die Konzernklausel, wird die Zeile gestrichen; andernfalls wandert sie in die Kumulation. Wer stattdessen die Gesamtbeteiligung betrachtet, kommt hier auf 87 % und damit zum falschen Ergebnis." },
+      { text: "Anmerkung zur Fristmechanik (eigene Ergänzung): Der Schlussabsatz führt vor, dass jeder Zählerwerb seine **eigene** Fünfjahresfrist hat und diese Fristen gestaffelt auslaufen. Der Erwerb von 20 % aus 2019 strahlt bis 2024 aus und wird danach gelöscht; der Erwerb von 7 % aus 2023 bleibt bis 2028 wirksam. Für einen im Jahr 2024 hinzutretenden Erwerb ist deshalb nur noch mit 7 % zu rechnen. Die praktische Folge ist eine **rollierende** Betrachtung: Wer die Erwerbe eines Erwerberkreises überwacht, muss für jeden einzelnen das Ablaufdatum führen und nicht nur eine Summe. Abschnitt 1.4.6 vertieft diese Mechanik und spricht dort von der möglichen **Überlappung** der Betrachtungszeiträume." },
     ],
   },
 ];

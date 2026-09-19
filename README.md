@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 8 Kapitel mit 171 Abschnitten und 17 Tabellen. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 10 Kapitel mit 202 Abschnitten und 20 Tabellen. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3812,6 +3812,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   einer Tochtergesellschaft: Der von ihr gehaltene Anteil an der Verlustgesellschaft geht im Wege
   eines **Direkterwerbs** auf die Muttergesellschaft über, so dass der Vorgang trotz seines Aussehens
   als reine Verschmelzung einen Anteilserwerb enthält.
+  Die drei Fallgruppen der Konzernklausel lassen sich als drei **Richtungen** im Konzernaufbau merken,
+  und damit ist ihr Anwendungsbereich vollständig abgedeckt: **Nr. 1** ist die Bewegung nach **oben**,
+  dort muss der **Erwerber** zu 100 % an der Veräußerin beteiligt sein; **Nr. 2** die Bewegung nach
+  **unten**, dort spiegelbildlich der **Veräußerer** am Erwerber; **Nr. 3** die Bewegung zur
+  **Seite**, wo weder das eine noch das andere zutrifft und es deshalb einer dritten Ebene oberhalb
+  beider bedarf – der **Zurechnungsebene**, die als Klammer über den beiden handelnden Rechtsträgern
+  liegt. Wer sich die Richtung merkt, findet die zugehörige Beteiligungsvoraussetzung von selbst. In
+  allen drei Fällen gilt dieselbe Asymmetrie, die die Quelle bei Nr. 3 ausdrücklich für alle Nummern
+  bestätigt: **100 % innerhalb** der Konzernbeziehung, **beliebig wenig** an der Verlustgesellschaft –
+  im Beispiel 70 % bzw. 80 %, und die fremden Restgesellschafter schaden nicht, weil sie durch die
+  konzerninterne Verschiebung nichts hinzugewinnen. Dass sogar eine **börsennotierte** AG Erwerberin
+  sein kann, wirkt zunächst wie ein Widerspruch zum Gedanken der fehlenden Fremdpartizipation, löst
+  sich aber auf: Ihre Aktionäre waren schon vorher mittelbar beteiligt, die Übertragung verkürzt nur
+  die Kette – geprüft wird allein das Verhältnis zwischen Erwerber und Veräußerin, nicht die Struktur
+  **oberhalb** des Erwerbers. Aufschlussreich ist schließlich die Gegenprobe zum gescheiterten Fall
+  aus Abschnitt 1.4.4: Dort hielten A und B die Anteile **unmittelbar** und konnten nicht als Einheit
+  gelten; halten dieselben Personen ihre Beteiligung dagegen **über eine KG**, gilt diese als
+  „dieselbe Person“ und die Mitunternehmerebene wird ausgeblendet. Eine **Holding-Personengesellschaft**
+  kann die Konzernklausel also überhaupt erst eröffnen.
+  Die **Rechtsfolge** ist weitreichender, als das Wort „Ausnahme“ vermuten lässt, und wirkt in drei
+  Richtungen: Der begünstigte Erwerb ist selbst unschädlich, zählt nicht als **Zählerwerb** für
+  spätere Erwerbe und beeinflusst – wie die Quelle ausdrücklich sagt – auch **vorangegangene** Erwerbe
+  nicht; hinzu kommt, dass er den Fünfjahreszeitraum gar nicht erst **auslöst**. Er ist damit kein
+  neutraler Posten in der Rechnung, sondern kommt in ihr überhaupt nicht vor – dieselbe Technik wie
+  bei der Sanierungsklausel und der Gegensatz zur aufgehobenen Quotenstufe, deren Erwerbe als
+  Zählerwerbe bestehen bleiben. Im Beispiel hält die C-GmbH nach allen drei Vorgängen zivilrechtlich
+  **87 %** an der Verlustgesellschaft (60 % + 20 % + 7 %), für § 8c KStG zählen davon aber nur
+  **27 %**. Weil § 8c Abs. 1 Satz 4 KStG bei **jedem** Erwerb getrennt zu prüfen ist und jeder
+  Zählerwerb seine **eigene** Fünfjahresfrist hat – die aus 2019 läuft 2024 aus, die aus 2023 erst
+  2028 –, empfiehlt sich in der Klausur eine Tabelle mit einer Zeile je Erwerb samt Ablaufdatum statt
+  einer Gesamtbetrachtung.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

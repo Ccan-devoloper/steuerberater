@@ -10620,6 +10620,39 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 1.4.5.2 bis 1.4.5.5 – die Konzernklausel ist vollständig
+
+Quelle: dieselbe Datei, Seiten 18 bis 20; übernommen als Kapitel 9 und 10. Prüfung:
+`npm run check:k2-kst-teil5` (10 Kapitel, 202 Blöcke, 20 Tabellen).
+
+**Die Zahlen des Beispiels zu den Rechtsfolgen sind nachgerechnet:** 20 % + 7 % = 27 %. Als eigene
+Feststellung festgehalten ist der Vergleich mit der zivilrechtlichen Lage – die C-GmbH hält nach allen
+drei Vorgängen 87 % an der Verlustgesellschaft (60 % + 20 % + 7 %), für § 8c KStG zählen davon aber
+nur 27 %, weil der konzerninterne Erwerb von 60 % vollständig aus der Rechnung verschwindet. Erst ein
+weiterer Erwerb von mehr als 23 Prozentpunkten bis 2024 hätte die Schwelle überschritten.
+
+**Die Systematik der drei Fallgruppen ist als eigene Ergänzung auf drei Richtungen zurückgeführt:**
+Nr. 1 aufwärts mit 100 % des Erwerbers an der Veräußerin, Nr. 2 abwärts mit 100 % des Veräußerers am
+Erwerber, Nr. 3 seitwärts mit der Zurechnungsebene als Klammer. Wer sich die Richtung merkt, findet
+die zugehörige Beteiligungsvoraussetzung von selbst.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die durchgängige Asymmetrie der Quoten (100 %
+innerhalb der Konzernbeziehung, beliebig wenig an der Verlustgesellschaft) samt ihrer Begründung; die
+Auflösung des scheinbaren Widerspruchs bei der börsennotierten Erwerberin, deren Aktionäre schon
+vorher mittelbar beteiligt waren; die Gegenprobe zum gescheiterten Fall aus Abschnitt 1.4.4, aus der
+sich der praktische Hinweis auf die Holding-Personengesellschaft ergibt; die Dreifachwirkung der
+Ausblendung samt dem Vergleich mit der Sanierungsklausel und der aufgehobenen Quotenstufe; die
+Empfehlung einer Tabelle mit einer Zeile je Erwerb statt einer Gesamtbetrachtung; und die rollierende
+Fristmechanik, bei der jeder Zählerwerb sein eigenes Ablaufdatum hat.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „so dass zu einem
+27%igen Anteilserwerb kommt“ (das „es“ fehlt) und das doppelte „nur“ in „weil nur dieser Erwerb aus
+2019 nur weitere 5 Jahre ausstrahlt“.
+
+**Noch offen:** aus Teil V der Fünfjahreszeitraum (1.4.6), die Verschonungsgrenze (1.5), die
+Verlustkürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; ganz offen sind die
+Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 1.4.3.2 bis 1.4.5.2 – Kapitalerhöhung, mittelbarer Erwerb, Konzernklausel
 
 Quelle: dieselbe Datei, Seiten 15 bis 17; übernommen als Kapitel 7 und 8. Prüfung:
