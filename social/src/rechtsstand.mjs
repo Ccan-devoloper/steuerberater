@@ -120,6 +120,40 @@ function korrigiereAStG9(thema) {
   });
 }
 
+
+function korrigiereAnschaffungsnah(thema) {
+  normErgaenzen(
+    thema,
+    "§ 6 Abs. 1 Nr. 1a EStG",
+    "§ 255 Abs. 2 HGB",
+    "BMF 26.01.2026 – IV C 1 - S 2253/00082/001/064"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 6 Abs. 1 Nr. 1a EStG fingiert Instandsetzungs- und Modernisierungsaufwendungen innerhalb von drei Jahren nach Anschaffung als Herstellungskosten, wenn sie ohne Umsatzsteuer 15 % der Anschaffungskosten des Gebäudes übersteigen.",
+      "Erweiterungen nach § 255 Abs. 2 S. 1 HGB werden nicht in die 15-%-Grenze einbezogen, weil sie bereits nach den allgemeinen Grundsätzen Herstellungskosten sind. Jährlich üblicherweise anfallende Erhaltungsarbeiten werden ebenfalls nicht in die 15-%-Grenze einbezogen, bleiben aber bei isolierter Betrachtung typischerweise Erhaltungsaufwand.",
+      "Ein Unterschreiten der 15-%-Grenze bedeutet deshalb nicht automatisch Sofortabzug: Anschaffungs- oder Herstellungskosten nach den allgemeinen Grundsätzen, insbesondere Erweiterungen oder eine wesentliche Verbesserung, sind unabhängig von § 6 Abs. 1 Nr. 1a zu aktivieren.",
+    ],
+    lernziele: [
+      "Dreijahreszeitraum und 15-%-Grenze netto auf die Gebäude-Anschaffungskosten beziehen",
+      "Erweiterungen aus der 15-%-Berechnung herausnehmen, aber als originäre Herstellungskosten aktivieren",
+      "jährlich übliche Erhaltungsarbeiten aus der 15-%-Berechnung herausnehmen",
+      "bei Unterschreiten der 15-%-Grenze allgemeine AK/HK-Kriterien weiterhin prüfen",
+      "Überschreiten der Grenze als rückwirkendes Ereignis für bereits veranlagte Vorjahre beachten",
+    ],
+    pruefschritte: [
+      "Anschaffungszeitpunkt und Dreijahreszeitraum bestimmen.",
+      "Gebäude-Anschaffungskosten als Bezugsgröße und 15-%-Grenze ohne Umsatzsteuer berechnen.",
+      "Erweiterungen sowie jährlich übliche Erhaltungsarbeiten aus der §-6-Abs.-1-Nr.-1a-Prüfmasse herausnehmen.",
+      "Die verbleibenden Instandsetzungs- und Modernisierungsaufwendungen kumuliert mit der 15-%-Grenze vergleichen.",
+      "Bei Überschreiten die von § 6 Abs. 1 Nr. 1a erfassten Aufwendungen als anschaffungsnahe Herstellungskosten aktivieren.",
+      "Bei Nichtüberschreiten trotzdem prüfen, ob einzelne Maßnahmen nach allgemeinen Grundsätzen Anschaffungs- oder Herstellungskosten sind; insbesondere Erweiterungen bleiben zu aktivieren.",
+    ],
+    merksatz: "15 % ist keine allgemeine Aktivierungsgrenze: Erweiterungen zählen nicht in die Quote, sind aber ohnehin Herstellungskosten. Unter 15 % heißt nur: keine Fiktion des § 6 Abs. 1 Nr. 1a – die allgemeinen AK/HK-Regeln bleiben.",
+  };
+}
+
 function korrigiereSechsBReihenfolge(thema) {
   thema.titel = "Übertragung stiller Reserven nach § 6b EStG";
   thema.kern = {
@@ -1360,6 +1394,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
       case "erbst-modul-erbst-515": korrigiereErbStSchuldenabzug(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
+      case "bilanz-formel-anschaffungsnah": korrigiereAnschaffungsnah(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
       case "bilanz-formel-pwb": korrigierePwb(thema); break;
