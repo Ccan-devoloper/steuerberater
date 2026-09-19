@@ -2734,7 +2734,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil III (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil III (§§ 27, 28 KStG)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil III: Steuerliches Einlagekonto (§ 27 KStG);
   Grundzüge der Kapitalherauf- und -herabsetzung (§ 28 KStG)“** (21. Auflage, Stand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 19 Kapitel mit 292 Abschnitten und 30 Tabellen. Anders als die
+  Wortlaut – **vollständig**, 21 Kapitel mit 339 Abschnitten und 32 Tabellen. Anders als die
   Teile I und II trägt dieses Skript den Stand **Mai 2025** und rechnet seine Beispiele im VZ 2025.
   Das steuerliche Einlagekonto beantwortet eine einzige Frage: Was von dem, was die Gesellschaft
   auskehrt, hat der Gesellschafter ihr vorher selbst gegeben? Der entscheidende Satz steht gleich am
@@ -2877,6 +2877,29 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   das **keine** Steuerbescheinigung nach § 27 Abs. 3 KStG erteilt – weshalb die strenge
   Verwendungsfestschreibung mangels Anknüpfungspunkt ins Leere läuft und der Anteilseigner sich an
   der Bescheinigung über den Kapitalertragsteuerabzug nach § 45a EStG orientieren muss.
+  Beim **Erwerb und der Veräußerung eigener Anteile** wird derselbe Vorgang auf beiden Ebenen nach
+  völlig verschiedenen Regeln beurteilt, ohne dass das ein Systembruch wäre. Bei der Gesellschaft
+  fehlt es an einem Erwerb, weil handelsrechtlich der Nennbetrag offen vom gezeichneten Kapital
+  abzuziehen ist und gar kein Aktivum entsteht – der Vorgang ist eine Kapitalherabsetzung nach § 28
+  Abs. 2 KStG. Beim Anteilseigner dagegen wird der Anteil gegen Entgelt übertragen; das ist eine
+  Veräußerung wie jede andere. Die Zahlen beider Ebenen lassen sich deshalb **nicht** ineinander
+  überführen: Die 190.000 € „technische Leistung“ der Gesellschaft tauchen beim Gesellschafter
+  nirgends auf, der schlicht 200.000 € gegen seine Anschaffungskosten rechnet. Der Teil des
+  Kaufpreises bis zum Nennbetrag löst Zugang und sofortigen Abgang beim Einlagekonto aus und lässt es
+  im Saldo unverändert – ein bestehender Sonderausweis bleibt hier ausnahmsweise unberührt, anders
+  als bei der gewöhnlichen Kapitalherabsetzung. Der angemessene Überhang gilt als **technische
+  Leistung** ohne Kapitalertragsteuer, weil ihm auf der Gesellschafterebene nichts entspricht; nur
+  der **überhöhte** Teil ist verdeckte Gewinnausschüttung mit Steuerabzug, und für ihn greift
+  regelmäßig die passive Verwendungsfestschreibung des § 27 Abs. 5 KStG. Die spätere
+  Weiterveräußerung wickelt den Vorgang **spiegelbildlich** zurück – der Nennbetrag kehrt ins
+  Nennkapital zurück, der Überhang gilt wie ein Aufgeld –, weshalb § 8b Abs. 2 KStG gerade nicht
+  anwendbar ist: Wer für 200.000 € kauft und für 300.000 € verkauft, erzielt keinen steuerpflichtigen
+  Gewinn, sondern erhöht sein Einlagekonto. Liegt der Preis gesellschaftsrechtlich veranlasst zu
+  niedrig, unterbleibt bei der Gesellschaft sogar die Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG, weil
+  es an einem gewinnrealisierenden Vorgang fehlt; die verdeckte Gewinnausschüttung sichert allein die
+  Folgen beim Anteilseigner ab, der nach der **Fiktionstheorie** in gleicher Höhe zusätzliche
+  Anschaffungskosten erhält und damit auf genau den angemessenen Wert kommt. **Damit ist das Skript
+  vollständig übernommen – alle drei Kapitel über 39 Seiten.**
   Prüfung: `npm run check:k2-kst-teil3`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

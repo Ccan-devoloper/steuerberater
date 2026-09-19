@@ -10620,6 +10620,71 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil III (Hamacher), Abschnitt 3.4 – Teil III ist vollständig
+
+Quelle: dieselbe Datei, Seiten 33 bis 39 (Schluss des Dokuments); übernommen als Kapitel 20 und 21.
+Prüfung: `npm run check:k2-kst-teil3` (21 Kapitel, 339 Blöcke, 32 Tabellen). **Damit ist das
+Lehrgangsskript „Körperschaftsteuer, Teil III: Steuerliches Einlagekonto (§ 27 KStG); Grundzüge der
+Kapitalherauf- und -herabsetzung (§ 28 KStG)“ vollständig übernommen – alle drei Kapitel über
+39 Seiten.**
+
+**Die gespaltene Behandlung** ist der Kern des Abschnitts und im Datensatz eigens eingeordnet: Es ist
+einer der wenigen Fälle, in denen **derselbe Vorgang** auf beiden Ebenen nach völlig verschiedenen
+Regeln beurteilt wird, ohne dass das ein Systembruch wäre. Bei der Gesellschaft fehlt es an einem
+Erwerb, weil handelsrechtlich der Nennbetrag offen vom gezeichneten Kapital abzuziehen ist und gar
+kein Aktivum entsteht; beim Anteilseigner wird der Anteil gegen Entgelt übertragen, was eine
+Veräußerung wie jede andere ist. Für die Klausur folgt daraus die wichtigste Konsequenz, die der
+Datensatz ausspricht: Die Zahlen der beiden Ebenen lassen sich **nicht** ineinander überführen – die
+190.000 € „technische Leistung“ tauchen beim Gesellschafter nirgends auf.
+
+**Eine Ausnahme von der Grundregel des Abschnitts 3.2** ist tabellarisch hervorgehoben: Beim Erwerb
+eigener Anteile bleibt ein bestehender Sonderausweis ausdrücklich **unberührt**, weil Zugang und
+Abgang nach § 28 Abs. 2 Sätze 1 und 3 KStG unmittelbar aufeinanderfolgen – anders als bei der
+gewöhnlichen Kapitalherabsetzung, wo er vorrangig zu mindern ist. Umgekehrt gilt die Verrechnung
+sehr wohl, wenn der Kaufpreis **unter** dem Nennbetrag liegt; dort fließt dem Anteilseigner insoweit
+nichts zu, und der Vorgang entspricht der vereinfachten Kapitalherabsetzung.
+
+**Der Begriff der „technischen Leistung“** ist erläutert: Sie wird nur gebildet, um den zutreffenden
+Bestand des Einlagekontos zu ermitteln, und unterbleibt beim Kapitalertragsteuerabzug, weil ihr auf
+der Gesellschafterebene nichts entspricht. Anders beim **überhöhten** Teil des Kaufpreises – dort
+gibt es auf beiden Ebenen einen Vorgang. Der Hinweis der Quelle, dass dafür „in aller Regel die
+Verwendungsfestschreibung greifen dürfte“, ist im Datensatz als der Fall der **passiven
+Falschbescheinigung** aus Abschnitt 1.4.1 identifiziert: Für eine erst später als überhöht erkannte
+Zahlung wird niemand rechtzeitig bescheinigt haben.
+
+**Die Spiegelbildlichkeit** von Erwerb und Veräußerung ist mit einer eigenen Gegenrechnung
+unterlegt, die die Quelle nicht anstellt: Kauft die Gesellschaft für 200.000 € und verkauft sie
+später für 300.000 €, hat sie keinen steuerpflichtigen Gewinn von 100.000 € erzielt – § 8b Abs. 2
+KStG ist ausdrücklich nicht anwendbar –, sondern ihr Einlagekonto ist per Saldo um den
+Unterschiedsbetrag gestiegen. Genau das macht die Behandlung als Kapitalmaßnahme folgerichtig.
+
+**Der Ausschluss des § 8 Abs. 3 Satz 2 KStG** ist die anspruchsvollste Stelle des Kapitels und eigens
+erklärt: Die Hinzurechnung unterbleibt, weil es an einem gewinnrealisierenden Vorgang fehlt – die
+Veräußerung eigener Anteile berührt das Einkommen von vornherein nicht, es ist also nichts zu
+korrigieren. Die Annahme einer verdeckten Gewinnausschüttung dient allein dazu, die Folgen **beim
+Anteilseigner** abzusichern. Die **Fiktionstheorie** erklärt dabei, warum der begünstigte Erwerber
+auf Anschaffungskosten von genau 100.000 € kommt: Fingiert wird eine Ausschüttung von 90.000 €, die
+er sogleich als Kaufpreis zurückzahlt – bei einer Weiterveräußerung zu 100.000 € entsteht damit kein
+Gewinn, was die Doppelbesteuerung des Vorteils vermeidet.
+
+**Alle Zahlen sind nachgerechnet und gehen auf:** 200.000 € ./. 10.000 € = 190.000 € Überhang, vom
+ausschüttbaren Gewinn von 800.000 € gedeckt; 250.000 € ./. 50.000 € überhöhter Anteil =
+200.000 € angemessener Kaufpreis; beim Anteilseigner 200.000 € ./. 90.000 € = 110.000 €
+Veräußerungsgewinn mit 66.000 € steuerpflichtig; 300.000 € ./. 10.000 € = 290.000 € Aufgeld;
+10.000 € ./. 9.000 € = 1.000 € interne Kapitalerhöhung, die den Bestand genau aufzehrt; 100.000 €
+./. 10.000 € = 90.000 € verdeckte Gewinnausschüttung und damit Anschaffungskosten von 100.000 €.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „und stellt demnach **ein** Tatbestand der externen Kapitalerhöhung dar“.
+- „**Dies dann führt** ausschließlich beim Anteilseigner zur Entstehung einer herkömmlichen
+  Leistung …“.
+- „… vom positiven Bestand des steuerlichen Einlagekontos abgezogen, **welches danach 0 €.**“ – der
+  Satz bricht in der Quelle ab; gemeint ist „welches danach 0 € beträgt“.
+
+**Noch offen:** die Skriptteile IV (verdeckte Gewinnausschüttung), V (Verluste und Zinsschranke),
+VI (Organschaft) und VII (Liquidation) der Körperschaftsteuer-Reihe.
+
 ### KSt Teil III (Hamacher), Abschnitte 3.1 bis 3.3 – Kapitalherabsetzung
 
 Quelle: dieselbe Datei, Seiten 29 bis 33; übernommen als Kapitel 18 und 19. Prüfung:
