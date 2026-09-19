@@ -10620,6 +10620,41 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitt 4.1 – Verluste aus stillen Beteiligungen
+
+Quelle: dieselbe Datei, Seiten 69 bis 71; übernommen als Kapitel 43 und 44. Prüfung:
+`npm run check:k2-kst-teil5` (44 Kapitel, 887 Blöcke, 105 Tabellen).
+
+**Beide Beispiele sind unabhängig nachgerechnet und gehen auf.** Erstes Beispiel: 2024 ./. 400.000 €
++ 500.000 € ./. 500.000 € = ./. 400.000 €; 2025 700.000 € ./. 400.000 € = 300.000 €; besonderer
+Verlust 800.000 € ./. 500.000 € = 300.000 €. Zweites Beispiel: Mindestbesteuerung im besonderen Kreis
+1.000.000 € + 70 % × 600.000 € = 1.420.000 €, steuerpflichtiger Gewinnanteil und restlicher
+besonderer Verlust je 180.000 €, Einkommen 180.000 € ./. 300.000 € = ./. 120.000 €.
+
+**Vier sprachliche Eigenheiten sind übernommen und markiert:** „stellt geradezu klar“, „sind diese
+… gesondert festgestellt“ statt „festzustellen“, das doppelte „kann“ in „vorgenommen werden
+kann“ und die doppelte Minusschreibweise „-– 120.000 €“.
+
+**Als eigene Ergänzungen eingeordnet** sind: der historische Hintergrund der Norm als Absicherung der
+abgeschafften Mehrmütterorganschaft; die Begründung der Ausnahme für natürliche Personen und der
+Hinweis, dass die mittelbare Beteiligung die Umgehung über eine KG verschließt; die Bedeutung der
+Erstreckung auf die typisch stille Gesellschaft, die die sonst zentrale Abgrenzung hier entbehrlich
+macht; die Zusammenfassung des dreifach belastenden Zusammenspiels mit §§ 8c und 8d KStG; die
+Darstellung der ungewöhnlichen Aufteilung der Zuständigkeiten zwischen beiden Finanzämtern samt der
+Folge zweier Verlustkonten; die Bezifferung der Härte der Mindestbesteuerung im zweiten Beispiel, in
+dem eine wirtschaftlich verlustbringende Gesellschaft 180.000 € versteuern muss; die
+Gegenüberstellung mit § 8d KStG, wo nur ein Verrechnungskreis besteht, hier aber zwei mit je eigenem
+Grundabzug; die zwingende Reihenfolge der beiden Verrechnungsschritte; und die Einordnung der im
+Sachverhalt genannten, in der Lösung unerwähnten Haftsumme als Ausschluss einer vorrangigen Prüfung
+des § 15a EStG.
+
+**Neu sind vier Übersichten:** je eine zu den Veranlagungszeiträumen 2024 und 2025 des ersten
+Beispiels, eine zur Mindestbesteuerung im besonderen Kreis und eine zum Nebeneinander beider
+Verlustfeststellungen.
+
+**Noch offen:** aus Teil V die restlichen Abschnitte der Kapitel 3 und 4; ganz offen sind die
+Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 3.7.3 und 3.7.4 – Konzernregelung und Zinsvortrag in Ausnahmejahren
 
 Quelle: dieselbe Datei, Seiten 65 bis 68; übernommen als Kapitel 41 und 42. Prüfung:

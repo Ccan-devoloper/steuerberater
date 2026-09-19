@@ -51,8 +51,10 @@
    die Freigrenze (3.7.1), die Stand-alone-Betrachtung (3.7.2), die
    Konzernregelung mit Konzernbegriff, Escape-Klausel und Zehn-Prozent-Check
    (3.7.3) sowie die Auswirkungen der Ausnahmen auf den Zinsvortrag (3.7.4); es
-   folgen die restlichen Abschnitte des Kapitels 3 und das Kapitel 4. Der Campus
-   weist den Stand aus.
+   folgen die restlichen Abschnitte des Kapitels 3. Aus Kapitel 4 (Verluste aus
+   stillen Beteiligungen) sind der Ausschluss der Verlustverrechnung (4.1.1) und
+   die Verlustberücksichtigung mit beiden Beispielen und den getrennten
+   Verrechnungskreisen (4.1.2) übernommen. Der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -2412,6 +2414,113 @@ export const kstTeil5 = [
       { text: "Anmerkung zum Gedanken des § 4h Abs. 1 Satz 7 EStG (eigene Ergänzung): Die Neuregelung schließt eine Lücke, die sich aus der Kombination von Zinsvortrag und Ausnahmetatbeständen ergab, und die Quelle benennt sie treffend: Der Zinsvortrag hätte sich sonst „wie ein Verlustvortrag“ ausgewirkt. Ein Betrieb hätte in einem Jahr mit hohem Zinsaufwand einen Vortrag aufgebaut und ihn im Folgejahr, in dem er unter die Freigrenze rutscht, **vollständig** abgezogen – die Zinsschranke wäre damit zu einer bloßen zeitlichen Verschiebung geworden. Die Vorschrift dreht das um: Für den **Vortragsteil** gilt die Schranke **immer**, auch wenn der Betrieb im Übrigen befreit ist. Das Ergebnis ist eine gespaltene Prüfung innerhalb desselben Jahres." },
       { text: "Anmerkung zur gespaltenen Prüfung (eigene Ergänzung): Das Beispiel zeigt die Folge in Reinform und verdient genaue Betrachtung. Der **laufende** Nettozinsaufwand von 900.000 € bleibt vollständig abziehbar, weil die Freigrenze nicht überschritten ist. Der **Zinsvortrag** von 2.000.000 € dagegen unterliegt der Schranke und darf nur bis zur Höhe des verrechenbaren EBITDA von 900.000 € genutzt werden. In einem einzigen Veranlagungszeitraum gelten damit **zwei verschiedene Regime** für zwei Teile desselben Zinsaufwands. Bemerkenswert ist die Größenordnung: Der genutzte Vortrag von 900.000 € entspricht zufällig genau dem laufenden Aufwand, weil beide an dasselbe verrechenbare EBITDA gebunden sind." },
       { text: "Anmerkung zum EBITDA-Vortrag in der Abwandlung (eigene Ergänzung): Die Abwandlung enthält eine Feinheit, die der allgemeinen Regel des Abschnitts 3.7 zu widersprechen scheint. Dort heißt es, bei Eingreifen einer Ausnahme entstehe **kein** EBITDA-Vortrag – hier entsteht einer. Die Quelle löst das ausdrücklich auf: § 4h Abs. 1 Satz 3 EStG steht nicht entgegen, weil die Zinsschranke **bezogen auf den Zinsvortrag** gerade nicht ausgeschlossen ist. Wer einen Zinsvortrag hat, sammelt also auch in Jahren unterhalb der Freigrenze weiter EBITDA-Potential an – ein für den Steuerpflichtigen günstiger Nebeneffekt der ansonsten belastenden Neuregelung." },
+    ],
+  },
+  {
+    id: "kst-t5-43",
+    kapitel: "43",
+    abschnittNr: "4.1.1",
+    title: "4. Verluste aus stillen Beteiligungen (§ 15 Abs. 4 Sätze 6 bis 8 EStG) – Ausschluss der Verlustverrechnung",
+    thema: "Verluste einer Kapitalgesellschaft aus einer atypisch stillen Beteiligung an einer anderen Kapitalgesellschaft sind nicht ausgleichsfähig, sondern nur mit Gewinnen aus derselben Beteiligung verrechenbar",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 4 bis 4.1.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 15 Abs. 4 Satz 6 EStG",
+      "§ 15 Abs. 4 Satz 7 EStG",
+      "§ 15 Abs. 4 Satz 8 EStG",
+      "§ 15a EStG",
+      "§ 20 Abs. 1 Nr. 4 Satz 2 EStG",
+      "§ 10d EStG",
+      "§ 10d Abs. 1 EStG",
+      "§ 10d Abs. 4 EStG",
+      "§ 180 Abs. 1 Nr. 2a AO",
+      "§§ 14 bis 17 KStG",
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 8d Abs. 1 Satz 2 Nr. 2 KStG",
+      "R 7.1 Zeile 7 KStR",
+      "BFH vom 27.03.2012, BStBl. II 2012, 745",
+      "BFH XI R 20/23 (anhängig)",
+    ],
+    themen: ["atypisch stille Gesellschaft", "GmbH & Still", "Mehrmütterorganschaft", "Innengesellschaft", "Verlustverrechnungskreis", "gesonderte Feststellung", "§ 8c KStG"],
+    bloecke: [
+      { typ: "titel", text: "4. Verluste aus stillen Beteiligungen (§ 15 Abs. 4 S. 6 – 8 EStG)" },
+      { typ: "titel", text: "4.1 Ausschluss der Verlustverrechnung" },
+      { typ: "titel", text: "4.1.1 Auswirkungen im Verlustentstehungsjahr" },
+      { text: "§ 15 Abs. 4 Satz 6 – 8 EStG soll dazu dienen, die ab VZ 2004 vollzogene Abschaffung der sog. Mehrmütterorganschaft abzusichern. Die Regelung soll nämlich verhindern, dass eine Kapitalgesellschaft nur durch den Abschluss einer stillen Gesellschaft mit einer anderen Kapitalgesellschaft (sog. GmbH & Still) in den unerwünschten Nebeneffekt der Verlustverrechnung kommen und damit außerhalb einer Organschaft i.S. der §§ 14 – 17 KStG an den Verlusten der anderen Kapitalgesellschaft partizipieren kann. Denn nach § 15 Abs. 4 Satz 6 EStG können die steuerlichen Verluste, die eine Kapitalgesellschaft (1) als Mitunternehmerin aus einer atypisch stillen Gesellschaft, Unterbeteiligung oder sonstigen Innengesellschaft (2) an einer anderen Kapitalgesellschaft (3) erzielt, im Rahmen ihrer Einkommensermittlung nicht mehr mit ihrem übrigen Einkommen ausgeglichen werden können. Sie sind daher außerbilanziell wieder hinzuzurechnen. (Die Fußnote verweist auf R 7.1 Zeile 7 KStR und auf das beim BFH anhängige Verfahren XI R 20/23 zur Frage der Verfassungsmäßigkeit.)" },
+      { text: "§ 15 Abs. 4 Satz 6 und Satz 7 EStG kommen aber nur dann zur Anwendung, wenn der atypisch stille Gesellschafter eine mittelbar (über andere Personengesellschaften) oder unmittelbar beteiligte Kapitalgesellschaft ist. Denn § 15 Abs. 4 Satz 8 EStG stellt geradezu klar, dass natürliche Personen als atypisch stille Gesellschafter nicht davon betroffen sind, deren Verluste steuerlich grundsätzlich (Ausnahme: § 15a EStG) abziehbar bleiben. (Das Wort „geradezu“ steht so in der Quelle.)" },
+      { text: "Diese Einschränkungen gelten auch in Fällen einer typisch stillen Gesellschaft an einer Kapitalgesellschaft. Denn § 20 Abs. 1 Nr. 4 Satz 2 EStG verweist auf dessen analoge Anwendung." },
+      { typ: "titel", text: "4.1.2 Verlustberücksichtigung" },
+      { text: "Diese Verluste werden dadurch letztlich separiert, weil sie nach § 15 Abs. 4 Satz 7 EStG nur noch eingeschränkt und nur nach Maßgabe des § 10d EStG mit im Vorjahr oder in den nachfolgenden Wirtschaftsjahren erzielten Gewinnen aus dieser Beteiligung verrechnet werden können. Der Verlust wird dadurch nur noch eingeschränkt verrechenbar. Dadurch wird zugleich sichergestellt, dass bei dauerhaft verlustträchtigen stillen Beteiligungen oder sonstigen Innengesellschaften eine Nutzung der Verluste dauerhaft ausgeschlossen bleibt." },
+      { text: "Die gesonderte und einheitliche Feststellung (§ 180 Abs. 1 Nr. 2a AO) der „GmbH & atypisch Still“ wird noch ohne Anwendung der Einschränkungen des § 15 Abs. 4 Satz 6 EStG durchgeführt, weil sich dessen Auswirkungen erst auf der Ebene der Einkommensermittlung der Mitunternehmer-Kapitalgesellschaft ergeben. Die unter § 15 Abs. 4 Satz 6 EStG fallenden Beträge sind daher dem für die Besteuerung dieser Gesellschaft zuständigen Finanzamt nachrichtlich mitzuteilen." },
+      { text: "Weil es sich bei diesen Verlusten um „besondere“ Verluste handelt, die nur eingeschränkt berücksichtigt werden können, sind diese bei der atypisch still beteiligten Kapitalgesellschaft zum Ende des jeweiligen Wirtschaftsjahres nach den Grundsätzen des § 10d Abs. 4 EStG gesondert festgestellt. Zuständig für diese Verlustfeststellung ist das Finanzamt der Mitunternehmer-Kapitalgesellschaft. Neben der allgemeinen Verlustfeststellung (der laufenden Verluste), wird bei dieser eine weitere Verlustfeststellung vorgenommen. (Die Form „sind diese … gesondert festgestellt“ steht so in der Quelle.)" },
+      { text: "Diese Verluste gehören für Zwecke des § 8c KStG ebenfalls zu den ungenutzten Verlusten und können bei einem schädlichen Erwerb i.S. des § 8c Abs. 1 Satz 1 KStG grundsätzlich untergehen. Für Zwecke der Verschonungsregelung des § 8c Abs. 1 Satz 5 KStG können nur die stillen Reserven diesen besonderen Verlust i.S. des § 15 Abs. 4 EStG verschonen, welche auf die atypisch stille Gesellschaft entfallen, d.h. die stillen Reserven der Kapitalgesellschaft (Handelsgewerbe) sind hierfür unerheblich. Die Anwendung des § 8d KStG ist aufgrund der schädlichen Beteiligung an einer Mitunternehmerschaft nach § 8d Abs. 1 Satz 2 Nr. 2 KStG bereits ausgeschlossen." },
+      { text: "Beispiel: Die A-GmbH ist an der B-GmbH atypisch still beteiligt. Aus dieser Beteiligung erzielt die A-GmbH im Jahr 2024 einen steuerlichen Gewinn von 500.000 € und im Jahr 2025 einen steuerlichen Verlust von 800.000 €. Das Einkommen der A-GmbH beträgt ohne Berücksichtigung der Ergebnisanteile aus der stillen Beteiligung für 2024 – 400.000 € und für 2025 700.000 €." },
+      { text: "Lösung: Der Verlustanteil 2025 kann von der A-GmbH nach § 8 Abs. 1 Satz 1 KStG i.V. mit § 15 Abs. 4 Satz 6 EStG bei der Einkommensermittlung 2025 nicht berücksichtigt werden und muss außerbilanziell wieder hinzugerechnet werden. Dieser Verlust kann aber im VZ 2024 mit dem Gewinn verrechnet werden, der aus dieser atypisch stillen Beteiligung entstanden ist. Dafür gelten die Grundsätze des § 10d Abs. 1 EStG entsprechend, dessen Grenze nicht überschritten ist. Der Restbetrag des Verlustes von 300.000 € steht nur für einen Verlustvortrag zur Verfügung. Dies aber eingeschränkt wiederum nur für die Gewinne aus dieser atypisch stillen Beteiligung. Im Einzelnen ergeben sich folgende Werte:" },
+      { typ: "tabelle", spalten: ["VZ 2024", "Betrag"], zeilen: [
+        ["Verlust Eigengeschäft", "./. 400.000 €"],
+        ["Gewinnanteil stille Bet. B-GmbH", "+ 500.000 €"],
+        ["Verlustrücktrag stille Bet. B-GmbH", "./. 500.000 €"],
+        ["zu versteuerndes Einkommen", "./. 400.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["VZ 2025", "Betrag"], zeilen: [
+        ["Gewinn Eigengeschäft", "700.000 €"],
+        ["Verlustanteil stille Bet. B-GmbH (§ 15 Abs. 4 Satz 6 und 7 EStG)", "0 €"],
+        ["Verlustvortrag", "./. 400.000 €"],
+        ["zu versteuerndes Einkommen", "300.000 €"],
+      ] },
+      { text: "Der nicht ausgeglichene Verlust aus der stillen Gesellschaft von 300.000 € (800.000 € - 500.000 €) kann nur mit zukünftigen Gewinnen aus der stillen Beteiligung verrechnet werden und ist zum 31.12.2025 nach den Grundsätzen des § 10d Abs. 4 EStG gesondert festzustellen." },
+      { text: "Der nach § 15 Abs. 4 Satz 7 EStG zulässige Verlustvortrag kann danach nur nach Maßgabe des § 10d Abs. 2 EStG vorgenommen werden kann. (Das doppelte „kann“ steht so in der Quelle.)" },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. 2024: ./. 400.000 € + 500.000 € ./. 500.000 € = ./. 400.000 €; der Rücktrag verbraucht den Gewinnanteil vollständig, so dass das Eigenergebnis unverändert bleibt. 2025: 700.000 € + 0 € ./. 400.000 € = 300.000 €; der Verlustvortrag von 400.000 € stammt aus dem negativen Einkommen 2024 und ist wegen des Grundabzugs von 1.000.000 € voll abziehbar. Der besondere Verlust beträgt 800.000 € ./. 500.000 € = 300.000 €." },
+      { text: "Anmerkung zum Zweck der Vorschrift (eigene Ergänzung): Der historische Hintergrund erklärt die Härte der Norm. Bis 2003 ließ die **Mehrmütterorganschaft** es zu, dass mehrere Muttergesellschaften gemeinsam an den Verlusten einer Tochter teilhatten; nach ihrer Abschaffung bot sich die **GmbH & atypisch Still** als Ersatz an, weil der stille Gesellschafter als Mitunternehmer am Verlust beteiligt ist, ohne dass es eines Gewinnabführungsvertrags oder einer finanziellen Eingliederung bedürfte. § 15 Abs. 4 Sätze 6 bis 8 EStG verschließt diesen Weg. Die Norm ist also keine Missbrauchsvorschrift im engeren Sinne, sondern eine **Absicherung** der Organschaftsvoraussetzungen: Wer Verluste einer anderen Kapitalgesellschaft nutzen will, soll den Weg über die §§ 14 ff. KStG gehen." },
+      { text: "Anmerkung zur Beschränkung auf Kapitalgesellschaften (eigene Ergänzung): Die Ausnahme des § 15 Abs. 4 Satz 8 EStG für **natürliche Personen** ist konsequent und zugleich der Schlüssel zur Gestaltung. Bei einer natürlichen Person als stillem Gesellschafter besteht die Gefahr einer Umgehung der Organschaftsregeln nicht, weil sie ohnehin nicht Organträgerin einer Kapitalgesellschaft nach diesen Regeln sein könnte. Ihre Verluste bleiben deshalb abziehbar – begrenzt allein durch § 15a EStG, dessen Haftungsbetrachtung bei der stillen Beteiligung ohnehin regelmäßig greift. Die **mittelbare** Beteiligung über Personengesellschaften ist dagegen ausdrücklich erfasst, so dass sich die Norm nicht durch Zwischenschaltung einer KG umgehen lässt." },
+      { text: "Anmerkung zur Erstreckung auf die typisch stille Gesellschaft (eigene Ergänzung): Der kurze Hinweis auf § 20 Abs. 1 Nr. 4 Satz 2 EStG schließt eine Lücke, die sonst offen bliebe. Der **typisch** stille Gesellschafter ist kein Mitunternehmer und erzielt Einkünfte aus Kapitalvermögen – § 15 Abs. 4 EStG wäre auf ihn nach seinem Wortlaut nicht anwendbar. Die Verweisung ordnet die entsprechende Anwendung an, so dass beide Formen der stillen Beteiligung gleich behandelt werden. Der BFH hat das mit Urteil vom 27.03.2012 bestätigt. Für die Klausur bedeutet das, dass die Abgrenzung zwischen typisch und atypisch still an dieser Stelle ausnahmsweise **nicht** entscheidend ist." },
+      { text: "Anmerkung zum Zusammenspiel mit §§ 8c und 8d KStG (eigene Ergänzung): Der Abschnitt enthält drei Aussagen, die die bereits behandelten Kapitel fortschreiben, und alle drei wirken zulasten des Steuerpflichtigen. Erstens gehören die besonderen Verluste zu den **ungenutzten Verlusten** des § 8c KStG und gehen bei einem schädlichen Erwerb unter. Zweitens ist die Verschonung stark eingeschränkt: Nur die stillen Reserven verschonen, die auf die **atypisch stille Gesellschaft** entfallen – die Reserven der Kapitalgesellschaft selbst helfen nicht, was in der Praxis meist bedeutet, dass gar keine Verschonung eintritt. Drittens ist **§ 8d KStG von vornherein ausgeschlossen**, weil das Halten des Mitunternehmeranteils nach § 8d Abs. 1 Satz 2 Nr. 2 KStG schädlich ist. Die GmbH & atypisch Still verliert ihre besonderen Verluste bei einem Anteilserwerb also nahezu ungeschützt." },
+      { text: "Anmerkung zum Verfahren der Feststellung (eigene Ergänzung): Die Aufteilung der Zuständigkeiten ist ungewöhnlich und lohnt die Betrachtung. Die **einheitliche und gesonderte Feststellung** der GmbH & atypisch Still nach § 180 Abs. 1 Nr. 2a AO ermittelt den Verlustanteil **ohne** die Einschränkung des § 15 Abs. 4 Satz 6 EStG, weil diese erst auf der Ebene des Gesellschafters wirkt; das dortige Finanzamt teilt den Betrag lediglich **nachrichtlich** mit. Die eigentliche Feststellung des besonderen Verlustes erfolgt dann beim Finanzamt der **Mitunternehmer-Kapitalgesellschaft**, und zwar **neben** der allgemeinen Verlustfeststellung. Eine Gesellschaft mit atypisch stiller Beteiligung führt damit zwei getrennte Verlustkonten." },
+    ],
+  },
+  {
+    id: "kst-t5-44",
+    kapitel: "44",
+    abschnittNr: "4.1.2 (Fortsetzung)",
+    title: "4.1.2 Verlustberücksichtigung – Mindestbesteuerung im besonderen Verrechnungskreis",
+    thema: "Der besondere Verlustvortrag ist nur nach Maßgabe des § 10d Abs. 2 EStG und nur gegen Gewinne aus derselben Beteiligung abziehbar; bei zwei Verlustarten sind getrennte Verrechnungskreise zu bilden",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 4.1.2, zweites Beispiel und Verrechnungskreise · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 15 Abs. 4 Sätze 6 bis 8 EStG",
+      "§ 15 Abs. 4 Satz 7 EStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 10d Abs. 4 EStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "BMF vom 29.11.2004, BStBl. I 2004, 1097",
+    ],
+    themen: ["Mindestbesteuerung", "besonderer Verlustvortrag", "getrennte Verrechnungskreise", "Haftsumme", "doppelte Verlustfeststellung"],
+    bloecke: [
+      { text: "Beispiel: Die Z-GmbH ist an der T-GmbH atypisch still beteiligt (Haftsumme: 2.000.000 €). Im VZ 2024 erzielt sie aus dieser Beteiligung einen steuerlichen Verlust von 1.600.000 €. Aus ihrer eigenen Tätigkeit erzielt sie ein ausgeglichenes steuerliches Ergebnis. In 2025 beträgt der steuerliche Gewinn aus der atypisch stillen Beteiligung 1.600.000 € und der steuerliche Verlust aus der eigenen Tätigkeit 300.000 €." },
+      { text: "Lösung – VZ 2024: Der Verlust aus der atypisch stillen Beteiligung ist nach § 8 Abs. 1 Satz 1 KStG i.V. mit § 15 Abs. 4 Sätze 6 – 8 EStG nicht ausgleichsfähig, sondern nur mit zukünftigen Gewinnanteilen aus derselben Beteiligung verrechenbar. Daher beträgt das Einkommen der Z-GmbH 0 €. Der verrechenbare Verlust i.S. des § 15 Abs. 4 EStG beträgt 1.600.000 € und ist bei dieser zum 31.12.2024 festzustellen." },
+      { text: "VZ 2025: Vor Verlustverrechnung beträgt das Einkommen der Z-GmbH 1.300.000 € (1.600.000 € - 300.000 €). § 8 Abs. 1 Satz 1 KStG i.V. mit § 15 Abs. 4 Satz 7 EStG führt jedoch dazu, dass der Verlust aus der atypisch stillen Gesellschaft des Vorjahres nur den mit dieser Beteiligung zusammenhängenden Gewinn im Rahmen des Verlustvortrags mindert (=1.600.000 €). Nach Maßgabe des § 10d Abs. 2 EStG ergibt sich folgende Verlustverrechnung:" },
+      { typ: "tabelle", spalten: ["Verlustverrechnung im besonderen Kreis 2025", "Betrag"], zeilen: [
+        ["Gewinnanteil", "1.600.000 €"],
+        ["Verlustabzug Stufe 1", "./. 1.000.000 €"],
+        ["= Restbetrag", "600.000 €"],
+        ["Verlustabzug Stufe 2 (70%)", "./. 420.000 €"],
+        ["= steuerpfl. Gewinnanteil", "180.000 €"],
+      ] },
+      { text: "Zum 31.12.2025 beträgt der restliche Verlust i.S. des § 15 Abs. 4 Satz 6 – 8 EStG noch 180.000 € (1.600.000 € - 1.420.000 €). Das Einkommen der Z-GmbH beträgt in 2025 daher -– 120.000 € (180.000 € - 300.000 €), ebenso wie der nach § 10d EStG vortragsfähige Verlust (allgemeiner Verlust i.S. des § 10d Abs. 4 EStG), welcher nach § 10d Abs. 4 EStG regulär festzustellen ist. Zum 31.12.2025 erfolgt daneben eine Verlustfeststellung des Verlustes i.S. des § 15 Abs. 4 EStG in Höhe von 180.000 €. (Die doppelte Minusschreibweise „-– 120.000 €“ steht so in der Quelle.)" },
+      { text: "Problematisch kann es unter diesem Gesichtspunkt werden, wenn die Gesellschaft neben den Verlusten i.S. des § 15 Abs. 4 Satz 6 – 8 EStG auch noch über „normale“ Verlustvorträge i.S. des § 10d Abs. 4 EStG verfügt. Denn die unter § 15 Abs. 4 Satz 7 EStG fallenden Verluste können beim Vortrag nur eingeschränkt mit Gewinnanteilen aus derselben stillen Beteiligung verrechnet werden." },
+      { text: "In diesem Fall ist eine getrennte Ermittlung des zulässigen Verlustabzuges für jeden Verrechnungskreis durchzuführen. Verbleibt nach der Berechnung des Verlustvortrags i.S. des § 15 Abs. 4 Satz 7 EStG noch ein Gewinn aus der stillen Beteiligung, wird dieser dem übrigen Einkommen zugerechnet und bei der allgemeinen Ermittlung des Verlustvortrags berücksichtigt." },
+      { typ: "tabelle", spalten: ["Stichtag", "besonderer Verlust § 15 Abs. 4 EStG", "allgemeiner Verlust § 10d Abs. 4 EStG"], zeilen: [
+        ["31.12.2024", "1.600.000 €", "0 €"],
+        ["31.12.2025", "180.000 €", "120.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. 2024: Das Eigenergebnis ist ausgeglichen, der Verlust von 1.600.000 € nicht ausgleichsfähig, also Einkommen 0 € und besonderer Verlust 1.600.000 €. 2025: Mindestbesteuerung im besonderen Kreis 1.000.000 € + 70 % × 600.000 € = 1.000.000 € + 420.000 € = 1.420.000 €; steuerpflichtiger Gewinnanteil 1.600.000 € ./. 1.420.000 € = 180.000 €; restlicher besonderer Verlust 1.600.000 € ./. 1.420.000 € = 180.000 €; Einkommen 180.000 € ./. 300.000 € = ./. 120.000 €, das zugleich den allgemeinen Verlustvortrag bildet." },
+      { text: "Anmerkung zur doppelten Wirkung der Mindestbesteuerung (eigene Ergänzung): Der Fall zeigt die Härte der Norm in Reinform, und die Zahlen sprechen für sich. Wirtschaftlich hat die Z-GmbH über zwei Jahre aus der stillen Beteiligung **null** verdient – 1.600.000 € Verlust und 1.600.000 € Gewinn heben sich auf –, und ihr Eigengeschäft steht bei ./. 300.000 €. Versteuern muss sie dennoch einen Gewinnanteil von 180.000 €, weil die **Mindestbesteuerung** im besonderen Kreis 180.000 € stehen lässt. Die Belastung entsteht also allein aus der zeitlichen Streckung und trifft eine Gesellschaft, die im Ergebnis Verluste erlitten hat. Erst über den allgemeinen Verlustvortrag von 120.000 € gleicht sich das in späteren Jahren aus – sofern es je dazu kommt." },
+      { text: "Anmerkung zur Zwangsläufigkeit der beiden Kreise (eigene Ergänzung): Dass die Mindestbesteuerung **innerhalb** des besonderen Kreises anzuwenden ist, ergibt sich nicht unmittelbar aus dem Gesetz, sondern aus dem Verweis des § 15 Abs. 4 Satz 7 EStG auf § 10d EStG und ist durch das BMF-Schreiben vom 29.11.2004 bestätigt. Der Unterschied zu § 8d KStG ist bemerkenswert: Dort bilden fortführungsgebundener und gewöhnlicher Verlust ausdrücklich **einen** Verrechnungskreis, hier sind es **zwei**. Für den Steuerpflichtigen ist die Lösung hier günstiger, weil jeder Kreis seinen **eigenen** Grundabzug von 1.000.000 € erhält – im Beispiel sind das im besonderen Kreis 1.000.000 €, die ohne die Trennung mit dem allgemeinen Kreis hätten geteilt werden müssen." },
+      { text: "Anmerkung zur Reihenfolge der Verrechnung (eigene Ergänzung): Die Quelle beschreibt den Weg in zwei Schritten, die nicht vertauscht werden dürfen. **Zuerst** wird der besondere Verlustvortrag gegen den Gewinn aus derselben stillen Beteiligung gerechnet, und zwar nach § 10d Abs. 2 EStG. **Erst der danach verbleibende** Gewinnanteil fließt in das übrige Einkommen und steht dort für den allgemeinen Verlustabzug zur Verfügung. Im Beispiel sind das die 180.000 €, die mit dem Eigenverlust von 300.000 € zusammentreffen. Wer die Schritte umkehrt und zunächst saldiert, kommt zu einem Einkommen von 1.300.000 € und rechnet den besonderen Verlust dagegen – ein Ergebnis, das die Trennung der Kreise gerade verhindern soll." },
+      { text: "Anmerkung zur Haftsumme (eigene Ergänzung): Die Angabe der **Haftsumme von 2.000.000 €** im Sachverhalt bleibt in der Lösung unerwähnt, ist aber kein Beiwerk. Sie stellt sicher, dass § 15a EStG dem Verlustabzug nicht bereits vorgelagert entgegensteht: Der Verlustanteil von 1.600.000 € bleibt darunter, so dass der Verlust dem Grunde nach ausgleichsfähig wäre und allein § 15 Abs. 4 EStG ihn sperrt. In einer Klausur wäre der umgekehrte Fall – Verlustanteil über der Haftsumme – vorrangig zu prüfen; die Quelle vermeidet diese Überlagerung durch die Wahl der Zahlen." },
     ],
   },
 ];

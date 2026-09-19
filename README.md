@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 42 Kapitel mit 851 Abschnitten und 101 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 44 Kapitel mit 887 Abschnitten und 105 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4431,6 +4431,45 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   vollständig verbraucht, und es entsteht sogar ein **EBITDA-Vortrag** von 1.000.000 € – scheinbar im
   Widerspruch zur Regel, dass Ausnahmen kein Potential entstehen lassen, doch die Quelle löst das auf:
   Bezogen auf den Zinsvortrag ist die Schranke gerade nicht ausgeschlossen.
+  Das vierte Kapitel behandelt die **Verluste aus stillen Beteiligungen** nach § 15 Abs. 4 Sätze 6 bis
+  8 EStG. Verluste, die eine Kapitalgesellschaft als Mitunternehmerin aus einer **atypisch stillen**
+  Gesellschaft, einer Unterbeteiligung oder einer sonstigen Innengesellschaft an einer **anderen
+  Kapitalgesellschaft** erzielt, sind nicht mit ihrem übrigen Einkommen ausgleichsfähig und
+  außerbilanziell hinzuzurechnen; verrechenbar sind sie nur mit Gewinnen aus **derselben** Beteiligung,
+  im Wege des Rücktrags in das Vorjahr oder des Vortrags. Der historische Hintergrund erklärt die
+  Härte: Nach Abschaffung der **Mehrmütterorganschaft** ab 2004 bot sich die **GmbH & atypisch Still**
+  als Ersatz an, weil der stille Gesellschafter am Verlust beteiligt ist, ohne dass es
+  Gewinnabführungsvertrag und finanzielle Eingliederung bräuchte. Die Norm ist damit keine
+  Missbrauchsvorschrift im engeren Sinne, sondern eine **Absicherung** der Organschaftsvoraussetzungen.
+  **Natürliche Personen** sind nach § 15 Abs. 4 Satz 8 EStG ausgenommen – bei ihnen droht keine
+  Umgehung, weil sie ohnehin nicht Organträgerin sein könnten –, ihre Verluste bleiben vorbehaltlich
+  des § 15a EStG abziehbar. Die **mittelbare** Beteiligung über Personengesellschaften ist dagegen
+  ausdrücklich erfasst, so dass sich die Norm nicht durch Zwischenschaltung einer KG umgehen lässt,
+  und über § 20 Abs. 1 Nr. 4 Satz 2 EStG gilt sie entsprechend auch für die **typisch** stille
+  Gesellschaft: Die sonst zentrale Abgrenzung zwischen typisch und atypisch still ist hier
+  ausnahmsweise nicht entscheidend.
+  Das Zusammenspiel mit den vorangegangenen Kapiteln wirkt dreifach zulasten des Steuerpflichtigen.
+  Die besonderen Verluste gehören zu den **ungenutzten Verlusten** des § 8c KStG und gehen bei einem
+  schädlichen Erwerb unter. Verschonen können sie nur die stillen Reserven, die auf die **atypisch
+  stille Gesellschaft** entfallen – die Reserven der Kapitalgesellschaft selbst helfen nicht, was in
+  der Praxis meist bedeutet, dass keine Verschonung eintritt. Und **§ 8d KStG ist von vornherein
+  ausgeschlossen**, weil das Halten des Mitunternehmeranteils nach § 8d Abs. 1 Satz 2 Nr. 2 KStG
+  schädlich ist. Verfahrensrechtlich ergibt sich eine ungewöhnliche Aufteilung: Die einheitliche
+  Feststellung der GmbH & atypisch Still ermittelt den Verlustanteil **ohne** die Einschränkung und
+  teilt ihn nur **nachrichtlich** mit; die eigentliche Feststellung erfolgt beim Finanzamt der
+  Mitunternehmer-Kapitalgesellschaft **neben** der allgemeinen Verlustfeststellung – die Gesellschaft
+  führt also zwei Verlustkonten.
+  Daraus folgen **zwei getrennte Verrechnungskreise** mit je eigenem Grundabzug von 1.000.000 € –
+  anders als bei § 8d KStG, wo fortführungsgebundener und gewöhnlicher Verlust ausdrücklich **einen**
+  Kreis bilden; hier ist die Lösung für den Steuerpflichtigen günstiger. Die Reihenfolge ist zwingend:
+  zuerst der besondere Vortrag gegen den Gewinn aus derselben stillen Beteiligung nach § 10d Abs. 2
+  EStG, dann fließt erst der verbleibende Gewinnanteil in das übrige Einkommen. Wie hart die
+  **Mindestbesteuerung** in diesem engen Kreis wirkt, zeigt das zweite Beispiel: Die Z-GmbH hat über
+  zwei Jahre aus der Beteiligung wirtschaftlich **null** verdient – 1.600.000 € Verlust und
+  1.600.000 € Gewinn heben sich auf – und ihr Eigengeschäft steht bei ./. 300.000 €; versteuern muss
+  sie gleichwohl einen Gewinnanteil von 180.000 €, weil 1.000.000 € + 70 % × 600.000 € = 1.420.000 €
+  die Grenze des Abzugs bilden. Die Belastung entsteht allein aus der zeitlichen Streckung und
+  gleicht sich erst über den allgemeinen Verlustvortrag von 120.000 € aus – sofern es je dazu kommt.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
