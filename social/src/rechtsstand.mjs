@@ -261,6 +261,16 @@ function korrigiereRueckstellungskatalog(thema) {
   normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
+function korrigiereLeasing4090(thema) {
+  thema.titel = "Finanzierungsleasing: 40/90-Regel und Kaufoption";
+  thema.kern = {
+    ...thema.kern,
+    ausdruck: "Grundmietzeit ÷ betriebsgewöhnliche Nutzungsdauer; bei Kaufoption zusätzlich Optionspreis mit linearem Restbuchwert bzw. niedrigerem gemeinen Wert vergleichen",
+    erklaerung: "Die 40/90-Regel ist eine typisierende Verwaltungsregel für bestimmte Finanzierungsleasingverträge, insbesondere Vollamortisationsverträge über bewegliche Wirtschaftsgüter, und ersetzt nicht die Würdigung des konkreten Vertrags nach § 39 AO. Ohne Option wird der Gegenstand bei einer Grundmietzeit von mindestens 40 % und höchstens 90 % regelmäßig dem Leasinggeber, außerhalb dieser Spanne regelmäßig dem Leasingnehmer zugerechnet. Bei einer Kaufoption innerhalb der 40/90-Spanne bleibt die Zurechnung regelmäßig beim Leasinggeber, wenn der Optionspreis nicht niedriger ist als der nach linearer AfA ermittelte Restbuchwert oder der niedrigere gemeine Wert im Veräußerungszeitpunkt; ist der Optionspreis niedriger, spricht die Verwaltungsregel für die Zurechnung beim Leasingnehmer. Mietverlängerungs- und Spezialleasingfälle sind gesondert zu prüfen.",
+  };
+  normErgaenzen(thema, "§ 39 Abs. 2 Nr. 1 AO");
+}
+
 function korrigiereEinlageDeckel(thema) {
   normErgaenzen(thema, "§ 6 Abs. 1 Nr. 5 S. 1–3 EStG");
   thema.kern = {
@@ -454,6 +464,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
       case "bilanz-formel-pwb": korrigierePwb(thema); break;
       case "bilanz-formel-abzinsung": korrigiereAbzinsung(thema); break;
+      case "bilanz-formel-leasing-4090": korrigiereLeasing4090(thema); break;
       case "bilanz-formel-latente-steuern": korrigiereLatenteSteuern(thema); break;
       case "bilanz-formel-teileinkuenfte": korrigiereTeileinkuenfte(thema); break;
       case "kst-modul-kst-12": korrigiereVerein(thema); break;
