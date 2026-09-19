@@ -408,6 +408,27 @@ test("§71-AO-Modul macht fremden Vorteil nicht zum Tatbestandsmerkmal", () => {
   assert.doesNotMatch(kern(t), /Steuerhinterziehung muss zum fremden Vorteil erfolgt sein/);
 });
 
+test("GuE-Bekanntgabe bildet das Ende der Übergangsregel 2025/2026 ab", () => {
+  const t = byId("ao-modul-ao-375");
+  assert.match(kern(t), /§ 183 Abs\. 2 S\. 1 Nr\. 2/);
+  assert.match(kern(t), /Satz 2.*nicht widersprochen/);
+  assert.match(kern(t), /Art\. 97 § 39 Abs\. 3 EGAO/);
+  const auftrag = rechtsstandAuftrag(t, new Date("2026-09-19T12:00:00Z"));
+  assert.match(auftrag, /Rechtsstand 2026/);
+  assert.match(auftrag, /§ 183 AO n\. F\./);
+  assert.match(auftrag, /Rechtsstand 2025/);
+  assert.match(auftrag, /§ 183 AO a\. F\./);
+});
+
+test("§352-GuE-Einspruch nennt Belehrung und Übergangs-Altfälle", () => {
+  const t = byId("ao-modul-ao-376");
+  assert.match(kern(t), /Personenvereinigung selbst einspruchsbefugt/);
+  assert.match(kern(t), /kein.*eigenes Einspruchsrecht|nicht kraft eines eigenen Einspruchsrechts/i);
+  assert.match(kern(t), /§ 352 Abs\. 2 S\. 3 AO/);
+  assert.match(kern(t), /Art\. 97 § 39 Abs\. 4 EGAO/);
+  assert.match(kern(t), /vor dem 1\.1\.2026/);
+});
+
 test("Gastronomie trägt den 2025/2026-Rechtsstandswechsel", () => {
   const t = byId("ust-modul-ust-161");
   const auftrag = rechtsstandAuftrag(t, new Date("2026-09-19T12:00:00Z"));
