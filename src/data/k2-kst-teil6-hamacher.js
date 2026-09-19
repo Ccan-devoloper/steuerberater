@@ -39,15 +39,15 @@
    - aus den organschaftlichen Mehr- und Minderabführungen die
      Begriffsbestimmung mit den bilanziellen Abweichungen und der
      abweichenden BFH-Rechtsprechung (3.4.1), die Minderabführung (3.4.2),
-     die Mehrabführung (3.4.3) sowie die Auswirkungen bei der
+     die Mehrabführung (3.4.3), die Auswirkungen bei der
      Organgesellschaft mit Einkommenswirkung und steuerlichem Einlagekonto
-     (3.4.4).
+     (3.4.4) sowie die Auswirkungen beim Organträger mit dem Übergang zur
+     Einlagenlösung, der Minderabführung als Einlage und der Mehrabführung
+     als Einlagenrückgewähr (3.4.5).
 
-   Es folgen die Auswirkungen beim Organträger mit der Einlagenlösung und
-   die mittelbare Organschaft (3.4.5, 3.4.6) sowie die vororganschaftlichen
-   Mehr- und Minderabführungen (3.5), die verunglückte
-   Organschaft (3.6) sowie Kapitel 4 zur
-   gewerbesteuerlichen Organschaft. Der Campus weist den Stand aus.
+   Es folgen die mittelbare Organschaft (3.4.6), die vororganschaftlichen
+   Mehr- und Minderabführungen (3.5), die verunglückte Organschaft (3.6)
+   sowie Kapitel 4 zur gewerbesteuerlichen Organschaft. Der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -2683,6 +2683,149 @@ export const kstTeil6 = [
       { text: "Rechenprobe und Gesamtschau (eigene Ergänzung): Über beide Jahre hinweg gleicht sich alles **vollständig** aus, und genau darin liegt die Systematik. 2025 erhöht die Minderabführung das Organeinkommen um 500.000 € und das Einlagekonto um denselben Betrag; 2026 mindert die Mehrabführung beide wieder um 500.000 €. In der Summe beträgt die Einkommenswirkung **null** und der Einlagekontostand ist **unverändert** – verschoben wurde lediglich der Zeitpunkt, zu dem der Aufwand steuerlich wirkt. Der Fall ist damit ein Musterbeispiel für den in Abschnitt 3.4.3 beschriebenen **Zwei-Jahres-Zyklus**." },
       { text: "Anmerkung zur Sonderstellung des § 27 Abs. 6 KStG (eigene Ergänzung): Die Vorschrift durchbricht **gleich drei** Grundsätze des § 27 KStG, und die Quelle benennt alle drei. Erstens gilt die **Verwendungsreihenfolge** des § 27 Abs. 1 Satz 3 KStG nicht, weil die Gewinnabführung keine „Leistung“ ist – es wird also nicht geprüft, ob ein ausschüttbarer Gewinn vorhanden ist. Zweitens wird die Mehrabführung **vorrangig** vor allen übrigen Leistungen abgezogen (§ 27 Abs. 6 Satz 2 KStG). Drittens kann der Bestand dadurch sogar **negativ** werden – eine Ausnahme, die § 27 Abs. 1 Satz 4 KStG ausdrücklich zulässt, während er sonst gerade einen Negativbestand verhindert. Alle drei Durchbrechungen haben denselben Grund: Die Mehrabführung ist kein Vorgang zwischen Gesellschaft und Gesellschafter im üblichen Sinne, sondern eine bloße **bilanzielle Korrekturgröße**." },
       { text: "Anmerkung zur praktischen Sprengkraft des Vorrangs (eigene Ergänzung): Der beiläufig wirkende Hinweis auf § 27 Abs. 6 Satz 2 KStG hat erhebliche Folgen für die Abschnitte 3.2.5.6 und 3.2.6. Dort war die **Einlagenrückgewähr** der Normalfall, weil die Organgesellschaft regelmäßig keinen ausschüttbaren Gewinn hat und ihre Leistungen deshalb auf das Einlagekonto durchgreifen. Genau dieser Bestand wird nun durch Mehrabführungen **vorrangig aufgezehrt**. Für den außenstehenden Gesellschafter kann das die Behandlung seiner **Ausgleichszahlung** umkehren: Statt einer steuerneutralen Einlagenrückgewähr erhält er dann einen **steuerpflichtigen Beteiligungsertrag**. Die Reihenfolge des § 27 Abs. 6 Satz 2 KStG entscheidet also mittelbar über die Steuerpflicht beim Minderheitsgesellschafter." },
+    ],
+  },
+  {
+    id: "kst-t6-54",
+    kapitel: "54",
+    abschnittNr: "3.4.5.1",
+    title: "3.4.5.1 Übergang zur Einlagenlösung",
+    thema: "Die Ausgleichspostenregelung ist ab 2022 durch die Einlagenlösung ersetzt; die Altposten waren aufzulösen, für einen Überhang konnte eine über neun Jahre aufzulösende Rücklage gebildet werden",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.5.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 4 KStG",
+      "§ 34 Abs. 6e Satz 5 KStG",
+      "§ 34 Abs. 6e Satz 6 KStG",
+      "§ 34 Abs. 6e Satz 7 ff. KStG",
+      "§ 8b Abs. 2 KStG",
+      "§ 3 Nr. 40 EStG",
+    ],
+    themen: ["Einlagenlösung", "Ausgleichsposten", "Übergangsregelung", "Rücklage", "Anwendungszeitpunkt"],
+    bloecke: [
+      { typ: "titel", text: "3.4.5 Auswirkungen beim Organträger" },
+      { typ: "titel", text: "3.4.5.1 Übergang zur Einlagenlösung" },
+      { text: "Die Behandlung der Minder- bzw. Mehrabführungen hat sich beim Organträger **ab 2022 gravierend geändert**. Denn bis 2021 galt beim Organträger die sog. **Ausgleichspostenregelung**. Dies führte in den Fällen einer Minderabführung zur Bildung eines **aktiven** Ausgleichspostens zur Organbeteiligung bzw. in den Fällen der Mehrabführung zu einem **passiven** Ausgleichsposten. Diese Ausgleichspostenregelung hat der Gesetzgeber zwischenzeitlich zugunsten der sog. **Einlagenlösung abgeschafft**." },
+      { text: "Die bisher vorhandenen organschaftlichen **Ausgleichsposten (nach a.F.)** mussten daher in **2022 zwingend aufgelöst** werden, was den Beteiligungsbuchwert entsprechend erhöhen bzw. vermindern konnte. In den Fällen, in denen der **passive** Ausgleichsposten den Beteiligungsbuchwert **überstieg**, konnte für den daraus resultierenden Gewinn wahlweise eine **gewinnmindernde Rücklage** gebildet werden (§ 34 Abs. 6e Satz 7 ff. KStG). Diese Rücklage muss dann aber in den folgenden **9 Wirtschaftsjahren ratierlich** gewinnwirksam aufgelöst werden. Dieser Gewinn unterliegt beim Organträger als **Beteiligungsertrag** entweder § 8b Abs. 2 KStG bzw. dem Teileinkünfteverfahren." },
+      { text: "Nach **§ 34 Abs. 6e Satz 5 KStG** gelten die neuen Grundsätze für sämtliche Mehr- oder Minderabführungen, die **nach dem 31.12.2021** entstehen. Danach führt" },
+      { text: "• die **Minderabführung** beim Organträger zu einer **Einlage in die Organgesellschaft**" },
+      { text: "• die **Mehrabführung** ist als **Einlagenrückgewähr** der Organgesellschaft an den Organträger zu erfassen." },
+      { text: "Für das Entstehen der Mehr- oder Minderabführung ist jeweils auf das **Wirtschaftsjahr der Organgesellschaft** abzustellen, so dass die Neuregelung nach § 34 Abs. 6e Satz 6 KStG somit bereits für sämtliche **nach dem 31.12.2021 endenden** Wirtschaftsjahre der Organgesellschaft gilt." },
+      { typ: "tabelle", spalten: ["Vorgang", "Rechtslage bis 2021", "Rechtslage ab 2022"], zeilen: [
+        ["Minderabführung", "aktiver Ausgleichsposten zur Organbeteiligung", "Einlage in die Organgesellschaft"],
+        ["Mehrabführung", "passiver Ausgleichsposten", "Einlagenrückgewähr an den Organträger"],
+        ["Altbestand", "—", "in 2022 zwingend aufzulösen, Beteiligungsbuchwert steigt oder sinkt"],
+        ["passiver Posten über dem Buchwert", "—", "wahlweise gewinnmindernde Rücklage, § 34 Abs. 6e Satz 7 ff. KStG"],
+        ["Auflösung dieser Rücklage", "—", "ratierlich über 9 Wirtschaftsjahre, als Beteiligungsertrag begünstigt"],
+        ["zeitlicher Anwendungsbereich", "—", "Wirtschaftsjahre der Organgesellschaft, die nach dem 31.12.2021 enden"],
+      ] },
+      { text: "Anmerkung zum Grund des Systemwechsels (eigene Ergänzung): Beide Systeme verfolgen dasselbe Ziel – die **Doppelerfassung** desselben Betrags beim Organträger zu vermeiden –, setzen dafür aber an verschiedenen Stellen an. Der **Ausgleichsposten** war eine reine **Merkgröße** in der Steuerbilanz, die außerhalb des Beteiligungsansatzes geführt wurde und sich erst bei der Veräußerung der Organbeteiligung auflöste; sie war weder Wirtschaftsgut noch Korrekturposten und dogmatisch stets umstritten. Die **Einlagenlösung** verzichtet auf diese Hilfskonstruktion und bucht unmittelbar dort, wo der Vorgang wirtschaftlich hingehört: in die **Anschaffungskosten** der Beteiligung. Das ist nicht nur einfacher, sondern stellt auch den **Gleichklang** mit dem steuerlichen Einlagekonto der Organgesellschaft her, das nach § 27 Abs. 6 KStG dieselbe Bewegung vollzieht." },
+      { text: "Anmerkung zur Übergangsregelung (eigene Ergänzung): Die Auflösung der Altposten in 2022 war **zwingend**, nicht wahlweise – und sie konnte den Steuerpflichtigen hart treffen. Ein **aktiver** Posten erhöhte schlicht den Beteiligungsbuchwert und blieb folgenlos. Ein **passiver** Posten minderte ihn, und soweit er den Buchwert **überstieg**, entstand ein sofort steuerwirksamer Gewinn. Nur dafür gewährt § 34 Abs. 6e Satz 7 ff. KStG die **Rücklage**, die den Gewinn über zehn Jahre streckt (Bildung plus ratierliche Auflösung in den folgenden neun Wirtschaftsjahren). Weil die Auflösungsbeträge als **Beteiligungsertrag** gelten, greift dabei § 8b Abs. 2 KStG oder das Teileinkünfteverfahren – dieselbe Begünstigung, die auch für den Überhang nach neuem Recht gilt (Abschnitt 3.4.5.3)." },
+      { text: "Anmerkung zum maßgeblichen Wirtschaftsjahr (eigene Ergänzung): Dass es auf das Wirtschaftsjahr der **Organgesellschaft** ankommt, ist keine Nebensächlichkeit, sondern folgt demselben Grundsatz wie die zeitliche Erfassung des Organeinkommens (Abschnitt 3.3.2): Maßgebend ist stets das Wirtschaftsjahr **dort, wo der Vorgang entsteht**. Bei einem abweichenden Wirtschaftsjahr der Organgesellschaft konnte die Neuregelung deshalb schon vor dem Kalenderjahr 2022 greifen – nämlich für jedes Wirtschaftsjahr, das nach dem 31.12.2021 endete." },
+    ],
+  },
+  {
+    id: "kst-t6-55",
+    kapitel: "55",
+    abschnittNr: "3.4.5.2",
+    title: "3.4.5.2 Minderabführung als Einlage",
+    thema: "Die Minderabführung gilt als Einlage des Organträgers und führt in voller Höhe zu nachträglichen Anschaffungskosten der Organbeteiligung – einkommensneutral",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.5.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 4 Satz 1 KStG",
+      "§ 14 Abs. 4 Satz 3 KStG",
+      "§ 14 Abs. 4 Satz 7 KStG",
+      "§ 27 Abs. 6 Satz 1 KStG",
+      "§ 5 Abs. 4a EStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "BMF vom 29.09.2022, BStBl. I 2022, 1412, Tz. 7",
+    ],
+    themen: ["Einlage", "nachträgliche Anschaffungskosten", "Einkommensneutralität", "Beteiligungsverhältnis", "Doppelbesteuerung"],
+    bloecke: [
+      { typ: "titel", text: "3.4.5.2 Minderabführung als Einlage" },
+      { text: "Nach **§ 14 Abs. 4 Satz 1 KStG** tätigt der Organträger in den Fällen einer Minderabführung eine **Einlage in die Organgesellschaft**. Rechtsfolge dessen ist, dass sich in Höhe der Minderabführung **nachträgliche Anschaffungskosten an der Organbeteiligung** ergeben (§ 14 Abs. 4 Satz 3 KStG). Dies ist folgerichtig, weil auf Ebene der Organgesellschaft bereits nach § 27 Abs. 6 Satz 1 KStG ein **Zugang zum steuerlichen Einlagekonto** erfolgt. Danach werden sämtliche Sachverhalte einer Minderabführung einer **Einlage gleichgestellt**." },
+      { text: "Für die Erfassung der nachträglichen Anschaffungskosten ist zudem das **Beteiligungsverhältnis** zwischen dem Organträger und der Organgesellschaft **unerheblich**, d.h. die Minderabführung wird dem Organträger **in voller Höhe** zugerechnet. Die Anschaffungskostenerhöhung ist in dem Wirtschaftsjahr vorzunehmen, in welchem das der Organgesellschaft endet (so in der Quelle; es fehlt das Wort „Wirtschaftsjahr“) – § 14 Abs. 4 Satz 7 KStG." },
+      { text: "Bei einer **nachfolgenden Veräußerung** der Organbeteiligung entsteht aufgrund der Anschaffungskostenerhöhung ein **niedrigerer Veräußerungsgewinn**. Dadurch wird das gesetzliche Ziel erreicht, die ansonsten in den Fällen einer Minderabführung drohende **Doppelbesteuerung** auf Ebene des Organträgers zu vermeiden. Denn der Organträger hat den steuerbilanziellen Mehrwert, der die Minderabführung begründet hat, **bereits im Organeinkommen versteuert**." },
+      { text: "Die Erhöhung der Anschaffungskosten erfolgt **einkommensneutral** (BMF vom 29.09.2022, BStBl. I 2022, 1412, Tz. 7). Der in der Steuerbilanz entstehende **Ertrag** ist daher **außerbilanziell wieder zu beseitigen**." },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH ist die Organgesellschaft der B-GmbH. Zum 31.12.2025 weist die Organgesellschaft in ihrer Handelsbilanz eine Drohverlustrückstellung von 500.000 € aus. Die Gewinnabführung i.S. des § 301 AktG beträgt 10.000.000 €." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Die handelsbilanzielle Gewinnabführung beträgt 10.000.000 € und weicht damit von der steuerbilanziellen Ausgleichsgröße ab. Denn die Drohverlustrückstellung ist in der Steuerbilanz der A-GmbH gewinnwirksam aufzulösen (§ 8 Abs. 1 Satz 1 KStG i.V. mit § 5 Abs. 4a EStG). Der Steuerbilanzgewinn beträgt damit 10.500.000 €. Der Vorgang führt damit zu einer **Minderabführung i.H. von 500.000 €**." },
+      { text: "Dem Organträger wird das **Organeinkommen von 10.500.000 €** zugerechnet. Gleichzeitig liegt führt § 14 Abs. 4 Satz 1 KStG zu einer **Einlage** in die Organgesellschaft (so in der Quelle; „liegt führt“ – eines der beiden Verben steht überschüssig), was die Beteiligungsanschaffungskosten an der A-GmbH entsprechend **erhöht** (§ 14 Abs. 4 Satz 3 KStG)." },
+      { text: "Dies führt insgesamt zu einer **erfolgsneutralen** Erhöhung der Anschaffungskosten, weil sich der in der Steuerbilanz der B-GmbH ergebende Ertrag (Buchung: Bet. A-GmbH an Ertrag 500.000 €) anschließend außerbilanziell wieder abgezogen wird (so in der Quelle; das Reflexivpronomen „sich“ steht überschüssig) – Korrektur: ./. 500.000 €." },
+      { typ: "tabelle", spalten: ["Wirkung beim Organträger (B-GmbH)", "Betrag"], zeilen: [
+        ["zugerechnetes Organeinkommen", "10.500.000 €"],
+        ["Buchung: Beteiligung A-GmbH an Ertrag", "500.000 €"],
+        ["außerbilanzielle Korrektur des Ertrags", "./. 500.000 €"],
+        ["Einkommenswirkung der Einlage", "0 € – einkommensneutral"],
+        ["Erhöhung der Anschaffungskosten der Organbeteiligung", "+ 500.000 €"],
+      ] },
+      { text: "Anmerkung zum Zweck der Anschaffungskostenerhöhung (eigene Ergänzung): Die Quelle nennt den Grund ausdrücklich, und er ist der Schlüssel zum Verständnis der ganzen Einlagenlösung. Der Organträger hat den steuerbilanziellen Mehrwert **bereits im Organeinkommen versteuert** – im Beispiel sind es die 500.000 €, um die das Organeinkommen über der Abführung liegt. Ohne Korrektur würde derselbe Betrag ein **zweites Mal** erfasst, nämlich als höherer Veräußerungsgewinn beim späteren Verkauf der Beteiligung. Die Erhöhung der Anschaffungskosten nimmt diesen Betrag vorweg aus dem künftigen Veräußerungsgewinn heraus. Die Einlagenlösung ist damit kein Steuervorteil, sondern eine **Vermeidungsregel**." },
+      { text: "Anmerkung zur vollen Zurechnung ungeachtet der Beteiligungsquote (eigene Ergänzung): Dass die Minderabführung dem Organträger **in voller Höhe** zugerechnet wird, auch wenn er nur zu 51 % beteiligt ist, wirkt auf den ersten Blick zu großzügig – ist aber zwingend. Denn auch das **Organeinkommen** wird ihm ungeachtet der Quote vollständig zugerechnet; er versteuert also den gesamten Mehrwert und muss folglich auch die volle Korrektur erhalten. Die Quote spielt in der Organschaft für die Zurechnung durchgehend keine Rolle – eine der auffälligsten Abweichungen gegenüber der gewöhnlichen Beteiligung." },
+      { text: "Anmerkung zum Gleichklang beider Ebenen (eigene Ergänzung): Minderabführung und Einlagekonto bewegen sich **parallel**, und die Quelle nennt das folgerichtig: Bei der Organgesellschaft steigt nach § 27 Abs. 6 Satz 1 KStG das **Einlagekonto** um 500.000 €, beim Organträger steigen die **Anschaffungskosten** um denselben Betrag. Beide Buchungen beschreiben denselben Vorgang aus entgegengesetzter Richtung – Einlage und Einlagenempfang. Dieser Gleichklang war unter der alten Ausgleichspostenregelung gestört, weil dort ein Posten **außerhalb** des Beteiligungsansatzes geführt wurde; ihn wiederherzustellen, war einer der Hauptgründe des Systemwechsels." },
+    ],
+  },
+  {
+    id: "kst-t6-56",
+    kapitel: "56",
+    abschnittNr: "3.4.5.3",
+    title: "3.4.5.3 Mehrabführung als Einlagenrückgewähr",
+    thema: "Die Mehrabführung mindert die Anschaffungskosten bis höchstens 0 €; ein Überhang ist ein nach § 8b Abs. 2 KStG steuerfreier Veräußerungsgewinn mit 5%iger Pauschale – Mehr- und Minderabführungen desselben Jahres werden saldiert",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 3.4.5.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 4 Satz 2 KStG",
+      "§ 14 Abs. 4 Satz 3 KStG",
+      "§ 14 Abs. 4 Satz 5 KStG",
+      "§ 14 Abs. 4 Satz 7 KStG",
+      "§ 8b Abs. 2 KStG",
+      "§ 8b Abs. 2 Satz 1 KStG",
+      "§ 8b Abs. 3 Satz 1 KStG",
+      "§ 3 Nr. 40 Buchst. a EStG",
+      "§ 3c Abs. 2 EStG",
+      "BMF vom 29.09.2022, Tz. 8",
+    ],
+    themen: ["Einlagenrückgewähr", "Minderung der Anschaffungskosten", "Veräußerungsgewinn", "Betriebsausgabenpauschale", "Saldierung"],
+    bloecke: [
+      { typ: "titel", text: "3.4.5.3 Mehrabführung als Einlagenrückgewähr" },
+      { text: "Mehrabführungen führen nach **§ 14 Abs. 4 Satz 2 KStG** zu einer **Einlagenrückgewähr** der Organgesellschaft an den Organträger. Dies führt nach § 14 Abs. 4 Satz 3 KStG zu einer **Verminderung der Anschaffungskosten** der Organbeteiligung **bis auf maximal 0 €**. Denn der Ausweis eines **negativen Buchwertes** ist gesetzlich ausgeschlossen." },
+      { text: "Die Reduzierung erfolgt ebenfalls **einkommensneutral**, so dass ein etwaiger Aufwand **außerbilanziell wieder hinzugerechnet** werden muss (BMF vom 29.09.2022, Tz. 8). Sollte die Einlagenrückgewähr den Buchwert **übersteigen**, entsteht in Höhe des **Überhangs ein Veräußerungsgewinn**. Dieser führt nach § 14 Abs. 4 Satz 5 KStG je nach **Rechtsform des Organträgers** zur Anwendung der Steuerfreiheit des § 8b Abs. 2 und Abs. 3 KStG bzw. dem Teileinkünfteverfahren (§ 3 Nr. 40a und § 3c Abs. 2 EStG – so in der Quelle; gesetzlich § 3 Nr. 40 Buchst. a EStG)." },
+      { text: "Durch diese Handhabung wird sichergestellt, dass der Organträger das **Potential der Mehrabführung**, welches steuerlich bisher **nicht im Einkommen erfasst** ist, nunmehr **zeitnaher versteuert**." },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH (Wj. = Kj.) ist die Organgesellschaft der B-GmbH. Der Buchwert der Beteiligung an der A-GmbH beträgt 50.000 €. In 2025 entsteht aus einem Sachverhalt eine Mehrabführung von **a) 40.000 €** bzw. **b) 200.000 €**." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Die in 2025 entstandene Mehrabführung führt auf Ebene des Organträgers nach § 14 Abs. 4 Satz 2 KStG zu einer **Einlagenrückgewähr** der Organgesellschaft an den Organträger. Unmittelbare Rechtsfolge dessen ist, dass sich die Anschaffungskosten der Beteiligung an der Organgesellschaft entsprechend **verringern** (§ 14 Abs. 4 Satz 3 KStG)." },
+      { text: "**Variante a):** Der Vorgang ist in **vollständiger Höhe steuerneutral**, weil das Potential der Mehrabführung mit dem Buchwert **verrechnet** werden kann und dieser danach **10.000 €** beträgt. Dies wird buchhalterisch wie folgt abgebildet: Aufwand (Einlagenrückgewähr) 40.000 € an Beteiligung A-GmbH 40.000 €. Dieser Aufwand muss **außerbilanziell wieder hinzugerechnet** werden, weil der Vorgang nur einkommensneutral vorgenommen werden kann – Korrektur: + 40.000 €." },
+      { text: "**Variante b):** Die Mehrabführung **übersteigt den Buchwert** in Höhe von 150.000 €. Nach § 14 Abs. 4 Satz 3 KStG ist der Ausweis eines negativen Buchwertes ausgeschlossen. Der **Überhang** der Einlagenrückgewähr von 150.000 € führt nach § 14 Abs. 4 Satz 5 KStG zu einem **Veräußerungsgewinn**. Dieser ist beim Organträger nach § 8b Abs. 2 KStG **steuerfrei**, gleichzeitig kommt aber die **Betriebsausgabenpauschalierung** nach § 8b Abs. 3 Satz 1 KStG zur Anwendung. Buchung: Aufwand (Einlagenrückgewähr) 200.000 € an Beteiligung A-GmbH 50.000 € und Ertrag 150.000 €." },
+      { text: "Im Rahmen der Einkommensermittlung ist der Aufwand aus der Einlagenrückgewähr wieder **außerbilanziell hinzuzurechnen**. Der Ertrag gilt hingegen als **Beteiligungsertrag** i.S. des § 8b Abs. 2 KStG und ist entsprechend steuerfrei. Gleichzeitig kommt die Betriebsausgabenpauschalierung i.S. des § 8b Abs. 3 Satz 1 KStG zur Anwendung." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung beim Organträger (Variante b)", "Betrag"], zeilen: [
+        ["Bilanzielle Auswirkung", "./. 50.000 €"],
+        ["+ Beseitigung Aufwand", "+ 200.000 €"],
+        ["./. § 8b Abs. 2 Satz 1 KStG", "./. 150.000 €"],
+        ["+ § 8b Abs. 3 Satz 1 KStG", "+ 7.500 €"],
+        ["= z.v.E.", "7.500 €"],
+      ] },
+      { typ: "titel", text: "Saldierung im selben Wirtschaftsjahr" },
+      { text: "Mehr- und Minderabführungen, die **im selben Wirtschaftsjahr** entstehen (§ 14 Abs. 4 Satz 7 KStG), werden entsprechend **saldiert**." },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH (Wj. = Kj.) ist die Organgesellschaft der B-GmbH. Der Buchwert der Beteiligung an der A-GmbH beträgt 50.000 €. In 2025 entsteht aus einem Sachverhalt eine Minderabführung von 40.000 € und eine Mehrabführung von 200.000 €." },
+      { typ: "titel", text: "Lösung" },
+      { text: "Die in 2025 entstandene Minder- und Mehrabführung werden nur **saldiert** betrachtet (so in der Quelle; der Numerus wechselt innerhalb des Satzes). Danach fließt in die steuerliche Würdigung der **Saldo von 160.000 €** ein. Dies führt nach § 14 Abs. 4 Satz 2 und Satz 3 KStG zu einer **Einlagenrückgewährung** (so in der Quelle; gemeint ist die Einlagenrückgewähr) und einer Reduzierung der Beteiligungsanschaffungskosten **bis auf 0 €**. Der übersteigende Betrag von **110.000 €** stellt nach § 14 Abs. 4 Satz 5 KStG einen Veräußerungsgewinn i.S. des § 8b Abs. 2 KStG dar. Buchung: Aufwand (Einlagenrückgewähr) 160.000 € an Beteiligung A-GmbH 50.000 € und Ertrag 110.000 €." },
+      { typ: "tabelle", spalten: ["Einkommensermittlung beim Organträger (Saldierung)", "Betrag"], zeilen: [
+        ["Bilanzielle Auswirkung", "./. 50.000 €"],
+        ["+ Beseitigung Aufwand", "+ 160.000 €"],
+        ["./. § 8b Abs. 2 Satz 1 KStG", "./. 110.000 €"],
+        ["+ § 8b Abs. 3 Satz 1 KStG", "+ 5.500 €"],
+        ["= z.v.E.", "5.500 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle drei Fälle gehen auf. **Variante a):** 50.000 € ./. 40.000 € = 10.000 € Restbuchwert, kein Überhang, Einkommenswirkung null. **Variante b):** 200.000 € ./. 50.000 € = 150.000 € Überhang; 5 % davon sind 7.500 €; ./. 50.000 € + 200.000 € ./. 150.000 € + 7.500 € = **7.500 €**. **Saldierung:** 200.000 € ./. 40.000 € = 160.000 € Saldo; 160.000 € ./. 50.000 € = 110.000 € Überhang; 5 % davon sind 5.500 €; ./. 50.000 € + 160.000 € ./. 110.000 € + 5.500 € = **5.500 €**. Bemerkenswert ist, dass das zu versteuernde Einkommen in beiden Überhangsfällen **genau der Pauschale** entspricht – alle übrigen Positionen heben sich auf. Das ist kein Zufall, sondern die Probe darauf, dass der Vorgang bis auf die 5 % vollständig steuerneutral bleibt." },
+      { text: "Anmerkung zur Deckelung bei 0 € (eigene Ergänzung): Die Grenze ist der eigentliche Grund dafür, dass die Mehrabführung überhaupt Steuer auslösen kann. Solange ein **Buchwert** vorhanden ist, wird die Einlagenrückgewähr schlicht mit ihm verrechnet – wie bei jeder Einlagenrückgewähr im Sinne des § 20 Abs. 1 Nr. 1 Satz 3 EStG (Abschnitt 3.2.5.7). Weil aber ein **negativer** Beteiligungsansatz ausgeschlossen ist, muss der darüber hinausgehende Betrag irgendwo hin – und das Gesetz behandelt ihn als **Veräußerungsgewinn**, obwohl nichts veräußert wurde. Dieselbe Technik verwendet § 17 Abs. 4 EStG beim privaten Anteilseigner. Der Unterschied zur alten Rechtslage ist erheblich: Der **passive Ausgleichsposten** wurde erst bei der tatsächlichen Veräußerung aufgelöst, jetzt wird, wie die Quelle sagt, „**zeitnaher**“ versteuert." },
+      { text: "Anmerkung zur Saldierung (eigene Ergänzung): § 14 Abs. 4 Satz 7 KStG verlangt die Saldierung **innerhalb** eines Wirtschaftsjahres, und das dritte Beispiel zeigt, dass sie **nicht** nur eine Rechenvereinfachung ist. Ohne Saldierung wäre zunächst die Minderabführung von 40.000 € als Einlage zu erfassen (Buchwert 90.000 €) und anschließend die Mehrabführung von 200.000 € abzuziehen, was zu einem Überhang von 110.000 € führte – rechnerisch dasselbe Ergebnis. Die Saldierung erspart also die Doppelbuchung, ändert am Ergebnis hier aber nichts. Anders läge es, wenn **verschiedene Wirtschaftsjahre** betroffen wären: Dann entstünde im ersten Jahr eine Einlage und im zweiten ein Überhang, der sich am zwischenzeitlich erhöhten Buchwert bemisst. Die zeitliche Zuordnung nach dem Wirtschaftsjahr der Organgesellschaft entscheidet also mit über die Steuerlast." },
+      { text: "Anmerkung zur Rechtsform des Organträgers (eigene Ergänzung): Die Verweisung des § 14 Abs. 4 Satz 5 KStG auf § 8b KStG **bzw.** das Teileinkünfteverfahren führt die schon mehrfach begegnete Linie fort: Über die Behandlung eines Beteiligungsertrags entscheidet die **Rechtsform desjenigen, bei dem er anfällt**. Bei einer Kapitalgesellschaft als Organträger bleiben 95 % steuerfrei, bei einer natürlichen Person greifen § 3 Nr. 40 Buchst. a EStG und spiegelbildlich § 3c Abs. 2 EStG. Im Beispiel wäre das zu versteuernde Einkommen der Variante b) bei einer natürlichen Person als Organträger deshalb ganz anders zu berechnen – die Quelle rechnet durchgehend mit der Kapitalgesellschaft." },
     ],
   },
 ];

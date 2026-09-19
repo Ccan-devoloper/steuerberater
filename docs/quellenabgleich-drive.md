@@ -10620,6 +10620,62 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitt 3.4.5 – Einlagenlösung beim Organträger
+
+Übernommen sind die Seiten 68 bis 71 der Quelle: der Übergang zur Einlagenlösung mit
+der Übergangsregelung des § 34 Abs. 6e KStG (3.4.5.1), die Minderabführung als Einlage
+mit Beispiel (3.4.5.2) und die Mehrabführung als Einlagenrückgewähr mit beiden
+Varianten und dem Saldierungsbeispiel (3.4.5.3). Der Datensatz umfasst damit 56 Kapitel
+mit 929 Abschnitten und 75 Tabellen; geprüft mit `npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Seit 2022 ist die Ausgleichspostenregelung durch die
+Einlagenlösung ersetzt: Die Minderabführung gilt als Einlage und erhöht in voller Höhe
+die Anschaffungskosten der Organbeteiligung, die Mehrabführung als Einlagenrückgewähr
+und mindert sie bis höchstens 0 €. Beides geschieht einkommensneutral. Ein Überhang der
+Mehrabführung über den Buchwert ist ein Veräußerungsgewinn, der bei einer
+Kapitalgesellschaft als Organträger nach § 8b Abs. 2 KStG steuerfrei bleibt, aber der
+5%igen Pauschale unterliegt. Mehr- und Minderabführungen desselben Wirtschaftsjahres
+werden saldiert.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.4.5.2: „Die Anschaffungskostenerhöhung ist in dem Wirtschaftsjahr
+  vorzunehmen, in welchem das der Organgesellschaft endet“ – es fehlt das Wort
+  „Wirtschaftsjahr“.
+- Abschnitt 3.4.5.2: „Gleichzeitig liegt führt § 14 Abs. 4 Satz 1 KStG zu einer
+  Einlage“ – eines der beiden Verben steht überschüssig.
+- Abschnitt 3.4.5.2: „weil sich der in der Steuerbilanz der B-GmbH ergebende Ertrag …
+  anschließend außerbilanziell wieder abgezogen wird“ – das Reflexivpronomen steht
+  überschüssig.
+- Abschnitt 3.4.5.3 zitiert „§ 3 Nr. 40a EStG“; gesetzlich § 3 Nr. 40 Buchst. a EStG.
+- Abschnitt 3.4.5.3: „Die in 2025 entstandene Minder- und Mehrabführung werden nur
+  saldiert betrachtet“ – der Numerus wechselt innerhalb des Satzes.
+- Abschnitt 3.4.5.3 schreibt einmal „Einlagenrückgewährung“ statt
+  „Einlagenrückgewähr“.
+
+**Eigene Nachrechnung.** Alle drei Fälle gehen auf.
+
+| Fall | Rechnung | zvE |
+| --- | --- | --- |
+| Variante a) (Mehrabführung 40.000 €) | Buchwert 50.000 € ./. 40.000 € = 10.000 € Restbuchwert | 0 € |
+| Variante b) (Mehrabführung 200.000 €) | ./. 50.000 € + 200.000 € ./. 150.000 € + 7.500 € | 7.500 € |
+| Saldierung (Minder 40.000 €, Mehr 200.000 €) | ./. 50.000 € + 160.000 € ./. 110.000 € + 5.500 € | 5.500 € |
+
+Die Pauschale beträgt jeweils 5 % des Überhangs (150.000 € beziehungsweise 110.000 €).
+Bemerkenswert und als eigene Ergänzung ausgewiesen: Das zu versteuernde Einkommen
+entspricht in beiden Überhangsfällen **genau der Pauschale** – alle übrigen Positionen
+heben sich auf. Das ist kein Zufall, sondern die Probe darauf, dass der Vorgang im
+Übrigen vollständig steuerneutral bleibt.
+
+Ebenfalls als eigene Ergänzungen im Datensatz: der Vergleich beider Systeme
+(Ausgleichsposten als Merkgröße außerhalb des Beteiligungsansatzes gegenüber der
+unmittelbaren Buchung in die Anschaffungskosten), die Erläuterung der Einlagenlösung als
+Vermeidungsregel gegen die Doppelerfassung, die Begründung der vollen Zurechnung
+ungeachtet der Beteiligungsquote, der Hinweis auf die Parallele zu § 17 Abs. 4 EStG bei
+der Behandlung des Überhangs und die Feststellung, dass die Saldierung hier zwar
+dasselbe Ergebnis liefert wie die Einzelbetrachtung, bei Verteilung auf verschiedene
+Wirtschaftsjahre aber gerade nicht.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.4.3 und 3.4.4 – Mehrabführung und Auswirkungen bei der Organgesellschaft
 
 Übernommen sind die Seiten 66 bis 68 der Quelle: die Mehrabführung mit beiden

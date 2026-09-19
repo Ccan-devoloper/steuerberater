@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 53 Kapitel mit 879 Abschnitten und 71 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 56 Kapitel mit 929 Abschnitten und 75 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5304,6 +5304,41 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Beispiel über zwei Jahre zeigt schließlich, dass sich alles **vollständig ausgleicht**: 2025 erhöhen
   Minderabführung und Einlagekonto sich um je 500.000 €, 2026 mindern sie sich um denselben Betrag –
   in der Summe null Einkommenswirkung und ein unveränderter Einlagekontostand.
+  Beim **Organträger** hat sich die Behandlung **ab 2022 gravierend geändert**: An die Stelle der
+  **Ausgleichspostenregelung** ist die **Einlagenlösung** getreten. Beide Systeme verfolgen dasselbe
+  Ziel – die **Doppelerfassung** desselben Betrags zu vermeiden –, setzen aber verschieden an. Der
+  **Ausgleichsposten** war eine reine **Merkgröße** außerhalb des Beteiligungsansatzes, die sich erst
+  bei der Veräußerung auflöste und dogmatisch stets umstritten war; die **Einlagenlösung** bucht
+  unmittelbar dort, wo der Vorgang wirtschaftlich hingehört – in die **Anschaffungskosten** der
+  Beteiligung. Das stellt zugleich den **Gleichklang** mit dem Einlagekonto der Organgesellschaft her,
+  das nach § 27 Abs. 6 KStG dieselbe Bewegung vollzieht. Die Altposten waren **2022 zwingend**
+  aufzulösen; überstieg ein **passiver** Posten den Buchwert, entstand ein sofort steuerwirksamer
+  Gewinn, für den § 34 Abs. 6e Satz 7 ff. KStG wahlweise eine über neun Wirtschaftsjahre ratierlich
+  aufzulösende **Rücklage** gewährt. Maßgeblich ist stets das Wirtschaftsjahr der **Organgesellschaft**,
+  so dass die Neuregelung schon für jedes nach dem 31.12.2021 **endende** Wirtschaftsjahr galt.
+  Die **Minderabführung als Einlage** führt in Höhe des Betrags zu **nachträglichen
+  Anschaffungskosten** – und zwar **einkommensneutral**, weshalb der in der Steuerbilanz entstehende
+  Ertrag außerbilanziell wieder zu beseitigen ist. Der Zweck ist keine Begünstigung, sondern eine
+  **Vermeidungsregel**: Den steuerbilanziellen Mehrwert hat der Organträger über das Organeinkommen
+  **bereits versteuert**; ohne die Erhöhung träfe ihn derselbe Betrag ein **zweites Mal** als höherer
+  Veräußerungsgewinn beim späteren Verkauf. Zugerechnet wird stets der **volle** Betrag, unabhängig
+  von der Beteiligungsquote – folgerichtig, weil auch das Organeinkommen ungeachtet der Quote
+  vollständig zugerechnet wird; die Quote spielt in der Organschaft durchgehend keine Rolle.
+  Die **Mehrabführung als Einlagenrückgewähr** mindert die Anschaffungskosten, aber **höchstens bis
+  0 €**, weil ein negativer Beteiligungsansatz ausgeschlossen ist. Ein **Überhang** muss deshalb
+  irgendwo hin, und das Gesetz behandelt ihn als **Veräußerungsgewinn**, obwohl nichts veräußert
+  wurde – dieselbe Technik wie in § 17 Abs. 4 EStG. Bei einer Kapitalgesellschaft als Organträger
+  bleibt er nach § 8b Abs. 2 KStG steuerfrei, unterliegt aber der **5%igen Pauschale** des § 8b Abs. 3
+  Satz 1 KStG; bei einer natürlichen Person greifen Teileinkünfteverfahren und § 3c Abs. 2 EStG.
+  Genau darin liegt der Unterschied zur alten Rechtslage: Der passive Ausgleichsposten löste sich erst
+  bei der tatsächlichen Veräußerung auf, jetzt wird, wie die Quelle sagt, „zeitnaher“ versteuert. Die
+  drei durchgerechneten Fälle zeigen das Muster: In **Variante a)** bleibt der Vorgang vollständig
+  neutral (Buchwert 50.000 € ./. 40.000 € = 10.000 €); in **Variante b)** verbleibt bei einem Überhang
+  von 150.000 € ein zu versteuerndes Einkommen von **7.500 €**, bei **Saldierung** von Minder- und
+  Mehrabführung desselben Wirtschaftsjahres (§ 14 Abs. 4 Satz 7 KStG) ein solches von **5.500 €**. In
+  beiden Fällen entspricht das Ergebnis **genau der 5%-Pauschale** – alles andere hebt sich auf, was
+  zugleich die Probe darauf ist, dass der Vorgang im Übrigen steuerneutral bleibt. Sämtliche Zahlen
+  sind unabhängig nachgerechnet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
