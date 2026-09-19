@@ -70,6 +70,22 @@ test("wirtschaftliches Eigentum bei Miete ist nicht absolut ausgeschlossen", () 
 
 
 
+
+test("ErbSt-Schuldenabzug trennt §10 Abs.6 und 6a seit 2025", () => {
+  const t = byId("erbst-modul-erbst-515");
+  assert.match(kern(t), /Abs\. 6 = beschränkte Steuerpflicht/);
+  assert.match(kern(t), /Abs\. 6a = Schuldenkürzung/);
+  assert.match(kern(t), /beschränkter Steuerpflicht[^"]*§ 10 Abs\. 6 und 6b/);
+  assert.doesNotMatch(kern(t), /vollständig steuerbefreit[^"]*\(§ 10 Abs\. 6\)/i);
+});
+
+test("§13d-ErbStG-Modul kennt begünstigte Drittstaaten", () => {
+  const t = byId("erbst-modul-erbst-513");
+  assert.match(kern(t), /Drittstaaten[^"]*Amtshilfe|Drittstaaten[^"]*Informationsaustausch/i);
+  assert.match(kern(t), /BMF[^"]*Staatenliste/);
+  assert.doesNotMatch(kern(t), /Drittstaaten sind.*pauschal ausgeschlossen/i);
+});
+
 test("Erbfallkostenmodul nennt den aktuellen 15.000-Euro-Pauschbetrag", () => {
   const t = byId("erbst-modul-erbst-506");
   assert.match(kern(t), /15\.000 €.*ohne Nachweis/);
