@@ -173,10 +173,10 @@
       "slot": "pencil calculation on notepad",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-19T10:45:02.234Z",
-      "updatedAt": "2026-09-19T10:45:02.234Z"
+      "updatedAt": "2026-09-19T10:45:03.553Z"
     }
   ],
-  "stand": "2026-09-19T10:45:02.234Z"
+  "stand": "2026-09-19T10:45:03.553Z"
 }
