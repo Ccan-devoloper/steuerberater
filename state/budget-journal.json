@@ -124,7 +124,20 @@
       "state": "settled",
       "createdAt": "2026-09-19T09:44:24.968Z",
       "updatedAt": "2026-09-19T09:44:36.422Z"
+    },
+    {
+      "reservationId": "2026-09-19-0010-erklaerbild",
+      "date": "2026-09-19",
+      "bucket": "core",
+      "purpose": "erklaerbild",
+      "attempt": 1,
+      "slot": "exam paper with blank answer space",
+      "reservedUsd": 0.01,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-19T10:44:24.301Z",
+      "updatedAt": "2026-09-19T10:44:24.301Z"
     }
   ],
-  "stand": "2026-09-19T09:47:15.170Z"
+  "stand": "2026-09-19T10:44:24.301Z"
 }
