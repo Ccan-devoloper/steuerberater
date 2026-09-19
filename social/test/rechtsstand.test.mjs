@@ -94,6 +94,14 @@ test("Elektro-Pkw-Merksatz verallgemeinert nicht mehr auf Halbierung", () => {
 
 
 
+
+test("Bilanzänderung verlangt keine zusätzliche Zustimmung des Finanzamts", () => {
+  const t = byTitle(/Bilanzberichtigung oder Bilanzänderung/i);
+  assert.match(kern(t), /engen zeitlichen und sachlichen Zusammenhang/);
+  assert.match(kern(t), /keine zusätzliche gesetzliche Zustimmung/);
+  assert.doesNotMatch(kern(t), /nur mit Zustimmung des Finanzamts/i);
+});
+
 test("Rückstellungsabzinsung unterscheidet 10 und 7 Geschäftsjahre", () => {
   const formel = byId("bilanz-formel-abzinsung");
   assert.match(kern(formel), /Altersversorgungsverpflichtungen.*zehn Geschäftsjahren/);
