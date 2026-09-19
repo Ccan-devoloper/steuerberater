@@ -39,8 +39,11 @@
    (Auswirkungen) sind die außerbilanzielle Hinzurechnung (4.1.1), die vGA bei
    Betriebsausgaben (4.1.2) und bei der Passivierung von Verpflichtungen
    (4.1.3) sowie der Wegfallgewinn mit der Teilbetragsrechnung (4.1.3.1)
-   übernommen. Es folgen die Bedeutung der Teilbeträge (4.1.3.2) und die
-   übrigen Abschnitte der Kapitel 4 bis 6; der Campus weist den Stand aus.
+   übernommen, dazu die Bedeutung der Teilbeträge (4.1.3.2 mit Teilbetrag I,
+   Teilbetrag II und der Fortschreibung) und ihre Auflösung (4.1.3.2.4). Es
+   folgt die Besonderheit des nur teilweise gesellschaftsrechtlich veranlassten
+   Passivpostens sowie die übrigen Abschnitte der Kapitel 4 bis 6; der Campus
+   weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -1353,6 +1356,98 @@ export const kstTeil4 = [
       { text: "Anmerkung zum Zweck der Teilbeträge (eigene Ergänzung): Die Quelle sagt nicht ausdrücklich, wozu die Verwaltung zwei Zahlen statt einer führt – der Grund erschließt sich aber unmittelbar aus dem vorangegangenen Abschnitt. Fällt der Passivposten später gewinnwirksam weg, muss entschieden werden, ob ein einkommenswirksamer **Abzug** zu gewähren ist. Und das hängt genau davon ab, ob die vGA damals tatsächlich hinzugerechnet wurde. **Teilbetrag II** beantwortet diese Frage, **Teilbetrag I** hält den Umfang der vGA unabhängig davon fest. Die Differenz der beiden Beträge ist damit der Teil der vGA, der endgültig unversteuert geblieben ist – im Unterfall b) die vollen 100.000 €." },
       { text: "Anmerkung zur fehlenden Erkennbarkeit (eigene Ergänzung): Dass die Teilbeträge **keine** offizielle Feststellung sind und für den Steuerpflichtigen nicht erkennbar bleiben, ist mehr als eine Verfahrensnotiz. Es bedeutet, dass sie nicht selbständig angreifbar sind – wer sie für falsch hält, muss den **Folgebescheid** angreifen, in dem sie sich auswirken, also den Körperschaftsteuerbescheid des Wegfalljahres. Zugleich heißt es, dass die Beträge in der Praxis oft erst in einer späteren Betriebsprüfung rekonstruiert werden müssen. Der BFH hat die Vorgehensweise gleichwohl gebilligt." },
       { text: "Anmerkung zur Beschränkung auf zwei Rückstellungsarten (eigene Ergänzung): Die Begründung der Quelle, bei anderen Passivposten könne auf die Teilbeträge verzichtet werden, weil deren spätere Auflösung „grundsätzlich keine Gewinnauswirkung entfalten“ könne, ist der Schlüssel zum Verständnis. Gewöhnliche Verbindlichkeiten werden **erfüllt** und verschwinden erfolgsneutral gegen die Zahlung. Pensions- und Tantiemerückstellungen dagegen können auch **wegfallen**, ohne dass gezahlt wird – etwa durch Verzicht oder den Tod des Berechtigten –, und dann entsteht ein Ertrag, der ohne die Teilbetragsrechnung nicht richtig behandelt werden könnte. Die Auswahl der beiden Rückstellungsarten ist also keine willkürliche, sondern folgt der Frage, ob ein **Wegfallgewinn** überhaupt entstehen kann." },
+    ],
+  },
+  {
+    id: "kst-t4-30",
+    kapitel: "30",
+    abschnittNr: "4.1.3.2",
+    title: "4.1.3.2 Bedeutung der Teilbeträge – Merkposten mit zwei verschiedenen Aufgaben",
+    thema: "Teilbetrag I dokumentiert die vGA und bestimmt beim Gesellschafter den Umfang der Beteiligungserträge; Teilbetrag II vermeidet bei der Gesellschaft die Doppelbesteuerung. Beide werden mit dem Passivposten fortgeschrieben",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 4.1.3.2 bis 4.1.3.2.3 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 20 Abs. 1 Nr. 1 EStG",
+      "R 7.1 Abs. 1 Punkt 8 KStR",
+      "BMF vom 28.05.2002, BStBl. I 2002, 603, Tz. 6",
+    ],
+    themen: ["Teilbetrag I", "Teilbetrag II", "Merkposten", "Gegenberichtigung", "materielle Korrespondenz", "Fortschreibung", "Pensionsrückstellung"],
+    bloecke: [
+      { text: "Diese Teilbetragsberechnung erfolgt," },
+      { text: "– um auf der Ebene der Gesellschaft sicher zu stellen, dass der Passivposten, dessen Bildung das Einkommen aufgrund § 8 Abs. 3 Satz 2 KStG tatsächlich nicht vermindert hat, bei der gewinnwirksamen Auflösung das Einkommen nicht nochmals erhöht (unzulässige Nachholung der vGA) und" },
+      { text: "– um auf der Ebene des Gesellschafters die zutreffenden steuerlichen Konsequenzen zu ziehen, weil der Teilbetrag den betragsmäßigen Umfang der vGA dokumentiert." },
+      { text: "Bei den „Teilbeträgen 1 und 2“ handelt es sich um steuerliche Merkposten, die für die spätere Besteuerung von Bedeutung sein können." },
+      { typ: "titel", text: "4.1.3.2.1 Teilbetrag I" },
+      { text: "Der Teilbetrag I dient dazu, die durch das Gesellschaftsverhältnis verursachte Gewinnerhöhung zu dokumentieren. Weitere Bedeutung hat dieser Posten nicht, insbesondere hat dieser keine Auswirkung auf das Einkommen." },
+      { text: "Auf der Ebene des Anteilseigners bestimmt dieser Betrag hingegen den Umfang der Beteiligungserträge i.S. des § 20 Abs. 1 Nr. 1 EStG, die bei einem späteren Zufluss zu besteuern sind. Denn in dieser Höhe ist z.B. die Pension oder die Tantieme als vGA anzusehen. Die Besteuerung der Beteiligungserträge nach den Grundsätzen des § 20 EStG erfolgt unabhängig davon, ob es bei der Gesellschaft zu einer Einkommenshinzurechnung gekommen ist, wobei die Auswirkungen der materiellen Korrespondenzregelungen zu beachten sind." },
+      { typ: "titel", text: "4.1.3.2.2 Teilbetrag II" },
+      { text: "Steuerlich bedeutender ist hingegen der Teilbetrag II. Dieser soll auf Ebene der Kapitalgesellschaft eine Doppelbesteuerung vermeiden. Diese würde ansonsten drohen, wenn der Passivposten im Zeitpunkt seiner erstmaligen Bildung außerhalb der Bilanz nach § 8 Abs. 3 Satz 2 KStG hinzugerechnet wurde und später nach allgemeinen Bilanzierungsgrundsätzen (innerhalb der Bilanz) erfolgswirksam aufgelöst würde." },
+      { text: "Die Korrektur dieser Auflösung erfolgt entsprechend dem Gedanken der Gegenberichtigung und zwar außerbilanziell. Der Teilbetrag II hat daher nur Bedeutung für die Einkommensermittlung der Kapitalgesellschaft und fungiert als bloßer Erinnerungsposten, um den „Abzug“ der vGA im Rahmen der Einkommensermittlung sicherzustellen." },
+      { typ: "titel", text: "4.1.3.2.3 Fortschreibung der Teilbeträge" },
+      { text: "Die beiden Teilbeträge sind entsprechend der Entwicklung des Passivpostens in der Steuerbilanz (intern) fortzuschreiben. Dies bedeutet, dass sich die Teilbeträge in der Zukunft auch erhöhen können. Dies ist häufig im Zusammenhang mit Pensionsrückstellungen der Fall, bei denen die Zuführungen zum Rückstellungswert auch die beiden Teilbeträge beeinflussen." },
+      { typ: "tabelle", spalten: ["Merkmal", "Teilbetrag I", "Teilbetrag II"], zeilen: [
+        ["Aufgabe", "dokumentiert die durch das Gesellschaftsverhältnis verursachte Gewinnerhöhung", "vermeidet bei der Kapitalgesellschaft die Doppelbesteuerung"],
+        ["Ebene, auf der er wirkt", "beim Anteilseigner", "bei der Kapitalgesellschaft"],
+        ["Auswirkung auf das Einkommen der Gesellschaft", "keine – rein symbolischer Posten", "sichert den außerbilanziellen Abzug bei der Auflösung"],
+        ["Bedeutung beim Anteilseigner", "bestimmt den Umfang der Beteiligungserträge nach § 20 Abs. 1 Nr. 1 EStG bei späterem Zufluss", "keine"],
+        ["Abhängigkeit von der Hinzurechnung bei der Gesellschaft", "keine – die Besteuerung beim Anteilseigner erfolgt unabhängig davon, vorbehaltlich der materiellen Korrespondenz", "vollständig – er ist gerade der hinzugerechnete Betrag"],
+        ["technische Einordnung", "Merkposten", "Erinnerungsposten für den Abzug, Gedanke der Gegenberichtigung"],
+        ["Fortschreibung", "entsprechend der Entwicklung des Passivpostens, kann sich erhöhen", "entsprechend der Entwicklung des Passivpostens, kann sich erhöhen"],
+      ] },
+      { text: "Anmerkung zur Arbeitsteilung der beiden Posten (eigene Ergänzung): Die beiden Spiegelstriche am Anfang des Abschnitts benennen zwei Aufgaben, und der Abschnitt ordnet jedem Teilbetrag genau eine davon zu – das ist der Schlüssel zum ganzen Unterkapitel. **Teilbetrag I** arbeitet beim **Gesellschafter** und beantwortet die Frage: Wie viel muss dieser bei Zufluss als Beteiligungsertrag versteuern? **Teilbetrag II** arbeitet bei der **Gesellschaft** und beantwortet: Wie viel darf bei der Auflösung wieder abgezogen werden? Wer sich das merkt, braucht die Definitionen nicht auswendig zu lernen: Teilbetrag I ist der **größere oder gleich große** Betrag (die ganze vGA), Teilbetrag II der **tatsächlich hinzugerechnete** Teil davon." },
+      { text: "Anmerkung zur Unabhängigkeit der beiden Ebenen (eigene Ergänzung): Der Satz, dass die Besteuerung beim Anteilseigner **unabhängig davon** erfolgt, ob es bei der Gesellschaft zu einer Hinzurechnung gekommen ist, ist der schärfste Satz des Abschnitts. Er bedeutet, dass der Gesellschafter auch dann voll versteuert, wenn das Finanzamt bei der Gesellschaft geschlafen hat – dort hilft die Bestandskraft, hier nicht. Der Vorbehalt der **materiellen Korrespondenz** wirkt dabei in dieselbe Richtung und nicht etwa mildernd: Weil die vGA beim Einkommen der Gesellschaft gerade nicht erfasst wurde, versagen § 3 Nr. 40 Buchstabe d Satz 2 EStG bzw. § 8b Abs. 1 Satz 2 KStG dem Gesellschafter die Begünstigung. Die Zahl des Teilbetrags I ist es, die diesen Umfang festhält." },
+      { text: "Anmerkung zur Gegenberichtigung (eigene Ergänzung): Dass die Korrektur bei der Auflösung **außerbilanziell** erfolgt, ist nur konsequent. Die Hinzurechnung bei der Bildung war außerbilanziell, die Bilanz blieb unberührt – also muss auch die Rücknahme außerhalb der Bilanz stattfinden, sonst entstünde ein Bruch zwischen Handels- und Steuerbilanz. Der Begriff der **Gegenberichtigung** beschreibt genau diese Symmetrie: Was einmal außen hinzugerechnet wurde, wird später außen wieder abgezogen. Der Teilbetrag II ist nichts anderes als das Gedächtnis dieser Symmetrie." },
+      { text: "Anmerkung zur Fortschreibung bei Pensionsrückstellungen (eigene Ergänzung): Die Fortschreibung ist der Grund, weshalb die Teilbeträge bei Pensionszusagen praktisch unentbehrlich sind. Eine Pensionsrückstellung wächst über Jahrzehnte durch jährliche Zuführungen, und jede einzelne kann hinzugerechnet worden sein oder auch nicht – je nachdem, wann das Finanzamt die Zusage beanstandet hat. Ohne laufende Fortschreibung ließe sich Jahrzehnte später nicht mehr feststellen, welcher Teil des Rückstellungsbetrags bereits versteuert ist. Genau diesen Fall führt das Pensionsbeispiel des folgenden Abschnitts vor. (Die Quelle schreibt hier „Teilbeträgen 1 und 2“ mit arabischen Ziffern, sonst durchgehend „Teilbetrag I“ und „Teilbetrag II“.)" },
+    ],
+  },
+  {
+    id: "kst-t4-31",
+    kapitel: "31",
+    abschnittNr: "4.1.3.2.4",
+    title: "4.1.3.2.4 Auflösung der Teilbeträge – drei Wege, ein Passivposten zu beenden",
+    thema: "Wird der Passivposten aufgelöst, ist die Gewinnerhöhung bis zur Höhe des Teilbetrags II außerbilanziell abzuziehen. Beträgt dieser 0 €, bleibt der Auflösungsertrag steuerpflichtig – per Saldo ergibt sich dennoch eine Einkommensauswirkung von 0 €",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 4.1.3.2.4 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8 Abs. 3 Satz 3 KStG",
+      "§ 27 KStG",
+      "R 7.1 Abs. 1 Punkt 8 KStR",
+    ],
+    themen: ["Auflösung der Teilbeträge", "Wegfallgewinn", "verdeckte Einlage", "Werthaltigkeit", "Verzicht", "Pensionsrückstellung", "Fortschreibung"],
+    bloecke: [
+      { text: "Die beiden Teilbeträge sind „aufzulösen“, wenn der Passivposten in der Steuerbilanz ganz oder teilweise aufgelöst wird. Bei der Kapitalgesellschaft ergibt sich die steuerliche Konsequenz nur im Zusammenhang mit dem Teilbetrag II. Die eventuelle Gewinnerhöhung, die sich durch Auflösung der Verpflichtung in der Steuerbilanz ergibt, ist, soweit sie anteilig auf den gesellschaftsrechtlich veranlassten Teil entfällt, bis zur Höhe des aufzulösenden Teilbetrags II außerhalb der Steuerbilanz wieder vom Gewinn abzuziehen." },
+      { text: "In den Fällen, in denen der Teilbetrag II 0 € beträgt, führt die Auflösung des Passivpostens somit zu einem steuerpflichtigen Ertrag. Darin ist keine Nachholung der Einkommenshinzurechnung zu sehen, da steuerlich in diesem Fall nur der Passivposten aufgelöst wird. Per Saldo ergibt sich somit eine Einkommensauswirkung von 0 €, weil in der Vergangenheit auch der Aufwand aus der Passivierung berücksichtigt wurde. Der Teilbetrag I hat als symbolischer Posten für die Einkommensermittlung der Kapitalgesellschaft keine Bedeutung. Dessen Auflösung ist immer einkommensneutral." },
+      { text: "Erfolgt die Auflösung des Passivpostens gewinnneutral, entfallen die beiden Teilbeträge, ohne dass sich daraus Auswirkungen auf das Einkommen der Kapitalgesellschaft ergeben können." },
+      { text: "Beispiel: Die A-GmbH bildet zum 31.12.2023 eine Tantiemerückstellung von 100.000 € zugunsten ihres Alleingesellschafters A, die aufgrund unklarer Abmachungen nicht anzuerkennen ist. Das Finanzamt hat den Aufwand bei der Veranlagung 2023 a) wieder hinzugerechnet b) nicht hinzugerechnet und die Veranlagung ist bestandskräftig. Die Tantieme wird zum 30.06.2024 fällig und ausgezahlt." },
+      { text: "Lösung: Die Tantiemerückstellung ist unabhängig davon, dass diese zu einer verdeckten Gewinnausschüttung führt, in der Bilanz zu passivieren. Der Aufwand von 100.000 € ist außerbilanziell wieder hinzuzurechnen. Danach beträgt in dem Unterfall a) der Teilbetrag I und II jeweils 100.000 €. Im Unterfall b) ist die Hinzurechnung unterblieben und kann in keinem anderen VZ mehr nachgeholt werden. Der Teilbetrag I beträgt daher 100.000 € und der Teilbetrag II 0 €. Die Auszahlung der Tantieme in 2024 hat keine Gewinnauswirkung (Buchung: Rückstellung an Bank). Daher ergeben sich in beiden Unterfällen keine weiteren Auswirkungen auf das Einkommen. Die beiden Teilbeträge entfallen einkommensneutral." },
+      { text: "Abwandlung 1: Wie Grundfall, nur am 15.01.2024 verzichtet der Gesellschafter auf seinen Tantiemenanspruch. Der Anspruch ist bei Verzicht noch voll werthaltig." },
+      { text: "Lösung: Der Verzicht auf die Tantieme führt zu einer verdeckten Einlage des Gesellschafters in Höhe des Teilwertes von 100.000 €. Bei Verzicht muss die Gesellschaft die Rückstellung zunächst gewinnwirksam auflösen (Buchung: Rückstellung an Ertrag). Bei der Einkommensermittlung ist der daraus resultierende Ertrag nach § 8 Abs. 3 Satz 3 KStG wieder abzuziehen und dem steuerlichen Einlagekonto i.S. des § 27 KStG gutzuschreiben. Mangels Einkommensauswirkung müssen die beiden Teilbeträge in beiden Unterfällen einkommensneutral aufgelöst werden." },
+      { text: "Abwandlung 2: Wie Grundfall, nur am 15.01.2024 verzichtet der Gesellschafter auf seinen Anspruch. Dieser ist nicht mehr werthaltig gewesen." },
+      { text: "Lösung: Aufgrund des Verzichts muss die Gesellschaft die Rückstellung in 2024 erfolgswirksam auflösen (Buchung: Rückstellung an Ertrag). Mangels Werthaltigkeit des Anspruchs des Gesellschafters liegt aber keine verdeckte Einlage vor, so dass der Ertrag aus der Rückstellungsauflösung zunächst auch einkommenswirksam ist." },
+      { text: "Dieser Ertrag kann nur durch den Teilbetrag II beseitigt werden, wenn in dieser Höhe bereits eine Einkommenserhöhung stattgefunden hat. Im Unterfall a) betrug dieser 100.000 €, da die verdeckte Gewinnausschüttung in 2023 zutreffend hinzugerechnet wurde. Dadurch wurde der Rückstellungsaufwand beseitigt, so dass sich dieser steuerlich nicht auswirken konnte. Im Gegenzug dazu kann sich der Auflösungsertrag in 2024 daher ebenfalls nicht auswirken. Bei der Einkommensermittlung 2024 ist dieser daher aufgrund der Auflösung des Teilbetrags II wieder abzuziehen. Einkommensauswirkung: ./. 100.000 €." },
+      { text: "Im Unterfall b) betrug der Teilbetrag II 0 €, da die verdeckte Gewinnausschüttung nicht hinzugerechnet wurde. Der Rückstellungsaufwand hat sich daher in voller Höhe ausgewirkt. Daher muss sich im Gegenzug auch der Auflösungsertrag vollständig auswirken, da dieser nicht mit einem Teilbetrag II verrechnet werden kann." },
+      { typ: "tabelle", spalten: ["Fall", "Auflösung in der Bilanz", "Unterfall a) Teilbetrag II = 100.000 €", "Unterfall b) Teilbetrag II = 0 €"], zeilen: [
+        ["Grundfall: Auszahlung der Tantieme am 30.06.2024", "gewinnneutral (Rückstellung an Bank)", "keine Einkommensauswirkung, Teilbeträge entfallen", "keine Einkommensauswirkung, Teilbeträge entfallen"],
+        ["Abwandlung 1: Verzicht auf den voll werthaltigen Anspruch", "gewinnwirksam (Rückstellung an Ertrag)", "verdeckte Einlage, Abzug nach § 8 Abs. 3 Satz 3 KStG, Zugang beim Einlagekonto; keine Einkommensauswirkung", "ebenso – keine Einkommensauswirkung"],
+        ["Abwandlung 2: Verzicht auf den nicht mehr werthaltigen Anspruch", "gewinnwirksam (Rückstellung an Ertrag)", "Abzug aufgrund der Auflösung des Teilbetrags II: ./. 100.000 €", "kein Abzug möglich – der Auflösungsertrag wirkt sich in voller Höhe aus"],
+      ] },
+      { text: "Beispiel: Die A-GmbH bildet zum 31.12.2023 eine Pensionsrückstellung von 50.000 € gegenüber ihrem Anteilseigner. Die Pensionszusage ist steuerlich nicht anzuerkennen. Das Finanzamt hat diese bisher nicht beanstandet. Zum 31.12.2024 wurde die Rückstellung auf 62.000 € erhöht. Das Finanzamt beanstandet die Zusage nunmehr erstmals." },
+      { text: "Lösung: Die Pensionsrückstellung muss in der Steuerbilanz unverändert passiviert werden, weil diese dem Grunde und der Höhe nach zutreffend ist. Die Auswirkungen der verdeckten Gewinnausschüttung werden nur außerbilanziell gezogen." },
+      { text: "Im VZ 2023 hätte das Finanzamt daher den Aufwand von 50.000 € wieder hinzurechnen müssen. Da dies unterblieben ist, ist dieser für diesen VZ endgültig abziehbar. Eine Bilanzberichtigung in folgenden Jahren ist nicht möglich. Der Teilbetrag I beträgt daher 50.000 € und der Teilbetrag II 0 €." },
+      { text: "Im VZ 2024 kann das Finanzamt nur den in diesem Jahr angefallenen Aufwand von 12.000 € dem Einkommen nach § 8 Abs. 3 Satz 2 KStG wieder hinzurechnen. Der Teilbetrag I beträgt danach 62.000 € und der Teilbetrag II 12.000 €." },
+      { typ: "tabelle", spalten: ["Stichtag", "Rückstellung", "Zuführung des Jahres", "Hinzurechnung", "Teilbetrag I", "Teilbetrag II"], zeilen: [
+        ["31.12.2023", "50.000 €", "50.000 €", "keine – unterblieben und endgültig", "50.000 €", "0 €"],
+        ["31.12.2024", "62.000 €", "12.000 €", "+ 12.000 €", "62.000 €", "12.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. Die Zuführung 2024 beträgt 62.000 € ./. 50.000 € = 12.000 €, und genau dieser Betrag ist hinzurechenbar. Der Teilbetrag I folgt dem gesamten Rückstellungsbetrag (62.000 €), weil die Zusage insgesamt nicht anzuerkennen ist; der Teilbetrag II folgt nur der tatsächlichen Hinzurechnung (12.000 €). Die Differenz von 50.000 € ist der endgültig unversteuert gebliebene Teil – dieselbe Größe, die schon Abschnitt 4.1.3.1 aufgeworfen hat." },
+      { text: "Anmerkung zum Grundfall (eigene Ergänzung): Der Grundfall ist der unauffälligste und zugleich der wichtigste, weil er zeigt, dass die Teilbeträge in der **Normalsituation gar nichts bewirken**. Wird die Tantieme einfach ausgezahlt, verschwindet die Rückstellung erfolgsneutral gegen die Bank, und beide Unterfälle enden gleich. Genau das meint Abschnitt 4.1.3.1 mit der Bemerkung, bei anderen Passivposten könne auf die Teilbeträge verzichtet werden: Solange erfüllt wird, spielen sie keine Rolle. Ihre Stunde schlägt erst, wenn der Posten **ohne Zahlung** wegfällt." },
+      { text: "Anmerkung zum Vergleich der beiden Abwandlungen (eigene Ergänzung): Die beiden Abwandlungen unterscheiden sich in einem einzigen Sachverhaltsmerkmal – der **Werthaltigkeit** des Anspruchs – und führen doch zu ganz verschiedenen Begründungen. Ist der Anspruch werthaltig, opfert der Gesellschafter etwas Wertvolles: Das ist eine **verdeckte Einlage**, sie wird nach § 8 Abs. 3 Satz 3 KStG abgezogen und dem Einlagekonto gutgeschrieben, und zwar in **beiden** Unterfällen gleichermaßen – der Teilbetrag II wird hier gar nicht gebraucht. Ist der Anspruch wertlos, opfert er nichts: Dann gibt es keine Einlage, der Auflösungsertrag bleibt zunächst stehen, und nur der Teilbetrag II kann ihn noch beseitigen. **Erst hier** trennen sich die Unterfälle a) und b) – und nur hier zeigt sich, was das Versäumnis des Finanzamts im Unterfall b) wert war." },
+      { text: "Anmerkung zum Satz von der Einkommensauswirkung 0 € (eigene Ergänzung): Der Satz, im Fall des Teilbetrags II von 0 € ergebe sich „per Saldo“ eine Einkommensauswirkung von 0 €, ist die entscheidende Rechtfertigung des ganzen Systems und verdient eine Zweiperiodenbetrachtung. Im Unterfall b) hat sich 2023 ein Aufwand von 100.000 € ausgewirkt, 2024 ein Ertrag von 100.000 € – über beide Jahre also null. Die vGA ist damit nicht nachversteuert worden, sondern nur der zu Unrecht gebliebene Abzug **rückgängig** gemacht. Das ist etwas anderes als eine Nachholung der Hinzurechnung, und die Quelle betont diesen Unterschied ausdrücklich: Eine Nachholung wäre unzulässig, eine bloße Rückabwicklung des Aufwands nicht. Wirtschaftlich büßt der Fiskus trotzdem ein – ihm entgeht der **Zinsvorteil** und, sofern sich die Steuersätze oder die Verlustlage geändert haben, auch mehr als das." },
+      { text: "Anmerkung zum Pensionsbeispiel (eigene Ergänzung): Es führt die Fortschreibung aus Abschnitt 4.1.3.2.3 unmittelbar vor und zeigt, dass eine erstmalige Beanstandung immer nur **in die Zukunft** wirkt. Das Finanzamt kann 2024 nicht die gesamte Rückstellung von 62.000 € aufgreifen, sondern nur die Zuführung des Jahres von 12.000 € – der Altbestand bleibt durch die Bestandskraft von 2023 geschützt. Dass die beiden Teilbeträge dabei **auseinanderlaufen** (62.000 € gegenüber 12.000 €), ist der Normalfall bei Pensionszusagen und genau der Grund, weshalb zwei Zahlen geführt werden müssen. Für den Gesellschafter gilt dabei der **größere** Betrag: Fließt ihm später die Pension zu, sind nach Abschnitt 4.1.3.2.1 die vollen 62.000 € als Beteiligungsertrag anzusetzen, obwohl bei der Gesellschaft nur 12.000 € hinzugerechnet wurden." },
     ],
   },
 ];

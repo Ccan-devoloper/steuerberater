@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 29 Kapitel mit 435
-  Abschnitten und 38 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 31 Kapitel mit 474
+  Abschnitten und 41 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3209,6 +3209,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   können **wegfallen**, ohne dass gezahlt wird. Weil die Teilbeträge nicht selbständig festgestellt
   werden, sind sie auch nicht selbständig angreifbar – wer sie für falsch hält, muss den
   Körperschaftsteuerbescheid des Wegfalljahres angreifen.
+  Die **Bedeutung** der beiden Teilbeträge erschließt sich über ihre Arbeitsteilung, und wer die
+  begriffen hat, braucht die Definitionen nicht auswendig zu lernen: **Teilbetrag I** arbeitet beim
+  **Gesellschafter** und bestimmt nach § 20 Abs. 1 Nr. 1 EStG den Umfang der Beteiligungserträge, die
+  bei späterem Zufluss zu versteuern sind; **Teilbetrag II** arbeitet bei der **Gesellschaft** und
+  sichert als Erinnerungsposten den außerbilanziellen Abzug bei der Auflösung. Der schärfste Satz des
+  Abschnitts betrifft dabei den Gesellschafter: Er versteuert **unabhängig davon**, ob es bei der
+  Gesellschaft zu einer Hinzurechnung gekommen ist – dort hilft die Bestandskraft, hier nicht. Der
+  Vorbehalt der **materiellen Korrespondenz** wirkt sogar verschärfend statt mildernd, weil die
+  Begünstigung gerade insoweit versagt wird, als die vGA beim Einkommen der Gesellschaft nicht erfasst
+  wurde. Dass die Korrektur bei der Auflösung außerbilanziell erfolgt, ist konsequent: Was außen
+  hinzugerechnet wurde, wird außen wieder abgezogen – der Teilbetrag II ist das Gedächtnis dieser
+  **Gegenberichtigung**.
+  Bei der **Auflösung** zeigt der Grundfall, dass die Teilbeträge in der Normalsituation gar nichts
+  bewirken: Wird die Tantieme einfach ausgezahlt, verschwindet die Rückstellung erfolgsneutral gegen
+  die Bank, und beide Unterfälle enden gleich. Ihre Stunde schlägt erst, wenn der Posten **ohne
+  Zahlung** wegfällt, und die beiden Abwandlungen unterscheiden sich dabei in einem einzigen
+  Sachverhaltsmerkmal – der **Werthaltigkeit** des Anspruchs. Verzichtet der Gesellschafter auf einen
+  voll werthaltigen Anspruch, opfert er etwas Wertvolles: Das ist eine verdeckte **Einlage**, sie wird
+  nach § 8 Abs. 3 Satz 3 KStG abgezogen und dem Einlagekonto gutgeschrieben – in beiden Unterfällen
+  gleichermaßen, der Teilbetrag II wird gar nicht gebraucht. Ist der Anspruch **wertlos**, opfert er
+  nichts, es gibt keine Einlage, und nur der Teilbetrag II kann den Auflösungsertrag noch beseitigen.
+  Erst hier trennen sich die Unterfälle: Mit 100.000 € ergibt sich eine Einkommensauswirkung von
+  ./. 100.000 €, mit 0 € bleibt der Ertrag voll steuerpflichtig. Darin liegt ausdrücklich **keine**
+  Nachholung der Hinzurechnung, sondern nur die Rückabwicklung des zu Unrecht gebliebenen Abzugs –
+  über beide Jahre gerechnet ergibt sich null, dem Fiskus entgeht wirtschaftlich nur der
+  **Zinsvorteil**. Das abschließende **Pensionsbeispiel** führt die Fortschreibung vor und zeigt, dass
+  eine erstmalige Beanstandung immer nur in die Zukunft wirkt: 2024 kann nicht die gesamte Rückstellung
+  von 62.000 € aufgegriffen werden, sondern nur die Zuführung des Jahres von 12.000 €. Dass die beiden
+  Teilbeträge dabei auseinanderlaufen, ist bei Pensionszusagen der Normalfall – und für den
+  Gesellschafter gilt der größere: Fließt ihm später die Pension zu, sind die vollen 62.000 € als
+  Beteiligungsertrag anzusetzen, obwohl bei der Gesellschaft nur 12.000 € hinzugerechnet wurden.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

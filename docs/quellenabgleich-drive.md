@@ -10620,6 +10620,44 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitt 4.1.3.2 – Bedeutung und Auflösung der Teilbeträge
+
+Quelle: dieselbe Datei, Seiten 44 bis 46; übernommen als Kapitel 30 und 31. Prüfung:
+`npm run check:k2-kst-teil4` (31 Kapitel, 474 Blöcke, 41 Tabellen).
+
+**Die Arbeitsteilung der beiden Teilbeträge ist als eigene Ergänzung herausgearbeitet.** Die Quelle
+nennt eingangs zwei Zwecke und ordnet dann jedem Teilbetrag einen davon zu, sagt das aber nicht
+ausdrücklich: Teilbetrag I arbeitet beim Gesellschafter (Umfang der Beteiligungserträge nach § 20
+Abs. 1 Nr. 1 EStG), Teilbetrag II bei der Gesellschaft (Abzug bei der Auflösung). Ebenfalls eigens
+eingeordnet ist, dass die materielle Korrespondenz hier verschärfend und nicht mildernd wirkt.
+
+**Alle Zahlen sind unabhängig nachgerechnet.** Pensionsbeispiel: 62.000 € ./. 50.000 € = 12.000 €
+Zuführung 2024, und genau dieser Betrag ist hinzurechenbar; Teilbetrag I folgt dem gesamten
+Rückstellungsbetrag, Teilbetrag II nur der tatsächlichen Hinzurechnung, die Differenz von 50.000 € ist
+der endgültig unversteuert gebliebene Teil.
+
+**Der Satz von der Einkommensauswirkung 0 € ist als eigene Feststellung um eine
+Zweiperiodenbetrachtung ergänzt.** Im Unterfall b) wirkt sich 2023 ein Aufwand von 100.000 € aus und
+2024 ein Ertrag von 100.000 € – über beide Jahre also null. Die vGA wird damit nicht nachversteuert,
+sondern nur der zu Unrecht gebliebene Abzug rückgängig gemacht; das ist der Unterschied, den die
+Quelle mit der „unzulässigen Nachholung“ meint. Ausdrücklich als eigene Beobachtung gekennzeichnet
+ist der Zusatz, dass der Fiskus wirtschaftlich gleichwohl den Zinsvorteil einbüßt.
+
+**Der Vergleich der beiden Abwandlungen ist als eigene Ergänzung gezogen:** Sie unterscheiden sich in
+einem einzigen Sachverhaltsmerkmal, der Werthaltigkeit des Anspruchs, und erst der Verzicht auf den
+wertlosen Anspruch trennt die Unterfälle a) und b) voneinander – beim werthaltigen Anspruch wird der
+Teilbetrag II gar nicht gebraucht, weil § 8 Abs. 3 Satz 3 KStG die Korrektur bereits trägt.
+
+**Eine Schreibweise der Quelle ist festgehalten:** Sie spricht an einer Stelle von den „Teilbeträgen 1
+und 2“ mit arabischen Ziffern, sonst durchgehend von „Teilbetrag I“ und „Teilbetrag II“. Die
+Kopfzeile der Seite 45 lautet erneut „4. Verdeckte Gewinnausschüttung in Dreiecksfällen“, obwohl dort
+das Kapitel 4 läuft; Kopfzeilen sind nicht Teil des Fließtextes und deshalb nicht übernommen.
+
+**Noch offen:** aus Teil IV die Besonderheit des nur teilweise gesellschaftsrechtlich veranlassten
+Passivpostens, die vGA bei Posten der Aktivseite (4.1.4), die Kapitalertragsteuer (4.1.5), das
+steuerliche Einlagekonto (4.1.6), die Auswirkungen beim Gesellschafter (4.2) und die Kapitel 5 und 6;
+ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 4.1 bis 4.1.3.1 – Hinzurechnung und Teilbetragsrechnung
 
 Quelle: dieselbe Datei, Seiten 42 und 43; übernommen als Kapitel 28 und 29. Prüfung:
