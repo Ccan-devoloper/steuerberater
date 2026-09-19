@@ -10620,6 +10620,57 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitt 3.2.4.3 – Zinsschranke im Organkreis
+
+Übernommen ist der Abschnitt zur Zinsschranke (Seiten 43 bis 45 der Quelle) mit
+beiden Unterabschnitten: dem **Anwendungsausschluss bei der Organgesellschaft**
+(3.2.4.3.1) und der **Anwendung beim Organträger** (3.2.4.3.2) samt dem
+abschließenden Beispiel. Die Quelle überschreibt den Abschnitt selbst mit dem
+Zusatz „(nur Hinweis)“ und verweist für die Zinsschranke im Übrigen auf das
+KSt-Skript Teil V, das hier bereits vollständig abgebildet ist. Der Datensatz
+umfasst damit 24 Kapitel mit 476 Abschnitten und 29 Tabellen; geprüft mit
+`npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** § 15 Satz 1 Nr. 3 Satz 1 KStG schließt die Zinsschranke bei
+der Organgesellschaft aus; Zinsaufwendungen, Zinserträge und EBITDA-Bestandteile
+bleiben unverändert im Organeinkommen und werden über den Feststellungsbescheid
+nach § 14 Abs. 5 KStG mitgeteilt. Vororganschaftliche Zins- und EBITDA-Vorträge
+bleiben eingefroren. Satz 2 erklärt den Organkreis zu einem Betrieb, Satz 3 führt
+alle Zinsgrößen beim Organträger zusammen; dort werden Freigrenze,
+stand-alone-Betrachtung und Konzernklausel des § 4h Abs. 2 EStG geprüft, bei einer
+Organträger-Kapitalgesellschaft ergänzt um den 10%-Check des § 8a Abs. 3 KStG.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.2.4.3.1 schreibt „Organschaftgesellschaft“; gemeint ist die
+  Organgesellschaft.
+- Die Lösung des Beispiels stützt das Einfrieren des Zins- und EBITDA-Vortrags auf
+  „§ 15 Satz 1 Nr. 1 KStG“. Diese Vorschrift betrifft den Verlustabzug nach
+  § 10d EStG. Abschnitt 3.2.4.3.1 zieht zum Zinsvortrag ausdrücklich nur die
+  **Parallele** und stützt das Ergebnis auf das BMF-Schreiben vom 24.03.2025,
+  BStBl. I 2025, 683, Rn. 57; der Verweis in der Lösung greift daher zu kurz.
+- Abschnitt 3.2.4.3.2 schreibt „Die eigene Beteiligung des Organträgers an ihren
+  Organgesellschaften“ – Genuswechsel innerhalb des Satzes.
+- Die Quelle zitiert die Ausnahmetatbestände durchgehend als „§ 4h Abs. 2a)“,
+  „Abs. 2b)“ und „Abs. 2c)“ EStG; gesetzlich handelt es sich um § 4h
+  Abs. 2 Satz 1 Buchst. a bis c EStG. Die Schreibweise ist wortlautgetreu
+  übernommen und beim ersten Vorkommen erläutert.
+- Der Satz „Ist dies der Fall, kann der Organträger nur dann den für die
+  Abwendung der Zinsschranke notwendigen Eigenkapitalvergleich vornehmen“ stellt
+  „nur dann“ ohne Bezugswort; gemeint ist: nur bei tatsächlicher Einbeziehung
+  in den Konzernabschluss.
+
+**Eigene Nachrechnung.** Der Nettozinsaufwand des Beispiels beträgt 3.000.000 €
+(A-GmbH) + 1.000.000 € (B-GmbH) = 4.000.000 €; Zinserträge nennt der Sachverhalt
+nicht. Die Freigrenze des § 4h Abs. 2 Satz 1 Buchst. a EStG von 3.000.000 € ist
+damit überschritten – die Quelle beziffert sie nicht, weil sie im Teil V behandelt
+ist, und setzt sie mit „bereits überschritten“ voraus. Bemerkenswert und im
+Datensatz als eigene Ergänzung vermerkt: Der Zinsaufwand der Organgesellschaft
+allein erreicht die Freigrenze genau; überschritten wird sie erst durch die
+Betriebsfiktion des § 15 Satz 1 Nr. 3 Satz 2 KStG. Die Beteiligung von je 50 %
+liegt über der Grenze von 25 %, so dass die stand-alone-Betrachtung zutreffend
+ausscheidet.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.2.4.1 und 3.2.4.2 – Verlustabzug und Bruttomethode
 
 Übernommen sind die beiden ersten Unterabschnitte zur Nichtgeltung von Vorschriften

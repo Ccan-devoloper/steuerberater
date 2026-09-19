@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 22 Kapitel mit 446 Abschnitten und 27 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 24 Kapitel mit 476 Abschnitten und 29 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4918,6 +4918,40 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   beträgt 50.000 € (100.000 € Ausschüttung ./. 50.000 € Betriebsausgaben), beim Organträger werden
   aber 95.000 € freigestellt, so dass ./. 45.000 € verbleiben – die Betriebsausgaben bleiben in
   voller Höhe abziehbar, während der Ertrag fast vollständig steuerfrei ist.
+  Die **Zinsschranke** behandelt die Quelle ausdrücklich nur als Hinweis – sie ist im KSt-Skript
+  Teil V entfaltet –, folgt organschaftlich aber demselben Muster wie der Verlustabzug. **§ 15 Satz 1
+  Nr. 3 Satz 1 KStG** schließt sie **bei der Organgesellschaft** aus, so dass deren Zinsaufwendungen
+  und Zinserträge i.S. des § 4h Abs. 3 EStG **unverändert** im Organeinkommen bleiben; sie werden
+  ebenso wie die Bestandteile des steuerlichen EBITDA über den Feststellungsbescheid nach § 14 Abs. 5
+  KStG an den Organträger **mitgeteilt**. Der Ausschluss ist deshalb **keine Befreiung**, sondern nur
+  eine Verschiebung der Prüfungsebene – die Ermittlungspflicht bleibt vollständig bestehen. Ein
+  **vororganschaftlicher Zinsvortrag** und ebenso ein vororganschaftlicher **EBITDA-Vortrag** bleiben
+  wie der Verlust **eingefroren** und leben erst nach Beendigung der Organschaft wieder auf. Der
+  **Rechtsgrund** ist allerdings ein anderer als beim Verlust: Dort folgt die Sperre aus der Kürzung
+  nach § 301 AktG, hier aus der **Betriebsfiktion** – der alte Vortrag gehört zu einem Betrieb, den
+  es als eigenständigen nicht mehr gibt.
+  Geprüft wird allein **beim Organträger**, weil der Organkreis nach § 15 Satz 1 Nr. 3 Satz 2 KStG
+  als **ein Betrieb** gilt und Satz 3 sämtliche Zinsaufwendungen und Zinserträge dort zusammenführt.
+  Diese Fiktion wirkt in **beide Richtungen**. Günstig ist sie, wo sie Zinsaufwand der einen mit
+  Zinsertrag der anderen Gesellschaft **saldiert** und wo sie die Beteiligung des Organträgers an
+  seinen eigenen Organgesellschaften für die stand-alone-Prüfung **ausblendet** – ohne diese
+  Klarstellung wäre jede Organschaft schon deshalb konzernzugehörig. Ungünstig ist sie, wo sie die
+  **Freigrenze** nur **einmal** für den gesamten Kreis gewährt. Die drei Ausnahmetatbestände des
+  § 4h Abs. 2 EStG bauen **stufenweise** aufeinander auf, und jede spätere Stufe ist aufwendiger als
+  die vorige: die **Freigrenze** (Buchst. a) ist eine einzige Zahl; die **stand-alone-Betrachtung**
+  (Buchst. b) verlangt die Beteiligungsstruktur und scheitert an jeder Beteiligung von mindestens
+  25 % – dann liegt eine nahestehende Person i.S. des § 1 Abs. 2 AStG vor – ebenso wie an jeder
+  ausländischen Betriebsstätte; die **Konzernklausel** (Buchst. c) schließlich verlangt einen
+  Konzernabschluss und bei einer Organträger-Kapitalgesellschaft zusätzlich den **10%-Check** des
+  § 8a Abs. 3 KStG. Bei ihr kehrt sich die gewohnte Anschauung um: Wer **keinem Konzern** angehört,
+  hat **keine Vergleichsgröße** für den **Eigenkapitalvergleich** und kann ihn deshalb gar nicht
+  führen – die Zinsschranke greift also gerade dann. Im Beispiel treffen 3.000.000 € Zinsaufwand der
+  Organgesellschaft und 1.000.000 € des Organträgers zu einem **Nettozinsaufwand von 4.000.000 €**
+  zusammen: Erst die Zusammenfassung überschreitet die Freigrenze, die der Zinsaufwand der
+  Organgesellschaft allein genau erreicht hätte. Weil beide Anteilseigner zu je 50 % beteiligt sind
+  und die B-GmbH in keinen Konzernabschluss einbezogen wird, greift keine der drei Ausnahmen; da
+  **§ 8a Abs. 2 KStG a.F.** ersatzlos aufgehoben ist, entscheidet allein das verrechenbare EBITDA
+  über den Umfang des Abzugsverbots und damit über einen Zins- oder EBITDA-Vortrag.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
