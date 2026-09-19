@@ -294,6 +294,33 @@ function korrigierePar34(thema) {
   };
 }
 
+function korrigiereAussenpruefung171(thema) {
+  normErgaenzen(thema, "§ 171 Abs. 4 S. 1–8 AO", "Art. 97 § 37 Abs. 2 EGAO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 171 Abs. 4 AO ist nach dem Entstehungszeitpunkt der geprüften Steuer zu trennen. Für Steuern und Steuervergütungen, die nach dem 31.12.2024 entstehen, gilt die Neufassung; für ältere Steuern bleibt § 171 Abs. 4 a. F. maßgeblich.",
+      "Neues Recht: Die Ablaufhemmung endet grundsätzlich spätestens fünf Jahre nach Ablauf des Kalenderjahres, in dem die Prüfungsanordnung bekanntgegeben wurde. Gesetzliche Verlängerungen gelten insbesondere bei vom Steuerpflichtigen beantragtem Hinausschieben/Unterbrechen sowie bei qualifizierter zwischenstaatlicher Amtshilfe; bei bestimmten Strafverfahrensfällen greift die Fünfjahresgrenze nicht.",
+    ],
+    lernziele: [
+      "Anwendungsbereich altes/neues §-171-Abs.-4-Recht anhand des Steuerentstehungszeitpunkts trennen",
+      "wirksame Prüfungsanordnung und tatsächlichen Prüfungsbeginn bzw. beantragten Aufschub prüfen",
+      "neue Fünfjahres-Höchstgrenze ab Bekanntgabejahr der Prüfungsanordnung berechnen",
+      "Verlängerungs- und Ausnahmefälle der Sätze 4–8 gesondert prüfen",
+      "Reichweite auf geprüfte Steuerarten und Besteuerungszeiträume begrenzen",
+    ],
+    pruefschritte: [
+      "1. Entstehungszeitpunkt der Steuer bestimmen: nach dem 31.12.2024 → § 171 Abs. 4 n. F.; davor → altes Recht.",
+      "2. Wirksame Prüfungsanordnung und Hemmungstatbestand nach Satz 1 prüfen: Prüfungsbeginn vor Fristablauf oder auf Antrag hinausgeschobener Beginn.",
+      "3. Unterbrechungsregel des Satzes 2 prüfen.",
+      "4. Bei neuem Recht Höchstgrenze berechnen: grundsätzlich fünf Jahre nach Ablauf des Kalenderjahres der Bekanntgabe der Prüfungsanordnung.",
+      "5. Verlängerungen nach Satz 4/5 und Ausnahme bei Strafverfahren nach Satz 7 prüfen; § 200a Abs. 4/5 bleibt vorbehalten.",
+      "6. Unanfechtbarkeit der aufgrund der Prüfung erlassenen Bescheide bzw. Drei-Monats-Regel nach § 202 Abs. 1 S. 3 weiterhin in die Endprüfung einbeziehen.",
+    ],
+    merksatz: "Außenprüfung 2026: Nicht mehr pauschal mit Schlussbesprechung/letzter Ermittlung als äußerster Grenze rechnen. Für ab 2025 entstehende Steuern gilt grundsätzlich die Fünfjahresgrenze ab Ende des Bekanntgabejahres der Prüfungsanordnung – Ausnahmen und Verlängerungen prüfen.",
+  };
+}
+
 function korrigiereFamilienheim(thema) {
   normErgaenzen(thema, "§ 13 Abs. 1 Nr. 4a–4c ErbStG");
   const schritte = [...(thema.kern?.pruefschritte || [])].map((x) =>
@@ -610,6 +637,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-modul-k3-36": korrigiereEntfernungspauschale(thema); break;
       case "bilanz-modul-k3-47": korrigierePar34(thema); break;
       case "erbst-modul-erbst-506": ergaenzeErbfallkosten(thema); break;
+      case "ao-modul-ao-335": korrigiereAussenpruefung171(thema); break;
       case "erbst-modul-erbst-512": korrigiereFamilienheim(thema); break;
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
       case "erbst-modul-erbst-515": korrigiereErbStSchuldenabzug(thema); break;
