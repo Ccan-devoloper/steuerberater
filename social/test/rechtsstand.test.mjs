@@ -40,6 +40,15 @@ test("§ 9 AStG verwendet Einkünfte und kennzeichnet 2025/2026", () => {
   assert.match(auftrag, /80\.000/);
 });
 
+test("Grundstückseinlage trennt Dreijahresdeckel von §23-Zehnjahresregel", () => {
+  const t = byId("bilanz-modul-k3-41");
+  assert.match(kern(t), /innerhalb der letzten drei Jahre/i);
+  assert.match(kern(t), /§ 23 Abs\. 1 S\. 5 Nr\. 1/i);
+  assert.match(kern(t), /innerhalb von zehn Jahren seit der ursprünglichen Anschaffung/i);
+  assert.match(kern(t), /Einlagewert.*an die Stelle des Veräußerungspreises/i);
+  assert.doesNotMatch(kern(t), /stille Reserve.*endgültig unbesteuert/i);
+});
+
 test("Wirtschaftliches Eigentum bei Miete/Leasing ist keine absolute Nie-Regel", () => {
   const t = byId("bilanz-modul-k3-2");
   assert.match(kern(t), /Mieter oder Pächter.*in der Regel nicht wirtschaftlicher Eigentümer/i);
