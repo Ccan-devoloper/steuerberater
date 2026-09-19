@@ -63,6 +63,20 @@ test("wirtschaftliches Eigentum bei Miete ist nicht absolut ausgeschlossen", () 
 });
 
 
+
+test("Vorgesellschaft setzt erfolgreiche GmbH-Gründung voraus", () => {
+  const modul = byId("kst-modul-kst-1");
+  assert.match(kern(modul), /Scheitert die Eintragung/);
+  assert.match(kern(modul), /Einzelunternehmen\/Personengesellschaft/);
+
+  const quiz = byTitle(/Körperschaftsteuerpflicht einer erfolgreich gegründeten GmbH/i);
+  assert.match(kern(quiz), /später tatsächlich in das Handelsregister eingetragen/);
+  assert.match(kern(quiz), /Scheitert die Eintragung endgültig/);
+
+  const karte = byTitle(/Vorgründung vs\. Vorgesellschaft/i);
+  assert.match(kern(karte), /bei später erfolgreicher Registereintragung/);
+});
+
 test("KSt-Quiz erklärt §8b-Erwerbsfiktion und Vereinsgrenze", () => {
   const streubesitz = byTitle(/Welche Beteiligungsquote ist für die Streubesitzdividende/i);
   assert.match(kern(streubesitz), /§ 8b Abs\. 4 S\. 6 KStG/);
