@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 60 Kapitel mit 1.024 Abschnitten und 83 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 63 Kapitel mit 1.082 Abschnitten und 86 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5402,6 +5402,48 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Beteiligungsertrag folglich **gesondert** ausweisen, weil er sonst im Organeinkommen gar nicht mehr
   auffindbar wäre. Damit sind die organschaftlichen Mehr- und Minderabführungen vollständig
   abgebildet; sämtliche Zahlen sind unabhängig nachgerechnet.
+  **Vororganschaftlich** verursacht ist eine Abweichung, deren **Ursache** zeitlich vor Geltung des
+  Gewinnabführungsvertrags liegt und die sich erst danach **umkehrt**. Entscheidend ist also nicht,
+  wann sie sich auswirkt, sondern wann sie entstanden ist – es ist derselbe Zwei-Jahres-Zyklus wie bei
+  den organschaftlichen Abweichungen, nur dass sein erster Teil **vor** den Vertrag fällt. Deshalb
+  folgt einer vororganschaftlichen Minderabführung eine organschaftliche Mehrabführung und umgekehrt.
+  Die Quelle grenzt sorgfältig gegen den weiteren Begriff „außerorganschaftlich“ ab, der jeden nicht
+  vom Vertrag erfassten Vorgang umfassen würde und damit zu weit ginge.
+  Die **Rechtsfolgen** des § 14 Abs. 3 KStG unterscheiden sich von denen des Absatzes 4 **nur bei der
+  Mehrabführung** – und darin liegt der Kern des ganzen Abschnitts. Die **Minderabführung** ist in
+  beiden Fällen eine **Einlage**; die **Mehrabführung** ist organschaftlich eine
+  **Einlagenrückgewähr**, die zunächst nur Buchwert verzehrt, vororganschaftlich dagegen eine
+  **Gewinnausschüttung** mit Kapitalertragsteuer, Verwendungsreihenfolge und § 8b KStG. Der Grund
+  liegt im **Ursprung** des Vermögens: Eine organschaftliche Mehrabführung führt Vermögen ab, das über
+  das Organeinkommen ohnehin beim Organträger versteuert wird – eine Ausschüttungsbesteuerung wäre
+  Doppelerfassung. Eine vororganschaftliche führt dagegen Vermögen ab, das aus der Zeit **vor** der
+  Organschaft stammt und bei der Organgesellschaft **selbst versteuert** wurde; es verlässt sie wie
+  eine gewöhnliche Dividende. § 14 Abs. 3 KStG ist damit keine Sanktion, sondern die folgerichtige
+  Anwendung des Ausschüttungsrechts auf vorgefundenes Altvermögen. Aus derselben Verschiedenheit folgt
+  das **Saldierungsverbot**: Beide Arten dürfen **nicht** verrechnet werden, obwohl § 14 Abs. 4 Satz 7
+  KStG die Saldierung innerhalb derselben Kategorie gerade anordnet. Bemerkenswert ist schließlich der
+  **Definitionsmaßstab**: Für § 14 Abs. 3 KStG gilt gerade **nicht** die Legaldefinition des § 14
+  Abs. 4 Satz 6 KStG – der BFH verlangt hier zusätzlich, dass die Differenz das **Einkommen** des
+  Organträgers beeinflusst hat, also genau jene Auffassung, die er für die organschaftlichen Fälle
+  vergeblich vertreten hatte. Dieselbe Streitfrage findet je nach Absatz eine andere Antwort.
+  Beim **Organträger** bildet die ausdrücklich **gedankliche** Buchung **„Aufwand an Ertrag“** den
+  Vorgang ab, und sie leistet zweierlei: Der **Ertrag** ist die fingierte **Ausschüttung** und wird
+  nach § 8b KStG gewürdigt; der **Aufwand** hat gar keinen wirtschaftlichen Gehalt – er gleicht nur
+  die Buchung aus, weil dem Organträger real nichts zusätzlich zufließt, und ist deshalb
+  außerbilanziell hinzuzurechnen. Der Hinweis der Quelle zeigt den Unterschied zur organschaftlichen
+  Mehrabführung, wo die Gegenbuchung „Aufwand an **Beteiligung**“ lautet, weil dort tatsächlich
+  Buchwert verzehrt wird. **Per Saldo** bleibt bei einer Kapitalgesellschaft als Organträger nur die
+  **5%-Pauschale** übrig; im Beispiel sind das 25.000 € bei einer Mehrabführung von 500.000 €, und das
+  Gesamteinkommen von 125.000 € besteht aus dem eigenen Gewinn von 100.000 € zuzüglich dieser
+  Pauschale. Praktisch unangenehm ist das **Auseinanderfallen der Zeitpunkte**: Der Beteiligungsertrag
+  gilt nach § 14 Abs. 3 Satz 3 KStG schon mit **Ablauf des Wirtschaftsjahres** als zugeflossen, die
+  **Kapitalertragsteuer** entsteht nach § 44 Abs. 7 EStG erst mit **Feststellung der Handelsbilanz**,
+  spätestens acht Monate später – angerechnet werden darf sie aber nur im Veranlagungszeitraum des
+  Ertrags, so dass die Veranlagung des Vorjahres offenzuhalten oder zu ändern ist. Ob es überhaupt zur
+  Kapitalertragsteuer kommt, entscheidet schließlich die **Verwendungsreihenfolge**: Reicht der
+  ausschüttbare Gewinn, bleibt es bei der Ausschüttung; greift die Leistung auf das **Einlagekonto**
+  durch, wird daraus eine Einlagenrückgewähr ohne Kapitalertragsteuer, die den Beteiligungsbuchwert
+  verzehrt.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

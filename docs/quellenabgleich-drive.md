@@ -10620,6 +10620,63 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.5.1 bis 3.5.3.1 – vororganschaftliche Mehr- und Minderabführungen
+
+Übernommen sind die Seiten 77 bis 80 der Quelle: der Begriff mit den fünf
+Anwendungsfällen (3.5.1), die Rechtsfolgen des § 14 Abs. 3 KStG (3.5.2) und die
+Mehrabführung als Beteiligungsertrag mit dem durchgerechneten Beispiel (3.5.3.1). Der
+Datensatz umfasst damit 63 Kapitel mit 1.082 Abschnitten und 86 Tabellen; geprüft mit
+`npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Vororganschaftlich ist eine Abweichung, deren Ursache vor Geltung
+des Gewinnabführungsvertrags liegt und die sich erst danach umkehrt. Die Rechtsfolgen
+unterscheiden sich von § 14 Abs. 4 KStG nur bei der Mehrabführung: Sie gilt als
+Gewinnausschüttung, nicht als Einlagenrückgewähr. Eine Saldierung beider Arten ist
+unzulässig, weil sie verschiedene Besteuerungsfolgen auslösen. Für die Definition gilt
+nach dem BFH gerade nicht § 14 Abs. 4 Satz 6 KStG; verlangt wird zusätzlich eine
+Einkommenswirkung beim Organträger. Beim Organträger wird der Vorgang gedanklich als
+„Aufwand an Ertrag“ gebucht; per Saldo bleibt bei einer Kapitalgesellschaft nur die
+5%-Pauschale.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.5.1: „Von einer vororganschaftlichen Verursachung auszugehen, wenn eine
+  …“ – dem Satz fehlt das finite Verb.
+- Abschnitt 3.5.1: „orientiert sich nach dem BFH-Urteil vom 06.06.2013 aber nicht nach
+  § 14 Abs. 4 KStG“ – „orientiert sich nach“ statt „an“.
+- Abschnitt 3.5.1: „Darunter verstehen sich rein rechnerische Differenzen“ –
+  gemeint ist „darunter sind … zu verstehen“.
+- Abschnitt 3.5.1: „Dies liegt darin begründet, weil diese unterschiedliche
+  Besteuerungsfolgen nach sich ziehen können“ – die Konstruktion vermischt
+  „liegt darin, dass“ und „ist darin begründet, dass“.
+- Abschnitt 3.5.1 schreibt „zB.“ statt „z.B.“.
+- Abschnitt 3.5.3.1 zitiert erneut „§ 3 Nr. 40d EStG“; gesetzlich § 3 Nr. 40
+  Buchst. d EStG.
+
+**Eigene Nachrechnung.** Die Zahlen des Beispiels gehen auf: Die Pauschale beträgt 5 %
+von 500.000 € = 25.000 €; die Aufstellung ergibt 600.000 € ./. 500.000 € + 0 €
+./. 500.000 € + 25.000 € + 500.000 € = 125.000 €.
+
+Erläuterungsbedürftig und im Datensatz als eigene Ergänzung ausgewiesen: Der **Ertrag**
+von 500.000 € hat in der Aufstellung **keine eigene Zeile**. Die Buchung
+„Aufwand an Ertrag“ ist in sich ausgeglichen und im unterstellten Jahresüberschuss
+von 600.000 € neutral enthalten; die Zeilen „./. § 8b Abs. 1 KStG“ und
+„+ Aufwand aus Mehrabführung“ heben sich mit je 500.000 € ebenfalls auf. Übrig
+bleiben der eigene Gewinn von 100.000 € und die Pauschale von 25.000 €. Der Satz
+„Das daraus entstehende Einkommen beträgt somit 25.000 €“ meint folglich die
+Einkommenswirkung der Mehrabführung, nicht das Gesamteinkommen von 125.000 € – im
+Einklang mit der vorangegangenen Aussage, die Einkommensauswirkung entspreche
+„per Saldo“ der Pauschale.
+
+Ebenfalls als eigene Ergänzungen ausgewiesen: die Erklärung der unterschiedlichen
+Behandlung aus dem Ursprung des Vermögens (vororganschaftliches Vermögen wurde bei der
+Organgesellschaft selbst versteuert und verlässt sie wie eine Dividende), der Gegensatz
+zwischen Saldierungsverbot hier und Saldierungsgebot in § 14 Abs. 4 Satz 7 KStG, der
+Hinweis auf den abweichenden Definitionsmaßstab (dieselbe Streitfrage, je nach Absatz
+verschieden entschieden), die Funktion der beiden Buchungshälften und das
+Auseinanderfallen der Zeitpunkte zwischen Zufluss (§ 14 Abs. 3 Satz 3 KStG), Entstehung
+der Kapitalertragsteuer (§ 44 Abs. 7 EStG) und Anrechnung.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.4.6.3 und 3.4.6.4 – Zusammenrechnung und Kettenorganschaft
 
 Übernommen sind die Seiten 73 bis 77 der Quelle: die Zusammenrechnung der Beteiligungen
