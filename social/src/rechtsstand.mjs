@@ -1063,6 +1063,43 @@ function korrigiereAo173(thema) {
   };
 }
 
+
+function korrigiereAo181Abs5(thema) {
+  normErgaenzen(
+    thema,
+    "§ 181 Abs. 5 S. 1 und 2 AO",
+    "AEAO zu § 181 Nr. 1.1 und 1.2",
+    "BFH 15.07.2021 – II R 38/19",
+    "BFH 24.04.2024 – IV R 19/21"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 181 Abs. 5 S. 1 AO ermöglicht trotz abgelaufener Feststellungsfrist eine gesonderte Feststellung, soweit sie für eine Steuerfestsetzung von Bedeutung ist, deren Festsetzungsfrist im Zeitpunkt der gesonderten Feststellung noch nicht abgelaufen ist; § 171 Abs. 10 AO bleibt bei dieser Prüfung außer Betracht.",
+      "Der Wirkhinweis nach § 181 Abs. 5 S. 2 AO muss kenntlich machen, dass die Feststellung nur für noch nicht festsetzungsverjährte Folgebescheide Bedeutung hat. Nach ständiger BFH-Rechtsprechung hat der Hinweis Regelungscharakter und bestimmt den zeitlichen Geltungsbereich der Feststellung.",
+      "Fehlt der erforderliche Wirkhinweis, ist der Feststellungsbescheid nicht deshalb unwirksam oder nichtig, sondern wirksam und rechtswidrig. Der Hinweis kann nach Einspruch grundsätzlich in einem Änderungsbescheid oder in der Einspruchsentscheidung nachgeholt werden, wenn die Voraussetzungen des § 181 Abs. 5 dann noch vorliegen.",
+      "Der Wirkhinweis soll die eingeschränkte Wirkung abstrakt bezeichnen; konkrete Aussagen dazu, für welche Steuerarten oder Zeiträume im Folgebescheidsverfahren noch keine Verjährung eingetreten ist, gehören nicht in den Hinweis.",
+    ],
+    lernziele: [
+      "abgelaufene Feststellungsfrist von offener Festsetzungsfrist des Folgebescheids trennen",
+      "§ 171 Abs. 10 bei der Voraussetzung des § 181 Abs. 5 S. 1 außer Betracht lassen",
+      "Regelungscharakter und richtigen Inhalt des Wirkhinweises nach Satz 2 kennen",
+      "fehlenden Wirkhinweis als Rechtswidrigkeits- und nicht als Nichtigkeits- oder Unwirksamkeitsgrund einordnen",
+      "mögliche Nachholung des Wirkhinweises im Einspruchsverfahren prüfen",
+      "bei Änderungs-Feststellungsbescheiden zusätzlich eine eigenständige Änderungsbefugnis verlangen",
+    ],
+    pruefschritte: [
+      "Zunächst prüfen, ob die Feststellungsfrist noch läuft.",
+      "Ist sie abgelaufen, § 181 Abs. 5 S. 1 prüfen: Bedeutung für einen Folgebescheid, dessen Festsetzungsfrist im Zeitpunkt der Feststellung noch offen ist; § 171 Abs. 10 außer Betracht lassen.",
+      "Wirkhinweis nach § 181 Abs. 5 S. 2 prüfen: abstrakter Hinweis auf die Bedeutung nur für noch nicht festsetzungsverjährte Folgebescheide.",
+      "Fehlt der Hinweis, Bescheid als wirksam, aber rechtswidrig einordnen; bei Einspruch mögliche Nachholung prüfen.",
+      "Keine konkrete Verjährungsentscheidung für einzelne Steuerarten oder Besteuerungszeiträume in den Wirkhinweis verlagern; diese gehört in das Folgebescheidsverfahren.",
+      "Bei einem Änderungs-Feststellungsbescheid zusätzlich die erforderliche Änderungsnorm prüfen.",
+    ],
+    merksatz: "§ 181 Abs. 5: offene Folgebescheidsfrist ermöglicht die späte Feststellung; der Wirkhinweis begrenzt ihren Regelungsgehalt. Fehlt er, ist der Bescheid wirksam, aber rechtswidrig – nicht automatisch nichtig.",
+  };
+}
+
 function korrigiereFeststellungsbescheid181(thema) {
   normErgaenzen(thema, "§ 181 Abs. 5 AO", "§ 182 Abs. 1 AO");
   thema.titel = "Feststellungsbescheid: Bindungswirkung und Sonderfall § 181 Abs. 5 AO";
@@ -1767,6 +1804,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "ao-modul-ao-308": korrigiereBekanntgabeBevollmaechtigter(thema); break;
       case "ao-modul-ao-313": korrigiereAo122a(thema); break;
       case "ao-modul-ao-347": korrigiereAo164Vdn(thema); break;
+      case "ao-modul-ao-340": korrigiereAo181Abs5(thema); break;
       case "ao-modul-ao-351": korrigiereFeststellungsbescheid181(thema); break;
       case "ao-modul-ao-352": korrigiereAo129(thema); break;
       case "ao-modul-ao-354": korrigiereAo173(thema); break;
