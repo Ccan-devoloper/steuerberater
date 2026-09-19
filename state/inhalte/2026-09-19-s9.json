@@ -1,0 +1,13 @@
+{
+  "slot": "s9",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "pairId": "bilanz-formel-gewerbesteuer",
+  "titel": "Gewerbesteuerrückstellung berechnen",
+  "text": "Beispiel: Gewerbeertrag 80.000 €, Hebesatz 400 %. GewSt = 80.000 × 3,5 % × 4 = 11.200 €. Keine Rückrechnung, da § 4 (5b) EStG die GewSt nicht abzugsfähig macht.",
+  "formel": "GewSt = Gewerbeertrag × 3,5 % × Hebesatz",
+  "fachLabel": "Bilanzsteuerrecht",
+  "befundeTypisiert": true,
+  "fachStand": "inowbb-328"
+}

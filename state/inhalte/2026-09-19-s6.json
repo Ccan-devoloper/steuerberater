@@ -1,0 +1,17 @@
+{
+  "slot": "s6",
+  "art": "countdown",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Tage bis zur schriftlichen Prüfung",
+  "text": "Heute: ein Prüfschema aus Klausur 1 wiederholen und eine Altklausur unter Zeitdruck rechnen.",
+  "zahl": "17",
+  "fortschritt": 89,
+  "ueberzeile": "Noch",
+  "fachLabel": "Bilanzsteuerrecht",
+  "befundeTypisiert": true,
+  "beanstandetFachlich": [
+    "[Story s6 countdown]: Die konkrete Zahl für die Tage bis zur Prüfung fehlt. Der Text sagt \"Noch · Tage bis zur schriftlichen Prüfung · 17 ·\". Es ist unklar, ob \"17\" die Anzahl der Tage ist oder ob diese Angabe fehlt. Die Struktur ist unvollständig und der Sachverhalt nicht eingeführt. → "
+  ],
+  "fachStand": "1t5nxi7-228"
+}

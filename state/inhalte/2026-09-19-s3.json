@@ -1,0 +1,17 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "pairId": "persg-quiz-k3-24",
+  "ueberzeile": "Prüfungsfrage Personengesellschaften",
+  "titel": "Welche Bilanzen bilden das Kapitalkonto i.S.d. § 15a EStG?",
+  "optionen": [
+    "Nur die Gesamthandsbilanz",
+    "Gesamthands- und Ergänzungsbilanz",
+    "Gesamthands- und Sonderbilanz"
+  ],
+  "fachLabel": "Personengesellschaften",
+  "befundeTypisiert": true,
+  "fachStand": "1wef8gg-285"
+}
