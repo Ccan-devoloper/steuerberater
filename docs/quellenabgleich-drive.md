@@ -10620,6 +10620,78 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 1.10 bis 1.13 – Kapitel 1 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 21 bis 24; übernommen als Kapitel 15 bis 17. Prüfung:
+`npm run check:k2-kst-teil4` (17 Kapitel, 230 Blöcke, 22 Tabellen). Damit ist das Kapitel 1
+(Tatbestandsmerkmale der verdeckten Gewinnausschüttung) vollständig.
+
+**Die häufigste Fehlerquelle beim Vorteilsausgleich** ist im Datensatz als eigene Zeile einer
+Vierfeldertabelle hervorgehoben: Dass zwei gegenläufige Geschäfte im selben Jahr abgeschlossen
+wurden, genügt gerade **nicht** – verlangt ist eine eindeutige und **im Voraus** getroffene
+Vereinbarung. Der Grund liegt in der Konstruktion: Der Ausgleich funktioniert nur, weil beide
+Geschäfte zu einem einheitlichen, tauschähnlichen Vorgang verschmelzen; ohne vorherige Verknüpfung
+bleiben zwei getrennte Rechtsgeschäfte übrig, von denen eines fremdunüblich ist.
+
+**Ein scheinbarer Widerspruch in der Abwandlung** ist eigens erläutert: Die Quelle verneint den
+Vorteilsausgleich insgesamt und rechnet gleichwohl nur die Differenz von 10.000 € hinzu. Das führt
+zum richtigen Ergebnis, weil die Vereinbarung als Einheit zu würdigen bleibt und das Entgelt
+innerhalb dieser Einheit um 10.000 € zu niedrig ist. Wer die Geschäfte getrennt betrachtete, käme auf
+eine vGA von 20.000 € und müsste den Mietvorteil gesondert als verdeckte Einlage behandeln.
+
+**Die Behandlung eines Überhangs** ist als ausdrücklich eigene Auffassung der Quelle gekennzeichnet
+(„m.E.“): Übersteigt die Gegenleistung den Nachteil, fehlt es am ersten Tatbestandsmerkmal, und der
+Überhang ist spiegelbildlich eine verdeckte Einlage mit allen Folgen des Teils III.
+
+**Das Spannungsverhältnis bei der Beweislast** ist tabellarisch aufgelöst, weil es in der Klausur
+gern als Widerspruch missverstanden wird: Beides gilt nebeneinander, betrifft aber verschiedene
+Fragen. Die Finanzverwaltung muss den Sachverhalt ermitteln, aus dem sich die vGA ergibt; die
+Gesellschaft muss die **betriebliche Veranlassung** ihres Aufwands darlegen. Praktisch verschiebt
+sich das Gewicht damit deutlich zu ihren Lasten – sobald der Fremdvergleich gegen sie spricht, muss
+sie vortragen, und der verbleibende Zweifel geht zu ihren Lasten.
+
+**Zur Rückgewähr** hält der Datensatz als eigene Ergänzung fest, was die Quelle hier nur zusammenfasst
+und im Abschnitt 1.5.2.3.2 durchrechnet: Auf Ebene der **Gesellschaft** heben sich Hinzurechnung und
+Abzug im selben Jahr auf, auf Ebene des **Gesellschafters** aber nicht – er versteuert den Bezug und
+erhält im Gegenzug nur zusätzliche Anschaffungskosten, die sich erst bei einer späteren Veräußerung
+auswirken. Die Rückzahlung ist für ihn damit doppelt nachteilig.
+
+**Die Rechtsprechungswende von 2017** ist in ihrer zeitlichen Abfolge dargestellt: Früher nahm die
+Verwaltung eine unmittelbare Schenkung der Gesellschaft an die nahe stehende Person an; der BFH hat
+dem in drei Urteilen an einem Tag widersprochen, und die Verwaltung ist ihm inzwischen
+„uneingeschränkt“ gefolgt. Die tragende Begründung ist konstruktiver Natur – zwischen Gesellschaft
+und Gesellschafter gibt es begrifflich **nichts Freigebiges**.
+
+**Die Wende bedeutet keine Steuerfreiheit, sondern eine Verlagerung**, und der Datensatz zieht als
+eigene Ergänzung die praktische Folge: Weggefallen ist die Schenkung von der Gesellschaft an den
+Empfänger (Steuerklasse III), zu prüfen bleibt die Schenkung vom Gesellschafter an ihn
+(Steuerklasse I mit hohen Freibeträgen bei Ehegatten und Kindern). Je nach Konstellation entlastet
+oder belastet der Wechsel.
+
+**Die Vermeidung der Doppelbesteuerung** ist als roter Faden benannt, der sich schon durch den
+Abschnitt 1.9.2.2 zog: **Soweit** ein Gesellschafter die vGA selbst als Beteiligungsertrag
+versteuert, kann ihm insoweit nichts geschenkt worden sein – Schenkung- und Einkommensteuer
+schließen sich betragsmäßig aus, nicht nur dem Grunde nach. Bei einer disquotalen Ausschüttung ist
+deshalb zweistufig zu rechnen.
+
+**Sämtliche Zahlen sind nachgerechnet und gehen auf:** 20.000 € gegen 20.000 € ergeben den Saldo
+null; 20.000 € ./. 10.000 € = 10.000 € Hinzurechnung. Der Buchungssatz „Mietaufwand an Zinsertrag“
+bildet in beiden Fällen nur die vereinbarte Verrechnung ab und ist erfolgsneutral – die
+Einkommenswirkung entsteht erst außerbilanziell; diese Einordnung ist eigene Ergänzung.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „von einem zu niedrigen Entgelt auszugehen, **die** in Höhe der verbleibenden Differenz zu einer
+  Hinzurechnung … führt“.
+- „hat die Finanzverwaltung die Nachweispflicht. **Dieses** hat daher sämtliche
+  Amtsermittlungspflichten … auszuschöpfen“.
+- „einer freigebigen Zuwendung i.S. des **§ 7 Abs. 1 Satz 1 ErbStG**“ – im selben Absatz wird
+  dieselbe Vorschrift zutreffend als § 7 Abs. 1 Nr. 1 ErbStG zitiert.
+
+**Noch offen:** aus Teil IV die Kapitel 2 (Besonderheiten beim beherrschenden Gesellschafter),
+3 (Bewertung), 4 (Auswirkungen), 5 (Dreiecksfälle) und 6 (Pensionszusage); ganz offen sind die
+Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitt 1.9 – nahe stehende Personen und durchgeleitete vGA
 
 Quelle: dieselbe Datei, Seiten 17 bis 21; übernommen als Kapitel 12 bis 14. Prüfung:

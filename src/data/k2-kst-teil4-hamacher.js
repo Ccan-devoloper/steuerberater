@@ -19,11 +19,12 @@
    (1.5.2.3 mit dem schlampigen und dem gierigen Gesellschafter). Damit ist der
    gesamte Abschnitt 1.5 vollständig. Dazu kommen der fehlende Zusammenhang mit
    einer offenen Gewinnausschüttung (1.6), die Vorteilsgeneigtheit (1.7) und
-   die unbewussten Handlungen (1.8) und die nahe stehenden Personen (1.9) mit
-   Definition, Zurechnung und durchgeleiteter vGA. Es folgen der
-   Vorteilsausgleich (1.10), die Beweislast (1.11), die Rückgewähr (1.12) und
-   die Schenkungsteuer (1.13) sowie die Kapitel 2 bis 6; der Campus weist den
-   Stand aus.
+   die unbewussten Handlungen (1.8), die nahe stehenden Personen (1.9) mit
+   Definition, Zurechnung und durchgeleiteter vGA, der Vorteilsausgleich
+   (1.10), die Beweislast (1.11), die Rückgewähr (1.12) und die Schenkungsteuer
+   (1.13). Damit ist das Kapitel 1 vollständig. Es folgen die Kapitel 2
+   (beherrschender Gesellschafter), 3 (Bewertung), 4 (Auswirkungen),
+   5 (Dreiecksfälle) und 6 (Pensionszusage); der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -642,6 +643,119 @@ export const kstTeil4 = [
       { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Der angemessene Zins beträgt 10 % von 100.000 € = 10.000 €. Bei der B-GmbH heben sich Ertrag und Aufwand bilanziell auf, das Ergebnis der Stufe 1 ist also 0 € – diese Zwischengröße nennt die Quelle nicht. Außerbilanziell bleiben ./. 10.000 € + 500 € + 10.000 € = 500 €, also genau die Fünf-Prozent-Pauschale von 10.000 €." },
       { text: "Anmerkung zum Ergebnis bei der Zwischengesellschaft (eigene Ergänzung): Von dem gesamten Vorgang bleibt bei der B-GmbH ein Einkommen von **500 €** – und das ist genau die Pauschale des § 8b Abs. 5 KStG. Wirtschaftlich hat sie nichts erhalten und nichts aufgewendet; sie wird lediglich mit fünf Prozent eines Betrags belastet, der bei ihr nur durchgelaufen ist. Bei mehreren Zwischenstufen wiederholt sich das auf jeder Ebene: Die Quelle stellt ausdrücklich fest, dass die vGA „durch sämtliche Beteiligungsstufen“ durchgeleitet wird. Eine dreistufige Kette würde also dreimal 500 € kosten. Das ist die Kehrseite der Freistellung nach § 8b Abs. 1 KStG und ein starkes Argument gegen unnötig lange Beteiligungsketten." },
       { text: "Anmerkung zur Fiktionstheorie bei A (eigene Ergänzung): Der Schlusssatz verdient Aufmerksamkeit, weil er den Fall für A wirtschaftlich entschärft. Er versteuert zwar 10.000 € als Beteiligungsertrag, hat aber zugleich **Werbungskosten** in derselben Höhe bei seinen Einkünften aus Vermietung und Verpachtung – fingiert wird, dass ihm der Zinsvorteil ausgeschüttet und von ihm für das vermietete Grundstück aufgewendet worden ist. Entscheidend ist dafür die Verwendung des Darlehens: Hätte A damit ein selbstgenutztes Einfamilienhaus finanziert, gäbe es keine Werbungskosten und die vGA bliebe voll belastend. Die Quelle weist mit dem Hinweis auf die „Vermögenszugehörigkeit der Beteiligung“ zugleich darauf hin, dass sich die Behandlung des Ertrags selbst danach richtet, ob die Anteile im Privat- oder Betriebsvermögen liegen." },
+    ],
+  },
+  {
+    id: "kst-t4-15",
+    kapitel: "15",
+    abschnittNr: "1.10",
+    title: "1.10 Vorteilsausgleich – wann ein gegenläufiges Geschäft die vGA beseitigt",
+    thema: "Beide Geschäfte müssen einander bedingen und im Voraus vereinbart sein; ein bloß zeitlicher Zusammenhang genügt nicht. Die Gegenleistung muss den Nachteil vollständig beseitigen – sonst bleibt der Rest eine vGA",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 1.10 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8 Abs. 3 Satz 3 KStG",
+      "H 8.5 KStH „Vorteilsausgleich“",
+      "BFH vom 13.10.1999, BFH/NV 2000, 750",
+      "BFH vom 07.12.1988, BStBl. II 1989, 248",
+      "BFH vom 19.01.1994, BStBl. II 1996, 77",
+    ],
+    themen: ["Vorteilsausgleich", "Einheitliches Geschäft", "Vorherige Vereinbarung", "Gleichwertigkeit", "Tauschähnlicher Vorgang"],
+    bloecke: [
+      { text: "Eine verdeckte Gewinnausschüttung ist wiederum auszuschließen, wenn sich die bei der Kapitalgesellschaft eingetretene Vermögensminderung bzw. verhinderte Vermögensmehrung wieder ausgleicht. Dies ist der Fall, wenn ihr im Rahmen eines anderen gegenläufigen Rechtsgeschäftes, welches die Gesellschaft mit ihrem Anteilseigner abschließt, ein Vorteil zugutekommt (sog. Vorteilsausgleich). Gleiches gilt in den Fällen einer Leistung durch eine dem Anteilseigner nahe stehende Person." },
+      { text: "Für die Annahme eines Vorteilsausgleichs ist aber Voraussetzung, dass sich die Leistung der Kapitalgesellschaft und die entsprechende, mindestens gleichwertige Gegenleistung, einander bedingen und wirtschaftlich voneinander abhängen und daher als einheitliches Geschäft angesehen werden können. Dies muss durch eine eindeutige und im Voraus getroffene Vereinbarung nachgewiesen werden, d.h. ein lediglich zeitlicher Zusammenhang zwischen den beiden Rechtsgeschäften kann einen solchen Vorteilsausgleich alleine noch nicht begründen." },
+      { text: "Ein Vorteilsausgleich kann in diesem Zusammenhang aber nur vorliegen, wenn der Gegenanspruch mindestens gleichwertig ist und der Höhe nach gesichert erscheint. Maßgebend ist somit, dass ein ordentlicher und gewissenhafter Geschäftsleiter bei Abschluss des – aus Sicht der Kapitalgesellschaft – ungünstigen Rechtsgeschäfts darauf hoffen durfte, dass der Vorteil aus dem gegenläufigen Geschäft mit hinreichender Wahrscheinlichkeit eintritt. Im Ergebnis handelt es sich bei dem Vorteilsausgleich aber nicht um unentgeltliche Leistungen, sondern faktisch um einen Tausch bzw. tauschähnlichen Vorgang, weil beide Sachverhalte als Einheit angesehen werden. Die gegenläufigen Leistungen müssen dabei zur Vermeidung einer vGA zwar nicht gleichartig (z.B. Nutzungsüberlassung und Lieferung), wohl aber gleichwertig sein." },
+      { text: "D.h. ein Vorteilsausgleich ist ausgeschlossen, wenn die Gegenleistung den Vermögensnachteil der Kapitalgesellschaft nicht komplett beseitigt. In diesem Fall ist für Zwecke der verdeckten Gewinnausschüttung wieder von einem zu niedrigen Entgelt auszugehen, die in Höhe der verbleibenden Differenz zu einer Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG führt. Erhält die Gesellschaft im Gegenzug ein Entgelt, welches ihren Vermögensnachteil übersteigt, ist m.E. ebenfalls nicht von einer verdeckten Gewinnausschüttung auszugehen. Denn im Endergebnis erleidet die Gesellschaft in dieser Situation keinen Nachteil, so dass ein ordentlicher Geschäftsleiter diesen Vermögensvorteil akzeptiert hätte. Der Überhang der Gegenleistung ist dann aber nach den Grundsätzen einer verdeckten Einlage zu behandeln. (Das Bezugswort „die“ vor „in Höhe der verbleibenden Differenz“ steht so in der Quelle.)" },
+      { text: "Beispiel: Die A-GmbH gewährt ihrem Alleingesellschafter ein zinsloses Darlehen (Zinsnachteil: 20.000 €). Im Gegenzug wird ein um 20.000 € niedriger Mietzins für eine vom Alleingesellschafter an die A-GmbH verpachtete Immobilie vereinbart. Leistung und Gegenleistung werden in der schriftlichen Vereinbarung gegeneinander aufgerechnet." },
+      { text: "Lösung: In der Vereinbarung des zinslosen Darlehens liegt keine verdeckte Gewinnausschüttung, weil sich der Vorteil des Anteilseigners und der Gegenvorteil der Kapitalgesellschaft wieder ausgleichen. Weil beide Vorgänge aufgrund der gleichzeitigen Vereinbarung einander bedingen, bilden diese eine wirtschaftliche Einheit. Der Zinslosigkeit steht somit als Gegenleistung die verbilligte Überlassung entgegen, so dass es sich insgesamt um einen entgeltlichen Vorgang handelt (Buchung: Mietaufwand an Zinsertrag 20.000 €)." },
+      { text: "Abwandlung: Die A-GmbH gewährt ihrem Alleingesellschafter ein zinsloses Darlehen (Zinsnachteil: 20.000 €). Im Gegenzug wird ein um 10.000 € niedriger Mietzins für eine vom Alleingesellschafter an die A-GmbH verpachtete Immobilie vereinbart. Leistung und Gegenleistung werden in der schriftlichen Vereinbarung gegeneinander aufgerechnet." },
+      { text: "Lösung: Ein Vorteilsausgleich ist nicht gegeben, weil der Vermögensnachteil der Gesellschaft nicht komplett durch eine Gegenleistung des Anteilseigners beseitigt wird. Denn die Gegenleistung sollte mindestens dem Vermögensnachteil entsprechen. Somit ist aufgrund der vertraglichen Vereinbarung, die unverändert als Einheit zu der Darlehensüberlassung anzusehen ist, ein Vermögensnachteil von 10.000 € verblieben. Dieser Nachteil ist bei der Gesellschaft nach § 8 Abs. 3 Satz 2 KStG wieder dem Einkommen hinzuzurechnen (Buchung: Mietaufwand an Zinsertrag 10.000 €; Einkommenshinzurechnung: + 10.000 €)." },
+      { typ: "tabelle", spalten: ["Verhältnis von Nachteil und Gegenleistung", "Vorteilsausgleich?", "Rechtsfolge"], zeilen: [
+        ["Gegenleistung gleichwertig (20.000 € gegen 20.000 €)", "ja", "keine vGA – entgeltlicher, tauschähnlicher Vorgang"],
+        ["Gegenleistung zu gering (20.000 € gegen 10.000 €)", "nein", "Hinzurechnung des verbleibenden Nachteils von 10.000 €"],
+        ["Gegenleistung übersteigt den Nachteil", "ja, nach Auffassung der Quelle („m.E.“)", "keine vGA; der Überhang ist verdeckte Einlage"],
+        ["nur zeitlicher Zusammenhang, keine vorherige Vereinbarung", "nein", "vGA in voller Höhe – die Geschäfte bleiben getrennt zu würdigen"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die vierte Zeile ist die praktisch wichtigste und zugleich die häufigste Fehlerquelle. Dass zwei gegenläufige Geschäfte im selben Jahr abgeschlossen wurden, genügt gerade **nicht** – verlangt ist eine **eindeutige und im Voraus getroffene** Vereinbarung. Der Grund liegt in der Konstruktion: Der Vorteilsausgleich funktioniert nur, weil beide Geschäfte zu einem **einheitlichen, tauschähnlichen Vorgang** verschmelzen; ohne vorherige Verknüpfung gibt es aber zwei getrennte Rechtsgeschäfte, von denen eines fremdunüblich ist. In der Klausur ist deshalb zuerst nach der Vereinbarung zu suchen, nicht nach den Beträgen." },
+      { text: "Anmerkung zur zweiten Zeile (eigene Ergänzung): Bemerkenswert ist, dass der Vorteilsausgleich hier **nicht teilweise** gelingt und der Rest übrig bleibt, sondern dass die Quelle ihn insgesamt verneint – und gleichwohl nur die Differenz von 10.000 € hinzurechnet. Das wirkt widersprüchlich, führt aber zum richtigen Ergebnis: Die Vereinbarung bleibt als Einheit zu würdigen, und innerhalb dieser Einheit ist das Entgelt eben um 10.000 € zu niedrig. Wer die beiden Geschäfte stattdessen getrennt betrachtete, käme auf eine vGA von 20.000 € aus dem zinslosen Darlehen – und müsste den Mietvorteil gesondert als verdeckte Einlage behandeln." },
+      { text: "Anmerkung zum Überhang (eigene Ergänzung): Die dritte Zeile gibt eine ausdrücklich als eigene Meinung gekennzeichnete Auffassung der Quelle wieder („m.E.“). Sie ist in sich schlüssig: Wo die Gesellschaft per Saldo bessergestellt wird, fehlt es am Vermögensnachteil und damit am ersten Tatbestandsmerkmal. Die Folge ist dann aber spiegelbildlich – der Überhang ist eine **verdeckte Einlage** mit allen Konsequenzen des Teils III: Zugang beim steuerlichen Einlagekonto bei tatsächlichem Zufluss und zusätzliche Anschaffungskosten beim Gesellschafter." },
+      { text: "Rechenproben (eigene Ergänzung): Beide Fälle gehen auf. Im Grundfall stehen 20.000 € Zinsnachteil 20.000 € Mietvorteil gegenüber, der Saldo ist null. In der Abwandlung verbleiben 20.000 € ./. 10.000 € = 10.000 €, und genau dieser Betrag wird hinzugerechnet. Der Buchungssatz „Mietaufwand an Zinsertrag“ bildet dabei in beiden Fällen nur die tatsächlich vereinbarte Verrechnung ab und ist erfolgsneutral – die Einkommenswirkung entsteht erst außerbilanziell." },
+    ],
+  },
+  {
+    id: "kst-t4-16",
+    kapitel: "16",
+    abschnittNr: "1.11 und 1.12",
+    title: "1.11 Beweislast · 1.12 Rückgewähr der verdeckten Gewinnausschüttung",
+    thema: "Die Nachweispflicht für die vGA liegt bei der Finanzverwaltung – die objektive Beweislast für die betriebliche Veranlassung der Betriebsausgaben aber bei der Gesellschaft. Eine Rückzahlung macht die vGA nicht rückgängig",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 1.11 und 1.12 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 88 AO",
+      "§ 90 AO",
+      "H 8.6 KStH „Beweislast“",
+      "H 8.9 KStH „Rückgewähr einer verdeckten Gewinnausschüttung“",
+      "H 8.5 KStH „Erstattungsanspruch“",
+      "BFH vom 17.10.2001, BStBl. II 2004, 171",
+      "BFH vom 12.06.2018, VIII R 38/14",
+    ],
+    themen: ["Nachweispflicht", "Objektive Beweislast", "Amtsermittlung", "Mitwirkungspflicht", "Rückgewähr"],
+    bloecke: [
+      { text: "Für das Vorliegen einer vGA hat die Finanzverwaltung die Nachweispflicht. Dieses hat daher sämtliche Amtsermittlungspflichten (§ 88 AO) auszuschöpfen, während der Steuerpflichtige seine Mitwirkungspflichten (§ 90 AO) zu beachten hat. (Die Form „Dieses“ steht so in der Quelle.)" },
+      { text: "Andererseits hat die Kapitalgesellschaft die objektive Beweislast für die betriebliche Veranlassung der in der Gewinnermittlung enthaltenen Betriebsausgaben. Sprechen nahezu alle Beweisanzeichen dafür, dass eine Zuwendung an den Anteilseigner nicht betrieblich veranlasst ist, sondern ihre Grundlage im Gesellschaftsverhältnis hat, geht ein verbleibender Rest an Ungewissheit zu Lasten der Kapitalgesellschaft. Spricht der Maßstab des Handelns eines ordentlichen und gewissenhaften Geschäftsleiters für die Veranlassung einer Vorteilszuwendung im Gesellschaftsverhältnis, so hat die Kapitalgesellschaft die Umstände darzulegen, aus denen sich eine andere Beurteilung ergeben kann." },
+      { typ: "tabelle", spalten: ["Frage", "Wer trägt die Last?", "Rechtsgrundlage"], zeilen: [
+        ["Liegt überhaupt eine vGA vor?", "Nachweispflicht der Finanzverwaltung", "§ 88 AO – Ausschöpfung der Amtsermittlung"],
+        ["Mitwirkung bei der Sachverhaltsaufklärung", "Steuerpflichtiger", "§ 90 AO"],
+        ["Ist der Aufwand betrieblich veranlasst?", "objektive Beweislast der Kapitalgesellschaft", "allgemeine Grundsätze zum Betriebsausgabenabzug"],
+        ["Verbleibender Rest an Ungewissheit, wenn nahezu alle Anzeichen für das Gesellschaftsverhältnis sprechen", "zu Lasten der Kapitalgesellschaft", "Rechtsprechung des BFH"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die beiden ersten und die beiden letzten Zeilen stehen in einem Spannungsverhältnis, das man verstanden haben muss, weil es in der Klausur gern als Widerspruch missverstanden wird. Beides gilt nebeneinander, betrifft aber **verschiedene Fragen**: Die Finanzverwaltung muss den Sachverhalt ermitteln, aus dem sich die vGA ergibt; die Gesellschaft muss die **betriebliche Veranlassung** ihres Aufwands darlegen, weil er sonst schon dem Grunde nach nicht abziehbar wäre. Praktisch verschiebt sich das Gewicht damit deutlich zulasten der Gesellschaft: Sobald der Fremdvergleich gegen sie spricht, muss **sie** die Umstände vortragen, die eine andere Beurteilung tragen – der verbleibende Zweifel geht zu ihren Lasten." },
+      { typ: "titel", text: "1.12 Rückgewähr der verdeckten Gewinnausschüttung" },
+      { text: "Zahlt der begünstigte Anteilseigner bzw. dessen nahe stehende Person die bereits bezogene verdeckte Gewinnausschüttung zurück, führt dies für Zwecke der Einkommensermittlung nicht zur Rückgängigmachung der vorherigen verdeckten Gewinnausschüttung. Vielmehr wird die Rückgewähr steuerlich als verdeckte Einlage behandelt, woraus der Kapitalgesellschaft eine sog. Einlageforderung entsteht. Beide Vorgänge sind daher getrennt voneinander zu würdigen (siehe hierzu auch unter 1.5.2.3.2)." },
+      { text: "Anmerkung zur Rückgewähr (eigene Ergänzung): Der Abschnitt fasst in drei Sätzen zusammen, was der Abschnitt 1.5.2.3.2 an einem Beispiel durchgerechnet hat, und die Aussage ist dieselbe: Eine einmal entstandene vGA lässt sich durch Rückzahlung **nicht** beseitigen. Der Grund ist der Zeitpunkt – die vGA ist mit dem Grundgeschäft vollzogen, die Rückzahlung ist ein davon getrennter, nachfolgender Vorgang. Das gilt gleichermaßen für die freiwillige Rückzahlung, für die Erfüllung einer Satzungsklausel und für die Durchsetzung eines Ersatzanspruchs gegen den gierigen Gesellschafter. Wer in der Klausur eine Rückzahlung sieht, prüft deshalb **zwei** Sachverhalte nacheinander: erst die vGA mit Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG, dann die verdeckte Einlage mit Abzug nach § 8 Abs. 3 Satz 3 KStG." },
+      { text: "Anmerkung zur Gegenprobe (eigene Ergänzung): Dass beide Vorgänge getrennt zu würdigen sind, hat eine Folge, die die Quelle hier nicht ausspricht, aber im Abschnitt 1.5.2.3.2 zeigt: Auf Ebene der **Gesellschaft** heben sich Hinzurechnung und Abzug im Ergebnis auf, wenn beides im selben Jahr geschieht – auf Ebene des **Gesellschafters** dagegen nicht. Er versteuert den Bezug und erhält im Gegenzug nur zusätzliche Anschaffungskosten seiner Beteiligung, die sich erst bei einer späteren Veräußerung auswirken. Die Rückzahlung ist für ihn damit doppelt nachteilig: Er gibt das Geld zurück und versteuert es trotzdem." },
+    ],
+  },
+  {
+    id: "kst-t4-17",
+    kapitel: "17",
+    abschnittNr: "1.13",
+    title: "1.13 Schenkungsteuer und vGA – die Rechtsprechungswende von 2017 · Kapitel 1 ist vollständig",
+    thema: "Zwischen Gesellschaft und Gesellschafter sind freigebige Zuwendungen ausgeschlossen – auch dann, wenn der Vorteil einer nahe stehenden Person zufließt. Zu prüfen bleibt allein das Verhältnis zwischen den Gesellschaftern",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 1.13 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 7 Abs. 1 Nr. 1 ErbStG",
+      "§ 15 AO",
+      "R E 7.5 Abs. 1 ErbStR",
+      "R E 7.5 Abs. 7 Sätze 2 und 6 ErbStR",
+      "BFH vom 13.09.2017, BStBl. II 2018, 292",
+      "BFH vom 13.09.2017, BStBl. II 2018, 296",
+      "BFH vom 13.09.2017, BStBl. II 2018, 299",
+    ],
+    themen: ["Schenkungsteuer", "Freigebige Zuwendung", "Rechtsprechungswende", "Disquotale Ausschüttung", "Doppelbesteuerung"],
+    bloecke: [
+      { text: "Unstrittig ist, dass eine vGA zwischen der Gesellschaft und ihrem alleinigen Anteilseigner nicht schenkungsteuerpflichtig sein kann. Dies liegt darin begründet, dass dieser Vorgang ausschließlich im Gesellschaftsverhältnis begründet liegt. Für Zwecke der Schenkungsteuer scheidet eine „Unentgeltlichkeit“ daher insoweit aus. Zudem kann eine Kapitalgesellschaft ihrem Anteilseigner nichts zuwenden, weil es auf dieser Ebene in aller Regel auch nur zu Gewinnausschüttungen kommen kann. Andere Formen der Vermögensübertragung sind daher nicht denkbar." },
+      { typ: "titel", text: "1.13.2 vGA an nahe stehende Personen" },
+      { text: "Im Zusammenhang mit der vGA an eine nahe stehende Person hat der BFH mit mehreren Urteilen vom 13.09.2017 wiederholt der Verwaltungsauffassung widersprochen, wonach eine freigebige Zuwendung zwischen der Kapitalgesellschaft und der nahe stehenden Person nicht denkbar sei. Dies gelte auch dann, wenn der Anteilseigner an der Vorteilszuwendung (entscheidend) mitgewirkt habe, weil dieses Ergebnis dann Ausfluss des Gesellschaftsverhältnisses zwischen der Gesellschaft und dem Anteilseigner sei und eine Schenkungsteuerpflicht insoweit ausschließe. Auch zwischen der Gesellschaft und dem Anteilseigner selbst schließt der BFH freigebige Zuwendungen aus, weil es in diesem Verhältnis nur vertragliche Rechtsbeziehungen oder offene bzw. verdeckte Gewinnausschüttungen geben könne. Auch eine Gewinnausschüttung erfolge danach nicht freigebig. Zu beachten ist aber, dass es dann aber zwischen dem Anteilseigner (als Schenker) und der nahe stehenden Person zu einer freigebigen Zuwendung i.S. des § 7 Abs. 1 Nr. 1 ErbStG kommen kann, wofür die vertraglichen Ausgestaltungen der beiden Rechtsbeziehungen maßgeblich sind." },
+      { text: "Die Finanzverwaltung hat ihre bisherige Rechtsauffassung aufgegeben, folgt der o.g. BFH-Rechtsprechung nunmehr uneingeschränkt und hat diese auch in R E 7.5 ErbStR zusammengestellt. Zwischen der Kapitalgesellschaft und dem Gesellschafter sind danach freigebige Zuwendungen i.S. des § 7 Abs. 1 Nr. 1 ErbStG ausgeschlossen. Gleiches gilt auch in den Fällen, in denen die verdeckte Gewinnausschüttung zugunsten einer dem Anteilseigner nahe stehenden Person erfolgt. Es bleibt in diesen Fällen aber das Vorliegen einer freigebigen Zuwendung i.S. des § 7 Abs. 1 Satz 1 ErbStG zwischen dem Anteilseigner und der nahe stehenden Person zu prüfen, wobei bei Angehörigen i.S. des § 15 AO regelmäßig von einer Zuwendung ausgegangen werden kann. (Die Angabe „§ 7 Abs. 1 Satz 1 ErbStG“ steht so in der Quelle; im selben Absatz wird dieselbe Vorschrift zutreffend als § 7 Abs. 1 Nr. 1 ErbStG zitiert.)" },
+      { text: "Gleiches gilt auch in den Fällen, in denen eine Bereicherung der übrigen Gesellschafter eintritt, d.h. in Fällen einer disquotalen Ausschüttung und der Zurechnung bei sämtlichen Gesellschaftern. In dieser Situation erfolgt eine Zuwendung zwischen den jeweiligen Anteilseignern, soweit diese über ihre jeweilige Beteiligungsquote hinausgeht. Soweit der Beteiligungsertrag bereits dem (begünstigten) Anteilseigner zuzurechnen ist, scheidet eine Zuwendung hingegen aus. Dies würde ansonsten zu einer unzulässigen Doppelbesteuerung (ESt und ErbSt) führen." },
+      { typ: "tabelle", spalten: ["Verhältnis", "Freigebige Zuwendung nach § 7 Abs. 1 Nr. 1 ErbStG?", "Grund"], zeilen: [
+        ["Gesellschaft an ihren Gesellschafter", "nein", "nur vertragliche Beziehungen oder offene bzw. verdeckte Ausschüttungen denkbar – nie freigebig"],
+        ["Gesellschaft an eine nahe stehende Person des Gesellschafters", "nein", "Ausfluss des Gesellschaftsverhältnisses zwischen Gesellschaft und Gesellschafter"],
+        ["Gesellschafter an die nahe stehende Person", "ja, zu prüfen", "bei Angehörigen i. S. des § 15 AO regelmäßig anzunehmen"],
+        ["zwischen den Gesellschaftern bei disquotaler Ausschüttung", "ja, soweit über die Beteiligungsquote hinaus", "insoweit ist der andere Gesellschafter bereichert"],
+        ["Betrag, der dem begünstigten Gesellschafter bereits als Beteiligungsertrag zugerechnet ist", "nein", "sonst unzulässige Doppelbesteuerung mit Einkommen- und Erbschaftsteuer"],
+      ] },
+      { text: "Anmerkung zur Rechtsprechungswende (eigene Ergänzung): Der Abschnitt dokumentiert einen vollständigen Positionswechsel der Finanzverwaltung, und die zeitliche Abfolge ist für das Verständnis wichtig. Früher nahm die Verwaltung an, die Gesellschaft könne einer nahe stehenden Person **unmittelbar** etwas schenken. Der BFH hat dem 2017 in drei Urteilen an einem Tag widersprochen, und die Verwaltung ist ihm inzwischen „uneingeschränkt“ gefolgt und hat das Ergebnis in R E 7.5 ErbStR zusammengefasst. Die tragende Begründung ist dabei konstruktiver Natur: Im Verhältnis zwischen Gesellschaft und Gesellschafter gibt es begrifflich **nichts Freigebiges** – entweder liegt ein Leistungsaustausch vor oder eine Ausschüttung, und beides ist keine Schenkung." },
+      { text: "Anmerkung zur Verschiebung der Steuerpflicht (eigene Ergänzung): Die Wende bedeutet keine Steuerfreiheit, sondern eine **Verlagerung** der Prüfung auf eine andere Ebene. Weggefallen ist die Schenkung von der **Gesellschaft** an die nahe stehende Person; zu prüfen bleibt die Schenkung vom **Gesellschafter** an sie – und die ist bei Angehörigen i. S. des § 15 AO regelmäßig anzunehmen. Für die Praxis ist das meist ungünstiger: Zwischen Gesellschaft und Empfänger gälte die Steuerklasse III, zwischen dem Gesellschafter und seinem Ehegatten oder Kind dagegen die Steuerklasse I mit den hohen persönlichen Freibeträgen. Der Wechsel kann also je nach Konstellation entlasten oder belasten." },
+      { text: "Anmerkung zur Vermeidung der Doppelbesteuerung (eigene Ergänzung): Der Schlusssatz des Abschnitts ist der rote Faden, der sich schon durch den Abschnitt 1.9.2.2 zog: **Soweit** ein Gesellschafter die vGA selbst als Beteiligungsertrag versteuert, kann ihm insoweit nichts geschenkt worden sein. Schenkungsteuer und Einkommensteuer schließen sich damit betragsmäßig aus, nicht nur dem Grunde nach. Bei einer disquotalen Ausschüttung ist deshalb zweistufig zu rechnen: Zuerst wird jedem Gesellschafter sein quotaler Anteil als Beteiligungsertrag zugerechnet, und erst der darüber hinausgehende Betrag kommt als Zuwendung zwischen den Gesellschaftern in Betracht." },
+      { text: "Damit ist das Kapitel 1 (Tatbestandsmerkmale der verdeckten Gewinnausschüttung) der Quelle vollständig übernommen. (Eigene Einordnung:) Es folgen die Kapitel 2 (Besonderheiten beim beherrschenden Gesellschafter), 3 (Bewertung), 4 (Auswirkungen), 5 (Dreiecksfälle) und 6 (Pensionszusage)." },
     ],
   },
 ];

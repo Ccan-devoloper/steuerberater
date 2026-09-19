@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 14 Kapitel mit 199
-  Abschnitten und 19 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 17 Kapitel mit 230
+  Abschnitten und 22 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3018,6 +3018,34 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   dreistufige Kette kostet also dreimal 500 €, obwohl der Zwischengesellschaft wirtschaftlich nichts
   zugeflossen ist. Beim obersten Gesellschafter verbraucht sich die vGA nach der **Fiktionstheorie**
   in Werbungskosten, soweit er das Darlehen für eine Einkunftsquelle verwendet hat.
+  Der **Vorteilsausgleich** beseitigt die vGA nur unter engen Voraussetzungen: Beide Geschäfte müssen
+  einander bedingen und durch eine eindeutige, **im Voraus** getroffene Vereinbarung verknüpft sein –
+  ein bloß zeitlicher Zusammenhang genügt ausdrücklich nicht. Der Grund liegt in der Konstruktion: Der
+  Ausgleich funktioniert nur, weil beide Vorgänge zu einem einheitlichen, **tauschähnlichen** Geschäft
+  verschmelzen; ohne vorherige Verknüpfung bleiben es zwei getrennte Rechtsgeschäfte, von denen eines
+  fremdunüblich ist. Gleichartig müssen die Leistungen nicht sein (Nutzungsüberlassung gegen
+  Lieferung), wohl aber **gleichwertig** und der Höhe nach gesichert. Bleibt ein Nachteil, wird nur
+  die Differenz hinzugerechnet; übersteigt die Gegenleistung den Nachteil, ist der Überhang nach
+  Auffassung der Quelle eine verdeckte Einlage. Bei der **Beweislast** gilt Zweierlei nebeneinander,
+  was leicht als Widerspruch missverstanden wird: Die Finanzverwaltung hat die Nachweispflicht für das
+  Vorliegen der vGA und muss die Amtsermittlung nach § 88 AO ausschöpfen – die Kapitalgesellschaft
+  trägt aber die **objektive Beweislast** für die betriebliche Veranlassung ihres Aufwands. Spricht der
+  Fremdvergleich gegen sie, muss sie die Umstände darlegen, die eine andere Beurteilung tragen, und
+  ein verbleibender Rest an Ungewissheit geht zu ihren Lasten. Eine **Rückzahlung** macht die vGA nie
+  rückgängig: Sie ist ein davon getrennter, nachfolgender Vorgang und wird als verdeckte Einlage
+  behandelt – gleichgültig, ob sie freiwillig, aufgrund einer Satzungsklausel oder zur Erfüllung eines
+  Ersatzanspruchs erfolgt. Für den Gesellschafter ist sie doppelt nachteilig, weil er das Geld
+  zurückgibt und es trotzdem versteuert; er erhält im Gegenzug nur zusätzliche Anschaffungskosten.
+  Bei der **Schenkungsteuer** hat der BFH 2017 in drei Urteilen an einem Tag die Verwaltungsauffassung
+  gekippt, und die Verwaltung ist ihm inzwischen uneingeschränkt gefolgt (R E 7.5 ErbStR): Im
+  Verhältnis zwischen Gesellschaft und Gesellschafter gibt es begrifflich **nichts Freigebiges** –
+  entweder ein Leistungsaustausch oder eine Ausschüttung –, und dasselbe gilt gegenüber einer ihm nahe
+  stehenden Person, weil der Vorgang Ausfluss des Gesellschaftsverhältnisses ist. Das bedeutet keine
+  Steuerfreiheit, sondern eine **Verlagerung**: Zu prüfen bleibt die Zuwendung zwischen dem
+  Gesellschafter und der nahe stehenden Person, die bei Angehörigen i. S. des § 15 AO regelmäßig
+  anzunehmen ist. Schenkungsteuer und Einkommensteuer schließen sich dabei **betragsmäßig** aus:
+  Soweit ein Gesellschafter die vGA selbst als Beteiligungsertrag versteuert, kann ihm insoweit nichts
+  geschenkt worden sein. **Damit ist das Kapitel 1 der Quelle vollständig.**
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
