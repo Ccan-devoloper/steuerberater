@@ -142,7 +142,7 @@ test("allgemeine USt-Steuersatzkarte enthält auch den Nullsteuersatz", () => {
 
 test("Bilanzänderung verlangt keine zusätzliche Zustimmung des Finanzamts", () => {
   const karte = byTitle(/Bilanzberichtigung oder Bilanzänderung/i);
-  assert.match(kern(karte), /engen zeitlichen und sachlichen Zusammenhang/);
+  assert.match(kern(karte), /engem zeitlichen und sachlichen Zusammenhang/);
   assert.match(kern(karte), /zusätzliche gesetzliche Zustimmung[^"]*nicht/);
   assert.doesNotMatch(kern(karte), /nur mit Zustimmung des Finanzamts/i);
 
