@@ -1270,15 +1270,15 @@
       ],
       "veroeffentlicht": "2026-09-10T10:48:59.823Z",
       "insights": {
-        "reach": 588,
+        "reach": 589,
         "saved": 2,
         "shares": 2,
         "likes": 1,
         "comments": 0,
         "total_interactions": 6,
-        "views": 676
+        "views": 677
       },
-      "insightsStand": "2026-09-17T22:26:05.705Z"
+      "insightsStand": "2026-09-19T05:43:33.286Z"
     },
     {
       "datum": "2026-09-10",
@@ -1400,7 +1400,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-17T22:26:06.121Z"
+      "insightsStand": "2026-09-19T05:43:34.461Z"
     },
     {
       "datum": "2026-09-10",
@@ -1442,7 +1442,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-17T22:26:06.431Z"
+      "insightsStand": "2026-09-19T05:43:34.767Z"
     },
     {
       "datum": "2026-09-11",
@@ -1525,7 +1525,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-17T22:26:07.008Z"
+      "insightsStand": "2026-09-19T05:43:35.066Z"
     },
     {
       "datum": "2026-09-11",
@@ -1608,7 +1608,7 @@
         "total_interactions": 5,
         "views": 171
       },
-      "insightsStand": "2026-09-17T22:26:07.442Z"
+      "insightsStand": "2026-09-19T05:43:35.408Z"
     },
     {
       "datum": "2026-09-11",
@@ -1681,7 +1681,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-17T22:26:07.767Z"
+      "insightsStand": "2026-09-19T05:43:35.704Z"
     },
     {
       "datum": "2026-09-12",
@@ -1784,7 +1784,7 @@
         "total_interactions": 1,
         "views": 179
       },
-      "insightsStand": "2026-09-17T22:26:08.122Z"
+      "insightsStand": "2026-09-19T05:43:35.991Z"
     },
     {
       "datum": "2026-09-12",
@@ -1867,7 +1867,7 @@
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-17T22:26:08.418Z"
+      "insightsStand": "2026-09-19T05:43:36.252Z"
     },
     {
       "datum": "2026-09-13",
@@ -1952,15 +1952,15 @@
       "dauer": 89.7,
       "veroeffentlicht": "2026-09-13T18:51:30.313Z",
       "insights": {
-        "reach": 70,
+        "reach": 71,
         "saved": 1,
         "shares": 1,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 85
+        "views": 87
       },
-      "insightsStand": "2026-09-17T22:26:08.742Z"
+      "insightsStand": "2026-09-19T05:43:36.586Z"
     },
     {
       "datum": "2026-09-13",
@@ -2024,7 +2024,7 @@
       "veroeffentlicht": "2026-09-14T06:44:28.451Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-14/2026-09-14-b1-02-mu0vn5ee.jpg",
       "insights": {
-        "reach": 30,
+        "reach": 33,
         "saved": 2,
         "shares": 0,
         "likes": 4,
@@ -2033,7 +2033,7 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-09-17T22:26:09.153Z"
+      "insightsStand": "2026-09-19T05:43:36.887Z"
     },
     {
       "datum": "2026-09-14",
@@ -2097,7 +2097,7 @@
         "total_interactions": 3,
         "views": 65
       },
-      "insightsStand": "2026-09-17T22:26:09.667Z"
+      "insightsStand": "2026-09-19T05:43:37.221Z"
     },
     {
       "datum": "2026-09-14",
@@ -2262,7 +2262,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-17T22:26:10.211Z"
+      "insightsStand": "2026-09-19T05:43:37.549Z"
     },
     {
       "datum": "2026-09-15",
@@ -2344,9 +2344,9 @@
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 181
+        "views": 182
       },
-      "insightsStand": "2026-09-17T22:26:10.544Z"
+      "insightsStand": "2026-09-19T05:43:37.767Z"
     },
     {
       "datum": "2026-09-15",
@@ -2388,7 +2388,18 @@
         "#bilanzsteuerrecht"
       ],
       "veroeffentlicht": "2026-09-16T06:53:05.381Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 22,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-19T05:43:38.015Z"
     },
     {
       "datum": "2026-09-16",
@@ -2422,7 +2433,17 @@
       "stimmeName": null,
       "layout": "klassisch",
       "dauer": 46.7,
-      "veroeffentlicht": "2026-09-16T06:55:46.084Z"
+      "veroeffentlicht": "2026-09-16T06:55:46.084Z",
+      "insights": {
+        "reach": 59,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 74
+      },
+      "insightsStand": "2026-09-19T05:43:38.335Z"
     },
     {
       "datum": "2026-09-16",

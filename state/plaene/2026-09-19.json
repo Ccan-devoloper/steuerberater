@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-19",
+  "erzeugt": "2026-09-19T05:43:28.511Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "spickzettel",
+      "themaId": "ao-modul-ao-359",
+      "themaTitel": "§ 173 AO: Rechtserheblichkeit, anhängiges BFH-Verfahren und Änderungssperre",
+      "fach": "ao",
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:30",
+      "format": "reel",
+      "themaId": "mindset-8",
+      "themaTitel": "Wie du mit Nichtwissen in der Klausur umgehst",
+      "fach": "mindset",
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:14",
+      "art": "frage",
+      "themaId": "persg-quiz-k3-24",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:14",
+      "art": "antwort",
+      "themaId": "persg-quiz-k3-24",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:31",
+      "art": "norm",
+      "themaId": "istr-modul-istr-istr3-12",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:24",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 17,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:35",
+      "art": "tipp",
+      "themaId": "ust-modul-ust-233",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:46",
+      "art": "zahl",
+      "themaId": "ao-modul-ao-376",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:26",
+      "art": "formel",
+      "themaId": "bilanz-formel-gewerbesteuer",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}

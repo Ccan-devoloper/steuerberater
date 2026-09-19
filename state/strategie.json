@@ -1,42 +1,44 @@
 {
-  "stand": "2026-09-17",
-  "beitraege": 43,
+  "stand": "2026-09-19",
+  "beitraege": 45,
   "formatGewicht": {
-    "pruefungsfrage": 0.821125288507599,
-    "fehlerfalle": 0.7758713292397914,
-    "schema": 0.8290837434133169,
+    "pruefungsfrage": 0.7779346866725505,
+    "fehlerfalle": 0.8045307443365692,
+    "schema": 0.8597087378640773,
     "rechenweg": 0.5,
-    "minifall": 0.5936071070853111,
+    "minifall": 0.615533980582524,
     "vergleich": 0.5,
-    "klausurtechnik": 0.6635166717473036,
+    "klausurtechnik": 0.6880258899676372,
     "spickzettel": 2,
-    "reel": 1.6195121344274328
+    "reel": 1.514805825242718
   },
   "fachGewicht": {
-    "ao": 1.3126075603103866,
-    "kst": 0.8388107438536387,
-    "istr": 1.3457591197433552,
-    "bilanz": 0.6884363586014066,
-    "ust": 0.9724919798516454,
-    "erbst": 1.6207159343291377,
+    "ao": 1.3617403811578563,
+    "kst": 0.8697950377562024,
+    "istr": 1.3955501618122972,
+    "bilanz": 0.6453074433656955,
+    "ust": 1.0103559870550158,
+    "erbst": 1.6805825242718437,
     "persg": 0.5
   },
   "hookGewicht": {
-    "frage": 0.8283769371529477,
-    "zahl": 0.9316924855399792,
-    "fehler": 1.5424491250820558,
-    "kontrast": 1.215302878543744
+    "frage": 0.859013896820864,
+    "zahl": 0.9661076787290376,
+    "fehler": 1.444919093851132,
+    "szene": 1.2559870550161807,
+    "kontrast": 1.2618122977346273
   },
   "besteStunden": null,
-  "follower": 64,
-  "reichweite7": 3103,
+  "follower": 65,
+  "reichweite7": 2711,
   "dauerMessungen": {
     "80-105": 3,
     "30-45": 1,
-    "60-80": 1
+    "60-80": 1,
+    "45-60": 1
   },
   "dauerGewicht": {
-    "80-105": 1.0957584514886058
+    "80-105": 1.2529664660361135
   },
   "hashtagGewicht": {
     "#steuerberaterexamen": 1,
@@ -45,19 +47,20 @@
     "#steuerberater": 1,
     "#steuerrecht": 1,
     "#examensvorbereitung": 1,
-    "#abgabenordnung": 1.4432973918111613,
-    "#verfahrensrecht": 1.3053669435135267,
-    "#erbschaftsteuer": 0.7523823400845112,
-    "#examenszeit": 0.5,
-    "#beschränktesteuerpflicht": 0.7127932391082616,
-    "#klausurtechnik": 0.9470603234736997,
-    "#ertragsteuern": 0.8527757540434213,
-    "#körperschaftsteuer": 1.0725047355383943,
-    "#bilanzsteuerrecht": 0.6812545534023021,
-    "#lerngruppe": 1.2765748700762543,
-    "#einkommensteuer": 0.9969255427655545,
+    "#abgabenordnung": 1.6360046922834828,
+    "#verfahrensrecht": 1.4800721009413178,
+    "#erbschaftsteuer": 0.8523361277216676,
+    "#examenszeit": 0.5639323624502875,
+    "#beschränktesteuerpflicht": 0.8077022116677635,
+    "#klausurtechnik": 1.073681725844754,
+    "#ertragsteuern": 0.966066779205173,
+    "#körperschaftsteuer": 1.214986695659638,
+    "#bilanzsteuerrecht": 0.5586392377900488,
+    "#lerngruppe": 1.4461674916311407,
+    "#einkommensteuer": 1.1295814139795715,
     "#studygram": 0.5,
-    "#steuerwissen": 0.5
+    "#steuerwissen": 0.5,
+    "#bilanzierung": 0.9119910732167892
   },
   "hashtagFolgen": {
     "#steuerberaterexamen": 1,
@@ -129,11 +132,22 @@
     "#ergänzungsbilanz": 0,
     "#internationales steuerrecht": 0,
     "#unbeschränktesteuerpflicht": 0,
-    "#dba": 0
+    "#dba": 0,
+    "#stbexamen2026": 0,
+    "#steuerfachwirt": 0,
+    "#maßgeblichkeitsprinzip": 0,
+    "#handelsbilanz": 0,
+    "#steuerbilanz": 0,
+    "#klausurtag3": 0,
+    "#bilanzklausur": 0,
+    "#disagio": 0,
+    "#zinsstaffel": 0,
+    "#rechnungsabgrenzung": 0,
+    "#klausur3": 0
   },
   "folgenGesamt": 2,
   "profil": {
-    "bio": "✨NEU ✨Examensvorbereitung, sortiert nach Klausurtag!",
+    "bio": "✨NEU✨ Easy peasy durchs Examen!\nTäglich Schemata, Fehler & Klausurtipps\n🔵 Tag 1 | 🟠 Tag 2 | 🟢 Tag 3",
     "website": "",
     "bild": true,
     "name": "EXAMENSCAMPUS"
