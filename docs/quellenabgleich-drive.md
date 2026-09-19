@@ -10620,6 +10620,48 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitt 5.2 – verbilligte Lieferung im Dreiecksfall
+
+Quelle: dieselbe Datei, Seiten 59 bis 63; übernommen als Kapitel 42 und 43. Prüfung:
+`npm run check:k2-kst-teil4` (43 Kapitel, 677 Blöcke, 63 Tabellen).
+
+**Alle Zahlen aller drei Beispiele sind unabhängig nachgerechnet und gehen auf.** Grundfall:
+500.000 € ./. 100.000 € = 400.000 € vGA, davon 40 % = 160.000 € steuerfrei, verbleiben 240.000 €.
+Abwandlung: 5 % von 400.000 € = 20.000 € nichtabziehbare Betriebsausgaben, Einkommen der C-GmbH
+20.000 €. Maschinenbeispiel: 19 % von 250.000 € = 47.500 €; 595.000 € ./. 500.000 € = 95.000 €
+Aufwand, die Buchung ist mit 500.000 € + 95.000 € = 595.000 € ausgeglichen; 40 % von 595.000 € =
+238.000 €, 60 % = 357.000 €; 595.000 € ./. 238.000 € ./. 95.000 € = 262.000 €.
+
+**Die Herkunft der 95.000 € ist als eigene Feststellung hergeleitet.** Die Quelle bezeichnet den
+Betrag nur als „Wertedifferenz zwischen der verdeckten Einlage und der verdeckten
+Gewinnausschüttung“. Tatsächlich ist er genau die im gemeinen Wert steckende Umsatzsteuer: 500.000 €
+Teilwert × 19 % = 95.000 €, und 500.000 € + 95.000 € = 595.000 €. Mit der tatsächlich angefallenen
+Umsatzsteuer von 47.500 € hat er nichts zu tun, weil deren Bemessungsgrundlage der Einkaufspreis von
+250.000 € ist. Es ist dasselbe Auseinanderfallen von hypothetischer und tatsächlicher Umsatzsteuer,
+das in Abschnitt 3.2.1 die umstrittenen 4.950 € erzeugt hat.
+
+**Eine Summe ist eigens ergänzt und als solche gekennzeichnet.** Die Quelle stellt für die A-GmbH im
+Maschinenbeispiel drei Zeilen untereinander (./. 100.000 €, + 595.000 €, ./. 47.500 €), ohne sie zu
+addieren. Nach eigener Rechnung ergibt sich ein Einkommen von 447.500 €, unter der im Datensatz
+ausdrücklich genannten Annahme, dass der angegebene Steuerbilanzgewinn den Umsatzsteueraufwand noch
+nicht enthält – anders wäre die dritte Zeile nicht zu erklären.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: der Vergleich der beiden Varianten, der das
+Verhältnis von zwölf zu eins zwischen Teileinkünfteverfahren und § 8b KStG sichtbar macht; die
+Deutung der Zerlegung in Einlage – Erwerb – Ausschüttung als Probe auf jede Dreiecksfalllösung; die
+Asymmetrie der beiden Bewertungssysteme (vGA-Recht mit gemeinem Wert, Einlagerecht mit Teilwert) als
+Ursache des Aufwands; und die Einordnung der doppelten Verneinung von § 10 Nr. 2 KStG und § 3c Abs. 2
+EStG.
+
+**Drei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „auf den
+Gesellschaftsverhältnis begründete“, „muss die verdeckte Gewinnausschüttung dem gemeinen Wert
+bewertet werden“ und „dessen Aufwand vollständig abziehbar ist“ (bezogen auf die Umsatzsteuer).
+
+**Noch offen:** aus Teil IV die überteuerte Lieferung (5.3), die überteuerten und verbilligten
+Dienstleistungen (5.4 und 5.5), das Korrespondenzprinzip in Dreiecksfällen (5.6), die Anwendung des
+§ 1 AStG, die Schenkungsteuer (5.7) und das Kapitel 6 (Pensionszusage); ganz offen sind die
+Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 4.4 und 5.1 – § 1 AStG und der Einstieg in die Dreiecksfälle
 
 Quelle: dieselbe Datei, Seiten 57 bis 59; übernommen als Kapitel 40 und 41. Prüfung:

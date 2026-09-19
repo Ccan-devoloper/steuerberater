@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 41 Kapitel mit 639
-  Abschnitten und 61 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 43 Kapitel mit 677
+  Abschnitten und 63 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3411,6 +3411,36 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gesellschaft – jeder Schritt mit eigener Norm. Die Quelle unterscheidet vier Fallgruppen:
   unentgeltliche oder verbilligte Lieferung, überteuerte Lieferung, überteuerte Dienstleistung und
   verbilligte Dienstleistung.
+  Die erste Fallgruppe, die **verbilligte Lieferung von Wirtschaftsgütern**, führt das Schema
+  vollständig vor. Bei der benachteiligten Gesellschaft ist die vGA als verhinderte Vermögensmehrung
+  mit dem **gemeinen Wert** hinzuzurechnen; beim gemeinsamen Gesellschafter entsteht ein Bezug, der
+  sich sogleich in einer **verdeckten Einlage** verbraucht und seine Anschaffungskosten an der
+  bevorteilten Gesellschaft erhöht; dort ist das Wirtschaftsgut mit dem **Teilwert** zu aktivieren und
+  der Nachaktivierungsertrag nach § 8 Abs. 3 Satz 3 KStG wieder abzuziehen, bei gleichzeitigem Zugang
+  beim steuerlichen Einlagekonto. Grundfall und Abwandlung unterscheiden sich **nur** in der
+  Rechtsform des gemeinsamen Gesellschafters, und genau daran lässt sich der Unterschied der beiden
+  Begünstigungsregime ablesen: Bei der natürlichen Person bleiben **240.000 €** steuerpflichtig, bei
+  der Kapitalgesellschaft nur **20.000 €** – ein Verhältnis von zwölf zu eins, weil das
+  Teileinkünfteverfahren nur 40 % freistellt, § 8b Abs. 1 KStG dagegen 100 % und lediglich 5 %
+  pauschal wieder hinzurechnet. Bei den beiden Gesellschaften ändert sich dagegen nichts. Die
+  Zerlegung, die die Quelle anschließt – Einlage des Kaufpreises, Erwerb zum vollen Preis,
+  Veräußerungsgewinn, Ausschüttung –, ist dabei mehr als eine Erläuterung: Sie ist die **Probe** auf
+  jede Dreiecksfalllösung, derselbe Gedanke, der schon die Verbrauchstheorie getragen hat.
+  Sichtbar wird dabei, dass im Dreiecksfall **zwei Bewertungssysteme** aufeinandertreffen, die nichts
+  voneinander wissen: Die abgehende Seite folgt dem vGA-Recht und bewertet mit dem **gemeinen Wert**,
+  die ankommende dem Einlagerecht (§ 6 Abs. 1 Nr. 5 und Abs. 6 Satz 2 EStG) und bewertet mit dem
+  **Teilwert**. Solange beide übereinstimmen, fällt das nicht auf; sobald sie auseinanderfallen,
+  bleibt beim Gesellschafter zwangsläufig ein Rest – ein **voll abziehbarer Aufwand**. Im
+  Maschinenbeispiel sind das 95.000 €, und der Betrag ist nicht zufällig: Er ist genau die im
+  gemeinen Wert steckende Umsatzsteuer (500.000 € Teilwert × 19 % = 95.000 €, 500.000 € + 95.000 € =
+  595.000 €), weil der gemeine Wert ein Brutto-, der Teilwert ein Nettowert ist. Mit der
+  **tatsächlich** angefallenen Umsatzsteuer von 47.500 € hat er nichts zu tun, deren
+  Bemessungsgrundlage der Einkaufspreis von 250.000 € ist – dasselbe Auseinanderfallen von
+  hypothetischer und tatsächlicher Umsatzsteuer, das in Abschnitt 3.2.1 die umstrittenen 4.950 €
+  erzeugt hat, hier aber ohne Streit. Auf diesen Aufwand greift weder § 10 Nr. 2 KStG (es ist nicht
+  die Umsatzsteuer **des Gesellschafters**) noch § 3c Abs. 2 EStG (er hat den Betrag nicht
+  **tatsächlich aufgewendet**), so dass er den steuerpflichtigen Teil des Beteiligungsertrags von
+  357.000 € auf 262.000 € drückt – obwohl der Ertrag selbst nur zu 60 % steuerpflichtig ist.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
