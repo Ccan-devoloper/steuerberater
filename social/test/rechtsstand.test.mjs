@@ -199,7 +199,9 @@ test("Realteilung erfasst auch die unechte Realteilung", () => {
 test("PWB enthält keine pauschale 1-Prozent-Verwaltungsregel", () => {
   const t = byId("bilanz-formel-pwb");
   assert.match(kern(t), /betrieblicher Erfahrungswerte/);
-  assert.match(kern(t), /allgemeine.*1-%-Pauschale[^"]*gibt es nicht/i);
+  assert.match(kern(t), /Nichtaufgriffsgrenze bis 1 %/i);
+  assert.match(kern(t), /kein gesetzlicher Pauschalsatz/);
+  assert.match(kern(t), /höheren nachgewiesenen Risikosatz/);
   assert.match(kern(t), /risikobehafteter Nettobestand/);
   assert.doesNotMatch(kern(t), /Gesamtbestand brutto.*÷ 1,19/);
   assert.doesNotMatch(kern(t), /Verwaltung regelmäßig nur 1 %/i);
