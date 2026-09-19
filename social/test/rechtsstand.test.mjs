@@ -40,6 +40,16 @@ test("§ 9 AStG verwendet Einkünfte und kennzeichnet 2025/2026", () => {
   assert.match(auftrag, /80\.000/);
 });
 
+test("Ersatzbeschaffungsrücklage enthält vollständige Verwaltungsfristen und BFH-Abweichung", () => {
+  const t = byId("bilanz-modul-k3-26");
+  assert.match(kern(t), /bewegliche[sr]? Wirtschaftsgut.*(?:grundsätzlich )?ein Jahr/i);
+  assert.match(kern(t), /bis (?:auf )?vier Jahre/i);
+  assert.match(kern(t), /neu hergestellten? Gebäude.*sechs Jahre/i);
+  assert.match(kern(t), /BFH.*IV R 4\/09/i);
+  assert.match(kern(t), /vier Wirtschaftsjahre allgemein|allgemein mit vier Wirtschaftsjahren/i);
+  assert.doesNotMatch(kern(t), /Frist beachten: ein Jahr, bei Grundstücken und Gebäuden vier Jahre, verlängerbar/);
+});
+
 test("15%-Grenze trennt Erweiterungen von anschaffungsnahen Herstellungskosten", () => {
   const t = byId("bilanz-formel-anschaffungsnah");
   assert.match(kern(t), /Erweiterungen.*nicht in die 15-%-Grenze/i);
