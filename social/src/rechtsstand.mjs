@@ -211,7 +211,11 @@ function korrigiereAchtB(thema) {
       : x
   );
   if (!einordnung.some((x) => /Abs\. 4 S\. 6|laufenden Kalenderjahr.*mindestens 10/i.test(x))) einordnung.push(zusatz);
-  const pruefschritte = [...(thema.kern?.pruefschritte || [])];
+  const pruefschritte = [...(thema.kern?.pruefschritte || [])].map((x) =>
+    /Unter 10 % bleibt der Ertrag voll steuerpflichtig/i.test(x)
+      ? "Liegt die Beteiligungsquote zu Beginn des Kalenderjahres unter 10 %, zuerst die Erwerbsfiktion des § 8b Abs. 4 S. 6 KStG prüfen. Nur wenn sie nicht greift, bleibt die Dividende nach Abs. 4 voll steuerpflichtig und die 5-%-Pauschale entfällt."
+      : x
+  );
   const stichtag = pruefschritte.findIndex((x) => /Beteiligungsquote.*Beginn|10-%-.*Beginn|Stichtag/i.test(x));
   if (!pruefschritte.some((x) => /Abs\. 4 S\. 6|Erwerb.*mindestens 10/i.test(x))) {
     pruefschritte.splice(stichtag >= 0 ? stichtag + 1 : 2, 0, "Unterjährigen Erwerb einer Beteiligung von mindestens 10 % nach § 8b Abs. 4 S. 6 KStG als Erwerb zu Jahresbeginn behandeln.");
