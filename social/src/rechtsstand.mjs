@@ -294,6 +294,30 @@ function korrigierePar34(thema) {
   };
 }
 
+function korrigiereAo122a(thema) {
+  normErgaenzen(thema, "§ 122a Abs. 1–5 AO", "Art. 97 § 28 Abs. 2 EGAO");
+  const schritte = [...(thema.kern?.pruefschritte || [])];
+  const idx = schritte.findIndex((x) => /Bereitstellung zum Datenabruf/i.test(x));
+  const neu = [
+    "Bei § 122a AO die Bekanntgabefiktion getrennt prüfen: Ein zum Abruf bereitgestellter Verwaltungsakt gilt am vierten Tag nach der Bereitstellung als bekannt gegeben; die elektronische Benachrichtigung hat nur Hinweisfunktion.",
+    "Übergang 2026: § 122a Abs. 1 S. 2 (regelmäßige Bereitstellung nach elektronisch übermittelter Steuer-/Feststellungserklärung) ist noch nicht allgemein anzuwenden. Nach BMF 13.08.2026 erfolgt die elektronische Bekanntgabe 2026 grundsätzlich weiterhin nur bei zuvor erteilter/fortwirkender Einwilligung; sonst postalisch.",
+    "Ab 2027: § 122a Abs. 1 S. 2 ist auf nach dem 31.12.2026 erlassene Verwaltungsakte anzuwenden; bei den gesetzlichen Fällen wird elektronische Bereitstellung zum Regelfall, sofern kein Antrag auf postalische Bekanntgabe nach Abs. 2 greift.",
+  ];
+  if (!schritte.some((x) => /Benachrichtigung.*Hinweisfunktion/i.test(x))) schritte.splice(idx >= 0 ? idx : schritte.length, idx >= 0 ? 1 : 0, ...neu);
+  thema.kern = {
+    ...thema.kern,
+    pruefschritte: schritte,
+    merksatz: "§ 122a seit 2026: vier Tage ab Bereitstellung, nicht ab Benachrichtigung. 2026 gilt noch die Übergangslage; ab 2027 wird die elektronische Bereitstellung in den Fällen des Abs. 1 S. 2 grundsätzlich zum Regelfall, mit postalischem Opt-out.",
+  };
+  rechtsstandswechsel(thema, {
+    abJahr: 2027,
+    vorherJahr: 2026,
+    norm: "§ 122a Abs. 1 S. 2 AO i. V. m. Art. 97 § 28 Abs. 2 EGAO",
+    aktuell: "2027: § 122a Abs. 1 S. 2 ist für nach dem 31.12.2026 erlassene Verwaltungsakte anwendbar; elektronische Bereitstellung wird in den gesetzlichen Fällen grundsätzlich ohne vorherige Einwilligung genutzt, sofern kein Antrag auf postalische Bekanntgabe greift.",
+    vorher: "2026: Übergangsjahr. Nach BMF-Schreiben vom 13.08.2026 erfolgt elektronische Bekanntgabe grundsätzlich nur bei zuvor erteilter bzw. fortwirkender Einwilligung; in den übrigen Fällen weiterhin postalisch.",
+  });
+}
+
 function korrigiereAussenpruefung171(thema) {
   normErgaenzen(thema, "§ 171 Abs. 4 S. 1–8 AO", "Art. 97 § 37 Abs. 2 EGAO");
   thema.kern = {
@@ -637,6 +661,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-modul-k3-36": korrigiereEntfernungspauschale(thema); break;
       case "bilanz-modul-k3-47": korrigierePar34(thema); break;
       case "erbst-modul-erbst-506": ergaenzeErbfallkosten(thema); break;
+      case "ao-modul-ao-313": korrigiereAo122a(thema); break;
       case "ao-modul-ao-335": korrigiereAussenpruefung171(thema); break;
       case "erbst-modul-erbst-512": korrigiereFamilienheim(thema); break;
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
