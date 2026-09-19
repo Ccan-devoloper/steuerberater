@@ -10620,6 +10620,38 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 2.5.9.1 (Schluss) bis 3.2.1 – Kapitel 2 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 31 bis 34; übernommen als Kapitel 17 und 18. Prüfung:
+`npm run check:k2-kst-teil6` (18 Kapitel, 369 Blöcke, 21 Tabellen). Damit ist **Kapitel 2 des Skripts
+(Voraussetzungen der Organschaft) vollständig** übernommen.
+
+**Die Zahlen des ersten Beispiels zur Einkommensermittlung sind unabhängig nachgerechnet und gehen
+auf:** 0 € + 500.000 € = 500.000 € Ausgangsgröße, zuzüglich 10.000 € nicht abziehbarer
+Betriebsausgaben ergeben 510.000 € steuerlichen Gewinn, der vollständig zugerechnet wird, so dass
+0 € verbleiben.
+
+**Zwei sprachliche Eigenheiten sind übernommen und markiert:** der Genuswechsel „Die Feststellung …
+Dieser gilt“ und der unvollständige Satz „welches nach § 14 Abs. 5 KStG festgestellt“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Unterscheidung zwischen dem unverändert wichtigen
+Grund bei Veräußerung und Einbringung und der widerlegbaren Regelvermutung bei Umwandlungen samt
+Dokumentationshinweis; die Einordnung des § 14 Abs. 1 Nr. 3 Satz 3 KStG als Rechtssicherheitsnorm und
+die Bedeutung ihres zivilrechtlichen Vorbehalts; die Gegenüberstellung von Abwicklungsgewinn bei der
+Organgesellschaft und Übertragungsgewinn beim Organträger; die Wiederholung des Vorrangs der
+Durchführung gerade für Insolvenzfälle; die Erläuterung der doppelten Belastung durch die Haftung
+nach § 73 AO; die Auswertung des Feststellungsverfahrens als Neuordnung des Rechtsstreits über die
+Organschaft samt der Folgerung, welcher Bescheid anzugreifen ist; die leicht überlesene Einschränkung
+der Befreiung des Organträgers von der Erklärungspflicht; die Erklärung der Eliminierung aus der
+Buchungstechnik samt dem Hinweis auf den häufigsten Klausurfehler; und die Deutung der Differenz von
+10.000 € als Vorgriff auf die Mehr- und Minderabführungen.
+
+**Neu sind zwei Übersichten:** eine zu den Folgen von Auflösung, Aufspaltung, unterjähriger Kündigung
+und Beendigung nach Ablauf der Mindestlaufzeit und eine zum Rechenweg der Einkommensermittlung.
+
+**Noch offen:** aus Teil VI die weiteren Abschnitte des Kapitels 3 (Auswirkungen der Organschaft) und
+das Kapitel 4 (gewerbesteuerliche Organschaft); ganz offen ist der Skriptteil VII (Liquidation).
+
 ### KSt Teil VI (Hamacher), Abschnitte 2.5.7.2 bis 2.5.9.1 – Heilung, Verstoß und Beendigung
 
 Quelle: dieselbe Datei, Seiten 28 bis 30; übernommen als Kapitel 15 und 16. Prüfung:

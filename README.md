@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 16 Kapitel mit 326 Abschnitten und 19 Tabellen. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 18 Kapitel mit 369 Abschnitten und 21 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4802,6 +4802,48 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ist die Anerkennung **von Anfang an** zu versagen. Und der wichtige Grund rettet nur die
   **Mindestlaufzeit**, nicht die **tatsächliche Durchführung** – war der Vertrag in den Vorjahren
   mangelhaft durchgeführt, bleibt es bei der Nichtanerkennung, wie der BFH 2022 bestätigt hat.
+  Bei **Umwandlungen** ist die Aussage feiner, als sie klingt: Veräußerung und Einbringung der
+  Organbeteiligung sind **unverändert** wichtige Gründe, für Umwandlungen gilt dagegen nur eine
+  **Regelvermutung**, die kippt, wenn erhebliche **außersteuerliche Gründe** nicht erkennbar sind – bei
+  konzerninternen Umwandlungen innerhalb der Mindestlaufzeit sollten sie deshalb dokumentiert werden.
+  Eine **unterjährige Kündigung** wirkt nach § 14 Abs. 1 Nr. 3 Satz 3 KStG auf den **Beginn des
+  Wirtschaftsjahres** zurück, so dass dieses Jahr entfällt; die Norm ist eine reine
+  **Rechtssicherheitsnorm**, weil im Gesellschaftsrecht ungeklärt ist, wann eine unterjährige
+  Beendigung wirkt, und sie greift nur, wenn der Vertrag zivilrechtlich überhaupt unterjährig beendet
+  werden kann. Erfolgt die Beendigung **nach** Ablauf der Mindestlaufzeit, entfällt die Organschaft nur
+  ab dem Jahr der Beendigung, und zwar auch **ohne** wichtigen Grund.
+  **Liquidation und Insolvenz** beenden den Vertrag mit Verfahrenseröffnung und gelten als wichtiger
+  Grund, so dass die Vorjahre unberührt bleiben – vorausgesetzt, der Vertrag war dort ordnungsgemäß
+  durchgeführt, was gerade in der Insolvenz oft nicht der Fall ist. Der **Abwicklungsgewinn** fällt
+  dann bei der Organgesellschaft selbst an, weil ohne Vertrag keine Zurechnung mehr stattfindet; im
+  Gegensatz dazu unterliegt bei einer **Aufspaltung** nach § 123 UmwG der **Übertragungsgewinn** noch
+  der Abführung und ist beim Organträger zu versteuern. Muss die Organgesellschaft schließlich nach
+  **§ 73 AO** für Steuerschulden des Organträgers haften, kann sie den Aufwand **nicht abziehen**: Die
+  Inanspruchnahme beruht auf der gesellschaftsrechtlichen Verbindung, so dass die Zahlung eine
+  **verdeckte Gewinnausschüttung** ist – wirtschaftlich trägt sie damit die Steuer auf fremdes
+  Einkommen ohne jede steuerliche Entlastung. Damit ist auch Kapitel 2 vollständig.
+  Das dritte Kapitel beginnt mit dem **Feststellungsverfahren** des § 14 Abs. 5 KStG, das mehr leistet,
+  als sein Wortlaut vermuten lässt: Festgestellt werden Organeinkommen, Mehr- und Minderabführungen,
+  Aufwendungen nach § 15 Nr. 2 KStG, Zinsgrößen nach § 15 Nr. 3 KStG und Anrechnungsbeträge nach
+  § 19 Abs. 5 KStG – und der Bescheid **dokumentiert zugleich das Vorliegen der Organschaft**. Das
+  Finanzamt der Organgesellschaft prüft dafür jährlich sämtliche Tatbestandsmerkmale; bei einem
+  Verstoß ergeht ein **negativer Feststellungsbescheid**. Weil der Bescheid für beide Gesellschaften
+  **Grundlagenbescheid** nach § 171 Abs. 10 und § 175 Abs. 1 Nr. 1 AO ist, wird der Streit dort und
+  nicht in den Folgebescheiden geführt: Ein Einspruch gegen den eigenen Körperschaftsteuerbescheid ist
+  **unbegründet**, soweit er die Ermittlung des Organeinkommens angreift, und beide Gesellschaften sind
+  gegen die Feststellung einspruchsbefugt. Örtlich zuständig ist allein das **Betriebsfinanzamt der
+  Organgesellschaft**, die auch allein erklärungspflichtig ist – die Befreiung des Organträgers gilt
+  allerdings nur, solange sie ihre Pflicht **tatsächlich erfüllt**. Für die Gewerbesteuer gilt das
+  Verfahren nicht; dort greift **§ 35b GewStG**.
+  Ausgangsgröße der Einkommensermittlung bei der Organgesellschaft ist der Jahresüberschuss **vor**
+  Abführung. Weil die Abführungsverpflichtung handelsrechtlich als **Aufwand** gebucht wird und die
+  Verlustübernahme spiegelbildlich als Ertrag, beträgt der Bilanzgewinn regelmäßig **0 €** und taugt
+  nicht als Ausgangsgröße – der erste Schritt ist deshalb stets die **Eliminierung** der gebuchten
+  Abführung nach R 7.1 Zeile 21 KStR; wer ihn vergisst, ermittelt ein Organeinkommen von null. Das
+  Beispiel zeigt anschließend den Kern des gesamten Kapitels in einer einzigen Zahl: Abgeführt werden
+  **500.000 €** – der handelsrechtliche Gewinn –, zugerechnet werden **510.000 €** – das steuerliche
+  Einkommen; die Differenz sind die nicht abziehbaren Betriebsausgaben. Genau solche Abweichungen
+  führen in anderer Gestalt zu den später behandelten Mehr- und Minderabführungen.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
