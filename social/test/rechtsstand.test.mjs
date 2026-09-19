@@ -152,6 +152,15 @@ test("§172 schlichte Änderung ist kein Einspruch und verlangt sachliche Konkre
   assert.match(kern(t), /Aussetzung der Vollziehung.*nicht/i);
 });
 
+test("§93-Auskunftsersuchen behandelt Rechtsbehelfsbelehrung als Frist- statt Wirksamkeitsfrage", () => {
+  const t = byId("ao-modul-ao-303");
+  assert.match(kern(t), /grundsätzlich keine bestimmte Form|grundsätzlich formfrei/i);
+  assert.match(kern(t), /auf Verlangen.*schriftlich/i);
+  assert.match(kern(t), /keine Wirksamkeitsvoraussetzung/i);
+  assert.match(kern(t), /Jahresfrist.*§ 356|§ 356.*Jahresfrist/i);
+  assert.match(kern(t), /Drittauskunftsersuchen.*Subsidiarität|§ 93 Abs\. 1 S\. 3/i);
+});
+
 test("Bekanntgabe an Bevollmächtigte trennt Kann-Regel und Empfangsvollmacht", () => {
   const t = byId("ao-modul-ao-308");
   assert.match(kern(t), /bloße Mitwirkung.*genügt nicht/i);
