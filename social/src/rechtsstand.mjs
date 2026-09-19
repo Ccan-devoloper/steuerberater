@@ -239,6 +239,29 @@ function korrigiereRueckstellungskatalog(thema) {
   normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
+function korrigiereAbzinsung(thema) {
+  thema.kern = {
+    ...thema.kern,
+    erklaerung: "Handelsrechtlich sind Rückstellungen mit mehr als einem Jahr Restlaufzeit nach § 253 Abs. 2 HGB abzuzinsen: Bei Altersversorgungsverpflichtungen basiert der durchschnittliche Marktzinssatz auf den vergangenen zehn Geschäftsjahren, bei sonstigen Rückstellungen auf sieben Geschäftsjahren; für Altersversorgung und vergleichbare langfristige Verpflichtungen ist die pauschale 15-Jahres-Restlaufzeit zu beachten. Steuerlich gilt für abzuzinsende Rückstellungen grundsätzlich der Zinssatz des § 6 Abs. 1 Nr. 3a Buchst. e EStG. Verbindlichkeiten werden steuerlich seit den nach dem 31.12.2022 endenden Wirtschaftsjahren nicht mehr allgemein abgezinst.",
+  };
+}
+
+function korrigiereRueckstellungsbewertung(thema) {
+  thema.kern = {
+    ...thema.kern,
+    antwort: "HB: Erfüllungsbetrag mit erwarteten Preis- und Kostensteigerungen; bei mehr als einem Jahr Restlaufzeit Abzinsung nach § 253 Abs. 2 HGB. Für Altersversorgungsverpflichtungen wird der durchschnittliche Marktzinssatz aus zehn, für sonstige Rückstellungen aus sieben Geschäftsjahren ermittelt; bei Altersversorgung und vergleichbaren langfristigen Verpflichtungen ist die pauschale 15-Jahres-Restlaufzeit zu beachten. StB: Bewertung nach § 6 Abs. 1 Nr. 3a EStG, insbesondere Stichtagsverhältnisse, Ansammlung und grundsätzlich 5,5-%-Abzinsung nach Buchst. e; steuerliche Sonderregeln und Ausnahmen gesondert prüfen.",
+  };
+  normErgaenzen(thema, "§ 253 Abs. 2 HGB", "§ 6 Abs. 1 Nr. 3a EStG");
+}
+
+function korrigiereLatenteSteuern(thema) {
+  thema.kern = {
+    ...thema.kern,
+    erklaerung: "§ 274 HGB erfasst temporäre Differenzen, die sich in späteren Geschäftsjahren voraussichtlich abbauen: Eine daraus insgesamt entstehende Steuerbelastung ist grundsätzlich passiv anzusetzen, eine Steuerentlastung kann aktiv angesetzt werden. Zusätzlich sind steuerliche Verlustvorträge bei aktiven latenten Steuern insoweit zu berücksichtigen, wie innerhalb der nächsten fünf Jahre eine Verlustverrechnung zu erwarten ist. Größenabhängige Befreiungen, insbesondere § 274a HGB, sind gesondert zu prüfen.",
+  };
+  normErgaenzen(thema, "§ 274 Abs. 1 HGB", "§ 274a HGB");
+}
+
 function korrigiereRealteilung(thema) {
   normErgaenzen(thema, "§ 16 Abs. 3 S. 2–4 EStG");
   if (thema.typ === "karteikarte") {
@@ -276,7 +299,8 @@ function korrigiereRealteilung(thema) {
 function korrigierePwb(thema) {
   thema.kern = {
     ...thema.kern,
-    erklaerung: "Die Bemessungsgrundlage ist der Nettobestand ohne sichere und bereits einzelwertberichtigte Forderungen. Der Risikosatz ist anhand objektiver Umstände am Bilanzstichtag und betrieblicher Erfahrungswerte nachvollziehbar zu schätzen; eine allgemeine gesetzliche oder verwaltungsseitige 1-%-Pauschale für sämtliche Forderungsbestände gibt es nicht.",
+    ausdruck: "PWB = risikobehafteter Nettobestand × nachvollziehbar geschätzter Risikosatz",
+    erklaerung: "Die Bemessungsgrundlage ist der Nettobestand ohne sichere und bereits einzelwertberichtigte Forderungen. Der Risikosatz ist anhand objektiver Umstände am Bilanzstichtag und betrieblicher Erfahrungswerte nachvollziehbar zu schätzen; eine allgemeine gesetzliche oder verwaltungsseitige 1-%-Pauschale für sämtliche Forderungsbestände gibt es nicht. Ein pauschales Herausrechnen mit 1,19 ist nur passend, soweit der zugrunde liegende Forderungsbestand tatsächlich einheitlich diesem Umsatzsteuersatz unterliegt.",
   };
   normErgaenzen(thema, "BFH v. 31.05.2017 – X R 29/15");
 }
@@ -319,6 +343,8 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
       case "bilanz-formel-pwb": korrigierePwb(thema); break;
+      case "bilanz-formel-abzinsung": korrigiereAbzinsung(thema); break;
+      case "bilanz-formel-latente-steuern": korrigiereLatenteSteuern(thema); break;
       case "bilanz-formel-teileinkuenfte": korrigiereTeileinkuenfte(thema); break;
       case "kst-modul-kst-12": korrigiereVerein(thema); break;
       case "bilanz-modul-k3-35": korrigiereElektroPkw(thema); break;
@@ -328,6 +354,7 @@ export function socialKorrekturenAnwenden(pool) {
     }
 
     if (thema.typ === "karteikarte" && /Begründet ein Mietverhältnis wirtschaftliches Eigentum/i.test(thema.titel || "")) korrigiereMiete(thema);
+    if (thema.typ === "karteikarte" && /Wie unterscheidet sich die Rückstellungsbewertung in HB und StB/i.test(thema.titel || "")) korrigiereRueckstellungsbewertung(thema);
     if (/Realteilung (?:oder|und) Sachwertabfindung/i.test(thema.titel || "")) korrigiereRealteilung(thema);
     if (thema.typ === "karteikarte" && /Wie wird § 8b KStG technisch umgesetzt/i.test(thema.titel || "")) korrigiereAchtBTechnik(thema);
     if (/Vereinsbesteuerung/i.test(thema.titel || "") && thema.id !== "kst-modul-kst-12") korrigiereVerein(thema);
