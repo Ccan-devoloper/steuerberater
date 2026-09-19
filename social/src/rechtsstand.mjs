@@ -190,7 +190,11 @@ function korrigiereAchtB(thema) {
     };
     return;
   }
-  const einordnung = [...(thema.kern?.einordnung || [])];
+  const einordnung = [...(thema.kern?.einordnung || [])].map((x) =>
+    /einzige Ausnahme von der Freistellung.*Streubesitzdividende/i.test(x)
+      ? "Bei Dividenden ist im Grundfall zusätzlich § 8b Abs. 4 KStG zu prüfen. Daneben kennt § 8b KStG weitere Einschränkungen und Sondertatbestände; die Streubesitzregel darf daher nicht als einzige Ausnahme von der Freistellung dargestellt werden."
+      : x
+  );
   if (!einordnung.some((x) => /Abs\. 4 S\. 6|laufenden Kalenderjahr.*mindestens 10/i.test(x))) einordnung.push(zusatz);
   const pruefschritte = [...(thema.kern?.pruefschritte || [])];
   const stichtag = pruefschrittte.findIndex((x) => /Beteiligungsquote.*Beginn|10-%-.*Beginn|Stichtag/i.test(x));
@@ -205,6 +209,14 @@ function korrigiereElektroPkw(thema) {
     ...thema.kern,
     merksatz: "Beim Elektro-Pkw Fahrzeugart, Anschaffungszeitpunkt und Bruttolistenpreis getrennt prüfen: Reine Elektrofahrzeuge können ertragsteuerlich unter die Viertelregel fallen; die umsatzsteuerliche Bemessungsgrundlage übernimmt diese ertragsteuerliche Kürzung nicht automatisch.",
   };
+}
+
+function korrigiereRueckstellungskatalog(thema) {
+  thema.kern = {
+    ...thema.kern,
+    merksatz: "Aufwandsrückstellungen sind handelsrechtlich nur in den ausdrücklich genannten Fällen des § 249 Abs. 1 HGB zulässig: unterlassene Instandhaltung bei Nachholung innerhalb der ersten drei Monate des Folgejahres und Abraumbeseitigung bei Nachholung im Folgejahr. Gewährleistungen ohne rechtliche Verpflichtung sind ebenfalls ausdrücklich von § 249 Abs. 1 HGB erfasst.",
+  };
+  normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
 function kennzeichneGastronomie(thema) {
@@ -230,6 +242,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
       case "kst-modul-kst-12": korrigiereVerein(thema); break;
       case "bilanz-modul-k3-35": korrigiereElektroPkw(thema); break;
+      case "bilanz-modul-k3-29": korrigiereRueckstellungskatalog(thema); break;
       case "ust-modul-ust-161": kennzeichneGastronomie(thema); break;
       default: break;
     }
