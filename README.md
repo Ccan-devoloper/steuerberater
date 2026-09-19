@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 4 Kapitel mit 83 Abschnitten und 5 Tabellen. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 6 Kapitel mit 134 Abschnitten und 8 Tabellen. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4568,6 +4568,45 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ändert. Schließlich dürfen an der Personengesellschaft **keine steuerbefreiten Körperschaften**
   beteiligt sein, es sei denn, das Organeinkommen wird einem wirtschaftlichen Geschäftsbetrieb
   zugerechnet, wo es ohnehin besteuert wird.
+  Für die **inländische Besteuerung des Organeinkommens** hat der Gesetzgeber den Anknüpfungspunkt
+  verschoben, was die Erwartung umkehrt: Während die Organgesellschaft zwingend im Inland geleitet
+  werden muss, kommt es beim **Organträger** auf Sitz, Geschäftsleitung und Wohnsitz **gar nicht an** –
+  er darf Steuerausländer und sogar in einem **Drittstaat** ansässig sein. Den Inlandsbezug stellt
+  allein die **Beteiligung** her, die nach § 14 Abs. 1 Nr. 2 Satz 4 KStG ununterbrochen einer
+  inländischen Betriebsstätte zuzuordnen ist; das sichert das Besteuerungsrecht und erklärt zugleich,
+  warum § 18 KStG a.F. entbehrlich wurde. In **Inlandsfällen** ist die Prüfung bedeutungslos, bei einem
+  **ausländischen** Organträger dagegen entscheidend: ohne DBA nach § 12 AO, mit DBA nach der
+  **funktionalen Zuordnung** zu einer Betriebsstätte im Sinne des **Art. 5 OECD-MA**. Genau hier liegt
+  eine Falle für den Mittelstand: Die **Besitzpersonengesellschaft** einer Betriebsaufspaltung gilt
+  national als gewerblich und kann Organträgerin sein, begründet abkommensrechtlich aber **keine**
+  Betriebsstätte, weil die bloße Vermietung keine feste Geschäftseinrichtung eigener Tätigkeit ist.
+  Die **finanzielle Eingliederung** verlangt nach § 14 Abs. 1 Nr. 1 Satz 1 KStG die Mehrheit der
+  **Stimmrechte**, nicht der nominellen Beteiligung – und das wirkt in beide Richtungen:
+  **Mehrfachstimmrechte** können die Mehrheit auch bei geringerer Kapitalbeteiligung herstellen, während
+  eine im Gesellschaftsvertrag vorgesehene **qualifizierte** Mehrheit auch erreicht werden muss.
+  Erforderlich ist zudem das **wirtschaftliche Eigentum**: Ein bloßer **Stimmrechtsbindungsvertrag**
+  genügt nicht – ein auffälliger Gegensatz zu § 8c KStG, wo dieselbe Bindung nach dem Skript Teil V
+  gerade ein gleichgestellter Vorgang ist und den Verlustuntergang auslösen kann.
+  **Mittelbare** Anteile zählen nur unter zwei Bedingungen, die sauber zu trennen sind: Der Organträger
+  muss die **vermittelnde** Gesellschaft **beherrschen** – dort gilt die Schwelle von mehr als 50 % als
+  reine Ja-Nein-Frage –, und die Quote wird anschließend **durchgerechnet**. Die Beispiele zeigen beide
+  Stufen: 30 % + 100 % × 70 % = 100 %; 41 % + 51 % × 30 % = 56,3 %; bei genau 50 % an der
+  Zwischengesellschaft fällt die gesamte mittelbare Beteiligung dagegen weg, obwohl 50 % + 50 % × 50 %
+  = 75 % zur Mehrheit geführt hätten – es scheitert also nicht an der Höhe, sondern an der fehlenden
+  Beherrschung. Die Zwischengesellschaft muss dabei **selbst nicht organschaftsfähig** sein; auch eine
+  ausländische Gesellschaft ohne Inlandsbezug oder eine nicht gewerbliche Personengesellschaft genügt,
+  weil sie nur als Rechenposten dient. Eine **ausschließlich mittelbare** Beteiligung reicht aus, der
+  Gewinnabführungsvertrag wird gleichwohl unmittelbar zwischen Organträger und Organgesellschaft
+  geschlossen. Dass § 14 Abs. 1 Nr. 1 Satz 3 KStG die mittelbaren Anteile ausblendet, wenn schon
+  unmittelbar die Mehrheit besteht, ist keine Vereinfachung, sondern eine Weichenstellung für die
+  Zurechnung der **Mehr- und Minderabführungen** nach § 14 Abs. 4 KStG.
+  Bei der **Personengesellschaft** müssen die maßgeblichen Anteile im **Gesamthandsvermögen** liegen;
+  im **Sonderbetriebsvermögen** gehaltene Anteile der Mitunternehmer bleiben ausgeblendet, obwohl sie
+  sonst zum Betriebsvermögen rechnen. Die Stoßrichtung ist dieselbe wie beim Erfordernis der originär
+  gewerblichen Tätigkeit: Die Gesellschaft soll die Organgesellschaft **selbst** beherrschen und nicht
+  als Rechenhilfe für die Anteile ihrer Gesellschafter dienen. Auch hier fällt der Gegensatz zum
+  Skript Teil V auf, wo die gewerblich geprägte Personengesellschaft für § 8c KStG selbst der Erwerber
+  ist, als Organträgerin aber gerade nicht genügt.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

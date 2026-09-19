@@ -10620,6 +10620,42 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 2.3.3 und 2.4 – Besteuerungsrecht und finanzielle Eingliederung
+
+Quelle: dieselbe Datei, Seiten 12 bis 15; übernommen als Kapitel 5 und 6. Prüfung:
+`npm run check:k2-kst-teil6` (6 Kapitel, 134 Blöcke, 8 Tabellen).
+
+**Alle Quoten sind unabhängig nachgerechnet und gehen auf:** 30 % + 100 % × 70 % = 100 %;
+41 % + 51 % × 30 % = 41 % + 15,3 % = 56,3 %; 40 % + 100 % × 40 % = 80 %. Im zweiten Beispiel zu
+2.4.2 ergäben 50 % + 50 % × 50 % rechnerisch 75 % – die Eingliederung scheitert also nicht an der
+Höhe, sondern allein an der fehlenden Beherrschung der Zwischengesellschaft.
+
+**Eine abweichende Fundstelle ist festgehalten:** Die Lösung des Beispiels zu 2.3.3 nennt für die
+Zuordnung zur Betriebsstätte „Art. 4 DBA-NL“; die Betriebsstätte ist abkommensrechtlich jedoch in
+Art. 5 geregelt, und Abschnitt 2.3.3.3 derselben Quelle stellt ausdrücklich auf Art. 5 OECD-MA ab.
+Der Wortlaut ist unverändert übernommen.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Beobachtung, dass der Gesetzgeber den
+Anknüpfungspunkt von der Person des Organträgers auf die Beteiligung verschoben hat und § 18 KStG
+a.F. dadurch entbehrlich wurde; die Erläuterung der Falle bei der Besitzpersonengesellschaft einer
+Betriebsaufspaltung, die national gewerblich ist, abkommensrechtlich aber keine Betriebsstätte
+begründet; die beidseitige Wirkung des Abstellens auf die Stimmrechte statt auf die nominelle
+Beteiligung; der Gegensatz zwischen der organschaftsrechtlichen Unbeachtlichkeit und der
+schädlichen Wirkung einer Stimmrechtsbindung bei § 8c KStG; die Trennung der doppelten Schwelle bei
+mittelbaren Anteilen in Beherrschung und Durchrechnung; die Klarstellung, dass § 14 Abs. 1 Nr. 1
+Satz 3 KStG eine Weichenstellung für die Mehr- und Minderabführungen des § 14 Abs. 4 KStG ist; die
+Einordnung der Zwischengesellschaft als bloßen Rechenposten; die Begründung des Ausschlusses des
+Sonderbetriebsvermögens samt dem Gegensatz zur gewerblich geprägten Personengesellschaft bei § 8c
+KStG; und die Auflösung des dritten Beispiels zur Personengesellschaft, in dem beide Anforderungen
+zusammenwirken.
+
+**Neu sind drei Übersichten:** eine zur Prüfung des deutschen Besteuerungsrechts je nach Lage des
+Organträgers, eine zu den fünf Beispielsfällen der mittelbaren Beteiligung mit unmittelbarer,
+mittelbarer und Gesamtquote und eine zu den drei Fällen der Personengesellschaft.
+
+**Noch offen:** aus Teil VI der Gewinnabführungsvertrag (2.5) sowie die Kapitel 3 und 4; ganz offen
+ist der Skriptteil VII (Liquidation).
+
 ### KSt Teil VI (Hamacher), Abschnitte 2.3.1 und 2.3.2 – der Organträger
 
 Quelle: dieselbe Datei, Seiten 9 bis 11; übernommen als Kapitel 3 und 4. Prüfung:
