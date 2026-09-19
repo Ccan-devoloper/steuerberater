@@ -10620,6 +10620,54 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 1.6 bis 1.8 – Vorteilsgeneigtheit und unbewusste Handlungen
+
+Quelle: dieselbe Datei, Seiten 16 und 17; übernommen als Kapitel 10 und 11. Prüfung:
+`npm run check:k2-kst-teil4` (11 Kapitel, 155 Blöcke, 15 Tabellen).
+
+**Die Vorteilsgeneigtheit als Filter** ist im Datensatz tabellarisch herausgearbeitet: Die vGA
+erfasst nur die Zuwendung selbst, nicht ihre Begleitkosten. Den tragenden Gedanken liefert die
+Quelle im Nachsatz selbst und er ist zugleich die Probe auf das Ergebnis – auch bei einer **offenen**
+Gewinnausschüttung wären die Schuldzinsen einer Fremdfinanzierung abziehbar; weil die vGA der
+offenen Ausschüttung gleichgestellt werden soll, darf sie nicht schlechter behandelt werden.
+
+**Das Finanzierungsgeschäft wird losgelöst beurteilt**, was die Tabelle in vier Zeilen zeigt:
+Zinsen an die Bank sind unschädlich, angemessene Zinsen an den darlehensgebenden Gesellschafter
+ebenfalls, überhöhte Zinsen dagegen eine weitere vGA. Ebenso bleiben die Beiträge zur
+Rückdeckungsversicherung abziehbar, weil die Ansprüche daraus der Gesellschaft zustehen.
+
+**Die Reichweite des Kriteriums** ist als eigene Ergänzung eingeordnet: Der Zufluss muss nach dem
+BFH nur „grundsätzlich denkbar“ sein und nicht zeitgleich eintreten – eine niedrige Hürde, weshalb
+das fünfte Tatbestandsmerkmal selten zum Ausschluss führt. Praktisch bedeutsam wird es an zwei
+Stellen: bei Aufwendungen, die ihrer Natur nach einem Dritten zufließen, und bei den
+Schadensersatzfällen des Abschnitts 1.5.2.3.
+
+**Der objektive Maßstab** (1.8) räumt mit einer verbreiteten Fehlvorstellung auf, und der Datensatz
+spricht das aus: Weder eine Ausschüttungsabsicht noch eine Einigung der Beteiligten ist
+erforderlich, weil § 8 Abs. 3 Satz 2 KStG an einen Veranlassungszusammenhang anknüpft und nicht an
+einen Willen. Wer in der Klausur argumentiert, die Unangemessenheit sei niemandem bewusst gewesen,
+hat damit nichts gewonnen. Die einzige Ausnahme verlangt **zwei** Voraussetzungen zugleich – einen
+Irrtum des Gesellschafter-Geschäftsführers **und** das Fehlen eines Zuwendungswillens; das
+zugrunde liegende BFH-Urteil vom 22.11.2023 ist jung, die Grenzen sind noch nicht ausgelotet.
+
+**Die schärfste Konsequenz der Zurechnung** ist eigens erläutert: Selbst ein durch **Untreue oder
+Unterschlagung** erschlichener Vorteil kann eine vGA sein. Entscheidend ist der Nachsatz der Quelle
+– „und die Kapitalgesellschaft diesen hat **gewähren lassen**“. Das Dulden ist der Anknüpfungspunkt,
+womit sich der Kreis zum Abschnitt 1.5.2.3 schließt: Setzt die Gesellschaft ihren Ersatzanspruch
+durch, bleibt es beim schlampigen Gesellschafter ohne vGA; lässt sie den Vorteil bestehen, wird
+daraus eine verdeckte Gewinnausschüttung.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „beim Anteilseigner oder **diesem nahe stehende Person** einen Bezug … auszulösen“.
+- Der Verweis „(siehe hierzu auch unter **5.1.3**)“ bei der Rückdeckungsversicherung – einen solchen
+  Abschnitt kennt das Inhaltsverzeichnis nicht; die Rückdeckungsversicherung ist Gegenstand des
+  Abschnitts 6.3.
+
+**Noch offen:** aus Teil IV die nahe stehenden Personen (1.9), der Vorteilsausgleich (1.10), die
+Beweislast (1.11), die Rückgewähr (1.12) und die Schenkungsteuer (1.13) sowie die Kapitel 2 bis 6;
+ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitt 1.5.2.3 – Schadensersatzansprüche, Abschnitt 1.5 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 12 bis 16; übernommen als Kapitel 8 und 9. Prüfung:

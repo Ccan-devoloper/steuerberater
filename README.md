@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 9 Kapitel mit 133
-  Abschnitten und 13 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 11 Kapitel mit 155
+  Abschnitten und 15 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -2973,6 +2973,26 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   bestehen, die Hinzurechnung bei der Gesellschaft bleibt bestehen, und obendrein hat er
   zurückgezahlt. Das steuerliche Einlagekonto erhöht sich dabei nur, wenn tatsächlich gezahlt wird;
   eine bloße Einlageforderung berührt den Bestand nach dem Zuflussprinzip des Teils III nicht.
+  Die **Vorteilsgeneigtheit** wirkt als Filter: Die vGA erfasst nur die Zuwendung selbst, nicht ihre
+  Begleitkosten. **Schuldzinsen** für ein Bankdarlehen, mit dem die Gesellschaft das überhöhte Gehalt
+  finanziert, sind keine weitere vGA und bleiben als Betriebsausgaben abziehbar – die Probe liefert
+  die Quelle selbst: Auch bei einer **offenen** Ausschüttung wären die Zinsen einer Fremdfinanzierung
+  abziehbar, und weil die vGA der offenen Ausschüttung gleichgestellt werden soll, darf sie nicht
+  schlechter behandelt werden. Das Finanzierungsgeschäft wird dabei vollständig losgelöst beurteilt:
+  Gibt der Gesellschafter selbst das Darlehen, sind angemessene Zinsen unschädlich, überhöhte eine
+  weitere vGA. Ebenso bleiben Beiträge zur **Rückdeckungsversicherung** abziehbar, selbst wenn die
+  abgesicherte Pensionszusage eine vGA ist – die Ansprüche daraus stehen der Gesellschaft zu. Der
+  Zufluss muss dabei nach dem BFH nur **grundsätzlich denkbar** sein und nicht zeitgleich eintreten,
+  was die Hürde niedrig hält. Schließlich ist die vGA durchweg **objektiv** zu beurteilen: Weder eine
+  Ausschüttungsabsicht noch eine Einigung der Beteiligten ist erforderlich, weil § 8 Abs. 3 Satz 2
+  KStG an einen Veranlassungszusammenhang anknüpft und nicht an einen Willen – wer argumentiert, die
+  Unangemessenheit sei niemandem bewusst gewesen, hat damit nichts gewonnen. Die einzige Ausnahme
+  verlangt zweierlei zugleich: einen **Irrtum** des Gesellschafter-Geschäftsführers und das Fehlen
+  eines Zuwendungswillens. Die Gesellschaft muss sich das Handeln ihrer Organe sogar dann zurechnen
+  lassen, wenn der Gesellschafter sich den Vorteil durch **Untreue oder Unterschlagung** erschlichen
+  hat – entscheidend ist, dass sie ihn hat „gewähren lassen“. Beim nichtbeherrschenden
+  Gesellschafter, der nicht Geschäftsführer ist, bedarf es dagegen einer, notfalls stillschweigenden,
+  Billigung.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

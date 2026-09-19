@@ -17,9 +17,11 @@
    aktivierungspflichtigen Wirtschaftsguts (1.5.2.1) und zum Verkauf einer
    Beteiligung (1.5.2.2) sowie zu den Schadensersatzansprüchen der Gesellschaft
    (1.5.2.3 mit dem schlampigen und dem gierigen Gesellschafter). Damit ist der
-   gesamte Abschnitt 1.5 vollständig. Es folgen die übrigen Abschnitte des
-   Kapitels 1 ab 1.6 sowie die Kapitel 2 bis 6; der Campus weist den Stand
-   aus.
+   gesamte Abschnitt 1.5 vollständig. Dazu kommen der fehlende Zusammenhang mit
+   einer offenen Gewinnausschüttung (1.6), die Vorteilsgeneigtheit (1.7) und
+   die unbewussten Handlungen (1.8). Es folgen die nahe stehenden Personen
+   (1.9) und die übrigen Abschnitte des Kapitels 1 sowie die Kapitel 2 bis 6;
+   der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -434,6 +436,79 @@ export const kstTeil4 = [
       { text: "Anmerkung zum Einlagekonto (eigene Ergänzung): Der Schlusssatz der Lösung ist die unmittelbare Anwendung dessen, was der Teil III im Abschnitt 1.3.2 festgehalten hat: Einlagen erhöhen das steuerliche Einlagekonto **nur im Jahr des tatsächlichen Zuflusses**; eine bloß gegenüber dem Gesellschafter ausgewiesene Einlageforderung berührt den Bestand noch nicht. Hier wird nie gezahlt, sondern verzichtet – das Einlagekonto bleibt deshalb über beide Jahre unverändert. Hätte A tatsächlich gezahlt, wäre der Bestand um 50.000 € gestiegen und bei ihm wären zusätzliche Anschaffungskosten entstanden." },
       { text: "Anmerkung zur Abgrenzung der beiden Gesellschaftertypen (eigene Ergänzung): Die Quelle stellt die Begriffe „schlampiger“ und „gieriger Gesellschafter“ nebeneinander, ohne sie ausdrücklich zu vergleichen; der Unterschied lässt sich aber auf eine einzige Frage bringen – **hat der Gesellschafter sich selbst einen Vorteil verschafft?** Beim schlampigen Gesellschafter lautet die Antwort nein: Er hat nur schlecht gearbeitet, der Schaden liegt allein bei der Gesellschaft, und deshalb ist der zivilrechtliche Ersatzanspruch vorrangig und schließt die vGA aus. Beim gierigen Gesellschafter lautet sie ja: Er hat wissentlich und zweckgerichtet Vermögen entzogen, die vGA ist mit dem Grundgeschäft bereits vollzogen, und der Rückforderungsanspruch ist nur noch eine Einlageforderung. Die Merkmale der Quelle für den zweiten Fall – „wissentlich und zweckgerichtet“ – sind dabei subjektiv, was die Abgrenzung in der Praxis zu einer Beweisfrage macht." },
       { text: "Anmerkung zur analogen Anwendung beim Verzicht (eigene Ergänzung): Dass der Aufwand aus dem Verzicht in **analoger** Anwendung des § 8 Abs. 3 Satz 3 KStG hinzugerechnet wird, ist eine feine, aber folgerichtige Konstruktion. Die Vorschrift ist ihrem Wortlaut nach eine Abzugsnorm für verdeckte Einlagen – hier wird sie in ihr Gegenteil verkehrt, weil der spiegelbildliche Vorgang rückabgewickelt wird. Die Begründung der Quelle ist dabei die Symmetrie: Weil sich schon der Ertrag aus der Einbuchung nicht ausgewirkt hat, darf sich auch der Aufwand aus dem Verzicht nicht auswirken. Dieselbe Denkfigur ist im Teil III beim Besserungsschein begegnet, wo die Quelle von der „umgekehrten analogen Anwendung“ des § 8 Abs. 3 Satz 3 KStG spricht." },
+    ],
+  },
+  {
+    id: "kst-t4-10",
+    kapitel: "10",
+    abschnittNr: "1.6 und 1.7",
+    title: "1.6 Kein Zusammenhang mit einer offenen Gewinnausschüttung · 1.7 Vorteilsgeneigtheit",
+    thema: "Das vierte Merkmal grenzt gegen den Ausschüttungsbeschluss ab, das fünfte gegen Aufwendungen, die beim Gesellschafter gar nicht ankommen können – Finanzierungskosten und Rückdeckungsversicherung bleiben deshalb abziehbar",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 1.6 und 1.7 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 1 und Satz 2 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 20 EStG",
+      "H 8.5 KStH „Zuflusseignung/Vorteilsgeneigtheit“",
+      "H 8.7 KStH „Rückdeckungsversicherung“",
+      "BFH vom 22.05.2024, I R 2/21",
+      "BFH vom 31.03.2004, I R 83/03",
+      "BFH vom 05.03.2008, I R 45/07",
+    ],
+    themen: ["Offene Gewinnausschüttung", "Vorteilsgeneigtheit", "Zuflusseignung", "Finanzierungskosten", "Rückdeckungsversicherung"],
+    bloecke: [
+      { text: "Ziel der verdeckten Gewinnausschüttung ist es, dem Anteilseigner die Gesellschaftsmittel „unentdeckt“ zuzuwenden. Sofern die Gesellschafterversammlung jedoch offen und somit durch Ausschüttungsbeschluss den Entschluss fasst, dem Anteilseigner die Vermögenswerte zuzuwenden, handelt es sich um eine offene Gewinnausschüttung i.S. des § 8 Abs. 3 Satz 1 KStG. § 8 Abs. 3 Satz 2 KStG wäre dann nicht einschlägig." },
+      { text: "Anmerkung zum vierten Tatbestandsmerkmal (eigene Ergänzung): Es hat praktisch geringe Bedeutung und ist in der Klausur meist mit einem Satz abgehandelt, verdient aber die Beachtung, weil es den systematischen Ort der Vorschrift markiert. Beide Sätze des § 8 Abs. 3 KStG führen zu demselben Ergebnis – das Einkommen wird nicht gemindert –, sie knüpfen nur an verschiedene Sachverhalte an. Satz 1 erfasst die beschlossene Ausschüttung, Satz 2 alles, was ihr wirtschaftlich gleichkommt, ohne beschlossen worden zu sein. Wo also ein wirksamer Ausschüttungsbeschluss vorliegt, ist die Prüfung der vGA von vornherein beendet." },
+      { typ: "titel", text: "1.7 Vorteilsgeneigtheit der vGA" },
+      { text: "Als weiteres „ungeschriebenes“ Tatbestandsmerkmal kommt nach der Rechtsprechung des BFH weiterhin hinzu, dass die bei der Kapitalgesellschaft eingetretene Vermögensminderung oder verhinderte Vermögensmehrung dazu geeignet sein muss, beim Anteilseigner oder diesem nahe stehende Person einen Bezug i.S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG auszulösen (sog. Vorteilsgeneigtheit). Der Zufluss der Bezüge muss bei dieser Betrachtung aber nicht zeitgleich mit der Einkommenserhöhung bei der Gesellschaft eintreten, sondern dieser muss nach Auffassung des BFH nur grundsätzlich denkbar sein. (Die Form „diesem nahe stehende Person“ steht so in der Quelle.)" },
+      { text: "Dieses weitere Kriterium ist plausibel, da die Gleichstellung der verdeckten Gewinnausschüttung mit einer regulären Gewinnausschüttung nur möglich ist, wenn dieser Vorgang beim Anteilseigner zu einem Beteiligungsertrag führen kann. Nur in den Fällen, in denen beim Anteilseigner (oder der nahe stehenden Person) im Zusammenhang mit der Gestaltung kein Vermögenszufluss denkbar ist, scheidet eine vGA aus. Dies wäre insbesondere in folgenden Fallgestaltungen anzunehmen:" },
+      { text: "• Bei Finanzierungskosten, die im Zusammenhang mit einer vGA stehen, z.B. aufgrund der Finanzierung eines überhöhten Kaufpreises durch die Kapitalgesellschaft oder der Aufnahme eines Bankdarlehens zur Begleichung eines überhöhten Geschäftsführergehaltes. Die damit zusammenhängenden Aufwendungen fließen in aller Regel nicht dem Anteilseigner zu und sind bei der Gesellschaft daher als herkömmliche Betriebsausgaben abziehbar. Dadurch erfolgt wiederum die Gleichsetzung mit einer offenen Gewinnausschüttung, da selbst in diesen Fällen, d.h. bei der fremdfinanzierten Auszahlung der Gewinnausschüttung, die Schuldzinsen abziehbar wären." },
+      { text: "Gleiches muss m.E. auch in den Fällen gelten, in denen der Anteilseigner der Gesellschaft zur Begleichung der vGA ein angemessen verzinsliches Darlehen gibt, weil der Gesellschafter in Form der Zinsen lediglich seine angemessene Gegenleistung erhält. Eine vGA kann dann aber wiederum angenommen werden, wenn die Darlehenskonditionen selbst nicht fremdüblich sind." },
+      { text: "Beispiel: Die A-GmbH zahlt ihrem Gesellschafter-Geschäftsführer A ein um 100.000 € überhöhtes Gehalt. Zur Gehaltszahlung muss die A-GmbH ein Darlehen aufnehmen, welches in 2025 mit 10.000 € verzinst wird." },
+      { text: "Lösung: Das überhöhte Gehalt stellt eine verdeckte Gewinnausschüttung dar und muss daher nach § 8 Abs. 3 Satz 2 KStG bei der Einkommensermittlung wieder hinzugerechnet werden." },
+      { text: "Die damit zusammenhängenden Schuldzinsen sind hingegen keine (weitere) verdeckte Gewinnausschüttung, da diese beim Anteilseigner keine Beteiligungserträge i.S. des § 20 EStG auslösen können. Die Zinsen bleiben als Betriebsausgaben abziehbar. Diese Auffassung ist sachgerecht, da der Anteilseigner insoweit keinen (weiteren) Vermögenszufluss erhält. Gleiches gilt, wenn der Anteilseigner selbst als Darlehensgeber auftritt und dafür angemessene Zinsen erhält. Diese beruhen auf einem weiteren, aber dann angemessen ausgestalteten Rechtsgeschäft. Wären die Zinsen insoweit überhöht, würde dies dann zu einer weiteren vGA führen." },
+      { text: "• In den Fällen der Rückdeckungsversicherung, die die Gesellschaft im Zusammenhang mit einer Pensionszusage abschließen musste. Auch wenn die damit abgesicherte Pensionszusage steuerlich als vGA anzusehen ist, können die Beiträge zur Rückdeckungsversicherung nicht ebenfalls eine weitere vGA begründen. Denn die Ansprüche aus der Rückdeckungsversicherung stehen der Gesellschaft zu, nicht aber dem Anteilseigner. Zudem fließen die Beiträge für die Rückdeckungsversicherung auch nicht dem Anteilseigner zu (siehe hierzu auch unter 5.1.3). (Der Verweis „unter 5.1.3“ steht so in der Quelle; das Inhaltsverzeichnis kennt keinen solchen Abschnitt – die Rückdeckungsversicherung ist Gegenstand des Abschnitts 6.3.)" },
+      { typ: "tabelle", spalten: ["Vorgang", "Fließt dem Gesellschafter etwas zu?", "Folge"], zeilen: [
+        ["überhöhtes Gehalt von 100.000 €", "ja", "verdeckte Gewinnausschüttung, Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG"],
+        ["Schuldzinsen von 10.000 € für das Bankdarlehen", "nein – sie fließen der Bank zu", "keine weitere vGA, als Betriebsausgaben abziehbar"],
+        ["angemessene Zinsen an den Gesellschafter als Darlehensgeber", "ja, aber als angemessene Gegenleistung", "keine weitere vGA – eigenständiges, fremdübliches Rechtsgeschäft"],
+        ["überhöhte Zinsen an den Gesellschafter als Darlehensgeber", "ja, über die Gegenleistung hinaus", "weitere vGA"],
+        ["Beiträge zur Rückdeckungsversicherung", "nein – die Ansprüche stehen der Gesellschaft zu", "keine weitere vGA, auch wenn die Pensionszusage selbst eine ist"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Sie führt vor, dass die Vorteilsgeneigtheit als **Filter** wirkt: Die vGA erfasst nur die Zuwendung selbst, nicht ihre Begleitkosten. Der entscheidende Gedanke steht im Nachsatz der Quelle und ist die Probe auf das Ergebnis – auch bei einer **offenen** Gewinnausschüttung wären die Schuldzinsen einer Fremdfinanzierung abziehbar. Weil die vGA der offenen Ausschüttung gleichgestellt werden soll, darf sie nicht schlechter behandelt werden. Die dritte und vierte Zeile zeigen zugleich, dass die Beurteilung des Finanzierungsgeschäfts von der vGA vollständig **losgelöst** erfolgt: Es wird für sich genommen am Fremdvergleich gemessen." },
+      { text: "Anmerkung zur Reichweite des Kriteriums (eigene Ergänzung): Der Zufluss muss nach dem BFH nur **grundsätzlich denkbar** sein und nicht zeitgleich eintreten – das ist eine niedrige Hürde und der Grund, weshalb das fünfte Tatbestandsmerkmal nur selten zum Ausschluss führt. Praktisch bedeutsam wird es an zwei Stellen: bei Aufwendungen, die ihrer Natur nach einem Dritten zufließen (Zinsen an die Bank, Versicherungsbeiträge), und bei den Schadensersatzfällen des Abschnitts 1.5.2.3, wo der Gesellschafter gar keinen Vorteil erlangt hat. In beiden Konstellationen ist der Zufluss nicht nur zufällig unterblieben, sondern von vornherein ausgeschlossen." },
+    ],
+  },
+  {
+    id: "kst-t4-11",
+    kapitel: "11",
+    abschnittNr: "1.8",
+    title: "1.8 Unbewusste Handlungen als verdeckte Gewinnausschüttung – Zurechnung von Organhandeln",
+    thema: "Weder Ausschüttungsabsicht noch Einigung der Beteiligten sind erforderlich. Die Gesellschaft muss sich das Handeln ihrer Organe sogar dann zurechnen lassen, wenn der Gesellschafter sich den Vorteil durch Untreue erschlichen hat",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 1.8 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "H 8.5 KStH „Grundsätze – Tatsächliche Handlungen“",
+      "BFH vom 22.11.2023, BStBl. II 2024, 523",
+    ],
+    themen: ["Keine Ausschüttungsabsicht", "Irrtum", "Zurechnung von Organhandeln", "Untreue und Unterschlagung", "Nichtbeherrschender Gesellschafter"],
+    bloecke: [
+      { text: "Eine verdeckte Gewinnausschüttung liegt auch dann vor, wenn sich die Beteiligten weder der Erfüllung des Tatbestandes noch der Rechtsfolgen der verdeckten Gewinnausschüttung bewusst waren. Zu den Voraussetzungen einer verdeckten Gewinnausschüttung gehört weder die Absicht der Kapitalgesellschaft, den Gewinn verdeckt zu verteilen, noch die Einigung der Parteien darüber, dass die Zuwendung mit Rücksicht auf das Gesellschaftsverhältnis erfolgt. Etwas anderes gilt allenfalls dann, wenn die bei der Kapitalgesellschaft eingetretene Vermögensminderung auf einem Irrtum des Gesellschafter-Geschäftsführers beruht und auch kein Zuwendungswille besteht." },
+      { text: "Eine Kapitalgesellschaft muss sich zudem die Handlungen ihrer Organe (Geschäftsführer und beherrschender Gesellschafter) uneingeschränkt zurechnen lassen, auch wenn diese dadurch ihre Kompetenzen überschreiten. Daher ist selbst dann von einer verdeckten Gewinnausschüttung auszugehen, wenn sich der Anteilseigner den Vermögensvorteil durch Untreue oder Unterschlagung erschlichen hat und die Kapitalgesellschaft diesen hat gewähren lassen." },
+      { text: "Die Handlung eines nichtbeherrschenden Gesellschafters, der nicht Geschäftsführer ist, muss sich die GmbH nur zurechnen lassen, wenn die anderen Anteilseigner oder die Geschäftsführung die Handlung (u. U. stillschweigend) gebilligt haben." },
+      { typ: "tabelle", spalten: ["Handelnder", "Zurechnung zur Gesellschaft", "Voraussetzung"], zeilen: [
+        ["Geschäftsführer", "uneingeschränkt", "auch bei Überschreitung der eigenen Kompetenzen"],
+        ["beherrschender Gesellschafter", "uneingeschränkt", "auch bei Überschreitung der eigenen Kompetenzen"],
+        ["nichtbeherrschender Gesellschafter, der nicht Geschäftsführer ist", "nur ausnahmsweise", "Billigung durch die anderen Anteilseigner oder die Geschäftsführung, gegebenenfalls stillschweigend"],
+      ] },
+      { text: "Anmerkung zum objektiven Maßstab (eigene Ergänzung): Der Abschnitt räumt mit einer verbreiteten Fehlvorstellung auf – die vGA sei so etwas wie ein heimlich verabredeter Vorgang. Weder eine Ausschüttungs**absicht** noch eine **Einigung** der Beteiligten ist erforderlich. Das ist folgerichtig, weil § 8 Abs. 3 Satz 2 KStG an einen objektiven Veranlassungszusammenhang anknüpft und nicht an einen Willen; geprüft wird, ob ein ordentlicher und gewissenhafter Geschäftsleiter so gehandelt hätte, nicht was die Beteiligten dachten. Praktisch bedeutet das: Wer in der Klausur argumentiert, den Beteiligten sei die Unangemessenheit nicht bewusst gewesen, hat damit nichts gewonnen." },
+      { text: "Anmerkung zur Ausnahme des Irrtums (eigene Ergänzung): Die einzige Öffnung, die die Quelle lässt, ist eng gefasst und verlangt **zwei** Voraussetzungen zugleich: einen Irrtum des Gesellschafter-Geschäftsführers **und** das Fehlen eines Zuwendungswillens. Der Sache nach geht es um das versehentliche Vermögensopfer – etwa eine irrtümlich doppelt ausgeführte Zahlung –, das gerade nicht auf dem Gesellschaftsverhältnis beruht. Die Nähe zum Abschnitt 1.5.2.3.1 ist offensichtlich: Auch dort fehlt es an einer Zuwendung, und auch dort ist die Gesellschaft auf den Rückforderungsanspruch verwiesen. Das zugrunde liegende BFH-Urteil vom 22.11.2023 ist jung; die Grenzen dieser Ausnahme sind damit noch nicht ausgelotet." },
+      { text: "Anmerkung zur Untreue (eigene Ergänzung): Der Satz, dass selbst ein durch **Untreue oder Unterschlagung** erschlichener Vorteil eine vGA sein kann, ist die schärfste Konsequenz der Zurechnung und wirkt auf den ersten Blick befremdlich – der Gesellschaft ist ja ein Schaden zugefügt worden, sie hat nichts zugewendet. Entscheidend ist der Nachsatz der Quelle: „und die Kapitalgesellschaft diesen hat **gewähren lassen**“. Das Dulden ist der Anknüpfungspunkt. Damit schließt sich der Kreis zum Abschnitt 1.5.2.3: Setzt die Gesellschaft ihren Ersatzanspruch durch, bleibt es beim schlampigen Gesellschafter ohne vGA; lässt sie den Vorteil bestehen, wird daraus eine verdeckte Gewinnausschüttung." },
+      { text: "Anmerkung zum nichtbeherrschenden Gesellschafter (eigene Ergänzung): Die Abstufung in der dritten Tabellenzeile ist die Kehrseite der Organstellung. Wer weder Geschäftsführer noch beherrschender Gesellschafter ist, kann der Gesellschaft ihren Willen nicht aufzwingen – sein Handeln ist deshalb nicht ohne Weiteres ihres. Erst die **Billigung** durch die anderen Gesellschafter oder die Geschäftsführung macht es dazu, wobei die Quelle ausdrücklich auch eine stillschweigende genügen lässt. In der Praxis läuft das auf eine Beweisfrage hinaus: Wer von dem Vorgang wusste und ihn nicht unterbunden hat, hat ihn regelmäßig gebilligt." },
     ],
   },
 ];
