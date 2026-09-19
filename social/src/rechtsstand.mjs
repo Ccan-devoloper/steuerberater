@@ -1114,6 +1114,91 @@ function korrigiereUstOrganschaft(thema) {
   });
 }
 
+function korrigierePv30Kwp(thema) {
+  normErgaenzen(thema, "§ 12 Abs. 3 Nr. 1 UStG", "A 12.18 Abs. 5 UStAE");
+  const einordnung = [...(thema.kern?.einordnung || [])];
+  if (!einordnung.some((x) => /30.*kW.*Vereinfachung|Vereinfachungsregel.*30/i.test(x))) {
+    einordnung.push("Bei Photovoltaikanlagen ist die 30-kW-(peak)-Grenze des § 12 Abs. 3 Nr. 1 S. 2 UStG keine allgemeine Höchstgrenze für den Nullsteuersatz. Sie ist eine Vereinfachungsregel: Bis einschließlich 30 kW (peak) gelten die Gebäudevoraussetzungen des Satzes 1 als erfüllt. Bei größeren Anlagen kann der Nullsteuersatz ebenfalls greifen, wenn die Voraussetzungen des Satzes 1 tatsächlich erfüllt sind.");
+  }
+  const lernziele = [...(thema.kern?.lernziele || [])].map((x) =>
+    /30-kWp-Grenze des Nullsteuersatzes/i.test(x)
+      ? "die 30-kW-(peak)-Vereinfachungsregel des § 12 Abs. 3 Nr. 1 S. 2 UStG von einer echten Höchstgrenze unterscheiden"
+      : x
+  );
+  if (!lernziele.some((x) => /größere Anlagen|über 30/i.test(x))) {
+    lernziele.push("bei Anlagen über 30 kW (peak) die Gebäudevoraussetzungen des § 12 Abs. 3 Nr. 1 S. 1 UStG konkret prüfen");
+  }
+  const pruefschritte = [...(thema.kern?.pruefschritte || [])];
+  pruefschritte.splice(1, 0,
+    "Bei Photovoltaikanlagen zuerst § 12 Abs. 3 Nr. 1 S. 1 UStG prüfen. Liegt die installierte Bruttoleistung bei höchstens 30 kW (peak), greift Satz 2 als Vereinfachung für die Gebäudevoraussetzungen; oberhalb von 30 kW ist der Nullsteuersatz nicht automatisch ausgeschlossen."
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung,
+    lernziele,
+    pruefschritte,
+    merksatz: "Steuersatz positiv begründen: 0 % vor 7 % prüfen, sonst 19 %. Bei Photovoltaik sind 30 kW (peak) eine Vereinfachungsgrenze für die Gebäudeprüfung, keine Höchstgrenze des Nullsteuersatzes.",
+  };
+}
+
+function korrigiereUstVorsteuer14c(thema) {
+  normErgaenzen(thema, "§ 15 Abs. 1 S. 1 Nr. 1 UStG", "§ 14c Abs. 1 und 2 UStG", "EuGH 01.08.2025 – C-794/23", "BFH 26.03.2026 – V R 46/25");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Für den Vorsteuerabzug nach § 15 Abs. 1 S. 1 Nr. 1 UStG ist die gesetzlich geschuldete Steuer aus einer Leistung eines anderen Unternehmers maßgeblich; ein nur aufgrund § 14c geschuldeter Mehrbetrag wird dadurch nicht zur abziehbaren Vorsteuer.",
+      "§ 14c Abs. 1 UStG ist seit EuGH C-794/23 und BFH V R 46/25 zusätzlich einzuschränken: Soweit eine Rechnung an einen nicht steuerpflichtigen Endverbraucher erteilt wird, entsteht aus dem unrichtigen Steuerausweis keine §-14c-Abs.-1-Steuerschuld. Der BFH hat insoweit seine frühere Rechtsprechung ausdrücklich geändert.",
+      "Ein steuerpflichtiger Rechnungsempfänger ist nicht allein deshalb Endverbraucher, weil er die Leistung privat oder für einen nicht zum Vorsteuerabzug berechtigenden Zweck nutzt.",
+    ],
+    lernziele: [
+      "Voraussetzungen des Vorsteuerabzugs nach § 15 Abs. 1 S. 1 Nr. 1 UStG prüfen",
+      "gesetzlich geschuldete Umsatzsteuer von einer bloßen §-14c-Steuerschuld unterscheiden",
+      "unrichtigen und unberechtigten Steuerausweis nach § 14c Abs. 1 und 2 abgrenzen",
+      "Endverbraucher-Ausnahme des § 14c Abs. 1 nach EuGH C-794/23 und BFH V R 46/25 berücksichtigen",
+      "bei Anzahlungen Rechnung, Zahlung und Leistungsbezug zeitlich richtig zusammenführen",
+    ],
+    pruefschritte: [
+      "Leistung eines anderen Unternehmers für das Unternehmen feststellen.",
+      "Gesetzlich geschuldete Steuer für die konkrete Lieferung oder sonstige Leistung bestimmen.",
+      "Rechnung nach §§ 14, 14a UStG und Besitz der Rechnung prüfen.",
+      "Bei Vorauszahlungen zusätzlich Zahlung vor Leistungsausführung prüfen.",
+      "Bei problematischem Steuerausweis § 14c gesondert prüfen. Ein nur nach § 14c geschuldeter Betrag ist keine abziehbare Vorsteuer.",
+      "Bei § 14c Abs. 1 zusätzlich prüfen, ob die Rechnung an einen nicht steuerpflichtigen Endverbraucher ging; insoweit entsteht nach aktueller EuGH-/BFH-Rechtsprechung keine §-14c-Steuerschuld.",
+    ],
+    merksatz: "Vorsteuer verlangt gesetzlich geschuldete Steuer. § 14c schafft keinen Vorsteuerabzug; bei § 14c Abs. 1 ist seit BFH V R 46/25 zusätzlich die Endverbraucher-Ausnahme zu beachten.",
+  };
+}
+
+function korrigierePkwArbeitnehmer(thema) {
+  normErgaenzen(thema, "§ 3 Abs. 9a Nr. 1 UStG", "§ 3 Abs. 12 S. 2 UStG", "§ 3a Abs. 1 UStG", "§ 3a Abs. 3 Nr. 2 S. 3 UStG", "BFH 30.06.2022 – V R 25/21", "BMF 03.03.2026 – III C 3 - S 7117-e/00003/005/058");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Die private Fahrzeugnutzung durch den Unternehmer und die Fahrzeugüberlassung an Arbeitnehmer sind getrennt zu prüfen. Bei der Unternehmernutzung kann § 3 Abs. 9a Nr. 1 UStG eingreifen, wenn die Vorsteuervoraussetzung erfüllt ist.",
+      "Bei Arbeitnehmern ist die Privatnutzungsüberlassung nicht allein wegen des Arbeitsverhältnisses automatisch entgeltlich. Ein unmittelbarer Zusammenhang mit der Arbeitsleistung liegt nach BFH V R 25/21 jedenfalls vor, wenn die private Nutzung individuell arbeitsvertraglich vereinbart ist, tatsächlich in Anspruch genommen wird und das Dienstverhältnis wirtschaftlich mitprägt. Nach dem BMF-Schreiben vom 03.03.2026 können auch mündliche Vereinbarungen oder eine entsprechende betriebliche Übung die Entgeltlichkeit tragen.",
+      "Die entgeltliche langfristige Fahrzeugüberlassung an einen Arbeitnehmer wird als Vermietung eines Beförderungsmittels behandelt; der Leistungsort liegt nach § 3a Abs. 3 Nr. 2 S. 3 UStG grundsätzlich am Wohnsitz oder gewöhnlichen Aufenthalt des Arbeitnehmers. Ist die Überlassung ausnahmsweise unentgeltlich, richtet sich der Leistungsort nach § 3a Abs. 1 UStG.",
+    ],
+    lernziele: [
+      "private Unternehmernutzung und Arbeitnehmerüberlassung unterscheiden",
+      "bei Arbeitnehmern einen unmittelbaren Zusammenhang zwischen Fahrzeugüberlassung und Arbeitsleistung statt einer Entgeltlichkeitsautomatik prüfen",
+      "arbeitsvertragliche, mündliche oder durch betriebliche Übung begründete Privatnutzungsrechte einordnen",
+      "entgeltliche langfristige Überlassung als tauschähnlichen Umsatz und Vermietung eines Beförderungsmittels behandeln",
+      "Leistungsort der entgeltlichen Überlassung nach § 3a Abs. 3 Nr. 2 S. 3 und der ausnahmsweise unentgeltlichen Überlassung nach § 3a Abs. 1 unterscheiden",
+      "ertragsteuerliche Elektro-/Hybrid-Bewertungsvorteile nicht ungeprüft auf die Umsatzsteuer übertragen",
+    ],
+    pruefschritte: [
+      "Feststellen, wer das Fahrzeug privat nutzt und auf welcher Rechtsgrundlage.",
+      "Beim Unternehmer § 3 Abs. 9a Nr. 1 UStG einschließlich Vorsteuervoraussetzung prüfen.",
+      "Beim Arbeitnehmer prüfen, ob die Privatnutzungsmöglichkeit Teil der Gegenleistung für die Arbeitsleistung ist; maßgeblich ist der konkrete unmittelbare Zusammenhang, nicht das Arbeitsverhältnis allein.",
+      "Bei entgeltlicher Arbeitnehmerüberlassung tauschähnlichen Umsatz und langfristige Vermietung eines Beförderungsmittels prüfen; Leistungsort grundsätzlich am Wohnsitz/gewöhnlichen Aufenthalt des Arbeitnehmers nach § 3a Abs. 3 Nr. 2 S. 3 UStG.",
+      "Bei ausnahmsweise unentgeltlicher Fahrzeugüberlassung § 3 Abs. 9a Nr. 1 und für den Leistungsort § 3a Abs. 1 UStG anwenden.",
+      "Die BMF-Nichtbeanstandung für die frühere Leistungsortbehandlung bei unentgeltlicher Fahrzeugüberlassung galt nur für Umsätze bis 30.06.2026.",
+      "Bemessungsgrundlage nach den einschlägigen UStAE-Grundsätzen bestimmen; ertragsteuerliche Elektro-/Hybridabschläge nicht automatisch übernehmen.",
+    ],
+    merksatz: "Dienstwagen 2026: Arbeitnehmerüberlassung ist nicht wegen des Arbeitsverhältnisses automatisch entgeltlich. Zusammenhang mit der Arbeitsleistung prüfen; entgeltlich langfristig grundsätzlich Arbeitnehmer-Wohnsitz, ausnahmsweise unentgeltlich § 3a Abs. 1.",
+  };
+}
+
 function kennzeichneGastronomie(thema) {
   rechtsstandswechsel(thema, {
     abJahr: 2026,
@@ -1163,10 +1248,12 @@ export function socialKorrekturenAnwenden(pool) {
       case "kst-modul-kst-1": korrigiereVorgesellschaft(thema); break;
       case "bilanz-modul-k3-35": korrigiereElektroPkw(thema); break;
       case "bilanz-modul-k3-29": korrigiereRueckstellungskatalog(thema); break;
-      case "ust-modul-ust-161": kennzeichneGastronomie(thema); break;
+      case "ust-modul-ust-161": kennzeichneGastronomie(thema); korrigierePv30Kwp(thema); break;
+      case "ust-modul-ust-164": korrigiereUstVorsteuer14c(thema); break;
       case "ust-modul-ust-209": korrigiereUst14c(thema); break;
       case "ust-modul-ust-212": korrigiereUwa9a(thema); break;
       case "ust-modul-ust-224": korrigiereUstZuordnung2026(thema); break;
+      case "ust-modul-ust-225": korrigierePkwArbeitnehmer(thema); break;
       case "ust-modul-ust-234": korrigiereUstOrganschaft(thema); break;
       default: break;
     }
