@@ -109,6 +109,21 @@ test("Elektro-Pkw-Merksatz verallgemeinert nicht mehr auf Halbierung", () => {
 
 
 
+
+test("USt-Quiz zur innergemeinschaftlichen Lieferung nennt alle tragenden Voraussetzungen", () => {
+  const t = byTitle(/Eine innergemeinschaftliche Lieferung an einen Unternehmer mit USt-IdNr/i);
+  assert.match(kern(t), /anderen EU-Mitgliedstaat/);
+  assert.match(kern(t), /Erwerbsbesteuerung/);
+  assert.match(kern(t), /nur eine von mehreren materiellen Voraussetzungen/);
+});
+
+test("allgemeine USt-Steuersatzkarte enthält auch den Nullsteuersatz", () => {
+  const t = byTitle(/^Steuersätze \(§ 12 UStG\)$/i);
+  assert.match(kern(t), /0 %/);
+  assert.match(kern(t), /§ 12 Abs\. 3 UStG/);
+  assert.match(kern(t), /Photovoltaik/);
+});
+
 test("Bilanzänderung verlangt keine zusätzliche Zustimmung des Finanzamts", () => {
   const t = byTitle(/Bilanzberichtigung oder Bilanzänderung/i);
   assert.match(kern(t), /engen zeitlichen und sachlichen Zusammenhang/);
