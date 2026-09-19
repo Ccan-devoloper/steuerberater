@@ -1,0 +1,130 @@
+{
+  "datum": "2026-09-19",
+  "zweck": "reel",
+  "daten": {
+    "szenen": [
+      {
+        "art": "hook",
+        "nummer": null,
+        "titel": "Blackout bei Aufgabe 3",
+        "unter": null,
+        "text": null,
+        "norm": null,
+        "icon": "achselzucken",
+        "sprecher": "Du sitzt vor Aufgabe drei und hast keine Ahnung, wie hoch der Teilwert wirklich ist.",
+        "marken": [
+          "Blackout in der *Klausur*"
+        ],
+        "bildSzene": "exam paper with blank answer space",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 1,
+        "titel": "Obersatz trotzdem schreiben",
+        "unter": null,
+        "text": "Frag dich: Was müsste hier eigentlich gelten?",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Erstens: Schreib den Obersatz trotzdem hin. Formuliere die Frage, die du eigentlich beantworten müsstest – auch ohne die Lösung schon zu kennen.",
+        "marken": [
+          "Obersatz *trotzdem*"
+        ],
+        "bildSzene": "handwritten heading on lined paper",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 2,
+        "titel": "Definition sauber bringen",
+        "unter": null,
+        "text": "Die Norm nennen, den Begriff definieren.",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Zweitens: Bring die Definition sauber, mit der passenden Norm. Das sammelt Punkte, ganz unabhängig davon, was am Ende herauskommt.",
+        "marken": [
+          "*Definition* zählt"
+        ],
+        "bildSzene": "open ring binder with legal text",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 3,
+        "titel": "Vertretbar annehmen, weiterrechnen",
+        "unter": null,
+        "text": "Eine plausible Annahme reicht – dann konsequent bleiben.",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Drittens: Triff eine vertretbare Annahme, wenn dir eine Zahl fehlt, und rechne konsequent damit weiter. Der Prüfer bewertet den Weg, nicht nur das Ergebnis.",
+        "marken": [
+          "Annahme *vertretbar*"
+        ],
+        "bildSzene": "pencil calculation on notepad",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 4,
+        "titel": "Keine Aufgabe leer lassen",
+        "unter": null,
+        "text": "Ein falscher Weg bringt mehr als gar keiner.",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Und viertens: Lass keine Aufgabe komplett leer. Ein sauberer Weg zum falschen Ergebnis bringt in der Korrektur mehr als eine leere Seite.",
+        "marken": [
+          "Nie *leer* lassen"
+        ],
+        "bildSzene": "filled exam sheet close up",
+        "kreuz": true
+      },
+      {
+        "art": "merke",
+        "nummer": null,
+        "titel": "Der Weg zählt mehr als das Ergebnis",
+        "unter": null,
+        "text": null,
+        "norm": null,
+        "icon": null,
+        "sprecher": "Merk dir das: Niemand weiß in der Klausur alles. Aber wer den Aufbau durchzieht, holt Punkte, auch wenn die Zahl am Ende falsch ist.",
+        "marken": [
+          "*Aufbau* schlägt Ergebnis"
+        ],
+        "bildSzene": "open ring binder with legal text",
+        "kreuz": false
+      },
+      {
+        "art": "cta",
+        "nummer": null,
+        "titel": "Kein Wissen ohne Aufbau",
+        "unter": null,
+        "text": null,
+        "norm": null,
+        "icon": null,
+        "sprecher": "Schick das der Person aus deiner Lerngruppe, die bei Unsicherheit sofort die Aufgabe abbricht. Folg dem Kanal für mehr aus der Prüfungspraxis.",
+        "marken": [
+          "Schick es *weiter*"
+        ],
+        "bildSzene": "open ring binder with legal text",
+        "kreuz": false
+      }
+    ],
+    "caption": "Nichtwissen in der Steuerberaterprüfung – was tun, wenn die Zahl fehlt?\n\nNiemand kennt in der Klausur jede Lösung auswendig. Entscheidend ist, dass du trotzdem den Obersatz schreibst, die Definition bringst und mit einer vertretbaren Annahme weiterrechnest. Ein sauberer Weg zum falschen Ergebnis bringt mehr Punkte als eine leere Aufgabe.\n\nSchick das jemandem aus deiner Lerngruppe, der bei Unsicherheit sofort aufgibt – und speichern für die letzten Wochen vor der Prüfung.\n\nWas machst du, wenn dir in der Klausur eine Zahl fehlt?",
+    "hashtags": [
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#stbexamen",
+      "#steuerberater",
+      "#steuerrecht",
+      "#examensvorbereitung",
+      "#klausurtechnik",
+      "#prüfungsangst",
+      "#zeitmanagement",
+      "#klausurtipps",
+      "#mindset"
+    ],
+    "kurztitel": "Nichtwissen: 4 Handgriffe",
+    "bildSzene": "student staring at blank exam page",
+    "bildSzeneAlt": "pencil hovering over calculation notepad"
+  }
+}

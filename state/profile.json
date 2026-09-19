@@ -1,0 +1,34 @@
+{
+  "reel:f9af79a9c08c": {
+    "profilId": "reel:f9af79a9c08c",
+    "familie": "reel / claude-sonnet-5 / low / d94477",
+    "letzteAusgabeTokens": [
+      1751
+    ],
+    "aufrufeGesamt": 2,
+    "erfolgreicheAufrufe": 1,
+    "abschnitte": 0,
+    "schemaFehler": 0,
+    "anbieterFehler": 0,
+    "sonstigeFehler": 1,
+    "aktuellesCeiling": 16000,
+    "ceilingGesetztAm": "2026-09-19T05:44:04.386Z",
+    "unkalibriert": true,
+    "zuletzt": "2026-09-19T05:44:04.485Z"
+  },
+  "stories:d821e2741580": {
+    "profilId": "stories:d821e2741580",
+    "familie": "stories / claude-sonnet-5 / low / a7cb5c",
+    "letzteAusgabeTokens": [],
+    "aufrufeGesamt": 1,
+    "erfolgreicheAufrufe": 0,
+    "abschnitte": 0,
+    "schemaFehler": 0,
+    "anbieterFehler": 0,
+    "sonstigeFehler": 1,
+    "aktuellesCeiling": 16000,
+    "ceilingGesetztAm": "2026-09-19T05:44:04.574Z",
+    "unkalibriert": true,
+    "zuletzt": "2026-09-19T05:44:04.574Z"
+  }
+}

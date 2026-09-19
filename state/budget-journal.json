@@ -15,11 +15,11 @@
       "attempt": 1,
       "slot": "reel",
       "reservedUsd": 0.290456,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.060462,
+      "state": "settled",
       "createdAt": "2026-09-19T05:43:40.702Z",
-      "updatedAt": "2026-09-19T05:43:41.890Z"
+      "updatedAt": "2026-09-19T05:44:04.385Z"
     }
   ],
-  "stand": "2026-09-19T05:43:41.890Z"
+  "stand": "2026-09-19T05:44:04.576Z"
 }
