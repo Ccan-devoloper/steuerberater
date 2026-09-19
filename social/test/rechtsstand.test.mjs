@@ -73,7 +73,10 @@ test("§ 8b-Themen enthalten Erwerbsfiktion des Satzes 6 und keine falsche Einzi
     assert.match(kern(byId(id)), /mindestens 10 %/);
     assert.match(kern(byId(id)), /§ 8b Abs\. 4 S\. 6 KStG/);
   }
-  assert.doesNotMatch(kern(byId("bilanz-modul-k3-50")), /Die einzige Ausnahme von der Freistellung ist die Streubesitzdividende/i);
+  const bilanz = byId("bilanz-modul-k3-50");
+  assert.doesNotMatch(kern(bilanz), /Die einzige Ausnahme von der Freistellung ist die Streubesitzdividende/i);
+  assert.match(kern(bilanz), /Nur wenn die Freistellung/);
+  assert.match(kern(bilanz), /keine 10-%-Mindestquote/);
 });
 
 test("Rückstellungskatalog nennt die gesetzlichen Sonderfälle vollständig genug", () => {
@@ -100,4 +103,5 @@ test("Gastronomie trägt den 2025/2026-Rechtsstandswechsel", () => {
 
 test("Jahreslogik rollt 2027 automatisch auf 2027/2026", () => {
   assert.deepEqual(rechtsstandJahre(new Date("2027-02-01T12:00:00Z")), { aktuell: 2027, vorjahr: 2026 });
+  assert.deepEqual(rechtsstandJahre(new Date("2026-12-31T23:30:00Z")), { aktuell: 2027, vorjahr: 2026 });
 });
