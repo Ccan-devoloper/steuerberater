@@ -111,7 +111,7 @@ test("Elektro-Pkw-Merksatz verallgemeinert nicht mehr auf Halbierung", () => {
 
 
 test("USt-Quiz zur innergemeinschaftlichen Lieferung nennt alle tragenden Voraussetzungen", () => {
-  const t = byTitle(/Eine innergemeinschaftliche Lieferung an einen Unternehmer mit USt-IdNr/i);
+  const t = byTitle(/Innergemeinschaftliche Lieferung: Voraussetzungen der Steuerfreiheit/i);
   assert.match(kern(t), /anderen EU-Mitgliedstaat/);
   assert.match(kern(t), /Erwerbsbesteuerung/);
   assert.match(kern(t), /nur eine von mehreren materiellen Voraussetzungen/);
