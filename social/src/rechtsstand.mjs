@@ -280,11 +280,24 @@ function korrigiereUstSteuersaetzeKarte(thema) {
 }
 
 function korrigiereBilanzaenderung(thema) {
+  normErgaenzen(thema, "§ 4 Abs. 2 S. 1, 2 EStG");
+  if (thema.typ === "karteikarte") {
+    thema.kern = {
+      ...thema.kern,
+      antwort: "Bilanzberichtigung nach § 4 Abs. 2 S. 1 EStG: Korrektur eines objektiv unrichtigen Bilanzansatzes, soweit die zugrunde liegende Steuerfestsetzung noch geändert werden kann. Bilanzänderung nach Satz 2: Wechsel von einem zulässigen Bilanzansatz zu einem anderen zulässigen Ansatz; sie ist nur in engem zeitlichen und sachlichen Zusammenhang mit einer Bilanzberichtigung und nur bis zur Höhe deren Gewinnwirkung zulässig. Eine zusätzliche gesetzliche Zustimmung des Finanzamts verlangt § 4 Abs. 2 S. 2 EStG nicht.",
+    };
+    return;
+  }
+  const lernziele = [...(thema.kern?.lernziele || [])].map((x) =>
+    /Zustimmungsbedürftigkeit der Änderung/i.test(x)
+      ? "die gesetzlichen Voraussetzungen der Bilanzänderung nach § 4 Abs. 2 S. 2 EStG erkennen"
+      : x
+  );
   thema.kern = {
     ...thema.kern,
-    antwort: "Bilanzberichtigung nach § 4 Abs. 2 S. 1 EStG: Korrektur eines objektiv unrichtigen Bilanzansatzes, soweit die zugrunde liegende Steuerfestsetzung noch geändert werden kann. Bilanzänderung nach Satz 2: Wechsel von einem zulässigen Bilanzansatz zu einem anderen zulässigen Ansatz; sie ist nur in engem zeitlichen und sachlichen Zusammenhang mit einer Bilanzberichtigung und nur bis zur Höhe deren Gewinnwirkung zulässig. Eine zusätzliche gesetzliche Zustimmung des Finanzamts verlangt § 4 Abs. 2 S. 2 EStG nicht.",
+    lernziele,
+    merksatz: "Berichtigung setzt einen objektiv unrichtigen Bilanzansatz voraus. Eine Bilanzänderung betrifft den Wechsel zwischen zulässigen Ansätzen und ist nur im engen zeitlichen und sachlichen Zusammenhang mit einer Bilanzberichtigung sowie bis zur Höhe deren Gewinnwirkung zulässig; eine zusätzliche Zustimmungspflicht des Finanzamts enthält § 4 Abs. 2 S. 2 EStG nicht.",
   };
-  normErgaenzen(thema, "§ 4 Abs. 2 S. 1, 2 EStG");
 }
 
 function korrigiereAbzinsung(thema) {
@@ -402,7 +415,7 @@ export function socialKorrekturenAnwenden(pool) {
 
     if (thema.typ === "karteikarte" && /Begründet ein Mietverhältnis wirtschaftliches Eigentum/i.test(thema.titel || "")) korrigiereMiete(thema);
     if (thema.typ === "karteikarte" && /Wie unterscheidet sich die Rückstellungsbewertung in HB und StB/i.test(thema.titel || "")) korrigiereRueckstellungsbewertung(thema);
-    if (thema.typ === "karteikarte" && /Bilanzberichtigung oder Bilanzänderung/i.test(thema.titel || "")) korrigiereBilanzaenderung(thema);
+    if (/Bilanzberichtigung (?:oder|und) Bilanzänderung/i.test(thema.titel || "")) korrigiereBilanzaenderung(thema);
     if (thema.typ === "quiz" && /Eine innergemeinschaftliche Lieferung an einen Unternehmer mit USt-IdNr/i.test(thema.titel || "")) korrigiereIgLieferungQuiz(thema);
     if (thema.typ === "karteikarte" && /^Steuersätze \(§ 12 UStG\)$/i.test(thema.titel || "")) korrigiereUstSteuersaetzeKarte(thema);
     if (/Realteilung (?:oder|und) Sachwertabfindung/i.test(thema.titel || "")) korrigiereRealteilung(thema);
