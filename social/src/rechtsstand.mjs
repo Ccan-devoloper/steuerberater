@@ -832,6 +832,34 @@ function korrigiereWiedereinsetzung(thema) {
   thema.kern = basis;
 }
 
+
+function korrigiereLeichtfertigkeit378(thema) {
+  normErgaenzen(thema, "§ 378 Abs. 1–3 AO", "§ 370 Abs. 1, Abs. 4–7 AO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 378 AO ist keine bloße Verschuldensetikette. Ordnungswidrig handelt nur, wer als Steuerpflichtiger oder bei Wahrnehmung der Angelegenheiten eines Steuerpflichtigen eine der in § 370 Abs. 1 AO bezeichneten Taten leichtfertig begeht; § 370 Abs. 4 bis 7 gilt entsprechend.",
+      "Leichtfertigkeit ist eine besonders schwere Form fahrlässigen Verhaltens und muss eigenständig festgestellt werden. Aus dem Umstand, dass Vorsatz für § 370 AO nicht nachgewiesen werden kann, folgt nicht automatisch § 378 AO.",
+      "§ 378 Abs. 3 AO enthält eine eigene Berichtigungsregel, die von der Selbstanzeige nach § 371 AO zu unterscheiden ist.",
+    ],
+    lernziele: [
+      "Vorsatz nach § 370 AO von Leichtfertigkeit nach § 378 AO trennen",
+      "für § 378 den objektiven Tatbestand einer §-370-Abs.-1-Tat einschließlich Steuerverkürzung oder ungerechtfertigtem Steuervorteil prüfen",
+      "Leichtfertigkeit als eigenständig festzustellenden gesteigerten Fahrlässigkeitsvorwurf prüfen",
+      "nicht beweisbaren Vorsatz nicht automatisch in Leichtfertigkeit umdeuten",
+      "Berichtigungsregel des § 378 Abs. 3 von § 371 AO abgrenzen",
+    ],
+    pruefschritte: [
+      "Tathandlung nach § 370 Abs. 1 Nr. 1 bis 3 AO und den steuerlichen Verkürzungs-/Vorteilserfolg prüfen; § 370 Abs. 4 bis 7 gilt entsprechend.",
+      "Feststellen, ob der Täter zum Personenkreis des § 378 Abs. 1 AO gehört.",
+      "Subjektiv Leichtfertigkeit konkret feststellen; bloße einfache Fahrlässigkeit genügt nicht.",
+      "Liegt Vorsatz vor, ist § 370 AO zu prüfen; fehlt der Vorsatznachweis, § 378 AO nicht automatisch bejahen.",
+      "Rechtsfolge als Ordnungswidrigkeit und gegebenenfalls § 378 Abs. 3 AO zur Berichtigung/Nachholung gesondert prüfen.",
+    ],
+    merksatz: "§ 378 AO ist nicht einfach „§ 370 ohne Vorsatz“: objektiver §-370-Tatbestand plus eigenständig festzustellende Leichtfertigkeit; bloße Fahrlässigkeit oder nur nicht beweisbarer Vorsatz reichen nicht.",
+  };
+}
+
 function korrigiereSelbstanzeige371(thema) {
   normErgaenzen(thema, "§ 371 Abs. 1–3 AO", "§ 398a AO");
   thema.kern = {
@@ -1322,6 +1350,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "ao-modul-ao-373": korrigiereWiedereinsetzung(thema); break;
       case "ao-modul-ao-375": korrigiereGuEBekanntgabe(thema); break;
       case "ao-modul-ao-376": korrigiereGuEEinspruch(thema); break;
+      case "ao-modul-ao-386": korrigiereLeichtfertigkeit378(thema); break;
       case "ao-modul-ao-388": korrigiereSelbstanzeige371(thema); break;
       case "ao-modul-ao-390": korrigiereHaftung69(thema); break;
       case "ao-modul-ao-392": korrigiereHaftung71(thema); break;
