@@ -10620,6 +10620,47 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Rückausnahme zu 5.6.1 und Abschnitt 5.6.2.1
+
+Quelle: dieselbe Datei, Seiten 71 bis 73; übernommen als Kapitel 48 und 49. Prüfung:
+`npm run check:k2-kst-teil4` (49 Kapitel, 804 Blöcke, 72 Tabellen).
+
+**Ein offensichtliches Schreibversehen der Quelle ist benannt.** Im Beispiel zur Rückausnahme
+begründet sie deren Eingreifen mit dem Satz, „weil bei der leistenden Gesellschaft auch unter
+zutreffender Erfassung der vGA ein Einkommensschaden entstanden ist“. Nach ihrer eigenen Lösung ist
+das Gegenteil der Fall: Die Einkommensauswirkung bei der A-GmbH beträgt gerade 0 €, weil sich
+Hinzurechnung und Freistellung nach § 8b Abs. 2 KStG aufheben – und genau deshalb greift die
+Rückausnahme. Zwei Sätze später schreibt die Quelle selbst, ein Einkommensschaden sei „eindeutig zu
+verneinen“. Der Wortlaut ist unverändert übernommen und die Abweichung im Datensatz gekennzeichnet.
+
+**Eine mehrdeutige Sachverhaltsangabe ist festgehalten.** Das Beispiel zu 5.6.2.1 lautet: „Die
+A-GmbH gibt der B-GmbH ein Darlehen, wofür diese Zinsen von 500.000 € … erhält.“ Nach der Lösung
+fließen die Zinsen der A-GmbH zu, die B-GmbH zahlt sie; im Parallelbeispiel des Abschnitts 5.6.1
+heißt es an derselben Stelle ausdrücklich „wofür die A-GmbH Zinsen … erhält“. Die Angabe ist
+wortlautgetreu übernommen und die Einordnung gekennzeichnet.
+
+**Die Zahlen sind unabhängig nachgerechnet.** Beteiligungsbeispiel: 500.000 € ./. 100.000 € =
+400.000 €; Hinzurechnung und Freistellung heben sich auf; die Buchung der B-GmbH ist ausgeglichen
+(100.000 € Bank zuzüglich 400.000 € Ertrag = 500.000 € Teilwert). Als eigene Ergänzung ist
+festgehalten, dass bei Mitrechnung der Fünf-Prozent-Pauschale, die die Quelle ausdrücklich ausblendet,
+ein Einkommen von 20.000 € verbliebe. Zinsbeispiel: 500.000 € ./. 300.000 € = 200.000 €, und der
+Betrag erscheint auf allen drei Ebenen, wird aber am Ende genau einmal versteuert.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die Abgrenzung von § 8 Abs. 3 Satz 4 und Satz 5
+KStG nach ihrem Zweck; die Bedeutung der „soweit“-Verknüpfung, durch die alle Korrespondenzregeln an
+derselben Größe hängen; der Zusammenhang mit der zweistufigen Prüfung aus Abschnitt 1.5.2.2; die
+Herleitung, dass der Vorrang des Anteilseigners aus dem Tatbestand des § 8 Abs. 3 Satz 5 KStG selbst
+folgt; das Ineinandergreifen von materieller und formeller Korrespondenz über § 32a Abs. 2 KStG; die
+Einmalversteuerung als Kontrollfrage für jede Klausurlösung; und die Einordnung der Formulierung „in
+entsprechender Anlehnung an § 20 Abs. 5 EStG“.
+
+**Eine weitere Formulierung der Quelle ist wortlautgetreu übernommen und markiert:** „wodurch aus der
+bisherige Beteiligungsertrag aus der vGA erfasst wird“.
+
+**Noch offen:** aus Teil IV die Rückausnahme des § 8b Abs. 1 Satz 5 KStG mit den Auslandsgestaltungen
+und den Inlandsfällen (5.6.2.2), die Anwendung des § 1 AStG, die Schenkungsteuer (5.7) und das
+Kapitel 6 (Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 5.5 und 5.6.1 – Aufwandsverbrauch und materielle Korrespondenz
 
 Quelle: dieselbe Datei, Seiten 66 bis 71; übernommen als Kapitel 46 und 47. Prüfung:

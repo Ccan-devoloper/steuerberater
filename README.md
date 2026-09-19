@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 47 Kapitel mit 778
-  Abschnitten und 70 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 49 Kapitel mit 804
+  Abschnitten und 72 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3505,6 +3505,35 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gesellschafters rechnerisch dasselbe wäre, oder muss der Beteiligungsertrag tatsächlich angesetzt
   worden sein? Das stärkste Argument der Verwaltung ist dabei, dass bei vollständiger Erfassung eben
   nicht 0 €, sondern **5 %** des Ertrags steuerpflichtig geworden wären.
+  Die **Rückausnahme** des § 8 Abs. 3 Satz 5 KStG („es sei denn“) macht die Prüfungsreihenfolge
+  zwingend: Zuerst ist zu fragen, ob bei der **leistenden** Gesellschaft überhaupt ein
+  Einkommensschaden eingetreten ist. Fehlt er, ist die Sache erledigt, und die Nichtversteuerung beim
+  Gesellschafter spielt keine Rolle mehr. Dahinter steht eine Abgrenzung, die die ganze Norm trägt:
+  § 8 Abs. 3 Satz **4** KStG soll die Nachbesteuerung der **verdeckten Einlage** sichern, Satz **5**
+  dagegen nur, dass deren **Auslöser** – die vGA – „einmal im Einkommen“ der beteiligten
+  Gesellschaften erscheint. Der Sonderfall ist die **Übertragung einer Beteiligung**: Weil § 8b Abs. 2
+  KStG den hinzugerechneten Veräußerungsgewinn sogleich wieder freistellt, bleibt die Hinzurechnung im
+  Ergebnis wirkungslos – dieselbe zweistufige Prüfung wie in Abschnitt 1.5.2.2 – und damit kann kein
+  Einkommensschaden entstehen. Sämtliche Korrespondenzregeln laufen dann leer, auch beim
+  Gesellschafter: § 8b Abs. 1 Satz 2 KStG, § 3 Nr. 40 Buchstabe d Satz 2 EStG und § 32d Abs. 2 Nr. 4
+  EStG sind jeweils mit **„soweit“** formuliert und versagen die Begünstigung nur in dem Umfang, in
+  dem das Einkommen tatsächlich gemindert wurde. Alle Korrespondenzregeln des Skripts hängen damit an
+  derselben Größe.
+  Bei der **materiellen Korrespondenz an den Einnahmen** (5.6.2) entsteht ein Konflikt, der sich fast
+  zwangsläufig ergibt: § 8 Abs. 3 Satz 5 KStG setzt voraus, dass die vGA **weder** bei der leistenden
+  Gesellschaft **noch** beim Anteilseigner berücksichtigt wurde. Wird sie nun beim Anteilseigner
+  erfasst – und zwar voll steuerpflichtig, weil dort ihrerseits die Korrespondenz greift –, entfällt
+  rückwirkend die zweite Voraussetzung. Die Folge ist die Korrektur der Veranlagung der bevorteilten
+  Gesellschaft nach **§ 32a Abs. 2 KStG**; der Vorrang des Anteilseigners ist also kein
+  Wertungsentscheid, sondern folgt aus dem Tatbestand selbst. Hier zeigt sich zugleich, wofür die
+  **formelle** Korrespondenz in den Dreiecksfällen gebraucht wird: Während § 32a Abs. 1 KStG den
+  Bescheid des Anteilseigners öffnet, öffnet Abs. 2 den umgekehrten Weg – den Bescheid der
+  Gesellschaft, die die verdeckte Einlage empfangen hat. Materielle und formelle Korrespondenz greifen
+  damit ineinander: Die eine bestimmt, **was** zu besteuern ist, die andere sorgt dafür, dass der
+  **Bescheid** noch geändert werden kann. Leitgedanke bleibt die **Einmalversteuerung** – das
+  vGA-Potential soll genau einmal besteuert werden, nicht keinmal und nicht zweimal. Das ergibt
+  zugleich die Kontrollfrage für jede Klausurlösung: Taucht der Betrag der vGA am Ende genau einmal in
+  einer Bemessungsgrundlage auf?
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

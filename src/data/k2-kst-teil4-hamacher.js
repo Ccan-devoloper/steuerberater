@@ -61,10 +61,12 @@
    überteuerten Dienstleistungen (5.4) und die verbilligten Dienstleistungen
    (5.5) übernommen. Damit sind alle vier Fallgruppen der Dreiecksfälle
    erfasst. Dazu kommen das Korrespondenzprinzip in Dreiecksfällen (5.6) und
-   die materielle Korrespondenz bei verdeckten Einlagen (5.6.1). Es folgen die
-   Rückausnahme des § 8 Abs. 3 Satz 5 KStG, die materielle Korrespondenz bei
-   den Einnahmen (5.6.2), die Anwendung des § 1 AStG und die Schenkungsteuer
-   (5.7) sowie das Kapitel 6; der Campus weist den Stand aus.
+   die materielle Korrespondenz bei verdeckten Einlagen (5.6.1) samt der
+   Rückausnahme des § 8 Abs. 3 Satz 5 KStG sowie der Grundsatz der materiellen
+   Korrespondenz bei den Einnahmen (5.6.2.1). Es folgen die Rückausnahme des
+   § 8b Abs. 1 Satz 5 KStG mit den Auslandsgestaltungen und Inlandsfällen
+   (5.6.2.2), die Anwendung des § 1 AStG und die Schenkungsteuer (5.7) sowie
+   das Kapitel 6; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -2395,6 +2397,109 @@ export const kstTeil4 = [
       { text: "Anmerkung zum Einlagekonto (eigene Ergänzung): Dass die verdeckte Einlage trotz § 8 Abs. 3 Satz 5 KStG dem steuerlichen Einlagekonto zugerechnet wird, ist das **auffälligste** Ergebnis des Abschnitts und wirtschaftlich eine Doppelbelastung. Die Gesellschaft versteuert den Betrag – und derselbe Betrag steht gleichwohl als Einlage zur späteren steuerfreien Rückgewähr bereit. Die Begründung der Quelle ist rein technisch und trägt gleichwohl: § 8 Abs. 3 Satz 5 KStG steht im Abschnitt über die **Einkommensermittlung**, § 27 KStG regelt dagegen die **Herkunft der Mittel**, und dort gibt es keine Korrespondenzregel. Für die Klausur heißt das: Einkommen und Einlagekonto sind hier getrennt zu prüfen und laufen bewusst auseinander." },
       { text: "Anmerkung zum Streit mit dem BFH (eigene Ergänzung): Der Gegensatz zwischen dem Urteil vom 13.06.2018 und dem Nichtanwendungserlass lässt sich auf eine einzige Frage zuspitzen – genügt es, dass das Einkommen des Gesellschafters **rechnerisch** dasselbe wäre, oder muss der Beteiligungsertrag **tatsächlich angesetzt** worden sein? Der BFH stellt auf das Ergebnis ab: Wäre die vGA nach § 8b Abs. 1 Satz 1 KStG ohnehin steuerfrei, fehlt es am Schaden. Die Verwaltung stellt auf den Vorgang ab: Wurde der Ertrag zahlenmäßig nicht erfasst, sind auch die **Folgerechtsfolgen** unterblieben – und sie nennt ausdrücklich die Fünf-Prozent-Pauschale. Darin liegt das stärkste Argument der Verwaltung: Bei vollständiger Erfassung wären eben nicht 0 €, sondern 5 % des Ertrags steuerpflichtig geworden." },
       { text: "Anmerkung zur Fundstelle im Beispiel (eigene Ergänzung): Die Quelle bewertet die verdeckte Einlage hier mit dem Teilwert und zitiert dafür § 6 Abs. 1 Nr. 5a EStG, während sie an allen anderen Stellen des Skripts für den Teilwertansatz der verdeckten Einlage § 6 Abs. 1 Nr. 5 EStG nennt. Die Angabe ist wortlautgetreu übernommen; die Abweichung ist hier festgehalten." },
+    ],
+  },
+  {
+    id: "kst-t4-48",
+    kapitel: "48",
+    abschnittNr: "5.6.1",
+    title: "5.6.1 (Fortsetzung) Rückausnahme – wo kein Schaden ist, gibt es nichts nachzuversteuern",
+    thema: "§ 8 Abs. 3 Satz 5 KStG greift nicht, wenn die vGA das Einkommen der leistenden Gesellschaft tatsächlich nicht gemindert hat. Der Sonderfall ist die Übertragung einer Beteiligung, deren Gewinn ohnehin nach § 8b Abs. 2 KStG steuerfrei wäre",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 5.6.1 (Schluss) · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8 Abs. 3 Satz 3 KStG",
+      "§ 8 Abs. 3 Satz 4 KStG",
+      "§ 8 Abs. 3 Satz 5 KStG",
+      "§ 8 Abs. 3 Satz 6 KStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "§ 8b Abs. 1 Satz 2 KStG",
+      "§ 8b Abs. 2 KStG",
+      "§ 27 KStG",
+      "§ 6 Abs. 1 Nr. 5 EStG",
+      "§ 6 Abs. 6 Satz 2 EStG",
+      "§ 3 Nr. 40 Buchstabe d Satz 2 EStG",
+      "§ 32d Abs. 2 Nr. 4 EStG",
+    ],
+    themen: ["Rückausnahme", "Einkommensschaden", "Beteiligungsübertragung", "§ 8b Abs. 2 KStG", "soweit-Verknüpfung", "nachträgliche Anschaffungskosten"],
+    bloecke: [
+      { text: "§ 8 Abs. 3 Satz 5 KStG ist hingegen nicht anwendbar, wenn die vGA das Einkommen der benachteiligten Gesellschaft tatsächlich nicht gemindert hat (Rückausnahme). Diese Einschränkung „es sei denn“ hebt hervor, dass die Erfassung der vGA bei der benachteiligten Gesellschaft vorrangig ist. Daher kommt die materielle Korrespondenz des § 8 Abs. 3 Satz 5 KStG insbesondere dann nicht mehr zur Anwendung, wenn die vGA das Einkommen der leistenden Gesellschaft tatsächlich nicht beeinflusst hat oder nicht mindern konnte. § 8 Abs. 3 Satz 5 KStG soll daher nur dazu dienen, die Besteuerung des vGA-Potentials abzusichern." },
+      { text: "Dazu kann es m.E. in dem Sonderfall der Übertragung einer Beteiligung im Rahmen einer vGA kommen, weil das nach Erfassung der vGA i.S. des § 8 Abs. 3 Satz 2 KStG erhöhte Einkommen anschließend nach § 8b Abs. 2 KStG steuerfrei wäre und damit aus dem Sachverhalt auch keine Einkommenskonsequenz eingetreten wäre (siehe hierzu unter 1.5.2.2). Hintergrund dieser Vorschrift ist es nämlich nicht – im Gegensatz zu § 8 Abs. 3 Satz 4 KStG – die Nachbesteuerung der verdeckten Einlage sicherzustellen. Vielmehr soll dadurch der Auslöser der verdeckten Einlage, d.h. die verdeckte Gewinnausschüttung, „einmal im Einkommen“ der an dem Sachverhalt beteiligten Gesellschaften abgebildet werden." },
+      { text: "Dabei sind zunächst die Auswirkungen bei der leistenden Gesellschaft maßgebend, weil nur deren Einkommensschaden die Nachbesteuerung auslösen kann. Daran mangelt es bereits, wenn die verdeckte Gewinnausschüttung auf Ebene der leistenden Gesellschaft das Einkommen tatsächlich nicht gemindert hat bzw. nicht mindern konnte. § 8 Abs. 3 Satz 5 KStG würde durch die eigentlich vorzunehmende Einkommenserhöhung zu einer unzulässigen Besteuerung führen. Die Nichtversteuerung der Beteiligungserträge beim Anteilseigner ist in diesem Fall unerheblich, was auch durch die Formulierung „es sei denn“ nochmals hervorgehoben wird. Selbst auf dessen Ebene wären zudem auch die Voraussetzungen der materiellen Korrespondenz für die Besteuerung der Beteiligungserträge (§ 8b Abs. 1 Satz 2 KStG bzw. § 3 Nr. 40d Satz 2 EStG und § 32d Abs. 2 Nr. 4 EStG) nicht erfüllt, weil es nach der „soweit-Verknüpfung“ in diesen Vorschriften ebenfalls zu keiner Nachversteuerung kommen kann." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH und der B-GmbH (beide Beteiligungen im Betriebsvermögen). Die A-GmbH veräußert der B-GmbH eine Beteiligung an der X-GmbH (Buchwert: 100.000 €, gemeiner Wert: 500.000 €) zu einem Kaufpreis von 100.000 €. Weder beim Anteilseigner noch im Rahmen der Veranlagung der A-GmbH wurden aus dem Sachverhalt steuerliche Konsequenzen gezogen." },
+      { text: "Lösung: Aufgrund des Sachverhaltes würde sich bei der A-GmbH eine verdeckte Gewinnausschüttung (Fallgruppe: verhinderte Vermögensmehrung) ergeben, die mit dem gemeinen Wert zu bewerten wäre. Der danach eingetretene Vermögensnachteil von 400.000 € müsste nach § 8 Abs. 3 Satz 2 KStG dem Einkommen wieder hinzugerechnet werden. Dadurch würde im Einkommen der Veräußerungsgewinn erfasst werden, der sich bei fremdüblicher Veräußerung auch ergeben hätte. Daraus würde sich dann ein steuerfreier Beteiligungsertrag i.S. des § 8b Abs. 2 KStG ergeben, der das Einkommen in Höhe von 400.000 € wieder mindern würde. Lässt man die Betriebsausgabenpauschalierung außer Acht, wäre die Einkommensauswirkung dieses Sachverhaltes letztlich 0 €." },
+      { text: "Betrachtet man nur die Ebene der bevorteilten Gesellschaft B-GmbH, dann kommt es bei dieser zu einer verdeckten Einlage. Diese beruht auf einer vGA einer dem Anteilseigner nahestehenden Person. Für Zwecke der zutreffenden Bilanzierung muss die erworbene Beteiligung mit dem Teilwert (§ 8 Abs. 1 Satz 1 KStG i.V. mit § 6 Abs. 1 Nr. 5 EStG) bewertet werden, woraus sich ein Ertrag von 400.000 € ergibt (Buchung: Beteiligung X-GmbH 500.000 € an Bank 100.000 € und an Ertrag 400.000 €). Dieser Ertrag unterliegt dann grundsätzlich der Einkommenskorrektur nach § 8 Abs. 3 Satz 3 KStG." },
+      { text: "Dem würde eigentlich die materielle Korrespondenz des § 8 Abs. 3 Satz 5 KStG entgegenstehen, weil weder beim Anteilseigner noch bei der leistenden Gesellschaft der Vorgang im Rahmen der Einkommensermittlung erfasst wurde. Trotzdem greift in dem vorliegenden Fall die Rückausnahme, weil bei der leistenden Gesellschaft auch unter zutreffender Erfassung der vGA ein Einkommensschaden entstanden ist. Selbst auf Ebene des Anteilseigners wäre bei Erfassung der vGA kein Fall der materiellen Korrespondenz i.S. des § 3 Nr. 40d Satz 2 EStG gegeben, weil auch in diesem Verhältnis kein Einkommensschaden bei der leistenden Gesellschaft eingetreten ist. Daher kommt es bei der B-GmbH nach § 8 Abs. 3 Satz 3 KStG zu einer Einkommenskorrektur von 400.000 € und gleichzeitig zu einem Zugang beim steuerlichen Einlagekonto i.S. des § 27 KStG. (Der Satz „weil bei der leistenden Gesellschaft auch unter zutreffender Erfassung der vGA ein Einkommensschaden entstanden ist“ steht so in der Quelle; nach der eigenen Lösung der Quelle ist gerade **kein** Einkommensschaden entstanden – das Einkommen der A-GmbH bleibt 0 €.)" },
+      { text: "Beim Anteilseigner ist § 8 Abs. 3 Satz 6 KStG nicht anwendbar. Ihm entstehen aus der ihm zuzurechnenden verdeckten Einlage in die B-GmbH daher nachträgliche Anschaffungskosten seiner Beteiligung (§ 6 Abs. 6 Satz 2 EStG). Dadurch wird der Beteiligungsbuchwert gewinnwirksam erhöht (Buchung: Beteiligung B-GmbH an Ertrag), wodurch aus der bisherige Beteiligungsertrag aus der vGA erfasst wird und im Rahmen des Teileinkünfteverfahrens (§ 3 Nr. 40d EStG) behandelt wird. Die Einschränkungen der materiellen Korrespondenz i.S. des § 3 Nr. 40d Satz 2 EStG sind nicht gegeben, weil es danach auch nur zu einer Nachversteuerung der vGA kommen kann, soweit dadurch bei der leistenden Gesellschaft eine Einkommensminderung eingetreten wäre. Diese ist aber, wie zuvor dargestellt, eindeutig zu verneinen. (Die Form „wodurch aus der bisherige Beteiligungsertrag aus der vGA erfasst wird“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Ebene", "Vorgang", "Ergebnis"], zeilen: [
+        ["A-GmbH (leistend, benachteiligt)", "gedachte Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG", "+ 400.000 €"],
+        ["A-GmbH", "Freistellung des Veräußerungsgewinns nach § 8b Abs. 2 KStG", "./. 400.000 €"],
+        ["A-GmbH", "Einkommensauswirkung insgesamt (ohne Betriebsausgabenpauschalierung)", "0 € – kein Einkommensschaden"],
+        ["B-GmbH (bevorteilt)", "Bilanzansatz der erworbenen Beteiligung zum Teilwert", "500.000 €"],
+        ["B-GmbH", "Ertrag aus der Nachaktivierung", "+ 400.000 €"],
+        ["B-GmbH", "Abzug nach § 8 Abs. 3 Satz 3 KStG – § 8 Abs. 3 Satz 5 KStG greift wegen der Rückausnahme nicht", "./. 400.000 €"],
+        ["B-GmbH", "Zugang beim steuerlichen Einlagekonto", "+ 400.000 €"],
+        ["A (Anteilseigner)", "nachträgliche Anschaffungskosten der Beteiligung an der B-GmbH", "+ 400.000 €, § 8 Abs. 3 Satz 6 KStG greift nicht"],
+        ["A (Anteilseigner)", "Behandlung des Beteiligungsertrags", "Teileinkünfteverfahren, die materielle Korrespondenz greift nicht"],
+      ] },
+      { text: "Rechenprobe (eigene Ergänzung): 500.000 € ./. 100.000 € = 400.000 € vGA. Bei der A-GmbH heben sich Hinzurechnung und Freistellung nach § 8b Abs. 2 KStG genau auf – die Quelle blendet dabei ausdrücklich die Fünf-Prozent-Pauschale aus; rechnete man sie mit, verbliebe ein Einkommen von 20.000 € (5 % von 400.000 €). Die Buchung der B-GmbH ist ausgeglichen: 100.000 € Bank zuzüglich 400.000 € Ertrag ergeben den Teilwert von 500.000 €." },
+      { text: "Anmerkung zu einem offensichtlichen Schreibversehen (eigene Feststellung): Die Quelle begründet das Eingreifen der Rückausnahme mit dem Satz, „weil bei der leistenden Gesellschaft auch unter zutreffender Erfassung der vGA ein Einkommensschaden entstanden ist“. Nach ihrer eigenen Lösung ist das Gegenteil der Fall: Die Einkommensauswirkung bei der A-GmbH beträgt gerade **0 €**, weil sich Hinzurechnung und Freistellung nach § 8b Abs. 2 KStG aufheben – und genau deshalb greift die Rückausnahme. Der Satz muss daher „**kein** Einkommensschaden entstanden ist“ lauten; die Quelle selbst schreibt im nächsten Satz folgerichtig, ein Einkommensschaden sei „eindeutig zu verneinen“. Der Wortlaut ist unverändert übernommen und die Abweichung hier benannt." },
+      { text: "Anmerkung zum Zweck der Vorschrift (eigene Ergänzung): Der Abschnitt enthält eine Abgrenzung, die das Verständnis der ganzen Norm trägt. § 8 Abs. 3 Satz **4** KStG soll die Nachbesteuerung der **verdeckten Einlage** sicherstellen; § 8 Abs. 3 Satz **5** KStG dagegen will, dass der **Auslöser** der Einlage – also die vGA – „einmal im Einkommen“ der beteiligten Gesellschaften erscheint. Daraus folgt zwingend die Reihenfolge der Prüfung: Zuerst ist zu fragen, ob bei der **leistenden** Gesellschaft überhaupt ein Schaden eingetreten ist. Fehlt er, ist die Sache erledigt, und die Nichtversteuerung beim Gesellschafter spielt keine Rolle mehr – die Quelle betont das mit dem Hinweis auf die Formulierung „es sei denn“." },
+      { text: "Anmerkung zur soweit-Verknüpfung (eigene Ergänzung): Der letzte Satz des theoretischen Teils enthält eine wichtige Zusatzabsicherung. Selbst wenn man bis zur Ebene des Gesellschafters durchginge, käme es dort zu keiner Nachversteuerung, weil § 8b Abs. 1 Satz 2 KStG, § 3 Nr. 40 Buchstabe d Satz 2 EStG und § 32d Abs. 2 Nr. 4 EStG jeweils mit **„soweit“** formuliert sind: Sie versagen die Begünstigung nur in dem Umfang, in dem das Einkommen der leistenden Gesellschaft tatsächlich gemindert wurde. Ist dieser Umfang null, bleibt die Begünstigung vollständig erhalten. Alle Korrespondenzregeln des Skripts hängen damit an derselben Größe – dem **Einkommensschaden** bei der leistenden Gesellschaft." },
+      { text: "Anmerkung zum Zusammenhang mit Abschnitt 1.5.2.2 (eigene Ergänzung): Der Sonderfall der Beteiligungsübertragung ist genau derselbe, den Abschnitt 1.5.2.2 behandelt hat – dort ging es um die zweistufige Prüfung, bei der erst § 8 Abs. 3 Satz 2 KStG den angemessenen Veräußerungsgewinn herstellt und dann § 8b Abs. 2 KStG ihn freistellt. Hier zeigt sich die Folgewirkung dieser Reihenfolge im Dreiecksfall: Weil die Hinzurechnung im Ergebnis **wirkungslos** bleibt, kann auch kein Einkommensschaden entstehen, und damit laufen sämtliche Korrespondenzregeln leer. Die Quelle kennzeichnet diese Schlussfolgerung ausdrücklich als eigene Auffassung („m.E.“)." },
+    ],
+  },
+  {
+    id: "kst-t4-49",
+    kapitel: "49",
+    abschnittNr: "5.6.2.1",
+    title: "5.6.2 Materielle Korrespondenz bei den Einnahmen – Vorrang des Anteilseigners",
+    thema: "Auch im Dreiecksfall verliert der Gesellschafter die Begünstigung, wenn die vGA das Einkommen der leistenden Gesellschaft gemindert hat. Wurde zugleich § 8 Abs. 3 Satz 5 KStG angewandt, ist die Veranlagung der bevorteilten Gesellschaft nach § 32a Abs. 2 KStG zu korrigieren",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 5.6.2 und 5.6.2.1 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8 Abs. 3 Satz 3 KStG",
+      "§ 8 Abs. 3 Satz 5 KStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "§ 32a Abs. 2 KStG",
+      "§ 8b Abs. 1 Satz 2 KStG",
+      "§ 27 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 20 Abs. 5 EStG",
+      "§ 3 Nr. 40 Satz 2 EStG",
+      "§ 3 Nr. 40 Buchstabe d Satz 1 und Satz 2 EStG",
+      "§ 32d Abs. 2 Nr. 4 EStG",
+      "§ 6 Abs. 1 Nr. 5 EStG",
+      "§ 6 Abs. 6 Satz 2 EStG",
+    ],
+    themen: ["materielle Korrespondenz bei den Einnahmen", "Doppelbesteuerung", "§ 32a Abs. 2 KStG", "Vorrang des Anteilseigners", "Einmalversteuerung", "verdeckte Einlage"],
+    bloecke: [
+      { text: "Auch in den Dreiecksfällen gilt für den Anteilseigner im Zusammenhang mit der Besteuerung der Beteiligungserträge aus der vGA die materielle Korrespondenz (§ 3 Nr. 40d Satz 2 EStG, § 32d Abs. 2 Nr. 4 EStG, § 8b Abs. 1 Satz 2 KStG). Daraus kann eine Doppelbesteuerung entstehen, wenn auf Ebene der bevorteilten Gesellschaft bereits die materielle Korrespondenz nach § 8 Abs. 3 Satz 5 KStG angewendet wurde. In diesem Fall ist die Veranlagung der bevorteilten Gesellschaft nach § 32a Abs. 2 KStG zu korrigieren, weil danach auch bereits die Voraussetzung des § 8 Abs. 3 Satz 5 KStG nicht erfüllt ist, wonach die vGA auch beim Anteilseigner nicht berücksichtigt worden sein darf. Die Erfassung des voll steuerpflichtigen Beteiligungsertrags beim Anteilseigner hat insoweit Vorrang gegenüber § 8 Abs. 3 Satz 5 KStG." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH und der B-GmbH (beide Beteiligungen im Betriebsvermögen). Die A-GmbH gibt der B-GmbH ein Darlehen, wofür diese Zinsen von 500.000 € (angemessen: 300.000 €) erhält. Im Rahmen der Veranlagung der B-GmbH ist die verdeckte Gewinnausschüttung bisher nicht erfasst worden. (Die Quelle schreibt „wofür diese Zinsen … erhält“; nach der Lösung fließen die Zinsen der A-GmbH zu, so dass die B-GmbH sie zahlt – im Parallelbeispiel des Abschnitts 5.6.1 heißt es an derselben Stelle ausdrücklich „wofür die A-GmbH Zinsen … erhält“.)" },
+      { text: "Lösung, Auswirkungen bei A: A bezieht von seiner B-GmbH einen aus der vGA resultierenden Beteiligungsertrag i.S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG von 200.000 €. Obwohl der Zinsvorteil daraus unmittelbar der A-GmbH zufließt, wird die Besteuerung der vGA in entsprechender Anlehnung an § 20 Abs. 5 EStG beim Anteilseigner vorgenommen. Grundsätzlich würde der Beteiligungsertrag nach § 3 Nr. 40 Satz 2 EStG i.V. mit § 3 Nr. 40d Satz 1 EStG dem Teileinkünfteverfahren unterliegen, welches aber durch die materielle Korrespondenzregelung des § 3 Nr. 40d Satz 2 EStG ausgeschlossen wird. Denn bei der leistenden Gesellschaft B-GmbH hat die vGA deren Einkommen gemindert, weil die Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG nicht erfolgt ist." },
+      { text: "Gleichzeitig verbraucht sich die vGA in Form einer verdeckten Einlage in die A-GmbH, was nach § 6 Abs. 6 Satz 2 EStG zu einer Erhöhung der Beteiligungsanschaffungskosten in Höhe des Teilwertes führt (Buchung: Beteiligung A-GmbH an Ertrag 200.000 €). Steuerbilanzgewinn: 200.000 € (= Einkommen)." },
+      { text: "Auswirkung bei der A-GmbH: Bei der A-GmbH führt der Zinsvorteil von 200.000 € zu einer Vermögensmehrung in Form einer verdeckten Einlage. Die Vorteilszuwendung erfolgt durch eine dem Anteilseigner A nahestehenden Person B-GmbH. Die Bewertung erfolgt mit dem Teilwert (§ 8 Abs. 1 Satz 1 KStG i.V. mit § 6 Abs. 1 Nr. 5 EStG) und führt nach § 8 Abs. 3 Satz 3 KStG zu einer entsprechenden Einkommensminderung. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos i.S. des § 27 KStG." },
+      { text: "Sollte bei der A-GmbH bisher die materielle Korrespondenzregelung des § 8 Abs. 3 Satz 5 KStG angewendet worden sein, weil bisher weder beim Anteilseigner, noch bei der leistenden Gesellschaft eine zutreffende steuerliche Erfassung erfolgt ist, fällt die Anwendung dieser Regelung aufgrund der nunmehr beim Anteilseigner angewendeten materiellen Korrespondenz weg. Die Veranlagung der A-GmbH muss dann nach § 32a Abs. 2 KStG korrigiert werden, so dass die Einmalversteuerung nur auf Ebene des Anteilseigners sichergestellt ist." },
+      { typ: "tabelle", spalten: ["Ebene", "Vorgang", "Ergebnis"], zeilen: [
+        ["B-GmbH (leistend, benachteiligt)", "gezahlte Zinsen 500.000 €, angemessen 300.000 €", "vGA von 200.000 €, die bisher nicht hinzugerechnet wurde – Einkommensschaden"],
+        ["A (Anteilseigner)", "Beteiligungsertrag nach § 20 Abs. 1 Nr. 1 Satz 2 EStG", "200.000 €"],
+        ["A (Anteilseigner)", "Teileinkünfteverfahren", "ausgeschlossen nach § 3 Nr. 40 Buchstabe d Satz 2 EStG – voll steuerpflichtig"],
+        ["A (Anteilseigner)", "Verbrauch der vGA als verdeckte Einlage in die A-GmbH", "Erhöhung der Anschaffungskosten um 200.000 €"],
+        ["A (Anteilseigner)", "Einkommen aus dem Vorgang", "200.000 €"],
+        ["A-GmbH (bevorteilt)", "verdeckte Einlage, Bewertung mit dem Teilwert", "200.000 €"],
+        ["A-GmbH", "Einkommensminderung nach § 8 Abs. 3 Satz 3 KStG", "./. 200.000 €"],
+        ["A-GmbH", "Zugang beim steuerlichen Einlagekonto", "+ 200.000 €"],
+        ["A-GmbH", "zuvor angewandter § 8 Abs. 3 Satz 5 KStG", "entfällt – Korrektur der Veranlagung nach § 32a Abs. 2 KStG"],
+      ] },
+      { text: "Rechenprobe (eigene Ergänzung): 500.000 € ./. 300.000 € = 200.000 € vGA. Der Betrag taucht auf allen drei Ebenen in derselben Höhe auf – als nicht hinzugerechneter Aufwand bei der B-GmbH, als voll steuerpflichtiger Beteiligungsertrag bei A und als abzuziehende verdeckte Einlage bei der A-GmbH. Versteuert wird er am Ende **genau einmal**, nämlich bei A." },
+      { text: "Anmerkung zur Rangfolge der beiden Korrespondenzregeln (eigene Ergänzung): Der Abschnitt löst einen Konflikt, der sich aus dem vorigen fast zwangsläufig ergibt. § 8 Abs. 3 Satz 5 KStG setzt voraus, dass die vGA **weder** bei der leistenden Gesellschaft **noch** beim Anteilseigner berücksichtigt wurde. Wird sie nun beim Anteilseigner erfasst – und zwar voll steuerpflichtig, weil dort ihrerseits die materielle Korrespondenz greift –, entfällt damit rückwirkend die zweite Voraussetzung des Satzes 5. Die Quelle zieht daraus die einzig mögliche Folge: Die Veranlagung der bevorteilten Gesellschaft ist nach § 32a Abs. 2 KStG zu **korrigieren**. Der Vorrang des Anteilseigners ist also kein Wertungsentscheid, sondern folgt aus dem Tatbestand des Satzes 5 selbst." },
+      { text: "Anmerkung zur Rolle des § 32a Abs. 2 KStG (eigene Ergänzung): Hier zeigt sich, wofür die **formelle** Korrespondenz aus Abschnitt 4.3 in den Dreiecksfällen gebraucht wird. Während § 32a **Abs. 1** KStG den Bescheid des Anteilseigners öffnet, wenn sich bei der Gesellschaft etwas ändert, öffnet § 32a **Abs. 2** KStG den umgekehrten Weg – den Bescheid der Gesellschaft, die eine verdeckte Einlage empfangen hat. Ohne diese Vorschrift bliebe die Anwendung des § 8 Abs. 3 Satz 5 KStG bei der bevorteilten Gesellschaft bestehen, obwohl ihre Voraussetzungen entfallen sind, und derselbe Betrag würde zweimal versteuert. Materielle und formelle Korrespondenz greifen also ineinander: Die eine bestimmt, **was** zu besteuern ist, die andere sorgt dafür, dass der **Bescheid** noch geändert werden kann." },
+      { text: "Anmerkung zum Leitgedanken der Einmalversteuerung (eigene Ergänzung): Die Quelle schließt mit dem Satz, die Einmalversteuerung sei „nur auf Ebene des Anteilseigners sichergestellt“, und darin liegt der rote Faden des gesamten Abschnitts 5.6. Das Ziel aller Korrespondenzregeln ist, dass das vGA-Potential **genau einmal** besteuert wird – nicht keinmal (dann greifen § 8 Abs. 3 Satz 5 KStG und die Korrespondenz bei den Einnahmen) und nicht zweimal (dann greift § 32a Abs. 2 KStG). Wer sich in einer Klausur verrechnet hat, kann daran prüfen: Taucht der Betrag der vGA am Ende genau einmal in einer Bemessungsgrundlage auf, stimmt die Lösung." },
+      { text: "Anmerkung zur Zurechnung „in entsprechender Anlehnung an § 20 Abs. 5 EStG“ (eigene Ergänzung): Die vorsichtige Formulierung der Quelle ist bemerkenswert. § 20 Abs. 5 EStG rechnet die Kapitalerträge dem **Anteilseigner** zu; im Dreiecksfall fließt der Vorteil aber einer Schwestergesellschaft zu, an der der Gesellschafter ebenfalls beteiligt ist. Die Vorschrift passt also nicht unmittelbar, sondern nur dem Gedanken nach – der Anteilseigner ist derjenige, über den die gesellschaftsrechtliche Veranlassung vermittelt wird, und deshalb muss er den Bezug versteuern, obwohl ihm selbst nichts zugeflossen ist. Es ist dieselbe Konstruktion, die Abschnitt 1.9 für die nahe stehenden Personen entwickelt hat." },
     ],
   },
 ];
