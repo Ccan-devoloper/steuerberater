@@ -14,10 +14,13 @@
    STAND DER ÜBERNAHME: Aus Kapitel 1 sind die Verfassungswidrigkeit des § 8c
    KStG (1.1) und die Tatbestandsmerkmale (1.2 mit dem schädlichen
    Anteilserwerb, den nicht genutzten Verlusten, der Gewerbesteuer, dem
-   Wegfall des § 8c Abs. 2 KStG und der Sanierungsklausel) übernommen. Es
-   folgen der Erwerberkreis (1.3), der Anteilserwerb (1.4), die
-   Verschonungsgrenze (1.5), die Verlustkürzung (1.6), die Organschaftsfälle
-   (1.7) sowie die Kapitel 2 bis 4; der Campus weist den Stand aus.
+   Wegfall des § 8c Abs. 2 KStG und der Sanierungsklausel) übernommen, dazu
+   der Erwerberkreis (1.3 mit der Rechtsform des Erwerbers und den
+   gleichgerichteten Interessen) und der Grundfall des Anteilserwerbs (1.4.1).
+   Es folgen die gleichgestellten Sachverhalte und Sonderfälle (1.4.2 bis
+   1.4.6), die Verschonungsgrenze (1.5), die Verlustkürzung (1.6), die
+   Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; der Campus weist den
+   Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -173,6 +176,109 @@ export const kstTeil5 = [
       { text: "Anmerkung zur Ausblendung als Zählerwerb (eigene Ergänzung): Die Rechtsfolge der Sanierungsklausel geht weiter, als man erwartet, und ist deshalb hervorzuheben. Der Erwerb wird **komplett ausgeblendet** – er zählt nicht nur selbst nicht, sondern kann auch für **spätere** Erwerbe nicht als Zählerwerb berücksichtigt werden. Damit unterscheidet sich die Sanierungsklausel grundlegend von der aufgehobenen Quotenstufe des Abschnitts 1.1.1, bei der die Erwerbe gerade als Zählerwerbe bestehen bleiben. Für die Fünfjahresbetrachtung des Abschnitts 1.4.6 bedeutet das: Ein sanierungsbedingter Erwerb fällt vollständig aus der Rechnung heraus." },
       { text: "Anmerkung zur Struktur der Voraussetzungen (eigene Ergänzung): Die Sanierungsklausel verlangt **kumulativ** dreierlei und lässt nur an einer Stelle eine Wahl. Die Sanierungsabsicht und der Erhalt der Betriebsstrukturen müssen **beide** vorliegen; innerhalb des zweiten Merkmals genügt dagegen **eine** der drei Alternativen. Dazu treten zwei **negative** Voraussetzungen – kein bereits eingestellter Geschäftsbetrieb und kein Branchenwechsel binnen fünf Jahren. Besonders unangenehm ist die letzte: Sie wirkt **rückwirkend** über § 175 Abs. 1 Nr. 2 AO, so dass die bereits gewährte Verschonung Jahre später wieder entfällt. Wer die Klausel nutzt, bindet sich also fünf Jahre an die Branche." },
       { text: "Anmerkung zur Gewerbesteuer (eigene Ergänzung): Der Verweis des § 10a Satz 10 GewStG reicht weiter als der Wortlaut des § 8c KStG, und das ist der eigentliche Inhalt des Abschnitts 1.2.3. Erfasst werden nicht nur Körperschaften, sondern auch **Mitunternehmerschaften**, an denen unmittelbar oder über mehrere Stufen eine Kapitalgesellschaft beteiligt ist. Damit schlägt die Anteilsveräußerung auf der Gesellschafterebene auf den **Gewerbeverlust der Personengesellschaft** durch – ein Ergebnis, das aus dem Körperschaftsteuerrecht allein nicht folgt und in gemischten Strukturen leicht übersehen wird." },
+    ],
+  },
+  {
+    id: "kst-t5-3",
+    kapitel: "3",
+    abschnittNr: "1.3",
+    title: "1.3 Erwerberkreis – wann mehrere Erwerber zu einem werden",
+    thema: "Nahe stehende Personen werden zu einem Erwerberkreis zusammengefasst. Die Personengesellschaft gilt dabei selbst als ein Erwerber, die vermögensverwaltende dagegen ist transparent – und gleichgerichtete Interessen verlangen dokumentierte Absprachen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 1.3 bis 1.3.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 2 KStG",
+      "§ 8c Abs. 1 Satz 4 KStG",
+      "§ 39 Abs. 2 Nr. 2 AO",
+      "§ 6 Abs. 5 Satz 3 EStG",
+      "§ 15 Abs. 3 Nr. 2 EStG",
+      "§ 705 BGB",
+      "BMF vom 28.11.2017, Tz. 11, 25, 26, 27 und 28",
+      "BT-Drucksache 16/5491, Seite 53",
+      "BFH vom 22.11.2016, BStBl. II 2017, 921",
+    ],
+    themen: ["Erwerberkreis", "nahe stehende Personen", "Personengesellschaft", "Bruchteilsbetrachtung", "gleichgerichtete Interessen", "Gesamtplan", "Absprachen"],
+    bloecke: [
+      { typ: "titel", text: "1.3.1 Person und Rechtsform des Erwerbers" },
+      { text: "Die für § 8c KStG maßgebliche Quote ermittelt sich aus sämtlichen Erwerben eines Erwerbers bzw. eines Erwerberkreises, d.h. diese kann sich auch aus dem zusammengefassten Erwerb mehrerer Personen ergeben. Dafür ist entscheidend, welchen Anteil am Nennkapital der erworbene Anteil repräsentiert. Zu beachten ist, dass einander nahe stehende Personen zu einem Erwerberkreis zusammengefasst werden." },
+      { text: "Beispiel: An der A-GmbH ist der Alleingesellschafter A beteiligt. In 2025 erwirbt C den hälftigen Anteil (= 50 % des Stammkapitals). Gleichzeitig erwirbt die Ehefrau des C die restlichen Anteile (= 50 % des Stammkapitals)." },
+      { text: "Lösung: Erwerberkreis sind in diesem Fall C und dessen als nahe stehende Person anzusehende Ehefrau. Diesem Erwerberkreis wird danach eine Erwerbsquote von 100 % des Stammkapitals an der A-GmbH zugerechnet, so dass ein Anwendungsfall des § 8c Abs. 1 Satz 1 KStG gegeben ist." },
+      { text: "Hinsichtlich der Rechtsform des Erwerbers gelten dabei grundsätzlich keine Besonderheiten. Lediglich bei einer Personengesellschaft ist zu beachten, dass diese für Zwecke des Erwerberkreises i.S. des § 8c KStG steuerlich nicht als transparent behandelt wird, d.h. deren unmittelbar erworbene Anteile werden nicht den Mitunternehmern zugerechnet. Eine Zusammenrechnung mit anderen Erwerbern kann sich dann nur in Fällen eines Erwerberkreises von nahe stehenden Personen oder nach den Grundsätzen des § 8c Abs. 1 Satz 2 KStG ergeben. Ein schädlicher Erwerb i.S. des § 8c KStG ist auch gegeben, wenn die bisherigen Anteilseigner ihre Anteile gemeinsam an ihre Personengesellschaft veräußern. Gleiches gilt umgekehrt, wenn die Personengesellschaft ihre bisher im Gesamthandsvermögen gehaltenen Anteile an ihre Gesellschafter veräußert bzw. diese nach § 6 Abs. 5 Satz 3 EStG ins Sonderbetriebsvermögen übertragen werden." },
+      { text: "Anders ist dies hingegen bei einer vermögensverwaltenden Personengesellschaft, weil die von ihr gehaltenen Anteile bereits nach der Bruchteilsbetrachtung i.S. des § 39 Abs. 2 Nr. 2 AO unmittelbar ihren Gesellschaftern zugerechnet werden. In diesen Fällen dürften die Gesellschafter aber einen Erwerberkreis i.S. des § 8c Abs. 1 Satz 2 KStG bilden." },
+      { text: "Beispiel: An der A-GmbH sind die Gesellschafter A und B zu jeweils 50 % beteiligt. In 2025 erwirbt die vermögensverwaltende C-GbR (Anteil X und Y jeweils 50 %) sämtliche Anteile an der A-GmbH." },
+      { text: "Lösung: Zivilrechtlich erwirbt die C-GbR den Anteil an der A-GmbH. Für Zwecke des § 8c KStG wird die vermögensverwaltende Gesellschaft aber ausgeblendet, so dass der erworbene Anteil unmittelbar den Gesellschaftern zugerechnet werden (§ 39 Abs. 2 Nr. 2 AO). Weil diese wohl als einander nahe stehende Person anzusehen sind, erfolgt die Zusammenrechnung zu einem Erwerberkreis und damit ein schädlicher Anteilseigner von 100 %. Danach ergibt sich ein Anwendungsfall des § 8c Abs. 1 Satz 1 KStG. (Die Formen „der erworbene Anteil unmittelbar den Gesellschaftern zugerechnet werden“ und „ein schädlicher Anteilseigner von 100 %“ stehen so in der Quelle; gemeint ist ersichtlich ein schädlicher Anteils*erwerb*.)" },
+      { text: "Beispiel: An der A-GmbH sind die Gesellschafter A und B zu jeweils 50 % beteiligt. In 2025 veräußern A und B ihre Anteile an die A+B GmbH & Co KG (gewerblich geprägt i.S. des § 15 Abs. 3 Nr. 2 EStG), an welcher A und B ebenfalls wieder zu jeweils 50 % beteiligt sind." },
+      { text: "Lösung: Die A+B GmbH & Co KG gilt für Zwecke des § 8c KStG bereits als ein Erwerber, so dass durch den Erwerb des 100%igen Anteils ein Anwendungsfall des § 8c Abs. 1 Satz 1 KStG gegeben ist. Dass an dem Erwerber die bisherigen Anteilseigner der A-GmbH beteiligt sind, ist hierfür unerheblich. Denn es ist auf den zivilrechtlichen Anteilserwerb durch die Personengesellschaft abzustellen. Ein Anwendungsfall der Konzernklausel i.S. des § 8c Abs. 1 Satz 4 KStG ist nicht gegeben." },
+      { typ: "titel", text: "1.3.2 Zusammenrechnung bei gleichgerichteten Interessen" },
+      { text: "§ 8c Abs. 1 Satz 2 KStG führt ebenfalls zu einem Erwerberkreis, wenn die verschiedenen Erwerber über gleichgerichtete Interessen verfügen, z.B. bei einer einheitlichen Willensbildung, die sich im Rahmen der gemeinschaftlichen Beherrschung (§ 705 BGB) ergeben kann. Die Regelung zielt auf eine gesamtplanerisch handelnde Erwerbergruppe ab, bei welcher es gezielt darum geht, die Verluste der Gesellschaft zu verwerten. Auf die gemeinsame Verlustnutzung kommt es aber nicht an. Die Finanzverwaltung legt diesen Tatbestand weit aus, was auch der Verweis auf die bei beherrschenden Gesellschaftern bestehenden gleichgerichteten Interessen dokumentiert." },
+      { text: "Der BFH hat zwischenzeitlich diesen unbestimmten Begriff präzisiert und vertritt diesbezüglich eine gegenüber der Finanzverwaltung engere Rechtsauffassung, wonach die Indizien, die zu gleichgerichteten Interessen führen können, spätestens im Zeitpunkt des schädlichen Anteilserwerbs konkretisiert sein und in Form von Abreden eindeutig dokumentiert vorliegen müssen. Insbesondere soll hierfür lediglich die abstrakte „Möglichkeit der nachfolgenden Beherrschung“ der Verlustgesellschaft nicht ausreichend sein. Danach können gleichgerichtete Interessen insbesondere in den Fällen angenommen werden, in denen die Personengruppe aufgrund eindeutiger Absprachen beim Anteilserwerb zusammenwirkt und anschließend aufgrund dieser Absprachen die Gesellschaft gemeinsam beherrscht. Damit wird die Qualität der vorherigen Absprachen eindeutig in den Vordergrund gestellt. Die Finanzverwaltung hat zwischenzeitlich ihre Aussage in Tz. 28 des BMF-Schreibens ergänzt und nimmt gleichgerichtete Interessen zumindest dann nicht mehr an, wenn sich die Absprachen zwischen den Beteiligten nur auf den Anteilserwerb beschränken." },
+      { text: "Beispiel: An der A-GmbH ist der Gesellschafter A zu 100 % beteiligt. In 2025 erwirbt C den hälftigen Anteil des A (= 50 % des Stammkapitals). Gleichzeitig erwirbt D (kein persönlicher Bezug zu C) einen weiteren Anteil des A (= 10 % des Stammkapitals). Aufgrund vorheriger Abmachungen werden C und D alleinige Gesellschafter-Geschäftsführer der A-GmbH." },
+      { text: "Lösung: Dem Grunde nach würden zwei getrennte Erwerberkreise vorliegen. Da aber aufgrund der gemeinsamen Gesellschafter-Geschäftsführerposition ein Interessengleichklang zwischen beiden Gesellschaftern angenommen werden kann und aufgrund eindeutiger Absprachen hinreichend nachweisbar ist, ist unter Berücksichtigung des § 8c Abs. 1 Satz 2 KStG eine Erwerbergruppe und somit ein kombinierter Erwerb von 60 % anzunehmen. Demnach ist ein Anwendungsfall des § 8c Abs. 1 Satz 1 KStG gegeben." },
+      { typ: "tabelle", spalten: ["Erwerber", "Behandlung für § 8c KStG", "Folge"], zeilen: [
+        ["einander nahe stehende Personen", "werden zu einem Erwerberkreis zusammengefasst", "die Erwerbsquoten werden addiert"],
+        ["gewerbliche oder gewerblich geprägte Personengesellschaft", "gilt selbst als ein Erwerber – nicht transparent", "die Anteile werden den Mitunternehmern nicht zugerechnet; eine Zusammenrechnung nur über nahe stehende Personen oder § 8c Abs. 1 Satz 2 KStG"],
+        ["vermögensverwaltende Personengesellschaft", "transparent nach der Bruchteilsbetrachtung des § 39 Abs. 2 Nr. 2 AO", "die Anteile werden unmittelbar den Gesellschaftern zugerechnet, die ihrerseits einen Erwerberkreis bilden dürften"],
+        ["Erwerber mit gleichgerichteten Interessen", "Erwerberkreis nach § 8c Abs. 1 Satz 2 KStG", "die Erwerbsquoten werden addiert"],
+      ] },
+      { typ: "tabelle", spalten: ["Vorgang mit Beteiligung einer Personengesellschaft", "schädlich?"], zeilen: [
+        ["die bisherigen Anteilseigner veräußern ihre Anteile gemeinsam an ihre eigene Personengesellschaft", "ja"],
+        ["die Personengesellschaft veräußert die im Gesamthandsvermögen gehaltenen Anteile an ihre Gesellschafter", "ja"],
+        ["Übertragung dieser Anteile nach § 6 Abs. 5 Satz 3 EStG ins Sonderbetriebsvermögen", "ja"],
+      ] },
+      { typ: "tabelle", spalten: ["Gleichgerichtete Interessen", "Finanzverwaltung", "BFH vom 22.11.2016"], zeilen: [
+        ["Auslegung", "weit – Verweis auf die bei beherrschenden Gesellschaftern bestehenden gleichgerichteten Interessen", "enger"],
+        ["Anforderungen an die Indizien", "ursprünglich gering", "spätestens im Zeitpunkt des schädlichen Erwerbs konkretisiert und in Form von Abreden eindeutig dokumentiert"],
+        ["abstrakte Möglichkeit der Beherrschung", "genügte", "genügt nicht"],
+        ["Absprachen nur zum Anteilserwerb", "nach der Ergänzung der Tz. 28 keine gleichgerichteten Interessen mehr", "reichen nicht aus"],
+        ["gemeinsame Verlustnutzung", "nicht erforderlich", "nicht erforderlich"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Beispiele gehen auf. Ehegattenfall: 50 % + 50 % = 100 %, also mehr als 50 % und damit vollständiger Verlustuntergang. Fall der Geschäftsführer: 50 % + 10 % = 60 %, ebenfalls über der Schwelle – ohne die Zusammenrechnung bliebe es bei zwei unschädlichen Erwerben von 50 % und 10 %. Der Fall zeigt damit besonders deutlich, wie viel an der Erwerberkreisbildung hängt: Sie entscheidet hier allein über den vollständigen Untergang." },
+      { text: "Anmerkung zum Gegensatz der beiden Personengesellschaftsfälle (eigene Ergänzung): Die beiden Beispiele enden gleich – § 8c Abs. 1 Satz 1 KStG greift –, aber über **entgegengesetzte** Wege, und genau darin liegt ihr Lehrwert. Die **vermögensverwaltende** GbR wird **ausgeblendet**, die Anteile werden ihren Gesellschaftern zugerechnet, und erst deren Zusammenfassung zu einem Erwerberkreis führt zur Quote von 100 %. Die **gewerblich geprägte** GmbH & Co. KG dagegen ist **selbst** der Erwerber; auf ihre Gesellschafter kommt es gar nicht an. Wer die beiden Wege verwechselt, kommt in Fällen mit unterschiedlichen Beteiligungsquoten zu falschen Ergebnissen – nur im Beispiel der Quelle führen beide zufällig zum selben Wert." },
+      { text: "Anmerkung zur Nichttransparenz und ihrer Kehrseite (eigene Ergänzung): Dass die Personengesellschaft für § 8c KStG **nicht** transparent ist, widerspricht dem gewohnten Denken des Mitunternehmerrechts und hat eine unangenehme Kehrseite, die die Quelle ausdrücklich benennt: Der Vorgang ist in **beide** Richtungen schädlich. Veräußern die bisherigen Anteilseigner an ihre eigene Personengesellschaft, liegt ein Erwerb vor; veräußert die Personengesellschaft an ihre eigenen Gesellschafter zurück, ebenfalls. Sogar die **unentgeltliche** Übertragung ins Sonderbetriebsvermögen nach § 6 Abs. 5 Satz 3 EStG – ein Vorgang, der ertragsteuerlich gerade keine Veräußerung ist – schadet. Wirtschaftlich ändert sich in all diesen Fällen nichts an den Beteiligungsverhältnissen, steuerlich geht der Verlust gleichwohl unter." },
+      { text: "Anmerkung zur Konzernklausel (eigene Ergänzung): Der Schlusssatz des zweiten Beispiels ist wichtig und wird leicht überlesen: Die **Konzernklausel** des § 8c Abs. 1 Satz 4 KStG greift **nicht**, obwohl an Erwerberin und Verlustgesellschaft dieselben Personen in denselben Quoten beteiligt sind. Wirtschaftlich handelt es sich um eine reine Umhängung, und trotzdem geht der Verlust unter. Die Quelle begründet das mit dem Abstellen auf den **zivilrechtlichen** Anteilserwerb durch die Personengesellschaft. Weshalb die Konzernklausel hier versagt, wird erst der Abschnitt 1.4.5 zeigen – ihre Fallgruppen setzen eine **Person** an der Spitze voraus, die die Quelle dort näher bestimmt." },
+      { text: "Anmerkung zur Entwicklung bei den gleichgerichteten Interessen (eigene Ergänzung): Der Abschnitt dokumentiert eine Bewegung **zugunsten** des Steuerpflichtigen, die in zwei Schritten verlief. Zuerst hat der BFH 2016 verlangt, dass die Indizien spätestens im Erwerbszeitpunkt **konkretisiert** und durch **Abreden dokumentiert** sind, und die bloße abstrakte Möglichkeit einer späteren Beherrschung ausdrücklich verworfen. Dann hat die Verwaltung ihre Tz. 28 ergänzt und nimmt gleichgerichtete Interessen jedenfalls dann nicht mehr an, wenn sich die Absprachen **nur auf den Anteilserwerb** beschränken. Für die Klausur ergibt sich daraus eine klare Prüfungsfrage: Gibt es Absprachen, die über den Erwerb **hinausreichen** und die spätere gemeinsame Beherrschung tragen? Im Beispiel ist das die vorab vereinbarte gemeinsame Geschäftsführerstellung." },
+      { text: "Anmerkung zur fehlenden Verlustnutzungsabsicht (eigene Ergänzung): Bemerkenswert ist der Satz, auf die gemeinsame Verlustnutzung komme es **nicht** an, obwohl die Gesetzesbegründung die Norm gerade auf eine gesamtplanerisch zur Verlustverwertung handelnde Gruppe zuschneidet. Beides zusammen bedeutet: Die Verlustnutzung ist der **Anlass** der Regelung, aber kein **Tatbestandsmerkmal**. Wer im Sachverhalt nachweist, dass die Erwerber die Verluste gar nicht nutzen wollten, hat damit nichts gewonnen – es bleibt bei der typisierenden Betrachtung, die das gesamte Kapitel prägt." },
+    ],
+  },
+  {
+    id: "kst-t5-4",
+    kapitel: "4",
+    abschnittNr: "1.4.1",
+    title: "1.4.1 Anteilserwerb, Grundfall – jedes Entgelt schadet",
+    thema: "Erfasst ist jede Übertragung von Gesellschaftsrechten, auch zwischen bisherigen Anteilseignern. Maßgeblich ist der Übergang des wirtschaftlichen Eigentums; der unentgeltliche Erwerb ist nur unter Angehörigen und nur bei vollständiger Unentgeltlichkeit unschädlich",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 1.4.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 2 UmwStG",
+      "§ 15 AO",
+      "BMF vom 28.11.2017, Tz. 4, 5, 6, 13 und 15",
+    ],
+    themen: ["Anteilserwerb", "Gesellschaftsrechte", "wirtschaftliches Eigentum", "Umwandlung", "unentgeltlicher Erwerb", "Angehörige", "Trennungstheorie", "nämlicher Anteil"],
+    bloecke: [
+      { text: "Von der Grundregelung des § 8c KStG wird zunächst der herkömmliche Anteilserwerb erfasst. Entscheidend ist, dass es dadurch zu einer Übertragung von Gesellschaftsrechten kommt, d.h. in aller Regel führt dieser Vorgang beim Erwerber zu einer Erhöhung seiner Nominalbeteiligung, Stimmrechten oder Gewinnbezugsrechten. Als Erwerb in diesem Sinne zählt aber auch der Erwerb einer stimmrechtslosen Beteiligung. Unter diesem Gesichtspunkt sind daher auch Anteilserwerbe zwischen den bisherigen Anteilseignern zu beachten, d.h. es muss daher gerade nicht zu einem Eintritt eines neuen Anteilseigners kommen." },
+      { text: "Der Anteilserwerb gilt für Zwecke des § 8c KStG mit Übergang des wirtschaftlichen Eigentums als erfolgt. Selbiges gilt, wenn der Anteil an der Verlustgesellschaft im Rahmen eines Umwandlungsvorganges (z.B. Verschmelzung des Anteilseigners der Verlustgesellschaft) übertragen wird. Der (rückwirkende) steuerliche Übertragungsstichtag i.S. des § 2 UmwStG gilt für diese Betrachtung nicht. Der Tag des Anteilserwerbs hat Bedeutung für den Verlustuntergang, weil der Anteilserwerb auch unterjährig erfolgen kann und dafür eine andere Zusammensetzung des ungenutzten Verlustes maßgeblich ist (siehe unter 1.6.2)." },
+      { text: "Berücksichtigt wird im Rahmen des § 8c KStG dabei sowohl der entgeltliche als auch der unentgeltliche Erwerb. Unschädlich ist bei einer natürlichen Person aber wiederum nur der unentgeltliche Erwerb im Rahmen des Erbfalls bzw. der Erbauseinandersetzung oder der unentgeltlichen vorweggenommenen Erbfolge, wenn es sich um Angehörige i.S. des § 15 AO handelt. Wird ein Entgelt geleistet (z.B. Gleichstellungsgelder), ist der Vorgang für Zwecke des § 8c KStG wiederum schädlich. Dies gilt auch dann, wenn der Vorgang nicht voll entgeltlich ist, d.h. eine Aufteilung nach den Grundsätzen der Trennungstheorie ist nicht vorzunehmen." },
+      { text: "Beispiel: An der A-GmbH ist A zu 100 % beteiligt. Mit Wirkung zum 01.01.2025 schenkt er seinen Anteil seinem Sohn S." },
+      { text: "Lösung: Der Vorgang ist für Zwecke des § 8c KStG unschädlich, weil die unentgeltliche Anteilsübertragung zwischen Angehörigen i.S. des § 15 AO nicht als schädlicher Erwerb angesehen wird. Dabei ist aber zu beachten, dass der Vorgang insgesamt unentgeltlich vorgenommen werden muss, so dass jegliches Entgelt auch unabhängig von dessen Höhe schädlich ist und damit auch ein Anwendungsfall des § 8c KStG vorliegt." },
+      { text: "Ist der unentgeltliche Erwerber kein Angehöriger i.S. des § 15 AO, kommt § 8c Abs. 1 Satz 1 KStG auch unabhängig von der unentgeltlichen Übertragung zur Anwendung." },
+      { text: "Schädlich ist unter diesem Gesichtspunkt auch die Weiterübertragung eines Anteils, dessen Erwerb sich bereits im Rahmen des § 8c Abs. 1 Satz 1 KStG bei einem Erwerber ausgewirkt hat (sog. Erwerb des nämlichen Anteils). Dies ist zutreffend, weil sich die Frage nach dem schädlichen Erwerb i.S. des § 8c KStG bei jedem Erwerberkreis neu stellt." },
+      { typ: "tabelle", spalten: ["Vorgang", "schädlich?", "Begründung"], zeilen: [
+        ["Erwerb einer stimmrechtslosen Beteiligung", "ja", "auch darin liegt eine Übertragung von Gesellschaftsrechten"],
+        ["Anteilserwerb zwischen bisherigen Anteilseignern", "ja", "der Eintritt eines neuen Anteilseigners ist nicht erforderlich"],
+        ["Übertragung im Rahmen einer Umwandlung", "ja", "maßgeblich ist der Übergang des wirtschaftlichen Eigentums, nicht der rückwirkende Stichtag des § 2 UmwStG"],
+        ["unentgeltlicher Erwerb durch Angehörige i. S. des § 15 AO im Erbfall, bei der Erbauseinandersetzung oder der vorweggenommenen Erbfolge", "nein", "ausdrückliche Ausnahme"],
+        ["derselbe Vorgang gegen ein Entgelt, etwa Gleichstellungsgelder", "ja", "jedes Entgelt schadet, auch ein teilentgeltlicher Vorgang – keine Aufteilung nach der Trennungstheorie"],
+        ["unentgeltlicher Erwerb durch einen Nichtangehörigen", "ja", "die Ausnahme gilt nur für Angehörige"],
+        ["Weiterübertragung eines bereits einmal schädlich erworbenen Anteils", "ja", "Erwerb des nämlichen Anteils – die Frage stellt sich bei jedem Erwerberkreis neu"],
+      ] },
+      { text: "Anmerkung zur Reichweite des Erwerbsbegriffs (eigene Ergänzung): Der Abschnitt ist deshalb so wichtig, weil er fast jede denkbare Bewegung von Anteilen erfasst. Weder muss ein **neuer** Gesellschafter hinzutreten – auch die Verschiebung zwischen den bisherigen genügt –, noch muss der Anteil **stimmberechtigt** sein. Damit ist der Erwerbsbegriff deutlich weiter als der Zweck der Norm, der auf den Mantelkauf durch einen neuen Mehrheitsgesellschafter zielt. Wer in der Klausur prüft, sollte deshalb zuerst schlicht feststellen, **wer nach dem Vorgang wie viel hält**, und erst dann fragen, ob eine der Ausnahmen greift." },
+      { text: "Anmerkung zur Unbeachtlichkeit der umwandlungssteuerlichen Rückwirkung (eigene Ergänzung): Der Hinweis, der rückwirkende Übertragungsstichtag des § 2 UmwStG gelte hier **nicht**, ist eine typische Klausurfalle. Für die Umwandlung selbst wird bis zu acht Monate zurückgerechnet, für § 8c KStG dagegen zählt der tatsächliche Übergang des **wirtschaftlichen Eigentums**. Beide Zeitpunkte können also in verschiedene Wirtschaftsjahre fallen – und weil der Tag des Erwerbs nach Abschnitt 1.6.2 darüber entscheidet, welcher Teil des Verlustes untergeht, wirkt sich der Unterschied unmittelbar auf die Zahlen aus." },
+      { text: "Anmerkung zum Ausschluss der Trennungstheorie (eigene Ergänzung): Die Aussage, dass **jedes** Entgelt schadet und eine Aufteilung nach der Trennungstheorie **nicht** vorzunehmen ist, gehört zu den härtesten Regeln des Abschnitts. Ertragsteuerlich wäre eine teilentgeltliche Übertragung in einen entgeltlichen und einen unentgeltlichen Teil zu zerlegen; hier gilt das nicht. Ein symbolisches Gleichstellungsgeld an ein Geschwisterkind macht die gesamte Übertragung schädlich und lässt den Verlust vollständig untergehen. Die Quelle betont das ausdrücklich mit der Wendung „unabhängig von dessen Höhe“ – bei der Gestaltung einer vorweggenommenen Erbfolge ist das der entscheidende Punkt." },
+      { text: "Anmerkung zum nämlichen Anteil (eigene Ergänzung): Dass die Weiterübertragung eines bereits einmal schädlich erworbenen Anteils **erneut** schädlich ist, klingt nach einer Doppelbelastung, ist aber folgerichtig: Die Prüfung erfolgt **erwerberbezogen**, nicht anteilsbezogen. Für den zweiten Erwerber ist der Anteil neu, und bei ihm stellt sich die Frage nach dem Mantelkauf unabhängig davon, was beim ersten geschehen ist. Praktisch bedeutet das, dass ein Anteil mehrfach hintereinander Verluste vernichten kann – allerdings nur, soweit nach dem ersten Untergang überhaupt noch neue Verluste entstanden sind." },
     ],
   },
 ];

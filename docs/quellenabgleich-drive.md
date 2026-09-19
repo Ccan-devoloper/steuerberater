@@ -10620,6 +10620,42 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 1.3 und 1.4.1 – Erwerberkreis und Anteilserwerb
+
+Quelle: dieselbe Datei, Seiten 9 bis 11; übernommen als Kapitel 3 und 4. Prüfung:
+`npm run check:k2-kst-teil5` (4 Kapitel, 87 Blöcke, 8 Tabellen).
+
+**Alle Quoten der Beispiele sind nachgerechnet:** 50 % + 50 % = 100 % im Ehegattenfall; 50 % + 10 % =
+60 % im Fall der beiden Gesellschafter-Geschäftsführer – ohne die Zusammenrechnung bliebe es dort bei
+zwei unschädlichen Erwerben.
+
+**Der Gegensatz der beiden Personengesellschaftsfälle ist als eigene Feststellung herausgearbeitet.**
+Beide Beispiele enden bei § 8c Abs. 1 Satz 1 KStG, laufen aber über entgegengesetzte Wege: Die
+vermögensverwaltende GbR wird ausgeblendet und die Anteile werden ihren Gesellschaftern zugerechnet,
+die gewerblich geprägte GmbH & Co. KG ist dagegen selbst der Erwerber. Nur im Beispiel der Quelle
+führen beide Wege zufällig zum selben Wert; bei unterschiedlichen Beteiligungsquoten liefe die
+Verwechslung auseinander.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die Kehrseite der Nichttransparenz, wonach der
+Vorgang in beide Richtungen schädlich ist und sogar die unentgeltliche Übertragung nach § 6 Abs. 5
+Satz 3 EStG erfasst; der Hinweis, dass die Konzernklausel im zweiten Beispiel trotz identischer
+Beteiligungsverhältnisse versagt und die Quelle den Grund erst in Abschnitt 1.4.5 nachliefert; die
+Zweischrittigkeit der Entwicklung bei den gleichgerichteten Interessen (BFH 2016, danach Ergänzung
+der Tz. 28) samt der daraus folgenden Prüfungsfrage nach Absprachen, die über den Erwerb hinausgehen;
+die Beobachtung, dass die gemeinsame Verlustnutzung Anlass, aber kein Tatbestandsmerkmal ist; die
+Weite des Erwerbsbegriffs gegenüber dem Normzweck; die Klausurfalle der nicht geltenden
+umwandlungssteuerlichen Rückwirkung; die Tragweite des ausgeschlossenen Trennungstheorie-Grundsatzes
+bei der vorweggenommenen Erbfolge; und die erwerberbezogene Prüfung beim nämlichen Anteil.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „so dass der erworbene
+Anteil unmittelbar den Gesellschaftern zugerechnet werden“ und „damit ein schädlicher Anteilseigner
+von 100 %“ – gemeint ist ersichtlich ein schädlicher Anteils*erwerb*.
+
+**Noch offen:** aus Teil V die gleichgestellten Sachverhalte und Sonderfälle des Anteilserwerbs
+(1.4.2 bis 1.4.6 mit Umwandlungen, Kapitalerhöhung, mittelbarem Erwerb, Konzernregelung und
+Fünfjahresbetrachtung), die Verschonungsgrenze (1.5), die Verlustkürzung (1.6), die
+Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; ganz offen sind die Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher) – neuer Bestand, Verlustabzug und Zinsschranke
 
 Quelle: Google Drive, „B-S25-KSt-Teil V-Verluste-Zinsschranke (2025)-(Hamacher)-0525.pdf“ (Drive-ID

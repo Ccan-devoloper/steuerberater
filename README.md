@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 2 Kapitel mit 51 Abschnitten und 4 Tabellen. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 4 Kapitel mit 87 Abschnitten und 8 Tabellen. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3711,6 +3711,37 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Branchenwechsel** binnen fünf Jahren. Die letzte ist besonders unangenehm, weil sie über § 175
   Abs. 1 Nr. 2 AO **rückwirkend** greift – wer die Klausel nutzt, bindet sich fünf Jahre an die
   Branche.
+  Beim **Erwerberkreis** werden einander nahe stehende Personen zusammengefasst, so dass zwei für
+  sich unschädliche Erwerbe von je 50 % zu einer Quote von 100 % werden. Bei der Rechtsform des
+  Erwerbers lohnt der Vergleich der beiden Beispiele der Quelle: Sie enden gleich, laufen aber über
+  **entgegengesetzte** Wege. Die **vermögensverwaltende** GbR wird ausgeblendet, ihre Anteile werden
+  nach der Bruchteilsbetrachtung des § 39 Abs. 2 Nr. 2 AO unmittelbar den Gesellschaftern zugerechnet,
+  und erst deren Zusammenfassung ergibt die schädliche Quote. Die **gewerblich geprägte** GmbH & Co.
+  KG dagegen ist für § 8c KStG **selbst** der Erwerber und gerade **nicht** transparent – auf ihre
+  Gesellschafter kommt es nicht an, und auch die Konzernklausel des § 8c Abs. 1 Satz 4 KStG hilft
+  nicht, obwohl an Erwerberin und Verlustgesellschaft dieselben Personen in denselben Quoten beteiligt
+  sind. Die Nichttransparenz hat dabei eine unangenehme Kehrseite: Der Vorgang ist in **beide**
+  Richtungen schädlich – die Veräußerung an die eigene Personengesellschaft ebenso wie die
+  Rückveräußerung an die Gesellschafter und sogar die unentgeltliche Übertragung ins
+  Sonderbetriebsvermögen nach § 6 Abs. 5 Satz 3 EStG, also ein Vorgang, der ertragsteuerlich keine
+  Veräußerung ist. Bei den **gleichgerichteten Interessen** hat sich die Lage in zwei Schritten
+  zugunsten des Steuerpflichtigen bewegt: Der BFH verlangt seit 2016, dass die Indizien spätestens im
+  Erwerbszeitpunkt konkretisiert und durch Abreden dokumentiert sind, und verwirft die bloße abstrakte
+  Möglichkeit späterer Beherrschung; die Verwaltung hat daraufhin ihre Tz. 28 ergänzt und nimmt
+  gleichgerichtete Interessen nicht mehr an, wenn sich die Absprachen **nur auf den Anteilserwerb**
+  beschränken. Die gemeinsame Verlustnutzung ist dabei der **Anlass** der Regelung, aber kein
+  Tatbestandsmerkmal.
+  Der **Erwerbsbegriff** des Grundfalls ist deutlich weiter als der Normzweck des Mantelkaufs: Weder
+  muss ein **neuer** Gesellschafter hinzutreten – auch die Verschiebung zwischen den bisherigen
+  genügt –, noch muss der Anteil **stimmberechtigt** sein. Maßgeblich ist der Übergang des
+  **wirtschaftlichen Eigentums**; der rückwirkende Übertragungsstichtag des § 2 UmwStG gilt hier
+  ausdrücklich **nicht**, so dass beide Zeitpunkte in verschiedene Wirtschaftsjahre fallen können –
+  und weil der Tag des Erwerbs über die Zusammensetzung des untergehenden Verlustes entscheidet, wirkt
+  sich das unmittelbar auf die Zahlen aus. Am härtesten ist der Ausschluss der **Trennungstheorie**:
+  Der unentgeltliche Erwerb ist nur unter Angehörigen i. S. des § 15 AO und nur bei **vollständiger**
+  Unentgeltlichkeit unschädlich – ein symbolisches Gleichstellungsgeld macht die gesamte Übertragung
+  schädlich, „unabhängig von dessen Höhe“. Und weil die Prüfung **erwerberbezogen** erfolgt, ist auch
+  die Weiterübertragung eines bereits einmal schädlich erworbenen Anteils erneut schädlich.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
