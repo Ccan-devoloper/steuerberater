@@ -94,22 +94,30 @@ function korrigiereAStG9(thema) {
     ...thema.kern,
     einordnung: [
       "§ 9 AStG nimmt Bagatellfälle aus der Hinzurechnungsbesteuerung heraus. Relative und absolute Freigrenze müssen kumulativ eingehalten werden.",
-      "Die relative Grenze knüpft an die Einkünfte an: Die Zwischeneinkünfte dürfen nicht mehr als ein Drittel der gesamten Einkünfte der ausländischen Gesellschaft betragen.",
+      "Rechtsstand 2026: Die relative Grenze knüpft an die Einkünfte an; die Zwischeneinkünfte dürfen nicht mehr als ein Drittel der gesamten Einkünfte der ausländischen Gesellschaft betragen. Die absolute Grenze beträgt 100.000 €.",
     ],
     lernziele: [
       "die relative Grenze von höchstens einem Drittel der gesamten Einkünfte der ausländischen Gesellschaft prüfen",
       "die absolute Grenze von 100.000 € getrennt prüfen",
+      "den Rechtsstandswechsel 2025/2026 erkennen",
       "Freigrenze und Freibetrag auseinanderhalten",
     ],
     pruefschritte: [
       "Gesamte Einkünfte der ausländischen Gesellschaft ermitteln.",
       "Zwischeneinkünfte, für die die Gesellschaft Zwischengesellschaft ist, ins Verhältnis zu den gesamten Einkünften setzen.",
-      "Relative Grenze prüfen: nicht mehr als ein Drittel der gesamten Einkünfte.",
-      "Absolute Grenze prüfen: Die nach § 9 AStG außer Ansatz zu lassenden Beträge dürfen beim Steuerpflichtigen insgesamt 100.000 € nicht übersteigen.",
+      "Rechtsstand 2026: Relative Grenze prüfen – nicht mehr als ein Drittel der gesamten Einkünfte.",
+      "Rechtsstand 2026: Absolute Grenze prüfen – die nach § 9 AStG außer Ansatz zu lassenden Beträge dürfen beim Steuerpflichtigen insgesamt 100.000 € nicht übersteigen.",
       "Nur wenn beide Grenzen eingehalten sind, greift die Freigrenze.",
     ],
-    merksatz: "§ 9 AStG arbeitet mit Einkünften, nicht mit Bruttoerträgen: relative Ein-Drittel-Grenze und absolute 100.000-€-Grenze müssen beide eingehalten sein.",
+    merksatz: "§ 9 AStG arbeitet mit Einkünften, nicht mit Bruttoerträgen. 2026 gelten ein Drittel und 100.000 €; bei 2025er Sachverhalten noch 10 % und 80.000 €.",
   };
+  rechtsstandswechsel(thema, {
+    abJahr: 2026,
+    vorherJahr: 2025,
+    norm: "§ 9 AStG",
+    aktuell: "Relative Freigrenze: nicht mehr als ein Drittel der gesamten Einkünfte der ausländischen Gesellschaft; absolute Freigrenze: 100.000 €.",
+    vorher: "Relative Freigrenze: nicht mehr als 10 % der gesamten Einkünfte der ausländischen Gesellschaft; absolute Freigrenze: 80.000 €.",
+  });
 }
 
 function korrigiereSechsBReihenfolge(thema) {
