@@ -262,6 +262,7 @@ function korrigiereRueckstellungskatalog(thema) {
 }
 
 function korrigiereIgLieferungQuiz(thema) {
+  thema.titel = "Innergemeinschaftliche Lieferung: Voraussetzungen der Steuerfreiheit";
   normErgaenzen(thema, "§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1, 3 UStG");
   thema.kern = {
     ...thema.kern,
@@ -349,7 +350,6 @@ function korrigierePwb(thema) {
     ausdruck: "PWB = risikobehafteter Nettobestand × nachvollziehbar geschätzter Risikosatz",
     erklaerung: "Die Bemessungsgrundlage ist der Nettobestand ohne sichere und bereits einzelwertberichtigte Forderungen. Der Risikosatz ist anhand objektiver Umstände am Bilanzstichtag und betrieblicher Erfahrungswerte nachvollziehbar zu schätzen; eine allgemeine gesetzliche oder verwaltungsseitige 1-%-Pauschale für sämtliche Forderungsbestände gibt es nicht. Ein pauschales Herausrechnen mit 1,19 ist nur passend, soweit der zugrunde liegende Forderungsbestand tatsächlich einheitlich diesem Umsatzsteuersatz unterliegt.",
   };
-  normErgaenzen(thema, "BFH v. 31.05.2017 – X R 29/15");
 }
 
 function korrigiereAchtBTechnik(thema) {
