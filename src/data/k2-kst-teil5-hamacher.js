@@ -39,8 +39,10 @@
    des § 8d Abs. 1 Satz 2 KStG (2.4) und die Rechtsfolgen (2.5 mit der
    Feststellung des fortführungsgebundenen Verlustvortrags, dem Nebeneinander
    von Alt- und Neuverlust und der Verlustverrechnung in den Folgejahren). Es
-   folgt das Fortführungserfordernis (2.6) sowie die Kapitel 3 und 4; der Campus
-   weist den Stand aus.
+   folgt das Fortführungserfordernis (2.6.1 Einstellung und 2.6.2.1 bis 2.6.2.5
+   der weiteren schädlichen Sachverhalte). Es folgen die Übertragung von
+   Wirtschaftsgütern unter dem gemeinen Wert (2.6.2.6) und die Kapitel 3 und 4;
+   der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -1625,6 +1627,100 @@ export const kstTeil5 = [
       { text: "Anmerkung zur Zweischneidigkeit der Reihenfolge (eigene Ergänzung): Die vorrangige Verwendung des fortführungsgebundenen Verlustes nach § 8d Abs. 1 Satz 8 KStG ist auf den ersten Blick günstig, auf den zweiten ambivalent, und die Quelle spricht das mit dem Wort „vorzeitiger Verbrauch“ an. **Günstig** ist sie, weil gerade dieser Verlust dauerhaft gefährdet ist – jedes schädliche Ereignis nach § 8d Abs. 2 KStG kann ihn vernichten, den Neuverlust dagegen nicht. Wird er zuerst verbraucht, ist er dieser Gefahr entzogen. **Ungünstig** ist sie, weil der Steuerpflichtige keine Wahl hat: Er kann den sicheren Neuverlust nicht vorziehen, um den gebundenen Verlust für später aufzusparen. In der Variante 2 löst sich die Bindung dadurch vollständig auf – nach dem Verbrauch gibt es keinen fortführungsgebundenen Verlust mehr, und damit auch keine Fortführungspflicht." },
       { text: "Anmerkung zum einen Verrechnungskreis (eigene Ergänzung): Die Aussage, es liege insgesamt nur **ein** Verlustverrechnungskreis vor, ist die praktisch wichtigste des Abschnitts und keineswegs selbstverständlich. Denkbar wäre auch gewesen, für jeden der beiden Verlusttöpfe einen eigenen Grundabzug von 1.000.000 € und eine eigene 70-%-Grenze zu gewähren – das hätte in Variante 1 eine Verrechnung von bis zu 3.400.000 € statt 1.700.000 € erlaubt. Die Verwaltung entscheidet sich in Tz. 58 des BMF-Schreibens dagegen: Der eine nach § 10d Abs. 2 EStG errechnete Betrag steht für beide Töpfe zusammen zur Verfügung. Die getrennte **Feststellung** ändert daran nichts; sie dient allein der Zuordnung, nicht der Vervielfachung des Abzugsvolumens." },
       { text: "Anmerkung zur Festschreibung der Höhe (eigene Ergänzung): Dass sich der fortführungsgebundene Verlust nicht mehr **erhöhen** kann, ist die logische Folge seiner Herkunft: Er ist eine einmal zum Ende des Erwerbsjahres ermittelte Größe. Künftige Verluste desselben Geschäftsbetriebs werden deshalb nicht etwa ebenfalls gebunden, sondern laufen als gewöhnlicher Verlust nach § 10d Abs. 4 EStG daneben. Daraus folgt eine für den Steuerpflichtigen günstige Entwicklung im Zeitablauf: Der gebundene Anteil am Gesamtverlust wird von Jahr zu Jahr kleiner, weil er vorrangig verbraucht wird und zugleich nicht mehr wächst. Ein schädliches Ereignis nach § 8d Abs. 2 KStG trifft also mit jedem Jahr weniger." },
+    ],
+  },
+  {
+    id: "kst-t5-29",
+    kapitel: "29",
+    abschnittNr: "2.6.1",
+    title: "2.6 Fortführungserfordernis i.S. des § 8d Abs. 2 KStG – 2.6.1 Einstellung des Geschäftsbetriebs",
+    thema: "Das Fortführungserfordernis gilt zeitlich unbegrenzt; bei Einstellung geht der zuletzt festgestellte Verlust unter, verschont durch die stillen Reserven zum Ende des Vorjahres",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 2.6 und 2.6.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d Abs. 2 Satz 1 KStG",
+      "§ 8d Abs. 2 KStG",
+      "§ 8c Abs. 1 Satz 6 KStG",
+      "§ 8c Abs. 1 Satz 7 KStG",
+      "§ 10d Abs. 4 EStG",
+      "BMF (2), Tz. 68",
+    ],
+    themen: ["Fortführungserfordernis", "Einstellung des Geschäftsbetriebs", "schädliches Ereignis", "Verschonungsregelung", "Rückwechsel in den regulären Verlust"],
+    bloecke: [
+      { typ: "titel", text: "2.6 Fortführungserfordernis i.S. des § 8d Abs. 2 KStG" },
+      { typ: "titel", text: "2.6.1 Einstellung des Geschäftsbetriebs" },
+      { text: "Voraussetzung für den Erhalt des fortführungsgebundenen Verlustes ist, dass der Geschäftsbetrieb der Körperschaft auch zukünftig in den folgenden Jahren unverändert fortgeführt wird. Dieses sich aus § 8d Abs. 2 KStG ergebende Fortführungserfordernis gilt zeitlich unbegrenzt, wenn nicht der fortführungsgebundene Verlust vorher durch Verrechnung bereits aufgebraucht wurde." },
+      { text: "Wird daher in den Folgejahren dieser Geschäftsbetrieb eingestellt, geht der zuletzt festgestellte fortführungsgebundene Verlust des Vorjahres im VZ des schädlichen Ereignisses unwiderruflich unter (§ 8d Abs. 2 Satz 1 KStG). Von dem Untergang betroffen ist nur der bisher festgestellte fortführungsgebundene Verlust, nicht aber der unterjährige Verlust des Jahres, in dem das Ereignis i.S. des § 8d Abs. 2 KStG eintritt. Dabei gilt Verschonungsregelung des § 8c Abs. 1 Satz 6 KStG entsprechend, so dass der ansonsten untergehende Verlust in Höhe der maßgeblichen stillen Reserven erhalten bleibt. Die Ermittlung der stillen Reserven orientiert sich nach den Grundsätzen des § 8c Abs. 1 Satz 7 KStG und umfasst nur die stillen Reserven, die im Inland der Besteuerung unterliegen. Dafür sind ebenfalls nur die Verhältnisse zum Ende des vorangegangenen VZ maßgebend, weil auch nur der Verlust zu diesem Stichtag vom Untergang betroffen ist. (Die Fügung „Dabei gilt Verschonungsregelung“ steht so in der Quelle; zu den zitierten Sätzen des § 8c Abs. 1 KStG siehe die eigene Anmerkung unten.)" },
+      { text: "Der danach verschonte Verlust wechselt anschließend als „normaler“ Verlust in die reguläre Verlustfeststellung des § 10d Abs. 4 EStG." },
+      { text: "Beispiel: An der A-GmbH (Wj. = Kj.) ist der Alleingesellschafter A beteiligt, welche in 1996 gegründet worden ist. Seit Gründung betreibt die A-GmbH einen Autohandel. Am 31.03.2024 erwirbt C den kompletten Anteil des A. Zum 31.12.2023 beträgt der vortragsfähige Verlust 10.000.000 €. Der steuerliche Gesamtverlust des Jahres 2024 beträgt -3.000.000 €, wovon zutreffend ein GdE von -300.000 € auf den Zeitraum bis zum Anteilserwerb entfallen soll. Der Anteil soll zu diesem Zeitpunkt über stille Reserven von 2.000.000 € verfügen. In den VZ 2025 – 2026 erzielt die A-GmbH jeweils ein ausgeglichenes Ergebnis. Zum 01.04.2027 wird der Geschäftsbetrieb der A-GmbH eingestellt. Zum 31.12.2026 betragen die stillen Reserven der A-GmbH 1.000.000 €." },
+      { text: "Lösung: Die Voraussetzungen des § 8d KStG sind erfüllt. Die A-GmbH kann daher in der KSt-Erklärung für den VZ 2024 den Antrag auf Anwendung des § 8d KStG stellen. Aufgrund dessen wird der zum Ende des VZ 2024 vorhandene Verlustvortrag zum fortführungsgebundenen Verlust. Danach ergibt sich ein fortführungsgebundener Verlust von insgesamt 13.000.000 €, welcher in den Folgejahren vor den weiteren regulären Verlusten zu verbrauchen ist." },
+      { typ: "tabelle", spalten: ["Stichtag", "festgestellter fortführungsgebundener Verlust"], zeilen: [
+        ["31.12.2024", "13.000.000 €"],
+        ["31.12.2025", "13.000.000 €"],
+        ["31.12.2026", "13.000.000 €"],
+      ] },
+      { text: "2027: Durch die Einstellung des Geschäftsbetriebs in 2027 liegt ein Verstoß gegen die Fortführungserfordernisse des § 8d Abs. 2 Satz 1 KStG vor. Dadurch geht der zuletzt festgestellte (31.12.2026) fortführungsgebundene Verlust in 2027 unter. Dabei sind auch die Auswirkungen der Verschonungsregelung zu beachten, wobei hierfür nur die stillen Reserven maßgebend sind, die sich zum Ende des VZ 2026 ergeben haben. Damit wird der fortführungsgebundene Verlust in Höhe von 1.000.000 € verschont, der Restbetrag von 12.000.000 € geht steuerlich ungenutzt unter. Der nunmehr verschonte Betrag wird in 2027 wieder zu einem regulären Verlust und ist den Grundsätzen des § 10d Abs. 4 EStG festzustellen: (Die Fügung „ist den Grundsätzen des § 10d Abs. 4 EStG festzustellen“ steht so in der Quelle; gemeint ist „nach den Grundsätzen“.)" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2027", "Betrag"], zeilen: [
+        ["§ 10d Abs. 4 EStG", "1.000.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. Der fortführungsgebundene Verlust von 13.000.000 € ist der Vortrag zum 31.12.2023 von 10.000.000 € zuzüglich des vollen Jahresverlustes 2024 von 3.000.000 €; die ausgeglichenen Ergebnisse 2025 und 2026 lassen ihn unverändert. Beim Verstoß 2027 verschonen die stillen Reserven zum 31.12.2026 von 1.000.000 € genau diesen Betrag, so dass 13.000.000 € ./. 1.000.000 € = 12.000.000 € untergehen und 1.000.000 € als regulärer Verlust bestehen bleiben." },
+      { text: "Anmerkung zu den zitierten Sätzen (eigene Ergänzung): Die Quelle nennt für die Verschonung § 8c Abs. 1 **Satz 6** KStG und für die Ermittlung der stillen Reserven **Satz 7**. In Abschnitt 1.5 desselben Skripts ist dagegen **Satz 5** die Verschonungsregelung, **Satz 6** die typisierende Ermittlung über den gemeinen Wert und **Satz 7** die Sonderregel bei negativem Kapital; die Beschränkung auf die im Inland steuerpflichtigen stillen Reserven steht in **Satz 5**. Die Verweise sind hier also um einen Satz verschoben. Inhaltlich bleibt die Aussage richtig: Verschont wird in Höhe der stillen Reserven, und maßgebend sind nur die im Inland steuerpflichtigen." },
+      { text: "Anmerkung zur Zeitpunktverschiebung (eigene Ergänzung): Der Fall enthält eine Feinheit, die leicht übersehen wird und über 1.000.000 € entscheidet. Untergehen kann nur der **zuletzt festgestellte** Verlust, also der Bestand zum **31.12.2026** – obwohl das schädliche Ereignis am 01.04.2027 eintritt. Folgerichtig sind auch nicht die stillen Reserven im Zeitpunkt der Einstellung maßgebend, sondern die zum **31.12.2026**. Die Quelle begründet das ausdrücklich damit, dass beide Größen denselben Stichtag haben müssen. Im Sachverhalt sind die Reserven von 2.000.000 € im Jahr 2024 auf 1.000.000 € gesunken – wer versehentlich die älteren Zahlen nimmt, verschont doppelt so viel." },
+      { text: "Anmerkung zum unterjährigen Verlust des Ereignisjahres (eigene Ergänzung): Dass der Verlust des Jahres, in dem das schädliche Ereignis eintritt, **nicht** mit untergeht, ist ein deutlicher Unterschied zu § 8c KStG, wo der unterjährige Verlust bis zum Erwerb gerade mit erfasst wird. Der Grund liegt in der Technik des § 8d Abs. 2 Satz 1 KStG: Er greift auf den **festgestellten** Bestand zu, und der Verlust des laufenden Jahres ist noch nicht festgestellt. Wer 2027 noch Verluste erwirtschaftet, verliert sie also nicht – ein schwacher Trost, aber in der Klausur ein Punkt." },
+      { text: "Anmerkung zur zeitlich unbegrenzten Bindung (eigene Ergänzung): Die Aussage, das Fortführungserfordernis gelte **zeitlich unbegrenzt**, ist die schwerwiegendste Folge des § 8d KStG und der eigentliche Preis des Antrags. Anders als die Fünfjahresfristen des § 8c Abs. 1a KStG oder die dreijährige Rückbetrachtung des § 8d Abs. 1 Satz 1 KStG läuft hier keine Frist ab. Die einzige Befreiung ist der **Verbrauch** des Verlustes durch Verrechnung – weshalb die vorrangige Verwendung nach § 8d Abs. 1 Satz 8 KStG aus dieser Sicht nicht nur eine Belastung, sondern auch der einzige Weg aus der Bindung ist. Eine Gesellschaft mit hohem gebundenem Verlust und dauerhaft geringen Gewinnen bleibt praktisch auf unabsehbare Zeit in ihrem Geschäftsbetrieb gefangen." },
+    ],
+  },
+  {
+    id: "kst-t5-30",
+    kapitel: "30",
+    abschnittNr: "2.6.2",
+    title: "2.6.2 Weitere schädliche Sachverhalte – Ruhendstellung, Zweckänderung, weiterer Geschäftsbetrieb, Mitunternehmerschaft, Organschaft",
+    thema: "§ 8d Abs. 2 Satz 2 KStG zählt weitere schädliche Vorgänge auf, die auch im rückwärtigen Zeitraum B nicht vorliegen dürfen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 2.6.2 bis 2.6.2.5 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d Abs. 2 Satz 2 KStG",
+      "§ 8d Abs. 2 Satz 2 Nr. 1 bis 5 KStG",
+      "§ 8d Abs. 1 Satz 1 KStG",
+      "§ 8d Abs. 1 Satz 2 Nr. 2 KStG",
+      "§ 15 Abs. 1 Nr. 2 EStG",
+      "§ 15 Abs. 3 EStG",
+      "§ 14 KStG",
+      "§ 24 UmwStG",
+      "BMF (2), Tz. 26, 27, 28, 31, 34, 35, 37 und 42",
+      "BFH I R 17/24 (anhängig)",
+    ],
+    themen: ["Ruhendstellung", "Betriebsverpachtung", "Branchenwechsel", "weiterer Geschäftsbetrieb", "Mitunternehmeranteil", "atypisch stille Beteiligung", "Organschaft", "Organschaftskette"],
+    bloecke: [
+      { typ: "titel", text: "2.6.2 Weitere schädliche Sachverhalte" },
+      { text: "Neben der Einstellung des Geschäftsbetriebs als Grundfall zählt § 8d Abs. 2 Satz 2 KStG weitere Sachverhalte auf, die als schädliche Vorgänge zu einem Untergang des fortführungsgebundenen Verlustvortrags führen können. Diese Grundsätze sind nicht nur in den nachfolgenden Veranlagungszeiträumen zu beachten, sondern diese dürfen ebenfalls nicht im rückwärtsgewandten Betrachtungszeitraum (Zeitraum B) i.S. des § 8d Abs. 1 Satz 1 KStG gegeben sein." },
+      { typ: "titel", text: "2.6.2.1 Ruhendstellung des Geschäftsbetriebs (Nr. 1)" },
+      { text: "Eine Ruhendstellung liegt vor, wenn der Geschäftsbetrieb nicht mehr aktiv fortgeführt wird. Dabei sind aber Besonderheiten zu beachten, weil z.B. vorübergehende Betriebsschließungen oder aufgrund von Betriebsferien oder Einstellungen bei Saisonbetrieben unschädlich sind. (Die Fußnote erläutert die vorübergehenden Betriebsschließungen mit „Aufgrund von Corona-Maßnahmen“.)" },
+      { text: "Schädlich ist es zudem, wenn der Geschäftsbetrieb nachfolgend im Rahmen einer Betriebsverpachtung im Ganzen fortgeführt würde." },
+      { typ: "titel", text: "2.6.2.2 Andere Zweckbestimmung des Geschäftsbetriebs (Nr. 2)" },
+      { text: "Davon betroffen ist der Branchenwechsel, wenn die Verlustgesellschaft in enormer Art und Weise die Qualität und den Umfang ihrer bisherigen Betätigung ändert. Ein aussagekräftiges Indiz wäre dafür z.B. die Änderung des vertraglichen Gesellschaftszwecks. Ausgenommen davon sind hingegen nur strukturelle Anpassungen an geänderte wirtschaftliche Rahmenbedingungen. (Die Fußnote verweist zusätzlich auf das beim BFH anhängige Verfahren I R 17/24 zur Anwendung für die Gewerbesteuer.)" },
+      { typ: "titel", text: "2.6.2.3 Aufnahme eines weiteren Geschäftsbetriebs (Nr. 3)" },
+      { text: "Wie bereits unter 2.3.1.2 dargestellt, ist nur die Ausübung eines Geschäftsbetriebs i.S. des § 8d KStG begünstigt. Daher kann es nicht überraschen, dass die zusätzliche Ausübung eines weiteren Geschäftsbetriebs unter diesem Gesichtspunkt schädlich ist. Für die Definition des Geschäftsbetriebs gelten daher auch wieder die unter 2.3.1 ausgeführten Darstellungen. Auch in diesem Zusammenhang ist die Annahme eines einheitlichen Geschäftsbetriebs möglich, ebenso wie die Unbeachtlichkeit einer wirtschaftlich geringwertigen Tätigkeit. (Die Verweise „unter 2.3.1.2“ und „unter 2.3.1“ stehen so in der Quelle; einen Abschnitt 2.3.1.2 gibt es nicht, gemeint sind ersichtlich 2.3.2.2 und 2.3.2.)" },
+      { text: "Umgekehrt ist es schädlich, wenn eine bisher unbeachtliche geringwertige Tätigkeit über die maßgeblichen Kennzahlen (3%/ 24.500 €) hinauswächst, was dann als Aufnahme eines weiteren Geschäftsbetriebs gilt. Gleiches gilt in Umwandlungsfällen und auch unabhängig vom Tatbestand des § 8d Abs. 2 Satz 2 Nr. 6 KStG, wenn z.B. in die Verlustgesellschaft ein Teilbetrieb eingebracht wird und diese Tätigkeit einen weiteren Geschäftsbetrieb darstellt." },
+      { typ: "titel", text: "2.6.2.4 Beteiligung an einer Mitunternehmerschaft (Nr. 4)" },
+      { text: "Das Halten eines Mitunternehmeranteils ist für die Verlustgesellschaft bereits nach § 8d Abs. 1 Satz 2 Nr. 2 KStG zu Beginn des Betrachtungszeitraums schädlich. Gleiches gilt daher, wenn der Mitunternehmeranteil nachfolgend erworben wird. Als Erwerb in diesem Sinne gilt auch die Einbringung von Betrieben oder Teilbetrieben durch die Verlustgesellschaft nach § 24 UmwStG." },
+      { text: "Auf den quantitativen Umfang der Beteiligung an der Mitunternehmerschaft kommt es nicht an. Entscheidend ist vielmehr, dass es sich um eine Mitunternehmerschaft i.S. des § 15 Abs. 1 Nr. 2 EStG bzw. § 15 Abs. 3 EStG handelt. Dazu kann daher auch eine atypisch stille Beteiligung gehören. Anteile an vermögensverwaltenden Personengesellschaften gehören hingegen nicht dazu, sofern das Halten dieser Beteiligungen nicht bereits einen weiteren Geschäftsbetrieb begründet." },
+      { typ: "titel", text: "2.6.2.5 Begründung einer Organschaft (Nr. 5)" },
+      { text: "Nach § 8d Abs. 1 Satz 2 Nr. 2 KStG darf die Verlustgesellschaft zu Beginn des Betrachtungszeitraum ebenfalls nicht die Stellung eines Organträgers innehaben. Daher ist die nachfolgende Begründung einer Organschaft i.S. des § 14 KStG, bei welcher die Verlustgesellschaft der Organträger ist, wieder schädlich. Schädlich ist es auch, wenn die Verlustgesellschaft im Rahmen einer durchgängigen Organschaftskette sowohl Organträger als auch Organgesellschaft wäre. (Der Kasus „zu Beginn des Betrachtungszeitraum“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["§ 8d Abs. 2 Satz 2 KStG", "schädlicher Vorgang", "ausdrücklich unschädlich"], zeilen: [
+        ["Nr. 1", "Ruhendstellung – der Geschäftsbetrieb wird nicht mehr aktiv fortgeführt; auch die Betriebsverpachtung im Ganzen", "vorübergehende Schließungen, Betriebsferien, Saisonbetriebe"],
+        ["Nr. 2", "andere Zweckbestimmung – Branchenwechsel bei Änderung von Qualität und Umfang „in enormer Art und Weise“, Indiz: Änderung des Gesellschaftszwecks", "strukturelle Anpassungen an geänderte wirtschaftliche Rahmenbedingungen"],
+        ["Nr. 3", "Aufnahme eines weiteren Geschäftsbetriebs; auch das Hinauswachsen einer geringwertigen Tätigkeit über 3 % / 24.500 € und die Einbringung eines Teilbetriebs", "einheitlicher Geschäftsbetrieb, wirtschaftlich geringwertige Tätigkeit"],
+        ["Nr. 4", "Beteiligung an einer Mitunternehmerschaft, auch atypisch still und auch über § 24 UmwStG – auf den Umfang kommt es nicht an", "Anteile an vermögensverwaltenden Personengesellschaften, sofern sie keinen weiteren Geschäftsbetrieb begründen"],
+        ["Nr. 5", "Begründung einer Organschaft mit der Verlustgesellschaft als Organträger, auch innerhalb einer durchgängigen Organschaftskette", "–"],
+      ] },
+      { text: "Anmerkung zur Doppelwirkung der Tatbestände (eigene Ergänzung): Die Quelle stellt den Abschnitt mit einem Satz voran, der leicht übergangen wird, aber die gesamte Systematik erklärt: Die Tatbestände des § 8d Abs. 2 Satz 2 KStG wirken in **zwei Richtungen**. Nach **vorn** vernichten sie den bereits festgestellten fortführungsgebundenen Verlust; nach **hinten** – im Zeitraum B des § 8d Abs. 1 Satz 1 KStG – verhindern sie, dass § 8d KStG überhaupt zur Anwendung kommt. Derselbe Katalog ist also einmal Eintrittsvoraussetzung und einmal Dauerbedingung, was die Paarung der Abschnitte 2.4 und 2.6 erklärt." },
+      { text: "Anmerkung zur Ruhendstellung und der Corona-Fußnote (eigene Ergänzung): Die Abgrenzung der Nr. 1 ist praktisch schwierig, weil die Grenze zwischen einer unschädlichen **vorübergehenden** Schließung und einer schädlichen **Ruhendstellung** nirgends definiert ist. Die Fußnote der Quelle verweist auf die Corona-Maßnahmen und zeigt damit, woher die Frage kam: Behördlich angeordnete Schließungen über Monate hätten sonst reihenweise fortführungsgebundene Verluste vernichtet. Dass auch **Betriebsferien** und **Saisonbetriebe** ausgenommen sind, macht deutlich, worauf es ankommt – auf die **Absicht der Wiederaufnahme**, nicht auf die tatsächliche Tätigkeit im Einzelmonat. Die **Betriebsverpachtung im Ganzen** ist dagegen schädlich, obwohl der Betrieb wirtschaftlich weiterläuft: Er wird eben nicht mehr von der Verlustgesellschaft **selbst** geführt." },
+      { text: "Anmerkung zum Maßstab der Nr. 2 (eigene Ergänzung): Der Branchenwechsel setzt nach der Quelle eine Änderung „in enormer Art und Weise“ voraus – ein ungewöhnlich hoher Maßstab, der den Tatbestand auf krasse Fälle beschränkt. Die Gegenausnahme für **strukturelle Anpassungen an geänderte wirtschaftliche Rahmenbedingungen** ist dabei ebenso wichtig wie die Regel: Sie erlaubt der Gesellschaft, auf Marktveränderungen zu reagieren, ohne ihren Verlust zu verlieren. Das Indiz der **Änderung des Gesellschaftszwecks** ist für die Klausur wertvoll, weil es sich aus dem Sachverhalt meist unmittelbar entnehmen lässt. Das anhängige Verfahren I R 17/24 betrifft die Frage, ob die Norm ebenso für die Gewerbesteuer gilt." },
+      { text: "Anmerkung zum Zusammenspiel von Nr. 3 und der Bagatellgrenze (eigene Ergänzung): Nr. 3 schließt den Kreis zu Abschnitt 2.3.2.2.2 und macht die dort beschriebene Dauerbindung greifbar. Die Bagatellregelung ist keine einmalige Vergünstigung: Wächst der geringwertige Betrieb über 3 % oder 24.500 € hinaus, **gilt** er als neu aufgenommener Geschäftsbetrieb – der Verlust fällt weg, obwohl sich an der Tätigkeit nichts geändert hat außer ihrem Erfolg. Bemerkenswert ist auch der Hinweis, dass die Einbringung eines Teilbetriebs **unabhängig** von Nr. 6 schädlich sein kann: Nr. 6 betrifft den Wertansatz, Nr. 3 die Tätigkeit – ein Vorgang kann also aus zwei Gründen scheitern." },
+      { text: "Anmerkung zur Härte von Nr. 4 und Nr. 5 (eigene Ergänzung): Beide Tatbestände sind unnachgiebig und spiegeln § 8d Abs. 1 Satz 2 Nr. 2 KStG. Bei der **Mitunternehmerschaft** kommt es ausdrücklich **nicht** auf den Umfang an – schon ein Anteil von einem Prozent, sogar eine **atypisch stille** Beteiligung, vernichtet den Verlust. Die Grenze verläuft allein zwischen mitunternehmerischer und **vermögensverwaltender** Beteiligung, und selbst dort ist Vorsicht geboten, wenn das Halten der Beteiligung schon einen eigenen Geschäftsbetrieb begründet. Bei der **Organschaft** ist der Zusatz zur Organschaftskette die eigentliche Falle: Eine Gesellschaft, die in der Mitte einer Kette steht, ist zugleich Organträger der unteren und Organgesellschaft der oberen Stufe – die Organträgerstellung genügt, und die Kette macht sie unausweichlich." },
     ],
   },
 ];

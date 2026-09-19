@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 28 Kapitel mit 565 Abschnitten und 74 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 30 Kapitel mit 601 Abschnitten und 77 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4153,6 +4153,47 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   auf: Von der höchstzulässigen Verrechnung von 4.500.000 € entfallen 2.000.000 € auf den gebundenen
   Vortrag, auf den Neuverlust damit **2.500.000 €** und nicht die genannten 2.000.000 €. Die Endzahl
   der Quelle bestätigt die eigene Rechnung, denn der Neuverlust sinkt von 4.000.000 € auf 1.500.000 €.
+  Das **Fortführungserfordernis** des § 8d Abs. 2 KStG ist der eigentliche Preis des Antrags: Es gilt
+  **zeitlich unbegrenzt**. Anders als die Fünfjahresfristen des § 8c Abs. 1a KStG oder die
+  Rückbetrachtung des § 8d Abs. 1 Satz 1 KStG läuft hier keine Frist ab; die einzige Befreiung ist der
+  **Verbrauch** des Verlustes durch Verrechnung – weshalb die vorrangige Verwendung nach
+  § 8d Abs. 1 Satz 8 KStG zugleich der einzige Weg aus der Bindung ist. Eine Gesellschaft mit hohem
+  gebundenem Verlust und dauerhaft geringen Gewinnen bleibt praktisch auf unabsehbare Zeit in ihrem
+  Geschäftsbetrieb gefangen.
+  Bei einem Verstoß geht der **zuletzt festgestellte** Bestand unter, nicht der Verlust im Zeitpunkt
+  des Ereignisses. Daraus folgt eine Feinheit, die im Beispiel über 1.000.000 € entscheidet: Maßgebend
+  sind auch die stillen Reserven **zum Ende des Vorjahres** – im Sachverhalt 1.000.000 € zum
+  31.12.2026 statt der 2.000.000 € aus dem Erwerbsjahr 2024 –, weil beide Größen denselben Stichtag
+  haben müssen. Der Verlust des **Ereignisjahres** selbst bleibt dagegen unberührt, ein deutlicher
+  Unterschied zu § 8c KStG: § 8d Abs. 2 Satz 1 KStG greift auf den **festgestellten** Bestand zu, und
+  der laufende Verlust ist noch nicht festgestellt. Der verschonte Teil wechselt anschließend als
+  gewöhnlicher Verlust zurück in die Feststellung nach § 10d Abs. 4 EStG. Für die Verschonung zitiert
+  die Quelle allerdings § 8c Abs. 1 Satz 6 und Satz 7 KStG, während dieselben Regeln in Abschnitt 1.5
+  desselben Skripts als Satz 5 und Satz 6 geführt werden – die Verweise sind hier um einen Satz
+  verschoben, inhaltlich bleibt die Aussage richtig.
+  Der Katalog der weiteren schädlichen Sachverhalte in § 8d Abs. 2 Satz 2 KStG wirkt dabei in **zwei
+  Richtungen**, was die Quelle in einem leicht zu übergehenden Satz voranstellt: nach **vorn**
+  vernichtet er den bereits festgestellten Verlust, nach **hinten** – im Zeitraum B – verhindert er,
+  dass § 8d KStG überhaupt greift. Derselbe Katalog ist also Eintrittsvoraussetzung und Dauerbedingung
+  zugleich. **Nr. 1** erfasst die **Ruhendstellung**: Unschädlich sind vorübergehende Schließungen –
+  die Fußnote nennt die Corona-Maßnahmen und zeigt damit die Herkunft der Frage –, Betriebsferien und
+  Saisonbetriebe, weil es auf die **Absicht der Wiederaufnahme** ankommt; schädlich ist dagegen die
+  **Betriebsverpachtung im Ganzen**, obwohl der Betrieb wirtschaftlich weiterläuft, denn er wird nicht
+  mehr von der Verlustgesellschaft **selbst** geführt. **Nr. 2** erfasst den **Branchenwechsel**, aber
+  nur bei einer Änderung von Qualität und Umfang „in enormer Art und Weise“ – ein ungewöhnlich hoher
+  Maßstab, der den Tatbestand auf krasse Fälle beschränkt; **strukturelle Anpassungen** an geänderte
+  wirtschaftliche Rahmenbedingungen bleiben erlaubt, und als Indiz nennt die Quelle die Änderung des
+  vertraglichen Gesellschaftszwecks, die sich im Sachverhalt meist unmittelbar findet. **Nr. 3**
+  erfasst die Aufnahme eines **weiteren Geschäftsbetriebs** und schließt damit den Kreis zur
+  Bagatellregelung: Wächst die geringwertige Tätigkeit über 3 % oder 24.500 € hinaus, **gilt** das als
+  Neuaufnahme – der Verlust fällt weg, obwohl sich an der Tätigkeit nichts geändert hat außer ihrem
+  Erfolg; die Einbringung eines Teilbetriebs kann zudem **unabhängig** von Nr. 6 schädlich sein, weil
+  Nr. 6 den Wertansatz und Nr. 3 die Tätigkeit betrifft. **Nr. 4** und **Nr. 5** spiegeln
+  § 8d Abs. 1 Satz 2 Nr. 2 KStG und sind unnachgiebig: Beim **Mitunternehmeranteil** kommt es
+  ausdrücklich nicht auf den Umfang an – schon ein Prozent oder eine **atypisch stille** Beteiligung
+  genügt, und die Grenze verläuft allein zur **vermögensverwaltenden** Beteiligung; bei der
+  **Organschaft** ist der Zusatz zur **Organschaftskette** die eigentliche Falle, denn eine Gesellschaft
+  in der Mitte einer Kette ist zugleich Organträger der unteren und Organgesellschaft der oberen Stufe.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -10620,6 +10620,51 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 2.6.1 und 2.6.2 – Fortführungserfordernis und weitere schädliche Sachverhalte
+
+Quelle: dieselbe Datei, Seiten 47 bis 50; übernommen als Kapitel 29 und 30. Prüfung:
+`npm run check:k2-kst-teil5` (30 Kapitel, 601 Blöcke, 77 Tabellen).
+
+**Die Zahlen des Beispiels sind unabhängig nachgerechnet und gehen auf:** der fortführungsgebundene
+Verlust von 10.000.000 € + 3.000.000 € = 13.000.000 €, der durch die ausgeglichenen Ergebnisse 2025
+und 2026 unverändert bleibt; beim Verstoß 2027 verschonen die stillen Reserven zum 31.12.2026 von
+1.000.000 € genau diesen Betrag, so dass 12.000.000 € untergehen und 1.000.000 € als regulärer
+Verlust bestehen bleiben.
+
+**Eine um einen Satz verschobene Fundstelle ist festgehalten.** Die Quelle nennt für die Verschonung
+§ 8c Abs. 1 Satz 6 KStG und für die Ermittlung der stillen Reserven Satz 7. In Abschnitt 1.5
+desselben Skripts ist dagegen Satz 5 die Verschonungsregelung, Satz 6 die typisierende Ermittlung
+und Satz 7 die Sonderregel bei negativem Kapital; auch die Beschränkung auf die im Inland
+steuerpflichtigen stillen Reserven steht in Satz 5. Inhaltlich bleibt die Aussage richtig; der
+Befund ist als eigene Anmerkung im Datensatz vermerkt.
+
+**Zwei fehlerhafte Querverweise sind übernommen und markiert:** Abschnitt 2.6.2.3 verweist auf
+„unter 2.3.1.2“ und „unter 2.3.1“; einen Abschnitt 2.3.1.2 gibt es im Skript nicht, gemeint sind
+ersichtlich 2.3.2.2 und 2.3.2.
+
+**Drei sprachliche Eigenheiten sind ebenfalls übernommen und markiert:** „Dabei gilt
+Verschonungsregelung“, „ist den Grundsätzen des § 10d Abs. 4 EStG festzustellen“ und „zu Beginn
+des Betrachtungszeitraum“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Hervorhebung der Zeitpunktverschiebung, wonach der
+Bestand und die stillen Reserven denselben Stichtag haben und im Beispiel 1.000.000 € statt
+2.000.000 € maßgebend sind; die Erklärung, warum der Verlust des Ereignisjahres anders als bei § 8c
+KStG unberührt bleibt; die Einordnung der zeitlich unbegrenzten Bindung als eigentlicher Preis des
+Antrags, aus der sich zugleich ergibt, dass der Verbrauch der einzige Ausweg ist; die Erläuterung der
+Doppelwirkung des Katalogs nach vorn und nach hinten; die Deutung der Corona-Fußnote und des
+Maßstabs der Wiederaufnahmeabsicht bei der Ruhendstellung samt der Begründung, warum die
+Betriebsverpachtung gleichwohl schädlich ist; der Hinweis auf den hohen Maßstab „in enormer Art und
+Weise“ und den Wert des Indizes der Zweckänderung für die Klausur; das Zusammenspiel von Nr. 3 mit
+der Bagatellgrenze samt der Feststellung, dass ein Vorgang aus zwei Gründen scheitern kann; und die
+Einordnung der Härte von Nr. 4 und Nr. 5 mit der Organschaftskette als eigentlicher Falle.
+
+**Neu ist eine Übersicht,** die den fünf Nummern des § 8d Abs. 2 Satz 2 KStG jeweils den schädlichen
+Vorgang und die ausdrücklich unschädlichen Fälle gegenüberstellt.
+
+**Noch offen:** aus Teil V die Übertragung von Wirtschaftsgütern unter dem gemeinen Wert (2.6.2.6)
+und die weiteren Abschnitte sowie die Kapitel 3 (Zinsschranke) und 4 (stille Beteiligungen); ganz
+offen sind die Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitt 2.5 – Rechtsfolgen des § 8d KStG
 
 Quelle: dieselbe Datei, Seiten 43 bis 47; übernommen als Kapitel 27 und 28. Prüfung:
