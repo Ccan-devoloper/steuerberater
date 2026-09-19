@@ -41,9 +41,12 @@
    von Alt- und Neuverlust und der Verlustverrechnung in den Folgejahren). Es
    folgt das Fortführungserfordernis (2.6.1 Einstellung und 2.6.2.1 bis 2.6.2.5
    der weiteren schädlichen Sachverhalte), die Übertragung von Wirtschaftsgütern
-   unter dem gemeinen Wert (2.6.2.6) und der Vorrang des § 8c KStG (2.7.1). Es
-   folgen das Zusammentreffen von schädlichem Erwerb und schädlichem Ereignis
-   (2.7.2) sowie die Kapitel 3 und 4; der Campus weist den Stand aus.
+   unter dem gemeinen Wert (2.6.2.6), der Vorrang des § 8c KStG (2.7) und der
+   Verweis zur Organgesellschaft (2.8). Damit ist Kapitel 2 des Skripts
+   VOLLSTÄNDIG übernommen. Aus Kapitel 3 (Zinsschranke) sind das anhängige
+   BVerfG-Verfahren (3.2), die Neuregelung ab 2024 (3.3) und die Grundzüge (3.4)
+   übernommen; es folgen die weiteren Abschnitte sowie Kapitel 4. Der Campus
+   weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -1849,6 +1852,113 @@ export const kstTeil5 = [
       { text: "Anmerkung zur Lösung der Fortführungsgebundenheit (eigene Ergänzung): Die Quelle hebt die wichtigste Rechtsfolge mit einem eigenen „Beachte“ hervor, und sie ist überraschend **günstig**. Ein erneuter schädlicher Erwerb gefährdet den fortführungsgebundenen Verlust zwar wie jeden anderen – was davon übrig bleibt, verliert aber seine **Bindung** und wandert in die gewöhnliche Feststellung. Der zweite Erwerb wirkt damit als Befreiung von einer zeitlich unbegrenzten Fessel. Im zweiten Beispiel überleben nach der Rechnung der Quelle 1.600.000 € – und zwar als ungebundener Verlust, dem kein schädliches Ereignis mehr etwas anhaben kann." },
       { text: "Anmerkung zur Wahl beim zweiten Erwerb (eigene Ergänzung): Die Gesellschaft steht bei jedem weiteren schädlichen Erwerb erneut vor derselben Entscheidung, und die beiden Beispiele zeigen beide Ausgänge. Im **ersten** Beispiel bringt der erneute Antrag 11.000.000 € gegenüber 6.000.000 € ohne Antrag – ein klarer Vorteil, erkauft mit der Bindung. Im **zweiten** Beispiel stehen 4.600.000 € gebundener Verlust gegen 1.600.000 € freier Verlust; hier ist die Entscheidung offen, weil der freie Verlust sicher ist, der gebundene dagegen jederzeit wegfallen kann. Als Faustregel lässt sich festhalten: Je größer der durch § 8c KStG drohende Verlust im Verhältnis zum verschonten Rest, desto eher lohnt der erneute Antrag." },
       { text: "Anmerkung zur festen Verwendungsreihenfolge (eigene Ergänzung): Die Reihenfolge, in der die stillen Reserven verschonen, ist dieselbe wie in Abschnitt 1.6.2.2.1 – erst der laufende Verlust, dann der Verlustvortrag –, mit einer für § 8d KStG wichtigen Klarstellung: Der fortführungsgebundene Verlust gehört **zum Verlustvortrag** und wird also **zuletzt** verschont. Er steht damit in der ungünstigsten Position. Eine eigene Rangfolge zwischen ihm und dem gewöhnlichen Vortrag nennt die Quelle nicht; im ersten Beispiel bleibt die Frage offen, weil nur ein Teilbetrag von 1.000.000 € verschont wird und der Untergang von 5.000.000 € beide Töpfe erfasst." },
+    ],
+  },
+  {
+    id: "kst-t5-33",
+    kapitel: "33",
+    abschnittNr: "2.7.2",
+    title: "2.7.2 Schädlicher Erwerb und Anwendung des § 8d Abs. 2 KStG, 2.8 Auswirkungen auf Organgesellschaften",
+    thema: "Fallen schädlicher Erwerb und schädliches Ereignis in denselben Veranlagungszeitraum, geht § 8c KStG vor – ein erneuter Antrag ist dann aber ausgeschlossen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 2.7.2 und 2.8 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 8d Abs. 2 KStG",
+      "§ 8d Abs. 2 Satz 2 Nr. 4 KStG",
+      "§ 10d EStG",
+      "§ 10d Abs. 4 EStG",
+    ],
+    themen: ["Zusammentreffen", "Vorrang des § 8c KStG", "Sperre des erneuten Antrags", "Zeitraum B", "Mitunternehmeranteil", "Organgesellschaft"],
+    bloecke: [
+      { typ: "titel", text: "2.7.2 Schädlicher Erwerb und Anwendung des § 8d Abs. 2 KStG" },
+      { text: "Fallen der schädliche Erwerb i.S. des § 8c KStG sowie das schädliche Ereignis i.S. des § 8d Abs. 2 KStG im selben Veranlagungszeitraum zusammen, ist wiederum die Anwendung des § 8c KStG vorrangig. Eine erneute Anwendung des § 8d KStG ist danach aber ausgeschlossen, weil der schädliche Vorgang i.S. des § 8d Abs. 2 KStG dies im Betrachtungszeitraum bereits ausschließt." },
+      { text: "Beispiel: Die A-GmbH verfügt zum 31.12.2024 über einen fortführungsgebundenen Verlustvortrag von 4.000.000 € und einen regulären Verlustvortrag von 3.000.000 €. Am 15.06.2025 erwirbt die A-GmbH einen Mitunternehmeranteil (Ereignis i.S. des § 8d Abs. 2 Satz 2 Nr. 4 KStG). Mit Wirkung zum 01.09.2025 veräußert der Alleingesellschafter seinen Anteil an C. In 2025 erzielt die A-GmbH einen negativen Gesamtbetrag der Einkünfte von -5.000.000 €, wovon auf die Zeit bis zum schädlichen Anteilserwerb ein Betrag von -3.000.000 € entfällt. Der Anteil verfügt zudem über stille Reserven von 1.000.000 €." },
+      { text: "Lösung: Mit dem Erwerb des Mitunternehmeranteils ist ein schädliches Ereignis i.S. des § 8d Abs. 2 Satz 2 Nr. 4 KStG eingetreten, welches isoliert betrachtet bereits zum Untergang des bisherigen fortführungsgebundenen Verlustvortrags führt. Im selben Veranlagungszeitraum ist aber auch ein schädlicher Erwerb i.S. des § 8c Abs. 1 Satz 1 KStG eingetreten, welcher zur vorrangigen Anwendung des § 8c KStG führt." },
+      { text: "Danach geht das zum 01.09.2025 vorhandene Verlustvolumen von 10.000.000 € dem Grunde nach unter, wobei die Auswirkungen der Verschonungsregelung i.S. des § 8c Abs. 1 Satz 5 KStG zu beachten sind. Danach führen die stillen Reserven zunächst zu einer Verschonung des laufenden unterjährigen Verlustes, welcher in Höhe von 2.000.000 € untergeht. Die bestehenden Verlustvorträge i.S. des § 10d EStG, wozu auch der fortführungsgebundene Verlust gehört, können danach nicht mehr verschont werden." },
+      { text: "Daraus resultieren im Rahmen der Einkommensermittlung 2025 folgende Auswirkungen:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte", "./. 5.000.000 €"],
+        ["+ Kürzung aufgrund § 8c KStG", "+ 2.000.000 €"],
+        ["= z.v.E", "./. 3.000.000 €"],
+      ] },
+      { text: "Bei den Verlustfeststellungen ergeben sich folgende Auswirkungen:" },
+      { typ: "tabelle", spalten: ["§ 8d KStG – Bestand zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "4.000.000 €"],
+        ["./. Übergang nach § 10d EStG", "4.000.000 €"],
+        ["= Bestand zum 31.12.2025", "0 €"],
+      ] },
+      { text: "Die reguläre Verlustfeststellung zum 31.12.2025 hat folgendes Aussehen:" },
+      { typ: "tabelle", spalten: ["Reguläre Verlustfeststellung zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "3.000.000 €"],
+        ["+ Zugang aus § 8d KStG", "4.000.000 €"],
+        ["./. Kürzung aufgrund § 8c KStG", "7.000.000 €"],
+        ["+ Verlust 2025", "3.000.000 €"],
+        ["= Bestand zum 31.12.2025", "3.000.000 €"],
+      ] },
+      { text: "Ein erneuter Antrag i.S. des § 8d KStG ist ausgeschlossen, weil innerhalb des Betrachtungszeitraums (Zeitraum B) bereits ein schädliches Ereignis i.S. des § 8d Abs. 2 Satz 2 Nr. 4 KStG stattgefunden hat." },
+      { typ: "titel", text: "2.8 Auswirkungen auf Organgesellschaften" },
+      { text: "Die Auswirkungen des § 8d KStG auf vororganschaftliche Verluste der Organgesellschaft werden im KSt-Skript Teil VI“ Organschaft“ dargestellt. (Die Stellung der Anführungszeichen steht so in der Quelle.)" },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Gefährdet sind 4.000.000 € fortführungsgebundener Verlust, 3.000.000 € regulärer Vortrag und 3.000.000 € unterjähriger Verlust, zusammen 10.000.000 €. Die stillen Reserven von 1.000.000 € verschonen einen Teil des laufenden Verlustes, so dass von diesem 3.000.000 € ./. 1.000.000 € = 2.000.000 € untergehen und für die Vorträge nichts übrig bleibt; diese gehen mit 7.000.000 € vollständig unter. Im Einkommen erscheinen die 2.000.000 € als Hinzurechnung: ./. 5.000.000 € + 2.000.000 € = ./. 3.000.000 €. Die Feststellung bestätigt es: 3.000.000 € + 4.000.000 € ./. 7.000.000 € + 3.000.000 € = 3.000.000 € – der Zugang von 3.000.000 € ist dabei der um die Hinzurechnung geminderte Jahresverlust." },
+      { text: "Anmerkung zur doppelten Wirkung des Vorrangs (eigene Ergänzung): Der Abschnitt verbindet zwei Aussagen, die zusammengelesen werden müssen. § 8c KStG geht **vor** – das ist für sich genommen günstig, weil die Verschonungsregelung und damit die stillen Reserven zur Verfügung stehen, die § 8d Abs. 2 KStG nur für den festgestellten Bestand des Vorjahres kennt. Zugleich ist ein erneuter Antrag **gesperrt**, weil das schädliche Ereignis im Zeitraum B liegt. Beides zusammen bedeutet: Die Gesellschaft verliert die Wahlmöglichkeit, die Abschnitt 2.7.1 ihr noch ließ. Wer einen Mitunternehmeranteil erwirbt und im selben Jahr die Anteile veräußert, hat nur noch den Weg über § 8c KStG." },
+      { text: "Anmerkung zum Vergleich mit dem Fall ohne schädliches Ereignis (eigene Ergänzung): Der Unterschied zur Lage des Abschnitts 2.7.1 lässt sich beziffern. Ohne den Erwerb des Mitunternehmeranteils hätte die A-GmbH erneut den Antrag stellen und den gesamten Verlust zum Jahresende – 4.000.000 € + 3.000.000 € + 5.000.000 € = 12.000.000 € – als fortführungsgebundenen Verlust retten können. Tatsächlich bleiben ihr 3.000.000 €. Der Erwerb eines Mitunternehmeranteils am 15.06.2025 kostet sie also 9.000.000 € Verlustvolumen, und zwar nicht wegen seiner eigenen Rechtsfolge, sondern weil er die Tür zu § 8d KStG für den Zeitraum B verschließt." },
+      { text: "Anmerkung zur Reihenfolge der Ereignisse (eigene Ergänzung): Im Beispiel liegt das schädliche Ereignis am 15.06.2025 **vor** dem schädlichen Erwerb am 01.09.2025. Auf diese Reihenfolge kommt es nach dem Wortlaut der Quelle nicht an – maßgeblich ist allein, dass beide in **denselben Veranlagungszeitraum** fallen. Auch ein Mitunternehmeranteil, der erst im Dezember erworben wird, läge im Zeitraum B, der bis zum Ende des Veranlagungszeitraums des Erwerbs reicht. Die Sperre des § 8d KStG greift also auch rückblickend für ein Ereignis, das zum Zeitpunkt der Anteilsveräußerung noch gar nicht eingetreten war – ein Umstand, der die Antragstellung in der Steuererklärung bis zur Unanfechtbarkeit zusätzlich risikobehaftet macht." },
+    ],
+  },
+  {
+    id: "kst-t5-34",
+    kapitel: "34",
+    abschnittNr: "3.4",
+    title: "3. Zinsschranke (§ 4h EStG, § 8a KStG) – anhängiges BVerfG-Verfahren, Neuregelung ab 2024 und Grundzüge",
+    thema: "Die alte Fassung liegt dem BVerfG vor; ab 2024 ist die Zinsschranke an die ATAD angepasst. Abziehbar sind Zinsaufwendungen bis 30 % des steuerlichen EBITDA, der Rest wird zum Zinsvortrag",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 3 bis 3.4 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 4h EStG",
+      "§ 8a KStG",
+      "§ 8 Abs. 1 Satz 1 KStG",
+      "§§ 13, 15, 18 EStG",
+      "§ 52 Abs. 8b EStG",
+      "§ 34 Abs. 4 Satz 2 KStG",
+      "Art. 3 GG",
+      "BFH vom 13.03.2012, BStBl. II 2012, 611",
+      "BFH vom 18.12.2013, BStBl. II 2014, 947",
+      "BFH vom 14.10.2015, BStBl. II 2017, 1240",
+      "BVerfG 2 BvL 1/16 (anhängig)",
+      "BMF vom 13.11.2014, BStBl. I 2014, 1516",
+      "BMF vom 24.03.2025, BStBl. I 2025, 683, Rn. 2",
+    ],
+    themen: ["Zinsschranke", "Verfassungswidrigkeit", "ATAD", "verrechenbares EBITDA", "Zinsvortrag", "EBITDA-Vortrag", "Stand-alone-Betrachtung", "Gewinnverlagerung"],
+    bloecke: [
+      { typ: "titel", text: "3. Zinsschranke (§ 4h EStG, § 8a KStG)" },
+      { typ: "titel", text: "3.1 Prüfungsschema für Zinsschrankenfälle" },
+      { text: "Hinweis zur Quelle (eigene Ergänzung): An dieser Stelle steht im Skript ein Prüfungsschema als **Grafik**. Der Text der Grafik lässt sich aus der PDF-Datei nicht extrahieren und ist deshalb hier nicht wiedergegeben; erfunden wird er nicht. Die Prüfungsschritte ergeben sich inhaltlich aus den nachfolgenden Abschnitten 3.4 ff." },
+      { typ: "titel", text: "3.2 Anhängiges BVerfG-Verfahren" },
+      { text: "Der BFH hat mit Beschluss vom 18.12.2013 im Zusammenhang mit der Zinsschranke i.S. des § 4h EStG a.F. verfassungsrechtliche Bedenken geäußert, weil diesbezüglich ein Verstoß gegen Art. 3 GG nicht ausgeschlossen werden könne. Damit wiederholte er bereits seine mit Beschluss vom 13.03.2012 dargelegten Bedenken. Die Finanzverwaltung hat dazu abweichend mit BMF-Schreiben vom 13.11.2014 Stellung genommen. Der BFH hat die Frage der Verfassungswidrigkeit daher mit Beschluss vom 14.10.2015 dem Bundesverfassungsgericht zur Entscheidung vorgelegt (Aktenzeichen 2 BvL 1/16). Die Entscheidung steht derzeit noch aus." },
+      { typ: "titel", text: "3.3 Gesetzliche Neuregelung" },
+      { text: "Das unter 3.2 genannte Verfahren betrifft aber nur die Zinsschrankenregelung bis einschließlich VZ 2023, weil § 4h EStG (und auch § 8a KStG) mit Wirkung ab dem VZ 2024 überarbeitet und dabei insbesondere an europäische Standards angepasst worden ist. Hintergrund der Gesetzesänderung war neben der Reaktion auf abweichende BFH-Rechtsprechung auch die bis zum 31.12.2023 notwendige Anpassung an die „Anti-Tax-Avoidance-Directive (ATAD)“. Gegenstand der nachfolgenden Darstellungen ist ausschließlich diese überarbeitete Gesetzesfassung, die erstmals für sämtliche Wirtschaftsjahre gilt, die nach dem 14.12.2023 beginnen und nicht vor dem 01.01.2024 enden. Kerninhalt dieser Gesetzesänderungen sind dabei insbesondere:" },
+      { text: "- Vereinheitlichung und Ausweitung des Zinsbegriffes;" },
+      { text: "- Änderungen des Konzernbegriffes;" },
+      { text: "- Einführung einer Stand-alone-Betrachtung;" },
+      { text: "- Einschränkungen beim Zins- und EBITA-Vortrag. (Die Schreibweise „EBITA-Vortrag“ steht so in der Quelle; gemeint ist der EBITDA-Vortrag.)" },
+      { text: "Zu der gesetzlichen Neuregelung hat die Finanzverwaltung zwischenzeitlich auch mit BMF-Schreiben vom 24.03.2025 Stellung genommen. (Die Fußnote nennt BStBl. I 2025, 683; zur zeitlichen Anwendung verweist die Quelle auf § 52 Abs. 8b EStG und § 34 Abs. 4 Satz 2 KStG.)" },
+      { typ: "titel", text: "3.4 Grundzüge der Zinsschranke" },
+      { text: "Die Grundsätze der Zinsschranke ergeben sich aus § 4h EStG, welche nach § 8 Abs. 1 Satz 1 KStG auch für Kapitalgesellschaften gelten. Daneben sind für körperschaftsteuerliche Zwecke nach § 8a KStG weitere Besonderheiten zu beachten." },
+      { text: "Die Zinsschranke greift ein, wenn im Betrieb abziehbare Zinsaufwendungen enthalten sind, unabhängig davon, ob diese auf einem Gesellschafterdarlehen oder auf einer externen Finanzierung beruhen. Ziel dieser Vorschrift ist es insbesondere, eine sich aus Fremdfinanzierungen ergebende Gewinnverlagerung ins Ausland zu verhindern. Diese kann nämlich drohen, wenn die im Inland als Betriebsausgaben abgezogenen Zinsaufwendungen im steuerlichen Ausland als Zinserträge eventuell niedrig besteuert würdne. Diesen Effekt könnten gerade Konzernunternehmen unter Einschaltung ihrer ausländischen Tochtergesellschaften ausnutzen. Die Zinsschranke ist aber nicht ausschließlich auf (globale) Konzernunternehmen ausgerichtet. Denn diese gilt für sämtliche Steuerpflichtige (= Betrieb), die Gewinneinkünfte i.S. der §§ 13, 15 oder 18 EStG beziehen. (Die Form „würdne“ steht so in der Quelle.)" },
+      { text: "Rechtsfolge der Zinsschranke ist, dass die im Inland abziehbaren Zinsaufwendungen nur noch begrenzt zum Abzug zugelassen werden. Die Zinsschranke beträgt nämlich 30% des steuerlichen EBITDA (= sog. verrechenbares EBITDA), so dass im Umkehrschluss 70% der Zinsaufwendungen bei der Einkommensermittlung außerbilanziell wieder hinzugerechnet werden müssen. Der zunächst vom Abzug ausgeschlossene Betrag der Zinsaufwendungen geht aber nicht verloren, sondern wird im Rahmen eines Zinsvortrags in die folgenden Wirtschaftsjahre vorgetragen. Gleiches gilt umgekehrt in den Fällen, in denen der Zinsaufwand geringer ist als die Zinsschranke (d.h. dem verrechenbaren EBITDA) ist, woraus dann ein EBITDA-Vortrag entsteht, der in den Folgejahren dann den abziehbaren Betrag der Zinsschranke erhöht. Daneben sind einige gesetzliche Ausnahmetatbestände zu beachten, weil die Zinsschranke nicht jeden Betrieb erfassen soll. (Das doppelte „ist“ steht so in der Quelle; zu den Prozentangaben siehe die eigene Anmerkung unten.)" },
+      { typ: "tabelle", spalten: ["Kerninhalt der Neuregelung ab 2024", "Gegenstand"], zeilen: [
+        ["Zinsbegriff", "Vereinheitlichung und Ausweitung"],
+        ["Konzernbegriff", "Änderungen"],
+        ["Stand-alone-Betrachtung", "neu eingeführt"],
+        ["Zins- und EBITDA-Vortrag", "Einschränkungen"],
+      ] },
+      { text: "Anmerkung zu den Prozentangaben (eigene Ergänzung): Der Satz, es müssten „im Umkehrschluss 70% der Zinsaufwendungen“ hinzugerechnet werden, ist so nicht zutreffend und sollte nicht übernommen werden. Die 30 % beziehen sich auf das **EBITDA**, nicht auf die Zinsaufwendungen. Abziehbar ist der Zinsaufwand bis zur Höhe von 30 % des steuerlichen EBITDA; hinzuzurechnen ist der **Überhang** darüber. Wie hoch dieser Anteil ausfällt, hängt vom Verhältnis beider Größen ab und kann zwischen null und nahezu hundert Prozent liegen. Bei einem EBITDA von 10.000.000 € und einem Zinsaufwand von 4.000.000 € etwa sind 3.000.000 € abziehbar und 1.000.000 € – also 25 % und nicht 70 % – hinzuzurechnen. Der Wortlaut der Quelle ist oben unverändert wiedergegeben." },
+      { text: "Anmerkung zum Verhältnis von Zins- und EBITDA-Vortrag (eigene Ergänzung): Die beiden Vorträge sind spiegelbildlich und lassen sich an einer Frage unterscheiden: Welche der beiden Größen war größer? War der **Zinsaufwand** größer als 30 % des EBITDA, entsteht ein **Zinsvortrag** – der nicht abziehbare Aufwand wartet auf bessere Jahre. War das **verrechenbare EBITDA** größer, entsteht ein **EBITDA-Vortrag**, der das Abzugsvolumen künftiger Jahre erhöht. Der Gesetzgeber gleicht damit Schwankungen zwischen den Jahren aus; endgültig verloren geht zunächst nichts. Die Einschränkungen, die die Neuregelung ab 2024 bei beiden Vorträgen vorsieht, verändern diese Systematik allerdings – sie sind Gegenstand der folgenden Abschnitte." },
+      { text: "Anmerkung zum Anwendungsbereich (eigene Ergänzung): Zwei Aussagen der Quelle ziehen den Anwendungsbereich weiter, als der Normzweck vermuten lässt. Erstens ist gleichgültig, ob die Zinsen auf einem **Gesellschafterdarlehen** oder auf einer gewöhnlichen **Bankfinanzierung** beruhen – die Zinsschranke ist keine Gesellschafterfremdfinanzierungsregel. Zweitens gilt sie für **sämtliche** Betriebe mit Gewinneinkünften nach §§ 13, 15 oder 18 EStG, also auch für den Einzelunternehmer und den Freiberufler, obwohl die Norm auf internationale Gewinnverlagerung zielt. Der Ausgleich erfolgt nicht über den Tatbestand, sondern über die **Ausnahmetatbestände**, die die Quelle am Ende des Abschnitts ankündigt – vor allem die Freigrenze." },
+      { text: "Anmerkung zum Verhältnis der beiden Fassungen (eigene Ergänzung): Für die Klausur ist die zeitliche Abgrenzung wichtig und lässt sich leicht merken. Das Verfahren **2 BvL 1/16** betrifft ausschließlich die Fassung **bis einschließlich VZ 2023**; die hier dargestellte Fassung gilt für Wirtschaftsjahre, die nach dem 14.12.2023 beginnen und nicht vor dem 01.01.2024 enden. Die doppelte Bedingung schließt eine Lücke bei Rumpfwirtschaftsjahren: Ein Wirtschaftsjahr, das etwa am 20.12.2023 beginnt und am 31.12.2023 endet, fiele sonst bereits unter das neue Recht. Eine Entscheidung des BVerfG zur alten Fassung bliebe im Übrigen auch für die Neufassung bedeutsam, weil deren Grundstruktur – Abzugsbegrenzung auf 30 % des EBITDA – unverändert geblieben ist." },
     ],
   },
 ];

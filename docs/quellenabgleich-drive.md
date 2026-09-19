@@ -10620,6 +10620,48 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 2.7.2 bis 3.4 – Kapitel 2 ist vollständig, Beginn der Zinsschranke
+
+Quelle: dieselbe Datei, Seiten 53 bis 56; übernommen als Kapitel 33 und 34. Prüfung:
+`npm run check:k2-kst-teil5` (34 Kapitel, 684 Blöcke, 89 Tabellen). Damit ist **Kapitel 2 des
+Skripts (§ 8d KStG) vollständig** übernommen.
+
+**Die Zahlen des Beispiels sind unabhängig nachgerechnet und gehen auf:** gefährdet sind 4.000.000 €
+fortführungsgebundener Verlust, 3.000.000 € regulärer Vortrag und 3.000.000 € unterjähriger Verlust,
+zusammen 10.000.000 €; die stillen Reserven von 1.000.000 € verschonen einen Teil des laufenden
+Verlustes, so dass 2.000.000 € untergehen und die Vorträge mit 7.000.000 € vollständig entfallen;
+./. 5.000.000 € + 2.000.000 € = ./. 3.000.000 € z.v.E.; Endbestand 3.000.000 € + 4.000.000 € ./.
+7.000.000 € + 3.000.000 € = 3.000.000 €.
+
+**Eine sachlich unzutreffende Aussage der Quelle ist festgehalten und wortlautgetreu daneben stehen
+gelassen.** In Abschnitt 3.4 heißt es, die Zinsschranke betrage 30 % des steuerlichen EBITDA, „so
+dass im Umkehrschluss 70% der Zinsaufwendungen“ hinzuzurechnen seien. Die 30 % beziehen sich jedoch
+auf das EBITDA und nicht auf die Zinsaufwendungen; der hinzuzurechnende Anteil hängt vom Verhältnis
+beider Größen ab und kann zwischen null und nahezu hundert Prozent liegen. Die eigene Anmerkung
+rechnet das an einem Zahlenbeispiel vor (EBITDA 10.000.000 €, Zinsaufwand 4.000.000 € – abziehbar
+3.000.000 €, hinzuzurechnen 1.000.000 €, also 25 %).
+
+**Eine Lücke der Quelle ist ausdrücklich benannt statt gefüllt:** Das Prüfungsschema des Abschnitts
+3.1 steht im Skript als Grafik und ließ sich aus der PDF-Datei nicht extrahieren. Der Datensatz sagt
+das an Ort und Stelle und verweist auf die nachfolgenden Abschnitte; erfunden wird nichts.
+
+**Vier sprachliche Eigenheiten sind übernommen und markiert:** die Stellung der Anführungszeichen in
+„KSt-Skript Teil VI“ Organschaft“, die Schreibweise „EBITA-Vortrag“, die Form „würdne“ und
+das doppelte „ist“ in „geringer ist als die Zinsschranke … ist“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Erläuterung, dass der Vorrang des § 8c KStG günstig
+wirkt, die gleichzeitige Sperre des erneuten Antrags der Gesellschaft aber die Wahlmöglichkeit nimmt;
+die Bezifferung dieses Nachteils mit 9.000.000 € gegenüber dem Fall ohne schädliches Ereignis; der
+Hinweis, dass es auf die Reihenfolge der beiden Vorgänge nicht ankommt und die Sperre auch für ein
+später eintretendes Ereignis greift; die Unterscheidung von Zins- und EBITDA-Vortrag an der Frage,
+welche Größe überwiegt; die Feststellung, dass der Anwendungsbereich weiter reicht als der Normzweck
+und der Ausgleich allein über die Ausnahmetatbestände erfolgt; und die Einordnung der zeitlichen
+Abgrenzung beider Gesetzesfassungen samt der Bedeutung der doppelten Bedingung für
+Rumpfwirtschaftsjahre.
+
+**Noch offen:** aus Teil V die weiteren Abschnitte des Kapitels 3 (Zinsschranke) und das Kapitel 4
+(stille Beteiligungen); ganz offen sind die Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 2.6.2.6 und 2.7.1 – Wertansatz unter dem gemeinen Wert und Vorrang des § 8c KStG
 
 Quelle: dieselbe Datei, Seiten 50 bis 53; übernommen als Kapitel 31 und 32. Prüfung:

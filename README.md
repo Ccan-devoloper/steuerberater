@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 32 Kapitel mit 645 Abschnitten und 85 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 34 Kapitel mit 684 Abschnitten und 89 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4231,6 +4231,44 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   dieses Skripts ebenfalls mit 70 % rechnen. Das Beispiel ist in sich stimmig; mit dem geltenden Satz
   ergäben sich ein Abzug von 3.800.000 €, ein z.v.E. von 1.200.000 €, ein Endbestand von 1.200.000 €
   und ein gebundener Restbetrag von 4.200.000 € statt der genannten 4.600.000 €.
+  Fallen der schädliche Erwerb und ein schädliches Ereignis in **denselben** Veranlagungszeitraum,
+  geht § 8c KStG wiederum **vor** – für sich genommen günstig, weil dann die Verschonungsregelung und
+  damit die stillen Reserven zur Verfügung stehen. Zugleich ist ein erneuter Antrag nach § 8d KStG
+  aber **gesperrt**, weil das schädliche Ereignis bereits im Zeitraum B liegt. Beides zusammen
+  bedeutet, dass die Gesellschaft die Wahlmöglichkeit verliert, die ihr sonst offensteht. Der Preis
+  lässt sich beziffern: Ohne den Erwerb des Mitunternehmeranteils hätte die A-GmbH erneut den Antrag
+  stellen und 12.000.000 € retten können; tatsächlich bleiben ihr 3.000.000 €. Der Erwerb kostet sie
+  also 9.000.000 € Verlustvolumen, und zwar nicht wegen seiner eigenen Rechtsfolge, sondern weil er
+  die Tür zu § 8d KStG verschließt. Auf die **Reihenfolge** der beiden Vorgänge kommt es dabei nicht
+  an – auch ein erst im Dezember erworbener Mitunternehmeranteil läge im Zeitraum B, der bis zum Ende
+  des Veranlagungszeitraums reicht; die Sperre greift also auch für ein Ereignis, das zum Zeitpunkt der
+  Anteilsveräußerung noch gar nicht eingetreten war. Die Auswirkungen des § 8d KStG auf
+  vororganschaftliche Verluste verweist die Quelle auf das Skript Teil VI. Damit ist auch Kapitel 2
+  vollständig.
+  Das dritte Kapitel behandelt die **Zinsschranke** nach § 4h EStG und § 8a KStG. Die Fassung bis
+  einschließlich VZ 2023 liegt dem Bundesverfassungsgericht unter **2 BvL 1/16** vor, nachdem der BFH
+  sie 2015 wegen eines möglichen Verstoßes gegen Art. 3 GG vorgelegt hatte; die Entscheidung steht
+  noch aus. Für Wirtschaftsjahre, die nach dem 14.12.2023 beginnen und nicht vor dem 01.01.2024 enden,
+  gilt die an die **ATAD** angepasste Neufassung – die doppelte Bedingung schließt dabei eine Lücke bei
+  Rumpfwirtschaftsjahren. Ihre Kerninhalte sind ein vereinheitlichter und erweiterter **Zinsbegriff**,
+  ein geänderter **Konzernbegriff**, die neu eingeführte **Stand-alone-Betrachtung** und
+  Einschränkungen bei Zins- und EBITDA-Vortrag; dazu hat die Verwaltung mit BMF-Schreiben vom
+  24.03.2025 Stellung genommen.
+  Abziehbar ist der Zinsaufwand bis zur Höhe von **30 % des steuerlichen EBITDA** (dem verrechenbaren
+  EBITDA); der Überhang wird außerbilanziell hinzugerechnet und als **Zinsvortrag** in die Folgejahre
+  übernommen. Umgekehrt entsteht ein **EBITDA-Vortrag**, wenn der Zinsaufwand unter dem verrechenbaren
+  EBITDA bleibt – beide Vorträge sind spiegelbildlich und gleichen Schwankungen zwischen den Jahren
+  aus. Die Aussage der Quelle, es müssten „im Umkehrschluss 70% der Zinsaufwendungen“ hinzugerechnet
+  werden, trifft allerdings nicht zu: Die 30 % beziehen sich auf das **EBITDA**, nicht auf die
+  Zinsaufwendungen, und wie hoch der hinzuzurechnende Anteil ausfällt, hängt vom Verhältnis beider
+  Größen ab. Bei einem EBITDA von 10.000.000 € und einem Zinsaufwand von 4.000.000 € etwa sind
+  3.000.000 € abziehbar und 1.000.000 € – also 25 % – hinzuzurechnen. Der Anwendungsbereich reicht
+  dabei weiter, als der Normzweck vermuten lässt: Erfasst sind **Gesellschafterdarlehen und
+  Bankfinanzierung gleichermaßen** und **sämtliche** Betriebe mit Gewinneinkünften nach §§ 13, 15 oder
+  18 EStG, also auch Einzelunternehmer und Freiberufler. Der Ausgleich erfolgt nicht über den
+  Tatbestand, sondern über die Ausnahmetatbestände. Das Prüfungsschema des Abschnitts 3.1 steht im
+  Skript als Grafik und ließ sich aus der PDF-Datei nicht extrahieren; es ist deshalb nicht
+  wiedergegeben und wird auch nicht erfunden.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
