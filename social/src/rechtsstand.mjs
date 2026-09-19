@@ -388,6 +388,14 @@ function korrigiereAbbruchkosten(thema) {
   };
 }
 
+function korrigiereOption9(thema) {
+  normErgaenzen(thema, "§ 9 Abs. 1–3 UStG");
+  thema.kern = {
+    ...thema.kern,
+    antwort: "§ 9 Abs. 1 UStG erlaubt bei den dort genannten Steuerbefreiungen den Verzicht, wenn der Umsatz an einen anderen Unternehmer für dessen Unternehmen ausgeführt wird. Bei Erbbaurechten sowie Vermietungs-/Verpachtungsumsätzen nach § 4 Nr. 12 greift zusätzlich § 9 Abs. 2: Die Option ist nur zulässig, soweit der Leistungsempfänger das Grundstück ausschließlich für Umsätze verwendet oder zu verwenden beabsichtigt, die den Vorsteuerabzug nicht ausschließen; die Verwaltungsregelungen zur geringfügigen schädlichen Nutzung sind gesondert zu beachten. Das notarielle Formerfordernis des § 9 Abs. 3 S. 2 gilt dagegen für andere Umsätze nach § 4 Nr. 9 Buchst. a (insbesondere Grundstückslieferungen außerhalb der Zwangsversteigerung), nicht pauschal für jede Grundstücksvermietung.",
+  };
+}
+
 function korrigiereIgLieferungQuiz(thema) {
   thema.titel = "Innergemeinschaftliche Lieferung: Voraussetzungen der Steuerfreiheit";
   normErgaenzen(thema, "§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1, 3 UStG");
@@ -551,6 +559,7 @@ export function socialKorrekturenAnwenden(pool) {
     if (thema.typ === "quiz" && /Eine innergemeinschaftliche Lieferung an einen Unternehmer mit USt-IdNr/i.test(thema.titel || "")) korrigiereIgLieferungQuiz(thema);
     if (thema.typ === "quiz" && /Was gilt seit dem 1\.1\.2025 für Rechnungen im B2B-Inlandsgeschäft/i.test(thema.titel || "")) kennzeichneERechnung(thema);
     if (thema.typ === "karteikarte" && /^Steuersätze \(§ 12 UStG\)$/i.test(thema.titel || "")) korrigiereUstSteuersaetzeKarte(thema);
+    if (thema.typ === "karteikarte" && /Option nach § 9 UStG/i.test(thema.titel || "")) korrigiereOption9(thema);
     if (thema.typ === "karteikarte" && /Mietdauer oder Nutzungsdauer beim Mietereinbau/i.test(thema.titel || "")) korrigiereMietereinbauAfa(thema);
     if (thema.typ === "karteikarte" && /Wie wirken sich Abbruchkosten aus/i.test(thema.titel || "")) korrigiereAbbruchkosten(thema);
     if (thema.typ === "karteikarte" && /Wann ist die Einlage auf die Anschaffungskosten gedeckelt/i.test(thema.titel || "")) korrigiereEinlageDeckel(thema);
