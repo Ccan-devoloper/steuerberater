@@ -261,6 +261,23 @@ function korrigiereRueckstellungskatalog(thema) {
   normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
+function kennzeichneERechnung(thema) {
+  thema.titel = "E-Rechnung im B2B-Inland: Übergangsfristen";
+  normErgaenzen(thema, "§ 14 UStG", "§ 27 Abs. 38 UStG");
+  thema.kern = {
+    ...thema.kern,
+    frage: "Welche Übergangsregeln gelten für die E-Rechnung im inländischen B2B-Bereich?",
+    erklaerung: "Seit 2025 müssen inländische Unternehmer grundsätzlich E-Rechnungen empfangen können. Für die Ausstellung gelten Übergangsregeln nach § 27 Abs. 38 UStG: Bis Ende 2026 können Rechnungen für die erfassten B2B-Umsätze noch allgemein auf Papier oder – mit Zustimmung des Empfängers – in einem nicht EN-16931-konformen elektronischen Format übermittelt werden. Für 2027 wird diese allgemeine Übergangsregel enger; insbesondere bleibt Papier beziehungsweise ein anderes elektronisches Format für Aussteller mit Vorjahres-Gesamtumsatz bis 800.000 € bis Ende 2027 möglich, daneben besteht die gesonderte EDI-Übergangsregel.",
+  };
+  rechtsstandswechsel(thema, {
+    abJahr: 2027,
+    vorherJahr: 2026,
+    norm: "§ 27 Abs. 38 Nr. 1–3 UStG",
+    aktuell: "2027: Papier oder ein nicht den E-Rechnungsanforderungen entsprechendes elektronisches Format ist grundsätzlich nur noch bei Ausstellern mit Vorjahres-Gesamtumsatz bis 800.000 € über die Nr. 2 zulässig; die gesonderte EDI-Übergangsregel der Nr. 3 bleibt bis Ende 2027 bestehen.",
+    vorher: "2026: Für die von § 27 Abs. 38 Nr. 1 erfassten B2B-Umsätze kann die Rechnung noch unabhängig von einer 800.000-€-Umsatzgrenze auf Papier oder – mit Zustimmung – in einem anderen elektronischen Format übermittelt werden.",
+  });
+}
+
 function korrigiereMietereinbauAfa(thema) {
   normErgaenzen(thema, "§ 7 Abs. 4 S. 1, 2 EStG");
   thema.kern = {
@@ -432,6 +449,7 @@ export function socialKorrekturenAnwenden(pool) {
     if (thema.typ === "karteikarte" && /Wie unterscheidet sich die Rückstellungsbewertung in HB und StB/i.test(thema.titel || "")) korrigiereRueckstellungsbewertung(thema);
     if (/Bilanzberichtigung (?:oder|und) Bilanzänderung/i.test(thema.titel || "")) korrigiereBilanzaenderung(thema);
     if (thema.typ === "quiz" && /Eine innergemeinschaftliche Lieferung an einen Unternehmer mit USt-IdNr/i.test(thema.titel || "")) korrigiereIgLieferungQuiz(thema);
+    if (thema.typ === "quiz" && /Was gilt seit dem 1\.1\.2025 für Rechnungen im B2B-Inlandsgeschäft/i.test(thema.titel || "")) kennzeichneERechnung(thema);
     if (thema.typ === "karteikarte" && /^Steuersätze \(§ 12 UStG\)$/i.test(thema.titel || "")) korrigiereUstSteuersaetzeKarte(thema);
     if (thema.typ === "karteikarte" && /Mietdauer oder Nutzungsdauer beim Mietereinbau/i.test(thema.titel || "")) korrigiereMietereinbauAfa(thema);
     if (thema.typ === "karteikarte" && /Wie wirken sich Abbruchkosten aus/i.test(thema.titel || "")) korrigiereAbbruchkosten(thema);
