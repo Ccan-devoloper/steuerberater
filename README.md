@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 34 Kapitel mit 684 Abschnitten und 89 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 36 Kapitel mit 729 Abschnitten und 93 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4269,6 +4269,51 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Tatbestand, sondern über die Ausnahmetatbestände. Das Prüfungsschema des Abschnitts 3.1 steht im
   Skript als Grafik und ließ sich aus der PDF-Datei nicht extrahieren; es ist deshalb nicht
   wiedergegeben und wird auch nicht erfunden.
+  Maßgeblich ist der seit 2024 in § 4h Abs. 1 Satz 3 EStG definierte **Nettozinsaufwand**:
+  Zinsaufwendungen sind zunächst immer in Höhe der Zinserträge abziehbar, und nur ein Überhang zählt.
+  Die Zinsschranke trifft damit nicht den Fremdfinanzierten schlechthin, sondern den **einseitig**
+  Fremdfinanzierten – ein Betrieb mit 10.000.000 € Zinsaufwand und 9.000.000 € Zinsertrag bleibt mit
+  1.000.000 € sogar unter der **Freigrenze von 3.000.000 €**, die den Nettozinsaufwand einschließlich
+  Zinsvortrag erfasst. Berücksichtigt werden nur **tatsächlich abgezogene** Zinsen; andere
+  Abzugsverbote – verdeckte Gewinnausschüttung nach § 8 Abs. 3 Satz 2 KStG, § 1 AStG,
+  § 4 Abs. 4a EStG – gehen der Zinsschranke **vor**. Das hat eine unangenehme Kehrseite: Solche Zinsen
+  gehen nicht in den **Zinsvortrag** ein und sind endgültig verloren, weshalb die Prüfungsreihenfolge
+  strikt einzuhalten ist. Umgekehrt können sogar **fiktive** Zinsen erfasst sein, etwa beim
+  Vorteilsverbrauch aus einer verdeckten Gewinnausschüttung in Gestalt der verhinderten
+  Vermögensmehrung.
+  Der **Zinsbegriff** ist nach der Neufassung bewusst weit: Erfasst sind auch Gewinn- und
+  Umsatzbeteiligungen bei partiarischen Darlehen, typisch stillen Beteiligungen und Genussrechten,
+  **Damnum**, **Disagio**, **Vorfälligkeitsentschädigung**, Provisionen und Vermittlungsgebühren
+  einschließlich der **arrangement-fees** sowie **zurückgestellte** Zinsen. Nicht dazu gehören
+  Erbbauzinsen, die Aufzinsung von Rückstellungen, aktivierte Bauzeitzinsen, Abschreibungen auf
+  Kapitalforderungen und Zinsen nach §§ 233 ff. AO. Die Abgrenzung folgt einem erkennbaren Muster:
+  Was wirtschaftlich den **Preis der Fremdkapitalüberlassung** bildet, ist Zinsaufwand; was den Wert
+  eines Wirtschaftsguts oder eine andere Leistung vergütet, nicht. Bei Mitunternehmerschaften bleiben
+  Zinsen außer Betracht, soweit ihnen korrespondierend steuerpflichtige Sonderbetriebseinnahmen
+  gegenüberstehen.
+  Der **Betriebsbegriff** ist folgenreich: Körperschaften, Mitunternehmerschaften einschließlich
+  Sonderbetriebsvermögen und der **Organkreis** nach § 15 Satz 1 Nr. 3 KStG haben stets nur **einen**
+  Betrieb, Betriebsstätten sind keine eigenen Betriebe. Die Freigrenze steht damit nur **einmal** zur
+  Verfügung und lässt sich nicht durch die Bildung mehrerer Sparten vervielfachen; umgekehrt können
+  sich Zinsaufwand und Zinsertrag innerhalb dieser Einheit verrechnen. Nur der **Einzelunternehmer**
+  kann mehrere Betriebe und damit mehrere Freigrenzen haben – eine Gestaltungsmöglichkeit, die
+  Kapitalgesellschaften verschlossen ist.
+  Das **steuerliche EBITDA** entsteht in zwei Stufen, die im Schema ineinander übergehen. Zuerst
+  werden Verlust- und Spendenabzug **rückgängig** gemacht, weil sie erst nach der Einkommensermittlung
+  im engeren Sinne greifen; das Ergebnis ist das **maßgebliche Einkommen** des § 8a Abs. 1 Satz 2
+  KStG. Dann werden sämtliche Abschreibungen – ausdrücklich auch die GWG- und die Poolabschreibung
+  nach § 6 Abs. 2a EStG – sowie der Nettozinsaufwand hinzugerechnet. Damit erklärt sich die Abkürzung:
+  der Gewinn vor Zinsen, Steuern und Abschreibungen, also ein von Finanzierungs- und
+  Abschreibungspolitik unabhängiges Ertragsmaß. Das **verrechenbare EBITDA** beträgt davon **immer
+  30 %** und bildet die Höchstgrenze für den Abzug des Nettozinsaufwands einschließlich Zinsvortrag.
+  Der feste Satz macht die Norm rechnerisch einfach, aber wirtschaftlich hart: Es gibt keine Staffelung
+  nach Größe, Branche oder Verschuldungsgrad, so dass in einem Ertragseinbruch das Abzugsvolumen
+  gerade dann gegen null sinkt, wenn der Zinsaufwand am meisten drückt. Übersteigt der
+  Nettozinsaufwand das verrechenbare EBITDA, wird der Überhang außerbilanziell hinzugerechnet und
+  bildet den **Zinsvortrag**; bleibt er darunter, entsteht ein **EBITDA-Vortrag**. Wichtig für die
+  Klausur ist die Verbindung zur Gewerbesteuer: Soweit die Zinsschranke greift, entfällt die
+  Hinzurechnung nach § 8 Nr. 1a GewStG, weil die Zinsen den Gewerbeertrag bereits nicht gemindert
+  haben und eine erneute Hinzurechnung denselben Betrag doppelt belasten würde.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

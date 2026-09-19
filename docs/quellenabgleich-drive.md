@@ -10620,6 +10620,40 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 3.5 und 3.6 – Tatbestände und Ermittlung der Zinsschranke
+
+Quelle: dieselbe Datei, Seiten 56 bis 59; übernommen als Kapitel 35 und 36. Prüfung:
+`npm run check:k2-kst-teil5` (36 Kapitel, 729 Blöcke, 93 Tabellen).
+
+Der Abschnitt enthält keine Rechenbeispiele; das Ermittlungsschema des steuerlichen EBITDA ist
+vollständig und in der Reihenfolge der Quelle als Tabelle übernommen.
+
+**Vier sprachliche Eigenheiten sind übernommen und markiert:** „Dabei ist aber Freigrenze“, die
+doppelte Verneinung „Nicht dazu gehören wiederum nicht Erträge“, „dem vorläufigen
+körperschaftsteuerliche Einkommen“ und „Die Zinsschranke greift für Überhang“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Bedeutung der Nettobetrachtung als erste
+Entlastungsstufe samt Zahlenbeispiel, das zeigt, dass die Norm den einseitig Fremdfinanzierten trifft;
+die Kehrseite des Vorrangs anderer Abzugsverbote, weil die hinzugerechneten Zinsen nicht in den
+Zinsvortrag eingehen und damit endgültig verloren sind; die Erläuterung des Vorteilsverbrauchs, den
+die Quelle nur in einem Halbsatz erwähnt; das Muster hinter der Abgrenzung des Zinsbegriffs – Preis
+der Fremdkapitalüberlassung gegenüber Entgelt für eine andere Leistung; die Folgerungen aus dem
+Betriebsbegriff, wonach die Freigrenze nur einmal zur Verfügung steht, sich Aufwand und Ertrag aber
+innerhalb der Einheit verrechnen und allein der Einzelunternehmer mehrere Freigrenzen beanspruchen
+kann; die Erklärung des zweistufigen Aufbaus des EBITDA-Schemas und der Abkürzung selbst; die
+Begründung, warum sämtliche Abschreibungen hinzugerechnet werden; die Bedeutung des Ausschlusses der
+Hinzurechnung nach § 8 Nr. 1a GewStG als Schutz vor doppelter Belastung; und die Kritik am festen
+Satz von 30 %, der gerade im Ertragseinbruch das Abzugsvolumen entfallen lässt.
+
+**Neu sind vier Übersichten:** eine Gegenüberstellung der erfassten und der nicht erfassten
+Zinsaufwendungen, eine Übersicht zur Zahl der Betriebe je Rechtsform, das Ermittlungsschema des
+steuerlichen EBITDA und eine Übersicht zu den beiden möglichen Verhältnissen von Nettozinsaufwand
+und verrechenbarem EBITDA.
+
+**Noch offen:** aus Teil V der Zinsvortrag (3.6.3), der EBITDA-Vortrag (3.6.4), die
+Ausnahmetatbestände (3.7 ff.) und das Kapitel 4 (stille Beteiligungen); ganz offen sind die
+Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 2.7.2 bis 3.4 – Kapitel 2 ist vollständig, Beginn der Zinsschranke
 
 Quelle: dieselbe Datei, Seiten 53 bis 56; übernommen als Kapitel 33 und 34. Prüfung:
