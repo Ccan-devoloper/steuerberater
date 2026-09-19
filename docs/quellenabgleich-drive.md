@@ -10620,6 +10620,50 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 2.3.1 und 2.3.2 – Betrachtungszeitraum und Geschäftsbetrieb
+
+Quelle: dieselbe Datei, Seiten 37 bis 40; übernommen als Kapitel 23 und 24. Prüfung:
+`npm run check:k2-kst-teil5` (24 Kapitel, 481 Blöcke, 60 Tabellen).
+
+**Die Zahlen der Abwandlung sind unabhängig nachgerechnet und gehen auf:** Der Anfangsbestand zum
+01.01.2025 von 1.300.000 € setzt sich aus dem Vortrag des Sportbekleidungsgeschäfts von 1.000.000 €
+und den Verlusten 2022 bis 2024 von je 100.000 € zusammen; nach Kürzung des Altbestands verbleiben
+300.000 €, zuzüglich des Verlustes 2025 ergeben sich 400.000 € – genau die vier Jahresverluste des
+Autohandels.
+
+**Zwei inhaltliche Fehler der Quelle sind wortlautgetreu übernommen und markiert.** Im ersten
+Beispiel zu 2.3.1 heißt es nach der Feststellung, der Geschäftsbetrieb sei identisch und kein
+schädliches Ereignis eingetreten: „Beides ist vorliegend zu verneinen“ – nach dem Sachverhalt und
+dem unmittelbar folgenden Halbsatz („so dass der Anwendung des § 8d KStG nichts entgegen steht“)
+sind beide Voraussetzungen erfüllt, also zu bejahen. Im zweiten Beispiel nennt die Quelle als Jahr
+des Verlustuntergangs „in 2024“, obwohl der schädliche Erwerb im selben Sachverhalt am 01.03.2025
+liegt.
+
+**Fünf sprachliche Eigenheiten sind ebenfalls übernommen und markiert:** „und damit dem Beginn der
+KSt-Pflicht“, „in dem Betrachtungszeiträumen A und B“, „der identische Geschäftsbetrieb
+ausübt“, „orientiert sich … an die gewerbesteuerlichen Merkmale … an die Rechtsprechung“ und
+die doppelte Verneinung „keine Rangfolge oder keine Vorgabe“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Herleitung der beiden Zeiträume aus dem Erwerbsjahr,
+die die Quelle nur als Ergebnis nennt; die Bedeutung der Vorgesellschaft für den Gründungszeitpunkt;
+die Deutung der Abwandlung als Grundmuster der Verlustspaltung samt dem Hinweis, dass der Wechsel
+punktgenau mit dem Beginn des Betrachtungszeitraums zusammenfällt; die Gegenüberstellung von
+Aufteilungslast des Steuerpflichtigen und günstiger Vermutung bei den stillen Reserven; die
+Abgrenzung zwischen § 8d Abs. 1 Satz 1 KStG und § 34 Abs. 6a Satz 1 KStG, die auf verschiedene
+Betriebe zurückschauen; die Herkunft der vier Merkmale aus der gewerbesteuerlichen
+Unternehmensidentität und ihr Nutzen für die Klausur; die Folgerung aus der offenen Prüfungsstruktur,
+dass die Abwägung und nicht das Ergebnis zählt; die Feststellung, dass bloßes Wachstum den
+Geschäftsbetrieb nicht ändert; die Kritik an der Härte des Ausschlusses mehrerer Geschäftsbetriebe;
+und die Zuspitzung des einheitlichen Geschäftsbetriebs auf die Frage der gegenseitigen Angewiesenheit
+samt dem Hinweis auf die vorsichtigen Formulierungen der Quelle.
+
+**Neu sind zwei Übersichten:** eine zu den beiden Betrachtungszeiträumen mit Beginn, Ende und
+Prüfungsgegenstand, und eine zu den Indizien für und gegen einen einheitlichen Geschäftsbetrieb.
+
+**Noch offen:** aus Teil V die geringfügige Betätigung (2.3.2.2.2) und die weiteren Abschnitte des
+Kapitels 2 sowie die Kapitel 3 (Zinsschranke) und 4 (stille Beteiligungen); ganz offen sind die
+Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 2.1 und 2.2 – § 8d KStG: zeitliche Anwendung und Antragswahlrecht
 
 Quelle: dieselbe Datei, Seiten 35 bis 37; übernommen als Kapitel 21 und 22. Prüfung:

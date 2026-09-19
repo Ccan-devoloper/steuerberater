@@ -32,9 +32,11 @@
    samt Abwandlung (1.6.2.2.2), die abweichenden Wirtschaftsjahre und die
    Organschaftsfälle (1.7). Damit ist Kapitel 1 des Skripts VOLLSTÄNDIG
    übernommen. Aus Kapitel 2 (§ 8d KStG) sind die zeitliche Anwendung (2.1) und
-   das Antragswahlrecht (2.2) übernommen. Es folgen der Geschäftsbetrieb (2.3)
-   und die weiteren Abschnitte sowie die Kapitel 3 und 4; der Campus weist den
-   Stand aus.
+   das Antragswahlrecht (2.2) übernommen, dazu der Betrachtungszeitraum (2.3.1),
+   die Definition des Geschäftsbetriebs (2.3.2.1), die mehreren Geschäfts-
+   betriebe (2.3.2.2) und der einheitliche Geschäftsbetrieb (2.3.2.2.1). Es
+   folgen die geringfügige Betätigung und die weiteren Abschnitte des Kapitels 2
+   sowie die Kapitel 3 und 4; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -1272,6 +1274,113 @@ export const kstTeil5 = [
       { text: "Anmerkung zur Logik des Ausschlusses (eigene Ergänzung): Dass Konzernklausel, Angehörigenerwerb und Sanierungsklausel den § 8d KStG ausschließen, wirkt zunächst wie eine Härte, ist aber nur konsequent. In diesen drei Fällen liegt schon **kein** schädlicher Erwerb vor, und ohne drohenden Untergang gibt es nichts zu retten. Praktisch bedeutet das: Wer sich auf eine dieser Klauseln stützen kann, braucht § 8d KStG nicht – und steht sogar besser, weil sein Verlust nicht fortführungsgebunden wird. Der Unterschied zur Verschonungsregelung liegt darin, dass diese den Erwerb nicht ungeschehen macht, sondern nur seine Rechtsfolge mindert." },
       { text: "Anmerkung zur Frist und ihrer Verlängerung (eigene Ergänzung): Die Antragsfrist ist großzügiger, als der Wortlaut des § 8d Abs. 1 Satz 5 KStG vermuten lässt. Zwar ist der Antrag „in der Steuererklärung“ zu stellen, doch reicht er nach Tz. 7 und 8 des BMF-Schreibens bis zur **Unanfechtbarkeit** – und der praktisch wichtigste Fall ist ausdrücklich erfasst: Stellt erst eine **Betriebsprüfung** den schädlichen Erwerb fest, lebt das Antragsrecht wieder auf. Danach hilft nur noch eine Korrekturvorschrift der AO. Dass die Rücknahme eine **berichtigte Steuererklärung** verlangt, ist die Kehrseite der Formbindung: Was nur in der Erklärung erklärt werden kann, kann auch nur dort zurückgenommen werden." },
       { text: "Anmerkung zur gewerbesteuerlichen Einheitlichkeit (eigene Ergänzung): Die Regelung des § 10a Sätze 11 und 12 GewStG folgt einem einfachen Grundsatz: **ein** Antrag für beide Steuerarten, solange die Verluste deckungsgleich sind. Auseinander laufen sie regelmäßig, weil der Gewerbeertrag Hinzurechnungen und Kürzungen nach §§ 8, 9 GewStG kennt und der gewerbesteuerliche Fehlbetrag deshalb höher oder niedriger ausfallen kann als der körperschaftsteuerliche Verlust. Nur für diesen **Mehrbetrag** ist ein eigener Antrag nötig. Die Rückwirkung über § 36 Abs. 5a GewStG auf Erhebungszeiträume vor 2020 verhindert, dass zwischen der Einführung des § 8d KStG und der gewerbesteuerlichen Anpassung eine Lücke entsteht." },
+    ],
+  },
+  {
+    id: "kst-t5-23",
+    kapitel: "23",
+    abschnittNr: "2.3.1",
+    title: "2.3 Geschäftsbetrieb – 2.3.1 Betrachtungszeitraum",
+    thema: "Zeitraum A reicht vom Beginn des dritten vorangegangenen Veranlagungszeitraums bis zum Erwerb, Zeitraum B bis zum Ende des Erwerbsjahres; Verluste eines früheren oder eingestellten Geschäftsbetriebs bleiben ausgeschlossen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 2.3.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d Abs. 1 Satz 1 KStG",
+      "§ 8d Abs. 2 KStG",
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 34 Abs. 6a Satz 1 KStG",
+      "BMF (2), Tz. 50, 51 und 52",
+    ],
+    themen: ["Betrachtungszeitraum", "Zeitraum A", "Zeitraum B", "Gründung", "Vorgesellschaft", "gewandelter Geschäftsbetrieb", "Aufteilung des Verlustvortrags", "sachgerechte Schätzung"],
+    bloecke: [
+      { typ: "titel", text: "2.3 Geschäftsbetrieb" },
+      { typ: "titel", text: "2.3.1 Betrachtungszeitraum" },
+      { text: "Entscheidendes Kriterium für die Anwendung des § 8d KStG ist daneben, dass die Verlustgesellschaft nach § 8d Abs. 1 Satz 1 KStG denselben Geschäftsbetrieb unterhalten hat und dieser zumindest über einen qualifizierten Zeitraum unverändert bestanden haben muss. Zudem darf in dieser Zeitspanne kein schädliches Ereignis i.S. des § 8d Abs. 2 KStG stattgefunden haben (siehe unter 2.6). Dadurch soll verhindert werden, dass Gesellschaften mit wechselnden Geschäftsbetrieben oder mit Veränderungen derselben in den Genuss der Begünstigung des § 8d KStG gelangen. Denn nach der Intention des Gesetzgebers sollen von § 8d KStG nur Gesellschaften begünstigt werden, die über eine längere Periode ein- und denselben Geschäftsbetrieb unterhalten haben." },
+      { text: "Dafür ist eine zeitliche Rückbetrachtung notwendig. Hinsichtlich der Prüfung, ob die Gesellschaft denselben Geschäftsbetrieb unterhalten hat, ist der Zeitraum seit Beginn des 3. Veranlagungszeitraums bzw. Gründung der Gesellschaft bis zum schädlichen Anteilserwerb maßgebend (Zeitraum A). Im Zusammenhang mit den schädlichen Ereignissen i.S. des § 8d Abs. 2 KStG sind zusätzlich die Verhältnisse bis zum Ende des Veranlagungszeitraums des schädlichen Anteilserwerbs maßgebend (Zeitraum B). Der Betrachtungszeitraum umfasst somit grundsätzlich 4 Veranlagungszeiträume. Ergibt sich im Rahmen dieser Betrachtung, dass der Geschäftsbetrieb verändert worden oder ein Ereignis i.S. des § 8d Abs. 2 KStG eingetreten ist, scheidet die Anwendung des § 8d KStG bereits aus. (Die Fußnote hält fest, dass für die Gründung auf den Abschluss des Gesellschaftsvertrags und damit den Beginn der Vorgesellschaft abzustellen ist.)" },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH (Wj. = Kj.). Mit Wirkung zum 01.03.2025 erwirbt C den 100%igen Anteil an der A-GmbH (Gründung: 1976), welcher über keine stille Reserven verfügt. Die Gesellschaft übt seit Gründung einen Autohandel aus (Alternative: Gründung der A-GmbH am 01.04.2023 durch Abschluss des notariellen Gesellschaftsvertrags). Der Antrag auf Anwendung des § 8d KStG wird gestellt." },
+      { text: "Lösung: Für die Anwendung des § 8d KStG ist letztlich entscheidend, dass die A-GmbH in dem Betrachtungszeitraum vom 01.01.2022 – 01.03.2025 den identischen Geschäftsbetrieb ausgeübt hat (Zeitraum A) und vom 01.01.2022 – 31.12.2025 (Zeitraum B) kein schädliches Ereignis i.S. des § 8d Abs. 2 KStG eingetreten ist. Beides ist vorliegend zu verneinen, so dass der Anwendung des § 8d KStG nichts entgegen steht. (Der Satz „Beides ist vorliegend zu verneinen“ steht so in der Quelle; nach dem Sachverhalt und dem nachfolgenden Halbsatz sind beide Voraussetzungen erfüllt, also zu bejahen.)" },
+      { text: "Wäre die A-GmbH hingegen in der Alternative erst am 01.04.2023 gegründet worden, würden beide Betrachtungszeiträume jeweils am 01.04.2023 beginnen. Hinsichtlich des Tatbestandes der Gründung ist für körperschaftsteuerliche Zwecke auf den Abschluss des Gesellschaftsvertrags und damit dem Beginn der KSt-Pflicht abzustellen. (Der Kasus „und damit dem Beginn“ steht so in der Quelle.)" },
+      { text: "Hat die Gesellschaft außerhalb des Betrachtungszeitraums einen weiteren Geschäftsbetrieb eingestellt, ist dies für die Anwendung des § 8d KStG hinsichtlich der Verluste des verbliebenen Geschäftsbetriebs unschädlich. Dies gilt aber nicht für den anteiligen Verlustvortrag, der auf den bereits eingestellten Geschäftsbetrieb entfällt. Die Aufteilung obliegt dem Steuerpflichtigen und ist anhand geeigneter Kriterien nachzuweisen. Gleiches gilt, wenn sich der Geschäftsbetrieb zwischenzeitlich „gewandelt“ hat. In diesem Fall sind die Verluste des vorherigen Geschäftsbetriebs von der Anwendung des § 8d KStG ausgenommen, d.h. begünstigt sind nur die Verluste des im Betrachtungszeitraums ausgeübten Geschäftsbetriebs. Die von der Anwendung des § 8d KStG ausgenommenen Verluste gehen nach § 8c KStG unter. Hinsichtlich der stillen Reserven i.S. des § 8c Abs. 1 Satz 5 KStG greift die widerlegbare Vermutung, dass diese ausschließlich dem fortgeführten Geschäftsbetrieb zuzurechnen sind." },
+      { text: "Dies darf nicht verwechselt werden mit dem zeitlichen Anwendungsbereich des § 34 Abs. 6a Satz 1 KStG. Davon betroffen sind nur die Verluste des im Betrachtungszeitraum ausgeübten Geschäftsbetriebs, der vor dem 01.01.2016 zu irgendeinem Zeitpunkt eingestellt oder ruhendgestellt worden ist." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH (Wj. = Kj.). Mit Wirkung zum 01.03.2025 erwirbt C den 100%igen Anteil an der A-GmbH (Gründung: 1976), welcher über keine stille Reserven verfügt. Die A-GmbH hat bis zum 15.12.2023 neben dem Autohandel auch ein Sportbekleidungsgeschäft betrieben (alternativ: bis zum 15.12.2020)." },
+      { text: "Lösung: In dem Grundfall wäre die Anwendung des § 8d KStG ausgeschlossen, weil in dem Betrachtungszeiträumen A und B jeweils mehrere Geschäftsbetriebe vorgelegen haben. Daher würden die Verluste der A-GmbH in 2025 nach den Grundsätzen des § 8c KStG untergehen. (Der Kasus „in dem Betrachtungszeiträumen“ steht so in der Quelle.)" },
+      { text: "In der Alternative ist der 2. Geschäftsbetrieb außerhalb des Betrachtungszeitraums eingestellt worden, im Betrachtungszeitraum selbst hat die A-GmbH nur einen Geschäftsbetrieb durchgängig ausgeübt. Dies ist für Zwecke des § 8d KStG unschädlich. In diesem Zusammenhang muss aber (gemäß Tz. 50 des BMF-Schreibens) darauf geachtet werden, dass der anteilige Verlustvortrag des „eingestellten“ Geschäftsbetriebs „Sportbekleidungsgeschäft“ nicht unter § 8d KStG fällt und nach den Grundsätzen des § 8c KStG in 2024 untergeht. Die Aufteilung muss im Rahmen einer sachgerechten Schätzung durch den Stpfl. erfolgen. Etwaige stille Reserven sind dem fortgeführten Geschäftsbetrieb zuzuordnen. (Die Jahresangabe „in 2024“ steht so in der Quelle; der schädliche Erwerb liegt im Sachverhalt am 01.03.2025.)" },
+      { text: "Abwandlung: A ist Alleingesellschafter der A-GmbH (Wj. = Kj.). Mit Wirkung zum 01.03.2025 erwirbt C den 100%igen Anteil an der A-GmbH (Gründung: 1976), welcher über keine stille Reserven verfügt. Die A-GmbH hat bis 31.12.2021 ein Sportbekleidungsgeschäft betrieben. Daraus ist zum 31.12.2021 ein Verlustvortrag von 1.000.000 € entstanden. Seit dem 01.01.2022 übt sie den Autohandel aus. In den Jahren 2022 – 2025 entsteht jeweils ein steuerlicher Verlust von 100.000 €." },
+      { text: "Lösung: In dem Betrachtungszeitraum A wird vom 01.01.2022 – 01.03.2025 der identische Geschäftsbetrieb ausübt. Dass die Verlustgesellschaft zeitlich davor einen andersartigen Geschäftsbetrieb besessen hat, ist für die Anwendung des § 8d KStG unschädlich. Dabei muss aber beachtet werden, dass der zum 31.12.2021 vorhandene Verlustvortrag des bisherigen Geschäftsbetriebs von der Anwendung des § 8d KStG ausgeschlossen ist und in 2025 nach den Grundsätzen des § 8c KStG untergeht. Begünstigt ist danach nur das Verlustpotential in Höhe von 400.000 €. (Die Form „ausübt“ steht so in der Quelle.)" },
+      { text: "Zum 31.12.2025 ergeben sich in der Verlustfeststellung folgende Auswirkungen." },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand 01.01.2025", "1.300.000 €"],
+        ["./. Kürzung aufgrund § 8c KStG", "./. 1.000.000 €"],
+        ["+ Verlust 2025", "+ 100.000 €"],
+        ["= fortführungsgebundener Verlust", "400.000 €"],
+      ] },
+      { text: "Damit wird nur der vom Geschäftsbetrieb „Autohandel“ erzielte Verlust nach § 8d KStG fortgeführt." },
+      { typ: "tabelle", spalten: ["Zeitraum", "Beginn", "Ende", "Gegenstand der Prüfung"], zeilen: [
+        ["Zeitraum A", "Beginn des 3. Veranlagungszeitraums vor dem Erwerbsjahr, frühestens die Gründung", "Zeitpunkt des schädlichen Anteilserwerbs", "derselbe Geschäftsbetrieb, § 8d Abs. 1 Satz 1 KStG"],
+        ["Zeitraum B", "ebenso", "Ende des Veranlagungszeitraums des schädlichen Erwerbs", "kein schädliches Ereignis, § 8d Abs. 2 KStG"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen der Abwandlung gehen auf. Der Anfangsbestand zum 01.01.2025 setzt sich aus dem Vortrag des Sportbekleidungsgeschäfts von 1.000.000 € und den Verlusten der Jahre 2022 bis 2024 von je 100.000 € zusammen: 1.000.000 € + 300.000 € = 1.300.000 €. Nach Kürzung des Altbestands verbleiben 300.000 €, zuzüglich des Verlustes 2025 von 100.000 € ergeben sich 400.000 € – genau die vier Jahresverluste des Autohandels von 2022 bis 2025." },
+      { text: "Eigene Herleitung der Zeiträume: Die Quelle nennt die Daten, ohne sie abzuleiten. Der schädliche Erwerb fällt in den Veranlagungszeitraum **2025**; der dritte vorausgehende Veranlagungszeitraum ist damit **2022**, so dass Zeitraum A am 01.01.2022 beginnt und am 01.03.2025 endet. Zeitraum B beginnt am selben Tag und endet erst am 31.12.2025. Zusammen sind das die vier Veranlagungszeiträume 2022 bis 2025, die die Quelle als Regelfall bezeichnet. Ist die Gesellschaft jünger, verkürzt sich der Zeitraum auf die Zeit seit Gründung – in der Alternative also auf den 01.04.2023 bis zum 01.03.2025 bzw. 31.12.2025." },
+      { text: "Anmerkung zur Gründung als Beginn der Vorgesellschaft (eigene Ergänzung): Dass auf den **Abschluss des Gesellschaftsvertrags** abzustellen ist und nicht auf die Eintragung im Handelsregister, ist mehr als eine Feinheit. Mit dem notariellen Vertrag entsteht die **Vorgesellschaft**, die körperschaftsteuerlich bereits als Kapitalgesellschaft behandelt wird; die Eintragung wirkt auf diesen Zeitpunkt zurück. Für eine junge Gesellschaft kann der Unterschied mehrere Monate betragen und damit darüber entscheiden, ob ein Ereignis noch in den Betrachtungszeitraum fällt." },
+      { text: "Anmerkung zur Zweiteilung des Verlustes (eigene Ergänzung): Die Abwandlung zeigt das Grundmuster des § 8d KStG bei einem Wechsel des Geschäftsbetriebs in einem einzigen Bild. Der Verlust wird **gespalten**: Was der frühere Geschäftsbetrieb erwirtschaftet hat, geht nach § 8c KStG unter; nur der Verlust des im Betrachtungszeitraum ausgeübten Geschäftsbetriebs wird fortführungsgebunden gerettet. Bemerkenswert ist, dass der Wechsel selbst **unschädlich** ist, solange er vor dem Betrachtungszeitraum liegt – hier fällt er mit dessen Beginn am 01.01.2022 punktgenau zusammen. Läge er nur einen Tag später, wäre § 8d KStG insgesamt ausgeschlossen." },
+      { text: "Anmerkung zur Aufteilungslast und zur Vermutung (eigene Ergänzung): Zwei Verteilungsentscheidungen der Quelle wirken in entgegengesetzte Richtungen und sollten zusammen gelesen werden. Die **Aufteilung des Verlustvortrags** obliegt dem **Steuerpflichtigen** und ist anhand geeigneter Kriterien nachzuweisen – eine Last, die bei jahrzehntelang parallel geführten Betrieben kaum zu erfüllen sein dürfte und praktisch auf eine Schätzung hinausläuft. Umgekehrt greift bei den **stillen Reserven** eine für ihn günstige, widerlegbare Vermutung: Sie gelten als dem **fortgeführten** Geschäftsbetrieb zugehörig und stehen damit dort zur Verschonung zur Verfügung, wo sie am meisten nützen." },
+      { text: "Anmerkung zur Abgrenzung von § 34 Abs. 6a KStG (eigene Ergänzung): Die Quelle warnt ausdrücklich vor einer Verwechslung, und die Unterscheidung ist tatsächlich feinsinnig. § 8d Abs. 1 Satz 1 KStG fragt, ob **im** Betrachtungszeitraum derselbe Geschäftsbetrieb bestand – eine Einstellung **davor** ist unschädlich, kostet aber den auf sie entfallenden Verlustanteil. § 34 Abs. 6a Satz 1 KStG fragt dagegen, ob der **im Betrachtungszeitraum geführte** Geschäftsbetrieb irgendwann **vor dem 01.01.2016** einmal eingestellt oder ruhend gestellt war. Beide Vorschriften schauen also hinter den Betrachtungszeitraum zurück, aber auf verschiedene Betriebe: die eine auf den aufgegebenen, die andere auf den fortgeführten." },
+    ],
+  },
+  {
+    id: "kst-t5-24",
+    kapitel: "24",
+    abschnittNr: "2.3.2.2.1",
+    title: "2.3.2 Definition des Geschäftsbetriebs, mehrere Geschäftsbetriebe und einheitlicher Geschäftsbetrieb",
+    thema: "Vier nicht abschließende qualitative Merkmale bestimmen den Geschäftsbetrieb; mehrere Geschäftsbetriebe schließen § 8d KStG aus, sofern sie nicht einheitlich oder wirtschaftlich geringfügig sind",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 2.3.2 bis 2.3.2.2.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d Abs. 1 Satz 3 KStG",
+      "§ 8d Abs. 1 Satz 4 KStG",
+      "§ 8d Abs. 1 KStG",
+      "§ 8c KStG",
+      "BMF (2), Tz. 18, 20 und 21",
+    ],
+    themen: ["Geschäftsbetrieb", "qualitative Merkmale", "Unternehmensidentität", "Segmentierung", "mehrere Geschäftsbetriebe", "einheitlicher Geschäftsbetrieb", "Förder- und Sachzusammenhang"],
+    bloecke: [
+      { typ: "titel", text: "2.3.2 Definition des Geschäftsbetriebs" },
+      { typ: "titel", text: "2.3.2.1 Qualitative Merkmale" },
+      { text: "Nach dem Gesetzeswortlaut wird auf einen (denselben) Geschäftsbetrieb der Kapitalgesellschaft abgestellt. Was unter einem „Geschäftsbetrieb“ i.S. dieser Vorschrift zu verstehen ist, wird in § 8d Abs. 1 Satz 3 – 4 KStG definiert. Bei dieser Definition orientiert sich der Gesetzgeber einerseits an die gewerbesteuerlichen Merkmale und zum anderen an die Rechtsprechung zur Segmentierung bei der Ermittlung der Gewinnerzielungsabsicht. (Der Kasus „an die gewerbesteuerlichen Merkmale … an die Rechtsprechung“ steht so in der Quelle.)" },
+      { text: "Der Begriff des Geschäftsbetriebs bestimmt sich gem. § 8d Abs. 1 Satz 3 KStG anhand qualitativer Merkmale. Die qualitativen Merkmale, nach denen in Anlehnung an die gewerbesteuerlichen Grundsätze der Unternehmensidentität eine Tätigkeit in einer Gesamtbetrachtung als Geschäftsbetrieb zu qualifizieren ist, sind in § 8d Abs. 1 Satz 4 KStG definiert worden. Dort zählt das Gesetz folgende vier Kriterien auf:" },
+      { text: "• angebotene Dienstleistungen oder Produkte" },
+      { text: "• Kunden- und Lieferantenkreis" },
+      { text: "• bediente Märkte" },
+      { text: "• Qualifikation der Arbeitnehmer" },
+      { text: "Durch die Verwendung des Wortes \"insbesondere\" wird zudem deutlich, dass diese Aufzählung nicht abschließend ist und daher in Einzelfällen u.U. auch andere Kriterien Einfluss in die anzustellende Gesamtbetrachtung finden können. Die Aufzählung liefert nur eine grobe Orientierung, wobei sie im Kern schon die wesentlichen Kriterien aufzählt. Auch besteht zwischen den vier Kriterien keine Rangfolge oder keine Vorgabe dahingehend, dass eine bestimmte Anzahl der Kriterien erfüllt sein muss. Dies lässt im konkreten Einzelfall einen ausreichenden Spielraum. (Die Fügung „keine Rangfolge oder keine Vorgabe“ steht so in der Quelle.)" },
+      { text: "Die o.a. vier Kriterien beinhalten bei genauer Betrachtung auch eine gewisse quantitative Komponente (so insbesondere die bedienten Märkte und der Umfang des Kundenkreises). Da es nach der wertenden Vorgabe des Gesetzgebers entscheidend auf qualitative Merkmale ankommt, darf diesen unterschwellig mitschwingenden quantitativen Aspekten indes keine entscheidende Bedeutung beigemessen werden." },
+      { typ: "titel", text: "2.3.2.2 Mehrere Geschäftsbetriebe" },
+      { text: "Aufgrund des eindeutigen Gesetzeswortlauts ist klar, dass bei Vorliegen von mehreren Geschäftsbetrieben im Betrachtungszeitraum die Anwendung des § 8d KStG bereits ausgeschlossen ist. Für diese Prüfung muss jede Tätigkeit grundsätzlich getrennt betrachtet werden." },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH (Wj. = Kj.), welche in 1996 gegründet worden ist. Mit Wirkung zum 01.03.2025 erwirbt C den 100%igen Anteil an der A-GmbH, welcher über keine stille Reserven verfügt. Zum 31.12.2024 besteht ein Verlustvortrag von 10.000.000 €. In 2025 erzielt die A-GmbH insgesamt einen negativen GdE von -4.000.000 €, welcher in Höhe von -1.000.000 € auf die Zeit bis zum 01.03.2025 entfällt. Die A-GmbH hat seit Gründung einen Autohandel sowie eine Modeboutique als Geschäftsbetrieb ausgeübt." },
+      { text: "Lösung: Die Anwendung des § 8d KStG ist ausgeschlossen. Die A-GmbH übt in dem maßgeblichen Betrachtungszeitraum (01.01.2022 – 01.03.2025) mehrere Geschäftsbetriebe aus, was vom eindeutigen Wortlaut des § 8d Abs. 1 KStG nicht begünstigt ist. Die Verluste der A-GmbH gehen daher in 2025 nach den Grundsätzen des § 8c KStG unter." },
+      { text: "Liegen mehrere Geschäftsbetriebe vor, kann abweichend davon § 8d KStG nur dann angewendet werden, wenn" },
+      { text: "• beide Geschäftsbetriebe als ein „einheitlicher Geschäftsbetrieb“ angesehen werden können oder" },
+      { text: "• ein Geschäftsbetrieb als wirtschaftlich geringfügige Betätigung bezeichnet werden kann." },
+      { typ: "titel", text: "2.3.2.2.1 Einheitlicher Geschäftsbetrieb" },
+      { text: "Bei mehreren Geschäftsbetrieben kann ein einheitlicher Geschäftsbetrieb vorliegen, wenn zwischen den jeweiligen Tätigkeitsbereichen ein gegenseitiger Förder- und Sachzusammenhang besteht. Dies kann z.B. dadurch begründet werden, wenn sich die Tätigkeitsbereiche einander bedingen oder sich als Haupt- und Nebentätigkeit darstellen. Indizien für eine solche Annahme wären z.B. der gemeinsame Außenauftritt unter einer Marke, die gemeinsamen Produkte oder der Lieferanten- und Kundenkreis." },
+      { text: "Bei einer räumlichen Trennung oder einer Andersartigkeit der jeweiligen Tätigkeiten dürfte die Annahme eines einheitlichen Geschäftsbetriebs wohl ausscheiden. Ebenfalls nicht ausreichend wäre hierfür nur eine gemeinsame Buchführung oder Verwaltung der Geschäftsbereiche." },
+      { typ: "tabelle", spalten: ["Indiz", "spricht für einen einheitlichen Geschäftsbetrieb?"], zeilen: [
+        ["die Tätigkeitsbereiche bedingen einander", "ja"],
+        ["Haupt- und Nebentätigkeit", "ja"],
+        ["gemeinsamer Außenauftritt unter einer Marke", "ja"],
+        ["gemeinsame Produkte, gemeinsamer Lieferanten- und Kundenkreis", "ja"],
+        ["räumliche Trennung", "nein"],
+        ["Andersartigkeit der Tätigkeiten", "nein"],
+        ["nur gemeinsame Buchführung oder Verwaltung", "nein – nicht ausreichend"],
+      ] },
+      { text: "Anmerkung zur Herkunft der Merkmale (eigene Ergänzung): Die vier Kriterien des § 8d Abs. 1 Satz 4 KStG wirken beliebig, haben aber eine erkennbare Herkunft, die die Quelle nennt: die gewerbesteuerliche **Unternehmensidentität** des § 10a GewStG und die Rechtsprechung zur **Segmentierung** bei der Gewinnerzielungsabsicht. Damit lässt sich auf einen gewachsenen Bestand an Entscheidungen zurückgreifen, statt den Begriff neu zu entwickeln. Für die Klausur folgt daraus ein praktischer Hinweis: Wer die gewerbesteuerliche Unternehmensidentität beherrscht, kann dieselben Argumente hier verwenden." },
+      { text: "Anmerkung zur offenen Struktur der Prüfung (eigene Ergänzung): Die Quelle betont dreifach, wie wenig fest die Vorgaben sind – die Aufzählung ist durch „insbesondere“ **nicht abschließend**, zwischen den Kriterien besteht **keine Rangfolge**, und eine bestimmte **Anzahl** erfüllter Kriterien ist nicht verlangt. Verlangt ist stattdessen eine **Gesamtbetrachtung**. Das eröffnet Spielraum, verlagert die Schwierigkeit aber auf die Begründung: In der Klausur ist weniger das Ergebnis als die Abwägung der vier Merkmale gegeneinander zu liefern." },
+      { text: "Anmerkung zum Verhältnis von qualitativ und quantitativ (eigene Ergänzung): Die Beobachtung der Quelle, dass in den Kriterien „bediente Märkte“ und „Kundenkreis“ eine **quantitative** Komponente mitschwingt, ist feinsinnig und praktisch bedeutsam. Ein Unternehmen, das dieselben Produkte statt regional nun bundesweit vertreibt, verändert der Zahl nach viel und der Art nach nichts. Nach der Wertung des Gesetzgebers darf diese Größenveränderung **nicht** den Ausschlag geben – Wachstum allein ändert den Geschäftsbetrieb also nicht. Wo die Grenze zur Andersartigkeit verläuft, sagt die Quelle allerdings nicht." },
+      { text: "Anmerkung zur Härte des Ausschlusses (eigene Ergänzung): Dass **mehrere** Geschäftsbetriebe die Anwendung des § 8d KStG von vornherein ausschließen, trifft gerade mittelständische Gesellschaften, die historisch zwei Standbeine haben – im Beispiel Autohandel und Modeboutique. Die Norm begünstigt damit das schmale, unveränderte Unternehmen und benachteiligt das diversifizierte, obwohl beim zweiten die Gefahr eines Mantelkaufs eher geringer ist. Die beiden Ausnahmen – einheitlicher Geschäftsbetrieb und wirtschaftlich geringfügige Betätigung – mildern das ab, sind aber eng gefasst." },
+      { text: "Anmerkung zur Abgrenzung des einheitlichen Geschäftsbetriebs (eigene Ergänzung): Die Kriterien lassen sich auf eine Frage zuspitzen: Sind die Tätigkeiten **aufeinander angewiesen** oder stehen sie nur zufällig nebeneinander? Der geforderte **gegenseitige** Förder- und Sachzusammenhang schließt den einseitigen Fall aus, in dem nur ein Bereich vom anderen profitiert. Die ausdrückliche Absage an die bloß gemeinsame **Buchführung oder Verwaltung** zieht die Grenze an der richtigen Stelle: Eine gemeinsame Organisation lässt sich jederzeit herstellen und sagt über die wirtschaftliche Verbindung nichts aus. Die Formulierungen der Quelle („dürfte … wohl“) zeigen zugleich, dass es sich weitgehend um Verwaltungsauffassung ohne gefestigte Rechtsprechung handelt." },
     ],
   },
 ];

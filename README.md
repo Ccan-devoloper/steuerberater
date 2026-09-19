@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 22 Kapitel mit 431 Abschnitten und 57 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 24 Kapitel mit 481 Abschnitten und 60 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4036,6 +4036,46 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Fehlbetrag wegen der Hinzurechnungen und Kürzungen der §§ 8, 9 GewStG abweicht, ist für diesen
   Mehrbetrag ein eigener Antrag nötig. § 36 Abs. 5a GewStG erfasst dabei auch Erhebungszeiträume vor
   2020.
+  Der **Betrachtungszeitraum** besteht aus zwei Fenstern mit gleichem Beginn. **Zeitraum A** reicht vom
+  Beginn des dritten dem Erwerbsjahr vorausgehenden Veranlagungszeitraums – bei einem Erwerb in 2025
+  also vom 01.01.2022 – bis zum schädlichen Anteilserwerb und prüft, ob **derselbe Geschäftsbetrieb**
+  bestand. **Zeitraum B** beginnt am selben Tag, endet aber erst zum Ende des Erwerbsjahres und prüft
+  die **schädlichen Ereignisse** des § 8d Abs. 2 KStG; zusammen sind das die vier Veranlagungszeiträume
+  2022 bis 2025. Für die Gründung zählt dabei der **Abschluss des Gesellschaftsvertrags** und damit der
+  Beginn der Vorgesellschaft, nicht die Eintragung im Handelsregister – bei jungen Gesellschaften kann
+  das mehrere Monate ausmachen.
+  Ein **Wechsel** oder die Einstellung eines zweiten Geschäftsbetriebs **vor** dem Betrachtungszeitraum
+  ist unschädlich, spaltet den Verlust aber in zwei Teile: Was der frühere Betrieb erwirtschaftet hat,
+  bleibt von § 8d KStG ausgenommen und geht nach § 8c KStG unter. In der Abwandlung der Quelle sind
+  das 1.000.000 € von 1.300.000 €, so dass nur die vier Jahresverluste des Autohandels von zusammen
+  400.000 € fortführungsgebunden erhalten bleiben – der Wechsel fällt dort punktgenau mit dem Beginn
+  des Betrachtungszeitraums am 01.01.2022 zusammen; einen Tag später wäre § 8d KStG insgesamt
+  ausgeschlossen. Die **Aufteilung** des Verlustvortrags obliegt dem Steuerpflichtigen und läuft
+  praktisch auf eine Schätzung hinaus; bei den **stillen Reserven** gilt umgekehrt die für ihn günstige
+  widerlegbare Vermutung, dass sie dem fortgeführten Geschäftsbetrieb zuzurechnen sind. Nicht zu
+  verwechseln ist all das mit § 34 Abs. 6a Satz 1 KStG: Beide Vorschriften schauen hinter den
+  Betrachtungszeitraum zurück, aber auf verschiedene Betriebe – die eine auf den aufgegebenen, die
+  andere auf den fortgeführten.
+  Den **Geschäftsbetrieb** selbst bestimmen nach § 8d Abs. 1 Sätze 3 und 4 KStG vier **qualitative**
+  Merkmale: angebotene Dienstleistungen oder Produkte, Kunden- und Lieferantenkreis, bediente Märkte
+  und Qualifikation der Arbeitnehmer. Sie sind der gewerbesteuerlichen **Unternehmensidentität** und
+  der Rechtsprechung zur **Segmentierung** entlehnt – wer jene beherrscht, kann dieselben Argumente
+  hier verwenden. Die Aufzählung ist durch „insbesondere“ **nicht abschließend**, es besteht **keine
+  Rangfolge** und keine Mindestzahl erfüllter Merkmale; verlangt ist eine **Gesamtbetrachtung**, so
+  dass in der Klausur weniger das Ergebnis als die Abwägung zählt. Die in „bediente Märkte“ und
+  „Kundenkreis“ mitschwingende **quantitative** Komponente darf nicht den Ausschlag geben: Bloßes
+  Wachstum – dieselben Produkte statt regional nun bundesweit – ändert den Geschäftsbetrieb nicht.
+  **Mehrere** Geschäftsbetriebe im Betrachtungszeitraum schließen § 8d KStG von vornherein aus, und
+  jede Tätigkeit ist dafür getrennt zu betrachten. Das trifft gerade mittelständische Gesellschaften
+  mit zwei historischen Standbeinen – im Beispiel Autohandel und Modeboutique – und begünstigt damit
+  das schmale, unveränderte Unternehmen, obwohl beim diversifizierten die Gefahr eines Mantelkaufs
+  eher geringer ist. Es helfen nur zwei eng gefasste Ausnahmen: der **einheitliche Geschäftsbetrieb**
+  und die wirtschaftlich **geringfügige** Betätigung. Ersterer verlangt einen **gegenseitigen** Förder-
+  und Sachzusammenhang – die Tätigkeiten bedingen einander oder stehen als Haupt- und Nebentätigkeit
+  zueinander, Indizien sind gemeinsamer Außenauftritt unter einer Marke, gemeinsame Produkte und ein
+  gemeinsamer Lieferanten- und Kundenkreis. Räumliche Trennung oder Andersartigkeit sprechen dagegen,
+  und eine bloß gemeinsame **Buchführung oder Verwaltung** genügt ausdrücklich nicht: Sie lässt sich
+  jederzeit herstellen und sagt über die wirtschaftliche Verbindung nichts aus.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
