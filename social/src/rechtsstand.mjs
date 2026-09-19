@@ -1093,6 +1093,34 @@ function korrigiereHaftung74(thema) {
   };
 }
 
+
+function korrigiereVollstreckung(thema) {
+  normErgaenzen(thema, "§ 254 Abs. 1 AO", "§ 259 AO", "VollstrA Abschn. 19");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Für den Beginn der Vollstreckung sind die Vollstreckbarkeit des Verwaltungsakts sowie die besonderen Voraussetzungen des § 254 AO zu prüfen. Grundsätzlich müssen die Leistung fällig, ein Leistungsgebot ergangen und seit der Aufforderung mindestens eine Woche verstrichen sein.",
+      "Die Mahnung nach § 259 AO ist davon zu trennen: Der Vollstreckungsschuldner soll in der Regel vor Beginn der Vollstreckung mit einer Zahlungsfrist von einer Woche gemahnt werden. Sie ist aber keine zwingende Rechtmäßigkeitsvoraussetzung; nach Abschn. 19 Abs. 3 VollstrA macht ihr Unterbleiben oder ein Beginn vor Ablauf der Mahnfrist die Vollstreckungsmaßnahme nicht unzulässig.",
+      "Ausnahmen vom Leistungsgebot und damit von der §-254-Wochenfrist sind gesondert zu prüfen, insbesondere bei nicht entrichteten, vom Vollstreckungsschuldner selbst angemeldeten Steuern.",
+    ],
+    lernziele: [
+      "Vollstreckbarkeit und Voraussetzungen des Vollstreckungsbeginns getrennt prüfen",
+      "Fälligkeit, Leistungsgebot und §-254-Wochenfrist als Grundregeln beherrschen",
+      "Ausnahmen vom Leistungsgebot nach § 254 AO erkennen",
+      "Mahnung nach § 259 AO als Soll-Regel und nicht als zwingende Vollstreckungsvoraussetzung einordnen",
+      "erst anschließend die Rechtmäßigkeit der konkreten Vollstreckungsmaßnahme prüfen",
+    ],
+    pruefschritte: [
+      "Vollstreckbaren Verwaltungsakt und fehlende Vollstreckungshindernisse prüfen (§§ 249, 251, 361 AO).",
+      "Fälligkeit der Leistung bestimmen (§ 220 AO).",
+      "§ 254 Abs. 1 AO prüfen: grundsätzlich Leistungsgebot und Ablauf von mindestens einer Woche seit der Aufforderung; gesetzliche Ausnahmen gesondert beachten.",
+      "Mahnung nach § 259 AO separat würdigen: grundsätzlich Soll-Mahnung mit Wochenfrist, aber keine zwingende Rechtmäßigkeitsvoraussetzung der Vollstreckung.",
+      "Danach die Voraussetzungen der konkret gewählten Vollstreckungsmaßnahme prüfen.",
+    ],
+    merksatz: "Nicht § 259 mit § 254 verwechseln: Leistungsgebot + mindestens eine Woche sind grundsätzlich Startvoraussetzungen; die Mahnung ist nur Soll-Regel und ihr Fehlen macht die Vollstreckung nicht automatisch rechtswidrig.",
+  };
+}
+
 function korrigiereGuEBekanntgabe(thema) {
   normErgaenzen(thema, "§ 14a Abs. 2–4 AO", "§ 183 AO", "§ 183a AO", "Art. 97 § 39 Abs. 3 EGAO");
   thema.kern = {
@@ -1464,6 +1492,8 @@ export function socialKorrekturenAnwenden(pool) {
       case "ao-modul-ao-352": korrigiereAo129(thema); break;
       case "ao-modul-ao-354": korrigiereAo173(thema); break;
       case "ao-modul-ao-363": korrigiereAo177(thema); break;
+      case "ao-modul-ao-367": korrigiereVollstreckung(thema); break;
+      case "ao-modul-ao-384": korrigiereVollstreckung(thema); break;
       case "ao-modul-ao-371": korrigiereWiedereinsetzung(thema); break;
       case "ao-modul-ao-373": korrigiereWiedereinsetzung(thema); break;
       case "ao-modul-ao-375": korrigiereGuEBekanntgabe(thema); break;
