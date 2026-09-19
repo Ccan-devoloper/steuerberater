@@ -7,7 +7,7 @@
    ========================================================================== */
 
 export function rechtsstandJahre(datum = new Date()) {
-  const aktuell = Number(datum.getFullYear());
+  const aktuell = Number(new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", year: "numeric" }).format(datum));
   return { aktuell, vorjahr: aktuell - 1 };
 }
 
