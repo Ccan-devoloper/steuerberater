@@ -217,6 +217,15 @@ test("Latente Steuern berücksichtigen auch steuerliche Verlustvorträge", () =>
   assert.match(kern(t), /§ 274a HGB/);
 });
 
+
+test("§34-Fünftelregelung hat keine Alters- oder Einmalgrenze", () => {
+  const t = byId("bilanz-modul-k3-47");
+  assert.match(kern(t), /Fünftelregelung nach § 34 Abs\. 1[^"]*keine Altersgrenze/);
+  assert.match(kern(t), /keine Einmal-im-Leben-Beschränkung/);
+  assert.match(kern(t), /§ 34 Abs\. 3[^"]*einmal im Leben/);
+  assert.doesNotMatch(kern(t), /Fünftelregelung und den ermäßigten Steuersatz[^"]*Beide setzen bei der Altersgrenze an/);
+});
+
 test("Realteilung erfasst auch die unechte Realteilung", () => {
   const karte = byTitle(/Realteilung oder Sachwertabfindung/i);
   assert.match(kern(karte), /unechte Realteilung/i);
