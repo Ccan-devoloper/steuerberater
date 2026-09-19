@@ -40,6 +40,16 @@ test("§ 9 AStG verwendet Einkünfte und kennzeichnet 2025/2026", () => {
   assert.match(auftrag, /80\.000/);
 });
 
+test("Wirtschaftliches Eigentum bei Miete/Leasing ist keine absolute Nie-Regel", () => {
+  const t = byId("bilanz-modul-k3-2");
+  assert.match(kern(t), /Mieter oder Pächter.*in der Regel nicht wirtschaftlicher Eigentümer/i);
+  assert.match(kern(t), /keine ausnahmslose Regel/i);
+  assert.match(kern(t), /Leasing.*wirtschaftliches Eigentum.*liegen/i);
+  assert.match(kern(t), /gewöhnliche Nutzungsdauer/i);
+  assert.match(kern(t), /Kauf- oder Verlängerungsoption|Spezialleasing/i);
+  assert.doesNotMatch(kern(t), /Mietverhältnis begründet niemals.*wirtschaftliches Eigentum/i);
+});
+
 test("Ersatzbeschaffungsrücklage enthält vollständige Verwaltungsfristen und BFH-Abweichung", () => {
   const t = byId("bilanz-modul-k3-26");
   assert.match(kern(t), /bewegliche[sr]? Wirtschaftsgut.*(?:grundsätzlich )?ein Jahr/i);
