@@ -408,6 +408,17 @@ test("§71-AO-Modul macht fremden Vorteil nicht zum Tatbestandsmerkmal", () => {
   assert.doesNotMatch(kern(t), /Steuerhinterziehung muss zum fremden Vorteil erfolgt sein/);
 });
 
+test("§74-AO-Modul enthält Beteiligungsgrenze und gegenstandsgebundenen Haftungsumfang", () => {
+  const t = byId("ao-modul-ao-393");
+  assert.match(kern(t), /mehr als einem Viertel|mehr als 25 %/i);
+  assert.match(kern(t), /beherrschenden Einfluss/);
+  assert.match(kern(t), /durch sein Verhalten.*nicht entrichtet/i);
+  assert.match(kern(t), /während des Bestehens der wesentlichen Beteiligung/);
+  assert.match(kern(t), /mit den.*Gegenständen|gegenstandsgebunden/i);
+  assert.match(kern(t), /wesentliche Betriebsgrundlage.*nicht erforderlich|nicht.*wesentliche Betriebsgrundlage/i);
+  assert.doesNotMatch(kern(t), /jeden Vermieter.*automatisch/i);
+});
+
 test("GuE-Bekanntgabe bildet das Ende der Übergangsregel 2025/2026 ab", () => {
   const t = byId("ao-modul-ao-375");
   assert.match(kern(t), /§ 183 Abs\. 2 S\. 1 Nr\. 2/);
