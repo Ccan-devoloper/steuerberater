@@ -650,6 +650,270 @@ function korrigiereTeileinkuenfte(thema) {
   normErgaenzen(thema, "§ 8b Abs. 1–5 KStG");
 }
 
+function korrigiereAo164Vdn(thema) {
+  normErgaenzen(thema, "§ 164 Abs. 4 AO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Der Vorbehalt der Nachprüfung entfällt grundsätzlich mit Ablauf der für die Steuerfestsetzung maßgeblichen Festsetzungsfrist (§ 164 Abs. 4 S. 1 AO).",
+      "Für die Frage, wann der Vorbehalt entfällt, schließt § 164 Abs. 4 S. 2 AO nur § 169 Abs. 2 S. 2, § 170 Abs. 6 sowie § 171 Abs. 7, 8 und 10 AO aus. Andere im konkreten Fall einschlägige Anlauf- oder Ablaufhemmungen können den Fristablauf und damit den Fortbestand des Vorbehalts beeinflussen.",
+    ],
+    lernziele: [
+      "Entstehung und Fortbestand des Vorbehalts der Nachprüfung unterscheiden",
+      "Änderungen nach § 164 Abs. 2 AO nur solange der Vorbehalt wirksam ist vornehmen",
+      "§ 164 Abs. 4 S. 2 AO als Ausschlussliste lesen",
+      "nicht nur § 171 Abs. 3, 3a und 4 AO, sondern jede nach § 164 Abs. 4 S. 2 nicht ausgeschlossene einschlägige Fristregel prüfen",
+    ],
+    pruefschritte: [
+      "Vorbehalt im Bescheid oder kraft Gesetzes feststellen.",
+      "Prüfen, ob der Vorbehalt ausdrücklich aufgehoben wurde.",
+      "Andernfalls den Ablauf der Festsetzungsfrist bestimmen.",
+      "Dabei § 164 Abs. 4 S. 2 AO beachten: § 169 Abs. 2 S. 2, § 170 Abs. 6 sowie § 171 Abs. 7, 8 und 10 AO verlängern den Vorbehalt nicht.",
+      "Alle übrigen im Fall einschlägigen Fristvorschriften berücksichtigen; insbesondere darf die Prüfung nicht pauschal auf § 171 Abs. 3, 3a und 4 AO beschränkt werden.",
+      "Nur bei noch wirksamem Vorbehalt nach § 164 Abs. 2 AO ändern.",
+    ],
+    merksatz: "§ 164 Abs. 4 S. 2 AO enthält eine Ausschlussliste. Deshalb nicht nur drei ausgewählte Ablaufhemmungen prüfen, sondern alle einschlägigen Fristregeln – außer den dort ausdrücklich ausgeschlossenen.",
+  };
+}
+
+function korrigiereAo129(thema) {
+  normErgaenzen(thema, "§ 129 S. 1–3 AO", "§ 171 Abs. 2 S. 1 AO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 129 AO erfasst Schreib-, Rechen- und ähnliche offenbare mechanische Unrichtigkeiten beim Erlass eines Verwaltungsakts; ein Rechts- oder Tatsachenwürdigungsfehler darf nicht ernstlich in Betracht kommen.",
+      "Satz 1 eröffnet grundsätzlich Ermessen. Satz 2 begründet nur bei berechtigtem Interesse des Beteiligten einen Anspruch auf Berichtigung; er ist kein pauschaler Berichtigungszwang in jedem §-129-Fall.",
+    ],
+    lernziele: [
+      "mechanische offenbare Unrichtigkeit von Rechts- und Denkfehlern abgrenzen",
+      "Eigenfehler und übernommene mechanische Fehler einordnen",
+      "Ermessen nach § 129 S. 1 und Anspruch bei berechtigtem Interesse nach S. 2 unterscheiden",
+      "Festsetzungsverjährung und § 171 Abs. 2 S. 1 AO trotz des Wortes „jederzeit“ beachten",
+    ],
+    pruefschritte: [
+      "Schreib-, Rechen- oder vergleichbaren mechanischen Fehler feststellen.",
+      "Prüfen, ob ein Rechts- oder Tatsachenwürdigungsfehler ernstlich ausgeschlossen ist.",
+      "Offenbarkeit anhand der maßgeblichen Unterlagen und des Bearbeitungsvorgangs prüfen.",
+      "Bei Übernahme eines Fehlers des Steuerpflichtigen prüfen, ob die Finanzbehörde ihn als eigenen mechanischen Fehler übernommen hat.",
+      "Rechtsfolge trennen: § 129 S. 1 grundsätzlich Ermessen; bei berechtigtem Interesse des Beteiligten besteht nach S. 2 ein Berichtigungsanspruch.",
+      "Bei Steuerfestsetzungen Festsetzungsfrist und Ablaufhemmung des § 171 Abs. 2 S. 1 AO prüfen.",
+    ],
+    merksatz: "§ 129 S. 2 bedeutet nicht „immer zwingend“: Der Anspruch des Beteiligten setzt ein berechtigtes Interesse voraus; im Übrigen gilt Satz 1.",
+  };
+}
+
+function korrigiereAo173(thema) {
+  normErgaenzen(thema, "§ 173 Abs. 1 Nr. 1 und 2 AO", "AEAO zu § 173 Nr. 4");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 173 Abs. 1 Nr. 1 AO verlangt nach dem Gesetz neue Tatsachen oder Beweismittel, die zu einer höheren Steuer führen. Ein Ermittlungsfehler des Finanzamts ist kein zusätzliches geschriebenes Tatbestandsmerkmal.",
+      "Nach dem Grundsatz von Treu und Glauben kann eine Änderung zuungunsten des Steuerpflichtigen ausnahmsweise ausgeschlossen sein, wenn der Steuerpflichtige seine Mitwirkungspflichten erfüllt hat und das nachträgliche Bekanntwerden auf einer Verletzung der Ermittlungspflicht des Finanzamts beruht. Bei beiderseitigen Pflichtverletzungen ist abzuwägen.",
+      "§ 173 Abs. 1 Nr. 2 AO enthält dagegen ausdrücklich die Voraussetzung, dass den Steuerpflichtigen am nachträglichen Bekanntwerden kein grobes Verschulden trifft; die Zusammenhangsregel des Satzes 2 ist gesondert zu beachten.",
+    ],
+    lernziele: [
+      "Tatsache oder Beweismittel von bloßer rechtlicher Würdigung unterscheiden",
+      "nachträgliches Bekanntwerden und Rechtserheblichkeit prüfen",
+      "Nr. 1 und Nr. 2 nach Änderungsrichtung trennen",
+      "bei Nr. 1 einen möglichen Treu-und-Glauben-Ausschluss wegen Ermittlungsfehlern nur nach Mitwirkungs- und Ermittlungspflichten prüfen",
+      "bei Nr. 2 grobes Verschulden und die Zusammenhangsregel des § 173 Abs. 1 Nr. 2 S. 2 AO prüfen",
+      "Sperre des § 173 Abs. 2 AO beachten",
+    ],
+    pruefschritte: [
+      "Tatsache oder Beweismittel identifizieren; bloße rechtliche Neubewertung reicht nicht.",
+      "Prüfen, ob die Tatsache bereits bei Erlass des zu ändernden Bescheids vorhanden war; ein späteres rückwirkendes Ereignis gehört grundsätzlich zu § 175 Abs. 1 S. 1 Nr. 2 AO.",
+      "Nachträgliches Bekanntwerden und Rechtserheblichkeit feststellen.",
+      "Richtung bestimmen: Nr. 1 höhere Steuer, Nr. 2 niedrigere Steuer.",
+      "Bei Nr. 1: gesetzliche Voraussetzungen prüfen; danach gesondert Treu und Glauben bei etwaiger Verletzung der Ermittlungspflicht des Finanzamts und erfüllter Mitwirkungspflicht des Steuerpflichtigen würdigen.",
+      "Bei Nr. 2: kein grobes Verschulden des Steuerpflichtigen am nachträglichen Bekanntwerden; Zusammenhangsregel in Satz 2 prüfen.",
+      "§ 173 Abs. 2 AO und Festsetzungsfrist abschließend prüfen.",
+    ],
+    merksatz: "Bei § 173 Nr. 1 ist „kein Ermittlungsfehler des Finanzamts“ kein eigener Gesetzestatbestand. Ein Ermittlungsfehler wirkt nur über Treu und Glauben und nur nach Würdigung der beiderseitigen Pflichten.",
+  };
+}
+
+function korrigiereFeststellungsbescheid181(thema) {
+  normErgaenzen(thema, "§ 181 Abs. 5 AO", "§ 182 Abs. 1 AO");
+  thema.titel = "Feststellungsbescheid: Bindungswirkung und Sonderfall § 181 Abs. 5 AO";
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "Ein wirksamer Feststellungsbescheid entfaltet nach § 182 Abs. 1 AO Bindungswirkung für Folgebescheide, soweit seine Feststellungen dort von Bedeutung sind.",
+      "§ 181 Abs. 5 AO betrifft einen Sonderfall: Ist die eigene Feststellungsfrist bereits abgelaufen, kann eine gesonderte Feststellung trotzdem noch ergehen, soweit sie für eine Steuerfestsetzung mit noch offener Festsetzungsfrist von Bedeutung ist; § 171 Abs. 10 AO bleibt bei dieser Prüfung außer Betracht.",
+      "Nur für diesen verspäteten Feststellungsbescheid verlangt § 181 Abs. 5 S. 2 AO den besonderen Hinweis. Ein fehlender Hinweis macht einen Feststellungsbescheid nicht allgemein „unwirksam“ oder nichtig.",
+    ],
+    lernziele: [
+      "allgemeine Bindungswirkung des § 182 Abs. 1 AO von § 181 Abs. 5 AO trennen",
+      "eigene Feststellungsfrist zuerst prüfen",
+      "§ 181 Abs. 5 nur bei bereits abgelaufener Feststellungsfrist anwenden",
+      "offene Festsetzungsfrist des Folgebescheids ohne § 171 Abs. 10 AO prüfen",
+      "besonderen Hinweis nach § 181 Abs. 5 S. 2 AO nicht als allgemeine Wirksamkeitsvoraussetzung behandeln",
+    ],
+    pruefschritte: [
+      "Wirksamen Feststellungsbescheid und seinen Regelungsumfang bestimmen.",
+      "Bindungswirkung nach § 182 Abs. 1 AO für den konkreten Folgebescheid prüfen.",
+      "Nur wenn die Feststellungsfrist bereits abgelaufen ist, § 181 Abs. 5 AO prüfen.",
+      "Dann feststellen, ob die Feststellung für eine Steuerfestsetzung mit noch offener Festsetzungsfrist von Bedeutung ist; § 171 Abs. 10 AO bleibt dabei außer Betracht.",
+      "Beim nach § 181 Abs. 5 erlassenen Feststellungsbescheid den Hinweis nach Satz 2 beachten.",
+    ],
+    merksatz: "§ 181 Abs. 5 ist keine allgemeine „Wirksamkeitsformel“. Der Wirkhinweis gehört zum Sonderfall der Feststellung nach Ablauf der eigenen Feststellungsfrist; die Bindungswirkung folgt grundsätzlich aus § 182 Abs. 1 AO.",
+  };
+}
+
+function korrigiereAo177(thema) {
+  normErgaenzen(thema, "§ 177 Abs. 1–4 AO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 177 AO ist keine selbständige Änderungsnorm. Er setzt voraus, dass ein Steuerbescheid aus einem anderen Grund aufgehoben oder geändert werden darf.",
+      "Der Begriff des materiellen Fehlers ist in § 177 Abs. 3 AO legaldefiniert: Er umfasst jeden Fehler einschließlich offenbarer Unrichtigkeiten nach § 129 AO, der zu einer Steuer führt, die von der kraft Gesetzes entstandenen Steuer abweicht. Dass der Fehler selbst nicht mehr eigenständig korrigierbar ist, gehört nicht zur Definition.",
+    ],
+    lernziele: [
+      "anderweitige Änderungsbefugnis als Türöffner für § 177 AO erkennen",
+      "materiellen Fehler nach der Legaldefinition des § 177 Abs. 3 AO bestimmen",
+      "nicht voraussetzen, dass der materielle Fehler selbst unkorrigierbar sein muss",
+      "Berichtigungsrahmen nach Abs. 1 oder 2 bestimmen",
+      "§ 176 sowie §§ 164 Abs. 2 und 165 Abs. 2 AO beachten",
+    ],
+    pruefschritte: [
+      "Zuerst eine anderweitige Aufhebungs- oder Änderungsbefugnis für den Steuerbescheid feststellen.",
+      "Änderungsrichtung bestimmen und daraus den Rahmen nach § 177 Abs. 1 oder 2 AO ableiten.",
+      "Materielle Fehler nach § 177 Abs. 3 AO identifizieren: jede Abweichung der festgesetzten von der kraft Gesetzes entstandenen Steuer, einschließlich §-129-Fehlern.",
+      "Die anderen materiellen Fehler innerhalb des eröffneten Änderungsrahmens zugunsten und zuungunsten berücksichtigen.",
+      "§ 164 Abs. 2, § 165 Abs. 2 und § 176 AO bleiben unberührt.",
+    ],
+    merksatz: "§ 177 braucht eine andere Änderungsöffnung. „Materieller Fehler“ bedeutet aber nicht „nicht mehr selbständig korrigierbarer Fehler“, sondern jede gesetzeswidrige Abweichung i.S.d. Abs. 3.",
+  };
+}
+
+function korrigiereWiedereinsetzung(thema) {
+  normErgaenzen(thema, "§ 110 AO", "§ 56 FGO");
+  const basis = {
+    ...thema.kern,
+    einordnung: [
+      "Wiedereinsetzung setzt die unverschuldete Versäumung einer gesetzlichen Frist voraus. Für das außergerichtliche Besteuerungs- und Einspruchsverfahren gilt § 110 AO; für Fristen im finanzgerichtlichen Verfahren gilt § 56 FGO.",
+      "Die Antragsfristen unterscheiden sich: § 110 Abs. 2 AO grundsätzlich ein Monat nach Wegfall des Hindernisses; § 56 Abs. 2 FGO grundsätzlich zwei Wochen. Nur bei versäumter Begründungsfrist für Revision oder Nichtzulassungsbeschwerde beträgt die FGO-Frist einen Monat.",
+    ],
+    merksatz: "AO und FGO nicht vermischen: § 110 AO = grundsätzlich ein Monat; § 56 FGO = grundsätzlich zwei Wochen, mit der gesetzlichen Monats-Ausnahme für bestimmte Begründungsfristen.",
+  };
+  if (thema.id === "ao-modul-ao-371") {
+    basis.lernziele = [
+      "gesetzliche von behördlichen Fristen unterscheiden",
+      "§ 110 AO für außergerichtliche Fristen und § 56 FGO für gerichtliche Fristen auseinanderhalten",
+      "fehlendes Verschulden prüfen; leichte Fahrlässigkeit schadet grundsätzlich",
+      "Vertreterverschulden zurechnen",
+      "unterschiedliche Antragsfristen von AO und FGO sicher anwenden",
+    ];
+    basis.pruefschritte = [
+      "Versäumte Frist bestimmen und prüfen, ob sie gesetzlich ist.",
+      "Verfahrensordnung zuordnen: außergerichtlich § 110 AO, finanzgerichtlich § 56 FGO.",
+      "Fehlendes eigenes und zurechenbares Vertreterverschulden prüfen.",
+      "Antragsfrist ab Wegfall des Hindernisses bestimmen: AO ein Monat; FGO grundsätzlich zwei Wochen.",
+      "Versäumte Handlung innerhalb der jeweiligen Antragsfrist nachholen und erforderliche Tatsachen glaubhaft machen.",
+      "Jahresausschluss nach § 110 Abs. 3 AO bzw. § 56 Abs. 3 FGO prüfen.",
+    ];
+  } else {
+    basis.lernziele = [
+      "Monatsfrist des § 110 Abs. 2 AO nach Wegfall des Hindernisses berechnen",
+      "Tatsachen zur Begründung glaubhaft machen",
+      "versäumte Handlung innerhalb der Antragsfrist nachholen",
+      "Wiedereinsetzung ohne ausdrücklichen Antrag bei rechtzeitiger Nachholung erkennen",
+      "für gerichtliche FGO-Fristen stattdessen § 56 FGO mit grundsätzlich zwei Wochen anwenden",
+    ];
+    basis.pruefschritte = [
+      "Für eine AO-Frist: Wegfall des Hindernisses feststellen und Monatsfrist des § 110 Abs. 2 AO berechnen.",
+      "Tatsachen zur Begründung des fehlenden Verschuldens bei Antragstellung oder im Verfahren glaubhaft machen.",
+      "Versäumte Handlung innerhalb der Monatsfrist nachholen.",
+      "Ist die Handlung rechtzeitig nachgeholt, kann Wiedereinsetzung nach § 110 Abs. 2 S. 4 AO auch ohne ausdrücklichen Antrag gewährt werden.",
+      "Bei einer gerichtlichen Frist nicht § 110 AO übertragen, sondern § 56 FGO anwenden; dort gilt grundsätzlich eine Zweiwochenfrist.",
+      "Jahresgrenze des § 110 Abs. 3 AO beachten.",
+    ];
+  }
+  thema.kern = basis;
+}
+
+function korrigiereSelbstanzeige371(thema) {
+  normErgaenzen(thema, "§ 371 Abs. 1–3 AO", "§ 398a AO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 371 Abs. 1 AO verlangt eine vollständige Berichtigung für alle Steuerstraftaten einer Steuerart im gesetzlich geforderten Umfang. Die Angaben müssen alle unverjährten Steuerstraftaten erfassen, mindestens aber alle Steuerstraftaten dieser Steuerart innerhalb der letzten zehn Kalenderjahre.",
+      "Die Sperrgründe des § 371 Abs. 2 AO sind tat- und umfangsbezogen zu prüfen. Übersteigt die verkürzte Steuer oder der erlangte Steuervorteil 25.000 € je Tat, tritt nach § 371 Abs. 2 S. 1 Nr. 3 keine Straffreiheit nach § 371 ein; unter den Voraussetzungen des § 398a AO kann jedoch von Strafverfolgung abgesehen werden.",
+      "Für Umsatzsteuer- und Lohnsteuer-Voranmeldungen enthält § 371 Abs. 2a AO eine Sonderregel; Jahresanmeldungen fallen nicht unter diese Erleichterung.",
+    ],
+    lernziele: [
+      "Vollständigkeitsgebot einschließlich Zehn-Kalenderjahres-Mindestumfang anwenden",
+      "Sperrgründe des § 371 Abs. 2 AO einzeln und tatbezogen prüfen",
+      "25.000-€-Grenze des § 371 Abs. 2 S. 1 Nr. 3 AO von § 398a AO unterscheiden",
+      "Sonderregel des § 371 Abs. 2a AO für Umsatzsteuer- und Lohnsteuer-Voranmeldungen erkennen",
+      "Nachentrichtungsvoraussetzungen des § 371 Abs. 3 AO prüfen",
+    ],
+    pruefschritte: [
+      "Zunächst vollständige Berichtigung, Ergänzung oder Nachholung für die betroffene Steuerart sicherstellen.",
+      "Zeitraum bestimmen: alle unverjährten Steuerstraftaten, mindestens aber alle Steuerstraftaten der Steuerart innerhalb der letzten zehn Kalenderjahre.",
+      "Sperrgründe des § 371 Abs. 2 AO je Tat prüfen, insbesondere Prüfungsanordnung/Ermittlungsmaßnahmen, Tatentdeckung, Betrag über 25.000 € je Tat und besonders schweren Fall.",
+      "Bei Umsatzsteuer- oder Lohnsteuer-Voranmeldungen die Sonderregel des § 371 Abs. 2a AO gesondert prüfen.",
+      "Soweit § 371 Abs. 3 AO eingreift, hinterzogene Steuern und die dort genannten Zinsen innerhalb der bestimmten angemessenen Frist entrichten.",
+      "Bei Sperre wegen § 371 Abs. 2 S. 1 Nr. 3 oder 4 AO prüfen, ob § 398a AO ein Absehen von Strafverfolgung ermöglicht.",
+    ],
+    merksatz: "Selbstanzeige: vollständig je Steuerart – alle unverjährten Taten, mindestens die letzten zehn Kalenderjahre. Die 25.000-€-Grenze sperrt § 371, kann aber § 398a eröffnen.",
+  };
+}
+
+function korrigiereHaftung69(thema) {
+  normErgaenzen(thema, "§ 69 AO", "§§ 34, 35 AO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 69 AO setzt voraus, dass eine in §§ 34 oder 35 AO bezeichnete Person eine ihr auferlegte steuerliche Pflicht vorsätzlich oder grob fahrlässig verletzt und dadurch ein dort genannter Steuerausfall oder eine unberechtigte Vergütung/Erstattung verursacht wird.",
+      "Die Organstellung als GmbH-Geschäftsführer ersetzt die Verschuldensprüfung nicht. Grobe Fahrlässigkeit ist nach den Umständen des Einzelfalls zu prüfen; für einzelne Pflichtverletzungen, etwa die Nichtabführung einbehaltener Lohnsteuer, bestehen allerdings strenge Rechtsprechungsgrundsätze.",
+    ],
+    lernziele: [
+      "haftenden Personenkreis nach §§ 34, 35 AO bestimmen",
+      "konkrete steuerliche Pflicht und deren Verletzung feststellen",
+      "Vorsatz oder grobe Fahrlässigkeit einzelfallbezogen prüfen",
+      "Kausalität zwischen Pflichtverletzung und Steuerausfall bestimmen",
+      "bei Liquiditätsmangel anteilige Tilgung und Sonderregeln insbesondere zur Lohnsteuer beachten",
+      "Haftungsbescheid und Ermessen nach § 191 AO anschließend prüfen",
+    ],
+    pruefschritte: [
+      "Person nach §§ 34 oder 35 AO feststellen.",
+      "Anspruch aus dem Steuerschuldverhältnis und konkrete Pflicht des Vertreters bestimmen.",
+      "Pflichtverletzung feststellen.",
+      "Vorsatz oder grobe Fahrlässigkeit anhand des konkreten Verhaltens prüfen; keine automatische Haftung allein wegen Geschäftsführerstellung.",
+      "Kausalen Ausfall bestimmen; bei unzureichender Liquidität grundsätzlich Grundsatz der anteiligen Tilgung prüfen, Sonderregeln beachten.",
+      "Haftungsumfang einschließlich gesetzlicher Nebenfolgen und anschließend Haftungsbescheid nach § 191 AO prüfen.",
+    ],
+    merksatz: "§ 69 AO ist keine Geschäftsführer-Gefährdungshaftung: Pflichtverletzung, Vorsatz/grobe Fahrlässigkeit und Kausalität müssen konkret festgestellt werden.",
+  };
+}
+
+function korrigiereHaftung71(thema) {
+  normErgaenzen(thema, "§ 71 AO", "§ 370 AO", "§ 374 AO");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 71 AO knüpft an die Begehung oder Teilnahme an einer Steuerhinterziehung (§ 370 AO) oder Steuerhehlerei (§ 374 AO) an und erfasst die verkürzten Steuern, zu Unrecht gewährten Steuervorteile sowie die gesetzlich genannten Zinsen.",
+      "Ein „Handeln zum fremden Vorteil“ ist kein eigenständiges Tatbestandsmerkmal des § 71 AO. Praktisch ist aber der Haftungsbegriff zu beachten: Für dieselbe Forderung sind Steuerschuldnerschaft und Haftung grundsätzlich zu trennen; typische §-71-Fälle betreffen deshalb die Hinterziehung einer fremden Steuerschuld, etwa durch Geschäftsführer, Berater oder Buchhalter.",
+    ],
+    lernziele: [
+      "Täterschaft oder Teilnahme an § 370 bzw. § 374 AO feststellen",
+      "bloße leichtfertige Steuerverkürzung nach § 378 AO von § 71 AO abgrenzen",
+      "„fremder Vorteil“ nicht als zusätzliches Gesetzesmerkmal behandeln",
+      "verkürzte Steuer, Steuervorteil und erfasste Zinsen als Haftungsumfang bestimmen",
+      "Verhältnis zur eigenen Steuerschuld und zu weiteren Haftungsnormen prüfen",
+    ],
+    pruefschritte: [
+      "Steuerhinterziehung oder Steuerhehlerei einschließlich vorsätzlicher Tatbeteiligung feststellen.",
+      "Prüfen, ob die betreffende Forderung eine fremde Steuerschuld ist beziehungsweise ob Steuerschuldnerschaft und Haftung für denselben Betrag auseinanderzuhalten sind.",
+      "Haftungsumfang nach § 71 AO bestimmen: verkürzte Steuern, zu Unrecht gewährte Steuervorteile und die dort genannten Zinsen.",
+      "Nicht zusätzlich verlangen, dass der Täter persönlich „zum fremden Vorteil“ gehandelt hat; maßgeblich ist die Tatbeteiligung und der haftungsrechtlich erfasste Fremdanspruch.",
+      "Haftungsbescheid und Auswahl-/Entschließungsermessen nach § 191 AO prüfen.",
+    ],
+    merksatz: "§ 71 AO verlangt Steuerhinterziehung/Steuerhehlerei oder Teilnahme – nicht das ungeschriebene Merkmal „zum fremden Vorteil“. Die Fremdheit folgt aus der Trennung von Steuerschuld und Haftung.",
+  };
+}
+
 function kennzeichneGastronomie(thema) {
   rechtsstandswechsel(thema, {
     abJahr: 2026,
@@ -671,6 +935,16 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-modul-k3-47": korrigierePar34(thema); break;
       case "erbst-modul-erbst-506": ergaenzeErbfallkosten(thema); break;
       case "ao-modul-ao-313": korrigiereAo122a(thema); break;
+      case "ao-modul-ao-347": korrigiereAo164Vdn(thema); break;
+      case "ao-modul-ao-351": korrigiereFeststellungsbescheid181(thema); break;
+      case "ao-modul-ao-352": korrigiereAo129(thema); break;
+      case "ao-modul-ao-354": korrigiereAo173(thema); break;
+      case "ao-modul-ao-363": korrigiereAo177(thema); break;
+      case "ao-modul-ao-371": korrigiereWiedereinsetzung(thema); break;
+      case "ao-modul-ao-373": korrigiereWiedereinsetzung(thema); break;
+      case "ao-modul-ao-388": korrigiereSelbstanzeige371(thema); break;
+      case "ao-modul-ao-390": korrigiereHaftung69(thema); break;
+      case "ao-modul-ao-392": korrigiereHaftung71(thema); break;
       case "ao-modul-ao-335": korrigiereAussenpruefung171(thema); break;
       case "erbst-modul-erbst-512": korrigiereFamilienheim(thema); break;
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
