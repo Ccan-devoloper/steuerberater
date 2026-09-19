@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 10 Kapitel mit 209 Abschnitten und 12 Tabellen. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 12 Kapitel mit 244 Abschnitten und 14 Tabellen. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4683,6 +4683,43 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   auch das Ende. Auf Billigkeit nach § 163 AO ist kein Verlass: Der BFH hat sie selbst dann versagt,
   wenn den Steuerpflichtigen **kein Verschulden** an der verspäteten Eintragung trifft, weil die
   Mindestlaufzeit ein Tatbestandsmerkmal und nicht bloß eine Verfahrensfrist ist.
+  Gerechnet wird die Mindestlaufzeit in **60 Monaten**, also taggenau und unabhängig vom Rhythmus der
+  Wirtschaftsjahre; fällt das Ende in ein laufendes Wirtschaftsjahr, wird schlicht **unterstellt**, die
+  Organgesellschaft werde bei einer Kündigung umstellen – die Mindestlaufzeit ist eine reine
+  **Rechengröße**. In **Umwandlungsfällen** zählt auch die Zeitspanne der steuerlichen Rückwirkung mit,
+  in der die Organgesellschaft zivilrechtlich noch gar nicht bestand. Das zugehörige Beispiel ist der
+  lehrreichste Fall des Abschnitts, weil dieselbe Fiktion für zwei Merkmale **verschieden** wirkt: Für
+  die **Mindestlaufzeit** zählt die Zeit ab dem Rückwirkungsstichtag mit, für die **finanzielle
+  Eingliederung** erst ab der wirksamen Gründung – die Fiktion trägt, wo es um eine Rechengröße geht,
+  und trägt nicht, wo es um tatsächliche Beherrschung geht. Scheitert die Mindestlaufzeit, liegt eine
+  **verunglückte Organschaft** vor; ein neuer Vertrag rettet nur die Zukunft und lässt die fünf Jahre
+  **vollständig neu** beginnen. Im ersten Beispiel des Abschnitts geht die Rechnung der Quelle
+  allerdings nicht auf: Zwischen dem 01.07.2025 und dem 30.06.2029 liegen **48 Monate** und damit vier
+  Zeitjahre; fünf Zeitjahre endeten erst am 30.06.2030. Für die Aussage des Beispiels bleibt das ohne
+  Bedeutung, weil auch dieser Tag nach der Umstellung in ein laufendes Wirtschaftsjahr fiele.
+  Abzuführen ist der Betrag des **§ 301 AktG**, und zwar **betragsgenau** – sowohl ein Zuwenig als auch
+  ein Zuviel ist ein **Durchführungsmangel**. Die fünf Positionen des Schemas lassen sich auf zwei
+  Gedanken zurückführen: Die drei **Abzüge** schützen jeweils fremde Interessen – der
+  **vororganschaftliche Verlustvortrag** darf nicht vom Organträger getragen werden, die **gesetzliche
+  Rücklage** nach § 300 AktG dient dem Gläubigerschutz, die **sonstigen Gewinnrücklagen** dürfen nur
+  unter den Voraussetzungen des § 14 Abs. 1 Nr. 4 KStG gebildet werden –, während die **Hinzurechnung**
+  zurückgibt, was während der Organschaft zurückgelegt wurde. Das **BilMoG** hat dabei eine
+  Asymmetrie geschaffen, die die Quelle offen benennt: § 301 AktG verweist ausdrücklich auf die
+  Ausschüttungssperre des **§ 268 Abs. 8 HGB** für aktivierte selbst geschaffene immaterielle
+  Wirtschaftsgüter und aktive latente Steuern, § 302 AktG dagegen nicht – im **Gewinnfall** mindert die
+  Sperre die Abführung, im **Verlustfall** erhöht sie nach herrschender Meinung die Verlustübernahme
+  nicht. Eine Äußerung der Finanzverwaltung steht aus.
+  **Vorvertragliche** Gewinn- und Kapitalrücklagen unterliegen **nie** der Gewinnabführung, auch nicht
+  bei späterer Auflösung; sie können nur außerhalb des Vertrags an die Anteilseigner ausgeschüttet
+  werden. Der tragende Gedanke ist der Schutz der **Minderheitsgesellschafter**, die vor Beginn der
+  Organschaft an einer Ausschüttung teilgehabt hätten – und er wirkt **typisierend**, also auch dann,
+  wenn es gar keine Minderheitsgesellschafter gibt. Maßgeblich ist der Zeitpunkt der **Bildung** und
+  nicht der Auflösung, weshalb die Rücklagen getrennt nach Entstehungszeit zu führen sind. Die
+  Auszahlung ist eine gewöhnliche Gewinnausschüttung nach § 20 Abs. 1 Nr. 1 EStG und durchläuft die
+  Verwendungsreihenfolge des § 27 Abs. 1 Satz 3 KStG, so dass auch eine Einlagenrückgewähr in Betracht
+  kommt. Wird eine solche Rücklage **irrtümlich abgeführt**, ist das nicht durch § 301 AktG gedeckt und
+  kostet die Anerkennung der Organschaft – seit Einführung der Heilungsregelung des § 14 Abs. 1 Nr. 3
+  Satz 4 f. KStG immerhin nicht mehr zwangsläufig endgültig.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

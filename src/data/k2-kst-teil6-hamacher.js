@@ -19,9 +19,11 @@
    Besteuerung des Organeinkommens (2.3.3) und die finanzielle Eingliederung
    (2.4 einschließlich der zeitlichen Voraussetzungen) sowie die Einleitung zum
    Gewinnabführungsvertrag (2.5 mit den Rechtsformen, der EU/EWR-Gesellschaft und
-   der Mindestlaufzeit bis 2.5.4). Es folgen die Höhe der Gewinnabführung (2.5.5)
-   und die weiteren Abschnitte sowie die Kapitel 3 und 4; der Campus weist den
-   Stand aus.
+   der Mindestlaufzeit bis 2.5.4), dazu die Höhe der Gewinnabführung mit dem
+   Betrag des § 301 AktG, den Abführungssperren und den vorvertraglichen
+   Rücklagen (2.5.5.1 bis 2.5.5.3). Es folgen die Kapitalrücklagen (2.5.5.4),
+   die tatsächliche Durchführung (2.5.6) und die weiteren Abschnitte sowie die
+   Kapitel 3 und 4; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -599,6 +601,105 @@ export const kstTeil6 = [
       { text: "Anmerkung zur Verweigerung der Billigkeit (eigene Ergänzung): Die Aussage, eine verspätete Eintragung begründe **keinen** Billigkeitsgrund nach § 163 AO, ist hart und für den Steuerpflichtigen unbefriedigend – ausdrücklich auch dann, wenn ihn **kein Verschulden** trifft, das Registergericht also allein verantwortlich ist. Der BFH hat das 2017 bestätigt. Dahinter steht die Überlegung, dass die Mindestlaufzeit ein **Tatbestandsmerkmal** ist und nicht bloß eine Verfahrensfrist: Eine Billigkeitsmaßnahme würde die gesetzliche Voraussetzung ersetzen, nicht nur ihre Rechtsfolge mildern. Umso wichtiger ist die vorsorgliche Vertragsgestaltung." },
       { text: "Anmerkung zum Vertragsverletzungsverfahren (eigene Ergänzung): Die Quelle erwähnt das Verfahren der EU-Kommission nur beiläufig, es betrifft aber einen strukturellen Konflikt. Das deutsche Steuerrecht verlangt einen Gewinnabführungsvertrag, für dessen Abschluss **ausschließlich das Gesellschaftsrecht des Sitzstaats** maßgeblich ist – kennt dieses Recht keinen solchen Vertrag, ist die Organschaft für die dortige Gesellschaft von vornherein unerreichbar. Die deutsche Regelung wirkt dann faktisch als **Marktzugangshindernis**, obwohl sie formal nicht an die Ansässigkeit anknüpft. Die Verfügung der OFD Frankfurt vom 09.07.2020 mildert das ab, indem sie einen ausländischen Vertrag unter vier Bedingungen anerkennt, löst den Grundkonflikt aber nicht." },
       { text: "Anmerkung zur zweiten Bedingung der Verwaltungsregelung (eigene Ergänzung): Die vier Anforderungen an den ausländischen Vertrag laufen auf eine doppelte Prüfung hinaus, die in der Klausur sauber zu trennen ist. Inhaltlich muss der Vertrag dem **deutschen** Maßstab genügen – § 291 AktG einschließlich der Verlustübernahme nach § 302 AktG. Formal muss er dagegen dem **ausländischen** Recht genügen und dort eintragungspflichtig sein. Beide Prüfungen können auseinanderfallen: Ein Vertrag kann dem deutschen Muster entsprechen und im Ausland unzulässig sein, oder dort zulässig sein und den deutschen Inhalt verfehlen. Nur wenn beides zusammentrifft, wird die Organschaft anerkannt – und auch dann erst ab dem Jahr der Eintragung im dortigen Register." },
+    ],
+  },
+  {
+    id: "kst-t6-11",
+    kapitel: "11",
+    abschnittNr: "2.5.5.1",
+    title: "Mindestlaufzeit in Sonderfällen und 2.5.5 Höhe der Gewinnabführung",
+    thema: "Die Mindestlaufzeit bemisst sich nach 60 Monaten und bezieht die umwandlungssteuerliche Rückwirkung ein; abzuführen ist der Betrag des § 301 AktG nach Abzug des vororganschaftlichen Verlustvortrags",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitte 2.5.4 (Schluss) bis 2.5.5.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 14 Abs. 1 Satz 1 KStG",
+      "§ 14 Abs. 1 Nr. 3 Satz 4f KStG",
+      "§ 14 Abs. 1 Nr. 4 KStG",
+      "§ 2 Abs. 1 UmwStG",
+      "§ 20 Abs. 1 UmwStG",
+      "§ 20 Abs. 5 und Abs. 6 UmwStG",
+      "§ 268 Abs. 8 HGB",
+      "§ 300 AktG",
+      "§ 301 AktG",
+      "§ 302 AktG",
+      "R 14.5 Abs. 3 Satz 4 KStR",
+      "R 14.5 Abs. 5 Nr. 1 und Nr. 3 KStR",
+      "BFH vom 13.11.2013, BStBl. II 2014, 486",
+      "BFH vom 10.05.2017, BStBl. II 2019, 81",
+      "BFH vom 21.10.2010, BStBl. II 2014, 481",
+      "BMF vom 14.01.2010, BStBl. I 2010, 65",
+    ],
+    themen: ["Zeitjahre", "60 Monate", "umwandlungssteuerliche Rückwirkung", "verunglückte Organschaft", "Höhe der Gewinnabführung", "vororganschaftlicher Verlustvortrag", "Abführungssperre", "BilMoG"],
+    bloecke: [
+      { text: "Die Mindestlaufzeit beträgt 5 Zeitjahre, d.h. mindestens 60 Monate. Für Zwecke der Berechnung ist es unerheblich, dass das Fristende rechnerisch in einem laufenden Wj. der Organgesellschaft liegen würde. Dafür wird nämlich unterstellt, dass die Organgesellschaft bei unterstellter Kündigung ihr Wj. umstellen wird." },
+      { text: "Beispiel: Die A-GmbH schließt mit der B-GmbH (Organgesellschaft, Wj. 01.07. – 30.06.) ab dem 01.07.2025 einen Gewinnabführungsvertrag ab, welcher eine feste Vertragslaufzeit von 5 Jahren haben soll und erstmals mit Ablauf des 30.06.2029 gekündigt werden soll. In 2026 stellt die B-GmbH ihr Wirtschaftsjahr auf den Zeitraum 01.03. – 28.02. um. (Die Datumsangabe „30.06.2029“ steht so in der Quelle; siehe die eigene Nachrechnung unten.)" },
+      { text: "Lösung: Das Organschaftsverhältnis erfüllt die Mindestlaufzeit von 5 Zeitjahren, auch wenn der rechnerische Zeitpunkt des Vertragsendes auf den 30.06.2029 fällt und nach Umstellung des Wirtschaftsjahres in einem laufenden Wirtschaftsjahr liegen würde. Denn für die Frage der Mindestlaufzeit kommt es zunächst auf die rechnerische Zeitspanne von 60 Monaten an. Wie die Vertragsparteien in diesem Zusammenhang die Beendigung in einem laufenden Wj. sicherstellen, ist nicht Gegenstand der Überprüfung dieses zeitlichen Kriteriums." },
+      { text: "In Umwandlungsfällen ist für Zwecke der Berechnung der Mindestlaufzeit auch die steuerliche Rückwirkung i.S. des § 2 Abs. 1 UmwStG bzw. §§ 20 Abs. 5 und Abs. 6 UmwStG zu beachten. Daher gehört zur Mindestlaufzeit auch die Zeitspanne, in welcher die Organgesellschaft zivilrechtlich noch nicht existent gewesen ist. Die Laufzeit des GAV würde sich dann entsprechend nach vorne verlagern." },
+      { text: "Beispiel: Die A-GmbH gliedert steuerlich nach § 20 Abs. 1 UmwStG zu Buchwerten mit Wirkung zum 31.12.2024 einen Teilbetrieb in die C-GmbH aus. Die C-GmbH wird erst durch Gesellschaftsvertrag vom 07.04.2025 errichtet und wirksam zum 01.07.2025 in das Handelsregister eingetragen. Gleichzeitig erfolgt der Abschluss und die Eintragung des GAV, welcher bereits für das gesamte Wirtschaftsjahr 2025 gelten soll. Der GAV sieht eine vertragliche Mindestlaufzeit vom 01.01.2025 – 31.12.2029 vor." },
+      { text: "Lösung: Die Voraussetzungen der 5jährigen Mindestlaufzeit sind erfüllt, weil in die Berechnung dieser Laufzeit auch die Zeitspanne ab dem 01.01.2025 einzubeziehen ist. Dies deshalb, weil die steuerliche Existenz der C-GmbH mit Wirkung ab dem 31.12.2024 fingiert wird. Für Zwecke der ununterbrochenen finanziellen Eingliederung ist aber zu beachten, dass sich dieses Kriterium erst ab wirksamer Gründung der Gesellschaft (01.07.2025) bemisst, weil sich die Eingliederung als tatsächlicher Lebenssachverhalt nicht zurückbeziehen lässt. Vorliegend ist diese Voraussetzung erfüllt, weil die finanzielle Eingliederung im Wj. 2025 ununterbrochen gegeben ist." },
+      { text: "Ist der GAV wegen der Nichteinhaltung der Mindestlaufzeit steuerlich nicht anzuerkennen, liegt eine verunglückte Organschaft vor (siehe unter 3.6). Um das Organschaftsverhältnis zumindest für die Zukunft zu „retten“, wäre der Abschluss eines neuen GAV mit einer 5jährigen Mindestlaufzeit erforderlich. Dieser gilt dann – sofern die weiteren Voraussetzungen des § 14 Abs. 1 Satz 1 KStG erfüllt sind – als erstmaliger GAV, d.h. die Mindestlaufzeit von 5 Jahren ist erst ab diesem Zeitpunkt neu zu berechnen." },
+      { typ: "titel", text: "2.5.5 Höhe der Gewinnabführung" },
+      { typ: "titel", text: "2.5.5.1 Betrag i.S. des § 301 AktG" },
+      { text: "Durch den GAV verpflichtet sich die Organgesellschaft, ihr kompletten handelsbilanzielles Ergebnis an den Organträger abzuführen. Der dafür maßgebliche Betrag ergibt sich aus § 301 AktG, welcher auch tatsächlich abgeführt werden muss. Verfügt die Organgesellschaft über einen handelsrechtlichen Verlustvortrag, der zeitlich noch vor Geltung des GAV entstanden ist, handelt es sich dabei um einen sog. vororganschaftlichen Verlust. Dieser Verlustvortrag darf vom Organträger nicht übernommen werden, d.h. die zukünftige Gewinnabführung muss von der Organgesellschaft um diesen Betrag gekürzt werden. Aus diesem Grund sieht § 301 AktG auch eine entsprechende Minderung um diesen Verlustvortrag vor. Umgekehrt kann die Organgesellschaft aus ihrem Jahresüberschuss auch Beträge in ihre Gewinnrücklagen einstellen (siehe unter § 14 Abs. 1 Nr. 4 KStG), deren nachfolgende Auflösung wiederum den abführungspflichtigen Gewinn erhöht. (Die Deklination „ihr kompletten handelsbilanzielles Ergebnis“ steht so in der Quelle.)" },
+      { text: "Ein Verstoß gegen den Höchstbetrag des § 301 AktG führt zu einem Durchführungsmangel, welcher grundsätzlich zu einer Nichtanerkennung der Organschaft führt, was aber nach § 14 Abs. 1 Nr. 3 Satz 4f KStG eventuell geheilt werden kann (siehe unter 2.5.7)." },
+      { text: "Umgekehrt dazu verpflichtet § 302 AktG den Organträger, den sich danach ergebenden Negativbetrag der Organgesellschaft auszugleichen, welcher ebenfalls betragsgenau übernommen werden muss. Der Betrag der Gewinnabführung ermittelt sich danach wie folgt:" },
+      { typ: "tabelle", spalten: ["Ermittlung der Gewinnabführung", "Position"], zeilen: [
+        ["", "Jahresüberschuss bzw. Jahresfehlbetrag (vor Gewinnabführung)"],
+        ["./.", "Vororganschaftlicher Verlustvortrag"],
+        ["./.", "Zuführung zur gesetzlichen Rücklage (§ 300 AktG)"],
+        ["./.", "Einstellung in sonstige Gewinnrücklagen (siehe § 14 Abs. 1 Nr. 4 KStG)"],
+        ["+", "Entnahmen aus während der Organschaftszeit gebildeten Gewinnrücklagen"],
+        ["=", "Gewinnabführung (§ 301 AktG) bzw. Verlustübernahme (§ 302 AktG)"],
+      ] },
+      { typ: "titel", text: "2.5.5.2 Abführungssperren" },
+      { text: "Durch das Bilanzmodernisierungsgesetz (BilMoG) ist auch § 301 AktG geändert worden. Der abzuführende Gewinn ist hiernach um den nach § 268 Abs. 8 HGB ausschüttungsgesperrten Betrag zu mindern. Das BilMoG eröffnet Kapitalgesellschaften das Wahlrecht, in ihren Handelsbilanzen auch selbst geschaffene immaterielle Wirtschaftsgüter und aktive latente Steuern zu aktivieren. In Höhe der aktivierten Beträge besteht aber eine Ausschüttungssperre (§ 268 Abs. 8 HGB) sowie in Organschaftsfällen ein Abführungsverbot. Fraglich ist, welche Auswirkungen die Aktivierung der in § 268 Abs. 8 AktG erwähnten Beträge auf die Anwendung von § 302 AktG haben kann. Konkret bedeutet dies, ob bei der Ermittlung der Verlustübernahmeverpflichtung die Beträge i.S.v. § 268 Abs. 8 HGB herauszurechnen sind und einen entsprechenden Verlust erhöhen würden. (Die Fundstelle „§ 268 Abs. 8 AktG“ steht so in der Quelle; gemeint ist wie in den Sätzen davor und danach § 268 Abs. 8 HGB.)" },
+      { text: "Mangels eines gesetzlichen Verweises des § 302 AktG vertritt die herrschende Meinung daher die Rechtsauffassung, dass diese Einschränkungen für die Ermittlung des auszugleichenden Verlustes nicht gelten. Dazu steht eine Aussage der Finanzverwaltung noch aus." },
+      { text: "Nachrechnung der Laufzeit im ersten Beispiel (eigene Nachrechnung): Die Zeitspanne geht nicht auf. Vom **01.07.2025** bis zum **30.06.2029** liegen **48 Monate** und damit vier Zeitjahre; fünf Zeitjahre – die von der Quelle selbst verlangten 60 Monate – endeten erst am **30.06.2030**. Die Lösung bezeichnet den 30.06.2029 gleichwohl als das rechnerische Vertragsende einer fünfjährigen Laufzeit. Für die Aussage des Beispiels – dass ein in ein laufendes Wirtschaftsjahr fallendes Fristende unschädlich ist – bleibt das ohne Bedeutung: Auch der 30.06.2030 läge nach der Umstellung auf das Wirtschaftsjahr 01.03. bis 28.02. mitten in einem laufenden Jahr. Der Wortlaut ist oben unverändert wiedergegeben." },
+      { text: "Anmerkung zur Rechnung in Monaten (eigene Ergänzung): Dass die Mindestlaufzeit **60 Monate** umfasst und nicht etwa fünf Wirtschaftsjahre, ist eine wichtige Präzisierung. Zeitjahre werden **taggenau** gerechnet, unabhängig vom Rhythmus der Wirtschaftsjahre. Die Quelle löst das daraus folgende Problem elegant: Fällt das Fristende in ein laufendes Wirtschaftsjahr, wird schlicht **unterstellt**, die Organgesellschaft werde bei einer Kündigung ihr Wirtschaftsjahr umstellen. Wie die Parteien das praktisch bewerkstelligen, ist nicht Gegenstand der steuerlichen Prüfung – die Mindestlaufzeit ist eine reine **Rechengröße**." },
+      { text: "Anmerkung zum Auseinanderfallen zweier Fristen (eigene Ergänzung): Das zweite Beispiel ist der lehrreichste Fall des Abschnitts, weil dieselbe Rückwirkung für zwei Merkmale **verschieden** wirkt. Für die **Mindestlaufzeit** zählt die Zeit ab dem 01.01.2025 mit, obwohl die C-GmbH zivilrechtlich erst am 07.04.2025 entstand – die steuerliche Existenz wird ab dem 31.12.2024 fingiert. Für die **finanzielle Eingliederung** gilt das Gegenteil: Sie bemisst sich erst ab der wirksamen Gründung, weil sie ein **tatsächlicher Lebenssachverhalt** ist. Beide Aussagen stehen nebeneinander, ohne sich zu widersprechen: Die Fiktion trägt, wo es um eine **Rechengröße** geht, und trägt nicht, wo es um **tatsächliche Beherrschung** geht." },
+      { text: "Anmerkung zum neuen Vertrag als Rettung (eigene Ergänzung): Dass ein neuer Vertrag als **erstmaliger** GAV gilt, ist für den Steuerpflichtigen zugleich Trost und Warnung. Trost, weil sich die Organschaft **für die Zukunft** retten lässt, ohne dass die gescheiterten Jahre daran etwas ändern. Warnung, weil die Mindestlaufzeit **vollständig neu** zu laufen beginnt: Die bereits abgelaufenen Jahre werden nicht angerechnet, so dass sich die Bindung um die verlorene Zeit verlängert. Die vergangenen Jahre bleiben eine **verunglückte Organschaft** mit den Folgen des Abschnitts 3.6 – Gewinnabführungen werden dort zu verdeckten Gewinnausschüttungen, Verlustübernahmen zu verdeckten Einlagen." },
+      { text: "Anmerkung zum Schema des § 301 AktG (eigene Ergänzung): Die fünf Positionen des Schemas lassen sich auf zwei Gedanken zurückführen. Die drei **Abzüge** schützen jeweils fremde Interessen: Der **vororganschaftliche Verlustvortrag** darf nicht vom Organträger getragen werden, weil er aus der Zeit vor der Organschaft stammt; die **gesetzliche Rücklage** nach § 300 AktG dient dem Gläubigerschutz; die **sonstigen Gewinnrücklagen** dürfen nach § 14 Abs. 1 Nr. 4 KStG nur bei wirtschaftlicher Begründung gebildet werden. Die **Hinzurechnung** ist das Gegenstück: Was während der Organschaft zurückgelegt wurde, gehört bei seiner Auflösung dem Organträger. Entscheidend ist die **Betragsgenauigkeit** in beide Richtungen – sowohl ein Zuwenig als auch ein Zuviel ist ein Durchführungsmangel." },
+      { text: "Anmerkung zur Asymmetrie der Abführungssperre (eigene Ergänzung): Die durch das BilMoG entstandene Lage ist rechtlich unbefriedigend und die Quelle benennt sie offen. **§ 301 AktG** verweist ausdrücklich auf § 268 Abs. 8 HGB, so dass der ausschüttungsgesperrte Betrag – aktivierte selbst geschaffene immaterielle Wirtschaftsgüter und aktive latente Steuern – die **Gewinnabführung mindert**. **§ 302 AktG** enthält keinen entsprechenden Verweis, weshalb die herrschende Meinung annimmt, die Sperre erhöhe die **Verlustübernahme nicht**. Die Folge ist eine Asymmetrie: Im Gewinnfall wirkt die Sperre, im Verlustfall nicht. Eine Äußerung der Finanzverwaltung steht aus, so dass in der Klausur beide Standpunkte vertretbar sind – die herrschende Meinung sollte aber genannt werden." },
+    ],
+  },
+  {
+    id: "kst-t6-12",
+    kapitel: "12",
+    abschnittNr: "2.5.5.3",
+    title: "2.5.5.3 Vorvertragliche Rücklagen",
+    thema: "Vor Beginn des Vertrags gebildete Gewinn- und Kapitalrücklagen unterliegen nicht der Gewinnabführung; ihre Auszahlung ist eine gewöhnliche Gewinnausschüttung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VI (Hamacher), Abschnitt 2.5.5.3 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 301 AktG",
+      "§ 20 Abs. 1 Nr. 1 EStG",
+      "§ 27 KStG",
+      "§ 27 Abs. 1 Satz 3 KStG",
+      "R 14.5 Abs. 4 Satz 4 KStR",
+      "BMF vom 27.11.2003, BStBl. I 2003, 647",
+    ],
+    themen: ["vorvertragliche Rücklagen", "Kapitalrücklagen", "Minderheitsgesellschafter", "Gewinnausschüttung", "steuerliches Einlagekonto", "Verwendungsreihenfolge"],
+    bloecke: [
+      { typ: "titel", text: "2.5.5.3 Vorvertragliche Rücklagen" },
+      { text: "Nicht von der Gewinnabführung erfasst werden die Gewinnrücklagen, die von der Organgesellschaft zeitlich vor Beginn des GAV gebildet worden sind (sog. vorvertragliche Rücklagen). Diese Rücklagen bleiben bis zur Auflösung durch die Organgesellschaft bestehen und unterliegen selbst bei ihrer Auflösung nicht der Gewinnabführung. Diese können nur außerhalb des GAV an die Anteilseigner (d.h. auch an den Organträger) ausgeschüttet werden." },
+      { text: "Hintergrund ist dafür insbesondere der Schutz der Minderheitsgesellschafter, die vor Beginn der Organschaft diese Gewinnrücklagen auch in Form von Gewinnausschüttungen hätten beziehen können. Durch Abschluss des GAV wäre der Gewinn hingegen an den Organträger abzuführen, so dass dieser Gewinn dem Minderheitsgesellschafter entzogen worden wäre. Gleiches gilt auch für Kapitalrücklagen, die in vorvertraglicher Zeit gebildet wurden und während der Organschaft aufgelöst und ausgekehrt werden." },
+      { text: "Für die Gewinnausschüttung der vorvertraglichen Rücklagen bzw. Kapitalrücklagen gelten dann die herkömmlichen Grundsätze. Die Anteilseigner erzielen daraus Beteiligungserträge i.S. des § 20 Abs. 1 Nr. 1 EStG. Die Gewinnausschüttungen sind bei der Organgesellschaft zudem in die allgemeine Verwendungsreihenfolge des § 27 Abs. 1 Satz 3 KStG einzubeziehen, wodurch auch eine Verwendung des steuerlichen Einlagekontos möglich wäre." },
+      { text: "Werden die vororganschaftlichen Rücklagen bzw. Kapitalrücklagen fälschlicherweise an den Organträger abgeführt, führt dies zur Nichtanerkennung der Organschaft. Dies deshalb, weil die Abführung dieser vorvertraglichen Rücklagen bzw. Kapitalrücklagen nicht durch § 301 AktG gedeckt ist." },
+      { text: "Beispiel: Mit Wirkung ab dem 01.01.2025 wird ein GAV zwischen der A-GmbH (Organträger) und der B-GmbH (Organgesellschaft) abgeschlossen. Der GAV wird noch in 2025 in das Handelsregister der B-GmbH eingetragen. Zum 31.12.2024 verfügte die B-GmbH über eine Gewinnrücklage von 500.000 €, die lt. Gesellschafterbeschluss in 2025 aufgelöst und an den Anteilseigner ausgezahlt wurde." },
+      { text: "Lösung: Die Auszahlung der Gewinnrücklage berührt nicht die handelsrechtliche Gewinnabführung, weil diese nicht durch § 301 AktG gedeckt ist. Die Auflösung und Auszahlung der Gewinnrücklage kann nur als Gewinnausschüttung der Organgesellschaft an ihre Anteilseigner vorgenommen werden, die daraus Beteiligungserträge i.S. des § 20 Abs. 1 Nr. 1 EStG erzielen." },
+      { text: "Sofern die Organgesellschaft zum Ende des Vorjahres über einen eigenen Bestand des steuerlichen Einlagekontos i.S. des § 27 KStG verfügen würde, wäre die Ausschüttung in die herkömmliche Verwendungsreihenfolge des § 27 Abs. 1 Satz 3 KStG einzubeziehen." },
+      { typ: "tabelle", spalten: ["Rücklage der Organgesellschaft", "Behandlung bei Auflösung"], zeilen: [
+        ["vor Beginn des GAV gebildete Gewinnrücklage", "keine Gewinnabführung – nur Ausschüttung an die Anteilseigner"],
+        ["vor Beginn des GAV gebildete Kapitalrücklage", "ebenso"],
+        ["während der Organschaft gebildete Gewinnrücklage", "erhöht bei Auflösung die Gewinnabführung (§ 301 AktG)"],
+        ["irrtümliche Abführung vorvertraglicher Rücklagen", "nicht durch § 301 AktG gedeckt – Nichtanerkennung der Organschaft"],
+      ] },
+      { text: "Anmerkung zum tragenden Gedanken (eigene Ergänzung): Der Schutz der **Minderheitsgesellschafter** erklärt die Regel vollständig und macht sie einprägsam. Vor Beginn der Organschaft hätten die Minderheitsgesellschafter an einer Ausschüttung der Rücklagen **teilgehabt**; würden diese Beträge später an den Organträger abgeführt, wäre ihnen ein Gewinn entzogen, der wirtschaftlich schon vor der Organschaft entstanden war. Die Rücklagen bleiben deshalb dem **Ausschüttungsregime** verhaftet und folgen nicht der Abführung. Bemerkenswert ist, dass die Regel auch dann gilt, wenn es **gar keine** Minderheitsgesellschafter gibt – der Schutzgedanke ist typisierend, nicht einzelfallbezogen." },
+      { text: "Anmerkung zur Gefahr des Durchführungsmangels (eigene Ergänzung): Die Rechtsfolge einer versehentlichen Abführung ist unverhältnismäßig hart und deshalb in der Praxis eine der häufigsten Fehlerquellen: Die gesamte **Organschaft wird nicht anerkannt**, weil die Abführung den Höchstbetrag des § 301 AktG überschreitet. Der Zusammenhang zu Abschnitt 2.5.5.1 ist damit unmittelbar: Es handelt sich um einen **Durchführungsmangel**, der allerdings – anders als früher – nach § 14 Abs. 1 Nr. 3 Satz 4 f. KStG unter den Voraussetzungen des Abschnitts 2.5.7 **geheilt** werden kann. Vor dieser Heilungsmöglichkeit war ein solcher Fehler regelmäßig endgültig." },
+      { text: "Anmerkung zur Verwendungsreihenfolge (eigene Ergänzung): Der Schlusshinweis auf § 27 Abs. 1 Satz 3 KStG verbindet den Abschnitt mit dem Skript Teil III. Weil die Auszahlung der vorvertraglichen Rücklage eine **gewöhnliche Gewinnausschüttung** ist, durchläuft sie die normale Verwendungsrechnung: Zunächst gilt der **ausschüttbare Gewinn** als verwendet, erst ein darüber hinausgehender Betrag mindert das **steuerliche Einlagekonto**. Für den Organträger kann das erhebliche Folgen haben – eine Einlagenrückgewähr ist kein Beteiligungsertrag nach § 20 Abs. 1 Nr. 1 EStG, sondern mindert den Beteiligungsbuchwert. Die Quelle deutet das an, ohne es auszurechnen." },
+      { text: "Anmerkung zur zeitlichen Abgrenzung (eigene Ergänzung): Maßgeblich ist der **Zeitpunkt der Bildung** der Rücklage, nicht der ihrer Auflösung. Eine im Jahr 2024 gebildete Rücklage bleibt vorvertraglich, auch wenn sie erst 2030 mitten in der Organschaft aufgelöst wird; eine 2026 gebildete Rücklage erhöht dagegen bei ihrer Auflösung die Gewinnabführung. Daraus folgt eine praktische Notwendigkeit, die die Quelle nicht ausspricht: Die Organgesellschaft muss ihre Gewinnrücklagen **getrennt nach Entstehungszeit** führen, weil sich sonst bei einer späteren Auflösung nicht mehr feststellen lässt, welchem Regime der Betrag unterliegt." },
     ],
   },
 ];

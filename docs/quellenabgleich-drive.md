@@ -10620,6 +10620,46 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 2.5.4 (Schluss) bis 2.5.5.3 – Höhe der Gewinnabführung
+
+Quelle: dieselbe Datei, Seiten 22 bis 24; übernommen als Kapitel 11 und 12. Prüfung:
+`npm run check:k2-kst-teil6` (12 Kapitel, 244 Blöcke, 14 Tabellen).
+
+**Ein Zeitfehler der Quelle ist nachgewiesen und wortlautgetreu daneben stehen gelassen.** Das erste
+Beispiel zur Mindestlaufzeit nennt einen ab dem 01.07.2025 laufenden Vertrag mit einer
+„festen Vertragslaufzeit von 5 Jahren“, der „erstmals mit Ablauf des 30.06.2029“ gekündigt werden
+soll; die Lösung spricht vom „rechnerischen Zeitpunkt des Vertragsendes“ einer fünfjährigen Laufzeit.
+Zwischen beiden Daten liegen jedoch nur **48 Monate** und damit vier Zeitjahre; die von der Quelle
+selbst verlangten 60 Monate endeten erst am **30.06.2030**. Für die Aussage des Beispiels – dass ein in
+ein laufendes Wirtschaftsjahr fallendes Fristende unschädlich ist – bleibt das ohne Bedeutung, weil
+auch der 30.06.2030 nach der Umstellung auf das Wirtschaftsjahr 01.03. bis 28.02. mitten in einem
+laufenden Jahr läge.
+
+**Eine falsche Fundstelle ist übernommen und markiert:** „§ 268 Abs. 8 AktG“; gemeint ist wie in den
+Sätzen davor und danach § 268 Abs. 8 HGB.
+
+**Eine sprachliche Eigenheit ist ebenfalls markiert:** die Deklination „ihr kompletten
+handelsbilanzielles Ergebnis“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Präzisierung, dass die Mindestlaufzeit taggenau in
+Monaten und nicht in Wirtschaftsjahren rechnet und als reine Rechengröße wirkt; die Auflösung des
+zweiten Beispiels, in dem dieselbe Fiktion für Mindestlaufzeit und finanzielle Eingliederung
+verschieden wirkt; die Einordnung des neuen Vertrags als Trost und Warnung zugleich, weil die
+Bindung vollständig neu beginnt; die Rückführung der fünf Positionen des § 301 AktG auf zwei Gedanken
+samt dem Hinweis auf die Betragsgenauigkeit in beide Richtungen; die Beschreibung der durch das
+BilMoG entstandenen Asymmetrie zwischen § 301 und § 302 AktG; die Erklärung des Minderheitenschutzes
+als tragenden Gedanken der vorvertraglichen Rücklagen samt dem Hinweis auf seine typisierende
+Wirkung; die Einordnung der irrtümlichen Abführung als heilbaren Durchführungsmangel; die Verbindung
+der Verwendungsreihenfolge zum Skript Teil III und die Folge einer Einlagenrückgewähr für den
+Organträger; und die praktische Notwendigkeit, Gewinnrücklagen nach Entstehungszeit getrennt zu
+führen.
+
+**Neu sind zwei Übersichten:** das Ermittlungsschema der Gewinnabführung nach § 301 AktG und eine
+Gegenüberstellung der vorvertraglichen und der während der Organschaft gebildeten Rücklagen.
+
+**Noch offen:** aus Teil VI die Kapitalrücklagen (2.5.5.4), die tatsächliche Durchführung (2.5.6) und
+die weiteren Abschnitte sowie die Kapitel 3 und 4; ganz offen ist der Skriptteil VII (Liquidation).
+
 ### KSt Teil VI (Hamacher), Abschnitte 2.5.1 bis 2.5.4 – Form, Auslandsfälle und Mindestlaufzeit des Gewinnabführungsvertrags
 
 Quelle: dieselbe Datei, Seiten 19 bis 21; übernommen als Kapitel 9 und 10. Prüfung:
