@@ -122,6 +122,15 @@ test("PersG-SBV-II verwendet keine starre 10%-Grenze für Komplementär-GmbH-Ant
   assert.match(kern(t), /bloße.*finanzielle Teilhabe.*nicht|bloße Vermögensmehrung.*nicht/i);
 });
 
+test("Bekanntgabe an Bevollmächtigte trennt Kann-Regel und Empfangsvollmacht", () => {
+  const t = byId("ao-modul-ao-308");
+  assert.match(kern(t), /bloße Mitwirkung.*genügt nicht/i);
+  assert.match(kern(t), /§ 122 Abs\. 1 S\. 3.*möglich.*nicht zwingend/i);
+  assert.match(kern(t), /Empfangsvollmacht.*§ 122 Abs\. 1 S\. 4|§ 122 Abs\. 1 S\. 4.*Empfangsvollmacht/i);
+  assert.match(kern(t), /atypische Ausnahme/i);
+  assert.match(kern(t), /frühere Bekanntgabe.*kein.*Muss-Tatbestand|Frühere Praxis ersetzt/i);
+});
+
 test("§2-AStG-Modul verwendet nur existente Normen und aktuelle Grenzen", () => {
   const t = byId("istr-modul-istr-istr3-07");
   assert.match(kern(t), /mindestens fünf Jahre/);
