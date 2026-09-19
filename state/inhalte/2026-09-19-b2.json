@@ -1,0 +1,109 @@
+{
+  "format": "reel",
+  "fach": "mindset",
+  "klausur": 0,
+  "fachLabel": "Kopfsache",
+  "themaId": "mindset-8",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Blackout bei Aufgabe 3",
+      "icon": "achselzucken",
+      "sprecher": "Du sitzt vor Aufgabe drei und hast keine Ahnung, wie hoch der Teilwert wirklich ist.",
+      "marken": [
+        "Blackout in der *Klausur*"
+      ],
+      "bildSzene": "exam paper with blank answer space",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Obersatz trotzdem schreiben",
+      "text": "Frag dich: Was müsste hier eigentlich gelten?",
+      "sprecher": "Erstens: Schreib den Obersatz trotzdem hin. Formuliere die Frage, die du eigentlich beantworten müsstest – auch ohne die Lösung schon zu kennen.",
+      "marken": [
+        "Obersatz *trotzdem*"
+      ],
+      "bildSzene": "handwritten heading on lined paper",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Definition sauber bringen",
+      "text": "Die Norm nennen, den Begriff definieren.",
+      "sprecher": "Zweitens: Bring die Definition sauber, mit der passenden Norm. Das sammelt Punkte, ganz unabhängig davon, was am Ende herauskommt.",
+      "marken": [
+        "*Definition* zählt"
+      ],
+      "bildSzene": "open ring binder with legal text",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Vertretbar annehmen, weiterrechnen",
+      "text": "Eine plausible Annahme reicht – dann konsequent bleiben.",
+      "sprecher": "Drittens: Triff eine vertretbare Annahme, wenn dir eine Zahl fehlt, und rechne konsequent damit weiter. Der Prüfer bewertet den Weg, nicht nur das Ergebnis.",
+      "marken": [
+        "Annahme *vertretbar*"
+      ],
+      "bildSzene": "pencil calculation on notepad",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 4,
+      "titel": "Keine Aufgabe leer lassen",
+      "text": "Ein falscher Weg bringt mehr als gar keiner.",
+      "sprecher": "Und viertens: Lass keine Aufgabe komplett leer. Ein sauberer Weg zum falschen Ergebnis bringt in der Korrektur mehr als eine leere Seite.",
+      "marken": [
+        "Nie *leer* lassen"
+      ],
+      "bildSzene": "filled exam sheet close up",
+      "kreuz": true
+    },
+    {
+      "art": "merke",
+      "titel": "Der Weg zählt mehr als das Ergebnis",
+      "sprecher": "Merk dir das: Niemand weiß in der Klausur alles. Aber wer den Aufbau durchzieht, holt Punkte, auch wenn die Zahl am Ende falsch ist.",
+      "marken": [
+        "*Aufbau* schlägt Ergebnis"
+      ],
+      "bildSzene": "calculation sheet with circled final answer",
+      "kreuz": false
+    },
+    {
+      "art": "cta",
+      "titel": "Kein Wissen ohne Aufbau",
+      "sprecher": "Schick das der Person aus deiner Lerngruppe, die bei Unsicherheit sofort die Aufgabe abbricht. Folg dem Kanal für mehr aus der Prüfungspraxis.",
+      "marken": [
+        "Schick es *weiter*"
+      ],
+      "bildSzene": "stack of exam papers ready for grading",
+      "kreuz": false
+    }
+  ],
+  "caption": "Nichtwissen in der Steuerberaterprüfung – was tun, wenn die Zahl fehlt? Niemand kennt in der Klausur jede Lösung auswendig. Entscheidend ist, dass du trotzdem den Obersatz schreibst, die Definition bringst und mit einer vertretbaren Annahme weiterrechnest. Ein sauberer Weg zum falschen Ergebnis bringt mehr Punkte als eine leere Aufgabe. Schick das jemandem aus deiner Lerngruppe, der bei Unsicherheit sofort aufgibt – und speichern für die letzten Wochen vor der Prüfung. Was machst du, wenn dir in der Klausur eine Zahl fehlt?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#klausurtechnik",
+    "#prüfungsangst",
+    "#zeitmanagement",
+    "#klausurtipps",
+    "#mindset"
+  ],
+  "kurztitel": "Nichtwissen: 4 Handgriffe",
+  "bildSzene": "student staring at blank exam page",
+  "bildSzeneAlt": "pencil hovering over calculation notepad",
+  "hookTyp": "kosten",
+  "hookMuster": "szene",
+  "bildregie": true,
+  "slug": "2026-09-19-b2"
+}
