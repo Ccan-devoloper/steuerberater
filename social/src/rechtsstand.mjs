@@ -294,6 +294,21 @@ function korrigierePar34(thema) {
   };
 }
 
+function korrigiereFamilienheim(thema) {
+  normErgaenzen(thema, "§ 13 Abs. 1 Nr. 4a–4c ErbStG");
+  const schritte = [...(thema.kern?.pruefschritte || [])].map((x) =>
+    /Aufgabe innerhalb zehn Jahren: Nachversteuerung, außer zwingender Grund/i.test(x)
+      ? "Bei Aufgabe der Selbstnutzung innerhalb von zehn Jahren grundsätzlich Nachversteuerung prüfen. Ausnahme nur bei objektiv zwingenden Gründen: Die Selbstnutzung muss objektiv unmöglich oder unzumutbar sein; eine Heimunterbringung genügt nicht allein, sondern etwa dann, wenn Pflegebedürftigkeit eine selbständige Haushaltsführung nicht mehr zulässt."
+      : x
+  );
+  schritte.push("Bei Nr. 4b/4c die unverzügliche Bestimmung zur Selbstnutzung anhand der konkreten Umstände würdigen. Die von der BFH-Rechtsprechung entwickelte Sechs-Monats-Orientierung ist nach BFH-Beschluss vom 27.05.2026 keine starre Ausschlussfrist.");
+  thema.kern = {
+    ...thema.kern,
+    pruefschritte: schritte,
+    merksatz: "Familienheim: Tatbestand 4a/4b/4c sauber trennen. Innerhalb der Zehnjahresfrist schützt nur ein objektiv zwingender Hinderungsgrund; Pflegeheim ist kein Automatismus. Beim erstmaligen Einzug ist die Sechs-Monats-Linie nur eine Orientierung, keine starre Frist.",
+  };
+}
+
 function korrigiereErbStSchuldenabzug(thema) {
   thema.normen = (thema.normen || []).filter((n) => !/§ 10 Abs\. 6 ErbStG/.test(n));
   normErgaenzen(thema, "§ 10 Abs. 6a ErbStG", "§ 10 Abs. 6 ErbStG", "§ 10 Abs. 6b ErbStG");
@@ -595,6 +610,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "bilanz-modul-k3-36": korrigiereEntfernungspauschale(thema); break;
       case "bilanz-modul-k3-47": korrigierePar34(thema); break;
       case "erbst-modul-erbst-506": ergaenzeErbfallkosten(thema); break;
+      case "erbst-modul-erbst-512": korrigiereFamilienheim(thema); break;
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
       case "erbst-modul-erbst-515": korrigiereErbStSchuldenabzug(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
