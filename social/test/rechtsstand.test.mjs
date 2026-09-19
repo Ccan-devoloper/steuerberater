@@ -125,10 +125,14 @@ test("allgemeine USt-Steuersatzkarte enthält auch den Nullsteuersatz", () => {
 });
 
 test("Bilanzänderung verlangt keine zusätzliche Zustimmung des Finanzamts", () => {
-  const t = byTitle(/Bilanzberichtigung oder Bilanzänderung/i);
-  assert.match(kern(t), /engen zeitlichen und sachlichen Zusammenhang/);
-  assert.match(kern(t), /keine zusätzliche gesetzliche Zustimmung/);
-  assert.doesNotMatch(kern(t), /nur mit Zustimmung des Finanzamts/i);
+  const karte = byTitle(/Bilanzberichtigung oder Bilanzänderung/i);
+  assert.match(kern(karte), /engen zeitlichen und sachlichen Zusammenhang/);
+  assert.match(kern(karte), /keine zusätzliche gesetzliche Zustimmung/);
+  assert.doesNotMatch(kern(karte), /nur mit Zustimmung des Finanzamts/i);
+
+  const modul = byTitle(/Bilanzberichtigung und Bilanzänderung/i);
+  assert.match(kern(modul), /keine zusätzliche Zustimmungspflicht/);
+  assert.doesNotMatch(kern(modul), /Zustimmungsbedürftigkeit|zustimmungsbedürftig/i);
 });
 
 test("Rückstellungsabzinsung unterscheidet 10 und 7 Geschäftsjahre", () => {
