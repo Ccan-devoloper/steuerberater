@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 38 Kapitel mit 764 Abschnitten und 96 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 40 Kapitel mit 803 Abschnitten und 98 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4342,6 +4342,47 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   2031 aus. Dort ordnet die Quelle die 2027 verwendeten 4.200.000 € allerdings dem Vortrag „aus
   2025“ zu, der nur 4.000.000 € beträgt: 200.000 € stammen aus dem Jahrgang 2026 – was die Quelle mit
   ihrem eigenen Schlusssatz und dem bis 2031 nutzbaren Restbetrag von 300.000 € selbst bestätigt.
+  Beide Vorträge hängen eng am **Betrieb**. Veräußerung, Liquidation und Umwandlung vernichten nach
+  § 4h Abs. 5 EStG **beide**, eine Teilbetriebsübertragung und ein Mitunternehmerwechsel anteilig.
+  An einer entscheidenden Stelle trennt die Quelle sie allerdings – in einer Fußnote: Bei § 8c KStG
+  geht **nur der Zinsvortrag** unter, der **EBITDA-Vortrag bleibt unberührt**, was allein auf dem
+  Wortlaut des § 8a Abs. 1 Satz 3 KStG beruht. Daraus ergibt sich eine einfache Merkregel:
+  betriebsbezogene Ereignisse vernichten beides, der Anteilserwerb nur den Zinsvortrag. Für dessen
+  Erhalt lässt sich auch § 8d KStG beantragen – um den Preis, dass Verlust und Zinsvortrag künftig
+  dem Fortführungserfordernis unterliegen. Bemerkenswert ist der **Durchgriff** des § 4h Abs. 5 Satz 3
+  EStG: Obwohl die Personengesellschaft ein eigener Betrieb mit eigenem Zinsvortrag ist, lässt ein
+  schädlicher Anteilserwerb bei einer beteiligten Kapitalgesellschaft ihren Zinsvortrag anteilig
+  untergehen – Personengesellschaften können den Erhalt des Zinsvortrags nicht abschirmen, wie es
+  § 10a Satz 10 GewStG beim Gewerbeverlust ebenso vorsieht. Tritt das Ereignis unterjährig ein,
+  entfällt nur der **festgestellte** Vortrag des Vorjahres; Nettozinsaufwand und verrechenbares EBITDA
+  des laufenden Jahres bleiben erhalten.
+  Die **Freigrenze** des § 4h Abs. 2 Satz 1a EStG formuliert die Quelle ungewöhnlich über den
+  Höchstbetrag von **2.999.999 €**, und das aus gutem Grund: Es ist eine echte Freigrenze und kein
+  Freibetrag. Wird sie um einen Euro überschritten, unterliegt der **gesamte** Nettozinsaufwand der
+  Schranke – bei 2.999.999 € sind alle Zinsen abziehbar, bei 3.000.000 € nur noch 30 % des EBITDA.
+  Umso auffälliger ist, dass die Quelle wenige Zeilen später selbst vom „Freibetrag“ spricht. Im
+  Organkreis gilt die Grenze nach § 15 Satz 1 Nr. 3 KStG nur **einmal**. Unerwartet ist die Kehrseite
+  aller Ausnahmen: Greift eine von ihnen, entsteht **kein EBITDA-Vortrag** – die Befreiung kostet also
+  das Potential des Jahres, was gerade den Betrieb trifft, der zwischen Jahren mit und ohne Anwendung
+  wechselt.
+  Die **Stand-alone-Betrachtung** des § 4h Abs. 2 Satz 1b EStG verlangt seit 2024 nur noch zweierlei:
+  dass dem Betrieb **keine Person** im Sinne des § 1 Abs. 2 AStG nahesteht und dass er über **keine
+  ausländische Betriebsstätte** verfügt. Sie ist damit deutlich enger, als ihr Name verspricht, denn
+  bereits eine Beteiligung von **25 %** begründet ein Näheverhältnis – und zwar **in beide
+  Richtungen**, also auch dann, wenn der Betrieb selbst ein Viertel an einer anderen Gesellschaft
+  hält. Für die typische Ein-Personen- oder Familien-GmbH läuft die Regelung vollständig leer; im
+  ersten Beispiel genügen zwei Gesellschafter mit je 30 %, und erst zehn Gesellschafter zu je 10 %
+  unterschreiten die Grenze. Dann aber kann eine einzige **ausländische Betriebsstätte** die Ausnahme
+  wieder zunichtemachen, gleichgültig wie klein sie ist und ob überhaupt Zinsen mit ihr
+  zusammenhängen. Zwischen den beiden Ausnahmen bleibt eine Lücke, die die Quelle ausdrücklich
+  benennt: Die Escape-Klausel des § 4h Abs. 2 Satz 1c EStG hilft nur **Konzern**gesellschaften, die
+  Stand-alone-Regel nur Betrieben **ohne** nahestehende Person – die nicht konzernzugehörige
+  Gesellschaft mit einem Gesellschafter von mindestens 25 %, also der Regelfall des Mittelstands,
+  fällt durch beide Raster. Im **Organkreis** wird ausschließlich auf Ebene des **Organträgers**
+  geprüft, was in beide Richtungen wirken kann. Die früher zusätzlich zu prüfende
+  Gesellschafterfremdfinanzierung des § 8a Abs. 2 KStG a.F. ist ersatzlos aufgehoben, weil das
+  Merkmal der nahestehenden Person dasselbe Ergebnis erreicht – wer mit älterer Literatur arbeitet,
+  findet dort also eine Prüfungsstufe, die es seit 2024 nicht mehr gibt.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -10620,6 +10620,44 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 3.6.5 bis 3.7.2 – Betriebsbezogenheit der Vorträge, Freigrenze und Stand-alone-Betrachtung
+
+Quelle: dieselbe Datei, Seiten 62 bis 65; übernommen als Kapitel 39 und 40. Prüfung:
+`npm run check:k2-kst-teil5` (40 Kapitel, 803 Blöcke, 98 Tabellen).
+
+**Die Beteiligungsquoten der Beispiele sind unabhängig nachgerechnet:** 20 % + 30 % + 20 % + 30 % =
+100 %, wobei B und D die Viertelgrenze überschreiten; im vierten Beispiel unterschreiten zehn
+Gesellschafter zu je 10 % die Grenze, so dass allein die niederländische Betriebsstätte den Ausschlag
+gibt. Der Nettozinsaufwand von genau 3.000.000 € überschreitet die Freigrenze, die einen Höchstbetrag
+von 2.999.999 € vorsieht.
+
+**Vier sprachliche Eigenheiten sind übernommen und markiert:** das Wort „Freibetrag“ für die
+Freigrenze, die Formen „wofür das Verhältnis der Verkehrswerte maßgebend sind“ und
+„Mitunternehmerswechsels“, „bei der Mitunternehmer-Kapitalgesellschaften“, der unvollständige
+Satz „und zudem nicht konzernzugehörig“ sowie die Fügung „sowohl bei der B-GmbH und C-GmbH“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Merkregel, dass betriebsbezogene Ereignisse beide
+Vorträge vernichten, § 8c KStG dagegen nur den Zinsvortrag – ein Unterschied, den die Quelle nur in
+einer Fußnote festhält; die Einordnung des Durchgriffs bei Personengesellschaften und sein Vergleich
+mit § 10a Satz 10 GewStG; die Abgrenzung der unterjährigen Wirkung auf den festgestellten Bestand;
+die Erläuterung, warum die Quelle die Freigrenze über den Höchstbetrag von 2.999.999 € formuliert und
+welcher Sprung mit ihrer Überschreitung verbunden ist; der Hinweis auf die unerwartete Kehrseite der
+Ausnahmen, die das EBITDA-Potential des Jahres kosten; die Feststellung, dass die 25-Prozent-Grenze
+in beide Richtungen wirkt und die Stand-alone-Regel für die typische Familiengesellschaft leerlaufen
+lässt; die Beschreibung der Lücke zwischen Stand-alone-Ausnahme und Escape-Klausel, in die der
+Regelfall des Mittelstands fällt; die Bedeutung der ausländischen Betriebsstätte unabhängig von ihrer
+Größe; die Prüfungsreihenfolge im Organkreis und ihre beidseitige Wirkung; und die Einordnung der
+Aufhebung des § 8a Abs. 2 KStG a.F. als Wegfall einer ganzen Prüfungsstufe gegenüber älterer
+Literatur.
+
+**Neu sind zwei Übersichten:** eine zu den Vorgängen, die Zins- und EBITDA-Vortrag ganz oder teilweise
+vernichten, mit der jeweiligen Norm, und eine zu den vier Beispielen der Stand-alone-Betrachtung mit
+dem jeweiligen Grund des Scheiterns.
+
+**Noch offen:** aus Teil V die Konzernregelung (3.7.3 mit Konzernbegriff und Escape-Klausel), die
+weiteren Abschnitte des Kapitels 3 und das Kapitel 4 (stille Beteiligungen); ganz offen sind die
+Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 3.6.3 und 3.6.4 – Zinsvortrag und EBITDA-Vortrag
 
 Quelle: dieselbe Datei, Seiten 59 bis 62; übernommen als Kapitel 37 und 38. Prüfung:
