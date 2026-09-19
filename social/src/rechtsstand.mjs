@@ -144,6 +144,13 @@ function korrigiereSechsBAbs10(thema) {
     aktuell: "Gesetzesstand: Höchstbetrag 2.000.000 € für Gewinne aus Anteilsveräußerungen, die in nach dem 10.02.2026 beginnenden Wirtschaftsjahren entstehen. Bei kalendergleichem Wirtschaftsjahr wirkt die Erhöhung regelmäßig erst 2027; im Kalenderwirtschaftsjahr 2026 bleibt es noch bei 500.000 €.",
     vorher: "Höchstbetrag 500.000 € nach der bis zur Neuregelung geltenden Fassung.",
   });
+  rechtsstandswechsel(thema, {
+    abJahr: 2027,
+    vorherJahr: 2026,
+    norm: "§ 6b Abs. 10 S. 1 i. V. m. § 52 Abs. 14 S. 7 EStG",
+    aktuell: "Rechtsstand 2027 bei kalendergleichem Wirtschaftsjahr: Höchstbetrag 2.000.000 €.",
+    vorher: "Rechtsstand 2026 bei kalendergleichem Wirtschaftsjahr: wegen der Übergangsregel noch Höchstbetrag 500.000 €.",
+  });
 }
 
 function korrigiereMiete(thema) {
