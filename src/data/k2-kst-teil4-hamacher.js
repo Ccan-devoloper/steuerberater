@@ -30,7 +30,12 @@
    Durchführung des Vertrags (2.2.4 mit den unregelmäßigen Gehaltszahlungen
    und den Tantiemenzahlungen) und die Anwendung bei nahe stehenden Personen
    (2.2.5) übernommen. Damit ist auch das Kapitel 2 der Quelle vollständig.
-   Es folgen die Kapitel 3 bis 6; der Campus weist den Stand aus.
+   Aus Kapitel 3 (Bewertung) sind der Wert des Vermögensnachteils (3.1 mit den
+   beiden Fallgruppen 3.1.1 und 3.1.2) sowie der Beginn des
+   Umsatzsteuer-Exkurses (3.2 und 3.2.1, unentgeltliche Leistung der
+   Gesellschaft) übernommen. Es folgen die verbilligte Leistung (3.2.2), die
+   Umsatzsteuer des Gesellschafters (3.2.3) und die Kapitel 4 bis 6; der
+   Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -1049,6 +1054,103 @@ export const kstTeil4 = [
       { text: "Anmerkung zur Zurechnung (eigene Ergänzung): Der Abschnitt ist kurz, aber systematisch wichtig, weil er zwei Stränge des Skripts zusammenführt. Nach Abschnitt 1.9 wird eine Zuwendung an eine nahe stehende Person **dem Gesellschafter** zugerechnet – hier also dem Vater A, obwohl das Geld an den Sohn S fließt. Das Kapitel 2 fügt hinzu, dass dann auch der **strenge formelle Vergleich** gilt, der sonst nur für den beherrschenden Gesellschafter selbst greift. Beides zusammen bedeutet: S wird für die Formfragen behandelt, als wäre er selbst beherrschender Gesellschafter, obwohl er überhaupt nicht beteiligt ist." },
       { text: "Anmerkung zur Klausurfalle (eigene Ergänzung): Im Beispiel ist die Gehaltserhöhung ausdrücklich **angemessen** – der materielle Fremdvergleich ist also bestanden. Wer nur die Angemessenheit prüft, kommt deshalb zum falschen Ergebnis. Die vGA entsteht allein aus dem **Formverstoß**, und zwar in voller Höhe des rückwirkenden Anteils. Das ist die Kernaussage des ganzen Kapitels 2: Beim beherrschenden Gesellschafter und seinen nahe stehenden Personen kann eine der Höhe nach völlig unbedenkliche Vergütung zur vGA werden, nur weil sie zu spät vereinbart wurde." },
       { text: "Anmerkung zum Verhältnis zu 2.2.3 (eigene Ergänzung): Das Beispiel ist die Parallele zum ersten Beispiel des Rückwirkungsverbots, nur mit ausgetauschtem Empfänger. Dort erhielt der Gesellschafter X selbst die rückwirkende Erhöhung, hier sein Sohn. Das Ergebnis ist in beiden Fällen dasselbe, und genau darin liegt der Sinn des Abschnitts: Die Einschaltung einer nahe stehenden Person ist **kein** Ausweg aus dem formellen Vergleich. Damit ist zugleich das Kapitel 2 abgeschlossen." },
+    ],
+  },
+  {
+    id: "kst-t4-24",
+    kapitel: "24",
+    abschnittNr: "3.1",
+    title: "3.1 Wert des Vermögensnachteils – warum die Fallgruppe über den Maßstab entscheidet",
+    thema: "Die vGA entspricht dem bei der Kapitalgesellschaft eingetretenen Vermögensnachteil. Bei der Vermögensminderung ist das die Differenz zum angemessenen Entgelt, bei der verhinderten Vermögensmehrung der gemeine Wert – bei Wohnraum die Kostenmiete",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 3.1 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "H 8.6 KStH „Hingabe von Wirtschaftsgütern und Nutzungsüberlassungen“",
+      "BFH vom 27.07.2016, BStBl. II 2017, 214 und 217",
+      "BFH vom 27.07.2016, I R 71/15",
+    ],
+    themen: ["Bewertung der vGA", "Vermögensminderung", "verhinderte Vermögensmehrung", "gemeiner Wert", "Kostenmiete", "Wohnraumüberlassung"],
+    bloecke: [
+      { text: "Der Wert der verdeckten Gewinnausschüttung entspricht dem bei der Kapitalgesellschaft eingetretenen Vermögensnachteil. Dies gilt nicht nur für die Einkommensermittlung nach § 8 Abs. 3 Satz 2 KStG, sondern auch für die Auswirkungen auf Ebene des Anteilseigners hinsichtlich der Besteuerung nach § 20 Abs. 1 Nr. 1 Satz 2 EStG. Für die Bewertung der vGA ist dabei jeweils auf die entsprechende Fallgruppe abzustellen:" },
+      { typ: "titel", text: "3.1.1 Vermögensminderung" },
+      { text: "Die vGA entspricht in Fällen der Vermögensminderung der Differenz zwischen dem überhöhten Kaufpreis bzw. der überhöhten Vergütung und dem angemessenen Entgelt. In Höhe dieser Differenz ist bei der Kapitalgesellschaft ein Vermögensnachteil eingetreten, welcher sich in aller Regel auch aufwandswirksam (bei Wirtschaftsgütern nach Durchführung einer Bilanzberichtigung, siehe unter 1.5.2.1) ausgewirkt hat. Hinsichtlich der Behandlung der damit zusammenhängenden Umsatzsteuer des leistenden Gesellschafters: siehe unter 3.2.3." },
+      { typ: "titel", text: "3.1.2 Verhinderte Vermögensmehrung" },
+      { text: "In diesem Fall bemisst sich die vGA mit dem gemeinen Wert bzw. der erzielbaren Nutzungsvergütung. Diese Werte entsprechen dem fremdvergleichbaren Veräußerungspreis und beinhalten damit auch einen angemessenen Gewinnzuschlag. Beide Werte sind zudem Bruttowerte und beinhalten daher auch die Umsatzsteuer (zu den umsatzsteuerlichen Auswirkungen daraus siehe unter 3.2.1 und 3.2.2)." },
+      { text: "Bei der Wohnraumüberlassung gilt diesbezüglich die Einschränkung, dass sich der Wert der vGA grundsätzlich nach der Kostenmiete zuzüglich eines angemessenen Gewinnzuschlags ermittelt. Denn die Gesellschaft würde beim Ankauf bzw. Herstellung eines Wohngebäudes, welches dem Gesellschafter zu privaten Wohnzwecken überlassen werden soll, auch in fremdvergleichbaren Fällen die vollständige Erstattung ihrer Aufwendungen verlangen. Die marktübliche Miete ist dafür unerheblich, es sei denn, die Erzielung einer angemessenen Rendite wäre nur unter Berücksichtigung dieser Miete hinreichend absehbar." },
+      { typ: "tabelle", spalten: ["Fallgruppe", "Maßstab der Bewertung", "enthält Gewinnaufschlag?", "brutto oder netto?"], zeilen: [
+        ["Vermögensminderung (die Gesellschaft zahlt zu viel)", "Differenz zwischen überhöhtem Kaufpreis bzw. überhöhter Vergütung und angemessenem Entgelt", "nein – maßgeblich ist das angemessene Entgelt", "netto, siehe Abschnitt 3.2.3"],
+        ["verhinderte Vermögensmehrung (die Gesellschaft bekommt zu wenig)", "gemeiner Wert bzw. erzielbare Nutzungsvergütung", "ja – entspricht dem fremdvergleichbaren Veräußerungspreis", "brutto, also einschließlich Umsatzsteuer"],
+        ["verhinderte Vermögensmehrung bei Wohnraumüberlassung", "Kostenmiete zuzüglich eines angemessenen Gewinnzuschlags", "ja", "brutto"],
+        ["Wohnraumüberlassung, wenn eine angemessene Rendite nur mit der Marktmiete absehbar ist", "ausnahmsweise die marktübliche Miete", "ja", "brutto"],
+      ] },
+      { text: "Anmerkung zum Aufbau des Kapitels (eigene Ergänzung): Der erste Satz enthält den Schlüssel zur gesamten Bewertung – die vGA entspricht dem bei der **Kapitalgesellschaft** eingetretenen Vermögensnachteil. Bewertet wird also nicht der Vorteil beim Gesellschafter, sondern der Nachteil bei der Gesellschaft. Weil die Quelle diesen Maßstab ausdrücklich auch für § 20 Abs. 1 Nr. 1 Satz 2 EStG gelten lässt, ergibt sich der **Gleichlauf beider Ebenen**: Was bei der Gesellschaft hinzugerechnet wird, ist beim Gesellschafter der Beteiligungsertrag. Genau dieser Gleichlauf gerät im Umsatzsteuer-Exkurs (3.2) an seine Grenze und ist dort der Grund für den Streit um die alternative Rechtsauffassung." },
+      { text: "Anmerkung zum Gewinnaufschlag (eigene Ergänzung): Der wichtigste Unterschied zwischen den beiden Fallgruppen liegt darin, dass der gemeine Wert einen **angemessenen Gewinnzuschlag** enthält, die Differenzrechnung der Vermögensminderung dagegen nicht. Das ist kein Zufall, sondern folgt aus dem Maßstab: Bei der verhinderten Vermögensmehrung wird der Gesellschaft ein **Geschäft** entzogen, das sie mit Gewinn hätte abschließen können; bei der Vermögensminderung hat sie nur zu viel bezahlt. Praktisch bedeutet das, dass die Fallgruppenbestimmung – die schon Abschnitt 1.3 verlangt hat – hier unmittelbar auf die Zahl durchschlägt und ein Fallgruppenfehler die gesamte Bewertung verdirbt." },
+      { text: "Anmerkung zur Kostenmiete (eigene Ergänzung): Die Wohnraumüberlassung ist die praktisch wichtigste Ausnahme des Abschnitts, weil die Kostenmiete die Marktmiete regelmäßig **deutlich übersteigt** – gerade bei aufwendig hergestellten Objekten. Die Begründung der Quelle ist rein fremdvergleichsbezogen: Eine Gesellschaft, die ein Wohnhaus nur für den Gesellschafter anschafft oder herstellt, würde von einem Dritten die volle Erstattung ihrer Aufwendungen verlangen, weil sie sonst gar nicht investiert hätte. Die Rückausnahme ist eng: Die Marktmiete kommt nur zum Zuge, wenn sich schon mit ihr eine angemessene **Rendite** hinreichend absehbar erzielen lässt – dann nämlich wäre die Investition auch gegenüber einem Fremden wirtschaftlich sinnvoll gewesen." },
+    ],
+  },
+  {
+    id: "kst-t4-25",
+    kapitel: "25",
+    abschnittNr: "3.2.1",
+    title: "3.2 Exkurs Umsatzsteuer, 3.2.1 Gesellschaft leistet unentgeltlich",
+    thema: "Die unentgeltliche Leistung an den Gesellschafter löst eine unentgeltliche Wertabgabe aus. Die Umsatzsteuer bleibt nach R 8.6 KStR abziehbar, die vGA bleibt der gemeine Wert – nach abweichender Auffassung nicht",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 3.2 und 3.2.1 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "R 8.6 KStR",
+      "§ 10 Nr. 2 KStG",
+      "§ 3 Abs. 1b UStG",
+      "§ 3 Abs. 9a UStG",
+      "§ 10 Abs. 4 Nr. 1 bis 3 UStG",
+      "§ 4 UStG",
+      "§ 3 Nr. 40 Buchstabe d EStG",
+      "§ 8b Abs. 1 Satz 2 KStG",
+      "Abschn. 3.2. Abs. 2 Satz 5 und 6 UStAE",
+      "BFH vom 25.05.2004, VIII R 4/01",
+    ],
+    themen: ["Umsatzsteuer und vGA", "unentgeltliche Wertabgabe", "R 8.6 KStR", "gemeiner Wert", "materielle Korrespondenz", "Teileinkünfteverfahren"],
+    bloecke: [
+      { text: "Eine vGA kann zudem auch zu umsatzsteuerlichen Konsequenzen führen (Ausnahme: umsatzsteuerliche Organschaft zwischen dem Anteilseigner und seiner Kapitalgesellschaft). Dabei sind auch die Steuerbefreiungen i.S. des § 4 UStG zu beachten. Auch hierfür sind die beiden Fallgruppen der vGA entscheidend, weil im Fall der verhinderten Vermögensmehrung die Leistung von der Kapitalgesellschaft ausgeht, wo hingegen bei der Vermögensminderung der Anteilseigner bzw. die nahe stehende Person die Leistenden sind. Umsatzsteuerlich sind dabei folgende Varianten zu unterscheiden:" },
+      { typ: "titel", text: "3.2.1 Gesellschaft leistet unentgeltlich" },
+      { text: "In diesem Fall entsteht der Gesellschaft umsatzsteuerlich eine unentgeltliche Wertabgabe i.S. des § 3 Abs. 1b UStG bzw. § 3 Abs. 9a UStG, wenn die Gesellschaft vorher entsprechend auch den Vorsteuerabzug für das entsprechende Wirtschaftsgut in Anspruch genommen hat. Die Bemessungsgrundlage ermittelt sich nach § 10 Abs. 4 Nr. 1 – 3 UStG und entspricht dem Einkaufspreis oder den Selbstkosten bzw. bei unentgeltlichen Leistungen den Kosten. Dabei handelt es sich um Nettowerte und weicht in aller Regel auch von dem nach § 8 Abs. 3 Satz 2 KStG hinzuzurechnenden Wert ab." },
+      { text: "Die daraus resultierende Umsatzsteuer führt bei der Kapitalgesellschaft zu einem Aufwand (Buchung: Aufwand an Umsatzsteuerrückstellung). Diese bleibt aber als Betriebsausgabe abzugsfähig. Denn nach R 8.6 KStR unterbleibt eine Einkommenshinzurechnung, weil die verdeckte Gewinnausschüttung durch Erfassung des gemeinen Wertes bereits in Bruttohöhe berücksichtigt wurde. § 10 Nr. 2 KStG ist hierfür nicht anwendbar, weil es ansonsten zu einer Doppelberücksichtigung des Umsatzsteueraufwands kommen würde." },
+      { text: "Die vGA ist ertragsteuerlich aber für Zwecke des § 8 Abs. 3 Satz 2 KStG unverändert mit dem gemeinen Wert anzusetzen. Dass die im gemeinen Wert (theoretisch) enthaltene Umsatzsteuer nicht mit dem tatsächlichen und als Betriebsausgabe berücksichtigten Umsatzsteuerbetrag übereinstimmt, ist für Zwecke der Einkommenshinzurechnung aber zu vernachlässigen, weil der Begriff des gemeinen Wertes bereits eine hypothetische Umsatzsteuer beinhaltet." },
+      { text: "Beim Leistungsempfänger (= Anteilseigner bzw. der nahe stehenden Person) besteht keine Möglichkeit zur Inanspruchnahme des Vorsteuerabzugs, weil über diesen Vorgang keine Rechnung erteilt werden kann." },
+      { text: "Hinweis: Nach einer anderen Auffassung bemisst sich die vGA i.S. des § 8 Abs. 3 Satz 2 KStG nur unter Berücksichtigung der tatsächlich angefallenen Umsatzsteuer und weicht insoweit vom gemeinen Wert ab. Dies wird damit begründet, dass nur in Höhe des tatsächlichen Umsatzsteueraufwandes eine für die Erfassung der vGA notwendige Gewinnbeeinflussung eingetreten ist. M.E. ist aber die v.g. Auffassung zutreffend, wonach die Bewertung der vGA sowohl bei der Gesellschaft als auch dem Anteilseigner nur mit dem gemeinen Wert oder der erzielbaren Vergütung erfolgen kann und der tatsächliche Aufwand insoweit unerheblich ist. Folgt man dieser abweichenden Rechtsauffassung, kann sich daraus auf Ebene des Anteilseigners, bei dem die vGA als Beteiligungsertrag mit dem gemeinen Wert zu bemessen ist, aufgrund der materiellen Korrespondenzregelung (§ 8b Abs. 1 Satz 2 KStG bzw. § 3 Nr. 40d Satz 2 EStG) ein Folgeproblem ergeben. Denn für diese Zwecke ist dann der Betrag der vGA (gemeiner Wert) nicht vollständig beim Einkommen der leistenden Kapitalgesellschaft erfasst worden." },
+      { text: "Beispiel: Die A-GmbH überträgt dem Gesellschafter A unentgeltlich eine Maschine (Buchwert: 50.000 €; gemeiner Wert: 150.000 €; Einkaufspreis: 100.000 €). Bei Anschaffung der Maschine wurde zutreffend der Vorsteuerabzug vorgenommen. Der Gesellschafter nutzt die Maschine im Rahmen seines Unternehmens." },
+      { text: "Lösung: Die unentgeltliche Übertragung der Maschine führt zunächst zu einer gewinnwirksamen Ausbuchung (Gewinn: ./. 50.000 €). Daraus entsteht gleichzeitig eine vGA der Fallgruppe verhinderte Vermögensmehrung, die mit dem gemeinen Wert zu bewerten ist. Daher ist das Einkommen nach § 8 Abs. 3 Satz 2 KStG entsprechend außerbilanziell zu erhöhen (+ 150.000 €)." },
+      { text: "Daneben sind auch umsatzsteuerliche Konsequenzen zu beachten. Denn dabei handelt es sich um eine unentgeltliche Wertabgabe i.S. des § 3 Abs. 1b Nr. 3 UStG, die mit dem Einkaufspreis von 100.000 € zu bemessen ist (§ 10 Abs. 4 Nr. 1 UStG). Die Umsatzsteuer beträgt demnach 19.000 € (19 % von 100.000 €). Daraus resultiert ein Aufwand von 19.000 € (= USt-Verbindlichkeit). Zu einer weiteren Hinzurechnung dieses Aufwandes kommt es nicht, da die verdeckte Gewinnausschüttung bereits mit dem gemeinen Wert bemessen wurde (R 8.6 KStR). Danach ergibt sich letztlich ein Einkommen von 81.000 € (./. 50.000 € + 150.000 € ./. 19.000 €)." },
+      { text: "Alternative Rechtsauffassung: die vGA wäre danach für Zwecke der Einkommensermittlung unter Berücksichtigung des tatsächlichen Umsatzsteueraufwands zu bewerten. Danach würde die Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG lediglich 145.050 € (= 126.050 € Nettobetrag aus 150.000 € zuzüglich 19.000 €) betragen. Danach ergäbe sich ein Einkommen von (./. 50.000 € + 145.050 € ./. 19.000 €) 76.050 €." },
+      { text: "Auswirkungen beim Anteilseigner: Beim Anteilseigner bemisst sich die erhaltene vGA mit dem gemeinen Wert von 150.000 €. Daraus würden folgende buchhalterische Konsequenzen ergeben: Maschine 150.000 € an Beteiligungsertrag (Beteiligung = BV) 150.000 €. (Die Form „Daraus würden folgende buchhalterische Konsequenzen ergeben“ steht so in der Quelle.)" },
+      { text: "Der Beteiligungsertrag unterliegt dem Teileinkünfteverfahren (§ 3 Nr. 40d EStG) und ist daher in Höhe von 60.000 € steuerfrei. Ein Vorsteuerabzug ist daneben nicht möglich, weil der Vorgang für umsatzsteuerliche Zwecke unentgeltlich bleibt." },
+      { text: "Beachte: Im Fall der alternativen Rechtsauffassung würde sich ein Problem mit der materiellen Korrespondenz des § 3 Nr. 40d Satz 2 EStG ergeben. Denn die vGA von 150.000 € wäre dann aus Sicht des Anteilseigners in Höhe von 4.950 € (150.000 € ./. 145.050 €) tatsächlich nicht dem Einkommen der A-GmbH hinzugerechnet worden und wäre danach insoweit voll steuerpflichtig." },
+      { typ: "tabelle", spalten: ["Schritt", "herrschende Auffassung", "alternative Rechtsauffassung"], zeilen: [
+        ["Ausbuchung der Maschine zum Buchwert", "./. 50.000 €", "./. 50.000 €"],
+        ["Umsatzsteueraufwand aus der unentgeltlichen Wertabgabe", "./. 19.000 €", "./. 19.000 €"],
+        ["Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG", "+ 150.000 € (gemeiner Wert)", "+ 145.050 € (126.050 € netto + 19.000 € tatsächliche USt)"],
+        ["Einkommen der A-GmbH", "81.000 €", "76.050 €"],
+        ["Beteiligungsertrag beim Anteilseigner", "150.000 €", "150.000 €"],
+        ["davon nach § 3 Nr. 40 Buchstabe d EStG steuerfrei", "60.000 €", "60.000 € abzüglich der Korrespondenzwirkung"],
+        ["voll steuerpflichtig nach § 3 Nr. 40d Satz 2 EStG", "kein Betrag", "4.950 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Umsatzsteuerlicher Punkt", "Regelung"], zeilen: [
+        ["Tatbestand", "unentgeltliche Wertabgabe nach § 3 Abs. 1b UStG (Lieferung) bzw. § 3 Abs. 9a UStG (sonstige Leistung)"],
+        ["Voraussetzung", "die Gesellschaft hat vorher den Vorsteuerabzug für das Wirtschaftsgut in Anspruch genommen"],
+        ["Bemessungsgrundlage", "§ 10 Abs. 4 Nr. 1 bis 3 UStG: Einkaufspreis, Selbstkosten bzw. bei unentgeltlichen Leistungen die Kosten – jeweils Nettowerte"],
+        ["Behandlung der Umsatzsteuer bei der Gesellschaft", "Aufwand (Buchung: Aufwand an Umsatzsteuerrückstellung), abziehbare Betriebsausgabe; keine Hinzurechnung nach R 8.6 KStR, § 10 Nr. 2 KStG nicht anwendbar"],
+        ["Vorsteuerabzug beim Leistungsempfänger", "nicht möglich, weil über den Vorgang keine Rechnung erteilt werden kann"],
+        ["Ausnahme vom ganzen Exkurs", "umsatzsteuerliche Organschaft zwischen Anteilseigner und Kapitalgesellschaft"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen des Beispiels gehen auf. Umsatzsteuer: 19 % von 100.000 € = 19.000 €. Einkommen nach herrschender Auffassung: ./. 50.000 € + 150.000 € ./. 19.000 € = 81.000 €. Nettobetrag aus dem gemeinen Wert: 150.000 € ÷ 1,19 = 126.050,42 €, von der Quelle auf 126.050 € gerundet; zuzüglich 19.000 € ergibt 145.050 €. Einkommen nach alternativer Auffassung: ./. 50.000 € + 145.050 € ./. 19.000 € = 76.050 €. Die Differenz der beiden Einkommen beträgt 4.950 € und entspricht genau dem Korrespondenzbetrag. Teileinkünfteverfahren: 40 % von 150.000 € = 60.000 €." },
+      { text: "Anmerkung zur Differenz von 4.950 € (eigene Ergänzung): Dieser Betrag ist nicht willkürlich, sondern exakt die Lücke zwischen **hypothetischer und tatsächlicher** Umsatzsteuer. Im gemeinen Wert von 150.000 € stecken rechnerisch 23.950 € Umsatzsteuer (150.000 € ./. 126.050 €), tatsächlich angefallen sind aber nur 19.000 €, weil die Bemessungsgrundlage der unentgeltlichen Wertabgabe der **Einkaufspreis** von 100.000 € ist und nicht der gemeine Wert. 23.950 € ./. 19.000 € = 4.950 €. Genau diese Lücke ist der ganze Streitpunkt des Abschnitts – und sie entsteht nur deshalb, weil Umsatzsteuerrecht und Körperschaftsteuerrecht hier **verschiedene Wertmaßstäbe** anlegen." },
+      { text: "Anmerkung zur Rolle der R 8.6 KStR (eigene Ergänzung): Die Vorschrift löst ein Problem, das sonst zu einer doppelten Belastung führen würde. Der Umsatzsteueraufwand aus der unentgeltlichen Wertabgabe ist wirtschaftlich ein Teil der Ausschüttung; er wäre deshalb an sich hinzuzurechnen. Weil die vGA aber bereits mit dem **Bruttowert** angesetzt wird, ist diese Umsatzsteuer schon in der Hinzurechnung enthalten – eine zweite Korrektur über § 10 Nr. 2 KStG würde denselben Betrag ein zweites Mal erfassen. Die Quelle sagt das ausdrücklich. Praktisch heißt das: Wer den gemeinen Wert hinzurechnet, **darf** den Umsatzsteueraufwand stehen lassen; wer ihn zusätzlich hinzurechnet, hat doppelt gerechnet." },
+      { text: "Anmerkung zum Streitstand (eigene Ergänzung): Der Verfasser tritt der Gegenauffassung ausdrücklich entgegen, der Datensatz gibt beide Rechnungen wieder, weil die Quelle das auch tut. Für die Klausur ist die **Argumentationsstruktur** das Wesentliche. Die Gegenauffassung stützt sich auf das Erfordernis der Gewinnbeeinflussung, das aus Abschnitt 1.5 bekannt ist: Hinzugerechnet werden kann nur, was den Gewinn tatsächlich gemindert hat – und gemindert hat ihn nur die tatsächliche Umsatzsteuer von 19.000 €. Der Verfasser hält dem entgegen, dass der Begriff des gemeinen Wertes eine hypothetische Umsatzsteuer bereits **enthält** und deshalb gar nicht erst zerlegt werden darf. Der Preis der Gegenauffassung zeigt sich beim Anteilseigner: Weil dieser den vollen gemeinen Wert versteuert, die Gesellschaft aber weniger hinzugerechnet hat, greift die materielle Korrespondenz und 4.950 € verlieren die Begünstigung des Teileinkünfteverfahrens." },
+      { text: "Anmerkung zur Fallgruppenabhängigkeit (eigene Ergänzung): Die Einleitung zu 3.2 hält einen Gedanken fest, der leicht überlesen wird und doch den ganzen Exkurs ordnet: Die Umsatzsteuer folgt der **Leistungsrichtung**. Bei der verhinderten Vermögensmehrung leistet die Gesellschaft, so dass bei ihr eine unentgeltliche Wertabgabe oder die Mindestbemessungsgrundlage in Betracht kommt (3.2.1 und 3.2.2). Bei der Vermögensminderung leistet umgekehrt der Gesellschafter oder die nahe stehende Person, so dass sich die umsatzsteuerlichen Fragen auf **deren** Seite stellen (3.2.3). Und die Steuerbefreiungen des § 4 UStG sind dabei stets vorab zu prüfen – ist der Vorgang befreit, erledigt sich der gesamte Exkurs, ebenso im Fall der umsatzsteuerlichen Organschaft." },
     ],
   },
 ];

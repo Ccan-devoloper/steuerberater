@@ -10620,6 +10620,46 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 3.1 bis 3.2.1 – Bewertung und Umsatzsteuer-Exkurs
+
+Quelle: dieselbe Datei, Seiten 35 bis 37; übernommen als Kapitel 24 und 25. Prüfung:
+`npm run check:k2-kst-teil4` (25 Kapitel, 372 Blöcke, 32 Tabellen).
+
+**Der Maßstab der Bewertung hängt an der Fallgruppe**, und der Datensatz stellt das in einer
+Vierzeilentabelle gegenüber: Die Vermögensminderung ergibt die Differenz zum angemessenen Entgelt
+*ohne* Gewinnaufschlag, die verhinderte Vermögensmehrung den gemeinen Wert *mit* Gewinnaufschlag. Als
+eigene Ergänzung ist festgehalten, dass das kein formaler Unterschied ist: Bei der verhinderten
+Vermögensmehrung wird der Gesellschaft ein Geschäft entzogen, das sie mit Gewinn hätte abschließen
+können, bei der Vermögensminderung hat sie nur zu viel bezahlt. Ebenfalls als eigene Ergänzung
+eingeordnet ist die Kostenmiete bei der Wohnraumüberlassung samt ihrer engen Rückausnahme.
+
+**Alle Zahlen des Beispiels zu 3.2.1 sind unabhängig nachgerechnet und gehen auf**: 19 % von
+100.000 € = 19.000 €; ./. 50.000 € + 150.000 € ./. 19.000 € = 81.000 €; 150.000 € ÷ 1,19 =
+126.050,42 €, von der Quelle auf 126.050 € gerundet, zuzüglich 19.000 € = 145.050 €; ./. 50.000 € +
+145.050 € ./. 19.000 € = 76.050 €; 40 % von 150.000 € = 60.000 €.
+
+**Die Differenz von 4.950 € ist als eigene Feststellung hergeleitet.** Die Quelle nennt den Betrag
+nur als Subtraktionsergebnis (150.000 € ./. 145.050 €), ohne seine Herkunft zu erklären. Er ist
+exakt der Abstand zwischen hypothetischer und tatsächlicher Umsatzsteuer: Im gemeinen Wert von
+150.000 € stecken rechnerisch 23.950 € Umsatzsteuer (150.000 € ./. 126.050 €), tatsächlich angefallen
+sind aber nur 19.000 €, weil die Bemessungsgrundlage der unentgeltlichen Wertabgabe der Einkaufspreis
+von 100.000 € ist und nicht der gemeine Wert. 23.950 € ./. 19.000 € = 4.950 €. Die Lücke entsteht
+also allein daraus, dass Umsatzsteuer- und Körperschaftsteuerrecht hier verschiedene Wertmaßstäbe
+anlegen.
+
+**Eine Formulierung der Quelle ist wortlautgetreu übernommen und als solche gekennzeichnet:** „Daraus
+würden folgende buchhalterische Konsequenzen ergeben“ – das rückbezügliche „sich“ fehlt.
+
+**Der Streitstand ist mit beiden Rechnungen wiedergegeben**, weil die Quelle das auch tut; die eigene
+Einordnung arbeitet die Argumentationsstruktur heraus: Die Gegenauffassung stützt sich auf das aus
+Abschnitt 1.5 bekannte Erfordernis der Gewinnbeeinflussung, der Verfasser hält dem entgegen, dass der
+gemeine Wert eine hypothetische Umsatzsteuer bereits enthält. Die Rechtsauffassung der Quelle ist als
+solche gekennzeichnet („M.E.“) und nicht als geltendes Recht dargestellt.
+
+**Noch offen:** aus Teil IV die verbilligte Leistung der Gesellschaft (3.2.2), die Umsatzsteuer des
+Gesellschafters (3.2.3) und die Kapitel 4 (Auswirkungen der verdeckten Gewinnausschüttung),
+5 (Dreiecksfälle) und 6 (Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 2.2.4 und 2.2.5 – Kapitel 2 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 32 bis 34; übernommen als Kapitel 22 und 23. Prüfung:

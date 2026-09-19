@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 23 Kapitel mit 341
-  Abschnitten und 29 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 25 Kapitel mit 372
+  Abschnitten und 32 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3119,6 +3119,38 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   nur die Angemessenheit prüft, kommt zum falschen Ergebnis, denn 4 × 3.000 € = 12.000 € sind allein
   wegen des **Formverstoßes** hinzuzurechnen. Die Einschaltung einer nahe stehenden Person ist also
   kein Ausweg aus dem formellen Vergleich. **Damit ist auch das Kapitel 2 der Quelle vollständig.**
+  Die **Bewertung** (Kapitel 3) beginnt mit einem Satz, der den Schlüssel zum ganzen Kapitel enthält:
+  Die vGA entspricht dem bei der **Kapitalgesellschaft** eingetretenen Vermögensnachteil. Bewertet
+  wird also nicht der Vorteil beim Gesellschafter, sondern der Nachteil bei der Gesellschaft – und
+  weil dieser Maßstab ausdrücklich auch für § 20 Abs. 1 Nr. 1 Satz 2 EStG gilt, laufen beide Ebenen
+  gleich. Welcher Wert anzusetzen ist, hängt an der **Fallgruppe**: Bei der Vermögensminderung ist es
+  die Differenz zwischen überhöhtem Entgelt und angemessenem Entgelt, bei der verhinderten
+  Vermögensmehrung der **gemeine Wert** bzw. die erzielbare Nutzungsvergütung. Der Unterschied ist
+  kein formaler, denn nur der gemeine Wert enthält einen angemessenen **Gewinnzuschlag** – bei der
+  verhinderten Vermögensmehrung wird der Gesellschaft ein Geschäft entzogen, bei der
+  Vermögensminderung hat sie nur zu viel bezahlt. Ein Fallgruppenfehler verdirbt deshalb die gesamte
+  Bewertung. Bei der **Wohnraumüberlassung** tritt an die Stelle des gemeinen Wertes die
+  **Kostenmiete** zuzüglich eines angemessenen Gewinnzuschlags, die die Marktmiete gerade bei
+  aufwendig hergestellten Objekten deutlich übersteigt; die marktübliche Miete zählt nur in der engen
+  Rückausnahme, dass sich schon mit ihr eine angemessene **Rendite** hinreichend absehbar erzielen
+  lässt.
+  Der **Umsatzsteuer-Exkurs** ordnet sich nach der Leistungsrichtung: Bei der verhinderten
+  Vermögensmehrung leistet die Gesellschaft, bei der Vermögensminderung der Gesellschafter oder die
+  nahe stehende Person – die Steuerbefreiungen des § 4 UStG und die umsatzsteuerliche Organschaft sind
+  dabei stets vorab zu prüfen, weil sich mit ihnen der ganze Exkurs erledigt. Leistet die Gesellschaft
+  **unentgeltlich**, entsteht eine unentgeltliche Wertabgabe nach § 3 Abs. 1b bzw. § 3 Abs. 9a UStG,
+  deren Bemessungsgrundlage nach § 10 Abs. 4 UStG der **Einkaufspreis** ist. Die daraus folgende
+  Umsatzsteuer bleibt nach **R 8.6 KStR** abziehbare Betriebsausgabe: Weil die vGA bereits brutto mit
+  dem gemeinen Wert angesetzt ist, steckt diese Umsatzsteuer schon in der Hinzurechnung, und eine
+  zweite Korrektur über § 10 Nr. 2 KStG würde denselben Betrag doppelt erfassen. Genau hier entsteht
+  die Lücke, um die gestritten wird. Im Beispiel der Quelle (Buchwert 50.000 €, gemeiner Wert
+  150.000 €, Einkaufspreis 100.000 €) ergibt sich ein Einkommen von 81.000 €; nach der abweichenden
+  Auffassung, die nur die tatsächliche Umsatzsteuer berücksichtigt, wären es 76.050 €. Die Differenz
+  von **4.950 €** ist nicht willkürlich, sondern exakt der Abstand zwischen hypothetischer und
+  tatsächlicher Umsatzsteuer: Im gemeinen Wert stecken rechnerisch 23.950 € Umsatzsteuer, angefallen
+  sind nur 19.000 €. Beim Anteilseigner bleibt der Beteiligungsertrag in beiden Varianten der gemeine
+  Wert von 150.000 €, so dass nach der Gegenauffassung über die **materielle Korrespondenz** des § 3
+  Nr. 40d Satz 2 EStG genau diese 4.950 € die Begünstigung des Teileinkünfteverfahrens verlieren.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
