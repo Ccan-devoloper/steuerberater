@@ -372,11 +372,11 @@ function korrigiereLatenteSteuern(thema) {
 }
 
 function korrigiereRealteilung(thema) {
-  normErgaenzen(thema, "§ 16 Abs. 3 S. 2–4 EStG");
+  normErgaenzen(thema, "§ 16 Abs. 3 S. 2–5 EStG", "§ 16 Abs. 5 EStG", "§ 6 Abs. 5 S. 7 EStG");
   if (thema.typ === "karteikarte") {
     thema.kern = {
       ...thema.kern,
-      antwort: "Realteilung gibt es als echte und als unechte Realteilung. Echte Realteilung: Die Mitunternehmerschaft wird beendet und Betriebsvermögen auf die Realteiler verteilt. Unechte Realteilung: Ein Mitunternehmer scheidet gegen Übertragung von Wirtschaftsgütern aus, die bei ihm zumindest teilweise Betriebsvermögen bleiben, während die Mitunternehmerschaft von den übrigen Gesellschaftern fortgeführt wird. Eine reine Barabfindung ist keine Realteilung; ebenso greift die Buchwertregel nicht, soweit übertragene Einzelwirtschaftsgüter vollständig ins Privatvermögen gelangen. Die Voraussetzungen des § 16 Abs. 3 S. 2–4 EStG sind gesondert zu prüfen.",
+      antwort: "Realteilung gibt es als echte und als unechte Realteilung. Echte Realteilung: Die Mitunternehmerschaft wird beendet und Betriebsvermögen auf die Realteiler verteilt. Unechte Realteilung: Ein Mitunternehmer scheidet gegen Übertragung von Wirtschaftsgütern aus, die bei ihm zumindest teilweise Betriebsvermögen bleiben, während die Mitunternehmerschaft von den übrigen Gesellschaftern fortgeführt wird. Eine reine Barabfindung ist keine Realteilung; ebenso greift die Buchwertregel nicht, soweit übertragene Einzelwirtschaftsgüter vollständig ins Privatvermögen gelangen. Die Voraussetzungen des § 16 Abs. 3 S. 2–5 EStG sind gesondert zu prüfen. Für Übertragungen nach dem 18.10.2024 ist insbesondere Satz 5 i. V. m. § 6 Abs. 5 S. 7 EStG zu beachten; bei Teilbetriebs-Realteilungen mit übertragenen Körperschaftsanteilen kann zusätzlich § 16 Abs. 5 EStG mit siebenjähriger Nachversteuerungsregel eingreifen.",
     };
     return;
   }
@@ -390,7 +390,8 @@ function korrigiereRealteilung(thema) {
       "echte und unechte Realteilung unterscheiden",
       "reine Barabfindung und Überführung vollständig ins Privatvermögen von der Realteilung abgrenzen",
       "die Buchwertfortführung nach § 16 Abs. 3 S. 2 EStG bei erfüllten Voraussetzungen anwenden",
-      "Sperrfrist und Körperschaftsklausel des § 16 Abs. 3 S. 3, 4 EStG prüfen",
+      "Sperrfrist und Körperschaftsklauseln des § 16 Abs. 3 S. 3–5 EStG prüfen",
+      "bei Teilbetriebs-Realteilungen mit Körperschaftsanteilen § 16 Abs. 5 EStG prüfen",
       "Spitzenausgleich beziehungsweise Gegenleistungen gesondert würdigen",
     ],
     pruefschritte: [
@@ -398,7 +399,8 @@ function korrigiereRealteilung(thema) {
       "Prüfen, ob die übertragenen Wirtschaftsgüter beim Realteiler zumindest teilweise in einem Betriebsvermögen fortgeführt werden.",
       "Bei erfüllten Voraussetzungen die zwingende Buchwertfortführung nach § 16 Abs. 3 S. 2 EStG anwenden.",
       "Keine Realteilung annehmen, wenn der Ausscheidende ausschließlich Geld erhält oder übertragene Einzelwirtschaftsgüter vollständig in sein Privatvermögen überführt werden.",
-      "Sperrfrist nach § 16 Abs. 3 S. 3 EStG und Körperschaftsklausel nach Satz 4 prüfen.",
+      "Sperrfrist nach § 16 Abs. 3 S. 3 EStG und Körperschaftsklausel nach Satz 4 prüfen; für Übertragungen nach dem 18.10.2024 zusätzlich Satz 5 i. V. m. § 6 Abs. 5 S. 7 EStG beachten.",
+      "Bei Teilbetriebs-Realteilungen mit übertragenen Körperschaftsanteilen zusätzlich § 16 Abs. 5 EStG und dessen siebenjährige Nachversteuerungsregel prüfen.",
       "Spitzenausgleich oder sonstige Gegenleistungen gesondert auf entgeltliche Bestandteile prüfen.",
     ],
     merksatz: "Realteilung setzt nicht zwingend die Auflösung der Mitunternehmerschaft voraus: Neben der echten gibt es die unechte Realteilung beim Ausscheiden eines Mitunternehmers gegen betrieblich fortgeführte Wirtschaftsgüter.",
