@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 35 Kapitel mit 537
-  Abschnitten und 49 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 37 Kapitel mit 572
+  Abschnitten und 52 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3308,6 +3308,40 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Nr. 7 GewStG greift auch dann, wenn die Begünstigung ertragsteuerlich verloren ist, weil die
   Kürzungsvorschriften eine Mindestbeteiligung, aber keine Vorbelastung verlangen. Greift das Privileg
   nicht, führt § 8 Nr. 5 GewStG die Erträge in den Gewerbeertrag zurück.
+  Der Satz, jede vGA **verbrauche sich im Umkehrschluss**, ist der Schlüssel zu den beiden folgenden
+  Abschnitten: Die vGA ist kein zusätzlicher Vorteil, sondern die **Umetikettierung** eines bereits
+  erfassten Vorgangs. Bei der **Vermögensminderung** hat der Gesellschafter tatsächlich Geld erhalten
+  und bereits als Lohn, Miete oder Zins versteuert – dieser Posten ist vorhanden und wird deshalb
+  **umqualifiziert**, um eine Doppelerfassung zu vermeiden. Dass diese Korrektur **unabhängig** davon
+  erfolgt, ob die materielle Korrespondenz greift, ist systematisch zwingend: Die Korrespondenz
+  entscheidet nur, *wie* der Beteiligungsertrag besteuert wird, nicht ob daneben eine Doppelerfassung
+  droht. Bei nahe stehenden Personen ziehen sich die Rechtsfolgen auseinander – versteuern muss der
+  **Anteilseigner**, mindern darf nur die **nahe stehende Person**, und die Weitergabe ist beim
+  Anteilseigner nach § 12 Nr. 2 EStG nicht abziehbar.
+  Bei der **verhinderten Vermögensmehrung** scheidet die Umqualifizierung aus, weil der Gesellschafter
+  nur **Aufwendungen erspart** hat; es gibt keine Einnahme, die sich mindern ließe. An ihre Stelle
+  tritt die **Verbrauchstheorie**: In Höhe der vGA entstehen zusätzliche Anschaffungs- bzw.
+  Herstellungskosten, Werbungskosten oder Betriebsausgaben. Der lange Begründungssatz der Quelle lässt
+  sich auf einen Vergleichsfall zurückführen – hätte der Gesellschafter das angemessene Entgelt
+  gezahlt und die Gesellschaft es sofort wieder ausgeschüttet, hätte er **Aufwand und
+  Beteiligungsertrag** gehabt; genau dieses Ergebnis stellt die Theorie her. Es geht also nicht um
+  eine Vergünstigung, sondern um die Gleichstellung mit dem ordnungsgemäß abgewickelten Fall. Weil die
+  Rechtsprechung den Vorgang heute nicht mehr als Fiktion, sondern als **realen Geschäftsvorfall**
+  behandelt, gelten die allgemeinen Abzugsregeln: Die Aufwendungen sind nur steuerwirksam, wenn der
+  Gesellschafter aus dem zugrundeliegenden Rechtsgeschäft selbst Einkünfte erzielt – beim vermieteten
+  Mehrfamilienhaus sind es 10.000 € Werbungskosten nach § 21 EStG, beim eigengenutzten Einfamilienhaus
+  scheitert der Abzug an § 12 Nr. 1 EStG. Die Einschränkung des **§ 3c Abs. 2 EStG** greift nur, wenn
+  die fingierten Aufwendungen wirtschaftlich mit Beteiligungserträgen zusammenhängen, etwa beim
+  verbilligten Darlehen zum Erwerb einer Beteiligung; die fingierten Zinsen für ein vermietetes Haus
+  bleiben deshalb **voll** abziehbar, obwohl der Beteiligungsertrag selbst nur zu 60 % steuerpflichtig
+  ist – diese Asymmetrie ist gewollt und die häufigste Fehlerquelle des Abschnitts. Bei einer
+  Kapitalgesellschaft als Anteilseigner ist der Aufwand ohnehin immer voll abziehbar. Welche **Buchung**
+  zutrifft, hängt allein davon ab, wo die Beteiligung liegt und wo der Vorteil landet: Beteiligung im
+  Betriebsvermögen, Vorteil im Privatvermögen ergibt eine **Nutzungsentnahme**; beide im
+  Betriebsvermögen bleibt es im Betrieb; Beteiligung im Privatvermögen, Vorteil im Betriebsvermögen
+  ergibt eine **Einlage**. Im Maschinenbeispiel führt das zu einem Bilanzansatz von 109.500 € – genau
+  der gemeine Wert abzüglich der tatsächlich angefallenen Umsatzsteuer, dasselbe Muster wie bei den
+  181.000 € des Abschnitts 3.2.2.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

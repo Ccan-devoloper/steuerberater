@@ -48,9 +48,12 @@
    Gesellschafter) sind die Einnahmen aus Kapitalvermögen mit dem
    Zuflusszeitpunkt (4.2.1), die natürlichen Personen als Anteilseigner (4.2.2
    mit Teileinkünfteverfahren und Anteilen des Privatvermögens) und die
-   Kapitalgesellschaften als Anteilseigner (4.2.3) übernommen. Es folgt die
-   Umqualifizierung der Einkünfte (4.2.4) sowie die Kapitel 5 und 6; der
-   Campus weist den Stand aus.
+   Kapitalgesellschaften als Anteilseigner (4.2.3) übernommen, dazu die
+   Umqualifizierung der Einkünfte bei der Vermögensminderung (4.2.4) und die
+   Verbrauchstheorie beim Anteilseigner (4.2.5.1). Es folgen die Auswirkungen
+   der Verbrauchstheorie bei einer nahe stehenden Person (4.2.5.2), die
+   formelle Korrespondenz (4.3), das Verhältnis zu § 1 AStG (4.4) sowie die
+   Kapitel 5 und 6; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -1661,6 +1664,111 @@ export const kstTeil4 = [
       { text: "Anmerkung zum Schachtelprivileg (eigene Ergänzung): Dass die materielle Korrespondenz dem gewerbesteuerlichen Schachtelprivileg **nicht** entgegensteht, ist der überraschendste Satz des Abschnitts – die Quelle sagt ihn für beide Anteilseignertypen ausdrücklich. Er bedeutet, dass die Kürzung nach § 9 Nr. 2a oder Nr. 7 GewStG auch dann greift, wenn die vGA einkommensteuerlich oder körperschaftsteuerlich ihre Begünstigung verloren hat. Der Grund liegt in der Eigenständigkeit des Gewerbesteuerrechts: Die Kürzungsvorschriften verlangen eine Mindestbeteiligung, aber keine Vorbelastung bei der ausschüttenden Gesellschaft. Greift das Privileg dagegen nicht – etwa weil die Mindestbeteiligung fehlt –, führt § 8 Nr. 5 GewStG die Erträge in den Gewerbeertrag zurück, und die vGA wird zusätzlich gewerbesteuerpflichtig." },
       { text: "Anmerkung zur Einlagenrückgewähr (eigene Ergänzung): Der Hinweis auf § 27 Abs. 3 KStG setzt voraus, was Abschnitt 4.1.6 gerade als praktisch selten beschrieben hat. Die Quelle verlangt **zweierlei**: Die vGA muss zutreffend aus dem steuerlichen Einlagekonto finanziert worden sein, **und** es muss eine ordnungsgemäße Steuerbescheinigung vorliegen. Beides scheitert bei einer nachträglich aufgedeckten vGA regelmäßig, weil sie weder erklärt noch bescheinigt wurde – erst recht nach der Verwendungsfestschreibung des § 27 Abs. 5 KStG. Der Satz beschreibt also eher die theoretische Möglichkeit als den Regelfall." },
       { text: "Anmerkung zur Streubesitzregelung (eigene Ergänzung): Der kurze Verweis auf § 8b Abs. 4 KStG fügt der Prüfung bei Kapitalgesellschaften eine **zusätzliche** Hürde hinzu, die mit der Korrespondenz nichts zu tun hat. Beträgt die Beteiligung zu Beginn des Kalenderjahres weniger als 10 %, ist die Steuerfreiheit von vornherein ausgeschlossen, und die vGA ist voll steuerpflichtig – dann stellt sich die Korrespondenzfrage gar nicht mehr. In der Klausur ist die Reihenfolge deshalb: erst **Streubesitz** prüfen, dann Korrespondenz, dann die Fünf-Prozent-Pauschale des § 8b Abs. 5 Satz 1 KStG auf den freigestellten Betrag." },
+    ],
+  },
+  {
+    id: "kst-t4-36",
+    kapitel: "36",
+    abschnittNr: "4.2.4",
+    title: "4.2.4 Umqualifizierung der Einkünfte – jede vGA verbraucht sich",
+    thema: "Bei der Vermögensminderung sind bereits versteuerte Einkünfte des Gesellschafters umzuqualifizieren, um eine Doppelerfassung zu vermeiden. Bei nahe stehenden Personen findet die Korrektur bei diesen statt, nicht beim Anteilseigner",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 4.2.4 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 20 Abs. 5 EStG",
+      "§ 19 EStG",
+      "§ 32d Abs. 1 EStG",
+      "§ 32d Abs. 3 EStG",
+      "§ 12 Nr. 2 EStG",
+    ],
+    themen: ["Umqualifizierung", "Verbrauch der vGA", "Doppelerfassung", "Vermögensminderung", "nahe stehende Person", "Abzugsverbot"],
+    bloecke: [
+      { text: "Neben der Besteuerungsfolge der vGA im Rahmen des § 20 EStG, ist gleichzeitig auch die Folgewirkung daraus beim Gesellschafter zu beachten. Denn jede vGA verbraucht sich im Umkehrschluss, so dass sich daraus auch gegenteilige Besteuerungsfolgen ergeben können." },
+      { text: "Soweit sich die verdeckte Gewinnausschüttung beim Anteilseigner bisher bereits im Rahmen einer anderen Einkunftsart ausgewirkt hat, sind diese Einkünfte zur Vermeidung einer Doppelerfassung umzuqualifizieren. Diese Rechtsfolge tritt immer in den Fällen ein, in denen die verdeckte Gewinnausschüttung bei der Gesellschaft auf einer Vermögensminderung beruht. Die Korrektur der übrigen Einkünfte erfolgt unabhängig davon, ob bei der Besteuerung der Bezüge i.S. des § 20 EStG die materielle Korrespondenz greift." },
+      { text: "Gleiches gilt auch in den Fällen, in denen der Vermögensvorteil unmittelbar einer dem Anteilseigner nahe stehenden Person zugeflossen ist. Die Einkünftekorrektur kann nur bei der nahe stehenden Person selbst vorgenommen werden, welche bisher die überhöhten Einkünfte versteuern musste. Die in Höhe der verdeckten Gewinnausschüttung entstandenen Einkünfte sind von dieser Person nicht zu versteuern, weil diese auf einer Zuwendung des Anteilseigners beruhen und ausschließlich beim Anteilseigner als Beteiligungsertrag zu erfassen sind. Beim Anteilseigner scheidet hingegen ein Abzug des mit der verdeckten Gewinnausschüttung zusammenhängenden Potentials aus, weil es sich um eine nicht abziehbare Zuwendung i.S. des § 12 Nr. 2 EStG handelt." },
+      { text: "Beispiel: Die A-GmbH erhöht in 2025 die Bezüge des A rückwirkend um 50.000 €, welche bisher nach § 19 EStG versteuert wurden. Die Beteiligung gehört bei A zu dessen Privatvermögen." },
+      { text: "Lösung: Die verdeckte Gewinnausschüttung von 50.000 € führt bei A zu einer Einnahme i.S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG. Diese ist mit dem Sondersteuersatz von 25 % (§ 32d Abs. 1 EStG) zu erfassen. Zugleich muss der Bezug in seiner Steuererklärung 2025 angesetzt werden, da ein Steuerabzug bisher noch nicht vorgenommen wurde (§ 32d Abs. 3 EStG)." },
+      { text: "Gleichzeitig sind als Folgewirkung daraus die Einkünfte i.S. des § 19 EStG um 50.000 € zu vermindern." },
+      { text: "Abwandlung: Die rückwirkende Gehaltserhöhung erfolgt gegenüber dem Bruder des Anteilseigners." },
+      { text: "Lösung: Die verdeckte Gewinnausschüttung ist vom Anteilseigner zu versteuern (§ 20 Abs. 5 EStG i.V. mit § 20 Abs. 1 Nr. 1 Satz 2 EStG). Die Auswirkungen daraus entsprechen dem Grundfall. Die nahe stehende Person muss ihre Einkünfte i.S. des § 19 EStG entsprechend mindern, weil in Höhe von 50.000 € eine Zuwendung durch den Anteilseigner erfolgt und diese bei ihm vorrangig versteuert wird." },
+      { typ: "tabelle", spalten: ["Beteiligter", "Grundfall: A erhält die Erhöhung selbst", "Abwandlung: der Bruder erhält sie"], zeilen: [
+        ["Beteiligungsertrag nach § 20 Abs. 1 Nr. 1 Satz 2 EStG", "A: 50.000 €, Sondersteuersatz 25 %", "A: 50.000 €, über § 20 Abs. 5 EStG zugerechnet"],
+        ["Erfassung in der Steuererklärung", "A, weil kein Steuerabzug vorgenommen wurde (§ 32d Abs. 3 EStG)", "A, ebenso"],
+        ["Korrektur der Einkünfte nach § 19 EStG", "bei A: ./. 50.000 €", "beim Bruder: ./. 50.000 €"],
+        ["Abzug beim Anteilseigner für die Weitergabe", "entfällt – er behält den Vorteil selbst", "ausgeschlossen: nicht abziehbare Zuwendung nach § 12 Nr. 2 EStG"],
+      ] },
+      { text: "Anmerkung zum Grundgedanken (eigene Ergänzung): Der Satz, jede vGA **verbrauche sich im Umkehrschluss**, ist der Schlüssel zu den Abschnitten 4.2.4 und 4.2.5 zusammen. Dahinter steht eine einfache Überlegung: Die vGA ist kein zusätzlicher Vorteil, sondern eine **Umetikettierung** eines bereits erfassten Vorgangs. Die 50.000 € waren beim Gesellschafter schon einmal da – als Arbeitslohn. Würden sie nun zusätzlich als Beteiligungsertrag versteuert, ohne den Arbeitslohn zu mindern, wäre derselbe Betrag zweimal erfasst. Die Umqualifizierung stellt also keine Begünstigung dar, sondern verhindert eine Doppelbesteuerung." },
+      { text: "Anmerkung zur Beschränkung auf die Vermögensminderung (eigene Ergänzung): Die Quelle sagt ausdrücklich, dass die Umqualifizierung **immer** bei der Vermögensminderung eintritt – und im nächsten Abschnitt, dass sie bei der verhinderten Vermögensmehrung **nicht** erfolgen kann. Der Grund liegt im Sachverhalt: Bei der Vermögensminderung hat der Gesellschafter tatsächlich **Geld erhalten**, das er bereits als Lohn, Miete oder Zins versteuert hat – dieser Posten ist vorhanden und kann gemindert werden. Bei der verhinderten Vermögensmehrung hat er dagegen nur **Aufwendungen erspart**; es gibt keine Einnahme, die sich mindern ließe. Diese Unterscheidung ist damit derselbe Fallgruppenschnitt, der schon die Bewertung in Abschnitt 3.1 bestimmt hat." },
+      { text: "Anmerkung zur Unabhängigkeit von der Korrespondenz (eigene Ergänzung): Der Satz, die Korrektur der übrigen Einkünfte erfolge **unabhängig** davon, ob die materielle Korrespondenz greift, ist eine wichtige Entlastung für den Steuerpflichtigen und zugleich systematisch zwingend. Die Korrespondenzregeln entscheiden nur darüber, **wie** der Beteiligungsertrag zu besteuern ist – mit oder ohne Begünstigung. Ob daneben eine Doppelerfassung droht, ist eine ganz andere Frage, die allein vom Sachverhalt abhängt. Wer also wegen der Korrespondenz den vollen Tarif zahlen muss, behält trotzdem die Minderung seiner Lohneinkünfte." },
+      { text: "Anmerkung zur Abwandlung (eigene Ergänzung): Sie zeigt die eigentümliche **Auseinanderziehung** der Rechtsfolgen bei nahe stehenden Personen, die schon Abschnitt 1.9 beschrieben hat, nun in der Gegenrichtung. Versteuern muss der **Anteilseigner**, mindern darf nur der **Bruder** – die beiden Rechtsfolgen treffen also verschiedene Personen. Für die Familie insgesamt geht die Rechnung dabei nicht auf: Der Bruder spart die Steuer auf 50.000 € Arbeitslohn zu seinem Tarif, der Anteilseigner versteuert dieselben 50.000 € als Beteiligungsertrag, und die Weitergabe darf er nach § 12 Nr. 2 EStG **nicht** abziehen. Je nach Tarifunterschied kann das für die Beteiligten teurer oder günstiger ausfallen als der Grundfall – gesteuert werden kann es nicht." },
+    ],
+  },
+  {
+    id: "kst-t4-37",
+    kapitel: "37",
+    abschnittNr: "4.2.5.1",
+    title: "4.2.5 Verbrauchstheorie – wo die vGA beim Anteilseigner wieder auftaucht",
+    thema: "Bei der verhinderten Vermögensmehrung scheidet eine Umqualifizierung aus, weil der Gesellschafter nur Aufwendungen erspart. Stattdessen entstehen ihm in Höhe der vGA zusätzliche Anschaffungskosten, Werbungskosten oder Betriebsausgaben",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 4.2.5.1 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 20 Abs. 8 EStG",
+      "§ 15 EStG",
+      "§ 21 EStG",
+      "§ 12 Nr. 1 EStG",
+      "§ 3 Nr. 40 Satz 2 EStG",
+      "§ 3 Nr. 40 Buchstabe d EStG",
+      "§ 3c Abs. 2 EStG",
+      "§ 32d Abs. 1 und Abs. 3 EStG",
+      "§ 10 Abs. 5 Nr. 1 UStG",
+      "BFH vom 06.07.2000, BStBl. II 2002, 490",
+      "BFH vom 14.08.1975, BStBl. II 1976, 88",
+      "BFH vom 26.10.1987, BStBl. II 1988, 348",
+      "BMF vom 28.04.2003, BStBl. I 2003, 292, Tz. 21",
+    ],
+    themen: ["Verbrauchstheorie", "Fiktionstheorie", "ersparte Aufwendungen", "nachträgliche Anschaffungskosten", "Nutzungsentnahme", "§ 3c Abs. 2 EStG", "Einkünftezusammenhang"],
+    bloecke: [
+      { text: "Erbringt die Gesellschaft eine Leistung zu unangemessenen niedrigen Konditionen (= verhinderte Vermögensmehrung), wird dieser Vorteil beim Gesellschafter nach den Grundsätzen des § 20 Abs. 1 Nr. 1 Satz 2 EStG besteuert. Eine Korrektur der übrigen Einkünfte in Form einer Umqualifizierung kann aber nicht erfolgen, weil sich die verdeckte Gewinnausschüttung auf Ebene des Anteilseigners lediglich in „ersparten Aufwendungen“ ausgewirkt hat." },
+      { text: "Durch Erfassung der verdeckten Gewinnausschüttung werden bei der Gesellschaft aber letztlich die Verhältnisse berücksichtigt, die sich ansonsten auch bei Leistung des angemessenen Entgelts ergeben hätten. Deshalb ist in diesen Fällen im zweiten Schritt zu prüfen, welche weiteren Besteuerungsfolgen daraus beim Gesellschafter resultieren können, d.h. inwiefern sich die vGA beim Anteilseigner verbraucht. Danach können dem Gesellschafter in Höhe der verdeckten Gewinnausschüttung zusätzliche" },
+      { text: "– Anschaffungs- bzw. Herstellungskosten," },
+      { text: "– Werbungskosten" },
+      { text: "– oder Betriebsausgaben" },
+      { text: "entstehen (sog. Verbrauchstheorie). Diese Tatbestände sind steuerwirksam, wenn der Gesellschafter aus dem der verdeckten Gewinnausschüttung zugrundeliegenden Rechtsgeschäft selbst auch Einkünfte erzielt hat. Diese Vorgehensweise beruht auf der sog. bisherigen Fiktionstheorie, die sich aus der damaligen Rechtsprechung des BFH entwickelt hat. Mittlerweile geht aber auch die Rechtsprechung nicht mehr von einem fiktiven Vorgang aus, sondern behandelt die Auswirkungen der vGA auf Ebene des Anteilseigners nach realen Tatbeständen, d.h. wie einen Geschäftsvorfall." },
+      { text: "Denn durch Erfassung der verdeckten Gewinnausschüttung darf sich beim Anteilseigner kein anderes Einkommen ergeben, welches sich ansonsten bei tatsächlicher Leistung des angemessenen Entgeltes ergeben hätte und dessen Potential dann von der Gesellschaft umgehend wieder an den Anteilseigner ausgeschüttet worden wäre. In diesem Fall hätten sich beim Gesellschafter in Höhe des gezahlten angemessenen Entgelts ebenfalls zunächst Anschaffungs- oder Werbungskosten bzw. Betriebsausgaben ergeben, die anschließende Gewinnausschüttung hätte zu Einnahmen i.S. des § 20 EStG geführt." },
+      { text: "Die aufgrund der Verbrauchstheorie entstehenden Werbungskosten bzw. Betriebsausgaben unterliegen bei einer natürlichen Person als Anteilseigner nur dann der Einschränkung des § 3c Abs. 2 EStG, wenn diese Aufwendungen wirtschaftlich mit Beteiligungserträgen i.S. des § 3 Nr. 40 EStG stehen, z.B. verbilligtes Darlehen zur Anschaffung einer Beteiligung. Anderenfalls sind die fingierten Aufwendungen voll abziehbar. Die Fiktionstheorie greift zudem auch in den Fällen, in denen aufgrund des materiellen Korrespondenzprinzips beim Gesellschafter die Anwendung des Teileinkünfteverfahrens bzw. § 8b KStG ausgeschlossen ist. Bei einer Anteilseigner-Kapitalgesellschaft ist der Aufwand immer voll abziehbar. (Die Formulierung „wenn diese Aufwendungen wirtschaftlich mit Beteiligungserträgen … stehen“ steht so in der Quelle; das Wort „zusammen“ fehlt.)" },
+      { text: "Beispiel: Die A-GmbH gibt ihrem Alleingesellschafter (Beteiligung im Betriebsvermögen) ein unverzinsliches Darlehen von 100.000 € (angemessene Zinsen: 10.000 €). Der Gesellschafter erwirbt mit dem Darlehen ein im Privatvermögen gehaltenes und a) vermietetes Mehrfamilienhaus b) eigengenutztes Einfamilienhaus." },
+      { text: "Lösung: Der Gesellschafter muss die verdeckte Gewinnausschüttung von 10.000 € nach § 15 EStG (i.V. mit § 20 Abs. 8 EStG) versteuern, wobei diese nach § 3 Nr. 40 Satz 2 EStG und § 3 Nr. 40d EStG zu 40 % steuerfrei ist." },
+      { text: "Die vGA verbraucht sich im Gegenzug für Zinsaufwendungen, die mit einem Grundstück des Privatvermögens im Zusammenhang stehen (Verbrauchstheorie). Daher ist der Vorgang im Einzelunternehmen buchhalterisch als Nutzungsentnahme abzubilden (Buchung: Privatentnahme an Ertrag 10.000 €). Diese Aufwendungen können sich danach nur im Privatvermögen auswirken, wobei hierfür der Einkünftezusammenhang entscheidend ist. Die dadurch fingierten Schuldzinsen können daher im Fall a) als Werbungskosten (10.000 €) bei § 21 EStG berücksichtigt werden. Im Fall b) scheidet ein Abzug der Schuldzinsen gemäß § 12 Nr. 1 EStG aus, da aus dem Grundstück keine Einkünfte erzielt werden." },
+      { text: "Hinweis: Hätte das Grundstück zum Betriebsvermögen des Anteilseigners gehört, würde sich der Zinsaufwand als Betriebsausgabe auswirken (Buchung: Zinsaufwand an Beteiligungsertrag)." },
+      { text: "Beispiel: Die Gesellschaft liefert ihrem Alleingesellschafter eine Maschine zum Einkaufspreis von 59.500 € (inkl. USt), obwohl der gemeine Wert bei 119.000 € gelegen hätte. Die Maschine wird im Betriebsvermögen des Gesellschafters genutzt. Die Beteiligung befindet sich im Privatvermögen des Gesellschafters." },
+      { text: "Lösung: Der Gesellschafter versteuert eine verdeckte Gewinnausschüttung von 59.500 € (119.000 € ./. 59.500 €), die im Rahmen des § 20 Abs. 1 Nr. 1 EStG aber dem Sondersteuersatz von 25 % unterliegt (§ 32d Abs. 1 + Abs. 3 EStG). In Höhe der verdeckten Gewinnausschüttung entstehen dem Anteilseigner als Ausfluss der sog. Verbrauchstheorie zusätzliche Anschaffungskosten von 59.500 €, so dass die Maschine in der Gewinnermittlung mit 109.500 € auszuweisen ist (50.000 € (netto) + 59.500 € vGA). Dies würde wie folgt gebucht (Beteiligung ist im Privatvermögen): Maschine an Neueinlage 59.500 €." },
+      { text: "Hinweis: Umsatzsteuerliche Konsequenzen sind nicht zu ziehen, weil die Lieferung bereits zum Einkaufspreis erfolgte und daher die Mindestbemessungsgrundlage i.S. des § 10 Abs. 5 Nr. 1 UStG beachtet wurde." },
+      { typ: "tabelle", spalten: ["Darlehensbeispiel", "Fall a): vermietetes Mehrfamilienhaus", "Fall b): eigengenutztes Einfamilienhaus"], zeilen: [
+        ["verdeckte Gewinnausschüttung", "10.000 €, nach § 15 i.V. mit § 20 Abs. 8 EStG, zu 40 % steuerfrei", "10.000 €, ebenso"],
+        ["Buchung im Einzelunternehmen", "Privatentnahme an Ertrag 10.000 €", "Privatentnahme an Ertrag 10.000 €"],
+        ["fingierte Schuldzinsen", "10.000 € Werbungskosten bei § 21 EStG", "kein Abzug, § 12 Nr. 1 EStG"],
+        ["Grund", "aus dem Grundstück werden Einkünfte erzielt", "aus dem Grundstück werden keine Einkünfte erzielt"],
+        ["Abwandlung: Grundstück im Betriebsvermögen", "Betriebsausgabe (Buchung: Zinsaufwand an Beteiligungsertrag)", "entfällt"],
+      ] },
+      { typ: "tabelle", spalten: ["Maschinenbeispiel", "Wert", "Herleitung"], zeilen: [
+        ["gezahlter Kaufpreis (brutto)", "59.500 €", "Einkaufspreis der Gesellschaft, einschließlich Umsatzsteuer"],
+        ["gemeiner Wert (brutto)", "119.000 €", "laut Sachverhalt"],
+        ["verdeckte Gewinnausschüttung", "59.500 €", "119.000 € ./. 59.500 €"],
+        ["Nettowert des gezahlten Kaufpreises", "50.000 €", "59.500 € ÷ 1,19"],
+        ["zusätzliche Anschaffungskosten aus der Verbrauchstheorie", "59.500 €", "in Höhe der vGA"],
+        ["Bilanzansatz der Maschine beim Gesellschafter", "109.500 €", "50.000 € netto zuzüglich 59.500 €"],
+        ["Buchung", "Maschine an Neueinlage 59.500 €", "weil die Beteiligung im Privatvermögen gehalten wird"],
+        ["Umsatzsteuer", "keine weiteren Folgen", "die Lieferung erfolgte zum Einkaufspreis, die Mindestbemessungsgrundlage ist gewahrt"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. Maschinenbeispiel: 119.000 € ./. 59.500 € = 59.500 €; 59.500 € ÷ 1,19 = 50.000 €; 50.000 € + 59.500 € = 109.500 €. Der Bilanzansatz von 109.500 € ist dabei genau der **gemeine Wert abzüglich der tatsächlich angefallenen Umsatzsteuer**: 119.000 € ./. 9.500 € (19 % von 50.000 €) = 109.500 €. Dasselbe Muster ist in Abschnitt 3.2.2 aufgetreten, wo die Anschaffungskosten 181.000 € betrugen – auch dort der gemeine Wert abzüglich der tatsächlich in Rechnung gestellten Umsatzsteuer. Darlehensbeispiel: Die angemessenen Zinsen von 10.000 € entsprechen 10 % von 100.000 €; steuerfrei sind 40 % von 10.000 € = 4.000 €." },
+      { text: "Anmerkung zum Grundgedanken der Verbrauchstheorie (eigene Ergänzung): Der lange Begründungssatz der Quelle lässt sich auf einen **Vergleichsfall** zurückführen, und mit ihm wird die ganze Konstruktion einleuchtend. Man stelle sich vor, der Gesellschafter hätte das angemessene Entgelt tatsächlich gezahlt und die Gesellschaft hätte denselben Betrag sofort wieder ausgeschüttet. Dann hätte er zweierlei gehabt: **Aufwand** in Höhe des Entgelts und **Einnahmen** nach § 20 EStG in Höhe der Ausschüttung. Genau dieses Ergebnis stellt die Verbrauchstheorie her – sie fügt dem Beteiligungsertrag, der ohnehin zu versteuern ist, die fehlende Aufwandsseite hinzu. Es geht also nicht um eine Vergünstigung, sondern um die **Gleichstellung** mit dem ordnungsgemäß abgewickelten Fall." },
+      { text: "Anmerkung zum Wandel von der Fiktions- zur Verbrauchstheorie (eigene Ergänzung): Die Quelle erwähnt beiläufig, dass die Rechtsprechung heute nicht mehr von einem fiktiven Vorgang ausgeht, sondern die Auswirkungen „nach realen Tatbeständen“ behandelt – und benutzt beide Begriffe im selben Abschnitt nebeneinander. Praktisch folgt daraus die Einschränkung, die der Abschnitt gleich anschließend macht: Die Aufwendungen sind nur **steuerwirksam, wenn der Gesellschafter aus dem zugrundeliegenden Rechtsgeschäft selbst Einkünfte erzielt**. Eine reine Fiktion hätte diesen Vorbehalt nicht gebraucht; ein realer Geschäftsvorfall dagegen unterliegt den allgemeinen Abzugsregeln – und deshalb scheitert der Fall b) des Darlehensbeispiels an § 12 Nr. 1 EStG." },
+      { text: "Anmerkung zu § 3c Abs. 2 EStG (eigene Ergänzung): Die Einschränkung greift nur dann, wenn die fingierten Aufwendungen wirtschaftlich mit **Beteiligungserträgen** zusammenhängen – das Beispiel der Quelle ist das verbilligte Darlehen zur Anschaffung einer Beteiligung. Beim Darlehensbeispiel oben ist das gerade **nicht** der Fall: Die fingierten Zinsen hängen mit den Vermietungseinkünften zusammen, nicht mit der Beteiligung, und sind deshalb in voller Höhe von 10.000 € abziehbar, obwohl der Beteiligungsertrag selbst nur zu 60 % steuerpflichtig ist. Diese Asymmetrie ist gewollt und in der Klausur die häufigste Fehlerquelle des Abschnitts. Für eine Kapitalgesellschaft als Anteilseigner stellt sich die Frage ohnehin nicht – dort ist der Aufwand nach der Quelle **immer** voll abziehbar, weil § 8b Abs. 3 Satz 1 und Abs. 5 KStG mit der Fünf-Prozent-Pauschale bereits abschließend pauschalieren." },
+      { text: "Anmerkung zur Buchungstechnik (eigene Ergänzung): Die beiden Beispiele zeigen drei verschiedene Buchungen, und welche zutrifft, hängt allein davon ab, **wo die Beteiligung liegt und wo der Vorteil landet**. Liegt die Beteiligung im Betriebsvermögen und der Vorteil im Privatvermögen, ist eine **Nutzungsentnahme** zu buchen (Privatentnahme an Ertrag) – der Beteiligungsertrag entsteht im Betrieb, wird aber sofort wieder entnommen. Liegen beide im Betriebsvermögen, bleibt der Vorgang im Betrieb (Zinsaufwand an Beteiligungsertrag). Liegt die Beteiligung im **Privatvermögen** und der Vorteil im Betriebsvermögen, kommt der Wert von außen in den Betrieb und ist als **Einlage** zu buchen (Maschine an Neueinlage). Wer sich diese drei Richtungen merkt, kommt ohne Auswendiglernen aus." },
     ],
   },
 ];

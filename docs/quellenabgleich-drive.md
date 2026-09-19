@@ -10620,6 +10620,42 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 4.2.4 und 4.2.5.1 – Umqualifizierung und Verbrauchstheorie
+
+Quelle: dieselbe Datei, Seiten 51 bis 53; übernommen als Kapitel 36 und 37. Prüfung:
+`npm run check:k2-kst-teil4` (37 Kapitel, 572 Blöcke, 52 Tabellen).
+
+**Alle Zahlen sind unabhängig nachgerechnet und gehen auf.** Maschinenbeispiel: 119.000 € ./.
+59.500 € = 59.500 €; 59.500 € ÷ 1,19 = 50.000 €; 50.000 € + 59.500 € = 109.500 €. Darlehensbeispiel:
+10.000 € entsprechen 10 % von 100.000 €, steuerfrei sind 40 % = 4.000 €.
+
+**Ein Rechenmuster ist als eigene Feststellung herausgearbeitet:** Der Bilanzansatz von 109.500 € ist
+genau der gemeine Wert abzüglich der tatsächlich angefallenen Umsatzsteuer (119.000 € ./. 9.500 €).
+Dasselbe Muster war schon in Abschnitt 3.2.2 aufgetreten, wo die Anschaffungskosten 181.000 €
+betrugen. Die Quelle stellt diesen Zusammenhang an keiner der beiden Stellen her.
+
+**Der Grundgedanke der Verbrauchstheorie ist als eigene Ergänzung auf einen Vergleichsfall
+zurückgeführt:** Hätte der Gesellschafter das angemessene Entgelt gezahlt und die Gesellschaft es
+sofort wieder ausgeschüttet, hätte er Aufwand und Beteiligungsertrag gehabt – genau dieses Ergebnis
+stellt die Theorie her. Ebenfalls eigens eingeordnet ist, warum die Beschränkung auf Fälle, in denen
+der Gesellschafter selbst Einkünfte erzielt, gerade aus dem Wandel von der Fiktions- zur
+Verbrauchsbetrachtung folgt, sowie die Asymmetrie beim § 3c Abs. 2 EStG (voller Abzug der fingierten
+Zinsen trotz nur 60-prozentiger Steuerpflicht des Beteiligungsertrags) und die drei Buchungsrichtungen
+je nach Lage von Beteiligung und Vorteil.
+
+**Der Gegensatz der beiden Abschnitte ist als eigene Feststellung benannt:** Die Umqualifizierung
+setzt eine vorhandene Einnahme voraus und passt deshalb nur zur Vermögensminderung; bei der
+verhinderten Vermögensmehrung hat der Gesellschafter nur Aufwendungen erspart, weshalb dort die
+Verbrauchstheorie an ihre Stelle tritt. Das ist derselbe Fallgruppenschnitt, der schon die Bewertung
+in Abschnitt 3.1 bestimmt hat.
+
+**Eine Formulierung der Quelle ist wortlautgetreu übernommen und markiert:** „wenn diese Aufwendungen
+wirtschaftlich mit Beteiligungserträgen i.S. des § 3 Nr. 40 EStG stehen“ – das Wort „zusammen“ fehlt.
+
+**Noch offen:** aus Teil IV die Verbrauchstheorie bei einer nahe stehenden Person (4.2.5.2), die
+formelle Korrespondenz (4.3), das Verhältnis zu § 1 AStG (4.4) sowie die Kapitel 5 (Dreiecksfälle) und
+6 (Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 4.2.1 bis 4.2.3 – Auswirkungen beim Gesellschafter
 
 Quelle: dieselbe Datei, Seiten 48 bis 51; übernommen als Kapitel 34 und 35. Prüfung:
