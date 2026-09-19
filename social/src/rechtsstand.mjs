@@ -261,6 +261,21 @@ function korrigiereRueckstellungskatalog(thema) {
   normErgaenzen(thema, "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB");
 }
 
+function korrigiereMietereinbauAfa(thema) {
+  normErgaenzen(thema, "§ 7 Abs. 4 S. 1, 2 EStG");
+  thema.kern = {
+    ...thema.kern,
+    antwort: "Bei sonstigen Mietereinbauten und -umbauten, die keine Scheinbestandteile oder Betriebsvorrichtungen sind, gelten grundsätzlich die Gebäude-AfA-Regeln. Damit sind im Regelfall die typisierten Sätze des § 7 Abs. 4 S. 1 EStG maßgeblich; § 7 Abs. 4 S. 2 EStG kommt bei nachgewiesener kürzerer tatsächlicher Nutzungsdauer in Betracht. Die Mietdauer ist nicht automatisch die AfA-Dauer. Ein bloßes Nutzungsrecht ist davon getrennt zu beurteilen.",
+  };
+}
+
+function korrigiereAbbruchkosten(thema) {
+  thema.kern = {
+    ...thema.kern,
+    antwort: "Zuerst die Abbruchabsicht beim Erwerb klären. Ein Abbruchbeginn innerhalb von drei Jahren nach dem Erwerb begründet lediglich einen widerlegbaren Anscheinsbeweis für eine bereits beim Erwerb bestehende Abbruchabsicht. Ohne Abbruchabsicht sind Restbuchwert und Abbruchkosten grundsätzlich sofort abzugsfähig. Bei Erwerb mit Abbruchabsicht gehören Restbuchwert und Abbruchkosten bei engem wirtschaftlichem Zusammenhang mit einem Neubau grundsätzlich zu dessen Herstellungskosten; fehlt dieser Zusammenhang, gehören sie grundsätzlich zu den Anschaffungskosten des Grund und Bodens. Sonderfälle, etwa ein bereits objektiv wertloses Gebäude, sind gesondert zu prüfen.",
+  };
+}
+
 function korrigiereIgLieferungQuiz(thema) {
   thema.titel = "Innergemeinschaftliche Lieferung: Voraussetzungen der Steuerfreiheit";
   normErgaenzen(thema, "§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1, 3 UStG");
@@ -418,6 +433,8 @@ export function socialKorrekturenAnwenden(pool) {
     if (/Bilanzberichtigung (?:oder|und) Bilanzänderung/i.test(thema.titel || "")) korrigiereBilanzaenderung(thema);
     if (thema.typ === "quiz" && /Eine innergemeinschaftliche Lieferung an einen Unternehmer mit USt-IdNr/i.test(thema.titel || "")) korrigiereIgLieferungQuiz(thema);
     if (thema.typ === "karteikarte" && /^Steuersätze \(§ 12 UStG\)$/i.test(thema.titel || "")) korrigiereUstSteuersaetzeKarte(thema);
+    if (thema.typ === "karteikarte" && /Mietdauer oder Nutzungsdauer beim Mietereinbau/i.test(thema.titel || "")) korrigiereMietereinbauAfa(thema);
+    if (thema.typ === "karteikarte" && /Wie wirken sich Abbruchkosten aus/i.test(thema.titel || "")) korrigiereAbbruchkosten(thema);
     if (/Realteilung (?:oder|und) Sachwertabfindung/i.test(thema.titel || "")) korrigiereRealteilung(thema);
     if (thema.typ === "karteikarte" && /Wie wird § 8b KStG technisch umgesetzt/i.test(thema.titel || "")) korrigiereAchtBTechnik(thema);
     if (/Vereinsbesteuerung/i.test(thema.titel || "") && thema.id !== "kst-modul-kst-12") korrigiereVerein(thema);
