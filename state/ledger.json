@@ -2864,13 +2864,45 @@
       "titel": "Hinzurechnungsbetrag ohne Steuervorteile",
       "medienId": "18108898529520652",
       "veroeffentlicht": "2026-09-18T17:44:37.360Z"
+    },
+    {
+      "datum": "2026-09-19",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "08:30",
+      "stunde": 10,
+      "format": "spickzettel",
+      "thema": "ao-modul-ao-359",
+      "fach": "ao",
+      "titel": "Der Fehler bei § 173 AO, der nach der Außenprüfung teuer wird",
+      "hookTyp": "fehler",
+      "medienId": "18108914296892223",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#steuerfachwirt",
+        "#stbexamen2026",
+        "#abgabenordnung",
+        "#verfahrensrecht",
+        "#paragraf173ao",
+        "#klausurtipps",
+        "#aussenpruefung",
+        "#neuetatsachen"
+      ],
+      "veroeffentlicht": "2026-09-19T08:45:16.192Z",
+      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-19/2026-09-19-b1-02-mu855ri1.jpg"
     }
   ],
   "fachZaehler": {
     "persg": 6,
     "ust": 4,
     "kst": 7,
-    "ao": 12,
+    "ao": 13,
     "bilanz": 14,
     "istr": 9,
     "erbst": 3
