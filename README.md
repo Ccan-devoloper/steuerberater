@@ -4499,6 +4499,45 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   erst § 15a EStG, dann § 15 Abs. 4 EStG, dann § 8c KStG.
   Prüfung: `npm run check:k2-kst-teil5`
 
+- **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
+  das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
+  Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
+  Wortlaut – **in Arbeit**, derzeit 2 Kapitel mit 42 Abschnitten und 3 Tabellen. Die Organschaft hebt
+  die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
+  **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
+  der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
+  woraus sich auch erklärt, warum die **tatsächliche Durchführung** des Vertrags eine eigenständige
+  Tatbestandsvoraussetzung ist. Für die Organschaft sprechen vier Erwägungen, die sich in zwei Gruppen
+  ordnen lassen: **Ergebnisverrechnung** und **Verlustnutzung** betreffen dieselbe Sache aus zwei
+  Blickwinkeln, während die Vermeidung **verdeckter Gewinnausschüttungen** und die Wirkung bei der
+  **Zinsschranke** Nebeneffekte sind – letztere allerdings zweischneidig, weil der Organkreis als
+  **ein Betrieb** gilt und die Freigrenze von 3.000.000 € deshalb nur einmal zur Verfügung steht.
+  Die drei Organschaftsformen verhalten sich dabei asymmetrisch: Die **gewerbesteuerliche** folgt der
+  körperschaftsteuerlichen **automatisch**, weil § 2 Abs. 2 Satz 2 GewStG schlicht auf deren
+  Voraussetzungen verweist; die **umsatzsteuerliche** ist dagegen vollständig eigenständig – sie
+  verlangt zusätzlich **wirtschaftliche und organisatorische** Eingliederung, verzichtet aber auf den
+  Gewinnabführungsvertrag, so dass beide unabhängig voneinander vorliegen können. Ihre Folge ist eine
+  andere: Organträger und Organgesellschaft gelten als **ein Unternehmen**, Leistungen zwischen ihnen
+  sind nicht steuerbare **Innenumsätze**, und nur der Organträger ist Unternehmer.
+  Geprüft wird in **fünf Schritten**, die zugleich das Klausurschema bilden: Organgesellschaft,
+  Organträger mit deutschem Besteuerungsrecht, finanzielle Eingliederung, formwirksamer Vertrag mit
+  fünfjähriger Mindestlaufzeit und dessen tatsächliche Durchführung. Die ersten beiden betreffen die
+  **Personen**, der dritte die **Beteiligung**, die letzten beiden den **Vertrag** in rechtlicher
+  Gestalt und tatsächlicher Handhabung – und beide sind getrennt zu prüfen, denn ein wirksamer Vertrag
+  ohne Durchführung nützt ebenso wenig wie eine Abführung ohne wirksamen Vertrag.
+  **Organgesellschaft** kann nur eine **Kapitalgesellschaft** sein: AG, KGaA und SE unmittelbar nach
+  § 14 Abs. 1 Satz 1 KStG, GmbH und UG über § 17 Abs. 1 KStG, nach den BFH-Entscheidungen vom
+  11.12.2024 auch eine Gesellschaft, an der eine **atypisch stille** Gesellschaft besteht – eine
+  Kehrtwende, die genau die Konstellation betrifft, die § 15 Abs. 4 Sätze 6 bis 8 EStG im Skript
+  Teil V verschließen soll. Verlangt sind zwei Merkmale, die sauber zu trennen sind: **Geschäftsleitung
+  im Inland**, was die unbeschränkte Steuerpflicht begründet, und **Sitz in einem EU- oder
+  EWR-Staat**. Daraus folgt der Ausschluss der **Drittstaatengesellschaft**, deren inländische
+  Geschäftsleitung ihr nichts nützt, ebenso wie das Scheitern der „Organschaft über die Grenze“ am
+  fehlenden Inlandsbezug. Die nach § 1a KStG **optierende** Gesellschaft scheidet aus rein
+  **zivilrechtlichem** Grund aus – für sie gibt es keinen eintragungsfähigen Gewinnabführungsvertrag –,
+  kann aber sehr wohl **Organträgerin** sein; die Option wirkt also in beide Richtungen verschieden.
+  Prüfung: `npm run check:k2-kst-teil6`
+
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
 

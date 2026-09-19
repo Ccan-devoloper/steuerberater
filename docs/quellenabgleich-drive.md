@@ -10620,6 +10620,49 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher) – neuer Bestand, Organschaft
+
+Quelle: Google Drive, „B-S25-KSt Teil VI-Organschaft (2025)-Hamacher-052025.pdf“ (Drive-ID
+`1Loh-CUYVVb9eSOjAFSXW9-W2sh_h_-1d`), das Lehrgangsskript **„Körperschaftsteuer, Teil VI:
+Körperschaft- und gewerbesteuerliche Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** von
+Frank Hamacher, 21. Auflage, Rechtsstand Mai 2025, 98 Seiten.
+
+**Neu angelegt** sind der Datensatz `src/data/k2-kst-teil6-hamacher.js`, das Prüfskript
+`tools/pruefen-k2-kst-teil6.mjs` mit `npm run check:k2-kst-teil6` (2 Kapitel, 42 Blöcke, 3 Tabellen)
+und der Campus-Reiter „Teil VI (Organschaft)“ in `src/components/KstCampus.jsx`.
+
+**Zur Beschaffung:** Die Textausgabe des Drive-Readers bricht bei dieser Dateigröße ohne
+Fehlermeldung ab. Der Text ist deshalb über `download_file_content` als Base64 geladen, lokal
+gespeichert und mit pypdf extrahiert worden. Das personenbezogene Wasserzeichen der Vorlage ist auf
+allen 98 Seiten entfernt; die Gegenprobe mit `grep` ergibt null Treffer.
+
+**Übernommen in dieser Runde** sind die Formen der Organschaft (Kapitel 1 vollständig) sowie aus
+Kapitel 2 die Tatbestandsvoraussetzungen (2.1) und die Organgesellschaft (2.2).
+
+**Drei sprachliche Eigenheiten sind wortlautgetreu übernommen und markiert:** „im Zweiten Kapital des
+KStG“, der unvollständige Satz „weil die Gewinne der Organgesellschaft an den Organträger lediglich
+abgeführt“ und die Form „abzustellen sind“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Ordnung der vier Motive in zwei Gruppen samt dem
+Hinweis, dass die Zinsschrankenwirkung wegen der nur einmal verfügbaren Freigrenze zweischneidig ist;
+die Gegenüberstellung der drei Organschaftsformen mit der Feststellung, dass körperschaft- und
+umsatzsteuerliche Organschaft unabhängig voneinander vorliegen können; die Erläuterung, warum die
+Zurechnung dem Geld folgt und daraus die eigenständige Bedeutung der tatsächlichen Durchführung
+erwächst; der Hinweis auf den aufgehobenen § 18 KStG, der die Lücke in der Aufzählung erklärt; die
+Trennung der Doppelbedingung von Geschäftsleitung und Sitz samt der daraus folgenden beiden
+Ausschlüsse; die Einordnung der BFH-Entscheidungen vom 11.12.2024 zur atypisch stillen Beteiligung
+und ihres Verhältnisses zu § 15 Abs. 4 EStG; die rein zivilrechtliche Begründung des Ausschlusses der
+optierenden Gesellschaft, die für den Organträger gerade nicht gilt; und die Deutung der fünf
+Tatbestandsmerkmale als Prüfungsschema.
+
+**Neu sind drei Übersichten:** eine zu den Rechtsgrundlagen der §§ 14 bis 19 KStG, eine zum Vergleich
+der Merkmale von körperschaft- und umsatzsteuerlicher Organschaft und eine zu den Rechtsformen, die
+als Organgesellschaft in Betracht kommen.
+
+**Noch offen:** aus Teil VI der Organträger (2.3), die finanzielle Eingliederung (2.4), der
+Gewinnabführungsvertrag (2.5), die Auswirkungen der Organschaft (Kapitel 3) und die
+gewerbesteuerliche Organschaft (Kapitel 4); ganz offen ist der Skriptteil VII (Liquidation).
+
 ### KSt Teil V (Hamacher), Abschnitte 4.1.2 (Schluss) bis 4.2.3 – das Skript ist vollständig
 
 Quelle: dieselbe Datei, Seiten 71 bis 74 (Schluss); übernommen als Kapitel 45 und 46. Prüfung:
