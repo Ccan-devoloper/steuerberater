@@ -409,7 +409,7 @@ function korrigierePwb(thema) {
   thema.kern = {
     ...thema.kern,
     ausdruck: "PWB = risikobehafteter Nettobestand × nachvollziehbar geschätzter Risikosatz",
-    erklaerung: "Die Bemessungsgrundlage ist der Nettobestand ohne sichere und bereits einzelwertberichtigte Forderungen. Der Risikosatz ist anhand objektiver Umstände am Bilanzstichtag und betrieblicher Erfahrungswerte nachvollziehbar zu schätzen; eine allgemeine gesetzliche oder verwaltungsseitige 1-%-Pauschale für sämtliche Forderungsbestände gibt es nicht. Ein pauschales Herausrechnen mit 1,19 ist nur passend, soweit der zugrunde liegende Forderungsbestand tatsächlich einheitlich diesem Umsatzsteuersatz unterliegt.",
+    erklaerung: "Die Bemessungsgrundlage ist grundsätzlich der risikobehaftete Forderungsbestand nach Aussonderung sicherer und bereits einzelwertberichtigter Forderungen; umsatzsteuerliche Bestandteile sind risikogerecht zu behandeln. Der Risikosatz ist anhand objektiver Umstände am Bilanzstichtag und betrieblicher Erfahrungswerte nachvollziehbar zu schätzen. In der Praxis wird zwar eine verwaltungsseitige Nichtaufgriffsgrenze bis 1 % des maßgeblichen Nettoforderungsbestands zitiert; sie ist aber kein gesetzlicher Pauschalsatz, kein Freibetrag und schließt einen höheren nachgewiesenen Risikosatz nicht aus. Ein pauschales Herausrechnen mit 1,19 ist nur passend, soweit der Forderungsbestand tatsächlich einheitlich diesem Umsatzsteuersatz unterliegt.",
   };
 }
 
