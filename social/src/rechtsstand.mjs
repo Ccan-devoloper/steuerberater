@@ -348,7 +348,7 @@ function korrigiereAussenpruefung171(thema) {
 function korrigiereFamilienheim(thema) {
   normErgaenzen(thema, "§ 13 Abs. 1 Nr. 4a–4c ErbStG");
   const schritte = [...(thema.kern?.pruefschritte || [])].map((x) =>
-    /Aufgabe innerhalb zehn Jahren: Nachversteuerung, außer zwingender Grund/i.test(x)
+    /Aufgabe innerhalb zehn Jahren|schwere Krankheit\/?Heim\/?Tod|Krankheit.*Heim.*Tod/i.test(x)
       ? "Bei Aufgabe der Selbstnutzung innerhalb von zehn Jahren grundsätzlich Nachversteuerung prüfen. Ausnahme nur bei objektiv zwingenden Gründen: Die Selbstnutzung muss objektiv unmöglich oder unzumutbar sein; eine Heimunterbringung genügt nicht allein, sondern etwa dann, wenn Pflegebedürftigkeit eine selbständige Haushaltsführung nicht mehr zulässt."
       : x
   );
