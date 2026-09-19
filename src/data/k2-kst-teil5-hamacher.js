@@ -40,9 +40,10 @@
    Feststellung des fortführungsgebundenen Verlustvortrags, dem Nebeneinander
    von Alt- und Neuverlust und der Verlustverrechnung in den Folgejahren). Es
    folgt das Fortführungserfordernis (2.6.1 Einstellung und 2.6.2.1 bis 2.6.2.5
-   der weiteren schädlichen Sachverhalte). Es folgen die Übertragung von
-   Wirtschaftsgütern unter dem gemeinen Wert (2.6.2.6) und die Kapitel 3 und 4;
-   der Campus weist den Stand aus.
+   der weiteren schädlichen Sachverhalte), die Übertragung von Wirtschaftsgütern
+   unter dem gemeinen Wert (2.6.2.6) und der Vorrang des § 8c KStG (2.7.1). Es
+   folgen das Zusammentreffen von schädlichem Erwerb und schädlichem Ereignis
+   (2.7.2) sowie die Kapitel 3 und 4; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -1721,6 +1722,133 @@ export const kstTeil5 = [
       { text: "Anmerkung zum Maßstab der Nr. 2 (eigene Ergänzung): Der Branchenwechsel setzt nach der Quelle eine Änderung „in enormer Art und Weise“ voraus – ein ungewöhnlich hoher Maßstab, der den Tatbestand auf krasse Fälle beschränkt. Die Gegenausnahme für **strukturelle Anpassungen an geänderte wirtschaftliche Rahmenbedingungen** ist dabei ebenso wichtig wie die Regel: Sie erlaubt der Gesellschaft, auf Marktveränderungen zu reagieren, ohne ihren Verlust zu verlieren. Das Indiz der **Änderung des Gesellschaftszwecks** ist für die Klausur wertvoll, weil es sich aus dem Sachverhalt meist unmittelbar entnehmen lässt. Das anhängige Verfahren I R 17/24 betrifft die Frage, ob die Norm ebenso für die Gewerbesteuer gilt." },
       { text: "Anmerkung zum Zusammenspiel von Nr. 3 und der Bagatellgrenze (eigene Ergänzung): Nr. 3 schließt den Kreis zu Abschnitt 2.3.2.2.2 und macht die dort beschriebene Dauerbindung greifbar. Die Bagatellregelung ist keine einmalige Vergünstigung: Wächst der geringwertige Betrieb über 3 % oder 24.500 € hinaus, **gilt** er als neu aufgenommener Geschäftsbetrieb – der Verlust fällt weg, obwohl sich an der Tätigkeit nichts geändert hat außer ihrem Erfolg. Bemerkenswert ist auch der Hinweis, dass die Einbringung eines Teilbetriebs **unabhängig** von Nr. 6 schädlich sein kann: Nr. 6 betrifft den Wertansatz, Nr. 3 die Tätigkeit – ein Vorgang kann also aus zwei Gründen scheitern." },
       { text: "Anmerkung zur Härte von Nr. 4 und Nr. 5 (eigene Ergänzung): Beide Tatbestände sind unnachgiebig und spiegeln § 8d Abs. 1 Satz 2 Nr. 2 KStG. Bei der **Mitunternehmerschaft** kommt es ausdrücklich **nicht** auf den Umfang an – schon ein Anteil von einem Prozent, sogar eine **atypisch stille** Beteiligung, vernichtet den Verlust. Die Grenze verläuft allein zwischen mitunternehmerischer und **vermögensverwaltender** Beteiligung, und selbst dort ist Vorsicht geboten, wenn das Halten der Beteiligung schon einen eigenen Geschäftsbetrieb begründet. Bei der **Organschaft** ist der Zusatz zur Organschaftskette die eigentliche Falle: Eine Gesellschaft, die in der Mitte einer Kette steht, ist zugleich Organträger der unteren und Organgesellschaft der oberen Stufe – die Organträgerstellung genügt, und die Kette macht sie unausweichlich." },
+    ],
+  },
+  {
+    id: "kst-t5-31",
+    kapitel: "31",
+    abschnittNr: "2.6.2.6",
+    title: "2.6.2.6 Übertragung von Wirtschaftsgütern unter dem gemeinen Wert (Nr. 6)",
+    thema: "Umwandlungen unter dem gemeinen Wert sind schädlich; ein Sperrfristverstoß im ersten Zeitjahr rettet § 8d KStG über die Wertaufstockung, die Siebtelung dagegen nicht",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 2.6.2.6 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8d Abs. 2 Satz 2 Nr. 6 KStG",
+      "§ 8d Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§§ 11, 15, 20, 21 UmwStG",
+      "§ 22 Abs. 1 UmwStG",
+      "§ 23 Abs. 1 UmwStG",
+      "§ 23 Abs. 2 UmwStG",
+      "§ 6 Abs. 1 Nr. 5 EStG",
+      "R 8.9 Abs. 4 KStR",
+      "BMF (2), Tz. 44 und 45",
+    ],
+    themen: ["Wertansatz unter dem gemeinen Wert", "Umwandlung", "Einbringungsgewinn I", "Sperrfristverstoß", "Wertaufstockung", "Siebtelungsregelung", "verdeckte Einlage"],
+    bloecke: [
+      { typ: "titel", text: "2.6.2.6 Übertragung von WG unter dem gemeinen Wert (Nr. 6)" },
+      { text: "Davon betroffen sind Umwandlungsfälle, bei denen die Verlustgesellschaft die Wirtschaftsgüter zu einem unter dem gemeinen Wert liegenden Wertansatz erhält. Dadurch soll vermieden werden, dass sich im Zusammenhang mit der Umwandlung stille Reserven auf die Verlustgesellschaft verlagern, die dann nachfolgend im Falle einer Aufdeckung mit dem fortführungsgebundenen Verlustvortrag verrechnet werden könnten. Dazu gehören sämtliche Vorgänge im Zusammenhang mit §§ 11, 15, 20 und 21 UmwStG, bei denen die Kapitalgesellschaft der übernehmende Rechtsträger ist." },
+      { text: "Im Zusammenhang mit Einbringungsfällen i.S. des § 20 UmwStG bzw. § 21 UmwStG ist jedoch eine Ausnahme vorgesehen, wenn bereits im 1. Zeitjahr nach der Einbringung ein Sperrfristverstoß vollzogen wird und der Einbringende daher nach § 22 UmwStG den vollständigen Einbringungsgewinn I oder II versteuern muss. Macht die Verlustgesesellschaft von ihrem Wahlrecht zur Wertaufstockung nach § 23 Abs. 1 UmwStG entsprechend Gebrauch, setzt sie die übernommenen Wirtschaftsgüter faktisch mit dem gemeinen Wert an, so dass eine schädliche Übertragung in diesem Sinne ausgeschlossen werden kann. Kommt bei der Ermittlung des Einbringungsgewinnes wiederum die Siebtelungsregelung zur Anwendung, bleibt es beim Verstoß gegen § 8d Abs. 2 Satz 2 Nr. 6 KStG. (Die Schreibweise „Verlustgesesellschaft“ steht so in der Quelle; zur Fundstelle des Wahlrechts siehe die eigene Anmerkung unten.)" },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH. Zum 31.12.2024 bringt er nach § 20 UmwStG zu Buchwerten seinen Betrieb (Buchwert: 100.000 €; gemeiner Wert: 500.000 €) in die A-GmbH ein. Mit Wirkung zum 01.07.2025 veräußert A seine vollständige Beteiligung. Die A-GmbH verfügt in 2025 über einen ungenutzten Verlust von 1.000.000 €." },
+      { text: "Lösung: Die Anteilsveräußerung in 2025 führt zur Anwendung des § 8c Abs. 1 Satz 1 KStG. Danach würde der ungenutzte Verlust der A-GmbH entsprechend untergehen. Gleichzeitig wäre ein Anwendungsfall des § 8d KStG zu verneinen, weil innerhalb des Betrachtungszeitraums i.S. des § 8d Abs. 1 Satz 1 KStG (01.01.2022 – 31.12.2025) aufgrund der Buchwerteinbringung der Wirtschaftsgüter auch ein Ereignis i.S. des § 8d Abs. 2 Satz 2 Nr. 6 KStG stattgefunden hat." },
+      { text: "Durch die schädliche Anteilsveräußerung wird aber gleichzeitig auch ein Sperrfristverstoß i.S. des § 22 Abs. 1 UmwStG begangen. Danach muss A rückwirkend im VZ 2024 den Einbringungsgewinn I von 400.000 € versteuern. Die Siebtelungsregelung kann nicht angewendet werden, weil zwischen der Betriebseinbringung und der Anteilsveräußerung kein volles Zeitjahr abgelaufen ist. Im Gegenzug kann die A-GmbH im Wj. 2025 nach § 23 Abs. 2 UmwStG eine Wertaufstockung vornehmen, wonach sämtliche Wirtschaftsgüter um insgesamt 400.000 € aufgestockt werden. Danach entspricht der Wertansatz faktisch dem gemeinen Wert zum 31.12.2024. Daraus folgert die Finanzverwaltung, dass danach auch kein Anwendungsfall des § 8d Abs. 2 Satz 2 Nr. 6 KStG gegeben ist und die A-GmbH im VZ 2025 den Antrag auf Anwendung des § 8d KStG stellen kann. Der zum Ende des VZ 2025 bestehende ungenutzte Verlust von 1.000.000 € ist zum 31.12.2025 als fortführungsgebundener Verlust festzustellen." },
+      { text: "Wäre der Sperrfristverstoß erst im VZ 2026 eingetreten, wäre § 8d KStG aufgrund der o.g. Einschränkung nicht anwendbar. Denn die Anwendung der dann einschlägigen Siebtelungsregelung würde einen Ausweis der übernommenen Wirtschaftsgüter mit dem gemeinen Wert verhindern. Denn der Einbringungsgewinn I würde danach 342.857 € betragen, wodurch bei der A-GmbH ein Ansatz zum gemeinen Wert nicht mehr möglich ist. Dadurch geht der Verlust in 2026 nach den allgemeinen Grundsätzen des § 8c Abs. 1 Satz 1 KStG unter." },
+      { text: "Die Übertragung von Wirtschaftsgütern im Rahmen einer verdeckten Einlage auf die Verlustgesellschaft stellt keinen Verstoß dar. Zwar wird die verdeckte Einlage bei der empfangenden Kapitalgesellschaft mit dem Teilwert i.S. des § 6 Abs. 1 Nr. 5 EStG bewertet (R 8.9 Abs. 4 KStR), welcher als Nettowert unter dem gemeinen Wert liegt. Trotzdem ist davon auszugehen, dass der Teilwert ausnahmsweise dem gemeinem Wert entspricht. (Der Kasus „dem gemeinem Wert“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Zeitpunkt des Sperrfristverstoßes", "Einbringungsgewinn I", "Wertaufstockung", "§ 8d KStG"], zeilen: [
+        ["im 1. Zeitjahr – hier Veräußerung am 01.07.2025", "voller Betrag von 400.000 €", "400.000 € – Ansatz faktisch zum gemeinen Wert", "anwendbar; 1.000.000 € fortführungsgebundener Verlust"],
+        ["im 2. Zeitjahr – Veräußerung erst im VZ 2026", "342.857 € (sechs Siebtel)", "unvollständig – der gemeine Wert wird nicht erreicht", "nicht anwendbar; der Verlust geht nach § 8c KStG unter"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf. Der Einbringungsgewinn I beträgt 500.000 € ./. 100.000 € = 400.000 €; um denselben Betrag stockt die A-GmbH auf, so dass die Buchwerte von 100.000 € auf 500.000 € steigen und dem gemeinen Wert entsprechen. Beim Verstoß im zweiten Zeitjahr mindert sich der Einbringungsgewinn um ein Siebtel: 400.000 € × 6 ÷ 7 = 342.857,14 €, von der Quelle auf 342.857 € gerundet. Die Aufstockung erreicht dann nur 100.000 € + 342.857 € = 442.857 € und bleibt um 57.143 € unter dem gemeinen Wert – genau das eine Siebtel, das die Sperrfristregelung dem Einbringenden erlässt." },
+      { text: "Anmerkung zur Fundstelle des Aufstockungswahlrechts (eigene Ergänzung): Die Quelle nennt das Wahlrecht im Fließtext als „§ 23 Abs. 1 UmwStG“, im Beispiel dagegen als „§ 23 Abs. 2 UmwStG“. Zutreffend ist die Angabe im Beispiel: § 23 Abs. 2 UmwStG regelt die Erhöhung der Buchwerte um den versteuerten Einbringungsgewinn I, während § 23 Abs. 1 UmwStG über die Verweisung auf § 12 Abs. 3 UmwStG gerade die **Fortführung** der Buchwerte anordnet. Beide Angaben sind oben unverändert wiedergegeben." },
+      { text: "Anmerkung zum Grund der Nr. 6 (eigene Ergänzung): Die Vorschrift schützt nicht den Verlust, sondern die **Symmetrie**. Würden stille Reserven zu Buchwerten auf die Verlustgesellschaft verlagert, könnte deren späterer Gewinn aus der Aufdeckung mit dem fortführungsgebundenen Verlust verrechnet werden – dieser Verlust hätte also Reserven aufgesogen, die nie zu ihm gehörten. Das ist derselbe Gedanke, der § 8c Abs. 1 Satz 8 KStG zugrunde liegt, nur auf der anderen Seite der Zeitachse: Dort wird verhindert, dass nachträglich Reserven **zur Verschonung** herbeigeschafft werden, hier, dass nachträglich Reserven **zur Verrechnung** herbeigeschafft werden." },
+      { text: "Anmerkung zum Zusammenspiel von Sperrfrist und § 8d KStG (eigene Ergänzung): Der Fall ist lehrreich, weil zwei Nachteile sich gegenseitig aufheben. Die Anteilsveräußerung löst **zugleich** den schädlichen Erwerb nach § 8c KStG und den Sperrfristverstoß nach § 22 Abs. 1 UmwStG aus. Der Sperrfristverstoß kostet den Einbringenden die Versteuerung von 400.000 € – rettet der Gesellschaft aber über die Wertaufstockung den Zugang zu § 8d KStG und damit 1.000.000 € Verlust. Die Steuerlast trifft dabei **A**, der Vorteil fällt bei der **A-GmbH** an; in der Beratung ist das ein Fall für eine ausdrückliche Vereinbarung zwischen beiden. Dass der Vorteil ausgerechnet an der Ein-Jahres-Grenze hängt, macht den Zeitpunkt der Veräußerung zur entscheidenden Stellschraube." },
+      { text: "Anmerkung zur Alles-oder-nichts-Wirkung der Siebtelung (eigene Ergänzung): Dass bereits **ein** fehlendes Siebtel den gesamten § 8d KStG kostet, ist eine bemerkenswerte Härte. Im Beispiel fehlen 57.143 € von 400.000 € – rund vierzehn Prozent der stillen Reserven –, und daran scheitert die Rettung eines Verlustes von 1.000.000 €. Eine anteilige Lösung sieht die Verwaltung nicht vor: Der Wertansatz entspricht entweder dem gemeinen Wert oder nicht. Praktisch bedeutet das, dass eine Veräußerung nach Ablauf des ersten Zeitjahres steuerlich deutlich ungünstiger sein kann als eine frühere – ein für den Steuerpflichtigen kontraintuitives Ergebnis, weil Sperrfristen sonst mit Zeitablauf milder werden." },
+      { text: "Anmerkung zur verdeckten Einlage (eigene Ergänzung): Die Begründung der Quelle verdient eine Einordnung, weil sie auf den ersten Blick widersprüchlich wirkt. Der **Teilwert** liegt als Nettogröße regelmäßig unter dem **gemeinen Wert**, der die Umsatzsteuer einschließt – nach dem Wortlaut der Nr. 6 wäre die verdeckte Einlage also schädlich. Die Verwaltung nimmt gleichwohl an, der Teilwert entspreche hier ausnahmsweise dem gemeinen Wert, und das ist teleologisch richtig: Bei der verdeckten Einlage werden **keine** stillen Reserven zu Buchwerten verlagert, sondern gerade aufgedeckt. Der Zweck der Vorschrift ist damit nicht berührt." },
+    ],
+  },
+  {
+    id: "kst-t5-32",
+    kapitel: "32",
+    abschnittNr: "2.7.1",
+    title: "2.7 Vorrang des § 8c KStG – 2.7.1 Anwendung des § 8c KStG",
+    thema: "Ein erneuter schädlicher Erwerb erfasst auch den fortführungsgebundenen Verlust; wird kein neuer Antrag gestellt, löst sich die Fortführungsgebundenheit des verbleibenden Restes",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 2.7.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 8d Abs. 1 Satz 5 KStG",
+      "§ 8d Abs. 2 KStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 10d Abs. 4 EStG",
+      "BMF (2), Tz. 72, 73 und 75",
+    ],
+    themen: ["erneuter schädlicher Erwerb", "Vorrang des § 8c KStG", "Verwendungsreihenfolge", "Lösung der Fortführungsgebundenheit", "erneuter Antrag", "Mindestbesteuerung"],
+    bloecke: [
+      { typ: "titel", text: "2.7 Vorrang des § 8c KStG" },
+      { typ: "titel", text: "2.7.1 Anwendung des § 8c KStG" },
+      { text: "Kommt es in einem nachfolgenden Veranlagungszeitraum wiederum zu einem schädlichen Anteilserwerb i.S. des § 8c KStG, zählt der fortführungsgebundene Verlustvortrag ebenfalls zum ungenutzten Verlust und würde neben den weiteren Verlusten ebenfalls nach § 8c Abs. 1 Satz 1 KStG untergehen. In diesem Fall liegt auch kein Anwendungsfall des § 8d Abs. 2 KStG vor." },
+      { text: "Im Fall des unterjährigen Erwerbs wird der fortführungsgebundene Verlust für Zwecke des § 8c KStG ebenfalls in der Höhe verschont, in der bis zum schädlichen Anteilserwerb ein positiver Gesamtbetrag der Einkünfte entstanden ist. Hinsichtlich der Verschonungsregelung i.S. des § 8c Abs. 1 Satz 5 KStG gilt für die zum Zeitpunkt des schädlichen Erwerbs vorhandenen stillen Reserven allerdings eine feste Verwendungsreihenfolge, wonach diese zunächst den laufenden Verlust und erst anschließend den Verlustvortrag i.S. des § 10d Abs. 4 EStG, wozu auch der bisherige fortführungsgebundenen Verlustvortrag gehört, verschonen. Ein danach verbleibender Verlust (wenn nicht abermals ein Antrag nach § 8d KStG gestellt wird) unterliegt nachfolgend wieder der regulären Verlustfeststellung, d.h. es liegt kein fortführungsgebundener Verlust mehr vor. (Die Deklination „der bisherige fortführungsgebundenen Verlustvortrag“ steht so in der Quelle.)" },
+      { text: "Die Verlustgesellschaft kann in diesem Veranlagungszeitraum aber wiederum einen erneuten Antrag i.S. des § 8d KStG stellen, um § 8c KStG zu verdrängen. Dadurch werden sämtliche Verluste, die zum Ende des Wirtschaftsjahres des schädlichen Erwerbs vorhanden sind, zum fortführungsgebundenen Verlust und unterliegen dann zukünftig den Einschränkungen des § 8d Abs. 2 KStG." },
+      { text: "Beispiel: Die A-GmbH besitzt zum 31.12.2024 einen fortführungsgebundenen Verlustvortrag von 4.000.000 € und einen Verlustvortrag i.S. des § 10d Abs. 4 EStG von 2.000.000 €. Am 30.06.2025 veräußert der Alleingesellschafter seine Anteile an C. In 2025 erzielt die A-GmbH einen negativen Gesamtbetrag der Einkünfte von -5.000.000 €, wovon ein Betrag von -2.000.000 € auf den Zeitraum bis zum 30.06.2025 entfällt. Der Anteil verfügt über stille Reserven von 3.000.000 €." },
+      { text: "Lösung – Auswirkungen durch § 8c KStG: Der Anteilserwerb zum 30.06.2025 ist nach § 8c Abs. 1 Satz 1 KStG schädlich und würde zum Untergang des zu diesem Zeitpunkt vorhandenen ungenutzten Verlustes führen. Dieser Verlust beinhaltet auch den bisherigen fortführungsgebundenen Verlustvortrag, so dass es sich um ein Gesamtvolumen von 8.000.000 € handelt. Hinsichtlich der Auswirkungen des § 8c KStG sind aber auch die stillen Reserven von 3.000.000 € zu beachten, die nach § 8c Abs. 1 Satz 5 KStG den Verlustuntergang entsprechend verschonen. Dabei wird zunächst der laufende unterjährige Verlust und anschließend der Verlustvortrag i.S. des § 10d Abs. 4 EStG verschont, wozu auch der fortführungsgebundene Verlust gehört. Diese stillen Reserven verschonen den Verlust danach in folgender Reihenfolge:" },
+      { typ: "tabelle", spalten: ["Verwendung der stillen Reserven von 3.000.000 €", "Betrag"], zeilen: [
+        ["laufender anteiliger Verlust 2025", "2.000.000 €"],
+        ["Verlustvortrag i.S. des § 10d EStG", "1.000.000 €"],
+      ] },
+      { text: "Danach kommt es in Höhe des Restbetrags von 5.000.000 € zu einem Verlustuntergang in 2025. Dies führt im Rahmen der Einkommensermittlung für 2025 zu folgenden Konsequenzen:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte", "./. 5.000.000 €"],
+        ["+ Kürzung aufgrund § 8c KStG", "0 €"],
+        ["= z.v.E.", "./. 5.000.000 €"],
+      ] },
+      { text: "Die Verlustfeststellung zum 31.12.2025 hat folgendes Aussehen:" },
+      { typ: "tabelle", spalten: ["Fortführungsgebundener Verlust zum 31.12.2025", "Betrag"], zeilen: [
+        ["Fortführungsgebundener Verlust", "4.000.000 €"],
+        ["./. Übergang zu § 10d EStG", "4.000.000 €"],
+        ["= Bestand zum 31.12.2025", "0 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Verlustfeststellung § 10d EStG zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "2.000.000 €"],
+        ["+ Zugang aus § 8d KStG", "4.000.000 €"],
+        ["./. Kürzung aufgrund § 8c KStG", "5.000.000 €"],
+        ["+ Verlust 2025", "5.000.000 €"],
+        ["= Bestand zum 31.12.2025", "6.000.000 €"],
+      ] },
+      { text: "Auswirkungen bei § 8d KStG: Alternativ kann die A-GmbH in der Steuererklärung des VZ 2025 wiederum einen Antrag i.S. des § 8d Abs. 1 Satz 5 KStG stellen. In diesem Fall wird zum 31.12.2025 ein fortführungsgebundener Verlustvortrag von 11.000.000 € festgestellt." },
+      { text: "Beispiel: Die A-GmbH besitzt zum 31.12.2024 einen fortführungsgebundenen Verlustvortrag von 6.000.000 € sowie eine Verlustfeststellung i.S. des § 10d Abs. 4 EStG von 2.000.000 €. Am 30.06.2025 veräußert der Alleingesellschafter seine Anteile an C. In 2025 erzielt die A-GmbH einen Gesamtbetrag der Einkünfte von 5.000.000 €, wovon ein Betrag von 4.000.000 € auf den Zeitraum bis zum 30.06.2025 entfällt. Der Anteil verfügt über stille Reserven von 1.000.000 €." },
+      { text: "Lösung – Auswirkungen durch § 8c KStG: Der Anteilserwerb zum 30.06.2025 ist nach § 8c Abs. 1 Satz 1 KStG schädlich und würde zum Untergang des zu diesem Zeitpunkt vorhandenen ungenutzten Verlustes führen. Dieser Verlust beinhaltet auch den bisherigen fortführungsgebundenen Verlustvortrag, so dass es sich um ein Gesamtvolumen von 8.000.000 € handelt. Hinsichtlich der Auswirkungen des § 8c KStG ist zu beachten, dass der unterjährige Gewinn von 4.000.000 € den Verlustuntergang insoweit verschont. Danach bleibt der Verlustvortrag, wozu auch das Volumen des fortführungsgebundenen Verlustes gehört, in dieser Höhe erhalten (Gesamtverlust: 8.000.000 € - 4.000.000 € = 4.000.000 €) und kann zur Verlustverrechnung in 2025 verwendet werden. Weil stille Reserven vorhanden sind, wird der ansonsten eintretende Verlustuntergang nach § 8c Abs. 1 Satz 5 KStG i.H. von 1.000.000 € verschont, so dass der Verlustuntergang i.S. des § 8c Abs. 1 Satz 1 KStG letztlich 3.000.000 € beträgt." },
+      { text: "Dies führt im Rahmen der Einkommensermittlung für 2025 zu folgenden Konsequenzen:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung 2025", "Betrag"], zeilen: [
+        ["Gesamtbetrag der Einkünfte", "5.000.000 €"],
+        ["./. Grundabzug", "1.000.000 €"],
+        ["= Überhang", "4.000.000 €"],
+        ["./. 60% des Überhangs (so in der Quelle)", "2.400.000 €"],
+        ["= z.v.E.", "1.600.000 €"],
+      ] },
+      { text: "Die Verlustfeststellung des fortführungsgebundenen Verlustes zum 31.12.2025 hat folgendes Aussehen:" },
+      { typ: "tabelle", spalten: ["Fortführungsgebundener Verlust zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "6.000.000 €"],
+        ["./. Übergang zu § 10d Abs. 4 EStG", "6.000.000 €"],
+        ["= Bestand zum 31.12.2025", "0 €"],
+      ] },
+      { text: "Verlustfeststellung i.S. des § 10d Abs. 4 EStG lautet zum 31.12.2025:" },
+      { typ: "tabelle", spalten: ["Verlustfeststellung § 10d Abs. 4 EStG zum 31.12.2025", "Betrag"], zeilen: [
+        ["Anfangsbestand", "2.000.000 €"],
+        ["Übertrag aus § 8d KStG", "6.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG", "3.000.000 €"],
+        ["./. Verwendung in 2025", "3.400.000 €"],
+        ["= Bestand zum 31.12.2025", "1.600.000 €"],
+      ] },
+      { text: "Beachte: Nach Anwendung des § 8c KStG wird die Fortführungsgebundenheit des verschonten bzw. verbleibenden Verlustes gelöst und der Restbetrag im Rahmen einer herkömmlichen Verlustfeststellung ausgewiesen." },
+      { text: "Auswirkungen bei § 8d KStG: Alternativ kann die A-GmbH in der Steuererklärung des VZ 2025 wiederum einen Antrag i.S. des § 8d Abs. 1 Satz 5 KStG stellen. In diesem Fall bleibt der Verlust zunächst bestehen und kann in 2025 zur Verlustverrechnung nach § 10d EStG verwendet werden. Der Restbetrag von 4.600.000 € (8.000.000 € - 3.400.000 €) wird zum 31.12.2025 als fortführungsgebundener Verlustvortrag festgestellt." },
+      { text: "Rechenproben zum ersten Beispiel (eigene Ergänzung): Alle Zahlen gehen auf. Gefährdet sind 4.000.000 € fortführungsgebundener Verlust, 2.000.000 € regulärer Vortrag und 2.000.000 € unterjähriger Verlust, zusammen 8.000.000 €; die stillen Reserven von 3.000.000 € verschonen zuerst die 2.000.000 € laufenden Verlust und dann 1.000.000 € des Vortrags, so dass 5.000.000 € untergehen. Die Feststellung bestätigt es: 2.000.000 € + 4.000.000 € ./. 5.000.000 € + 5.000.000 € = 6.000.000 €. Bei einem erneuten Antrag nach § 8d KStG bleibt der gesamte Verlust zum Jahresende erhalten: 4.000.000 € + 2.000.000 € + 5.000.000 € = 11.000.000 €." },
+      { text: "Abweichender Prozentsatz im zweiten Beispiel (eigene Nachrechnung): Die Quelle rechnet hier mit **60 %** des Überhangs, während § 10d Abs. 2 Satz 1 EStG **70 %** vorsieht und sämtliche übrigen Beispiele dieses Skripts – etwa in den Abschnitten 1.6.2.1, 1.6.2.2.2 und 2.5 – ebenfalls mit 70 % rechnen. Das Beispiel ist in sich stimmig, weil die Quelle den Satz von 60 % durchgängig verwendet: 4.000.000 € × 60 % = 2.400.000 €, zusammen mit dem Grundabzug 3.400.000 €, daraus ein z.v.E. von 1.600.000 € und ein Endbestand von 2.000.000 € + 6.000.000 € ./. 3.000.000 € ./. 3.400.000 € = 1.600.000 €; auch der Restbetrag der § 8d-Alternative von 8.000.000 € ./. 3.400.000 € = 4.600.000 € beruht darauf. Mit dem geltenden Satz von 70 % ergäben sich dagegen 4.000.000 € × 70 % = **2.800.000 €**, ein Abzug von **3.800.000 €**, ein z.v.E. von **1.200.000 €**, ein Endbestand von **1.200.000 €** und ein fortführungsgebundener Restbetrag von **4.200.000 €**. Die Zahlen der Quelle sind oben unverändert wiedergegeben; die abweichende eigene Rechnung steht daneben und ersetzt sie nicht." },
+      { text: "Anmerkung zur Lösung der Fortführungsgebundenheit (eigene Ergänzung): Die Quelle hebt die wichtigste Rechtsfolge mit einem eigenen „Beachte“ hervor, und sie ist überraschend **günstig**. Ein erneuter schädlicher Erwerb gefährdet den fortführungsgebundenen Verlust zwar wie jeden anderen – was davon übrig bleibt, verliert aber seine **Bindung** und wandert in die gewöhnliche Feststellung. Der zweite Erwerb wirkt damit als Befreiung von einer zeitlich unbegrenzten Fessel. Im zweiten Beispiel überleben nach der Rechnung der Quelle 1.600.000 € – und zwar als ungebundener Verlust, dem kein schädliches Ereignis mehr etwas anhaben kann." },
+      { text: "Anmerkung zur Wahl beim zweiten Erwerb (eigene Ergänzung): Die Gesellschaft steht bei jedem weiteren schädlichen Erwerb erneut vor derselben Entscheidung, und die beiden Beispiele zeigen beide Ausgänge. Im **ersten** Beispiel bringt der erneute Antrag 11.000.000 € gegenüber 6.000.000 € ohne Antrag – ein klarer Vorteil, erkauft mit der Bindung. Im **zweiten** Beispiel stehen 4.600.000 € gebundener Verlust gegen 1.600.000 € freier Verlust; hier ist die Entscheidung offen, weil der freie Verlust sicher ist, der gebundene dagegen jederzeit wegfallen kann. Als Faustregel lässt sich festhalten: Je größer der durch § 8c KStG drohende Verlust im Verhältnis zum verschonten Rest, desto eher lohnt der erneute Antrag." },
+      { text: "Anmerkung zur festen Verwendungsreihenfolge (eigene Ergänzung): Die Reihenfolge, in der die stillen Reserven verschonen, ist dieselbe wie in Abschnitt 1.6.2.2.1 – erst der laufende Verlust, dann der Verlustvortrag –, mit einer für § 8d KStG wichtigen Klarstellung: Der fortführungsgebundene Verlust gehört **zum Verlustvortrag** und wird also **zuletzt** verschont. Er steht damit in der ungünstigsten Position. Eine eigene Rangfolge zwischen ihm und dem gewöhnlichen Vortrag nennt die Quelle nicht; im ersten Beispiel bleibt die Frage offen, weil nur ein Teilbetrag von 1.000.000 € verschont wird und der Untergang von 5.000.000 € beide Töpfe erfasst." },
     ],
   },
 ];

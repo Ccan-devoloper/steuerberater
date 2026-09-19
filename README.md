@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 30 Kapitel mit 601 Abschnitten und 77 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 32 Kapitel mit 645 Abschnitten und 85 Tabellen; Kapitel 1 des Skripts (§ 8c KStG) ist damit **vollständig**. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -4194,6 +4194,43 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   genügt, und die Grenze verläuft allein zur **vermögensverwaltenden** Beteiligung; bei der
   **Organschaft** ist der Zusatz zur **Organschaftskette** die eigentliche Falle, denn eine Gesellschaft
   in der Mitte einer Kette ist zugleich Organträger der unteren und Organgesellschaft der oberen Stufe.
+  **Nr. 6** erfasst die Übertragung von Wirtschaftsgütern **unter dem gemeinen Wert** in
+  Umwandlungsfällen nach §§ 11, 15, 20 und 21 UmwStG. Die Vorschrift schützt dabei nicht den Verlust,
+  sondern die **Symmetrie**: Würden stille Reserven zu Buchwerten auf die Verlustgesellschaft
+  verlagert, könnte deren spätere Aufdeckung mit dem gebundenen Verlust verrechnet werden – derselbe
+  Gedanke wie bei § 8c Abs. 1 Satz 8 KStG, nur auf der anderen Seite der Zeitachse. Eine Ausnahme gilt
+  bei einem **Sperrfristverstoß im 1. Zeitjahr**: Dann ist der volle Einbringungsgewinn zu versteuern,
+  die Gesellschaft kann nach § 23 Abs. 2 UmwStG aufstocken und erreicht faktisch den gemeinen Wert –
+  im Beispiel 400.000 €, so dass § 8d KStG anwendbar bleibt und 1.000.000 € Verlust gerettet werden.
+  Greift dagegen die **Siebtelung**, bleibt es beim Verstoß: Der Einbringungsgewinn sinkt auf
+  342.857 €, die Aufstockung erreicht nur 442.857 € und bleibt um 57.143 € unter dem gemeinen Wert.
+  Dass bereits **ein** fehlendes Siebtel den gesamten § 8d KStG kostet, ist eine bemerkenswerte Härte –
+  eine anteilige Lösung sieht die Verwaltung nicht vor, so dass eine spätere Veräußerung ungünstiger
+  sein kann als eine frühere. Lehrreich ist zudem, dass sich zwei Nachteile gegenseitig aufheben: Der
+  Sperrfristverstoß kostet **A** die Versteuerung von 400.000 €, der Vorteil fällt bei der **A-GmbH**
+  an – in der Beratung ein Fall für eine ausdrückliche Vereinbarung. Die **verdeckte Einlage** ist
+  dagegen unschädlich; der Teilwert liegt zwar als Nettogröße unter dem gemeinen Wert, doch werden
+  dort keine Reserven verlagert, sondern gerade aufgedeckt, so dass der Zweck der Norm nicht berührt
+  ist.
+  Kommt es später zu einem **erneuten schädlichen Erwerb**, hat **§ 8c KStG Vorrang** und erfasst den
+  fortführungsgebundenen Verlust wie jeden anderen; § 8d Abs. 2 KStG tritt daneben nicht ein. Bei
+  einem unterjährigen Erwerb verschont ein bis dahin erzielter Gewinn den Verlust, und für die stillen
+  Reserven gilt dieselbe feste Reihenfolge wie sonst – erst der laufende Verlust, dann der
+  Verlustvortrag, zu dem der gebundene Verlust gehört und in dem er damit an **letzter** Stelle steht.
+  Die wichtigste Rechtsfolge hebt die Quelle mit einem eigenen „Beachte“ hervor, und sie ist
+  überraschend **günstig**: Was nach § 8c KStG übrig bleibt, verliert seine **Bindung** und wandert in
+  die gewöhnliche Verlustfeststellung – der zweite Erwerb wirkt also als Befreiung von einer zeitlich
+  unbegrenzten Fessel. Alternativ kann die Gesellschaft erneut einen Antrag nach § 8d KStG stellen und
+  damit § 8c KStG wiederum verdrängen; sämtliche Verluste zum Jahresende werden dann erneut gebunden.
+  Die beiden Beispiele zeigen beide Ausgänge: Im ersten stehen 11.000.000 € gebundener Verlust gegen
+  6.000.000 € freien – ein klarer Vorteil; im zweiten 4.600.000 € gegen 1.600.000 €, wo die
+  Entscheidung offen ist, weil der freie Verlust sicher, der gebundene jederzeit gefährdet ist. Als
+  Faustregel gilt: Je größer der drohende Untergang im Verhältnis zum verschonten Rest, desto eher
+  lohnt der erneute Antrag. Im zweiten Beispiel rechnet die Quelle allerdings durchgängig mit **60 %**
+  des Überhangs, während § 10d Abs. 2 Satz 1 EStG **70 %** vorsieht und sämtliche übrigen Beispiele
+  dieses Skripts ebenfalls mit 70 % rechnen. Das Beispiel ist in sich stimmig; mit dem geltenden Satz
+  ergäben sich ein Abzug von 3.800.000 €, ein z.v.E. von 1.200.000 €, ein Endbestand von 1.200.000 €
+  und ein gebundener Restbetrag von 4.200.000 € statt der genannten 4.600.000 €.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

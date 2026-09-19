@@ -10620,6 +10620,56 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 2.6.2.6 und 2.7.1 – Wertansatz unter dem gemeinen Wert und Vorrang des § 8c KStG
+
+Quelle: dieselbe Datei, Seiten 50 bis 53; übernommen als Kapitel 31 und 32. Prüfung:
+`npm run check:k2-kst-teil5` (32 Kapitel, 645 Blöcke, 85 Tabellen).
+
+**Die Zahlen sind unabhängig nachgerechnet.** Beispiel zu 2.6.2.6: Einbringungsgewinn I
+500.000 € ./. 100.000 € = 400.000 €, Aufstockung auf den gemeinen Wert von 500.000 €; bei einem
+Verstoß im zweiten Zeitjahr 400.000 € × 6 ÷ 7 = 342.857,14 €, gerundet 342.857 €, so dass die
+Aufstockung nur 442.857 € erreicht und um 57.143 € – genau ein Siebtel – unter dem gemeinen Wert
+bleibt. Erstes Beispiel zu 2.7.1: 4.000.000 € + 2.000.000 € + 2.000.000 € = 8.000.000 € gefährdet,
+3.000.000 € stille Reserven verschonen zuerst 2.000.000 € laufenden Verlust und dann 1.000.000 € des
+Vortrags, 5.000.000 € gehen unter; Endbestand 2.000.000 € + 4.000.000 € ./. 5.000.000 € +
+5.000.000 € = 6.000.000 €; mit erneutem Antrag 4.000.000 € + 2.000.000 € + 5.000.000 € =
+11.000.000 €.
+
+**Ein abweichender Prozentsatz der Quelle ist nachgewiesen und wortlautgetreu daneben stehen
+gelassen.** Das zweite Beispiel zu 2.7.1 rechnet durchgängig mit **60 %** des Überhangs, während
+§ 10d Abs. 2 Satz 1 EStG **70 %** vorsieht und sämtliche übrigen Beispiele dieses Skripts – etwa in
+1.6.2.1, 1.6.2.2.2 und 2.5 – ebenfalls mit 70 % rechnen. Das Beispiel ist in sich stimmig
+(2.400.000 € Abzug, 3.400.000 € Verwendung, 1.600.000 € z.v.E. und Endbestand, 4.600.000 €
+gebundener Rest). Mit dem geltenden Satz ergäben sich 2.800.000 €, 3.800.000 €, 1.200.000 € und
+4.200.000 €. Die Zahlen der Quelle sind unverändert übernommen; die Nachrechnung steht als
+ausdrücklich gekennzeichnete eigene Ergänzung daneben.
+
+**Eine widersprüchliche Fundstelle ist festgehalten:** Das Wahlrecht zur Wertaufstockung nennt die
+Quelle im Fließtext als § 23 Abs. 1 UmwStG, im Beispiel als § 23 Abs. 2 UmwStG. Zutreffend ist die
+Angabe im Beispiel, weil § 23 Abs. 1 UmwStG über § 12 Abs. 3 UmwStG gerade die Buchwertfortführung
+anordnet. Beide Angaben sind unverändert wiedergegeben.
+
+**Drei sprachliche Eigenheiten sind ebenfalls übernommen und markiert:** „Verlustgesesellschaft“,
+„dem gemeinem Wert“ und „der bisherige fortführungsgebundenen Verlustvortrag“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Einordnung der Nr. 6 als Schutz der Symmetrie und
+ihr Vergleich mit § 8c Abs. 1 Satz 8 KStG; die Beobachtung, dass sich beim Sperrfristverstoß zwei
+Nachteile aufheben, die Steuerlast aber den Einbringenden und der Vorteil die Gesellschaft trifft;
+die Kritik an der Alles-oder-nichts-Wirkung der Siebtelung samt der Feststellung, dass eine spätere
+Veräußerung ungünstiger sein kann als eine frühere; die teleologische Begründung, warum die verdeckte
+Einlage trotz des niedrigeren Teilwerts unschädlich ist; die Hervorhebung, dass die Lösung der
+Fortführungsgebundenheit eine überraschend günstige Rechtsfolge ist; die Abwägung zwischen erneutem
+Antrag und freiem Verlust anhand beider Beispiele samt Faustregel; und der Hinweis, dass der
+gebundene Verlust innerhalb des Vortrags an letzter Stelle verschont wird, die Quelle eine eigene
+Rangfolge zum gewöhnlichen Vortrag aber nicht nennt.
+
+**Neu ist eine Übersicht,** die dem Zeitpunkt des Sperrfristverstoßes den Einbringungsgewinn, die
+Wertaufstockung und die Anwendbarkeit des § 8d KStG gegenüberstellt.
+
+**Noch offen:** aus Teil V das Zusammentreffen von schädlichem Erwerb und schädlichem Ereignis (2.7.2)
+sowie die Kapitel 3 (Zinsschranke) und 4 (stille Beteiligungen); ganz offen sind die Skriptteile VI
+und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 2.6.1 und 2.6.2 – Fortführungserfordernis und weitere schädliche Sachverhalte
 
 Quelle: dieselbe Datei, Seiten 47 bis 50; übernommen als Kapitel 29 und 30. Prüfung:
