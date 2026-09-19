@@ -160,10 +160,10 @@
       "slot": "open ring binder with legal text",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-19T10:44:51.162Z",
-      "updatedAt": "2026-09-19T10:44:51.162Z"
+      "updatedAt": "2026-09-19T10:44:52.342Z"
     }
   ],
-  "stand": "2026-09-19T10:44:51.162Z"
+  "stand": "2026-09-19T10:44:52.342Z"
 }
