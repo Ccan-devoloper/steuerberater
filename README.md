@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 10 Kapitel mit 202 Abschnitten und 20 Tabellen. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 12 Kapitel mit 242 Abschnitten und 24 Tabellen. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3843,6 +3843,40 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zählerwerb seine **eigene** Fünfjahresfrist hat – die aus 2019 läuft 2024 aus, die aus 2023 erst
   2028 –, empfiehlt sich in der Klausur eine Tabelle mit einer Zeile je Erwerb samt Ablaufdatum statt
   einer Gesamtbetrachtung.
+  Beim **fünfjährigen Betrachtungszeitraum** ist der Schlüssel, dass jeder Zählerwerb begrifflich
+  einen **eigenen** Zeitraum auslöst und sich mehrere deshalb **überlappen**. Im zweiten Beispiel
+  laufen zwei Zeiträume gleichzeitig: der erste ab 02.01.2017 mit 35 %, der zweite ab 05.03.2018 mit
+  25 %. Die Abwandlung zeigt die Tragweite – ein und derselbe Erwerb von 30 % ist am 04.03.2023
+  schädlich (25 % + 30 % = 55 %) und am 31.12.2023 folgenlos; neun Monate entscheiden. Wer nur mit
+  einem einzigen Zeitfenster rechnet, kommt hier zwangsläufig falsch heraus. Das dritte Beispiel liegt
+  exakt auf der Grenze: Nach Wegfall des Erwerbs von 2016 summieren sich die Zählerwerbe auf genau
+  **50 %** – und weil § 8c Abs. 1 Satz 1 KStG **mehr als** 50 % verlangt, bleibt der Verlust
+  erhalten; die Quelle nennt die Zahl, zieht diese Folgerung aber nicht ausdrücklich. Auch die
+  Fristberechnung nach § 108 Abs. 1 AO wirkt sich aus: Weil der Zeitraum erst am **Folgetag** beginnt,
+  endet er einen Tag später als intuitiv gerechnet. Nach einem schädlichen Erwerb tritt
+  **Sanktionsverbrauch** ein – die Vorerwerbe haben ihre Wirkung verbraucht, und neue Verluste sind
+  erst wieder gefährdet, wenn die neue Zählung die Schwelle überschreitet. Praktisch am unangenehmsten
+  ist, dass ein Verlustvortrag im Erwerbszeitpunkt **nicht vorhanden** sein muss: Wer einen Anteil an
+  einer gesunden Gesellschaft erwirbt, sammelt einen Zählerwerb an, der Jahre später – wenn sie in die
+  Verlustzone gerät – den Untergang mit auslöst; im Beispiel kostet das 10 Millionen Euro.
+  Die **Verschonungsgrenze** des § 8c Abs. 1 Satz 5 bis 8 KStG ist wie die Konzernklausel eine
+  **teleologische Korrektur** der Typisierung, und die Quelle liefert die Rechtfertigung in einem
+  Satz: Von einem Mantelkauf kann nur ausgegangen werden, wenn dem Anteil ein Verlustpotential
+  anhaftet, er **darüber hinaus aber wertlos** ist – wer viel Geld zahlt, kauft offensichtlich keinen
+  Mantel. Die typisierende Formel „gemeiner Wert abzüglich steuerliches Eigenkapital“ kommt ohne jede
+  Einzelbewertung aus und unterstellt, dass die gesamte Differenz zwischen Marktwert und Buchwert aus
+  stillen Reserven besteht – also auch ein selbst geschaffener **Firmenwert**, der bilanziell gar
+  nicht ansetzbar wäre. Zu beachten ist die **Hochrechnung**: Im Beispiel werden die 6.000.000 € für
+  60 % auf einen gemeinen Wert von 10.000.000 € hochgerechnet, weil der Verlust dem Grunde nach
+  vollständig untergeht und ihm deshalb die stillen Reserven der **gesamten** Gesellschaft
+  gegenüberstehen – 10.000.000 € ./. 2.000.000 € = 8.000.000 € verschont, 12.000.000 € gehen unter.
+  Die **Verrechnungsreihenfolge** ist dabei für den Steuerpflichtigen tendenziell ungünstig: Die
+  stillen Reserven verschonen **vorrangig den laufenden Verlust**, der ohnehin verrechenbar gewesen
+  wäre, und erst ein Überhang rettet den Verlustvortrag, der sonst ersatzlos verfällt. Im Organkreis
+  wird schließlich deutlich weniger verschont als sonst: Beim **Organträger** zählen die stillen
+  Reserven der Beteiligung an der Organgesellschaft nicht mit, bei der **Organgesellschaft** stehen
+  ihre eigenen nur für den laufenden Verlust und einen vororganschaftlichen Verlustvortrag zur
+  Verfügung.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

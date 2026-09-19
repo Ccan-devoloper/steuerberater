@@ -10620,6 +10620,45 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 1.4.6 und 1.5.1 – Fünfjahreszeitraum und Verschonungsgrenze
+
+Quelle: dieselbe Datei, Seiten 20 bis 23; übernommen als Kapitel 11 und 12. Prüfung:
+`npm run check:k2-kst-teil5` (12 Kapitel, 242 Blöcke, 24 Tabellen).
+
+**Alle Quoten und Beträge sind unabhängig nachgerechnet und gehen auf:** 32,5 % + 18 % = 50,5 %;
+10 % + 25 % = 35 % und in der Abwandlung 25 % + 30 % = 55 %; sechs jährliche Erwerbe zu 5 % = 30 %,
+davon fünf ab 2017 = 25 % zuzüglich 25 % = 50 %; 20 % + 40 % = 60 %. Verschonungsbeispiel:
+6.000.000 € × 100 ÷ 60 = 10.000.000 €, abzüglich 2.000.000 € = 8.000.000 € stille Reserven,
+20.000.000 € ./. 8.000.000 € = 12.000.000 € Untergang.
+
+**Eine Schlussfolgerung ist eigens ergänzt.** Im dritten Beispiel zum Fünfjahreszeitraum nennt die
+Quelle die Summe von 50 %, zieht daraus aber keine ausdrückliche Folgerung. Sie ist hier von
+besonderer Bedeutung, weil § 8c Abs. 1 Satz 1 KStG *mehr als* 50 % verlangt: Bei genau 50 % bleibt
+der Verlust erhalten. Der Fall liegt damit exakt auf der Grenze; zählte der ausgelaufene Erwerb von
+2016 mit, wären es 55 %.
+
+**Die Hochrechnung im Verschonungsbeispiel ist als eigene Feststellung erläutert:** Weil der Verlust
+dem Grunde nach vollständig untergeht, werden ihm die stillen Reserven der gesamten Gesellschaft
+gegenübergestellt und nicht nur der auf den erworbenen Anteil entfallende Teil von 60 % – andernfalls
+blieben nur 4.800.000 € erhalten.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die Überlappung mehrerer Betrachtungszeiträume
+samt der Warnung vor der Rechnung mit nur einem Zeitfenster; die Erläuterung des Sanktionsverbrauchs;
+die praktische Wirkung der Fristberechnung nach § 108 Abs. 1 AO; die Tragweite der Aussage, dass
+Erwerbe auch zu Gewinnzeiten als Zählerwerbe gelten; der Grundgedanke der Verschonungsgrenze als
+teleologische Korrektur; die Grobheit der typisierenden Formel, die auch einen selbst geschaffenen
+Firmenwert erfasst; die für den Steuerpflichtigen ungünstige Verrechnungsreihenfolge; und die
+doppelte Verschärfung im Organkreis.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „stehen deren stillen
+Reserven“ und „oder aus Vereinfachungsgründen dieses aus dem Eigenkapital des letzten
+Abschlussstichtages abzuleiten“.
+
+**Noch offen:** aus Teil V die Besonderheit bei negativem Kapital (1.5.1.1.3), die Berücksichtigung
+der steuerpflichtigen stillen Reserven (1.5.1.2), die weiteren Abschnitte der Verschonungsgrenze, die
+Verlustkürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; ganz offen sind die
+Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 1.4.5.2 bis 1.4.5.5 – die Konzernklausel ist vollständig
 
 Quelle: dieselbe Datei, Seiten 18 bis 20; übernommen als Kapitel 9 und 10. Prüfung:
