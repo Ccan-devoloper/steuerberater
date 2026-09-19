@@ -10620,6 +10620,71 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitt 3.2.5.5 – Auswirkungen der Ausgleichszahlung
+
+Übernommen sind die Seiten 49 bis 51 der Quelle: die Einkommenshinzurechnung nach
+§ 4 Abs. 5 Nr. 9 EStG (3.2.5.5.1) und das eigene Einkommen der Organgesellschaft in
+Höhe von 20/17 der Ausgleichszahlungen nach § 16 KStG (3.2.5.5.2) mit dem Grundfall
+und der Abwandlung samt allen fünf Rechenwegen. Der Datensatz umfasst damit 30
+Kapitel mit 576 Abschnitten und 39 Tabellen; geprüft mit `npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Zwei Korrekturen greifen ineinander: § 4 Abs. 5 Nr. 9 EStG
+trifft den Zahlenden und macht den Aufwand rückgängig, § 16 KStG weist stets der
+Organgesellschaft ein eigenes Einkommen von 20/17 der Zahlung zu. Die Hinzurechnung
+greift schon mit der Passivierung, die Besteuerung erst mit dem Abfluss. Der Grund
+für die feste Zuweisung an die Organgesellschaft ist, dass die Belastung nicht von
+der Rechtsform des Organträgers abhängen darf. Als Ausgleichszahlung gilt auch eine
+vGA an den außenstehenden Gesellschafter (R 14.6 Abs. 4 Satz 4 KStR).
+
+**Zentraler Befund: zwei Rechenwege mit verschiedenem Organeinkommen.** Für die
+Abwandlung – die Ausgleichszahlung wird vom Organträger geleistet – stellt die Quelle
+zwei Ermittlungen nebeneinander, die zu **verschiedenen** Organeinkommen führen:
+
+| Rechenweg der Quelle | Organeinkommen |
+| --- | --- |
+| erste Ermittlung (mit Hinzurechnung der Ausgleichszahlung des OT) | 1.050.485 € |
+| „Alternative Ermittlung“ (ohne diese Hinzurechnung) | 1.000.485 € |
+
+Beim Organträger gleichen sich beide wieder aus, weil der erste Weg die
+Ausgleichszahlung zusätzlich als „Beseitigung der Ausgleichszahlung (gegenläufige
+Korrektur)“ abzieht; beide Wege enden bei einem Einkommen von 1.000.485 €.
+Konsequent ist gleichwohl nur der **zweite** Weg: Zahlt der Organträger, ist die
+Ausgleichszahlung bei der Organgesellschaft **gar nicht als Aufwand gebucht**, so dass
+dort nichts hinzuzurechnen ist – so sagt es die Quelle unmittelbar zuvor selbst
+(„Weil der Aufwand aus der Ausgleichszahlung nur beim Organträger angefallen ist …“).
+Die Abweichung ist nicht bloß rechnerischer Natur, weil der Feststellungsbescheid nach
+§ 14 Abs. 5 KStG nur **einen** Betrag ausweisen kann; die Quelle nennt dort 1.050.485 €,
+während ihre eigene Alternativrechnung auf 1.000.485 € führt. Sie löst die Abweichung
+**nicht** auf. Beide Wege sind wortlautgetreu übernommen, der Befund ist im Datensatz
+als eigene Ergänzung ausgewiesen.
+
+**Weitere Befunde der Quelle** (wortlautgetreu übernommen und gekennzeichnet):
+
+- Abschnitt 3.2.5.5.2 schreibt „erhöht sich zunächst deren Einkommen … um die
+  Ausgleichzahlungszahlung“ – eine Verschreibung aus zwei Wörtern.
+- „kommt § 4 Abs. 5 Nr. 9 EStG auch nur der Einkommensermittlung des Organträgers zur
+  Anwendung“ – es fehlt die Präposition („bei der Einkommensermittlung“).
+- Der Sachverhalt des Grundfalls lautet „Die A-GmbH ist Organgesellschaft der B-GmbH.
+  Diese zahlt in 2025 Ausgleichszahlungen …“. Dem Wortlaut nach bezieht sich
+  „Diese“ auf die B-GmbH; gemeint ist nach Überschrift und Lösung die A-GmbH.
+- Der Satz „Das Einkommen des Organträgers ist daher um 20/17 der Ausgleichszahlungen
+  zu verringern“ deckt sich nicht mit den folgenden Rechnungen, in denen sich das
+  Einkommen des Organträgers gegenüber dem ersten Weg um den Nennbetrag von 50.000 €
+  und nicht um 58.824 € vermindert.
+- Die Quelle zitiert durchgehend „§ 4 Abs. 5 Nr. 9 EStG“; gesetzlich handelt es
+  sich um § 4 Abs. 5 Satz 1 Nr. 9 EStG.
+
+**Eigene Nachrechnung.** Sämtliche Zahlen beider Fälle sind unabhängig nachgerechnet
+und gehen auf: 20/17 von 50.000 € = 58.823,53 €, gerundet 58.824 €; davon 15 %
+Körperschaftsteuer = 8.823,60 €, gerundet 8.824 €; davon 5,5 % Solidaritätszuschlag =
+485,32 €, gerundet 485 €; Summe der Rückstellungen 9.309 €. Grundfall: 1.000.000 € +
+8.824 € + 485 € + 50.000 € = 1.059.309 €, abzüglich 58.824 € = 1.000.485 €.
+Abwandlung: 1.050.000 € + 9.309 € + 50.000 € = 1.109.309 €, abzüglich 58.824 € =
+1.050.485 €; alternativ 1.059.309 € ./. 58.824 € = 1.000.485 €. Organträger auf beiden
+Wegen 1.000.485 €. Die Probe zur Herleitung des Bruchs: 58.824 € ./. 8.824 € = 50.000 €
+– genau die Ausgleichszahlung; der Solidaritätszuschlag ist im Bruch nicht enthalten
+und mindert den verbleibenden Betrag zusätzlich auf 49.515 €.
+
 ### KSt Teil VI (Hamacher), Abschnitte 3.2.5.1 bis 3.2.5.4 – Ausgleichszahlungen
 
 Übernommen sind die Seiten 45 bis 48 der Quelle: die zivilrechtlichen Grundlagen

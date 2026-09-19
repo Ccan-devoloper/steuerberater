@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 28 Kapitel mit 530 Abschnitten und 34 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 30 Kapitel mit 576 Abschnitten und 39 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4999,6 +4999,41 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Mindestlaufzeit** auf sämtliche Vorjahre zurückwirkt (R 14.5 Abs. 8 KStR) – ein erhebliches Risiko,
   weil ein unerwartet schlechtes Ergebnis eine seit Jahren unveränderte Vereinbarung erstmals über die
   Grenze treten lassen kann. Eine vertragliche Begrenzungsklausel liegt deshalb nahe.
+  Bei den **Auswirkungen** der Ausgleichszahlung greifen **zwei** Korrekturen ineinander, die
+  sorgfältig zu trennen sind, weil sie verschiedene Personen und sogar verschiedene Jahre betreffen.
+  **§ 4 Abs. 5 Nr. 9 EStG** macht die Zahlung zur **nichtabziehbaren Betriebsausgabe** und trifft
+  **denjenigen, der sie leistet** – die Organgesellschaft oder den Organträger. **§ 16 KStG** weist
+  dagegen **immer der Organgesellschaft** ein eigenes Einkommen von **20/17** der Ausgleichszahlungen
+  zu, gleichgültig wer gezahlt hat. Nur wenn die Organgesellschaft selbst leistet, laufen beide
+  Vorschriften bei derselben Person zusammen. Der Bruch **20/17** ist dabei keine willkürliche Größe,
+  sondern die **Umkehrung** der Körperschaftsteuerbelastung: Die Zahlung kann nur aus **versteuertem**
+  Einkommen stammen, von einem Einkommen x bleiben nach 15 % noch 17/20 x übrig, also beträgt das
+  zugehörige Einkommen 20/17 der Zahlung. Die Probe bestätigt es – 58.824 € abzüglich 8.824 €
+  Körperschaftsteuer ergeben genau die 50.000 € Ausgleichszahlung; der Solidaritätszuschlag von
+  485 € ist im Bruch **nicht** berücksichtigt.
+  Zeitlich fallen die beiden Korrekturen auseinander: Die Hinzurechnung folgt dem **Bilanzrecht** und
+  greift schon mit der **Passivierung**, die Besteuerung nach § 16 KStG folgt dem **Abflussprinzip**
+  und greift erst mit der **Zahlung**, weil das Gesetz von „geleisteten“ Ausgleichszahlungen spricht.
+  Dass das Einkommen **stets** bei der Organgesellschaft verbleibt, begründet die Quelle ausdrücklich:
+  Die Belastung darf sich nicht nach der **Rechtsform des Organträgers** richten – sonst hinge die
+  Steuer auf denselben Vorgang davon ab, ob dieser eine Kapitalgesellschaft oder eine natürliche
+  Person ist. Aus demselben Grund mindert die entstehende Steuerschuld in **beiden** Fällen die
+  **Gewinnabführung**. Als Ausgleichszahlung gilt nach R 14.6 Abs. 4 Satz 4 KStR auch eine **vGA** an
+  den außenstehenden Gesellschafter. Bemerkenswert ist der **Verlustfall**: Die Organgesellschaft
+  versteuert die 20/17 **unabhängig** von ihrem übrigen Ergebnis, hat also ein positives eigenes
+  Einkommen, während dem Organträger gleichzeitig ein negatives Organeinkommen zugerechnet wird; ein
+  **vororganschaftlicher** Verlustvortrag hilft ihr nicht, weil § 15 Satz 1 Nr. 1 KStG den Abzug auch
+  gegen dieses Einkommen sperrt. Die Ausgleichszahlung ist damit der praktisch wichtigste Fall, in dem
+  eine Organgesellschaft überhaupt eigene Körperschaftsteuer zahlt.
+  Die **Abwandlung** – Zahlung durch den Organträger – stellt die Quelle in **zwei** Rechenwegen dar,
+  die zu **verschiedenen** Organeinkommen führen: 1.050.485 € und 1.000.485 €, also genau um die
+  50.000 € auseinander. Beim Organträger gleichen sie sich wieder aus, weil der erste Weg die
+  Ausgleichszahlung „gegenläufig“ wieder abzieht; beide enden bei 1.000.485 €. Konsequent ist
+  allerdings nur der **zweite** Weg, denn zahlt der Organträger, ist bei der Organgesellschaft **gar
+  kein Aufwand gebucht**, der hinzuzurechnen wäre – so sagt es die Quelle unmittelbar zuvor selbst.
+  Weil der Feststellungsbescheid nach § 14 Abs. 5 KStG nur **einen** Betrag ausweisen kann, ist die
+  Abweichung nicht bloß rechnerischer Natur; die Quelle löst sie nicht auf. Sämtliche Zahlen beider
+  Fälle sind unabhängig nachgerechnet und gehen auf.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
