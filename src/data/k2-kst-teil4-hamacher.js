@@ -19,9 +19,11 @@
    (1.5.2.3 mit dem schlampigen und dem gierigen Gesellschafter). Damit ist der
    gesamte Abschnitt 1.5 vollständig. Dazu kommen der fehlende Zusammenhang mit
    einer offenen Gewinnausschüttung (1.6), die Vorteilsgeneigtheit (1.7) und
-   die unbewussten Handlungen (1.8). Es folgen die nahe stehenden Personen
-   (1.9) und die übrigen Abschnitte des Kapitels 1 sowie die Kapitel 2 bis 6;
-   der Campus weist den Stand aus.
+   die unbewussten Handlungen (1.8) und die nahe stehenden Personen (1.9) mit
+   Definition, Zurechnung und durchgeleiteter vGA. Es folgen der
+   Vorteilsausgleich (1.10), die Beweislast (1.11), die Rückgewähr (1.12) und
+   die Schenkungsteuer (1.13) sowie die Kapitel 2 bis 6; der Campus weist den
+   Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -509,6 +511,137 @@ export const kstTeil4 = [
       { text: "Anmerkung zur Ausnahme des Irrtums (eigene Ergänzung): Die einzige Öffnung, die die Quelle lässt, ist eng gefasst und verlangt **zwei** Voraussetzungen zugleich: einen Irrtum des Gesellschafter-Geschäftsführers **und** das Fehlen eines Zuwendungswillens. Der Sache nach geht es um das versehentliche Vermögensopfer – etwa eine irrtümlich doppelt ausgeführte Zahlung –, das gerade nicht auf dem Gesellschaftsverhältnis beruht. Die Nähe zum Abschnitt 1.5.2.3.1 ist offensichtlich: Auch dort fehlt es an einer Zuwendung, und auch dort ist die Gesellschaft auf den Rückforderungsanspruch verwiesen. Das zugrunde liegende BFH-Urteil vom 22.11.2023 ist jung; die Grenzen dieser Ausnahme sind damit noch nicht ausgelotet." },
       { text: "Anmerkung zur Untreue (eigene Ergänzung): Der Satz, dass selbst ein durch **Untreue oder Unterschlagung** erschlichener Vorteil eine vGA sein kann, ist die schärfste Konsequenz der Zurechnung und wirkt auf den ersten Blick befremdlich – der Gesellschaft ist ja ein Schaden zugefügt worden, sie hat nichts zugewendet. Entscheidend ist der Nachsatz der Quelle: „und die Kapitalgesellschaft diesen hat **gewähren lassen**“. Das Dulden ist der Anknüpfungspunkt. Damit schließt sich der Kreis zum Abschnitt 1.5.2.3: Setzt die Gesellschaft ihren Ersatzanspruch durch, bleibt es beim schlampigen Gesellschafter ohne vGA; lässt sie den Vorteil bestehen, wird daraus eine verdeckte Gewinnausschüttung." },
       { text: "Anmerkung zum nichtbeherrschenden Gesellschafter (eigene Ergänzung): Die Abstufung in der dritten Tabellenzeile ist die Kehrseite der Organstellung. Wer weder Geschäftsführer noch beherrschender Gesellschafter ist, kann der Gesellschaft ihren Willen nicht aufzwingen – sein Handeln ist deshalb nicht ohne Weiteres ihres. Erst die **Billigung** durch die anderen Gesellschafter oder die Geschäftsführung macht es dazu, wobei die Quelle ausdrücklich auch eine stillschweigende genügen lässt. In der Praxis läuft das auf eine Beweisfrage hinaus: Wer von dem Vorgang wusste und ihn nicht unterbunden hat, hat ihn regelmäßig gebilligt." },
+    ],
+  },
+  {
+    id: "kst-t4-12",
+    kapitel: "12",
+    abschnittNr: "1.9.1 und 1.9.2.1",
+    title: "1.9 vGA bei einer nahe stehenden Person – Definition und Zurechnung beim nicht beteiligten Empfänger",
+    thema: "Für die Korrektur bei der Gesellschaft ist gleichgültig, wem der Vorteil zufließt. Die Bezüge können aber nur dem Anteilseigner zugerechnet werden – und verbrauchen sich bei ihm in einer Zuwendung an den Empfänger",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 1.9.1 und 1.9.2.1 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 20 Abs. 5 EStG",
+      "§ 15 AO",
+      "§ 7 Abs. 1 Nr. 1 ErbStG",
+      "R 8.5 Abs. 1 Satz 3 KStR",
+      "H 8.5 KStH „Nahestehende Person – Kreis der nahestehenden Personen“",
+      "H 8.5 KStH „Nahestehende Person – Zurechnung der vGA“",
+      "BFH vom 21.10.2014, BStBl. II 2015, 687",
+    ],
+    themen: ["Nahe stehende Person", "Mittelbare vGA", "Zurechnung nach § 20 Abs. 5 EStG", "Verbrauch der vGA", "Schenkungsteuer"],
+    bloecke: [
+      { text: "Die für Zwecke der vGA notwendige gesellschaftsrechtliche Veranlassung kann auch dann vorliegen, wenn der Vorteil unmittelbar einer nahe stehenden Person des Anteilseigners zufließt. Als nahe stehende Person gilt dabei, wer mit dem Anteilseigner aufgrund" },
+      { text: "– persönlicher" },
+      { text: "– geschäftlicher" },
+      { text: "– oder schuldrechtlicher" },
+      { text: "Beziehungen verbunden ist. Dazu gehören insbesondere:" },
+      { text: "– Ehegatte; – Kinder; – Sonstige Angehörige i.S. des § 15 AO; – Langjähriger Geschäftspartner; – Anteilseigner der Kapitalgesellschaft; – Eine Schwester-Gesellschaft, an der der (gemeinsame) Anteilseigner ebenfalls beteiligt ist (sog. Dreiecksfälle, siehe unter 4.4); – Aufgrund privatrechtlicher Abmachungen mit dem Anteilseigner verbundene Person. (Der Verweis „unter 4.4“ steht so in der Quelle; die Dreiecksfälle sind Gegenstand des Kapitels 5.)" },
+      { text: "Auch in diesen Fällen ist das Einkommen der benachteiligten Kapitalgesellschaft nach § 8 Abs. 3 Satz 2 KStG außerbilanziell zu korrigieren. Denn für die Ebene der Einkommensermittlung der Kapitalgesellschaft ist es unerheblich, wem die verdeckte Gewinnausschüttung unmittelbar zuzurechnen ist." },
+      { typ: "titel", text: "1.9.2.1 Nahestehende Person ist nicht beteiligt" },
+      { text: "Die aus der verdeckten Gewinnausschüttung resultierenden Bezüge i.S. des § 20 Abs. 1 Nr. 1 EStG können nur dem Anteilseigner zugerechnet werden (§ 20 Abs. 5 EStG). Dies gilt auch dann, wenn der Vermögensvorteil unmittelbar einer nahe stehenden Person zufließt, welche nicht an der Kapitalgesellschaft beteiligt ist (sog. mittelbare vGA). Sind mehrere Gesellschafter der vorteilsempfangenden Person nahe stehend, muss die vGA m.E. sämtlichen Gesellschaftern anteilig zugerechnet werden. Auf der anderen Seite verbraucht sich die vGA in diesen Fällen in einer Zuwendung an die nahe stehende Person (siehe auch unter 4.2.4 und 4.2.5), die u.U. auch schenkungsteuerliche Konsequenzen nach sich ziehen kann (siehe unter 1.13.2)." },
+      { text: "Beispiel: A ist Alleingesellschafter der B-GmbH. Seine Ehefrau überlässt der Gesellschaft ein Betriebsgrundstück für eine monatliche Pacht von 6.000 €, angemessen wären jedoch nur 3.000 €." },
+      { text: "Lösung: Bei der Gesellschaft ist es aufgrund der überhöhten Pachtzahlung zu einer Vermögensminderung gekommen. Diese wird an eine dem Alleingesellschafter nahe stehende Person gezahlt, so dass sich daraus bereits gesellschaftsrechtliche Gründe für die Vorteilsgewährung ergeben haben. Das Einkommen der Gesellschaft ist daher nach § 8 Abs. 3 Satz 2 KStG um die überhöhte Pacht von jeweils 3.000 € zu erhöhen." },
+      { text: "A muss die verdeckte Gewinnausschüttung von jeweils 3.000 € versteuern (§ 20 Abs. 5 EStG, § 20 Abs. 1 Nr. 1 Satz 2 EStG). In Höhe dieses Wertepotentials liegt gleichzeitig eine Zuwendung des A und die Ehefrau, die bei A zu keiner einkommenswirksamen Verminderung seiner Einkünfte führen kann. Gleichzeitig werden die Mieteinnahmen der Ehefrau entsprechend verringert. Daneben sind aufgrund der freigebigen Zuwendung i.S. des § 7 Abs. 1 Nr. 1 ErbStG auch erbschaftsteuerliche Konsequenzen zu prüfen. (Die Wendung „eine Zuwendung des A und die Ehefrau“ steht so in der Quelle; gemeint ist „des A an die Ehefrau“.)" },
+      { text: "Beispiel: A und C sind zu jeweils 50 % an der B-GmbH beteiligt. Die Mutter des C überlässt der Gesellschaft ein Betriebsgrundstück für eine monatliche Pacht von 6.000 €, angemessen wären jedoch nur 3.000 €." },
+      { text: "Lösung: Auf Ebene der B-GmbH ist es aus gesellschaftsrechtlichen Gründen zu einer Vermögensminderung gekommen, die nach § 8 Abs. 3 Satz 2 KStG i.H. von monatlich 3.000 € zu einer Einkommenshinzurechnung führt. Die gesellschaftsrechtliche Veranlassung ergibt sich daraus, dass der Vermögensvorteil einer nahe stehenden Person des Anteilseigners C zugeflossen ist." },
+      { text: "Die vGA von monatlich 3.000 € ist beiden Gesellschaftern A und B jeweils in Höhe von 1.500 € (mtl.) zuzurechnen (§ 20 Abs. 5 EStG, § 20 Abs. 1 Nr. 1 Satz 2 EStG), weil diese Vermögensminderung aufgrund des persönlichen Näheverhältnisses zur empfangenden Person von beiden Gesellschaftern mitveranlasst worden ist. Eine Ausnahme würde nur dann gelten, wenn das Handeln konkret und nachweisbar einem Gesellschafter zugerechnet werden könnte. Der Verbrauch der vGA in Form der Zuwendung an die Mutter kann nicht einkommenswirksam abgezogen werden. Bei der empfangenden Mutter sind die erhaltenen Mieteinnahmen um den als vGA anzusehenden Betrag zu vermindern. Gleichzeitig ergeben sich aus der freigebigen Zuwendung i.S. des § 7 Abs. 1 Nr. 1 ErbStG auch schenkungsteuerliche Konsequenzen. (Die Bezeichnung „A und B“ steht so in der Quelle; beteiligt sind nach dem Sachverhalt A und C.)" },
+      { typ: "tabelle", spalten: ["Ebene", "Vorgang", "Steuerliche Folge"], zeilen: [
+        ["benachteiligte Gesellschaft", "überhöhte Pacht an die nahe stehende Person", "Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG – gleichgültig, wem der Vorteil zufließt"],
+        ["Anteilseigner", "Zurechnung der Bezüge nach § 20 Abs. 5 EStG", "Bezug nach § 20 Abs. 1 Nr. 1 Satz 2 EStG, obwohl ihm nichts zugeflossen ist"],
+        ["Anteilseigner", "Verbrauch der vGA durch Weitergabe an die nahe stehende Person", "kein einkommenswirksamer Abzug"],
+        ["nahe stehende Person", "Empfang der überhöhten Pacht", "Minderung der eigenen Mieteinnahmen um den vGA-Betrag"],
+        ["Verhältnis Anteilseigner zur nahe stehenden Person", "freigebige Zuwendung", "Prüfung des § 7 Abs. 1 Nr. 1 ErbStG"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Der Abschnitt zeigt eine Konstruktion, die auf den ersten Blick ungerecht wirkt und in der Klausur häufig falsch gelöst wird: Der Anteilseigner versteuert einen Bezug, obwohl ihm **nichts zugeflossen** ist, und er darf die Weitergabe nicht abziehen. Der Grund liegt in § 20 Abs. 5 EStG – Einkünfte aus Kapitalvermögen kann nur derjenige erzielen, dem die Anteile zuzurechnen sind. Steuerlich wird der Vorgang daher in zwei Schritte zerlegt: erst eine Ausschüttung an den Gesellschafter, dann eine Schenkung von ihm an die nahe stehende Person. Genau deshalb ist am Ende auch § 7 Abs. 1 Nr. 1 ErbStG zu prüfen – und genau deshalb mindern sich beim Empfänger die eigenen Einnahmen, weil derselbe Betrag nicht zweimal erfasst werden darf." },
+      { text: "Anmerkung zur anteiligen Zurechnung (eigene Ergänzung): Die Auffassung der Quelle, bei mehreren nahe stehenden Gesellschaftern sei **anteilig** zuzurechnen, ist ausdrücklich als eigene Meinung des Verfassers gekennzeichnet („m.E.“). Im zweiten Beispiel führt sie zu einem bemerkenswerten Ergebnis: Auch A versteuert die Hälfte der vGA, obwohl nicht seine, sondern die Mutter des **C** begünstigt wird. Begründet wird das mit der Mitveranlassung – A hat dem Pachtvertrag zugestimmt. Die Quelle nennt aber selbst die Gegenausnahme: Lässt sich das Handeln konkret und nachweisbar einem Gesellschafter zurechnen, entfällt die Aufteilung. In der Klausur ist daher zuerst zu prüfen, ob der Sachverhalt eine solche Zurechnung hergibt." },
+      { text: "Rechenproben (eigene Ergänzung): Beide Beispiele gehen auf. Überhöhte Pacht 6.000 € ./. 3.000 € = 3.000 € monatlich, im Jahr also 36.000 € – diese Jahressumme nennt die Quelle nicht. Im zweiten Beispiel entfallen auf jeden der beiden Gesellschafter 3.000 € / 2 = 1.500 € monatlich." },
+    ],
+  },
+  {
+    id: "kst-t4-13",
+    kapitel: "13",
+    abschnittNr: "1.9.2.2",
+    title: "1.9.2.2 Nahestehende Person ist selbst beteiligt – Anscheinsbeweis und Zuwendungswille",
+    thema: "Ist der Empfänger selbst Gesellschafter, versteuert er die vGA grundsätzlich selbst – und dann entfällt die Schenkungsteuer. Anders nur, wenn die Mehrheitsbeteiligung für die vGA ursächlich war",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 1.9.2.2 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 20 Abs. 5 EStG",
+      "§ 7 Abs. 1 Nr. 1 ErbStG",
+      "BFH vom 30.01.2013, BStBl. II 2013, 930",
+      "BFH vom 29.09.1981, BStBl. II 1982, 248",
+    ],
+    themen: ["Beteiligte nahe stehende Person", "Anscheinsbeweis", "Zehn-Prozent-Grenze", "Zuwendungswille", "Stimmrechtsmehrheit"],
+    bloecke: [
+      { text: "Ist die nahe stehende Person hingegen auch selbst als (Minderheits-)Gesellschafter an der Kapitalgesellschaft beteiligt, ist ihr als begünstigter Gesellschafter die vGA zuzurechnen. Der Fakt, dass der Mehrheitsgesellschafter oder deren Gruppe (als nahestehende Person) dem zur vGA führenden Vorgang auch nur stillschweigend zugestimmt hat, führt für sich betrachtet noch nicht dazu, dass diesen Personen die vGA zugerechnet werden müsste. Ist der begünstigte Anteilseigner zudem in einem erheblichen Umfang (d.h. mindestens zu 10 %) an der Kapitalgesellschaft beteiligt, spricht der Beweis des ersten Anscheins dafür, dass ihm die vGA aufgrund eigener Veranlassung zuzurechnen ist. Weil der Minderheitsgesellschafter in dieser Situation die vGA selbst versteuert, scheidet nachfolgend auch eine freigebige Zuwendung zwischen den jeweiligen Gesellschaftern aus." },
+      { text: "Nur in dem Fall, in dem der Zuwendungswille durch den Mehrheitsgesellschafter oder eine Gruppe von diesen Gesellschaftern eindeutig festgestellt werden kann und die vGA durch diese veranlasst wurde, muss m.E. diesem (Mehrheits-)Anteilseigner die vGA zugerechnet werden. In dieser Situation wäre die Mehrheitsbeteiligung dieses Gesellschafters für die Entstehung der vGA ursächlich. Dies wäre z.B. in den Fällen der Änderung eines Anstellungsvertrags gegeben, weil die Gesellschafterversammlung der Vertragsänderung mit der jeweiligen Stimmrechtsmehrheit zustimmen muss oder wenn der Gesellschaftsvertrag für bestimmte Rechtsgeschäfte eine qualifizierte Stimmrechtsmehrheit vorsieht. In dieser Situation erfolgt anschließend auch eine Zuwendung i.S. des § 7 Abs. 1 Nr. 1 ErbStG zwischen den jeweiligen Gesellschaftern (siehe auch unter 1.13)." },
+      { text: "Beispiel: A ist zu 80 % an der B-GmbH beteiligt. Seine Ehefrau (Beteiligung von 20 %) überlässt der Gesellschaft ein Betriebsgrundstück für eine monatliche Pacht von 6.000 €, angemessen wären jedoch nur 3.000 €." },
+      { text: "Lösung: Die vGA ist der Ehefrau selbst als Beteiligungsertrag zuzurechnen, weil sie an der Gesellschaft beteiligt ist. Eine für die Begründung der vGA ursächliche Zustimmung des Mehrheitsgesellschafters kann nicht angenommen werden, weil die Ehefrau auch über eine erhebliche Beteiligung an der B-GmbH verfügt und der Vertrag nur zwischen ihr und der B-GmbH abgeschlossen worden ist. Dass der Mehrheitsgesellschafter an dem Vertragsabschluss beteiligt gewesen ist und die maßgeblichen Vertragsinhalte zu verantworten hat, muss im Einzelfall festgestellt werden. Dies würde dann eine Zurechnung beim A rechtfertigen." },
+      { text: "Weil B die vGA bereits selbst versteuert, scheidet eine nachfolgende Annahme einer Zuwendung i.S. des § 7 Abs. 1 Nr. 1 ErbStG aus. (Die Bezeichnung „B“ steht so in der Quelle; im Sachverhalt ist die Ehefrau nicht benannt, B ist die Gesellschaft.)" },
+      { text: "Beispiel: An der A-GmbH sind die Eheleute A (90 %) und B (10 %) beteiligt. B ist die Geschäftsführerin. Am 15.01.2025 ändert die Gesellschafterversammlung formwirksam den Anstellungsvertrag der B und vereinbart darin ein um 50.000 € überhöhtes Gehalt." },
+      { text: "Lösung: Die A-GmbH erleidet durch die überhöhte Gehaltszahlung eine vGA der Fallgruppe Vermögensminderung. Denn dieser Tatbestand führt auf Ebene ihres Anteilseigners zu einem korrespondieren Vorteil, der nur durch das Gesellschaftsverhältnis veranlasst ist. (Die Form „korrespondieren“ steht so in der Quelle.)" },
+      { text: "Die daraus resultierende vGA führt beim Anteilseigner zu Bezügen i.S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG. Diese sind vorliegend aber nicht dem unmittelbaren Empfänger (B), sondern ausschließlich dem Mehrheitsgesellschafter A zuzurechnen. Denn nur durch dessen Zustimmung in der Gesellschafterversammlung ist es zur Vertragsänderung und damit zur Entstehung der vGA gekommen. Damit ist die Mehrheitsbeteiligung des A ursächlich für die vGA, die A zugunsten einer ihr nahestehenden Person begründet hat. (Die Form „einer ihr nahestehenden Person“ steht so in der Quelle; bezogen auf A wäre „ihm“ zu erwarten.)" },
+      { text: "Weil es letztlich zu einem unmittelbaren Vermögensfluss an B gekommen ist, wendet A diesen Bezug nachfolgend der B zu. Darin liegt eine freigebige Zuwendung i.S. des § 7 Abs. 1 Nr. 1 ErbStG begründet." },
+      { typ: "tabelle", spalten: ["Konstellation", "Zurechnung der vGA", "Grund", "Schenkungsteuer"], zeilen: [
+        ["nahe stehende Person nicht beteiligt (1.9.2.1)", "beim Anteilseigner", "§ 20 Abs. 5 EStG – nur er kann Kapitaleinkünfte erzielen", "ja – freigebige Zuwendung an den Empfänger"],
+        ["nahe stehende Person selbst beteiligt, mindestens 10 %", "bei ihr selbst", "Beweis des ersten Anscheins für eigene Veranlassung", "nein – sie versteuert selbst"],
+        ["Mehrheitsgesellschafter hat nur stillschweigend zugestimmt", "bei der begünstigten Person", "bloße Zustimmung genügt nicht für eine Zurechnung", "nein"],
+        ["Zuwendungswille des Mehrheitsgesellschafters feststellbar und ursächlich", "beim Mehrheitsgesellschafter", "seine Mehrheitsbeteiligung hat die vGA erst ermöglicht", "ja – zwischen den Gesellschaftern"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die vierte Zeile ist die Ausnahme, auf die es ankommt, und die beiden Beispiele der Quelle sind gerade so gebaut, dass sie den Unterschied vorführen. Im ersten Fall schließt die Ehefrau den **Pachtvertrag selbst** mit der Gesellschaft – der Mehrheitsgesellschafter musste nicht mitwirken, also bleibt es bei der Zurechnung bei ihr. Im zweiten Fall ändert die **Gesellschafterversammlung** den Anstellungsvertrag, und dafür braucht es die Stimmen des Mehrheitsgesellschafters – ohne seine Zustimmung wäre die vGA gar nicht entstanden. Das Unterscheidungsmerkmal ist damit weniger die Beteiligungshöhe als die Frage, **ob ein Gesellschafterbeschluss nötig war**. Die Quelle kennzeichnet ihre Auffassung dazu ausdrücklich als eigene Meinung („m.E.“)." },
+      { text: "Anmerkung zur Zehn-Prozent-Grenze (eigene Ergänzung): Sie ist ein **Anscheinsbeweis** und damit widerleglich, keine starre Grenze. Wer mindestens 10 % hält, gilt zunächst als aus eigenem Recht begünstigt; wer darunter liegt, nicht ohne Weiteres. Die Quelle stellt im ersten Beispiel ausdrücklich auf die „erhebliche Beteiligung“ der Ehefrau von 20 % ab. Im zweiten Beispiel hält B genau 10 % – und trotzdem wird die vGA dem Mehrheitsgesellschafter zugerechnet, weil der Anscheinsbeweis durch die festgestellte Ursächlichkeit des Gesellschafterbeschlusses widerlegt ist. Die beiden Kriterien stehen also nicht nebeneinander, sondern in einem Rangverhältnis." },
+      { text: "Anmerkung zur Schenkungsteuer (eigene Ergänzung): Der Satz, eine freigebige Zuwendung scheide aus, weil der Minderheitsgesellschafter die vGA selbst versteuert, ist die praktisch wichtigste Folge des Abschnitts. Er verhindert eine Doppelbelastung: Wo der Empfänger die Bezüge bereits als eigene Kapitaleinkünfte versteuert, ist ihm nichts geschenkt worden – der Vorteil stammt aus seiner eigenen Gesellschafterstellung. Umgekehrt fällt Schenkungsteuer immer dort an, wo die vGA einem **anderen** zugerechnet wird als demjenigen, der sie tatsächlich erhält: bei der nicht beteiligten nahe stehenden Person ebenso wie im zweiten Beispiel zwischen den Eheleuten." },
+    ],
+  },
+  {
+    id: "kst-t4-14",
+    kapitel: "14",
+    abschnittNr: "1.9.2.3",
+    title: "1.9.2.3 Durchgeleitete vGA – die Kette über die Zwischengesellschaft",
+    thema: "Fließt der Vorteil aus der Enkelgesellschaft unmittelbar an den obersten Gesellschafter, entsteht bei jeder Zwischengesellschaft eine weitere vGA. Übrig bleibt dort nur die Fünf-Prozent-Pauschale",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 1.9.2.3 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8 Abs. 2 KStG",
+      "§ 8b Abs. 1 KStG",
+      "§ 8b Abs. 5 KStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 20 Abs. 5 EStG",
+      "§ 21 EStG",
+    ],
+    themen: ["Durchgeleitete vGA", "Zwischengesellschaft", "Beteiligungskette", "Fiktionstheorie", "Fünf-Prozent-Pauschale"],
+    bloecke: [
+      { text: "In den Fällen, in denen an der benachteiligten Kapitalgesellschaft wiederum eine Kapitalgesellschaft (Zwischengesellschaft) beteiligt ist und die vGA unmittelbar dem Anteilseigner der Zwischengesellschaft zufließt, liegt auf Ebene der Zwischengesellschaft eine sog. durchgeleitete vGA vor. Denn in diesem Fall ist der Anteilseigner der Zwischengesellschaft aus Sicht der benachteiligten Gesellschaft eine nahe stehende Person ihres Anteilseigners. Daraus resultiert der Zwischengesellschaft neben einem Beteiligungsertrag aus der ihr als Anteilseigner zuzurechnenden vGA, ein Aufwand, welcher sich aus dem Verbrauch der vGA ergibt. Dieser Aufwand ist bei der Zwischengesellschaft wieder nach § 8 Abs. 3 Satz 2 KStG hinzuzurechnen, weil die Weiterleitung nur gesellschaftsrechtlich veranlasst ist. Die weitergeleitete vGA stellt diesbezüglich eine weitere vGA dar. Diese vGA wird durch sämtliche Beteiligungsstufen bis zum Anteilseigner durchgeleitet, welcher den Vermögensvorteil tatsächlich erhalten hat." },
+      { text: "Beispiel: A ist Alleingesellschafter der B-GmbH, welche wiederum zu 100 % an der C-GmbH beteiligt ist. Die C-GmbH gibt dem A ein Darlehen über 100.000 €, ohne dafür eine Verzinsung zu verlangen. Der angemessene Zins hätte bei 10 % gelegen. A verwendet das Darlehen zur Anschaffung eines fremdvermieteten Grundstücks." },
+      { text: "Lösung: Aus Sicht der C-GmbH ist bei dieser eine verhinderte Vermögensmehrung eingetreten, weil diese aus gesellschaftsrechtlichen Gründen auf eine angemessene Verzinsung des Darlehens verzichtet hat. Die gesellschaftsrechtliche Veranlassung ergibt sich daraus, weil A als Empfänger des Vermögensvorteils eine nahe stehende Person ihres unmittelbaren Anteilseigners (B-GmbH) ist. Somit muss bei der C-GmbH nach § 8 Abs. 3 Satz 2 KStG eine Einkommenserhöhung i.H. von 10.000 € vorgenommen werden." },
+      { text: "§ 8 Abs. 3 Satz 2 KStG: + 10.000 €" },
+      { text: "Die vGA ist der B-GmbH als unmittelbarer Anteilseigner der C-GmbH zugerechnet werden (§ 8 Abs. 2 KStG i.V. mit § 20 Abs. 5 EStG). Dadurch entsteht dieser ein Beteiligungsertrag, welcher nach § 8b Abs. 1 KStG steuerfrei ist, aber nach § 8b Abs. 5 KStG zur Anwendung der Betriebsausgabenpauschalierung führt. Diese vGA verbraucht sich bei der B-GmbH in der Weise, dass diese den Vermögensvorteil an ihren Anteilseigner weiterleitet, was buchhalterisch zu folgender Behandlung führt: Aufwand an Beteiligungsertrag 10.000 €. (Die Formulierung „ist … zugerechnet werden“ steht so in der Quelle.)" },
+      { text: "Dieser Aufwand ist wiederum gesellschaftsrechtlich veranlasst und ist nach § 8 Abs. 3 Satz 2 KStG als weitergeleitete vGA dem Einkommen hinzuzurechnen. Dieser ist eine reflexartige Folgewirkung der vGA, die den Anteilseignern vorliegend der Beteiligungskette folgend zuzurechnen ist. Bei der Einkommensermittlung der B-GmbH ergibt sich somit folgende Auswirkung:" },
+      { typ: "tabelle", spalten: ["Einkommensermittlung bei der B-GmbH", "Betrag"], zeilen: [
+        ["§ 8b Abs. 1 KStG", "./. 10.000 €"],
+        ["§ 8b Abs. 5 KStG", "+ 500 €"],
+        ["§ 8 Abs. 3 Satz 2 KStG", "+ 10.000 €"],
+        ["= Einkommen", "500 €"],
+      ] },
+      { text: "Bei A kommt die vGA als Beteiligungsertrag i.S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG an (§ 20 Abs. 5 EStG). Für die Behandlung des Beteiligungsertrags ist die Vermögenszugehörigkeit der Beteiligung maßgebend. Gleichzeitig verbraucht sich die vGA bei A nach der Fiktionstheorie in Werbungskosten im Zusammenhang mit den Einkünften i.S. des § 21 EStG." },
+      { typ: "tabelle", spalten: ["Ebene", "Vorgang", "Einkommenswirkung"], zeilen: [
+        ["C-GmbH (benachteiligt)", "verhinderte Vermögensmehrung aus dem zinslosen Darlehen", "+ 10.000 €"],
+        ["B-GmbH (Zwischengesellschaft)", "Beteiligungsertrag 10.000 € und Aufwand 10.000 € aus der Weiterleitung", "+ 500 € – nur die Pauschale bleibt übrig"],
+        ["A (oberster Anteilseigner)", "Beteiligungsertrag nach § 20 Abs. 1 Nr. 1 Satz 2 EStG", "10.000 €, zugleich Werbungskosten bei § 21 EStG"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Der angemessene Zins beträgt 10 % von 100.000 € = 10.000 €. Bei der B-GmbH heben sich Ertrag und Aufwand bilanziell auf, das Ergebnis der Stufe 1 ist also 0 € – diese Zwischengröße nennt die Quelle nicht. Außerbilanziell bleiben ./. 10.000 € + 500 € + 10.000 € = 500 €, also genau die Fünf-Prozent-Pauschale von 10.000 €." },
+      { text: "Anmerkung zum Ergebnis bei der Zwischengesellschaft (eigene Ergänzung): Von dem gesamten Vorgang bleibt bei der B-GmbH ein Einkommen von **500 €** – und das ist genau die Pauschale des § 8b Abs. 5 KStG. Wirtschaftlich hat sie nichts erhalten und nichts aufgewendet; sie wird lediglich mit fünf Prozent eines Betrags belastet, der bei ihr nur durchgelaufen ist. Bei mehreren Zwischenstufen wiederholt sich das auf jeder Ebene: Die Quelle stellt ausdrücklich fest, dass die vGA „durch sämtliche Beteiligungsstufen“ durchgeleitet wird. Eine dreistufige Kette würde also dreimal 500 € kosten. Das ist die Kehrseite der Freistellung nach § 8b Abs. 1 KStG und ein starkes Argument gegen unnötig lange Beteiligungsketten." },
+      { text: "Anmerkung zur Fiktionstheorie bei A (eigene Ergänzung): Der Schlusssatz verdient Aufmerksamkeit, weil er den Fall für A wirtschaftlich entschärft. Er versteuert zwar 10.000 € als Beteiligungsertrag, hat aber zugleich **Werbungskosten** in derselben Höhe bei seinen Einkünften aus Vermietung und Verpachtung – fingiert wird, dass ihm der Zinsvorteil ausgeschüttet und von ihm für das vermietete Grundstück aufgewendet worden ist. Entscheidend ist dafür die Verwendung des Darlehens: Hätte A damit ein selbstgenutztes Einfamilienhaus finanziert, gäbe es keine Werbungskosten und die vGA bliebe voll belastend. Die Quelle weist mit dem Hinweis auf die „Vermögenszugehörigkeit der Beteiligung“ zugleich darauf hin, dass sich die Behandlung des Ertrags selbst danach richtet, ob die Anteile im Privat- oder Betriebsvermögen liegen." },
     ],
   },
 ];

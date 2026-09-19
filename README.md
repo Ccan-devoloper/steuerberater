@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 11 Kapitel mit 155
-  Abschnitten und 15 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 14 Kapitel mit 199
+  Abschnitten und 19 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -2993,6 +2993,31 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   hat – entscheidend ist, dass sie ihn hat „gewähren lassen“. Beim nichtbeherrschenden
   Gesellschafter, der nicht Geschäftsführer ist, bedarf es dagegen einer, notfalls stillschweigenden,
   Billigung.
+  Bei **nahe stehenden Personen** ist für die Korrektur auf Ebene der Gesellschaft gleichgültig, wem
+  der Vorteil zufließt – die **Bezüge** dagegen kann nach § 20 Abs. 5 EStG nur der Anteilseigner
+  erzielen. Steuerlich wird der Vorgang deshalb in zwei Schritte zerlegt: erst eine Ausschüttung an
+  den Gesellschafter, dann eine Schenkung von ihm an den Empfänger. Das führt zu einem Ergebnis, das
+  auf den ersten Blick ungerecht wirkt und in der Klausur oft falsch gelöst wird – der Anteilseigner
+  versteuert einen Bezug, obwohl ihm **nichts zugeflossen** ist, und darf die Weitergabe nicht
+  abziehen; beim Empfänger mindern sich dafür die eigenen Einnahmen, und zwischen beiden ist § 7
+  Abs. 1 Nr. 1 ErbStG zu prüfen. Sind mehrere Gesellschafter dem Empfänger nahe stehend, will die
+  Quelle anteilig zurechnen („m.E.“) – es sei denn, das Handeln lässt sich konkret einem von ihnen
+  zuordnen. Anders liegt es, wenn die nahe stehende Person **selbst beteiligt** ist: Ab einer
+  erheblichen Beteiligung von mindestens 10 % spricht der **Beweis des ersten Anscheins** für eigene
+  Veranlassung, sie versteuert die vGA selbst, und eine Schenkung zwischen den Gesellschaftern
+  scheidet aus – eine Doppelbelastung wird so vermieden. Umgekehrt wird die vGA doch dem
+  Mehrheitsgesellschafter zugerechnet, wenn sein Zuwendungswille feststellbar und seine Beteiligung
+  für die vGA ursächlich war. Die beiden Beispiele der Quelle führen den Unterschied vor: Schließt die
+  Ehefrau den Pachtvertrag selbst mit der Gesellschaft, bleibt es bei ihr; ändert dagegen die
+  **Gesellschafterversammlung** den Anstellungsvertrag, wäre die vGA ohne die Stimmen des
+  Mehrheitsgesellschafters nie entstanden. Das Unterscheidungsmerkmal ist damit weniger die
+  Beteiligungshöhe als die Frage, ob ein Gesellschafterbeschluss nötig war. Bei der **durchgeleiteten
+  vGA** über eine Zwischengesellschaft entsteht auf jeder Stufe eine weitere vGA, weil die
+  Weiterleitung selbst gesellschaftsrechtlich veranlasst ist; Ertrag und Aufwand heben sich dort
+  bilanziell auf, und übrig bleibt genau die **Fünf-Prozent-Pauschale** des § 8b Abs. 5 KStG – eine
+  dreistufige Kette kostet also dreimal 500 €, obwohl der Zwischengesellschaft wirtschaftlich nichts
+  zugeflossen ist. Beim obersten Gesellschafter verbraucht sich die vGA nach der **Fiktionstheorie**
+  in Werbungskosten, soweit er das Darlehen für eine Einkunftsquelle verwendet hat.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

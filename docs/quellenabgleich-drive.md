@@ -10620,6 +10620,75 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitt 1.9 – nahe stehende Personen und durchgeleitete vGA
+
+Quelle: dieselbe Datei, Seiten 17 bis 21; übernommen als Kapitel 12 bis 14. Prüfung:
+`npm run check:k2-kst-teil4` (14 Kapitel, 199 Blöcke, 19 Tabellen).
+
+**Die Konstruktion der mittelbaren vGA** wirkt auf den ersten Blick ungerecht und wird in der
+Klausur häufig falsch gelöst; der Datensatz erklärt sie deshalb: Der Anteilseigner versteuert einen
+Bezug, obwohl ihm **nichts zugeflossen** ist, und darf die Weitergabe nicht abziehen. Der Grund
+liegt in § 20 Abs. 5 EStG – Kapitaleinkünfte kann nur erzielen, wem die Anteile zuzurechnen sind.
+Steuerlich wird der Vorgang daher in zwei Schritte zerlegt: erst eine Ausschüttung an den
+Gesellschafter, dann eine Schenkung von ihm an die nahe stehende Person. Genau deshalb ist am Ende
+§ 7 Abs. 1 Nr. 1 ErbStG zu prüfen, und genau deshalb mindern sich beim Empfänger die eigenen
+Einnahmen.
+
+**Die anteilige Zurechnung bei mehreren nahe stehenden Gesellschaftern** ist ausdrücklich als eigene
+Meinung der Quelle gekennzeichnet („m.E.“) und führt im zweiten Beispiel zu einem bemerkenswerten
+Ergebnis: Auch A versteuert die Hälfte, obwohl die Mutter des **C** begünstigt wird. Die Quelle
+nennt aber selbst die Gegenausnahme – lässt sich das Handeln konkret einem Gesellschafter zurechnen,
+entfällt die Aufteilung.
+
+**Das eigentliche Unterscheidungsmerkmal im Abschnitt 1.9.2.2** arbeitet der Datensatz heraus, weil
+die Quelle es nicht ausspricht: Die beiden Beispiele sind so gebaut, dass sie den Unterschied
+vorführen. Im ersten schließt die Ehefrau den **Pachtvertrag selbst** mit der Gesellschaft – der
+Mehrheitsgesellschafter musste nicht mitwirken. Im zweiten ändert die **Gesellschafterversammlung**
+den Anstellungsvertrag, und ohne die Stimmen des Mehrheitsgesellschafters wäre die vGA nie
+entstanden. Entscheidend ist damit weniger die Beteiligungshöhe als die Frage, **ob ein
+Gesellschafterbeschluss nötig war**.
+
+**Die Zehn-Prozent-Grenze** ist als **widerleglicher Anscheinsbeweis** eingeordnet und nicht als
+starre Grenze: Im zweiten Beispiel hält B genau 10 % – und trotzdem wird die vGA dem
+Mehrheitsgesellschafter zugerechnet, weil der Anscheinsbeweis durch die festgestellte Ursächlichkeit
+des Beschlusses widerlegt ist. Die beiden Kriterien stehen also in einem Rangverhältnis.
+
+**Die schenkungsteuerliche Folge** ist als Vermeidung einer Doppelbelastung erklärt: Wo der Empfänger
+die Bezüge bereits als eigene Kapitaleinkünfte versteuert, ist ihm nichts geschenkt worden. Umgekehrt
+fällt Schenkungsteuer immer dort an, wo die vGA einem **anderen** zugerechnet wird als demjenigen,
+der sie tatsächlich erhält.
+
+**Die durchgeleitete vGA** (1.9.2.3) ist vollständig nachgerechnet: Angemessener Zins 10 % von
+100.000 € = 10.000 €. Bei der Zwischengesellschaft heben sich Ertrag und Aufwand bilanziell auf, das
+Ergebnis der Stufe 1 ist also 0 € – diese Zwischengröße nennt die Quelle nicht und sie ist als eigene
+Herleitung gekennzeichnet. Außerbilanziell bleiben ./. 10.000 € + 500 € + 10.000 € = 500 €, also
+genau die Fünf-Prozent-Pauschale. Der Datensatz zieht daraus die Folgerung, die die Quelle nur
+andeutet: Weil die vGA „durch sämtliche Beteiligungsstufen“ durchgeleitet wird, kostet eine
+dreistufige Kette dreimal 500 € – ein starkes Argument gegen unnötig lange Beteiligungsketten.
+
+**Die Fiktionstheorie beim obersten Gesellschafter** ist eigens erläutert, weil sie den Fall
+wirtschaftlich entschärft: A versteuert 10.000 € als Beteiligungsertrag, hat aber Werbungskosten in
+derselben Höhe bei § 21 EStG. Entscheidend ist die Verwendung des Darlehens – bei einem
+selbstgenutzten Haus gäbe es keine Werbungskosten.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „liegt gleichzeitig eine Zuwendung **des A und die Ehefrau**“ – gemeint ist „des A an die Ehefrau“.
+- „ist beiden Gesellschaftern **A und B** jeweils in Höhe von 1.500 € zuzurechnen“ – beteiligt sind
+  nach dem Sachverhalt A und C.
+- „Weil **B** die vGA bereits selbst versteuert“ – im Sachverhalt ist die Ehefrau nicht benannt,
+  B ist die Gesellschaft.
+- „zu einem **korrespondieren** Vorteil“.
+- „die A zugunsten einer **ihr** nahestehenden Person begründet hat“ – bezogen auf A wäre „ihm“ zu
+  erwarten.
+- „Die vGA **ist** der B-GmbH … **zugerechnet werden**“.
+- Der Verweis „(sog. Dreiecksfälle, siehe **unter 4.4**)“ – die Dreiecksfälle sind Gegenstand des
+  Kapitels 5.
+
+**Noch offen:** aus Teil IV der Vorteilsausgleich (1.10), die Beweislast (1.11), die Rückgewähr
+(1.12) und die Schenkungsteuer (1.13) sowie die Kapitel 2 bis 6; ganz offen sind die Skriptteile V
+bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 1.6 bis 1.8 – Vorteilsgeneigtheit und unbewusste Handlungen
 
 Quelle: dieselbe Datei, Seiten 16 und 17; übernommen als Kapitel 10 und 11. Prüfung:
