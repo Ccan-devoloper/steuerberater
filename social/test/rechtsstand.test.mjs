@@ -93,6 +93,24 @@ test("Elektro-Pkw-Merksatz verallgemeinert nicht mehr auf Halbierung", () => {
 });
 
 
+
+test("Rückstellungsabzinsung unterscheidet 10 und 7 Geschäftsjahre", () => {
+  const formel = byId("bilanz-formel-abzinsung");
+  assert.match(kern(formel), /Altersversorgungsverpflichtungen.*zehn Geschäftsjahren/);
+  assert.match(kern(formel), /sonstigen Rückstellungen.*sieben Geschäftsjahren/);
+
+  const karte = byTitle(/Wie unterscheidet sich die Rückstellungsbewertung in HB und StB/i);
+  assert.match(kern(karte), /Altersversorgungsverpflichtungen.*zehn/);
+  assert.match(kern(karte), /sonstige Rückstellungen.*sieben/);
+});
+
+test("Latente Steuern berücksichtigen auch steuerliche Verlustvorträge", () => {
+  const t = byId("bilanz-formel-latente-steuern");
+  assert.match(kern(t), /steuerliche Verlustvorträge/);
+  assert.match(kern(t), /nächsten fünf Jahre/);
+  assert.match(kern(t), /§ 274a HGB/);
+});
+
 test("Realteilung erfasst auch die unechte Realteilung", () => {
   const karte = byTitle(/Realteilung oder Sachwertabfindung/i);
   assert.match(kern(karte), /unechte Realteilung/i);
@@ -108,6 +126,8 @@ test("PWB enthält keine pauschale 1-Prozent-Verwaltungsregel", () => {
   const t = byId("bilanz-formel-pwb");
   assert.match(kern(t), /betrieblicher Erfahrungswerte/);
   assert.match(kern(t), /keine allgemeine.*1-%-Pauschale/i);
+  assert.match(kern(t), /risikobehafteter Nettobestand/);
+  assert.doesNotMatch(kern(t), /Gesamtbestand brutto.*÷ 1,19/);
   assert.doesNotMatch(kern(t), /Verwaltung regelmäßig nur 1 %/i);
 });
 
