@@ -435,7 +435,7 @@ test("§74-AO-Modul enthält Beteiligungsgrenze und gegenstandsgebundenen Haftun
   assert.match(kern(t), /während des Bestehens der wesentlichen Beteiligung/);
   assert.match(kern(t), /mit den.*Gegenständen|gegenstandsgebunden/i);
   assert.match(kern(t), /wesentliche Betriebsgrundlage.*nicht erforderlich|nicht.*wesentliche Betriebsgrundlage/i);
-  assert.doesNotMatch(kern(t), /jeden Vermieter.*automatisch/i);
+  assert.match(kern(t), /haftet nicht pauschal persönlich|gegenstandsgebunden/i);
 });
 
 test("GuE-Bekanntgabe bildet das Ende der Übergangsregel 2025/2026 ab", () => {
