@@ -232,14 +232,14 @@
       "stand": "2026-09-18T10:44:18.191Z"
     },
     "2026-09-19": {
-      "usd": 0.1528,
+      "usd": 0.1596,
       "antworten": 0,
-      "aufrufe": 4,
+      "aufrufe": 5,
       "zwecke": {
         "reel": 0.0605,
         "bildregie": 0.0137,
         "autor": 0.061,
-        "faktencheck": 0.0177
+        "faktencheck": 0.0244
       },
       "messungen": {
         "reel": 0.0605,
@@ -247,7 +247,7 @@
         "autor": 0.061,
         "faktencheck": 0.0177
       },
-      "stand": "2026-09-19T08:44:19.134Z"
+      "stand": "2026-09-19T08:44:27.605Z"
     }
   }
 }
