@@ -10620,6 +10620,49 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.2.1 (Schluss) bis 3.2.4 – Einkommensermittlung bei der Organgesellschaft
+
+Quelle: dieselbe Datei, Seiten 35 bis 37; übernommen als Kapitel 19 und 20. Prüfung:
+`npm run check:k2-kst-teil6` (20 Kapitel, 403 Blöcke, 24 Tabellen).
+
+**Alle drei Beispiele sind unabhängig nachgerechnet und gehen auf:** 500.000 € + 500.000 € =
+1.000.000 € Ausgangsgröße, zuzüglich 10.000 € ergibt 1.010.000 € Organeinkommen, Minderabführung
+1.000.000 € ./. 500.000 € = 500.000 €; bei der verdeckten Einlage heben sich Ertrag und Abzug von je
+500.000 € auf, so dass 100.000 € verbleiben; bei der vorweggenommenen Gewinnabführung ergeben
+500.000 € ./. 10.000 € = 490.000 €, zuzüglich 100.000 € also 590.000 €.
+
+**Ein Datumsfehler der Quelle ist übernommen und markiert:** Das Einlagekonto soll „zum
+31.12.2024“ erhöht werden, obwohl die Einlage im Jahr 2025 erfolgt.
+
+**Zwei fehlerhafte Querverweise sind übernommen und markiert:** Beide Abschnitte verweisen für die
+Auswirkungen beim Organträger auf „3.3.3.4“; einen solchen Abschnitt enthält das Inhaltsverzeichnis
+nicht – gemeint sind ersichtlich 3.3.4.5 (verdeckte Einlage) und 3.3.4.4 (vorweggenommene
+Gewinnabführung).
+
+**Zwei sprachliche Eigenheiten sind ebenfalls markiert:** der Satzbruch „… vorweggenommene
+Gewinnabführungen und Das Einkommen der Organgesellschaft ist …“ und der Tippfehler „Festellung“.
+
+**Als eigene Ergänzungen eingeordnet** sind: das Zusammenspiel der drei Regeln beim
+vororganschaftlichen Verlustvortrag samt der Folgerung, dass der Verlust nicht vernichtet, sondern in
+eine Einlage umgewandelt wird; die Bedeutung der Einordnung als vororganschaftliche Minderabführung
+nach § 14 Abs. 3 KStG; die Gliederung des Schemas in drei Blöcke und der Hinweis auf die einzige
+Ausnahme vom Nullergebnis; die Erklärung, warum die vorweggenommene Gewinnabführung an derselben
+Stelle steht wie sonst die vGA; die Begründung, warum eine echte vGA bei der Organgesellschaft kaum
+denkbar ist und die Durchführung deshalb unberührt bleibt; die Auflösung der Buchungslogik des
+Einlagebeispiels samt der Funktion der materiellen Korrespondenz; die Einordnung des getrennten
+Spendenabzugs als Durchbrechung des Organschaftsgedankens samt der Folge für den Spendenvortrag; und
+die Erläuterung des ausgeklammerten Sonderbereichs der Eigengesellschaften mit Dauerverlustgeschäft
+und Spartenrechnung.
+
+**Neu sind drei Übersichten:** eine zum Rechenweg des Beispiels mit vororganschaftlichem
+Verlustvortrag, das vollständige Einkommensermittlungsschema der Organgesellschaft und eine
+Gegenüberstellung von verdeckter Einlage und vorweggenommener Gewinnabführung mit Korrektur und
+Bewertung.
+
+**Noch offen:** aus Teil VI die weiteren Abschnitte des Kapitels 3 (Nichtgeltung von Vorschriften,
+Ausgleichszahlungen, Auswirkungen beim Organträger, Mehr- und Minderabführungen, verunglückte
+Organschaft) und das Kapitel 4; ganz offen ist der Skriptteil VII (Liquidation).
+
 ### KSt Teil VI (Hamacher), Abschnitte 2.5.9.1 (Schluss) bis 3.2.1 – Kapitel 2 ist vollständig
 
 Quelle: dieselbe Datei, Seiten 31 bis 34; übernommen als Kapitel 17 und 18. Prüfung:

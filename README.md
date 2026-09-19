@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 18 Kapitel mit 369 Abschnitten und 21 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 20 Kapitel mit 403 Abschnitten und 24 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4844,6 +4844,44 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **500.000 €** – der handelsrechtliche Gewinn –, zugerechnet werden **510.000 €** – das steuerliche
   Einkommen; die Differenz sind die nicht abziehbaren Betriebsausgaben. Genau solche Abweichungen
   führen in anderer Gestalt zu den später behandelten Mehr- und Minderabführungen.
+  Beim **vororganschaftlichen Verlustvortrag** greifen drei zuvor einzeln behandelte Regeln ineinander.
+  **Handelsrechtlich** zwingt § 301 AktG die Organgesellschaft, ihn **selbst** auszugleichen, so dass
+  im Beispiel nur 500.000 € abgeführt werden dürfen – eine höhere Abführung wäre ein
+  Durchführungsmangel. **Steuerlich** bleibt der Verlust ungenutzt, weil § 15 Satz 1 Nr. 1 KStG den
+  Verlustabzug bei der Organgesellschaft ausschließt; zugerechnet werden die vollen 1.010.000 €. Und
+  **bilanziell** entsteht aus der Differenz zwischen abgeführten 500.000 € und steuerbilanziellem
+  Gewinn von 1.000.000 € eine **Minderabführung** von 500.000 €, die nach § 14 Abs. 3 KStG als
+  **vororganschaftlich** gilt, weil sie auf einem Verlust aus vororganschaftlicher Zeit beruht. Ihre
+  Rechtsfolge ist eine **Einlage**: Beim Organträger erhöhen sich die **Anschaffungskosten** der
+  Beteiligung, bei der Organgesellschaft der Bestand des **steuerlichen Einlagekontos**. Der Verlust
+  wird damit nicht vernichtet, sondern umgewandelt – er schlägt sich erst bei einer späteren
+  Veräußerung oder Rückgewähr nieder.
+  Das **Einkommensermittlungsschema** besteht aus drei Blöcken, deren Reihenfolge nicht beliebig ist:
+  Zuerst wird die gebuchte Abführung **eliminiert**, dann folgt die gewöhnliche Einkommensermittlung
+  einer Kapitalgesellschaft mit Gewinnkorrekturen, vorweggenommener Gewinnabführung, verdeckter
+  Einlage, nicht abziehbaren Betriebsausgaben und dem zweigeteilten Spendenabzug, und schließlich wird
+  das **Organeinkommen** abgezogen. Das eigene Einkommen der Organgesellschaft beträgt danach
+  **regelmäßig null**; die einzige Ausnahme nennt das Schema selbst – **Ausgleichszahlungen** nach
+  § 16 KStG.
+  Eine echte **verdeckte Gewinnausschüttung** ist bei der Organgesellschaft begrifflich kaum denkbar,
+  weil sie ihren ganzen Gewinn ohnehin abführt; der Vorteil wird dem Organträger nicht **entzogen**,
+  sondern nur **vorweg** und auf anderem Weg gewährt. Genau das erklärt, warum die **tatsächliche
+  Durchführung unberührt** bleibt – der Organträger erhält im Ergebnis die zutreffende Abführung
+  einschließlich des Vorteils. Die Korrektur erfolgt gleichwohl nach denselben Regeln, nur **analog**
+  § 8 Abs. 3 Satz 2 KStG und unter der Bezeichnung **vorweggenommene Gewinnabführung**: im Beispiel
+  500.000 € gemeiner Wert abzüglich 10.000 € Gegenleistung, also 490.000 €, die das Organeinkommen auf
+  590.000 € erhöhen. Spiegelbildlich wird eine **verdeckte Einlage** nach § 8 Abs. 3 Satz 3 KStG
+  abgezogen und erhöht das Einlagekonto; im Beispiel heben sich der Ertrag aus der Einbuchung des
+  Grundstücks und der Abzug in Höhe von je 500.000 € auf, so dass es beim Organeinkommen von
+  100.000 € bleibt. Die **materielle Korrespondenz** des § 8 Abs. 3 Satz 4 KStG verhindert dabei, dass
+  der Abzug greift, soweit der Vorteil beim Organträger gewinnmindernd berücksichtigt wurde.
+  Der **Spendenabzug** durchbricht schließlich den Grundgedanken der Organschaft, was im Schema
+  sichtbar wird: Hinzurechnung und Abzug stehen **vor** der Zurechnung des Organeinkommens. Obwohl die
+  Einkommen zusammengerechnet werden, bleibt der Spendenabzug **getrennt**, und der Höchstbetrag
+  bemisst sich allein nach den Verhältnissen der **Organgesellschaft**. Das wirkt in beide Richtungen:
+  Eine ertragsstarke Organgesellschaft schafft eigenes Abzugsvolumen, eine ertragsschwache kann ihre
+  Spenden nur in einen **Spendenvortrag** nach § 9 Abs. 1 Nr. 2 Satz 9 KStG einstellen – der ihr
+  allerdings erhalten bleibt, weil § 15 Satz 1 Nr. 1 KStG nur § 10d EStG ausschließt.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
