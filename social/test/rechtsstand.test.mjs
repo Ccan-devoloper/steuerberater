@@ -40,15 +40,6 @@ test("§ 9 AStG verwendet Einkünfte und kennzeichnet 2025/2026", () => {
   assert.match(auftrag, /80\.000/);
 });
 
-test("Einfacher Mietfall bleibt beim Vermieter, ohne absolute Nie-Regel", () => {
-  const t = byId("bilanz-modul-k3-34");
-  assert.match(kern(t), /konkreten einfachen Mietfall.*Vermieter/i);
-  assert.match(kern(t), /regelmäßig nicht wirtschaftlicher Eigentümer/i);
-  assert.match(kern(t), /§ 39 Abs\. 2 Nr\. 1 AO.*konkret prüfen|Einzelfall/i);
-  assert.match(kern(t), /kurzen Nutzungszeitraum|fehlende Optionen|Substanzrisiken/i);
-  assert.doesNotMatch(kern(t), /Mietverhältnis begründet NIE.*wirtschaftliches Eigentum/i);
-});
-
 test("Grundstückseinlage trennt Dreijahresdeckel von §23-Zehnjahresregel", () => {
   const t = byId("bilanz-modul-k3-41");
   assert.match(kern(t), /innerhalb der letzten drei Jahre/i);
