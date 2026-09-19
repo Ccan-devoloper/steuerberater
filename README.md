@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 4 Kapitel mit 50
-  Abschnitten und 5 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 7 Kapitel mit 94
+  Abschnitten und 11 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -2930,6 +2930,29 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   EStG) tatsächlich beeinflusst hat: Die Vorschrift stellt nicht den angemessenen Zustand her,
   sondern beseitigt nur eine eingetretene Gewinnminderung – was zugleich die Kontrollrechnung
   liefert, mit der sich jede Lösung prüfen lässt.
+  Die **Sonderfälle** zeigen, wo dieser Grundsatz an seine Grenze stößt. Erwirbt die Gesellschaft ein
+  **aktivierungspflichtiges Wirtschaftsgut** zu teuer, steckt der überhöhte Preis zunächst nur im
+  Bilanzansatz und wirkt sich gar nicht auf den Gewinn aus. Hier ist deshalb ausnahmsweise **zuerst
+  die Bilanz** auf den angemessenen Wert zu korrigieren – nicht wegen der vGA, sondern weil der
+  Bilanzansatz selbst unzutreffend ist –, und erst der dadurch entstehende Aufwand trägt die
+  außerbilanzielle Hinzurechnung. Die laufende Abschreibung aus dem zu hohen Buchwert ist dabei
+  ausdrücklich **keine** anteilige vGA, sondern bloße „Reflexwirkung“. Im Warenbeispiel beträgt die
+  Hinzurechnung in allen drei Unterfällen dieselben 50.000 €, obwohl sich Bilanzansatz und
+  Wareneinsatz völlig unterschiedlich entwickeln: Die vGA bemisst sich nach dem überhöhten Kaufpreis,
+  nicht nach dem Verbrauchsstand. Ist die Veranlagung des Anschaffungsjahres bereits
+  **bestandskräftig**, vernichtet das endgültig Steuersubstrat, und zwar auf beiden Ebenen
+  gleichzeitig: Bei der Gesellschaft bleibt die überhöhte Abschreibung der Vorjahre unwiderruflich
+  stehen, und beim Gesellschafter versagt die **materielle Korrespondenz** des § 3 Nr. 40 Buchstabe d
+  Satz 2 EStG die Begünstigung genau insoweit – im Beispiel bleiben von 200.000 € vGA nur 80.000 €
+  begünstigt, die übrigen 120.000 € sind voll steuerpflichtig. Erst die **formelle Korrespondenz** des
+  § 32a Abs. 1 KStG eröffnet ihm überhaupt die Korrektur seiner längst bestandskräftigen Veranlagung;
+  beide Ausprägungen wirken hier also gegenläufig im selben Sachverhalt. Beim **Verkauf einer
+  Beteiligung** ist zweistufig zu prüfen: Erst stellt § 8 Abs. 3 Satz 2 KStG den angemessenen
+  Veräußerungsgewinn her, dann greift § 8b Abs. 2 KStG – wer die Reihenfolge umkehrt, hat gar keinen
+  Gewinn, den er freistellen könnte, weil in der Buchführung nur ein Aufwand steht. Ergibt sich trotz
+  Hinzurechnung ein Veräußerungsverlust, rechnet § 8b Abs. 3 Satz 3 KStG auch ihn wieder hinzu, so
+  dass die Gesellschaft im Ergebnis so dasteht, als wäre der Vorgang vollständig erfolgsneutral
+  gewesen.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

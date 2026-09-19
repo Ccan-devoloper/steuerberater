@@ -10620,6 +10620,76 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 1.5.2.1 und 1.5.2.2 – Sonderfälle der Gewinnauswirkung
+
+Quelle: dieselbe Datei, Seiten 9 bis 12; übernommen als Kapitel 5 bis 7. Prüfung:
+`npm run check:k2-kst-teil4` (7 Kapitel, 94 Blöcke, 11 Tabellen).
+
+**Die Ausnahme vom Grundsatz** ist im Datensatz eigens eingeordnet, weil sie dem widerspricht, was
+der Abschnitt 1.1 aufgestellt hat: Dort wirkt § 8 Abs. 3 Satz 2 KStG ausschließlich außerbilanziell,
+hier ist ausnahmsweise **zuerst** die Bilanz zu korrigieren – nicht wegen der vGA, sondern weil der
+Bilanzansatz selbst unzutreffend ist. Erst diese Korrektur erzeugt den Aufwand, an den die
+Hinzurechnung anknüpfen kann. Die Reihenfolge ist damit umgekehrt: sonst erst die Gewinnminderung,
+dann die Hinzurechnung; hier erst die Bilanzkorrektur, die die Gewinnminderung überhaupt herstellt.
+
+**Die „Reflexwirkung“** verhindert ein Ergebnis, das sich sonst aufdrängen würde: Die überhöhte
+laufende Abschreibung ist **nicht** anteilig als vGA hinzuzurechnen. Die vGA ist ein einmaliger
+Vorgang im Zeitpunkt des überhöhten Erwerbs. Praktische Bedeutung gewinnt das erst im folgenden
+Abschnitt, wo die bis zur Korrektur verbrauchte Abschreibung unwiderruflich verloren ist.
+
+**Im Warenbeispiel beträgt die Hinzurechnung in allen drei Unterfällen dieselben 50.000 €**, obwohl
+sich Bilanzansatz und Wareneinsatz völlig unterschiedlich entwickeln – der Datensatz stellt das in
+einer Tabelle nebeneinander und zieht die Probe: Der einkommenswirksame Wareneinsatz entspricht
+immer dem angemessenen Wert der tatsächlich verbrauchten Ware (0 €, 25.000 €, 50.000 €).
+
+**Der Hinweis, die Anpassung erfolge „bilanztechnisch vor Abschreibung“**, ist als ergebnisrelevant
+hervorgehoben: Wer zuerst von 500.000 € abschreibt und dann anpasst, kommt zwar auf denselben
+Buchwert, weist aber eine zu hohe Abschreibung und eine falsch bemessene vGA aus. Bemerkenswert ist,
+dass die Hinzurechnung mit 200.000 € **höher** ausfällt als die Gewinnauswirkung von 160.000 € – die
+Differenz von 40.000 € ist die eingesparte überhöhte Abschreibung.
+
+**Der Fall der bestandskräftigen Vorjahre** (1.5.2.1.2) ist der unangenehmste des Abschnitts, und
+der Datensatz arbeitet heraus, warum: Die Bestandskraft vernichtet endgültig Steuersubstrat, und
+zwar **auf beiden Ebenen gleichzeitig**. Bei der Gesellschaft bleiben 120.000 € überhöhte
+Abschreibung stehen, die nie hinzugerechnet werden; beim Gesellschafter bleiben dieselben 120.000 €
+voll steuerpflichtig, weil § 3 Nr. 40 Buchstabe d Satz 2 EStG die Begünstigung nur gewährt, soweit
+tatsächlich hinzugerechnet worden ist. Je länger die Bestandskraft zurückreicht, desto größer wird
+der Effekt – bei einem vollständig abgeschriebenen Wirtschaftsgut bliebe kein Korrekturpotential
+mehr übrig.
+
+**Beide Korrespondenzprinzipien in einem Sachverhalt**, und sie wirken gegenläufig: Die
+**materielle** Korrespondenz versagt dem Gesellschafter die Begünstigung, solange bei der
+Gesellschaft nicht hinzugerechnet worden ist; die **formelle** Korrespondenz des § 32a Abs. 1 KStG
+eröffnet ihm anschließend die Korrektur seiner bestandskräftigen Veranlagung 2022. Ohne sie wäre
+das Jahr längst zu.
+
+**Die zweistufige Prüfung beim Beteiligungsverkauf** (1.5.2.2) ist eigens betont: Erst stellt § 8
+Abs. 3 Satz 2 KStG den angemessenen Veräußerungsgewinn her, dann greift § 8b Abs. 2 KStG. Wer die
+Reihenfolge umkehrt, hat gar keinen Gewinn zum Freistellen, weil in der Buchführung nur ein Aufwand
+von 101.000 € steht. Im Verlustfall rechnet § 8b Abs. 3 Satz 3 KStG auch den verbleibenden Verlust
+wieder hinzu, so dass die Einkommensauswirkung von 301.000 € exakt dem gesamten gebuchten Aufwand
+entspricht – die Gesellschaft steht da, als wäre der Vorgang erfolgsneutral gewesen.
+
+**Sämtliche Zahlen sind nachgerechnet und gehen auf:** Warenfall 100.000 € ./. 50.000 € = 50.000 €,
+Unterfall b) Wareneinsatz 100.000 € ./. 25.000 € = 75.000 €; Maschinenfall 2025 Afa 100.000 € gegen
+60.000 €, Buchwerte 400.000 € gegen 240.000 €, ./. 200.000 € + 40.000 € = ./. 160.000 €;
+Vorjahresfall zutreffender Buchwert 300.000 € ./. 180.000 € = 120.000 €, Anpassung 80.000 €,
+verlorenes Potential 120.000 € = 3 × 40.000 €, beim Anteilseigner 120.000 € + 60 % von 80.000 € =
+168.000 €, Buchungssatz 500.000 € gegen 200.000 € + 100.000 € + 200.000 €; Beteiligungsverkauf
+500.000 € ./. 101.000 € = 399.000 € mit 19.950 € Pauschale und 200.000 € ./. 301.000 € =
+./. 101.000 € mit Hinzurechnung von 101.000 €.
+
+**Drei Werte nennt die Quelle nicht und sind als eigene Herleitung gekennzeichnet:** die
+Gegenüberstellung der Buchwerte im Maschinenfall 2025, die Herleitung des bisherigen Buchwerts von
+200.000 € im Vorjahresfall und die Salden der Einkommensauswirkung beim Beteiligungsverkauf
+(120.950 € bzw. 301.000 €).
+
+**Wortlautgetreu übernommen und gekennzeichnet:** „Das Teileinkünfteverfahren kann … nur in Höhe von
+80.000 € angewendet werden **kann**.“ – doppeltes Verb.
+
+**Noch offen:** aus Teil IV die Schadensersatzansprüche (1.5.2.3) und die übrigen Abschnitte des
+Kapitels 1 sowie die Kapitel 2 bis 6; ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 1.1 bis 1.5.1 – neuer Bestand, verdeckte Gewinnausschüttung
 
 Quelle: Google Drive, „B-S25-KSt Teil IV-vGA (2025)-Hamacher-0725.pdf“ (Drive-ID
