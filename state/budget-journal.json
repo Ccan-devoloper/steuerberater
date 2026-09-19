@@ -147,10 +147,10 @@
       "slot": "handwritten heading on lined paper",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-19T10:44:38.295Z",
-      "updatedAt": "2026-09-19T10:44:38.295Z"
+      "updatedAt": "2026-09-19T10:44:39.477Z"
     }
   ],
-  "stand": "2026-09-19T10:44:38.295Z"
+  "stand": "2026-09-19T10:44:39.477Z"
 }
