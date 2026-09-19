@@ -122,6 +122,16 @@ test("PersG-SBV-II verwendet keine starre 10%-Grenze für Komplementär-GmbH-Ant
   assert.match(kern(t), /bloße.*finanzielle Teilhabe.*nicht|bloße Vermögensmehrung.*nicht/i);
 });
 
+test("§172 schlichte Änderung ist kein Einspruch und verlangt sachliche Konkretisierung", () => {
+  const t = byId("ao-modul-ao-360");
+  assert.match(kern(t), /kein Einspruch.*kein förmlicher Rechtsbehelf|Schlichte Änderung ≠ Einspruch/i);
+  assert.match(kern(t), /formfrei/i);
+  assert.match(kern(t), /konkreten Lebenssachverhalt|sachlichen Gehalt/i);
+  assert.match(kern(t), /Bezifferung.*weder.*erforderlich.*noch.*ausreichend|nicht zwingend.*exakt beziffert/i);
+  assert.match(kern(t), /keine Gesamtaufrollung/i);
+  assert.match(kern(t), /Aussetzung der Vollziehung.*nicht/i);
+});
+
 test("Bekanntgabe an Bevollmächtigte trennt Kann-Regel und Empfangsvollmacht", () => {
   const t = byId("ao-modul-ao-308");
   assert.match(kern(t), /bloße Mitwirkung.*genügt nicht/i);
