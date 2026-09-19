@@ -89,6 +89,37 @@ function korrigiereEntfernungspauschale(thema) {
   });
 }
 
+
+function korrigiereAStG2(thema) {
+  thema.normen = (thema.normen || []).filter((n) => !/§\s*2a\s+AStG/i.test(n));
+  normErgaenzen(thema, "§ 2 Abs. 1–5 AStG");
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 2 AStG erweitert bei einem eng begrenzten Wegzugstatbestand die beschränkte Einkommensteuerpflicht. Die Norm gilt nicht bei jedem Wegzug und setzt insbesondere deutsche Staatsangehörigkeit voraus.",
+      "Eingangsvoraussetzung ist, dass die Person in den letzten zehn Jahren vor Ende der unbeschränkten Steuerpflicht als Deutscher insgesamt mindestens fünf Jahre unbeschränkt einkommensteuerpflichtig war. Hinzukommen Ansässigkeit in einem niedrig besteuernden Gebiet oder fehlende Ansässigkeit sowie wesentliche wirtschaftliche Interessen im Inland.",
+      "Die erweiterte beschränkte Steuerpflicht reicht bis zum Ablauf von zehn Jahren nach Ende des Wegzugsjahres. § 2 Abs. 1 S. 3 AStG enthält eine Freigrenze: Die insgesamt beschränkt steuerpflichtigen Einkünfte müssen im jeweiligen Veranlagungszeitraum mehr als 16.500 € betragen.",
+    ],
+    lernziele: [
+      "deutsche Staatsangehörigkeit und 5-von-10-Jahren-Vorbelastung als Eingangsvoraussetzungen prüfen",
+      "Niedrigbesteuerung nach § 2 Abs. 2 AStG gesondert bestimmen",
+      "wesentliche wirtschaftliche Interessen nach § 2 Abs. 3 AStG anhand Beteiligungs-, Einkünfte- und Vermögenskriterien prüfen",
+      "zehnjährigen Nachwirkungszeitraum und 16.500-€-Freigrenze beachten",
+      "§ 2 AStG von der davon unabhängigen Wegzugsbesteuerung nach § 6 AStG trennen",
+    ],
+    pruefschritte: [
+      "Natürliche Person und deutsche Staatsangehörigkeit feststellen.",
+      "Prüfen, ob in den letzten zehn Jahren vor Ende der unbeschränkten Steuerpflicht insgesamt mindestens fünf Jahre unbeschränkte Einkommensteuerpflicht bestand.",
+      "Niedrigbesteuerung oder fehlende Ansässigkeit nach § 2 Abs. 1 Nr. 1 i.V.m. Abs. 2 AStG prüfen.",
+      "Wesentliche wirtschaftliche Interessen nach § 2 Abs. 3 AStG prüfen: insbesondere qualifizierte Unternehmens-/Beteiligungsbezüge, mehr als 30 % der gesamten Einkünfte oder mehr als 62.000 € relevante Einkünfte sowie mehr als 30 % des Gesamtvermögens oder mehr als 154.000 € relevantes Vermögen.",
+      "Erweiterten Einkünftekreis bestimmen und den Nachwirkungszeitraum bis zum Ablauf von zehn Jahren nach Ende des Wegzugsjahres beachten.",
+      "16.500-€-Freigrenze des § 2 Abs. 1 S. 3 AStG auf die insgesamt beschränkt steuerpflichtigen Einkünfte anwenden.",
+      "§ 6 AStG unabhängig prüfen; ein Ausscheiden aus § 2 AStG schließt Wegzugsbesteuerung nach § 6 AStG nicht aus.",
+    ],
+    merksatz: "§ 2 AStG: Deutscher + 5/10 Jahre + Niedrigsteuergebiet/keine Ansässigkeit + wesentliche Inlandsinteressen; Nachwirkung bis zehn Jahre und 16.500-€-Freigrenze. Einen § 2a AStG gibt es nicht.",
+  };
+}
+
 function korrigiereAStG9(thema) {
   thema.kern = {
     ...thema.kern,
@@ -1447,6 +1478,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "erbst-modul-erbst-512": korrigiereFamilienheim(thema); break;
       case "erbst-modul-erbst-513": ergaenzeErbSt13dDrittstaat(thema); break;
       case "erbst-modul-erbst-515": korrigiereErbStSchuldenabzug(thema); break;
+      case "istr-modul-istr-istr3-07": korrigiereAStG2(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
       case "bilanz-formel-anschaffungsnah": korrigiereAnschaffungsnah(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
