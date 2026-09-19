@@ -383,6 +383,16 @@ test("Wiedereinsetzung trennt Monatsfrist der AO von Zweiwochenfrist der FGO", (
   assert.match(kern(byId("ao-modul-ao-371")), /Revision oder Nichtzulassungsbeschwerde.*einen Monat/);
 });
 
+test("§378-AO-Modul verlangt objektiven Tatbestand und eigenständige Leichtfertigkeit", () => {
+  const t = byId("ao-modul-ao-386");
+  assert.match(kern(t), /§ 370 Abs\. 1/);
+  assert.match(kern(t), /Steuerverkürzung|Steuervorteil/);
+  assert.match(kern(t), /Leichtfertigkeit.*eigenständig/i);
+  assert.match(kern(t), /einfache Fahrlässigkeit.*genügt nicht/i);
+  assert.match(kern(t), /nicht.*automatisch/i);
+  assert.match(kern(t), /§ 378 Abs\. 3/);
+});
+
 test("§371-Selbstanzeige enthält Mindestberichtigungsverbund und §398a-Abgrenzung", () => {
   const t = byId("ao-modul-ao-388");
   assert.match(kern(t), /letzten zehn Kalenderjahre/);
