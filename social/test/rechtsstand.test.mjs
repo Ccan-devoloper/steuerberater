@@ -119,11 +119,13 @@ test("ErbSt-Schuldenabzug trennt §10 Abs.6 und 6a seit 2025", () => {
   assert.doesNotMatch(kern(t), /vollständig steuerbefreit[^"]*\(§ 10 Abs\. 6\)/i);
 });
 
-test("§13d-ErbStG-Modul kennt begünstigte Drittstaaten", () => {
+test("§13d-ErbStG-Modul kennt begünstigte Drittstaaten und keine starre Mietdauer", () => {
   const t = byId("erbst-modul-erbst-513");
   assert.match(kern(t), /Drittstaaten[^"]*Amtshilfe|Drittstaaten[^"]*Informationsaustausch/i);
   assert.match(kern(t), /BMF[^"]*Staatenliste/);
-  assert.match(kern(t), /Drittstaaten sind nicht mehr pauschal ausgeschlossen/i);
+  assert.match(kern(t), /keine starre (?:Sechs-Monats|Mindestmietdauer)/i);
+  assert.match(kern(t), /entgeltliche Vermietung zu Wohnzwecken/i);
+  assert.doesNotMatch(kern(t), /langfristige Wohnvermietung[^"]*> 6 Monate/i);
 });
 
 test("Erbfallkostenmodul nennt den aktuellen 15.000-Euro-Pauschbetrag", () => {
