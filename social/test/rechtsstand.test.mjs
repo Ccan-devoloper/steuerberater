@@ -40,6 +40,15 @@ test("§ 9 AStG verwendet Einkünfte und kennzeichnet 2025/2026", () => {
   assert.match(auftrag, /80\.000/);
 });
 
+test("15%-Grenze trennt Erweiterungen von anschaffungsnahen Herstellungskosten", () => {
+  const t = byId("bilanz-formel-anschaffungsnah");
+  assert.match(kern(t), /Erweiterungen.*nicht in die 15-%-Grenze/i);
+  assert.match(kern(t), /ohnehin.*Herstellungskosten|originäre Herstellungskosten/i);
+  assert.match(kern(t), /Unterschreiten.*nicht automatisch Sofortabzug|Unter 15 %.*keine Fiktion/i);
+  assert.match(kern(t), /allgemeinen.*Anschaffungs- oder Herstellungskosten/i);
+  assert.doesNotMatch(kern(t), /Aufwendungen von 90\.000 € bleiben sofort abziehbar/);
+});
+
 test("§ 6b Social-Formeln enthalten keine erfundene Reihenfolge und beachten 2-Mio-Grenze", () => {
   const reihenfolge = byId("bilanz-formel-sechsb-reihenfolge");
   assert.doesNotMatch(kern(reihenfolge), /Gewinn → zuerst Grund und Boden|Erst wenn der Grund und Boden[^"]*abgeschrieben/);
