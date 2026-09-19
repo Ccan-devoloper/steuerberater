@@ -196,6 +196,17 @@
       "benutzt": 1,
       "breite": 928,
       "hoehe": 960
+    },
+    {
+      "datei": "2026-09-19-w90t30.webp",
+      "szene": "open ring binder with legal text",
+      "themaId": null,
+      "look": "flach",
+      "gezeichnet": "2026-09-19",
+      "zuletzt": "2026-09-19",
+      "benutzt": 1,
+      "breite": 982,
+      "hoehe": 811
     }
   ]
 }
