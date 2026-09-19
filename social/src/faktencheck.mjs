@@ -216,7 +216,7 @@ export async function openaiPruefen({ system, user, modell, aufwand, zweck, sche
         ],
         reasoning: { effort: aufwand },
         text: { format: { type: "json_schema", name: "faktencheck", strict: true, schema } },
-        max_output_tokens: 8000,
+        max_output_tokens: 3000,
       },
     });
   } catch (e) {
@@ -278,7 +278,7 @@ export async function pruefeFakten(beitrag, zweck = "faktencheck", { hinweis = "
   const user = `Prüfe diesen Text:\n\n${textAus(beitrag)}${hinweis ? `\n\n${hinweis}` : ""}`;
   const basis = {
     model: modell,
-    max_tokens: 6000,
+    max_tokens: 3000,
     system: [{ type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } }],
     messages: [{ role: "user", content: user }],
     /* Haiku kennt kein adaptives Denken – dort ohne. */
