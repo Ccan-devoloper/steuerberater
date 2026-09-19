@@ -127,6 +127,43 @@ function korrigiereSbvKomplementaerGmbh(thema) {
   };
 }
 
+
+function korrigiereAStG6Wegzug(thema) {
+  normErgaenzen(
+    thema,
+    "§ 6 Abs. 1–5 AStG",
+    "§ 17 Abs. 1 EStG"
+  );
+  thema.kern = {
+    ...thema.kern,
+    einordnung: [
+      "§ 6 AStG fingiert bei Anteilen i.S.d. § 17 Abs. 1 S. 1 EStG unter den Tatbeständen des § 6 Abs. 1 eine Veräußerung zum gemeinen Wert. Erfasst werden neben dem Wegzug auch bestimmte unentgeltliche Übertragungen und der Ausschluss oder die Beschränkung des deutschen Besteuerungsrechts.",
+      "Persönliche Vorbelastung nach § 6 Abs. 2 AStG: Innerhalb der letzten zwölf Jahre vor dem auslösenden Tatbestand müssen insgesamt mindestens sieben Jahre unbeschränkte Einkommensteuerpflicht bestanden haben; bei unentgeltlichen Erwerbsketten sind die gesetzlichen Rechtsvorgängerregeln zu beachten.",
+      "Bei nur vorübergehender Abwesenheit kann der Steueranspruch nach § 6 Abs. 3 AStG entfallen, wenn die gesetzlichen Voraussetzungen eingehalten werden und innerhalb von sieben Jahren wieder unbeschränkte Steuerpflicht eintritt. Das Finanzamt kann die Rückkehrfrist auf Antrag insgesamt um höchstens fünf Jahre verlängern, wenn die Rückkehrabsicht fortbesteht.",
+      "Die auf die Wegzugsbesteuerung entfallende Steuer kann nach § 6 Abs. 4 AStG auf Antrag grundsätzlich in sieben gleichen, unverzinsten Jahresraten entrichtet werden; regelmäßig ist Sicherheit zu leisten. Veräußerung/Übertragung, bestimmte Ausschüttungen, ausgefallene Raten, Insolvenz oder verletzte Mitwirkungspflichten können die noch offene Steuer vorzeitig fällig stellen.",
+      "§ 6 Abs. 5 AStG verlangt ereignisbezogene Mitteilungen grundsätzlich binnen eines Monats und jährlich bis 31. Juli die elektronische Mitteilung der aktuellen Anschrift sowie die Bestätigung der fortbestehenden Anteilszurechnung.",
+    ],
+    lernziele: [
+      "Tatbestände des § 6 Abs. 1 AStG vollständig unterscheiden",
+      "§-17-Anteil und Sieben-von-Zwölf-Jahren-Vorbelastung prüfen",
+      "fiktiven Veräußerungsgewinn zum gemeinen Wert ermitteln",
+      "Rückkehrerregel mit siebenjähriger Grundfrist und möglicher Verlängerung um höchstens fünf Jahre prüfen",
+      "Ratenzahlung nach § 6 Abs. 4 mit sieben gleichen Jahresraten, Sicherheitsleistung und Fälligkeitsereignissen beherrschen",
+      "Mitteilungspflichten nach § 6 Abs. 5 mit Monatsfrist und jährlichem 31. Juli beachten",
+    ],
+    pruefschritte: [
+      "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen.",
+      "§ 6 Abs. 2 prüfen: innerhalb der letzten zwölf Jahre insgesamt mindestens sieben Jahre unbeschränkt steuerpflichtig; bei unentgeltlichem Erwerb Rechtsvorgängerregeln beachten.",
+      "Auslösenden Tatbestand des § 6 Abs. 1 bestimmen: Wegzug, unentgeltliche Übertragung oder Ausschluss/Beschränkung des deutschen Besteuerungsrechts.",
+      "Gemeinen Wert zum gesetzlichen Zeitpunkt ansetzen und fiktiven Veräußerungsgewinn nach den EStG-Regeln bestimmen.",
+      "Bei vorübergehendem Wegzug § 6 Abs. 3 prüfen: Rückkehr binnen sieben Jahren, Fortbestand der übrigen Voraussetzungen; Verlängerung auf Antrag um höchstens fünf Jahre möglich.",
+      "Zahlungsseite gesondert prüfen: Antrag auf sieben gleiche unverzinste Jahresraten nach § 6 Abs. 4; regelmäßige Sicherheitsleistung und vorzeitige Fälligkeitsgründe beachten.",
+      "Mitteilungen nach § 6 Abs. 5 einplanen: meldepflichtige Ereignisse binnen eines Monats, jährliche Meldung grundsätzlich bis 31. Juli.",
+    ],
+    merksatz: "§ 6 AStG endet nicht beim fiktiven Gewinn: 7/12-Jahre-Vorbelastung, Rückkehr grundsätzlich binnen 7 Jahren (+ höchstens 5 auf Antrag), 7 unverzinste Jahresraten auf Antrag und laufende Meldepflichten gehören zur 2026er Prüfung.",
+  };
+}
+
 function korrigiereAStG2(thema) {
   thema.normen = (thema.normen || []).filter((n) => !/§\s*2a\s+AStG/i.test(n));
   normErgaenzen(thema, "§ 2 Abs. 1–5 AStG");
@@ -1868,6 +1905,7 @@ export function socialKorrekturenAnwenden(pool) {
       case "erbst-modul-erbst-515": korrigiereErbStSchuldenabzug(thema); break;
       case "persg-modul-persg-7": korrigiereSbvKomplementaerGmbh(thema); break;
       case "istr-modul-istr-istr3-07": korrigiereAStG2(thema); break;
+      case "istr-modul-istr-istr3-08": korrigiereAStG6Wegzug(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
       case "bilanz-modul-k3-2": korrigiereWirtschaftlichesEigentum(thema); break;
       case "bilanz-modul-k3-41": korrigiereEinlageGrundstueck(thema); break;
