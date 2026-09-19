@@ -294,6 +294,20 @@ function korrigierePar34(thema) {
   };
 }
 
+function ergaenzeErbfallkosten(thema) {
+  normErgaenzen(thema, "§ 10 Abs. 5 Nr. 3 S. 2 ErbStG", "§ 37 Abs. 21 ErbStG");
+  const schritte = [...(thema.kern?.pruefschritte || [])];
+  if (!schritte.some((x) => /15\.000.*Erbfallkosten|Erbfallkosten.*15\.000/i.test(x))) {
+    const idx = schritte.findIndex((x) => /Erbfallkosten/i.test(x));
+    schritte.splice(idx >= 0 ? idx + 1 : 0, 0, "Für Erbfallkosten nach § 10 Abs. 5 Nr. 3 S. 2 ErbStG aktuellen Pauschbetrag beachten: 15.000 € ohne Nachweis; die Erhöhung von 10.300 € gilt für Erwerbe mit Steuerentstehung nach dem 31.12.2024.");
+  }
+  thema.kern = {
+    ...thema.kern,
+    pruefschritte: schritte,
+    merksatz: "Erbfallkosten: aktuell 15.000 € Pauschbetrag ohne Nachweis nach § 10 Abs. 5 Nr. 3 S. 2 ErbStG; erst höhere tatsächliche Kosten erfordern den Einzelnachweis. Persönliche Freibeträge und Tarif folgen erst danach.",
+  };
+}
+
 function korrigiereVorgesellschaft(thema) {
   normErgaenzen(thema, "§ 1 Abs. 1 Nr. 1 KStG", "H 1.1 KStH");
   const hinweis = "Die körperschaftsteuerliche Rückwirkung auf die notarielle Beurkundung gilt für die echte Vorgesellschaft, wenn die spätere Kapitalgesellschaft tatsächlich in das Handelsregister eingetragen wird. Scheitert die Eintragung endgültig, ist die Vorgesellschaft nach der BFH-Rechtsprechung nicht als Kapitalgesellschaft körperschaftsteuerpflichtig, sondern grundsätzlich nach den Regeln eines Einzelunternehmens bzw. einer Personengesellschaft zu behandeln.";
@@ -537,6 +551,7 @@ export function socialKorrekturenAnwenden(pool) {
     switch (thema.id) {
       case "bilanz-modul-k3-36": korrigiereEntfernungspauschale(thema); break;
       case "bilanz-modul-k3-47": korrigierePar34(thema); break;
+      case "erbst-modul-erbst-506": ergaenzeErbfallkosten(thema); break;
       case "istr-modul-istr-istr4-06": korrigiereAStG9(thema); break;
       case "bilanz-formel-sechsb-reihenfolge": korrigiereSechsBReihenfolge(thema); break;
       case "bilanz-formel-sechsb-abs10": korrigiereSechsBAbs10(thema); break;
