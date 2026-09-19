@@ -19,7 +19,20 @@
       "state": "settled",
       "createdAt": "2026-09-19T05:43:40.702Z",
       "updatedAt": "2026-09-19T05:44:04.385Z"
+    },
+    {
+      "reservationId": "2026-09-19-0002-bildregie",
+      "date": "2026-09-19",
+      "bucket": "core",
+      "purpose": "bildregie",
+      "attempt": 1,
+      "slot": "reel",
+      "reservedUsd": 0.046299,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-19T08:43:29.577Z",
+      "updatedAt": "2026-09-19T08:43:29.577Z"
     }
   ],
-  "stand": "2026-09-19T07:43:36.104Z"
+  "stand": "2026-09-19T08:43:29.577Z"
 }
