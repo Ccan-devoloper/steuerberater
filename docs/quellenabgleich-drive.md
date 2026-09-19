@@ -10620,6 +10620,44 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitt 1.6.2.2.2 – unterjähriger Gewinn und Abwandlung mit stillen Reserven
+
+Quelle: dieselbe Datei, Seiten 30 bis 32; übernommen als Kapitel 17 und 18. Prüfung:
+`npm run check:k2-kst-teil5` (18 Kapitel, 361 Blöcke, 47 Tabellen).
+
+**Drei der vier Varianten sind unabhängig nachgerechnet und gehen auf.** Grundfall Variante a):
+10.000.000 € ./. 3.000.000 € = 7.000.000 € Untergang; 4.000.000 € ./. 3.000.000 € = 1.000.000 € zvE;
+Endbestand 0 €. Grundfall Variante b): 10.000.000 € ./. 6.000.000 € = 4.000.000 € Untergang;
+1.000.000 € + 70 % × 3.000.000 € = 3.100.000 € genutzt; 6.000.000 € ./. 3.100.000 € = 2.900.000 €.
+Abwandlung Variante b): 4.000.000 € ./. 1.200.000 € = 2.800.000 € Untergang; 7.200.000 € ./.
+3.100.000 € = 4.100.000 €; Gegenprobe 4.100.000 € ./. 2.900.000 € = 1.200.000 €, genau die stillen
+Reserven.
+
+**Ein Rechenfehler der Quelle ist nachgewiesen und wortlautgetreu daneben stehen gelassen.** In der
+Abwandlung der Variante a) verbleiben nach der auf 5.800.000 € verringerten Kürzung 4.200.000 €
+Verlustvortrag, nicht die im Text genannten 3.000.000 €. Die Quelle übernimmt die Begrenzung des
+Grundfalls („70% von 3.000.000 €, max. 2.000.000 €") unverändert, obwohl deren Grund – nur
+3.000.000 € verschonter Verlust – durch die zusätzlichen stillen Reserven entfallen ist. Die eigene
+Rechnung ergibt 1.000.000 € + 70 % × 3.000.000 € = 3.100.000 € Abzug, ein zvE von 900.000 € und
+einen Endbestand von 1.100.000 € statt der genannten 1.200.000 €. Text und Tabellen sind unverändert
+übernommen; die Nachrechnung steht als ausdrücklich gekennzeichnete eigene Ergänzung daneben.
+
+**Zwei weitere Eigenheiten der Quelle sind übernommen und markiert:** der Tippfehler „Zur Ermittlung
+es positiven GdE" und die Jahresangabe „Verlustvortrag nach 2023" in der Abwandlung, die 2025 lauten
+müsste.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die Klarstellung, dass der unterjährige Gewinn
+nicht zweimal verrechnet wird, sondern nur bestimmt, wie viel Verlust die Kürzung übersteht; die
+Begründung, warum die Mindestbesteuerung im ersten Schritt ausgeschaltet ist, samt Bezifferung des
+Unterschieds (2.400.000 € statt 3.000.000 € in Variante a), 4.500.000 € statt 6.000.000 € in
+Variante b)); die Gestaltungschance aus der Unerheblichkeit des Jahresergebnisses; das Gegensatzpaar
+von unterjährigem Verlust und unterjährigem Gewinn samt dem umgekehrten Interesse am
+Zwischenabschluss; die Feststellung, dass die Gegenprobe über die Endbestände ein nützlicher, aber
+kein hinreichender Test ist; und die zwingende Reihenfolge der drei Rechenschritte.
+
+**Noch offen:** aus Teil V die abweichenden Wirtschaftsjahre, die Organschaftsfälle (1.7) sowie die
+Kapitel 2 bis 4; ganz offen sind die Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 1.6 bis 1.6.2.2.1 – Verlustkürzung, Erwerb zum Wirtschaftsjahresende, unterjähriger Verlust
 
 Quelle: dieselbe Datei, Seiten 26 bis 29; übernommen als Kapitel 15 und 16. Prüfung:

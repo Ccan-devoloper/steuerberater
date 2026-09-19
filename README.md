@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 16 Kapitel mit 330 Abschnitten und 39 Tabellen. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 18 Kapitel mit 361 Abschnitten und 47 Tabellen. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3950,6 +3950,32 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   4.700.000 € ./. 2.700.000 € = 2.000.000 €, genau der Betrag der stillen Reserven. Der Ausschluss des
   **Verlustrücktrags** beruht allein auf dem BMF-Schreiben und nicht auf dem Gesetzeswortlaut; er
   liegt dem BFH unter **I R 1/23** zur Entscheidung vor.
+  Ein unterjähriger **Gewinn** wirkt genau umgekehrt: Er wird mit dem Verlustvortrag des Vorjahres
+  verrechnet, und zwar **ohne** die Schranken der Mindestbesteuerung – nur der danach verbleibende
+  Überhang unterliegt der Kürzung. Das ist die für den Steuerpflichtigen günstigste Aussage des
+  Abschnitts und folgt nicht aus dem Gesetz, sondern aus Tz. 34 des BMF-Schreibens; der Grund liegt
+  darin, dass § 10d Abs. 2 EStG den Verlustabzug **strecken** und nicht vernichten soll – wendete man
+  ihn hier an, ginge der gestreckte Teil nach § 8c KStG endgültig unter. Unerheblich ist dabei
+  ausdrücklich das **Jahresergebnis**: In der bewusst paradox gebauten Variante b) werden bis zum
+  01.03.2025 6.000.000 € verdient, im gesamten Jahr aber nur 4.000.000 € – zwischen März und Dezember
+  entsteht also ein Verlust, und verschont werden gleichwohl die vollen 6.000.000 €. Darin liegt eine
+  erhebliche Gestaltungschance: Wer den Erwerb auf einen Zeitpunkt nach einem gewinnstarken
+  Zwischenabschluss legt, rettet Verlustvolumen, das bei einer Jahresbetrachtung verloren wäre. Die
+  beiden Fallgruppen des unterjährigen Erwerbs bilden damit ein Gegensatzpaar, das sich in einem Satz
+  merken lässt: Ein unterjähriger **Verlust** wird vom Untergang **mit erfasst**, ein unterjähriger
+  **Gewinn** wird **verrechnet** – derselbe Zwischenabschluss dient also einmal dem Ziel eines
+  möglichst kleinen, einmal dem eines möglichst großen Zwischenbetrags.
+  Treffen unterjähriger Gewinn und stille Reserven zusammen, gilt eine zwingende Reihenfolge: erst
+  die unterjährige Verrechnung, dann die Verschonung des Überhangs nach § 8c Abs. 1 Satz 5 KStG,
+  zuletzt die Nutzung des verschonten Betrags im Veranlagungszeitraum nach § 10d Abs. 2 EStG, jetzt
+  wieder **mit** Mindestbesteuerung. In der Abwandlung der Variante a) geht die Rechnung der Quelle
+  allerdings nicht auf: Sie übernimmt die Begrenzung des Grundfalls („max. 2.000.000 €") unverändert,
+  obwohl nach der auf 5.800.000 € verringerten Kürzung 4.200.000 € Verlustvortrag zur Verfügung
+  stehen. Die eigene Nachrechnung führt zu 1.000.000 € + 70 % × 3.000.000 € = 3.100.000 € Abzug,
+  900.000 € zvE und einem Endbestand von 1.100.000 € statt 1.200.000 €. Der Text und die Tabellen der
+  Quelle sind gleichwohl wortlautgetreu wiedergegeben; die abweichende Rechnung steht als eigene
+  Ergänzung daneben. Variante b) der Abwandlung geht dagegen auf, und die Gegenprobe über die
+  Endbestände bestätigt sie: 4.100.000 € ./. 2.900.000 € = 1.200.000 €, genau die stillen Reserven.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

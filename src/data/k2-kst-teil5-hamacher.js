@@ -28,9 +28,10 @@
    inländisch steuerpflichtigen stillen Reserven (1.5.1.2), die Rückwirkungs-
    sperre (1.5.1.3) und der Zinsvortrag (1.5.1.4). Dazu kommen die Grundsätze
    der Verlustkürzung (1.6.1), der Erwerb zum Ende des Wirtschaftsjahres
-   (1.6.2.1) und der unterjährige Verlust (1.6.2.2.1). Es folgen die weiteren
-   Abschnitte zum unterjährigen Erwerb, die Organschaftsfälle (1.7) sowie die
-   Kapitel 2 bis 4; der Campus weist den Stand aus.
+   (1.6.2.1), der unterjährige Verlust (1.6.2.2.1) und der unterjährige Gewinn
+   samt Abwandlung (1.6.2.2.2). Es folgen die abweichenden Wirtschaftsjahre,
+   die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; der Campus weist den
+   Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -957,6 +958,117 @@ export const kstTeil5 = [
       { text: "Anmerkung zum Aufwand der Zwischenermittlung (eigene Ergänzung): Die Anforderung der Quelle ist in der Praxis erheblich. Verlangt wird nicht nur ein **Zwischenabschluss** auf den Stichtag, sondern zusätzlich eine **Zwischeneinkommensermittlung**, weil § 8c KStG auf den Gesamtbetrag der Einkünfte abstellt. Außerbilanzielle Korrekturen müssen also ebenfalls periodengerecht zugeordnet werden. Die von der Quelle genannten Erleichterungen – betriebswirtschaftliche Auswertung oder zeitanteilige Aufteilung – sind ausdrücklich auf **Ausnahmefälle** beschränkt. Die zeitanteilige Aufteilung ist dabei die gröbste Methode und führt bei saisonalem Geschäft zu offensichtlich unzutreffenden Ergebnissen; im Beispiel entfallen auf ein Vierteljahr nur 300.000 € von 3.000.000 €, also gerade **ein Zehntel** statt eines Viertels." },
       { text: "Anmerkung zur Gestaltung (eigene Ergänzung): Aus dem Beispiel folgt eine naheliegende Überlegung, die die Quelle nicht ausspricht. Weil nur der **bis** zum Erwerb aufgelaufene Verlust betroffen ist, verringert ein früher im Wirtschaftsjahr liegender Erwerb den gefährdeten Betrag. Der Verlustvortrag des Vorjahres bleibt davon allerdings unberührt – und er ist in aller Regel die größere Position. Die Gestaltung wirkt deshalb nur am Rand; das eigentliche Instrument bleiben die stillen Reserven und § 8d KStG." },
       { text: "Hinweis zum anhängigen Verfahren (eigene Ergänzung): Die Quelle verweist an zwei Stellen auf das beim BFH anhängige Verfahren **I R 1/23** – einmal zum Ausschluss des Verlustrücktrags in Abschnitt 1.6.1, einmal erneut hier. Der Ausschluss des Rücktrags beruht allein auf der Verwaltungsauffassung im BMF-Schreiben, nicht auf dem Gesetzeswortlaut, der von „nicht genutzten Verlusten“ spricht. Bis zur Entscheidung sollte in vergleichbaren Fällen Einspruch eingelegt und das Ruhen des Verfahrens nach § 363 Abs. 2 Satz 2 AO beantragt werden." },
+    ],
+  },
+  {
+    id: "kst-t5-17",
+    kapitel: "17",
+    abschnittNr: "1.6.2.2.2",
+    title: "1.6.2.2.2 Unterjähriger Gewinn – Verrechnung ohne Mindestbesteuerung",
+    thema: "Der Verlustvortrag wird zunächst ohne die Schranken des § 10d Abs. 2 EStG mit dem bis zum Erwerb erzielten Gewinn verrechnet; nur der Überhang unterliegt der Kürzung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 1.6.2.2.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 10d Abs. 4 EStG",
+      "BMF vom 28.11.2017, Tz. 34 und 35",
+    ],
+    themen: ["unterjähriger Gewinn", "Mindestbesteuerung", "Verlustpotential", "Zwischenabschluss", "Schätzung", "Verlustfeststellung"],
+    bloecke: [
+      { typ: "titel", text: "1.6.2.2.2 Unterjähriger Gewinn" },
+      { text: "Erzielt die Verlustgesellschaft bis zum schädlichen Anteilserwerb einen unterjährigen positiven GdE, kann der zum Ende des Vorjahres bestehende Verlustvortrag noch mit diesem Ergebnis verrechnet werden. Für diese Verrechnung gelten die Grundsätze der Mindestbesteuerung i.S. des § 10d Abs. 2 EStG nicht. Rechtsfolge dessen ist, dass der ungenutzte Verlust zunächst immer auch in Höhe des unterjährigen positiven GdE verschont wird. Nur der danach verbleibende Verlustüberhang unterliegt der Verlustkürzung des § 8c Abs. 1 Satz 1 KStG, unter Berücksichtigung der Verschonungsregelung i.S. des § 8c Abs. 1 Satz 5 KStG. Für diese Betrachtung ist die Höhe des Gesamt-GdE des Veranlagungszeitraums unerheblich, so dass nach dieser Berechnungsweise selbst dann vorzugehen ist, wenn dieser insgesamt geringer als das anteilige Ergebnis (bis zum schädlichen Anteilserwerb) ist." },
+      { text: "Der danach verbleibende Verlustvortrag kann anschließend mit dem positiven GdE des Veranlagungszeitraums der Anteilsveräußerung verrechnet werden. Für diese Verrechnung gelten dann aber wieder die Einschränkungen der Mindestbesteuerung i.S. des § 10d Abs. 2 EStG." },
+      { text: "Zur Ermittlung es positiven GdE gelten die Grundsätze der Tz. 35 des BMF-Schreibens entsprechend, wonach dafür ebenfalls ein Zwischenabschluss sowie eine Zwischeneinkommensermittlung notwendig sein dürfte. Nur in Ausnahmefällen dürfte eine wirtschaftlich und sachlich fundierte Aufteilung im Wege einer sachgerechten Schätzung anerkannt werden (z.B. Aufteilung nach betriebswirtschaftlichen Maßstäben oder zeitanteilige Aufteilung). (Der Tippfehler „Zur Ermittlung es positiven GdE“ steht so in der Quelle.)" },
+      { text: "Beispiel: A ist Alleingesellschafter der A-GmbH (Wj. = Kj.). Mit Wirkung zum 01.03.2025 erwirbt C den 100%igen Anteil an der A-GmbH, welcher über keine stillen Reserven verfügt. Zum 31.12.2024 besteht ein Verlustvortrag von 10.000.000 €. In 2025 erzielt die A-GmbH insgesamt einen positiven GdE von 4.000.000 €. Nach einem Zwischenabschluss soll davon auf die Zeit bis zum Anteilserwerb ein Betrag von a) 3.000.000 € bzw. b) 6.000.000 € entfallen." },
+      { text: "Lösung: Der Anteilserwerb in 2025 erfüllt die Voraussetzungen des § 8c Abs. 1 Satz 1 KStG, so dass der ungenutzte Verlust in vollständiger Höhe untergeht. Von der Verlustkürzung betroffen ist der Verlust im Zeitpunkt des 01.03.2025. Dabei ist zu berücksichtigen, dass der ungenutzte Verlust zunächst mit dem Gewinn verrechnet werden kann, welcher bis zum schädlichen Beteiligungserwerb entstanden ist. Nur der verbleibende Überhang ist vom Verlustuntergang betroffen." },
+      { text: "Variante a): Bei der Verrechnung der unterjährigen Gewinne sind die Auswirkungen der Mindestbesteuerung i.S. des § 10d Abs. 2 EStG nicht zu beachten. Daher kann der Verlustvortrag in Höhe von 3.000.000 € mit dem unterjährigen positiven GdE verrechnet werden, lediglich der verbleibende Verlustüberhang von 7.000.000 € unterliegt der Verlustkürzung i.S. des § 8c Abs. 1 Satz 1 KStG. Somit verbleibt der Gesellschaft letztlich ein Verlustpotential von 3.000.000 €, welches mit dem GdE des VZ 2025 noch verrechnet werden kann. Dabei sind aber die Einschränkungen des § 10d Abs. 2 EStG zu beachten." },
+      { text: "Daher ergeben sich für 2025 folgende Auswirkungen:" },
+      { typ: "tabelle", spalten: ["zvE 2025 – Variante a)", "Betrag"], zeilen: [
+        ["GdE", "4.000.000 €"],
+        ["./. Grundabzug", "./. 1.000.000 €"],
+        ["./. 70% von 3.000.000 €, max. 2.000.000 €", "./. 2.000.000 €"],
+        ["= zvE", "1.000.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025 – Variante a)", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG", "./. 7.000.000 €"],
+        ["./. Verlustvortrag nach 2025", "./. 3.000.000 €"],
+        ["Endbestand", "0 €"],
+      ] },
+      { text: "Variante b): In der Variante b) kann der Verlustvortrag noch mit dem unterjährigen GdE von 6.000.000 € verrechnet werden. Dass der unterjährige GdE letztlich höher ist als der Betrag, welcher im ganzen VZ 2025 erzielt wurde, ist hierfür unerheblich. Danach verbleibt der Gesellschaft letztlich ein Verlustpotential von 6.000.000 € und der Verlustüberhang von 4.000.000 € unterliegt der Verlustkürzung i.S. des § 8c Abs. 1 Satz 1 KStG. Daraus ergeben sich folgende Berechnungen:" },
+      { typ: "tabelle", spalten: ["zvE 2025 – Variante b)", "Betrag"], zeilen: [
+        ["GdE", "4.000.000 €"],
+        ["./. Grundabzug", "./. 1.000.000 €"],
+        ["./. 70% von 3.000.000 €", "./. 2.100.000 €"],
+        ["= zvE", "900.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025 – Variante b)", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG", "./. 4.000.000 €"],
+        ["./. Verlustvortrag", "./. 3.100.000 €"],
+        ["Endbestand", "2.900.000 €"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Beide Varianten gehen auf. Variante a): 10.000.000 € ./. 3.000.000 € unterjährig verrechnet = 7.000.000 € Untergang; verschont bleiben 3.000.000 €, die im VZ 2025 nach § 10d Abs. 2 EStG genutzt werden – 1.000.000 € Grundabzug zuzüglich 2.000.000 €, weil vom verschonten Verlust nach dem Grundabzug nur noch 2.000.000 € vorhanden sind und die rechnerischen 70 % × 3.000.000 € = 2.100.000 € daran scheitern; 4.000.000 € ./. 3.000.000 € = 1.000.000 € zvE; Endbestand 10.000.000 € ./. 7.000.000 € ./. 3.000.000 € = 0 €. Variante b): 10.000.000 € ./. 6.000.000 € = 4.000.000 € Untergang; verschont bleiben 6.000.000 €, davon genutzt 1.000.000 € + 70 % × 3.000.000 € = 3.100.000 €; 4.000.000 € ./. 3.100.000 € = 900.000 € zvE; Endbestand 6.000.000 € ./. 3.100.000 € = 2.900.000 €, was der Rechnung der Quelle 10.000.000 € ./. 4.000.000 € ./. 3.100.000 € entspricht." },
+      { text: "Anmerkung zur doppelten Rolle desselben Gewinns (eigene Ergänzung): Der unterjährige Gewinn wird nicht zweimal mit Verlusten verrechnet, auch wenn die Darstellung das nahelegt. Die unterjährige Verrechnung bestimmt lediglich, **wie viel** Verlust die Kürzung übersteht; der so verschonte Betrag wird anschließend im Rahmen der regulären Veranlagung des Veranlagungszeitraums abgezogen. Die Quelle sagt das mit dem Wort „Verlustpotential“, ohne es auszuformulieren. In Variante a) verschwindet dadurch der gesamte Verlust: 7.000.000 € durch § 8c KStG, 3.000.000 € durch Nutzung." },
+      { text: "Anmerkung zur ausgeschalteten Mindestbesteuerung (eigene Ergänzung): Dass die Schranken des § 10d Abs. 2 EStG bei der **unterjährigen** Verrechnung nicht gelten, ist die für den Steuerpflichtigen wichtigste Aussage des Abschnitts und ergibt sich nicht aus dem Gesetz, sondern aus Tz. 34 des BMF-Schreibens. Der Grund liegt auf der Hand: Die Mindestbesteuerung soll den Verlustabzug **strecken**, nicht vernichten – wendete man sie hier an, ginge der gestreckte Teil nach § 8c KStG endgültig unter. In Variante a) würden bei Anwendung der Mindestbesteuerung nur 1.000.000 € + 70 % × 2.000.000 € = 2.400.000 € gerettet statt 3.000.000 €, in Variante b) nur 1.000.000 € + 70 % × 5.000.000 € = 4.500.000 € statt 6.000.000 €." },
+      { text: "Anmerkung zur Variante b) und der Unerheblichkeit des Jahresergebnisses (eigene Ergänzung): Der Fall ist bewusst paradox gebaut und lohnt die Betrachtung. Bis zum 01.03.2025 werden 6.000.000 € verdient, im gesamten Jahr aber nur 4.000.000 € – zwischen März und Dezember entsteht also ein Verlust von 2.000.000 €. Für die Verschonung zählt trotzdem der **unterjährige** Betrag von 6.000.000 €, und zwar in voller Höhe. Darin liegt eine erhebliche Gestaltungschance: Wer den schädlichen Erwerb auf einen Zeitpunkt nach einem gewinnstarken Zwischenabschluss legt, rettet Verlustvolumen, das bei einer Jahresbetrachtung verloren wäre." },
+      { text: "Anmerkung zum Gegensatz der beiden Fallgruppen (eigene Ergänzung): Die Abschnitte 1.6.2.2.1 und 1.6.2.2.2 bilden ein Gegensatzpaar, das sich in einem Satz merken lässt. Ein unterjähriger **Verlust** wird vom Untergang **mit erfasst** und verschlechtert die Lage; ein unterjähriger **Gewinn** wird verrechnet und **verbessert** sie. In beiden Fällen ist derselbe Zwischenabschluss nebst Zwischeneinkommensermittlung nötig – nur mit umgekehrtem Interesse: Beim Verlust möchte der Steuerpflichtige einen möglichst **kleinen**, beim Gewinn einen möglichst **großen** Zwischenbetrag ausweisen." },
+    ],
+  },
+  {
+    id: "kst-t5-18",
+    kapitel: "18",
+    abschnittNr: "1.6.2.2.2 (Abwandlung)",
+    title: "1.6.2.2.2 Abwandlung – unterjähriger Gewinn und stille Reserven",
+    thema: "Treffen unterjähriger Gewinn und stille Reserven zusammen, verschont zuerst der Gewinn und dann die Verschonungsregelung; die Quelle übernimmt in Variante a) die Begrenzung des Grundfalls unverändert",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 1.6.2.2.2, Abwandlung · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 5 KStG",
+      "§ 10d Abs. 2 EStG",
+      "§ 10d Abs. 4 EStG",
+      "BMF vom 28.11.2017, Tz. 34",
+    ],
+    themen: ["stille Reserven", "unterjähriger Gewinn", "Verschonungsregelung", "Mindestbesteuerung", "Verlustfeststellung"],
+    bloecke: [
+      { text: "Abwandlung: Der Anteil verfügt (in beiden Fallvarianten) über stille Reserven von 1.200.000 €." },
+      { text: "Lösung: Der Anteilserwerb in 2025 erfüllt die Voraussetzungen des § 8c Abs. 1 Satz 1 KStG, so dass der ungenutzte Verlust in vollständiger Höhe untergeht. Von der Verlustkürzung betroffen ist der Verlust im Zeitpunkt des 01.03.2025. Dabei ist zu berücksichtigen, dass der ungenutzte Verlust zunächst mit dem Gewinn verrechnet werden kann, welcher bis zum schädlichen Beteiligungserwerb entstanden ist. Der verbleibende Überhang ist unter Berücksichtigung der Verschonungsregelung vom Verlustuntergang betroffen." },
+      { text: "Variante a): Bei der Verrechnung der unterjährigen Gewinne sind die Auswirkungen der Mindestbesteuerung i.S. des § 10d Abs. 2 EStG nicht zu beachten. Daher kann der Verlustvortrag in Höhe von 3.000.000 € mit dem unterjährigen positiven GdE verrechnet werden, lediglich der verbleibende Verlustüberhang von 7.000.000 € unterliegt der Verlustkürzung i.S. des § 8c Abs. 1 Satz 1 KStG. In Höhe der stillen Reserven von 1.200.000 € tritt eine Verschonung ein, so dass der Verlustuntergang 5.800.000 € beträgt. Somit verbleibt der Gesellschaft letztlich ein Verlustpotential von 3.000.000 €, welches mit dem GdE des VZ 2025 noch verrechnet werden kann. Dabei sind aber die Einschränkungen des § 10d Abs. 2 EStG zu beachten." },
+      { text: "Daher ergeben sich für 2025 folgende Auswirkungen:" },
+      { typ: "tabelle", spalten: ["zvE 2025 – Abwandlung Variante a)", "Betrag"], zeilen: [
+        ["GdE", "4.000.000 €"],
+        ["./. Grundabzug", "./. 1.000.000 €"],
+        ["./. 70% von 3.000.000 €, max. 2.000.000 €", "./. 2.000.000 €"],
+        ["= zvE", "1.000.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025 – Abwandlung Variante a)", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG", "./. 5.800.000 €"],
+        ["./. Verlustvortrag nach 2023 (so in der Quelle)", "./. 3.000.000 €"],
+        ["Endbestand", "1.200.000 €"],
+      ] },
+      { text: "Variante b): In der Variante b) kann der Verlustvortrag noch mit dem unterjährigen GdE von 6.000.000 € verrechnet werden. Dass der unterjährige GdE letztlich höher ist als der Betrag, welcher im ganzen VZ 2025 erzielt wurde, ist hierfür unerheblich. Danach verbleibt der Gesellschaft letztlich ein Verlustpotential von 6.000.000 € und der Verlustüberhang von 4.000.000 € unterliegt nach Anwendung der Verschonungsregelung i.H. von 2.800.000 € der Verlustkürzung i.S. des § 8c Abs. 1 Satz 1 KStG. Daraus ergeben sich folgende Berechnungen:" },
+      { typ: "tabelle", spalten: ["zvE 2025 – Abwandlung Variante b)", "Betrag"], zeilen: [
+        ["GdE", "4.000.000 €"],
+        ["./. Grundabzug", "./. 1.000.000 €"],
+        ["./. 70% von 3.000.000 €", "./. 2.100.000 €"],
+        ["= zvE", "900.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Verlustfeststellung zum 31.12.2025 – Abwandlung Variante b)", "Betrag"], zeilen: [
+        ["Anfangsbestand", "10.000.000 €"],
+        ["./. § 8c Abs. 1 Satz 1 KStG", "./. 2.800.000 €"],
+        ["./. Verlustvortrag", "./. 3.100.000 €"],
+        ["Endbestand", "4.100.000 €"],
+      ] },
+      { text: "Rechenprobe zu Variante b) (eigene Ergänzung): Die Zahlen gehen auf. 10.000.000 € ./. 6.000.000 € unterjährig verrechnet = 4.000.000 € Überhang; abzüglich 1.200.000 € stiller Reserven ergibt sich ein Untergang von 2.800.000 €. Verschont bleiben damit 10.000.000 € ./. 2.800.000 € = 7.200.000 €, davon genutzt 1.000.000 € + 70 % × 3.000.000 € = 3.100.000 €; der Endbestand beträgt 7.200.000 € ./. 3.100.000 € = 4.100.000 €, was der Rechnung der Quelle entspricht. Auch die Gegenprobe zum Grundfall stimmt: 4.100.000 € ./. 2.900.000 € = 1.200.000 €, genau die stillen Reserven." },
+      { text: "Abweichung in Variante a) (eigene Nachrechnung): Hier geht die Rechnung der Quelle nicht auf, und die Abweichung ist erklärbar. Nach der Kürzung von 5.800.000 € verbleiben der Gesellschaft 10.000.000 € ./. 5.800.000 € = **4.200.000 €** Verlustvortrag, nicht die im Text genannten 3.000.000 €. Nach § 10d Abs. 2 EStG wären damit 1.000.000 € + 70 % × 3.000.000 € = **3.100.000 €** abziehbar, das zvE betrüge **900.000 €** und der Endbestand 4.200.000 € ./. 3.100.000 € = **1.100.000 €**. Die Quelle übernimmt dagegen die Angaben des Grundfalls unverändert – dort waren nur 3.000.000 € verschont, weshalb die Begrenzung auf 2.000.000 € zutraf. Mit den zusätzlichen stillen Reserven von 1.200.000 € entfällt dieser Grund. Die Sätze und Tabellen sind oben gleichwohl **wortlautgetreu** wiedergegeben; die abweichende eigene Rechnung steht bewusst daneben und ersetzt sie nicht." },
+      { text: "Anmerkung zur Kontrolle über den Endbestand (eigene Ergänzung): Die in Abschnitt 1.6.2.2.1 eingeführte Gegenprobe – die Differenz der Endbestände mit und ohne stille Reserven muss genau den Reserven entsprechen – trägt hier nur in Variante b): 4.100.000 € ./. 2.900.000 € = 1.200.000 €. In Variante a) ergibt sie 1.200.000 € ./. 0 € = 1.200.000 € und stimmt damit scheinbar ebenfalls, weil der Grundfall auf 0 € endete. Erst die vollständige Rechnung zeigt, dass es 1.100.000 € sein müssten und zusätzlich 100.000 € mehr Verlust genutzt worden wären. Die Probe ist also ein nützlicher, aber kein hinreichender Test." },
+      { text: "Anmerkung zur Reihenfolge der drei Schritte (eigene Ergänzung): Die Abwandlung fügt der Rechnung eine dritte Stufe hinzu, und ihre Reihenfolge ist zwingend. Zuerst wird der Verlustvortrag mit dem **unterjährigen Gewinn** verrechnet – ohne Mindestbesteuerung. Auf den danach verbleibenden **Überhang** wird die Verschonung nach § 8c Abs. 1 Satz 5 KStG angewandt. Was übrig bleibt, geht unter, und der gesamte verschonte Betrag wird schließlich im Veranlagungszeitraum nach § 10d Abs. 2 EStG – jetzt **mit** Mindestbesteuerung – genutzt. Wer die ersten beiden Schritte vertauscht, kommt zum selben Ergebnis, weil beide nur den Überhang bestimmen; wer aber die Mindestbesteuerung in den ersten Schritt zieht, rechnet erheblich zu ungünstig." },
     ],
   },
 ];
