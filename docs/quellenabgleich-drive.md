@@ -10620,6 +10620,42 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 2.3.1 und 2.3.2 – der Organträger
+
+Quelle: dieselbe Datei, Seiten 9 bis 11; übernommen als Kapitel 3 und 4. Prüfung:
+`npm run check:k2-kst-teil6` (4 Kapitel, 83 Blöcke, 5 Tabellen).
+
+**Die Quote des Beispiels ist unabhängig nachgerechnet.** Die Quelle beziffert den Anteil der eigenen
+gewerblichen Tätigkeit mit 0,09 %. Setzt man 1.000 € ins Verhältnis zur Summe aus eigenem Gewinn und
+dem Ergebnis der V-GmbH, ergeben sich 1.000 € ÷ 1.001.000 € = 0,0999 %, also gerundet 0,10 %;
+bezogen allein auf die 1.000.000 € wären es genau 0,10 %. Die Quelle hat offenbar abgeschnitten statt
+gerundet; am Ergebnis – einem Tausendstel und damit weit unterhalb der substanziellen Bedeutung –
+ändert das nichts.
+
+**Zwei sprachliche Eigenheiten sind übernommen und markiert:** der unvollständige Satz „Die M-GbR übt
+gleichzeitig eine gewerbliche Tätigkeit“ und der Satzbau „auch wenn die … Bagatellgrenze …
+übersteigt“.
+
+**Als eigene Ergänzungen eingeordnet** sind: die Erklärung, warum die Gewerblichkeit des Organträgers
+verlangt wird und welche Ausschlüsse daraus folgen; die Unterscheidung zwischen der sachlichen
+Befreiung nach § 3 GewStG, die nicht durchgreift, und der persönlichen nach § 5 KStG, die schon den
+Organträger ausschließt; die Einordnung der zeitlichen Lockerung als Abweichung von der sonstigen
+Strenge samt ihrer Begründung über den Entstehungszeitpunkt des Abführungsanspruchs; die Abgrenzung
+der derzeit ungeklärten Lage bei der atypisch stillen Beteiligung auf Organträgerseite gegenüber der
+geklärten auf Organgesellschaftsseite; die Darstellung der alten Mehrmütterorganschaft als Ziel der
+Verschärfung; die Trennlinie zwischen tatsächlicher Betätigung und bloß fingierter Gewerblichkeit,
+die beide Listen der Quelle erklärt; der Hinweis auf das Fehlen einer festen Grenze für die
+substanzielle Bedeutung samt Argumentationsvorschlag; und die Begründung des Ausschlusses
+steuerbefreiter Körperschaften und seiner Ausnahme.
+
+**Neu sind zwei Übersichten:** eine zu den Rechtsträgern, die als Organträger in Betracht kommen, und
+eine zur Abgrenzung der originär gewerblichen von den nicht ausreichenden Tätigkeiten einer
+Personengesellschaft.
+
+**Noch offen:** aus Teil VI die inländische Besteuerung des Organeinkommens (2.3.3), die finanzielle
+Eingliederung (2.4), der Gewinnabführungsvertrag (2.5) sowie die Kapitel 3 und 4; ganz offen ist der
+Skriptteil VII (Liquidation).
+
 ### KSt Teil VI (Hamacher) – neuer Bestand, Organschaft
 
 Quelle: Google Drive, „B-S25-KSt Teil VI-Organschaft (2025)-Hamacher-052025.pdf“ (Drive-ID

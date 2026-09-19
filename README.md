@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 2 Kapitel mit 42 Abschnitten und 3 Tabellen. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 4 Kapitel mit 83 Abschnitten und 5 Tabellen. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -4536,6 +4536,38 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   fehlenden Inlandsbezug. Die nach § 1a KStG **optierende** Gesellschaft scheidet aus rein
   **zivilrechtlichem** Grund aus – für sie gibt es keinen eintragungsfähigen Gewinnabführungsvertrag –,
   kann aber sehr wohl **Organträgerin** sein; die Option wirkt also in beide Richtungen verschieden.
+  **Organträger** kann nach § 14 Abs. 1 Nr. 2 KStG jedes **gewerbliche Unternehmen** sein, und zwar
+  **rechtsformunabhängig**; maßgeblich ist die Gewerblichkeit nach § 2 Abs. 1 Satz 2 GewStG. Der Grund
+  für dieses Merkmal trägt die gesamte Systematik: Die Gewerbesteuerpflicht der Organgesellschaft, die
+  stets Kapitalgesellschaft ist, soll sich auf der Ebene des Organträgers **fortsetzen** – ohne das
+  Merkmal ginge Gewerbesteuersubstrat verloren. Deshalb scheiden **Freiberufler** und **Land- und
+  Forstwirte** aus, während bei der **Kapitalgesellschaft** die Rechtsform allein genügt: Auch eine
+  dauerdefizitäre oder rein vermögensverwaltende Gesellschaft ist nach § 2 Abs. 2 GewStG
+  gewerbesteuerpflichtig. Eine Befreiung des Organträgers nach **§ 3 GewStG** greift dabei **nicht
+  durch**, weil sie eine persönliche Vergünstigung ist: Das eigene Ergebnis bleibt steuerfrei, der
+  zugerechnete Gewerbeertrag der Organgesellschaft dagegen steuerpflichtig – ein deutlicher Unterschied
+  zur persönlichen Befreiung nach § 5 KStG, die den Rechtsträger schon als Organträger ausschließt. Die
+  gewerbliche Tätigkeit muss zudem **nicht ununterbrochen** bestehen, sondern erst im Zeitpunkt der
+  **Entstehung des Gewinnabführungsanspruchs** – eine für den Steuerpflichtigen günstige Abweichung
+  von der sonstigen Strenge, die der BFH 2013 entschieden hat.
+  Für die **Personengesellschaft** als Organträger verlangt § 14 Abs. 1 Nr. 2 Satz 2 KStG zusätzlich
+  eine **originär** gewerbliche Tätigkeit von **substanzieller Bedeutung**. Diese Verschärfung zielt
+  genau auf die alte **Mehrmütterorganschaft**: Zwei Gesellschafter mit je 50 % konnten die Organschaft
+  für sich nicht begründen, weil keinem die Stimmrechtsmehrheit zukam; eine zwischengeschaltete
+  **Willensbildungsgesellschaft** bündelte die Anteile und erreichte, was den Beteiligten einzeln
+  verschlossen war. Die Trennlinie zwischen ausreichenden und nicht ausreichenden Tätigkeiten folgt
+  dabei einem klaren Muster: Ausreichend sind **tatsächliche** unternehmerische Betätigungen – die
+  Besitzgesellschaft einer Betriebsaufspaltung, entgeltliche Dienstleistungen gegenüber
+  Konzerngesellschaften und die **geschäftsleitende** Holding; nicht ausreichend ist die nur **kraft
+  gesetzlicher Fiktion** vermittelte Gewerblichkeit, also die **Prägung** nach § 15 Abs. 3 Nr. 2 EStG,
+  die **Abfärbung** nach § 15 Abs. 3 Nr. 1 EStG – auch oberhalb der Bagatellgrenze von 3 % oder
+  24.500 € – und die bloße Beteiligung an einer gewerblich tätigen Personengesellschaft. Eine teilweise
+  originäre Tätigkeit genügt, sie darf aber nicht geringfügig sein: Im Beispiel der Quelle stehen
+  1.000 € eigener Gewinn einem Beteiligungsergebnis von 1.000.000 € gegenüber, was die Quelle mit
+  0,09 % beziffert – nachgerechnet sind es 0,0999 %, also gerundet 0,10 %, was am Ergebnis nichts
+  ändert. Schließlich dürfen an der Personengesellschaft **keine steuerbefreiten Körperschaften**
+  beteiligt sein, es sei denn, das Organeinkommen wird einem wirtschaftlichen Geschäftsbetrieb
+  zugerechnet, wo es ohnehin besteuert wird.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
