@@ -211,6 +211,18 @@ test("Gastronomie trägt den 2025/2026-Rechtsstandswechsel", () => {
   assert.match(auftrag, /19 %/);
 });
 
+
+test("E-Rechnung schaltet 2027 auf Rechtsstand 2027/2026 um", () => {
+  const t = byTitle(/E-Rechnung im B2B-Inland: Übergangsfristen/i);
+  assert.match(kern(t), /800\.000/);
+  assert.equal(rechtsstandAuftrag(t, new Date("2026-09-19T12:00:00Z")), "");
+  const auftrag2027 = rechtsstandAuftrag(t, new Date("2027-02-01T12:00:00Z"));
+  assert.match(auftrag2027, /Rechtsstand 2027/);
+  assert.match(auftrag2027, /800\.000/);
+  assert.match(auftrag2027, /Rechtsstand 2026/);
+  assert.match(auftrag2027, /unabhängig von einer 800\.000-€-Umsatzgrenze/);
+});
+
 test("Jahreslogik rollt 2027 automatisch auf 2027/2026", () => {
   assert.deepEqual(rechtsstandJahre(new Date("2027-02-01T12:00:00Z")), { aktuell: 2027, vorjahr: 2026 });
   assert.deepEqual(rechtsstandJahre(new Date("2026-12-31T23:30:00Z")), { aktuell: 2027, vorjahr: 2026 });
