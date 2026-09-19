@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 19 Kapitel mit 280
-  Abschnitten und 24 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 21 Kapitel mit 315
+  Abschnitten und 26 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3072,6 +3072,28 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   zusammen eine vGA aus. Eine nachträgliche Klarstellung wirkt dabei **nur für die Zukunft**. In
   grenzüberschreitenden Fällen entfaltet allerdings der Fremdvergleichsgrundsatz des Art. 9 OECD-MA
   eine **Sperrwirkung**, weil er nur materielle, nicht aber rein formelle Abweichungen trägt.
+  Bei der **zivilrechtlichen Wirksamkeit** ist das Skript trotz seines strengen Grundsatzes
+  bemerkenswert **heilungsfreundlich**: Die unterbliebene Beteiligung der Gesellschafterversammlung
+  nach § 46 Nr. 5 GmbHG heilt eine nachträgliche Genehmigung nach § 184 BGB – spätestens die wirksame
+  Feststellung des Jahresabschlusses –, und die fehlende Befreiung vom Selbstkontrahierungsverbot des
+  § 181 BGB heilt die nachgeholte Handelsregistereintragung, die als Genehmigung des schwebend
+  unwirksamen Geschäfts wirkt. Dazu kommt eine Auffanglösung, die in der Klausur oft übersehen wird:
+  Konnten die Beteiligten nach fachkundigem Rat von der Wirksamkeit ausgehen, entsteht **trotz**
+  Unwirksamkeit keine vGA – der formelle Vergleich soll den Missbrauch der Beherrschungsmacht
+  verhindern, nicht ehrliche Rechtsirrtümer bestrafen. Nur die **qualifizierte (doppelte)
+  Schriftformklausel** sperrt sich selbst gegen jede mündliche Korrektur, während die einfache durch
+  wiederholte mündliche Anpassungen konkludent aufgehoben werden kann. Beim **Rückwirkungsverbot**
+  ist das zweite Beispiel der lehrreichste Fall des Kapitels, weil dieselbe Vereinbarung vom selben
+  Tag für drei Vergütungsbestandteile zu verschiedenen Ergebnissen führt: Das laufende Gehalt wird
+  monatsweise verdient und ist unproblematisch; **Weihnachtsgeld und Tantieme** dagegen werden für das
+  gesamte Kalenderjahr gezahlt und sind in den zurückliegenden Monaten bereits anteilig entstanden –
+  von 1.000 € Erhöhung sind 500 € vGA, von 5 Prozentpunkten Tantiemeerhöhung 2,5 Prozentpunkte. Die
+  Faustregel: Wer eine jahresbezogene Sonderzahlung erhöhen will, muss das **vor Beginn** des
+  Wirtschaftsjahres tun. Und selbst wenn alle Arbeitnehmer dieselbe rückwirkende Erhöhung erhalten,
+  bleibt es beim Verstoß – nicht weil die Höhe unangemessen wäre, sondern weil beim beherrschenden
+  Gesellschafter neben das Arbeitsverhältnis **immer** auch das Gesellschaftsverhältnis tritt. Bei der
+  Aktiengesellschaft läuft das Verbot dagegen leer, solange kein Einfluss auf den Aufsichtsrat
+  feststellbar ist.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

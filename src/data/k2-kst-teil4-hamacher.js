@@ -25,10 +25,10 @@
    (1.13). Damit ist das Kapitel 1 vollständig. Aus Kapitel 2 (Besonderheiten
    beim beherrschenden Gesellschafter) sind der Begriff des beherrschenden
    Gesellschafters (2.1) sowie der strenge formelle Vergleich mit den klaren
-   und eindeutigen Vereinbarungen (2.2 und 2.2.1) übernommen. Es folgen die
-   zivilrechtliche Wirksamkeit (2.2.2), das Rückwirkungsverbot (2.2.3), die
-   tatsächliche Durchführung (2.2.4) und die nahe stehenden Personen (2.2.5)
-   sowie die Kapitel 3 bis 6; der Campus weist den Stand aus.
+   und eindeutigen Vereinbarungen (2.2 und 2.2.1), die zivilrechtliche
+   Wirksamkeit (2.2.2) und das Rückwirkungsverbot (2.2.3) übernommen. Es folgen
+   die tatsächliche Durchführung (2.2.4) und die nahe stehenden Personen
+   (2.2.5) sowie die Kapitel 3 bis 6; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -872,6 +872,96 @@ export const kstTeil4 = [
       ] },
       { text: "Anmerkung zur Tabelle (eigene Ergänzung): Die Quelle zählt elf Einzelfälle auf, ohne sie zu ordnen; sie lassen sich aber auf fünf Muster zurückführen, und das erleichtert die Prüfung erheblich. Der gemeinsame Nenner aller fünf ist der Satz aus dem einleitenden Absatz: Die Höhe muss **allein durch Rechenvorgänge** und für einen externen Dritten nachvollziehbar feststehen. Jede Formulierung, die noch eine Entscheidung erfordert – sei es die eines Gremiums, sei es die Auswahl innerhalb einer Spanne –, genügt dem nicht. Bemerkenswert ist die letzte Zeile: Zwei Vereinbarungen können **jede für sich** einwandfrei sein und trotzdem zusammen eine vGA auslösen, weil unklar bleibt, welche gelten soll." },
       { text: "Anmerkung zur Auslegung und zur Heilung (eigene Ergänzung): Der Absatz zu § 157 BGB enthält drei Aussagen, die auseinanderzuhalten sind. **Erstens** ist eine mehrdeutige Vereinbarung nicht von vornherein verloren – sie kann ausgelegt werden, wenn von Anfang an Übereinstimmung über das Gewollte bestand; die Zweifel gehen aber zu Lasten dessen, der sich auf das nur mündlich Vereinbarte beruft, also regelmäßig zu Lasten des Steuerpflichtigen. **Zweitens** kann eine jahrelange Übung eine klare Vereinbarung ersetzen, aber frühestens ab dem Zeitpunkt, in dem sie nach außen erkennbar wird. **Drittens** – und das ist die praktisch wichtigste Aussage – wirkt die Beseitigung einer Unklarheit **nur für die Zukunft**. Eine nachträgliche Klarstellung rettet die Vergangenheit also nicht; darin liegt der Übergang zum Rückwirkungsverbot des Abschnitts 2.2.3." },
+    ],
+  },
+  {
+    id: "kst-t4-20",
+    kapitel: "20",
+    abschnittNr: "2.2.2",
+    title: "2.2.2 Zivilrechtliche Wirksamkeit – Zuständigkeit, § 181 BGB und Schriftformklauseln",
+    thema: "Ein fremder Dritter erbrächte nur, wozu er zivilrechtlich verpflichtet ist. Verfahrensmängel lassen sich aber heilen – und bei der qualifizierten Schriftformklausel wird die mündliche Gehaltserhöhung zur vGA",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 2.2.2 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "H 8.5 KStH „Zivilrechtliche Wirksamkeit“",
+      "§ 46 Nr. 5 GmbHG, § 46 Abs. 1 GmbHG",
+      "§ 181 BGB",
+      "§ 177 Abs. 1 BGB, § 184 BGB",
+      "BFH vom 31.05.1995, BStBl. II 1996, 246",
+      "BFH vom 23.10.1996, BStBl. II 1999, 35",
+      "BFH vom 17.09.1992, BStBl. II 1993, 141",
+      "BFH vom 31.07.1991, BStBl. II 1991, 933",
+      "BFH vom 24.07.1996, BStBl. II 1997, 138",
+      "BMF vom 21.12.1995, BStBl. I 1996, 50",
+    ],
+    themen: ["Zivilrechtliche Wirksamkeit", "Gesellschafterversammlung", "Selbstkontrahierungsverbot", "Genehmigung", "Schriftformklausel"],
+    bloecke: [
+      { text: "Damit Leistungsbeziehungen zwischen der Kapitalgesellschaft und dem beherrschendem Gesellschafter steuerlich anerkannt werden können, bedürfen sie der zivilrechtlichen Wirksamkeit. Dem liegt die Überlegung zugrunde, dass ein fremder Dritter grundsätzlich auch nur die Leistungen erbringen würde, zu denen er zivilrechtlich auch verpflichtet ist. Allerdings führt eine zivilrechtlich nicht wirksame Vereinbarung dann nicht zur Annahme einer verdeckten Gewinnausschüttung, wenn die Beteiligten (z.B. nach Einholung eines fachkundigen Rats) davon ausgehen konnten, dass die Vereinbarung zivilrechtlich wirksam sei. Dabei gilt folgendes: (Die Form „dem beherrschendem Gesellschafter“ steht so in der Quelle.)" },
+      { typ: "titel", text: "2.2.2.1 Zuständigkeit bei Änderungen des Anstellungsvertrages" },
+      { text: "Gemäß § 46 Nr. 5 GmbHG sowie nach der Rechtsprechung des BGH ist ausschließlich die Gesellschafterversammlung für den Abschluss und die Beendigung des Anstellungsvertrags ihres Geschäftsführers zuständig. Gleiches gilt für die Änderung und Erhöhung dieser Vereinbarungen." },
+      { text: "Eine unterbliebene Beteiligung der Gesellschafterversammlung führt daher grundsätzlich zur zivilrechtlichen Unwirksamkeit der abgeschlossenen Vereinbarungen. Die darauf beruhenden Vergütungen wären als vGA zu behandeln, wobei eine nachträgliche Genehmigung i.S. des § 184 BGB durch die Gesellschafterversammlung diesen Verfahrensmangel wieder heilen kann. Anderenfalls kann auch spätestens bei wirksamer Feststellung des Jahresabschlusses i.S. des § 46 Abs. 1 GmbHG durch die Gesellschafterversammlung die notwendige Zustimmung unterstellt werden." },
+      { typ: "titel", text: "2.2.2.2 Verstoß gegen das Selbstkontrahierungsverbot (§ 181 BGB)" },
+      { text: "Eine zivilrechtliche Unwirksamkeit liegt ebenfalls vor, wenn eine Vereinbarung zwischen der GmbH und ihrem Gesellschafter unter Verletzung des Selbstkontrahierungsverbots nach § 181 BGB zustande gekommen ist. Zur Vermeidung dieser Rechtsfolge muss sich der Gesellschafter wirksam von den Beschränkungen des § 181 BGB befreien lassen. Dies erfordert sowohl bei der eingliedrigen als auch bei mehrgliedrigen Kapitalgesellschaften eine entsprechende Regelung in der Satzung bzw. eine Ermächtigung zur Befreiungserteilung. Dies sehen die meisten Musterverträge zwischenzeitlich bereits vor." },
+      { text: "Die Eintragung dieser Befreiung im Handelsregister hat aber nur deklaratorischen Charakter. Mangelt es im Zeitpunkt des Vertragsabschlusses an der wirksamen Befreiung, ist das mit dem Gesellschafter abgeschlossene Rechtsgeschäft zunächst schwebend unwirksam (§ 177 Abs. 1 BGB). Wird die Eintragung im Handelsregister nachgeholt, wird das Rechtsgeschäft dadurch nachträglich genehmigt. Eine verdeckte Gewinnausschüttung ist dann auszuschließen, weil die Genehmigung den bisherigen Verfahrensfehler wieder beseitigt." },
+      { text: "Diese Grundsätze gelten nicht im Zusammenhang mit Verträgen einer Aktiengesellschaft, die diese mit ihren Vorständen abschließt, weil es dabei zu einer Selbstkontrahierung schon begrifflich nicht kommen kann. § 181 BGB ist in dieser Situation nicht einschlägig, weil die Verträge nur zwischen dem Vorstand und dem Aufsichtsrat abgeschlossen werden. Weil diese Organe immer personenverschieden besetzt sein müssen, kann eine Interessenkollision gerade nicht eintreten." },
+      { typ: "titel", text: "2.2.2.3 Schriftformklauseln" },
+      { text: "Vereinbarungen zwischen einer Kapitalgesellschaft und ihrem Gesellschafter unterliegen – soweit in der Satzung nichts anderes bestimmt ist – grundsätzlich keinem Formerfordernis. In diesem Zusammenhang kann es aber Schriftformklauseln geben, die wie folgt zu unterscheiden sind:" },
+      { text: "a) Qualifizierte Schriftformklausel: Enthält der Geschäftsführervertrag eine sog. qualifizierte (doppelte) Schriftformklausel, die besagt, dass Vertragsänderungen der Schriftform bedürfen und eine nur mündlich vereinbarte Aufhebung des Schriftformzwangs unwirksam sein soll, ist nach Ansicht des BFH von der zivilrechtlichen Unwirksamkeit einer nur mündlich vereinbarten Gehaltsanpassung auszugehen. Die Erhöhungsbeträge stellen dann eine vGA dar. Die Schriftformklausel müsste anderenfalls ebenfalls schriftlich aufgehoben werden." },
+      { text: "b) Einfache Schriftformklausel: Enthält der Anstellungsvertrag hingegen eine sog. einfache Schriftformklausel, wonach Vertragsänderungen der Schriftform bedürfen, kann eine spätere mündliche Vertragsanpassung auch zivilrechtlich wirksam sein." },
+      { text: "In Übereinstimmung mit dem BGH fordert der BFH, dass ein die Schriftform aufhebender Wille erkennbar war. Hieran fehlt es, wenn sich die Beteiligten – angesichts mehrfacher schriftlicher Vertragsergänzungen – stets erkennbar an die Schriftform gebunden gefühlt haben. Wurden in der Vergangenheit aber mehrmals mündliche Vertragsanpassungen vorgenommen, kann aufgrund der tatsächlichen Handhabung angenommen werden, dass die Gesellschafter die einfache Schriftformklausel zwischenzeitlich aufgehoben haben." },
+      { typ: "tabelle", spalten: ["Mangel", "Rechtsfolge zunächst", "Heilung möglich?", "Wodurch"], zeilen: [
+        ["Gesellschafterversammlung nicht beteiligt (§ 46 Nr. 5 GmbHG)", "zivilrechtlich unwirksam, Vergütung wäre vGA", "ja", "nachträgliche Genehmigung nach § 184 BGB; spätestens wirksame Feststellung des Jahresabschlusses"],
+        ["keine Befreiung von § 181 BGB", "schwebend unwirksam nach § 177 Abs. 1 BGB", "ja", "Nachholung der Eintragung im Handelsregister wirkt als Genehmigung"],
+        ["qualifizierte (doppelte) Schriftformklausel, mündliche Anpassung", "zivilrechtlich unwirksam", "nein – nur schriftlich", "auch die Schriftformklausel müsste schriftlich aufgehoben werden"],
+        ["einfache Schriftformklausel, mündliche Anpassung", "kann wirksam sein", "ja", "erkennbarer Aufhebungswille, etwa durch wiederholte mündliche Anpassungen"],
+        ["Beteiligte durften nach fachkundigem Rat von der Wirksamkeit ausgehen", "unwirksam", "keine vGA trotz Unwirksamkeit", "Vertrauensschutz nach der Rechtsprechung"],
+      ] },
+      { text: "Anmerkung zur Tabelle (eigene Ergänzung): Der Abschnitt ist trotz seines strengen Grundsatzes bemerkenswert **heilungsfreundlich** – vier der fünf Zeilen enden mit einer Rettungsmöglichkeit. Das relativiert die Schärfe des formellen Vergleichs erheblich: Wer den Verfahrensmangel bemerkt, kann ihn regelmäßig noch beseitigen. Entscheidend ist dabei die Rückwirkung der **Genehmigung**: Sowohl § 184 BGB als auch die nachgeholte Handelsregistereintragung beseitigen den Mangel von Anfang an, so dass gar keine vGA entsteht. Die einzige Ausnahme ist die qualifizierte Schriftformklausel – sie sperrt sich selbst gegen jede mündliche Korrektur." },
+      { text: "Anmerkung zum Vertrauensschutz (eigene Ergänzung): Die letzte Zeile ist die praktisch wichtigste Auffanglösung und wird in der Klausur oft übersehen. Konnten die Beteiligten – etwa nach Einholung fachkundigen Rats – von der Wirksamkeit ausgehen, entsteht **trotz** zivilrechtlicher Unwirksamkeit keine vGA. Der Gedanke dahinter ist derselbe, der den ganzen formellen Vergleich trägt: Er soll den **Missbrauch** der Beherrschungsmacht verhindern, nicht ehrliche Rechtsirrtümer bestrafen. Wo kein Gestaltungswille erkennbar ist, fehlt es an der gesellschaftsrechtlichen Veranlassung." },
+      { text: "Anmerkung zur Aktiengesellschaft (eigene Ergänzung): Der Schlussabsatz zu § 181 BGB entspricht genau dem, was der Abschnitt 2.1.2 zum Begriff der Beherrschung gesagt hat, und beruht auf derselben Struktur: Weil Vorstand und Aufsichtsrat **personenverschieden** besetzt sein müssen, kann es bei der AG weder eine Selbstkontrahierung noch eine unmittelbare Beherrschung des Vertragsabschlusses geben. Die Trennung der Organe erledigt also beide Fragen zugleich." },
+    ],
+  },
+  {
+    id: "kst-t4-21",
+    kapitel: "21",
+    abschnittNr: "2.2.3",
+    title: "2.2.3 Rückwirkungsverbot – warum das Weihnachtsgeld auch rückwärts wirkt",
+    thema: "Rückwirkende Vereinbarungen führen immer zur vGA, selbst wenn alle Arbeitnehmer dieselbe Erhöhung erhalten. Bei Sonderzahlungen greift das Verbot auch bei unterjähriger Anpassung, weil sie auf das ganze Jahr entfallen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 2.2.3 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "H 8.5 KStH „Beherrschender Gesellschafter – Rückwirkende Vereinbarung“",
+      "BFH vom 08.01.1969, BStBl. II 1969, 347",
+      "BFH vom 10.07.1974, BStBl. II 1974, 719",
+      "BFH vom 11.12.1991, BStBl. II 1992, 434",
+      "BFH vom 18.12.2002, BFH/NV 2003, 946",
+    ],
+    themen: ["Rückwirkungsverbot", "Vorausvereinbarung", "Sonderzahlungen", "Weihnachtsgeld und Tantieme", "Aktiengesellschaft"],
+    bloecke: [
+      { text: "Besonderes Augenmerk ist auf das Erfordernis der Vorausvereinbarung zu legen. Denn rückwirkende Vereinbarungen zwischen dem beherrschenden Gesellschafter und der Gesellschaft führen immer zu einer vGA (sog. Rückwirkungsverbot)." },
+      { text: "Danach sind z.B. rückwirkende Gehaltszahlungen für den beherrschenden Gesellschafter-Geschäftsführer steuerrechtlich unzulässig, gleichgültig" },
+      { text: "– ob das Gehalt erstmalig bewilligt oder erhöht wird," },
+      { text: "– ob die Gehaltsvereinbarung für ein bereits abgelaufenes Geschäftsjahr" },
+      { text: "– oder kurz vor Ablauf desselben getroffen wird." },
+      { text: "Ein Verstoß gegen das Rückwirkungsverbot liegt selbst dann vor, wenn die rückwirkend beschlossenen Vergütungen auch allen anderen Arbeitnehmern gezahlt werden. Dies deshalb, weil für den beherrschenden Gesellschafter andere Maßstäbe gelten, als für herkömmliche Arbeitnehmer. Für den beherrschenden Gesellschafter existiert neben der schuldrechtlichen Grundlage (durch den Arbeitsvertrag) immer auch die gesellschaftsrechtliche Veranlassung. Dies deshalb, weil sich dieser aufgrund der Gesellschafterstellung in höherem Maße mit „seiner“ Gesellschaft identifiziert." },
+      { text: "Zu beachten ist, dass sich das Rückwirkungsverbot immer auch bei sog. Sonderzahlungen, wie z.B. Tantiemen, Urlaubs- und Weihnachtsgeld ergeben kann. Denn diese Zahlungen erfolgen immer auf das gesamte Kalenderjahr bezogen. Erfolgt die Vereinbarung unterjährig, führen die auf die zurückliegenden Zeiträume entfallenden Vergütungen zu einer verdeckten Gewinnausschüttung." },
+      { text: "Bei einer Aktiengesellschaft ist das Rückwirkungsverbot nur dann ausnahmsweise anwendbar, wenn sich aus dem Einzelfall ergibt, dass der Mehrheitsaktionär auch den Aufsichtsrat beherrscht bzw. auf dessen Zusammensetzung entscheidenden Einfluss genommen hat, so dass dieses Organ auch seinen Eigeninteressen verpflichtet ist. Lassen sich solche Feststellungen nicht treffen, scheidet auch in den Fällen einer rückwirkenden Gehaltszahlung die Annahme einer vGA aus. Denn mangels Einfluss auf den Aufsichtsrat kann der Vereinbarung dann auch grundsätzlich keine gesellschaftsrechtliche Veranlassung anhaften." },
+      { text: "Beispiel: Der Alleingesellschafter X erhält von seiner A-GmbH ein monatliches Gehalt von 5.000 €. Mit Vertrag vom 01.11.2025 erhöht die Gesellschafterversammlung mit Wirkung zum 01.01.2025 sein Gehalt auf monatlich 7.000 €, welches der Höhe nach immer noch angemessen ist. Der Erhöhungsbetrag von 20.000 € (10 × 2.000 €) und das Novembergehalt werden am 12.11.2025 überwiesen." },
+      { text: "Lösung: Der beherrschende Gesellschafter X hat mit der Gehaltserhöhung für die Zeiträume Januar bis Oktober 2025 gegen das Rückwirkungsverbot verstoßen. Diese Erhöhungsbeträge führen daher zu verdeckten Gewinnausschüttungen. Das ausgezahlte Novembergehalt ist hingegen angemessen." },
+      { text: "Beispiel: Der Alleingesellschafter X bezieht von der A-GmbH ein monatliches Gehalt von 6.000 €, ein zusätzliches 13. Gehalt als Weihnachtsgeld sowie eine Tantieme von 15 % des Jahresüberschusses. Mit Vereinbarung der Gesellschafterversammlung vom 01.07.2025 wurde das Gehalt mit Wirkung vom 01.07.2025 auf monatlich 7.000 € erhöht. Gleichzeitig wurde die Tantieme auf 20 % gesteigert. Die Erhöhungen sind dem Grunde nach angemessen." },
+      { text: "Lösung: Die Erhöhung des laufenden Gehalts wurde ausschließlich mit Wirkung in die Zukunft vorgenommen, so dass sich hieraus kein Verstoß ergibt. Zu beachten ist aber, dass das Weihnachtsgeld auf das gesamte Kalenderjahr entfällt, so dass die Erhöhung um 1.000 € auch auf zurückliegende Monate (Januar – Juni) greift, so dass 500 € wegen des Rückwirkungsverbotes als verdeckte Gewinnausschüttung anzusehen ist. (Die Form „anzusehen ist“ steht so in der Quelle.)" },
+      { text: "Gleiches gilt auch für die Gewinntantieme, so dass die Erhöhung von 5 % in Höhe von 2,5 % als verdeckte Gewinnausschüttung gilt." },
+      { typ: "tabelle", spalten: ["Bestandteil", "Erhöhung", "Wirkung ab", "Rückwirkender Anteil", "vGA"], zeilen: [
+        ["laufendes Gehalt", "6.000 € auf 7.000 €", "01.07.2025", "keiner", "keine"],
+        ["Weihnachtsgeld (13. Gehalt)", "um 1.000 €", "bezogen auf das ganze Kalenderjahr", "Januar bis Juni, also die Hälfte", "500 €"],
+        ["Gewinntantieme", "15 % auf 20 %, also um 5 Prozentpunkte", "bezogen auf den Jahresüberschuss", "Januar bis Juni, also die Hälfte", "2,5 Prozentpunkte"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Beide Beispiele gehen auf. Erstes Beispiel: (7.000 € ./. 5.000 €) × 10 Monate = 20.000 €, genau der Erhöhungsbetrag für Januar bis Oktober; das Novembergehalt von 7.000 € ist bereits von der Vereinbarung gedeckt. Zweites Beispiel: Das Weihnachtsgeld steigt um 1.000 €, davon entfallen 6/12 auf die Zeit vor der Vereinbarung, also 500 €. Die Tantieme steigt um 20 % ./. 15 % = 5 Prozentpunkte, davon die Hälfte = 2,5 Prozentpunkte. Die Quelle nennt bei der Tantieme keinen Eurobetrag, weil der Jahresüberschuss nicht angegeben ist – die Hinzurechnung beträgt also 2,5 % des Jahresüberschusses." },
+      { text: "Anmerkung zum zweiten Beispiel (eigene Ergänzung): Es ist der lehrreichste Fall des Abschnitts, weil **dieselbe Vereinbarung vom selben Tag** für die drei Vergütungsbestandteile zu unterschiedlichen Ergebnissen führt. Das laufende Gehalt ist unproblematisch, weil es monatsweise verdient wird und die Erhöhung erst ab Juli greift. Weihnachtsgeld und Tantieme dagegen werden **für das gesamte Kalenderjahr** gezahlt – sie sind wirtschaftlich schon in den ersten sechs Monaten anteilig entstanden, und insoweit wirkt die Erhöhung zurück. Die Faustregel lautet deshalb: Bei jahresbezogenen Vergütungen führt **jede** unterjährige Erhöhung zu einer anteiligen vGA, gleichgültig wie die Vereinbarung datiert ist. Wer eine Sonderzahlung erhöhen will, muss das vor Beginn des Wirtschaftsjahres tun." },
+      { text: "Anmerkung zur Gleichbehandlung mit anderen Arbeitnehmern (eigene Ergänzung): Der Satz, dass ein Verstoß selbst dann vorliegt, wenn **alle** Arbeitnehmer dieselbe rückwirkende Erhöhung erhalten, ist überraschend und schneidet das naheliegendste Gegenargument ab. Die Begründung der Quelle ist dabei nicht die Angemessenheit – die steht ja außer Frage –, sondern der doppelte Veranlassungszusammenhang: Beim beherrschenden Gesellschafter tritt neben das Arbeitsverhältnis **immer** auch das Gesellschaftsverhältnis. Genau deshalb hilft der Fremdvergleich hier nicht weiter; es bleibt beim formellen Maßstab." },
+      { text: "Anmerkung zur Aktiengesellschaft (eigene Ergänzung): Zum dritten Mal in diesem Kapitel entscheidet dieselbe Frage – ob der Mehrheitsaktionär Einfluss auf den Aufsichtsrat hat. Lässt sich das nicht feststellen, scheidet die vGA aus, und zwar **auch bei ausdrücklich rückwirkender** Gehaltsvereinbarung. Das Rückwirkungsverbot ist damit kein Selbstzweck, sondern nur ein Beweisanzeichen für die gesellschaftsrechtliche Veranlassung: Wo diese von vornherein fehlt, läuft es leer." },
     ],
   },
 ];

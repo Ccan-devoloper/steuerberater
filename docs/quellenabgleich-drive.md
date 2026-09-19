@@ -10620,6 +10620,58 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 2.2.2 und 2.2.3 – Wirksamkeit und Rückwirkungsverbot
+
+Quelle: dieselbe Datei, Seiten 29 bis 33; übernommen als Kapitel 20 und 21. Prüfung:
+`npm run check:k2-kst-teil4` (21 Kapitel, 315 Blöcke, 26 Tabellen).
+
+**Der Abschnitt ist trotz seines strengen Grundsatzes bemerkenswert heilungsfreundlich** – das
+arbeitet der Datensatz in einer Fünfzeilentabelle heraus: Vier der fünf Konstellationen enden mit
+einer Rettungsmöglichkeit. Entscheidend ist dabei die Rückwirkung der **Genehmigung**: Sowohl § 184
+BGB als auch die nachgeholte Handelsregistereintragung beseitigen den Mangel von Anfang an, so dass
+gar keine vGA entsteht. Die einzige Ausnahme ist die qualifizierte Schriftformklausel, die sich
+selbst gegen jede mündliche Korrektur sperrt.
+
+**Die Auffanglösung des Vertrauensschutzes** ist eigens hervorgehoben, weil sie leicht übersehen
+wird: Konnten die Beteiligten nach fachkundigem Rat von der Wirksamkeit ausgehen, entsteht **trotz**
+zivilrechtlicher Unwirksamkeit keine vGA. Der Gedanke ist derselbe, der den ganzen formellen
+Vergleich trägt – er soll den Missbrauch der Beherrschungsmacht verhindern, nicht ehrliche
+Rechtsirrtümer bestrafen.
+
+**Zum dritten Mal in diesem Kapitel entscheidet bei der Aktiengesellschaft dieselbe Frage**, und der
+Datensatz verknüpft die Stellen: Weil Vorstand und Aufsichtsrat personenverschieden besetzt sein
+müssen, gibt es weder eine Selbstkontrahierung (2.2.2.2) noch eine unmittelbare Beherrschung des
+Vertragsabschlusses (2.1.2) – und beim Rückwirkungsverbot (2.2.3) läuft die Vorschrift leer, solange
+kein Einfluss auf den Aufsichtsrat feststellbar ist.
+
+**Das zweite Beispiel zum Rückwirkungsverbot ist der lehrreichste Fall des Kapitels**, weil
+**dieselbe Vereinbarung vom selben Tag** für drei Vergütungsbestandteile zu unterschiedlichen
+Ergebnissen führt. Der Datensatz stellt sie in einer Tabelle nebeneinander und leitet die Faustregel
+ab: Das laufende Gehalt wird monatsweise verdient und ist unproblematisch; Weihnachtsgeld und
+Tantieme werden dagegen für das **gesamte Kalenderjahr** gezahlt und sind in den zurückliegenden
+Monaten bereits anteilig entstanden. Bei jahresbezogenen Vergütungen führt deshalb **jede**
+unterjährige Erhöhung zu einer anteiligen vGA – wer erhöhen will, muss das vor Beginn des
+Wirtschaftsjahres tun.
+
+**Beide Beispiele sind nachgerechnet und gehen auf:** (7.000 € ./. 5.000 €) × 10 Monate = 20.000 €;
+Weihnachtsgeld 1.000 € × 6/12 = 500 €; Tantieme 20 % ./. 15 % = 5 Prozentpunkte, davon die Hälfte =
+2,5 Prozentpunkte. Der Datensatz vermerkt als eigene Ergänzung, dass die Quelle bei der Tantieme
+keinen Eurobetrag nennen kann, weil der Jahresüberschuss nicht angegeben ist.
+
+**Das überraschendste Ergebnis** ist eigens eingeordnet: Ein Verstoß liegt selbst dann vor, wenn
+**alle** Arbeitnehmer dieselbe rückwirkende Erhöhung erhalten. Die Begründung der Quelle ist dabei
+nicht die Angemessenheit – die steht außer Frage –, sondern der doppelte Veranlassungszusammenhang:
+Beim beherrschenden Gesellschafter tritt neben das Arbeitsverhältnis immer auch das
+Gesellschaftsverhältnis. Genau deshalb hilft der Fremdvergleich hier nicht weiter.
+
+**Wortlautgetreu übernommen und gekennzeichnet:**
+
+- „zwischen der Kapitalgesellschaft und dem **beherrschendem** Gesellschafter“.
+- „so dass 500 € wegen des Rückwirkungsverbotes als verdeckte Gewinnausschüttung **anzusehen ist**“.
+
+**Noch offen:** aus Teil IV die tatsächliche Durchführung (2.2.4) und die nahe stehenden Personen
+(2.2.5) sowie die Kapitel 3 bis 6; ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 2.1 bis 2.2.1 – der beherrschende Gesellschafter
 
 Quelle: dieselbe Datei, Seiten 25 bis 29; übernommen als Kapitel 18 und 19. Prüfung:
