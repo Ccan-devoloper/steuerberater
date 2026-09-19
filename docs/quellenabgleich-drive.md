@@ -10620,6 +10620,45 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 4.1.4 bis 4.1.6 – Abschnitt 4.1 ist vollständig
+
+Quelle: dieselbe Datei, Seiten 46 bis 48; übernommen als Kapitel 32 und 33. Prüfung:
+`npm run check:k2-kst-teil4` (33 Kapitel, 504 Blöcke, 45 Tabellen).
+
+**Alle Zahlen des Beispiels zum teilweise veranlassten Passivposten sind unabhängig nachgerechnet und
+gehen auf:** vGA 50 % von 100.000 € = 50.000 €; verdeckte Einlage 40 % von 100.000 € = 40.000 €;
+verbleibende Gewinnerhöhung 60.000 €, davon 50 % = 30.000 €; Variante a) 100.000 € ./. 40.000 € ./.
+30.000 € = 30.000 €; Variante b) 100.000 € ./. 40.000 € = 60.000 €.
+
+**Die Reihenfolge der beiden Abzüge ist als eigene Ergänzung hervorgehoben.** Die Quelle rechnet die
+verdeckte Einlage zuerst ab und wendet die Quote erst auf den Rest an. Wendete man die 50 % auf die
+vollen 100.000 € an, ergäben sich 50.000 € verrechenbarer Betrag und ein zu versteuerndes Einkommen
+von nur 10.000 €. Die Quelle benennt die Folge ihrer Reihenfolge selbst: 20.000 € Teilbetrag II gehen
+ungenutzt unter. Ebenfalls eigens festgehalten ist, dass der Teilbetrag I damit auf Gesellschaftsebene
+doch nicht ganz bedeutungslos ist – er liefert die Quote, auch wenn seine unmittelbare
+Einkommenswirkung null bleibt.
+
+**Eine Formulierung der Quelle ist wortlautgetreu übernommen und markiert:** „bildet zum 31.12.2023
+gegenüber eine Tantiemerückstellung“ – das „gegenüber“ steht ohne Bezugswort.
+
+**Die Kapitalertragsteuerspirale ist als eigene Ergänzung ausformuliert.** Die Quelle beschreibt die
+zweite vGA und verweist für die Berechnung auf Tz. 183a des BMF-Schreibens, erklärt den
+selbstverstärkenden Charakter aber nicht; die Ergänzung zeigt, dass die Übernahme wieder Steuer
+auslöst und die Spirale erst durch Hochrechnung auf den Bruttobetrag aufgelöst wird. Ebenfalls eigens
+hergeleitet ist der Grund für den unterschiedlichen Umgang mit in- und ausländischen Anteilseignern:
+Beim inländischen ist die Kapitalertragsteuer nur Erhebungsform und würde ohnehin angerechnet, beim
+ausländischen wirkt der Abzug abgeltend.
+
+**Der abweichende Zeitpunkt beim Einlagekonto ist als eigene Feststellung eingeordnet** und knüpft an
+Abschnitt 4.1.2 an: Die Hinzurechnung folgt der Gewinnbeeinflussung, die Verwendung des Einlagekontos
+dem tatsächlichen Abfluss – beide können in verschiedene Veranlagungszeiträume fallen. Aus dem
+Zusammenspiel von Ratenunterstellung, Aufteilung auf sämtliche Leistungen und Verwendungsfestschreibung
+ist als eigene Schlussfolgerung festgehalten, dass für die nachträglich aufgedeckte vGA praktisch kaum
+je Einlagekonto zur Verfügung steht.
+
+**Noch offen:** aus Teil IV die Auswirkungen beim Gesellschafter (4.2) und die Kapitel 5
+(Dreiecksfälle) und 6 (Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitt 4.1.3.2 – Bedeutung und Auflösung der Teilbeträge
 
 Quelle: dieselbe Datei, Seiten 44 bis 46; übernommen als Kapitel 30 und 31. Prüfung:

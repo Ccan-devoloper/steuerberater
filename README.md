@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 31 Kapitel mit 474
-  Abschnitten und 41 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 33 Kapitel mit 504
+  Abschnitten und 45 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3240,6 +3240,42 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Teilbeträge dabei auseinanderlaufen, ist bei Pensionszusagen der Normalfall – und für den
   Gesellschafter gilt der größere: Fließt ihm später die Pension zu, sind die vollen 62.000 € als
   Beteiligungsertrag anzusetzen, obwohl bei der Gesellschaft nur 12.000 € hinzugerechnet wurden.
+  Ist der Passivposten nur **teilweise** gesellschaftsrechtlich veranlasst, wird die Gewinnerhöhung im
+  Verhältnis des **Teilbetrags I zum gesamten Bilanzposten** aufgeteilt. Der Fall lebt davon, dass zwei
+  ganz verschiedene Quoten aufeinandertreffen: Die 50 % beschreiben, welcher Teil der Rückstellung von
+  Anfang an gesellschaftsrechtlich veranlasst war – eine Frage des Fremdvergleichs –, die 40 %, wie
+  werthaltig der Anspruch im Zeitpunkt des Verzichts noch war – eine Frage der Bonität. Entscheidend
+  ist die **Reihenfolge** der beiden Abzüge: Die Quelle zieht erst die verdeckte Einlage von 40.000 €
+  ab und wendet die Quote dann auf den **Rest** an, so dass nur 50 % von 60.000 € = 30.000 € mit dem
+  Teilbetrag II verrechnet werden können statt 50.000 €. Die Folge benennt sie selbst – 20.000 €
+  Teilbetrag II gehen **ungenutzt unter**, dieser Teil der bereits versteuerten vGA wird nie wieder
+  abgezogen. Im Ergebnis 30.000 € zu versteuerndes Einkommen in der Variante a), 60.000 € in der
+  Variante b). Nebenbei zeigt der Fall, dass der **Teilbetrag I** auf der Ebene der Gesellschaft doch
+  nicht ganz bedeutungslos ist: Seine unmittelbare Einkommenswirkung bleibt null, aber er liefert die
+  Quote. Die Posten der **Aktivseite** erledigt die Quelle mit einem Verweis auf 1.5.2.1 – und darin
+  liegt der Merksatz des ganzen Abschnitts 4.1: Bei Passivposten bleibt die Bilanz unberührt, bei
+  Aktivposten ist ausnahmsweise zuerst die Bilanz zu berichtigen.
+  Die **Kapitalertragsteuer** entsteht, weil die vGA beim Anteilseigner zu Bezügen nach § 20 Abs. 1
+  Nr. 1 Satz 2 EStG führt. Bei **inländischen** Anteilseignern kann auf die Nacherhebung verzichtet
+  werden, wenn die Nachversteuerung zweifelsfrei sichergestellt ist – der Grund ist rein
+  verfahrensrechtlich: Die Kapitalertragsteuer ist nur Erhebungsform, und wird derselbe Betrag ohnehin
+  veranlagt, würde sie anschließend angerechnet. Beim **ausländischen** Anteilseigner fehlt gerade
+  dieses Veranlagungsverfahren, der Abzug wirkt abgeltend, und deshalb lässt § 50d Abs. 1 EStG keinen
+  Verzicht zu; ein Freistellungsbescheid des Bundeszentralamts im Zeitpunkt des Zuflusses hindert die
+  Erhebung. Übernimmt die Gesellschaft die Steuer, ohne zurückzufordern, entsteht eine **zweite vGA**,
+  die die Bemessungsgrundlage erhöht, woraus wieder Steuer entsteht – diese Spirale löst Tz. 183a des
+  BMF-Schreibens vom 19.05.2022 rechnerisch durch Hochrechnung auf.
+  Beim **steuerlichen Einlagekonto** gilt die vGA als Leistung i. S. des § 27 Abs. 1 Satz 3 KStG, geht
+  aber erst im Zeitpunkt des tatsächlichen **Abflusses** in die Verwendungsreihenfolge ein – hier löst
+  sich ein, was Abschnitt 4.1.2 nur angedeutet hatte: Für das Einlagekonto gilt ein **anderer
+  Zeitpunkt** als für die Hinzurechnung, beide können in verschiedene Veranlagungszeiträume fallen.
+  Bei Ratenzahlung wird unterstellt, dass die Raten zunächst den angemessenen Kaufpreis abdecken, was
+  den Abfluss der vGA so weit wie möglich nach hinten schiebt. Weil sich die Verwendung auf
+  **sämtliche** Leistungen des Veranlagungszeitraums bezieht, lässt sich der Bestand keiner einzelnen
+  Ausschüttung zuordnen. Und weil die vGA regelmäßig nicht erklärt und deshalb beim Einlagekonto nicht
+  erfasst wurde, greift die **Verwendungsfestschreibung** des § 27 Abs. 5 KStG – im Ergebnis steht für
+  die nachträglich aufgedeckte vGA praktisch kaum je Einlagekonto zur Verfügung, sie bleibt also fast
+  immer ein voll steuerpflichtiger Bezug. **Damit ist der Abschnitt 4.1 vollständig.**
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

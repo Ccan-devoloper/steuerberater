@@ -40,10 +40,13 @@
    Betriebsausgaben (4.1.2) und bei der Passivierung von Verpflichtungen
    (4.1.3) sowie der Wegfallgewinn mit der Teilbetragsrechnung (4.1.3.1)
    übernommen, dazu die Bedeutung der Teilbeträge (4.1.3.2 mit Teilbetrag I,
-   Teilbetrag II und der Fortschreibung) und ihre Auflösung (4.1.3.2.4). Es
-   folgt die Besonderheit des nur teilweise gesellschaftsrechtlich veranlassten
-   Passivpostens sowie die übrigen Abschnitte der Kapitel 4 bis 6; der Campus
-   weist den Stand aus.
+   Teilbetrag II und der Fortschreibung) und ihre Auflösung (4.1.3.2.4)
+   einschließlich des nur teilweise gesellschaftsrechtlich veranlassten
+   Passivpostens, dazu die Posten der Aktivseite (4.1.4), die
+   Kapitalertragsteuer (4.1.5) und das steuerliche Einlagekonto (4.1.6). Damit
+   ist der Abschnitt 4.1 vollständig. Es folgen die Auswirkungen beim
+   Gesellschafter (4.2) und die Kapitel 5 und 6; der Campus weist den Stand
+   aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -1448,6 +1451,103 @@ export const kstTeil4 = [
       { text: "Anmerkung zum Vergleich der beiden Abwandlungen (eigene Ergänzung): Die beiden Abwandlungen unterscheiden sich in einem einzigen Sachverhaltsmerkmal – der **Werthaltigkeit** des Anspruchs – und führen doch zu ganz verschiedenen Begründungen. Ist der Anspruch werthaltig, opfert der Gesellschafter etwas Wertvolles: Das ist eine **verdeckte Einlage**, sie wird nach § 8 Abs. 3 Satz 3 KStG abgezogen und dem Einlagekonto gutgeschrieben, und zwar in **beiden** Unterfällen gleichermaßen – der Teilbetrag II wird hier gar nicht gebraucht. Ist der Anspruch wertlos, opfert er nichts: Dann gibt es keine Einlage, der Auflösungsertrag bleibt zunächst stehen, und nur der Teilbetrag II kann ihn noch beseitigen. **Erst hier** trennen sich die Unterfälle a) und b) – und nur hier zeigt sich, was das Versäumnis des Finanzamts im Unterfall b) wert war." },
       { text: "Anmerkung zum Satz von der Einkommensauswirkung 0 € (eigene Ergänzung): Der Satz, im Fall des Teilbetrags II von 0 € ergebe sich „per Saldo“ eine Einkommensauswirkung von 0 €, ist die entscheidende Rechtfertigung des ganzen Systems und verdient eine Zweiperiodenbetrachtung. Im Unterfall b) hat sich 2023 ein Aufwand von 100.000 € ausgewirkt, 2024 ein Ertrag von 100.000 € – über beide Jahre also null. Die vGA ist damit nicht nachversteuert worden, sondern nur der zu Unrecht gebliebene Abzug **rückgängig** gemacht. Das ist etwas anderes als eine Nachholung der Hinzurechnung, und die Quelle betont diesen Unterschied ausdrücklich: Eine Nachholung wäre unzulässig, eine bloße Rückabwicklung des Aufwands nicht. Wirtschaftlich büßt der Fiskus trotzdem ein – ihm entgeht der **Zinsvorteil** und, sofern sich die Steuersätze oder die Verlustlage geändert haben, auch mehr als das." },
       { text: "Anmerkung zum Pensionsbeispiel (eigene Ergänzung): Es führt die Fortschreibung aus Abschnitt 4.1.3.2.3 unmittelbar vor und zeigt, dass eine erstmalige Beanstandung immer nur **in die Zukunft** wirkt. Das Finanzamt kann 2024 nicht die gesamte Rückstellung von 62.000 € aufgreifen, sondern nur die Zuführung des Jahres von 12.000 € – der Altbestand bleibt durch die Bestandskraft von 2023 geschützt. Dass die beiden Teilbeträge dabei **auseinanderlaufen** (62.000 € gegenüber 12.000 €), ist der Normalfall bei Pensionszusagen und genau der Grund, weshalb zwei Zahlen geführt werden müssen. Für den Gesellschafter gilt dabei der **größere** Betrag: Fließt ihm später die Pension zu, sind nach Abschnitt 4.1.3.2.1 die vollen 62.000 € als Beteiligungsertrag anzusetzen, obwohl bei der Gesellschaft nur 12.000 € hinzugerechnet wurden." },
+    ],
+  },
+  {
+    id: "kst-t4-32",
+    kapitel: "32",
+    abschnittNr: "4.1.4",
+    title: "4.1.3.2.4 (Fortsetzung) und 4.1.4 – der nur teilweise veranlasste Passivposten",
+    thema: "Ist der Passivposten nur teilweise gesellschaftsrechtlich veranlasst, wird die Gewinnerhöhung im Verhältnis des Teilbetrags I zum gesamten Bilanzposten aufgeteilt. Nur dieser Anteil kann mit dem Teilbetrag II verrechnet werden",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 4.1.3.2.4 (Schluss) und 4.1.4 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8 Abs. 3 Satz 3 KStG",
+      "§ 27 KStG",
+      "BMF vom 28.05.2002, BStBl. I 2002, 603, Tz. 22 und 23",
+    ],
+    themen: ["teilweise veranlasster Passivposten", "Aufteilung der Gewinnerhöhung", "Teilbetrag I als Maßstab", "verdeckte Einlage", "Werthaltigkeit", "Posten der Aktivseite"],
+    bloecke: [
+      { text: "Eine Besonderheit ergibt sich in den Fällen, in denen der Passivposten nur teilweise gesellschaftsrechtlich veranlasst ist. Bei einer späteren gewinnwirksamen Auflösung dieses Bilanzpostens ist die Gewinnerhöhung daher entsprechend aufzuteilen. Dafür ist das Verhältnis des kompletten Bilanzpostens zum Teilbetrag I maßgebend. Nur in dieser Maximalhöhe ist die Gewinnerhöhung gesellschaftsrechtlich veranlasst und kann mit dem Teilbetrag II verrechnet werden." },
+      { text: "Beispiel: Die A-GmbH bildet zum 31.12.2023 gegenüber eine Tantiemerückstellung von 100.000 € zugunsten ihres Alleingesellschafters, die in Höhe von 50 % nicht anzuerkennen ist. Das Finanzamt hat den Aufwand bei der Veranlagung 2023 a) 50 % des Aufwandes wieder hinzugerechnet b) nicht hinzugerechnet und die Veranlagung ist bestandskräftig. Der Gesellschafter verzichtet in 2024 auf seinen Anspruch. Dieser ist noch in Höhe von 40 % werthaltig. (Die Form „bildet zum 31.12.2023 gegenüber eine Tantiemerückstellung“ steht so in der Quelle.)" },
+      { text: "Lösung: Die Tantiemerückstellung ist unabhängig davon, dass es sich dabei um eine verdeckte Gewinnausschüttung handelt, in der Bilanz zu passivieren. Der Aufwand von 50.000 € ist nur außerbilanziell wieder hinzuzurechnen." },
+      { text: "Danach beträgt in dem Unterfall a) der Teilbetrag I und II jeweils 50.000 €." },
+      { text: "Im Unterfall b) ist die Hinzurechnung unterblieben und kann in keinem anderen VZ mehr nachgeholt werden. Der Teilbetrag I beträgt daher 50.000 € und der Teilbetrag II 0 €." },
+      { text: "Der Verzicht auf die Tantieme führt in 2024 zunächst zu einer gewinnwirksamen Ausbuchung (Stufe 1: + 100.000 €). Da der Verzicht aber gesellschaftsrechtlich veranlasst ist, liegt in Höhe von 40 % des werthaltigen Betrags eine verdeckte Einlage vor. Daher ist das Einkommen nach § 8 Abs. 3 Satz 3 KStG außerbilanziell um 40.000 € zu reduzieren. Gleichzeitig erhöht sich der Bestand des steuerlichen Einlagekontos i.S. des § 27 KStG ebenfalls um 40.000 €." },
+      { text: "Die verbleibenden 60.000 € sind in der Fallvariante a) anteilig mit dem Teilbetrag II zu verrechnen. Da dieser Bilanzposten aber nur in Höhe von 50 % gesellschaftsrechtlich veranlasst war, kann die Gewinnerhöhung auch nur in dieser Höhe (= 50 % von 60.000 € = 30.000 €) mit der vGA zusammenhängen (100.000 € zu Teilbetrag I von 50.000 €). Daher kann der Teilbetrag II in dieser Variante auch nur in Höhe von 30.000 € mit der Einkommenserhöhung verrechnet werden; der Restbetrag geht ungenutzt unter." },
+      { typ: "tabelle", spalten: ["Fallvariante a): Teilbetrag II = 50.000 €", "Betrag"], zeilen: [
+        ["Gewinn aus der Ausbuchung der Rückstellung (Stufe 1)", "100.000 €"],
+        ["abzüglich verdeckte Einlage (40 % werthaltig), § 8 Abs. 3 Satz 3 KStG", "./. 40.000 €"],
+        ["abzüglich Teilbetrag II, soweit verrechenbar (50 % von 60.000 €)", "./. 30.000 €"],
+        ["zu versteuerndes Einkommen", "30.000 €"],
+      ] },
+      { text: "In der Fallvariante b) ist die Gewinnerhöhung mangels Teilbetrag II in voller Höhe zu besteuern." },
+      { typ: "tabelle", spalten: ["Fallvariante b): Teilbetrag II = 0 €", "Betrag"], zeilen: [
+        ["Gewinn aus der Ausbuchung der Rückstellung (Stufe 1)", "100.000 €"],
+        ["abzüglich verdeckte Einlage (40 % werthaltig), § 8 Abs. 3 Satz 3 KStG", "./. 40.000 €"],
+        ["zu versteuerndes Einkommen", "60.000 €"],
+      ] },
+      { typ: "titel", text: "4.1.4 Verdeckte Gewinnausschüttung bei Posten der Aktivseite" },
+      { text: "Zu den Auswirkungen dieser vGA siehe auch unter 1.5.2.1." },
+      { text: "Rechenproben (eigene Ergänzung): Alle Zahlen gehen auf. Die vGA beträgt 50 % von 100.000 € = 50.000 €, und genau dieser Betrag ist der Teilbetrag I. Die verdeckte Einlage beträgt 40 % von 100.000 € = 40.000 €. Von den verbleibenden 60.000 € sind 50 % = 30.000 € gesellschaftsrechtlich veranlasst. Fallvariante a): 100.000 € ./. 40.000 € ./. 30.000 € = 30.000 €. Fallvariante b): 100.000 € ./. 40.000 € = 60.000 €. Der Unterschied zwischen beiden Varianten beträgt genau die verrechneten 30.000 €." },
+      { text: "Anmerkung zur Reihenfolge der beiden Abzüge (eigene Ergänzung): Die Quelle rechnet die verdeckte Einlage **zuerst** ab und wendet den Anteilssatz erst auf den **Rest** an – das ist die entscheidende und leicht zu übersehende Feinheit. Würde man die 50 % auf die vollen 100.000 € anwenden, ergäben sich 50.000 € verrechenbarer Betrag und ein zu versteuerndes Einkommen von nur 10.000 €. Weil die Quelle aber erst die 40.000 € abzieht, bleiben nur 30.000 € übrig. Die Folge benennt sie selbst: Vom Teilbetrag II gehen **20.000 € ungenutzt unter** – dieser Teil der bereits versteuerten vGA wird also niemals wieder abgezogen. Wirtschaftlich trägt der Steuerpflichtige diesen Betrag endgültig." },
+      { text: "Anmerkung zum Maßstab der Aufteilung (eigene Ergänzung): Die Quelle formuliert den Maßstab als „Verhältnis des kompletten Bilanzpostens zum Teilbetrag I“ und nennt im Beispiel „100.000 € zu Teilbetrag I von 50.000 €“ – anzuwenden ist also der Bruch **Teilbetrag I geteilt durch Bilanzposten**, hier 50.000 € ÷ 100.000 € = 50 %. Der **Teilbetrag I** ist damit auch auf der Ebene der Gesellschaft nicht ganz bedeutungslos, obwohl Abschnitt 4.1.3.2.1 ihn dort als bloß symbolisch bezeichnet: Er liefert die **Quote**, mit der die Gewinnerhöhung aufgeteilt wird. Seine unmittelbare Einkommenswirkung bleibt null, seine mittelbare nicht." },
+      { text: "Anmerkung zum Zusammenspiel der beiden Prozentsätze (eigene Ergänzung): Der Fall lebt davon, dass zwei ganz verschiedene Quoten aufeinandertreffen, die nichts miteinander zu tun haben. Die **50 %** beschreiben, welcher Teil der Rückstellung von Anfang an gesellschaftsrechtlich veranlasst war – eine Frage des Fremdvergleichs. Die **40 %** beschreiben, wie werthaltig der Anspruch im Zeitpunkt des Verzichts noch war – eine Frage der Bonität der Gesellschaft. Wer die beiden Zahlen verwechselt oder miteinander multipliziert, kommt zwangsläufig zum falschen Ergebnis. Bemerkenswert ist dabei, dass die verdeckte Einlage die **vollen** 40 % des Rückstellungsbetrags erfasst und nicht etwa nur den angemessenen Teil: Der Verzicht auf den werthaltigen Teil einer Forderung ist eine Einlage, gleichgültig, ob die Forderung selbst angemessen war." },
+      { text: "Anmerkung zum kurzen Abschnitt 4.1.4 (eigene Ergänzung): Die Quelle erledigt die Posten der **Aktivseite** mit einem einzigen Verweis auf Abschnitt 1.5.2.1, und das ist sachlich richtig: Dort ist der Fall der überteuerten Anschaffung eines aktivierungspflichtigen Wirtschaftsguts ausführlich behandelt – mit der Bilanzberichtigung, der Abschreibung als bloßer Reflexwirkung und den Folgen der Bestandskraft. Der Gegensatz zur Passivseite ist dabei der eigentliche Merksatz des ganzen Abschnitts 4.1: Bei **Passivposten** bleibt die Bilanz unberührt und es wird nur außerbilanziell korrigiert; bei **Aktivposten** ist ausnahmsweise **zuerst die Bilanz** zu berichtigen, und erst der dadurch entstehende Aufwand trägt die Hinzurechnung." },
+    ],
+  },
+  {
+    id: "kst-t4-33",
+    kapitel: "33",
+    abschnittNr: "4.1.6",
+    title: "4.1.5 Kapitalertragsteuer und 4.1.6 steuerliches Einlagekonto",
+    thema: "Die vGA löst grundsätzlich Kapitalertragsteuer aus; bei inländischen Anteilseignern kann auf die Nacherhebung verzichtet werden. Sie gilt zugleich als Leistung i. S. des § 27 KStG – erst im Zeitpunkt des Abflusses",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitte 4.1.5 und 4.1.6 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 3 EStG",
+      "§ 43 Abs. 1 Nr. 1 EStG",
+      "§ 44b EStG",
+      "§ 43b EStG",
+      "§ 50d Abs. 1 EStG",
+      "§ 27 Abs. 1 Satz 3 und 5 KStG",
+      "§ 27 Abs. 5 KStG",
+      "BFH vom 03.07.1968, BStBl. II 1969, 4",
+      "BFH vom 20.01.1999, BStBl. II 1999, 369",
+      "BMF vom 19.05.2022, BStBl. I 2022, 742, Tz. 183a",
+      "BMF vom 04.06.2003, Tz. 11 und 12",
+    ],
+    themen: ["Kapitalertragsteuer", "Nacherhebung", "ausländischer Anteilseigner", "übernommene Kapitalertragsteuer", "steuerliches Einlagekonto", "Verwendungsreihenfolge", "Verwendungsfestschreibung", "Einlagenrückgewähr"],
+    bloecke: [
+      { text: "Weil die verdeckte Gewinnausschüttung beim Anteilseigner zu Bezügen i.S. des § 20 Abs. 1 Nr. 1 Satz 2 EStG führt, unterliegt dieser Bezug grundsätzlich auch dem Kapitalertragsteuerabzug i.S. des § 43 Abs. 1 Nr. 1 EStG. Der Tatbestand der vGA wird aber im Allgemeinen erst nachträglich aufgedeckt, z.B. im Rahmen einer Betriebsprüfung. Daher dürfte die Kapitalgesellschaft für diesen Sachverhalt auch noch keine Kapitalertragsteueranmeldung abgegeben haben. Hinsichtlich der Frage der Nacherhebung der Kapitalertragsteuer ist daher wie folgt zu unterscheiden:" },
+      { text: "Inländischer Anteilseigner: Auf die Nacherhebung der Kapitalertragsteuer kann verzichtet werden, wenn die Nachversteuerung des Vorgangs auf Ebene des Anteilseigners zweifelsfrei sichergestellt ist. Denn der BFH räumt dem Veranlagungsverfahren gegenüber dem Anmeldungsverfahren einen Vorrang ein." },
+      { text: "Ausländischer Anteilseigner: Bei einem ausländischen Anteilseigner ist diese Annahme in aller Regel nicht erfüllt, so dass auf eine Nacherhebung der Kapitalertragsteuer nicht verzichtet werden kann (§ 50d Abs. 1 EStG). Für die Erstattung der Kapitalertragsteuer (z.B. nach § 44b EStG) oder die Freistellung nach § 50d i.V.m. z.B. § 43b EStG ist das Bundeszentralamt für Steuern zuständig. Liegt im Zeitpunkt des Zuflusses der verdeckten Gewinnausschüttung ein solcher Freistellungsbescheid vor, ist von der Erhebung der Kapitalertragsteuer abzusehen." },
+      { text: "Die in diesem Zusammenhang erhobene Kapitalertragsteuer schuldet unverändert der Anteilseigner, so dass in den Fällen, in denen die Kapitalgesellschaft diese übernimmt und daher von einer Rückforderung absieht, eine weitere verdeckte Gewinnausschüttung entsteht. Damit würde die übernommene Kapitalertragsteuer (zzgl. Solz) den Betrag der verdeckten Gewinnausschüttung und damit die Bemessungsgrundlage der Kapitalertragsteuer entsprechend erhöhen. Zur Berechnung der Kapitalertragsteuer wird auf Tz. 183a des BMF-Schreibens vom 19.05.2022 verwiesen." },
+      { typ: "titel", text: "4.1.6 Verwendung des steuerlichen Einlagekontos" },
+      { text: "Die verdeckte Gewinnausschüttung gilt bei der Kapitalgesellschaft als „Leistung“ i.S. des § 27 Abs. 1 Satz 3 KStG, welche grundsätzlich auch zu einer Verwendung des steuerlichen Einlagekontos führen kann. Diese ist erst im Zeitpunkt des tatsächlichen Abflusses in die allgemeine Verwendungsreihenfolge des § 27 Abs. 1 Satz 5 KStG einzubeziehen. In Fällen einer Ratenzahlung gilt dabei die Unterstellung, dass die Raten zunächst den angemessenen Kaufpreis abdecken und erst danach der Abfluss der vGA erfolgt. Die Verwendung des steuerlichen Einlagekontos bezieht sich danach aber auf sämtliche Leistungen des entsprechenden Veranlagungszeitraums, so dass eine Aufteilung des verwendeten Bestands des steuerlichen Einlagekontos auf sämtliche Leistungen notwendig ist. Kommt es zu einer Verwendung des steuerlichen Einlagekontos, liegt beim Anteilseigner insoweit eine Einlagenrückgewähr vor (§ 20 Abs. 1 Nr. 1 Satz 3 EStG)." },
+      { text: "Weil die vGA aber in aller Regel von der Gesellschaft nicht erklärt werden dürfte, ist diese grundsätzlich auch bei der Ermittlung des steuerlichen Einlagekontos nicht erfasst worden. In diesem Fall sind die Auswirkungen der Verwendungsfestschreibung des § 27 Abs. 5 KStG zu beachten." },
+      { typ: "tabelle", spalten: ["Anteilseigner", "Nacherhebung der Kapitalertragsteuer", "Begründung"], zeilen: [
+        ["inländisch, Nachversteuerung zweifelsfrei sichergestellt", "kann unterbleiben", "Vorrang des Veranlagungsverfahrens vor dem Anmeldungsverfahren"],
+        ["ausländisch", "kann nicht unterbleiben (§ 50d Abs. 1 EStG)", "die Nachversteuerung ist in aller Regel nicht sichergestellt"],
+        ["ausländisch, mit Freistellungsbescheid im Zeitpunkt des Zuflusses", "von der Erhebung ist abzusehen", "Freistellung nach § 50d i.V.m. § 43b EStG, zuständig ist das Bundeszentralamt für Steuern"],
+        ["Kapitalgesellschaft übernimmt die Steuer und fordert sie nicht zurück", "weitere vGA in Höhe der übernommenen Steuer zuzüglich Solidaritätszuschlag", "Schuldner der Kapitalertragsteuer bleibt der Anteilseigner"],
+      ] },
+      { typ: "tabelle", spalten: ["Frage zum Einlagekonto", "Antwort der Quelle"], zeilen: [
+        ["Ist die vGA eine Leistung i. S. des § 27 KStG?", "ja, nach § 27 Abs. 1 Satz 3 KStG"],
+        ["Wann geht sie in die Verwendungsreihenfolge ein?", "erst im Zeitpunkt des tatsächlichen Abflusses, § 27 Abs. 1 Satz 5 KStG"],
+        ["Wie wird bei Ratenzahlung unterstellt?", "die Raten decken zunächst den angemessenen Kaufpreis ab, erst danach fließt die vGA ab"],
+        ["Worauf bezieht sich die Verwendung?", "auf sämtliche Leistungen des Veranlagungszeitraums – der verwendete Bestand ist auf alle Leistungen aufzuteilen"],
+        ["Folge beim Anteilseigner", "Einlagenrückgewähr nach § 20 Abs. 1 Nr. 1 Satz 3 EStG"],
+        ["Problem in der Praxis", "die vGA ist regelmäßig nicht erklärt und deshalb beim Einlagekonto nicht erfasst – Verwendungsfestschreibung nach § 27 Abs. 5 KStG"],
+      ] },
+      { text: "Anmerkung zur Kapitalertragsteuerspirale (eigene Ergänzung): Der Absatz zur übernommenen Kapitalertragsteuer beschreibt einen **selbstverstärkenden** Vorgang, der in der Klausur gern übersehen wird. Schuldner der Steuer bleibt der Anteilseigner; übernimmt die Gesellschaft sie, ohne zurückzufordern, wendet sie ihm einen weiteren Vorteil zu – also eine zweite vGA. Diese erhöht die Bemessungsgrundlage, woraus wieder Kapitalertragsteuer entsteht, die wieder übernommen wird. Genau deshalb verweist die Quelle auf die **Berechnungsanweisung** in Tz. 183a des BMF-Schreibens: Die Spirale wird dort rechnerisch aufgelöst, indem von vornherein auf den Bruttobetrag hochgerechnet wird. Dieselbe Hochrechnung begegnet im Skript **Teil III** bei der Einlagenrückgewähr." },
+      { text: "Anmerkung zum Verzicht bei inländischen Anteilseignern (eigene Ergänzung): Der Grund, weshalb bei inländischen Anteilseignern verzichtet werden kann, ist rein **verfahrensrechtlich** und nicht materiell. Die Kapitalertragsteuer ist nur eine Erhebungsform der Einkommen- oder Körperschaftsteuer; wird derselbe Betrag ohnehin im Veranlagungsverfahren erfasst, liefe die Nacherhebung auf eine bloße Verkomplizierung hinaus, weil die Steuer anschließend angerechnet würde. Beim **ausländischen** Anteilseigner fehlt dagegen gerade das Veranlagungsverfahren, in dem die Anrechnung stattfinden könnte – dort ist der Steuerabzug **abgeltend**, und mit ihm steht und fällt der deutsche Steuerzugriff. Das erklärt, weshalb § 50d Abs. 1 EStG keinen Verzicht zulässt." },
+      { text: "Anmerkung zum Zeitpunkt beim Einlagekonto (eigene Ergänzung): Abschnitt 4.1.6 ist die Einlösung dessen, was Abschnitt 4.1.2 nur angedeutet hat. Dort hieß es, der Abflusszeitpunkt habe „allenfalls Bedeutung“ für die Verwendungsreihenfolge – hier zeigt sich, dass das keine Randbemerkung ist: Für das Einlagekonto gilt ein **anderer Zeitpunkt** als für die Einkommenshinzurechnung. Die Hinzurechnung folgt der Gewinnbeeinflussung, die Verwendung des Einlagekontos dem tatsächlichen **Abfluss**. Beide Ebenen können deshalb in verschiedene Veranlagungszeiträume fallen, und die Klausur prüft gern genau diese Verschiebung." },
+      { text: "Anmerkung zur Ratenzahlung und zur Aufteilung (eigene Ergänzung): Zwei technische Regeln des Abschnitts wirken sich praktisch stark aus. Die **Ratenunterstellung** – erst der angemessene Kaufpreis, dann die vGA – verschiebt den Abfluss der vGA so weit wie möglich nach **hinten** und damit auch die Verwendung des Einlagekontos. Und weil sich die Verwendung auf **sämtliche** Leistungen des Veranlagungszeitraums bezieht, lässt sich der Bestand nicht gezielt einer einzelnen Ausschüttung zuordnen: Eine offene Ausschüttung und eine vGA desselben Jahres teilen sich den verwendbaren Bestand anteilig. Zusammen mit der **Verwendungsfestschreibung** des § 27 Abs. 5 KStG, die greift, weil die vGA regelmäßig nicht erklärt wurde, führt das dazu, dass für die nachträglich aufgedeckte vGA praktisch kaum je Einlagekonto zur Verfügung steht – sie bleibt also fast immer ein voll steuerpflichtiger Bezug." },
     ],
   },
 ];
