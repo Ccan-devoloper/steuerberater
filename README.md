@@ -4502,7 +4502,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **KSt Teil VI (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VI (Organschaft)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VI: Körperschaft- und gewerbesteuerliche
   Organschaft (§§ 14 – 19 KStG; § 2 Abs. 2 Satz 2 GewStG)“** (21. Auflage, Rechtsstand 05/2025) im
-  Wortlaut – **in Arbeit**, derzeit 30 Kapitel mit 576 Abschnitten und 39 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
+  Wortlaut – **in Arbeit**, derzeit 33 Kapitel mit 609 Abschnitten und 42 Tabellen; die Kapitel 1 und 2 des Skripts sind **vollständig**. Die Organschaft hebt
   die **Trennung der Rechtssphären** auf: Sämtliche steuerlichen Konsequenzen verlagern sich auf den
   **Organträger**, und das ist sachgerecht, weil der Gewinn nach § 301 AktG tatsächlich abgeführt und
   der Verlust nach § 302 AktG tatsächlich ausgeglichen wird. Die Zurechnung folgt also dem **Geld** –
@@ -5034,6 +5034,44 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Weil der Feststellungsbescheid nach § 14 Abs. 5 KStG nur **einen** Betrag ausweisen kann, ist die
   Abweichung nicht bloß rechnerischer Natur; die Quelle löst sie nicht auf. Sämtliche Zahlen beider
   Fälle sind unabhängig nachgerechnet und gehen auf.
+  **Kapitalertragsteuer und Einlagekonto** folgen aus einem einzigen Satz, den die Quelle ausdrücklich
+  ausspricht: Die Ausgleichszahlung ist rechtlich **stets eine Leistung der Organgesellschaft**,
+  gleichgültig aus wessen Kasse sie fließt. Daraus ergibt sich zwanglos jede Einzelfolge – **sie**
+  schuldet und meldet die Kapitalertragsteuer nach § 43 Abs. 1 Satz 1 Nr. 1 EStG, **ihr**
+  Einlagekonto wird verwendet, und maßgebend ist dessen Bestand zum **Ende des Vorjahres**, selbst
+  wenn der Organträger auszahlt. Dessen Zahlung ist nur ein **abgekürzter Zahlungsweg**, weil sie
+  wirtschaftlich aus der Gewinnabführung stammt. Für denselben Vorgang nennt das Skript damit **vier**
+  Bezugszeitpunkte, die in der Klausur auseinanderzuhalten sind: die **Passivierung** (§ 4 Abs. 5
+  Nr. 9 EStG), der **Abfluss** (§ 16 KStG), der **Zufluss** beim Gesellschafter (Kapitalertragsteuer,
+  § 44 Abs. 1 Satz 2 EStG) und das **Vorjahresende** (Einlagekonto).
+  Beim **Minderheitsgesellschafter** ist die Zahlung eine Einnahme nach § 20 Abs. 1 Nr. 1 EStG, deren
+  Behandlung sich nach **seiner** Rechtsform richtet: Steuerfreiheit nach § 8b Abs. 1 KStG mit dem
+  Vorbehalt des § 8b Abs. 4 KStG bei der Kapitalgesellschaft, Teileinkünfteverfahren oder
+  Abgeltungsteuer bei der natürlichen Person. Das ist ein aufschlussreicher **Gegensatz** zur Ebene
+  der Organgesellschaft, wo § 16 KStG gerade dafür sorgt, dass die Belastung **nicht** von der
+  Rechtsform abhängt – derselbe Vorgang wird auf der einen Seite rechtsformneutral, auf der anderen
+  rechtsformabhängig besteuert. Rechnet man beide Ebenen zusammen, zeigt sich der Zweck des Bruchs
+  20/17: Vorbelastung auf Gesellschaftsebene, begünstigte Erfassung beim Empfänger – die
+  Ausgleichszahlung wird also **genau wie eine Dividende** behandelt, was dem Minderheitenschutz des
+  § 304 AktG entspricht. Weil die Organgesellschaft regelmäßig **keinen ausschüttbaren Gewinn** hat,
+  ist dabei die **Einlagenrückgewähr** nicht die Ausnahme, sondern der Normalfall: Die Zahlung mindert
+  zunächst die **Anschaffungskosten** und verschiebt die Belastung; ein **Überhang** führt zu einem
+  Veräußerungstatbestand nach § 17 Abs. 4 EStG oder §§ 15, 16 EStG, ohne dass etwas veräußert wurde.
+  Nur bei Anteilen i.S. des § 20 Abs. 2 EStG entstehen stattdessen negative Anschaffungskosten.
+  **Gewinnausschüttungen** der Organgesellschaft sind trotz vollständiger Abführung in **fünf** Fällen
+  möglich, und die Aufzählung wirkt nur auf den ersten Blick zusammengewürfelt: Erfasst ist genau das,
+  was der **Abführungspflicht des § 301 AktG nicht unterliegt**. Bei Ausgleichszahlungen und vGA an
+  Minderheitsgesellschafter ist es die gesetzliche Ausnahme des § 16 KStG; bei den
+  **vororganschaftlichen** Gewinn- und Kapitalrücklagen der Minderheitenschutz, der sie der Abführung
+  dauerhaft entzieht; bei den **Kapital**rücklagen kommt hinzu, dass § 301 AktG ihre Auflösung
+  ohnehin nicht einbezieht, weil sie aus Einlagen stammen – deshalb stehen dort sogar die **während**
+  der Organschaft gebildeten zur Verfügung; und die **Mehrabführung** ist gar keine echte
+  Ausschüttung, sondern wird von § 14 Abs. 3 KStG nur als solche **fingiert**. In allen fünf Fällen
+  durchläuft die Leistung die Verwendungsreihenfolge des § 27 Abs. 1 Satz 3 KStG, trifft mangels
+  ausschüttbaren Gewinns auf das **Einlagekonto** und führt beim Anteilseigner zur
+  **Einlagenrückgewähr**; die **Verwendungsfestschreibung** des § 27 Abs. 5 KStG ist dabei besonders
+  zu beachten, weil eine einmal erteilte oder unterbliebene Bescheinigung nicht mehr korrigiert werden
+  kann. Damit ist die Einkommensermittlung bei der Organgesellschaft vollständig abgebildet.
   Prüfung: `npm run check:k2-kst-teil6`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

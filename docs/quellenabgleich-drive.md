@@ -10620,6 +10620,54 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VI (Hamacher), Abschnitte 3.2.5.6 bis 3.2.6 – Abschluss der Einkommensermittlung bei der Organgesellschaft
+
+Übernommen sind die Seiten 51 bis 53 der Quelle: Kapitalertragsteuer und steuerliches
+Einlagekonto (3.2.5.6), die Auswirkungen beim Minderheitsgesellschafter (3.2.5.7) und
+die Gewinnausschüttungen der Organgesellschaft (3.2.6). Damit ist Abschnitt 3.2 –
+die Einkommensermittlung bei der Organgesellschaft – **vollständig** übernommen. Der
+Datensatz umfasst 33 Kapitel mit 609 Abschnitten und 42 Tabellen; geprüft mit
+`npm run check:k2-kst-teil6`.
+
+**Sachlicher Gehalt.** Die Ausgleichszahlung ist rechtlich stets eine Leistung der
+Organgesellschaft; sie schuldet und meldet die Kapitalertragsteuer, ihr Einlagekonto
+mit dem Bestand zum Vorjahresende ist maßgebend, und die Zahlung durch den Organträger
+gilt als abgekürzter Zahlungsweg. Beim Minderheitsgesellschafter liegt eine Einnahme
+nach § 20 Abs. 1 Nr. 1 EStG vor, deren Behandlung sich nach seiner Rechtsform richtet;
+bei Einlagenverwendung greift § 20 Abs. 1 Nr. 1 Satz 3 EStG. Gewinnausschüttungen sind
+in fünf Fällen möglich – sie alle betreffen Beträge, die der Abführungspflicht des
+§ 301 AktG nicht unterliegen.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 3.2.5.6 formuliert „Schuldner der Kapitalerträge sowie die Anmeldung der
+  Kapitalertragsteuer erfolgt durch die Organgesellschaft“ – das Subjekt
+  „Schuldner“ trägt das Prädikat „erfolgt“ nicht.
+- Abschnitt 3.2.5.6 verknüpft „Verfügt die Organgesellschaft selbst über einen Bestand
+  des steuerlichen Einlagekontos und daher im Regelfall auch über keinen ausschüttbaren
+  Gewinn“. Das „daher“ trägt nicht: Ein Bestand des Einlagekontos ist nicht der
+  Grund dafür, dass ein ausschüttbarer Gewinn fehlt – der Grund ist die vollständige
+  Gewinnabführung.
+- Abschnitt 3.2.5.7 schreibt „grundsätzlich der Steuerfreiheit i.S. des § 8b Abs. 1
+  KStG greift“; der Kasus ist nicht durchgeführt.
+- Abschnitt 3.2.5.7 zitiert „§ 3 Nr. 40d EStG“; gesetzlich § 3 Nr. 40 Buchst. d EStG.
+- Abschnitt 3.2.6 lässt im Satz „Diese Gewinnausschüttungen wie herkömmliche Leistungen
+  auch in die allgemeine Verwendungsreihenfolge … einzubeziehen“ das Prädikat
+  „sind“ aus.
+- Abschnitt 3.2.6 mischt den Numerus: „Da diese in aller Regel über keinen
+  ausschüttbaren Gewinn verfügen dürfte“; gemeint ist die Organgesellschaft.
+
+**Eigene Nachrechnung und Einordnung.** Die Abschnitte enthalten keine Zahlenbeispiele.
+Nachgeprüft ist die Normenkette (§ 43 Abs. 1 Satz 1 Nr. 1 EStG, § 44 Abs. 1 Satz 2
+EStG, § 27 Abs. 1 Satz 3 und Abs. 5 KStG, § 20 Abs. 1 Nr. 1 und Satz 3 EStG, § 8b
+Abs. 1 und 4 KStG, § 32d Abs. 1 EStG, § 17 Abs. 4 EStG) – sämtlich zutreffend. Als
+eigene Ergänzungen sind im Datensatz ausgewiesen: die Zusammenstellung der **vier**
+verschiedenen Bezugszeitpunkte desselben Vorgangs (Passivierung, Abfluss, Zufluss,
+Vorjahresende), der Gegensatz zwischen der rechtsformneutralen Besteuerung nach
+§ 16 KStG und der rechtsformabhängigen beim Minderheitsgesellschafter, die
+Zusammenrechnung beider Ebenen als Beleg für den Zweck des Bruchs 20/17 und der
+gemeinsame Nenner der fünf Ausschüttungsfälle.
+
 ### KSt Teil VI (Hamacher), Abschnitt 3.2.5.5 – Auswirkungen der Ausgleichszahlung
 
 Übernommen sind die Seiten 49 bis 51 der Quelle: die Einkommenshinzurechnung nach
