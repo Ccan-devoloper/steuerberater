@@ -17,10 +17,11 @@
    Wegfall des § 8c Abs. 2 KStG und der Sanierungsklausel) übernommen, dazu
    der Erwerberkreis (1.3 mit der Rechtsform des Erwerbers und den
    gleichgerichteten Interessen) und der Grundfall des Anteilserwerbs (1.4.1).
-   Es folgen die gleichgestellten Sachverhalte und Sonderfälle (1.4.2 bis
-   1.4.6), die Verschonungsgrenze (1.5), die Verlustkürzung (1.6), die
-   Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; der Campus weist den
-   Stand aus.
+   Dazu kommen die gleichgestellten Sachverhalte (1.4.2) und die Umwandlungen
+   (1.4.3.1). Es folgen die Kapitalerhöhung (1.4.3.2), der mittelbare Erwerb
+   (1.4.4), die Konzernregelung (1.4.5), der Fünfjahreszeitraum (1.4.6), die
+   Verschonungsgrenze (1.5), die Verlustkürzung (1.6), die Organschaftsfälle
+   (1.7) sowie die Kapitel 2 bis 4; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Rechtsstand Mai 2025.
 
@@ -279,6 +280,121 @@ export const kstTeil5 = [
       { text: "Anmerkung zur Unbeachtlichkeit der umwandlungssteuerlichen Rückwirkung (eigene Ergänzung): Der Hinweis, der rückwirkende Übertragungsstichtag des § 2 UmwStG gelte hier **nicht**, ist eine typische Klausurfalle. Für die Umwandlung selbst wird bis zu acht Monate zurückgerechnet, für § 8c KStG dagegen zählt der tatsächliche Übergang des **wirtschaftlichen Eigentums**. Beide Zeitpunkte können also in verschiedene Wirtschaftsjahre fallen – und weil der Tag des Erwerbs nach Abschnitt 1.6.2 darüber entscheidet, welcher Teil des Verlustes untergeht, wirkt sich der Unterschied unmittelbar auf die Zahlen aus." },
       { text: "Anmerkung zum Ausschluss der Trennungstheorie (eigene Ergänzung): Die Aussage, dass **jedes** Entgelt schadet und eine Aufteilung nach der Trennungstheorie **nicht** vorzunehmen ist, gehört zu den härtesten Regeln des Abschnitts. Ertragsteuerlich wäre eine teilentgeltliche Übertragung in einen entgeltlichen und einen unentgeltlichen Teil zu zerlegen; hier gilt das nicht. Ein symbolisches Gleichstellungsgeld an ein Geschwisterkind macht die gesamte Übertragung schädlich und lässt den Verlust vollständig untergehen. Die Quelle betont das ausdrücklich mit der Wendung „unabhängig von dessen Höhe“ – bei der Gestaltung einer vorweggenommenen Erbfolge ist das der entscheidende Punkt." },
       { text: "Anmerkung zum nämlichen Anteil (eigene Ergänzung): Dass die Weiterübertragung eines bereits einmal schädlich erworbenen Anteils **erneut** schädlich ist, klingt nach einer Doppelbelastung, ist aber folgerichtig: Die Prüfung erfolgt **erwerberbezogen**, nicht anteilsbezogen. Für den zweiten Erwerber ist der Anteil neu, und bei ihm stellt sich die Frage nach dem Mantelkauf unabhängig davon, was beim ersten geschehen ist. Praktisch bedeutet das, dass ein Anteil mehrfach hintereinander Verluste vernichten kann – allerdings nur, soweit nach dem ersten Untergang überhaupt noch neue Verluste entstanden sind." },
+    ],
+  },
+  {
+    id: "kst-t5-5",
+    kapitel: "5",
+    abschnittNr: "1.4.2",
+    title: "1.4.1 (Fortsetzung) nämlicher Anteil und 1.4.2 gleichgestellte Sachverhalte",
+    thema: "Derselbe Anteil kann mehrfach Verluste vernichten, weil die Prüfung bei jedem Erwerberkreis neu ansetzt. Wirtschaftlich gleichgestellt sind unter anderem Genussscheine, Stimmrechtsbindungen und Kapitalmaßnahmen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitte 1.4.1 (Schluss) und 1.4.2 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§ 8c Abs. 1 Satz 3 KStG",
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "BMF vom 28.11.2017, Tz. 7, 8, 22 und 23",
+    ],
+    themen: ["nämlicher Anteil", "Rückübertragung", "Zählerwerb", "gleichgestellte Sachverhalte", "Genussscheine", "Stimmrechtsbindung", "Vorzugsaktien"],
+    bloecke: [
+      { text: "In dem Fall der Weiterübertragung würde sich der Erwerb somit bei unterschiedlichen Erwerberkreisen auswirken und kann daher auch mehrmals zu einer Verlustkürzung führen. Zur selben Rechtsfolge kommt es, wenn der Anteil wieder an den ursprünglichen Veräußerer übertragen wird, weil dann der ursprüngliche Veräußerer als Erwerber gilt." },
+      { text: "Beispiel: An der A-GmbH ist A zu 100 % beteiligt. Mit Wirkung zum 01.01.2024 erwirbt C einen 60%igen Anteil von A. Mit Wirkung zum 01.01.2025 veräußert C seine 60%ige Beteiligung an D." },
+      { text: "Lösung: Sowohl der Anteilserwerb durch C, als auch der Erwerb durch D führen zum Überschreiten der Grenze i.S. des § 8c Abs. 1 Satz 1 KStG. Dabei ist es unerheblich, dass sich der Erwerb des Anteils bisher im Rahmen des § 8c KStG bereits ausgewirkt hat. In beiden Fällen würde ein vorhandener Verlust vollständig gekürzt werden (in 2024 und 2025). Das gleiche Ergebnis würde eintreten, wenn C seinen Anteil wieder auf A zurückübertragen würde. Denn für Zwecke des § 8c KStG würde A wieder einen eigenen „Erwerberkreis“ bilden." },
+      { text: "Beispiel: An der A-GmbH sind die Gesellschafter A und B zu jeweils 50 % beteiligt. Mit Wirkung zum 01.01.2024 erwirbt C den 50%igen Anteil von B. Mit Wirkung zum 01.01.2025 veräußert C seine Beteiligung an D. D erwirbt im Laufe des Wj. 2025 einen Anteil des A von 10 %." },
+      { text: "Lösung: Der Anteilserwerb durch C ist unschädlich, da die Grenze des § 8c Abs. 1 Satz 1 KStG nicht überschritten wird. Bei D wird der Erwerb des 50%igen und des 10%igen Anteils zusammengefasst, da die Quote des § 8c Abs. 1 Satz 1 KStG innerhalb des 5jährigen Betrachtungszeitraums überschritten wird. Somit führt der kombinierte Anteilserwerb zu einer vollständigen Verlustkürzung in 2025." },
+      { typ: "titel", text: "1.4.2 Gleichgestellte Sachverhalte" },
+      { text: "Als Anteilserwerb sind in diesem Zusammenhang auch sämtliche Vorgänge zu berücksichtigen, die diesem Vorgang wirtschaftlich gleichgestellt sind. Dazu gehören insbesondere die folgenden Vorgänge:" },
+      { text: "– Erwerb von Genussscheinen i.S. des § 8 Abs. 3 Satz 2 KStG, durch die eine zusätzliche Beteiligung am Gewinn oder Liquidationserlös der Gesellschaft vermittelt wird;" },
+      { text: "– Stimmrechtsbindungen bzw. Vorgänge, die in die Stimmrechte der vorhandenen Anteile eingreifen können;" },
+      { text: "– Umwandlungsvorgänge (z.B. Einbringungen, Verschmelzungen), bei denen sich die Beteiligungsquote der Verlustgesellschaft verändert (siehe unter 1.4.3.1);" },
+      { text: "– der Erwerb eigener Anteile durch die Verlustgesellschaft, wenn es dadurch zu einer Änderung der Beteiligungsquoten kommt;" },
+      { text: "– Kapitalheraufsetzung, wodurch sich die Beteiligungsquoten verändern (§ 8c Abs. 1 Satz 3 KStG);" },
+      { text: "– Kapitalherabsetzung, bei der sich die Beteiligungsquoten verändern." },
+      { text: "In Tz. 8 des BMF-Schreibens wird der Sonderfall beschrieben, dass neben herkömmlichen, stimmberechtigten Anteilen auch stimmrechtslose Vorzugsaktien übertragen werden, durch die dem Anteilseigner lediglich ein erhöhter Gewinnanteil vermittelt wird. In dieser Konstellation werden für § 8c KStG getrennte Quoten ermittelt:" },
+      { text: "– Werden nur die stimmberechtigten Anteile übertragen, ergibt sich die für Zwecke des § 8c KStG maßgebliche Quote nur aus dem Verhältnis der veräußerten Anteile zum gesamten stimmberechtigten Kapital;" },
+      { text: "– Werden nur die Vorzugsaktien übertragen, ist die Erwerbsquote aus dem Verhältnis der veräußerten Anteile zum gesamten Nennkapital abzuleiten," },
+      { text: "– Werden sowohl die stimmberechtigten Anteile als auch die Vorzugsaktien veräußert, sind beide Quoten (Anteil am Nennkapital bzw. Anteil an den Stimmrechten) jeweils getrennt voneinander zu ermitteln. Beide Quoten werden aber nicht addiert, d.h. für Zwecke des § 8c KStG ist nur die höhere von beiden Quoten maßgebend ist. (Das doppelte „ist“ steht so in der Quelle.)" },
+      { text: "Beispiel: Die A-AG besitzt ein Nennkapital von 1.000.000 €. Dieses Kapital ist unterteilt in 60 % Stammaktien und 40 % stimmrechtslose Vorzugsaktien. Im Rahmen der Anteilsveräußerung überträgt der 100%ige Anteilseigner (Unterteilung seiner Aktien 60:40) jeweils an einen Erwerber: a) 90 % seiner Vorzugsaktien b) 20 %-Punkte seiner Stammaktien c) 50 % seiner Vorzugsaktien und 10 %-Punkte seiner Stammaktien." },
+      { text: "Lösung: Im Fall a) überträgt der Anteilseigner von seinen Vorzugsaktien und somit bezogen auf das gesamte Nennkapital insgesamt 36 % (90 % von 40 %). Dies führt zu keinem schädlichen Erwerb i.S. des § 8c Abs. 1 Satz 1 KStG." },
+      { text: "Im Fall b) werden im Vergleich zu den stimmberechtigten Anteilen 33 % (20/60) übertragen, was zu keinem schädlichen Erwerb i.S. des § 8c Abs. 1 Satz 1 KStG führt." },
+      { text: "Im Fall c) werden bezogen auf das Nennkapital insgesamt 30 % (= 50 % von 40 % + 10 %) bzw. bezogen auf die Stimmrechte 16,67 % (10/60) veräußert. Maßgebend ist die höhere Quote von 30 %, was zu keinem Anwendungsfall des § 8c Abs. 1 Satz 1 KStG führt. In sämtlichen Fällen sind die Anteilserwerbe aber als Zählerwerbe zu berücksichtigen." },
+      { typ: "tabelle", spalten: ["Übertragen werden", "maßgebliche Bezugsgröße", "Ergebnis"], zeilen: [
+        ["nur stimmberechtigte Anteile", "das gesamte stimmberechtigte Kapital", "eine Quote"],
+        ["nur Vorzugsaktien", "das gesamte Nennkapital", "eine Quote"],
+        ["beides", "beide Bezugsgrößen getrennt", "zwei Quoten – maßgebend ist die höhere, nicht die Summe"],
+      ] },
+      { typ: "tabelle", spalten: ["Fall des Beispiels", "Quote am Nennkapital", "Quote an den Stimmrechten", "maßgeblich", "schädlich?"], zeilen: [
+        ["a) 90 % der Vorzugsaktien", "36 % (90 % von 40 %)", "keine", "36 %", "nein – aber Zählerwerb"],
+        ["b) 20 Prozentpunkte der Stammaktien", "wird nicht herangezogen", "33 % (20/60)", "33 %", "nein – aber Zählerwerb"],
+        ["c) 50 % der Vorzugsaktien und 10 Prozentpunkte der Stammaktien", "30 % (20 % + 10 %)", "16,67 % (10/60)", "30 %", "nein – aber Zählerwerb"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Alle drei Fälle gehen auf. Fall a): 90 % von 40 % = 36 % des Nennkapitals. Fall b): 20 Prozentpunkte gemessen an den 60 Prozentpunkten stimmberechtigten Kapitals ergeben 20/60 = 33,33 %, von der Quelle auf 33 % gerundet. Fall c): 50 % von 40 % = 20 Prozentpunkte aus den Vorzugsaktien zuzüglich 10 Prozentpunkte Stammaktien = 30 % des Nennkapitals; an den Stimmrechten dagegen nur 10/60 = 16,67 %. In allen drei Fällen bleibt die maßgebliche Quote unter der Schwelle – die Erwerbe bleiben aber Zählerwerbe, so dass schon ein weiterer kleiner Erwerb den vollständigen Untergang auslösen kann." },
+      { text: "Anmerkung zur mehrfachen Verlustvernichtung (eigene Ergänzung): Das erste Beispiel führt eine Konsequenz vor, die auf den ersten Blick unbillig wirkt: **Derselbe Anteil** löst 2024 und 2025 jeweils einen vollständigen Verlustuntergang aus. Der Grund ist die **erwerberbezogene** Prüfung – für D ist der Anteil neu, gleichgültig was bei C geschehen ist. Noch schärfer ist die Rückübertragungsvariante: Gibt C den Anteil an **A** zurück, also an den ursprünglichen Veräußerer, gilt auch A wieder als Erwerber und bildet einen eigenen Erwerberkreis. Eine Rückabwicklung ist damit steuerlich keine Rückabwicklung, sondern ein weiterer schädlicher Erwerb." },
+      { text: "Anmerkung zum zweiten Beispiel (eigene Ergänzung): Es ist deshalb lehrreich, weil der **erste** Erwerb folgenlos bleibt und trotzdem zählt. C erwirbt 50 % und bleibt unter der Schwelle; als C an D weiterveräußert, tritt D in dieselbe Quote ein und überschreitet sie erst durch den zusätzlichen Erwerb von 10 %. Entscheidend ist dabei der **Fünfjahreszeitraum** des Abschnitts 1.4.6, innerhalb dessen die Erwerbe eines Erwerberkreises zusammengerechnet werden. Wer nur den einzelnen Vorgang betrachtet, übersieht den Untergang." },
+      { text: "Anmerkung zur Liste der gleichgestellten Vorgänge (eigene Ergänzung): Die Aufzählung zeigt, dass § 8c KStG nicht nur an die **Übertragung** von Anteilen anknüpft, sondern an jede Verschiebung der wirtschaftlichen Position. Besonders bemerkenswert sind drei Punkte. Der **Erwerb eigener Anteile** durch die Verlustgesellschaft selbst kann schädlich sein – dort erwirbt niemand von außen, und doch verschieben sich die Quoten der verbleibenden Gesellschafter. Dasselbe gilt für die **Kapitalherabsetzung**, bei der ebenfalls kein Anteil den Eigentümer wechselt. Und **Stimmrechtsbindungen** genügen bereits, also schuldrechtliche Abreden ohne jede dingliche Wirkung. Wer in der Klausur nur nach Kaufverträgen sucht, übersieht diese Fälle." },
+      { text: "Anmerkung zur Vorzugsaktienregel (eigene Ergänzung): Die drei Bezugsgrößen sind leicht zu verwechseln, und die Quelle wendet in jedem Fall eine andere an. Werden **nur Stammaktien** übertragen, zählt allein das **stimmberechtigte** Kapital – im Beispiel also 60 Prozentpunkte, weshalb 20 Prozentpunkte zu 33 % werden und nicht zu 20 %. Werden **nur Vorzugsaktien** übertragen, zählt dagegen das **gesamte Nennkapital**. Werden beide übertragen, sind zwei Quoten zu bilden und die **höhere** ist maßgebend. Dass nicht addiert wird, ist für den Steuerpflichtigen günstig: Im Fall c) ergäbe die Addition 46,67 % – immer noch unschädlich, aber die Regel kann in anderen Konstellationen über die Schwelle entscheiden." },
+    ],
+  },
+  {
+    id: "kst-t5-6",
+    kapitel: "6",
+    abschnittNr: "1.4.3.1",
+    title: "1.4.3.1 Umwandlungen – die Kapitalerhöhung als schädlicher Erwerb",
+    thema: "Jede Umwandlung gilt als Veräußerungs- und Anschaffungsvorgang. Verschiebt die Kapitalerhöhung die Beteiligungsverhältnisse über 50 %, greift § 8c KStG – und zwar erst mit der Handelsregistereintragung, nicht zum Rückwirkungsstichtag",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil V (Hamacher), Abschnitt 1.4.3.1 · Stand 05/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8c Abs. 1 Satz 1 KStG",
+      "§§ 11 bis 13 UmwStG",
+      "§ 15 UmwStG",
+      "§ 15 Abs. 3 UmwStG",
+      "§§ 20, 21 UmwStG",
+      "§ 20 Abs. 5 und Abs. 6 UmwStG",
+      "§ 2 Abs. 1 UmwStG",
+      "§ 4 Abs. 2 Satz 2 UmwStG",
+      "§ 12 Abs. 3 UmwStG",
+      "§ 190 UmwG",
+      "BMF vom 02.01.2025, BStBl. I 2025, 93, Tz. 00.02 (UmwSt-Erlass)",
+      "BMF vom 23.02.2018, BStBl. I 2018, 319",
+      "BMF vom 28.11.2017, Tz. 11 und 15",
+      "BFH-Verfahren I R 1/23",
+    ],
+    themen: ["Umwandlung", "Einbringung", "Verschmelzung", "Kapitalerhöhung", "Handelsregistereintragung", "Formwechsel", "Vorrang des UmwStG"],
+    bloecke: [
+      { text: "Ein schädlicher Anteilserwerb kann sich auch im Zusammenhang mit Umwandlungsfällen i.S. der §§ 11 - 13, 15 UmwStG und §§ 20, 21 UmwStG ergeben, wenn in diesen Fällen das Nennkapital der übernehmenden Verlustgesellschaft erhöht wird und sich somit die Beteiligungsverhältnisse zwischen den Anteilseignern (> 50 %) verändern. Denn nach Tz. 00.02 des UmwSt-Erlasses gilt jegliche Umwandlung bzw. Einbringung immer auch als Veräußerungs- und Anschaffungsvorgang. Dazu gehören neben der Seitwärts- auch die Abwärts- und Aufwärtsverschmelzung. Der schädliche Beteiligungserwerb tritt in diesen Fällen erst mit der wirksamen Kapitalerhöhung ein, wofür auf die Eintragung ins Handelsregister abzustellen ist." },
+      { text: "Nur im Falle eines Formwechsels i.S. des § 190 UmwG kommt § 8c KStG nicht zur Anwendung, weil es bei dieser Umwandlungsart auch zivilrechtlich zu keiner Vermögensübertragung kommt." },
+      { text: "Zu beachten ist aber, dass die Sonderregelungen der §§ 4 Abs. 2 Satz 2 UmwStG bzw. § 15 Abs. 3 UmwStG, welche den umwandlungsbedingten Übergang eines Verlustes untersagen bzw. den anteiligen Verlustuntergang bei Abspaltung vorschreiben, gegenüber § 8c KStG vorrangig sind." },
+      { text: "Beispiel: A bringt mit steuerlicher Wirkung zum 31.12.2024 seinen Betrieb in die B-GmbH (bisheriger Alleingesellschafter B; bisheriges Stammkapital: 50.000 €) ein. Im Zuge der Sacheinlage erhöht die B-GmbH in 2025 ihr Stammkapital um 150.000 € auf 200.000 €. Den neuen Anteil erhält A. Die B-GmbH verfügt über ungenutzte Verluste." },
+      { text: "Lösung: Aufgrund der Sacheinlage erwirbt A in 2025 einen Anteil von 75 % des Stammkapitals der B-GmbH (150.000 € zu 200.000 €). Dies führt zu einem Anwendungsfall des § 8c Abs. 1 Satz 1 KStG, welcher bei Wirksamkeit der Kapitalerhöhung eintritt. Die mögliche steuerliche Rückwirkung i.S. des § 20 Abs. 5, Abs. 6 UmwStG ist hierfür unbedeutend. Daher wäre die Verlustkürzung im VZ 2025 vorzunehmen." },
+      { text: "Beispiel: Mit steuerlicher Wirkung zum 31.12.2024 wird die A-GmbH (Alleingesellschafter A) auf die B-GmbH (Alleingesellschafter B; bisheriges Stammkapital: 50.000 €) seitwärts verschmolzen. Im Zuge der Verschmelzung erhöht die B-GmbH ihr Stammkapital um 150.000 € auf 200.000 €. Die Eintragung der Verschmelzung erfolgt in 2025. Den neuen Anteil erhält A. Die B-GmbH verfügt über ungenutzte Verluste." },
+      { text: "Lösung: Aufgrund der Verschmelzung erwirbt A einen 75%igen Anteil an der B-GmbH (150.000 € zu 200.000 €). Dies führt zu einem schädlichen Erwerb i.S. des § 8c Abs. 1 Satz 1 KStG, welcher bei Wirksamkeit der Kapitalerhöhung eintritt. Daher ist die Verlustkürzung auf Ebene der B-GmbH im VZ 2025 vorzunehmen. Der steuerliche Rückbezug i.S. des § 2 Abs. 1 UmwStG ist hierfür unerheblich. Verfügt auch die A-GmbH über ungenutzte Verluste, gehen diese aufgrund § 4 Abs. 2 Satz 2 UmwStG nicht auf die B-GmbH über." },
+      { text: "Unter diesem Gesichtspunkt ist auch die Umwandlung der Anteilseigner-Gesellschaft (z.B. im Rahmen einer Verschmelzung nach §§ 3ff UmwStG) zu beachten. Denn diese überträgt im Zuge der Umwandlung ihren Anteil an der Verlustgesellschaft, so dass diesbezüglich ein (umwandlungsbedingter) Anteilserwerb eintritt. Unabhängig davon, dass in diesen Fällen z.B. nach § 12 Abs. 3 UmwStG das Rechtsnachfolgeprinzip anzuwenden wäre, ergibt sich für Zwecke des § 8c KStG ein schädlicher Erwerbstatbestand. Denn aus Sicht der Verlustgesellschaft tritt ein unmittelbarer Anteilseignerwechsel ein. Der Erwerb wird erst mit Übergang des wirtschaftlichen Eigentums vollzogen, d.h. die umwandlungsteuerliche Rückwirkung ist hierfür nicht anwendbar." },
+      { text: "Beispiel: An der B-GmbH sind zu 60 % die X-GmbH und zu 40 % der Z beteiligt. Mit steuerlicher Wirkung zum 31.12.2024 wird die X-GmbH nach den §§ 11 – 13 UmwStG auf die L-GmbH verschmolzen. Die Eintragung der Verschmelzung in das Handelsregister erfolgt in 2025." },
+      { text: "Lösung: Durch Verschmelzung der X-GmbH verlagert sich deren 60%iger Anteil an der B-GmbH auf die L-GmbH. § 8c Abs. 1 Satz 1 KStG ist erfüllt, weil aus Sicht der B-GmbH ein unmittelbarer Anteilseignerwechsel eintritt. Hinsichtlich des Zeitpunktes des schädlichen Erwerbs ist nicht auf den steuerlichen Übertragungsstichtag i.S. des § 2 Abs. 1 UmwStG abzustellen, sondern auf den Übergang des wirtschaftlichen Eigentums, welcher mit Eintragung in das Handelsregister eintritt. Daher werden die Konsequenzen des § 8c KStG bei der B-GmbH auch erst im VZ 2025 gezogen. Verfügt auch die X-GmbH über ungenutzte Verluste, gehen diese nach § 4 Abs. 2 Satz 2 UmwStG nicht auf die L-GmbH über." },
+      { typ: "tabelle", spalten: ["Umwandlungsvorgang", "§ 8c KStG?", "Begründung"], zeilen: [
+        ["Einbringung nach §§ 20, 21 UmwStG mit Kapitalerhöhung", "ja, wenn sich die Quoten über 50 % verschieben", "jede Umwandlung gilt nach Tz. 00.02 des UmwSt-Erlasses als Veräußerungs- und Anschaffungsvorgang"],
+        ["Seitwärts-, Abwärts- und Aufwärtsverschmelzung nach §§ 11 bis 13, 15 UmwStG", "ja, unter derselben Voraussetzung", "ebenso; zur Aufwärts- und Abwärtsverschmelzung ist ein BFH-Verfahren unter I R 1/23 anhängig"],
+        ["Umwandlung der Anteilseigner-Gesellschaft", "ja", "aus Sicht der Verlustgesellschaft tritt ein unmittelbarer Anteilseignerwechsel ein – trotz Rechtsnachfolge nach § 12 Abs. 3 UmwStG"],
+        ["Formwechsel nach § 190 UmwG", "nein", "zivilrechtlich kommt es zu keiner Vermögensübertragung"],
+      ] },
+      { typ: "tabelle", spalten: ["Zeitpunkt", "maßgeblich für", "nicht maßgeblich"], zeilen: [
+        ["Eintragung der Kapitalerhöhung ins Handelsregister", "den schädlichen Beteiligungserwerb bei Umwandlungen mit Kapitalerhöhung", "der steuerliche Übertragungsstichtag"],
+        ["Übergang des wirtschaftlichen Eigentums", "den Anteilserwerb bei Umwandlung der Anteilseigner-Gesellschaft", "§ 2 Abs. 1 UmwStG"],
+        ["steuerlicher Übertragungsstichtag", "die Umwandlung selbst, etwa nach § 20 Abs. 5 und Abs. 6 UmwStG", "§ 8c KStG"],
+      ] },
+      { typ: "tabelle", spalten: ["Norm", "Regelungsgehalt", "Verhältnis zu § 8c KStG"], zeilen: [
+        ["§ 4 Abs. 2 Satz 2 UmwStG", "der Verlust der übertragenden Gesellschaft geht nicht auf die übernehmende über", "vorrangig"],
+        ["§ 15 Abs. 3 UmwStG", "anteiliger Verlustuntergang bei der Abspaltung", "vorrangig"],
+        ["§ 8c KStG", "Untergang des Verlustes der übernehmenden Verlustgesellschaft", "nachrangig"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Beide Kapitalerhöhungsbeispiele rechnen gleich: Das Stammkapital steigt von 50.000 € um 150.000 € auf 200.000 €, so dass der neue Gesellschafter 150.000 € ÷ 200.000 € = **75 %** hält und der bisherige auf 50.000 € ÷ 200.000 € = 25 % verwässert wird. Damit ist die Schwelle deutlich überschritten. Im dritten Beispiel wandert der 60%ige Anteil unverändert von der X-GmbH auf die L-GmbH – auch das sind mehr als 50 %." },
+      { text: "Anmerkung zur Kapitalerhöhung als verdeckter Anteilserwerb (eigene Ergänzung): Die beiden ersten Beispiele zeigen einen Vorgang, bei dem der bisherige Gesellschafter **nichts veräußert** und trotzdem seine Mehrheit verliert. B behält seine 50.000 € Stammkapital unverändert; allein dadurch, dass neues Kapital hinzutritt, sinkt seine Quote auf 25 %. Für § 8c KStG ist das ein Erwerb von 75 % durch A. Das ist die praktisch wichtigste Erkenntnis des Abschnitts: **Verwässerung wirkt wie Veräußerung.** Wer eine Verlustgesellschaft durch eine Sacheinlage stärken will, vernichtet dabei ihre Verluste." },
+      { text: "Anmerkung zum Zeitpunkt (eigene Ergänzung): Die Quelle betont den Zeitpunkt in allen drei Beispielen, und das hat einen handfesten Grund. Die Umwandlung wirkt steuerlich auf den **31.12.2024** zurück, der schädliche Erwerb tritt aber erst 2025 mit der **Handelsregistereintragung** beziehungsweise dem Übergang des wirtschaftlichen Eigentums ein. Daraus folgt, dass der Verlust des Jahres 2024 zunächst **bestehen bleibt** und erst im VZ 2025 untergeht – und weil § 8c KStG auch die laufenden unterjährigen Verluste erfasst, entscheidet der genaue Tag darüber, welcher Teil des Jahres 2025 noch mit erfasst wird (Abschnitt 1.6.2). Wer die umwandlungssteuerliche Rückwirkung hier anwendet, verschiebt den Untergang um ein ganzes Jahr." },
+      { text: "Anmerkung zum Vorrang des UmwStG (eigene Ergänzung): Der Hinweis auf § 4 Abs. 2 Satz 2 und § 15 Abs. 3 UmwStG verhindert eine Doppelprüfung und klärt zugleich, **wessen** Verlust gemeint ist. § 8c KStG betrifft den Verlust der **übernehmenden** Verlustgesellschaft, deren Anteilseignerkreis sich ändert; § 4 Abs. 2 Satz 2 UmwStG dagegen den Verlust der **übertragenden** Gesellschaft, der ohnehin nicht übergeht. Beide Normen treffen also verschiedene Größen und stehen nur scheinbar in Konkurrenz. Die Quelle führt das in den Schlusssätzen der beiden Verschmelzungsbeispiele konsequent vor: Der Verlust der B-GmbH geht nach § 8c KStG unter, der Verlust der A-GmbH geht schon gar nicht erst über." },
+      { text: "Anmerkung zum Formwechsel (eigene Ergänzung): Er ist die einzige Umwandlungsart, die § 8c KStG **nicht** auslöst, und die Begründung ist rein zivilrechtlich: Es kommt zu keiner Vermögensübertragung, der Rechtsträger bleibt identisch und wechselt nur sein Rechtskleid. Das passt zur Grundlinie des ganzen Abschnitts, die an die **Übertragung von Gesellschaftsrechten** anknüpft. Für die Gestaltung heißt das: Wer die Rechtsform einer Verlustgesellschaft ändern will, kann das gefahrlos tun – solange dabei keine neuen Gesellschafter hinzutreten und sich die Quoten nicht verschieben." },
     ],
   },
 ];

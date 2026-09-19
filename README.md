@@ -3674,7 +3674,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Zinsschranke)“): das Lehrgangsskript **„Körperschaftsteuer, Teil V: Verlustabzug und
   fortführungsgebundener Verlust (§ 8c, 8d KStG), Zinsschranke (§ 4h EStG, § 8a KStG), Verluste aus
   stillen Beteiligungen (§ 15 Abs. 4 EStG)“** (21. Auflage, Rechtsstand 05/2025) im Wortlaut – **in
-  Arbeit**, derzeit 4 Kapitel mit 87 Abschnitten und 8 Tabellen. Nach der Aufhebung der ersten
+  Arbeit**, derzeit 6 Kapitel mit 133 Abschnitten und 13 Tabellen. Nach der Aufhebung der ersten
   Quotenstufe kennt **§ 8c KStG** heute nur noch **eine** Schwelle: mehr als 50 % der Anteile am
   Nennkapital. Die Faustregel lautet deshalb **alles oder nichts** – entweder bleibt der Verlust
   vollständig erhalten oder er geht vollständig unter; einen quotalen Untergang gibt es nicht mehr.
@@ -3742,6 +3742,38 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Unentgeltlichkeit unschädlich – ein symbolisches Gleichstellungsgeld macht die gesamte Übertragung
   schädlich, „unabhängig von dessen Höhe“. Und weil die Prüfung **erwerberbezogen** erfolgt, ist auch
   die Weiterübertragung eines bereits einmal schädlich erworbenen Anteils erneut schädlich.
+  Die Folge dieser erwerberbezogenen Prüfung führt das Beispiel der Quelle drastisch vor:
+  **Derselbe** 60%ige Anteil löst 2024 und 2025 jeweils einen vollständigen Verlustuntergang aus,
+  einmal beim Erwerb durch C und einmal bei der Weiterveräußerung an D. Noch schärfer ist die
+  Rückübertragungsvariante – gibt C den Anteil an den ursprünglichen Veräußerer **A** zurück, gilt
+  auch A wieder als Erwerber und bildet einen eigenen Erwerberkreis: Eine Rückabwicklung ist
+  steuerlich keine Rückabwicklung, sondern ein weiterer schädlicher Erwerb. Die **gleichgestellten
+  Sachverhalte** zeigen, dass die Norm nicht nur an die Übertragung von Anteilen anknüpft, sondern an
+  jede Verschiebung der wirtschaftlichen Position: Auch der **Erwerb eigener Anteile** durch die
+  Verlustgesellschaft selbst, die **Kapitalherabsetzung** und sogar bloße **Stimmrechtsbindungen** –
+  also schuldrechtliche Abreden ohne dingliche Wirkung – können schädlich sein. Bei **Vorzugsaktien**
+  gilt in jedem der drei Fälle eine andere Bezugsgröße, was leicht zu verwechseln ist: Werden nur
+  Stammaktien übertragen, zählt allein das **stimmberechtigte** Kapital (20 Prozentpunkte werden so zu
+  33 % und nicht zu 20 %); werden nur Vorzugsaktien übertragen, zählt das **gesamte Nennkapital**;
+  werden beide übertragen, sind zwei Quoten zu bilden und die **höhere** ist maßgebend – nicht die
+  Summe.
+  Bei **Umwandlungen** gilt nach Tz. 00.02 des UmwSt-Erlasses jeder Vorgang zugleich als Veräußerungs-
+  und Anschaffungsvorgang, so dass § 8c KStG greift, sobald die Kapitalerhöhung die
+  Beteiligungsverhältnisse über 50 % verschiebt. Die praktisch wichtigste Erkenntnis lautet:
+  **Verwässerung wirkt wie Veräußerung.** Im Beispiel behält B seine 50.000 € Stammkapital
+  unverändert und verliert allein dadurch die Mehrheit, dass neues Kapital hinzutritt – 150.000 € ÷
+  200.000 € = 75 % für den Einbringenden, 25 % für ihn selbst. Wer eine Verlustgesellschaft durch eine
+  Sacheinlage stärken will, vernichtet dabei ihre Verluste. Entscheidend ist ferner der **Zeitpunkt**:
+  Die Umwandlung wirkt steuerlich auf den 31.12.2024 zurück, der schädliche Erwerb tritt aber erst
+  2025 mit der **Handelsregistereintragung** beziehungsweise dem Übergang des wirtschaftlichen
+  Eigentums ein – der Verlust des Jahres 2024 bleibt also zunächst bestehen. Auch die Umwandlung der
+  **Anteilseigner-Gesellschaft** ist schädlich, weil aus Sicht der Verlustgesellschaft ein
+  unmittelbarer Anteilseignerwechsel eintritt, und zwar trotz des Rechtsnachfolgeprinzips des § 12
+  Abs. 3 UmwStG. Einzige folgenlose Umwandlungsart ist der **Formwechsel** nach § 190 UmwG, weil
+  zivilrechtlich kein Vermögen übergeht. Die vorrangigen §§ 4 Abs. 2 Satz 2 und 15 Abs. 3 UmwStG
+  stehen dabei nur scheinbar in Konkurrenz: Sie betreffen den Verlust der **übertragenden**
+  Gesellschaft, § 8c KStG den der **übernehmenden** – im Verschmelzungsbeispiel geht der Verlust der
+  B-GmbH nach § 8c KStG unter, während der Verlust der A-GmbH schon gar nicht erst übergeht.
   Prüfung: `npm run check:k2-kst-teil5`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

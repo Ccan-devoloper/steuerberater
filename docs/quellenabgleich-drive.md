@@ -10620,6 +10620,42 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil V (Hamacher), Abschnitte 1.4.2 und 1.4.3.1 – gleichgestellte Sachverhalte und Umwandlungen
+
+Quelle: dieselbe Datei, Seiten 12 bis 14; übernommen als Kapitel 5 und 6. Prüfung:
+`npm run check:k2-kst-teil5` (6 Kapitel, 133 Blöcke, 13 Tabellen).
+
+**Alle Quoten sind unabhängig nachgerechnet und gehen auf.** Vorzugsaktienbeispiel: 90 % von 40 % =
+36 %; 20/60 = 33,33 %, von der Quelle auf 33 % gerundet; 50 % von 40 % = 20 Prozentpunkte zuzüglich
+10 Prozentpunkte = 30 % des Nennkapitals gegenüber 10/60 = 16,67 % der Stimmrechte.
+Umwandlungsbeispiele: 150.000 € ÷ 200.000 € = 75 % für den neuen Gesellschafter, 50.000 € ÷
+200.000 € = 25 % für den bisherigen.
+
+**Als eigene Feststellung hervorgehoben ist, dass Verwässerung wie Veräußerung wirkt:** Der bisherige
+Gesellschafter veräußert nichts, behält sein Stammkapital unverändert und verliert allein durch das
+Hinzutreten neuen Kapitals die Mehrheit. Wer eine Verlustgesellschaft durch eine Sacheinlage stärken
+will, vernichtet dabei ihre Verluste.
+
+**Ebenfalls als eigene Ergänzungen eingeordnet** sind: die Tragweite der erwerberbezogenen Prüfung,
+durch die derselbe Anteil mehrfach Verluste vernichtet und eine Rückübertragung an den ursprünglichen
+Veräußerer erneut schädlich ist; die Beobachtung, dass drei der gleichgestellten Vorgänge – Erwerb
+eigener Anteile, Kapitalherabsetzung und Stimmrechtsbindung – ganz ohne Anteilsübertragung auskommen;
+die Auseinanderhaltung der drei Bezugsgrößen bei den Vorzugsaktien samt dem Hinweis, dass die
+Addition im Beispiel 46,67 % ergäbe und die Nichtaddition deshalb in anderen Konstellationen über die
+Schwelle entscheiden kann; die Bedeutung des Zeitpunkts, weil die umwandlungssteuerliche Rückwirkung
+gerade nicht gilt und der Untergang deshalb ein Jahr später eintritt; die Klarstellung, dass §§ 4
+Abs. 2 Satz 2 und 15 Abs. 3 UmwStG den Verlust der übertragenden, § 8c KStG dagegen den der
+übernehmenden Gesellschaft betreffen und beide Normen deshalb nur scheinbar konkurrieren; und die
+zivilrechtliche Begründung für die Folgenlosigkeit des Formwechsels.
+
+**Eine Formulierung der Quelle ist wortlautgetreu übernommen und markiert:** das doppelte „ist“ in
+„für Zwecke des § 8c KStG ist nur die höhere von beiden Quoten maßgebend ist“.
+
+**Noch offen:** aus Teil V die Kapitalerhöhung (1.4.3.2), der mittelbare Erwerb (1.4.4), die
+Konzernregelung (1.4.5), der Fünfjahreszeitraum (1.4.6), die Verschonungsgrenze (1.5), die
+Verlustkürzung (1.6), die Organschaftsfälle (1.7) sowie die Kapitel 2 bis 4; ganz offen sind die
+Skriptteile VI und VII.
+
 ### KSt Teil V (Hamacher), Abschnitte 1.3 und 1.4.1 – Erwerberkreis und Anteilserwerb
 
 Quelle: dieselbe Datei, Seiten 9 bis 11; übernommen als Kapitel 3 und 4. Prüfung:
