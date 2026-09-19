@@ -10620,6 +10620,44 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil IV (Hamacher), Abschnitte 4.4 und 5.1 – § 1 AStG und der Einstieg in die Dreiecksfälle
+
+Quelle: dieselbe Datei, Seiten 57 bis 59; übernommen als Kapitel 40 und 41. Prüfung:
+`npm run check:k2-kst-teil4` (41 Kapitel, 639 Blöcke, 61 Tabellen). Damit ist auch das Kapitel 4 der
+Quelle vollständig.
+
+**Ein Gliederungsfehler der Quelle ist festgestellt.** Das Inhaltsverzeichnis führt die Nummer **5.6
+zweimal**: einmal als „Korrespondenzprinzip in Dreiecksfällen“ (Seite 68) und einmal als „Anwendung
+des § 1 AStG“ (Seite 76). Der Verweis in Abschnitt 4.4 („siehe auch unter 5.6“) ist dadurch
+mehrdeutig; gemeint ist ersichtlich der zweite Abschnitt. Damit ist dies der dritte fehlerhafte oder
+mehrdeutige Querverweis in diesem Skript, nach „1.4.2.1“ (Abschnitt 3.2.3) und „4.4.4“ (Abschnitt
+4.2.5.2).
+
+**Die Zahlen des Beispiels zu 4.4 sind auf zwei Wegen nachgerechnet.** Einzeln: 1.000.000 € ./.
+600.000 € = 400.000 € vGA; 600.000 € ./. 500.000 € = 100.000 € nach § 1 AStG. Zusammen: 400.000 € +
+100.000 € = 500.000 €, genau die Differenz zwischen Kaufpreis und Verrechnungspreis. Als eigene
+Feststellung festgehalten ist, dass sich die beiden Korrekturen dadurch lückenlos und
+überschneidungsfrei ergänzen.
+
+**Als eigene Ergänzungen eingeordnet** sind ferner: die Auflösung des scheinbaren Widerspruchs
+zwischen „kein Vorrang“ und „ausgeschlossen“ über das Stufenmodell (§ 8 Abs. 3 Satz 2 KStG bis zum
+gemeinen Wert, § 1 AStG bis zum Verrechnungspreis); die Erklärung, weshalb der Medianwert des § 1
+Abs. 3a Satz 4 AStG typischerweise vom gemeinen Wert abweicht; die Bedeutung der Ausblendung der
+Beteiligungserträge; der Gegensatz zur Sperrwirkung des Art. 9 OECD-MA aus Abschnitt 2.2; sowie zum
+Kapitel 5 das Dreiecksbild, die Begründung für den zwingenden Umweg über den gemeinsamen
+Gesellschafter und das Vier-Schritte-Schema.
+
+**Zwei Formulierungen der Quelle sind wortlautgetreu übernommen und markiert:** „Würde auch der
+Verrechnungspreis dem gemeinen Wert von 600.000 € betragen“ (Kasus) sowie die Überschrift
+„Verhältnis von der verdeckter Gewinnausschüttung und § 1 AStG“, die im Datensatz als Titel
+sprachlich geglättet ist und deren Wortlaut hier festgehalten wird. Im Fließtext der Seite 58 steht
+zudem „errreicht“ mit drei r – ein offensichtlicher Setzfehler, der im Datensatz stillschweigend
+korrigiert ist.
+
+**Noch offen:** aus Teil IV die vier Fallgruppen der Dreiecksfälle (5.2 bis 5.5), das
+Korrespondenzprinzip in Dreiecksfällen (5.6), die Anwendung des § 1 AStG, die Schenkungsteuer (5.7)
+und das Kapitel 6 (Pensionszusage); ganz offen sind die Skriptteile V bis VII.
+
 ### KSt Teil IV (Hamacher), Abschnitte 4.2.5.2 und 4.3 – nahe stehende Personen und § 32a KStG
 
 Quelle: dieselbe Datei, Seiten 53 bis 57; übernommen als Kapitel 38 und 39. Prüfung:

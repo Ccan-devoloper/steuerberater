@@ -2903,8 +2903,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k2-kst-teil3`
 - **KSt Teil IV (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil IV (vGA)“): das
   Lehrgangsskript **„Körperschaftsteuer, Teil IV: Verdeckte Gewinnausschüttung i. S. des § 8 Abs. 3
-  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 39 Kapitel mit 612
-  Abschnitten und 57 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
+  Satz 2 KStG“** (21. Auflage, Stand 07/2025) im Wortlaut – **in Arbeit**, derzeit 41 Kapitel mit 639
+  Abschnitten und 61 Tabellen. Die verdeckte Gewinnausschüttung ist eine Vorteilszuwendung an den
   Gesellschafter oder eine ihm nahe stehende Person **außerhalb** der offenen Gewinnverwendung – und
   weil schon die offene Ausschüttung das Einkommen nach § 8 Abs. 3 Satz 1 KStG nicht mindern darf,
   gilt für die verdeckte nichts anderes. Der praktische Einstieg in jeden Klausurfall ist eine
@@ -3377,6 +3377,40 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Auffassung für nicht abgedeckt. Im Beispiel wirkt die Vorschrift doppelt: Die Einkünfte nach § 19
   EStG sinken um 480.000 €, die nach § 20 EStG steigen um 288.000 € – die Differenz von 192.000 € ist
   genau der nach § 3 Nr. 40 Buchstabe d EStG freigestellte Teil.
+  Beim Verhältnis zu **§ 1 AStG** wirkt der Abschnitt auf den ersten Blick widersprüchlich: Es gebe
+  keinen Vorrang, und doch sei § 1 AStG ausgeschlossen, wenn die vGA das zutreffende Einkommen bereits
+  erfasst hat. Beides passt zusammen, sobald man die Normen als **Stufen** liest – § 8 Abs. 3 Satz 2
+  KStG arbeitet bis zum **gemeinen Wert**, § 1 AStG geht darüber hinaus bis zum **Verrechnungspreis**.
+  Stimmen beide Werte überein, bleibt für die zweite Stufe nichts übrig, nicht weil sie verdrängt
+  wäre, sondern weil ihr Anwendungsbereich leerläuft; liegt der Verrechnungspreis niedriger, schließt
+  § 1 Abs. 1 Satz 4 AStG den Spalt. Im Beispiel der Quelle ergeben 400.000 € vGA (1.000.000 € ./.
+  600.000 €) und 100.000 € nach § 1 AStG (600.000 € ./. 500.000 €) zusammen genau die Differenz
+  zwischen Kaufpreis und Verrechnungspreis – die beiden Korrekturen ergänzen sich **lückenlos und
+  überschneidungsfrei**. Dass der Medianwert unter dem gemeinen Wert liegt, ist dabei kein Zufall,
+  sondern die typische Folge des § 1 Abs. 3a Satz 4 AStG: Der Median ist ein normativ bestimmter Punkt
+  innerhalb einer Bandbreite, der gemeine Wert ein einzelner Marktwert. Entscheidend ist ferner, dass
+  das zutreffende Inlandseinkommen stets **unter Ausblendung** der Beteiligungserträge des
+  Anteilseigners ermittelt wird – ob der ausländische Gesellschafter die vGA in seinem Staat
+  versteuert, spielt keine Rolle. Damit ist dieser Abschnitt die Gegenrichtung zur Sperrwirkung des
+  Art. 9 OECD-MA aus Abschnitt 2.2: Dort ist die vGA im Auslandsfall schwächer, weil der formelle
+  Vergleich gesperrt ist, hier stärker, weil sie durch § 1 AStG ergänzt wird. **Damit ist auch das
+  Kapitel 4 der Quelle vollständig.**
+  Die **Dreiecksfälle** (Kapitel 5) betreffen vGA zwischen Schwestergesellschaften und verlangen eine
+  **zweistufige** Betrachtung: die unübliche Leistung der benachteiligten Gesellschaft an den
+  Anteilseigner einerseits, die Vorteilszuwendung an die andere Gesellschaft andererseits. Man zeichne
+  sich das einmal als Dreieck: Die Leistung geht waagerecht von der einen Schwester zur anderen,
+  steuerlich läuft sie aber über die **Spitze** – erst hinauf zum gemeinsamen Gesellschafter als vGA,
+  dann wieder hinunter als verdeckte Einlage. Dieser Umweg ist zwingend, denn zwischen den beiden
+  Schwestern besteht **kein** Gesellschaftsverhältnis; die für eine vGA erforderliche Veranlassung
+  gibt es nur über den gemeinsamen Gesellschafter, und die Brücke dorthin bilden die **nahe stehenden
+  Personen** aus Abschnitt 1.9. Die **Beteiligungsquote** ist unerheblich, und im Zweifel wird dem
+  gemeinsamen Gesellschafter die vollständige vGA und Einlage zugerechnet, obwohl er wirtschaftlich
+  nur anteilig profitiert – das kehrt sich nur um, wenn ein ausdrücklicher **Zuwendungswille** an die
+  Mitgesellschafter feststellbar ist. Praktisch ist deshalb jeder Dreiecksfall in **vier** Schritten
+  zu lösen: benachteiligte Gesellschaft, Anteilseigner (Bezug), Anteilseigner (Einlage), bevorteilte
+  Gesellschaft – jeder Schritt mit eigener Norm. Die Quelle unterscheidet vier Fallgruppen:
+  unentgeltliche oder verbilligte Lieferung, überteuerte Lieferung, überteuerte Dienstleistung und
+  verbilligte Dienstleistung.
   Prüfung: `npm run check:k2-kst-teil4`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

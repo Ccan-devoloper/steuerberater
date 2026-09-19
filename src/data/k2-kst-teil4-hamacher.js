@@ -51,9 +51,13 @@
    Kapitalgesellschaften als Anteilseigner (4.2.3) übernommen, dazu die
    Umqualifizierung der Einkünfte bei der Vermögensminderung (4.2.4) und die
    Verbrauchstheorie beim Anteilseigner (4.2.5.1) und bei einer nahe stehenden
-   Person (4.2.5.2) sowie die formelle Korrespondenz des § 32a KStG (4.3). Es
-   folgt das Verhältnis zu § 1 AStG (4.4) sowie die Kapitel 5 und 6; der
-   Campus weist den Stand aus.
+   Person (4.2.5.2), die formelle Korrespondenz des § 32a KStG (4.3) und das
+   Verhältnis zu § 1 AStG (4.4). Damit ist auch das Kapitel 4 der Quelle
+   vollständig. Aus Kapitel 5 (Dreiecksfälle) ist die Begriffsdefinition mit
+   der zweistufigen Betrachtungsweise (5.1) übernommen. Es folgen die vier
+   Fallgruppen (5.2 bis 5.5), das Korrespondenzprinzip in Dreiecksfällen
+   (5.6), die Anwendung des § 1 AStG und die Schenkungsteuer (5.7) sowie das
+   Kapitel 6; der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juli 2025.
 
@@ -1901,6 +1905,100 @@ export const kstTeil4 = [
       { text: "Anmerkung zur Zweischneidigkeit (eigene Ergänzung): Die Vorschrift wirkt in **beide** Richtungen, was leicht übersehen wird. Sie erlaubt nicht nur die nachträgliche Erfassung der vGA beim Gesellschafter, sondern verpflichtet das Finanzamt auch, ihm die **Begünstigung** zu gewähren – die Quelle nennt § 8b Abs. 1 Satz 1 KStG, § 3 Nr. 40 Buchstabe d EStG und § 32d Abs. 1 EStG ausdrücklich. Und sie greift ebenso, wenn die Gesellschaft die vGA im Klageverfahren wieder **wegbekommt**: Dann ist die Besteuerungsfolge beim Gesellschafter zu beseitigen. Dass dabei eine **Korrekturpflicht** ohne Ermessensspielraum besteht, macht die Norm zu einem echten Anspruch des Steuerpflichtigen." },
       { text: "Anmerkung zu den Grenzen (eigene Ergänzung): Drei Grenzen der Vorschrift lohnen die Aufmerksamkeit, weil sie in der Klausur die Punkte entscheiden. Erstens muss die Änderung des Körperschaftsteuerbescheids **gerade die vGA** betreffen – eine Änderung aus anderen Gründen öffnet das Tor nicht; ob sich die festgesetzte Steuer dabei ändert, ist dagegen gleichgültig, was etwa in Verlustjahren wichtig ist. Zweitens erfasst § 32a Abs. 1 KStG den **Gewerbesteuermessbetrag** nicht – dort führt der Weg über § 35b GewStG. Drittens hält die Quelle die erhöhten **Abschreibungen der Folgejahre** ausdrücklich für nicht abgedeckt und kennzeichnet das als eigene Auffassung („M.E.“); abgedeckt sei nur die Erhöhung der Anschaffungskosten selbst. Wer in einem Folgejahr die höhere AfA geltend machen will, braucht also eine **andere** Korrekturnorm." },
       { text: "Anmerkung zur Doppelung in der Quelle (eigene Ergänzung): Der Gedanke, der Körperschaftsteuerbescheid sei kein Grundlagenbescheid und das Finanzamt des Anteilseigners dürfe selbst prüfen, steht im Abschnitt **zweimal** – einmal mit der Begründung „lediglich eine formelle Korrespondenz“, einmal mit „keine verfahrensrechtliche Bindung“. Sachlich sagen beide Stellen dasselbe; die Wiederholung ist so in der Quelle enthalten und hier unverändert übernommen." },
+    ],
+  },
+  {
+    id: "kst-t4-40",
+    kapitel: "40",
+    abschnittNr: "4.4",
+    title: "4.4 Verhältnis zu § 1 AStG – zwei Korrekturnormen nebeneinander",
+    thema: "Verdeckte Gewinnausschüttung und § 1 AStG stehen unabhängig nebeneinander. Ist das zutreffende Inlandseinkommen durch § 8 Abs. 3 Satz 2 KStG bereits erfasst, ist § 1 AStG ausgeschlossen – sonst wird ergänzend hinzugerechnet",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 4.4 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "R 8.5 KStR",
+      "§ 1 Abs. 1 AStG",
+      "§ 1 Abs. 1 Satz 4 AStG",
+      "§ 1 Abs. 3 AStG",
+      "§ 1 Abs. 3a Satz 4 AStG",
+      "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+      "BFH vom 09.08.2023, BStBl. II 2024, 675",
+      "BMF vom 06.06.2023, BStBl. I 2023, 1130, Tz. 1.3",
+    ],
+    themen: ["§ 1 AStG", "Verrechnungspreis", "Medianwert", "ausländischer Anteilseigner", "Einkünfteminderung", "Inlandseinkommen"],
+    bloecke: [
+      { text: "Wie bereits im Zusammenhang mit der verdeckten Einlage beschrieben, stellt sich auch bei einer inländischen Kapitalgesellschaft mit einem ausländischen Anteilseigner die Frage, ob ein Vorrang der verdeckten Gewinnausschüttung gegenüber der Anwendung des § 1 AStG besteht, wenn aufgrund einer grenzüberschreitenden Leistungsbeziehung im Inland eine Einkünfteminderung eingetreten ist. Beide Einkünfteermittlungstatbestände stehen dabei wieder unabhängig nebeneinander, so dass es keine Vorrangstellung hinsichtlich einer der beiden Tatbestände gibt." },
+      { text: "Dabei gilt aber wieder der Grundsatz, dass wenn durch Erfassung der vGA nach § 8 Abs. 3 Satz 2 KStG das zutreffende inländische Einkommen bereits erfasst wurde, eine Anwendung des § 1 AStG ausgeschlossen ist. Das zutreffende Inlandseinkommen wird dabei immer unter Ausblendung der beim Anteilseigner nach § 20 Abs. 1 Nr. 1 Satz 2 EStG anfallenden Beteiligungserträge ermittelt, so dass es diesbezüglich nicht entscheidend ist, ob der Anteilseigner auch die vGA besteuert hat. Zu den Auswirkungen bei den sog. Dreiecksfällen siehe auch unter 5.6." },
+      { text: "Anderenfalls kommt es zur Anwendung des § 1 Abs. 1 AStG, was insbesondere dann der Fall ist, wenn der Wert der vGA (z.B. mit dem gemeinen Wert oder der erzielbaren Vergütung) von dem sich nach § 1 Abs. 3 AStG ergebenden Verrechnungspreis abweicht. In Höhe der Wertdifferenz ist dann nach § 1 Abs. 1 Satz 4 AStG ergänzend eine außerbilanzielle Hinzurechnung nach § 1 AStG vorzunehmen." },
+      { text: "Beispiel: An der in Deutschland ansässigen A-GmbH ist zu 100 % die niederländische B-BV beteiligt. Diese liefert ihrer Gesellschaft in 2025 für einen Kaufpreis von 1.000.000 € Waren, die sämtliche auch veräußert wurden. Der gemeine Wert der Waren beträgt 600.000 €, wobei sich nach Verrechnungspreisgrundsätzen ein Medianwert von 500.000 € ergeben würde." },
+      { text: "Lösung: Die A-GmbH erleidet in 2025 aus gesellschaftsrechtlichen Gründen eine Vermögensminderung, weil sie von ihrem Anteilseigner Waren zu einem erhöhten Preis erworben hat. Insoweit liegt bereits nach R 8.5 KStR eine verdeckte Gewinnausschüttung vor, die nach § 8 Abs. 3 Satz 2 KStG zu einer außerbilanziellen Einkommenserhöhung führt. Diese beträgt 400.000 €, weil für diese Zwecke von dem fremdvergleichbaren Wert von 600.000 € auszugehen ist." },
+      { text: "§ 8 Abs. 3 Satz 2 KStG: + 400.000 €." },
+      { text: "Ergänzend dazu kommt in Höhe von 100.000 € auch eine außerbilanzielle Hinzurechnung nach § 1 Abs. 1 AStG zum Tragen. Denn der Verrechnungspreis i.S. des § 1 Abs. 3 AStG entspricht dem Medianwert von 500.000 € (siehe § 1 Abs. 3a Satz 4 AStG), so dass in dieser Höhe eine weitere Einkommenskorrektur vorgenommen werden muss. Erst dadurch wird das zutreffende Inlandseinkommen erreicht." },
+      { text: "Beachte: Würde auch der Verrechnungspreis dem gemeinen Wert von 600.000 € betragen, wäre die Anwendung des § 1 AStG aufgrund Anwendung der verdeckten Gewinnausschüttung ausgeschlossen. (Die Form „Würde auch der Verrechnungspreis dem gemeinen Wert … betragen“ steht so in der Quelle.)" },
+      { typ: "tabelle", spalten: ["Schritt", "Wert", "Herleitung"], zeilen: [
+        ["gezahlter Kaufpreis an die B-BV", "1.000.000 €", "laut Sachverhalt"],
+        ["fremdvergleichbarer Wert (gemeiner Wert)", "600.000 €", "Maßstab der vGA"],
+        ["Verrechnungspreis nach § 1 Abs. 3 AStG (Medianwert)", "500.000 €", "§ 1 Abs. 3a Satz 4 AStG"],
+        ["Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG", "+ 400.000 €", "1.000.000 € ./. 600.000 €"],
+        ["ergänzende Hinzurechnung nach § 1 Abs. 1 AStG", "+ 100.000 €", "600.000 € ./. 500.000 €"],
+        ["Hinzurechnung insgesamt", "+ 500.000 €", "1.000.000 € ./. 500.000 €"],
+      ] },
+      { typ: "tabelle", spalten: ["Konstellation", "vGA nach § 8 Abs. 3 Satz 2 KStG", "§ 1 AStG"], zeilen: [
+        ["Verrechnungspreis entspricht dem gemeinen Wert", "greift in voller Höhe der Differenz", "ausgeschlossen – das zutreffende Inlandseinkommen ist bereits erfasst"],
+        ["Verrechnungspreis liegt unter dem gemeinen Wert", "greift bis zum gemeinen Wert", "greift ergänzend in Höhe der Wertdifferenz, § 1 Abs. 1 Satz 4 AStG"],
+        ["Verhältnis der beiden Normen zueinander", "kein Vorrang", "kein Vorrang – beide stehen unabhängig nebeneinander"],
+      ] },
+      { text: "Rechenproben (eigene Ergänzung): Die Zahlen gehen auf und lassen sich auf zwei Wegen prüfen. Einzeln: 1.000.000 € ./. 600.000 € = 400.000 € vGA; 600.000 € ./. 500.000 € = 100.000 € nach § 1 AStG. Zusammen: 400.000 € + 100.000 € = 500.000 €, und das ist genau die Differenz zwischen dem gezahlten Kaufpreis von 1.000.000 € und dem Verrechnungspreis von 500.000 €. Die beiden Korrekturen ergänzen sich also **lückenlos und überschneidungsfrei** – im Ergebnis wird die inländische Gesellschaft so gestellt, als hätte sie den Verrechnungspreis gezahlt." },
+      { text: "Anmerkung zur Arbeitsteilung der beiden Normen (eigene Ergänzung): Der Abschnitt wirkt auf den ersten Blick widersprüchlich – es gebe keinen Vorrang, und doch sei § 1 AStG ausgeschlossen, wenn die vGA das zutreffende Einkommen schon erfasst hat. Beides passt zusammen, sobald man die Normen als **Stufen** liest: § 8 Abs. 3 Satz 2 KStG arbeitet bis zum **gemeinen Wert**, § 1 AStG geht darüber hinaus bis zum **Verrechnungspreis**. Wo beide Werte übereinstimmen, bleibt für die zweite Stufe nichts übrig – nicht weil sie verdrängt wäre, sondern weil ihr Anwendungsbereich leerläuft. Nur wo der Verrechnungspreis **niedriger** liegt als der gemeine Wert, öffnet sich der Spalt, den § 1 Abs. 1 Satz 4 AStG schließt." },
+      { text: "Anmerkung zum Medianwert (eigene Ergänzung): Dass der Verrechnungspreis mit 500.000 € unter dem gemeinen Wert von 600.000 € liegt, ist kein Zufall des Beispiels, sondern die typische Folge des § 1 Abs. 3a Satz 4 AStG. Diese Vorschrift lässt bei einer Bandbreite von Fremdvergleichswerten eine Berichtigung auf den **Median** zu, wenn der vom Steuerpflichtigen gewählte Wert außerhalb der Bandbreite liegt. Der Median ist damit ein **normativ** bestimmter Punkt innerhalb einer Spanne, während der gemeine Wert ein einzelner Marktwert ist – beide können auseinanderfallen, und genau daraus entsteht die Zusatzkorrektur." },
+      { text: "Anmerkung zur Ausblendung der Beteiligungserträge (eigene Ergänzung): Der Satz, das zutreffende Inlandseinkommen werde stets **unter Ausblendung** der beim Anteilseigner anfallenden Beteiligungserträge ermittelt, ist die entscheidende Weichenstellung des Abschnitts. Er bedeutet, dass die Prüfung allein auf die **inländische Gesellschaft** schaut: Ob der ausländische Anteilseigner die vGA in seinem Staat versteuert, spielt keine Rolle. Das ist konsequent, weil § 1 AStG die deutsche Bemessungsgrundlage schützen soll und der deutsche Fiskus auf die Besteuerung im Ausland keinen Zugriff hat. Zugleich erklärt es, weshalb der Abschnitt ganz ohne Korrespondenzüberlegungen auskommt." },
+      { text: "Anmerkung zur Sperrwirkung des Art. 9 OECD-MA (eigene Ergänzung): Dieser Abschnitt ist die Gegenrichtung zu dem, was Abschnitt 2.2 am Ende festgehalten hat. Dort sperrt der abkommensrechtliche Fremdvergleichsgrundsatz die Anwendung des **formellen** Vergleichs in grenzüberschreitenden Fällen, weil er nur materielle Abweichungen trägt. Hier geht es umgekehrt darum, dass die materielle Korrektur der vGA **nicht weit genug** reicht und deshalb durch § 1 AStG ergänzt wird. In grenzüberschreitenden Fällen ist die vGA also an einer Stelle schwächer und an einer anderen stärker als im reinen Inlandsfall – wer beide Stellen kennt, hat die Besonderheiten des Auslandsbezugs beisammen." },
+    ],
+  },
+  {
+    id: "kst-t4-41",
+    kapitel: "41",
+    abschnittNr: "5.1",
+    title: "5.1 Dreiecksfälle – Begriffsdefinition und die zweistufige Betrachtung",
+    thema: "Bei vGA zwischen Schwestergesellschaften ist zweistufig zu prüfen: unübliche Leistung an den Anteilseigner und Vorteilszuwendung an die andere Gesellschaft. Es entsteht stets eine Kombination aus vGA und verdeckter Einlage",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil IV (Hamacher), Abschnitt 5.1 · Stand 07/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8 Abs. 3 Satz 2 KStG",
+      "§ 8 Abs. 3 Satz 3 KStG",
+      "§ 20 Abs. 5 EStG",
+      "BFH vom 26.10.1987, BStBl. II 1988, 348",
+      "BFH vom 20.08.1986, BStBl. II 1987, 455",
+      "BFH vom 28.01.1992, BStBl. II 1992, 605",
+      "BFH vom 12.12.2000, BStBl. II 2001, 234",
+    ],
+    themen: ["Dreiecksfall", "Schwestergesellschaften", "zweistufige Betrachtung", "mittelbare vGA", "mittelbare verdeckte Einlage", "gemeinsamer Gesellschafter", "Zuwendungswille"],
+    bloecke: [
+      { text: "Häufig vorkommend sind verdeckte Gewinnausschüttungen zwischen Schwestergesellschaften bzw. sog. Dreiecksfälle. Bei solchen Leistungsbeziehungen ist daher eine zweistufige Betrachtungsweise anzuwenden, wonach" },
+      { text: "– einerseits die unübliche Leistung der benachteiligten Gesellschaft an den Anteilseigner (= verdeckte Gewinnausschüttung)" },
+      { text: "– und andererseits die Vorteilszuwendung an die andere Gesellschaft zu würdigen sind." },
+      { text: "Daher führen die Dreiecksfälle grundsätzlich zu einer Kombination aus einer verdeckten Gewinnausschüttung und verdeckten Einlage. Sämtliche Konsequenzen werden immer unter Einbeziehung des gemeinsamen Gesellschafters beider Gesellschaften vorgenommen, aus dessen Sicht jeweils eine mittelbare vGA bzw. eine mittelbare verdeckte Einlage gegeben ist." },
+      { text: "Dabei ist sowohl für die Annahme einer verdeckten Gewinnausschüttung als auch der verdeckten Einlage jeweils entscheidend, dass beide (Schwester-)Gesellschaften als nahe stehende Personen ihres gemeinsamen Anteilseigners anzusehen sind. Die Beteiligungsquote des gemeinsamen Gesellschafters ist in diesem Zusammenhang nicht entscheidend. Ist der Anteilseigner in diesen Fällen mit weniger als 100 % beteiligt, ist ihm grundsätzlich die vollständige verdeckte Gewinnausschüttung und die verdeckte Einlage zuzurechnen, wenn nicht auch ein ausdrücklicher Zuwendungswille an die anderen Gesellschafter festgestellt werden kann. Ist dies der Fall, würde auch der Mitgesellschafter an der vGA bzw. der verdeckten Einlage partizipieren." },
+      { text: "In diesem Zusammenhang sind vier Fallgruppen zu unterscheiden:" },
+      { typ: "tabelle", spalten: ["Fallgruppe der Dreiecksfälle", "Abschnitt der Quelle"], zeilen: [
+        ["unentgeltliche oder verbilligte Lieferung von Wirtschaftsgütern", "5.2"],
+        ["überteuerte Lieferung von Wirtschaftsgütern", "5.3"],
+        ["überteuerte Dienstleistungen", "5.4"],
+        ["verbilligte Dienstleistungen", "5.5"],
+      ] },
+      { typ: "tabelle", spalten: ["Beteiligter", "Vorgang", "Rechtsfolge"], zeilen: [
+        ["benachteiligte Gesellschaft", "unübliche Leistung an die Schwestergesellschaft", "verdeckte Gewinnausschüttung, Hinzurechnung nach § 8 Abs. 3 Satz 2 KStG"],
+        ["gemeinsamer Anteilseigner", "Bezug der vGA über die nahe stehende Person", "mittelbare vGA, Zurechnung nach § 20 Abs. 5 EStG"],
+        ["gemeinsamer Anteilseigner", "Weitergabe des Vorteils an die bevorteilte Gesellschaft", "mittelbare verdeckte Einlage, Erhöhung der Anschaffungskosten der Beteiligung"],
+        ["bevorteilte Gesellschaft", "Empfang des Vorteils", "verdeckte Einlage, Abzug nach § 8 Abs. 3 Satz 3 KStG, Zugang beim steuerlichen Einlagekonto"],
+      ] },
+      { text: "Anmerkung zum Aufbau des Kapitels (eigene Ergänzung): Der Abschnitt gibt das Prüfungsschema für das gesamte Kapitel 5 vor, und es lohnt sich, es einmal als **Dreieck** zu zeichnen: Die Leistung geht waagerecht von der einen Schwester zur anderen, steuerlich läuft sie aber über die **Spitze** – erst hinauf zum gemeinsamen Gesellschafter (vGA), dann wieder hinunter zur bevorteilten Gesellschaft (verdeckte Einlage). Daher der Name. Wer diesen Umweg vor Augen hat, kommt in allen vier Fallgruppen ohne Auswendiglernen aus, weil sich die Rechtsfolgen jeweils aus den schon bekannten Regeln der Kapitel 1 bis 4 ergeben." },
+      { text: "Anmerkung zur Rolle des gemeinsamen Gesellschafters (eigene Ergänzung): Dass **sämtliche** Konsequenzen unter Einbeziehung des gemeinsamen Gesellschafters gezogen werden, ist keine Formalie, sondern zwingend. Zwischen den beiden Schwestergesellschaften besteht **kein** Gesellschaftsverhältnis – sie sind einander nicht beteiligt. Eine vGA setzt aber gerade die Veranlassung durch das Gesellschaftsverhältnis voraus, und die gibt es nur über den gemeinsamen Gesellschafter. Genau deshalb betont die Quelle, dass beide Gesellschaften als **nahe stehende Personen** ihres gemeinsamen Anteilseigners anzusehen sein müssen: Das ist die Brücke, ohne die das Dreieck nicht trägt, und sie stammt unmittelbar aus Abschnitt 1.9." },
+      { text: "Anmerkung zur Beteiligungsquote (eigene Ergänzung): Die Quelle sagt zweierlei, das zusammengehört. Erstens ist die **Quote unerheblich** – auch eine Minderheitsbeteiligung an beiden Gesellschaften trägt den Dreiecksfall. Zweitens wird dem gemeinsamen Gesellschafter im Zweifel die **vollständige** vGA und Einlage zugerechnet, obwohl er wirtschaftlich nur anteilig profitiert. Das kehrt sich nur um, wenn ein **ausdrücklicher Zuwendungswille** an die Mitgesellschafter festgestellt werden kann – dieselbe Prüfung, die schon Abschnitt 1.9 für die Zurechnung bei nahe stehenden Personen verlangt hat. Der Zuwendungswille ist also in beiden Zusammenhängen das Scharnier, an dem die Zurechnung hängt." },
+      { text: "Anmerkung zur Kombination von vGA und verdeckter Einlage (eigene Ergänzung): Dass beide Institute **gleichzeitig** greifen, ist die eigentliche Besonderheit des Kapitels und der Grund für seinen Umfang. In allen bisherigen Kapiteln ging es nur um die eine Richtung – Vorteil hinaus zum Gesellschafter. Hier kommt die Gegenrichtung hinzu, und mit ihr der ganze Apparat des § 8 Abs. 3 Satz 3 KStG samt steuerlichem Einlagekonto. Praktisch bedeutet das: Jeder Dreiecksfall ist in **vier** Schritten zu lösen – benachteiligte Gesellschaft, Anteilseigner (Bezug), Anteilseigner (Einlage), bevorteilte Gesellschaft –, und jeder Schritt hat seine eigene Norm." },
     ],
   },
 ];
