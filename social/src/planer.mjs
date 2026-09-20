@@ -10,7 +10,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { CONFIG } from "./config.mjs";
-import { themenpool, FAECHER } from "./inhalte.mjs";
+import { themenpool, FAECHER, KLAUSUREN } from "./inhalte.mjs";
 import { heuteIso, wochentag, minutenVon, hhmm, tageBis } from "./zeit.mjs";
 import { anlaesseFuer, mindsetThema } from "./kalender.mjs";
 import { zeitenWaehlen } from "./zeiten.mjs";
@@ -49,6 +49,23 @@ export const FORMAT_QUELLEN = {
   wochenrueckblick: [],
   aktuell:        [],
 };
+
+/* Klausurtage hart rotieren – analog zur Rechtsgebietsrotation bei Herr Jurist.
+
+   Mit zwei Feed-Slots pro Tag ergibt sich z. B.:
+     Tag A: K1, K2
+     Tag B: K2, K3
+     Tag C: K3, K1
+   Danach beginnt der Zyklus erneut. Dadurch rotiert auch jeder einzelne Slot
+   sauber durch alle drei Klausuren, statt nur im Wochenmittel ausgeglichen zu
+   sein. Spezialformate ohne Pool-Thema (Aktuell, Wochenrückblick,
+   Lösungsskizze, Samstags-Mindset) verbrauchen ihren Platz nicht nachträglich:
+   der folgende Slot behält seine kalendarisch vorgesehene Klausur. */
+export function klausurenDesTages(datum, plaetze) {
+  const tage = Math.floor(Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10)) / 86400000);
+  const start = ((tage % 3) + 3) % 3;
+  return Array.from({ length: Math.max(0, plaetze) }, (_, i) => ((start + i) % 3) + 1);
+}
 
 function gewichteteWahl(kandidaten, zufall, ledger, strategie = null) {
   const g = CONFIG.plan.prioritaetGewicht;
@@ -146,7 +163,6 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   const benutzt = new Set();
   const ledgerKopie = { ...ledger, fachZaehler: { ...(ledger.fachZaehler || {}) } };
 
-  const beitraegeBisher = [];
   /* Das Reel sucht sich sein Thema ZUERST aus.
 
      Bis zum 14.09. lief es umgekehrt: Das Reel steht im Tagesplan an letzter
@@ -165,18 +181,15 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
      Uhrzeit) bleibt unverändert - nur die Wahl des Themas wird vorgezogen. */
   const reihenfolge = formate.map((_, i) => i).sort((a, b) => (formate[b] === "reel" ? 1 : 0) - (formate[a] === "reel" ? 1 : 0));
 
-  /* Und es nimmt das Rechtsgebiet, das bei den Reels am längsten nicht dran
-     war. Die gewichtete Wahl allein genügt hier nicht: Sie zieht über die
-     FÄCHER aus, und das Zivilrecht stellt elf davon gegen fünf im Strafrecht.
-     Wer nur zuerst wählen darf, landet damit fast immer im Zivilrecht - eine
-     Schieflage wie vorher, nur in die andere Richtung. Das Reel ist das
-     Format mit der größten Reichweite; es soll den ganzen Stoff zeigen. */
-  const reelGebiet = () => {
-    const letzte = (ledger.veroeffentlicht || []).filter((e) => e.format === "reel").slice(-6);
-    const zaehler = { 1: 0, 2: 0, 3: 0 };
-    for (const e of letzte) { const g = FAECHER[e.fach]?.klausur; if (zaehler[g] !== undefined) zaehler[g]++; }
-    return Number(Object.keys(zaehler).sort((a, b) => zaehler[a] - zaehler[b] || Number(a) - Number(b))[0]);
-  };
+  /* Jeder Pool-Slot bekommt seine Klausur VOR der Themenwahl. Wie bei Herr
+     Jurist wird nach dem Platz im Tag rotiert, nicht nach der Zahl der
+     poolgestützten Beiträge. Steht in b1 etwa „Aktuell“, rückt b2 also nicht
+     auf die K1-Farbe nach, sondern behält die für b2 vorgesehene Klausur. */
+  const ausPool = (f) => (FORMAT_QUELLEN[f] || []).length > 0;
+  const poolSlots = formate.map((f, i) => i).filter((i) => ausPool(formate[i]) && !(formate[i] === "reel" && wt === 6));
+  const rotation = klausurenDesTages(datum, formate.length);
+  const klausurFuer = new Map(poolSlots.map((slot) => [slot, rotation[slot]]));
+
   const beitraege = new Array(formate.length);
   for (const i of reihenfolge) {
     const format = formate[i];
@@ -186,17 +199,14 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
       let kandidaten = verfuegbar(pool, ledgerKopie, datum, benutzt).filter((t) => typen.includes(t.typ));
       /* Endspurt: Dauerbrenner zuerst – keine seltenen Themen mehr. */
       if (endspurt) { const hoch = kandidaten.filter((t) => t.prioritaet === "hoch"); if (hoch.length >= 4) kandidaten = hoch; }
-      /* Farbwechsel: Zwei Beiträge am selben Tag sollen nicht dieselbe Farbe
-         tragen – im Profilraster sähe das aus wie ein Doppelpost. Gibt es
-         genug Auswahl, bleiben nur Themen anderer Klausurtage übrig. */
-      const schonHeute = new Set(beitraegeBisher.map((b) => b.thema?.klausur).filter(Boolean));
-      const andereFarbe = kandidaten.filter((t) => !schonHeute.has(t.klausur));
-      if (andereFarbe.length >= 3) kandidaten = andereFarbe;
-      /* Das Reel zuerst auf das Gebiet, das bei den Reels am längsten nicht
-         dran war - siehe reelGebiet() oben. */
-      if (format === "reel") {
-        const dran = kandidaten.filter((t) => t.klausur === reelGebiet());
-        if (dran.length >= 3) kandidaten = dran;
+      /* Harte Klausurrotation: Die Gewichtung entscheidet nur noch INNERHALB
+         der vorgesehenen Klausur über Fach und Thema. Erst wenn dort wegen
+         Sperren/Format wirklich nichts frei ist, darf der Slot ausweichen. */
+      const ziel = klausurFuer.get(i);
+      if (ziel) {
+        const inKlausur = kandidaten.filter((t) => t.klausur === ziel);
+        if (inKlausur.length) kandidaten = inKlausur;
+        else console.warn(`  ! ${KLAUSUREN[ziel]?.kurz || ziel}: kein freies Thema für „${format}“ – dieser Slot weicht heute aus.`);
       }
       thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie, strategie);
       benutzt.add(thema.id);
@@ -206,7 +216,6 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
     if (format === "reel" && wt === 6) thema = mindsetThema(datum);
     const zeit = format === "loesungsskizze" ? abendAnlass.zeit : (zeiten[i] || zeiten.at(-1));
     const eintrag = { slot: `b${i + 1}`, zeit, format, thema, anlass: format === "anlass" ? anlass : format === "loesungsskizze" ? abendAnlass : undefined, lang: format === "reel" ? CONFIG.reel.langeTage.includes(wt) : undefined };
-    beitraegeBisher.push(eintrag);
     beitraege[i] = eintrag;
   }
 
