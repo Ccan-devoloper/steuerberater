@@ -230,7 +230,7 @@ export function bedarf(bestand = [], heute, ziel = ZIEL_BESTAND) {
  * Genommen wird das ÄLTESTE taugliche Stück: Was zuerst verfällt, wird zuerst
  * gebraucht.
  */
-export function entnehmen(bestand = [], { heute, ledger = null, dublettenTage = DUBLETTEN_TAGE } = {}) {
+export function entnehmen(bestand = [], { heute, ledger = null, dublettenTage = DUBLETTEN_TAGE, klausur = null } = {}) {
   const { gueltig, verfallen } = bestandPruefen(bestand, heute);
   /* Der Ledger fuehrt seine Veroeffentlichungen unter `veroeffentlicht`, mit
      `thema` als Themen-ID und `art` als Gattung - genau so, wie vermerken()
@@ -243,15 +243,18 @@ export function entnehmen(bestand = [], { heute, ledger = null, dublettenTage = 
     const grenze = new Date(new Date(`${alsTag(heute)}T00:00:00Z`).getTime() - dublettenTage * TAG_MS).toISOString().slice(0, 10);
     for (const b of veroeffentlicht) if (alsTag(b.datum) >= grenze && b.thema && b.art !== "story") jung.add(b.thema);
   }
-  const frei = gueltig.filter((e) => !jung.has(e.themaId));
+  const farbtreu = klausur == null ? gueltig : gueltig.filter((e) => Number(e.klausur) === Number(klausur));
+  const frei = farbtreu.filter((e) => !jung.has(e.themaId));
   if (!frei.length) {
     return {
       eintrag: null,
       rest: gueltig,
       verfallen,
-      grund: gueltig.length
-        ? `alle ${gueltig.length} Vorratsbeiträge behandeln ein Thema, das in den letzten ${dublettenTage} Tagen erschienen ist`
-        : "kein gültiger Vorratsbeitrag vorhanden",
+      grund: !farbtreu.length && klausur != null
+        ? `kein gültiger Vorratsbeitrag für Klausur ${klausur} vorhanden`
+        : farbtreu.length
+          ? `alle ${farbtreu.length} passenden Vorratsbeiträge behandeln ein Thema, das in den letzten ${dublettenTage} Tagen erschienen ist`
+          : "kein gültiger Vorratsbeitrag vorhanden",
     };
   }
   const gewaehlt = [...frei].sort((a, b) => String(a.erstelltAm).localeCompare(String(b.erstelltAm)))[0];
