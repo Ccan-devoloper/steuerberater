@@ -3274,6 +3274,17 @@
       },
       "insightsStand": "2026-09-20T08:44:01.381Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-20",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "frage",
+      "thema": "ust-quiz-ust-13",
+      "fach": "ust",
+      "titel": "Ware an Unternehmer B in Österreich fürs Unternehmen; gültige USt-IdNr., Erwerb dort besteuert. Wie ist die Lieferung?",
+      "medienId": "18452877565186699",
+      "veroeffentlicht": "2026-09-20T09:43:52.452Z"
     }
   ],
   "fachZaehler": {
