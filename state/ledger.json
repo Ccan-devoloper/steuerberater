@@ -3257,7 +3257,23 @@
       "fach": "bilanz",
       "titel": "Wochenrückblick: alles mitgenommen?",
       "medienId": "17882971320687438",
-      "veroeffentlicht": "2026-09-20T06:45:20.591Z"
+      "veroeffentlicht": "2026-09-20T06:45:20.591Z",
+      "insights": {
+        "reach": 7,
+        "views": 13,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 8,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 5
+      },
+      "insightsStand": "2026-09-20T08:44:01.381Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
