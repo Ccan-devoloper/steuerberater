@@ -110,7 +110,20 @@
       "state": "settled",
       "createdAt": "2026-09-20T10:43:39.991Z",
       "updatedAt": "2026-09-20T10:43:56.327Z"
+    },
+    {
+      "reservationId": "2026-09-20-0009-kommentare",
+      "date": "2026-09-20",
+      "bucket": "engagement",
+      "purpose": "kommentare",
+      "attempt": 1,
+      "slot": null,
+      "reservedUsd": 0.248558,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-20T12:43:27.777Z",
+      "updatedAt": "2026-09-20T12:43:27.777Z"
     }
   ],
-  "stand": "2026-09-20T11:44:37.372Z"
+  "stand": "2026-09-20T12:43:27.777Z"
 }
