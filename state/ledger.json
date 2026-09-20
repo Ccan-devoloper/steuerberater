@@ -3215,6 +3215,38 @@
       },
       "insightsStand": "2026-09-20T05:43:48.631Z",
       "insightsAlterStunden": 12.3
+    },
+    {
+      "datum": "2026-09-20",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "wochenrueckblick",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Fünf Themen, die diese Woche jede Klausur betreffen können",
+      "hookTyp": "aussage",
+      "medienId": "18115847054286942",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#steuerfachangestellte",
+        "#lernenmitsystem",
+        "#lerngruppe",
+        "#körperschaftsteuer",
+        "#klausurtechnik",
+        "#wochenrückblick",
+        "#umsatzsteuer",
+        "#außenprüfung"
+      ],
+      "veroeffentlicht": "2026-09-20T06:45:08.840Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
