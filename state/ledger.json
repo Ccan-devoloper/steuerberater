@@ -3087,8 +3087,8 @@
       "medienId": "18336532195285615",
       "veroeffentlicht": "2026-09-19T10:48:08.239Z",
       "insights": {
-        "reach": 27,
-        "views": 51,
+        "reach": 28,
+        "views": 52,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
@@ -3101,8 +3101,8 @@
         "navigation_tap_forward": 30,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-20T07:44:07.167Z",
-      "insightsAlterStunden": 20.9
+      "insightsStand": "2026-09-20T10:05:20.576Z",
+      "insightsAlterStunden": 23.3
     },
     {
       "datum": "2026-09-19",
@@ -3115,22 +3115,22 @@
       "medienId": "18014640863957158",
       "veroeffentlicht": "2026-09-19T13:44:04.507Z",
       "insights": {
-        "reach": 25,
-        "views": 37,
+        "reach": 29,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 30,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 16,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 10
+        "navigation": 41,
+        "navigation_tap_exit": 11,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 20,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-09-20T05:43:48.631Z",
-      "insightsAlterStunden": 16
+      "insightsStand": "2026-09-20T10:05:20.576Z",
+      "insightsAlterStunden": 20.4
     },
     {
       "datum": "2026-09-19",
@@ -3143,22 +3143,22 @@
       "medienId": "18025400273702359",
       "veroeffentlicht": "2026-09-19T16:43:44.091Z",
       "insights": {
-        "reach": 20,
-        "views": 29,
+        "reach": 26,
+        "views": 42,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 1,
+        "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 23,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 12,
-        "navigation_swipe_forward": 3,
+        "navigation": 33,
+        "navigation_tap_back": 6,
+        "navigation_tap_forward": 17,
+        "navigation_swipe_forward": 4,
         "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-09-20T05:43:48.631Z",
-      "insightsAlterStunden": 13
+      "insightsStand": "2026-09-20T10:05:20.576Z",
+      "insightsAlterStunden": 17.4
     },
     {
       "datum": "2026-09-19",
@@ -3171,22 +3171,22 @@
       "medienId": "18121118060512465",
       "veroeffentlicht": "2026-09-19T17:26:20.421Z",
       "insights": {
-        "reach": 18,
-        "views": 24,
+        "reach": 24,
+        "views": 36,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 19,
-        "navigation_tap_forward": 12,
+        "navigation": 28,
+        "navigation_tap_forward": 15,
         "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 3
+        "navigation_tap_exit": 5,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-09-20T05:43:48.631Z",
-      "insightsAlterStunden": 12.3
+      "insightsStand": "2026-09-20T10:05:20.576Z",
+      "insightsAlterStunden": 16.7
     },
     {
       "datum": "2026-09-19",
@@ -3199,22 +3199,22 @@
       "medienId": "18180396499425820",
       "veroeffentlicht": "2026-09-19T17:26:32.100Z",
       "insights": {
-        "reach": 15,
-        "views": 23,
+        "reach": 23,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 21,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 12,
-        "navigation_tap_back": 3
+        "navigation": 28,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 14,
+        "navigation_tap_exit": 6,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-09-20T05:43:48.631Z",
-      "insightsAlterStunden": 12.3
+      "insightsStand": "2026-09-20T10:05:20.576Z",
+      "insightsAlterStunden": 16.6
     },
     {
       "datum": "2026-09-20",
