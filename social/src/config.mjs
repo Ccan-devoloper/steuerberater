@@ -19,9 +19,10 @@ export const CONFIG = {
     /* true: Kanzlei-Stil wechselt Kachel für Kachel zwischen Schwarz und Weiß
        (Schachbrett im Profil). Für andere Stile ohne Wirkung. */
     stilWechsel: env("IG_STIL_WECHSEL", "true") === "true",
-    /* Markenkern „sortiert nach Klausurtag“: jede Kachel trägt die feste Farbe
-       ihres Prüfungstags (Tag 1 Blau, Tag 2 Orange, Tag 3 Grün) – farbiger
-       Balken oben, Akzente, Pille, Fußzeile. Ersetzt den Schwarz/Weiß-Wechsel. */
+    /* Markenkern mit fünf sichtbaren Feed-Kategorien: Klausur 1 Blau,
+       Klausur 2 Orange, Klausur 3 Grün, Klausurtechnik/Kopfsache Violett und
+       Wochenrückblick Gold. Keine Kategorie darf im Feed direkt auf sich
+       selbst folgen. Ersetzt den Schwarz/Weiß-Wechsel. */
     farbeJeKlausur: env("IG_FARBE_JE_KLAUSUR", "true") === "true",
     zeitzone: "Europe/Berlin",
   },
