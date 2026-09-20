@@ -30,3 +30,13 @@ test("Normale Fachbeiträge behalten ihre Facheinordnung", () => {
     fachLabel: "Bilanzsteuerrecht",
   });
 });
+
+
+test("Themenlose Anlässe können den geplanten Fach-Farbslot übernehmen", () => {
+  assert.deepEqual(beitragsEinordnung("anlass", null, null, null, 1), {
+    fach: null,
+    klausur: 1,
+    fachLabel: "Steuerberaterexamen",
+  });
+  assert.deepEqual(beitragsEinordnung("anlass", null, null, null, 2).klausur, 2);
+});
