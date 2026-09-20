@@ -6334,6 +6334,20 @@ test("Vorrat im Tageslauf 7: leerer oder abgelaufener Vorrat - der Slot bleibt b
   fs.rmSync(alt.hosting.dir, { recursive: true, force: true });
 });
 
+test("Vorrat im Tageslauf 7b: auch passende Reserve darf keine gleiche Farbe direkt wiederholen", async () => {
+  const welt = resWelt();
+  welt.hosting.jsonSchreiben("ledger.json", {
+    veroeffentlicht: [{ datum: "2026-09-18", art: "beitrag", format: "schema", fach: "kst", klausur: 2, thema: "anderes-k2", medienId: "m-vorher" }],
+  });
+  const r = await runner(welt, { fehler: await budgetFehlerBauen() });
+
+  assert.equal(r.ersetzt, false, "Reserve hat K2 direkt auf K2 veröffentlicht");
+  assert.match(r.grund, /direkt auf dieselbe Feed-Kategorie/);
+  assert.equal(welt.ig.feed.length, 0, "trotz Farb-Dublette wurde an Instagram gesendet");
+  assert.equal(welt.hosting.jsonLesen("reserve.json").eintraege.length, 1, "der blockierte Vorratsbeitrag wurde verbraucht");
+  fs.rmSync(welt.hosting.dir, { recursive: true, force: true });
+});
+
 test("Vorrat im Tageslauf 8: ein Thema, das gerade erschienen ist, kommt nicht sofort noch einmal", async () => {
   const welt = resWelt();
   welt.hosting.jsonSchreiben("ledger.json", { veroeffentlicht: [{ datum: "2026-09-12", art: "beitrag", thema: "kst-schema-1" }] });
