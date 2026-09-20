@@ -3478,7 +3478,23 @@
       "fach": "bilanz",
       "titel": "Lineare Auflösung des Disagios",
       "medienId": "18461219239187148",
-      "veroeffentlicht": "2026-09-20T15:44:27.673Z"
+      "veroeffentlicht": "2026-09-20T15:44:27.673Z",
+      "insights": {
+        "reach": 11,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-09-20T17:40:19.202Z",
+      "insightsAlterStunden": 1.9
     }
   ],
   "fachZaehler": {
