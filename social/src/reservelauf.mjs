@@ -34,6 +34,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { bestandPruefen, bedarf, entnehmen, eintragBauen, ZIEL_BESTAND } from "./reserve.mjs";
 import { istKostenKontrollFehler } from "./kostenfehler.mjs";
+import { FEED_KATEGORIEN, feedKategorie, feedFolgeErlaubt } from "./inhalte.mjs";
 
 /**
  * Wann der Vorrat ueberhaupt eingreift - und wann nicht.
@@ -131,7 +132,19 @@ export async function reserveEntnehmen({
   log = () => {},
 }) {
   const kennung = slot || eintrag?.slot || "?";
-  const wahl = entnehmen(bestand, { heute, ledger, klausur: eintrag?.klausur });
+  const zielKategorie = feedKategorie(eintrag);
+  if (zielKategorie == null) {
+    const grund = "geplanter Farbslot ist unbekannt";
+    log(`  Vorrat: kein Ersatz für ${kennung} (${grund})`);
+    return { eintrag: null, medienId: null, bestand, grund, nachDurable: () => {} };
+  }
+  const vorher = [...(ledger?.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.medienId !== "trocken");
+  if (!feedFolgeErlaubt(vorher, { klausur: zielKategorie })) {
+    const grund = `${FEED_KATEGORIEN[zielKategorie] || zielKategorie} würde direkt auf dieselbe Feed-Kategorie folgen`;
+    log(`  Vorrat: kein Ersatz für ${kennung} (${grund})`);
+    return { eintrag: null, medienId: null, bestand, grund, nachDurable: () => {} };
+  }
+  const wahl = entnehmen(bestand, { heute, ledger, klausur: zielKategorie });
   for (const e of wahl.verfallen) bilderLoeschen(hosting, e.id);
   if (!wahl.eintrag) {
     log(`  Vorrat: kein Ersatz für ${kennung} (${wahl.grund})`);
