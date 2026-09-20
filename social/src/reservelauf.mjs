@@ -34,7 +34,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { bestandPruefen, bedarf, entnehmen, eintragBauen, ZIEL_BESTAND } from "./reserve.mjs";
 import { istKostenKontrollFehler } from "./kostenfehler.mjs";
-import { FEED_KATEGORIEN, feedKategorie, feedFolgeErlaubt } from "./inhalte.mjs";
+import { FEED_KATEGORIEN, feedKategorie, feedFolgeErlaubt } from "./feedfarben.mjs";
 
 /**
  * Wann der Vorrat ueberhaupt eingreift - und wann nicht.
