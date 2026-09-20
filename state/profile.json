@@ -231,16 +231,16 @@
       2071,
       605
     ],
-    "aufrufeGesamt": 2,
+    "aufrufeGesamt": 3,
     "erfolgreicheAufrufe": 2,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
-    "sonstigeFehler": 0,
+    "sonstigeFehler": 1,
     "aktuellesCeiling": 4500,
     "ceilingGesetztAm": "2026-09-20T05:44:32.614Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-20T05:44:55.222Z"
+    "zuletzt": "2026-09-20T06:43:33.149Z"
   },
   "story-faktencheck:5bc0d5300f28": {
     "profilId": "story-faktencheck:5bc0d5300f28",
@@ -315,15 +315,15 @@
     "profilId": "reel-faktencheck:4b0cb363edb7",
     "familie": "reel-faktencheck / claude-sonnet-5 / medium / d17782",
     "letzteAusgabeTokens": [],
-    "aufrufeGesamt": 1,
+    "aufrufeGesamt": 2,
     "erfolgreicheAufrufe": 0,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
-    "sonstigeFehler": 1,
+    "sonstigeFehler": 2,
     "aktuellesCeiling": 3000,
     "ceilingGesetztAm": "2026-09-20T05:46:15.438Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-20T05:46:15.438Z"
+    "zuletzt": "2026-09-20T06:43:33.276Z"
   }
 }
