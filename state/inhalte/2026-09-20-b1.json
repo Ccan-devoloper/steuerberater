@@ -1,0 +1,87 @@
+{
+  "format": "wochenrueckblick",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Fünf Themen, die diese Woche jede Klausur betreffen können",
+      "icon": "klemmbrett",
+      "pille": "Swipen →",
+      "hinweis": "Merk dir das"
+    },
+    {
+      "art": "text",
+      "titel": "Themen Teil 1",
+      "punkte": [
+        "Grundstücksverkauf: Option zur Steuerpflicht nach *§ 9 (1) UStG* nur möglich, wenn Erwerber selbst zum Vorsteuerabzug berechtigt ist.",
+        "§ 27 KStG: Das steuerliche Einlagekonto wird nur *verwendet*, wenn der ausschüttbare Gewinn nicht ausreicht – nicht automatisch bei jeder Ausschüttung.",
+        "Sonderbetriebsvermögen nach *§ 15 (1) S. 1 Nr. 2 EStG*: Wirtschaftsgüter im Eigentum des Gesellschafters, die der Gesellschaft dienen, gehören zur Gesamtgewinnermittlung dazu."
+      ]
+    },
+    {
+      "art": "text",
+      "titel": "Themen Teil 2",
+      "punkte": [
+        "Wohnsitz im Ausland, Tätigkeit im Inland: erst prüfen, ob *unbeschränkte* oder nur *beschränkte* Steuerpflicht nach § 1 EStG vorliegt, bevor du Einkünfte zuordnest.",
+        "In der Bilanzklausur zuerst die *Handelsbilanz* aufstellen, danach die steuerliche Korrektur – nicht umgekehrt.",
+        "§ 173 (1) AO: Nach einer Außenprüfung wirkt die Änderungssperre des § 173 (2) AO – neue Tatsachen allein reichen dann oft nicht mehr."
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Wer die Reihenfolge kennt, verliert selten an der Substanz – meistens nur an der Zeit."
+    },
+    {
+      "art": "cta",
+      "titel": "Schick das der Person in deiner Lerngruppe, die diese Woche verpasst hat",
+      "punkte": [
+        "Schick das deiner Lerngruppe zum Wochenabschluss",
+        "Speichern für die letzte Wiederholung vor der Prüfung",
+        "Welches Thema hat dich diese Woche am meisten gekostet? Kommentiere!"
+      ],
+      "icon": "haken"
+    }
+  ],
+  "caption": "Wochenrückblick Steuerberaterexamen: Grundstücksverkauf, Sonderbetriebsvermögen, Außenprüfung Diese Woche ging es um die Option nach § 9 UStG beim Grundstücksverkauf, das Einlagekonto nach § 27 KStG, Sonderbetriebsvermögen, beschränkte Steuerpflicht und die Änderungssperre nach § 173 AO. Kleine Themen, die in der Klausur groß werden, wenn die Reihenfolge nicht sitzt. Schick das deiner Lerngruppe, bevor das Wochenende anfängt, und speichert euch die Kachel für die letzte Wiederholung vor der Prüfung. Welches Thema aus dieser Woche sitzt bei dir noch nicht ganz?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#steuerfachangestellte",
+    "#lernenmitsystem",
+    "#lerngruppe",
+    "#körperschaftsteuer",
+    "#klausurtechnik",
+    "#wochenrückblick",
+    "#umsatzsteuer",
+    "#außenprüfung"
+  ],
+  "kurztitel": "Wochenrückblick: alles mitgenommen?",
+  "bildSzene": "desk with checklist notebook pen",
+  "bildSzeneAlt": "calendar page marked weekend review",
+  "quellen": [],
+  "hookTyp": "aussage",
+  "faktenHinweise": [
+    "Grundstücksverkauf: Option zur Steuerpflicht nach § 9 (1) UStG: Bei einer Grundstücksveräußerung ist zusätzlich § 9 Abs. 3 Satz 1 UStG zu beachten, wonach der Verzicht auf die Steuerbefreiung nur im notariellen Kaufvertrag erklärt werden kann. Diese tragende Voraussetzung fehlt.",
+    "§ 173 (1) AO / Änderungssperre: Die Änderungssperre nach § 173 Abs. 2 AO setzt einen aufgrund einer Außenprüfung ergangenen, bestandskräftigen Bescheid voraus; diese Voraussetzung wird nicht genannt.",
+    "Merksatz: Behauptung über Häufigkeit/Typik ('meistens nur an der Zeit') ohne Beleg."
+  ],
+  "faktenFreigabe": {
+    "ok": true,
+    "geprueftAm": "2026-09-20T05:45:44.368Z",
+    "ausgefallen": false,
+    "hinweise": [
+      "Grundstücksverkauf: Option zur Steuerpflicht nach § 9 (1) UStG: Bei einer Grundstücksveräußerung ist zusätzlich § 9 Abs. 3 Satz 1 UStG zu beachten, wonach der Verzicht auf die Steuerbefreiung nur im notariellen Kaufvertrag erklärt werden kann. Diese tragende Voraussetzung fehlt.",
+      "§ 173 (1) AO / Änderungssperre: Die Änderungssperre nach § 173 Abs. 2 AO setzt einen aufgrund einer Außenprüfung ergangenen, bestandskräftigen Bescheid voraus; diese Voraussetzung wird nicht genannt.",
+      "Merksatz: Behauptung über Häufigkeit/Typik ('meistens nur an der Zeit') ohne Beleg."
+    ]
+  },
+  "slug": "2026-09-20-b1"
+}

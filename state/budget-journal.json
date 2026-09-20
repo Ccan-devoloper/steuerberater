@@ -80,11 +80,24 @@
       "attempt": 1,
       "slot": null,
       "reservedUsd": 0.051353,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.024429,
+      "state": "settled",
       "createdAt": "2026-09-20T05:45:28.422Z",
-      "updatedAt": "2026-09-20T05:45:29.611Z"
+      "updatedAt": "2026-09-20T05:45:44.367Z"
+    },
+    {
+      "reservationId": "2026-09-20-0007-reel",
+      "date": "2026-09-20",
+      "bucket": "core",
+      "purpose": "reel",
+      "attempt": 1,
+      "slot": "reel",
+      "reservedUsd": 0.107352,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-20T05:45:44.458Z",
+      "updatedAt": "2026-09-20T05:45:44.458Z"
     }
   ],
-  "stand": "2026-09-20T05:45:29.611Z"
+  "stand": "2026-09-20T05:45:44.458Z"
 }
