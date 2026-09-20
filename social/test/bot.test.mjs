@@ -1296,31 +1296,28 @@ test("Rücklage gilt allen noch zu schreibenden Beiträgen, nicht den Stories", 
   budgetSetzen({});
 });
 
-test("Übertrag: nicht erschienene Beiträge von gestern ersetzen neue Themen gleicher Art", async () => {
+test("Übertrag ersetzt nur denselben Farbslot und verschiebt keinen Wochenrückblick", async () => {
   const { uebertragen } = await import("../src/planer.mjs");
   const gestern = { datum: "2026-09-13", beitraege: [
-    { slot: "b1", format: "wochenrueckblick", status: "geplant" },
-    { slot: "b2", format: "schema", themaId: "x-1", themaTitel: "Thema X", fach: "zpo", status: "geplant" },
-    { slot: "b3", format: "reel", themaId: "y-2", themaTitel: "Thema Y", fach: "strafat", status: "geplant" },
-    { slot: "b4", format: "schema", themaId: "z-3", themaTitel: "Schon einmal übertragen", status: "geplant", uebertragen: 1 },
-    { slot: "b5", format: "aktuell", themaId: "a-4", status: "geplant" },
+    { slot: "b1", format: "wochenrueckblick", klausur: 4, status: "geplant" },
+    { slot: "b2", format: "schema", themaId: "x-1", themaTitel: "Thema X", fach: "kst", klausur: 2, status: "geplant" },
+    { slot: "b3", format: "reel", themaId: "y-2", themaTitel: "Thema Y", fach: "bilanz", klausur: 3, status: "geplant" },
+    { slot: "b4", format: "schema", themaId: "z-3", themaTitel: "Schon einmal übertragen", fach: "ao", klausur: 1, status: "geplant", uebertragen: 1 },
+    { slot: "b5", format: "aktuell", themaId: "a-4", fach: "ao", klausur: 1, status: "geplant" },
   ] };
   const heute = { datum: "2026-09-14", beitraege: [
-    { slot: "b1", zeit: "10:30", format: "pruefungsfrage", themaId: "neu-1", themaTitel: "Neu 1", status: "geplant" },
-    { slot: "b2", zeit: "20:30", format: "reel", themaId: "neu-2", themaTitel: "Neu 2", status: "geplant" },
+    { slot: "b1", zeit: "10:30", format: "pruefungsfrage", themaId: "neu-1", themaTitel: "Neu 1", fach: "kst", klausur: 2, status: "geplant" },
+    { slot: "b2", zeit: "20:30", format: "reel", themaId: "neu-2", themaTitel: "Neu 2", fach: "bilanz", klausur: 3, status: "geplant" },
   ] };
   const u = uebertragen(heute, gestern, "2026-09-13");
-  assert.equal(u.length, 3, "Wochenrückblick, Schema und Reel kommen mit; das schon übertragene und das Aktuelle nicht");
-  /* Der Wochenrückblick nimmt den ersten Beitragsplatz, das Schema wird angehängt, das Reel ersetzt das Reel. */
-  assert.equal(heute.beitraege[0].format, "wochenrueckblick");
-  assert.equal(heute.beitraege[0].uebertragenVon, "2026-09-13-b1");
+  assert.equal(u.length, 2, "nur Schema und Reel mit identischem Farbslot dürfen mitkommen");
+  assert.equal(heute.beitraege[0].themaId, "x-1");
+  assert.equal(heute.beitraege[0].klausur, 2);
   assert.equal(heute.beitraege[0].zeit, "10:30", "die Uhrzeit von heute bleibt");
   assert.equal(heute.beitraege[1].themaId, "y-2");
-  assert.equal(heute.beitraege[1].format, "reel");
-  assert.equal(heute.beitraege[2].themaId, "x-1");
-  assert.equal(heute.beitraege[2].slot, "b3");
-  assert.equal(heute.beitraege[2].uebertragen, 1);
-  assert.equal(heute.beitraege.length, 3);
+  assert.equal(heute.beitraege[1].klausur, 3);
+  assert.ok(!heute.beitraege.some((b) => b.format === "wochenrueckblick"), "Sonntags-Rückblick ist in den Montag gerutscht");
+  assert.equal(heute.beitraege.length, 2);
   /* Ohne gestrigen Plan passiert nichts. */
   assert.deepEqual(uebertragen({ beitraege: [] }, null, "2026-09-13"), []);
 });
@@ -5592,7 +5589,7 @@ test("1a: Der Admissionbedarf des Pflichtprodukts liegt über dem Deckel – und
 /* ===== Reservebestand: die Policy ======================================== */
 
 const reserveBeitrag = (zusatz = {}) => ({
-  format: "karussell", themaId: "kst-schema-1", fach: "kst",
+  format: "karussell", themaId: "kst-schema-1", fach: "kst", klausur: 2,
   folien: [
     { art: "titel", titel: "Das KSt-Grundschema" },
     { art: "text", titel: "Aufbau", text: "Zuerst die Steuerpflicht, dann die Einkommensermittlung, dann die Tarifanwendung." },
@@ -5604,7 +5601,7 @@ const reserveBeitrag = (zusatz = {}) => ({
 const reserveEintrag = (zusatz = {}) => ({
   id: "r1", kanal: "examenscampus",
   erstelltAm: "2026-09-01", verfaelltAm: "2026-09-22",
-  themaId: "kst-schema-1", fach: "kst", typ: "schema", format: "karussell",
+  themaId: "kst-schema-1", fach: "kst", klausur: 2, typ: "schema", format: "karussell",
   beitrag: reserveBeitrag(), bildUrls: ["https://x/1.png", "https://x/2.png"],
   caption: "Das Grundschema in der richtigen Reihenfolge.\n\n#steuerberater", hashtags: ["#steuerberater"],
   faktenFreigabe: { ok: true, geprueftAm: "2026-09-01T10:00:00.000Z", hinweise: [] },
@@ -5711,7 +5708,7 @@ test("Reserve: unvollständige Einträge werden nicht aufgenommen", async () => 
   /* eintragBauen nimmt nur an, was beide Tore passiert UND vollständig ist. */
   const gut = eintragBauen({
     id: "r9", kanal: "examenscampus", erstelltAm: "2026-09-19",
-    thema: { id: "kst-schema-1", fach: "kst", typ: "schema" },
+    thema: { id: "kst-schema-1", fach: "kst", klausur: 2, typ: "schema" },
     beitrag: reserveBeitrag(), bildUrls: ["https://x/1.png"], caption: "Systematik.",
     faktenFreigabe: { ok: true, geprueftAm: "2026-09-19T10:00:00.000Z" },
   });
@@ -5840,8 +5837,7 @@ test("Reserve-Mechanik: die Entnahme veröffentlicht unverändert und kostet nic
 
   const hosting = resHosting();
   hosting._bilderAnlegen("r-tag2");
-  /* Ein Tag-2-Inhalt, gerendert in Tag-2-Farbe, entnommen an einem Tag, an
-     dem ein Tag-1-Thema geplant war. */
+  /* Ein Tag-2-Inhalt darf nur einen geplanten Tag-2-Slot ersetzen. */
   const eintrag = {
     id: "r-tag2", kanal: "examenscampus", erstelltAm: "2026-09-10", verfaelltAm: "2026-10-01",
     themaId: "kst-schema-1", fach: "kst", klausur: 2, typ: "schema", format: "karussell",
@@ -5857,7 +5853,7 @@ test("Reserve-Mechanik: die Entnahme veröffentlicht unverändert und kostet nic
   const ledger = { veroeffentlicht: [] };
   const eintraege = [];
   const inhalte = new Map();
-  const planEintrag = { slot: "b1", status: "geplant", format: "karussell", zeit: "09:00" };
+  const planEintrag = { slot: "b1", status: "geplant", format: "karussell", fach: "kst", klausur: 2, zeit: "09:00" };
 
   const r = await reserveEntnehmen({
     hosting, bestand: [eintrag], heute: "2026-09-19", ledger, ig, slot: "b1", eintrag: planEintrag,
@@ -5922,7 +5918,7 @@ test("Reserve-Mechanik: ohne Medien-ID bleibt der Eintrag im Bestand", async () 
   const r = await reserveEntnehmen({
     hosting, bestand: [eintrag], heute: "2026-09-19", ledger: { veroeffentlicht: [] },
     ig: { bereitsVeroeffentlicht: async () => null, beitragPosten: async () => "trocken" },
-    slot: "b1", eintrag: { slot: "b1", status: "geplant" },
+    slot: "b1", eintrag: { slot: "b1", status: "geplant", klausur: 2 },
     echteMedienId, veroeffentlichungEintragen: () => ({ bestaetigt: true }),
     vermerken: () => { vermerkt++; }, inhaltSpeichern: () => { gespeichert++; },
   });
@@ -6121,7 +6117,7 @@ const resWelt = ({ eintraege = [resVorrat()], plan = null } = {}) => {
   const hosting = resHosting();
   for (const e of eintraege) hosting._bilderAnlegen(e.id);
   hosting.jsonSchreiben("reserve.json", { kanal: "examenscampus", ziel: 4, eintraege });
-  hosting.jsonSchreiben("plan.json", plan || { beitraege: [{ slot: "b1", zeit: "09:00", format: "karussell", themaId: "kst-modul-7", status: "geplant" }], stories: [] });
+  hosting.jsonSchreiben("plan.json", plan || { beitraege: [{ slot: "b1", zeit: "09:00", format: "karussell", themaId: "kst-modul-7", fach: "kst", klausur: 2, status: "geplant" }], stories: [] });
   hosting.jsonSchreiben("ledger.json", { veroeffentlicht: [] });
   return { hosting, ig: resInstagram(), ledger: null, plan: null, protokoll: [] };
 };
