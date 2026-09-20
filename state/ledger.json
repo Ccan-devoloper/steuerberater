@@ -3363,5 +3363,15 @@
     "mindset": 1
   },
   "nachrichten": [],
-  "postfach": []
+  "postfach": [],
+  "interaktionen": [
+    {
+      "kommentarId": "18104721725353123",
+      "medienId": "17870313225649687",
+      "datum": "2026-09-20",
+      "von": "jees_abdi",
+      "antwortId": "18148756936552587",
+      "text": "Notiert! Nr. 2 sind die Kulanzrückstellungen, also Gewährleistungen ohne rechtliche Verpflichtung – dort tritt der faktische Leistungszwang an die Stelle der echten Außenverpflichtung. Interessiert dich eher die handelsrechtliche Abgrenzung oder die steuerliche Anerkennung?"
+    }
+  ]
 }
