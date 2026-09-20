@@ -3287,20 +3287,21 @@
       "medienId": "18452877565186699",
       "veroeffentlicht": "2026-09-20T09:43:52.452Z",
       "insights": {
-        "reach": 6,
-        "views": 11,
+        "reach": 18,
+        "views": 24,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 7,
-        "navigation_tap_exit": 1,
-        "navigation_tap_forward": 6
+        "navigation": 20,
+        "navigation_tap_forward": 16,
+        "navigation_tap_exit": 3,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-20T10:43:59.642Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-20T14:44:08.548Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-20",
@@ -3450,7 +3451,20 @@
       "fach": "ust",
       "titel": "Anzahlung vor Leistung: Steuer entsteht schon mit Zahlung",
       "medienId": "18127601329835154",
-      "veroeffentlicht": "2026-09-20T13:43:59.223Z"
+      "veroeffentlicht": "2026-09-20T13:43:59.223Z",
+      "insights": {
+        "reach": 0,
+        "views": 4,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 0
+      },
+      "insightsStand": "2026-09-20T14:44:08.548Z",
+      "insightsAlterStunden": 1
     }
   ],
   "fachZaehler": {
