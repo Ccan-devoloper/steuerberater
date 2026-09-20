@@ -280,12 +280,10 @@ export function eintragBauen({ id, kanal, thema, beitrag, bildUrls, caption, has
     erstelltAm: alsTag(erstelltAm),
     verfaelltAm: verfallsdatum(erstelltAm),
     themaId: thema?.id ?? beitrag?.themaId ?? null,
-    /* Fach UND Klausurtag gehoeren zum Eintrag, nicht zum Entnahmetag.
-       Die Farbe codiert den fachlichen Klausurtag des INHALTS - so ist es
-       im Renderer ohnehin (render.mjs nimmt fach/klausur aus dem Beitrag),
-       und so bleibt es. Ein Tag-2-Inhalt bleibt Tag-2-farbig, auch wenn er
-       an einem Tag erscheint, an dem ein Tag-1-Thema geplant war. Sonst
-       wuerde die Marke ausgerechnet im Notfall das Falsche behaupten. */
+    /* Fach UND Klausurtag gehoeren zum Eintrag. Die Farbe codiert den
+       fachlichen Klausurtag des INHALTS; die Entnahme darf ihn deshalb nur
+       in einen geplanten Slot derselben Farbe setzen. Ein Tag-2-Inhalt bleibt
+       Tag-2-farbig und kann keinen Tag-1-Slot ersetzen. */
     fach: thema?.fach ?? beitrag?.fach ?? null,
     klausur: thema?.klausur ?? beitrag?.klausur ?? null,
     typ: thema?.typ ?? null,
