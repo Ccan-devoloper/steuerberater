@@ -16,8 +16,9 @@
    2. DIE FARBE KOMMT AUS DEM EINTRAG. Der Renderer nimmt `fach` und
       `klausur` aus dem Beitrag (render.mjs), nicht aus dem Kalendertag - die
       Bilder tragen die Farbe ihres eigenen Klausurtags schon, seit sie
-      gerendert wurden. Die Entnahme veröffentlicht sie unverändert. Ein
-      Tag-2-Inhalt bleibt Tag-2-farbig.
+      gerendert wurden. Die Entnahme veröffentlicht sie unverändert und nur in
+      einen geplanten Slot derselben Klausurfarbe. Ein Tag-2-Inhalt bleibt
+      Tag-2-farbig und ersetzt keinen Tag-1- oder Tag-3-Slot.
 
    3. DIE BILDER LIEGEN AUSSERHALB DER ROTATION. hosting.aufraeumen() löscht
       Bildordner, deren Name ein Datum ist und das älter als 21 Tage ist -
