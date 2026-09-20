@@ -25,6 +25,13 @@ import { freistellen } from "./freistellen.mjs";
 
 const API = "https://api.pexels.com/v1/search";
 
+/* Rechteckige Stockfotos sind nur ein expliziter Notnagel, wenn keine Bild-KI
+   verfügbar ist. Ist Bild-KI verfügbar, muss Pexels den Freisteller-QA
+   bestehen; sonst wird gezeichnet. */
+export function pexelsKartenFallbackErlaubt({ kiAktiv = bildKiAktiv(), rechteckErlaubt = CONFIG.bilder.rechteckErlaubt } = {}) {
+  return Boolean(rechteckErlaubt && !kiAktiv);
+}
+
 /* Hochformat passt auf keine Kachel gut: Wir brauchen Bilder, die sich in ein
    breites Feld schneiden lassen, ohne dass Köpfe abgeschnitten werden. */
 const MINDESTBREITE = 1200;
@@ -146,48 +153,42 @@ export async function fotoLaden(foto, ablage = null) {
 export function fallbackBildSzene(beitrag = {}) {
   const icon = beitrag?.folien?.find((f) => f.art === "titel")?.icon || beitrag?.icon || "";
   const szenen = {
-    kalender: "calendar beside receipt folder", uhr: "desk clock beside tax folder",
-    vertrag: "signed contract beside invoice folder", dokument: "stapled documents on office desk",
-    schriftrolle: "sealed document beside file folder", umschlag: "unopened letter beside document folder",
-    haus: "house keys beside invoice folder", schluessel: "house keys beside document folder",
-    rechner: "calculator beside open ledger", diagramm: "ledger beside financial chart",
-    muenzen: "coins beside blank invoice", fabrik: "industrial machine in workshop",
-    lkw: "delivery truck beside warehouse", personen: "students reviewing tax documents",
-    person: "student reviewing tax documents", lupe: "magnifying glass beside invoice folder",
-    globus: "travel documents beside accounting folder", buch: "open notebook beside receipts",
-    warnung: "red folder beside deadline calendar",
+    kalender: "desk calendar", uhr: "desk clock",
+    vertrag: "signed contract", dokument: "document folder",
+    schriftrolle: "sealed document", umschlag: "unopened letter",
+    haus: "house keyring", schluessel: "single house key",
+    rechner: "calculator", diagramm: "financial chart clipboard",
+    muenzen: "stack of coins", fabrik: "industrial machine",
+    lkw: "delivery truck", personen: "student reviewing tax document",
+    person: "student reviewing tax document", lupe: "magnifying glass",
+    globus: "globe", buch: "open notebook",
+    warnung: "deadline calendar",
   };
-  return szenen[icon] || "student reviewing tax documents";
+  return szenen[icon] || "student reviewing tax document";
 }
-/* Kostenloser Primärpfad für Cover: ein echtes Pexels-Foto wird zuerst
-   freigestellt; wenn alle Freisteller scheitern, ist eine saubere Fotokarte
-   immer noch besser als eine reine Icon-Kachel oder ein bezahlter Bildaufruf.
-   Der alte Schalter rechteckErlaubt gilt damit nicht für diesen letzten
-   Cover-Notfall – die neue Produktregel „Foto + Icon“ hat Vorrang. */
+/* Kostenloser Primärpfad für Cover: Pexels wird zuerst versucht, aber nur
+   als sauber freigestelltes Hauptmotiv. Scheitern alle Kandidaten an Schärfe,
+   Anschnitt, Transparenz oder Motiv-Komplexität, geht die Pipeline weiter zur
+   Bild-KI statt ein rohes Stockfoto in die Kachel zu zwingen. */
 async function kostenlosesCoverFoto(szenen, ablage, opt = {}) {
   if (!CONFIG.bilder.key) return null;
-  let notfall = null;
   for (const szene of szenen) {
-    const kandidaten = await fotoKandidaten(szene, opt);
+    const kandidaten = await fotoKandidaten(szene, { ...opt, anzahl: 6 });
     for (const foto of kandidaten) {
       const roh = await fotoDatei(foto, ablage || os.tmpdir());
       if (!roh) continue;
       const quelle = `Foto: ${foto.fotograf || "Pexels"} / Pexels`;
-      if (!notfall) notfall = { roh, foto, szene, quelle };
-      if (!CONFIG.bilder.freistellen) {
-        return { bild: `data:image/jpeg;base64,${fs.readFileSync(roh).toString("base64")}`, quelle, seite: foto.seite, frei: false, typ: "foto" };
-      }
+      if (!CONFIG.bilder.freistellen) continue;
       const frei = freistellen(roh, { randFarbe: opt.randFarbe || null });
       if (!frei) continue;
       const bild = `data:image/png;base64,${fs.readFileSync(frei.pfad).toString("base64")}`;
       fs.rmSync(frei.pfad, { force: true });
-      console.log(`  → kostenloses Coverfoto: „${szene}“ · ${foto.fotograf || "Pexels"}`);
+      console.log(`  → Pexels-Cover freigegeben: „${szene}“ · ${foto.fotograf || "Pexels"}`);
       return { bild, quelle, seite: foto.seite, frei: true, breite: frei.breite || null, hoehe: frei.hoehe || null, typ: "foto" };
     }
   }
-  if (!notfall) return null;
-  console.log(`  → kostenloses Coverfoto als Karte: „${notfall.szene}“ · ${notfall.foto.fotograf || "Pexels"}`);
-  return { bild: `data:image/jpeg;base64,${fs.readFileSync(notfall.roh).toString("base64")}`, quelle: notfall.quelle, seite: notfall.foto.seite, frei: false, typ: "foto" };
+  console.log("  → kein Pexels-Motiv besteht den Qualitätscheck – Bild-KI ist als nächster Fallback dran.");
+  return null;
 }
 export async function titelbild(beitrag, ablage = null, opt = {}) {
   if (!CONFIG.bilder.aktiv) return null;
@@ -196,11 +197,8 @@ export async function titelbild(beitrag, ablage = null, opt = {}) {
   const szenen = [beitrag?.bildSzene || beitrag?.folien?.[0]?.bildSzene || fallback, beitrag?.bildSzeneAlt || beitrag?.folien?.[0]?.bildSzeneAlt].filter(Boolean);
   if (!szenen.includes(fallback)) szenen.push(fallback);
 
-  /* Zeichnen geht vor Suchen: Das Motiv entsteht zum Thema und kommt
-     freigestellt - kein Stockfoto, das danebenliegt, kein Freisteller, der
-     misslingt, kein Bildnachweis auf der Kachel. Misslingt es, bleibt die
-     Titelfolie beim Icon; die Fotosuche springt dann nicht ein, sie war ja
-     der Grund für die Umstellung. */
+  /* Feed-Cover: zuerst Pexels, aber nur wenn der Freisteller den
+     Qualitätscheck besteht. Sonst Bild-KI. */
   if (bildKiAktiv()) {
     /* Gezeichnet wird nur, was im Feed steht: Titelfolien und Reel-Cover.
        Neun Stories am Tag mitzuzeichnen wäre das Vierfache an Bildern und
@@ -268,7 +266,8 @@ export async function titelbild(beitrag, ablage = null, opt = {}) {
       if (!ersterRoh) { ersterRoh = roh; erstesFoto = foto; ersteSzene = szene; }
       const quelle = `Foto: ${foto.fotograf || "Pexels"} / Pexels`;
       if (!CONFIG.bilder.freistellen) {
-        console.log(`  → Titelbild: „${szene}“ · ${foto.fotograf || "Pexels"}`);
+        if (!pexelsKartenFallbackErlaubt({ kiAktiv: false })) continue;
+        console.log(`  → Titelbild als explizit erlaubte Fotokarte: „${szene}“ · ${foto.fotograf || "Pexels"}`);
         return { bild: `data:image/jpeg;base64,${fs.readFileSync(roh).toString("base64")}`, quelle, seite: foto.seite, frei: false, typ: "foto" };
       }
       /* Der Freisteller entscheidet: unscharf, angeschnitten oder ohne
@@ -284,10 +283,9 @@ export async function titelbild(beitrag, ablage = null, opt = {}) {
     }
   }
   console.log(`  → kein brauchbares Motiv zu „${szenen.join("“ / „")}“ – Titelfolie bleibt beim Icon.`);
-  /* Für ein Cover gilt Foto + Icon härter als die alte ästhetische Präferenz
-     gegen rechteckige Fotos: Wenn Freistellen scheitert, rettet die echte
-     Fotokarte die Veröffentlichung weiterhin kostenlos. */
-  if (!ersterRoh) return null;
-  console.log(`  → Titelbild als Karte: „${ersteSzene}“ · ${erstesFoto.fotograf || "Pexels"}`);
+  /* Ohne Bild-KI darf eine Fotokarte nur erscheinen, wenn sie ausdrücklich
+     erlaubt wurde. Standard: lieber Icon als ein schlecht beschnittenes Foto. */
+  if (!ersterRoh || !pexelsKartenFallbackErlaubt({ kiAktiv: false })) return null;
+  console.log(`  → Titelbild als explizit erlaubte Karte: „${ersteSzene}“ · ${erstesFoto.fotograf || "Pexels"}`);
   return { bild: `data:image/jpeg;base64,${fs.readFileSync(ersterRoh).toString("base64")}`, quelle: `Foto: ${erstesFoto.fotograf || "Pexels"} / Pexels`, seite: erstesFoto.seite, frei: false, typ: "foto" };
 }
