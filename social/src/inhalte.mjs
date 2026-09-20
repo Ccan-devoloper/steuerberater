@@ -61,35 +61,7 @@ export const KLAUSUREN = {
   3: { label: "Klausur 3 · Bilanzen",                    kurz: "K3" },
 };
 
-/* Sichtbare Feed-Kategorien. Die Fachklausuren bleiben 1–3; zwei
-   redaktionelle Sonderfarben liegen außerhalb dieser Achse. */
-export const FEED_KATEGORIEN = Object.freeze({
-  0: "Klausurtechnik / Kopfsache",
-  1: "Klausur 1",
-  2: "Klausur 2",
-  3: "Klausur 3",
-  4: "Wochenrückblick",
-});
-
-export function feedKategorie(eintrag = {}) {
-  if (eintrag?.format === "wochenrueckblick" || eintrag?.fach === "wochenrueckblick") return 4;
-  if (
-    eintrag?.format === "klausurtechnik" ||
-    eintrag?.fach === "mindset" ||
-    eintrag?.thema?.fach === "mindset" ||
-    String(eintrag?.thema || eintrag?.themaId || "").startsWith("mindset-")
-  ) return 0;
-  const fach = eintrag?.fach || eintrag?.thema?.fach;
-  if (fach && FAECHER[fach]) return FAECHER[fach].klausur;
-  if (eintrag?.klausur != null && Number.isFinite(Number(eintrag.klausur))) return Number(eintrag.klausur);
-  if (eintrag?.thema?.klausur != null && Number.isFinite(Number(eintrag.thema.klausur))) return Number(eintrag.thema.klausur);
-  return null;
-}
-
-export function feedFolgeErlaubt(vorher, nachher) {
-  const a = feedKategorie(vorher), b = feedKategorie(nachher);
-  return a == null || b == null || a !== b;
-}
+export { FEED_KATEGORIEN, feedKategorie, feedFolgeErlaubt } from "./feedfarben.mjs";
 
 /* Sätze, die sich auf die Kursquelle beziehen, werden vor der Weitergabe
    entfernt – der Beitrag soll eigenständig klingen. */
