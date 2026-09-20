@@ -94,6 +94,18 @@
     .insight-card{border:1px solid var(--line);background:var(--panel2);border-radius:13px;padding:12px}
     .insight-card b{display:block;margin-bottom:4px}
     .insight-card p{margin:0;color:var(--muted);font-size:12px}
+    .profile-brief{margin-bottom:12px;overflow:hidden;position:relative}
+    .profile-brief:before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:linear-gradient(var(--accent),var(--accent2))}
+    .profile-brief-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:11px}
+    .profile-brief-title{font-size:18px;font-weight:850;letter-spacing:-.02em;margin-top:2px}
+    .profile-brief-lead{color:var(--muted);font-size:12px;max-width:920px;margin-top:4px}
+    .profile-brief-grid{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:8px}
+    .brief-item{border:1px solid var(--line);background:var(--panel2);border-radius:12px;padding:11px;min-width:0}
+    .brief-item .brief-label{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.07em;font-weight:850;margin-bottom:5px}
+    .brief-item .brief-text{font-size:12px;line-height:1.5}
+    .brief-item.more{background:color-mix(in srgb,var(--good) 5%,var(--panel2));border-color:color-mix(in srgb,var(--good) 17%,var(--line))}
+    .brief-item.less{background:color-mix(in srgb,var(--bad) 4%,var(--panel2));border-color:color-mix(in srgb,var(--bad) 14%,var(--line))}
+    .brief-confidence{color:var(--muted);font-size:10px;margin-top:6px}
     .three{grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:12px}
     .compare-card{border:1px solid var(--line);background:var(--panel2);border-radius:13px;padding:13px}
     .compare-card .big{font-size:22px;font-weight:850;margin:5px 0}
@@ -161,7 +173,7 @@
     .auth-row{display:flex;gap:8px}.auth-input{flex:1;min-width:0;border:1px solid var(--line);background:var(--panel2);border-radius:11px;padding:10px;outline:none}
     .auth-error{min-height:20px;color:var(--bad);margin-top:8px;font-size:12px}
     @media(max-width:1180px){.kpi-grid{grid-template-columns:repeat(3,1fr)}.rank-grid,.three{grid-template-columns:1fr 1fr}.rank-grid>:last-child,.three>:last-child{grid-column:1/-1}.system-grid{grid-template-columns:1fr 1fr}}
-    @media(max-width:860px){.topbar{flex-direction:column}.overview-main,.audience-grid,.rank-grid,.three{grid-template-columns:1fr}.rank-grid>:last-child,.three>:last-child{grid-column:auto}.story-step{grid-template-columns:90px 1fr}.story-nav{grid-column:2;text-align:left}.heatmap{grid-template-columns:80px repeat(4,minmax(58px,1fr));overflow:auto}.top-actions{justify-content:flex-start}}
+    @media(max-width:860px){.topbar{flex-direction:column}.overview-main,.audience-grid,.rank-grid,.three,.profile-brief-grid{grid-template-columns:1fr}.rank-grid>:last-child,.three>:last-child{grid-column:auto}.story-step{grid-template-columns:90px 1fr}.story-nav{grid-column:2;text-align:left}.heatmap{grid-template-columns:80px repeat(4,minmax(58px,1fr));overflow:auto}.top-actions{justify-content:flex-start}}
     @media(max-width:590px){.shell{width:min(100% - 16px,1540px);padding-top:14px}.kpi-grid{grid-template-columns:1fr 1fr}.kpi-value{font-size:23px}.system-grid{grid-template-columns:1fr 1fr}.commandbar{align-items:flex-start}.filter-row{width:100%}.filter-row>*{flex:1;min-width:0!important}.drawer-metrics{grid-template-columns:1fr 1fr}.chart-box{height:235px}}
   </style>
 </head>
@@ -231,6 +243,7 @@
 
     <section class="view active" data-view-panel="overview">
       <div class="grid kpi-grid" id="overviewKpis"></div>
+      <article class="panel profile-brief" id="profileBrief"></article>
       <div class="grid overview-main">
         <article class="panel hero">
           <div class="panel-head">
@@ -362,8 +375,8 @@
   "use strict";
 
   var ACCOUNTS={
-    herr:{name:"HerrJurist",sub:"@herrjurist",repo:"Ccan-devoloper/herrjurist",accent:"#8f9cff"},
-    steuer:{name:"Steuerberater",sub:"Examenscampus",repo:"Ccan-devoloper/steuerberater",accent:"#48c78e"}
+    herr:{name:"HerrJurist",summaryName:"HerrJurist",sub:"@herrjurist",repo:"Ccan-devoloper/herrjurist",accent:"#8f9cff"},
+    steuer:{name:"Steuerberater",summaryName:"Examenscampus",sub:"Examenscampus",repo:"Ccan-devoloper/steuerberater",accent:"#48c78e"}
   };
   var REQUIRED_FILES=["ledger.json","follower.json","strategie.json","lernschleife.json","fehler.json","kosten.json"];
   var OPTIONAL_FILES=["insight-snapshots.json"];
@@ -645,6 +658,80 @@
     var groups=groupStats(entries,keyFn).filter(function(g){return g.n>=(minN||2);});
     groups.sort(function(a,b){return performanceScore(b)-performanceScore(a);});return groups[0]||null;
   }
+  function summaryBounds(data){
+    var end=latestDate(data);
+    return {start:addDays(end,-29),end:end,days:30};
+  }
+  function recommendationCandidates(entries){
+    var dimensions=[
+      {kind:"Format",groups:ranking(entries,function(x){return x.format;})},
+      {kind:"Hook",groups:ranking(entries,function(x){return x.hookTyp||x.hookMuster;})},
+      {kind:"Fach",groups:ranking(entries,function(x){return x.fach;})}
+    ];
+    var out=[];
+    dimensions.forEach(function(d){
+      d.groups.forEach(function(g){
+        if(g.n<3)return;
+        out.push({kind:d.kind,key:g.key,index:g.index,n:g.n,shareRate:g.shareRate,saveRate:g.saveRate,followRate:g.followRate,avgReach:g.agg.avgReach});
+      });
+    });
+    return out;
+  }
+  function recommendationText(r,mode){
+    if(!r)return mode==="more"
+      ?"Noch keine Kategorie ist mit mindestens drei Messungen klar stark genug. Weiter Daten sammeln und Varianten testen."
+      :"Noch keine Kategorie ist mit mindestens drei Messungen klar schwach genug, um sie gezielt zurückzufahren.";
+    var lead=mode==="more"?"Mehr ":"Eher weniger ";
+    var metric=Number.isFinite(r.followRate)&&r.followRate>0
+      ?("Follow-Conversion "+pct(r.followRate))
+      :Number.isFinite(r.shareRate)&&r.shareRate>0
+        ?("Share-Rate "+pct(r.shareRate))
+        :("Ø Reach "+fmt(Math.round(r.avgReach||0)));
+    return lead+r.key+" ("+r.kind+"): Index "+Math.round(r.index)+" · "+metric+" · n="+r.n+".";
+  }
+  function renderProfileBrief(data){
+    var b=summaryBounds(data);
+    var entries=entriesFor(data,b).filter(function(x){return x.art==="beitrag"&&x.insights&&Object.keys(x.insights).length;});
+    var all=aggregate(entries),name=ACCOUNTS[store.account].summaryName||ACCOUNTS[store.account].name;
+    var followers=followerDelta(data,b),candidates=recommendationCandidates(entries);
+    var strong=candidates.filter(function(x){return x.index>=110;}).sort(function(a,b){return b.index-a.index;})[0]||null;
+    var weak=candidates.filter(function(x){return x.index<=90;}).sort(function(a,b){return a.index-b.index;})[0]||null;
+    if(strong&&weak&&strong.kind===weak.kind&&strong.key===weak.key)weak=null;
+
+    var reels=entries.filter(function(x){return x.format==="reel";}),feed=entries.filter(function(x){return x.format!=="reel";});
+    var reelAgg=aggregate(reels),feedAgg=aggregate(feed);
+    var dominant=null;
+    if(reels.length>=3&&feed.length>=3){
+      var rs=rate(reelAgg.follows,reelAgg.reach)*12+rate(reelAgg.shares,reelAgg.reach)*8+rate(reelAgg.saved,reelAgg.reach)*5;
+      var fs=rate(feedAgg.follows,feedAgg.reach)*12+rate(feedAgg.shares,feedAgg.reach)*8+rate(feedAgg.saved,feedAgg.reach)*5;
+      if(Number.isFinite(rs)&&Number.isFinite(fs)&&Math.max(rs,fs)>0)dominant=rs>fs?"Reels":"Feed";
+    }
+
+    var lead;
+    if(entries.length<5){
+      lead=name+" hat aktuell "+entries.length+" gemessene Beiträge in den rollierenden 30 Tagen. Für belastbare Empfehlungen sammelt das Dashboard weiter Daten; erste Tendenzen werden erst ab ausreichender Stichprobe hervorgehoben.";
+    }else{
+      var parts=[name+" zeigt in den rollierenden 30 Tagen "+fmt(entries.length)+" gemessene Beiträge mit "+fmt(all.reach)+" Content-Reach"];
+      if(Number.isFinite(followers))parts.push((followers>0?"+":"")+fmt(followers)+" Netto-Follower");
+      if(dominant)parts.push(dominant+" liefern derzeit das stärkere Aktivierungssignal");
+      lead=parts.join(" · ")+".";
+    }
+
+    var watch=reels.map(watchPct).filter(Number.isFinite),watchAvg=watch.length?watch.reduce(function(s,x){return s+x;},0)/watch.length:NaN;
+    var observe=watch.length>=3
+      ?("Reel-Retention liegt im Mittel bei "+pct(watchAvg,0)+" der Videolänge. "+(watchAvg<0.45?"Hooks und Einstieg in den ersten Sekunden weiter straffen.":watchAvg>0.7?"Die aktuelle Reel-Länge hält Aufmerksamkeit gut; dieses Muster weiter testen.":"Weiter beobachten, welche Hooks Retention und Shares gleichzeitig erhöhen."))
+      :("Die Empfehlungen werden automatisch mit jedem neuen Insight- und Snapshot-Lauf neu berechnet.");
+
+    var confidence=entries.length>=20?"hohe":entries.length>=10?"mittlere":"frühe";
+    $("#profileBrief").innerHTML=
+      '<div class="profile-brief-head"><div><div class="eyebrow">Profil-Zusammenfassung · rollierende 30 Tage</div><div class="profile-brief-title">'+esc(name)+'</div><div class="profile-brief-lead">'+esc(lead)+'</div></div><span class="badge">'+esc(confidence)+' Datenbasis · n='+fmt(entries.length)+'</span></div>'+
+      '<div class="profile-brief-grid">'+
+        '<div class="brief-item"><div class="brief-label">Dein Profil zeigt</div><div class="brief-text">'+esc(observe)+'</div><div class="brief-confidence">Wird bei jedem Datenlauf neu berechnet.</div></div>'+
+        '<div class="brief-item more"><div class="brief-label">↑ Mehr davon</div><div class="brief-text">'+esc(recommendationText(strong,"more"))+'</div><div class="brief-confidence">Nur Gruppen mit n ≥ 3 und Index ≥ 110.</div></div>'+
+        '<div class="brief-item less"><div class="brief-label">↓ Weniger davon</div><div class="brief-text">'+esc(recommendationText(weak,"less"))+'</div><div class="brief-confidence">Nur Gruppen mit n ≥ 3 und Index ≤ 90.</div></div>'+
+      '</div>';
+  }
+
   function renderInsights(data){
     var e=entriesFor(data,bounds(data)).filter(function(x){return x.art==="beitrag";}),all=aggregate(e),cards=[];
     var hook=bestGroup(e,function(x){return x.hookTyp||x.hookMuster;},2);
@@ -875,7 +962,7 @@
     renderTabs();renderViews();
     var data=store.data[store.account];
     if(!data){setStatus("Für dieses Konto konnten noch keine Daten geladen werden.","warn");return;}
-    renderRange(data);renderOverviewKpis(data);renderTrend(data);renderInsights(data);renderTypeCompare(data);renderContent(data);renderLearnings(data);renderStories(data);renderAudience(data);renderSystem(data);renderDrawer(data);
+    renderRange(data);renderOverviewKpis(data);renderProfileBrief(data);renderTrend(data);renderInsights(data);renderTypeCompare(data);renderContent(data);renderLearnings(data);renderStories(data);renderAudience(data);renderSystem(data);renderDrawer(data);
     var errs=data._errors&&data._errors.length||0,set=validSelectedDay(data);
     setStatus(errs?("Geladen mit "+errs+" fehlenden Datei(en)"):(set?("Tag "+periodLabel(data)+" · Datenstand "+latestDate(data)):("Aktuell · Stand "+latestDate(data))),errs?"warn":"ok");
     $("#footerSource").textContent="Quelle: "+ACCOUNTS[store.account].name+" · Instagram-Analytics-State";
