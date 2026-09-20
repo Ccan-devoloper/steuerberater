@@ -5,8 +5,8 @@
   "klausur": 1,
   "pairId": "ust-quiz-ust-13",
   "ueberzeile": "Richtig ist B",
-  "titel": "Steuerfrei mit Erwerbsbesteuerung beim Abnehmer",
-  "text": "§ 4 Nr. 1 b UStG i.V.m. § 6a UStG: Warenbewegung ins EU-Ausland, USt-IdNr. des Abnehmers und dessen Erwerbsbesteuerung. Nachweise regelt § 6a (3) UStG.",
+  "titel": "Steuerfrei – der Abnehmer versteuert den Erwerb",
+  "text": "§ 4 Nr. 1 Buchst. b UStG i.V.m. § 6a UStG: Die Ware gelangt ins übrige Gemeinschaftsgebiet, B erwirbt als Unternehmer für sein Unternehmen, der Erwerb wird dort besteuert und B verwendet eine gültige USt-IdNr.; die Nachweise müssen vorliegen.",
   "optionen": [
     "Im Inland steuerpflichtig",
     "Steuerfrei nach § 4 Nr. 1 b i.V.m. § 6a UStG, Abnehmer versteuert Erwerb",
@@ -15,8 +15,6 @@
   "richtig": 1,
   "fachLabel": "Umsatzsteuer",
   "befundeTypisiert": true,
-  "beanstandetFachlich": [
-    "[QuizPair ust-quiz-ust-13], Frage und Antwort: Es ist unklar, welcher Sachverhalt der Frage zugrunde liegt. Die Antwort B verweist auf eine Warenbewegung ins EU-Ausland mit USt-IdNr. des Abnehmers (§ 4 Nr. 1 b i.V.m. § 6a UStG), aber in der Frage ist kein Sachverhalt angegeben: keine Angabe von Warenbewegung, Abnehmerland, USt-IdNr.-Vorlage, Rechnungsausstellung oder sonstigem Bezug. Ohne diese Angaben kann nicht überprüft werden, ob B tatsächlich die richtige Antwort ist oder nur zufällig zur markierten Option passt. → Die Frage muss einen vollständigen Sachverhalt enthalten (z.B.: Unternehmer A liefert Waren an Unternehmer B in Österreich. B hat eine gültige USt-IdNr. vorgelegt. A stellt eine Rechnung mit Rechnungsangaben aus. Wie wird die Lieferung besteuert?), damit die Antwortoptionen nachvollziehbar sind."
-  ],
-  "fachStand": "1cstm9c-430"
+  "fachStand": "manuell-2026-09-20",
+  "manuellGeprueft": true
 }
