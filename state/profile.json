@@ -375,10 +375,11 @@
     "profilId": "kommentare:7e07227c7c1e",
     "familie": "kommentare / claude-opus-5 / high / a95302",
     "letzteAusgabeTokens": [
-      816
+      816,
+      344
     ],
-    "aufrufeGesamt": 1,
-    "erfolgreicheAufrufe": 1,
+    "aufrufeGesamt": 2,
+    "erfolgreicheAufrufe": 2,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
@@ -386,6 +387,6 @@
     "aktuellesCeiling": 8000,
     "ceilingGesetztAm": "2026-09-20T10:43:56.327Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-20T10:43:56.327Z"
+    "zuletzt": "2026-09-20T12:43:38.673Z"
   }
 }
