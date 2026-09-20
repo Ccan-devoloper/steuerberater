@@ -1187,11 +1187,13 @@ test("Mindset: eigene Farbe, eigenes Etikett, kein Prüfungstag", async () => {
   assert.equal(t.fach, "mindset");
   assert.equal(t.klausur, 0);
   assert.equal(FAECHER.mindset.label, "Kopfsache");
-  /* Klausurtag 0 hat eine eigene Farbe, die sich von allen dreien unterscheidet. */
+  /* Klausurtechnik/Mindset und Wochenrückblick haben je eine eigene Farbe. */
   const f = STILE.bunt.tagFarben;
   assert.ok(f[0]?.grund, "keine Farbe für Klausurtag 0");
-  assert.equal(new Set([f[0].grund, f[1].grund, f[2].grund, f[3].grund]).size, 4);
+  assert.ok(f[4]?.grund, "keine Farbe für Wochenrückblick");
+  assert.equal(new Set([f[0].grund, f[1].grund, f[2].grund, f[3].grund, f[4].grund]).size, 5);
   assert.equal(fussRechts({ fach: "mindset", klausur: 0 }), "Kopfsache");
+  assert.equal(fussRechts({ fach: null, klausur: 4 }), "Wochenrückblick");
   /* Und die 0 überlebt den Weg bis in die Kachel - vorher wurde sie zu 3. */
   const ctx = kontext({ fach: "mindset", klausur: 0 });
   assert.equal(ctx.klausur, 0);
@@ -5769,6 +5771,12 @@ test("Reserve: die Entnahme kostet nichts und wiederholt kein junges Thema", asy
   assert.equal(r1.eintrag.id, "a", "nicht das älteste Stück genommen");
   assert.deepEqual(r1.rest.map((e) => e.id), ["b"], "der Rest stimmt nicht");
   assert.deepEqual(r1.verfallen.map((e) => e.id), ["c"]);
+
+  /* Ein Vorratsbeitrag darf nur einen Slot derselben sichtbaren Klausurfarbe
+     ersetzen; sonst würde die Notfalllogik die Rotation brechen. */
+  const falscheFarbe = entnehmen([a], { heute: "2026-09-19", klausur: 1 });
+  assert.equal(falscheFarbe.eintrag, null);
+  assert.match(falscheFarbe.grund, /Klausur 1/);
 
   /* Ein Thema, das kürzlich erschienen ist, wird übersprungen. Die Form ist
      die ECHTE - so, wie vermerken() den Ledger schreibt. Ein erfundener
