@@ -1366,6 +1366,16 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
         beitrag.slug = slot;
         hosting.jsonSchreiben(`inhalte/${slot}.json`, beitrag);
       }
+      const inhaltKategorie = feedKategorie({ format: eintrag.format, fach: beitrag.fach, klausur: beitrag.klausur, thema: beitrag.themaId });
+      if (inhaltKategorie == null || Number(eintrag.klausur) !== inhaltKategorie) {
+        console.error(`  ✗ Auffüllen ${eintrag.slot}: Inhalt ist ${FEED_KATEGORIEN[inhaltKategorie] || inhaltKategorie}, geplant ist ${FEED_KATEGORIEN[eintrag.klausur] || eintrag.klausur} – wird nicht veröffentlicht.`);
+        break;
+      }
+      const vorher = [...(ledger.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.medienId !== "trocken");
+      if (!feedFolgeErlaubt(vorher, { klausur: inhaltKategorie })) {
+        log(`  ↷ Auffüllen ${eintrag.slot} wartet: ${FEED_KATEGORIEN[inhaltKategorie] || inhaltKategorie} würde direkt auf dieselbe Feed-Kategorie folgen.`);
+        break;
+      }
       if (!(await titelfolieBebildern(beitrag))) {
         console.warn(`  ! Auffüllen ${eintrag.slot}: kein fotorealistisches Cover – Veröffentlichung mit Icon-Cover.`);
       }
@@ -1378,7 +1388,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       const karteIndex = beitrag.folien.findIndex((f) => f.art === "karte");
       /* Bei einem bereits vorhandenen Beitrag ist die gemessene Variante die des Vorgängers – nicht eintragen. */
       if (!echteMedienId(medienId)) { probelaeufe.push({ slot: eintrag.slot, art: "auffuellen", kennung: String(medienId ?? ""), zeit: new Date().toISOString() }); log(`  ○ Probelauf: ${eintrag.slot} ohne Medien-ID – nicht vermerkt.`); }
-      if (echteMedienId(medienId)) vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, variante: schonDa ? null : variante, hashtags: beitrag.hashtags, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
+      if (echteMedienId(medienId)) vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, klausur: inhaltKategorie, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, variante: schonDa ? null : variante, hashtags: beitrag.hashtags, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
       /* Der Fortschritt zaehlt nur, was wirklich erschienen ist - sonst
          glaubt der naechste Lauf, ein Trockenlauf haette den Feed gefuellt. */
       if (echteMedienId(medienId)) stand.fertig = i + 1;
