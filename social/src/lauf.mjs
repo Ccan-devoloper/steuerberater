@@ -929,7 +929,7 @@ async function main() {
         wochenThemen = (ledger.veroeffentlicht || []).filter((e) => e.art === "beitrag" && e.datum >= grenze).map((e) => e.titel);
         if (!wochenThemen.length) wochenThemen = pool.filter((t) => t.prioritaet === "hoch").slice(0, 5).map((t) => t.titel);
       }
-      text = await beitragSchreiben({ format: eintrag.format, thema, datum, recherche, wochenThemen, anlass: eintrag.format === "anlass" ? plan.anlass : eintrag.format === "loesungsskizze" ? plan.abendAnlass : null, strategie });
+      text = await beitragSchreiben({ format: eintrag.format, thema, datum, recherche, wochenThemen, anlass: eintrag.format === "anlass" ? plan.anlass : eintrag.format === "loesungsskizze" ? plan.abendAnlass : null, strategie, klausurGeplant: eintrag.klausur });
     }
     text.slug = `${datum}-${eintrag.slot}`;
     hosting.jsonSchreiben(textDatei(eintrag), text);
@@ -1361,7 +1361,7 @@ async function auffuellenLauf(ziel, { hosting, ledger, ledgerPfad, pool, poolInd
       let beitrag = hosting.jsonLesen(`inhalte/${slot}.json`, null);
       if (!beitrag) {
         postenBeginnen(`Auffüllen ${eintrag.slot}`, CONFIG.ki.maxJeBeitragUsd);
-        try { beitrag = await beitragSchreiben({ format: eintrag.format, thema: eintrag.thema, datum, strategie }); }
+        try { beitrag = await beitragSchreiben({ format: eintrag.format, thema: eintrag.thema, datum, strategie, klausurGeplant: eintrag.klausur }); }
         finally { postenBeenden(); }
         beitrag.slug = slot;
         hosting.jsonSchreiben(`inhalte/${slot}.json`, beitrag);
