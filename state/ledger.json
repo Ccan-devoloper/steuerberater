@@ -3307,6 +3307,38 @@
       "titel": "Was gehört zum Grundvermögen nach § 176 BewG?",
       "medienId": "18129152135505199",
       "veroeffentlicht": "2026-09-20T09:44:11.860Z"
+    },
+    {
+      "datum": "2026-09-20",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "12:00",
+      "stunde": 12,
+      "format": "reel",
+      "thema": "bilanz-karte-k3-7",
+      "fach": "bilanz",
+      "titel": "Garantie gegeben – Rückstellung bilden?",
+      "hookTyp": "frage",
+      "hookMuster": "alltag",
+      "medienId": "17870313225649687",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#bilanzsteuerrecht",
+        "#rückstellung",
+        "#steuerbilanz",
+        "#examensvorbereitung",
+        "#steuerrecht",
+        "#klausurtechnik",
+        "#steuerberater"
+      ],
+      "stimmeId": null,
+      "stimmeName": null,
+      "layout": "klassisch",
+      "dauer": 75.9,
+      "veroeffentlicht": "2026-09-20T10:13:26.865Z"
     }
   ],
   "fachZaehler": {
@@ -3314,7 +3346,7 @@
     "ust": 4,
     "kst": 7,
     "ao": 13,
-    "bilanz": 14,
+    "bilanz": 15,
     "istr": 9,
     "erbst": 3,
     "mindset": 1
