@@ -71,7 +71,7 @@ export const FORMATE = {
   },
   wochenrueckblick: {
     label: "Wochenrückblick",
-    anleitung: "Folie 1: „Hast du diese Woche alles mitgenommen?“. Folien 2–3: die Themen der Woche als Kurz-Wiederholung in Punkten (je ein Satz pro Thema, mit Norm). Folie 4: Lernplan-Tipp fürs Wochenende. Letzte Folie: CTA.",
+    anleitung: "Fachübergreifender Rückblick über die veröffentlichten Themen der Woche – keinem einzelnen Fach und keinem Klausurtag zuordnen. Folie 1: „Hast du diese Woche alles mitgenommen?“. Folien 2–3: die Themen der Woche als Kurz-Wiederholung in Punkten (je ein Satz pro Thema, mit Norm). Folie 4: Lernplan-Tipp fürs Wochenende. Letzte Folie: CTA.",
     folien: ["titel", "text", "text", "merke", "cta"],
   },
   spickzettel: {
@@ -97,6 +97,22 @@ export const FORMATE = {
 };
 
 const KANAL = CONFIG.marke.name ? `des Instagram-Kanals „${CONFIG.marke.name}“` : "eines Instagram-Kanals";
+
+/* Format-Metadaten für das sichtbare Fach-Etikett und die Klausurtagsfarbe.
+   Der Wochenrückblick fasst bewusst mehrere Fächer zusammen. Er darf deshalb
+   weder als Bilanzsteuerrecht noch als Klausur 3 erscheinen. Klausurtag 0 ist
+   im bunten Stil die neutrale/violette Palette für fachübergreifende Inhalte. */
+export function beitragsEinordnung(format, thema = null, recherche = null, fallbackFach = "bilanz", fallbackKlausur = 3) {
+  if (format === "wochenrueckblick") {
+    return { fach: null, klausur: 0, fachLabel: FORMATE.wochenrueckblick.label };
+  }
+  const fach = thema?.fach || recherche?.fach || fallbackFach;
+  return {
+    fach,
+    klausur: FAECHER[fach]?.klausur ?? fallbackKlausur,
+    fachLabel: FAECHER[fach]?.label || "Steuerberaterexamen",
+  };
+}
 const { aktuell: RECHTSSTAND_AKTUELL, vorjahr: RECHTSSTAND_VORJAHR } = rechtsstandJahre();
 const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das deutsche Steuerberaterexamen vorbereiten (schriftliche Prüfung: Tag 1 Verfahrensrecht/USt/ErbSt, Tag 2 Ertragsteuern, Tag 3 Buchführung und Bilanzwesen). Vorbild ist der Aufbau erfolgreicher juristischer Lernkanäle: eine präzise Prüfungsfrage als Aufhänger, dann eine klare, prüfungsnahe Antwort zum Durchswipen.
 
@@ -114,7 +130,7 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Unterscheide Inhalt von Verpackung: Der Prüfungsstoff (Normen, Definitionen, Prüfungsreihenfolgen, Rechtsfolgen) ist frei. Merkhilfen, Eselsbrücken, Kürzel und selbst benannte Methoden anderer Dozenten („EIS-Methode“, „ABBA-Schema“ und alles nach diesem Muster) sind deren Eigenschöpfung – die übernimmst du nie, auch nicht umschrieben oder umbenannt. Erkläre stattdessen den Inhalt in eigener Struktur, ohne Kürzel.
 
 ## Marke und Aufforderung (CTA)
-- Markenkern: „Examensvorbereitung, sortiert nach Klausurtag“. Jeder Beitrag gehört zu genau einem Prüfungstag (Klausur 1 · Tag 1: AO/USt/ErbSt · Klausur 2 · Tag 2: Ertragsteuern · Klausur 3 · Tag 3: Bilanz). Wo es passt, den Klausurtag benennen („Das ist Klausur-3-Stoff.“).
+- Markenkern: „Examensvorbereitung, sortiert nach Klausurtag“. Fachbeiträge gehören zu genau einem Prüfungstag (Klausur 1 · Tag 1: AO/USt/ErbSt · Klausur 2 · Tag 2: Ertragsteuern · Klausur 3 · Tag 3: Bilanz). Der Wochenrückblick ist die fachübergreifende Ausnahme: dort kein einzelnes Fach und keinen Klausurtag als Dach nennen. Bei Fachbeiträgen darf der Klausurtag benannt werden („Das ist Klausur-3-Stoff.“).
 - Der wichtigste Wachstumsmotor sind Lerngruppen (WhatsApp, Telegram): Jeder Beitrag ist so gebaut, dass man ihn weiterleitet. Haupt-CTA daher immer „Schick das deiner Lerngruppe“ (oder gleichwertig), zweitens „Speichern“, drittens „Folgen“. Nie nur „Speicher dir das“.
 - Die Weiterleitungs-CTA nennt möglichst einen konkreten Anlass oder Empfänger aus dem Thema („Schick das der Person in deiner Lerngruppe, die X und Y verwechselt“ / „Schickt euch das vor Tag 2 noch einmal“), statt nur abstrakt „Teilen“ zu sagen. Kein künstlicher Druck.
 - Nähe statt Konzern: Fragen in den Kommentaren werden beantwortet, DM ist erlaubt („Schreib mir, wenn etwas unklar ist“). Keine Verkaufsbotschaft, kein Kurs, kein Produkt – jetzt zählen Reichweite, Saves und Weiterleitungen.
@@ -541,7 +557,7 @@ function hookWaehlen(daten, strategie, thema = null) {
   return bewertet[0];
 }
 
-function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
+function nachbereiten(daten, { format, thema, fach, klausur, fachLabel, strategie }) {
   const hook = hookWaehlen(daten, strategie, thema);
   if (hook && daten.folien?.[0]) daten.folien[0].titel = hook.titel;
   const folien = (daten.folien || []).map((f) => {
@@ -583,7 +599,7 @@ function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
   const kern = CONFIG.hashtags.kern;
   const tags = hashtagsWaehlen(daten.hashtags || [], kern, strategie);
   return {
-    format, fach, klausur, fachLabel: FAECHER[fach]?.label || "Steuerberaterexamen",
+    format, fach, klausur, fachLabel: fachLabel ?? FAECHER[fach]?.label ?? "Steuerberaterexamen",
     themaId: thema?.id || null,
     folien,
     caption: (daten.caption || "").trim(),
@@ -603,8 +619,7 @@ function nachbereiten(daten, { format, thema, fach, klausur, strategie }) {
 export async function beitragSchreiben({ format, thema, datum, recherche, wochenThemen, anlass, strategie }) {
   if (process.env.IG_AUTOR === "beispiele") return beispielBeitrag(format, thema);
   const spec = FORMATE[format] || FORMATE.pruefungsfrage;
-  const fach = thema?.fach || recherche?.fach || "bilanz";
-  const klausur = FAECHER[fach]?.klausur ?? 3;
+  const { fach, klausur, fachLabel } = beitragsEinordnung(format, thema, recherche);
   const sperr = korpus().namen;
   let feedback = "";
   let letzter = null;
@@ -624,7 +639,7 @@ export async function beitragSchreiben({ format, thema, datum, recherche, wochen
       `\nErstelle jetzt den Beitrag als JSON.`,
     ].filter(Boolean).join("\n");
     const { daten, schluessel } = await strukturiert({ system: SYSTEM, user, schema: BEITRAG_SCHEMA, effort: CONFIG.ki.effortBeitrag });
-    const beitrag = nachbereiten(daten, { format, thema, fach, klausur, strategie });
+    const beitrag = nachbereiten(daten, { format, thema, fach, klausur, fachLabel, strategie });
     const ergebnis = pruefeBeitrag(beitrag);
     if (ergebnis.ok) {
       const fakten = await faktenSicher(beitrag, "faktencheck", { hinweis: rechtsstandPruefhinweis(thema) });
@@ -1192,8 +1207,8 @@ export function teaserAusBeitrag(beitrag, slot) {
    ohne API-Aufruf. Für lokale Tests des Renderns und Hochladens. --- */
 function beispielBeitrag(format, thema) {
   const b = beispiele.beitraege.find((x) => x.format === format) || beispiele.beitraege[0];
-  const fach = thema?.fach || b.fach;
-  return nachbereiten({ ...b, kurztitel: b.folien[0].titel, quellen: [] }, { format, thema, fach, klausur: FAECHER[fach]?.klausur || b.klausur });
+  const meta = beitragsEinordnung(format, thema, null, b.fach, b.klausur);
+  return nachbereiten({ ...b, kurztitel: b.folien[0].titel, quellen: [] }, { format, thema, ...meta });
 }
 
 function beispielStories(plan) {
