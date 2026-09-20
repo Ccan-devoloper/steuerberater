@@ -28,11 +28,24 @@
       "attempt": 1,
       "slot": null,
       "reservedUsd": 0.023758,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.009332,
+      "state": "settled",
       "createdAt": "2026-09-20T05:44:32.718Z",
-      "updatedAt": "2026-09-20T05:44:33.741Z"
+      "updatedAt": "2026-09-20T05:44:46.029Z"
+    },
+    {
+      "reservationId": "2026-09-20-0003-stories",
+      "date": "2026-09-20",
+      "bucket": "core",
+      "purpose": "stories",
+      "attempt": 1,
+      "slot": "stories",
+      "reservedUsd": 0.105159,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-20T05:44:46.229Z",
+      "updatedAt": "2026-09-20T05:44:46.229Z"
     }
   ],
-  "stand": "2026-09-20T05:44:33.741Z"
+  "stand": "2026-09-20T05:44:46.229Z"
 }
