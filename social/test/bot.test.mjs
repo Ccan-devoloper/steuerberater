@@ -2152,12 +2152,17 @@ test("Die Recherche zeigt nur auf geprüfte Quellen und verlangt Prüfungsbezug"
   /* Der Prüfungsbezug entscheidet, nicht die Neuigkeit: Jedes Prüfungsgebiet
      muss im Prompt benannt sein, sonst nimmt das Modell irgendein
      BFH-Urteil. */
-  const frage = autor.slice(autor.indexOf("export async function aktuellRecherchieren"), autor.indexOf("KEINE_NEUIGKEIT"));
+  const frage = autor.slice(
+    autor.indexOf("export async function aktuellRecherchieren"),
+    autor.indexOf("export async function loesungsRecherchieren"),
+  );
   for (const fach of ["ao", "ust", "erbst", "kst", "istr", "bilanz", "persg"]) {
     assert.ok(new RegExp(`\\b${fach}\\b`).test(frage), `Prüfungsgebiet fehlt im Auftrag: ${fach}`);
   }
   assert.match(frage, /Prüfungsbezug/, "der Prüfungsbezug wird nicht verlangt");
   assert.match(frage, /Steuerberaterprüfung|Steuerberaterexamen/, "der Bezug zum Steuerberaterexamen fehlt");
+  assert.match(frage, /HEUTIGER FARBSLOT/, "die Recherche kennt den geplanten Farbslot nicht");
+  assert.match(frage, /weiche nicht auf eine andere Klausur aus/, "die Recherche darf in eine andere Farbe ausweichen");
   assert.match(autor, /HÖCHSTENS ZWEI Suchvorgänge/, "die Suche ist nicht begrenzt");
 
   /* „Nichts mit Prüfungsbezug gefunden" ist ein sauberes Ergebnis. */
