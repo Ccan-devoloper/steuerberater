@@ -3440,6 +3440,17 @@
       },
       "insightsStand": "2026-09-20T13:43:38.723Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-20",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "zahl",
+      "thema": "ust-modul-ust-163",
+      "fach": "ust",
+      "titel": "Anzahlung vor Leistung: Steuer entsteht schon mit Zahlung",
+      "medienId": "18127601329835154",
+      "veroeffentlicht": "2026-09-20T13:43:59.223Z"
     }
   ],
   "fachZaehler": {
