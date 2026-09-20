@@ -215,6 +215,15 @@ test("Bekanntgabe an Bevollmächtigte trennt Kann-Regel und Empfangsvollmacht", 
   assert.match(kern(t), /frühere Bekanntgabe.*kein.*Muss-Tatbestand|Frühere Praxis ersetzt/i);
 });
 
+test("Kleinunternehmer-Kurzform trennt bestehendes Unternehmen und Gründungsjahr", () => {
+  const quiz = byTitle(/Umsätze eines Kleinunternehmers/i);
+  const karte = byTitle(/Kleinunternehmer seit 2025/i);
+  assert.match(kern(quiz), /Vorjahres-Gesamtumsatz.*25\.000.*laufender Gesamtumsatz.*100\.000/i);
+  assert.match(kern(quiz), /Gründungsjahr.*25\.000.*nicht 100\.000/i);
+  assert.match(kern(karte), /Unternehmensbeginn.*25\.000.*statt 100\.000/i);
+  assert.match(kern(karte), /Überschreitungsumsatz.*regelbesteuert/i);
+});
+
 test("§8b-Glossar kennt die unterjährige 10%-Erwerbsfiktion", () => {
   const t = byTitle(/^Streubesitzdividende$/i);
   assert.equal(t.typ, "begriff");
