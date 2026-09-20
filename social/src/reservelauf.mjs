@@ -47,6 +47,7 @@ export function ersatzZulaessig({ eintrag, fehler }) {
   if (!istKostenKontrollFehler(fehler)) return { ok: false, grund: `kein Kostenkontrollfehler (${fehler?.name || "unbekannt"})` };
   if (eintrag?.format === "reel") return { ok: false, grund: "Reels werden nicht aus dem Vorrat ersetzt" };
   if (eintrag?.art && eintrag.art !== "beitrag") return { ok: false, grund: `${eintrag.art} wird nicht aus dem Vorrat ersetzt` };
+  if (![1, 2, 3].includes(Number(eintrag?.klausur))) return { ok: false, grund: "Sonder- oder unbekannter Farbslot wird nicht aus dem Vorrat ersetzt" };
   return { ok: true, grund: null };
 }
 
@@ -129,7 +130,7 @@ export async function reserveEntnehmen({
   log = () => {},
 }) {
   const kennung = slot || eintrag?.slot || "?";
-  const wahl = entnehmen(bestand, { heute, ledger });
+  const wahl = entnehmen(bestand, { heute, ledger, klausur: eintrag?.klausur });
   for (const e of wahl.verfallen) bilderLoeschen(hosting, e.id);
   if (!wahl.eintrag) {
     log(`  Vorrat: kein Ersatz für ${kennung} (${wahl.grund})`);
