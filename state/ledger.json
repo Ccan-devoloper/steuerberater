@@ -3412,6 +3412,17 @@
       },
       "insightsStand": "2026-09-20T11:44:19.566Z",
       "insightsAlterStunden": 1.5
+    },
+    {
+      "datum": "2026-09-20",
+      "art": "story",
+      "slot": "s6",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "medienId": "18098715815065919",
+      "veroeffentlicht": "2026-09-20T11:44:35.881Z"
     }
   ],
   "fachZaehler": {
