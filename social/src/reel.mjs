@@ -304,7 +304,7 @@ function reelHtml(reel, plan, ctx) {
     return `<section class="szene" data-i="${s.index}" data-start="${s.start}" data-dauer="${s.dauer}">${inhalt}</section>`;
   }).join("");
   const bloecke = untertitelBloecke(plan.szenen);
-  const kl = { 1: "k1", 2: "k2", 3: "k3" }[ctx.klausur] || "k3";
+  const kl = { 0: "k0", 1: "k1", 2: "k2", 3: "k3", 4: "k4" }[ctx.klausur] || "k3";
   const bunt = (stil.familie || stil.id) === "bunt" ? (stil.tagFarben?.[ctx.klausur] || stil.tagFarben?.[3]) : null;
   const tagFarbe = ctx.farbeJeKlausur ? stil.farben[`k${ctx.klausur}`] || stil.farben.akzent : stil.farben.akzent;
   const farben = bunt ? { wand: "rgba(255,255,255,.55)", ball: bunt.dunkel, spur: "rgba(255,255,255,.9)", ziel: bunt.akzent2, text: "#ffffff" } : { wand: stil.farben.linie || "#333", ball: tagFarbe, spur: ctx.farbeJeKlausur ? tagFarbe : (stil.farben.k3 || stil.farben.akzent), ziel: ctx.farbeJeKlausur && ctx.klausur === 2 ? stil.farben.k1 : (stil.farben.k2 || "#ff6a3d"), text: stil.farben.text };
