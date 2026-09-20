@@ -1,0 +1,103 @@
+{
+  "datum": "2026-09-20",
+  "erzeugt": "2026-09-20T05:43:46.064Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "wochenrueckblick",
+      "themaId": null,
+      "themaTitel": null,
+      "fach": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:00",
+      "format": "reel",
+      "themaId": "bilanz-karte-k3-7",
+      "themaTitel": "Welche Voraussetzungen hat die Rückstellung dem Grunde nach?",
+      "fach": "bilanz",
+      "lang": true,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "ust-quiz-ust-13",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "antwort",
+      "themaId": "ust-quiz-ust-13",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:32",
+      "art": "norm",
+      "themaId": "erbst-modul-erbst-541",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:00",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:21",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 16,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:20",
+      "art": "zahl",
+      "themaId": "ust-modul-ust-163",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:26",
+      "art": "formel",
+      "themaId": "bilanz-formel-disagio-linear",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:26",
+      "art": "merksatz",
+      "themaId": "istr-modul-istr-istr1-01",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
