@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { klausurenDesTages, tagesplan } from "../src/planer.mjs";
+import { klausurenDesTages, tagesplan, auffuellplan } from "../src/planer.mjs";
 import { feedKategorie, feedFolgeErlaubt } from "../src/inhalte.mjs";
 
 const fach = { 1: "ao", 2: "kst", 3: "bilanz" };
@@ -83,5 +83,23 @@ test("Normale Pool-Slots bleiben in ihrer geplanten Klausurfarbe", () => {
       beitrag.klausur,
       `${beitrag.slot} (${beitrag.format}) weicht vom geplanten Farbslot ab`,
     );
+  }
+});
+
+
+test("Auffüllplan hält dieselbe Farbregel wie der Tagesfeed", () => {
+  const ledger = {
+    veroeffentlicht: [{ datum: "2026-09-20", art: "beitrag", format: "reel", fach: "bilanz", klausur: 3, thema: "alt", medienId: "m-alt" }],
+    fachZaehler: {},
+  };
+  const plan = auffuellplan(18, ledger, pool, "farbtest");
+  assert.equal(plan.length, 18);
+  let vorher = ledger.veroeffentlicht[0];
+  for (const beitrag of plan) {
+    assert.ok(feedFolgeErlaubt(vorher, beitrag),
+      `${beitrag.slot}: Kategorie ${feedKategorie(beitrag)} folgt direkt auf ${feedKategorie(vorher)}`);
+    if (beitrag.format === "klausurtechnik") assert.equal(feedKategorie(beitrag), 0, "Auffüll-Klausurtechnik ist nicht violett");
+    else assert.equal(beitrag.thema.klausur, beitrag.klausur, "Auffüll-Fachbeitrag weicht von seiner Farbe ab");
+    vorher = beitrag;
   }
 });
