@@ -1,0 +1,44 @@
+{
+  "datum": "2026-09-20",
+  "zweck": "stories",
+  "daten": {
+    "stories": [
+      {
+        "slot": "s4",
+        "art": "antwort",
+        "ueberzeile": "Richtig ist B",
+        "titel": "Steuerfrei mit Erwerbsbesteuerung beim Abnehmer",
+        "text": "§ 4 Nr. 1 b UStG i.V.m. § 6a UStG: Warenbewegung ins EU-Ausland, USt-IdNr. des Abnehmers und dessen Erwerbsbesteuerung. Nachweise regelt § 6a (3) UStG.",
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": [
+          "Im Inland steuerpflichtig",
+          "Steuerfrei nach § 4 Nr. 1 b i.V.m. § 6a UStG, Abnehmer versteuert Erwerb",
+          "Nicht steuerbar"
+        ],
+        "richtig": 1,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s7",
+        "art": "zahl",
+        "ueberzeile": "Norm im Blick",
+        "titel": "Anzahlung: Steuer entsteht mit Zahlungseingang",
+        "text": "§ 13 (1) Nr. 1 b UStG: Vor Leistung vereinnahmtes Entgelt löst Steuer schon im VAZ der Zahlung aus – unabhängig vom späteren Leistungszeitpunkt.",
+        "norm": null,
+        "formel": null,
+        "zahl": "§ 13 UStG",
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      }
+    ]
+  }
+}
