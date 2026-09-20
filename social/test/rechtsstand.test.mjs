@@ -233,8 +233,10 @@ test("Mietereinbau-Quiz verwendet Gebäude-AfA statt starrer Nutzungsdauer", () 
 });
 
 test("Kleinunternehmer-Kurzform trennt bestehendes Unternehmen und Gründungsjahr", () => {
-  const quiz = byTitle(/Umsätze eines Kleinunternehmers/i);
-  const karte = byTitle(/Kleinunternehmer seit 2025/i);
+  const quiz = pool.find((t) => t.typ === "quiz" && /Umsätze eines Kleinunternehmers/i.test(t.titel || ""));
+  const karte = pool.find((t) => t.typ === "karteikarte" && /Kleinunternehmer seit 2025/i.test(t.titel || ""));
+  assert.ok(quiz, "Kleinunternehmer-Quiz fehlt");
+  assert.ok(karte, "Kleinunternehmer-Karteikarte fehlt");
   assert.match(kern(quiz), /Vorjahres-Gesamtumsatz.*25\.000.*laufender Gesamtumsatz.*100\.000/i);
   assert.match(kern(quiz), /Gründungsjahr.*25\.000.*nicht 100\.000/i);
   assert.match(kern(karte), /Unternehmensbeginn.*25\.000.*statt 100\.000/i);
