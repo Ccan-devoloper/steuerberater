@@ -12,6 +12,7 @@
    ========================================================================== */
 
 import { eigenbegriffKuerzel } from "./pruefung.mjs";
+import { socialKorrekturenAnwenden } from "./rechtsstand.mjs";
 import { module as k3Module } from "../../src/data/module.js";
 import { formeln, karteikarten, quizfragen, glossar } from "../../src/data/lernstoff.js";
 import { kstModule, kstSchemata } from "../../src/data/kst-module.js";
@@ -261,6 +262,9 @@ export function themenpool() {
   [ust1, ust2, ust2b, ust3, ust4, ust5, ust6, ust7, ust8].flat().forEach((m) => { const x = faecherAusUst(m); if (x) pool.push(modulThema("ust", x, "ust")); });
   k1Karteikarten.forEach((k, i) => pool.push(karteThema("ust", k, i, "ust")));
   k1Quizfragen.forEach((q, i) => { const t = quizThema("ust", q, i, "ust"); if (t) pool.push(t); });
+
+  /* Korrekturen ausschließlich für Social anwenden; src/data bleibt unverändert. */
+  socialKorrekturenAnwenden(pool);
 
   const kuerzel = eigenbegriffKuerzel();
   if (kuerzel.length) for (const t of pool) { t.titel = kuerzelTilgen(t.titel, kuerzel); if (t.kern) t.kern = kuerzelTilgen(t.kern, kuerzel); }

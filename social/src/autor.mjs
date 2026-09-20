@@ -26,6 +26,7 @@ import { dauerWaehlen } from "./insights.mjs";
 import { normKurz, normGesprochen, felderKuerzen, NORM_REGEL, NORM_REGEL_STIMME } from "./normen.mjs";
 import { hookTyp } from "./insights.mjs";
 import { phase } from "./kalender.mjs";
+import { rechtsstandJahre, rechtsstandAuftrag, rechtsstandPruefhinweis } from "./rechtsstand.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 const beispiele = JSON.parse(fs.readFileSync(path.resolve(hier, "../beispiele/inhalte.json"), "utf8"));
@@ -96,11 +97,12 @@ export const FORMATE = {
 };
 
 const KANAL = CONFIG.marke.name ? `des Instagram-Kanals „${CONFIG.marke.name}“` : "eines Instagram-Kanals";
+const { aktuell: RECHTSSTAND_AKTUELL, vorjahr: RECHTSSTAND_VORJAHR } = rechtsstandJahre();
 const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das deutsche Steuerberaterexamen vorbereiten (schriftliche Prüfung: Tag 1 Verfahrensrecht/USt/ErbSt, Tag 2 Ertragsteuern, Tag 3 Buchführung und Bilanzwesen). Vorbild ist der Aufbau erfolgreicher juristischer Lernkanäle: eine präzise Prüfungsfrage als Aufhänger, dann eine klare, prüfungsnahe Antwort zum Durchswipen.
 
 ## Ton
 - Direkt, fachlich präzise, kein Marketing-Sprech, kein Pathos. Du-Ansprache.
-- Jede Aussage muss juristisch korrekt sein (Rechtsstand 2026). Normen immer zitieren. ${NORM_REGEL} Wenn du dir bei einem Detail nicht sicher bist, lass es weg, statt zu raten.
+- Jede Aussage muss juristisch korrekt sein (Rechtsstand ${RECHTSSTAND_AKTUELL}). Normen immer zitieren. ${NORM_REGEL} Wenn du dir bei einem Detail nicht sicher bist, lass es weg, statt zu raten.\n- Hat sich eine im Beitrag behandelte Regel gegenüber ${RECHTSSTAND_VORJAHR} geändert, stelle beide Fassungen ausdrücklich und getrennt als „Rechtsstand ${RECHTSSTAND_AKTUELL}“ und „Rechtsstand ${RECHTSSTAND_VORJAHR}“ dar. Ohne Änderung keinen künstlichen Jahresvergleich erzeugen.
 - Kurze Sätze. Auf einer Kachel wird gelesen, nicht studiert.
 - Keine Emojis auf den Folien. In der Caption höchstens 3.
 
@@ -463,6 +465,7 @@ export function themaText(thema) {
     `Thema: ${thema.titel}`,
     `Examenspriorität: ${thema.prioritaet === "hoch" ? "Dauerbrenner (nahezu jährlich geprüft)" : thema.prioritaet === "mittel" ? "regelmäßig geprüft" : "selten geprüft, aber punktestark"}`,
     thema.normen.length ? `Normen: ${thema.normen.join(" · ")}` : "",
+    rechtsstandAuftrag(thema),
   ];
   if (k.einordnung?.length) zeilen.push(`Einordnung (fachlich maßgeblich, in eigenen Worten wiedergeben): ${k.einordnung.join(" ")}`);
   if (k.lernziele?.length) zeilen.push(`Worauf es ankommt: ${k.lernziele.join("; ")}`);
@@ -624,7 +627,7 @@ export async function beitragSchreiben({ format, thema, datum, recherche, wochen
     const beitrag = nachbereiten(daten, { format, thema, fach, klausur, strategie });
     const ergebnis = pruefeBeitrag(beitrag);
     if (ergebnis.ok) {
-      const fakten = await faktenSicher(beitrag);
+      const fakten = await faktenSicher(beitrag, "faktencheck", { hinweis: rechtsstandPruefhinweis(thema) });
       /* Sprachversehen (doppelte oder fehlende Wörter) werden im Text ersetzt,
          nicht neu geschrieben - das kostet keinen weiteren Aufruf. */
       korrekturenAnwenden(beitrag, fakten.korrekturen);
@@ -1077,7 +1080,7 @@ export async function reelSchreiben({ thema, datum, lang = false, anlass = null,
          deterministisch geprueft; fachliche Reels behalten den Providercheck. */
       const fakten = thema?.typ === "mindset"
         ? { ok: true, fehler: [], hinweise: ["Mindset-Reel: kein bezahlter Rechts-Faktencheck nötig."], korrekturen: [], behebbar: [] }
-        : await faktenSicher(reel, "reel-faktencheck");
+        : await faktenSicher(reel, "reel-faktencheck", { hinweis: rechtsstandPruefhinweis(thema) });
       korrekturenAnwenden(reel, fakten.korrekturen);
       entwurfBerichtigen(schluessel, fakten.korrekturen);
       if (fakten.ok) { reel.hookTyp = hookTypErkennen(szenen[0]?.titel || "", szenen[0]?.sprecher || ""); reel.hookMuster = hookMuster; await bildregieSicher(reel); return reel; }

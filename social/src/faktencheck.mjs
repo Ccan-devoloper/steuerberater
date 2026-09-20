@@ -1,7 +1,7 @@
 /* ==========================================================================
    Faktencheck: ein zweiter, unabhängiger Aufruf prüft jeden Beitrag und
    jedes Reel-Skript auf fachliche Fehler (Normen, Fristen, Prozentsätze,
-   Zuständigkeiten, Rechtsstand 2026). Nur klare Fehler führen zur
+   Zuständigkeiten, aktueller Rechtsstand). Nur klare Fehler führen zur
    Nachbesserung; Stilfragen nicht.
    ========================================================================== */
 
@@ -10,7 +10,10 @@ import { CONFIG } from "./config.mjs";
 import { istKostenKontrollFehler } from "./kostenfehler.mjs";
 import { BudgetFehler } from "./kosten.mjs";
 import { claudeAufruf, openaiAufruf } from "./anbieter.mjs";
+import { rechtsstandJahre } from "./rechtsstand.mjs";
 
+
+const { aktuell: RECHTSSTAND_AKTUELL, vorjahr: RECHTSSTAND_VORJAHR } = rechtsstandJahre();
 
 const SCHEMA = {
   type: "object",
@@ -39,11 +42,11 @@ const SCHEMA = {
   required: ["befunde"],
 };
 
-const SYSTEM = `Du bist Prüfer:in für Fachtexte zum deutschen Steuerrecht (Steuerberaterexamen, Rechtsstand 2026). Du bekommst Texte eines Instagram-Kanals und prüfst ausschließlich die fachliche Richtigkeit:
+const SYSTEM = `Du bist Prüfer:in für Fachtexte zum deutschen Steuerrecht (Steuerberaterexamen, Rechtsstand ${RECHTSSTAND_AKTUELL}). Du bekommst Texte eines Instagram-Kanals und prüfst ausschließlich die fachliche Richtigkeit:
 - Normzitate (richtiges Gesetz, Paragraf, Absatz, Satz, Nummer), Richtlinien und Verwaltungsanweisungen
 - Zahlen: Fristen, Prozentsätze, Freibeträge, Grenzen, Zinssätze
 - Rechtsfolgen, Prüfungsreihenfolgen, Zuständigkeiten
-- Rechtsstand: veraltete Regelungen (z. B. Abzinsung von Verbindlichkeiten, alte Freibeträge) sind Fehler
+- Rechtsstand: veraltete Regelungen (z. B. Abzinsung von Verbindlichkeiten, alte Freibeträge) sind Fehler\n- Jahreswechsel: Hat sich eine behandelte Vorschrift oder Rechtsfolge gegenüber ${RECHTSSTAND_VORJAHR} geändert, muss der Text die beiden Fassungen eindeutig als „Rechtsstand ${RECHTSSTAND_AKTUELL}“ und „Rechtsstand ${RECHTSSTAND_VORJAHR}“ auseinanderhalten. Eine Vermischung oder fehlende Kennzeichnung, durch die die falsche Jahresfassung angewandt werden kann, ist ein Fehler. Ist die Rechtslage unverändert, verlangst du keinen künstlichen Jahresvergleich.
 - Innere Logik: Der Text muss aus sich heraus verständlich sein. Wird auf einen Fall, einen Namen oder eine Zahl Bezug genommen, die nirgends im Text eingeführt wird (z. B. ein „Mini-Fall“ mit Firmennamen, aber ohne Sachverhalt, eine Rechnung mit Zahlen, die vorher nicht genannt sind), ist das ein „fehler“ – mit dem Hinweis, welche Angaben ergänzt werden müssen.
 - Personenbezug: Jede Voraussetzung, die an eine bestimmte Person geknüpft ist – Steuerschuldner, Steuerpflichtiger, Erwerber, Schenker, Erblasser, Arbeitgeber, Leistungsempfänger –, prüfst du ausdrücklich darauf, WELCHE Person das Gesetz meint. Wird sie der falschen Person zugeschrieben (dem Erwerber statt dem Schenker, dem Leistenden statt dem Leistungsempfänger), ist das ein „fehler“, auch wenn der Satz sonst stimmt. Sag dir bei jeder solchen Stelle: „Wer genau muss hier was?“ – und entscheide erst dann.
 - Normstruktur: Erfinde niemals Absätze, Sätze oder Nummern, die die Norm nicht hat. Wenn du eine Aussage gerade mit einer angeblichen Untergliederung korrigieren willst, prüfe zuerst, ob diese Untergliederung im geltenden Gesetz tatsächlich existiert.
@@ -403,7 +406,7 @@ const SCHIEDS_SCHEMA = {
   required: ["urteile"],
 };
 
-const SCHIEDS_SYSTEM = `Du bist Schiedsrichter:in zwischen einem juristischen Fachtext und den Einwänden eines Prüfers (deutsches Recht, Rechtsstand 2026). Du bekommst den Text und nummerierte Einwände. Beurteile JEDEN Einwand einzeln und unabhängig:
+const SCHIEDS_SYSTEM = `Du bist Schiedsrichter:in zwischen einem juristischen Fachtext und den Einwänden eines Prüfers (deutsches Recht, Rechtsstand ${RECHTSSTAND_AKTUELL}). Du bekommst den Text und nummerierte Einwände. Beurteile JEDEN Einwand einzeln und unabhängig:
 - zutreffend = true: Der Text ist an dieser Stelle wirklich falsch – falsche Norm, falscher Absatz, falsche Rechtsfolge, falsche Zuordnung, aufgehobenes Recht. In der Klausur gäbe es dafür Abzug.
 - zutreffend = false: Der Text ist korrekt oder vertretbar, und der Einwand irrt – etwa weil der Prüfer eine Norm falsch versteht, eine vertretbare Ansicht als Fehler wertet, eine Vereinfachung rügt, die für das Format zulässig ist, oder Stil und Didaktik kritisiert.
 Prüfe die Norm selbst nach, bevor du urteilst; wiederhole nicht den Einwand. Bist du unsicher, ob der Text falsch ist, ist der Einwand NICHT zutreffend – nur ein klar belegter Fehler zählt. Begründung in höchstens zwei Sätzen.`;
