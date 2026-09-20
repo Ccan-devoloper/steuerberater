@@ -3495,6 +3495,17 @@
       },
       "insightsStand": "2026-09-20T17:40:19.202Z",
       "insightsAlterStunden": 1.9
+    },
+    {
+      "datum": "2026-09-20",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "merksatz",
+      "thema": "istr-modul-istr-istr1-01",
+      "fach": "istr",
+      "titel": "Grundschema: Person, Wohnsitz, Steuerzugriff",
+      "medienId": "18486534178109512",
+      "veroeffentlicht": "2026-09-20T17:40:34.084Z"
     }
   ],
   "fachZaehler": {
