@@ -67,11 +67,24 @@
       "attempt": 1,
       "slot": "autor",
       "reservedUsd": 0.117449,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.057808,
+      "state": "settled",
       "createdAt": "2026-09-20T05:45:04.589Z",
-      "updatedAt": "2026-09-20T05:45:05.628Z"
+      "updatedAt": "2026-09-20T05:45:28.310Z"
+    },
+    {
+      "reservationId": "2026-09-20-0006-faktencheck",
+      "date": "2026-09-20",
+      "bucket": "core",
+      "purpose": "faktencheck",
+      "attempt": 1,
+      "slot": null,
+      "reservedUsd": 0.051353,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-20T05:45:28.422Z",
+      "updatedAt": "2026-09-20T05:45:28.422Z"
     }
   ],
-  "stand": "2026-09-20T05:45:05.628Z"
+  "stand": "2026-09-20T05:45:28.422Z"
 }
