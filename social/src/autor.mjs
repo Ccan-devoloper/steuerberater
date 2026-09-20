@@ -619,10 +619,12 @@ function nachbereiten(daten, { format, thema, fach, klausur, fachLabel, strategi
  * Schreibt einen Beitrag. Prüft ihn (pruefung.mjs) und lässt bei Beanstandung
  * bis zu CONFIG.ki.maxVersuche Mal nachbessern.
  */
-export async function beitragSchreiben({ format, thema, datum, recherche, wochenThemen, anlass, strategie }) {
-  if (process.env.IG_AUTOR === "beispiele") return beispielBeitrag(format, thema);
+export async function beitragSchreiben({ format, thema, datum, recherche, wochenThemen, anlass, strategie, klausurGeplant = null }) {
+  if (process.env.IG_AUTOR === "beispiele") return beispielBeitrag(format, thema, klausurGeplant);
   const spec = FORMATE[format] || FORMATE.pruefungsfrage;
-  const { fach, klausur, fachLabel } = beitragsEinordnung(format, thema, recherche);
+  /* Formate ohne eigenes Thema (z. B. Anlass/Countdown) übernehmen den
+     geplanten Farbslot statt still auf die alte K3-Fallbackfarbe zu fallen. */
+  const { fach, klausur, fachLabel } = beitragsEinordnung(format, thema, recherche, null, klausurGeplant ?? 3);
   const sperr = korpus().namen;
   let feedback = "";
   let letzter = null;
@@ -1225,9 +1227,9 @@ export function teaserAusBeitrag(beitrag, slot) {
 
 /* --- Beispielmodus (IG_AUTOR=beispiele): Inhalte aus beispiele/inhalte.json,
    ohne API-Aufruf. Für lokale Tests des Renderns und Hochladens. --- */
-function beispielBeitrag(format, thema) {
+function beispielBeitrag(format, thema, klausurGeplant = null) {
   const b = beispiele.beitraege.find((x) => x.format === format) || beispiele.beitraege[0];
-  const meta = beitragsEinordnung(format, thema, null, b.fach, b.klausur);
+  const meta = beitragsEinordnung(format, thema, null, klausurGeplant == null ? b.fach : null, klausurGeplant ?? b.klausur);
   return nachbereiten({ ...b, kurztitel: b.folien[0].titel, quellen: [] }, { format, thema, ...meta });
 }
 
