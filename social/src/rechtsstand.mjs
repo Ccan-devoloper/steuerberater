@@ -959,6 +959,24 @@ function korrigiereOption9(thema) {
   };
 }
 
+
+function korrigiereKleinunternehmerKurzform(thema) {
+  normErgaenzen(thema, "§ 19 Abs. 1–3 UStG", "UStAE 19.1 Abs. 3");
+  if (thema.typ === "quiz") {
+    thema.kern = {
+      ...thema.kern,
+      erklaerung: "Seit 1.1.2025 sind die nach § 19 UStG begünstigten Inlandsumsätze steuerfrei. Bei bereits bestehendem Unternehmen gilt grundsätzlich: Vorjahres-Gesamtumsatz nicht über 25.000 € und laufender Gesamtumsatz nicht über 100.000 €; der Umsatz, mit dem die 100.000-€-Grenze überschritten wird, ist bereits nicht mehr steuerfrei. Besonderheit bei Aufnahme der unternehmerischen Tätigkeit im laufenden Kalenderjahr: Nach UStAE 19.1 Abs. 3 ist für dieses Gründungsjahr die 25.000-€-Grenze maßgeblich, nicht 100.000 €. Der Vorsteuerabzug ist für die nach § 19 steuerfreien Umsätze grundsätzlich ausgeschlossen; ein Verzicht bindet nach § 19 Abs. 3 mindestens fünf Kalenderjahre.",
+    };
+    return;
+  }
+  if (thema.typ === "karteikarte") {
+    thema.kern = {
+      ...thema.kern,
+      antwort: "Seit 2025 sind die nach § 19 UStG begünstigten Inlandsumsätze steuerfrei. Bestehendes Unternehmen: Vorjahres-Gesamtumsatz ≤ 25.000 € und laufender Gesamtumsatz ≤ 100.000 €; der Überschreitungsumsatz ist bereits regelbesteuert. Unternehmensbeginn im laufenden Jahr: nach UStAE 19.1 Abs. 3 gilt im Gründungsjahr die 25.000-€-Grenze statt 100.000 €. Für §-19-Umsätze grundsätzlich kein Vorsteuerabzug; der Verzicht nach § 19 Abs. 3 bindet mindestens fünf Kalenderjahre.",
+    };
+  }
+}
+
 function korrigiereIgLieferungQuiz(thema) {
   thema.titel = "Innergemeinschaftliche Lieferung: Voraussetzungen der Steuerfreiheit";
   normErgaenzen(thema, "§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1, 3 UStG");
@@ -1965,6 +1983,8 @@ export function socialKorrekturenAnwenden(pool) {
     if (thema.typ === "karteikarte" && /Wie unterscheidet sich die Rückstellungsbewertung in HB und StB/i.test(thema.titel || "")) korrigiereRueckstellungsbewertung(thema);
     if (/Bilanzberichtigung (?:oder|und) Bilanzänderung/i.test(thema.titel || "")) korrigiereBilanzaenderung(thema);
     if (thema.typ === "quiz" && /Eine innergemeinschaftliche Lieferung an einen Unternehmer mit USt-IdNr/i.test(thema.titel || "")) korrigiereIgLieferungQuiz(thema);
+    if (thema.typ === "quiz" && /Was gilt seit 2025 für Umsätze eines Kleinunternehmers/i.test(thema.titel || "")) korrigiereKleinunternehmerKurzform(thema);
+    if (thema.typ === "karteikarte" && /Kleinunternehmer seit 2025/i.test(thema.titel || "")) korrigiereKleinunternehmerKurzform(thema);
     if (thema.typ === "quiz" && /Was gilt seit dem 1\.1\.2025 für Rechnungen im B2B-Inlandsgeschäft/i.test(thema.titel || "")) kennzeichneERechnung(thema);
     if (thema.typ === "karteikarte" && /^Steuersätze \(§ 12 UStG\)$/i.test(thema.titel || "")) korrigiereUstSteuersaetzeKarte(thema);
     if (thema.typ === "karteikarte" && /Option nach § 9 UStG/i.test(thema.titel || "")) korrigiereOption9(thema);
