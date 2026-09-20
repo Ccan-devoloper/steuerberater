@@ -82,6 +82,20 @@
     .source-chip.raw{border-color:color-mix(in srgb,var(--accent2) 28%,var(--line))}
     .source-chip.derived{border-color:color-mix(in srgb,var(--accent) 28%,var(--line))}
     .source-chip.model{border-color:color-mix(in srgb,var(--warn) 32%,var(--line))}
+    .legend-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:10px;margin:8px 0 0}
+    .legend-item{display:inline-flex;align-items:center;gap:5px}
+    .legend-line{width:22px;height:0;border-top:2px solid var(--accent)}
+    .legend-line.prev{border-top-color:var(--muted);border-top-style:dashed}
+    .legend-dot{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+    .legend-dot.good{background:var(--good)} .legend-dot.bad{background:var(--bad)} .legend-dot.muted{background:var(--muted)}
+    .help-box{border:1px solid var(--line);background:color-mix(in srgb,var(--panel2) 78%,transparent);border-radius:12px;padding:10px 12px;color:var(--muted);font-size:11px;line-height:1.5;margin:10px 0}
+    .help-box b{color:var(--text)}
+    .help-box.compact{margin-top:8px;margin-bottom:0;padding:8px 10px}
+    .help-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+    .help-term{border:1px solid var(--line);border-radius:10px;padding:8px 9px;background:var(--panel2)}
+    .help-term b{display:block;color:var(--text);font-size:10px;margin-bottom:2px}
+    .help-term span{color:var(--muted);font-size:10px}
+    .info-tip{display:inline-grid;place-items:center;width:16px;height:16px;border-radius:50%;border:1px solid var(--line);color:var(--muted);font-size:10px;font-weight:850;cursor:help;vertical-align:1px;margin-left:3px}
     .chart-box{height:285px;display:flex;align-items:center;justify-content:center}
     .chart-svg{width:100%;height:100%;overflow:visible}
     .chart-svg .gridline{stroke:var(--line);stroke-width:1}
@@ -173,7 +187,7 @@
     .auth-row{display:flex;gap:8px}.auth-input{flex:1;min-width:0;border:1px solid var(--line);background:var(--panel2);border-radius:11px;padding:10px;outline:none}
     .auth-error{min-height:20px;color:var(--bad);margin-top:8px;font-size:12px}
     @media(max-width:1180px){.kpi-grid{grid-template-columns:repeat(3,1fr)}.rank-grid,.three{grid-template-columns:1fr 1fr}.rank-grid>:last-child,.three>:last-child{grid-column:1/-1}.system-grid{grid-template-columns:1fr 1fr}}
-    @media(max-width:860px){.topbar{flex-direction:column}.overview-main,.audience-grid,.rank-grid,.three,.profile-brief-grid{grid-template-columns:1fr}.rank-grid>:last-child,.three>:last-child{grid-column:auto}.story-step{grid-template-columns:90px 1fr}.story-nav{grid-column:2;text-align:left}.heatmap{grid-template-columns:80px repeat(4,minmax(58px,1fr));overflow:auto}.top-actions{justify-content:flex-start}}
+    @media(max-width:860px){.topbar{flex-direction:column}.overview-main,.audience-grid,.rank-grid,.three,.profile-brief-grid,.help-grid{grid-template-columns:1fr}.rank-grid>:last-child,.three>:last-child{grid-column:auto}.story-step{grid-template-columns:90px 1fr}.story-nav{grid-column:2;text-align:left}.heatmap{grid-template-columns:80px repeat(4,minmax(58px,1fr));overflow:auto}.top-actions{justify-content:flex-start}}
     @media(max-width:590px){.shell{width:min(100% - 16px,1540px);padding-top:14px}.kpi-grid{grid-template-columns:1fr 1fr}.kpi-value{font-size:23px}.system-grid{grid-template-columns:1fr 1fr}.commandbar{align-items:flex-start}.filter-row{width:100%}.filter-row>*{flex:1;min-width:0!important}.drawer-metrics{grid-template-columns:1fr 1fr}.chart-box{height:235px}}
   </style>
 </head>
@@ -243,6 +257,9 @@
 
     <section class="view active" data-view-panel="overview">
       <div class="grid kpi-grid" id="overviewKpis"></div>
+      <div class="help-box">
+        <b>So liest du die Übersicht:</b> Reach und Views sind summierte Werte der gespeicherten Inhalte im gewählten Zeitraum. Dadurch kann dieselbe Person bei mehreren Posts mehrfach in der Summe vorkommen. „Follow-Conversion“ = einem Inhalt zugerechnete neue Follows ÷ Reach dieses Inhalts. Prozent-Deltas vergleichen mit der direkt vorherigen, gleich langen Periode.
+      </div>
       <article class="panel profile-brief" id="profileBrief"></article>
       <div class="grid overview-main">
         <article class="panel hero">
@@ -256,6 +273,11 @@
             </div>
           </div>
           <div class="chart-box" id="trendChart"></div>
+          <div class="legend-row" id="trendLegend">
+            <span class="legend-item"><i class="legend-line"></i> aktueller Zeitraum</span>
+            <span class="legend-item"><i class="legend-line prev"></i> vorherige Periode</span>
+            <span class="legend-item"><span class="info-tip" title="Bei Intraday werden echte Snapshots aus den Stundenläufen verwendet. Bei 7/14/30 Tagen werden die gespeicherten Inhalte nach Veröffentlichungstag aggregiert.">?</span> Verlauf verstehen</span>
+          </div>
         </article>
         <article class="panel">
           <div class="panel-head"><div><h2>Was auffällt</h2><div class="panel-note">Regelbasiert aus deinen eigenen Daten, keine Blackbox.</div></div><span class="source-chip derived">berechnet</span></div>
@@ -271,7 +293,8 @@
         <span class="badge" id="contentCount">–</span>
       </div>
       <article class="panel">
-        <div class="content-toolbar">
+        <div class="help-box compact"><b>Raten:</b> Share = Shares ÷ Reach · Save = Saves ÷ Reach · Follow = neue Follows ÷ Reach · Watch = durchschnittliche Reel-Watchtime ÷ Reel-Länge. „–“ bedeutet: Meta liefert für diesen Inhalt keinen belastbaren Wert.</div>
+        <div class="content-toolbar" style="margin-top:10px">
           <div class="filter-row">
             <input class="filter-control" id="contentSearch" type="search" placeholder="Titel suchen …" />
             <select class="filter-control" id="contentType"><option value="">Alle Typen</option><option value="feed">Feed</option><option value="reel">Reels</option></select>
@@ -293,17 +316,25 @@
 
     <section class="view" data-view-panel="learnings">
       <div class="grid rank-grid">
-        <article class="panel"><div class="panel-head"><div><h2>Hooks</h2><div class="panel-note">Index 100 = Schnitt des gewählten Zeitraums.</div></div><span class="source-chip derived">berechnet</span></div><div id="hookRanking"></div></article>
-        <article class="panel"><div class="panel-head"><div><h2>Formate</h2><div class="panel-note">Reach, Shares, Saves und Follows gemeinsam betrachtet.</div></div><span class="source-chip derived">berechnet</span></div><div id="formatRanking"></div></article>
-        <article class="panel"><div class="panel-head"><div><h2>Fächer</h2><div class="panel-note">Mit Stichprobengröße, damit kleine n sichtbar bleiben.</div></div><span class="source-chip derived">berechnet</span></div><div id="subjectRanking"></div></article>
+        <article class="panel"><div class="panel-head"><div><h2>Hooks <span class="info-tip" title="Der Index ist kein Meta-Score. Er kombiniert Follow-, Share-, Save- und Interaktionsraten relativ zum eigenen Account-Schnitt.">?</span></h2><div class="panel-note">Index 100 = Schnitt des gewählten Zeitraums. Über 100 = überdurchschnittliches Aktivierungssignal.</div></div><span class="source-chip derived">berechnet</span></div><div id="hookRanking"></div></article>
+        <article class="panel"><div class="panel-head"><div><h2>Formate <span class="info-tip" title="Index 100 entspricht dem Account-Schnitt. Werte deutlich über/unter 100 sind erst zusammen mit n sinnvoll.">?</span></h2><div class="panel-note">Reach, Shares, Saves und Follows gemeinsam betrachtet.</div></div><span class="source-chip derived">berechnet</span></div><div id="formatRanking"></div></article>
+        <article class="panel"><div class="panel-head"><div><h2>Fächer <span class="info-tip" title="n = Anzahl gemessener Beiträge in dieser Gruppe. Kleine Stichproben können stark schwanken.">?</span></h2><div class="panel-note">Mit Stichprobengröße, damit kleine n sichtbar bleiben.</div></div><span class="source-chip derived">berechnet</span></div><div id="subjectRanking"></div></article>
+      </div>
+      <div class="help-box">
+        <div class="help-grid">
+          <div class="help-term"><b>Index</b><span>100 = eigener Durchschnitt. Je höher, desto stärker das kombinierte Aktivierungssignal.</span></div>
+          <div class="help-term"><b>n</b><span>Anzahl gemessener Beiträge in der Gruppe. Unter n=3 keine Empfehlung im Profil-Briefing.</span></div>
+          <div class="help-term"><b>Share / Follow</b><span>Jeweils auf Reach normalisierte Raten; dadurch sind große und kleine Posts besser vergleichbar.</span></div>
+        </div>
       </div>
       <div class="grid three">
-        <article class="panel"><div class="panel-head"><div><h2>Reel-Länge</h2><div class="panel-note">Retention und Follow-Conversion je Dauerfenster.</div></div></div><div id="durationRanking"></div></article>
+        <article class="panel"><div class="panel-head"><div><h2>Reel-Länge</h2><div class="panel-note">Retention und Follow-Conversion je Dauerfenster. Watch % = Ø Watchtime ÷ Reel-Länge.</div></div></div><div id="durationRanking"></div></article>
         <article class="panel"><div class="panel-head"><div><h2>Hashtags</h2><div class="panel-note">Bestehende Lernsignale aus der Strategie.</div></div><span class="source-chip model">Lernsignal</span></div><div id="hashtagRanking"></div></article>
         <article class="panel"><div class="panel-head"><div><h2>Stimme / Variante</h2><div class="panel-note">Nur sichtbar, wenn genug Zuordnungen gespeichert sind.</div></div></div><div id="voiceRanking"></div></article>
       </div>
       <article class="panel">
         <div class="panel-head"><div><h2>Veröffentlichungszeit</h2><div class="panel-note">Ø Reach nach Wochentag und Tagesfenster · n steht in jeder Zelle.</div></div><span class="source-chip derived">berechnet</span></div>
+        <div class="legend-row"><span class="legend-item"><i class="legend-dot muted"></i> wenig / keine Daten</span><span class="legend-item"><i class="legend-dot"></i> intensiver = höherer Ø Reach</span><span class="legend-item"><span class="info-tip" title="Die Heatmap zeigt Korrelation, nicht Ursache. Ein gutes Zeitfenster kann auch daran liegen, dass dort besonders starke Inhalte veröffentlicht wurden.">?</span> Interpretation</span></div>
         <div id="timeHeatmap"></div>
       </article>
     </section>
@@ -313,11 +344,13 @@
       <div class="grid overview-main">
         <article class="panel">
           <div class="panel-head"><div><h2>Story-Funnel</h2><div class="panel-note" id="storyFunnelNote">Jüngster Story-Tag im gewählten Zeitraum.</div></div><span class="source-chip raw">Meta direkt</span></div>
-          <div id="storyFunnel"></div>
+          <div class="help-box compact"><b>Funnel:</b> Story 1 = 100 %. Die Balken zeigen den Reach der folgenden Stories relativ zur ersten gemessenen Story. <b>→</b> = weitergetippt, <b>←</b> = zurückgetippt, <b>Exit</b> = Story-Ansicht verlassen. Hohe Forward-Werte sind nicht automatisch schlecht; sie können auch schnelles Weiterkonsumieren bedeuten.</div>
+          <div id="storyFunnel" style="margin-top:10px"></div>
         </article>
         <article class="panel">
           <div class="panel-head"><div><h2>Story-Arten</h2><div class="panel-note">Welche Story-Art hält und aktiviert?</div></div></div>
-          <div id="storyTypes"></div>
+          <div class="help-box compact"><b>Ø Reach</b> vergleicht die durchschnittlich erreichten Accounts je Story-Art. Reply-Rate = Replies ÷ Reach. Für kleine n die Aussage vorsichtig lesen.</div>
+          <div id="storyTypes" style="margin-top:10px"></div>
         </article>
       </div>
     </section>
@@ -326,6 +359,7 @@
       <div class="grid audience-grid">
         <article class="panel hero">
           <div class="panel-head"><div><h2>Follower-Verlauf</h2><div class="panel-note">Tagesstände plus neue Intraday-Snapshots, sobald die Stundenläufe sie gesammelt haben.</div></div><span class="source-chip raw">Meta direkt</span></div>
+          <div class="help-box compact"><b>Wichtig:</b> Tagesstände zeigen den gespeicherten Follower-Kontostand. Intraday-Punkte kommen aus den Stundenläufen und werden erst ab Einführung der Snapshot-Sammlung dichter; ältere Stundenverläufe lassen sich nicht rückwirkend rekonstruieren.</div>
           <div class="follower-chart" id="followerChart"></div>
         </article>
         <article class="panel">
@@ -335,6 +369,7 @@
       </div>
       <article class="panel">
         <div class="panel-head"><div><h2>Beste Online-Zeiten</h2><div class="panel-note">Aus Meta online_followers, sofern das Konto die Metrik liefert.</div></div><span class="source-chip raw">Meta direkt</span></div>
+        <div class="help-box compact">Diese Zeiten zeigen, wann viele Follower online sind. Sie sind <b>kein garantierter bester Posting-Zeitpunkt</b>; dafür ist die Learnings-Heatmap mit tatsächlich erzieltem Reach die bessere Ergänzung.</div>
         <div class="metric-strip" id="bestHours"></div>
       </article>
     </section>
@@ -344,14 +379,15 @@
       <div class="grid overview-main">
         <article class="panel">
           <div class="panel-head"><div><h2>Datenabdeckung</h2><div class="panel-note">Damit fehlende Werte nicht wie schlechte Performance aussehen.</div></div></div>
-          <div id="coverage"></div>
+          <div class="help-box compact"><b>100 %</b> bedeutet: Für alle veröffentlichten Inhalte dieses Typs im Zeitraum liegen gespeicherte Insights vor. Niedrigere Werte können durch junge Posts, API-Verfügbarkeit oder noch ausstehende Messläufe entstehen.</div>
+          <div id="coverage" style="margin-top:10px"></div>
         </article>
         <article class="panel">
           <div class="panel-head"><div><h2>Daten-Legende</h2><div class="panel-note">Was ist gemessen, was berechnet, was Lernsignal?</div></div></div>
           <div class="insight-list">
-            <div class="insight-card"><span class="source-chip raw">Meta direkt</span><p>Reach, Views, Saves, Shares, Follows, Watchtime, Story-Navigation.</p></div>
-            <div class="insight-card"><span class="source-chip derived">berechnet</span><p>Raten, Vorperioden, Retention, Rankings und Heatmaps.</p></div>
-            <div class="insight-card"><span class="source-chip model">Lernsignal</span><p>Gewichte aus strategie.json; immer zusammen mit Stichprobengröße lesen.</p></div>
+            <div class="insight-card"><span class="source-chip raw">Meta direkt</span><p>Von Meta gespeicherte Rohkennzahlen: Reach, Views, Saves, Shares, Follows, Watchtime und Story-Navigation.</p></div>
+            <div class="insight-card"><span class="source-chip derived">berechnet</span><p>Aus Rohdaten abgeleitet: Raten, Vorperioden, Retention, Rankings und Heatmaps. Diese Kennzahlen sind reproduzierbare Berechnungen, keine Meta-Metriken.</p></div>
+            <div class="insight-card"><span class="source-chip model">Lernsignal</span><p>Interne Gewichte aus strategie.json. Sie steuern/unterstützen die Lernschleife und sind kein offizieller Instagram-Score; immer zusammen mit n lesen.</p></div>
           </div>
         </article>
       </div>
@@ -799,7 +835,7 @@
     $("#contentSubject").value=store.content.subject;$("#contentFormat").value=store.content.format;
     var rows=contentRows(data);$("#contentCount").textContent=fmt(rows.length)+" Inhalte";
     if(!rows.length){$("#contentTable").innerHTML='<div class="empty">Keine Inhalte für diese Filter.</div>';return;}
-    $("#contentTable").innerHTML='<div class="table-wrap"><table><thead><tr><th>Inhalt</th><th>Typ</th><th class="right">Reach</th><th class="right">Views</th><th class="right">Share</th><th class="right">Save</th><th class="right">Follow</th><th class="right">Watch</th><th class="right">Stand</th></tr></thead><tbody>'+
+    $("#contentTable").innerHTML='<div class="table-wrap"><table><thead><tr><th>Inhalt</th><th>Typ</th><th class="right" title="Reach: von Meta gemeldete erreichte Accounts für diesen Inhalt">Reach</th><th class="right" title="Views: Aufrufe; Wiederholungen können enthalten sein">Views</th><th class="right" title="Share-Rate = Shares ÷ Reach">Share</th><th class="right" title="Save-Rate = Saves ÷ Reach">Save</th><th class="right" title="Follow-Conversion = neue Follows ÷ Reach">Follow</th><th class="right" title="Watch % = durchschnittliche Watchtime ÷ Reel-Länge">Watch</th><th class="right" title="Zeitpunkt der letzten gespeicherten Insight-Messung">Stand</th></tr></thead><tbody>'+
       rows.map(function(e){
         var id=String(e.medienId||""),typ=mediaType(e),abbr=typ==="reel"?"R":"F";
         return '<tr class="clickable" data-media="'+esc(id)+'"><td class="content-cell"><div class="content-leading"><span class="type-icon">'+abbr+'</span><div><div class="content-title">'+esc(e.titel||"Ohne Titel")+'</div><div class="small">'+esc(e.datum||"")+" · "+esc(e.fach||"–")+" · "+esc(e.hookTyp||e.hookMuster||"ohne Hook")+'</div></div></div></td>'+
