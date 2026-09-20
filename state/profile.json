@@ -325,5 +325,35 @@
     "ceilingGesetztAm": "2026-09-20T05:46:15.438Z",
     "unkalibriert": true,
     "zuletzt": "2026-09-20T07:44:16.179Z"
+  },
+  "stories:09d368fd85fb": {
+    "profilId": "stories:09d368fd85fb",
+    "familie": "stories / claude-sonnet-5 / low / a7cb5c",
+    "letzteAusgabeTokens": [],
+    "aufrufeGesamt": 1,
+    "erfolgreicheAufrufe": 0,
+    "abschnitte": 0,
+    "schemaFehler": 0,
+    "anbieterFehler": 0,
+    "sonstigeFehler": 1,
+    "aktuellesCeiling": 4500,
+    "ceilingGesetztAm": "2026-09-20T08:44:04.776Z",
+    "unkalibriert": true,
+    "zuletzt": "2026-09-20T08:44:04.776Z"
+  },
+  "reel:facd284678f2": {
+    "profilId": "reel:facd284678f2",
+    "familie": "reel / claude-sonnet-5 / low / d94477",
+    "letzteAusgabeTokens": [],
+    "aufrufeGesamt": 1,
+    "erfolgreicheAufrufe": 0,
+    "abschnitte": 0,
+    "schemaFehler": 0,
+    "anbieterFehler": 0,
+    "sonstigeFehler": 1,
+    "aktuellesCeiling": 4000,
+    "ceilingGesetztAm": "2026-09-20T08:44:04.923Z",
+    "unkalibriert": true,
+    "zuletzt": "2026-09-20T08:44:04.923Z"
   }
 }
