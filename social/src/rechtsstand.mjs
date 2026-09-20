@@ -885,6 +885,40 @@ function korrigiereLeasing4090(thema) {
   normErgaenzen(thema, "§ 39 Abs. 2 Nr. 1 AO");
 }
 
+
+function korrigiereLeasing4090Quiz(thema) {
+  normErgaenzen(thema, "§ 39 Abs. 2 Nr. 1 AO", "EStH Anhang 21 I – Leasingerlass bewegliche Wirtschaftsgüter");
+  thema.titel = "Finanzierungsleasing: Was bedeutet eine Grundmietzeit außerhalb 40/90?";
+  thema.kern = {
+    ...thema.kern,
+    frage: "Bei einem Finanzierungs-Leasingvertrag über ein bewegliches Wirtschaftsgut nach den Grundtypen des Leasingerlasses liegt die Grundmietzeit unter 40 % oder über 90 % der betriebsgewöhnlichen Nutzungsdauer. Welche regelmäßige Zurechnungsfolge nennt der Leasingerlass?",
+    optionen: [
+      "Zurechnung beim Leasinggeber",
+      "regelmäßig Zurechnung beim Leasingnehmer",
+      "keine steuerliche Zurechnung",
+      "freies Wahlrecht der Vertragsparteien",
+    ],
+    richtig: 1,
+    erklaerung: "Nach dem Leasingerlass für bewegliche Wirtschaftsgüter wird der Gegenstand bei den dort geregelten Finanzierungs-Leasing-Grundtypen außerhalb der 40/90-Spanne regelmäßig dem Leasingnehmer zugerechnet. Die 40/90-Regel ist aber keine allgemeine gesetzliche Eigentumsfiktion: Vertragsgestaltung und tatsächliche Durchführung sind zu würdigen; Spezialleasing, Andienungsrechte sowie andere Vertragsmodelle sind gesondert zu prüfen (§ 39 Abs. 2 Nr. 1 AO).",
+  };
+}
+
+function korrigiereMietereinbauQuiz(thema) {
+  normErgaenzen(thema, "§ 7 Abs. 4 S. 1, 2 EStG", "EStH H 7.4 – Mietereinbauten");
+  thema.kern = {
+    ...thema.kern,
+    frage: "Wie wird ein sonstiger Mietereinbau oder -umbau abgeschrieben, wenn er weder Scheinbestandteil noch Betriebsvorrichtung ist?",
+    optionen: [
+      "stets über die Restmietdauer",
+      "nach den für Gebäude geltenden AfA-Grundsätzen; bei nachgewiesener kürzerer tatsächlicher Nutzungsdauer kann § 7 Abs. 4 S. 2 EStG greifen",
+      "stets über zehn Jahre",
+      "sofort im Jahr der Herstellung",
+    ],
+    richtig: 1,
+    erklaerung: "Nach H 7.4 EStH bestimmen sich AfA und Nutzungsdauer solcher Mietereinbauten nach den für Gebäude geltenden Grundsätzen. Im Regelfall gelten daher die typisierten Sätze des § 7 Abs. 4 S. 1 EStG; eine kürzere tatsächliche Nutzungsdauer kann nach Satz 2 nachgewiesen werden. Die Mietdauer ist nicht automatisch die AfA-Dauer.",
+  };
+}
+
 function korrigiereEinlageDeckel(thema) {
   normErgaenzen(thema, "§ 6 Abs. 1 Nr. 5 S. 1–3 EStG");
   thema.kern = {
@@ -1988,7 +2022,9 @@ export function socialKorrekturenAnwenden(pool) {
     if (thema.typ === "quiz" && /Was gilt seit dem 1\.1\.2025 für Rechnungen im B2B-Inlandsgeschäft/i.test(thema.titel || "")) kennzeichneERechnung(thema);
     if (thema.typ === "karteikarte" && /^Steuersätze \(§ 12 UStG\)$/i.test(thema.titel || "")) korrigiereUstSteuersaetzeKarte(thema);
     if (thema.typ === "karteikarte" && /Option nach § 9 UStG/i.test(thema.titel || "")) korrigiereOption9(thema);
+    if (thema.typ === "quiz" && /Grundmietzeit unter 40 % oder über 90 %/i.test(thema.titel || "")) korrigiereLeasing4090Quiz(thema);
     if (thema.typ === "karteikarte" && /Mietdauer oder Nutzungsdauer beim Mietereinbau/i.test(thema.titel || "")) korrigiereMietereinbauAfa(thema);
+    if (thema.typ === "quiz" && /Über welchen Zeitraum wird ein sonstiger Mietereinbau abgeschrieben/i.test(thema.titel || "")) korrigiereMietereinbauQuiz(thema);
     if (thema.typ === "karteikarte" && /Wie wirken sich Abbruchkosten aus/i.test(thema.titel || "")) korrigiereAbbruchkosten(thema);
     if (thema.typ === "quiz" && /Wann gilt ein mit Abbruchabsicht erworbenes Gebäude als wertlos/i.test(thema.titel || "")) korrigiereAbbruchQuiz(thema);
     if (thema.typ === "karteikarte" && /Wann ist die Einlage auf die Anschaffungskosten gedeckelt/i.test(thema.titel || "")) korrigiereEinlageDeckel(thema);
