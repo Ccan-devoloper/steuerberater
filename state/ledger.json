@@ -3465,6 +3465,17 @@
       },
       "insightsStand": "2026-09-20T14:44:08.548Z",
       "insightsAlterStunden": 1
+    },
+    {
+      "datum": "2026-09-20",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-disagio-linear",
+      "fach": "bilanz",
+      "titel": "Lineare Auflösung des Disagios",
+      "medienId": "18461219239187148",
+      "veroeffentlicht": "2026-09-20T15:44:27.673Z"
     }
   ],
   "fachZaehler": {
