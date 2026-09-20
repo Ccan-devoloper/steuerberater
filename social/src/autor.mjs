@@ -99,13 +99,15 @@ export const FORMATE = {
 
 const KANAL = CONFIG.marke.name ? `des Instagram-Kanals „${CONFIG.marke.name}“` : "eines Instagram-Kanals";
 
-/* Format-Metadaten für das sichtbare Fach-Etikett und die Klausurtagsfarbe.
-   Der Wochenrückblick fasst bewusst mehrere Fächer zusammen. Er darf deshalb
-   weder als Bilanzsteuerrecht noch als Klausur 3 erscheinen. Klausurtag 0 ist
-   im bunten Stil die neutrale/violette Palette für fachübergreifende Inhalte. */
+/* Format-Metadaten für das sichtbare Fach-Etikett und die Feed-Farbe.
+   Klausurtechnik/Kopfsache ist immer violett (0), der Wochenrückblick hat
+   seine eigene goldene Kategorie (4). Fachbeiträge bleiben K1–K3. */
 export function beitragsEinordnung(format, thema = null, recherche = null, fallbackFach = "bilanz", fallbackKlausur = 3) {
   if (format === "wochenrueckblick") {
-    return { fach: null, klausur: 0, fachLabel: FORMATE.wochenrueckblick.label };
+    return { fach: null, klausur: 4, fachLabel: FORMATE.wochenrueckblick.label };
+  }
+  if (format === "klausurtechnik") {
+    return { fach: thema?.fach || recherche?.fach || null, klausur: 0, fachLabel: FORMATE.klausurtechnik.label };
   }
   const fach = thema?.fach || recherche?.fach || fallbackFach;
   return {
@@ -675,8 +677,17 @@ const QUELLEN_STEUERN = `- BFH, Pressemeldungen als Feed (kurz, datiert - damit 
 - Haufe Steuern: https://www.haufe.de/steuern/
 - DATEV Magazin Steuern: https://www.datev-magazin.de/category/steuern/`;
 
-export async function aktuellRecherchieren(datum, bereitsBehandelt = []) {
+export async function aktuellRecherchieren(datum, bereitsBehandelt = [], klausur = null) {
+  const ziel = {
+    1: { label: "Klausur 1", faecher: "ao, ust oder erbst" },
+    2: { label: "Klausur 2", faecher: "kst oder istr" },
+    3: { label: "Klausur 3", faecher: "bilanz oder persg" },
+  }[Number(klausur)] || null;
+  const zielRegel = ziel
+    ? `\nHEUTIGER FARBSLOT: ${ziel.label}. Nimm ausschließlich ein Thema mit Fach ${ziel.faecher}. Wenn du dafür nichts Belastbares findest, antworte KEINE_NEUIGKEIT; weiche nicht auf eine andere Klausur aus.\n`
+    : "";
   const frage = `Heute ist der ${datumLesbar(datum)}. Finde EINE aktuelle Neuigkeit der letzten 4 Wochen, die für Kandidat:innen des deutschen Steuerberaterexamens wirklich zählt.
+${zielRegel}
 
 ${QUELLEN_STEUERN}
 
