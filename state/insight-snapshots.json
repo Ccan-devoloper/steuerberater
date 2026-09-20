@@ -1,0 +1,775 @@
+{
+  "version": 1,
+  "stand": "2026-09-20T22:06:09.414Z",
+  "medien": {
+    "18093399314208242": {
+      "art": "beitrag",
+      "datum": "2026-09-13",
+      "titel": "Der Fehler, den du im Wochenrückblick jetzt noch ausbügeln kannst",
+      "format": "wochenrueckblick",
+      "fach": "bilanz",
+      "hook": "fehler",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-13T10:39:24.280Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:03.266Z",
+          "alterStunden": null,
+          "reach": 36,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 1,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "17983531911067642": {
+      "art": "beitrag",
+      "datum": "2026-09-13",
+      "titel": "So nicht, sondern so",
+      "format": "reel",
+      "fach": "ao",
+      "hook": "fehler",
+      "dauer": 89.7,
+      "veroeffentlicht": "2026-09-13T18:51:30.313Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:03.758Z",
+          "alterStunden": null,
+          "reach": 76,
+          "saved": 1,
+          "shares": 1,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 94,
+          "ig_reels_avg_watch_time": 13277,
+          "ig_reels_video_view_total_time": 1208254
+        }
+      ]
+    },
+    "18064658207785929": {
+      "art": "beitrag",
+      "datum": "2026-09-14",
+      "titel": "Der Fehler bei § 9 UStG, der beim Grundstücksverkauf sicher Punkte kostet",
+      "format": "spickzettel",
+      "fach": "ust",
+      "hook": "fehler",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-14T06:44:28.451Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:04.069Z",
+          "alterStunden": null,
+          "reach": 36,
+          "saved": 2,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 2
+        }
+      ]
+    },
+    "18017884982945974": {
+      "art": "beitrag",
+      "datum": "2026-09-14",
+      "titel": "Der teuerste Denkfehler bei § 27",
+      "format": "reel",
+      "fach": "kst",
+      "hook": "fehler",
+      "dauer": 66,
+      "veroeffentlicht": "2026-09-14T10:47:56.849Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:04.588Z",
+          "alterStunden": null,
+          "reach": 48,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 70,
+          "ig_reels_avg_watch_time": 16013,
+          "ig_reels_video_view_total_time": 1136965
+        }
+      ]
+    },
+    "17916736371451478": {
+      "art": "beitrag",
+      "datum": "2026-09-15",
+      "titel": "Der Fehler, der beim Sonderbetriebsvermögen Punkte kostet",
+      "format": "pruefungsfrage",
+      "fach": "persg",
+      "hook": "fehler",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-15T10:11:55.777Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:04.951Z",
+          "alterStunden": null,
+          "reach": 27,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18139786378719531": {
+      "art": "beitrag",
+      "datum": "2026-09-15",
+      "titel": "Wohnt in Polen, arbeitet für dich?",
+      "format": "reel",
+      "fach": "istr",
+      "hook": "frage",
+      "dauer": 99.2,
+      "veroeffentlicht": "2026-09-15T19:51:02.969Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:05.428Z",
+          "alterStunden": null,
+          "reach": 163,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 188,
+          "ig_reels_avg_watch_time": 10220,
+          "ig_reels_video_view_total_time": 1829425
+        }
+      ]
+    },
+    "18156013696512479": {
+      "art": "beitrag",
+      "datum": "2026-09-16",
+      "titel": "Der Fehler, der jede Bilanzklausur kostet: direkt ins Steuerrecht springen",
+      "format": "pruefungsfrage",
+      "fach": "bilanz",
+      "hook": "fehler",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-16T06:53:05.381Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:05.658Z",
+          "alterStunden": null,
+          "reach": 23,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18124718992847558": {
+      "art": "beitrag",
+      "datum": "2026-09-16",
+      "titel": "Ein Wort entscheidet über die Formel",
+      "format": "reel",
+      "fach": "bilanz",
+      "hook": "szene",
+      "dauer": 46.7,
+      "veroeffentlicht": "2026-09-16T06:55:46.084Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:06.163Z",
+          "alterStunden": null,
+          "reach": 65,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 83,
+          "ig_reels_avg_watch_time": 11451,
+          "ig_reels_video_view_total_time": 961927
+        }
+      ]
+    },
+    "18023580185873124": {
+      "art": "beitrag",
+      "datum": "2026-09-17",
+      "titel": "Der Fehler bei SBV II, der Personengesellschafter jedes Jahr Punkte kostet",
+      "format": "spickzettel",
+      "fach": "persg",
+      "hook": "fehler",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-17T06:45:16.627Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:06.508Z",
+          "alterStunden": null,
+          "reach": 32,
+          "saved": 3,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 1
+        }
+      ]
+    },
+    "18459416641184857": {
+      "art": "beitrag",
+      "datum": "2026-09-17",
+      "titel": "Fünf Punkte vor der ersten Zahl?",
+      "format": "reel",
+      "fach": "erbst",
+      "hook": "frage",
+      "dauer": 59.8,
+      "veroeffentlicht": "2026-09-17T10:47:42.360Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T05:44:06.972Z",
+          "alterStunden": null,
+          "reach": 41,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 56,
+          "ig_reels_avg_watch_time": 15135,
+          "ig_reels_video_view_total_time": 862742
+        }
+      ]
+    },
+    "17880769707624882": {
+      "art": "story",
+      "datum": "2026-09-19",
+      "titel": "§ 173 AO: das ganze Schema",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T08:45:26.465Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T07:44:07.167Z",
+          "alterStunden": 23,
+          "reach": 34,
+          "views": 49,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 46,
+          "navigation_swipe_forward": 6,
+          "navigation_tap_forward": 36,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18098528306338741": {
+      "art": "story",
+      "datum": "2026-09-19",
+      "titel": "Welche Bilanzen bilden das Kapitalkonto i.S.d. § 15a EStG?",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T09:44:48.747Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T07:44:07.167Z",
+          "alterStunden": 22,
+          "reach": 32,
+          "views": 54,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 49,
+          "navigation_tap_back": 4,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_forward": 38,
+          "navigation_tap_exit": 4
+        }
+      ]
+    },
+    "17881903326625311": {
+      "art": "story",
+      "datum": "2026-09-19",
+      "titel": "Ergänzungsbilanz zählt mit, Sonderbilanz nicht",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T09:45:01.497Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T07:44:07.167Z",
+          "alterStunden": 22,
+          "reach": 32,
+          "views": 53,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 50,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 35,
+          "navigation_tap_back": 12
+        }
+      ]
+    },
+    "18096533537100169": {
+      "art": "story",
+      "datum": "2026-09-19",
+      "titel": "Dividende an ausländische Körperschaft: 3 Ebenen",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T09:45:11.948Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T07:44:07.167Z",
+          "alterStunden": 22,
+          "reach": 31,
+          "views": 51,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 3,
+          "profile_activity": 0,
+          "navigation": 47,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 30,
+          "navigation_tap_exit": 9,
+          "navigation_tap_back": 6
+        }
+      ]
+    },
+    "18336532195285615": {
+      "art": "story",
+      "datum": "2026-09-19",
+      "titel": "Nichtwissen: 4 Handgriffe",
+      "format": null,
+      "fach": "mindset",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T10:48:08.239Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T10:05:20.576Z",
+          "alterStunden": 23.3,
+          "reach": 28,
+          "views": 52,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 3,
+          "profile_activity": 0,
+          "navigation": 43,
+          "navigation_tap_exit": 4,
+          "navigation_tap_back": 8,
+          "navigation_tap_forward": 30,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18014640863957158": {
+      "art": "story",
+      "datum": "2026-09-19",
+      "titel": "Bei der GiG nicht jedes zurückbehaltene Grundstück als Killer werten",
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T13:44:04.507Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T12:43:41.759Z",
+          "alterStunden": 23,
+          "reach": 32,
+          "views": 56,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 43,
+          "navigation_tap_exit": 11,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_forward": 21,
+          "navigation_tap_back": 7
+        }
+      ]
+    },
+    "18025400273702359": {
+      "art": "story",
+      "datum": "2026-09-19",
+      "titel": "§ 352 AO: Wer darf gegen GuE-Bescheide Einspruch einlegen?",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T16:43:44.091Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T15:44:09.890Z",
+          "alterStunden": 23,
+          "reach": 30,
+          "views": 49,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 3,
+          "profile_activity": 0,
+          "navigation": 39,
+          "navigation_tap_back": 8,
+          "navigation_tap_forward": 20,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_exit": 6
+        }
+      ]
+    },
+    "18121118060512465": {
+      "art": "story",
+      "datum": "2026-09-19",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T17:26:20.421Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T15:44:09.890Z",
+          "alterStunden": 22.3,
+          "reach": 30,
+          "views": 43,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 35,
+          "navigation_tap_forward": 20,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 6,
+          "navigation_tap_back": 7
+        }
+      ]
+    },
+    "18180396499425820": {
+      "art": "story",
+      "datum": "2026-09-19",
+      "titel": "Gewerbesteuerrückstellung berechnen",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T17:26:32.100Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T15:44:09.890Z",
+          "alterStunden": 22.3,
+          "reach": 28,
+          "views": 45,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 34,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 18,
+          "navigation_tap_exit": 8,
+          "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "17882971320687438": {
+      "art": "story",
+      "datum": "2026-09-20",
+      "titel": "Wochenrückblick: alles mitgenommen?",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T06:45:20.591Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T18:43:44.881Z",
+          "alterStunden": 12,
+          "reach": 27,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 31,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 16,
+          "navigation_swipe_forward": 5
+        }
+      ]
+    },
+    "18452877565186699": {
+      "art": "story",
+      "datum": "2026-09-20",
+      "titel": "Ware an Unternehmer B in Österreich fürs Unternehmen; gültige USt-IdNr., Erwerb dort besteuert. Wie ist die Lieferung?",
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T09:43:52.452Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T19:43:45.723Z",
+          "alterStunden": 10,
+          "reach": 23,
+          "views": 32,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 22
+        }
+      ]
+    },
+    "18010543814974617": {
+      "art": "story",
+      "datum": "2026-09-20",
+      "titel": "Steuerfrei – der Abnehmer versteuert den Erwerb",
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T09:44:02.478Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T20:43:57.087Z",
+          "alterStunden": 11,
+          "reach": 24,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 30,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 6,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_forward": 18
+        }
+      ]
+    },
+    "18129152135505199": {
+      "art": "story",
+      "datum": "2026-09-20",
+      "titel": "Was gehört zum Grundvermögen nach § 176 BewG?",
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T09:44:11.860Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T20:43:57.087Z",
+          "alterStunden": 11,
+          "reach": 25,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_forward": 21,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18126656626801271": {
+      "art": "story",
+      "datum": "2026-09-20",
+      "titel": "Rückstellung: die 4 Fragen",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T10:13:41.037Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T20:43:57.087Z",
+          "alterStunden": 10.5,
+          "reach": 24,
+          "views": 28,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 18,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18098715815065919": {
+      "art": "story",
+      "datum": "2026-09-20",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T11:44:35.881Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T18:43:44.881Z",
+          "alterStunden": 7,
+          "reach": 23,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 19,
+          "navigation_tap_exit": 4
+        }
+      ]
+    },
+    "18127601329835154": {
+      "art": "story",
+      "datum": "2026-09-20",
+      "titel": "Anzahlung vor Leistung: Steuer entsteht schon mit Zahlung",
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T13:43:59.223Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T19:43:45.723Z",
+          "alterStunden": 6,
+          "reach": 20,
+          "views": 23,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 20,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 12,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18461219239187148": {
+      "art": "story",
+      "datum": "2026-09-20",
+      "titel": "Lineare Auflösung des Disagios",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T15:44:27.673Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T17:40:19.202Z",
+          "alterStunden": 1.9,
+          "reach": 11,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 9,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18486534178109512": {
+      "art": "story",
+      "datum": "2026-09-20",
+      "titel": "Grundschema: Person, Wohnsitz, Steuerzugriff",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T17:40:34.084Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-20T18:43:44.881Z",
+          "alterStunden": 1.1,
+          "reach": 13,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 10,
+          "navigation_tap_exit": 2
+        }
+      ]
+    }
+  },
+  "konto": [
+    {
+      "stand": "2026-09-20T12:00:00.000Z",
+      "follower": 67,
+      "seed": true
+    }
+  ]
+}
