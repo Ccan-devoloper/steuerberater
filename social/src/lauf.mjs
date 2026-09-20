@@ -22,7 +22,7 @@ import { istKostenKontrollFehler, budgetStoppGrund } from "./kostenfehler.mjs";
 import { mindsetThema } from "./kalender.mjs";
 import { stickerFarbe } from "./stile.mjs";
 import { zeitStatistik } from "./zeiten.mjs";
-import { themenpool } from "./inhalte.mjs";
+import { themenpool, FAECHER, FEED_KATEGORIEN, feedKategorie, feedFolgeErlaubt } from "./inhalte.mjs";
 import { tagesplan, auffuellplan, ledgerLaden, ledgerSpeichern, vermerken, uebertragen, FORMAT_QUELLEN } from "./planer.mjs";
 import { pruefeBeitrag, benutzteFirmen, namenSperren, quizBefunde, quizPaarFreigabe, storyFreigabe, quizNachschlag, alleBefunde, persistierteStoryBeanstandungen } from "./pruefung.mjs";
 import { beitragSchreiben, storiesSchreiben, storiesPruefen, teaserAusBeitrag, bildregieSicher, aktuellRecherchieren, loesungsRecherchieren, reelSchreiben, entwurfsspeicher, entwuerfeAufraeumen } from "./autor.mjs";
@@ -451,7 +451,7 @@ async function main() {
     const p = tagesplan(datum, ledger, pool, strategie);
     plan = {
       datum: p.datum, erzeugt: new Date().toISOString(), anlass: p.anlass || null, abendAnlass: p.abendAnlass || null, trocken,
-      beitraege: p.beitraege.map((b) => ({ slot: b.slot, zeit: b.zeit, format: b.format, themaId: b.thema?.id || null, themaTitel: b.thema?.titel || null, fach: b.thema?.fach || null, lang: b.lang, status: "geplant" })),
+      beitraege: p.beitraege.map((b) => ({ slot: b.slot, zeit: b.zeit, format: b.format, themaId: b.thema?.id || null, themaTitel: b.thema?.titel || null, fach: b.thema?.fach || null, klausur: b.klausur ?? null, lang: b.lang, status: "geplant" })),
       stories: p.stories.map((s) => ({ slot: s.slot, zeit: s.zeit, art: s.art, themaId: s.thema?.id || null, beitragSlot: s.beitragSlot || null, tageBisExamen: s.tageBisExamen, status: "geplant" })),
     };
     /* Übertrag von gestern: nicht erschienene Beiträge zuerst. Ein schon
@@ -844,13 +844,21 @@ async function main() {
      kein Fehler: Lieber ein guter Beitrag aus dem Pool als einer ueber eine
      Neuigkeit ohne Pruefungsbezug. */
   const aufThemenpoolAusweichen = (eintrag) => {
-    const frei = pool.filter((t) => !belegteThemen.has(t.id) && (FORMAT_QUELLEN.pruefungsfrage || []).includes(t.typ));
-    const ausweich = frei.find(Boolean) || pool.find((t) => !belegteThemen.has(t.id));
+    const ziel = Number(eintrag.klausur);
+    const farbtreu = [1, 2, 3].includes(ziel);
+    const frei = pool.filter((t) =>
+      !belegteThemen.has(t.id) &&
+      (FORMAT_QUELLEN.pruefungsfrage || []).includes(t.typ) &&
+      (!farbtreu || t.klausur === ziel)
+    );
+    const ausweich = frei.find(Boolean) || (!farbtreu ? pool.find((t) => !belegteThemen.has(t.id)) : null);
     if (!ausweich) return null;
     belegteThemen.add(ausweich.id);
     eintrag.format = "pruefungsfrage";
     eintrag.themaId = ausweich.id;
-    log(`  → „pruefungsfrage" statt Recherche: „${ausweich.titel}" - ein Beitrag ohne Recherche ist besser als keiner.`);
+    eintrag.themaTitel = ausweich.titel;
+    eintrag.fach = ausweich.fach;
+    log(`  → „pruefungsfrage" statt Recherche: „${ausweich.titel}" - Farbslot ${FEED_KATEGORIEN[ziel] || ziel} bleibt erhalten.`);
     return textBesorgen(eintrag);
   };
 
@@ -882,15 +890,21 @@ async function main() {
       if (eintrag.format === "aktuell" || eintrag.format === "loesungsskizze") {
         const bisher = (ledger.veroeffentlicht || []).filter((e) => e.format === "aktuell").slice(-12).map((e) => e.titel);
         try {
-          recherche = eintrag.format === "loesungsskizze" ? await loesungsRecherchieren(datum, eintrag.anlass || plan.abendAnlass) : await aktuellRecherchieren(datum, bisher);
-          /* „KEINE_NEUIGKEIT" ist die verabredete Antwort fuer: nichts
-             gefunden, was den Massstab haelt. Ebenso zaehlt ein Ergebnis
-             ohne jede Quelle - daraus laesst sich kein belegter Beitrag
-             bauen. Beides fuehrt sofort auf den Themenpool, statt einen
-             duennen Beitrag zu erzwingen. */
-          const leer = /KEINE_NEUIGKEIT/i.test(recherche.notizen || "") || !recherche.quellen.length;
+          const zielKlausur = [1, 2, 3].includes(Number(eintrag.klausur)) ? Number(eintrag.klausur) : null;
+          recherche = eintrag.format === "loesungsskizze"
+            ? await loesungsRecherchieren(datum, eintrag.anlass || plan.abendAnlass)
+            : await aktuellRecherchieren(datum, bisher, zielKlausur);
+          /* Aktuell darf den geplanten Farbslot nicht verlassen. Ein Treffer
+             aus der falschen Klausur wird wie ein leeres Rechercheergebnis
+             behandelt und durch ein Pool-Thema derselben Farbe ersetzt. */
+          const rechercheKlausur = FAECHER[recherche.fach]?.klausur ?? null;
+          const falscheFarbe = eintrag.format === "aktuell" && zielKlausur && rechercheKlausur !== zielKlausur;
+          const leer = /KEINE_NEUIGKEIT/i.test(recherche.notizen || "") || !recherche.quellen.length || falscheFarbe;
           if (leer) {
-            log(`  Recherche ohne verwertbares Ergebnis${/KEINE_NEUIGKEIT/i.test(recherche.notizen || "") ? " (nichts mit Prüfungsbezug gefunden)" : " (keine Quellen)"}.`);
+            const grund = falscheFarbe
+              ? `Recherche landete in ${FEED_KATEGORIEN[rechercheKlausur] || recherche.fach || "unbekannt"} statt ${FEED_KATEGORIEN[zielKlausur]}`
+              : (/KEINE_NEUIGKEIT/i.test(recherche.notizen || "") ? "nichts mit Prüfungsbezug gefunden" : "keine Quellen");
+            log(`  Recherche ohne verwertbares Ergebnis (${grund}).`);
             const ersatz = aufThemenpoolAusweichen(eintrag);
             if (ersatz) return ersatz;
           } else log(`  Recherche: ${recherche.titel || "(ohne Titel)"} · ${recherche.quellen.length} Quellen`);
@@ -957,6 +971,29 @@ async function main() {
 
   const fertigeBeitraege = new Map();   // slot → Beitrag (für Teaser)
 
+  /* Letzte Schutzschicht direkt vor Instagram. Sie prüft sowohl die geplante
+     Kategorie als auch den tatsächlichen Vorgänger im Ledger. So können alte
+     Tagespläne, Recherche-Ausreißer oder Überträge die Farbfolge nicht mehr
+     still brechen. */
+  const rotationsfolgeErlaubt = (inhalt, eintrag) => {
+    if (trocken) return true;
+    const nachher = {
+      format: eintrag.format,
+      fach: inhalt?.fach || eintrag.fach,
+      klausur: inhalt?.klausur ?? eintrag.klausur,
+      thema: inhalt?.themaId || eintrag.themaId,
+    };
+    const kategorie = feedKategorie(nachher);
+    if (eintrag.klausur != null && kategorie != null && Number(eintrag.klausur) !== kategorie) {
+      log(`  ↷ ${eintrag.slot} wartet: Inhalt ist ${FEED_KATEGORIEN[kategorie] || kategorie}, geplant ist ${FEED_KATEGORIEN[eintrag.klausur] || eintrag.klausur}.`);
+      return false;
+    }
+    const vorher = [...(ledger.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.medienId !== "trocken");
+    if (feedFolgeErlaubt(vorher, nachher)) return true;
+    log(`  ↷ ${eintrag.slot} wartet: ${FEED_KATEGORIEN[kategorie] || kategorie} würde direkt auf dieselbe Feed-Kategorie folgen.`);
+    return false;
+  };
+
   /* Story-Texte dräge (wichtiger), zuletzt die Stories veröffentlichen. */
   for (const eintrag of beitraegeFaellig) {
     if (frei() <= 0) { log("Tageskontingent erschöpft – Beitrag verschoben."); break; }
@@ -965,6 +1002,7 @@ async function main() {
       log(`Beitrag ${eintrag.slot} (${eintrag.format}) ${eintrag.themaTitel || ""}`);
       if (eintrag.format === "reel") {
         const reel = await textBesorgen(eintrag);
+        if (!rotationsfolgeErlaubt(reel, eintrag)) continue;
         const varianteReel = (CONFIG.marke.farbeJeKlausur ? 0 : await varianteErmitteln({ ig, ledger, trocken, log }));
         const gewaehlteStimme = stimmeWaehlen({ kandidaten: stimmenListe?.kandidaten || [], ledger, datum, fest: stimmenListe?.fest || null });
         await motivBesorgen(reel, "Reel-Cover");
@@ -998,7 +1036,7 @@ async function main() {
         kontingent.genutzt += 1;
         const echt = veroeffentlichungEintragen(eintrag, medienId);
         if (!echt.bestaetigt) { probelaeufe.push({ slot: eintrag.slot, art: "reel", kennung: echt.kennung, zeit: new Date().toISOString() }); log(`  ○ Probelauf: Reel ${eintrag.slot} ${echt.grund} – der Plan bleibt unverändert.`); }
-        if (echt.bestaetigt) vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: "reel", thema: reel.themaId, fach: reel.fach, titel: reel.szenen[0]?.titel || reel.kurztitel, hookTyp: reel.hookTyp, hookMuster: reel.hookMuster, medienId, variante: varianteReel, hashtags: reel.hashtags, stimmeId: r.stimmeId || null, stimmeName: r.stimmeName || null, layout: r.layout || null, dauer: Math.round(r.dauer * 10) / 10, veroeffentlicht: new Date().toISOString() });
+        if (echt.bestaetigt) vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: "reel", thema: reel.themaId, fach: reel.fach, klausur: feedKategorie({ format: eintrag.format, fach: reel.fach, klausur: reel.klausur, thema: reel.themaId }), titel: reel.szenen[0]?.titel || reel.kurztitel, hookTyp: reel.hookTyp, hookMuster: reel.hookMuster, medienId, variante: varianteReel, hashtags: reel.hashtags, stimmeId: r.stimmeId || null, stimmeName: r.stimmeName || null, layout: r.layout || null, dauer: Math.round(r.dauer * 10) / 10, veroeffentlicht: new Date().toISOString() });
         if (echt.bestaetigt) eintrag.kanaele = await verteilen({ art: "reel", videoUrl, videoPfad: r.video, bildUrls: [coverUrl], titel: reel.kurztitel || reel.szenen[0]?.titel, text: caption, hashtags: reel.hashtags }, { log, trockenlauf: trocken, stateDir: hosting.stateDir });
         fertigeBeitraege.set(eintrag.slot, { ...reel, folien: [{ art: "titel", titel: reel.szenen[0]?.titel, icon: reel.szenen[0]?.icon }], kurztitel: reel.kurztitel });
         ledgerSpeichern(ledgerPfad, ledger); planSpeichern(hosting, plan);
@@ -1009,6 +1047,7 @@ async function main() {
         continue;
       }
       const beitrag = await textBesorgen(eintrag);
+      if (!rotationsfolgeErlaubt(beitrag, eintrag)) continue;
       const variante = (CONFIG.marke.farbeJeKlausur ? 0 : await varianteErmitteln({ ig, ledger, trocken, log }));
       /* Produktregel: Karussell = bevorzugt fotorealistisches Cover + Icon;
          innere Slides bleiben bildfrei. Archiv/Pexels/Bild-KI bilden die
@@ -1027,7 +1066,7 @@ async function main() {
       const echt = veroeffentlichungEintragen(eintrag, medienId);
       if (!echt.bestaetigt) { probelaeufe.push({ slot: eintrag.slot, art: "beitrag", kennung: echt.kennung, zeit: new Date().toISOString() }); log(`  ○ Probelauf: Beitrag ${eintrag.slot} ${echt.grund} – der Plan bleibt unverändert.`); }
       const karteIndex = beitrag.folien.findIndex((f) => f.art === "karte");
-      if (echt.bestaetigt) vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, variante, hashtags: beitrag.hashtags, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
+      if (echt.bestaetigt) vermerken(ledger, { datum, art: "beitrag", slot: eintrag.slot, zeit: eintrag.zeit, stunde: Math.floor(lokaleMinuten() / 60), format: eintrag.format, thema: beitrag.themaId, fach: beitrag.fach, klausur: feedKategorie({ format: eintrag.format, fach: beitrag.fach, klausur: beitrag.klausur, thema: beitrag.themaId }), titel: beitrag.folien[0].titel, hookTyp: beitrag.hookTyp, medienId, variante, hashtags: beitrag.hashtags, veroeffentlicht: new Date().toISOString(), karteUrl: karteIndex >= 0 ? urls[karteIndex] : null });
       fertigeBeitraege.set(eintrag.slot, beitrag);
       /* Auf weitere Kanäle verteilen (Threads, Facebook, LinkedIn …). */
       if (echt.bestaetigt) eintrag.kanaele = await verteilen({ art: "beitrag", bildUrls: urls, bildPfade: bilder, titel: beitrag.folien[0].titel, text: caption, hashtags: beitrag.hashtags }, { log, trockenlauf: trocken, stateDir: hosting.stateDir });
