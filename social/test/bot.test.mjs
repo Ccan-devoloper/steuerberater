@@ -6482,9 +6482,10 @@ test("Vorrat im Tageslauf 13: der Entnahmepfad kann gar keinen bezahlten Aufruf 
      ginge daran vorbei. Hier wird stattdessen die ganze transitive Hülle
      bestimmt: Welche Module sind vom Entnahmepfad aus überhaupt erreichbar?
 
-     Drei sind es, und mehr dürfen es nicht werden. Die Entnahme am
-     Blockadetag ist damit nicht durch Disziplin kostenlos, sondern weil es
-     keinen Weg zu einem bezahlten Modul gibt. */
+     Vier sind es: Mechanik, Policy, Kostenfehler und der dependency-freie
+     Feed-Farbhelfer. Mehr dürfen es nicht werden. Die Entnahme am Blockadetag
+     ist damit nicht durch Disziplin kostenlos, sondern weil es keinen Weg zu
+     einem bezahlten Modul gibt. */
   const gesehen = new Set();
   const gehen = (datei) => {
     if (gesehen.has(datei)) return;
@@ -6494,8 +6495,8 @@ test("Vorrat im Tageslauf 13: der Entnahmepfad kann gar keinen bezahlten Aufruf 
   };
   gehen("reservelauf.mjs");
 
-  assert.deepEqual([...gesehen].sort(), ["kostenfehler.mjs", "reserve.mjs", "reservelauf.mjs"],
-    `der Entnahmepfad erreicht jetzt mehr als die drei erlaubten Module: ${[...gesehen].sort().join(", ")}`);
+  assert.deepEqual([...gesehen].sort(), ["feedfarben.mjs", "kostenfehler.mjs", "reserve.mjs", "reservelauf.mjs"],
+    `der Entnahmepfad erreicht jetzt mehr als die vier erlaubten Module: ${[...gesehen].sort().join(", ")}`);
   /* Und die drei tragen keinen bezahlten Pfad. Geprüft wird der CODE, ohne
      Kommentare: reservelauf.mjs erklärt in seinem Kopf, warum der Renderer
      die Farbe aus dem Beitrag nimmt - das ist eine Erklärung, kein Zugriff. */
