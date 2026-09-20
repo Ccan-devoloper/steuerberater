@@ -5,14 +5,13 @@
   "klausur": 1,
   "pairId": "ust-modul-ust-163",
   "ueberzeile": "Norm im Blick",
-  "titel": "Anzahlung: Steuer entsteht mit Zahlungseingang",
-  "text": "§ 13 (1) Nr. 1 b UStG: Vor Leistung vereinnahmtes Entgelt löst Steuer schon im VAZ der Zahlung aus – unabhängig vom späteren Leistungszeitpunkt.",
+  "titel": "Anzahlung vor Leistung: Steuer entsteht schon mit Zahlung",
+  "text": "Bei Sollversteuerung greift die Mindest-Ist-Versteuerung: Wird Entgelt oder Teilentgelt vor der Leistung vereinnahmt, entsteht die Umsatzsteuer insoweit bereits mit Ablauf des Voranmeldungszeitraums der Vereinnahmung.",
   "zahl": "§ 13 UStG",
   "fachLabel": "Umsatzsteuer",
   "befundeTypisiert": true,
-  "beanstandetFachlich": [
-    "[Story s7 zahl]: § 13 (1) Nr. 1 b UStG behandelt nicht Anzahlungen, sondern Entgelte für Teilleistungen oder Lieferungen in Raten. Die allgemeine Regel für Anzahlungen (vor Leistungserbringung vereinnahmtes Entgelt) steht in § 13 Abs. 1 Nr. 1 a UStG (Satz 1 Alternative 1), nicht in Nr. 1 b. Nr. 1 b erfasst nur den Fall, dass der Steuerpflichtige bereits geliefert oder eine Teilleistung erbracht hat, die Zahlung aber noch aussteht. → Die Norm für Anzahlungen allgemein ist § 13 Abs. 1 Nr. 1 a UStG (erste Alternative: vor Leistung vereinnahmtes Entgelt). § 13 Abs. 1 Nr. 1 b UStG regelt den Fall, dass Lieferung oder Leistung teilweise erfolgt ist (Teilleistung, Ratenkauf, Dauerliefer-vertrag).",
-    "[QuizPair ust-quiz-ust-13], Frage und Antwort: Es ist unklar, welcher Sachverhalt der Frage zugrunde liegt. Die Antwort B verweist auf eine Warenbewegung ins EU-Ausland mit USt-IdNr. des Abnehmers (§ 4 Nr. 1 b i.V.m. § 6a UStG), aber in der Frage ist kein Sachverhalt angegeben: keine Angabe von Warenbewegung, Abnehmerland, USt-IdNr.-Vorlage, Rechnungsausstellung oder sonstigem Bezug. Ohne diese Angaben kann nicht überprüft werden, ob B tatsächlich die richtige Antwort ist oder nur zufällig zur markierten Option passt. → Die Frage muss einen vollständigen Sachverhalt enthalten (z.B.: Unternehmer A liefert Waren an Unternehmer B in Österreich. B hat eine gültige USt-IdNr. vorgelegt. A stellt eine Rechnung mit Rechnungsangaben aus. Wie wird die Lieferung besteuert?), damit die Antwortoptionen nachvollziehbar sind."
-  ],
-  "fachStand": "gfi2fs-303"
+  "beanstandetFachlich": [],
+  "fachStand": "manuell-2026-09-20",
+  "manuellGeprueft": true,
+  "norm": "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG"
 }
