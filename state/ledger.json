@@ -3115,22 +3115,22 @@
       "medienId": "18014640863957158",
       "veroeffentlicht": "2026-09-19T13:44:04.507Z",
       "insights": {
-        "reach": 29,
-        "views": 48,
+        "reach": 32,
+        "views": 56,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 41,
+        "navigation": 43,
         "navigation_tap_exit": 11,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 20,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 21,
         "navigation_tap_back": 7
       },
-      "insightsStand": "2026-09-20T10:05:20.576Z",
-      "insightsAlterStunden": 20.4
+      "insightsStand": "2026-09-20T12:43:41.759Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-19",
