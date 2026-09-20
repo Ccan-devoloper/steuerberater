@@ -1,0 +1,13 @@
+{
+  "slot": "s8",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "pairId": "bilanz-formel-disagio-linear",
+  "titel": "Lineare Auflösung des Disagios",
+  "text": "Beispiel: Disagio 8.000 €, Laufzeit 8 Jahre → 1.000 € Zinsaufwand pro Jahr, weil das Kapital beim Fälligkeitsdarlehen konstant bleibt.",
+  "formel": "Jahresbetrag = Disagio ÷ Laufzeit in Jahren",
+  "fachLabel": "Bilanzsteuerrecht",
+  "befundeTypisiert": true,
+  "fachStand": "chhdz8-300"
+}

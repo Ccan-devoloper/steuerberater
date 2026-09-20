@@ -1,0 +1,16 @@
+{
+  "slot": "s7",
+  "art": "zahl",
+  "fach": "ust",
+  "klausur": 1,
+  "pairId": "ust-modul-ust-163",
+  "titel": "Kein Zeitversatz bei der Istversteuerung",
+  "text": "§ 20 UStG: Die Steuer entsteht mit dem Zahlungseingang, nicht erst mit der Leistung – Vereinnahmung ist der Taktgeber.",
+  "zahl": "0 Tage",
+  "fachLabel": "Umsatzsteuer",
+  "befundeTypisiert": true,
+  "beanstandetFachlich": [
+    "[Story s7 zahl]: Die Aussage zu § 20 UStG ist ungenau und kann zu Verständnisfehlern führen. § 20 UStG regelt die Entstehung der Steuer bei der Istversteuerung – diese entsteht mit dem Zahlungseingang. Allerdings ist die Formulierung „Vereinnahmung ist der Taktgeber → : Das ist richtig. Aber: Die Formulierung „Kein Zeitversatz bei der Istversteuerung"
+  ],
+  "fachStand": "q2f95m-255"
+}

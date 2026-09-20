@@ -1,0 +1,22 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "pairId": "ust-quiz-ust-13",
+  "ueberzeile": "Richtig ist B",
+  "titel": "Steuerfrei – der Abnehmer versteuert den Erwerb selbst",
+  "text": "Neben der USt-IdNr. verlangt § 6a (1) UStG Warenbewegung ins EU-Ausland, begünstigten Abnehmer und dortige Erwerbsbesteuerung; Nachweise nach § 6a (3) UStG, § 4 Nr. 1 b UStG.",
+  "optionen": [
+    "Im Inland steuerpflichtig",
+    "Steuerfrei nach § 4 Nr. 1 b i.V.m. § 6a UStG, Abnehmer versteuert Erwerb",
+    "Nicht steuerbar"
+  ],
+  "richtig": 1,
+  "fachLabel": "Umsatzsteuer",
+  "befundeTypisiert": true,
+  "beanstandetFachlich": [
+    "[Story s4 antwort]: Das Zitat zu § 6a (1) UStG nennt vier Voraussetzungen, aber § 6a (1) UStG selbst nennt nur die Warenbewegung, die USt-IdNr. des Abnehmers und die Erwerbsbesteuerung beim Abnehmer. Der Text packt hier auch § 6a (3) UStG (Nachweispflicht) und § 4 Nr. 1 b UStG (Steuerfeiheit) rein – das ist eine Vermengung von Voraussetzungen und Nachweisvorschriften, ohne klar zwischen ihnen zu trennen. Der Satz  → Die Norm § 6a (1) UStG selbst regelt nur: USt-IdNr. des Abnehmers, Lieferung ins EU-Ausland und Erwerbsbesteuerung beim Abnehmer. Nachweise folgen aus § 6a (3) UStG, die Steuerfeiheit selbst aus § 4 Nr. 1 b UStG."
+  ],
+  "fachStand": "ers7jz-460"
+}

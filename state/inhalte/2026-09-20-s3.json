@@ -1,0 +1,17 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "ust",
+  "klausur": 1,
+  "pairId": "ust-quiz-ust-13",
+  "ueberzeile": "Prüfungsfrage Umsatzsteuer",
+  "titel": "Innergemeinschaftliche Lieferung: Wie ist der Umsatz zu behandeln?",
+  "optionen": [
+    "Im Inland steuerpflichtig",
+    "Steuerfrei nach § 4 Nr. 1 b i.V.m. § 6a UStG, Abnehmer versteuert Erwerb",
+    "Nicht steuerbar"
+  ],
+  "fachLabel": "Umsatzsteuer",
+  "befundeTypisiert": true,
+  "fachStand": "11foind-308"
+}
