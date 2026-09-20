@@ -317,14 +317,35 @@ export function auffuellplan(anzahl, ledger = ledgerLaden(), pool = themenpool()
   const ledgerKopie = { ...ledger, fachZaehler: { ...(ledger.fachZaehler || {}) } };
   const heute = heuteIso();
   const liste = [];
+  const letzter = [...(ledger.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.medienId !== "trocken");
+  let vorher = feedKategorie(letzter);
+  let naechsteFachfarbe = [1, 2, 3].includes(vorher) ? (vorher % 3) + 1 : 1;
+
   for (let i = 0; i < anzahl; i++) {
     const format = formate[i % formate.length];
     const typen = FORMAT_QUELLEN[format] || ["modul"];
-    const kandidaten = verfuegbar(pool, ledgerKopie, heute, benutzt).filter((t) => typen.includes(t.typ));
-    const thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie);
+    const sichtbar = format === "klausurtechnik" ? 0 : naechsteFachfarbe;
+    /* Klausurtechnik ist sichtbar violett, bekommt aber weiterhin ein
+       fachliches Quellthema. Fachbeiträge werden hart aus ihrer sichtbaren
+       K1/K2/K3-Kategorie gezogen. */
+    const quellKlausur = format === "klausurtechnik" ? naechsteFachfarbe : sichtbar;
+    let kandidaten = verfuegbar(pool, ledgerKopie, heute, benutzt)
+      .filter((t) => typen.includes(t.typ) && t.klausur === quellKlausur);
+    if (!kandidaten.length) {
+      kandidaten = aeltesteZuerst(
+        pool.filter((t) => typen.includes(t.typ) && t.klausur === quellKlausur),
+        ledgerKopie,
+        benutzt,
+      );
+    }
+    if (!kandidaten.length) continue;
+    const thema = gewichteteWahl(kandidaten, zufall, ledgerKopie);
     benutzt.add(thema.id);
     ledgerKopie.fachZaehler[thema.fach] = (ledgerKopie.fachZaehler[thema.fach] || 0) + 1;
-    liste.push({ slot: `f${i + 1}`, format, thema });
+    liste.push({ slot: `f${liste.length + 1}`, format, thema, klausur: sichtbar });
+    vorher = sichtbar;
+    if (format !== "klausurtechnik") naechsteFachfarbe = (sichtbar % 3) + 1;
+    if (naechsteFachfarbe === vorher) naechsteFachfarbe = (naechsteFachfarbe % 3) + 1;
   }
   return liste;
 }
