@@ -4,17 +4,23 @@ import assert from "node:assert/strict";
 import { beitragsEinordnung } from "../src/autor.mjs";
 import { fussRechts } from "../src/vorlagen.mjs";
 
-test("Wochenrückblick ist fachübergreifend statt Bilanzsteuerrecht", () => {
+test("Wochenrückblick ist fachübergreifend und hat die eigene goldene Kategorie", () => {
   assert.deepEqual(beitragsEinordnung("wochenrueckblick"), {
     fach: null,
-    klausur: 0,
+    klausur: 4,
     fachLabel: "Wochenrückblick",
   });
+  assert.equal(fussRechts(beitragsEinordnung("wochenrueckblick")), "Wochenrückblick");
 });
 
-test("Wochenrückblick zeigt keinen Klausur-3-Footer", () => {
-  const meta = beitragsEinordnung("wochenrueckblick");
-  assert.equal(fussRechts(meta), "");
+test("Klausurtechnik bleibt unabhängig vom Quellfach violett", () => {
+  const meta = beitragsEinordnung("klausurtechnik", { fach: "bilanz" });
+  assert.deepEqual(meta, {
+    fach: "bilanz",
+    klausur: 0,
+    fachLabel: "Klausurtechnik",
+  });
+  assert.equal(fussRechts(meta), "Klausurtechnik");
 });
 
 test("Normale Fachbeiträge behalten ihre Facheinordnung", () => {
