@@ -195,6 +195,7 @@
 
     <div class="toolbar">
       <div class="seg" id="rangeSeg">
+        <button data-days="1" title="Nur der letzte verfügbare Datentag">Intraday</button>
         <button data-days="7">7 Tage</button>
         <button data-days="14">14 Tage</button>
         <button data-days="30" class="active">30 Tage</button>
@@ -442,7 +443,7 @@
       kpi('Veröffentlicht',fmt(entries.length),`${fmt(todayCount)} am letzten Datentag`),
       kpi('Gemessene Inhalte',fmt(allAgg.measured),`${fmt(feed.length)} Feed · ${fmt(reels.length)} Reels`),
       kpi('Story-Insights',fmt(measuredStories),`${fmt(stories.length)} Stories im Zeitraum`),
-      kpi('Bot-Kosten',money.format(periodCost(data)),`${store.days?store.days+' Tage':'Gesamtzeitraum'}`)
+      kpi('Bot-Kosten',money.format(periodCost(data)),`${store.days===1?'Intraday':store.days?store.days+' Tage':'Gesamtzeitraum'}`)
     ].join('');
   }
 
@@ -575,7 +576,7 @@
   $('#rangeSeg').addEventListener('click', e=>{ const b=e.target.closest('[data-days]'); if(!b)return; store.days=Number(b.dataset.days); localStorage.setItem('igDashDays',String(store.days)); render(); });
   const qs=new URLSearchParams(location.search);
   if(ACCOUNTS[qs.get('konto')]) store.account=qs.get('konto');
-  if(['0','7','14','30'].includes(qs.get('tage'))) store.days=Number(qs.get('tage'));
+  if(['0','1','7','14','30'].includes(qs.get('tage'))) store.days=Number(qs.get('tage'));
   renderTabs();
   const unlockedUntil=Number(localStorage.getItem(AUTH_KEY)||0);
   if(unlockedUntil>Date.now()) unlockDashboard();
