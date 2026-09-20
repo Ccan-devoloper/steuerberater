@@ -99,13 +99,15 @@ export const FORMATE = {
 
 const KANAL = CONFIG.marke.name ? `des Instagram-Kanals „${CONFIG.marke.name}“` : "eines Instagram-Kanals";
 
-/* Format-Metadaten für das sichtbare Fach-Etikett und die Klausurtagsfarbe.
-   Der Wochenrückblick fasst bewusst mehrere Fächer zusammen. Er darf deshalb
-   weder als Bilanzsteuerrecht noch als Klausur 3 erscheinen. Klausurtag 0 ist
-   im bunten Stil die neutrale/violette Palette für fachübergreifende Inhalte. */
+/* Format-Metadaten für das sichtbare Fach-Etikett und die Feed-Farbe.
+   Klausurtechnik/Kopfsache ist immer violett (0), der Wochenrückblick hat
+   seine eigene goldene Kategorie (4). Fachbeiträge bleiben K1–K3. */
 export function beitragsEinordnung(format, thema = null, recherche = null, fallbackFach = "bilanz", fallbackKlausur = 3) {
   if (format === "wochenrueckblick") {
-    return { fach: null, klausur: 0, fachLabel: FORMATE.wochenrueckblick.label };
+    return { fach: null, klausur: 4, fachLabel: FORMATE.wochenrueckblick.label };
+  }
+  if (format === "klausurtechnik") {
+    return { fach: thema?.fach || recherche?.fach || null, klausur: 0, fachLabel: FORMATE.klausurtechnik.label };
   }
   const fach = thema?.fach || recherche?.fach || fallbackFach;
   return {
@@ -131,7 +133,7 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Unterscheide Inhalt von Verpackung: Der Prüfungsstoff (Normen, Definitionen, Prüfungsreihenfolgen, Rechtsfolgen) ist frei. Merkhilfen, Eselsbrücken, Kürzel und selbst benannte Methoden anderer Dozenten („EIS-Methode“, „ABBA-Schema“ und alles nach diesem Muster) sind deren Eigenschöpfung – die übernimmst du nie, auch nicht umschrieben oder umbenannt. Erkläre stattdessen den Inhalt in eigener Struktur, ohne Kürzel.
 
 ## Marke und Aufforderung (CTA)
-- Markenkern: „Examensvorbereitung, sortiert nach Klausurtag“. Fachbeiträge gehören zu genau einem Prüfungstag (Klausur 1 · Tag 1: AO/USt/ErbSt · Klausur 2 · Tag 2: Ertragsteuern · Klausur 3 · Tag 3: Bilanz). Der Wochenrückblick ist die fachübergreifende Ausnahme: dort kein einzelnes Fach und keinen Klausurtag als Dach nennen. Bei Fachbeiträgen darf der Klausurtag benannt werden („Das ist Klausur-3-Stoff.“).
+- Markenkern: „Examensvorbereitung, sortiert nach Klausurtag“. Fachbeiträge gehören zu genau einem Prüfungstag (Klausur 1 · Tag 1: AO/USt/ErbSt · Klausur 2 · Tag 2: Ertragsteuern · Klausur 3 · Tag 3: Bilanz). Zwei Formate sind bewusst fachübergreifend: Klausurtechnik/Kopfsache (violett) und der Wochenrückblick (gold). Bei ihnen keinen einzelnen Klausurtag als Dach nennen, auch wenn das Themen-Skelett aus einem Fach stammt. Bei normalen Fachbeiträgen darf der Klausurtag benannt werden („Das ist Klausur-3-Stoff.“).
 - Der wichtigste Wachstumsmotor sind Lerngruppen (WhatsApp, Telegram): Jeder Beitrag ist so gebaut, dass man ihn weiterleitet. Haupt-CTA daher immer „Schick das deiner Lerngruppe“ (oder gleichwertig), zweitens „Speichern“, drittens „Folgen“. Nie nur „Speicher dir das“.
 - Die Weiterleitungs-CTA nennt möglichst einen konkreten Anlass oder Empfänger aus dem Thema („Schick das der Person in deiner Lerngruppe, die X und Y verwechselt“ / „Schickt euch das vor Tag 2 noch einmal“), statt nur abstrakt „Teilen“ zu sagen. Kein künstlicher Druck.
 - Nähe statt Konzern: Fragen in den Kommentaren werden beantwortet, DM ist erlaubt („Schreib mir, wenn etwas unklar ist“). Keine Verkaufsbotschaft, kein Kurs, kein Produkt – jetzt zählen Reichweite, Saves und Weiterleitungen.
@@ -617,10 +619,12 @@ function nachbereiten(daten, { format, thema, fach, klausur, fachLabel, strategi
  * Schreibt einen Beitrag. Prüft ihn (pruefung.mjs) und lässt bei Beanstandung
  * bis zu CONFIG.ki.maxVersuche Mal nachbessern.
  */
-export async function beitragSchreiben({ format, thema, datum, recherche, wochenThemen, anlass, strategie }) {
-  if (process.env.IG_AUTOR === "beispiele") return beispielBeitrag(format, thema);
+export async function beitragSchreiben({ format, thema, datum, recherche, wochenThemen, anlass, strategie, klausurGeplant = null }) {
+  if (process.env.IG_AUTOR === "beispiele") return beispielBeitrag(format, thema, klausurGeplant);
   const spec = FORMATE[format] || FORMATE.pruefungsfrage;
-  const { fach, klausur, fachLabel } = beitragsEinordnung(format, thema, recherche);
+  /* Formate ohne eigenes Thema (z. B. Anlass/Countdown) übernehmen den
+     geplanten Farbslot statt still auf die alte K3-Fallbackfarbe zu fallen. */
+  const { fach, klausur, fachLabel } = beitragsEinordnung(format, thema, recherche, null, klausurGeplant ?? 3);
   const sperr = korpus().namen;
   let feedback = "";
   let letzter = null;
@@ -675,8 +679,17 @@ const QUELLEN_STEUERN = `- BFH, Pressemeldungen als Feed (kurz, datiert - damit 
 - Haufe Steuern: https://www.haufe.de/steuern/
 - DATEV Magazin Steuern: https://www.datev-magazin.de/category/steuern/`;
 
-export async function aktuellRecherchieren(datum, bereitsBehandelt = []) {
+export async function aktuellRecherchieren(datum, bereitsBehandelt = [], klausur = null) {
+  const ziel = {
+    1: { label: "Klausur 1", faecher: "ao, ust oder erbst" },
+    2: { label: "Klausur 2", faecher: "kst oder istr" },
+    3: { label: "Klausur 3", faecher: "bilanz oder persg" },
+  }[Number(klausur)] || null;
+  const zielRegel = ziel
+    ? `\nHEUTIGER FARBSLOT: ${ziel.label}. Nimm ausschließlich ein Thema mit Fach ${ziel.faecher}. Wenn du dafür nichts Belastbares findest, antworte KEINE_NEUIGKEIT; weiche nicht auf eine andere Klausur aus.\n`
+    : "";
   const frage = `Heute ist der ${datumLesbar(datum)}. Finde EINE aktuelle Neuigkeit der letzten 4 Wochen, die für Kandidat:innen des deutschen Steuerberaterexamens wirklich zählt.
+${zielRegel}
 
 ${QUELLEN_STEUERN}
 
@@ -1214,9 +1227,9 @@ export function teaserAusBeitrag(beitrag, slot) {
 
 /* --- Beispielmodus (IG_AUTOR=beispiele): Inhalte aus beispiele/inhalte.json,
    ohne API-Aufruf. Für lokale Tests des Renderns und Hochladens. --- */
-function beispielBeitrag(format, thema) {
+function beispielBeitrag(format, thema, klausurGeplant = null) {
   const b = beispiele.beitraege.find((x) => x.format === format) || beispiele.beitraege[0];
-  const meta = beitragsEinordnung(format, thema, null, b.fach, b.klausur);
+  const meta = beitragsEinordnung(format, thema, null, klausurGeplant == null ? b.fach : null, klausurGeplant ?? b.klausur);
   return nachbereiten({ ...b, kurztitel: b.folien[0].titel, quellen: [] }, { format, thema, ...meta });
 }
 

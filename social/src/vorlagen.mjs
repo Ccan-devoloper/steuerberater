@@ -17,7 +17,7 @@ export const MASSE = {
   story: { breite: 1080, hoehe: 1920 },
 };
 
-export const KLAUSUR_FARBE = { 0: "k0", 1: "k1", 2: "k2", 3: "k3" };
+export const KLAUSUR_FARBE = { 0: "k0", 1: "k1", 2: "k2", 3: "k3", 4: "k4" };
 
 export function esc(s) {
   return String(s ?? "")
@@ -431,12 +431,13 @@ function kopf(ctx, zaehler) {
 function fuss(ctx) {
   return `<div class="fuss"><span class="handle">${esc(ctx.handle || "")}</span><span class="klausur">${esc(fussRechts(ctx))}</span></div>`;
 }
-const KLAUSUR_KURZ = { 1: "Klausur 1 · Tag 1", 2: "Klausur 2 · Tag 2", 3: "Klausur 3 · Tag 3" };
+const KLAUSUR_KURZ = { 1: "Klausur 1 · Tag 1", 2: "Klausur 2 · Tag 2", 3: "Klausur 3 · Tag 3", 4: "Wochenrückblick" };
 
 /* Rechts in der Fusszeile: der Prüfungstag - und bei allem, was zu keinem
    Tag gehört (Mindset), dessen eigenes Etikett. */
 export function fussRechts(ctx) {
   if (ctx?.fach === "mindset") return "Kopfsache";
+  if (ctx?.klausur === 0) return "Klausurtechnik";
   return KLAUSUR_KURZ[ctx?.klausur] || "";
 }
 

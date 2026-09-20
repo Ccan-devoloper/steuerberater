@@ -61,6 +61,8 @@ export const KLAUSUREN = {
   3: { label: "Klausur 3 · Bilanzen",                    kurz: "K3" },
 };
 
+export { FEED_KATEGORIEN, feedKategorie, feedFolgeErlaubt } from "./feedfarben.mjs";
+
 /* Sätze, die sich auf die Kursquelle beziehen, werden vor der Weitergabe
    entfernt – der Beitrag soll eigenständig klingen. */
 const QUELLENBEZUG = /\b(Quelle|Seite\s*\d|Seiten\s*\d|Mitschrift|Frames?|Folie|PDF|Skript|Unterrichts|Kurs|Einheit\s+\d|Originalfall|Musterlösung|Hausaufgabe)\b/i;

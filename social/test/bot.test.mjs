@@ -1187,11 +1187,13 @@ test("Mindset: eigene Farbe, eigenes Etikett, kein Prüfungstag", async () => {
   assert.equal(t.fach, "mindset");
   assert.equal(t.klausur, 0);
   assert.equal(FAECHER.mindset.label, "Kopfsache");
-  /* Klausurtag 0 hat eine eigene Farbe, die sich von allen dreien unterscheidet. */
+  /* Klausurtechnik/Mindset und Wochenrückblick haben je eine eigene Farbe. */
   const f = STILE.bunt.tagFarben;
   assert.ok(f[0]?.grund, "keine Farbe für Klausurtag 0");
-  assert.equal(new Set([f[0].grund, f[1].grund, f[2].grund, f[3].grund]).size, 4);
+  assert.ok(f[4]?.grund, "keine Farbe für Wochenrückblick");
+  assert.equal(new Set([f[0].grund, f[1].grund, f[2].grund, f[3].grund, f[4].grund]).size, 5);
   assert.equal(fussRechts({ fach: "mindset", klausur: 0 }), "Kopfsache");
+  assert.equal(fussRechts({ fach: null, klausur: 4 }), "Wochenrückblick");
   /* Und die 0 überlebt den Weg bis in die Kachel - vorher wurde sie zu 3. */
   const ctx = kontext({ fach: "mindset", klausur: 0 });
   assert.equal(ctx.klausur, 0);
@@ -1296,31 +1298,28 @@ test("Rücklage gilt allen noch zu schreibenden Beiträgen, nicht den Stories", 
   budgetSetzen({});
 });
 
-test("Übertrag: nicht erschienene Beiträge von gestern ersetzen neue Themen gleicher Art", async () => {
+test("Übertrag ersetzt nur denselben Farbslot und verschiebt keinen Wochenrückblick", async () => {
   const { uebertragen } = await import("../src/planer.mjs");
   const gestern = { datum: "2026-09-13", beitraege: [
-    { slot: "b1", format: "wochenrueckblick", status: "geplant" },
-    { slot: "b2", format: "schema", themaId: "x-1", themaTitel: "Thema X", fach: "zpo", status: "geplant" },
-    { slot: "b3", format: "reel", themaId: "y-2", themaTitel: "Thema Y", fach: "strafat", status: "geplant" },
-    { slot: "b4", format: "schema", themaId: "z-3", themaTitel: "Schon einmal übertragen", status: "geplant", uebertragen: 1 },
-    { slot: "b5", format: "aktuell", themaId: "a-4", status: "geplant" },
+    { slot: "b1", format: "wochenrueckblick", klausur: 4, status: "geplant" },
+    { slot: "b2", format: "schema", themaId: "x-1", themaTitel: "Thema X", fach: "kst", klausur: 2, status: "geplant" },
+    { slot: "b3", format: "reel", themaId: "y-2", themaTitel: "Thema Y", fach: "bilanz", klausur: 3, status: "geplant" },
+    { slot: "b4", format: "schema", themaId: "z-3", themaTitel: "Schon einmal übertragen", fach: "ao", klausur: 1, status: "geplant", uebertragen: 1 },
+    { slot: "b5", format: "aktuell", themaId: "a-4", fach: "ao", klausur: 1, status: "geplant" },
   ] };
   const heute = { datum: "2026-09-14", beitraege: [
-    { slot: "b1", zeit: "10:30", format: "pruefungsfrage", themaId: "neu-1", themaTitel: "Neu 1", status: "geplant" },
-    { slot: "b2", zeit: "20:30", format: "reel", themaId: "neu-2", themaTitel: "Neu 2", status: "geplant" },
+    { slot: "b1", zeit: "10:30", format: "pruefungsfrage", themaId: "neu-1", themaTitel: "Neu 1", fach: "kst", klausur: 2, status: "geplant" },
+    { slot: "b2", zeit: "20:30", format: "reel", themaId: "neu-2", themaTitel: "Neu 2", fach: "bilanz", klausur: 3, status: "geplant" },
   ] };
   const u = uebertragen(heute, gestern, "2026-09-13");
-  assert.equal(u.length, 3, "Wochenrückblick, Schema und Reel kommen mit; das schon übertragene und das Aktuelle nicht");
-  /* Der Wochenrückblick nimmt den ersten Beitragsplatz, das Schema wird angehängt, das Reel ersetzt das Reel. */
-  assert.equal(heute.beitraege[0].format, "wochenrueckblick");
-  assert.equal(heute.beitraege[0].uebertragenVon, "2026-09-13-b1");
+  assert.equal(u.length, 2, "nur Schema und Reel mit identischem Farbslot dürfen mitkommen");
+  assert.equal(heute.beitraege[0].themaId, "x-1");
+  assert.equal(heute.beitraege[0].klausur, 2);
   assert.equal(heute.beitraege[0].zeit, "10:30", "die Uhrzeit von heute bleibt");
   assert.equal(heute.beitraege[1].themaId, "y-2");
-  assert.equal(heute.beitraege[1].format, "reel");
-  assert.equal(heute.beitraege[2].themaId, "x-1");
-  assert.equal(heute.beitraege[2].slot, "b3");
-  assert.equal(heute.beitraege[2].uebertragen, 1);
-  assert.equal(heute.beitraege.length, 3);
+  assert.equal(heute.beitraege[1].klausur, 3);
+  assert.ok(!heute.beitraege.some((b) => b.format === "wochenrueckblick"), "Sonntags-Rückblick ist in den Montag gerutscht");
+  assert.equal(heute.beitraege.length, 2);
   /* Ohne gestrigen Plan passiert nichts. */
   assert.deepEqual(uebertragen({ beitraege: [] }, null, "2026-09-13"), []);
 });
@@ -2153,12 +2152,17 @@ test("Die Recherche zeigt nur auf geprüfte Quellen und verlangt Prüfungsbezug"
   /* Der Prüfungsbezug entscheidet, nicht die Neuigkeit: Jedes Prüfungsgebiet
      muss im Prompt benannt sein, sonst nimmt das Modell irgendein
      BFH-Urteil. */
-  const frage = autor.slice(autor.indexOf("export async function aktuellRecherchieren"), autor.indexOf("KEINE_NEUIGKEIT"));
+  const frage = autor.slice(
+    autor.indexOf("export async function aktuellRecherchieren"),
+    autor.indexOf("export async function loesungsRecherchieren"),
+  );
   for (const fach of ["ao", "ust", "erbst", "kst", "istr", "bilanz", "persg"]) {
     assert.ok(new RegExp(`\\b${fach}\\b`).test(frage), `Prüfungsgebiet fehlt im Auftrag: ${fach}`);
   }
   assert.match(frage, /Prüfungsbezug/, "der Prüfungsbezug wird nicht verlangt");
   assert.match(frage, /Steuerberaterprüfung|Steuerberaterexamen/, "der Bezug zum Steuerberaterexamen fehlt");
+  assert.match(frage, /HEUTIGER FARBSLOT/, "die Recherche kennt den geplanten Farbslot nicht");
+  assert.match(frage, /weiche nicht auf eine andere Klausur aus/, "die Recherche darf in eine andere Farbe ausweichen");
   assert.match(autor, /HÖCHSTENS ZWEI Suchvorgänge/, "die Suche ist nicht begrenzt");
 
   /* „Nichts mit Prüfungsbezug gefunden" ist ein sauberes Ergebnis. */
@@ -5592,7 +5596,7 @@ test("1a: Der Admissionbedarf des Pflichtprodukts liegt über dem Deckel – und
 /* ===== Reservebestand: die Policy ======================================== */
 
 const reserveBeitrag = (zusatz = {}) => ({
-  format: "karussell", themaId: "kst-schema-1", fach: "kst",
+  format: "karussell", themaId: "kst-schema-1", fach: "kst", klausur: 2,
   folien: [
     { art: "titel", titel: "Das KSt-Grundschema" },
     { art: "text", titel: "Aufbau", text: "Zuerst die Steuerpflicht, dann die Einkommensermittlung, dann die Tarifanwendung." },
@@ -5604,7 +5608,7 @@ const reserveBeitrag = (zusatz = {}) => ({
 const reserveEintrag = (zusatz = {}) => ({
   id: "r1", kanal: "examenscampus",
   erstelltAm: "2026-09-01", verfaelltAm: "2026-09-22",
-  themaId: "kst-schema-1", fach: "kst", typ: "schema", format: "karussell",
+  themaId: "kst-schema-1", fach: "kst", klausur: 2, typ: "schema", format: "karussell",
   beitrag: reserveBeitrag(), bildUrls: ["https://x/1.png", "https://x/2.png"],
   caption: "Das Grundschema in der richtigen Reihenfolge.\n\n#steuerberater", hashtags: ["#steuerberater"],
   faktenFreigabe: { ok: true, geprueftAm: "2026-09-01T10:00:00.000Z", hinweise: [] },
@@ -5711,7 +5715,7 @@ test("Reserve: unvollständige Einträge werden nicht aufgenommen", async () => 
   /* eintragBauen nimmt nur an, was beide Tore passiert UND vollständig ist. */
   const gut = eintragBauen({
     id: "r9", kanal: "examenscampus", erstelltAm: "2026-09-19",
-    thema: { id: "kst-schema-1", fach: "kst", typ: "schema" },
+    thema: { id: "kst-schema-1", fach: "kst", klausur: 2, typ: "schema" },
     beitrag: reserveBeitrag(), bildUrls: ["https://x/1.png"], caption: "Systematik.",
     faktenFreigabe: { ok: true, geprueftAm: "2026-09-19T10:00:00.000Z" },
   });
@@ -5772,6 +5776,12 @@ test("Reserve: die Entnahme kostet nichts und wiederholt kein junges Thema", asy
   assert.equal(r1.eintrag.id, "a", "nicht das älteste Stück genommen");
   assert.deepEqual(r1.rest.map((e) => e.id), ["b"], "der Rest stimmt nicht");
   assert.deepEqual(r1.verfallen.map((e) => e.id), ["c"]);
+
+  /* Ein Vorratsbeitrag darf nur einen Slot derselben sichtbaren Klausurfarbe
+     ersetzen; sonst würde die Notfalllogik die Rotation brechen. */
+  const falscheFarbe = entnehmen([a], { heute: "2026-09-19", klausur: 1 });
+  assert.equal(falscheFarbe.eintrag, null);
+  assert.match(falscheFarbe.grund, /Klausur 1/);
 
   /* Ein Thema, das kürzlich erschienen ist, wird übersprungen. Die Form ist
      die ECHTE - so, wie vermerken() den Ledger schreibt. Ein erfundener
@@ -5840,8 +5850,7 @@ test("Reserve-Mechanik: die Entnahme veröffentlicht unverändert und kostet nic
 
   const hosting = resHosting();
   hosting._bilderAnlegen("r-tag2");
-  /* Ein Tag-2-Inhalt, gerendert in Tag-2-Farbe, entnommen an einem Tag, an
-     dem ein Tag-1-Thema geplant war. */
+  /* Ein Tag-2-Inhalt darf nur einen geplanten Tag-2-Slot ersetzen. */
   const eintrag = {
     id: "r-tag2", kanal: "examenscampus", erstelltAm: "2026-09-10", verfaelltAm: "2026-10-01",
     themaId: "kst-schema-1", fach: "kst", klausur: 2, typ: "schema", format: "karussell",
@@ -5857,7 +5866,7 @@ test("Reserve-Mechanik: die Entnahme veröffentlicht unverändert und kostet nic
   const ledger = { veroeffentlicht: [] };
   const eintraege = [];
   const inhalte = new Map();
-  const planEintrag = { slot: "b1", status: "geplant", format: "karussell", zeit: "09:00" };
+  const planEintrag = { slot: "b1", status: "geplant", format: "karussell", fach: "kst", klausur: 2, zeit: "09:00" };
 
   const r = await reserveEntnehmen({
     hosting, bestand: [eintrag], heute: "2026-09-19", ledger, ig, slot: "b1", eintrag: planEintrag,
@@ -5922,7 +5931,7 @@ test("Reserve-Mechanik: ohne Medien-ID bleibt der Eintrag im Bestand", async () 
   const r = await reserveEntnehmen({
     hosting, bestand: [eintrag], heute: "2026-09-19", ledger: { veroeffentlicht: [] },
     ig: { bereitsVeroeffentlicht: async () => null, beitragPosten: async () => "trocken" },
-    slot: "b1", eintrag: { slot: "b1", status: "geplant" },
+    slot: "b1", eintrag: { slot: "b1", status: "geplant", klausur: 2 },
     echteMedienId, veroeffentlichungEintragen: () => ({ bestaetigt: true }),
     vermerken: () => { vermerkt++; }, inhaltSpeichern: () => { gespeichert++; },
   });
@@ -6121,7 +6130,7 @@ const resWelt = ({ eintraege = [resVorrat()], plan = null } = {}) => {
   const hosting = resHosting();
   for (const e of eintraege) hosting._bilderAnlegen(e.id);
   hosting.jsonSchreiben("reserve.json", { kanal: "examenscampus", ziel: 4, eintraege });
-  hosting.jsonSchreiben("plan.json", plan || { beitraege: [{ slot: "b1", zeit: "09:00", format: "karussell", themaId: "kst-modul-7", status: "geplant" }], stories: [] });
+  hosting.jsonSchreiben("plan.json", plan || { beitraege: [{ slot: "b1", zeit: "09:00", format: "karussell", themaId: "kst-modul-7", fach: "kst", klausur: 2, status: "geplant" }], stories: [] });
   hosting.jsonSchreiben("ledger.json", { veroeffentlicht: [] });
   return { hosting, ig: resInstagram(), ledger: null, plan: null, protokoll: [] };
 };
@@ -6325,6 +6334,20 @@ test("Vorrat im Tageslauf 7: leerer oder abgelaufener Vorrat - der Slot bleibt b
   fs.rmSync(alt.hosting.dir, { recursive: true, force: true });
 });
 
+test("Vorrat im Tageslauf 7b: auch passende Reserve darf keine gleiche Farbe direkt wiederholen", async () => {
+  const welt = resWelt();
+  welt.hosting.jsonSchreiben("ledger.json", {
+    veroeffentlicht: [{ datum: "2026-09-18", art: "beitrag", format: "schema", fach: "kst", klausur: 2, thema: "anderes-k2", medienId: "m-vorher" }],
+  });
+  const r = await runner(welt, { fehler: await budgetFehlerBauen() });
+
+  assert.equal(r.ersetzt, false, "Reserve hat K2 direkt auf K2 veröffentlicht");
+  assert.match(r.grund, /direkt auf dieselbe Feed-Kategorie/);
+  assert.equal(welt.ig.feed.length, 0, "trotz Farb-Dublette wurde an Instagram gesendet");
+  assert.equal(welt.hosting.jsonLesen("reserve.json").eintraege.length, 1, "der blockierte Vorratsbeitrag wurde verbraucht");
+  fs.rmSync(welt.hosting.dir, { recursive: true, force: true });
+});
+
 test("Vorrat im Tageslauf 8: ein Thema, das gerade erschienen ist, kommt nicht sofort noch einmal", async () => {
   const welt = resWelt();
   welt.hosting.jsonSchreiben("ledger.json", { veroeffentlicht: [{ datum: "2026-09-12", art: "beitrag", thema: "kst-schema-1" }] });
@@ -6459,9 +6482,10 @@ test("Vorrat im Tageslauf 13: der Entnahmepfad kann gar keinen bezahlten Aufruf 
      ginge daran vorbei. Hier wird stattdessen die ganze transitive Hülle
      bestimmt: Welche Module sind vom Entnahmepfad aus überhaupt erreichbar?
 
-     Drei sind es, und mehr dürfen es nicht werden. Die Entnahme am
-     Blockadetag ist damit nicht durch Disziplin kostenlos, sondern weil es
-     keinen Weg zu einem bezahlten Modul gibt. */
+     Vier sind es: Mechanik, Policy, Kostenfehler und der dependency-freie
+     Feed-Farbhelfer. Mehr dürfen es nicht werden. Die Entnahme am Blockadetag
+     ist damit nicht durch Disziplin kostenlos, sondern weil es keinen Weg zu
+     einem bezahlten Modul gibt. */
   const gesehen = new Set();
   const gehen = (datei) => {
     if (gesehen.has(datei)) return;
@@ -6471,8 +6495,8 @@ test("Vorrat im Tageslauf 13: der Entnahmepfad kann gar keinen bezahlten Aufruf 
   };
   gehen("reservelauf.mjs");
 
-  assert.deepEqual([...gesehen].sort(), ["kostenfehler.mjs", "reserve.mjs", "reservelauf.mjs"],
-    `der Entnahmepfad erreicht jetzt mehr als die drei erlaubten Module: ${[...gesehen].sort().join(", ")}`);
+  assert.deepEqual([...gesehen].sort(), ["feedfarben.mjs", "kostenfehler.mjs", "reserve.mjs", "reservelauf.mjs"],
+    `der Entnahmepfad erreicht jetzt mehr als die vier erlaubten Module: ${[...gesehen].sort().join(", ")}`);
   /* Und die drei tragen keinen bezahlten Pfad. Geprüft wird der CODE, ohne
      Kommentare: reservelauf.mjs erklärt in seinem Kopf, warum der Renderer
      die Farbe aus dem Beitrag nimmt - das ist eine Erklärung, kein Zugriff. */

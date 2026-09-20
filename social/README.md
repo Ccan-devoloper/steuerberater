@@ -1,7 +1,7 @@
 # Instagram-Bot · Examenscampus
 
-Erstellt und veröffentlicht **vollautomatisch** jeden Tag 2–3 Beiträge (Carousels) und bis zu 10 Stories
-für Instagram – aus den Lerninhalten dieser Webseite (alle drei Klausuren) und aus aktuellen Meldungen
+Erstellt und veröffentlicht **vollautomatisch** jeden Tag zwei Feed-Inhalte (ein Carousel und ein Reel)
+und bis zu 10 Stories für Instagram – aus den Lerninhalten dieser Webseite (alle drei Klausuren) und aus aktuellen Meldungen
 aus dem Web. Kein Inhalt wird 1:1 übernommen: Der Bot bekommt nur Themen-Skelette (Titel, Normen,
 Prüfgedanken), schreibt alles neu und prüft jeden Entwurf automatisch auf wörtliche Übernahmen,
 Fallnamen und Quellenbezüge.
@@ -18,12 +18,28 @@ Themenpool (436 Themen)  →  Tagesplan  →  Claude schreibt  →  Prüfung  �
 
 | | Werktag | Wochenende |
 | --- | --- | --- |
-| Beiträge (Carousel, 4–5 Folien, 1080×1350) | 3 (07:30 · 12:30 · 18:00) | 2 |
+| Feed | 2 Veröffentlichungen (Carousel + Reel) | 2 Veröffentlichungen (Carousel + Reel) |
 | Stories (1080×1920) | 9, verteilt 07:00–21:30 | 9 |
 
 **Beitragsformate** (Wochenplan in `src/config.mjs`): Prüfungsfrage · Fehlerfalle · Prüfschema ·
 Rechenweg · Mini-Fall (frei erfunden) · Gegenüberstellung · Klausurtechnik · Wochenrückblick (So) ·
 **Aktuell** (Mi, Web-Recherche: BFH, BMF, Gesetzesänderungen, Prüfungstermine).
+
+### Feed-Farben und Rotation
+
+Der Feed hat fünf sichtbare Kategorien: **Klausur 1 = Blau**, **Klausur 2 = Orange**,
+**Klausur 3 = Grün**, **Klausurtechnik/Kopfsache = Violett** und
+**Wochenrückblick = Gold**. Klausurtechnik bleibt violett, auch wenn ihr
+Quellthema fachlich aus K1, K2 oder K3 stammt.
+
+Die Farbfolge ist eine harte Produktregel: **Keine sichtbare Kategorie darf
+direkt auf dieselbe Kategorie folgen** – weder Carousel auf Carousel noch
+Carousel auf Reel oder Reel auf den nächsten Tag. Die K1/K2/K3-Slots laufen
+als durchgehende Rotation über Tagesgrenzen; Sonderfarben werden dazwischen
+eingeplant. Überträge, Recherche-Fallbacks und Reservebeiträge dürfen nur einen
+Slot derselben sichtbaren Kategorie ersetzen. Unmittelbar vor dem Instagram-
+Post prüft der Tageslauf die Regel ein zweites Mal und hält einen kollidierenden
+Slot zurück.
 
 **Story-Arten**: Teaser zum Beitrag · Prüfungsfrage + Auflösung (direkt hintereinander) · Norm des Tages · Merksatz ·
 Rechenweg · Begriff · Fehlerfalle · Klausurtipp · Zahl des Tages · Countdown bis zur Prüfung.
@@ -31,8 +47,8 @@ Rechenweg · Begriff · Fehlerfalle · Klausurtipp · Zahl des Tages · Countdow
 Themenwahl: gewichtet nach Examenspriorität der Webseite (🔴 60 % / 🟠 25 % / 🟢 15 %), Rotation über
 alle Fächer, ein Thema frühestens nach 60 Tagen erneut (Ledger im Asset-Zweig).
 
-**Optik**: Kanzlei-Stil, Kachel für Kachel im Wechsel Schwarz und Weiß (Schachbrett im Profil;
-`IG_STIL_WECHSEL=false` schaltet das ab). Auf keiner Folie steht ein Name, ein Handle oder eine
+**Optik**: Standardmäßig trägt jede Kachel/Reel-Abdeckung die Farbe ihrer Feed-Kategorie.
+`IG_FARBE_JE_KLAUSUR=false` schaltet auf die alternative Stilrotation zurück. Auf keiner Folie steht ein Name, ein Handle oder eine
 Website – unten links bleibt Platz für das Handle, sobald `IG_HANDLE` gesetzt ist. Eine Website
 (`IG_WEBSITE`) wird nur in Captions genannt und nur, wenn sie gesetzt ist. Zusätzlich zur Anweisung an
 den Autor entfernt ein Filter jede Nennung von Website, Plattform oder „Link in Bio“.

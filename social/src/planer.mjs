@@ -10,7 +10,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { CONFIG } from "./config.mjs";
-import { themenpool, FAECHER, KLAUSUREN } from "./inhalte.mjs";
+import { themenpool, FAECHER, KLAUSUREN, FEED_KATEGORIEN, feedKategorie } from "./inhalte.mjs";
 import { heuteIso, wochentag, minutenVon, hhmm, tageBis } from "./zeit.mjs";
 import { anlaesseFuer, mindsetThema } from "./kalender.mjs";
 import { zeitenWaehlen } from "./zeiten.mjs";
@@ -50,21 +50,15 @@ export const FORMAT_QUELLEN = {
   aktuell:        [],
 };
 
-/* Klausurtage hart rotieren – analog zur Rechtsgebietsrotation bei Herr Jurist.
-
-   Mit zwei Feed-Slots pro Tag ergibt sich z. B.:
-     Tag A: K1, K2
-     Tag B: K2, K3
-     Tag C: K3, K1
-   Danach beginnt der Zyklus erneut. Dadurch rotiert auch jeder einzelne Slot
-   sauber durch alle drei Klausuren, statt nur im Wochenmittel ausgeglichen zu
-   sein. Spezialformate ohne Pool-Thema (Aktuell, Wochenrückblick,
-   Lösungsskizze, Samstags-Mindset) verbrauchen ihren Platz nicht nachträglich:
-   der folgende Slot behält seine kalendarisch vorgesehene Klausur. */
+/* Klausurtage bilden eine durchgehende K1→K2→K3-Folge über den gesamten
+   Feed. Bei zwei Slots pro Tag ist deshalb z. B. K1,K2 | K3,K1 | K2,K3
+   vorgesehen – nicht K1,K2 | K2,K3, denn das würde an jeder Tagesgrenze
+   dieselbe Farbe doppeln. */
 export function klausurenDesTages(datum, plaetze) {
   const tage = Math.floor(Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10)) / 86400000);
-  const start = ((tage % 3) + 3) % 3;
-  return Array.from({ length: Math.max(0, plaetze) }, (_, i) => ((start + i) % 3) + 1);
+  const n = Math.max(0, plaetze);
+  const start = ((((tage * Math.max(1, n)) % 3) + 3) % 3);
+  return Array.from({ length: n }, (_, i) => ((start + i) % 3) + 1);
 }
 
 function gewichteteWahl(kandidaten, zufall, ledger, strategie = null) {
@@ -145,9 +139,9 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   /* Lernschleife: ein Format, das deutlich schlechter läuft als der Schnitt, wird an
      diesem Tag durch das beste Format ersetzt (nie „aktuell“/„wochenrueckblick“/Reel). */
   const fg = (CONFIG.plan.lernen && strategie?.formatGewicht) || {};
-  const bestes = Object.entries(fg).filter(([k]) => !["aktuell", "wochenrueckblick", "reel", "anlass"].includes(k)).sort((a, b) => b[1] - a[1])[0];
+  const bestes = Object.entries(fg).filter(([k]) => !["aktuell", "wochenrueckblick", "reel", "anlass", "klausurtechnik"].includes(k)).sort((a, b) => b[1] - a[1])[0];
   if (bestes && bestes[1] >= 1.2) {
-    const schwach = formate.findIndex((f) => (fg[f] ?? 1) <= 0.75 && !["aktuell", "wochenrueckblick", "reel"].includes(f));
+    const schwach = formate.findIndex((f) => (fg[f] ?? 1) <= 0.75 && !["aktuell", "wochenrueckblick", "reel", "klausurtechnik"].includes(f));
     if (schwach >= 0 && !formate.includes(bestes[0])) formate[schwach] = bestes[0];
   }
   /* Anlasstage (Countdown, Prüfungstag …): der erste Beitrag wird zum Anlass. */
@@ -181,14 +175,41 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
      Uhrzeit) bleibt unverändert - nur die Wahl des Themas wird vorgezogen. */
   const reihenfolge = formate.map((_, i) => i).sort((a, b) => (formate[b] === "reel" ? 1 : 0) - (formate[a] === "reel" ? 1 : 0));
 
-  /* Jeder Pool-Slot bekommt seine Klausur VOR der Themenwahl. Wie bei Herr
-     Jurist wird nach dem Platz im Tag rotiert, nicht nach der Zahl der
-     poolgestützten Beiträge. Steht in b1 etwa „Aktuell“, rückt b2 also nicht
-     auf die K1-Farbe nach, sondern behält die für b2 vorgesehene Klausur. */
+  /* Die sichtbare Feed-Kategorie wird VOR der Themenwahl festgelegt.
+     Sonderformate: 0 = Klausurtechnik/Kopfsache, 4 = Wochenrückblick.
+     Normale Slots laufen in einer fortlaufenden K1/K2/K3-Folge. Die letzte
+     echte Veröffentlichung aus dem Ledger wird mitgedacht, damit auch die
+     Tagesgrenze keine Doppel-Farbe erzeugt. */
   const ausPool = (f) => (FORMAT_QUELLEN[f] || []).length > 0;
   const poolSlots = formate.map((f, i) => i).filter((i) => ausPool(formate[i]) && !(formate[i] === "reel" && wt === 6));
   const rotation = klausurenDesTages(datum, formate.length);
-  const klausurFuer = new Map(poolSlots.map((slot) => [slot, rotation[slot]]));
+  const fest = formate.map((format) => {
+    if (format === "wochenrueckblick") return 4;
+    if (format === "klausurtechnik") return 0;
+    if (format === "reel" && wt === 6) return 0;
+    if (format === "loesungsskizze" && abendAnlass?.klausur) return Number(abendAnlass.klausur);
+    return null;
+  });
+  const letzteVeroeffentlichung = [...(ledger.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.medienId !== "trocken");
+  const sichtbar = new Array(formate.length);
+  let vorher = feedKategorie(letzteVeroeffentlichung);
+  for (let i = 0; i < formate.length; i++) {
+    if (fest[i] != null) {
+      sichtbar[i] = fest[i];
+    } else {
+      const naechstesFest = fest[i + 1];
+      const kandidaten = [rotation[i], (rotation[i] % 3) + 1, ((rotation[i] + 1) % 3) + 1];
+      sichtbar[i] = kandidaten.find((k) => k !== vorher && k !== naechstesFest) ?? rotation[i];
+    }
+    vorher = sichtbar[i];
+  }
+  /* Klausurtechnik bleibt sichtbar lila, darf inhaltlich aber weiterhin
+     Themen aus allen drei Prüfungstagen aufgreifen. Dafür rotiert ihr
+     Quellthema intern nach der Fachfolge. */
+  const klausurFuer = new Map(poolSlots.map((slot) => [
+    slot,
+    formate[slot] === "klausurtechnik" ? rotation[slot] : sichtbar[slot],
+  ]));
 
   const beitraege = new Array(formate.length);
   for (const i of reihenfolge) {
@@ -199,23 +220,31 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
       let kandidaten = verfuegbar(pool, ledgerKopie, datum, benutzt).filter((t) => typen.includes(t.typ));
       /* Endspurt: Dauerbrenner zuerst – keine seltenen Themen mehr. */
       if (endspurt) { const hoch = kandidaten.filter((t) => t.prioritaet === "hoch"); if (hoch.length >= 4) kandidaten = hoch; }
-      /* Harte Klausurrotation: Die Gewichtung entscheidet nur noch INNERHALB
-         der vorgesehenen Klausur über Fach und Thema. Erst wenn dort wegen
-         Sperren/Format wirklich nichts frei ist, darf der Slot ausweichen. */
+      /* Harte Klausurrotation: Die Gewichtung entscheidet nur INNERHALB des
+         vorgesehenen Fachslots. Ist die Wiederholsperre dort leer, wird das
+         älteste Thema derselben Klausur wiederverwendet statt die Farbe zu
+         wechseln. */
       const ziel = klausurFuer.get(i);
       if (ziel) {
         const inKlausur = kandidaten.filter((t) => t.klausur === ziel);
         if (inKlausur.length) kandidaten = inKlausur;
-        else console.warn(`  ! ${KLAUSUREN[ziel]?.kurz || ziel}: kein freies Thema für „${format}“ – dieser Slot weicht heute aus.`);
+        else {
+          const reserve = pool.filter((t) => typen.includes(t.typ) && t.klausur === ziel && !benutzt.has(t.id));
+          if (reserve.length) {
+            kandidaten = aeltesteZuerst(reserve, ledgerKopie, benutzt);
+            console.warn(`  ! ${KLAUSUREN[ziel]?.kurz || ziel}: Wiederholsperre für „${format}“ erschöpft – ältestes Thema derselben Farbe wird genommen.`);
+          }
+        }
       }
-      thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie, strategie);
+      const notfall = ziel ? pool.filter((t) => typen.includes(t.typ) && t.klausur === ziel) : pool.filter((t) => typen.includes(t.typ));
+      thema = gewichteteWahl(kandidaten.length ? kandidaten : notfall, zufall, ledgerKopie, strategie);
       benutzt.add(thema.id);
       ledgerKopie.fachZaehler[thema.fach] = (ledgerKopie.fachZaehler[thema.fach] || 0) + 1;
     }
     /* Samstags-Reel: Mindset statt Fachthema – holt Menschen ab, die Fachposts nie sehen. */
     if (format === "reel" && wt === 6) thema = mindsetThema(datum);
     const zeit = format === "loesungsskizze" ? abendAnlass.zeit : (zeiten[i] || zeiten.at(-1));
-    const eintrag = { slot: `b${i + 1}`, zeit, format, thema, anlass: format === "anlass" ? anlass : format === "loesungsskizze" ? abendAnlass : undefined, lang: format === "reel" ? CONFIG.reel.langeTage.includes(wt) : undefined };
+    const eintrag = { slot: `b${i + 1}`, zeit, format, thema, klausur: sichtbar[i], anlass: format === "anlass" ? anlass : format === "loesungsskizze" ? abendAnlass : undefined, lang: format === "reel" ? CONFIG.reel.langeTage.includes(wt) : undefined };
     beitraege[i] = eintrag;
   }
 
@@ -288,14 +317,35 @@ export function auffuellplan(anzahl, ledger = ledgerLaden(), pool = themenpool()
   const ledgerKopie = { ...ledger, fachZaehler: { ...(ledger.fachZaehler || {}) } };
   const heute = heuteIso();
   const liste = [];
+  const letzter = [...(ledger.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.medienId !== "trocken");
+  let vorher = feedKategorie(letzter);
+  let naechsteFachfarbe = [1, 2, 3].includes(vorher) ? (vorher % 3) + 1 : 1;
+
   for (let i = 0; i < anzahl; i++) {
     const format = formate[i % formate.length];
     const typen = FORMAT_QUELLEN[format] || ["modul"];
-    const kandidaten = verfuegbar(pool, ledgerKopie, heute, benutzt).filter((t) => typen.includes(t.typ));
-    const thema = gewichteteWahl(kandidaten.length ? kandidaten : pool.filter((t) => typen.includes(t.typ)), zufall, ledgerKopie);
+    const sichtbar = format === "klausurtechnik" ? 0 : naechsteFachfarbe;
+    /* Klausurtechnik ist sichtbar violett, bekommt aber weiterhin ein
+       fachliches Quellthema. Fachbeiträge werden hart aus ihrer sichtbaren
+       K1/K2/K3-Kategorie gezogen. */
+    const quellKlausur = format === "klausurtechnik" ? naechsteFachfarbe : sichtbar;
+    let kandidaten = verfuegbar(pool, ledgerKopie, heute, benutzt)
+      .filter((t) => typen.includes(t.typ) && t.klausur === quellKlausur);
+    if (!kandidaten.length) {
+      kandidaten = aeltesteZuerst(
+        pool.filter((t) => typen.includes(t.typ) && t.klausur === quellKlausur),
+        ledgerKopie,
+        benutzt,
+      );
+    }
+    if (!kandidaten.length) continue;
+    const thema = gewichteteWahl(kandidaten, zufall, ledgerKopie);
     benutzt.add(thema.id);
     ledgerKopie.fachZaehler[thema.fach] = (ledgerKopie.fachZaehler[thema.fach] || 0) + 1;
-    liste.push({ slot: `f${i + 1}`, format, thema });
+    liste.push({ slot: `f${liste.length + 1}`, format, thema, klausur: sichtbar });
+    vorher = sichtbar;
+    if (format !== "klausurtechnik") naechsteFachfarbe = (sichtbar % 3) + 1;
+    if (naechsteFachfarbe === vorher) naechsteFachfarbe = (naechsteFachfarbe % 3) + 1;
   }
   return liste;
 }
@@ -315,14 +365,27 @@ export function uebertragen(plan, planGestern, gestern) {
   const uebernommen = [];
   for (const alt of offen) {
     const istReel = alt.format === "reel";
-    let ziel = plan.beitraege.find((b) => (b.format === "reel") === istReel && !b.uebertragenVon);
-    const mitnahme = { format: alt.format, themaId: alt.themaId || null, themaTitel: alt.themaTitel || null, fach: alt.fach || null, lang: alt.lang, uebertragenVon: `${gestern}-${alt.slot}`, uebertragen: (alt.uebertragen || 0) + 1 };
-    if (ziel) Object.assign(ziel, mitnahme);
-    else {
-      const letzte = plan.beitraege[plan.beitraege.length - 1];
-      ziel = { slot: `b${plan.beitraege.length + 1}`, zeit: letzte?.zeit || "12:30", status: "geplant", ...mitnahme };
-      plan.beitraege.push(ziel);
-    }
+    const kategorie = feedKategorie(alt);
+    /* Ein Übertrag darf die sichtbare Farbfolge nicht umsortieren: Er ersetzt
+       nur einen heutigen Platz derselben Kategorie und Medienart. */
+    const ziel = plan.beitraege.find((b) =>
+      (b.format === "reel") === istReel &&
+      !b.uebertragenVon &&
+      kategorie != null &&
+      feedKategorie(b) === kategorie
+    );
+    if (!ziel) continue;
+    const mitnahme = {
+      format: alt.format,
+      themaId: alt.themaId || null,
+      themaTitel: alt.themaTitel || null,
+      fach: alt.fach || null,
+      klausur: kategorie,
+      lang: alt.lang,
+      uebertragenVon: `${gestern}-${alt.slot}`,
+      uebertragen: (alt.uebertragen || 0) + 1,
+    };
+    Object.assign(ziel, mitnahme);
     uebernommen.push({ alt, ziel });
   }
   return uebernommen;

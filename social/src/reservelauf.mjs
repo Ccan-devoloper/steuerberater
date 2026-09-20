@@ -16,8 +16,9 @@
    2. DIE FARBE KOMMT AUS DEM EINTRAG. Der Renderer nimmt `fach` und
       `klausur` aus dem Beitrag (render.mjs), nicht aus dem Kalendertag - die
       Bilder tragen die Farbe ihres eigenen Klausurtags schon, seit sie
-      gerendert wurden. Die Entnahme veröffentlicht sie unverändert. Ein
-      Tag-2-Inhalt bleibt Tag-2-farbig.
+      gerendert wurden. Die Entnahme veröffentlicht sie unverändert und nur in
+      einen geplanten Slot derselben Klausurfarbe. Ein Tag-2-Inhalt bleibt
+      Tag-2-farbig und ersetzt keinen Tag-1- oder Tag-3-Slot.
 
    3. DIE BILDER LIEGEN AUSSERHALB DER ROTATION. hosting.aufraeumen() löscht
       Bildordner, deren Name ein Datum ist und das älter als 21 Tage ist -
@@ -33,6 +34,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { bestandPruefen, bedarf, entnehmen, eintragBauen, ZIEL_BESTAND } from "./reserve.mjs";
 import { istKostenKontrollFehler } from "./kostenfehler.mjs";
+import { FEED_KATEGORIEN, feedKategorie, feedFolgeErlaubt } from "./feedfarben.mjs";
 
 /**
  * Wann der Vorrat ueberhaupt eingreift - und wann nicht.
@@ -47,6 +49,7 @@ export function ersatzZulaessig({ eintrag, fehler }) {
   if (!istKostenKontrollFehler(fehler)) return { ok: false, grund: `kein Kostenkontrollfehler (${fehler?.name || "unbekannt"})` };
   if (eintrag?.format === "reel") return { ok: false, grund: "Reels werden nicht aus dem Vorrat ersetzt" };
   if (eintrag?.art && eintrag.art !== "beitrag") return { ok: false, grund: `${eintrag.art} wird nicht aus dem Vorrat ersetzt` };
+  if (![1, 2, 3].includes(Number(eintrag?.klausur))) return { ok: false, grund: "Sonder- oder unbekannter Farbslot wird nicht aus dem Vorrat ersetzt" };
   return { ok: true, grund: null };
 }
 
@@ -129,7 +132,19 @@ export async function reserveEntnehmen({
   log = () => {},
 }) {
   const kennung = slot || eintrag?.slot || "?";
-  const wahl = entnehmen(bestand, { heute, ledger });
+  const zielKategorie = feedKategorie(eintrag);
+  if (zielKategorie == null) {
+    const grund = "geplanter Farbslot ist unbekannt";
+    log(`  Vorrat: kein Ersatz für ${kennung} (${grund})`);
+    return { eintrag: null, medienId: null, bestand, grund, nachDurable: () => {} };
+  }
+  const vorher = [...(ledger?.veroeffentlicht || [])].reverse().find((e) => e.art === "beitrag" && e.medienId && e.medienId !== "trocken");
+  if (!feedFolgeErlaubt(vorher, { klausur: zielKategorie })) {
+    const grund = `${FEED_KATEGORIEN[zielKategorie] || zielKategorie} würde direkt auf dieselbe Feed-Kategorie folgen`;
+    log(`  Vorrat: kein Ersatz für ${kennung} (${grund})`);
+    return { eintrag: null, medienId: null, bestand, grund, nachDurable: () => {} };
+  }
+  const wahl = entnehmen(bestand, { heute, ledger, klausur: zielKategorie });
   for (const e of wahl.verfallen) bilderLoeschen(hosting, e.id);
   if (!wahl.eintrag) {
     log(`  Vorrat: kein Ersatz für ${kennung} (${wahl.grund})`);
