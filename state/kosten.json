@@ -256,18 +256,18 @@
       "stand": "2026-09-19T10:45:14.915Z"
     },
     "2026-09-20": {
-      "usd": 0.0892,
+      "usd": 0.0962,
       "antworten": 0,
-      "aufrufe": 3,
+      "aufrufe": 4,
       "zwecke": {
         "stories": 0.0799,
-        "story-faktencheck": 0.0093
+        "story-faktencheck": 0.0163
       },
       "messungen": {
         "stories": 0.0643,
         "story-faktencheck": 0.0093
       },
-      "stand": "2026-09-20T05:44:55.222Z"
+      "stand": "2026-09-20T05:45:04.400Z"
     }
   }
 }
