@@ -215,6 +215,23 @@ test("Bekanntgabe an Bevollmächtigte trennt Kann-Regel und Empfangsvollmacht", 
   assert.match(kern(t), /frühere Bekanntgabe.*kein.*Muss-Tatbestand|Frühere Praxis ersetzt/i);
 });
 
+test("Leasing-Quiz begrenzt die 40/90-Regel auf Finanzierungsleasing", () => {
+  const t = byTitle(/^Finanzierungsleasing: Was bedeutet eine Grundmietzeit außerhalb 40\/90\?$/i);
+  assert.equal(t.typ, "quiz");
+  assert.match(kern(t), /Finanzierungs-Leasingvertrag/i);
+  assert.match(kern(t), /regelmäßig Zurechnung beim Leasingnehmer/i);
+  assert.match(kern(t), /keine allgemeine gesetzliche Eigentumsfiktion/i);
+  assert.match(kern(t), /Spezialleasing|Andienungsrechte/i);
+});
+
+test("Mietereinbau-Quiz verwendet Gebäude-AfA statt starrer Nutzungsdauer", () => {
+  const t = byTitle(/Über welchen Zeitraum wird ein sonstiger Mietereinbau abgeschrieben/i);
+  assert.equal(t.typ, "quiz");
+  assert.match(kern(t), /für Gebäude geltenden AfA-Grundsätzen/i);
+  assert.match(kern(t), /§ 7 Abs\. 4 S\. 2 EStG/i);
+  assert.match(kern(t), /Mietdauer ist nicht automatisch die AfA-Dauer/i);
+});
+
 test("Kleinunternehmer-Kurzform trennt bestehendes Unternehmen und Gründungsjahr", () => {
   const quiz = byTitle(/Umsätze eines Kleinunternehmers/i);
   const karte = byTitle(/Kleinunternehmer seit 2025/i);
