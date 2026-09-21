@@ -42,10 +42,10 @@
       "slot": "advance customer payment with next-year service calendar",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-21T18:45:47.507Z",
-      "updatedAt": "2026-09-21T18:45:47.507Z"
+      "updatedAt": "2026-09-21T18:45:48.948Z"
     }
   ],
-  "stand": "2026-09-21T18:45:47.507Z"
+  "stand": "2026-09-21T18:45:48.948Z"
 }
