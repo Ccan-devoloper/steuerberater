@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-21T12:44:06.370Z",
+  "stand": "2026-09-21T13:43:54.986Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -1023,6 +1023,23 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 20,
           "navigation_tap_exit": 7
+        },
+        {
+          "stand": "2026-09-21T13:43:51.650Z",
+          "alterStunden": 22,
+          "reach": 30,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 30,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 20,
+          "navigation_tap_exit": 7
         }
       ]
     },
@@ -1086,6 +1103,23 @@
           "navigation_tap_forward": 19,
           "navigation_tap_back": 2,
           "navigation_swipe_forward": 4
+        },
+        {
+          "stand": "2026-09-21T13:43:51.650Z",
+          "alterStunden": 20.1,
+          "reach": 26,
+          "views": 36,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 29,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 19,
+          "navigation_tap_exit": 4
         }
       ]
     },
@@ -1375,6 +1409,34 @@
           "profile_visits": 2
         }
       ]
+    },
+    "18126498808888105": {
+      "art": "story",
+      "datum": "2026-09-21",
+      "titel": "Tage bis zur schriftlichen Prüfung",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-21T11:44:10.418Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T13:43:51.650Z",
+          "alterStunden": 2,
+          "reach": 12,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_forward": 6,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 5
+        }
+      ]
     }
   },
   "konto": [
@@ -1406,6 +1468,11 @@
     {
       "stand": "2026-09-21T12:44:06.370Z",
       "follower": 70,
+      "medien": 54
+    },
+    {
+      "stand": "2026-09-21T13:43:54.986Z",
+      "follower": 71,
       "medien": 54
     }
   ]

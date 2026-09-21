@@ -3596,8 +3596,8 @@
         "navigation_tap_forward": 20,
         "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-09-21T11:04:35.932Z",
-      "insightsAlterStunden": 19.3
+      "insightsStand": "2026-09-21T13:43:51.650Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-09-20",
@@ -3610,22 +3610,22 @@
       "medienId": "18486534178109512",
       "veroeffentlicht": "2026-09-20T17:40:34.084Z",
       "insights": {
-        "reach": 25,
-        "views": 34,
+        "reach": 26,
+        "views": 36,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 28,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 19,
+        "navigation": 29,
+        "navigation_swipe_forward": 4,
         "navigation_tap_back": 2,
-        "navigation_swipe_forward": 4
+        "navigation_tap_forward": 19,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-09-21T11:04:35.932Z",
-      "insightsAlterStunden": 17.4
+      "insightsStand": "2026-09-21T13:43:51.650Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-09-21",
@@ -3785,7 +3785,23 @@
       "fach": "ao",
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "18126498808888105",
-      "veroeffentlicht": "2026-09-21T11:44:10.418Z"
+      "veroeffentlicht": "2026-09-21T11:44:10.418Z",
+      "insights": {
+        "reach": 12,
+        "views": 14,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_tap_forward": 6,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 5
+      },
+      "insightsStand": "2026-09-21T13:43:51.650Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
