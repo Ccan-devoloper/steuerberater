@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-21T05:44:30.858Z",
+  "stand": "2026-09-21T06:43:51.503Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -334,6 +334,20 @@
           "views": 56,
           "ig_reels_avg_watch_time": 15135,
           "ig_reels_video_view_total_time": 862742
+        },
+        {
+          "stand": "2026-09-21T06:43:46.118Z",
+          "alterStunden": 91.9,
+          "reach": 48,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 63,
+          "ig_reels_avg_watch_time": 14874,
+          "ig_reels_video_view_total_time": 966813,
+          "reels_skip_rate": 67.3
         }
       ]
     },
@@ -1006,6 +1020,156 @@
           "navigation_swipe_forward": 4
         }
       ]
+    },
+    "17889434622613801": {
+      "art": "beitrag",
+      "datum": "2026-09-18",
+      "titel": "Der Fehler, der jede Auslandsklausur zur Anteilsveräußerung kostet",
+      "format": "spickzettel",
+      "fach": "istr",
+      "hook": "fehler",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-18T06:44:58.303Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T06:43:46.118Z",
+          "alterStunden": 72,
+          "reach": 25,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18107950439141524": {
+      "art": "beitrag",
+      "datum": "2026-09-18",
+      "titel": "Das kostet die ganze Textziffer",
+      "format": "reel",
+      "fach": "ao",
+      "hook": "fehler",
+      "dauer": 70,
+      "veroeffentlicht": "2026-09-18T10:48:00.561Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T06:43:46.118Z",
+          "alterStunden": 67.9,
+          "reach": 63,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 92,
+          "ig_reels_avg_watch_time": 12664,
+          "ig_reels_video_view_total_time": 1051157,
+          "reels_skip_rate": 60
+        }
+      ]
+    },
+    "18108914296892223": {
+      "art": "beitrag",
+      "datum": "2026-09-19",
+      "titel": "Der Fehler bei § 173 AO, der nach der Außenprüfung teuer wird",
+      "format": "spickzettel",
+      "fach": "ao",
+      "hook": "fehler",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-19T08:45:16.192Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T06:43:46.118Z",
+          "alterStunden": 46,
+          "reach": 30,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 1
+        }
+      ]
+    },
+    "18005672321785513": {
+      "art": "beitrag",
+      "datum": "2026-09-19",
+      "titel": "Blackout bei Aufgabe 3",
+      "format": "reel",
+      "fach": "mindset",
+      "hook": "kosten",
+      "dauer": 57.7,
+      "veroeffentlicht": "2026-09-19T10:47:58.178Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T06:43:46.118Z",
+          "alterStunden": 43.9,
+          "reach": 71,
+          "saved": 0,
+          "shares": 1,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 113,
+          "ig_reels_avg_watch_time": 13873,
+          "ig_reels_video_view_total_time": 1276325,
+          "reels_skip_rate": 70
+        }
+      ]
+    },
+    "18115847054286942": {
+      "art": "beitrag",
+      "datum": "2026-09-20",
+      "titel": "Fünf Themen, die diese Woche jede Klausur betreffen können",
+      "format": "wochenrueckblick",
+      "fach": "bilanz",
+      "hook": "aussage",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-20T06:45:08.840Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T06:43:46.118Z",
+          "alterStunden": 24,
+          "reach": 28,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 2
+        }
+      ]
+    },
+    "17870313225649687": {
+      "art": "beitrag",
+      "datum": "2026-09-20",
+      "titel": "Garantie gegeben – Rückstellung bilden?",
+      "format": "reel",
+      "fach": "bilanz",
+      "hook": "frage",
+      "dauer": 75.9,
+      "veroeffentlicht": "2026-09-20T10:13:26.865Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T06:43:46.118Z",
+          "alterStunden": 20.5,
+          "reach": 138,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 3,
+          "total_interactions": 5,
+          "views": 177,
+          "ig_reels_avg_watch_time": 8159,
+          "ig_reels_video_view_total_time": 1223938,
+          "reels_skip_rate": 79.6
+        }
+      ]
     }
   },
   "konto": [
@@ -1016,6 +1180,11 @@
     },
     {
       "stand": "2026-09-21T05:44:30.858Z",
+      "follower": 69,
+      "medien": 53
+    },
+    {
+      "stand": "2026-09-21T06:43:51.503Z",
       "follower": 69,
       "medien": 53
     }
