@@ -77,6 +77,13 @@ test("Tagesplan hält die fünf sichtbaren Feed-Kategorien auch über Wochenende
   );
 });
 
+test("Legacy-Klausurtechnik mit GewSt-Fach wird trotz klausur:0 als K2 erkannt", () => {
+  assert.equal(
+    feedKategorie({ format: "klausurtechnik", fach: "gewst", klausur: 0 }),
+    2,
+  );
+});
+
 test("Normale Pool-Slots bleiben in ihrer geplanten Klausurfarbe", () => {
   const datum = "2026-09-24";
   const plan = tagesplan(datum, { veroeffentlicht: [], fachZaehler: {} }, pool, null);
