@@ -213,7 +213,7 @@
     "profilId": "erklaerbild:stueck",
     "familie": "erklaerbild / gpt-image-1-mini / - / stueck",
     "letzteAusgabeTokens": [],
-    "aufrufeGesamt": 4,
+    "aufrufeGesamt": 9,
     "erfolgreicheAufrufe": 0,
     "abschnitte": 0,
     "schemaFehler": 0,
@@ -222,7 +222,7 @@
     "aktuellesCeiling": null,
     "ceilingGesetztAm": null,
     "unkalibriert": true,
-    "zuletzt": "2026-09-19T10:45:14.916Z"
+    "zuletzt": "2026-09-21T18:46:29.501Z"
   },
   "stories:cc0de97833d3": {
     "profilId": "stories:cc0de97833d3",
