@@ -9,7 +9,7 @@ import path from "node:path";
 import { chromium } from "playwright";
 import { folieHtml, storyHtml, coverHtml, MASSE } from "./vorlagen.mjs";
 import { stil as stilLaden, stilFuer } from "./stile.mjs";
-import { FAECHER } from "./inhalte.mjs";
+import { fachInfo } from "./inhalte.mjs";
 import { CONFIG } from "./config.mjs";
 
 let browser = null;
@@ -33,7 +33,7 @@ export function kontext(opt = {}) {
     stil: stilLaden(stilName),
     farbeJeKlausur: CONFIG.marke.farbeJeKlausur,
     handle: opt.handle ?? CONFIG.marke.handle,
-    fachLabel: opt.fachLabel || (opt.fach ? FAECHER[opt.fach]?.label : "Steuerberaterexamen") || "Steuerberaterexamen",
+    fachLabel: opt.fachLabel || (opt.fach ? fachInfo(opt.fach)?.label : "Steuerberaterexamen") || "Steuerberaterexamen",
     formatLabel: opt.formatLabel || null,
     /* ?? statt ||: Klausurtag 0 ist ein gültiger Wert (Mindset, Kopfsache)
        und darf nicht zu 3 werden - sonst erscheint ein Mindset-Beitrag in der
@@ -144,10 +144,18 @@ export function carouselBildregeln(beitrag) {
 /* Rendert alle Folien eines Beitrags → Liste der JPEG-Pfade. */
 export async function beitragRendern(beitrag, zielVerzeichnis, opt = {}) {
   carouselBildregeln(beitrag);
-  const formatLabel = beitrag.format === "klausurtechnik" && [1, 2, 3].includes(Number(beitrag.klausur))
+  /* Auch manuell finalisierte Inhalte können noch klausur:0 tragen, obwohl
+     ihr Fach eindeutig einem Prüfungstag zugeordnet ist (z. B. gewst).
+     Beim Rendern zählt deshalb für fachgebundene Klausurtechnik die
+     Fachzuordnung als letzte Sicherung. */
+  const fachKlausur = fachInfo(beitrag.fach)?.klausur;
+  const klausur = beitrag.format === "klausurtechnik" && [1, 2, 3].includes(Number(fachKlausur))
+    ? Number(fachKlausur)
+    : beitrag.klausur;
+  const formatLabel = beitrag.format === "klausurtechnik" && [1, 2, 3].includes(Number(klausur))
     ? "Klausurtechnik"
     : null;
-  const ctx = kontext({ ...opt, fach: beitrag.fach, klausur: beitrag.klausur, fachLabel: beitrag.fachLabel, formatLabel, variante: opt.variante ?? beitrag.variante });
+  const ctx = kontext({ ...opt, fach: beitrag.fach, klausur, fachLabel: beitrag.fachLabel, formatLabel, variante: opt.variante ?? beitrag.variante });
   const pfade = [];
   const n = beitrag.folien.length;
   for (let i = 0; i < n; i++) {
