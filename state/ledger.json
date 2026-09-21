@@ -3680,6 +3680,34 @@
       },
       "insightsStand": "2026-09-21T11:04:35.932Z",
       "insightsAlterStunden": 3.4
+    },
+    {
+      "datum": "2026-09-21",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "12:30",
+      "stunde": 13,
+      "format": "klausurtechnik",
+      "thema": null,
+      "fach": "gewst",
+      "klausur": 0,
+      "titel": "Gewerbesteuer in 4 Schritten",
+      "hookTyp": "zahl",
+      "medienId": "18076955315442855",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#gewerbesteuer",
+        "#gewst",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#klausurtechnik",
+        "#steuerberater"
+      ],
+      "veroeffentlicht": "2026-09-21T11:06:08.864Z",
+      "karteUrl": null
     }
   ],
   "fachZaehler": {
