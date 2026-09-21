@@ -23,6 +23,16 @@ test("Fachgebundene Klausurtechnik behält den Klausurtag des Themas", () => {
   assert.equal(fussRechts(meta), "Klausur 3 · Tag 3");
 });
 
+test("Gewerbesteuer-Klausurtechnik gehört zu Klausur 2", () => {
+  const meta = beitragsEinordnung("klausurtechnik", { fach: "gewst" });
+  assert.deepEqual(meta, {
+    fach: "gewst",
+    klausur: 2,
+    fachLabel: "Gewerbesteuer",
+  });
+  assert.equal(fussRechts(meta), "Klausur 2 · Tag 2");
+});
+
 test("Fachübergreifende Klausurtechnik bleibt violett", () => {
   const meta = beitragsEinordnung("klausurtechnik");
   assert.deepEqual(meta, {
