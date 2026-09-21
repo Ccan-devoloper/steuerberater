@@ -3832,6 +3832,17 @@
       },
       "insightsStand": "2026-09-21T15:43:56.143Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-21",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "merksatz",
+      "thema": null,
+      "fach": "ao",
+      "titel": "Einspruch stoppt die Vollziehung nicht",
+      "medienId": "17910960753520162",
+      "veroeffentlicht": "2026-09-21T15:44:15.102Z"
     }
   ],
   "fachZaehler": {

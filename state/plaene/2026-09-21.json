@@ -94,7 +94,9 @@
       "zeit": "17:30",
       "art": "merksatz",
       "themaId": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "17910960753520162",
+      "veroeffentlicht": "2026-09-21T15:44:15.102Z"
     },
     {
       "slot": "s9",
