@@ -3860,6 +3860,17 @@
       },
       "insightsStand": "2026-09-21T17:11:47.492Z",
       "insightsAlterStunden": 1.5
+    },
+    {
+      "datum": "2026-09-21",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "begriff",
+      "thema": null,
+      "fach": "ao",
+      "titel": "Vorbehalt der Nachprüfung",
+      "medienId": "18114640477796259",
+      "veroeffentlicht": "2026-09-21T17:44:12.989Z"
     }
   ],
   "fachZaehler": {
