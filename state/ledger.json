@@ -3903,6 +3903,17 @@
       "layout": "erklaer",
       "dauer": 63.1,
       "veroeffentlicht": "2026-09-21T18:49:04.109Z"
+    },
+    {
+      "datum": "2026-09-21",
+      "art": "story",
+      "slot": "s2",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": "RAP: aktiv oder passiv?",
+      "medienId": "18164863978474788",
+      "veroeffentlicht": "2026-09-21T18:49:18.160Z"
     }
   ],
   "fachZaehler": {
