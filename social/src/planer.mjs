@@ -176,16 +176,16 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
   const reihenfolge = formate.map((_, i) => i).sort((a, b) => (formate[b] === "reel" ? 1 : 0) - (formate[a] === "reel" ? 1 : 0));
 
   /* Die sichtbare Feed-Kategorie wird VOR der Themenwahl festgelegt.
-     Sonderformate: 0 = Klausurtechnik/Kopfsache, 4 = Wochenrückblick.
-     Normale Slots laufen in einer fortlaufenden K1/K2/K3-Folge. Die letzte
-     echte Veröffentlichung aus dem Ledger wird mitgedacht, damit auch die
-     Tagesgrenze keine Doppel-Farbe erzeugt. */
+     4 = Wochenrückblick; 0 bleibt für wirklich fachübergreifende Inhalte wie
+     Kopfsache reserviert. Fachgebundene Klausurtechnik läuft wie jedes andere
+     Fachformat in der fortlaufenden K1/K2/K3-Folge. Die letzte echte
+     Veröffentlichung aus dem Ledger wird mitgedacht, damit auch die Tagesgrenze
+     keine Doppel-Farbe erzeugt. */
   const ausPool = (f) => (FORMAT_QUELLEN[f] || []).length > 0;
   const poolSlots = formate.map((f, i) => i).filter((i) => ausPool(formate[i]) && !(formate[i] === "reel" && wt === 6));
   const rotation = klausurenDesTages(datum, formate.length);
   const fest = formate.map((format) => {
     if (format === "wochenrueckblick") return 4;
-    if (format === "klausurtechnik") return 0;
     if (format === "reel" && wt === 6) return 0;
     if (format === "loesungsskizze" && abendAnlass?.klausur) return Number(abendAnlass.klausur);
     return null;
@@ -203,13 +203,10 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
     }
     vorher = sichtbar[i];
   }
-  /* Klausurtechnik bleibt sichtbar lila, darf inhaltlich aber weiterhin
-     Themen aus allen drei Prüfungstagen aufgreifen. Dafür rotiert ihr
-     Quellthema intern nach der Fachfolge. */
-  const klausurFuer = new Map(poolSlots.map((slot) => [
-    slot,
-    formate[slot] === "klausurtechnik" ? rotation[slot] : sichtbar[slot],
-  ]));
+  /* Quellthema und sichtbare Klausurfarbe müssen dieselbe Einordnung tragen.
+     Das gilt ausdrücklich auch für Klausurtechnik: Das Format ist sekundär,
+     der Prüfungstag des Fachstoffs bleibt primär. */
+  const klausurFuer = new Map(poolSlots.map((slot) => [slot, sichtbar[slot]]));
 
   const beitraege = new Array(formate.length);
   for (const i of reihenfolge) {
@@ -324,11 +321,10 @@ export function auffuellplan(anzahl, ledger = ledgerLaden(), pool = themenpool()
   for (let i = 0; i < anzahl; i++) {
     const format = formate[i % formate.length];
     const typen = FORMAT_QUELLEN[format] || ["modul"];
-    const sichtbar = format === "klausurtechnik" ? 0 : naechsteFachfarbe;
-    /* Klausurtechnik ist sichtbar violett, bekommt aber weiterhin ein
-       fachliches Quellthema. Fachbeiträge werden hart aus ihrer sichtbaren
-       K1/K2/K3-Kategorie gezogen. */
-    const quellKlausur = format === "klausurtechnik" ? naechsteFachfarbe : sichtbar;
+    const sichtbar = naechsteFachfarbe;
+    /* Auch Klausurtechnik bleibt in der Farbe ihres fachlichen Quellthemas.
+       Der Format-Hinweis wird später separat auf dem Cover dargestellt. */
+    const quellKlausur = sichtbar;
     let kandidaten = verfuegbar(pool, ledgerKopie, heute, benutzt)
       .filter((t) => typen.includes(t.typ) && t.klausur === quellKlausur);
     if (!kandidaten.length) {
@@ -344,7 +340,7 @@ export function auffuellplan(anzahl, ledger = ledgerLaden(), pool = themenpool()
     ledgerKopie.fachZaehler[thema.fach] = (ledgerKopie.fachZaehler[thema.fach] || 0) + 1;
     liste.push({ slot: `f${liste.length + 1}`, format, thema, klausur: sichtbar });
     vorher = sichtbar;
-    if (format !== "klausurtechnik") naechsteFachfarbe = (sichtbar % 3) + 1;
+    naechsteFachfarbe = (sichtbar % 3) + 1;
     if (naechsteFachfarbe === vorher) naechsteFachfarbe = (naechsteFachfarbe % 3) + 1;
   }
   return liste;
