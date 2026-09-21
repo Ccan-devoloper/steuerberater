@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-21T14:43:53.259Z",
+  "stand": "2026-09-21T15:44:02.466Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -1120,6 +1120,23 @@
           "navigation_tap_back": 2,
           "navigation_tap_forward": 19,
           "navigation_tap_exit": 4
+        },
+        {
+          "stand": "2026-09-21T15:43:56.143Z",
+          "alterStunden": 22.1,
+          "reach": 27,
+          "views": 37,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 29,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 19,
+          "navigation_tap_exit": 4
         }
       ]
     },
@@ -1351,6 +1368,23 @@
           "navigation_tap_back": 1,
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 17
+        },
+        {
+          "stand": "2026-09-21T15:43:56.143Z",
+          "alterStunden": 8.1,
+          "reach": 24,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 28,
+          "navigation_tap_exit": 1,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 23
         }
       ]
     },
@@ -1378,6 +1412,23 @@
           "navigation": 17,
           "navigation_tap_exit": 5,
           "navigation_tap_forward": 12
+        },
+        {
+          "stand": "2026-09-21T15:43:56.143Z",
+          "alterStunden": 8.1,
+          "reach": 23,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 15,
+          "navigation_tap_exit": 6
         }
       ]
     },
@@ -1501,6 +1552,35 @@
           "navigation_tap_exit": 5
         }
       ]
+    },
+    "18127360015702110": {
+      "art": "story",
+      "datum": "2026-09-21",
+      "titel": "Steuermessbetrag bei der Gewerbesteuer",
+      "format": null,
+      "fach": "gewst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-21T13:44:07.629Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T15:43:56.143Z",
+          "alterStunden": 2,
+          "reach": 13,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_forward": 10,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 2,
+          "navigation_swipe_forward": 1
+        }
+      ]
     }
   },
   "konto": [
@@ -1541,6 +1621,11 @@
     },
     {
       "stand": "2026-09-21T14:43:53.259Z",
+      "follower": 71,
+      "medien": 54
+    },
+    {
+      "stand": "2026-09-21T15:44:02.466Z",
       "follower": 71,
       "medien": 54
     }

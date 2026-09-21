@@ -3610,8 +3610,8 @@
       "medienId": "18486534178109512",
       "veroeffentlicht": "2026-09-20T17:40:34.084Z",
       "insights": {
-        "reach": 26,
-        "views": 36,
+        "reach": 27,
+        "views": 37,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
@@ -3624,8 +3624,8 @@
         "navigation_tap_forward": 19,
         "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-09-21T13:43:51.650Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-09-21T15:43:56.143Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-09-21",
@@ -3638,22 +3638,22 @@
       "medienId": "18435554488195838",
       "veroeffentlicht": "2026-09-21T07:38:04.968Z",
       "insights": {
-        "reach": 20,
-        "views": 22,
+        "reach": 24,
+        "views": 29,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 21,
+        "navigation": 28,
         "navigation_tap_exit": 1,
-        "navigation_tap_back": 1,
+        "navigation_tap_back": 2,
         "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 17
+        "navigation_tap_forward": 23
       },
-      "insightsStand": "2026-09-21T11:04:35.932Z",
-      "insightsAlterStunden": 3.4
+      "insightsStand": "2026-09-21T15:43:56.143Z",
+      "insightsAlterStunden": 8.1
     },
     {
       "datum": "2026-09-21",
@@ -3666,20 +3666,22 @@
       "medienId": "18060540986619019",
       "veroeffentlicht": "2026-09-21T07:38:15.107Z",
       "insights": {
-        "reach": 18,
-        "views": 21,
+        "reach": 23,
+        "views": 25,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 17,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 12
+        "navigation": 24,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 15,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-09-21T11:04:35.932Z",
-      "insightsAlterStunden": 3.4
+      "insightsStand": "2026-09-21T15:43:56.143Z",
+      "insightsAlterStunden": 8.1
     },
     {
       "datum": "2026-09-21",
@@ -3812,7 +3814,24 @@
       "fach": "gewst",
       "titel": "Steuermessbetrag bei der Gewerbesteuer",
       "medienId": "18127360015702110",
-      "veroeffentlicht": "2026-09-21T13:44:07.629Z"
+      "veroeffentlicht": "2026-09-21T13:44:07.629Z",
+      "insights": {
+        "reach": 13,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_forward": 10,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 2,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-09-21T15:43:56.143Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
