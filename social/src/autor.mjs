@@ -110,7 +110,10 @@ export function beitragsEinordnung(format, thema = null, recherche = null, fallb
   }
   if (format === "klausurtechnik") {
     const fach = thema?.fach || recherche?.fach || null;
-    const fachKlausur = Number(thema?.klausur ?? fachInfo(fach)?.klausur);
+    const themaKlausur = Number(thema?.klausur);
+    const fachKlausur = [1, 2, 3].includes(themaKlausur)
+      ? themaKlausur
+      : Number(fachInfo(fach)?.klausur);
     if (fach && [1, 2, 3].includes(fachKlausur)) {
       return {
         fach,
