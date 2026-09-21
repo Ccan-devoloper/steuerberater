@@ -56,9 +56,10 @@ export const STILE = {
     },
     /* Palette je Klausurtag: Grund, dunkle Kontrastfarbe, helle und lila Pille, Zweitakzent. */
     tagFarben: {
-      /* Klausurtag 0: alles, was zu keinem Prüfungstag gehört - Mindset,
-         Klausurtechnik. Violett steht neben Blau, Orange und Grün für sich,
-         und die Leserschaft sieht am Farbwechsel sofort: kein Fachstoff. */
+      /* Klausurtag 0: nur Inhalte ohne einzelnen Prüfungstag - Kopfsache und
+         fachübergreifende Klausurtechnik. Fachgebundene Klausurtechnik bleibt
+         in K1/K2/K3; Violett signalisiert damit weiterhin eindeutig:
+         kein Stoff eines einzelnen Prüfungstags. */
       0: { grund: "#6b4bd6", dunkel: "#1e0f52", hell: "#efe9ff", lila: "#ffd9c2", akzent2: "#ffd166", weich: "#e4dcff" },
       /* weich: Farbe für Nebentext direkt auf der Grundfarbe. Auf Orange und
          Grün reicht das Dunkel; auf dem Blau hat es nur 2,9:1 Kontrast, dort
@@ -67,7 +68,7 @@ export const STILE = {
       2: { grund: "#ff7a45", dunkel: "#3a1708", hell: "#fff0e6", lila: "#ffd9c2", akzent2: "#2d5be3" },
       3: { grund: "#23d98b", dunkel: "#0b4a33", hell: "#e9fff4", lila: "#d9c8ff", akzent2: "#ff7a45" },
       /* Wochenrückblick: eigene goldene Kategorie, getrennt von der violetten
-         Klausurtechnik/Kopfsache. */
+         fachübergreifenden Klausurtechnik/Kopfsache. */
       4: { grund: "#f2c94c", dunkel: "#4a3500", hell: "#fff7d6", lila: "#efe1a6", akzent2: "#6b4bd6", weich: "#5b460d" },
     },
     ecken: "30px",
