@@ -3626,6 +3626,17 @@
       },
       "insightsStand": "2026-09-21T05:44:17.148Z",
       "insightsAlterStunden": 12.1
+    },
+    {
+      "datum": "2026-09-21",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "frage",
+      "thema": null,
+      "fach": "ao",
+      "titel": "Wie lang ist die reguläre Einspruchsfrist nach § 355 Abs. 1 AO?",
+      "medienId": "18435554488195838",
+      "veroeffentlicht": "2026-09-21T07:38:04.968Z"
     }
   ],
   "fachZaehler": {

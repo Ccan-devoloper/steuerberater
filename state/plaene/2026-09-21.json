@@ -33,8 +33,10 @@
       "zeit": "07:13",
       "art": "frage",
       "themaId": null,
-      "status": "geplant",
-      "pairId": "manual-2026-09-21-ao-355"
+      "status": "veroeffentlicht",
+      "pairId": "manual-2026-09-21-ao-355",
+      "medienId": "18435554488195838",
+      "veroeffentlicht": "2026-09-21T07:38:04.968Z"
     },
     {
       "slot": "s4",
