@@ -34,6 +34,7 @@ export function kontext(opt = {}) {
     farbeJeKlausur: CONFIG.marke.farbeJeKlausur,
     handle: opt.handle ?? CONFIG.marke.handle,
     fachLabel: opt.fachLabel || (opt.fach ? FAECHER[opt.fach]?.label : "Steuerberaterexamen") || "Steuerberaterexamen",
+    formatLabel: opt.formatLabel || null,
     /* ?? statt ||: Klausurtag 0 ist ein gültiger Wert (Mindset, Kopfsache)
        und darf nicht zu 3 werden - sonst erscheint ein Mindset-Beitrag in der
        Farbe und mit dem Etikett des dritten Prüfungstags. */
@@ -143,7 +144,10 @@ export function carouselBildregeln(beitrag) {
 /* Rendert alle Folien eines Beitrags → Liste der JPEG-Pfade. */
 export async function beitragRendern(beitrag, zielVerzeichnis, opt = {}) {
   carouselBildregeln(beitrag);
-  const ctx = kontext({ ...opt, fach: beitrag.fach, klausur: beitrag.klausur, fachLabel: beitrag.fachLabel, variante: opt.variante ?? beitrag.variante });
+  const formatLabel = beitrag.format === "klausurtechnik" && [1, 2, 3].includes(Number(beitrag.klausur))
+    ? "Klausurtechnik"
+    : null;
+  const ctx = kontext({ ...opt, fach: beitrag.fach, klausur: beitrag.klausur, fachLabel: beitrag.fachLabel, formatLabel, variante: opt.variante ?? beitrag.variante });
   const pfade = [];
   const n = beitrag.folien.length;
   for (let i = 0; i < n; i++) {
