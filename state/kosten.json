@@ -276,6 +276,18 @@
         "kommentare": 0.0331
       },
       "stand": "2026-09-20T12:43:38.674Z"
+    },
+    "2026-09-21": {
+      "usd": 0.01,
+      "antworten": 0,
+      "aufrufe": 1,
+      "zwecke": {
+        "erklaerbild": 0.01
+      },
+      "messungen": {
+        "erklaerbild": 0.01
+      },
+      "stand": "2026-09-21T18:45:25.808Z"
     }
   }
 }

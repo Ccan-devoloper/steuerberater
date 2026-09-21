@@ -218,6 +218,17 @@
       "benutzt": 1,
       "breite": 896,
       "hoehe": 896
+    },
+    {
+      "datei": "2026-09-21-l7eids.webp",
+      "szene": "calendar next to invoice and bank transfer receipt",
+      "themaId": null,
+      "look": "flach",
+      "gezeichnet": "2026-09-21",
+      "zuletzt": "2026-09-21",
+      "benutzt": 1,
+      "breite": 1003,
+      "hoehe": 694
     }
   ]
 }
