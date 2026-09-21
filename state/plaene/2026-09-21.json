@@ -34,7 +34,7 @@
       "art": "frage",
       "themaId": null,
       "status": "uebersprungen",
-      "fehler": "2026-09-21T05:44:48.348Z Quiz-Paar inkonsistent: Quiz-Kachel ohne Paar-Schluessel"
+      "fehler": "2026-09-21T06:43:53.576Z Quiz-Paar inkonsistent: Quiz-Kachel ohne Paar-Schluessel"
     },
     {
       "slot": "s4",
@@ -42,7 +42,7 @@
       "art": "antwort",
       "themaId": null,
       "status": "uebersprungen",
-      "fehler": "2026-09-21T05:44:48.351Z Quiz-Paar inkonsistent: Quiz-Kachel ohne Paar-Schluessel"
+      "fehler": "2026-09-21T06:43:53.579Z Quiz-Paar inkonsistent: Quiz-Kachel ohne Paar-Schluessel"
     },
     {
       "slot": "s5",
