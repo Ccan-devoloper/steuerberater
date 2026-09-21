@@ -28,11 +28,24 @@
       "attempt": 1,
       "slot": "prepaid insurance invoice marked next year",
       "reservedUsd": 0.01,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.01,
+      "state": "settled",
       "createdAt": "2026-09-21T18:45:26.915Z",
-      "updatedAt": "2026-09-21T18:45:28.365Z"
+      "updatedAt": "2026-09-21T18:45:46.475Z"
+    },
+    {
+      "reservationId": "2026-09-21-0003-erklaerbild",
+      "date": "2026-09-21",
+      "bucket": "core",
+      "purpose": "erklaerbild",
+      "attempt": 1,
+      "slot": "advance customer payment with next-year service calendar",
+      "reservedUsd": 0.01,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-21T18:45:47.507Z",
+      "updatedAt": "2026-09-21T18:45:47.507Z"
     }
   ],
-  "stand": "2026-09-21T18:45:28.365Z"
+  "stand": "2026-09-21T18:45:47.507Z"
 }
