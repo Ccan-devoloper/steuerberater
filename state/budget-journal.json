@@ -68,10 +68,10 @@
       "slot": "tax balance sheet with active and passive columns",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-21T18:46:16.289Z",
-      "updatedAt": "2026-09-21T18:46:16.289Z"
+      "updatedAt": "2026-09-21T18:46:17.722Z"
     }
   ],
-  "stand": "2026-09-21T18:46:16.289Z"
+  "stand": "2026-09-21T18:46:17.722Z"
 }
