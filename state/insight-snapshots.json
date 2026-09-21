@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-21T19:43:42.431Z",
+  "stand": "2026-09-21T20:43:47.964Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -1385,6 +1385,23 @@
           "navigation_tap_back": 2,
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 23
+        },
+        {
+          "stand": "2026-09-21T20:43:42.344Z",
+          "alterStunden": 13.1,
+          "reach": 32,
+          "views": 39,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 36,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_forward": 27
         }
       ]
     },
@@ -1429,6 +1446,23 @@
           "navigation_tap_back": 2,
           "navigation_tap_forward": 15,
           "navigation_tap_exit": 6
+        },
+        {
+          "stand": "2026-09-21T20:43:42.344Z",
+          "alterStunden": 13.1,
+          "reach": 30,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 31,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 20,
+          "navigation_tap_exit": 7
         }
       ]
     },
@@ -1567,6 +1601,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-09-21T20:43:47.153Z",
+          "alterStunden": 9.6,
+          "reach": 22,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -1640,6 +1686,23 @@
           "navigation_tap_back": 1,
           "navigation_tap_exit": 2,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-09-21T20:43:42.344Z",
+          "alterStunden": 7,
+          "reach": 24,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_tap_forward": 16,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 5,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -1726,6 +1789,35 @@
           "reels_skip_rate": 56.3
         }
       ]
+    },
+    "18164863978474788": {
+      "art": "story",
+      "datum": "2026-09-21",
+      "titel": "RAP: aktiv oder passiv?",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-21T18:49:18.160Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T20:43:42.344Z",
+          "alterStunden": 1.9,
+          "reach": 12,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 9,
+          "navigation_swipe_forward": 1
+        }
+      ]
     }
   },
   "konto": [
@@ -1792,6 +1884,11 @@
     {
       "stand": "2026-09-21T19:43:42.431Z",
       "follower": 71,
+      "medien": 55
+    },
+    {
+      "stand": "2026-09-21T20:43:47.964Z",
+      "follower": 72,
       "medien": 55
     }
   ]
