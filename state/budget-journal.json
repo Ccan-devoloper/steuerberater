@@ -6,6 +6,20 @@
     "engagement": 0,
     "research": 0
   },
-  "eintraege": [],
-  "stand": "2026-09-21T17:44:14.242Z"
+  "eintraege": [
+    {
+      "reservationId": "2026-09-21-0001-erklaerbild",
+      "date": "2026-09-21",
+      "bucket": "core",
+      "purpose": "erklaerbild",
+      "attempt": 1,
+      "slot": "calendar next to invoice and bank transfer receipt",
+      "reservedUsd": 0.01,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-21T18:45:13.164Z",
+      "updatedAt": "2026-09-21T18:45:13.164Z"
+    }
+  ],
+  "stand": "2026-09-21T18:45:13.164Z"
 }
