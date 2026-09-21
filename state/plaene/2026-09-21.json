@@ -56,7 +56,9 @@
       "zeit": "11:25",
       "art": "norm",
       "themaId": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18163249348478147",
+      "veroeffentlicht": "2026-09-21T11:06:21.071Z"
     },
     {
       "slot": "s1",
