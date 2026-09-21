@@ -85,7 +85,9 @@
       "zeit": "15:30",
       "art": "formel",
       "themaId": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18127360015702110",
+      "veroeffentlicht": "2026-09-21T13:44:07.629Z"
     },
     {
       "slot": "s8",

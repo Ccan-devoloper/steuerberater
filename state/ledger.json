@@ -3802,6 +3802,17 @@
       },
       "insightsStand": "2026-09-21T13:43:51.650Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-21",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "formel",
+      "thema": null,
+      "fach": "gewst",
+      "titel": "Steuermessbetrag bei der Gewerbesteuer",
+      "medienId": "18127360015702110",
+      "veroeffentlicht": "2026-09-21T13:44:07.629Z"
     }
   ],
   "fachZaehler": {
