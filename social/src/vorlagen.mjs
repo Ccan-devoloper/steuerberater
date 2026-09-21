@@ -64,7 +64,7 @@ ${fontFace("IBM Plex Mono", "IBMPlexMono-Medium.ttf", "400 500")}
 :root{
   --grund:${f.grund};--flaeche:${f.flaeche};--text:${f.text};--text-weich:${f.textWeich};--linie:${f.linie};
   --akzent:${f.akzent};--pille:${f.pille};--pille-text:${f.pilleText};
-  --k1:${f.k1};--k2:${f.k2};--k3:${f.k3};--ok:${f.ok};--warn:${f.warn};--rot:${f.rot};
+  --k0:${f.k0};--k1:${f.k1};--k2:${f.k2};--k3:${f.k3};--k4:${f.k4};--ok:${f.ok};--warn:${f.warn};--rot:${f.rot};
   --ecken:${stil.ecken};
   --titel:"${s.titel}";--sans:"${s.text}";--mono:"${s.mono}";
 }
@@ -148,6 +148,9 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 .prio{display:inline-flex;align-items:center;gap:12px;margin-top:36px;font-size:26px;color:var(--text-weich);letter-spacing:.04em;text-transform:uppercase;font-weight:600}
 .prio i{width:22px;height:22px;border-radius:50%;background:var(--rot);display:inline-block}
 .prio.mittel i{background:var(--warn)}.prio.selten i{background:var(--ok)}
+/* Sekundäre Formatkennzeichnung: Der Klausurtag bleibt die große Farbfläche,
+   "Klausurtechnik" wird nur als kleines, ausdrücklich violettes Badge ergänzt. */
+.format-badge{display:inline-flex;width:fit-content;margin-top:20px;padding:10px 22px;border:2px solid var(--k0);border-radius:999px;background:var(--flaeche);color:var(--k0);font-family:var(--sans);font-size:25px;line-height:1;font-weight:800;letter-spacing:.02em}
 
 /* Stories */
 .story{position:relative;width:1080px;height:1920px;padding:150px 84px 130px;display:flex;flex-direction:column;background:var(--grund)}
@@ -255,6 +258,7 @@ h1 em{color:${p.akzent2}}
 .unter{margin-top:22px;display:inline-block;width:fit-content;background:${p.hell};color:${p.dunkel};padding:12px 30px;border-radius:40px;font-weight:700;font-size:36px;line-height:1.25;margin-left:24px}
 .prio{margin-top:20px;margin-left:24px;width:fit-content;background:${p.lila};color:${p.dunkel};padding:10px 26px;border-radius:40px;text-transform:none;letter-spacing:0;font-size:28px}
 .prio i{display:none}
+.format-badge{margin-top:18px;margin-left:24px;padding:11px 24px;border:0;background:rgba(255,255,255,.92);color:var(--k0);font-size:27px;box-shadow:0 8px 20px rgba(0,0,0,.08)}
 /* Handschrift-Hinweis mit Pfeil statt Pille */
 .art-titel .pille{background:none;color:${p.dunkel};font-family:"Caveat";font-size:58px;font-weight:700;padding:0 0 0 170px;margin-top:40px;margin-left:420px;position:relative;transform:rotate(-4deg);letter-spacing:0}
 .art-titel .pille::before{content:"";position:absolute;left:0;top:-30px;width:150px;height:110px;background:${pfeil} no-repeat center/contain}
@@ -511,6 +515,7 @@ const FOLIEN = {
     ${kopf(ctx, "")}
     <h1 class="${titelKlasse(f.titel)}"><span class="z">${markierenTitel(f.titel)}</span></h1>
     ${f.untertitel ? `<p class="unter">${markieren(f.untertitel)}</p>` : ""}
+    ${ctx.formatLabel ? `<div class="format-badge">${esc(ctx.formatLabel)}</div>` : ""}
     ${f.prioritaet ? `<div class="prio ${f.prioritaet}"><i></i>${esc(f.prioritaetText || "")}</div>` : ""}
     <div><span class="pille">${esc((ctx.stil.familie || ctx.stil.id) === "bunt" ? (f.hinweis || "So geht's!") : (f.pille || "Swipen →"))}</span></div>
     ${f.bild ? fotoBuehne(f) : bildOderIllu(ctx, f)}

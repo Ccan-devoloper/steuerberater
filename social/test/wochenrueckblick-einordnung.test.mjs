@@ -13,10 +13,30 @@ test("Wochenrückblick ist fachübergreifend und hat die eigene goldene Kategori
   assert.equal(fussRechts(beitragsEinordnung("wochenrueckblick")), "Wochenrückblick");
 });
 
-test("Klausurtechnik bleibt unabhängig vom Quellfach violett", () => {
-  const meta = beitragsEinordnung("klausurtechnik", { fach: "bilanz" });
+test("Fachgebundene Klausurtechnik behält den Klausurtag des Themas", () => {
+  const meta = beitragsEinordnung("klausurtechnik", { fach: "bilanz", klausur: 3 });
   assert.deepEqual(meta, {
     fach: "bilanz",
+    klausur: 3,
+    fachLabel: "Bilanzsteuerrecht",
+  });
+  assert.equal(fussRechts(meta), "Klausur 3 · Tag 3");
+});
+
+test("Gewerbesteuer-Klausurtechnik gehört zu Klausur 2", () => {
+  const meta = beitragsEinordnung("klausurtechnik", { fach: "gewst", klausur: 0 });
+  assert.deepEqual(meta, {
+    fach: "gewst",
+    klausur: 2,
+    fachLabel: "Gewerbesteuer",
+  });
+  assert.equal(fussRechts(meta), "Klausur 2 · Tag 2");
+});
+
+test("Fachübergreifende Klausurtechnik bleibt violett", () => {
+  const meta = beitragsEinordnung("klausurtechnik");
+  assert.deepEqual(meta, {
+    fach: null,
     klausur: 0,
     fachLabel: "Klausurtechnik",
   });

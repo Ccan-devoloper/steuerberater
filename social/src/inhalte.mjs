@@ -55,6 +55,20 @@ export const FAECHER = {
   persg:  { label: "Personengesellschaften",    kurz: "PersG",  klausur: 3 },
 };
 
+/* ESt/GewSt werden bereits als Fach-IDs in manuell finalisierten und
+   importierten Social-Inhalten verwendet, haben im automatischen Themenpool
+   aber noch keinen eigenen Campus. Deshalb NICHT in FAECHER aufnehmen:
+   FAECHER steuert zugleich die Pool-Ausbalancierung im Planer. Für sichtbare
+   Einordnung und Rendering reicht diese ergänzende Metadatenebene. */
+const FACH_ZUSATZ = Object.freeze({
+  est:   { label: "Einkommensteuer", kurz: "ESt", klausur: 2 },
+  gewst: { label: "Gewerbesteuer",   kurz: "GewSt", klausur: 2 },
+});
+
+export function fachInfo(fach) {
+  return FAECHER[fach] || FACH_ZUSATZ[fach] || null;
+}
+
 export const KLAUSUREN = {
   1: { label: "Klausur 1 · Verfahrensrecht, USt, ErbSt", kurz: "K1" },
   2: { label: "Klausur 2 · Ertragsteuern",               kurz: "K2" },

@@ -69,7 +69,19 @@ test("Tagesplan hält die fünf sichtbaren Feed-Kategorien auch über Wochenende
 
   const montag = tagesplan("2026-09-21", { veroeffentlicht: [], fachZaehler: {} }, pool, null);
   assert.equal(montag.beitraege[0].format, "klausurtechnik");
-  assert.equal(feedKategorie(montag.beitraege[0]), 0, "Klausurtechnik ist nicht violett");
+  assert.ok([1, 2, 3].includes(feedKategorie(montag.beitraege[0])), "Fachgebundene Klausurtechnik hat keinen Klausurtag");
+  assert.equal(
+    feedKategorie(montag.beitraege[0]),
+    montag.beitraege[0].thema.klausur,
+    "Fachgebundene Klausurtechnik weicht von ihrem Themen-Klausurtag ab",
+  );
+});
+
+test("Legacy-Klausurtechnik mit GewSt-Fach wird trotz klausur:0 als K2 erkannt", () => {
+  assert.equal(
+    feedKategorie({ format: "klausurtechnik", fach: "gewst", klausur: 0 }),
+    2,
+  );
 });
 
 test("Normale Pool-Slots bleiben in ihrer geplanten Klausurfarbe", () => {
@@ -77,7 +89,7 @@ test("Normale Pool-Slots bleiben in ihrer geplanten Klausurfarbe", () => {
   const plan = tagesplan(datum, { veroeffentlicht: [], fachZaehler: {} }, pool, null);
 
   for (const beitrag of plan.beitraege) {
-    if (!beitrag.thema || beitrag.thema.fach === "mindset" || beitrag.format === "klausurtechnik") continue;
+    if (!beitrag.thema || beitrag.thema.fach === "mindset") continue;
     assert.equal(
       beitrag.thema.klausur,
       beitrag.klausur,
@@ -98,8 +110,8 @@ test("Auffüllplan hält dieselbe Farbregel wie der Tagesfeed", () => {
   for (const beitrag of plan) {
     assert.ok(feedFolgeErlaubt(vorher, beitrag),
       `${beitrag.slot}: Kategorie ${feedKategorie(beitrag)} folgt direkt auf ${feedKategorie(vorher)}`);
-    if (beitrag.format === "klausurtechnik") assert.equal(feedKategorie(beitrag), 0, "Auffüll-Klausurtechnik ist nicht violett");
-    else assert.equal(beitrag.thema.klausur, beitrag.klausur, "Auffüll-Fachbeitrag weicht von seiner Farbe ab");
+    assert.equal(beitrag.thema.klausur, beitrag.klausur, "Auffüll-Fachbeitrag weicht von seiner Farbe ab");
+    assert.equal(feedKategorie(beitrag), beitrag.thema.klausur, "Auffüll-Beitrag wird in der falschen Feed-Kategorie eingeordnet");
     vorher = beitrag;
   }
 });

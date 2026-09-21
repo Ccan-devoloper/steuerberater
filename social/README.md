@@ -27,10 +27,14 @@ Rechenweg · Mini-Fall (frei erfunden) · Gegenüberstellung · Klausurtechnik �
 
 ### Feed-Farben und Rotation
 
-Der Feed hat fünf sichtbare Kategorien: **Klausur 1 = Blau**, **Klausur 2 = Orange**,
-**Klausur 3 = Grün**, **Klausurtechnik/Kopfsache = Violett** und
-**Wochenrückblick = Gold**. Klausurtechnik bleibt violett, auch wenn ihr
-Quellthema fachlich aus K1, K2 oder K3 stammt.
+Die große Feed-Farbe beantwortet zuerst die Frage **„An welchem Prüfungstag brauche ich das?“**:
+**Klausur 1 = Blau**, **Klausur 2 = Orange**, **Klausur 3 = Grün**.
+**Violett** ist ausschließlich für Inhalte ohne einzelnen Prüfungstag reserviert
+(Kopfsache und wirklich fachübergreifende Klausurtechnik), **Gold** für den
+Wochenrückblick. Hat ein Klausurtechnik-Beitrag ein fachliches Quellthema aus
+K1, K2 oder K3, bleibt er in dessen Klausurfarbe und trägt auf dem Cover
+zusätzlich das kleine Badge **„Klausurtechnik“**. Damit sind Prüfungstag und
+Vermittlungsformat zwei getrennte Informationen.
 
 Die Farbfolge ist eine harte Produktregel: **Keine sichtbare Kategorie darf
 direkt auf dieselbe Kategorie folgen** – weder Carousel auf Carousel noch
