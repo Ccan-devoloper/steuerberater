@@ -76,7 +76,9 @@
       "art": "countdown",
       "themaId": null,
       "tageBisExamen": 15,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18126498808888105",
+      "veroeffentlicht": "2026-09-21T11:44:10.418Z"
     },
     {
       "slot": "s7",
