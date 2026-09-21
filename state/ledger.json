@@ -3871,6 +3871,38 @@
       "titel": "Vorbehalt der Nachprüfung",
       "medienId": "18114640477796259",
       "veroeffentlicht": "2026-09-21T17:44:12.989Z"
+    },
+    {
+      "datum": "2026-09-21",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "20:00",
+      "stunde": 20,
+      "format": "reel",
+      "thema": null,
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Bezahlt vor dem Stichtag – Aufwand später?",
+      "hookTyp": "frage",
+      "hookMuster": "gegenueberstellung",
+      "medienId": "18182430802418998",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#bilanzsteuerrecht",
+        "#rechnungsabgrenzung",
+        "#rap",
+        "#estg",
+        "#hgb",
+        "#steuerrecht",
+        "#examensvorbereitung"
+      ],
+      "stimmeId": null,
+      "stimmeName": null,
+      "layout": "erklaer",
+      "dauer": 63.1,
+      "veroeffentlicht": "2026-09-21T18:49:04.109Z"
     }
   ],
   "fachZaehler": {

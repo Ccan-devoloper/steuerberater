@@ -27,7 +27,10 @@
       "fach": "bilanz",
       "klausur": 3,
       "lang": false,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18182430802418998",
+      "veroeffentlicht": "2026-09-21T18:49:04.109Z",
+      "kanaele": {}
     }
   ],
   "stories": [
