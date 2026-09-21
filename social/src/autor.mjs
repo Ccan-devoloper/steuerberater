@@ -13,7 +13,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { CONFIG } from "./config.mjs";
 import { manuellFinalisiert } from "./finalisierung.mjs";
 import { istKostenKontrollFehler } from "./kostenfehler.mjs";
-import { FAECHER, KLAUSUREN } from "./inhalte.mjs";
+import { FAECHER, KLAUSUREN, fachInfo } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
 import { folieLeer, pruefeBeitrag, korpus, gefundeneEigenbegriffe, normenOhneGesetz, quizBefunde, fachpruefungAbschliessen } from "./pruefung.mjs";
 import { createHash } from "node:crypto";
@@ -110,12 +110,12 @@ export function beitragsEinordnung(format, thema = null, recherche = null, fallb
   }
   if (format === "klausurtechnik") {
     const fach = thema?.fach || recherche?.fach || null;
-    const fachKlausur = Number(thema?.klausur ?? FAECHER[fach]?.klausur);
+    const fachKlausur = Number(thema?.klausur ?? fachInfo(fach)?.klausur);
     if (fach && [1, 2, 3].includes(fachKlausur)) {
       return {
         fach,
         klausur: fachKlausur,
-        fachLabel: FAECHER[fach]?.label || "Steuerberaterexamen",
+        fachLabel: fachInfo(fach)?.label || "Steuerberaterexamen",
       };
     }
     return { fach, klausur: 0, fachLabel: FORMATE.klausurtechnik.label };
@@ -123,8 +123,8 @@ export function beitragsEinordnung(format, thema = null, recherche = null, fallb
   const fach = thema?.fach || recherche?.fach || fallbackFach;
   return {
     fach,
-    klausur: FAECHER[fach]?.klausur ?? fallbackKlausur,
-    fachLabel: FAECHER[fach]?.label || "Steuerberaterexamen",
+    klausur: fachInfo(fach)?.klausur ?? fallbackKlausur,
+    fachLabel: fachInfo(fach)?.label || "Steuerberaterexamen",
   };
 }
 const { aktuell: RECHTSSTAND_AKTUELL, vorjahr: RECHTSSTAND_VORJAHR } = rechtsstandJahre();
@@ -613,7 +613,7 @@ function nachbereiten(daten, { format, thema, fach, klausur, fachLabel, strategi
   const kern = CONFIG.hashtags.kern;
   const tags = hashtagsWaehlen(daten.hashtags || [], kern, strategie);
   return {
-    format, fach, klausur, fachLabel: fachLabel ?? FAECHER[fach]?.label ?? "Steuerberaterexamen",
+    format, fach, klausur, fachLabel: fachLabel ?? fachInfo(fach)?.label ?? "Steuerberaterexamen",
     themaId: thema?.id || null,
     folien,
     caption: (daten.caption || "").trim(),
