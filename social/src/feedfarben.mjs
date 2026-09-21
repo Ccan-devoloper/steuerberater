@@ -27,8 +27,10 @@ export const FEED_KATEGORIEN = Object.freeze({
 
 export function feedKategorie(eintrag = {}) {
   if (eintrag?.format === "wochenrueckblick" || eintrag?.fach === "wochenrueckblick") return 4;
+  /* Violett ist nur noch für wirklich fachübergreifende Inhalte reserviert.
+     Das Format "klausurtechnik" allein ändert die Klausurfarbe nicht: Hat der
+     Beitrag ein Fachthema, bleibt dessen Klausurtag die primäre Einordnung. */
   if (
-    eintrag?.format === "klausurtechnik" ||
     eintrag?.fach === "mindset" ||
     eintrag?.thema?.fach === "mindset" ||
     String(eintrag?.thema || eintrag?.themaId || "").startsWith("mindset-")
