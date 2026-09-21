@@ -33,8 +33,7 @@
       "zeit": "07:13",
       "art": "frage",
       "themaId": null,
-      "status": "uebersprungen",
-      "fehler": "2026-09-21T06:43:53.576Z Quiz-Paar inkonsistent: Quiz-Kachel ohne Paar-Schluessel",
+      "status": "geplant",
       "pairId": "manual-2026-09-21-ao-355"
     },
     {
@@ -42,8 +41,7 @@
       "zeit": "07:13",
       "art": "antwort",
       "themaId": null,
-      "status": "uebersprungen",
-      "fehler": "2026-09-21T06:43:53.579Z Quiz-Paar inkonsistent: Quiz-Kachel ohne Paar-Schluessel",
+      "status": "geplant",
       "pairId": "manual-2026-09-21-ao-355"
     },
     {
