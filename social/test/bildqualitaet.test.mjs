@@ -46,8 +46,7 @@ test("Bild-Layout: Fotokarten werden vollständig gezeigt statt mit cover abgesc
 test("Fachgebundene Klausurtechnik nutzt Klausurfarbe plus sekundäres Badge", () => {
   const ctx = kontext({
     stil: "bunt",
-    fach: "kst",
-    fachLabel: "Gewerbesteuer",
+    fach: "gewst",
     klausur: 2,
     formatLabel: "Klausurtechnik",
   });
