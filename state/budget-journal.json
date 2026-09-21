@@ -41,11 +41,24 @@
       "attempt": 1,
       "slot": "advance customer payment with next-year service calendar",
       "reservedUsd": 0.01,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.01,
+      "state": "settled",
       "createdAt": "2026-09-21T18:45:47.507Z",
-      "updatedAt": "2026-09-21T18:45:48.948Z"
+      "updatedAt": "2026-09-21T18:46:01.656Z"
+    },
+    {
+      "reservationId": "2026-09-21-0004-erklaerbild",
+      "date": "2026-09-21",
+      "bucket": "core",
+      "purpose": "erklaerbild",
+      "attempt": 1,
+      "slot": "student reviewing tax document",
+      "reservedUsd": 0.01,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-21T18:46:01.924Z",
+      "updatedAt": "2026-09-21T18:46:01.924Z"
     }
   ],
-  "stand": "2026-09-21T18:45:48.948Z"
+  "stand": "2026-09-21T18:46:01.924Z"
 }
