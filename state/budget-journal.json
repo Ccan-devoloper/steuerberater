@@ -29,10 +29,10 @@
       "slot": "prepaid insurance invoice marked next year",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-21T18:45:26.915Z",
-      "updatedAt": "2026-09-21T18:45:26.915Z"
+      "updatedAt": "2026-09-21T18:45:28.365Z"
     }
   ],
-  "stand": "2026-09-21T18:45:26.915Z"
+  "stand": "2026-09-21T18:45:28.365Z"
 }
