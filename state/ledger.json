@@ -3842,7 +3842,24 @@
       "fach": "ao",
       "titel": "Einspruch stoppt die Vollziehung nicht",
       "medienId": "17910960753520162",
-      "veroeffentlicht": "2026-09-21T15:44:15.102Z"
+      "veroeffentlicht": "2026-09-21T15:44:15.102Z",
+      "insights": {
+        "reach": 5,
+        "views": 10,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 4,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-09-21T17:11:47.492Z",
+      "insightsAlterStunden": 1.5
     }
   ],
   "fachZaehler": {
