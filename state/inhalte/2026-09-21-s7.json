@@ -1,0 +1,17 @@
+{
+  "slot": "s7",
+  "art": "formel",
+  "fach": "gewst",
+  "klausur": 2,
+  "pairId": "manual-2026-09-21-gewst-formel",
+  "titel": "Steuermessbetrag bei der Gewerbesteuer",
+  "text": "Nach Abrundung und einschlägigem Freibetrag: verbleibender Gewerbeertrag × *3,5 %* = Steuermessbetrag.",
+  "formel": "Steuermessbetrag = Gewerbeertrag nach § 11 Abs. 1 GewStG × 3,5 %",
+  "fachLabel": "Gewerbesteuer",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-21",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-21T05:14:39.979Z"
+}

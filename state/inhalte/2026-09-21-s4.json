@@ -1,0 +1,23 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "ao",
+  "klausur": 1,
+  "pairId": "manual-2026-09-21-ao-355",
+  "ueberzeile": "Richtig ist B",
+  "titel": "Ein Monat nach Bekanntgabe",
+  "text": "§ 355 Abs. 1 AO: Der Einspruch nach § 347 Abs. 1 S. 1 AO ist innerhalb *eines Monats nach Bekanntgabe* des Verwaltungsakts einzulegen.",
+  "optionen": [
+    "Eine Woche",
+    "Ein Monat",
+    "Drei Monate"
+  ],
+  "richtig": 1,
+  "fachLabel": "Abgabenordnung",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-21",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-21T05:14:39.979Z"
+}

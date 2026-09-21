@@ -1,0 +1,125 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Bezahlt vor dem Stichtag – Aufwand später?",
+      "unter": "Dann denk an den aktiven RAP",
+      "icon": "kalender",
+      "sprecher": "Du zahlst noch vor dem Bilanzstichtag, aber der Aufwand gehört in eine bestimmte Zeit danach. Genau dann musst du an Rechnungsabgrenzung denken.",
+      "marken": [
+        "Zahlung *vorher* · Aufwand *nachher*"
+      ],
+      "bildSzene": "calendar next to invoice and bank transfer receipt",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Aktiver RAP",
+      "text": "Ausgabe vor dem Stichtag, Aufwand für eine bestimmte Zeit danach.",
+      "icon": "pfeilrechts",
+      "sprecher": "Aktiver Rechnungsabgrenzungsposten: Die Ausgabe liegt vor dem Stichtag, der Aufwand betrifft eine bestimmte Zeit nach dem Stichtag. Handelsrechtlich steht das in Paragraf 250 Absatz 1 HGB.",
+      "marken": [
+        "Ausgabe vorher → *Aufwand später*"
+      ],
+      "bildSzene": "prepaid insurance invoice marked next year",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Passiver RAP",
+      "text": "Einnahme vor dem Stichtag, Ertrag für eine bestimmte Zeit danach.",
+      "icon": "pfeillinks",
+      "sprecher": "Passiv ist es spiegelbildlich: Geld kommt vor dem Stichtag rein, der Ertrag gehört aber in eine bestimmte Zeit danach. Das ist Paragraf 250 Absatz 2 HGB.",
+      "marken": [
+        "Einnahme vorher → *Ertrag später*"
+      ],
+      "bildSzene": "advance customer payment with next-year service calendar",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Steuerbilanz mitdenken",
+      "text": "§ 5 Abs. 5 EStG übernimmt dieselbe Grundlogik.",
+      "icon": "paragraf",
+      "sprecher": "Für die Steuerbilanz findest du dieselbe Grundlogik in Paragraf 5 Absatz 5 EStG.",
+      "marken": [
+        "§ 5 Abs. 5 *EStG*"
+      ],
+      "bildSzene": "tax balance sheet with active and passive columns",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 4,
+      "titel": "800-Euro-Wahlrecht",
+      "text": "Bis einschließlich 800 € je Ausgabe/Einnahme darf der steuerliche RAP entfallen – einheitliche Ausübung.",
+      "icon": "rechner",
+      "sprecher": "Steuerlich gibt es ein Wahlrecht: Übersteigt die jeweilige Ausgabe oder Einnahme 800 Euro nicht, kann der RAP unterbleiben. Das Wahlrecht musst du für diese Fälle einheitlich ausüben.",
+      "marken": [
+        "≤ 800 €: *Wahlrecht*"
+      ],
+      "bildSzene": "invoice showing 800 euros beside tax checklist",
+      "kreuz": true
+    },
+    {
+      "art": "merke",
+      "titel": "Die Richtung entscheidet",
+      "text": "Vorher zahlen, später Aufwand = aktiv. Vorher kassieren, später Ertrag = passiv.",
+      "icon": "buch",
+      "sprecher": "Merk dir nur die Richtung: vorher zahlen, später Aufwand – aktiv. Vorher kassieren, später Ertrag – passiv.",
+      "marken": [
+        "*Zahlung* zeigt die Seite"
+      ],
+      "kreuz": false
+    },
+    {
+      "art": "cta",
+      "titel": "Speichern für Bilanz",
+      "text": "Einmal die Richtung merken, dann ist der RAP kein Ratespiel mehr.",
+      "sprecher": "Speicher dir die vier Schritte für die Bilanzklausur und schick sie an deine Lerngruppe.",
+      "marken": [
+        "Speichern & *weiterleiten*"
+      ],
+      "bildSzene": "student reviewing balance sheet notes",
+      "kreuz": false
+    }
+  ],
+  "caption": "Rechnungsabgrenzung am Bilanzstichtag: Ausgabe vorher + Aufwand für eine bestimmte Zeit danach = aktiver RAP. Einnahme vorher + Ertrag für eine bestimmte Zeit danach = passiver RAP. Handelsrechtlich folgt das aus § 250 Abs. 1 und 2 HGB, steuerlich aus § 5 Abs. 5 EStG. Steuerlich kann der Ansatz unterbleiben, wenn die jeweilige Ausgabe oder Einnahme den Betrag des § 6 Abs. 2 S. 1 EStG – aktuell 800 € – nicht übersteigt; dieses Wahlrecht ist einheitlich auszuüben. Speichern für die Bilanzklausur.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#bilanzsteuerrecht",
+    "#rechnungsabgrenzung",
+    "#rap",
+    "#estg",
+    "#hgb",
+    "#steuerrecht",
+    "#examensvorbereitung"
+  ],
+  "kurztitel": "RAP: aktiv oder passiv?",
+  "bildSzene": "calendar split by year end with invoice and payment receipt",
+  "bildSzeneAlt": "balance sheet with active passive labels",
+  "quellen": [
+    "§ 250 HGB",
+    "§ 5 Abs. 5 EStG",
+    "§ 6 Abs. 2 EStG"
+  ],
+  "hookTyp": "frage",
+  "hookMuster": "gegenueberstellung",
+  "bildregie": true,
+  "slug": "2026-09-21-b2",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-21",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-21T05:14:39.979Z"
+}

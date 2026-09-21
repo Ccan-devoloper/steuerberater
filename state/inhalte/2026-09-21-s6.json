@@ -1,0 +1,18 @@
+{
+  "slot": "s6",
+  "art": "countdown",
+  "fach": "ao",
+  "klausur": 1,
+  "ueberzeile": "Noch",
+  "titel": "Tage bis zur schriftlichen Prüfung",
+  "text": "15 Tage bis zum ersten schriftlichen Prüfungstag am 6. Oktober 2026. Heute: Fristen und Vollziehung in der AO einmal ohne Unterlagen durchprüfen.",
+  "zahl": "15",
+  "fortschritt": 90,
+  "fachLabel": "Abgabenordnung",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-21",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-21T05:14:39.979Z"
+}

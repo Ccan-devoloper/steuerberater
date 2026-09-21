@@ -1,0 +1,91 @@
+{
+  "format": "klausurtechnik",
+  "fach": "gewst",
+  "klausur": 0,
+  "fachLabel": "Gewerbesteuer",
+  "themaId": null,
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Gewerbesteuer in 4 Schritten",
+      "unter": "Vom Gewerbeertrag zum Steuerbetrag",
+      "icon": "rechner",
+      "pille": "Swipen →",
+      "hinweis": "Klausurweg"
+    },
+    {
+      "art": "schritte",
+      "titel": "So rechnest du sauber",
+      "schritte": [
+        {
+          "titel": "1. Abrunden",
+          "text": "Den maßgeblichen Gewerbeertrag nach § 11 Abs. 1 GewStG auf volle *100 € nach unten* abrunden."
+        },
+        {
+          "titel": "2. Freibetrag prüfen",
+          "text": "Bei natürlichen Personen und Personengesellschaften: bis zu *24.500 €* abziehen, § 11 Abs. 1 S. 3 Nr. 1 GewStG."
+        },
+        {
+          "titel": "3. Steuermessbetrag",
+          "text": "Verbleibender Gewerbeertrag × *3,5 % Steuermesszahl*, § 11 Abs. 2 GewStG."
+        },
+        {
+          "titel": "4. Gewerbesteuer",
+          "text": "Steuermessbetrag × kommunaler *Hebesatz*, § 16 Abs. 1 GewStG."
+        }
+      ],
+      "icon": "liste"
+    },
+    {
+      "art": "text",
+      "titel": "Die typische Falle",
+      "punkte": [
+        "Den Freibetrag von 24.500 € nicht pauschal bei jeder Rechtsform abziehen.",
+        "Erst abrunden und Freibetrag prüfen, dann die Steuermesszahl anwenden.",
+        "3,5 % ergeben den *Steuermessbetrag* – noch nicht die endgültige Gewerbesteuer.",
+        "Für die Steuer kommt erst danach der Hebesatz der hebeberechtigten Gemeinde hinzu."
+      ],
+      "icon": "warnung"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Abrunden → Freibetrag → 3,5 % → Hebesatz.",
+      "icon": "buch"
+    },
+    {
+      "art": "cta",
+      "titel": "Für die Klausur speichern",
+      "text": "Vier Schritte, eine feste Reihenfolge. Speichern und vor der nächsten K2-Klausur einmal ohne Vorlage durchrechnen.",
+      "icon": "lesezeichen"
+    }
+  ],
+  "caption": "Gewerbesteuer ohne Rechenchaos: Der Weg ist immer derselbe. Maßgeblichen Gewerbeertrag auf volle 100 € nach unten abrunden, den einschlägigen Freibetrag prüfen, mit 3,5 % den Steuermessbetrag ermitteln und erst danach den kommunalen Hebesatz anwenden. Wichtig: Der Freibetrag von 24.500 € nach § 11 Abs. 1 GewStG gilt für natürliche Personen und Personengesellschaften – nicht pauschal für jede Rechtsform. Speichern für die nächste K2-Wiederholung.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#gewerbesteuer",
+    "#gewst",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#klausurtechnik",
+    "#steuerberater"
+  ],
+  "kurztitel": "GewSt in 4 Schritten",
+  "bildSzene": "calculator beside tax return and handwritten four-step checklist",
+  "bildSzeneAlt": "notebook with percentage calculation and tax documents",
+  "quellen": [
+    "§ 11 GewStG",
+    "§ 16 GewStG"
+  ],
+  "hookTyp": "zahl",
+  "hookMuster": "schema",
+  "slug": "2026-09-21-b1",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-21",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-21T05:14:39.979Z"
+}

@@ -1,0 +1,18 @@
+{
+  "slot": "s9",
+  "art": "begriff",
+  "fach": "ao",
+  "klausur": 1,
+  "pairId": "manual-2026-09-21-ao-164",
+  "titel": "Vorbehalt der Nachprüfung",
+  "text": "Solange der Vorbehalt wirksam ist, kann die Steuerfestsetzung nach § 164 Abs. 2 AO *aufgehoben oder geändert* werden; der Steuerpflichtige kann die Änderung jederzeit beantragen.",
+  "norm": "§ 164 Abs. 2 AO",
+  "icon": "aktenschrank",
+  "fachLabel": "Abgabenordnung",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-21",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-21T05:14:39.979Z"
+}

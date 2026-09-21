@@ -1,0 +1,19 @@
+{
+  "slot": "s5",
+  "art": "norm",
+  "fach": "bilanz",
+  "klausur": 3,
+  "pairId": "manual-2026-09-21-rap",
+  "ueberzeile": "Norm des Tages",
+  "titel": "Rechnungsabgrenzung folgt der Zeit",
+  "text": "§ 5 Abs. 5 EStG: *Ausgabe vorher + Aufwand später* = aktiver RAP; *Einnahme vorher + Ertrag später* = passiver RAP – jeweils für eine bestimmte Zeit nach dem Stichtag.",
+  "norm": "§ 5 Abs. 5 EStG",
+  "icon": "paragraf",
+  "fachLabel": "Bilanzsteuerrecht",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-21",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-21T05:14:39.979Z"
+}

@@ -1,0 +1,21 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "ao",
+  "klausur": 1,
+  "pairId": "manual-2026-09-21-ao-355",
+  "ueberzeile": "Prüfungsfrage AO",
+  "titel": "Wie lang ist die reguläre Einspruchsfrist nach § 355 Abs. 1 AO?",
+  "optionen": [
+    "Eine Woche",
+    "Ein Monat",
+    "Drei Monate"
+  ],
+  "fachLabel": "Abgabenordnung",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-21",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-21T05:14:39.979Z"
+}
