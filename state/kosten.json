@@ -278,16 +278,16 @@
       "stand": "2026-09-20T12:43:38.674Z"
     },
     "2026-09-21": {
-      "usd": 0.03,
+      "usd": 0.04,
       "antworten": 0,
-      "aufrufe": 3,
+      "aufrufe": 4,
       "zwecke": {
-        "erklaerbild": 0.03
+        "erklaerbild": 0.04
       },
       "messungen": {
         "erklaerbild": 0.01
       },
-      "stand": "2026-09-21T18:46:01.656Z"
+      "stand": "2026-09-21T18:46:15.400Z"
     }
   }
 }
