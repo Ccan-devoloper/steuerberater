@@ -11,6 +11,8 @@ const FACH_KATEGORIE = Object.freeze({
   ao: 1,
   ust: 1,
   erbst: 1,
+  est: 2,
+  gewst: 2,
   kst: 2,
   istr: 2,
   bilanz: 3,
