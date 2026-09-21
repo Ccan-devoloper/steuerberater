@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-21T07:35:22.806Z",
+  "stand": "2026-09-21T11:04:44.836Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -882,6 +882,23 @@
           "navigation_tap_forward": 23,
           "navigation_swipe_forward": 2,
           "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-09-21T11:04:35.932Z",
+          "alterStunden": 23.3,
+          "reach": 30,
+          "views": 38,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 34,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 26,
+          "navigation_tap_exit": 4
         }
       ]
     },
@@ -927,6 +944,23 @@
           "navigation_tap_forward": 15,
           "navigation_tap_exit": 6,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-09-21T11:04:35.932Z",
+          "alterStunden": 21.3,
+          "reach": 27,
+          "views": 31,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 18,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -972,6 +1006,23 @@
           "navigation_tap_forward": 19,
           "navigation_swipe_forward": 2,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-09-21T11:04:35.932Z",
+          "alterStunden": 19.3,
+          "reach": 30,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 30,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 20,
+          "navigation_tap_exit": 7
         }
       ]
     },
@@ -1016,6 +1067,23 @@
           "navigation": 24,
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 15,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 4
+        },
+        {
+          "stand": "2026-09-21T11:04:35.932Z",
+          "alterStunden": 17.4,
+          "reach": 25,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 28,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 19,
           "navigation_tap_back": 2,
           "navigation_swipe_forward": 4
         }
@@ -1170,6 +1238,62 @@
           "reels_skip_rate": 79.6
         }
       ]
+    },
+    "18435554488195838": {
+      "art": "story",
+      "datum": "2026-09-21",
+      "titel": "Wie lang ist die reguläre Einspruchsfrist nach § 355 Abs. 1 AO?",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-21T07:38:04.968Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T11:04:35.932Z",
+          "alterStunden": 3.4,
+          "reach": 20,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_tap_exit": 1,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 17
+        }
+      ]
+    },
+    "18060540986619019": {
+      "art": "story",
+      "datum": "2026-09-21",
+      "titel": "Ein Monat nach Bekanntgabe",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-21T07:38:15.107Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T11:04:35.932Z",
+          "alterStunden": 3.4,
+          "reach": 18,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 12
+        }
+      ]
     }
   },
   "konto": [
@@ -1191,6 +1315,11 @@
     {
       "stand": "2026-09-21T07:35:22.806Z",
       "follower": 69,
+      "medien": 53
+    },
+    {
+      "stand": "2026-09-21T11:04:44.836Z",
+      "follower": 70,
       "medien": 53
     }
   ]

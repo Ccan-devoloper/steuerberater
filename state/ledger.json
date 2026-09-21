@@ -3526,22 +3526,22 @@
       "medienId": "18098715815065919",
       "veroeffentlicht": "2026-09-20T11:44:35.881Z",
       "insights": {
-        "reach": 26,
-        "views": 34,
+        "reach": 30,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 31,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 23,
+        "navigation": 34,
+        "navigation_tap_back": 2,
         "navigation_swipe_forward": 2,
-        "navigation_tap_back": 2
+        "navigation_tap_forward": 26,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-09-21T05:44:17.148Z",
-      "insightsAlterStunden": 18
+      "insightsStand": "2026-09-21T11:04:35.932Z",
+      "insightsAlterStunden": 23.3
     },
     {
       "datum": "2026-09-20",
@@ -3554,22 +3554,22 @@
       "medienId": "18127601329835154",
       "veroeffentlicht": "2026-09-20T13:43:59.223Z",
       "insights": {
-        "reach": 23,
-        "views": 27,
+        "reach": 27,
+        "views": 31,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 15,
+        "navigation": 27,
+        "navigation_tap_back": 1,
         "navigation_tap_exit": 6,
-        "navigation_tap_back": 1
+        "navigation_tap_forward": 18,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-09-21T05:44:17.148Z",
-      "insightsAlterStunden": 16
+      "insightsStand": "2026-09-21T11:04:35.932Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-09-20",
@@ -3582,22 +3582,22 @@
       "medienId": "18461219239187148",
       "veroeffentlicht": "2026-09-20T15:44:27.673Z",
       "insights": {
-        "reach": 26,
-        "views": 29,
+        "reach": 30,
+        "views": 33,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 19,
+        "navigation": 30,
+        "navigation_tap_back": 1,
         "navigation_swipe_forward": 2,
-        "navigation_tap_back": 1
+        "navigation_tap_forward": 20,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-09-21T05:44:17.148Z",
-      "insightsAlterStunden": 14
+      "insightsStand": "2026-09-21T11:04:35.932Z",
+      "insightsAlterStunden": 19.3
     },
     {
       "datum": "2026-09-20",
@@ -3610,22 +3610,22 @@
       "medienId": "18486534178109512",
       "veroeffentlicht": "2026-09-20T17:40:34.084Z",
       "insights": {
-        "reach": 21,
-        "views": 29,
+        "reach": 25,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 24,
+        "navigation": 28,
         "navigation_tap_exit": 3,
-        "navigation_tap_forward": 15,
+        "navigation_tap_forward": 19,
         "navigation_tap_back": 2,
         "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-09-21T05:44:17.148Z",
-      "insightsAlterStunden": 12.1
+      "insightsStand": "2026-09-21T11:04:35.932Z",
+      "insightsAlterStunden": 17.4
     },
     {
       "datum": "2026-09-21",
@@ -3636,7 +3636,24 @@
       "fach": "ao",
       "titel": "Wie lang ist die reguläre Einspruchsfrist nach § 355 Abs. 1 AO?",
       "medienId": "18435554488195838",
-      "veroeffentlicht": "2026-09-21T07:38:04.968Z"
+      "veroeffentlicht": "2026-09-21T07:38:04.968Z",
+      "insights": {
+        "reach": 20,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 21,
+        "navigation_tap_exit": 1,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 17
+      },
+      "insightsStand": "2026-09-21T11:04:35.932Z",
+      "insightsAlterStunden": 3.4
     },
     {
       "datum": "2026-09-21",
@@ -3647,7 +3664,22 @@
       "fach": "ao",
       "titel": "Ein Monat nach Bekanntgabe",
       "medienId": "18060540986619019",
-      "veroeffentlicht": "2026-09-21T07:38:15.107Z"
+      "veroeffentlicht": "2026-09-21T07:38:15.107Z",
+      "insights": {
+        "reach": 18,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 12
+      },
+      "insightsStand": "2026-09-21T11:04:35.932Z",
+      "insightsAlterStunden": 3.4
     }
   ],
   "fachZaehler": {
