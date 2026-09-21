@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-21T18:43:59.988Z",
+  "stand": "2026-09-21T19:43:42.431Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -1671,6 +1671,61 @@
           "navigation_tap_back": 1
         }
       ]
+    },
+    "18114640477796259": {
+      "art": "story",
+      "datum": "2026-09-21",
+      "titel": "Vorbehalt der Nachprüfung",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-21T17:44:12.989Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T19:43:40.238Z",
+          "alterStunden": 2,
+          "reach": 14,
+          "views": 18,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 10,
+          "navigation_tap_exit": 2,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18182430802418998": {
+      "art": "beitrag",
+      "datum": "2026-09-21",
+      "titel": "Bezahlt vor dem Stichtag – Aufwand später?",
+      "format": "reel",
+      "fach": "bilanz",
+      "hook": "frage",
+      "dauer": 63.1,
+      "veroeffentlicht": "2026-09-21T18:49:04.109Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T19:43:41.336Z",
+          "alterStunden": 0.9,
+          "reach": 17,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 26,
+          "ig_reels_avg_watch_time": 16176,
+          "ig_reels_video_view_total_time": 275003,
+          "reels_skip_rate": 56.3
+        }
+      ]
     }
   },
   "konto": [
@@ -1733,6 +1788,11 @@
       "stand": "2026-09-21T18:43:59.988Z",
       "follower": 71,
       "medien": 54
+    },
+    {
+      "stand": "2026-09-21T19:43:42.431Z",
+      "follower": 71,
+      "medien": 55
     }
   ]
 }
