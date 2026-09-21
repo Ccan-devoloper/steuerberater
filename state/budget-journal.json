@@ -16,10 +16,10 @@
       "slot": "calendar next to invoice and bank transfer receipt",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-21T18:45:13.164Z",
-      "updatedAt": "2026-09-21T18:45:13.164Z"
+      "updatedAt": "2026-09-21T18:45:14.759Z"
     }
   ],
-  "stand": "2026-09-21T18:45:13.164Z"
+  "stand": "2026-09-21T18:45:14.759Z"
 }
