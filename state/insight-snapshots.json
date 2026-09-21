@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-21T11:04:44.836Z",
+  "stand": "2026-09-21T12:44:06.370Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -1294,6 +1294,87 @@
           "navigation_tap_forward": 12
         }
       ]
+    },
+    "18163249348478147": {
+      "art": "story",
+      "datum": "2026-09-21",
+      "titel": "Rechnungsabgrenzung folgt der Zeit",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-21T11:06:21.071Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T12:44:03.086Z",
+          "alterStunden": 1.6,
+          "reach": 13,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 8,
+          "navigation_tap_exit": 5
+        }
+      ]
+    },
+    "18061203734786271": {
+      "art": "story",
+      "datum": "2026-09-21",
+      "titel": "GewSt in 4 Schritten",
+      "format": null,
+      "fach": "gewst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-21T11:06:31.245Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T12:44:03.086Z",
+          "alterStunden": 1.6,
+          "reach": 10,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 9,
+          "navigation_tap_exit": 2,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18076955315442855": {
+      "art": "beitrag",
+      "datum": "2026-09-21",
+      "titel": "Gewerbesteuer in 4 Schritten",
+      "format": "klausurtechnik",
+      "fach": "gewst",
+      "hook": "zahl",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-21T11:06:08.864Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-21T12:44:05.548Z",
+          "alterStunden": 1.6,
+          "reach": 12,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 2
+        }
+      ]
     }
   },
   "konto": [
@@ -1321,6 +1402,11 @@
       "stand": "2026-09-21T11:04:44.836Z",
       "follower": 70,
       "medien": 53
+    },
+    {
+      "stand": "2026-09-21T12:44:06.370Z",
+      "follower": 70,
+      "medien": 54
     }
   ]
 }

@@ -3707,7 +3707,19 @@
         "#steuerberater"
       ],
       "veroeffentlicht": "2026-09-21T11:06:08.864Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 12,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 2
+      },
+      "insightsStand": "2026-09-21T12:44:05.548Z",
+      "insightsAlterStunden": 1.6
     },
     {
       "datum": "2026-09-21",
@@ -3718,7 +3730,23 @@
       "fach": "bilanz",
       "titel": "Rechnungsabgrenzung folgt der Zeit",
       "medienId": "18163249348478147",
-      "veroeffentlicht": "2026-09-21T11:06:21.071Z"
+      "veroeffentlicht": "2026-09-21T11:06:21.071Z",
+      "insights": {
+        "reach": 13,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 8,
+        "navigation_tap_exit": 5
+      },
+      "insightsStand": "2026-09-21T12:44:03.086Z",
+      "insightsAlterStunden": 1.6
     },
     {
       "datum": "2026-09-21",
@@ -3729,7 +3757,24 @@
       "fach": "gewst",
       "titel": "GewSt in 4 Schritten",
       "medienId": "18061203734786271",
-      "veroeffentlicht": "2026-09-21T11:06:31.245Z"
+      "veroeffentlicht": "2026-09-21T11:06:31.245Z",
+      "insights": {
+        "reach": 10,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 2,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-09-21T12:44:03.086Z",
+      "insightsAlterStunden": 1.6
     },
     {
       "datum": "2026-09-21",
