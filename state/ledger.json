@@ -3789,21 +3789,21 @@
       "medienId": "18126498808888105",
       "veroeffentlicht": "2026-09-21T11:44:10.418Z",
       "insights": {
-        "reach": 12,
-        "views": 14,
+        "reach": 20,
+        "views": 25,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_forward": 6,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 5
+        "navigation": 23,
+        "navigation_tap_exit": 5,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 15
       },
-      "insightsStand": "2026-09-21T13:43:51.650Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-21T17:43:58.311Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-21",
