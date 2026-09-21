@@ -41,3 +41,19 @@ test("Bild-Layout: Fotokarten werden vollständig gezeigt statt mit cover abgesc
   assert.doesNotMatch(html, /\.foto img\{[^}]*object-fit:cover/);
   assert.match(html, /\.frei\{position:absolute;right:36px;bottom:34px/);
 });
+
+
+test("Fachgebundene Klausurtechnik nutzt Klausurfarbe plus sekundäres Badge", () => {
+  const ctx = kontext({
+    stil: "bunt",
+    fach: "kst",
+    fachLabel: "Gewerbesteuer",
+    klausur: 2,
+    formatLabel: "Klausurtechnik",
+  });
+  const html = folieHtml({ art:"titel", titel:"Gewerbesteuer in 4 Schritten", icon:"rechner" }, ctx, 1, 5);
+  assert.match(html, /<div class="format-badge">Klausurtechnik<\/div>/);
+  assert.match(html, /--grund:#ff7a45/);
+  assert.match(html, />Gewerbesteuer<\/span>/);
+  assert.match(html, /Klausur 2 · Tag 2/);
+});
