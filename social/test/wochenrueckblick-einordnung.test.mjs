@@ -24,7 +24,7 @@ test("Fachgebundene Klausurtechnik behält den Klausurtag des Themas", () => {
 });
 
 test("Gewerbesteuer-Klausurtechnik gehört zu Klausur 2", () => {
-  const meta = beitragsEinordnung("klausurtechnik", { fach: "gewst" });
+  const meta = beitragsEinordnung("klausurtechnik", { fach: "gewst", klausur: 0 });
   assert.deepEqual(meta, {
     fach: "gewst",
     klausur: 2,
