@@ -100,14 +100,25 @@ export const FORMATE = {
 const KANAL = CONFIG.marke.name ? `des Instagram-Kanals „${CONFIG.marke.name}“` : "eines Instagram-Kanals";
 
 /* Format-Metadaten für das sichtbare Fach-Etikett und die Feed-Farbe.
-   Klausurtechnik/Kopfsache ist immer violett (0), der Wochenrückblick hat
-   seine eigene goldene Kategorie (4). Fachbeiträge bleiben K1–K3. */
+   Der Klausurtag ist die primäre Einordnung. Deshalb behält auch das Format
+   Klausurtechnik bei einem fachlichen Themen-Skelett dessen K1/K2/K3-Farbe.
+   Violett (0) bleibt für wirklich fachübergreifende Klausurtechnik/Kopfsache;
+   der Wochenrückblick hat seine eigene goldene Kategorie (4). */
 export function beitragsEinordnung(format, thema = null, recherche = null, fallbackFach = "bilanz", fallbackKlausur = 3) {
   if (format === "wochenrueckblick") {
     return { fach: null, klausur: 4, fachLabel: FORMATE.wochenrueckblick.label };
   }
   if (format === "klausurtechnik") {
-    return { fach: thema?.fach || recherche?.fach || null, klausur: 0, fachLabel: FORMATE.klausurtechnik.label };
+    const fach = thema?.fach || recherche?.fach || null;
+    const fachKlausur = Number(thema?.klausur ?? FAECHER[fach]?.klausur);
+    if (fach && [1, 2, 3].includes(fachKlausur)) {
+      return {
+        fach,
+        klausur: fachKlausur,
+        fachLabel: FAECHER[fach]?.label || "Steuerberaterexamen",
+      };
+    }
+    return { fach, klausur: 0, fachLabel: FORMATE.klausurtechnik.label };
   }
   const fach = thema?.fach || recherche?.fach || fallbackFach;
   return {
@@ -133,7 +144,7 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Unterscheide Inhalt von Verpackung: Der Prüfungsstoff (Normen, Definitionen, Prüfungsreihenfolgen, Rechtsfolgen) ist frei. Merkhilfen, Eselsbrücken, Kürzel und selbst benannte Methoden anderer Dozenten („EIS-Methode“, „ABBA-Schema“ und alles nach diesem Muster) sind deren Eigenschöpfung – die übernimmst du nie, auch nicht umschrieben oder umbenannt. Erkläre stattdessen den Inhalt in eigener Struktur, ohne Kürzel.
 
 ## Marke und Aufforderung (CTA)
-- Markenkern: „Examensvorbereitung, sortiert nach Klausurtag“. Fachbeiträge gehören zu genau einem Prüfungstag (Klausur 1 · Tag 1: AO/USt/ErbSt · Klausur 2 · Tag 2: Ertragsteuern · Klausur 3 · Tag 3: Bilanz). Zwei Formate sind bewusst fachübergreifend: Klausurtechnik/Kopfsache (violett) und der Wochenrückblick (gold). Bei ihnen keinen einzelnen Klausurtag als Dach nennen, auch wenn das Themen-Skelett aus einem Fach stammt. Bei normalen Fachbeiträgen darf der Klausurtag benannt werden („Das ist Klausur-3-Stoff.“).
+- Markenkern: „Examensvorbereitung, sortiert nach Klausurtag“. Fachbeiträge gehören zu genau einem Prüfungstag (Klausur 1 · Tag 1: AO/USt/ErbSt · Klausur 2 · Tag 2: Ertragsteuern · Klausur 3 · Tag 3: Bilanz). Das Format „Klausurtechnik“ ist nur die Vermittlungsform: Wenn das Themen-Skelett einem Fach und damit K1/K2/K3 zugeordnet ist, bleibt dieser Klausurtag das sichtbare Dach; „Klausurtechnik“ wird nur zusätzlich als Format gekennzeichnet. Violett ist ausschließlich für wirklich fachübergreifende Klausurtechnik/Kopfsache ohne einzelnen Prüfungstag reserviert. Der Wochenrückblick bleibt fachübergreifend und gold. Bei fachgebundener Klausurtechnik und anderen Fachbeiträgen darf der Klausurtag benannt werden („Das ist Klausur-2-Stoff.“).
 - Der wichtigste Wachstumsmotor sind Lerngruppen (WhatsApp, Telegram): Jeder Beitrag ist so gebaut, dass man ihn weiterleitet. Haupt-CTA daher immer „Schick das deiner Lerngruppe“ (oder gleichwertig), zweitens „Speichern“, drittens „Folgen“. Nie nur „Speicher dir das“.
 - Die Weiterleitungs-CTA nennt möglichst einen konkreten Anlass oder Empfänger aus dem Thema („Schick das der Person in deiner Lerngruppe, die X und Y verwechselt“ / „Schickt euch das vor Tag 2 noch einmal“), statt nur abstrakt „Teilen“ zu sagen. Kein künstlicher Druck.
 - Nähe statt Konzern: Fragen in den Kommentaren werden beantwortet, DM ist erlaubt („Schreib mir, wenn etwas unklar ist“). Keine Verkaufsbotschaft, kein Kurs, kein Produkt – jetzt zählen Reichweite, Saves und Weiterleitungen.
