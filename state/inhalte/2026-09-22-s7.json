@@ -4,9 +4,13 @@
   "fach": "ao",
   "klausur": 1,
   "pairId": "ao-modul-ao-303",
-  "titel": "Auskunftsersuchen nach § 93 AO",
-  "text": "Formfrei ist der Regelfall – fehlt die Belehrung, verlängert sich nur die Frist, nicht die Wirksamkeit.",
+  "titel": "§ 93 AO: Schriftform nur auf Verlangen",
+  "text": "Auskunftsersuchen sind grundsätzlich formfrei; auf Verlangen des Auskunftspflichtigen schriftlich, § 93 Abs. 2 AO. Fehlt einem schriftlichen oder elektronischen Verwaltungsakt die Rechtsbehelfsbelehrung, gilt regelmäßig die Jahresfrist des § 356 Abs. 2 AO.",
   "fachLabel": "Abgabenordnung",
   "befundeTypisiert": true,
-  "fachStand": "11u3nnk-228"
+  "fachStand": "manuell-2026-09-22",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-22T10:08:00.000Z"
 }
