@@ -1,5 +1,5 @@
 {
-  "datum": "2026-09-21",
+  "datum": "2026-09-22",
   "kanal": "examenscampus",
   "legacyBaseline": {
     "core": 0,
@@ -8,70 +8,18 @@
   },
   "eintraege": [
     {
-      "reservationId": "2026-09-21-0001-erklaerbild",
-      "date": "2026-09-21",
+      "reservationId": "2026-09-22-0001-stories",
+      "date": "2026-09-22",
       "bucket": "core",
-      "purpose": "erklaerbild",
+      "purpose": "stories",
       "attempt": 1,
-      "slot": "calendar next to invoice and bank transfer receipt",
-      "reservedUsd": 0.01,
-      "actualUsd": 0.01,
-      "state": "settled",
-      "createdAt": "2026-09-21T18:45:13.164Z",
-      "updatedAt": "2026-09-21T18:45:25.808Z"
-    },
-    {
-      "reservationId": "2026-09-21-0002-erklaerbild",
-      "date": "2026-09-21",
-      "bucket": "core",
-      "purpose": "erklaerbild",
-      "attempt": 1,
-      "slot": "prepaid insurance invoice marked next year",
-      "reservedUsd": 0.01,
-      "actualUsd": 0.01,
-      "state": "settled",
-      "createdAt": "2026-09-21T18:45:26.915Z",
-      "updatedAt": "2026-09-21T18:45:46.475Z"
-    },
-    {
-      "reservationId": "2026-09-21-0003-erklaerbild",
-      "date": "2026-09-21",
-      "bucket": "core",
-      "purpose": "erklaerbild",
-      "attempt": 1,
-      "slot": "advance customer payment with next-year service calendar",
-      "reservedUsd": 0.01,
-      "actualUsd": 0.01,
-      "state": "settled",
-      "createdAt": "2026-09-21T18:45:47.507Z",
-      "updatedAt": "2026-09-21T18:46:01.656Z"
-    },
-    {
-      "reservationId": "2026-09-21-0004-erklaerbild",
-      "date": "2026-09-21",
-      "bucket": "core",
-      "purpose": "erklaerbild",
-      "attempt": 1,
-      "slot": "student reviewing tax document",
-      "reservedUsd": 0.01,
-      "actualUsd": 0.01,
-      "state": "settled",
-      "createdAt": "2026-09-21T18:46:01.924Z",
-      "updatedAt": "2026-09-21T18:46:15.399Z"
-    },
-    {
-      "reservationId": "2026-09-21-0005-erklaerbild",
-      "date": "2026-09-21",
-      "bucket": "core",
-      "purpose": "erklaerbild",
-      "attempt": 1,
-      "slot": "tax balance sheet with active and passive columns",
-      "reservedUsd": 0.01,
-      "actualUsd": 0.01,
-      "state": "settled",
-      "createdAt": "2026-09-21T18:46:16.289Z",
-      "updatedAt": "2026-09-21T18:46:29.501Z"
+      "slot": "stories",
+      "reservedUsd": 0.113982,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-22T05:44:05.077Z",
+      "updatedAt": "2026-09-22T05:44:05.077Z"
     }
   ],
-  "stand": "2026-09-21T21:14:27.422Z"
+  "stand": "2026-09-22T05:44:05.078Z"
 }
