@@ -4210,6 +4210,38 @@
       "titel": "Falsche Bezeichnung macht den Einspruch nicht unzulässig",
       "medienId": "18134203387573965",
       "veroeffentlicht": "2026-09-22T18:44:34.329Z"
+    },
+    {
+      "datum": "2026-09-22",
+      "art": "beitrag",
+      "slot": "b2",
+      "zeit": "21:00",
+      "stunde": 21,
+      "format": "reel",
+      "thema": "istr-modul-istr-istr1-07",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Auslands-Kapitalgesellschaft: Wo einsteigen?",
+      "hookTyp": "frage",
+      "hookMuster": "pruefreihenfolge",
+      "medienId": "18131884345672991",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#internationalessteuerrecht",
+        "#körperschaftsteuer",
+        "#kstg",
+        "#estg",
+        "#beschränktesteuerpflicht",
+        "#examensvorbereitung"
+      ],
+      "stimmeId": null,
+      "stimmeName": null,
+      "layout": "erklaer",
+      "dauer": 72.1,
+      "veroeffentlicht": "2026-09-22T19:11:22.569Z"
     }
   ],
   "fachZaehler": {
@@ -4218,7 +4250,7 @@
     "kst": 7,
     "ao": 13,
     "bilanz": 15,
-    "istr": 9,
+    "istr": 10,
     "erbst": 3,
     "mindset": 1
   },

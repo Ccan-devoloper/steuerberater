@@ -32,7 +32,10 @@
       "fach": "istr",
       "klausur": 2,
       "lang": false,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18131884345672991",
+      "veroeffentlicht": "2026-09-22T19:11:22.568Z",
+      "kanaele": {}
     }
   ],
   "stories": [
