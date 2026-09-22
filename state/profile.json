@@ -102,16 +102,16 @@
     "profilId": "faktencheck:0231c87ec922",
     "familie": "faktencheck / claude-sonnet-5 / high / 83a585",
     "letzteAusgabeTokens": [],
-    "aufrufeGesamt": 1,
+    "aufrufeGesamt": 2,
     "erfolgreicheAufrufe": 0,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
-    "sonstigeFehler": 1,
+    "sonstigeFehler": 2,
     "aktuellesCeiling": 4000,
     "ceilingGesetztAm": "2026-09-19T08:44:21.758Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-19T08:44:21.758Z"
+    "zuletzt": "2026-09-22T13:44:46.585Z"
   },
   "faktencheck:50fdb59cdf5a": {
     "profilId": "faktencheck:50fdb59cdf5a",
@@ -285,10 +285,11 @@
     "letzteAusgabeTokens": [
       1221,
       283,
-      880
+      880,
+      1948
     ],
-    "aufrufeGesamt": 3,
-    "erfolgreicheAufrufe": 3,
+    "aufrufeGesamt": 4,
+    "erfolgreicheAufrufe": 4,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
@@ -296,7 +297,7 @@
     "aktuellesCeiling": 3000,
     "ceilingGesetztAm": "2026-09-20T05:45:44.367Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-22T11:45:14.078Z"
+    "zuletzt": "2026-09-22T13:44:46.452Z"
   },
   "reel:ab9e80703304": {
     "profilId": "reel:ab9e80703304",
@@ -416,10 +417,11 @@
     "familie": "autor / claude-sonnet-5 / low / 457eb0",
     "letzteAusgabeTokens": [
       1735,
-      2064
+      2064,
+      2304
     ],
-    "aufrufeGesamt": 2,
-    "erfolgreicheAufrufe": 2,
+    "aufrufeGesamt": 3,
+    "erfolgreicheAufrufe": 3,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
@@ -427,7 +429,7 @@
     "aktuellesCeiling": 6000,
     "ceilingGesetztAm": "2026-09-22T05:45:45.051Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-22T11:44:58.472Z"
+    "zuletzt": "2026-09-22T13:44:24.180Z"
   },
   "reel:c491733aca43": {
     "profilId": "reel:c491733aca43",
