@@ -94,10 +94,10 @@
       "slot": "reel",
       "reservedUsd": 0.10988,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-22T05:45:51.154Z",
-      "updatedAt": "2026-09-22T05:45:51.154Z"
+      "updatedAt": "2026-09-22T05:45:52.242Z"
     }
   ],
-  "stand": "2026-09-22T05:45:51.154Z"
+  "stand": "2026-09-22T05:45:52.242Z"
 }
