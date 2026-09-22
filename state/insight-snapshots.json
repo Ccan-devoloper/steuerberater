@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-22T16:43:50.299Z",
+  "stand": "2026-09-22T17:44:38.802Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -1955,6 +1955,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-09-22T17:44:37.781Z",
+          "alterStunden": 30.6,
+          "reach": 26,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -2701,6 +2713,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-22T17:44:37.781Z",
+          "alterStunden": 8,
+          "reach": 22,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -2817,6 +2841,22 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 8,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-09-22T17:44:35.194Z",
+          "alterStunden": 6,
+          "reach": 21,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 18,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -2845,6 +2885,34 @@
           "navigation_tap_forward": 6,
           "navigation_tap_back": 1,
           "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "17970397188160072": {
+      "art": "story",
+      "datum": "2026-09-22",
+      "titel": "§ 15a EStG in vier Schritten",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-22T16:44:04.019Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-22T17:44:35.194Z",
+          "alterStunden": 1,
+          "reach": 10,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 11,
+          "navigation_tap_forward": 9,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 1
         }
       ]
     }
@@ -2977,6 +3045,11 @@
     },
     {
       "stand": "2026-09-22T16:43:50.299Z",
+      "follower": 72,
+      "medien": 56
+    },
+    {
+      "stand": "2026-09-22T17:44:38.802Z",
       "follower": 72,
       "medien": 56
     }
