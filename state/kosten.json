@@ -296,18 +296,18 @@
       "stand": "2026-09-21T18:46:29.501Z"
     },
     "2026-09-22": {
-      "usd": 0.0679,
+      "usd": 0.0793,
       "antworten": 0,
-      "aufrufe": 2,
+      "aufrufe": 3,
       "zwecke": {
-        "stories": 0.0604,
+        "stories": 0.0717,
         "story-faktencheck": 0.0075
       },
       "messungen": {
         "stories": 0.0604,
         "story-faktencheck": 0.0075
       },
-      "stand": "2026-09-22T05:45:09.472Z"
+      "stand": "2026-09-22T05:45:17.474Z"
     }
   }
 }

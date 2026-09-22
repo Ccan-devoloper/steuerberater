@@ -1,0 +1,24 @@
+{
+  "datum": "2026-09-22",
+  "zweck": "stories",
+  "daten": {
+    "stories": [
+      {
+        "slot": "s8",
+        "art": "begriff",
+        "ueberzeile": null,
+        "titel": "§ 15a EStG in vier Schritten",
+        "text": "1. Ist die Person Kommanditist oder vergleichbar beschränkt haftend? 2. Kapitalkonto ermitteln – Verlust nur ausgleichsfähig, soweit kein negatives Kapital entsteht. 3. Erweiterter Ausgleich, wenn die eingetragene Haftsumme die geleistete Einlage übersteigt und die Außenhaftung am Stichtag tatsächlich besteht. 4. Rest wird verrechenbarer Verlust, gesondert festgestellt.",
+        "norm": "§ 15a (1) S. 1-3 EStG",
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": "kreislauf",
+        "bildSzene": "open ring binder on desk"
+      }
+    ]
+  }
+}
