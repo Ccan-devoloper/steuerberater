@@ -29,10 +29,10 @@
       "slot": null,
       "reservedUsd": 0.02368,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-22T05:44:57.268Z",
-      "updatedAt": "2026-09-22T05:44:57.268Z"
+      "updatedAt": "2026-09-22T05:44:58.372Z"
     }
   ],
-  "stand": "2026-09-22T05:44:57.268Z"
+  "stand": "2026-09-22T05:44:58.372Z"
 }
