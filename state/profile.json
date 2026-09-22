@@ -284,10 +284,11 @@
     "familie": "faktencheck / claude-sonnet-5 / low / d17782",
     "letzteAusgabeTokens": [
       1221,
-      283
+      283,
+      880
     ],
-    "aufrufeGesamt": 2,
-    "erfolgreicheAufrufe": 2,
+    "aufrufeGesamt": 3,
+    "erfolgreicheAufrufe": 3,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
@@ -295,7 +296,7 @@
     "aktuellesCeiling": 3000,
     "ceilingGesetztAm": "2026-09-20T05:45:44.367Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-22T05:45:51.065Z"
+    "zuletzt": "2026-09-22T11:45:14.078Z"
   },
   "reel:ab9e80703304": {
     "profilId": "reel:ab9e80703304",
@@ -414,10 +415,11 @@
     "profilId": "autor:5ea313db77cc",
     "familie": "autor / claude-sonnet-5 / low / 457eb0",
     "letzteAusgabeTokens": [
-      1735
+      1735,
+      2064
     ],
-    "aufrufeGesamt": 1,
-    "erfolgreicheAufrufe": 1,
+    "aufrufeGesamt": 2,
+    "erfolgreicheAufrufe": 2,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
@@ -425,7 +427,7 @@
     "aktuellesCeiling": 6000,
     "ceilingGesetztAm": "2026-09-22T05:45:45.051Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-22T05:45:45.051Z"
+    "zuletzt": "2026-09-22T11:44:58.472Z"
   },
   "reel:c491733aca43": {
     "profilId": "reel:c491733aca43",
