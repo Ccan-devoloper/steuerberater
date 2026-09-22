@@ -4199,6 +4199,17 @@
       },
       "insightsStand": "2026-09-22T17:44:35.194Z",
       "insightsAlterStunden": 1
+    },
+    {
+      "datum": "2026-09-22",
+      "art": "story",
+      "slot": "s9",
+      "storyArt": "fehler",
+      "thema": "ao-modul-ao-318",
+      "fach": "ao",
+      "titel": "Falsche Bezeichnung macht den Einspruch nicht unzulässig",
+      "medienId": "18134203387573965",
+      "veroeffentlicht": "2026-09-22T18:44:34.329Z"
     }
   ],
   "fachZaehler": {
