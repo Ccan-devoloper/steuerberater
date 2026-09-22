@@ -1,0 +1,110 @@
+{
+  "datum": "2026-09-22",
+  "erzeugt": "2026-09-22T05:43:34.076Z",
+  "anlass": {
+    "datum": "2026-09-22",
+    "art": "countdown",
+    "titel": "14 Tage bis zum Examen",
+    "kontext": "In 14 Tagen beginnt die schriftliche Steuerberaterprüfung (2026-10-06 bis 2026-10-08). Jetzt nur noch wiederholen, was sitzt – keine neuen Themen mehr."
+  },
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "11:30",
+      "format": "anlass",
+      "themaId": "ust-modul-ust-227",
+      "themaTitel": "Reihengeschäft am Ende der Einheit: Kommission, Spediteur und Transportzuordnung",
+      "fach": "ust",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "21:00",
+      "format": "reel",
+      "themaId": "istr-modul-istr-istr1-07",
+      "themaTitel": "Beschränkte Körperschaftsteuerpflicht mit Inlandseinkünften",
+      "fach": "istr",
+      "klausur": 2,
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:17",
+      "art": "frage",
+      "themaId": "kst-quiz-kst-3",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:17",
+      "art": "antwort",
+      "themaId": "kst-quiz-kst-3",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:21",
+      "art": "norm",
+      "themaId": "istr-modul-istr-istr3-03",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "11:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:37",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 14,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:32",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-303",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:45",
+      "art": "begriff",
+      "themaId": "persg-karte-k3-24",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:50",
+      "art": "fehler",
+      "themaId": "ao-modul-ao-318",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "21:00",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    }
+  ]
+}
