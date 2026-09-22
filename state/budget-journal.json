@@ -97,7 +97,20 @@
       "state": "settled",
       "createdAt": "2026-09-22T05:45:51.154Z",
       "updatedAt": "2026-09-22T05:46:30.279Z"
+    },
+    {
+      "reservationId": "2026-09-22-0008-autor",
+      "date": "2026-09-22",
+      "bucket": "core",
+      "purpose": "autor",
+      "attempt": 1,
+      "slot": "autor",
+      "reservedUsd": 0.117401,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-22T11:44:33.281Z",
+      "updatedAt": "2026-09-22T11:44:33.281Z"
     }
   ],
-  "stand": "2026-09-22T10:43:44.492Z"
+  "stand": "2026-09-22T11:44:33.281Z"
 }
