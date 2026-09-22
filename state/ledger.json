@@ -4172,6 +4172,17 @@
       },
       "insightsStand": "2026-09-22T15:10:56.908Z",
       "insightsAlterStunden": 1.5
+    },
+    {
+      "datum": "2026-09-22",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "begriff",
+      "thema": "persg-karte-k3-24",
+      "fach": "persg",
+      "titel": "§ 15a EStG in vier Schritten",
+      "medienId": "17970397188160072",
+      "veroeffentlicht": "2026-09-22T16:44:04.019Z"
     }
   ],
   "fachZaehler": {
