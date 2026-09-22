@@ -1,0 +1,13 @@
+{
+  "slot": "s9",
+  "art": "fehler",
+  "fach": "ao",
+  "klausur": 1,
+  "pairId": "ao-modul-ao-318",
+  "titel": "Falsche Überschrift macht Einspruch nicht unzulässig",
+  "falsch": "Ein als „Widerspruch“ oder „Beschwerde“ bezeichnetes Schreiben wird als unzulässig verworfen.",
+  "richtigText": "Der erkennbare Rechtsbehelfswille zählt, § 357 (1) AO – die Bezeichnung ist unschädlich, § 357 (3) AO ist nur Soll-Vorschrift.",
+  "fachLabel": "Abgabenordnung",
+  "befundeTypisiert": true,
+  "fachStand": "10x6etf-364"
+}

@@ -1,0 +1,19 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "pairId": "kst-quiz-kst-3",
+  "ueberzeile": "Richtig ist B",
+  "titel": "Die vGA wird außerbilanziell korrigiert.",
+  "text": "Die Buchung selbst bleibt unangetastet – die vGA wird nach § 8 (3) S. 2 KStG außerbilanziell dem Einkommen hinzugerechnet.",
+  "optionen": [
+    "Sie wird immer als Eigenkapitalbuchung erfasst",
+    "Sie wird außerbilanziell hinzugerechnet",
+    "Sie setzt stets eine Barzahlung voraus"
+  ],
+  "richtig": 1,
+  "fachLabel": "Körperschaftsteuer",
+  "befundeTypisiert": true,
+  "fachStand": "1bpgd6o-405"
+}
