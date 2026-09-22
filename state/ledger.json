@@ -4048,7 +4048,19 @@
         "#stbexamen2026"
       ],
       "veroeffentlicht": "2026-09-22T09:45:51.201Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 5,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-22T10:43:41.311Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-22",

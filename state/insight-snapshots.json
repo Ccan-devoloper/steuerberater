@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-22T09:43:54.723Z",
+  "stand": "2026-09-22T10:43:43.177Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -2416,6 +2416,30 @@
           "navigation_tap_forward": 7
         }
       ]
+    },
+    "18106716920269559": {
+      "art": "beitrag",
+      "datum": "2026-09-22",
+      "titel": "Reihengeschäft: Ist der Spediteur Teil der Lieferkette?",
+      "format": "anlass",
+      "fach": "ust",
+      "hook": "frage",
+      "dauer": null,
+      "veroeffentlicht": "2026-09-22T09:45:51.201Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-22T10:43:41.311Z",
+          "alterStunden": 1,
+          "reach": 5,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -2513,6 +2537,11 @@
       "stand": "2026-09-22T09:43:54.723Z",
       "follower": 72,
       "medien": 55
+    },
+    {
+      "stand": "2026-09-22T10:43:43.177Z",
+      "follower": 72,
+      "medien": 56
     }
   ]
 }
