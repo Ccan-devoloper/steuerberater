@@ -1,0 +1,132 @@
+{
+  "format": "reel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr1-07",
+  "szenen": [
+    {
+      "art": "hook",
+      "nummer": null,
+      "titel": "Auslands-Kapitalgesellschaft: Wo einsteigen?",
+      "unter": "Erst KStG, dann § 49 EStG",
+      "text": "Persönlichen Steuerzugriff und Inlandsbezug trennen.",
+      "norm": null,
+      "icon": "globus",
+      "sprecher": "Eine Kapitalgesellschaft hat weder Sitz noch Geschäftsleitung in Deutschland, erzielt aber Einkünfte mit deutschem Bezug. Wo steigst du ein? Bei Körperschaften zuerst beim persönlichen Steuerzugriff.",
+      "marken": [
+        "Persönlicher *Zugriff*",
+        "Inlandsbezug danach"
+      ],
+      "bildSzene": "foreign company beside German property map",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "§ 2 Nr. 1 KStG",
+      "unter": "Persönliche Steuerpflicht",
+      "text": "Kein Sitz und keine Geschäftsleitung im Inland.",
+      "norm": "§ 2 Nr. 1 KStG",
+      "icon": null,
+      "sprecher": "Fehlen Sitz und Geschäftsleitung im Inland, führt der Einstieg über § 2 Nummer 1 KStG. Erfasst werden dann nur die inländischen Einkünfte.",
+      "marken": [
+        "kein Sitz, keine *Leitung*",
+        "§ 2 Nr. 1 KStG"
+      ],
+      "bildSzene": "company headquarters outside German border",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "§ 49 je Einkunftsquelle",
+      "unter": "Sachlicher Inlandsbezug",
+      "text": "Jede Einkunftsquelle braucht ihr eigenes Inlandsmerkmal.",
+      "norm": "§ 49 EStG",
+      "icon": null,
+      "sprecher": "Danach prüfst du § 49 EStG für jede Einkunftsquelle gesondert. Erst das jeweilige Inlandsmerkmal entscheidet, welche Einkünfte Deutschland besteuert.",
+      "marken": [
+        "§ 49 EStG: *Quelle* prüfen"
+      ],
+      "bildSzene": "separate income streams entering German map",
+      "kreuz": false
+    },
+    {
+      "art": "punkt",
+      "nummer": null,
+      "titel": "EStG und KStG nicht vermischen",
+      "unter": null,
+      "text": "§ 1 Abs. 4 EStG ist nicht der Einstieg der Körperschaft.",
+      "norm": "§ 1 Abs. 4 EStG",
+      "icon": null,
+      "sprecher": "Übertrage nicht einfach § 1 Absatz 4 EStG auf die Körperschaft. Merke: Wer steuerpflichtig ist, beantwortet das KStG; was inländisch ist, § 49 EStG.",
+      "marken": [
+        "KStG = *wer*",
+        "§ 49 EStG = was"
+      ],
+      "bildSzene": "two tax folders kept distinctly separate",
+      "kreuz": true
+    },
+    {
+      "art": "merke",
+      "nummer": null,
+      "titel": "DBA kommt danach",
+      "unter": null,
+      "text": "Erst nationaler Anspruch, dann Begrenzung prüfen.",
+      "norm": "§ 2 Nr. 1 KStG · § 49 EStG",
+      "icon": null,
+      "sprecher": "Steht der nationale Anspruch, folgen Erhebungsregeln und gegebenenfalls das DBA. Ein DBA kann den deutschen Anspruch begrenzen, schafft ihn aber nicht.",
+      "marken": [
+        "national zuerst, DBA *danach*"
+      ],
+      "bildSzene": "German tax claim meeting treaty gate",
+      "kreuz": false
+    },
+    {
+      "art": "cta",
+      "nummer": null,
+      "titel": "Reihenfolge sichern",
+      "unter": null,
+      "text": "§ 2 KStG → § 49 EStG → Erhebung/DBA.",
+      "norm": null,
+      "icon": null,
+      "sprecher": "Reihenfolge sichern: Körperschaft, § 2 Nummer 1 KStG, dann § 49 EStG je Einkunftsquelle. Schick das der Person, die EStG und KStG beim Einstieg vermischt.",
+      "marken": [
+        "erst KStG, dann *§ 49 EStG*"
+      ],
+      "bildSzene": "three-step tax checklist on desk",
+      "kreuz": false
+    }
+  ],
+  "caption": "Beschränkte Körperschaftsteuerpflicht bei einer ausländischen Kapitalgesellschaft: Der persönliche Einstieg läuft über § 2 Nr. 1 KStG, wenn weder Sitz noch Geschäftsleitung im Inland liegen. Welche Einkünfte Deutschland tatsächlich erfasst, prüfst du anschließend für jede Einkunftsquelle über § 49 EStG. Erst danach kommen Erhebungsregeln und gegebenenfalls ein DBA. Merksatz: KStG beantwortet „wer?“, § 49 EStG „welche inländischen Einkünfte?“.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#internationalessteuerrecht",
+    "#körperschaftsteuer",
+    "#kstg",
+    "#estg",
+    "#beschränktesteuerpflicht",
+    "#examensvorbereitung"
+  ],
+  "kurztitel": "Beschränkte KSt-Pflicht: der Einstieg",
+  "coverText": "KStG zuerst, § 49 danach",
+  "bildSzene": "foreign company with German income links",
+  "bildSzeneAlt": "tax gateway between KStG and domestic income",
+  "quellen": [
+    "§ 2 Nr. 1 KStG",
+    "§ 49 EStG"
+  ],
+  "hookTyp": "frage",
+  "hookMuster": "pruefreihenfolge",
+  "bildregie": true,
+  "slug": "2026-09-22-b2",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-22",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-22T10:08:00.000Z"
+}
