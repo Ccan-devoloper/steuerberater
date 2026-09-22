@@ -1,0 +1,105 @@
+{
+  "datum": "2026-09-23",
+  "erzeugt": "2026-09-22T22:25:03.193Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "11:30",
+      "format": "aktuell",
+      "themaId": null,
+      "themaTitel": null,
+      "fach": null,
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "21:00",
+      "format": "reel",
+      "themaId": "ust-modul-ust-226",
+      "themaTitel": "Vorsteuerberichtigung nach § 15a: Berichtigungsobjekt, Zeitraum und UStDV-Grenzen",
+      "fach": "ust",
+      "klausur": 1,
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:15",
+      "art": "frage",
+      "themaId": "ust-quiz-ust-8",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:15",
+      "art": "antwort",
+      "themaId": "ust-quiz-ust-8",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:21",
+      "art": "norm",
+      "themaId": "ao-modul-ao-342",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "11:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:26",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 13,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:28",
+      "art": "begriff",
+      "themaId": "bilanz-karte-k3-14",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:43",
+      "art": "fehler",
+      "themaId": "ao-modul-ao-329",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:40",
+      "art": "tipp",
+      "themaId": "istr-modul-istr-istr3-07",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "21:00",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    }
+  ]
+}
