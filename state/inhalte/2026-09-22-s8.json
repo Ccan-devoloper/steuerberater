@@ -5,14 +5,15 @@
   "klausur": 3,
   "pairId": "persg-karte-k3-24",
   "titel": "§ 15a EStG in vier Schritten",
-  "text": "1. Ist die Person Kommanditist oder vergleichbar beschränkt haftend? 2. Kapitalkonto ermitteln – Verlust nur ausgleichsfähig, soweit kein negatives Kapital entsteht. 3. Erweiterter Ausgleich, wenn die eingetragene Haftsumme die geleistete Einlage übersteigt und die Außenhaftung am Stichtag tatsächlich besteht. 4. Rest wird verrechenbarer Verlust, gesondert festgestellt.",
-  "norm": "§ 15a (1) S. 1-3 EStG",
+  "text": "1. Verlustanteil und Kapitalkonto prüfen. 2. Negatives Kapitalkonto: grundsätzlich kein Ausgleich. 3. Außenhaftung nach § 171 Abs. 1 HGB kann den Ausgleich nach § 15a Abs. 1 S. 2–3 EStG erweitern. 4. Rest = verrechenbarer Verlust, § 15a Abs. 2, 4 EStG.",
+  "norm": "§ 15a Abs. 1–4 EStG",
   "icon": "kreislauf",
-  "bildSzene": "open ring binder on desk",
+  "bildSzene": "limited partner ledger with liability gap",
   "fachLabel": "Personengesellschaften",
-  "beanstandet": [
-    "Story „§ 15a EStG in vier Schritten“: Text zu lang (372 > 260)"
-  ],
   "befundeTypisiert": true,
-  "fachStand": "1g9gh79-515"
+  "fachStand": "manuell-2026-09-22",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-22T10:08:00.000Z"
 }
