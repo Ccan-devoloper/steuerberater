@@ -93,7 +93,7 @@
       "icon": null,
       "sprecher": "Reihenfolge sichern: Körperschaft, § 2 Nummer 1 KStG, dann § 49 EStG je Einkunftsquelle. Schick das der Person, die EStG und KStG beim Einstieg vermischt.",
       "marken": [
-        "erst KStG, *danach* § 49 EStG"
+        "KStG → § 49 *EStG*"
       ],
       "bildSzene": "three-step tax checklist on desk",
       "kreuz": false
@@ -128,5 +128,5 @@
   "faktenHinweise": [],
   "manuellGeprueft": true,
   "finalisiertVon": "chat",
-  "finalisiertAm": "2026-09-22T10:08:00.000Z"
+  "finalisiertAm": "2026-09-22T10:27:34.000Z"
 }
