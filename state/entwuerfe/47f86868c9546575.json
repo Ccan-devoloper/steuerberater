@@ -1,0 +1,128 @@
+{
+  "datum": "2026-09-22",
+  "zweck": "stories",
+  "daten": {
+    "stories": [
+      {
+        "slot": "s3",
+        "art": "frage",
+        "ueberzeile": "Prüfungsfrage KSt",
+        "titel": "Welche Aussage zur vGA ist richtig?",
+        "text": null,
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": [
+          "Sie wird immer als Eigenkapitalbuchung erfasst",
+          "Sie wird außerbilanziell hinzugerechnet",
+          "Sie setzt stets eine Barzahlung voraus"
+        ],
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s4",
+        "art": "antwort",
+        "ueberzeile": "Richtig ist B",
+        "titel": "Die vGA wird außerbilanziell korrigiert.",
+        "text": "Die Buchung selbst bleibt unangetastet – die vGA wird nach § 8 (3) S. 2 KStG außerbilanziell dem Einkommen hinzugerechnet.",
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": [
+          "Sie wird immer als Eigenkapitalbuchung erfasst",
+          "Sie wird außerbilanziell hinzugerechnet",
+          "Sie setzt stets eine Barzahlung voraus"
+        ],
+        "richtig": 1,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s5",
+        "art": "norm",
+        "ueberzeile": "Norm des Tages",
+        "titel": "§ 50c EStG: Entlastung vom Quellensteuerabzug",
+        "text": "Erst DBA/§ 43b/§ 50g auf das Recht prüfen, dann § 50c als Verfahrensweg für Freistellung oder Erstattung ansetzen.",
+        "norm": "§ 50c EStG",
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s6",
+        "art": "zahl",
+        "ueberzeile": null,
+        "titel": "Tage bis zur schriftlichen Prüfung",
+        "text": "Heute: eine Prüfschema-Karte laut aufsagen, ohne aufs Papier zu schauen. Kleine Wiederholung, große Wirkung.",
+        "norm": null,
+        "formel": null,
+        "zahl": "14",
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s7",
+        "art": "merksatz",
+        "ueberzeile": null,
+        "titel": "Auskunftsersuchen nach § 93 AO",
+        "text": "Formfrei ist der Regelfall – fehlt die Belehrung, verlängert sich nur die Frist, nicht die Wirksamkeit.",
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s8",
+        "art": "begriff",
+        "ueberzeile": null,
+        "titel": "§ 15a EStG in vier Schritten",
+        "text": "Kommanditistenstatus prüfen, Kapitalkonto ermitteln, erweiterten Verlustausgleich bei Außenhaftung nach § 171 (1) HGB prüfen, Rest als verrechenbaren Verlust feststellen.",
+        "norm": "§ 15a (1) S. 1-3 EStG",
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": "diagramm",
+        "bildSzene": "open ledger with columns"
+      },
+      {
+        "slot": "s9",
+        "art": "fehler",
+        "ueberzeile": null,
+        "titel": "Falsche Überschrift macht Einspruch nicht unzulässig",
+        "text": null,
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": "Ein als „Widerspruch“ oder „Beschwerde“ bezeichnetes Schreiben wird als unzulässig verworfen.",
+        "richtigText": "Der erkennbare Rechtsbehelfswille zählt, § 357 (1) AO – die Bezeichnung ist unschädlich, § 357 (3) AO ist nur Soll-Vorschrift.",
+        "icon": null,
+        "bildSzene": null
+      }
+    ]
+  }
+}

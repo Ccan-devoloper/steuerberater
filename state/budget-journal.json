@@ -15,11 +15,24 @@
       "attempt": 1,
       "slot": "stories",
       "reservedUsd": 0.113982,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.060356,
+      "state": "settled",
       "createdAt": "2026-09-22T05:44:05.077Z",
-      "updatedAt": "2026-09-22T05:44:06.708Z"
+      "updatedAt": "2026-09-22T05:44:57.166Z"
+    },
+    {
+      "reservationId": "2026-09-22-0002-story-faktencheck",
+      "date": "2026-09-22",
+      "bucket": "core",
+      "purpose": "story-faktencheck",
+      "attempt": 1,
+      "slot": null,
+      "reservedUsd": 0.02368,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-22T05:44:57.268Z",
+      "updatedAt": "2026-09-22T05:44:57.268Z"
     }
   ],
-  "stand": "2026-09-22T05:44:06.708Z"
+  "stand": "2026-09-22T05:44:57.268Z"
 }
