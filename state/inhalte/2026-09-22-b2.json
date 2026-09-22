@@ -16,7 +16,7 @@
       "sprecher": "Eine Kapitalgesellschaft hat weder Sitz noch Geschäftsleitung in Deutschland, erzielt aber Einkünfte mit deutschem Bezug. Wo steigst du ein? Bei Körperschaften zuerst beim persönlichen Steuerzugriff.",
       "marken": [
         "Persönlicher *Zugriff*",
-        "Inlandsbezug danach"
+        "Inlandsbezug *danach*"
       ],
       "bildSzene": "foreign company beside German property map",
       "kreuz": false
@@ -32,7 +32,7 @@
       "sprecher": "Fehlen Sitz und Geschäftsleitung im Inland, führt der Einstieg über § 2 Nummer 1 KStG. Erfasst werden dann nur die inländischen Einkünfte.",
       "marken": [
         "kein Sitz, keine *Leitung*",
-        "§ 2 Nr. 1 KStG"
+        "§ 2 Nr. 1 *KStG*"
       ],
       "bildSzene": "company headquarters outside German border",
       "kreuz": false
@@ -63,7 +63,7 @@
       "sprecher": "Übertrage nicht einfach § 1 Absatz 4 EStG auf die Körperschaft. Merke: Wer steuerpflichtig ist, beantwortet das KStG; was inländisch ist, § 49 EStG.",
       "marken": [
         "KStG = *wer*",
-        "§ 49 EStG = was"
+        "§ 49 EStG = *was*"
       ],
       "bildSzene": "two tax folders kept distinctly separate",
       "kreuz": true
@@ -93,7 +93,7 @@
       "icon": null,
       "sprecher": "Reihenfolge sichern: Körperschaft, § 2 Nummer 1 KStG, dann § 49 EStG je Einkunftsquelle. Schick das der Person, die EStG und KStG beim Einstieg vermischt.",
       "marken": [
-        "erst KStG, dann *§ 49 EStG*"
+        "erst KStG, *danach* § 49 EStG"
       ],
       "bildSzene": "three-step tax checklist on desk",
       "kreuz": false
