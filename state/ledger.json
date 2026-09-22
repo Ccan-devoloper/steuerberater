@@ -3317,7 +3317,7 @@
       "veroeffentlicht": "2026-09-20T06:45:08.840Z",
       "karteUrl": null,
       "insights": {
-        "reach": 29,
+        "reach": 30,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -3326,8 +3326,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-09-22T05:43:48.094Z",
-      "insightsAlterStunden": 47
+      "insightsStand": "2026-09-22T14:43:40.958Z",
+      "insightsAlterStunden": 56
     },
     {
       "datum": "2026-09-20",
@@ -3473,19 +3473,19 @@
       "dauer": 75.9,
       "veroeffentlicht": "2026-09-20T10:13:26.865Z",
       "insights": {
-        "reach": 141,
+        "reach": 142,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 3,
         "total_interactions": 5,
-        "views": 183,
-        "ig_reels_avg_watch_time": 8034,
-        "ig_reels_video_view_total_time": 1261426,
-        "reels_skip_rate": 78.8
+        "views": 185,
+        "ig_reels_avg_watch_time": 8005,
+        "ig_reels_video_view_total_time": 1272815,
+        "reels_skip_rate": 78.2
       },
-      "insightsStand": "2026-09-22T05:43:48.094Z",
-      "insightsAlterStunden": 43.5
+      "insightsStand": "2026-09-22T14:43:40.958Z",
+      "insightsAlterStunden": 52.5
     },
     {
       "datum": "2026-09-20",
@@ -3873,22 +3873,22 @@
       "medienId": "18114640477796259",
       "veroeffentlicht": "2026-09-21T17:44:12.989Z",
       "insights": {
-        "reach": 27,
-        "views": 31,
+        "reach": 29,
+        "views": 33,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
+        "navigation": 30,
         "navigation_swipe_forward": 1,
         "navigation_tap_exit": 3,
-        "navigation_tap_forward": 22,
-        "navigation_tap_back": 1
+        "navigation_tap_forward": 24,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-09-22T09:43:49.544Z",
-      "insightsAlterStunden": 16
+      "insightsStand": "2026-09-22T14:43:37.496Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-09-21",
@@ -3947,22 +3947,22 @@
       "medienId": "18164863978474788",
       "veroeffentlicht": "2026-09-21T18:49:18.160Z",
       "insights": {
-        "reach": 26,
-        "views": 32,
+        "reach": 29,
+        "views": 35,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 28,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 16,
+        "navigation": 31,
+        "navigation_tap_back": 2,
         "navigation_tap_exit": 6,
-        "navigation_tap_back": 2
+        "navigation_tap_forward": 19,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-09-22T09:43:49.544Z",
-      "insightsAlterStunden": 14.9
+      "insightsStand": "2026-09-22T14:43:37.496Z",
+      "insightsAlterStunden": 19.9
     },
     {
       "datum": "2026-09-22",
@@ -4052,7 +4052,7 @@
       "veroeffentlicht": "2026-09-22T09:45:51.201Z",
       "karteUrl": null,
       "insights": {
-        "reach": 14,
+        "reach": 20,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -4061,8 +4061,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-22T12:43:44.178Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-09-22T14:43:40.958Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-22",
