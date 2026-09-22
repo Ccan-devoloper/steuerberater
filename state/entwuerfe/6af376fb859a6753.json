@@ -1,0 +1,129 @@
+{
+  "datum": "2026-09-22",
+  "zweck": "autor",
+  "daten": {
+    "folien": [
+      {
+        "art": "titel",
+        "titel": "Zivilrechtlicher Eigentümer oder wirtschaftlicher Eigentümer – wer bilanziert?",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "lkw"
+      },
+      {
+        "art": "vergleich",
+        "titel": "Zwei Eigentümerbegriffe im Vergleich",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": null,
+        "links": {
+          "titel": "Zivilrechtlich",
+          "punkte": [
+            "Steht im Grundbuch oder Kaufvertrag",
+            "Trägt die Sache nur formal",
+            "Bilanziert *nicht*, wenn ihm die Herrschaft fehlt"
+          ]
+        },
+        "rechts": {
+          "titel": "Wirtschaftlich",
+          "punkte": [
+            "Hat die tatsächliche Herrschaft über die Sache",
+            "Schließt den zivilrechtlichen Eigentümer faktisch aus",
+            "*Bilanziert* das Wirtschaftsgut, § 39 (2) Nr. 1 AO"
+          ]
+        },
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      },
+      {
+        "art": "text",
+        "titel": "Wann welche Seite greift",
+        "untertitel": null,
+        "text": "Eine Spedition least einen Sattelzug für die betriebsgewöhnliche Nutzungsdauer, mit Kaufoption zum symbolischen Preis. Wirtschaftlich gehört der Zug der Spedition: Sie trägt Risiko und Nutzen, der Leasinggeber hat am Ende nichts mehr davon. Der *wirtschaftliche* Ausschluss für die gewöhnliche Nutzungsdauer ist entscheidend, § 39 (2) Nr. 1 AO – nicht der Grundbucheintrag oder Vertragstitel.",
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      },
+      {
+        "art": "merke",
+        "titel": "Merksatz",
+        "untertitel": null,
+        "text": "Bilanziert wird, wer die Sache faktisch nie wieder hergeben muss – nicht, wer im Vertrag steht.",
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      },
+      {
+        "art": "cta",
+        "titel": "Endspurt – jetzt nur noch wiederholen.",
+        "untertitel": null,
+        "text": null,
+        "punkte": [
+          "Schick das der Person in deiner Lerngruppe, die bei Leasingfällen immer den Vertrag statt die Herrschaft prüft",
+          "Speichern und vor Tag 3 nochmal lesen",
+          "Welcher Fall zu § 39 AO hat dich mal verwirrt? Kommentiere!"
+        ],
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      }
+    ],
+    "caption": "Wirtschaftliches Eigentum Steuerbilanz Leasing – wer bilanziert das Wirtschaftsgut wirklich?\n\nDer Grundbucheintrag oder Kaufvertrag entscheidet nicht automatisch, wer bilanziert. Entscheidend ist nach § 39 (2) Nr. 1 AO, wer die tatsächliche Herrschaft über die Sache hat und den zivilrechtlichen Eigentümer für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt. Klassischer Fall: Leasing mit günstiger Kaufoption.\n\nSchick das deiner Lerngruppe vor Tag 3 – gerade in Leasingfällen wird das gerne verwechselt. Und: Speichern für die letzte Wiederholung.\n\nWelcher Klassiker zu § 39 AO kommt euch in der Klausur am häufigsten unter?",
+    "hashtags": [
+      "#wirtschaftlicheseigentum",
+      "#steuerbilanz",
+      "#leasing",
+      "#paragraf39ao",
+      "#bilanzsteuerrecht",
+      "#klausurtechnik",
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#stbexamen",
+      "#steuerberater",
+      "#steuerrecht",
+      "#examensvorbereitung"
+    ],
+    "kurztitel": "Wirtschaftliches Eigentum: wer bilanziert?",
+    "bildSzene": "leased truck parked at depot",
+    "bildSzeneAlt": "open ring binder with lease contract",
+    "quellen": null,
+    "hooks": [
+      {
+        "typ": "frage",
+        "titel": "Zivilrechtlicher oder wirtschaftlicher Eigentümer – wer bilanziert das Wirtschaftsgut?"
+      },
+      {
+        "typ": "fehler",
+        "titel": "Leasingfall in der Bilanzklausur: Vertrag lesen reicht nicht, Herrschaft zählt"
+      },
+      {
+        "typ": "aussage",
+        "titel": "Wer die Sache faktisch behält, bilanziert sie – nicht wer im Vertrag steht"
+      }
+    ]
+  }
+}
