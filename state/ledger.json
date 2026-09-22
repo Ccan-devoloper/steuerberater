@@ -3831,8 +3831,8 @@
         "navigation_tap_exit": 5,
         "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-09-22T09:43:49.544Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-09-22T11:44:10.056Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-09-21",
@@ -3928,13 +3928,13 @@
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 68,
+        "views": 70,
         "ig_reels_avg_watch_time": 9111,
         "ig_reels_video_view_total_time": 437360,
-        "reels_skip_rate": 74.5
+        "reels_skip_rate": 72.9
       },
-      "insightsStand": "2026-09-22T08:43:52.707Z",
-      "insightsAlterStunden": 13.9
+      "insightsStand": "2026-09-22T11:44:16.160Z",
+      "insightsAlterStunden": 16.9
     },
     {
       "datum": "2026-09-21",
@@ -3975,20 +3975,21 @@
       "medienId": "17944056978303220",
       "veroeffentlicht": "2026-09-22T05:46:44.202Z",
       "insights": {
-        "reach": 11,
-        "views": 11,
+        "reach": 18,
+        "views": 21,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 11,
-        "navigation_tap_forward": 8,
-        "navigation_swipe_forward": 3
+        "navigation": 19,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 14,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-09-22T07:43:33.434Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-09-22T11:44:10.056Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-22",
@@ -4001,21 +4002,22 @@
       "medienId": "17896263897393620",
       "veroeffentlicht": "2026-09-22T05:46:55.434Z",
       "insights": {
-        "reach": 9,
-        "views": 10,
+        "reach": 18,
+        "views": 21,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 9,
-        "navigation_tap_exit": 1,
+        "navigation": 19,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 14,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 7
+        "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-09-22T07:43:33.434Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-09-22T11:44:10.056Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-22",
@@ -4071,7 +4073,22 @@
       "fach": "istr",
       "titel": "§ 50c EStG: Entlastung vom Quellensteuerabzug",
       "medienId": "18111951320161231",
-      "veroeffentlicht": "2026-09-22T09:46:04.072Z"
+      "veroeffentlicht": "2026-09-22T09:46:04.072Z",
+      "insights": {
+        "reach": 9,
+        "views": 12,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_tap_forward": 8,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-09-22T11:44:10.056Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-09-22",
@@ -4082,7 +4099,23 @@
       "fach": "ust",
       "titel": "Noch 14 Tage: Reihengeschäft sitzt?",
       "medienId": "18141590875720604",
-      "veroeffentlicht": "2026-09-22T09:46:15.182Z"
+      "veroeffentlicht": "2026-09-22T09:46:15.182Z",
+      "insights": {
+        "reach": 8,
+        "views": 10,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 10,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 4,
+        "navigation_tap_exit": 4
+      },
+      "insightsStand": "2026-09-22T11:44:10.056Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {

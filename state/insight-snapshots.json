@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-22T10:43:43.177Z",
+  "stand": "2026-09-22T11:44:17.265Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -2085,6 +2085,23 @@
           "navigation_tap_back": 1,
           "navigation_tap_exit": 5,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-09-22T11:44:10.056Z",
+          "alterStunden": 22,
+          "reach": 26,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_tap_forward": 18,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 5,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -2296,6 +2313,20 @@
           "ig_reels_avg_watch_time": 9111,
           "ig_reels_video_view_total_time": 437360,
           "reels_skip_rate": 74.5
+        },
+        {
+          "stand": "2026-09-22T11:44:16.160Z",
+          "alterStunden": 16.9,
+          "reach": 46,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 70,
+          "ig_reels_avg_watch_time": 9111,
+          "ig_reels_video_view_total_time": 437360,
+          "reels_skip_rate": 72.9
         }
       ]
     },
@@ -2386,6 +2417,22 @@
           "navigation": 11,
           "navigation_tap_forward": 8,
           "navigation_swipe_forward": 3
+        },
+        {
+          "stand": "2026-09-22T11:44:10.056Z",
+          "alterStunden": 6,
+          "reach": 18,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 14,
+          "navigation_swipe_forward": 4
         }
       ]
     },
@@ -2414,6 +2461,23 @@
           "navigation_tap_exit": 1,
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 7
+        },
+        {
+          "stand": "2026-09-22T11:44:10.056Z",
+          "alterStunden": 6,
+          "reach": 18,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 14,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 3
         }
       ]
     },
@@ -2438,6 +2502,61 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        }
+      ]
+    },
+    "18111951320161231": {
+      "art": "story",
+      "datum": "2026-09-22",
+      "titel": "§ 50c EStG: Entlastung vom Quellensteuerabzug",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-22T09:46:04.072Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-22T11:44:10.056Z",
+          "alterStunden": 2,
+          "reach": 9,
+          "views": 12,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 9,
+          "navigation_tap_forward": 8,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18141590875720604": {
+      "art": "story",
+      "datum": "2026-09-22",
+      "titel": "Noch 14 Tage: Reihengeschäft sitzt?",
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-22T09:46:15.182Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-22T11:44:10.056Z",
+          "alterStunden": 2,
+          "reach": 8,
+          "views": 10,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 10,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 4,
+          "navigation_tap_exit": 4
         }
       ]
     }
@@ -2540,6 +2659,11 @@
     },
     {
       "stand": "2026-09-22T10:43:43.177Z",
+      "follower": 72,
+      "medien": 56
+    },
+    {
+      "stand": "2026-09-22T11:44:17.265Z",
       "follower": 72,
       "medien": 56
     }
