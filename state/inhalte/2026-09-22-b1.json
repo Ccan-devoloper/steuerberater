@@ -1,0 +1,94 @@
+{
+  "format": "anlass",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-227",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Reihengeschäft: Ist der Spediteur Teil der Lieferkette?",
+      "icon": "lkw",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Hohe Examenspriorität",
+      "hinweis": "Swipe →"
+    },
+    {
+      "art": "schritte",
+      "titel": "Reihengeschäft: die Prüfreihenfolge",
+      "schritte": [
+        {
+          "titel": "Lieferbeziehungen feststellen",
+          "text": "Wer liefert zivil- und umsatzsteuerlich an wen in der Kette?"
+        },
+        {
+          "titel": "Kommissionsgeschäft erkennen",
+          "text": "Läuft eine Stufe über § 3 (3) UStG, ist das eine eigene Lieferung – nicht nur eine Vermittlung."
+        },
+        {
+          "titel": "Rolle des Spediteurs klären",
+          "text": "Für wen führt er den Transport aus? Er ist *nie* eine zusätzliche Stufe der Warenkette."
+        },
+        {
+          "titel": "Warenbewegung zuordnen",
+          "text": "Erst jetzt die bewegte Lieferung nach § 3 (6a) UStG bestimmen."
+        },
+        {
+          "titel": "Ruhende Lieferungen einordnen",
+          "text": "Die übrigen Lieferungen im gewohnten Schema verorten."
+        }
+      ]
+    },
+    {
+      "art": "text",
+      "titel": "Der Klassiker-Fehler",
+      "text": "Viele machen aus dem Spediteur einen weiteren Abnehmer in der Warenkette. Das ist falsch: Der Spediteur *transportiert*, er kauft und verkauft nicht. Entscheidend ist allein, wessen Auftrag hinter dem Transport steht – danach richtet sich, welche Lieferung *bewegt* ist.",
+      "icon": "lupe"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Wer den Transport organisiert, sagt dir, welche Lieferung fährt – der Spediteur fährt nur mit, nicht in der Kette."
+    },
+    {
+      "art": "cta",
+      "titel": "14 Tage. Kein neuer Stoff mehr.",
+      "punkte": [
+        "Schick das der Person in deiner Lerngruppe, die den Spediteur immer als Zwischenhändler einordnet",
+        "Speichern für die letzte Wiederholung vor Tag 1",
+        "Welcher Dauerbrenner sitzt bei dir noch nicht? Schreib's in die Kommentare"
+      ]
+    }
+  ],
+  "caption": "Reihengeschäft Umsatzsteuer: Spediteur oder Zwischenhändler – 14 Tage bis zur Prüfung. Der Klassiker in K1: Der Spediteur wird fälschlich als zusätzliche Stufe der Lieferkette behandelt. Er ist aber kein Abnehmer, sondern nur mit dem Transport beauftragt. Entscheidend für die bewegte Lieferung nach § 3 (6a) UStG ist, für wen er fährt – nicht wo er in der Kette „steht\". Jetzt nichts Neues mehr lernen, nur noch die Dauerbrenner festigen. Schick das deiner Lerngruppe, bevor ihr Tag 1 nochmal durchgeht. Wo hakt's bei euch noch: Kommission oder Spediteur?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#steuerrechtlernen",
+    "#lernmotivation",
+    "#lerngruppe",
+    "#umsatzsteuer",
+    "#reihengeschäft",
+    "#klausurtag1",
+    "#endspurt",
+    "#stbexamen2026"
+  ],
+  "kurztitel": "Noch 14 Tage: Reihengeschäft sitzt?",
+  "bildSzene": "delivery truck loading boxes warehouse",
+  "bildSzeneAlt": "calendar with circled deadline",
+  "quellen": [],
+  "hookTyp": "frage",
+  "faktenHinweise": [],
+  "faktenFreigabe": {
+    "ok": true,
+    "geprueftAm": "2026-09-22T05:45:51.066Z",
+    "ausgefallen": false,
+    "hinweise": []
+  },
+  "slug": "2026-09-22-b1"
+}
