@@ -4242,6 +4242,17 @@
       "layout": "erklaer",
       "dauer": 72.1,
       "veroeffentlicht": "2026-09-22T19:11:22.569Z"
+    },
+    {
+      "datum": "2026-09-22",
+      "art": "story",
+      "slot": "s2",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": "Beschränkte KSt-Pflicht: der Einstieg",
+      "medienId": "18641348227026316",
+      "veroeffentlicht": "2026-09-22T19:11:33.022Z"
     }
   ],
   "fachZaehler": {
