@@ -5,14 +5,14 @@
   "klausur": 3,
   "pairId": "persg-karte-k3-24",
   "titel": "§ 15a EStG in vier Schritten",
-  "text": "Kommanditistenstatus prüfen, Kapitalkonto ermitteln, erweiterten Verlustausgleich bei Außenhaftung nach § 171 (1) HGB prüfen, Rest als verrechenbaren Verlust feststellen.",
+  "text": "1. Ist die Person Kommanditist oder vergleichbar beschränkt haftend? 2. Kapitalkonto ermitteln – Verlust nur ausgleichsfähig, soweit kein negatives Kapital entsteht. 3. Erweiterter Ausgleich, wenn die eingetragene Haftsumme die geleistete Einlage übersteigt und die Außenhaftung am Stichtag tatsächlich besteht. 4. Rest wird verrechenbarer Verlust, gesondert festgestellt.",
   "norm": "§ 15a (1) S. 1-3 EStG",
-  "icon": "diagramm",
-  "bildSzene": "open ledger with columns",
+  "icon": "kreislauf",
+  "bildSzene": "open ring binder on desk",
   "fachLabel": "Personengesellschaften",
-  "befundeTypisiert": true,
-  "beanstandetFachlich": [
-    "[s8]: Der Verweis auf § 171 (1) HGB ist falsch. § 15a EStG betrifft Kommanditisten von Kommanditgesellschaften (KG), deren Haftung sich nach § 171 HGB richtet. Die Außenhaftung nach HGB ist aber nicht Tatbestandsmerkmal des § 15a EStG – vielmehr differenziert § 15a nach der Kommanditisteneigenschaft und dem erweiterten Verlustausgleich gemäß der Komplementärhaftung. Der Text verweist auf die falsche Norm und vermischt die zivilrechtliche Haftungsregelung mit der ertragsteuerlichen Prüfung. → Die Prüfung des § 15a EStG verlangt: (1) Kommanditisteneigenschaft feststellen, (2) Kapitalkonto ermitteln, (3) Prüfung des erweiterten Verlustausgleichs (nicht: \"bei Außenhaftung nach § 171 HGB\"), (4) restlicher Verlust als verrechenbarer Verlust. Die Außenhaftung von Kommanditisten ist eine Folge ihrer Stellung gemäß HGB, steht aber nicht als Voraussetzung in § 15a EStG."
+  "beanstandet": [
+    "Story „§ 15a EStG in vier Schritten“: Text zu lang (372 > 260)"
   ],
-  "fachStand": "5o9ewp-313"
+  "befundeTypisiert": true,
+  "fachStand": "1g9gh79-515"
 }
