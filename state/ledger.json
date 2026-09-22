@@ -4143,6 +4143,17 @@
       },
       "insightsStand": "2026-09-22T13:43:40.408Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-22",
+      "art": "story",
+      "slot": "s7",
+      "storyArt": "merksatz",
+      "thema": "ao-modul-ao-303",
+      "fach": "ao",
+      "titel": "§ 93 AO: Schriftform nur auf Verlangen",
+      "medienId": "18164409562435941",
+      "veroeffentlicht": "2026-09-22T13:43:54.815Z"
     }
   ],
   "fachZaehler": {
