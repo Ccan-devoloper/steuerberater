@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-22T05:43:51.399Z",
+  "stand": "2026-09-22T06:43:52.110Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -159,6 +159,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-22T06:43:48.601Z",
+          "alterStunden": 164.5,
+          "reach": 30,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -198,6 +210,20 @@
           "ig_reels_avg_watch_time": 10658,
           "ig_reels_video_view_total_time": 1950436,
           "reels_skip_rate": 74.3
+        },
+        {
+          "stand": "2026-09-22T06:43:48.601Z",
+          "alterStunden": 154.9,
+          "reach": 168,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 194,
+          "ig_reels_avg_watch_time": 10671,
+          "ig_reels_video_view_total_time": 1963598,
+          "reels_skip_rate": 73.8
         }
       ]
     },
@@ -227,6 +253,18 @@
           "stand": "2026-09-21T05:44:27.288Z",
           "alterStunden": 118.9,
           "reach": 26,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-22T06:43:48.601Z",
+          "alterStunden": 143.8,
+          "reach": 27,
           "saved": 0,
           "shares": 0,
           "likes": 0,
@@ -273,6 +311,20 @@
           "ig_reels_avg_watch_time": 12739,
           "ig_reels_video_view_total_time": 1121119,
           "reels_skip_rate": 66.2
+        },
+        {
+          "stand": "2026-09-22T06:43:48.601Z",
+          "alterStunden": 143.8,
+          "reach": 71,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 92,
+          "ig_reels_avg_watch_time": 12517,
+          "ig_reels_video_view_total_time": 1126619,
+          "reels_skip_rate": 65.8
         }
       ]
     },
@@ -309,6 +361,18 @@
           "total_interactions": 6,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-09-22T06:43:48.601Z",
+          "alterStunden": 120,
+          "reach": 40,
+          "saved": 4,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -348,6 +412,20 @@
           "ig_reels_avg_watch_time": 14874,
           "ig_reels_video_view_total_time": 966813,
           "reels_skip_rate": 67.3
+        },
+        {
+          "stand": "2026-09-22T06:43:48.601Z",
+          "alterStunden": 115.9,
+          "reach": 49,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 65,
+          "ig_reels_avg_watch_time": 14669,
+          "ig_reels_video_view_total_time": 968180,
+          "reels_skip_rate": 67.9
         }
       ]
     },
@@ -1154,6 +1232,18 @@
           "stand": "2026-09-21T06:43:46.118Z",
           "alterStunden": 72,
           "reach": 25,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-22T06:43:48.601Z",
+          "alterStunden": 96,
+          "reach": 27,
           "saved": 1,
           "shares": 0,
           "likes": 0,
@@ -2188,6 +2278,11 @@
     },
     {
       "stand": "2026-09-22T05:43:51.399Z",
+      "follower": 72,
+      "medien": 55
+    },
+    {
+      "stand": "2026-09-22T06:43:52.110Z",
       "follower": 72,
       "medien": 55
     }
