@@ -1,0 +1,116 @@
+{
+  "datum": "2026-09-22",
+  "zweck": "reel",
+  "daten": {
+    "szenen": [
+      {
+        "art": "hook",
+        "nummer": null,
+        "titel": "B-Limitada in Deutschland steuerpflichtig?",
+        "unter": null,
+        "text": null,
+        "norm": null,
+        "icon": "globus",
+        "sprecher": "Nein, nicht automatisch – erst zwei Normen zusammen entscheiden, ob die B-Limitada hier Körperschaftsteuer zahlt.",
+        "marken": [
+          "*zwei* Normen entscheiden"
+        ],
+        "bildSzene": "world map with pinned locations",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 1,
+        "titel": "Sitz im Ausland?",
+        "unter": null,
+        "text": "Ohne Sitz oder Geschäftsleitung im Inland beginnt hier die Prüfung.",
+        "norm": "§ 2 Nr. 1 KStG",
+        "icon": null,
+        "sprecher": "Die B-Limitada hat weder Sitz noch Geschäftsleitung in Deutschland. Also prüfst du zuerst Paragraf 2 Nummer 1 Körperschaftsteuergesetz – die beschränkte Körperschaftsteuerpflicht.",
+        "marken": [
+          "§ 2 Nr. 1 KStG: *persönliche* Pflicht"
+        ],
+        "bildSzene": "empty office building abroad",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 2,
+        "titel": "Welche Einkünfte zählen?",
+        "unter": null,
+        "text": "§ 49 EStG entscheidet, ob eine Inlandsquelle vorliegt.",
+        "norm": "§ 49 EStG",
+        "icon": null,
+        "sprecher": "Das allein reicht nicht. Jetzt kommt Paragraf 49 Einkommensteuergesetz ins Spiel – er bestimmt, ob überhaupt Inlandseinkünfte vorliegen, etwa aus einer vermieteten Immobilie oder einer Beteiligung.",
+        "marken": [
+          "§ 49 EStG: *sachliche* Prüfung"
+        ],
+        "bildSzene": "small house model on documents",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 3,
+        "titel": "§ 1 Abs. 3 EStG anwenden?",
+        "unter": null,
+        "text": "Nein – diese Schritte gelten nur für natürliche Personen.",
+        "norm": "§ 1 (3) EStG",
+        "icon": null,
+        "sprecher": "Und ein typischer Aufbaufehler: Die Schritte aus Paragraf 1 Absatz 3 und 4 Einkommensteuergesetz sind für natürliche Personen gemacht. Auf eine Kapitalgesellschaft wie die B-Limitada wendest du sie nicht an.",
+        "marken": [
+          "§ 1 (3) EStG: *nicht* übertragbar"
+        ],
+        "bildSzene": "two different official documents side by side",
+        "kreuz": true
+      },
+      {
+        "art": "merke",
+        "nummer": null,
+        "titel": "Zwei Normen, zwei Ebenen",
+        "unter": null,
+        "text": "Persönlich aus dem KStG, sachlich aus § 49 EStG.",
+        "norm": "§ 2 Nr. 1 KStG · § 49 EStG",
+        "icon": null,
+        "sprecher": "Merk dir die Trennung: Der persönliche Zugriff kommt aus dem Körperschaftsteuergesetz, der Inlandsbezug immer aus Paragraf 49 Einkommensteuergesetz.",
+        "marken": [
+          "§ 2 Nr. 1 KStG + § 49 EStG"
+        ],
+        "bildSzene": "two separate ledger pages",
+        "kreuz": false
+      },
+      {
+        "art": "cta",
+        "nummer": null,
+        "titel": "Folgen für Klausurtechnik Tag 2",
+        "unter": null,
+        "text": null,
+        "norm": null,
+        "icon": null,
+        "sprecher": "Schick das der Person in deiner Lerngruppe, die bei Auslandsgesellschaften sofort zu Paragraf 1 Absatz 3 greift. Folgen für mehr Klausurtechnik zu Tag 2.",
+        "marken": [
+          "Schick es *weiter*"
+        ],
+        "bildSzene": null,
+        "kreuz": false
+      }
+    ],
+    "caption": "Beschränkte Körperschaftsteuerpflicht der B-Limitada: welche Norm zieht wirklich?\n\nBei ausländischen Kapitalgesellschaften ohne Sitz oder Geschäftsleitung im Inland kommt die persönliche Steuerpflicht aus Paragraf 2 Nummer 1 KStG – aber ob überhaupt Inlandseinkünfte vorliegen, entscheidet erst Paragraf 49 EStG. Die Schritte aus Paragraf 1 Absatz 3 und 4 EStG gehören nicht dazu, die sind für natürliche Personen gemacht.\n\nSchick das der Person in deiner Lerngruppe, die diese beiden Ebenen ständig vermischt. Und speichern, bevor die Klausur kommt.\n\nWo genau würdest du bei der B-Limitada als Erstes prüfen?",
+    "hashtags": [
+      "#körperschaftsteuer",
+      "#beschränktesteuerpflicht",
+      "#internationalessteuerrecht",
+      "#paragraf49estg",
+      "#kapitalgesellschaft",
+      "#stbexamen",
+      "#steuerberaterprüfung",
+      "#steuerberaterexamen",
+      "#steuerberater",
+      "#steuerrecht",
+      "#examensvorbereitung",
+      "#klausurtechnik"
+    ],
+    "kurztitel": "Beschränkte KSt-Pflicht: zwei Normen",
+    "bildSzene": "world map with pinned locations",
+    "bildSzeneAlt": "closed suitcase beside passport"
+  }
+}
