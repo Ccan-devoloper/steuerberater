@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-22T06:43:52.110Z",
+  "stand": "2026-09-22T07:43:37.002Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -1277,6 +1277,20 @@
           "ig_reels_avg_watch_time": 12664,
           "ig_reels_video_view_total_time": 1051157,
           "reels_skip_rate": 60
+        },
+        {
+          "stand": "2026-09-22T07:43:35.759Z",
+          "alterStunden": 92.9,
+          "reach": 64,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 98,
+          "ig_reels_avg_watch_time": 12572,
+          "ig_reels_video_view_total_time": 1093786,
+          "reels_skip_rate": 58.9
         }
       ]
     },
@@ -2203,6 +2217,61 @@
           "navigation_swipe_forward": 1
         }
       ]
+    },
+    "17944056978303220": {
+      "art": "story",
+      "datum": "2026-09-22",
+      "titel": "Welche Aussage zur vGA ist richtig?",
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-22T05:46:44.202Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-22T07:43:33.434Z",
+          "alterStunden": 1.9,
+          "reach": 11,
+          "views": 11,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 11,
+          "navigation_tap_forward": 8,
+          "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "17896263897393620": {
+      "art": "story",
+      "datum": "2026-09-22",
+      "titel": "Die vGA wird außerbilanziell korrigiert.",
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-22T05:46:55.434Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-22T07:43:33.434Z",
+          "alterStunden": 1.9,
+          "reach": 9,
+          "views": 10,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 9,
+          "navigation_tap_exit": 1,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 7
+        }
+      ]
     }
   },
   "konto": [
@@ -2283,6 +2352,11 @@
     },
     {
       "stand": "2026-09-22T06:43:52.110Z",
+      "follower": 72,
+      "medien": 55
+    },
+    {
+      "stand": "2026-09-22T07:43:37.002Z",
       "follower": 72,
       "medien": 55
     }

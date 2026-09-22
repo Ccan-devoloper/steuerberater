@@ -2885,8 +2885,8 @@
         "ig_reels_video_view_total_time": 1093786,
         "reels_skip_rate": 58.9
       },
-      "insightsStand": "2026-09-22T05:44:02.055Z",
-      "insightsAlterStunden": 67.9
+      "insightsStand": "2026-09-22T07:43:35.759Z",
+      "insightsAlterStunden": 92.9
     },
     {
       "datum": "2026-09-18",
@@ -3973,7 +3973,22 @@
       "fach": "kst",
       "titel": "Welche Aussage zur vGA ist richtig?",
       "medienId": "17944056978303220",
-      "veroeffentlicht": "2026-09-22T05:46:44.202Z"
+      "veroeffentlicht": "2026-09-22T05:46:44.202Z",
+      "insights": {
+        "reach": 11,
+        "views": 11,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 11,
+        "navigation_tap_forward": 8,
+        "navigation_swipe_forward": 3
+      },
+      "insightsStand": "2026-09-22T07:43:33.434Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-09-22",
@@ -3984,7 +3999,23 @@
       "fach": "kst",
       "titel": "Die vGA wird außerbilanziell korrigiert.",
       "medienId": "17896263897393620",
-      "veroeffentlicht": "2026-09-22T05:46:55.434Z"
+      "veroeffentlicht": "2026-09-22T05:46:55.434Z",
+      "insights": {
+        "reach": 9,
+        "views": 10,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_tap_exit": 1,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 7
+      },
+      "insightsStand": "2026-09-22T07:43:33.434Z",
+      "insightsAlterStunden": 1.9
     }
   ],
   "fachZaehler": {
