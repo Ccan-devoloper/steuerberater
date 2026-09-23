@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 53 bis 63
+
+Eingepflegt als Kapitel `ao-jacobs-13-13` bis `ao-jacobs-13-15`: Besonderheiten des § 71 AO
+(Drittwirkung nach § 166 AO mit Anwendungsfall, § 219 Satz 2 AO, Konkurrenz zu § 69 AO),
+§ 73 AO (Organschaft), § 74 AO (Eigentümerhaftung mit Fallbeispiel A+B-GmbH) und der Übungsfall
+A-GmbH & Co. KG mit Lösung. Stand des Skripts: 16 Teile, 227 Kapitel, 5760 Blöcke, 395 Tabellen.
+
+**Nachgerechnet:** § 74-Fall 9 x 5.000 = 45.000 € (§ 69 AO) und 3 x 5.000 = 15.000 € (§ 74 AO, USt
+04 bis 06/02); KG-Fall 5 x 15.000 = 75.000 € + 10.000 € = 85.000 €. Den in der Quelle nicht
+bezifferten Betrag nach § 74 AO (USt 11 und 12/04) setzt die eigene Zusammenstellung mit
+30.000 € an.
+
+**Quellbefunde (markiert):** Im Fallbeispiel zu § 74 AO tragen Erwerb und Überlassung des Lkw die
+Jahreszahl 06 (01.01.06, 01.02.06), alle übrigen Daten 02; im Beispiel zum Eigentumsvorbehalt
+wird der Lkw „an die KG“ verpachtet, obwohl A an einer GmbH beteiligt ist; die Überschrift
+„3. Umfang der Haftung“ folgt auf „3. Fallbeispiel“. Im KG-Fall stellen „die Schuldner der KG“
+den Insolvenzantrag (gemeint: die Gläubiger), die Komplementärhaftung wird zunächst auf „§ 128
+HGB“ (alte Fassung) und dann auf § 126 HGB gestützt, die Nichtzahlung als „§ 69 Satz 1 Alt. 2 AO“
+bezeichnet (im Prüfungsschema Alternativen 3 und 4); Tippfehler „31.1204“ stillschweigend
+berichtigt.
+
 ### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 41 bis 52
 
 Eingepflegt als Kapitel `ao-jacobs-13-10` bis `ao-jacobs-13-12`: das Muster eines

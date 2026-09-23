@@ -840,7 +840,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   vollständige Muster eines Haftungsbescheides mit Begründung und Rechtsbehelfsbelehrung,
   der Übungsfall Anton Sorglos zur Korrektur von Haftungsbescheiden (§ 130 Abs. 2 AO beim
   Rechtsfehler, § 129 AO beim Tippfehler) und die Haftung des Steuerhinterziehers nach § 71 AO
-  mit den Fallbeispielen A-GmbH (18.050 €) und A+B-OHG.
+  mit den Fallbeispielen A-GmbH (18.050 €) und A+B-OHG; weiter (Seiten 53 bis 63) die
+  Besonderheiten des § 71 AO (Drittwirkung, Zahlungsaufforderung, Konkurrenz zu § 69 AO), die
+  Organschaftshaftung nach § 73 AO, die Eigentümerhaftung nach § 74 AO mit Fallbeispiel
+  A+B-GmbH und der Übungsfall A-GmbH & Co. KG mit Komplementär-GmbH, Kommanditist,
+  Geschäftsführer und Buchhalter.
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und
