@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.3.3.4 bis I.3.6
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
+`ust-m-b08-1-20` (I.3.3.4 Verwendung einer gültigen USt-IdNr.), `ust-m-b08-1-21` (I.3.4 Buch-
+und Belegnachweis mit Gelangensvermutung, Gelangensbestätigung und Alternativnachweisen),
+`ust-m-b08-1-22` (I.3.5 Vertrauensschutz) und `ust-m-b08-1-23` (I.3.6 Rechnung, ZM, § 18b und
+Bestätigungsverfahren) für die PDF-Seiten 31 bis 35. **Abschnitt I.3 ist damit vollständig.**
+Stand des USt-Skripts: 8 Teile, 186 Kapitel, 3287 Blöcke, 163 Tabellen.
+
+**Quellbefunde (markiert):** I.3.3.4 verweist auf „Abschn. 6.1. Abs. 19 Satz 4 UStAE“ (gemeint
+Abschn. 6a.1 Abs. 19). I.3.6 ordnet den Buchnachweis § 17c Abs. 2 UStDV zu, I.3.4 dagegen
+§ 17d UStDV.
+
+**Darstellung:** Nicht lesbare Aufzählungszeichen der Alternativnachweise durch ① bis ④ ersetzt
+(vermerkt).
+
+**Stillschweigend berichtigt:** „Abschn. 6a.1. bis 6a.7“, „grenz-überschreitende“, „übermittelt
+werden können“ (doppeltes Modalverb), „Leistungsempfänger anzugeben“ (Leistungsempfängers),
+„Buchnachweis i.S.d.“ (Buchnachweises), „auf elektronischen Weg“, „EU - Mitgliedstaaten“,
+gerade Anführungszeichen bei „Zusammenfassenden Meldung (ZM)“, „gültig oder ungültig sind“
+(ist), Zeilenumbruch „gem. / § 18e UStG“.
+
+**Weiter mit:** Block 8 Teil I ab I.4 Reihengeschäfte innerhalb der EU (PDF-Seite 36).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.3.3.1 bis I.3.3.3
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
