@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: III.5.3.2 bis III.5.3.4
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-18` (III.5.3.2 Lieferung
+bebauter Grundstücke, Fälle a bis d), `ust-m-b08-2-19` (III.5.3.3 Gebäude auf fremdem Grund
+und Boden, Beispiel Fabrikant F) und `ust-m-b08-2-20` (III.5.3.4 Nießbrauch) für die
+PDF-Seiten 33 bis 37. Stand des USt-Skripts: 9 Teile, 240 Kapitel, 3923 Blöcke, 205 Tabellen.
+
+**Quellenfehler (im Text markiert):** Beispiel Immobilienentwicklungsgesellschaft: „habe die
+Klägerin“ ohne vorher eingeführte Klägerin; gemeint ist die KG.
+
+**Nachgerechnet (eigene Ergänzung):** Lagerhalle bei Option 1.000.000 € × 19 % = 190.000 € USt
+nach § 13b UStG; KG 3,2 Mio € + 7,5 Mio € = 10,7 Mio € einheitliches Entgelt.
+
+**Stillschweigend berichtigt:** „1. Mio. Euro“, „i.V. § 13b“, „BStB1“ (OCR, BStBl),
+„auf fremden Grund und Boden“ (Überschrift, fremdem), fehlendes Komma „ist bleibt“,
+„unter das GrESt fällt“ (GrEStG), „muss … zuwendet“ (müssen … zugewendet werden),
+„Nießbrauch.“ (Punkt in Überschrift), „schenkweiser“, „fortsetzt“, „S. 432 ff“, Leerzeichen
+in Klammern, fehlender Punkt nach „Satz 5 UStAE)“.
+
+**Weiter mit:** III.6 § 4 Nr. 12a UStG – Vermietung und Verpachtung von Grundstücken
+(PDF-Seite 37).
+
 ### USt-Skript (Moecker), Block 8 Teil II: III.5.1 bis III.5.3.1
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-15` (III.5.1 Allgemeines zu
