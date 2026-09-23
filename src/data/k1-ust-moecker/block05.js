@@ -1,7 +1,7 @@
 /* USt-Skript (Moecker), Block 5: Entgeltliche sonstige Leistungen.
    Quelle: „B-S26-USt-Skript Block 05-(Moecker)-0326“ (Block 05 – Sonstige
    Leistungen, Vers. I / 2026, Red. 04-26, Titelblatt März 2026), 114 PDF-Seiten.
-   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 4. */
+   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 10. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 03/2026";
@@ -979,6 +979,53 @@ export const block05 = [
         ["❖ Zubereitung und Qualität der Speisen (Bsp. 6) ❖ Transport der Speisen und Übergabe zu festem Zeitpunkt ❖ Warmhaltebehältnisse, Platten + Reinigung, da insoweit „Verpackung“ (Bsp. 8) ❖ Papierservietten ❖ Erstellen Speisekarte / Pläne ❖ Allgemeine Erläuterung des Speisenangebots (Bsp. 9)", "❖ Servieren der Speisen und Getränke ❖ Gestellung Personal ❖ Gestellung zusätzliches Geschirr / Besteck (Bsp. 10) ❖ Überlassung von Mobiliar (z.B. Tische und Stühle)"],
       ] },
       { text: "**Folge:** Nur Lieferung oder Anlieferung von vorgefertigten Speisen (auch in Warmhaltebehältnissen) ➔ **Lieferung zu 7 %** (so auch Art. 6 MwSt-VO v. 15.03.11). Wenn zusätzlich (schädliche) Dienstleistungselemente auf der **Darreichungsebene** ➔ **so. Leistung zu 19 %**." },
+    ],
+  },
+  {
+    id: "ust-m-b05-28",
+    teil: TEIL,
+    kapitel: "28",
+    abschnittNr: "Arbeitspapiere A 5 bis A 10",
+    title: "Arbeitspapiere A 5 bis A 10: Restaurationsumsätze ab 01.01.2026 und Leistungskommission nach § 3 Abs. 11 UStG",
+    thema: "7 % für Restaurant- und Verpflegungsdienstleistungen ohne Getränke, Entgeltaufteilung, Kombiangebote mit 30 % Getränkeanteil, Gutscheine aus 2025, Hotelgewerbe und Business-Package sowie Leistungseinkauf (Spediteur/Frachtführer) und Leistungsverkauf (Kopierervermietung, Hausverwalter) mit den drei Arten des Auftretens",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 5 bis A 10"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 11 UStG", "§ 3 Abs. 15 Satz 2 UStG", "§ 12 Abs. 2 Nr. 15 UStG", "Steueränderungsgesetz 2025", "Abschn. 10.1 Abs. 11 Satz 1 und Abs. 12 UStAE", "Abschn. 12.16 Abs. 12 Satz 2 UStAE", "BMF, 22.12.2025"],
+    themen: ["Restaurationsumsatz", "ermäßigter Steuersatz", "Kombiangebot", "Gutschein", "Leistungskommission", "Besorgungsleistung", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 5 – Restaurationsumsätze ab 01.01.2026" },
+      { text: "**Steueränderungsgesetz 2025 – Änderung des § 12 Abs. 2 Nr. 15 UStG:** „(2) Die Steuer ermäßigt sich auf 7 Prozent für die folgenden Umsätze: 15. die Restaurant- und Verpflegungsdienstleistungen, mit Ausnahme der Abgabe von Getränken.“" },
+      { typ: "tabelle", spalten: ["Restaurant- und Verpflegungsdienstleistungen", "Getränke (egal welche)"], zeilen: [
+        ["Ab 1.1.2026 7 %", "Weiterhin 19 %"],
+      ] },
+      { text: "**Betroffene Unternehmer:** ❖ Restaurant, Pizzeria, Imbiss, Catering, Dinner-Show, Kantinen, Bäckereien, Metzgereien usw. ❖ **Alle Speisenabgaben = ermäßigter Steuersatz** • Qualität der Speisen ist unbeachtlich; auch sog. **Luxusnahrungsmittel** (Kaviar, Hummer, Austern)" },
+      { text: "**Aufteilung des Entgelts:** ❖ Nur der **Verpflegungsteil** ermäßigt zu versteuern ❖ **Sämtliche Getränke** (z.B. Bier, Wein, Kaffee, Mineralwasser, Säfte, Milch und auch Milchmixgetränke) = **19 %** ❖ Einheitlicher Preis für **Frühstücksbuffet, All-Inclusive-Angebote** sachgerecht auf die einzelnen Leistungen aufzuteilen (Abschn. 10.1 Abs. 11 S. 1 UStAE) nach • **einfachstmöglicher sachgerechter Aufteilungsmethode** • grds. nach dem **Verhältnis der Einzelverkaufspreise**." },
+      { typ: "titel", text: "Arbeitspapier A 6" },
+      { text: "❖ **Abschn. 10.1 Abs. 12 UStAE = Vereinfachungsregelung** (BMF vom 22.12.2025): Aufteilung von sogenannten **Kombiangeboten** aus Speisen inkl. Getränken = **Getränkeanteil 30 % des Pauschalpreises**." },
+      { text: "**Beachte Einlösung von Gutscheinen aus 2025 in 2026:** ❖ Ausgabe von Restaurantgutscheinen in 2025 als **Einzweckgutschein** ➔ USt bei Ausgabe = **bereits alles 19 %**. ❖ Bei Ausgabe als **Mehrzweckgutschein** (= Gutschein für Speisen, auch für Mitnahme) ➔ **keine USt bei Ausgabe** (§ 3 Abs. 15 S. 2 UStG), erst im Zeitpunkt der **Einlösung** unterliegt die Leistung der USt. Bei Einlösung in 2026 dann **7 %** (für Verpflegung)." },
+      { text: "**Aufteilungsgebot im Hotelgewerbe:** ❖ **Übernachtungsleistung** wie bisher = **7 %** ❖ **Verpflegungsdienstleistungen** (insbes. Frühstück) • ab 01.01.2026 ermäßigt besteuert = **7 %** • Getränkeanteil zu separieren mit = **19 %** ❖ **Abschn. 12.16 Abs. 12 S. 2 UStAE „Business-Package“** (BMF v. 22.12.2025): **85 % (zu 7 %) & 15 % (zu 19 %)**. M.E. auch andere Schätzung, z.B. Verhältnis der Einzelverkaufspreise zueinander, möglich." },
+      { typ: "titel", text: "Arbeitspapier A 7 – 2. Leistungskommission gem. § 3 Abs. 11 UStG" },
+      { text: "**Besorgungsleistung gem. § 3 Abs. 11 UStG ist Leistungseinkauf und -verkauf.** Es wird jeweils eine **Leistungskette fingiert** mit **gleichem Leistungsinhalt** und **gleichem Leistungszeitpunkt**." },
+      { text: "Die Schaubilder der Arbeitspapiere A 7 bis A 10 sind im Folgenden als Text wiedergegeben." },
+      { text: "**Beispiel Leistungseinkauf:** Hersteller A ➔ Spediteur (Auftrag: Besorgung Transport) ➔ Frachtführer (Auftrag im eigenen Namen = Transport). Hersteller A: **Auszahlung 100**; Spediteur: **Einbehalt 15 (Prov.)**; Frachtführer: **Entgelt 85 (netto)**." },
+      { text: "➔ **Fingierte Beförderungsleistung des S an A für 100**, steuerbar und steuerpflichtig. ➔ **Beförderungsleistung des F an S für 85**, steuerbar und steuerpflichtig." },
+      { text: "**Beispiel Leistungsverkauf:** Hersteller Kopierer Fa. K ➔ Vermiet-GmbH aus München (Überlassung Kopierer zur Vermietung an GmbH) ➔ Unternehmer U (Vermietung Kopierer im eigenen Namen). Fa. K: **Auszahlung 85**; Vermiet-GmbH: **Einbehalt 15 (Prov.)**; Unternehmer U: **Miete 100 (netto)**." },
+      { text: "➔ **Fingierte Vermietung der Fa. K an GmbH für 85**, steuerbar und steuerpflichtig. ➔ **Vermietung beweglicher Gegenstände an U für 100**, steuerbar und steuerpflichtig." },
+      { typ: "titel", text: "Arbeitspapier A 8 – Fälle Leistungseinkauf / Arten des Auftretens" },
+      { text: "**Händler A** will Ware durch einen **Frachtführer (F)** transportieren lassen. A wendet sich an den **Spediteur S**." },
+      { text: "**1) S tritt auf im fremden Namen und für fremde Rechnung:** Beförderungsvertrag (85 Euro) zwischen Händler A und Frachtführer F; Vermittlungsvertrag (15 Euro) zwischen Händler A und Spediteur S. **Lösung:** S ➔ an A = **Vermittlungsleistung BMG 15**; F ➔ an A = **Beförderungsleistung BMG 85**." },
+      { text: "**2) S tritt auf im eigenen Namen und für eigene Rechnung:** Beförderungsverträge zwischen Händler A und Spediteur S (100 Euro) sowie zwischen Spediteur S und Frachtführer F (85 Euro). **Lösung:** S ➔ an A = **Beförderungsleistung BMG 100**; F ➔ an S = **Beförderungsleistung BMG 85**." },
+      { typ: "titel", text: "Arbeitspapier A 9" },
+      { text: "**3) S tritt auf im eigenen Namen aber für fremde Rechnung**" },
+      { text: "**Im eigenen Namen:** Derjenige, der im eigenen Namen nach außen hin auftritt, wird **selbst zum Vertragspartner** der Leistung. **Auf fremde Rechnung:** Das **wirtschaftliche Ergebnis** soll dem **Hintermann** (Auftraggeber) zukommen. Daher auch zivilrechtlich eine **Geschäftsbesorgung**. Im USt-Recht wird hingegen jetzt eine **Leistungskette fingiert** mit gleichem Leistungsinhalt und gleichem Leistungszeitpunkt." },
+      { text: "Besorgungsvertrag (15 Euro) zwischen Händler A und Spediteur S; Beförderungsvertrag (85 Euro) zwischen Spediteur S und Frachtführer F – **Fall des § 3 Abs. 11 UStG**. **Lösung:** S ➔ an A = **Beförderungsleistung BMG 100**; F ➔ an S = **Beförderungsleistung BMG 85**." },
+      { typ: "titel", text: "Arbeitspapier A 10 – Fälle Leistungsverkauf / Arten des Auftretens" },
+      { text: "**Vermieter V** will Büro vermieten an **Unternehmer (U)**. V wendet sich an **Hausverwalter (H)**." },
+      { text: "**1) H tritt auf im fremden Namen und für fremde Rechnung:** Mietvertrag (100 Euro) zwischen Vermieter V und U; Vermittlungsvertrag (15 Euro) zwischen Vermieter V und Verwalter H. **Lösung:** H ➔ an V = **Vermittlungsleistung BMG 15**; V ➔ an U = **Vermietungsleistung BMG 100**." },
+      { text: "**2) H tritt auf im eigenen Namen und für eigene Rechnung:** Mietverträge zwischen Vermieter V und Verwalter H (85 Euro) sowie zwischen Verwalter H und U (100 Euro). **Lösung:** V ➔ an H = **Vermietungsleistung BMG 85**; H ➔ an U = **Vermietungsleistung BMG 100**." },
+      { text: "**3) H tritt auf im eigenen Namen aber für fremde Rechnung:** Besorgungsvertrag (15 Euro) zwischen Vermieter V und Verwalter H; Mietvertrag (100 Euro) zwischen Verwalter H und U – **Fall des § 3 Abs. 11 UStG**. **Lösung:** V ➔ an H = **Vermietungsleistung BMG 85**; H ➔ an U = **Vermietungsleistung BMG 100**." },
+      { text: "**Nachrechnung (eigene Ergänzung):** In allen Varianten gilt 85 € + 15 € = 100 €; bei der Besorgung nach § 3 Abs. 11 UStG entspricht die Bemessungsgrundlage des Kommissionärs (100 €) dem Entgelt des Frachtführers bzw. der Weitergabe an den Vermieter (85 €) zuzüglich der einbehaltenen Provision (15 €)." },
     ],
   },
 ];

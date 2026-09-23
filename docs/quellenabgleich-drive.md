@@ -10623,6 +10623,22 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5: Arbeitspapiere A 5 bis A 10
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel
+`ust-m-b05-28` für die PDF-Seiten 67 bis 72: A 5 Restaurationsumsätze ab 01.01.2026
+(§ 12 Abs. 2 Nr. 15 UStG, Aufteilung), A 6 Kombiangebote (30 % Getränkeanteil), Gutscheine aus
+2025 und Hotelgewerbe/Business-Package (85 % / 15 %), A 7 bis A 10 Leistungskommission mit
+Leistungseinkauf (Spediteur) und Leistungsverkauf (Kopierer, Hausverwalter) in den drei Arten
+des Auftretens. Die Pfeil-Schaubilder A 7 bis A 10 sind als Text wiedergegeben (vermerkt);
+A 6 und A 9 tragen in der Quelle keine eigene Überschrift. Nachrechnung 85 + 15 = 100 als
+eigene Ergänzung. Stand des USt-Skripts: 5 Teile, 100 Kapitel, 2033 Blöcke, 98 Tabellen.
+
+**Stillschweigend berichtigt:** fehlendes schließendes Anführungszeichen bei „Business-Package“,
+„USt-recht“, „–Verkauf“, Layout-Reste der Schaubilder.
+
+**Noch offen in Block 5:** Arbeitspapiere ab A 11 (PDF-Seite 73 ff.).
+
 ### USt-Skript (Moecker), Block 5: Textteil abgeschlossen (IV), Arbeitspapiere A 1 bis A 4
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
