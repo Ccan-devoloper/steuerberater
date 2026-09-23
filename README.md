@@ -2415,7 +2415,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Lohnveredelung nach § 7 UStG, Drei-Fall-Regelung, Bedeutung der USt-IdNr. ab 2020 und
   Tatbestand der innergemeinschaftlichen Lieferung mit Warenbewegung, Abnehmer und
   Erwerbsbesteuerung, USt-IdNr., Buch- und Belegnachweis, Vertrauensschutz und sonstigen
-  Vorschriften sowie innergemeinschaftlichen Reihengeschäften (26 Kapitel).
+  Vorschriften, innergemeinschaftlichen Reihengeschäften und dem Dreiecksgeschäft nach
+  § 25b UStG (29 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

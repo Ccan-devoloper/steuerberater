@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.4.4 bis I.5.2
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
+`ust-m-b08-1-27` (I.4.4 Reihengeschäft mit 4 Beteiligten, Fall 8 Brüssel–Gent–Düsseldorf–Wien),
+`ust-m-b08-1-28` (I.5.1 Dreiecksgeschäft: Ausgangsfall Paris–Brüssel–Düsseldorf und
+Vereinfachungsgedanke) und `ust-m-b08-1-29` (I.5.2 Tatbestand nach § 25b Abs. 1 Nr. 1 bis 4
+UStG) für die PDF-Seiten 46 bis 50. Stand des USt-Skripts: 8 Teile, 192 Kapitel, 3351 Blöcke, 171 Tabellen.
+
+**Darstellung:** Schaubilder als Text, Gegenüberstellung Fall 8 als Tabelle; nicht lesbare
+Aufzählungszeichen in I.5.2 durch „•“ ersetzt (eigene Ergänzung zur Darstellung).
+
+**Stillschweigend berichtigt:** „rt gem.“ (Ort), „Steuerbar“ (Kleinschreibung), „zusätzlich
+innergem. Erwerbs“ (Erwerb), „§ 3 Abs. 6a S. 1UStG“, „in Österreich ,“, „Umsatzsteuer -
+Identifikationsnummer“, überzählige Klammer nach „§ 25b Abs. 5 UStG“, „Null – Situation“,
+„erfassen lassen müssten“ (müsste), „Abschn. 25b.1.“, „von einen Mitgliedstaat“ (einem),
+englische Anführungszeichen bei „unbewegt“, „bewegt“ und „bewegten“, gerade Anführungszeichen
+bei „bewegungslosen“, Leerzeichen in Klammern, „W a r e n b e w e g u n g“, „Hin-weis“.
+
+**Weiter mit:** Block 8 Teil I ab I.5.3 Rechtsfolgen und weitere Voraussetzungen (PDF-Seite 50).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.4.3
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neues

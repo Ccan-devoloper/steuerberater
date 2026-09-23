@@ -1,7 +1,7 @@
 /* USt-Skript (Moecker), Block 8 Teil I: Steuerfreie Umsätze mit Vorsteuerabzug.
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
-   In Arbeit: eingepflegt bis I.4.3 (Reihengeschäft anderer EU-Staat ➔ DE), PDF-Seiten 2 bis 45. */
+   In Arbeit: eingepflegt bis I.5.2 (Tatbestand des Dreiecksgeschäfts), PDF-Seiten 2 bis 50. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -773,6 +773,79 @@ export const block08Teil1 = [
         ["2. Lieferung M ➔ D: Lieferung gem. § 3 Abs. 1 UStG im Reihengeschäft § 3 Abs. 6a S. 1 UStG. Bewegungslose Lieferung, da Warentransport gem. § 3 Abs. 6a Satz 4 1. Alternative UStG bereits der Lieferung B an M zuzuordnen ist. Somit Lieferung gem. § 3 Abs. 7 S. 2 Nr. 2 UStG als der bewegten Lieferung folgende bewegungslose Lieferung am Ende der Beförderung / Versendung => in Düsseldorf => Zeitpunkt 02.07. Steuerbar und als inländische bewegungslose Lieferung an D steuerpflichtig.", "2. Erwerb durch D: Der Tatbestand des innergem. Erwerbs nach § 1a Abs. 1 Nr. 1 - 3 UStG fordert auf der Seite des Erwerbers den Erwerb einer bewegten Warenlieferung. Die Warenbewegung wird jedoch dem 1. Erwerb durch M zugeordnet. D ist lediglich Leistungsempfänger einer inländischen „bewegungslosen“ Lieferung. Ihm steht der Vorsteuerabzug aus der steuerpflichtigen Lieferung des M (entsprechend der Rechnung) zu."],
       ] },
       { text: "Die Gegenüberstellungen der Quelle (Lieferungen links, Erwerbe rechts) sind als Tabellen wiedergegeben; die Spaltenköpfe „Lieferung“ und „Erwerb“ und die Pfeile sind eigene Ergänzung zur Darstellung." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-27",
+    teil: TEIL,
+    kapitel: "27",
+    abschnittNr: "I.4.4",
+    title: "I.4.4 Reihengeschäft mit 4 Beteiligten mit Warenbewegung EU => EU",
+    thema: "Großkopierer Brüssel–Gent–Düsseldorf–Wien mit Transport durch den ersten Unternehmer: bewegte erste Lieferung ohne Steuerbefreiung wegen belgischer USt-IdNr. des Abnehmers, Pflicht- und Straferwerb des G und ruhende Lieferungen in Österreich (Fall 8)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.4.4"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1 Nr. 5 UStG", "§ 1a Abs. 1 Nr. 1 bis 3 UStG", "§ 3 Abs. 1 UStG", "§ 3 Abs. 6 Satz 1 UStG", "§ 3 Abs. 6a Sätze 1 und 2 UStG", "§ 3 Abs. 7 Satz 2 Nr. 2 UStG", "§ 3d Sätze 1 und 2 UStG", "§ 6a Abs. 1 Nr. 4 UStG"],
+    themen: ["Reihengeschäft", "innergemeinschaftlicher Erwerb", "Straferwerb", "ruhende Lieferung"],
+    bloecke: [
+      { typ: "titel", text: "I.4.4 Reihengeschäft mit 4 Beteiligten mit Warenbewegung EU => EU" },
+      { text: "**Beispiel:** **Großkopiergerätehersteller B aus Brüssel** verkauft einen Großkopierer an den **Händler G aus Gent (Belgien)**, der seinerseits den Großkopierer an **D aus Düsseldorf** verkauft. D wiederum verkauft den Großkopierer an **W aus Wien**. Die Verpflichtungsgeschäfte werden dadurch erfüllt, dass der Großkopierer **unmittelbar vom ersten Unternehmer B in Brüssel an den letzten Abnehmer W in Wien** gelangt. Alle Unternehmer treten unter der **USt-IdNr. ihres Sitzstaates** auf. Den Transport des Großkopierers übernimmt ein **von B beauftragter Spediteur**." },
+      { text: "Schaubild Fall 8 (Sachverhalt): Belgien – 1. Lieferung B (Brüssel) ➔ G (Gent); Deutschland – 2. Lieferung G ➔ D (Düsseldorf); Österreich – 3. Lieferung D ➔ W (Wien); Warenbewegung unmittelbar von B (Brüssel) an W (Wien)." },
+      { typ: "titel", text: "Lösung" },
+      { typ: "tabelle", spalten: ["Lieferung", "Erwerb"], zeilen: [
+        ["1. Lieferung B ➔ G: Lieferung gem. § 3 Abs. 1 UStG im Reihengeschäft § 3 Abs. 6a S. 1 UStG. Bewegte Lieferung, da Warentransport der Lieferung des B zuzuordnen (§ 3 Abs. 6a Satz 2 UStG). Ort gem. § 3 Abs. 6 Satz 1 UStG mit Beginn der Warenbewegung in Brüssel. In Belgien steuerbar. Da G mit belgischer USt-IdNr. und nicht mit einer ausl. USt-IdNr. auftritt ist der Tatbestand einer innergem. Lieferung gem. § 6a Abs. 1 Nr. 4 UStG durch B nicht erfüllt. Folge: In Belgien steuerbare und steuerpflichtige Lieferung", "1. Erwerb durch G: Empfänger einer bewegten Warenlieferung; die Warenbewegung wird der ersten Lieferung und damit dem ersten innergem. Erwerb zugeordnet. Lieferant und Erwerber sind regelversteuernde Unternehmer (= Tatbestand des innergem. Erwerbs § 1a Abs. 1 Nr. 1 - 3 UStG erfüllt). => Ort des innergem. Erwerbs (§ 3d S. 1 UStG = Pflichterwerb) in Österreich. In Österreich steuerbar gem. § 1 Abs. 1 Nr. 5 und steuerpflichtig. => Wegen Verwendung der belg. USt-IdNr. zusätzlich innergem. Erwerb (§ 3d S. 2 UStG = Straferwerb) in Belgien."],
+        ["2. Lieferung G ➔ D: Lieferung gem. § 3 Abs. 1 UStG im Reihengeschäft § 3 Abs. 6a S. 1 UStG. Bewegungslose Lieferung, da Warentransport gem. § 3 Abs. 6a Satz 2 UStG bereits der Lieferung B an G und nicht der Lieferung G an D zuzuordnen ist. Somit Lieferung gem. § 3 Abs. 7 S. 2 Nr. 2 UStG als der bewegten Lieferung folgende bewegungslose Lieferung am Ende der Beförderung / Versendung => in Österreich. In Österreich steuerbar und als innerösterreichische bewegungslose Lieferung an D dort steuerpflichtig.", "2. Erwerb durch D: Der Tatbestand des innergem. Erwerbs nach § 1a Abs. 1 Nr. 1 - 3 UStG fordert den Erwerb einer bewegten Warenlieferung. Die Warenbewegung wird jedoch dem 1. Erwerb durch G zugeordnet. D ist lediglich Leistungsempfänger einer innerösterreichischen „bewegungslosen“ Lieferung. Ihm steht der Vorsteuerabzug aus der in Österreich steuerpflichtigen Lieferung des G (entsprechend der Rechnung) zu."],
+        ["3. Lieferung D ➔ W: => Lösung wie zu 2. Lieferung. Somit bewegungslose Lieferung. Lieferung gem. § 3 Abs. 7 S. 2 Nr. 2 als der bewegten Lieferung folgende bewegungslose Lieferung am Ende der Beförderung / Versendung => in Österreich. In Österreich steuerbar und als innerösterreichische bewegungslose Lieferung an W dort steuerpflichtig.", "3. Erwerb durch W: Die Warenbewegung wird bereits dem 1. Erwerb durch G zugeordnet. W ist lediglich Leistungsempfänger einer innerösterreichischen „bewegungslosen“ Lieferung des D an ihn. Ihm steht der Vorsteuerabzug aus der in Österreich steuerpflichtigen Lieferung des D (entsprechend der Rechnung) zu."],
+      ] },
+      { text: "Schaubild als Text und Gegenüberstellung als Tabelle wiedergegeben; Spaltenköpfe und Pfeile sind eigene Ergänzung zur Darstellung." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-28",
+    teil: TEIL,
+    kapitel: "28",
+    abschnittNr: "I.5.1",
+    title: "I.5 Innergem. Dreiecksgeschäfte (§ 25b UStG): I.5.1 Ausgangsfall / Funktionsweise",
+    thema: "Begriff des innergemeinschaftlichen Dreiecksgeschäfts, Ausgangsfall Großkopierer Paris–Brüssel–Düsseldorf mit Lösung nach den Grundsätzen des Reihengeschäfts (innergemeinschaftliche Lieferung, Pflicht- und Straferwerb, ruhende Lieferung mit Registrierungspflicht) und Vereinfachung durch Übergang der Steuerschuld auf den letzten Abnehmer nach § 25b UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.5.1"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 Satz 1 UStG", "§ 3 Abs. 7 Satz 2 Nr. 2 UStG", "§ 3d Sätze 1 und 2 UStG", "§ 6a UStG", "§ 15 UStG", "§ 25b Abs. 1 bis 3 und 5 UStG"],
+    themen: ["Dreiecksgeschäft", "Reihengeschäft", "Steuerschuldnerschaft", "Vereinfachungsregelung"],
+    bloecke: [
+      { typ: "titel", text: "I.5 Innergem. Dreiecksgeschäfte (§ 25b UStG) – I.5.1 Ausgangsfall / Funktionsweise (➔ Arbeitspapier 42 - 45)" },
+      { text: "Ein innergemeinschaftliches Dreiecksgeschäft liegt (vereinfacht gesagt) vor, wenn am Reihengeschäft **drei Unternehmer** beteiligt sind, die **unter der USt-IdNr. eines jeweils anderen Mitgliedstaates** handeln, und die **Warenbewegung vom ersten Unternehmer unmittelbar an den letzten Abnehmer** in einen anderen Mitgliedstaat erfolgt." },
+      { text: "**Ausgangsfall (D als letzter Abnehmer):** **Büromaschinenhändler D mit Sitz in Düsseldorf** bestellt am **15.03.** unter Verwendung seiner deutschen USt-IdNr. einen Großkopierer bei dem **belgischen Großhändler B**. Dieser hat den Kopierer nicht vorrätig und bestellt ein entsprechendes Gerät beim **Hersteller P aus Frankreich**. **P lässt den Kopierer am 20.03. durch einen von ihm beauftragten Frachtführer nach Düsseldorf befördern**, wo der Kopierer am **22.03.** an D übergeben wird. Die einzelnen Rechnungen werden von P an B am **25.03.**, von B an D am **28.03.** erstellt. Alle Unternehmer sind nur in ihrem jeweiligen Sitzstaat erfasst. Sie verwenden jeweils die entsprechenden USt-IdNr. ihres Landes." },
+      { text: "Schaubild: P (Paris) 1. Lieferer – Vertrag – B (Brüssel) Erster Abnehmer (Zwischenhändler) – Vertrag – D (Düsseldorf) letzter Abnehmer; Warenbewegung von P über die Grenze unmittelbar an D." },
+      { text: "**Lösung unter Beachtung der Grundsätze des Reihengeschäfts:** ❖ Eine **innergemeinschaftliche (bewegte) Lieferung** (hier durch P) i. S. des § 6a UStG in dem Mitgliedstaat, in dem die Beförderung oder Versendung des Gegenstandes beginnt gem. § 3 Abs. 6 Satz 1 UStG (hier Frankreich). ❖ Ein **innergemeinschaftlicher Erwerb durch den ersten Abnehmer** (hier Zwischenhändler B) in dem Mitgliedstaat, in dem die Beförderung oder Versendung endet (**Pflichterwerb in Düsseldorf** gem. § 3d Satz 1 UStG). ❖ Ein (weiterer) innergemeinschaftlicher Erwerb durch den ersten Abnehmer (= Zwischenhändler) in dem Mitgliedstaat, der dem mittleren Unternehmer (= Zwischenhändler) die von ihm verwendete Umsatzsteuer-Identifikationsnummer erteilt hat (hier **Straferwerb gem. § 3d Satz 2 UStG in Belgien** als kumulativer Ort). ❖ Eine **(bewegungslose) Lieferung durch den mittleren Unternehmer** (= Zwischenhändler) an den letzten Abnehmer in dem Mitgliedstaat, in dem die Beförderung oder Versendung endet (hier in Düsseldorf gem. § 3 Abs. 7 Satz 2 Nr. 2 UStG). Das bedeutet, dass sich der mittlere Unternehmer (hier B) grundsätzlich **im Bestimmungsland (hier DE) registrieren lassen** muss und dort Erklärungspflichten nachkommen muss." },
+      { typ: "titel", text: "Vereinfachungsgedanke des Dreiecksgeschäfts" },
+      { text: "Sind alle Voraussetzungen des § 25b Abs. 1 und 2 UStG erfüllt, ist **nicht B, sondern der letzte Abnehmer D Schuldner der Steuer** für die (ruhende) Lieferung des B in Düsseldorf (§ 25b Abs. 2 1. Halbsatz UStG). D kann die von ihm geschuldete Steuer gem. **§ 25b Abs. 5 UStG zeitgleich als Vorsteuer** abziehen, wenn die übrigen Voraussetzungen des § 15 UStG erfüllt sind. Der innergemeinschaftliche Erwerb des B (Pflichterwerb) in Deutschland und grundsätzlich auch der Straferwerb des B in Belgien **gelten als besteuert** (§ 25b Abs. 3 UStG)." },
+      { text: "Die Regelung des § 25b UStG hat damit in erster Linie einen **verfahrensrechtlichen Vereinfachungseffekt**, weil sie verhindert, dass der Zwischenhändler sich im Bestimmungsmitgliedstaat umsatzsteuerlich registrieren lassen und dort entsprechende Verpflichtungen erfüllen muss. Erstmals kommt es beim Dreiecksgeschäft innerhalb der EU einheitlich zum Institut der **Verlagerung der Steuerschuld** des Leistenden auf seinen Abnehmer und gleichzeitigem Vorsteuerabzug gem. § 25b Abs. 5 UStG. Es kommt typischerweise zu einer **Null-Situation**." },
+      { text: "**Hinweis:** Bei dem innergemeinschaftlichen Dreiecksgeschäft handelt es sich um eine **Unterform des Reihengeschäfts**. Liegen die nachfolgend zu besprechenden Voraussetzungen für ein innergemeinschaftliches Dreiecksgeschäft nicht vor, greifen die **allgemeinen Grundsätze zum Reihengeschäft**. Die mögliche Vereinfachung geht dann ins Leere." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-29",
+    teil: TEIL,
+    kapitel: "29",
+    abschnittNr: "I.5.2",
+    title: "I.5.2 Der Tatbestand des innergem. Dreiecksgeschäfts (§ 25b Abs. 1)",
+    thema: "Voraussetzungen nach § 25b Abs. 1 Nr. 1 bis 4 UStG: drei Unternehmer mit unmittelbarer Warenbewegung (Aufteilung längerer Ketten), Registrierung in verschiedenen Mitgliedstaaten, Gelangen von einem Mitgliedstaat in einen anderen (Einfuhr, Be- oder Verarbeitung) und Transport durch den ersten Lieferer oder den Zwischenhändler in der 1. Alternative, Ausschluss des Abholfalls",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.5.2"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 und 7 UStG", "§ 3 Abs. 6a Sätze 4 und 5 UStG", "§ 3 Abs. 8 UStG", "§ 25b Abs. 1 Nr. 1 bis 4 UStG", "Abschn. 25b.1 Abs. 2 bis 5 UStAE"],
+    themen: ["Dreiecksgeschäft", "Reihengeschäft", "Zwischenhändler", "Abholfall", "USt-IdNr."],
+    bloecke: [
+      { typ: "titel", text: "I.5.2 Der Tatbestand des innergem. Dreiecksgeschäfts (§ 25b Abs. 1)" },
+      { text: "• Nach **§ 25b Abs. 1 Nummer 1 UStG** müssen an einem innergem. Dreiecksgeschäft **drei Unternehmer** beteiligt sein, die über denselben Gegenstand Umsatzgeschäfte abschließen und diese Geschäfte dadurch erfüllen, dass der Gegenstand der Lieferungen **unmittelbar vom ersten Lieferer an den letzten Abnehmer** befördert oder versendet wird (Abschn. 25b.1 Abs. 2 UStAE)." },
+      { text: "Sind **mehr als drei Unternehmer** am Reihengeschäft beteiligt, stellt sich die Frage, ob diese Lieferkette nicht aufgeteilt werden kann in ein innergemeinschaftliches Dreiecksgeschäft und davon unabhängige weitere Lieferungen. Sinn dieser Aufteilung wäre die Anwendung der Sonderregelung für innergemeinschaftliche Dreiecksgeschäfte. Damit könnte vermieden werden, dass sich ein Teil der am Reihengeschäft beteiligten Unternehmen in einem anderen Mitgliedstaat umsatzsteuerlich erfassen lassen müsste. Diese Lösung ist möglich, wenn die **drei unmittelbar nacheinander liefernden Unternehmer am Ende der Lieferkette** stehen (vgl. auch Abschn. 25b.1 Abs. 2 Satz 2 UStAE und das dortige Beispiel)." },
+      { text: "• Nach **Nummer 2** ist für die Anwendung des § 25b UStG die **Ansässigkeit** der Unternehmer in einem Mitgliedstaat **nicht erforderlich**; die **Registrierung für Zwecke der Umsatzsteuer reicht aus** (Abschn. 25b.1 Abs. 3 UStAE). In einem Mitgliedstaat registriert ist derjenige Unternehmer, der mit der USt-IdNr. dieses Mitgliedstaates auftritt. Also auch in einem Drittland ansässiger Unternehmer, der eine ihm erteilte USt-IdNr. eines Mitgliedstaates verwendet, kann als Unternehmer im Dreiecksgeschäft auftreten." },
+      { text: "• Weitere Voraussetzung für die Anwendung der Vereinfachungsregelung ist nach **Nummer 3** das **tatsächliche Gelangen** des Gegenstandes von einem Mitgliedstaat in einen anderen Mitgliedstaat (➔ Warenbewegung). Diese Voraussetzung ist im Hinblick auf § 3 Abs. 8 UStG auch dann erfüllt, wenn der erste Lieferer (als Schuldner der EUSt) den Gegenstand **in das Gemeinschaftsgebiet eingeführt** hat. Der Ort seiner Lieferung wäre in einem Mitgliedstaat und von dort aus würde der Liefergegenstand in einen anderen Mitgliedstaat gelangen (Abschn. 25b.1 Abs. 4 UStAE). Gelangt der Gegenstand allerdings **aus dem Drittland unmittelbar in den Mitgliedstaat des letzten Abnehmers**, ist die Vereinfachungsregelung **nicht anwendbar**." },
+      { text: "Das unmittelbare Gelangen bezieht sich ausschließlich auf die am Dreiecksgeschäft beteiligten Unternehmer. Der Gegenstand kann daher durch Beauftragte des ersten Lieferers vor der Beförderung oder Versendung in das übrige Gemeinschaftsgebiet **bearbeitet oder verarbeitet** worden sein. Gegenstand der Lieferung ist in diesem Fall jeweils der be- oder verarbeitete Gegenstand." },
+      { text: "• Nach **Nummer 4** muss der Liefergegenstand entweder durch den ➔ **ersten Lieferer oder den Zwischenhändler** befördert oder versendet werden (im Ausgangsfall also durch P oder B). Dies gilt für den ersten Abnehmer allerdings nur dann, wenn er **in seiner Eigenschaft als Abnehmer** befördert oder versendet (Transport durch den mittleren Unternehmer in der 1. Alternative des § 3 Abs. 6a S. 4 UStG). Die Warenbewegung wird dann der Lieferung an ihn zugeordnet. Wird sie ihm **in seiner Eigenschaft als Lieferer** zugeordnet (Transport durch den mittleren Unternehmer in der 2. Alternative des § 3 Abs. 6a S. 5 UStG), liegt **kein innergem. Dreiecksgeschäft** vor (Abschn. 25b.1 Abs. 5 UStAE)." },
+      { text: "Der so genannte **Abholfall**, also die Beförderung oder Versendung durch den letzten Abnehmer (hier D), ist **ausdrücklich für die Anwendung der Vereinfachungsregelung ausgenommen**. Die Begründung hierfür liegt in der Systematik des § 3 Abs. 6 und 7 UStG begründet, da im Abholfall die bewegte Lieferung der Lieferung des mittleren Unternehmers an den letzten Abnehmer zuzuordnen wäre. Für den mittleren Unternehmer stellt sich das Problem eines innergem. Erwerbs mit Anschlusslieferung nicht. (Im Ausgangsfall würde dies dann bedeuten: P liefert „unbewegt“ und steuerpflichtig an B in Frankreich; B liefert „bewegt“ und als innergem. Lieferung steuerfrei in Frankreich an D; D als Empfänger der „bewegten“ Lieferung hat in DE einen innergem. Erwerb)" },
+      { text: "Die Aufzählungszeichen der Quelle vor den Nummern 1 bis 4 sind in der Textextraktion nicht lesbar und durch „•“ ersetzt (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];
