@@ -16,7 +16,7 @@
    Lieferungen) vollständig, Block 5 (Entgeltliche sonstige Leistungen) vollständig, Block 6 (Werkverträge,
    § 13b UStG, GiG, Gutscheine) vollständig, Block 7 (Innergemeinschaftlicher Erwerb)
    vollständig, Block 8 Teil I (Steuerfreie Umsätze mit Vorsteuerabzug) vollständig,
-   Block 8 Teil II (Steuerfreie Umsätze ohne Vorsteuerabzug, § 9 UStG) begonnen.
+   Block 8 Teil II (Steuerfreie Umsätze ohne Vorsteuerabzug, § 9 UStG) vollständig.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien

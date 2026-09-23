@@ -10623,6 +10623,39 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 30 bis A 38 (Block 8 Teil II vollständig)
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-54` (A 30 bis A 32
+Option § 9 UStG, Max und Moritz), `ust-m-b08-2-55` (A 33 und A 34 Optionsbeschränkung),
+`ust-m-b08-2-56` (A 35 bis A 37 Fälle 1 bis 3) und `ust-m-b08-2-57` (A 38 Übungsfall
+Eisenbahnverwaltungsgebäude) für die PDF-Seiten 93 bis 101. Damit ist Block 8 Teil II
+vollständig (57 Kapitel). Stand des USt-Skripts: 9 Teile, 277 Kapitel, 4357 Blöcke, 237 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- A 32: „Abschnitt 9.1 Abs. 5 S. 2 UStR“ (UStR statt UStAE).
+- A 34: „§ 9 Nr. 2“ / „§ 9 Nr. 1“ statt § 9 Abs. 2 / Abs. 1 UStG; Kleinunternehmer ohne die
+  im Textteil genannte Begrenzung „bis 2024“.
+- A 35: Sachverhalt „Grundstück von 1950“, Lösung „Hier 1940“.
+- A 37: Sachverhalt Hamburg „von 2000“, Lösung „Hier 2020“.
+
+**Nachgerechnet (eigene Ergänzung):** Fall 1: 20 Mio. € × 19 % = 3,8 Mio. € – stimmt (USt auf
+den Kaufpreis von 0,95 Mio. € nicht enthalten); Fall 2: 95 Mio. € nicht abziehbar; Fall 3:
+10 Mio. € × 19 % = 1,9 Mio. € – stimmt; A 38: 360.000 € USt = 1.894.736,84 € netto, USt auf
+Jahresmieten bei Option 57.000 €.
+
+**Darstellung:** Schaubilder als Tabellen (Spaltenköpfe und Zeilenbezeichnungen eigene
+Ergänzung; „Keine Optionseinschränkung“ je Spalte wiederholt).
+
+**Offen gelassen:** BFH-Urteil vom 30.06.2005 (A 38) ohne Aktenzeichen so übernommen.
+
+**Stillschweigend berichtigt:** „Bank- u.  Finanzumsätze“, „§ 19 (1) S 1“, „für das
+Unternehmer des LE“, „teilunternehmerisch genutzten Grundstück“, „Zuordnung durch als
+Erwerber … soll erfolgt zu“ (Zuordnung durch Moritz als Erwerber … erfolgt zu), „Abs.6“,
+„=>“, „gem. 24 UStG“, „2. OG.“, „Stadt.“, „Mio/€“, „Untern“, fehlendes schließendes
+Anführungszeichen „Erstellung Büro + Schulungszentrum“.
+
+**Weiter mit:** USt-Skript (Moecker) Block 9 und 10 (b09-10, 180 PDF-Seiten).
+
 ### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 22 bis A 29
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-50` (A 22 bis A 24

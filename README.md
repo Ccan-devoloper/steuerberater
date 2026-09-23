@@ -2419,7 +2419,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 25b UStG, grenzüberschreitenden Güterbeförderungen, Umsatzsteuerlager, Lieferungen vor der
   Einfuhr und § 4 Nr. 7 UStG (vollständiger Textteil) sowie Arbeitspapieren A 1 bis A 50
   (57 Kapitel), Block 8 Teil II (Steuerfreie Umsätze ohne Vorsteuerabzug und Option nach § 9
-  UStG) begonnen mit Versicherungsleistungen samt Kfz-Garantiezusage, Postdienstleistungen,
+  UStG) vollständig mit Versicherungsleistungen samt Kfz-Garantiezusage, Postdienstleistungen,
   Heilberufen, Pflegeleistungen, kulturellen Leistungen, Schulen und Lehrern sowie Vorträgen
   und Kursen, § 4 Nr. 28 und § 4 Nr. 29 UStG sowie Kreditgeschäften, Zahlungsmitteln,
   Forderungen mit Factoring und Gesellschaftsanteilen, § 4 Nr. 9a UStG mit Grundstücksbegriff
@@ -2430,7 +2430,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sowie der Option nach § 9 Abs. 1 UStG mit Finanzumsätzen, Vermietung, Grundstückslieferungen
   und fiktiver Option, Optionserklärung und Optionseinschränkung nach § 9 Abs. 2 UStG
   und zeitlichen Einschränkungen nach § 27 Abs. 2 UStG (Textteil vollständig) sowie die
-  Arbeitspapiere A 1 bis A 29 (53 Kapitel).
+  Arbeitspapiere A 1 bis A 38 (57 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
