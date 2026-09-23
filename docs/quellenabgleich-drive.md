@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 3 begonnen (I bis II.4)
+
+Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block03.js`
+(Teil „Block 3 – Unternehmer / Unternehmen“, Stand 03/2026), Kapitel `ust-m-b03-1` bis
+`ust-m-b03-6` für die PDF-Seiten 62 bis 75: Inhaltsübersicht und Bedeutung des
+Unternehmerbegriffs, Unternehmerfähigkeit (Grundsatz, natürliche Personen), juristische Personen
+mit § 2b UStG, nichtrechtsfähige Personenvereinigungen (Allgemeines, Innengesellschaften,
+Außengesellschaften). Stand des USt-Skripts: 3 Teile, 31 Kapitel, 600 Blöcke, 29 Tabellen. Der
+Kopfkommentar von `block02.js` ist auf „vollständig“ fortgeschrieben.
+
+**Nachgerechnet:** Tiefgarage 13.500 € unter der Grenze von 17.500 €; Einkaufsring 19 % von
+10.000 € = 1.900 €; Sozietät 19 % von 50.000 € = 9.500 €, 19 % von 1.000 € = 190 €.
+
+**Quellbefunde:** Das Inhaltsverzeichnis springt von V.1.2 auf V.1.4 (als eigene Anmerkung
+vermerkt). Das BFH-Urteil vom 28.08.2023 zur Ehegatten-Bruchteilsgemeinschaft ist ohne
+Aktenzeichen zitiert; es ist so übernommen und nicht ergänzt. Die Fundstelle „Abschn. 14b Abs. 1
+Satz 3 UStAE“ ist wie in der Quelle übernommen. Stillschweigend berichtigt: „entscheiden“ statt
+entschieden (zweimal, davon einmal „entscheiden hat te“), „nachhaltige Verkaufstätigkeit“,
+„wenn die die“, „all-gemeinen“, „privat-rechtlicher“, „für seinem ½-Anteil“, „sich ergebenen“,
+„Büromöbel …, den er“; Leerzeichen aus der Textextraktion („Personen zusammenschlüssen u nd“,
+„eigene r“).
+
 ### USt-Skript (Moecker), Block 2 vollständig (II.3 Schluss bis Arbeitspapier A 14)
 
 Drive meldete auch in dieser Runde „session expired“ (ESt-Kurzskript I zweimal versucht). In

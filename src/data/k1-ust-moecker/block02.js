@@ -1,6 +1,7 @@
 /* USt-Skript (Moecker), Block 2: Leistungen im Leistungsaustausch.
-   Quelle: „B-S26-USt-Skript Block 01-03-(Moecker)-0226“, PDF-Seiten 24 bis 57
-   (Red: StB 59 / Vers. I 2026 / Stand 02-26). In Arbeit: eingepflegt bis II.3. */
+   Quelle: „B-S26-USt-Skript Block 01-03-(Moecker)-0226“, PDF-Seiten 24 bis 61
+   (Red: StB 59 / Vers. I 2026 / Stand 02-26). Vollständig einschließlich der
+   Arbeitspapiere A 1 bis A 14. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 02/2026";
