@@ -597,7 +597,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Beispiel und der MoPeG-Neuregelung für Feststellungserklärungen) und Teil VI (Zwangsmittel
   nach §§ 328 bis 335 AO mit dem Übungsfall Claudia Schiffer). **Abschnitt 3 ist damit
   vollständig** (Seiten 31 bis 57; die bisher blockierten Seiten sind über den Datei-Download
-  lesbar geworden).
+  lesbar geworden). Abschnitt 4 (Feststellungsbescheide, §§ 179 bis 183 AO) ist begonnen: die
+  Vorbemerkungen zum MoPeG – rechtsfähige und nicht rechtsfähige GbR, Gesellschaftsregister,
+  Vertretung und Auflösung – und zu den AO-Anpassungen (§ 39 Abs. 2 Nr. 2, § 14a, §§ 34, 79 und
+  § 181 AO), dazu Grundlagen des Feststellungsverfahrens, örtliche Zuständigkeit und die Arten
+  der gesonderten Feststellungen.
   Aus Teil II ist Abschnitt 5 eingepflegt: der Vorbehalt der Nachprüfung nach § 164 AO
   (Anwendungsbereich, Gesamtüberprüfungsrecht, Einspruch gegenüber Änderungsantrag,
   Aufhebung und Wegfall kraft Gesetzes, Prüfungsfolge, Übungsfall zur Teilverjährung), die

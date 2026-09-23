@@ -10677,8 +10677,19 @@ nummeriert. Alle Stellen sind im Datensatz markiert.
 2020) × 0,25 % × 60.000 € = 750 €; Übungsfall Schiffer: Bekanntgabe 08.10.03, Einspruchsfrist
 mit Rechtsbehelfsbelehrung bis 08.11.03, ohne bis 08.10.04; 0,25 % von 40.000 € = 100 €.
 
-**Noch offen aus AO Teil I:** der gesamte Abschnitt 4 (Feststellungsbescheide, PDF-Seiten 108
-bis 145).
+**Abschnitt 4 begonnen (PDF-Seiten 108 bis 120):** Abschnitt 4 steht als eigener Teil „IV“
+zwischen den Abschnitten 3 und 5; drei Kapitel – die Vorbemerkungen Teil I (zivilrechtliche
+Änderungen durch das MoPeG), Teil II (Anpassung der AO) und die Grundlagen des
+Feststellungsverfahrens mit örtlicher Zuständigkeit und den Arten der Feststellungen; jetzt 14
+Teile mit 162 Kapiteln. Befunde: Die Quelle nennt Erbengemeinschaft und Bruchteilsgemeinschaft
+als „Beispiele für eine nicht rechtsfähige GbR“; zivilrechtlich sind beide keine GbR, und die
+Quelle führt sie eine Seite später selbst als eigenständige nicht rechtsfähige
+Personenvereinigungen nach § 14a Abs. 3 AO auf – im Datensatz als eigene Ergänzung erläutert.
+„die ja zivilrechtlich lediglich ein Schuldverhältnis darstellen“ (Numerus); zwei Klammern
+bei § 707a Abs. 2 und § 719 Abs. 2 BGB werden nicht geschlossen.
+
+**Noch offen aus AO Teil I:** Abschnitt 4 ab PDF-Seite 121 (Abschnittsseite 14) bis zum Ende
+der Datei (PDF-Seite 145).
 
 ### Dublettencheck, achter Teil: die übrigen Ordner des zweiten Baums – und blockierte Quellen sind lesbar
 
