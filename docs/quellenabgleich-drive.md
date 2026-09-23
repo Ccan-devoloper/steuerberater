@@ -10623,6 +10623,31 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 22 bis A 29
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-50` (A 22 bis A 24
+Vertragsarten und Begriffe), `ust-m-b08-2-51` (A 25 und A 26 Ausschlüsse nach § 4 Nr. 12
+Satz 2 UStG), `ust-m-b08-2-52` (A 27 und A 28 Auflösung Mietverhältnis) und `ust-m-b08-2-53`
+(A 29 Sportanlagen) für die PDF-Seiten 85 bis 92. Stand des USt-Skripts: 9 Teile, 273 Kapitel, 4313 Blöcke, 230 Tabellen.
+
+**Ergänzt (eigene Ergänzung, gekennzeichnet):** Die drei Stellplatz-Beispiele in A 25 haben
+in der Quelle keine Lösung; Lösungshinweis nach den Grundsätzen des Textteils III.6.6, das
+zweite Beispiel mit Verweis auf Abschn. 4.12.2 Abs. 3 UStAE offen gelassen.
+
+**Nachgerechnet (eigene Ergänzung):** A 27 zweiter Fall: Abfindung 100.000 €, bei Option und
+Bruttovereinbarung darin 15.966,39 € USt; Restlaufzeit rund zehn Jahre.
+
+**Darstellung:** Schaubilder A 22, A 23, A 26 und A 29 als Tabellen (Tabellenform und
+Spaltenköpfe eigene Ergänzung); nicht lesbares Zeichen in A 26 entfallen.
+
+**Stillschweigend berichtigt:** „Miet-Pacht-Vertrag Besonderer Art“, „Miet - oder“,
+„mitvermietete Inventar“, „Abschn..“, „Nebenleistun-gen )“, „Pkw - Parkplätzen“, „usw..“,
+„Ab.12.16.“, „4.12.3.“, „4.12.10.“, „v.17.08.2023“, fehlendes Komma „nicht Überlassung“,
+überzähliges Komma „Grundstücks, unter“, „Benutzter“, „Betreiber – GmbH“, „Mehrzweckhallen,“,
+„=>“, „-Abschn. 4.12.1 (1) S.7“.
+
+**Weiter mit:** Arbeitspapier A 30 (PDF-Seite 93).
+
 ### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 16 bis A 21
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-47` (A 16 und A 17
