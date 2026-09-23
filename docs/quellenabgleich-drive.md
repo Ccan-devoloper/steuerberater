@@ -10649,8 +10649,17 @@ Steuer im Rechenschema „Geänderte Einkommensteuer 08“ statt 01, und die Lö
 „Bescheid vom 24.12.08“ (so datiert ist die Bekanntgabe, der Bescheid ist vom 20.12.08).
 Alle übrigen Daten und Beträge gehen auf und sind im Datensatz nachgerechnet.
 
-**Noch offen aus AO Teil II:** Abschnitt 6 ab Seite 57 (gesonderte Feststellung nach § 181 Abs. 5
-AO und die Ablaufhemmungen nach § 171 Abs. 10a, 14 und 15 AO).
+**Fortsetzung Seiten 57 bis 67:** zwei weitere Kapitel – § 181 Abs. 5 AO mit Grundsätzen,
+Anwendungsbereich, Eingangsbeispiel, Hinweispflicht und Prüfungsfolge sowie die Übungsfälle
+Kino-GmbH & Co KG und Kleine und Pflicht GbR mit Sachverhaltsabwandlung; jetzt 176 Kapitel.
+Befunde: In der Prüfungsfolge verweist die Quelle für das Außerachtlassen des § 171 Abs. 10 AO
+auf „§ 181 Abs. 1 Satz 2 letzter Halbsatz AO“ – die Regel steht in § 181 Abs. 5 Satz 1
+Halbsatz 2 AO, wie die Quelle an anderer Stelle selbst zitiert; in Fall 2 endet die
+Ablaufhemmung nach der Lösung am „13.01.11“ (tatsächlicher Zugang), nach der Viertagesfiktion
+am 14.01.11 – ohne Auswirkung auf das Ergebnis; kleinere sprachliche Fehler („nach seinem Sinn
+und Zweck nach“, „für Bedeutung sind“, fehlender Satzpunkt).
+
+**Noch offen aus AO Teil II:** Seiten 68 bis 74 (§ 171 Abs. 10a, 14 und 15 AO).
 
 ### AO-Skript (Jacobs), Teil I – Abschnitt 3 ab Seite 31: die erste bisher blockierte Stelle ist nachgeholt
 

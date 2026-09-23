@@ -631,7 +631,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sind inzwischen Absatz 9 (Selbstanzeige mit Beispiel in zwei Varianten) und Absatz 10 Sätze 1
   bis 3 (Grundlagenbescheid, außersteuerliche Grundlagenbescheide mit dem Beispiel zum Grad der
   Behinderung), Satz 4 mit der Prüfungsfolge in sechs Schritten und die drei Fälle Komplementär K,
-  Bernd Brot und Architekt Blei.
+  Bernd Brot und Architekt Blei; dazu die gesonderte Feststellung nach Ablauf der
+  Feststellungsfrist (§ 181 Abs. 5 AO) mit Hinweispflicht, Prüfungsfolge und den Übungsfällen
+  Kino-GmbH & Co KG und Kleine und Pflicht GbR.
   Aus Teil III ist Abschnitt 7 (Korrektur von Verwaltungsakten) bis Seite 79 eingepflegt:
   die Korrekturterminologie und die Schnellübersicht zum Anwendungsbereich jeder
   Vorschrift, die dreistufige Systematik (§ 164 Abs. 2 AO – Korrekturvorschriften für
