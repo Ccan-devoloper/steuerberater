@@ -1,8 +1,8 @@
 /* USt-Skript (Moecker), Block 8 Teil I: Steuerfreie Umsätze mit Vorsteuerabzug.
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
-   In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere ab
-   PDF-Seite 62 folgen. */
+   In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere A 1 bis
+   A 4 (PDF-Seiten 62 bis 65) eingepflegt, weitere folgen. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -1049,6 +1049,72 @@ export const block08Teil1 = [
       { text: "Der Umsatz muss **zum Ge- oder Verbrauch durch die Streitkräfte** dieser Vertragsparteien bestimmt sein. Die Voraussetzungen müssen vom Unternehmer **buch- und belegmäßig nachgewiesen** werden (vgl. hierzu BMF in BStBl 1993 I S. 458)." },
       { typ: "titel", text: "Leistungen an im Gebiet eines anderen Mitgliedstaates ansässige diplomatische Missionen und zwischenstaatliche Einrichtungen (§ 4 Nr. 7 Buchstabe c und d)" },
       { text: "Die Regelung des § 4 Nr. 7 Buchstabe c und d UStG steht gleichfalls in engem Zusammenhang mit dem EG-einheitlichen § 1c UStG. Hiernach sind **diplomatische Missionen und zwischenstaatliche Einrichtungen** nicht als Institutionen anzusehen, die einen innergem. Erwerb bewirken können. Insbesondere die Lieferungen an diese Institutionen wären somit grundsätzlich im Inland steuerbar und mangels einer Ausfuhr oder einer innergem. Lieferung steuerpflichtig. Hier liegt der Regelungsgehalt der Vorschrift des § 4 Nr. 7c und d UStG begründet." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-37",
+    teil: TEIL,
+    kapitel: "37",
+    abschnittNr: "A 1 bis A 2",
+    title: "Arbeitspapiere A 1 und A 2: Territoriale und umsatzmäßige Dreigliederung",
+    thema: "Inland, übriges Gemeinschaftsgebiet und Drittland mit Büsingen, Helgoland und Freihäfen sowie Einordnung bewegter Warenlieferungen (innergemeinschaftlicher Erwerb, Einfuhr, innergemeinschaftliche Lieferung, Ausfuhrlieferung, Inlandslieferung)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 1 und A 2"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1 Nr. 4 und 5 UStG", "§ 6 UStG", "§ 6a UStG", "Abschn. 1.10 UStAE"],
+    themen: ["Arbeitspapier", "Inland", "Gemeinschaftsgebiet", "Drittlandsgebiet", "Ausfuhrlieferung", "innergemeinschaftliche Lieferung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 1 – 1. Territoriale Dreigliederung" },
+      { typ: "tabelle", spalten: ["Inland", "übriges Gemeinschaftsgebiet", "Drittland"], zeilen: [
+        ["➔ Grds. das Gebiet der BRD", "➔ Gebiete der 26 übrigen EU-Staaten (vgl. A. 1.10 UStAE)", "➔ Alle anderen Staaten der Erde"],
+        ["Jedoch ohne: Büsingen, Helgoland, Freihäfen – Bremerhaven – Cuxhaven (Ab dem 01.01.2027 wird der FH Cuxhaven aufgehoben.)", "Belgien, Dänemark, Finnland, Frankreich, Griechenland, Irland, Italien, Luxemburg, Niederlande, Spanien, Österreich, Portugal, Schweden, Sonderstatus: Nordirland. Ab 1.5.2004 zzgl. Estland, Lettland, Litauen, Malta, Polen, Slowakei, Slowenien, Ungarn, Zypern (teilweise) und Tschechische Rep. Ab 1.1.2007 zzgl. Rumänien, Bulgarien. Ab 1.7.2013 zzgl. Kroatien", "Zuzüglich: Büsingen, Helgoland, Freihäfen – Bremerhaven – Cuxhaven (bis Ende 2026)"],
+      ] },
+      { text: "Im Schaubild der Quelle fasst die Klammer „Ausland (Oberbegriff)“ das übrige Gemeinschaftsgebiet und das Drittland zusammen, die Klammer „Gemeinschaftsgebiet“ das Inland und das übrige Gemeinschaftsgebiet. Die Darstellung als Tabelle ist eigene Ergänzung zur Darstellung." },
+      { typ: "titel", text: "Arbeitspapier A 2 – 2. Umsatzmäßige Dreigliederung bei bewegten Warenlieferungen" },
+      { typ: "tabelle", spalten: ["Warenbewegung", "Tatbestand / Behandlung"], zeilen: [
+        ["Übriges Gemeinschaftsgebiet ➔ Inland (Stpfl. Fa. T in D’dorf)", "innergemeinschaftlicher Erwerb – § 1 Abs. 1 Nr. 5 UStG"],
+        ["Drittlandsgebiet ➔ Inland (Stpfl. Fa. T in D’dorf)", "Einfuhr – § 1 Abs. 1 Nr. 4 UStG"],
+        ["Inland ➔ Übriges Gemeinschaftsgebiet", "Innergemeinschaftliche Lieferungen: an Unternehmer steuerfrei (§ 6a); an Privatpersonen steuerpflichtig (ggf. innergem. Fernverkauf)"],
+        ["Inland ➔ Drittlandsgebiet", "Ausfuhrlieferungen: Auf den Status des Erwerbers kommt es nicht an – steuerfrei (§ 6 UStG)"],
+        ["Inland ➔ Inland", "Inlandslieferungen – immer steuerpflichtig"],
+      ] },
+      { text: "Das Schaubild A 2 ist als Tabelle wiedergegeben; die Spaltenköpfe und die Pfeilangaben zur Richtung der Warenbewegung sind eigene Ergänzung zur Darstellung." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-38",
+    teil: TEIL,
+    kapitel: "38",
+    abschnittNr: "A 3 bis A 4",
+    title: "Arbeitspapiere A 3 und A 4: Steuerfreie Ausfuhren, ausländischer Abnehmer, Freihafenfälle",
+    thema: "Warenbewegung als entscheidendes Kriterium, Ausfuhrlieferungen nach § 6 Abs. 1 Nr. 1 und 2 UStG (wer transportiert über die Grenze), ausländischer Abnehmer und Zweigniederlassung nach § 6 Abs. 2 UStG sowie Freihafenfälle nach § 6 Abs. 1 Nr. 3 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 3 und A 4"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 3 UStG", "§ 6 Abs. 1 Nr. 1 bis 3 UStG", "§ 6 Abs. 2 Nr. 1 und 2 UStG"],
+    themen: ["Arbeitspapier", "Ausfuhrlieferung", "ausländischer Abnehmer", "Zweigniederlassung", "Freihafen"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 3 – 3. Steuerfreie Ausfuhren / Lohnveredelungen – 3.1 Beachte" },
+      { text: "**Alleine Warenbewegung ist entscheidend**" },
+      { typ: "tabelle", spalten: ["Lieferort im Inland – Ziel im Inland", "Lieferort im Inland – Ziel im Drittland", "Lieferort im Inland – Ziel in der EU", "Lieferort im Ausland"], zeilen: [
+        ["steuerpflichtig", "steuerfreie Ausfuhr.", "steuerfreie innergem. Lieferung.", "nicht steuerbar"],
+      ] },
+      { text: "Die Spaltenköpfe fassen die beiden Ebenen des Schaubilds („Lieferort im Inland“ / „Lieferort im Ausland“ und „Ziel“) zusammen (eigene Ergänzung zur Darstellung)." },
+      { typ: "titel", text: "3.2 Ausfuhrlieferungen § 6 (1) Nr. 1 und 2" },
+      { text: "• Warenbewegung vom Inland => Drittland (ohne Freihafen) • **Wer transportiert Liefergegenstand über die Grenze ??**" },
+      { typ: "tabelle", spalten: ["§ 6 (1) Nr. 1", "§ 6 (1) Nr. 2"], zeilen: [
+        ["- LU selbst - Beauftragter des LU", "- LE selbst - Beauftragter des LE"],
+        ["➔ Keine weiteren Voraussetzungen. Insbesondere kein ausländischer LE erforderlich", "➔ Zusätzlich erforderlich ausländischer Abnehmer (vgl. AP 4)"],
+      ] },
+      { text: "Maßgeblich ob Versendung durch LU oder LE ist die **Auftragserteilung an den Frachtführer**. Bei **gebrochener Beförderung / Versendung** ist maßgeblich, **wer Ausfuhr durchführt**." },
+      { typ: "titel", text: "Arbeitspapier A 4 – 3.3 Ausländischer Abnehmer – § 6 (2) –" },
+      { text: "**Nr. 1 Wohnort / Sitz im Ausland** – im Zeitpunkt der Lieferung – Drittland oder EU (Auch Gastarbeiter; sowohl Unternehmer und Private) – so in der Quelle; nach I.1.3.2 ist ein Gastarbeiter, der kurz vor seiner Rückkehr im Inland einkauft, im Zeitpunkt der Lieferung gerade kein ausländischer Abnehmer." },
+      { text: "**Nr. 2 Zweigniederlassung als ausl. Abnehmer** – Grds. im HR eingetragen; selbständig handelnd; gleiche Geschäfte wie Hauptniederlassung. (z.B. schweizer Zweigniederlassung eines inländischen Unternehmens) Nicht nur „sonstige“ Betriebsstätten." },
+      { typ: "titel", text: "3.4 Ausfuhrlieferungen § 6 (1) Nr. 3" },
+      { text: "**Besonderer Warenweg** (Transport durch LU oder LE) in Freihäfen (§ 1 Abs. 3 UStG) (Bremerhaven / Cuxhaven (bis 31.12.26)) – **Besonderer Abnehmer**:" },
+      { typ: "tabelle", spalten: ["Unternehmer für sein R.d.U", "Nichtunternehmer"], zeilen: [
+        ["und ⧫ keine Verwendung des Gegenstandes für sog. Ausschlussumsätze", "und ⧫ ausländischer LE ⧫ weitere Warenbewegung in das übrige Drittland"],
+      ] },
     ],
   },
 ];

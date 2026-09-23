@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 1 bis A 4
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-37` (A 1 territoriale und
+A 2 umsatzmäßige Dreigliederung) und `ust-m-b08-1-38` (A 3 steuerfreie Ausfuhren, A 4
+ausländischer Abnehmer und Freihafenfälle) für die PDF-Seiten 62 bis 65 (Layoutmodus).
+Stand des USt-Skripts: 8 Teile, 201 Kapitel, 3468 Blöcke, 176 Tabellen.
+
+**Quellbefund (markiert):** A 4 führt beim ausländischen Abnehmer „Auch Gastarbeiter“ an; nach
+dem Textteil (I.1.3.2) ist der Gastarbeiter, der vor der Rückkehr im Inland kauft, im
+Zeitpunkt der Lieferung gerade kein ausländischer Abnehmer.
+
+**Darstellung:** Schaubilder A 1 bis A 4 als Tabellen; Spaltenköpfe, soweit nicht aus der Quelle,
+und Richtungspfeile in A 2 eigene Ergänzung zur Darstellung. Nachzählung A 1: 13 + 10 + 2 + 1 =
+26 übrige Mitgliedstaaten – stimmt.
+
+**Stillschweigend berichtigt:** „W a r e n b e w e g u n g“, „u n d“ (gesperrt), Leerzeichen in
+Klammern.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab A 5 (PDF-Seite 66).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.8 und I.9 – Textteil vollständig
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-35` (I.8 Lieferungen vor der
