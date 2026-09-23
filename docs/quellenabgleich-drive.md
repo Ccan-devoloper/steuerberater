@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5 fortgesetzt (III.3.3 bis III.3.4)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
+`ust-m-b05-15` bis `ust-m-b05-17` für die PDF-Seiten 42 bis 47: III.3.3 Vermietung von
+Beförderungsmitteln an Private (kurz- und langfristig, Kfz-Überlassung an Arbeitnehmer,
+Sportboote), III.3.4 A bis C Auftritts- und Veranstaltungsleistungen (Begriffe, EuGH zu
+tontechnischen Leistungen, Tickethändler) und III.3.4 D Online / Streaming nach dem
+BMF-Schreiben vom 08.08.2025 (Live-Streaming, vorproduzierte Inhalte, Leistungskombinationen,
+Bildungs- und Gesundheitsleistungen). Stand des USt-Skripts: 5 Teile, 89 Kapitel, 1826 Blöcke, 94 Tabellen.
+
+**Hinweis:** III.2.6 nennt für die Online-Veranstaltungen das BMF-Schreiben vom 29.04.2024,
+III.3.4 D das vom 08.08.2025 (BStBl 2025 I S. 1637); beide Angaben unverändert übernommen.
+
+**Stillschweigend berichtigt:** fehlende schließende Klammer nach „Abschn. 3a.5 Absatz 4
+UStAE“, „Leistungen es jeweiligen Veranstalters“ (des), „ein in den Niederlanden vor Anker
+liegende 6-Personen-Yacht“ (eine), „Vermietbüro von Ort“ (vor Ort), „26. 09 1996“ (26.09.1996),
+„1.8. bis 1.12“ (Schlusspunkt), „USt-IdNr..“; in Tz. 2.3 steht der Satz „Danach ist das Wesen
+des fraglichen Umsatzes zu ermitteln …“ in der Quelle doppelt und wird einmal geführt.
+
+**Noch offen in Block 5:** ab III.3.5 (PDF-Seite 48 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 5 fortgesetzt (III.2.4 bis III.3.2)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` an Kapitel
