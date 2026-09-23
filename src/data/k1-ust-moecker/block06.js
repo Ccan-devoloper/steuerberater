@@ -3,7 +3,7 @@
    Quelle: „B-S26-USt-Skript Block 6-7-(Moecker)-0526“ (Block 06 Werk / 13b / GIG /
    Gutscheine – Vers. I 2026, Red. 04-26, Titelblatt Mai 2026), PDF-Seiten 2 bis 96
    der gemeinsamen Datei für die Blöcke 6 und 7 (130 PDF-Seiten).
-   In Arbeit: Abschnitt I vollständig, Abschnitt II (§ 13b UStG) vollständig, Abschnitt III (GiG) bis III.1. */
+   In Arbeit: Abschnitt I vollständig, Abschnitt II (§ 13b UStG) vollständig, Abschnitt III (GiG) bis III.2.4 (Grundsatz). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 05/2026";
@@ -613,6 +613,68 @@ export const block06 = [
       { text: "**Eine Geschäftsveräußerung liegt vor, wenn (Satz 2)** ein **Unternehmen** oder ein in der Gliederung des Unternehmens **gesondert geführter Betrieb** **im Ganzen** entgeltlich oder unentgeltlich **übereignet** wird oder in eine Gesellschaft **eingebracht** wird." },
       { text: "Dabei tritt gemäß **(Satz 3)** der **erwerbende Unternehmer an die Stelle des Veräußerers**." },
       { text: "==> Als Folge bestimmt **§ 15a Abs. 10** im **Satz 1**: „Bei einer Geschäftsveräußerung (§ 1 Abs. 1a UStG) wird der für das Berichtigungsobjekt maßgebliche **Berichtigungszeitraum nicht unterbrochen**.“ und in **Satz 2**: „Der Veräußerer ist verpflichtet, dem Erwerber die für die Durchführung der Berichtigung **erforderlichen Angaben** zu machen.“" },
+    ],
+  },
+  {
+    id: "ust-m-b06-17",
+    teil: TEIL,
+    kapitel: "17",
+    abschnittNr: "III.2.1, III.2.2",
+    title: "III.2 Umsätze im Rahmen einer Geschäftsveräußerung im Ganzen (GiG): III.2.1 Entgeltliche und unentgeltliche Umsätze und III.2.2 Veräußerung im Ganzen",
+    thema: "Mehrere Einzelübertragungsakte und einzelnes Wirtschaftsgut als GiG, Nichtsteuerbarkeit entgeltlicher und unentgeltlicher Übertragungen, zurückbehaltene unwesentliche Gegenstände, wesentliche Betriebsgrundlagen und Gesamtwürdigung (BFH V R 10/01, EuGH Zita Modes, BFH XI R 37/17 zum Gaststätteninventar) sowie Beispiele nach Unternehmensart und Folgen einer Geschäftsaufgabe",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("III.2.1, III.2.2"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1 Nr. 1 UStG", "§ 1 Abs. 1a UStG", "§ 3 Abs. 1b Nr. 1 UStG", "§ 9 UStG", "Abschn. 1.5 Abs. 4 UStAE", "BFH, 04.07.2002, V R 10/01", "EuGH, 27.11.2003, C-497/01, Zita Modes", "BFH, 29.08.2018, XI R 37/17"],
+    themen: ["Geschäftsveräußerung im Ganzen", "unentgeltliche Wertabgabe", "wesentliche Betriebsgrundlagen", "Gaststätteninventar", "Geschäftsaufgabe"],
+    bloecke: [
+      { typ: "titel", text: "III.2. Umsätze im Rahmen einer Geschäftsveräußerung im Ganzen (GiG) – III.2.1 Entgeltliche und unentgeltliche Umsätze" },
+      { text: "Die Formulierung „Umsätze im Rahmen einer Geschäftsveräußerung (GiG)“ ist dadurch bedingt, dass die Übereignung eines Unternehmens (bzw. Teilunternehmens) durch **mehrere Einzelübertragungsakte** vollzogen wird (Abschn. 1.5 UStAE)." },
+      { text: "**Hinweis:** Allerdings kann Gegenstand der GiG auch **ein einziges WG** sein, z.B. wenn der Eigentümer eines **Mietwohngrundstücks** dieses an einen anderen Unternehmer für dessen Unternehmen veräußert." },
+      { text: "**Sämtliche entgeltliche Umsätze** (Lieferungen und sonstige Leistungen) im Rahmen einer GiG sind damit **nicht steuerbar**, z.B. die Übertragung von Maschinen, Waren, Geschäftseinrichtung sowie des Firmenwertes, aber auch die Übertragung von Besitzposten, die bisher steuerfrei oder nur aufgrund einer Option nach § 9 UStG steuerpflichtig waren (z.B. Forderungen, Wertpapiere oder Grundstücke)." },
+      { text: "Umsätze sind auch die grundsätzlich als **unentgeltliche Wertabgaben** zu beurteilenden Übertragungen von Besitzposten im Rahmen einer GiG an einen den Betrieb fortführenden Erwerber, obwohl – jedenfalls für eine logische Sekunde – zunächst eine Entnahme in die Privatsphäre des Übertragenden anzunehmen ist und kein unmittelbarer Übergang an den Erwerber. Jedoch nach dem **ausdrücklichen Willen des Gesetzgebers** gilt die Regelung des § 1 Abs. 1a UStG **auch für unentgeltliche Geschäftsveräußerungen**." },
+      { text: "**Hinweis:** Das Gesetz **blendet die bei der unentgeltlichen Wertabgabe gegebenen Zwischenerwerbe** in der Privatsphäre des Veräußerers für die Anwendung der Rechtsfolge (Nichtsteuerbarkeit) **aus**." },
+      { text: "Dagegen bleibt die **unentgeltliche Übereignung einzelner Betriebsgegenstände**, die der Erwerber für Zwecke seines Unternehmens verwendet (z.B. der Vater schenkt seinem Sohn einen LKW), weiterhin eine **steuerbare und steuerpflichtige Wertabgabe** gem. § 3 Abs. 1b Nr. 1 i.V.m. § 1 Abs. 1 Nr. 1 UStG." },
+      { text: "Werden **unwesentliche Unternehmensgegenstände zurückbehalten** und später entgeltlich veräußert oder unentgeltlich aus dem Unternehmen entnommen, geschieht dies zwar noch im Rahmen des Unternehmens des Übertragenden, aber nicht im Rahmen einer Geschäftsveräußerung an einen anderen Unternehmer. Entsprechende Umsätze sind **steuerbar und steuerpflichtig**." },
+      { typ: "titel", text: "III.2.2 Veräußerung im Ganzen" },
+      { text: "Eine Geschäftsveräußerung im Ganzen ist prinzipiell eine **Unternehmensveräußerung**. Unerheblich bleibt damit, ob das Unternehmen einen Gewerbebetrieb, einen land- und forstwirtschaftlichen Betrieb, eine Freiberuflerpraxis oder eine andere Tätigkeit (z. B. Vermietungsunternehmen) darstellt, und auch die ertragsteuerliche Sicht der Dinge." },
+      { text: "Eine GiG ist nach gefestigter Rechtsprechung und Verwaltungsauffassung gegeben, wenn die übereigneten Gegenstände die **wesentlichen Grundlagen eines Unternehmens** ausmachen. Diese müssen im Grundsatz auf den Erwerber übergehen und dieser muss in der Lage sein, das Unternehmen – grundsätzlich **ohne nennenswerte finanzielle Aufwendungen** (i.S.v. Neuinvestitionen) – **fortzusetzen** (vgl. Abschn. 1.5 Abs. 4 S. 1 UStAE). Die Wesentlichkeit einzelner Betriebsgrundlagen und die Möglichkeit zur Unternehmensfortführung ohne großen finanziellen Aufwand (BFH vom 4.7.2002 V R 10/01, BStBl II 2004, 662) stellen in diesem Zusammenhang **keine eigenständigen Voraussetzungen** für die Nichtsteuerbarkeit dar, sondern sind im Rahmen der **Gesamtwürdigung** zu berücksichtigen, aus der sich ergibt, ob das übertragene Unternehmensvermögen **als hinreichendes Ganzes die Ausübung einer wirtschaftlichen Tätigkeit ermöglicht**. Hieran fehlt es z.B., wenn **nur der Warenbestand** verkauft wird (EuGH-Urteil v. 27.11.2003 C-497/01, Zita Modes)." },
+      { text: "Der **BFH** hat mit **Urteil vom 29.08.2018 – XI R 37/17** entschieden, dass die **Übertragung des Inventars einer Gaststätte** auch dann eine nicht der USt unterliegende Geschäftsveräußerung ist, wenn der Erwerber mit dem übertragenen Inventar die Gaststätte dauerhaft fortführen kann und selbst über die zur Fortführung der Tätigkeit erforderliche Immobilie – hier durch **Neuanpachtung** – verfügt, weil er diese von einem Dritten – vom Eigentümer und bisherigen Verpächter – gepachtet hat. Das übertragene Inventar stellt im Streitfall ein **Teilvermögen** dar (= ein in der Gliederung eines Unternehmens gesondert geführter Betrieb) und damit ist das Vorliegen einer Geschäftsveräußerung zu bejahen. Dem liegt die Feststellung zugrunde, dass der Kläger aufgrund der Übertragung des beweglichen Inventars und der festen Ladeneinrichtung bei gleichzeitiger Übernahme des Mietvertrages den Gastronomiebetrieb weiter betreiben konnte und auch weiter betrieben hat." },
+      { text: "Ob der Veräußerer die wesentlichen Grundlagen des Unternehmens überlassen hat, ist nach dem **Gesamtbild der Verhältnisse im Zeitpunkt der Veräußerung** zu beurteilen. Einzelne für das bisherige Unternehmen **unwesentliche Gegenstände oder Rechte** können von der Geschäftsveräußerung **ausgenommen** werden." },
+      { text: "**Zu den wesentlichen Teilen des Unternehmens zählen z.B.:** • das **Anlagevermögen** (Betriebsgrundstücke, Betriebsvorrichtungen, spezielle Maschinen, technische Geschäftsausstattung); • **gemietete Betriebsräume und das Pachtgelände**, von dem aus das Unternehmen betrieben wurde (dieses Pachtrecht muss der Veräußerer auf den Erwerber übertragen – wohl im Sinne von Fortführung des Pachtvertrags –, indem er ihm die Möglichkeit verschafft, mit dem Verpächter einen Pachtvertrag abzuschließen, so dass der Erwerber die dem bisherigen Betrieb dienenden Räume unverändert nutzen kann – vgl. Abschn. 1.5 Abs. 4 Satz 6 und 7 UStAE –); • **immaterielle WG** (Kundenstamm, Patente, Konzessionen – Abschn. 1.5 Abs. 4 Satz 5 UStAE –); • **Warenbestand** (zumindest bei Fachgeschäften)." },
+      { text: "**Weitere Beispiele** (Zitat aus Birkenfeld USt-Handbuch Rz. 568.11): Die wesentlichen Grundlagen eines Unternehmens sind bei einem (einer): • **Herstellungsunternehmen** das Betriebsgrundstück und die Herstellungsanlagen – vgl. auch Abschn. 1.5 Abs. 4 Satz 3 UStAE – • **Handelsbetrieb** die Geschäftsausstattung, der Warenbestand (zumindest bei Fachgeschäften wie z.B. Antiquitäten, Teppichen, Kunsthandel, Schmuck, Schuhgeschäft – vgl. BStBl 76 II S. 672; BStBl 89 II S. 602 –), die Geschäftsräume • **Vermietungsunternehmen** das Mietgrundstück (BStBl 1993 II S. 700); • **Gastwirtschaft** die Betriebsräume (BFH/NV 1991 S. 718), das Pachtrecht für gepachtete Räume (BFH/NV 1988 S. 755) und das zur Betriebsführung notwendige Inventar (BStBl. 1974 II S. 434); • **Personenbeförderungsunternehmen** die Busse und das Betriebsgrundstück (BStBl. 1985 II S. 651)." },
+      { text: "**Merke – Beachte:** Liegt **keine GiG** vor, z. B. weil wesentliche Grundlagen des Betriebs **auf mehrere Erwerber** übergegangen sind (**Geschäftsaufgabe**), tritt die Rechtsfolge des § 1 Abs. 1a UStG (= Nichtsteuerbarkeit aller Umsätze) **nicht** ein. In diesem Falle liegt eine **Vielzahl von Umsätzen** vor, die hinsichtlich der • Steuerbarkeit, Steuerfreiheit, • Bemessungsgrundlage und Steuersätze **einzeln zu beurteilen** sind." },
+    ],
+  },
+  {
+    id: "ust-m-b06-18",
+    teil: TEIL,
+    kapitel: "18",
+    abschnittNr: "III.2.3, III.2.4",
+    title: "III.2.3 Gesondert geführter Betrieb und III.2.4 Veräußerung von Grundstücken als GiG (Grundsatz)",
+    thema: "Abgrenzungskriterien des gesondert geführten Betriebs, Anknüpfung an den ertragsteuerlichen Teilbetrieb (Brauerei-Gaststätte, Filialen), keine Beendigung der Tätigkeit erforderlich (BFH XI R 10/12), Photovoltaikanlage sowie Übertragung vermieteter Immobilien unter Fortführung der Mietverträge (alle oder einzelne Grundstücke) und nicht vermietete Grundstücke",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("III.2.3, III.2.4"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1a UStG", "§ 4 Nr. 9 Buchst. a UStG", "§ 571 BGB", "§ 566 BGB", "Abschn. 1.5 Abs. 2, 6 und 10 UStAE", "BFH, 29.08.2012, XI R 10/12"],
+    themen: ["Geschäftsveräußerung im Ganzen", "gesondert geführter Betrieb", "Teilbetrieb", "Photovoltaikanlage", "vermietetes Grundstück"],
+    bloecke: [
+      { typ: "titel", text: "III.2.3 Gesondert geführter Betrieb" },
+      { text: "Ein solcher liegt vor, wenn der veräußerte Teil des Unternehmens **vom Erwerber als selbständiges Unternehmen fortgeführt** werden kann (Abschnitt 1.5 Abs. 6 UStR (so in der Quelle; gemeint UStAE))." },
+      { text: "**Abgrenzungskriterien:** • **organisatorisch geschlossener Teil** eines Gesamtbetriebes (BStBl 84 II S. 486); • **selbständiges Auftreten** in der Art eines Zweigbetriebes, einer Filiale oder einer besonderen Betriebsstätte; • **eigener Kundenstamm**; ungleichartige betriebliche Tätigkeiten (BStBl 1973 II S. 838); • **personelles Eigenleben**; die Möglichkeit **eigener Preisgestaltung**; **eigene Buchführung**." },
+      { text: "Soweit **einkommensteuerrechtlich eine Teilbetriebsveräußerung** angenommen wird, kann umsatzsteuerrechtlich grundsätzlich von der Veräußerung eines gesondert geführten Betriebs ausgegangen werden (Abschn. 1.5 Abs. 6 Satz 4 UStAE)." },
+      { text: "**Beispiele nach Ertragsteuerrecht:** **Brauerei:** Bei einer Brauerei ist eine von ihr betriebene **Gastwirtschaft** ein selbständiger Teilbetrieb. **Filialen und Zweigniederlassungen:** Teilbetriebe können insbesondere Filialen und Zweigniederlassungen sein. Eine **Einzelhandelsfiliale** ist nur dann Teilbetrieb, wenn dem dort beschäftigten leitenden Personal eine **Mitwirkung beim Wareneinkauf und bei der Preisgestaltung** dieser Filiale eingeräumt ist." },
+      { text: "Eine GiG i.S. des § 1 Abs. 1a UStG setzt **keine Beendigung der unternehmerischen Betätigung des Veräußerers** voraus (**BFH-Urteil v. 29.8.2012 – XI R 10/12**). Im Streitfall hatte eine GmbH ihren Klinikbetrieb „A-Diagnostik“ veräußert und unter Zurückbehaltung von bestimmten masch. Anlagen den als Klinikspezialbetrieb „B-Diagnostik“ weitergeführt. Der BFH sah eine für eine begünstigte Teilvermögensveräußerung erforderliche **Sachgesamtheit** als gegeben an. Entgegen den Bedenken des FA können aus einem Unternehmen auch **mehrere gewisse „eigenständige“ Teilvermögen** jeweils nicht steuerbar **auf mehrere Erwerber** übertragen werden." },
+      { text: "Verkauft ein Unternehmer, dessen Unternehmen (insbesondere als Teilbetrieb) im **Betrieb einer Photovoltaikanlage** besteht, die Photovoltaikanlage oder übereignet er sie unentgeltlich an einen Dritten, handelt es sich hierbei unter den übrigen Voraussetzungen des § 1 Abs. 1a UStG um eine **nichtsteuerbare GiG** (Abschn. 1.5 Abs. 10 UStAE)." },
+      { typ: "titel", text: "III.2.4 Veräußerung von Grundstücken als GiG (➔ vgl. AP 20 bis 22)" },
+      { text: "Durch die Rechtsprechung hat sich folgender **Grundsatz** entwickelt: Die **Übertragung verpachteter/vermieteter Immobilien** (Gewerbe- oder Wohnimmobilien) **unter Fortführung des Pacht-/Mietvertrages durch den Erwerber** ist eine **nicht steuerbare Geschäftsveräußerung** i.S. des § 1 Abs. 1a UStG." },
+      { text: "Darauf folgt (Schaubild der Quelle als Tabelle wiedergegeben):" },
+      { typ: "tabelle", spalten: ["Veräußert ein Eigentümer seine gesamten vermieteten / verpachteten Grundstücke", "Veräußert ein Eigentümer ein einzelnes (von mehreren) vermietetes / verpachtetes Grundstück"], zeilen: [
+        ["Beispiel: Veräußerer verkauft seine drei vermieteten Grundstücke an einen Investor und ist nicht weiter unternehmerisch tätig.", "Beispiel: Veräußerer verkauft eines seiner drei vermieteten Grundstücke an einen Investor und ist mit den verbliebenen Grundstücken oder weiterer Betriebe unternehmerisch tätig."],
+        ["➔ Veräußerung eines ganzen Unternehmens", "➔ Veräußerung eines in der Gliederung gesondert geführten Betriebes; jedes einzelne Grundstück ist ein Teilbetrieb"],
+      ] },
+      { text: "**Achtung:** Voraussetzung für eine GiG ist der **Übergang der Miet-/Pachtverträge auf den Erwerber** (Pflicht ergibt sich aus § 571 BGB (so in der Quelle; heute § 566 BGB – eigene Ergänzung)). Der Erwerber wird spätestens durch den Erwerb selbst **zum Unternehmer**." },
+      { text: "Daraus ergibt sich im **Umkehrschluss** (Abschn. 1.5 Abs. 2 UStAE): Die Lieferung eines **weder vermieteten noch verpachteten Grundstücks** ist im Regelfall **keine Geschäftsveräußerung**. Eine entsprechende Lieferung des Grundstücks ist grds. **steuerbar und nach § 4 Nr. 9a UStG steuerfrei**." },
     ],
   },
 ];

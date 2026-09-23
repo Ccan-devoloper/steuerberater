@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 fortgesetzt (III.2.1 bis III.2.4)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-17` (III.2.1 entgeltliche und unentgeltliche Umsätze, III.2.2 Veräußerung im
+Ganzen mit Zita Modes und BFH XI R 37/17, Birkenfeld-Beispiele, Geschäftsaufgabe) und
+`ust-m-b06-18` (III.2.3 gesondert geführter Betrieb mit BFH XI R 10/12 und Photovoltaik;
+III.2.4 Grundsatz zur Veräußerung vermieteter Grundstücke, Schaubild als Tabelle mit den
+Kopfzeilen der Quelle) für die PDF-Seiten 41 bis 44. Stand des USt-Skripts: 6 Teile,
+125 Kapitel, 2552 Blöcke, 127 Tabellen.
+
+**Quellbefunde (markiert):** III.2.3 zitiert „Abschnitt 1.5 Abs. 6 UStR“ (gemeint UStAE).
+III.2.4 leitet den Übergang der Mietverträge aus „§ 571 BGB“ her; heute regelt das § 566 BGB
+(eigene Ergänzung). Der Satz zum Klinikfall („den als Klinikspezialbetrieb „B-Diagnostik“
+weitergeführt“) ist in der Quelle grammatisch unvollständig und unverändert übernommen.
+
+**Stillschweigend berichtigt:** Anführungszeichen „" Umsätze … (GIG) "“, „Abschn. 1.5.“,
+„Sämtliche entgeltliche Umsätze“ unverändert, fehlende schließende Klammern nach „Abschn. 1.5
+Abs. 4 S. 1 UStAE“ und „Satz 5 UStAE“, „Urteil vom v. 29.08.2018“, „dessen Unternehmen“
+(Komma), im Schaubild III.2.4 die verdoppelte Zeile „bzw. Veräußerer ist w Veräußerer verkauft
+eines seiner drei vermieteten Grundstücke an einen Investor“, „Miet- Pachtverträge“.
+
+**Noch offen in Block 6:** ab III.2.4.1 (PDF-Seite 45 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 6 fortgesetzt (II.9 bis III.1)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
