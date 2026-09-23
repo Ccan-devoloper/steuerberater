@@ -10623,6 +10623,20 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 4 begonnen (I bis III)
+
+Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block04.js`
+(Teil „Block 4 – Entgeltliche Lieferungen“, Quelle „2026) (9).pdf“ im Ordner 2. Termin, Stand
+02/2026), Kapitel `ust-m-b04-1` bis `ust-m-b04-3` für die PDF-Seiten 2 bis 12: Inhaltsübersicht
+und Begriff der Lieferung, Liefergegenstand, Verschaffen der Verfügungsmacht. Die Textfassung
+dieser Datei trägt kein personenbezogenes Wasserzeichen. Stand des USt-Skripts: 4 Teile,
+53 Kapitel, 1090 Blöcke, 57 Tabellen.
+
+**Quellbefunde:** Im Inhaltsverzeichnis sind die Unterpunkte von VII als „VI.1“ bis „VI. 3.“
+nummeriert (eigene Anmerkung). BFH V R 53/14: „Veräußerung eines ½ Buches“ – so übernommen und
+markiert. Stillschweigend berichtigt: „Kundestamm“, „beinhaltet körperlichen Gegenstände“,
+„Die ist im Rahmen“, „Ölgehalt des Rapses“, „Art 14“.
+
 ### USt-Skript (Moecker), Block 3 vollständig (Arbeitspapiere A 1 bis A 27)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block03.js` neue Kapitel
