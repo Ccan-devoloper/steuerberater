@@ -10623,6 +10623,33 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: VIII. bis VIII.2 (Steuersatz)
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-34` (VIII. Grundsätze,
+Sachgesamtheiten, Werklieferungen), `ust-m-b10-35` (VIII.1 Anlage 2 mit Warengruppen und
+Einzelfällen), `ust-m-b10-36` (VIII.2 § 12 Abs. 2 Nr. 2 bis 10 mit den Beispielen Kapelle,
+Tanzabend, Dinner-Show) und `ust-m-b10-37` (§ 12 Abs. 2 Nr. 11 bis 15) für die PDF-Seiten 117 bis
+123. Keine Bilder auf diesen Seiten. Stand des USt-Skripts: 11 Teile, 370 Kapitel, 5235 Blöcke, 275 Tabellen.
+
+**Quellenfehler / Unvollständiges (im Text markiert):**
+- Überschrift „VII.1 § 12 Abs. 2 Nr. 1 UStG“; gemeint VIII.1.
+- Hinweis zu Kunstgegenständen: Satz „Zum 1.1.2025 wurde durch das JStG 2024“ bricht ab.
+- Beispiel 2 (Bunter Tanzabend): „Die Solisten, die lediglich den Vertrag mit dem Veranstalter
+  abschließen, rechnen gegenüber diesem ab“; gemeint wohl die weiteren Solisten mit Vertrag beim
+  Sänger.
+- Beispiel 3 (Dinner-Show): Aktenzeichen „XI 2/16“; richtig XI R 2/16.
+- § 12 Abs. 2 Nr. 14: Satz „dahingehend geändert, dass Veröffentlichungen … entsprechen.“ endet
+  ohne Aussage.
+
+**Stillschweigend berichtigt:** „Durchschnittsätze“, „aufgeführte Umsätze“, „Dieser ist kein
+Gegenstand“, „Zuckerrüben Holz“, Klammer bei Verlagserzeugnissen, „Regelsteuersa tz“, „über die
+Einzelnen“, fehlendes Subjekt „Die durch Einbringen von Einlagen …“ (ergänzt „Zurichtung“),
+„Fotobüchern“, Klammer „(7% und sonstigen Leistungen (19%)“, „§ 4 Nummer 14 Bu. a)“, „§ 4 Nr. 20 a“,
+„§ 12 Abs. 2 Nr. 7 a“, „Nr. 7 Bu. a)“, „Dinner-Show”“, gerade Anführungszeichen, fehlende Kommas
+und Schlusspunkte, „usw..“, „Restaurations-und“.
+
+**Weiter mit:** VIII.3 § 12 Abs. 3 UStG, Nullsteuersatz für PV-Anlagen (PDF-Seite 124).
+
 ### USt-Skript (Moecker), Block 10: VI.3 bis VII.2
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-30` (VI.3 Option zur
