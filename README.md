@@ -2438,7 +2438,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   §§ 18i bis 18k UStG sowie elektronischen Marktplätzen mit fiktiven Reihengeschäften nach
   § 3 Abs. 3a und 6b UStG und der Befreiung nach § 4 Nr. 4c UStG sowie der Lieferfiktion
   und Erwerbsfiktion beim innergemeinschaftlichen Verbringen und der Konsignationslagerregelung
-  nach § 6b UStG (31 Kapitel).
+  nach § 6b UStG, Lieferungen an Bord und neuen Fahrzeugen (37 Kapitel, Textteil vollständig).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

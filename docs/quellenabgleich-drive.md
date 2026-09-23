@@ -10623,6 +10623,34 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: VIII.4 bis X.3 (Textteil vollständig)
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-32` (VIII.4 ZM), `ust-m-b09-33`
+(VIII.5 Register), `ust-m-b09-34` (IX. Lieferungen an Bord, Beispiel Reisezug Köln),
+`ust-m-b09-35` (X.1 neue Fahrzeuge, Allgemeines), `ust-m-b09-36` (X.2 Erwerb, Beispiel
+Mönchengladbach) und `ust-m-b09-37` (X.3 Lieferung, Beispiel Erfurt / Brüssel) für die
+PDF-Seiten 37 bis 43. Damit ist der Textteil von Block 9 vollständig. Stand des USt-Skripts:
+10 Teile, 314 Kapitel, 4649 Blöcke, 245 Tabellen.
+
+**Quellenfehler (im Text markiert):** VIII.5: Register als materielle Voraussetzung „(vgl. § 6a
+Abs. 1 Nr. 4 UStG)“; gemeint § 6b Abs. 1 Nr. 4 UStG.
+
+**Nachgerechnet (eigene Ergänzung):** Mönchengladbach 50.000 € × 19 % = 9.500 €, Fälligkeit
+07.02. – stimmt; Erfurt 5.700 € bzw. 5.320 € – stimmt, nicht abziehbar 380 €.
+
+**Darstellung:** Schaubilder X.2 und X.3 als Tabellen; Kasten „Beachte“ in VIII.5 als Absatz.
+
+**Stillschweigend berichtigt:** „handelt sich“ (es), „2018/ 1912“, „unterscheide“,
+Komma „Beförderung, i. S. d.“, fehlende Punkte nach „(Hinweis auf Abschn. 3e.1 UStAE)“ und
+„Motorräder)“, „Wasser - und Luftfahrzeugen“, „deren erste Inbetriebnahme … oder die …
+zurückgelegt haben“ (wenn seine … oder wenn es … zurückgelegt hat), gerade
+Anführungszeichen, „EU - Staaten“, „( hier. 07.02.)“, „Immer ein steuerfreie Lieferung“,
+„Privatpersonen als auch“ (Sowohl …), „innergemeinschaftliche Lieferung neuer Fahrzeuge“
+(Lieferungen), „USt - Voranmeldung“, „USt - Jahreserklärung“, fehlender Punkt nach „(§ 15
+Abs. 4a Nr. 3 UStG)“.
+
+**Weiter mit:** Arbeitspapiere Block 9 ab A 1 (PDF-Seite 44).
+
 ### USt-Skript (Moecker), Block 9: VIII.1 bis VIII.3 (Konsignationslager)
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-29` (VIII.1 Hintergrund und
