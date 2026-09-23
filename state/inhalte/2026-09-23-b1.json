@@ -1,0 +1,114 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Erst Handelsbilanz, dann Steuerbilanz – ohne Norm keine Abweichung",
+      "icon": "waage",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Klausurrelevant",
+      "hinweis": "Swipe →"
+    },
+    {
+      "art": "text",
+      "titel": "Der Ausgangspunkt",
+      "text": "Wer nach § 238 (1), § 242 (1) HGB oder § 140, § 141 AO buchführungspflichtig ist, ermittelt den Gewinn durch Betriebsvermögensvergleich. Über § 5 (1) S. 1 Hs. 1 EStG wandern die *handelsrechtlichen* Grundsätze ordnungsmäßiger Buchführung direkt in die Steuerbilanz.",
+      "icon": "paragraf"
+    },
+    {
+      "art": "schritte",
+      "titel": "So löst du den Fall zweistufig",
+      "schritte": [
+        {
+          "titel": "Wer bilanziert?",
+          "text": "Buchführungspflicht nach §§ 238, 140, 141 AO prüfen. Ohne Pflicht keine Bilanz, sondern ggf. § 4 (3) EStG."
+        },
+        {
+          "titel": "Was gilt handelsrechtlich?",
+          "text": "Ansatz und Bewertung nach §§ 238, 242, 246 HGB feststellen – das ist der Ausgangswert."
+        },
+        {
+          "titel": "Bricht eine Spezialnorm die Maßgeblichkeit?",
+          "text": "§ 5 (1) S. 1 Hs. 2 EStG: steuerliche Ansatz- oder Bewertungsvorbehalte und Wahlrechte verdrängen den HGB-Wert."
+        },
+        {
+          "titel": "Wo landet die Abweichung?",
+          "text": "Eigene Steuerbilanz oder Überleitungsrechnung nach § 60 (2) EStDV – mit bezifferter Gewinnauswirkung."
+        }
+      ],
+      "icon": "diagramm"
+    },
+    {
+      "art": "vergleich",
+      "titel": "Handelsbilanz und Steuerbilanz – zwei getrennte Welten",
+      "links": {
+        "titel": "Handelsbilanz",
+        "punkte": [
+          "Grundsätze ordnungsmäßiger Buchführung, §§ 238, 242, 246 HGB",
+          "Wahlrechte dort ausgeübt, wo das HGB sie zulässt",
+          "Ausgangspunkt, nicht Endpunkt der Gewinnermittlung"
+        ]
+      },
+      "rechts": {
+        "titel": "Steuerbilanz",
+        "punkte": [
+          "§ 5 (1) EStG übernimmt GoB, aber nicht automatisch jedes Wahlrecht",
+          "Eigene Ansatz- und Bewertungsvorbehalte gehen vor",
+          "Abweichung braucht immer eine ausdrückliche Norm"
+        ]
+      },
+      "icon": "gebaeude"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Ohne durchbrechende Norm bleibt es beim Handelsbilanzwert – Steuerrecht schreibt nicht einfach mit, es widerspricht nur, wenn es das ausdrücklich darf.",
+      "icon": "buch"
+    },
+    {
+      "art": "cta",
+      "titel": "Endspurt – jeden Tag ein Dauerbrenner.",
+      "punkte": [
+        "Schick das der Person in deiner Lerngruppe, die Handels- und Steuerbilanz munter vermischt",
+        "Speichern und vor Tag 3 noch einmal durchgehen",
+        "Wo hakt die Maßgeblichkeit bei dir – Ansatz oder Bewertung? Schreib's in die Kommentare"
+      ],
+      "icon": "zielscheibe"
+    }
+  ],
+  "caption": "Maßgeblichkeitsprinzip Steuerbilanz Handelsbilanz – wer das in der Klausur überspringt, verliert Punkte, bevor er überhaupt bei der Steuernorm ankommt. Der Trick: Erst die Handelsbilanz nach §§ 238, 242, 246 HGB bestimmen, dann prüfen, ob eine steuerliche Spezialnorm nach § 5 (1) EStG diesen Wert durchbricht. Ohne durchbrechende Norm bleibt der HGB-Wert stehen. Schick das jetzt der Person in deiner Lerngruppe, die steuerliche Wahlrechte einfach in die Handelsbilanz übernimmt – und speichere dir den Beitrag für die letzte Wiederholung vor Tag 3. Wo hakt's bei dir: Ansatz oder Bewertung? Schreib's unten rein.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#lernenmitsystem",
+    "#steuerfachangestellte",
+    "#steuerbilanz",
+    "#maßgeblichkeitsprinzip",
+    "#handelsbilanz",
+    "#klausurtag3",
+    "#gob",
+    "#bilanzsteuerrecht"
+  ],
+  "kurztitel": "Maßgeblichkeit: HGB vor StB",
+  "bildSzene": "open ledger book on desk",
+  "bildSzeneAlt": "stack of two different binders side by side",
+  "quellen": [],
+  "hookTyp": "aussage",
+  "faktenHinweise": [],
+  "faktenFreigabe": {
+    "ok": true,
+    "geprueftAm": "2026-09-23T05:45:04.710Z",
+    "ausgefallen": false,
+    "hinweise": []
+  },
+  "slug": "2026-09-23-b1"
+}
