@@ -823,7 +823,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Teil VII** (Rechtsfolgen der Außenprüfung: § 164 Abs. 3, § 171 Abs. 4, § 173 Abs. 2 und
   § 371 Abs. 2 AO) und **Teil VIII** (Verwertungsverbot mit Fallgruppen, Ausnahmen,
   Wiederholungsprüfung, Prüfungsschema und zwei Übungsfällen). **Abschnitt 12 ist damit
-  vollständig**; offen ist aus Teil V nur noch Abschnitt 13 (Haftungsrecht).
+  vollständig**.
+  Abschnitt 13 (Haftungsrecht) ist als eigener Teil begonnen (Skriptseiten 1 bis 21): die
+  Vorbemerkung zum MoPeG, Steuer- und Haftungsschuld mit Akzessorietät und Gesamtschuld,
+  zivil- und steuerrechtliche Haftung, die Gesamtrechtsnachfolge mit dem Fall Fritz Trunk,
+  die Übersicht über das materielle und formelle Haftungsverfahren mit den vier „W“ und die
+  Geschäftsführerhaftung nach § 69 AO – Prüfungsschema, verpflichteter Personenkreis mit
+  § 35 GmbHG, Pflichtverletzung, Steuerausfall und hypothetischer Kausalverlauf mit dem
+  durchgerechneten Beispiel A-GmbH (§§ 69 und 71 AO) und mehrere Geschäftsführer.
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und

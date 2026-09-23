@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 1 bis 21
+
+Abschnitt 13 (84 Skriptseiten, PDF-Seiten 92 bis 175 von AO Teil V) wird als neuer Teil „XIII“
+(`T13`, `QUELLE_T13`) angelegt. Eingepflegt sind die Seiten 1 bis 21 als Kapitel
+`ao-jacobs-13-1` bis `ao-jacobs-13-4`: Vorbemerkung zum MoPeG und Teil I (Steuer- und
+Haftungsschuld, zivil- und steuerrechtliche Haftung, Gesamtrechtsnachfolge mit dem Fall Fritz
+Trunk samt Abwandlung), Teil II (Übersicht über das materielle und formelle Haftungsverfahren) und
+aus Teil III die Geschäftsführerhaftung nach § 69 AO bis einschließlich Tz. 3.4 (mehrere
+Geschäftsführer). Weiter geht es mit „Zu 4.: Verschulden“ auf Seite 21. Stand des Skripts:
+16 Teile, 216 Kapitel, 5457 Blöcke, 376 Tabellen.
+
+**Nachgerechnet:** Beispiel A-GmbH – angemeldet 10.000 €, gezahlt 6.000 €, hinterzogen 8.000 €;
+zutreffende USt 18.000 €, fällige Verbindlichkeiten 30.000 € bei 40.000 € Kreditrahmen; Haftung
+nach § 69 AO 12.000 €, nach § 71 AO 8.000 € – stimmig.
+
+**Quellbefunde:** Die Abwandlung zum Fall Trunk rechnet mit der **Dreitagesfiktion** (Aufgabe zur
+Post 27.05.08, Bekanntgabe 30.05.08), obwohl das Skript sonst die ab 2025 geltende Viertagesfrist
+anwendet; mit vier Tagen fiele die Bekanntgabe auf den 31.05.08, den Todestag. Das Fristende
+30.06.08 bleibt gleich (§ 188 Abs. 3 BGB). Im Datensatz als eigene Ergänzung erläutert. In
+Teil I folgt auf Tz. 3.1 unmittelbar Tz. 3.3 (markiert).
+
 ### AO-Skript (Jacobs), Teil V – Abschnitt 12 ab Seite 28: § 200a AO, Rechtsbehelfe, Rechtsfolgen, Verwertungsverbot
 
 Über den Datei-Download ist AO Teil V vollständig lesbar (175 PDF-Seiten: Abschnitt 11 mit 52,
