@@ -10623,6 +10623,22 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 4 fortgesetzt (IV bis V)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block04.js` neue Kapitel
+`ust-m-b04-4` bis `ust-m-b04-8` für die PDF-Seiten 13 bis 26: IV.1/IV.2 Systematik und
+Allgemeines zum Lieferort, IV.3.1/IV.3.2 bewegte Lieferung und Lieferzeitpunkt, IV.3.3 bis IV.3.7
+Sonderfälle, IV.4 unbewegte Lieferungen, V. Ortsverlagerung nach § 3 Abs. 8 UStG. Stand des
+USt-Skripts: 4 Teile, 58 Kapitel, 1186 Blöcke, 63 Tabellen.
+
+**Quellbefunde:** Im Fall Fred/Feuerstein beauftragt Fred einen Spediteur, die Lösung spricht
+aber von einer „Beförderung durch den liefernden Unternehmer (§ 3 Abs. 6 Satz 2 UStG)“ – es ist
+eine Versendung (§ 3 Abs. 6 Satz 3 UStG); markiert, am Lieferort ändert es nichts. Stillschweigend
+berichtigt: „§ 3Abs.“, „für Fällen“, „der leistenden Unternehmer“, „bestimmt Ort“, „mangels
+fehlendem Leistungsaustausch“ (fehlendem gestrichen), „Verneinenden Falls“, „z-B.“, „ergebenen“,
+„beim späterem“, „Frachtführer, der … den Antrag … stellen“ (ergänzt: kann; „dieser“ zu „diese“),
+doppelte Klammer nach „S 5 UStAE“.
+
 ### USt-Skript (Moecker), Block 4 begonnen (I bis III)
 
 Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block04.js`
