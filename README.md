@@ -5647,6 +5647,41 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sind unabhängig nachgerechnet.
   Prüfung: `npm run check:k2-kst-teil6`
 
+- **KSt Teil VII (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VII (Liquidation)“):
+  das Lehrgangsskript **„Körperschaftsteuer, Teil VII: Liquidation (§ 11 KStG)“** (21. Auflage,
+  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 4 Kapitel mit 45 Abschnitten und 3 Tabellen;
+  Kapitel 1 des Skripts (zivilrechtlicher Hintergrund) ist **vollständig**. Der Liquidation ist die
+  **Auflösung** vorgeschaltet, und beide Vorgänge sind streng zu trennen: Die Auflösung ist das
+  auslösende Ereignis – ein Gesellschafterbeschluss mit qualifizierter Mehrheit, der Ablauf der
+  bestimmten Zeit, die Eröffnung des Insolvenzverfahrens oder deren Abweisung mangels Masse, eine
+  Verfügung des Registergerichts oder die Löschung wegen Vermögenslosigkeit –, die **Abwicklung** das
+  anschließende Verfahren, in dem das Vermögen verwertet und verteilt wird. Die Auflösung ist dabei
+  **nicht** gleichbedeutend mit der Beendigung: Die Gesellschaft bleibt **rechtlich existent**, nur ihr
+  **Zweck** wechselt zur Abwicklung, erkennbar am Zusatz „i.A.“ oder „i.L.“. Daraus folgt der
+  Schlüssel für die gesamte Liquidationsbesteuerung – weil die Gesellschaft fortbesteht, bleibt sie
+  **steuerpflichtig**; § 11 KStG regelt nicht, **ob** besteuert wird, sondern nur, **wie** das
+  Einkommen während der Abwicklung ermittelt wird.
+  An die Stelle der Geschäftsführung tritt der **Liquidator** (bei der AG der **Abwickler**), in aller
+  Regel die bisherige Geschäftsführung. Er darf neue Geschäfte nur zur Beendigung schwebender oder zum
+  Zweck der Abwicklung dienender Rechtsgeschäfte schließen – was bei einer Veräußerung des gesamten
+  Unternehmens aber durchaus umfangreiche Neugeschäfte erfordern kann. Er hat eine **Eröffnungsbilanz**
+  und jährliche Abschlüsse aufzustellen und nach **§ 34 AO** auch die **steuerlichen Pflichten** zu
+  erfüllen: Er muss die Steuern „aus den Mitteln, die er verwaltet“, entrichten und kann sogar
+  für Zeiträume **vor** der Auflösung zur Abgabe der Erklärungen herangezogen werden. Verletzt er diese
+  Pflicht, droht die persönliche Haftung nach § 69 AO.
+  Die **Schlussverteilung** an die Gesellschafter ist erst nach Ablauf des **Sperrjahres** zulässig,
+  das mit der Bekanntmachung des Gläubigeraufrufs beginnt. Es ist die zivilrechtliche Absicherung der
+  Reihenfolge **„erst die Gläubiger, dann die Gesellschafter“** – und zu den Gläubigern gehört eben
+  auch das Finanzamt. Bemerkenswert ist die Klarstellung zur Ausnahme: Wer Vermögen **zurückbehält**,
+  um noch Steuern zu zahlen, hat gerade noch verteilungsfähiges Vermögen und kann daher **nicht**
+  vorzeitig beenden. Der Abwicklungszeitraum erstreckt sich deshalb regelmäßig über mehr als ein Jahr –
+  der Grund für die Dreijahresregel des § 11 Abs. 1 Satz 2 KStG. Die **Löschung** im Handelsregister
+  hat schließlich nur **deklaratorische** Bedeutung: Beendet ist die Gesellschaft erst, wenn
+  **zusätzlich** die Abwicklung abgeschlossen ist. Taucht nach der Löschung noch Vermögen auf – etwa
+  ein Erstattungsanspruch gegen das Finanzamt –, besteht sie insoweit fort. Nur bei der **Löschung
+  wegen Vermögenslosigkeit** fallen Auflösung und Beendigung ohne Abwicklung zusammen.
+  Prüfung: `npm run check:k2-kst-teil7`
+
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
 gegen die Daten prüfen.
 

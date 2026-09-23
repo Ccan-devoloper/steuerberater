@@ -10620,6 +10620,45 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VII (Hamacher), Kapitel 1 – zivilrechtlicher Hintergrund (Datensatz neu angelegt)
+
+Aus dem geteilten Ordner übernommen ist das Lehrgangsskript
+„B-S25-KSt-Teil VII-Liquidaton (2025)-(Hamacher)-0625.pdf“ (28 Seiten, 21. Auflage,
+Stand Juni 2025). Der Text ist unmittelbar aus der PDF-Datei extrahiert (pypdf); das
+personenbezogene Wasserzeichen ist auf allen 28 Seiten entfernt. Neu angelegt sind der
+Datensatz `src/data/k2-kst-teil7-hamacher.js`, das Prüfskript
+`tools/pruefen-k2-kst-teil7.mjs` (`npm run check:k2-kst-teil7`) und der Campus-Reiter
+„Teil VII (Liquidation)“ im KSt-Campus.
+
+Diese erste Runde übernimmt **Kapitel 1 vollständig** (Seiten 2 bis 4 der Quelle): die
+Auflösungsgründe (1.1.1), den Ablauf der Auflösung mit Liquidator und seinen steuerlichen
+Pflichten (1.1.2), Liquidation und Abwicklung mit dem Sperrjahr (1.2) sowie die Löschung
+der Gesellschaft einschließlich der Löschung wegen Vermögenslosigkeit (1.3). Der Datensatz
+umfasst 4 Kapitel mit 45 Abschnitten und 3 Tabellen.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 1.2: „Diese Schlussverteilung jedoch frühestens nach Ablauf eines
+  Sperrjahres erfolgen“ – dem Satz fehlt das Modalverb („darf“).
+- Abschnitt 1.3: „Danach wird die Gesellschaft gelöscht, diese hat aber nur
+  deklaratorische Bedeutung“ – „diese“ bezieht sich dem Wortlaut nach auf die
+  Gesellschaft, gemeint ist die Löschung.
+- Abschnitt 1.3: „so dass eine Abwicklung ist in diesem Fall nicht mehr durchzuführen
+  ist“ – „ist“ steht zweimal im Satz.
+- Abschnitt 1.1.2 stützt die Übernahme der Position durch den Liquidator auf
+  „§§ 60, 70 GmbHG“. § 60 GmbHG enthält die Auflösungsgründe, § 70 GmbHG die Aufgaben;
+  die Bestimmung der Liquidatoren regelt § 66 GmbHG, auf den die Quelle im übernächsten
+  Satz selbst verweist. Die Zitierung ist unvollständig, das Ergebnis zutreffend; im
+  Datensatz als eigene Ergänzung erläutert.
+
+**Einordnung.** Kapitel 1 enthält keine Zahlenbeispiele. Als eigene Ergänzungen im
+Datensatz ausgewiesen: die Trennung von Auflösung und Abwicklung als Grundlage des § 11
+KStG; der Fortbestand der aufgelösten Gesellschaft als Grund ihrer fortdauernden
+Steuerpflicht; der Hinweis auf die persönliche Haftung des Liquidators nach § 69 AO; der
+Zweck des Sperrjahres und sein Zusammenhang mit dem mehrjährigen Besteuerungszeitraum;
+sowie die Lehre vom Doppeltatbestand, nach der eine gelöschte Gesellschaft fortbesteht,
+solange noch Vermögen vorhanden ist.
+
 ### KSt Teil VI (Hamacher), Abschnitt 4.3 – zusammenfassendes Beispiel: Skript VOLLSTÄNDIG
 
 Übernommen sind die Seiten 95 bis 98 der Quelle mit dem Gesamtfall, der Körperschaft-
