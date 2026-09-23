@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.4.3
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neues
+Kapitel `ust-m-b08-1-26` (I.4.3 Großkopierer Brüssel–München–Düsseldorf, Fälle 5 bis 7 als
+Gegenüberstellungen Lieferung/Erwerb) für die PDF-Seiten 42 bis 45. Stand des USt-Skripts:
+8 Teile, 189 Kapitel, 3327 Blöcke, 170 Tabellen.
+
+**Quellbefunde (markiert):** Fall 6 ordnet die Warenbewegung „der Lieferung von M an B“ zu
+(gemeint M an D). Fall 7 nennt M „Abnehmer des D“ (M ist Abnehmer des B).
+
+**Geprüft:** Erwerb am 30.06. ohne frühere Rechnung → Entstehung spätestens mit Ablauf Juli
+(§ 13 Abs. 1 Nr. 6 UStG) – stimmt.
+
+**Stillschweigend berichtigt:** fehlende öffnende Klammer vor „§ 3 Abs. 6a S. 1 UStG)“,
+„steuerpflichtig Lieferung“ (steuerpflichtige), „30.06“ (Punkt), „steuerpflichtig. mit
+Zeitpunkt“, gerade Anführungszeichen bei „bewegungslosen“, Leerzeichen in Klammern.
+
+**Weiter mit:** Block 8 Teil I ab I.4.4 Reihengeschäft mit 4 Beteiligten (PDF-Seite 46).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.4.1 und I.4.2
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
