@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.1.6 bis I.1.7.2
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
+`ust-m-b08-1-9` (I.1.6 zwischengeschaltete Be- oder Verarbeitung, zwei Beispiele Köln/Dortmund/
+Basel), `ust-m-b08-1-10` (I.1.7.1 § 6 Abs. 3 UStG mit Oldtimer, Fahrradreifen, Schneeketten,
+Kfz-Zubehör und Privatyacht) und `ust-m-b08-1-11` (I.1.7.2 nichtkommerzieller Reiseverkehr
+nach § 6 Abs. 3a UStG mit Meißener Vase, Praxis-Tipp, Wertgrenze und Gutscheinen) für die
+PDF-Seiten 15 bis 20. Stand des USt-Skripts: 8 Teile, 174 Kapitel, 3178 Blöcke, 161 Tabellen.
+
+**Quellbefund (markiert):** Im Mehrzweckgutschein-Beispiel wird der Gutschein laut
+Sachverhalt am „4. Dezember 11“ eingelöst, laut Lösung am 4. Januar 11.
+
+**Darstellung:** Das Schaubild zu I.1.6 ist als Text wiedergegeben (eigene Ergänzung zur
+Darstellung). Die Quelle überschreibt das einzige Beispiel in I.1.7.2 mit „Beispiele“;
+übernommen als „Beispiel“.
+
+**Stillschweigend berichtigt:** „§ 3 Abs. 6 Satz 1 UStG.;“, „i.V. § 6“ (i.V.m.), „Du 2“,
+„Abschn. 6.4.“, „Die Abnehmer - Voraussetzungen“, „verbauten Teile“ (Teilen), gerade
+Anführungszeichen bei „zum zukünftigen Verbrauch am Beförderungsmittel“, „§ 6 Abs. 3 a“,
+„Eine steuerfrei Ausfuhrlieferung“, „EU- Mitgliedstaat“, überzählige Klammer nach
+„Abs. 7 - 9 UStAE“, „der Monat der  Lieferung“, „Praxis-Tipp“ (Trennung).
+
+**Weiter mit:** Block 8 Teil I ab I.2 Lohnveredelung an Gegenständen der Ausfuhr (PDF-Seite 20).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.1.4 und I.1.5
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
