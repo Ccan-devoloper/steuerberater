@@ -10623,6 +10623,23 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: VIII.1 bis VIII.3 (Konsignationslager)
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-29` (VIII.1 Hintergrund und
+Ausschlüsse), `ust-m-b09-30` (VIII.2 Voraussetzungen und Rechtsfolgen nach § 6b Abs. 1 und 2
+UStG) und `ust-m-b09-31` (VIII.3 Ausnahmen nach § 6b Abs. 3 bis 6 UStG) für die PDF-Seiten 32
+bis 36. Stand des USt-Skripts: 10 Teile, 308 Kapitel, 4604 Blöcke, 243 Tabellen.
+
+**Quellenfehler (im Text markiert):** VIII.3: gleichgestelltes Verbringen „(§ 6a Absatz 1 Satz
+2 UStG …)“; die Gleichstellung des Verbringens regelt § 6a Abs. 2 UStG.
+
+**Stillschweigend berichtigt:** „Konsignationslagerreglung“, „unions-rechtliche“,
+„grenzüber-schreitendes“, „in seinen Nummer 1 bis 4“, gerade Anführungszeichen bei
+„call-off-stock“, „verwendet werden soll“ (sollen), fehlendes Komma „ergibt in Form“,
+„das an dem Tag bewirkt gilt“ (als bewirkt gilt), Leerzeichen in Klammern.
+
+**Weiter mit:** VIII.4 Zusammenfassende Meldungen und VIII.5 Registerführung (PDF-Seite 37).
+
 ### USt-Skript (Moecker), Block 9: VII.2.6 bis VII.4
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-26` (VII.2.6 vorübergehende
