@@ -1,7 +1,7 @@
 /* USt-Skript (Moecker), Block 5: Entgeltliche sonstige Leistungen.
    Quelle: „B-S26-USt-Skript Block 05-(Moecker)-0326“ (Block 05 – Sonstige
    Leistungen, Vers. I / 2026, Red. 04-26, Titelblatt März 2026), 114 PDF-Seiten.
-   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 27. */
+   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 34. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 03/2026";
@@ -1100,7 +1100,7 @@ export const block05 = [
       { typ: "titel", text: "Arbeitspapier A 18 – 3.4 Die Grundregel im B2B-Bereich – Beispiele" },
       { text: "**Grundregel § 3a Abs. 2 UStG** ➔ **Empfänger-Sitz-Prinzip** (Art. 44 MwStSystRL)" },
       { text: "**3.4.1 Arbeiten an körperl. bewegl. Gegenständen / und deren Begutachtung** ➢ Einen Leistungsort **am Tätigkeitsort gibt es nicht**." },
-      { text: "**Beispiel:** **Niederl. Untern. (NU)** verbringt seinen **Transportbetonmischer** zur Wartung und Reinigung **von Venlo nach Neuss zu DU**. DU wartet das Fahrzeug und lässt es danach nach Venlo zurückbringen. NU verwendet die **niederländische USt-IdNr.** ➔ Ort gem. § 3a Abs. 2 Satz 1 UStG **in NL am Sitzort des LE**. ➔ In NL **zwingend RC-Verfahren** gem. Art. 196 MwStSystRL ➔ Sonstige Leistung **in ZM** zu erklären – § 18a UStG – ➔ **Gesonderte Erklärung in USt-VA Kz. 35** – § 18b UStG – ➔ **Rechnung mit Angabe USt-IdNr. LU und LE** – § 14a Abs. 1 UStG –" },
+      { text: "**Beispiel:** **Niederl. Untern. (NU)** verbringt seinen **Transportbetonmischer** zur Wartung und Reinigung **von Venlo nach Neuss zu DU**. DU wartet das Fahrzeug und lässt es danach nach Venlo zurückbringen. NU verwendet die **niederländische USt-IdNr.** ➔ Ort gem. § 3a Abs. 2 Satz 1 UStG **in NL am Sitzort des LE**. ➔ In NL **zwingend RC-Verfahren** gem. Art. 196 MwStSystRL ➔ Sonstige Leistung **in ZM** zu erklären – § 18a UStG – ➔ **Gesonderte Erklärung in USt-VA Kz. 35** (so in der Quelle; A 34 nennt für die gesonderte Erklärung nach § 18b UStG Kz. 21 – eigene Ergänzung) – § 18b UStG – ➔ **Rechnung mit Angabe USt-IdNr. LU und LE** – § 14a Abs. 1 UStG –" },
       { text: "➢ **§ 7 UStG** (steuerfreie Lohnveredelungen) geht bei **ausländischen Auftraggebern ins Leere**. Die Leistung ist bereits nicht steuerbar; Ort im Ausland." },
       { text: "**Beispiel:** **Schweizer Unt. (SU)** verbringt seinen Transportbetonmischer zur Wartung und Reinigung **von Zürich nach Neuss zu DU**. DU wartet das Fahrzeug und lässt es danach in die Schweiz zurückbringen. SU verwendet **Unternehmerbescheinigung** einer Behörde aus der Schweiz. ➔ Ort gem. § 3a Abs. 2 **in der Schweiz** am Sitzort des LE. ➔ **In DE somit nicht steuerbar** ➔ Rechnungserteilung **ohne „deutsche“ USt** ➔ Praxis: Was geschieht im Drittland ?????" },
       { typ: "titel", text: "Arbeitspapier A 19 – 3.4.2 Vermittlungsleistungen" },
@@ -1179,6 +1179,62 @@ export const block05 = [
         ["nein ➔ § 3a Abs. 2 UStG – Grundregel", "Empfänger-Sitz-Prinzip nach Satz 1 bzw. Ort der Betriebsstätte Satz 2; § 3a Abs. 8 UStG: Sonderfall „fiktive Ortsbestimmung für Drittlandsleistungen“"],
       ] },
       { text: "Schaubild der Quelle als Tabelle wiedergegeben; die Pfeile „ja“ / „nein“ der Prüfkette sind in die Zeilen übernommen." },
+    ],
+  },
+  {
+    id: "ust-m-b05-32",
+    teil: TEIL,
+    kapitel: "32",
+    abschnittNr: "Arbeitspapiere A 28 bis A 34",
+    title: "Arbeitspapiere A 28 bis A 34: Grundstücksleistungen, Vermittlung für Grundstücke, Messebau, Messeveranstaltungen und kurzfristige Vermietung von Beförderungsmitteln im B2B-Bereich",
+    thema: "Belegenheitsprinzip mit Begriff des bestimmten Grundstücks und den Fallgruppen des engen Zusammenhangs, Gebäudereinigung in Salzburg und Luxemburg, Vermittlung von Kauf, lang- und kurzfristiger Vermietung, Messebau nach Inter-Mark Group, Standflächenüberlassung mit und ohne Serviceleistungen und Kleintransporter Mönchengladbach/Venlo",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 28 bis A 34"),
+    verfasser: VERFASSER,
+    normen: ["§ 3a Abs. 2 Satz 1 UStG", "§ 3a Abs. 3 Nr. 1, 2 und 4 UStG", "§ 4 Nr. 12 UStG", "§ 13b Abs. 1 UStG", "§ 14a Abs. 1 UStG", "§ 18a UStG", "§ 18b UStG", "Art. 194 MwStSystRL", "Art. 196 MwStSystRL", "EuGH, 27.10.2011, C-530/09, Inter-Mark Group", "Abschn. 3a.2 Abs. 16 UStAE", "Abschn. 3a.3 Abs. 3 bis 10 UStAE", "Abschn. 3a.4 Abs. 1 bis 3 UStAE", "Abschn. 3a.5 Abs. 2 UStAE", "Abschn. 3a.9 Abs. 18a UStAE"],
+    themen: ["Grundstücksleistung", "Belegenheitsprinzip", "Maklerleistung", "Messebau", "Messeveranstaltung", "kurzfristige Vermietung", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 28 – 3.5.1 Ausnahmeregel „Grundstücksleistungen“" },
+      { text: "Vergleiche **Abschn. 3a.3 UStAE**. Basiert auf den **Leitlinien des MwSt-Ausschusses** auf Unionsebene & der **EU-VO**." },
+      { text: "Ort nach dem ➔ **Belegenheitsprinzip** – § 3a Abs. 3 Nr. 1 UStG – für sonstige Leistungen **im (engen) Zusammenhang** mit einem **ausdrücklich bestimmten (konkreten) Grundstück** – Abschnitt 3a.3 Abs. 3 UStAE –." },
+      { text: "**Ein bestimmtes Grundstück bedeutet:** • Grund und Boden und Gebäude • wesentliche Bestandteile (z.B. Türen, Fenster, Aufzug usw.) • fest installierte Maschinen & maschinelle Anlagen & Sachen (sog. **Betriebsvorrichtungen**). **NICHT** Zubehör, bewegliche Maschinen." },
+      { text: "**Ein enger Zusammenhang mit einem Grundstück liegt vor:**" },
+      { text: "**§ 3a Abs. 3 Nr. 1a UStG** ➔ bei Leistungen der in **§ 4 Nr. 12** bezeichneten Art • Vermietung und Verpachtung von Grundstücken (z.B. Büro, Parkplätze, Messestand, Campingplätze – Abschnitt 3a.3 Abs. 4 UStAE)." },
+      { text: "**§ 3a Abs. 3 Nr. 1b UStG** ➔ bei Leistungen im Zusammenhang mit der **Veräußerung / Erwerb** von Grundstücken • Grundstückssachverständige (Abschn. 3a.3 Abs. 7 UStAE) • Grundstücksmakler • Notar hinsichtlich Beurkundung Kaufvertrag und Grundschuldbestellung & Aufsetzen Kaufvertrag & Vertragsverhandlungen durch jeden anderen Unternehmer" },
+      { typ: "titel", text: "Arbeitspapier A 29" },
+      { text: "**§ 3a Abs. 3 Nr. 1c UStG** ➔ bei Leistungen, die der **Erschließung** von Grundstücken oder der **Vorbereitung, Koordinierung oder Ausführung von Bauleistungen** dienen • Architekt, Ingenieur, Vermessungsleistungen • Abbrucharbeiten, Erdarbeiten, Reparaturen • Baubetreuer, Bauaufsicht, Tapezieren • Installation ortsfester masch. Anlagen • Errichtung Baugerüst (Abschnitt 3a.3 Abs. 8 UStAE)." },
+      { text: "**§ 3a Abs. 3 Satz 1 UStG** ➔ **Auffangtatbestand** (Abschnitt 3a.3 Abs. 3 und 9 UStAE) • Montage / Wartungsarbeiten an Betriebsvorrichtung • Gebäudereinigung, Reparaturarbeiten, Gartenpflege • Eigentumsverwaltung, Mietbuchhaltung • Dichtheitsprüfungen an Leitungen, Objektschutz • Weitere juristische Dienstleistungen (z.B. Aufsetzen & Verhandeln von Mietverträgen)" },
+      { text: "**Nicht jedoch** ➔ **kein enger Zusammenhang liegt vor:** • Immobilienanzeigen bei Zeitungen (Abschnitt 3a.3 Abs. 10 UStAE) • Finanzierung und Finanzberatung, Rechts- und Steuerberatung in Grundstückssachen • Messebauleistungen • Gerätevermietung, allgemeine Lagerleistung • Personalüberlassung, Abschn. 3a.9 Abs. 18a UStAE • Vermittlung Hotel, Ferienhäuser im B2C-Bereich." },
+      { text: "**Beachte** (wegen „engem“ Grundstückszusammenhang): Ein **ausdrücklich bestimmtes Grundstück** muss **zentraler und unverzichtbarer Bestandteil** der sonstigen Leistung sein." },
+      { text: "**Liegt Grundstück im Ausland,** ➔ in DE **nicht steuerbar**. ➔ Es gilt **Besteuerungsrecht des anderen Staates**. ➔ **Sitz des LE unbedeutend.**" },
+      { typ: "titel", text: "Arbeitspapier A 30" },
+      { text: "**Beispiel:** Das **Gebäudereinigungsunternehmen DU aus Düsseldorf** reinigt für den **österreichischen Hotelbetreiber AU in Salzburg** die Außenfassade der Hotelanlage. ➔ Ort gem. § 3a Abs. 3 Nr. 1 **in Österreich** – Belegenheitsort – ➔ In der EU **kein zwingendes RC-Verfahren** gem. Art. 196 MwStSystRL ➔ Ausnahmeregel unterliegt ggf. **nationalem RC-Verfahren** (Einzelfallentscheidung des jeweiligen Staates gem. Art. 194 MwStSystRL) ➔ **Österreich sieht** für grundstücksbezogene Leistungen im B2B-Bereich **RC-Verfahren vor**. ➔ Sonstige Leistung jedoch **nicht in ZM** zu erklären ➔ **Keine gesonderte Erklärung** in USt-VA ➔ Rechnung mit **Hinweis auf RC-Verfahren** – § 14a Abs. 1 UStG –" },
+      { text: "**Beispiel:** Das **Gebäudereinigungsunternehmen DU aus Düsseldorf** reinigt für den **luxemburgischen Hotelbetreiber LU in Luxemburg** die Außenfassade der Hotelanlage. ➔ Ort gem. § 3a Abs. 3 Nr. 1 **in Lux** – Belegenheitsort – ➔ **Luxemburg sieht** für grundstücksbezogene Leistungen im B2B-Bereich **kein RC-Verfahren vor**. ➔ **Registrierung DU und Besteuerung in Lux.** ➔ Rechnungserteilung **mit lux. USt**." },
+      { typ: "titel", text: "Arbeitspapier A 31 – Vermittlungsleistungen für Grundstücke (Abschn. 3a.3 Abs. 9 UStAE)" },
+      { typ: "tabelle", spalten: ["Vermittlungsleistung betrifft: An- und Verkauf von Immob.", "Vermittlungsleistung betrifft: „langfristige“ V.u.V. von Immob.", "Vermittlungsleistung betrifft: „kurzfristige“ Verm. (Hotel, FeWo, Pension usw.)"], zeilen: [
+        ["„Maklerleistung“ ➔ Belegenheitsort § 3a (3) Nr. 1", "„Maklerleistung“ ➔ Belegenheitsort § 3a (3) Nr. 1", "➔ BEACHTE: „Keine Maklerleistung“, sondern: B2B-Bereich ➔ § 3a (2) S. 1 UStG Grundregel „Empfänger-Sitz“; B2C-Bereich ➔ § 3a (3) Nr. 4 UStG „doppelstöckige Ortsbestimmung“ (im Ergebnis = Belegenheitsort)"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 32 – Messebauleistungen" },
+      { text: "➔ **EuGH, Urteil v. 27.10.2011 – Rs. C-530/09, Inter-Mark Group**" },
+      { text: "Die nachfolgenden Leistungen stehen **nicht im Zusammenhang mit einem Grundstück** (vgl. Abschn. 3a.3 Abs. 10 UStAE). Unter die Ortsregelung des **§ 3a Abs. 2 UStG** (➔ sog. B2B-Grundregel = Empfängersitz-Prinzip) fallen (vgl. Abschn. 3a.2 Abs. 16 UStAE) ➢ **die Planung** (unter die „Planung“ fallen insbesondere Architektenleistungen, z.B. Anfertigung des Entwurfs für einen Stand) ➢ **die Gestaltung** (zur „Gestaltung“ zählt z.B. die Leistung eines Gartengestalters oder eines Beleuchtungsfachmannes) ➢ sowie **Aufbau, Umbau, Abbau und Überlassung von Ständen** (**NICHT WERKLIEFERUNGEN**) im Zusammenhang mit Messen und Ausstellungen." },
+      { text: "**Folge zwingend ab 2012** ➔ Eine **einheitliche so. Leistung nach Grundregel B2B** (Sitz des LE)." },
+      { text: "**Beispiele:** • **ital. Messebauer** leistet an **DU** auf einer Messe **in Mailand** ➔ Ort **DE** (§ 3a Abs. 2, RC § 13b Abs. 1 UStG). • **Deutscher Messebauer** leistet auf der Messe **in Frankfurt** für **italienische und spanische Kunden** ➔ Ort **Italien und Spanien** (§ 3a Abs. 2 UStG, zwingend RC-Verfahren Art. 196 MwStSystRL). • **Deutscher Messebauer** leistet für **DU** auf einer Messe in **Österreich, Frankreich** usw. ➔ Ort **Deutschland** § 3a Abs. 2 UStG, somit **steuerbar und steuerpflichtig**; Rechnung mit USt." },
+      { typ: "titel", text: "Arbeitspapier A 33 – Messeveranstaltungsleistungen in DE" },
+      { typ: "tabelle", spalten: ["Leistung besteht nur in der Überlassung Standfläche", "Leistung besteht in der Überlassung Standfläche zzgl. Serviceleistungen"], zeilen: [
+        ["incl. Garderobendienste, Hinweisdienste usw. als Nebenleistung", "z.B. Standbauteile, technische Versorgung, Planung, Bewachung, PC, Reinigung, Übersetzungsdienste usw. (Abschn. 3a.4 Abs. 2 UStAE) ➔ als einheitliche Leistung"],
+        ["Abschn. 3a.4 Abs. 1 UStAE: Ort => Grundstück (§ 3a Abs. 3 Nr. 1 UStG)", "Abschn. 3a.4 Abs. 2 UStAE: Ort => Sitz LE (B2B) (§ 3a Abs. 2 UStG)"],
+      ] },
+      { text: "**Abgrenzung** durch Abschn. 3a.4 Abs. 2 S. 5 UStAE: **Standfläche + 3 weitere Serviceleistungen = B2B-Grundregel**." },
+      { text: "**Ort für einzelne Leistungen** an Aussteller durch andere Unternehmer / Veranstalter: vgl. Liste in Abschn. 3a.4 Abs. 2 und 3 UStAE." },
+      { typ: "titel", text: "Arbeitspapier A 34 – 3.6.2 Ausnahmeregel „kurzfristige Vermietung KFZ“" },
+      { text: "Vermietung eines **Beförderungsmittels** im B2B-Bereich (Begriff = Abschn. 3a.5 Abs. 2 UStAE)" },
+      { typ: "tabelle", spalten: ["Kurzfristig", "Langfristig"], zeilen: [
+        ["ununterbrochener Zeitraum bei Wasserfahrzeug bis 90 Tage; andere Bf.-mittel bis 30 Tage", "ununterbrochener Zeitraum bei Wasserfahrzeug über 90 Tage; andere Bf.-mittel über 30 Tage"],
+        ["➔ Übergabeort, § 3a Abs. 3 Nr. 2 UStG", "➔ Grundregel, § 3a Abs. 2 UStG"],
+      ] },
+      { text: "**!! Ununterbrochen** = maßgebend ist **tatsächliche Dauer, nicht Vertrag**." },
+      { text: "**Beispiel:** Der **Autovermieter M aus Mönchengladbach** vermietet **für 10 Tage** an den **Unternehmer V aus Venlo** einen Kleintransporter, der von V überwiegend nach Abholung in Mönchengladbach im EU-Ausland genutzt wird. V verwendet seine niederländische USt-IdNr. ➔ Ort gem. § 3a Abs. 3 Nr. 2 **in DE – Übergabeort** – ➔ **Steuerbar und steuerpflichtig in DE** ➔ Rechnungserteilung **mit USt** ➔ Vorst für V im **Vergütungsverfahren**" },
+      { text: "**Beispiel:** Wie vorher, jedoch beträgt die **Mietdauer 50 Tage**. ➔ Ort gem. § 3a Abs. 2 **in NL** am Sitzort des LE ➔ In NL **zwingend RC-Verfahren** gem. Art. 196 MwStSystRL ➔ Sonstige Leistung in ZM zu erklären – § 18a UStG – ➔ **Gesonderte Erklärung in USt-VA Kz. 21** – § 18b UStG – ➔ Rechnung mit Angabe USt-IdNr. LU und LE – § 14a Abs. 1 UStG –" },
     ],
   },
 ];

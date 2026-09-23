@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5: Arbeitspapiere A 28 bis A 34
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel
+`ust-m-b05-32` für die PDF-Seiten 90 bis 96: A 28/A 29 Grundstücksleistungen (bestimmtes
+Grundstück, Fallgruppen Nr. 1a bis 1c und Auffangtatbestand, kein enger Zusammenhang), A 30
+Gebäudereinigung in Salzburg (RC in Österreich) und Luxemburg (Registrierung), A 31 Vermittlung
+für Grundstücke, A 32 Messebau (EuGH Inter-Mark Group), A 33 Messeveranstaltungsleistungen,
+A 34 kurzfristige Vermietung (Mönchengladbach/Venlo). A 31, A 33 und A 34 als Tabellen mit den
+Spaltenköpfen der Quelle; A 29 und A 30 tragen keine eigene Überschrift. Stand des
+USt-Skripts: 5 Teile, 104 Kapitel, 2149 Blöcke, 108 Tabellen.
+
+**Quellbefund (markiert):** A 18 nennt für die gesonderte Erklärung nach § 18b UStG „Kz. 35“,
+A 34 für denselben Vorgang „Kz. 21“; in A 18 als Widerspruch innerhalb der Quelle vermerkt.
+
+**Stillschweigend berichtigt:** „Ab.3a.3. Abs. 7“ (Abschn. 3a.3 Abs. 7), „Abschnitt 3a.3.“
+bzw. „3a.4.“ (Punkt nach der Abschnittsnummer), „Aufsetzen Kaufvertrags“, „Anlagen &. Sachen“,
+„Architekten leistungen“, „Ort Italien und Spanien 3a Abs. 2“ (§ ergänzt), fehlende öffnende
+Klammern in A 32, gesperrte Schrift „K u r z f r i s t i g“ / „B E A C H T E“.
+
+**Noch offen in Block 5:** Arbeitspapiere ab A 35 (PDF-Seite 97 ff.).
+
 ### USt-Skript (Moecker), Block 5: Arbeitspapiere A 23 bis A 27
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel
