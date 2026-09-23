@@ -10623,6 +10623,32 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.3.3.1 bis I.3.3.3
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
+`ust-m-b08-1-17` (I.3.3.1 Warenbewegung mit Transportweg, Be- oder Verarbeitung samt EuGH
+Fonderie, gebrochener Beförderung, Kommissionslieferungen und Lieferanteneigenschaft),
+`ust-m-b08-1-18` (I.3.3.2 Abnehmer der Lieferung) und `ust-m-b08-1-19` (I.3.3.3
+Erwerbsbesteuerung im Bestimmungsland) für die PDF-Seiten 27 bis 31. Stand des USt-Skripts:
+8 Teile, 182 Kapitel, 3257 Blöcke, 163 Tabellen.
+
+**Quellbefunde (markiert):** Bei den Kommissionslieferungen heißt es, die Lösung sei „für den
+Kommissionär“ umständlich, weil „er“ sich in allen Mitgliedstaaten registrieren lassen müsste;
+nach dem Satz zuvor wäre die Lieferung des Kommittenten im Bestimmungsland steuerbar. Die
+Problembereiche in I.3.3.1 führen den Buchstaben d) zweimal (Kommissionslieferungen und
+Lieferanteneigenschaft).
+
+**Stillschweigend berichtigt:** „„ in das übrige Gemeinschaftsgebiet ““, „Eine
+innergemeinschaftlichen Lieferung“, „und den Lieferungen von Gas“ (die), „Verarbeitungsleis-
+tungen“ (Singular), „§ 6a Abs.1“, fehlender Punkt nach „Bestimmungsmitgliedstaats erbracht
+werden“, überzählige Klammer nach „verwendet werden)“, „02.Okt.2014“, „zu verwiesen“,
+„entscheiden“ (entschieden), „((Abschn.6a.1“, gerades Schlusszeichen nach „vieles anders“,
+„L.u.F. Betriebs nach § 24 UStG angewendet werden“ (L.u.F.-Betriebs, auf die § 24 UStG
+angewendet wird), „erfasster Unternehmer, die“ (erfasste), „USt – IdNr“, „§ 6a Abs. 1 Nr. Nr. 4“,
+„I. 3.3.3“.
+
+**Weiter mit:** Block 8 Teil I ab I.3.3.4 Verwendung einer gültigen USt-IdNr. (PDF-Seite 31).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.3.1 bis I.3.3
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
