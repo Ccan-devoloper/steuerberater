@@ -10623,6 +10623,36 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5 fortgesetzt (III.2.4 bis III.3.2)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` an Kapitel
+`ust-m-b05-9` die Zusammenfassung zu den Messeveranstaltern (PDF-Seite 32) angefügt; neue
+Kapitel `ust-m-b05-10` bis `ust-m-b05-14` für die PDF-Seiten 32 bis 41: III.2.4 kurzfristige
+Vermietung von Beförderungsmitteln einschließlich § 3a Abs. 7 UStG, III.2.5
+Restaurationsumsätze, III.2.6 Eintrittsberechtigungen (JStG 2024, virtuelle Teilnahme),
+III.2.7 fiktiver Leistungsort im Drittland (§ 3a Abs. 8 UStG), III.2.8 Personenbeförderungen,
+III.2.9 Folgeänderungen (§§ 14 Abs. 7, 14a Abs. 1, 18a, 18b UStG), III.3.1 B2C-Grundregel und
+III.3.2 Grundstücksleistungen an Private. Die „Kurzformel“ zu III.2.8 ist ohne erfundene
+Spaltenköpfe als Aufzählung wiedergegeben. Stand des USt-Skripts: 5 Teile, 86 Kapitel,
+1764 Blöcke, 94 Tabellen.
+
+**Quellbefunde (markiert):** III.2.6 nennt für den neuen Satz 2 durch das JStG 2024
+„§ 3a Abs. 5 UStG“, gemeint ist § 3a Abs. 3 Nr. 5 Satz 2 UStG. III.2.7 verweist auf
+„Punkt IV. 2.3.2“, gemeint ist III.2.3.2 (Messeveranstaltungen). Im Frachtführer-Beispiel
+steht „in 20“ ohne vollständige Jahreszahl.
+
+**Stillschweigend berichtigt:** „stattfindet eingeführt“ (eingeführt gestrichen), „abführen“
+(ergänzt: zu), „Stellung“ (ergänzt: genommen), „der der Leistungsort“, „für den für den
+Betrieb“, „sanktionslos unk keine“ (und), „seinen Sitz (bzw. …)“ (ergänzt: hat), „Konzerte“ und
+„Musikgruppe“ (Konzerten, Musikgruppen), „Restaurationsleistung nicht mit deutscher USt“
+(Plural), „dort erbracht, wo“ (ergänzt: wird), „eingreift“ (eingreifen), „in den
+Voranmeldungszeitraum“ (in dem); die versprengte Zeile „Zu den Beförderungsmitteln gehören“
+vor Punkt B entfällt, weil der Satz in B vollständig folgt. „Beispiele:“ vor dem einzigen
+Beispiel in III.3.2 als „Beispiel“ geführt.
+
+**Noch offen in Block 5:** ab III.3.3 (Vermietung von Beförderungsmitteln im B2C-Bereich,
+PDF-Seite 42 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 5 fortgesetzt (III.1 bis III.2.3.2)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
