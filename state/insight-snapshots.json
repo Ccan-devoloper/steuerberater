@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-23T16:43:32.777Z",
+  "stand": "2026-09-23T17:43:43.296Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -2952,6 +2952,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-23T17:43:42.915Z",
+          "alterStunden": 32,
+          "reach": 26,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -3489,6 +3501,23 @@
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 22,
           "navigation_tap_back": 7
+        },
+        {
+          "stand": "2026-09-23T17:43:36.177Z",
+          "alterStunden": 23,
+          "reach": 31,
+          "views": 52,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 41,
+          "navigation_swipe_forward": 7,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 23,
+          "navigation_tap_back": 8
         }
       ]
     },
@@ -3566,6 +3595,23 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 18,
+          "navigation_tap_back": 8
+        },
+        {
+          "stand": "2026-09-23T17:43:36.177Z",
+          "alterStunden": 22.5,
+          "reach": 31,
+          "views": 42,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 36,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 19,
           "navigation_tap_back": 8
         }
       ]
@@ -3693,6 +3739,23 @@
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 14,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-09-23T17:43:36.177Z",
+          "alterStunden": 12,
+          "reach": 27,
+          "views": 32,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_forward": 17,
+          "navigation_tap_exit": 3
         }
       ]
     },
@@ -3738,6 +3801,23 @@
           "navigation_tap_forward": 12,
           "navigation_tap_back": 1,
           "navigation_tap_exit": 9
+        },
+        {
+          "stand": "2026-09-23T17:43:36.177Z",
+          "alterStunden": 12,
+          "reach": 25,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_tap_exit": 9,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 16,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -3906,6 +3986,34 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18115790843012712": {
+      "art": "story",
+      "datum": "2026-09-23",
+      "titel": "Fehlerfalle: Festsetzungsfrist beginnt nicht immer im Entstehungsjahr",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-23T15:44:09.838Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-23T17:43:36.177Z",
+          "alterStunden": 2,
+          "reach": 11,
+          "views": 13,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 11,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 7,
+          "navigation_swipe_forward": 1
         }
       ]
     }
@@ -4118,6 +4226,11 @@
     },
     {
       "stand": "2026-09-23T16:43:32.777Z",
+      "follower": 73,
+      "medien": 58
+    },
+    {
+      "stand": "2026-09-23T17:43:43.296Z",
       "follower": 73,
       "medien": 58
     }
