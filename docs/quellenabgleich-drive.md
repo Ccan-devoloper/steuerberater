@@ -10623,6 +10623,33 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5 fortgesetzt (III.3.5 bis III.3.8)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
+`ust-m-b05-18` bis `ust-m-b05-21` für die PDF-Seiten 48 bis 54: III.3.5 Restaurationsumsätze
+und III.3.6 Werkleistung/Begutachtung (Zinnsoldaten-Fall), III.3.7 Vermittlungsleistungen
+(doppelstöckige Ortsbestimmung, Versteigerer), III.3.8 A Katalogleistungen mit Fallunterscheidung
+und Steuerberater-Schema (als Tabelle mit den Spaltenköpfen der Quelle „Fall“ / „Ort der
+Leistung“) und III.3.8 B Leistungskatalog Nummern 1 bis 13 (Rechtsanwalt Sasse, Paris/New York).
+Stand des USt-Skripts: 5 Teile, 93 Kapitel, 1902 Blöcke, 95 Tabellen.
+
+**Quellbefunde (markiert):** Die Überschriften III.3.5 und III.3.6 nennen „§ 3a Abs. 3 Nr. 3a
+Bu. a)“ bzw. „Nr. 3a Bu b“, gemeint sind § 3a Abs. 3 Nr. 3 Buchst. b und c UStG (im Text von
+III.3.6 richtig „Nr. 3c“). Das CSC-Urteil des EuGH wird mit „13.01.2001“ zitiert; es datiert vom
+13.12.2001 (eigene Ergänzung). Für Autogrammstunde/Lesung nennt Nummer 1 „§ 3a Abs. 2 Nr. 3“,
+bei Sachverständigen/Ingenieuren „§ 3a Abs. 2 Nr. 1“ und „Nr. 3c“ – gemeint jeweils § 3a Abs. 3.
+Nummer 10 verweist auf „Punkt IV 3.3“, gemeint III.3.3. Zu „Nummer 8 und 9 (Verzichtsleistung)“
+enthält die Quelle nur die Überschrift.
+
+**Stillschweigend berichtigt:** „beweglich körperlichen“ (beweglichen), „selbstbeschaffte
+Hauptstoffe“ (selbstbeschafften), „–sinngemäß-“, „Wer den Vermittler bezahlt ist“ (Komma),
+„§ 3 a“, „Wohnsitz hat. (§ 3a Absatz 4 Satz 1 UStG) und“, „Privatmann aus Berlin)“ (Klammer),
+„Arbeitnehmer des Auftraggebers“ (Arbeitnehmern), „dieser Regelung. ist“, „Bierzeltgarnituren,
+usw.“.
+
+**Noch offen in Block 5:** ab III.3.9 (TRFE-Leistungen, § 3a Abs. 5 UStG, PDF-Seite 55 ff.)
+sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 5 fortgesetzt (III.3.3 bis III.3.4)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
