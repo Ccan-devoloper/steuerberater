@@ -3,8 +3,8 @@
    Quelle: „B-S26-USt-Skript Block 6-7-(Moecker)-0526“ (Block 06 Werk / 13b / GIG /
    Gutscheine – Vers. I 2026, Red. 04-26, Titelblatt Mai 2026), PDF-Seiten 2 bis 96
    der gemeinsamen Datei für die Blöcke 6 und 7 (130 PDF-Seiten).
-   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere (PDF-Seiten 62 bis 96)
-   bis Seite 28. */
+   Vollständig: Textteil I bis IV (PDF-Seiten 2 bis 61) und Arbeitspapiere Seite 1 bis 35
+   (PDF-Seiten 62 bis 96). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 05/2026";
@@ -1173,6 +1173,74 @@ export const block06 = [
       { text: "**Merke:** Leistungsgegenstand muss für die Annahme eines Einzweckgutscheins zumindest im Hinblick auf die **Gattung** des jeweiligen Leistungsgegenstands auf dem Gutschein angegeben sein. Unter Gattung ist in diesem Zusammenhang die Gesamtheit von Arten von Waren oder sonstigen Leistungen zu verstehen, die in ihren wesentlichen Eigenschaften derart übereinstimmen, dass hieraus der **zutreffende Steuersatz eindeutig bestimmbar** ist." },
       { text: "② **Leistungsort muss feststehen** – als konkreter „LEISTUNGS-ORT“? Oder nur als „STAATEN-ORT“ (also eine territoriale Bestimmbarkeit)? ➔ **STAATEN-Ort reicht**; keine genaue Ortsbestimmung." },
       { text: "**Beachte (Abschn. 3.17 Abs. 5 UStAE):** ❖ Bei Berechtigung zum Bezug einer **Lieferung** = Ort einer **fiktiven unbewegten Lieferung (§ 3 Abs. 7 UStG)**; keine Warenbewegung im Zeitpunkt der erstmaligen Ausgabe ❖ **keine Steuerbefreiung** als Ausfuhr / innergem. Lieferungen möglich. ❖ Bei **sonstigen Leistungen**, deren Ortsbestimmung vom Status des LE abhängt, muss feststehen, ob LE aus B2B- oder B2C-Bereich." },
+    ],
+  },
+  {
+    id: "ust-m-b06-32",
+    teil: TEIL,
+    kapitel: "32",
+    abschnittNr: "Arbeitspapiere Seite 29 bis 32",
+    title: "Arbeitspapiere Seite 29 bis 32: Zuzahlungen, Steuersatzbestimmung und Nichteinlösung bei Gutscheinen, Vermittlung und Kommission (Gutscheinportale) sowie Mehrzweck-Gutscheine in der Vertriebskette",
+    thema: "Schmuckhändler mit Zuzahlung, Restaurant- und Kaufhausgutschein als Mehrzweck-Gutschein, Verfall und Rückerstattung von Einzweck-Gutscheinen, Büchergutschein über ein Vermittlungsportal, E-Bike-Gutscheine über einen Gutscheinhändler und Sortiment-Gutschein eines Kaufhauses über ein Promo-Portal",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere Seite 29 bis 32"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 UStG", "§ 3 Abs. 14 Sätze 3 und 4 UStG", "§ 3 Abs. 15 UStG", "§ 10 Abs. 1 Satz 6 UStG", "§ 17 Abs. 2 Nr. 3 UStG", "Abschn. 3.17 Abs. 3, 4, 7, 8 und 9 bis 14 UStAE"],
+    themen: ["Gutschein", "Einzweck-Gutschein", "Mehrzweck-Gutschein", "Vermittlung", "Kommission", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier Seite 29" },
+      { text: "**Was ist mit Zuzahlungen zum Gutscheinwert?** **Beispiel:** Kunde A erwirbt im **Januar 01** beim **Schmuckhändler B in D’dorf** Gutschein im **Wert von 50 € für 40 €** für einen Artikel aus dem Sortiment. Im **April 01** kauft A einen **Ring für 350 €** abzgl. Wert 50 € und **Zuzahlung 300 €**. ➔ **Einzweck-Gutschein** mit BMG bei Ausgabe des Gutscheins im Januar **40 € abzgl. USt**. Im April ist noch ein Umsatz i.H.v. **300 € (brutto)** zu versteuern. **Nachrechnung (eigene Ergänzung):** 40 € : 1,19 = 33,61 €; 300 € : 1,19 = 252,10 €." },
+      { text: "**USt muss feststehen.** **Beispiel:** **Restaurant aus Köln** verkauft Gutschein über **100 Euro**. Einlösung gegen **Speisen und Getränke** zum Verzehr an Ort und Stelle. ➔ **Mehrzweck-Gutschein**. Ort bestimmbar (Köln), jedoch nicht Steuersatz für **Getränke 19 % und Speisen 7 % ab 2026**. (Vor 2026 war es ein Einzweckgutschein, da alles 19 %.)" },
+      { text: "**Beispiel:** **Kaufhaus aus D’dorf** verkauft Gutschein, der zum Kauf aus dem **Gesamtsortiment** (auch Bücher, Lebensmittel) berechtigt. ➔ **Mehrzweck-Gutschein**. Ort bestimmbar (D’dorf), jedoch nicht geschuldete USt (19 % oder 7 %)." },
+      { text: "**Was ist mit nicht eingelösten Einzweckgutscheinen?** Bei **Nichteinlösung** und somit Verfall durch Verjährung ❖ **keine Folgen** (Abschn. 3.17 Abs. 7 UStAE). ❖ Die ursprüngliche Leistung gilt ja bereits bei Übertragung / Ausgabe des Gutscheins als erbracht. ❖ Umsatz bereits versteuert." },
+      { text: "**Merke** (vgl. Abschn. 3.17 Abs. 8 UStAE): Erhält Kunde den Gutscheinwert ausnahmsweise **zurückerstattet** ❖ ursprünglicher Umsatz wird **rückgängig gemacht**. ❖ USt gem. **§ 17 (2) Nr. 3 UStG zu berichtigen**." },
+      { typ: "titel", text: "Arbeitspapier Seite 30 – 4.3 Vermittlung oder Kommission" },
+      { text: "**Fall 1 Vermittler** (vgl. § 3 Abs. 14 S. 3 UStG & Abschn. 3.17 Abs. 4 UStAE): **Unternehmer A** ➔ Hingabe eines **Büchergutscheins als Einzweck-Gutschein** an **Gutschein-Verkäufer B** ➔ **Ausgabe Jan 01** für 50 € an **Gutscheinkäufer G** (Besteuerung Jan 01 bei Ausgabe an Gutscheinkäufer). B betreibt „**Gutscheinportal**“ im Internet (Verkauf Gutscheine **im Namen und für Rechnung des A**) = **Vermittlerrolle**." },
+      { text: "• B hält **20 % des Gutscheinwerts als Vermittlungsprovision** ein. • Monatliche Weiterleitung Rest an A und Provisionsabrechnung. • G erwirbt im Januar 01 **Buchgutschein über 60 EURO** und zahlt hierfür **50 EURO** an B." },
+      { text: "**Lösung:** • **Fiktive „Buch“-Lieferung des A im Januar 01** mit Ort in DE als „fiktive ruhende Lieferung“ (keine Steuerbefreiung möglich) • **BMG = 50 € abzüglich 7 % USt** • **Vermittlungsleistung des B an A** mit **BMG 10 € abzgl. 19 % USt** (so in der Quelle; 20 % des Gutscheinwerts von 60 € wären 12 €, die 10 € entsprechen 20 % des gezahlten Preises von 50 € – eigene Nachrechnung) • B als ausgebender Unternehmer muss A als Leistenden zur fristgerechten Versteuerung den **Ausgabezeitpunkt an G mitteilen**. • A hat als Bruttowert den **von B vereinnahmten Preis** anzusetzen (also den von G aufgewendeten Betrag)." },
+      { text: "**Nachrechnung (eigene Ergänzung):** 50 € : 1,07 = 46,73 € BMG, 3,27 € USt; 10 € : 1,19 = 8,40 € BMG, 1,60 € USt." },
+      { typ: "titel", text: "Arbeitspapier Seite 31" },
+      { text: "**Fall 2 (Kommissionär bzw. Eigenhändler)** – vgl. § 3 Abs. 14 Satz 4 UStG & Abschn. 3.17 Abs. 3 UStAE: **Unternehmer A (Fahrradhersteller)** überträgt im **Jan 01** **10 E-Bike-Einzweck-Gutscheine** (Wert je 3,5 T€) für je **2,5 T€** an den **Gutschein-Händler B** (Besteuerung bei Übertragung); B gibt **1 Gutschein im März 01** für **3 T€** an **Gutscheinkäufer G** aus (Besteuerung bei Ausgabe); G löst ein **im April 01**. B betreibt „Gutscheinportal“ im Internet (Verkauf Gutscheine **im eigenen Namen und für eigene Rechnung**) = **Kommissionsgeschäft oder Eigenhandel**." },
+      { text: "• A überträgt an Gutscheinhändler B 10 Gutscheine über E-Bikes. • Wert jeweils 3.500 € für jeweils 2.500 €. • B gibt 1 Gutschein im März 01 im eigenen Namen an G aus. • Preis 3.000 €. • G löst Gutschein bei A im April 01 ein." },
+      { text: "**Lösung:** • **Fiktive 10 „Bike“-Lieferungen des A im Januar 01 an B** mit Ort in DE als „fiktive ruhende Lieferung“ (keine Steuerbefreiung möglich) • **BMG = 25.000 € abzüglich 19 % USt** • **1 fiktive Lieferung B an G im März 01**. • **BMG 3.000 € abzgl. 19 % USt**." },
+      { text: "**Nachrechnung (eigene Ergänzung):** 10 × 2.500 € = 25.000 €; 25.000 € : 1,19 = 21.008,40 € BMG, 3.991,60 € USt; 3.000 € : 1,19 = 2.521,01 € BMG, 478,99 € USt." },
+      { typ: "titel", text: "Arbeitspapier Seite 32 – 4.4 Mehrzweck-Gutscheine (§ 3 Abs. 15 UStG & Abschn. 3.17 Abs. 9–14 UStAE)" },
+      { text: "**„Kaufhaus A Rhein-Galerie“**: **Mehrzweck-Gutschein** (Sortiment-Gutschein, **Wert 100 Euro**) ➔ **Jan. 01 Übertragung für 60 Euro** an **Gutschein-Portal P „Rhein-Promo-GmbH“** (im fremden oder eigenen Namen) ➔ **Febr. 01 Ausgabe für 80 Euro** an **Gutscheinkäufer G** ➔ **April 01**: Besteuerung der Leistung bei Einlösung durch Gutscheinkäufer." },
+      { text: "❖ **Mehrzweck-Gutschein = keine Leistung** (Geld – Geld; Verbindungszeichen in der Textextraktion nicht lesbar) ❖ Bei Ausgabe im Febr. 01 **Vermittlungsleistung bzw. Werbeleistung P an A**, **BMG 20 Euro abzgl. USt 19 %** ❖ Bei Einlösung **„normale“ Lieferung** eines Gegenstandes durch Kaufhaus A an G (Gutscheineinlöser) mit Ort **§ 3 Abs. 6 UStG**. **BMG = alles, was Kunde „bezahlt“ = 80 Euro abzgl. USt** ❖ Liegen dem Kaufhaus **keine „Gutschein-Verkaufs-Beträge“** vor, dann **Ersatz-BMG § 10 Abs. 1 S. 6 UStG-E (= Gutscheinwert 100 €)**." },
+      { text: "**Nachrechnung (eigene Ergänzung):** 80 € – 60 € = 20 €; 20 € : 1,19 = 16,81 € BMG; 80 € : 1,19 = 67,23 € BMG." },
+    ],
+  },
+  {
+    id: "ust-m-b06-33",
+    teil: TEIL,
+    kapitel: "33",
+    abschnittNr: "Arbeitspapiere Seite 33 bis 35",
+    title: "Arbeitspapiere Seite 33 bis 35: Übersicht über die Tatbestände des § 13b UStG (WER – WAS – an WEN)",
+    thema: "Gesamtübersicht aller Tatbestände des § 13b Abs. 1 und Abs. 2 Nr. 1 bis 12 UStG mit leistendem Unternehmer, Tatbestand und Leistungsempfänger einschließlich Hinweisen zum Privatbereich",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere Seite 33 bis 35"),
+    verfasser: VERFASSER,
+    normen: ["§ 3g UStG", "§ 9 UStG", "§ 13b Abs. 1 und Abs. 2 Nr. 1 bis 12 UStG", "§ 19 UStG", "Anlage 3 und 4 zum UStG"],
+    themen: ["Steuerschuldnerschaft", "§ 13b UStG", "Übersicht", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapiere Seite 33 bis 35 – Übersicht über die Tatbestände des § 13b UStG" },
+      { text: "**Kopfzeile der Quelle:** WER (LU) (nicht § 19) – WAS (Tatbestand); **Beachte! ORT muss im Inland sein** – an WEN (LE)." },
+      { typ: "tabelle", spalten: ["§§", "WER (LU)", "WAS (Tatbestand)", "An WEN (LE)"], zeilen: [
+        ["13b (1)", "LU aus EU", "Sonstige Leistungen B2B-Grundregel (Güterbeförderung, Veredelungen, Vermittlungen, Katalogleistungen)", "LE = jeder Unternehmer / jur. Person"],
+        ["13b (2) Nr. 1", "LU aus Ausland (EU + Drittland)", "Werklieferungen (EU + 3.-Land) und sonstige Leistungen (3.-Land); sonstige Leistungen (EU, nicht Abs. 1)", "LE = jeder Unternehmer / jur. Person ➔ auch Privatbereich"],
+        ["13b (2) Nr. 2", "LU = jeder Untern.", "Lieferung von Sicherungsgut durch Sicherungsgeber an Sicherungsnehmer", "LE = jeder Unternehmer (insbes. Banken)"],
+        ["13b (2) Nr. 3", "LU = jeder Untern.", "Grundstückslieferungen; steuerbar (! keine GiG); steuerpflichtig (! Option § 9)", "LE = jeder Unternehmer"],
+        ["13b (2) Nr. 4", "LU = jeder inländischer Untern.", "Bauleistungen (Werklieferungen und sonstige Leistungen an Bauwerken)", "LE = vom Typ selbst Bauleistender ➔ auch Privatbereich"],
+        ["13b (2) Nr. 5a", "LU aus Ausland (EU + Drittland)", "Lieferungen nach § 3g UStG (Elektrizität, Gas, Wärme, Kälte)", "LE = jeder Unternehmer"],
+        ["13b (2) Nr. 5b", "LU aus Inland; bei Elektrizität: LU aus Inland + Wiederverkäufer", "Lieferungen von Gas; Lieferung Elektrizität", "LE = Unternehmer als Wiederverkäufer"],
+        ["13b (2) Nr. 6", "LU = jeder Untern.", "Übertragung von Berechtigungen – sog. Emissionshandel", "LE = jeder Unternehmer"],
+        ["13b (2) Nr. 7", "LU = jeder Untern.", "Lieferungen Gegenstände der Anlage 3 – sog. Schrotthandel", "LE = jeder Unternehmer"],
+        ["13b (2) Nr. 8", "LU = jeder inländische Untern.", "Gebäudereinigungsleistungen", "LE = vom Typ selbst Gebäudereiniger ➔ auch Privatbereich"],
+        ["13b (2) Nr. 9", "LU = jeder Untern.", "Lieferungen von Gold (Zolltarif)", "LE = jeder Unternehmer ➔ auch Privatbereich"],
+        ["13b (2) Nr. 10", "LU = jeder Untern.", "Lieferungen von Mobilfunkgeräten + Schaltkreisen + Tablet-Computer + Spielekonsolen / wenn > 5.000 Euro", "LE = jeder Unternehmer ➔ auch Privatbereich"],
+        ["13b (2) Nr. 11 (ab 1.10.14)", "LU = jeder Untern.", "Lieferungen Gegenstände der Anlage 4 – sog. Metallhandel; beachte Zolltarif", "LE = jeder Unternehmer ➔ auch Privatbereich"],
+        ["13b (2) Nr. 12 (ab 1.1.21)", "LU = jeder inländische Untern.", "Sonstige Leistungen auf dem Gebiet der Telekommunikation", "LE = Unternehmer als Wiederverkäufer"],
+      ] },
     ],
   },
 ];

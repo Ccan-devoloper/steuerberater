@@ -10623,6 +10623,35 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 abgeschlossen: Arbeitspapiere Seite 29 bis 35
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-32` (Arbeitspapiere Seite 29 bis 32: Zuzahlung, Steuersatzbestimmung, Nichteinlösung
+und Rückerstattung, Vermittlung über ein Gutscheinportal, Kommission/Eigenhandel mit
+E-Bike-Gutscheinen, Mehrzweck-Gutschein in der Vertriebskette) und `ust-m-b06-33`
+(Seite 33 bis 35: Gesamtübersicht der Tatbestände des § 13b UStG als Tabelle mit den
+Kopfzeilen der Quelle) für die PDF-Seiten 90 bis 96. **Block 6 ist damit vollständig**
+(Textteil I bis IV und Arbeitspapiere Seite 1 bis 35, 33 Kapitel). Stand des USt-Skripts:
+6 Teile, 140 Kapitel, 2806 Blöcke, 146 Tabellen.
+
+**Nachgerechnet (eigene Ergänzung):** Schmuckhändler 33,61 € / 252,10 € BMG; Büchergutschein
+46,73 € BMG (7 %) und Provision 8,40 € BMG; E-Bikes 25.000 € : 1,19 = 21.008,40 € BMG und
+3.000 € : 1,19 = 2.521,01 € BMG; Kaufhaus 20 € : 1,19 = 16,81 € und 80 € : 1,19 = 67,23 € BMG.
+
+**Quellbefund (markiert):** Im Vermittlerfall (Seite 30) behält B laut Sachverhalt „20 % des
+Gutscheinwerts“ (60 €) ein, die Lösung setzt als Provision 10 € an; das sind 20 % des
+gezahlten Preises von 50 €, nicht des Gutscheinwerts (12 €).
+
+**Stillschweigend berichtigt:** „für einen Artikel im aus dem Sortiment“, „noch einen Umsatz“
+(ein), „ursprüngliche Umsatz“ (ursprünglicher), „§ 3 Abs. 14 S 3“, „B als ausgebende
+Unternehmer“ (ausgebender), gesperrte Schrift („V e r m i t t l e r r o l l e“,
+„K o m m i s s i o n s g e s c h ä f t“, „E i g e n h a n d e l“, „W E R“), „Nr.10“ usw.,
+„Jur. Person“, „Jeder Untern.“ (Kleinschreibung), „Inland.“; nicht lesbare Verbindungszeichen
+(„Geld  Geld“) vermerkt.
+
+**Weiter mit:** USt-Skript Block 7 (innergemeinschaftlicher Erwerb, PDF-Seiten 97 bis 130 derselben
+Datei).
+
 ### USt-Skript (Moecker), Block 6: Arbeitspapiere Seite 22 bis 28
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neues Kapitel
