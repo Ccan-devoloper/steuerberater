@@ -2424,7 +2424,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und Kursen, § 4 Nr. 28 und § 4 Nr. 29 UStG sowie Kreditgeschäften, Zahlungsmitteln,
   Forderungen mit Factoring und Gesellschaftsanteilen, § 4 Nr. 9a UStG mit Grundstücksbegriff
   und technischen Leistungen, bebauten Grundstücken, Gebäuden auf fremdem Grund und Boden
-  und Nießbrauch (20 Kapitel).
+  und Nießbrauch, § 4 Nr. 12a UStG mit Grundstücksbegriff, Gebrauchsüberlassung und
+  Windkraftanlagen (24 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

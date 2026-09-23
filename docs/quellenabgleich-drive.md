@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: III.6 bis III.6.3
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-21` (III.6 Allgemeines zu
+§ 4 Nr. 12a UStG mit Übersicht UStAE 4.12.1 bis 4.12.11 als Tabelle), `ust-m-b08-2-22`
+(III.6.1 Grundstücksbegriff), `ust-m-b08-2-23` (III.6.2 Gebrauchsüberlassung mit Parkhaus,
+Hallenbad, Urnenliegerechten) und `ust-m-b08-2-24` (III.6.3 Windkraftanlagen) für die
+PDF-Seiten 37 bis 41. Stand des USt-Skripts: 9 Teile, 244 Kapitel, 3957 Blöcke, 206 Tabellen.
+
+**Quellenfehler (im Text markiert):** Verweis „Punkt IV 6.4“ für die Nebenleistungen;
+gemeint wohl III.6.4.
+
+**Darstellung:** Spaltenköpfe der UStAE-Übersicht als eigene Ergänzung vermerkt.
+
+**Stillschweigend berichtigt:** „§ 4 Nr. 12 a“, „Anlagen-“ (Trennstrich am Listenende), „ein
+nichtrechtsfähige“, „so genannte wesentlichen“, fehlende Klammer nach „Aufzüge“,
+„Leichenisch“ (Leichenich), „usw..“, fehlendes „wird“ nach „überlassen“, fehlendes „ist“
+nach „umsatzsteuerfrei“, „entscheiden“ (entschieden), „21. 6. 2017“, „Abs.2“, „§ 4 Nr. 12
+Satz 1 UStG Buchst. a“ (Reihenfolge), Punkt vor schließender Klammer, Leerzeichen in Klammern.
+
+**Weiter mit:** III.6.4 Umfang / Nebenleistungen (PDF-Seite 41).
+
 ### USt-Skript (Moecker), Block 8 Teil II: III.5.3.2 bis III.5.3.4
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-18` (III.5.3.2 Lieferung
