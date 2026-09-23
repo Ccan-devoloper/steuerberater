@@ -4270,13 +4270,13 @@
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 54,
-        "ig_reels_avg_watch_time": 14369,
-        "ig_reels_video_view_total_time": 589166,
-        "reels_skip_rate": 57.1
+        "views": 55,
+        "ig_reels_avg_watch_time": 14084,
+        "ig_reels_video_view_total_time": 591565,
+        "reels_skip_rate": 55.6
       },
-      "insightsStand": "2026-09-23T12:43:42.677Z",
-      "insightsAlterStunden": 17.5
+      "insightsStand": "2026-09-23T15:43:57.260Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-09-22",
@@ -4417,22 +4417,22 @@
       "medienId": "17964804906192255",
       "veroeffentlicht": "2026-09-23T09:45:39.698Z",
       "insights": {
-        "reach": 12,
-        "views": 17,
+        "reach": 19,
+        "views": 26,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 14,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 8,
+        "navigation": 23,
+        "navigation_tap_back": 2,
         "navigation_swipe_forward": 2,
-        "navigation_tap_back": 1
+        "navigation_tap_forward": 16,
+        "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-09-23T11:43:34.953Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-23T15:43:54.137Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-23",
@@ -4445,22 +4445,22 @@
       "medienId": "18014492765946124",
       "veroeffentlicht": "2026-09-23T09:45:50.127Z",
       "insights": {
-        "reach": 11,
-        "views": 15,
+        "reach": 21,
+        "views": 27,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_back": 1,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 7,
-        "navigation_swipe_forward": 1
+        "navigation": 25,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 15,
+        "navigation_tap_exit": 6,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-23T11:43:34.953Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-23T15:43:54.137Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-23",
