@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: II.7 und II.8
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-7` (II.7 § 4 Nr. 21 UStG
+Schulen und Lehrer nach der Neufassung durch das JStG 2024, Privatlehrer) und `ust-m-b08-2-8`
+(II.8 § 4 Nr. 22 UStG Vorträge, Kurse) für die PDF-Seiten 12 bis 16. Stand des USt-Skripts:
+9 Teile, 228 Kapitel, 3761 Blöcke, 201 Tabellen.
+
+**Darstellung:** Schaubild „Begünstigte Einrichtungen i. S. d. Bst. a“ als Tabelle mit den
+Kopfzeilen der Quelle.
+
+**Stillschweigend berichtigt:** überzähliges Schlusszeichen nach „berufliche Umschulung“,
+„Dies dürfte … der Fall.“ (der Fall sein), fehlende schließende Klammer nach „Abschn. 4.21.1
+UStAE“, „entscheiden“ (entschieden), „Sege-lunterricht“, „8 ff“, fehlender Punkt vor „Hiervon
+umfasst“, fehlende Klammer nach „XI R 6/19)“, Komma statt Punkt am Ende des Merke-Kastens,
+„Nicht unter die Steuerbefreiung … zum Beispiel Kurse“ (ergänzt: fallen), „Doppelbuchst bb)“,
+„Bu b“, „Bu c)“, „4.22.2.“, „B e g ü n s t i g t e   E i n r i c h t u n g e n“ (gesperrt).
+
+**Weiter mit:** Block 8 Teil II ab II.9 § 4 Nr. 28 UStG (PDF-Seite 17).
+
 ### USt-Skript (Moecker), Block 8 Teil II: II.4 bis II.6
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-4` (II.4 Heilberufe mit
