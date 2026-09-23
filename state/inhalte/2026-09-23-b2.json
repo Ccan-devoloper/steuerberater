@@ -1,0 +1,132 @@
+{
+  "format": "reel",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-226",
+  "szenen": [
+    {
+      "art": "hook",
+      "nummer": null,
+      "titel": "§ 15a UStG: Wann musst du berichtigen?",
+      "unter": "Nicht jede Nutzungsänderung wirkt gleich",
+      "text": "Erst Berichtigungsobjekt und Berichtigungszeitraum bestimmen.",
+      "norm": "§ 15a UStG",
+      "icon": "kreislauf",
+      "sprecher": "Vorsteuerabzug einmal geprüft – und damit erledigt? Nicht immer. Ändern sich die für den ursprünglichen Vorsteuerabzug maßgeblichen Verhältnisse, kann § 15a UStG eine Berichtigung verlangen. Entscheidend sind zuerst Berichtigungsobjekt und Zeitraum.",
+      "marken": [
+        "Objekt zuerst, *Rechnung danach*"
+      ],
+      "bildSzene": "tax asset entering adjustment timeline",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Berichtigungsobjekt einordnen",
+      "unter": "§ 15a Abs. 1 und 2 UStG",
+      "text": "Dauerhaft verwendetes Wirtschaftsgut oder nur einmalige Verwendung?",
+      "norm": "§ 15a Abs. 1–2 UStG",
+      "icon": null,
+      "sprecher": "Bei Wirtschaftsgütern, die nicht nur einmalig zur Ausführung eines Umsatzes verwendet werden, greift grundsätzlich Absatz 1. Für nur einmalig verwendete Wirtschaftsgüter enthält Absatz 2 eine eigene Berichtigungsregel.",
+      "marken": [
+        "Abs. 1: *laufende Nutzung*",
+        "Abs. 2: *einmalige Nutzung*"
+      ],
+      "bildSzene": "asset split between recurring and single use",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Berichtigungszeitraum festlegen",
+      "unter": "Fünf oder zehn Jahre",
+      "text": "Regelmäßig fünf Jahre; bei Grundstücken und bestimmten grundstücksbezogenen Wirtschaftsgütern zehn.",
+      "norm": "§ 15a Abs. 1 UStG",
+      "icon": null,
+      "sprecher": "Der Berichtigungszeitraum beträgt grundsätzlich fünf Jahre. Für Grundstücke einschließlich ihrer wesentlichen Bestandteile sowie bestimmte grundstücksbezogene Wirtschaftsgüter verlängert er sich auf zehn Jahre.",
+      "marken": [
+        "regelmäßig *5 Jahre*",
+        "Grundstücksfälle *10 Jahre*"
+      ],
+      "bildSzene": "five-year timeline extending to ten years",
+      "kreuz": false
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "§ 44 UStDV mitprüfen",
+      "unter": "Vereinfachungsgrenzen",
+      "text": "1.000-Euro-Grenze, 10-Prozentpunkte-Regel und 6.000-Euro-Jahresgrenze kennen.",
+      "norm": "§ 44 UStDV",
+      "icon": null,
+      "sprecher": "Dann kommt die Umsatzsteuer-Durchführungsverordnung: Liegt die Vorsteuer des Berichtigungsobjekts nicht über eintausend Euro, entfällt die Berichtigung. Bei Änderungen unter zehn Prozentpunkten gibt es eine weitere Vereinfachung – mit Gegenausnahme bei mehr als eintausend Euro Berichtigungsbetrag. Bis sechstausend Euro wird grundsätzlich in der Jahreserklärung berichtigt.",
+      "marken": [
+        "§ 44 UStDV = *Grenzen prüfen*"
+      ],
+      "bildSzene": "three threshold gates on adjustment path",
+      "kreuz": false
+    },
+    {
+      "art": "punkt",
+      "nummer": null,
+      "titel": "§ 45 UStDV: Monatsregel",
+      "unter": "Zeitanteil sauber rechnen",
+      "text": "Anschaffungs- oder Verwendungsmonat zählt nur, wenn Beginn vor dem 16. liegt.",
+      "norm": "§ 45 UStDV",
+      "icon": null,
+      "sprecher": "Für die Zeitanteile hilft § 45 UStDV: Beginnt der Berichtigungszeitraum innerhalb eines Kalendermonats, wird dieser Monat nur einbezogen, wenn der Beginn vor dem sechzehnten Tag liegt.",
+      "marken": [
+        "vor dem 16. = *Monat zählt*"
+      ],
+      "bildSzene": "calendar page crossing midmonth marker",
+      "kreuz": false
+    },
+    {
+      "art": "cta",
+      "nummer": null,
+      "titel": "Prüfreihenfolge sichern",
+      "unter": null,
+      "text": "Objekt → Zeitraum → Änderung → UStDV-Grenzen → Berichtigungsbetrag.",
+      "norm": "§ 15a UStG · §§ 44, 45 UStDV",
+      "icon": null,
+      "sprecher": "Merke dir die Reihenfolge: Berichtigungsobjekt, Zeitraum, Änderung der Verhältnisse, Vereinfachungsgrenzen der UStDV und erst dann der konkrete Berichtigungsbetrag.",
+      "marken": [
+        "Objekt → Zeitraum → *Grenzen*"
+      ],
+      "bildSzene": "five-step VAT adjustment checklist",
+      "kreuz": false
+    }
+  ],
+  "caption": "§ 15a UStG wird übersichtlich, wenn du nicht sofort rechnest. Prüfe zuerst das Berichtigungsobjekt, dann den Berichtigungszeitraum – regelmäßig fünf Jahre, in den grundstücksbezogenen Fällen zehn Jahre. Danach kommt die Änderung der maßgeblichen Verhältnisse. Erst anschließend prüfst du die Vereinfachungsgrenzen des § 44 UStDV und die Monatsregel des § 45 UStDV. So bleibt die Vorsteuerberichtigung in der Klausur strukturiert.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#umsatzsteuer",
+    "#ustg",
+    "#vorsteuer",
+    "#vorsteuerberichtigung",
+    "#15austg",
+    "#examensvorbereitung"
+  ],
+  "kurztitel": "§ 15a UStG: Vorsteuer richtig berichtigen",
+  "coverText": "Erst Objekt, dann Zeitraum",
+  "bildSzene": "VAT asset on adjustment timeline",
+  "bildSzeneAlt": "tax correction gates across five-year path",
+  "quellen": [
+    "§ 15a UStG",
+    "§ 44 UStDV",
+    "§ 45 UStDV"
+  ],
+  "hookTyp": "frage",
+  "hookMuster": "pruefreihenfolge",
+  "bildregie": true,
+  "slug": "2026-09-23-b2",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-23",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-23T04:24:00.000Z"
+}
