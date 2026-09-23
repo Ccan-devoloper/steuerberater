@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.5.5 bis I.7
+
+Kein Drive-Versuch mehr (auf Wunsch des Nutzers zurückgestellt). In
+`src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-32` (I.5.5 Konsequenzen für
+deutsche Unternehmer im Dreiecksgeschäft), `ust-m-b08-1-33` (I.6 grenzüberschreitende
+Güterbeförderungen und andere sonstige Leistungen, drei Frachtführer-Beispiele, EuGH C-288/16)
+und `ust-m-b08-1-34` (I.7 Umsatzsteuerlager) für die PDF-Seiten 54 bis 57. Stand des
+USt-Skripts: 8 Teile, 197 Kapitel, 3406 Blöcke, 171 Tabellen.
+
+**Quellbefund (markiert):** I.7 nennt im selben Satz das „JStG 2024“ als abschaffendes Gesetz
+und „Art. 15 des JStG 2026“.
+
+**Stillschweigend berichtigt:** fehlender Punkt nach „zwingend erforderlich“, „§ 25 b“,
+„§ 18 a“, „dessen Name und Anschrift aufzeichnen“ (aufzuzeichnen), „einbezogen wird … bzw.
+werden könnte“ (Plural), „stehen bezieht“ (stehen), „entscheiden“ (entschieden), „„L.Č““,
+„erbrachte Dienstleistungen ist“ (Dienstleistung), „Abschnitte 4.3.3. bis 4.5.5.“, „§§ 20,21“,
+„Versendung oder Beförderungen“ (Beförderung), fehlender Punkt nach „AP 46)“, Leerzeichen in
+Klammern.
+
+**Weiter mit:** Block 8 Teil I ab I.8 Lieferungen vor der Einfuhr (PDF-Seite 57).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.5.3 und I.5.4
 
 Drive meldete weiterhin „session expired“ (zweimal versucht). In
