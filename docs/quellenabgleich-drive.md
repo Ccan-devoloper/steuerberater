@@ -10623,6 +10623,31 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: II.1 bis III.
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-10` (II.1 Tausch – Grundsätze),
+`ust-m-b10-11` (II.2 BMG beim Tausch, Beispiel Schrank gegen TV-Gerät), `ust-m-b10-12` (II.2.1
+Inzahlungnahme, Beispiel Eisele / Liebling; II.2.2 Verweis) und `ust-m-b10-13` (III.
+Mindestbemessungsgrundlage) für die PDF-Seiten 88 bis 91. Stand des USt-Skripts: 11 Teile, 346 Kapitel, 4901 Blöcke, 271 Tabellen.
+
+**Aus Bildern übertragen:** Schaubild Tausch / tauschähnlicher Umsatz / Baraufgabe (PDF-Seite
+88), Schaubild und Hinweis zur Mindestbemessungsgrundlage (PDF-Seite 91; die Seite enthält
+sonst nur die Einleitungszeile).
+
+**Quellenfehler (im Text markiert):**
+- Lösung zum Tausch: „Lieferung des Radiogeräts“; gemeint das TV-Gerät.
+- „nicht der gemeine Wert der Gegenleistung 1.071 Euro“; 1.071 € sind die Anschaffungskosten
+  des Elektrohändlers, der Einzelveräußerungspreis des TV-Geräts beträgt 1.428 €.
+
+**Nachgerechnet (eigene Ergänzung):** Tausch 1.000 € / 190 € und 900 € / 171 € – stimmt;
+Eisele USt 22.033,61 €, Liebling 7.344,54 € – stimmt.
+
+**Stillschweigend berichtigt:** Leerzeichen vor Komma „(z.B. Profi-Verein) ,“, „betrug brutto
+1071“, „des TV-Gerät“, „1.000, - €“, „zu leistende Zuzahlung“, „138.000, - €“, „für des
+Gebrauchtwagen“, Tabelle der Baraufgabe mit „138.000,- €“.
+
+**Weiter mit:** IV. Reiseleistungen gem. § 25 UStG (PDF-Seite 92).
+
 ### USt-Skript (Moecker), Block 10: I.4.2 bis I.5
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-7` (I.4.2 Preisauffüllung,
