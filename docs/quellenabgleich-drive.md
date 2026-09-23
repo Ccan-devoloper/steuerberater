@@ -10623,6 +10623,33 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 fortgesetzt (II.5.3 bis II.8)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-11` (II.5.3 bauleistender Leistungsempfänger: 10-%-Grenze, USt 1 TG, Bauträger,
+Organschaft, Wohnungseigentümergemeinschaft, nichtunternehmerischer Bereich), `ust-m-b06-12`
+(II.5.4 Vereinfachungsregelung, II.6 Elektrizität und Gas mit Galvanikbetrieb in Wuppertal)
+und `ust-m-b06-13` (II.7 Schrotthandel, II.8 Gebäudereinigung) für die PDF-Seiten 30 bis 36.
+Stand des USt-Skripts: 6 Teile, 120 Kapitel, 2488 Blöcke, 126 Tabellen.
+
+**Quellbefunde:** Die Vertrauensschutzregel bei irrtümlich angenommener Bauleistung wird in
+II.5.1 als „§ 13b Abs. 5 Satz 7“, in II.5.4 als „Satz 8“ zitiert; II.5.3 nennt Satz 7 zugleich
+für den Bezug für den nichtunternehmerischen Bereich (in II.5.4 als Widerspruch markiert). Die
+Ausnahme bei Differenzbesteuerung wird in II.3 (Sicherungsgut) als „Satz 9“, in II.7 (Schrott)
+als „Satz 10“ zitiert; „Satz 9“ steht außerdem für die Kleinunternehmerregel (II.5.3, II.8).
+Die Satzzählung wurde nicht nachgeprüft und bleibt unverändert.
+
+**Stillschweigend berichtigt:** „Umsatzsteuerausfälle“ (Dativ Plural), „ist nach Absatz 4 ist“,
+„selbst wenn sie … bezieht“ (beziehen), fehlende Klammer nach „13b.2 Abs. 7 Nr. 17 UStAE“,
+„fremden Grund und Boden“ (fremdem), „Anbauten Renovierungen“ (Komma), fehlendes Anführungszeichen
+bei „10-%-Grenze“, „§ 13 Abs. 2 Nr. 4“ in der WEG-Lösung (§ 13b), „Nichtunternehmerischen“,
+„(z.B. die Eigenschaft als Bauleistender).“ (ergänzt: erfüllt sind), „Elektrizität ,“,
+„Unter-nehmer“, fehlender Punkt nach „13b.3a Abs. 2 UStAE)“, „Biogas- Blockheizkraftwerke“, „im
+übrigen“, „die Möglichkeit eine“ (Komma), fehlende Klammer nach „Abs. 3 S. 3 UStAE“,
+„genannten Gegenstände“ (Gegenständen), „13b.3UStAE“.
+
+**Noch offen in Block 6:** ab II.9 (PDF-Seite 37 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 6 fortgesetzt (II.3 bis II.5.2)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
