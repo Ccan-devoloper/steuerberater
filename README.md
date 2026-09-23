@@ -2408,7 +2408,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Ausschlussgegenständen, Freihäfen, Steuerbefreiungen nach § 4b UStG, Bemessungsgrundlage
   und Steuerentstehung, Vorsteuerabzug, territorialen Begriffen und Brexit (vollständiger
   Textteil I bis VIII und Arbeitspapiere A 1 bis A 12 vollständig in 23 Kapiteln),
-  Block 8 Teil I (Steuerfreie Umsätze mit Vorsteuerabzug) begonnen mit Überblick und
+  Block 8 Teil I (Steuerfreie Umsätze mit Vorsteuerabzug) vollständig mit Überblick und
   Ausfuhrlieferungen nach § 6 Abs. 1 Nr. 1 und 2 UStG einschließlich ausländischem Abnehmer
   und Zweigniederlassungen, Freihafenfällen, Ausfuhren im Reihengeschäft, zwischengeschalteter
   Be- oder Verarbeitung, den Einschränkungen nach § 6 Abs. 3 und 3a UStG und der
@@ -2417,8 +2417,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Erwerbsbesteuerung, USt-IdNr., Buch- und Belegnachweis, Vertrauensschutz und sonstigen
   Vorschriften, innergemeinschaftlichen Reihengeschäften und dem Dreiecksgeschäft nach
   § 25b UStG, grenzüberschreitenden Güterbeförderungen, Umsatzsteuerlager, Lieferungen vor der
-  Einfuhr und § 4 Nr. 7 UStG (vollständiger Textteil) sowie Arbeitspapieren A 1 bis A 43
-  (54 Kapitel; weitere Arbeitspapiere folgen).
+  Einfuhr und § 4 Nr. 7 UStG (vollständiger Textteil) sowie Arbeitspapieren A 1 bis A 50
+  (57 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

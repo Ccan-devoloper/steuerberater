@@ -10623,6 +10623,33 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I abgeschlossen: Arbeitspapiere A 44 bis A 50
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-55` (A 44 Lösungsvergleich
+Reihen-/Dreiecksgeschäft, A 45 praktische Konsequenzen), `ust-m-b08-1-56` (A 46 bis A 48
+Umsatzsteuerlager mit fünf Oliven-Fällen) und `ust-m-b08-1-57` (A 49 und A 50 Lieferungen vor der
+Einfuhr, Zolllager Nürnberg) für die PDF-Seiten 105 bis 111. **Block 8 Teil I ist damit
+vollständig** (Textteil I.1 bis I.9 und Arbeitspapiere A 1 bis A 50, 57 Kapitel). Stand des
+USt-Skripts: 8 Teile, 220 Kapitel, 3671 Blöcke, 199 Tabellen.
+
+**Nachgerechnet (eigene Ergänzung):** Fall 1 USt-Lager: 107 € : 1,07 = 100 € BMG, 7 € USt;
+Auslagerung 50 € × 7 % = 3,50 € – stimmt.
+
+**Quellbefund (markiert):** A 49 trägt die Gliederungsnummer „6.“, obwohl „6.“ schon das
+Dreiecksgeschäft (A 42) ist und A 46 bereits „7.“ war.
+
+**Darstellung:** A 44 als dreispaltige Tabelle; Kursiv-/Fettdruck (Reihen- bzw.
+Dreiecksgeschäft) ist in der Textextraktion nicht erkennbar, die Zuordnung folgt der Reihenfolge
+der Pfeilzeilen (vermerkt). A 46 und A 50 als Tabellen (Spaltenköpfe eigene Ergänzung).
+
+**Stillschweigend berichtigt:** „Ewerb“, „Steuerrschuldner“, „an E. F und G“ (E, F und G),
+„verkauft Maschine“ (verkaufte), „Regelung)“, „( USt-Lager) )“, „USt - Lager“, „innergem .“,
+„i.V. § 3d S. Satz 2 i.V.“ (i.V.m. § 3d Satz 2 i.V.m.), „USt - VA“, „-§ 25b (6) 1-“,
+„§13a“, „(16)UStAE“, „W a r e n b e w e g u n g“.
+
+**Weiter mit:** USt-Skript Block 8 Teil II (Steuerfreie Umsätze ohne Vorsteuerabzug, Datei
+„b08-2“, 101 PDF-Seiten, Vers. II/2026, Red. 07.26).
+
 ### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 37 bis A 43
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-52` (A 37 Verwendung der
