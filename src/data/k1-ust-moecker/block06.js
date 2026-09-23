@@ -4,7 +4,7 @@
    Gutscheine – Vers. I 2026, Red. 04-26, Titelblatt Mai 2026), PDF-Seiten 2 bis 96
    der gemeinsamen Datei für die Blöcke 6 und 7 (130 PDF-Seiten).
    In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere (PDF-Seiten 62 bis 96)
-   bis Seite 7. */
+   bis Seite 14. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 05/2026";
@@ -999,6 +999,65 @@ export const block06 = [
       { text: "Bei **anderen Leistungsempfängern** (z.B. B2C-Bereich) gilt für LU ➔ **allgemeines Besteuerungsverfahren** (Zuständigkeits-VO beachten)." },
       { text: "**Hinweis:** ❖ Berechnung der USt nach allg. Vorschriften ❖ § 19 (Steuerfreiheit) & § 24 (Pauschalierung) gelten nicht." },
       { text: "**Rechnungserteilung durch LU – § 14 (7) u. § 14a (5) –:** ❖ Für LU aus EU gilt gem. § 14 Abs. 7 UStG **Recht des Sitzstaates** ❖ LU aus Drittland oder DE gem. § 14a Abs. 5 UStG verpflichtet zur Rechnungserteilung mit Hinweis **„Steuerschuldnerschaft des Leistungsempfängers“** (fehlt Hinweis = keine Auswirkung, Abschn. 13b.14 UStAE) ❖ **Steuerausweis jedoch nicht zulässig** (sonst = **Straf-USt gem. § 14c Abs. 1 UStG** für LU)." },
+    ],
+  },
+  {
+    id: "ust-m-b06-29",
+    teil: TEIL,
+    kapitel: "29",
+    abschnittNr: "Arbeitspapiere Seite 8 bis 14",
+    title: "Arbeitspapiere Seite 8 bis 14: Vorsteuerabzug und Voranmeldungen, Grundstücksumsätze, Bauleistungen (Kurzübersicht, Positiv-/Negativliste, Leistungsempfänger, Fensterhändler-Beispiel) sowie Elektrizität und Gas",
+    thema: "Zeit- und betragsidentischer Vorsteuerabzug nach § 15 Abs. 1 Nr. 4 UStG, Voranmeldepflicht nach § 18 Abs. 4a UStG, Tatbestände des § 13b Abs. 2 Nr. 3 UStG mit Option, Kurzübersicht WER–WAS–an WEN bei Bauleistungen, Positiv- und Negativliste, bauleistende Leistungsempfänger, Handhabungsschutz, Beispiel Händler für Fenster und Türen und Übersicht zu § 13b Abs. 2 Nr. 5 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere Seite 8 bis 14"),
+    verfasser: VERFASSER,
+    normen: ["§ 3g Abs. 1 und 2 UStG", "§ 9 Abs. 1 bis 3 UStG", "§ 13b Abs. 1, Abs. 2 Nr. 1, 3, 4, 5a und 5b UStG", "§ 13b Abs. 5 Sätze 1 bis 4, 7 und 8 UStG", "§ 14a Abs. 5 UStG", "§ 15 Abs. 1 Nr. 4 UStG", "§ 18 Abs. 4a Satz 1 UStG", "§§ 19, 24 UStG", "Abschn. 10.1 Abs. 7 Sätze 6 und 7 UStAE", "Abschn. 13b.2 Abs. 5 bis 8 UStAE", "Abschn. 13b.3 Abs. 3 bis 5 UStAE", "Abschn. 13b.8 UStAE", "Abschn. 13b.15 UStAE"],
+    themen: ["Steuerschuldnerschaft", "Vorsteuerabzug", "Grundstückslieferung", "Bauleistung", "Elektrizität", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier Seite 8" },
+      { text: "**Vorsteuerabzug durch LE – § 15 Abs. 1 Nr. 4 UStG** ==> **Zeit- und betragsidentischer Vorsteuerabzug** (Abschn. 13b.15 UStAE): ✓ auch **ohne Rechnung** ✓ auch **ohne Bezahlung** ✓ Für Unternehmer mit **Ausschlussumsätzen** ist der Ausschluss vom Vorsteuerabzug bzw. die Aufteilung der Vorsteuer zu beachten. ✓ **Kleinuntern.** (wegen Ausschluss) und **L.u.F.** (persönlich) **nicht zum Vorsteuerabzug berechtigt**." },
+      { text: "**Abgabe von Voranmeldungen – § 18 (4a) S. 1 UStG –:** Auch Unternehmer / juristische Personen haben **USt-VA und eine Steuererklärung** abzugeben, soweit sie als LE **ausschließlich eine USt nach § 13b UStG** zu entrichten haben." },
+      { typ: "titel", text: "Arbeitspapier Seite 9 – 2.3 Umsätze, die unter das GrEStG fallen – § 13b (2) Nr. 3 –" },
+      { text: "**Tatbestände des § 13b Abs. 2 Nr. 3 UStG:** durch Option steuerpflichtige ➢ **Lieferungen von Grundstücken**, ➢ **Übertragung Miteigentumsanteil an Grundstück**. **!!! Also nicht bei Geschäftsveräußerungen (GiG)** (vgl. unter Punkt 3), z.B. Übertragung vermieteter oder verpachteter Immobilien sind jeweils eine GiG." },
+      { text: "**Nur bei wirksamer Option** (ausführlich in Block 08 Teil II): Option gem. **§ 9 Abs. 1 UStG** nur möglich, wenn **LE ein Unternehmer** ist und Grundstück **für sein Unternehmen** erwirbt. **Unerheblich:** ➢ ob LE nur steuerfreie Tätigkeit ausführt (z.B. Hausvermieter, Arzt, Versicherung) ➢ ob Kleinunternehmer (§ 19 UStG) ➢ ob pauschalverst. Land- und Forstwirt (§ 24 UStG). **Hinweis:** **§ 9 Abs. 2 UStG gilt bei der Lieferung von Grundstücken nicht**; nur bei V.u.V. Die Option muss gem. **§ 9 (3) S. 2 UStG im Notarvertrag** erklärt werden." },
+      { text: "**Beachte:** ➔ Auf die **BMG (= Kaufpreis lt. Notarvertrag)** ist die **USt aufzuschlagen** (die GrESt gehört gem. A 10.1 Abs. 7 Satz 6 u. 7 UStAE **nicht zur BMG**). ➔ Vorst grundsätzlich für LE **zeitgleich, betragsgleich**." },
+      { typ: "titel", text: "Arbeitspapier Seite 10 – 2.4 Bestimmte Bauleistungen – § 13b (2) Nr. 4 – Kurzübersicht" },
+      { text: "Die Kurzübersicht ist als gegliederter Text wiedergegeben." },
+      { text: "**WER:** Grds. **jeder Unternehmer** (der steuerpflichtige Umsätze im Sinne des Absatz 2 Nr. 4 erbringt). **Beachte!** Ausländische Untern. bereits **§ 13b Abs. 2 Nr. 1 UStG**." },
+      { text: "**Erbringt WAS:** ➔ **Werklieferungen** (sog. Montagewerklieferungen) & **grundstücksbezogene sonstige Leistungen** ➔ **an Bauwerke**. **!!** In die **Substanz des Bauwerks** eingreifen (Herstellung, Reparatur, Änderung, Beseitigung)." },
+      { text: "**An WEN:** der **vom TYP her seinerseits ➔ Bauleistungen erbringt** (§ 13b Abs. 5 Satz 2 UStG). **Unbedeutend:** Warum und Wozu. **Auch für ➔ private Zwecke** – § 13b Abs. 5 Satz 7 UStG –." },
+      { text: "**Sogenannte BAULEISTUNGEN:** **Werklieferungen und sonstige Leistungen** (insbes. Reparaturen), die der • **Herstellung** • **Instandsetzung** • **Instandhaltung** • **Änderung** • **Beseitigung** von Bauwerken dienen (• Gebäude • Brücken • Straßen • Tunnel)." },
+      { typ: "titel", text: "Arbeitspapier Seite 11" },
+      { text: "**Ausnahme durch Gesetz:** – **Planungsarbeiten** (Statiker, Architekt, Vermessung) – **Überwachungsarbeiten** (Bauaufsicht, Abrechnung)." },
+      { typ: "tabelle", spalten: ["Positiv-Liste – A 13b.2 Abs. 5 UStAE", "Negativ-Liste – A 13b.2 Abs. 6 & 7 UStAE"], zeilen: [
+        ["• Bau- und Bauhandwerkerleistungen • Einbau von z.B. Fenster / Türen, Bodenbelägen (z.B. Fliesen), Rolltreppe, Heizung, Einrichtungsgegenstände (Ladeneinbau, Schaufenster) • Erhaltungsaufwendungen i.S.v. Reparaturleistungen, Wartungsarbeiten • Erdaushub Baugrube • Oberflächenreinigung: Sandstrahlen, Abschleifen • Aufhängen und Anschließen von Beleuchtungssystemen • Lieferung maschineller Anlagen mit aufwendiger Installation", "• Nur Materiallieferungen (auch Anliefern von Beton) • Nur Gerätevermietung • Entsorgung von Baumaterial (z.B. Containerdienst) • Gerüstbau • Anlegen von Gärten (nicht Wege als Bauwerk) • Nur Überlassung Personal • Raum-/Fensterreinigung • Sämtliche Reparatur- oder Wartungsarbeiten bis netto 500 Euro • Lief. von Maschinen ohne aufwendige Installation"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier Seite 12 – ➔ Welche Leistungsempfänger – § 13b (5) S. 2 UStG" },
+      { typ: "tabelle", spalten: ["RC-Verfahren, wenn", "Anmerkung"], zeilen: [
+        ["• unternehmerischer LE,", "=> nicht Privatpersonen => Problem Eheleute & GbR, OHG, KG"],
+        ["• der selbst (vom Typ her) derartige Bauleistungen nachhaltig erbringt; liegt vor, wenn LE Bauleistungen von mehr als 10 % erbracht hat oder erbringt oder Bescheinigung des FA (USt 1 TG) besitzt", "=> nicht branchenfremde Unternehmer => nicht (nur) Bauträger => LU kann dann vom Typ ausgehen – Abschn. 13b.3 Abs. 3 bis 5 UStAE"],
+        ["• unmittelbarer Zusammenhang zu einem Bauobjekt nicht notwendig", "=> z.B. Dachdecker lässt sein Büro fliesen"],
+        ["• auch bei Bezug für nichtunternehmerischen Bereich", "=> z.B. Dachdecker lässt sein EFH fliesen"],
+      ] },
+      { text: "Der Spaltenkopf „Anmerkung“ ist eigene Ergänzung zur Darstellung; die Quelle ordnet die Hinweise mit „=>“ rechts neben den Voraussetzungen an." },
+      { text: "Bei **anderen Leistungsempfängern** (z.B. Privatpersonen, Hausvermietern, Freiberufler, sonstige Gewerbetreibende) gilt (= **allgemeines Besteuerungsverfahren**)." },
+      { text: "➔ **In Zweifelsfällen § 13b (5) S. 8 UStG / A 13b.8 UStAE –:** Vorliegen einer Bauleistung der Art nach **zweifelhaft**, aber (LU und LE) sind hierüber **einig** ➔ LE versteuert (schuldet USt und hat grds. Vorst) (versteuert = angemeldet) ➔ dann **nicht zu beanstanden (Handhabungsschutz)**." },
+      { typ: "titel", text: "Arbeitspapier Seite 13 – ➔ Beispiel: Händler für Fenster und Türen (LU)" },
+      { typ: "tabelle", spalten: ["verkauft Fenster ab Werk", "reinigt Fenster", "verkauft Maßfenster mit Einbau / repariert eingebaute Fenster"], zeilen: [
+        ["Keine Leistung i.S. § 13b (2) 4", "Keine Leistung i.S. § 13b (2) 4", "Leistungen nach § 13b Abs. 2 Nr. 4 UStG"],
+      ] },
+      { typ: "tabelle", spalten: ["an (LE): Vermieter, Steuerberater, reiner Bauträger", "an (LE): Privatperson", "an (LE): Bauunternehmer, Baumonteur, Fensterbauer, andere Untern. aus Baubranche"], zeilen: [
+        ["➔ kein § 13b", "➔ kein § 13b", "➔ § 13b (5) S. 2: für das Unternehmen ➔ § 13b-Fall (USt) ➔ Vorst § 15 (1) 4; für den Privatbereich ➔ § 13b-Fall (USt) ➔ keine Vorst. Abrechnung durch LU immer ohne USt (netto) (Rechnungsinhalt vgl. § 14a Abs. 5 UStG)"],
+      ] },
+      { text: "**Beachte:** **Reiner Bauträger** (Bauen auf eigenem GruBo und Verkauf; auch Verkauf GruBo mit Errichtungsverpflichtung) ➔ **Händler, kein Bauleistender**. **Mischbauträger** (Bauen auch auf fremdem GruBo > 10 % Umsatz) ➔ **Bauleistender**. Vergleiche Abschn. 13b.2 Abs. 8 UStAE (so in der Quelle; im Textteil II.5.3 wird hierfür Abschn. 13b.3 Abs. 8 UStAE genannt)." },
+      { text: "Das Beispiel Seite 13 ist in zwei Tabellen wiedergegeben; die Zuordnung der Leistungsempfänger zu den Ergebnissen folgt der Anordnung im Schaubild der Quelle." },
+      { typ: "titel", text: "Arbeitspapier Seite 14 – 2.5 Elektrizität, Gas, Wärme, Kälte – § 13b (2) Nr. 5 –" },
+      { typ: "tabelle", spalten: ["An Wiederverkäufer", "An Endverbraucher: Unternehmer", "An Endverbraucher: Privat"], zeilen: [
+        ["Ort = Sitz des LE, § 3g (1) UStG; stbar und stpflichtig", "Ort = am Zähler, § 3g (2) UStG; stbar und stpflichtig", "Ort = am Zähler, § 3g (2) UStG; stbar und stpflichtig"],
+        ["➔ Wenn LU Ausländer: § 13b (2) Nr. 5a, § 13b (5) S. 1 – LE Schuldner (vgl. hierzu Bsp. 1)", "➔ Wenn LU Ausländer: § 13b (2) Nr. 5a – LE Schuldner", "LU ist immer Steuerschuldner"],
+      ] },
+      { text: "Im Schaubild der Quelle gilt „Ort = am Zähler, § 3g (2) UStG; stbar und stpflichtig“ für beide Endverbraucher-Spalten gemeinsam; in der Tabelle ist die Angabe in beiden Spalten wiederholt (Darstellungsergänzung)." },
+      { text: "➔ **Wenn LU Inländer & Lieferung** ⧫ **Gas** § 13b (2) 5b und **LE ist Wiederverkäufer** – § 13b (5) S. 3 ⧫ **Elektrizität** § 13b (2) 5b und **LU und LE sind Wiederverkäufer** – § 13b (5) S. 4 (also **nicht PV- oder KWK-Anlage**) ➔ **LE Schuldner** (vgl. hierzu Bsp. 2)." },
     ],
   },
 ];

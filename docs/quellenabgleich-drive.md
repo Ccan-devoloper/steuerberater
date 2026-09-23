@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6: Arbeitspapiere Seite 8 bis 14
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neues Kapitel
+`ust-m-b06-29` für die PDF-Seiten 69 bis 75: Vorsteuerabzug und Voranmeldungen (Seite 8),
+Grundstücksumsätze (Seite 9), Bauleistungen mit Kurzübersicht (Seite 10, gegliederter Text),
+Positiv-/Negativliste (Seite 11), Leistungsempfänger und Handhabungsschutz (Seite 12),
+Fensterhändler-Beispiel (Seite 13, zwei Tabellen) sowie Elektrizität und Gas (Seite 14). Gelesen
+am Layout-Auszug der PDF-Seiten; ergänzte Spaltenköpfe und wiederholte Tabelleneinträge sind
+im Kapitel als Darstellungsergänzung vermerkt. Stand des USt-Skripts: 6 Teile, 136 Kapitel, 2729 Blöcke, 137 Tabellen.
+
+**Quellbefund (markiert):** Seite 13 verweist für reine Bauträger und Mischbauträger auf
+„Abschn. 13b.2 Abs. 8 UStAE“; im Textteil (II.5.3) steht dafür Abschn. 13b.3 Abs. 8 UStAE.
+
+**Stillschweigend berichtigt:** „Kleinuntern“, „Umsätze die unter“ (Komma), „zeitgleich
+betragsgleich“ (Komma), „werklieferungen .)“, „§13b“, „Grubo“, „Wiederverkäufer.§13b“,
+gesperrte Schrift („K u r z ü b e r s i c h t“, „W E R“, „T Y P“, „w e n n“).
+
+**Noch offen in Block 6:** Arbeitspapiere ab Seite 15 (PDF-Seite 76 ff.).
+
 ### USt-Skript (Moecker), Block 6: Arbeitspapiere Seite 1 bis 7
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neues Kapitel
