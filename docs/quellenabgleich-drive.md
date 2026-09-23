@@ -10623,6 +10623,20 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: IV.4.3 bis VI.1
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-27` (IV.4.3 allgemeiner Aufwand,
+Homepage-Beispiel), `ust-m-b11-28` (V Ausnahmen nach § 15 Abs. 3 UStG mit Mexiko-Beispielen) und
+`ust-m-b11-29` (VI/VI.1 Aufteilung, drei Fallgruppen als Tabelle) für die PDF-Seiten 47 bis 50.
+Keine Bilder auf diesen Seiten. Stand des USt-Skripts: 12 Teile, 434 Kapitel, 6057 Blöcke, 313 Tabellen.
+
+**Stillschweigend berichtigt:** „In § 15 Abs. 3 UStG sind näher bestimmte steuerfreie Umsätze, die …“
+(ergänzt „aufgeführt“), „(  lesen)“, „Nr. 1 a“, „Offshore -Steuerabkommen“, „NATO - Truppenstatut“,
+„§ 4 Nr. 10 a“, „in der DE“, „Umsätzen verwendet, die“ (ergänzt „werden“), „Wareneinkäufe“, „( nicht
+abziehbar)“.
+
+**Weiter mit:** VI.2 Aufteilungsmethode & Aufteilungsvolumen (PDF-Seite 50).
+
 ### USt-Skript (Moecker), Block 11: IV bis IV.4.2
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-24` (IV/IV.1/IV.2 Ausschluss,

@@ -4,7 +4,7 @@
    Vers. 01.01.2026 / Stand 11-25“ bzw. „Block 11-Vorst-Vers.01.01.26 - Red.11-25“, PDF-Seiten 2 bis
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
-   In Arbeit: eingepflegt bis IV.4.2 (fiktive steuerfreie Umsätze), PDF-Seiten 2 bis 46. */
+   In Arbeit: eingepflegt bis VI.1 (Aufteilung von Vorsteuerbeträgen, Allgemeines), PDF-Seiten 2 bis 50. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -873,6 +873,81 @@ export const block11 = [
       { text: "**Lösung:** Die dem niederländischen Arzt in Rechnung gestellte deutsche USt ist gemäß § 15 Abs. 2 Nr. 2 UStG **vom Vorsteuerabzug ausgeschlossen**, da der Arzt nicht steuerbare Umsätze im Ausland tätigt (analoge Anwendung des § 3a Abs. 1 UStG), die nach **§ 4 Nr. 14a UStG steuerfrei** wären, wenn sie im Inland ausgeführt worden wären." },
       { text: "**Beispiel:** Ein Unternehmer mit Sitz in **Aachen** ist Eigentümer eines **Geschäftshauses in Basel**. Dieses Haus ist an mehrere **schweizerische Unternehmer steuerpflichtig vermietet**, die dort ihre Büros eingerichtet haben. Der Vermieter erwirbt im Inland einen **Computer** zur Verwaltung des Objekts in Basel. Er erhält eine Rechnung mit offenem Steuerausweis." },
       { text: "**Lösung:** Bezieht ein Unternehmer im Inland Leistungen, die er im Ausland für eine Grundstücksvermietung verwendet, ist nach § 15 Abs. 2 Nr. 2 UStG zu prüfen, ob die Grundstücksvermietung steuerfrei (vorsteuerabzugsschädlich) wäre, wenn sie im Inland ausgeführt würde. Dies bestimmt sich nach den Vorschriften des **§ 4 Nr. 12 Buchst. a UStG und des § 9 UStG**. Die Grundstücksvermietung wäre im Inland **nicht steuerfrei** gewesen, wenn der Grundstücksvermieter die Grundstücksvermietung im Ausland **tatsächlich als steuerpflichtig behandelt** hat und die **Voraussetzungen des § 9 UStG** für den Verzicht auf die Steuerbefreiung einer Grundstücksvermietung vorlagen (Abschn. 15.14 Abs. 1 S. 3 ff UStAE)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-27",
+    teil: TEIL,
+    kapitel: "27",
+    abschnittNr: "IV.4.3",
+    title: "IV.4.3 Fehlender direkter und unmittelbarer Zusammenhang (Allg. Aufwand)",
+    thema: "Vorsteuerabzug aus allgemeinen Aufwendungen als Preisbestandteil, Zurechnung nach dem geförderten Unternehmensbereich (Beispiel Homepage mit kostenlosen Versicherungstipps eines Kfz-Händlers und Versicherungsvermittlers)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("IV.4.3"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 2 UStG", "§ 3 Abs. 1b und 9a UStG", "§ 4 Nr. 11 UStG", "Abschn. 15.2b Abs. 2 UStAE", "Abschn. 15.15 UStAE"],
+    themen: ["Vorsteuerabzug", "Allgemeine Aufwendungen", "Ausschluss vom Vorsteuerabzug"],
+    bloecke: [
+      { typ: "titel", text: "IV.4.3 Fehlender direkter und unmittelbarer Zusammenhang (Allg. Aufwand)" },
+      { text: "Nach **Abschn. 15.15 UStAE** ist bei jedem Leistungsbezug zu prüfen, ob der Leistungsbezug für das Unternehmen erfolgt und der Unternehmer beabsichtigt, die Eingangsleistung zur Erzielung von zum Vorsteuerabzug berechtigenden bzw. nicht berechtigenden Ausgangsumsätzen zu verwenden (Frage nach dem Ausschluss bzw. der Abziehbarkeit des Vorsteuerabzugs)." },
+      { text: "Beabsichtigt der Unternehmer bereits bei Leistungsbezug, die bezogene Leistung nicht für seine unternehmerische Tätigkeit, sondern ausschließlich und unmittelbar für der Art nach **unentgeltliche Wertabgaben** im Sinne des § 3 Abs. 1b oder 9a UStG zu verwenden, ist er **nicht zum Vorsteuerabzug berechtigt** (vgl. hierzu Punkt I.3.2)." },
+      { text: "Fehlt ein direkter und unmittelbarer Zusammenhang zwischen einem Eingangsumsatz und einem oder mehreren Ausgangsumsätzen, kann der Unternehmer zum Vorsteuerabzug berechtigt sein, wenn die Kosten für die Eingangsleistungen zu seinen **allgemeinen Aufwendungen** gehören und – als solche – **Bestandteile des Preises** der von ihm erbrachten entgeltlichen Leistungen sind (vgl. Abschn. 15.15 Abs. 1 und Abschnitt 15.2b Abs. 2 UStAE)." },
+      { text: "**Beispiel** (Abschn. 15.15 Abs. 2 Beisp. 1 UStAE): Unternehmer U betreibt einen **Kfz-Handel** und eine **Versicherungsvermittlungsagentur**. Aus der Versicherungsagentur erzielt der Unternehmer ausschließlich nach **§ 4 Nr. 11 UStG steuerfreie** Ausgangsumsätze. U lässt sich gegen Honorar eine **Internet-Homepage** gestalten, auf der er zu Werbezwecken und zur Kundengewinnung für seine Versicherungsagentur **kostenlose Versicherungstipps** gibt. Auf der Internetseite findet sich auch ein Kontaktformular für Anfragen zu Versicherungsbelangen." },
+      { text: "**Lösung:** Die über das Internet kostenlos durchgeführten Beratungen sind mangels Entgelt **nicht steuerbar** gem. § 1 Abs. 1 Nr. 1 UStG. Auch ist die kostenlose Beratung der Art nach – wegen der allg. untern. Veranlassung – **nicht nach § 3 Abs. 9a UStG steuerbar**. Insoweit fehlt es an einem konkreten maßgebenden Ausgangsumsatz. U ist jedoch **nicht zum Vorsteuerabzug** aus der Gestaltung der Internet-Homepage berechtigt, da der Leistungsbezug insoweit ausschließlich den kostentragenden sonstigen operativen Umsätzen zuzurechnen ist, die den Vorsteuerabzug **ausschließen**. Auch wenn die Gestaltung der Internet-Homepage nicht direkt mit den Umsätzen aus der Vermittlung von Versicherungen zusammenhängt, **dient der Internetauftritt der Förderung dieses Unternehmensbereichs**." },
+    ],
+  },
+  {
+    id: "ust-m-b11-28",
+    teil: TEIL,
+    kapitel: "28",
+    abschnittNr: "V",
+    title: "V. Ausnahmen vom Vorsteuerausschluss – § 15 Abs. 3 UStG",
+    thema: "Vorsteuerunschädliche steuerfreie Umsätze (Ausfuhr, innergemeinschaftliche Lieferung, Lohnveredelung, Seeschifffahrt und Luftfahrt, Umsatzsteuerlager, Lieferungen vor der Einfuhr, NATO- und Offshore-Umsätze), Finanz- und Versicherungsumsätze bei Drittlandsausfuhr (Beispiel Transportversicherung für Maschine nach Mexiko), fiktiv steuerfreie Auslandsumsätze (Beispiel Lieferung von Mexiko nach Brasilien)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("V"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 2 Nr. 2 und Abs. 3 Nr. 1a, 1b und 2 UStG", "§§ 6, 6a, 7 und 8 UStG", "§ 4 Nr. 2 bis 5 und Nr. 10 Buchst. a UStG", "§ 26 Abs. 5 UStG", "§ 3 Abs. 6 Satz 1 UStG", "Abschn. 15.13 und 15.14 UStAE"],
+    themen: ["Vorsteuerabzug", "Ausfuhr", "Innergemeinschaftliche Lieferung", "Versicherungsumsätze"],
+    bloecke: [
+      { typ: "titel", text: "V. Ausnahmen vom Vorsteuerausschluss – § 15 Abs. 3 UStG" },
+      { text: "Arbeitspapier 33" },
+      { text: "Die Vorschrift des **§ 15 Abs. 3 UStG** verhindert den grundsätzlichen Ausschluss des Vorsteuerabzuges nach § 15 Abs. 2 UStG bei bestimmten Sachverhalten. In § 15 Abs. 3 UStG sind näher bestimmte steuerfreie Umsätze aufgeführt, die den Vorsteuerabzug **nicht ausschließen** (= **vorsteuerunschädliche Ausgangsumsätze**). Maßgebend sind hierfür gezielte **Motive des Gesetzgebers**, wie z.B. die **Erleichterung bei Exportumsätzen**. Auf die Ausführungen in den Abschnitten 15.13 bis 15.14 UStAE wird hingewiesen. Bitte beachten Sie die **Vorrangigkeitsregelung** in Abschn. 15.13 Abs. 5 UStAE (lesen)." },
+      { typ: "titel", text: "V.1 Regelung des § 15 Abs. 3 Nr. 1a UStG" },
+      { text: "Unter § 15 Abs. 3 Nr. 1a UStG fallen insbesondere:\n• die **Ausfuhrlieferungen** und die **innergemeinschaftlichen Lieferungen** (§§ 6 & 6a UStG),\n• die **Lohnveredelungen** an Gegenständen der Ausfuhr (§ 7 UStG),\n• Leistungen in Zusammenhang mit der **Einfuhr, Ausfuhr & Durchfuhr** (§ 4 Nr. 3 und 5 UStG),\n• die Umsätze für die **Seeschifffahrt & für die Luftfahrt** (§ 4 Nr. 2, § 8 UStG),\n• bestimmte Umsätze im Zusammenhang mit einem **Umsatzsteuerlager** (§ 4 Nr. 4a UStG),\n• **Lieferungen vor der Einfuhr** (§ 4 Nr. 4b UStG) und\n• die steuerfreien Leistungen gem. **§ 26 Abs. 5 UStG** (Umsätze nach dem Offshore-Steuerabkommen, dem Zusatzabkommen zum NATO-Truppenstatut und dem Ergänzungsabkommen zum Protokoll über die NATO-Hauptquartiere)." },
+      { typ: "titel", text: "V.2 Regelung des § 15 Abs. 3 Nr. 1b UStG" },
+      { text: "Nach § 15 Abs. 3 Nr. 1b UStG tritt ein Ausschluss des Vorsteuerabzuges **nicht** ein für **Finanz- und Versicherungsumsätze**, die sich **unmittelbar auf Gegenstände** beziehen, die **in das Drittlandsgebiet ausgeführt** werden." },
+      { text: "**Beispiel:** Ein **Maschinenhändler aus Frankfurt** liefert eine Maschine **nach Mexiko**. Er versichert die Maschine gegen **Transportschäden** bei einer **deutschen Versicherungsgesellschaft**." },
+      { text: "**Lösung:** Der unmittelbare Zusammenhang der Versicherungsleistung mit der auszuführenden Maschine ist gegeben. Die nach **§ 4 Nr. 10a UStG steuerfreie** Leistung des Versicherungsunternehmens schließt daher **für die Versicherungsgesellschaft** den Vorsteuerabzug (z.B. aus Gemeinkosten) **nicht aus**." },
+      { typ: "titel", text: "V.3 Regelung des § 15 Abs. 3 Nr. 2 UStG" },
+      { text: "§ 15 Abs. 3 Nr. 2 UStG beinhaltet die Vorsteuer auf empfangene Eingangsleistungen für **nicht steuerbare Umsätze**, die, wenn sie im Inland ausgeführt würden, nach den vorbezeichneten Steuerbefreiungen aus § 15 Abs. 2 Nr. 2 UStG steuerfrei wären." },
+      { text: "**Beispiel:** Ein **Maschinenhändler aus Köln** verkauft eine Maschine an einen **Kunden aus Brasilien**. Die Maschine wird durch einen Frachtführer vom **Auslieferungslager Mexiko nach Brasilien** transportiert. Der Händler hat im Inland Leistungen (z.B. aus Gemeinkosten, Einkauf von Maschinenteilen usw.) bezogen, die für diese Maschine verwendet werden." },
+      { text: "**Lösung:** Die bewegte Lieferung des Händlers ist **in Mexiko** gem. § 3 Abs. 6 Satz 1 UStG ausgeführt und damit in DE **nicht steuerbar**. Bei unterstellter Steuerbarkeit (Ort in DE) würde es sich um eine **steuerfreie Ausfuhrlieferung** (Warenbewegung fiktiv in ein Drittland) handeln. Der Vorsteuerabzug ist grundsätzlich **ausgeschlossen** gem. § 15 Abs. 2 Nr. 2 UStG. Über **§ 15 Abs. 3 Nr. 2a** wird der Ausschluss vom Vorsteuerabzug jedoch **wieder aufgehoben**." },
+    ],
+  },
+  {
+    id: "ust-m-b11-29",
+    teil: TEIL,
+    kapitel: "29",
+    abschnittNr: "VI und VI.1",
+    title: "VI Aufteilung von Vorsteuerbeträgen gemäß § 15 Abs. 4 UStG – VI.1 Allgemeines",
+    thema: "Zuerst direkte Zurechnung zu abzugsschädlichen oder unschädlichen Umsätzen, dann Aufteilung der restlichen Vorbezüge nach § 15 Abs. 4 UStG, drei Fallgruppen von Vorsteuerbeträgen (voll abziehbar, voll ausgeschlossen, aufzuteilen)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("VI und VI.1"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 2, 3 und 4 UStG", "§ 4 Nr. 1 und Nr. 9 Buchst. a UStG", "Abschn. 15.17 Abs. 1 UStAE"],
+    themen: ["Vorsteuerabzug", "Vorsteueraufteilung", "Gemischt genutzte Gebäude"],
+    bloecke: [
+      { typ: "titel", text: "VI Aufteilung von Vorsteuerbeträgen gemäß § 15 Abs. 4 UStG – VI.1 Allgemeines" },
+      { text: "Arbeitspapier 36" },
+      { text: "Bei einem Unternehmer, der sowohl Umsätze ausführt, die zum Ausschluss vom Vorsteuerabzug nach § 15 Abs. 2 UStG führen, als auch solche, bei denen ein solcher Ausschluss nicht eintritt, sind **zunächst** die Vorsteuerbeträge zu ermitteln, die **ausschließlich** (und nicht nur zum Teil) den vorsteuerabzugsschädlichen und ausschließlich den nicht vorsteuerabzugsschädlichen Umsätzen zuzurechnen sind." },
+      { text: "Ist diese Zurechnung erfolgt und verbleiben von den durch in Anspruch genommenen Leistungen (oder Einfuhren bzw. innergem. Erwerbe) solche, die nicht ausschließlich, sondern **nur zum Teil** zur Ausführung von denjenigen Umsätzen verwendet werden, die den Vorsteuerabzug ausschließen, so ist bezüglich dieser **restlichen Vorbezüge gem. § 15 Abs. 4** zu verfahren." },
+      { text: "Nach **§ 15 Abs. 4 UStG** ist der Teil der jeweiligen Vorsteuerbeträge **nicht abziehbar**, der den zum Ausschluss vom Vorsteuerabzug führenden Umsätzen **wirtschaftlich zuzurechnen** ist." },
+      { text: "In Bezug auf **Abschn. 15.17 Abs. 1 UStAE** ist zwischen **drei Gruppen** von Vorsteuerbeträgen zu unterscheiden, die allesamt die Voraussetzungen des § 15 Abs. 1 UStG erfüllen:" },
+      { typ: "tabelle", spalten: ["Fallgruppe", "Inhalt"], zeilen: [
+        ["1. Fallgruppe", "Vorsteuerbeträge, die voll abziehbar sind, da sie mit steuerpflichtigen Ausgangsleistungen in Zusammenhang stehen, bzw. wo ein Ausschluss vom Vorsteuerabzug gemäß § 15 Abs. 3 i. V. m. Abs. 2 UStG nicht erfolgt (z. B. Vorsteuer aus Wareneinkäufen, die steuerpflichtig oder steuerfrei nach § 4 Nr. 1 UStG geliefert werden)."],
+        ["2. Fallgruppe", "Vorsteuerbeträge, die in voller Höhe vom Abzug ausgeschlossen sind (nicht abziehbar), weil sie Umsätzen zuzurechnen sind, die gemäß § 15 Abs. 2 UStG zum Ausschluss des Vorsteuerabzuges führen (z. B. Vorsteuer aus einer Gebäudeerrichtung, das in vollem Umfang steuerfrei vermietet wird)."],
+        ["3. Fallgruppe", "Übrige Vorsteuerbeträge, die sowohl mit Umsätzen in wirtschaftlichem Zusammenhang stehen, die voll abziehbar sind (Fallgruppe 1), als auch mit Umsätzen, die den Vorsteuerabzug ausschließen (nicht abziehbare Vorst; Fallgruppe 2). Z.B. Vorsteuer aus der Errichtung eines gemischt genutzten Gebäudes; eines Pkw, der zum Teil für ärztliche und sonstige gewerbliche Zwecke genutzt wird; aus Gemeinkosten eines Bauunternehmers, der sowohl Gebäude steuerpflichtig errichtet als auch Grundstücke steuerfrei liefert gem. § 4 Nr. 9a UStG."],
+      ] },
     ],
   },
 ];
