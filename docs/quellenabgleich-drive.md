@@ -10623,6 +10623,36 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: IV.1.5 bis IV.2.2
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-36` (IV.1.5
+Optionserklärung und Widerruf), `ust-m-b08-2-37` (IV.2.1 Optionseinschränkung, Übersicht
+§ 27 Abs. 2 UStG als Tabelle) und `ust-m-b08-2-38` (IV.2.2 Grundsätze mit Beispielen,
+Sonderfällen und Bagatellregelung) für die PDF-Seiten 55 bis 60. Stand des USt-Skripts:
+9 Teile, 258 Kapitel, 4146 Blöcke, 209 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- „Die Möglichkeit zum Verzicht auf den Vorsteuerabzug“; gemeint Verzicht auf die
+  Steuerbefreiung.
+- Sonderfälle: die Aussage, die Option sei bei §§ 23, 23a und 24 UStG zulässig, ist durch
+  das in der Quelle unmittelbar folgende BMF-Schreiben vom 06.11.2020 überholt.
+
+**Nachgerechnet (eigene Ergänzung):** Eheleute V: 950 € USt monatlich bzw. 11.400 € jährlich
+bei zulässiger Option, Vorsteuer 190.000 € nicht abziehbar; Bagatellregelung 14 : 365 =
+3,84 % – stimmt (Quelle: ca. 4 v.H.).
+
+**Darstellung:** Schaubild § 27 Abs. 2 UStG als Tabelle (Zeilenbezeichnungen eigene
+Ergänzung, „Keine Optionsbeschränkung“ je Spalte); Lösung Beispiel 3 als Tabelle je Geschoss.
+
+**Stillschweigend berichtigt:** „9.1. Absatz 3“, „9.2. UStAE“, „verwendet werden“ (wird),
+„sind in verschiedene Kategorien“ (die … Gebäude sind), „Einschränkung des Verzicht“,
+„-Grundsätze-“, „1. Mio. €“, „von an einen anderen Unternehmer … genutzt“ (vermietet),
+„Nr.12“, „Abs.2“, „§ 4  Nr.12“, „23 a“, „Durchschnittsätzen“, gerade Anführungszeichen,
+„entspricht“ (entsprechen), fehlender Punkt nach „Form der Steuer“, „1. 3. 2018“,
+„Bucht. a“, „-die Räume“.
+
+**Weiter mit:** IV.2.3 Zeitliche Einschränkungen – § 27 (2) UStG (PDF-Seite 61).
+
 ### USt-Skript (Moecker), Block 8 Teil II: IV.1 bis IV.1.4
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-31` (IV.1 Option nach § 9

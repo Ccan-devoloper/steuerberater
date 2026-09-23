@@ -2428,7 +2428,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Windkraftanlagen, Nebenleistungen, Vertragsarten und Ausschlüssen nach § 4 Nr. 12 Satz 2
   UStG, Sportanlagen, Auflösung von Mietverhältnissen und Wohnungseigentümergemeinschaften
   sowie der Option nach § 9 Abs. 1 UStG mit Finanzumsätzen, Vermietung, Grundstückslieferungen
-  und fiktiver Option (35 Kapitel).
+  und fiktiver Option, Optionserklärung und Optionseinschränkung nach § 9 Abs. 2 UStG
+  (38 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
