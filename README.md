@@ -627,7 +627,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Absätze, dazu ausführlich Absatz 2 (offenbare Unrichtigkeit, Übungsfall Müller mit
   vier Abwandlungen), Absatz 3 und 3a (Antrag gegenüber Einspruch), Absatz 4
   (Außenprüfung mit Unterbrechung und Höchstfrist, Fälle Flimmer und Durst) sowie die
-  Neuregelungen ab dem 01.01.2025 und die Absätze 5 und 7.
+  Neuregelungen ab dem 01.01.2025 und die Absätze 5 und 7; über den Datei-Download nachgeholt
+  sind inzwischen Absatz 9 (Selbstanzeige mit Beispiel in zwei Varianten) und Absatz 10 Sätze 1
+  bis 3 (Grundlagenbescheid, außersteuerliche Grundlagenbescheide mit dem Beispiel zum Grad der
+  Behinderung).
   Aus Teil III ist Abschnitt 7 (Korrektur von Verwaltungsakten) bis Seite 79 eingepflegt:
   die Korrekturterminologie und die Schnellübersicht zum Anwendungsbereich jeder
   Vorschrift, die dreistufige Systematik (§ 164 Abs. 2 AO – Korrekturvorschriften für

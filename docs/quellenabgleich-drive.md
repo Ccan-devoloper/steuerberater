@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### AO-Skript (Jacobs), Teil II – Abschnitt 6 ab Seite 43: Ablaufhemmungen nach § 171 Abs. 9 und 10 AO
+
+Über den Datei-Download ist auch AO Teil II vollständig lesbar (112 PDF-Seiten). Eingepflegt sind
+die Seiten 43 bis 47 des Abschnitts 6 als zwei neue Kapitel: § 171 Abs. 9 AO (Berichtigungs- oder
+Selbstanzeige mit dem Beispiel ESt 03 in zwei Varianten) und § 171 Abs. 10 Sätze 1 bis 3 AO
+(Grundlagenbescheid, Aufhebung des Vorbehalts, außersteuerliche Grundlagenbescheide mit dem
+Beispiel des Versorgungsamts). Der Hinweis „Abbruch der Quelle“ am Ende des Kapitels 6-11 ist
+entfernt; jetzt 172 Kapitel.
+
+**Befunde:** „§ 171 Abs. 10 Satz 1 AO gilt nur für Grundlagenbescheide iS des § 181 AO; dh für
+Feststellungserklärungen“ – gemeint sind Feststellungsbescheide; im Beispiel zum Grad der
+Behinderung nennt die Lösung als Fristende zunächst den 31.12.11, in Variante b) den 02.01.12 (das
+entspräche einer Verlängerung nach § 108 Abs. 3 AO; für das Ergebnis unerheblich).
+
+**Nachgerechnet:** ESt 03: 31.12.05 + 4 Jahre = 31.12.09, + 10 Jahre = 31.12.15, Jahresfrist nach
+Selbstanzeige am 14.11.15 bis 14.11.16; ESt 06: 31.12.07 + 4 Jahre = 31.12.11.
+
+**Noch offen aus AO Teil II:** Abschnitt 6 ab Seite 48 (§ 171 Abs. 10 Satz 4, Abs. 10a, 14 und
+15 AO, gesonderte Feststellung nach § 181 Abs. 5 AO).
+
 ### AO-Skript (Jacobs), Teil I – Abschnitt 3 ab Seite 31: die erste bisher blockierte Stelle ist nachgeholt
 
 Über den Datei-Download ist AO Teil I jetzt vollständig lesbar (145 PDF-Seiten). Eingepflegt sind
