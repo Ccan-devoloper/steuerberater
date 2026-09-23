@@ -10659,7 +10659,17 @@ Ablaufhemmung nach der Lösung am „13.01.11“ (tatsächlicher Zugang), nach d
 am 14.01.11 – ohne Auswirkung auf das Ergebnis; kleinere sprachliche Fehler („nach seinem Sinn
 und Zweck nach“, „für Bedeutung sind“, fehlender Satzpunkt).
 
-**Noch offen aus AO Teil II:** Seiten 68 bis 74 (§ 171 Abs. 10a, 14 und 15 AO).
+**Abschluss Seiten 68 bis 74 – AO Teil II vollständig:** drei weitere Kapitel – § 171 Abs. 10a,
+Abs. 14 (mit dem Beispiel des Umsatzsteuerbescheides an die falsche GbR in vier Varianten) und
+Abs. 15 AO; das Skript hat jetzt 179 Kapitel. Die Zeile „AO Teil II“ ist aus Abschnitt A von
+`docs/offene-quellen.md` gestrichen. Befunde: „Festsetzungsfest“; „vermietet haben“;
+doppeltes „begonnen“; in Variante I endet die Einspruchsfrist nach der Quelle am 06.02.07
+(Dreitagesrechnung, nach der Viertagesfiktion 07.02.07), und der Satz zur Einspruchsentscheidung
+bricht ab („es ergeht gemäß § 367 Abs. 2 Satz 3 AO, 132 und“); Variante III spricht vom
+„Umsatzsteuerbescheid 02“ statt 01 und begründet den Erstattungsanspruch damit, dass eine
+Nachholung „mangels Eintritts der Festsetzungsverjährung“ nicht möglich sei – gemeint ist
+wegen Eintritts. Zahlungsverjährung in Variante II nachgerechnet: Ende 11, nach Unterbrechung
+Ende 12.
 
 ### AO-Skript (Jacobs), Teil I – Abschnitt 3 ab Seite 31: die erste bisher blockierte Stelle ist nachgeholt
 

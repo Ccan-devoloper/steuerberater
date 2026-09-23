@@ -34,7 +34,6 @@ dieser Umgebung keine Texterkennung zur Verfügung steht, sowie Lösungen, die i
 | **ErbStR, 4. und 5. Einheit** (Mitschriften), Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` | Alle vier Dateien vollständig: „ErbStR, 4. Einheit_Teil 1“ (`185fNc_fJW2CCUVfeUD6MaDCQ5EHFAK1O`, 114 Seiten, 14,4 MB), „ErbStR. 4. Einheit_Teil 2“ (`1DTUXD5w5NHs2U4V9tvC1MlbHkdlbu1wV`, 42,5 MB), „ErbStR, 5. Einheit_Teil 1“ (`1ObPFd8dnae_W8WIj1wr6rj8CDFnUMQ7o`, 35,8 MB) und „ErbSt, 5 Einheit - Teil 2“ (`1BbwheGqCbRBMzeNstEcWXlXmAXLWcH6k`, 17,0 MB) | **Reine Scans ohne Textebene.** Der Connector liefert für alle vier nur Seitenplatzhalter („Page 1“, „Page 2“, …), keinen Text. Der Download scheitert am 10-MB-Limit des Connectors (für die kleinste der vier Dateien geprüft: „File too large for download, over limit of 10 MB“). Die Einheiten 1 bis 3 desselben Ordners stehen dagegen vollständig im Campus. |
 | **Bilanz Fact Sheets** (Horst, Mai 2026), Drive-ID `1abE85eIrTg5SBxpehBBBdfZTa2vSAVEH` (19,6 MB, im Bilanz-Ordner des zweiten Baums `19RxwMWawVvHEJ975UFmIvdSNcaCQSgJ-`) | Die vollständige Datei | **Reiner Scan ohne Textebene.** Der Connector gibt nur den Wasserzeichentext zurück, einmal je Seite; dasselbe Bild wie bei den PersG Fact Sheets desselben Verfassers. |
 | **PersG Fact Sheets** (Horst, April 2025), Drive-ID `179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5` | Die vollständigen 24 Seiten | **Reiner Scan ohne Textebene.** Der Connector gibt aus dem 17,4-MB-PDF nur den Wasserzeichentext zurück, sonst nichts. Der Download bricht am 10-MB-Limit des Connectors ab; eine lokale Texterkennung steht in dieser Umgebung nicht zur Verfügung. |
-| **AO Teil II** (Jacobs, Mai 2025), Drive-ID `15kFDJkIW4sHvVz5tlf5_s4DIEwUm0cDd` | Aus Abschnitt 6 die Seiten 68 bis 74 (§ 171 Abs. 10a, 14 und 15 AO) – **wird nachgeholt**: die Seiten 43 bis 67 sind inzwischen über den Download eingepflegt | Der Connector gibt aus dem PDF 170.000 Zeichen aus und bricht in Abschnitt 6 auf Seite 42 ab. Abschnitt 5 und Abschnitt 6 bis § 171 Abs. 7 AO sind lesbar und eingepflegt. |
 | **AO Teil III** (Jacobs, Mai 2025), Drive-ID `17QT3RU22R0kTxP5MfyzWc6HrX3i77TEg` | Aus Abschnitt 7 die Seiten 80 bis 118: die Lösungshinweise zu den Übungsfällen zu **§ 175 Abs. 1 Satz 1 Nr. 1 AO**, **§ 175 Abs. 1 Satz 1 Nr. 2 AO** (rückwirkendes Ereignis) sowie **§§ 176 und 177 AO** | Der Connector gibt aus dem PDF 156.000 Zeichen aus und bricht in Abschnitt 7 auf Seite 79 mitten im ersten Übungsfall zu § 175 AO ab. Abschnitt 7 ist bis dorthin vollständig eingepflegt. |
 | **AO Teil V** (Jacobs, Mai 2025), Drive-ID `1WHbfjRVc8q5zyXiDhXXVptQ7izxyfanN` | Aus Abschnitt 12 (Außenprüfung) alles ab Seite 28: der Rest des **Teils V** (Neuregelungen zu § 197 Abs. 5 und § 180 Abs. 1a AO) sowie die **Teile VI bis VIII** (Prüfungsfeststellungen, Schlussbesprechung, Prüfungsbericht, Auswirkungen auf die Festsetzungsverjährung); dazu der gesamte **Abschnitt 13** | Der Connector gibt aus dem 1,4-MB-PDF 145.000 Zeichen aus: den Abschnitt 11 vollständig und den Abschnitt 12 bis Seite 27, wo er abbricht. Das Deckblatt kündigt „Teil V: Abschnitte 11 bis 13“ an. |
 | **AO Teil IV** (Jacobs, Mai 2025), Drive-ID `177nsS17x67L6LjIOFiQ_t06vrtn4e9oA` | Aus Abschnitt 9 ab Seite 18: der Rest des Teils V (**Wiedereinsetzung, § 56 FGO**), Teil VI (**Form und Inhalt der Klageschrift, §§ 64, 65 FGO**), die **Begründetheit der Klage** und das **Revisionsverfahren**; dazu der gesamte **Abschnitt 10** (vorläufiger Rechtsschutz) | Der Connector gibt aus dem PDF 141.000 Zeichen aus: Abschnitt 8 vollständig (62 Seiten) und Abschnitt 9 bis Seite 17, wo er mitten im Satz abbricht. Das Deckblatt kündigt „Teil IV: Abschnitte 8 bis 10“ an. |
@@ -62,7 +61,7 @@ aufgeht, und mit einem Prüfskript.
 ### Arbeitsliste nach dem Dublettencheck des zweiten Baums (Reihenfolge der Abarbeitung)
 
 1. **Bisher blockierte Reste nachholen** (jetzt über den Download lesbar): ~~AO Teil I~~ (erledigt,
-   vollständig), AO Teil II (Abschnitt 6 ab Seite 43), AO Teil III
+   vollständig), ~~AO Teil II~~ (erledigt, vollständig), AO Teil III
    (Abschnitt 7 ab Seite 80), AO Teil IV (Abschnitt 9 ab Seite 18 und Abschnitt 10), AO Teil V
    (Abschnitt 12 ab Seite 28 und Abschnitt 13), ESt-Kurzskript I (Seiten 80–162),
    KSt-Kurz-Skript Breier (ab Seite 90), Ertragsteuer-Prüfungen 2013 bis 2015,
@@ -130,11 +129,11 @@ enthalten (AO-, USt- und ErbSt-Teil jeweils im zugehörigen Campus der Klausur 1
   Abschnitte 1 bis 4), zusammen mit dem Hinweisblatt zur Viertagesfrist. Die früher blockierten
   Seiten (Abschnitt 3 ab Seite 31 und der ganze Abschnitt 4) sind über den Datei-Download
   nachgeholt.
-- AO-Skript (Jacobs), **Teil II ist eingepflegt, soweit der Connector Text ausgibt**:
-  Abschnitt 5 (§§ 164, 165, 168 AO) vollständig und Abschnitt 6 (Festsetzungsverjährung)
-  bis Seite 42 von 74, das heißt bis einschließlich § 171 Abs. 7 AO. Dazu der
-  Stoffverteilungsplan mit dem Inhaltsverzeichnis aller fünfzehn Abschnitte. Der Rest des
-  Abschnitts 6 ist technisch blockiert, siehe Abschnitt A.
+- AO-Skript (Jacobs), **Teil II ist vollständig eingepflegt**: Abschnitt 5 (§§ 164, 165, 168
+  AO) und Abschnitt 6 (Festsetzungsverjährung) bis zur letzten Seite; die früher blockierten
+  Seiten 43 bis 74 (§ 171 Abs. 9, 10, 10a, 14 und 15 AO sowie § 181 Abs. 5 AO) sind über den
+  Datei-Download nachgeholt. Dazu der Stoffverteilungsplan mit dem Inhaltsverzeichnis aller
+  fünfzehn Abschnitte.
 - AO-Skript (Jacobs), **Teil III (Abschnitt 7 – Korrektur von Verwaltungsakten) ist
   begonnen**: Teil I (Allgemeine Grundsätze), Teil II (§ 129 AO) und aus Teil III die
   Systematik, § 172 Abs. 1 Satz 1 Nr. 2a und 2c AO sowie § 173 AO bis zum Tatsachen-

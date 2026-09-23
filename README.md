@@ -633,7 +633,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Behinderung), Satz 4 mit der Prüfungsfolge in sechs Schritten und die drei Fälle Komplementär K,
   Bernd Brot und Architekt Blei; dazu die gesonderte Feststellung nach Ablauf der
   Feststellungsfrist (§ 181 Abs. 5 AO) mit Hinweispflicht, Prüfungsfolge und den Übungsfällen
-  Kino-GmbH & Co KG und Kleine und Pflicht GbR.
+  Kino-GmbH & Co KG und Kleine und Pflicht GbR, und zum Schluss § 171 Abs. 10a AO (Daten nach
+  § 93c AO), Abs. 14 (Erstattungsanspruch und Nichtigkeit mit dem Umsatzsteuer-Beispiel in vier
+  Varianten) und Abs. 15 (Steuerabzugsverfahren). **Teil II ist damit vollständig.**
   Aus Teil III ist Abschnitt 7 (Korrektur von Verwaltungsakten) bis Seite 79 eingepflegt:
   die Korrekturterminologie und die Schnellübersicht zum Anwendungsbereich jeder
   Vorschrift, die dreistufige Systematik (§ 164 Abs. 2 AO – Korrekturvorschriften für
