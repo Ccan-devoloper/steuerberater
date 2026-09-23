@@ -10623,6 +10623,31 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5 fortgesetzt (III.3.9 bis III.4)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
+`ust-m-b05-22` bis `ust-m-b05-25` für die PDF-Seiten 55 bis 60: III.3.9 TRFE-Leistungen
+(§ 3a Abs. 5 UStG, Schwellenwert, MOSS/EU-OSS, Leistungskatalog und Abgrenzung), III.3.10
+Personenbeförderung und III.3.11 A bis C Güterbeförderung (Inland, Drittland), III.3.11 D
+innergemeinschaftliche Güterbeförderung mit Frachtnachnahme-Fall Potsdam–Paris–Bordeaux und
+III.3.12 Beladen/Entladen, III.4 Restaurationsleistungen an Bord (§ 3e UStG).
+Stand des USt-Skripts: 5 Teile, 97 Kapitel, 1958 Blöcke, 95 Tabellen.
+
+**Nachgerechnet:** Im Beispiel Köln–Worms nennt die Quelle für 1.000 € eine USt von 137,93 €;
+das entspricht 1.000 × 16/116. Beim Regelsteuersatz von 19 % ergeben sich 1.000 × 19/119 =
+159,66 € (markiert, eigene Ergänzung).
+
+**Stillschweigend berichtigt:** „Elektronisch erbrachten Dienstleistungen“, „Leistende
+Unternehmer“, Layout „sog. T R F E LEISTUNGEN“ (sog. TRFE-Leistungen), „vgl.§ 27“, fehlendes
+schließendes Anführungszeichen nach „TV. Tel. elektr. Dienste“, „Internetverzeichnisse, );“,
+„Abschn. 3a.12 UStAE. lesen“, „nach Absatz. 1“, „Abschn.. 3b.1“, „§ 4 Nr. 3a) UStG“, Komma
+nach „Hoheitsgebiet dieses Staates“, Überschrift III.4 „während eine Beförderung“ (einer).
+Im Spanien-Fall steht der Satzteil „und P keine USt-IdNr. verwendet“ unverändert wie in der
+Quelle.
+
+**Noch offen in Block 5:** ab IV (Reverse-Charge-Verfahren in der EU, PDF-Seite 60 ff.) sowie
+die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 5 fortgesetzt (III.3.5 bis III.3.8)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
