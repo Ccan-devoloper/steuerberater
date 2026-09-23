@@ -2,7 +2,7 @@
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
    In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere A 1 bis
-   A 10 (PDF-Seiten 62 bis 71) eingepflegt, weitere folgen. */
+   A 16 (PDF-Seiten 62 bis 77) eingepflegt, weitere folgen. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -1222,6 +1222,71 @@ export const block08Teil1 = [
         ["14.", "Wie 13, aber NT lässt durch UPS in die USA transportieren.", "Wie 13, aber keine Einschränkung über § 6 (3a); somit steuerfrei"],
       ] },
       { text: "Die Übung ist als Tabelle wiedergegeben; die Spaltenköpfe sind eigene Ergänzung zur Darstellung. Die Nummerierung „12“ ohne Punkt folgt der Quelle." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-43",
+    teil: TEIL,
+    kapitel: "43",
+    abschnittNr: "A 11 bis A 15",
+    title: "Arbeitspapiere A 11 bis A 15: Reihengeschäfte in das Drittland",
+    thema: "Werkzeugmaschine Köln–Kiel–Schweiz–Ankara nach Abschn. 3.14 Abs. 14 UStAE mit Transport durch den ersten Unternehmer, den letzten Abnehmer, den Schweizer Zwischenhändler (gesetzliche Vermutung) und den deutschen Zwischenhändler mit deutscher USt-IdNr. (widerlegte Vermutung) und Gesetzeswortlaut des § 3 Abs. 6a Sätze 2, 3, 4 und 6 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 11 bis A 15"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 Satz 1 UStG", "§ 3 Abs. 6a Sätze 2, 3, 4 und 6 UStG", "§ 3 Abs. 7 Satz 2 Nr. 1 und 2 UStG", "§ 6 Abs. 1 Nr. 1 und 2 UStG", "§ 6 Abs. 2 Nr. 1 UStG", "Abschn. 3.14 Abs. 14 UStAE"],
+    themen: ["Arbeitspapier", "Reihengeschäft", "Ausfuhrlieferung", "Zwischenhändler", "Transportveranlassung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 11 – 3.7 Reihengeschäfte in das Drittland" },
+      { text: "Eine **steuerfreie Ausfuhrlieferung ist nur für die bewegte Lieferung möglich**, da § 6 UStG eine Beförderung / Versendung in das Drittland erfordert. Der Ort der anderen – unbewegten – Lieferung liegt entweder **am Beginn oder am Ende** der Beförderung oder Versendung des gelieferten Gegenstands." },
+      { text: "**Ausgangsfall (vgl. Abschn. 3.14 Abs. 14 UStAE):** **Türkische Unternehmer T** bestellt eine **Werkzeugmaschine** bei dem **Unternehmer S aus der Schweiz**. S bestellt die Maschine bei **D 1 in Kiel**, der die Bestellung an den **Hersteller D 2 in Köln** weitergibt." },
+      { text: "Schaubild: Rechnungsweg DU 2 (Köln) ➔ DU 1 (Kiel) ➔ S (CH) ➔ T (Ankara); Warenweg von DU 2 (Köln) unmittelbar nach Ankara." },
+      { typ: "titel", text: "Arbeitspapier A 12 – Transport durch den „Ersten“ Unternehmer" },
+      { text: "❖ Beim Transport durch den 1. Unternehmer DU 2 aus Köln sieht § 3 Abs. 6a Satz 2 UStG folgende Regelungen vor: „² Wird der Gegenstand der Lieferung dabei durch den ersten Unternehmer in der Reihe befördert oder versendet, ist die Beförderung oder Versendung seiner Lieferung zuzuordnen.“" },
+      { typ: "tabelle", spalten: ["Bewegte Lieferung", "Unbewegte Lieferungen"], zeilen: [
+        ["DU 2 ➔ DU 1: Bewegte Lieferung gem. § 3 Abs. 6a Satz 2 UStG. Ort = in Köln gem. § 3 Abs. 6 S. 1 UStG. Gegenstand gelangt in das Drittland – § 6 (1) Nr. 1 UStG. Steuerfreie Ausfuhrlieferung, ausländischer LE nicht erforderlich", "Lieferung DU 1 ➔ an S mit Ort § 3 Abs. 7 S. 2 Nr. 2 UStG in Ankara. Nicht steuerbare Lieferung in DE. (DU 1 als ZH benötigt ggf. Kopie des Ausfuhrbelegs zwecks „erhöhter Nachweispflicht bei Auslandssachverhalten“). Lieferung S ➔ an T mit Ort § 3 Abs. 7 S. 2 Nr. 2 UStG in Ankara"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 13 – Transport durch „Letzten“ Abnehmer" },
+      { text: "❖ Beim Transport durch den Letzten (T aus Ankara) sieht § 3 Abs. 6a Satz 3 UStG folgende Regelungen vor: „³ Wird der Gegenstand der Lieferung durch den letzten Abnehmer befördert oder versendet, ist die Beförderung oder Versendung der Lieferung an ihn zuzuordnen.“" },
+      { typ: "tabelle", spalten: ["Bewegte Lieferung", "Unbewegte Lieferungen"], zeilen: [
+        ["S ➔ T: bewegte Lieferung § 3 Abs. 6a Satz 3 UStG. Ort = Köln gem. § 3 Abs. 6. Steuerfreie Ausfuhrlieferung gem. § 6 Abs. 1 Nr. 2 UStG. Gegenstand gelangt durch ausländischen Kunden T in das Drittland – § 6 Abs. 2 Nr. 1 UStG", "Lieferung DU 2 ➔ an DU 1: Unbewegte Lieferung vor der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 1 UStG in Köln; Steuerbar und steuerpflichtig. Lieferung DU 1 ➔ an S: Unbewegte Lieferung vor der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 1 UStG in Köln; Steuerbar und steuerpflichtig. S muss Vorst & stfreie Lieferung beim zuständigen FA in DE erklären."],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 14 – Transport durch „Zwischenhändler 2“ (S aus CH)" },
+      { text: "❖ Beim Transport durch den ZH S aus CH sieht § 3 Abs. 6a Satz 4 UStG folgende Regelungen vor – **Gesetzliche Vermutungsregel**: „⁴ Wird der Gegenstand der Lieferung durch einen Abnehmer befördert oder versendet, der zugleich Lieferer ist (Zwischenhändler), ist die Beförderung oder Versendung der Lieferung an ihn zuzuordnen, es sei denn, er weist nach, dass er den Gegenstand als Lieferer befördert oder versendet hat.“" },
+      { typ: "tabelle", spalten: ["Bewegte Lieferung", "Unbewegte Lieferungen"], zeilen: [
+        ["DU 1 ➔ S (VERMUTUNG): bewegte Lieferung gem. § 3 Abs. 6a Satz 4 1. Alt. UStG. Ort = Köln § 3 Abs. 6 S. 1 UStG. Gegenstand gelangt durch den Kunden S in das Drittland – § 6 Abs. 1 Nr. 2 UStG –; Steuerfreie Ausfuhrlieferung, LE ist auch ausländischer LE § 6 Abs. 2 Nr. 1 UStG.", "Lieferung DU 2 ➔ an DU 1: unbewegte Lieferung vor der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 1 UStG in Köln; steuerbar und steuerpflichtig. Lieferung S ➔ an T: unbewegte Lieferung nach der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 2 UStG in Ankara; in DE nicht steuerbar."],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 15 – Transport durch „Zwischenhändler 1“ (DU 1)" },
+      { text: "❖ Beim Transport durch den „deutschen“ ZH DU 1 aus Kiel sieht § 3 Abs. 6a Satz 6 UStG folgende (Ausnahme) Regelungen vor – **Widerlegte Vermutung (durch Gesetz)**: „⁶ Gelangt der Gegenstand der Lieferung in das Drittlandsgebiet, ist von einem ausreichenden Nachweis nach Satz 4 auszugehen, wenn der Zwischenhändler gegenüber dem leistenden Unternehmer bis zum Beginn der Beförderung oder Versendung eine Umsatzsteuer-Identifikationsnummer oder Steuernummer verwendet, die ihm vom Mitgliedstaat des Beginns der Beförderung oder Versendung erteilt wurde.“" },
+      { typ: "tabelle", spalten: ["Bewegte Lieferung", "Unbewegte Lieferungen"], zeilen: [
+        ["DU 1 ➔ S (WIDERLEGTE VERMUTUNG): bewegte Lieferung § 3 Abs. 6a Satz 4 und 6 UStG. Ort = Köln. Gegenstand gelangt in das Drittland – § 6 Abs. 1 Nr. 1 UStG. Steuerfreie Ausfuhrlieferung, ausländischer LE nicht erforderlich.", "Lieferung DU 2 ➔ an DU 1: unbewegte Lieferung vor der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 1 UStG in Köln; steuerbar und steuerpflichtig. Lieferung S ➔ an T: unbewegte Lieferung nach der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 2 UStG in Ankara; in DE nicht steuerbar."],
+      ] },
+      { text: "Die Gegenüberstellungen der Arbeitspapiere A 12 bis A 15 sind als Tabellen wiedergegeben; die Spaltenköpfe „Bewegte Lieferung“ und „Unbewegte Lieferungen“ sind eigene Ergänzung zur Darstellung." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-44",
+    teil: TEIL,
+    kapitel: "44",
+    abschnittNr: "A 16",
+    title: "Arbeitspapier A 16: Lohnveredelungen an Gegenständen der Ausfuhr",
+    thema: "Abgrenzung Werklieferung (Ausfuhr nach § 6 UStG) und Werkleistung (Lohnveredelung nach § 7 UStG), Ort der Werkleistung im B2C- und B2B-Bereich und Voraussetzungen des § 7 Abs. 1 Nr. 1 bis 3 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapier A 16"),
+    verfasser: VERFASSER,
+    normen: ["§ 3a Abs. 2 UStG", "§ 6 UStG", "§ 7 Abs. 1 Nr. 1 bis 3 UStG"],
+    themen: ["Arbeitspapier", "Lohnveredelung", "Werkleistung", "Werklieferung", "Leistungsort"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 16 – 3.8 Lohnveredelungen an Gegenständen der Ausfuhr" },
+      { text: "Jede Be- / oder Verarbeitung eines Gegenstandes. Unterscheide bei Arbeiten an Gegenständen der Ausfuhr:" },
+      { typ: "tabelle", spalten: ["„Werk“ Lieferung", "„Werk“ Leistung (sonstige Leistung)"], zeilen: [
+        ["Es werden auch Hauptstoffe durch LU verwendet (Ausfuhr gem. § 6 UStG). Ausnahme: Montage- bzw. Montagewerklieferung, da unbewegte Lieferung", "Jede Be- oder Verarbeitung ohne Hauptstoffe (Lohnveredelung § 7)"],
+      ] },
+      { text: "**Beachte:** Ort der Werkleistung bestimmt sich im **B2C-Bereich = Tätigkeitsort**, **B2B-Bereich = Grundregel** (Empfänger-Sitz § 3a Abs. 2 UStG). **!** Bei ausl. LE aus B2B-Bereich geht § 7 somit grundsätzlich **ins Leere** => **Bereits nicht steuerbar**" },
+      { text: "**Voraussetzungen:** • Einfuhr / Erwerb in der EU durch Auftraggeber • zum Zwecke der Be- oder Verarbeitung • mit anschließender Warenbewegung in das Drittland gemäß § 7 Abs. 1" },
+      { typ: "tabelle", spalten: ["Nr. 1", "Nr. 2", "Nr. 3"], zeilen: [
+        ["durch LU selbst oder Beauftragter des LU – Keine weiteren Voraussetzungen (insbesondere kein ausländischer LE)", "durch LE selbst oder Beauftragter des LE – Zusätzlich erforderlich ausländischer Auftraggeber.", "Freihafenfälle"],
+      ] },
     ],
   },
 ];

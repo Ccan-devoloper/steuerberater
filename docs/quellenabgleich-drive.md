@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 11 bis A 16
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-43` (A 11 bis A 15
+Reihengeschäfte in das Drittland, Werkzeugmaschine Köln–Kiel–Schweiz–Ankara mit vier
+Transportvarianten und dem Wortlaut des § 3 Abs. 6a Sätze 2, 3, 4 und 6 UStG) und
+`ust-m-b08-1-44` (A 16 Lohnveredelungen) für die PDF-Seiten 72 bis 77. Stand des USt-Skripts:
+8 Teile, 207 Kapitel, 3521 Blöcke, 185 Tabellen.
+
+**Vermerkt:** A 11 bezeichnet die Beteiligten im Text als „D 1“ und „D 2“, im Schaubild als
+„DU 1“ und „DU 2“; übernommen wie in der Quelle.
+
+**Darstellung:** Gegenüberstellungen als Tabellen (Spaltenköpfe „Bewegte Lieferung“ und
+„Unbewegte Lieferungen“ eigene Ergänzung), Schaubilder als Text.
+
+**Stillschweigend berichtigt:** hochgestellte Satzzahlen der zitierten Gesetzessätze als ², ³,
+⁴, ⁶ gesetzt, „Köln ;“, überzählige Kommas am Zeilenende, Leerzeichen in Klammern.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab A 17 (PDF-Seite 78).
+
 ### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 8 bis A 10
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-41` (A 8 und A 9
