@@ -10623,6 +10623,21 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 9 bis A 12
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-38` (A 9/A 10 mittelbare
+Veranlassung, Steinbruch-Beispiel) und `ust-m-b11-39` (A 11/A 12 vier Voraussetzungen des
+Vorsteuerabzugs aus Rechnungen) für die PDF-Seiten 69 bis 72, nach Ansicht der gerenderten Seiten.
+Stand des USt-Skripts: 12 Teile, 444 Kapitel, 6208 Blöcke, 329 Tabellen.
+
+**Quellenfehler (im Text markiert):** A 11 „alle 8 (Pflicht)Angaben nach § 14 Abs. 4 UStG“; § 14
+Abs. 4 Satz 1 UStG zählt die Pflichtangaben in Nr. 1 bis 10 auf.
+
+**Stillschweigend berichtigt:** „BMF v. 18.0.2020“ (18.09.2020, wie im Textteil II.2.2),
+„unentgeltlichen Abgabe“ (Negativliste), „Alterantiv“.
+
+**Weiter mit:** Arbeitspapier A 13 (PDF-Seite 73).
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 5 bis A 8
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-36` (A 5 Zuordnungsregeln als

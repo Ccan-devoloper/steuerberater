@@ -5,7 +5,7 @@
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
    In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 8 (PDF-Seite 68). */
+   A 12 (PDF-Seite 72). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1241,6 +1241,58 @@ export const block11 = [
       ] },
       { text: "Nachrechnung (eigene Ergänzung): Beispiel 4: 40 % + 40 % = 80 % unternehmerisch, davon 40 % (Versicherung, § 4 Nr. 11 UStG) ausgeschlossen – stimmt; Beispiel 8.3: 80 % − 60 % = 20 % UWA; 70 % − 40 % = 30 % Berichtigung – stimmt." },
       { text: "Die Übersicht zum Vereinsbus ist als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-38",
+    teil: TEIL,
+    kapitel: "38",
+    abschnittNr: "A 9 und A 10",
+    title: "Arbeitspapiere A 9 und A 10: Mittelbarer Bezug für das Unternehmen (Abschn. 15.2b Abs. 2a UStAE)",
+    thema: "Vorsteuerabzug bei unentgeltlicher Weitergabe an Dritte zur Ermöglichung der eigenen Tätigkeit (mittelbare Veranlassung, BMF 24.01.2024): unerlässlich, Kosten im Preis, Vorteil des Dritten nebensächlich, keine UWA; Negativliste (bürgerliche Kleidung, Betriebsveranstaltung über 110 €), Beispiel Straßenausbau durch Steinbruchbetrieb",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 9 und A 10"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1 UStG", "§ 3 Abs. 1b und 9a UStG", "Abschn. 3.2 Abs. 4 UStAE", "Abschn. 15.2b Abs. 2a UStAE", "BMF-Schreiben vom 24.01.2024"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Mittelbare Veranlassung", "Unentgeltliche Wertabgabe"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 9 – 3.4 Mittelbarer Bezug für – BMF-Schreiben vom 24.01.2024, Abschn. 15.2b Abs. 2a UStAE" },
+      { text: "Einem Unternehmer kann der Vorsteuerabzug auch dann zustehen,\n❖ wenn er eine Leistung bezieht,\n❖ um diese **an einen Dritten unentgeltlich** weiter zu liefern\n❖ und **zugleich die eigene unternehmerische Tätigkeit** zu ermöglichen\n(=> sog. **mittelbare Veranlassung**)" },
+      { text: "Dies **setzt aber voraus**,\n❖ dass die bezogene Eingangsleistung nicht über das hinausgeht, was erforderlich bzw. **unerlässlich** ist, um diesen Zweck zu erfüllen,\n❖ und die **Kosten** der Eingangsleistung (kalkulatorisch) **im Preis** der getätigten Ausgangsumsätze enthalten sind\n❖ und der **Vorteil** des Dritten (im Urteilsfall: der Allgemeinheit) allenfalls **nebensächlich** ist." },
+      { text: "Dann auch **keine UWA**, da kein unversteuerter Endverbrauch droht (Abschn. 3.2 Abs. 4 UStAE – neu)" },
+      { text: "**Negativliste** (= UWA liegt also vor)\n❖ unentgeltliche Abgabe von **bürgerlicher Bekleidung an Arbeitnehmer** (Vorteil für AN nicht nebensächlich)\n❖ Zuwendungen an Betriebsangehörige im Rahmen einer **Betriebsveranstaltung** (wenn über Aufmerksamkeit 110 € hinausgeht)" },
+      { typ: "titel", text: "Arbeitspapier A 10 – Beispiel 1 (vgl. Abschn. 15.2b Abs. 2a UStAE – neu)" },
+      { text: "▪ **Steinbruchbetrieb** wird von der Behörde nur unter der Auflage genehmigt, dass die Erschließung des Steinbruchs über eine **öffentliche Gemeindestraße** erfolgt.\n▪ U trägt Kosten für den **Ausbau der Straße**.\n▪ Bezogene Leistungen dienen nur Nutzung durch **LKW-Verkehr**\n▪ Kosten gehen **kalkulatorisch in den Verkaufspreis** ein.\n▪ Bei Abnahme **kostenlose Übertragung** Straße an Gemeinde.\n▪ Hauptsächliche Nutzung LKW-Verkehr zum Steinbruch, für allg. PKW-Verkehr nur **geringe Nutzung**." },
+      { text: "**Lösung:**\n• **Vorsteuerabzug** für U aus Straßenausbau.\n• **Keine UWA** an die Gemeinde.\n• Straße ist Voraussetzung Steinbruchbetrieb und waren insoweit alle erforderlich.\n• Kosten gehen in Preise ein.\n• Nutzen für Gemeinde (geringe allg. Pkw-Nutzung) **nur nebensächlich**." },
+    ],
+  },
+  {
+    id: "ust-m-b11-39",
+    teil: TEIL,
+    kapitel: "39",
+    abschnittNr: "A 11 und A 12",
+    title: "Arbeitspapiere A 11 und A 12: Vorsteuerabzug aus Rechnungen (§ 15 Abs. 1 Nr. 1 UStG) – die vier Voraussetzungen",
+    thema: "Gesetzlich geschuldete USt (kein Abzug bei § 14c UStG), ordnungsgemäße Rechnung mit allen Pflichtangaben und rückwirkende Berichtigung, Rechnungen von Nichtunternehmern, Anschrift des Leistenden, ausgeführte Leistung und Anzahlungsrechnung, Leistung für das Unternehmen des LE und Problemfälle (Arbeitnehmer, Ehegatten, Gesellschaft/Gesellschafter)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 11 und A 12"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1 Nr. 1 Satz 3 UStG", "§ 14 Abs. 4 UStG", "§ 14c Abs. 1 und 2 UStG", "§ 15a UStG", "Abschn. 15.2a Abs. 2 und 7 UStAE", "Abschn. 15.2b Abs. 1 und 3 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Rechnung", "Leistungsempfänger"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 11 – 4. Vorsteuerabzug aus Rechnungen (§ 15 (1) 1) – Voraussetzungen" },
+      { typ: "tabelle", spalten: ["I.", "II.", "III.", "IV."], zeilen: [["LE (Untern.) besitzt über gesetzlich geschuldete USt eine", "ordnungsgemäße Rechnung nach § 14 UStG mit offenem Ausweis der USt", "von einem anderen Unternehmer", "für eine ausgeführte Leistung für das Unternehmen des LE"]] },
+      { text: "**Zu I. gesetzlich geschuldete USt – Überhöhter Steuerausweis:** Vorst nur, wenn USt für den berechneten Umsatz (kraft Gesetz) geschuldet wird (§ 15 Abs. 1 Nr. 1 UStG). ➔ **Keine Vorst in Fällen des § 14c Abs. 1 und 2 UStG**." },
+      { text: "**Zu II. ordnungsgemäße Rechnung mit Steuerausweis – Rechnungsbegriff:** Rechnung / Gutschrift muss **alle 8 (Pflicht)Angaben** nach § 14 Abs. 4 UStG enthalten (also vollständig + richtig sein) (so in der Quelle; § 14 Abs. 4 Satz 1 UStG zählt die Pflichtangaben in Nr. 1 bis 10 auf, von denen einige nur in Sonderfällen gelten). Fehlt eine Angabe = **Keine Berechtigung** zum Vorsteuerabzug.\n**Rechnungsberichtigung:** Rechnungsberichtigung kann gem. Abschn. 15.2a Abs. 7 UStAE auf den Zeitpunkt **zurückwirken**, in dem die Rechnung erstmals ausgestellt wurde. Zu den Einzelheiten vgl. BMF v. 18.09.2020, BStBl I S. 976 (vgl. A 19)" },
+      { text: "**Zu III. Von einem anderen Unternehmer – Rechnungen von Nichtunternehmern:** **Kein Vorsteuerabzug** möglich. **Kein Gutglaubenschutz**. Bescheinigungen des FA / Gemeinde usw. unerheblich." },
+      { typ: "titel", text: "Arbeitspapier A 12" },
+      { text: "**Name und Anschrift LU:** Vollständige Anschrift = jede Art von Anschrift, einschließlich einer **Briefkastenanschrift**. Tatsächliche wirtschaftliche Aktivitäten oder eine reale Präsenz des Geschäfts des LU nicht notwendig (Abschn. 15.2a Abs. 2 UStAE)." },
+      { text: "**Zu IV. Für ausgeführte Leistung für das Unternehmen – Leistungsausführung (zeitlich):** **Erfüllungsgeschäft** muss vom LU erbracht sein. **Ausnahme:** ⇨ **Anzahlungsrechnung** – Voraussetzungen gem. § 15 Abs. 1 Nr. 1 Satz 3, dass\n1) eine Rechnung mit gesondertem USt-Ausweis vorliegt und „insoweit“\n2) die Zahlung vor Leistungsausführung geleistet worden ist." },
+      { typ: "tabelle", spalten: ["für das Unternehmen", "des LE"], zeilen: [
+        ["Zuordnung der Leistung zum Unternehmen (vgl. Übersichten A 3 bis A 5)", "LE = der vertraglich Verpflichtete (Abschn. 15.2b Abs. 1 UStAE) ☞ Nur er ist zum Vorsteuerabzug berechtigt"],
+        ["Maßgebend Verhältnisse im Zeitpunkt des Leistungsbezugs (Anschaffung privat, später Einlage ⇨ Keine Vorsteuern, auch kein § 15a UStG)", "Problemfälle: Arbeitgeber oder Arbeitnehmer; Ehegattengemeinschaft (Bruchteilsgemeinschaft / Kostenteilungsgemeinschaft, vgl. A 13 bis A 17); LE Gesellschaft oder Gesellschafter (vgl. A 18)"],
+        ["✍ lesen Abschn. 15.2b Abs. 3 UStAE", ""],
+      ] },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];
