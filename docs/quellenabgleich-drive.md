@@ -10623,6 +10623,32 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: IX.2.4 bis IX.3.3
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-46` (IX.2.4 ausländische
+Lieferketten), `ust-m-b10-47` (IX.2.5 bis IX.2.7 Vermittler, Parkchips, Apotheken), `ust-m-b10-48`
+(IX.3/IX.3.1 Uneinbringlichkeit mit substantiiertem Bestreiten) und `ust-m-b10-49` (IX.3.2
+Ratenzahlung, IX.3.3 Anzahlungen) für die PDF-Seiten 134 bis 140. Keine Bilder auf diesen Seiten.
+Stand des USt-Skripts: 11 Teile, 382 Kapitel, 5397 Blöcke, 276 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- IX.3: die Verweise „(vgl. 3.1)“ bis „(vgl. 3.5)“ passen nicht zur folgenden Gliederung
+  (3.2 Ratenzahlung, 3.3 Anzahlungen, 3.4 Rückgängigmachung).
+- IX.3.1 Beispiel Altforderungen: „§ 17 Abs. 1 Satz 7 UStG“; nach der aktuellen Satzzählung Satz 8
+  (so auch die Quelle in IX.2).
+
+**Nachgerechnet (eigene Ergänzung):** BFH XI B 10/14: 80 T€ : 500 T€ = 16 % (Regelsteuersatz bis
+2006).
+
+**Stillschweigend berichtigt:** „ER ist insoweit“, fehlende Klammer nach „04.12.2014“, fehlende
+Schlusspunkte, „Durch das JStG 2020, hat“, „ein Parkchip“, „Drein-gabe“ mit geraden
+Anführungszeichen, „Abgabe von Arzneimittel“, „eine steuerpflichtige Lieferung, sonstige Leistung,
+oder“, „Abschn. 17. 1“, „Erfüllungs Statt“, „entscheiden“ (mehrfach, entschieden), „1.7 Mio. DM“,
+fehlendes schließendes Anführungszeichen „„Schlussrechnung gemäß § 14 Abs. 2 UStG.“, „vorzunehmen
+ist“ (doppeltes „ist“), „wenn bei die USt“ (dabei), „Nr.1a“, Leerzeichen in Klammern.
+
+**Weiter mit:** IX.3.4 Rückgängigmachung (PDF-Seite 140 unten).
+
 ### USt-Skript (Moecker), Block 10: IX. bis IX.2.3 (§ 17 UStG)
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-42` (IX./IX.1/IX.2 Tatbestand),

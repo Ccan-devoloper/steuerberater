@@ -2446,7 +2446,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Reiseleistungen nach § 25 UStG, der Differenzbesteuerung nach § 25a UStG und der
   Kleinunternehmerregelung ab 2025 samt grenzüberschreitendem Kleinunternehmer nach § 19a UStG,
   dem ermäßigten Steuersatz nach § 12 Abs. 2 UStG, dem Nullsteuersatz für PV-Anlagen und der
-  Änderung der BMG nach § 17 UStG bis zu den Gutscheinen (45 Kapitel).
+  Änderung der BMG nach § 17 UStG bis zu den Anzahlungen ohne Leistung (49 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
