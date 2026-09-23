@@ -756,16 +756,16 @@
       "veroeffentlicht": "2026-09-06T05:46:05.229Z",
       "karteUrl": null,
       "insights": {
-        "reach": 21,
-        "saved": 1,
+        "reach": 37,
+        "saved": 3,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 4,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 2
       },
-      "insightsStand": "2026-09-15T05:43:56.025Z"
+      "insightsStand": "2026-09-23T05:44:16.453Z"
     },
     {
       "datum": "2026-09-06",
@@ -791,7 +791,7 @@
       "veroeffentlicht": "2026-09-06T05:48:50.139Z",
       "karteUrl": null,
       "insights": {
-        "reach": 16,
+        "reach": 23,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -800,7 +800,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-15T05:43:56.395Z"
+      "insightsStand": "2026-09-23T05:44:16.789Z"
     },
     {
       "datum": "2026-09-06",
@@ -816,7 +816,7 @@
       "veroeffentlicht": "2026-09-06T06:01:41.114Z",
       "karteUrl": null,
       "insights": {
-        "reach": 15,
+        "reach": 25,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -825,7 +825,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-15T05:43:56.842Z"
+      "insightsStand": "2026-09-23T05:44:17.091Z"
     },
     {
       "datum": "2026-09-07",
@@ -841,7 +841,7 @@
       "veroeffentlicht": "2026-09-07T05:45:45.891Z",
       "karteUrl": null,
       "insights": {
-        "reach": 22,
+        "reach": 33,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -850,7 +850,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-15T22:26:53.856Z"
+      "insightsStand": "2026-09-23T05:44:17.394Z"
     },
     {
       "datum": "2026-09-07",
@@ -876,7 +876,7 @@
       "veroeffentlicht": "2026-09-07T10:44:57.068Z",
       "karteUrl": null,
       "insights": {
-        "reach": 21,
+        "reach": 31,
         "saved": 1,
         "shares": 0,
         "likes": 3,
@@ -885,7 +885,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-15T22:26:54.250Z"
+      "insightsStand": "2026-09-23T05:44:17.681Z"
     },
     {
       "datum": "2026-09-07",
@@ -911,16 +911,16 @@
       "veroeffentlicht": "2026-09-07T10:47:47.097Z",
       "karteUrl": null,
       "insights": {
-        "reach": 19,
+        "reach": 30,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-09-15T22:26:54.607Z"
+      "insightsStand": "2026-09-23T05:44:17.909Z"
     },
     {
       "datum": "2026-09-07",
@@ -936,7 +936,7 @@
       "veroeffentlicht": "2026-09-07T10:58:44.984Z",
       "karteUrl": null,
       "insights": {
-        "reach": 18,
+        "reach": 24,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -945,7 +945,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-15T22:26:55.017Z"
+      "insightsStand": "2026-09-23T05:44:18.214Z"
     },
     {
       "datum": "2026-09-07",
@@ -961,16 +961,16 @@
       "veroeffentlicht": "2026-09-07T11:09:01.956Z",
       "karteUrl": null,
       "insights": {
-        "reach": 26,
+        "reach": 38,
         "saved": 2,
         "shares": 0,
         "likes": 3,
         "comments": 0,
         "total_interactions": 5,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-09-15T22:26:55.353Z"
+      "insightsStand": "2026-09-23T05:44:18.471Z"
     },
     {
       "datum": "2026-09-08",
@@ -2044,7 +2044,7 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-09-22T05:43:55.881Z",
+      "insightsStand": "2026-09-23T05:44:18.891Z",
       "insightsAlterStunden": 167
     },
     {
@@ -2101,7 +2101,7 @@
       "dauer": 66,
       "veroeffentlicht": "2026-09-14T10:47:56.849Z",
       "insights": {
-        "reach": 55,
+        "reach": 56,
         "saved": 3,
         "shares": 0,
         "likes": 2,
@@ -2112,7 +2112,7 @@
         "ig_reels_video_view_total_time": 1329169,
         "reels_skip_rate": 55
       },
-      "insightsStand": "2026-09-22T05:43:56.749Z",
+      "insightsStand": "2026-09-23T05:44:19.731Z",
       "insightsAlterStunden": 162.9
     },
     {
@@ -2269,7 +2269,7 @@
       "veroeffentlicht": "2026-09-15T10:11:55.777Z",
       "karteUrl": null,
       "insights": {
-        "reach": 30,
+        "reach": 32,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -2278,7 +2278,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-22T06:43:48.601Z",
+      "insightsStand": "2026-09-23T05:44:20.170Z",
       "insightsAlterStunden": 164.5
     },
     {
@@ -2355,7 +2355,7 @@
       "dauer": 99.2,
       "veroeffentlicht": "2026-09-15T19:51:02.969Z",
       "insights": {
-        "reach": 168,
+        "reach": 169,
         "saved": 2,
         "shares": 0,
         "likes": 1,
@@ -2366,7 +2366,7 @@
         "ig_reels_video_view_total_time": 1963598,
         "reels_skip_rate": 73.8
       },
-      "insightsStand": "2026-09-22T06:43:48.601Z",
+      "insightsStand": "2026-09-23T05:44:20.906Z",
       "insightsAlterStunden": 154.9
     },
     {
@@ -2420,7 +2420,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-22T06:43:48.601Z",
+      "insightsStand": "2026-09-23T05:44:21.129Z",
       "insightsAlterStunden": 143.8
     },
     {
@@ -2468,7 +2468,7 @@
         "ig_reels_video_view_total_time": 1126619,
         "reels_skip_rate": 65.8
       },
-      "insightsStand": "2026-09-22T06:43:48.601Z",
+      "insightsStand": "2026-09-23T05:44:21.970Z",
       "insightsAlterStunden": 143.8
     },
     {
@@ -2593,7 +2593,7 @@
       "veroeffentlicht": "2026-09-17T06:45:16.627Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-17/2026-09-17-b1-02-mu55zdq2.jpg",
       "insights": {
-        "reach": 40,
+        "reach": 42,
         "saved": 4,
         "shares": 0,
         "likes": 2,
@@ -2602,7 +2602,7 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-09-22T06:43:48.601Z",
+      "insightsStand": "2026-09-23T05:44:22.262Z",
       "insightsAlterStunden": 120
     },
     {
@@ -2682,7 +2682,7 @@
       "dauer": 59.8,
       "veroeffentlicht": "2026-09-17T10:47:42.360Z",
       "insights": {
-        "reach": 49,
+        "reach": 50,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -2693,7 +2693,7 @@
         "ig_reels_video_view_total_time": 968180,
         "reels_skip_rate": 67.9
       },
-      "insightsStand": "2026-09-22T06:43:48.601Z",
+      "insightsStand": "2026-09-23T05:44:23.057Z",
       "insightsAlterStunden": 115.9
     },
     {
@@ -2805,7 +2805,7 @@
       "veroeffentlicht": "2026-09-18T06:44:58.303Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-18/2026-09-18-b1-02-mu6lezs7.jpg",
       "insights": {
-        "reach": 27,
+        "reach": 28,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -2814,7 +2814,7 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-22T06:43:48.601Z",
+      "insightsStand": "2026-09-23T05:44:23.351Z",
       "insightsAlterStunden": 96
     },
     {
@@ -2874,18 +2874,18 @@
       "dauer": 70,
       "veroeffentlicht": "2026-09-18T10:48:00.561Z",
       "insights": {
-        "reach": 64,
+        "reach": 65,
         "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 3,
         "views": 98,
-        "ig_reels_avg_watch_time": 12572,
-        "ig_reels_video_view_total_time": 1093786,
+        "ig_reels_avg_watch_time": 12450,
+        "ig_reels_video_view_total_time": 1095622,
         "reels_skip_rate": 58.9
       },
-      "insightsStand": "2026-09-22T07:43:35.759Z",
+      "insightsStand": "2026-09-23T05:44:23.982Z",
       "insightsAlterStunden": 92.9
     },
     {
@@ -2984,7 +2984,7 @@
         "follows": 1,
         "profile_visits": 5
       },
-      "insightsStand": "2026-09-23T05:44:09.461Z",
+      "insightsStand": "2026-09-23T05:44:24.239Z",
       "insightsAlterStunden": 93
     },
     {
@@ -3142,7 +3142,7 @@
         "ig_reels_video_view_total_time": 1307453,
         "reels_skip_rate": 69.9
       },
-      "insightsStand": "2026-09-23T05:44:09.461Z",
+      "insightsStand": "2026-09-23T05:44:25.105Z",
       "insightsAlterStunden": 90.9
     },
     {
@@ -3326,7 +3326,7 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-09-23T05:44:09.461Z",
+      "insightsStand": "2026-09-23T05:44:25.343Z",
       "insightsAlterStunden": 71
     },
     {
@@ -3484,7 +3484,7 @@
         "ig_reels_video_view_total_time": 1273688,
         "reels_skip_rate": 78.2
       },
-      "insightsStand": "2026-09-23T05:44:09.461Z",
+      "insightsStand": "2026-09-23T05:44:26.097Z",
       "insightsAlterStunden": 67.5
     },
     {
