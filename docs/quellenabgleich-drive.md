@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: I.4.2 bis I.5
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-7` (I.4.2 Preisauffüllung,
+Beispiele 5 bis 7 mit Gerätebonus), `ust-m-b10-8` (I.4.3 echter Zuschuss, EuGH C-215/94) und
+`ust-m-b10-9` (I.5 BMG beim innergemeinschaftlichen Erwerb, Beispiel Cognac) für die
+PDF-Seiten 84 bis 88. Stand des USt-Skripts: 11 Teile, 342 Kapitel, 4873 Blöcke, 268 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- Gerätebonus als „Entgelt eines Dritten i.S. des § 10 Abs. 1 Satz 3 UStG“; nach der unter
+  I.1 verwendeten Zählung § 10 Abs. 1 Satz 2 UStG.
+- Verbrauchsteuern beim innergemeinschaftlichen Erwerb „§ 10 Absatz 1 Satz 4 UStG“ (zweimal);
+  unter I.1 zutreffend Satz 3.
+
+**Nachgerechnet (eigene Ergänzung):** Cognac 4.000 € + 400 € = 4.400 €, USt 836 € – stimmt.
+
+**Stillschweigend berichtigt:** fehlendes Komma „auswählen den Preis“, „5,- €“, „gezahlte
+Betrag“ (des … gezahlten Betrags), „USt ).Es“, „Schwerbehinderte“ (Dativ), englische
+Anführungszeichen, „(Abschluss)Provision“, „bzw.“ mit Komma, „Tätigkeitauszuüben“,
+„RS C 215/94“, „§ 4 Nr. 1 b i.V.m. §6a“, „Erwerb➔“, „§ 1 a“, „§ 4 b“, fehlendes Komma nach
+„bei Zahlung)“, „Beispiel :“.
+
+**Weiter mit:** II. BMG beim Tausch / tauschähnlichen Umsatz (PDF-Seite 88).
+
 ### USt-Skript (Moecker), Block 10: I.2 bis I.4.1
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-3` (I.2 Vertragsstrafen mit

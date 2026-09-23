@@ -5,7 +5,7 @@
    BMG – Vers. 1.1.26 – Red. 08/25“, „Vers.01.01.26-Red.-Stand 09-25“ und „Red. StB 58 / BMG –
    Steuersatz - § 17 - Vers. 01.01.26 / Stand 09-25“, PDF-Seiten 77 bis 180 der gemeinsamen
    Datei.
-   In Arbeit: eingepflegt bis I.4.1 (unechter Zuschuss, Fall 1), PDF-Seiten 77 bis 84. */
+   In Arbeit: eingepflegt bis I.5 (BMG beim innergemeinschaftlichen Erwerb), PDF-Seiten 77 bis 88. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -225,6 +225,78 @@ export const block10 = [
       { text: "**Beispiel 2:** Ein **Mieter** gibt dem Hausbesitzer einen **Baukosten-Zuschuss i.H.v. 5.000 €**. **Lösung:** Hier handelt es sich um ein **zusätzliches Entgelt für die Vermietung**." },
       { text: "**Beispiel 3:** Ein **privates Forschungsinstitut** erhält von einem **Bundesministerium** den Auftrag, ein bestimmtes Gutachten zu erstellen und hierfür Forschung zu betreiben. Für das „konkrete“ Gutachten und die „konkreten“ Forschungsergebnisse erhält das Institut einen Zuschuss. **Lösung:** Der Zuschuss ist als **Leistungsentgelt** anzusehen, sofern das Forschungsinstitut die Fördermittel für die **konkreten Ergebnisse** im Gutachten erhält (Abschn. 10.2 Abs. 2 Bsp. 3 UStAE)." },
       { text: "**Beispiel 4:** Zuschussgewährung einer **Stadt zur Errichtung und zum Betreiben einer Tiefgarage** ➔ vgl. Abschn. 10.2 Abs. 2 Beispiel 2 UStAE" },
+    ],
+  },
+  {
+    id: "ust-m-b10-7",
+    teil: TEIL,
+    kapitel: "7",
+    abschnittNr: "I.4.2",
+    title: "I.4.2 Unechter Zuschuss: Preisauffüllung durch Zuschussgeber (Fall 2)",
+    thema: "Zusätzliches Entgelt eines Dritten (Rechtsanspruch des Leistungsempfängers, öffentlich-rechtliche Verpflichtung, Interesse des Leistungsempfängers), Beispiele Essenszuschuss des Arbeitgebers, Schwerbehindertenbeförderung, Gerätebonus beim Mobilfunkvertrag (BFH vom 16.10.2013, BMF vom 04.12.2014) mit Hinweis zur vertraglichen Entkopplung (BMF vom 23.01.2024)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.4.2"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b Satz 1 Nr. 3 UStG", "§ 10 Abs. 1 Satz 2 UStG", "§ 12 Abs. 2 Nr. 10 UStG", "§ 15 UStG", "Abschn. 3.3 Abs. 1 UStAE", "Abschn. 10.2 Abs. 3 und Abs. 5 Satz 7 bis 9 UStAE", "Abschn. 15.2 Abs. 15a UStAE", "Abschn. 15.15 UStAE", "BFH, Urteil vom 16.10.2013", "BMF-Schreiben vom 04.12.2014", "BMF-Schreiben vom 23.01.2024"],
+    themen: ["Bemessungsgrundlage", "Unechter Zuschuss", "Entgelt von dritter Seite", "Preisauffüllung", "Gerätebonus"],
+    bloecke: [
+      { typ: "titel", text: "I.4.2 Unechter Zuschuss: Preisauffüllung durch Zuschussgeber (Fall 2)" },
+      { text: "**Zusätzliches Entgelt eines Dritten** sind solche Zahlungen, die von einem **anderen als dem LE** für die Leistung des leistenden Unternehmers (LU) gewährt werden. Zusätzliches Entgelt liegt vor (Abschn. 10.2 Abs. 3 UStAE), • wenn der **LE auf die Zahlung einen Rechtsanspruch** hat (die Zahlung aber unmittelbar an den LU erfolgt), • der Zuschuss an den LE **in Erfüllung einer öffentlich-rechtlichen Verpflichtung** gewährt wird (die Zahlung aber unmittelbar an den LU erfolgt) • oder zumindest **im Interesse des LE** direkt an den LU gezahlt wird." },
+      { text: "**Beispiel 5:** **Arbeitnehmer** zahlen aufgrund arbeitsvertraglicher Regelungen für das Essen, das sie in einer **Gaststätte** auswählen, den Preis laut Karte, **abzüglich 5 €**. Diesen Betrag erhält der Gastwirt vertragsgemäß **vom Arbeitgeber erstattet**." },
+      { text: "**Lösung:** Der Gastwirt bewirkt eine sonstige Leistung an die Arbeitnehmer. **BMG ist der vom Arbeitnehmer gezahlte Betrag zzgl. des vom Arbeitgeber gezahlten Betrags i.H.v. 5 € pro Essen** (jedoch abzüglich der darin enthaltenen richtigen USt). Es handelt sich um einen **unechten Zuschuss**." },
+      { text: "**Beispiel 6:** Der **Beförderungsunternehmer M** ist im Personennahverkehr (genehmigter Linienverkehr) tätig. Nach einer Regelung mit dem **Land B** befördert er **Schwerbehinderte, ohne diesen einen Fahrpreis zu berechnen**. Das Land B ersetzt ihm die entsprechenden Fahrpreise für die „unentgeltlich“ beförderten Schwerbehinderten." },
+      { text: "**Lösung:** Der Zuschuss, der vom Bundesland B für die kostenlose Beförderung von Schwerbehinderten an den Beförderungsunternehmer M gezahlt wird, ist für M ein **steuerbares Entgelt von einem Dritten**. **Entgelt = Zuschuss abzüglich Umsatzsteuer (Steuersatz 7 % gem. § 12 Abs. 2 Nr. 10 UStG).**" },
+      { text: "**Beispiel 7** (BFH-Urteil v. 16.10.2013; BMF 04.12.2014; Abschn. 10.2 Abs. 5 S. 7 + 8 UStAE): **Unternehmer A vermittelt Mobilfunkverträge** zwischen Kunden und verschiedenen Mobilfunkanbietern. Er bot Mobilfunkverträge an, bei denen er den von ihm vermittelten Kunden bei Abschluss eines Mobilfunkvertrages ein **Mobilfunktelefon (Handy) ohne Berechnung** zur Verfügung stellte; allerdings mussten die Kunden dafür **höhere Gebühren an den Mobilfunkanbieter** zahlen. Schloss der Kunde einen Vertrag über einen Tarif mit Handy ab, zahlte der jeweilige Mobilfunkanbieter an A zusätzlich zu der „Provision“ einen weiteren Betrag – als **„Gerätebonus“**." },
+      { text: "**Lösung:** Liefert ein Vermittler von Mobilfunkverträgen den Kunden bei Abschluss eines Mobilfunkvertrages „kostenlos“ Mobilfunktelefone oder sonstige Elektronikartikel, ist der von dem Mobilfunkanbieter an den Vermittler hierfür gezahlte Aufschlag auf die Vermittlungsprovision (**Gerätebonus**) **Entgelt eines Dritten** i.S. des § 10 Abs. 1 Satz 3 UStG (so in der Quelle; nach der geltenden Zählung § 10 Abs. 1 Satz 2 UStG, vgl. I.1) **für die Lieferung des Vermittlers an den Kunden**. In diesem Fall liegt **keine umsatzsteuerbare unentgeltliche Wertabgabe** i.S. des § 3 Abs. 1b Satz 1 Nr. 3 UStG des Vermittlers von Mobilfunkverträgen an den Kunden vor." },
+      { text: "**Hinweis zu Beispiel 7:** Wird zwischen dem Mobilfunkunternehmen und dem Vermittler jedoch ein Vertrag geschlossen, nach dem das Mobilfunkunternehmen dem Vermittler eine (Abschluss-)Provision **unabhängig von der Abgabe eines Mobilfunkgeräts (vertragliche Entkopplung)** an den Endkunden zahlt, stellt die Provision **insgesamt Entgelt für die Vermittlungsleistung** dar (Abschn. 10.2 Abs. 5 Satz 9 i.d.F. BMF-Schreiben vom 23.01.2024). In diesen Fällen dürfte bei unentgeltlicher Abgabe von Mobilfunkgeräten an Kunden, die einen Mobilfunkvertrag mit einem Mobilfunkunternehmen abgeschlossen haben, vom Vermittler des Mobilfunkvertrags eine **UWA nach § 3 Abs. 1b Nr. 3 UStG** zu versteuern sein, wenn der Abgabe des Geräts keine Gegenleistung des Kunden bzw. des Mobilfunkanbieters zugrunde liegt. Hat der Unternehmer bei Leistungsbezug bereits beabsichtigt, die Mobilfunkgeräte **ausschließlich und unmittelbar für eine UWA** zu verwenden, besteht bei Leistungsbezug bereits **keine Berechtigung zum Vorsteuerabzug** nach § 15 UStG (vgl. Abschn. 3.3 Abs. 1, Abschn. 15.2 Abs. 15a und Abschn. 15.15 UStAE). Dies gilt selbst dann, wenn die UWA mittelbar der unternehmerischen Gesamttätigkeit dient." },
+    ],
+  },
+  {
+    id: "ust-m-b10-8",
+    teil: TEIL,
+    kapitel: "8",
+    abschnittNr: "I.4.3",
+    title: "I.4.3 Echter Zuschuss",
+    thema: "Nicht steuerbare Zuwendungen ohne Leistungsaustausch (Beispiel Verein V mit Sportanlage der Gemeinde G, BFH V R 17/20; Ausbildungszuschuss des Arbeitsamts), Zuschüsse der öffentlichen Hand (EuGH vom 29.02.1996 – C-215/94, Milchaufgabevergütung) und der Grundsatz des identifizierbaren Verbrauchers",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.4.3"),
+    verfasser: VERFASSER,
+    normen: ["§ 10 Abs. 1 UStG", "Abschn. 10.2 Abs. 7 bis 10 UStAE", "BFH, Urteil vom 18.11.2021 – V R 17/20", "EuGH, Urteil vom 29.02.1996 – C-215/94", "VO (EWG) Nr. 1336/86"],
+    themen: ["Bemessungsgrundlage", "Echter Zuschuss", "Subventionen", "Öffentliche Hand"],
+    bloecke: [
+      { typ: "titel", text: "I.4.3 Echter Zuschuss" },
+      { text: "➔ **Grundsatz:** Nicht steuerbare Zuschüsse (**echte Zuschüsse**) sind Zuwendungen, die **nicht auf einem Leistungsaustausch** beruhen, sondern **unabhängig von einer bestimmten Leistung** gewährt werden, um dem Empfänger die „Mittel“ zu verschaffen, die er z.B. zur Erfüllung von im allgemeinen öffentlichen Interesse liegenden Aufgaben benötigt oder Zahlungsempfänger ganz allgemein in die Lage zu versetzen, überhaupt unternehmerisch tätig werden zu können." },
+      { text: "**Beispiel:** (Abschn. 10.2 Abs. 7) Dem **Verein V** wird nach einem mit der **Gemeinde G** geschlossenen Nutzungsvertrag eine **Sportanlage zur langfristigen Eigennutzung unentgeltlich** zur Verfügung gestellt. V hat gegenüber G **keine konkreten Betreiberleistungen** wie z. B. die Vorhaltung bestimmter Sportangebote zu erbringen. V erhält von G eine **pauschale Kostenerstattung** für die Bewirtschaftung." },
+      { text: "**Lösung:** Die Zahlungen von G stellen einen **echten nicht steuerbaren Zuschuss** dar. G verfolgt mit diesen Zahlungen den Zweck, die Tätigkeit von V **allgemein zu fördern** und V in die Lage zu versetzen, seine gemeinnützige Tätigkeit auszuüben (vgl. BFH-Urteil vom 18.11.2021 – V R 17/20)." },
+      { text: "Zuschüsse sind z.B. **allgemeine Subventionen (Investitionszulage), Beihilfen, Förderungsprämien** und dergleichen, die ein Unternehmer als Anerkennung oder zur Förderung seiner im allgemeinen Interesse liegenden Tätigkeiten **ohne Bindung an bestimmte Umsätze** erhält." },
+      { text: "**Beispiel:** Das **Arbeitsamt Stralsund** gewährt Unternehmern, die **vermehrt Auszubildende** einstellen, einen Zuschuss nach dem Arbeitsförderungsgesetz (so genannte Arbeitsplatzbeschaffungsmaßnahme – ABM)." },
+      { text: "**Lösung:** Auch hier liegen **echte, nichtsteuerbare Zuschüsse aus öffentlichen Mitteln** von der BfA an die betreffenden Unternehmer vor. Ein Leistungsaustauschverhältnis ist nicht gegeben. Die empfangenen Gelder führen bei den Unternehmern zu **keinen steuerbaren Vorgängen**. **Ertragsteuerlich** hat sie der Unternehmer jedoch **als Einnahme** zu erfassen. Hinweis auf Abschnitt 10.2 Absätze 7 und 8 UStAE." },
+      { text: "➔ **Zuschüsse der öffentlichen Hand** (Abschn. 10.2 Abs. 8 bis 10 UStAE): Der **EuGH** hat mit **Urteil vom 29.2.1996** (Rs. C-215/94, UR 1996, S. 119) entschieden, dass die Abgrenzung zwischen steuerbarem und nicht steuerbarem Zuschuss **bereits am Tatbestandsmerkmal der Leistung** zu erfolgen habe: „Die Verpflichtung zur Aufgabe der Milcherzeugung, die ein Landwirt im Rahmen der Milchaufgabeverordnung (VO (EWG) Nr. 1336/86 des Rates vom 6.5.1986) zur Festsetzung einer Vergütung bei der endgültigen Aufgabe der Milcherzeugung eingeht, stellt keine Dienstleistung (Anm.: nach deutschem Sprachgebrauch „sonstige Leistung“) dar. Die dafür erhaltene Vergütung ist folglich nicht umsatzsteuerpflichtig.“" },
+      { text: "**Die Thesen des EuGH lassen sich wie folgt zusammenfassen:** ➢ Die Mehrwertsteuer ist eine **allgemeine Verbrauchsteuer** auf Gegenstände und Dienstleistungen. ➢ In den Fällen, in denen beispielsweise ein Landwirt für die Aufgabe einer Milcherzeugung oder die Nichtbewirtschaftung einer landwirtschaftlichen Agrarfläche einen Zuschuss erhält, gibt es **keinen Verbrauch** i.S.d. gemeinschaftlichen Mehrwertsteuersystems. ➢ Sofern ein Ausgleich an die Landwirte gezahlt wird, werden keine Gegenstände durch die Gemeinschaft erworben oder Dienstleistungen zur eigenen Verwendung empfangen. Vielmehr handelt der Zuschussgeber, die öffentliche Hand, **im allgemeinen Interesse** an der Förderung des ordnungsgemäßen Funktionierens z.B. des Milchmarktes der Gemeinschaft. ➢ Der Landwirt erbringt **keine Leistung an einen Leistungsempfänger**, da weder die Allgemeinheit noch die zuständigen nationalen Stellen Vorteile aus den Handlungen der Landwirte erlangen, aufgrund derer sie als Empfänger einer Dienstleistung angesehen werden können." },
+      { text: "Nicht entscheidend ist also, ob eine Leistung im öffentlichen Interesse liegt, sondern ob ein **individueller Leistungsempfänger** da ist, der aus der Leistung einen **Vorteil** zieht, der Gegenstand eines Leistungsaustausches sein kann. Unter Beachtung der EuGH-Rechtsprechung und der Auslegung des BFH hierzu gilt damit folgender **Grundsatz:** **Erbringt ein Subventionsempfänger keinem identifizierbaren Verbraucher gegenüber einen Vorteil, liegt keine Dienstleistung vor. Nur in diesen Fällen zählen Zuschüsse aus öffentlichen Kassen grundsätzlich nicht zum steuerpflichtigen Entgelt!**" },
+    ],
+  },
+  {
+    id: "ust-m-b10-9",
+    teil: TEIL,
+    kapitel: "9",
+    abschnittNr: "I.5",
+    title: "I.5 Bemessungsgrundlage beim innergemeinschaftlichen Erwerb",
+    thema: "Aufgewendetes Entgelt an den Lieferanten als Nettobetrag, Nebenkosten des Lieferers, keine Leistungsbezüge von Dritten, Zahlungsabzüge und spätere Änderung nach § 17 UStG, Einbeziehung der Verbrauchsteuern (Beispiel Cognac aus Frankreich mit Branntweinsteuer)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.5"),
+    verfasser: VERFASSER,
+    normen: ["§ 1a Abs. 5 UStG", "§ 4 Nr. 1 Buchst. b UStG", "§ 4b UStG", "§ 6a UStG", "§ 10 Abs. 1 Satz 1 und 3 UStG", "§ 17 Abs. 1 Satz 1 und 2 UStG", "Abschn. 10.1 UStAE"],
+    themen: ["Bemessungsgrundlage", "Innergemeinschaftlicher Erwerb", "Verbrauchsteuern", "Nebenkosten"],
+    bloecke: [
+      { typ: "titel", text: "I.5 Bemessungsgrundlage beim innergemeinschaftlichen Erwerb" },
+      { text: "**BMG für den innergem. Erwerb ist das aufgewendete Entgelt des Erwerbers an den Lieferanten** (§ 10 Absatz 1 Satz 1 UStG und Abschnitt 10.1 UStAE). Der Lieferant im übrigen Gemeinschaftsgebiet führt bei einer Lieferung nach Deutschland im Ursprungsland eine **steuerfreie innergem. Lieferung** aus (analog § 4 Nr. 1b i.V.m. § 6a UStG), da der unternehmerische Leistungsempfänger im Bestimmungsland der Erwerbsbesteuerung unterliegt. Die Rechnung des Lieferanten aus dem übrigen Gemeinschaftsgebiet enthält keine deutsche USt, die ggf. herauszurechnen wäre. Der Rechnungsbetrag ist damit ein **Nettobetrag**." },
+      { text: "Werden vom Lieferanten aus dem übrigen Gemeinschaftsgebiet noch ➔ **Nebenkosten** berechnet, so gehören sie auch zum Entgelt. Als solche kommen in Betracht: • Verpackungskosten und Transportkosten des Lieferers, • Porto und Versicherungskosten des Lieferers. **Leistungsbezüge durch andere Unternehmer** gehören zwar ertragsteuerlich ggf. zu den Anschaffungsnebenkosten, **nicht jedoch zur BMG** für den innergem. Erwerb. Der Erwerber wendet insoweit kein Entgelt an den Lieferanten für die Lieferung an den Erwerber auf." },
+      { text: "Das Entgelt für den innergemeinschaftlichen Erwerb wird durch ➔ **Zahlungsabzüge wie Skonto, Rabatt oder Boni** entsprechend der Handlungsweise bei Lieferungen und so. Leistungen **gemindert**. ➔ Ändert sich die Bemessungsgrundlage **in einem späteren Zeitraum** (z.B. Skonto, Rabatte usw. bei Zahlung), so ist unter Beachtung des **§ 17 Abs. 1 Satz 1 UStG** eine Berichtigung der USt im Zeitraum durchzuführen, in dem die Änderung eingetreten ist. Gleichzeitig ergibt sich eine **Korrektur der Vorsteuer gem. § 17 Abs. 1 Satz 2 UStG**." },
+      { text: "Nach § 10 Absatz 1 Satz 4 UStG (so in der Quelle; unter I.1 zutreffend § 10 Abs. 1 Satz 3 UStG) sind beim innergemeinschaftlichen Erwerb ➔ **Verbrauchsteuern, die vom Erwerber geschuldet oder entrichtet werden, in die BMG einzubeziehen**. Es handelt sich einerseits um die in **§ 1a Absatz 5 UStG** genannten Verbrauchsteuern auf **Mineralöle, Alkohol, alkoholische Getränke und Tabakwaren** und andererseits um alle anderen Verbrauchsteuern, die entweder im Ursprungsland oder in Deutschland als Empfängerland erhoben werden." },
+      { text: "**Beispiel:** Der **Berliner Getränkegroßhändler Schwips** bestellt beim **französischen Weinbrenner Chez Daniel aus Ardèche 100 Flaschen Cognac**. Dieser transportiert den Cognac in ein **geschlossenes Zoll-Verbrauchsteuerlager** (jedoch kein Umsatzsteuerlager) des Schwips im Frachtzentrum des Flughafens Frankfurt. Chez Daniel berechnet **insges. 4.000 €**. Als Schwips die Ware aus dem Zoll-Verbrauchsteuerlager am Flughafen zum Zwecke der Weiterlieferung an private Endverbraucher entnimmt, fällt noch **Branntweinsteuer beim Zoll in Höhe von 400 €** an, die Schwips unmittelbar an den deutschen Zoll entrichtet." },
+      { text: "**Lösung:** Schwips tätigt mit dem Kauf der 100 Flaschen Cognac von dem Franzosen Chez Daniel einen **innergem. Erwerb**. Die Ware in dem geschlossenen Zolllager war bisher noch nicht mit Verbrauchsteuern belastet worden. Bei der Entnahme aus diesem Zolllager fällt **Branntweinsteuer als Verbrauchsteuer** an. Erhebungsberechtigt ist das **Bestimmungsland (Verbrauchsland)**. Gemäß § 10 Absatz 1 Satz 4 UStG (so in der Quelle; zutreffend Satz 3) gehört diese Verbrauchsteuer **zur BMG** für den steuerbaren und mangels Steuerbefreiung nach § 4b UStG auch steuerpflichtigen innergem. Erwerb. Dies sind dann **insgesamt 4.400 €**, die **Umsatzsteuer beträgt 19 % auf 4.400 € = 836 €**." },
+      { text: "Nachrechnung (eigene Ergänzung): 4.000 € + 400 € = 4.400 €; 4.400 € × 19 % = 836 € – stimmt." },
     ],
   },
 ];
