@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5 fortgesetzt (III.1 bis III.2.3.2)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
+`ust-m-b05-5` bis `ust-m-b05-9` für die PDF-Seiten 14 bis 31: III.1 Übersicht Leistungsort,
+III.2.1 Grundregel § 3a Abs. 2 UStG, III.2.2 Anwendungsfälle (Beispiele 1 bis 12), III.2.3
+grundstücksbezogene Leistungen (Beispiele 13 und 14), III.2.3.1/III.2.3.2 Messebau und
+Messeveranstaltungen. Stand des USt-Skripts: 5 Teile, 81 Kapitel, 1678 Blöcke, 94 Tabellen.
+
+**Nachgerechnet:** Stoffveredelung (Beispiel 4) 19 % von 5.000 € = 950 € USt nach § 13b UStG
+(eigene Ergänzung).
+
+**Quellbefunde:** Für die Rechnungsfrist bis zum 15. Tag des Folgemonats nennt Beispiel 1
+„§ 14a Abs. 1 S. 2 UStG“, Beispiel 5 „§ 14a Abs. 1 Satz 3 UStG“ (markiert). Stillschweigend
+berichtigt: „werden an dem 01.01.2010“ (ab dem), doppeltes „werden“, „Dienstleistungsempfängers“,
+„empfängerstatus bei unternehmerischen Leistungsempfänger“, fehlende Klammern, „§ 4 Nr. 3a)“,
+„Auszählung“ (Aufzählung), „Aufsetzten“, „ein „grundstücksbezogene Sache““, „unterrichtenden
+unterhaltenden“ (Komma), doppeltes „gelten … gelten“ in Abschn. 3a.4 Abs. 2a, „auch oft
+Übernachtungs-“ (ergänzt: erbrachten), „und dem Problem“ (das Problem).
+
 ### USt-Skript (Moecker), Block 5 begonnen (I bis II)
 
 Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block05.js`
