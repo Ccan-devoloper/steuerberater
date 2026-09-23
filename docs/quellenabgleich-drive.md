@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: Arbeitspapiere A 8 bis A 13
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-57` (A 8/A 9 Reiseleistungen),
+`ust-m-b10-58` (A 10/A 11 Differenzbesteuerung Kurzdarstellung, Wer, Was) und `ust-m-b10-59`
+(A 12/A 13 Upcycling, Einzeldifferenz, Besonderheiten) für die PDF-Seiten 152 bis 157, nach
+Ansicht der gerenderten Seiten. Die zwei Fotos auf PDF-Seite 156 (Kommode, Aufsatzwaschbecken)
+sind beschrieben, nicht übernommen. Stand des USt-Skripts: 11 Teile, 392 Kapitel, 5510 Blöcke, 286 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- A 9: „Keine Vorst für Reiseveranstalter aus Reisevorleistungen gem. § 25 Abs. 3 UStG“; der
+  Vorsteuerausschluss steht in § 25 Abs. 4 UStG.
+- A 10: „Abschn. 25a (4a)“ / „Abschn. 25a (4c)“; gemeint Abschn. 25a.1 Abs. 4a / 4c UStAE.
+- A 13: „Keine Rechnungserteilung mit Steuerausweis gem. § 25a Abs. 6 UStG“; richtig § 14a Abs. 6
+  UStG (§ 25a Abs. 6 = Aufzeichnungspflichten).
+
+**Stillschweigend berichtigt:** „Nicht aber aus viele WG“, „bei steuerfreie Lieferungen“,
+Leerzeichen in Klammern.
+
+**Weiter mit:** Arbeitspapier A 14 (PDF-Seite 158); Bild auf PDF-Seite 166.
+
 ### USt-Skript (Moecker), Block 10: Arbeitspapiere A 1 bis A 7
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-53` (A 1/A 2 Entgeltschema und
