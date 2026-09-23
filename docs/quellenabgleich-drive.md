@@ -10623,6 +10623,34 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: Arbeitspapiere A 1 bis A 10
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-38` (A 1 Dreigliederung),
+`ust-m-b09-39` (A 2 bis A 4 Versandhandel, Voraussetzungen), `ust-m-b09-40` (A 5 Beispiele
+Händler DU), `ust-m-b09-41` (A 6 OSS-Überblick), `ust-m-b09-42` (A 7 bis A 9 § 3c Abs. 3 UStG,
+Lurgi) und `ust-m-b09-43` (A 10 § 3c Abs. 2 UStG) für die PDF-Seiten 44 bis 53. Das
+personenbezogene Wasserzeichen der Arbeitspapierseiten ist entfernt. Stand des USt-Skripts:
+10 Teile, 320 Kapitel, 4693 Blöcke, 252 Tabellen.
+
+**Unvollständig in der Quelle (vermerkt):** A 6 bricht am Seitenende mit „… sonstige
+Leistungen und“ ab.
+
+**Nachgerechnet (eigene Ergänzung):** A 5: 10.000 € je Staat, Fernverkäufe 20.000 € > 10.000 €
+– stimmt; A 10: 1.000 € × 25 % = 250 € MOMS (Rechenbeispiel, Quelle nennt nur Satz).
+
+**Darstellung:** Schaubilder A 1 bis A 4, A 6 und A 8 als Tabellen, Skizzen A 7, A 8, A 10 als
+Text (Spaltenköpfe und Zeilenbezeichnungen eigene Ergänzung); nicht lesbare
+Aufzählungszeichen entfallen.
+
+**Stillschweigend berichtigt:** „(§6)“, „§ 3 c“, „B2C -Bereich“, „USt -IdNr.“, getrennte
+Tabellenzellen („Schwellen - erwerber“, „Gesetzes text“), „verbrauchsteuerliche Waren“
+(verbrauchsteuerpflichtiger), fehlende schließende Klammer „(= diese haben zwingend innergem.
+Erwerb“, „Weichholzmöbel“, „§ 18 j“, „aus Drittländer“, „(sog, B2C -Bereich“, „EU Staate“,
+„EUSt - Steuerbefreiung“, „23%“ ohne Klammerschluss, „ONLINE – HÄNDLER“, „IOSS –
+Verfahren“, „der besonderer Warenweg“.
+
+**Weiter mit:** Arbeitspapier A 11 (PDF-Seite 54).
+
 ### USt-Skript (Moecker), Block 9: VIII.4 bis X.3 (Textteil vollständig)
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-32` (VIII.4 ZM), `ust-m-b09-33`
