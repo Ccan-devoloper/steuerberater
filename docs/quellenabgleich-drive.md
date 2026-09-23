@@ -10638,7 +10638,7 @@ bis 23. Stand des USt-Skripts: 10 Teile, 296 Kapitel, 4514 Blöcke, 242 Tabellen
 Anmerkungen (Satz 1 / Satz 2)“; Skizze VI.3 als Tabelle (Spaltenköpfe, Zeilenbezeichnungen
 eigene Ergänzung).
 
-**Stillschweigend berichtigt:** „§ 22f Abs. 1 S. \n2“ (Zeilenumbruch), Leerzeichen in
+**Stillschweigend berichtigt:** Zeilenumbruch in „§ 22f Abs. 1 S. 2“, Leerzeichen in
 Klammern, „scheidet die Anwendung der Lieferfiktion und auch gelten dann“ (… aus und es
 gelten dann), Komma „Schwellenerwerber, die weder“, fehlende Punkte nach „(§ 3 Abs. 3a Satz 3
 UStG)“, „(vgl. Abschnitt 18k.1)“ und „befreit“, „Satz 2ff“, „Der in D’dorf ansässiger“,
