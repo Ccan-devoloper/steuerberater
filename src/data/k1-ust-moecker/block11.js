@@ -5,7 +5,7 @@
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
    In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 24 (PDF-Seite 84). */
+   A 28 (PDF-Seite 88). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1474,6 +1474,60 @@ export const block11 = [
       { typ: "titel", text: "Arbeitspapier A 24 – Noch 4.3 Ausnahme von dem Erfordernis des Besitzes einer ordnungsmäßigen Rechnung (Rn. 9 – 13 – BMF)" },
       { text: "**(objektiver Nachweis einzelner materieller Voraussetzungen für den Vorsteuerabzug)**\n☞ Das Recht auf Vorsteuerabzug ist **im Regelfall** durch eine ordnungsmäßige **Rechnung** nachzuweisen.\n☞ **Vorsteuerabzug gänzlich ohne Rechnung ist nicht möglich.**\n☞ Das Recht auf Vorsteuerabzug kann jedoch **ausnahmsweise** auch geltend gemacht werden,\n❖ **wenn der Unternehmer eine Rechnung besitzt,**\n❖ **die nicht alle formellen Voraussetzungen erfüllt**\n❖ **und die auch nicht berichtigt wurde (Rn 14 bis 27-BMF)**\n☞ Vorsteuerabzug **auch zu gewähren**, wenn FA über sämtliche Angaben verfügt, um die materiellen Voraussetzungen zu überprüfen." },
       { text: "**EuGH v. 15.09.2016 – C-516/14, Rs. Barlis 06 SA**\n**Das FA ist gehindert, das Recht auf Vorsteuerabzug allein deshalb zu verweigern, weil die Rechnung, die der Steuerpflichtige besitzt, nicht die Voraussetzungen von Art. 226 Nrn. 6 (so in der Quelle; das Urteil betrifft Art. 226 Nrn. 6 und 7 MwStSystRL) erfüllt, obwohl das FA über alle notwendigen Informationen verfügt, um zu prüfen, ob die materiellen Voraussetzungen für die Ausübung dieses Rechts vorliegen.**\nBarlis war im Besitz einer Rechnung einer Anwaltskanzlei, die folgende Beschreibungen enthielt: „Honorare für bis zum heutigen Tag erbrachte juristische Dienstleistungen“;\nNach FA = kein Recht zum Vorsteuerabzug wegen unzureichender Leistungsbeschreibung. Barlis legte Anlagen und Ergänzungen vor, die eine detailliertere Beschreibung der fraglichen juristischen Dienstleistungen enthielten." },
+    ],
+  },
+  {
+    id: "ust-m-b11-46",
+    teil: TEIL,
+    kapitel: "46",
+    abschnittNr: "A 25 und A 26",
+    title: "Arbeitspapiere A 25 und A 26: Die elektronische Rechnung ab 2025 – Einführung, Übergangsregelungen, Meldesystem und Begriffe",
+    thema: "BMF-Schreiben vom 15.10.2024, obligatorische E-Rechnung im inländischen B2B-Bereich ab 2025, Übergangsregelungen nach § 27 Abs. 38 UStG für Umsätze bis 31.12.2026, Empfangsbereitschaft des LE, künftiges Meldesystem (2028), Begriffe E-Rechnung (strukturiertes Format, CEN 16931, XRechnung, ZUGFeRD) und sonstige Rechnung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 25 und A 26"),
+    verfasser: VERFASSER,
+    normen: ["§ 14 Abs. 1 Satz 3 und 4 UStG", "§ 14 UStG", "§ 27 Abs. 38 UStG", "Richtlinie 2014/55/EU", "BMF v. 15.10.2024, BStBl 2024 I S. 1320"],
+    themen: ["Arbeitspapier", "Rechnung", "E-Rechnung", "Übergangsregelung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 25 – 5. Die elektronische Rechnung ab 2025" },
+      { text: "**Beachte: BMF-Schreiben vom 15.10.2024, BStBl 2024 I S. 1320 zur Ausstellung von Rechnungen nach § 14 UStG.**" },
+      { text: "**Einführung obligatorische Verwendung von E-Rechnungen (2025):**\n☞ Im B2B-Bereich\n☞ Zwischen inländischen Unternehmern\nBeachte jedoch **zeitliche Übergangsregelungen in § 27 Abs. 38 UStG für LU**" },
+      { text: "Für Umsätze zwischen dem **1.1.2025 und 31.12.2026**\n✓ statt einer E-Rechnung auch\n✓ eine sonstige Rechnung **auf Papier**\n✓ oder in einem **anderen elektronischen** Format (z.B. Pdf- jpg- oder Word-Datei)\nmöglich.\n*Nimmt LU die Übergangsregelungen nicht in Anspruch, muss der inländ. LE bereits ab 1.1.2025 in der Lage sein, neue E-Rechnungen zu empfangen.*" },
+      { text: "**Zukunft (2028):**\n☞ Verpflichtung zur **transaktionsbezogenen Meldung** von Umsätzen im B2B-Bereich durch Unternehmer **an ein** bundeseinheitliches elektronisches System der Verwaltung **(Meldesystem).**" },
+      { text: "**Schaubild:** LU (E-Rechng.) ➔ Staatliche Stelle (Portal) ➔ LE (E-Rechng)" },
+      { typ: "titel", text: "Arbeitspapier A 26 – Begriffe: vgl. § 14 Abs. 1 UStG" },
+      { text: "☞ **Elektronische Rechnung (E-Rechnung)**\nist eine Rechnung, die in einem **strukturierten** elektronischen Format **ausgestellt, übermittelt und empfangen** wird **und** eine **elektronische Verarbeitung** ermöglicht (**§ 14 Abs. 1 S. 3 und 4 UStG n.F.**)" },
+      { text: "Die elektronische Rechnung muss der europäischen Norm für die elektronische Rechnungsstellung und der Liste der entsprechenden Syntaxen gemäß der **Richtlinie 2014/55/EU vom 16. April 2014 = CEN 16931** (ABl. L 133 vom 6. 5. 2014, S. 1) **entsprechen.**\n➔ Anforderungen erfüllt z.B. von der **X-Rechnung**, oder dem hybriden **ZUGFeRD-Format** (Kombi PDF & XML-Datei).\n➔ **Ein anderes Format**, welches die richtige und vollständige Extraktion der erforderlichen Angaben aus der eRechnung in ein Format ermöglicht, das der Norm CEN 16931 entspricht oder mit dieser interoperabel ist." },
+      { text: "☞ **Sonstige Rechnungen**\n❖ die in einem **anderen elektronischen Format** (z.B. PDF, JPG, TIFF)\n❖ oder auf **Papier**\nübermittelt werden" },
+      { text: "Das Schaubild zum Meldesystem ist nach Ansicht der Seite als Textzeile wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-47",
+    teil: TEIL,
+    kapitel: "47",
+    abschnittNr: "A 27 und A 28",
+    title: "Arbeitspapiere A 27 und A 28: Welche Rechnung in welchen Fällen ab 1.1.2025 – Skizze zur obligatorischen E-Rechnung",
+    thema: "Obligatorische E-Rechnung nach § 14 Abs. 2 Satz 2 Nr. 1 UStG im inländischen B2B-Bereich, Ausnahme für steuerfreie Umsätze nach § 4 Nr. 8 bis 29 UStG, unveränderte Pflichtangaben, Empfangs- und Verarbeitungspflicht des LE, Aufbewahrung nach Rz. 131 GoBD, sonstige Rechnungen bei nichtunternehmerischen juristischen Personen, Bauleistungen an B2C und im B2C-Bereich, Kleinbetragsrechnungen und Fahrausweise; Beispiele (§ 13b, § 4 Nr. 1 bis 7, § 9, § 25 UStG)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 27 und A 28"),
+    verfasser: VERFASSER,
+    normen: ["§ 14 Abs. 2 UStG", "§ 14 Abs. 4 UStG", "§ 27 Abs. 38 UStG", "§ 4 Nr. 1 bis 7 und Nr. 8 bis 29 UStG", "§ 9 UStG", "§ 13b UStG", "§ 25 UStG", "§§ 33 und 34 UStDV", "Rz. 131 GoBD"],
+    themen: ["Arbeitspapier", "Rechnung", "E-Rechnung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 27 – Welche Rechnung in welchen Fällen [ab 1.1.2025]:" },
+      { text: "☞ **§ 14 Abs. 2 UStG** regelt, in welchen **Fällen** eine **E-Rechnung**\n❖ **obligatorisch** (im B2B-Bereich & Inland) zu verwenden ist\n☝ **Grundsätzlich** Verpflichtung zur E-Rechnungstellung (§ 14 Abs. 2 Satz 2 **Nr. 1** UStG).\n➔ **BEACHTE** zeitliche Übergangsregelungen in § 27 Abs. 38 UStG\n☝ **nicht** bei steuerfreien Umsätzen nach § 4 Nr. 8 – 29 UStG\n☺ Keine Änderungen bei den Rechnungspflichtangaben nach § 14 Abs. 4 UStG. Anhänge (als Pdf-Datei) zur Rechnung sind möglich.\n☝ Umkehrschluss für inländische **unternehmerische LE**: Ab 1.1.2025 muss LE in der Lage sein, E-Rechnungen nach den neuen Vorgaben **empfangen und verarbeiten** zu können. Vergleiche auch Rz. 131 GoBD. = Belege müssen in dem Format aufbewahrt werden, in dem sie empfangen wurden (z.B. Rechnungen)." },
+      { text: "**und**\n❖ in welchen Fällen die Verwendung einer **sonstigen Rechnung möglich** bleibt (**E-Rechnungen nur mit Zustimmung LE**)\n☝ **an nichtuntern. jur. Personen & Bauleistungen an B2C** (zwar Rechnung Pflicht § 14 Abs. 2 Nr. 2 & 3 UStG aber keine E-Rechnung)\n☝ bei Rechnungen an Endverbraucher (**B2C-Bereich**) bleibt deren Zustimmung Voraussetzung für die E-Rechnung." },
+      { text: "☞ Weiterhin **alle Arten** von Rechnungen für\n✓ **Kleinbetragsrechnungen** i. S. d. § 33 UStDV\n✓ **Fahrausweise** i. S. d. § 34 UStDV." },
+      { typ: "titel", text: "Arbeitspapier A 28 – Skizze: Obligatorische E-Rechnung - § 14 Abs. 2 UStG" },
+      { text: "LU = Unternehmer aus dem Inland erbringt steuerbare Leistungen ➔ LE = Unternehmer aus dem Inland" },
+      { typ: "tabelle", spalten: ["Leistung", "Elektr. Rechnung"], zeilen: [
+        ["⇨ aber steuerfrei (§ 4 Nr. 8 – 28 UStG) (so in der Quelle; § 14 Abs. 2 Satz 2 Nr. 1 UStG nimmt die steuerfreien Leistungen nach § 4 Nr. 8 bis 29 UStG aus, so auch die Quelle selbst in Arbeitspapier A 27)", "nein"],
+        ["⇨ Fahrausweis / oder Kleinbetragsrechnung", "nein"],
+        ["⇨ Alle anderen Fälle.", "ja"],
+      ] },
+      { text: "**Zum Beispiel:**\n▪ Umsätzen, die dem inländischen **Reverse-Charge**-Verfahren nach § 13b UStG unterfallen (z.B. Bauleistungen, steuerpflichtige Grundstückslieferungen).\n▪ Unschädlich steuerfreie Umsätze nach § 4 Nr. 1 bis 7 UStG (z.B. innergem. Lieferungen, **Ausfuhren**, grenzüberschreitende Güterbeförderungen).\n▪ **Vermieter, die durch Option** (§ 9 UStG) steuerpflichtig vermieten (Mietvertrag wäre dann grds. keine Rechnung mehr).\n▪ bei steuerpflichtigen **Reiseleistungen** gem. § 25 UStG." },
+      { text: "Die Skizze ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

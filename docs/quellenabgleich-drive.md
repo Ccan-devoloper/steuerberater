@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 25 bis A 28
+
+Übernommen (PDF-Seiten 85 bis 88, Seiten gerendert und angesehen): Kapitel ust-m-b11-46 (A 25 E-Rechnung ab 2025, Übergangsregelungen § 27 Abs. 38 UStG, Meldesystem 2028; A 26 Begriffe E-Rechnung und sonstige Rechnung) und ust-m-b11-47 (A 27 welche Rechnung in welchen Fällen, A 28 Skizze obligatorische E-Rechnung). Schaubilder als Tabelle bzw. Textzeile wiedergegeben; Farbhervorhebungen als Fettdruck.
+
+- Quellenmarkierung: A 28 „§ 4 Nr. 8 – 28 UStG“; § 14 Abs. 2 Satz 2 Nr. 1 UStG und die Quelle selbst in A 27 nennen § 4 Nr. 8 bis 29.
+- Stillschweigend berichtigt: überzählige schließende Klammer nach „§ 4 Nr. 8 – 29 UStG“ (A 27); leeres Aufzählungsglied „TIFF, )“ (A 26).
+- Keine Zahlenangaben zum Nachrechnen.
+
+Prüfung danach: 12 Teile, 452 Kapitel, 6290 Blöcke, 339 Tabellen.
+
+Weiter mit: Arbeitspapier A 29, PDF-Seite 89.
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 21 bis A 24
 
 Übernommen (PDF-Seiten 81 bis 84, Seiten gerendert und angesehen): Kapitel ust-m-b11-44 (A 21 die vier wesentlichen Angaben und ihre Berichtigungsfähigkeit, A 22 Beispiele BFH V R 54/14 und V R 26/15) und ust-m-b11-45 (A 23 Entgelt und Steuerausweis, A 24 Ausnahme vom Erfordernis einer ordnungsmäßigen Rechnung, EuGH Rs. Barlis). Schaubild A 21 als Tabelle wiedergegeben.
