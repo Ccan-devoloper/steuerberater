@@ -2407,7 +2407,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   erweitertem Erwerberkreis mit Erwerbsschwelle, Schwellenerwerbern, Option und
   Ausschlussgegenständen, Freihäfen, Steuerbefreiungen nach § 4b UStG, Bemessungsgrundlage
   und Steuerentstehung, Vorsteuerabzug, territorialen Begriffen und Brexit (vollständiger
-  Textteil I bis VIII, 18 Kapitel; Arbeitspapiere A 1 bis A 12 folgen).
+  Textteil I bis VIII und Arbeitspapiere A 1 bis A 8, 21 Kapitel; A 9 bis A 12 folgen).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

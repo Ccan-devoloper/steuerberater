@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 7: Arbeitspapiere A 1 bis A 8
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
+`ust-m-b07-19` (A 1 bis A 3: Schema, Grundtatbestand, Erwerbstatbestand), `ust-m-b07-20`
+(A 4 und A 5: Einfuhr/Durchfuhr, Maschine aus Mexiko über Belgien, mit Abwandlung
+„unverzollt und unversteuert“) und `ust-m-b07-21` (A 6 bis A 8: Pflicht- und Straferwerb,
+Steuerpflicht, BMG, Entstehung, Vorsteuerabzug, Beispiel Textilhändler Dänemark–Rumänien)
+für die PDF-Seiten 119 bis 126 (Arbeitspapiere mit pypdf im Layoutmodus gelesen). Stand des
+USt-Skripts: 7 Teile, 161 Kapitel, 3020 Blöcke, 152 Tabellen.
+
+**Quellbefund (markiert):** Die Lösung in A 8 springt in der Gliederung von e) auf h).
+
+**Darstellung:** Die Schaubilder A 1 und A 2 sind als Text, A 4 und A 5 als Tabellen
+wiedergegeben (Spalten „Belgien“ und „DE“ aus der Quelle, „Variante“ und „Mexiko“ eigene
+Ergänzung zur Darstellung). Nicht lesbare Aufzählungszeichen der Merke-Kästen in A 6 sind durch
+„•“ ersetzt (vermerkt).
+
+**Stillschweigend berichtigt:** „spätestes…“ (spätestens …), „f a k t i s c h“, „P f l i c h t
+e r w e r b“, „S t r a f e r w e r b“ (gesperrt), „USt - IdNr.“, „i nnergem.“, „EU -Staat“,
+„D E“, „EU - Lieferung“, „Steuerpflicht, sind“, „lex spezialis“ (specialis), „nach-vollziehbar“,
+„Ab. 3d.1“ (Abschn.), „§13“.
+
+**Weiter mit:** Block 7, Arbeitspapiere A 9 bis A 12 (PDF-Seiten 127 bis 130).
+
 ### USt-Skript (Moecker), Block 7: Abschnitte VI bis VIII – Textteil vollständig
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
