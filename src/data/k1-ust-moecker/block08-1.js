@@ -2,7 +2,7 @@
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
    In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere A 1 bis
-   A 16 (PDF-Seiten 62 bis 77) eingepflegt, weitere folgen. */
+   A 21 (PDF-Seiten 62 bis 82) eingepflegt, weitere folgen. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -1287,6 +1287,62 @@ export const block08Teil1 = [
       { typ: "tabelle", spalten: ["Nr. 1", "Nr. 2", "Nr. 3"], zeilen: [
         ["durch LU selbst oder Beauftragter des LU – Keine weiteren Voraussetzungen (insbesondere kein ausländischer LE)", "durch LE selbst oder Beauftragter des LE – Zusätzlich erforderlich ausländischer Auftraggeber.", "Freihafenfälle"],
       ] },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-45",
+    teil: TEIL,
+    kapitel: "45",
+    abschnittNr: "A 17",
+    title: "Arbeitspapier A 17: Ausfuhrlieferung und Lohnveredelung im B2B- und B2C-Bereich",
+    thema: "Lederjacken aus Stuttgart mit Färbung in Neuss für einen französischen Unternehmer (Transport nach Norwegen) und für das Schweizer Militär (Transport nach Basel): Ausfuhrlieferung mit zwischengeschalteter Bearbeitung und Ort bzw. Befreiung der Werkleistung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapier A 17"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 UStG", "§ 3a Abs. 2 UStG", "§ 3a Abs. 3 Nr. 3 Buchst. c UStG", "§ 4 Nr. 1 Buchst. a UStG", "§ 6 Abs. 1 Nr. 2 und Satz 2 UStG", "§ 7 Abs. 1 Nr. 2 UStG"],
+    themen: ["Arbeitspapier", "Ausfuhrlieferung", "Lohnveredelung", "Werkleistung", "B2B", "B2C"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 17" },
+      { text: "**Beispiel (B2B-Bereich):** **Französischer Unternehmer (FU) aus Paris** kauft von **Lederfabrik (DU 1) in Stuttgart 1000 Lederjacken**. FU beauftragt DU1, die Lederjacken zur **Färberei DU2 nach Neuss** zu bringen. DU 2 färbt die Jacken im Auftrag des FU dort ein. **FU holt die gefärbten Lederjacken in Neuss ab und transportiert sie nach Norwegen.** Dort werden Jacken der norw. EUSt unterworfen. FU verwendet seine franz. USt-IdNr." },
+      { text: "**Lösung (DU 1 an FU):** – Steuerbare bewegte Lieferung gem. § 3 Abs. 6 UStG, **Ort Stuttgart**; – **Steuerfrei gem. § 4 Nr. 1a i.V.m. § 6 Abs. 1 Nr. 2 UStG**, da Transport durch den LE des DU 1 in das Drittland. – Zwischengeschaltete Be- Verarbeitung § 6 Abs. 1 Satz 2" },
+      { text: "**Lösung (DU 2 an FU):** – Werkleistung; **Ort Paris gem. § 3a Abs. 2 UStG**; – **Nicht steuerbar.** Mit Verwendung franz. USt-IdNr. durch LE = B2B-Bereich nachgewiesen." },
+      { text: "**Beispiel (B2C-Bereich):** **Schweizer Militär (SM) mit Sitz in Basel** kauft von Lederfabrik DU1 in Stuttgart 1000 Lederjacken. SM beauftragt DU1, die Lederjacken zur Färberei DU2 in Neuss zu bringen. DU 2 färbt die Jacken im Auftrag des SM dort ein. **SM holt die Jacken in Neuss ab und transportiert sie nach Basel.** Dort werden Jacken der schweiz. EUSt unterworfen." },
+      { text: "**Lösung (DU 1 an SM):** – Steuerbare bewegte Lieferung gem. § 3 Abs. 6 UStG; **Ort Stuttgart**. – **Steuerfrei gem. § 4 Nr. 1a i.V.m. § 6 Abs. 1 Nr. 2 UStG**, da Transport durch LE des DU 1 in das Drittland. – Zwischengeschaltete Be- Verarbeitung § 6 Abs. 1 Satz 2" },
+      { text: "**Lösung (DU 2 an SM):** – Werkleistung; **Ort Neuss gem. § 3a Abs. 3 Nr. 3c UStG**; – **Steuerbar und steuerfrei gem. § 4 Nr. 1a i.V.m. § 7 Abs. 1 Nr. 2 UStG**, da Transport durch SM als ausländischer LE in das Drittland." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-46",
+    teil: TEIL,
+    kapitel: "46",
+    abschnittNr: "A 18 bis A 21",
+    title: "Arbeitspapiere A 18 bis A 21: Steuerfreie innergemeinschaftliche Lieferungen",
+    thema: "Übersicht der Lieferungen innerhalb der EU (gewerblicher Warenverkehr, Abholfall, Fernverkauf), Grundfall nach Art. 138 MwStSystRL und § 6a Abs. 1 UStG ab 2020 mit ZM-Erfordernis, Voraussetzungen des gewerblichen Warenverkehrs (Warenbewegung, Kommissionsgeschäfte) und gebrochene Beförderung nach BMF vom 07.12.2015",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 18 bis A 21"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 7 UStG", "§ 3c UStG", "§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1 UStG", "Art. 138 Abs. 1 MwStSystRL", "Abschn. 1a.2 Abs. 7 UStAE", "Abschn. 3.1 Abs. 3 Satz 8 UStAE", "BMF-Schreiben vom 07.12.2015"],
+    themen: ["Arbeitspapier", "innergemeinschaftliche Lieferung", "Fernverkauf", "USt-IdNr.", "Kommissionsgeschäft", "gebrochene Beförderung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 18 – 4. Steuerfreie innergem. Lieferungen – 4.1 Übersicht" },
+      { text: "Lieferungen innerhalb der EU (z.B. von DE ==> in die NL):" },
+      { typ: "tabelle", spalten: ["an Abnehmer mit Erwerbsbesteuerung", "an Abnehmer ohne Erwerbsbesteuerung – Abholfall", "an Abnehmer ohne Erwerbsbesteuerung – Fernverkauf § 3c UStG"], zeilen: [
+        ["= Innergem. Lieferung (gewerbl. Warenverkehr): Lieferer in DE => steuerfrei § 6a; Erwerber in NL => innergem. Erwerb", "Versteuerung in DE", "Versteuerung in DE (im anderen MS wenn Geringfügigkeitsschwelle überschritten)"],
+      ] },
+      { text: "Die Spaltenköpfe fassen die beiden Ebenen des Schaubilds zusammen (eigene Ergänzung zur Darstellung)." },
+      { typ: "titel", text: "Arbeitspapier A 19 – 4.2 Grundfall" },
+      { text: "**Ab 2020 = Art. 138 Abs. 1 bzw. § 6a Abs. 1 UStG:** (1) die Gegenstände **gelangen grenzüberschreitend** (2) an einen **anderen Unternehmer**, der als solcher **in einem anderen Mitgliedstaat für Zwecke der USt erfasst** (registriert) ist und der **Erwerbsbesteuerung** in einem anderen Mitgliedstaat unterliegt (Regelfall im sog. B2B-Geschäft) (3) und der registrierte Abnehmer hat gegenüber dem LU seine – aus einem anderen Mitgliedstaat stammende – zum Zeitpunkt der Lieferung gültige **IdNr. verwendet**." },
+      { text: "**Ergänzende Regelung § 4 Nr. 1b UStG:** Befreiung gilt nicht, wenn LU **ZM nicht abgegeben** hat oder **ZM nicht die korrekten Angaben** enthält;" },
+      { typ: "titel", text: "Arbeitspapier A 20 – 4.3 Voraussetzungen für den gewerblichen Warenverkehr" },
+      { text: "**Beachte:** * Grundsatz der **faktischen, nicht rechtlichen Verknüpfung**. * **USt-IdNr. gehört ab 2020 zum Tatbestand des § 6a**; * USt-IdNr. muss **aus einem anderen EU-Staat** kommen. Also: **ohne USt-IdNr. läuft nichts.**" },
+      { text: "**Zu Warenbewegung:** Gelangen des Liefergegenstandes (vom Inland) in das übrige Gemeinschaftsgebiet ➔ (Warenbewegung) => Erfordernis einer **bewegten Lieferung** => Montage- Montagewerklieferungen können jedoch nicht gelangen (Unbewegte Lief. mit Ort § 3 Abs. 7 UStG). Immer am Bestimmungs-„Ort“ zu versteuern ➔ Es gilt das Recht des anderen Staates. ➔ In der EU keine Besteuerungs-Harmonisierung." },
+      { text: "=> **Vereinfachung für Kommissionsgeschäfte** (Abschn. 3.1 Abs. 3 S. 8 & Abschn. 1a.2 Abs. 7 UStAE): Hingabe Ware kann bereits behandelt werden • für **Kommittent** als **steuerfreie innergem. Lieferung** • für **Kommissionär** als **innergem. Erwerb**." },
+      { typ: "titel", text: "Arbeitspapier A 21 – Gebrochene Beförderung / Versendung (BMF v. 07.12.2015)" },
+      { text: "Die Beschriftungen des Schaubilds lauten: „Lieferant Fa. X GmbH aus Bremen; Vertrag mit Fa. Z. aus Spanien“, „Fa. Z aus Spanien“, „Fa. Z aus Indien“, „Indien über Stäbe“ (so in der Textextraktion; nicht sicher lesbar), „Transport durch X-GmbH“, „Spedition S aus Duisburg“, „Transport durch S im Auftrag des Z“ und „Lagerung, Schiff-Sammeltransport im Auftrag von Z“. Das Schaubild ist nicht nachgezeichnet (eigene Ergänzung zur Darstellung)." },
+      { text: "**Problem:** Steuerfreie Lieferungen erfordern ein Transport „**durch LU ODER LE**“. Damit Lieferung X an Z mit Übergabe der Waren im Lager Duisburg abgeschlossen und ausgeführt. Gesetz kennt kein „sowohl / als auch“ = anteiligen Transport." },
+      { text: "**Nach BMF jedoch unschädlich** für einen grenzüberschreitenden (steuerfreien) Warenweg nach Spanien / Indien, wenn • **LE bei Beginn des Transports feststeht** & LU kann nachweisen, • einen **zeitlichen / sachlichen Zusammenhang** zwischen Lieferung & Transport • und dass ein **kontinuierlicher Warenbewegungsvorgang** vorliegt." },
+      { text: "**Praxis-TIPP:** Teilstreckenvereinbarung abschließen" },
+      { text: "Nicht lesbare Aufzählungszeichen in A 19 bis A 21 sind durch „–“, „*“ und „•“ wiedergegeben, wie sie in der Textextraktion erscheinen bzw. ersetzt (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

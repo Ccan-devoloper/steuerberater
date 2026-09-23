@@ -10623,6 +10623,24 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 17 bis A 21
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-45` (A 17 Lederjacken
+Stuttgart–Neuss mit B2B- und B2C-Beispiel) und `ust-m-b08-1-46` (A 18 bis A 21 steuerfreie
+innergem. Lieferungen: Übersicht, Grundfall ab 2020, Voraussetzungen, gebrochene Beförderung
+nach BMF vom 07.12.2015) für die PDF-Seiten 78 bis 82. Stand des USt-Skripts: 8 Teile, 209 Kapitel, 3545 Blöcke, 186 Tabellen.
+
+**Vermerkt:** Das Schaubild A 21 ist in der Textextraktion nur bruchstückhaft lesbar (u. a.
+„Indien über Stäbe“); statt einer Nachzeichnung sind die Beschriftungen wörtlich aufgeführt.
+
+**Stillschweigend berichtigt:** „Beispiel.:“, „B2B – Bereich“, „S  M“ (SM), „In das
+Drittland“ (Kleinschreibung), „(registriert ist ) ist“ (doppeltes „ist“), „aus einem anderem
+EU - Staat“ (anderen), „USt - IdNr.“, „W a r e n b e w e g u n g“, „Abs.7“, fehlendes öffnendes
+Anführungszeichen vor „sowohl / als auch“, „und das ein kontinuierlicher“ (dass), Leerzeichen
+in Klammern.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab A 22 (PDF-Seite 83).
+
 ### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 11 bis A 16
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-43` (A 11 bis A 15
