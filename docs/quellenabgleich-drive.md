@@ -10623,6 +10623,23 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: Inhaltsverzeichnis und I.1
+
+Neue Datei `src/data/k1-ust-moecker/block10.js` (Block 10 „BMG & Änderung / Reiseleistung /
+Differenzbesteuerung / Kleinunternehmer & Steuersatz“, Stand 01/2026, PDF-Seiten 77 bis 180 der
+Datei b09-10) mit `ust-m-b10-1` (Inhaltsverzeichnis) und `ust-m-b10-2` (I.1 Entgeltbegriff) für
+die PDF-Seiten 77 bis 80; in `src/data/k1-ust-skript-moecker.js` eingebunden. Stand des
+USt-Skripts: 11 Teile, 335 Kapitel, 4814 Blöcke, 266 Tabellen.
+
+**Darstellung:** Entgeltübersichten als Tabellen; im Inhaltsverzeichnis Fallziffern als „Fall
+1/2“ und Gliederungsnummer „VII.1“ als VIII.1 wiedergegeben (vermerkt).
+
+**Stillschweigend berichtigt:** „O%-Steuersatz“, „(§10 Absatz 1 Satz 2 UStG)“, „(§ 10 Absatz 1
+Satz 2 UStG.)“, „das freiwillige Trinkgelder“, „aber aus Auslagen“ (aber auch Auslagen),
+Leerzeichen in Klammern.
+
+**Weiter mit:** I.2 Vertragsstrafen (PDF-Seite 80).
+
 ### USt-Skript (Moecker), Block 9: Arbeitspapiere A 31 bis A 33 (Block 9 vollständig)
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-55` (A 31 und A 32 neue

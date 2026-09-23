@@ -17,7 +17,8 @@
    § 13b UStG, GiG, Gutscheine) vollständig, Block 7 (Innergemeinschaftlicher Erwerb)
    vollständig, Block 8 Teil I (Steuerfreie Umsätze mit Vorsteuerabzug) vollständig,
    Block 8 Teil II (Steuerfreie Umsätze ohne Vorsteuerabzug, § 9 UStG) vollständig,
-   Block 9 (Besondere Umsätze im Binnenmarkt) vollständig.
+   Block 9 (Besondere Umsätze im Binnenmarkt) vollständig, Block 10 (BMG & Änderung /
+   Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) begonnen.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien
@@ -36,6 +37,7 @@ import { block07 } from "./k1-ust-moecker/block07.js";
 import { block08Teil1 } from "./k1-ust-moecker/block08-1.js";
 import { block08Teil2 } from "./k1-ust-moecker/block08-2.js";
 import { block09 } from "./k1-ust-moecker/block09.js";
+import { block10 } from "./k1-ust-moecker/block10.js";
 
 export const ustSkriptMoeckerQuelle = {
   reihe: "Umsatzsteuer · Skript Blöcke 1 bis 13 mit Arbeitspapieren · Udo Moecker",
@@ -48,6 +50,6 @@ export const ustSkriptMoeckerQuelle = {
   ],
 };
 
-export const ustSkriptMoecker = [...block01, ...block02, ...block03, ...block04, ...block05, ...block06, ...block07, ...block08Teil1, ...block08Teil2, ...block09];
+export const ustSkriptMoecker = [...block01, ...block02, ...block03, ...block04, ...block05, ...block06, ...block07, ...block08Teil1, ...block08Teil2, ...block09, ...block10];
 
 export default ustSkriptMoecker;

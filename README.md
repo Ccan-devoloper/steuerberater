@@ -2439,7 +2439,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 3 Abs. 3a und 6b UStG und der Befreiung nach § 4 Nr. 4c UStG sowie der Lieferfiktion
   und Erwerbsfiktion beim innergemeinschaftlichen Verbringen und der Konsignationslagerregelung
   nach § 6b UStG, Lieferungen an Bord und neuen Fahrzeugen (Textteil vollständig) sowie
-  Arbeitspapieren A 1 bis A 33 (56 Kapitel, vollständig).
+  Arbeitspapieren A 1 bis A 33 (56 Kapitel, vollständig), Block 10 (BMG & Änderung /
+  Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) begonnen mit
+  Inhaltsverzeichnis und dem Entgeltbegriff (2 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
