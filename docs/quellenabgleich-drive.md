@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: IX. bis IX.2.3 (§ 17 UStG)
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-42` (IX./IX.1/IX.2 Tatbestand),
+`ust-m-b10-43` (IX.2.1 Nachträglichkeit, Zeitpunkt, Belegaustausch, Mängelbeseitigung),
+`ust-m-b10-44` (IX.2.2 Forderungsabtretung, Beispiel Rost/Pleite als Monatstabelle) und
+`ust-m-b10-45` (IX.2.3 Preisnachlass- und Preiserstattungsgutscheine) für die PDF-Seiten 130 bis
+134. Keine Bilder auf diesen Seiten (Bilder in Block 10 erst wieder auf PDF-Seite 156 und 166).
+Stand des USt-Skripts: 11 Teile, 378 Kapitel, 5335 Blöcke, 276 Tabellen.
+
+**Veraltete Angabe (im Text markiert):** Mängelbeseitigung „Minderung, § 462 BGB“; Fassung vor
+2002, heute § 441 BGB.
+
+**Nachgerechnet (eigene Ergänzung):** Rost/Pleite 23.800 € : 1,19 = 20.000 € / 3.800 € und
+(12.000 € − 500 €) : 1,19 = 9.663,87 €, USt 1.836,13 € – stimmt.
+
+**Stillschweigend berichtigt:** „nach nicht mit der tatsächlichen Zahlung“, „Betroffenen sind“,
+„Rs. C -86-99“, „Über - oder“, „BFH -Urteil“, „vgl. 10.1 Abs. 4“ und „vgl. 17.1 Abs. 6“ (ergänzt
+„Abschn.“), „3.800, - €“ und weitere „,- €“, „versteuert er“ (Präteritum), „Forderungserwerber.”“,
+Komma „von sich aus, die …“, fehlender Schlusspunkt nach „Abschn. 17.2 Abs. 3 UStAE)“.
+
+**Weiter mit:** IX.2.4 Preisnachlässe bei ausländischen Lieferketten (PDF-Seite 134 unten).
+
 ### USt-Skript (Moecker), Block 10: VIII.3 (Nullsteuersatz für PV-Anlagen)
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-38` bis `ust-m-b10-41` für
