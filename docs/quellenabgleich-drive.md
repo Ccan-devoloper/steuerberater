@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: III.3 und III.4
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-13` (III.3 § 4 Nr. 8c UStG,
+Sicherungsabtretung, Factoring in allen Fallgruppen, Auswirkung auf das Entgelt mit Beispiel
+Unternehmensberatung A) und `ust-m-b08-2-14` (III.4 § 4 Nr. 8e und f UStG, KapHag,
+Kretztechnik, Vorsteuer aus Gründungskosten) für die PDF-Seiten 25 bis 29. Stand des
+USt-Skripts: 9 Teile, 234 Kapitel, 3852 Blöcke, 204 Tabellen.
+
+**Nachgerechnet (eigene Ergänzung):** Unternehmensberatung A: 10.000 € × 19/119 = 1.596,64 €
+USt, Berichtigung 303,36 € – stimmt.
+
+**Darstellung:** Factoring-Schaubild als Text; nicht lesbare Zeichen und Aufzählungszeichen
+ersetzt (vermerkt).
+
+**Stillschweigend berichtigt:** „§ 4 Nummer 8 c“, „Warentermingeschäft- vgl.“, „Beispiel :“,
+„§ 3 a“, fehlende schließende Klammer nach „Satz 1 -3 UStAE“, fehlende Punkte nach
+„entlastet“ und „berechtigt“, „Fall 1.1.“, „steuerpflichtige Leistungen hat“ (Leistung),
+„entscheiden“ (entschieden), „sich hierdurch nicht … mindert“ (ohne „sich“), „§ 4 Nr. 8 e“,
+„4.8.8.“, „• - OHG, KG, GbR - Anteile“, „Die Übertragung … sind“ (ist), „26. 6. 2003“,
+„C - 442/01“, „C - 465/03“, „1.6.“, „4.8.1.“, Leerzeichen in Klammern, „m i t“ (gesperrt).
+
+**Weiter mit:** Block 8 Teil II ab III.5 § 4 Nr. 9a UStG (PDF-Seite 30).
+
 ### USt-Skript (Moecker), Block 8 Teil II: III.1 und III.2
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-11` (III.1 § 4 Nr. 8a UStG
