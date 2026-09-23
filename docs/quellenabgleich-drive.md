@@ -10623,6 +10623,37 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 9 bis A 15
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-43` (A 9 § 4 Nr. 28 UStG),
+`ust-m-b08-2-44` (A 10 und A 11 § 4 Nr. 29 UStG), `ust-m-b08-2-45` (A 12 Kreditgeschäfte) und
+`ust-m-b08-2-46` (A 13 bis A 15 Factoring) für die PDF-Seiten 72 bis 78. Stand des
+USt-Skripts: 9 Teile, 266 Kapitel, 4247 Blöcke, 220 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- A 9: „Abschn. 4.28 Abs. 6 UStAE“; gemeint wohl Abschn. 4.28.1 Abs. 6 UStAE.
+- A 13: Verweise „vgl. A 7“ und „vgl. A 8“ passen nicht (dort Bildungsleistungen); gemeint
+  wohl A 14 und A 15.
+- A 15: „Sicherungsübereignung“ bei Forderungen; gemeint Sicherungsabtretung.
+
+**Nicht übernommen (vermerkt):** in A 10 das im Zusammenhang unverständliche Wort „zahlt“.
+
+**Nachgerechnet (eigene Ergänzung):** Factoring 100 / 90: Bruttoentgelt 10, USt 1,60,
+Nettoentgelt 8,40.
+
+**Darstellung:** Schaubilder als Tabellen und Text; Spaltenköpfe, Zeilen „Begründung“ /
+„Folge“ und Zusammenfassung der Ausgangslage in A 13 eigene Ergänzung; nicht lesbare
+Aufzählungs- und Pfeilzeichen ersetzt bzw. entfallen.
+
+**Stillschweigend berichtigt:** „Repräsentations -“, fehlende Klammer „(Keine Vorst gemäß
+§ 15 (1a) UStG“, „Arztp raxis“, „vorsteuer -abzugsschädlichen“, „§15a“, „PZ )“, „GBR“,
+fehlendes Komma nach „WEG“, „Nichtmitgliedern“, „nicht unternehmerische Tätigkeiten“,
+„Steuerfreien Tätigkeiten“, „Post- Universaldienstleistungen“, „eingesetzt wird“ (werden),
+„Reinigungs-und“, „am am“, „i.V. Abs. 4“, „=>“, „zusätzlicher Gebühren“, „steuerfrei
+Leistung“, „Bilanzrechtl iche“, Leerzeichen in Klammern.
+
+**Weiter mit:** Arbeitspapier A 16 (PDF-Seite 79).
+
 ### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 1 bis A 8
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-40` (A 1 und A 2
