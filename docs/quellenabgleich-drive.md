@@ -10623,6 +10623,23 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: II.4 bis II.6
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-4` (II.4 Heilberufe mit
+II.4.1 Tätigkeit als Arzt und II.4.2 Krankenhäuser), `ust-m-b08-2-5` (II.5 Betreuungs- und
+Pflegeleistungen) und `ust-m-b08-2-6` (II.6 kulturelle Leistungen, EuGH Hoffmann) für die
+PDF-Seiten 7 bis 12. Stand des USt-Skripts: 9 Teile, 226 Kapitel, 3727 Blöcke, 200 Tabellen.
+
+**Stillschweigend berichtigt:** fehlende schließende Klammer nach „§ 4 Nr. 14a Satz 2 UStG“,
+„Heil – und Heilhilfsberufen“, „Abschn. 4.14.7.“, „§ 4 Nr. 14 BU. a)“, „z.B.➔“, fehlender Punkt
+nach „in Anspruch nehmen“, Überschrift „III.5“ (II.5, wie im Inhaltsverzeichnis),
+„Beutreuungs-“, gerade Anführungszeichen bei „Einrichtungen“, „§§ 1814 Abs. 1 BGB“ (§),
+„R.s. Hoffmann“, „der selbständiger“ (selbständigen), fehlendes Komma vor „erfasst“,
+„Abschn. 12.5.“, nicht lesbares Zeichen vor „jede Musikgruppe“ weggelassen, englische
+Anführungszeichen bei „Arzt“ und „Ärztin“.
+
+**Weiter mit:** Block 8 Teil II ab II.7 Schulen und Lehrer (PDF-Seite 12).
+
 ### USt-Skript (Moecker), Block 8 Teil II begonnen: Inhaltsverzeichnis, II.1 bis II.3
 
 Neue Datei `src/data/k1-ust-moecker/block08-2.js` („Umsatzsteuer Block 8 (II) mit
