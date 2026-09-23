@@ -10623,6 +10623,37 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: Arbeitspapiere A 11 bis A 17
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-44` (A 11 Durchfuhr),
+`ust-m-b09-45` (A 12 Beispiel Händler D), `ust-m-b09-46` (A 13 Transit & IOSS), `ust-m-b09-47`
+(A 14 bis A 16 OSS nach § 18j UStG mit Beispielen und Amazon-FBA) und `ust-m-b09-48` (A 17
+Erklärung, Fälligkeit, USt-Voranmeldung) für die PDF-Seiten 54 bis 60. Stand des
+USt-Skripts: 10 Teile, 325 Kapitel, 4728 Blöcke, 254 Tabellen.
+
+**Aus Bildern übertragen:** A 17 enthält die Vordruckausschnitte der USt-Voranmeldung (Zeilen
+18 bis 21 mit Kz. 81/86, Zeilen 44 bis 52 mit Kz. 42/60/21/45) und zwei Erläuterungstexte nur
+als Bilder; die Bilder wurden gesichtet und übertragen (vermerkt).
+
+**Quellenfehler (im Text markiert):**
+- A 11: zweiter Textkasten mit Angaben der Transit-Skizze (§ 3c Abs. 2 UStG, „EUSt in DE =
+  Vorst“) widerspricht der Durchfuhr.
+- A 14: TRFE-Leistungen „nach § 3a Abs. 3 S. 2 UStG“; geregelt in § 3a Abs. 5 UStG.
+- A 14: „Abschn. 18j Abs. 1 Satz 4 UStAE“; gemeint Abschn. 18j.1 UStAE.
+
+**Nachgerechnet (eigene Ergänzung):** A 12: 10 bzw. 90 Computer; Schwelle in der Alternative
+2021 nicht, 2022 überschritten.
+
+**Darstellung:** Skizzen als Text, Übersichten als Tabellen; nicht lesbare Fallziffern als
+„Fall 1“ / „Fall 2“.
+
+**Stillschweigend berichtigt:** „ONLINE – HÄNDLER“, „( vgl. mehr Infos hierzu vgl.“, „§ 18 k“,
+„Fall :“, „so . Leistungen“, „Registrierung min den MS“, „belg. Und“, „Teilnehme“, „Die …
+Vermietung … sind“ (ist), „§ 18 j“, „EU Staate“, fehlende Klammer „(z.B. von einem
+FBA-Lager in PO an Privatkunden in Polen.“, „USt-Voranmeldungen“.
+
+**Weiter mit:** Arbeitspapier A 18 (PDF-Seite 61).
+
 ### USt-Skript (Moecker), Block 9: Arbeitspapiere A 1 bis A 10
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-38` (A 1 Dreigliederung),
