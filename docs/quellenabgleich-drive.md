@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: IX.3.4 bis X. (Textteil abgeschlossen)
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-50` (IX.3.4 Rückgängigmachung),
+`ust-m-b10-51` (IX.3.5 § 3d Satz 2, IX.3.6 Geschenke) und `ust-m-b10-52` (X. Durchschnittssätze
+§ 24 UStG) für die PDF-Seiten 140 bis 144. Damit ist der Textteil von Block 10 vollständig; ab
+PDF-Seite 145 folgen die Arbeitspapiere. Keine Bilder auf diesen Seiten. Stand des USt-Skripts:
+11 Teile, 385 Kapitel, 5442 Blöcke, 276 Tabellen.
+
+**Quellenfehler (im Text markiert):** IX.3.4 „(vgl. Ausführungen zu 3.2)“; die Ausführungen zur
+tatsächlichen Rückgewähr stehen in IX.3.3.
+
+**Nachgerechnet (eigene Ergänzung):** Geschenke 30 € + 20 € = 50 € > 35 €, Vorsteuer 5,70 € –
+stimmt; Mähdrescher 38.000 € : 5 = 7.600 € je Jahr – stimmt (02 bis 05 zusammen 30.400 €).
+
+**Stillschweigend berichtigt:** „( vgl. Skriptum „ Leistungsaustausch" )“, „§ 3 d“, „5,70 USt“
+(ergänzt €), „Obst-, und“, „dass er seine Umsätze … besteuert werden sollen“ (dass seine Umsätze),
+gerade Anführungszeichen bei „Gesamtumsatz des Unternehmers“, „vor neuen Herausforderungen“,
+fehlende Klammer nach „Abschn. 15a.9 UStAE“, „entscheiden“, „im Regelbesteuerten Zeitraum“.
+
+**Weiter mit:** Arbeitspapiere ab A 1 (PDF-Seite 145); Bilder auf PDF-Seite 156 (zwei) und 166.
+
 ### USt-Skript (Moecker), Block 10: IX.2.4 bis IX.3.3
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-46` (IX.2.4 ausländische
