@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: Inhaltsverzeichnis bis II.4
+
+Neue Datei `src/data/k1-ust-moecker/block09.js` (Block 9 „Besondere Umsätze im Binnenmarkt“,
+Stand 07/2025, Quelle „Umsatzsteuer Block 9 - 10 mit Arbeitspapieren“, 180 PDF-Seiten; Block 9
+PDF-Seiten 2 bis 76) mit den Kapiteln `ust-m-b09-1` (Inhaltsverzeichnis) bis `ust-m-b09-6`
+(II.4 Abnehmerkreis) für die PDF-Seiten 2 bis 8; in `src/data/k1-ust-skript-moecker.js`
+eingebunden. Stand des USt-Skripts: 0 Teile, 283 Kapitel, 4402 Blöcke, 239 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- Neue Fahrzeuge „unter Tz. VI.“ (zweimal); nach dem Inhaltsverzeichnis Tz. X.
+- Verzicht auf die Lieferschwelle „§ 3e Abs. 4 UStG“; gemeint § 3c Abs. 4 UStG.
+
+**Darstellung:** Schaubild zur Dreigliederung als Tabelle (Zeilenbezeichnungen und wiederholter
+Abnehmerkasten eigene Ergänzung); Randziffern 1. bis 4. in II.2 vorangestellt.
+
+**Stillschweigend berichtigt:** „Status der Erwerbers“, fehlende Klammern „(vgl. Block
+„steuerfreie Umsätze““ und „Tz. II.“, „beachte Sie“, „Warenweg als solcher“, doppeltes „ist“
+(„zusätzlich Voraussetzung ist, dass“), „an sogenannten Schwellenerwerber“, Komma
+„Ursprungslandprinzip, führt“, „befördert der versendet“, „Abs.1“, „UStG..“, „der
+Lieferortes“, Komma „Schwellenerwerber, finden“, „zu versteuern haben“ (hat), Komma
+„Thematik her, liegt“, Leerzeichen in Klammern.
+
+**Weiter mit:** II.5 Geringfügigkeitsschwelle (PDF-Seite 8).
+
 ### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 30 bis A 38 (Block 8 Teil II vollständig)
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-54` (A 30 bis A 32
