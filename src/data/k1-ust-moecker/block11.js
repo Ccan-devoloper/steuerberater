@@ -5,7 +5,7 @@
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
    In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 16 (PDF-Seite 76). */
+   A 20 (PDF-Seite 80). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1328,7 +1328,7 @@ export const block11 = [
       ] },
       { text: "**BFH v. 28.8.2014:**\n• A und B je originäres eigenes Nutzungsrecht (Miteigentumsanteil)\n• A und B jeweils selbst Leistungsempfänger" },
       { text: "Nachrechnung (eigene Ergänzung): USt auf den Kran 19 % von 200 = 38; davon Vorsteuer A 20 % = 7,60 und Vorsteuer B 80 % = 30,40. Aus dem Verkauf des Anteils durch B (100 zzgl. 19 %) hat A eine Vorsteuer von 19 (die Angabe „A - Vorst 19%“ der Quelle bezeichnet den Steuersatz auf den Kaufpreis von 100)." },
-      { text: "**Abschnitt 3.5 (2) Nr. 6 Satz 3:**\n„³Die Gemeinschafter einer nicht selbst unternehmerisch tätigen Bruchteilsgemeinschaft (vgl. Abschnitt 15.2b Abs. 1) können über ihren Anteil an dem Gegenstand ohne Zwischenerwerb durch die Gemeinschaft verfügen und ihn veräußern (BFH-Urteil vom 28. 8. 2014, V R 49/13, BStBl 2021 II S. xxx (so in der Quelle; Seitenzahl nicht angegeben)).“" },
+      { text: "**Abschnitt 3.5 (2) Nr. 6 Satz 3:**\n„³Die Gemeinschafter einer nicht selbst unternehmerisch tätigen Bruchteilsgemeinschaft (vgl. Abschnitt 15.2b Abs. 1) können über ihren Anteil an dem Gegenstand ohne Zwischenerwerb durch die Gemeinschaft verfügen und ihn veräußern (BFH-Urteil vom 28. 8. 2014, V R 49/13, BStBl 2021 II S. xxx (so in der Quelle; Seitenzahl nicht angegeben, Arbeitspapier A 17 nennt S. 825)).“" },
       { text: "**Abschnitt 14b.1 Abs. 1 Satz 3 UStAE:**\n„³Sind bei gemeinsamem **Leistungsbezug** durch mehrere Personen **die einzelnen Gemeinschafter** als LE anzusehen (vgl. Abschnitt 15.2b Abs. 1), hat einer dieser Gemeinschafter das Original der Rechnung und jeder andere **unternehmerisch tätige Gemeinschafter** zumindest eine Ablichtung der Rechnung aufzubewahren.“" },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
@@ -1361,6 +1361,69 @@ export const block11 = [
         ["Vorst RA 1", "Aber Vorst aufzuteilen", "Vorst RA 2"],
       ] },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-42",
+    teil: TEIL,
+    kapitel: "42",
+    abschnittNr: "A 17 und A 18",
+    title: "Arbeitspapiere A 17 und A 18: Fallgruppe 3 (Mietvertrag mit Eheleuten) und Vorsteuer bei Grundstücksgemeinschaft",
+    thema: "Anmietung eines Lagers durch Eheleute mit Nutzung durch den Unternehmerehegatten, hälftige Vorsteuer, Option des Vermieters nach Abschn. 9.1 Abs. 6 Satz 5 UStAE, Abschn. 15.2b Abs. 1 Satz 7 und 8 UStAE; Aufträge eines Ehegatten für die vermietende Grundstücksgemeinschaft (BFH v. 23.09.2009, XI R 14/08)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 17 und A 18"),
+    verfasser: VERFASSER,
+    normen: ["§ 9 UStG", "§ 15 Abs. 1 Nr. 1 UStG", "Abschn. 9.1 Abs. 6 Satz 5 UStAE", "Abschn. 15.2a Abs. 3 Satz 4 und 5 UStAE", "Abschn. 15.2b Abs. 1 Satz 7 und 8 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Ehegattengemeinschaft", "Grundstücksgemeinschaft", "Leistungsempfänger"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 17 – Fallgruppe 3: Mietvertrag mit Eheleuten" },
+      { text: "(Kennung in der Quelle: 801-05/11-21)\nBFH vom 01.02.2001 V R 49/99 (so in der Quelle; das Aktenzeichen lautet V R 79/99, so auch die Quelle selbst in den unten zitierten UStAE-Stellen)\nBMF vom 09.05.2008 (wird aufgehoben)" },
+      { typ: "tabelle", spalten: ["Vermieter", "Mietgegenstand", "Nutzung"], zeilen: [
+        ["Vertrag mit Ehel. A (EM = Händler)", "Lager", "Nutzung durch EM ohne weitere Vereinbarung"],
+      ] },
+      { text: "**LE = EM und EF grds. gemeinsam als Gebilde, aber insoweit kein Unternehmer**\n**Damit gilt für die bezogene Mietleistung als LE EM und EF je zu ½ ➔ ½ Vorst für EM**" },
+      { text: "☞ **BMF v. 27.10.2021:**" },
+      { text: "**Abschnitt 9.1 Absatz 6 Satz 5**\n„⁵Sind bei der Vermietung an mehrere Personen die einzelnen Gemeinschafter als LE anzusehen (vgl. Abschnitt 15.2b Abs. 1), kann der Vermieter nur insoweit optieren, als der Vermietungsumsatz an einen unternehmerisch tätigen Gemeinschafter ausgeführt wird (vgl. BFH-Urteil vom 1. 2. 2001, V R 79/99, BStBl 2008 II S. 495).“" },
+      { text: "**Abschnitt 15.2b Abs. 1 UStAE:**\n„⁷Bei gemeinsamem Erwerb durch mehrere Personen in Form einer nicht selbst unternehmerisch tätigen Bruchteilsgemeinschaft sind die einzelnen Gemeinschafter als LE anzusehen (BFH-Urteil vom 28.08.2014, V R 49/13, BStBl 2021 II S. 825).\n⁸Dies gilt für den Bezug von sonstigen Leistungen gleichermaßen, z.B. bei der Vermietung eines Ladenlokals an eine nichtunternehmerische Ehegattengemeinschaft (vgl. BFH-Urteil vom 1. 2. 2001, V R 79/99, BStBl 2008 II S. 495).“" },
+      { typ: "titel", text: "Arbeitspapier A 18 – 4.2 Vorst bei Grundstücksgemeinschaft" },
+      { text: "(Kennung in der Quelle: 807)\n**Abschn. 15.2a Abs. 3 Satz 4 & 5 UStAE (z.B. BFH v. 23.09.2009, XI R 14/08)**\n• Eigentümer Eheleute A / B (GbR oder Gemeinschaft).\n• Umbau / Modernisierung und V.u.V durch GbR / Gemeinschaft." },
+      { typ: "tabelle", spalten: ["Aufträge", "Gebäude", "Behördliches und Kosten"], zeilen: [
+        ["Aufträge an Bauunternehmer durch Herrn A (ohne weitere Hinweise)", "Vermietete Wohnungen; vermietete Ladenlokale", "Baugenehmigung an Herrn A; laufende Kosten an Herrn A (ohne weitere Hinweise)"],
+      ] },
+      { typ: "tabelle", spalten: ["FA: Baurechnungen an Herrn A", "Keine Vorst Eheleute", "Keine Vorst Herr A"], zeilen: [
+        ["Begründung", "kein LE soweit Aufträge von Ehemann A erteilt,", "nicht für das Unternehmen des Herrn A"],
+      ] },
+      { text: "**BFH:**\nBerechtigt und verpflichtet aus Verträgen (und damit LE) = alleine Ehemann A\nEheleute haben kein Recht auf Vorst für Leistungen an den Gesellschafter.\nKein Handeln des Ehemannes für Eheleute (nur dann, wenn Offenlegung gegenüber LU im Vertrag)\nKein Umkehrschluss aus Rechtsprechung zur Ehegattengemeinschaft (EuGH – Urteil Rs. HE). (Betrifft den umgekehrten Fall)" },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-43",
+    teil: TEIL,
+    kapitel: "43",
+    abschnittNr: "A 19 und A 20",
+    title: "Arbeitspapiere A 19 und A 20: Rückwirkung der Rechnungsberichtigung",
+    thema: "Rechnungsbesitz als formelle und materielle Voraussetzung, Rückwirkung auf die erstmalige Ausstellung (EuGH Senatex, Biosafe, Vadan; BFH), Berichtigung bis zum Schluss der mündlichen Verhandlung vor dem FG, Berichtigung nach § 31 Abs. 5 UStDV oder Stornierung und Neuausstellung, Mindestangaben einer berichtigungsfähigen Rechnung und die vier Nebenangaben",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 19 und A 20"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1 Satz 1 Nr. 1 Satz 2 UStG", "§ 31 Abs. 5 UStDV", "Abschn. 14.11 UStAE", "Abschn. 15.2a Abs. 7 UStAE", "BMF v. 18.09.2020"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Rechnungsberichtigung", "Rückwirkung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 19 – 4.3 Rückwirkung der Rechnungsberichtigung" },
+      { text: "(Kennung in der Quelle: 811-18- 09/20)\n**BMF v. 18.09.2020 & Abschn. 15.2a Abs. 7 UStAE**" },
+      { text: "❶ **Besitz einer Rechnung mit USt-ausweis, ist formelle Voraussetzung und zugleich materielle Voraussetzung für den Vorsteuerabzug.**\n☞ Aus EuGH-Urteilen folgt nicht, dass Vorst gänzlich ohne Rechnung geltend gemacht werden kann.\n☞ Besitz einer Rechnung ist nach § 15 (1) S. 1 Nr. 1 Satz 2 UStG Voraussetzung für Vorsteuerabzugsrecht." },
+      { text: "❷ **Rechnungsberichtigungen wirken auf den Zeitpunkt zurück, in dem die Rechnung erstmals ausgestellt wurde (Änderung der Rechtsprechung).**\nEuGH v. 15.09.2016 - C-518/14 Rs. Senatex\nEuGH v. 12.04.2018 - C-8/17 Rs. Biosafe\nEuGH v. 21.11.2018 - C-664/16 Rs. Vadan\nBFH-Urteil v. 20.10.2016 - V R 26/15\nBFH-Urteil v. 20.10.2016 - V R 54/14\nBFH-Urteil v. 12.03.2020 - V R 48/17" },
+      { text: "❸ **Die Rechnung kann bis zum Schluss der letzten mdl. Verhandlung vor dem FG berichtigt werden.**" },
+      { text: "❹ **Rechnungsberichtigung oder Stornierung und Neuerteilung der Rechnung.**\n☞ Berichtigung nach § 31 Abs. 5 UStDV = nur entsprechende „Angabe“ muss korrigiert werden. Rechnungsberichtigung erfordert eine spezifische und eindeutige Bezugnahme auf die ursprüngliche Rechnung (§ 31 Abs. 5 Satz 2 UStDV & Abschn. 14.11. UStAE; Rn. 29 BMF v. 18.09.20)\n☞ Oder durch Stornierung der ursprünglichen Rechnung und Neuausstellung der Rechnung (Rn. 30 BMF v. 18.09.20)." },
+      { typ: "titel", text: "Arbeitspapier A 20" },
+      { text: "❺ **Eine berichtigungsfähige Rechnung liegt jedenfalls dann vor, wenn sie Angaben zum**\n❖ Rechnungsaussteller,\n❖ zum Leistungsempfänger,\n❖ zur Leistungsbeschreibung,\n❖ zum Entgelt und zur gesondert ausgewiesenen USt\n**enthält.**" },
+      { text: "🔔 **Unterschiedliche Qualität der „Angaben“ beachten:**" },
+      { typ: "tabelle", spalten: ["Sog. 4 - Nebenangaben", "fehlen", "sind ungenau / unbestimmt oder unzutreffend"], zeilen: [
+        ["Rechnungsdatum & Leistungsdatum, Rechnungs-Nr. & St-Nr. bzw. IdNr. Nr.", "⇨ können berichtigt werden", "⇨ können berichtigt werden"],
+      ] },
+      { text: "**EuGH v. 15.09.2016 - C-518/14 Rs. Senatex** – Steuernummer fehlte\n**BFH v. 20.10.2016 - V R 64/14** – Steuernummer fehlte\n**BFH v. 05.09.2019 - V R 12/17** – Grundsätzliche Rückwirkung einer Rechnungsberichtigung" },
+      { text: "Das Schaubild ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

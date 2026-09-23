@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 17 bis A 20
+
+Übernommen (PDF-Seiten 77 bis 80, Seiten gerendert und angesehen): Kapitel ust-m-b11-42 (A 17 Fallgruppe 3 Mietvertrag mit Eheleuten, Abschn. 9.1 Abs. 6 Satz 5 und 15.2b Abs. 1 Satz 7 und 8 UStAE; A 18 Vorsteuer bei Grundstücksgemeinschaft, BFH XI R 14/08) und ust-m-b11-43 (A 19 und A 20 Rückwirkung der Rechnungsberichtigung). Schaubilder als Tabellen wiedergegeben.
+
+- Quellenmarkierung: A 17 nennt oben „BFH vom 01.02.2001 V R 49/99“; das Aktenzeichen lautet V R 79/99 (so die Quelle selbst in den zitierten UStAE-Stellen).
+- Ergänzt: Die Markierung in A 14 („BStBl 2021 II S. xxx“) verweist jetzt auf S. 825 nach A 17.
+- Stillschweigend berichtigt: „28.08. 014“ → „28.08.2014“ (A 17).
+- Keine Zahlenangaben zum Nachrechnen.
+
+Prüfung danach: 12 Teile, 448 Kapitel, 6254 Blöcke, 337 Tabellen.
+
+Weiter mit: Arbeitspapier A 21, PDF-Seite 81.
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 13 bis A 16
 
 Übernommen (PDF-Seiten 73 bis 76, Seiten gerendert und angesehen): Kapitel ust-m-b11-40 (A 13 Vorsteuern bei nichtunternehmerischen Gemeinschaften, Änderung § 2 Abs. 1 Satz 1 UStG durch das JStG 2022; A 14 Fallgruppe 1, Kranerwerb, Abschn. 3.5 und 14b.1 UStAE) und ust-m-b11-41 (A 15 Fallgruppe 2, Rechtssache HE; A 16 Büro-/Hallengemeinschaft). Schaubilder als Tabellen wiedergegeben.
