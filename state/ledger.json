@@ -4264,19 +4264,19 @@
       "dauer": 72.1,
       "veroeffentlicht": "2026-09-22T19:11:22.569Z",
       "insights": {
-        "reach": 35,
+        "reach": 38,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 55,
-        "ig_reels_avg_watch_time": 14084,
-        "ig_reels_video_view_total_time": 591565,
-        "reels_skip_rate": 55.6
+        "views": 58,
+        "ig_reels_avg_watch_time": 14471,
+        "ig_reels_video_view_total_time": 636738,
+        "reels_skip_rate": 53.8
       },
-      "insightsStand": "2026-09-23T15:43:57.260Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-09-23T18:44:16.480Z",
+      "insightsAlterStunden": 23.5
     },
     {
       "datum": "2026-09-22",
@@ -4395,7 +4395,7 @@
       "veroeffentlicht": "2026-09-23T09:45:29.448Z",
       "karteUrl": null,
       "insights": {
-        "reach": 17,
+        "reach": 20,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -4404,8 +4404,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-23T14:44:52.594Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-09-23T18:44:16.480Z",
+      "insightsAlterStunden": 9
     },
     {
       "datum": "2026-09-23",
@@ -4474,21 +4474,22 @@
       "medienId": "18479595370113473",
       "veroeffentlicht": "2026-09-23T11:43:47.535Z",
       "insights": {
-        "reach": 13,
-        "views": 22,
+        "reach": 22,
+        "views": 30,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 14,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 10,
-        "navigation_tap_exit": 3
+        "navigation": 29,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 19,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-09-23T13:43:59.451Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-23T18:44:15.335Z",
+      "insightsAlterStunden": 7
     },
     {
       "datum": "2026-09-23",
