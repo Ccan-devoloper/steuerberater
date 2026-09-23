@@ -1,0 +1,19 @@
+{
+  "slot": "s7",
+  "art": "begriff",
+  "fach": "bilanz",
+  "klausur": 3,
+  "pairId": "bilanz-karte-k3-14",
+  "titel": "Kapitalerträge im Betriebsvermögen",
+  "text": "Gehören Dividenden oder andere Kapitalerträge zum Betriebsvermögen, werden sie nach § 20 Abs. 8 EStG der betrieblichen Einkunftsart zugerechnet. Der Kapitalertragsteuerabzug ist dann nicht die endgültige tarifliche Besteuerung; die einbehaltene Steuer wird im Veranlagungsverfahren berücksichtigt.",
+  "norm": "§ 20 Abs. 8 EStG",
+  "icon": "bilanz",
+  "bildSzene": "dividend flowing into business ledger",
+  "fachLabel": "Bilanzsteuerrecht",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-23",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-23T04:24:00.000Z"
+}
