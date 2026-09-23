@@ -10623,6 +10623,53 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Dublettencheck, achter Teil: die übrigen Ordner des zweiten Baums – und blockierte Quellen sind lesbar
+
+Geprüft sind die Ordner Umwandlungssteuerrecht, Erbschaftsteuer/Bewertungsrecht (je mit ihren
+Termin-Unterordnern), Einkommensteuer, Bilanzierung, Abgabenordnung und Internationales
+Steuerrecht des zweiten Baums – zusammen 55 Dateien, jede über ihre Drive-ID gegen Protokoll,
+Datensätze und README abgeglichen, unklare Dateinamen über den Inhalt identifiziert.
+
+**Dubletten (bereits vollständig im Campus):** die ESt-Fallsammlungen „Einkünfte aus
+Gewerbebetrieb“ (08/2026) und „Einkünfte aus Kapitalvermögen“ (05/2026) – beide stehen in
+`src/data/est-fallsammlungen.js` mit genau diesen Ständen; das ESt-Kurzskript II (Engelberth,
+05/2026); die IStR-Übungsfälle samt Lösungen (Heino Schmitz, Consum GmbH …, identisch mit der
+IStR-Fallsammlung); das Prüfungsschema Vermögensgegenstand/Wirtschaftsgut (Nöthen, „2025) (6).pdf“
+im Bilanz-Ordner, identisch mit dem Schema im Bilanzen-Campus); im ErbSt-Ordner die Fälle
+Beckmann, Fietze, Pack, Haßlinghaus mit Lösungen, das Bewertungsrecht Teile 1 bis 3 mit Lösungen,
+das ErbSt-Skript Teil 2 (Verschonung) mit Lösung und die ErbSt-Fallsammlung 4. Termin; im
+AO-Ordner das Short-Skript, das Hinweisblatt und AO Teil VI.
+
+**Neu – bisher an keiner Stelle im Campus:**
+
+| Bestand | Datei(en) | Umfang |
+| --- | --- | --- |
+| Umwandlungssteuerrecht Teile I bis V (Hamacher, 21. Auflage, 01/2026) | fünf Dateien, zwei davon als „2026) (9).pdf“ (Teil II Einbringung §§ 20 – 23, 25; Teil V §§ 3 – 10, 18) | 0,4 bis 1,5 MB je Teil |
+| UmwSt-Kurzskript (Breier, 04/2025) | `17xQUV4RT0WWL8X6l5UWjPn8O-6Tw1CJt` | 5,3 MB |
+| IStR-Skript inkl. Folien (Grümmer-Holzrichter, 03/2026) | `1J6nyscsq9ATpbQ7biy_5NA5CZXPLqjQ5` | 4,9 MB |
+| Bilanz-Skript Termin 1 und Übersichten (Melzer, 04/2026) | `19z9p0I0WgRUbRMbQfYAMaYzKUJNUsIx3`, `1NtebyaKqbhJBZ_nwF4a55baSVBttWHzM` | 2,9 und 1,6 MB |
+| ErbSt-Skript Teil 1 (Schäfer, 05/2025) mit Lösung | `1FmGNS4rzz47vCytIoFQzUZbcVQ_5PuFz`, `1Efj3NzIrOacwIbzJz_RwYsFBrcLkTcTL` | 0,5 MB |
+
+Noch abzugleichen sind die Bilanz-Fallsammlung Melzer (04/2026, mit Lösungen V2) gegen die 90
+Fälle der bestehenden Fallsammlung, das Änderungsprotokoll der Bilanzunterlagen und die
+ErbSt-Übungsfälle zur Leibrentenverpflichtung und zu § 23 ErbStG gegen die eingepflegten
+Hausaufgaben.
+
+**Technisch blockiert:** die Bilanz Fact Sheets (Horst, 05/2026, 19,6 MB) sind wie die
+PersG Fact Sheets desselben Verfassers ein reiner Scan ohne Textebene – jetzt in
+`docs/offene-quellen.md`, Abschnitt A.
+
+**Wichtigster Befund – bisher blockierte Quellen sind lesbar.** Im AO-Ordner liegen dieselben
+Dateien AO Teil I bis V, die in Abschnitt A als technisch blockiert stehen, weil die
+**Textausgabe** des Connectors nach 140.000 bis 170.000 Zeichen abbrach. Über den
+**Download** der Datei mit lokaler Auswertung (pypdf) ist AO Teil I jetzt **vollständig**
+lesbar: 145 Seiten und 275.000 Zeichen statt bisher 30 Seiten. Dasselbe Verfahren trägt
+bereits die gesamte Übernahme der Hamacher-Skripte und des Moecker-Skripts. Damit sind die
+meisten Zeilen des Abschnitts A voraussichtlich lösbar: ESt-Kurzskript I, KSt-Kurz-Skript
+(Breier), AO Teil I bis V und die Originalklausuren Ertragsteuern und Bilanzierung 2011 bis
+2015. Sie werden als Nächstes nachgeholt; die Arbeitsliste steht in `docs/offene-quellen.md`,
+Abschnitt B.
+
 ### Dublettencheck, siebter Teil: Umsatzsteuer im zweiten Baum – das USt-Skript (Moecker) ist neu
 
 Der USt-Ordner des zweiten Baums (`114y07DPwUEHE5OjGsI-xP2KYUQwgZL69`) hat fünf Unterordner

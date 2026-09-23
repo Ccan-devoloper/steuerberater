@@ -14,6 +14,16 @@ Stand: siehe Git-Historie dieser Datei.
 
 ## A. Technisch blockiert – bitte in den Chat senden
 
+**Neuer Stand (September 2026):** Viele Zeilen dieser Tabelle waren nur blockiert, weil die
+**Textausgabe** des Connectors bei größeren PDF-Dateien abbricht. Inzwischen wird jede Datei
+über den **Download** geholt und lokal mit pypdf ausgewertet; das liefert den vollständigen
+Text. Für AO Teil I ist das geprüft: 145 Seiten statt bisher 30. Die Zeilen **ESt-Kurzskript I,
+KSt-Kurz-Skript (Breier), AO Teil I bis V, Ertragsteuern 2011–2015 und Bilanzierung 2011–2015**
+werden deshalb nachgeholt (siehe Arbeitsliste in Abschnitt B) und hier gestrichen, sobald sie
+eingepflegt sind. **Nicht** lösbar bleiben reine Scans ohne Textebene und Handschriften, weil in
+dieser Umgebung keine Texterkennung zur Verfügung steht, sowie Lösungen, die im Ordner fehlen.
+
+
 | Quelle | Was genau fehlt | Grund |
 |---|---|---|
 | **ESt-Kurzskript I** (Engelberth, Stand 07/2026), Drive-ID `1DdIbwtK4vfHU4w15uayCsg_VdaD7Afft` | Seiten 80–162: Tz. 3.6 und Kapitel 4 der gewerblichen Einkünfte sowie die Teile **Betriebsaufspaltung, Gewerblicher Grundstückshandel, Betriebsbeendigung, Einnahmenüberschussrechnung, Einkünfte aus selbständiger Arbeit, Einkünfte aus Kapitalvermögen** | Der Connector gibt das PDF nur bis Seite 79 aus; der Download der 6,6-MB-Datei lässt die Verbindung abbrechen (dreimal versucht). Kein zweites Exemplar im Ordner (Volltextsuche geprüft). |
@@ -22,6 +32,7 @@ Stand: siehe Git-Historie dieser Datei.
 | **KSt-Kurz-Skript** (Breier, Mai 2026), Drive-ID `1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0` | Ab etwa Seite 90 von 196: **der Rest von Teil 4 (Veräußerung von Anteilen, § 8b Abs. 2 und 3 KStG), Teil 5 (verdeckte Gewinnausschüttung), Teil 6, Teil 7 (Zinsschranke), Teil 8 (Organschaft), Teil 9 (Liquidation), Teil 10 (Nennkapital)** | Der Connector gibt das PDF nur bis etwa Seite 90 aus. Die Teile 1 bis 3 und der Anfang von Teil 4 sind lesbar und eingepflegt; ab der Bruchstelle fehlt auch der Rest von Teil 4. |
 | **„KStG, 1. bis 7. Einheit"** (Nöthen), Ordner `1bqhD4ayOUTo8A7WBUXgce3otxy5L7YrN` | Alle sieben Dateien vollständig | **Reine Scans ohne Textebene.** Der Connector liefert nur Seitenplatzhalter („Page 1", „Page 2", …), keinen Text. Über den Connector grundsätzlich nicht erfassbar. |
 | **ErbStR, 4. und 5. Einheit** (Mitschriften), Ordner `1aIlk9ojzoC9TDklJ3m1QtPZZO41h4Zd6` | Alle vier Dateien vollständig: „ErbStR, 4. Einheit_Teil 1“ (`185fNc_fJW2CCUVfeUD6MaDCQ5EHFAK1O`, 114 Seiten, 14,4 MB), „ErbStR. 4. Einheit_Teil 2“ (`1DTUXD5w5NHs2U4V9tvC1MlbHkdlbu1wV`, 42,5 MB), „ErbStR, 5. Einheit_Teil 1“ (`1ObPFd8dnae_W8WIj1wr6rj8CDFnUMQ7o`, 35,8 MB) und „ErbSt, 5 Einheit - Teil 2“ (`1BbwheGqCbRBMzeNstEcWXlXmAXLWcH6k`, 17,0 MB) | **Reine Scans ohne Textebene.** Der Connector liefert für alle vier nur Seitenplatzhalter („Page 1“, „Page 2“, …), keinen Text. Der Download scheitert am 10-MB-Limit des Connectors (für die kleinste der vier Dateien geprüft: „File too large for download, over limit of 10 MB“). Die Einheiten 1 bis 3 desselben Ordners stehen dagegen vollständig im Campus. |
+| **Bilanz Fact Sheets** (Horst, Mai 2026), Drive-ID `1abE85eIrTg5SBxpehBBBdfZTa2vSAVEH` (19,6 MB, im Bilanz-Ordner des zweiten Baums `19RxwMWawVvHEJ975UFmIvdSNcaCQSgJ-`) | Die vollständige Datei | **Reiner Scan ohne Textebene.** Der Connector gibt nur den Wasserzeichentext zurück, einmal je Seite; dasselbe Bild wie bei den PersG Fact Sheets desselben Verfassers. |
 | **PersG Fact Sheets** (Horst, April 2025), Drive-ID `179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5` | Die vollständigen 24 Seiten | **Reiner Scan ohne Textebene.** Der Connector gibt aus dem 17,4-MB-PDF nur den Wasserzeichentext zurück, sonst nichts. Der Download bricht am 10-MB-Limit des Connectors ab; eine lokale Texterkennung steht in dieser Umgebung nicht zur Verfügung. |
 | **AO Teil I** (Jacobs, Mai 2025), Drive-ID `1aHWnqQ5PE_XXgbI3Aw7ShlMe_AuEj2gQ` | Der Rest des Abschnitts 3 (ab Seite 30) und der vollständige **Abschnitt 4** | Der Connector gibt aus dem 1,4-MB-PDF 144.000 Zeichen bis Abschnitt 3, Seite 30 aus und bricht dort an einer Seitengrenze ab. Das Deckblatt kündigt „Teil I: Abschnitte 1 bis 4“ an. Die Abschnitte 1 bis 3 sind bis zur Bruchstelle eingepflegt. |
 | **AO Teil II** (Jacobs, Mai 2025), Drive-ID `15kFDJkIW4sHvVz5tlf5_s4DIEwUm0cDd` | Aus Abschnitt 6 die Seiten 43 bis 74: die Ablaufhemmungen des **§ 171 Abs. 9, 10, 10a, 14 und 15 AO** einschließlich der gesonderten Feststellung nach § 181 Abs. 5 AO | Der Connector gibt aus dem PDF 170.000 Zeichen aus und bricht in Abschnitt 6 auf Seite 42 ab. Abschnitt 5 und Abschnitt 6 bis § 171 Abs. 7 AO sind lesbar und eingepflegt. |
@@ -48,6 +59,37 @@ aufgeht, und mit einem Prüfskript.
 ---
 
 ## B. Noch nicht bearbeitet
+
+### Arbeitsliste nach dem Dublettencheck des zweiten Baums (Reihenfolge der Abarbeitung)
+
+1. **Bisher blockierte Reste nachholen** (jetzt über den Download lesbar): AO Teil I (ab
+   Abschnitt 3, Seite 30, und Abschnitt 4), AO Teil II (Abschnitt 6 ab Seite 43), AO Teil III
+   (Abschnitt 7 ab Seite 80), AO Teil IV (Abschnitt 9 ab Seite 18 und Abschnitt 10), AO Teil V
+   (Abschnitt 12 ab Seite 28 und Abschnitt 13), ESt-Kurzskript I (Seiten 80–162),
+   KSt-Kurz-Skript Breier (ab Seite 90), Ertragsteuer-Prüfungen 2013 bis 2015,
+   Bilanz-Prüfungen 2012 Teil III (Lösung) und 2013 bis 2015.
+2. **Neue Bestände aus dem zweiten Baum**, bisher an keiner Stelle im Campus:
+   - Umwandlungssteuerrecht (Hamacher, 21. Auflage, Januar 2026): Teil I Allgemeines und
+     Umwandlungsarten (`1ZARZWjR7VDA5_groMb6XgdVxZGoxe0ms`), Teil II Einbringung in eine
+     Kapitalgesellschaft §§ 20 – 23, 25 UmwStG (`13Co6d7aV8oO1c_hymjVKY0WNOb6LfTyn`), Teil III
+     §§ 11 – 13 UmwStG (`1e0kAdsm1mV0EX8i4JiN3PQv8GqOsK17g`), Teil IV § 15 UmwStG
+     (`1AgUXSDoN7x76GyC5aGblDWZ7FMuHZ0ZT`), Teil V Umwandlung einer Kapitalgesellschaft auf eine
+     Personengesellschaft §§ 3 – 10, 18 UmwStG (`1mklaRDw0X-0fMF2U_ehmwT3jgYML5vE2`);
+   - UmwSt-Kurzskript (Breier, April 2025, `17xQUV4RT0WWL8X6l5UWjPn8O-6Tw1CJt`, 5,3 MB);
+   - IStR-Skript inkl. Folien (Grümmer-Holzrichter, März 2026, `1J6nyscsq9ATpbQ7biy_5NA5CZXPLqjQ5`, 4,9 MB);
+   - Bilanz-Skript Termin 1 (Melzer, April 2026, `19z9p0I0WgRUbRMbQfYAMaYzKUJNUsIx3`) und die
+     Übersichten dazu (`1NtebyaKqbhJBZ_nwF4a55baSVBttWHzM`); die Fallsammlung Melzer samt Lösungen
+     V2 (`1VkIpVDdg9th9-O4DMVr2xExhm4dOabt-`, `1Dtvc8BNrLLDRZWMXQc_Lg0aLHAQ32QdW`) gegen die
+     90 Fälle der bestehenden Bilanz-Fallsammlung abgleichen, dazu das Änderungsprotokoll
+     Bilanzunterlagen 04/26 (`1zYukX6s21OUD9w1tYb6TGBCqf4L2dDNN`);
+   - ErbSt-Skript „Erbschaftsteuer 2025-2026 Teil 1“ (Schäfer, Mai 2025,
+     `1FmGNS4rzz47vCytIoFQzUZbcVQ_5PuFz`) mit Lösung (`1Efj3NzIrOacwIbzJz_RwYsFBrcLkTcTL`) – der
+     Teil 2 (Verschonung) steht bereits vollständig im Campus; dazu prüfen, ob die Übungsfälle
+     „Leibrentenverpflichtung“ (`1tUFPpsjhK8NAGnuXDXjBPeFDDCiSUvU8`, Lösung
+     `1Wtg88rxCaffJgK1tcYkGvnVpfsimC2Rj`) und „Jahreswertbesteuerung § 23 ErbStG“
+     (`1cqNN23uPB_aIuLzSJHrfDLOy1CRdeJkP`) mit den eingepflegten Hausaufgaben übereinstimmen;
+   - USt-Skript (Moecker), Blöcke 1 bis 13 – begonnen, siehe Protokoll.
+
 
 ### Klausur 2 – Einkommensteuer
 - vollständig eingepflegt (bis auf den oben genannten, technisch blockierten Teil des
