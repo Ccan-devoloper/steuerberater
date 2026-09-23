@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5: Arbeitspapiere A 35 bis A 40
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel
+`ust-m-b05-33` für die PDF-Seiten 97 bis 102: A 35 Restaurationsleistungen (Party-Service
+Krefeld/Venlo, belegte Brötchen), A 36/A 37 Auftrittsleistung und Eintrittsberechtigung in
+Präsenz und online, A 38 Personenbeförderung (driving-services, BFH V R 5/10), A 39/A 40
+Übersicht Dienstleistungsort im B2C-Bereich. Die zweispaltigen Schaubilder als Tabellen mit
+den Spaltenköpfen der Quelle; für die dreispaltigen Übersichten A 39/A 40 wurden die
+Spaltenköpfe „Vorschrift“, „Leistung“, „Ort“ ergänzt und als eigene Ergänzung vermerkt.
+A 37 und A 40 tragen keine eigene Überschrift. Stand des USt-Skripts: 5 Teile, 105 Kapitel, 2176 Blöcke, 113 Tabellen.
+
+**Quellbefunde (markiert):** Wie im Textteil nennt die Quelle für Restaurationsleistungen
+„§ 3a Abs. 3 Nr. 3a Bu. a)“ (A 35 zweimal, A 39) und für Arbeiten an beweglichen Gegenständen
+„Nr. 3a Bu. b)“ (A 40); gemeint sind § 3a Abs. 3 Nr. 3 Buchst. b bzw. c UStG.
+
+**Stillschweigend berichtigt:** „Recht auf „physischem“ Zugang“ (physischen), „zu einer
+Veranstaltungen“, „Satz. 2“, „beweglich körperlichen“, gesperrte Schrift („A u f t r i t t s
+l e i s t u n g“, „P r ä s e n z“, „O n l i n e“, „P e r s o n e n“, „G ü t e r“),
+„Abschn. 3a.6.“.
+
+**Noch offen in Block 5:** Arbeitspapiere ab A 41 (PDF-Seite 103 ff.).
+
 ### USt-Skript (Moecker), Block 5: Arbeitspapiere A 28 bis A 34
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel

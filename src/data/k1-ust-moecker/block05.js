@@ -1,7 +1,7 @@
 /* USt-Skript (Moecker), Block 5: Entgeltliche sonstige Leistungen.
    Quelle: „B-S26-USt-Skript Block 05-(Moecker)-0326“ (Block 05 – Sonstige
    Leistungen, Vers. I / 2026, Red. 04-26, Titelblatt März 2026), 114 PDF-Seiten.
-   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 34. */
+   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 40. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 03/2026";
@@ -1235,6 +1235,71 @@ export const block05 = [
       { text: "**!! Ununterbrochen** = maßgebend ist **tatsächliche Dauer, nicht Vertrag**." },
       { text: "**Beispiel:** Der **Autovermieter M aus Mönchengladbach** vermietet **für 10 Tage** an den **Unternehmer V aus Venlo** einen Kleintransporter, der von V überwiegend nach Abholung in Mönchengladbach im EU-Ausland genutzt wird. V verwendet seine niederländische USt-IdNr. ➔ Ort gem. § 3a Abs. 3 Nr. 2 **in DE – Übergabeort** – ➔ **Steuerbar und steuerpflichtig in DE** ➔ Rechnungserteilung **mit USt** ➔ Vorst für V im **Vergütungsverfahren**" },
       { text: "**Beispiel:** Wie vorher, jedoch beträgt die **Mietdauer 50 Tage**. ➔ Ort gem. § 3a Abs. 2 **in NL** am Sitzort des LE ➔ In NL **zwingend RC-Verfahren** gem. Art. 196 MwStSystRL ➔ Sonstige Leistung in ZM zu erklären – § 18a UStG – ➔ **Gesonderte Erklärung in USt-VA Kz. 21** – § 18b UStG – ➔ Rechnung mit Angabe USt-IdNr. LU und LE – § 14a Abs. 1 UStG –" },
+    ],
+  },
+  {
+    id: "ust-m-b05-33",
+    teil: TEIL,
+    kapitel: "33",
+    abschnittNr: "Arbeitspapiere A 35 bis A 40",
+    title: "Arbeitspapiere A 35 bis A 40: Restaurationsleistungen, Auftritts- und Eintrittsleistungen (Präsenz und online), Personenbeförderung im B2B-Bereich und Übersicht Dienstleistungsort im B2C-Bereich",
+    thema: "Party-Service aus Krefeld für ein Firmenjubiläum in Venlo und Lieferung belegter Brötchen, Auftrittsleistung und Eintrittsberechtigung in Präsenz und virtuell im B2B- und B2C-Bereich, driving-services für Konzertveranstalter (BFH V R 5/10) sowie Grundregel und vorrangige Ausnahmen im B2C-Bereich",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 35 bis A 40"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 UStG", "§ 3a Abs. 1 bis 6 UStG", "§ 3a Abs. 3 Nr. 3 Satz 2 UStG i.d.F. JStG 2024", "§ 3a Abs. 3 Nr. 5 Satz 2 UStG", "§ 3b Abs. 1 bis 3 UStG", "§ 14a UStG", "Art. 45 MwStSystRL", "Art. 194 MwStSystRL", "Abschn. 3a.6 Abs. 9 UStAE", "Abschn. 3a.7a UStAE", "BFH, 08.09.2011, V R 5/10"],
+    themen: ["Restaurationsleistung", "Auftrittsleistung", "Eintrittsberechtigung", "Streaming", "Personenbeförderung", "B2C", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 35 – 3.6.3 Ausnahmeregel „Restaurationsleistungen“" },
+      { text: "**§ 3a Abs. 3 Nr. 3a Bu. a) UStG** (so in der Quelle; gemeint § 3a Abs. 3 Nr. 3 Buchst. b UStG) – **Tätigkeitsprinzip (Erbringungsort)**" },
+      { text: "➢ Zur Abgrenzung zwischen **Lieferung von Nahrungsmitteln und sonstiger Leistung** ist Abschn. 3a.6 Abs. 9 UStAE zu beachten ➢ Hierzu beachte AP 2 ff." },
+      { text: "**Beispiel:** Der **Party-Service DU aus Krefeld** erhält von dem **niederländischen Großhändler NU aus Venlo** den Auftrag, anlässlich eines **Firmenjubiläums** (Tag der offenen Tür) vor Ort ein **Büffet nebst Veranstaltungszelt, Bestuhlung, Geschirr, Besteck und Bedienung für ca. 300 Personen** bereitzustellen. ➔ Ort gem. § 3a Abs. 3 Nr. 3a Bu. a) (so in der Quelle; gemeint Nr. 3 Buchst. b) **in NL – Tätigkeitsort** – ➔ **In DE nicht steuerbar; in NL steuerbar und stpfl.** ➔ In der EU **kein zwingendes RC-Verfahren**. Als Ausnahmeregel unterliegt Leistung **freiwilligem RC-Verfahren nach Art. 194 MwStSystRL** (Einzelfallentscheidung). **NL sieht für alle so. Leistungen im B2B-Bereich RC vor.** ➔ Sonstige Leistung **nicht in ZM** zu erklären und **keine gesonderte Erklärung** in USt-VA ➔ Rechnung mit **Hinweis auf RC-Verfahren** – § 14a UStG –" },
+      { text: "**Beispiel:** Wie vorher, jedoch schuldet DU **nur 500 belegte Brötchen**. ➔ **Lieferung** mit Ort gem. § 3 Abs. 6 UStG **in Krefeld** ➔ Als **innergem. Lieferung steuerfrei**." },
+      { typ: "titel", text: "Arbeitspapier A 36 – 3.6.4 Ausnahmeregel „sog. Auftrittsleistungen“ und „Verschaffung der Eintrittsberechtigung“" },
+      { text: "**Art der Leistung: sog. Auftrittsleistung** – > kulturell, künstlerisch = Sänger, Schauspieler usw. > wissenschaftlich = wissenschaftl. Gutachten usw. > unterrichtend = Seminare, Kurse, Fortbildung > sportlich = Leichtathletik, Radfahrer usw. > unterhaltend = Zirkus, Konzerte, Show" },
+      { typ: "tabelle", spalten: ["B2B-Bereich", "B2C-Bereich"], zeilen: [
+        ["Grundregel (Sitzprinzip) – § 3a Abs. 2 UStG", "Tätigkeitsort – § 3a Abs. 3 Nr. 3 UStG"],
+      ] },
+      { text: "**Art der Leistung: Eintritts-Berechtigung** (typische Leistung der Veranstalter & Tickethändler)" },
+      { text: "**Präsenz B2B:** Für die Einräumung der **Eintritts-Berechtigung gem. § 3a Abs. 3 Nr. 5 UStG** – Recht auf **„physischen“ Zugang** (Abschn. 3a.7a UStAE) zu einer Veranstaltung: Theateraufführung, Zirkusvorstellung, Konzerte, Freizeitpark, Ausstellungen etc.; Sportveranstaltungen (auch als Abo); Zugang zu Seminaren, Konferenzen, Unterrichtseinheiten, Kongressen etc. ➔ **Veranstaltungsortprinzip**" },
+      { typ: "titel", text: "Arbeitspapier A 37" },
+      { text: "**Präsenz B2C:** Für kulturelle, unterrichtende, unterhaltende usw. Veranstaltungen gem. **§ 3a Abs. 3 Nr. 3 UStG** ➔ **Veranstaltungsortprinzip**" },
+      { text: "**Online / Streaming / Virtuell** – elektronisch erbracht / verfügbar gemacht:" },
+      { typ: "tabelle", spalten: ["B2B-Bereich", "B2C-Bereich"], zeilen: [
+        ["Online-Teilnahme ist vom Anwendungsbereich des § 3a Abs. 3 Nr. 5 UStG ausgeschlossen (§ 3a Abs. 3 Nr. 5 Satz 2). Es gilt die Grundregel. Das ist der Sitz des LE.", "Ab 2025 = am Sitz des LE, § 3a Abs. 3 Nr. 3 Satz 2 UStG i.d.F. JStG 2024. Das ist der Wohnsitz des LE."],
+        ["Wird mit der Eintrittsberechtigung eine virtuelle Teilnahme an einer Veranstaltung ermöglicht, gilt für die Einräumung dieser Eintrittsberechtigung § 3a Abs. 2 UStG (B2B-Grundregel); am „Firmensitz des LE“.", "Werden die Leistungen per Streaming übertragen oder auf andere Weise virtuell verfügbar gemacht, dann Ort am Wohnsitz des LE gem. § 3a Abs. 3 Nr. 3 Satz 2 UStG."],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 38 – 3.6.5 Ausnahmeregel „Personenbeförderung“" },
+      { text: "**Beförderungsleistung im B2B-Bereich:**" },
+      { typ: "tabelle", spalten: ["Personen", "Güter"], zeilen: [
+        ["Inlandbeförderungen, Drittlandbeförderungen, innergem. Beförderung", "Inlandbeförderungen, Drittlandbeförderungen, innergem. Güterbeförderung"],
+        ["➔ Strecken-Prinzip, § 3b Abs. 1 UStG ➔ insoweit steuerbar und steuerpflichtig, als Strecke auf das Inland entfällt", "➔ Grundregel, § 3a Abs. 2 UStG – Empfänger-Sitz-Prinzip –"],
+      ] },
+      { text: "**Beispiel:** **X** erbringt sog. **driving-services** für Unternehmer, die als Veranstalter **in Köln, London und Paris** Konzertveranstaltungen durchführen. X stellte für die Beförderung der Künstler zwischen Flughafen, Hotel, Arena und ggf. Stadtfahrten **Busse und Luxuslimousinen, jeweils mit Fahrern**, zur Verfügung." },
+      { text: "➔ Die **Überlassung eines Fahrzeugs mit Chauffeur** zu im Voraus vereinbarten und für zusätzliche fakultative Fahrtstrecken ist eine **Beförderungsleistung i.S. von § 3b UStG** (BFH-Urteil v. 08.09.2011 – V R 5/10) ➔ Ort gem. § 3b Abs. 1 UStG **in Köln (steuerbar und steuerpfl.)**, **London und Paris (in DE nicht steuerbar)**." },
+      { typ: "titel", text: "Arbeitspapier A 39 – 4. Übersicht Dienstleistungsort im B2C-Bereich" },
+      { text: "**Grundregel § 3a Abs. 1 UStG** – **Unternehmer-Sitz-Prinzip** (Art. 45 MwStSystRL)" },
+      { text: "**Ausnahmen – vorrangige Ortsbestimmungen** (teilweise identisch mit Ausnahmeregeln im B2B-Bereich; vgl. daher auch Ausführungen zum B2B-Bereich):" },
+      { typ: "tabelle", spalten: ["Vorschrift", "Leistung", "Ort"], zeilen: [
+        ["§ 3a Abs. 3 Nr. 1 UStG", "So. Leistungen im Zusammenhang mit Grundstücken", "➔ Belegenheitsort"],
+        ["§ 3a Abs. 3 Nr. 2 Satz 1 und 2 UStG", "kurzfristige Vermietung eines Beförderungsmittels", "➔ Übergabeort"],
+        ["§ 3a Abs. 3 Nr. 2 Satz 3 UStG", "langfristige Vermietung eines Beförderungsmittels", "➔ Empfänger-Sitz-Prinzip"],
+        ["§ 3a Abs. 3 Nr. 3 UStG", "Satz 1: sog. Auftritts- und Veranstaltungsleistungen (z. B. Kunst, Unterhaltung, Sport, Unterricht & ähnliche Tätigkeiten); Satz 2: obige Leistung wird online oder virtuell verfügbar gemacht", "Satz 1: ➔ Tätigkeitsort; Satz 2: ➔ Wohnsitz des LE"],
+        ["§ 3a Abs. 3 Nr. 3a Bu. a) UStG (so in der Quelle; gemeint Nr. 3 Buchst. b)", "Restaurationsleistungen", "➔ Tätigkeitsort"],
+        ["§ 3b Abs. 1 Satz 1 UStG", "Personenbeförderung", "➔ Beförderungsstrecke"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 40" },
+      { text: "**Weitere Ausnahmen als vorrangige Ortsbestimmungen; gelten aber nur im B2C-Bereich:**" },
+      { typ: "tabelle", spalten: ["Vorschrift", "Leistung", "Ort"], zeilen: [
+        ["§ 3a Abs. 3 Nr. 3a Bu. b) UStG (so in der Quelle; gemeint Nr. 3 Buchst. c)", "Arbeiten an beweglichen körperlichen Gegenständen", "➔ Tätigkeitsort"],
+        ["§ 3a Abs. 3 Nr. 4 UStG", "Vermittlungsleistungen", "➔ Ort des vermittelten Umsatzes"],
+        ["§ 3a Abs. 4 UStG", "Katalogleistungen (aber ohne Tel./TV + elektr. Dienste)", "➔ Empfänger-Sitz-Prinzip (bei LE aus dem Drittland) ➔ Unternehmersitz-Prinzip (bei LE aus der EU)"],
+        ["§ 3a Abs. 5 UStG", "Telekommunikation / Rundfunk- & Fernsehdienstleistungen & elektronische Dienstleistungen (sog. TRFE-Leistungen)", "➔ Empfänger-Sitz-Prinzip"],
+        ["§ 3a Abs. 6 UStG", "Besondere Leistungen durch Drittlandunternehmer", "➔ Ortsverlagerung in das Inland"],
+        ["§ 3b Abs. 1 Satz 3 und Abs. 3 UStG", "⧫ Güterbeförderung (Inlands-, Drittlandbeförderungen) ⧫ innergem. Güterbeförderung", "➔ Beförderungsstrecke; bei innergem. Güterbeförderung ➔ Beginn der Beförderung"],
+        ["§ 3b Abs. 2 UStG", "Umschlag, Lagerung im Zusammenhang mit einer Güterbeförderung", "➔ Tätigkeitsort"],
+      ] },
+      { text: "Die Übersichten A 39 und A 40 sind als Tabellen wiedergegeben; die Spaltenköpfe „Vorschrift“, „Leistung“ und „Ort“ sind eigene Ergänzung zur Darstellung der dreispaltigen Anordnung der Quelle." },
     ],
   },
 ];
