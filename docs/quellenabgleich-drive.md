@@ -10623,6 +10623,24 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 7: Abschnitte II.4 bis III.1
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
+`ust-m-b07-5` (II.4 Lieferer), `ust-m-b07-6` (II.5 Unternehmerischer Erwerber mit den
+Problembereichen Erwerb für das Unternehmen, gemischter Erwerb und Differenzbesteuerung),
+`ust-m-b07-7` (II.6 Ort des Erwerbs: Pflichterwerb, Straferwerb, EuGH C-696/20, Beispiel
+Rom–München, Hinweis zum Vorsteuerausschluss) und `ust-m-b07-8` (III.1 Juristische Personen)
+für die PDF-Seiten 103 bis 106. Stand des USt-Skripts: 7 Teile, 148 Kapitel, 2871 Blöcke, 149 Tabellen.
+
+**Stillschweigend berichtigt:** „vgl. unter Punkt III.). ).“ (doppelte Klammer), unvollständige
+Anführungszeichen in „(vgl. Tz. III. „Erweiterter Erwerberkreis u. „Block …“, „USt - IdNr.“,
+„USt.-IdNr.“, „Abschn. 15.2 c“, „100%“, „einen Straferwerb“ (ein), „entscheiden“ (entschieden),
+„dass er der Regelung“ (es, bezogen auf das Unionsrecht), „( hier“, „als innergem. Erwerbs
+unterliegt“ (Erwerb), „von D E“, „EuGH v . 22.04.2010“, „Hin-weis“. Die Kennzeichnungen „zu a)“
+und „zu b)“ der Lösung sind als „Lösung zu a)“ und „Lösung zu b)“ wiedergegeben.
+
+**Weiter mit:** Block 7 ab III.2 Erwerbsschwelle (PDF-Seite 106 unten).
+
 ### USt-Skript (Moecker), Block 7 begonnen: Abschnitte I bis II.3
 
 Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block07.js`
