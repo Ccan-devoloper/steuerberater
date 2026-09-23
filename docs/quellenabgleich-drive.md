@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5: Arbeitspapiere A 23 bis A 27
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel
+`ust-m-b05-31` für die PDF-Seiten 85 bis 89: A 23 Katalogleistungen (Norwegen,
+Betriebsstätten in Italien, Rechtsgutachten aus Frankreich/Brasilien), A 24 Güterbeförderungen
+(Spediteur DU, Schweden/Schweiz), A 25 Übersicht Sitz des Leistungsempfängers und Streckenfälle
+a bis g, A 26 § 3a Abs. 8 UStG (Reparatur in China), A 27 Übersicht Dienstleistungsort im
+B2B-Bereich als Tabelle mit den Spaltenköpfen der Quelle; die „ja/nein“-Prüfkette ist in die
+Zeilen übernommen. Die Schaubilder wurden am Layout-Auszug der PDF-Seiten gelesen. A 23 und A 25
+tragen keine eigene Überschrift. Stand des USt-Skripts: 5 Teile, 103 Kapitel, 2116 Blöcke, 105 Tabellen.
+
+**Quellbefunde (markiert):** A 23 nennt für die Firma M aus Mainz den Leistungsort „in Fulda“
+(gemeint Mainz). A 24 verweist auf „folgende Übersicht AP 23“ (gemeint die Übersicht in
+AP 25). A 27 nennt für Restaurationsleistungen „§ 3a Abs. 3 Nr. 3a Bu. a)“ (gemeint Nr. 3
+Buchst. b) und für die virtuelle Teilnahme „Satz 5“ (gemeint Satz 2 des § 3a Abs. 3 Nr. 5 UStG).
+
+**Stillschweigend berichtigt:** „Steuerschuldnerschaf“, „eines rechtliches Exposés“,
+„technische Beratung“ (technischen), „Steuerbefreiungen … geht“ (gehen), in A 25 die doppelte
+Gliederungsziffer „b.“ vor „DE – Türkei“ (d.) und fehlende Klammer bei b., „Gesonderte
+Erklärung“ (Kleinschreibung), „Abschn. 3a.2.“.
+
+**Noch offen in Block 5:** Arbeitspapiere ab A 28 (PDF-Seite 90 ff.).
+
 ### USt-Skript (Moecker), Block 5: Arbeitspapiere A 17 bis A 22
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel

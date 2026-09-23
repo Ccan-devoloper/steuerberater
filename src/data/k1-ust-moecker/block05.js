@@ -1,7 +1,7 @@
 /* USt-Skript (Moecker), Block 5: Entgeltliche sonstige Leistungen.
    Quelle: „B-S26-USt-Skript Block 05-(Moecker)-0326“ (Block 05 – Sonstige
    Leistungen, Vers. I / 2026, Red. 04-26, Titelblatt März 2026), 114 PDF-Seiten.
-   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 22. */
+   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 27. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 03/2026";
@@ -1128,6 +1128,57 @@ export const block05 = [
       { text: "❖ **Typische Beispielsfälle:** • Leistungen der Rechtsanwälte, Steuerberater usw. • Rechtliche, wirtschaftliche und technische Beratung • Werbeleistungen • Einräumung, Übertragung und Wahrnehmung von Rechten • Überlassung von Informationen • Personalgestellung • Kreditgewährung • Vermietung körperlich beweglicher Gegenstände (Ausnahme Beförderungsmittel) • Telekommunikation • Rundfunk und Fernsehen • Elektronische Dienstleistungen" },
       { text: "**Beispiel (LE aus EU + für nicht steuerbare Umsätze):** **Rechtsanwalt und Unternehmensberater DU aus Essen** berät ein **Unternehmen zur Herstellung von Photovoltaikanlagen mit Sitz in Belgien (BE)** im Hinblick auf einen **geplanten Börsengang** bzw. Ausgabe von Aktien zur Kapitalbeschaffung." },
       { text: "**!** Auch an einen Unternehmer **für nicht steuerbare Umsätze** ➔ Ort gem. § 3a Abs. 2 in GB (so in der Quelle; gemeint BE) am Sitzort des LE. **Für LE** ➔ In BE **zwingend RC-Verfahren** gem. Art. 196 MwStSystRL. **Für LU** ➔ Sonstige Leistung in ZM zu erklären – § 18a UStG – ➔ Gesonderte Erklärung in USt-VA – § 18b UStG – ➔ Rechnung mit Angabe USt-IdNr. LU und LE – § 14a Abs. 1 UStG –" },
+    ],
+  },
+  {
+    id: "ust-m-b05-31",
+    teil: TEIL,
+    kapitel: "31",
+    abschnittNr: "Arbeitspapiere A 23 bis A 27",
+    title: "Arbeitspapiere A 23 bis A 27: Katalogleistungen im Drittland, an Betriebsstätten und von ausländischen Leistenden, Güterbeförderungen, § 3a Abs. 8 UStG und Übersicht Dienstleistungsort im B2B-Bereich",
+    thema: "Unternehmensberater mit norwegischem Auftraggeber, Werbung für italienische Betriebsstätten, Rechtsgutachten aus Frankreich bzw. Brasilien, Spediteur DU mit Auftraggebern aus Schweden und der Schweiz, Übersicht zu Steuerbarkeit und Streckenfällen, Reparatur in China als Drittlandsleistung und Prüfschema der Ortsbestimmung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 23 bis A 27"),
+    verfasser: VERFASSER,
+    normen: ["§ 3a Abs. 2 Sätze 1 und 2 UStG", "§ 3a Abs. 3 Nr. 1, 2, 3 und 5 UStG", "§ 3a Abs. 8 UStG", "§ 3b Abs. 1 und 2 UStG", "§ 4 Nr. 3 Buchst. a UStG", "§ 13b Abs. 1, Abs. 2 Nr. 1 und Abs. 5 UStG", "§ 14a UStG", "§ 15 Abs. 1 Nr. 4 UStG", "§ 18a UStG", "§ 18b UStG", "§ 25 Abs. 1 Satz 5 UStG", "Art. 196 MwStSystRL", "Abschn. 3a.2 Abs. 2 UStAE", "Abschn. 3a.14 Abs. 5 UStAE"],
+    themen: ["B2B", "Katalogleistung", "Betriebsstätte", "Güterbeförderung", "Drittlandsleistung", "Übersicht Leistungsort", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 23" },
+      { text: "**Beispiel (Drittland):** Der **Unternehmensberater DU aus Düsseldorf** wird von einem **norwegischen Unternehmen (NU)** beauftragt, das ausländische Unternehmen in Deutschland zu repräsentieren. Laut Vertrag ist DU verpflichtet zur Produktwerbung, Marktanalyse, technischen Beratung, Kundenbetreuung und ggf. Vermittlung. ➔ Ort gem. § 3a Abs. 2 **in Norwegen** am Sitzort des LE. ➔ **Keine ZM, keine gesonderte Erklärung** in USt-VA ➔ Rechnungserteilung **ohne „deutsche“ USt**" },
+      { text: "**Beispiel (Ort Betriebsstätte):** Ein **deutscher Elektrokonzern (EK)** unterhält im EU-Ausland (z.B. **Italien**) **Betriebsstätten**. Durch Aufnahme von Werbeanzeigen in ausländischen Zeitungen und Zeitschriften wird für die Betriebsstätten geworben. EK erteilt **Werbeauftrag an inländische Werbeagentur (W)** und **Anzeigenaufträge an ausländische Verleger (V)**." },
+      { text: "**Leistung W => an EK** ➔ Ort gem. **§ 3a Abs. 2 Satz 2 UStG in Italien am Ort der Betriebsstätte (BSt)**. **Für LE** ➔ In IT **zwingend RC-Verfahren** gem. Art. 196 MwStSystRL. **Für LU** ➔ Sonstige Leistung in ZM zu erklären – § 18a UStG – ➔ Gesonderte Erklärung in USt-VA – § 18b UStG – ➔ Rechnungserteilung mit Angabe USt-IdNr. LU und LE (BSt). **Leistung V => an EK**: wie oben." },
+      { text: "**Beispiel (LU aus dem Ausland):** Die **Firma M aus Mainz** beauftragt eine **Rechtsanwaltskanzlei in Frankreich/Brasilien** mit der Erstellung eines rechtlichen Exposés betreffend das jeweilige Vertragsrecht. ➔ Ort § 3a Abs. 2 Satz 1 UStG in Fulda (so in der Quelle; gemeint Mainz) am Sitzort des LE ➔ Im Fall **Frankreich**: Umkehr der Steuerschuldnerschaft nach **§ 13b Abs. 1 i.V. Abs. 5 UStG** ➔ Im Fall **Brasilien**: Übergang der Steuerschuld nach **§ 13b Abs. 2 Nr. 1 i.V. Abs. 5 UStG** ➔ **Zeit- und betragsidentische Vorsteuer** gem. § 15 Abs. 1 Nr. 4 UStG" },
+      { typ: "titel", text: "Arbeitspapier A 24 – 3.4.4 Güterbeförderungen" },
+      { text: "➢ Einen Leistungsort **„Strecke“ oder „Beginn des Transports“ gibt es nicht**. ➢ Für Ortsbestimmung **ohne Bedeutung**, ob eine Inlandsbeförderung / innergem. Beförderung oder eine Drittlandsbeförderung vorliegt. ➢ **Steuerbefreiungen § 4 Nr. 3 UStG** gehen bei **ausländischen Auftraggebern ins Leere** (bereits nicht steuerbar); nicht jedoch bei **inländischem LE** (vgl. folgende Übersicht AP 23 (so in der Quelle; gemeint die folgende Übersicht in AP 25)). ➢ **Vereinfachungsregelung** bei Güterbeförderung „Rechnungsempfänger = Leistungsempfänger“ weiterhin gültig (Abschn. 3a.2 Abs. 2 UStAE)." },
+      { text: "**Beispiel:** **Spediteur DU aus Frankfurt** befördert im Auftrag eines Unternehmers 1) **aus Schweden** einen Gegenstand **von Köln nach Worms**. 2) **aus Schweden** einen Gegenstand **von Köln nach Schweden**. 3) **aus der Schweiz** einen Gegenstand **von Köln nach Amerika**." },
+      { text: "➔ **1.** Ort gem. § 3a Abs. 2 **in Schweden** am Sitzort des LE. – In Schweden **zwingend RC-Verfahren** – Sonstige Leistung in ZM zu erklären – § 18a UStG – – Gesonderte Erklärung in USt-VA – § 18b UStG – – Rechnung mit Angabe USt-IdNr. LU und LE – § 14a UStG –" },
+      { text: "➔ **2.** Ort gem. § 3a Abs. 2 **in Schweden** am Sitzort des LE. – Lösung wie 1." },
+      { text: "➔ **3.** Ort gem. § 3a Abs. 2 **in der Schweiz** am Sitzort des LE. – In der Schweiz RC-Verfahren ???? – **Keine ZM, keine gesonderte Erklärung** in USt-VA – Rechnungserteilung **ohne „deutsche“ USt**" },
+      { typ: "titel", text: "Arbeitspapier A 25" },
+      { typ: "tabelle", spalten: ["Leistungsempfänger hat seinen Sitz im Inland", "Leistungsempfänger hat seinen Sitz in der EU", "Leistungsempfänger hat seinen Sitz im Drittland"], zeilen: [
+        ["➔ steuerbar – Nur bei steuerbaren Umsätzen stellt sich die Frage nach Steuerfreiheit / Steuerpflicht des Umsatzes", "➔ Nicht steuerbar – In ZM melden – Gesond. Erklärung – Rechnung gem. § 14a UStG", "➔ Nicht steuerbar"],
+      ] },
+      { text: "**Maßgebend jetzt die tatsächliche Strecke** (Inland – EU – Drittland):" },
+      { text: "a. DE ➔ DE (stbar und stpfl.)" },
+      { text: "b. DE ➔ EU (stbar und stpfl.)" },
+      { text: "c. EU ➔ EU (stbar und stpfl.)" },
+      { text: "d. DE ➔ Türkei (stbar aber stfrei § 4 Nr. 3a)" },
+      { text: "e. EU ➔ Türkei (stbar aber stfrei § 4 Nr. 3a)" },
+      { text: "f. Schweiz ➔ Türkei – **Problem:** grds. stbar und – da kein § 4 Nr. 3 – steuerpflichtig. **Ab 2011 ff.: nicht stbar** – vgl. § 3a Abs. 8" },
+      { text: "g. DE ➔ Freihafen (stbar aber grds. stfrei § 4 Nr. 3a)" },
+      { typ: "titel", text: "Arbeitspapier A 26 – § 3a Abs. 8 UStG ab 1.1.2011" },
+      { text: "➢ Erbringt ein Unternehmer eine – **Güterbeförderungsleistung**, – eine im Zusammenhang mit einer Güterbeförderung stehende Leistung wie **Beladen, Entladen, Umschlagen** im Sinne des § 3b Absatz 2, – eine **Arbeit an oder eine Begutachtung von beweglichen körperlichen Gegenständen**, – eine **Reisevorleistung** im Sinne des § 25 Absatz 1 S. 5, – eine **Veranstaltungsleistung im Zusammenhang mit Messen und Ausstellungen** ➔ ist diese Leistung abweichend von Absatz 2 **als im Drittlandsgebiet ausgeführt** zu behandeln, wenn die Leistung **im Drittlandsgebiet genutzt oder ausgewertet** wird (im Sinne von **tatsächlich ausschließlich dort in Anspruch genommen**; Abschn. 3a.14 Abs. 5 UStAE)." },
+      { text: "**Beispiel:** **Service- und Reparaturbetrieb aus Düsseldorf (DU 1)** wird von einem **Maschinenhersteller aus Essen (DU 2)** beauftragt, eine **defekte Maschine in China** zu reparieren. Die Maschine hatte DU 2 erst vor 2 Monaten an einen Kunden aus China verkauft. ➔ Ort gem. § 3a Abs. 2 grds. **Essen** am Sitzort des LE. ➔ Abweichend hiervon Ort gem. **§ 3a Abs. 8 in China** ➔ Leistung **ausschließlich in China „genutzt“** ➔ DU 1 leistet **nicht steuerbar** an DU 2; Rechnungserteilung zwingend **ohne „deutsche“ USt**" },
+      { typ: "titel", text: "Arbeitspapier A 27 – 3.5 Übersicht Dienstleistungsort im B2B-Bereich" },
+      { typ: "tabelle", spalten: ["Die sonstige Leistung ist genannt in", "Der Ort der sonstigen Leistung ist am"], zeilen: [
+        ["§ 3a Abs. 3 Nr. 1 UStG – für alle sonstigen Leistungen in Zusammenhang mit einem Grundstück: ➢ Vermietung und Verpachtung ➢ Sachverständiger, Architekt ➢ Handwerkerreparaturleistung ➢ Wartung / Montage masch. Anlagen (wenn Grundstücksbestandteile)", "ja: Belegenheitsort des Grundstücks"],
+        ["nein ➔ § 3a Abs. 3 Nr. 2 UStG – kurzfristige Vermietung eines Beförderungsmittels: ➢ Wasserfahrzeuge bis 90 Tage ➢ andere Beförderungsmittel bis 30 Tage", "ja: Übergabeort"],
+        ["nein ➔ § 3a Abs. 3 Nr. 3a Bu. a) UStG (so in der Quelle; gemeint § 3a Abs. 3 Nr. 3 Buchst. b UStG) – Restaurationsleistungen (Catering, Party-Service)", "ja: Tätigkeitsort (Erbringungsort)"],
+        ["nein ➔ § 3a Abs. 3 Nr. 5 UStG – Satz 1: Einräumung der Eintrittsberechtigung für bestimmte Veranstaltungen (Satz 5 (so in der Quelle; gemeint Satz 2): bei virtueller Teilnahme jedoch)", "ja: Durchführungsort (bei virtueller Teilnahme: B2B-Grundregel)"],
+        ["nein ➔ § 3b Abs. 1 UStG – Personenbeförderungsleistung", "ja: Streckenort"],
+        ["nein ➔ § 3a Abs. 2 UStG – Grundregel", "Empfänger-Sitz-Prinzip nach Satz 1 bzw. Ort der Betriebsstätte Satz 2; § 3a Abs. 8 UStG: Sonderfall „fiktive Ortsbestimmung für Drittlandsleistungen“"],
+      ] },
+      { text: "Schaubild der Quelle als Tabelle wiedergegeben; die Pfeile „ja“ / „nein“ der Prüfkette sind in die Zeilen übernommen." },
     ],
   },
 ];
