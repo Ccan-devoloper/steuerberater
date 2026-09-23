@@ -10623,6 +10623,21 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 5 bis A 7
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-39` (A 5 Übung
+Fahrrad-Händler aus Neuss, sieben Fälle als Tabelle) und `ust-m-b08-1-40` (A 6 und A 7
+zwischengeschaltete bzw. vorgeschaltete Be- oder Verarbeitung, Stoffe/Hemden Köln–Dortmund–
+Brüssel–Basel) für die PDF-Seiten 66 bis 68. Stand des USt-Skripts: 8 Teile, 203 Kapitel, 3484 Blöcke, 177 Tabellen.
+
+**Darstellung:** Übung A 5 als Tabelle (Spaltenköpfe eigene Ergänzung), Schaubilder A 6 und
+A 7 als Text (eigene Ergänzung zur Darstellung).
+
+**Stillschweigend berichtigt:** „(NP)und“, „§ 4 Nr.1a“, „be- oder verarbeitet worden ist .“,
+fehlendes Schlusszeichen nach „Transport der Hemden“, Leerzeichen in Klammern.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab A 8 (PDF-Seite 69).
+
 ### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 1 bis A 4
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-37` (A 1 territoriale und

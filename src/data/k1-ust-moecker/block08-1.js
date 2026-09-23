@@ -2,7 +2,7 @@
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
    In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere A 1 bis
-   A 4 (PDF-Seiten 62 bis 65) eingepflegt, weitere folgen. */
+   A 7 (PDF-Seiten 62 bis 68) eingepflegt, weitere folgen. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -1115,6 +1115,60 @@ export const block08Teil1 = [
       { typ: "tabelle", spalten: ["Unternehmer für sein R.d.U", "Nichtunternehmer"], zeilen: [
         ["und ⧫ keine Verwendung des Gegenstandes für sog. Ausschlussumsätze", "und ⧫ ausländischer LE ⧫ weitere Warenbewegung in das übrige Drittland"],
       ] },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-39",
+    teil: TEIL,
+    kapitel: "39",
+    abschnittNr: "A 5",
+    title: "Arbeitspapier A 5: Übung Fahrrad-Händler aus Neuss",
+    thema: "Sieben Ausfuhrfälle eines Neusser Fahrradhändlers (Transport durch den Lieferer oder den Abnehmer, niederländische Abnehmer, Schweizer Zweigniederlassung, Spediteur im Freihafen, kanadischer Seemann) mit Zuordnung zu § 6 Abs. 1 Nr. 1 bis 3 und Abs. 2 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapier A 5"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 UStG", "§ 4 Nr. 1 Buchst. a UStG", "§ 6 Abs. 1 Nr. 1 bis 3 UStG", "§ 6 Abs. 1 Nr. 3 Buchst. a und b UStG", "§ 6 Abs. 2 Nr. 1 und 2 UStG"],
+    themen: ["Arbeitspapier", "Übung", "Ausfuhrlieferung", "ausländischer Abnehmer", "Freihafen"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 5 – Übung: Fahrrad-Händler (FH) aus Neuss" },
+      { typ: "tabelle", spalten: ["Fall", "Sachverhalt", "Lösung"], zeilen: [
+        ["1.", "FH veräußert 100 Fahrräder an deutschen Unt. (DU) und FH befördert die Räder in die Schweiz", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 1"],
+        ["2.", "FH veräußert 1 Fahrrad an niederländische Privatperson (NP) und FH befördert das Rad in die Schweiz", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 1"],
+        ["3.", "FH veräußert 100 Räder an niederländischen Unternehmer (NU) und NU befördert die Räder in die Schweiz", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 2 und § 6 (2) Nr. 1"],
+        ["4.", "FH veräußert 1 Fahrrad an niederl. Privatperson (NP) und NP lässt das Rad durch Spediteur in die Schweiz transportieren.", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 2 und § 6 (2) Nr. 1"],
+        ["5.", "FH veräußert 100 Räder an eine schweizer Zweigniederlassung (SZ) eines deutschen Herstellers. SZ befördert die Räder in die Schweiz", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 2 und § 6 (2) Nr. 2"],
+        ["6.", "FH veräußert 1 Rad an Spediteur mit Sitz in Bremen. FH befördert das Rad in den Freihafen Bremerhaven", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 3a"],
+        ["7.", "FH veräußert Mini-Bike an kanadischen Seemann (KS). KS nimmt Rad mit in den Freihafen Cuxhaven und folgend nach Kanada.", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 3b"],
+      ] },
+      { text: "Die Übung ist als Tabelle wiedergegeben; die Spaltenköpfe sind eigene Ergänzung zur Darstellung. In der Quelle stehen die Lösungen jeweils eingerückt unter dem Sachverhalt." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-40",
+    teil: TEIL,
+    kapitel: "40",
+    abschnittNr: "A 6 bis A 7",
+    title: "Arbeitspapiere A 6 und A 7: Zwischengeschaltete Be- oder Verarbeitung (§ 6 Abs. 1 Satz 2 UStG)",
+    thema: "Stofflieferung aus Köln an einen Basler Abnehmer mit Nähauftrag des Abnehmers an einen Dortmunder oder Brüsseler Werkunternehmer und Abgrenzung zum vorgeschalteten Nähauftrag des Lieferanten (Lieferung fertiger Hemden)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 6 und A 7"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 UStG", "§ 3a Abs. 2 UStG", "§ 4 Nr. 1 Buchst. a UStG", "§ 6 Abs. 1 Satz 1 Nr. 1 und 2 UStG", "§ 6 Abs. 1 Satz 2 UStG", "§ 6 Abs. 2 Nr. 1 UStG", "Abschn. 6.1 Abs. 5 UStAE"],
+    themen: ["Arbeitspapier", "Ausfuhrlieferung", "Be- oder Verarbeitung", "Werkleistung", "Materialgestellung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 6 – 3.5 Zwischengeschaltete Be- Verarbeitung § 6 (1) Satz 2" },
+      { text: "Vor der Ausfuhr (➔ durch Beauftragte des Abnehmers) ➔ sind für Ausfuhrlieferung **unschädlich**." },
+      { text: "**a.) Auftrag zur Be- oder Verarbeitung erfolgt durch den ABNEHMER (denknotwendig)**" },
+      { text: "Schaubild: DU1 (Köln) – Vertrag Lieferung Stoffe an – SU aus Basel (jenseits der Grenze); Transport der Stoffe zu DU2; DU2 (Dortmund) – Vertrag Hemden nähen – für SU; Transport durch DU2 über die Grenze." },
+      { text: "Lieferung DU1 an SU; **Ort Köln § 3 (6)**; steuerbar; **steuerfrei § 4 Nr. 1a + § 6 (1) Nr. 2 + § 6 (2) Nr. 1 + § 6 (1) Satz 2**. Werkleistung DU2 an SU (Stoffe = Materialgestellung) – **Ort: Schweiz § 3a Abs. 2 UStG; nicht steuerbar**." },
+      { text: "Steuerbefreiung für Ausfuhrlieferungen auch dann, wenn der gelieferte Gegenstand vor dem Gelangen in das Drittlandsgebiet nicht im Inland sondern ➔ **in einem anderen EU-Mitgliedstaat** – im Auftrag des Abnehmers – be- oder verarbeitet worden ist. (Abschn. 6.1 Abs. 5 UStAE) Beispiel ➔ vgl. A 7" },
+      { typ: "titel", text: "Arbeitspapier A 7" },
+      { text: "Schaubild: DU1 (Köln) – Lieferung Stoffe an – SU aus Basel; Transport der Stoffe zu BU; BU (Brüssel) – Nähen von Hemden an – SU; Transport durch BU über die Grenze." },
+      { text: "Lieferung DU 1 an SU; **Ort Köln § 3 (6)**; steuerbar; **steuerfrei § 4 Nr. 1a + § 6 (1) Nr. 2 + § 6 (2) Nr. 1 + § 6 (1) Satz 2**. Werkleistung BU an SU (Stoffe = Materialgestellung) – **Ort: Schweiz § 3a (2)**." },
+      { text: "**b.) Auftrag zur Be- oder Verarbeitung durch den LIEFERANTEN** (Kein Satz 2; hier **vorgeschaltete nicht zwischengeschaltete** Leistung)" },
+      { text: "Schaubild: DU1 (Köln) – vereinbarte Lieferung von Hemden an – SU aus Basel; Transport der Stoffe an DU2 (Dortmund) mit Auftrag „Hemden nähen & Transport der Hemden“; Transport der Hemden über die Grenze." },
+      { text: "Lieferung DU1 an SU; **Ort Dortmund § 3 (6)**; **steuerfrei § 4 Nr. 1a + § 6 (1) 1 UStG**. Werkleistung DU2 an DU 1 (Stoffe = Materialgestellung) – **Ort: Köln § 3a Abs. 2 UStG, steuerbar, steuerpflichtig**." },
+      { text: "Die Schaubilder sind als Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];
