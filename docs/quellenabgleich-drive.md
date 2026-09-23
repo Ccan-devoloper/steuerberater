@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: Arbeitspapiere A 25 bis A 30
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-52` (A 25 § 3 Abs. 6b UStG,
+Beispiel P/Max/E-Kauf/Tran), `ust-m-b09-53` (A 26 und A 27 Verbringen) und `ust-m-b09-54` (A 28
+bis A 30 Konsignationslager) für die PDF-Seiten 68 bis 73. Stand des USt-Skripts: 10 Teile, 331 Kapitel, 4788 Blöcke, 260 Tabellen.
+
+**Aus Bildern übertragen:** drei Folien auf den PDF-Seiten 71 bis 73 („5. Konsignationslager“
+mit §§ 1a Abs. 2a, 3 Abs. 1a, 6b Abs. 2 UStG; Aufzeichnungspflichten § 6b Abs. 1 Nr. 4 UStG mit
+ZM-Beispiel und Übergangslösung BZSt; Ergänzung § 22 Abs. 4f und 4g UStG).
+
+**Quellenfehler (im Text markiert):** A 30: „Erwerberwechsel (z.B. nun im Drittland)“ als
+Wegfallgrund; nach § 6b Abs. 5 UStG führt ein Erwerberwechsel unter den dortigen Voraussetzungen
+nicht zum Wegfall, der Weitertransport ins Drittland fällt unter § 6b Abs. 6 UStG.
+
+**Darstellung:** Übersichten und ZM-Beispiel als Tabellen; nicht lesbare Ziffernsymbole als
+① bis ③.
+
+**Stillschweigend berichtigt:** fehlendes „bei“ („bestellt Ware seinerseits Händler Tran“),
+„de m § 3 Abs. 6a“, fehlender Punkt nach „E-Kauf aus DE“, überzähliges Komma „Lieferungen,
+nach“, „bis das LE“ (der LE), „§1a Abs.1“, „§ 6 b Abs. 3“.
+
+**Weiter mit:** Arbeitspapier A 31 (PDF-Seite 74).
+
 ### USt-Skript (Moecker), Block 9: Arbeitspapiere A 18 bis A 24
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-49` (A 18 IOSS),
