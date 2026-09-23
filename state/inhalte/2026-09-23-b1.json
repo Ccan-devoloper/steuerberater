@@ -7,7 +7,7 @@
   "folien": [
     {
       "art": "titel",
-      "titel": "Erst Handelsbilanz, dann Steuerbilanz – ohne Norm keine Abweichung",
+      "titel": "Erst Handelsbilanz, dann Steuerbilanz – Abweichung nur mit Steuernorm",
       "icon": "waage",
       "pille": "Swipen →",
       "prioritaet": "hoch",
@@ -17,7 +17,7 @@
     {
       "art": "text",
       "titel": "Der Ausgangspunkt",
-      "text": "Wer nach § 238 (1), § 242 (1) HGB oder § 140, § 141 AO buchführungspflichtig ist, ermittelt den Gewinn durch Betriebsvermögensvergleich. Über § 5 (1) S. 1 Hs. 1 EStG wandern die *handelsrechtlichen* Grundsätze ordnungsmäßiger Buchführung direkt in die Steuerbilanz.",
+      "text": "Bei buchführungspflichtigen Gewerbetreibenden ist § 5 Abs. 1 EStG der steuerliche Ausgangspunkt: Die handelsrechtlichen Grundsätze ordnungsmäßiger Buchführung wirken grundsätzlich in die Steuerbilanz hinein. Erst eine steuerliche Spezialnorm kann Ansatz oder Bewertung abweichend bestimmen.",
       "icon": "paragraf"
     },
     {
@@ -26,7 +26,7 @@
       "schritte": [
         {
           "titel": "Wer bilanziert?",
-          "text": "Buchführungspflicht nach §§ 238, 140, 141 AO prüfen. Ohne Pflicht keine Bilanz, sondern ggf. § 4 (3) EStG."
+          "text": "Handels- oder steuerrechtliche Buchführungspflicht prüfen, insbesondere § 238 HGB sowie §§ 140, 141 AO. Dann die steuerliche Gewinnermittlungsart bestimmen."
         },
         {
           "titel": "Was gilt handelsrechtlich?",
@@ -67,7 +67,7 @@
     {
       "art": "merke",
       "titel": "Merksatz",
-      "text": "Ohne durchbrechende Norm bleibt es beim Handelsbilanzwert – Steuerrecht schreibt nicht einfach mit, es widerspricht nur, wenn es das ausdrücklich darf.",
+      "text": "Erst Handelsbilanz, dann Steuerbilanz. Jede Abweichung braucht eine steuerliche Norm, die den handelsrechtlichen Ausgangspunkt verdrängt oder verändert.",
       "icon": "buch"
     },
     {
@@ -81,7 +81,7 @@
       "icon": "zielscheibe"
     }
   ],
-  "caption": "Maßgeblichkeitsprinzip Steuerbilanz Handelsbilanz – wer das in der Klausur überspringt, verliert Punkte, bevor er überhaupt bei der Steuernorm ankommt. Der Trick: Erst die Handelsbilanz nach §§ 238, 242, 246 HGB bestimmen, dann prüfen, ob eine steuerliche Spezialnorm nach § 5 (1) EStG diesen Wert durchbricht. Ohne durchbrechende Norm bleibt der HGB-Wert stehen. Schick das jetzt der Person in deiner Lerngruppe, die steuerliche Wahlrechte einfach in die Handelsbilanz übernimmt – und speichere dir den Beitrag für die letzte Wiederholung vor Tag 3. Wo hakt's bei dir: Ansatz oder Bewertung? Schreib's unten rein.",
+  "caption": "Maßgeblichkeit in der Steuerbilanz: Erst den handelsrechtlichen Ausgangspunkt bestimmen, dann die steuerlichen Spezialnormen prüfen. Bei buchführungspflichtigen Gewerbetreibenden wirken die handelsrechtlichen GoB über § 5 Abs. 1 EStG grundsätzlich in die Steuerbilanz hinein. Abweichende Ansatz- oder Bewertungsfolgen brauchen eine steuerliche Vorschrift. In der Klausur deshalb sauber trennen: Wer bilanziert? Was gilt handelsrechtlich? Welche Steuernorm ändert den Wert? Und welche Gewinnauswirkung folgt daraus?",
   "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -101,7 +101,14 @@
   "kurztitel": "Maßgeblichkeit: HGB vor StB",
   "bildSzene": "open ledger book on desk",
   "bildSzeneAlt": "stack of two different binders side by side",
-  "quellen": [],
+  "quellen": [
+    "§ 238 Abs. 1 HGB",
+    "§ 242 Abs. 1 HGB",
+    "§ 140 AO",
+    "§ 141 AO",
+    "§ 5 Abs. 1 EStG",
+    "§ 60 Abs. 2 EStDV"
+  ],
   "hookTyp": "aussage",
   "faktenHinweise": [],
   "faktenFreigabe": {
@@ -110,5 +117,10 @@
     "ausgefallen": false,
     "hinweise": []
   },
-  "slug": "2026-09-23-b1"
+  "slug": "2026-09-23-b1",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-23",
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-23T06:22:27.573Z"
 }
