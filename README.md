@@ -2399,7 +2399,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Block 3 (Unternehmer / Unternehmen) mit 25 Kapiteln einschließlich der Arbeitspapiere A 1 bis
   A 27 ebenfalls vollständig, Block 4 (Entgeltliche Lieferungen) mit 22 Kapiteln einschließlich
   der Arbeitspapiere A 1 bis A 27 ebenfalls vollständig, Block 5 (Entgeltliche sonstige
-  Leistungen) mit vollständigem Textteil und Arbeitspapieren bis A 40 in 33 Kapiteln eingepflegt.
+  Leistungen) vollständig mit Textteil und Arbeitspapieren A 1 bis A 52 in 35 Kapiteln eingepflegt.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
@@ -2468,7 +2468,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   B2B-Beispielen zu Wartung, Vermittlung mit § 4 Nr. 5 UStG, Katalogleistungen und
   Güterbeförderungen, § 3a Abs. 8 UStG und Übersicht zum B2B-Dienstleistungsort, Grundstücks-,
   Messe- und Vermietungsleistungen, Restauration, Auftritts- und Eintrittsleistungen,
-  Personenbeförderung und Übersicht zum B2C-Dienstleistungsort).
+  Personenbeförderung, Übersicht zum B2C-Dienstleistungsort, B2C-Ausnahmen mit Musicalfall und
+  Online-Veranstaltungen, TRFE-Leistungen mit OSS und Art. 194/196 MwStSystRL im Vergleich).
   Prüfung: `npm run check:k1-ust-skript-moecker`
 - **Übungsfälle laufender Unterricht (Nöthen)** (Klausur 3, Reiter Bilanzen → „Übungsfälle
   (Nöthen)“): die **Bilanz-Fallsammlung, die den laufenden Unterricht begleitet** – alle

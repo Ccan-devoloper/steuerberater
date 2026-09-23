@@ -10623,6 +10623,33 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5 abgeschlossen: Arbeitspapiere A 41 bis A 52
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
+`ust-m-b05-34` (A 41 bis A 46, PDF-Seiten 103 bis 108: Vermietung Beförderungsmittel mit
+Sportbooten, Musicalfall Bochum/Wien/Basel, Online-Veranstaltungen und Leistungskombination,
+Werkleistungen, Vermittlungen) und `ust-m-b05-35` (A 47 bis A 52, PDF-Seiten 109 bis 114:
+Katalogleistungen im B2C-Bereich, typische Katalogleistungen, TRFE-Leistungen mit
+Nachweisvermutungen, Schwellenwert und OSS-Wahlrecht, Beförderungen im B2C-Bereich,
+Art. 194/196 MwStSystRL). **Block 5 ist damit vollständig** (Textteil I bis IV und
+Arbeitspapiere A 1 bis A 52, 35 Kapitel). Schaubilder als Tabellen mit den Spaltenköpfen der
+Quelle; A 51 als Text (Zuordnung am Layout-Auszug der PDF-Seite 113 geprüft). Stand des
+USt-Skripts: 5 Teile, 107 Kapitel, 2238 Blöcke, 122 Tabellen. Nebenbei wurde der
+Einleitungstext im K1-Campus bereinigt, der durch eine frühere Ersetzung einen doppelten
+Satzteil enthielt.
+
+**Quellbefunde (markiert):** Im Musicalfall (A 42 a) nennt die Quelle für die Leistung des
+Musikers aus London „zwingend RC-Verfahren (§ 13b Abs. 1 UStG)“; da der Musiker im Drittland
+ansässig ist, ergibt sich die Steuerschuld aus § 13b Abs. 2 Nr. 1 UStG (eigene Ergänzung).
+A 46 beginnt mit dem unvollständigen Satz „Damit eine doppelstöckige Ortsbestimmung“ (als
+unvollständig vermerkt).
+
+**Stillschweigend berichtigt:** „Somit Wien und Basel“ in A 42 e (Soweit), „eine einheitliche
+Leistungen“, „Abschn. 3a.5.“ und „3.7.“, „B  2C“, „§3a Abs. 4“, „Absatz. 1“, „Abschn. 3a. 10
+und 11“ (3a.10 und 3a.11), Layout-Reste der Schaubilder.
+
+**Weiter mit:** USt-Skript Block 6/7 (Datei b06-07).
+
 ### USt-Skript (Moecker), Block 5: Arbeitspapiere A 35 bis A 40
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel
