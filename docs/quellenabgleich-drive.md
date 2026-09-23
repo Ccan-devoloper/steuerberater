@@ -10623,6 +10623,32 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 fortgesetzt (III.2.4.1 bis III.2.4.3)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-19` (III.2.4.1 Einzelfälle als GiG: vermietete, teilvermietete und teils
+eigengenutzte Immobilien, Ferienwohnung, partielle GiG), `ust-m-b06-20` (III.2.4.2 Einzelfälle
+als steuerbare Lieferungen: Hallengrundstück in der Organschaft, Bauträger mit BFH V R 45/02,
+V R 21/07, XI R 16/14, V R 66/14 und BMF 16.11.2020, Diskothek ohne Pachtübergang, Verkauf an
+den Mieter, GmbH-Anteile) und `ust-m-b06-21` (III.2.4.3 Miteigentumsanteil, BFH V R 41/05,
+Schaubild als Text) für die PDF-Seiten 45 bis 50. Stand des USt-Skripts: 6 Teile, 128 Kapitel, 2583 Blöcke, 127 Tabellen.
+
+**Quellbefunde (markiert):** In III.2.4.2 trägt der Fall zu den GmbH-Anteilen dieselbe
+Überschrift wie der vorangehende Fall („Veräußerung an bisherigen Mieter“). Im Fall XI R 8/19
+ist ein „A“ nicht eingeführt und der Satz grammatisch unvollständig. Zum BFH-Urteil vom
+04.09.2008 nennt die Quelle kein Aktenzeichen (nicht ergänzt).
+
+**Stillschweigend berichtigt:** „Fall  :“, „§ 1 Abs. 1 a“, „" Übertragung …"“, „zusammen
+genommen“, „vermietetet“, „GIG“, „mit dem der Erwerber, die bisher“ (Komma), fehlende Klammer
+und fehlende schließende Anführungszeichen im Zitat zu Abschn. 1.5 Abs. 2 Satz 5 und 6 UStAE,
+„liegen nicht vor“ (liegt), „das der Käufer bereits untervermietet hatte“ (den), „ein sog.
+Innenumsatz“ (einen), „kann nicht angenommen“ (ergänzt: werden), „ist für sich ist“, „Urteil vom
+v.“, „In Abgrenzung hierzu, hat“, „…, kann mit zunehmender Dauer … geschaffen haben“ (Satzbau),
+„12. 8. 2015“, „a.a.O“, „1.Nov.“, „Buchst.a“, „Abschn. 1.5.“, „als wirtschaftlichen Vorgang“,
+„dass Unternehmen“ (das), „Abs.  2a“.
+
+**Noch offen in Block 6:** ab III.2.5 (PDF-Seite 50 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 6 fortgesetzt (III.2.1 bis III.2.4)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
