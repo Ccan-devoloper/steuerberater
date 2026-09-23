@@ -3,7 +3,7 @@
    Quelle: „Umsatzsteuer Block 8 (II) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeilen
    „Block 08 Teil II – steuerfreie Umsätze – Vers. II /2026 – Red. 07.26“ und „StB 59 –
    steuerfreie Umsätze Teil II – Vers. II /26 / Stand 07-26“), 101 PDF-Seiten.
-   In Arbeit: Textteil vollständig (PDF-Seiten 2 bis 63); Arbeitspapiere A 1 bis A 15 (PDF-Seiten 64 bis 78) eingepflegt. */
+   In Arbeit: Textteil vollständig (PDF-Seiten 2 bis 63); Arbeitspapiere A 1 bis A 21 (PDF-Seiten 64 bis 84) eingepflegt. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 07/2026";
@@ -1359,6 +1359,94 @@ export const block08Teil2 = [
       ] },
       { text: "Zivilrechtliche / bilanzrechtliche Betrachtung (Aktivierung der Ford.) **unbedeutend**." },
       { text: "Die Schaubilder A 13 bis A 15 sind als Text und Tabellen wiedergegeben; Spaltenköpfe, die Zeilen „Folge“ und die Zusammenfassung der Ausgangslage sind eigene Ergänzung zur Darstellung. Nicht lesbare Aufzählungszeichen sind entfallen." },
+    ],
+  },
+  {
+    id: "ust-m-b08-2-47",
+    teil: TEIL,
+    kapitel: "47",
+    abschnittNr: "A 16 bis A 17",
+    title: "Arbeitspapiere A 16 und A 17: Umsätze von Anteilen / Wertpapieren (§ 4 Nr. 8e und f UStG)",
+    thema: "Wertpapiere und Gesellschaftsanteile, Ausscheiden und Eintreten eines Gesellschafters (Abfindung, Einlage, Einbringung eines Betriebes als Geschäftsveräußerung), Ausgabe von Beteiligungen nicht steuerbar (KapHag, Kretztechnik), Erwerb, Halten und Veräußern von Beteiligungen aus Sicht des Gesellschafters (Abschn. 2.3 Abs. 3 und 6 UStAE)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 16 und A 17"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1a UStG", "§ 4 Nr. 8 Buchst. e und f UStG", "§ 9 Abs. 1 UStG", "Abschn. 1.6 Abs. 2 UStAE", "Abschn. 2.3 Abs. 3 und 6 UStAE", "EuGH (KapHag)", "EuGH (Kretztechnik)"],
+    themen: ["Arbeitspapier", "Gesellschaftsanteile", "Wertpapiere", "Gesellschaftereintritt", "Beteiligungen", "Vorsteuerabzug"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 16 – ➔ Nr. 8e und f = Umsätze von Anteilen / Wertpapieren" },
+      { typ: "tabelle", spalten: ["Umsätze von Wertpapieren", "und Gesellschaftsanteilen"], zeilen: [["• Aktien, • Bundesschatzbriefe • Investmentanteile", "• OHG-, KG-, GbR-Anteile • GmbH-Anteile"]] },
+      { typ: "tabelle", spalten: ["Vorgang", "Ausscheiden von G’ter A (Rolle LU)", "Eintreten eines G’ters A (Rolle LE)"], zeilen: [
+        ["Anteile (an AG / OHG / KG)", "Anteile (wenn kein Unternehmer = nicht steuerbar; sonst steuerfrei)", "Anteile (nicht steuerbar)"],
+        ["Gegenleistung", "= Geld; = Sachabfindung (Lief, so. Leist., steuerbar und steuerpflichtig)", "= Geld; = Sacheinlage (Lief, so. Leist., ggf. steuerbar und steuerpflichtig) ➔ Bei Einbringung eines Betriebes = GIG § 1 Abs. 1a UStG; nicht stbar"],
+      ] },
+      { text: "**Beachte:** Die **Ausgabe von Beteiligungen bei Eintritt eines G’ters** ist **keine steuerbare Leistung der G’schaft** (Abschn. 1.6 Abs. 2 UStAE; EuGH KapHag/Kretztechnik). **Vorsteuer** z.B. aus Beratungs- & Konzeptionsleistungen **abzugsfähig**, da Zuordnung zur übrigen Gesamttätigkeit (gesamtes operatives Geschäft). Zum Erwerb/Halten/Veräußern von Beteiligungen aus Sicht des Gesellschafters vgl. A 8 (so in der Quelle; gemeint wohl A 17)." },
+      { typ: "titel", text: "Arbeitspapier A 17 – Erwerb / Halten / Veräußern v. Beteiligungen aus Sicht des Gesellschafters" },
+      { text: "➔ Vgl. Abschn. 2.3 Abs. 3 und 6 UStAE – **Gesellschaftsrechtliche Beteiligungen** (Personen- oder Kapitalgesellschaften): Ausscheiden von G’ter A als LU (Veräußern) – Halten – Eintreten eines G’ters A als LE (Erwerben; Anteile nicht steuerbar)." },
+      { typ: "tabelle", spalten: ["Gesellschafter A", "Unternehmensvermögen", "Kein Unternehmensvermögen"], zeilen: [
+        ["Voraussetzung", "Unternehmensvermögen, da eigener unt. Tätigkeit dient, da Ziel des A z.B. • Übernahme der GF; • besserer Absatz für sein Einzelunternehmen", "Regelmäßig keine untern. Tätigkeit und kein Unternehmensvermögen, da Ziel des A • Dividende (Vermögen)"],
+        ["Erwerb", "Erwerb für eigenen unternehmerischen Bereich (Unternehmensvermögen) – Vorst eigener Aufwand", "Erwerb für nichtunternehmerischen Bereich (Privat)"],
+        ["Halten", "Halten (UV)", "Halten (Privat)"],
+        ["Verkaufen", "Verkaufen (aus dem UV) steuerbar aber steuerfrei § 4 Nr. 8e/f; Option § 9 Abs. 1 UStG möglich (dann Vorst)", "Verkaufen (Privat) nicht steuerbar"],
+      ] },
+      { text: "Die Schaubilder A 16 und A 17 sind als Tabellen wiedergegeben; Spaltenköpfe „Vorgang“, „Unternehmensvermögen“, „Kein Unternehmensvermögen“ und die Zeilenbezeichnungen sind eigene Ergänzung zur Darstellung. Das im Schaubild A 16 zwischen den Kästen stehende Wort „Anwalt“ lässt sich keinem Kasten zuordnen und ist nicht übernommen." },
+    ],
+  },
+  {
+    id: "ust-m-b08-2-48",
+    teil: TEIL,
+    kapitel: "48",
+    abschnittNr: "A 18",
+    title: "Arbeitspapier A 18: Unter das GrEStG fallende Umsätze (§ 4 Nr. 9a UStG)",
+    thema: "Grunderwerbsteuerbare Umsätze (Lieferung bebauter und unbebauter Grundstücke, Miteigentumsanteile, Gebäude auf fremdem Boden, Entnahme), Grundstücksbegriff des GrEStG mit Kaufpreisaufteilung für Betriebsvorrichtungen, Maschinen und Zubehör",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapier A 18"),
+    verfasser: VERFASSER,
+    normen: ["§ 4 Nr. 9 Buchst. a UStG", "§ 9 UStG", "§ 2 GrEStG", "§ 94 Abs. 1 und 2 BGB", "§ 97 BGB", "Abschn. 3.5 Abs. 2 Nr. 6 UStAE", "Abschn. 4.9.1 UStAE"],
+    themen: ["Arbeitspapier", "Grundstücksumsätze", "Grunderwerbsteuer", "Grundstücksbegriff", "Betriebsvorrichtungen", "Option"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 18 – 7. Unter das GrEStG fallende Umsätze (§ 4 Nr. 9a UStG) – optionsfähig –" },
+      { text: "**Umsätze, die unter das GrEStG fallen** – vgl. Abschn. 4.9.1 UStAE – (ausreichend GrESt-bar): ❖ **Lieferung bebauter / unbebauter Grundstücke** ❖ die **Übertragung von Miteigentumsanteilen** an einem Grundstück (als Lieferung gem. Abschn. 3.5 Abs. 2 Nr. 6 UStAE) ❖ Die **Lieferung von auf fremdem Boden errichteten Gebäuden** nach Ablauf der Miet- oder Pachtzeit ❖ Die **Entnahme (UWA) von Grundstücken** (wegen Gleichstellungsgedanke)" },
+      { text: "**Der Grundstücksbegriff des GrEStG:** Grundstück i.S.d. BGB = abgegrenzter Teil der Erdoberfläche. **Dazu gehören:** wesentliche Bestandteile eines Grundstücks (§ 94 Abs. 1 & 2 BGB; z.B. Gebäude, Fenster, Türen usw.). **Nicht dazu gehören (§ 2 GrEStG):** Betriebsvorrichtungen und Maschinen (selbst wenn sie wesentliche Bestandteile sind); Zubehör (§ 97 BGB) ➔ **Kaufpreis aufteilen**." },
+    ],
+  },
+  {
+    id: "ust-m-b08-2-49",
+    teil: TEIL,
+    kapitel: "49",
+    abschnittNr: "A 19 bis A 21",
+    title: "Arbeitspapiere A 19 bis A 21: Lieferung von Grundstücken (Fallvarianten)",
+    thema: "Reine Grundstückslieferung mit vorrangiger Prüfung der Geschäftsveräußerung im Ganzen (Fallvarianten), Option im ersten Notarvertrag, Steuerschuldnerschaft des Erwerbers und Rechnung nach § 14a Abs. 5 UStG, GrESt nicht in der BMG, Übung Geschäftshaus Frau V / Möbelhaus M (BFH vom 06.07.2016), reine Montagewerklieferung, Grundstück und Gebäude von einem bzw. mehreren Unternehmern (Vertragsbündel)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 19 bis A 21"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1 Nr. 1 und Abs. 1a UStG", "§ 3 Abs. 1 und Abs. 7 UStG", "§ 4 Nr. 9 Buchst. a UStG", "§ 9 Abs. 1 und Abs. 3 Satz 2 UStG", "§ 13b Abs. 2 Nr. 3 und Abs. 5 Satz 1 UStG", "§ 14a Abs. 5 UStG", "Abschn. 4.9.1 Abs. 1 Satz 5 und 6 UStAE", "Abschn. 10.1 Abs. 7 Satz 6 UStAE", "BFH, Urteil vom 06.07.2016"],
+    themen: ["Arbeitspapier", "Grundstückslieferung", "Geschäftsveräußerung im Ganzen", "Option", "Reverse-Charge", "Vertragsbündel"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 19 – 7.1 Lieferung von Grundstücken (Fallvarianten)" },
+      { text: "**a) Reine Lieferung von Grundstücken (bebaut – unbebaut)** (unbewegte Lieferung mit Ort gem. § 3 Abs. 7 UStG). **Beachte:** ❖ **Erst GiG gem. § 1 Abs. 1a UStG prüfen** (vgl. hierzu Block 06); wenn keine GiG, grds. steuerfreie Lieferung." },
+      { typ: "tabelle", spalten: ["Fallvariante", "Ergebnis", "Fallvariante", "Ergebnis"], zeilen: [
+        ["Lieferung vermieteter Immobilie unter Fortführung des Pacht- / Mietvertrages durch den Erwerber", "GIG", "Veräußerung eines bisher (selbstgenutzten) Hallengrundstücks.", "steuerbar"],
+        ["Teilweise vermietet (z.B. 50%) und teilweise eigenunternehmerische Nutzung (z.B. als Büro)", "GIG nur vermieteten Teil (hier 50%)", "Vermietetes Geschäftsgrundstück wird an den bisherigen Mieter veräußert.", "steuerbar"],
+        ["Teilweise vermietet zu 37%; teilweise leerstehend aber zur Vermietung bestimmte Flächen.", "GIG zu 100%", "Lieferung einer leerstehenden Diskothek (bisher verpachtet) ohne Übergang Pachtvertrag", "steuerbar"],
+      ] },
+      { text: "❖ **Option prüfen** gem. § 9 Abs. 1; ❖ **Optionsform beachten:** Option **nur im ersten Notarvertrag** möglich gem. § 9 Abs. 3 Satz 2 UStG. ❖ Bei Option **schuldet der Erwerber die USt** gem. § 13b Abs. 2 Nr. 3 UStG i.V.m. § 13b Abs. 5 Satz 1." },
+      { typ: "titel", text: "Arbeitspapier A 20" },
+      { text: "❖ **Rechnungslegung nach § 14a Abs. 5 UStG** mit Angabe „Steuerschuldnerschaft des Leistungsempfängers“. ❖ **BMG = Kaufpreis**; Beachte **GrESt gehört nicht zur BMG**, Abschn. 10.1 Abs. 7 Satz 6 UStAE." },
+      { text: "**Kleine Übung zur GiG:** Geschäftshaus – **Frau V** (Veräußerin) ➔ **Möbelhaus M** (Erwerber). Errichtung **01.12.01 (100% Vorst)**. Vermietung **EG an EM (stpfl.)** ➔ beim Erwerber **Selbstnutzung durch M**. Vermietung **1. OG an StB (stpfl.)** ➔ **Weitervermietung**. **Verkauf zum 1.1.07 (keine Option)**; Voraussetzung **EG leer**. **Liegt GIG vor???**" },
+      { typ: "tabelle", spalten: ["1. OG (Vermietung StB)", "EG (leer)"], zeilen: [["Insoweit (BFH 6.7.2016) ein eigener Teilbetrieb (V.u.V.-Unternehmen). Keine zivilrechtliche Betrachtung ob ggf. WEG. GiG nicht steuerbar § 1 (1a).", "Lieferung Haus nach § 3 (1). Ort § 3 (7) = D’dorf. Steuerbar § 1 (1) 1. Insoweit steuerfrei § 4 Nr. 9a. Option § 9 (1) möglich. Dann steuerpflichtig + 13b-Fall"]] },
+      { typ: "titel", text: "Arbeitspapier A 21" },
+      { text: "**b) reine Montagewerklieferung (sog. Bauleistung):** ❖ Grundlage = **Werkvertrag**. ❖ **Keine Steuerbefreiung** nach § 4 Nr. 9 Buchst. a UStG. ❖ Werkvertrag **kein Erwerbsvorgang** eines Grundstücks." },
+      { text: "**c) Lieferung Grundstück + Werklieferung Gebäude durch einen Unternehmer:** Bauunternehmer schuldet lt. einheitlichem Vertrag schlüsselfertig bebautes Grundstück (noch zu bebauen) ➔ **1 x Lieferung eines „bebauten Grundstücks“ (steuerfrei)** (Abschn. 4.9.1 Abs. 1 Satz 5 u. 6 UStAE)." },
+      { text: "**d) Lieferung Grundstück + Werklieferung Gebäude durch mehrere Unternehmer:**" },
+      { typ: "tabelle", spalten: ["Leistender", "Umsatzsteuer", "Grunderwerbsteuer"], zeilen: [
+        ["Immo-GmbH verkauft Grubo", "1 x stfrei", "insges. 1 x GrESt, da faktische Verknüpfung („sog. Vertragsbündel“)"],
+        ["Architekt A macht Plan", "1 x stpfl.", "(Teil des Vertragsbündels)"],
+        ["A/B OHG errichten Bauwerk (Werkvertrag)", "1 x stpfl.", "(Teil des Vertragsbündels)"],
+        ["B übernimmt Bauaufsicht", "1 x stpfl.", "(Teil des Vertragsbündels)"],
+      ] },
+      { text: "➔ **Unterschiedliche Unternehmer** ➔ Fällt jeweilige Leistung des LU dem Grunde nach unter das GrEStG? ➔ **Hier unterfällt nur Lieferung Grubo der GrESt!!**" },
+      { text: "Die Schaubilder A 19 bis A 21 sind als Tabellen wiedergegeben; Spaltenköpfe, die Rollenbezeichnungen „Veräußerin“ / „Erwerber“ und der Klammerhinweis „(Teil des Vertragsbündels)“ – in der Quelle eine alle Zeilen umfassende Klammer – sind eigene Ergänzung zur Darstellung. „=>“ ist durch „➔“ ersetzt." },
     ],
   },
 ];

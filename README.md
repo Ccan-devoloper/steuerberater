@@ -2430,7 +2430,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   sowie der Option nach § 9 Abs. 1 UStG mit Finanzumsätzen, Vermietung, Grundstückslieferungen
   und fiktiver Option, Optionserklärung und Optionseinschränkung nach § 9 Abs. 2 UStG
   und zeitlichen Einschränkungen nach § 27 Abs. 2 UStG (Textteil vollständig) sowie die
-  Arbeitspapiere A 1 bis A 15 (46 Kapitel).
+  Arbeitspapiere A 1 bis A 21 (49 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 16 bis A 21
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-47` (A 16 und A 17
+Anteile und Beteiligungen), `ust-m-b08-2-48` (A 18 § 4 Nr. 9a UStG) und `ust-m-b08-2-49`
+(A 19 bis A 21 Lieferung von Grundstücken, Übung zur GiG) für die PDF-Seiten 79 bis 84.
+Stand des USt-Skripts: 9 Teile, 269 Kapitel, 4273 Blöcke, 226 Tabellen.
+
+**Quellenfehler (im Text markiert):** A 16 verweist für die Sicht des Gesellschafters auf
+„A 8“; gemeint wohl A 17.
+
+**Nicht übernommen (vermerkt):** im Schaubild A 16 das keinem Kasten zuzuordnende Wort
+„Anwalt“.
+
+**Darstellung:** Schaubilder als Tabellen; Spaltenköpfe, Zeilenbezeichnungen, Rollen
+„Veräußerin“ / „Erwerber“ und der Klammerhinweis zum Vertragsbündel eigene Ergänzung.
+
+**Stillschweigend berichtigt:** „- OHG, KG, GbR - Anteile“, „so Leist.“, „ggf steuerbar“,
+„Bachte“, „Eintritt eine G’ters sind keine steuerbaren Leistungen“ (eines … ist keine
+steuerbare Leistung), „Unternehmerischen Bereich“, „4.9.1.“, „GrESt – bar“, „Immobilie“
+(Trennung), „i.V. § 13b“, „Leistungsempfängers  “, „Abs.1“, „Verm. / Verp.“, Leerzeichen in
+Klammern.
+
+**Weiter mit:** Arbeitspapier A 22 (PDF-Seite 85).
+
 ### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 9 bis A 15
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-43` (A 9 § 4 Nr. 28 UStG),
