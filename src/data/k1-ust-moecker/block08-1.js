@@ -2,7 +2,7 @@
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
    In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere A 1 bis
-   A 21 (PDF-Seiten 62 bis 82) eingepflegt, weitere folgen. */
+   A 26 (PDF-Seiten 62 bis 87) eingepflegt, weitere folgen. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -1343,6 +1343,59 @@ export const block08Teil1 = [
       { text: "**Nach BMF jedoch unschädlich** für einen grenzüberschreitenden (steuerfreien) Warenweg nach Spanien / Indien, wenn • **LE bei Beginn des Transports feststeht** & LU kann nachweisen, • einen **zeitlichen / sachlichen Zusammenhang** zwischen Lieferung & Transport • und dass ein **kontinuierlicher Warenbewegungsvorgang** vorliegt." },
       { text: "**Praxis-TIPP:** Teilstreckenvereinbarung abschließen" },
       { text: "Nicht lesbare Aufzählungszeichen in A 19 bis A 21 sind durch „–“, „*“ und „•“ wiedergegeben, wie sie in der Textextraktion erscheinen bzw. ersetzt (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-47",
+    teil: TEIL,
+    kapitel: "47",
+    abschnittNr: "A 22 bis A 25",
+    title: "Arbeitspapiere A 22 bis A 25: Nachgeschaltete Bearbeitung, registrierter Abnehmer, USt-IdNr. und Zusammenfassende Meldung",
+    thema: "EuGH Fonderie C-446/13 (lackierte Metalle Düsseldorf–Paris–Nancy), registrierter Abnehmer mit Erwerbsbesteuerung, Verwendung und Gültigkeit der USt-IdNr. ab 2020, Überprüfung durch qualifizierte Abfrage und Bedeutung der ZM mit BMF vom 20.05.2022",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 22 bis A 25"),
+    verfasser: VERFASSER,
+    normen: ["§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1 UStG", "§ 18a Abs. 10 UStG", "Abschn. 3a.2 Abs. 10 UStAE", "Abschn. 6a.1 Abs. 19 UStAE", "EuGH, Urteil vom 02.10.2014 – C-446/13 (Fonderie)", "BMF-Schreiben vom 20.05.2022"],
+    themen: ["Arbeitspapier", "innergemeinschaftliche Lieferung", "USt-IdNr.", "Zusammenfassende Meldung", "Be- oder Verarbeitung", "Lieferort"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 22 – Nachgeschaltete Bearbeitung – Ort der Lieferung (EuGH-Urteil v. 02.10.2014, C-446/13 Rs. Fonderie)" },
+      { text: "Schaubild: **Lieferant Firma T in D’dorf** – Kaufvertrag mit **Fa. N aus Nancy (FR)** über **100 lackierte Metalle** – Transport „Rohmetalle“ an **Fa. P aus Paris** für Lackierarbeiten (Werkunternehmer P aus Paris (Lackiererei)) – Käufer der Metalle aus Nancy. **?? Ort der Lieferung Paris oder D’dorf**" },
+      { text: "**Ort der Lieferung in Paris**, da **Fertigerzeugnis im vertraglichen Zustand erst hier existent** ist. Der „fertige“ Liefergegenstand befindet sich bei Beginn der Beförderung in FR. **Folge:** In FR steuerbar + stpfl. + Registrierung. Damit vorgeschaltet: **fiktive Lieferung in DE** (steuerfrei & Abgabe ZM) + **fiktiver Erwerb in FR** (und Vorst in FR)." },
+      { typ: "titel", text: "Arbeitspapier A 23 – Zu Registrierter Abnehmer mit Erwerbsbesteuerung" },
+      { text: "=> Abnehmer muss in einem anderen EU-Staat • **als Unternehmer registriert** sein, Problem – Neugründungsfälle – Kunden aus dem Drittland • der den Gegenstand **für sein Unternehmen** erworben hat," },
+      { typ: "titel", text: "Zu verwenden einer gültigen USt-IdNr." },
+      { text: "Ist **ab 1.1.2020 eine zusätzliche materielle Voraussetzung**: LE hat gegenüber LU seine **im Zeitpunkt der Lieferung gültige USt-IdNr. verwendet**. „Verwenden“ setzt ein **positives Tun** des LE voraus. (vgl. Abschn. 3a.2 Abs. 10 UStAE)" },
+      { text: "❖ Grds. bei Vertragsabschluss bzw. im Auftragsdokument **schriftlich festzuhalten**. ❖ Ausreichend = Erklärung des LE „Verwendung bis zum Widerruf“ ❖ Lediglich **formularmäßig im Briefkopf eingedruckte** USt-IdNr. reicht allein **nicht** aus. ❖ Die **nachträgliche Verwendung** einer im Zeitpunkt der Lieferung gültigen USt-IdNr. durch den LE entfaltet für Zwecke der Steuerbefreiung **Rückwirkung** (Abschn. 6a.1 Abs. 19 UStAE). • **Nicht gültige USt-IdNr.** zum Zeitpunkt der Lieferung kann **nicht „geheilt“** werden ❖ Die (ausländische) USt-IdNr. muss **nicht durch den MS erteilt** worden sein, **in dem die Beförderung oder Versendung endet**." },
+      { typ: "titel", text: "Arbeitspapier A 24 – Zu gültige USt-IdNr. im Zeitpunkt der Lieferung" },
+      { text: "• Gesetzesregelung verlangt **explizit keine Prüfung**. Die Steuerbefreiung kann nicht versagt werden, nur weil keine Prüfung vorgenommen wurde. • **Praxis-Tipp:** Lieferer sollte unter Risikoaspekten den Status des Erwerbers überprüfen (Empfehlung = **qualifizierte Abfrage** vor dem Hintergrund der notwendigen eindeutigen Zuordnung der USt-IdNr. zum Erwerber), bevor er die Steuerbefreiung anwendet." },
+      { typ: "titel", text: "Arbeitspapier A 25 – Zu Zusammenfassende Meldung (ZM)" },
+      { text: "Voraussetzungen für die Steuerbefreiung sind **nicht erfüllt**, ➢ Wenn LU **keine ZM** abgibt (auch nicht später); ➢ oder wenn ZM **nicht fristgerecht** abgibt. **BMF v. 20.05.2022** stellt klar, dass die Steuerbefreiung **(rückwirkend) eintritt**, wenn eine zunächst nicht fristgerecht abgegebene ZM später für den zutreffenden Meldezeitraum erstmalig richtig und vollständig abgegeben wird. ➢ oder ZM enthält nicht die erforderlichen ✓ richtigen und ✓ vollständigen Infos pro Lieferung" },
+      { text: "**Berichtigt** LU eine für den zutreffenden Meldezeitraum ursprünglich unrichtige oder unvollständige ZM (§ 18a Abs. 10 UStG), **wirkt dies für Zwecke der Steuerbefreiung auf den Zeitpunkt des Umsatzes zurück**." },
+      { text: "Das Schaubild A 22 ist als Text wiedergegeben; nicht lesbare Aufzählungszeichen sind durch „•“ ersetzt (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-48",
+    teil: TEIL,
+    kapitel: "48",
+    abschnittNr: "A 26",
+    title: "Arbeitspapier A 26: Übungen Wein-Händler aus Mönchengladbach",
+    thema: "Lieferung von Weinregalen und Wein an niederländische Unternehmer und Kleinunternehmer mit und ohne Überschreiten der Erwerbsschwelle (Fälle 15 bis 17): innergemeinschaftliche Lieferung, Abholfall und verbrauchsteuerpflichtige Ware",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapier A 26"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 UStG", "§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1 UStG"],
+    themen: ["Arbeitspapier", "Übung", "innergemeinschaftliche Lieferung", "Erwerbsschwelle", "verbrauchsteuerpflichtige Waren", "Abholfall"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 26 – Übungen: Wein-Händler (WH) aus MG" },
+      { typ: "tabelle", spalten: ["Fall", "Sachverhalt", "Lösung"], zeilen: [
+        ["15.", "veräußert 10 Weinregale an niederl. Unt. (NU). WH befördert die Regale nach Venlo", "Bewegte Lieferung mit Ort § 3 (6) in MG; steuerbar; steuerfrei § 4 Nr. 1b i.V.m. § 6a (1)."],
+        ["16. a.", "Veräußert 10 Weinregale an niederl. Kleinunt. (KU); KU hat Erwerbsschwelle überschritten / optiert; KU befördert die Regale nach Venlo", "Bewegte Lieferung mit Ort § 3 (6) in MG; steuerbar; steuerfrei § 4 Nr. 1b i.V.m. § 6a (1)."],
+        ["16. b.", "Wie a., aber KU hat Erwerbsschwelle nicht überschritten, nicht optiert", "Bewegte Lieferung mit Ort § 3 (6) in MG; steuerbar; nicht steuerfrei § 4 Nr. 1b & § 6a (1) mangels Erwerber mit Erwerbsbesteuerung. Als Abholfall steuerpflichtig"],
+        ["17. a.", "Veräußert 100 Flaschen Wein an niederl. KU; KU befördert den Wein nach Venlo. KU hat Erwerbsschwelle überschritten / optiert", "Bewegte Lieferung mit Ort § 3 (6) in MG; steuerbar; steuerfrei § 4 Nr. 1b i.V.m. § 6a (1)."],
+        ["17. b.", "Wie a., aber KU hat Erwerbsschwelle nicht überschritten, nicht optiert", "Bewegte Lieferung mit Ort § 3 (6) in MG; steuerbar; steuerfrei § 4 Nr. 1b & § 6a (1), da verbrauchsteuerpfl. Ware. Unternehmerischer LE unterliegt immer der Erwerbsbesteuerung. Problem jedoch => Verwendung gültiger IdNr. durch LE"],
+      ] },
+      { text: "Die Übungen sind als Tabelle wiedergegeben; Spaltenköpfe und die Aufteilung der Fälle 16 und 17 in die Varianten a. und b. mit „Wie a., aber …“ sind eigene Ergänzung zur Darstellung. „MG“ steht in der Quelle für Mönchengladbach (eigene Ergänzung)." },
     ],
   },
 ];

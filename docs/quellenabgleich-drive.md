@@ -10623,6 +10623,23 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 22 bis A 26
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-47` (A 22 EuGH Fonderie,
+A 23 und A 24 registrierter Abnehmer und USt-IdNr., A 25 Zusammenfassende Meldung mit BMF vom
+20.05.2022) und `ust-m-b08-1-48` (A 26 Übungen Wein-Händler, Fälle 15 bis 17) für die
+PDF-Seiten 83 bis 87. Stand des USt-Skripts: 8 Teile, 211 Kapitel, 3562 Blöcke, 187 Tabellen.
+
+**Geprüft:** Die Lösungen der Fälle 15 bis 17 stimmen mit dem Textteil überein (Abholfall bei
+Schwellenerwerber ohne Überschreiten/Option steuerpflichtig; verbrauchsteuerpflichtige Ware stets
+mit Erwerbsbesteuerung).
+
+**Stillschweigend berichtigt:** „C446/13“ (C-446/13), „Voraussetzung … sind“ (Voraussetzungen),
+„BMF v 20.05.2022“, „(auch nicht später )“, „Ü b u n g e n“ (gesperrt), „Zu .“ (nicht lesbare
+Zeichen) weggelassen.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab A 27 (PDF-Seite 88).
+
 ### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 17 bis A 21
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-45` (A 17 Lederjacken
