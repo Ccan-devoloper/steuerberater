@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 3 Textteil vollständig (VII.4 bis VIII.6)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block03.js` neue Kapitel
+`ust-m-b03-16` bis `ust-m-b03-20` für die PDF-Seiten 97 bis 112: VII.4 Gegenstände des
+Unternehmensvermögens, VIII.1/VIII.2 Organschaft Allgemeines und Folgen, VIII.3/VIII.4
+Organträger und Organgesellschaft, VIII.5 Eingliederungsmerkmale, VIII.6 grenzüberschreitende
+Organschaft. Damit ist der Textteil von Block 3 vollständig; es folgen die Arbeitspapiere
+A 1 bis A 27 (PDF-Seiten 113 bis 139). Stand des USt-Skripts: 3 Teile, 45 Kapitel, 917 Blöcke,
+37 Tabellen.
+
+**Nachgerechnet:** Organträger im Ausland: T 1 (2,5 Mio. €) vor B (2 Mio. €) und T 2 (1 Mio. €)
+als wirtschaftlich bedeutendster Organteil.
+
+**Quellbefunde:** Verweis „vgl. hierzu auch unter Tz. III.2.2.1“ (einen solchen Abschnitt gibt
+es nicht; gemeint III.2.2; markiert). Stillschweigend berichtigt: Streuzeichen „7Lässt“ und
+„Der EuGH n. F.“ in VII.4 (die Zusätze sind nicht übernommen), „des Vorsteuerabzug“,
+„außenunternehmerischen“, „Betriebsspaltung“, „Augenmerk auf die finanzielle Eingliederung zu“
+(ergänzt: zu richten), „Her A“, „vom v.“, „entscheiden“, „auf einen dieser drei Gebiete“,
+„USAE“, „berechtigen“ (Einzahl), „V. Senat“ ohne Genitiv-s, „die seinem Unternehmen“.
+
 ### USt-Skript (Moecker), Block 3 fortgesetzt (V bis VII.3)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block03.js` neue Kapitel

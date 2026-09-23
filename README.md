@@ -2396,7 +2396,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Umsatzsteuer-Skript von Udo Moecker in 13 Blöcken mit Arbeitspapieren (neun PDF-Dateien, 1.071
   Seiten, Stände 07/2025 bis 06/2026) im Wortlaut – **in Arbeit**; Block 1 ist mit 12 Kapiteln
   vollständig, Block 2 (Leistungen im Leistungsaustausch) mit 13 Kapiteln ebenfalls vollständig,
-  Block 3 (Unternehmer / Unternehmen) bis VII.3 mit 15 Kapiteln eingepflegt.
+  Block 3 (Unternehmer / Unternehmen) mit dem Textteil I bis VIII in 20 Kapiteln eingepflegt
+  (Arbeitspapiere A 1 bis A 27 folgen).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
@@ -2429,7 +2430,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Unternehmereigenschaft (Vorbereitungshandlungen, Vorgründungs- und Vorgesellschaft,
   Umwandlung, Erbfall, Löschung), das Auftreten nach außen (Eigenhändler, Kommissionär, Agent,
   Dienstleistungskommission) und der Rahmen des Unternehmens (Unternehmenseinheit,
-  Innenumsätze, Grund-, Hilfs- und Nebengeschäfte, nichtunternehmerische Bereiche).
+  Innenumsätze, Grund-, Hilfs- und Nebengeschäfte, nichtunternehmerische Bereiche), die
+  Gegenstände des Unternehmensvermögens mit den Zuordnungswahlrechten und die Organschaft
+  (Organträger, Organgesellschaft, drei Eingliederungsmerkmale, grenzüberschreitende Organschaft).
   Prüfung: `npm run check:k1-ust-skript-moecker`
 - **Übungsfälle laufender Unterricht (Nöthen)** (Klausur 3, Reiter Bilanzen → „Übungsfälle
   (Nöthen)“): die **Bilanz-Fallsammlung, die den laufenden Unterricht begleitet** – alle
