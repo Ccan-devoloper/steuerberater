@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: VII.1 bis VII.2.5 (Liefer- und Erwerbsfiktion)
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-20` (VII.1 Allgemeines),
+`ust-m-b09-21` (VII.2 und VII.2.1 Lieferfiktion und Voraussetzungen, Beispiel Venlo),
+`ust-m-b09-22` (VII.2.2 Anwendungsfälle, Beispiel FU), `ust-m-b09-23` (VII.2.3 Werklieferung,
+Beispiel Bauunternehmer D), `ust-m-b09-24` (VII.2.4 Kommission) und `ust-m-b09-25` (VII.2.5
+Organschaft) für die PDF-Seiten 24 bis 27. Stand des USt-Skripts: 10 Teile, 302 Kapitel, 4546 Blöcke, 242 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- Beispiel FU: Lösung beginnt mit „F bewirkt …“; gemeint FU.
+- VII.2.3: „Abschn. 1a.2 Abs. 10 Nr. 1 UStR“ (UStR statt UStAE).
+
+**Stillschweigend berichtigt:** „gewerbliche Warenverkehr“, „Rechnungslegungs- Aufzeichnungs-“,
+„Diese Lieferfiktion … steht … gegenüber“ (Dieser), „derartige innerbetrieblichen“, „EU -
+Staaten“, gerade Anführungszeichen „ Innenumsatz “, „i.V.m § 3 Abs. 6“, „nach 1 a Abs.2“
+(§ 1a Abs. 2), „§ 3 Abs.1a  i.V.m. § 6a Abs.2“, „Die … Überlassung … sind damit Lieferungen“
+(ist damit eine Lieferung), Leerzeichen in Klammern.
+
+**Weiter mit:** VII.2.6 Nicht nur zur vorübergehenden Verwendung (PDF-Seite 28).
+
 ### USt-Skript (Moecker), Block 9: VI.1 bis VI.3 (elektronische Marktplätze)
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-17` (VI.1 fiktive
