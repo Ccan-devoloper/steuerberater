@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.4.1 und I.4.2
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
+`ust-m-b08-1-24` (I.4.1 Allgemeines zum innergem. Reihengeschäft mit Transportveranlassung
+nach § 3 Abs. 6a Sätze 2 bis 5 UStG) und `ust-m-b08-1-25` (I.4.2 Großkopierer
+Düsseldorf–München–Brüssel, Fälle 1 bis 4 als Gegenüberstellungen Lieferung/Erwerb) für die
+PDF-Seiten 36 bis 42. Stand des USt-Skripts: 8 Teile, 188 Kapitel, 3316 Blöcke, 167 Tabellen.
+
+**Quellbefund (markiert):** In Fall 4 (Transport durch M) liegt die ruhende erste Lieferung laut
+Quelle am 30.06. „mit Übergabe an B“ vor; gemeint wohl Übergabe an M. Vermerkt ist außerdem,
+dass die Sachverhaltsangabe zu Fall 1 die von M verwendete USt-IdNr. nicht nennt, die Lösung
+aber mit der deutschen USt-IdNr. argumentiert.
+
+**Darstellung:** Gegenüberstellungen als Tabellen (Spaltenköpfe „Lieferung“/„Erwerb“, Pfeile
+und „•“ für nicht lesbare Aufzählungszeichen eigene Ergänzung).
+
+**Stillschweigend berichtigt:** „wird die Warenbewegung … zuzuordnen“ (ist), „Satz 3.“,
+„Abschn. 25b.1.“, fehlender Punkt nach „vgl. später“, „erteilten Umsatzsteuer-
+Identifikationsnummer“ (erteilte), fehlende öffnende Klammer vor „§ 3 Abs. 6a S. 1 UStG)“,
+„an der an der Verwendung“, „bewegungsloste“, „02.07“ und „30.06“ (Punkt), gerade
+Anführungszeichen bei „bewegungslosen“, „inner- belgischen“, „W a r e n b e w e g u n g“.
+
+**Weiter mit:** Block 8 Teil I ab I.4.3 Reihengeschäft mit Warenbewegung nach DE (PDF-Seite 42).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.3.3.4 bis I.3.6
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
