@@ -316,18 +316,20 @@
       "stand": "2026-09-22T13:44:46.452Z"
     },
     "2026-09-23": {
-      "usd": 0.1184,
+      "usd": 0.1284,
       "antworten": 0,
-      "aufrufe": 4,
+      "aufrufe": 5,
       "zwecke": {
         "autor": 0.0888,
-        "faktencheck": 0.0296
+        "faktencheck": 0.0296,
+        "erklaerbild": 0.01
       },
       "messungen": {
         "autor": 0.063,
-        "faktencheck": 0.0151
+        "faktencheck": 0.0151,
+        "erklaerbild": 0.01
       },
-      "stand": "2026-09-23T05:46:11.514Z"
+      "stand": "2026-09-23T19:14:18.350Z"
     }
   }
 }

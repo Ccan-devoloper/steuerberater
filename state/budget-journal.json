@@ -67,11 +67,24 @@
       "attempt": 1,
       "slot": "tax asset entering adjustment timeline",
       "reservedUsd": 0.01,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.01,
+      "state": "settled",
       "createdAt": "2026-09-23T19:14:04.151Z",
-      "updatedAt": "2026-09-23T19:14:06.253Z"
+      "updatedAt": "2026-09-23T19:14:18.349Z"
+    },
+    {
+      "reservationId": "2026-09-23-0006-erklaerbild",
+      "date": "2026-09-23",
+      "bucket": "core",
+      "purpose": "erklaerbild",
+      "attempt": 1,
+      "slot": "asset split between recurring and single use",
+      "reservedUsd": 0.01,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-23T19:14:19.381Z",
+      "updatedAt": "2026-09-23T19:14:19.381Z"
     }
   ],
-  "stand": "2026-09-23T19:14:06.253Z"
+  "stand": "2026-09-23T19:14:19.381Z"
 }
