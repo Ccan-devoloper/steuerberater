@@ -10623,6 +10623,24 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 fortgesetzt (II.3 bis II.5.2)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-9` (II.3 Sicherungsübereignung mit PKW-Fall Leipzig/Dresden, II.4 Grundstücksumsätze
+mit Zwangsversteigerung in Berlin, Option, Grunderwerbsteuer) und `ust-m-b06-10` (II.5.1
+Grundsätze der Bauleistungen, II.5.2 Begriff der Bauleistung mit Positiv- und Negativliste,
+500-€-Grenze, Bebauung eigener Grundstücke) für die PDF-Seiten 26 bis 30. Die Kastenbeschriftungen
+„Hinweis“ und „Merke“ sind wie bisher dem vorangehenden Kasten zugeordnet. Stand des
+USt-Skripts: 6 Teile, 117 Kapitel, 2437 Blöcke, 126 Tabellen.
+
+**Stillschweigend berichtigt:** fehlender Schlusspunkt nach „die BMG für die Umsatzbesteuerung
+zu ermitteln“, „§ 13b Abs. 2 Nr. 3 UStG unterfallen rechnen insbesondere die steuerpflichtige
+Lieferung“ („rechnen“ gestrichen, Plural), „vorliegt erfolgt ist“, „in Folge“, „§ 13 b Abs. 5“,
+„Steuerschuldnerschaft des Erwerbs“ (Erwerbers), „§ 4 Nr. 9 a“, „in Verbindung Abschn.“ (mit),
+„bewirkt“ (bewirken), „Garten. und Innenarchitekten“, „Nr.  4“.
+
+**Noch offen in Block 6:** ab II.5.3 (PDF-Seite 30 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 6 fortgesetzt (II.2.2 bis II.2.8)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
