@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: IV bis IV.4.2
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-24` (IV/IV.1/IV.2 Ausschluss,
+Verwendungsabsicht, Übersicht), `ust-m-b11-25` (IV.3 Verwendung, Fenster, Fehlmaßnahmen,
+Betriebsgebäude 70/30, fiktive Option) und `ust-m-b11-26` (IV.4.1/IV.4.2 mit Hausarzt,
+niederländischem Arzt und Geschäftshaus in Basel) für die PDF-Seiten 41 bis 46. Keine Bilder auf
+diesen Seiten. Stand des USt-Skripts: 12 Teile, 431 Kapitel, 6031 Blöcke, 312 Tabellen.
+
+**Nachgerechnet (eigene Ergänzung):** Betriebsgebäude 100.000 € × 30 % = 30.000 € : 10 = 3.000 € je
+Jahr (03 bis 12) – stimmt.
+
+**Stillschweigend berichtigt:** „(abzugsfähig)sind“, „Punkt I 3.2“, „sonstige Leistungen mit
+Rechnung“, „( entfällt ab 2026 )“, „Abschn. 15.12. Abs. 2a“, „An - und Verkauf“, „(Ausgangs) Umsätzen“,
+„–nachweislich -“, „( vgl.“, „Es vielen“ (zweimal, fielen), „Planung- und Architektenleistungen“,
+„Der Berichtigungszeitraum, des“, „zu 70.v. H.“, „- zu, 30 v. H. -“, „§ 4 Nr. 12 Bu. a“, „§ 15 Abs. 2
+Nr. 2 UStG )“.
+
+**Weiter mit:** IV.4.3 Fehlender direkter und unmittelbarer Zusammenhang (PDF-Seite 47).
+
 ### USt-Skript (Moecker), Block 11: II.5.3 bis III
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-22` (II.5.3 bis II.5.5
