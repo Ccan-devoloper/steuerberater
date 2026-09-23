@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: IV.2.3 (Textteil vollständig)
+
+In `src/data/k1-ust-moecker/block08-2.js` neues Kapitel `ust-m-b08-2-39` (IV.2.3 zeitliche
+Einschränkungen nach § 27 Abs. 2 UStG mit BFH V R 32/02, Zahnarzt-Beispielen, Altenwohnheim
+und Rathaus) für die PDF-Seiten 61 bis 63. Damit ist der Textteil von Block 8 Teil II
+vollständig. Stand des USt-Skripts: 9 Teile, 259 Kapitel, 4175 Blöcke, 209 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- Verweis „Übersicht unter Punkt V. 2.1“; gemeint IV.2.1.
+- Zahnarzt-Beispiel 1980: „vor dem 1.4.1984 fertig gestellt“; die Übersicht nennt für § 27
+  Abs. 2 Nr. 1 UStG den 1.4.1985.
+
+**Nachgerechnet (eigene Ergänzung):** Neubau 2001: optionsfähig 1/3 (1. OG); Stichtage
+Altenwohnheim 1988 und Rathaus 1990 nach 1.4.1985 bzw. 1.1.1986 – Einschränkung greift.
+
+**Stillschweigend berichtigt:** fehlendes „ist“ („§ 9 Abs. 2 UStG nicht anzuwenden“),
+fehlendes Komma nach „begonnen worden“, fehlende Punkte nach „keine Optionsbeschränkung“
+und „erhalten bleiben“, „V R 32 / 02“, „für dessen Unternehmen“ (deren), „Schulungs- GmbH“,
+„Grundstücksverwaltungs- GmbH“, „2.OG“, „Buchst.a“, „Nr.1“, gerade Anführungszeichen,
+„Bitte beachten Sie !!“.
+
+**Weiter mit:** Arbeitspapiere A 1 ff. (ab PDF-Seite 64).
+
 ### USt-Skript (Moecker), Block 8 Teil II: IV.1.5 bis IV.2.2
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-36` (IV.1.5
