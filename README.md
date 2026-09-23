@@ -2409,7 +2409,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und Steuerentstehung, Vorsteuerabzug, territorialen Begriffen und Brexit (vollständiger
   Textteil I bis VIII und Arbeitspapiere A 1 bis A 12 vollständig in 23 Kapiteln),
   Block 8 Teil I (Steuerfreie Umsätze mit Vorsteuerabzug) begonnen mit Überblick und
-  Übersicht der Ausfuhrlieferungen (2 Kapitel).
+  Ausfuhrlieferungen nach § 6 Abs. 1 Nr. 1 und 2 UStG einschließlich ausländischem Abnehmer
+  und Zweigniederlassungen (6 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

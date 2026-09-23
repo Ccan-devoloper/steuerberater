@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.1.2 bis I.1.3.3
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
+`ust-m-b08-1-3` (I.1.2 Ausfuhrlieferung durch den Lieferer, Beispiel Reisschälmaschine
+Goslar–China), `ust-m-b08-1-4` (I.1.3.1 Abholfall und gebrochene Versendung),
+`ust-m-b08-1-5` (I.1.3.2 ausländischer Abnehmer mit den Beispielen Pariser Kunde, türkischer
+Gastarbeiter und Helgoland) und `ust-m-b08-1-6` (I.1.3.3 Zweigniederlassungen mit drei
+Feuerlöscher-Beispielen) für die PDF-Seiten 6 bis 9. Stand des USt-Skripts: 8 Teile, 169 Kapitel, 3093 Blöcke, 158 Tabellen.
+
+**Quellbefund (markiert):** Beispiel 2 in I.1.3.3 lautet „vom Unternehmenssitz in Stuttgarter
+Unternehmensteil“; übernommen mit Vermerk (gemeint wohl: vom Stuttgarter Unternehmensteil).
+Im Beispiel zum gebrochenen Transport (I.1.3.1) ist der Satz „dass der … Spediteur Eilig nur bis
+nach Hamburg gebracht wird“ unverändert übernommen.
+
+**Stillschweigend berichtigt:** „Ein Ausfuhrlieferung“ (Eine), gerade Anführungszeichen im
+Klausurhinweis, „§ 4 Nr. 1 a i. V m.“, „wird der der Liefergegenstand“, fehlende Punkte nach
+„Abnehmer)“ und „verwendet“, „Abschnitt 6.3.“, „als leistenden Unternehmer“ (leistendem),
+„Voraussetzung. dass“ (Komma), „§ 1 a“, „die Feuerlöscher das Drittlandsgebiet … befördert“
+(in das), „Hin-weis“.
+
+**Weiter mit:** Block 8 Teil I ab I.1.4 Freihafenfälle (PDF-Seite 9 unten).
+
 ### USt-Skript (Moecker), Block 8 Teil I begonnen: Überblick und I.1.1
 
 Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block08-1.js`
