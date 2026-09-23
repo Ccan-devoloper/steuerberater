@@ -2447,7 +2447,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Kleinunternehmerregelung ab 2025 samt grenzüberschreitendem Kleinunternehmer nach § 19a UStG,
   dem ermäßigten Steuersatz nach § 12 Abs. 2 UStG, dem Nullsteuersatz für PV-Anlagen und der
   Änderung der BMG nach § 17 UStG und den Durchschnittssätzen nach § 24 UStG (Textteil
-  vollständig) und den Arbeitspapieren A 1 bis A 20 (63 Kapitel).
+  vollständig) und den Arbeitspapieren A 1 bis A 27 (67 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

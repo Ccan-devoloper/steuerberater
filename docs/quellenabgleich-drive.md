@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: Arbeitspapiere A 21 bis A 27
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-64` (A 21/A 22 Kleinunternehmer,
+Europakarte beschrieben), `ust-m-b10-65` (A 23/A 24 PV-Anlagen Lieferung und Installation),
+`ust-m-b10-66` (A 25/A 26 Betreiber und Entnahme von Altanlagen) und `ust-m-b10-67` (A 27 § 17
+Tatbestand) für die PDF-Seiten 165 bis 171, nach Ansicht der gerenderten Seiten. Das Bild auf
+PDF-Seite 166 (Europakarte mit Pfeilen zu § 19a und § 19 UStG) ist beschrieben. Stand des
+USt-Skripts: 11 Teile, 400 Kapitel, 5578 Blöcke, 298 Tabellen.
+
+**Quellenfehler / veraltete Angaben (im Text markiert):**
+- A 25: Einspeisevergütung „grds. unter 22.000 Euro = § 19 UStG“; seit 2025 gilt die Vorjahresgrenze
+  von 25.000 €.
+- A 27: Nummer „7.“ doppelt vergeben (auch A 23).
+
+**Nachgerechnet (eigene Ergänzung):** A 21 32.000 € × 12/120 = 3.200 € – stimmt.
+
+**Stillschweigend berichtigt:** „Bei Unternehmer mit schwankendem Umsatz“, „Vorsteuerabzug nach
+§ 15a“ (Vorsteuerabzugs), „12/ 120“, „Annex „EX"“, „O%-Steuersatz“ / „O-Steuersatz“, „einzelner
+„wesentliche Komponenten““, „für wesentlichen Komponenten“, „die Voraussetzungen … erfüllt“, „Bei
+mehr als 30 KW“, „Oder;“, „kraft Gesetz“, „bei tatsächlichen Rückzahlung“, Leerzeichen in Klammern.
+
+**Weiter mit:** Arbeitspapier A 28 (PDF-Seite 172).
+
 ### USt-Skript (Moecker), Block 10: Arbeitspapiere A 14 bis A 20
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-60` (A 14/A 15 Binnenmarkt und
