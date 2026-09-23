@@ -10660,8 +10660,25 @@ Freitag; „Bevollmächtigen“ statt Bevollmächtigten. Nachgerechnet: 11.02.03
 15.02.03, verlängert auf Montag, 17.02.03, Fristende Montag, 17.03.03; Weiterleitung 31.03.04,
 Fristende nach § 188 Abs. 3 BGB am 30.04.04.
 
-**Noch offen aus AO Teil I:** Abschnitt 3 ab Seite 46 (Teil V Verspätungszuschläge, Teil VI
-Zwangsmittel mit Übungsfall) und der gesamte Abschnitt 4 (Feststellungsbescheide).
+**Fortsetzung Seiten 46 bis 57 – Abschnitt 3 vollständig:** drei weitere Kapitel – Teil V
+(Verspätungszuschläge), Teil VI (Zwangsmittel) und der Übungsfall Claudia Schiffer mit
+Lösungshinweisen; jetzt 159 Kapitel. Befunde: In Teil V Tz. 2.2 heißt es „§ 152 Abs. 1 AO gilt für
+die Fälle in denen § 149 Abs. 2 AO nicht anzuwenden ist“ – nach der Überschrift ist § 152 Abs. 2
+AO gemeint; zwei aufeinanderfolgende Gliederungspunkte tragen die Nummer „2.“; „erfolgen“
+statt erfolgt. In Teil VI verweist die Gegenüberstellung für die Verbindung mit dem
+Steuerbescheid noch auf „§ 152 III AO“, obwohl die Quelle selbst in Teil V die heutige Fundstelle
+§ 152 Abs. 11 AO nennt; bei der Festsetzung des Zwangsgeldes nennt sie für die Trennung nach
+Verpflichtungen § 332 II 3 AO, bei der Androhung § 332 II 2 AO. In der Lösung des Übungsfalls
+steht die Abgabefrist mit „31.07.02“ und der Eingang mit „31.07.02“ – nach dem Sachverhalt
+jeweils 31.07.03 –, und der Gliederungspunkt zum Verspätungszuschlag ist als „2.“ statt „3.“
+nummeriert. Alle Stellen sind im Datensatz markiert.
+
+**Nachgerechnet:** Verspätungszuschlag im Beispiel 2.5: fünf angefangene Monate (März bis Juli
+2020) × 0,25 % × 60.000 € = 750 €; Übungsfall Schiffer: Bekanntgabe 08.10.03, Einspruchsfrist
+mit Rechtsbehelfsbelehrung bis 08.11.03, ohne bis 08.10.04; 0,25 % von 40.000 € = 100 €.
+
+**Noch offen aus AO Teil I:** der gesamte Abschnitt 4 (Feststellungsbescheide, PDF-Seiten 108
+bis 145).
 
 ### Dublettencheck, achter Teil: die übrigen Ordner des zweiten Baums – und blockierte Quellen sind lesbar
 

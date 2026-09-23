@@ -592,8 +592,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rechtsscheinwirkung, die Zusammenfassung der vier Bekanntgabekonstellationen und die
   Zustellung nach dem VwZG, die Bekanntgabe zusammengefasster Verwaltungsakte an Ehegatten und
   Gesamtschuldner sowie die Bekanntgabe an Bevollmächtigte mit dem BFH-Urteil vom 11.06.2024 zum
-  Widerruf der Vollmacht und den Beispielen Sorglos und Lasse/Wickie (Seiten 31 bis 45; die
-  bisher blockierten Seiten sind über den Datei-Download lesbar geworden).
+  Widerruf der Vollmacht und den Beispielen Sorglos und Lasse/Wickie, dazu Teil V
+  (Verspätungszuschläge nach §§ 149, 152 AO mit Muss- und Kann-Regelung, Berechnungstabelle,
+  Beispiel und der MoPeG-Neuregelung für Feststellungserklärungen) und Teil VI (Zwangsmittel
+  nach §§ 328 bis 335 AO mit dem Übungsfall Claudia Schiffer). **Abschnitt 3 ist damit
+  vollständig** (Seiten 31 bis 57; die bisher blockierten Seiten sind über den Datei-Download
+  lesbar geworden).
   Aus Teil II ist Abschnitt 5 eingepflegt: der Vorbehalt der Nachprüfung nach § 164 AO
   (Anwendungsbereich, Gesamtüberprüfungsrecht, Einspruch gegenüber Änderungsantrag,
   Aufhebung und Wegfall kraft Gesetzes, Prüfungsfolge, Übungsfall zur Teilverjährung), die
