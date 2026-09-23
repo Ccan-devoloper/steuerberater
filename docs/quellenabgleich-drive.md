@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: V.6 bis VI.2
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-26` (V.6 Optionsrecht mit
+Teppich-Beispiel, Alternativen als Tabelle nebeneinander), `ust-m-b10-27` (V.7 Kunstgegenstände,
+Sammlungsstücke, Antiquitäten), `ust-m-b10-28` (VI./VI.1 Kleinunternehmer ab 2025) und
+`ust-m-b10-29` (VI.2 Gesamtumsatz, Ermittlungsschema als Tabelle mit den Randvermerken) für die
+PDF-Seiten 107 bis 112. Keine Bilder auf diesen Seiten. Stand des USt-Skripts: 11 Teile, 362 Kapitel, 5128 Blöcke, 275 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- VI.2: „Gesamtumsatzes i.S.d. § 19 Abs. 3 UStG“; nach der ab 2025 geltenden Fassung § 19 Abs. 2
+  UStG (so auch die Quelle selbst in VI.1).
+- Beispiel Gebrauchtwagenhandel: „K erzielte im Jahr 10 …“, die Beträge betreffen die Jahre 09
+  und 10.
+
+**Nachgerechnet (eigene Ergänzung):** Teppich 6.190 € − 5.000 € = 1.190 € : 1,19 = 1.000 €, USt
+190 € – stimmt.
+
+**Stillschweigend berichtigt:** „§ 25a Abs. Abs. 7“, „Bu. f)“, „Vergleicht hierzu“, „auf den, der
+Lieferung …“, fehlende Klammer bei „vgl. Abschnitte 3.2 bis 3.4 UStAE –,“, „bestimmt Vorschriften“,
+„Summe der steuerbare Umsätze“, „11bis 29“, „§ 25 a UStG“, „Gesam-tumsatz“, fehlender Schlusspunkt
+nach „zu § 19 UStG a. F.)“, Leerzeichen in Klammern.
+
+**Weiter mit:** VI.3 Option zur Regelbesteuerung (PDF-Seite 112 unten).
+
 ### USt-Skript (Moecker), Block 10: V. bis V.5 (Differenzbesteuerung)
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-19` bis `ust-m-b10-25` für die
