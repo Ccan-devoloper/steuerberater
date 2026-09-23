@@ -10623,6 +10623,32 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 begonnen (I.1 und I.2)
+
+Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block06.js`
+(Teil „Block 6 – Werkverträge, § 13b UStG, GiG und Gutscheine“, Quelle „B-S26-USt-Skript
+Block 6-7-(Moecker)-0526“, Block 06 Vers. I 2026, Red. 04-26, Titelblatt Mai 2026; geführt als
+Stand 05/2026). Die gemeinsame Datei der Blöcke 6 und 7 umfasst 130 PDF-Seiten: Block 6
+Textteil PDF-Seiten 2 bis 61, Arbeitspapiere Seite 1 bis 35 auf PDF-Seiten 62 bis 96; Block 7
+ab PDF-Seite 97. Kapitel `ust-m-b06-1` (Inhaltsverzeichnis und I.1 Allgemeines mit den
+Maschinenfällen Max/NU, Beispiele 1 bis 4, Art. 36 MwStSystRL, Übersicht Werkleistung/
+Werklieferung) und `ust-m-b06-2` (I.2 Voraussetzungen, Hauptstoffe/Nebensachen,
+Reparaturleistungen) für die PDF-Seiten 2 bis 9. In `k1-ust-skript-moecker.js` eingebunden.
+Stand des USt-Skripts: 6 Teile, 109 Kapitel, 2285 Blöcke, 124 Tabellen.
+
+**Quellbefund (markiert):** I.1 führt die Anwendung der Vorschriften über den Kauf auf
+Werklieferungsverträge auf „§ 631 BGB“ zurück; das regelt § 650 BGB (eigene Ergänzung).
+Die Kastenbeschriftungen „Merke“ und „Hinweis“ stehen in der Textextraktion jeweils hinter
+dem Kasten und sind dem vorangehenden Kasten zugeordnet.
+
+**Stillschweigend berichtigt:** „bürgerlich rechtlichen“, „Das Gesetzt“, „Werklieferung
+erfordern“, „In Fällen der von sog. Montagelieferungen“, „von einem Mitgliedstaat und einen
+anderen“ (in einen), „Er ist der gem.“, „die Vorsteuern … nicht abziehbar ist“ (sind), „das im
+Ausland ansässige“ (dass), „des benötigten Hauptstoffe“ (der), „Das charakteristische Merkmale
+… überwiegt“ (Merkmal), „Abschn. 3.8. Abs. 6“ (UStAE ergänzt), „Grund- und Boden“.
+
+**Noch offen in Block 6:** ab I.3 (PDF-Seite 9 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 5 abgeschlossen: Arbeitspapiere A 41 bis A 52
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
