@@ -10651,8 +10651,17 @@ entfernt. Das Skript umfasst jetzt 154 Kapitel; geprüft mit `npm run check:k1-a
 20.07.09, Fristende Donnerstag, 20.08.09 (Tz. 6.2); Beispiel in Tz. 7: 11.08.02 + 4 Tage =
 15.08.02, Fristende 15.09.02.
 
-**Noch offen aus AO Teil I:** Abschnitt 3 ab Seite 40 (Tz. 9 ff.) und der gesamte Abschnitt 4
-(Feststellungsbescheide).
+**Fortsetzung Seiten 40 bis 45:** Zwei weitere Kapitel – die Bekanntgabe zusammengefasster
+Verwaltungsakte an Ehegatten und Gesamtschuldner (Tz. 9) und die Bekanntgabe an Bevollmächtigte
+mit dem BFH-Urteil vom 11.06.2024 und den Beispielen Sorglos und Lasse/Wickie samt Abwandlung
+(Tz. 10 und 11); jetzt 156 Kapitel. Befunde: In der Abwandlung heißt es „Sonntag, den 28.02.03“ –
+nach dem Kalender 2003, mit dem die übrigen Wochentage des Beispiels übereinstimmen, war das ein
+Freitag; „Bevollmächtigen“ statt Bevollmächtigten. Nachgerechnet: 11.02.03 + 4 Tage = Samstag,
+15.02.03, verlängert auf Montag, 17.02.03, Fristende Montag, 17.03.03; Weiterleitung 31.03.04,
+Fristende nach § 188 Abs. 3 BGB am 30.04.04.
+
+**Noch offen aus AO Teil I:** Abschnitt 3 ab Seite 46 (Teil V Verspätungszuschläge, Teil VI
+Zwangsmittel mit Übungsfall) und der gesamte Abschnitt 4 (Feststellungsbescheide).
 
 ### Dublettencheck, achter Teil: die übrigen Ordner des zweiten Baums – und blockierte Quellen sind lesbar
 

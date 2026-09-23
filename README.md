@@ -590,8 +590,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Bekanntgabeadressat, Zugang, Aufgabe des Bekanntgabewillens, Heilung analog § 8 VwZG), die
   Viertagesfiktion und ihr Verhältnis zu § 108 Abs. 3 AO mit dem Fallbeispiel zur
   Rechtsscheinwirkung, die Zusammenfassung der vier Bekanntgabekonstellationen und die
-  Zustellung nach dem VwZG (Seiten 31 bis 39; die bisher blockierten Seiten sind über den
-  Datei-Download lesbar geworden).
+  Zustellung nach dem VwZG, die Bekanntgabe zusammengefasster Verwaltungsakte an Ehegatten und
+  Gesamtschuldner sowie die Bekanntgabe an Bevollmächtigte mit dem BFH-Urteil vom 11.06.2024 zum
+  Widerruf der Vollmacht und den Beispielen Sorglos und Lasse/Wickie (Seiten 31 bis 45; die
+  bisher blockierten Seiten sind über den Datei-Download lesbar geworden).
   Aus Teil II ist Abschnitt 5 eingepflegt: der Vorbehalt der Nachprüfung nach § 164 AO
   (Anwendungsbereich, Gesamtüberprüfungsrecht, Einspruch gegenüber Änderungsantrag,
   Aufhebung und Wegfall kraft Gesetzes, Prüfungsfolge, Übungsfall zur Teilverjährung), die
