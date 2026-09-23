@@ -10620,6 +10620,49 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VII (Hamacher), Abschnitte 2.6 und 2.7 – Gesamtbeispiel und steuerliches Einlagekonto
+
+Übernommen sind die Seiten 17 bis 23 der Quelle: das Gesamtbeispiel mit Steuerbilanz,
+Gewinnermittlung, Barbestand, Restvermögen, Liquidationsschlussbilanz und Lösung (2.6), die
+Liquidationsauskehrung (2.7.1), die Auskehrung des Nennkapitals (2.7.2) ohne und mit
+Sonderausweis (2.7.2.1, 2.7.2.2) sowie die vier Beispiele zur Schlussauskehrung. Die
+Beispiele stehen in der Quelle unter 2.7.2.2 und bilden im Datensatz ein eigenes Kapitel
+mit derselben Abschnittsnummer. Der Datensatz umfasst damit 29 Kapitel mit 313 Abschnitten
+und 34 Tabellen; geprüft mit `npm run check:k2-kst-teil7`.
+
+**Befunde der Quelle** (im Datensatz jeweils mit „(so in der Quelle)“ markiert):
+
+- 2.6: Die Passivseite der Liquidationsschlussbilanz führt „verteilendes Verm.“; gemeint ist
+  das zu verteilende Vermögen.
+- 2.6: „… steuerfreien Einnahmen von 3.000 €, die die Ausgangsgröße … gemindert hat“ –
+  Numerusfehler (richtig: haben).
+- 2.6: Die Quelle kündigt neben der Körperschaftsteuer den Solidaritätszuschlag an, beziffert
+  ihn aber nicht; im Datensatz als eigene Ergänzung erläutert (5,5 % von 21.000 € = 1.155 €).
+- 2.6: Die Zeile „Steuerfreie Einnahme::“ mit doppeltem Doppelpunkt ist in der Tabelle ohne
+  Doppelpunkt wiedergegeben (reiner Satzfehler).
+- 2.7.2.2, Beispiel 1: „verwendbares Eigenkapital“ – ein Begriff aus dem früheren
+  Anrechnungsverfahren; die folgenden Beispiele sprechen nur von „Eigenkapital“.
+- 2.7.2.2, Beispiel 3: „wo hingegen“ (richtig: wohingegen) und „nicht zu aus diesem
+  Bestand finanziert“ mit überzähligem „zu“.
+
+**Eigene Nachrechnung.** Alle Zahlen gehen auf. Gewinnermittlung: 3.000 € + 200.000 €
+./. 50.000 € ./. 10.000 € ./. 15.000 € ./. 3.000 € = 125.000 €. Barbestand: 200.000 € + 90.000 €
++ 3.000 € ./. 200.000 € ./. 50.000 € ./. 15.000 € ./. 20.000 € = 8.000 €. Restvermögen: 300.000 €
++ 125.000 € + 100.000 € ./. 20.000 € = 505.000 € (Kontrolle: 8.000 € + 500.000 € ./. 3.000 €).
+Vermögensvergleich: 505.000 € ./. 3.000 € = 502.000 €; 400.000 € ./. 20.000 € = 380.000 €;
+Differenz 122.000 €; + 18.000 € = 140.000 €; 15 % = 21.000 €; ./. 18.000 € = 3.000 €;
+übriges Eigenkapital 505.000 € ./. 3.000 € ./. 100.000 € = 402.000 €. Beispiele zum
+Einlagekonto: 400.000 € / 100.000 €; 380.000 € / 120.000 €; Sonderausweis 30.000 € ./.
+20.000 € = 10.000 €, Nennkapital 100.000 € ./. 10.000 € = 90.000 €, Bezüge 410.000 € und
+Einlagenrückgewähr 90.000 € (Summe jeweils 500.000 €); Beispiel 4: 50.000 € Einlagenrückgewähr.
+
+**Einordnung.** Als eigene Ergänzungen ausgewiesen: eine Nachrechnungstabelle zum
+Gesamtbeispiel, der Beginn des Abwicklungszeitraums am 01.01.2019 mangels Zwischenabschluss,
+die zufällige doppelte Bedeutung der 502.000 €, der Grund für den Stichtag der
+Liquidationsschlussbilanz, der Ausnahmecharakter eines nicht ausreichenden Einlagekontos,
+die Funktion der Verrechnung nach § 28 Abs. 3 KStG und eine Übersicht der vier Beispiele
+mit der in der Quelle nicht genannten Summe der Bezüge im Beispiel 3.
+
 ### KSt Teil VII (Hamacher), Abschnitte 2.5.3 bis 2.5.5 – Endvermögen, Einkommensermittlung, Verlustabzug
 
 Übernommen sind die Seiten 14 bis 17 der Quelle: die Bewertung des Abwicklungs-Endvermögens

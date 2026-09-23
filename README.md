@@ -5649,7 +5649,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 - **KSt Teil VII (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VII (Liquidation)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VII: Liquidation (§ 11 KStG)“** (21. Auflage,
-  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 23 Kapitel mit 237 Abschnitten und 21 Tabellen;
+  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 29 Kapitel mit 313 Abschnitten und 34 Tabellen;
   Kapitel 1 des Skripts (zivilrechtlicher Hintergrund) ist **vollständig**. Der Liquidation ist die
   **Auflösung** vorgeschaltet, und beide Vorgänge sind streng zu trennen: Die Auflösung ist das
   auslösende Ereignis – ein Gesellschafterbeschluss mit qualifizierter Mehrheit, der Ablauf der
@@ -5776,6 +5776,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Beispiel ./. 1.000.000 € nach § 8b Abs. 2 KStG mit 50.000 € nicht abziehbaren Betriebsausgaben.
   § 11 Abs. 6 KStG hält die allgemeinen Hinzurechnungen aufrecht, und beim **Verlustabzug** nach
   § 10d EStG kann die Mindestbesteuerung im letzten Zeitraum zum **endgültigen Untergang** führen.
+  Das **Gesamtbeispiel** (Abwicklung 2019 – 2021) führt vom Vermögensvergleich 502.000 € ./. 380.000 €
+  = 122.000 € über die Hinzurechnung der Körperschaftsteuer (+ 18.000 €) zum Abwicklungsgewinn von
+  140.000 € und 21.000 € Körperschaftsteuer. Beim **Einlagekonto** gilt zuerst das übrige Eigenkapital
+  als verwendet (allgemeine Verwendungsreihenfolge, Stand der Liquidationsschlussbilanz), danach das
+  **Nennkapital** im Direktzugriff nach § 28 Abs. 2 KStG; ein **Sonderausweis** wird vorrangig
+  verrechnet und führt insoweit zu Bezügen nach § 20 Abs. 1 Nr. 2 EStG. Vier Beispiele zeigen die
+  Aufteilung in Bezüge und Einlagenrückgewähr bis hin zum Fall, dass das verteilbare Vermögen unter
+  dem Nennkapital liegt.
   Prüfung: `npm run check:k2-kst-teil7`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
