@@ -10623,6 +10623,24 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5 begonnen (I bis II)
+
+Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block05.js`
+(Teil „Block 5 – Entgeltliche sonstige Leistungen“, Quelle „B-S26-USt-Skript Block
+05-(Moecker)-0326“, Red. 04-26, Titelblatt März 2026; geführt als Stand 03/2026), Kapitel
+`ust-m-b05-1` bis `ust-m-b05-4` für die PDF-Seiten 2 bis 13: Inhaltsübersicht und Begriff,
+Restaurationsumsätze bis 2025 und ab 2026, Software und Leistungszeitpunkt,
+Dienstleistungskommission mit Reiseleistungen und Branchenlösung. Kein personenbezogenes
+Wasserzeichen in der Textfassung. Stand des USt-Skripts: 5 Teile, 76 Kapitel, 1561 Blöcke,
+91 Tabellen.
+
+**Quellbefunde:** „Ab 2016 unterliegen alle Speisenabgaben …“ (gemeint 2026; markiert).
+Stillschweigend berichtigt: „Arbeitspiere“, „Unterlassungleistungen“ (zweimal), „einer
+Lieferungen der Speisen“, „er-kennende“, Satzbruch „… reinigt. Hat der Kläger …“, fehlende
+schließende Klammer bei den Luxusnahrungsmitteln, „so handelt auf fremde Rechnung“ (ergänzt: er),
+„Telekommunikation Bereich“, „Die Inhaltleistung O an T sind“, „auf elektronischen Weg“,
+„nach dem es einem Steuerpflichtigen“, „Anbieter von Online-Spiele“.
+
 ### USt-Skript (Moecker), Block 4 vollständig (Arbeitspapiere A 1 bis A 27)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block04.js` neue Kapitel
