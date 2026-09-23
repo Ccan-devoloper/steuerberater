@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: VIII.3 (Nullsteuersatz für PV-Anlagen)
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-38` bis `ust-m-b10-41` für
+Abschnitt VIII.3 (§ 12 Abs. 3 UStG), PDF-Seiten 124 bis 129: 1. Allgemeines und Nebenleistungen,
+2. bis 5. Solarmodul / Komponenten / Einzelkomponenten / 30 kW (peak), 6. bis 9. sonstige
+Leistungen / Bauträger / Einspeisung, 10. Bestandsanlagen. Keine Bilder auf diesen Seiten. Stand des
+USt-Skripts: 11 Teile, 374 Kapitel, 5291 Blöcke, 275 Tabellen.
+
+**Veraltete Angaben (im Text markiert):** Stromlieferung nach Entnahme: „wird diese Steuer nicht
+erhoben“ (seit 2025 steuerfrei nach § 19 Abs. 1 UStG) und „(§ 19 Abs. 2 Satz 2 UStG)“ (jetzt § 19
+Abs. 3 UStG); die Quelle selbst stellt die Neuregelung in VI.1 und VI.3 dar.
+
+**Nachgerechnet (eigene Ergänzung):** Erweiterung 14 : 21 kW (peak) = 2/3 – stimmt.
+
+**Stillschweigend berichtigt:** „O%-Steuersatz“ / „O-Steuersatz“ (Buchstabe O statt Null), „–neu“,
+„entlastet und werden“, „Solarmodul sind“, fehlender Punkt nach „unbeachtlich“, fehlende Klammern
+(„30 kW (peak).“, „Satz 6 UStAE).“, „Rz. 5 des BMF-Schreibens v. 27.2.2023.“), „Gebäude, die“
+(Gebäuden), „Wird eine PVA wird“, „(Z.B.“, „eine Jahres-USt-Erklärungen“, „vornehmen“ (vorzunehmen),
+„-S 7220“, „Das Betreiber von PVA mit Speicher,“ (Dass), „Bestandanlage“, „steuer-bar“, Leerzeichen
+in Klammern.
+
+**Weiter mit:** IX. Änderung der BMG gem. § 17 UStG (PDF-Seite 130).
+
 ### USt-Skript (Moecker), Block 10: VIII. bis VIII.2 (Steuersatz)
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-34` (VIII. Grundsätze,
