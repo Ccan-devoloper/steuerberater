@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6: Arbeitspapiere Seite 15 bis 21
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neues Kapitel
+`ust-m-b06-30` für die PDF-Seiten 76 bis 82: Strombeispiele (Seite 15), Gebäudereinigung
+(Seite 16), Mobilfunkgeräte und Schaltkreise (Seite 17), Metalle mit Auszug aus Anlage 4
+(Seite 18), Tatbestand der GiG (Seite 19) und Rechtsprechungsübersichten zu Grundstücken mit
+und ohne GiG samt Folgen (Seiten 20 und 21). Gelesen am Layout-Auszug der PDF-Seiten; Tabellen
+mit den Kopfzeilen bzw. Randvermerken der Quelle, ergänzte Spaltenköpfe vermerkt. Die im
+Schaubild Seite 17 zwischen den Spalten stehenden „Tablet-Computer“ und „Spielekonsolen“ sind
+mit einem Hinweis auf II.10 eingeordnet. Stand des USt-Skripts: 6 Teile, 137 Kapitel, 2759 Blöcke, 142 Tabellen.
+
+**Quellbefund (markiert):** Seite 21 datiert die Entscheidung zur Veräußerung an den bisherigen
+Mieter auf „24.09.09 / 06.05.10“, der Textteil III.2.4.2 auf den 04.09.2008.
+
+**Stillschweigend berichtigt:** „Beisp“, „jeder inländ. Untern)“, „Mobilfunkgeräte u.a“,
+„CPU’s“, „UStG(➔“, „Abschn.13b.8“, „Satz1“, „im ganzen“, „Ab. 1.5 Abs. 2“ (Abschn.),
+„50%“ usw. (Leerzeichen vor %), „Gig“, „Berichtigungstzeitraum“, „ertagssteigernde“,
+„Nur hinsichtlich dieses Teils eine GiG vor“ (ergänzt: liegt).
+
+**Noch offen in Block 6:** Arbeitspapiere ab Seite 22 (PDF-Seite 83 ff.).
+
 ### USt-Skript (Moecker), Block 6: Arbeitspapiere Seite 8 bis 14
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neues Kapitel

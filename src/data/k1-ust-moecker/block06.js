@@ -4,7 +4,7 @@
    Gutscheine – Vers. I 2026, Red. 04-26, Titelblatt Mai 2026), PDF-Seiten 2 bis 96
    der gemeinsamen Datei für die Blöcke 6 und 7 (130 PDF-Seiten).
    In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere (PDF-Seiten 62 bis 96)
-   bis Seite 14. */
+   bis Seite 21. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 05/2026";
@@ -1058,6 +1058,71 @@ export const block06 = [
       ] },
       { text: "Im Schaubild der Quelle gilt „Ort = am Zähler, § 3g (2) UStG; stbar und stpflichtig“ für beide Endverbraucher-Spalten gemeinsam; in der Tabelle ist die Angabe in beiden Spalten wiederholt (Darstellungsergänzung)." },
       { text: "➔ **Wenn LU Inländer & Lieferung** ⧫ **Gas** § 13b (2) 5b und **LE ist Wiederverkäufer** – § 13b (5) S. 3 ⧫ **Elektrizität** § 13b (2) 5b und **LU und LE sind Wiederverkäufer** – § 13b (5) S. 4 (also **nicht PV- oder KWK-Anlage**) ➔ **LE Schuldner** (vgl. hierzu Bsp. 2)." },
+    ],
+  },
+  {
+    id: "ust-m-b06-30",
+    teil: TEIL,
+    kapitel: "30",
+    abschnittNr: "Arbeitspapiere Seite 15 bis 21",
+    title: "Arbeitspapiere Seite 15 bis 21: Stromlieferungen (Beispiele), Gebäudereinigung, Mobilfunkgeräte, Metalle und Geschäftsveräußerung im Ganzen mit Grundstücksfällen",
+    thema: "Französischer Stromlieferant an Vermieter und Kraftwerk an Stadtwerke, Positiv- und Negativliste Gebäudereinigung, Mobilfunkgeräte und Schaltkreise mit 5.000-€-Schwelle, Auszug Anlage 4, Tatbestand des § 1 Abs. 1a UStG und Rechtsprechungsübersicht zu Grundstücken mit und ohne GiG samt Folgen für Veräußerer und Erwerber",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere Seite 15 bis 21"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1 Nr. 1 und Abs. 1a UStG", "§ 3g Abs. 1 und 2 UStG", "§ 9 Abs. 2 UStG", "§ 13b Abs. 2 Satz 1 Nr. 5a, 5b, 8, 10 und 11 UStG", "§ 13b Abs. 5 Sätze 1 und 4 UStG", "§ 15 Abs. 1 Nr. 4 und Abs. 2 UStG", "§ 15a Abs. 10 UStG", "Anlage 4 zum UStG", "Abschn. 1.5 Abs. 2 UStAE", "Abschn. 13b.5 Abs. 2 bis 4 UStAE", "Abschn. 13b.7 UStAE", "Abschn. 13b.8 UStAE"],
+    themen: ["Steuerschuldnerschaft", "Elektrizität", "Gebäudereinigung", "Mobilfunkgeräte", "Metalle", "Geschäftsveräußerung im Ganzen", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier Seite 15" },
+      { text: "**Beisp. 1:** **Stromlieferant FU aus Frankreich** beliefert das **vermietete Mehrfamilienhaus des DU in Düsseldorf**. FU ist Unternehmer / im RdU / im LAT. Lieferung von Strom an **unternehmerischen Endverbraucher** mit Ort gem. **§ 3g Abs. 2 UStG in Düsseldorf**. Steuerbar § 1 Abs. 1 Nr. 1 UStG und steuerpflichtig. Fall des **§ 13b Abs. 2 Nr. 5a UStG** mit Entstehung USt nach § 13b Abs. 2 Satz 1 UStG. **Wechsel der Steuerschuld** gem. § 13b Abs. 5 Satz 1 UStG **auf DU (Vermieter)**. **Ausschluss der Vorst** (§ 15 Abs. 1 Nr. 4 UStG) für DU gem. **§ 15 Abs. 2 UStG** wegen steuerfreier Umsätze." },
+      { text: "**Beisp. 2:** **Betreiber & Händler Kohlekraftwerk (K) aus Essen** liefert Strom an **Stromversorger Stadtwerke Berlin (B)**. K ist Unternehmer / im RdU / im LAT. Lieferung von Strom an **Wiederverkäufer** mit Ort gem. **§ 3g Abs. 1 UStG am Sitz in Berlin**. Steuerbar § 1 Abs. 1 Nr. 1 UStG und steuerpflichtig. Fall des **§ 13b Abs. 2 Nr. 5b UStG**. **Steuerschuldumkehr** gem. § 13b Abs. 5 Satz 4 UStG **auf B**. **Vorsteuerabzug** § 15 Abs. 1 Nr. 4 UStG für B." },
+      { typ: "titel", text: "Arbeitspapier Seite 16 – 2.6 Gebäudereinigung – § 13b (2) Nr. 8 –" },
+      { text: "**LU** (jeder inländ. Untern.) ➔ **Reinigen von Gebäuden / Gebäudeteilen** (Wohnung, Raum, Stockwerk) ➔ **LE** (Untern., der selbst (vom Typ her) derartige Leistungen erbringt). ➔ **Typisch Subunternehmerfälle.**" },
+      { typ: "tabelle", spalten: ["Reinigungsbegriff: Positivliste (A 13b.5 Abs. 2 UStAE)", "Reinigungsbegriff: Negativliste (A 13b.5 Abs. 3 UStAE)"], zeilen: [
+        ["Fensterreinigung, Dachrinnen • Bauendreinigung • Reinigung (nicht Wartung) von haustechnischen Anlagen • Hausmeisterdienste, wenn incl. Reinigungsleistungen", "Schornsteinfeger und Schädlingsbekämpfung • Winterdienst • Arbeitnehmerüberlassung • Reinigung Inventar: Möbel, Gardinen, Geschirr, Bilder (wenn eigenständige Leistung)"],
+      ] },
+      { text: "**Typus des LE** zu erkennen an **Bescheinigung des FA** für entsprechende LE (**Vordruck USt 1 TG**; vgl. Abschn. 13b.5 Abs. 4 UStAE). Die **Vereinfachungsregel „Vereinbarung 13b“** (Abschn. 13b.8 UStAE) gilt bei Gebäudereinigungsleistungen entsprechend." },
+      { typ: "titel", text: "Arbeitspapier Seite 17 – 2.7 Mobilfunkgeräte u.a. – § 13b (2) Nr. 10" },
+      { text: "**LU** (jeder Untern.) ➔ **Lieferungen** (vgl. Abschn. 13b.7 UStAE) ➔ **LE** (jeder Untern.)." },
+      { typ: "tabelle", spalten: ["Mobilfunkgeräte", "integrierte Schaltkreise vor Einbau"], zeilen: [
+        ["Geräte zum Gebrauch mittels eines „Mobilfunk-Netzes“; Sprachübertragung über drahtlose Netze (z.B. Handy, CB-Funk). Nicht: Navi., mp3-Player usw.", "– Mikroprozessoren u. CPUs (nicht jedoch Endgeräte mit entsprechend verbauten Gegenständen) – Steuer- und Kontrollschaltungen – Prozessormodule. Nicht: Antennen, Sensoren, Platinen oder Speicherkarten mit integrierten Schaltungen usw. – vgl. Katalog im UStAE."],
+      ] },
+      { text: "Zwischen den beiden Spalten stehen im Schaubild außerdem **„Tablet-Computer“** und **„Spielekonsolen“** (nach II.10 seit dem 01.10.2014 in § 13b Abs. 2 Nr. 10 UStG einbezogen – eigene Ergänzung zur Einordnung)." },
+      { text: "**Schwellenwert mindestens 5.000 Euro** (Summe der Entgelte pro wirtschaftlichen Vorgang – im Sinne von „pro Bestellung“ –)." },
+      { typ: "titel", text: "Arbeitspapier Seite 18 – 2.8 Metalle – § 13b (2) Nr. 11 – ab 1.10.2014" },
+      { text: "**LU** (jeder Untern.) ➔ Lieferung von **Edelmetallen und unedlen Metallen** nach **Anlage 4 zum UStG** (➔ maßgebend **Zolltarif**) ➔ **LE** (jeder Untern.)." },
+      { typ: "tabelle", spalten: ["Lfd. Nr.", "Warenbezeichnung (nur auszugsweise und nur Beispiele)", "Zolltarif"], zeilen: [
+        ["3", "Roheisen oder Spiegeleisen, in Masseln, Blöcken oder anderen Rohformen; Körner und Pulver aus Roheisen, Spiegeleisen, Eisen oder Stahl; Rohblöcke und andere Rohformen aus Eisen oder Stahl; Halbzeug aus Eisen oder Stahl", "Positionen 7201, 7205 bis 7207, 7218 und 7224"],
+        ["4", "Nicht raffiniertes Kupfer und Kupferanoden zum elektrolytischen Raffinieren; raffiniertes Kupfer und Kupferlegierungen, in Rohform; Kupfervorlegierungen; Pulver und Flitter aus Kupfer", "Positionen 7402, 7403, 7405 und 7406"],
+        ["6", "Aluminium in Rohform; Pulver und Flitter, aus Aluminium", "Positionen 7601 und 7603"],
+        ["10", "Andere unedle Metalle in Rohform oder als Pulver", "aus Positionen 8101 bis 8112"],
+      ] },
+      { text: "**Schwellenwert mindestens 5.000 Euro** (Summe der Entgelte pro wirtschaftlichen Vorgang – im Sinne von „pro Bestellung“ –). In Zweifelsfällen **unverbindliche Zolltarifauskunft** einholen oder **Vereinbarung Abschn. 13b.8 UStAE** treffen." },
+      { typ: "titel", text: "Arbeitspapier Seite 19 – 3. Geschäftsveräußerung im Ganzen – § 1 Abs. 1a – 3.1 Tatbestand" },
+      { text: "Das Schaubild ist als gegliederter Text wiedergegeben. **Nicht der USt unterliegen** gem. § 1 Abs. 1a UStG (**Satz 1**): die **Umsätze im Rahmen einer Geschäftsveräußerung an einen anderen Unternehmer für dessen Unternehmen**." },
+      { text: "Eine **Geschäftsveräußerung liegt vor, wenn (Satz 2)** ein **Unternehmen** oder ein in der Gliederung des Unternehmens **gesondert geführter Betrieb** **im Ganzen** (alle wesentlichen Betriebsgrundlagen) übertragen wird durch **entgeltliche oder unentgeltliche Übereignung** oder **Einbringung in eine Gesellschaft**." },
+      { text: "Dabei tritt gemäß (**Satz 3**) der **erwerbende Unternehmer an die Stelle des Veräußerers**. Als Folge bestimmt **§ 15a Abs. 10** in **Satz 1**: „Bei einer Geschäftsveräußerung (§ 1 Abs. 1a UStG) wird der für das Objekt maßgebliche Berichtigungszeitraum nicht unterbrochen.“ & in **Satz 2**: „Der Veräußerer ist verpflichtet, dem Erwerber die für die Durchführung der Berichtigung erforderlichen Angaben zu machen.“" },
+      { typ: "titel", text: "Arbeitspapier Seite 20 – 3.2 Veräußerung von Grundstücken (Abschn. 1.5 Abs. 2 UStAE)" },
+      { text: "Die **Übertragung verpachteter/vermieteter Immobilien** (Gewerbe- oder Wohnimmobilien) **unter Fortführung des Pacht-/Mietvertrages** durch den Erwerber ist eine **nicht steuerbare GiG**. **!!! Jedes einzelne „vermietete“ Grundstück ist ein Teilbetrieb.**" },
+      { typ: "tabelle", spalten: ["GiG – BFH v.", "Sachverhalt / Ergebnis"], zeilen: [
+        ["01.04.04", "Die Übertragung verpachteter/vermieteter (Gewerbe- oder Wohn-)Immobilien unter Fortführung des Pacht-/Mietvertrages durch den Erwerber."],
+        ["22.11.07", "Teilweise vermietet (z.B. 50 %) und teilweise eigenunternehmerische Nutzung (z.B. als Büro) ➔ GiG nur vermieteten Teil (hier 50 %)."],
+        ["30.04.09", "Teilweise vermietet zu 37 %; teilweise leerstehend, aber zur Vermietung bestimmte Flächen ➔ zu 100 % GiG."],
+        ["24.02.21", "Vermieter verkauft Grundstück an bisherigen Mieter mit Nutzung 60 % eigengewerblich & 40 % untervermietet ➔ GiG für 40 % vermieteten und weiter untervermieteten Teil; keine GiG für 60 %."],
+      ] },
+      { text: "**Folge für Veräußerer:** ➢ keine steuerbare Lieferung, ➢ keine Änderung der Verhältnisse i.S.d. § 15a UStG, ➢ keine Unterbrechung Berichtigungszeitraum gem. § 15a Abs. 10 UStG, ➢ Übergabe notwendiger Unterlagen an Erwerber." },
+      { text: "**Folge für Erwerber:** ➢ tritt an die Stelle des Veräußerers. ➢ gem. § 1 Abs. 1a S. 3 (wie Gesamtrechtsnachfolge) ➢ „erbt“ bisherige Nutzung, Vorst-Volumen und Berichtigungspflicht gem. § 15a UStG. ➢ **keine Steuerschuldnerschaft gem. § 13b UStG**. **Beachte:** Problematik des § 15a UStG für **Reparaturen & Renovierungen**; selbst wenn Gebäude älter als 10 Jahre." },
+      { typ: "titel", text: "Arbeitspapier Seite 21" },
+      { typ: "tabelle", spalten: ["Keine GiG – BFH v.", "Sachverhalt"], zeilen: [
+        ["18.01.05", "Veräußerung eines bisher (selbstgenutzten) Hallengrundstücks (hier der Verkauf der bisher durch den Organträger an das Organ vermieteten Immobilie)."],
+        ["24.02.05 und 18.09.08", "Sog. Bauträgergrundstück (unternehmerische Tätigkeit besteht darin, Gebäude zu errichten & Vermietung & ertragssteigernde Veräußerung; kein nachhaltig verfestigtes Vermietungsunternehmen; im Prinzip Verkauf von „Ware“). ! Beachte Abschn. 1.5 Abs. 2 UStAE und AP 21."],
+        ["11.10.07", "Lieferung eines weder vermieteten noch verpachteten Grundstücks ist im Regelfall keine GiG (Veräußerung Diskothek ohne Übergang Pachtvertrag)."],
+        ["24.09.09 / 06.05.10", "Vermietetes Geschäftsgrundstück wird an den bisherigen Mieter veräußert (so in der Quelle; der Textteil III.2.4.2 nennt hierzu ein BFH-Urteil vom 04.09.2008)."],
+        ["06.07.16", "Verkauf mit nur teilweiser Fortführung der Vermietung. Nur hinsichtlich dieses Teils liegt eine GiG vor. Dies gilt unabhängig davon, ob ein „zivilrechtlich selbständiger“ Teil vorliegt. Folgend eigengenutzter Teil keine GiG."],
+      ] },
+      { text: "**Folge für Veräußerer:** ➢ **steuerbare und grds. steuerfreie Lieferung**. ➢ durch **Option § 9 UStG** ggf. steuerpflichtig; Hinweis: Beschränkung § 9 Abs. 2 gilt nicht. ➢ ggf. **Änderung der Verhältnisse** i.S.d. § 15a UStG." },
+      { text: "**Folge für Erwerber:** ➢ bei steuerpflichtiger Lieferung durch Option des Veräußerers **Steuerschuldner gem. § 13b UStG**, ➢ **Vorsteuerabzug gem. § 15 Abs. 1 Nr. 4 UStG**." },
+      { text: "Die Rechtsprechungsübersichten Seite 20 und 21 sind als Tabellen wiedergegeben; die Spaltenköpfe folgen den Randvermerken „GiG“ / „Keine GiG“ und „BFH v.“ der Quelle, „Sachverhalt / Ergebnis“ ist eigene Ergänzung zur Darstellung." },
     ],
   },
 ];
