@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 fortgesetzt (II.1 bis II.2.1)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-5` (II.1 Einführung mit Übersichtstabelle der Tatbestände des § 13b UStG und den
+Absätzen 5 bis 10) und `ust-m-b06-6` (II.2 Voraussetzungen bei ausländischen Unternehmern,
+allgemeine Vorschriften; II.2.1 Ansässigkeit, Betriebsstätte, Zeitpunkt, Sitz, Zweifel) für die
+PDF-Seiten 15 bis 20. Die Übersicht als Tabelle mit den Spaltenköpfen der Quelle („§ 13b“,
+„Tatbestand der jeweiligen Vorschrift“, „WER an WEN“); Abs. 2 Nr. 9 (Gold) fehlt in der
+Übersicht der Quelle und wurde nicht ergänzt. Stand des USt-Skripts: 6 Teile, 113 Kapitel, 2355 Blöcke, 126 Tabellen.
+
+**Quellbefund (markiert):** Für den maßgeblichen Zeitpunkt der Ansässigkeit zitiert die Quelle
+„§ 13b Abs. 7 S. 3 UStG“; die Zeitpunktregel steht in Satz 4 (eigene Ergänzung; die Quelle
+zitiert die Zweifelsregel selbst zutreffend als Satz 5).
+
+**Stillschweigend berichtigt:** „§13b“, „durch ausländischer Unternehmer“, „sicher gestellt“,
+„Flugzeug Eisenbahn“ (Komma), „findet keine Anwendung finden“, „§ 13b Abs.9“, „des 3a UStG“
+(§ ergänzt), „ist eine Betriebsstätte im Sinne des UStG ist jede“, „USt-IdNr. besitzt ist“
+(Komma), „Abschn. 13b.11.“, „an dem Ort, der“ (ergänzt: ihren Sitz), „statuarischen“
+(statutarischen), „reine formale“ (rein).
+
+**Noch offen in Block 6:** ab II.2.2 (PDF-Seite 20 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 6 fortgesetzt (I.3 bis I.3.4)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
