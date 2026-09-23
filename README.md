@@ -830,7 +830,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   die Übersicht über das materielle und formelle Haftungsverfahren mit den vier „W“ und die
   Geschäftsführerhaftung nach § 69 AO – Prüfungsschema, verpflichteter Personenkreis mit
   § 35 GmbHG, Pflichtverletzung, Steuerausfall und hypothetischer Kausalverlauf mit dem
-  durchgerechneten Beispiel A-GmbH (§§ 69 und 71 AO) und mehrere Geschäftsführer.
+  durchgerechneten Beispiel A-GmbH (§§ 69 und 71 AO) und mehrere Geschäftsführer; dazu
+  (Seiten 21 bis 40) Verschulden und Haftungszeitraum mit dem Übungsfall Z-GmbH, die
+  vorrangige Lohnsteuer mit dem Beispiel X-GmbH, der Grundsatz der Gleichbehandlung der
+  Gläubiger mit den drei Liquiditätsphasen, das Schema zur Haftungsquote mit den
+  Fallbeispielen XY-GmbH (6.000 €) und X-GmbH (31.000 €, auch nach dem Verwaltungsschema),
+  §§ 15a und 15b InsO mit dem Haftungsausschluss des § 15b Abs. 8 InsO, die Drittwirkung
+  nach § 166 AO und die Zahlungsaufforderung nach § 219 AO.
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und

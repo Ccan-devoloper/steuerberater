@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 21 bis 40
+
+Eingepflegt als Kapitel `ao-jacobs-13-5` bis `ao-jacobs-13-9`: Verschulden, Haftungszeitraum und
+Übungsfall Z-GmbH; Lohnsteuer als Fremdgeld (Beispiel X-GmbH) und Gleichbehandlung der Gläubiger
+mit Rechenbeispiel und den drei Liquiditätsphasen; Haftungsquote (Lohnsteuer außer Ansatz,
+Schema, Fälle XY-GmbH und X-GmbH mit Verwaltungsschema); §§ 15a und 15b InsO im Wortlaut mit
+Erläuterungen zu § 15b Abs. 8 InsO; Rechtsfolge, Drittwirkung nach § 166 AO und
+Zahlungsaufforderung nach § 219 AO. Weiter geht es mit dem Muster eines Haftungsbescheides
+(Seite 41). Stand des Skripts: 16 Teile, 221 Kapitel, 5594 Blöcke, 385 Tabellen.
+
+**Nachgerechnet und stimmig:** Z-GmbH (120.000 − 40.000 = 80.000 €); Gleichbehandlungsbeispiel
+(50.000 / 100.000 = 50 %, Haftung 25.000 €); Fall XY-GmbH (50.000 / 250.000 = 20 %, 10.000 −
+4.000 = 6.000 €); Fall X-GmbH (1,02 / 4 = 25,5 %, 51.000 − 20.000 = 31.000 €; Verwaltungsschema
+0,2 / 4 = 5 %, 1,02 Mio × 5 % = 51.000 €).
+
+**Quellbefunde (markiert):** Fall X-GmbH, Tz 5 „(4 Mio € im Verhältnis zu 1,02 Mio €)“ – umgekehrt
+gerechnet; im Verwaltungsschema „1 Mio + 0,2 Mio durch Umbuchung = 1,02 Mio €“ statt 0,02 Mio;
+im BFH-Auszug von 1986 ist von „§ 109 Abs. 1 AO“ die Rede (so im Urteilsauszug belassen); im
+Abschnitt zur Insolvenztabelle wechselt die Quelle zwischen „ihre/sie“ und „ihm“. Die drei
+Liquiditätsphasen stehen als Schaubild ohne Überschriften; die Bezeichnungen sind als eigene
+Ergänzung aus der folgenden Darstellung der Rechtslage abgeleitet.
+
 ### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 1 bis 21
 
 Abschnitt 13 (84 Skriptseiten, PDF-Seiten 92 bis 175 von AO Teil V) wird als neuer Teil „XIII“
