@@ -10623,6 +10623,31 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 7: Abschnitte VI bis VIII – Textteil vollständig
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
+`ust-m-b07-16` (VI. Vorsteuerabzug mit drei Beispielen und dem Straferwerb), `ust-m-b07-17`
+(VII. Territoriale Begriffsbestimmungen) und `ust-m-b07-18` (VIII. Austritt GB und Nordirland,
+BMF-Schreiben vom 10.12.2020 Rz. 1 bis 5 mit Skizze) für die PDF-Seiten 114 bis 118. **Der
+Textteil von Block 7 ist damit vollständig** (18 Kapitel). Stand des USt-Skripts: 7 Teile, 158 Kapitel, 2984 Blöcke, 150 Tabellen.
+
+**Nachgerechnet (eigene Ergänzung):** Aachen/Spanien 80.000 € × 19 % = 15.200 €, Entstehung
+mit Ablauf des 31.5. (Rechnung 20.6. nach Ablauf des Folgemonats) – stimmt; Versicherung
+1.900 € Erwerbsteuer, davon 5 % = 95 € abziehbar, 95 % = 1.805 € nicht abziehbar – stimmt;
+Gemeinschaftsgebiet 13 + 10 + 2 + 1 = 26 übrige Mitgliedstaaten – stimmt.
+
+**Darstellung:** Die Brexit-Skizze ist als Tabelle wiedergegeben; Spaltenköpfe und die
+Wiederholung der Klammer „Waren- und Dienstleistungsverkehr mit Drittlandsgebiet“ sind eigene
+Ergänzung zur Darstellung. Die in der Quelle gekürzten Aufzählungen in Rz. 3 („Richtlinie
+………….( vgl. BMF-Schreiben )“) sind mit Auslassungszeichen übernommen.
+
+**Stillschweigend berichtigt:** fehlender Punkt nach „ausgeschlossen“, „in Bezug auf die
+Anwendung.“ (Doppelpunkt), „im Sinne des (§ 1 Abs. 2 Satz 1 UStG)“, „zzgl. Ab 1.1.2007“,
+„ab1.7.2013“, „Kontrolle Ausübt“, Leerzeichen in Klammern, „31. Dezember 2020, enden“,
+„Waren-und“, „Dienstleitungsverkehr“ (Skizze).
+
+**Weiter mit:** Block 7, Arbeitspapiere A 1 bis A 12 (PDF-Seiten 119 bis 130).
+
 ### USt-Skript (Moecker), Block 7: Abschnitte III.6 bis V
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
