@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I begonnen: Überblick und I.1.1
+
+Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block08-1.js`
+(„Umsatzsteuer Block 8 (I) mit Arbeitspapieren“, Titelblatt Juni 2026, 111 PDF-Seiten),
+eingebunden in `src/data/k1-ust-skript-moecker.js` als eigener Teil „Block 8 (Teil I) –
+Steuerfreie Umsätze mit Vorsteuerabzug“; Teil II (Datei „b08-2“) folgt als weiterer Teil.
+Kapitel `ust-m-b08-1-1` (Inhaltsverzeichnis, Einleitung und Einteilung des § 4 UStG als
+Tabelle) und `ust-m-b08-1-2` (I.1.1 Übersicht der Ausfuhrlieferungen nach § 6 Abs. 1 Nr. 1
+bis 3 UStG als dreispaltige Tabelle mit den Kopfzeilen der Quelle) für die PDF-Seiten 2 bis 5.
+Stand des USt-Skripts: 8 Teile, 165 Kapitel, 3061 Blöcke, 158 Tabellen.
+
+**Quellbefund (vermerkt):** Die Fußzeile nennt „Vers. I 2016“, das Titelblatt Juni 2026 und
+die Redaktion „06-26“; übernommen ist der Stand 06/2026.
+
+**Stillschweigend berichtigt:** Gliederungsnummern „I 1.3.1“, „I. 3.3.3“, „I. 3.3.4“,
+„§ 4 Nummer. 7“, Leerzeichen in Klammern, „sonstigen Leistungen“ (sonstige), Block
+“Unentgeltliche Wertabgaben” (deutsche Anführungszeichen), „§ 4 b“, fehlender Punkt nach
+„Nummer 4 UStG“, „o d e r“ (gesperrt).
+
+**Weiter mit:** Block 8 Teil I ab I.1.2 (PDF-Seite 6).
+
 ### USt-Skript (Moecker), Block 7 abgeschlossen: Arbeitspapiere A 9 bis A 12
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
