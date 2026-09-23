@@ -10620,6 +10620,37 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VII (Hamacher), Abschnitte 2.5.1 und 2.5.2 – Schema und Abwicklungs-Anfangsvermögen
+
+Übernommen sind die Seiten 11 bis 14 der Quelle: das Schema der Gewinnermittlung nach § 11
+Abs. 2 KStG (2.5.1) sowie das Abwicklungs-Anfangsvermögen mit Steuerbilanzwerten (2.5.2.1),
+Korrekturen um Ausschüttungen für Vorjahre (2.5.2.2), dem Sonderfall der Auflösung im
+Gründungsjahr (2.5.2.3) und mehreren Besteuerungszeiträumen (2.5.2.4), mit vier
+Beispielen. Der Datensatz umfasst damit 17 Kapitel mit 176 Abschnitten und 14 Tabellen;
+geprüft mit `npm run check:k2-kst-teil7`.
+
+**Befunde der Quelle.** Sprachliche Fehler von Gewicht enthalten die Abschnitte nicht.
+Vermerkt ist, dass die Quelle für das Ende der Gewerbesteuerpflicht „Abschn. 19 Abs. 3
+Satz 2 GewStR“ zitiert – eine Zitierweise aus einer älteren Fassung der
+Gewerbesteuer-Richtlinien, die heute nach „R“ gegliedert sind. Die Lösung der
+Abwandlung zu 2.5.2.3 stützt § 11 Abs. 4 KStG darauf, dass ein Betriebsvermögen
+„vorhanden“ war, obwohl es 0 € beträgt; gemeint ist das Vorliegen einer Schlussbilanz.
+Beides ist im Datensatz als eigene Ergänzung erläutert.
+
+**Eigene Nachrechnung.** Alle Zahlen gehen auf: 300.000 € ./. 70.000 € = 230.000 €
+(2.5.2.2); Einlagen 100.000 € + 5.000 € Agio = 105.000 €, davon 55.000 € geleistet und
+50.000 € ausstehend (2.5.2.3); Betriebsvermögen der Abwandlung 105.000 € ./. 105.000 €
+Jahresfehlbetrag = 0 €. Die Aufteilung der Jahre 2023 bis 2027 in drei Zeiträume
+(2023 – 2025, 2026, 2027) trifft zu.
+
+**Einordnung.** Als eigene Ergänzungen ausgewiesen: der Aufbau des Schemas nach dem Muster
+des Betriebsvermögensvergleichs, die doppelte Erfassung der Spenden, die
+Gewerbesteuerpflicht des Abwicklungsgewinns im Gegensatz zum Aufgabegewinn des
+Einzelunternehmers, die Asymmetrie von Buchwert und gemeinem Wert als Mechanismus der
+Aufdeckung stiller Reserven, der Zusammenhang zwischen der Korrektur nach § 11 Abs. 4
+Satz 3 KStG und dem Rumpfwirtschaftsjahr sowie eine Gegenüberstellung von Grundfall und
+Abwandlung beim Gründungsjahr.
+
 ### KSt Teil VII (Hamacher), Abschnitt 2.4 – Besteuerungszeitraum
 
 Übernommen sind die Seiten 7 bis 11 der Quelle: die Begrenzung auf drei Jahre mit drei

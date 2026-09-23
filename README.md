@@ -5649,7 +5649,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 - **KSt Teil VII (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VII (Liquidation)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VII: Liquidation (§ 11 KStG)“** (21. Auflage,
-  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 12 Kapitel mit 132 Abschnitten und 10 Tabellen;
+  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 17 Kapitel mit 176 Abschnitten und 14 Tabellen;
   Kapitel 1 des Skripts (zivilrechtlicher Hintergrund) ist **vollständig**. Der Liquidation ist die
   **Auflösung** vorgeschaltet, und beide Vorgänge sind streng zu trennen: Die Auflösung ist das
   auslösende Ereignis – ein Gesellschafterbeschluss mit qualifizierter Mehrheit, der Ablauf der
@@ -5740,6 +5740,33 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Bescheide offengehalten werden sollten. Das **Ende** des Abwicklungszeitraums schließlich tritt
   erst mit rechtsgültigem Abschluss **einschließlich des Sperrjahres** ein – auch wenn das Vermögen
   schon vorher vollständig ausgeschüttet wurde; die Löschung ist ohne Bedeutung.
+  Die **Gewinnermittlung** nach § 11 Abs. 2 KStG ist ein **Betriebsvermögensvergleich** über den
+  gesamten Abwicklungszeitraum, und ihre Korrekturposten folgen dem Muster des § 4 Abs. 1 EStG: Was an
+  die Gesellschafter abgeflossen ist – Vorschüsse, verdeckte Gewinnausschüttungen –, wird dem
+  Endvermögen hinzugerechnet, was von ihnen hineingekommen ist – Einlagen –, wird abgezogen; ebenso
+  werden steuerfreie Einnahmen herausgenommen und nichtabziehbare Aufwendungen hinzugerechnet. Die
+  Spenden erscheinen zweimal: Zunächst werden **sämtliche** hinzugerechnet, nach dem Zwischenergebnis
+  die **abzugsfähigen** wieder abgezogen, weil sich der Höchstbetrag nach dem Einkommen bemisst. Der
+  Abwicklungsgewinn gilt mit Ablauf des letzten Besteuerungszeitraums als bezogen und ist – anders als
+  der Aufgabegewinn eines Einzelunternehmers – **auch gewerbesteuerpflichtig**, weil die
+  Gewerbesteuerpflicht der Kapitalgesellschaft erst mit der Schlussverteilung endet.
+  Das **Abwicklungs-Anfangsvermögen** ist das Betriebsvermögen laut **letzter Steuerbilanz** vor der
+  Abwicklung, und zwar zum **Buchwert**; fehlt eine Veranlagung, ist der Wert fiktiv zu ermitteln.
+  Daraus entsteht eine bewusste **Asymmetrie**: Buchwert am Anfang, **gemeiner Wert** am Ende – genau
+  diese Differenz macht die stillen Reserven sichtbar, ohne dass es einer Veräußerung bedürfte. Nach
+  § 11 Abs. 4 Satz 3 KStG ist das Anfangsvermögen um **Gewinnausschüttungen für Wirtschaftsjahre vor
+  der Auflösung** zu mindern, die erst im Abwicklungszeitraum fließen; ohne die Korrektur würde die
+  Ausschüttung als Buchverlust den Abwicklungsgewinn mindern, obwohl sie reine Gewinnverwendung ist
+  (im Beispiel 300.000 € ./. 70.000 € = 230.000 €). Beim Anteilseigner bleiben diese Beträge reguläre
+  Beteiligungserträge nach § 20 Abs. 1 **Nr. 1** EStG, während die Schlussauskehrung unter **Nr. 2**
+  fällt. Wird die Gesellschaft **im Gründungsjahr** aufgelöst, fehlt eine Vorjahresbilanz; § 11 Abs. 5
+  KStG setzt dann die **geleisteten und noch zu erbringenden Einlagen** an – im Beispiel 105.000 €
+  einschließlich Agio und offener Einlageforderung. Bildet die Gesellschaft dagegen ein
+  **Rumpfwirtschaftsjahr**, gilt dessen Schlussbilanz als Anfangsvermögen (im Beispiel 0 €), und der
+  bis dahin entstandene Verlust wird als Verlustvortrag in den Besteuerungszeitraum getragen – mit
+  dem Vorbehalt der Mindestbesteuerung bei größeren Beträgen. Bei **mehreren Besteuerungszeiträumen**
+  gilt der besondere Vermögensvergleich nur im **letzten**, und er beginnt mit der Steuerbilanz des
+  **vorletzten**; so wird jeder Gewinnbestandteil genau einmal erfasst.
   Prüfung: `npm run check:k2-kst-teil7`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
