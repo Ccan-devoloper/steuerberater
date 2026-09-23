@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: Arbeitspapiere A 1 bis A 7
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-53` (A 1/A 2 Entgeltschema und
+durchlaufende Posten), `ust-m-b10-54` (A 3/A 4 Zuschüsse und Handy-Abgabe), `ust-m-b10-55` (A 5/A 6
+Tausch und verdeckter Preisnachlass) und `ust-m-b10-56` (A 7 Margenbesteuerung B2B) für die
+PDF-Seiten 145 bis 151. Die Schaubilder wurden zusätzlich als gerenderte Seitenbilder angesehen
+(Kreisziffern, Pfeile und Spalten sind im Textauszug nicht sicher lesbar) und als Tabellen / Text
+wiedergegeben. Stand des USt-Skripts: 11 Teile, 389 Kapitel, 5476 Blöcke, 282 Tabellen.
+
+**Quellenfehler (im Text markiert):** Rundungsdifferenzen von 1 Cent in A 5 (17.000 € : 1,19 =
+14.285,71 €, Quelle 14.285,72 €) und A 6 (50.000 € : 1,19 = 42.016,81 €, Quelle 42.016,80 €).
+
+**Nachgerechnet (eigene Ergänzung):** A 5 20.000 € : 1,19 = 16.806,72 € – stimmt; A 6 subjektiver
+Wert 45.000 € – stimmt.
+
+**Stillschweigend berichtigt:** „Abschn.10.1“, „Transfer-leistungen“, „Reiseleitungen“ (Überschrift
+A 7), „Dem A/B ist es das Wert … was es ihm kostet“, „Welcher Wert hat das KFZ“, „hätte zahlen
+müsste ( zahlen sollen )“, „dem Kunde 1“, „„kostenlos”“, „(Abschluss)- Provision“, „Abschn.25.1
+Abs.9“, Leerzeichen in Klammern.
+
+**Weiter mit:** Arbeitspapier A 8 (PDF-Seite 152).
+
 ### USt-Skript (Moecker), Block 10: IX.3.4 bis X. (Textteil abgeschlossen)
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-50` (IX.3.4 Rückgängigmachung),
