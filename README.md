@@ -2440,14 +2440,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und Erwerbsfiktion beim innergemeinschaftlichen Verbringen und der Konsignationslagerregelung
   nach § 6b UStG, Lieferungen an Bord und neuen Fahrzeugen (Textteil vollständig) sowie
   Arbeitspapieren A 1 bis A 33 (56 Kapitel, vollständig), Block 10 (BMG & Änderung /
-  Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) begonnen mit
+  Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) vollständig mit
   Inhaltsverzeichnis, Entgeltbegriff, Vertragsstrafen, durchlaufenden Posten, Zuschüssen und
   der BMG beim innergemeinschaftlichen Erwerb, Tausch, Mindestbemessungsgrundlage und
   Reiseleistungen nach § 25 UStG, der Differenzbesteuerung nach § 25a UStG und der
   Kleinunternehmerregelung ab 2025 samt grenzüberschreitendem Kleinunternehmer nach § 19a UStG,
   dem ermäßigten Steuersatz nach § 12 Abs. 2 UStG, dem Nullsteuersatz für PV-Anlagen und der
   Änderung der BMG nach § 17 UStG und den Durchschnittssätzen nach § 24 UStG (Textteil
-  vollständig) und den Arbeitspapieren A 1 bis A 27 (67 Kapitel).
+  vollständig) sowie Arbeitspapieren A 1 bis A 36 (72 Kapitel, vollständig); Blöcke 11 bis 13
+  folgen.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

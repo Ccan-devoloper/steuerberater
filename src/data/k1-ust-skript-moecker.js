@@ -18,7 +18,7 @@
    vollständig, Block 8 Teil I (Steuerfreie Umsätze mit Vorsteuerabzug) vollständig,
    Block 8 Teil II (Steuerfreie Umsätze ohne Vorsteuerabzug, § 9 UStG) vollständig,
    Block 9 (Besondere Umsätze im Binnenmarkt) vollständig, Block 10 (BMG & Änderung /
-   Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) begonnen.
+   Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) vollständig.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien

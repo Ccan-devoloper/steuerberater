@@ -10623,6 +10623,31 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: Arbeitspapiere A 28 bis A 36 (Block 10 abgeschlossen)
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-68` (A 28 Forderungsabtretung),
+`ust-m-b10-69` (A 29 bis A 31 Preisnachlass- und Preiserstattungsgutscheine), `ust-m-b10-70`
+(A 32/A 33 ausländische Lieferanten, Vermittler), `ust-m-b10-71` (A 34/A 35 § 17 Abs. 2 UStG) und
+`ust-m-b10-72` (A 36 § 24 UStG und § 15a) für die PDF-Seiten 172 bis 180, nach Ansicht der
+gerenderten Seiten. Damit ist Block 10 vollständig (72 Kapitel: Textteil I. bis X. und
+Arbeitspapiere A 1 bis A 36); README, Campus-Übersicht, Sammeldatei und offene-quellen angepasst.
+Stand des USt-Skripts: 11 Teile, 405 Kapitel, 5634 Blöcke, 303 Tabellen.
+
+**In der Quelle so (vermerkt):** A 32 Kennung „450-15/08-17“ unter der Überschrift; A 34 Gliederung
+„II.“ statt der sonst verwendeten Nummern 7.x.
+
+**Nachgerechnet (eigene Ergänzung):** A 28 (ohne Ergebnis in der Quelle) Entgelt nach Zahlung an den
+Factor 595 € brutto = 500 € + 95 € USt; A 29/A 31 873,95 € / 166,05 €, Zahllasten 356,05 €,
+Vorsteuerminderung 23,95 € – stimmt; A 32 1.900 € und 2.850 € – stimmt; A 36 150 € je Ferkel,
+Vorsteuer weit unter 1.000 € – stimmt.
+
+**Stillschweigend berichtigt:** „LE zahl tatsächlich“, „Abschn. 17.1. Abs. 6“, „im VAZ des
+Einlösung“, „C300/12“, „Abschn. 17.2. Abs. 7“, „Abschn. 17.1. Abs. 7“ und fehlende Klammer,
+„L..u.F.-Betriebs“, „forstwirtschaftliche Erzeugnissen“, „steuerpflichtige. Umsätze“.
+
+**Weiter mit:** Blöcke 11 und 12 (Datei b11-12, 145 Seiten; Bild auf Seite 36), danach Block 13
+(69 Seiten).
+
 ### USt-Skript (Moecker), Block 10: Arbeitspapiere A 21 bis A 27
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-64` (A 21/A 22 Kleinunternehmer,
