@@ -1,7 +1,7 @@
 /* USt-Skript (Moecker), Block 5: Entgeltliche sonstige Leistungen.
    Quelle: „B-S26-USt-Skript Block 05-(Moecker)-0326“ (Block 05 – Sonstige
    Leistungen, Vers. I / 2026, Red. 04-26, Titelblatt März 2026), 114 PDF-Seiten.
-   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 10. */
+   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 16. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 03/2026";
@@ -1026,6 +1026,55 @@ export const block05 = [
       { text: "**2) H tritt auf im eigenen Namen und für eigene Rechnung:** Mietverträge zwischen Vermieter V und Verwalter H (85 Euro) sowie zwischen Verwalter H und U (100 Euro). **Lösung:** V ➔ an H = **Vermietungsleistung BMG 85**; H ➔ an U = **Vermietungsleistung BMG 100**." },
       { text: "**3) H tritt auf im eigenen Namen aber für fremde Rechnung:** Besorgungsvertrag (15 Euro) zwischen Vermieter V und Verwalter H; Mietvertrag (100 Euro) zwischen Verwalter H und U – **Fall des § 3 Abs. 11 UStG**. **Lösung:** V ➔ an H = **Vermietungsleistung BMG 85**; H ➔ an U = **Vermietungsleistung BMG 100**." },
       { text: "**Nachrechnung (eigene Ergänzung):** In allen Varianten gilt 85 € + 15 € = 100 €; bei der Besorgung nach § 3 Abs. 11 UStG entspricht die Bemessungsgrundlage des Kommissionärs (100 €) dem Entgelt des Frachtführers bzw. der Weitergabe an den Vermieter (85 €) zuzüglich der einbehaltenen Provision (15 €)." },
+    ],
+  },
+  {
+    id: "ust-m-b05-29",
+    teil: TEIL,
+    kapitel: "29",
+    abschnittNr: "Arbeitspapiere A 11 bis A 16",
+    title: "Arbeitspapiere A 11 bis A 16: Ort der sonstigen Leistung ab 1.1.2010 – B2C/B2B, Nachweis des Unternehmerstatus, Betriebsstätte, nichtunternehmerische juristische Personen und Systematik der B2B-Grundregel",
+    thema: "Unterscheidung nach dem Status des Leistungsempfängers mit Grundregeln und Ausnahmen, harmonisierte Grundregel und nicht harmonisierte Ausnahmen, Nachweis in der EU und im Drittland, Leistung für das Unternehmen und für eine Betriebsstätte, Gleichstellung juristischer Personen und Frachtführer X aus Düsseldorf mit Leistungsempfängern in Köln, Venlo und Bern",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 11 bis A 16"),
+    verfasser: VERFASSER,
+    normen: ["§ 3a Abs. 1 Satz 1 UStG", "§ 3a Abs. 2 Sätze 1 bis 3 UStG", "§ 3a Abs. 3 bis 8 UStG", "§ 3a Abs. 4 Satz 2 UStG", "§ 14a Abs. 1 UStG", "§ 18a Abs. 2 UStG", "§ 18b UStG", "§ 90 Abs. 2 AO", "Art. 44, 45 MwStSystRL", "Art. 196 MwStSystRL", "Abschn. 3a.1 Abs. 3 UStAE", "Abschn. 3a.2 Abs. 6, 8 bis 15 UStAE", "Abschn. 14a.1 Abs. 3 UStAE"],
+    themen: ["Leistungsort", "B2B", "B2C", "Unternehmerstatus", "Betriebsstätte", "juristische Person", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 11 – 3. Ort der sonstigen Leistung ab 1.1.2010: 3.1 Unterscheidung B2C- und B2B-Bereich" },
+      { text: "**Ab dem 1.1.2010 richtet sich der Leistungsort grundsätzlich nach dem Status des Leistungsempfängers!**" },
+      { typ: "tabelle", spalten: ["B2C-Bereich (Business to Consumer)", "B2B-Bereich (Business to Business)"], zeilen: [
+        ["§ 3a Abs. 1 Satz 1 – insbesondere sog. „Private“", "❖ § 3a Abs. 2 Satz 1 UStG: insbesondere an einen Unternehmer für sein Unternehmen ❖ § 3a Abs. 2 Satz 2 UStG: Sonderfall = Leistungen an die Betriebsstätte ❖ § 3a Abs. 2 Satz 3 UStG: Gleichstellung von nichtunt. tätigen juristischen Personen"],
+        ["Grundregel § 3a Abs. 1: Unternehmer-Sitz-Prinzip (Art. 45 MwStSystRL)", "Grundregel § 3a Abs. 2: Empfänger-Sitz-Prinzip (Art. 44 MwStSystRL)"],
+        ["Ausnahmen: 13 Fälle, § 3a Abs. 3–8 – vorrangige Ortsbestimmungen", "Ausnahmen: 6 Fälle, § 3a Abs. 3–8 – vorrangige Ortsbestimmungen"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 12" },
+      { text: "**B2C-Bereich:** ➔ Ziel: Leistungsorte grds. **wie vor 2010**, somit **viele Ausnahmen**. Vorschriften dem neuen Aufbau „Grund- & vorrangige Ausnahmeregeln“ geschuldet." },
+      { text: "**B2B-Bereich – Grundregel:** ➔ **Ort & System harmonisiert** (EU-weit): ➢ Steuerschuldnerschaft (**zwingend RC-Verfahren**) ➢ Rechnungslegung ➢ Erklärungspflichten und Kontrolle (Abgabe ZM). Anwendungsbeispiele: 1. Arbeiten an körperlich beweglichen Sachen; 2. Beratungsleistungen; 3. Güterbeförderungsleistungen." },
+      { text: "**B2B-Bereich – Ausnahmen:** ➔ **Nur Orte, aber kein System harmonisiert.** Es gilt **Besteuerungsrecht des jeweiligen „Staates“** (Einzelfallregelungen zur Steuerschuldnerschaft, Registrierung, Rechnung und Fiskalvertretung). Anwendungsbeispiele: insbesondere ❖ **grundstücksbezogene Leistungen** (➔ vgl. AP 26)." },
+      { typ: "titel", text: "Arbeitspapier A 13 – 3.1.1 Nachweis Unternehmerstatus (Satz 1) (vgl. Abschn. 3a.2 Abs. 9 bis 12 UStAE)" },
+      { text: "❖ **Status des LE bestimmt Leistungsort**; somit Problem der Steuerbarkeit einer Leistung. ❖ Das UStG kennt hierfür **keine Nachweisregeln**. ❖ **„Beweispflicht“** ergibt sich jedoch aus => **§ 90 Abs. 2 AO** erhöhte Mitwirkungspflicht bei Auslandssachverhalten => und **Beweislastregeln** (steuermindernd) => ab 1.7.2011 zusätzlich aus der **MwStVO**. ❖ Konkrete Art und Weise aber nicht reguliert; es bleibt **LU selbst überlassen, wie er nachweist**." },
+      { text: "▪ **Nachweis in der EU** durch: – **Verwendung der USt-IdNr.** durch den LE ausreichend (vgl. Abschn. 3a.2 Abs. 10 UStAE zur Verwendung der USt-IdNr. aus Sicht der Verwaltung)." },
+      { text: "▪ **Nachweis bei Drittlandsunternehmer:** – kann geführt werden durch sog. **Unternehmerbescheinigung des Heimatlandes** – Bescheinigung nur **eine** Nachweismöglichkeit; auch andere Nachweise möglich (z.B. Internet) – **kein Nachweis notwendig** (Abschn. 3a.2 Abs. 12 UStAE) bei **Katalogleistungen i.S.d. § 3a Abs. 4 Satz 2 UStG**, da Ort im B2B- und B2C-Bereich immer im Drittland wäre." },
+      { typ: "titel", text: "Arbeitspapier A 14 – 3.1.2 Leistung für das Unternehmen (Satz 1)" },
+      { text: "➢ Bei **Verwendung einer USt-IdNr.** durch LE kann LU hiervon ausgehen. ➢ Bei Leistung **sowohl für den unternehmerischen als auch für den nicht unternehmerischen Bereich** des LE ➔ **einheitlicher Leistungsort nach der Grundregel**. ➢ Auch für das Unternehmen, soweit Leistung für die Erbringung von **nicht steuerbaren Umsätzen** bestimmt ist ➔ z.B. GiG, Börsengang (Abschn. 3a.2 Abs. 8 UStAE)." },
+      { typ: "titel", text: "3.1.3 Leistung für eine Betriebsstätte (Satz 2)" },
+      { text: "**Beachte: Betriebsstätte schlägt Sitz.**" },
+      { text: "**a.) Was ist eine BSt??** Vgl. Abschn. 3a.1 Abs. 3 UStAE. Begriff nach **MwStSystRL** (nicht AO oder DBA) ➔ **feste Einrichtung** (Art einer Niederlassung) mit **personellen und sächlichen Mitteln** und **beständiger Struktur** zum Empfang einer Leistung. Bsp. Auslieferungslager, Produktionsstätte, Verkaufsräume, Vertriebsbüro (und m.E. auch vermietetes Grundstück = streitig)." },
+      { text: "**b.) Wie / Wann einer BSt zuzuordnen??** ➔ wenn Leistung **für BSt bestimmt** (= dort verwendet wird). Z.B. LE gibt dies ausdrücklich an, oder LE verwendet IdNr. der BSt, oder LU ist Bestimmung für BSt bekannt. **Merke:** Im Zweifel jedoch ➔ **verwendeter USt-IdNr. folgen** (Abschn. 3a.2 Abs. 6 UStAE)." },
+      { typ: "titel", text: "Arbeitspapier A 15 – 3.1.4 Leistung an eine nichtunt. jur. Person (Satz 3) – Abschn. 3a.2 Abs. 13 bis 15 UStAE" },
+      { typ: "tabelle", spalten: ["Sonstige Leistungen an jur. Person ➔ ausschließlich nicht unternehmerisch tätig", "Sonstige Leistungen an jur. Person ➔ sowohl untern. als auch nicht unternehmerisch tätig"], zeilen: [
+        ["z.B. – Rat der EU, EU-Kommission – reine Finanzholding – reiner ideeller Verein – reine Kammern – reine hoheitliche jur. Pers. d.ö.R. = selten, da meist gemischt", "z.B. – jur. Pers. d.ö.R. (z.B. Gebietskörperschaften) mit wirtschaftlichem Teilbereich – gemischte Holding – Verein mit wirtschaftlichem Geschäftsbetrieb"],
+        ["1. Alternative – Voraussetzung: wenn USt-IdNr. erteilt ➔ Leistungsort B2B-Regel (Sitzort des LE), Gleichstellung gem. § 3a Abs. 2 Satz 3. Umkehrschluss: wenn keine USt-IdNr. (z.B. Drittland) ➔ Leistungsort B2C-Regel (Sitzort des LU), § 3a Abs. 1 UStG", "2. Alternative (für untern. oder für nichtunternehmerischen Bereich – bzw. für beide): keine USt-IdNr. erforderlich (somit für EU oder Drittland) ➔ Leistungsort B2B-Regel (Sitzort des LE), Gleichstellung gem. § 3a Abs. 2 Satz 3"],
+      ] },
+      { text: "Die jur. Person wird damit **zu 100 % einem Unternehmer mit Bezug für sein Unternehmen gleichgestellt**." },
+      { typ: "titel", text: "Arbeitspapier A 16 – 3.2 Systematik der Grundregel im B2B-Bereich (aus der Sicht des inländischen Leistenden – LU)" },
+      { text: "**Frachtführer X aus D’dorf** (als LU) transportiert Ware **von Bremen nach München** – Vertrag mit unternehmerischen LE:" },
+      { typ: "tabelle", spalten: ["LE aus Köln (DE)", "LE aus Venlo (NL)", "LE aus Bern (Schweiz)"], zeilen: [
+        ["Leistungsort: Köln – steuerbar und steuerpflichtig", "Leistungsort: Venlo – nicht steuerbar in DE; in NL steuerbar mit zwingendem RC-Verfahren (Art. 196 MwStSystRL)", "Leistungsort: Bern – nicht steuerbar in DE; in der Schweiz ?? Besteuerung im Drittland fraglich"],
+        ["Verpflichtungen für Fa. X aus D’dorf: Rechnungslegung mit allen 8 Pflichtangaben", "Verpflichtungen für Fa. X aus D’dorf: ZM abgeben (§ 18a Abs. 2 UStG); gesonderte Erklärung in der USt-VA (§ 18b UStG); Rechnungslegung mit Angabe IdNr. LU und LE bis zum 15. Tag des Folgemonats (§ 14a Abs. 1 UStG; Abschn. 14a.1 Abs. 3 UStAE)", "Verpflichtungen für Fa. X aus D’dorf: keine Aufnahme in die ZM; keine Formerfordernisse an die Rechnung"],
+      ] },
+      { text: "Bei Nichtbeachtung jedoch **sanktionslos**." },
     ],
   },
 ];

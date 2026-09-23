@@ -10623,6 +10623,24 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5: Arbeitspapiere A 11 bis A 16
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel
+`ust-m-b05-29` für die PDF-Seiten 73 bis 78: A 11 Unterscheidung B2C/B2B mit Grundregeln und
+Ausnahmen (13 bzw. 6 Fälle), A 12 harmonisierte Grundregel und nicht harmonisierte Ausnahmen,
+A 13 Nachweis des Unternehmerstatus, A 14 Leistung für das Unternehmen und für eine
+Betriebsstätte, A 15 nichtunternehmerische juristische Personen (1. und 2. Alternative),
+A 16 Frachtführer X aus Düsseldorf mit Leistungsempfängern in Köln, Venlo und Bern. Die
+Schaubilder A 11, A 15 und A 16 sind als Tabellen mit den Spaltenköpfen der Quelle
+wiedergegeben, A 12 als gegliederter Text; A 12 trägt in der Quelle keine eigene Überschrift.
+Stand des USt-Skripts: 5 Teile, 101 Kapitel, 2057 Blöcke, 101 Tabellen.
+
+**Stillschweigend berichtigt:** „Abschn. 3a.2.“ bzw. „3a.1.“ (Punkt nach der Abschnittsnummer),
+„Bei Verwendung einer USt-IdNr. durch LE, kann“ (Komma), gesperrte Schrift „S o n s t i g e
+L e i s t u n g e n“, Layout-Reste der Schaubilder.
+
+**Noch offen in Block 5:** Arbeitspapiere ab A 17 (PDF-Seite 79 ff.).
+
 ### USt-Skript (Moecker), Block 5: Arbeitspapiere A 5 bis A 10
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel
