@@ -10623,6 +10623,32 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.1.4 und I.1.5
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
+`ust-m-b08-1-7` (I.1.4 Freihafenfälle mit den Beispielen Holzpaletten, Kapitän aus Kanada und
+Zollbehörde) und `ust-m-b08-1-8` (I.1.5 Ausfuhrlieferungen im Reihengeschäft:
+Transportveranlassung nach § 3 Abs. 6a UStG, Großkopierer-Beispiel mit den Fällen A bis D als
+Gegenüberstellungen, Beispiel und Abwandlung aus Abschn. 3.14 Abs. 14 UStAE) für die
+PDF-Seiten 9 bis 14. Stand des USt-Skripts: 8 Teile, 171 Kapitel, 3134 Blöcke, 161 Tabellen.
+
+**Quellbefunde (markiert):** I.1.4 nennt als schädliche Verwendung „§ 4 Nr. 8-12 UStG“; der
+Wortlaut des § 6 Abs. 1 Satz 1 Nr. 3 Buchst. a UStG ist weiter gefasst. Im Großkopierer-Beispiel
+Fall A wird die Nichtzuordnung der Warenbewegung zur Lieferung des M auf „§ 3 Abs. 6 S. 1“
+gestützt (maßgebend § 3 Abs. 6a S. 2 UStG). Die Lösung zum Transport durch M mit deutscher
+USt-IdNr. ist mit „Fall C“ überschrieben, gemeint ist Fall D.
+
+**Umgestellt (vermerkt):** In § 3 Abs. 6a Satz 6 steht der Klammerverweis „(vgl. hierzu
+Abschnitt 3a.2 Abs. 10 Sätze 2 bis 6 UStAE).“ in der Quelle mitten im Satz vor „der ihm vom
+Mitgliedstaat … erteilten Umsatzsteuer-Identifikationsnummer“; er ist hinter diese Worte gesetzt.
+
+**Stillschweigend berichtigt:** „wird die Warenbewegung … zuzuordnen“ (ist), „überarbeitetet“,
+„Satz 3.“, „§ 3 Abs. a S. 1“ (Abs. 6a), „30.06“ (30.06.), „Buch -und Belegnachweis“,
+„((§6 Abs. 1 Nr. 3a UStG)“, „ausländischen Abnehmers“ mit geraden Anführungszeichen,
+„USt -IdNr.“, „§ 4 Nr.1a“, Leerzeichen in Klammern, „W a r e n b e w e g u n g“.
+
+**Weiter mit:** Block 8 Teil I ab I.1.6 Zwischengeschaltete Be- oder Verarbeitung (PDF-Seite 15).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.1.2 bis I.1.3.3
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
