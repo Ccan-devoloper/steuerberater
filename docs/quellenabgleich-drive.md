@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: Arbeitspapiere A 18 bis A 24
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-49` (A 18 IOSS),
+`ust-m-b09-50` (A 19 bis A 21 § 3 Abs. 3a Satz 1 UStG, Beispiel Tran) und `ust-m-b09-51`
+(A 22 bis A 24 § 3 Abs. 3a Satz 2 UStG, Beispiel Lukas) für die PDF-Seiten 61 bis 67. Stand
+des USt-Skripts: 10 Teile, 328 Kapitel, 4761 Blöcke, 257 Tabellen.
+
+**Quellenfehler (im Text markiert):** A 23: „Fingierte Lieferkette gem. § 3 Abs. 3a Satz 1“ im
+Fall des Fernverkaufs aus dem Drittland; einschlägig § 3 Abs. 3a Satz 2.
+
+**Darstellung:** Skizzen A 19 und A 23 als Tabellen, A 22 als Text; nicht lesbare Pfeilzeichen
+als „➔“.
+
+**Stillschweigend berichtigt:** fehlende öffnende Klammer „Damit grds. jede Einfuhr
+steuerpflichtig )“, „jeden Kalendermonats“, „ONLINE – HÄNDLER“, „§ 3 Abs. 6b u Abs.“,
+„E -Kauf“, „Fall des Fernverkauf“, „Ortsverlagerung … nach D K / DE“, „§ 18 k“, „Zuordnung
+den unbewegten Lieferung“, „im mer“, „des Lieferant“, „der Betreiber E-Kauf zugerechnet“
+(dem), „schweizer Uhren“.
+
+**Weiter mit:** Arbeitspapier A 25 (PDF-Seite 68).
+
 ### USt-Skript (Moecker): Bildinhalte nachgetragen (Blöcke 3 und 8 Teil I)
 
 Die Textextraktion (pypdf) erfasst keine Bilder. Eine Durchsicht aller eingebetteten Bilder der

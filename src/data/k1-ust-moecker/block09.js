@@ -3,7 +3,7 @@
    „Block 09 – Besondere Umsätze im Binnenmarkt - Version 01.07.25 / Red. 08-25“ und
    „Red. StB58/ Vers. 1.7.25 / Stand 07-25“), PDF-Seiten 2 bis 76 der gemeinsamen Datei für
    die Blöcke 9 und 10: Textteil PDF-Seiten 2 bis 43, Arbeitspapiere ab PDF-Seite 44.
-   In Arbeit: Textteil vollständig (PDF-Seiten 2 bis 43); Arbeitspapiere A 1 bis A 17 (PDF-Seiten 44 bis 60) eingepflegt. */
+   In Arbeit: Textteil vollständig (PDF-Seiten 2 bis 43); Arbeitspapiere A 1 bis A 24 (PDF-Seiten 44 bis 67) eingepflegt. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 07/2025";
@@ -1167,6 +1167,82 @@ export const block09 = [
       { text: "**Vordruck, Zeilen 18 bis 21:** Lieferungen und sonstige Leistungen (einschließlich unentgeltlicher Wertabgaben) – Steuerpflichtige Umsätze (Lieferungen und sonstige Leistungen einschl. unentgeltlicher Wertabgaben) zum Steuersatz von 19 % (Kennzahl 81) und zum Steuersatz von 7 % (Kennzahl 86), jeweils Bemessungsgrundlage ohne Umsatzsteuer in vollen EUR und Steuer in EUR/Ct. **Erläuterung:** „Im Inland steuerpflichtige Umsätze, die in den besonderen Besteuerungsverfahren nach §§ 18i, 18j oder 18k UStG erklärt werden, sind in den Zeilen 20 bis 22 nicht einzutragen.“" },
       { text: "**Vordruck, Zeilen 44 bis 52 (Seite 2):** Ergänzende Angaben zu Umsätzen – Lieferungen des ersten Abnehmers bei innergemeinschaftlichen Dreiecksgeschäften (§ 25b UStG) (Kennzahl 42); Steuerpflichtige Umsätze des leistenden Unternehmers, für die der Leistungsempfänger die Steuer nach § 13b Abs. 5 UStG schuldet (Kennzahl 60); Nicht steuerbare sonstige Leistungen gem. § 18b Satz 1 Nr. 2 UStG (Kennzahl 21); **Übrige nicht steuerbare Umsätze (Leistungsort nicht im Inland) (Kennzahl 45)**. **Erläuterung zu Zeile 51:** „Einzutragen sind die übrigen nicht steuerbaren Umsätze, deren Leistungsort nicht im Inland liegt und die steuerbar wären, wenn sie im Inland ausgeführt worden wären. Hierzu gehören auch Telekommunikationsleistungen, Rundfunk- und Fernsehdienstleistungen und auf elektronischem Weg erbrachte sonstige Leistungen sowie ab dem 1.7.2021 innergemeinschaftliche Fernverkäufe, die ein im Inland ansässiger Unternehmer an Nichtunternehmer mit Sitz, Wohnsitz oder gewöhnlichem Aufenthalt im übrigen Gemeinschaftsgebiet ausführt; ausgenommen sind die Umsätze des § 3a Abs. 5 Satz 3 UStG sowie des § 3c Abs. 4 Satz 1 UStG, die in den Zeilen 20 bis 22 einzutragen sind.“" },
       { text: "Die Vordruckausschnitte und Erläuterungen liegen in der Quelle nur als Bilder vor; sie sind hier aus den Bildern übertragen, die Vordruckausschnitte als Aufzählung der Zeilen und Kennzahlen (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b09-49",
+    teil: TEIL,
+    kapitel: "49",
+    abschnittNr: "A 18",
+    title: "Arbeitspapier A 18: Besonderes Besteuerungsverfahren (IOSS) nach § 18k UStG ab dem 01.07.2021",
+    thema: "Abschaffung der Befreiung für Einfuhren unter 22 €, IOSS für Sendungen bis 150 € mit steuerfreier Einfuhr, BZSt, Kalendermonat, einheitliche Teilnahme, individuelle MwSt-IdNr., Erklärung und Fälligkeit",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapier A 18"),
+    verfasser: VERFASSER,
+    normen: ["§ 5 Abs. 1 Nr. 7 UStG", "§ 16 Abs. 1e UStG", "§ 18k Abs. 1 Satz 5 und Abs. 4 UStG", "§§ 26a ff. UStG", "Art. 369q und 369t MwStSystRL"],
+    themen: ["Arbeitspapier", "IOSS", "Einfuhr", "Besteuerungsverfahren"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 18 – 6. Besonderes Besteuerungsverfahren (IOSS) nach § 18k UStG ab dem 01.07.2021" },
+      { text: "➢ **Abschaffung der Steuerbefreiung für Einfuhren < 22,- €** (Damit grds. jede Einfuhr steuerpflichtig) ➢ **Neues Besteuerungsverfahren (IOSS)** für die USt im Bestimmungsland in Sendungen von Waren **bis max. 150 €** ➢ Dann **Steuerbefreiung der Einfuhr § 5 Abs. 1 Nr. 7** ➢ **Zuständigkeit** für die Teilnahme in DE = **BZSt** ab dem 01.04.2021 ➢ **Besteuerungszeitraum ist der Kalender-MONAT** (§ 16 Abs. 1e)" },
+      { text: "➢ **Teilnahme:** ❖ Ist dem Unternehmer **nur einheitlich für alle EU-Mitgliedstaaten & alle betroffenen Umsätze** möglich (§ 18k Abs. 1 S. 5) (MERKE: ALLE für EINEN) ❖ Teilnehmende Unternehmer erhalten eine **individuelle MwSt-IdNr. gem. Art. 369q MwStSystRL** für die Anwendung des besonderen Besteuerungsverfahrens. Diese ist **in der Zollanmeldung bei Einfuhren anzugeben**." },
+      { text: "➢ **Umsatzsteuererklärung, Fälligkeit (§ 18k Abs. 4):** ❖ Abgabe einer „besonderen“ Steuererklärung an das BZSt unter Angabe der USt-IdNr. nach Art. 369t MwStSystRL ❖ **Innerhalb eines Monats nach Ablauf jedes Kalendermonats.** ❖ USt selbst zu berechnen. ❖ **Fälligkeit 1 Monat nach Ablauf des Kalendermonats** & zu zahlen (ausdrückliches Entrichtungsgebot zur Eröffnung von Sanktionen nach §§ 26a UStG) ❖ **Eine Dauerfristverlängerung ist nicht möglich.**" },
+    ],
+  },
+  {
+    id: "ust-m-b09-50",
+    teil: TEIL,
+    kapitel: "50",
+    abschnittNr: "A 19 bis A 21",
+    title: "Arbeitspapiere A 19 bis A 21: Lieferungen bei Einbindung elektr. Marktplätze – § 3 Abs. 3a Satz 1 UStG",
+    thema: "Lieferfiktion bei Warenbewegung in der EU durch einen Drittlandslieferanten (Skizze mit Ende in DK oder DE), Unterstützen (Art. 5b MwStVO), fingierte Lieferkette, Zuordnung der Warenbewegung nach § 3 Abs. 6b UStG, Steuerbefreiung nach § 4 Nr. 4c UStG, Beispiel Tran mit Lager in DE",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 19 bis A 21"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 3a Satz 1 und 3 UStG", "§ 3 Abs. 6 Satz 1, Abs. 6b und Abs. 7 Satz 2 Nr. 1 UStG", "§ 3c Abs. 1 UStG", "§ 4 Nr. 4c UStG", "§ 18j Abs. 1 Satz 1 Nr. 1 UStG", "Art. 5b MwStVO"],
+    themen: ["Arbeitspapier", "Elektronische Schnittstelle", "Lieferfiktion", "Reihengeschäft", "OSS"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 19 – 7. Lieferungen bei Einbindung elektr. Marktplätze – 7.1 Satz 1: Lieferfiktion (& Problem der Warenbewegung in der EU)" },
+      { typ: "tabelle", spalten: ["Skizze", "1. fiktive Lieferung (§ 3 Abs. 3a S. 1)", "2. fiktive Lieferung (§ 3 Abs. 3a S. 1)"], zeilen: [
+        ["Beteiligte", "LIEFERANT / ONLINE-HÄNDLER (DRITTLAND) ➔ SCHNITTSTELLENBETREIBER in DE (ELEKT. MARKTPLATZ gem. § 3 Abs. 3a S. 3); WARE in DE", "SCHNITTSTELLENBETREIBER in DE ➔ PRIVATER ENDKUNDE DK oder DE (WARENWEG)"],
+        ["Beurteilung", "• unbewegte Lieferung mit Ort DE (§ 3 Abs. 6b u. Abs. 7 S. 2 Nr. 1 UStG) • steuerbar in DE • steuerfrei § 4 Nr. 4c", "LÖSUNG = ENDE in DK: • Bewegte Lieferung grds. mit Ort in DE (§ 3 Abs. 6b u. 6 S. 1) • Ortsverlagerung als innergemeinschaftl. Fernverkauf § 3c (1) UStG steuerbar in DK • OSS-Verfahren § 18j (Fall DE – DK). Lösung bei Ende in DE: • bewegte Lieferung mit Ort DE (§ 3 Abs. 6b u. 6 Satz 1 UStG) • steuerbar und steuerpflichtig in DE • OSS-Besteuerungsverfahren § 18j (Fall DE – DE)"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 20" },
+      { text: "❖ **Warenbewegung in der EU, Lieferant jedoch aus Drittland:** Liefergegenstand muss sich **bereits in der EU** befinden. Die Warenbewegung selbst kann auch **nur einen Mitgliedstaat** betreffen (z.B. DE ➔ DE) ❖ **Unterstützen** = Vgl. Art. 5b MwStVO = Nutzung einer elektr. Schnittstelle, um in Kontakt zu treten. = **Nicht**, wenn „nur reine Vermittlung“. ❖ **FOLGE:** = **Fingierte Lieferkette gem. § 3 Abs. 3a Satz 1** (= Reihengeschäft) durch Lieferung an und durch den Schnittstellenbetreiber (LU ➔ Betreiber ➔ privater Endkunde) ❖ Gemäß **§ 3 Abs. 6b** = Zuordnung der **warenbewegten Lieferung immer zur Lieferung Schnittstellenbetreiber ➔ Kunden**. ❖ Zuordnung der **unbewegten Lieferung immer der Lieferung Online-Händler ➔ Schnittstellenbetreiber** ❖ **Steuerbefreiung gem. § 4 Nr. 4c UStG** für die Lieferung des Online-Händlers an den Schnittstellenbetreiber." },
+      { typ: "titel", text: "Arbeitspapier A 21" },
+      { text: "**Beispiel:** **Chinesischer Händler Tran** veräußert über eine elektronische Schnittstelle (**Firma E-Kauf**) **Computerzubehör an eine Privatperson in Deutschland**. Die Ware wird **aus einem Lager in DE** an den Wohnsitz der Privatperson in DE versendet." },
+      { text: "**Lösung:** **Fingierte Lieferungen** Tran an den Betreiber E-Kauf und eine Lieferung des Betreibers E-Kauf an Privatperson nach **§ 3 Abs. 3a Satz 1 UStG**. Warenbewegung wird nach **§ 3 Abs. 6b UStG der Lieferung des Betreibers E-Kauf** zugeschrieben. Lieferung Tran an E-Kauf ist gemäß **§ 3 Abs. 7 Satz 2 Nr. 1 UStG in DE steuerbar, aber nach § 4 Nr. 4c UStG steuerbefreit**. Die Lieferung E-Kauf an die Privatperson ist gemäß **§ 3 Abs. 6 Satz 1 UStG in DE steuerbar und steuerpflichtig**. **§ 3c Abs. 1 UStG findet keine Anwendung** mangels Warenbewegung EU – EU. E-Kauf kann aber das **OSS-Besteuerungsverfahren nach § 18j Abs. 1 Satz 1 Nr. 1 UStG** in Anspruch nehmen." },
+      { text: "Die Skizze A 19 ist als Tabelle wiedergegeben; nicht lesbare Pfeilzeichen in A 20 sind durch „➔“ ersetzt (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b09-51",
+    teil: TEIL,
+    kapitel: "51",
+    abschnittNr: "A 22 bis A 24",
+    title: "Arbeitspapiere A 22 bis A 24: § 3 Abs. 3a Satz 2 bis 6 UStG – Fernverkäufe aus dem Drittlandsgebiet mit Sachwert max. 150 €",
+    thema: "Wiederholung des Fernverkaufs nach § 3c Abs. 3 UStG (Skizze ohne Schnittstelle), identischer Fall über einen Schnittstellenbetreiber (unbewegte Lieferung im Drittland, keine Befreiung nach § 4 Nr. 4c UStG, bewegte Lieferung mit Ortsverlagerung, IOSS, steuerfreie Einfuhr), Voraussetzungen, Beispiel Händler Lukas mit Uhren aus der Schweiz über E-Kauf",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 22 bis A 24"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 3a Satz 1 bis 5 UStG", "§ 3 Abs. 6, Abs. 6b, Abs. 7 und Abs. 8 UStG", "§ 3c Abs. 2 und 3 UStG", "§ 4 Nr. 4c UStG", "§ 5 Abs. 1 Nr. 7 UStG", "§ 18k UStG"],
+    themen: ["Arbeitspapier", "Elektronische Schnittstelle", "Fernverkauf", "Drittland", "IOSS"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 22 – 7.2 Satz 2 bis 6: Fernverkäufe aus dem Drittlandsgebiet mit Sachwert max. 150 €" },
+      { text: "❖ **Wir erinnern uns:** Fall des Fernverkaufs aus dem Drittland gem. **§ 3c Abs. 3 UStG**" },
+      { typ: "tabelle", spalten: ["Fernverkauf mit Sachwert von über 150 EURO", "Fernverkauf mit Sachwert von max. 150 EURO kann im IOSS gemeldet werden"], zeilen: [["Steuerpflichtige Einfuhr und Zoll im MS 1. Ort der Lieferung § 3 Abs. 8 UStG im MS 1. Registrierung im MS 1.", "LU erhält individuelle IdNr. (z.B. IMDE 4567). Sofern USt für die Lieferung im Import-One-Stop-Shop (IOSS) nach § 18k UStG erklärt wird: Ort gem. § 3c Abs. 3 im MS 1. Einfuhr steuerfrei § 5 Abs. 1 Nr. 7 UStG."]] },
+      { text: "**Skizze:** LIEFERANT / ONLINE-HÄNDLER (3. Land oder EU, z.B. DE) – WARE aus der Schweiz ➔ ZOLL ➔ PRIVATER ENDKUNDE DK oder DE – WARENWEG (Sendungswert max. 150 €): • Lieferkondition frei Haus • Grds. bewegte Lieferung Ort grds. CH (§ 3 Abs. 6) • Sachwert max. 150 € • **Ortsverlagerung § 3c Abs. 3 UStG nach DK / DE** • Steuerbar + steuerpflichtig in DK = 25% MOMS (oder DE) • **Einfuhr in DK oder DE steuerfrei § 5 Abs. 1 Nr. 7 UStG** (Zollanmeldung mit Import-IdNr.) • Erklärung der Umsätze im nationalen IOSS gem. § 18k UStG" },
+      { typ: "titel", text: "Arbeitspapier A 23" },
+      { text: "❖ **Nun identischer Fall, jedoch unter Einschaltung eines Schnittstellenbetreibers** (über elektronischen Marktplatz)." },
+      { typ: "tabelle", spalten: ["Skizze", "1. fiktive Lieferung (§ 3 Abs. 3a S. 2 + 4)", "2. fiktive Lieferung (§ 3 Abs. 3a S. 2 + 4)"], zeilen: [
+        ["Beteiligte", "LIEFERANT / ONLINE-HÄNDLER (3. Land oder EU; § 3 Abs. 3a S. 5) mit WARE in der Schweiz / China ➔ SCHNITTSTELLENBETREIBER in DE (ELEKT. MARKTPLATZ gem. § 3 Abs. 3a S. 3)", "SCHNITTSTELLENBETREIBER in DE ➔ ZOLL ➔ PRIVATER ENDKUNDE DK oder DE (WARENWEG, Sendungswert max. 150 €)"],
+        ["Beurteilung", "• unbewegte Lieferung mit Ort CH / China (§ 3 Abs. 6b u. Abs. 7 S. 2 Nr. 1 UStG) • nicht steuerbar in DE • Keine Steuerfreiheit gem. § 4 Nr. 4c", "• bewegte Lieferung mit Ort grds. China / CH (§ 3 Abs. 6b u. 6) • Ortsverlagerung § 3c Abs. 3 Satz 1 und Satz 3 nach DK / DE + grds. IOSS § 18k + Einfuhr stfrei § 5"],
+      ] },
+      { text: "❖ **Warenbewegung aus dem Drittland in die EU**, Ansässigkeit des Lieferanten in der EU oder im Drittland ❖ **Sendungen mit einem Sachwert von max. 150 Euro.** Bei mehreren Gegenständen insgesamt 150 Euro. Übersteigt der Warenwert 150 Euro = kein Fernverkauf (dann § 3 Abs. 8 oder § 3c Abs. 2 beachten) ❖ **FOLGE:** = Fingierte Lieferkette gem. § 3 Abs. 3a Satz 1 (so in der Quelle; in diesem Fall § 3 Abs. 3a Satz 2) (= Reihengeschäft) durch Lieferung an und durch den Schnittstellenbetreiber (LU ➔ Betreiber ➔ privater Endkunde). Gemäß **§ 3 Abs. 6b** = Zuordnung der **warenbewegten Lieferung immer zur Lieferung Schnittstellenbetreiber ➔ Kunden**. Zuordnung der **unbewegten Lieferung immer der Lieferung Online-Händler ➔ Schnittstellenbetreiber**." },
+      { typ: "titel", text: "Arbeitspapier A 24 – Beispiel: Fernverkauf aus Drittland" },
+      { text: "**Händler Lukas aus D’dorf** verkauft **ab Sept. 2021** über die Plattform des Online-Händlers **E-Kauf aus DE** **Schweizer Uhren für je 100 €** an **Privatpersonen aus DE**. Die Uhren werden **aus seinem Lager in CH nach DE** verschickt. Die Uhren werden **durch E-Kauf in DE zollrechtlich angemeldet**. E-Kauf nimmt **am IOSS gem. § 18k UStG in DE** teil." },
+      { text: "**Lösung:** Die **warenbewegte Lieferung** wird nach **§ 3 Abs. 3a Satz 2 UStG i.V.m. § 3 Abs. 6b UStG dem Betreiber E-Kauf** zugerechnet (fiktives Reihengeschäft). Die Lieferung des **Lukas an E-Kauf** ist die **ruhende Lieferung**, die nach § 3 Abs. 7 UStG am Ort des Beginns des Warentransports ausgeführt wird = **Schweiz**. Diese Lieferung ist damit **nicht steuerbar**. Der Ort der warenbewegten Lieferungen (Schweiz – DE) durch E-Kauf an die deutschen Privatkunden liegt nach **§ 3c Abs. 3 Satz 1 UStG in DE**. E-Kauf hat die USt auf die Lieferungen in DE grundsätzlich **über den IOSS nach § 18k UStG** zu erklären und zu bezahlen. Die **Einfuhr der Ware** ist im Beispielsfall **steuerfrei nach § 5 Abs. 1 Nr. 7 UStG**." },
+      { text: "Nachrechnung (eigene Ergänzung): Eine Uhr zu 100 € liegt unter der Sachwertgrenze von 150 €; die USt ergibt sich in DE mit 19 % aus dem vereinbarten Entgelt (die Quelle nennt nicht, ob die 100 € brutto oder netto sind)." },
+      { text: "Die Skizzen A 22 und A 23 sind als Text bzw. Tabelle wiedergegeben; nicht lesbare Pfeil- und Aufzählungszeichen sind ersetzt bzw. entfallen (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];
