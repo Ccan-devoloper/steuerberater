@@ -10623,6 +10623,22 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 4 vollständig (Arbeitspapiere A 1 bis A 27)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block04.js` neue Kapitel
+`ust-m-b04-18` bis `ust-m-b04-22` für die PDF-Seiten 56 bis 82 (Arbeitspapiere A 1 bis A 27).
+Block 4 ist damit vollständig. Stand des USt-Skripts: 4 Teile, 72 Kapitel, 1485 Blöcke, 90 Tabellen.
+
+**Nachgerechnet:** Kommission Köln–Bonn–USA: 10 % von 119.000 € = 11.900 €, 107.100 € : 1,19 =
+90.000 € (USt 17.100 €).
+
+**Quellbefunde:** A 23 „Für S EUSt als Vorsteuer“ (gemeint Z; markiert); A 16 „am Anfang =
+Satz 1 / am Ende = Satz 2“ (gemeint § 3 Abs. 7 Satz 2 Nr. 1 bzw. Nr. 2; markiert); A 10 erneut
+„§ 455 BGB“ (vgl. VII.1); in A 20 bis A 22 sind Fallnummern in der Textfassung nicht lesbar und
+als eigene Ergänzung eingesetzt. Stillschweigend berichtigt: „steuerbarbar“, „Abnahme der Werks“,
+„W0?“, „1, Alternative“, „Ge genstand“, „Nur LU kann nur seinem LE“, „in unmittelbaren
+Anschluss“, „Lieferung von Grundstücken sind“.
+
 ### USt-Skript (Moecker), Block 4 Textteil vollständig (VIII Schluss und IX)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block04.js` ist Kapitel
