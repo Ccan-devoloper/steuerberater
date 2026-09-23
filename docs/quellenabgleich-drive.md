@@ -10623,6 +10623,34 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: VI.2 bis VII (und Nachtrag Block 10)
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-30` (VI.2 Aufteilungsmethode,
+Aufteilungsschlüssel als Tabelle, Fußbodenbelag), `ust-m-b11-31` (VI.2 nachträgliche HK mit
+Dachausbau-Beispiel als Tabelle, Erhaltungsaufwand) und `ust-m-b11-32` (VI.3 PV-Anlagen, VII nicht
+abziehbare Vorsteuern mit Geschenken) für die PDF-Seiten 50 bis 57. Stand des USt-Skripts:
+12 Teile, 437 Kapitel, 6124 Blöcke, 316 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- VII Beispiel Geschenk 56,65 €: „auf den Nettowarenwert i.H.v. 50 € abzustellen“; der Nettowert
+  beträgt 47,61 € (Ergebnis unverändert).
+- **Nachtrag Block 10** (`ust-m-b10-51`, IX.3.6): Die Quelle nennt dort noch die Freigrenze von
+  35 €; seit 2024 gilt 50 € (so die Quelle selbst in Block 11, VII und A 41). Im Text markiert; die
+  Nachrechnung zum Beispiel Uhr (30 €) und Weinpräsent (20 €) um den Hinweis ergänzt, dass die
+  Summe von 50 € die neue Grenze nicht übersteigt (eigene Ergänzung).
+
+**Nachgerechnet (eigene Ergänzung):** Fußbodenbelag 9.500 € – stimmt; Dachgeschoss 2/3 – stimmt;
+Uhr/Weinpräsent 75 € > 50 €, Vorsteuerminderung 4,75 € – stimmt.
+
+**Stillschweigend berichtigt:** „v orgreiflich“, „Gesam-tumsatzschlüssel“, fehlender Punkt nach „der
+jeweilige Gegenstand“, fehlende Klammer nach „Abs. 7 UStAE“, „Abschn. 15.17. Abs.“ (mehrfach),
+„nicht vorgeben“, „nach umbauten Raum“, „Lager-hallen“, „als Wohnungen“, „Alarmlage“, „Aufwendungen,
+als Erhaltungsaufwand anzusehen sind“, „dessen Ausstattung nicht erheblich voneinander
+unterscheiden“, „zum Vorsteuerabzug berechtigen“ (PV), „zuzurechnen sind“ (doppelt), „4.75 €“,
+„zusammengerechnet  50 €“, fehlendes Komma „ausgelobt hat nicht“.
+
+**Weiter mit:** VIII Wegfall des Seeling-Modells ab 2011 (PDF-Seite 57).
+
 ### USt-Skript (Moecker), Block 11: IV.4.3 bis VI.1
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-27` (IV.4.3 allgemeiner Aufwand,
