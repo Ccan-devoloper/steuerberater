@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II begonnen: Inhaltsverzeichnis, II.1 bis II.3
+
+Neue Datei `src/data/k1-ust-moecker/block08-2.js` („Umsatzsteuer Block 8 (II) mit
+Arbeitspapieren“, Titelblatt Juni 2026, Fußzeilen „Vers. II /2026 – Red. 07.26“ bzw. „Stand
+07-26“; übernommen ist der Stand 07/2026), eingebunden als eigener Teil „Block 8 (Teil II)“.
+Kapitel `ust-m-b08-2-1` (Inhaltsverzeichnis), `ust-m-b08-2-2` (II.1 § 4 Nr. 10 UStG mit
+Kfz-Garantiezusage, Fälle a bis c) und `ust-m-b08-2-3` (II.2 § 4 Nr. 11, II.3 § 4 Nr. 11b UStG)
+für die PDF-Seiten 2 bis 7. Stand des USt-Skripts: 9 Teile, 223 Kapitel, 3694 Blöcke, 200 Tabellen.
+
+**Quellbefunde (markiert):** Für Versicherungsleistungen in Bezug auf ein Grundstück nennt die
+Quelle „§ 3a Abs. 2 Nr. 1 UStG“ (gemeint § 3a Abs. 3 Nr. 1 UStG). Das BFH-Urteil XI R 16/17
+wird einmal mit „BStBl 2021 II S. xxx“, einmal mit „S. 461“ zitiert.
+
+**Stillschweigend berichtigt:** Inhaltsverzeichnis „III.4.2“ (II.4.2), „Gegenstände“
+(Gegenständen), „Verzicht gem. § 9 (2)“ (Verzichts), „Nießbrauch.“; im Text „§ 3a Abs. Abs. 4“,
+„i.V. Satz 1“ (i.V.m.), „Abschn. 4.10.2.“, „Car - Garantiezusage“, „… UStAE ist die Verschaffung
+… ist keine“ (doppeltes „ist“), „9. 10. 2002“, „4.10.1.“, überzähliges Schlusszeichen nach
+„S. 7871)“, fehlendes Komma vor „um eine selbstständige“, „bis 2. Kilogramm“, „4.11b.1.“.
+
+**Weiter mit:** Block 8 Teil II ab II.4 Heilberufe (PDF-Seite 7).
+
 ### USt-Skript (Moecker), Block 8 Teil I abgeschlossen: Arbeitspapiere A 44 bis A 50
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-55` (A 44 Lösungsvergleich
