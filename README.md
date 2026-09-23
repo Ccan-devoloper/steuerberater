@@ -5649,7 +5649,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 - **KSt Teil VII (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VII (Liquidation)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VII: Liquidation (§ 11 KStG)“** (21. Auflage,
-  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 17 Kapitel mit 176 Abschnitten und 14 Tabellen;
+  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 23 Kapitel mit 237 Abschnitten und 21 Tabellen;
   Kapitel 1 des Skripts (zivilrechtlicher Hintergrund) ist **vollständig**. Der Liquidation ist die
   **Auflösung** vorgeschaltet, und beide Vorgänge sind streng zu trennen: Die Auflösung ist das
   auslösende Ereignis – ein Gesellschafterbeschluss mit qualifizierter Mehrheit, der Ablauf der
@@ -5767,6 +5767,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   dem Vorbehalt der Mindestbesteuerung bei größeren Beträgen. Bei **mehreren Besteuerungszeiträumen**
   gilt der besondere Vermögensvergleich nur im **letzten**, und er beginnt mit der Steuerbilanz des
   **vorletzten**; so wird jeder Gewinnbestandteil genau einmal erfasst.
+  Das **Abwicklungs-Endvermögen** (§ 11 Abs. 3 KStG) ist das verteilbare Vermögen, bewertet ohne
+  Maßgeblichkeit und ohne §§ 5, 6 EStG mit dem **gemeinen Wert**; der originäre Firmenwert geht in
+  aller Regel unter, ein Gesellschafterdarlehen wird durch die bloße Auflösung **nicht** erlassen.
+  **Vorschüsse** erhöhen das Endvermögen (500.000 € + 100.000 € = 600.000 €), ebenso **verdeckte
+  Zuwendungen** zum gemeinen Wert abzüglich Gegenleistung (500.000 € + 400.000 € = 900.000 €).
+  **Steuerfreie Erträge** und **verdeckte Einlagen** mindern es bereits auf dieser Stufe – im
+  Beispiel ./. 1.000.000 € nach § 8b Abs. 2 KStG mit 50.000 € nicht abziehbaren Betriebsausgaben.
+  § 11 Abs. 6 KStG hält die allgemeinen Hinzurechnungen aufrecht, und beim **Verlustabzug** nach
+  § 10d EStG kann die Mindestbesteuerung im letzten Zeitraum zum **endgültigen Untergang** führen.
   Prüfung: `npm run check:k2-kst-teil7`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

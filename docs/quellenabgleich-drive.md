@@ -10620,6 +10620,47 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VII (Hamacher), Abschnitte 2.5.3 bis 2.5.5 – Endvermögen, Einkommensermittlung, Verlustabzug
+
+Übernommen sind die Seiten 14 bis 17 der Quelle: die Bewertung des Abwicklungs-Endvermögens
+mit gemeinem Wert, Firmenwert und Gesellschafterdarlehen (2.5.3.1), das verteilbare Vermögen
+(2.5.3.2), die Korrektur durch Vorschüsse und verdeckte Zuwendungen (2.5.3.2.1), die Kürzung
+um steuerfreie Erträge und verdeckte Einlagen (2.5.3.2.2), die allgemeine Einkommensermittlung
+nach § 11 Abs. 6 KStG (2.5.4) und der Verlustabzug (2.5.5), mit vier Beispielen. Der Datensatz
+umfasst damit 23 Kapitel mit 237 Abschnitten und 21 Tabellen; geprüft mit
+`npm run check:k2-kst-teil7`.
+
+**Befunde der Quelle** (im Datensatz jeweils mit „(so in der Quelle)“ markiert):
+
+- 2.5.3.2.1: Die Lösung des zweiten Beispiels spricht vom „Liquidations-Endvermögen“, obwohl
+  sonst durchgängig „Abwicklungs-Endvermögen“ verwendet wird; gemeint ist dasselbe.
+- 2.5.3.2.2: „gesellschaftliche Vermögensmehrungen“ – gemeint sind gesellschaftsrechtlich
+  veranlasste Vermögensmehrungen.
+- 2.5.3.2.2: Die Lösung zum Darlehensverzicht nennt den Vermögenszugang aus der verdeckten
+  Einlage „Dieser Gewinn von 500.000 €“; gerade weil er gesellschaftsrechtlich veranlasst ist,
+  ist er kein Gewinn.
+- 2.5.5: „Verluste …, welche … verrechnet werden kann“ – Numerusfehler (richtig: können).
+- 2.5.4: Der vierte Punkt der Aufzählung (§ 4 Abs. 5 und Abs. 7 EStG) steht drucktechnisch
+  außerhalb der Liste; im Datensatz als vierter Spiegelstrich wiedergegeben und mit einem
+  Hinweis versehen.
+- Das Abwicklungs-Endvermögen erscheint einmal zusammengeschrieben („Abwicklungsendvermögen“,
+  2.5.3.1); wortlautgetreu belassen.
+
+Der Hinweis auf das beim Bundesverfassungsgericht anhängige Verfahren 2 BvL 19/14 ist mit
+„Stand der Quelle 06/2025“ versehen; ein seitheriger Verfahrensstand wird nicht behauptet.
+
+**Eigene Nachrechnung.** Alle Zahlen gehen auf: 500.000 € + 100.000 € Vorabzahlung =
+600.000 €; gemeiner Wert 500.000 € ./. Kaufpreis 100.000 € = 400.000 € verdeckte Zuwendung,
+500.000 € + 400.000 € = 900.000 €; 5 % von 1.000.000 € = 50.000 € nicht abziehbare
+Betriebsausgaben nach § 8b Abs. 3 Satz 1 KStG.
+
+**Einordnung.** Als eigene Ergänzungen ausgewiesen: die Parallele zu § 16 EStG und der Grund
+für den gemeinen Wert statt des Teilwerts, die Rolle des Stammkapitals im Vermögensvergleich,
+die Wirkung der Hinzurechnung von Vorschüssen als Neutralisierung einer Einkommensverwendung,
+die Beschränkung der verdeckten Einlage auf den werthaltigen Teil einer Forderung, der
+Zusammenhang der Hinzurechnungen nach § 11 Abs. 6 KStG mit dem Schema aus 2.5.1 und der
+endgültige Untergang des Verlustvortrags als Folge des zeitlichen Endes der Gesellschaft.
+
 ### KSt Teil VII (Hamacher), Abschnitte 2.5.1 und 2.5.2 – Schema und Abwicklungs-Anfangsvermögen
 
 Übernommen sind die Seiten 11 bis 14 der Quelle: das Schema der Gewinnermittlung nach § 11
