@@ -10623,6 +10623,21 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 5 bis A 8
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-36` (A 5 Zuordnungsregeln als
+Tabelle, A 6 Beispiele Gegenstände) und `ust-m-b11-37` (A 7 Beispiele sonstige Leistungen, A 8
+Vereine / Holding mit Vereinsbus-Tabelle) für die PDF-Seiten 65 bis 68, nach Ansicht der
+gerenderten Seiten. Stand des USt-Skripts: 12 Teile, 442 Kapitel, 6190 Blöcke, 327 Tabellen.
+
+**Nachgerechnet (eigene Ergänzung):** Telefon 80 % / 40 % – stimmt; Vereinsbus UWA 20 % und
+Berichtigung 30 % – stimmt.
+
+**Stillschweigend berichtigt:** „Alterantiv“, „(40 % Makler / 40 % Versicherung / 20 % Privat“
+(fehlende Klammer).
+
+**Weiter mit:** Arbeitspapier A 9 (PDF-Seite 69).
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 1 bis A 4
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-34` (A 1 System des

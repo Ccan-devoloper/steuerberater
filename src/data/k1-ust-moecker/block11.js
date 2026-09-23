@@ -5,7 +5,7 @@
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
    In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 4 (PDF-Seite 64). */
+   A 8 (PDF-Seite 68). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1173,6 +1173,74 @@ export const block11 = [
       ] },
       { text: "Schaubild in Abschn. 15.2b Abs. 2 „teilunternehmerisch“ linke Spalte – vgl. Bsp. in **A 8**; in Abschn. 15.2b Abs. 2 „teilunternehmerisch“ rechte Spalte – vgl. Bsp. in **A 6 & A 7**" },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-36",
+    teil: TEIL,
+    kapitel: "36",
+    abschnittNr: "A 5 und A 6",
+    title: "Arbeitspapiere A 5 und A 6: Zuordnungsregeln bei Leistungsbezug und Beispiele zu Gegenständen",
+    thema: "Übersicht der Zuordnungsregeln nach Abschn. 15.2c Abs. 2 UStAE (vertretbare Sachen, einheitliche Gegenstände, sonstige Leistungen, Leistungen für einheitliche Gegenstände), die drei Zuordnungsvarianten (100 % UV, quotal, 100 % privat) und die Dokumentationsfrist, Beispiele Büromöbel, Fahrrad als Geschenk, Handwerker-PKW 80/20",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 5 und A 6"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1 Satz 2, Abs. 2 und 4 UStG", "Abschn. 15.2c Abs. 2, 16 und 18 UStAE", "Abschn. 15.23 Abs. 7 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Zuordnungswahlrecht", "Aufteilungsgebot"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 5 – 3.3 Zuordnungsregeln (Abschn. 15.2c Abs. 2 UStAE) bei Leistungsbezug" },
+      { text: "**100 % untern.** ➔ Vorst · **Teils untern. / unternehmensfremd** · **100 % „privat“** ➔ keine Vorst" },
+      { typ: "tabelle", spalten: ["Teils untern. / unternehmensfremd", "Fundstelle", "Rechtsfolge"], zeilen: [
+        ["Gegenstände: vertretbare Sachen (aufteilbar z.B. Gewicht, Zahl)", "Abschn. 15.2c Abs. 2 Nr. 1 UStAE", "Aufteilungsgebot in abzugsfähig / nicht abzugsfähig"],
+        ["Gegenstände: einheitliche Gegenstände (z.B. Pkw, PC)", "Abschn. 15.2c Abs. 2 Nr. 2 UStAE", "Zuordnungswahlrecht des Unternehmers bei privater Mitbenutzung (Mindestnutzung gem. § 15 Abs. 1 S. 2 UStG ⇨ 10 % ist zu beachten)"],
+        ["sonstige Leistungen: Grundsatz (gilt auch für Miete / Leasing)", "Abschn. 15.2c Abs. 2 Nr. 1 UStAE", "Aufteilungsgebot z.B.: Telefongebühren; Kosten für Steuerberater / Anwalt; bei Miete: Vereinfachung 100 % Vorst, aber UWA (Abschn. 15.23 Abs. 7 UStAE)"],
+        ["sonstige Leistungen: für / an einheitlichen Gegenstand (Reparatur PC)", "Abschn. 15.2c Abs. 2 S. 2 UStAE", "Grds. aufteilen; aber Fall 1 & 2 Vereinfachung (➔ wie WG); ☝ für Fall 3 unterschiedliches Schicksal; Vorst-Quote möglich für So. Leistung"],
+      ] },
+      { typ: "tabelle", spalten: ["1. 100 % zum UV", "2. Quotale Zuordnung", "3. 100 % privat"], zeilen: [["=> Vorst => UWA", "", "=> keine Vorst => keine UWA"]] },
+      { text: "**Zuordnungsentscheidung** durch Beweisanzeichen / oder gem. Abschn. 15.2c Abs. 16 UStAE **ausdrücklich bis 31.7. des Folgejahres** notwendig (bei Grundstücken vgl. Abs. 18)." },
+      { typ: "titel", text: "Arbeitspapier A 6 – Beispiele" },
+      { text: "**Beachte:** Nur Berechtigung zum Vorsteuerabzug, wenn Bezug der Eingangsleistung\n1.) durch **Unternehmer** &\n2.) **für sein Unternehmen** (= für den wirtschaftlichen Tätigkeitsbereich)" },
+      { text: "**1.** Unternehmer A ist als **Grundstücksmakler** und als **Versicherungsvertreter** tätig. Für den Kauf von **Büromöbeln** fallen **2.000 Euro Vorst** an.\n*Lösung:* Erwerb zu 100 % für das Unternehmen. Damit vollumfänglich zum Abzug der Vorst **berechtigt**. Wegen Verwendung für unterschiedliche Ausgangsumsätze erfolgt ein **teilweiser Ausschluss** vom Vorsteuerabzug gem. § 15 Abs. 2 und Abs. 4 UStG" },
+      { text: "**2.** Unternehmer B ist **Fahrradhändler in Bonn**. B kauft **Fahrrad als Geschenk für den Sohn** bzw. als **Geschenk an Arbeitnehmer für ein Jubiläum**.\n*Lösung:* Erwerb zu 100 % für „private“ und damit für unternehmensfremde Zwecke. Kein Bezug für die unternehmerische Tätigkeit. B ist **nicht zum Abzug der Vorst berechtigt**. Auch liegt **keine UWA** vor." },
+      { text: "**3.** Unternehmer C ist **Handwerker**. Er erwirbt einen **PKW**, den er zu **80 % unternehmerisch / 20 % privat** (Fahrtenbuch) nutzt.\n*Lösung:* PKW = einheitlicher Gegenstand, der teilunternehmerisch / unternehmensfremd genutzt wird. C hat **Wahlrecht** für Zuordnung gem. Abschn. 15.2c Abs. 2 Nr. 2b UStAE" },
+      { typ: "tabelle", spalten: ["Zuordnung", "Folgen"], zeilen: [
+        ["a) 100 % UV", "100 % Vorst aus AK und aus Vereinfachung 100 % Vorst aus Unterhalt. Nichtuntern. Nutzung = UWA"],
+        ["b) 80 % / UV", "2 separate WG. 80 % Vorst aus AK und Unterhalt. 20 % nichtuntern. Nutzung keine UWA"],
+        ["c) 100 % PV", "Keine Vorst aus AK / 80 % Vorst Unterhalt"],
+      ] },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben; die Kreisziffern sind als Ziffern wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-37",
+    teil: TEIL,
+    kapitel: "37",
+    abschnittNr: "A 7 und A 8",
+    title: "Arbeitspapiere A 7 und A 8: Beispiele zu sonstigen Leistungen und Fälle für Vereine / jur. Personen / Holding",
+    thema: "Telefongebühren bei gemischter Tätigkeit, PKW-Leasing mit Vereinfachungsregel, Inspektion bei zugeordnetem und nicht zugeordnetem PKW, Sportverein und Holding mit unternehmerischem und nichtwirtschaftlichem Bereich (Bälle, Schreibtische, Vereinsbus 40/60 mit späteren Nutzungsänderungen)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 7 und A 8"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 4 UStG", "§ 15a UStG", "§ 3 Abs. 9a Nr. 1 UStG", "Abschn. 15.2c Abs. 2 und 3 UStAE", "Abschn. 15.23 Abs. 7 UStAE", "Abschn. 15a.1 Abs. 7 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Verein", "Holding", "Leasing"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 7 – Beispiele für sonstige Leistungen" },
+      { text: "**4.** Mandant ist **Makler und Versicherungsvertreter**. **Telefongebühren: 100 €** (40 % Makler / 40 % Versicherung / 20 % Privat)\n*Lösung:* **80 %** für Unternehmen (§ 15 Abs. 4 – analog); **20 %** keine Berechtigung. Aufteilung gem. § 15 Abs. 4 UStG für Ausschluss vom Vorsteuerabzug = **40 %**" },
+      { text: "**5.** Mandant ist **Fahrradhändler**. **Leasing PKW für 400 €**. Nutzung **60 % Handel / 40 % Privat**\n*Lösung:* 40 % für Privat; keine Berechtigung. 60 % für Handel; Berechtigung. ✍ Lesen, Abschn. 15.23 Abs. 7 UStAE – **Vereinfachung: 100 % berechtigt, 40 % UWA**" },
+      { text: "**6.** Mandant ist Fahrradhändler. **Eigener PKW**; Nutzung 60 % Handel / 40 % Privat. **PKW 100 % UV zugeordnet**; **Inspektion 100 Euro**:\n*Lösung:* ✍ Lesen, Abschn. 15.2c Abs. 2 S. 6 UStAE – **Vereinfachung 100 % Vorst**, UWA als Regulativ." },
+      { text: "**7.** Mandant ist Fahrradhändler. Eigener PKW; Nutzung 60 % Handel / 40 % Privat. **PKW 0 % UV zugeordnet**; **Inspektion 100 Euro**:\n*Lösung:* ✍ Lesen, Abschn. 15.2c Abs. 3 UStAE – Gegenstand = 100 % Privat; Gebrauch = **60 % unternehmerisch**; insoweit abzugsberechtigte Vorsteuern" },
+      { typ: "titel", text: "Arbeitspapier A 8 – 8. Fälle für Vereine / jur. Personen / Holding" },
+      { text: "Verein, jur. Pers. d.ö.R., gemischte Holding haben untern. Bereich / nichtunternehmerischen Bereich (➔ **nichtwirtschaftlicher Bereich i.e.S.**)" },
+      { text: "**8.1** D ist **gemeinnütziger Sportverein** mit wirtschaftlichem Geschäftsbetrieb. Er erwirbt **20 Bälle**, die zu **100 % für den wirtschaftlichen GB** bestimmt sind. Alternativ: D ist eine **Führungsholding** mit Leistungen gegen Entgelt gegenüber allen beteiligten Unternehmen. D erwirbt 20 **Schreibtische** für die Geschäftsführung.\n*Lösung:* Erwerb zu 100 % für das Unternehmen. Damit **vollumfänglich** zum Abzug der Vorst berechtigt." },
+      { text: "**8.2** Wie vorher, aber Bälle sind zu **100 % für ideellen Bereich** des D bestimmt. Alternativ: D ist eine **Finanzholding**, die nur Beteiligungen hält. D erwirbt 20 Schreibtische für die Geschäftsführung.\n*Lösung:* Erwerb zu 100 % für nichtwirtschaftliche Tätigkeit i.e.S. D ist **nicht zum Abzug der Vorst berechtigt**." },
+      { text: "**8.3** Verein D erwirbt einen **Vereinsbus**, der zu **40 % dem wirtschaftl. GB / 60 % ideellem Bereich** dient. Alternativ: D ist eine gemischte Holding; 60 % nur Beteiligung.\n*Lösung:* Verein hat zwingend **2 Busse** (Abschn. 15.2c Abs. 2 Nr. 2a UStAE)" },
+      { typ: "tabelle", spalten: ["Zeitpunkt", "Unternehmerisch", "Ideeller Bereich / Folge"], zeilen: [
+        ["Anschaffung Jahr 1", "40 % unternehmerisch – Vorst = 40 %", "60 % ideeller Bereich – Vorst = 0"],
+        ["Verwendungsänderung Jahr 2", "", "Mehr nichtunternehmerisch (bisher 60 %, jetzt 80 %): UWA 20 %"],
+        ["Verwendungsänderung Jahr 3", "Mehr unternehmerisch (bisher 40 %, jetzt 70 %): Vorst + 30 % gem. § 15a aus Vereinfachungsgründen (Abschn. 15a.1 Abs. 7 UStAE)", ""],
+      ] },
+      { text: "Nachrechnung (eigene Ergänzung): Beispiel 4: 40 % + 40 % = 80 % unternehmerisch, davon 40 % (Versicherung, § 4 Nr. 11 UStG) ausgeschlossen – stimmt; Beispiel 8.3: 80 % − 60 % = 20 % UWA; 70 % − 40 % = 30 % Berichtigung – stimmt." },
+      { text: "Die Übersicht zum Vereinsbus ist als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

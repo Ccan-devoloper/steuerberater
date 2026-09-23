@@ -2454,7 +2454,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rechnungen samt Sonderfällen, Zeitpunkt, Bauten auf fremdem Grund, Gemeinschaften und der
   E-Rechnung, dem Abzug der Einfuhrumsatzsteuer, dem Ausschluss vom Vorsteuerabzug samt
   Ausnahmen, der Vorsteueraufteilung, den nicht abziehbaren Vorsteuern und dem Wegfall des
-  Seeling-Modells (Textteil vollständig) und den Arbeitspapieren A 1 bis A 4 (35 Kapitel);
+  Seeling-Modells (Textteil vollständig) und den Arbeitspapieren A 1 bis A 8 (37 Kapitel);
   Blöcke 12 und 13 folgen.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
