@@ -10640,8 +10640,17 @@ entspräche einer Verlängerung nach § 108 Abs. 3 AO; für das Ergebnis unerheb
 **Nachgerechnet:** ESt 03: 31.12.05 + 4 Jahre = 31.12.09, + 10 Jahre = 31.12.15, Jahresfrist nach
 Selbstanzeige am 14.11.15 bis 14.11.16; ESt 06: 31.12.07 + 4 Jahre = 31.12.11.
 
-**Noch offen aus AO Teil II:** Abschnitt 6 ab Seite 48 (§ 171 Abs. 10 Satz 4, Abs. 10a, 14 und
-15 AO, gesonderte Feststellung nach § 181 Abs. 5 AO).
+**Fortsetzung Seiten 48 bis 56:** zwei weitere Kapitel – § 171 Abs. 10 Satz 4 AO, Rechtsbehelfe
+gegen den Grundlagenbescheid und die Prüfungsfolge in sechs Schritten sowie die drei Fälle
+(Komplementär K mit zwei Abwandlungen, Bernd Brot, Architekt Blei mit Abwandlung); jetzt 174
+Kapitel. Befunde: Im Fall 1, Abwandlung 2, rechnet die Quelle das Ende der Einspruchsfrist mit
+„13.08.16“ – nach der sonst durchgängig angewandten Viertagesfiktion 14.08.16; im Fall 3 heißt die
+Steuer im Rechenschema „Geänderte Einkommensteuer 08“ statt 01, und die Lösung spricht vom
+„Bescheid vom 24.12.08“ (so datiert ist die Bekanntgabe, der Bescheid ist vom 20.12.08).
+Alle übrigen Daten und Beträge gehen auf und sind im Datensatz nachgerechnet.
+
+**Noch offen aus AO Teil II:** Abschnitt 6 ab Seite 57 (gesonderte Feststellung nach § 181 Abs. 5
+AO und die Ablaufhemmungen nach § 171 Abs. 10a, 14 und 15 AO).
 
 ### AO-Skript (Jacobs), Teil I – Abschnitt 3 ab Seite 31: die erste bisher blockierte Stelle ist nachgeholt
 
