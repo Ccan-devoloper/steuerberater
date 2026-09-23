@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: I.2 bis I.4.1
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-3` (I.2 Vertragsstrafen mit
+Minderwertausgleich Leasing), `ust-m-b10-4` (I.3 durchlaufende Posten), `ust-m-b10-5` (I.4
+Zuschuss) und `ust-m-b10-6` (I.4.1 unechter Zuschuss, Beispiel Laroche) für die PDF-Seiten 80
+bis 84. Stand des USt-Skripts: 11 Teile, 339 Kapitel, 4846 Blöcke, 268 Tabellen.
+
+**Aus Bildern übertragen:** Schaubild „Ausgleichszahlung bei Beendigung des
+Vertragsverhältnisses“ (Leasing, PDF-Seite 81) als Tabelle.
+
+**Nachgerechnet (eigene Ergänzung):** Vertragsstrafe 2 × 1,5 % = 30.000 €, 970.000 € – stimmt;
+BMG 840.336,13 € (Quelle 840.336 €); Laroche 2.521,01 € / 478,99 € (Quelle gerundet).
+
+**Stillschweigend berichtigt:** „1 Mio..“, „Wegen überschreiten“, „970.000, - €“, gerade bzw.
+englische Anführungszeichen, „S 7200 -30/05“, „Zuschüsse, als einmaliger“, „eines
+Leistungsaustausch“, „3.000,- €“, „1.19“, „eine Hilfsgeschäft“, „UStAE.)“, fehlendes Komma
+„den Auftrag ein bestimmtes“, „=>“.
+
+**Weiter mit:** I.4.2 unechter Zuschuss – Preisauffüllung (PDF-Seite 84).
+
 ### USt-Skript (Moecker), Block 10: Inhaltsverzeichnis und I.1
 
 Neue Datei `src/data/k1-ust-moecker/block10.js` (Block 10 „BMG & Änderung / Reiseleistung /
