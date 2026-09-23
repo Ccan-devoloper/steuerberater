@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: II.2.4 bis II.4.1
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-16` (II.2.4 Leistungsempfänger,
+Beispiel Xaver-GmbH), `ust-m-b11-17` (II.2.5 Mindest-BMG, Anzahlungsrechnungen, Kleinbetrags-
+rechnungen / Fahrausweise) und `ust-m-b11-18` (II.3 Zeitpunkt, II.4.1 Bauten auf fremdem Grund
+mit Tabelle Schein- / wesentliche Bestandteile) für die PDF-Seiten 28 bis 32. Keine Bilder auf
+diesen Seiten. Stand des USt-Skripts: 12 Teile, 423 Kapitel, 5892 Blöcke, 309 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- II.2.5.1: „Differenz zwischen Rechnungsbetrag (hier 59.500 €) und Kaufpreis (hier: 29.500 €)“;
+  29.500 € ist die Differenz, der Kaufpreis beträgt 30.000 €.
+- II.2.5.2: 19/119 aus 40.000 € = 6.386,55 €; die Quelle nennt 6.386 € (gekürzt), mit dem Faktor
+  15,97 % ergäben sich 6.388 €.
+
+**Stillschweigend berichtigt:** „Xaver - GmbH“, „Miet-, Kauf-, oder“, „Gemeinschafter   handelt“,
+„Gesellschaft als solchen“, „( vgl. Abschn. 14.9 UStAE )“, „Satz 3 UStG; ( § 15 … Bu. c …“,
+„Vorst-abzug“, „50,- €“, „vgl.  § 34 und 35 UStDV“, „vorzunehmen ist, in dem“, „Gebäuden auf fremden
+Grund und Boden“.
+
+**Weiter mit:** II.4.2 Vorsteuerabzug bei nichtunternehmerisch tätigen Gemeinschaften (PDF-Seite
+32).
+
 ### USt-Skript (Moecker), Block 11: II.2.2 und II.2.3
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-14` (II.2.2 ordnungsgemäße Rechnung,
