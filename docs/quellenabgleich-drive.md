@@ -36,7 +36,7 @@ Das Lehrgangsarchiv enthält vier Zweige:
 
 | Bereich | Stand |
 | --- | --- |
-| K1 AO | Einheiten 1–8, Short-Skript, Hausaufgaben/Hausarbeiten, Originalfälle, Lehrgangsskript (Jacobs) mit Teilen I–III vollständig |
+| K1 AO | Einheiten 1–8, Short-Skript, Hausaufgaben/Hausarbeiten, Originalfälle, Lehrgangsskript (Jacobs) mit Teilen I–IV vollständig |
 | K1 USt | Einheiten 1–8, Kurzskript (Meurer), Hausaufgaben Termin 1–7, Themen, Übungsverweise |
 | K1 ErbSt | Einheiten 1–3 |
 | K2 KSt | Einheiten 1–7, Original-Schemata, Lehrgangsskripte Teile I–VII (Hamacher) vollständig |
@@ -10622,6 +10622,34 @@ füllen.
 
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
+
+### AO-Skript (Jacobs), Teil IV – Abschnitt 10: Vorläufiger Rechtsschutz – Teil IV vollständig
+
+Abschnitt 10 (34 Skriptseiten, PDF-Seiten 111 bis 144 des Bandes „Teil IV: Abschnitte 8 bis 10“)
+ist als neuer Teil „X“ (`T10`, `QUELLE_T10`) mit neun Kapiteln `ao-jacobs-10-1` bis
+`ao-jacobs-10-9` eingepflegt: Einführung mit dem Fallbeispiel van Dyck, Aussetzung der Vollziehung
+(Rechtsgrundlagen, vollziehbare und nicht vollziehbare Verwaltungsakte, Beschränkung nach § 361
+Abs. 2 Satz 4 AO mit Fallgruppen und Übungsfällen, wesentliche Nachteile mit Fall Fleißig,
+Aufhebung der Vollziehung, ernstliche Zweifel, Verfahrensgrundsätze), AdV bei
+Feststellungsbescheiden, AdV im Einspruchs- und Klageverfahren mit dem Übungsfall Valentin Vau
+sowie die einstweilige Anordnung nach § 114 FGO mit dem Übungsfall zu § 258 AO. Die Zeile
+„AO Teil IV“ in `docs/offene-quellen.md`, Abschnitt A, ist gestrichen. Stand des Skripts:
+15 Teile, 209 Kapitel, 5245 Blöcke, 362 Tabellen.
+
+**Nachgerechnet und stimmig:** van Dyck (140.000 − 80.000 = 60.000 €, unstrittig 35.000 €,
+geändert 115.000 €, Säumniszuschläge 3 % von 25.000 € = 750 €); Beschränkungsbeispiel
+(210.000 − 170.000 = 40.000 €, AdV 28.000 €, Rest 12.000 €); Fall 1 mit vier Abrechnungsbildern
+(35.000 / 10.000 / 10.000 + 5.000 / Erstattung 10.000 € – AdV 20.000 / 10.000 / 5.000 / keine);
+Fall 2 (60.000 − 53.000 + 3.000 = 10.000 €, AdV 5.000 €); Fleißig (10.000 € AdV + 80.000 €
+Aufhebung = 90.000 €); OHG-Beispiel (je 20.000 € Gewinnanteil, 10.000 € ESt bei A, keine AdV bei
+B); Vau (Erstattung 1.000 €, Nachzahlung 5.000 €, Zahlungsfrist 24.04.05 = Bekanntgabe 24.03.05
+plus ein Monat); Vorauszahlungen 150.000 − 20.000 = 130.000 €.
+
+**Quellbefunde und Darstellung:** In Fall 1 stehen die Beträge des Leistungsgebots ohne
+eindeutige Spaltenzuordnung; die Zuordnung im Datensatz ist nachgerechnet und als eigene
+Ergänzung gekennzeichnet. Im Fallbeispiel zur einstweiligen Anordnung fragt die Quelle nach den
+„Fällen 1 + 2“, obwohl die Fälle a) und b) heißen (markiert). Die Anmerkung „FG ist relativ frei in
+seiner Entscheidung (Bindung des FA an Verwaltungsanweisungen)“ ist als Gegensatz erläutert.
 
 ### AO-Skript (Jacobs), Teil IV – Abschnitt 9 ab Seite 18: Klagefrist, Klageschrift, Übungsfälle, § 68 FGO, Revision und NZB
 

@@ -711,8 +711,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (Sprungklage mit Kalenderauszug, Klageerweiterung, Revision und NZB), die Änderung des
   angefochtenen Bescheides nach § 68 FGO mit dem Fallbeispiel Balou, die Übersicht der
   Entscheidungsformen des Finanzgerichts und Revision und Nichtzulassungsbeschwerde mit
-  den Zulassungsgründen des § 115 Abs. 2 FGO. Noch offen ist Abschnitt 10 (vorläufiger
-  Rechtsschutz).
+  den Zulassungsgründen des § 115 Abs. 2 FGO.
+  Abschnitt 10 (vorläufiger Rechtsschutz, § 361 AO, §§ 69 und 114 FGO) ist als eigener Teil
+  vollständig eingepflegt: das Einführungsbeispiel van Dyck (Säumniszuschläge trotz vollem
+  Einspruchserfolg), Aussetzung und einstweilige Anordnung im Vergleich, vollziehbare und
+  nicht vollziehbare Verwaltungsakte, die Beschränkung auf den Antrag im Hauptverfahren und
+  auf das Leistungsgebot (§ 361 Abs. 2 Satz 4 AO) mit drei Fallgruppen und den Übungsfällen
+  mit vier Abrechnungsbildern, die Aufhebung der Vollziehung bis zur vorläufigen Erstattung
+  von Vorauszahlungen bei Existenzbedrohung (Fall Fleißig), ernstliche Zweifel,
+  Aussetzungszinsen, die AdV bei Feststellungsbescheiden mit Folge-AdV und Gewerbesteuer-
+  messbescheid, Anbringungsbehörde und Zugangsvoraussetzungen des § 69 Abs. 4 FGO, der
+  zusammengefasste Übungsfall Valentin Vau sowie die einstweilige Anordnung mit
+  Sicherungs- und Regelungsanordnung und dem Übungsfall zu § 258 AO. **Teil IV ist damit
+  vollständig.**
   Aus **Teil V** ist Abschnitt 11 (Steuererhebungsverfahren, §§ 218 bis 240 AO) begonnen.
   Der Teil I ordnet Steuerfestsetzung, Anrechnungs-Verwaltungsakt und Steuererhebung
   einander zu – mit dem durchgerechneten Überblicksschaubild (ESt 140.000 ./. LSt 20.000
