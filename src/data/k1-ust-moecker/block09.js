@@ -3,7 +3,7 @@
    „Block 09 – Besondere Umsätze im Binnenmarkt - Version 01.07.25 / Red. 08-25“ und
    „Red. StB58/ Vers. 1.7.25 / Stand 07-25“), PDF-Seiten 2 bis 76 der gemeinsamen Datei für
    die Blöcke 9 und 10: Textteil PDF-Seiten 2 bis 43, Arbeitspapiere ab PDF-Seite 44.
-   In Arbeit: eingepflegt bis IV. (Fernverkauf aus dem Drittland, § 3c Abs. 3 UStG), PDF-Seiten 2 bis 14. */
+   In Arbeit: eingepflegt bis V.3 (Import-One-Stop-Shop), PDF-Seiten 2 bis 18. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 07/2025";
@@ -353,6 +353,75 @@ export const block09 = [
       { text: "**Lösung Fall 2:** Lieferort **grundsätzlich in der Schweiz (§ 3 Absatz 6 S. 1 UStG)**. Für Sendungen über 150 EUR gilt **keine Befreiung von Zöllen und EUSt**. Der Umsatz kann **nicht im OSS** gemeldet werden. Nun ist im Hinblick auf **§ 3 Abs. 8 UStG** zu unterscheiden, **wer Schuldner der EUSt** ist. Da die Zollanmeldung **im Namen des Lurgi** erfolgt, schuldet er die EUSt. Die Lieferung des Lurgi ist gemäß **§ 3 Abs. 8 S. 1 UStG in DE steuerbar und steuerpflichtig**. Lurgi muss sich für umsatzsteuerliche Zwecke **in DE registrieren** lassen." },
       { text: "**Lösung Fall 3:** Lieferort ist **in der Schweiz (§ 3 Absatz 6 S. 1 UStG)**. Da die Zollanmeldung **im Namen des privaten Kunden** erfolgt, **schuldet diese Person die EUSt**. Die Lieferung des Lurgi ist **in DE nicht steuerbar**. Einer Registrierung bedarf es nicht." },
       { text: "Nachrechnung (eigene Ergänzung): Die drei Sendungen ergeben zusammen 100 € + 1.000 € + 500 € = 1.600 €; nur Sendung 1 bleibt mit 100 € unter der Grenze von 150 €." },
+    ],
+  },
+  {
+    id: "ust-m-b09-14",
+    teil: TEIL,
+    kapitel: "14",
+    abschnittNr: "V.1",
+    title: "V. Die Besteuerungsverfahren = One-Stop-Shops – V.1 Überblick",
+    thema: "Neue Besteuerungsverfahren zum 01.07.2021: Nicht-EU-OSS (§ 18i UStG), EU-OSS (§ 18j UStG) für sonstige Leistungen an Nichtunternehmer, innergemeinschaftliche Fernverkäufe und die Reihengeschäftsfiktion, Import-OSS (§ 18k UStG) für Sendungen bis 150 €, freiwillige Teilnahme und zentrale Anmeldung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("V.1"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 3a Satz 1 UStG", "§ 3a Abs. 5 UStG", "§ 3c Abs. 1 UStG", "§ 5 Abs. 1 Nr. 7 UStG", "§ 18i UStG", "§ 18j UStG", "§ 18k UStG"],
+    themen: ["Binnenmarkt", "OSS", "IOSS", "Besteuerungsverfahren", "Registrierung"],
+    bloecke: [
+      { typ: "titel", text: "V. Die Besteuerungsverfahren = One-Stop-Shops – V.1 Überblick (Vgl. Arbeitspapier 14 – 18)" },
+      { text: "Neben den neuen Fernverkaufsregelungen sind **zum 1.7.2021** auch neue Besteuerungsverfahren (sog. **One-Stop-Shops**) eingeführt worden." },
+      { text: "⧫ **Nicht-EU-Verfahren gem. § 18i UStG (Nicht-EU-OSS):** Drittlands-Unternehmer werden künftig **alle sonstigen Leistungen an Nichtunternehmer**, die im Gemeinschaftsgebiet zu besteuern sind, im OSS melden können, und nicht mehr wie bisher nur sog. TRFE-Leistungen." },
+      { text: "⧫ **EU-Verfahren gem. § 18j UStG (EU-OSS):** Das bisherige besondere Besteuerungsverfahren für im Gemeinschaftsgebiet ansässige Unternehmer, die sonstige Leistungen nach § 3a Absatz 5 UStG erbringen (sog. **Mini-One-Stop-Shop** / einzige Kleine Anlaufstelle) wird **ausgedehnt**. EU-Unternehmer werden damit insbesondere **sämtliche sonstigen Leistungen an Nichtunternehmer**, die in einem anderen Mitgliedstaat zu besteuern sind, **in ihrem Ansässigkeitsstaat** melden können. Das gilt auch für die sog. **innergemeinschaftlichen Fernverkäufe** (bisher sog. Versandhandel) gem. § 3c Abs. 1 UStG. Auch die Umsätze, die der neu eingeführten **Reihengeschäftsfiktion des § 3 Abs. 3a S. 1 UStG** unterliegen, können künftig im OSS gemeldet werden." },
+      { text: "⧫ **Import-Regelung gem. § 18k UStG (sog. IOSS):** Für Fernverkäufe von Gegenständen in **Sendungen mit einem Sachwert bis 150 Euro aus dem Drittlandsgebiet** wird ein neuer **Import-One-Stop-Shop (IOSS)** eingeführt. **Sowohl Drittlands-Unternehmer als auch EU-Unternehmer** können damit den Fernverkauf von Sendungen mit einem Sachwert von höchstens EUR 150 im IOSS melden. In diesem Fall ist die **Einfuhr der Waren gemäß § 5 Abs. 1 Nr. 7 UStG steuerfrei**. Eine weitere Voraussetzung für die steuerfreie Einfuhr ist, dass bei der Zollanmeldung die **Gültigkeit der individuellen Identifikationsnummer** des Unternehmers von der Zollstelle geprüft wird." },
+      { text: "Die Teilnahme am OSS-Verfahren ist **nicht verpflichtend**. Insoweit besteht für den Unternehmer ein **Wahlrecht**. Mit einer Teilnahme an einem OSS besteht jedoch für den Unternehmer die Möglichkeit, die in anderen Mitgliedstaaten der EU geschuldete USt **zentral (in nur einem Mitgliedstaat) anzumelden und zu entrichten**. Damit kann eine **Registrierung für Umsatzsteuerzwecke in mehreren Mitgliedstaaten vermieden** werden. Im Gemeinschaftsgebiet ansässige Unternehmer können dabei ihre Melde- und Zahlungspflichten für die anderen Mitgliedstaaten **im Ansässigkeitsmitgliedstaat** erfüllen. Im Drittland ansässige Unternehmer können einen Mitgliedstaat grundsätzlich **frei auswählen**." },
+    ],
+  },
+  {
+    id: "ust-m-b09-15",
+    teil: TEIL,
+    kapitel: "15",
+    abschnittNr: "V.2",
+    title: "V.2 One-Stop-Shop (EU-OSS) für den innergem. Fernverkauf & sonstige Leistungen nach § 18j UStG",
+    thema: "Anwendungsbereich (Dienstleistungen von EU-Unternehmern außerhalb des Ansässigkeitsstaats, innergemeinschaftliche Fernverkäufe von EU- und Drittlands-Unternehmern, Kleinunternehmer, Organträger), einheitliche Teilnahme, BZSt, Rechnungspflicht, FBA-Lager (Verbringen, Inlandslieferungen), B2C-Dienstleistungen, Steuererklärung und Zahlung, Berichtigungen, Verhältnis zum allgemeinen Besteuerungsverfahren",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("V.2"),
+    verfasser: VERFASSER,
+    normen: ["§ 3a Abs. 5 UStG", "§ 3c Abs. 1 UStG", "§ 14a Abs. 2 UStG", "§ 18 Abs. 1 bis 4 UStG", "§ 18j UStG", "§ 19 UStG", "§§ 26a ff. UStG", "Abschn. 18j.1 Abs. 2 Satz 6 UStAE"],
+    themen: ["Binnenmarkt", "OSS", "Fernverkauf", "Besteuerungsverfahren", "Fulfillment", "Berichtigung"],
+    bloecke: [
+      { typ: "titel", text: "V.2 One-Stop-Shop (EU-OSS) für den innergem. Fernverkauf & sonstige Leistungen nach § 18j UStG" },
+      { text: "**Anwendungsbereich für das besondere Besteuerungsverfahren:** **Dienstleistungen** mit Leistungsort in der EU **durch EU-Unternehmer**, wenn der Leistungsort nicht der Ansässigkeitsort des leistenden Unternehmers ist, **Innergemeinschaftliche Fernverkäufe** (§ 3c Abs. 1 UStG) durch ▪ EU-Unternehmer, ▪ Drittlands-Unternehmer. Dies gilt auch für **Kleinunternehmer** im Sinne des § 19 UStG. Im Fall der umsatzsteuerlichen **Organschaft** kann das Wahlrecht nach Satz 1 **nur durch den Organträger** ausgeübt werden." },
+      { text: "**Hinweise zum innergem. Fernverkauf gem. § 3c Abs. 1 UStG:** Die Teilnahme an dem EU-OSS ist **nur einheitlich und für alle Leistungen** möglich. Der **Mitgliedstaat der Identifizierung** (d.h., der Mitgliedstaat, in dem die Anzeige zur Teilnahme an dem OSS abgegeben wird) ist für Unternehmer aus dem Drittland **frei wählbar**. In Deutschland ist die Anlaufstelle das **Bundeszentralamt für Steuern (BZSt)**." },
+      { text: "Zur **Rechnungstellung** bei innergemeinschaftlichen Fernverkäufen nach § 3c Abs. 1 UStG bestimmt **§ 14a Abs. 2 UStG**, dass bei diesen Fernverkäufen grundsätzlich eine **Pflicht zur Erteilung einer Rechnung** besteht. Das gilt jedoch **nicht**, wenn der Unternehmer an dem **OSS-Besteuerungsverfahren nach § 18j UStG** teilnimmt." },
+      { text: "Nutzt der deutsche Online-Händler auch ein **ausländisches Warenlager** (z.B. im Rahmen von **Fulfillment by Amazon – FBA**), werden jedoch mindestens **zwei Arten von Transaktionen** ausgeführt, die **nicht über den One-Stop-Shop** abgewickelt werden können: • das **innergemeinschaftliche Verbringen** mit der Versteuerung des fiktiven innergemeinschaftlichen Erwerbs im EU-Ausland bei Verbringungen von Gegenständen auf ein ausländisches Lager von Amazon bzw. durch Amazon zwischen ausländischen FBA-Lagern und • **reine Inlandslieferungen im EU-Ausland** (z.B. von einem polnischen FBA-Lager an einen Endverbraucher in Polen). Wie bisher bedarf es dann einer **zwingenden Registrierung** in den jeweiligen betroffenen EU-Staaten der Lagerung bzw. der Inlandslieferungen." },
+      { text: "**Hinweise zu innergem. Dienstleistungen im B2C-Bereich:** Um zu vermeiden, dass Unternehmer, die **andere Dienstleistungen als sog. TRFE-Leistungen** an Nichtunternehmer erbringen, für Mehrwertsteuerzwecke in jedem einzelnen Mitgliedstaat, in dem diese Dienstleistungen der Mehrwertsteuer unterliegen, identifiziert werden müssen, umfasst der **EU-OSS auch andere Dienstleistungen**. Voraussetzung ist, dass die Leistungen **an Nichtunternehmer** erbracht werden. Umfasst werden damit nicht nur Leistungen, für die die Ortsbestimmung nach § 3a Abs. 5 UStG gilt, sondern **alle Dienstleistungen an Nichtunternehmer aus anderen MS** (z.B. Grundstücks-, kulturelle und unterhaltende, Restaurations-, Vermittlungs-, Veranstaltungsleistungen, Arbeiten an beweglichen Gegenständen und deren Begutachtung sowie die Personenbeförderung und die langfristige Vermietung von Beförderungsmitteln)." },
+      { text: "**Abgabe der Steuererklärung:** Die Abgabe der Steuererklärung muss **innerhalb eines Monats nach Ablauf jedes Besteuerungszeitraums** erfolgen und zwar • für jeden Mitgliedstaat des Verbrauchs, in dem MwSt geschuldet wird, in EUR, • Gesamtbetrag ohne MwSt, • Steuerbetrag, aufgegliedert nach Steuersätzen, • Gesamtsteuerschuld, aufgegliedert nach Steuersätzen. **Eine Dauerfristverlängerung ist nicht möglich.**" },
+      { text: "Die durch den LU in der Steuererklärung selbst berechnete Steuer ist **an das BZSt mit Ablauf des auf den Besteuerungszeitraum folgenden Monats fällig**. Das ausdrückliche **Entrichtungsgebot** soll die eventuell später notwendige Sanktionierung nach **§§ 26a ff. UStG** bei einer Verletzung der Zahlungsverpflichtung durch den Unternehmer sicherstellen. **Ein Lastschrifteinzug ist nicht möglich.**" },
+      { text: "Der **Berichtigungsvorgang** wird insoweit vereinfacht, indem die Berichtigung **zusammen mit der nächsten möglichen Umsatzsteuererklärung** für Zwecke des § 18j UStG zu erklären ist. Allerdings sind die entsprechenden Berichtigungen **getrennt** von den diesem Besteuerungszeitraum regulär zuzurechnenden Umsätzen anzugeben. **Einschränkung:** Das gilt nur für Korrekturen von Besteuerungszeiträumen **innerhalb von drei Jahren** nach Ablauf des letzten Besteuerungszeitraums. Für weitere über diesen Zeitraum hinausgehende Änderungen bis zum Eintritt der Festsetzungsverjährung ist eine Vereinfachung nicht vorgesehen. Insoweit gelten die allgemeinen Verfahrensvorschriften." },
+      { text: "Erbringt der LU neben den vom besonderen Besteuerungsverfahren umfassten sonstigen Leistungen **weitere Leistungen**, gelten hierfür **§ 18 Abs. 1 und 3 UStG**. Soweit der Unternehmer im Inland Umsätze nach Absatz 1 Satz 1 erbringt und an dem besonderen Besteuerungsverfahren teilnimmt, ist das **allgemeine Besteuerungsverfahren (§ 18 Abs. 1 bis 4 UStG) nicht anzuwenden**; das allgemeine und das besondere Besteuerungsverfahren **schließen sich im Übrigen jedoch gegenseitig nicht aus** (Abschn. 18j.1 Abs. 2 Satz 6 UStAE)." },
+    ],
+  },
+  {
+    id: "ust-m-b09-16",
+    teil: TEIL,
+    kapitel: "16",
+    abschnittNr: "V.3",
+    title: "V.3 Import-One-Stop-Shop (IOSS) für den Fernverkauf aus dem Drittland in die EU nach § 18k UStG",
+    thema: "Anwendungsbereich (Sachwert höchstens 150 €, Fälle des § 3c Abs. 2 und 3 UStG), Skizze Warenweg, keine Anwendung über 150 € und bei verbrauchsteuerpflichtigen Waren, steuerfreie Einfuhr nach § 5 Abs. 1 Nr. 7 UStG, erstmalige Anwendung, BZSt, Besteuerungszeitraum Kalendermonat, einheitliche Teilnahme, individuelle IOSS-IdNr., Steuererklärung und Fälligkeit",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("V.3"),
+    verfasser: VERFASSER,
+    normen: ["§ 3c Abs. 2 und 3 UStG", "§ 5 Abs. 1 Nr. 7 UStG", "§ 16 Abs. 1e UStG", "§ 18k Abs. 1 Satz 5 und Abs. 4 UStG", "§§ 26a ff. UStG", "§ 27 Abs. 32 Satz 1 UStG", "Art. 369q und 369t MwStSystRL", "Art. 24 VO (EG) Nr. 1186/2009"],
+    themen: ["Binnenmarkt", "IOSS", "Fernverkauf", "Drittland", "Einfuhrumsatzsteuer", "Besteuerungsverfahren"],
+    bloecke: [
+      { typ: "titel", text: "V.3 Import-One-Stop-Shop (IOSS) für den Fernverkauf aus dem Drittland in die EU nach § 18k UStG" },
+      { text: "Der Anwendungsbereich der Sonderregelung für Fernverkäufe von aus dem Drittland eingeführten Gegenständen ist auf Verkäufe von Gegenständen **mit einem Sachwert von höchstens 150 Euro beschränkt**. Betroffen sind also insbesondere die Fälle des **§ 3c Abs. 2 UStG** = Fernverkauf aus dem Drittland in Mitgliedstaat 1 und weiter in MS 2 (sog. **Warentransit**) oder **§ 3c Abs. 3 UStG** = Fernverkauf aus dem Drittland in einen Mitgliedstaat der EU mit Sachwert bis max. 150 Euro (sog. **Einfuhr im Bestimmungsstaat**)." },
+      { text: "**Skizze:** LIEFERANT / ONLINE-HÄNDLER (Drittland oder EU, z.B. Schweiz (CH)) ➔ WARE ➔ ZOLL ➔ MITGLIEDSTAAT ➔ PRIVATER ENDKUNDE – WARENWEG (Sendungswert < 150 Euro). (Skizze als Text wiedergegeben, eigene Ergänzung zur Darstellung.)" },
+      { text: "Es handelt sich um ein **neues Besteuerungsverfahren (IOSS)** für die USt im Bestimmungsland in Sendungen von Waren **bis max. 150 €**. ➢ Für Sendungen im **Sachwert über 150 €** gilt **keine Befreiung von Zöllen und EUSt**. Die Anwendung des IOSS ist **nicht möglich**." },
+      { text: "**Verbrauchsteuerpflichtige Gegenstände** (z.B. alkoholische Erzeugnisse, Mineralöle, Tabak) werden gem. **Art. 24 der Verordnung (EG) Nr. 1186/2009** vom Anwendungsbereich **ausgenommen**, da die Verbrauchsteuer Teil der Bemessungsgrundlage für die Einfuhrumsatzsteuer ist." },
+      { text: "Die **Einfuhr von Sendungen mit einem Sachwert von höchstens 150 €** ist gem. **§ 5 Abs. 1 Nr. 7 UStG steuerfrei**, wenn der Ausgangsumsatz im IOSS nach § 18k UStG angemeldet wird. § 18k UStG ist erstmals auf Umsätze anzuwenden, die **nach dem 30.06.2021** ausgeführt werden (§ 27 Abs. 32 Satz 1 UStG). Zuständige Finanzbehörde für das Verfahren im Inland ist insoweit das **BZSt**. **Besteuerungszeitraum ist der Kalender-MONAT** (§ 16 Abs. 1e)." },
+      { text: "**Teilnahme:** ❖ Ist dem Unternehmer **nur einheitlich für alle EU-Mitgliedstaaten & alle betroffenen Umsätze** möglich (§ 18k Abs. 1 S. 5) (MERKE: ALLE für EINEN) ❖ Teilnehmende Unternehmer erhalten eine **individuelle MwSt-IdNr. gem. Art. 369q MwStSystRL** für die Anwendung des besonderen Besteuerungsverfahrens. Diese ist **in der Zollanmeldung bei Einfuhren anzugeben**." },
+      { text: "**Umsatzsteuererklärung, Fälligkeit (§ 18k Abs. 4):** ❖ Abgabe einer **„besonderen“ Steuererklärung an das BZSt** unter Angabe der USt-IdNr. nach Art. 369t MwStSystRL ❖ **Innerhalb eines Monats nach Ablauf jedes Kalendermonats.** ❖ USt **selbst zu berechnen**. ❖ **Fälligkeit 1 Monat nach Ablauf des Kalendermonats** & zu zahlen (ausdrückliches Entrichtungsgebot zur Eröffnung von Sanktionen nach §§ 26a UStG) ❖ **Eine Dauerfristverlängerung ist nicht möglich.**" },
     ],
   },
 ];

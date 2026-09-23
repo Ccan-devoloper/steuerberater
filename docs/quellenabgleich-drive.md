@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: V.1 bis V.3 (One-Stop-Shops)
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-14` (V.1 Überblick),
+`ust-m-b09-15` (V.2 EU-OSS nach § 18j UStG) und `ust-m-b09-16` (V.3 IOSS nach § 18k UStG) für
+die PDF-Seiten 15 bis 18. Stand des USt-Skripts: 10 Teile, 293 Kapitel, 4481 Blöcke, 241 Tabellen.
+
+**Darstellung:** Skizze zum IOSS-Warenweg als Text (eigene Ergänzung zur Darstellung);
+nicht lesbare Aufzählungszeichen als „•“.
+
+**Stillschweigend berichtigt:** „(sog, One-Stop-Shops)“, Satzbruch in V.1 („Sowohl
+Drittlands-Unternehmer als auch EU-Unternehmer können für Fernverkäufe … wird ein neuer
+Import-One-Stop-Shop eingeführt“; der doppelte Satzanfang, den der folgende Satz wiederholt,
+ist entfallen), „Melde und Zahlungspflichten“, „Fulfillment by Amazon -FBA)“, Komma „Wie
+bisher, bedarf“, fehlende Punkte nach „andere Dienstleistungen“, „Beförderungsmitteln)“ und
+„beschränkt“, „Ortbestimmung“, Komma statt Punkt nach „Steuersätzen,“, fehlende Klammer
+„(Abschn. 18j.1 Abs. 2 Satz 6 UStAE.“, „Fernverkäufe aus dem Drittland eingeführten“ (von
+aus dem Drittland eingeführten), überzählige Klammer „Warentransit)“, „( Sog. Einfuhr“,
+„jeden Kalendermonats“, „ONLINE – HÄNDLER“.
+
+**Weiter mit:** VI. Fernverkauf bei Einbindung „Elektronischer Marktplätze“, VI.1 Fiktive
+Reihengeschäfte (PDF-Seite 19).
+
 ### USt-Skript (Moecker), Block 9: III. und IV. (Fernverkauf aus dem Drittland)
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-12` (III. § 3c Abs. 2 UStG mit
