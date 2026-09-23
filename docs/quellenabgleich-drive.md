@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 fortgesetzt (II.9 bis III.1)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-14` (II.9 Gold, II.10 Mobilfunkgeräte/Schaltkreise, II.11 Metalle, II.12
+Telekommunikation), `ust-m-b06-15` (II.13 Ausnahmen nach § 13b Abs. 6 UStG) und `ust-m-b06-16`
+(III.1 Einführung zur Geschäftsveräußerung im Ganzen, Schaubild als gegliederter Text) für die
+PDF-Seiten 37 bis 40. Abschnitt II (§ 13b UStG) ist damit vollständig. Stand des
+USt-Skripts: 6 Teile, 123 Kapitel, 2523 Blöcke, 126 Tabellen.
+
+**Quellbefund:** In II.13 bricht der Satz „Bei grundstücksbezogenen Leistungen hingegen“ ab
+(als unvollständig vermerkt).
+
+**Stillschweigend berichtigt:** „für die Steuerschuldnerwechsel“ (den), „gilt auch auf die
+Lieferung“ (für), „genannten Gegenstände“ (zweimal, Gegenständen), „§13b-Fälle“, „Abschn.
+13b.7a.“, „Die Lieferung entsprechender Metalle fallen“ (fällt), „entsprechendes“,
+„Steuerschuldner..“, „(§13b Abs. 6 Nr. 1“, „Abschnitt 3.10.“, „für sonstige Leistung dieser
+Art“ (Leistungen), „im ganzen“.
+
+**Noch offen in Block 6:** ab III.2 (PDF-Seite 41 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 6 fortgesetzt (II.5.3 bis II.8)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
