@@ -14,7 +14,7 @@
    recht) vollständig, Block 2 (Leistungen im Leistungsaustausch) vollständig, Block 3
    (Unternehmer / Unternehmen) vollständig, Block 4 (Entgeltliche
    Lieferungen) vollständig, Block 5 (Entgeltliche sonstige Leistungen) vollständig, Block 6 (Werkverträge,
-   § 13b UStG, GiG, Gutscheine) vollständig.
+   § 13b UStG, GiG, Gutscheine) vollständig, Block 7 (Innergemeinschaftlicher Erwerb) bis II.3.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien
@@ -29,6 +29,7 @@ import { block03 } from "./k1-ust-moecker/block03.js";
 import { block04 } from "./k1-ust-moecker/block04.js";
 import { block05 } from "./k1-ust-moecker/block05.js";
 import { block06 } from "./k1-ust-moecker/block06.js";
+import { block07 } from "./k1-ust-moecker/block07.js";
 
 export const ustSkriptMoeckerQuelle = {
   reihe: "Umsatzsteuer · Skript Blöcke 1 bis 13 mit Arbeitspapieren · Udo Moecker",
@@ -41,6 +42,6 @@ export const ustSkriptMoeckerQuelle = {
   ],
 };
 
-export const ustSkriptMoecker = [...block01, ...block02, ...block03, ...block04, ...block05, ...block06];
+export const ustSkriptMoecker = [...block01, ...block02, ...block03, ...block04, ...block05, ...block06, ...block07];
 
 export default ustSkriptMoecker;

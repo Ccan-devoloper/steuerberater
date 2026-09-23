@@ -10623,6 +10623,33 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 7 begonnen: Abschnitte I bis II.3
+
+Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block07.js`
+(Block 07 – innergemeinschaftlicher Erwerb, Red. StB 59 / Vers. I 2026 / Stand April 2026,
+PDF-Seiten 97 bis 130 der gemeinsamen Datei für die Blöcke 6 und 7), eingebunden in
+`src/data/k1-ust-skript-moecker.js`. Kapitel `ust-m-b07-1` (Inhaltsverzeichnis und
+I. Systematik, Vorschriftenübersicht als Tabelle; Spaltenköpfe eigene Ergänzung zur
+Darstellung), `ust-m-b07-2` (II.1 Grundtatbestand und Grundfall mit Beispiel Düsseldorfer
+Maschinenkauf in Frankreich), `ust-m-b07-3` (II.2 Begriff der Lieferung / des Erwerbs mit der
+Gegenüberstellung der Quelle und den Problembereichen Montagewerklieferung sowie Gas,
+Elektrizität, Wärme und Kälte) und `ust-m-b07-4` (II.3 Warenbewegung mit Verbringen,
+Freihäfen, Untergang der Ware, Einfuhr/Durchfuhr und Beispiel Norwegen über Dänemark) für
+die PDF-Seiten 97 bis 103. Stand des USt-Skripts: 7 Teile, 144 Kapitel, 2846 Blöcke, 149 Tabellen.
+
+**Quellbefund (markiert):** II.3 verweist für den Erwerb in die Gebiete des § 1 Abs. 3 UStG
+auf „Punkt III.7“; das Inhaltsverzeichnis führt diesen Gegenstand als III.6 und kennt kein
+III.7. In der Lösung zu Variante b des Norwegen-Beispiels heißt es „Für U“ statt DU.
+
+**Stillschweigend berichtigt:** „ES gelten“, „zu Umsatzsteuerbefreiung“ (zur), Umsatzart
+„innergemeinschaftlichen Erwerb“ (Nominativ), „Steuertatbeständen, muss“ und „Steuerpflicht,
+sind“ (Kommas), „des innergemeinschaftlicher Erwerbs“, „Umgang der Lieferung“ (Umfang),
+„bezeichneten Gebiete vor“ (überzähliges „vor“), „lediglich faktisch ,“, „Hin-weis“,
+„bezeichneten Gebiete“ im Inhaltsverzeichnis (Gebieten), „Liegt gem. § 3 Abs. 1 UStG liegt“
+(doppeltes „liegt“), „Begriff des Erwerb“ (Erwerbs), „gezahlt Entgelt“ (gezahlte).
+
+**Weiter mit:** Block 7 ab II.4 Lieferer (PDF-Seite 103 unten).
+
 ### USt-Skript (Moecker), Block 6 abgeschlossen: Arbeitspapiere Seite 29 bis 35
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
