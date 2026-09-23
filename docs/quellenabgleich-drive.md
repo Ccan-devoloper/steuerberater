@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker): Bildinhalte nachgetragen (Blöcke 3 und 8 Teil I)
+
+Die Textextraktion (pypdf) erfasst keine Bilder. Eine Durchsicht aller eingebetteten Bilder der
+neun Moecker-PDFs (Bilder ab 250 × 60 Pixel, Masken und Rahmen ausgeschieden) ergab
+inhaltstragende Bilder, die bisher fehlten:
+- Block 3, Arbeitspapier A 3 (PDF-Seite 115): Schaubild zu § 2b UStG (jPöR) – in
+  `block03.js` als Text ergänzt.
+- Block 3, Arbeitspapier A 10 (PDF-Seite 122): Kästen „grundsätzlich“, „Ausnahme“ (Nr. 1 bis 3)
+  und „Folgen“ zu Beteiligungen – ergänzt; die bisherige eigene Anmerkung zu den Zwecken 1. bis
+  3. ist durch den Wortlaut der Quelle ersetzt.
+- Block 8 Teil I, Arbeitspapiere A 19 (PDF-Seite 80) und A 24 (PDF-Seite 85): zwei Folien
+  („neue Voraussetzungen ab 01.01.2020“, qualifizierte Bestätigungsabfrage) – ergänzt bzw.
+  beschrieben (Beispieldaten der Bildschirmansicht nicht übernommen).
+
+Nicht inhaltstragend: Titelbilder, ein Foto (Block 1–3, PDF-Seite 51), leere Rahmen
+(Block 1–3, PDF-Seiten 106 bis 108 und 136; Block 8 Teil II, PDF-Seite 67). Noch einzupflegen:
+Block 9/10 PDF-Seiten 71 bis 73, 81, 88, 91, 166 und Block 11/12 PDF-Seite 36 (beim Einpflegen
+berücksichtigen). Stand des USt-Skripts: 10 Teile, 325 Kapitel, 4736 Blöcke, 254 Tabellen.
+
 ### USt-Skript (Moecker), Block 9: Arbeitspapiere A 11 bis A 17
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-44` (A 11 Durchfuhr),
