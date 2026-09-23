@@ -36,7 +36,7 @@ Das Lehrgangsarchiv enthält vier Zweige:
 
 | Bereich | Stand |
 | --- | --- |
-| K1 AO | Einheiten 1–8, Short-Skript, Hausaufgaben/Hausarbeiten, Originalfälle |
+| K1 AO | Einheiten 1–8, Short-Skript, Hausaufgaben/Hausarbeiten, Originalfälle, Lehrgangsskript (Jacobs) mit Teilen I–III vollständig |
 | K1 USt | Einheiten 1–8, Kurzskript (Meurer), Hausaufgaben Termin 1–7, Themen, Übungsverweise |
 | K1 ErbSt | Einheiten 1–3 |
 | K2 KSt | Einheiten 1–7, Original-Schemata, Lehrgangsskripte Teile I–VII (Hamacher) vollständig |
@@ -10622,6 +10622,46 @@ füllen.
 
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
+
+### AO-Skript (Jacobs), Teil III – Abschnitt 7 ab Seite 79: §§ 175 bis 177, 130 und 131 AO – Teil III vollständig
+
+Über den Datei-Download ist auch AO Teil III vollständig lesbar (119 PDF-Seiten, Skriptseiten 1 bis
+118). Eingepflegt sind die Seiten 79 bis 118 als dreizehn neue Kapitel `ao-jacobs-7-18` bis
+`ao-jacobs-7-30`: Lösungshinweise zum Übungsfall M samt Abwandlung (§ 174 Abs. 1 AO), § 175 Abs. 1
+Satz 1 Nr. 2 und Abs. 2 AO mit Anwendungsfällen und der Rechtsprechung zu §§ 16 und 17 EStG, drei
+Übungsfälle dazu, § 175a AO (Fallbeispiel de Vries), § 175b AO (Abs. 1 bis 4, Beispiele 1 bis 5),
+§ 176 AO, § 177 AO (Grundsätze, Fallbeispiel Pflug, Beispiele zu Abs. 1 und 2, Systematik am Fall
+Buschfeld, Übungsfall) sowie §§ 130 und 131 AO mit allen Übungsfällen. Der redaktionelle Hinweis
+zum Abbruch am Ende des Kapitels 7-17 ist entfernt; die Zeile „AO Teil III“ in
+`docs/offene-quellen.md`, Abschnitt A, ist gestrichen. Stand des Skripts: 14 Teile, 192 Kapitel,
+4755 Blöcke, 330 Tabellen.
+
+**Nachgerechnet und stimmig:** Saldierung im Fall M (+4.000 € ./. 4.000 € = 0 €, Rest 2.000 €);
+Fristen der Übungsfälle zu § 175 Abs. 1 Satz 1 Nr. 2 AO (31.12.16, 31.12.13, 31.12.14, 31.12.13,
+31.12.18); Fall Pflug (Fristende 31.12.10 bzw. 31.12.16, Erhöhung 18.000 €); Beispiele zu § 177
+Abs. 1 (12.000 €) und Abs. 2 (-360 € + 200 € = -160 €); Fall Buschfeld (Rahmen 184.000 € bis
+260.000 €, Rechtsfehlersaldo +54.000 €, materiell 298.000 €, Festsetzung 260.000 € bzw. ESt
+130.000 €); Übungsfall zu § 177 AO (50.000 € bleiben, 2.000 € materiell fehlerhaft);
+Verspätungszuschlag 200 € bzw. 2.400 € (je 2 %); Rücknahme im Fall Schmierig innerhalb der
+Jahresfrist.
+
+**Quellbefunde (im Text markiert „so in der Quelle“):**
+- Lösung Fall M: „Betriebsausgaben iHv 8.000 €“ – Sachverhalt und Rechnung arbeiten mit 6.000 €;
+  „des erlassenden Feststellungsbescheides“ statt „erlassenen“; im Zwischenergebnis zur
+  Abwandlung „F-Bescheid 01“ statt 04.
+- Anwendungsfall 1 zu § 175 Abs. 1 Satz 1 Nr. 2 AO: Rückzahlung „in 03“, Berücksichtigung aber
+  „im VZ 02“.
+- Fallbeispiel Pflug: Der Mandant heißt im Sachverhalt Peter Pflug, danach zweimal „Pluto“.
+- Beispiel zu § 177 Abs. 2 AO: Die alternative Änderung zugunsten wird auf „§ 173 Abs. 1 Nr. 1 AO“
+  gestützt, gemeint ist Nr. 2 (so auch die Schlusszeile der Lösung).
+- Übungsfall zu § 177 AO: „WK im Rahmen der Einkünfte aus den §§ 19 und 20 EStG“ – nach dem
+  Sachverhalt §§ 19 und 21 EStG; außerdem trägt er wie das vorangehende Fallbeispiel die
+  Nummer 7.
+- Übungsfall 1 zu § 130 AO: Ergebnis „höhere Festsetzung auf 45.000 €“, obwohl die zutreffende
+  Haftungsschuld 75.000 € beträgt; 45.000 € ist der Unterschiedsbetrag.
+- § 175b AO: Die Quelle kündigt „drei Absätze“ an und behandelt dann vier.
+- Lösung Übungsfall 3 (Willi Wutz): Das öffnende Anführungszeichen vor „Ereignis mit steuerlicher
+  Auswirkung“ wird nicht geschlossen; im Datensatz weggelassen.
 
 ### AO-Skript (Jacobs), Teil II – Abschnitt 6 ab Seite 43: Ablaufhemmungen nach § 171 Abs. 9 und 10 AO
 

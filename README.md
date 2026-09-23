@@ -636,7 +636,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Kino-GmbH & Co KG und Kleine und Pflicht GbR, und zum Schluss § 171 Abs. 10a AO (Daten nach
   § 93c AO), Abs. 14 (Erstattungsanspruch und Nichtigkeit mit dem Umsatzsteuer-Beispiel in vier
   Varianten) und Abs. 15 (Steuerabzugsverfahren). **Teil II ist damit vollständig.**
-  Aus Teil III ist Abschnitt 7 (Korrektur von Verwaltungsakten) bis Seite 79 eingepflegt:
+  Teil III ist vollständig eingepflegt; er besteht allein aus Abschnitt 7 (Korrektur von Verwaltungsakten):
   die Korrekturterminologie und die Schnellübersicht zum Anwendungsbereich jeder
   Vorschrift, die dreistufige Systematik (§ 164 Abs. 2 AO – Korrekturvorschriften für
   endgültige Bescheide – Rechtsfehlersaldierung), die Berichtigung nach § 129 AO mit dem
@@ -656,8 +656,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   zu Absatz 3 und der Abhilfebescheid zu Absatz 4 – sowie § 175 Abs. 1 Satz 1 Nr. 1 AO
   mit steuerlichen und außersteuerlichen Grundlagenbescheiden, den Ablaufhemmungen des
   § 171 Abs. 10 AO, der Abgrenzung zu § 35b GewStG, dem Fallbeispiel Architekt A und dem
-  Umfang der Anpassung des Folgebescheides. Ab Seite 80 gibt der Drive-Connector das PDF
-  nicht mehr aus; das ist in `docs/offene-quellen.md` vermerkt.
+  Umfang der Anpassung des Folgebescheides; über den Datei-Download nachgeholt sind die
+  Seiten 80 bis 118: die Lösungshinweise zum Übungsfall M (Folgewirkungen, Saldierung nach
+  § 177 AO, § 174 Abs. 1 AO in der Abwandlung), § 175 Abs. 1 Satz 1 Nr. 2 und Abs. 2 AO mit
+  der Abgrenzung zu § 173 AO, den Anwendungsfällen Mieten und Anlage U, der Rechtsprechung zu
+  §§ 16 und 17 EStG und drei Übungsfällen (Kaufpreisminderung und Forderungsausfall,
+  Sträflich, Willi Wutz), § 175a AO mit dem Fallbeispiel de Vries, § 175b AO in allen vier
+  Absätzen mit fünf Beispielen, der Vertrauensschutz nach § 176 AO, die Rechtsfehlersaldierung
+  nach § 177 AO (Grundsätze, Verhältnis zu § 351 Abs. 1 AO, Fallbeispiel Pflug, Beispiele zu
+  Abs. 1 und 2, Systematik mit Prüfungsschema und Kontrollrechnung am Fall Buschfeld,
+  Übungsfall mit teilverjährten Werbungskosten) und zum Schluss §§ 130 und 131 AO für
+  sonstige Verwaltungsakte mit Rücknahme, Bestandskraft, Mischwirkung, Widerruf und den
+  Übungsfällen Haftungsbescheid, Fritz Schmierig, Lottogewinn und Stundung vor der
+  Erbschaft. **Teil III ist damit vollständig.**
   Aus Teil IV ist Abschnitt 8 (außergerichtliches Rechtsbehelfsverfahren, §§ 347 bis
   367 AO) begonnen: die Durchbrechung der Bestandskraft und das Verhältnis von Korrektur-
   und Rechtsbehelfsverfahren, § 132 AO mit dem Fallbeispiel zu Abhilfe-, Teilabhilfe- und
