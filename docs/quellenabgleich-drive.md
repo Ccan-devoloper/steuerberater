@@ -10623,6 +10623,32 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6: Textteil abgeschlossen (III.4.3 bis IV.3)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-25` (III.4.3 bis III.4.5 Vorsteuerberichtigung und Auskunftspflicht mit
+Schraube/Knecht-Beispiel und Merksätzen), `ust-m-b06-26` (IV.1 Gutscheinbegriff, IV.2
+Einzweck-Gutschein mit Parfümerie-, Restaurant- und Elektrohändler-Beispiel, Fundstellentabelle)
+und `ust-m-b06-27` (IV.3 Mehrzweck-Gutschein) für die PDF-Seiten 55 bis 61. **Der Textteil von
+Block 6 ist damit vollständig** (27 Kapitel). Stand des USt-Skripts: 6 Teile, 134 Kapitel, 2670 Blöcke, 129 Tabellen.
+
+**Nachgerechnet (eigene Ergänzung):** Schraube 1.000.000 € × 19 % = 190.000 €, hälftig
+95.000 €, Jahresberichtigung 190.000 € : 10 × 50 % = 9.500 €; Restaurant-Gutschein 66,67 € zu
+19 % und 33,33 € zu 7 % (mit Hinweis auf 7 % für Speisen ab 01.01.2026); Elektrohändler
+40 € : 1,19 = 33,61 € BMG / 6,39 € USt und 300 € : 1,19 = 252,10 € BMG / 47,90 € USt.
+
+**Quellbefund (markiert):** Der 10-jährige Berichtigungszeitraum ab 1.1.05 wird zweimal mit
+„1.1.05 bis 31.12.15“ angegeben; er endet am 31.12.14. Das Ergebnis (Berichtigung für das
+Jahr 14) bleibt davon unberührt.
+
+**Stillschweigend berichtigt:** „+ 9.500, - €“, „Erwerber ist verpflichtet für“ (Komma),
+„nicht nur für Anlagevermögen“, „BStBl 89 II S. 120 )“, „( Sog. Rabatt-Coupon)“, „( B2C-Verkauf)“,
+„die für dieses Umsätze“ (diese), „Bsp. 1.1.,“, „(=19%=)“, fehlende Klammer vor „der
+Restaurantgutschein berechtigt“, „( Abschn. 3.17 Abs. 5 UStAE :“, „alle bis dahin erfolgte
+Übertragungen“ (erfolgten, zweimal), „n(Abschn.“, „Bemessungsgrundlager“, „Abschn.3.17“.
+
+**Noch offen in Block 6:** Arbeitspapiere Seite 1 bis 35 (PDF-Seiten 62 bis 96).
+
 ### USt-Skript (Moecker), Block 6 fortgesetzt (III.2.5 bis III.4.2)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel

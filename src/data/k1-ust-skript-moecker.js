@@ -14,7 +14,7 @@
    recht) vollständig, Block 2 (Leistungen im Leistungsaustausch) vollständig, Block 3
    (Unternehmer / Unternehmen) vollständig, Block 4 (Entgeltliche
    Lieferungen) vollständig, Block 5 (Entgeltliche sonstige Leistungen) vollständig, Block 6 (Werkverträge,
-   § 13b UStG, GiG, Gutscheine) bis III.4.2.
+   § 13b UStG, GiG, Gutscheine) Textteil vollständig.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien
