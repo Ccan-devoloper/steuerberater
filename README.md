@@ -2432,7 +2432,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und zeitlichen Einschränkungen nach § 27 Abs. 2 UStG (Textteil vollständig) sowie die
   Arbeitspapiere A 1 bis A 38 (57 Kapitel), Block 9 (Besondere Umsätze im Binnenmarkt)
   begonnen mit Inhaltsverzeichnis, Dreigliederung, steuerpflichtigen Abhollieferungen und dem
-  innergemeinschaftlichen Fernverkauf nach § 3c Abs. 1 UStG bis zum Abnehmerkreis (6 Kapitel).
+  innergemeinschaftlichen Fernverkauf nach § 3c Abs. 1 UStG mit Abnehmerkreis,
+  Geringfügigkeitsschwelle, Option, Ausschlüssen, Rechnungslegung und Vorsteuer (11 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

@@ -10623,6 +10623,23 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: II.5 bis II.9
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-7` (II.5 Geringfügigkeitsschwelle
+mit Beispiel E-Bike und TRFE-Leistungen), `ust-m-b09-8` (II.6 Option), `ust-m-b09-9` (II.7
+gegenständliche Einschränkungen), `ust-m-b09-10` (II.8 Rechnungslegung) und `ust-m-b09-11`
+(II.9 Sonstiges) für die PDF-Seiten 8 bis 10. Stand des USt-Skripts: 10 Teile, 288 Kapitel, 4424 Blöcke, 239 Tabellen.
+
+**Quellenfehler (im Text markiert):** TRFE-Absatz: Ort im Ansässigkeitsstaat, wenn die Schwelle
+„im vorangegangenen KJ überschritten hat“; gemeint „nicht überschritten hat“.
+
+**Stillschweigend berichtigt:** „o.g länderspezifischen“, Komma „Dänemark, musste“, „EU
+einheitliche“, „TRFE – Leistungen“, „10 000 Euro“, „gem. 3c Abs. 5“ (§), überzähliges „und“
+vor „(z.B. KFZ …)“, „Abs.2“, fehlendes schließendes Anführungszeichen bei „Verkaufsbeleg“,
+„§14 Abs. 7“.
+
+**Weiter mit:** III. Fernverkauf aus dem Drittland – § 3c Abs. 2 UStG (PDF-Seite 11).
+
 ### USt-Skript (Moecker), Block 9: Inhaltsverzeichnis bis II.4
 
 Neue Datei `src/data/k1-ust-moecker/block09.js` (Block 9 „Besondere Umsätze im Binnenmarkt“,
