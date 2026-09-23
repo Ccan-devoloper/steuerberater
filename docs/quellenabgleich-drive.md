@@ -39,7 +39,7 @@ Das Lehrgangsarchiv enthält vier Zweige:
 | K1 AO | Einheiten 1–8, Short-Skript, Hausaufgaben/Hausarbeiten, Originalfälle |
 | K1 USt | Einheiten 1–8, Kurzskript (Meurer), Hausaufgaben Termin 1–7, Themen, Übungsverweise |
 | K1 ErbSt | Einheiten 1–3 |
-| K2 KSt | Einheiten 1–4, Original-Schemata |
+| K2 KSt | Einheiten 1–7, Original-Schemata, Lehrgangsskripte Teile I–VII (Hamacher) vollständig |
 | K2 IStR | Einheiten 1–4, Fallsammlung, Hausaufgaben, Originalfälle |
 | K3 Bilanz | 50 Module, Fallsammlung mit 90 Fällen, Hausaufgaben 1–9, Schaubilder, Buchungssätze |
 | K3 PersG | Tage 1–5, Lernpfad (18 Lektionen), Originalfälle, **Hausaufgaben (neu)** |
@@ -61,7 +61,10 @@ Nach Priorität sortiert; jede Zeile ist eine abgeschlossene Arbeitseinheit.
    Hausaufgabe mit Lösung und den Übungsfällen (Nöthen). Offen bleibt allein der
    Lösungsteil der Fallsammlung, der im freigegebenen Ordner nicht enthalten ist.
 3. **K2 KSt: Lehrgangsunterlagen** – Kurzskript (Breier) und die Teile I–VII (Hamacher)
-   aus den Lehrgangsunterlagen sind noch nicht abgeglichen. Korrektur zur ersten Fassung
+   aus den Lehrgangsunterlagen sind noch nicht abgeglichen. Aktualisierung: Die Teile I bis
+   VII (Hamacher) sind inzwischen **vollständig** erfasst (`src/data/k2-kst-teil1-hamacher.js`
+   bis `k2-kst-teil7-hamacher.js`); das Kurzskript (Breier) steht als teilweise blockiert in
+   `docs/offene-quellen.md`, Abschnitt A. Korrektur zur ersten Fassung
    dieser Liste: Die KSt-Einheiten 5, 6 und 7 sind entgegen der dortigen Annahme bereits
    eingepflegt (`src/data/kst-einheit-5/6/7-register.js`).
 4. ~~K2 KSt: Hausaufgaben~~ – erledigt: alle fünf Hausaufgaben (Fachtermine 1, 3, 4, 5, 7)
@@ -10619,6 +10622,53 @@ füllen.
 
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
+
+### KSt Teil VII (Hamacher), Abschnitte 2.8 bis 2.10 – Anteilseigner, Gewerbe- und Umsatzsteuer; Skript vollständig
+
+Übernommen sind die Seiten 23 bis 28 der Quelle: die Auskehrung des steuerlichen
+Einlagekontos beim Anteilseigner (2.8.1) mit Beteiligung im Privatvermögen (2.8.1.1) und im
+Betriebsvermögen samt Beispiel zur Teilwertabschreibung und Abwandlung (2.8.1.2), die übrige
+Auskehrung mit Beispiel (2.8.2), die Gewerbesteuer mit dem Verteilungsbeispiel nach § 16
+GewStDV (2.9) und die Umsatzsteuer mit den Folgen für die Organschaft bei Liquidation und
+Insolvenz (2.10). **Damit ist das Skript vollständig übernommen**: 35 Kapitel mit 373
+Abschnitten und 41 Tabellen über beide Kapitel und 28 Seiten; geprüft mit
+`npm run check:k2-kst-teil7`. Mit Teil VII sind alle sieben Skriptteile von Hamacher
+abgebildet.
+
+**Befunde der Quelle** (im Datensatz jeweils mit „(so in der Quelle)“ markiert):
+
+- 2.8.1.2: „Auskehrung des Nennkapital“ – fehlendes Genitiv-s.
+- 2.9: „zuzüglich des … zu ermittelnden steuerpflichtiger Abwicklungs- bzw.
+  Liquidationsgewinn“ – Kasusfehler (richtig: steuerpflichtigen … gewinns).
+- 2.10: „Dabei handelt sich“ – es fehlt „es“.
+- 2.10: „… bewirkt werden Die Organschaft endet …“ – fehlender Satzpunkt.
+- 2.10: „sowohl auf den Organträger und die Organgesellschaft“ – richtig: sowohl … als auch.
+
+**Hinweise ohne Fehlerbefund.** Das Beispiel zu 2.8.2 nennt keinen Bestand des steuerlichen
+Einlagekontos; die Aufteilung 70.000 € / 430.000 € setzt einen Bestand von 0 € voraus, was
+der Datensatz als eigene Ergänzung offenlegt. Die Quelle zitiert für das Ende der
+Gewerbesteuerpflicht hier R 2.6 Abs. 2 GewStR, in 2.5.1 dagegen noch „Abschn. 19 Abs. 3
+Satz 2 GewStR“; der Datensatz weist auf die Abweichung hin. Die Aussagen zur
+umsatzsteuerlichen Organschaft in der Insolvenz des Organträgers und bei demselben
+Insolvenzverwalter für beide Gesellschaften sind mit einem neutralen Hinweis versehen, sie
+vor Verwendung am geltenden UStAE zu prüfen; ein bestimmter abweichender Rechtsstand wird
+nicht behauptet.
+
+**Eigene Nachrechnung.** Teilwertabschreibung: Bank 200.000 € an Beteiligung 100.000 € und
+Ertrag 100.000 €; Abwandlung 5 % von 100.000 € = 5.000 €. Übrige Auskehrung: 400.000 €
++ 30.000 € = 430.000 € Einnahmen, 100.000 € ./. 30.000 € = 70.000 € Kapitalrückzahlung.
+Gewerbesteuer: 5 + 12 + 12 = 29 Monate; 239.000 € × 5/29 = 41.206,90 € (41.207 €),
+× 12/29 = 98.896,55 € (einmal auf 98.897 €, einmal auf 98.896 € gerundet, Summe 239.000 €);
+2018: 41.207 € ./. 9.000 € = 32.207 €.
+
+**Schlussbilanz für KSt Teil VII.** Über alle Runden sind neben zahlreichen kleineren
+sprachlichen Eigenheiten folgende Befunde festgehalten: „§§ 60, 70 GmbHG“ statt § 66 GmbHG
+(1.1.2), der Querverweis „2.8“ statt 2.9 für die Gewerbesteuer (2.1), die veraltete
+Zitierweise „Abschn. 19 GewStR“ (2.4, 2.5.1), der Kommentar unter zwei verschiedenen Titeln,
+„Liquidations-Endvermögen“ und „Gewinn“ für eine verdeckte Einlage (2.5.3.2), der nicht
+bezifferte Solidaritätszuschlag im Gesamtbeispiel (2.6) und der Begriff „verwendbares
+Eigenkapital“ aus dem Anrechnungsverfahren (2.7.2.2). Rechenfehler enthält das Skript
+nicht; sämtliche Zahlen sind unabhängig nachgerechnet.
 
 ### KSt Teil VII (Hamacher), Abschnitte 2.6 und 2.7 – Gesamtbeispiel und steuerliches Einlagekonto
 

@@ -7,18 +7,15 @@
    der Liquidation. Gegliedert wird hier nach den Abschnitten der Quelle; jeder
    Abschnitt steht als eigener Eintrag.
 
-   STAND DER ÜBERNAHME: Kapitel 1 – der zivilrechtliche Hintergrund mit
-   Auflösungsgründen, Ablauf der Auflösung, Liquidation und Löschung (1.1 bis
-   1.3) – ist VOLLSTÄNDIG übernommen. Aus Kapitel 2 sind das Verhältnis zu
-   anderen Steuernormen (2.1), das Ziel der Liquidationsbesteuerung (2.2) und
-   die subjektiven und objektiven Tatbestandsmerkmale (2.3) sowie der
-   Besteuerungszeitraum mit Dreijahresgrenze, Verlängerung, Übergang zur
-   jährlichen Veranlagung und Ende der Abwicklung (2.4) sowie aus der
-   Gewinnermittlung das Schema, das Abwicklungs-Anfangs- und -Endvermögen,
-   die allgemeine Einkommensermittlung und der Verlustabzug (2.5.1 bis 2.5.5),
-   das Gesamtbeispiel (2.6) und die Auswirkungen auf das steuerliche
-   Einlagekonto mit vier Beispielen (2.7) übernommen; es folgen Anteilseigner,
-   Gewerbe- und Umsatzsteuer (2.8 bis 2.10).
+   STAND DER ÜBERNAHME: Das Skript ist VOLLSTÄNDIG übernommen – beide
+   Kapitel über 28 Seiten:
+   - Kapitel 1: zivilrechtlicher Hintergrund mit Auflösungsgründen, Ablauf
+     der Auflösung, Liquidation und Löschung (1.1 bis 1.3),
+   - Kapitel 2: Verhältnis zu anderen Steuernormen und Ziel (2.1, 2.2),
+     Tatbestandsmerkmale (2.3), Besteuerungszeitraum (2.4), Gewinnermittlung
+     mit Schema, Anfangs- und Endvermögen, Einkommensermittlung und
+     Verlustabzug (2.5), Gesamtbeispiel (2.6), steuerliches Einlagekonto
+     (2.7), Anteilseigner (2.8), Gewerbesteuer (2.9) und Umsatzsteuer (2.10).
    Der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juni 2025.
@@ -1155,6 +1152,224 @@ export const kstTeil7 = [
         ["4: verteilbares Vermögen 50.000 €", "0 €", "50.000 € (Nennkapital)"],
       ] },
       { text: "Anmerkung zu den Beispielen (eigene Ergänzung): In den Beispielen 1 bis 3 ergibt die Summe aus Bezügen und Einlagenrückgewähr jeweils die gesamte Auskehrung von 500.000 €. Beispiel 3 nennt die Summe der Bezüge nicht ausdrücklich; sie beträgt 400.000 € + 10.000 € = **410.000 €**. Die Verrechnung nach § 28 Abs. 3 KStG sorgt dort dafür, dass der Zugang aus der verdeckten Einlage nicht steuerneutral zurückgezahlt werden kann, solange ein Sonderausweis besteht – der Sonderausweis steht für umgewandelte Gewinnrücklagen, deren Rückzahlung beim Anteilseigner steuerpflichtig bleiben soll. Im Beispiel 4 beträgt der Verlust nach § 17 Abs. 4 EStG vor Anwendung des Teileinkünfteverfahrens 50.000 € ./. 100.000 € = **./. 50.000 €**." },
+    ],
+  },
+  {
+    id: "kst-t7-30",
+    kapitel: "30",
+    abschnittNr: "2.8.1",
+    title: "2.8.1 Anteilseigner – Auskehrung des steuerlichen Einlagekontos",
+    thema: "Soweit bei der Auskehrung das steuerliche Einlagekonto verwendet wird, liegt beim Anteilseigner nach allgemeinen Grundsätzen eine Einlagenrückgewähr vor",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.8.1 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 20 Abs. 1 Nr. 2 Satz 1 EStG",
+    ],
+    themen: ["Anteilseigner", "steuerliches Einlagekonto", "Einlagenrückgewähr"],
+    bloecke: [
+      { typ: "titel", text: "2.8 Auswirkungen beim Anteilseigner" },
+      { typ: "titel", text: "2.8.1 Auskehrung des steuerlichen Einlagekontos" },
+      { text: "Kommt es bei der Auskehrung zu einer **Verwendung des steuerlichen Einlagekontos**, führt dies beim Anteilseigner nach allgemeinen Grundsätzen zu einer **Einlagenrückgewähr** (§ 20 Abs. 1 Nr. 2 Satz 1 EStG)." },
+      { text: "Anmerkung zur Gliederung (eigene Ergänzung): Die Folgen der Einlagenrückgewähr hängen davon ab, wo die Beteiligung gehalten wird. Die Quelle unterscheidet deshalb die Beteiligung im **Privatvermögen** (2.8.1.1) und im **Betriebsvermögen** (2.8.1.2); die Behandlung des übrigen, nicht aus dem Einlagekonto finanzierten Teils folgt in 2.8.2. Die Einlagenrückgewähr umfasst dabei sowohl die Rückzahlung des Nennkapitals im Direktzugriff (Abschnitt 2.7.2) als auch eine Verwendung des Einlagekontos für das übrige Eigenkapital (Abschnitt 2.7.1)." },
+    ],
+  },
+  {
+    id: "kst-t7-31",
+    kapitel: "31",
+    abschnittNr: "2.8.1.1",
+    title: "2.8.1.1 Beteiligung im Privatvermögen",
+    thema: "Bei Beteiligungen i.S. des § 17 EStG erfasst § 17 Abs. 4 EStG Nennkapitalrückzahlung und Einlagenrückgewähr im Teileinkünfteverfahren; bei Anteilen unter 1 % gilt § 20 Abs. 2 Nr. 1 EStG, Verluste sind berücksichtigungsfähig",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.8.1.1 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 17 EStG",
+      "§ 17 Abs. 3 EStG",
+      "§ 17 Abs. 4 EStG",
+      "§ 3 Nr. 40c EStG",
+      "§ 3c Abs. 2 EStG",
+      "§ 20 Abs. 2 EStG",
+      "§ 20 Abs. 2 Nr. 1 EStG",
+      "§ 20 Abs. 6 Satz 6 EStG a.F.",
+      "BMF vom 19.05.2022, BStBl. I 2022, 742",
+      "BMF vom 20.12.2022, BStBl. I 2023, 46, Tz. 59 und 63",
+    ],
+    themen: ["Privatvermögen", "§ 17 EStG", "Teileinkünfteverfahren", "Freibetrag", "Veräußerungsverlust", "Insolvenz", "Kleinbeteiligung"],
+    bloecke: [
+      { typ: "titel", text: "2.8.1.1 Beteiligung im Privatvermögen" },
+      { text: "Handelt es sich um eine **Beteiligung i.S. des § 17 EStG**, wird die Nennkapitalrückzahlung und Auskehrung des steuerlichen Einlagekontos von **§ 17 Abs. 4 EStG** erfasst. Ein daraus entstehender Gewinn bzw. Verlust unterliegt dem **Teileinkünfteverfahren** (§ 3 Nr. 40c EStG, § 3c Abs. 2 EStG), welcher im Gewinnfall auch zur Anwendung des **Freibetrags i.S. des § 17 Abs. 3 EStG** führen kann. Gleiches gilt in **Insolvenzfällen**." },
+      { text: "Bei Anteilen i.S. des **§ 20 Abs. 2 EStG (Beteiligung < 1%)** erfolgt die Besteuerung nach **§ 20 Abs. 2 Nr. 1 EStG**. Ein **Veräußerungsverlust** kann ebenfalls danach berücksichtigt werden (BMF vom 19.05.2022, BStBl. I 2022, 742 und vom 20.12.2022, BStBl. I 2023, 46, Tz. 59 und 63). Die dafür bisher bestehende Einschränkung des **§ 20 Abs. 6 Satz 6 EStG a.F.** wurde zwischenzeitlich **rückwirkend und ersatzlos aufgehoben**." },
+      { typ: "tabelle", spalten: ["Beteiligung im Privatvermögen", "Erfassung der Einlagenrückgewähr", "Besonderheiten"], zeilen: [
+        ["mindestens 1 % (§ 17 EStG)", "§ 17 Abs. 4 EStG", "Teileinkünfteverfahren (§ 3 Nr. 40c, § 3c Abs. 2 EStG); Freibetrag § 17 Abs. 3 EStG möglich; gilt auch bei Insolvenz"],
+        ["unter 1 % (§ 20 Abs. 2 EStG)", "§ 20 Abs. 2 Nr. 1 EStG", "Veräußerungsverlust berücksichtigungsfähig; Einschränkung des § 20 Abs. 6 Satz 6 EStG a.F. aufgehoben"],
+      ] },
+      { text: "Anmerkung zur Rechenweise (eigene Ergänzung): Bei § 17 Abs. 4 EStG tritt die Einlagenrückgewähr an die Stelle des Veräußerungspreises. Im Beispiel 4 des Abschnitts 2.7.2.2 (Rückzahlung 50.000 €, Anschaffungskosten 100.000 €) entsteht so ein Verlust von 50.000 €, der im Teileinkünfteverfahren zu 60 % – also mit 30.000 € – berücksichtigt wird. Die Bezüge nach § 20 Abs. 1 Nr. 2 EStG, die daneben entstehen, gehören dagegen nicht in die Rechnung nach § 17 Abs. 4 EStG." },
+    ],
+  },
+  {
+    id: "kst-t7-32",
+    kapitel: "32",
+    abschnittNr: "2.8.1.2",
+    title: "2.8.1.2 Beteiligung im Betriebsvermögen",
+    thema: "Im Betriebsvermögen gilt für natürliche Personen das Teileinkünfteverfahren, für Kapitalgesellschaften § 8b Abs. 2 KStG; nach früherer gewinnwirksamer Teilwertabschreibung greifen § 3 Nr. 40 a Satz 2 EStG bzw. § 8b Abs. 2 Satz 4 KStG; Verluste sind bei Kapitalgesellschaften nicht abziehbar",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.8.1.2 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 8b Abs. 2 KStG",
+      "§ 8b Abs. 2 Satz 4 KStG",
+      "§ 8b Abs. 3 Satz 1 KStG",
+      "§ 8b Abs. 3 Satz 3 KStG",
+      "§ 3 Nr. 40 a EStG",
+      "§ 3 Nr. 40 a Satz 2 EStG",
+      "§ 3c Abs. 2 EStG",
+    ],
+    themen: ["Betriebsvermögen", "Teileinkünfteverfahren", "Steuerfreiheit", "Teilwertabschreibung", "Wertaufholung", "nicht abziehbare Betriebsausgaben", "Veräußerungsverlust"],
+    bloecke: [
+      { typ: "titel", text: "2.8.1.2 Beteiligung im Betriebsvermögen" },
+      { text: "Ein Veräußerungsgewinn unterliegt bei **natürlichen Personen** im Betriebsvermögen dem **Teileinkünfteverfahren** bzw. bei **Kapitalgesellschaften** der **Steuerfreiheit des § 8b Abs. 2 KStG**. Wurde in der Vergangenheit eine **gewinnwirksame Teilwertabschreibung** vorgenommen, sind aber die Einschränkungen des **§ 3 Nr. 40 a Satz 2 EStG** bzw. **§ 8b Abs. 2 Satz 4 KStG** zu beachten." },
+      { text: "Ein **Veräußerungsverlust** kann bei einer Kapitalgesellschaft **nicht berücksichtigt** werden (§ 8b Abs. 3 Satz 3 KStG), bei natürlichen Personen wirkt sich dieser nur in Höhe von **60%** aus (§ 3 Nr. 40 a EStG, § 3c Abs. 2 EStG)." },
+      { typ: "titel", text: "Beispiel: Teilwertabschreibung vor Einführung des § 8b KStG" },
+      { text: "Die A-GmbH ist an der B-GmbH beteiligt. Die **Anschaffungskosten** betrugen in 1990 **200.000 €** und entsprechen dem **Nominalwert** der Beteiligung. In **1997** muss die A-GmbH auf die Beteiligung eine **Teilwertabschreibung von 100.000 €** vornehmen." },
+      { text: "Die B-GmbH wird in 2024 liquidiert. Im Rahmen der Schlussauskehrung erhält die A-GmbH den **Nominalwert** der Beteiligung ausgekehrt." },
+      { text: "Lösung: Im Zuge der Schlussauskehrung bucht die A-GmbH den Vorgang wie folgt:" },
+      { typ: "tabelle", spalten: ["Soll", "Betrag", "Haben", "Betrag"], zeilen: [
+        ["Bank", "200.000 €", "Beteiligung", "100.000 €"],
+        ["", "", "Ertrag", "100.000 €"],
+      ] },
+      { text: "Der Ertrag ist **steuerpflichtig**, da dieser eine bisher **gewinnwirksame Teilwertabschreibung neutralisiert** (§ 8b Abs. 2 Satz 4 KStG)." },
+      { typ: "titel", text: "Abwandlung: Teilwertabschreibung in 2002" },
+      { text: "Die Teilwertabschreibung wurde in **2002** vorgenommen." },
+      { text: "Lösung: Der sich aus der Auskehrung des Nennkapital (so in der Quelle; richtig: Nennkapitals) ergebende Ertrag ist **steuerfrei (§ 8b Abs. 2 KStG)**, da die Teilwertabschreibung in 2002 steuerlich **nicht berücksichtigt** werden konnte (§ 8b Abs. 3 Satz 3 KStG). Gleichzeitig entstehen **nicht abziehbare Betriebsausgaben von 5.000 €** (§ 8b Abs. 3 Satz 1 KStG)." },
+      { typ: "tabelle", spalten: ["Fall", "Ertrag aus der Auskehrung", "Steuerliche Folge"], zeilen: [
+        ["Teilwertabschreibung 1997 (gewinnwirksam)", "100.000 €", "steuerpflichtig, § 8b Abs. 2 Satz 4 KStG"],
+        ["Teilwertabschreibung 2002 (nicht abziehbar)", "100.000 €", "steuerfrei, § 8b Abs. 2 KStG; 5.000 € nicht abziehbare Betriebsausgaben (5 %)"],
+      ] },
+      { text: "Anmerkung zur Einordnung (eigene Ergänzung): Dass die Auskehrung des Nennkapitals bei der Kapitalgesellschaft als Anteilseignerin überhaupt unter § 8b Abs. 2 KStG fällt, liegt daran, dass die **Auflösung** einer Veräußerung gleichgestellt ist. Das Beispiel zeigt die Wertaufholungslogik: Hat eine Teilwertabschreibung das Einkommen früher gemindert (1997, vor Geltung des § 8b KStG), soll der spätere Ertrag in derselben Höhe wieder besteuert werden; war die Abschreibung schon nicht abziehbar (2002), ist auch der Ertrag steuerfrei, allerdings mit der Pauschale von 5 % nicht abziehbarer Betriebsausgaben (5 % von 100.000 € = 5.000 €)." },
+    ],
+  },
+  {
+    id: "kst-t7-33",
+    kapitel: "33",
+    abschnittNr: "2.8.2",
+    title: "2.8.2 Übrige Auskehrung",
+    thema: "Der nicht aus dem Einlagekonto finanzierte Teil der Auskehrung – einschließlich Sonderausweis und Überhang des Nennkapitals – führt zu Einnahmen nach § 20 Abs. 1 Nr. 2 EStG: Teileinkünfteverfahren, Abgeltungsteuer oder § 8b Abs. 1 KStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.8.2 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 20 Abs. 1 Nr. 2 EStG",
+      "§ 28 Abs. 2 Satz 4 KStG",
+      "§ 3 Nr. 40 e EStG",
+      "§ 32d Abs. 1 EStG",
+      "§ 43 Abs. 5 EStG",
+      "§ 8b Abs. 1 KStG",
+      "§ 8b Abs. 4 KStG",
+    ],
+    themen: ["übrige Auskehrung", "Kapitaleinnahmen", "Sonderausweis", "Teileinkünfteverfahren", "Abgeltungsteuer", "Streubesitz", "Kapitalrückzahlung"],
+    bloecke: [
+      { typ: "titel", text: "2.8.2 Übrige Auskehrung" },
+      { text: "Die Rückzahlung des **übrigen Kapitals** – d.h. die über das steuerliche Einlagekonto hinausgehenden Beträge – führt beim Anteilseigner zu **regulären Einnahmen i.S. des § 20 Abs. 1 Nr. 2 EStG**. Darunter fällt dann auch die **Auskehrung des Sonderausweises** und der **Überhang des Nennkapitals** bei nicht ausreichendem steuerlichen Einlagekonto (§ 28 Abs. 2 Satz 4 KStG)." },
+      { text: "Die Einnahmen unterliegen beim Anteilseigner dem **Teileinkünfteverfahren (§ 3 Nr. 40 e EStG)**, wenn die Beteiligung zum **Betriebsvermögen** gehört bzw. im Privatvermögen zutreffend **zum Teileinkünfteverfahren optiert** wurde. Bei Anteilen des Privatvermögens (ohne Option) greift die **Abgeltungsteuer i.S. des § 32d Abs. 1 EStG** (§ 43 Abs. 5 EStG)." },
+      { text: "Bei **Kapitalgesellschaften** sind die Einnahmen nach **§ 8b Abs. 1 KStG steuerfrei**, wenn es sich nicht um **Streubesitzanteile i.S. des § 8b Abs. 4 KStG** handelt." },
+      { typ: "tabelle", spalten: ["Anteilseigner", "Behandlung der Einnahmen nach § 20 Abs. 1 Nr. 2 EStG"], zeilen: [
+        ["natürliche Person, Beteiligung im Betriebsvermögen", "Teileinkünfteverfahren (§ 3 Nr. 40 e EStG)"],
+        ["natürliche Person, Privatvermögen mit Option", "Teileinkünfteverfahren (§ 3 Nr. 40 e EStG)"],
+        ["natürliche Person, Privatvermögen ohne Option", "Abgeltungsteuer (§ 32d Abs. 1, § 43 Abs. 5 EStG)"],
+        ["Kapitalgesellschaft", "steuerfrei nach § 8b Abs. 1 KStG, außer Streubesitz (§ 8b Abs. 4 KStG)"],
+      ] },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH wird in 2024 abgewickelt. Zum 31.12.2024 ergibt sich laut der Liquidationsschlussbilanz ein **Eigenkapital von 500.000 €**, in dem auch das **Nennkapital mit 100.000 €** enthalten ist. Zum selben Stichtag besteht noch ein **Sonderausweis von 30.000 €**." },
+      { text: "Lösung: Der Anteilseigner erhält einen **Liquidationserlös von 500.000 €**. Dieser unterteilt sich wie folgt:" },
+      { typ: "tabelle", spalten: ["Kapitalrückzahlung", "Einnahmen § 20 EStG"], zeilen: [
+        ["70.000 €", "430.000 €"],
+      ] },
+      { text: "Herleitung (eigene Ergänzung): Die Quelle nennt nur das Ergebnis und keinen Bestand des steuerlichen Einlagekontos; die Aufteilung setzt ein Einlagekonto von 0 € vor der Auskehrung voraus. Übriges Eigenkapital 500.000 € ./. 100.000 € = 400.000 € führt zu Einnahmen nach § 20 Abs. 1 Nr. 2 EStG. Vom Nennkapital (100.000 €) wird zunächst der Sonderausweis von 30.000 € verrechnet – ebenfalls Einnahmen; nur 70.000 € sind Kapitalrückzahlung aus dem Einlagekonto. Einnahmen also 400.000 € + 30.000 € = **430.000 €**, Kapitalrückzahlung **70.000 €**, zusammen 500.000 €." },
+    ],
+  },
+  {
+    id: "kst-t7-34",
+    kapitel: "34",
+    abschnittNr: "2.9",
+    title: "2.9 Gewerbesteuer",
+    thema: "Die Gewerbesteuerpflicht endet erst mit der Verteilung des Vermögens; der im Abwicklungszeitraum entstandene Gewerbeertrag ist nach § 16 GewStDV nach Kalendermonaten auf die Erhebungszeiträume zu verteilen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.9 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 16 Abs. 1 GewStDV",
+      "§ 16 Abs. 2 GewStDV",
+      "§ 7 Satz 1 GewStG",
+      "§ 8 GewStG",
+      "§ 9 GewStG",
+      "§ 11 Abs. 2 KStG",
+      "§ 175 Abs. 1 Nr. 2 AO",
+      "R 2.6 Abs. 2 GewStR",
+      "R 7.1 Abs. 8 Satz 2 und 3 GewStR",
+      "BFH vom 05.09.2001, BStBl. II 2002, 155",
+      "BMF vom 04.04.2008, BStBl. I 2008, 542",
+      "FG Hamburg vom 25.08.2016, 5 K 53/15",
+    ],
+    themen: ["Gewerbesteuer", "Ende der Steuerpflicht", "Vollbeendigung", "Verteilung des Gewerbeertrags", "Erhebungszeitraum", "Rumpfwirtschaftsjahr", "Gewerbeverlust"],
+    bloecke: [
+      { typ: "titel", text: "2.9 Gewerbesteuer" },
+      { text: "Die **GewSt-Pflicht** erlischt nicht schon mit der Beendigung der gewerblichen Betätigung, sondern erst zu dem Zeitpunkt, in dem das **Vermögen an die Gesellschafter verteilt** worden ist (R 2.6 Abs. 2 GewStR). Denn die Kapitalgesellschaft unterliegt **kraft Rechtsform bis zur Vollbeendigung** der Gewerbesteuer (BFH vom 05.09.2001, BStBl. II 2002, 155)." },
+      { text: "Der gewerbesteuerliche Abwicklungszeitraum **entspricht grundsätzlich dem körperschaftsteuerlichen Zeitraum** (R 7.1 Abs. 8 Satz 2 und 3 GewStR). Abweichend davon ist jedoch gemäß **§ 16 Abs. 1 GewStDV** der im gesamten Abwicklungszeitraum entstandene Gewerbeertrag **gleichmäßig und somit linear auf die jährlichen Erhebungszeiträume zu verteilen**. Gleiches gilt auch in den Fällen des **Insolvenzverfahrens** (§ 16 Abs. 2 GewStDV)." },
+      { text: "Dies bedeutet, dass die Veranlagungen zur jährlichen Gewerbesteuer erst erfolgen können, wenn die jeweiligen Steuererklärungen **sämtlicher Besteuerungszeiträume** vorliegen. Der gewerbesteuerliche Abwicklungszeitraum umfasst danach immer insgesamt die Zeitspanne **vom Beginn bis zum Ende der Abwicklung** (BMF vom 04.04.2008, BStBl. I 2008, 542). Sofern sich die gewerbesteuerlichen Werte bis zur Beendigung der Liquidation noch verändern, führt dies für die vorangegangenen Erhebungszeiträume zu einer **Korrektur nach § 175 Abs. 1 Nr. 2 AO** (FG Hamburg vom 25.08.2016, 5 K 53/15)." },
+      { text: "Besteht ein Abwicklungszeitraum z.B. aus einem **dreijährigen** und einem sich anschließenden **einjährigen** Besteuerungszeitraum, setzt sich der aufzuteilende Gewerbeertrag aus der „herkömmlichen“ Gewinnermittlung zuzüglich des für den letzten Zeitraum nach § 11 Abs. 2 KStG zu ermittelnden steuerpflichtiger Abwicklungs- bzw. Liquidationsgewinn (so in der Quelle; richtig: steuerpflichtigen Abwicklungs- bzw. Liquidationsgewinns) zusammen. Dieses Ergebnis ist dann unter Berücksichtigung der **Kürzungs- und Hinzurechnungsvorschriften der §§ 8, 9 GewStG** zu verfeinern." },
+      { typ: "titel", text: "Beispiel" },
+      { text: "Die A-GmbH befindet sich seit dem Gesellschafterbeschluss zum **31.07.2018** in Liquidation. Es wurde ein **Rumpf-WJ bis Ende Juli 2018** gebildet. Die Steuererklärungen (u.a. die GewSt-Erklärung) für dieses Rumpf-WJ liegen dem FA vor. Der erklärte **Gewerbeverlust** für das Rumpf-WJ beträgt **- 9.000 €**. Der Abwicklungszeitraum beginnt am **01.08.2018** und endet mit Ablauf des Jahres **2020 (29 Monate)**. Es wurde ein **Liquidationsgewinn in Höhe von 239.000 €** ermittelt." },
+      { text: "Lösung: Für die GewSt ist der Gewinn nach **§ 16 GewStDV** auf die Jahre des Abwicklungszeitraums zu verteilen. Dabei wird der im Abwicklungszeitraum erzielte Gewerbeertrag auf die einzelnen Jahre in dem Verhältnis verteilt, in dem die **Zahl der Kalendermonate**, in denen im einzelnen Jahr die Steuerpflicht bestanden hat, zu der **Gesamtzahl der Kalendermonate** des Abwicklungszeitraums steht. Somit kommt es im Beispielsfall zu folgender Verteilung des Gewerbeertrages:" },
+      { typ: "tabelle", spalten: ["Zeitraum", "Rechnung", "Gewerbeertrag"], zeilen: [
+        ["1. WJ vom 01.08.2018 - 31.12.2018", "239.000 € x 5/29", "41.207 €"],
+        ["2. WJ vom 01.01.2019 - 31.12.2019", "239.000 € x 12/29", "98.897 €"],
+        ["3. WJ vom 01.01.2020 - 31.12.2020", "239.000 € x 12/29", "98.896 €"],
+      ] },
+      { text: "Der **Gewerbeverlust aus dem Rumpf-WJ** vom 01.01.2018 bis 31.07.2018 fließt in die GewSt-Veranlagung 2018 mit ein, so dass für das Jahr 2018 ein Betrag in Höhe von **32.207 €** zu erfassen ist. Für gewerbesteuerliche Zwecke entspricht dies den Ausgangsgrößen i.S. des **§ 7 Satz 1 GewStG** und muss jeweils durch die Kürzungs- und Hinzurechnungstatbestände i.S. der §§ 8, 9 GewStG erhöht oder vermindert werden." },
+      { text: "Nachrechnung (eigene Ergänzung): 5 + 12 + 12 = 29 Monate. 239.000 € × 5/29 = 41.206,90 €, gerundet 41.207 €; 239.000 € × 12/29 = 98.896,55 €. Die Quelle rundet den Anteil für 2019 auf (98.897 €) und setzt für 2020 den Rest an (98.896 €), damit die Summe genau 239.000 € ergibt. Für 2018: 41.207 € ./. 9.000 € = 32.207 €." },
+      { text: "Anmerkung zur Abweichung von der Körperschaftsteuer (eigene Ergänzung): Körperschaftsteuerlich wird der Gewinn des Abwicklungszeitraums in **einem** Betrag am Ende erfasst (Abschnitt 2.5.1), gewerbesteuerlich dagegen **nach Monaten verteilt**. Das wirkt sich vor allem aus, wenn sich der Hebesatz zwischen den Erhebungszeiträumen ändert oder Gewerbeverluste einzelner Jahre zu verrechnen sind – wie im Beispiel der Verlust des Rumpfwirtschaftsjahrs 2018. Die Quelle bestätigt hier im Übrigen die aktuelle Fundstelle für das Ende der Steuerpflicht (R 2.6 Abs. 2 GewStR), während sie in Abschnitt 2.5.1 noch die ältere Zitierweise „Abschn. 19 Abs. 3 Satz 2 GewStR“ verwendet." },
+    ],
+  },
+  {
+    id: "kst-t7-35",
+    kapitel: "35",
+    abschnittNr: "2.10",
+    title: "2.10 Umsatzsteuer",
+    thema: "Die Liquidation berührt die Unternehmereigenschaft nicht; die Auskehrung von Gegenständen an Gesellschafter ist ein tauschähnlicher Umsatz; Auswirkungen von Liquidation und Insolvenz auf die umsatzsteuerliche Organschaft",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.10 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 3 Abs. 12 Satz 2 UStG",
+      "Abschn. 2.6 Abs. 6 Satz 8 UStAE",
+      "Abschn. 2.8 Abs. 8 UStAE",
+      "BFH vom 09.12.1993, BStBl. II 1994, 483",
+      "Verfügung der OFD Frankfurt/Main vom 06.09.2023, S 7105 A-00066-0357-St1-St 110.2",
+    ],
+    themen: ["Umsatzsteuer", "Unternehmereigenschaft", "tauschähnlicher Umsatz", "Schlussverteilung", "umsatzsteuerliche Organschaft", "Insolvenz", "organisatorische Eingliederung"],
+    bloecke: [
+      { typ: "titel", text: "2.10 Umsatzsteuer" },
+      { text: "Die Liquidation **berührt die Unternehmereigenschaft** der Kapitalgesellschaft **nicht**. Die aufgelöste Kapitalgesellschaft kann daher sogar noch **nach Löschung im Handelsregister** eigene Umsätze ausführen (Abschn. 2.6 Abs. 6 Satz 8 UStAE; BFH vom 09.12.1993, BStBl. II 1994, 483). Die Gesellschaft muss daher weiterhin **USt-Voranmeldungen und Jahreserklärungen** abgeben. Einen **mehrjährigen umsatzsteuerlichen Besteuerungszeitraum gibt es** daher **nicht**." },
+      { text: "Die im Wege der Auflösung erzielten Umsätze stellen daher **normale umsatzsteuerbare Lieferungen/sonstige Leistungen** dar. Liefert die Kapitalgesellschaft hingegen im Rahmen der **Vorabauskehrung** bzw. bei der **Schlussverteilung** die verbliebenen Gegenstände des Unternehmensvermögens an ihre Gesellschafter bzw. deren nahestehende Personen, erbringt die Gesellschaft diesbezüglich ebenfalls **steuerbare Leistungen** an die Gesellschafter. Dabei handelt sich (so in der Quelle; es fehlt „es“) um **tauschähnliche Umsätze gemäß § 3 Abs. 12 Satz 2 UStG**, weil Gegenleistung dafür in aller Regel die **Hingabe der Gesellschaftsrechte** ist." },
+      { typ: "titel", text: "Umsatzsteuerliche Organschaft bei Liquidation" },
+      { text: "Die Liquidation/Insolvenz kann daneben auch Auswirkungen auf eine bestehende **umsatzsteuerliche Organschaft** haben (Verfügung der OFD Frankfurt/Main vom 06.09.2023, S 7105 A-00066-0357-St1-St 110.2). Diesbezüglich ist im Falle einer Liquidation zwischen der Ebene des **Organträgers** bzw. der **Organgesellschaft** zu differenzieren:" },
+      { text: "– Auf der Ebene der **Organgesellschaft** hat der Beschluss über die Auflösung der Gesellschaft **keinen Einfluss** auf die Organschaft. Die Organgesellschaft rechnet so lange zum Unternehmen des Organträgers, bis die Liquidation abgeschlossen und das vorhandene Gesellschaftsvermögen veräußert ist. Dies gilt selbst dann, wenn im Rahmen der Liquidation nur noch Umsätze aus der Verwertung sicherungsübereigneter Gegenstände bewirkt werden (so in der Quelle; es fehlt der Satzpunkt) Die Organschaft endet – auch bei **Vermögenslosigkeit** der Organgesellschaft – erst, wenn **alle Rechtsbeziehungen** der Organgesellschaft abgewickelt sind." },
+      { text: "– Die Liquidation des **Organträgers** führt dagegen **regelmäßig zur Beendigung** der Organschaft, weil mit der Einstellung der aktiven unternehmerischen Tätigkeit des Organträgers die **wirtschaftliche Eingliederung** der Organgesellschaft entfällt (Abschn. 2.8 Abs. 8 UStAE)." },
+      { typ: "titel", text: "Umsatzsteuerliche Organschaft bei Insolvenz" },
+      { text: "Im Falle einer **Insolvenz** ist diesbezüglich folgendes zu beachten:" },
+      { text: "– Wird bei der **Organgesellschaft** das Insolvenzverfahren eröffnet, **endet** damit auch die umsatzsteuerliche Organschaft. Dies führt zur Beendigung der **organisatorischen Eingliederung**, weil die bisherigen Rechte nunmehr vom Insolvenzverwalter wahrgenommen werden, der mit dem Geschäftsführer des Organträgers nicht identisch ist." },
+      { text: "– Unterliegt der **Organträger** dem Insolvenzverfahren, kann das bisherige Organschaftsverhältnis **unter Umständen fortgeführt** werden. Dafür ist entscheidend, ob der Insolvenzverwalter des Organträgers auch in der Organgesellschaft **seinen Willen durchsetzen** kann und damit die Voraussetzungen der organisatorischen Eingliederung gegeben sind." },
+      { text: "– Erstreckt sich das Insolvenzverfahren sowohl auf den Organträger und (so in der Quelle; richtig: als auch auf) die Organgesellschaft, kommt es auf die **Stellung des Insolvenzverwalters** an. Verfügt der Insolvenzverwalter über **beide Gesellschaften**, bleibt das Organschaftsverhältnis **unverändert bestehen**. Bei **unterschiedlichen Insolvenzverwaltern** wird die Organschaft mangels organisatorischer Eingliederung beendet." },
+      { typ: "tabelle", spalten: ["Ereignis", "Folge für die umsatzsteuerliche Organschaft (laut Quelle)"], zeilen: [
+        ["Liquidation der Organgesellschaft", "kein Einfluss; Ende erst, wenn alle Rechtsbeziehungen abgewickelt sind"],
+        ["Liquidation des Organträgers", "regelmäßig Ende (Wegfall der wirtschaftlichen Eingliederung)"],
+        ["Insolvenz der Organgesellschaft", "Ende (Wegfall der organisatorischen Eingliederung)"],
+        ["Insolvenz des Organträgers", "Fortführung unter Umständen möglich, wenn der Insolvenzverwalter seinen Willen in der Organgesellschaft durchsetzen kann"],
+        ["Insolvenz beider Gesellschaften", "derselbe Insolvenzverwalter: Fortbestand; unterschiedliche Insolvenzverwalter: Ende"],
+      ] },
+      { text: "Hinweis zur Aktualität (eigene Ergänzung): Die Aussagen zur Insolvenz des Organträgers und zur Insolvenz beider Gesellschaften mit demselben Insolvenzverwalter sind in Rechtsprechung und Verwaltungsanweisungen umstritten und haben sich im Lauf der Zeit verändert. Vor einer Verwendung in der Klausur sollten sie am jeweils geltenden UStAE (Abschn. 2.8) überprüft werden." },
+      { text: "Anmerkung zur Abgrenzung (eigene Ergänzung): Während Körperschaft- und Gewerbesteuer den Abwicklungszeitraum als Einheit behandeln, bleibt die Umsatzsteuer beim **Kalenderjahr** als Besteuerungszeitraum. Für die Klausur ist vor allem die Schlussverteilung wichtig: Die Übertragung von Gegenständen an den Gesellschafter ist **kein unentgeltlicher Vorgang**, sondern ein **tauschähnlicher Umsatz** gegen Hingabe der Gesellschaftsrechte." },
     ],
   },
 ];

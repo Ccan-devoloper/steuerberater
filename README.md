@@ -5649,8 +5649,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 - **KSt Teil VII (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VII (Liquidation)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VII: Liquidation (§ 11 KStG)“** (21. Auflage,
-  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 29 Kapitel mit 313 Abschnitten und 34 Tabellen;
-  Kapitel 1 des Skripts (zivilrechtlicher Hintergrund) ist **vollständig**. Der Liquidation ist die
+  Stand 06/2025) im Wortlaut – **vollständig** mit 35 Kapiteln, 373 Abschnitten und 41 Tabellen
+  über beide Kapitel und 28 Seiten. Der Liquidation ist die
   **Auflösung** vorgeschaltet, und beide Vorgänge sind streng zu trennen: Die Auflösung ist das
   auslösende Ereignis – ein Gesellschafterbeschluss mit qualifizierter Mehrheit, der Ablauf der
   bestimmten Zeit, die Eröffnung des Insolvenzverfahrens oder deren Abweisung mangels Masse, eine
@@ -5783,7 +5783,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Nennkapital** im Direktzugriff nach § 28 Abs. 2 KStG; ein **Sonderausweis** wird vorrangig
   verrechnet und führt insoweit zu Bezügen nach § 20 Abs. 1 Nr. 2 EStG. Vier Beispiele zeigen die
   Aufteilung in Bezüge und Einlagenrückgewähr bis hin zum Fall, dass das verteilbare Vermögen unter
-  dem Nennkapital liegt.
+  dem Nennkapital liegt. Beim **Anteilseigner** erfasst § 17 Abs. 4 EStG (Teileinkünfteverfahren)
+  bzw. § 20 Abs. 2 Nr. 1 EStG die Einlagenrückgewähr im Privatvermögen; im Betriebsvermögen einer
+  Kapitalgesellschaft gilt § 8b Abs. 2 KStG mit der Ausnahme für frühere gewinnwirksame
+  Teilwertabschreibungen (§ 8b Abs. 2 Satz 4 KStG). Der übrige Teil – einschließlich Sonderausweis –
+  führt zu Einnahmen nach § 20 Abs. 1 Nr. 2 EStG (im Beispiel 430.000 € neben 70.000 €
+  Kapitalrückzahlung). Die **Gewerbesteuerpflicht** endet erst mit der Vermögensverteilung, und § 16
+  GewStDV verteilt den Gewerbeertrag nach Monaten (239.000 € × 5/29, 12/29, 12/29). Die
+  **Umsatzsteuer** kennt keinen mehrjährigen Zeitraum; die Auskehrung von Gegenständen ist ein
+  tauschähnlicher Umsatz, und für die Organschaft unterscheidet die Quelle Liquidation und
+  Insolvenz von Organträger und Organgesellschaft.
+  Damit ist das Skript vollständig abgebildet; sämtliche Zahlen sind unabhängig nachgerechnet.
   Prüfung: `npm run check:k2-kst-teil7`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`
