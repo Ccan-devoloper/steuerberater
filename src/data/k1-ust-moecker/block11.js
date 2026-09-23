@@ -5,7 +5,7 @@
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
    In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 12 (PDF-Seite 72). */
+   A 16 (PDF-Seite 76). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1291,6 +1291,74 @@ export const block11 = [
         ["Zuordnung der Leistung zum Unternehmen (vgl. Übersichten A 3 bis A 5)", "LE = der vertraglich Verpflichtete (Abschn. 15.2b Abs. 1 UStAE) ☞ Nur er ist zum Vorsteuerabzug berechtigt"],
         ["Maßgebend Verhältnisse im Zeitpunkt des Leistungsbezugs (Anschaffung privat, später Einlage ⇨ Keine Vorsteuern, auch kein § 15a UStG)", "Problemfälle: Arbeitgeber oder Arbeitnehmer; Ehegattengemeinschaft (Bruchteilsgemeinschaft / Kostenteilungsgemeinschaft, vgl. A 13 bis A 17); LE Gesellschaft oder Gesellschafter (vgl. A 18)"],
         ["✍ lesen Abschn. 15.2b Abs. 3 UStAE", ""],
+      ] },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-40",
+    teil: TEIL,
+    kapitel: "40",
+    abschnittNr: "A 13 und A 14",
+    title: "Arbeitspapiere A 13 und A 14: Vorsteuern bei nichtunternehmerischen Gemeinschaften – Fallgruppe 1 (alle Gemeinschafter Unternehmer)",
+    thema: "Entscheidender Unterschied zwischen unternehmerischem und nichttätigem Gebilde, Leistungsempfänger quotal je Gemeinschafter, Änderung des § 2 Abs. 1 Satz 1 UStG durch das JStG 2022, Erwerb eines Krans durch eine nichtunternehmerische Bruchteilsgemeinschaft (BFH v. 28.08.2014) und Aufbewahrung der Rechnung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 13 und A 14"),
+    verfasser: VERFASSER,
+    normen: ["§ 2 Abs. 1 Satz 1 UStG", "Abschn. 2.1 Abs. 2 Satz 2 und 3 UStAE", "Abschn. 3.5 Abs. 2 Nr. 6 Satz 3 UStAE", "Abschn. 14b.1 Abs. 1 Satz 3 UStAE", "Abschn. 15.2b Abs. 1 Satz 7 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Bruchteilsgemeinschaft", "Leistungsempfänger"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 13 – 4.1. Vorsteuern bei nichtuntern. Gemeinschaften" },
+      { text: "**Entscheidender Unterschied**" },
+      { typ: "tabelle", spalten: ["", "Gebilde A + B (wirtschaftlich tätige Rechtsperson)", "Gebilde A + B (nichttätige Rechtsperson)"], zeilen: [
+        ["Einordnung", "= Unternehmer", "= nichtunternehmerische Gemeinschaft"],
+        ["Folge", "Kann LU oder LE sein", "Kein LU + kein LE"],
+        ["Leistungsempfänger", "LE = Gebilde als solches", "LE = jeder Gemeinschafter quotal"],
+        ["Fundstelle", "Umkehrschluss (entgegen BFH v. 22.11.2018)", "Abschn. 15.2b Abs. 1 Satz 7 UStAE"],
+      ] },
+      { text: "**Vgl: auch Abschn. 2.1 Abs. 2 S. 2 und 3 UStAE**\n²Unternehmer kann auch eine Bruchteilsgemeinschaft sein. ³Vermieten Ehegatten mehrere in ihrem Bruchteilseigentum stehende Grundstücke, ist die jeweilige Bruchteilsgemeinschaft ein gesonderter Unternehmer," },
+      { text: "**Beachte: Änderung des § 2 Abs. 1 Satz 1 durch das JStG 2022**\nUnternehmer ist, wer eine gewerbliche oder berufliche Tätigkeit selbstständig ausübt, **unabhängig davon, ob er nach anderen Vorschriften rechtsfähig ist.**\n➢ Die Unternehmereigenschaft besteht somit unabhängig davon, ob der Handelnde nach anderen Vorschriften (BGB, HGB, GmbHG usw.) rechtsfähig ist.\n➢ Damit können auch nicht rechtsfähige Personengemeinschaften (z.B. Bruchteilsgemeinschaften, Grundstücksgemeinschaften, WEG usw.) Unternehmer sein" },
+      { typ: "titel", text: "Arbeitspapier A 14 – Fallgruppe 1: Erwerb durch nichtunt. Bruchteilsgemeinschaft (alle Gem. Unternehmer)" },
+      { text: "Kran – Lieferant 200 zzgl. 19% an das **Gebilde**, bestehend aus Bauunt. A (Anteil 20%) und Bauunt. B (Anteil 80%). (Kennung in der Quelle: 801-05/11-21)" },
+      { typ: "tabelle", spalten: ["", "Bauunt. A", "Bauunt. B"], zeilen: [
+        ["Anteil", "20%", "80%"],
+        ["Vorsteuer", "Vorst A 20 %", "Vorst B 80 %"],
+        ["Zuordnung", "Damit 20% UV", "Damit 80% UV"],
+        ["B verkauft Anteil an A für 100 zzgl. 19%", "A - Anteil 20 %; A - Vorst 19%", "B - Anteil 80 %"],
+      ] },
+      { text: "**BFH v. 28.8.2014:**\n• A und B je originäres eigenes Nutzungsrecht (Miteigentumsanteil)\n• A und B jeweils selbst Leistungsempfänger" },
+      { text: "Nachrechnung (eigene Ergänzung): USt auf den Kran 19 % von 200 = 38; davon Vorsteuer A 20 % = 7,60 und Vorsteuer B 80 % = 30,40. Aus dem Verkauf des Anteils durch B (100 zzgl. 19 %) hat A eine Vorsteuer von 19 (die Angabe „A - Vorst 19%“ der Quelle bezeichnet den Steuersatz auf den Kaufpreis von 100)." },
+      { text: "**Abschnitt 3.5 (2) Nr. 6 Satz 3:**\n„³Die Gemeinschafter einer nicht selbst unternehmerisch tätigen Bruchteilsgemeinschaft (vgl. Abschnitt 15.2b Abs. 1) können über ihren Anteil an dem Gegenstand ohne Zwischenerwerb durch die Gemeinschaft verfügen und ihn veräußern (BFH-Urteil vom 28. 8. 2014, V R 49/13, BStBl 2021 II S. xxx (so in der Quelle; Seitenzahl nicht angegeben)).“" },
+      { text: "**Abschnitt 14b.1 Abs. 1 Satz 3 UStAE:**\n„³Sind bei gemeinsamem **Leistungsbezug** durch mehrere Personen **die einzelnen Gemeinschafter** als LE anzusehen (vgl. Abschnitt 15.2b Abs. 1), hat einer dieser Gemeinschafter das Original der Rechnung und jeder andere **unternehmerisch tätige Gemeinschafter** zumindest eine Ablichtung der Rechnung aufzubewahren.“" },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-41",
+    teil: TEIL,
+    kapitel: "41",
+    abschnittNr: "A 15 und A 16",
+    title: "Arbeitspapiere A 15 und A 16: Fallgruppe 2 (nur ein Gemeinschafter Unternehmer) und Kostenteilungsgemeinschaften",
+    thema: "Rechtssache HE (BFH v. 06.10.2005, EuGH v. 21.04.2005 C-25/03): Ehegatten-Grundstücksgemeinschaft mit Praxis des Unternehmerehegatten, ideelle Aufteilung als Leistungsempfänger, Vorsteuer höchstens in Höhe des Miteigentumsanteils, Zuordnungswahlrecht, Rechnungsanforderungen; Büro- und Hallengemeinschaften",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 15 und A 16"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1 Nr. 1 UStG", "Abschn. 15.2a Abs. 3 UStAE", "Abschn. 15.2b Abs. 1 Satz 7 und 8 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Ehegattengemeinschaft", "Kostenteilungsgemeinschaft"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 15 – Fallgruppe 2: Erwerb durch nichtunt. Bruchteilsgemeinschaft (nur ein Gem. ist Unternehmer)" },
+      { text: "**Beispiel.** (BFH vom 06.10.05 in BStBl 2007 II S. 13 – Urteil Rs. HE & EuGH vom 21.04.2005 C-25/03 in UR 2005 S. 324)\n**Eheleute HE bilden eine Grundstücksgemeinschaft (Bruchteilsgemeinschaft). Beide Ehegatten errichten ein Gebäude. Im Erdgeschoss betriebliche Nutzung durch Unternehmerehegatten EM ohne weitere Absprache**" },
+      { typ: "tabelle", spalten: ["Bauuntern.", "Gebäude", "Eigentümer"], zeilen: [
+        ["Rechnung an Eheleute HE; USt = 40.000 €", "Obergeschoss: Wohnung der Eheleute; Erdgeschoss: RA-Praxis Ehemann = 50% Nutzfläche", "Eheleute HE: EF 75%, EM 25%"],
+      ] },
+      { text: "☑ LE grds. die Eheleute HE als Auftraggeber (Bruchteilsgemeinschaft)\n☑ Ist das „Gebilde“ selbst kein Unternehmer, gilt (Abschn. 15.2b Abs. 1 S. 7 u. 8 UStAE) als **Leistungsempfänger** EM zu 25 % ideell, EF zu 75 % ideell\n☑ Praxis (50% Nutzfläche) fällt damit zu 100% in den Eigentumsanteil (25%) des EM und ist dem Unternehmensvermögen zuzuordnen.\n☑ Somit Vorst EM = 25% (max. sein Anteil) von 40.000 € = 10.000 €\n☑ EM stünde bei teilunternehmerischer Nutzung (z.B. 15% Büro / 10% eigene Wohnung) das Zuordnungswahlrecht bezogen auf seinen Anteil am Miteigentum zu.\n☑ Keine Vorst EF da kein Unternehmer; (Bei Vermietung Büroanteil der EF an EM = weitere 25% Vorst)\n☑ Rechnung auf Name Eheleute ist zutreffend. Ausreichend Original bei HE und Aufzeichnung seines Anteils und Name anderer Gemeinschafter (Abschn. 15.2a Abs. 3 UStAE)." },
+      { text: "Nachrechnung (eigene Ergänzung): 25 % von 40.000 € = 10.000 €; der Anteil der EF von 75 % entspricht 30.000 €. Rechnerisch entsprechen die „weiteren 25% Vorst“ bei Vermietung des Büroanteils der EF an EM der Differenz von 50 % Nutzfläche und 25 % Anteil des EM, also weiteren 10.000 €." },
+      { typ: "titel", text: "Arbeitspapier A 16 – Beisp. Bürogemeinschaft / Hallengemeinschaft (sog. Kostenteilungsgemeinschaften)" },
+      { typ: "tabelle", spalten: ["RA 1", "Büro", "RA 2"], zeilen: [
+        ["trägt ½ der Kosten", "Möbel, Räume, Personal", "trägt ½ der Kosten"],
+        ["Beratung an Mandant gegen Geld", "Gemeinschaft als „Gebilde“ kein Unternehmer, da keine wirtschaftlichen Tätigkeiten im LAT", "Beratung an Mandant gegen Geld"],
+        ["", "Für Gemeinschaft keine Vorst / keine USt", ""],
+        ["Vorst RA 1", "Aber Vorst aufzuteilen", "Vorst RA 2"],
       ] },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],

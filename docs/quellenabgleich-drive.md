@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 13 bis A 16
+
+Übernommen (PDF-Seiten 73 bis 76, Seiten gerendert und angesehen): Kapitel ust-m-b11-40 (A 13 Vorsteuern bei nichtunternehmerischen Gemeinschaften, Änderung § 2 Abs. 1 Satz 1 UStG durch das JStG 2022; A 14 Fallgruppe 1, Kranerwerb, Abschn. 3.5 und 14b.1 UStAE) und ust-m-b11-41 (A 15 Fallgruppe 2, Rechtssache HE; A 16 Büro-/Hallengemeinschaft). Schaubilder als Tabellen wiedergegeben.
+
+- Quellenmarkierung: A 14 zitiert „BStBl 2021 II S. xxx“ ohne Seitenzahl.
+- Stillschweigend berichtigt: „Baunt. A“ → „Bauunt. A“; „Ab. 15.2b“ → „Abschnitt 15.2b“ (im UStAE-Zitat).
+- Nachrechnungen (eigene Ergänzung): A 14 Vorsteuer 7,60 / 30,40 aus 38 und 19 aus dem Anteilsverkauf; A 15 25 % von 40.000 € = 10.000 € und weitere 25 % = 10.000 €. Alle stimmig.
+
+Prüfung danach: 12 Teile, 446 Kapitel, 6229 Blöcke, 333 Tabellen.
+
+Weiter mit: Arbeitspapier A 17, PDF-Seite 77.
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 9 bis A 12
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-38` (A 9/A 10 mittelbare
