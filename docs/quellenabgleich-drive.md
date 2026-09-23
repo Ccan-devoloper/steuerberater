@@ -10623,6 +10623,23 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 32 bis A 36
+
+In `src/data/k1-ust-moecker/block08-1.js` neues Kapitel `ust-m-b08-1-51` (A 32 bis A 36
+Reihengeschäft innerhalb der EU: Maschine Kiel–Köln–Lüttich–Brüssel mit vier
+Transportvarianten und Wortlaut des § 3 Abs. 6a Sätze 2 bis 5 UStG) für die PDF-Seiten 93 bis
+97. Stand des USt-Skripts: 8 Teile, 214 Kapitel, 3605 Blöcke, 193 Tabellen.
+
+**Quellbefunde (markiert):** In A 35 und A 36 wird die ruhende Lieferung BU 2 an BU 1 nach § 3
+Abs. 7 Satz 2 Nr. 2 UStG in „Lüttich“ verortet; die Beförderung endet aber beim Abnehmer BU 1
+in Brüssel. In A 35 wird die Steuerfreiheit der Lieferung DU 1 an BU 2 mit der „IdNr. BU 1 aus
+BE“ begründet; Abnehmer dieser Lieferung ist BU 2.
+
+**Stillschweigend berichtigt:** „lex spezialis“ (specialis), „EU - Staaten“, „i.g.Erwerb“,
+„BU 2sieht“, „S.1“, „–Kiel“, Leerzeichen in Klammern; Satzzahlen der Gesetzeszitate hochgestellt.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab A 37 (PDF-Seite 98).
+
 ### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 27 bis A 31
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-49` (A 27 und A 28

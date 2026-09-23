@@ -2,7 +2,7 @@
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
    In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere A 1 bis
-   A 31 (PDF-Seiten 62 bis 92) eingepflegt, weitere folgen. */
+   A 36 (PDF-Seiten 62 bis 97) eingepflegt, weitere folgen. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -1453,6 +1453,49 @@ export const block08Teil1 = [
       { typ: "titel", text: "Arbeitspapier A 31 – 4.6 Sonstige Pflichten" },
       { text: "• **Ausgangsrechnung gem. § 14a Abs. 3 UStG** ➔ Bis zum 15. des Folgemonats der Lieferung ➔ Hinweis auf Steuerbefreiung und Angabe beider USt-IdNrn. ➔ Gehört zum Belegnachweis § 17a UStDV ➔ Aufbewahrungspflicht 10 Jahre; Bußgeld gem. § 26a Nr. 1 UStG droht." },
       { text: "• **gesonderte Erklärung § 18b UStG** (in der USt-VA) ➔ Dient Abgleich mit Daten in der ZM • **Zusammenfassende Meldung § 18a UStG** ➔ Nichtabgabe / unrichtige Abgabe bzw. verspätete Abgabe ohne unterlassene Berichtigung können zur **Steuerpflicht** und zum **Bußgeld** – § 26a UStG – führen • **Aufzeichnungen** § 22 (2) Nr. 1 UStG" },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-51",
+    teil: TEIL,
+    kapitel: "51",
+    abschnittNr: "A 32 bis A 36",
+    title: "Arbeitspapiere A 32 bis A 36: Das Reihengeschäft innerhalb der EU",
+    thema: "Abgrenzung Dreiecksgeschäft und Reihengeschäft innerhalb der EU und Maschine Kiel–Köln–Lüttich–Brüssel nach Abschn. 3.14 Abs. 13 UStAE mit Transport durch den ersten Unternehmer, den letzten Abnehmer, den belgischen Zwischenhändler (Vermutung) und den deutschen Zwischenhändler mit deutscher USt-IdNr. (widerlegte Vermutung) sowie Wortlaut des § 3 Abs. 6a Sätze 2 bis 5 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 32 bis A 36"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 Satz 1 UStG", "§ 3 Abs. 6a Sätze 2 bis 5 UStG", "§ 3 Abs. 7 Satz 2 Nr. 1 und 2 UStG", "§ 3d Sätze 1 und 2 UStG", "§ 6a UStG", "§ 25b UStG", "Abschn. 3.14 Abs. 13 UStAE"],
+    themen: ["Arbeitspapier", "Reihengeschäft", "innergemeinschaftliche Lieferung", "innergemeinschaftlicher Erwerb", "Straferwerb", "Zwischenhändler"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 32 – 5. Das Reihengeschäft innerhalb der EU" },
+      { typ: "tabelle", spalten: ["Grundsätze des innergem. Dreiecksgeschäftes gem. § 25b UStG", "Grundsätze des Reihengeschäftes nach § 3 Abs. 6a in Verbindung Abs. 6 und 7"], zeilen: [
+        ["– wenn 3 Unternehmer – aus 3 EU-Staaten beteiligt sind ➔ mit Verlagerung der Steuerschuld lex specialis", "– wenn § 25b UStG nicht erfüllt ➔ Nur 1 bewegte Lieferung (stfrei § 6a) ➔ Nur LE dieser Lieferung kann i.g. Erwerb haben."],
+      ] },
+      { text: "Bei Reihengeschäften mit Warenbewegung EU – EU gelten die Grundsätze der linken oder der rechten Spalte (Schaubild der Quelle als Tabelle; eigene Ergänzung zur Darstellung)." },
+      { text: "**➔ Warenbewegung von DE => in die EU (vgl. Abschn. 3.14 Abs. 13 UStAE):** **Belgischer Unternehmer BU 1 aus Brüssel** bestellt Maschine bei **BU 2 aus Lüttich**. BU 2 bestellt seinerseits bei **DU 1 in Köln**. DU 1 wiederum gibt die Bestellung an den **Hersteller DU 2 aus Kiel** weiter. Alle Unternehmer mit IdNr. aus Sitzstaat." },
+      { text: "Schaubild: Rechnungsweg (Kiel) DU 2 ➔ DU 1 ➔ BU 2 ➔ BU 1 (Brüssel); Warenweg von Kiel unmittelbar nach Brüssel." },
+      { typ: "titel", text: "Arbeitspapier A 33 – Transport durch den „Ersten“ Unternehmer (DU 2 – Kiel)" },
+      { text: "❖ Beim Transport durch den 1. Unternehmer sieht § 3 Abs. 6a Satz 2 UStG folgende Regelungen vor: „² Wird der Gegenstand der Lieferung dabei durch den ersten Unternehmer in der Reihe befördert oder versendet, ist die Beförderung oder Versendung seiner Lieferung zuzuordnen.“" },
+      { typ: "tabelle", spalten: ["Bewegte Lieferung", "Erwerb und unbewegte Lieferungen"], zeilen: [
+        ["DU 2 ➔ DU 1: bewegte Lieferung § 3 Abs. 6a Satz 2 UStG. Ort = Kiel. Grds. steuerfreie innergem. Lieferung wenn DU 1 IdNr. aus einem anderen MS (als DE) verwendet hätte; hier also steuerpflichtig mangels ausländischer USt-IdNr.", "DU 1: Innergem. Erwerb in BE § 3d Satz 1 + Vorst & Straferwerb in DE gem. § 3d Satz 2 (keine Vorst). Lieferung DU 1 ➔ an BU 2: unbewegte Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 2 UStG in Belgien; dort steuerpflichtig. Lieferung BU 2 ➔ an BU 1: Unbewegte Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 2 UStG in Belgien"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 34 – Transport durch „Letzten“ Abnehmer (BU 1)" },
+      { text: "❖ Beim Transport durch den Letzten (BU 1) sieht § 3 Abs. 6a Satz 3 UStG folgende Regelungen vor: „³ Wird der Gegenstand der Lieferung durch den letzten Abnehmer befördert oder versendet, ist die Beförderung oder Versendung der Lieferung an ihn zuzuordnen.“" },
+      { typ: "tabelle", spalten: ["Bewegte Lieferung", "Erwerb und unbewegte Lieferungen"], zeilen: [
+        ["BU 2 ➔ BU 1: bewegte Lieferung § 3 Abs. 6a Satz 3 UStG. Ort = Gem. § 3 Abs. 6 S. 1 UStG in Kiel. Steuerfreie innergem. Lieferung. Registrierung BU 2 in DE, Abgabe ZM mit USt-IdNr. aus DE (sonst steuerpflichtig), Buch-Belegnachweis in DE. BU 1: Innergem. Erwerb in BE § 3d Satz 1 + Vorst", "Lieferung DU 2 ➔ an DU 1: unbewegte Lieferung § 3 Abs. 6a Satz 3 UStG vor der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 1 UStG in Kiel. Steuerbar und steuerpflichtig. Lieferung DU 1 ➔ an BU 2: unbewegte Lieferung vor der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 1 UStG in Kiel. Steuerbar und steuerpflichtig"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 35 – Transport durch „Zwischenhändler 2“ (BU 2)" },
+      { text: "❖ Beim Transport durch den ZH BU 2 sieht § 3 Abs. 6a Satz 4 UStG folgende Regelungen vor – **Gesetzliche Vermutungsregel**: „⁴ Wird der Gegenstand der Lieferung durch einen Abnehmer befördert oder versendet, der zugleich Lieferer ist (Zwischenhändler), ist die Beförderung oder Versendung der Lieferung an ihn zuzuordnen, es sei denn, er weist nach, dass er den Gegenstand als Lieferer befördert oder versendet hat.“" },
+      { typ: "tabelle", spalten: ["Bewegte Lieferung", "Erwerb und unbewegte Lieferungen"], zeilen: [
+        ["DU 1 ➔ BU 2 (VERMUTUNG): bewegte Lieferung gem. § 3 Abs. 6a Satz 4 1. Alt. UStG. Ort = Gem. § 3 Abs. 6 S. 1 UStG in Kiel. Steuerfreie innergem. Lieferung, da IdNr. BU 1 (so in der Quelle; Abnehmer dieser Lieferung ist BU 2) aus BE. BU 2: Innergem. Erwerb in BE § 3d Satz 1 + Vorst", "Lieferung DU 2 ➔ an DU 1: Unbewegte Lieferung vor der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 1 UStG in Kiel. Steuerbar und steuerpflichtig. Lieferung BU 2 ➔ an BU 1: Unbewegte Lieferung nach der bewegten Lieferung mit Ort gem. § 3 Abs. 7 S. 2 Nr. 2 UStG in Lüttich (so in der Quelle; die Beförderung endet beim Abnehmer BU 1 in Brüssel); in DE nicht steuerbar. In BE steuerbar und steuerpflichtig."],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 36 – Transport durch „Zwischenhändler 1“ (DU 1)" },
+      { text: "❖ Beim Transport durch den „deutschen“ ZH DU 1 sieht § 3 Abs. 6a Satz 5 UStG folgende (Ausnahme) Regelungen vor – **Widerlegte Vermutung (durch Gesetz)**: „⁵ Gelangt der Gegenstand der Lieferung aus dem Gebiet eines Mitgliedstaates in das Gebiet eines anderen Mitgliedstaates und verwendet der Zwischenhändler gegenüber dem leistenden Unternehmer bis zum Beginn der Beförderung oder Versendung eine Umsatzsteuer-Identifikationsnummer, die ihm vom Mitgliedstaat des Beginns der Beförderung oder Versendung erteilt wurde, ist die Beförderung oder Versendung seiner Lieferung zuzuordnen.“" },
+      { typ: "tabelle", spalten: ["Bewegte Lieferung", "Erwerb und unbewegte Lieferungen"], zeilen: [
+        ["DU 1 ➔ BU 2 (WIDERLEGTE VERMUTUNG): bewegte Lieferung § 3 Abs. 6a Satz 4 und 5 UStG. Ort = Kiel. Steuerfreie innergem. Lieferung. BU 2: Innergem. Erwerb in BE § 3d Satz 1 + Vorst", "Lieferung DU 2 ➔ an DU 1: Unbewegte Lieferung vor der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 1 UStG in Kiel. Steuerbar und steuerpflichtig. Lieferung BU 2 ➔ an BU 1: Unbewegte Lieferung nach der bewegten mit Ort § 3 Abs. 7 S. 2 Nr. 2 UStG in Lüttich (so in der Quelle; die Beförderung endet in Brüssel); in DE nicht steuerbar, In BE steuerbar und steuerpflichtig."],
+      ] },
+      { text: "Die Gegenüberstellungen sind als Tabellen wiedergegeben; die Spaltenköpfe sind eigene Ergänzung zur Darstellung. Die Satzzahlen der zitierten Gesetzessätze sind hochgestellt." },
     ],
   },
 ];
