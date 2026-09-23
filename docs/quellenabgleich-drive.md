@@ -10623,6 +10623,37 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: III.6.4 bis III.6.6
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-25` (III.6.4 Umfang und
+Nebenleistungen, PV-Strom, Inventar), `ust-m-b08-2-26` (III.6.5 Vertragsarten) und
+`ust-m-b08-2-27` (III.6.6 Ausschluss nach § 4 Nr. 12 Satz 2 UStG: Beherbergung, Stellplätze,
+Camping, Betriebsvorrichtungen mit „AKTUELL“-Kasten zu BFH V R 7/23) für die PDF-Seiten 41
+bis 47. Stand des USt-Skripts: 9 Teile, 247 Kapitel, 4016 Blöcke, 206 Tabellen.
+
+**Quellenfehler (im Text markiert):** Aktenzeichen FG Düsseldorf „1 K 1801/2w1 U“ offenbar
+verstümmelt; nicht ergänzt.
+
+**Offen gelassen:** „BFH, Urteil v. 19. 5. 1994 - VII R 102/93“ (VII. Senat) so übernommen,
+nicht nachgeprüft.
+
+**Darstellung:** eingerückte Rechtsprechungshinweise unter den Nebenleistungen mit „–“
+angeschlossen; „AKTUELL“-Randvermerk als Absatzbeginn (beides vermerkt bzw. ohne
+Inhaltsänderung).
+
+**Stillschweigend berichtigt:** „in unmittelbaren Zusammenhang“, „reine … Grundstückspacht-
+vertrag“ (Verträge), „Miet - oder“, „entscheiden“ (zweimal, entschieden), „selbständige zu
+beurteilende“, „SSchätzungswege)aufzugliedern“, „know - how“, „Auch in diesem Fall in das
+Gesamtentgelt“ (ist das), „4..12.6“, fehlender Punkt nach „Nr. 1 UStAE)“, „usw..“, doppeltes
+„an“ (Absicht des Unternehmers), „Anwesenheitsliste“, „Pkw - Parkplätzen“, „4.12.3.“,
+überzählige Klammer nach „Abs. 4 UStAE“, „wesentliches Bestandteil“, „Ne-ben-leistung“,
+„wird demnach Verwaltungspraxis angewendete Aufteilungsgebot“ (dem in der Verwaltungspraxis
+angewendeten), „Vitrinen.“, „seinemmUrteil“, „ist nicht von der USt befreit ist“,
+„Übersee-Container ist“ (Containern), „Grund- und Boden“, „1. 4. 2004“, „19. 5. 1994“,
+„30. 3. 2006“, Leerzeichen in Klammern.
+
+**Weiter mit:** III.6.7 Vermietung von Sportanlagen (PDF-Seite 47).
+
 ### USt-Skript (Moecker), Block 8 Teil II: III.6 bis III.6.3
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-21` (III.6 Allgemeines zu
