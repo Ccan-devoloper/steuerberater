@@ -2412,7 +2412,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Ausfuhrlieferungen nach § 6 Abs. 1 Nr. 1 und 2 UStG einschließlich ausländischem Abnehmer
   und Zweigniederlassungen, Freihafenfällen, Ausfuhren im Reihengeschäft, zwischengeschalteter
   Be- oder Verarbeitung, den Einschränkungen nach § 6 Abs. 3 und 3a UStG und der
-  Lohnveredelung nach § 7 UStG (13 Kapitel).
+  Lohnveredelung nach § 7 UStG, Drei-Fall-Regelung, Bedeutung der USt-IdNr. ab 2020 und
+  Tatbestand der innergemeinschaftlichen Lieferung (16 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

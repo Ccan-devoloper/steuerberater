@@ -1,7 +1,7 @@
 /* USt-Skript (Moecker), Block 8 Teil I: Steuerfreie Umsätze mit Vorsteuerabzug.
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
-   In Arbeit: eingepflegt bis I.2.2 (Lohnveredelung), PDF-Seiten 2 bis 23. */
+   In Arbeit: eingepflegt bis I.3.3 (Tatbestand der innergem. Lieferung), PDF-Seiten 2 bis 26. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -429,6 +429,80 @@ export const block08Teil1 = [
       { text: "**Lösung:** **DU 1 an B:** Steuerbare bewegte Lieferung gem. § 3 Abs. 6 UStG; **Ort Stuttgart**; **steuerfrei gem. § 4 Nr. 1a i.V.m. § 6 Abs. 1 Nr. 2 UStG**, da Spediteur S Beauftragter des DU2 und dieser Beauftragter des B (somit ist Ausführer der Auftraggeber). **DU 2 an B:** Werkleistung; **Ort Ludwigsburg** gem. § 3a Abs. 3 Nr. 3c UStG; steuerbar und **steuerfrei gem. § 4 Nr. 1a i.V.m. § 7 Abs. 1 Nr. 1 UStG**, da Versenden durch Werkunternehmer DU2." },
       { text: "**Beispiel:** Der **Händler FU aus Paris** kauft von einer Lederfabrik **DU1 in Stuttgart Leder**. FU beauftragt DU1 das Leder nicht zu ihm, sondern zur **Färberei DU2 in Ludwigsburg** zu bringen. DU1 transportiert das Leder mit eigenem Lkw zu DU2. Dieser färbt das Leder im Auftrag des FU ein und lässt das gefärbte Leder durch den Spediteur S in ein **Lager des FU nach Norwegen** transportieren. Dort wird der Posten der EUSt unterworfen. FU verwendet gegenüber DU1 und DU2 seine **franz. USt-IdNr.**" },
       { text: "**Lösung:** **DU1 an FU:** Steuerbare bewegte Lieferung gem. § 3 Abs. 6 UStG; **Ort Stuttgart**; **steuerfrei gem. § 4 Nr. 1a + § 6 Abs. 1 Nr. 2 UStG**, da Spediteur S Beauftragter des DU2 und dieser Beauftragter des FU. Somit FU Ausführer. Die **Verwendung der USt-IdNr. ist bedeutungslos**, da die Ware bestimmungsgemäß in ein Drittland transportiert wird. **DU2 an FU:** Werkleistung; **Ort Paris gem. § 3a Abs. 2 UStG; nicht steuerbar**. Mit Verwendung der franz. USt-IdNr. durch den LE hat dieser seinen Unternehmerstatus (B2B-Bereich) nachgewiesen." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-14",
+    teil: TEIL,
+    kapitel: "14",
+    abschnittNr: "I.3.1",
+    title: "I.3 Innergemeinschaftliche Lieferung (§ 4 Nr. 1b i.V.m. § 6a UStG): I.3.1 Umsatzmäßige Drei-Fall-Regelung innerhalb der EU",
+    thema: "Verweis auf Block 9 (Verbringen, Fernverkauf, neue Fahrzeuge) und Drei-Fall-Regelung nach dem Status des Erwerbers: innergemeinschaftliche Lieferung im gewerblichen Warenverkehr, Abholfall und Fernverkauf nach § 3c UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.3.1"),
+    verfasser: VERFASSER,
+    normen: ["§ 3c UStG", "§ 4 Nr. 1 Buchst. b UStG", "§ 6a UStG"],
+    themen: ["innergemeinschaftliche Lieferung", "Fernverkauf", "Abholfall", "Binnenmarkt"],
+    bloecke: [
+      { typ: "titel", text: "I.3 Innergemeinschaftliche Lieferung – § 4 Nr. 1b i.V.m. § 6a UStG –" },
+      { text: "**Hinweis:** – Zur Lieferfiktion des **innergem. Verbringens**; – zu den Lieferungen an „Private“ im Rahmen der **Fernverkaufsregelung**; – und zu den Besonderheiten bei Lieferung und Erwerb von **neuen Fahrzeugen** ➔ vgl. Block 09 „Besondere Umsätze im Binnenmarkt“" },
+      { typ: "titel", text: "I.3.1 Umsatzmäßige Drei-Fall-Regelung innerhalb der EU (➔ Arbeitspapier 18)" },
+      { text: "Bei den warenbewegten Lieferungen innerhalb der EU sind **drei verschiedene Fallgestaltungen** zu unterscheiden. Hierfür maßgebend ist der **Status des Erwerbers (Abnehmers)**." },
+      { typ: "tabelle", spalten: ["Status des Erwerbers", "Fallgestaltung", "Folge"], zeilen: [
+        ["Der Erwerber ist ein Unternehmer, der der Besteuerung des Erwerbs in dem anderen Mitgliedstaat unterliegt (grds. LE mit USt-IdNr.).", "Innergem. Lieferung im sog. gewerblichen Warenverkehr", "Steuerfrei gem. § 6a UStG"],
+        ["Der Abnehmer ist ein Erwerber, für den eine Erwerbsbesteuerung nicht durchzuführen ist (grds. Privatpersonen).", "Abholfall", "Steuerbar und steuerpflichtig"],
+        ["Der Abnehmer ist ein Erwerber, für den eine Erwerbsbesteuerung nicht durchzuführen ist (grds. Privatpersonen).", "Lieferung im Fernverkauf (§ 3c UStG)", "Nicht steuerbar bei Überschreiten einer Geringfügigkeitsschwelle"],
+      ] },
+      { text: "Das Schaubild der Quelle ist als Tabelle wiedergegeben; die Spaltenköpfe und die Wiederholung des Kastens zu den Privatpersonen in der dritten Zeile sind eigene Ergänzung zur Darstellung." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-15",
+    teil: TEIL,
+    kapitel: "15",
+    abschnittNr: "I.3.2",
+    title: "I.3.2 Bedeutung der USt-IdNr. ab 2020",
+    thema: "Materielle Voraussetzungen der innergemeinschaftlichen Lieferung ab 2020 nach Art. 138 MwStSystRL (MIAS-Registrierung, Mitteilung der USt-IdNr., Zusammenfassende Meldung), bisherige EuGH-Rechtsprechung (VSTR, Plöckl), Gesetzeswortlaut des § 6a Abs. 1 Satz 1 und des § 4 Nr. 1 Buchst. b UStG und Rückwirkung der berichtigten Zusammenfassenden Meldung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.3.2"),
+    verfasser: VERFASSER,
+    normen: ["§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1 Satz 1 Nr. 1 bis 4 UStG", "§ 18a UStG", "§ 18a Abs. 10 UStG", "Art. 138 MwStSystRL", "Abschn. 4.1.2 Abs. 3 Satz 9 UStAE", "EuGH, Urteil vom 27.09.2012 – C-587/10 (VSTR)", "EuGH, Urteil vom 20.10.2016 – C-24/15 (Plöckl)"],
+    themen: ["innergemeinschaftliche Lieferung", "USt-IdNr.", "Zusammenfassende Meldung", "MIAS", "materielle Voraussetzung"],
+    bloecke: [
+      { typ: "titel", text: "I.3.2 Bedeutung der USt-IdNr. ab 2020" },
+      { text: "Dass der Leistungsempfänger (Abnehmer) bei dem Geschäft eine ihm von einem anderen Mitgliedstaat erteilte USt-Identifikationsnummer verwendet, war **bis einschließlich 2019 nicht materiell-rechtliche Tatbestandsvoraussetzung** des § 6a Abs. 1 UStG." },
+      { text: "Während die Regelung bis Ende 2019 also lediglich auf die Warenbewegung und die Unternehmereigenschaft des Abnehmers abstellte, sieht die **ab 2020 geltende Fassung von Art. 138 MwStSystRL zusätzliche materielle Voraussetzungen** vor: ❖ die **Registrierung des Abnehmers im MIAS** (Mehrwertsteuer-Informations-Austausch-System) Anm.: Die in jedem Mitgliedstaat für die mehrwertsteuerliche Kontrolle des innergemeinschaftlichen Handels zuständige Stelle – in DE das BZSt –, hat über das MIAS direkten Zugriff auf die Datenbanken, in denen die MwSt-Registrierungen anderer Mitgliedstaaten gespeichert sind. ❖ die **Mitteilung der USt-IdNr.** durch den Erwerber sowie ❖ die **fristgerechte und vollständige Abgabe der ZM** durch den Lieferer." },
+      { text: "Die Änderung geht damit über die Rechtslage bis 2019 weit hinaus, bei der die USt-IdNr. des Erwerbers der Auslegung des EuGH zufolge **lediglich eine formale Voraussetzung** für die Steuerbefreiung einer innergem. Lieferung war (vgl. Urteile v. 27.09.2012, VSTR, C-587/10; vom 20.10.2016, Plöckl, C-24/15). Aufgrund dessen konnten die Mitgliedstaaten, wenn diese Bedingung nicht erfüllt war, lediglich Geldbußen oder Verwaltungssanktionen verhängen, jedoch die Steuerbefreiung an sich nicht verweigern." },
+      { text: "§ 6a UStG wurde durch das JStG 2020 (so in der Quelle; die Änderung zum 1.1.2020 beruht auf dem Gesetz zur weiteren steuerlichen Förderung der Elektromobilität und zur Änderung weiterer steuerlicher Vorschriften vom 12.12.2019, sog. JStG 2019) zum 1.1.2020 wie folgt geändert:" },
+      { text: "**Gesetzestext – § 6a Absatz 1 Satz 1 wird wie folgt gefasst:** (1) Eine innergemeinschaftliche Lieferung (§ 4 Nummer 1 Buchstabe b) liegt vor, wenn bei einer Lieferung die folgenden Voraussetzungen erfüllt sind: 1. Der Unternehmer oder der Abnehmer hat den Gegenstand der Lieferung in das übrige Gemeinschaftsgebiet befördert oder versendet, 2. der Abnehmer ist (a) ein in einem anderen Mitgliedstaat für Zwecke der Umsatzsteuer erfasster Unternehmer, der den Gegenstand der Lieferung für sein Unternehmen erworben hat, (b) eine in einem anderen Mitgliedstaat für Zwecke der Umsatzsteuer erfasste juristische Person, die nicht Unternehmer ist oder die den Gegenstand der Lieferung nicht für ihr Unternehmen erworben hat, oder (c) bei der Lieferung eines neuen Fahrzeugs auch jeder andere Erwerber, 3 der Erwerb des Gegenstands der Lieferung unterliegt beim Abnehmer in einem anderen Mitgliedstaat den Vorschriften der Umsatzbesteuerung. und 4 der Abnehmer im Sinne der Nummer 2 Buchstabe a oder b hat gegenüber dem Unternehmer eine ihm von einem anderen Mitgliedstaat gültige (so in der Quelle; im Gesetz: „erteilte gültige“) Umsatzsteuer-Identifikationsnummer verwendet." },
+      { text: "Durch § 6a Absatz 1 Satz 1 Nr. 2 Buchstabe a und b UStG wurde das Vorliegen einer innergem. Lieferung ab 2020 an die weitere Voraussetzung geknüpft, dass der Abnehmer (Unternehmer oder nichtunternehmerische jur. Person) der innergem. Lieferung **in einem anderen Mitgliedstaat** (als dem Mitgliedstaat, in dem die innergem. Lieferung ausgeführt wird) **für Zwecke der USt erfasst** ist." },
+      { text: "Nach **Nr. 4** ist die **Verwendung einer dem Abnehmer erteilten gültigen USt-IdNr.** aus einem anderen Mitgliedstaat als dem des Beginns der Versendung oder Beförderung der Gegenstände eine **zusätzliche materiell-rechtliche Voraussetzung** für das Vorliegen einer innergem. Lieferung. Einer **nachträglichen Registrierung** des Erwerbers kann **keine Rückwirkung** beigemessen werden; auch ein „Ersatznachweis“ des Erwerberstatus dürfte ins Leere gehen. Die Steuerbefreiung ist damit wohl abschließend nicht anwendbar." },
+      { text: "Ergänzend wurde neben dem Tatbestand des § 6a UStG auch die **Befreiungsnorm in § 4 Nr. 1 b) UStG** zum 1.1.2020 bzw. durch das JStG 2022 wie folgt geändert:" },
+      { text: "**Gesetzestext – § 4:** Von den unter § 1 Abs. 1 Nr. 1 fallenden Umsätzen sind steuerfrei: 1 a) die Ausfuhrlieferungen … 1 b) die innergemeinschaftlichen Lieferungen (§ 6a); **dies gilt nicht, wenn der Unternehmer seiner Pflicht zur Abgabe der Zusammenfassenden Meldung (§ 18a) nicht nachgekommen ist oder soweit er diese im Hinblick auf die jeweilige Lieferung unrichtig oder unvollständig abgegeben hat.**" },
+      { text: "Durch die Änderung in Nr. 1 b) wird die Steuerbefreiung für eine innergem. Lieferung **versagt**, wenn der liefernde Unternehmer seiner **Pflicht zur Abgabe der Zusammenfassenden Meldung** (§ 18a UStG) nicht, nicht vollständig und richtig nachgekommen ist." },
+      { text: "Die Richtigkeit und Vollständigkeit einer ZM stehen insbesondere auch im Hinblick auf diese Berichtigungsmöglichkeit regelmäßig erst in einem bestimmten zeitlichen Abstand zu der innergemeinschaftlichen Lieferung fest. Somit konnte das in § 4 Nr. 1 Bu. b aufgenommene Tatbestandsmerkmal der Steuerbefreiung einer innergem. Lieferung **systematisch nicht in die Definition** einer innergemeinschaftlichen Lieferung (§ 6a UStG) aufgenommen werden." },
+      { text: "**Berichtigt** der Unternehmer für den zutreffenden Meldezeitraum seine ursprünglich unrichtig oder unvollständig abgegebene Zusammenfassende Meldung (§ 18a Absatz 10 UStG), **wirkt dies für Zwecke der Steuerbefreiung auf den Zeitpunkt des Umsatzes zurück**. Entsprechendes gilt für die **verspätete Abgabe** einer richtigen und vollständigen Meldung (vgl. Abschn. 4.1.2 Abs. 3 Satz 9 UStAE)." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-16",
+    teil: TEIL,
+    kapitel: "16",
+    abschnittNr: "I.3.3",
+    title: "I.3.3 Der Tatbestand der steuerfreien innergem. Lieferung (§ 6a Abs. 1 UStG)",
+    thema: "Übersicht der Tatbestandsmerkmale: Warenbewegung vom Inland in das übrige Gemeinschaftsgebiet, für Umsatzsteuerzwecke erfasster Abnehmer, Erwerbsbesteuerung im anderen Mitgliedstaat und Verwendung einer gültigen USt-IdNr.",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.3.3"),
+    verfasser: VERFASSER,
+    normen: ["§ 1a UStG", "§ 6a Abs. 1 Satz 1 Nr. 1 bis 4 UStG"],
+    themen: ["innergemeinschaftliche Lieferung", "Tatbestand", "Warenbewegung", "USt-IdNr."],
+    bloecke: [
+      { typ: "titel", text: "I.3.3 Der Tatbestand der steuerfreien innergem. Lieferung (§ 6a Abs. 1 UStG) (➔ Arbeitspapier 19)" },
+      { text: "① **Warenbewegung:** Gelangen des Liefergegenstandes (vom Inland) in das übrige Gemeinschaftsgebiet. Das Erfordernis „vom Inland“ ergibt sich nicht unmittelbar aus dem Gesetz, sondern ist **systembedingt**, da nur steuerbare Lieferungen (Ort im Inland) steuerfrei sein können." },
+      { text: "② **Abnehmer** ist – ein in einem anderen Mitgliedstaat für Zwecke der USt erfasster **Unternehmer**, der den Gegenstand für sein Unternehmen erworben hat oder eine in einem anderen Mitgliedstaat für Zwecke der USt erfasste **juristische Person**, die für ihren nichtunternehmerischen Bereich erwirbt." },
+      { text: "③ Der Erwerb des Liefergegenstandes unterliegt im anderen Mitgliedstaat der **Erwerbsbesteuerung**. Dies kann im Wege der **Parallelbewertung** unter analoger Anwendung der Grundsätze zu § 1a UStG geprüft werden; in der Praxis kann dies bei Verwendung einer USt-IdNr. durch den Erwerber unterstellt werden." },
+      { text: "④ Der o.g. Abnehmer hat gegenüber dem Unternehmer eine ihm von einem anderen Mitgliedstaat gültige (so in der Quelle; im Gesetz: „erteilte gültige“) **Umsatzsteuer-Identifikationsnummer verwendet**." },
+      { text: "Die Aufzählungszeichen der Quelle sind in der Textextraktion nicht lesbar und durch ① bis ④ ersetzt (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

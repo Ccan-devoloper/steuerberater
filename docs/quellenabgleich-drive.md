@@ -10623,6 +10623,33 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.3.1 bis I.3.3
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
+`ust-m-b08-1-14` (I.3.1 Drei-Fall-Regelung als Tabelle), `ust-m-b08-1-15` (I.3.2 Bedeutung der
+USt-IdNr. ab 2020 mit den Gesetzestexten zu § 6a Abs. 1 Satz 1 und § 4 Nr. 1 Buchst. b UStG)
+und `ust-m-b08-1-16` (I.3.3 Tatbestandsübersicht) für die PDF-Seiten 24 bis 26. Stand des
+USt-Skripts: 8 Teile, 179 Kapitel, 3228 Blöcke, 163 Tabellen.
+
+**Quellbefunde (markiert):** Die Neufassung des § 6a UStG zum 1.1.2020 wird dem „JStG 2020“
+zugeschrieben; sie beruht auf dem Gesetz zur weiteren steuerlichen Förderung der
+Elektromobilität und zur Änderung weiterer steuerlicher Vorschriften vom 12.12.2019 (sog.
+JStG 2019). Im wiedergegebenen Gesetzestext zu § 6a Abs. 1 Satz 1 Nr. 4 UStG und in der
+Tatbestandsübersicht fehlt das Wort „erteilte“ („eine ihm von einem anderen Mitgliedstaat
+erteilte gültige Umsatzsteuer-Identifikationsnummer“).
+
+**Darstellung:** Drei-Fall-Schaubild als Tabelle (Spaltenköpfe und Wiederholung des
+Privatpersonen-Kastens eigene Ergänzung); nicht lesbare Aufzählungszeichen in I.3.3 durch ①
+bis ④ ersetzt (vermerkt).
+
+**Stillschweigend berichtigt:** „- -“ in der Überschrift I.3, „Block 09" Besondere … "“
+(Anführungszeichen), „USt- Identifikationsnummer“, „20.10. 2016“, „in Einem anderen
+Mitgliedstaat“, „Eine nachträglichen Registrierung der Erwerbers“ (Einer nachträglichen
+Registrierung des Erwerbers), „erfasster juristische Person“ (erfasste), „D Dies“, überzählige
+Klammer nach „unterstellt werden“, fehlender Punkt nach „Satz 9 UStAE“, „W a r e n b e w e g u n g“.
+
+**Weiter mit:** Block 8 Teil I ab I.3.3.1 Warenbewegung (PDF-Seite 27).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.2 Lohnveredelung
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
