@@ -10623,6 +10623,41 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### AO-Skript (Jacobs), Teil IV – Abschnitt 9 ab Seite 18: Klagefrist, Klageschrift, Übungsfälle, § 68 FGO, Revision und NZB
+
+Über den Datei-Download ist AO Teil IV vollständig lesbar (144 PDF-Seiten: Abschnitt 8 mit 62,
+Abschnitt 9 mit 47, Abschnitt 10 mit 34 Skriptseiten). Eingepflegt sind die Seiten 18 bis 47 des
+Abschnitts 9 als acht neue Kapitel `ao-jacobs-9-6` bis `ao-jacobs-9-13`: Fallbeispiel zur
+Klagefrist, Anbringungsbehörde und Wiedereinsetzung (§ 56 FGO), Teil VI Form und Inhalt der
+Klageschrift, Teil VII Übungsfälle Anton Schmitz und Hans Meier mit Kalenderauszug, deren
+Lösungshinweise samt Zusammenstellung der Sachurteilsvoraussetzungen und kommentierter
+Musterklageschrift, Teil VIII § 68 FGO mit Fallbeispiel Balou, Teil IX Entscheidungsformen des FG
+und Teil X Revision und Nichtzulassungsbeschwerde. Der Abbruch-Hinweis am Ende von Kapitel 9-5
+ist entfernt. Abschnitt 9 ist damit vollständig; offen ist nur noch Abschnitt 10. Stand des
+Skripts: 14 Teile, 200 Kapitel, 4974 Blöcke, 341 Tabellen.
+
+**Wochentage und Fristen nachgeprüft:**
+- Fallbeispiel zur Klagefrist: Der Sachverhalt nennt den 29.08.04 einen Mittwoch, die Tabelle
+  daneben „Di“; die Bekanntgabe am 02.09.04 ist als „Sa“ bezeichnet, die Verschiebung aber auf
+  „03.09.04 (Mo)“ – das passt nur zu einem Sonntag. Mit dem Mittwoch aus dem Sachverhalt geht die
+  ganze Rechnung auf (03.10. = Mittwoch und Feiertag, Ende 04.10.; Wochentagsfolge etwa 2018).
+  Die Angaben „Di“, „Sa“ und „Die“ sind im Datensatz markiert.
+- Fall Meier (Kalender 05, der 1. September ein Sonntag): Bekanntgabe Freitag, 13.09.05. Die
+  Quelle setzt das Fristende auf „Ablauf 12.10.05“ und nennt diesen Tag einen Samstag; nach
+  § 188 Abs. 2 BGB endet die Frist aber mit dem 13.10.05, laut Kalender ein Sonntag. Das Ergebnis
+  (Montag, 14.10.05) stimmt, der Zwischenschritt nicht. Außerdem „alt.: 13.09.04“ statt 05.
+- Abwandlung Meier: Einspruchsentscheidung vom 25.09.05 + 4 Tage = 29.09. (Sonntag laut
+  Kalender) – die Quelle schreibt die Daten aber mit der Jahreszahl 03 (29.09.03, 30.09.03,
+  01.10.03, 30.10.03). Fristende 30.10. (Mittwoch) stimmt.
+- Fall Schmitz: Zustellung mit PZU am 22.05.09 – Ende der Klagefrist 22.06.09, Eingang 10.06.09.
+
+**Weitere Quellbefunde (markiert):** Unterabschnitt „2.3. Erweiterung des Klageantrages“ im
+Abschnitt 3; „werden innerhalb der Frist die Inhalte Klagefrist nicht ergänzt“; „Ausschussfristen“
+statt Ausschlussfristen; in der Lösung Fall 2 „§ 115 Abs. 1 Nr. 1 bis 3 FGO“ für die
+Zulassungsgründe (stehen in Abs. 2); „den Rechtsstand … für erledigt erklären“ statt Rechtsstreit.
+Die wechselnden Absatz- und Satzangaben zu § 116 FGO sind unverändert übernommen und mit einem
+Hinweis versehen.
+
 ### AO-Skript (Jacobs), Teil III – Abschnitt 7 ab Seite 79: §§ 175 bis 177, 130 und 131 AO – Teil III vollständig
 
 Über den Datei-Download ist auch AO Teil III vollständig lesbar (119 PDF-Seiten, Skriptseiten 1 bis

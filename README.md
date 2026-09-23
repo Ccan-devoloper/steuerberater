@@ -693,8 +693,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Einspruchs, Prüfungsschema und den beiden durchgerechneten Beispielen Dieter Kugel
   (Anfechtungsrahmen 108.000/100.000/98.000 €) und Anfechtungsrahmen 20.000/18.000/
   17.500 €. Abschnitt 8 ist damit vollständig.
-  Abschnitt 9 (Klage- und Revisionsverfahren nach der FGO) ist bis zur Abbruchstelle des
-  Connectors auf Seite 17 eingepflegt: die zwölf Sachurteilsvoraussetzungen vom
+  Abschnitt 9 (Klage- und Revisionsverfahren nach der FGO) ist vollständig eingepflegt: die zwölf Sachurteilsvoraussetzungen vom
   Finanzrechtsweg über Aktiv- und Passivlegitimation bis zu Form und Inhalt der
   Klageschrift, die beiden Fallgruppen der Klagearten, Anfechtungs- und
   Verpflichtungsklage mit vier Musteranträgen (Haftungsbescheid, Ansparrücklage,
@@ -704,7 +703,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Hauptsache, das erfolglose Vorverfahren nach § 44 FGO, die Sprungklage mit
   durchgerechnetem Fristbeispiel, die Untätigkeitsklage mit ihren drei Voraussetzungen
   sowie Klagebefugnis, Beiladung nach dem MoPeG und die Berechnung der Klagefrist über
-  § 222 ZPO.
+  § 222 ZPO; über den Datei-Download nachgeholt sind die Seiten 18 bis 47: das
+  Fallbeispiel zur Klagefrist, Anbringungsbehörde und Wiedereinsetzung nach § 56 FGO,
+  Form und Inhalt der Klageschrift (§§ 64, 65 FGO, beSt-Nutzungspflicht, Muss- und
+  Sollinhalte, Klageerweiterung), die Übungsfälle Anton Schmitz (mit allen
+  Sachurteilsvoraussetzungen und kommentierter Musterklageschrift) und Hans Meier
+  (Sprungklage mit Kalenderauszug, Klageerweiterung, Revision und NZB), die Änderung des
+  angefochtenen Bescheides nach § 68 FGO mit dem Fallbeispiel Balou, die Übersicht der
+  Entscheidungsformen des Finanzgerichts und Revision und Nichtzulassungsbeschwerde mit
+  den Zulassungsgründen des § 115 Abs. 2 FGO. Noch offen ist Abschnitt 10 (vorläufiger
+  Rechtsschutz).
   Aus **Teil V** ist Abschnitt 11 (Steuererhebungsverfahren, §§ 218 bis 240 AO) begonnen.
   Der Teil I ordnet Steuerfestsetzung, Anrechnungs-Verwaltungsakt und Steuererhebung
   einander zu – mit dem durchgerechneten Überblicksschaubild (ESt 140.000 ./. LSt 20.000
