@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 8 bis A 10
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-41` (A 8 und A 9
+Einschränkung nach § 6 Abs. 3 UStG mit Übung Auto-Händler, Fälle 8 bis 11) und
+`ust-m-b08-1-42` (A 10 Einschränkung nach § 6 Abs. 3a UStG mit Übung Schmuck-Händler, Fälle 12
+bis 14) für die PDF-Seiten 69 bis 71. Stand des USt-Skripts: 8 Teile, 205 Kapitel, 3498 Blöcke, 179 Tabellen.
+
+**Geprüft:** Die Lösungen der Fälle 8 bis 14 folgen den im Textteil dargestellten Regeln
+(§ 6 Abs. 3 nur bei Transport durch den Abnehmer und bei Nicht-Werklieferung; § 6 Abs. 3a nur bei
+Reisegepäck und Abnehmer ohne Drittlandswohnsitz).
+
+**Darstellung:** Übungen als Tabellen, Spaltenköpfe eigene Ergänzung; nicht lesbare
+Aufzählungszeichen in A 8 durch „•“ ersetzt.
+
+**Stillschweigend berichtigt:** „Privatperson(SP)“, „(2)Nr.1“, „amerk.“ (amerik.), „i.V. § 6“
+(i.V.m.), „st euerbar“, „Nr.1a“, „lex spezialis“ (specialis), „Kein Reisegepäck“
+(Kleinschreibung), „(brutto)überschritten“, englische Anführungszeichen bei „Andere“,
+Leerzeichen in Klammern.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab A 11 (PDF-Seite 72).
+
 ### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 5 bis A 7
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-39` (A 5 Übung

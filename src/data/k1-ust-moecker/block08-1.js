@@ -2,7 +2,7 @@
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
    In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere A 1 bis
-   A 7 (PDF-Seiten 62 bis 68) eingepflegt, weitere folgen. */
+   A 10 (PDF-Seiten 62 bis 71) eingepflegt, weitere folgen. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -1169,6 +1169,59 @@ export const block08Teil1 = [
       { text: "Schaubild: DU1 (Köln) – vereinbarte Lieferung von Hemden an – SU aus Basel; Transport der Stoffe an DU2 (Dortmund) mit Auftrag „Hemden nähen & Transport der Hemden“; Transport der Hemden über die Grenze." },
       { text: "Lieferung DU1 an SU; **Ort Dortmund § 3 (6)**; **steuerfrei § 4 Nr. 1a + § 6 (1) 1 UStG**. Werkleistung DU2 an DU 1 (Stoffe = Materialgestellung) – **Ort: Köln § 3a Abs. 2 UStG, steuerbar, steuerpflichtig**." },
       { text: "Die Schaubilder sind als Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-41",
+    teil: TEIL,
+    kapitel: "41",
+    abschnittNr: "A 8 bis A 9",
+    title: "Arbeitspapiere A 8 und A 9: Einschränkung bei Ausrüstung und Versorgung eines Beförderungsmittels (§ 6 Abs. 3 UStG)",
+    thema: "Voraussetzungen und betroffene Gegenstände des § 6 Abs. 3 UStG (Ersatz- und Zubehörteile, mitgeführte Gegenstände, Anbauteile, Einbauteile, Versorgungsgegenstände) und Übung Auto-Händler aus Neuss mit Schneeketten, Ölwechsel, Ersatzmotor und Inspektion für eine Schweizer Privatperson",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 8 und A 9"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 UStG", "§ 3a Abs. 3 Nr. 3 Buchst. c UStG", "§ 4 Nr. 1 Buchst. a UStG", "§ 6 Abs. 1 Nr. 1 bis 3 UStG", "§ 6 Abs. 2 Nr. 1 UStG", "§ 6 Abs. 3 UStG", "§ 7 Abs. 1 Nr. 2 und Abs. 2 UStG", "Abschn. 3a.5 Abs. 2 UStAE", "Abschn. 6.4 Abs. 1 und 5 UStAE"],
+    themen: ["Arbeitspapier", "Übung", "Ausfuhrlieferung", "Beförderungsmittel", "Werklieferung", "Lohnveredelung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 8 – 3.6 Einschränkungen zur Ausfuhrlieferung – 3.6.1 Bei der Lieferung von Gegenst. zur Ausrüstung und Versorgung eines Beförderungsmittels – § 6 Abs. 3 –" },
+      { text: "– **Warenbewegung i.S.d. § 6 (1) Nr. 2 oder 3 = durch LE** (Wenn Transport durch LU = Nr. 1 = keine Einschränkung) – Aber Liefergegenstand bestimmt **zur Ausrüstung** (Abschn. 6.4 Abs. 5 UStAE) oder **Versorgung** eines Bef.-mittels (A 3a.5 (2) UStAE)" },
+      { text: "• **Ersatzteile** (Gegenstände, die defekte oder verschlissene Bauteile des Beförderungsmittels ersetzen) **und Zubehörteile**. • **zum Gebrauch mitgeführte bewegliche Gegenstände**, z.B. Schlösser, Beleuchtungsset, Fahrradtaschen, Werkzeuge, Abschleppseile, Warndreiecke, Verbandskästen, Warnlampen, Planen, Ersatzreifen bzw. Reserveräder, Reservekanister oder Schonbezüge, Feuerlöscher, Automatten, Warnblinkleuchten, externe Navis oder Fahrradcomputer, • **nicht fest eingebaute Gegenstände / Anbauvorrichtungen** z.B. Dachgepäckträger, Fahrradträger, abnehmbare Außenspiegel, • oder **zum festen Einbau bestimmte Gegenstände**, z.B. Fahrradreifen, Schläuche, Ketten, Bremsscheiben, Pedale, Ständer, Akkus, Autoradios, Lautsprecher, Batterien, Austauschmotor, Spoiler, Federn, Stoßdämpfer, Nebelleuchten und sonstige Ersatzteile (z.B. Stoßstangen, Kotflügel)." },
+      { text: "❖ Auch wenn Ersatz- und Zubehörteile **vom Verkäufer montiert** werden. ❖ Wenn **Lieferung samt Montage = Werklieferung** = dann **keine Einschränkung**." },
+      { typ: "titel", text: "Arbeitspapier A 9" },
+      { text: "**Gegenstände der Versorgung eines Beförderungsmittels** = technische Verbrauchsgegenstände, die zum Verbrauch in dem bzw. durch das Beförderungsmittel bestimmt sind. Beispiele: Treibstoffe, Zusätze, Schmiermittel, Öle, Bremsflüssigkeit, Putzmittel, Frostschutzmittel sowie auch Farben/Lacke." },
+      { typ: "titel", text: "ÜBUNG: Auto-Händler (AH) mit Werkstattbetrieb aus Neuss" },
+      { typ: "tabelle", spalten: ["Fall", "Sachverhalt", "Lösung"], zeilen: [
+        ["8.", "Veräußert Schneeketten an schweizer Privatperson (SP) für dessen PKW", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; grds. steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 2 und (2) Nr. 1; aber über § 6 (3) stpfl."],
+        ["9.", "Führt Öl-Wechsel am PKW einer schweizer Privatperson (SP) durch (5 Liter)", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; grds. steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 2 und (2) Nr. 1; aber über § 6 (3) stpfl."],
+        ["10.", "Baut Ersatzmotor in den PKW der SP ein", "Werklieferung mit Ort § 3 (6) in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 2 und (2) Nr. 1. Keine Einschränkung über § 6 (3) – vgl. A 6.4 (1) –"],
+        ["11.", "Führt Inspektion am PKW der SP durch und verwendet 5 Liter Öl und Kleinmaterial", "Werkleistung mit Ort § 3a (3) Nr. 3c in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 7 (1) Nr. 2 + (2) wenn unterstellt werden kann, dass SP den PKW zu diesem Zweck in das Inland gebracht hat. Keine entsprechende Anwendung § 6 (3)."],
+      ] },
+      { text: "Die Übung ist als Tabelle wiedergegeben; die Spaltenköpfe sind eigene Ergänzung zur Darstellung. Die Aufzählungszeichen in A 8 sind in der Textextraktion nicht lesbar und durch „•“ ersetzt (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-42",
+    teil: TEIL,
+    kapitel: "42",
+    abschnittNr: "A 10",
+    title: "Arbeitspapier A 10: Einschränkung im nichtkommerziellen Reiseverkehr (§ 6 Abs. 3a UStG)",
+    thema: "Voraussetzungen des § 6 Abs. 3a UStG (Transport durch den Abnehmer im Reisegepäck, Abnehmer aus dem Drittland, Ausfuhr binnen drei Monaten, Wertgrenze 50 €) und Übung Schmuck-Händler aus Neuss mit amerikanischem und niederländischem Touristen",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapier A 10"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 UStG", "§ 4 Nr. 1 Buchst. a UStG", "§ 6 Abs. 1 Nr. 1 bis 3 UStG", "§ 6 Abs. 2 Nr. 1 UStG", "§ 6 Abs. 3 und 3a UStG"],
+    themen: ["Arbeitspapier", "Übung", "Ausfuhrlieferung", "Reiseverkehr", "persönliches Reisegepäck", "Wertgrenze"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 10 – 3.6.2 Bei Lieferung im nichtkommerziellen Reiseverkehr gem. (§ 6 Abs. 3a UStG)" },
+      { text: "– **Warenbewegung i.S.d. § 6 (1) Nr. 2 oder 3 = durch LE** (Wenn LU = Nr. 1 = keine Einschränkung) – „Andere“ private Gegenstände (da Abs. 3 lex specialis zu Abs. 3a) – **Ausfuhr im Reisegepäck** (Handgepäck, im Fahrzeug); Wenn kein Reisegepäck (z.B. per Post, DHL, Spediteur) dann **keine Einschränkung**. – **Steuerfrei, wenn** LE ➔ **Abnehmer aus dem Drittland** & **Ausfuhr innerhalb 3 Monate** & **Wertgrenze 50 € (brutto) überschritten**" },
+      { typ: "titel", text: "Schmuck-Händler (SH) aus Neuss" },
+      { typ: "tabelle", spalten: ["Fall", "Sachverhalt", "Lösung"], zeilen: [
+        ["12", "veräußert für 500 EUR an amerik. Touristen (AT). AT nimmt Andenken im Flugzeug mit in die USA.", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 2 und (2) Nr. 1; Keine Einschränkung über § 6 (3a)"],
+        ["13.", "veräußert Andenken an niederl. Touristen (NT). NT nimmt Andenken im Flugzeug mit in die USA.", "Lieferung mit Ort § 3 (6) in Neuss; steuerbar; Grds. steuerfrei § 4 Nr. 1a i.V.m. § 6 (1) Nr. 2 und (2) Nr. 1. Aber Einschränkung über § 6 (3a); steuerpflichtig."],
+        ["14.", "Wie 13, aber NT lässt durch UPS in die USA transportieren.", "Wie 13, aber keine Einschränkung über § 6 (3a); somit steuerfrei"],
+      ] },
+      { text: "Die Übung ist als Tabelle wiedergegeben; die Spaltenköpfe sind eigene Ergänzung zur Darstellung. Die Nummerierung „12“ ohne Punkt folgt der Quelle." },
     ],
   },
 ];
