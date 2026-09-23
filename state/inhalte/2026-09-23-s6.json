@@ -1,0 +1,18 @@
+{
+  "slot": "s6",
+  "art": "countdown",
+  "fach": "bilanz",
+  "klausur": 3,
+  "titel": "Tage bis zur schriftlichen Prüfung",
+  "text": "Heute: ein 10-Minuten-Drill. Nimm ein bekanntes Schema und sprich nur die Prüfreihenfolge laut durch – ohne Unterlagen.",
+  "zahl": "13",
+  "fortschritt": 92,
+  "ueberzeile": "Noch",
+  "fachLabel": "Bilanzsteuerrecht",
+  "befundeTypisiert": true,
+  "fachStand": "manuell-2026-09-23",
+  "faktenHinweise": [],
+  "manuellGeprueft": true,
+  "finalisiertVon": "chat",
+  "finalisiertAm": "2026-09-23T04:24:00.000Z"
+}
