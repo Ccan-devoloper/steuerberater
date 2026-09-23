@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5: Arbeitspapiere A 17 bis A 22
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel
+`ust-m-b05-30` für die PDF-Seiten 79 bis 84: A 17 Grundregel aus Sicht des inländischen
+Leistungsempfängers (Händler X, LU aus Köln/Venlo/Bern), A 18 Wartung von
+Transportbetonmischern (Venlo, Zürich), A 19/A 20 Vermittlungsleistungen und Befreiungen nach
+§ 4 Nr. 5 Buchst. a bis d UStG, A 21 Schaubild Fa. ABC Hamburg, A 22 Katalogleistungen
+(Börsengang-Beratung). A 17, A 21 als Tabellen; in A 21 wurden die Spaltenköpfe nach der
+räumlichen Anordnung im Schaubild (übriges Gemeinschaftsgebiet – Inland – Drittland) ergänzt,
+geprüft am Layout-Auszug der PDF-Seite 83 (vermerkt). A 20 und A 21 tragen keine eigene
+Überschrift. Stand des USt-Skripts: 5 Teile, 102 Kapitel, 2089 Blöcke, 103 Tabellen.
+
+**Quellbefunde:** A 22 nennt als Leistungsort „in GB“, obwohl der Leistungsempfänger in Belgien
+sitzt (markiert: gemeint BE). Zu den Beispielen HV Hannover (§ 4 Nr. 5 Buchst. a) und Agent A
+Berlin (§ 4 Nr. 5 Buchst. d) enthält die Quelle keine ausformulierte Lösung; sie sind wie in der
+Quelle nur als Sachverhalt übernommen.
+
+**Stillschweigend berichtigt:** „Leistungsempfänger – LE“ in der Überschrift A 17
+(Leistungsempfängers), „§13b“, „Art 44/196“ (Art.), „Gesonderte Erklärung“ (Kleinschreibung),
+Layout-Reste der Schaubilder.
+
+**Noch offen in Block 5:** Arbeitspapiere ab A 23 (PDF-Seite 85 ff.).
+
 ### USt-Skript (Moecker), Block 5: Arbeitspapiere A 11 bis A 16
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neues Kapitel

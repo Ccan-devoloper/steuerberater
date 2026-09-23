@@ -83,7 +83,7 @@ aufgeht, und mit einem Prüfskript.
      „Leibrentenverpflichtung“ (`1tUFPpsjhK8NAGnuXDXjBPeFDDCiSUvU8`, Lösung
      `1Wtg88rxCaffJgK1tcYkGvnVpfsimC2Rj`) und „Jahreswertbesteuerung § 23 ErbStG“
      (`1cqNN23uPB_aIuLzSJHrfDLOy1CRdeJkP`) mit den eingepflegten Hausaufgaben übereinstimmen;
-   - USt-Skript (Moecker), Blöcke 1 bis 13 – Blöcke 1 bis 4 vollständig, Block 5 Textteil vollständig und Arbeitspapiere bis A 16, siehe Protokoll.
+   - USt-Skript (Moecker), Blöcke 1 bis 13 – Blöcke 1 bis 4 vollständig, Block 5 Textteil vollständig und Arbeitspapiere bis A 22, siehe Protokoll.
 
 
 ### Klausur 2 – Einkommensteuer

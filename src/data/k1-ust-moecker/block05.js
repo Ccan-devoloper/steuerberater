@@ -1,7 +1,7 @@
 /* USt-Skript (Moecker), Block 5: Entgeltliche sonstige Leistungen.
    Quelle: „B-S26-USt-Skript Block 05-(Moecker)-0326“ (Block 05 – Sonstige
    Leistungen, Vers. I / 2026, Red. 04-26, Titelblatt März 2026), 114 PDF-Seiten.
-   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 16. */
+   In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 62) vollständig, Arbeitspapiere bis A 22. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 03/2026";
@@ -1075,6 +1075,59 @@ export const block05 = [
         ["Verpflichtungen für Fa. X aus D’dorf: Rechnungslegung mit allen 8 Pflichtangaben", "Verpflichtungen für Fa. X aus D’dorf: ZM abgeben (§ 18a Abs. 2 UStG); gesonderte Erklärung in der USt-VA (§ 18b UStG); Rechnungslegung mit Angabe IdNr. LU und LE bis zum 15. Tag des Folgemonats (§ 14a Abs. 1 UStG; Abschn. 14a.1 Abs. 3 UStAE)", "Verpflichtungen für Fa. X aus D’dorf: keine Aufnahme in die ZM; keine Formerfordernisse an die Rechnung"],
       ] },
       { text: "Bei Nichtbeachtung jedoch **sanktionslos**." },
+    ],
+  },
+  {
+    id: "ust-m-b05-30",
+    teil: TEIL,
+    kapitel: "30",
+    abschnittNr: "Arbeitspapiere A 17 bis A 22",
+    title: "Arbeitspapiere A 17 bis A 22: Grundregel im B2B-Bereich aus Sicht des Leistungsempfängers, Arbeiten an beweglichen Gegenständen, Vermittlungsleistungen mit § 4 Nr. 5 UStG und Katalogleistungen",
+    thema: "Händler X aus Düsseldorf als Leistungsempfänger (Köln, Venlo, Bern), Wartung von Transportbetonmischern aus Venlo und Zürich, Handelsvertreter- und Künstleragentur-Fälle, Steuerbefreiungen für Vermittlungen nach § 4 Nr. 5 Buchst. a bis d UStG, Schaubild Fa. ABC Hamburg und Beratung vor einem Börsengang",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 17 bis A 22"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1 Nr. 4 und 5 UStG", "§ 3 Abs. 8 UStG", "§ 3a Abs. 2 Satz 1 UStG", "§ 3a Abs. 4 UStG a.F.", "§ 4 Nr. 5 Buchst. a bis d UStG", "§ 6 UStG", "§ 6a UStG", "§ 7 UStG", "§ 13b Abs. 1 und Abs. 2 Nr. 1 UStG", "§ 14a Abs. 1 UStG", "§ 15 Abs. 1 Nr. 1 und 4 UStG", "§ 18a UStG", "§ 18b UStG", "§ 27a UStG", "Art. 44 MwStSystRL", "Art. 196 MwStSystRL", "Abschn. 13b.15 UStAE", "Abschn. 15.10 UStAE"],
+    themen: ["B2B", "Reverse-Charge", "Werkleistung", "Vermittlungsleistung", "Steuerbefreiung", "Katalogleistung", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 17 – 3.3 Systematik der Grundregel im B2B-Bereich (aus der Sicht des inländischen Leistungsempfängers – LE)" },
+      { text: "**Händler X aus D’dorf** (als LE) lässt Ware transportieren **von Bremen nach München** – Vertrag mit unternehmerischen LU:" },
+      { typ: "tabelle", spalten: ["LU aus Köln (DE)", "LU aus Venlo (NL)", "LU aus Bern (Schweiz)"], zeilen: [
+        ["Leistungsort: D’dorf – steuerbar und steuerpflichtig", "Leistungsort: D’dorf – steuerbar und steuerpflichtig", "Leistungsort: D’dorf – steuerbar und steuerpflichtig"],
+        ["Verpflichtungen für Fa. X aus D’dorf: Vorsteuerabzug aus ordnungsgemäßer Rechnung des LU (§ 15 Abs. 1 Nr. 1 UStG)", "Verpflichtungen für Fa. X aus D’dorf: zwingendes RC-Verfahren in der EU gem. § 13b Abs. 1 UStG. Kontrolle durch masch. Abgleich mit Daten aus ZM der Leistenden. Beachte: auch für L.u.F.; steuerfreie Unternehmer (z.B. Kleinunternehmer, Arzt, Vermieter, Krankenhaus usw.) => deshalb IdNr. besorgen (§ 27a UStG).", "Verpflichtungen für Fa. X aus D’dorf: nationales RC-Verfahren in DE gem. § 13b Abs. 2 Nr. 1 UStG. Beachte: auch für L.u.F.; steuerfreie Untern. (z.B. Kleinunt., Arzt, Vermieter, Krankenhaus usw.) => Status Unternehmer reicht aus."],
+      ] },
+      { text: "**Vorsteuerabzug:** für berechtigte LE gem. **§ 15 Abs. 1 Nr. 4 UStG** (auch **ohne Rechnung** – Abschn. 15.10 & 13b.15 UStAE –)." },
+      { typ: "titel", text: "Arbeitspapier A 18 – 3.4 Die Grundregel im B2B-Bereich – Beispiele" },
+      { text: "**Grundregel § 3a Abs. 2 UStG** ➔ **Empfänger-Sitz-Prinzip** (Art. 44 MwStSystRL)" },
+      { text: "**3.4.1 Arbeiten an körperl. bewegl. Gegenständen / und deren Begutachtung** ➢ Einen Leistungsort **am Tätigkeitsort gibt es nicht**." },
+      { text: "**Beispiel:** **Niederl. Untern. (NU)** verbringt seinen **Transportbetonmischer** zur Wartung und Reinigung **von Venlo nach Neuss zu DU**. DU wartet das Fahrzeug und lässt es danach nach Venlo zurückbringen. NU verwendet die **niederländische USt-IdNr.** ➔ Ort gem. § 3a Abs. 2 Satz 1 UStG **in NL am Sitzort des LE**. ➔ In NL **zwingend RC-Verfahren** gem. Art. 196 MwStSystRL ➔ Sonstige Leistung **in ZM** zu erklären – § 18a UStG – ➔ **Gesonderte Erklärung in USt-VA Kz. 35** – § 18b UStG – ➔ **Rechnung mit Angabe USt-IdNr. LU und LE** – § 14a Abs. 1 UStG –" },
+      { text: "➢ **§ 7 UStG** (steuerfreie Lohnveredelungen) geht bei **ausländischen Auftraggebern ins Leere**. Die Leistung ist bereits nicht steuerbar; Ort im Ausland." },
+      { text: "**Beispiel:** **Schweizer Unt. (SU)** verbringt seinen Transportbetonmischer zur Wartung und Reinigung **von Zürich nach Neuss zu DU**. DU wartet das Fahrzeug und lässt es danach in die Schweiz zurückbringen. SU verwendet **Unternehmerbescheinigung** einer Behörde aus der Schweiz. ➔ Ort gem. § 3a Abs. 2 **in der Schweiz** am Sitzort des LE. ➔ **In DE somit nicht steuerbar** ➔ Rechnungserteilung **ohne „deutsche“ USt** ➔ Praxis: Was geschieht im Drittland ?????" },
+      { typ: "titel", text: "Arbeitspapier A 19 – 3.4.2 Vermittlungsleistungen" },
+      { text: "➢ Einen Leistungsort **am Ort des vermittelten Umsatzes gibt es nicht**. ➢ Ohne Bedeutung, welcher Umsatz vermittelt wird. ➢ Zu Vermittlungsleistungen im Zusammenhang mit Grundstücken vgl. AP 29 (grundstücksbezogene Leistung)." },
+      { text: "**Beispiel:** **Handelsvertreter DU aus Aachen** vermittelt für seinen **belgischen Auftraggeber (BU)** die Lieferung einer Maschine **von Spanien nach Frankreich**. BU hat seine belgische IdNr. verwendet. ➔ Ort gem. § 3a Abs. 2 Satz 1 UStG **in BE am Sitzort des LE**. ➔ In BE **zwingend RC-Verfahren** gem. Art. 196 MwStSystRL ➔ Sonstige Leistung in ZM zu erklären – § 18a UStG – ➔ Gesonderte Erklärung in USt-VA – § 18b UStG – ➔ Rechnung mit Angabe USt-IdNr. LU und LE – § 14a UStG –" },
+      { text: "**Beispiel:** Eine **deutsche Künstleragentur (DU)** vermittelt für einen **türkischen Künstler (TK)** einen Auftritt in Deutschland und in Belgien. ➔ Ort gem. § 3a Abs. 2 Satz 1 UStG **in der Türkei** am Sitzort des LE. ➔ **In DE somit nicht steuerbar** (Praxis! Ob und wie Besteuerung nach türk. Recht?) ➔ **Keine ZM, keine gesonderte Erklärung** in USt-VA ➔ Rechnungserteilung ohne „deutsche“ USt" },
+      { text: "➢ **Steuerbefreiung gem. § 4 Nr. 5 UStG** geht bei **ausländischen Auftraggebern ins Leere**; nicht jedoch bei **inländischem LE**." },
+      { text: "➔ **§ 4 Nr. 5 Buchst. a UStG:** Vermittlung von **Ausfuhrlieferungen + Lohnveredelungen**. **Beispiel:** HV aus Hannover vermittelt eine Ausfuhrlieferung, die Unternehmer U in Berlin im Wege der Beförderung an T in die Türkei bewirkt." },
+      { typ: "titel", text: "Arbeitspapier A 20" },
+      { text: "**Hinweis:** Würde HV eine **steuerfreie innergem. Lieferung** für U in Berlin vermitteln, ist die Vermittlungsleistung **steuerpflichtig**." },
+      { text: "➔ **§ 4 Nr. 5 Buchst. b UStG:** Vermittlung **grenzüberschreitender Personenbeförderungen mit Luftfahrzeugen oder Seeschiffen** an Unternehmer." },
+      { text: "➔ **§ 4 Nr. 5 Buchst. c UStG:** Vermittlungsumsatz **im Inland** und der vermittelte Umsatz **im Drittland**." },
+      { text: "**Beispiel:** **HV in Berlin** vermittelt dem **Personalunternehmen P in München** die Gestellung von Personal an den **Unternehmer SU in Bern (Schweiz)**." },
+      { text: "**Lösung:** Die Personalgestellung von P an SU aus Bern wird gem. § 3a Abs. 2 UStG **in Bern (Drittland)** bewirkt. Ort der Vermittlungsleistung des HV an P ist nach § 3a Abs. 2 UStG **in München**, da P als LE der Vermittlungsleistung dort seinen Sitz hat; **steuerbar aber nun steuerfrei**." },
+      { text: "➔ **§ 4 Nr. 5 Buchst. d UStG:** Vermittlung von Lieferungen, die nach **§ 3 Abs. 8 UStG als im Inland ausgeführt** gelten. **Beispiel:** Agent A in Berlin vermittelt eine von D in D’dorf an F in Frankfurt ausgeführte Lieferung **von der Türkei nach DE**. Schuldner der EUSt war D." },
+      { typ: "titel", text: "Arbeitspapier A 21" },
+      { text: "**Fa. ABC Hamburg** – Warenbewegungen: aus dem **übrigen Gemeinschaftsgebiet** Innergemein. Erwerb (§ 1 Abs. 1 Nr. 5 UStG), dorthin **Innergem. Lieferungen => steuerfrei (§ 6a UStG)**; aus dem **Drittlandsgebiet** Einfuhr (§ 1 Abs. 1 Nr. 4 UStG), dorthin **Ausfuhrlieferungen => steuerfrei (§ 6 UStG)**; im **Inland** **Inlandslieferungen (➔ immer steuerpflichtig)**." },
+      { typ: "tabelle", spalten: ["Vermittlung (Ort am Sitz ABC in HH)", "Übriges Gemeinschaftsgebiet", "Inland", "Drittlandsgebiet"], zeilen: [
+        ["A. Vermittlungsleistung durch A aus Augsburg", "Steuerpflichtig – A erteilt Rechng. mit USt-Ausweis", "Steuerpflichtig – A erteilt Rechng. mit USt-Ausweis", "Steuerfrei – A erteilt Netto-Rechng. ohne USt"],
+        ["B. Vermittlungsleistung durch B aus Brüssel / Brasilien", "Steuerpflichtig – B erteilt Netto-Rechnung; § 13b für Fa. ABC", "Steuerpflichtig – B erteilt Netto-Rechnung; § 13b für Fa. ABC", "Steuerfrei – B erteilt Netto-Rechnung; kein § 13b für Fa. ABC"],
+      ] },
+      { text: "Schaubild der Quelle als Tabelle wiedergegeben; die Spaltenköpfe „Übriges Gemeinschaftsgebiet“, „Inland“ und „Drittlandsgebiet“ folgen der räumlichen Anordnung der Gebiete im Schaubild (eigene Ergänzung zur Darstellung)." },
+      { typ: "titel", text: "Arbeitspapier A 22 – 3.4.3 sog. Katalogleistungen i.S.d. § 3a Abs. 4 UStG a.F." },
+      { text: "➢ Einen Leistungsort **am Sitz des Leistenden gibt es im B2B-Bereich nicht mehr**." },
+      { text: "❖ **Typische Beispielsfälle:** • Leistungen der Rechtsanwälte, Steuerberater usw. • Rechtliche, wirtschaftliche und technische Beratung • Werbeleistungen • Einräumung, Übertragung und Wahrnehmung von Rechten • Überlassung von Informationen • Personalgestellung • Kreditgewährung • Vermietung körperlich beweglicher Gegenstände (Ausnahme Beförderungsmittel) • Telekommunikation • Rundfunk und Fernsehen • Elektronische Dienstleistungen" },
+      { text: "**Beispiel (LE aus EU + für nicht steuerbare Umsätze):** **Rechtsanwalt und Unternehmensberater DU aus Essen** berät ein **Unternehmen zur Herstellung von Photovoltaikanlagen mit Sitz in Belgien (BE)** im Hinblick auf einen **geplanten Börsengang** bzw. Ausgabe von Aktien zur Kapitalbeschaffung." },
+      { text: "**!** Auch an einen Unternehmer **für nicht steuerbare Umsätze** ➔ Ort gem. § 3a Abs. 2 in GB (so in der Quelle; gemeint BE) am Sitzort des LE. **Für LE** ➔ In BE **zwingend RC-Verfahren** gem. Art. 196 MwStSystRL. **Für LU** ➔ Sonstige Leistung in ZM zu erklären – § 18a UStG – ➔ Gesonderte Erklärung in USt-VA – § 18b UStG – ➔ Rechnung mit Angabe USt-IdNr. LU und LE – § 14a Abs. 1 UStG –" },
     ],
   },
 ];
