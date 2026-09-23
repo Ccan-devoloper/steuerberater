@@ -10623,6 +10623,24 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: II.2.2 und II.2.3
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-14` (II.2.2 ordnungsgemäße Rechnung,
+Gutschrift, Rechnungsberichtigung) und `ust-m-b11-15` (II.2.3 von einem anderen Unternehmer) für
+die PDF-Seiten 24 bis 27. Keine Bilder auf diesen Seiten. Stand des USt-Skripts: 12 Teile, 420 Kapitel, 5846 Blöcke, 307 Tabellen.
+
+**In der Quelle unvollständig (markiert):** „gem. Abschn. 15.2a Satz 12 bis 14 UStAE“ ohne
+Absatzangabe.
+
+**Stillschweigend berichtigt:** fehlende Klammer „(obwohl sie hätte berichtigt werden können.“,
+„Sätz 1 bis 3“, „-neu UStAE“, „( LE )“ / „( LU )“, „dem Entgegenstehen-  frei“, „liegt ein … Steuerausweis
+vor (§ 14c UStG) vor“, „-vgl. Abschnitt 14.11.-“, fehlender Punkt nach „Satz 14 UStAE)“,
+„"von einem anderen Unternehmer"“, „dass bei Innenumsätzen … keinen Vorsteuerabzug ermöglichen“,
+„bezeichneten, muss“, „Pseudonyme, hergebrachte Firmenbezeichnungen … sind“, „erreichbar ist. eine
+tatsächliche wirtschaftliche Aktivitäten“.
+
+**Weiter mit:** II.2.4 Für eine ausgeführte Leistung für das Unternehmen des LE (PDF-Seite 28).
+
 ### USt-Skript (Moecker), Block 11: I.4 bis II.2.1
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-11` (I.4 Immobilien mit den
