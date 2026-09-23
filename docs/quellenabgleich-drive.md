@@ -10620,6 +10620,38 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VII (Hamacher), Abschnitte 2.1 bis 2.3 – Grundlagen der Liquidationsbesteuerung
+
+Übernommen sind die Seiten 5 bis 7 der Quelle: das Verhältnis zu anderen Steuernormen
+(2.1), das Ziel der Liquidationsbesteuerung mit der Zusammenfassung der Auswirkungen auf
+beiden Ebenen (2.2) sowie die subjektiven und objektiven Tatbestandsmerkmale des § 11 KStG
+einschließlich Scheinliquidation, eingestellter Liquidation und Insolvenzplan (2.3.1,
+2.3.2). Der Datensatz umfasst damit 8 Kapitel mit 79 Abschnitten und 6 Tabellen; geprüft
+mit `npm run check:k2-kst-teil7`.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 2.1: „Diese ist gegenüber den Vorschriften zur allgemeinen
+  Einkommensermittlung (§ 7 Abs. 3 Satz 1 und 2 und Abs. 4 KStG).“ – dem Satz fehlt das
+  Prädikat; gemeint ist, dass § 11 KStG diesen Vorschriften vorgeht.
+- Abschnitt 2.1 verweist für die Gewerbesteuer auf „2.8“; nach dem Inhaltsverzeichnis
+  ist sie in Abschnitt **2.9** behandelt, Abschnitt 2.8 betrifft den Anteilseigner.
+- Abschnitt 2.3.1: „findet nur auf … Kapitalgesellschaften, Erwerbs- oder
+  Wirtschaftsgenossenschaften und Versicherungsvereinen auf Gegenseitigkeit …
+  Anwendung“ – nach „auf“ müsste es „Versicherungsvereine“ heißen.
+- Abschnitt 2.3.2: „wobei sich die Einkommensermittlung nur nach den allgemeinen
+  Grundsätzen orientiert“ – „orientiert sich nach“ statt „an“.
+
+**Einordnung.** Die Abschnitte enthalten keine Zahlenbeispiele. Als eigene Ergänzungen
+im Datensatz ausgewiesen: der genaue Gehalt des Vorrangs (§ 11 KStG ersetzt nur Zeitraum
+und Methode, die übrigen Vorschriften der Einkommensermittlung gelten weiter); die
+Begründung, warum die stillen Reserven einen eigenen Besteuerungstatbestand verlangen;
+die Trennung zwischen Gesellschafts- und Anteilseignerebene über § 8 Abs. 3 Satz 1 KStG;
+der Grund der Beschränkung auf die Körperschaften des § 1 Abs. 1 Nr. 1 bis 3 KStG; die
+Auflösung der scheinbaren Spannung bei der eingestellten Liquidation durch die
+Unterscheidung von Zeitraum und Methode; und der Missbrauchsschutz gegen eine
+Steuerpause durch bloße Scheinliquidation.
+
 ### KSt Teil VII (Hamacher), Kapitel 1 – zivilrechtlicher Hintergrund (Datensatz neu angelegt)
 
 Aus dem geteilten Ordner übernommen ist das Lehrgangsskript

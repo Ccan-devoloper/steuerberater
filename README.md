@@ -5649,7 +5649,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 - **KSt Teil VII (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VII (Liquidation)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VII: Liquidation (§ 11 KStG)“** (21. Auflage,
-  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 4 Kapitel mit 45 Abschnitten und 3 Tabellen;
+  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 8 Kapitel mit 79 Abschnitten und 6 Tabellen;
   Kapitel 1 des Skripts (zivilrechtlicher Hintergrund) ist **vollständig**. Der Liquidation ist die
   **Auflösung** vorgeschaltet, und beide Vorgänge sind streng zu trennen: Die Auflösung ist das
   auslösende Ereignis – ein Gesellschafterbeschluss mit qualifizierter Mehrheit, der Ablauf der
@@ -5680,6 +5680,34 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **zusätzlich** die Abwicklung abgeschlossen ist. Taucht nach der Löschung noch Vermögen auf – etwa
   ein Erstattungsanspruch gegen das Finanzamt –, besteht sie insoweit fort. Nur bei der **Löschung
   wegen Vermögenslosigkeit** fallen Auflösung und Beendigung ohne Abwicklung zusammen.
+  Steuerlich ist **§ 11 KStG** die Sondervorschrift gegenüber § 7 Abs. 3 und 4 KStG, die das Einkommen
+  sonst an das Kalender- oder Wirtschaftsjahr binden. Er ist aber keine vollständige Sonderordnung,
+  sondern ersetzt nur **Zeitraum und Methode** der Gewinnermittlung – vGA, verdeckte Einlage, § 8b und
+  § 10 KStG gelten weiter. Ziel ist die Erfassung des **Abwicklungsgewinns**, und dessen zwei
+  Bestandteile erklären, warum es einen eigenen Tatbestand überhaupt braucht: Die **laufenden**
+  Ergebnisse aus dem Auslaufen des Geschäfts würden auch sonst erfasst; die **stillen Reserven**
+  dagegen würden ohne Veräußerung nie realisiert, denn eine Kapitalgesellschaft kann nichts
+  „entnehmen“. Endet ihre Existenz, müssen die über Jahre angesammelten Wertsteigerungen ein
+  letztes Mal auf Gesellschaftsebene versteuert werden, bevor das Vermögen den Gesellschaftern
+  zufließt. Die **Schlussauskehrung** selbst ist dagegen **Einkommensverwendung** (§ 8 Abs. 3 Satz 1
+  KStG) und beeinflusst den Abwicklungsgewinn nicht; besteuert wird sie allein beim **Anteilseigner**,
+  und zwar zerlegt in **Einnahmen** nach § 20 Abs. 1 Nr. 2 EStG und die **Rückzahlung von Einlagen**
+  als veräußerungsgleichen Tatbestand.
+  Anwendbar ist § 11 KStG nur auf **unbeschränkt steuerpflichtige** Kapitalgesellschaften,
+  Genossenschaften und Versicherungsvereine auf Gegenseitigkeit – folgerichtig, denn nur bei diesen
+  gibt es Anteilseigner, an die in einer Schlussverteilung ausgekehrt wird. Vereine, Stiftungen und
+  Betriebe gewerblicher Art unterliegen den allgemeinen Grundsätzen der Betriebsaufgabe nach § 16
+  EStG. Objektiv verlangt die Vorschrift eine **tatsächliche und ernsthafte** Abwicklung; eine
+  **Scheinliquidation**, bei der die Gesellschaft unverändert am Wirtschaftsleben teilnimmt, genügt
+  nicht – sonst ließe sich schon durch einen bloßen Beschluss eine mehrjährige Steuerpause erreichen.
+  Wird eine ernsthaft begonnene Liquidation **eingestellt**, endet sie spätestens mit der
+  Wiederaufnahme der Tätigkeit, und das Einkommen ist nach den **allgemeinen** Grundsätzen zu
+  ermitteln: Der besondere Vergleich zwischen Abwicklungs-Anfangs- und Endvermögen setzt eine
+  **abgeschlossene** Abwicklung voraus, und ohne Schlussverteilung gibt es kein Endvermögen, das man
+  vergleichen könnte. Für das **Insolvenzverfahren** ordnet § 11 Abs. 7 KStG die sinngemäße Anwendung
+  auch ohne Abwicklung an; kommt es aber zu einem **Insolvenzplan mit Fortführung**, endet der
+  Besteuerungszeitraum mit dem bestätigenden Beschluss, und für die Zeit danach gilt – gegebenenfalls
+  mit einem Rumpfwirtschaftsjahr – wieder die Regelbesteuerung.
   Prüfung: `npm run check:k2-kst-teil7`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -9,8 +9,12 @@
 
    STAND DER ÜBERNAHME: Kapitel 1 – der zivilrechtliche Hintergrund mit
    Auflösungsgründen, Ablauf der Auflösung, Liquidation und Löschung (1.1 bis
-   1.3) – ist VOLLSTÄNDIG übernommen. Es folgt Kapitel 2 zur steuerlichen
-   Behandlung. Der Campus weist den Stand aus.
+   1.3) – ist VOLLSTÄNDIG übernommen. Aus Kapitel 2 sind das Verhältnis zu
+   anderen Steuernormen (2.1), das Ziel der Liquidationsbesteuerung (2.2) und
+   die subjektiven und objektiven Tatbestandsmerkmale (2.3) übernommen; es
+   folgen Besteuerungszeitraum, Gewinnermittlung, Gesamtbeispiel,
+   Einlagekonto, Anteilseigner, Gewerbe- und Umsatzsteuer (2.4 bis 2.10).
+   Der Campus weist den Stand aus.
 
    HINWEIS ZUM RECHTSSTAND: Dieses Skript trägt den Stand Juni 2025.
 
@@ -185,6 +189,134 @@ export const kstTeil7 = [
       ] },
       { text: "Anmerkung zur Lehre vom Doppeltatbestand (eigene Ergänzung): Die Aussage, die Löschung sei zwar erforderlich, aber allein nicht ausreichend, weil zusätzlich die Abwicklung abgeschlossen sein müsse, beschreibt die im Gesellschaftsrecht herrschende Auffassung: Die Gesellschaft ist erst beendet, wenn **beides** vorliegt – Löschung **und** Vermögenslosigkeit. Die praktische Folge ist erheblich: Taucht nach der Löschung noch Vermögen auf, etwa ein Erstattungsanspruch gegen das Finanzamt, besteht die Gesellschaft insoweit **fort** und ist nachträglich abzuwickeln. Steuerlich bedeutet das, dass Bescheide auch nach der Löschung noch ergehen können, wenn noch Vermögen oder ein Abwicklungsbedarf besteht." },
       { text: "Anmerkung zur Rolle der Steuern (eigene Ergänzung): Die Fußnote der Quelle nennt als Beispiel für die zu erfüllenden Verpflichtungen ausdrücklich **Steuererklärungen und Steuerschulden**. Das Finanzamt ist damit der typische letzte Gläubiger einer aufgelösten Gesellschaft – nicht zufällig, denn die Liquidationsbesteuerung nach § 11 KStG erfasst gerade den Abwicklungsgewinn, der erst am Ende feststeht. Der Kreis zum Sperrjahr (Abschnitt 1.2) und zur Pflicht des Liquidators nach § 34 AO (Abschnitt 1.1.2) schließt sich damit: Erst wenn die Steuern gezahlt sind, darf verteilt und danach gelöscht werden." },
+    ],
+  },
+  {
+    id: "kst-t7-5",
+    kapitel: "5",
+    abschnittNr: "2.1",
+    title: "2.1 Verhältnis zu anderen Steuernormen",
+    thema: "Die Einkommensermittlung der aufgelösten Kapitalgesellschaft richtet sich ausschließlich nach § 11 KStG als Sondervorschrift gegenüber § 7 Abs. 3 und 4 KStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.1 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 11 KStG",
+      "§ 7 Abs. 3 Satz 1 und 2 KStG",
+      "§ 7 Abs. 4 KStG",
+    ],
+    themen: ["Sondervorschrift", "Vorrang", "Einkommensermittlung", "Gewerbesteuer"],
+    bloecke: [
+      { typ: "titel", text: "2. Steuerliche Behandlung der Liquidation" },
+      { typ: "titel", text: "2.1 Verhältnis zu anderen Steuernormen" },
+      { text: "Die Einkommensermittlung der aufgelösten Kapitalgesellschaft richtet sich **ausschließlich** nach der **Sondervorschrift des § 11 KStG**. Diese ist gegenüber den Vorschriften zur allgemeinen Einkommensermittlung (§ 7 Abs. 3 Satz 1 und 2 und Abs. 4 KStG). (So in der Quelle; dem Satz fehlt das Prädikat – gemeint ist, dass § 11 KStG diesen Vorschriften **vorgeht**.)" },
+      { text: "Zur gewerbesteuerlichen Behandlung siehe unter 2.8 (so in der Quelle; nach dem Inhaltsverzeichnis ist die Gewerbesteuer in Abschnitt **2.9** behandelt – Abschnitt 2.8 betrifft die Auswirkungen beim Anteilseigner)." },
+      { text: "Anmerkung zum Gehalt des Vorrangs (eigene Ergänzung): Der Vorrang betrifft genau die beiden Regeln, die § 11 KStG außer Kraft setzt. **§ 7 Abs. 3 KStG** ordnet an, dass die Körperschaftsteuer eine **Jahressteuer** ist und das Einkommen für das Kalenderjahr zu ermitteln ist; **§ 7 Abs. 4 KStG** knüpft bei Buchführungspflichtigen an das **Wirtschaftsjahr** an. § 11 KStG ersetzt beides durch einen **mehrjährigen Besteuerungszeitraum**, in dem die Wirtschaftsjahre steuerlich keine Rolle spielen (Abschnitt 2.4.1.1). Alle übrigen Vorschriften der Einkommensermittlung – § 8 KStG mit vGA und verdeckter Einlage, § 8b KStG, § 10 KStG – gelten dagegen **weiter** (Abschnitt 2.5.4). § 11 KStG ist also keine vollständige Sonderordnung, sondern verändert nur den **Zeitraum** und die **Methode** der Gewinnermittlung." },
+    ],
+  },
+  {
+    id: "kst-t7-6",
+    kapitel: "6",
+    abschnittNr: "2.2",
+    title: "2.2 Ziel der Liquidationsbesteuerung",
+    thema: "§ 11 KStG erfasst den Abwicklungsgewinn aus aufgedeckten stillen Reserven und laufenden Ergebnissen; die Schlussauskehrung ist Einkommensverwendung und beeinflusst ihn nicht",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.2 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 11 KStG",
+      "§ 11 Abs. 7 KStG",
+      "§ 8 Abs. 3 Satz 1 KStG",
+      "§ 20 Abs. 1 Nr. 2 EStG",
+    ],
+    themen: ["Abwicklungsgewinn", "stille Reserven", "laufender Gewinn", "Schlussauskehrung", "Einkommensverwendung", "Insolvenz"],
+    bloecke: [
+      { typ: "titel", text: "2.2 Ziel der Liquidationsbesteuerung" },
+      { text: "§ 11 KStG führt zu einer **Ausnahme von der herkömmlichen jährlichen Einkommensermittlung**. Dessen Ziel ist es, den sich im Rahmen der Abwicklung ergebenden **Liquidations- bzw. Abwicklungsgewinn** zu ermitteln. Dieselben Grundsätze gelten im Übrigen auch im Falle einer **Insolvenz**, bei welcher eine Abwicklung unterbleibt (**§ 11 Abs. 7 KStG**)." },
+      { text: "Aus diesem Grund sieht § 11 KStG eine **besondere Art der Gewinnermittlung** vor. Dieser Gewinn umfasst dann" },
+      { text: "– die aufgrund der Abwicklung **aufgedeckten stillen Reserven bzw. stillen Lasten** und" },
+      { text: "– die während der Liquidation erzielten **laufenden Gewinne bzw. Verluste**, welche aus der **Fortführung des bisherigen Geschäftsbetriebs** resultieren (Auslaufen der bisherigen Geschäftstätigkeit)." },
+      { text: "Der Liquidator bzw. Abwickler hat – wie bereits vorhin dargelegt – die Aufgabe, das Gesellschaftsvermögen zu **veräußern**. Dieser Erlös wird **vorrangig zur Befriedigung der Gesellschaftsgläubiger** verwendet. Ergibt sich danach noch ein verbleibender Überschuss, wird dieser im Rahmen der **Schlussverteilung an die Anteilseigner** ausgekehrt. Jeder Anteilseigner partizipiert somit in Höhe seiner Beteiligung an dem Liquidationsergebnis." },
+      { text: "Die **Schlussauskehrung** des Gesellschaftsvermögens darf den Abwicklungsgewinn aber **nicht beeinflussen**, weil diese **Ausfluss der Einkommensverwendung** ist (§ 8 Abs. 3 Satz 1 KStG)." },
+      { text: "Aufgrund § 11 KStG ergeben sich – zusammenfassend – daher folgende steuerliche Auswirkungen:" },
+      { typ: "tabelle", spalten: ["Ebene", "steuerliche Auswirkung"], zeilen: [
+        ["bei der aufgelösten Gesellschaft", "1. Abwicklungsgewinn/-verlust"],
+        ["bei den Anteilseignern", "1. Einnahmen i.S. des § 20 Abs. 1 Nr. 2 EStG"],
+        ["bei den Anteilseignern", "2. Rückzahlung von Gesellschaftereinlagen (veräußerungsgleicher Tatbestand)"],
+      ] },
+      { text: "Anmerkung zu den beiden Bestandteilen des Abwicklungsgewinns (eigene Ergänzung): Die Zweiteilung erklärt, warum ein eigener Besteuerungstatbestand überhaupt nötig ist. Der **laufende Gewinn** aus dem Auslaufen der Geschäftstätigkeit würde auch ohne § 11 KStG erfasst. Die **stillen Reserven** dagegen würden ohne Veräußerung oder Entnahme nie realisiert – und eine Kapitalgesellschaft kann nichts „entnehmen“. Endet ihre Existenz, muss der Gesetzgeber deshalb dafür sorgen, dass die über Jahre angesammelten Wertsteigerungen **ein letztes Mal** auf Gesellschaftsebene versteuert werden, bevor das Vermögen den Gesellschaftern zufließt. § 11 KStG erreicht das, indem er das Endvermögen mit dem **gemeinen Wert** ansetzt, wenn Wirtschaftsgüter nicht veräußert, sondern in Natur ausgekehrt werden (Abschnitt 2.5.3.1)." },
+      { text: "Anmerkung zur Trennung der Ebenen (eigene Ergänzung): Der Hinweis auf § 8 Abs. 3 Satz 1 KStG ist systematisch zentral. Die Schlussauskehrung ist aus Sicht der Gesellschaft eine **Gewinnverwendung** – ebenso wie eine Dividende – und darf das Einkommen deshalb weder mindern noch erhöhen. Die Besteuerung der Auskehrung findet ausschließlich auf der **Ebene der Anteilseigner** statt, und dort wird sie in zwei Teile zerlegt: in **Einnahmen** nach § 20 Abs. 1 Nr. 2 EStG, soweit ausgeschüttet wird, was die Gesellschaft erwirtschaftet hat, und in die **Rückzahlung von Einlagen**, die wie eine Veräußerung behandelt wird. Die Abgrenzung beider Teile erfolgt über das steuerliche Einlagekonto (Abschnitte 2.7 und 2.8)." },
+    ],
+  },
+  {
+    id: "kst-t7-7",
+    kapitel: "7",
+    abschnittNr: "2.3.1",
+    title: "2.3.1 Subjektive Voraussetzungen des § 11 KStG",
+    thema: "§ 11 KStG gilt nur für unbeschränkt steuerpflichtige Kapitalgesellschaften, Genossenschaften und VVaG; übrige Körperschaften unterliegen bei ihrer Abwicklung § 16 EStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.3.1 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 11 KStG",
+      "§ 1 Abs. 1 Nr. 1 – 3 KStG",
+      "§ 1 Abs. 1 Nr. 4 – 6 KStG",
+      "§ 16 EStG",
+    ],
+    themen: ["persönlicher Anwendungsbereich", "Kapitalgesellschaft", "Genossenschaft", "VVaG", "Betrieb gewerblicher Art"],
+    bloecke: [
+      { typ: "titel", text: "2.3 Tatbestandsmerkmale des § 11 KStG" },
+      { typ: "titel", text: "2.3.1 Subjektive Voraussetzungen" },
+      { text: "§ 11 KStG findet **nur** auf **unbeschränkt steuerpflichtige Kapitalgesellschaften, Erwerbs- oder Wirtschaftsgenossenschaften und Versicherungsvereinen auf Gegenseitigkeit** i.S. des § 1 Abs. 1 Nr. 1 – 3 KStG Anwendung (so in der Quelle; nach „auf“ müsste es „Versicherungsvereine“ heißen)." },
+      { text: "Körperschaften i.S. der § 1 Abs. 1 Nr. 4 – 6 KStG (z.B. **Vereine, Stiftungen und Betriebe gewerblicher Art** der öffentlichen Hand) unterliegen im Falle ihrer Abwicklung den **allgemeinen Grundsätzen des § 16 EStG**." },
+      { typ: "tabelle", spalten: ["Körperschaft", "Behandlung bei Abwicklung"], zeilen: [
+        ["unbeschränkt steuerpflichtige Kapitalgesellschaft, § 1 Abs. 1 Nr. 1 KStG", "§ 11 KStG"],
+        ["Erwerbs- und Wirtschaftsgenossenschaft, § 1 Abs. 1 Nr. 2 KStG", "§ 11 KStG"],
+        ["Versicherungsverein auf Gegenseitigkeit, § 1 Abs. 1 Nr. 3 KStG", "§ 11 KStG"],
+        ["Vereine, Stiftungen, Betriebe gewerblicher Art, § 1 Abs. 1 Nr. 4 – 6 KStG", "allgemeine Grundsätze des § 16 EStG"],
+      ] },
+      { text: "Anmerkung zum Grund der Begrenzung (eigene Ergänzung): Die Beschränkung auf die Körperschaften der Nummern 1 bis 3 folgt aus dem Zweck des § 11 KStG. Nur bei diesen Gebilden gibt es **Anteilseigner**, an die das Restvermögen in einer **Schlussverteilung** ausgekehrt wird – und nur für sie stellt sich deshalb die Frage, wie der Abwicklungsgewinn von der anschließenden Auskehrung zu trennen ist. Vereine, Stiftungen und Betriebe gewerblicher Art haben keine Gesellschafter in diesem Sinne; bei ihnen genügt es, die Aufgabe eines etwaigen Gewerbebetriebs nach den Regeln der **Betriebsaufgabe** (§ 16 Abs. 3 EStG) zu erfassen. Bemerkenswert ist auch das Wort „unbeschränkt“: Für eine **ausländische** Kapitalgesellschaft mit inländischer Betriebsstätte greift § 11 KStG nicht; dort gelten die Regeln über die Aufgabe der Betriebsstätte." },
+    ],
+  },
+  {
+    id: "kst-t7-8",
+    kapitel: "8",
+    abschnittNr: "2.3.2",
+    title: "2.3.2 Objektive Voraussetzungen des § 11 KStG",
+    thema: "Die Gesellschaft muss tatsächlich und ernsthaft abgewickelt werden; eine Scheinliquidation genügt nicht, bei eingestellter Liquidation gilt die allgemeine Einkommensermittlung, bei Insolvenz § 11 Abs. 7 KStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: "KSt Teil VII (Hamacher), Abschnitt 2.3.2 · Stand 06/2025",
+    verfasser: VERFASSER,
+    normen: [
+      "§ 11 Abs. 1 KStG",
+      "§ 11 Abs. 1 bis 6 KStG",
+      "§ 11 Abs. 7 KStG",
+      "R 11 Abs. 3 KStR",
+      "InsO",
+      "RFH vom 02.08.1928, RStBl. 1929, 532",
+      "RFH vom 05.03.1940, RStBl. 1940, 715",
+      "Münch in Dötsch/Pung/Möhlenbrock, § 11 KStG, Rz. 71",
+    ],
+    themen: ["tatsächliche Abwicklung", "Scheinliquidation", "Einstellung der Liquidation", "Insolvenzplan", "Fortführung"],
+    bloecke: [
+      { typ: "titel", text: "2.3.2 Objektive Voraussetzungen" },
+      { text: "Voraussetzung für die Anwendung des § 11 KStG ist, dass die Gesellschaft **tatsächlich abgewickelt** wird. Die Abwicklung muss daher **ernsthaft** betrieben werden, d.h. eine **Scheinliquidation** fällt nicht darunter. Davon ist auszugehen, wenn die Gesellschaft **unverändert am Wirtschaftsleben teilnimmt**, ohne dass ein Ende derselben abzusehen ist (RFH vom 02.08.1928, RStBl. 1929, 532)." },
+      { typ: "titel", text: "Einstellung der Liquidation" },
+      { text: "Etwas anderes gilt im Fall der **Einstellung der Liquidation** bzw. Abwicklung. Wird die Liquidation ernsthaft begonnen, diese Entscheidung später aber wieder **verworfen**, ist die Liquidation spätestens **mit Wiederaufnahme der gewerblichen Tätigkeit beendet**." },
+      { text: "Während des Zeitraums der vorangegangenen und tatsächlich betriebenen Liquidation verbleibt es aber bei der grundsätzlichen Anwendung des § 11 KStG, wobei sich die Einkommensermittlung nur nach den **allgemeinen Grundsätzen** orientiert (so in der Quelle; „orientiert sich nach“ statt „an“). Denn die **besondere Gewinnermittlung** i.S. des § 11 Abs. 1 KStG kann nur in den Jahren zur Anwendung kommen, in denen die **Abwicklung tatsächlich abgeschlossen** wurde (R 11 Abs. 3 KStR)." },
+      { typ: "titel", text: "Insolvenzverfahren" },
+      { text: "Einzig für **eröffnete Insolvenzverfahren** regelt **§ 11 Abs. 7 KStG** ausdrücklich, dass § 11 Abs. 1 bis 6 KStG auch **ohne Abwicklung sinngemäß** anzuwenden sind (RFH vom 05.03.1940, RStBl. 1940, 715). Ziel oder Ergebnis des Insolvenzverfahrens kann dabei auch die **Unternehmenssanierung und -fortführung** sein. Dieser Grundgedanke wurde auch in die Insolvenzordnung (InsO) aufgenommen." },
+      { text: "Kommt es im Rahmen eines durch Gesellschafterbeschluss bestätigten **Insolvenzplans** somit zur **Fortführung** bzw. zum Fortbestand eines Unternehmens, **endet im Zeitpunkt dieses Beschlusses der Besteuerungszeitraum** nach § 11 Abs. 1 KStG. Eine Liquidationsbesteuerung kommt dann nicht in Betracht, weil die unternehmerische Tätigkeit gerade **nicht beendet** werden soll (Münch in Dötsch/Pung/Möhlenbrock, § 11 KStG, Rz. 71). Für nachfolgende Wj. (ggf. einschließlich eines weiteren Rumpf-Wj.) gilt ab diesem Zeitpunkt wieder die **Regelbesteuerung**." },
+      { typ: "tabelle", spalten: ["Lage", "Besteuerung"], zeilen: [
+        ["ernsthaft betriebene und abgeschlossene Abwicklung", "besondere Gewinnermittlung nach § 11 Abs. 1 KStG"],
+        ["Scheinliquidation – die Gesellschaft nimmt unverändert am Wirtschaftsleben teil", "kein Fall des § 11 KStG"],
+        ["ernsthaft begonnene, später eingestellte Liquidation", "Ende spätestens mit Wiederaufnahme der Tätigkeit; Einkommensermittlung nach allgemeinen Grundsätzen, R 11 Abs. 3 KStR"],
+        ["eröffnetes Insolvenzverfahren", "§ 11 Abs. 1 bis 6 KStG sinngemäß, auch ohne Abwicklung, § 11 Abs. 7 KStG"],
+        ["Insolvenzplan mit Fortführung", "Besteuerungszeitraum endet mit dem Beschluss; danach Regelbesteuerung"],
+      ] },
+      { text: "Anmerkung zur eingestellten Liquidation (eigene Ergänzung): Der Absatz enthält eine Spannung, die man auflösen sollte. Einerseits heißt es, es verbleibe „bei der grundsätzlichen Anwendung des § 11 KStG“, andererseits richte sich die Einkommensermittlung nach den **allgemeinen** Grundsätzen. Beides passt zusammen, wenn man zwischen dem **Zeitraum** und der **Methode** unterscheidet: Die Gesellschaft war in der Zeit der ernsthaft betriebenen Liquidation tatsächlich aufgelöst, der **besondere Gewinnvergleich** zwischen Abwicklungs-Anfangs- und Endvermögen (Abschnitt 2.5.1) setzt aber eine **abgeschlossene** Abwicklung voraus, die es hier nie gegeben hat. Ohne Schlussverteilung gibt es kein Abwicklungs-Endvermögen, das man vergleichen könnte – das Einkommen wird deshalb wie bei einer werbenden Gesellschaft ermittelt." },
+      { text: "Anmerkung zur Scheinliquidation (eigene Ergänzung): Das Kriterium – die Gesellschaft nimmt **unverändert** am Wirtschaftsleben teil, ohne dass ein Ende abzusehen ist – richtet sich gegen einen naheliegenden Missbrauch. Weil § 11 KStG einen Besteuerungszeitraum von bis zu drei Jahren vorsieht, in dem keine Steuererklärungen abgegeben werden (Abschnitt 2.4.1.1), ließe sich durch einen bloßen Auflösungsbeschluss ohne tatsächliche Abwicklung eine **Steuerpause** erreichen. Die Rechtsprechung stellt deshalb auf das **tatsächliche Verhalten** und nicht auf den Beschluss ab. Dass die zitierte Entscheidung bereits aus dem Jahr 1928 stammt, zeigt, wie alt dieser Grundsatz ist." },
+      { text: "Anmerkung zum Insolvenzplan (eigene Ergänzung): Der Fall des Insolvenzplans ist das Gegenstück zur eingestellten Liquidation, nur mit einem präzise bestimmbaren **Endzeitpunkt**: Der Besteuerungszeitraum nach § 11 KStG endet mit dem bestätigenden **Gesellschafterbeschluss**. Weil der Besteuerungszeitraum damit mitten in einem Wirtschaftsjahr enden kann, entsteht für die Zeit danach gegebenenfalls ein **Rumpfwirtschaftsjahr** – ein Detail, das die Quelle ausdrücklich anspricht und das in der Klausur leicht übersehen wird. Der Grund der Regel ist der Zweck der Liquidationsbesteuerung: Sie soll die **letzte** Besteuerung vor dem Ende der Gesellschaft sein, und wo die Gesellschaft gerade **nicht** endet, fehlt ihr die Grundlage." },
     ],
   },
 ];
