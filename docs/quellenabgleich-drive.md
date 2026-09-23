@@ -10623,6 +10623,36 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: IV. Reiseleistungen
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-14` bis `ust-m-b10-18` für
+Abschnitt IV (Reiseleistungen gem. § 25 UStG), PDF-Seiten 92 bis 99: Überblick und Neuregelung ab
+18.12.2019, Leistungserbringer / Reisevorleistungen / Eigenleistungen mit den Omnibus-Beispielen,
+Beispiel Wochenendreise nach Paris und Steuerfreiheit nach § 25 Abs. 2 UStG, Bemessungsgrundlage /
+Problemfall Veranstalter / Eintrittsberechtigungen, Rechnungslegung und Vorsteuerabzug. Keine Bilder
+auf diesen Seiten. Stand des USt-Skripts: 11 Teile, 351 Kapitel, 4985 Blöcke, 273 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- Zweimal „Ort der Leistung ist gem. § 25a Abs. 1 UStG“ (Beispiel Köln/Berlin und Problemfall
+  Veranstalter); gemeint § 25 Abs. 1 Satz 4 UStG, § 25a UStG ist die Differenzbesteuerung.
+- Beispiel Paris: „im Vergleich zu den Gesamteinnahmen von 9.000 € … 4 %“; die 4 % ergeben sich
+  aus 300 € : 7.500 € Gesamtkosten.
+- Beispiel Fortbildung: „T hat aus der Eingangsrechnung keinen Vorsteuerabzug, es sei denn, T würde
+  die Marge mit USt ausweisen“; gemeint ist wohl der Kunde R.
+
+**Nachgerechnet (eigene Ergänzung):** Beispiel Paris (360 € / 302,52 € / 57,48 €, Marge 1.200 € /
+1.008,40 € / 191,60 €, 1.440 € nicht steuerbar, Summe 1.310,92 €) – stimmt; die USt von 249,08 € ist
+die Summe der Einzelbeträge, 19 % der Summe ergäben 249,07 € (vermerkt). Beispiel Fortbildung 535 € +
+59,50 € = 594,50 € – stimmt.
+
+**Stillschweigend berichtigt:** „Satz1“, „Abschn. 25.1. Abs.“ (mehrfach), „Abschn.25.1 Abs.9“,
+„Ab.25.2“, fehlende schließende Klammer beim BFH-Urteil V R 10/19, „Brötchendient“, „besitzt
+beauftragt des Omnibusunternehmer B“, „30 X 300,- €“, „1.200 € : 1.19“, „Reiseleitungen“ (für
+Reiseleistungen), „( = Unternehmer …)“, „Tagungs- Incentiv- Kongress – Branche ( sog. …)“, „Das gesamt
+Handling“, „den Transfers“, „an eine Bemessungsgrundlage“.
+
+**Weiter mit:** V. Differenzbesteuerung gem. § 25a UStG (PDF-Seite 100).
+
 ### USt-Skript (Moecker), Block 10: II.1 bis III.
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-10` (II.1 Tausch – Grundsätze),
