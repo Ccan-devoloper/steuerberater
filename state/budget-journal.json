@@ -120,10 +120,10 @@
       "slot": "three threshold gates on adjustment path",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-23T19:15:02.586Z",
-      "updatedAt": "2026-09-23T19:15:02.586Z"
+      "updatedAt": "2026-09-23T19:15:04.346Z"
     }
   ],
-  "stand": "2026-09-23T19:15:02.586Z"
+  "stand": "2026-09-23T19:15:04.346Z"
 }
