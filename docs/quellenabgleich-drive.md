@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 3 vollständig (Arbeitspapiere A 1 bis A 27)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block03.js` neue Kapitel
+`ust-m-b03-21` bis `ust-m-b03-25` für die PDF-Seiten 113 bis 139 (Arbeitspapiere A 1 bis A 27).
+Block 3 ist damit vollständig; die Datei `b01-03` (Blöcke 1 bis 3) ist ganz übernommen. Stand
+des USt-Skripts: 3 Teile, 50 Kapitel, 1017 Blöcke, 53 Tabellen.
+
+**Nachgerechnet:** Kran-Fall 19 % von 200 = 38, davon Vorsteuer A (20 %) 7,60 und B (80 %) 30,40,
+Anteilsverkauf 19 % von 100 = 19; Fall H.E.: 25 % von 40.000 € = 10.000 € Vorsteuer EM.
+
+**Quellbefunde (markiert):** A 4 „§ 2 Abs. 3 UStG erfüllt“ (gemeint § 2b Abs. 3 UStG); A 7 „Die
+Praxis (50 % Nutzfläche) fällt damit zu 100 % in den Eigentumsanteil (25 %) des EM“ (die
+Praxisfläche übersteigt den Anteil – erläutert); A 8 Aktenzeichen „V R 49/99“ gegenüber
+„V R 79/99“ in den zitierten UStAE-Stellen; A 25 verlangt eine „unmittelbare (eigene)
+Beteiligung“, während der Textteil VIII.5 auch mittelbare Beteiligungen über Tochtergesellschaften
+genügen lässt. Eigene Anmerkung zu A 15: Das Schaubild ordnet die Folgen nur den Stufen der
+Mischvergütung zu. Stillschweigend berichtigt: „Bauntern.“, „Organschaftsverhältniss“,
+„Perso-Ges.“, „stellen keine objektiven Beweisanzeichen“ (ergänzt: dar), „Zwergenanteil“,
+„Henkel-KG a.A.“ (KGaA).
+
 ### USt-Skript (Moecker), Block 3 Textteil vollständig (VII.4 bis VIII.6)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block03.js` neue Kapitel

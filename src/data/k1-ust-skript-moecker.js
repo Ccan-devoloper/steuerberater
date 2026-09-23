@@ -12,8 +12,7 @@
 
    STAND DER ÜBERNAHME: in Arbeit – Block 1 (Einführung in das Umsatzsteuer-
    recht) vollständig, Block 2 (Leistungen im Leistungsaustausch) vollständig, Block 3
-   (Unternehmer / Unternehmen) mit dem Textteil I bis VIII, ohne die
-   Arbeitspapiere.
+   (Unternehmer / Unternehmen) vollständig.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien
