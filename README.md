@@ -585,7 +585,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Steuerverwaltungsakte, das Prüfungsschema zu Entstehungs- und Bekanntgabefehlern, Form
   und Inhalt nach §§ 119 bis 121, 155 und 157 AO, den abgedruckten Einkommensteuerbescheid
   mit seinen 26 selbständigen Verwaltungsakten, Nichtigkeit nach § 125 AO,
-  Gesamtrechtsnachfolge mit dem Übungsfall Trunk bis zur Bekanntgabe nach §§ 122, 122a AO.
+  Gesamtrechtsnachfolge mit dem Übungsfall Trunk bis zur Bekanntgabe nach §§ 122, 122a AO,
+  inzwischen fortgeführt über die Voraussetzungen einer wirksamen Bekanntgabe (Inhalts- und
+  Bekanntgabeadressat, Zugang, Aufgabe des Bekanntgabewillens, Heilung analog § 8 VwZG), die
+  Viertagesfiktion und ihr Verhältnis zu § 108 Abs. 3 AO mit dem Fallbeispiel zur
+  Rechtsscheinwirkung, die Zusammenfassung der vier Bekanntgabekonstellationen und die
+  Zustellung nach dem VwZG (Seiten 31 bis 39; die bisher blockierten Seiten sind über den
+  Datei-Download lesbar geworden).
   Aus Teil II ist Abschnitt 5 eingepflegt: der Vorbehalt der Nachprüfung nach § 164 AO
   (Anwendungsbereich, Gesamtüberprüfungsrecht, Einspruch gegenüber Änderungsantrag,
   Aufhebung und Wegfall kraft Gesetzes, Prüfungsfolge, Übungsfall zur Teilverjährung), die

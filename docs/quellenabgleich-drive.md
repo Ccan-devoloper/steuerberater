@@ -10623,6 +10623,37 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### AO-Skript (Jacobs), Teil I – Abschnitt 3 ab Seite 31: die erste bisher blockierte Stelle ist nachgeholt
+
+Über den Datei-Download ist AO Teil I jetzt vollständig lesbar (145 PDF-Seiten). Eingepflegt sind
+die Seiten 31 bis 39 als drei neue Kapitel des Abschnitts 3: die Voraussetzungen einer
+wirksamen Bekanntgabe (Tz. 5), der Zeitpunkt der Bekanntgabe bei einfachem Brief mit dem
+Fallbeispiel in zwei Varianten (Tz. 6) sowie die Zusammenfassung und die Zustellung nach dem
+VwZG (Tz. 7 und 8). Der redaktionelle Hinweis „Abbruch der Quelle“ am Ende des Kapitels 9 ist
+entfernt. Das Skript umfasst jetzt 154 Kapitel; geprüft mit `npm run check:k1-ao-skript-jacobs`.
+
+**Befunde der Quelle** (im Datensatz jeweils mit „(so in der Quelle)“ markiert):
+
+- Tz. 6.4, Fallbeispiel: Die **Wochentage** passen nicht zum Kalender 2009 und widersprechen
+  teils der Tz. 6.2 derselben Seite: 16.07.09 „Montag“ (tatsächlich Donnerstag), 17.07.09
+  „Mittwoch“ (Freitag), 20.07.09 „Freitag“ (Montag – so auch die Quelle in 6.2),
+  23.07.09 „Montag“ (Donnerstag), 20.08.09 „Montag“ (Donnerstag – in 6.2 „Do“) und
+  23.08.09 „Donnerstag“ (**Sonntag**). Beim 23.08.09 hätte § 108 Abs. 3 AO das Fristende auf
+  Montag, 24.08.09, verschoben; am Ergebnis – der Einspruch ist fristgerecht – ändert das nichts.
+  Die Fristen selbst (20.07./20.08.09 und 23.07./23.08.09) gehen auf.
+- Tz. 6.2: „§§ 187 Abs. 1 und 188 Abs. 1 AO“ statt BGB.
+- Tz. 5.2: „Machbereich“ (Machtbereich) und „Dreitagesfrist“ – der Text ist an dieser Stelle
+  nicht auf die Viertagesfiktion ab 2025 umgestellt.
+- Tz. 6.3: „Sppfl.“ (Stpfl.); Tz. 6.4: „Die gilt jedoch nicht“ (Dies); Tz. 7: „§§§ 187“;
+  Tz. 8.3: „VzZG“ (VwZG).
+
+**Eigene Nachrechnung.** 15.07.09 + 4 Tage = Sonntag, 19.07.09, verlängert auf Montag,
+20.07.09, Fristende Donnerstag, 20.08.09 (Tz. 6.2); Beispiel in Tz. 7: 11.08.02 + 4 Tage =
+15.08.02, Fristende 15.09.02.
+
+**Noch offen aus AO Teil I:** Abschnitt 3 ab Seite 40 (Tz. 9 ff.) und der gesamte Abschnitt 4
+(Feststellungsbescheide).
+
 ### Dublettencheck, achter Teil: die übrigen Ordner des zweiten Baums – und blockierte Quellen sind lesbar
 
 Geprüft sind die Ordner Umwandlungssteuerrecht, Erbschaftsteuer/Bewertungsrecht (je mit ihren
