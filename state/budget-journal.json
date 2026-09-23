@@ -68,10 +68,10 @@
       "slot": "tax asset entering adjustment timeline",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-23T19:14:04.151Z",
-      "updatedAt": "2026-09-23T19:14:04.151Z"
+      "updatedAt": "2026-09-23T19:14:06.253Z"
     }
   ],
-  "stand": "2026-09-23T19:14:04.151Z"
+  "stand": "2026-09-23T19:14:06.253Z"
 }
