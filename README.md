@@ -5649,7 +5649,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 - **KSt Teil VII (Hamacher)** (Klausur 2, Reiter Körperschaftsteuer → „Teil VII (Liquidation)“):
   das Lehrgangsskript **„Körperschaftsteuer, Teil VII: Liquidation (§ 11 KStG)“** (21. Auflage,
-  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 8 Kapitel mit 79 Abschnitten und 6 Tabellen;
+  Stand 06/2025) im Wortlaut – **in Arbeit**, derzeit 12 Kapitel mit 132 Abschnitten und 10 Tabellen;
   Kapitel 1 des Skripts (zivilrechtlicher Hintergrund) ist **vollständig**. Der Liquidation ist die
   **Auflösung** vorgeschaltet, und beide Vorgänge sind streng zu trennen: Die Auflösung ist das
   auslösende Ereignis – ein Gesellschafterbeschluss mit qualifizierter Mehrheit, der Ablauf der
@@ -5708,6 +5708,38 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   auch ohne Abwicklung an; kommt es aber zu einem **Insolvenzplan mit Fortführung**, endet der
   Besteuerungszeitraum mit dem bestätigenden Beschluss, und für die Zeit danach gilt – gegebenenfalls
   mit einem Rumpfwirtschaftsjahr – wieder die Regelbesteuerung.
+  Der **Besteuerungszeitraum** umfasst den gesamten Abwicklungszeitraum, **soll** aber nach § 11 Abs. 1
+  Satz 2 KStG **drei Zeitjahre** nicht übersteigen. Er ersetzt die jährlichen Veranlagungszeiträume;
+  Wirtschaftsjahre sind steuerlich ohne Bedeutung, alle Feststellungen erfolgen zu seinem Ablauf, und
+  maßgebend ist der Rechtsstand des Jahres, in dem er endet. Die Grenze wirkt in **beide** Richtungen.
+  Für den Fiskus verhindert sie eine **Steuerpause**, denn während des Zeitraums werden keine
+  Erklärungen abgegeben. Für den Steuerpflichtigen kann sie dagegen empfindlich sein, wie das zweite
+  Beispiel drastisch zeigt: Über vier Jahre heben sich Verluste von 30.000.000 € und ein Gewinn in
+  derselben Höhe genau auf – hätte ein einziger Zeitraum alles umfasst, wären **0 €** zu versteuern
+  gewesen. Weil der Gewinn aber in einen **zweiten** Zeitraum fällt, greift die **Mindestbesteuerung**:
+  Nach dem Grundabzug von 1.000.000 € und 70 % des Rests verbleiben **8.700.000 €** Einkommen, und ein
+  gleich hoher Restverlust geht mit der Gesellschaft endgültig unter – betragsgleich, weil bei gleich
+  hohem Gewinn und Verlust jeder nicht abziehbare Euro einem Euro Einkommen entspricht. Genau deshalb
+  ist die **Verlängerung** des Zeitraums in Verlustlagen ein zentrales Gestaltungsmittel. Die
+  Dreijahresgrenze ist nur eine **Sollvorschrift**; das Finanzamt kann den Zeitraum auf **Antrag**
+  nach Ermessen (§ 5 AO) verlängern, etwa wenn die Abwicklung kurz nach Ablauf absehbar endet oder
+  sich unverschuldet verzögert. Weil es die Ablehnung nicht begründen muss, sofern kein besonderes
+  rechtliches Interesse geltend gemacht wird, sollte ein solches ausdrücklich vorgetragen werden.
+  Beim **Rumpfwirtschaftsjahr** vor der Auflösung fallen Handels- und Steuerrecht auseinander:
+  handelsrechtlich Pflicht, steuerlich **Wahlrecht**. Der Verzicht zieht das Ergebnis in den
+  Abwicklungszeitraum und erlaubt die Saldierung eines Verlustes ohne Mindestbesteuerung; die Bildung
+  ermöglicht es, das Ergebnis noch regulär **auszuschütten**. Das **Ende** des Zeitraums verschiebt
+  die Wahl nicht, denn die Frist läuft stets ab der Auflösung – so dass in Extremfällen **47 Monate**
+  (bis zu 11 Monate davor plus 36 danach) zusammenkommen. Im Insolvenzfall entfällt das Wahlrecht,
+  weil § 155 Abs. 2 InsO zwingend ein neues Geschäftsjahr beginnen lässt. Dauert die Abwicklung
+  **länger** als drei Jahre, wird nach dem ersten Zeitraum **jährlich** veranlagt, und die besondere
+  Gewinnermittlung gilt nur im **letzten** Zeitraum – folgerichtig, weil das zur Verteilung kommende
+  Endvermögen erst am Ende feststeht. Ob die früheren Bescheide **endgültig** oder bloße
+  **Zwischenveranlagungen** sind, ist beim BFH (I R 36/18) offen; das FG Düsseldorf hat Letzteres
+  bejaht. Der Streit entscheidet unmittelbar über die Mindestbesteuerung, weshalb einschlägige
+  Bescheide offengehalten werden sollten. Das **Ende** des Abwicklungszeitraums schließlich tritt
+  erst mit rechtsgültigem Abschluss **einschließlich des Sperrjahres** ein – auch wenn das Vermögen
+  schon vorher vollständig ausgeschüttet wurde; die Löschung ist ohne Bedeutung.
   Prüfung: `npm run check:k2-kst-teil7`
 
 Die Zahlen lassen sich mit `npm run check:fallsammlung` und `npm run check:hausaufgaben`

@@ -10620,6 +10620,43 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt Teil VII (Hamacher), Abschnitt 2.4 – Besteuerungszeitraum
+
+Übernommen sind die Seiten 7 bis 11 der Quelle: die Begrenzung auf drei Jahre mit drei
+Beispielen und der Abwandlung zum Rumpfwirtschaftsjahr (2.4.1.1), die Verlängerung des
+Besteuerungszeitraums (2.4.1.2), der Übergang zur jährlichen Veranlagung (2.4.1.3) und
+das Ende des Abwicklungszeitraums (2.4.2). Der Datensatz umfasst damit 12 Kapitel mit
+132 Abschnitten und 10 Tabellen; geprüft mit `npm run check:k2-kst-teil7`.
+
+**Befunde der Quelle** (wortlautgetreu übernommen und im Datensatz gekennzeichnet):
+
+- Abschnitt 2.4.1.1: „Diese wahlweise Erweiterung des Besteuerungszeitraum“ – es fehlt
+  das Genitiv-s.
+- Die Quelle zitiert denselben Kommentar unter zwei Titeln: „Dötsch/Pung/Möhlenbrock“
+  (Fußnote 18) und „Dötsch/Jost/Pung/Witt“ (Fußnote 22); Letzteres ist die frühere
+  Bezeichnung desselben Werks.
+- Der Satz „Ein kürzerer Besteuerungszeitraum ist nicht möglich.“ ist missverständlich:
+  Endet die Abwicklung vor Ablauf von drei Jahren, ist der Zeitraum naturgemäß kürzer.
+  Gemeint ist, dass er nicht willkürlich, etwa jährlich, unterteilt werden kann; im
+  Datensatz als eigene Ergänzung erläutert.
+
+**Eigene Nachrechnung.** Alle Zahlen gehen auf. Beispiel 1: 150.000 € ./. 200.000 € +
+300.000 € = 250.000 €. Beispiel 2: Grundabzug 1.000.000 €, Restabzug 70 % von
+29.000.000 € = 20.300.000 €, Einkommen 8.700.000 €; genutzt werden 21.300.000 €, so dass
+von 30.000.000 € genau 8.700.000 € untergehen. Die Betragsgleichheit von Einkommen und
+untergehendem Restverlust folgt daraus, dass Gewinn und Verlust gleich hoch sind. Die
+„47 Monate“ ergeben sich aus bis zu 11 Monaten vor der Auflösung und 36 Monaten danach.
+Für die Abwandlung zu Beispiel 3 ist im Datensatz eine Gegenüberstellung ergänzt: mit
+Rumpf-Wj. beträgt der Besteuerungszeitraum 36 Monate (01.01.2024 bis 31.12.2026), ohne
+Rumpf-Wj. 39 Monate (01.10.2023 bis 31.12.2026).
+
+**Einordnung.** Als eigene Ergänzungen ausgewiesen: die Härte des zweiten Beispiels (ohne
+Dreijahresgrenze wären 0 € zu versteuern gewesen), der Doppelcharakter der Grenze, die
+praktische Empfehlung, beim Verlängerungsantrag ein besonderes rechtliches Interesse
+vorzutragen, die Bedeutung des Streits um die Zwischenveranlagung für die
+Mindestbesteuerung und die Abgrenzung des Abschnitts 2.4.2 zur vorzeitigen Beendigung bei
+fehlendem Vermögen (Abschnitt 1.2).
+
 ### KSt Teil VII (Hamacher), Abschnitte 2.1 bis 2.3 – Grundlagen der Liquidationsbesteuerung
 
 Übernommen sind die Seiten 5 bis 7 der Quelle: das Verhältnis zu anderen Steuernormen
