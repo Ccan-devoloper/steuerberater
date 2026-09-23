@@ -3,7 +3,8 @@
    „Block 09 – Besondere Umsätze im Binnenmarkt - Version 01.07.25 / Red. 08-25“ und
    „Red. StB58/ Vers. 1.7.25 / Stand 07-25“), PDF-Seiten 2 bis 76 der gemeinsamen Datei für
    die Blöcke 9 und 10: Textteil PDF-Seiten 2 bis 43, Arbeitspapiere ab PDF-Seite 44.
-   In Arbeit: Textteil vollständig (PDF-Seiten 2 bis 43); Arbeitspapiere A 1 bis A 30 (PDF-Seiten 44 bis 73) eingepflegt. */
+   Vollständig: Textteil I bis X (PDF-Seiten 2 bis 43) und Arbeitspapiere A 1 bis A 33 (PDF-Seiten
+   44 bis 76). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 07/2025";
@@ -1322,6 +1323,60 @@ export const block09 = [
       { text: "**Sonderregelungen, die zum Wegfall der Konsi-Lager-Regelung führen (§ 6b Abs. 5 und 6 UStG):** ❖ **Erwerberwechsel** (z.B. nun im Drittland) (so in der Quelle; nach § 6b Abs. 5 UStG führt ein Erwerberwechsel unter den dort genannten Voraussetzungen gerade nicht zum Wegfall, der Weitertransport ins Drittland fällt unter § 6b Abs. 6 UStG) ❖ **Zerstörung, Diebstahl, Verlust**" },
       { text: "**Folie (in der Quelle als Bild): „5. Konsignationslager“ – Ergänzung § 22 UStG:** (4f) Der Unternehmer, der nach Maßgabe des § 6b einen Gegenstand aus dem Gebiet eines Mitgliedstaates in das Gebiet eines anderen Mitgliedstaates befördert oder versendet, hat über diese Beförderung oder Versendung gesondert folgende Aufzeichnungen zu führen: [Nr. 1 – Nr. 14] (4g) Der Unternehmer, an den der Gegenstand nach Maßgabe des § 6b geliefert werden soll, hat über diese Lieferung gesondert folgende Aufzeichnungen zu führen: [Nr. 1 – Nr. 7]" },
       { text: "Die Folien und das ZM-Beispiel liegen in der Quelle nur als Bilder vor (Fußzeile „Quick Fixes 2019“); sie sind aus den Bildern übertragen. Die in der Quelle nicht lesbaren Ziffernsymbole in A 28 sind als ① bis ③ wiedergegeben; die Übersichten sind als Tabellen dargestellt (eigene Ergänzung zur Darstellung). Die USt-IdNrn. im ZM-Beispiel sind Platzhalter der Quelle." },
+    ],
+  },
+  {
+    id: "ust-m-b09-55",
+    teil: TEIL,
+    kapitel: "55",
+    abschnittNr: "A 31 bis A 32",
+    title: "Arbeitspapiere A 31 und A 32: Erwerb und Lieferung neuer Fahrzeuge (§ 1b UStG)",
+    thema: "Begriff und Neuheit (§ 1b Abs. 2 und 3 UStG), Warenbewegung aus der EU in das Inland (Erwerb durch Unternehmer, Schwellenerwerber und Privatpersonen mit Fahrzeugeinzelbesteuerung), Warenbewegung aus dem Inland in die EU (Fahrzeuglieferer, Steuerbefreiung, Vorsteuerabzug nach § 15 Abs. 1 und 4a UStG mit Begrenzungen)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 31 und A 32"),
+    verfasser: VERFASSER,
+    normen: ["§ 1a UStG", "§ 1b Abs. 1 bis 3 UStG", "§ 2, § 2a Abs. 1 UStG", "§ 3d Satz 1 UStG", "§ 6a Abs. 1 Nr. 2 Buchst. c UStG", "§ 13 Abs. 1 Nr. 7 UStG", "§ 15 Abs. 1 Nr. 1 und Abs. 4a UStG", "§ 16 Abs. 5a UStG", "§ 18 Abs. 5a UStG"],
+    themen: ["Arbeitspapier", "Neue Fahrzeuge", "Fahrzeugeinzelbesteuerung", "Fahrzeuglieferer", "Vorsteuerabzug"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 31 – 10. Erwerb und Lieferung neuer Fahrzeuge (§ 1b)" },
+      { text: "**Was ist ein Fahrzeug??** ➔ § 1b Abs. 2 UStG – **Wann ist ein Fahrzeug neu??** ➔ § 1b Abs. 3 UStG" },
+      { typ: "tabelle", spalten: ["Warenbewegung aus der EU in das Inland", "Niederlande (Ursprungsland)", "DE (Bestimmungsland)"], zeilen: [
+        ["Grundsatz", "Immer Entlastung der Lieferung ➔ 0 €", "Immer Besteuerung des Erwerbs ➔ USt €"],
+        ["Unternehmer (regelbesteuert) oder Schwellenerwerber", "", "Innergem. Erwerb gem. § 1a UStG ohne jede Einschränkung"],
+        ["Privatpersonen (§ 1b (1) UStG)", "", "innergem. Erwerb gem. § 1b UStG (Ort gem. § 3d Satz 1 UStG); Fahrzeugeinzelbesteuerung gem. § 16 Abs. 5a UStG; Entstehung der USt am Tag des Erwerbs (§ 13 Abs. 1 Nr. 7 UStG); Anmeldung (amtl. Vordruck) und Fälligkeit binnen 10 Tagen (§ 18 Abs. 5a UStG)"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 32" },
+      { typ: "tabelle", spalten: ["Warenbewegung aus dem Inland in die EU", "DE (Ursprungsland)", "Niederlande (Bestimmungsland)"], zeilen: [
+        ["Grundsatz", "Niemals Besteuerung ➔ 0", "Immer Erwerbsbesteuerung ➔ USt"],
+        ["Lieferung neuer Fahrzeuge durch Unternehmer (§ 2 UStG)", "Als bewegte Lieferung somit immer steuerbar aber steuerfrei gem. § 6a Abs. 1 Nr. 2 Buchst. c UStG; Vorsteuerabzug aus Einkauf nach § 15 Abs. 1 Nr. 1 UStG", ""],
+        ["Lieferung neuer Fahrzeuge durch Nichtunternehmer – gelten als untern. Fahrzeuglieferer (§ 2a (1) UStG)", "Als bewegte Lieferung somit immer steuerbar aber steuerfrei gem. § 6a Abs. 1 Nr. 2 Buchst. c UStG; Vorsteuerabzug aus Einkauf nach § 15 Abs. 4a UStG. Beachte: – sachliche Begrenzung (nur aus AK des Fahrzeugs) – betragsmäßige Begrenzung (fiktiver Vorsteuerbetrag) – zeitliche Begrenzung (im Zeitp. der Veräußerung)", ""],
+      ] },
+      { text: "Die Schaubilder A 31 und A 32 sind als Tabellen wiedergegeben; Zeilenbezeichnungen und die Zuordnung der Kästen zu den Staaten sind eigene Ergänzung zur Darstellung." },
+    ],
+  },
+  {
+    id: "ust-m-b09-56",
+    teil: TEIL,
+    kapitel: "56",
+    abschnittNr: "A 33",
+    title: "Arbeitspapier A 33: Übersicht – LU aus D’dorf transportiert nach Frankreich",
+    thema: "Prüfschema für Lieferungen eines Düsseldorfer Unternehmers nach Frankreich: Fenster mit Einbau (Ort § 3 Abs. 7 UStG), Fernseher an Privatpersonen und Schwellenerwerber (Umsatzschwelle, Option, USt-IdNr.), Wein (verbrauchsteuerpflichtig) und neue Kfz (besonderes Verfahren)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapier A 33"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 und 7 UStG", "§ 3c Abs. 1 und 4 UStG", "§ 6a UStG", "§ 1b UStG"],
+    themen: ["Arbeitspapier", "Fernverkauf", "Lieferort", "Schwellenerwerber", "Verbrauchsteuerpflichtige Waren", "Neue Fahrzeuge"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 33 – Wer: LU aus D’dorf transportiert nach Frankreich" },
+      { typ: "tabelle", spalten: ["Was", "An wen", "Prüfung / Ergebnis"], zeilen: [
+        ["Fenster und baut dort ein", "–", "➔ Ort § 3 (7) Frankreich"],
+        ["Fernseher", "an Privat bzw. an Schwellenerwerber ohne Erwerb", "LU überschreitet Umsatzschwelle? Ja ➔ Ort § 3c (1) Frankreich. Nein ➔ Option? Ja ➔ Ort § 3c (1) Frankreich; Nein ➔ Ort § 3 (6) D’dorf / stpfl."],
+        ["Fernseher", "an Schwellenerwerber mit Erwerb = USt-IdNr.", "➔ Ort § 3 (6) D’dorf; stfrei § 6a"],
+        ["Wein", "an Privat", "vgl. Fernseher"],
+        ["Wein", "an Schwellenerwerber", "➔ Ort § 3 (6) D’dorf; grds. stfrei § 6a aber USt-IdNr. vorhanden?"],
+        ["neue KFZ", "–", "➔ Besonderes Verfahren"],
+      ] },
+      { text: "Das Entscheidungsschaubild ist als Tabelle wiedergegeben; die Zuordnung der Äste wurde anhand der Textpositionen auf der Seite ermittelt, Spaltenköpfe und die Zeilenaufteilung sind eigene Ergänzung zur Darstellung." },
     ],
   },
 ];

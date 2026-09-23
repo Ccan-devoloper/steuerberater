@@ -2431,7 +2431,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und fiktiver Option, Optionserklärung und Optionseinschränkung nach § 9 Abs. 2 UStG
   und zeitlichen Einschränkungen nach § 27 Abs. 2 UStG (Textteil vollständig) sowie die
   Arbeitspapiere A 1 bis A 38 (57 Kapitel), Block 9 (Besondere Umsätze im Binnenmarkt)
-  begonnen mit Inhaltsverzeichnis, Dreigliederung, steuerpflichtigen Abhollieferungen und dem
+  vollständig mit Inhaltsverzeichnis, Dreigliederung, steuerpflichtigen Abhollieferungen und dem
   innergemeinschaftlichen Fernverkauf nach § 3c Abs. 1 UStG mit Abnehmerkreis,
   Geringfügigkeitsschwelle, Option, Ausschlüssen, Rechnungslegung und Vorsteuer sowie dem
   Fernverkauf aus dem Drittland nach § 3c Abs. 2 und 3 UStG und den One-Stop-Shops nach
@@ -2439,7 +2439,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 3 Abs. 3a und 6b UStG und der Befreiung nach § 4 Nr. 4c UStG sowie der Lieferfiktion
   und Erwerbsfiktion beim innergemeinschaftlichen Verbringen und der Konsignationslagerregelung
   nach § 6b UStG, Lieferungen an Bord und neuen Fahrzeugen (Textteil vollständig) sowie
-  Arbeitspapieren A 1 bis A 30 (54 Kapitel).
+  Arbeitspapieren A 1 bis A 33 (56 Kapitel, vollständig).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

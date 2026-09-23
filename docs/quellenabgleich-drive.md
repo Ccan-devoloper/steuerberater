@@ -10623,6 +10623,20 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: Arbeitspapiere A 31 bis A 33 (Block 9 vollständig)
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-55` (A 31 und A 32 neue
+Fahrzeuge) und `ust-m-b09-56` (A 33 Prüfschema D’dorf – Frankreich) für die PDF-Seiten 74 bis
+76. Damit ist Block 9 vollständig (56 Kapitel). Stand des USt-Skripts: 10 Teile, 333 Kapitel, 4797 Blöcke, 263 Tabellen.
+
+**Darstellung:** Schaubilder als Tabellen; beim Entscheidungsschaubild A 33 wurde die
+Zuordnung der Äste anhand der Textpositionen auf der Seite ermittelt (vermerkt).
+
+**Stillschweigend berichtigt:** „10Tagen“, „Beachte;“.
+
+**Weiter mit:** Block 10 (BMG & Änderung / Reise / Differenz / Kleinunternehmer / Steuersatz),
+PDF-Seite 77 der Datei b09-10.
+
 ### USt-Skript (Moecker), Block 9: Arbeitspapiere A 25 bis A 30
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-52` (A 25 § 3 Abs. 6b UStG,
