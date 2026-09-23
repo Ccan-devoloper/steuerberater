@@ -817,8 +817,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Buchführungsunterlagen und Prüfungsschwerpunkte nach § 197 Abs. 3 und 4 AO, die
   Bekanntgabefrist des § 197 Abs. 5 AO und ihre Wirkung auf die Fünfjahresgrenze des
   § 171 Abs. 4 Satz 3 AO – durchgerechnet in zwei Beispielen bis zum 31.12.2035 – und der
-  bindende Teilabschluss nach § 180 Abs. 1a AO. An dieser Stelle bricht die maschinelle
-  Ausgabe der Quelldatei ab; der Rest ist in `docs/offene-quellen.md` vermerkt.
+  bindende Teilabschluss nach § 180 Abs. 1a AO; über den Datei-Download nachgeholt sind die
+  Seiten 28 bis 38: das qualifizierte Mitwirkungsverlangen mit Mitwirkungsverzögerungsgeld
+  nach § 200a AO, **Teil VI** (Rechtsbehelfe gegen einzelne Prüfungsmaßnahmen als Tabelle),
+  **Teil VII** (Rechtsfolgen der Außenprüfung: § 164 Abs. 3, § 171 Abs. 4, § 173 Abs. 2 und
+  § 371 Abs. 2 AO) und **Teil VIII** (Verwertungsverbot mit Fallgruppen, Ausnahmen,
+  Wiederholungsprüfung, Prüfungsschema und zwei Übungsfällen). **Abschnitt 12 ist damit
+  vollständig**; offen ist aus Teil V nur noch Abschnitt 13 (Haftungsrecht).
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und

@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### AO-Skript (Jacobs), Teil V – Abschnitt 12 ab Seite 28: § 200a AO, Rechtsbehelfe, Rechtsfolgen, Verwertungsverbot
+
+Über den Datei-Download ist AO Teil V vollständig lesbar (175 PDF-Seiten: Abschnitt 11 mit 52,
+Abschnitt 12 mit 38, Abschnitt 13 mit 84 Skriptseiten). Nachgeholt sind die Seiten 28 bis 38 des
+Abschnitts 12: Das Kapitel `ao-jacobs-12-9` ist um den Rest des Teilabschlusses nach § 180
+Abs. 1a AO und das qualifizierte Mitwirkungsverlangen nach § 200a AO ergänzt (Abbruch-Hinweis
+entfernt); neu sind `ao-jacobs-12-10` (Teil VI Rechtsbehelfe gegen Prüfungsmaßnahmen, Teil VII
+Rechtsfolgen der Ap), `ao-jacobs-12-11` (Teil VIII Verwertungsverbot mit Prüfungsschema) und
+`ao-jacobs-12-12` (zwei Übungsfälle mit Lösungen). Stand des Skripts: 15 Teile, 212 Kapitel,
+5319 Blöcke, 367 Tabellen.
+
+**Quellbefunde (markiert):** In den Lösungshinweisen zu Beispiel 1 trägt die Erweiterungs-PA das
+Datum „14.11.07“ (das ist der Prüfungsbeginn; nach dem Sachverhalt ist sie vom 16.11.07) und
+umfasst „9 selbständige Verwaltungsakte“, obwohl zwei Jahre mal drei Steuerarten sechs ergeben;
+„§ 173 I 1 AO“ statt § 173 I Nr. 1 AO in beiden Sachverhalten. Stillschweigend berichtigt sind
+reine Tippfehler („BStbBl“, „endgütigen“, „„132“). **Nachgerechnet:** Erklärungen 01 und 02 im
+Jahr 03 – reguläre Festsetzungsfrist bis 31.12.07, Erweiterungsprüfung im November 07 vor
+Fristende.
+
 ### AO-Skript (Jacobs), Teil IV – Abschnitt 10: Vorläufiger Rechtsschutz – Teil IV vollständig
 
 Abschnitt 10 (34 Skriptseiten, PDF-Seiten 111 bis 144 des Bandes „Teil IV: Abschnitte 8 bis 10“)
