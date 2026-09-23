@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: Arbeitspapiere A 14 bis A 20
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-60` (A 14/A 15 Binnenmarkt und
+Gesamtdifferenz), `ust-m-b10-61` (A 16 Ausschlachten), `ust-m-b10-62` (A 17/A 18 Kleinunternehmer
+Folgen und Neukonzeption) und `ust-m-b10-63` (A 19/A 20 Umsatzgrenzen und Beispiele) für die
+PDF-Seiten 158 bis 164, nach Ansicht der gerenderten Seiten. Stand des USt-Skripts: 11 Teile, 396 Kapitel, 5551 Blöcke, 297 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- A 15: „EKP bis 700 €“ und „Einzelgegenstände über 700 €“; die Grenze beträgt ab 2025 750 € (so
+  die Quelle selbst in V.3 und im selben Schaubild).
+- A 16: „Abschn. 25a (4a) 4 UStAE“; gemeint Abschn. 25a.1 Abs. 4a UStAE.
+
+**Nachgerechnet (eigene Ergänzung):** A 16 Aufteilung 3.000 + 1.000 + 2.000 = 6.000 €, Differenzen
+2.000 / 1.000 / 0 / 1.000 – stimmt; A 20 Beispiel 3 89.300 € + 11.200 € = 100.500 € – stimmt.
+
+**Stillschweigend berichtigt:** „innergemeinschaftlichem Warenverkehr“, „ausschließende“ (den
+Vorsteuerabzug ausschließenden), „KJ..“, „Abschn. 19.3. Abs. 4“, „Oder eine Prognose“, „Summe der
+steuerbare Umsätze“, Leerzeichen in Klammern.
+
+**Weiter mit:** Arbeitspapier A 21 (PDF-Seite 165); Bild auf PDF-Seite 166.
+
 ### USt-Skript (Moecker), Block 10: Arbeitspapiere A 8 bis A 13
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-57` (A 8/A 9 Reiseleistungen),
