@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: III. und IV. (Fernverkauf aus dem Drittland)
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-12` (III. § 3c Abs. 2 UStG mit
+Beispielen Koi und Händler D) und `ust-m-b09-13` (IV. § 3c Abs. 3 UStG, IOSS, Sachwert,
+Beispiele H, DU und Lurgi) für die PDF-Seiten 11 bis 14. Stand des USt-Skripts: 10 Teile, 290 Kapitel, 4457 Blöcke, 241 Tabellen.
+
+**Quellenfehler (im Text markiert):** Beispiel DU: in der Lösung „H hat die Umsätze … zu
+erklären“; gemeint DU.
+
+**Nachgerechnet (eigene Ergänzung):** Händler D 10 bzw. 90 Computer (je hälftig 2.500 € bzw.
+22.500 €); Sachwert-Beispiele 140 € + 20 € = 160 € – stimmt; Lurgi 1.600 € Sendungswert.
+
+**Darstellung:** Sachwert-Beispiele als Tabellen; „Hinweis“-Kasten mit nicht lesbaren
+Aufzählungszeichen als „•“.
+
+**Stillschweigend berichtigt:** „A 10 -& 13“, „Bitte beachte Sie“, fehlendes Komma
+„abgefertigt handelt“, „handelt es sind nicht“, „Vereinfach“, „Der in China ansässiger“,
+„Markplatzes“, überzähliges „sein“ in der Sachwertdefinition, „Der in Deutschland ansässiger“,
+fehlende Punkte nach „zu erklären“ und „versendet“, Komma „Umsätze, wenn möglich“, „in
+grundsätzlich“, Zeilenumbruch in „§ 3 Abs. 8“.
+
+**Weiter mit:** V. Die Besteuerungsverfahren = One-Stop-Shops (PDF-Seite 15).
+
 ### USt-Skript (Moecker), Block 9: II.5 bis II.9
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-7` (II.5 Geringfügigkeitsschwelle
