@@ -3,8 +3,8 @@
    Vers. I 2026, Red. 04-26, Stand April 2026; Titelblatt der gemeinsamen Datei Mai 2026),
    PDF-Seiten 97 bis 130 der gemeinsamen Datei für die Blöcke 6 und 7: Textteil PDF-Seiten
    97 bis 118, Arbeitspapiere A 1 bis A 12 PDF-Seiten 119 bis 130.
-   Textteil I bis VIII (PDF-Seiten 97 bis 118) vollständig; Arbeitspapiere A 1 bis A 8
-   (PDF-Seiten 119 bis 126) eingepflegt, A 9 bis A 12 (PDF-Seiten 127 bis 130) folgen. */
+   Vollständig: Textteil I bis VIII (PDF-Seiten 97 bis 118) und Arbeitspapiere A 1 bis A 12
+   (PDF-Seiten 119 bis 130). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 04/2026";
@@ -584,6 +584,72 @@ export const block07 = [
       { typ: "titel", text: "Arbeitspapier A 8 – Straferwerb (EuGH v. 22.04.2010 Rs. Facet BV, BFH v. 1.9. und 8.9.10; BMF v. 7.7.2011; Gesetzesänderung 1.7.13)" },
       { text: "**Beispiel:** **Textilhändler DU** erwirbt **mit USt-IdNr. aus DE** Stoffe aus **Dänemark** und lässt die Ware durch DK nach **Rumänien** transportieren. Dort werden die Stoffe durch **Werkunternehmer RU** zu Anzügen weiterverarbeitet. Nach der Herstellung verkauft DU die Anzüge in unterschiedliche EU-Staaten und in das Drittland an Unternehmer." },
       { text: "**Lösung:** a) Erwerb mit **Ort § 3d S. 1 in Rumänien (zwingend)** b) und **Erwerb zusätzlich – § 3d Satz 2 im Inland**, steuerbar und steuerpflichtig mangels Steuerfreiheit § 4b UStG. c) Entstehung USt (§ 13 Abs. 1 Nr. 6) mit Rechnungserteilung d) **Kein Vorsteuerabzug für § 3d S. 2 Erwerb**, Abschn. 15.10 Abs. 2 S. 2 und § 15 Abs. 1 Nr. 3 2. Halbsatz e) **Berichtigung gem. § 17 Abs. 2 Nr. 4 UStG** der § 3d Satz 2 USt erst im Zeitpunkt der Erwerbsbesteuerung in Rumänien. DU ist in der Wahl der Mittel der Nachweisführung frei. Eine Besteuerung in Rumänien ist insbesondere dann nachgewiesen, wenn nachvollziehbar ist, dass der Umsatz in eine von ihm in Rumänien abgegebene Steuererklärung eingeflossen ist, Abschn. 3d.1 Abs. 4 UStAE. h) – so in der Quelle; auf e) folgt unmittelbar h) – Zzgl. **B2B Grundfall hinsichtlich Lohnveredelung gem. § 13b Abs. 1**, USt durch DU und Vorsteuer." },
+    ],
+  },
+  {
+    id: "ust-m-b07-22",
+    teil: TEIL,
+    kapitel: "22",
+    abschnittNr: "A 9 bis A 10",
+    title: "Arbeitspapiere A 9 und A 10: Schwellenerwerber, Option, Ausschlussgegenstände",
+    thema: "Erweiterter Erwerberkreis mit den Gruppen der Schwellenerwerber und der Erwerbsschwelle von 12.500 €, Option nach § 1a Abs. 4 UStG (Folge, Form, USt-IdNr., Bindung), Ausschlussgegenstände nach § 1a Abs. 5 UStG und Vorsteuerabzug bei Schwellenerwerbern",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 9 und A 10"),
+    verfasser: VERFASSER,
+    normen: ["§ 1a Abs. 1 Nr. 2 Buchst. b UStG", "§ 1a Abs. 3 Nr. 1 Buchst. a, c und d UStG", "§ 1a Abs. 4 UStG", "§ 1a Abs. 5 UStG", "§ 1b UStG", "§ 4 Nr. 11, 12, 14, 16, 20 UStG", "§ 15 Abs. 2 UStG", "§ 19 UStG"],
+    themen: ["innergemeinschaftlicher Erwerb", "Arbeitspapier", "Schwellenerwerber", "Erwerbsschwelle", "Option", "Ausschlussgegenstände"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 9 – 7. Erweiterter Erwerberkreis (Schwellenerwerber)" },
+      { text: "=> Bei ➔ **regelversteuernden Unternehmer** bleibt Anzahl und Art der Gegenstände **unbeachtlich**. => Besonderheit bei sog. ➔ **Schwellenerwerbern**" },
+      { text: "• **Unternehmer, die nur (= 100 %) steuerfreie Umsätze ausführen, die zum Ausschluss des Vorsteuerabzugs führen** (§ 1a (3) Nr. 1a). z.B. Bspk.- u. Versicherungsvertreter (§ 4 Nr. 11) Wohnungsvermietungsunternehmer (§ 4 Nr. 12) Heilberufe – Ärzte usw. – (§ 4 Nr. 14, 16 UStG) Theater, Museen usw. (§ 4 Nr. 20 UStG) Kleinunternehmer (§ 19 UStG)" },
+      { text: "• **Durchschnittsbesteuerte L.u.F.** (§ 1a Abs. 3 Nr. 1c)." },
+      { text: "• **Juristische Personen, die nicht Unternehmer sind, oder die den Gegenstand nicht für ihr Unternehmen erwerben** (§ 1a Abs. 1 Nr. 2b; § 1a Abs. 3 Nr. 1d)." },
+      { text: "Zur gesetzlichen Einordnung der Kleinunternehmer (§ 1a Abs. 3 Nr. 1 Buchst. b UStG) vgl. den Hinweis zu III.3 (eigene Ergänzung)." },
+      { text: "**Merke:** Erwerbstatbestand durch Schwellenerwerber erfüllt, wenn zusätzlich eine **Einkaufs-Bagatellgrenze**, die sog. ➔ **Erwerbsschwelle**, überschritten wird. Sie beträgt jährlich (tatsächlich im Vorjahr oder voraussichtlich im lfd. Jahr – Prognose –) **12.500 €**." },
+      { typ: "titel", text: "Arbeitspapier A 10 – 7.1 Option" },
+      { text: "Alle sogenannten Schwellenerwerber haben jedoch gem. **§ 1a (4)** die Möglichkeit zu optieren." },
+      { typ: "tabelle", spalten: ["Stichwort", "Inhalt"], zeilen: [
+        ["Folge", "➔ Immer Erwerbsbesteuerung"],
+        ["Form", "➔ nicht geregelt; ausreichend, Abgabe USt-Erklärung. Die Verwendung der IdNr. gilt als Option nach § 1a Abs. 4 UStG."],
+        ["USt-IdNr.", "➔ wird erteilt"],
+        ["Bindung", "➔ mind. für 2 Jahre (autom. Verlängerung)"],
+      ] },
+      { text: "Die Spaltenköpfe „Stichwort“ und „Inhalt“ sind eigene Ergänzung zur Darstellung." },
+      { typ: "titel", text: "7.2 Ausschlussgegenstände" },
+      { text: "Die Erwerbsschwelle gilt gem. **§ 1a Abs. 5 UStG nicht** für den innergem. Erwerb – **neuer Fahrzeuge** (zum Begriff vgl. § 1b UStG) – **verbrauchsteuerpflichtiger Waren** (Mineralöle, Alkohol und alkoholische Getränke sowie Tabakwaren)" },
+      { typ: "titel", text: "7.3 Beachte bei Schwellenerwerber" },
+      { text: "**Zeit- und betragsidentischer Vorsteuerabzug** – nur wenn **kein Ausschluss nach § 15 Abs. 2 UStG** (z.B. für vermietetes Haus, Kleinunternehmer) – nur wenn **persönlich zum Vorsteuerabzug berechtigt** (also nicht L.u.F., Nichtunternehmer)" },
+    ],
+  },
+  {
+    id: "ust-m-b07-23",
+    teil: TEIL,
+    kapitel: "23",
+    abschnittNr: "A 11 bis A 12",
+    title: "Arbeitspapiere A 11 und A 12: Prüfungsweg beim Schwellenerwerber und Erwerb in Gebieten des § 1 Abs. 3 UStG",
+    thema: "Prüfungsweg für den innergemeinschaftlichen Erwerb durch einen Schwellenerwerber (Erwerbsschwelle, Option, verbrauchsteuerpflichtige Ware, neue Fahrzeuge) und Lieferung aus den Niederlanden in den Freihafen mit steuerfreier Lieferung, Ort im Freihafen und Steuerbarkeit über § 1 Abs. 3 Nr. 1 und 7 UStG, Fall Großrechner aus Venlo",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 11 und A 12"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 2 UStG", "§ 1 Abs. 3 Nr. 1 und 7 UStG", "§ 1a Abs. 1 Nr. 1 UStG", "§ 1a Abs. 3 bis 5 UStG", "§ 1b UStG", "§ 3d Satz 1 UStG"],
+    themen: ["innergemeinschaftlicher Erwerb", "Arbeitspapier", "Prüfungsweg", "Schwellenerwerber", "Freihafen"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 11 – 7.4 Prüfungsweg (i.g. Erwerb durch Schwellenerwerber)" },
+      { text: "Lieferant **Firma F in Paris** ➔ Warenbewegung ➔ Erwerber **Firma T in D’dorf**. Firma T = **Schwellenerwerber** (z.B. Kleinunternehmer, Wohnungsvermieter)" },
+      { typ: "tabelle", spalten: ["Prüfungsfrage", "Ja", "Nein"], zeilen: [
+        ["Wurde die Erwerbsschwelle gem. § 1a Abs. 3 überschritten?", "Ja, überschritten ➔ i.g.E", "Nein, nicht überschritten ➔ nächste Frage"],
+        ["Wurde gem. § 1a Abs. 4 optiert?", "Ja, optiert ➔ i.g.E", "Nein, nicht optiert ➔ nächste Frage"],
+        ["Handelt es sich gem. § 1a Abs. 5 um verbrauchsteuerpfl. Ware?", "Ja, Alkohol, Tabak, Benzin ➔ i.g.E", "Nein ➔ nächste Frage"],
+        ["Handelt es sich gem. § 1a Abs. 5 um neue Fahrzeuge?", "Ja, Fahrzeuge i.S. § 1b ➔ i.g.E (aber keine Vorst z.B. wegen Ausschluss)", "Nein ➔ ENDE (Kein Erwerb)"],
+      ] },
+      { text: "Das Ablaufschema der Quelle ist als Tabelle wiedergegeben; die Spaltenköpfe „Prüfungsfrage“, „Ja“ und „Nein“ sowie die Verweise „➔ nächste Frage“ sind eigene Ergänzung zur Darstellung. Der Zusatz „(aber keine Vorst z.B. wegen Ausschluss)“ steht in der Quelle unter dem letzten „i.g.E“." },
+      { typ: "titel", text: "Arbeitspapier A 12 – 8. Erwerb in Gebieten des § 1 Abs. 3 UStG" },
+      { typ: "tabelle", spalten: ["Niederlande", "DE – Freihafen"], zeilen: [
+        ["Aus Sicht des LU aus der EU (Unionsrecht) ➔ Warenbewegung von EU ==> nach EU ➔ deshalb steuerfreie innergem. Lieferung in den NL", "• Warenbewegung wegen § 1a Abs. 1 Nr. 1 erfüllt. • Ort nach § 3d S. 1 = Freihafen (Bremerhaven; Cuxhaven = nur noch bis Ende 2026) • Aus Sicht DE grds. gem. § 1 (2) = Drittland • Somit grds. ➔ nicht steuerbar"],
+      ] },
+      { text: "**Aber !!!!!** Wegen **§ 1 (3) Nr. 1 und 7 UStG** ➔ **steuerbar für dort geregelte besondere „Kunden“**. Grund = **Vermeidung von Gestaltungsmodellen**" },
+      { text: "**Fall:** Lieferant **Fa. B aus Venlo** – Vertrag **Kauf Großrechner 100.000 €** – Erwerber (Erwerbsschwelle überschritten oder optiert) aus **Freihafen Bremerhaven (FB)** – ist die **Zollstelle (Bund)** im Freihafen FB – ist die **DB-Bank-Zweigstelle FB**" },
+      { text: "Die Quelle enthält zu diesem Fall keine ausformulierte Lösung (eigene Ergänzung)." },
     ],
   },
 ];

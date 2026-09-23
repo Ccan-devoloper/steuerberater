@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 7 abgeschlossen: Arbeitspapiere A 9 bis A 12
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
+`ust-m-b07-22` (A 9 und A 10: Schwellenerwerber, Erwerbsschwelle, Option, Ausschlussgegenstände,
+Vorsteuerabzug bei Schwellenerwerbern) und `ust-m-b07-23` (A 11: Prüfungsweg beim
+Schwellenerwerber; A 12: Erwerb in Gebieten des § 1 Abs. 3 UStG mit dem Fall Großrechner aus
+Venlo) für die PDF-Seiten 127 bis 130. **Block 7 ist damit vollständig** (Textteil I bis VIII
+und Arbeitspapiere A 1 bis A 12, 23 Kapitel); die gemeinsame Datei der Blöcke 6 und 7
+(130 PDF-Seiten) ist ganz übernommen. Stand des USt-Skripts: 7 Teile, 163 Kapitel, 3044 Blöcke, 155 Tabellen.
+
+**Darstellung:** Optionsübersicht (A 10), Ablaufschema (A 11) und Freihafen-Schaubild (A 12)
+als Tabellen; Spaltenköpfe (außer „Niederlande“ und „DE – Freihafen“ aus der Quelle) und die
+Verweise „➔ nächste Frage“ sind eigene Ergänzung zur Darstellung. Zum Fall Großrechner aus
+Venlo enthält die Quelle keine ausformulierte Lösung; das ist vermerkt, eine Lösung ist nicht
+ergänzt.
+
+**Stillschweigend berichtigt:** „Einkaufs - Bagatellgrenze“, „sog.➔“, „–Prognose-“, „§1a Abs. 5“,
+„verbrauchsteuerpflichtige Waren“ (Genitiv), „Fahreuge“ (Fahrzeuge), „Waren bewegung“,
+„N i e d e r l a n d e“ (gesperrt), „DB-Bank - Zweigstelle“.
+
+**Weiter mit:** USt-Skript Block 8 Teil I (Steuerfreie Umsätze I, Datei „b08-1“, Stand Juni 2026).
+
 ### USt-Skript (Moecker), Block 7: Arbeitspapiere A 1 bis A 8
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
