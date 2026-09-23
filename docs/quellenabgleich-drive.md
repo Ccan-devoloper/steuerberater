@@ -10623,6 +10623,31 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 fortgesetzt (I.3 bis I.3.4)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-3` (I.3 Umfang, I.3.1 Material- und sonstige Beistellungen mit Goldring- und
+Erweiterungsbau-Fall, I.3.2 Materialaustausch mit Eichenschrank und Mosterei) und `ust-m-b06-4`
+(I.3.3 Ort und Zeitpunkt bei Werklieferungen mit Druckstraße Köln/Basel und schlüsselfertigem
+Haus, unvollendete Werklieferungen; I.3.4 Ort und Zeitpunkt bei Werkleistungen mit
+Generalinspektion und Bildrestaurator) für die PDF-Seiten 9 bis 14. Abschnitt I ist damit
+vollständig. Die Übersicht in I.3.4 als Tabelle mit den Kopfzeilen der Quelle. Stand des
+USt-Skripts: 6 Teile, 111 Kapitel, 2327 Blöcke, 125 Tabellen.
+
+**Nachgerechnet:** Mosterei 10 t × 50 €/t = 500 € (eigene Ergänzung).
+
+**Hinweis:** In I.3.1 ist bei der Personalbeistellung von „dem jeweiligen Gesellschafter“ und
+„den beiden Gesellschaftern“ die Rede, ohne dass die Quelle diese einführt (Bezug auf das
+Beispiel in Abschn. 1.1 Abs. 6 und 7 UStAE); unverändert übernommen.
+
+**Stillschweigend berichtigt:** „die zur Verfügungstellung“ (Zurverfügungstellung),
+„Leistungsaustausch  aus“, „das er selbst beschafft hat aus“ (Komma), „Materialgestellung-“,
+„der Landwirt zahl“ (zahlt), „(bewegte)Werklieferung“, „Basel fertigt“ (Basel, fertigt), „auf
+Fundament..“, „keine selbständige Leistung sondern“ (Komma), „Elektrizitäts- Gas“,
+„bürgerlich rechtl.“, „Block " Sonstige Leistungen“ (Anführungszeichen).
+
+**Noch offen in Block 6:** ab II (§ 13b UStG, PDF-Seite 15 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 6 begonnen (I.1 und I.2)
 
 Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block06.js`
