@@ -10629,7 +10629,7 @@ Neue Datei `src/data/k1-ust-moecker/block09.js` (Block 9 „Besondere Umsätze i
 Stand 07/2025, Quelle „Umsatzsteuer Block 9 - 10 mit Arbeitspapieren“, 180 PDF-Seiten; Block 9
 PDF-Seiten 2 bis 76) mit den Kapiteln `ust-m-b09-1` (Inhaltsverzeichnis) bis `ust-m-b09-6`
 (II.4 Abnehmerkreis) für die PDF-Seiten 2 bis 8; in `src/data/k1-ust-skript-moecker.js`
-eingebunden. Stand des USt-Skripts: 0 Teile, 283 Kapitel, 4402 Blöcke, 239 Tabellen.
+eingebunden. Stand des USt-Skripts: 10 Teile, 283 Kapitel, 4402 Blöcke, 239 Tabellen.
 
 **Quellenfehler (im Text markiert):**
 - Neue Fahrzeuge „unter Tz. VI.“ (zweimal); nach dem Inhaltsverzeichnis Tz. X.
