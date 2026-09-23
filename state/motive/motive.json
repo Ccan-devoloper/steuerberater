@@ -273,6 +273,17 @@
       "benutzt": 1,
       "breite": 907,
       "hoehe": 950
+    },
+    {
+      "datei": "2026-09-23-wx8wlz.webp",
+      "szene": "asset split between recurring and single use",
+      "themaId": null,
+      "look": "flach",
+      "gezeichnet": "2026-09-23",
+      "zuletzt": "2026-09-23",
+      "benutzt": 1,
+      "breite": 726,
+      "hoehe": 960
     }
   ]
 }
