@@ -5,7 +5,7 @@
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
    In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 28 (PDF-Seite 88). */
+   A 32 (PDF-Seite 92). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1528,6 +1528,68 @@ export const block11 = [
       ] },
       { text: "**Zum Beispiel:**\n▪ Umsätzen, die dem inländischen **Reverse-Charge**-Verfahren nach § 13b UStG unterfallen (z.B. Bauleistungen, steuerpflichtige Grundstückslieferungen).\n▪ Unschädlich steuerfreie Umsätze nach § 4 Nr. 1 bis 7 UStG (z.B. innergem. Lieferungen, **Ausfuhren**, grenzüberschreitende Güterbeförderungen).\n▪ **Vermieter, die durch Option** (§ 9 UStG) steuerpflichtig vermieten (Mietvertrag wäre dann grds. keine Rechnung mehr).\n▪ bei steuerpflichtigen **Reiseleistungen** gem. § 25 UStG." },
       { text: "Die Skizze ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-48",
+    teil: TEIL,
+    kapitel: "48",
+    abschnittNr: "A 29 und A 30",
+    title: "Arbeitspapiere A 29 und A 30: Zeitliche Übergangsregelungen zur E-Rechnung (§ 27 Abs. 38 UStG)",
+    thema: "Papier- und andere elektronische Rechnungen für Umsätze 2025 und 2026, Verlängerung bis 2027 bei einem Gesamtumsatz des Vorjahres bis 800.000 €, EDI-Verfahren 2027, zwingende E-Rechnung ab 2028 mit Folgen für den Vorsteuerabzug; Skizze der Wahlrechte nach Jahren",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 29 und A 30"),
+    verfasser: VERFASSER,
+    normen: ["§ 14 Abs. 2 UStG", "§ 19 Abs. 3 UStG", "§ 27 Abs. 38 UStG", "§ 15 Abs. 1 Nr. 1 UStG"],
+    themen: ["Arbeitspapier", "Rechnung", "E-Rechnung", "Übergangsregelung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 29 – Zeitliche Übergangsregelungen" },
+      { text: "Für Umsätze zwischen dem **1.1.2025 und 31.12.2026**\n✓ statt einer eRechnung auch\n✓ eine sonstige Rechnung **auf Papier**\n✓ oder in einem **anderen elektronischen Format** (- egal welches Format - mit Zustimmung des Empfängers)\nmöglich.\n*Sofern ein inländischer LU die Übergangsregelungen nicht in Anspruch nimmt, müssen inländische LE bereits ab 1.1.2025 in der Lage sein, neue E-Rechnungen zu empfangen und verarbeiten.*" },
+      { text: "Wie oben, wenn **Gesamtumsatz** (§ 19 Absatz 3) des LU im vorangegangenen Kj. **nicht mehr als 800 000 Euro** betragen hat\n⇨ Für Umsätze zwischen dem **1.1.2025 und 31.12.2027**" },
+      { text: "Für Umsätze in **2027**\n✓ statt einer E-Rechnung auch\n✓ sonstige Rechnung in einem anderen elektronischen Format möglich, wenn diese mittels **EDI-Verfahren** übermittelt wird (**mit Zustimmung des Empfängers**).\nmöglich." },
+      { text: "**Ab 2028** sind die neuen Anforderungen an die E-Rechnungen und ihre Übermittlung dann zwingend einzuhalten.\n**Grundsätzlich kein Vorsteuerabzug** mehr für LE aus sonstigen Rechnungen.\nJedoch Berichtigung mit Rückwirkung durch nachträgliche E-Rechnung möglich." },
+      { typ: "titel", text: "Arbeitspapier A 30 – Skizze: Zeitliche Übergangsregelungen gemäß § 27 Abs. 38 UStG" },
+      { typ: "tabelle", spalten: ["Rechnungsart", "2025", "2026", "2027", "Ab 1.1.2028"], zeilen: [
+        ["❶ E-Rechnungen durch LU", "Wahlrecht", "Wahlrecht", "Wahlrecht", "Pflicht"],
+        ["❷ Papierrechnungen durch LU", "Wahlrecht", "Wahlrecht", "Wahlrecht wenn Umsatz < 800 T€; sonst unzulässig", "Unzulässig"],
+        ["❸ Anderes elektr. Format (PDF, Mail etc.) durch LU", "Wahlrecht [mit Zustimmung des LE]", "Wahlrecht [mit Zustimmung des LE]", "Wahlrecht [mit Zustimmung LE & wenn Umsatz < 800 T€]; sonst unzulässig", "Unzulässig"],
+        ["❹ EDI-Rechnung des LU", "Wahlrecht [mit Zustimmung des LE]", "Wahlrecht [mit Zustimmung des LE]", "Wahlrecht [mit Zustimmung des LE]", "Unzulässig"],
+      ] },
+      { text: "Die Skizze ist nach Ansicht der Seite als Tabelle wiedergegeben; die Quelle kennzeichnet die Wahlrechte und die Pflicht mit einem zustimmenden, die unzulässigen Fälle mit einem ablehnenden Smiley. Die Grenze „< 800 T€“ steht so in der Skizze; nach Arbeitspapier A 29 und § 27 Abs. 38 UStG gilt ein Vorjahresumsatz von nicht mehr als 800.000 € (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-49",
+    teil: TEIL,
+    kapitel: "49",
+    abschnittNr: "A 31 und A 32",
+    title: "Arbeitspapiere A 31 und A 32: Vorsteuerabzug nach § 15 Abs. 1 Nr. 2 bis 5 UStG und Ausschluss des Vorsteuerabzugs (§ 15 Abs. 2 UStG)",
+    thema: "Abzug der entstandenen EUSt (Gegenstand für das Unternehmen, Verfügungsmacht bei Einfuhr, Lieferkonditionen), Erwerbsteuer nur im Fall des § 3d Satz 1 UStG, § 13b-Steuer und Auslagerung nach dem Grundsatz der Zeit- und Betragsidentität; abzugsschädliche Verwendung für steuerfreie Umsätze und Auslandsumsätze, maßgebend die beabsichtigte Verwendung beim Leistungsbezug",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 31 und A 32"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1 Nr. 2 bis 5 UStG", "§ 15 Abs. 2 Nr. 1 und 2 UStG", "§ 15 Abs. 3 UStG", "§ 3 Abs. 8 UStG", "§ 3d UStG", "§ 15a UStG", "Abschn. 15.12 Abs. 2 UStAE", "Abschn. 15.13 UStAE", "Abschn. 15.14 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Einfuhrumsatzsteuer", "Ausschluss des Vorsteuerabzugs"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 31 – 6. Vorsteuerabzug nach § 15 Abs. 1 Nr. 2 – 5 UStG" },
+      { text: "➔ **Vorsteuerabzug aus EUSt (§ 15 Abs. 1 Nr. 2 UStG)**" },
+      { typ: "tabelle", spalten: ["Merkmal", "Inhalt"], zeilen: [
+        ["die entstandene EUSt", "Auf die Bezahlung kommt es nicht an"],
+        ["Gegenstand für R.d.U", "10%-ige Mindestnutzung beachten. Gegenstand muss zum Unternehmensvermögen gehören. Hinweis auf AP 3 bis 5"],
+        ["Abzugsberechtigter", "Wer im Zeitpunkt der Einfuhr Verfügungsmacht hat. Grundsätze des § 3 Abs. 8 UStG beachten ➔ Bedeutung der Lieferkondition „verzollt und versteuert“ / „unverzollt und unversteuert“"],
+      ] },
+      { text: "➔ **Vorsteuerabzug aus Erwerbsteuer (§ 15 Abs. 1 Nr. 3)**\nGrundsatz der Zeit- und Betragsidentität\n**Nach § 15 Abs. 1 Nr. 3 UStG nur im Fall des innergem. Erwerbs gem. § 3d Satz 1 UStG zum Vorsteuerabzug berechtigt; ➔ nicht im § 3d Satz 2-Fall**" },
+      { text: "➔ **Vorsteuerabzug wegen §13b - USt (§ 15 Abs. 1 Nr. 4)**\nGrundsatz der Zeit- und Betragsidentität" },
+      { text: "➔ **Vorsteuerabzug wegen Auslagerung (§ 15 Abs. 1 Nr. 5)**\nGrundsatz der Zeit- und Betragsidentität\n(Die USt-Lagerregelung entfällt ab 2026)" },
+      { typ: "titel", text: "Arbeitspapier A 32 – 7. Ausschluss des Vorsteuerabzugs (§ 15 (2) UStG)" },
+      { text: "Soweit ein Unternehmer zum Abzug berechtigende Vorsteuerbeträge ⇨ nach § 15 Abs. 1 Nr. 1 bis 5 UStG\n**zur Ausführung folgender Umsätze verwendet bzw. beabsichtigt zu verwenden:**\n**(= im Sinne von: Eingangsleistung geht ein, dient, wird verwendet für; bzw. soll dienen / verwendet werden für)**" },
+      { typ: "tabelle", spalten: ["steuerfreie Umsätze", "Umsätze im Ausland"], zeilen: [
+        ["(§ 15 Abs. 2 Nr. 1 UStG) - Abschn. 15.13 UStAE -", "die steuerfrei wären, wenn sie im Inland ausgeführt würden (§ 15 Abs. 2 Nr. 2 UStG) - Abschn. 15.14 UStAE -"],
+      ] },
+      { text: "➔ ist der Vorsteuerabzug **ausgeschlossen** (die Vorst ist nicht abziehbar)\n(Beachte: für bestimmte Umsätze Aufhebung des Ausschlusses nach Abs. 3)\n⇨ so genannte **abzugsschädliche** Verwendung.\nEntscheidend ist die Zuordnung der Eingangsleistungen zu den Ausgangsumsätzen des Unternehmers." },
+      { text: "**Merke:** **Über das Schicksal des Vorsteuerabzugs entscheidet der Ausgangsumsatz (Verwendung für die Ausgangsebene).**" },
+      { text: "**Merke:** **Maßgebend ist die beabsichtigte Verwendung im Zeitpunkt des Leistungsbezugs – Abschn. 15.12 Abs. 2 S. 1 ff UStAE –.**\n**Spätere Abweichungen der tatsächlichen Verwendung zur beabsichtigten Verwendung ⇨ Fall des § 15a UStG**" },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

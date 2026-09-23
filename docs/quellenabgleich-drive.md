@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 29 bis A 32
+
+Übernommen (PDF-Seiten 89 bis 92, Seiten gerendert und angesehen, darunter die Bildseite 90): Kapitel ust-m-b11-48 (A 29 zeitliche Übergangsregelungen zur E-Rechnung, A 30 Skizze nach Jahren 2025 bis 2028) und ust-m-b11-49 (A 31 Vorsteuerabzug nach § 15 Abs. 1 Nr. 2 bis 5 UStG, A 32 Ausschluss nach § 15 Abs. 2 UStG). Skizzen als Tabellen wiedergegeben; die Smileys der Skizze A 30 (zustimmend / ablehnend) sind beschrieben.
+
+- Hinweis (eigene Ergänzung): Skizze A 30 nennt „< 800 T€“, A 29 und § 27 Abs. 38 UStG „nicht mehr als 800.000 €“; vermerkt.
+- Stillschweigend berichtigt: „des LU hat im vorangegangenen Kj.“ → „des LU im …“ und „nachträglich E- Rechnung“ → „nachträgliche E-Rechnung“ (A 29); „W a h r e c h t“ und „W a h l e c h t“ → „Wahlrecht“ (A 30).
+- Keine Zahlenangaben zum Nachrechnen.
+
+Prüfung danach: 12 Teile, 454 Kapitel, 6311 Blöcke, 342 Tabellen.
+
+Weiter mit: Arbeitspapier A 33, PDF-Seite 93.
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 25 bis A 28
 
 Übernommen (PDF-Seiten 85 bis 88, Seiten gerendert und angesehen): Kapitel ust-m-b11-46 (A 25 E-Rechnung ab 2025, Übergangsregelungen § 27 Abs. 38 UStG, Meldesystem 2028; A 26 Begriffe E-Rechnung und sonstige Rechnung) und ust-m-b11-47 (A 27 welche Rechnung in welchen Fällen, A 28 Skizze obligatorische E-Rechnung). Schaubilder als Tabelle bzw. Textzeile wiedergegeben; Farbhervorhebungen als Fettdruck.
