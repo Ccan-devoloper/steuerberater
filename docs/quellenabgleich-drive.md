@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: II.4.2 bis II.5.2
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-19` (II.4.2 Gemeinschaften und
+Eheleute), `ust-m-b11-20` (II.5/II.5.1 E-Rechnung Allgemeines) und `ust-m-b11-21` (II.5.2
+Neuregelungen) für die PDF-Seiten 32 bis 36. Bilder: PDF-Seite 33 (Hausschaubild 50 % / 50 %,
+Kanzlei 30 %) übertragen; PDF-Seite 36 (zwei Bilder: gescannter Papierbeleg und XML-Ausschnitt)
+nur beschrieben, die Musterdaten (Namen, Anschriften, E-Mail) nicht übernommen. Stand des
+USt-Skripts: 12 Teile, 426 Kapitel, 5935 Blöcke, 310 Tabellen.
+
+**Eigene Ergänzung (markiert):** Beispiel Unternehmerin U / Ehemann E – die Quelle beziffert den
+Vorsteuerabzug nicht; nach dem Grundsatz „bis zur Höhe des Miteigentumsanteils“ 30 %.
+
+**Nachgerechnet (eigene Ergänzung):** 9 % : 25 % = 36 % > 10 % – stimmt.
+
+**Stillschweigend berichtigt:** „Gegentands“, „Bei einer Rechnung an die Gemeinschaft, reicht als
+Angabe … nur den vollständigen Namen“, überzähliges „““ nach „S. 825).“, „Grunds-ätzen“, „Indem
+neuen BMF-Schreiben“, „kann der LU … abgerechnet werden“, „Word- PDF-“, „menschen-lesbaren“, „( § 14
+Absatz 1 Satz 8 UStG – alt )“.
+
+**Weiter mit:** II.5.3 Verpflichtung zur Ausstellung einer E-Rechnung (PDF-Seite 37).
+
 ### USt-Skript (Moecker), Block 11: II.2.4 bis II.4.1
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-16` (II.2.4 Leistungsempfänger,
