@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 5: Textteil abgeschlossen (IV), Arbeitspapiere A 1 bis A 4
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
+`ust-m-b05-26` (IV. Reverse-Charge-Verfahren in der EU, PDF-Seiten 60 bis 62: Grundsätze,
+Art. 196 MwStSystRL zwingend, Art. 194 MwStSystRL freiwillig mit Registrierungspflicht,
+Drittland) und `ust-m-b05-27` (Arbeitspapiere A 1 bis A 4, PDF-Seiten 63 bis 66: Formen der
+sonstigen Leistung und Software, Imbissstand-Schaubild bis 31.12.2025, BFH zu Food-Court,
+Bäckerei im Supermarkt und Betriebskantine, Partyservice). Der Textteil von Block 5 ist damit
+vollständig. Die Schaubilder A 2 und A 4 sind als Tabellen mit den Spaltenköpfen der Quelle
+wiedergegeben; in A 2 steht das gemeinsame Ergebnis „Lieferung Nahrungsmittel zu 7 %“ in beiden
+betroffenen Spalten (als Darstellungsergänzung vermerkt). A 3 trägt in der Quelle keine
+Überschrift und wird nur als „Arbeitspapier A 3“ geführt. Stand des USt-Skripts: 5 Teile,
+99 Kapitel, 2003 Blöcke, 97 Tabellen.
+
+**Stillschweigend berichtigt:** „ansässige Unternehmer“ (ansässiger), „Revers-Charge“,
+„Mitgliedsstaates“, „MwStSystRL.“, „Kundestamm“, „so. Leist“, „Berechtigungsscheine“
+(Berechtigungsscheinen), „Qualität der zubereitete Speisen“, „und v. BFH v. 3.8.2017“,
+Layout-Reste im Imbiss-Schaubild („vorhanden)“, „Vorhanden Hinweis“).
+
+**Noch offen in Block 5:** Arbeitspapiere ab A 5 (PDF-Seite 67 ff.).
+
 ### USt-Skript (Moecker), Block 5 fortgesetzt (III.3.9 bis III.4)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block05.js` neue Kapitel
