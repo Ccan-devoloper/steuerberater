@@ -2453,8 +2453,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   genutzter Leistungsbezüge, der Gesamttätigkeit, den Immobilien und dem Vorsteuerabzug aus
   Rechnungen samt Sonderfällen, Zeitpunkt, Bauten auf fremdem Grund, Gemeinschaften und der
   E-Rechnung, dem Abzug der Einfuhrumsatzsteuer, dem Ausschluss vom Vorsteuerabzug samt
-  Ausnahmen, der Vorsteueraufteilung und den nicht abziehbaren Vorsteuern (32 Kapitel); Blöcke 12
-  und 13 folgen.
+  Ausnahmen, der Vorsteueraufteilung, den nicht abziehbaren Vorsteuern und dem Wegfall des
+  Seeling-Modells (Textteil vollständig, 33 Kapitel; Arbeitspapiere folgen); Blöcke 12 und 13
+  folgen.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

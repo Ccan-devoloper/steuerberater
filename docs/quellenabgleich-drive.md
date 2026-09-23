@@ -10623,6 +10623,24 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: VIII (Textteil abgeschlossen)
+
+In `src/data/k1-ust-moecker/block11.js` neues Kapitel `ust-m-b11-33` (VIII Wegfall des
+Seeling-Modells, VIII.1 bis VIII.7) für die PDF-Seiten 57 bis 60. Damit ist der Textteil von
+Block 11 vollständig; ab PDF-Seite 61 folgen die Arbeitspapiere A 1 bis A 42. Keine Bilder auf
+diesen Seiten. Stand des USt-Skripts: 12 Teile, 438 Kapitel, 6144 Blöcke, 316 Tabellen.
+
+**In der Quelle unvollständig (markiert):** VIII.7 „Bestandsschutz für Altgebäude gem. § 27 Absatz
+16“ besteht nur aus der Überschrift; ergänzend der Hinweis aus Arbeitspapier A 42 derselben Quelle
+(Anschaffung/Herstellung nach dem 31.12.2010).
+
+**Stillschweigend berichtigt:** „vom Vorsteuerabzug ausgeschlossen ist, soweit“ (doppeltes „ist“),
+„( z.B. Photovoltaik…)“, „Bei Betriebsvorrichtung … Betriebsvorrichtung“, „-Instandsetzungskosten“,
+„VIII 4“, „regelt den Vorsteuerabzugs“, „bei wirksamen Verzicht“, „( grds. bis zum 31.7.“, Komma
+„unternehmensfremde Zwecke, oder“.
+
+**Weiter mit:** Arbeitspapiere A 1 ff. (PDF-Seite 61; Bilder auf PDF-Seite 90 und 97).
+
 ### USt-Skript (Moecker), Block 11: VI.2 bis VII (und Nachtrag Block 10)
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-30` (VI.2 Aufteilungsmethode,
