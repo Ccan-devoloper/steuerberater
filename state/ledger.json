@@ -4418,22 +4418,22 @@
       "medienId": "17964804906192255",
       "veroeffentlicht": "2026-09-23T09:45:39.698Z",
       "insights": {
-        "reach": 19,
-        "views": 26,
+        "reach": 27,
+        "views": 35,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 23,
+        "navigation": 30,
         "navigation_tap_back": 2,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 16,
-        "navigation_tap_exit": 3
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 21,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-09-23T15:43:54.137Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-09-23T20:43:43.239Z",
+      "insightsAlterStunden": 11
     },
     {
       "datum": "2026-09-23",
@@ -4446,22 +4446,22 @@
       "medienId": "18014492765946124",
       "veroeffentlicht": "2026-09-23T09:45:50.127Z",
       "insights": {
-        "reach": 21,
-        "views": 27,
+        "reach": 27,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 25,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 15,
+        "navigation": 31,
+        "navigation_tap_back": 3,
         "navigation_tap_exit": 6,
-        "navigation_tap_back": 3
+        "navigation_tap_forward": 21,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-23T15:43:54.137Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-09-23T20:43:43.239Z",
+      "insightsAlterStunden": 11
     },
     {
       "datum": "2026-09-23",
@@ -4548,7 +4548,21 @@
       "stimmeName": null,
       "layout": "erklaer",
       "dauer": 88.3,
-      "veroeffentlicht": "2026-09-23T19:18:53.016Z"
+      "veroeffentlicht": "2026-09-23T19:18:53.016Z",
+      "insights": {
+        "reach": 13,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 27,
+        "ig_reels_avg_watch_time": 23233,
+        "ig_reels_video_view_total_time": 302033,
+        "reels_skip_rate": 53.8
+      },
+      "insightsStand": "2026-09-23T20:43:47.903Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-09-23",
@@ -4559,7 +4573,24 @@
       "fach": "ust",
       "titel": "§ 15a UStG: Vorsteuer richtig berichtigen",
       "medienId": "18081045608342338",
-      "veroeffentlicht": "2026-09-23T19:19:06.485Z"
+      "veroeffentlicht": "2026-09-23T19:19:06.485Z",
+      "insights": {
+        "reach": 10,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_forward": 7,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 4
+      },
+      "insightsStand": "2026-09-23T20:43:43.239Z",
+      "insightsAlterStunden": 1.4
     }
   ],
   "fachZaehler": {

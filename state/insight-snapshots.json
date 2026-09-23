@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-23T19:43:37.694Z",
+  "stand": "2026-09-23T20:43:49.263Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -3938,6 +3938,23 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 16,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-09-23T20:43:43.239Z",
+          "alterStunden": 11,
+          "reach": 27,
+          "views": 35,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 30,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_forward": 21,
+          "navigation_tap_exit": 4
         }
       ]
     },
@@ -3984,6 +4001,23 @@
           "navigation_tap_forward": 15,
           "navigation_tap_exit": 6,
           "navigation_tap_back": 3
+        },
+        {
+          "stand": "2026-09-23T20:43:43.239Z",
+          "alterStunden": 11,
+          "reach": 27,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 31,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 21,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -4057,6 +4091,61 @@
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 7,
           "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18081045608342338": {
+      "art": "story",
+      "datum": "2026-09-23",
+      "titel": "§ 15a UStG: Vorsteuer richtig berichtigen",
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-23T19:19:06.485Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-23T20:43:43.239Z",
+          "alterStunden": 1.4,
+          "reach": 10,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_forward": 7,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 4
+        }
+      ]
+    },
+    "18363157138301066": {
+      "art": "beitrag",
+      "datum": "2026-09-23",
+      "titel": "§ 15a UStG: Wann musst du berichtigen?",
+      "format": "reel",
+      "fach": "ust",
+      "hook": "frage",
+      "dauer": 88.3,
+      "veroeffentlicht": "2026-09-23T19:18:53.016Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-23T20:43:47.903Z",
+          "alterStunden": 1.4,
+          "reach": 13,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 27,
+          "ig_reels_avg_watch_time": 23233,
+          "ig_reels_video_view_total_time": 302033,
+          "reels_skip_rate": 53.8
         }
       ]
     }
@@ -4284,6 +4373,11 @@
     },
     {
       "stand": "2026-09-23T19:43:37.694Z",
+      "follower": 73,
+      "medien": 59
+    },
+    {
+      "stand": "2026-09-23T20:43:49.263Z",
       "follower": 73,
       "medien": 59
     }
