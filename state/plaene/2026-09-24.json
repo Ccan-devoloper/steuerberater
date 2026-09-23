@@ -1,0 +1,105 @@
+{
+  "datum": "2026-09-24",
+  "erzeugt": "2026-09-23T22:28:00.292Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "spickzettel",
+      "themaId": "istr-modul-istr-istr1-06",
+      "themaTitel": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht",
+      "fach": "istr",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:00",
+      "format": "reel",
+      "themaId": "bilanz-modul-k3-26",
+      "themaTitel": "Rücklage für Ersatzbeschaffung",
+      "fach": "bilanz",
+      "klausur": 3,
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:13",
+      "art": "frage",
+      "themaId": "bilanz-quiz-k3-16",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:13",
+      "art": "antwort",
+      "themaId": "bilanz-quiz-k3-16",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:12",
+      "art": "norm",
+      "themaId": "ust-modul-ust-193",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:00",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:23",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 12,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:29",
+      "art": "fehler",
+      "themaId": "kst-modul-kst-8",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:37",
+      "art": "tipp",
+      "themaId": "ao-modul-ao-339",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:43",
+      "art": "zahl",
+      "themaId": "ao-modul-ao-330",
+      "beitragSlot": null,
+      "status": "geplant"
+    }
+  ]
+}
