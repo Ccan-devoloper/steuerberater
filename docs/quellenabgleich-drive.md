@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 41 bis 52
+
+Eingepflegt als Kapitel `ao-jacobs-13-10` bis `ao-jacobs-13-12`: das Muster eines
+Haftungsbescheides (Fritz Listig, 63.000 €) mit Zahlungsaufforderung, Begründung und
+Rechtsbehelfsbelehrung; der Übungsfall Anton Sorglos (Haftungsquote 40 % statt 50 %, Tippfehler
+20.000 statt 30.000 €) mit Lösung; die Haftung nach § 71 AO mit Voraussetzungen, Prüfungsfolge,
+Umfang und den Fallbeispielen A-GmbH und A+B-OHG. Stand des Skripts: 16 Teile, 224 Kapitel,
+5689 Blöcke, 392 Tabellen.
+
+**Nachgerechnet und stimmig:** Summe des Musterbescheides 63.000 €; Gesamtverbindlichkeiten
+400.000 € gegenüber 500.000 € Zahlungseingängen; Sorglos 200/500 = 40 %, 200/400 = 50 %;
+18.050 € = 19.000 € − 950 €.
+
+**Quellbefunde:** § 71 AO – „Beihilfe, § 26 StGB oder Anstiftung, § 27 StGB“ (vertauscht; markiert).
+Im Muster tragen die Posten e) und f) nur die Steuerart; nach der Begründung sind es
+Säumniszuschläge (als eigene Ergänzung erläutert, nicht in den Posten eingefügt). Die
+Rechtsbehelfsbelehrung des Musters nennt die Dreitagesfiktion (Hinweis auf die Viertagesfrist
+ergänzt).
+
 ### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 21 bis 40
 
 Eingepflegt als Kapitel `ao-jacobs-13-5` bis `ao-jacobs-13-9`: Verschulden, Haftungszeitraum und
