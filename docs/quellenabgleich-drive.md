@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: I.3 bis I.3.2
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-4` (I.3/I.3.1 mit Arzt-Beispiel,
+Vorgründungsgesellschaft, Skizzen Polski Trawertyn und Malburg, Strafverteidigerkosten) und
+`ust-m-b11-5` (I.3.2 mit Betriebsausflug, Fahrrad, Verlosung) für die PDF-Seiten 6 bis 10. Die
+Skizzen auf PDF-Seite 7 und 8 wurden als gerenderte Seiten angesehen und als Text wiedergegeben.
+Stand des USt-Skripts: 12 Teile, 410 Kapitel, 5697 Blöcke, 304 Tabellen.
+
+**Quellenfehler (im Text markiert):** Skizze Malburg „BFH V. Senat“; das Aktenzeichen XI R 26/10
+bezeichnet den XI. Senat.
+
+**Nachgerechnet (eigene Ergänzung):** Arzt 20 % von 190 € = 38 € – stimmt; Betriebsausflug 4.500 € :
+18 = 250 € > 110 €; Fahrrad nicht abziehbar 190 €, abziehbar 1.710 €.
+
+**Stillschweigend berichtigt:** „§ 4 Nr. 14 Bu. a“, „in Verbindung § 15 Abs. 4“, „C 137/02“, „C
+280/10“, „C 204/13“, „einen Vorsteuerabzug … nicht zulässig“, fehlende Kommas und Klammer, „nicht
+für seine wirtschaftlichen Tätigkeit“, „als steuerpflichtiger Umsätze“, gerade Anführungszeichen
+(„GmbH“, „privaten Interessen“).
+
+**Weiter mit:** I.3.3.1 Verwendung für unternehmerische und nichtwirtschaftliche Tätigkeit i.e.S.
+(PDF-Seite 10).
+
 ### USt-Skript (Moecker), Block 11: Inhaltsverzeichnis, I.1 und I.2
 
 Neue Datei `src/data/k1-ust-moecker/block11.js` (Block 11 – Vorsteuerabzug, Stand 01/2026 nach
