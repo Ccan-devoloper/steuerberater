@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 fortgesetzt (III.2.5 bis III.4.2)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-22` (III.2.5 Gesellschaftsanteile mit EuGH C-651/11, III.2.6 Begriff der
+Übereignung mit Bauunternehmer-Fall BFH V R 3/01, EuGH Schriever, Pächter, Produktionsfirma X),
+`ust-m-b06-23` (III.2.7 Einbringung, Umwandlung, Verschmelzung, Gesellschafterwechsel,
+Ausscheiden des vorletzten Gesellschafters; III.3 Erwerber als Unternehmer) und `ust-m-b06-24`
+(III.4.1 Rechtsnachfolge, III.4.2 Vorsteuerabzug beim Veräußerer) für die PDF-Seiten 50 bis 54.
+Stand des USt-Skripts: 6 Teile, 131 Kapitel, 2617 Blöcke, 127 Tabellen.
+
+**Quellbefunde (markiert):** III.4.1 verweist auf „Punkt III.5.“, den es nicht gibt (gemeint
+III.4.3 und III.4.4). Zum BFH-Urteil vom 04.02.2015 (Gastwirtschaft) nennt die Quelle kein
+Aktenzeichen (nicht ergänzt).
+
+**Stillschweigend berichtigt:** „Einkaufs- Absatzgesellschaften“, „zum Zweck … , erfolgt“
+(Komma), fehlende schließende Klammer nach „Beteiligungsgesellschaft“, „§ 1 Absatz la“ (1a),
+„C - 444/10“, „entscheiden“ (entschieden), „( BFH/NV 1988“, „im ganzen“, „L A T“, „GiG im Ganzen
+seitens“ („im Ganzen“ gestrichen), „z.B. Unmittelbare“, „-).,“ und fehlender Schlusspunkt,
+„§ 25, 25a“ (§§), „Abschnitt 1.5.“.
+
+**Noch offen in Block 6:** ab III.4.3 (PDF-Seite 55 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 6 fortgesetzt (III.2.4.1 bis III.2.4.3)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
