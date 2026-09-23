@@ -27,7 +27,10 @@
       "fach": "ust",
       "klausur": 1,
       "lang": false,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18363157138301066",
+      "veroeffentlicht": "2026-09-23T19:18:53.016Z",
+      "kanaele": {}
     }
   ],
   "stories": [
