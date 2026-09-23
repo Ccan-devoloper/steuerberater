@@ -1,7 +1,7 @@
 /* USt-Skript (Moecker), Block 8 Teil I: Steuerfreie Umsätze mit Vorsteuerabzug.
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
-   In Arbeit: eingepflegt bis I.1.7.2 (nichtkommerzieller Reiseverkehr), PDF-Seiten 2 bis 20. */
+   In Arbeit: eingepflegt bis I.2.2 (Lohnveredelung), PDF-Seiten 2 bis 23. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -371,6 +371,64 @@ export const block08Teil1 = [
       { text: "Die Ausgabe oder erstmalige Übertragung eines **Mehrzweckgutscheins** im Sinne des § 3 Abs. 15 Satz 1 UStG stellt **keine umsatzsteuerbare Lieferung** dar. Bei einem Mehrzweckgutschein gilt die Lieferung des Gegenstandes erst im Zeitpunkt der tatsächlichen Lieferung (= **Einlösung**) als erbracht." },
       { text: "**Beispiel:** Kauf eines Mehrzweckgutscheins am **23. Dezember 10** in Höhe von **20 €**; Einlösung des Gutscheins für den Kauf einer CD zum Rechnungsbetrag von 20 € am **4. Dezember 11** (so in der Quelle; die Lösung nennt den 4. Januar 11)." },
       { text: "**Lösung:** Die Ausgabe des Mehrzweckgutscheins am 23. Dezember 10 ist **umsatzsteuerlich unbeachtlich**. Erst mit Einlösung des Gutscheins am 4. Januar 11 wird die tatsächliche Lieferung erbracht. Die Steuerbefreiung kommt **mangels Überschreitens der Wertgrenze nicht in Betracht**." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-12",
+    teil: TEIL,
+    kapitel: "12",
+    abschnittNr: "I.2.1",
+    title: "I.2 Lohnveredelung an Gegenständen der Ausfuhr (§ 4 Nr. 1a i.V.m. § 7 UStG): I.2.1 Allgemeines",
+    thema: "Steuerbefreiung der Lohnveredelung nach § 4 Nr. 1a i.V.m. § 7 UStG, Verwaltungsauffassung und Buch- und Belegnachweis, Abgrenzung Werklieferung (Ausfuhrlieferung) und Werkleistung (Lohnveredelung) sowie Bedeutung des Leistungsorts im B2B- und B2C-Bereich",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.2.1"),
+    verfasser: VERFASSER,
+    normen: ["§ 3a Abs. 2 UStG", "§ 3a Abs. 3 Nr. 3 Buchst. c UStG", "§ 4 Nr. 1 Buchst. a UStG", "§ 6 UStG", "§ 7 UStG", "§§ 12, 13 UStDV", "Abschn. 7.1 bis 7.4 UStAE"],
+    themen: ["Lohnveredelung", "Werkleistung", "Werklieferung", "Leistungsort", "B2B", "B2C"],
+    bloecke: [
+      { typ: "titel", text: "I.2 Lohnveredelung an Gegenständen der Ausfuhr (§ 4 Nr. 1a i.V.m. § 7 UStG) – I.2.1 Allgemeines (➔ Arbeitspapier 16)" },
+      { text: "Neben Ausfuhrlieferungen sind nach § 4 Nr. 1a UStG auch **Lohnveredelungen an Gegenständen der Ausfuhr gem. § 7 UStG steuerfrei**. Zur Verwaltungsauffassung vgl. Abschn. 7.1 und 7.4 UStAE; der **Buch- und Belegnachweis** ist geregelt in § 12 und § 13 UStDV und Abschn. 7.2 und 7.3 UStAE." },
+      { text: "**Be- oder Verarbeitung von Gegenständen – Unterscheidung:**" },
+      { typ: "tabelle", spalten: ["Werklieferung (Grundsätze der Lieferung gelten)", "Werkleistung (Grundsätze der sonstigen Leistung gelten)"], zeilen: [
+        ["wenn Hauptstoffe verwendet werden", "wenn nur Nebenstoffe und Zutaten verwendet werden"],
+        ["Folge: steuerfreie Ausfuhrlieferung gem. § 6 UStG", "Folge: steuerfreie Lohnveredelung an Gegenständen der Ausfuhr – § 7 UStG prüfen"],
+      ] },
+      { text: "Das Schaubild der Quelle ist als Tabelle wiedergegeben; die Spaltenköpfe entsprechen den beiden Kästen der Quelle." },
+      { text: "Die Steuerbefreiungsvorschrift des § 7 UStG greift nur dann, wenn der **Ort der sonstigen Leistung** (durch Be- oder Verarbeitung eines Gegenstandes) **im Inland** belegen ist und Gegenstand in der Folge in das Drittlandsgebiet gelangt. Im **B2B-Bereich** ist der Dienstleistungsort nach der Grundregel gem. **§ 3a Abs. 2 UStG am Sitzort des unternehmerischen Leistungsempfängers**. Bei ausländischen Leistungsempfängern aus dem B2B-Bereich **geht die Vorschrift des § 7 UStG damit ins Leere**, da entsprechende Arbeiten an beweglich körperlichen Gegenständen bereits **nicht steuerbar** sind." },
+      { text: "Der **Tätigkeitsort im Inland** (§ 3a Abs. 3 Nr. 3 Bu. c) UStG) findet grundsätzlich **nur noch im sog. B2C-Bereich** Anwendung." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-13",
+    teil: TEIL,
+    kapitel: "13",
+    abschnittNr: "I.2.2",
+    title: "I.2.2 Die Befreiungstatbestände im einzelnen",
+    thema: "Be- oder Verarbeitung eines Gegenstandes, Abgrenzung Werkleistung und Werklieferung bei Reparaturen (50-%-Vereinfachung), Einfuhr in das bzw. Erwerb im Gemeinschaftsgebiet zum Zweck der Bearbeitung, Warenbewegung in das Drittlandsgebiet nach § 7 Abs. 1 Nr. 1 bis 3 UStG und Verbindung von Ausfuhrlieferung und Lohnveredelung mit den Beispielen Schweizer Militär (Lederjacken) und Pariser Händler (Leder nach Norwegen)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I.2.2"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 3 UStG", "§ 3 Abs. 6 UStG", "§ 3a Abs. 2 UStG", "§ 3a Abs. 3 Nr. 3 Buchst. c UStG", "§ 4 Nr. 1 Buchst. a UStG", "§ 6 Abs. 1 UStG", "§ 6 Abs. 1 Nr. 2 UStG", "§ 7 Abs. 1 UStG", "§ 7 Abs. 1 Nr. 1 UStG", "Abschn. 3.8 Abs. 6 UStAE", "Abschn. 7.1 Abs. 3, 5 und 6 UStAE"],
+    themen: ["Lohnveredelung", "Werkleistung", "Werklieferung", "Reparatur", "Einfuhr", "Ausfuhrlieferung"],
+    bloecke: [
+      { typ: "titel", text: "I.2.2 Die Befreiungstatbestände im einzelnen" },
+      { text: "**➔ Be- oder Verarbeitung eines Gegenstandes:** Unter die Befreiungsvorschrift des § 7 UStG fällt **jedwede Be- und Verarbeitung** eines Gegenstandes und damit auch das Sortieren, Beschriften, Verpacken, Etikettieren, Verfüllen oder Zusammenstellen von Gegenständen. **Nicht erforderlich** ist eine **Veränderung der Marktgängigkeit** des Gegenstandes durch die Lohnveredelung. Auch muss mit der Bearbeitung oder Verarbeitung **keine Werterhöhung** des Gegenstands verbunden sein." },
+      { text: "**Werkleistungen sind stets Lohnveredelungen.** Eine Werkleistung liegt vor, wenn der Unternehmer einen vom Auftraggeber überlassenen Gegenstand oder mehrere Gegenstände vertragsgemäß bearbeitet oder verarbeitet und etwaige von ihm beschaffte Stoffe als **Zutaten oder Nebensachen** anzusehen sind." },
+      { text: "Die **Abgrenzung zwischen Werkleistung und Werklieferung** – vor allem bei **Reparaturen** – ist oftmals schwierig. Das Verhältnis des Wertes der Arbeit oder des Arbeitserfolges zum Wert der vom Unternehmer beschafften Stoffe ist allein kein ausschlaggebendes Abgrenzungskriterium. Es kann lediglich einen Anhaltspunkt für die Einstufung des Umsatzes als Werklieferung oder Werkleistung darstellen. Sofern nicht zweifelsfrei entschieden werden kann, ob die Reparaturleistung als Werklieferung oder Werkleistung zu qualifizieren ist, kann **aus Vereinfachungsgründen von einer Werklieferung** ausgegangen werden, wenn der **Entgeltanteil, der auf das bei der Reparatur verwendete Material entfällt, mehr als 50 %** des für die Reparatur berechneten Gesamtentgelts beträgt (vgl. Abschn. 3.8 Absatz 6 UStAE)." },
+      { text: "**➔ Einfuhr in das Gemeinschaftsgebiet / Erwerb im Gemeinschaftsgebiet:** Nach § 7 Abs. 1 UStG setzt eine Lohnveredelung an einem Gegenstand der Ausfuhr i.S.d. § 4 Nr. 1 Buchst. a UStG voraus, dass der Auftraggeber den Gegenstand **zum Zwecke der Be- oder Verarbeitung** • **in das Gemeinschaftsgebiet eingeführt** oder • den Gegenstand zu diesem Zweck **im Gemeinschaftsgebiet erworben** hat." },
+      { text: "Bei der ➔ **Einfuhr** von Gegenständen ist **unbedeutend, ob auch tatsächlich EUSt entsteht** bzw. entrichtet wird. Es kommt somit nur auf den Vorgang des „Hineinbringens in das Gemeinschaftsgebiet“ an, nicht auf die zollrechtliche/einfuhrrechtliche Behandlung." },
+      { text: "Die **Absicht**, den Gegenstand bearbeiten oder verarbeiten zu lassen, muss bei dem Auftraggeber **bereits zum Zeitpunkt der Einfuhr oder des Erwerbs** im Gemeinschaftsgebiet bestehen. Diese Voraussetzung liegt beispielsweise **nicht** vor, wenn ein Fahrzeug (z.B. PKW) bei einer Fahrt durch das Inland **überraschend reparaturbedürftig** wird und hier einer Reparatur unterzogen wird (Abschn. 7.1 Abs. 6 UStAE)." },
+      { text: "Die Voraussetzung der Einfuhr eines Gegenstands zum Zwecke seiner Bearbeitung oder Verarbeitung ist insbesondere in den Fällen des Abschnitts 7.1 Abs. 3 Nr. 1 bis 3 UStAE als erfüllt anzusehen: • zollamtlich bewilligte aktive Lohnveredelung. • zollrechtlich in den freien Verkehr überführt. • Das Bestimmungsland (Drittstaat) hat für die Wiedereinfuhr des bearbeiteten oder verarbeiteten Gegenstands Eingangsabgaben, z. B. EUSt, erhoben." },
+      { text: "Die Voraussetzung des ➔ **Erwerbs im Gemeinschaftsgebiet** zum Zweck der Bearbeitung oder Verarbeitung ist bei einem Gegenstand insbesondere dann als erfüllt anzusehen, wenn der Gegenstand **unmittelbar vom ursprünglichen Lieferer an den beauftragten (Werk)Unternehmer** gelangt ist (Abschn. 7.1 Abs. 5 UStAE)." },
+      { text: "**Beispiel:** Der in **Berlin** ansässige (private) Auftraggeber führt **Holz aus Kanada in die Niederlande** ein und versendet es von dort an den im Inland ansässigen **Unternehmer D** zum Zwecke der Verarbeitung. Nach der Verarbeitung wird das Holz **durch den Werkunternehmer in die Türkei** transportiert zu Freunden des Auftraggebers." },
+      { text: "Die Quelle enthält zu diesem Beispiel keine ausformulierte Lösung (eigene Ergänzung)." },
+      { text: "**➔ Warenbewegung:** Für eine Lohnveredelung an Gegenständen der Ausfuhr ist es **unerlässlich**, dass der bearbeitete und verarbeitete Gegenstand vom Unternehmer oder vom Auftraggeber **in das Drittlandsgebiet befördert oder versendet** wird. Wie bei der Ausfuhrlieferung kommen auch hier als Arten der Warenbewegung über die Grenze das Befördern und Versenden durch den Unternehmer oder den Auftraggeber in Betracht. Die **drei Befreiungstatbestände in § 7 Abs. 1 UStG** entsprechen den Ausfuhrtatbeständen in § 6 Abs. 1 UStG: 1. Der **leistende Unternehmer** befördert oder versendet den be- oder verarbeiteten Gegenstand in das Drittlandsgebiet (ausgenommen Zollfreigebiete gemäß § 1 Abs. 3 UStG) oder 2. der **Auftraggeber** befördert oder versendet den be- oder verarbeiteten Gegenstand in das Drittlandsgebiet und ist ein **ausländischer Auftraggeber** oder 3. der **Unternehmer** befördert oder versendet den be- oder verarbeiteten Gegenstand **in die in § 1 Abs. 3 UStG bezeichneten Zollfreigebiete** und der Auftraggeber ist ein ausländischer Auftraggeber." },
+      { text: "Es bestehen jedoch **keine Sonderregelungen für den Reiseverkehr** bzw. für Gegenstände zur Ausrüstung oder Versorgung von Beförderungsmitteln." },
+      { text: "**➔ Verbindung Ausfuhrlieferung und Lohnveredelung:** Da sich Veredelungsleistungen regelmäßig auch an Gegenständen ergeben, die der ausländische Auftraggeber **im Inland zu diesem Zweck erworben** hat, können Ausfuhrlieferung und Lohnveredelung an Gegenständen der Ausfuhr sich verbunden ergeben." },
+      { text: "**Beispiel:** Die **Beschaffungsstelle des Militärs in der Schweiz (B)** kauft von einer **Lederfabrik DU1 in Stuttgart Lederjacken** zur Ausrüstung der Streitkräfte. B beauftragt DU1, das Leder zur **Färberei DU2 in Ludwigsburg** zu bringen. DU1 transportiert die Lederjacken mit eigenem Lkw zu DU2. Dieser färbt das Leder im Auftrag des B ein und lässt die gefärbten Lederjacken **im Auftrag des B durch den Spediteur S** zur Kleiderkammer des B **nach Basel** transportieren." },
+      { text: "**Lösung:** **DU 1 an B:** Steuerbare bewegte Lieferung gem. § 3 Abs. 6 UStG; **Ort Stuttgart**; **steuerfrei gem. § 4 Nr. 1a i.V.m. § 6 Abs. 1 Nr. 2 UStG**, da Spediteur S Beauftragter des DU2 und dieser Beauftragter des B (somit ist Ausführer der Auftraggeber). **DU 2 an B:** Werkleistung; **Ort Ludwigsburg** gem. § 3a Abs. 3 Nr. 3c UStG; steuerbar und **steuerfrei gem. § 4 Nr. 1a i.V.m. § 7 Abs. 1 Nr. 1 UStG**, da Versenden durch Werkunternehmer DU2." },
+      { text: "**Beispiel:** Der **Händler FU aus Paris** kauft von einer Lederfabrik **DU1 in Stuttgart Leder**. FU beauftragt DU1 das Leder nicht zu ihm, sondern zur **Färberei DU2 in Ludwigsburg** zu bringen. DU1 transportiert das Leder mit eigenem Lkw zu DU2. Dieser färbt das Leder im Auftrag des FU ein und lässt das gefärbte Leder durch den Spediteur S in ein **Lager des FU nach Norwegen** transportieren. Dort wird der Posten der EUSt unterworfen. FU verwendet gegenüber DU1 und DU2 seine **franz. USt-IdNr.**" },
+      { text: "**Lösung:** **DU1 an FU:** Steuerbare bewegte Lieferung gem. § 3 Abs. 6 UStG; **Ort Stuttgart**; **steuerfrei gem. § 4 Nr. 1a + § 6 Abs. 1 Nr. 2 UStG**, da Spediteur S Beauftragter des DU2 und dieser Beauftragter des FU. Somit FU Ausführer. Die **Verwendung der USt-IdNr. ist bedeutungslos**, da die Ware bestimmungsgemäß in ein Drittland transportiert wird. **DU2 an FU:** Werkleistung; **Ort Paris gem. § 3a Abs. 2 UStG; nicht steuerbar**. Mit Verwendung der franz. USt-IdNr. durch den LE hat dieser seinen Unternehmerstatus (B2B-Bereich) nachgewiesen." },
     ],
   },
 ];

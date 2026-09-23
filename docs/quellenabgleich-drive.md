@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.2 Lohnveredelung
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
+`ust-m-b08-1-12` (I.2.1 Allgemeines mit dem Schaubild Werklieferung/Werkleistung als Tabelle)
+und `ust-m-b08-1-13` (I.2.2 Befreiungstatbestände im einzelnen mit den Beispielen Holz aus
+Kanada, Schweizer Militär und Pariser Lederhändler) für die PDF-Seiten 20 bis 23. Stand des
+USt-Skripts: 8 Teile, 176 Kapitel, 3203 Blöcke, 162 Tabellen.
+
+**Vermerkt:** Zum Beispiel „Holz aus Kanada“ enthält die Quelle keine Lösung; es ist keine
+ergänzt. Im Militär-Beispiel wechselt die Quelle zwischen „Lederjacken“ und „Leder“;
+unverändert übernommen.
+
+**Stillschweigend berichtigt:** „Abschn. 7.1. und 7.4.“, „7.2. und 7.3.“, „Be - oder
+Verarbeitung“, „Be - und Verarbeitung“, „Einfuhr von Gegenstände“ (Gegenständen),
+„zollamtlich bewilligter aktive Lohnveredelung“ (bewilligte), „zollrechtlich in den zum freien
+Verkehr überführt“ (in den freien Verkehr), „EUST“, „Veredelungsleistung“ (Plural), „( z.B.
+PKW )“.
+
+**Weiter mit:** Block 8 Teil I ab I.3 Innergemeinschaftliche Lieferung (PDF-Seite 24).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.1.6 bis I.1.7.2
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
