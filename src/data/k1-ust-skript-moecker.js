@@ -10,8 +10,9 @@
    entspricht einem Abschnitt der Gliederung des Blocks. Die Daten eines
    Blocks liegen in einer eigenen Datei unter `k1-ust-moecker/`.
 
-   STAND DER ÜBERNAHME: in Arbeit – begonnen mit Block 1 (Einführung in das
-   Umsatzsteuerrecht). Der Campus weist den Stand aus.
+   STAND DER ÜBERNAHME: in Arbeit – Block 1 (Einführung in das Umsatzsteuer-
+   recht) vollständig, Block 2 (Leistungen im Leistungsaustausch) bis II.3.
+   Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien
    extrahiert (pypdf). Das personenbezogene Wasserzeichen der Vorlage ist
@@ -20,6 +21,7 @@
    solche ausgewiesen. */
 
 import { block01 } from "./k1-ust-moecker/block01.js";
+import { block02 } from "./k1-ust-moecker/block02.js";
 
 export const ustSkriptMoeckerQuelle = {
   reihe: "Umsatzsteuer · Skript Blöcke 1 bis 13 mit Arbeitspapieren · Udo Moecker",
@@ -32,6 +34,6 @@ export const ustSkriptMoeckerQuelle = {
   ],
 };
 
-export const ustSkriptMoecker = [...block01];
+export const ustSkriptMoecker = [...block01, ...block02];
 
 export default ustSkriptMoecker;

@@ -10623,6 +10623,23 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 2 begonnen (I bis II.3)
+
+Der Drive-Connector meldete auch in dieser Runde bei jedem Versuch „session expired“ (ESt-
+Kurzskript I sechsmal versucht). Weiter mit dem lokal vorliegenden USt-Skript: neue Datei
+`src/data/k1-ust-moecker/block02.js` (Teil „Block 2 – Leistungen im Leistungsaustausch“), Kapitel
+`ust-m-b02-1` bis `ust-m-b02-5` für die PDF-Seiten 24 bis 37: Inhaltsübersicht und Bedeutung,
+Leistungsbegriff, Verpflichtungs-/Erfüllungsgeschäft, Umfang der Leistung, Gegenleistung und
+Kausalität. Stand des USt-Skripts: 2 Teile, 17 Kapitel, 319 Blöcke, 16 Tabellen.
+
+**Nachgerechnet:** Käfer 15.000 € x 19 % = 2.850 € (Mindest-BMG unter Wiederbeschaffungskosten,
+marktübliches Entgelt 20.000 € nicht erreicht).
+
+**Quellbefunde:** In der Übersicht zum Leistungsbegriff „sonstige Lieferung § 3 Abs. 9 UStG“
+(gemeint: sonstige Leistung; markiert); „Abschnitt 1.1 Absatz 3 Satz 4 UStR“ (gemeint: UStAE;
+markiert). Stillschweigend berichtigte Tippfehler: „um meinen steuerbaren“, „BFH7NV“, „entscheiden“
+statt entschieden, doppeltes „ist“ im Hinweis zur einheitlichen Leistung.
+
 ### USt-Skript (Moecker), Block 1 vollständig (II.6 bis Arbeitspapier 8)
 
 Weil der Drive-Connector in dieser Runde durchgehend „session expired“ meldete (Download des
