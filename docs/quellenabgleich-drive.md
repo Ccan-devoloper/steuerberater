@@ -10623,6 +10623,34 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: III.5.1 bis III.5.3.1
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-15` (III.5.1 Allgemeines zu
+§ 4 Nr. 9a UStG), `ust-m-b08-2-16` (III.5.2 Grundstücksbegriff, Beispiel Brauerei B) und
+`ust-m-b08-2-17` (III.5.3.1 technische Leistungen, BFH vom 24.2.2000) für die PDF-Seiten 30
+bis 33. Stand des USt-Skripts: 9 Teile, 237 Kapitel, 3886 Blöcke, 205 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- „die GrESt – auch nicht hälftig – zur BMG gehört“: Verneinung fehlt; gemeint ist nach dem
+  Folgesatz, dass die GrESt nicht zur BMG gehört.
+- Erbbaurecht: „§ 13b Abs. 1 Nr. 3 UStG“ statt § 13b Abs. 2 Nr. 3 UStG.
+- Beispiel Brauerei B: die Anteile ergeben nur 95 %; die Lösung nennt 20 % steuerpflichtig
+  (= 100 % − 80 %), aufgeführt sind nur 15 %.
+
+**Nachgerechnet (eigene Ergänzung):** Brauerei B auf Basis der 20 %: 200.000 € brutto,
+USt 31.932,77 €, Entgelt 168.067,23 €. X-GmbH: 587.000 € + 281.000 € + 175.000 € = 1.043.000 € –
+stimmt; steuerfrei 762.000 €, steuerpflichtig 281.000 €.
+
+**Offen gelassen:** BFH-Zitat „v. 24.2.2000 (BStBl 2000 S. 278)“ ohne Aktenzeichen und ohne
+„Teil II“ so übernommen.
+
+**Stillschweigend berichtigt:** „§ 4 Nr. 9 a“, „an das die Erfüllung“, „S, 6“, fehlende
+Klammer nach „Abschn.13b.1 Abs. 2 Nr. 5 UStAE.“, „23. 7. 1986“, gerade Anführungszeichen,
+„Beispiel :“, Leerzeichen in Klammern, doppelte Klammer beim BFH-Zitat, „usw. - )“,
+„Bau - Nebenleistungen“.
+
+**Weiter mit:** III.5.3.2 Lieferung bebauter Grundstücke (PDF-Seite 33 unten).
+
 ### USt-Skript (Moecker), Block 8 Teil II: III.3 und III.4
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-13` (III.3 § 4 Nr. 8c UStG,
