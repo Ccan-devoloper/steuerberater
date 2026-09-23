@@ -10623,6 +10623,23 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Inhaltsverzeichnis, I.1 und I.2
+
+Neue Datei `src/data/k1-ust-moecker/block11.js` (Block 11 – Vorsteuerabzug, Stand 01/2026 nach
+„Version 01.01.26“) mit den Kapiteln `ust-m-b11-1` (Inhaltsverzeichnis), `ust-m-b11-2` (I.1 Aufbau
+des § 15 UStG) und `ust-m-b11-3` (I.2 Persönliche Voraussetzung „Unternehmer“) für die PDF-Seiten 2
+bis 6 der Datei b11-12 (145 Seiten; Block 11 = PDF-Seiten 2 bis 102 mit Textteil 2 bis 60 und
+Arbeitspapieren A 1 bis A 42 ab Seite 61, Block 12 = PDF-Seiten 103 bis 145). In die Sammeldatei
+eingebunden; README, Campus-Übersicht und offene-quellen angepasst. Bilder in der Datei: PDF-Seite 1
+(Titelblatt), 36 (zwei), 90 (vier), 97 (zwei). Stand des USt-Skripts: 12 Teile, 408 Kapitel, 5657 Blöcke, 304 Tabellen.
+
+**Stillschweigend berichtigt:** „Ein spezieller Ausschlusstatbestand enthält Abs. 1b“, „oder einen
+innergem. Erwerb in Deutschland versteuert werden“, „§ 15 Abs. 4 a“, Komma „ausländische
+Unternehmer, unter“, „wenn es sich ( Vorbereitungshandlungen ) einer unternehmerischen Tätigkeit
+handelt“ (um Vorbereitungshandlungen).
+
+**Weiter mit:** I.3 Sachliche Voraussetzung „Bezug für das Unternehmen“ (PDF-Seite 6).
+
 ### USt-Skript (Moecker), Block 10: Arbeitspapiere A 28 bis A 36 (Block 10 abgeschlossen)
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-68` (A 28 Forderungsabtretung),
