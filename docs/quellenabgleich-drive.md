@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6: Arbeitspapiere Seite 22 bis 28
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neues Kapitel
+`ust-m-b06-31` für die PDF-Seiten 83 bis 89: Bauträgergrundstück oder Vermietungsunternehmen
+(Seite 22), Übertragung mit Metzgerei-Beispiel (Seite 23), Erwerber, Einzelrechtsnachfolge und
+sonstige Folgen (Seite 24), Vorsteuerberichtigung (Seite 25), Gutscheinbegriff (Seite 26),
+Einzweck-/Mehrzweck-Gutschein (Seite 27) und Abgrenzungsschwierigkeiten (Seite 28). Gelesen am
+Layout-Auszug; Tabellen mit den Kopfzeilen der Quelle. Nicht lesbare Aufzählungs- und
+Verbindungszeichen sind als ① bis ③ bzw. „–“ wiedergegeben und vermerkt. Stand des
+USt-Skripts: 6 Teile, 138 Kapitel, 2783 Blöcke, 145 Tabellen.
+
+**Quellbefunde (markiert bzw. vermerkt):** Seite 22 verbindet „BFH 12.08.2015“ mit „hier
+17 Monate“; die 17 Monate betreffen nach dem Textteil das Urteil vom 25.11.2015 (V R 66/14),
+das Urteil vom 12.08.2015 einen Zeitraum von 3 Jahren. Die Gliederung springt von 3.4 auf 3.6
+und führt 3.7 doppelt (Seiten 24 und 25).
+
+**Stillschweigend berichtigt:** gesperrte Schrift („W a s“, „B a u t r ä g e r“,
+„M e t z g e r e i“), „Bauträger- grundstück“, „GIG“, „GBR“, „Masch.“, „Miet- Pachtvertrag“,
+„§ 14c Abs.1“, „§15a“, „Keine sog. Rabatt-Coupon“ (kein), „Ab. 3.17“ (Abschn.).
+
+**Noch offen in Block 6:** Arbeitspapiere ab Seite 29 (PDF-Seite 90 ff.).
+
 ### USt-Skript (Moecker), Block 6: Arbeitspapiere Seite 15 bis 21
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neues Kapitel

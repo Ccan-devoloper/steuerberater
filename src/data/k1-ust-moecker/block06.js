@@ -4,7 +4,7 @@
    Gutscheine – Vers. I 2026, Red. 04-26, Titelblatt Mai 2026), PDF-Seiten 2 bis 96
    der gemeinsamen Datei für die Blöcke 6 und 7 (130 PDF-Seiten).
    In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere (PDF-Seiten 62 bis 96)
-   bis Seite 21. */
+   bis Seite 28. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 05/2026";
@@ -1123,6 +1123,56 @@ export const block06 = [
       { text: "**Folge für Veräußerer:** ➢ **steuerbare und grds. steuerfreie Lieferung**. ➢ durch **Option § 9 UStG** ggf. steuerpflichtig; Hinweis: Beschränkung § 9 Abs. 2 gilt nicht. ➢ ggf. **Änderung der Verhältnisse** i.S.d. § 15a UStG." },
       { text: "**Folge für Erwerber:** ➢ bei steuerpflichtiger Lieferung durch Option des Veräußerers **Steuerschuldner gem. § 13b UStG**, ➢ **Vorsteuerabzug gem. § 15 Abs. 1 Nr. 4 UStG**." },
       { text: "Die Rechtsprechungsübersichten Seite 20 und 21 sind als Tabellen wiedergegeben; die Spaltenköpfe folgen den Randvermerken „GiG“ / „Keine GiG“ und „BFH v.“ der Quelle, „Sachverhalt / Ergebnis“ ist eigene Ergänzung zur Darstellung." },
+    ],
+  },
+  {
+    id: "ust-m-b06-31",
+    teil: TEIL,
+    kapitel: "31",
+    abschnittNr: "Arbeitspapiere Seite 22 bis 28",
+    title: "Arbeitspapiere Seite 22 bis 28: Bauträgergrundstück oder Vermietungsunternehmen, Übertragung (Metzgerei-Beispiel), Erwerber, Einzelrechtsnachfolge und Folgen der GiG, Vorsteuerberichtigung sowie Gutscheine (Begriff, Einzweck/Mehrzweck, Abgrenzungsschwierigkeiten)",
+    thema: "Objektgesellschaft mit Erwerb, Sanierung, Vermietung und Verkauf, Übereignung und Einbringung mit Metzgerei-Fall, Zerschlagung auf zwei Erwerber, Fortgeltung von Option und Berichtigungsvolumen, Rechnung mit Steuerausweis bei GiG, § 15a Abs. 10 UStG sowie Gutscheinbegriff und Gegenüberstellung Einzweck-/Mehrzweck-Gutschein mit Mode- und Fahrradbeispielen",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere Seite 22 bis 28"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1a UStG", "§ 3 Abs. 7 UStG", "§ 3 Abs. 13 bis 15 UStG", "§ 14c Abs. 1 und 2 UStG", "§ 15 Abs. 1 Nr. 1 UStG", "§ 15a Abs. 1 bis 5 und 10 UStG", "Abschn. 1.5 Abs. 2 und 3 UStAE", "Abschn. 3.17 Abs. 2, 5 und 9 UStAE", "BFH, 24.02.2005, V R 45/02", "BFH, 18.09.2008, V R 21/07", "BFH, 12.08.2015, XI R 16/14"],
+    themen: ["Geschäftsveräußerung im Ganzen", "Bauträger", "Einzelrechtsnachfolge", "Vorsteuerberichtigung", "Gutschein", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier Seite 22" },
+      { text: "**Sachverhalt (Schaubild):** Objektgesellschaft **A & B-GbR** / **Vermietungs-GmbH** (Beziehung im Schaubild nicht beschriftet). **Erwerb** in 01, **Sanierung** in 01 + 02, **Vermietung** ab Febr. 03, **Verkauf** Jan. 06. **Was wurde geliefert?**" },
+      { typ: "tabelle", spalten: ["Bauträger-Grundstück (im Sinne von Ware)", "Vermietungs-Unternehmen (im Sinne von verfestigt)"], zeilen: [
+        ["Steuerbar & steuerfrei / ggf. Option (BFH 24.2.05 & 18.9.08)", "Vermietungsunternehmen als GiG (BFH 12.08.2015)"],
+        ["Veräußerung eines sog. Bauträgergrundstücks (Bebauung, V.u.V., Veräußerung) ist grds. keine GiG, mangels nachhaltig verfestigten Vermietungsunternehmens. Hier nur 1 Monat vermietet, bzw. Beauftragung eines Maklers zum Verkauf des noch zu bebauenden Grundstücks nach Abschluss des Mietvorvertrages.", "Eine GiG liegt dann vor, wenn der LU ein Bauträger ist, der Gebäude erworben, saniert, weitgehend vermietet und sodann veräußert hat (hier 17 Monate (so in der Quelle; die 17 Monate betreffen nach dem Textteil III.2.4.2 das BFH-Urteil vom 25.11.2015, V R 66/14)), falls im Zeitpunkt der Veräußerung infolge einer nachhaltigen Vermietungstätigkeit beim LU ein Vermietungsunternehmen vorliegt, das vom LE fortgeführt wird. Absicht des BT, das Objekt wieder zu verkaufen, steht einer nachhaltigen Vermietungstätigkeit nicht zwingend entgegen. Nachhaltige V.u.V.-Tätigkeit ist widerlegbar anzunehmen, wenn die Vermietungsdauer mindestens 6 Monate betragen hat (vgl. Abschn. 1.5 Abs. 2 UStAE)."],
+      ] },
+      { typ: "titel", text: "Arbeitspapier Seite 23 – 3.3 Übertragung" },
+      { typ: "tabelle", spalten: ["Übereignung (entgeltlich / unentgeltlich)", "Einbringung in Gesellschaft"], zeilen: [
+        ["➔ Grds. zivilrechtliche Übertragung ➔ nur Vermietung des Unternehmens unzureichend ➔ aber ausreichend, wenn einzelne WG dem Übernehmer zur Nutzung miet-/pachtweise überlassen werden und eine dauerhafte Fortführung des Unternehmens oder des ges. geführten Betriebes durch den Übernehmer gewährleistet ist (Abschn. 1.5 Abs. 3 UStAE).", "➔ Einbringung in Gesellschaft; ➔ formwechselnde Umwandlung (z.B. OHG in KG; kein Umsatz) ➔ übertragende Umwandlung (z.B. OHG in GmbH; nicht steuerbare GiG) ➔ Spaltung – Ab- oder Aufspaltung (nicht steuerbare GiG)"],
+      ] },
+      { text: "**Beispiel: Metzgerei** – Ware, Masch. usw. ➔ **Verkauf an GbR (Kinder)**; Gebäude ➔ **Vermietung an GbR**; Pkw, Kopierer ➔ **werden entnommen**." },
+      { text: "**Entnahme:** = außerhalb Geschäftsveräußerung (**stbar und stpflichtig**). **Gebäude:** = außerhalb Geschäftsveräußerung (**stbar und stfrei/stpfl.**). **Ware usw.:** = **Geschäftsveräußerung**. § 1 (1a) UStG ist nach Sinn und Zweck der MwStSystRL auszulegen. Nationale Kriterien sind unbeachtlich. GbR ist im „Besitz“ der wesentlichen Betriebsgrundlagen; für Gebäude genügt **Nutzungsrecht** (unbefristeter Miet-/Pachtvertrag ausreichend), was Fortführung des Unternehmens – wie bisher – ermöglicht." },
+      { typ: "titel", text: "Arbeitspapier Seite 24" },
+      { text: "**3.4 An anderen Unternehmer für sein Unternehmen:** ① **an einen Unternehmer** => Problem: Maschinen auf Sohn / Grundstück auf Tochter (**keine Geschäftsveräußerung**, da „Zerschlagung“ durch Verteilung auf 2 Personen) ② ausreichend, wenn **Erwerber Unternehmer wird** ③ Erwerber braucht **keine „gleichartigen“ Umsätze** ausführen => bisher steuerfrei, jetzt steuerpflichtig." },
+      { text: "**3.6 Grundsatz der Einzelrechtsnachfolge (Satz 3):** => Entscheidungen, z.B. **Option, gelten fort** => **Berechtigungen gelten fort** – Vorsteuervolumen für Vorsteuerberichtigung § 15a – Berichtigungszeitraum / Überwachungszeitraum." },
+      { text: "**3.7 Sonstige Folgen:** ① **Vorsteuerabzug aus Veräußerungskosten** => bisher erzielte Umsätze maßgebend ② **Rechnungserteilung mit ausgewiesener USt** => Veräußerer **§ 14c Abs. 1** (aber nach Verfahren § 14c Abs. 2) => Erwerber hat **keine Vorsteuer** gem. § 15 Abs. 1 Nr. 1 – auch **kein neuer Berichtigungszeitraum** nach § 15a –." },
+      { text: "Die Gliederung der Arbeitspapiere springt von 3.4 auf 3.6 und führt 3.7 auf Seite 24 und 25 doppelt; die nicht lesbaren Aufzählungszeichen auf Seite 24 sind als ① bis ③ wiedergegeben (Darstellungsergänzung)." },
+      { typ: "titel", text: "Arbeitspapier Seite 25 – 3.7 Vorsteuerberichtigung (§ 15a Abs. 10 UStG)" },
+      { text: "**Berichtigung des Vorsteuerabzugs § 15a Abs. 10 UStG:** ➔ Gilt für **alle Berichtigungsobjekte gem. § 15a Abs. 1 bis 5** – und nicht nur für Anlagevermögen – ➔ Der für das jeweilige Objekt maßgebende **Berichtigungszeitraum wird durch die GiG nicht unterbrochen**. ➔ Erwerbender Unternehmer **tritt an die Stelle des Veräußerers** (Einzelrechtsnachfolge) ➔ Veräußerer ist verpflichtet, die für die Berichtigung **erforderlichen Angaben** zu machen. ➔ Erwerber ist verpflichtet, für den **restlichen Berichtigungszeitraum** eine Vorsteuerkorrektur vorzunehmen, wenn sich die Verhältnisse beim Erwerber gegenüber den für den Vorstabzug maßgebenden Verhältnissen beim Veräußerer ändern." },
+      { typ: "titel", text: "Arbeitspapier Seite 26 – 4. Umsatzsteuerliche Behandlung von Gutscheinen: 4.1 Begriff des Gutscheins (§ 3 Abs. 13 UStG)" },
+      { text: "(= **Instrument, was an Zahlungs statt eingelöst** werden kann) ✓ Papierdokument oder Plastikkarte ✓ auch bei späterer **Zuzahlung** ✓ **kein sog. Rabatt-Coupon** (nur Preisnachlass) ✓ bei jederzeitigem und voraussetzungslosem **Rücktausch gegen Geld = nur Guthabenkarte**." },
+      { text: "**Begriffsbestimmungen:** • **Aussteller** des Gutscheins = der den Gutschein im eigenen Namen ausgestellt hat. • **Übertragung** eines Gutscheins = Verkauf Gutschein zwischen Unternehmern (B2B-Verkauf) • **Ausgabe** eines Gutscheins = Verkauf eines Gutscheins an B2C-Kunden." },
+      { typ: "titel", text: "Arbeitspapier Seite 27 – 4.2 Unterscheidung" },
+      { typ: "tabelle", spalten: ["Einzweck-Gutschein – § 3 Abs. 14 UStG", "Mehrzweck-Gutschein – § 3 Abs. 15 UStG"], zeilen: [
+        ["Alle für die Erhebung der USt benötigten Infos müssen sich aus dem Gutschein ergeben: ✓ Angaben zur Bestimmung des Leistungsgegenstandes der Gattung nach (= Arten von Waren oder so. Leistungen) ✓ Angaben zur Bestimmung des Leistungsortes in DE ❖ bei so. Leistung ggf. (B2B- oder B2C-Kunde) ❖ bei Lieferungen (gilt immer als unbewegt) ✓ die Identität des Leistenden ✓ die Bestimmung Steuersatz & Steuerbetrag (z.B.: • Geschenkgutschein Abendkleid • Gutschein für alle Parfümartikel in allen Filialen in DE)", "Alle Gutscheine, die keine Einzweckgutscheine sind (z.B.: • Amazon-Geschenkgutschein • Sortiment-Gutschein einer Kaufhauskette in DE (hier nur Betragsangabe und Unbestimmbarkeit des Steuersatzes; ggf. Lebensmittel oder Bücher bzw. PC) • Gutschein Parfümerie-Kette DE / NL / AU (Ort nicht bestimmbar))"],
+        ["❖ Hingabe des Gutscheins ist bereits die fiktive LEISTUNG.", "❖ Hingabe des Gutscheins ist KEINE LEISTUNG."],
+        ["❖ Gutschein soll vom Aussteller sichtbar als Einzweck-Gutschein gekennzeichnet werden (Abschn. 3.17 Abs. 2 S. 6 UStAE).", "❖ Gutschein soll vom Aussteller sichtbar als Mehrzweck-Gutschein gekennzeichnet werden (Abschn. 3.17 Abs. 9 S. 6 UStAE)."],
+        ["❖ USt entsteht grds. mit Ausgabe / Übertragung des Gutscheins.", "❖ Insoweit Tausch Geld – Geld (Verbindungszeichen in der Textextraktion nicht lesbar)."],
+        ["❖ Spätere Ausführung der „tatsächlichen“ Leistung kein steuerbarer Vorgang mehr.", "❖ Keine Anzahlungsbesteuerung."],
+      ] },
+      { typ: "titel", text: "Arbeitspapier Seite 28 – Schwierigkeiten" },
+      { text: "① Muss sich Gutschein auf (eine oder irgendeine) Lieferung oder sonstige Leistung beziehen?? Z.B.: **Mode-Gutschein über 1 Abendkleid 100 Euro** (konkreter Gegenstand => **Einzweck-Gutschein**). **Mode-Gutschein über 100 Euro aus Kleidersortiment** (ein Gegenstand aus Sortiment => **Einzweck-Gutschein**). **Geschenk-Gutschein über 100 Euro (Fahrradhandel)** (für Gegenstände oder Reparatur => **Mehrzweckgutschein**)." },
+      { text: "**Merke:** Leistungsgegenstand muss für die Annahme eines Einzweckgutscheins zumindest im Hinblick auf die **Gattung** des jeweiligen Leistungsgegenstands auf dem Gutschein angegeben sein. Unter Gattung ist in diesem Zusammenhang die Gesamtheit von Arten von Waren oder sonstigen Leistungen zu verstehen, die in ihren wesentlichen Eigenschaften derart übereinstimmen, dass hieraus der **zutreffende Steuersatz eindeutig bestimmbar** ist." },
+      { text: "② **Leistungsort muss feststehen** – als konkreter „LEISTUNGS-ORT“? Oder nur als „STAATEN-ORT“ (also eine territoriale Bestimmbarkeit)? ➔ **STAATEN-Ort reicht**; keine genaue Ortsbestimmung." },
+      { text: "**Beachte (Abschn. 3.17 Abs. 5 UStAE):** ❖ Bei Berechtigung zum Bezug einer **Lieferung** = Ort einer **fiktiven unbewegten Lieferung (§ 3 Abs. 7 UStG)**; keine Warenbewegung im Zeitpunkt der erstmaligen Ausgabe ❖ **keine Steuerbefreiung** als Ausfuhr / innergem. Lieferungen möglich. ❖ Bei **sonstigen Leistungen**, deren Ortsbestimmung vom Status des LE abhängt, muss feststehen, ob LE aus B2B- oder B2C-Bereich." },
     ],
   },
 ];
