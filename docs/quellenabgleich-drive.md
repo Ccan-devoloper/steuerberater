@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: VII.2.6 bis VII.4
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-26` (VII.2.6 vorübergehende
+Verwendung mit VII.2.6.1 und VII.2.6.2, Beispiel Kfz-Hersteller), `ust-m-b09-27` (VII.3
+steuerfreies Verbringen, Beispiel Maschine 50.000 € / 30.000 €) und `ust-m-b09-28` (VII.4
+Erwerbsfiktion, Schaubild Brüssel / Bonn) für die PDF-Seiten 28 bis 31. Stand des
+USt-Skripts: 10 Teile, 305 Kapitel, 4578 Blöcke, 243 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- Werklieferung „(vgl. VII 2.4)“; behandelt unter VII.2.3.
+- Beispiel Karosseriebauer: „Kunden des deutschen Kfz-Händlers“; gemeint wohl
+  Kfz-Herstellers.
+
+**Nachgerechnet (eigene Ergänzung):** VII.4: 50.000 € × 19 % = 9.500 € – stimmt.
+
+**Darstellung:** Schaubild VII.4 als Tabelle; Kasten „Hinweis“ in VII.3 als Absatz.
+
+**Stillschweigend berichtigt:** „vgl. VII.2.6.1.“, „so. Leistung“, Komma „Art. 168
+MwStSystRL, als auch“, „„ anderen Unternehmer““, „30.000, - €“, „Beispiel :“, fehlender
+Punkt nach „30.000 €“, gerade Anführungszeichen „normalen“, „§ 1a Abs. 2;. § 3d“,
+„§15 Abs. 1 Nr. 3“.
+
+**Weiter mit:** VIII. Konsignationslagerregelung (PDF-Seite 32).
+
 ### USt-Skript (Moecker), Block 9: VII.1 bis VII.2.5 (Liefer- und Erwerbsfiktion)
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-20` (VII.1 Allgemeines),
