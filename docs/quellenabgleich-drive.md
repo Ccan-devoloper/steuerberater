@@ -10623,6 +10623,20 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: II.5.3 bis III
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-22` (II.5.3 bis II.5.5
+E-Rechnungspflicht, Empfang, Übergangsregelungen) und `ust-m-b11-23` (III Abzug der EUSt mit den
+Beispielen Abholung, Spediteur, verzollt und versteuert, Kommission) für die PDF-Seiten 37 bis 40.
+Keine Bilder auf diesen Seiten. Stand des USt-Skripts: 12 Teile, 428 Kapitel, 5971 Blöcke, 310 Tabellen.
+
+**Stillschweigend berichtigt:** „( Papier oder z.B. Pdf-Datei)“, „steuer-pflichtigen“, „DU1“,
+„dass § 15 Abs. 1 Satz 1 Nr. 2 UStG die Einfuhr für das Unternehmen eine Verwendung … erfordert“
+(Satzbau), „gilt die Lieferung als im Einfuhrland als ausgeführt“, „( DA )“, „( und nur er )“,
+„( § 15 Abs. 1 Nr. 2 UStG )“.
+
+**Weiter mit:** IV Ausschluss vom Vorsteuerabzug – § 15 Abs. 2 UStG (PDF-Seite 41).
+
 ### USt-Skript (Moecker), Block 11: II.4.2 bis II.5.2
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-19` (II.4.2 Gemeinschaften und
