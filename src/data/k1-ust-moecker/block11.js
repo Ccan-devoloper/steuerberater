@@ -4,8 +4,8 @@
    Vers. 01.01.2026 / Stand 11-25“ bzw. „Block 11-Vorst-Vers.01.01.26 - Red.11-25“, PDF-Seiten 2 bis
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
-   In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere ab PDF-Seite 61
-   folgen. */
+   In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
+   A 4 (PDF-Seite 64). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1110,6 +1110,69 @@ export const block11 = [
       { text: "➢ Da die Steuer für die Lieferungen, die Einfuhr und den innergemeinschaftlichen Erwerb sowie für die sonstigen Leistungen im Zusammenhang mit einem Grundstück bereits gemäß § 15 Absatz 1b UStG vom Vorsteuerabzug ausgeschlossen ist, soweit sie nicht auf die Verwendung des Grundstücks für Zwecke des Unternehmens entfällt, unterliegt die Verwendung dieses Grundstücks für unternehmensfremde Zwecke oder für den privaten Bedarf des Personals **nicht der unentgeltlichen Wertabgabenbesteuerung** nach § 3 Absatz 9a Nummer 1 UStG.\n➢ Ändert sich die Verwendung im Sinne des § 15 Absatz 1b UStG, liegt eine **Änderung der Verhältnisse** im Sinne des § 15a UStG vor. Sofern sich die unternehmensfremde Verwendung erhöht und eine Vorsteuerberichtigung nach § 15a Absatz 6a UStG durchzuführen ist, erfolgt **keine Wertabgabenversteuerung** nach § 3 Absatz 9a Nummer 1 UStG." },
       { typ: "titel", text: "VIII.7 Bestandsschutz für Altgebäude gem. § 27 Absatz 16" },
       { text: "Auf die Überschrift folgt in der Quelle kein Text (so in der Quelle; der Abschnitt endet mit der Überschrift). Nach dem Arbeitspapier A 42 derselben Quelle gilt die Neuregelung für Anschaffungsfälle (Vertrag) oder Herstellungsfälle (Bauantrag) nach dem 31.12.2010 (§ 27 Abs. 16 UStG)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-34",
+    teil: TEIL,
+    kapitel: "34",
+    abschnittNr: "A 1 und A 2",
+    title: "Arbeitspapiere A 1 und A 2: Schaubild System des Vorsteuerabzugs und persönliche Voraussetzung „Unternehmer“",
+    thema: "Eingangsebene (Berechtigung: Unternehmer, Eingangsleistung nach § 15 Abs. 1 Nr. 1 bis 5 UStG, für sein Unternehmen) und Ausgangsebene (Höhe: Sonderfälle § 15 Abs. 1a/1b, steuerpflichtige, schädlich und unschädlich steuerfreie Umsätze), Aufteilung und § 15a UStG, Beginn und Ende der Unternehmereigenschaft (EuGH INZO, Abschlusshandlungen)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 1 und A 2"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1 Nr. 1 bis 5, Abs. 1a, 1b, 2, 3 und 4 UStG", "§ 15a UStG", "§ 4 Nr. 1 bis 7 und 8 bis 28 UStG", "§ 19 UStG", "§ 4 Abs. 5 EStG", "Abschn. 2.6 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Unternehmer", "Vorbereitungshandlungen"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 1 – Vorsteuerabzug – 1. Schaubild System des Vorsteuerabzugs" },
+      { text: "**EINGANGSEBENE** (1. und 2. = Berechtigung zum Vorsteuerabzug)\n1. **Unternehmer** bezieht **Eingangsleistung** auf Grund (§ 15 Abs. 1 UStG)" },
+      { typ: "tabelle", spalten: ["Nr. 1", "Nr. 2", "Nr. 3", "Nr. 4", "Nr. 5"], zeilen: [["Rechnung", "Entstandene EUSt", "USt aus Erwerb", "USt aus § 13b", "USt aus Auslagerung (bis Ende 25)"]] },
+      { text: "2. **für sein Unternehmen** – und Eingangsleistung dient, wird verwendet, geht ein, wird genutzt **FÜR**\n3. **AUSGANGSEBENE** (= Vorsteuerabzug / Höhe)" },
+      { typ: "tabelle", spalten: ["Sonderfall (§ 4 EStG BA; teils priv. Grundstücke)", "Steuerpflichtige Umsätze", "Steuerfreie Umsätze § 4 Nr. 8 – 28, § 19 UStG", "Steuerfreie Umsätze § 4 Nr. 1 – 7"], zeilen: [["Keine Vorst § 15 Abs. 1a oder 1b UStG", "Vorst", "Keine Vorst § 15 Abs. 2 UStG", "Vorst § 15 Abs. 3 UStG"]] },
+      { text: "Dient sowohl als auch = **Aufteilung § 15 Abs. 4 UStG**\nSpätere Änderungen in der Ausgangsebene = **Fall des § 15a UStG**" },
+      { typ: "titel", text: "Arbeitspapier A 2 – 2. Persönliche Voraussetzung „Unternehmer“" },
+      { text: "**Grundsatz**\n• Unternehmereigenschaft besteht mit dem **ersten Tätigwerden nach außen** hin.\n• Hierzu gehören auch **Vorbereitungshandlungen**." },
+      { text: "**Problem „erfolglose Unternehmensgründung“**\n• Nach EuGH (Fall **INZO**) gehören die vorbereitenden Tätigkeiten, wie z.B. der Erwerb von Gegenständen oder die Anmietung von Grundstücken, bereits zur wirtschaftlichen Tätigkeit des Unternehmers (Abschn. 2.6 Abs. 1 – 3 UStAE).\n• **Dieser Abzug bleibt berechtigt**, selbst wenn die beabsichtigte Tätigkeit nicht zu steuerbaren Umsätzen führt.\n• Maßgebend für Vorsteuerabzug = **beabsichtigte** Umsätze" },
+      { typ: "tabelle", spalten: ["steuerpflichtige Umsätze", "steuerfreie Umsätze"], zeilen: [["➔ Vorst (auch fiktive Option; Abschn. 2.6 Abs. 1 S. 3 UStAE)", "➔ kein Abzug der Vorst (Ausschluss)"]] },
+      { text: "**Problem „Abschlusshandlungen“**\n• Unternehmereigenschaft **erlischt erst**, wenn **alle Rechtsbeziehungen abgewickelt** sind, die mit dem (aufgegebenen) Betrieb in Zusammenhang stehen (und zwar unabhängig von der Rechtsform).\n• Unternehmereigenschaft **wirkt fort** (Abschn. 2.6 Abs. 6 UStAE)." },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben; die Kreisziffern der Quelle sind als Ziffern wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-35",
+    teil: TEIL,
+    kapitel: "35",
+    abschnittNr: "A 3 und A 4",
+    title: "Arbeitspapiere A 3 und A 4: Voraussetzung „Für das Unternehmen“ – ausschließlicher und teilunternehmerischer Bezug",
+    thema: "Ausschließlich unternehmerischer Bezug (volle Berechtigung, Regulativ UWA) und ausschließlich nichtunternehmerischer Bezug (nichtwirtschaftlich i.e.S. oder unternehmensfremd, keine Berechtigung, keine § 15a-Berichtigung bei Einlage), teilunternehmerischer Bezug mit Aufteilungsgebot bzw. Zuordnungswahlrecht und Folgen von Nutzungsänderungen",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 3 und A 4"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1 und 1b UStG", "§ 15a UStG", "Abschn. 15.2b Abs. 2 und 2a UStAE", "Abschn. 15.2c Abs. 2 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Zuordnungswahlrecht", "Aufteilungsgebot"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 3 – 3. Voraussetzung „Für das Unternehmen“ – 3.1 Ausschließlicher Bezug für" },
+      { typ: "tabelle", spalten: ["Unternehmerische (= wirtschaftliche) Tätigkeiten", "Nichtunternehmerische (= nichtwirtschaftliche) Tätigkeiten"], zeilen: [
+        ["➔ Vorsteuerabzugsberechtigung: 100 %-Vorsteuerabzugsberechtigt. Regulativ für spätere nichtunternehmerische Verwendung = Besteuerung UWA.", "Unterteilt in nichtwirtschaftliche Tätigkeiten im engeren Sinne (i.e.S.) und unternehmensfremde Tätigkeiten (= privat), siehe folgende Tabelle."],
+      ] },
+      { typ: "tabelle", spalten: ["Nichtwirtschaftliche Tätigkeiten im engeren Sinne (i.e.S.)", "Unternehmensfremde Tätigkeiten (= privat)"], zeilen: [
+        ["Unentgeltliche und ideelle Tätigkeiten eines Vereins", "Für den privaten Bedarf des Unternehmers (bei natürlicher Person)"],
+        ["Hoheitliche Tätigkeiten einer jur. Person des öffentlichen Rechts", "Für private Zwecke des Gesellschafters oder Gemeinschafters"],
+        ["Erwerben / Halten und Veräußern von gesellschaftsrechtlichen Beteiligungen, wenn Beteiligungen nicht im Unternehmensvermögen gehalten werden", "Für den privaten Bedarf des Personals; ☝ Bezug dient bereits bei Eingang der „Art nach“ einer UWA."],
+      ] },
+      { text: "➔ **Keine Vorsteuerabzugsberechtigung § 15 Abs. 1 UStG** (Abschn. 15.2b Abs. 2 UStAE)\n☝ Spätere unternehmerische Verwendung (**Einlage**) ⇨ **Keine Berichtigung nach § 15a UStG**" },
+      { typ: "titel", text: "Arbeitspapier A 4 – 3.2 Teilunternehmerischer Bezug" },
+      { typ: "tabelle", spalten: ["Sowohl unternehmerisch als auch nichtwirtschaftlich i.e.S.", "Sowohl unternehmerisch als auch unternehmensfremd"], zeilen: [
+        ["➔ Aufteilungsgebot: Vorsteuerabzugsberechtigung nach § 15 Abs. 1 UStG, soweit unternehmerische Verwendung. ➔ Grundsatz der partiellen Berechtigung (Abschn. 15.2c Abs. 2 Nr. 2a UStAE). (Billigkeitsregelung ⇨ 100 % nichtunternehmerische Nutzung)", "➔ Zuordnungswahlrecht: Abschn. 15.2c Abs. 2 UStAE (vgl. folgend A 5). Wenn voller Abzug der Vorst nach § 15 Abs. 1 UStG, dann private Verwendung = UWA. (Ausnahme § 15 Abs. 1b UStG bei Grundstücken; hier gilt objektbezogener Ausschluss; vgl. A 31 (so in der Quelle; § 15 Abs. 1b UStG behandelt Arbeitspapier A 42, A 31 betrifft die EUSt))"],
+        ["Änderung des Verhältnisses", "Änderung des Verhältnisses (im Fall der quotalen Zuordnung)"],
+      ] },
+      { typ: "tabelle", spalten: ["Mehr nichtwirtschaftlich i.e.S.", "Mehr unternehmerisch (Fall links)", "Mehr unternehmensfremd", "Mehr unternehmerisch (Fall rechts)"], zeilen: [
+        ["UWA", "Grds. keine Einlage-Vorst, aber", "UWA", "Keine Einlage-Vorst"],
+        ["Keine Berichtigung nach § 15a", "Berichtigung nach § 15a (Billigkeit)", "Keine Berichtigung nach § 15a", "Keine Berichtigung nach § 15a"],
+      ] },
+      { text: "Schaubild in Abschn. 15.2b Abs. 2 „teilunternehmerisch“ linke Spalte – vgl. Bsp. in **A 8**; in Abschn. 15.2b Abs. 2 „teilunternehmerisch“ rechte Spalte – vgl. Bsp. in **A 6 & A 7**" },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

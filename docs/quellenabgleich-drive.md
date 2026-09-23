@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 1 bis A 4
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-34` (A 1 System des
+Vorsteuerabzugs, A 2 Unternehmer) und `ust-m-b11-35` (A 3 ausschließlicher Bezug, A 4
+teilunternehmerischer Bezug) für die PDF-Seiten 61 bis 64, nach Ansicht der gerenderten Seiten;
+Schaubilder als Tabellen. Stand des USt-Skripts: 12 Teile, 440 Kapitel, 6165 Blöcke, 323 Tabellen.
+
+**Quellenfehler (im Text markiert):** A 4 „vgl. A 31“ für § 15 Abs. 1b UStG; § 15 Abs. 1b behandelt
+A 42, A 31 betrifft die EUSt (geprüft an den Überschriften der Arbeitspapiere).
+
+**Weiter mit:** Arbeitspapier A 5 (PDF-Seite 65).
+
 ### USt-Skript (Moecker), Block 11: VIII (Textteil abgeschlossen)
 
 In `src/data/k1-ust-moecker/block11.js` neues Kapitel `ust-m-b11-33` (VIII Wegfall des
