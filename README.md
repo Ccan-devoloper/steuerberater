@@ -2299,6 +2299,17 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   zwei Verteilungszeiträumen bei der Fahrtenbuchmethode; ihre zweispaltige Form ist als Tabelle
   rekonstruiert und im Campus als Rekonstruktion ausgewiesen.
   Prüfung: `npm run check:k1-ust-beispielsammlung`
+
+- **USt-Skript (Moecker)** (Klausur 1, Reiter Umsatzsteuer → „USt-Skript (Moecker)“): das
+  Umsatzsteuer-Skript von Udo Moecker in 13 Blöcken mit Arbeitspapieren (neun PDF-Dateien, 1.071
+  Seiten, Stände 07/2025 bis 06/2026) im Wortlaut – **in Arbeit**, derzeit Block 1 mit 5 Kapiteln.
+  Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
+  Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
+  Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
+  Umsatz nur, wenn er sämtliche Tatbestandsmerkmale einer der drei Nummern des § 1 Abs. 1 UStG
+  erfüllt; fehlt der Leistungsaustausch, sind die unentgeltlichen Wertabgaben nach § 3 Abs. 1b und
+  Abs. 9a UStG zu prüfen, fehlt dagegen der Inlandsort, endet die Prüfung.
+  Prüfung: `npm run check:k1-ust-skript-moecker`
 - **Übungsfälle laufender Unterricht (Nöthen)** (Klausur 3, Reiter Bilanzen → „Übungsfälle
   (Nöthen)“): die **Bilanz-Fallsammlung, die den laufenden Unterricht begleitet** – alle
   vier Teile mit 179 Abschnitten und 7 Tabellen. Jeder Teil hat einen durchgehenden

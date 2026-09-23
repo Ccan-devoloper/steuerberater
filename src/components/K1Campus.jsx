@@ -25,6 +25,7 @@ import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
 import KurzskriptBloecke from "./KurzskriptBloecke";
 import { ustBeispielsammlung, ustBeispielsammlungQuelle } from "../data/k1-ust-beispielsammlung-schroeders.js";
+import { ustSkriptMoecker, ustSkriptMoeckerQuelle } from "../data/k1-ust-skript-moecker.js";
 import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
 import { ustOriginalklausuren, ustOriginalklausurenQuelle } from "../data/k1-ust-originalklausuren.js";
 import { k1Pruefungsklausuren, k1PruefungsklausurenQuelle } from "../data/k1-pruefungsklausuren.js";
@@ -47,6 +48,7 @@ const ansichten = [
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
   { id: "beispielsammlung", label: "Beispielsammlungen (Schröders)", Icon: IconFaelle },
+  { id: "skriptMoecker", label: "USt-Skript (Moecker)", Icon: IconModule },
   { id: "uebungsklausur", label: "Übungsklausur (USt)", Icon: IconTraining },
   { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconKlausur },
   { id: "pruefungsklausuren", label: "Prüfungsklausuren im Original", Icon: IconKlausur },
@@ -607,6 +609,21 @@ export default function K1Campus({ onKlausurwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Sachverhalte"
             einheitEinzahl="Sachverhalt"
+          />
+        )}
+        {ansicht === "skriptMoecker" && (
+          <KurzskriptBloecke
+            kicker="Klausur 1 · Umsatzsteuer · Lehrgangsunterlage"
+            titel="USt-Skript (Moecker)"
+            lead="Das Umsatzsteuer-Skript von Udo Moecker in 13 Blöcken mit Arbeitspapieren im Wortlaut – **in Arbeit**, begonnen mit Block 1. Die Blöcke folgen dem Prüfungsaufbau: vom Steuergegenstand über Leistungsaustausch, Unternehmer und Leistungsort bis zu Steuerbefreiungen, Bemessungsgrundlage, Vorsteuerabzug und Verfahren; jeder Block führt seinen eigenen Stand (07/2025 bis 06/2026). Block 1 legt das Gerüst: Die **Ausgangsumsatzsteuer** wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und ein Umsatz ist nur **steuerbar**, wenn er sämtliche Tatbestandsmerkmale einer der drei Nummern des § 1 Abs. 1 UStG erfüllt – entgeltliche Leistung (mit den unentgeltlichen Wertabgaben als Ergänzungstatbestand), Einfuhr oder innergemeinschaftlicher Erwerb. Schaubilder der Quelle sind als Tabellen wiedergegeben und als solche ausgewiesen."
+            quelle={ustSkriptMoeckerQuelle}
+            kapitel={ustSkriptMoecker}
+            karteKicker={(k) => `${k.teil.split(" – ")[0]} · ${k.abschnittNr}`}
+            gruppeVon={(k) => k.teil}
+            gruppeLabel={(k) => k.teil}
+            gruppeAria="Blöcke"
+            gruppeAlle="Alle Blöcke"
+            suchePlatzhalter="Norm, Stichwort oder Abschnitt"
           />
         )}
         {ansicht === "beispielsammlung" && (

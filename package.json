@@ -44,6 +44,7 @@
     "check:k1-ao-unterlage-mirbach": "node tools/pruefen-k1-ao-unterlage-mirbach.mjs",
     "check:k1-erbst-fallsammlung-mirbach": "node tools/pruefen-k1-erbst-fallsammlung-mirbach.mjs",
     "check:k1-ust-beispielsammlung": "node tools/pruefen-k1-ust-beispielsammlung.mjs",
+    "check:k1-ust-skript-moecker": "node tools/pruefen-k1-ust-skript-moecker.mjs",
     "check:k3-bil-uebungsfaelle": "node tools/pruefen-k3-bil-uebungsfaelle.mjs",
     "check:k2-istr-noethen": "node tools/pruefen-k2-istr-noethen.mjs",
     "check:k2-kst-teil1": "node tools/pruefen-k2-kst-teil1.mjs",

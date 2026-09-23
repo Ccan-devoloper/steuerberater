@@ -10623,6 +10623,54 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Dublettencheck, siebter Teil: Umsatzsteuer im zweiten Baum – das USt-Skript (Moecker) ist neu
+
+Der USt-Ordner des zweiten Baums (`114y07DPwUEHE5OjGsI-xP2KYUQwgZL69`) hat fünf Unterordner
+„1. bis 5. Termin“ mit zwölf Dateien. Die Prüfung Datei für Datei:
+
+- **„B-S26-USt-Fallsammlung-(Meurer)-0526“** und **„…-Loesungen-(Meurer)-0526“**: Dubletten. Die
+  Fallsammlung 2026 steht mit allen 44 Fällen (1.1 bis 7.8) samt Lösungen bereits im Campus
+  (`src/data/k1-fallsammlung-tag*.js`); die Fallliste der PDF wurde gegen die Datensätze
+  abgeglichen.
+- **„2026) (9).pdf“ im Ordner 1. Termin** (`1JTc3-JPdmnw286VMt_BVB_Bp_PmPKW6v`) ist das
+  **Kurzskript Umsatzsteuer (Meurer), Mai 2026** – dieselbe Fassung, die der Campus führt. Dublette.
+- **Neu ist das USt-Skript von Udo Moecker**, das im Campus bisher an keiner Stelle vorkam: neun
+  Dateien mit den Blöcken 1 bis 13 und Arbeitspapieren, zusammen **1.071 Seiten**. Drei davon
+  liegen unter nichtssagenden Namen: „2026) (9).pdf“ im Ordner 2. Termin ist **Block 4**
+  (Entgeltliche Lieferungen, Februar 2026, 82 Seiten), „2026) (9).pdf“ im Ordner 3. Termin ist
+  **Block 8 Teil II** (Steuerfreie Umsätze, Juni 2026, 101 Seiten), „2025) (6).pdf“ im Ordner
+  5. Termin sind die **Blöcke 11 und 12** (Vorsteuerabzug, November 2025, 145 Seiten).
+
+| Datei | Blöcke | Stand | Seiten |
+| --- | --- | --- | --- |
+| B-S26-USt-Skript Block 01-03-(Moecker)-0226 | 1 – 3 | 02/2026 (Block 3: 03/2026) | 139 |
+| 2026) (9).pdf (2. Termin) | 4 | 02/2026 | 82 |
+| B-S26-USt-Skript Block 05-(Moecker)-0326 | 5 | 03/2026 | 114 |
+| B-S26-USt-Skript Block 6-7-(Moecker)-0526 | 6 – 7 | 05/2026 | 130 |
+| B-S26-USt-Skript Block 8 I-(Moecker)-0626 | 8 Teil I | 06/2026 | 111 |
+| 2026) (9).pdf (3. Termin) | 8 Teil II | 06/2026 | 101 |
+| B-S25-USt-Skript Block 9-10-(Moecker)-0725 | 9 – 10 | 07/2025 | 180 |
+| 2025) (6).pdf (5. Termin) | 11 – 12 | 11/2025 | 145 |
+| B-S25-USt-Skript Block 13-(Moecker)-1125 | 13 | 11/2025 | 69 |
+
+**Übernahme begonnen.** Eingepflegt als Reiter „USt-Skript (Moecker)“ im USt-Campus
+(`src/data/k1-ust-skript-moecker.js`, Blockdaten unter `src/data/k1-ust-moecker/`, Prüfung
+`npm run check:k1-ust-skript-moecker`). Jeder Block ist ein eigener Teil mit eigener
+Kapitelzählung und eigenem Stand. Erster Schritt: Block 1, Abschnitte I bis II.5 (PDF-Seiten 2
+bis 9) – 5 Kapitel mit 95 Abschnitten und 5 Tabellen.
+
+**Befunde der Quelle (Block 1 bisher):** „Mit den Formulierung“ (II.3, richtig: der
+Formulierung); in der Aufzählung zur Objektsteuer fehlt das Komma in „Alter Wohnsitz“ (I);
+zwei geöffnete Klammern werden nicht geschlossen (II.4 zu § 3 Abs. 1b Nr. 3 und § 3 Abs. 9a Nr. 2
+UStG). Die Schaubilder zu den Merkmalen der Umsatzsteuer, zu den Tatbestandsmerkmalen und zum
+„Merke“ (steuerbar / nicht steuerbar – steuerpflichtig / steuerfrei) sind als Tabellen bzw.
+Aufzählungen wiedergegeben und im Campus als Darstellung ausgewiesen.
+
+**Umfang.** Mit 1.071 Seiten ist das Skript der mit Abstand größte Einzelbestand des
+Drive-Abgleichs; die Übernahme wird sich über viele Runden erstrecken. Der Dublettencheck der
+übrigen Ordner des zweiten Baums (Umwandlungssteuerrecht, ErbSt/BewR, Einkommensteuer,
+Bilanzierung, Abgabenordnung, Internationales Steuerrecht, Gewerbesteuer-Rest) steht noch aus.
+
 ### KSt Teil VII (Hamacher), Abschnitte 2.8 bis 2.10 – Anteilseigner, Gewerbe- und Umsatzsteuer; Skript vollständig
 
 Übernommen sind die Seiten 23 bis 28 der Quelle: die Auskehrung des steuerlichen
