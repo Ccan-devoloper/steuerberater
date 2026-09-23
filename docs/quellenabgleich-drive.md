@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 3 fortgesetzt (V bis VII.3)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block03.js` neue Kapitel
+`ust-m-b03-12` bis `ust-m-b03-15` für die PDF-Seiten 87 bis 97: V.1 bis V.1.2 Beginn,
+gescheiterte Gründung, Gründung einer Kapitalgesellschaft; V.1.4, V.1.5, V.2 Umwandlung,
+Erbfall, Ende; VI. Auftreten nach außen; VII. bis VII.3 Rahmen des Unternehmens. Die
+Gliederung der Quelle kennt auch im Text keinen Abschnitt V.1.3. Stand des USt-Skripts: 3 Teile,
+40 Kapitel, 789 Blöcke, 34 Tabellen.
+
+**Nachgerechnet:** Transporter 19 % von 10.000 € = 1.900 €, zusammen 11.900 €.
+
+**Quellbefunde (markiert):** EuGH-Rechtssache C-137/02 als „Faxword GbR“ bezeichnet (bekannt
+als Faxworld); im Beispiel Karl Wilhelm nennt die Lösung „Badewannenfabrik“ und
+„Rechtsanwaltspraxis“, der Sachverhalt aber Möbelfabrik und Steuerberatungspraxis; Schaubild
+verweist auf „Abschnitt 27 Abs. 2 UStAE“ (gemeint 2.7 Abs. 2); „Rechnung über insges. 11.900 €
+USt“ (gemeint einschließlich USt); unvollständiger Satz „dass der Betreiberin der Internetseite
+=X.de bestimmbar gewesen ist“. Als eigene Ergänzung vermerkt: Die Rückbeziehung der Umwandlung
+ist nach geltendem Recht in § 20 Abs. 6 UmwStG mit höchstens acht Monaten geregelt (Quelle:
+„§ 20 Abs. 7 UmwStG“, „bis zu 6 Monaten“). Die Kostenordnung (§§ 2, 141 KostO) ist wie in der
+Quelle übernommen. Stillschweigend berichtigt: „Vorgründunggesellschaft“, „entscheiden“,
+„späteren eingetragene“, „auszulösen“ statt aufzulösen, „Grunds-ätzen“.
+
 ### USt-Skript (Moecker), Block 3 fortgesetzt (III bis IV)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block03.js` neue Kapitel
