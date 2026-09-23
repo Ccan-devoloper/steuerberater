@@ -3,7 +3,7 @@
    Quelle: „Umsatzsteuer Block 8 (II) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeilen
    „Block 08 Teil II – steuerfreie Umsätze – Vers. II /2026 – Red. 07.26“ und „StB 59 –
    steuerfreie Umsätze Teil II – Vers. II /26 / Stand 07-26“), 101 PDF-Seiten.
-   In Arbeit: Abschnitt II vollständig (bis II.10), PDF-Seiten 2 bis 21. */
+   In Arbeit: eingepflegt bis III.2 (Zahlungsmittel), PDF-Seiten 2 bis 24. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 07/2026";
@@ -335,6 +335,72 @@ export const block08Teil2 = [
       { text: "**Merkmal der Wettbewerbsverzerrung:** Eine Steuerbefreiung scheidet danach aus, wenn eine **reale Gefahr** besteht, dass die Befreiung für sich genommen unmittelbar oder in der Zukunft zu **Wettbewerbsverzerrungen** führen kann. Ob dies der Fall ist, ist sowohl auf Grundlage der Art der erbrachten Leistung als auch auf Grund der objektiven (Markt-)Umstände der jeweiligen Leistungserbringung zu ermitteln." },
       { text: "**Genauer Kostenersatz:** Weiterhin setzt die Steuerbefreiung voraus, dass das für die Leistung vereinbarte oder entrichtete Entgelt lediglich in einem **genauen Kostenersatz** besteht. Eine genaue Erstattung der anfallenden Kosten liegt vor, wenn der Personenzusammenschluss seinen Mitgliedern die Leistungen **zu Selbstkosten** anbietet bzw. ihm nur die tatsächlich anfallenden Kosten erstattet werden und das jeweilige Mitglied den (seinen) entsprechenden Anteil an den Gesamtkosten trägt. Der Anteil des vom Mitglied zu tragenden Anteils an den Gesamtkosten kann insbesondere am **Umfang oder der Häufigkeit der Inanspruchnahme** der sonstigen Leistung bemessen werden. Ein **pauschaler Kostenaufschlag ist schädlich**. Steht die vereinbarte Kostenverteilung bzw. Kostenerstattung in einem **krassen Missverhältnis** zur jeweiligen Inanspruchnahme der sonstigen Leistungen, gilt das Kriterium der genauen Kostenerstattung als nicht erfüllt." },
       { text: "Die Anforderung einer genauen Kostenerstattung impliziert, dass der Personenzusammenschluss **weder einen Gewinn erzielen noch die Absicht hierzu haben** darf. Sofern gleichwohl tatsächlich erzielte Überschüsse jedoch ausschließlich dazu bestimmt sind, der **Finanzierung künftiger Investitionen** zu dienen, wird dies **nicht beanstandet**. Das Prinzip der Kostenerstattung und -verteilung sowie die Anforderungen an die Vermeidung von Wettbewerbsverzerrungen dürfen hiervon im Grundsatz nicht berührt werden." },
+    ],
+  },
+  {
+    id: "ust-m-b08-2-11",
+    teil: TEIL,
+    kapitel: "11",
+    abschnittNr: "III.1",
+    title: "III. Steuerfreie Umsätze ohne Vorsteuerabzugsberechtigung aber mit Optionsmöglichkeit: III.1 § 4 Nummer 8a UStG – Kreditgeschäfte",
+    thema: "Gewährung und Vermittlung von Krediten als optionsfähige Befreiung, Leistungsort, Geldkapitalkredit mit Beispiel B-Bank (Damnum, Gebühr, Option, Anzahlungs- und Teilleistungsbesteuerung), Warenkredite mit Beispielen Küche auf Raten und Juwelier, Abgrenzung zum Schadenersatz und Kreditvermittlung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("III.1"),
+    verfasser: VERFASSER,
+    normen: ["§ 3a Abs. 1, 2, 4 Satz 2 Nr. 6 und Abs. 6 UStG", "§ 4 Nr. 8 Buchst. a UStG", "§ 9 Abs. 1 UStG", "§ 10 Abs. 1 UStG", "§ 13 Abs. 1 Nr. 1 Buchst. a Sätze 2 und 4 UStG", "§ 15 Abs. 1 Nr. 1 Satz 2 UStG", "§ 4 Abs. 1 VerbrKrG", "Abschn. 1.3 Abs. 6 UStAE", "Abschn. 3.11 Abs. 1, 3 und 4 UStAE", "Abschn. 4.8.1 und 4.8.2 UStAE"],
+    themen: ["Steuerbefreiung", "Kreditgewährung", "Option", "Warenkredit", "Teilleistung", "Kreditvermittlung"],
+    bloecke: [
+      { typ: "titel", text: "III. Steuerfreie Umsätze ohne Vorsteuerabzugsberechtigung aber mit Optionsmöglichkeit – III.1 § 4 Nummer 8a UStG – Kreditgeschäfte – (➔ Arbeitspapier 12)" },
+      { text: "Steuerfrei gemäß § 4 Nummer 8a UStG ist die • **Gewährung** (vgl. Abschn. 4.8.2) und die • **Vermittlung** (vgl. Abschn. 4.8.1 und 4.8.2) **von Krediten**. Entsprechende Umsätze sind **optionsfähig gem. § 9 Abs. 1 UStG**. Entscheidend bei der Prüfung der Steuerbefreiung nach § 4 Nummer 8 UStG ist, dass es sich bei den zu beurteilenden Leistungen um **Hauptleistungen** handelt. Sofern eine Kreditgewährung eine **unselbständige Nebenleistung** zu einer Warenlieferung als Hauptleistung darstellt, ist die Vorschrift des § 4 Nr. 8 UStG nicht anzuwenden, sondern die Kreditgewährung teilt als Nebenleistung das umsatzsteuerliche Schicksal der Hauptleistung (vgl. unter ➔ Warenkredite)." },
+      { text: "**➔ Leistungsort bei Kreditgeschäften:** Der Ort der sonstigen Leistungen bei Kreditgewährungen bestimmt sich im **B2B-Bereich** nach der Grundregel des **§ 3a Abs. 2 UStG** und im **B2C-Bereich** nach § 3a Absatz 4 Satz 2 Nr. 6 i.V.m. Satz 1 UStG oder § 3a Abs. 1 UStG; gegebenenfalls für im Drittland ansässige Kreditgeber nach § 3a Abs. 6 UStG." },
+      { text: "**➔ Geldkapitalkredit (Kreditgrundart):** Die Kreditgewährung ist eine **sonstige Leistung in Form einer Duldungsleistung als Dauerleistung**. Sie hat die Kapitalnutzung beim Leistungsempfänger zum Gegenstand. **Entgelt** für diese Leistung sind **Zinsen, Damnum, Agio, Abgeld und sonstige für die Kapitalnutzung zu zahlende Gebühren** (Abschn. 4.8.2 Abs. 2 UStAE). Die **Kreditrückzahlung** selbst ist **kein Bestandteil des Leistungsaustauschs**." },
+      { text: "**Beispiel:** Die in **Köln** ansässige **B-Bank** gewährt dem **Unternehmer U aus Düsseldorf** am **1.2.** einen betrieblichen Kredit über **100.000 €** zu folgenden Bedingungen: Laufzeit **2 Jahre**, Auszahlung **98 v.H.**, abzüglich Bearbeitungs- und Schätzungsgebühr **500 €** und gesetzliche USt **nach Option**. Zinssatz **9 v.H. zzgl. USt**. Die Zinsen sind jeweils im Nachhinein **zum Quartalsende**, erstmals am 31.3. zu entrichten. Entsprechend den Kreditbedingungen erteilte die B-Bank dem U über die Auszahlung des Darlehens folgende Abrechnung:" },
+      { typ: "tabelle", spalten: ["Position", "Betrag"], zeilen: [
+        ["Darlehenssumme", "100.000 €"],
+        ["abzgl. Damnum", "2.000 €"],
+        ["abzgl. Gebühr (Bearbeitung u. Schätzung)", "500 €"],
+        ["abzgl. USt (19 % von 2 500 €)", "475 €"],
+        ["Auszahlungsbetrag", "97.025 €"],
+      ] },
+      { text: "**Lösung:** Die B-Bank erbringt mit der Darlehensgewährung an U eine **im Inland (= Düsseldorf gem. § 3a Abs. 2 UStG) steuerbare sonstige Leistung**. Sie ist grundsätzlich **steuerfrei nach § 4 Nr. 8a UStG**. Da die Leistung jedoch an das Unternehmen des U erbracht wird, **kann die B-Bank auf die Befreiung gem. § 9 UStG verzichten**. Der Steuersatz beträgt 19 %. Zur BMG gehören neben den Zinsen **auch das Damnum und die Gebühr**." },
+      { typ: "tabelle", spalten: ["Entgelt", "Betrag"], zeilen: [
+        ["9 % von 100 000 € = 9 000 € x 2 Jahre", "18 000 €"],
+        ["Damnum und Bearbeitungsgebühr", "2 500 €"],
+        ["Entgelt insgesamt", "20 500 €"],
+        ["Umsatzsteuer (19 % von 20 500)", "3 895 €"],
+      ] },
+      { text: "Die USt entsteht gemäß § 13 Abs. 1 Nr. 1 UStG mit Ablauf des Voranmeldungszeitraums, in dem die Leistung insgesamt erbracht wurde, sofern sie nicht schon vorher aufgrund der **Anzahlungsbesteuerung** (§ 13 Abs. 1 Nr. 1 Buchst. a Satz 4 UStG) bzw. aufgrund von **Teilleistungen** entsteht. Die Anzahlungsbesteuerung greift ein bezüglich des **Damnums und der Bearbeitungsgebühr**, da insoweit das Entgelt der B-Bank bei Auszahlung des um diese Beträge gekürzten Darlehens zugeflossen ist. Die **USt im Voranmeldungszeitraum Februar beträgt dementsprechend 475 €**." },
+      { text: "Da das Darlehen nach wirtschaftlichen Kriterien eine **zeitlich teilbare Leistung** darstellt und für jeweils ein Quartal eine gesonderte Entgeltsvereinbarung getroffen ist, liegen **Teilleistungen** i.S. von § 13 Abs. 1 Nr. 1a Satz 2 UStG vor. Die USt fällt somit für die einzelne Teilleistung jeweils **zum Quartalsende** an. Die **USt für das 1. Quartal beträgt 2/12 von 9 000 € x 19 % = 285,- €**." },
+      { text: "U kann die ihm in Rechnung gestellte Umsatzsteuer als **Vorsteuer** in dem Voranmeldungszeitraum abziehen, in dem die Teilleistung erbracht ist und die Rechnung mit gesondertem Umsatzsteuerausweis hierfür vorliegt. Die Umsatzsteuer aus der Anzahlungsabrechnung kann U für den **Voranmeldungszeitraum Februar** nach § 15 Abs. 1 Nr. 1 Satz 2 UStG abziehen." },
+      { text: "Nachrechnung (eigene Ergänzung): Damnum 100.000 € × 2 % = 2.000 €; (2.000 € + 500 €) × 19 % = 475 €; 100.000 € − 2.000 € − 500 € − 475 € = 97.025 €; 18.000 € + 2.500 € = 20.500 € × 19 % = 3.895 €; 9.000 € × 2/12 = 1.500 € × 19 % = 285 € – stimmt." },
+      { text: "**➔ Warenkredite:** Unter Warenkredit versteht man die **Streckung des Zahlungsziels** im Zusammenhang mit einer Lieferung. Die Kreditgewährung im Zusammenhang mit einer Lieferung oder sonstigen Leistung ist grundsätzlich eine **eigenständige (und unter § 4 Nr. 8a UStG fallende) sonstige Leistung** und keine Nebenleistung zur Hauptleistung (vgl. Abschn. 3.11 Abs. 1 UStAE). Anhaltspunkte, die für die Annahme mehrerer selbständiger Leistungen sprechen, sind dabei u.a. die: ❖ **gesonderte Vereinbarung** von Lieferung oder sonstiger Leistung und Kreditgewährung; ❖ **eigenständige Bildung von Leistungspreisen**; ❖ **gesonderte Rechnungsstellung**." },
+      { text: "Auch in folgenden Fällen liegen gesonderte Kreditgewährungen vor: ▪ **Stundungszinsen und Zielzinsen** (Abschn. 3.11 Abs. 3 UStAE), ▪ **Kontokorrentzinsen** (Abschn. 3.11 Abs. 4 UStAE). Eine eigenständige Kreditgewährung liegt insbesondere in den Fällen des **klassischen Abzahlungsgeschäfts** nach § 4 Abs. 1 des Verbraucherkreditgesetzes (früher § 1a Abzahlungsgesetz) vor. Nach Abschn. 3.11 Abs. 1 UStAE erbringt der leistende Unternehmer **zwei Leistungen**, und zwar einerseits die Warenlieferung und andererseits die Bewilligung der Teilzahlungen gegen jeweils gesondert vereinbartes und berechnetes Entgelt." },
+      { text: "**Beispiel:** **Peter Putzig** bestellt beim **Versandhaus V** eine komplette **Küche**. Der **Barzahlungspreis** beträgt **23.800,- €, einschließlich 19 % USt**. V und Putzig vereinbaren jedoch Ratenzahlungen von **50 Raten mit monatlich 500,- € = 25.000 €**. Die Bedingungen von § 4 Abs. 1 Verbraucherkreditgesetz wurden beachtet (eigene Kreditvereinbarung, effektiver Jahreszins, gesonderte Abrechnung)." },
+      { text: "**Lösung:** Versandhaus V erbringt an Putzig eine **Warenlieferung** und daneben einen **selbständigen Warenkredit**. Preis für die Küchenlieferung ist 23.800 €, Preis für die Kreditgewährung 1.200 €. Die Lieferung der Küche ist steuerbar und mangels Steuerbefreiung auch steuerpflichtig. Bemessungsgrundlage gemäß § 10 Absatz 1 UStG ist der Betrag von **20.000 €**, die USt beträgt **3.800 €**. Die Kreditgewährung ist gemäß **§ 4 Nr. 8a UStG steuerfrei**. Die BMG beträgt **1.200 €**." },
+      { text: "Nachrechnung (eigene Ergänzung): 50 × 500 € = 25.000 €; 25.000 € − 23.800 € = 1.200 €; 23.800 € : 1,19 = 20.000 €, USt 3.800 € – stimmt." },
+      { text: "**Beispiel:** Ein **Juwelier** verkauft eine Kette. Der Kaufpreis von **20.000 €** wird in **fünf Monatsraten zu jeweils 4.100,- €** getilgt." },
+      { text: "**Lösung:** Da **keine gesonderte Kreditvereinbarung** vorliegt, handelt es sich hinsichtlich der Ratenzahlung um eine **unselbständige Nebenleistung**. Die Bemessungsgrundlage für die Lieferung beträgt (5 x 4.100 € = 20.500 € ./. USt 3.273,11 €) **17.226,89 €**." },
+      { text: "Nachrechnung (eigene Ergänzung): 20.500 € : 1,19 = 17.226,89 €; 20.500 € − 17.226,89 € = 3.273,11 € – stimmt." },
+      { text: "**➔ Abgrenzung zum Schadenersatz:** Die steuerfreie Kreditgewährung ist auch abzugrenzen von so genannten anderen Zahlungszuschlägen. Hierbei sind **Mahnkosten, Verzugszinsen, Prozesszinsen, Fälligkeitszinsen und Vertragsstrafen** zu nennen. Hierbei fehlt es jeweils an einem Leistungsaustausch. Es handelt sich um **nicht steuerbaren Schadenersatz**. Auf die Ausführungen in Abschn. 1.3 Abs. 6 UStAE wird hingewiesen." },
+      { text: "**➔ Kreditvermittlung (vgl. Abschn. 4.8.1 UStAE):** Kreditvermittler treten im Rahmen ihrer Finanzierungstätigkeit nicht nur in ein Leistungsverhältnis mit den jeweiligen **Kreditkunden**, denen sie für ihre Bemühungen Bearbeitungs- und Kreditbeschaffungsgebühren berechnen, sondern auch in ein Leistungsverhältnis mit den **Kreditinstituten**. Gegenüber diesen erbringen sie sonstige Leistungen durch **Zuführung von Kunden**. Alle Leistungen des Kreditvermittlers sind grundsätzlich **nach § 4 Nr. 8a steuerfrei**. Wer lediglich **Anschriften von interessierten Kapitalanlegern** beschafft, bewirkt aber keine „Vermittlung von Umsätzen“ im Sinne des § 4 Nr. 8 UStG. Derartige Leistungen sind **steuerpflichtig**." },
+    ],
+  },
+  {
+    id: "ust-m-b08-2-12",
+    teil: TEIL,
+    kapitel: "12",
+    abschnittNr: "III.2",
+    title: "III.2 § 4 Nr. 8b UStG – Umsätze von gesetzlichen Zahlungsmitteln",
+    thema: "Umtausch konventioneller Währungen als steuerfreie Dienstleistung, Umtausch in Bitcoin nach EuGH vom 22.10.2015 und BMF-Schreiben vom 27.02.2018 zu Kryptowährungen",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("III.2"),
+    verfasser: VERFASSER,
+    normen: ["§ 4 Nr. 8 Buchst. b UStG", "Abschn. 4.8.3 Abs. 3 UStAE", "EuGH, Urteil vom 22.10.2015", "BMF-Schreiben vom 27.02.2018 – III C 3 – S 7160-b/13/10001"],
+    themen: ["Steuerbefreiung", "Zahlungsmittel", "Geldwechsel", "Bitcoin", "Kryptowährung"],
+    bloecke: [
+      { typ: "titel", text: "III.2 § 4 Nr. 8b UStG – Umsätze von gesetzlichen Zahlungsmitteln –" },
+      { text: "Nach § 4 Nr. 8b UStG ist insbesondere der **Umtausch konventioneller Währungen** eine steuerfreie Dienstleistung (vgl. Abschn. 4.8.3 Abs. 3 UStAE). Mit **Urteil vom 22.10.2015** hat der **EuGH** entschieden, dass es sich auch beim **Umtausch konventioneller Währungen in Einheiten der sog. virtuellen Währung Bitcoin und umgekehrt** um eine **steuerfreie Dienstleistung** gegen Entgelt handelt." },
+      { text: "Das **BMF** nimmt mit **Schreiben v. 27.02.2018, III C 3 – S 7160-b/13/10001** zu den sich im Zusammenhang mit sog. **Kryptowährungen** ergebenden Fragen Stellung. Neben den Umtauschleistungen von Kryptowährungen in konventionelle Währungen (und umgekehrt) wird ergänzend auch zu weiteren Folgefragen und Tätigkeiten (**Mining, Wallet** usw.) Stellung bezogen." },
     ],
   },
 ];

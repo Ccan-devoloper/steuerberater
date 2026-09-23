@@ -10623,6 +10623,28 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: III.1 und III.2
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-11` (III.1 § 4 Nr. 8a UStG
+Kreditgeschäfte mit Beispielen B-Bank, Küche auf Raten und Juwelier) und `ust-m-b08-2-12`
+(III.2 § 4 Nr. 8b UStG, Bitcoin, Kryptowährungen) für die PDF-Seiten 22 bis 24. Stand des
+USt-Skripts: 9 Teile, 232 Kapitel, 3820 Blöcke, 204 Tabellen.
+
+**Nachgerechnet (eigene Ergänzung):** B-Bank: Auszahlung 97.025 €, Entgelt 20.500 €, USt
+3.895 €, USt Februar 475 €, USt 1. Quartal 285 € – stimmt; Küche: Kredit 1.200 €, BMG
+20.000 €, USt 3.800 € – stimmt; Juwelier: BMG 17.226,89 €, USt 3.273,11 € – stimmt.
+
+**Darstellung:** Abrechnung und Entgeltberechnung der B-Bank als Tabellen (Spaltenköpfe eigene
+Ergänzung).
+
+**Stillschweigend berichtigt:** „Abschn. 4.8.2 )“, „4.8.1. und 4.8.2.“, „Beispiel :“, „4.8.2.“,
+„§ 4 Nr. 8 a“, fehlender Punkt nach „Abschn. 3.11 Abs. 1 UStAE)“, „Verbraucherkreditgesetztes“,
+„23.800, - €“, fehlender Punkt nach „gesonderte Abrechnung)“, „Warenk-redit“, „3,273,11 €“
+(3.273,11 €), „in einen Leistungsverhältnis“ (ein), „4.8.1.“, „S 7160-b/13/10001.“,
+„ergeben Fragen“ (ergebenden).
+
+**Weiter mit:** Block 8 Teil II ab III.3 § 4 Nr. 8c UStG (PDF-Seite 25).
+
 ### USt-Skript (Moecker), Block 8 Teil II: II.9 und II.10
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-9` (II.9 § 4 Nr. 28 UStG mit
