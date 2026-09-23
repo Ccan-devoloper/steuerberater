@@ -36,7 +36,7 @@ Das Lehrgangsarchiv enthält vier Zweige:
 
 | Bereich | Stand |
 | --- | --- |
-| K1 AO | Einheiten 1–8, Short-Skript, Hausaufgaben/Hausarbeiten, Originalfälle, Lehrgangsskript (Jacobs) mit Teilen I–IV vollständig |
+| K1 AO | Einheiten 1–8, Short-Skript, Hausaufgaben/Hausarbeiten, Originalfälle, Lehrgangsskript (Jacobs) mit allen Teilen (Abschnitte 1–15) vollständig |
 | K1 USt | Einheiten 1–8, Kurzskript (Meurer), Hausaufgaben Termin 1–7, Themen, Übungsverweise |
 | K1 ErbSt | Einheiten 1–3 |
 | K2 KSt | Einheiten 1–7, Original-Schemata, Lehrgangsskripte Teile I–VII (Hamacher) vollständig |
@@ -10622,6 +10622,30 @@ füllen.
 
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
+
+### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 64 bis 84 – AO-Skript vollständig
+
+Eingepflegt als Kapitel `ao-jacobs-13-16` bis `ao-jacobs-13-20`: § 75 AO (Voraussetzungen,
+sachliche, zeitliche und gegenständliche Beschränkung, zwei Beispiele), § 25 HGB mit dem
+Übungsfall Fix & Fertig-Bauunternehmung, die Gesellschafterhaftung bei OHG, GbR und KG, das
+Prüfungsschema für den Erlass eines Haftungsbescheides und die Anlage mit der Kurzdarstellung
+aller Haftungsnormen in drei Übersichten. Seite 84 ist bis auf die Kopfzeile leer. **Abschnitt 13,
+der Band AO Teil V und das gesamte Lehrgangsskript (Abschnitte 1 bis 15) sind damit vollständig**;
+die Zeile „AO Teil V“ in `docs/offene-quellen.md`, Abschnitt A, ist gestrichen. Endstand des
+Skripts: 16 Teile, 232 Kapitel, 5865 Blöcke, 400 Tabellen.
+
+**Nachgerechnet und stimmig:** § 75-Beispiele (Erwerb 01.02.02/Anmeldung 15.12.02 → ab 01.01.01,
+bis 15.12.03; Übergang 01.02.05/Anmeldung 15.02.05 → ab 01.01.04, bis 15.02.06); Übungsfall
+Fix & Fertig (§ 25 HGB 34.000 €, § 75 AO 22.000 €, Grenzen 01.01.06 und 15.05.08).
+
+**Quellbefunde (markiert):** Zweimal „AEAO zu § 74 AO, Tz. 4.1/4.2“ im Abschnitt zu § 75 AO; die
+Überschrift von Teil IV nennt „§§ 128, 130 … HGBd“ (Nummerierung vor dem MoPeG); in der Lösung
+zum Übungsfall hat „G“ statt K das Handelsgeschäft erworben; „§ 3 III AO“ statt § 3 Abs. 4 AO für
+die steuerlichen Nebenleistungen; in der Anlage werden für § 69 AO die §§ 126, 127, 137 HGB auch
+für die GbR genannt. Die Übersichten der Anlage sind aus ineinanderlaufenden Spalten nach
+Inhalt zugeordnet (Hinweis im Datensatz). Zu § 219 Satz 2 AO ist erläutert, dass die sofortige
+Zahlungsaufforderung bei § 69 AO nur für einzubehaltende oder für Dritte zu entrichtende Steuern
+gilt (eigene Ergänzung, im Einklang mit den Kapiteln 9, 10 und 13 des Abschnitts).
 
 ### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 53 bis 63
 

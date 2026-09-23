@@ -824,7 +824,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 371 Abs. 2 AO) und **Teil VIII** (Verwertungsverbot mit Fallgruppen, Ausnahmen,
   Wiederholungsprüfung, Prüfungsschema und zwei Übungsfällen). **Abschnitt 12 ist damit
   vollständig**.
-  Abschnitt 13 (Haftungsrecht) ist als eigener Teil begonnen (Skriptseiten 1 bis 21): die
+  Abschnitt 13 (Haftungsrecht) ist als eigener Teil vollständig eingepflegt (84 Skriptseiten): die
   Vorbemerkung zum MoPeG, Steuer- und Haftungsschuld mit Akzessorietät und Gesamtschuld,
   zivil- und steuerrechtliche Haftung, die Gesamtrechtsnachfolge mit dem Fall Fritz Trunk,
   die Übersicht über das materielle und formelle Haftungsverfahren mit den vier „W“ und die
@@ -844,7 +844,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Besonderheiten des § 71 AO (Drittwirkung, Zahlungsaufforderung, Konkurrenz zu § 69 AO), die
   Organschaftshaftung nach § 73 AO, die Eigentümerhaftung nach § 74 AO mit Fallbeispiel
   A+B-GmbH und der Übungsfall A-GmbH & Co. KG mit Komplementär-GmbH, Kommanditist,
-  Geschäftsführer und Buchhalter.
+  Geschäftsführer und Buchhalter; zum Schluss (Seiten 64 bis 84) die Betriebsübernehmerhaftung
+  nach § 75 AO mit sachlicher, zeitlicher und gegenständlicher Beschränkung, § 25 HGB mit dem
+  Übungsfall Fix & Fertig-Bauunternehmung (34.000 € nach HGB, 22.000 € nach § 75 AO), die
+  Haftung der Gesellschafter von OHG, GbR und KG, das Prüfungsschema für den Erlass eines
+  Haftungsbescheides und die Anlage mit der Kurzdarstellung aller prüfungsrelevanten
+  Haftungsnormen. **Teil V und damit das gesamte AO-Skript (Abschnitte 1 bis 15) sind
+  vollständig.**
   Aus Teil VI ist Abschnitt 14 (Steuerstraf- und Bußgeldrecht) begonnen: die Abgrenzung von
   Steuerstraftat und Steuerordnungswidrigkeit mit Legalitäts- und Opportunitätsprinzip, der
   Aufbau der §§ 369 bis 412 AO, die Auswirkungen auf die Festsetzungsverjährung – Zehn- und
