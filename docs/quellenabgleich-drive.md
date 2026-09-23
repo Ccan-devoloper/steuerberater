@@ -10623,6 +10623,35 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: IV.1 bis IV.1.4
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-31` (IV.1 Option nach § 9
+Abs. 1 UStG, Katalog als Tabelle), `ust-m-b08-2-32` (IV.1.1 Finanzumsätze), `ust-m-b08-2-33`
+(IV.1.2 Vermietung), `ust-m-b08-2-34` (IV.1.3 Grundstückslieferungen, Ausgangsfall Max und
+Moritz, Widerruf) und `ust-m-b08-2-35` (IV.1.4 fiktive Option) für die PDF-Seiten 51 bis 55.
+Stand des USt-Skripts: 9 Teile, 255 Kapitel, 4096 Blöcke, 207 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- Einführung: „§ 4 Nummer 8 a bis g und k“, der Katalog darunter nennt nur 8a bis g.
+- Gaststätte mit Pächterwohnung: „§ 9 Satz 1 UStG“ statt § 9 Abs. 1 UStG.
+- Fiktive Option: „Abschnitt 9.1 Abs. 5 S. 2 UStR“ (UStR statt UStAE).
+- Aktenzeichen „XI R 22719“ (OCR) als XI R 22/19 wiedergegeben, Originalschreibung vermerkt.
+
+**Nachgerechnet (eigene Ergänzung):** Darlehen 80 % optionsfähig / 20 % steuerfrei;
+Appartementhaus 7 von 8 Wohnungen; Max: Veräußerung nach 5 Jahren, Berichtigung 5/10.
+
+**Darstellung:** Spaltenköpfe der Katalogtabelle eigene Ergänzung; der Kasten „Bitte beachten
+Sie …“ mit Randvermerk „Merke“ als Absatz „Merke:“.
+
+**Stillschweigend berichtigt:** gerade Anführungszeichen, „Einze-loption“, „9.1. Abs.5“,
+fehlender Punkt nach „UStAE)“, „v.28.2.96“, „Lieferung … sind“ (ist), „teilunternehmerisch
+genutzten Grundstück“ (genutztes), „quotalen Zuordnung“, fehlendes Komma nach „§ 15a UStG“,
+„im dem“, „notariell beurkundenden“ (zu beurkundenden), „ist der Verzicht … kann“ (ohne „ist“),
+fehlendes „gelten“, „entscheiden“, „21. 10. 2015“, „=>“ (➔), „EuGH - Entscheidungen“,
+„C -400/98-“, „§15a“, „belegt ist, so“, Leerzeichen in Klammern.
+
+**Weiter mit:** IV.1.5 Optionserklärung / Widerruf bei V.u.V. (PDF-Seite 55).
+
 ### USt-Skript (Moecker), Block 8 Teil II: III.6.7 bis III.7
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-28` (III.6.7 Sportanlagen),
