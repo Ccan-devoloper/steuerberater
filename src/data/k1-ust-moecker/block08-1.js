@@ -2,7 +2,7 @@
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
    In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere A 1 bis
-   A 36 (PDF-Seiten 62 bis 97) eingepflegt, weitere folgen. */
+   A 43 (PDF-Seiten 62 bis 104) eingepflegt, weitere folgen. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -1496,6 +1496,90 @@ export const block08Teil1 = [
         ["DU 1 ➔ BU 2 (WIDERLEGTE VERMUTUNG): bewegte Lieferung § 3 Abs. 6a Satz 4 und 5 UStG. Ort = Kiel. Steuerfreie innergem. Lieferung. BU 2: Innergem. Erwerb in BE § 3d Satz 1 + Vorst", "Lieferung DU 2 ➔ an DU 1: Unbewegte Lieferung vor der bewegten Lieferung mit Ort § 3 Abs. 7 S. 2 Nr. 1 UStG in Kiel. Steuerbar und steuerpflichtig. Lieferung BU 2 ➔ an BU 1: Unbewegte Lieferung nach der bewegten mit Ort § 3 Abs. 7 S. 2 Nr. 2 UStG in Lüttich (so in der Quelle; die Beförderung endet in Brüssel); in DE nicht steuerbar, In BE steuerbar und steuerpflichtig."],
       ] },
       { text: "Die Gegenüberstellungen sind als Tabellen wiedergegeben; die Spaltenköpfe sind eigene Ergänzung zur Darstellung. Die Satzzahlen der zitierten Gesetzessätze sind hochgestellt." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-52",
+    teil: TEIL,
+    kapitel: "52",
+    abschnittNr: "A 37 bis A 39",
+    title: "Arbeitspapiere A 37 bis A 39: Verwendung der USt-IdNr. durch den Zwischenhändler und Reihengeschäft nach DE",
+    thema: "Positives Tun bei der Verwendung der USt-IdNr. durch den Zwischenhändler (Abschn. 3.14 Abs. 10 UStAE) und Reihengeschäft Brüssel–München–Düsseldorf mit Transport durch den ersten Unternehmer, den letzten Abnehmer und den Zwischenhändler",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 37 bis A 39"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 Satz 1 UStG", "§ 3 Abs. 6a Sätze 2 bis 4 UStG", "§ 3 Abs. 7 Satz 2 Nr. 1 und 2 UStG", "§ 3d Satz 1 UStG", "§ 4 Nr. 1 Buchst. b UStG", "§ 6a UStG", "§ 15 Abs. 1 Nr. 3 UStG", "§ 18a Abs. 7 UStG", "Abschn. 3.14 Abs. 10 UStAE"],
+    themen: ["Arbeitspapier", "Reihengeschäft", "Zwischenhändler", "USt-IdNr.", "innergemeinschaftlicher Erwerb"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 37" },
+      { text: "Der Begriff „Verwendung“ einer USt-IdNr. setzt ein **positives Tun des ZH** voraus (vgl. Abschn. 3.14 Abs. 10 UStAE). ❖ Spätere Änderungen bei der Verwendung der USt-IdNr. bleiben ohne Auswirkung. ❖ Verwendung in der Regel bereits bei Vertragsabschluss, spätestens jedoch bei Ausführung der Lieferung. ❖ Die verwendete USt-IdNr. soll in dem jeweiligen Auftragsdokument schriftlich festgehalten werden. ❖ Bei mündlicher Erteilung eines Auftrags muss die rechtzeitige Verwendung der USt-IdNr. vom mittleren Unternehmer dokumentiert werden. ❖ Auch ausreichend = Erklärung des ZH über Dauerverwendung der IdNr. aus DE. ❖ Lediglich formularmäßig im Briefkopf eingedruckte USt-IdNr. reicht nicht aus." },
+      { text: "❖ Positives Tun des ZH liegt auch dann vor, • wenn dessen LE (Enderwerber) den Leistungsbezug in zutreffender Weise erklärt hat (also innergem. Erwerb), • der ZH seinen Meldepflichten nach § 18a UStG nachgekommen ist und • die Rechnung über die Leistung einen Hinweis auf die USt-IdNr. des LE (Enderwerber), die nach § 18a Abs. 7 UStG in der ZM angegeben wurde, enthält." },
+      { typ: "titel", text: "Arbeitspapier A 38 – ➔ Warenbewegung aus anderen MS der EU => nach DE" },
+      { text: "Unternehmer **DU 2 aus D’dorf** bestellt Ware bei **DU 1 aus München**. DU 1 aus München bestellt seinerseits Ware bei **B aus Brüssel**. Alle Unternehmer verwenden USt-IdNr. aus ihrem Sitzstaat. Schaubild: Rechnungsweg BU (Brüssel) ➔ DU 1 (München) ➔ DU 2 (D’dorf); Warenweg von Brüssel unmittelbar nach Düsseldorf." },
+      { typ: "titel", text: "Transport durch den „Ersten“ Unternehmer (BU)" },
+      { text: "**B an DU 1:** Warenbewegung gem. § 3 Abs. 6a Satz 2 UStG der Lieferung B an M (so in der Quelle; gemeint ist DU 1 aus München) zuzuordnen. Ort gem. § 3 Abs. 6 Satz 1 UStG = **Brüssel**. In BE steuerbare und **steuerfreie innergem. Lieferung**. DU 1 aus München hat **i.g. Erwerb in DE** gem. § 3d S. 1 UStG (Pflichterwerb). Vorsteuerabzug § 15 Abs. 1 Nr. 3 UStG" },
+      { text: "**DU 1 an DU 2 aus D’dorf:** **Unbewegte Lieferung** da Warenbewegung gem. § 3 Abs. 6a Satz 2 UStG bereits der Lieferung B an DU 1 zuzuordnen ist. Ort gem. § 3 Abs. 7 S. 2 Nr. 2 = **Düsseldorf**. Steuerbar und steuerpflichtig" },
+      { typ: "titel", text: "Transport durch „Letzten“ Abnehmer (DU 2 D’dorf)" },
+      { text: "**BU an DU 1:** **Unbewegte Lieferung**, da Warenbewegung der Lieferung DU 1 an DU 2 aus D’dorf gem. § 3 Abs. 6a Satz 3 UStG zuzuordnen ist. Ort § 3 Abs. 7 S. 2 Nr. 1 = **Brüssel**. In BE steuerbar und steuerpflichtig. Auftreten des DU 1 mit deutscher USt-IdNr. bleibt unbedeutend. BU erteilt Rechnung an DU 1 mit belg. USt. DU 1 hat keinen i.g. Erwerb in DE, da kein „bewegter LE“" },
+      { text: "**DU 1 an DU 2:** Warenbewegung gem. § 3 Abs. 6a Satz 3 UStG der Lieferung DU 1 aus München an DU 2 aus D’dorf zuzuordnen. Ort: **Brüssel** § 3 Abs. 6 Satz 1 UStG. In BE steuerbare und grundsätzlich **steuerfreie innergem. Lieferung** gem. § 4 Nr. 1b i.V.m. § 6a UStG, da DU 2 gültige USt-IdNr. aus einem anderen EU-Staat (hier DE) verwendet. Voraussetzung = DU 1 erfüllt seine Pflichten in BE. DU 1 (so in der Quelle; Empfänger der bewegten Lieferung und damit Erwerber in DE ist DU 2) hat innergem. Erwerb in DE gem. § 3d Satz 1 UStG." },
+      { typ: "titel", text: "Arbeitspapier A 39 – Transport durch „Zwischenhändler“ (DU 1)" },
+      { text: "**BU an DU 1:** Warenbewegung gem. § 3 Abs. 6a Satz 4 1. Alternative UStG der Lieferung BU an DU 1 zuzuordnen. Ort gem. § 3 Abs. 6 Satz 1 UStG = **Brüssel**. In BE steuerbare und **steuerfreie innergem. Lieferung** gem. § 4 Nr. 1b i.V.m. § 6a UStG. DU1 hat **i.g. Erwerb in DE** gem. § 3d S. 1 UStG (Pflichterwerb)." },
+      { text: "**DU1 an DU 2:** **Unbewegte Lieferung** da Warenbewegung bereits der Lieferung BU an DU 1 zuzuordnen ist. Ort gem. § 3 Abs. 7 S. 2 Nr. 2 = **Düsseldorf**; steuerbar und steuerpflichtig." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-53",
+    teil: TEIL,
+    kapitel: "53",
+    abschnittNr: "A 40 bis A 41",
+    title: "Arbeitspapiere A 40 und A 41: Reihengeschäfte mit privaten Endabnehmern (DE ➔ EU)",
+    thema: "Möbel von Köln über Mönchengladbach an einen Privatmann in Venlo nach Abschn. 3.14 Abs. 18 UStAE: Transport durch den ersten Unternehmer (steuerpflichtige Lieferung, Erwerb und ruhende Lieferung in NL, kein Fernverkauf) und durch den Zwischenhändler mit deutscher USt-IdNr. (innergemeinschaftlicher Fernverkauf nach § 3c UStG, OSS)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 40 und A 41"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 5a UStG", "§ 3 Abs. 6 UStG", "§ 3 Abs. 6a Sätze 2, 4 und 5 UStG", "§ 3 Abs. 7 Satz 2 Nr. 1 und 2 UStG", "§ 3c Abs. 1 UStG", "§ 3d Sätze 1 und 2 UStG", "§ 18j UStG", "Abschn. 3.14 Abs. 18 UStAE"],
+    themen: ["Arbeitspapier", "Reihengeschäft", "Fernverkauf", "One-Stop-Shop", "Privatperson"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 40 – ➔ Reihengeschäfte mit privaten Endabnehmern und Warenbewegung von DE => in die EU" },
+      { text: "**Ausgangsfall (vgl. Abschn. 3.14 Abs. 18 UStAE):** **Privatmann V aus Venlo (NL)** kauft für sein EFH in Venlo Möbel beim **Möbelhaus DU 1 in MG**. DU 1 bestellt die Möbel bei der **Möbelfabrik DU 2 in Köln**. **DU 2 versendet** die Möbel unmittelbar zum Kunden aus den NL nach Venlo. DU 1 und DU 2 treten jeweils unter ihrer **deutschen USt-IdNr.** auf. Schaubild: Rechnungsweg DU 2 (Köln) ➔ DU 1 (MG) ➔ V (Venlo, NL); Warenweg von Köln unmittelbar nach Venlo." },
+      { text: "❖ Beim Transport durch den 1. Unternehmer sieht der nationale Gesetzgeber in § 3 Abs. 6a Satz 2 UStG folgende Regelungen vor: „² Wird der Gegenstand der Lieferung dabei durch den ersten Unternehmer in der Reihe befördert oder versendet, ist die Beförderung oder Versendung seiner Lieferung zuzuordnen.“" },
+      { typ: "tabelle", spalten: ["DU 2 ➔ DU 1", "Lieferung DU 1 ➔ Privatpers. V (NL)"], zeilen: [
+        ["Bewegte Lieferung gem. § 3 Abs. 6a Satz 2 UStG mit Ort Köln § 3 (6) UStG. Gegenstand gelangt in einen anderen Mitgliedstaat; grundsätzlich steuerfreie innergem. Lieferung wenn DU 1 IdNr. aus einem anderen EU-Staat verwendet. Hier steuerpflichtige Lieferung, da IdNr. aus DE.", "Erwerb durch DU 1 in NL § 3d Satz 1 + Vorst. Unbewegte Lieferung nach der bewegten gem. § 3 Abs. 7 Satz 2 Nr. 2 UStG mit Ort = in NL; dort steuerpflichtig mit BTW – Registrierungspflicht –. Kein Fernverkauf § 3c Abs. 1 UStG mangels Warenbewegung durch DU 2. Straferwerb gem. § 3d Satz 2 UStG und keine Vorst (vgl. Bsp. in Abschn. 3.14 Abs. 18 UStAE)."],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 41" },
+      { text: "❖ Beim Transport durch den ZH DU 1 sieht nationaler Gesetzgeber in § 3 Abs. 6a Satz 5 UStG folgende (Ausnahme) Regelungen vor – **Widerlegte Vermutung (durch Gesetz)**: „⁵ Gelangt der Gegenstand der Lieferung aus dem Gebiet eines Mitgliedstaates in das Gebiet eines anderen Mitgliedstaates und verwendet der Zwischenhändler gegenüber dem leistenden Unternehmer bis zum Beginn der Beförderung oder Versendung eine Umsatzsteuer-Identifikationsnummer, die ihm vom Mitgliedstaat des Beginns der Beförderung oder Versendung erteilt wurde, ist die Beförderung oder Versendung seiner Lieferung zuzuordnen.“" },
+      { typ: "tabelle", spalten: ["DU 2 ➔ DU 1", "Lieferung DU 1 ➔ Privatpers. V (NL)"], zeilen: [
+        ["Unbewegte Lieferung vor der bewegten Lieferung gem. § 3 Abs. 7 Satz 2 Nr. 1 UStG. Ort = Köln. Steuerbar und steuerpflichtig. Unbewegte Lieferungen können nicht steuerfrei werden. Rechnungslegung mit 19 % USt.", "Bewegte Lieferung gem. § 3 Abs. 6a Satz 4 & 5 UStG. Ort = grds. Köln gem. § 3 Abs. 6 UStG; Aber gem. § 3 Abs. 5a UStG ist § 3c UStG vorrangig. Innergem. Fernverkauf mit Ort in Venlo gem. § 3c Abs. 1 UStG, wenn DU 1 Geringfügigkeitsschwelle überschreitet. BTW wird im EU-OSS gem. § 18j UStG gemeldet."],
+      ] },
+      { text: "Die Gegenüberstellungen sind als Tabellen wiedergegeben; die Schaubilder als Text (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-54",
+    teil: TEIL,
+    kapitel: "54",
+    abschnittNr: "A 42 bis A 43",
+    title: "Arbeitspapiere A 42 und A 43: Innergemeinschaftliches Dreiecksgeschäft (§ 25b UStG)",
+    thema: "Ausgangsfall Paris–Düsseldorf–Brüssel mit Transport durch den ersten Lieferer, Zweck und Vorteile der Vereinfachung und Übersicht über Tatbestand (§ 25b Abs. 1), Rechtsfolge und weitere Voraussetzungen (Abs. 2) sowie sonstige Folgen (Abs. 3 bis 6)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 42 und A 43"),
+    verfasser: VERFASSER,
+    normen: ["§ 3d Sätze 1 und 2 UStG", "§ 14a Abs. 7 UStG", "§ 18a Abs. 7 Nr. 4 UStG", "§§ 19, 24 UStG", "§ 25b Abs. 1 bis 6 UStG", "Abschn. 25b.1 Abs. 2 UStAE"],
+    themen: ["Arbeitspapier", "Dreiecksgeschäft", "Steuerschuldnerschaft", "Zwischenhändler", "Rechnung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 42 – 6. Innergem. Dreiecksgeschäft (§ 25b; A 25b UStAE)" },
+      { text: "**Beachte:** Bei dem innergem. Dreiecksgeschäft handelt es sich um eine **Unterform des Reihengeschäfts**. Liegen die Voraussetzungen für ein innergem. Dreiecksgeschäft nicht vor, greifen die **allg. Grundsätze zum Reihengeschäft**." },
+      { text: "**=> Ausgangsfall:** Untern. **B aus Brüssel** bestellt Ware bei **D aus Düsseldorf**. D aus Düsseldorf bestellt seinerseits Ware bei **P aus Paris**. Schaubild: P (Paris) 1. Lieferer – Vertrag – D (D’dorf) 1. Abnehmer (Zwischenhändler) – Vertrag – B (Brüssel) letzter Abnehmer; Warenbewegung von P über die Grenze unmittelbar an B. Den Transport übernimmt mit eigenem LKW: => **P aus Paris**" },
+      { text: "**Hinweis:** 1. Abnehmer (hier D) = sog. **Zwischenhändler** ➔ **Zweck:** Verfahrensrechtliche Vereinfachung ➔ **Vorteil:** Zwischenhändler wird „ausgeblendet“ – Finanzierungsvorteil, da keine USt – Keine Registrierungs- und Erklärungspflichten im Bestimmungsland" },
+      { typ: "titel", text: "Arbeitspapier A 43 – Innergem. Dreiecksgeschäft (§ 25b)" },
+      { typ: "tabelle", spalten: ["25b (1) ➔ Tatbestand", "25b (2) ➔ RF + weitere TBM", "25b (3) bis (6) ➔ sonstige Folgen"], zeilen: [
+        ["Nr. 1: 3 Unternehmer (egal welche; auch § 19 und 24)", "Rechtsfolge: letzter Abnehmer ist Steuerschuldner", "Abs. 3: Für ZH gelten als besteuert die Erwerbe § 3d Satz 1 in BE und Satz 2 in DE (ZM abgeben § 18a (7) Nr. 4)"],
+        ["Nr. 2: 3 EU-Staaten (Registrierung reicht)", "Weitere TBM Nr. 1: i.g. Erwerb durch Zwischenhändler (grds. gegeben)", "Abs. 4: BMG für USt des letzten Abnehmers"],
+        ["Nr. 3: Warenbewegung EU-Staat in EU-Staat", "Nr. 2: Zwischenhändler nicht im Bestimmungsland ansässig und verwendete USt-IdNr. nicht aus BE oder FR", "Abs. 5: Vorst des letzten Abnehmers"],
+        ["Nr. 4: Transport durch 1. Lieferant oder Zwischenhändler (in der 1. Alt.)", "Nr. 4: Letzter Abnehmer mit USt-IdNr. aus BE", "Abs. 6: Aufzeichnungspflicht Nr. 1 ZH aus DE, Nr. 2 2. Abn. aus DE"],
+        ["Sonderfall: A. 25b.1 Abs. 2 UStAE", "Nr. 3 (wichtig): Zwischenhändler erteilt Rechnung i.S.d. § 14a (7) – mat.-rechtliche Voraussetzung", ""],
+      ] },
+      { text: "Die Übersicht A 43 ist als Tabelle mit den drei Spaltenköpfen der Quelle wiedergegeben; die zeilenweise Zuordnung folgt der Anordnung im Schaubild (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

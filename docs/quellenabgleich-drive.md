@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 37 bis A 43
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-52` (A 37 Verwendung der
+USt-IdNr. durch den Zwischenhändler; A 38 und A 39 Reihengeschäft Brüssel–München–Düsseldorf),
+`ust-m-b08-1-53` (A 40 und A 41 Reihengeschäfte mit privatem Endabnehmer in Venlo, Fernverkauf
+und OSS) und `ust-m-b08-1-54` (A 42 und A 43 innergem. Dreiecksgeschäft, Übersicht zu § 25b
+Abs. 1 bis 6 UStG) für die PDF-Seiten 98 bis 104. Stand des USt-Skripts: 8 Teile, 217 Kapitel, 3634 Blöcke, 196 Tabellen.
+
+**Quellbefunde (markiert):** A 38 ordnet die Warenbewegung „der Lieferung B an M“ zu (gemeint
+DU 1 aus München). In A 38 (Transport durch den letzten Abnehmer) hat laut Quelle „DU 1“ den
+innergem. Erwerb in DE; Empfänger der bewegten Lieferung ist aber DU 2.
+
+**Darstellung:** Gegenüberstellungen A 40/A 41 und Übersicht A 43 als Tabellen (Spaltenköpfe in
+A 43 aus der Quelle, sonst eigene Ergänzung), Schaubilder als Text.
+
+**Stillschweigend berichtigt:** „USt -IdNr.“, „Meldepflichtennach“, „DU 1 und D 2“ (DU 2),
+„S.1“, „gem.§“, englische Anführungszeichen bei „ausgeblendet“, „W a r e n b e w e g u n g“,
+Leerzeichen in Klammern; Satzzahlen der Gesetzeszitate hochgestellt.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab A 44 (PDF-Seite 105).
+
 ### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 32 bis A 36
 
 In `src/data/k1-ust-moecker/block08-1.js` neues Kapitel `ust-m-b08-1-51` (A 32 bis A 36
