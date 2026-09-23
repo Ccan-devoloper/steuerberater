@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-23T06:43:48.448Z",
+  "stand": "2026-09-23T07:43:45.405Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -373,6 +373,18 @@
           "total_interactions": 6,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-09-23T07:43:42.592Z",
+          "alterStunden": 145,
+          "reach": 43,
+          "saved": 4,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -417,6 +429,20 @@
           "stand": "2026-09-22T06:43:48.601Z",
           "alterStunden": 115.9,
           "reach": 49,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 65,
+          "ig_reels_avg_watch_time": 14669,
+          "ig_reels_video_view_total_time": 968180,
+          "reels_skip_rate": 67.9
+        },
+        {
+          "stand": "2026-09-23T07:43:42.592Z",
+          "alterStunden": 140.9,
+          "reach": 50,
           "saved": 1,
           "shares": 0,
           "likes": 1,
@@ -1251,6 +1277,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-23T07:43:42.592Z",
+          "alterStunden": 121,
+          "reach": 28,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -1290,6 +1328,20 @@
           "views": 98,
           "ig_reels_avg_watch_time": 12572,
           "ig_reels_video_view_total_time": 1093786,
+          "reels_skip_rate": 58.9
+        },
+        {
+          "stand": "2026-09-23T07:43:42.592Z",
+          "alterStunden": 116.9,
+          "reach": 65,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 98,
+          "ig_reels_avg_watch_time": 12450,
+          "ig_reels_video_view_total_time": 1095622,
           "reels_skip_rate": 58.9
         }
       ]
@@ -3316,6 +3368,62 @@
           "reels_skip_rate": 46.7
         }
       ]
+    },
+    "17956604889015172": {
+      "art": "story",
+      "datum": "2026-09-23",
+      "titel": "Wann entsteht die Umsatzsteuer bei Soll-Versteuerung?",
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-23T05:45:17.235Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-23T07:43:39.755Z",
+          "alterStunden": 2,
+          "reach": 13,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 9,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 7,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "17894884605672211": {
+      "art": "story",
+      "datum": "2026-09-23",
+      "titel": "Bei Soll-Versteuerung zählt grundsätzlich die Ausführung der Leistung.",
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-23T05:45:29.759Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-23T07:43:39.755Z",
+          "alterStunden": 2,
+          "reach": 12,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_exit": 4,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 8
+        }
+      ]
     }
   },
   "konto": [
@@ -3476,6 +3584,11 @@
     },
     {
       "stand": "2026-09-23T06:43:48.448Z",
+      "follower": 73,
+      "medien": 57
+    },
+    {
+      "stand": "2026-09-23T07:43:45.405Z",
       "follower": 73,
       "medien": 57
     }
