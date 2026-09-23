@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 21 bis A 24
+
+Übernommen (PDF-Seiten 81 bis 84, Seiten gerendert und angesehen): Kapitel ust-m-b11-44 (A 21 die vier wesentlichen Angaben und ihre Berichtigungsfähigkeit, A 22 Beispiele BFH V R 54/14 und V R 26/15) und ust-m-b11-45 (A 23 Entgelt und Steuerausweis, A 24 Ausnahme vom Erfordernis einer ordnungsmäßigen Rechnung, EuGH Rs. Barlis). Schaubild A 21 als Tabelle wiedergegeben.
+
+- Quellenmarkierungen: A 23 unvollständiger Satz „(Mehrbetrags im VAZ der Rechnung, …)“; A 24 „Art. 226 Nrn. 6“ (das Urteil betrifft Nrn. 6 und 7 MwStSystRL).
+- Stillschweigend berichtigt: überzähliges Komma in „Keine rückwirkende Berichtigung, einer …“ (A 23); „verfügen“ → „verfügt“ und „p rüfen“ → „prüfen“ (A 24).
+- Keine Zahlenangaben zum Nachrechnen.
+
+Prüfung danach: 12 Teile, 450 Kapitel, 6270 Blöcke, 338 Tabellen.
+
+Weiter mit: Arbeitspapier A 25, PDF-Seite 85.
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 17 bis A 20
 
 Übernommen (PDF-Seiten 77 bis 80, Seiten gerendert und angesehen): Kapitel ust-m-b11-42 (A 17 Fallgruppe 3 Mietvertrag mit Eheleuten, Abschn. 9.1 Abs. 6 Satz 5 und 15.2b Abs. 1 Satz 7 und 8 UStAE; A 18 Vorsteuer bei Grundstücksgemeinschaft, BFH XI R 14/08) und ust-m-b11-43 (A 19 und A 20 Rückwirkung der Rechnungsberichtigung). Schaubilder als Tabellen wiedergegeben.

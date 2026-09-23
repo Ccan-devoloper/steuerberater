@@ -5,7 +5,7 @@
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
    In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 20 (PDF-Seite 80). */
+   A 24 (PDF-Seite 84). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1424,6 +1424,56 @@ export const block11 = [
       ] },
       { text: "**EuGH v. 15.09.2016 - C-518/14 Rs. Senatex** – Steuernummer fehlte\n**BFH v. 20.10.2016 - V R 64/14** – Steuernummer fehlte\n**BFH v. 05.09.2019 - V R 12/17** – Grundsätzliche Rückwirkung einer Rechnungsberichtigung" },
       { text: "Das Schaubild ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-44",
+    teil: TEIL,
+    kapitel: "44",
+    abschnittNr: "A 21 und A 22",
+    title: "Arbeitspapiere A 21 und A 22: Die vier wesentlichen Angaben – Berichtigungsfähigkeit bei Leistendem, Leistungsempfänger und Leistungsbeschreibung",
+    thema: "Fehlende oder in hohem Maße unbestimmte wesentliche Angaben (keine Berichtigung) gegenüber in geringem Maße ungenauen Angaben (Berichtigung möglich), Identifizierbarkeit von LU und LE (Rn. 18 und 19 BMF), unzutreffende Rechtsform (BFH V R 54/14), Leistungsbeschreibung (Rn. 20 BMF, BFH V R 26/15)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 21 und A 22"),
+    verfasser: VERFASSER,
+    normen: ["§ 14 Abs. 4 UStG", "§ 31 Abs. 5 UStDV", "Abschn. 15.2a Abs. 7 UStAE", "BMF v. 18.09.2020, Rn. 18 bis 20"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Rechnungsberichtigung", "Leistungsbeschreibung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 21 – Sog. 4 wesentliche Angaben" },
+      { text: "1) Name + Anschrift Leistender Unternehmer (LU)\n2) Name + Anschrift Leistungsempfänger (LE),\n3) Leistungsbeschreibung\n4) Entgelt + gesonderter Ausweis der USt" },
+      { typ: "tabelle", spalten: ["Die wesentlichen Angaben …", "Folge"], zeilen: [
+        ["fehlen", "⇨ Keine Berichtigung, da keine Erstrechnung mit Mindest-Angaben"],
+        ["sind ungenau / unbestimmt oder unzutreffend in hohem Maße (*2 *3)", "⇨ Keine Berichtigung, da keine Erstrechnung mit Mindest-Angaben"],
+        ["sind ungenau / unbestimmt oder unzutreffend in geringem Maße (*1)", "⇨ Berichtigung möglich"],
+      ] },
+      { text: "**Zu 1 und 2) Leistender Unternehmer (Rn. 18 & 19 BMF):**\n☞ Nicht berichtigungsbedürftig ist ungenaue Bezeichnung Name und Anschrift oder unzutreffende Rechtsformbezeichnung.\n☞ LU / LE muss durch Gesamtheit der Angaben identifizierbar sein.\n☞ Berichtigungsbedürftig und auch berichtigungsfähig, wenn eindeutige Identifizierung des LU oder LE nicht möglich ist, aber Angaben sind nur ungenau in geringem Maße.\n☞ Die Angabe eines Unternehmers, der nicht der tatsächliche LE ist, ist eine offensichtlich unzutreffende Angabe, die nicht rückwirkend berichtigt werden kann." },
+      { typ: "titel", text: "Arbeitspapier A 22" },
+      { text: "☞ **Beispiele:**\n❖ ¹ **Unzutreffende Rechtsform im Namen mit Verwechslungsgefahr vgl. BFH Az. V R 54/14**\nPolnische Fa. („F Sp.zo.o“) unterhält in DE eine BSt. Eingangsrechnungen an „Fa. F“ oder „Fa. F GmbH“ mit Anschrift der BSt adressiert. Gefahr der Verwechslung mit Schwester-GmbH „Fa. F-B GmbH bzw. K GmbH“. Rechnungskorrektur später auf „F Sp.zo.o.“ als LE.\n**Folge:** Berichtigungsfähig, da in geringem Maße ungenau, unbestimmt" },
+      { text: "**Zu 3) Leistungsbeschreibung (Rn. 20 BMF):**\n☞ Berichtigungsfähig, wenn erbrachte Leistung und ein Bezug zum Unternehmen des LE erkennbar sind.\n☞ Berichtigungsfähig z.B. Angabe „Beratung“ oder „Bauarbeiten“ usw.; nicht hingegen „Produktverkauf“." },
+      { text: "☞ **Beispiele:**\n❖ ¹ **Leistungsbeschreibung vgl. BFH Az. V R 26/15.**\nKlägerin lagen Rechnungen vor:\na. Rechnungen eines RA mit Leistungsbeschreibung: „ich erlaube mir, das vereinbarte Beraterhonorar wie folgt abzurechnen“\nb. Rechnungen einer Unternehmensberatung mit Leistungsbeschreibung „für allgemeine wirtschaftliche Beratung im Ztr. von – bis pauschal“.\n**Folge:** Berichtigungsfähig, in geringem Maße ungenau" },
+      { text: "Das Schaubild ist nach Ansicht der Seite als Tabelle wiedergegeben; die Kennzeichen *1 bis *3 stehen so in der Quelle (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-45",
+    teil: TEIL,
+    kapitel: "45",
+    abschnittNr: "A 23 und A 24",
+    title: "Arbeitspapiere A 23 und A 24: Entgelt und offener Steuerausweis; Ausnahme vom Erfordernis einer ordnungsmäßigen Rechnung",
+    thema: "Nicht berichtigungsfähig bei fehlendem oder zu niedrigem USt-Ausweis (Biosafe), berichtigungsfähig bei irrtümlicher Annahme des § 13b UStG, Grenze nach BFH v. 07.07.2022 (V R 33/20), keine Rückwirkung bei § 14c UStG, kein rückwirkendes Ereignis nach § 175 AO; Vorsteuerabzug ohne ordnungsmäßige Rechnung bei objektivem Nachweis (Rn. 9 bis 13 BMF, EuGH Rs. Barlis)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 23 und A 24"),
+    verfasser: VERFASSER,
+    normen: ["§ 13b Abs. 2 und 5 UStG", "§ 14 Abs. 4 UStG", "§ 14a Abs. 5 UStG", "§ 14c Abs. 1 UStG", "§ 17 UStG", "§ 175 Abs. 1 Satz 1 Nr. 2 AO", "Art. 226 MwStSystRL", "BMF v. 18.09.2020, Rn. 9 bis 27"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Rechnungsberichtigung", "Steuerausweis"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 23 – Zu 4) Entgelt und offener Steuerausweis (Rn. 21 - 27 BMF)" },
+      { text: "☞ Nicht Berichtigungsfähig = **fehlender USt-Ausweis**. (z.B. bei Annahme einer GiG oder Steuerfreiheit)\n☞ Nicht Berichtigungsfähig = **zu niedriger USt-Ausweis** (Mehrbetrags im VAZ der Rechnung, die den Steuerbetrag in zutreffender Höhe ausweist (so in der Quelle; der Satz ist unvollständig, gemeint ist offenbar der Abzug des Mehrbetrags erst im VAZ der berichtigten Rechnung) -vgl. Rs C-8/17, Biosafe -. Vorst des ursprünglich zu niedrigen Steuerbetrags bleibt bestehen).\n☞ Berichtigungsfähig hingegen = (wohl aus Vereinfachung) wenn fälschlicherweise von **§ 13b Abs. 2 und 5 UStG** ausgegangen und deswegen in der Rechnung ein Hinweis nach § 14a Abs. 5 UStG erteilt worden ist." },
+      { text: "Grenze der Berichtigung durch BFH-Urteil v. 07.07.2022 - V R 33/20: Erteilt LU in der Annahme einer Leistungserbringung im Ausland eine Ausgangsrechnung ohne inländischen Steuerausweis, kann er diese nicht in der Weise berichtigen, dass dem späteren Ausweis inländischer USt Rückwirkung für den Vorsteuerabzug des LE zukommt." },
+      { text: "☞ Keine rückwirkende Berichtigung einer nach **§ 14c Abs. 1** UStG geschuldeten USt - Fall des § 17 UStG -.\n☞ Rechnungsberichtigung **kein rückwirkendes Ereignis** im Sinne des **§ 175 Abs. 1 Satz 1 Nr. 2 AO**. (vgl. auch Änderung des § 14 Abs. 4 durch das JStG 2020)" },
+      { typ: "titel", text: "Arbeitspapier A 24 – Noch 4.3 Ausnahme von dem Erfordernis des Besitzes einer ordnungsmäßigen Rechnung (Rn. 9 – 13 – BMF)" },
+      { text: "**(objektiver Nachweis einzelner materieller Voraussetzungen für den Vorsteuerabzug)**\n☞ Das Recht auf Vorsteuerabzug ist **im Regelfall** durch eine ordnungsmäßige **Rechnung** nachzuweisen.\n☞ **Vorsteuerabzug gänzlich ohne Rechnung ist nicht möglich.**\n☞ Das Recht auf Vorsteuerabzug kann jedoch **ausnahmsweise** auch geltend gemacht werden,\n❖ **wenn der Unternehmer eine Rechnung besitzt,**\n❖ **die nicht alle formellen Voraussetzungen erfüllt**\n❖ **und die auch nicht berichtigt wurde (Rn 14 bis 27-BMF)**\n☞ Vorsteuerabzug **auch zu gewähren**, wenn FA über sämtliche Angaben verfügt, um die materiellen Voraussetzungen zu überprüfen." },
+      { text: "**EuGH v. 15.09.2016 – C-516/14, Rs. Barlis 06 SA**\n**Das FA ist gehindert, das Recht auf Vorsteuerabzug allein deshalb zu verweigern, weil die Rechnung, die der Steuerpflichtige besitzt, nicht die Voraussetzungen von Art. 226 Nrn. 6 (so in der Quelle; das Urteil betrifft Art. 226 Nrn. 6 und 7 MwStSystRL) erfüllt, obwohl das FA über alle notwendigen Informationen verfügt, um zu prüfen, ob die materiellen Voraussetzungen für die Ausübung dieses Rechts vorliegen.**\nBarlis war im Besitz einer Rechnung einer Anwaltskanzlei, die folgende Beschreibungen enthielt: „Honorare für bis zum heutigen Tag erbrachte juristische Dienstleistungen“;\nNach FA = kein Recht zum Vorsteuerabzug wegen unzureichender Leistungsbeschreibung. Barlis legte Anlagen und Ergänzungen vor, die eine detailliertere Beschreibung der fraglichen juristischen Dienstleistungen enthielten." },
     ],
   },
 ];
