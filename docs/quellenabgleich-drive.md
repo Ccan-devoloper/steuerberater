@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: II.9 und II.10
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-9` (II.9 § 4 Nr. 28 UStG mit
+Schaubild und Beispielen Arzt, Abrissleistung, Versicherungsvertreter-Pkw und Segeljacht) und
+`ust-m-b08-2-10` (II.10 § 4 Nr. 29 UStG selbständige Personenzusammenschlüsse nach BMF vom
+19.07.2022) für die PDF-Seiten 16 bis 21. **Abschnitt II ist damit vollständig.** Stand des
+USt-Skripts: 9 Teile, 230 Kapitel, 3795 Blöcke, 202 Tabellen.
+
+**Quellbefund (markiert):** Die Zwischenüberschrift nennt „§ 4 Nr. 8-28 UStG“; die Vorschrift
+(und der Text der Quelle unmittelbar davor) nennt § 4 Nr. 8 bis 27 und 29 UStG.
+
+**Darstellung:** Schaubild „Bezug von Gegenständen mit offen ausgewiesener USt“ als Tabelle;
+der gemeinsame Kasten der beiden rechten Spalten ist in beiden Spalten wiederholt (vermerkt).
+
+**Stillschweigend berichtigt:** „Gegenstände“ in der Überschrift (Gegenständen),
+„Abschn. 4.28.1.“, „Parxisgegenstände“, „Ggf“, „bei gleichzeitiger Vorlage“ (gleichzeitigem
+Vorliegen), „§ 3 Abs.1b“, „§3 Abs. 9“, „enthält er ein Entgelt“ (erhält), „genutzt hat“
+(genutzt haben), „steuerfreifrei“, „100%“, „5%“, „für diesen Gegenstände“ (diesen
+Gegenstand), fehlender Punkt nach „nicht abgezogen werden konnte“, „Post- Universal-
+dienstleistungen“.
+
+**Weiter mit:** Block 8 Teil II ab III.1 § 4 Nr. 8a UStG (PDF-Seite 22).
+
 ### USt-Skript (Moecker), Block 8 Teil II: II.7 und II.8
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-7` (II.7 § 4 Nr. 21 UStG

@@ -2421,7 +2421,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (57 Kapitel), Block 8 Teil II (Steuerfreie Umsätze ohne Vorsteuerabzug und Option nach § 9
   UStG) begonnen mit Versicherungsleistungen samt Kfz-Garantiezusage, Postdienstleistungen,
   Heilberufen, Pflegeleistungen, kulturellen Leistungen, Schulen und Lehrern sowie Vorträgen
-  und Kursen (8 Kapitel).
+  und Kursen, § 4 Nr. 28 und § 4 Nr. 29 UStG (10 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
