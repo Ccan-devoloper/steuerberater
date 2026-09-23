@@ -10623,6 +10623,31 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.8 und I.9 – Textteil vollständig
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-35` (I.8 Lieferungen vor der
+Einfuhr mit I.8.1 bis I.8.5, Beispiele Zolllager Düsseldorf und Duisburg) und `ust-m-b08-1-36`
+(I.9 NATO, diplomatische Missionen, § 4 Nr. 7 UStG) für die PDF-Seiten 57 bis 61. **Der
+Textteil von Block 8 Teil I ist damit vollständig** (36 Kapitel). Stand des USt-Skripts:
+8 Teile, 199 Kapitel, 3448 Blöcke, 171 Tabellen.
+
+**Quellbefunde (markiert):** Das BMF-Schreiben zur Überarbeitung des Abschn. 4.4b.1 UStAE ist
+auf den „09.04.2006“ datiert, obwohl es den UStAE erst seit dem 1.11.2010 gibt. I.8.1 zitiert
+den Nachweis nach „§ 4b Nr. 4 Satz 3 UStG“ (gemeint § 4 Nr. 4b Satz 3 UStG). I.8.4 nennt für
+die Ausfuhrlieferung „§ 4 Nr. 1 Bu. b“ (gemeint Buchst. a). Beim Zolllagerverfahren steht der
+Satz „Im Anschluss an das Zolllagerverfahren können die Waren wiederausgeführt werden …“
+zweimal; beide Fassungen sind übernommen und vermerkt.
+
+**Stillschweigend berichtigt:** fehlender Punkt nach „(hier letzte) Abnehmer“, „die sich …
+befinden“ (befindet), „§ 4 Nr.1 a“, „§ 4 Nr.1 b“, gerade/englische Anführungszeichen bei
+„Verzollung“ und „Versandverfahrens“, Komma vor „wird sichergestellt“, „§ 4 Nummer. 7“,
+„Offshore - Steuerabkommens“, „NATO – Truppenstatut“, „NATO - Hauptquartiere“, „Hinweis.“,
+„EG - einheitlichen“, „sonstige Leistungen befreit, an die … ausgeführt werden“ (sonstigen
+Leistungen, die an die …), „Die Lieferungen … wäre“ (wären), „ansässigen diplomatischen
+Missionen“ (ansässige), Leerzeichen in Klammern.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab PDF-Seite 62.
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.5.5 bis I.7
 
 Kein Drive-Versuch mehr (auf Wunsch des Nutzers zurückgestellt). In

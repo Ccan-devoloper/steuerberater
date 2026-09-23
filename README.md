@@ -2416,7 +2416,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Tatbestand der innergemeinschaftlichen Lieferung mit Warenbewegung, Abnehmer und
   Erwerbsbesteuerung, USt-IdNr., Buch- und Belegnachweis, Vertrauensschutz und sonstigen
   Vorschriften, innergemeinschaftlichen Reihengeschäften und dem Dreiecksgeschäft nach
-  § 25b UStG, grenzüberschreitenden Güterbeförderungen und Umsatzsteuerlager (34 Kapitel).
+  § 25b UStG, grenzüberschreitenden Güterbeförderungen, Umsatzsteuerlager, Lieferungen vor der
+  Einfuhr und § 4 Nr. 7 UStG (vollständiger Textteil, 36 Kapitel; Arbeitspapiere folgen).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
