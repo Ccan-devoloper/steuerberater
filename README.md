@@ -2450,7 +2450,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   vollständig) sowie Arbeitspapieren A 1 bis A 36 (72 Kapitel, vollständig), Block 11
   (Vorsteuerabzug) begonnen mit Inhaltsverzeichnis, Aufbau des § 15 UStG, der persönlichen
   Voraussetzung „Unternehmer“, dem Bezug für das Unternehmen und der Zuordnung gemischt
-  genutzter Leistungsbezüge und der Gesamttätigkeit (10 Kapitel); Blöcke 12 und 13 folgen.
+  genutzter Leistungsbezüge, der Gesamttätigkeit, den Immobilien und dem Vorsteuerabzug aus
+  Rechnungen (13 Kapitel); Blöcke 12 und 13 folgen.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

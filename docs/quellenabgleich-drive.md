@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: I.4 bis II.2.1
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-11` (I.4 Immobilien mit den
+Fallvarianten a bis e als Tabelle, Dokumentation der Zuordnung), `ust-m-b11-12` (II/II.1 Skizze
+als Tabelle, Hinweis EuGH C-9/20 und Rechtslage ab 2028) und `ust-m-b11-13` (II.2.1 gesetzlich
+geschuldete USt) für die PDF-Seiten 20 bis 24. Keine Bilder auf diesen Seiten. Stand des
+USt-Skripts: 12 Teile, 418 Kapitel, 5816 Blöcke, 307 Tabellen.
+
+**Quellenfehler (im Text markiert):** II.2.1 Differenzbesteuerung „(§ 25a Abs. 6 S 1 UStG“ für den
+fehlenden Steuerausweis; richtig § 14a Abs. 6 UStG (wie schon in Block 10, A 13).
+
+**Nachgerechnet (eigene Ergänzung):** Fallvarianten a bis e (190 / 570 / 9.500 / 19.000 / 15.200 €) –
+stimmt.
+
+**Stillschweigend berichtigt:** „190 USt“, „Die Aufwendungen für die Trennwand und bilden“, „§ 15
+abs. 1“, „Prognoseentscheidung, (vgl. …)“, „vorn 10. Februar 2022“, „( ab 2028 )“, „Soll - / Ist
+-Versteuerer“, „monatliche amtlichen“, „Ein Vorsteuerabzug nicht zulässig“, fehlende Klammer vor
+„Abschn. 15.2a Abs. 6 Satz 12“.
+
+**Weiter mit:** II.2.2 Gesonderter Steuerausweis in einer ordnungsgemäßen Rechnung (PDF-Seite 24).
+
 ### USt-Skript (Moecker), Block 11: I.3.3.3 (Fortsetzung) und I.3.4
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-9` (Fall III, Mindestnutzung mit
