@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: I.3.3.3 (Fortsetzung) und I.3.4
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-9` (Fall III, Mindestnutzung mit
+Arbeitszimmer-Beispiel, Zuordnungsschlüssel, sonstige Leistungen mit Steuerberater- und
+KG-Beispiel) und `ust-m-b11-10` (I.3.4 Gesamttätigkeit mit Beratungs-, Holding- und
+Betriebsausflug-Beispiel) für die PDF-Seiten 14 bis 20. Keine Bilder auf diesen Seiten. Stand des
+USt-Skripts: 12 Teile, 415 Kapitel, 5782 Blöcke, 305 Tabellen.
+
+**Vermerkt:** Beispiel 3 zu I.3.4 spricht bei a) vom „lohnsteuerlichen Freibetrag“, bei b) von der
+„Freigrenze“; umsatzsteuerlich Freigrenze (so die Quelle in I.3.2).
+
+**Nachgerechnet (eigene Ergänzung):** Arbeitszimmer 50 % × 12 % = 6 % – stimmt; Holding 950 € –
+stimmt.
+
+**Stillschweigend berichtigt:** „beinhaltet … einen speziellen Vorsteuerausschlusstatbestand dar“
+(stellt … dar), „ausgeschlossen ist“ (doppeltes „ist“), „Teilweiser Zuordnung“, „"für das
+Unternehmen"“, fehlende Klammern, „10°%“, „40% - igen“, „LLagerhalle)oder“, „zuzuordnen. weder“,
+„welcher der Unternehmer“, „Hälftige“, „die lohnsteuerlichen Freibetrag“, fehlende Kommas.
+
+**Weiter mit:** I.4 Besonderheiten bei Immobilien (PDF-Seite 20).
+
 ### USt-Skript (Moecker), Block 11: I.3.3.1 bis I.3.3.3 (Fall II)
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-6` (I.3.3.1 nichtwirtschaftliche
