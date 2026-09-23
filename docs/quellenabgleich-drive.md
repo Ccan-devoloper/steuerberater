@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: III.6.7 bis III.7
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-28` (III.6.7 Sportanlagen),
+`ust-m-b08-2-29` (III.6.8 Auflösung des Mietverhältnisses) und `ust-m-b08-2-30` (III.7 § 4
+Nr. 13 UStG, Wohnungseigentümergemeinschaften) für die PDF-Seiten 47 bis 50. Damit ist
+Abschnitt III vollständig. Stand des USt-Skripts: 9 Teile, 250 Kapitel, 4051 Blöcke, 206 Tabellen.
+
+**Darstellung:** Die Beispiele in III.6.7 haben in der Quelle keine Überschrift „Lösung“; die
+Lösungssätze stehen als eigener Absatz ohne ergänzte Überschrift.
+
+**Stillschweigend berichtigt:** „(BStBl 2001 II S. 658) - hat“, „a).“, fehlende Punkte nach
+„nutzen zu können“, „zur Nutzung überlässt“, „steuerpflichtige Leistung“ und „Endverbraucher“,
+gerade Anführungszeichen, „=>“ (➔), „in, BStBl“, überzähliges Komma „Grundstücks, unter“,
+„EuGH - Entscheidung“, „entscheiden“ (entschieden), „Mieters  an den Vermieter“, „schließen den
+Vorsteuerbeträge aus“ (Vorsteuerabzug), „die die Möglichkeit“, „gemeinschaftsrechtlichen
+Eigentum“ (gemeinschaftlichen), Leerzeichen in Klammern.
+
+**Weiter mit:** IV. Verzicht auf die Steuerbefreiung gemäß § 9 UStG, IV.1 Option gem. § 9
+Abs. 1 UStG (PDF-Seite 51).
+
 ### USt-Skript (Moecker), Block 8 Teil II: III.6.4 bis III.6.6
 
 In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-25` (III.6.4 Umfang und

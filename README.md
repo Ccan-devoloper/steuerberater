@@ -2426,7 +2426,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   und technischen Leistungen, bebauten Grundstücken, Gebäuden auf fremdem Grund und Boden
   und Nießbrauch, § 4 Nr. 12a UStG mit Grundstücksbegriff, Gebrauchsüberlassung und
   Windkraftanlagen, Nebenleistungen, Vertragsarten und Ausschlüssen nach § 4 Nr. 12 Satz 2
-  UStG (27 Kapitel).
+  UStG, Sportanlagen, Auflösung von Mietverhältnissen und Wohnungseigentümergemeinschaften
+  (30 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
