@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 9: VI.1 bis VI.3 (elektronische Marktplätze)
+
+In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-17` (VI.1 fiktive
+Reihengeschäfte nach § 3 Abs. 3a UStG mit Beispielen Emil, Tran und Hans), `ust-m-b09-18`
+(VI.2 Zuordnung der Warenbewegung nach § 3 Abs. 6b UStG, Beispiel P/Max/E-Kauf/Tran) und
+`ust-m-b09-19` (VI.3 Steuerbefreiung nach § 4 Nr. 4c UStG mit Skizze) für die PDF-Seiten 19
+bis 23. Stand des USt-Skripts: 10 Teile, 296 Kapitel, 4514 Blöcke, 242 Tabellen.
+
+**Quellenfehler (im Text markiert):** Skizze VI.3: Ort der unbewegten Lieferung
+„§ 3 Abs. 6b u. Abs. 7 S. 1 UStG“; im Text § 3 Abs. 7 Satz 2 Nr. 1 UStG.
+
+**Darstellung:** Randziffern „1“ / „2“ vor den Gesetzeswortlauten als „Gesetzestext mit
+Anmerkungen (Satz 1 / Satz 2)“; Skizze VI.3 als Tabelle (Spaltenköpfe, Zeilenbezeichnungen
+eigene Ergänzung).
+
+**Stillschweigend berichtigt:** „§ 22f Abs. 1 S. \n2“ (Zeilenumbruch), Leerzeichen in
+Klammern, „scheidet die Anwendung der Lieferfiktion und auch gelten dann“ (… aus und es
+gelten dann), Komma „Schwellenerwerber, die weder“, fehlende Punkte nach „(§ 3 Abs. 3a Satz 3
+UStG)“, „(vgl. Abschnitt 18k.1)“ und „befreit“, „Satz 2ff“, „Der in D’dorf ansässiger“,
+„10 000 €“, „bzw. optiert § 3c Abs. 4 Satz 2 UStG)“, „D‘dorf“, „lex spezialis“, fehlendes
+„ist“ (Abs. 6b … vorrangig), „Der Ort der unbewegte Lieferung“, „ONLINE – HÄNDLER“.
+
+**Weiter mit:** VII. Liefer- und Erwerbsfiktion, VII.1 Allgemeines (PDF-Seite 24).
+
 ### USt-Skript (Moecker), Block 9: V.1 bis V.3 (One-Stop-Shops)
 
 In `src/data/k1-ust-moecker/block09.js` neue Kapitel `ust-m-b09-14` (V.1 Überblick),

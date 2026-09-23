@@ -2435,7 +2435,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   innergemeinschaftlichen Fernverkauf nach § 3c Abs. 1 UStG mit Abnehmerkreis,
   Geringfügigkeitsschwelle, Option, Ausschlüssen, Rechnungslegung und Vorsteuer sowie dem
   Fernverkauf aus dem Drittland nach § 3c Abs. 2 und 3 UStG und den One-Stop-Shops nach
-  §§ 18i bis 18k UStG (16 Kapitel).
+  §§ 18i bis 18k UStG sowie elektronischen Marktplätzen mit fiktiven Reihengeschäften nach
+  § 3 Abs. 3a und 6b UStG und der Befreiung nach § 4 Nr. 4c UStG (19 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
