@@ -2404,7 +2404,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   im Ganzen, Gutscheine) und Arbeitspapieren Seite 1 bis 35 vollständig in 33 Kapiteln,
   Block 7 (Innergemeinschaftlicher Erwerb) begonnen mit Systematik, Grundtatbestand, Begriff
   des Erwerbs, Warenbewegung, Lieferer, Erwerber, Erwerbsort (Pflicht- und Straferwerb) und
-  juristischen Personen (Abschnitte I bis III.1, 8 Kapitel).
+  erweitertem Erwerberkreis mit Erwerbsschwelle, Schwellenerwerbern, Option und
+  Ausschlussgegenständen (Abschnitte I bis III.5, 12 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

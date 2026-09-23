@@ -10623,6 +10623,37 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 7: Abschnitte III.2 bis III.5
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
+`ust-m-b07-9` (III.2 Erwerbsschwelle, Beispiel Stadtverwaltung Köln), `ust-m-b07-10` (III.3
+andere unternehmerische Schwellenerwerber, Beispiel Kleinunternehmer aus Münster),
+`ust-m-b07-11` (III.4 Option, Beispiel Gemeinde mit dänischem Lieferanten, Form, Frist und
+Bindung des Verzichts) und `ust-m-b07-12` (III.5 Ausschlussgegenstände, Beispiel Heizöl,
+Problembereich Treibstoffe) für die PDF-Seiten 106 bis 110. Stand des USt-Skripts: 7 Teile, 152 Kapitel, 2909 Blöcke, 149 Tabellen.
+
+**Nachgerechnet (eigene Ergänzung):** Gemeinde/Dänemark 12.000 € × 25 % = 3.000 € MOMS,
+12.000 € × 19 % = 2.280 € Erwerbsteuer, Ersparnis 720 € – stimmt.
+
+**Quellbefunde (markiert):** III.3 verweist für den Vorsteuerabzug auf „Punkt VII“ (laut
+Inhaltsverzeichnis VI). Die Lösung im Münster-Beispiel stützt die Erwerbsschwelle des
+Kleinunternehmers auf „§ 1a Abs. 3 Nr. 1a) UStG“; Kleinunternehmer nennt § 1a Abs. 3 Nr. 1
+Buchst. b UStG (die Quelle führt sie auch in der Aufzählung zu Buchst. a; dort als eigene
+Ergänzung angemerkt). III.5 nennt „§ 1 Abs. 5 UStG“ statt § 1a Abs. 5 UStG.
+
+**Darstellung:** Die beiden Kästen in III.3 sind als ① und ② nummeriert, das Schaubild der
+Schwellenerwerber in III.4 ist als Text wiedergegeben (beides eigene Ergänzung zur
+Darstellung). In der Textextraktion des Schaubilds erscheint „Exoten“ doppelt; übernommen
+einmal.
+
+**Stillschweigend berichtigt:** „Einkaufs - Bagatellgrenze“, „§ 1 a“, „( § 1a Abs. 3 Nr. 1a
+UStG )“, „F o l g e“ (gesperrt), „EU - Mitgliedstaaten“, „EU - Staat“, „Anforderung USt-IdNr.
+Abgabe einer USt - VA“ (Komma, USt-VA), „verbrauchsteuerpflichtige Waren“ (Genitiv:
+verbrauchsteuerpflichtiger), „Punkt III. 2“, „Hin-weis“, „Fall a).“ und „Fall b).“.
+
+**Weiter mit:** Block 7 ab III.6 Erwerb in den in § 1 Abs. 3 UStG bezeichneten Gebieten
+(PDF-Seite 110 unten).
+
 ### USt-Skript (Moecker), Block 7: Abschnitte II.4 bis III.1
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
