@@ -10623,6 +10623,35 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil II: Arbeitspapiere A 1 bis A 8
+
+In `src/data/k1-ust-moecker/block08-2.js` neue Kapitel `ust-m-b08-2-40` (A 1 und A 2
+Garantiezusage Kfz-Händler), `ust-m-b08-2-41` (A 3 Heilberufe) und `ust-m-b08-2-42` (A 4 bis
+A 8 Bildungsleistungen und Privatlehrer) für die PDF-Seiten 64 bis 71. Stand des
+USt-Skripts: 9 Teile, 262 Kapitel, 4206 Blöcke, 213 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- A 5: „BMF v. 08.08.2025, BStBl 2025 II S. 1637“; BMF-Schreiben erscheinen im BStBl Teil I.
+- A 8: „(☺ Keine Bescheinigung, somit zwingend )“ unvollständig; wörtlich übernommen.
+
+**Nicht lesbar (vermerkt):** Verweiszeichen in A 2 („gelten die Ausführungen unter …
+entsprechend“), Nummernzeichen in A 4 („nach Nr. … bis …“), Gliederungszeichen in A 5 und A 6.
+
+**Offen gelassen:** BFH-Urteil v. 14.11.2018 (A 1) ohne Aktenzeichen so übernommen.
+
+**Darstellung:** Schaubilder A 1 bis A 4 als Tabellen (Tabellenform, Zeile „Fallgestaltung“
+eigene Ergänzung); getrennte Spaltenüberschriften zusammengeführt.
+
+**Stillschweigend berichtigt:** „ging BFH und BMF“ (gingen), „steuerfrei Leistung“,
+„Nr.10“, fehlende schließende Klammer „(§ 15 Abs. 2 Nr. 1 UStG.“, Komma „Dies gilt nicht,
+bei“, fehlender Punkt nach „aufgehoben“, „§3 (9a) Nr.1“, „4.14.4.“, „steuerfrei. nach Nr. 28“,
+„öffentl“, „Heilpraktiker- Podologenschulen“ (Komma), „Nr.1 AO“, „Biuldungseinrichtungen“,
+„Live -Stream“, „DE D1“, fehlende Klammer nach „Abs. 11 UStAE“, „zugelassener Kursträger“,
+„die thematischen Zielsetzung“, fehlende Klammern in A 7, „erteilt wird“ (werden),
+„Voraussetzungen )“, fehlende Klammer nach „Satz 3 UStAE“, „-neu“.
+
+**Weiter mit:** Arbeitspapier A 9 (PDF-Seite 72).
+
 ### USt-Skript (Moecker), Block 8 Teil II: IV.2.3 (Textteil vollständig)
 
 In `src/data/k1-ust-moecker/block08-2.js` neues Kapitel `ust-m-b08-2-39` (IV.2.3 zeitliche
