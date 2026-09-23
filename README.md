@@ -2443,7 +2443,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) begonnen mit
   Inhaltsverzeichnis, Entgeltbegriff, Vertragsstrafen, durchlaufenden Posten, Zuschüssen und
   der BMG beim innergemeinschaftlichen Erwerb, Tausch, Mindestbemessungsgrundlage und
-  Reiseleistungen nach § 25 UStG (18 Kapitel).
+  Reiseleistungen nach § 25 UStG sowie der Differenzbesteuerung nach § 25a UStG bis zur
+  Rechnungslegung (25 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

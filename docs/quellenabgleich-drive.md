@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: V. bis V.5 (Differenzbesteuerung)
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-19` bis `ust-m-b10-25` für die
+PDF-Seiten 100 bis 107: V./V.1/V.1.1 Wiederverkäufer, V.1.2 Gegenstand der Lieferung (mit BFH XI R
+15/21), V.1.3 Upcycling (BFH XI R 9/23), V.1.4 Ausschlussgegenstände mit Beispiel Jahreswagen, V.2
+Bemessungsgrundlage und V.3 Gesamtdifferenz, V.4 Steuersatz / Steuerbefreiungen, V.5 Rechnungslegung
+/ Vorsteuerabzug. Keine Bilder auf diesen Seiten. Stand des USt-Skripts: 11 Teile, 358 Kapitel, 5071 Blöcke, 273 Tabellen.
+
+**Quellenfehler (im Text markiert):**
+- „vgl. Abschn. 25a Abs. 4b UStAE“ (stillgelegte Fahrzeuge); gemeint Abschn. 25a.1 Abs. 4b UStAE.
+- V.4 Beachte (neue Fahrzeuge): „Grundsätze des § 4 Nr. 1a i.V.m. § 6a UStG“; gemeint § 4 Nr. 1b.
+
+**Nachgerechnet (eigene Ergänzung):** Jahreswagen 3.000 € : 1,19 = 2.521,01 €, USt 478,99 € ≈
+479 € – stimmt.
+
+**Stillschweigend berichtigt:** „Umsatzsteuer nicht geschuldet.“ (ergänzt „wird“), „für den die
+Lieferungen steuerfrei ist“, „der Fall“ ohne Punkt, „„normalen Tätigkeitsfeld”“, „A 25a.1“, „verwiesen
+die Sache“ (verwies), „Liefergegen-stand“, „da-her“, „EU:C:2012 :492“, „einen typische Praxisfall“,
+„21.12. 1999“, „7108, 7110“, „Vierten Gesetzes“, „vo-raussetzende“ (vorausgesetzte), „erhöht werden“
+(worden), „oder Lieferer selbst mit die Differenzbesteuerung“, „fallende Gegenstände“, „für
+innergemeinschaftlichen Lieferung“, „Ursprungland“, „BFH-Urteil v. v.“, gerade Anführungszeichen.
+
+**Weiter mit:** V.6 Optionsrecht § 25a Abs. 8 UStG (PDF-Seite 107 unten, Beispiel auf Seite 108).
+
 ### USt-Skript (Moecker), Block 10: IV. Reiseleistungen
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-14` bis `ust-m-b10-18` für
