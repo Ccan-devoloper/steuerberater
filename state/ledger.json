@@ -4131,22 +4131,22 @@
       "medienId": "18121949809925225",
       "veroeffentlicht": "2026-09-22T11:44:31.759Z",
       "insights": {
-        "reach": 29,
-        "views": 37,
+        "reach": 30,
+        "views": 40,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 32,
+        "navigation": 34,
         "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 24,
-        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 25,
+        "navigation_tap_exit": 4,
         "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-23T08:43:30.983Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-09-23T10:43:37.051Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-22",
@@ -4390,7 +4390,19 @@
         "#bilanzsteuerrecht"
       ],
       "veroeffentlicht": "2026-09-23T09:45:29.448Z",
-      "karteUrl": null
+      "karteUrl": null,
+      "insights": {
+        "reach": 9,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-09-23T10:43:38.173Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-23",
