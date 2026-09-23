@@ -3,7 +3,7 @@
    Vers. I 2026, Red. 04-26, Stand April 2026; Titelblatt der gemeinsamen Datei Mai 2026),
    PDF-Seiten 97 bis 130 der gemeinsamen Datei für die Blöcke 6 und 7: Textteil PDF-Seiten
    97 bis 118, Arbeitspapiere A 1 bis A 12 PDF-Seiten 119 bis 130.
-   In Arbeit: eingepflegt bis III.5 (Ausschlussgegenstände), PDF-Seiten 97 bis 110. */
+   In Arbeit: eingepflegt bis V (Bemessungsgrundlage und Steuerentstehung), PDF-Seiten 97 bis 113. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 04/2026";
@@ -326,6 +326,74 @@ export const block07 = [
       { text: "**Beispiel:** Ein im Inland ansässiger **Kleinunternehmer**, der im Rahmen seines Unternehmens von einem in den Niederlanden ansässigen Unternehmer **Heizöl zum Preis von 2.000 €** erwirbt, unterliegt mit dem Erwerb (verbrauchsteuerpflichtige Ware) **im Inland der Erwerbsbesteuerung** nach § 1a Abs. 1 UStG, auch wenn er nur diesen Erwerb tätigt." },
       { typ: "titel", text: "➔ Problembereiche" },
       { text: "**• Erwerb von Treibstoffen:** Auch die Lieferung/Erwerb von verbrauchsteuerpflichtigen Waren setzt begrifflich eine **Warenbewegung von einem EU-Staat in einen anderen EU-Staat** voraus. Bei **Treibstofflieferungen an Tankstellen** handelt es sich m.E. **nicht um innergem. Lieferungen/Erwerbe**, da die gelieferte Ware zum Verbrauch bestimmt ist und der Verbrauch sofort nach dem Betanken in dem anderen EU-Staat beginnt. Der Liefergegenstand gelangt damit nicht unverändert in einen anderen EU-Staat. Damit entfällt generell für alle Erwerber eine Erwerbsbesteuerung. Die Lieferungen bleiben **mit der Steuer des Ursprungslandes belastet**. Für vorsteuerabzugsberechtigte Unternehmer verbleibt nur das **Vorsteuervergütungsverfahren** im Ursprungsland." },
+    ],
+  },
+  {
+    id: "ust-m-b07-13",
+    teil: TEIL,
+    kapitel: "13",
+    abschnittNr: "III.6",
+    title: "III.6 Erwerb in den in § 1 Abs. 3 UStG bezeichneten Gebieten",
+    thema: "Freihäfen und Gewässer/Watten als Nicht-Inland nach nationalem Recht, Erweiterung des Erwerbstatbestands durch § 1a Abs. 1 Nr. 1 2. Halbsatz UStG, Fiktion eines steuerbaren Erwerbs in den Fällen des § 1 Abs. 3 Nr. 1 und 7 UStG und Beispiel Schreibmaschinen für die Zollverwaltung im Freihafen Bremerhaven",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("III.6"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1 Nr. 5 UStG", "§ 1 Abs. 2 UStG", "§ 1 Abs. 3 Nr. 1 und 7 UStG", "§ 1 Abs. 3 Nr. 1 Buchst. a UStG", "§ 1a Abs. 1 Nr. 1 UStG", "§ 3d Satz 1 UStG"],
+    themen: ["innergemeinschaftlicher Erwerb", "Freihafen", "Drittlandsgebiet", "Erwerbsfiktion"],
+    bloecke: [
+      { typ: "titel", text: "III.6 Erwerb in den in § 1 Abs. 3 UStG bezeichneten Gebieten (➔ Arbeitspapier 12)" },
+      { text: "Die Vorschrift des **§ 1a Abs. 1 Nr. 1 2. Halbsatz UStG** ist im Zusammenhang mit der Vorschrift des **§ 1 Abs. 3 UStG (hier Nr. 1 und 7)** zu sehen. Die Gebiete im Sinne des § 1 Abs. 3 UStG – d. h. die **Freihäfen** (als Freizonen des Kontrolltyps I) sowie die **Gewässer und Watten** zwischen der Hoheitsgrenze und der Strandlinie – gehören nach § 1 Abs. 2 UStG **nicht zum Inland**. Aus nationaler Sicht handelt es sich also um **Drittlandsgebiet**, das einen innergemeinschaftlichen Erwerb mangels Warenbewegung im Binnenmarkt ausschließt." },
+      { text: "Lieferungen aus dem Gebiet eines anderen Mitgliedstaates in ein Gebiet i. S. d. § 1 Abs. 3 UStG sind jedoch **nach dem Rechtsverständnis der anderen Mitgliedstaaten innergemeinschaftliche Lieferungen**. Die nationalen Freihäfen sind deutsches Territorium (und damit EU-Gebiet). Durch § 1a Abs. 1 Nr. 1 2. Halbsatz UStG erfolgt insoweit eine **„Erweiterung“ des Anwendungsbereichs** auch auf diese Fälle." },
+      { text: "Um einen **unbelasteten nationalen Letztverbrauch** (der Ort gem. § 3d Satz 1 UStG liegt aus nationaler Sicht im Drittland) zu vermeiden, wird in den Fällen des **§ 1 Abs. 3 Nr. 1 und 7 UStG** ein steuerbarer innergemeinschaftlicher Erwerb **fingiert**." },
+      { text: "**Beispiel:** Der **französische Lieferer** befördert **10 Schreibmaschinen** an den Abnehmer, die **Zollverwaltung im Freihafen Bremerhaven** (Erwerber) von Frankreich in den Freihafen. Die Zollverwaltung hat für den innergem. Erwerb eine **Optionserklärung** abgegeben und ihre USt-IdNr. gegenüber dem Lieferer verwendet." },
+      { text: "**Lösung:** Die Beförderung oder Versendung des Gegenstands beginnt in dem übrigen Gemeinschaftsgebiet, nämlich in Frankreich und endet in einem der in § 1 Abs. 3 UStG bezeichneten Zollfreigebiete, dem Freihafen Bremerhaven. § 1a Abs. 1 Nr. 1 2. Altern. UStG ist gegeben, der **Tatbestand des innergem. Erwerbs ist erfüllt**. Der **Ort** des innergem. Erwerbs ist gem. § 3d Satz 1 UStG **im Freihafen und somit im Drittland**. Der Vorgang wäre damit grundsätzlich gem. § 1 Abs. 1 Nr. 5 UStG nicht steuerbar. Gem. **§ 1 Abs. 3 Nr. 1a UStG** wird nun ein **steuerbarer innergem. Erwerb fingiert**." },
+    ],
+  },
+  {
+    id: "ust-m-b07-14",
+    teil: TEIL,
+    kapitel: "14",
+    abschnittNr: "IV",
+    title: "IV. Steuerbefreiungen",
+    thema: "§ 4b UStG als Spezialvorschrift für steuerfreie innergemeinschaftliche Erwerbe: bestimmte Gegenstände, Gegenstände unter den Voraussetzungen der steuerfreien Lieferung, Gegenstände mit steuerfreier Einfuhr und Gegenstände für vorsteuerunschädliche Umsätze, sowie freiwillige Erwerbsbesteuerung in den Fällen des § 4b Nr. 4 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("IV"),
+    verfasser: VERFASSER,
+    normen: ["§ 4b Nr. 1 bis 4 UStG", "§ 4 Nr. 1 Buchst. a und b UStG", "§ 4 Nr. 8 Buchst. b und i UStG", "§ 4 Nr. 17 Buchst. a UStG", "§ 5 UStG", "§§ 6, 6a UStG", "§ 15 Abs. 3 UStG", "Einfuhrumsatzsteuer-Befreiungsverordnung", "Abschn. 4b.1 Abs. 3 UStAE"],
+    themen: ["innergemeinschaftlicher Erwerb", "Steuerbefreiung", "§ 4b UStG", "Ausfuhrlieferung", "innergemeinschaftliche Lieferung"],
+    bloecke: [
+      { typ: "titel", text: "IV. Steuerbefreiungen" },
+      { text: "Für die Steuerbefreiung steuerbarer innergemeinschaftlicher Erwerbe ist **§ 4b UStG als Spezialvorschrift** einschlägig. Die allgemeine Vorschrift des § 4 UStG findet nur für Lieferungen und sonstige Leistungen Anwendung. In den Regelungsbereich des § 4b UStG fällt insbesondere der innergemeinschaftliche Erwerb von Gegenständen, die im Anschluss für **steuerfreie Ausfuhrlieferungen oder steuerfreie innergemeinschaftliche Lieferungen** verwendet werden. Im Übrigen wird ein steuerbarer Erwerb **regelmäßig steuerpflichtig** sein." },
+      { text: "Im Einzelnen gilt: Steuerbefreiung des innergemeinschaftlichen Erwerbs…" },
+      { text: "**1. …bestimmter Gegenstände (§ 4b Nr. 1 UStG)** • z. B. menschliche Organe (§ 4 Nr. 17 Buchst. a UStG)" },
+      { text: "**2. …bestimmter Gegenstände unter den Voraussetzungen, die bei der Lieferung dieser Gegenstände zur Steuerfreiheit führen (§ 4b Nr. 2 UStG)** • Gesetzliche Zahlungsmittel, wenn sie nicht nur wegen ihres Metallgehalts oder ihres Sammlerwerts erworben werden (§ 4 Nr. 8 Buchst. b UStG); • Im Inland gültige amtliche Wertzeichen zum aufgedruckten Wert (§ 4 Nr. 8 Buchst. i UStG)." },
+      { text: "**3. …von Gegenständen, deren Einfuhr steuerfrei wäre (§ 4b Nr. 3 UStG)** Maßgebend für die Steuerbefreiung der Einfuhr ist § 5 UStG und die dazu ergangene Einfuhrumsatzsteuer-Befreiungsverordnung. Auf diese Rechtsgrundlagen wird verwiesen." },
+      { text: "**4. …von Gegenständen, die zur Ausführung von in § 15 Abs. 3 UStG bezeichneten Umsätzen verwendet werden (§ 4b Nr. 4 UStG)** § 4b Nr. 4 UStG befreit den Erwerb von Gegenständen, die zur Ausführung von Umsätzen verwendet werden, für die der **Vorsteuerabzug nach § 15 Abs. 3 UStG nicht ausgeschlossen** ist. Insbesondere für steuerfreie Ausfuhrlieferungen nach § 4 Nr. 1a i.V.m. § 6 UStG und steuerfreie innergemeinschaftliche Lieferungen nach § 4 Nr. 1b i. V. m. § 6a UStG." },
+      { text: "Das UStG sieht für die Steuerbefreiungen beim innergem. Erwerb **keinen Verzicht** auf die Inanspruchnahme der Steuerfreiheit vor. Gleichwohl können **nach Verwaltungsauffassung** Unternehmer die Erwerbsbesteuerung in den Fällen des § 4b Nr. 4 UStG **freiwillig durchführen** (Abschn. 4b.1 Abs. 3 UStAE). Eine freiwillige Besteuerung des innergem. Erwerbs und der gleichzeitige Vorsteuerabzug dürfte in vielen Fällen **weniger verwaltungsaufwendig** sein als die Inanspruchnahme der Steuerbefreiung." },
+    ],
+  },
+  {
+    id: "ust-m-b07-15",
+    teil: TEIL,
+    kapitel: "15",
+    abschnittNr: "V",
+    title: "V. Bemessungsgrundlage und Steuerentstehung",
+    thema: "Entgelt als BMG des innergemeinschaftlichen Erwerbs einschließlich Nebenkosten, Minderung nach § 17 UStG, Entstehung der Erwerbsteuer mit Ausstellung der Rechnung, spätestens mit Ablauf des Folgemonats, Beispiel niederländischer Lieferer, Anzahlungen und Umrechnung ausländischer Währung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("V"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 Satz 1 UStG", "§ 10 Abs. 1 UStG", "§ 13 Abs. 1 Nr. 6 UStG", "§ 16 Abs. 6 UStG", "§ 17 Abs. 1 Sätze 1, 2 und 5 UStG", "§ 20 UStG", "Abschn. 16.4 UStAE"],
+    themen: ["innergemeinschaftlicher Erwerb", "Bemessungsgrundlage", "Steuerentstehung", "Rechnungsdatum", "Anzahlung", "Fremdwährung"],
+    bloecke: [
+      { typ: "titel", text: "V. Bemessungsgrundlage und Steuerentstehung" },
+      { text: "**➔ Umfang der BMG:** BMG ist das **Entgelt gem. § 10 Abs. 1 UStG**. Somit alles, was der Leistungsempfänger (also der Erwerber) aufwendet, um die Leistung zu erhalten (immer ein Nettobetrag). Die BMG umfasst **alle dem Lieferer geschuldeten Kosten und Auslagen**, also auch z.B. berechnete Beförderungs- und Verpackungskosten." },
+      { text: "**➔ Minderung der BMG:** Das Entgelt für den innergem. Erwerb mindert sich z. B. durch Skonti, Rabatte oder Boni. Bei Änderung in einem späteren Voranmeldungszeitraum ist die BMG nach **§ 17 Abs. 1 Satz 1 UStG** erst in diesem Voranmeldungszeitraum zu berichtigen, in dem die Änderung eingetreten ist. Ein in Anspruch genommener **Vorsteuerabzug ist gleichzeitig zu berichtigen** (§ 17 Abs. 1 Satz 2 und 5 UStG)." },
+      { text: "**➔ Steuerentstehung:** **§ 13 Abs. 1 Nr. 6 UStG** bestimmt in Übereinstimmung mit der MwStSystRL als Zeitpunkt der Entstehung der Erwerbsteuer grds. den **Tag der Ausstellung der Rechnung** durch den ausländischen Lieferer (Rechnungsdatum der Eingangsrechnung). Der Tag, an dem die Rechnung beim Abnehmer tatsächlich eingeht, und der Tag der Zahlung spielen für die Entstehung der Erwerbsteuer **keine Rolle**. Das gilt auch für Erwerber, die die **Ist-Besteuerung gem. § 20 UStG** anwenden." },
+      { text: "**Beispiel:** Der **niederländische Lieferer** stellt eine Rechnung über eine am **07.03.** ausgeführte Lieferung am **29.03.** (Rechnungsdatum) aus." },
+      { text: "**Lösung:** Der deutsche Erwerber hat seinen innergem. Erwerb in der **USt-Voranmeldung für März** anzumelden und auch den Vorsteuerabzug vorzunehmen. Hieran würde sich auch nichts ändern, wenn die Rechnung beim Abnehmer erst im April tatsächlich eingehen sollte. Auch der Zeitpunkt der tatsächlichen Bezahlung ist ohne Bedeutung." },
+      { text: "Wird die Rechnung später erstellt oder wird eine Rechnung gar nicht ausgestellt, so entsteht die Steuer jedoch **spätestens mit Ablauf des Monats, der auf den Monat folgt, in dem der innergem. Erwerb bewirkt worden ist**. Insoweit kommt dem Zeitpunkt des Erwerbs eine entscheidungserhebliche Bedeutung zu. Der Zeitpunkt des Erwerbs ist nach meiner Auffassung **identisch mit dem Lieferzeitpunkt**. Die bekannten Grundsätze zum fiktiven Zeitpunkt der Lieferung (mit Beginn der Warenbewegung gem. § 3 Abs. 6 Satz 1 UStG) dürften auch für den innergem. Erwerb gelten." },
+      { text: "Die Steuerschuld entsteht **nicht, bevor der Steuertatbestand des innergem. Erwerbs verwirklicht** wird. Bei **Anzahlungs-/Vorausrechnungen** entsteht die Erwerbsteuer somit erst zum Zeitpunkt des Erwerbs." },
+      { text: "Bei Rechnungen in **ausländischer Währung** erfolgt eine Umrechnung gem. **§ 16 Abs. 6 UStG** (wird durch BMF-Schreiben im BStBl veröffentlicht). Wegen weiterer Einzelheiten vgl. Abschnitt 16.4 UStAE." },
     ],
   },
 ];

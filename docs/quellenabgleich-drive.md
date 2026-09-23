@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 7: Abschnitte III.6 bis V
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
+`ust-m-b07-13` (III.6 Erwerb in die Gebiete des § 1 Abs. 3 UStG, Beispiel Zollverwaltung im
+Freihafen Bremerhaven), `ust-m-b07-14` (IV. Steuerbefreiungen nach § 4b Nr. 1 bis 4 UStG) und
+`ust-m-b07-15` (V. Bemessungsgrundlage und Steuerentstehung, Beispiel niederländischer
+Lieferer) für die PDF-Seiten 110 bis 113. Stand des USt-Skripts: 7 Teile, 155 Kapitel, 2932 Blöcke, 149 Tabellen.
+
+**Geprüft:** Rechnungsdatum 29.03. bei Lieferung am 07.03. → Entstehung im März
+(§ 13 Abs. 1 Nr. 6 UStG) – stimmt.
+
+**Stillschweigend berichtigt:** „Drittlandsgebiet, das … ausschließen“ (ausschließt), „an den
+Abnehmer, der Zollverwaltung“ (die), „Einfuhrumsatzsteuer – Befreiungsverordnung“,
+„für steuerfreien Ausfuhrlieferungen … i.V. § 6 UStG und steuerfreie innergemeinschaftlichen
+Lieferungen“ (steuerfreie, i.V.m., innergemeinschaftliche), „§ 4 Nr. 1 b“, „kein Verzicht“
+(keinen), fehlender Punkt nach „Verpackungskosten“, „ausländischen. Lieferer“,
+„USt – Voranmeldung“, „Anzahlungs- Vorausrechnungen“ (Anzahlungs-/Vorausrechnungen).
+
+**Weiter mit:** Block 7 ab VI. Vorsteuerabzug (PDF-Seite 114).
+
 ### USt-Skript (Moecker), Block 7: Abschnitte III.2 bis III.5
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block07.js` neue Kapitel
