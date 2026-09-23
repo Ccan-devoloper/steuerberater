@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 4 fortgesetzt (VI bis VIII)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block04.js` neue Kapitel
+`ust-m-b04-9` bis `ust-m-b04-13` für die PDF-Seiten 27 bis 40: VI.1/VI.2 Eigentumsvorbehalt und
+Leasing, VI.3 Kommissionsgeschäft, VI.4/VI.5 durch Dritte an Dritte und Sicherungsgut, VII
+Rückgängigmachung, VIII Gas, Elektrizität, Wärme und Kälte über Netze. Stand des USt-Skripts:
+4 Teile, 63 Kapitel, 1296 Blöcke, 69 Tabellen.
+
+**Nachgerechnet:** Kommission Fall a) 10 % von 119.000 € = 11.900 €, 107.100 € × 19/119 =
+17.100 €; Fall b) 90.000 € × 19/119 = 14.369,75 €; Bürostuhl 19 % von 400 € = 76 €, neuer Stuhl
+357 € brutto = 300 € netto, USt 57 €; Tausch mit Baraufgabe 35.700 € : 1,19 = 30.000 € (USt
+5.700 €), 23.800 € : 1,19 = 20.000 € (USt 3.800 €).
+
+**Quellbefunde (markiert):** Kommission Fall b) USt „14.369,74 €“ (gerundet 14.369,75 €);
+Verwertung des LKW: Der Text nennt eine restliche Darlehensverbindlichkeit von 8.500 €, eine BMG
+von 9.500 € und USt von 1.805 €, die Abrechnung der Bank aber eine Darlehensverrechnung von
+8.000 € – daraus folgen BMG 9.000 € (Nettoerlös 10.000 € ./. Verwertungskosten 1.000 €) und USt
+1.710 €; Überschrift „Verwertung durch den Sicherungsgeber im Namen des Sicherungsnehmer“,
+obwohl der SG im eigenen Namen handelt; „§ 455 BGB“ für den Eigentumsvorbehalt (seit 2002
+§ 449 BGB; eigene Ergänzung); Nummerierung „VI.1“/„VI. 3.“ unter VII. Stillschweigend berichtigt:
+„Schadersatz“, „Leasing-Verfahren“, „mit anschließenden Lieferung“, „innergem Kommissions-
+geschäften“, „Mit den Verkauf“, „Wäre“ statt Wärme (viermal), „unbewegte Lieferung“,
+„Veräußerung des an den Dritten“, „Kommittent“ statt Kommittenten.
+
 ### USt-Skript (Moecker), Block 4 fortgesetzt (IV bis V)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block04.js` neue Kapitel
