@@ -4187,22 +4187,22 @@
       "medienId": "17970397188160072",
       "veroeffentlicht": "2026-09-22T16:44:04.019Z",
       "insights": {
-        "reach": 26,
-        "views": 48,
+        "reach": 28,
+        "views": 52,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 36,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 22,
-        "navigation_tap_back": 8,
-        "navigation_tap_exit": 4
+        "navigation": 40,
+        "navigation_tap_exit": 4,
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 25,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-09-23T10:17:00.097Z",
-      "insightsAlterStunden": 17.5
+      "insightsStand": "2026-09-23T13:43:59.451Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-09-22",
@@ -4471,7 +4471,23 @@
       "fach": "bilanz",
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "18479595370113473",
-      "veroeffentlicht": "2026-09-23T11:43:47.535Z"
+      "veroeffentlicht": "2026-09-23T11:43:47.535Z",
+      "insights": {
+        "reach": 13,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 10,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-09-23T13:43:59.451Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
