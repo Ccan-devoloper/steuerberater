@@ -57,6 +57,11 @@ aufgeht, und mit einem Prüfskript.
 
 ### Arbeitsliste nach dem Dublettencheck des zweiten Baums (Reihenfolge der Abarbeitung)
 
+**Zurückgestellt (September 2026, auf Wunsch des Nutzers):** Der Drive-Zugang meldet seit
+vielen Runden „session expired“. Alles, was nur über Drive erreichbar ist – die offenen Reste
+unter Punkt 1 und die neuen Bestände unter Punkt 2 außer dem USt-Skript (Moecker), das lokal
+vorliegt –, wird ausgelassen und am Ende zusammen mit Abschnitt A zur Nachlieferung genannt.
+
 1. **Bisher blockierte Reste nachholen** (jetzt über den Download lesbar): ~~AO Teil I~~ (erledigt,
    vollständig), ~~AO Teil II~~ (erledigt, vollständig), ~~AO Teil III~~
    (erledigt, vollständig), ~~AO Teil IV~~ (erledigt, vollständig), ~~AO Teil V~~
