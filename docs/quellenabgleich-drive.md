@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 4 Textteil vollständig (VIII Schluss und IX)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block04.js` ist Kapitel
+`ust-m-b04-13` um die Lieferungen durch inländische Unternehmer (§ 13b Abs. 2 Nr. 5b UStG,
+PDF-Seite 41) ergänzt; neue Kapitel `ust-m-b04-14` bis `ust-m-b04-17` für die PDF-Seiten 42 bis 55:
+IX.1 Grundsätze, IX.2/IX.3 Folgen und Zuordnungsregeln, IX.4 Reihengeschäfte im Inland,
+IX.5/IX.6 Drittland und Lieferung vor der Einfuhr. Damit ist der Textteil von Block 4 vollständig;
+es folgen die Arbeitspapiere A 1 bis A 27 (PDF-Seiten 56 bis 82). Stand des USt-Skripts: 4 Teile,
+67 Kapitel, 1382 Blöcke, 73 Tabellen.
+
+**Quellbefunde:** In der Übersicht zu § 3 Abs. 6a und Abs. 7 UStG sind die Satznummern in der
+Textfassung nicht lesbar; sie sind nach dem Gesetzeswortlaut ergänzt und als eigene Ergänzung
+gekennzeichnet. Veraltete Verweise auf „§ 3 Abs. 6 Satz 5 UStG“ (seit 2020 § 3 Abs. 6a UStG) sind
+markiert. In den Einfuhrfällen spricht die Quelle vom „Computer“ bzw. von „Computerteilen“,
+obwohl ein Großkopierer geliefert wird (markiert). Stillschweigend berichtigt: „zu-zuordnen“,
+„einer der Lieferung“, „Leistungs-partnern“, „nicht anderes“, „nicht ausreichend-“, „durch der
+1. Lieferer“/„durch der letzten Abnehmer“, „Abs. 4 2. Halbsatz“ (gemeint Satz 4), „in dessen
+Lieferung“ (Elektrizität: deren), „Sie ist daher“ (Er).
+
 ### USt-Skript (Moecker), Block 4 fortgesetzt (VI bis VIII)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block04.js` neue Kapitel

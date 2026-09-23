@@ -2397,8 +2397,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Seiten, Stände 07/2025 bis 06/2026) im Wortlaut – **in Arbeit**; Block 1 ist mit 12 Kapiteln
   vollständig, Block 2 (Leistungen im Leistungsaustausch) mit 13 Kapiteln ebenfalls vollständig,
   Block 3 (Unternehmer / Unternehmen) mit 25 Kapiteln einschließlich der Arbeitspapiere A 1 bis
-  A 27 ebenfalls vollständig, Block 4 (Entgeltliche Lieferungen) bis VIII mit 13 Kapiteln
-  eingepflegt.
+  A 27 ebenfalls vollständig, Block 4 (Entgeltliche Lieferungen) mit dem Textteil I bis IX in
+  17 Kapiteln eingepflegt (Arbeitspapiere folgen).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
@@ -2444,7 +2444,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   unbewegte Lieferung mit 4-W-Fragen und Kauf auf Probe), der Ortsverlagerung nach § 3 Abs. 8
   UStG, den Sonderfällen der Verfügungsmacht (Eigentumsvorbehalt, Leasing, Kommission, durch
   Dritte an Dritte, Sicherungsgut mit Doppel- und Dreifachumsatz), der Rückgängigmachung
-  (Rückgabe, Umtausch, Rücklieferung) und der Lieferung von Gas, Strom, Wärme und Kälte.
+  (Rückgabe, Umtausch, Rücklieferung), der Lieferung von Gas, Strom, Wärme und Kälte und dem
+  Reihengeschäft ab 2020 (Grundsätze, Zuordnungsregeln, Inlandsfälle, Fälle aus dem Drittland,
+  Lieferung vor der Einfuhr).
   Prüfung: `npm run check:k1-ust-skript-moecker`
 - **Übungsfälle laufender Unterricht (Nöthen)** (Klausur 3, Reiter Bilanzen → „Übungsfälle
   (Nöthen)“): die **Bilanz-Fallsammlung, die den laufenden Unterricht begleitet** – alle
