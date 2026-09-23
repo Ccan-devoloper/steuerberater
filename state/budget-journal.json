@@ -94,10 +94,10 @@
       "slot": "five-year timeline extending to ten years",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-23T19:14:34.590Z",
-      "updatedAt": "2026-09-23T19:14:34.590Z"
+      "updatedAt": "2026-09-23T19:14:35.981Z"
     }
   ],
-  "stand": "2026-09-23T19:14:34.590Z"
+  "stand": "2026-09-23T19:14:35.981Z"
 }
