@@ -10623,6 +10623,29 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 3 fortgesetzt (III bis IV)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block03.js` neue Kapitel
+`ust-m-b03-7` bis `ust-m-b03-11` für die PDF-Seiten 76 bis 86: III.1/III.2.1 gewerbliche oder
+berufliche Tätigkeit, III.2.2 Beteiligungen und Holding, III.2.3 Geschäftsführung und
+Gesellschafterbeitrag, III.3 Nachhaltigkeit (Verkaufsvorgänge, Leistungsvorgänge, zehn Urteile,
+Photovoltaikanlagen), III.4 Einnahmeerzielungsabsicht und IV. Selbständigkeit. Stand des
+USt-Skripts: 3 Teile, 36 Kapitel, 688 Blöcke, 30 Tabellen.
+
+**Nachgerechnet:** PV-Anlage 19 % von 10.000 € = 1.900 €; 0,25 € ÷ 1,19 = 0,21 € je kWh,
+1.000 kWh Eigenverbrauch = BMG 210 €, USt 39,90 € (eigene Ergänzung); 1.000 von 5.000 kWh
+= 20 % Privatverbrauch.
+
+**Quellbefunde (markiert):** Beteiligungsfall Getränkehändler X: „Beratungskosten 2.000 € zzgl.
+180 USt“ (19 % von 2.000 € sind 380 €); Orientteppich-Fall „unternehmerische Tätigkeit i.S. des
+§ 2 Abs. 2 UStG“ (gemeint § 2 Abs. 1 UStG). Fundstellen ohne Jahrgang oder Aktenzeichen
+(BFH v. 08.09.2022, BStBl. II S. 361; BFH v. 26.04.2012 „in BStBl II 634“; BFH v. 12.08.2015 ohne
+Aktenzeichen) sind so übernommen. Stillschweigend berichtigt: „im wirtschaftlichem Sinne“,
+dreimal „entscheiden“ statt entschieden, „Ein umsatzsteuerrechtliche“, „gewillkürtes BV“,
+„in Betrieb genommen Photovoltaikanlagen“, „entlastet und werden“, „Ausführen zu PV-Anlagen“,
+„Schornsteinfeger-Handwerksgesetzes“, „überschreitet“ und „bewährte“ im Hundezucht-Urteil,
+„Einkünfterzielungsabsicht“.
+
 ### USt-Skript (Moecker), Block 3 begonnen (I bis II.4)
 
 Drive meldete weiterhin „session expired“. Neue Datei `src/data/k1-ust-moecker/block03.js`
