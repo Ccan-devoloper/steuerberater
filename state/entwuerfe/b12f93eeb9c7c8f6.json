@@ -1,0 +1,164 @@
+{
+  "datum": "2026-09-23",
+  "zweck": "autor",
+  "daten": {
+    "folien": [
+      {
+        "art": "titel",
+        "titel": "Wie prüfst du eine KSt-Klausur vom zvE bis zur Steuer?",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "rechner"
+      },
+      {
+        "art": "schritte",
+        "titel": "Die ersten drei Schritte",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": [
+          {
+            "titel": "Steuerpflicht und Zeitraum klären",
+            "text": "Persönliche Steuerpflicht nach § 1 KStG prüfen, Veranlagungszeitraum nach § 7 KStG festlegen."
+          },
+          {
+            "titel": "Ausgangsgröße übernehmen",
+            "text": "Steuerbilanzgewinn oder steuerliches Ergebnis als Startpunkt der Rechnung nehmen."
+          },
+          {
+            "titel": "Innerbilanzielle Fehler korrigieren",
+            "text": "Bilanzansätze, die gegen Steuerrecht verstoßen, direkt in der Steuerbilanz richtigstellen."
+          }
+        ],
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      },
+      {
+        "art": "schritte",
+        "titel": "Außerbilanzielle Korrektur und Rest",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": [
+          {
+            "titel": "Hinzurechnungen prüfen",
+            "text": "vGA und nichtabziehbare Aufwendungen außerbilanziell dem Ergebnis hinzurechnen, § 8 (3) KStG."
+          },
+          {
+            "titel": "Kürzungen prüfen",
+            "text": "Verdeckte Einlagen und steuerfreie Erträge abziehen, 5-%-Pauschalen für Beteiligungserträge ergänzen, § 8b KStG."
+          },
+          {
+            "titel": "Verluste und Freibeträge",
+            "text": "Verlustverrechnung, Freibetrag nach § 24 KStG und Sonderregeln wie § 8c KStG einbauen."
+          },
+          {
+            "titel": "zvE und Steuer berechnen",
+            "text": "zvE feststellen, 15 % KSt nach § 23 KStG ansetzen, Soli obendrauf."
+          }
+        ],
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      },
+      {
+        "art": "text",
+        "titel": "Worauf Korrektoren achten",
+        "untertitel": null,
+        "text": null,
+        "punkte": [
+          "Trennung zwischen *innerbilanzieller* und *außerbilanzieller* Korrektur muss erkennbar sein.",
+          "Jede vGA braucht eine kurze Begründung, keine bloße Behauptung.",
+          "Reihenfolge einhalten: erst Hinzurechnung, dann Kürzung, dann Verlustverrechnung.",
+          "Zwischenergebnisse offen hinschreiben, nicht nur das Endergebnis."
+        ],
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      },
+      {
+        "art": "merke",
+        "titel": "Merksatz",
+        "untertitel": null,
+        "text": "Erst die Bilanz begradigen, dann außerhalb der Bilanz nachjustieren – nie umgekehrt.",
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      },
+      {
+        "art": "cta",
+        "titel": "Vor der Prüfung noch einmal durchgehen.",
+        "untertitel": null,
+        "text": null,
+        "punkte": [
+          "Schick das der Person in deiner Lerngruppe, die vGA und verdeckte Einlage vertauscht",
+          "Speichern und als Checkliste nutzen",
+          "Was fehlt dir noch im KSt-Schema? Schreib's in die Kommentare"
+        ],
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": null
+      }
+    ],
+    "caption": "KSt-Grundschema: vom Steuerbilanzgewinn zum zvE – sitzt der Ablauf noch?\n\nDas Schema ist ein Dauerbrenner in Klausur 2: Steuerpflicht bestimmen, Ausgangsgröße übernehmen, innerbilanziell korrigieren, dann außerbilanziell Hinzurechnungen und Kürzungen einbauen, Verluste und Freibeträge prüfen, zvE und Steuer berechnen. Die häufigste Fehlerquelle ist die Vermischung von inner- und außerbilanzieller Korrektur.\n\nSchick das der Person in deiner Lerngruppe, die vGA und verdeckte Einlage verwechselt, und speichert euch die Reihenfolge als Checkliste für die letzten Tage.\n\nWo hakt's bei dir noch – Hinzurechnung oder Kürzung?",
+    "hashtags": [
+      "#körperschaftsteuer",
+      "#kstschema",
+      "#zve",
+      "#vga",
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#stbexamen",
+      "#steuerberater",
+      "#steuerrecht",
+      "#examensvorbereitung",
+      "#ertragsteuern",
+      "#klausurtechnik"
+    ],
+    "kurztitel": "KSt-Schema: sitzt der Ablauf?",
+    "bildSzene": "stacked balance sheet documents desk",
+    "bildSzeneAlt": "calculator on tax worksheet",
+    "quellen": null,
+    "hooks": [
+      {
+        "typ": "frage",
+        "titel": "Wie prüfst du eine KSt-Klausur vom zvE bis zur Steuer?"
+      },
+      {
+        "typ": "fehler",
+        "titel": "Innerbilanziell und außerbilanziell vertauscht? Das kostet Punkte"
+      },
+      {
+        "typ": "aussage",
+        "titel": "Sieben Schritte vom Steuerbilanzgewinn zur Körperschaftsteuer"
+      }
+    ]
+  }
+}
