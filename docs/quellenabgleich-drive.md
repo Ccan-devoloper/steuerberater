@@ -10623,6 +10623,30 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6 fortgesetzt (II.2.2 bis II.2.8)
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
+`ust-m-b06-7` (II.2.2 Montage-Werklieferungen und sonstige Leistungen mit dänischem
+Fensterbauer und belgischem Stahlverleger; II.2.3 BMG, Steuersatz, Entstehung, Dauerleistungen,
+Sollbesteuerung, Anzahlungen) und `ust-m-b06-8` (II.2.4 Leistungsempfänger als Steuerschuldner
+mit Blumenhändler und Vermieter-Mandant, II.2.5 Rechnung, II.2.6 Vorsteuerabzug, II.2.7
+Verfahren, II.2.8 unfreie Versendungen) für die PDF-Seiten 20 bis 25. Das Schaubild in II.2.4
+ist als Text wiedergegeben. Stand des USt-Skripts: 6 Teile, 115 Kapitel, 2404 Blöcke, 126 Tabellen.
+
+**Quellbefunde:** Im Werkhallen-Beispiel stellt laut Quelle „B“ die Rechnung aus, der
+Sachverhalt nennt nur FU (markiert). Im Anzahlungsbeispiel begründet die Lösung die Entstehung
+mit der Rechnungsausstellung; nach § 13b Abs. 4 Satz 2 UStG kommt es bei Anzahlungen auf die
+Vereinnahmung an, die ebenfalls im Februar lag (eigene Ergänzung). Der Hinweis zum
+Blumenhändler spricht von „Eheleuten“, die im Sachverhalt nicht vorkommen (unverändert).
+
+**Stillschweigend berichtigt:** fehlende schließende Klammer nach „Pflasterverlegung (Fälle des
+§ 13b Abs. 2 Nr. 1 UStG“, „§ 13b Abs.2“, „(B2B-Grundregel) schuldet“ (Komma), „sicher zu
+stellen“, „EU - einheitlich“, „Umsatzsteuer - Voranmeldung“, „ausgestellt worden wäre im
+Hinblick“ (Komma), „Hinweis.“, „bezogen wird, oder“, fehlender Schlusspunkt nach „§ 3a Abs. 1
+UStG“, „§ 4 Nr.8“, „§ 18 Abs. 4 a“ und „2 a“, „§§ 453 ff HGB“.
+
+**Noch offen in Block 6:** ab II.3 (PDF-Seite 26 ff.) sowie die Arbeitspapiere.
+
 ### USt-Skript (Moecker), Block 6 fortgesetzt (II.1 bis II.2.1)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel
