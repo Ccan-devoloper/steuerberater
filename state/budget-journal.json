@@ -107,10 +107,10 @@
       "slot": "student reviewing tax document",
       "reservedUsd": 0.01,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-23T19:14:47.072Z",
-      "updatedAt": "2026-09-23T19:14:47.072Z"
+      "updatedAt": "2026-09-23T19:14:48.759Z"
     }
   ],
-  "stand": "2026-09-23T19:14:47.072Z"
+  "stand": "2026-09-23T19:14:48.759Z"
 }
