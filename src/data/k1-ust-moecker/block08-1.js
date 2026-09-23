@@ -2,7 +2,7 @@
    Quelle: „Umsatzsteuer Block 8 (I) mit Arbeitspapieren“ (Titelblatt Juni 2026; Fußzeile
    „Block 08 – Steuerfreie Umsätze Teil I - Vers. I 2016 / Red. 06-26“), 111 PDF-Seiten.
    In Arbeit: Textteil I.1 bis I.9 (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere A 1 bis
-   A 26 (PDF-Seiten 62 bis 87) eingepflegt, weitere folgen. */
+   A 31 (PDF-Seiten 62 bis 92) eingepflegt, weitere folgen. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 06/2026";
@@ -1396,6 +1396,63 @@ export const block08Teil1 = [
         ["17. b.", "Wie a., aber KU hat Erwerbsschwelle nicht überschritten, nicht optiert", "Bewegte Lieferung mit Ort § 3 (6) in MG; steuerbar; steuerfrei § 4 Nr. 1b & § 6a (1), da verbrauchsteuerpfl. Ware. Unternehmerischer LE unterliegt immer der Erwerbsbesteuerung. Problem jedoch => Verwendung gültiger IdNr. durch LE"],
       ] },
       { text: "Die Übungen sind als Tabelle wiedergegeben; Spaltenköpfe und die Aufteilung der Fälle 16 und 17 in die Varianten a. und b. mit „Wie a., aber …“ sind eigene Ergänzung zur Darstellung. „MG“ steht in der Quelle für Mönchengladbach (eigene Ergänzung)." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-49",
+    teil: TEIL,
+    kapitel: "49",
+    abschnittNr: "A 27 bis A 28",
+    title: "Arbeitspapiere A 27 und A 28: Be- oder Verarbeitung bei der innergemeinschaftlichen Lieferung",
+    thema: "Zwischengeschaltete Bearbeitung im Auftrag des Abnehmers (Stoffe aus Köln, Nähen in Dortmund, Abnehmer in Athen) und Bearbeitung im Auftrag des Lieferanten mit Lieferort am Ort des fertigen Gegenstands nach EuGH Fonderie",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 27 und A 28"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 6 UStG", "§ 3a Abs. 2 UStG", "§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1 Satz 1 Nr. 1 bis 4 und Satz 2 UStG", "§ 14a Abs. 1 UStG", "EuGH, Urteil vom 02.10.2014 – C-446/13 (Fonderie)"],
+    themen: ["Arbeitspapier", "innergemeinschaftliche Lieferung", "Be- oder Verarbeitung", "Werkleistung", "Lieferort"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 27 – 4.4 Zwischengeschaltete Be- oder Verarbeitung vor dem Transport in das übrige Gemeinschaftsgebiet" },
+      { text: "(➔ durch Beauftragte des Abnehmers) • sind für innergem. Lieferung **unschädlich**" },
+      { text: "**a.) Auftrag zur Be- oder Verarbeitung durch den ABNEHMER (denknotwendig)**" },
+      { text: "Schaubild: DU1 (Köln) – vereinbarte Lieferung von Stoffen an – GU aus Athen (jenseits der Grenze); Transport der Stoffe zu DU2 (Dortmund) – vereinbartes Nähen von Hemden an GU; Transport über die Grenze." },
+      { text: "➔ Gegenstand der Lieferung durch DU1 = **der nicht bearbeitete Gegenstand**. Ort gem. § 3 Abs. 6 **in Köln**, steuerbar und als **innergem. Lieferung steuerfrei** § 4 Nr. 1b + § 6a (1) Nr. 1 bis 4 + § 6a Abs. 1 S. 2 UStG" },
+      { text: "➔ DU 2 tätigt **eigenen Umsatz an GU**. Ort gem. § 3a (2) **in Athen** am Sitzort des LE. Somit **nicht steuerbar**. DU 2 Abgabe ZM, ges. Erklärung an FA und Rechnungslegung § 14a Abs. 1 UStG" },
+      { typ: "titel", text: "Arbeitspapier A 28" },
+      { text: "**b.) Auftrag zur Be- oder Verarbeitung durch den LIEFERANTEN** (Kein Satz 2; hier nachgeschaltete und nicht zwischengeschaltete Leistung – so in der Quelle; A 7 und der Textteil (I.3.3.1) sprechen von einer vorgeschalteten Leistung) – EuGH-Urteil v. 02.10.2014, C-446/13 Rs. Fonderie" },
+      { text: "Schaubild: **Lieferant Firma T in D’dorf** – Kaufvertrag mit **Fa. N aus Nancy (FR)** über **100 lackierte Metalle** – Transport „Rohmetalle“ an **Fa. P aus Paris** für Lackierarbeiten (Werkunternehmer P aus Paris (Lackiererei)) – Käufer der Metalle aus Nancy. **?? Ort der Lieferung Paris oder D’dorf**" },
+      { text: "**Ort der Lieferung in Paris**, da Fertigerzeugnis im vertraglichen Zustand erst hier existent ist. Der „fertige“ Liefergegenstand befindet sich bei Beginn der Beförderung in FR. **Folge:** In FR steuerbar + stpfl. + Registrierung. Damit vorgeschaltet: **fiktive Lieferung in DE** (grds. steuerfrei in DE) + **fiktiver Erwerb in FR** (und Vorst in FR)." },
+      { text: "Die Schaubilder sind als Text wiedergegeben (eigene Ergänzung zur Darstellung). A 28 wiederholt das Schaubild aus A 22." },
+    ],
+  },
+  {
+    id: "ust-m-b08-1-50",
+    teil: TEIL,
+    kapitel: "50",
+    abschnittNr: "A 29 bis A 31",
+    title: "Arbeitspapiere A 29 bis A 31: Buch- und Belegnachweis und sonstige Pflichten bei der innergemeinschaftlichen Lieferung",
+    thema: "Beleg- und Buchnachweis nach § 6a Abs. 3 UStG und §§ 17a bis 17d UStDV als formelle Pflichten, Gelangensbestätigung mit fünf Angaben, Vereinfachungsregelungen des § 17b Abs. 3 UStDV sowie Rechnung, gesonderte Erklärung, ZM und Aufzeichnungen",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 29 bis A 31"),
+    verfasser: VERFASSER,
+    normen: ["§ 6a Abs. 3 UStG", "§ 14a Abs. 3 UStG", "§ 18a UStG", "§ 18b UStG", "§ 22 Abs. 2 Nr. 1 UStG", "§ 26a UStG", "§ 17a UStDV", "§ 17b Abs. 2 und 3 UStDV", "§ 17d Abs. 1 UStDV", "Abschn. 6a.1 bis 6a.8 UStAE"],
+    themen: ["Arbeitspapier", "Belegnachweis", "Buchnachweis", "Gelangensbestätigung", "Zusammenfassende Meldung", "Rechnung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 29 – 4.5 Buch- und Belegnachweis – § 6a Abs. 3 UStG –" },
+      { text: "Vgl. Abschn. 6a.1 bis 6a.8 UStAE (Generalklausel = Mussvorschrift)" },
+      { typ: "tabelle", spalten: ["Belegnachweis", "Buchnachweis"], zeilen: [
+        ["§ 17a / 17b UStDV – Nachweis der Warenbewegung EU ➔ EU", "§ 17d (1) UStDV – Insbesondere Status des LE durch USt-IdNr."],
+      ] },
+      { text: "**Hinweis:** § 17a als Nachweise in der EU harmonisiert ➔ Fehlende / unvollständige Belege können **mit „Rückwirkung“** auf den Zeitpunkt der Lieferung nachgereicht bzw. berichtigt werden." },
+      { text: "➔ Kommt Untern. Nachweispflichten jedoch nicht nach, sind grds. die Voraussetzungen einer steuerfreien innergem. Lieferung **nicht erfüllt** – Ist Steuerfreiheit zu gewähren, wenn **nach objektiver Beweislage feststeht**, dass Voraussetzungen vorliegen – Unschädlich, wenn Nachweise nicht entsprechend §§ 17a bis 17d UStDV erbracht." },
+      { text: "Die Steuerbefreiung kann somit **nur wegen Nichterfüllung formeller Pflichten nicht versagt** werden, ohne dass die materiellen Voraussetzungen berücksichtigt werden. **Merke:** Buch- und Belegnachweis sind **keine materiellen Voraussetzungen** für Steuerfreiheit." },
+      { typ: "titel", text: "Arbeitspapier A 30 – ➔ Belegnachweis – typisch § 17b UStDV –" },
+      { text: "Nachweis der Warenbewegung EU ➔ EU durch Belege – Befördern durch LU / durch LE, Versenden durch LU / durch LE: Durch **Doppel der Ausgangsrechnung mit Hinweis auf Steuerfreiheit** (§ 17b (2) Nr. 1) + **Gelangensbestätigung (GB) des Abnehmers** gem. § 17b Abs. 2 Nr. 2" },
+      { text: "GB = bedeutet **5 Angaben**, Kein Vordruck (nur Muster) – GB = **jede Form**, auch auf elektronischem Weg – GB = auch als **Sammel-GB** für Monat / ¼-Jahr: ① Name und Anschrift des Abnehmers ② Bezeichnung + Menge Liefergegenstand (ggf. zzgl. Fz-IdNr.) ③ Ort und Monat des Erhalts im übrigen Gemeinschaftsgebiet ④ Ausstellungsdatum der Bestätigung ⑤ Unterschrift des Abnehmers / Vertreters / Beauftragten" },
+      { text: "**§ 17b Abs. 3 Vereinfachungsregelungen:** **Nr. 1a** Versendungsbeleg (z.B. Frachtbrief) + Unterschrift des Auftraggebers + Empfangsbestätigung des Abnehmers – **Nr. 1b** (sog. weiße) Spediteurbescheinigung mit Bestätigung „Transport“ und Unterschrift – **Nr. 1c** Auftragserteilung Kurierdienst + Protokoll über „Ablieferung“ – **Nr. 1d** Posteinlieferungsbestätigung + Nachweis der Bezahlung der Lieferung – **Nr. 2** Spediteur-Versicherung über Warenbewegung EU ➔ EU + Nachweis Bezahlung vom Konto des LE" },
+      { text: "Die fünf Angaben der Gelangensbestätigung sind in der Quelle mit nicht lesbaren Aufzählungszeichen versehen und hier mit ① bis ⑤ nummeriert (eigene Ergänzung zur Darstellung)." },
+      { typ: "titel", text: "Arbeitspapier A 31 – 4.6 Sonstige Pflichten" },
+      { text: "• **Ausgangsrechnung gem. § 14a Abs. 3 UStG** ➔ Bis zum 15. des Folgemonats der Lieferung ➔ Hinweis auf Steuerbefreiung und Angabe beider USt-IdNrn. ➔ Gehört zum Belegnachweis § 17a UStDV ➔ Aufbewahrungspflicht 10 Jahre; Bußgeld gem. § 26a Nr. 1 UStG droht." },
+      { text: "• **gesonderte Erklärung § 18b UStG** (in der USt-VA) ➔ Dient Abgleich mit Daten in der ZM • **Zusammenfassende Meldung § 18a UStG** ➔ Nichtabgabe / unrichtige Abgabe bzw. verspätete Abgabe ohne unterlassene Berichtigung können zur **Steuerpflicht** und zum **Bußgeld** – § 26a UStG – führen • **Aufzeichnungen** § 22 (2) Nr. 1 UStG" },
     ],
   },
 ];

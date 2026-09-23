@@ -10623,6 +10623,25 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 27 bis A 31
+
+In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-49` (A 27 und A 28
+Be- oder Verarbeitung bei der innergem. Lieferung) und `ust-m-b08-1-50` (A 29 bis A 31 Buch-
+und Belegnachweis, Gelangensbestätigung, sonstige Pflichten) für die PDF-Seiten 88 bis 92.
+Stand des USt-Skripts: 8 Teile, 213 Kapitel, 3587 Blöcke, 188 Tabellen.
+
+**Quellbefund (markiert):** A 28 nennt die im Auftrag des Lieferanten ausgeführte Bearbeitung
+eine „nachgeschaltete“ Leistung, A 7 und der Textteil (I.3.3.1) sprechen von einer
+vorgeschalteten Leistung.
+
+**Darstellung:** Schaubilder als Text; Beleg-/Buchnachweis als Tabelle; die fünf Angaben der
+Gelangensbestätigung mit ① bis ⑤ nummeriert (eigene Ergänzung zur Darstellung).
+
+**Stillschweigend berichtigt:** „C446/13“, „Unterschrift des Auftraggeber“ (Auftraggebers),
+„§14a“, „§26a“, fehlendes Komma nach „nicht nach“, Leerzeichen in Klammern.
+
+**Weiter mit:** Block 8 Teil I, Arbeitspapiere ab A 32 (PDF-Seite 93).
+
 ### USt-Skript (Moecker), Block 8 Teil I: Arbeitspapiere A 22 bis A 26
 
 In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-47` (A 22 EuGH Fonderie,

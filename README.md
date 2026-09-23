@@ -2417,8 +2417,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Erwerbsbesteuerung, USt-IdNr., Buch- und Belegnachweis, Vertrauensschutz und sonstigen
   Vorschriften, innergemeinschaftlichen Reihengeschäften und dem Dreiecksgeschäft nach
   § 25b UStG, grenzüberschreitenden Güterbeförderungen, Umsatzsteuerlager, Lieferungen vor der
-  Einfuhr und § 4 Nr. 7 UStG (vollständiger Textteil) sowie Arbeitspapieren A 1 bis A 26
-  (48 Kapitel; weitere Arbeitspapiere folgen).
+  Einfuhr und § 4 Nr. 7 UStG (vollständiger Textteil) sowie Arbeitspapieren A 1 bis A 31
+  (50 Kapitel; weitere Arbeitspapiere folgen).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
