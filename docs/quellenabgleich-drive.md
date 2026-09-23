@@ -10623,6 +10623,27 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 10: VI.3 bis VII.2
+
+In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-30` (VI.3 Option zur
+Regelbesteuerung), `ust-m-b10-31` (VI.4 Vorsteuerabzug und -berichtigung mit Beispielen
+Umlaufvermögen und Ferienwohnung, Gestaltungsmissbrauch), `ust-m-b10-32` (VII./VII.1 besonderes
+Meldeverfahren nach § 19a UStG) und `ust-m-b10-33` (VII.2 Beendigung) für die PDF-Seiten 112 bis
+116. Keine Bilder auf diesen Seiten. Stand des USt-Skripts: 11 Teile, 366 Kapitel, 5168 Blöcke, 275 Tabellen.
+
+**In der Quelle offen (markiert):** Fundstelle „BFH-Urteil vom 23.09.2020 – XI R 34/19, BStBl II
+2025 S. xxx“, Seitenangabe fehlt in der Quelle.
+
+**Nachgerechnet (eigene Ergänzung):** Ferienwohnung 32.000 € × 12/120 = 3.200 € je Jahr – stimmt;
+für 13 bis 19 insgesamt 22.400 € ergänzt.
+
+**Stillschweigend berichtigt:** „Abschn. 19.3. Abs. 4“, „§ 19 Abs. 1 USG“, „oder umgekehrt
+übergeht,“ mit überzähligem Anführungszeichen, „Abschn. 15a. 5“, „Als Kleinunternehmerregelung war
+X“ (Kleinunternehmer), „12/ 120“, „Annex „EX"“ und „(„BOP")“ mit geraden Anführungszeichen, „Gemäß
+§ 19a Abs. 2 UStG Der Unternehmer unterrichtet“ (Satzbau).
+
+**Weiter mit:** VIII. Steuersatz (PDF-Seite 117).
+
 ### USt-Skript (Moecker), Block 10: V.6 bis VI.2
 
 In `src/data/k1-ust-moecker/block10.js` neue Kapitel `ust-m-b10-26` (V.6 Optionsrecht mit

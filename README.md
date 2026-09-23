@@ -2444,7 +2444,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Inhaltsverzeichnis, Entgeltbegriff, Vertragsstrafen, durchlaufenden Posten, Zuschüssen und
   der BMG beim innergemeinschaftlichen Erwerb, Tausch, Mindestbemessungsgrundlage und
   Reiseleistungen nach § 25 UStG, der Differenzbesteuerung nach § 25a UStG und der
-  Kleinunternehmerregelung ab 2025 bis zum maßgebenden Gesamtumsatz (29 Kapitel).
+  Kleinunternehmerregelung ab 2025 samt grenzüberschreitendem Kleinunternehmer nach § 19a UStG
+  (33 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
