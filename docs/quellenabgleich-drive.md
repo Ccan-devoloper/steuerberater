@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: I.3.3.1 bis I.3.3.3 (Fall II)
+
+In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-6` (I.3.3.1 nichtwirtschaftliche
+Tätigkeit i.e.S., Vereins-Kfz), `ust-m-b11-7` (I.3.3.2 unternehmensfremde Tätigkeit, Arzt-PKW) und
+`ust-m-b11-8` (I.3.3.3 Allgemeines, Heizöl, Wahlrechte, Fall I und II) für die PDF-Seiten 10 bis
+14. Das kleine Schaubild zur Zuordnung (100 % / 0–10 % / 10–100 %) ist als Tabelle wiedergegeben.
+Stand des USt-Skripts: 12 Teile, 413 Kapitel, 5743 Blöcke, 305 Tabellen.
+
+**Quellenfehler (im Text markiert):** I.3.3.3 „nach Punkt I 3.3.2“ für Eingangsumsätze im
+ausschließlichen Zusammenhang mit UWA; diese behandelt Punkt I.3.2.
+
+**Nachgerechnet (eigene Ergänzung):** Arzt-PKW 60 % / 40 % – stimmt; Heizöl 190 € / 380 € – stimmt.
+
+**Stillschweigend berichtigt:** „KFZ das“, „( 40% …)“, „verwenden beabsichtigt.(Grundsatz“, „Bu.
+a)“ / „Bu. b)“, „„ die 10 %-Grenze““, „für die Prüfung … auf die Verhältnisse … maßgebend sind“,
+„Punkt I. 3.3.1“, „gilt folgendes“, „Für Vertretbare Sachen“, „1.000,- €“ usw., „unternehmensfremden/
+privat) Bereich“, fehlende Klammer nach „Satz 3 UStAE“, „der Vorsteuerabzugs“.
+
+**Weiter mit:** I.3.3.3 Fall III (PDF-Seite 15).
+
 ### USt-Skript (Moecker), Block 11: I.3 bis I.3.2
 
 In `src/data/k1-ust-moecker/block11.js` neue Kapitel `ust-m-b11-4` (I.3/I.3.1 mit Arzt-Beispiel,

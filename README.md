@@ -2449,8 +2449,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Änderung der BMG nach § 17 UStG und den Durchschnittssätzen nach § 24 UStG (Textteil
   vollständig) sowie Arbeitspapieren A 1 bis A 36 (72 Kapitel, vollständig), Block 11
   (Vorsteuerabzug) begonnen mit Inhaltsverzeichnis, Aufbau des § 15 UStG, der persönlichen
-  Voraussetzung „Unternehmer“ und dem Bezug für das Unternehmen (5 Kapitel); Blöcke 12 und 13
-  folgen.
+  Voraussetzung „Unternehmer“, dem Bezug für das Unternehmen und der Zuordnung gemischt
+  genutzter Leistungsbezüge (8 Kapitel); Blöcke 12 und 13 folgen.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
