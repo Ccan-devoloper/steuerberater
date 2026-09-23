@@ -601,7 +601,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Vorbemerkungen zum MoPeG – rechtsfähige und nicht rechtsfähige GbR, Gesellschaftsregister,
   Vertretung und Auflösung – und zu den AO-Anpassungen (§ 39 Abs. 2 Nr. 2, § 14a, §§ 34, 79 und
   § 181 AO), dazu Grundlagen des Feststellungsverfahrens, örtliche Zuständigkeit und die Arten
-  der gesonderten Feststellungen.
+  der gesonderten Feststellungen, das Fallbeispiel Bernd B. zu Folgeänderung und § 171 Abs. 10 AO,
+  Umfang, Teilbarkeit, Ergänzungs- und Richtigfeststellungsbescheid, die besondere Feststellung
+  bei Unterbeteiligung und Treuhand mit dem Beispiel K & L-KG sowie die Aufgabe mit dem
+  abgedruckten Feststellungsbescheid der Sesamstrasse GmbH & Co KG.
   Aus Teil II ist Abschnitt 5 eingepflegt: der Vorbehalt der Nachprüfung nach § 164 AO
   (Anwendungsbereich, Gesamtüberprüfungsrecht, Einspruch gegenüber Änderungsantrag,
   Aufhebung und Wegfall kraft Gesetzes, Prüfungsfolge, Übungsfall zur Teilverjährung), die

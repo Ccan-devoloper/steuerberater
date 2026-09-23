@@ -10688,8 +10688,25 @@ Personenvereinigungen nach § 14a Abs. 3 AO auf – im Datensatz als eigene Erg�
 „die ja zivilrechtlich lediglich ein Schuldverhältnis darstellen“ (Numerus); zwei Klammern
 bei § 707a Abs. 2 und § 719 Abs. 2 BGB werden nicht geschlossen.
 
-**Noch offen aus AO Teil I:** Abschnitt 4 ab PDF-Seite 121 (Abschnittsseite 14) bis zum Ende
-der Datei (PDF-Seite 145).
+**Fortsetzung PDF-Seiten 121 bis 134:** vier weitere Kapitel – Fallbeispiel Bernd B. (Tz. 3.4),
+Besonderheiten der einheitlichen und gesonderten Feststellung (Tz. 4), die besondere Feststellung
+nach § 179 Abs. 2 Satz 3 AO mit Beispiel (Tz. 5) und die Aufgabe zum Feststellungsbescheid der
+Sesamstrasse GmbH & Co KG (Tz. 6); jetzt 166 Kapitel. Befunde: „die Einkünfte aus V+V … zu hoch
+angesetzt worden sind und“ ohne Fortsetzung; „laufendenden“; eine BFH-Fundstelle ohne Jahrgang;
+„vom ihm“; im Beispiel K & L-KG „Folgebescheid hinsichtlich des S … zugerechneten
+Gewinnanteils iHv 90.000 €“ – die 90.000 € sind der Anteil des K; in der Aufgabe fehlt einem
+Satz der Anfang („Tiffy bis zum Erlass …“), die Lösung zitiert „§ 179 Abs. 1 und Abs. 3 Satz 2“
+statt Abs. 2 Satz 2, verdoppelt „worden ist“ und nennt als Bekanntgabetag „17.09.09“ statt des
+in Frage 2 errechneten 18.04.09. Die Wochentage der Aufgabe sind vorgegeben und in sich
+stimmig.
+
+**Nachgerechnet:** Bernd B.: Festsetzungsfrist ESt 01 bis 31.12.06, Feststellungsfrist bis
+31.12.08, Ablaufhemmung bis 16.03.09; K & L-KG: 50.000 € + 40.000 € = 90.000 €, davon S 15.000 €
+und K 75.000 €; Sesamstrasse: 405.000 € + 50.000 € ./. 20.000 € = 435.000 € =
+5.000 € + 250.000 € + 100.000 € + 80.000 €; Einspruchsfristen bis 19.05.09 bzw. 21.05.09.
+
+**Noch offen aus AO Teil I:** Tz. 7 des Abschnitts 4 (Bekanntgabe von Feststellungsbescheiden
+nach § 183 AO aF und nF, PDF-Seiten 135 bis 145).
 
 ### Dublettencheck, achter Teil: die übrigen Ordner des zweiten Baums – und blockierte Quellen sind lesbar
 
