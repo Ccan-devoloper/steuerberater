@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 8 Teil I: I.5.3 und I.5.4
+
+Drive meldete weiterhin „session expired“ (zweimal versucht). In
+`src/data/k1-ust-moecker/block08-1.js` neue Kapitel `ust-m-b08-1-30` (I.5.3 Rechtsfolgen und
+weitere Voraussetzungen des Dreiecksgeschäfts mit Gesetzestext § 14a Abs. 7 UStG, BFH XI R 35/22
+und Lösung Ausgangsfall) und `ust-m-b08-1-31` (I.5.4 Sonstige Folgen für ersten Lieferer,
+Zwischenhändler und letzten Abnehmer mit EuGH Hans Bühler und Lösung Ausgangsfall) für die
+PDF-Seiten 50 bis 53. Stand des USt-Skripts: 8 Teile, 194 Kapitel, 3373 Blöcke, 171 Tabellen.
+
+**Darstellung:** Nicht lesbare Aufzählungszeichen durch „•“ und „–“ ersetzt (vermerkt).
+
+**Stillschweigend berichtigt:** „Die Nr. 2 und Nr. 4 fordert“ (fordern), „USt - Voranmeldungen“,
+gerade Anführungszeichen bei „transportlosen“, „Ziel“ und den Rechnungshinweisen, überzähliges
+Schlusszeichen nach „findet keine Anwendung“, „§ 25 b“, „Artikel 28 c“, „§ 14 a“, „entscheiden“
+(entschieden), „-ohne Rückwirkung-“, fehlendes Schlusszeichen nach „Fa. Hans Bühler KG“,
+„steuerbaren und innergem. Erwerb“ (ohne „und“), „Umsatzsteuer - Identifikationsnummern“,
+englische Anführungszeichen bei „transportlosen“ in der Lösung, Leerzeichen in Klammern.
+
+**Weiter mit:** Block 8 Teil I ab I.5.5 Konsequenzen für deutsche Unternehmer (PDF-Seite 54).
+
 ### USt-Skript (Moecker), Block 8 Teil I: I.4.4 bis I.5.2
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block08-1.js` neue Kapitel
