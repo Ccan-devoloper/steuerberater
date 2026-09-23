@@ -10705,8 +10705,21 @@ stimmig.
 und K 75.000 €; Sesamstrasse: 405.000 € + 50.000 € ./. 20.000 € = 435.000 € =
 5.000 € + 250.000 € + 100.000 € + 80.000 €; Einspruchsfristen bis 19.05.09 bzw. 21.05.09.
 
-**Noch offen aus AO Teil I:** Tz. 7 des Abschnitts 4 (Bekanntgabe von Feststellungsbescheiden
-nach § 183 AO aF und nF, PDF-Seiten 135 bis 145).
+**Abschluss PDF-Seiten 135 bis 145 – AO Teil I vollständig:** vier weitere Kapitel – Bekanntgabe
+nach § 183 AO aF (Tz. 7 bis 7.2), nach § 183 AO nF und § 183a AO mit Übergangsregelung (Tz. 7.3,
+7.4), das Fallbeispiel Solartechnik GmbH & Co KG (Tz. 7.5) und der Übungsfall A+B+C-KG (Tz. 8);
+das Skript hat jetzt 14 Teile mit 170 Kapiteln. Die Zeile „AO Teil I“ ist aus Abschnitt A von
+`docs/offene-quellen.md` gestrichen.
+
+Befunde: „Empfangsbevollmächtigen“ (zweimal); im Übungsfall A+B+C-KG sind die Daten nicht
+einheitlich – Bekanntgabe am 25.10.08 und Fristende 25.11.08, aber Ablaufhemmung bis 26.10.10
+(passend zu 22.10.08 + 4 Tage), und in der Ergebniszeile heißt der Bescheid „vom 25.10.08“.
+Als eigene Ergänzung vermerkt: Die Lösung zu Frage 1 verlangt nach Vollbeendigung eine
+Einzelbekanntgabe, die Lösung zu Frage 3 rechnet die Einspruchsfrist dennoch ab der Bekanntgabe
+an A; ob gegenüber B wirksam bekannt gegeben wurde, sprechen die Lösungshinweise nicht an.
+
+**Nachgerechnet:** Feststellungsfrist 01: Anlaufhemmung höchstens bis 31.12.04, Ende 31.12.08;
+Festsetzungsfrist ESt 01 regulär bis 31.12.06, verlängert durch § 171 Abs. 10 AO.
 
 ### Dublettencheck, achter Teil: die übrigen Ordner des zweiten Baums – und blockierte Quellen sind lesbar
 

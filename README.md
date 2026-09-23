@@ -569,7 +569,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Prüfung: `npm run check:k3-persg-skript-melzer`
 - **AO-Skript (Jacobs)** (Reiter „Skript (Jacobs)“ im Campus Abgabenordnung): das
   Lehrgangsskript „Steuerliches Verfahrensrecht“ von Hans-Jürgen Jacobs (Mai 2025,
-  Rechtsstand 2025) im Wortlaut, Teil I mit den Abschnitten 1 bis 3 sowie dem
+  Rechtsstand 2025) im Wortlaut, Teil I vollständig mit den Abschnitten 1 bis 4 sowie dem
   vorangestellten Hinweis zur Viertagesfrist ab dem 01.01.2025. Abschnitt 1: Aufbau der AO,
   Zusammenspiel von materiellem und formellem Recht, Grundsätze der Rechtsanwendung mit
   3-Stufentheorie, Tatbestand und Rechtsfolge, der Schwarzgeld-Fall Samson/Grobi, Ermessen
@@ -604,7 +604,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   der gesonderten Feststellungen, das Fallbeispiel Bernd B. zu Folgeänderung und § 171 Abs. 10 AO,
   Umfang, Teilbarkeit, Ergänzungs- und Richtigfeststellungsbescheid, die besondere Feststellung
   bei Unterbeteiligung und Treuhand mit dem Beispiel K & L-KG sowie die Aufgabe mit dem
-  abgedruckten Feststellungsbescheid der Sesamstrasse GmbH & Co KG.
+  abgedruckten Feststellungsbescheid der Sesamstrasse GmbH & Co KG; zum Schluss die Bekanntgabe
+  von Feststellungsbescheiden nach § 183 AO aF (3-Stufen-Theorie, Ausnahmen, Rückausnahme) und
+  nach § 183 AO nF und § 183a AO ab 2024 mit dem Wahlrecht für 2024 und 2025, das Fallbeispiel
+  Solartechnik GmbH & Co KG und der Übungsfall A+B+C-KG. **Teil I ist damit vollständig.**
   Aus Teil II ist Abschnitt 5 eingepflegt: der Vorbehalt der Nachprüfung nach § 164 AO
   (Anwendungsbereich, Gesamtüberprüfungsrecht, Einspruch gegenüber Änderungsantrag,
   Aufhebung und Wegfall kraft Gesetzes, Prüfungsfolge, Übungsfall zur Teilverjährung), die
