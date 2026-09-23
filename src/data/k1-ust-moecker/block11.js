@@ -5,7 +5,7 @@
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
    In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 32 (PDF-Seite 92). */
+   A 36 (PDF-Seite 96). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1589,6 +1589,69 @@ export const block11 = [
       { text: "➔ ist der Vorsteuerabzug **ausgeschlossen** (die Vorst ist nicht abziehbar)\n(Beachte: für bestimmte Umsätze Aufhebung des Ausschlusses nach Abs. 3)\n⇨ so genannte **abzugsschädliche** Verwendung.\nEntscheidend ist die Zuordnung der Eingangsleistungen zu den Ausgangsumsätzen des Unternehmers." },
       { text: "**Merke:** **Über das Schicksal des Vorsteuerabzugs entscheidet der Ausgangsumsatz (Verwendung für die Ausgangsebene).**" },
       { text: "**Merke:** **Maßgebend ist die beabsichtigte Verwendung im Zeitpunkt des Leistungsbezugs – Abschn. 15.12 Abs. 2 S. 1 ff UStAE –.**\n**Spätere Abweichungen der tatsächlichen Verwendung zur beabsichtigten Verwendung ⇨ Fall des § 15a UStG**" },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-50",
+    teil: TEIL,
+    kapitel: "50",
+    abschnittNr: "A 33 und A 34",
+    title: "Arbeitspapiere A 33 und A 34: Kein Ausschluss vom Vorsteuerabzug (§ 15 Abs. 3 UStG) und Begriff der Verwendung",
+    thema: "Aufhebung des Ausschlusses für steuerfreie Umsätze nach § 4 Nr. 1 bis 7, § 25 Abs. 2, § 26 Abs. 5 und bestimmte Finanz- und Versicherungsumsätze, Beispiel Maschinenlieferung Berlin–Brasilien und Brasilien–Frankreich; Verwendung dem Grunde und der Höhe nach im Zeitpunkt des Leistungsbezugs, fiktive Option, keine vorläufige Zuerkennung, Korrektur nur über § 15a UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 33 und A 34"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 2 und 3 UStG", "§ 4 Nr. 1 bis 7 UStG", "§ 4 Nr. 8 Buchst. a bis g, Nr. 10 und 11 UStG", "§ 6 UStG", "§ 6a UStG", "§ 25 Abs. 2 UStG", "§ 26 Abs. 5 UStG", "§ 15a UStG", "Abschn. 15.12 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Ausschluss des Vorsteuerabzugs", "Verwendung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 33 – 8. Kein Ausschluss vom Vorsteuerabzug § 15 Abs. 3 UStG" },
+      { text: "Der Ausschluss vom Vorsteuerabzug nach § 15 Abs. 2 UStG ☞ tritt **nicht** ein, wenn die **Ausgangsumsätze**\n**steuerfrei sind (Nr. 1) / oder wären (Nr. 2)**" },
+      { typ: "tabelle", spalten: ["Steuerbefreiung", "Umsätze"], zeilen: [
+        ["- nach § 4 Nr. 1 - 7 (Bsp: ➔)", "Ausfuhrlieferungen (§ 6 UStG), innergem. Lieferungen (§ 6a UStG); Güterbeförderung in das Drittland (§ 4 Nr. 3)"],
+        ["- nach § 25 (2)", "steuerfreie Reiseleistungen"],
+        ["- nach § 26 (5)", "Offshore, NATO, Hauptquartiere"],
+        ["- nach § 4 Nr. 8 Bu. a-g; Nr.10 + 11", "Besondere Finanz- und Versicherungsumsätze bei Ausfuhrlieferungen."],
+        ["☞", "Die Vorst ist abziehbar"],
+      ] },
+      { text: "**Beispiel:**\n**Unternehmer aus Berlin veräußert Maschine an Kunden FU aus Frankreich. Transport mit eigenem Lkw a) von Berlin nach Brasilien b) von Brasilien nach Frankreich. Aus Einkauf Masch. Rechnung über 200.000 zzgl. USt**" },
+      { text: "*zu a):* => Abzugsberechtigung nach § 15 Abs. 1 Nr. 1 UStG. Dient steuerfreier Ausfuhrlieferung (§ 6 UStG).\n=> Grds. Ausschluss nach § 15 Abs. 2 Nr. 1 UStG.\n=> Aber kein Ausschluss nach § 15 Abs. 3 Nr. 1a UStG.\n=> Somit Abzugsfähig." },
+      { text: "*zu b):* => Abzugsberechtigung nach § 15 Abs. 1 Nr. 1 UStG. Dient nicht steuerbarer Lieferung (Ort im Ausland).\n=> Wenn steuerbar, dann aber grds. Ausschluss wegen steuerfreier innergem. Lieferung nach § 15 Abs. 2 Nr. 2 UStG\n=> Kein Ausschluss über § 15 Abs. 3 Nr. 2, da bei fiktiver Steuerbarkeit als innergem. Lieferung steuerfrei wäre.\n=> Somit Abzugsfähig." },
+      { text: "Nachrechnung (eigene Ergänzung): Die abziehbare Vorsteuer aus dem Einkauf der Maschine beträgt in beiden Fällen bei einem Steuersatz von 19 % (die Quelle nennt keinen Satz) 38.000." },
+      { typ: "titel", text: "Arbeitspapier A 34 – 9. Begriff Verwendung" },
+      { text: "• Recht (sowohl zeitlich als auch materiell - rechtlich) zum **sofortigen** Vorsteuerabzug besteht bereits bei **Bezug der Leistungen (EuGH v. 8.6.2000 Rs. Schloßstr.)**\n• Über die Vorsteuern ist somit **dem Grunde nach** (Frage nach der Zuordnung des Leistungsbezugs für das Unternehmen) & **der Höhe nach** (Abziehbarkeit) (welchen Ausgangsumsätzen soll der Leistungsbezug dienen; wofür verwendet werden) im **Zeitpunkt des Leistungsbezugs** zu entscheiden (Abschn. 15.12 Abs. 2 UStAE).\n• Maßgebend **tatsächliche Verwendung** oder (nachweisbare) **Verwendungsabsicht** zum Zeitpunkt des Leistungsbezugs (Abschn. 15.12 UStAE)\n• **„Fiktive Option“** ist möglich (➔ Wille zur stpfl. Vermietung muss jedoch durch objektive Anhaltspunkte belegt sein)\n• **Kein verfahrensmäßiger Vorbehalt; Nicht nur vorläufige Zuerkennung; Definitive materiell - rechtliche Entscheidung bei Leistungsbezug.**\n• **Korrektur** bei späterer tatsächlich abweichender (als geplanter) Verwendung nur **über § 15a UStG möglich**\n• Berichtigungs-Ztr nach § 15a UStG beginnt mit tatsächlicher Nutzung ➔ Somit **Vergleich** der für Vorst maßgebenden Nutzungsverhältnisse bei **Leistungsbezug** (ggf. nach Prognose) ⇳ **mit tatsächlicher Nutzung (bei Abweichung §15a-Fall)**" },
+      { text: "Die Übersicht in A 33 ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-51",
+    teil: TEIL,
+    kapitel: "51",
+    abschnittNr: "A 35 und A 36",
+    title: "Arbeitspapiere A 35 und A 36: Fehlmaßnahmen und Aufteilung nach § 15 Abs. 4 UStG am Beispiel von Immobilien",
+    thema: "Abweichung der tatsächlichen von den beabsichtigten steuerpflichtigen Ausgangsumsätzen (steuerfreie Umsätze oder ersatzloser Wegfall), Vorsteuer nach Verwendungsabsicht und Korrektur nach § 15a UStG; Zuordnung und Aufteilung bei gemischt genutzten Gebäuden (Nutzung/Erhaltung gegenüber Anschaffung/Herstellung), Teiloption, Fall BFH v. 11.11.2020",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 35 und A 36"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 4 UStG", "§ 15a UStG", "Abschn. 9.1 Abs. 6 UStAE", "Abschn. 15.12 UStAE", "Abschn. 15.17 Abs. 7 Satz 3 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Fehlmaßnahme", "Vorsteueraufteilung", "Immobilien"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 35 – Bsp.: Fehlmaßnahmen" },
+      { text: "**Eingangsleistungen mit USt**\n**Geplante / Beabsichtigte Ausgangsumsätze** in der Investitionsphase => **steuerpflichtige Umsätze**\n**Tatsächliche Ausgangsumsätze:**" },
+      { typ: "tabelle", spalten: ["Steuerfreie Umsätze", "Kein Ausgangsumsatz (ersatzloser Wegfall)"], zeilen: [
+        ["Zum Beispiel: Grundstücksvermietung, Heilbehandlungen, Kreditgeschäfte", "Zum Beispiel: erfolglose / gescheiterte Unternehmensgründung, Fehlinvestition"],
+        ["Zeitraum bis zur tatsächlichen Vermietung: Vorst nach der Verwendungsabsicht", "Vorsteuern nach der beabsichtigten Verwendung (Nachweisproblem)"],
+        ["Ab tatsächlicher Verwendung bis Ablauf Berichtigungszeitraum => Korrektur nach § 15a UStG", ""],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 36 – 10 Aufteilung gem. § 15 Abs. 4 am Bsp. Immobilien" },
+      { text: "❶ **Umsetzung der Rechtsprechungsgrundsätze (EuGH und BFH-Urteile) zum Aufteilungsvolumen**" },
+      { text: "• **Eingangsleistungen für die Nutzung, Erhaltung und Unterhaltung** von gemischt genutzten Gebäuden sind zunächst soweit möglich direkt den zum Vorsteuerabzug berechtigenden bzw. diesen ausschließenden Ausgangsumsätzen zuzuordnen.\nVerbleibende Vorsteuerbeträge sind sachgerecht aufzuteilen.\n• **Wird ein Gebäude durch einen Unternehmer angeschafft oder hergestellt** und gemischt genutzt\nDie gesamten auf die Anschaffungs- oder Herstellungskosten des Gebäudes entfallenden Vorsteuerbeträge einheitlich in einen abziehbaren und in einen nicht abziehbaren Teil aufzuteilen.\nKeine vorherige direkte Zuordnung von Eingangsleistungen zu bestimmten Umsätzen (Abschn. 15.17 Abs. 7 Satz 3 UStAE)\n• Bei der **Anschaffung eines Gebäudes mit Teiloption** (Abschn. 9.1 Abs. 6 UStAE) sind die daraus resultierenden Vorsteuerbeträge nur dem teiloptierten Gebäudeteil zuzuordnen." },
+      { text: "**Zum Beispiel Fall im Urteil des BFH v. 11.11.2020**\nHerstellung mit Vorst 570 T €" },
+      { typ: "tabelle", spalten: ["Gebäudeteil", "Fläche", "Verhältnis Mieten", "Verhältnis qm (FA)"], zeilen: [
+        ["Wohnungen", "800 qm", "52 %", "66 %"],
+        ["Gewerbeflächen", "400 qm", "48 %", "34 %"],
+      ] },
+      { text: "Nachrechnung (eigene Ergänzung): 800 qm von 1.200 qm = 66,67 %, 400 qm von 1.200 qm = 33,33 %; die Quelle rundet auf 66 % und 34 %." },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },

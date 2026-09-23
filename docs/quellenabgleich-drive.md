@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 33 bis A 36
+
+Übernommen (PDF-Seiten 93 bis 96, Seiten gerendert und angesehen): Kapitel ust-m-b11-50 (A 33 kein Ausschluss nach § 15 Abs. 3 UStG mit Beispiel Maschinenlieferung, A 34 Begriff Verwendung) und ust-m-b11-51 (A 35 Fehlmaßnahmen, A 36 Aufteilung nach § 15 Abs. 4 UStG bei Immobilien, Fall BFH v. 11.11.2020). Schaubilder als Tabellen wiedergegeben.
+
+- Stillschweigend berichtigt: „Hauptquatiere“ → „Hauptquartiere“ (A 33).
+- Nachrechnungen (eigene Ergänzung): A 33 Vorsteuer 38.000 bei 19 % (Satz in der Quelle nicht genannt); A 36 Flächenverhältnis 66,67 % / 33,33 %, von der Quelle auf 66 % / 34 % gerundet. Das Beispiel A 36 wird auf PDF-Seite 97 fortgeführt.
+
+Prüfung danach: 12 Teile, 456 Kapitel, 6331 Blöcke, 345 Tabellen.
+
+Weiter mit: Arbeitspapier A 37, PDF-Seite 97 (Bildseite).
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 29 bis A 32
 
 Übernommen (PDF-Seiten 89 bis 92, Seiten gerendert und angesehen, darunter die Bildseite 90): Kapitel ust-m-b11-48 (A 29 zeitliche Übergangsregelungen zur E-Rechnung, A 30 Skizze nach Jahren 2025 bis 2028) und ust-m-b11-49 (A 31 Vorsteuerabzug nach § 15 Abs. 1 Nr. 2 bis 5 UStG, A 32 Ausschluss nach § 15 Abs. 2 UStG). Skizzen als Tabellen wiedergegeben; die Smileys der Skizze A 30 (zustimmend / ablehnend) sind beschrieben.
