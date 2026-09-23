@@ -2400,8 +2400,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   A 27 ebenfalls vollständig, Block 4 (Entgeltliche Lieferungen) mit 22 Kapiteln einschließlich
   der Arbeitspapiere A 1 bis A 27 ebenfalls vollständig, Block 5 (Entgeltliche sonstige
   Leistungen) vollständig mit Textteil und Arbeitspapieren A 1 bis A 52 in 35 Kapiteln eingepflegt,
-  Block 6 (Werkverträge, § 13b UStG, GiG, Gutscheine) mit vollständigem Textteil in 27 Kapiteln (Werklieferung, § 13b UStG,
-  Geschäftsveräußerung im Ganzen, Gutscheine).
+  Block 6 (Werkverträge, § 13b UStG, GiG, Gutscheine) mit vollständigem Textteil (Werklieferung, § 13b UStG, Geschäftsveräußerung
+  im Ganzen, Gutscheine) und Arbeitspapieren bis Seite 7 in 28 Kapiteln.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

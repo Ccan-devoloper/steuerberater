@@ -10623,6 +10623,23 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 6: Arbeitspapiere Seite 1 bis 7
+
+Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neues Kapitel
+`ust-m-b06-28` für die PDF-Seiten 62 bis 68: Prüfkette Werklieferung/Werkleistung mit
+Garagen-Beispielen (Seite 1, als gegliederter Text), Zeitpunkt und Ort (Seite 2, Tabelle mit den
+Kopfzeilen der Quelle), Übersicht der § 13b-Fälle (Seite 3), Voraussetzungen nach Abs. 1 und
+Abs. 2 Nr. 1 (Seiten 4 und 5), Beispielsfälle (Seite 6, Tabelle mit ergänzten Spaltenköpfen,
+vermerkt), verpflichteter Personenkreis und Rechnung (Seite 7). Die Arbeitspapiere wurden am
+Layout-Auszug der PDF-Seiten gelesen; die nicht lesbaren Aufzählungszeichen auf Seite 4 und 5
+sind als ① bis ⑤ wiedergegeben (vermerkt). Stand des USt-Skripts: 6 Teile, 135 Kapitel, 2699 Blöcke, 132 Tabellen.
+
+**Stillschweigend berichtigt:** „Be- Verarbeitung“ (Be-, Verarbeitung), fehlende schließende
+Klammer bei „(Steine, Beton, Tor, Eisen?“, „§13b Abs. 7“, „„Ansässigkeit.“, „§14a“,
+„13 – Fälle“, „L.u.F gem.“, „Abschn.13b.14“, „„ Steuerschuldnerschaft …“.
+
+**Noch offen in Block 6:** Arbeitspapiere ab Seite 8 (PDF-Seite 69 ff.).
+
 ### USt-Skript (Moecker), Block 6: Textteil abgeschlossen (III.4.3 bis IV.3)
 
 Drive meldete weiterhin „session expired“. In `src/data/k1-ust-moecker/block06.js` neue Kapitel

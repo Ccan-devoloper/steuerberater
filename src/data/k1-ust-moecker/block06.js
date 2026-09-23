@@ -4,7 +4,7 @@
    Gutscheine – Vers. I 2026, Red. 04-26, Titelblatt Mai 2026), PDF-Seiten 2 bis 96
    der gemeinsamen Datei für die Blöcke 6 und 7 (130 PDF-Seiten).
    In Arbeit: Textteil I bis IV (PDF-Seiten 2 bis 61) vollständig; Arbeitspapiere (PDF-Seiten 62 bis 96)
-   folgen. */
+   bis Seite 7. */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 05/2026";
@@ -941,6 +941,64 @@ export const block06 = [
         ["Nichteinlösung bei Mehrzweck-Gutscheinen", "Abschn. 3.17 Abs. 13 UStAE"],
         ["Remonetarisierbarkeit von Mehrzweck-Gutscheinen", "Abschn. 3.17 Abs. 14 UStAE"],
       ] },
+    ],
+  },
+  {
+    id: "ust-m-b06-28",
+    teil: TEIL,
+    kapitel: "28",
+    abschnittNr: "Arbeitspapiere Seite 1 bis 7",
+    title: "Arbeitspapiere Seite 1 bis 7: Prüfschema Werklieferung / Werkleistung und Wechsel der Steuerschuldnerschaft nach § 13b UStG",
+    thema: "Prüfkette mit Garagen-Beispielen (Garagentor ab Lager, Fertiggarage, Lackieren, Bau aus eigenem oder fremdem Material), Zeitpunkt und Ort von Werklieferung und Werkleistung, Übersicht der § 13b-Fälle, Voraussetzungen nach Abs. 1 und Abs. 2 Nr. 1, Beispielsfälle, verpflichteter Personenkreis und Rechnungserteilung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere Seite 1 bis 7"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 4, 6 und 7 UStG", "§ 3a Abs. 2 und Abs. 3 Nr. 1 und 3 Buchst. c UStG", "§ 13b Abs. 1, Abs. 2 Nr. 1 bis 12, Abs. 5 und 7 UStG", "§ 14 Abs. 7 UStG", "§ 14a Abs. 5 UStG", "§ 14c Abs. 1 UStG", "§ 15 Abs. 1 Nr. 4 UStG", "§§ 19, 24 UStG", "Abschn. 3.8 UStAE", "Abschn. 3.12 Abs. 4 UStAE", "Abschn. 13b.14 UStAE"],
+    themen: ["Werklieferung", "Werkleistung", "Prüfschema", "Steuerschuldnerschaft", "Arbeitspapier"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier Seite 1 – 1. Werklieferungen / Werkleistungen – § 3 Abs. 4 UStG –" },
+      { text: "Die Prüfkette der Arbeitspapiere Seite 1 und 2 ist als gegliederter Text wiedergegeben." },
+      { text: "**1. Frage:** Ist der Unternehmer zur • **Be- oder Verarbeitung** • oder **Herstellung** eines • **fremden Gegenstandes** verpflichtet? (➔ Erfolg an fremdem Gegenstand wird geschuldet; Werk noch nicht existent) – z.B. LU ist verpflichtet • Garagentor des LE zu lackieren • Garage (Stein auf Stein & Fundament) zu errichten." },
+      { text: "➔ **Nein:** **Schlichte bewegte Lieferung** nach allgemeinen Grundsätzen (z.B. LU verkauft Garagentor ab Lager) bzw. **schlichte Montagelieferung** mit Ort § 3 Abs. 7 UStG (z.B. LU liefert Fertiggarage)." },
+      { text: "**Kasten:** Eine Werklieferung erfordert gem. Abschn. 3.8 UStAE die **Be- oder Verarbeitung eines fremden Gegenstandes**. Die Be- oder Verarbeitung oder Herstellung **eigener Gegenstände** des LU sind nicht für die Annahme einer Werklieferung ausreichend. Damit ist allein die Be-, Verarbeitung oder Herstellung eigener Gegenstände des LU **keine Werklieferung** (nur eine schlichte Lieferung; bewegt oder unbewegt)." },
+      { text: "➔ **Ja – 2. Frage:** Ist für den Werkerfolg **wenigstens ein Hauptstoff erforderlich** (Steine, Beton, Tor, Eisen?) (z.B. LU errichtet Garage)? ➔ **Nein:** Folge: **Werkleistung** des LU (z.B. LU lackiert Garagentor)." },
+      { text: "➔ **Ja – 3. Frage:** Wird **wenigstens ein Hauptstoff im eigenen Namen durch LU beschafft**? (z.B. LU stellt Garage aus eigenem Material her) ➔ **Nein:** ➔ **Materialgestellung**, Folge: **Werkleistung** des LU (z.B. LU stellt Garage aus Materialien des LE her). ➔ **Ja:** weiter Arbeitspapier Seite 2." },
+      { typ: "titel", text: "Arbeitspapier Seite 2" },
+      { typ: "tabelle", spalten: ["Es liegt eine Werklieferung gem. § 3 (4) durch LU vor.", "Es liegt eine Werkleistung vor."], zeilen: [
+        ["LU stellt a) eine Garage b) ein Schmuckstück aus eigenem Material her, aber Teile des Hauptstoffes (z.B. Fall a) Steine, Fall b) Diamant) stellt der LE = sog. Materialbeistellungen (Werklieferung, jedoch a) Steine b) Diamant scheiden aus LAT aus).", ""],
+        ["Zeitpunkt: tatsächliche Verschaffung der Verfügungsmacht am fertigen Werk durch Übergabe", "Zeitpunkt: mit Vollendung des Werkes"],
+        ["Ort: Werk incl. Montage (A 3.12 (4) S 1–6 UStAE) ➔ Montage-Werklieferung ➔ unbewegt § 3 (7) ➔ wo sich das fertige Werk befindet. Bewegliches Werk wird transportiert (A 3.12 (4) S 7 UStAE) ➔ Werk-Lieferung ➔ bewegt § 3 (6) ➔ Beginn Transport.", "Ort: wenn Zusammenhang mit Grundstück ➔ § 3a (3) 1 (für B2B- & B2C-Bereich) ➔ Belegenheitsort. An beweglichen Sachen ➔ B2B-Bereich § 3a (2) (Empfänger-Sitz-Prinzip); ➔ B2C-Bereich Tätigkeitsort § 3a (3) 3c."],
+      ] },
+      { typ: "titel", text: "Arbeitspapier Seite 3 – 2. Wechsel der Steuerschuldnerschaft – § 13b UStG –" },
+      { text: "➔ **§ 13b-Fälle in Deutschland:** LU erbringt eine Leistung an LE." },
+      { typ: "tabelle", spalten: ["Zwingendes RC-Verfahren gem. § 13b Abs. 1 UStG", "12 nationale RC-Verfahren gem. § 13b Abs. 2 Nr. 1–12"], zeilen: [
+        ["➔ B2B-Grundregel in der EU", "➔ Werklieferungen durch Ausländer, Bauleistungen, Gebäudereinigung usw."],
+      ] },
+      { text: "**Steuerschuldumkehr nach § 13b Abs. 5 UStG.** **Merke:** ➔ Gilt für alle 13 Fälle des § 13b: • Die Steuerschuldumkehr ist **Tatbestand-Sache** und somit **zwingend**. • Die USt beim LE entsteht **kraft Gesetzes**, nicht kraft formeller Voraussetzungen (§ 13b Abs. 1 und Abs. 2 UStG). • Die Berechtigung zum Abzug der Vorst beim LE gem. **§ 15 Abs. 1 Nr. 4 UStG** entsteht kraft Gesetzes, **nicht kraft Rechnung oder Beleg**. • Vorst somit **zeit- und betragsidentisch**. • Verletzung der Rechnungslegungspflicht des LU (§ 14 Abs. 7 / § 14a Abs. 5 UStG) ➔ **ohne Auswirkung auf den Vorsteuerabzug**." },
+      { typ: "titel", text: "Arbeitspapier Seite 4 – 2.1 B2B-Fall des § 13b Abs. 1 UStG" },
+      { text: "① LU ist ein **im übrigen Gemeinschaftsgebiet ansässiger Unternehmer**; ➔ gem. § 13b Abs. 7 Satz 2 UStG. **! Beachte Satz 3:** LU = im übrigen Gemeinschaftsgebiet ansässig, wenn er im Inland eine Betriebsstätte (BSt) hat, der Umsatz aber nicht von dieser BSt ausgeführt wurde; wenn durch BSt, dann ist LU inländischer Unternehmer. ② dieser erbringt eine in DE **steuerbare und steuerpflichtige sonstige Leistung nach der B2B-Grundregel**; ③ und der Leistungsempfänger (LE) ist gem. § 13b Abs. 5 Satz 1 UStG aus dem **B2B-Bereich** und somit ④ ein **Unternehmer**, ⑤ oder eine (gleichgestellte) **juristische Person**." },
+      { text: "① bis ⑤ erfüllt = **Folge:** LE ist nach § 13b Abs. 5 S. 1 UStG **Steuerschuldner** der nach § 13b (1) entstandenen USt **mit Ablauf des VAZ der Leistungsausführung**. **Beachte:** ➢ Grundsätze **Sollbesteuerung** gelten ➢ Grundsätze **Anzahlungsbesteuerung** gelten ➢ Auf **Zeitpunkt der Bezahlung kommt es nicht an**." },
+      { text: "Die Aufzählungszeichen der Arbeitspapiere Seite 4 und 5 sind in der Textextraktion nicht lesbar und hier als ① bis ⑤ wiedergegeben (eigene Ergänzung zur Darstellung; die Quelle verweist mit „bis erfüllt“ auf die Aufzählung)." },
+      { typ: "titel", text: "Arbeitspapier Seite 5 – 2.2 Werklieferung / andere sonstige Leistungen nach § 13b Abs. 2 Nr. 1 und System" },
+      { text: "① LU ist ein **im Ausland ansässiger Unternehmer** (EU oder Drittland) ➔ gem. § 13b Abs. 7 Satz 1 UStG. **Beachte:** Inländische St-Nr. / IdNr. **kein ausreichendes Merkmal** für „Ansässigkeit“. Bei Zweifel **Ansässigkeitsbescheinigung** durch FA notwendig. **Beachte Satz 3:** LU = im Ausland ansässig, wenn er im Inland eine BSt hat, der Umsatz aber nicht von dieser BSt ausgeführt wurde; wenn durch BSt, dann ist LU inländischer Unt. ② dieser erbringt eine in DE steuerbare und steuerpflichtige **Werklieferung** (sog. unbewegte Montagewerklief.) ③ **sonstige Leistung** (die nicht unter Abs. 1 fällt) (also B2B-Ausnahmeregeln oder alle B2B-Leistungen durch Drittlandsunternehmer) ④ und der Leistungsempfänger (LE) ist ein **Unternehmer** ⑤ oder eine **juristische Person (Nichtunternehmer)**." },
+      { text: "① bis ⑤ erfüllt = **Folge:** LE ist nach § 13b Abs. 5 S. 1 UStG **Steuerschuldner** der nach § 13b (2) Satz 1 entstandenen USt – **mit Ausstellung Rechnung** – **spätestens mit Ablauf des der Leistung folgenden Monats**. **Beachte:** ➢ Grundsätze der Sollbesteuerung gelten ➢ Grundsätze der Anzahlungsbesteuerung gelten." },
+      { typ: "titel", text: "Arbeitspapier Seite 6" },
+      { typ: "tabelle", spalten: ["Leistender", "Leistung", "Vorschrift"], zeilen: [
+        ["Rechtsanwalt / Unternehmensberater aus NL", "berät Unternehmer aus DE (so. Leistung – Grundregel § 3a (2))", "§ 13b Abs. 1 UStG"],
+        ["Werbeagentur aus der Schweiz", "berät Unternehmer aus DE über Anzeige (so. Leistung – Grundregel § 3a (2))", "§ 13b Abs. 2 Nr. 1 UStG"],
+        ["Leasing-Ges. aus FR", "vermietet Server an Unternehmer aus DE (so. Leistung – Grundregel § 3a (2))", "§ 13b Abs. 1 UStG"],
+        ["Bauunternehmer aus NL oder Schweiz", "errichtet in DE Gebäude oder einzelne Gewerke (sog. Montage-Werklieferung)", "§ 13b Abs. 2 Nr. 1 UStG"],
+        ["Hersteller aus NL oder Schweiz", "Montage-Werklieferung einer masch. Anlage in DE", "§ 13b Abs. 2 Nr. 1 UStG"],
+        ["Architekt aus NL oder Schweiz", "erstellt Bauplan für Hotel in Berlin (so. Leistung an Grundstücken)", "§ 13b Abs. 2 Nr. 1 UStG"],
+        ["Handwerker aus NL oder Schweiz", "wartet Aufzug eines Hotels in Berlin (so. Leistung an Grundstücken)", "§ 13b Abs. 2 Nr. 1 UStG"],
+      ] },
+      { text: "Die Beispielsübersicht Seite 6 ist als Tabelle wiedergegeben; die Spaltenköpfe „Leistender“, „Leistung“ und „Vorschrift“ sind eigene Ergänzung zur Darstellung." },
+      { typ: "titel", text: "Arbeitspapier Seite 7 – Verpflichteter Personenkreis – § 13b (5) S. 1 UStG –" },
+      { text: "**Leistungsempfänger:** **Unternehmer** / **juristische Personen** (insbes. öffentl. Rechts) (z.B. BR, BT, Gemeinde, Kammern)." },
+      { text: "**Unerheblich:** ➢ ob LE nur steuerfreie Tätigkeit ausführt (z.B. Bank, Arzt, Hausvermieter usw.). ➢ ob Kleinunternehmer gem. § 19 UStG / L.u.F. gem. § 24. ➢ ob für unternehmerischen oder privaten Bereich (Satz 7). ➢ ob Empfänger inländischer oder ausl. Unternehmer." },
+      { text: "Bei **anderen Leistungsempfängern** (z.B. B2C-Bereich) gilt für LU ➔ **allgemeines Besteuerungsverfahren** (Zuständigkeits-VO beachten)." },
+      { text: "**Hinweis:** ❖ Berechnung der USt nach allg. Vorschriften ❖ § 19 (Steuerfreiheit) & § 24 (Pauschalierung) gelten nicht." },
+      { text: "**Rechnungserteilung durch LU – § 14 (7) u. § 14a (5) –:** ❖ Für LU aus EU gilt gem. § 14 Abs. 7 UStG **Recht des Sitzstaates** ❖ LU aus Drittland oder DE gem. § 14a Abs. 5 UStG verpflichtet zur Rechnungserteilung mit Hinweis **„Steuerschuldnerschaft des Leistungsempfängers“** (fehlt Hinweis = keine Auswirkung, Abschn. 13b.14 UStAE) ❖ **Steuerausweis jedoch nicht zulässig** (sonst = **Straf-USt gem. § 14c Abs. 1 UStG** für LU)." },
     ],
   },
 ];
