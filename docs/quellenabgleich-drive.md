@@ -10623,6 +10623,26 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 1 vollständig (II.6 bis Arbeitspapier 8)
+
+Weil der Drive-Connector in dieser Runde durchgehend „session expired“ meldete (Download des
+ESt-Kurzskripts I viermal versucht), ist die Runde auf das bereits lokal vorliegende USt-Skript
+ausgewichen. Eingepflegt sind in `src/data/k1-ust-moecker/block01.js` die Kapitel
+`ust-m-b01-6` bis `ust-m-b01-12`: II.6 Steuerbefreiungen/Steuerpflicht, II.7
+Bemessungsgrundlagen mit Übersicht, II.8 Steuersatz, III.1/III.2 abziehbare Vorsteuern nach § 15
+Abs. 1 Nr. 1 bis 5 UStG, III.3 bis III.5 Ausschlüsse mit Gesamtübersicht und die Arbeitspapiere 1
+bis 8 (Prüfungsschema, Kernfragen, drei Prüfungswege, typische Aufgabenstellung, Übung Bäcker B).
+Block 1 ist damit vollständig (12 Kapitel, 209 Blöcke, 12 Tabellen).
+
+**Nachgerechnet:** Umrechnungsfaktoren 19/119 = 15,966 % und 7/107 = 6,542 % (Quelle: 15,96 und
+6,54); Bäcker B: 1,00 € brutto → 0,93 € BMG und 0,07 € USt.
+
+**Quellbefunde:** Beim EUSt-Abzug nennt die Quelle „Voraussetzung bis 2012 = entrichtet“ und die
+„Gesetzesänderung zum 1.7.2013“ (beides belassen, erläutert); „Eine Änderung der Verwendung …
+z.B. ein, wenn …“ (Verb fehlt, markiert); die Aufzählung der Eingangsbezüge im Arbeitspapier 5 endet
+mit „oder“ (markiert). Schaubilder (Bemessungsgrundlagen, Vorsteuerübersicht, Prüfungsschema)
+sind als Tabellen wiedergegeben.
+
 ### AO-Skript (Jacobs), Teil V – Abschnitt 13: Haftungsrecht, Seiten 64 bis 84 – AO-Skript vollständig
 
 Eingepflegt als Kapitel `ao-jacobs-13-16` bis `ao-jacobs-13-20`: § 75 AO (Voraussetzungen,

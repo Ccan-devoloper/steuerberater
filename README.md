@@ -2394,13 +2394,19 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 - **USt-Skript (Moecker)** (Klausur 1, Reiter Umsatzsteuer → „USt-Skript (Moecker)“): das
   Umsatzsteuer-Skript von Udo Moecker in 13 Blöcken mit Arbeitspapieren (neun PDF-Dateien, 1.071
-  Seiten, Stände 07/2025 bis 06/2026) im Wortlaut – **in Arbeit**, derzeit Block 1 mit 5 Kapiteln.
+  Seiten, Stände 07/2025 bis 06/2026) im Wortlaut – **in Arbeit**; Block 1 ist mit 12 Kapiteln
+  vollständig.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
   Umsatz nur, wenn er sämtliche Tatbestandsmerkmale einer der drei Nummern des § 1 Abs. 1 UStG
   erfüllt; fehlt der Leistungsaustausch, sind die unentgeltlichen Wertabgaben nach § 3 Abs. 1b und
-  Abs. 9a UStG zu prüfen, fehlt dagegen der Inlandsort, endet die Prüfung.
+  Abs. 9a UStG zu prüfen, fehlt dagegen der Inlandsort, endet die Prüfung. Es folgen
+  Steuerbefreiung und Steuerpflicht, die Übersicht der Bemessungsgrundlagen, die Steuersätze
+  mit Herausrechnungsfaktoren, der Vorsteuerabzug nach § 15 Abs. 1 Nr. 1 bis 5 UStG (die
+  Auslagerung ist zum 1.1.2026 entfallen), die Ausschlüsse nach § 15 Abs. 1a, 1b, 2 und 3 UStG
+  mit Gesamtübersicht sowie die Arbeitspapiere 1 bis 8 mit Prüfungsschema, Kernfragen,
+  Prüfungswegen, der typischen Klausuraufgabenstellung und der Übung „Bäcker B“.
   Prüfung: `npm run check:k1-ust-skript-moecker`
 - **Übungsfälle laufender Unterricht (Nöthen)** (Klausur 3, Reiter Bilanzen → „Übungsfälle
   (Nöthen)“): die **Bilanz-Fallsammlung, die den laufenden Unterricht begleitet** – alle
