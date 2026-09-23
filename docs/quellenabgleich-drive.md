@@ -10623,6 +10623,37 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 2 vollständig (II.3 Schluss bis Arbeitspapier A 14)
+
+Drive meldete auch in dieser Runde „session expired“ (ESt-Kurzskript I zweimal versucht). In
+`src/data/k1-ust-moecker/block02.js` ergänzt: Preisgelder beim Berufspokerspieler (Schluss von
+II.3, Kapitel `ust-m-b02-5`) und neue Kapitel `ust-m-b02-6` bis `ust-m-b02-13` für die
+PDF-Seiten 38 bis 61: II.4 Sonderfälle (Sponsoring, Abmahnungen, Ausfallhonorar,
+Weiterberechnung von Kosten), III.1/III.2 unentgeltliche Wertabgaben und Schenkung, III.3.1/III.3.2
+Schadenersatz und unerlaubte Handlungen, III.3.3 bis III.3.5 Minderung, Vertragsstrafen,
+Mahnkosten, III.4 Versicherungsleistungen und die Arbeitspapiere A 1 bis A 14. Block 3 beginnt mit
+PDF-Seite 62. Stand des USt-Skripts: 2 Teile, 25 Kapitel, 490 Blöcke, 27 Tabellen.
+
+**Nachgerechnet:** Ausfallhonorar 22.747,66 € + 52.252,34 € = 75.000 €; Lackschäden-Fall
+30.000 € ÷ 1,19 = 25.210,08 € (USt 4.789,92 €), nach Minderung 28.000 € ÷ 1,19 = 23.529,41 €
+(USt 4.470,59 €); Vertragsstrafe 10 % von 1.190 € = 119 €, 171 € = 19 % von 900 €;
+Versicherung Celle/Dresden 11.900 € ÷ 1,19 = 10.000 €; Zwangsversteigerung 8.000 € ÷ 1,19 =
+6.722,69 € (USt 1.277,31 €); Einbehalt-Beispiel A 12: 2.380 € − 1.380 € = 1.000 € = 50 % des
+Nettopreises.
+
+**Quellbefunde (markiert):** USt vor Minderung „4.789.91 €“ (richtig 4.789,92 €); „Verpflichtung
+zur Schadensbestätigung“ (gemeint wohl Schadensbeseitigung); „Die Geldzahlung durch den
+Geschädigten“ im Werkstatt-Fall (gemeint: durch den Schädiger); „Der gesamte vom X-Kreis gezahlte
+Betrag stellt keine Gegenleistung dar“ widerspricht dem zuvor wiedergegebenen Urteilsergebnis,
+wonach das Honorar für erbrachte Leistungsteile Entgelt bleibt; „A 1.3 (3) S. 2 UStR“ im
+Arbeitspapier A 12 (gemeint UStAE). Stillschweigend berichtigt: „entscheiden“ statt entschieden
+(dreimal), „BFH v. vom“, „Der BMG“, „kommt er hier“, „Das beide Ansprüche“, „Versenders“,
+„Preisegelder“, „Leistung- oder Annahmeverzug (§ 286, …)“, „Die entstanden Kosten“, ein
+überzähliges schließendes Anführungszeichen nach dem Parkplatz-Urteil. Die interne Kennung
+„040-31/09-19“ im Arbeitspapier A 4 ist nicht übernommen. Im Schaubild zur Zwangsversteigerung
+(A 2) bleibt offen, wofür der Betrag von 7.500 Euro beim Land NRW steht; das ist als eigene
+Anmerkung vermerkt.
+
 ### USt-Skript (Moecker), Block 2 begonnen (I bis II.3)
 
 Der Drive-Connector meldete auch in dieser Runde bei jedem Versuch „session expired“ (ESt-

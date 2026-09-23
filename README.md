@@ -2395,7 +2395,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **USt-Skript (Moecker)** (Klausur 1, Reiter Umsatzsteuer → „USt-Skript (Moecker)“): das
   Umsatzsteuer-Skript von Udo Moecker in 13 Blöcken mit Arbeitspapieren (neun PDF-Dateien, 1.071
   Seiten, Stände 07/2025 bis 06/2026) im Wortlaut – **in Arbeit**; Block 1 ist mit 12 Kapiteln
-  vollständig, Block 2 (Leistungen im Leistungsaustausch) bis II.3 mit 5 Kapiteln eingepflegt.
+  vollständig, Block 2 (Leistungen im Leistungsaustausch) mit 13 Kapiteln ebenfalls vollständig.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
@@ -2411,7 +2411,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (Leistungswille, Zwangsversteigerung, Tausch, Entnahme und Innenumsatz, Mindest-BMG unter
   Angehörigen), Verpflichtungs- und Erfüllungsgeschäft mit Leistungsbereitschaft und
   entgeltlichem Rechtsverzicht, dem Umfang der Leistung (Haupt- und Nebenleistung mit der
-  Rechtsprechung von Saatgut bis „Stadion Amsterdam“) sowie Gegenleistung und Kausalität.
+  Rechtsprechung von Saatgut bis „Stadion Amsterdam“) sowie Gegenleistung und Kausalität
+  (Preisgelder beim Berufspokerspieler). Es folgen die Sonderfälle Sponsoring, Abmahnungen,
+  Ausfallhonorar und Weiterberechnung von Kosten, die Fälle fehlenden Leistungsaustauschs
+  (unentgeltliche Wertabgaben, Schenkung, echter und unechter Schadenersatz mit den
+  Blechschaden-Fällen, Minderung, Vertragsstrafen, Mahnkosten, Transport- und
+  Warenkreditversicherung) und die Arbeitspapiere A 1 bis A 14.
   Prüfung: `npm run check:k1-ust-skript-moecker`
 - **Übungsfälle laufender Unterricht (Nöthen)** (Klausur 3, Reiter Bilanzen → „Übungsfälle
   (Nöthen)“): die **Bilanz-Fallsammlung, die den laufenden Unterricht begleitet** – alle

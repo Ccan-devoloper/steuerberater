@@ -11,7 +11,7 @@
    Blocks liegen in einer eigenen Datei unter `k1-ust-moecker/`.
 
    STAND DER ÜBERNAHME: in Arbeit – Block 1 (Einführung in das Umsatzsteuer-
-   recht) vollständig, Block 2 (Leistungen im Leistungsaustausch) bis II.3.
+   recht) vollständig, Block 2 (Leistungen im Leistungsaustausch) vollständig.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien
