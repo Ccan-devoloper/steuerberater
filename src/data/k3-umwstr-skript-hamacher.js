@@ -345,7 +345,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 1.2.1",
     verfasser: VERFASSER,
-    normen: ["§ 1 Abs. 3 Nr. 4 UmwStG", "§ 5 Abs. 4 GmbHG", "§ 27 AktG", "§ 56 GmbHG", "§ 205 AktG", "§ 712 BGB", "§ 123 UmwG", "§ 123 Abs. 3 UmwG", "§ 190 UmwG", "§ 20 UmwStG"],
+    normen: ["§ 1 Abs. 3 UmwStG", "§ 5 Abs. 4 GmbHG", "§ 27 AktG", "§ 56 GmbHG", "§ 205 AktG", "§ 712 BGB", "§ 123 UmwG", "§ 123 Abs. 3 UmwG", "§ 190 UmwG", "§ 20 UmwStG"],
     themen: ["Einzelrechtsnachfolge", "Gesamtrechtsnachfolge", "Sacheinlage", "Anwachsung", "Ausländische Vorgänge"],
     bloecke: [
       { typ: "titel", text: "1.2 Allgemeine Voraussetzungen der §§ 20 und 21 UmwStG" },
@@ -382,7 +382,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 1.2.2",
     verfasser: VERFASSER,
-    normen: ["§ 20 UmwStG", "§ 1 Abs. 4 Nr. 1 UmwStG", "§ 16 EStG", "§ 49 Abs. 1 Nr. 2e EStG", "§ 15 EStG", "§ 49 Abs. 1 Nr. 2a EStG", "§ 1 Abs. 4 Nr. 2b UmwStG", "§ 1 Abs. 3 Nr. 5 UmwStG", "§ 20 Abs. 5 UmwStG", "§ 17 EStG"],
+    normen: ["§ 20 UmwStG", "§ 1 Abs. 4 UmwStG", "§ 16 EStG", "§ 49 Abs. 1 EStG", "§ 15 EStG", "§ 1 Abs. 3 UmwStG", "§ 20 Abs. 5 UmwStG", "§ 17 EStG"],
     themen: ["Ansässigkeit", "EU/EWR", "Drittstaat", "DBA", "Anteilstausch"],
     bloecke: [
       { typ: "titel", text: "1.2.2.1 Übernehmende Gesellschaft" },
@@ -453,7 +453,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 2.1",
     verfasser: VERFASSER,
-    normen: ["§ 20 UmwStG", "§ 20 Abs. 1 UmwStG", "§ 1 Abs. 4 Nr. 2 UmwStG", "§ 1 Abs. 4 Nr. 1 UmwStG"],
+    normen: ["§ 20 UmwStG", "§ 20 Abs. 1 UmwStG", "§ 1 Abs. 4 UmwStG"],
     themen: ["Tatbestandsmerkmale", "Betriebseinbringung"],
     bloecke: [
       { typ: "titel", text: "2. Betriebseinbringung (§ 20 UmwStG)" },
@@ -496,7 +496,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 2.2.2",
     verfasser: VERFASSER,
-    normen: ["§ 123 UmwG", "§ 1 Abs. 4 Nr. 2 UmwStG"],
+    normen: ["§ 123 UmwG", "§ 1 Abs. 4 UmwStG"],
     themen: ["Mitunternehmer", "Personengesellschaft als Einbringende", "Ausgliederung"],
     bloecke: [
       "Bei Personengesellschaften ist im Zusammenhang ist hinsichtlich der Bestimmung des Einbringenden entscheidend, wem die Gegenleistung zugerechnet wird und ob die Personengesellschaft im Zuge der Einbringung untergeht.",
@@ -528,7 +528,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 2.3.1",
     verfasser: VERFASSER,
-    normen: ["§ 1 Abs. 4 Nr. 1 UmwStG"],
+    normen: ["§ 1 Abs. 4 UmwStG"],
     themen: ["Übernehmende Kapitalgesellschaft", "Neugegründete Kapitalgesellschaft", "Rückbezug"],
     bloecke: [
       { typ: "titel", text: "2.3 Übernehmende Kapitalgesellschaft" },
@@ -793,7 +793,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 2.4.4",
     verfasser: VERFASSER,
-    normen: ["§ 20 UmwStG", "§ 6 Abs. 3 EStG", "§ 20 Abs. 2 UmwStG", "§ 16 Abs. 1 EStG", "§ 16 EStG", "§ 15 Abs. 1 Nr. 2 EStG", "§ 18 EStG", "§ 15 Abs. 3 Nr. 2 EStG", "§ 15 Abs. 1 Nr. 3 EStG", "§ 230 HGB"],
+    normen: ["§ 20 UmwStG", "§ 6 Abs. 3 EStG", "§ 20 Abs. 2 UmwStG", "§ 16 Abs. 1 EStG", "§ 16 EStG", "§ 15 Abs. 1 EStG", "§ 18 EStG", "§ 15 Abs. 3 EStG", "§ 230 HGB"],
     themen: ["Mitunternehmeranteil", "Sonderbetriebsvermögen", "Teilanteilseinbringung", "Sperrfrist § 6 Abs. 3 EStG"],
     bloecke: [
       { typ: "titel", text: "2.4.4.1 Umfang des Mitunternehmeranteils" },
@@ -856,7 +856,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 2.5.1",
     verfasser: VERFASSER,
-    normen: ["§ 20 UmwStG", "§ 20 Abs. 3 UmwStG", "§ 27 KStG", "§ 20 Abs. 2 Nr. 4 UmwStG", "§ 27 Abs. 2 KStG", "§ 20 Abs. 2 UmwStG", "§ 20 Abs. 5 UmwStG", "§ 16 EStG", "§ 54 Abs. 4 UmwG", "§§ 5 Abs. 4 GmbHG"],
+    normen: ["§ 20 UmwStG", "§ 20 Abs. 3 UmwStG", "§ 27 KStG", "§ 20 Abs. 2 UmwStG", "§ 27 Abs. 2 KStG", "§ 20 Abs. 5 UmwStG", "§ 16 EStG", "§ 54 Abs. 4 UmwG", "§§ 5 Abs. 4 GmbHG"],
     themen: ["Neue Anteile", "Sachagio", "Einlagekonto", "Sonstige Gegenleistung"],
     bloecke: [
       { typ: "titel", text: "2.5 Gegenleistung der Einbringung" },
@@ -926,7 +926,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 2.5.2",
     verfasser: VERFASSER,
-    normen: ["§ 16 Abs. 3 EStG", "§ 20 UmwStG", "§ 5 Abs. 4 GmbHG", "§ 19 Abs. 4 GmbHG", "§ 27 Abs. 3 AktG", "§ 8 Abs. 3 KStG", "§ 17 Abs. 2a Nr. 1 EStG", "§ 6 Abs. 6 EStG"],
+    normen: ["§ 16 Abs. 3 EStG", "§ 20 UmwStG", "§ 5 Abs. 4 GmbHG", "§ 19 Abs. 4 GmbHG", "§ 27 Abs. 3 AktG", "§ 8 Abs. 3 KStG", "§ 17 Abs. 2a EStG", "§ 6 Abs. 6 EStG"],
     themen: ["Verschleierte Sachgründung", "Verdeckte Einlage", "Betriebsaufgabe"],
     bloecke: [
       "Bei einer verschleierten Sachgründung werden Wirtschaftsgüter auf die Kapitalgesellschaft übertragen, ohne dass dafür als Gegenleistung neue Gesellschaftsrechte gewährt werden. Die Übertragung wird nur gegen Verrechnung mit einem bereits bestehenden „Einzahlungsanspruch“ vorgenommen, den die Gesellschaft aufgrund einer vorherigen Bargründung oder Barkapitalerhöhung hatte. § 20 UmwStG kann auf diese Sachverhalte nicht angewendet werden⁸¹.",
@@ -992,7 +992,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 2.6",
     verfasser: VERFASSER,
-    normen: ["§ 20 UmwStG", "§ 16 Abs. 3 EStG", "§ 20 Abs. 1 UmwStG", "§ 39 Abs. 2 Nr. 1 AO", "§ 6 Abs. 6 EStG"],
+    normen: ["§ 20 UmwStG", "§ 16 Abs. 3 EStG", "§ 20 Abs. 1 UmwStG", "§ 39 Abs. 2 AO", "§ 6 Abs. 6 EStG"],
     themen: ["Vermögensübergang", "Wirtschaftliches Eigentum"],
     bloecke: [
       "§ 20 Abs. 1 UmwStG setzt voraus, dass die funktional wesentlichen Betriebsgrundlagen auf die Kapitalgesellschaft tatsächlich übertragen werden. Dafür ist erforderlich, dass zumindest das wirtschaftliche Eigentum i.S. des § 39 Abs. 2 Nr. 1 AO auf die Kapitalgesellschaft übergeht⁸⁶.",
@@ -1140,7 +1140,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 3.3",
     verfasser: VERFASSER,
-    normen: ["§ 20 Abs. 3 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 20 Abs. 2 Nr. 1 UmwStG", "§ 5 KStG"],
+    normen: ["§ 20 Abs. 3 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 5 KStG"],
     themen: ["Voraussetzungen Ansatzwahlrecht", "Körperschaftsteuerpflicht"],
     bloecke: [
       "Das Antragswahlrecht ist an weitere Voraussetzungen gebunden, die kumulativ erfüllt sein müssen (§ 20 Abs. 2 Satz 2 Nr. 1 – 4 UmwStG). Sind diese nicht erfüllt, kann dies teilweise zur Einschränkung des beantragten Buch- oder Zwischenwertansatzes führen. Diese Voraussetzungen sind aus Sicht eines jeden Einbringenden zu überprüfen, weil nur bei diesen gemäß § 20 Abs. 3 Satz 1 UmwStG die steuerlichen Auswirkungen des von der Kapitalgesellschaft gewählten Wertansatzes zu ziehen sind. Dies bedeutet, dass m.E. auch bei der Einbringung eines Betriebs durch die Mitunternehmer i.S. der Rn. 20.05 des UmwSt-Erlasses die Voraussetzungen des § 20 Abs. 2 Satz 2 UmwStG jeweils bei jedem Mitunternehmer getrennt voneinander überprüft werden müssen, wobei hierfür ausschließlich die Voraussetzungen des § 20 Abs. 2 Satz 2 Nr. 2 und Nr. 4 UmwStG entscheidend sind. Denn die Voraussetzungen der § 20 Abs. 2 Satz 2 Nr. 1 und Nr. 3 UmwStG beziehen sich nur auf das eingebrachte Betriebsvermögen.",
@@ -1159,7 +1159,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 3.3.2",
     verfasser: VERFASSER,
-    normen: ["§ 20 Abs. 3 UmwStG", "§ 20 Abs. 2 Nr. 2 UmwStG", "§ 20 Abs. 4 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 20 Abs. 1 UmwStG", "§ 20 UmwStG", "§ 16 Abs. 1 Nr. 1 EStG", "§ 16 Abs. 4 EStG", "§ 34 EStG", "§ 16 EStG"],
+    normen: ["§ 20 Abs. 3 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 20 Abs. 4 UmwStG", "§ 20 Abs. 1 UmwStG", "§ 20 UmwStG", "§ 16 Abs. 1 EStG", "§ 16 Abs. 4 EStG", "§ 34 EStG", "§ 16 EStG"],
     themen: ["Negatives Betriebsvermögen", "Wertaufstockung", "Ausgleichsposten"],
     bloecke: [
       "Das eingebrachte Betriebsvermögen darf im Zeitpunkt der Einbringung nicht negativ sein. In diesem Fall ist ein Buchwertansatz nicht mehr möglich, weil § 20 Abs. 2 Satz 2 Nr. 2 UmwStG die Übernahme eines negativen Buchwertes ausschließt. Der Wertansatz beträgt bei der Kapitalgesellschaft daher mindestens 0 €, was zu einem erzwungenen Zwischenwertansatz führt. Weil dadurch der steuerliche Wertansatz von der in der Handelsbilanz abweicht, ist in diesen Fällen in der Steuerbilanz der Übernehmerin ein Ausgleichsposten i.S. der Rn. 20.20 in Höhe der Differenz zum Nennkapital auszuweisen.",
@@ -1201,7 +1201,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 3.3.3",
     verfasser: VERFASSER,
-    normen: ["§ 20 Abs. 2 Nr. 3 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 4g Abs. 1 EStG", "§ 4 Abs. 1 EStG", "§ 1 Abs. 5 AStG", "§ 20 Abs. 7 UmwStG", "§ 6 Abs. 1 Nr. 5a EStG", "§ 20 Abs. 1 UmwStG", "§ 16 EStG", "§ 52 Abs. 8a EStG"],
+    normen: ["§ 20 Abs. 2 UmwStG", "§ 4g Abs. 1 EStG", "§ 4 Abs. 1 EStG", "§ 1 Abs. 5 AStG", "§ 20 Abs. 7 UmwStG", "§ 6 Abs. 1 EStG", "§ 20 Abs. 1 UmwStG", "§ 16 EStG", "§ 52 Abs. 8a EStG"],
     themen: ["Besteuerungsrecht", "Entstrickung"],
     bloecke: [
       "Die Einbringung darf nicht dazu führen, dass das deutsche Besteuerungsrecht an dem eingebrachten Betriebsvermögen ganz oder teilweise eingeschränkt wird. Dazu kann es kommen, wenn dieses nachfolgend erstmalig einem anderen ausländischen Staat zustehen würde (Ausschluss des deutschen Besteuerungsrechtes) oder in Deutschland eine Anrechnungsverpflichtung besteht (Beschränkung des deutschen Besteuerungsrechtes). In diesen Fällen sieht § 20 Abs. 2 Satz 2 Nr. 3 UmwStG durch Ansatz des gemeinen Wertes insoweit beim Einbringenden eine Entstrickungsbesteuerung vor, wobei der Entstrickungsgewinn nicht gestundet werden kann. Zur Abmilderung dieser Besteuerung kann der Einbringende unter den weiteren Voraussetzungen des § 4g Abs. 1 Satz 4 EStG i.d.F. des JStG 2024 in seiner Steuerbilanz auf Antrag einen ratierlich aufzulösenden Ausgleichsposten i.S. des § 4g Abs. 1 Satz 1 – 3 EStG bilden¹⁰³ ¹⁰⁴. In den Fällen, in denen das deutsche Besteuerungsrecht unverändert bleibt, kann das Ansatzwahlrecht uneingeschränkt ausgeübt werden. Nicht entscheidend ist hingegen, wem das deutsche Besteuerungsrecht an den anlässlich der Einbringung erhaltenen Anteilen zusteht, welches abweichend davon auch im ausländischen Sitzstaat des Einbringenden liegen kann.",
@@ -1234,7 +1234,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 3.3.4",
     verfasser: VERFASSER,
-    normen: ["§ 20 Abs. 3 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 20 Abs. 2 Nr. 4 UmwStG", "§ 16 EStG", "§ 20 Abs. 3 EStG", "§ 20 Abs. 1 UmwStG", "§ 20 Abs. 2 Nr. 2 UmwStG", "§ 20 Abs. 4 UmwStG", "§ 54 Abs. 4 UmwG"],
+    normen: ["§ 20 Abs. 3 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 16 EStG", "§ 20 Abs. 1 UmwStG", "§ 20 Abs. 4 UmwStG", "§ 54 Abs. 4 UmwG"],
     themen: ["Sonstige Gegenleistung", "Unschädlichkeitsgrenze", "Zwischenwert", "Deckelungsregelung"],
     bloecke: [
       { typ: "titel", text: "3.3.4.1 Einschränkung für jeden Einbringungsgegenstand" },
@@ -1259,7 +1259,7 @@ const kapitelRoh = [
         ["Aktiva:", "500.000 €", "Stammkapital:", "25.000 €"],
         ["Ausgleichsposten:", "25.000 €", "Verbindlichkeit A:", "500.000 €"],
       ] },
-      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 500.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (Gewinn i.S. des § 16 EStG: 0 €) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG um den Betrag der sonstigen Gegenleistung zu vermindern sind und danach 0 € betragen.",
+      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 500.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (Gewinn i.S. des § 16 EStG: 0 €) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG (so in der Quelle; gemeint § 20 Abs. 3 Satz 3 UmwStG) um den Betrag der sonstigen Gegenleistung zu vermindern sind und danach 0 € betragen.",
       { typ: "titel", text: "Beispiel" },
       "Der in Deutschland ansässige A bringt mit Wirkung zum 31.12.2025 seinen Betrieb (Buchwert: 4.000.000 €, gemeiner Wert: 10.000.000 €) im Wege der Einzelrechtsnachfolge in die A-GmbH ein. Diese gewährt dem A neben einem neuen Gesellschaftsanteil von nominal 100.000 € auch eine sonstige Gegenleistung in Form eines Darlehensanspruchs von 5.000.000 €. Die A-GmbH beantragt den Buchwertansatz.",
       { typ: "titel", text: "Lösung" },
@@ -1283,7 +1283,7 @@ const kapitelRoh = [
         ["", "", "Verbindlichkeit A:", "5.000.000 €"],
       ] },
       "Gleichzeitig erhöht sich bei der A-GmbH der Bestand des steuerlichen Einlagekontos zum 31.12.2025 um 1.300.000 €.",
-      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 6.400.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (Gewinn i.S. des § 16 EStG: 2.400.000 €, aber keine Begünstigung nach §§ 16 Abs. 4 und 34 EStG, § 20 Abs. 4 Satz 1 UmwStG) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG um den Betrag der sonstigen Gegenleistung zu vermindern sind. Die Anschaffungskosten betragen danach 1.400.000 € (6.400.000 € - 5.000.000 €).",
+      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 6.400.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (Gewinn i.S. des § 16 EStG: 2.400.000 €, aber keine Begünstigung nach §§ 16 Abs. 4 und 34 EStG, § 20 Abs. 4 Satz 1 UmwStG) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG (so in der Quelle; gemeint § 20 Abs. 3 Satz 3 UmwStG) um den Betrag der sonstigen Gegenleistung zu vermindern sind. Die Anschaffungskosten betragen danach 1.400.000 € (6.400.000 € - 5.000.000 €).",
       "§ 20 Abs. 2 Satz 2 Nr. 4 UmwStG ist auch in den Fällen zu beachten, in denen die sonstige Gegenleistung im Zusammenhang mit einem negativen Buchwert des Einbringungsgegenstandes erfolgt. Denn nach § 20 Abs. 2 Satz 2 Nr. 2 UmwStG ist der negative Buchwert zu beseitigen, so dass der für Zwecke der sonstigen Gegenleistung maßgebliche Ausgangswert 0 € beträgt. Danach ist bereits jegliche sonstige Gegenleistung schädlich und würde zu einer anteiligen Aufdeckung der gesamten stillen Reserven führen. Der Wertansatz entspricht danach grundsätzlich dem gemeinen Wert der sonstigen Gegenleistung, was beim Einbringenden unter Berücksichtigung des § 20 Abs. 3 Satz 3 UmwStG zu Anschaffungskosten seiner Anteile in Höhe von 0 € führt.",
       { typ: "titel", text: "Beispiel" },
       "Der in Deutschland ansässige A bringt mit Wirkung zum 31.12.2025 seinen Betrieb (Buchwert: -100.000 €, gemeiner Wert: 10.000.000 €) im Wege der Einzelrechtsnachfolge in die A-GmbH ein. Diese gewährt ihm neben einem neuen Gesellschaftsanteil von nominal 100.000 € auch eine sonstige Gegenleistung in Form eines Darlehensanspruchs von 5.000.000 €.",
@@ -1306,7 +1306,7 @@ const kapitelRoh = [
         ["Aktiva:", "5.000.000 €", "Stammkapital:", "100.000 €"],
         ["Ausgleichsposten:", "100.000 €", "Verbindlichkeit A:", "5.000.000 €"],
       ] },
-      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 5.000.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (5.000.000 € + 100.000 €; Gewinn i.S. des § 16 EStG: 5.100.000 €, aber keine Begünstigung nach §§ 16 Abs. 4 und 34 EStG) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG um den Betrag der sonstigen Gegenleistung zu vermindern sind. Die Anschaffungskosten betragen danach 0 € (5.000.000 € - 5.000.000 €).",
+      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 5.000.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (5.000.000 € + 100.000 €; Gewinn i.S. des § 16 EStG: 5.100.000 €, aber keine Begünstigung nach §§ 16 Abs. 4 und 34 EStG) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG (so in der Quelle; gemeint § 20 Abs. 3 Satz 3 UmwStG) um den Betrag der sonstigen Gegenleistung zu vermindern sind. Die Anschaffungskosten betragen danach 0 € (5.000.000 € - 5.000.000 €).",
       { typ: "titel", text: "3.3.4.3 Deckelungsregelung" },
       "Um zu verhindern, dass durch § 20 Abs. 2 Satz 2 Nr. 4 UmwStG und der nachfolgenden Korrektur der Anschaffungskosten i.S. des § 20 Abs. 3 Satz 3 UmwStG negative Anschaffungskosten der Anteile entstehen, sieht § 20 Abs. 2 Satz 4 UmwStG wiederum einen Mindestansatz vor. Danach entspricht der Wertansatz bereits dem gemeinen Wert der sonstigen Gegenleistung, wenn der sich nach Anwendung des § 20 Abs. 2 Satz 2 UmwStG ergebende Wertansatz geringer als der gemeine Wert der sonstigen Gegenleistung ist:",
       "Anwendungsbereich des § 20 Abs. 2 Satz 4 UmwStG: Wertansatz i.S. des § 20 Abs. 2 Satz 2 UmwStG < gemeiner Wert der sonst. Gegenleistung",
@@ -1334,7 +1334,7 @@ const kapitelRoh = [
         ["Aktiva:", "750.000 €", "Stammkapital:", "100.000 €"],
         ["Ausgleichsposten:", "100.000 €", "Verbindlichkeit A:", "750.000 €"],
       ] },
-      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 750.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (Gewinn i.S. des § 16 EStG: 750.000 € - 600.000 € = 150.000 €, aber keine Begünstigung nach §§ 16 Abs. 4 und 34 EStG) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG um den Betrag der sonstigen Gegenleistung zu vermindern sind. Die Anschaffungskosten betragen danach 0 € (750.000 € - 750.000 €).",
+      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 750.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (Gewinn i.S. des § 16 EStG: 750.000 € - 600.000 € = 150.000 €, aber keine Begünstigung nach §§ 16 Abs. 4 und 34 EStG) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG (so in der Quelle; gemeint § 20 Abs. 3 Satz 3 UmwStG) um den Betrag der sonstigen Gegenleistung zu vermindern sind. Die Anschaffungskosten betragen danach 0 € (750.000 € - 750.000 €).",
       { typ: "titel", text: "Fußnoten der Quelle" },
       "¹⁰⁷ Beachte § 54 Abs. 4 UmwG in den Fällen der Gesamtrechtsnachfolge.",
       "¹⁰⁸ BMF vom 02.01.2025, Rn. 20.19a.",
@@ -1350,7 +1350,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 3.4.1",
     verfasser: VERFASSER,
-    normen: ["§ 1 Abs. 5 Nr. 4 UmwStG", "§ 4 Abs. 2 EStG"],
+    normen: ["§ 1 Abs. 5 UmwStG", "§ 4 Abs. 2 EStG"],
     themen: ["Buchwert"],
     bloecke: [
       { typ: "titel", text: "3.4 Einzelheiten zu den Wertansätzen" },
@@ -1551,7 +1551,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 3.6.2",
     verfasser: VERFASSER,
-    normen: ["§ 20 Abs. 6 UmwStG", "§ 15 Abs. 1 Nr. 2 EStG", "§ 20 Abs. 1 UmwStG", "§ 8 Abs. 3 KStG", "§ 19 EStG", "§ 17 Abs. 2 UmwG", "§ 25 UmwStG", "§ 20 Abs. 5 UmwStG", "§ 1a KStG", "§ 1a Abs. 2 KStG"],
+    normen: ["§ 20 Abs. 6 UmwStG", "§ 15 Abs. 1 EStG", "§ 20 Abs. 1 UmwStG", "§ 8 Abs. 3 KStG", "§ 19 EStG", "§ 17 Abs. 2 UmwG", "§ 25 UmwStG", "§ 20 Abs. 5 UmwStG", "§ 1a KStG", "§ 1a Abs. 2 KStG"],
     themen: ["Rückbeziehung", "Rückbezug um acht Monate", "Sacheinlage", "Rückwirkung von Verträgen"],
     bloecke: [
       { typ: "titel", text: "3.6.2.1 Einbringungen im Rahmen einer Gesamtrechtsnachfolge" },
@@ -1606,7 +1606,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 3.6.3",
     verfasser: VERFASSER,
-    normen: ["§ 20 Abs. 5 UmwStG", "§ 20 Abs. 3 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 6 Abs. 1 Nr. 4 EStG", "§ 4 Abs. 1 EStG", "§ 27 KStG", "§ 24 EStG", "§ 8 Abs. 3 KStG", "§ 20 Abs. 2 Nr. 4 UmwStG", "§ 27 Abs. 2 KStG"],
+    normen: ["§ 20 Abs. 5 UmwStG", "§ 20 Abs. 3 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 6 Abs. 1 EStG", "§ 4 Abs. 1 EStG", "§ 27 KStG", "§ 24 EStG", "§ 8 Abs. 3 KStG", "§ 27 Abs. 2 KStG"],
     themen: ["Rückwirkungszeitraum", "Entnahmen", "Einlagen", "Ausgleichsposten"],
     bloecke: [
       { typ: "titel", text: "3.6.3.1 Entnahmen" },
@@ -1702,7 +1702,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 3.6.4",
     verfasser: VERFASSER,
-    normen: ["§ 20 Abs. 2 UmwStG", "§ 20 Abs. 5 UmwStG", "§ 20 Abs. 3 UmwStG", "§ 20 Abs. 2 Nr. 4 UmwStG", "§ 27 Abs. 23 UmwStG", "§ 20 Abs. 2 Nr. 2 UmwStG", "§ 16 EStG", "§ 20 Abs. 4 UmwStG", "§ 20 Abs. 2 Nr. 4b UmwStG"],
+    normen: ["§ 20 Abs. 2 UmwStG", "§ 20 Abs. 5 UmwStG", "§ 20 Abs. 3 UmwStG", "§ 27 Abs. 23 UmwStG", "§ 16 EStG", "§ 20 Abs. 4 UmwStG"],
     themen: ["Entnahmen", "Wertaufstockung", "Sonstige Gegenleistung"],
     bloecke: [
       { typ: "titel", text: "3.6.4.1 Zwingende Wertaufstockung" },
@@ -1774,7 +1774,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 4.1.1",
     verfasser: VERFASSER,
-    normen: ["§ 21 UmwStG", "§ 20 UmwStG", "§ 17 EStG", "§ 20 Abs. 4a EStG", "§ 1 Abs. 4 Nr. 1 UmwStG", "§ 20 Abs. 2 EStG", "§ 20 Abs. 2 Nr. 1 EStG"],
+    normen: ["§ 21 UmwStG", "§ 20 UmwStG", "§ 17 EStG", "§ 20 Abs. 4a EStG", "§ 1 Abs. 4 UmwStG", "§ 20 Abs. 2 EStG"],
     themen: ["Anteilstausch", "Steuerverstrickte Anteile", "§ 20 Abs. 4a EStG"],
     bloecke: [
       { typ: "titel", text: "4. Anteilstausch (§ 21 UmwStG)" },
@@ -1837,7 +1837,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 4.1.3",
     verfasser: VERFASSER,
-    normen: ["§ 21 Abs. 1 UmwStG", "§ 21 Abs. 2 UmwStG", "§ 21 Abs. 1 Nr. 1 UmwStG", "§ 21 Abs. 1 Nr. 2 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 16 EStG", "§ 3c Abs. 2 EStG", "§ 16 Abs. 4 EStG", "§ 21 Abs. 3 UmwStG"],
+    normen: ["§ 21 Abs. 1 UmwStG", "§ 21 Abs. 2 UmwStG", "§ 20 Abs. 2 UmwStG", "§ 16 EStG", "§ 3c Abs. 2 EStG", "§ 16 Abs. 4 EStG", "§ 21 Abs. 3 UmwStG"],
     themen: ["Qualifizierter Anteilstausch", "Mehrheitsvermittelnder Anteil", "Sonstige Gegenleistung"],
     bloecke: [
       { typ: "titel", text: "4.1.3.1 Antrag durch Kapitalgesellschaft" },
@@ -1930,7 +1930,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 4.2.1",
     verfasser: VERFASSER,
-    normen: ["§ 21 Abs. 2 UmwStG", "§ 21 UmwStG", "§ 1 Abs. 4 Nr. 1 UmwStG", "§ 21 Abs. 2 Nr. 1 UmwStG", "§ 21 Abs. 2 Nr. 2 UmwStG"],
+    normen: ["§ 21 Abs. 2 UmwStG", "§ 21 UmwStG", "§ 1 Abs. 4 UmwStG"],
     themen: ["Auslandseinbringung", "Besteuerungsrecht"],
     bloecke: [
       { typ: "titel", text: "4.2 Auslandseinbringungen (Hinweis)" },
@@ -1960,7 +1960,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 4.2.2",
     verfasser: VERFASSER,
-    normen: ["§ 21 Abs. 2 Nr. 2 UmwStG", "§ 21 Abs. 2 UmwStG", "§ 21 Abs. 2 Nr. 1 UmwStG", "§ 21 UmwStG", "§ 1 Abs. 4 Nr. 1 UmwStG", "§ 21 Abs. 1 Nr. 2 UmwStG"],
+    normen: ["§ 21 Abs. 2 UmwStG", "§ 21 UmwStG", "§ 1 Abs. 4 UmwStG", "§ 21 Abs. 1 UmwStG"],
     themen: ["Grenzüberschreitender Anteilstausch", "Fusionsrichtlinie", "Treaty Override"],
     bloecke: [
       "Durch § 21 Abs. 2 Satz 3 UmwStG kann der ansonsten zwingende Ansatz des gemeinen Wertes verhindert werden. Der Einbringende besitzt in diesen Fällen ein eigenes Ansatzwahlrecht zum Buch- oder Zwischenwertansatz. Dieses Antragswahlrecht besteht zudem auch nur bei der Einbringung von mehrheitsvermittelnden Anteilen (siehe 4.1.4.2). Gleiches gilt auch hinsichtlich einer sonstigen Gegenleistung durch die ausländische Gesellschaft, welche die in § 21 Abs. 1 Satz 2 Nr. 2 UmwStG genannten Grenzen nicht überschreiten darf. Dieses Antragswahlrecht besteht in folgenden Fallvarianten:",
@@ -2016,7 +2016,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 4.3.2",
     verfasser: VERFASSER,
-    normen: ["§ 20 UmwStG", "§ 20 Abs. 6 UmwStG", "§ 21 Abs. 1 UmwStG", "§ 14 Abs. 1 Nr. 1 KStG"],
+    normen: ["§ 20 UmwStG", "§ 20 Abs. 6 UmwStG", "§ 21 Abs. 1 UmwStG", "§ 14 Abs. 1 KStG"],
     themen: ["Rückwirkung", "Anteilstausch"],
     bloecke: [
       "Im Gegensatz zur Betriebseinbringung i.S. des § 20 UmwStG ist beim Anteilstausch keine steuerliche Rückwirkung möglich, weil eine dem § 20 Abs. 6 UmwStG vergleichbare Regelung fehlt. Der Anteilstausch gilt steuerlich daher erst bei Übergang des wirtschaftlichen Eigentums an den eingebrachten Anteilen als vollzogen¹⁶³. Dieser Stichtag ist auch maßgebend für die Prüfung, ob überhaupt ein qualifizierter Anteilstausch i.S. des § 21 Abs. 1 Satz 2 UmwStG gegeben ist.",
@@ -2058,7 +2058,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.2.1",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 1 UmwStG", "§ 16 EStG", "§ 20 Abs. 2 UmwStG", "§ 16 Abs. 2 EStG", "§ 20 Abs. 3 UmwStG", "§ 20 UmwStG", "§ 20 Abs. 2 Nr. 4 UmwStG", "§ 20 Abs. 3 EStG", "§ 4 Abs. 5b EStG", "§ 15 EStG"],
+    normen: ["§ 22 Abs. 1 UmwStG", "§ 16 EStG", "§ 20 Abs. 2 UmwStG", "§ 16 Abs. 2 EStG", "§ 20 Abs. 3 UmwStG", "§ 20 UmwStG", "§ 4 Abs. 5b EStG", "§ 15 EStG"],
     themen: ["Einbringungsgewinn I", "Siebtelungsregelung", "Veräußerungskosten"],
     bloecke: [
       { typ: "titel", text: "5.2 Missbrauchsklausel bei Betriebseinbringung (§ 22 Abs. 1 UmwStG)" },
@@ -2097,7 +2097,7 @@ const kapitelRoh = [
         ["", "", "Verbindlichkeit A:", "5.000.000 €"],
       ] },
       "Gleichzeitig erhöht sich bei der A-GmbH der Bestand des steuerlichen Einlagekontos zum 31.12.2025 um 1.300.000 €.",
-      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 6.400.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (Gewinn i.S. des § 16 EStG: 2.400.000 €, aber keine Begünstigung nach §§ 16 Abs. 4 und 34 EStG) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG um den Betrag der sonstigen Gegenleistung zu vermindern sind. Die Anschaffungskosten betragen danach 1.400.000 € (6.400.000 € - 5.000.000 €).",
+      "Gemäß § 20 Abs. 3 Satz 1 UmwStG führt der Wertansatz von 6.400.000 € zu einem Veräußerungspreis des eingebrachten Betriebsvermögens (Gewinn i.S. des § 16 EStG: 2.400.000 €, aber keine Begünstigung nach §§ 16 Abs. 4 und 34 EStG) und zu Anschaffungskosten seiner Anteile, welche aber gemäß § 20 Abs. 3 Satz 3 EStG (so in der Quelle; gemeint § 20 Abs. 3 Satz 3 UmwStG) um den Betrag der sonstigen Gegenleistung zu vermindern sind. Die Anschaffungskosten betragen danach 1.400.000 € (6.400.000 € - 5.000.000 €).",
       "Gleichzeitig ist der erhaltene Anteil nach § 22 Abs. 1 UmwStG mit einem Einbringungsgewinn I verstrickt, welcher bei schädlichen Veräußerungen innerhalb der 7-Jahresfrist ausgelöst werden kann. Maßgebend für die Ermittlung des Einbringungsgewinnes I ist ausschließlich das Wertverhältnis aus dem gemeinen Wert des eingebrachten Betriebsvermögens sowie dem Wertansatz der übernehmenden Kapitalgesellschaft:",
       { typ: "tabelle", spalten: ["Position", "Betrag"], zeilen: [
         ["Gemeiner Wert:", "10.000.000 €"],
@@ -2147,7 +2147,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.2.2",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 2 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 17 EStG", "§ 20 UmwStG", "§ 20 Abs. 3 UmwStG", "§ 16 EStG", "§ 3 Nr. 40c EStG", "§ 3c Abs. 2 EStG"],
+    normen: ["§ 22 Abs. 2 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 17 EStG", "§ 20 UmwStG", "§ 20 Abs. 3 UmwStG", "§ 16 EStG", "§ 3 EStG", "§ 3c Abs. 2 EStG"],
     themen: ["Eingebrachte Beteiligung", "Einbringungsgewinn II"],
     bloecke: [
       "Gehören zum eingebrachten Betriebsvermögen auch Anteile an einer Kapitalgesellschaft, ist insoweit § 22 Abs. 2 UmwStG zu beachten (§ 22 Abs. 1 Satz 5 UmwStG). Diesbezüglich kann ein Einbringungsgewinn II entstehen, wenn die übernehmende Gesellschaft die erhaltenen Anteile veräußert¹⁶⁶.",
@@ -2172,7 +2172,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.2.3",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 1 UmwStG", "§ 16 EStG", "§ 175 Abs. 1 Nr. 2 AO", "§ 7 GewStG", "§ 16 Abs. 1 Nr. 2 EStG", "§ 34 EStG", "§ 17 EStG", "§ 3 Nr. 40c EStG", "§ 3c Abs. 2 EStG", "§ 108 AO"],
+    normen: ["§ 22 Abs. 1 UmwStG", "§ 16 EStG", "§ 175 Abs. 1 AO", "§ 7 GewStG", "§ 16 Abs. 1 EStG", "§ 34 EStG", "§ 17 EStG", "§ 3 EStG", "§ 3c Abs. 2 EStG", "§ 108 AO"],
     themen: ["Rückwirkende Besteuerung", "Gewerbesteuer", "Nachträgliche Anschaffungskosten", "Teilanteilsveräußerung"],
     bloecke: [
       { typ: "titel", text: "5.2.3.1 Rückwirkende Besteuerung" },
@@ -2233,7 +2233,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.2.4",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 1 UmwStG", "§ 22 Abs. 1 Nr. 2 UmwStG", "§ 23 Abs. 2 UmwStG", "§ 21 UmwStG", "§ 16 EStG", "§ 13 Abs. 2 UmwStG", "§ 17 Abs. 4 EStG", "§ 20 UmwStG", "§ 22 Abs. 2 UmwStG", "§ 11 Abs. 2 UmwStG"],
+    normen: ["§ 22 Abs. 1 UmwStG", "§ 23 Abs. 2 UmwStG", "§ 21 UmwStG", "§ 16 EStG", "§ 13 Abs. 2 UmwStG", "§ 17 Abs. 4 EStG", "§ 20 UmwStG", "§ 22 Abs. 2 UmwStG", "§ 11 Abs. 2 UmwStG"],
     themen: ["Ersatzrealisationstatbestände", "Unentgeltliche Übertragung", "Weitereinbringung", "Ketteneinbringung", "Einlagerückgewähr", "Wegfall der Ansässigkeit"],
     bloecke: [
       "Der für Zwecke des § 22 Abs. 1 UmwStG maßgebliche Veräußerungsbegriff ist weit auszulegen. Neben dem „reinen“ Veräußerungstatbestand listet § 22 Abs. 1 Satz 6 Nr. 1 – 6 UmwStG die sog. Ersatzrealisationstatbestände auf, die einer Veräußerung gleichzustellen sind.",
@@ -2405,7 +2405,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.2.5",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 3 UmwStG", "§ 22 Abs. 6 UmwStG", "§ 22 Abs. 1 Nr. 2 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 16 EStG", "§ 17 EStG", "§ 40 GmbHG", "§ 67 AktG"],
+    normen: ["§ 22 Abs. 3 UmwStG", "§ 22 Abs. 6 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 16 EStG", "§ 17 EStG", "§ 40 GmbHG", "§ 67 AktG"],
     themen: ["Nachweispflicht"],
     bloecke: [
       "Gemäß § 22 Abs. 3 UmwStG obliegt dem Einbringenden im Zusammenhang mit den aus der Einbringung resultierenden Anteilen eine besondere Nachweispflicht. Er ist gegenüber seinem (Wohnsitz-)Finanzamt verpflichtet, innerhalb der Haltefrist jeweils spätestens bis zum 31.05. eines jeden Jahres einen Nachweis darüber zu erbringen, wem die sperrfristverhafteten Anteile zuzurechnen sind. Diese Nachweisfrist ist nicht verlängerbar. Sofern der Stpfl. diese Frist versäumt und die Rechtsfolgen der fiktiven Veräußerung eintreten, kann der Nachweis aber noch bis zur Bestandskraft der entsprechenden Veranlagung erbracht werden, d.h. notfalls im Rahmen eines Rechtsbehelfsverfahrens oder bis zum Abschluss des Klageverfahrens¹⁸⁷. Ist Einbringende eine Personengesellschaft, betrifft die Nachweispflicht auch die Zurechnung der Mitunternehmeranteile, weil nach Rn. 22.02 des UmwSt-Erlasses auch die mittelbare Veräußerung der sperrfristverhafteten Anteile schädlich wäre.",
@@ -2433,7 +2433,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.2.6",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 1 UmwStG", "§ 17 EStG", "§ 22 Abs. 6 UmwStG", "§ 16 EStG", "§ 22 Abs. 3 UmwStG", "§ 22 Abs. 1 Nr. 1 UmwStG", "§ 23 Abs. 2 UmwStG"],
+    normen: ["§ 22 Abs. 1 UmwStG", "§ 17 EStG", "§ 22 Abs. 6 UmwStG", "§ 16 EStG", "§ 22 Abs. 3 UmwStG", "§ 23 Abs. 2 UmwStG"],
     themen: ["Rechtsnachfolge", "Unentgeltliche Übertragung"],
     bloecke: [
       "Werden die sperrfristbehafteten Anteile innerhalb der Haltefrist unentgeltlich¹⁹¹ übertragen (z.B. Erbfall, vorweggenommene Erbfolge), gilt der Rechtsnachfolger insoweit als Einbringender, ohne dass dadurch der Einbringungsgewinn I realisiert wird. Dies Haltefrist wird dadurch nicht unterbrochen und ist nunmehr beim Rechtsnachfolger zu überwachen. Dem Rechtsnachfolger obliegt dann auch die Nachweispflicht i.S. des § 22 Abs. 3 UmwStG. Bei einer unentgeltlichen Übertragung auf eine Kapitalgesellschaft greift aber bereits § 22 Abs. 1 Satz 6 Nr. 1 UmwStG.",
@@ -2468,7 +2468,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.2.7",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 1 UmwStG", "§ 22 Abs. 7 UmwStG", "§ 22 Abs. 3 UmwStG", "§ 22 Abs. 6 UmwStG", "§ 22 Abs. 1 Nr. 1 UmwStG"],
+    normen: ["§ 22 Abs. 1 UmwStG", "§ 22 Abs. 7 UmwStG", "§ 22 Abs. 3 UmwStG", "§ 22 Abs. 6 UmwStG"],
     themen: ["Derivativer Erwerb", "Mitverstrickte Anteile"],
     bloecke: [
       "§ 22 Abs. 7 UmwStG betrifft den Fall einer Gesellschaftsgründung bzw. Kapitalerhöhung, wenn sich im Zuge der gleichzeitig durchgeführten Einbringung die stillen Reserven auch auf die anderen Anteile verlagern. Davon betroffen sind Vorgänge unter Einbeziehung von natürlichen Personen, wodurch einer dem Einbringenden nahe stehenden Person der verbilligte Erwerb eines neuen Gesellschaftsanteils ermöglicht werden soll. Dadurch kommt es zu einer Verlagerung stiller Reserven von Alt- auf Neuanteile oder umgekehrt. Die dabei übergesprungenen stillen Reserven in aller Regel nicht aufzudecken, da diese nunmehr auch im Neuanteil gesichert sind¹⁹³. § 22 Abs. 7 UmwStG führt dazu, dass sich die anteiligen Anschaffungskosten des „entreicherten“ Anteils auf den „bereicherten“ Anteil verlagern. Die „bereicherten“ Anteile sind innerhalb der restlichen Haltefrist des § 22 Abs. 1 UmwStG zu überwachen. Auch hierfür muss die Nachweispflicht i.S. des § 22 Abs. 3 UmwStG beachtet werden.",
@@ -2487,7 +2487,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.3.1",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 2 UmwStG", "§ 8b Abs. 2 KStG", "§ 21 Abs. 2 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 21 Abs. 1 Nr. 2 UmwStG", "§ 21 UmwStG", "§ 20 Abs. 1 UmwStG", "§ 17 EStG", "§ 16 EStG"],
+    normen: ["§ 22 Abs. 2 UmwStG", "§ 8b Abs. 2 KStG", "§ 21 Abs. 2 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 21 Abs. 1 UmwStG", "§ 21 UmwStG", "§ 20 Abs. 1 UmwStG", "§ 17 EStG", "§ 16 EStG"],
     themen: ["Einbringungsgewinn II", "Anteilstausch", "Statusverbesserung"],
     bloecke: [
       { typ: "titel", text: "5.3 Missbrauchsklausel beim Anteilstausch (§ 22 Abs. 2 UmwStG)" },
@@ -2528,7 +2528,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.3.2",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 2 UmwStG", "§ 17 EStG", "§ 16 EStG", "§ 3c Abs. 2 EStG", "§ 22 Abs. 1 UmwStG", "§ 8b Abs. 2 KStG", "§ 108 AO", "§ 16 Abs. 4 EStG", "§ 17 Abs. 3 EStG", "§ 175 Abs. 1 Nr. 2 AO"],
+    normen: ["§ 22 Abs. 2 UmwStG", "§ 17 EStG", "§ 16 EStG", "§ 3c Abs. 2 EStG", "§ 22 Abs. 1 UmwStG", "§ 8b Abs. 2 KStG", "§ 108 AO", "§ 16 Abs. 4 EStG", "§ 17 Abs. 3 EStG", "§ 175 Abs. 1 AO"],
     themen: ["Realisierung", "Siebtelungsregelung", "Nachträgliche Anschaffungskosten"],
     bloecke: [
       { typ: "titel", text: "5.3.2.1 Veräußerung innerhalb der Haltefrist" },
@@ -2580,7 +2580,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.3.3",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 2 UmwStG", "§ 23 Abs. 2 UmwStG", "§ 22 Abs. 1 Nr. 2 UmwStG", "§ 21 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 22 Abs. 1 Nr. 4 UmwStG", "§ 23 Abs. 1 UmwStG", "§ 22 Abs. 1 Nr. 5 UmwStG", "§ 8b Abs. 2 KStG", "§ 17 EStG"],
+    normen: ["§ 22 Abs. 2 UmwStG", "§ 23 Abs. 2 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 21 UmwStG", "§ 23 Abs. 1 UmwStG", "§ 8b Abs. 2 KStG", "§ 17 EStG"],
     themen: ["Ersatzrealisationstatbestände", "Weitereinbringung", "Ketteneinbringung"],
     bloecke: [
       "Auch für Zwecke des Einbringungsgewinnes II sind die Ersatzrealisationstatbestände des § 22 Abs. 1 Satz 6 UmwStG zu beachten (§ 22 Abs. 2 Satz 6 UmwStG). Dafür sind aber nur die Auswirkungen bei der übernehmenden Gesellschaft maßgeblich, welche die eingebrachten Anteile dadurch „veräußert“. Die Ersatzrealisationstatbestände sind daher immer aus Sicht der „übernehmenden Gesellschaft“ zu betrachten, d.h. der eigentlich in § 22 Abs. 1 Satz 6 Nr. 1 – 5 UmwStG verwendete Begriff „des Einbringenden“ muss gedanklich durch „die übernehmende Gesellschaft“ ersetzt werden. Beispielhaft werden nachfolgend die wichtigsten Ersatzrealisationstatbestände der § 22 Abs. 1 Satz 6 Nr. 2, 4 und 5 UmwStG dargestellt.",
@@ -2628,7 +2628,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.3.4",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 2 UmwStG", "§ 22 Abs. 3 Nr. 2 UmwStG", "§ 20 UmwStG", "§ 22 Abs. 1 Nr. 2 UmwStG", "§ 22 Abs. 3 UmwStG", "§ 23 Abs. 2 UmwStG"],
+    normen: ["§ 22 Abs. 2 UmwStG", "§ 22 Abs. 3 UmwStG", "§ 20 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 23 Abs. 2 UmwStG"],
     themen: ["Nachweispflicht"],
     bloecke: [
       "Auch für Zwecke des Einbringungsgewinnes II muss der Einbringende gemäß § 22 Abs. 3 Nr. 2 UmwStG bei seinem Finanzamt innerhalb der 7jährigen Haltefrist selbst den Nachweis darüber erbringen, dass kein Anwendungsfall des § 22 Abs. 2 UmwStG gegeben ist. Er muss daher nachweisen, wem die eingebrachten Anteile zuzurechnen sind. In den Fällen, in denen der Einbringungsgegenstand auch aus Anteilen an Kapitalgesellschaften besteht und sich die Einbringung einheitlich nach § 20 UmwStG richtet, muss der Einbringende daher beide Nachweispflichten (Nr. 1 und Nr. 2) beachten. Im Falle der unschädlichen Weitereinbringung der Anteile nach § 22 Abs. 2 Satz 6 UmwStG i.V. mit § 22 Abs. 1 Satz 6 Nr. 2 UmwStG umfasst die Nachweispflicht sowohl die ursprünglichen Anteile, als auch die im Rahmen der Weitereinbringung erhaltenen Anteile.",
@@ -2645,7 +2645,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.3.5",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 1 UmwStG", "§ 22 Abs. 2 UmwStG", "§ 23 Abs. 2 UmwStG", "§ 21 UmwStG", "§ 22 Abs. 1 Nr. 2 UmwStG", "§ 22 Abs. 1 Nr. 4 UmwStG", "§ 20 UmwStG", "§ 17 EStG", "§ 21 Abs. 1 UmwStG", "§ 8b Abs. 2 KStG"],
+    normen: ["§ 22 Abs. 1 UmwStG", "§ 22 Abs. 2 UmwStG", "§ 23 Abs. 2 UmwStG", "§ 21 UmwStG", "§ 20 UmwStG", "§ 17 EStG", "§ 21 Abs. 1 UmwStG", "§ 8b Abs. 2 KStG"],
     themen: ["Einbringungsgewinn I", "Einbringungsgewinn II", "Anschaffungskosten"],
     bloecke: [
       "Die schädliche Veräußerung kann in bestimmten Fällen sowohl den Einbringungsgewinn I als auch den Einbringungsgewinn II auslösen. Dies z.B. dann, wenn eine natürliche Person einen aus einer Betriebseinbringung i.S. des § 20 UmwStG erhaltenen Anteil nachfolgend nach den Grundsätzen des § 21 UmwStG in eine andere Kapitalgesellschaft einbringt (Fall des § 22 Abs. 1 Satz 6 Nr. 2 UmwStG). Entscheidend ist dann, zu welchem Zeitpunkt die schädliche Veräußerung vorgenommen wird:",
@@ -2686,7 +2686,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 5.3.6",
     verfasser: VERFASSER,
-    normen: ["§ 22 Abs. 2 UmwStG", "§ 22 Abs. 6 UmwStG", "§ 12 Abs. 3 UmwStG", "§ 22 Abs. 1 Nr. 1 UmwStG", "§ 22 Abs. 3 UmwStG"],
+    normen: ["§ 22 Abs. 2 UmwStG", "§ 22 Abs. 6 UmwStG", "§ 12 Abs. 3 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 22 Abs. 3 UmwStG"],
     themen: ["Rechtsnachfolge"],
     bloecke: [
       "Werden die sperrfristbehafteten Anteile i.S. des § 22 Abs. 2 UmwStG von der übernehmenden Gesellschaft im Wege der „unentgeltlichen Rechtsnachfolge“ übertragen, gilt auch in diesen Fällen § 22 Abs. 6 UmwStG. Der Rechtsnachfolger der übernehmenden Gesellschaft tritt danach an die Stelle der bisherigen Gesellschaft und kann innerhalb der verbleibenden Restlaufzeit der Sperrfrist durch eine schädliche Veräußerung die Besteuerung des Einbringungsgewinnes II auslösen.",
@@ -2703,7 +2703,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 6.1.1",
     verfasser: VERFASSER,
-    normen: ["§ 23 UmwStG", "§ 23 Abs. 1 UmwStG", "§ 20 UmwStG", "§ 21 UmwStG", "§ 7 Abs. 4 Nr. 1 EStG"],
+    normen: ["§ 23 UmwStG", "§ 23 Abs. 1 UmwStG", "§ 20 UmwStG", "§ 21 UmwStG", "§ 7 Abs. 4 EStG"],
     themen: ["Rechtsnachfolge", "Abschreibung", "Buchwert"],
     bloecke: [
       { typ: "titel", text: "6. Auswirkungen bei der Kapitalgesellschaft (§ 23 UmwStG)" },
@@ -2730,7 +2730,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 6.1.2",
     verfasser: VERFASSER,
-    normen: ["§ 23 Abs. 1 UmwStG", "§ 23 Abs. 3 UmwStG", "§ 23 Abs. 3 Nr. 1 UmwStG", "§ 7 Abs. 2 EStG", "§ 5 Abs. 7 EStG", "§ 7 Abs. 4 Nr. 1 EStG", "§ 23 Abs. 3 Nr. 2 UmwStG"],
+    normen: ["§ 23 Abs. 1 UmwStG", "§ 23 Abs. 3 UmwStG", "§ 7 Abs. 2 EStG", "§ 5 Abs. 7 EStG", "§ 7 Abs. 4 EStG"],
     themen: ["Zwischenwert", "Abschreibung", "Bemessungsgrundlage"],
     bloecke: [
       "Setzt die Kapitalgesellschaft das eingebrachte Betriebsvermögen mit einem Zwischenwert an, führt dies gemäß § 23 Abs. 1 UmwStG ebenfalls zur Anwendung der Rechtsnachfolgegrundsätze²⁰⁴. Im Rahmen der Übernahmebilanz muss die übernehmende Kapitalgesellschaft das Betriebsvermögen anteilig und gleichmäßig aufstocken (siehe unter 3.4.2). Dies bedeutet, dass dies auch zum Ausweis eines originären Firmenwertes führen kann. Weil von der gleichmäßigen Wertaufstockung auch passive Wirtschaftsgüter betroffen sind, kann es dadurch andererseits auch zum Ausweis stiller Lasten kommen, was im nachfolgenden Wirtschaftsjahr dann zur Anwendung des § 5 Abs. 7 EStG führt.",
@@ -2769,7 +2769,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 6.1.3",
     verfasser: VERFASSER,
-    normen: ["§ 7 Abs. 2 EStG", "§ 23 Abs. 4 UmwStG", "§ 23 Abs. 3 UmwStG", "§ 7 Abs. 4 Nr. 1 EStG", "§ 7 Abs. 2a EStG", "§ 23 Abs. 1 UmwStG", "§ 23 Abs. 3 Nr. 1 UmwStG", "§ 23 Abs. 3 Nr. 2 UmwStG"],
+    normen: ["§ 7 Abs. 2 EStG", "§ 23 Abs. 4 UmwStG", "§ 23 Abs. 3 UmwStG", "§ 7 Abs. 4 EStG", "§ 7 Abs. 2a EStG", "§ 23 Abs. 1 UmwStG"],
     themen: ["Gemeiner Wert", "Anschaffung", "Abschreibung"],
     bloecke: [
       "Setzt die Kapitalgesellschaft das eingebrachte Betriebsvermögen mit dem gemeinen Wert an, ist nach § 23 Abs. 4 UmwStG zu unterscheiden, ob die Einbringung auf einer Einzelrechtsnachfolge oder einer Gesamtrechtsnachfolge beruht.",
@@ -2806,7 +2806,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 6.2.1",
     verfasser: VERFASSER,
-    normen: ["§ 4 Abs. 2 UmwStG", "§ 8b Abs. 4 KStG", "§ 9 Nr. 2a GewStG", "§ 23 Abs. 1 UmwStG", "§ 8b Abs. 1 KStG", "§ 23 Abs. 4 UmwStG", "§ 21 UmwStG", "§ 6b EStG", "§ 14 Abs. 1 Nr. 1 KStG", "§ 12 Abs. 3 UmwStG"],
+    normen: ["§ 4 Abs. 2 UmwStG", "§ 8b Abs. 4 KStG", "§ 9 GewStG", "§ 23 Abs. 1 UmwStG", "§ 8b Abs. 1 KStG", "§ 23 Abs. 4 UmwStG", "§ 21 UmwStG", "§ 6b EStG", "§ 14 Abs. 1 KStG", "§ 12 Abs. 3 UmwStG"],
     themen: ["Besitzzeitanrechnung", "Schachtelprivileg", "§ 8b Abs. 4 KStG", "Erweiterte Kürzung"],
     bloecke: [
       { typ: "titel", text: "6.2 Sonstige Auswirkungen" },
@@ -2899,7 +2899,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 6.2.4",
     verfasser: VERFASSER,
-    normen: ["§ 8c Abs. 1 KStG", "§ 8d KStG", "§ 8d Abs. 2 Nr. 6 KStG", "§ 10a GewStG", "§ 15a EStG", "§ 8d Abs. 1 KStG", "§ 23 Abs. 2 UmwStG", "§ 23 Abs. 5 UmwStG", "§ 4h Abs. 4 EStG", "§ 20 Abs. 9 UmwStG"],
+    normen: ["§ 8c Abs. 1 KStG", "§ 8d KStG", "§ 8d Abs. 2 KStG", "§ 10a GewStG", "§ 15a EStG", "§ 8d Abs. 1 KStG", "§ 23 Abs. 2 UmwStG", "§ 23 Abs. 5 UmwStG", "§ 4h Abs. 4 EStG", "§ 20 Abs. 9 UmwStG"],
     themen: ["Verlustabzug", "§ 8c KStG", "§ 8d KStG"],
     bloecke: [
       { typ: "titel", text: "6.2.4.1 Keine Verlustübernahme" },
@@ -2933,7 +2933,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 6.2.5",
     verfasser: VERFASSER,
-    normen: ["§ 1a KStG", "§ 5 Abs. 3 GrEStG", "§ 6a GrEStG", "§ 1 Abs. 1 Nr. 3 GrEStG", "§ 1 Abs. 3 GrEStG", "§§ 190f UmwG", "§ 1 Abs. 3 Nr. 2 GrEStG", "§ 8 Abs. 2 Nr. 2 GrEStG", "§ 20 Abs. 2 UmwStG", "§ 5 GrEStG"],
+    normen: ["§ 1a KStG", "§ 5 Abs. 3 GrEStG", "§ 6a GrEStG", "§ 1 Abs. 1 GrEStG", "§ 1 Abs. 3 GrEStG", "§§ 190f UmwG", "§ 8 Abs. 2 GrEStG", "§ 20 Abs. 2 UmwStG", "§ 5 GrEStG"],
     themen: ["Grunderwerbsteuer", "§ 6a GrEStG", "Option § 1a KStG"],
     bloecke: [
       { typ: "titel", text: "6.2.5.1 Umwandlung als Veräußerungstatbestand" },
@@ -3115,7 +3115,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 6.3.5",
     verfasser: VERFASSER,
-    normen: ["§ 23 Abs. 2 UmwStG", "§ 22 Abs. 2 UmwStG", "§ 8b Abs. 3 KStG", "§ 22 Abs. 1 Nr. 4 UmwStG", "§ 22 Abs. 1 UmwStG", "§ 21 Abs. 1 UmwStG", "§ 3c Abs. 2 EStG", "§ 16 EStG", "§ 8b Abs. 2 KStG", "§ 22 Abs. 5 UmwStG"],
+    normen: ["§ 23 Abs. 2 UmwStG", "§ 22 Abs. 2 UmwStG", "§ 8b Abs. 3 KStG", "§ 22 Abs. 1 UmwStG", "§ 21 Abs. 1 UmwStG", "§ 3c Abs. 2 EStG", "§ 16 EStG", "§ 8b Abs. 2 KStG", "§ 22 Abs. 5 UmwStG"],
     themen: ["Wertaufstockung", "Einbringungsgewinn II"],
     bloecke: [
       { typ: "titel", text: "6.3.5.1 Antragswahlrecht" },
@@ -3173,7 +3173,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 7.2.1",
     verfasser: VERFASSER,
-    normen: ["§ 20 UmwStG", "§ 1a KStG", "§ 25 UmwStG", "§ 1a Abs. 2 KStG", "§ 20 Abs. 2 UmwStG", "§ 1 Abs. 3 Nr. 3 UmwStG", "§ 1a Abs. 1 KStG", "§ 1 Abs. 4 Nr. 2 UmwStG", "§ 21 UmwStG", "§ 5 Abs. 1 GrEStG"],
+    normen: ["§ 20 UmwStG", "§ 1a KStG", "§ 25 UmwStG", "§ 1a Abs. 2 KStG", "§ 20 Abs. 2 UmwStG", "§ 1 Abs. 3 UmwStG", "§ 1a Abs. 1 KStG", "§ 1 Abs. 4 UmwStG", "§ 21 UmwStG", "§ 5 Abs. 1 GrEStG"],
     themen: ["Option § 1a KStG", "Fiktiver Formwechsel", "Einlagekonto"],
     bloecke: [
       { typ: "titel", text: "7.2 Option i.S. des § 1a KStG" },
@@ -3216,7 +3216,7 @@ const kapitelRoh = [
     rechtsstand: STAND,
     quelle: "UmwStR-Skript (Hamacher) · Teil II, Abschnitt 7.2.2",
     verfasser: VERFASSER,
-    normen: ["§ 20 Abs. 1 UmwStG", "§ 16 Abs. 3 EStG", "§ 6 Abs. 5 EStG", "§ 6 Abs. 3 EStG", "§ 10a GewStG", "§ 23 Abs. 5 UmwStG", "§ 15a EStG", "§ 34a Abs. 6 Nr. 2 EStG", "§ 22 Abs. 3 UmwStG", "§ 1a Abs. 2 KStG"],
+    normen: ["§ 20 Abs. 1 UmwStG", "§ 16 Abs. 3 EStG", "§ 6 Abs. 5 EStG", "§ 6 Abs. 3 EStG", "§ 10a GewStG", "§ 23 Abs. 5 UmwStG", "§ 15a EStG", "§ 34a Abs. 6 EStG", "§ 22 Abs. 3 UmwStG", "§ 1a Abs. 2 KStG"],
     themen: ["Fiktiver Formwechsel", "Sperrfristen", "Nachversteuerung"],
     bloecke: [
       "Mit dem fiktiven Formwechsel werden ertragsteuerlich sämtliche Auswirkungen abgebildet, die auch im Falle einer herkömmlichen Umwandlung eintreten würden. Dies wären insbesondere",
