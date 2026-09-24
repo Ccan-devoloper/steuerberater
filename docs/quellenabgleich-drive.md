@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### IStR-Skript (Grümmer/Holzrichter), Folien (PDF-Seiten 152 bis 163) – Skript vollständig
+
+Übernommen: die zwölf „Folien zum Internationalen Steuerrecht“ von Daniela Holzrichter (Folie 1a, 1b, 2 bis 7, 8a, 8b, 9 und 10; jeweils „- vereinfachte Darstellung -“) als 12 Einträge unter der neuen Konstante `KF` (Teil „folien“, Verfasserin Daniela Holzrichter): Arten der Steuerpflicht natürlicher Personen und Körperschaften, Steuerabzug nach § 50a EStG, Sondervorschriften nach § 50 EStG, Produktivitätsklausel, Gliederung des OECD-MA, Progressionsvorbehalt nach § 32b EStG, Art. 15 DBA-Österreich mit vier Beispielen, Steuerermäßigung nach § 34c EStG und nach § 32d Abs. 1 S. 2 i.V.m. Abs. 5 EStG, Wegzugsbesteuerung nach § 6 AStG und Einkünfteberichtigung nach § 1 AStG.
+
+- Alle Folien gerendert; Pfeil- und Kastendiagramme als Tabellen (Anordnung eigene Darstellung), die schräg gestellten Hinweiskästen als „Hinweis auf der Folie: …“ bzw. in Klammern („250 € Freigrenze“, „weder positiv noch negativ!“). Die Bilder auf Folie 2 und Folie 7 sind nicht übernommen, ihr Inhalt ist in einer eigenen Anmerkung bzw. Beschreibung genannt; die Beschriftungen der Bilder („Steueranmeldung 10.04., 10.07., 10.10., 10.01.“, „Haftungsbescheid“, „> 183 Tage“, „ArbG“, „BS“) sind übernommen.
+- Die Folien 4, 5 und 10 wiederholen die Schaubilder der Abschnitte 5.1.1.9, 4.5.2 und 5.2.2.1 und stehen der Vollständigkeit halber auch hier.
+- Gekennzeichnet: nichts. Stillschweigend berichtigt: nichts.
+
+Prüfung danach: IStR-Skript (Grümmer/Holzrichter) in Ordnung: 8 Teile, 93 Kapitel, 1771 Blöcke, 46 Tabellen.
+
+Damit ist das IStR-Skript (Grümmer/Holzrichter) vollständig eingepflegt. Weiter mit: Bilanz-Skript Termin 1 (Melzer, `19z9p0I0WgRUbRMbQfYAMaYzKUJNUsIx3`) und den Übersichten dazu (`1NtebyaKqbhJBZ_nwF4a55baSVBttWHzM`).
+
 ### IStR-Skript (Grümmer/Holzrichter), DBA-Texte (PDF-Seiten 138 bis 151)
 
 Übernommen: der Anhang „DBA-Texte“ im Wortlaut – Auszug DBA Österreich (Art. 4, 10, 15 und 23), Auszug DBA Türkei (Art. 10 und 22) und das OECD-Musterabkommen 2017 zur Beseitigung der Doppelbesteuerung sowie der Steuerverkürzung und -umgehung auf dem Gebiet der Steuern vom Einkommen und vom Vermögen (Abschnitte I bis VII, Art. 1 bis 32 mit Schlussklausel) – 9 Einträge unter der neuen Konstante `KD` (Teil „dba“, ein Eintrag je DBA-Auszug bzw. je Abschnitt des OECD-MA).

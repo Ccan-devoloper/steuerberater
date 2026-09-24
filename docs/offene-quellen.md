@@ -77,7 +77,7 @@ vorliegt –, wird ausgelassen und am Ende zusammen mit Abschnitt A zur Nachlief
      (`1AgUXSDoN7x76GyC5aGblDWZ7FMuHZ0ZT`)~~ (erledigt, September 2026), ~~Teil V Umwandlung einer Kapitalgesellschaft auf eine
      Personengesellschaft §§ 3 – 10, 18 UmwStG (`1mklaRDw0X-0fMF2U_ehmwT3jgYML5vE2`)~~ (erledigt, September 2026) – das UmwStR-Skript ist vollständig;
    - UmwSt-Kurzskript (Breier, April 2025, `17xQUV4RT0WWL8X6l5UWjPn8O-6Tw1CJt`, 5,3 MB): ~~alle sechs Teile~~ (erledigt, September 2026 – vollständig);
-   - IStR-Skript inkl. Folien (Grümmer-Holzrichter, März 2026, `1J6nyscsq9ATpbQ7biy_5NA5CZXPLqjQ5`, 4,9 MB): ~~Kapitel 1 bis 6, DBA-Texte~~ (erledigt, September 2026), Folien (PDF-Seiten 152 bis 163) offen;
+   - IStR-Skript inkl. Folien (Grümmer-Holzrichter, März 2026, `1J6nyscsq9ATpbQ7biy_5NA5CZXPLqjQ5`, 4,9 MB): ~~Kapitel 1 bis 6, DBA-Texte, Folien~~ (erledigt, September 2026 – vollständig);
    - Bilanz-Skript Termin 1 (Melzer, April 2026, `19z9p0I0WgRUbRMbQfYAMaYzKUJNUsIx3`) und die
      Übersichten dazu (`1NtebyaKqbhJBZ_nwF4a55baSVBttWHzM`); die Fallsammlung Melzer samt Lösungen
      V2 (`1VkIpVDdg9th9-O4DMVr2xExhm4dOabt-`, `1Dtvc8BNrLLDRZWMXQc_Lg0aLHAQ32QdW`) gegen die
