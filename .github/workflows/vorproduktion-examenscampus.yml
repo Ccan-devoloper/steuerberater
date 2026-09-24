@@ -63,21 +63,23 @@ jobs:
         working-directory: social
         run: npm run lint
 
+      - name: ffmpeg
+        run: |
+          sudo apt-get update -qq >/dev/null
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+
+      - name: Chromium
+        working-directory: social
+        run: npx playwright install --with-deps chromium || npx playwright install chromium
+
       - name: Tests
         working-directory: social
         run: npm test
 
-      - name: Chromium
-        if: ${{ inputs.rendern }}
-        working-directory: social
-        run: npx playwright install --with-deps chromium
-
-      - name: ffmpeg und Piper offline
+      - name: Piper offline
         if: ${{ inputs.rendern }}
         run: |
           pip install --quiet piper-tts
-          sudo apt-get update -qq >/dev/null
-          sudo apt-get install -y -qq ffmpeg >/dev/null
           mkdir -p ~/.cache/piper-voices
           if [ ! -f ~/.cache/piper-voices/de_DE-thorsten-high.onnx ]; then
             python3 -m piper.download_voices --data-dir ~/.cache/piper-voices de_DE-thorsten-high
