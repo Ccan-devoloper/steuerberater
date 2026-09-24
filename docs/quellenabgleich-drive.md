@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwSt-Kurz-Skript (Breier), Teile 1 und 2 (PDF-Seiten 6 bis 17) – neuer Bestand aus dem zweiten Baum
+
+Übernommen: „Umwandlungssteuerrecht (ohne § 24 UmwStG), Kurz-Skript“ (Ulrich Breier, Stand 04/2025; Drive-ID `17xQUV4RT0WWL8X6l5UWjPn8O-6Tw1CJt`, 116 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) als neuer Datensatz `src/data/k3-umwst-kurzskript-breier.js` mit neuem Reiter „Kurz-Skript (Breier)“ im UmwStR-Campus und Prüfskript `npm run check:k3-umwst-kurzskript`. Teil 1 „Überblick über das Umwandlungssteuerrecht“ (I. bis IV. mit Merke-Kasten) und Teil 2 „Zivilrechtliche (handelsrechtliche) Grundlagen“ (I. bis III. mit Merke-Kasten) – 7 Abschnitte; Seiten 8, 9, 10 und 14 gerendert.
+
+- Hinweis zur Gliederung der Quelle (für die folgenden Teile): Das Inhaltsverzeichnis führt in Teil 2 II. 2. nur a. und c. (im Text stehen a. bis c.) und in Teil 6 B. keinen Abschnitt III. (im Text steht „III. Gegenstand der Einbringung“); übernommen wird die Gliederung des Textes.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: Überschrift „Umwandlungssteuerlass“ (auch im Inhaltsverzeichnis) → „Umwandlungssteuererlass“; „überabeitet“; „Spaltig“; „Verschmelzungsvorschiften“; Silbentrennungen des Blocksatzes.
+- Keine Rechenbeispiele.
+
+Prüfung danach: UmwSt-Kurz-Skript (Breier) in Ordnung: 2 Teile, 7 Kapitel, 136 Blöcke, 0 Tabellen.
+
+Weiter mit: Teil 3 „Verschmelzung/Formwechsel einer Kapitalgesellschaft auf ein Personenunternehmen“ (PDF-Seiten 18 bis 39).
+
 ### UmwStR-Skript (Hamacher), Teil V (46 Inhaltsseiten) – Umwandlung auf Personengesellschaften, §§ 3 – 10, 18 UmwStG – Skript vollständig
 
 Übernommen: „Umwandlungssteuerrecht, Teil V – Umwandlung einer Kapitalgesellschaft auf eine Personengesellschaft bzw. natürliche Person (§§ 3 – 10, 18 UmwStG)“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `1mklaRDw0X-0fMF2U_ehmwT3jgYML5vE2`, 49 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) mit neuer Teil-Konstante TV: 20 Abschnitte auf der zweiten Gliederungsebene (1.1 bis 6.3), alle 101 Fußnoten am jeweiligen Abschnittsende.

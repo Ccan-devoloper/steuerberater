@@ -43,13 +43,18 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Einbringungsgewinn I und II mit Ersatzrealisationstatbeständen, Folgen bei der
   Kapitalgesellschaft, Formwechsel und Option nach § 1a KStG) und **Teil III** (Verschmelzung
   von Kapitalgesellschaften nach §§ 11 – 13 UmwStG: Schlussbilanz der Übertragerin,
-  Übernahmegewinn, Rechtsnachfolge und Einlagekonto der Übernehmerin, Anteilseigner) und
+  Übernahmegewinn, Rechtsnachfolge und Einlagekonto der Übernehmerin, Anteilseigner),
   **Teil IV** (Auf- und Abspaltung nach § 15 UmwStG: Teilbetriebserfordernis, Rechtsfolgen bei
   Spaltgesellschaft, Übernehmer und Anteilseignern, Missbrauchsklauseln des § 15 Abs. 2 UmwStG)
   und **Teil V** (Umwandlung einer Kapitalgesellschaft auf eine Personengesellschaft nach
   §§ 3 – 10, 18 UmwStG: Schlussbilanz, fiktive Ausschüttung nach § 7 UmwStG, Übernahmeergebnis,
   Übernahmefolgegewinn, Formwechsel, Gewerbesteuer) – zusammen 129 Abschnitte, 3427 Blöcke,
   101 Tabellen. Prüfung: `npm run check:k3-umwstr-skript`
+- **UmwSt-Kurz-Skript (Breier)** (Klausur 3, Campus UmwStR → „Kurz-Skript (Breier)“): das
+  Kurz-Skript von Ulrich Breier (Stand 04/2025, ohne § 24 UmwStG) im Wortlaut, mit den
+  Merke-Kästen als Merksätzen. Eingepflegt sind **Teil 1** (Überblick, Umwandlungssteuererlass)
+  und **Teil 2** (zivilrechtliche Grundlagen) – 7 Abschnitte, 136 Blöcke. Die Teile 3 bis 6
+  folgen. Prüfung: `npm run check:k3-umwst-kurzskript`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung
@@ -6276,6 +6281,7 @@ src/
     k3-lernpfad-persg.js      Lernpfad „Schritt für Schritt“ Personengesellschaften (18 Lektionen)
     k3-lernpfad-umwstr.js     Lernpfad „Schritt für Schritt“ Umwandlungssteuerrecht (16 Lektionen)
     k3-umwstr-skript-hamacher.js  UmwStR-Lehrgangsskript (Hamacher), Teile I bis V (vollständig)
+    k3-umwst-kurzskript-breier.js UmwSt-Kurz-Skript (Breier), Teile 1 bis 6
     sources.js                Quellenkatalog und Rechtsstand
     examensprioritaet.js      Regelwerk 🔴/🟠/🟢 aus den Beck-Auswertungen, Fachtabellen
 ```
