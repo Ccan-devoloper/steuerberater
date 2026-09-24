@@ -1,0 +1,105 @@
+{
+  "datum": "2026-09-25",
+  "erzeugt": "2026-09-24T22:44:29.792Z",
+  "anlass": null,
+  "abendAnlass": null,
+  "trocken": false,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "16:30",
+      "format": "klausurtechnik",
+      "themaId": "ust-modul-ust-192",
+      "themaTitel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer",
+      "fach": "ust",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "21:00",
+      "format": "reel",
+      "themaId": "istr-modul-istr-istr2-03",
+      "themaTitel": "Kapitalerträge bei beschränkter Steuerpflicht: Steuerabzug und Abgeltungswirkung",
+      "fach": "istr",
+      "klausur": 2,
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:15",
+      "art": "frage",
+      "themaId": "bilanz-quiz-k3-19",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:15",
+      "art": "antwort",
+      "themaId": "bilanz-quiz-k3-19",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:15",
+      "art": "norm",
+      "themaId": "bilanz-modul-k3-8",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:18",
+      "art": "countdown",
+      "themaId": null,
+      "beitragSlot": null,
+      "tageBisExamen": 11,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:31",
+      "art": "tipp",
+      "themaId": "ao-modul-ao-323",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "16:30",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:26",
+      "art": "zahl",
+      "themaId": "ao-modul-ao-351",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:46",
+      "art": "formel",
+      "themaId": "bilanz-formel-sonder-afa",
+      "beitragSlot": null,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "21:00",
+      "art": "teaser",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "status": "geplant"
+    }
+  ]
+}
