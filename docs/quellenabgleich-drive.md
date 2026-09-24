@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 5 A. III bis A. VIII (PDF-Seiten 103 bis 109)
+
+Übernommen: A. III überhöhte Anschaffungskosten (5-03), A. IV Rückgängigmachung und A. V umgekehrte vGA mit Teilbeträgen (5-04), A. VI Bewertung mit Umsatzsteuer und A. VII Beweislast (5-05), A. VIII Vorteilsausgleich (5-06).
+
+- Gekennzeichnet: dreimal „BMF BStBl. 2002 II, 603“ (das Schreiben steht in Teil I); „soll A mit Erreichen des 67. Lebensjahres ausscheiden“ (gemeint B).
+- Stillschweigend berichtigt: „Grundstück 500.000 ab Bank“ → „an“; „jederzeitige Widerruf“; fehlende schließende Klammer nach „KStH 2022“; „BStBl, 2002“; „Fall des Vorteilsausgleich“.
+- Nachrechnung (eigene Ergänzung): 200.000 ./. 170.000 = 30.000 €; Umsatzsteuer-Beispiel 11.900 ./. 5.950 = 5.950 €, 1.520 ./. 950 = 570 €, 5.380 €; die Alternativlösung 5.570 € führt zum Einkommen des angemessenen Geschäfts (Mehrgewinn 5.000 € gegenüber dem gebuchten Verkauf; Differenz 380 €); Vorteilsausgleich 40.000 ./. 30.000 = 10.000 € und 20.000 ./. 8.000 = 12.000 € – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 5 Teile, 37 Kapitel, 1256 Blöcke, 41 Tabellen.
+
+Weiter mit: Teil 5 A. IX „Verbrauchstheorie (Fiktionstheorie)“ (PDF-Seite 109; Textfassung ab Zeile 6555).
+
 ### KSt-Kurz-Skript (Breier), Teil 5 A. I und A. II (PDF-Seiten 97 bis 102)
 
 Übernommen: Teil 5 „Verdeckte Gewinnausschüttung“ mit neuer Teil-Konstante T5 – A. I Vorbemerkungen (Abschnitt 5-01) und A. II Definition der vGA mit Besonderheiten bei Darlehen (Abschnitt 5-02).

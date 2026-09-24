@@ -1224,8 +1224,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Teilwertabschreibung, Verluste aus Beteiligungen, Verluste aus Gesellschafterdarlehen und
   Sicherheiten nach § 8b Abs. 3 S. 4 ff. KStG und § 3c Abs. 2 S. 2 ff. EStG) – Teil 4 damit
   vollständig; aus Teil 5 (verdeckte Gewinnausschüttung) die Vorbemerkungen und die
-  Definition mit den fünf Merkmalen und den Besonderheiten bei Darlehen – zusammen
-  33 Abschnitte, 1162 Blöcke, 37 Tabellen.
+  Definition mit den fünf Merkmalen und den Besonderheiten bei Darlehen, überhöhte
+  Anschaffungskosten mit Bilanzberichtigung, Rückgängigmachung, umgekehrte vGA mit den
+  Teilbeträgen I und II, Bewertung einschließlich Umsatzsteuer, Beweislast und
+  Vorteilsausgleich – zusammen 37 Abschnitte, 1256 Blöcke, 41 Tabellen.
   **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 5 und
   die Teile 6 bis 10 werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
