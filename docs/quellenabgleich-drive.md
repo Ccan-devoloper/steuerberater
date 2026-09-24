@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 8 V. 2 c bis VII (PDF-Seiten 169 bis 176)
+
+Übernommen: V. 2 c gewerbesteuerliche Hinzurechnungen und Kürzungen und V. 3 Bruttomethode/§ 7a GewStG (8-05), VI. Einkommensermittlung beim Organträger (8-06), VII. Ausgleichszahlungen mit Merke (8-07); Seiten 174 und 176 gerendert.
+
+- Gekennzeichnet: „X/Y-GmbH“ (gemeint X/Y-OHG); „§ 8 Nr. 5 KStG“ (GewStG); „außerbilanziell anzuziehen“ beim Verlustausgleichsaufwand (gemeint hinzuzurechnen).
+- Stillschweigend berichtigt: „hinzurechnen“ → „zuzurechnen“; „um das 1,2 %“; „zusammengerecht“; „nicht abzuwenden“ → „anzuwenden“; „(16 Abs. 2“ → „R 16 Abs. 2“; „Ausganggröße“; „erweitere Kürzung“.
+- Nachrechnung (eigene Ergänzung): 140 % × 100.000 × 1,2 % = 1.680, 80.000 ./. 1.680 = 78.320; 2.500 und 4.750; § 7a-Beispiele 20.000 und 400.000; OG-Einkommen 105.000, OT 95.000 + 105.000 = 200.000, Bilanzsummen 125.000 und 260.000; Ausgleichszahlung 107.000 ./. 20.000 = 87.000 bzw. ./. 78.000 ./. 20.000 = ./. 98.000 – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 8 Teile, 57 Kapitel, 2236 Blöcke, 73 Tabellen.
+
+Weiter mit: Teil 8 VIII. „Minder- u. Mehrabführungen“ (PDF-Seite 177; Textfassung ab Zeile 10740).
+
 ### KSt-Kurz-Skript (Breier), Teil 8 IV. 3 bis V. 2 b (PDF-Seiten 163 bis 168)
 
 Übernommen: IV. 3 Fehler bei Durchführung, Heilung und verunglückte Organschaft mit Merke (8-03), V. 1 getrennte Einkommensermittlung mit zwei Bilanz- und Ermittlungsschemata sowie V. 2 a/b vorvertragliche Verluste und vGA an den Organträger (8-04).
