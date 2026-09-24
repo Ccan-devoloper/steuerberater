@@ -4395,7 +4395,7 @@
       "veroeffentlicht": "2026-09-23T09:45:29.448Z",
       "karteUrl": null,
       "insights": {
-        "reach": 20,
+        "reach": 23,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -4404,8 +4404,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-24T08:43:56.889Z",
-      "insightsAlterStunden": 23
+      "insightsStand": "2026-09-24T16:44:09.835Z",
+      "insightsAlterStunden": 31
     },
     {
       "datum": "2026-09-23",
@@ -4551,19 +4551,19 @@
       "dauer": 88.3,
       "veroeffentlicht": "2026-09-23T19:18:53.016Z",
       "insights": {
-        "reach": 73,
+        "reach": 80,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 99,
-        "ig_reels_avg_watch_time": 9542,
-        "ig_reels_video_view_total_time": 782462,
-        "reels_skip_rate": 76.9
+        "views": 108,
+        "ig_reels_avg_watch_time": 8735,
+        "ig_reels_video_view_total_time": 794964,
+        "reels_skip_rate": 79.1
       },
-      "insightsStand": "2026-09-24T12:44:04.735Z",
-      "insightsAlterStunden": 17.4
+      "insightsStand": "2026-09-24T16:44:09.835Z",
+      "insightsAlterStunden": 21.4
     },
     {
       "datum": "2026-09-23",
@@ -4604,22 +4604,22 @@
       "medienId": "18408140572088637",
       "veroeffentlicht": "2026-09-24T05:48:11.673Z",
       "insights": {
-        "reach": 24,
-        "views": 32,
+        "reach": 30,
+        "views": 41,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 30,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 21,
-        "navigation_tap_back": 3,
-        "navigation_tap_exit": 3
+        "navigation": 39,
+        "navigation_tap_exit": 4,
+        "navigation_tap_back": 6,
+        "navigation_tap_forward": 25,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-09-24T12:43:59.368Z",
-      "insightsAlterStunden": 6.9
+      "insightsStand": "2026-09-24T16:44:05.709Z",
+      "insightsAlterStunden": 10.9
     },
     {
       "datum": "2026-09-24",
@@ -4632,21 +4632,21 @@
       "medienId": "18492130840101586",
       "veroeffentlicht": "2026-09-24T05:48:24.881Z",
       "insights": {
-        "reach": 22,
-        "views": 29,
+        "reach": 28,
+        "views": 35,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_tap_forward": 22,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_back": 2
+        "navigation": 34,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 28
       },
-      "insightsStand": "2026-09-24T12:43:59.368Z",
-      "insightsAlterStunden": 6.9
+      "insightsStand": "2026-09-24T16:44:05.709Z",
+      "insightsAlterStunden": 10.9
     },
     {
       "datum": "2026-09-24",
@@ -4704,22 +4704,22 @@
       "medienId": "18181863364427829",
       "veroeffentlicht": "2026-09-24T06:46:49.708Z",
       "insights": {
-        "reach": 22,
-        "views": 36,
+        "reach": 29,
+        "views": 42,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 29,
-        "navigation_tap_forward": 20,
+        "navigation": 37,
+        "navigation_tap_forward": 27,
         "navigation_tap_exit": 4,
         "navigation_swipe_forward": 2,
-        "navigation_tap_back": 3
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-09-24T12:43:59.368Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-09-24T16:44:05.709Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-09-24",
