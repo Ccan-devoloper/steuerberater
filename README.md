@@ -2394,7 +2394,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 - **USt-Skript (Moecker)** (Klausur 1, Reiter Umsatzsteuer → „USt-Skript (Moecker)“): das
   Umsatzsteuer-Skript von Udo Moecker in 13 Blöcken mit Arbeitspapieren (neun PDF-Dateien, 1.071
-  Seiten, Stände 07/2025 bis 06/2026) im Wortlaut – **in Arbeit**; Block 1 ist mit 12 Kapiteln
+  Seiten, Stände 07/2025 bis 06/2026) im Wortlaut – **vollständig**; Block 1 ist mit 12 Kapiteln
   vollständig, Block 2 (Leistungen im Leistungsaustausch) mit 13 Kapiteln ebenfalls vollständig,
   Block 3 (Unternehmer / Unternehmen) mit 25 Kapiteln einschließlich der Arbeitspapiere A 1 bis
   A 27 ebenfalls vollständig, Block 4 (Entgeltliche Lieferungen) mit 22 Kapiteln einschließlich
@@ -2461,12 +2461,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Verhältnisse, den Investitionsgütern, dem Leerstand, dem Berichtigungsverfahren, den nur einmalig
   verwendeten WG sowie Bestandteilen und sonstigen Leistungen an WG bis zu den Aufzeichnungspflichten (Textteil
   vollständig) und den Arbeitspapieren A 1 bis A 16 (25 Kapitel, vollständig);
-  Block 13 (Unentgeltliche Wertabgaben) begonnen mit Inhaltsverzeichnis, Allgemeinem und Ort der
+  Block 13 (Unentgeltliche Wertabgaben) vollständig mit Inhaltsverzeichnis, Allgemeinem und Ort der
   Wertabgabe, der Übersicht über die Tatbestände des § 3 Abs. 1b UStG und der Gegenstandsentnahme als
   wirtschaftlichem Vorgang, der Entnahme bei Unternehmern mit privatem und mit nichtwirtschaftlichem
   Bereich dem Besteuerungsverbot bei fehlender Vorsteuerabzugsberechtigung, den Zuwendungen an das Personal,
   anderen unentgeltlichen Zuwendungen, den Steuerbefreiungen, der BMG der Entnahme und den
-  unentgeltlichen sonstigen Leistungen samt BMG, der privaten Fahrzeugnutzung, der Mindest-BMG und den Leistungen an Arbeitnehmer (Textteil vollständig) und den Arbeitspapieren A 1 bis A 24 (37 Kapitel).
+  unentgeltlichen sonstigen Leistungen samt BMG, der privaten Fahrzeugnutzung, der Mindest-BMG und den Leistungen an Arbeitnehmer (Textteil vollständig) und den Arbeitspapieren A 1 bis A 27 (39 Kapitel, vollständig). Damit liegt das Skript mit allen
+  13 Blöcken vollständig vor.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

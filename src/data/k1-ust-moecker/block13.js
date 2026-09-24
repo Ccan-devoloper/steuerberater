@@ -3,8 +3,8 @@
    „Block 13-UWA-Vers. 1.1.26 / Red. 10/25“, Fußzeile „StB 58 – Vers. 01.01.26 / Stand 10-25“; 69
    PDF-Seiten: Textteil Seiten 1 bis 41 (PDF-Seiten 2 bis 42), Arbeitspapiere A 1 bis A 27 (PDF-Seiten
    43 bis 69).
-   In Arbeit: Textteil vollständig (I. bis VI., PDF-Seiten 2 bis 42); Arbeitspapiere eingepflegt bis
-   A 24 (PDF-Seite 66). */
+   Vollständig: Textteil I. bis VI. (PDF-Seiten 2 bis 42) und Arbeitspapiere A 1 bis A 27 (PDF-Seiten
+   43 bis 69). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1100,6 +1100,65 @@ export const block13 = [
         ["e.) Bauunternehmer überlässt Bagger an AN für EFH", "➔ Bagger gehört zum UV; Nutzung = UWA"],
       ] },
       { text: "Die Übungen sind als Tabellen (Fall / Lösung) wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-38",
+    teil: TEIL,
+    kapitel: "38",
+    abschnittNr: "A 25 und A 26",
+    title: "Arbeitspapiere A 25 und A 26: Gegenstandszuwendung aus unternehmerischen Gründen (§ 3 Abs. 1b Nr. 3 UStG); Übung Aktenkoffer",
+    thema: "Geschenke unter und über 50 € (Vorsteuer, § 15 Abs. 1a, Berichtigung nach § 17 Abs. 2 Nr. 5 UStG), Preisausschreiben, Sachspenden und Zuwendungen je nach Erwerbszweck; Übung: Einkauf eines Koffers zum Zweck der Zuwendung (keine Vorsteuer, keine UWA) gegenüber Einkauf als Ware (Vorsteuer und UWA, Berichtigung bzw. entgeltliche Zugabe)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 25 und A 26"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b Satz 1 Nr. 1 und 3 UStG", "§ 15 Abs. 1a UStG", "§ 17 Abs. 2 Nr. 5 UStG", "§ 1 Abs. 1 Nr. 1 UStG"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Geschenke", "Übungen"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 25 – 9.4 Gegenstandszuwendung aus unternehmerischen Gründen = UWA gem. § 3 Abs. 1b Nr. 3 UStG" },
+      { typ: "tabelle", spalten: ["Zuwendung", "Folge"], zeilen: [
+        ["Geschenke an Kunden, Geschäftsfreunde < 50 €", "Vorst: Ja + Keine UWA"],
+        ["Geschenke an Kunden, Geschäftsfreunde > 50 €", "Vorst: Nein - § 15 Abs. 1a + Keine UWA"],
+        ["Geschenke an Kunden, Geschäftsfreunde > 50 € + vorher Ware", "Vorst: Nein, Berichtigung § 17 Abs. 2 Nr. 5 UStG + Keine UWA"],
+        ["Gegenstände anlässlich: ✓ Preisausschreiben oder Tombola, ✓ Sachspenden an Vereine (wegen gutem Ruf) ✓ Zuwendungen aus untern. Gründen (U1 wendet U2 Bagger - gebraucht - zu)", "❶ Wenn zu diesem Zweck erworben: kein UV (nicht für RdU) + keine Vorsteuer. ❷ Wenn erworben z.B. als Ware / Anlagevermögen: Vorst: Ja + USt als UWA"],
+      ] },
+      { text: "Hinweis (eigene Ergänzung): Die 50-€-Grenze ist eine Freigrenze; Geschenke bis einschließlich 50 € (netto) sind unschädlich." },
+      { typ: "titel", text: "Arbeitspapier A 26 – 9.5.1 Einzelhändler kauft 1 Aktenkoffer für 100 zzgl. 19 USt ein" },
+      { typ: "tabelle", spalten: ["als Geschenk an Tochter", "als Geschenk an Geschäftsfreund", "als Preis für Tombola / Ausschreiben", "als Abgabe an Kunden, der 100 Taschen gekauft hat"], zeilen: [
+        ["Keine UWA, (Einkauf zum Zweck UWA) + keine Vorst", "Keine UWA, (Einkauf zum Zweck UWA) + keine Vorst", "Keine UWA, (Einkauf zum Zweck UWA) + keine Vorst", "Lief. im LAT. Entgelt auf 100 Taschen und 1 Koffer verteilen + Vorst"],
+      ] },
+      { typ: "titel", text: "9.5.2 Einzelhändler kauft 10 Aktenkoffer im Jan für 100 zzgl. 19 USt / Stück als Ware ein" },
+      { typ: "tabelle", spalten: ["Febr.: 1 x Geschenk an Tochter", "April: 1 X Geschenk an Geschäftsfreund", "Mai: 1x Preis für Tombola / Ausschreiben", "Juni: 1x Abgabe an Kunden, der 100 Taschen gekauft hat"], zeilen: [
+        ["Vorsteuern + UWA § 3 (1b) Nr. 1 stbar § 1 (1) 1 stpflichtig", "Berichtigung Vorst gem. § 17 (2) Nr. 5 => Vorst ./. 19", "Vorsteuern + UWA § 3 (1b) Nr. 3 stbar § 1 (1) 1 stpflichtig", "Vorsteuern + Lief. im LAT. Entgelt auf 100 Taschen und 1 Koffer verteilen"],
+      ] },
+      { text: "Nachrechnung (eigene Ergänzung): 19 % von 100 € = 19 € je Koffer; beim Geschenk an den Geschäftsfreund (über 50 €) ist dieser Vorsteuerbetrag nach § 17 Abs. 2 Nr. 5 UStG zu berichtigen. Stimmig." },
+      { text: "Die Übersichten sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-39",
+    teil: TEIL,
+    kapitel: "39",
+    abschnittNr: "A 27",
+    title: "Arbeitspapier A 27: Zuordnung / Besteuerung bei Unternehmern mit unternehmensfremdem Bereich – Computer-Fälle",
+    thema: "Computer zu 100 % dem UV zugeordnet mit 70 % unternehmerischer Nutzung: Fall 1 mit Vorsteuer aus der Anschaffung (Vorsteuer 1.900 + 380, Verkauf, Entnahme und Nutzung steuerbar, BMG der Nutzung 1.200), Fall 2 Anschaffung von privat (Vorsteuer nur 70 % aus Reparatur, Entnahme und Nutzung nicht steuerbar)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapier A 27"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b Satz 1 Nr. 1 und Satz 2 UStG", "§ 3 Abs. 9a Nr. 1 UStG", "§ 10 Abs. 1 und Abs. 4 Nr. 1 und 2 UStG", "§ 15a UStG", "§ 1 Abs. 1 Nr. 1 UStG"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Zuordnung", "Übungen"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 27 – 9.6 Zuordnung / Besteuerung bei Unternehmern mit unternehmensfremdem Bereich" },
+      { typ: "tabelle", spalten: ["1. Fall", "Computer", "2. Fall"], zeilen: [
+        ["- 100% UV - AK 10.000 + USt - ND 5 Jahre (§15a) - Rep 2.000 + 380 - Rep 500 ohne USt", "Nutzung 70% untern., 30% privat; ND 6 Jahre", "- 100% UV - AK 10.000 v. Privat - ND 5 Jahre (§15a) - Rep 2.000 + 380 - Rep 500 ohne USt"],
+        ["Vorst = 1.900 + 380", "", "Vorst = 266 (70% v. 380)"],
+      ] },
+      { typ: "tabelle", spalten: ["Fall", "Verkauf", "Entn.", "Nutzung"], zeilen: [
+        ["1. Fall", "Lief. stbar stpfl. BMG § 10(1) Entgelt", "UWA § 3 (1b)1 stbar § 1 (1) 1 stpfl. BMG § 10(4)1 = fiktiver EKP", "UWA § 3 (9a)1 stbar § 1 (1) 1 stpfl. BMG § 10(4)2 = AfA 2.000 = Rep. 2.000 ======= x 30 % ➔ 1.200"],
+        ["2. Fall", "Lief. stbar stpfl. BMG § 10(1) Entgelt", "Keine UWA § 3 (1b) Satz 2 nicht stbar", "Keine UWA § 3 (9a) Nr. 1 nicht stbar"],
+      ] },
+      { text: "Nachrechnung (eigene Ergänzung): 19 % von 10.000 € = 1.900 €; 19 % von 2.000 € = 380 €; 70 % von 380 € = 266 €. BMG der Nutzung im Fall 1: AfA 10.000 € : 5 Jahre (§ 15a-Zeitraum statt ND 6 Jahre) = 2.000 € zuzüglich vorsteuerbelastete Reparatur 2.000 € (die Reparatur über 500 € ohne USt bleibt außer Ansatz) = 4.000 €, davon 30 % = 1.200 €, USt 228 €. Stimmig." },
+      { text: "Die Übersicht ist nach Ansicht der Seite als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

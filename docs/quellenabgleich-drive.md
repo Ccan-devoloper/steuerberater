@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: Arbeitspapiere A 25 bis A 27 – Block 13 und USt-Skript vollständig
+
+Übernommen (PDF-Seiten 67 bis 69, Seiten gerendert und angesehen): Kapitel ust-m-b13-38 (A 25 Gegenstandszuwendung aus unternehmerischen Gründen, A 26 Übung Aktenkoffer) und ust-m-b13-39 (A 27 Computer-Fälle). Block 13 ist damit vollständig (39 Kapitel). Das USt-Skript (Moecker) liegt mit allen 13 Blöcken (14 Teile einschließlich Block 8 Teil I und II) vollständig vor; Kopfkommentare, README, Campus-Text, Skript-Kopf und offene-quellen.md entsprechend angepasst.
+
+- Stillschweigend berichtigt: fehlende schließende Klammer bei „(Einkauf zum Zweck UWA“ (A 26).
+- Hinweis (eigene Ergänzung): A 25 unterscheidet „< 50 €“ / „> 50 €“ – Freigrenze, genau 50 € unschädlich.
+- Nachrechnungen (eigene Ergänzung): A 26 19 € je Koffer; A 27 1.900 € / 380 € / 266 €, BMG der Nutzung 1.200 € (USt 228 €). Alle stimmig.
+
+Prüfung danach: 14 Teile, 523 Kapitel, 6993 Blöcke, 425 Tabellen.
+
+Weiter mit: Alle lokalen Quellen sind abgearbeitet. Offen sind nur noch die Drive-Bestände (Abschnitt A in docs/offene-quellen.md) sowie die zur Prüfung vermerkten Punkte (ermäßigter Steuersatz für Speisen ab 2026 in Block 13 III.3.3 und VI.5.2).
+
 ### USt-Skript (Moecker), Block 13: Arbeitspapiere A 21 bis A 24
 
 Übernommen (PDF-Seiten 63 bis 66, Seiten gerendert und angesehen): Kapitel ust-m-b13-36 (A 21 lohnsteuerliche Werte bei Fahrzeugüberlassung an das Personal, A 22 Übungen Entnahme-UWA) und ust-m-b13-37 (A 23 Übungen Verwendungs-UWA, A 24 Übungen UWA an Arbeitnehmer). Übersichten und Übungen als Tabellen wiedergegeben; Sternchen-Verweise als ¹ ² ³.

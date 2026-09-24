@@ -10,7 +10,7 @@
    entspricht einem Abschnitt der Gliederung des Blocks. Die Daten eines
    Blocks liegen in einer eigenen Datei unter `k1-ust-moecker/`.
 
-   STAND DER ÜBERNAHME: in Arbeit – Block 1 (Einführung in das Umsatzsteuer-
+   STAND DER ÜBERNAHME: vollständig – Block 1 (Einführung in das Umsatzsteuer-
    recht) vollständig, Block 2 (Leistungen im Leistungsaustausch) vollständig, Block 3
    (Unternehmer / Unternehmen) vollständig, Block 4 (Entgeltliche
    Lieferungen) vollständig, Block 5 (Entgeltliche sonstige Leistungen) vollständig, Block 6 (Werkverträge,
@@ -21,7 +21,7 @@
    Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) vollständig,
    Block 11 (Vorsteuerabzug) vollständig,
    Block 12 (Berichtigung des Vorsteuerabzugs) vollständig,
-   Block 13 (Unentgeltliche Wertabgaben) begonnen.
+   Block 13 (Unentgeltliche Wertabgaben) vollständig.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien
