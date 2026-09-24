@@ -65,9 +65,10 @@ vorliegt –, wird ausgelassen und am Ende zusammen mit Abschnitt A zur Nachlief
 1. **Bisher blockierte Reste nachholen** (jetzt über den Download lesbar): ~~AO Teil I~~ (erledigt,
    vollständig), ~~AO Teil II~~ (erledigt, vollständig), ~~AO Teil III~~
    (erledigt, vollständig), ~~AO Teil IV~~ (erledigt, vollständig), ~~AO Teil V~~
-   (erledigt, vollständig) – **das AO-Skript ist damit vollständig**, ESt-Kurzskript I (Seiten 80–162),
-   KSt-Kurz-Skript Breier (ab Seite 90), Ertragsteuer-Prüfungen 2013 bis 2015,
-   Bilanz-Prüfungen 2012 Teil III (Lösung) und 2013 bis 2015.
+   (erledigt, vollständig) – **das AO-Skript ist damit vollständig**, ESt-Kurzskript I (Seiten 80–162;
+   Download scheitert weiterhin), ~~KSt-Kurz-Skript Breier (ab Seite 90)~~ (erledigt, alle elf Teile),
+   ~~Ertragsteuer-Prüfungen 2013 bis 2015~~ (erledigt), ~~Bilanz-Prüfungen 2012 Teil III (Lösung)
+   und 2013 bis 2015~~ (erledigt).
 2. **Neue Bestände aus dem zweiten Baum**, bisher an keiner Stelle im Campus:
    - Umwandlungssteuerrecht (Hamacher, 21. Auflage, Januar 2026): Teil I Allgemeines und
      Umwandlungsarten (`1ZARZWjR7VDA5_groMb6XgdVxZGoxe0ms`), Teil II Einbringung in eine
