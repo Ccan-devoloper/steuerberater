@@ -10623,6 +10623,20 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Skript Termin 1 (Melzer), Kapitel 1 und 2 (PDF-Seiten 8 bis 16) – neuer Bestand aus dem zweiten Baum
+
+Übernommen: „Bilanzierung nach Handels- und Steuerrecht“ (Karsten Melzer, April 2026, Rechtsstand 2025; Drive-ID `19z9p0I0WgRUbRMbQfYAMaYzKUJNUsIx3`, 178 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) als neuer Datensatz `src/data/k3-bil-skript-melzer.js` mit Prüfskript `npm run check:k3-bil-skript-melzer` und dem neuen Reiter „Skript (Melzer)“ im Bilanz-Campus. Diese Runde: Kapitel 1 „Maßgeblichkeitsgrundsatz“ (1.1 bis 1.5) und Kapitel 2 „Klausuraufbau“ (2.1 Ansatz dem Grunde nach mit den Ansatzübersichten, 2.2 Bewertung mit den Bewertungsgrundsätzen des § 252 HGB und den Übersichten Handelsbilanz/Steuerbilanz) – 7 Einträge.
+
+- Übertragung: die gerahmten Tabellen der Quelle über die Tabellenerkennung des PDF übernommen (Zellen mit aufgelöster Silbentrennung; über den Seitenwechsel laufende Tabellen und Tabellenzeilen zusammengeführt; unmittelbar aneinanderstoßende Übersichten wieder getrennt); die Seiten gerendert und mit dem Ergebnis verglichen.
+- Schaubild übernommen: „Konsequenzen der Maßgeblichkeit“ (Seite 8) als Tabelle Handelsbilanz → Steuerbilanz.
+- Gekennzeichnet: in 1.1 „soweit es sich nicht gem. § 248 Abs. 2 Satz 1 HGB um Marken …“ (das Aktivierungsverbot für Marken, Drucktitel usw. steht in § 248 Abs. 2 Satz 2 HGB).
+- Stillschweigend berichtigt: „PKW § 7 Abs. 2a EStGunbewegliche Wirtschaftsgüter“ (fehlender Zeilenumbruch) in der Bewertungsübersicht.
+- Nachrechnung: in diesen Kapiteln keine Rechenbeispiele.
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 2 Teile, 7 Kapitel, 90 Blöcke, 11 Tabellen.
+
+Weiter mit: Kapitel 3 „Ansatz dem Grunde nach“ (PDF-Seiten 17 bis 49).
+
 ### IStR-Skript (Grümmer/Holzrichter), Folien (PDF-Seiten 152 bis 163) – Skript vollständig
 
 Übernommen: die zwölf „Folien zum Internationalen Steuerrecht“ von Daniela Holzrichter (Folie 1a, 1b, 2 bis 7, 8a, 8b, 9 und 10; jeweils „- vereinfachte Darstellung -“) als 12 Einträge unter der neuen Konstante `KF` (Teil „folien“, Verfasserin Daniela Holzrichter): Arten der Steuerpflicht natürlicher Personen und Körperschaften, Steuerabzug nach § 50a EStG, Sondervorschriften nach § 50 EStG, Produktivitätsklausel, Gliederung des OECD-MA, Progressionsvorbehalt nach § 32b EStG, Art. 15 DBA-Österreich mit vier Beispielen, Steuerermäßigung nach § 34c EStG und nach § 32d Abs. 1 S. 2 i.V.m. Abs. 5 EStG, Wegzugsbesteuerung nach § 6 AStG und Einkünfteberichtigung nach § 1 AStG.

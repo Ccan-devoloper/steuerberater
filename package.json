@@ -72,6 +72,7 @@
     "check:k3-umwstr-skript": "node tools/pruefen-k3-umwstr-skript.mjs",
     "check:k3-umwst-kurzskript": "node tools/pruefen-k3-umwst-kurzskript.mjs",
     "check:k2-istr-skript-gh": "node tools/pruefen-k2-istr-skript-gh.mjs",
+    "check:k3-bil-skript-melzer": "node tools/pruefen-k3-bil-skript-melzer.mjs",
     "check:k3-persg-skript-melzer": "node tools/pruefen-k3-persg-skript-melzer.mjs",
     "check:k1-ao-skript-jacobs": "node tools/pruefen-k1-ao-skript-jacobs.mjs",
     "check:k1-ao-short-skript-jacobs": "node tools/pruefen-k1-ao-short-skript-jacobs.mjs",

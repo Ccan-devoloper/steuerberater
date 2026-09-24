@@ -29,6 +29,7 @@ import { bilOriginalklausuren, bilOriginalklausurenQuelle } from "./data/k3-bil-
 import { bilPruefungsklausuren, bilPruefungsklausurenQuelle } from "./data/k3-bil-pruefungsklausuren.js";
 import KurzskriptBloecke from "./components/KurzskriptBloecke";
 import { bilUebungsfaelle, bilUebungsfaelleQuelle } from "./data/k3-bil-uebungsfaelle-noethen.js";
+import { bilSkriptMelzer, bilSkriptMelzerQuelle } from "./data/k3-bil-skript-melzer.js";
 import { PrioBadge, PrioNorm, PrioFilter, PrioCockpit, prioZaehlen, usePrioFilter, prioritaetFuer } from "./components/Prioritaet";
 
 /* Examenspriorität eines Bilanz-Moduls (🔴/🟠/🟢) nach den Beck-Auswertungen. */
@@ -50,6 +51,7 @@ const ansichten = [
   { id: "faelle", label: "Fälle", Icon: IconFaelle },
   { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "uebungsklausur", label: "Übungsklausuren", Icon: IconTraining },
+  { id: "skript-melzer", label: "Skript (Melzer)", Icon: IconRegister },
   { id: "uebungsfaelle", label: "Übungsfälle (Nöthen)", Icon: IconFaelle },
   { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconTraining },
   { id: "pruefungsklausuren", label: "Prüfungsklausuren im Original", Icon: IconTraining },
@@ -337,6 +339,21 @@ export default function App({ onKlausurwechsel, onFachwechsel }) {
             suchePlatzhalter="Norm, Stichwort oder Betrag"
             einheit="Aufgabenteile"
             einheitEinzahl="Aufgabenteil"
+          />
+        )}
+        {ansicht === "skript-melzer" && (
+          <KurzskriptBloecke
+            kicker="Klausur 3 · Bilanzen · Lehrgangsskript"
+            titel="Bilanzierung nach Handels- und Steuerrecht (Melzer)"
+            lead="Das Lehrgangsskript Termin 1 von Karsten Melzer (April 2026, Rechtsstand 2025) im Wortlaut, die Übersichten als Tabellen und die Schaubilder als Tabellen in Lesereihenfolge. Eingepflegt sind Kapitel 1 (Maßgeblichkeitsgrundsatz) und Kapitel 2 (Klausuraufbau: Ansatz dem Grunde nach, Bewertung, Übersichten Handelsbilanz/Steuerbilanz). Die Kapitel 3 bis 16 – von Zurechnung und Zuordnung über Bewertung, Anlage- und Umlaufvermögen, Rückstellungen und latente Steuern bis zur Bilanzberichtigung – folgen."
+            quelle={bilSkriptMelzerQuelle}
+            kapitel={bilSkriptMelzer}
+            karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}
+            gruppeVon={(k) => k.teil}
+            gruppeLabel={(k) => k.teilLabel}
+            gruppeAria="Kapitel"
+            gruppeAlle="Alle Kapitel"
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
           />
         )}
         {ansicht === "uebungsfaelle" && (

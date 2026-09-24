@@ -66,6 +66,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   § 2a EStG, §§ 1 und 6 AStG, Anlagen zu §§ 2–5, 7–14 und 15 AStG) sowie die **DBA-Texte**
   (Auszüge DBA Österreich und Türkei, OECD-Musterabkommen 2017) und die **zwölf Folien** von
   Daniela Holzrichter – vollständig, 93 Abschnitte, 1771 Blöcke, 46 Tabellen. Prüfung: `npm run check:k2-istr-skript-gh`
+- **Bilanz-Skript Termin 1 (Melzer)** (Klausur 3, Campus Bilanzen → „Skript (Melzer)“): das
+  Lehrgangsskript „Bilanzierung nach Handels- und Steuerrecht“ von Karsten Melzer (April 2026,
+  Rechtsstand 2025) im Wortlaut, Übersichten und Schaubilder als Tabellen. Eingepflegt sind
+  **Kapitel 1** (Maßgeblichkeitsgrundsatz) und **Kapitel 2** (Klausuraufbau) – 7 Abschnitte,
+  90 Blöcke, 11 Tabellen. Die Kapitel 3 bis 16 folgen. Prüfung: `npm run check:k3-bil-skript-melzer`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung
@@ -6293,7 +6298,8 @@ src/
     k3-lernpfad-umwstr.js     Lernpfad „Schritt für Schritt“ Umwandlungssteuerrecht (16 Lektionen)
     k3-umwstr-skript-hamacher.js  UmwStR-Lehrgangsskript (Hamacher), Teile I bis V (vollständig)
     k3-umwst-kurzskript-breier.js UmwSt-Kurz-Skript (Breier), Teile 1 bis 6 (vollständig)
-    k2-istr-skript-gh.js          IStR-Lehrgangsskript (Grümmer/Holzrichter)
+    k2-istr-skript-gh.js          IStR-Lehrgangsskript (Grümmer/Holzrichter), vollständig
+    k3-bil-skript-melzer.js       Bilanz-Lehrgangsskript Termin 1 (Melzer)
     sources.js                Quellenkatalog und Rechtsstand
     examensprioritaet.js      Regelwerk 🔴/🟠/🟢 aus den Beck-Auswertungen, Fachtabellen
 ```
