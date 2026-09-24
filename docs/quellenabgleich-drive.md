@@ -10623,6 +10623,20 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: Inhaltsverzeichnis, I. bis II.2.1
+
+Neue Datei src/data/k1-ust-moecker/block13.js, im Skript nach Block 12 eingebunden. Aufbau der Quelle (lokale Datei b13, 69 PDF-Seiten, Titelblatt November 2025): Textteil Skript-Seiten 1 bis 41 (PDF-Seiten 2 bis 42, Skript-Seite = PDF-Seite − 1), Arbeitspapiere A 1 bis A 27 (PDF-Seiten 43 bis 69, A n = PDF-Seite 42 + n). Einziges eingebettetes Bild ist das Titelblatt (geprüft mit PyMuPDF); alle Seiten gerendert.
+
+Übernommen (PDF-Seiten 2 bis 7): Kapitel ust-m-b13-1 (Inhaltsverzeichnis), ust-m-b13-2 (I.1 bis I.3), ust-m-b13-3 (II.1 Übersicht der Tatbestände, als Tabelle) und ust-m-b13-4 (II.2.1 Gegenstandsentnahme mit Beispielen PC, gemischte Schenkung und Heizungseinbau).
+
+- Stillschweigend berichtigt: Kopfzeile „6lock 13-UWA“ → „Block 13-UWA“ (nur im Dateikopf erwähnt); „für seine wirtschaftlichen Tätigkeit“ → „Tätigkeiten“ (I.1); „sonstige Leistungen ist … nur dann steuerbar ist“ → „sonstige Leistung ist … steuerbar“ und „wird jedoch die unentgeltlichen Wertabgaben“ → „werden jedoch …“ (I.2); „liegt eine … Wertabgabe vorliegt“ → „vor“, „ein zum Unternehmensvermögen gehörenden PC“ → „einen … gehörenden PC“, „Auch bliebt“ → „Auch bleibt“ (II.2.1); „unternemensfremd“ im Inhaltsverzeichnis.
+- Hinweis (eigene Ergänzung): II.1 „Geschenke von geringem Wert (< 50 €)“ – Freigrenze, genau 50 € unschädlich.
+- Nachrechnung (eigene Ergänzung): gemischte Schenkung 19 % von 400 € = 76 € stimmig.
+
+Prüfung danach: 14 Teile, 488 Kapitel, 6666 Blöcke, 380 Tabellen.
+
+Weiter mit: II.2.2 Entnahme durch Unternehmer mit unternehmensfremdem (privatem) Bereich, Beispiel Bauunternehmer, Skript-Seite 6/7 (PDF-Seite 7 unten / 8).
+
 ### USt-Skript (Moecker), Block 12: Arbeitspapiere A 13 bis A 16 – Block 12 vollständig
 
 Übernommen (PDF-Seiten 142 bis 145, Seiten gerendert und angesehen): Kapitel ust-m-b12-24 (A 13 und A 14 Berechnung und Vorgehensweise, Schritte 1 bis 3) und ust-m-b12-25 (A 15 Übung Kfz, A 16 Gesamtübersicht). Block 12 ist damit vollständig (25 Kapitel: Textteil I. bis XII., Arbeitspapiere A 1 bis A 16); Kopfkommentar, README, Campus-Text, Skript-Kopf und offene-quellen.md angepasst.
