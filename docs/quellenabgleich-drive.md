@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: II.2.4
+
+Übernommen (PDF-Seiten 10 unten bis 13 Mitte, PDF-Seite 10 gerendert und angesehen): Kapitel ust-m-b13-7 (II.2.4 Besteuerungsverbot bei fehlender Vorsteuerabzugsberechtigung mit Beispielen PC von Privatperson, PC mit 5 % Nutzung und Farbdrucker; Bestandteile, Bagatellregelung, BMG).
+
+- Stillschweigend berichtigt: Anführungszeichen bei „Entnahme - UWA“ geschlossen; „verwendet es den PC“ → „verwendet er den PC“; „zur Ausführung abzugsschädlicher ( z.B. …)“ → „abzugsschädlicher Umsätze (z.B. …)“; „ein Farbdrucker“ → „einen Farbdrucker“; doppelte Verneinung „weder … noch einen Betrag von 1.000 € nicht übersteigen“ → „… übersteigen“; ASCII-Anführungszeichen („Einkaufspreis“, „Schwacke-Liste“, „Aufschlag“, „Restwertes“) vereinheitlicht.
+- Keine Zahlen zum Nachrechnen.
+
+Prüfung danach: 14 Teile, 491 Kapitel, 6700 Blöcke, 380 Tabellen.
+
+Weiter mit: II.3 Zuwendungen an das Personal, Skript-Seite 12 (PDF-Seite 13 Mitte).
+
 ### USt-Skript (Moecker), Block 13: II.2.2 und II.2.3
 
 Übernommen (PDF-Seiten 7 unten bis 10): Kapitel ust-m-b13-5 (II.2.2.1 bis II.2.2.4 mit Bauunternehmer-, PC- und Baumschul-Beispiel) und ust-m-b13-6 (II.2.3 nichtwirtschaftlicher Bereich i.e.S. mit Vereinsbus).
