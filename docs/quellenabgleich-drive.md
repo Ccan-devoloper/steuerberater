@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### IStR-Skript (Grümmer/Holzrichter), Kapitel 4 Abschnitte 4.5.13 bis 4.5.37 (PDF-Seiten 62 bis 85)
+
+Übernommen: OECD-MA Art. 10 bis 32 – Dividenden (mit Grundfall Müller AG Wien, Lösungen a bis c, juristische Personen und § 8b Abs. 4 KStG), Zinsen, Lizenzen mit § 50g EStG, Veräußerungsgewinne, selbständige und unselbständige Arbeit mit 183-Tage-Regel und § 50d Abs. 8 EStG, Art. 16 bis 22, Methodenartikel, Freistellungsmethode mit Progressionsvorbehalt nach § 32b EStG (einschließlich Berechnung), Anrechnungsmethode, Art. 24 bis 32 und die fünf Übungsfälle – 25 Einträge unter `K4`.
+
+- Tabellen gerendert und geprüft: Berechnung zum Progressionsvorbehalt (Seite 79) und die beiden Einkommensermittlungen zu Fall 3 (Seite 83).
+- Gekennzeichnet: „beträgt 15 % = 20.000 €“ bei einer Lizenzgebühr von 100.000 € (15 % = 15.000 €); in der Berechnung zum Progressionsvorbehalt die Zeile „zu versteuerndes Einkommen 81.000 €“ (nach Sachverhalt und Lösungstext 31.000 €).
+- Stillschweigend berichtigt: „Abzugssteuer nach die § 50a EStG“; „körperschaftsteuersteuerpflichtig“; „Ihre gesamten Erträge“; „Abkommenberechtigten“; im Blocksatz auseinandergezogene Zeilen („sellschaften bereits nach inländischem Recht immer steuerfrei“, „Bruttodividende (100.000 €), da insoweit Einkünfte nach“, „weiterhin ein Erstattungsanspruch in Höhe von 10.000 €“) als Fließtext; über den Seitenwechsel getrennte Absätze zusammengeführt.
+- Nachrechnung (eigene Ergänzung): Dividende 20.000, Quellensteuer 25 % = 5.000, anrechenbar 15 % = 3.000, Erstattung 10 % = 2.000, inländische Kapitalertragsteuer 25 % ./. 15 % = 2.000; Tarif 2025: Steuer auf 81.000 = 0,42 × 81.000 ./. 10.911,92 = 23.108; 23.108 / 81.000 = 28,53 %; 31.000 × 28,53 % = 8.844,30; Steuer auf 31.000 = 4.589; Fall 3: 155.000 + 25.000 ./. 15.000 = 165.000, ./. 100.000 + 5.000 + 15.000 = 85.000, 15 % = 12.750; Variante b 180.000, 27.000 ./. 15.000 = 12.000; Fall 5: 5 % von 20.000 = 1.000; Beispiel Klaus Müller 1.3. bis 1.8. = 153 Tage – stimmig bis auf die gekennzeichneten Stellen.
+
+Prüfung danach: IStR-Skript (Grümmer/Holzrichter) in Ordnung: 4 Teile, 57 Kapitel, 836 Blöcke, 19 Tabellen.
+
+Weiter mit: Kapitel 4.6 „Steueranrechnung (unilaterale Vermeidung der Doppelbesteuerung)“ (PDF-Seiten 85 bis 97).
+
 ### IStR-Skript (Grümmer/Holzrichter), Kapitel 4 bis Abschnitt 4.5.12 (PDF-Seiten 42 bis 62)
 
 Übernommen: Kapitel 4 „Entstehung der Doppelbesteuerung und ihre Vermeidung“, Abschnitte 4.1 bis 4.4 (Definition, Ursachen, Vermeidung, Rechtsnatur der DBA mit § 50d Abs. 8 und 9 EStG) und 4.5.1 bis 4.5.12 (OECD-Musterabkommen: Allgemeines, Aufbau, Art. 1 bis 9 mit Betriebstätte, Zuordnungsübersicht, Unternehmensgewinnen, Ent- und Verstrickung, § 4g EStG, Seeschifffahrt und verbundenen Unternehmen) – 16 Einträge unter der neuen Kapitel-Konstante `K4`.

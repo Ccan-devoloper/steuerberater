@@ -62,8 +62,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   das Lehrgangsskript von Dieter Grümmer und Daniela Holzrichter (März 2026, Rechtsstand 2025) im
   Wortlaut, die Schaubilder als Tabellen. Eingepflegt sind **Kapitel 1 bis 3** (Einleitung,
   Definition, Arten der Steuerpflicht mit §§ 1, 1a, 49, 50, 50a EStG) und aus **Kapitel 4** die
-  Abschnitte 4.1 bis 4.5.12 (Doppelbesteuerung, OECD-MA bis Art. 9) – 32 Abschnitte, 580 Blöcke,
-  16 Tabellen. Der Rest von Kapitel 4, Kapitel 5 und 6 und die DBA-Texte folgen. Prüfung: `npm run check:k2-istr-skript-gh`
+  Abschnitte 4.1 bis 4.5.37 (Doppelbesteuerung, OECD-MA Art. 1 bis 32, Übungsfälle) – 57 Abschnitte,
+  836 Blöcke, 19 Tabellen. Kapitel 4.6 (§ 34c EStG), Kapitel 5 und 6 und die DBA-Texte folgen. Prüfung: `npm run check:k2-istr-skript-gh`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung
