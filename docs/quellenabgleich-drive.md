@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: V (V.1 bis V.4)
+
+Übernommen (PDF-Seiten 31 bis 34, Schaubild auf PDF-Seite 31 gerendert und angesehen): Kapitel ust-m-b13-19 (V.1 Überblick als Tabellen, nahestehende Personen, Dienstverhältnis) und ust-m-b13-20 (V.2 bis V.4 mit Beispielen Lederkoffer, Bagger und Gartenarbeit).
+
+- Quellenmarkierung: V.2 Entgelt „336,61 € (400 € : 1,19)“ – richtig 336,13 € (zweimal markiert); Ergebnis 87,40 € bleibt richtig.
+- Stillschweigend berichtigt: fehlendes „handelt“ in „sofern es sich nicht um Aufmerksamkeiten“, fehlende öffnende Klammer vor „Abschn. 10.7 Abs. 2“ (V.1); fehlende schließende Klammern (V.2, V.3 Beispiel 2); „entstanden Ausgaben“ → „entstandenen“ (V.3).
+- Nachrechnungen (eigene Ergänzung): Bagger BMG gedeckelt 12 €/Std., USt 2,28 €; Garten 95 € stimmig.
+
+Prüfung danach: 14 Teile, 504 Kapitel, 6826 Blöcke, 385 Tabellen.
+
+Weiter mit: VI Leistungen an Arbeitnehmer, Skript-Seite 34 (PDF-Seite 35).
+
 ### USt-Skript (Moecker), Block 13: III.3.3 und IV
 
 Übernommen (PDF-Seiten 25 unten bis 30): Kapitel ust-m-b13-17 (III.3.3 BMG der Dienstleistungs-UWA mit Beispielen Dr. Pfiffig, Lüsterklemm und Restaurant Athos) und ust-m-b13-18 (IV private Fahrzeugnutzung einschließlich Personalüberlassung und Fahrrad). Ausgabenaufstellung und Methodenübersicht als Tabellen.
