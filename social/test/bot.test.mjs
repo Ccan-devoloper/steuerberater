@@ -637,7 +637,7 @@ test("Reel-Cover zeigt Thema, Fach und Dauer", async () => {
   const html = coverHtml(daten, kontext({ fach: "ust", klausur: 1 }));
   assert.ok(html.includes("Umsatzsteuer?"), "Thema fehlt");
   assert.ok(html.includes("reelmarke"), "Reel-Kennzeichnung fehlt");
-  assert.ok(html.includes("45 Sekunden"), "Dauer fehlt");
+  assert.ok(!html.includes("45 Sekunden"), "Dauer soll auf dem aktuellen Herrjurist-Cover nicht doppelt erscheinen");
   assert.ok(html.includes("class=\"story cover\""), "Cover-Klasse fehlt");
   /* Ohne Szenen-Icon greift ein Standardsymbol, ohne Dauer entfällt die Zeile. */
   const ohne = coverDaten({ fach: "ao", szenen: [{ titel: "X" }] }, { gesamt: 0 });
@@ -1631,7 +1631,10 @@ test("Reel-Cover und Karussell-Titelfolie tragen dieselbe Überschriften-Optik",
      Kasten um den ganzen Titel und sah im Profilraster aus wie ein fremder
      Kanal. */
   for (const [was, html] of [["Cover", cover], ["Titelfolie", folie]]) {
-    assert.ok(/<h1[^>]*><span class="z">/.test(html), `${was}: Titel ohne Zeilenpille`);
+    assert.ok(
+      /<h1[^>]*class="[^"]*titel-stack[^"]*"[^>]*>.*<span class="titel-zeile">/.test(html),
+      `${was}: Titel ohne semantische Zeilenpille`
+    );
   }
   /* Und das Cover nimmt die Story-Regel zurück, die einen Grund um das ganze
      h1 legt - sonst läge die Pille in der Pille. */
