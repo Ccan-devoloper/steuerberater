@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: VIII.3 bis XII – Textteil vollständig
+
+Übernommen (PDF-Seiten 125 unten bis 129): Kapitel ust-m-b12-15 (VIII.3 mehrere Maßnahmen als ein Berichtigungsobjekt, VIII.4 Entnahme), ust-m-b12-16 (IX sonstige Leistungen nicht an einem WG mit Leasingsonderzahlung) und ust-m-b12-17 (X nachträgliche AK/HK, XI Wechselfälle mit Ferienwohnungen, XII Aufzeichnungspflichten). Damit ist der Textteil von Block 12 vollständig.
+
+- Quellenmarkierung: XI Beispiel „Bis einschließlich 25 wird keine USt erhoben“ (nach dem Sachverhalt USt erst ab 27, also bis einschließlich 26 nicht).
+- Stillschweigend berichtigt: fehlendes Komma in „Softwareprogramme, Beratungsleistungen“ (IX); „steuerfrei vermietete Gebäude“ → „vermietetes“, „würde ein Berichtigungsobjekt … handeln“ → „würde es sich um ein Berichtigungsobjekt … handeln“ (X); fehlende Klammer nach „Abs. 5 bis 7 UStAE“ (XI); fehlender Schlusspunkt (XII).
+- Nachrechnungen (eigene Ergänzung): IX 9.500 € × 1/5 × ½ = 950 €, 190 € monatlich; XI 320 € / 240 € jährlich. Alle stimmig.
+
+Prüfung danach: 13 Teile, 476 Kapitel, 6554 Blöcke, 358 Tabellen.
+
+Weiter mit: Arbeitspapiere A 1 bis A 16 (PDF-Seiten 130 bis 145), beginnend mit A 1.
+
 ### USt-Skript (Moecker), Block 12: VII bis VIII.2
 
 Übernommen (PDF-Seiten 122 bis 125 Mitte): Kapitel ust-m-b12-12 (VII nur einmalig verwendete WG mit Türen- und Bauland-Beispiel), ust-m-b12-13 (VIII/VIII.1 Bestandteile mit Fenster-Beispiel) und ust-m-b12-14 (VIII.2 sonstige Leistungen an einem WG mit Fassaden- und Pkw-Beispiel).
