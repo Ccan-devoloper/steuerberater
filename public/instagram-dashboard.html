@@ -260,6 +260,7 @@
         <nav class="nav-tabs" id="viewTabs" aria-label="Dashboard-Bereiche">
           <button class="nav-tab active" data-view="overview">Übersicht</button>
           <button class="nav-tab" data-view="content">Inhalte</button>
+          <button class="nav-tab" data-view="preproduction">Vorproduktion</button>
           <button class="nav-tab" data-view="learnings">Learnings</button>
           <button class="nav-tab" data-view="stories">Stories</button>
           <button class="nav-tab" data-view="audience">Audience</button>
@@ -347,8 +348,7 @@
       </article>
     </section>
 
-    <section class="view" data-view-panel="learnings">
-
+    <section class="view" data-view-panel="preproduction">
       <article class="panel preprod-panel" id="preproductionPanel">
         <div class="preprod-toolbar">
           <div>
@@ -364,6 +364,10 @@
         <div class="help-box compact"><b>Vorschau-Modus:</b> Die Medien werden direkt aus <code>instagram-assets/vorproduktion</code> geladen. Das Dashboard veröffentlicht oder verändert dabei nichts.</div>
         <div id="preproductionFeed"></div>
       </article>
+    </section>
+
+    <section class="view" data-view-panel="learnings">
+
       <div class="grid rank-grid">
         <article class="panel"><div class="panel-head"><div><h2>Hooks <span class="info-tip" title="Der Index ist kein Meta-Score. Er kombiniert Follow-, Share-, Save- und Interaktionsraten relativ zum eigenen Account-Schnitt.">?</span></h2><div class="panel-note">Index 100 = Schnitt des gewählten Zeitraums. Über 100 = überdurchschnittliches Aktivierungssignal.</div></div><span class="source-chip derived">berechnet</span></div><div id="hookRanking"></div></article>
         <article class="panel"><div class="panel-head"><div><h2>Formate <span class="info-tip" title="Index 100 entspricht dem Account-Schnitt. Werte deutlich über/unter 100 sind erst zusammen mit n sinnvoll.">?</span></h2><div class="panel-note">Reach, Shares, Saves und Follows gemeinsam betrachtet.</div></div><span class="source-chip derived">berechnet</span></div><div id="formatRanking"></div></article>
@@ -662,8 +666,15 @@
     document.documentElement.style.setProperty("--accent",ACCOUNTS[store.account].accent);
   }
   function renderViews(){
-    $$(".nav-tab").forEach(function(b){b.classList.toggle("active",b.dataset.view===store.view);});
-    $$(".view").forEach(function(v){v.classList.toggle("active",v.dataset.viewPanel===store.view);});
+    var preTab=$('[data-view="preproduction"]');
+    if(preTab)preTab.hidden=store.account!=="herr";
+    if(store.account!=="herr"&&store.view==="preproduction"){
+      store.view="content";
+      localStorage.setItem("igDashView",store.view);
+    }
+    $(".nav-tab").forEach(function(b){b.classList.toggle("active",b.dataset.view===store.view);});
+    $(".view").forEach(function(v){v.classList.toggle("active",v.dataset.viewPanel===store.view);});
+    $(".command-left").hidden=store.view==="preproduction";
   }
   function renderRange(data){
     $$("#rangeSeg button").forEach(function(b){b.classList.toggle("active",Number(b.dataset.days)===store.days);});
@@ -1180,7 +1191,12 @@
     if(!data){setStatus("Für dieses Konto konnten noch keine Daten geladen werden.","warn");return;}
     renderRange(data);renderOverviewKpis(data);renderProfileBrief(data);renderTrend(data);renderInsights(data);renderTypeCompare(data);renderContent(data);renderPreproduction(data);renderLearnings(data);renderStories(data);renderAudience(data);renderSystem(data);renderDrawer(data);
     var errs=data._errors&&data._errors.length||0,set=validSelectedDay(data);
-    setStatus(errs?("Geladen mit "+errs+" fehlenden Datei(en)"):(set?("Tag "+periodLabel(data)+" · Datenstand "+latestDate(data)):("Aktuell · Stand "+latestDate(data))),errs?"warn":"ok");
+    if(store.view==="preproduction"&&store.account==="herr"){
+      var preStand=data.vorproduktionIndex&&data.vorproduktionIndex.stand;
+      setStatus(data._preproductionError?data._preproductionError:("Vorproduktion · Review-Stand "+(preStand||"–")),data._preproductionError?"warn":"ok");
+    }else{
+      setStatus(errs?("Geladen mit "+errs+" fehlenden Datei(en)"):(set?("Tag "+periodLabel(data)+" · Datenstand "+latestDate(data)):("Aktuell · Stand "+latestDate(data))),errs?"warn":"ok");
+    }
     $("#footerSource").textContent="Quelle: "+ACCOUNTS[store.account].name+" · Instagram-Analytics-State";
     var p=new URLSearchParams(location.search);p.set("konto",store.account);p.set("tage",String(store.days));p.set("view",store.view);if(set)p.set("datum",set);else p.delete("datum");
     history.replaceState(null,"",location.pathname+"?"+p.toString());
@@ -1214,7 +1230,7 @@
   if(ACCOUNTS[qs.get("konto")])store.account=qs.get("konto");
   if(["0","1","7","14","30"].indexOf(qs.get("tage"))>=0)store.days=Number(qs.get("tage"));
   if(/^\d{4}-\d{2}-\d{2}$/.test(qs.get("datum")||"")){store.days=30;store.date=qs.get("datum");}
-  if(["overview","content","learnings","stories","audience","system"].indexOf(qs.get("view"))>=0)store.view=qs.get("view");
+  if(["overview","content","preproduction","learnings","stories","audience","system"].indexOf(qs.get("view"))>=0)store.view=qs.get("view");
   renderTabs();renderViews();
   if(Number(localStorage.getItem(AUTH_KEY)||0)>Date.now())unlockDashboard();else $("#authPassword").focus();
   setInterval(function(){if(!$("#dashboardApp").hidden)loadAll();},5*60*1000);
