@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 6 A. V bis B (PDF-Seiten 143 bis 150) – Teil 6 vollständig
+
+Übernommen: A. V Verschonungsregelung und A. VI Sanierungsklausel mit Merke (6-04; Seite 143 gerendert), § 8d KStG mit Merke (6-05), B. Mindestbesteuerung (6-06).
+
+- Gekennzeichnet: „./. 60 x 100“ (gemeint : 60 × 100); die doppelte Gliederungsnummer „VI.“ für § 8d KStG; Erstanwendung „nach dem 31.12.2022“ (§ 34 Abs. 6a S. 1 KStG: nach dem 31.12.2015); „§ 10d Abs. 4 KStG“ (EStG).
+- Stillschweigend berichtigt: „Nachdem der Sanierungsklausel“; „Steuerklärung“; „bei einem schädlichen Anteilsübertragung“; „zu unterschieden“; „fallen erst wieder wegfallen“; „Ereignis“ → „Ereignisses“; „von100.000“; fehlende Klammern bzw. Anführungszeichen (§ 8c-Merke, B.-Überschrift).
+- Nachrechnung (eigene Ergänzung): 90.000 ./. 20.000 = 70.000; 54.000 ./. 12.000 = 42.000 : 60 × 100 = 70.000; § 8d-Beispiele 300.000/200.000 → 100.000 und 150.000 ./. 80.000 = 70.000 (davon 20.000) → 50.000; Mindestbesteuerung 1.000.000 + 70 % von 750.000 = 1.525.000, Rest 225.000, Verlustvortrag 975.000; Abwandlung zvE 350.000 – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 6 Teile, 48 Kapitel, 1876 Blöcke, 53 Tabellen.
+
+Weiter mit: Teil 7 „Zinsschranke“ (PDF-Seite 151; Textfassung ab Zeile 9152).
+
 ### KSt-Kurz-Skript (Breier), Teil 6 A. I bis A. IV (PDF-Seiten 137 bis 142)
 
 Übernommen: Teil 6 „Verluste von Körperschaften“ mit neuer Teil-Konstante T6 – A. I Vorbemerkungen und II. sachlicher Anwendungsbereich (6-01), A. III Untergang von Verlusten bei Anteilsübertragungen (6-02), A. IV Konzernklausel (6-03).
