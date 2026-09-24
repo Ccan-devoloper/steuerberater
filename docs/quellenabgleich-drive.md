@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Skript Termin 1 (Melzer), Kapitel 11 (PDF-Seiten 134 bis 141)
+
+Übernommen: Kapitel 11 „Sonderposten mit Rücklageanteil“ – 11.1 Verhältnis Handelsbilanz/Steuerbilanz, 11.2 Rücklage für Ersatzbeschaffung nach R 6.6 EStR (Voraussetzungen, Übertragung, Sonderposten, Mehrentschädigung, Übersicht), 11.3 § 6b EStG (Veräußerungsgewinn, begünstigte Wirtschaftsgüter, Übertragungsmöglichkeiten, Auflösung, Abschreibung, EU/EWR-Betriebsstätten, § 6b Abs. 10 EStG), 11.4 Zuschüsse für Anlagegüter – 4 Einträge unter `TB11`.
+
+- Schaubilder gerendert und als Tabellen übernommen: Übertragungsmöglichkeiten nach § 6b Abs. 1 EStG (Seite 137) und nach § 6b Abs. 10 EStG (Seite 139); die beiden Zeitachsen „Grundsätzliche Möglichkeiten der Übertragung“ (Seiten 138 und 140) als Tabellen Jahr/Übertragung (Beschriftung der Pfeile eigene Darstellung); die Übersicht zu R 6.6 EStR (Seite 136) nach dem Seitenbild neu gegliedert. Den Konverter bei Tabellenzellen der ersten Zeile, die die Erkennung nicht erfasst, korrigiert (dort waren Wortbruchstücke der Nachbarspalte entstanden).
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: „i.Satzd.“ (fünfmal, gemeint „i.S.d.“); „wurde§ 6 b EStG“; Fortsetzungszeilen der Überschriften 11.2.1.2, 11.3.7 und 11.4.2.3 angefügt; zweizeilige „Beachte“-Kästen zusammengeführt.
+- Nachrechnung: in diesem Kapitel keine Rechenbeispiele. Wortabgleich der Tabellenflächen: vollständig.
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 11 Teile, 43 Kapitel, 1795 Blöcke, 90 Tabellen.
+
+Weiter mit: Kapitel 12 „Rückstellungen“ (PDF-Seiten 142 bis 161).
+
 ### Bilanz-Skript Termin 1 (Melzer), Kapitel 10 (PDF-Seiten 122 bis 133)
 
 Übernommen: Kapitel 10 „Verbindlichkeiten/Schulden“ – 10.1 Zuordnung (Veranlassungszusammenhang, Entnahme und Einlage des finanzierten Wirtschaftsguts, Wegfall, Forderungsverzicht, Rangrücktritt nach § 5 Abs. 2a EStG, Forderungsverzicht gegen Besserungsschein), 10.2 Bewertung und Abzinsung, 10.3 Fremdwährungsverbindlichkeiten, 10.4 betrieblicher Schuldzinsenabzug nach § 4 Abs. 4a EStG (Prüfungsschema, Überentnahme, Hinzurechnungsbetrag, Investitionsdarlehen) – 4 Einträge unter `TB10`. Die Rechenschemata stehen als Tabellen ohne Kopfzeile.
