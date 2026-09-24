@@ -13,6 +13,7 @@ import IstrFallsammlung from "./IstrFallsammlung";
 import IstrHausaufgaben from "./IstrHausaufgaben";
 import KurzskriptBloecke from "./KurzskriptBloecke";
 import { istrNoethen, istrNoethenQuelle } from "../data/k2-istr-noethen.js";
+import { istrSkriptGh, istrSkriptGhQuelle } from "../data/k2-istr-skript-gh.js";
 import SchemaPostitEnhancer from "./SchemaPostitEnhancer";
 import {
   istrBereiche, istrBereichName, istrModule, istrFaelle, istrTraining, istrQuellen,
@@ -35,6 +36,7 @@ const ansichten = [
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
   { id: "noethen", label: "Schemata und Fälle (Nöthen)", Icon: IconSchema },
+  { id: "skript-gh", label: "Skript (Grümmer/Holzrichter)", Icon: IconRegister },
   { id: "training", label: "Training", Icon: IconTraining },
   { id: "quellen", label: "Quellenstand", Icon: IconRegister },
 ];
@@ -130,6 +132,19 @@ export default function K2IStRCampus({ onKlausurwechsel, onFachwechsel }) {
           gruppeAria="Gruppen"
           gruppeAlle="Alle Gruppen"
           suchePlatzhalter="Norm, Fall oder Stichwort"
+        />}
+        {verlauf.ansicht === "skript-gh" && <KurzskriptBloecke
+          kicker="Klausur 2 · Internationales Steuerrecht · Lehrgangsskript"
+          titel="Internationales Steuerrecht (Grümmer/Holzrichter)"
+          lead="Das Lehrgangsskript von Dieter Grümmer und Daniela Holzrichter (März 2026, Rechtsstand 2025) im Wortlaut, die Schaubilder als Tabellen. Eingepflegt sind Kapitel 1 und 2 (Einleitung, Definition) und Kapitel 3 (Arten der Steuerpflicht: unbeschränkte Steuerpflicht, §§ 1 Abs. 3, 1a EStG, beschränkte Steuerpflicht mit § 49 EStG, Veranlagung nach § 50 EStG und Steuerabzug nach § 50a EStG). Kapitel 4 bis 6 (Doppelbesteuerung und OECD-MA, Anrechnung, § 2a EStG und AStG) und die DBA-Texte folgen."
+          quelle={istrSkriptGhQuelle}
+          kapitel={istrSkriptGh}
+          karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}
+          gruppeVon={(k) => k.teil}
+          gruppeLabel={(k) => k.teilLabel}
+          gruppeAria="Kapitel"
+          gruppeAlle="Alle Kapitel"
+          suchePlatzhalter="Norm, Stichwort oder Fall"
         />}
         {verlauf.ansicht === "schema" && <IstrSchemaSeite suche={suche} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} />}
         {verlauf.ansicht === "training" && <IstrTraining />}
