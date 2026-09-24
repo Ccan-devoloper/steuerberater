@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwStR-Skript (Hamacher), Teil III (55 Seiten) – Verschmelzung, §§ 11 – 13 UmwStG
+
+Übernommen: „Umwandlungssteuerrecht, Teil III: Verschmelzung von Kapitalgesellschaften (§§ 11 – 13 UmwStG)“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `1e0kAdsm1mV0EX8i4JiN3PQv8GqOsK17g`, vollständig heruntergeladen und lokal ausgewertet) mit neuer Teil-Konstante TIII: 19 Abschnitte auf der zweiten Gliederungsebene (1.1 bis 5.4; tiefere Ebenen als Zwischenüberschriften), alle 110 Fußnoten am jeweiligen Abschnittsende.
+
+- Tabellen: 19 Rechen- und Bilanzblöcke, gegen die gerenderten Seiten 13, 30 und 40 sowie Übersichtsblätter aller Seiten 5 bis 55 geprüft; die Schlussbilanzen der A-GmbH vierspaltig, der Buchungssatz zum up-stream-merger (Seite 30) als „Position | Betrag | Gegenposition | Betrag“. Schaubilder enthält Teil III nicht.
+- Gekennzeichnet: Verweis „siehe unter 2.3.5“ zur Grunderwerbsteuer (gemeint 2.3.3; einen Abschnitt 2.3.5 gibt es nicht).
+- Stillschweigend berichtigt: „Anteilseiger“; „Aufgrunddessen“; Satzende mit Komma („Einkommen danach 0 € beträgt,“); „40.000€“; Silbentrennungen des Blocksatzes.
+- Nachrechnung (eigene Ergänzung): Schlussbilanzen 700.000 € bzw. 760.000 € je Seite; Aufstockung 10 % von 200.000 €/400.000 € = 60.000 €, KSt-Rückstellung 15 % = 9.000 €, Gewinn 51.000 €; Entgeltlichkeitsquote 20 %, AK 2.000 €, Gewinn 98.000 €, steuerfrei 40 % = 39.200 €; Übernahmegewinn 400.000 € ./. 50.000 € = 350.000 €; up-stream 98 % von 80.000 € = 78.400 €, 5 % = 3.920 €; Einlagekonto 10.000 + 70.000 ./. 49.000 (70 %) = 31.000 € mit Endbeständen 1.000 €, 0 € (Sonderausweis 19.000 €), 30.000 € und 45.000 ./. 36.000 + 50.000 = 59.000 € (Sonderausweis 11.000 €); § 13-Fälle ./. 100.000 + 1.000.000 ./. 900.000 + 45.000 = 45.000 € – stimmig.
+
+Prüfung danach: UmwStR-Skript (Hamacher) in Ordnung: 3 Teile, 98 Kapitel, 2481 Blöcke, 73 Tabellen.
+
+Weiter mit: UmwStR-Skript Teil IV „Spaltung (§ 15 UmwStG)“ (`1AgUXSDoN7x76GyC5aGblDWZ7FMuHZ0ZT`).
+
 ### UmwStR-Skript (Hamacher), Teil II (147 Seiten) – Einbringung, §§ 20 – 23, 25 UmwStG
 
 Übernommen: „Umwandlungssteuerrecht, Teil II: Einbringung in eine Kapitalgesellschaft §§ 20 – 23, 25 UmwStG“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `13Co6d7aV8oO1c_hymjVKY0WNOb6LfTyn`, vollständig heruntergeladen und lokal ausgewertet) mit neuer Teil-Konstante TII in `src/data/k3-umwstr-skript-hamacher.js`: 74 Abschnitte (Kapitel 1 Allgemeines bis Kapitel 7 Formwechsel/Option nach § 1a KStG; Gliederung bis zur dritten Ebene als eigener Abschnitt, tiefere Ebenen als Zwischenüberschriften), alle 258 Fußnoten der Quelle am jeweiligen Abschnittsende. Die Gliederungsnummer 4.2.2.2 fehlt in der Quelle selbst (auch im Inhaltsverzeichnis); übernommen wie dort. Abschnitt 6.1 (ein einleitender Satz) steht zusammen mit 6.1.1 in einem Eintrag.

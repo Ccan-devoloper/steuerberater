@@ -41,8 +41,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   eine Kapitalgesellschaft nach §§ 20 – 23, 25 UmwStG: Tatbestand, Ansatzwahlrecht und
   sonstige Gegenleistungen, Einbringungsstichtag und Rückwirkung, Anteilstausch,
   Einbringungsgewinn I und II mit Ersatzrealisationstatbeständen, Folgen bei der
-  Kapitalgesellschaft, Formwechsel und Option nach § 1a KStG) – zusammen 79 Abschnitte,
-  1864 Blöcke, 54 Tabellen. Die Teile III bis V folgen. Prüfung: `npm run check:k3-umwstr-skript`
+  Kapitalgesellschaft, Formwechsel und Option nach § 1a KStG) und **Teil III** (Verschmelzung
+  von Kapitalgesellschaften nach §§ 11 – 13 UmwStG: Schlussbilanz der Übertragerin,
+  Übernahmegewinn, Rechtsnachfolge und Einlagekonto der Übernehmerin, Anteilseigner) –
+  zusammen 98 Abschnitte, 2481 Blöcke, 73 Tabellen. Die Teile IV und V folgen. Prüfung: `npm run check:k3-umwstr-skript`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung
