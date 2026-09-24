@@ -4502,21 +4502,21 @@
       "medienId": "18115790843012712",
       "veroeffentlicht": "2026-09-23T15:44:09.838Z",
       "insights": {
-        "reach": 25,
-        "views": 32,
+        "reach": 29,
+        "views": 36,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 16,
-        "navigation_tap_exit": 9
+        "navigation": 30,
+        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 17,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-09-24T05:43:36.317Z",
-      "insightsAlterStunden": 14
+      "insightsStand": "2026-09-24T09:44:34.461Z",
+      "insightsAlterStunden": 18
     },
     {
       "datum": "2026-09-23",
@@ -4575,22 +4575,22 @@
       "medienId": "18081045608342338",
       "veroeffentlicht": "2026-09-23T19:19:06.485Z",
       "insights": {
-        "reach": 16,
-        "views": 26,
+        "reach": 23,
+        "views": 33,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 19,
-        "navigation_tap_forward": 10,
-        "navigation_tap_back": 1,
+        "navigation": 29,
+        "navigation_tap_exit": 7,
         "navigation_swipe_forward": 3,
-        "navigation_tap_exit": 5
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 16
       },
-      "insightsStand": "2026-09-24T05:43:36.317Z",
-      "insightsAlterStunden": 10.4
+      "insightsStand": "2026-09-24T09:44:34.461Z",
+      "insightsAlterStunden": 14.4
     },
     {
       "datum": "2026-09-24",
@@ -4678,7 +4678,7 @@
       "veroeffentlicht": "2026-09-24T06:46:38.255Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-24/2026-09-24-b1-02-muf64i4x.jpg",
       "insights": {
-        "reach": 7,
+        "reach": 17,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -4687,8 +4687,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-24T07:43:51.450Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-24T09:44:36.379Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-09-24",
