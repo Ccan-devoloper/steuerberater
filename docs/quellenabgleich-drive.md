@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 5 A. X und B. I bis B. III (PDF-Seiten 114 bis 121)
+
+Übernommen: A. X vGA bei Schwestergesellschaften mit Merke „vGA im Dreieck“ (Abschnitt 5-08; Seite 118 gerendert) und B. I bis III gesellschaftsrechtliche Veranlassung (Abschnitt 5-09).
+
+- Gekennzeichnet: in der Merke „§ 8 Abs. 3 S. 3 EStG“ (KStG) und „§ 8 Abs. 3 S. 4 KStG“ (im Text § 8 Abs. 3 S. 5 KStG).
+- Stillschweigend berichtigt: doppeltes „vor“ bzw. „sind“; „Gebrauchsvorteil“ → „Gebrauchsvorteils“; „vermögensvorteil“; „100 % ige“; fehlende Anführungszeichen und Klammern in zwei Buchungssätzen und bei „Deckelung“; „beherr-schenden“; „zivilrechtlichen wirksamen“; „vpr“; „Korrespondenzprinzips“.
+- Nachrechnung (eigene Ergänzung): 13.090 ./. 1.190 = 11.900 €; 2.090 ./. 190 = 1.900 €; 60 % von 11.900 = 7.140 €; PKW 12.900 € + Vorsteuer 190 € = 1.190 € + 11.900 €; 2.000 €, 250 €, 500 €; Risikogeschäfte 60.000 ./. 20.000 = 40.000 €; Yen-Darlehen 20.000 € – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 5 Teile, 40 Kapitel, 1448 Blöcke, 43 Tabellen.
+
+Weiter mit: Teil 5 B. IV „Gesellschaftsrechtliche Veranlassung bei beherrschenden Gesellschaftern“ (PDF-Seite 122; Textfassung ab Zeile 7423).
+
 ### KSt-Kurz-Skript (Breier), Teil 5 A. IX (PDF-Seiten 109 bis 113)
 
 Übernommen: A. IX Verbrauchstheorie (Fiktionstheorie) mit vier Beispielen und der Merke-Übersicht zur vGA (Abschnitt 5-07); Seite 113 gerendert, die verschachtelte Liste ist je Unterpunkt mit ihrem Oberbegriff wiedergegeben.

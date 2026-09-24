@@ -1227,8 +1227,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Definition mit den fünf Merkmalen und den Besonderheiten bei Darlehen, überhöhte
   Anschaffungskosten mit Bilanzberichtigung, Rückgängigmachung, umgekehrte vGA mit den
   Teilbeträgen I und II, Bewertung einschließlich Umsatzsteuer, Beweislast und
-  Vorteilsausgleich sowie die Verbrauchs-/Fiktionstheorie mit der großen Merke-Übersicht –
-  zusammen 38 Abschnitte, 1326 Blöcke, 43 Tabellen.
+  Vorteilsausgleich sowie die Verbrauchs-/Fiktionstheorie mit der großen Merke-Übersicht, vGA
+  bei Schwestergesellschaften und im Dreieck, gesellschaftsrechtliche Veranlassung mit
+  Unangemessenheit, unüblichen Vereinbarungen und Risikogeschäften – zusammen 40 Abschnitte,
+  1448 Blöcke, 43 Tabellen.
   **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 5 und
   die Teile 6 bis 10 werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
