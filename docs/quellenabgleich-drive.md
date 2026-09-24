@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Skript Termin 1 (Melzer), Kapitel 7 bis 9 (PDF-Seiten 104 bis 121)
+
+Übernommen: Kapitel 7 „Bilanzierung des Umlaufvermögens“ (7.1 bis 7.6: Inventur und Inventurvereinfachungen mit Fortschreibungsformeln, Ansatz und Bewertung, Maßgeblichkeit, Einzel-, Gruppen- und Sammelbewertung, Lifo und Fifo, Festbewertung, Übersicht der Bewertungsmethoden), Kapitel 8 „Forderungen in der Bilanz“ (8.1 bis 8.3: Zurechnung, uneinbringliche, zweifelhafte und normale Forderungen mit Buchungssatz, Pauschalwertberichtigung, unverzinsliche und Fremdwährungsforderungen, halbfertige Bauten, Abschlagszahlungen nach HOAI) und Kapitel 9 „Rechnungsabgrenzungsposten“ (9.1 bis 9.6: aktive und passive RAP, Disagio, § 5 Abs. 5 Satz 2 EStG, Auflösung, Anzahlungen, Zölle und Verbrauchsteuern) – 15 Einträge unter `TB7`, `TB8` und `TB9`.
+
+- Tabellenerkennung verbessert: Zellen werden jetzt einzeln über ihre Fläche ausgelesen; Zellen, die die Erkennung verkürzt oder ausgelassen hatte, werden aus Zeilenhöhe und Spaltenbreite ergänzt (in der Übersicht der Bewertungsmethoden, Seite 112, fehlten sonst „(Last-in-first-out)“ und die ganze Zeilenbeschriftung „Fifo-Methode (first in first out)“). Neu ist ein Wortabgleich aller Tabellenflächen gegen den eingepflegten Text; für die Seiten 8 bis 121 fehlt kein Wort (Abweichungen nur bei den stillschweigend berichtigten Schreibfehlern).
+- Gekennzeichnet: in 8.3.7 „Durch die Rücknahme des BMF-Schreibens vom 29.06.2016“ (zuvor im selben Abschnitt richtig 29.06.2015).
+- Stillschweigend berichtigt: „Zugangsbewerutung“; „Entsteheng“; „Vermögensgegenständes des Umlaufvermögens“; „Anlagevermögenen“; „Abschlusstichtag“ (zweimal); „Herstellungkosten“; „Rechungsabgrenzungsposten“ in der Überschrift 9.1; „Vermögengegenstände“; die über zwei Zeilen getrennte fette Anmerkung zur Lifo-Methode bei der zeitverschobenen Inventur zusammengeführt.
+- Nachrechnung (eigene Ergänzung): Forderungsausfall 11.900 = 10.000 + 1.900 Umsatzsteuer (19 %) – stimmig.
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 9 Teile, 35 Kapitel, 1518 Blöcke, 73 Tabellen.
+
+Weiter mit: Kapitel 10 „Verbindlichkeiten/Schulden“ (PDF-Seiten 122 bis 133).
+
 ### Bilanz-Skript Termin 1 (Melzer), Kapitel 5 und 6 (PDF-Seiten 83 bis 103)
 
 Übernommen: Kapitel 5 „Bilanzierung des abnutzbaren Anlagevermögens“ (5.1 Abschreibung/AfA mit linearer, degressiver und Leistungs-AfA, § 7 Abs. 2a EStG, Computerhardware und Software, Gebäude-AfA, AfaA, AfA nach Teilwertabschreibung und nach nachträglichen AK/HK, AfA-Bemessungsgrundlage nach Einlage mit vier Fallgruppen, GWG und Sammelposten; 5.2 Investitionsabzugsbetrag und Sonderabschreibung nach § 7g EStG) und Kapitel 6 „Bilanzierung des nicht abnutzbaren Anlagevermögens“ (6.1 Beteiligungen an Personen- und Kapitalgesellschaften, 6.2 Wertpapiere mit Kapitalerhöhungen und Bezugsrechten) – 4 Einträge unter `TB5` und `TB6`.

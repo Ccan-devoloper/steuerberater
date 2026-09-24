@@ -71,8 +71,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rechtsstand 2025) im Wortlaut, Übersichten und Schaubilder als Tabellen. Eingepflegt sind
   **Kapitel 1** (Maßgeblichkeitsgrundsatz), **Kapitel 2** (Klausuraufbau), **Kapitel 3** (Ansatz
   dem Grunde nach), **Kapitel 4** (Bewertung), **Kapitel 5** (abnutzbares Anlagevermögen) und
-  **Kapitel 6** (nicht abnutzbares Anlagevermögen) – 20 Abschnitte, 1255 Blöcke, 68 Tabellen. Die
-  Kapitel 7 bis 16 folgen. Prüfung: `npm run check:k3-bil-skript-melzer`
+  **Kapitel 6** (nicht abnutzbares Anlagevermögen), **Kapitel 7** (Umlaufvermögen), **Kapitel 8**
+  (Forderungen) und **Kapitel 9** (Rechnungsabgrenzung) – 35 Abschnitte, 1518 Blöcke, 73 Tabellen.
+  Die Kapitel 10 bis 16 folgen. Prüfung: `npm run check:k3-bil-skript-melzer`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung
