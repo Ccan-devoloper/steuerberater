@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### IStR-Skript (Grümmer/Holzrichter), Kapitel 4.6 (PDF-Seiten 85 bis 97) – Kapitel 4 vollständig
+
+Übernommen: Kapitel 4.6 „Steueranrechnung (unilaterale Vermeidung der Doppelbesteuerung)“ – Allgemeines, Steueranrechnung und Abgeltungssteuer, Tatbestandsmerkmale des § 34c Abs. 1 EStG mit dem Katalog des § 34d EStG und der Höchstbetragsberechnung, Steuerabzug nach § 34c Abs. 2 und 3 EStG, § 34c Abs. 5 und 6 EStG sowie § 26 KStG mit dem ausführlichen Beispiel Neureich (Chile, Kolumbien, Niederlande; Anrechnung und Probeberechnung mit Abzug) – 7 Einträge unter `K4`.
+
+- Schaubild gerendert und als Tabelle übernommen: „Steuerermäßigung bei ausländischen Einkünften nach § 34c EStG“ (Seite 87, Anrechnung und Abzug mit Voraussetzungen); die Zeilenbezeichnungen „Inhalt“, „Vorschrift“ und „Voraussetzungen“ der ersten Spalte sind eigene Darstellung. Die vier Berechnungstabellen des Beispiels (Seiten 93 bis 97) als Tabellen.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: „Doppelbe- steuerung“ in der Überschrift 4.6; „Gewerbetrieb“ (dreimal); „zur 40 % steuerfrei“; „in Ihrem Quellenbesteuerungsrecht“ (zweimal); „Verlustvor - bzw. Rücktrag“; Silbentrennungen in der Einkünfteliste des Beispiels („im In- land“, „ei- nes“).
+- Nachrechnung (eigene Ergänzung), Tarif 2025: Einkünfte 50.000 + 60 % × 10.000 = 56.000, Kolumbien 15.000 ./. 250 = 14.750, Summe 80.750, z.v.E. 70.750, Steuer 0,42 × 70.750 ./. 10.911,92 = 18.803, Durchschnittssatz 26,58 %; Höchstbeträge 2.658 (Chile, Doppelbesteuerung 3.500 ./. 2.658 = 842), 3.921 (Kolumbien), 1.595 (Niederlande, anrechenbar 15 % von 10.000 = 1.500); festzusetzen 18.803 ./. 2.658 ./. 3.000 ./. 1.500 = 11.645. Mit Abzug: Chile 10.000 ./. 3.500 = 6.500, Summe 77.250, z.v.E. 67.250, Steuer 17.335 (Zone 3), 25,78 %; Höchstbeträge 3.803 und 1.547; festzusetzen 17.335 ./. 3.000 ./. 1.500 = 12.835. Beispiel Anton Meyer: 60 % von 1.500 = 900 – alles stimmig.
+
+Prüfung danach: IStR-Skript (Grümmer/Holzrichter) in Ordnung: 4 Teile, 64 Kapitel, 951 Blöcke, 25 Tabellen.
+
+Weiter mit: Kapitel 5 „Sondernormen des Internationalen Steuerrechts“ (§ 2a EStG, AStG; PDF-Seiten 98 bis 123).
+
 ### IStR-Skript (Grümmer/Holzrichter), Kapitel 4 Abschnitte 4.5.13 bis 4.5.37 (PDF-Seiten 62 bis 85)
 
 Übernommen: OECD-MA Art. 10 bis 32 – Dividenden (mit Grundfall Müller AG Wien, Lösungen a bis c, juristische Personen und § 8b Abs. 4 KStG), Zinsen, Lizenzen mit § 50g EStG, Veräußerungsgewinne, selbständige und unselbständige Arbeit mit 183-Tage-Regel und § 50d Abs. 8 EStG, Art. 16 bis 22, Methodenartikel, Freistellungsmethode mit Progressionsvorbehalt nach § 32b EStG (einschließlich Berechnung), Anrechnungsmethode, Art. 24 bis 32 und die fünf Übungsfälle – 25 Einträge unter `K4`.
