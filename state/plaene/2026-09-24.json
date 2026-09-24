@@ -29,7 +29,7 @@
       "lang": false,
       "status": "geplant",
       "budgetBlockiert": {
-        "seit": "2026-09-24T10:44:16.233Z",
+        "seit": "2026-09-24T11:43:49.721Z",
         "grund": "reel-faktencheck: 0.0527 $ im Topf „core“ nicht mehr zulässig (frei 0.0365 $ von 0.5260 $) - der Aufruf startet nicht.",
         "topf": "core",
         "art": "AdmissionAbgelehnt"
@@ -92,7 +92,9 @@
       "themaId": null,
       "beitragSlot": null,
       "tageBisExamen": 12,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18618190033059977",
+      "veroeffentlicht": "2026-09-24T11:44:00.141Z"
     },
     {
       "slot": "s7",
