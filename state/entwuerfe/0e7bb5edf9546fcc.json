@@ -1,0 +1,153 @@
+{
+  "datum": "2026-09-24",
+  "zweck": "autor",
+  "daten": {
+    "folien": [
+      {
+        "art": "titel",
+        "titel": "Wegzug mitten im Jahr: Wie prüfst du das komplette Schema in einer Klausur?",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "globus"
+      },
+      {
+        "art": "karte",
+        "titel": "Die Karte fürs Wegzugsschema",
+        "untertitel": null,
+        "text": null,
+        "punkte": null,
+        "schritte": [
+          {
+            "titel": "Zeitpunkt des Wegzugs bestimmen",
+            "text": "Wohnsitz/gewöhnlicher Aufenthalt aufgegeben, § 8, § 9 AO"
+          },
+          {
+            "titel": "Jahr in zwei Zeiträume teilen",
+            "text": "Unbeschränkt bis Wegzug, danach beschränkt, § 1 EStG"
+          },
+          {
+            "titel": "Jahresverknüpfung prüfen",
+            "text": "Zusammenrechnung nach § 2 (7) S. 3 EStG"
+          },
+          {
+            "titel": "Progressionsvorbehalt checken",
+            "text": "Auslandseinkünfte nach § 32b (1) S. 1 Nr. 2 EStG"
+          },
+          {
+            "titel": "Wesentliche Beteiligung abfragen",
+            "text": "Wegzugsbesteuerung nach § 6 AStG prüfen"
+          },
+          {
+            "titel": "Fondsanteile gesondert sehen",
+            "text": "Spezialfall nach § 19 (3) InvStG beachten"
+          },
+          {
+            "titel": "Deutsche Einkünfte danach isolieren",
+            "text": "Beschränkte Steuerpflicht über § 49 EStG"
+          }
+        ],
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "globus"
+      },
+      {
+        "art": "text",
+        "titel": "Wo die meisten Punkte verloren gehen",
+        "untertitel": null,
+        "text": null,
+        "punkte": [
+          "Die *Jahresverknüpfung* wird übersehen: Ohne § 2 (7) S. 3 EStG bleibt der beschränkt steuerpflichtige Zeitraum isoliert und der Progressionsvorbehalt fehlt komplett.",
+          "Die *AStG-Prüfung* wird vergessen oder pauschal angehängt: § 6 AStG ist ein eigener Prüfungspunkt mit eigenen Beteiligungsvoraussetzungen, kein Automatismus beim Wegzug."
+        ],
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "lupe"
+      },
+      {
+        "art": "merke",
+        "titel": "Merksatz",
+        "untertitel": null,
+        "text": "Der Wegzug teilt das Jahr, verbindet die Einkünfte über die Progression – und stellt erst danach die Frage nach dem AStG.",
+        "punkte": null,
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "kreislauf"
+      },
+      {
+        "art": "cta",
+        "titel": "Diese Karte gehört in jede Lerngruppe.",
+        "untertitel": null,
+        "text": null,
+        "punkte": [
+          "Schick das der Person in deiner Lerngruppe, die den Progressionsvorbehalt beim Wegzug immer vergisst",
+          "Speichern für die letzte Wiederholung vor Tag 2",
+          "Welcher Schritt fehlt dir noch – kommentier's!"
+        ],
+        "schritte": null,
+        "links": null,
+        "rechts": null,
+        "formel": null,
+        "zeilen": null,
+        "ergebnis": null,
+        "icon": "globus"
+      }
+    ],
+    "caption": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht: das komplette Schema auf einer Karte.\n\nDer Wegzug ist kein einzelner Paragraph, sondern ein Zeitachsenproblem: erst das Jahr trennen, dann über § 2 (7) S. 3 EStG verknüpfen, dann den Progressionsvorbehalt prüfen – und erst danach fragen, ob § 6 AStG wegen wesentlicher Beteiligung greift.\n\nSchick das deiner Lerngruppe, bevor ihr die nächste Klausur zu Tag 2 übt. Speichern lohnt sich, das ist Dauerbrenner-Stoff.\n\nWo hakt's bei euch: bei der Jahresverknüpfung oder beim AStG?",
+    "hashtags": [
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#stbexamen",
+      "#steuerberater",
+      "#steuerrecht",
+      "#examensvorbereitung",
+      "#wegzugsbesteuerung",
+      "#internationalessteuerrecht",
+      "#astg",
+      "#progressionsvorbehalt",
+      "#klausurtechnik",
+      "#ertragsteuern"
+    ],
+    "kurztitel": "Wegzugsschema: sitzt die Karte?",
+    "bildSzene": "packed suitcase by front door",
+    "bildSzeneAlt": "passport and boarding pass on table",
+    "quellen": [
+      "§ 2 Abs. 7 S. 3 EStG",
+      "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+      "§ 6 AStG",
+      "§ 49 EStG",
+      "§ 19 Abs. 3 InvStG"
+    ],
+    "hooks": [
+      {
+        "typ": "frage",
+        "titel": "Wegzug mitten im Jahr: Wie prüfst du das komplette Schema in einer Klausur?"
+      },
+      {
+        "typ": "fehler",
+        "titel": "Wegzug geprüft, AStG vergessen: die typische Klausurfalle"
+      },
+      {
+        "typ": "aussage",
+        "titel": "Wegzug ist ein Zeitachsenproblem, kein einzelner Paragraph"
+      }
+    ]
+  }
+}
