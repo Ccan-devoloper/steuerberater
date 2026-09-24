@@ -10623,6 +10623,20 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### IStR-Skript (Grümmer/Holzrichter), Kapitel 4 bis Abschnitt 4.5.12 (PDF-Seiten 42 bis 62)
+
+Übernommen: Kapitel 4 „Entstehung der Doppelbesteuerung und ihre Vermeidung“, Abschnitte 4.1 bis 4.4 (Definition, Ursachen, Vermeidung, Rechtsnatur der DBA mit § 50d Abs. 8 und 9 EStG) und 4.5.1 bis 4.5.12 (OECD-Musterabkommen: Allgemeines, Aufbau, Art. 1 bis 9 mit Betriebstätte, Zuordnungsübersicht, Unternehmensgewinnen, Ent- und Verstrickung, § 4g EStG, Seeschifffahrt und verbundenen Unternehmen) – 16 Einträge unter der neuen Kapitel-Konstante `K4`.
+
+- Schaubilder und Tabellen gerendert und als Tabellen übernommen: „Vermeidung der Doppelbesteuerung“ (Seite 44), „§ 50d Abs. 9 EStG“ (Seite 45), „Einkunftsarten nach nationalem- und DBA-Recht“ (Seite 47), die Prüfungsreihenfolge (Seite 48), „Gliederung des OECD-Musterabkommen“ (Seite 49) und „Besteuerungsrechtszuordnung nach OECD-Musterabkommen“ (Seite 53). Die Zeilenbezeichnungen „Ebene“, „Vorgang“ und „Folge“ im Schaubild zu § 50d Abs. 9 EStG sind eigene Darstellung.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: „Organiation for Economic Cooporation and Development“; „Dop- pelbesteuerung“ in der Überschrift 4.5; „Rechtlage“; „Betriebsstäte“; „vermehr zum Tragen“; „Kassenstaatssprinzip“; „der Betrieb oder er Teilbetrieb“; die umbrochene Überschrift 4.5.10.1.2 zusammengeführt.
+- Normenangaben: für die Einträge ohne Paragrafen die Artikel des OECD-MA (eigene Ergänzung); dabei den irrtümlichen Platzhalter „UmwStG“ bei „1 Einleitung“ und „3.1 Allgemeines“ ersetzt.
+- Nachrechnung (eigene Ergänzung): Entstrickung 100.000 ./. 10.000 = 90.000; Veräußerung 02 110.000 ./. 100.000 = 10.000; Verstrickung mit 180.000 (Buchwert 100.000) – stimmig.
+
+Prüfung danach: IStR-Skript (Grümmer/Holzrichter) in Ordnung: 4 Teile, 32 Kapitel, 580 Blöcke, 16 Tabellen.
+
+Weiter mit: Kapitel 4 ab Abschnitt 4.5.13 (Art. 10 ff. OECD-MA, PDF-Seiten 62 bis 97).
+
 ### IStR-Skript (Grümmer/Holzrichter), Kapitel 1 bis 3 (PDF-Seiten 4 bis 41) – neuer Bestand aus dem zweiten Baum
 
 Übernommen: „Internationales Steuerrecht“ (Dieter Grümmer / Daniela Holzrichter, März 2026, Stand 12/2025, Rechtsstand 2025; Drive-ID `1J6nyscsq9ATpbQ7biy_5NA5CZXPLqjQ5`, 163 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) als neuer Datensatz `src/data/k2-istr-skript-gh.js` mit neuem Reiter „Skript (Grümmer/Holzrichter)“ im IStR-Campus und Prüfskript `npm run check:k2-istr-skript-gh`. Kapitel 1 Einleitung, 2 Definition und Gliederung, 3 Arten der Steuerpflicht (3.1 bis 3.5.6) – 16 Abschnitte.
