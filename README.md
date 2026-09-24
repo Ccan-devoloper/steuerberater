@@ -63,8 +63,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Wortlaut, die Schaubilder als Tabellen. Eingepflegt sind **Kapitel 1 bis 6** (Einleitung,
   Definition, Arten der Steuerpflicht mit §§ 1, 1a, 49, 50, 50a EStG, Doppelbesteuerung mit
   OECD-MA Art. 1 bis 32, Übungsfällen und Steueranrechnung nach § 34c EStG, Sondernormen mit
-  § 2a EStG, §§ 1 und 6 AStG, Anlagen zu §§ 2–5, 7–14 und 15 AStG) – 72 Abschnitte,
-  1390 Blöcke, 32 Tabellen. Die DBA-Texte und die Folien im Anhang folgen. Prüfung: `npm run check:k2-istr-skript-gh`
+  § 2a EStG, §§ 1 und 6 AStG, Anlagen zu §§ 2–5, 7–14 und 15 AStG) sowie die **DBA-Texte**
+  (Auszüge DBA Österreich und Türkei, OECD-Musterabkommen 2017) – 81 Abschnitte, 1694 Blöcke,
+  32 Tabellen. Die Folien am Ende des Skripts folgen. Prüfung: `npm run check:k2-istr-skript-gh`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung

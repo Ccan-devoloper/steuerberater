@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### IStR-Skript (Grümmer/Holzrichter), DBA-Texte (PDF-Seiten 138 bis 151)
+
+Übernommen: der Anhang „DBA-Texte“ im Wortlaut – Auszug DBA Österreich (Art. 4, 10, 15 und 23), Auszug DBA Türkei (Art. 10 und 22) und das OECD-Musterabkommen 2017 zur Beseitigung der Doppelbesteuerung sowie der Steuerverkürzung und -umgehung auf dem Gebiet der Steuern vom Einkommen und vom Vermögen (Abschnitte I bis VII, Art. 1 bis 32 mit Schlussklausel) – 9 Einträge unter der neuen Konstante `KD` (Teil „dba“, ein Eintrag je DBA-Auszug bzw. je Abschnitt des OECD-MA).
+
+- Übertragung: die zweispaltigen Seiten des OECD-MA spaltenweise gelesen, Silbentrennungen am Zeilenende aufgelöst, Absätze, Buchstaben- und Ziffernlisten als eigene Blöcke; die hochgestellten Satznummern der DBA-Auszüge stehen als Ziffer vor dem Satz („(1) 1 Im Sinne …“). Kontrolle der Vollständigkeit über einen Wortabgleich Quelle/Übernahme – die Differenz besteht nur aus Kopf- und Fußzeilen, dem Wasserzeichen und Silbentrennungsresten.
+- Gekennzeichnet: in Art. 29 Abs. 8 Buchst. a OECD-MA die zweite Ziffer „i)“ (gemeint ii)).
+- Stillschweigend berichtigt: nichts (Auslassungszeichen „……“ und „…“ der Quelle übernommen).
+
+Prüfung danach: IStR-Skript (Grümmer/Holzrichter) in Ordnung: 7 Teile, 81 Kapitel, 1694 Blöcke, 32 Tabellen.
+
+Weiter mit: Folien zum Internationalen Steuerrecht (Daniela Holzrichter, PDF-Seiten 152 bis 163).
+
 ### IStR-Skript (Grümmer/Holzrichter), Kapitel 6 (PDF-Seiten 124 bis 137) – Textteil vollständig
 
 Übernommen: Kapitel 6 „Anlagen“ / 6.1 „Zusätzliche Materialien“ – Wohnsitzwechsel in niedrig besteuernde Gebiete (§§ 2 bis 5 AStG), Beteiligung an ausländischen Zwischengesellschaften (§§ 7 ff. AStG mit Grundtatbestand, aktiven Einkünften, niedriger Besteuerung, Freigrenze, Hinzurechnungsbetrag, Anrechnung, Feststellung, Ausschüttungen, DBA und zwei Fallbeispielen) und Familienstiftungen (§ 15 AStG) – 3 Einträge unter der neuen Kapitel-Konstante `K6`. Die Gliederungsnummern 6.1.2.4.4 und 6.1.2.7 fehlen bereits in der Quelle.
