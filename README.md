@@ -1229,8 +1229,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Teilbeträgen I und II, Bewertung einschließlich Umsatzsteuer, Beweislast und
   Vorteilsausgleich sowie die Verbrauchs-/Fiktionstheorie mit der großen Merke-Übersicht, vGA
   bei Schwestergesellschaften und im Dreieck, gesellschaftsrechtliche Veranlassung mit
-  Unangemessenheit, unüblichen Vereinbarungen und Risikogeschäften – zusammen 40 Abschnitte,
-  1448 Blöcke, 43 Tabellen.
+  Unangemessenheit, unüblichen Vereinbarungen und Risikogeschäften, beherrschende
+  Gesellschafter mit Rückwirkungsverbot und Durchführungsgebot – zusammen 41 Abschnitte,
+  1545 Blöcke, 43 Tabellen.
   **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 5 und
   die Teile 6 bis 10 werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).

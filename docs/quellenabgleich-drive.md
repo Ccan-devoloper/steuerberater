@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 5 B. IV und B. V (PDF-Seiten 122 bis 129)
+
+Übernommen: B. IV beherrschende Gesellschafter (Beherrschung, gleichgerichtete Interessen, zivilrechtliche Wirksamkeit, Form und Nachweis) und B. V Rückwirkungsverbot, klare Vereinbarung, Durchführungsgebot und nahestehende Personen mit Merke-Übersicht (Abschnitt 5-10; Seite 128 gerendert).
+
+- Gekennzeichnet: „H 36 III. KStH 2022“ (alte Zählung).
+- Stillschweigend berichtigt: „Arbeitsnehmern“; fehlender Satzpunkt; „Üblichkeit);“ → Klammer geschlossen.
+- Nachrechnung (eigene Ergänzung): Urlaubsgeld 2.000 × 6/12 = 1.000 €; Weihnachtsgeld 4.000 × 1/2 = 2.000 €; Tantieme 10 % → 20 %, zur Hälfte 5 %; Miete 80.000 ./. 50.000 = 30.000 €; 3 × 50.000 = 150.000 €; 20 % von 300.000 = 60.000 € – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 5 Teile, 41 Kapitel, 1545 Blöcke, 43 Tabellen.
+
+Weiter mit: Teil 5 C. „Pensionszusagen an Gesellschafter-Geschäftsführer“ (PDF-Seite 129; Textfassung ab Zeile 7858).
+
 ### KSt-Kurz-Skript (Breier), Teil 5 A. X und B. I bis B. III (PDF-Seiten 114 bis 121)
 
 Übernommen: A. X vGA bei Schwestergesellschaften mit Merke „vGA im Dreieck“ (Abschnitt 5-08; Seite 118 gerendert) und B. I bis III gesellschaftsrechtliche Veranlassung (Abschnitt 5-09).
