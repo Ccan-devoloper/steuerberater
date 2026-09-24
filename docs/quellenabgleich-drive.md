@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: II.2 und III.1
+
+Übernommen (PDF-Seiten 108 bis 111, Prüfschema auf PDF-Seite 110 gerendert und angesehen): Kapitel ust-m-b12-4 (II.2 Berechtigung zum Vorsteuerabzug als Grundvoraussetzung mit PC-Beispiel und Gebäudebeispiel nach Abschn. 15.2c Abs. 19 UStAE) und ust-m-b12-5 (III Prüfschema § 44 UStDV, III.1 Vorsteuermindestbetrag mit Schreibtisch-Beispiel). Prüfschema als Tabellen wiedergegeben.
+
+- Stillschweigend berichtigt: „für da Unternehmen“ → „für das Unternehmen“ (II.2); „§ I5 Abs. 1“ → „§ 15 Abs. 1“ (III.1).
+- Nachrechnungen (eigene Ergänzung): Gebäudebeispiel 50 % von 30.000 € = 15.000 €, 1/10 × 50 % = 750 € je Jahr (9 × 750 € = 6.750 € bis Jahr 13); 1.000 € : 19 % = 5.263,16 €; Schreibtisch 1.045 € / 522,50 €, Berichtigung zugunsten 104,50 € je volles Jahr. Alle Angaben der Quelle stimmig.
+
+Prüfung danach: 13 Teile, 464 Kapitel, 6415 Blöcke, 355 Tabellen.
+
+Weiter mit: III.2 Änderungsmindestbetrag nach § 44 Abs. 2 UStDV, Beispiel ab Skript-Seite 9 (PDF-Seite 111 unten / 112).
+
 ### USt-Skript (Moecker), Block 12: Inhaltsverzeichnis, I. und II.1
 
 Neue Datei src/data/k1-ust-moecker/block12.js, im Skript nach Block 11 eingebunden. Aufbau der Quelle (PDF-Seiten 103 bis 145 der gemeinsamen Datei): Textteil Skript-Seiten 1 bis 27 (PDF-Seiten 103 bis 129, Skript-Seite = PDF-Seite − 102), Arbeitspapiere A 1 bis A 16 (PDF-Seiten 130 bis 145, A n = PDF-Seite 129 + n). Block 12 enthält keine eingebetteten Bilder (geprüft mit PyMuPDF).
