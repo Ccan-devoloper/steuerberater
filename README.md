@@ -1882,7 +1882,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   vollständig verfügbar, in Arbeit): **Sachverhalt 1 (Malermeister U, 14 Punkte)** – Einbringung
   zu Buchwerten und Verkauf der Anteile nach 14 Monaten: Einbringungsgewinn I 60.000 € rückwirkend
   im Jahr 10 (ohne die über § 22 Abs. 2 UmwStG laufenden A-GmbH-Anteile), Anschaffungskosten
-  220.000 € und daraus ein Verlust nach § 17 EStG von 66.000 €.
+  220.000 € und daraus ein Verlust nach § 17 EStG von 66.000 €. **Sachverhalt 2 (K, 14 Punkte)** –
+  fünf Vorgänge am Jahreswechsel in der Einnahmenüberschussrechnung: Zehn-Tage-Regel nur für die
+  Dezembermiete, AfA ab Lieferung des Lieferwagens, Restbuchwert der Maschine im Verkaufsjahr,
+  Unfallkosten mit dem Privatwagen ohne merkantilen Minderwert und ein Diebstahl, den R 6.6 Abs. 5
+  EStR ins Folgejahr verschiebt – Gewinn 5.390 € statt 20.000 €.
   Prüfung: `npm run check:k2-est-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,

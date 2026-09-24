@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2013, Sachverhalt 2
+
+Übernommen: ESt-Originalklausur 2013 (Klausur E 18), Sachverhalt 2 (K, Gewinnermittlung nach § 4 Abs. 3 EStG, 14 Punkte) – Aufgabe PDF-Seiten 76 und 77, Lösung PDF-Seiten 87 bis 89.
+
+- Stillschweigend berichtigt: „BStB1. 11 1987, 16“, „BStB1. 11 1992, 401“ und „BStBI. II 1992, 401“ → „BStBl. II …“; „Restwert It. Anlagevermögen“ → „lt.“.
+- Nachrechnung (eigene Ergänzung): Miete 10 × 150 + 150 = 1.650 €; AfA Lieferwagen 12.000 × 1/12 = 1.000 €; Restbuchwert Maschine 500 €; Unfall 10.710 €; AfA Anhänger 750 €; Gewinn 20.000 ./. 14.610 = 5.390 €; Randpunkte 6 + 7 + 1 = 14. Alle stimmig.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 10 Sachverhalte, 366 Blöcke, 36 Tabellen, 153 Punkte.
+
+Weiter mit: Prüfung 2013, Sachverhalt 3 (Aufgabe ab Zeile 5327 der Textfassung, Lösung ab PDF-Seite 90).
+
 ### Zweiter Download-Versuch (Drive) und ESt-Originalklausuren 2013, Sachverhalt 1
 
 Auf Wunsch erneut versucht: Die Dateien „Ertragsteuern · Steuerberaterprüfungen 2011–2015“ (`1QwClx7BL_66vssgQcF4xq7CIzknvfIcy`, 139 Seiten), „Bilanzierung · Steuerberaterprüfungen 2011–2015“ (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 205 Seiten) und das KSt-Kurzskript (Breier) (`1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0`, 196 Seiten) ließen sich jetzt vollständig herunterladen und lokal auswerten. Das ESt-Kurzskript I (`1DdIbwtK4vfHU4w15uayCsg_VdaD7Afft`, 6,6 MB) scheitert weiterhin: Die Drive-Verbindung bricht bei jedem Versuch ab (zweimal).
