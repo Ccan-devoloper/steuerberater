@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: Arbeitspapiere A 17 bis A 20
+
+Übernommen (PDF-Seiten 59 bis 62, Seiten gerendert und angesehen): Kapitel ust-m-b13-34 (A 17 Mindest-BMG mit Kranfall, A 18 Übersicht Leistungen an Arbeitnehmer) und ust-m-b13-35 (A 19 BMG bei Wertabgaben an Arbeitnehmer, A 20 Fahrzeugüberlassung an das Personal). Schaubilder als Tabellen wiedergegeben.
+
+- Stillschweigend berichtigt: „Kein Abgabe aus UV“ → „Keine Abgabe aus UV“ (A 19); fehlende schließende Klammer „BMG für USt“ (A 20); UStAE-Kurzverweise „A 1.8“ / „A. 1.8“ ausgeschrieben (A 18, A 19).
+- Nachrechnung (eigene Ergänzung): A 17 190 € / 247 € stimmig.
+
+Prüfung danach: 14 Teile, 519 Kapitel, 6965 Blöcke, 416 Tabellen.
+
+Weiter mit: Arbeitspapier A 21, PDF-Seite 63.
+
 ### USt-Skript (Moecker), Block 13: Arbeitspapiere A 13 bis A 16
 
 Übernommen (PDF-Seiten 55 bis 58, Seiten gerendert und angesehen): Kapitel ust-m-b13-32 (A 13 Ermittlungsarten der BMG bei Fahrzeugnutzung, A 14 Anschaffungsfälle) und ust-m-b13-33 (A 15 Anmietung mit Vorsteuer, A 16 Mindest-BMG). Schaubilder als Tabellen wiedergegeben.

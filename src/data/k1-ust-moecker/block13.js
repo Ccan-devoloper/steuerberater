@@ -4,7 +4,7 @@
    PDF-Seiten: Textteil Seiten 1 bis 41 (PDF-Seiten 2 bis 42), Arbeitspapiere A 1 bis A 27 (PDF-Seiten
    43 bis 69).
    In Arbeit: Textteil vollständig (I. bis VI., PDF-Seiten 2 bis 42); Arbeitspapiere eingepflegt bis
-   A 16 (PDF-Seite 58). */
+   A 20 (PDF-Seite 62). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -966,6 +966,75 @@ export const block13 = [
         ["niedriger ist als der Wert nach § 10(4)1 (= fiktiver Einkaufspreis; Wiederbeschaffungskosten) Im Zeitpunkt der Entnahme", "niedriger ist als die bei der Ausführung entstandenen Ausgaben § 10 (4) Nr. 2 oder Nr. 3 soweit sie (bei Nr. 2) zum vollen oder teilweisen Vorst-abzug berechtigt haben"],
       ] },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-34",
+    teil: TEIL,
+    kapitel: "34",
+    abschnittNr: "A 17 und A 18",
+    title: "Arbeitspapiere A 17 und A 18: Mindest-BMG mit Fall Kranvermietung an den Sohn; Leistungen an Arbeitnehmer – Übersicht",
+    thema: "Rechnungserteilung nach § 14 Abs. 4 Satz 2 UStG, keine Mindest-BMG bei Marktüblichkeit, nahestehende Personen, Fall Kran (Entgelt 1.000 €, Kostenmiete 1.500 €, Deckelung auf 1.300 €, USt 247 €), keine Mindest-BMG bei unternehmerischem Leistungsempfänger ohne § 15a-Relevanz; Übersicht entgeltliche und unentgeltliche Leistungen an Arbeitnehmer mit BMG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 17 und A 18"),
+    verfasser: VERFASSER,
+    normen: ["§ 10 Abs. 1, 2, 4 Nr. 2 und Abs. 5 Nr. 1 UStG", "§ 14 Abs. 4 Satz 2 UStG", "§ 15a UStG", "§ 3 Abs. 1b Nr. 2 und Abs. 9a UStG", "Abschn. 1.8 Abs. 1, 2, 6 und 18 UStAE", "Abschn. 10.7 Abs. 1 und 6 UStAE", "Abschn. 14.9 UStAE", "Abschn. 15.23 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Mindestbemessungsgrundlage", "Arbeitnehmer"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 17" },
+      { text: "➔ **Wegen der möglichen Rechnungserteilung in diesen Fällen gem. § 14 (4) S. 2 UStG vgl. Abschn. 14.9 UStAE.**\n➔ **Keine Mindest - BMG bei „Marktüblichkeit“ - Abschn. 10.7 Abs. 1 S. 4 und 5 UStAE-**\n➔ **Nahestehende Personen vgl. Abschn. 10.7 (1) S. 2**\n➔ **Fall:**" },
+      { typ: "tabelle", spalten: ["Vater (Vermieter)", "Kran", "an Sohn"], zeilen: [
+        ["", "Miete", "für 1000 € zzgl. 190 € USt"],
+        ["", "Vergleichswerte", "- marktüblich 1.300 € -netto- - Kostenmiete 1.500 € -netto- (incl. AfA, Rep, Insp) - Kostenmiete 1.800 € -netto- (zzgl. Zinsen, Vers, Steuer, und Gebühren)"],
+      ] },
+      { typ: "tabelle", spalten: ["Prüfung", "Vorschrift", "Betrag"], zeilen: [
+        ["so. Leistung im LAT, steuerbar § 1 (1) 1 UStG, steuerpflichtig", "", ""],
+        ["BMG: Grundsatz Entgelt", "§ 10 (1)", "1.000 €"],
+        ["Mindest-BMG (nicht 1.800 € wegen Kosten ohne Vorst)", "§ 10 (5) 1 / § 10 (4) 2", "1.500 €"],
+        ["BEACHTE: Deckelung auf „marktüblichen“ Preis somit max.", "", "1.300 € x 19% = 247 €"],
+      ] },
+      { text: "**Hinweis:** Wenn Sohn auch Unternehmer wäre? Keine Mindest-BMG bei Leistungen an untern. LE, wenn der in Anspruch genommene Vorsteuerabzug keiner Vorsteuerberichtigung nach § 15a UStG unterliegt (vgl. Abschn. 10.7 Abs. 6 UStAE)." },
+      { text: "Nachrechnung (eigene Ergänzung): 19 % von 1.000 € = 190 €; Mindest-BMG 1.500 € übersteigt das Entgelt, Deckelung auf 1.300 €; 19 % von 1.300 € = 247 €. Stimmig." },
+      { typ: "titel", text: "Arbeitspapier A 18 – 8. Leistungen an Arbeitnehmer: 8.1 Übersicht" },
+      { typ: "tabelle", spalten: ["entgeltliche Leistung (Abschn. 1.8 (1) UStAE) – also im LAT, § 1 Abs. 1 Nr. 1, steuerbar: Arbeitsleistung ist die Gegenleistung", "entgeltliche Leistung: AN zahlt für die Leistung (Belegschaftskauf) Abschn. 1.8 (6) UStAE", "Unentgeltliche, freiwillige Leistung aus dem Unternehmen (Abschn. 1.8 (2) UStAE) – kein Leistungsaustausch, sog. Sachzuwendung, § 3 (1b) Nr. 2, § 3 (9a) UStG, steuerbar"], zeilen: [
+        ["z.B. Pkw-Nutzung. BMG = § 10 (2) „gemeiner Wert“ der Arbeitsleistung. Wert ggf. schätzen für KFZ vgl. Abschn. 1.8 Abs. 18 + Abschn. 15.23 UStAE.", "BMG = § 10 (1) „tats. Entgelt“; kein Rabattfreibetrag i.S.d. EStG; Mindest-BMG beachten § 10 (5)", "z.B. Geschenke, Maschinennutzung an Aktive, Azubi, Pensionäre, Angehörige der AN."],
+      ] },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-35",
+    teil: TEIL,
+    kapitel: "35",
+    abschnittNr: "A 19 und A 20",
+    title: "Arbeitspapiere A 19 und A 20: BMG bei Wertabgaben an Arbeitnehmer; Überlassung von Fahrzeugen an das Personal",
+    thema: "Zuwendung eines Gegenstandes, Verwendung eines Gegenstandes und andere Dienstleistung mit den Ausnahmen Aufmerksamkeit und überwiegend betriebliches Interesse, Vorsteuervoraussetzung, BMG nach § 10 Abs. 4 Nr. 1 bis 3 UStG, lohnsteuerliche Werte als Bruttowerte; Fahrzeugüberlassung an das Personal im Leistungsaustausch (Geld oder Arbeitsleistung), Ort bei ausländischen Arbeitnehmern ab 1.7.2013, BMG und Vereinfachung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 19 und A 20"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b Nr. 2 UStG", "§ 3 Abs. 9a Nr. 1 und 2 UStG", "§ 3a Abs. 3 Nr. 2 Satz 3 UStG", "§ 10 Abs. 4 Nr. 1 bis 3 UStG", "Abschn. 1.8 Abs. 3, 4 und 9 bis 19 UStAE", "Abschn. 15.23 Abs. 8 bis 12 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Arbeitnehmer", "Fahrzeug", "Bemessungsgrundlage"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 19 – Für richtige BMG beachten, ob Wertabgabe besteht in" },
+      { typ: "tabelle", spalten: ["Zuwendung eines Gegenstandes § 3 (1b) Nr. 2", "Verwendung eines Gegenstandes § 3 (9a) Nr. 1", "Anderer Dienstleistung § 3 (9a) Nr. 2"], zeilen: [
+        ["Ausnahme: *Aufmerksamkeit - Abschn. 1.8 Abs. 3 UStAE- (z.B. Geburtstagsgeschenk < 60 €)", "Ausnahme: *Aufmerksamkeit - Abschn. 1.8 Abs. 3 UStAE- (z.B. Geburtstagsgeschenk < 60 €)", "Ausnahme: *Aufmerksamkeit - Abschn. 1.8 Abs. 3 UStAE- (z.B. Geburtstagsgeschenk < 60 €)"],
+        ["Ausnahme: * überwiegend betriebl. Interesse – Abschn. 1.8 (4) - (z.B. Parkplatz, Kindergarten, Kleidung, PC, Tel)", "Ausnahme: * überwiegend betriebl. Interesse – Abschn. 1.8 (4) - (z.B. Parkplatz, Kindergarten, Kleidung, PC, Tel)", "Ausnahme: * überwiegend betriebl. Interesse – Abschn. 1.8 (4) - (z.B. Parkplatz, Kindergarten, Kleidung, PC, Tel)"],
+        ["Voraussetzung: Vorst aus AK / HStK Gegenstand selbst ➔ sonst Besteuerungsverbot", "Voraussetzung: Vorst aus AK / HStK Gegenstand selbst ➔ sonst Besteuerungsverbot", ""],
+        ["BMG § 10 (4) 1 ➔ fiktiver EKP (Wiederbeschaffungskosten)", "BMG § 10 (4) 2 ➔ anteilige Ausgaben ./. Ausgaben ohne Vorst = maßgebende Ausgaben", "BMG § 10 (4) 3 ➔ Alle anteiligen Ausgaben"],
+      ] },
+      { text: "**Für bestimmte Wertabgaben zur Vereinfachung Lohnsteuerwerte möglich - Abschn. 1.8 (9) bis (19) UStAE-**\n**Beachte:** **Bei den LoSt-lichen Werten handelt es sich um Bruttowerte. Zur Ermittlung der BMG muss die USt herausgerechnet werden.**\nZu *: Wenn Grenzen überschritten und AK/HK zum Zwecke der UWA = Keine Abgabe aus UV" },
+      { typ: "titel", text: "Arbeitspapier A 20 – 8.2 Überlassung von Fahrzeugen an das Personal (Abschn. 15.23 Abs. 8 bis 12 UStAE)" },
+      { text: "**Grundsatz => Fhz. Nutzung => im LAT**" },
+      { typ: "tabelle", spalten: ["Unternehmer (Arbeitgeber)", "Leistung", "Arbeitnehmer"], zeilen: [
+        ["", "➔ Fhz. - Überlassung", ""],
+        ["", "dafür Entgelt ←", ""],
+      ] },
+      { text: "➲ **in Geld (typischer LAT)**\n➲ **anteilige Arbeitsleistung (Tausch)**\n- lt. Arbeitsvertrag\n- lt. mündlicher Abrede\n- lt. tatsächlicher Übung" },
+      { text: "**!! Beachte: Ort der Leistung bei Überlassung an ausländische AN ab 1.7.2013 gem. § 3a Abs. 3 Nr. 2 S. 3 UStG am Wohnsitz des AN; ➔ nicht steuerbar**\n**BMG = das Entgelt / Wert der Arbeitsleistung**\n**Ist grundsätzlich zu schätzen (aus Vereinfachung = LoSt-liche Werte als BMG für USt)**" },
+      { typ: "tabelle", spalten: ["1% - Methode", "Fahrtenbuchmethode und Schätzungsmethode"], zeilen: [
+        ["↓ (Fortsetzung in A 21)", "↓ (Fortsetzung in A 21)"],
+      ] },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben; die Sternchen in A 19 stehen so in der Quelle, „(Fortsetzung in A 21)“ ist eigene Ergänzung (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];
