@@ -3,7 +3,8 @@
    „Block 13-UWA-Vers. 1.1.26 / Red. 10/25“, Fußzeile „StB 58 – Vers. 01.01.26 / Stand 10-25“; 69
    PDF-Seiten: Textteil Seiten 1 bis 41 (PDF-Seiten 2 bis 42), Arbeitspapiere A 1 bis A 27 (PDF-Seiten
    43 bis 69).
-   In Arbeit: Textteil vollständig (I. bis VI., PDF-Seiten 2 bis 42); Arbeitspapiere folgen. */
+   In Arbeit: Textteil vollständig (I. bis VI., PDF-Seiten 2 bis 42); Arbeitspapiere eingepflegt bis
+   A 4 (PDF-Seite 46). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -711,6 +712,71 @@ export const block13 = [
       ] },
       { text: "Nachrechnung (eigene Ergänzung): 4,13 € × 19/119 = 0,66 €; 4,13 € − 0,66 € = 3,47 €. Stimmig. Hinweis zur Prüfung: Seit 1.1.2026 gilt für Restaurant- und Verpflegungsdienstleistungen (ohne Getränke) nach dem Steueränderungsgesetz 2025 wieder der ermäßigte Steuersatz; vgl. die Anmerkung unter III.3.3." },
       { text: "c.) Bei der Abgabe von Mahlzeiten durch eine vom Unternehmer nicht selbst betriebenen Kantine oder durch eine Gaststätte vgl. Abschn. 1.8 Abs. 12 UStAE." },
+    ],
+  },
+  {
+    id: "ust-m-b13-26",
+    teil: TEIL,
+    kapitel: "26",
+    abschnittNr: "A 1 und A 2",
+    title: "Arbeitspapiere A 1 und A 2: Terminologie bei Vorsteuer und UWA; Systematik der UWA",
+    thema: "Unternehmerische und nichtunternehmerische Tätigkeiten (nichtwirtschaftlich i.e.S. und unternehmensfremd), ausschließlicher und teilunternehmerischer Bezug, partielle Zuordnung und Zuordnungswahlrecht mit Folgen für die UWA; Systematik der Ergänzungstatbestände § 3 Abs. 1b und 9a UStG, Ort, keine Befreiung nach §§ 6, 6a, 7 UStG, keine Option und Rechnung, BMG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 1 und A 2"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b und 9a UStG", "§ 1 Abs. 1 Nr. 1 UStG", "§ 3 Abs. 6 und 7 UStG", "§ 3a Abs. 1 und 3 UStG", "§§ 6, 6a, 7 UStG", "§ 10 Abs. 4 Nr. 1 bis 3 UStG", "Abschn. 15.2c Abs. 2 Nr. 2 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Systematik", "Zuordnung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 1 – Unentgeltliche Wertabgaben: 1. Terminologie bei Vorst und UWA" },
+      { text: "**Vorsteuerabzugsberechtigung nur bei Leistungen an Unternehmer für sein Unternehmen**\n**Bezug der Eingangsleistung für**" },
+      { typ: "tabelle", spalten: ["Unternehmerische (= wirtschaftliche) Tätigkeiten", "Nichtunternehmerische (= nichtwirtschaftliche) Tätigkeiten: Nichtwirtschaftliche Tätigkeiten im engeren Sinne (i.e.S.)", "Nichtunternehmerische (= nichtwirtschaftliche) Tätigkeiten: Unternehmensfremde Tätigkeiten (= privat)"], zeilen: [
+        ["➔ Vorsteuerabzugsberechtigung", "- ideelle Tätigkeiten eines Vereins - hoheitliche Tätigkeiten einer jur. Pers. d.ö.R. - gemischte Holding", "Entnahme für den privaten Bedarf des Unternehmers (bei nat. Person) für private Zwecke des Gesellschafters"],
+        ["ausschließlicher Bezug für nichtunternehmerische Tätigkeiten", "➔ Keine Vorsteuerberechtigung; kein UV* ➔ Keine UWA aus dem UV heraus möglich", "➔ Keine Vorsteuerberechtigung; kein UV* ➔ Keine UWA aus dem UV heraus möglich"],
+        ["teilunternehmerischer Bezug", "Partielle Zuordnung (Abschn. 15.2c Abs. 2 Nr. 2a) UStAE) ➔ UWA (insoweit) möglich", "Zuordnungswahlrecht (Abschn. 15.2c Abs. 2 Nr. 2b) UStAE) ➔ UWA möglich bei 100% UV oder quotal UV ➔ Keine UWA bei 0 % UV"],
+      ] },
+      { text: "UV* = Unternehmensvermögen" },
+      { typ: "titel", text: "Arbeitspapier A 2 – 2. Systematik der UWA" },
+      { text: "**umsatzsteuerliche Ergänzungstatbestände**" },
+      { typ: "tabelle", spalten: ["Betreffend Gegenstände", "Betreffend Dienstleistungen"], zeilen: [
+        ["§ 3 Abs. 1b UStG unentgeltliche Lieferungen", "§ 3 Abs. 9a UStG unentgeltliche so. Leistungen"],
+        ["Nr. 1 Entnahme von Gegenständen; Nr. 2 Sachzuwendungen an das Personal; Nr. 3 Andere unentgeltliche Zuwendungen", "Nr. 1 Verwendung von Gegenständen - durch Unternehmer - durch das Personal; Nr. 2 Andere so. Leist. - an den Unternehmer - an das Personal"],
+        ["werden einer Lieferung gegen Entgelt gleichgestellt", "werden einer so. Leistung gegen Entgelt gleichgestellt"],
+        ["➔ BMG: § 10 Abs. 4 Nr. 1 = Wiederbeschaffungskosten", "➔ BMG: § 10 Abs. 4 Nr. 2 und Nr. 3 = Ausgaben"],
+      ] },
+      { text: "➔ **steuerbar** gem. § 1 Abs. 1 Nr. 1 UStG, wenn der Ort der gleichgestellten Leistung im Inland liegt (Es gelten die allg. Regeln für die Ortsbestimmung analog; § 3 (6) & (7) bzw. § 3a (1) & § 3a (3) UStG)\n➔ Jedoch keine Steuerbefreiung nach § 6 (Ausfuhr), § 6a (innergem. Lief.) und § 7 (Lohnveredelungen)\n➔ Keine Option und keine Rechnungslegung möglich" },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-27",
+    teil: TEIL,
+    kapitel: "27",
+    abschnittNr: "A 3 und A 4",
+    title: "Arbeitspapiere A 3 und A 4: Gleichgestellte Lieferungen (§ 3 Abs. 1b UStG) – Tatbestände und Entnahme (Nr. 1)",
+    thema: "Die drei Tatbestände mit Fundstellen, Voraussetzung Vorsteuerabzug aus Gegenstand oder Bestandteilen, Ausnahmen Aufmerksamkeiten (60 €), geringwertige Geschenke (50 €) und Warenmuster, BMG Wiederbeschaffungskosten; Entnahme als Lieferung gegenüber Dritten (Wertabgabe-Theorie), Einheitlichkeit, keine unfreiwillige Wertabgabe, Zuordnung zum UV, Besteuerungsverbot bei fehlendem Vorsteuerabzug",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 3 und A 4"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b Satz 1 Nr. 1 bis 3 und Satz 2 UStG", "§ 10 Abs. 4 Nr. 1 UStG", "§ 15 Abs. 1a UStG", "Abschn. 1.8 Abs. 3 und 4 UStAE", "Abschn. 3.3 Abs. 2 bis 10 UStAE", "Abschn. 15.2b Abs. 2 UStAE", "Abschn. 15.2c Abs. 2 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Entnahme", "Besteuerungsverbot"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 3 – 3. Gleichgestellte Lieferungen - § 3 (1b) - 3.1. Tatbestände" },
+      { typ: "tabelle", spalten: ["Nr. 1 (Abschn. 3.3 (5) ff)", "Nr. 2 (Abschn. 3.3 (9) ff)", "Nr. 3 (Abschn. 3.3 (10) ff)"], zeilen: [
+        ["Entnahme eines Gegenstandes aus dem Unternehmen für nichtunternehmerische Zwecke", "Zuwendung (aus dem UV) eines Gegenstandes an das Personal (Nicht bei überwiegend betrieblichem Interesse; Abschn. 1.8 Abs. 4 UStAE)", "Zuwendung (aus dem UV) eines Gegenstandes an „Andere“ aus unternehmerischen Gründen (Image, Werbung, Allg. Förderung)"],
+      ] },
+      { text: "**Nur steuerbar, wenn Berechtigung zum Vorsteuerabzug**\n• für Gegenstand selbst (ganz oder teilweise) (wenn fehlt => Besteuerungsverbot)\n• oder Bestandteile (Abschn. 3.3 Abs. 2 bis 4 UStAE) (entnommen wird dann nur der Bestandteil)" },
+      { typ: "tabelle", spalten: ["Ausnahme bei Nr. 2", "Ausnahme bei Nr. 3"], zeilen: [
+        ["Aufmerksamkeiten (60 € - Grenze Abschn. 1.8 Abs. 3 UStAE)", "- Geschenke von geringem Wert. (= 50 € - netto -) - Warenmuster. Hinweis: Geschenke > 50 € bereits keine Vorst - § 15 (1a) - Somit keine Besteuerung"],
+      ] },
+      { text: "**Bemessungsgrundlage gem. § 10 Abs. 4 Nr. 1 UStG Wiederbeschaffungskosten (= TW) im Zeitpunkt der Entnahme (⌧ Fiktiver Netto – Einkaufspreis)**" },
+      { typ: "titel", text: "Arbeitspapier A 4 – 3.2 Entnahme (Nr. 1)" },
+      { text: "Alles was gegenüber Dritten eine Lieferung - auch Werklieferung - wäre – Abschn. 3.3 Abs. 5 UStAE -.\n➔ **Wertabgabe - Theorie** (konkrete Wertabgabe entscheidend)\n- Grundsatz der Einheitlichkeit beachten\n- Nicht unfreiwillige Wertabgabe – Abschn. 3.3 Abs. 6 (Buchwertminderung = Kosten der Verwendung)" },
+      { text: "☞ **Gegenstand muss zum UV gehört haben; bilanzrechtliche Merkmale unbedeutend.**\nBei Untern. mit unternehmensfremden (privaten) Bereich ist **Zuordnung** gem. Abschn. 15.2c (2) UStAE maßgebend ➔ vgl. AP 5\nBei Untern. mit nichtwirtschaftlichem Bereich i.e.S. ist WG **nur partiell** zuordnungsfähig ➔ vgl. AP 1\n**„Beachte“**, wenn AK/HK zum Zwecke der UWA, => kein Unternehmensvermögen Abschn. 15.2b Abs. 2 S. 5 UStAE." },
+      { text: "☞ Zwar UV, aber **Besteuerungsverbot**, bei sonstiger **fehlender Vorsteuerabzugsberechtigung** (§ 3 (1b) Satz 2)" },
+      { typ: "tabelle", spalten: ["aus Gegenstand selbst", "und aus Bestandteile"], zeilen: [
+        ["Anschaffung / Herstellung / Erwerb z.B. - von Nichtunternehmer - von Kleinunternehmer - von Differenzbesteuerer - nach Einlage", "Begriff => Abschn. 3.3 (2 bis 4). Keine Bestandteile: - Erhaltungsaufwand - Betriebskosten => Abschn. 3.3 (2) S. 4. Hinweis: Besteuert wird dann nur der Bestandteil (➔ vgl. A 6)"],
+      ] },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: Arbeitspapiere A 1 bis A 4
+
+Übernommen (PDF-Seiten 43 bis 46, Seiten gerendert und angesehen): Kapitel ust-m-b13-26 (A 1 Terminologie, A 2 Systematik der UWA) und ust-m-b13-27 (A 3 Tatbestände des § 3 Abs. 1b UStG, A 4 Entnahme). Schaubilder als Tabellen wiedergegeben.
+
+- Stillschweigend berichtigt: UStAE-Verweise in der Kurzform „A 15.2c“, „A. 15.2c“ und „A 3.3“ als „Abschn. …“ ausgeschrieben (Verwechslung mit Arbeitspapieren vermeiden); „das Bestandteil“ → „der Bestandteil“ (A 3, A 4); „Besteuert wir“ → „Besteuert wird“ (A 4).
+- Keine Zahlen zum Nachrechnen.
+
+Prüfung danach: 14 Teile, 511 Kapitel, 6894 Blöcke, 394 Tabellen.
+
+Weiter mit: Arbeitspapier A 5, PDF-Seite 47.
+
 ### USt-Skript (Moecker), Block 13: VI.3.4 (Fortsetzung) bis VI.5 – Textteil vollständig
 
 Übernommen (PDF-Seiten 39 bis 42): Kapitel ust-m-b13-23 (Betriebsausflüge und 110-€-Grenze), ust-m-b13-24 (VI.4 Fahrradüberlassung an Arbeitnehmer mit E-Bike-Beispiel und Leasing-Abwandlung) und ust-m-b13-25 (VI.5 BMG mit Kantinenbeispiel). Damit ist der Textteil von Block 13 vollständig.

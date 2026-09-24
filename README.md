@@ -2466,7 +2466,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   wirtschaftlichem Vorgang, der Entnahme bei Unternehmern mit privatem und mit nichtwirtschaftlichem
   Bereich dem Besteuerungsverbot bei fehlender Vorsteuerabzugsberechtigung, den Zuwendungen an das Personal,
   anderen unentgeltlichen Zuwendungen, den Steuerbefreiungen, der BMG der Entnahme und den
-  unentgeltlichen sonstigen Leistungen samt BMG, der privaten Fahrzeugnutzung, der Mindest-BMG und den Leistungen an Arbeitnehmer (Textteil vollständig, 25 Kapitel).
+  unentgeltlichen sonstigen Leistungen samt BMG, der privaten Fahrzeugnutzung, der Mindest-BMG und den Leistungen an Arbeitnehmer (Textteil vollständig) und den Arbeitspapieren A 1 bis A 4 (27 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
