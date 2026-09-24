@@ -1,0 +1,285 @@
+/* Umwandlungssteuerrecht (ohne § 24 UmwStG) – Kurz-Skript (K3, UmwStR),
+   Ulrich Breier, Rechtsanwalt/Steuerberater, Stand April 2025.
+
+   Wortlautgetreue Übernahme des Kurz-Skripts aus dem zweiten Drive-Baum
+   (Drive-ID 17xQUV4RT0WWL8X6l5UWjPn8O-6Tw1CJt, 116 Seiten). Das Skript hat
+   sechs Teile; jeder Eintrag hier ist ein Abschnitt der römischen
+   Gliederungsebene und trägt mit `teil` den Teil, zu dem er gehört. In Teil 6
+   stehen die Buchstabengliederungen A. bis C. als Zwischenüberschrift am
+   Anfang ihres ersten Abschnitts.
+
+   STAND DER ÜBERNAHME: Teile 1 und 2 vollständig. Die Teile 3 bis 6 werden
+   nachgetragen (siehe docs/offene-quellen.md).
+
+   Die Merke-Kästen der Quelle stehen als Zwischenüberschrift „Merke“ mit den
+   Merksätzen als Absätzen; Beispiele und Lösungen sind vollständig
+   übernommen, Rechenschemata und Bilanzen als Tabellen.
+
+   Blocktypen wie in den übrigen Beständen: text | titel | tabelle.
+   Personenbezogene Wasserzeichen des Quell-PDFs sind nicht übernommen.
+   Stellen, an denen die Quelle selbst nicht aufgeht, sind mit
+   "(so in der Quelle)" gekennzeichnet und in docs/quellenabgleich-drive.md
+   aufgeführt. */
+
+export const umwstKurzskriptQuelle = {
+  reihe: "Umwandlungssteuerrecht (ohne § 24 UmwStG) · Kurz-Skript · Ulrich Breier",
+  stand: "Stand 04/2025",
+  verfasser: "Ulrich Breier",
+  didaktik: [
+    "Das Kurz-Skript enthält nach dem Vorwort des Verfassers – veranschaulicht mit vielen Beispielen – eine gestraffte und möglichst kurze Darstellung aller wesentlichen und klausurrelevanten Themen zum Umwandlungssteuerrecht (ohne § 24 UmwStG) und die notwendigen Abgrenzungen zu Vermögensübertragungen außerhalb der Regelungen des UmwStG.",
+    "Es soll neben den zum Unterrichtstag ausgegebenen Hausaufgaben die Nacharbeit und Vertiefung des Stoffes erleichtern; dazu dienen die zusammenfassenden Merksätze hinter den einzelnen Themengebieten, die auf jeden Fall verstanden und beherrscht werden sollten.",
+  ],
+};
+
+const VERFASSER = "Ulrich Breier";
+const RECHTSSTAND = "Stand 04/2025";
+
+/* Teil-Konstanten: Titel des Teils und die Kurzform für die Filterleiste. */
+const TK1 = { teil: "1", teilLabel: "Teil 1 – Überblick", teilTitel: "Überblick über das Umwandlungssteuerrecht" };
+const TK2 = { teil: "2", teilLabel: "Teil 2 – Zivilrecht", teilTitel: "Zivilrechtliche (handelsrechtliche) Grundlagen" };
+
+/* Reine Textabsätze stehen unten als einfache Zeichenkette; beim Export werden
+   sie in die Blockform { text } überführt, die die übrigen Bestände verwenden. */
+const kapitelRoh = [
+  {
+    id: "umw-ks-1-01",
+    ...TK1,
+    kapitel: "1",
+    title: "I. Grundsätze",
+    thema: "Grundsystem der Besteuerung stiller Reserven (Steuersubjekttheorie), die Ausnahmen außerhalb des UmwStG und der Anwendungsbereich des § 1 UmwStG einschließlich Auslandsumwandlungen",
+    rechtsstand: RECHTSSTAND,
+    quelle: "UmwSt Kurz-Skript (Breier) · Teil 1, Abschnitt I",
+    verfasser: VERFASSER,
+    normen: ["§ 16 EStG", "§ 11 KStG", "§ 1 UmwStG", "§ 17 EStG", "§ 23 Abs. 1 EStG", "§ 7 GewStG", "§ 6 Abs. 3 EStG", "§ 21 UmwStG", "§ 1 Abs. 2 UmwStG", "§ 2 KStG"],
+    themen: ["Stille Reserven", "Steuersubjekttheorie", "Anwendungsbereich", "§ 1 UmwStG", "Auslandsumwandlung"],
+    bloecke: [
+      "Bei der Übertragung von Wirtschaftsgütern sowie bei jedem Wechsel der Unternehmensform stellt sich steuerlich die zentrale Frage, ob und inwieweit das bisherige Unternehmen (Übertragerin) stille Reserven in übertragenen Wirtschaftsgütern aufdecken und versteuern muss.",
+      "Dabei gilt im Grundsystem des deutschen Steuerrechts folgendes:",
+      "- Die in einem Betriebsvermögen gebildeten - zunächst mangels Realisation - nicht versteuerten stillen Reserven in den Wirtschaftsgütern müssen irgendwann einmal als Gewinn versteuert werden; ein endgültiges Heraushalten von stillen Reserven aus der inländischen Besteuerung ist grundsätzlich nicht möglich.",
+      "- Entsprechendes gilt für steuerverhaftete stille Reserven im Privatvermögen, insbesondere in Beteiligungen (§§ 17 EStG und 20 Abs. 2 Nr.1 EStG) und in Grundstücken innerhalb der Veräußerungsfrist von 10 Jahren (§ 23 Abs. 1 S. 1 Nr. 1 S. 5 Nr. 2 EStG)",
+      "- Werden Wirtschaftsgüter mit stillen Reserven nicht irgendwann einmal verkauft oder entnommen, was zur Aufdeckung der stillen Reserven führen würde, so müssen die stillen Reserven spätestens beim Untergang des Unternehmens (Betriebsaufgabe gem. § 16 EStG bzw. Liquidation gem. § 11 KStG) vollständig aufgedeckt und der Besteuerung zugeführt werden.",
+      "Eine Ausnahme gilt insoweit bei der Gewerbesteuer, als bei der Betriebsveräußerung und der Betriebsaufgabe durch Einzelunternehmen und Personengesellschaften – anders als bei Betriebsveräußerung oder – aufgabe durch eine Körperschaft – die stillen Reserven nicht der Gewerbesteuer unterliegen (§ 7 Satz 2 GewStG).",
+      "- Die Umwandlung eines Unternehmens stellt im Ergebnis eine Betriebsveräußerung oder -aufgabe bzw. eine Liquidation ohne Abwicklung dar, so dass an sich spätestens dann die stillen Reserven aufgedeckt werden müssen. Dasselbe gilt, wenn die Übertragung gegen Gesellschaftsrechte erfolgt, da dann ein entgeltliches Geschäft (= Tausch) vorliegt und ebenfalls die stillen Reserven aufzudecken und zu versteuern sind.",
+      "Mithin müssen stille Reserven in Einzelwirtschaftsgütern (des Privat- oder Betriebsvermögens) und in betrieblichen Sachgesamtheiten grundsätzlich von dem Rechtssubjekt versteuert werden, bei dem sie gebildet worden sind (sog. Steuersubjekttheorie).",
+      "Steuerlich bedeutet die Übertragung des gesamten Vermögens - also des Betriebes - von einem Unternehmen auf ein anderes Unternehmen durch Gesamtrechts- oder Einzelrechtsnachfolge bei gleichzeitigem Untergang des übertragenden Unternehmens grundsätzlich eine Betriebsaufgabe (§ 16 EStG) bzw. Liquidation (§ 11 KStG) oder eine Veräußerung (s. dazu unten) mit der Folge der zwingenden Aufdeckung und Besteuerung der stillen Reserven.",
+      "Die Aufdeckung der stillen Reserven lässt sich auch nicht einfach dadurch vermeiden, dass das die Wirtschaftsgüter übernehmende Unternehmen (Übernehmerin) die Buchwerte und damit auch die stillen Reserven fortführt.",
+      "Als Grundsatz gilt also, dass der Übergang stiller Reserven in Wirtschaftsgütern aus dem Privat- oder Betriebsvermögen – insbesondere auch von einem Unternehmen auf ein anderes Unternehmen - ohne Aufdeckung stiller Reserven nicht möglich ist.",
+      "Ausnahmen von diesem Grundsatz gestattet – neben § 6 Abs. 3 EStG bei der unentgeltlichen Übertragung von Sachgesamtheiten von einer natürlichen Person auf eine andere natürliche Person – insbesondere § 6 Abs. 5 S. 3 ff. EStG, soweit es um die Übertragung von Einzelwirtschaftsgütern aus dem Betriebsvermögen einschließlich Sonderbetriebsvermögen eines Gesellschafters in das Gesamthandsvermögen \"seiner\" Personengesellschaft oder umgekehrt geht.",
+      "Eine weitere Ausnahme von der zwingenden Aufdeckung stiller Reserven stellt die Realteilung einer Personengesellschaft gem. § 16 Abs. 3 S. 2 ff. EStG dar.",
+      "Im Übrigen kann nur bei der Übertragung von ganzen Unternehmen und Mitunternehmeranteilen oder Teilen des Betriebsvermögens (Teilbetriebe oder Teile eines Mitunternehmeranteils) unter den besonderen Voraussetzungen des Umwandlungssteuergesetzes (UmwStG) die steuerpflichtige Aufdeckung der stillen Reserven ganz oder teilweise vermieden werden.",
+      "Besonderheiten für Einzelwirtschaftsgüter gelten nur bei der Einbringung von Anteilen aus dem Privat- oder Betriebsvermögen gem. § 21 UmwStG.",
+      "§ 1 UmwStG regelt den Anwendungsbereich und die Begriffsbestimmungen zum UmwStG.",
+      "Als Grundregel – es gibt Ausnahmen - kann festgestellt werden, das die begünstigenden Vorschriften des UmwStG – also die Vermeidung der Aufdeckung stiller Reserven bei Übertragung- und Umwandlungsvorgängen – nur dann eingreifen, wenn und soweit am Übertragungs- und Umwandlungsvorgang Rechtssubjekte (Gesellschaften und natürliche Personen) beteiligt sind, die in der EU/EWR gegründet worden sind und ihre Geschäftsleitung in diesem Gebiet haben (Gesellschaften) bzw. die ihren Wohnsitz oder gewöhnlichen Aufenthaltsort in der EU/EWR haben und dort auch nach den Regeln der DBA ansässig sind (natürliche Personen).",
+      "Ist das UmwStG gem. § 1 UmwStG nicht einschlägig und können deshalb die Regelungen des UmwStG nicht angewandt werden, ist in der Regel eine Übertragung oder Umwandlung ohne Aufdeckung aller stillen Reserven nicht möglich.",
+      "Ab 2022 (Wegfall des § 1 Abs. 2 UmwStG) unterliegen auch Umwandlungen unter Beteiligung ausländischer Gesellschaften (auch Drittstaaten) dem UmwStG, wenn die Umwandlung im Ausland mit einer Umwandlung iSd. des deutschen Umwandlungsrecht (UmwG) vergleichbar ist",
+      { typ: "titel", text: "Beispiel (zu Einzelheiten s. unten)" },
+      "Die T-AG (Schweiz; nicht EU/EWR) wird auf die M-AG (Schweiz) verschmolzen. Die Schweizer Verschmelzungsvorschriften sind mit den Vorschriften des (deutschen) UmwG vergleichbar. An der T-AG und an der M-AG ist zu je 100 % A (Wohnsitz Deutschland) beteiligt. Die im Privatvermögen gehaltenen Anteile des A an der T-AG haben stille Reserven von 60.000. Die T-AG hat eine Betriebsstätte in Deutschland (stille Reserven: 100.000), für die Deutschland gem. § 2 Nr. 1 KStG iVm. § 49 Abs. 1 Nr. 2a EStG (beschränkte Steuerpflicht der T-AG) und nach dem DBA Schweiz das uneingeschränkte Besteuerungsrecht hat.",
+      "Nach den Grundsätzen der steuerlichen Verschmelzung (§ 11 Abs. 2 UmwStG; Einzelheiten s. unten) brauchen auf Antrag der M-AG die stillen Reserven in der inländischen Betriebsstätte nicht aufgedeckt werden, da das deutsche Besteuerungsrecht für die Betriebsstätte, die nun der M-AG zuzurechnen ist, weiterhin uneingeschränkt Deutschland hat. Gem. § 13 UmwStG muss A auf Antrag auch nicht gem. § 17 EStG die stillen Reserven in den Anteilen an der T-AG aufdecken.",
+    ],
+  },
+  {
+    id: "umw-ks-1-02",
+    ...TK1,
+    kapitel: "2",
+    title: "II. Übertragung des gesamten Vermögens",
+    thema: "Übertragung des gesamten Vermögens: die einschlägigen Vorschriften des UmwStG je Umwandlungsrichtung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "UmwSt Kurz-Skript (Breier) · Teil 1, Abschnitt II",
+    verfasser: VERFASSER,
+    normen: ["§ 18 UmwStG", "§ 19 UmwStG", "§ 24 UmwStG"],
+    themen: ["Verschmelzung", "Formwechsel", "Überblick UmwStG"],
+    bloecke: [
+      "Nur unter Anwendung des UmwStG kann also bei Übertragungen auf eine Kapitalgesellschaft oder von einer Kapitalgesellschaft bei gleichzeitigem Untergang des übertragenden Rechtsträgers die vollständige Aufdeckung aller stillen Reserven vermieden werden.",
+      "Dabei können insbesondere folgende Vorschriften zur Anwendung kommen:",
+      "- Verschmelzung/Formwechsel Kapitalgesellschaft auf Personenunternehmen (Personengesellschaft oder Einzelunternehmen): §§ 3 – 9 und § 18 UmwStG",
+      "- Verschmelzung Kapitalgesellschaft auf Kapitalgesellschaft: §§ 11 – 13 und § 19 UmwStG",
+      "- Verschmelzung Personengesellschaft auf Personengesellschaft: § 24 UmwStG",
+    ],
+  },
+  {
+    id: "umw-ks-1-03",
+    ...TK1,
+    kapitel: "3",
+    title: "III. Übertragung von Vermögensteilen",
+    thema: "Übertragung von Vermögensteilen: Einbringung nach §§ 20 – 23, 25 UmwStG, Anteilstausch nach § 21 UmwStG und § 24 UmwStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: "UmwSt Kurz-Skript (Breier) · Teil 1, Abschnitt III",
+    verfasser: VERFASSER,
+    normen: ["§ 21 UmwStG", "§ 24 UmwStG"],
+    themen: ["Einbringung", "Anteilstausch", "§ 24 UmwStG"],
+    bloecke: [
+      "Nach dem UmwStG können folgende Vorschriften zur Anwendung kommen:",
+      "- Übertragung (Betrieb, Teilbetrieb oder Mitunternehmeranteil/Teil eines Mitunternehmeranteils) auf eine Kapitalgesellschaft: §§ 20 - 23, 25 UmwStG; bei der Übertragung (Einbringung) von Anteilen an Kapitalgesellschaften – auch unter 100 % - gilt § 21 UmwStG",
+      "- Übertragung (Betrieb, Teilbetrieb oder Mitunternehmeranteil/Teil eines Mitunternehmeranteils)) auf eine Personengesellschaft: § 24 UmwStG",
+    ],
+  },
+  {
+    id: "umw-ks-1-04",
+    ...TK1,
+    kapitel: "4",
+    title: "IV. Umwandlungssteuererlass der Finanzverwaltung",
+    thema: "Der Umwandlungssteuererlass vom 02.01.2025 und die Merksätze zu Grundsatz, Aufdeckungstatbeständen, Prüfungsreihenfolge und Buchwertübertragungen außerhalb des UmwStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: "UmwSt Kurz-Skript (Breier) · Teil 1, Abschnitt IV",
+    verfasser: VERFASSER,
+    normen: ["§ 6 Abs. 6 EStG", "§ 1 UmwG", "§ 6 Abs. 1 EStG", "§ 16 Abs. 3 EStG", "§ 8 Abs. 3 KStG", "§ 11 KStG", "§ 8 Abs. 1 KStG", "§ 1 UmwStG", "§ 6 Abs. 3 EStG"],
+    themen: ["Umwandlungssteuererlass", "Merke", "Aufdeckung stiller Reserven", "Prüfungsreihenfolge"],
+    bloecke: [
+      "Zur Anwendung und Auslegung des UmwStG hat die Finanzverwaltung den sog. Umwandlungssteuererlass (UmwStErl.) herausgegeben (Ursprungsfassung: BMF-Schreiben vom 11.11.2011; BStBl. 2011 I, 1314), der zuletzt umfassend überarbeitet worden ist (BMF-Schreiben/UmwStErl. vom 02.01.2025). Die wesentlichen Aussagen dieses umfangreichen Erlasses vom 02.01.2025 sind in die folgende Darstellung eingearbeitet (Zitat: „Tz.“).",
+      { typ: "titel", text: "Merke" },
+      "Grundsatz: Auch ohne Veräußerung sind bei allen Übertragungen von Wirtschaftsgütern (Einzelwirtschaftsgüter und Sachgesamtheiten) auf eine KapGes oder von einer KapGes die stillen Reserven (einschl. Firmenwert) beim Übertragenden aufzudecken (sog. Steuersubjekttheorie)",
+      "Übertragender kann sein:",
+      "- natürliche Person",
+      "- PersGes",
+      "- KapGes",
+      "Vorschriften zur Aufdeckung der stillen Reserven:",
+      "- bei Einzelunternehmen oder PersGes als Übertragender:",
+      "- Entnahme (§ 6 Abs. 1 Nr. 4 EStG)",
+      "- Betriebsaufgabe (§ 16 Abs. 3 EStG)",
+      "- verdeckte Einlage (§ 6 Abs. 6 S. 2 EStG) = Erhöhung des Buchwertes der Beteiligung an der Empfänger-KapGes im BV",
+      "- bei KapGes als Übertragender:",
+      "– vGA (§ 8 Abs. 3 S. 2 KStG)",
+      "– Liquidation (§ 11 KStG)",
+      "– verdeckte Einlage (§ 6 Abs. 6 S. 2 EStG iVm. § 8 Abs. 1 KStG) = Erhöhung der im BV gehaltenen Beteiligung",
+      "Ausnahme: Bei Übertragungen auf eine KapGes oder von einer KapGes erfolgt nur dann keine zwingende Aufdeckung der stillen Reserven, wenn eine Vorschrift des UmwStG einschlägig ist",
+      "Prüfungsreihenfolge:",
+      "- fällt der Fall unter das UmwStG????:",
+      "- wenn ja: ggf. keine Aufdeckung der stillen Reserven",
+      "- wenn nein: immer Aufdeckung aller stillen Reserven",
+      "Beachte (§ 1 UmwStG): Bei Umwandlungen nach § 1 UmwG (Verschmelzung, Spaltung, Formwechsel und Vermögensübertragung) ist das UmwStG anwendbar; dies gilt auch bei Umwandlungen iSd. § 1 UmwG im Ausland mit Auswirkungen auf inländische Steuerpflichtige, soweit sie einer entsprechenden inländischen Umwandlung vergleichbar sind (Tz.01.20 ff.).",
+      "Bei Umwandlungen, die unter §§ 20 ff. UmwStG fallen (6. - 8.Teil des UmwStG), gelten die Regelungen der §§ 20 ff. UmwStG (Vermeidung der Aufdeckung aller stiller Reserven) in der Regel aber nur, wenn an dem Vorgang beteiligt sind:",
+      "- nat. Person: Wohnsitz oder gewöhnl. Aufenthaltsort in EU/EWR",
+      "- KapGes: Gründung und Geschäftsleitung in EU/EWR (nur bei Anwendung des 6 – 8. Teils des UmwStG; §§ 20 und 24 UmwStG)",
+      "Besonderheiten (Buchwertübertragung auch ohne UmwStG):",
+      "Nur bei der Übertragung von Wirtschaftsgütern des BV auf eine natürl. Personen oder PersGes gibt es zur Vermeidung der Aufdeckung stiller Reserven – neben dem UmwStG-Sonderregelungen:",
+      "- Übertragung auf natürliche Person:",
+      "- § 6 Abs. 3 EStG und § 16 Abs. 3 S. 2 ff. (Realteilung)",
+      "- Übertragung auf PersGes:",
+      "- § 6 Abs. 5 S. 3 ff. EStG und § 16 Abs. 3 S. 2 ff. (Realteilung)",
+    ],
+  },
+  {
+    id: "umw-ks-2-01",
+    ...TK2,
+    kapitel: "1",
+    title: "I. Vorbemerkung",
+    thema: "Die zwei zivilrechtlichen Übertragungsformen: Gesamtrechtsnachfolge nach dem UmwG und Einzelübertragung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "UmwSt Kurz-Skript (Breier) · Teil 2, Abschnitt I",
+    verfasser: VERFASSER,
+    normen: ["UmwStG"],
+    themen: ["Gesamtrechtsnachfolge", "Einzelrechtsnachfolge"],
+    bloecke: [
+      "Die Übertragung des gesamten Vermögens, von Teilen des Vermögens oder einzelner Wirtschaftsgüter von einem Unternehmen auf ein anderes Unternehmen ist zivilrechtlich in zwei Formen möglich:",
+      "- nach den Vorschriften des „zivilrechtlichen“ Umwandlungsgesetzes im Wege der Gesamtrechtsnachfolge (Umwandlungsgesetz/UmwG)",
+      "- durch Einzelübertragung von Aktiva und Passiva nach den allgemeinen Vorschriften des Zivilrechts",
+    ],
+  },
+  {
+    id: "umw-ks-2-02",
+    ...TK2,
+    kapitel: "2",
+    title: "II. Gesamtrechtsnachfolge",
+    thema: "Gesamtrechtsnachfolge nach dem UmwG: Verschmelzung mit Schlussbilanz und 8-Monatsfrist, Formwechsel ohne Grunderwerbsteuer und die Spaltungsarten Auf-, Abspaltung und Ausgliederung",
+    rechtsstand: RECHTSSTAND,
+    quelle: "UmwSt Kurz-Skript (Breier) · Teil 2, Abschnitt II",
+    verfasser: VERFASSER,
+    normen: ["§ 17 Abs. 2 UmwG", "§ 1 Abs. 1 GrEStG", "§ 6a GrEStG", "§ 20 UmwStG", "§ 6 UmwG", "§ 16 UmwG", "§ 54 Abs. 1 UmwG", "§ 13 GrEStG", "§ 5 Abs. 4b EStG", "§ 190 UmwG"],
+    themen: ["Verschmelzung", "8-Monatsfrist", "Grunderwerbsteuer", "Formwechsel", "Aufspaltung", "Abspaltung", "Ausgliederung"],
+    bloecke: [
+      { typ: "titel", text: "1. Übertragung des gesamten Vermögens bei Untergang des übertragenden Unternehmens" },
+      { typ: "titel", text: "a. Verschmelzung" },
+      "Bei der Verschmelzung wird das gesamte Vermögen eines Rechtsträgers „auf einen Schlag“ auf einen anderen schon bestehenden oder neu gegründeten Rechtsträger im Wege der Gesamtrechtsnachfolge unter Auflösung des bisherigen Rechtsträgers ohne Abwicklung übertragen. Bei der Verschmelzung „braucht man zwei Rechtsträger“.",
+      "Den Anteilseignern des übertragenden (untergehenden) Rechtsträgers wird dabei (in der Regel) im Wege des Anteilstausches eine Beteiligung an dem übernehmenden Rechtsträger gewährt. Der übertragende Rechtsträger erlischt im Moment der Handelsregistereintragung.",
+      { typ: "titel", text: "Beispiel" },
+      "Die T-GmbH wird auf die M-GmbH verschmolzen. An der T-GmbH sind zu 20% der A und zu 80% die M-GmbH beteiligt.",
+      "Mit Eintragung der Verschmelzung ins Handelsregister erlischt die T-GmbH und das Vermögen der T-GmbH geht \"auf einen Schlag\" auf die M-GmbH über. Da der A mit der Verschmelzung seine Anteile an der untergehenden T-GmbH verliert, muss die M-GmbH gem. §§ 53 ff. UmwG eine Kapitalerhöhung vornehmen und die dabei entstehenden Anteile an A ausgeben. Die neuen Anteile für A entsprechen dabei wertmäßig den bisherigen 20% Anteilen des A an der T-GmbH.",
+      "Der Verschmelzungsvertrag muss notariell beurkundet werden (§ 6 UmwG). Die Verschmelzung ist dem Handelsregister zur Eintragung anzumelden (§ 16 UmwG).",
+      "Bei Anmeldung der Verschmelzung zum Handelsregister ist die handelsrechtliche Schlussbilanz der übertragenden (eingeschmolzenen) Gesellschaft beizufügen, für die die Vorschriften über die Jahresbilanz und deren Prüfung (Bekanntmachung ist nicht erforderlich!) entsprechend gelten (§ 17 Abs. 2 UmwG). Daraus folgt, dass in der handelsrechtlichen Schlussbilanz zwingend der Buchwert anzusetzen ist.",
+      "Das Registergericht darf die Verschmelzung nur eintragen, wenn die handelsrechtliche Schlussbilanz auf einen höchstens 8 Monate vor der Anmeldung liegenden Stichtag aufgestellt worden ist (§ 17 Abs. 2 UmwG).",
+      { typ: "titel", text: "Beispiel" },
+      "Die T-GmbH (Wirtschaftsjahr = Kalenderjahr) wird auf die M-GmbH, die als alleinige Gesellschafterin zu 100% an der T-GmbH beteiligt ist, verschmolzen. Die Verschmelzung wird am 31.8.08 beim Handelsregister angemeldet, wobei die \"normale\" letzte Handelsbilanz der T-GmbH zum 31.12.07 beigefügt wird. Die Verschmelzung wird am 15.10.08 ins Handelsregister der M-GmbH und der T-GmbH eingetragen.",
+      "Gem. § 54 Abs. 1 Nr. 1 UmwG darf bei der alleinigen (100%igen) Gesellschafterin M-GmbH keine Stammkapitalerhöhung zur Ausgabe neuer Anteile vorgenommen werden. Da die Anmeldung zum Handelsregister innerhalb der \"8-Monatsfrist\" erfolgt, kann zulässigerweise die Handelsbilanz der T-GmbH zum 31.12.07 zugrunde gelegt werden. Aber erst mit Eintragung der Verschmelzung ins Handelsregister am 15.10.08 erlischt zivilrechtlich die T-GmbH und das Vermögen der T-GmbH geht in dieser Sekunde zivilrechtlich \"auf einen Schlag\" auf die M-GmbH über.",
+      "Hat die übertragende (verschmolzene) Gesellschaft ein Grundstück, erfolgt durch die Verschmelzung ein Rechtsträgerwechsel, der - im Moment der Eintragung ins Handelsregister (bei der Grunderwerbsteuer gibt es keine steuerliche Rückwirkung) – gem. § 1 Abs. 1 Nr. 3 GrEStG (Eigentumsübergang kraft Gesetzes) der Grunderwerbsteuer unterliegt. Steuerschuldner sind gem. § 13 Nr. 2 GrEStG die Übertragerin und die Übernehmerin.",
+      "Dann ist aber die Steuerbefreiung gem. § 6a GrEStG zu prüfen.",
+      "Scheidet die Steuerbefreiung gem. § 6a GrEStG aus, ist die Grunderwerbsteuer bei der Übernehmerin als Anschaffungsnebenkosten beim Grundstück (und Gebäude) zu aktivieren; eine Rückstellung kommt deshalb steuerlich gem. § 5 Abs. 4b S. 1 EStG nicht in Betracht.",
+      { typ: "titel", text: "b. Formwechsel" },
+      "Beim Formwechsel ändert sich lediglich das Rechtskleid des bisherigen Rechtsträgers unter Wahrung seiner Identität, ohne dass - wie bei der Verschmelzung - Vermögen von einem Rechtsträger auf einen anderen übertragen wird. Der bisherige Rechtsträger erhält \"einfach\" eine andere Rechtsform (§ 190 UmwG). Beim Formwechsel gibt es vorher und hinterher nur einen Rechtsträger, der lediglich eine neue Rechtsform annimmt.",
+      "Einzelheiten sind in den §§ 190 ff. UmwG geregelt. Eine handelsrechtliche Schlussbilanz iSd. § 17 Abs. 2 UmwG gibt es nicht, da es nicht zu einer Vermögensübertragung kommt. Also muss bei der Anmeldung des Formwechsels beim Handelsregister",
+      "– anders als bei der Verschmelzung - keine Schlussbilanz beigefügt werden.",
+      "Mangels Rechtsträgerwechsel unterliegt – anders als die Verschmelzung oder Spaltung gem. § 1 Abs. 1 Nr. 3 GrEStG - die formwechselnde Umwandlung nicht der Grunderwerbsteuer (BFH BStBl. 1997 II, 661; BMF DB 1998, 167).",
+      { typ: "titel", text: "Beispiel" },
+      "Die A/B-GmbH (Gesellschafter sind A und B) soll in eine A/B-OHG umgewandelt werden, ohne dass vorher eine \"neue\" OHG gegründet wird; im Betriebsvermögen der A/B-GmbH befindet sich ein Grundstück.",
+      "Dies kann durch Formwechsel geschehen. Mit Eintragung des Formwechsels ins Handelsregister erlischt dann die GmbH und aus der GmbH wird - durch bloßen Wechsel des Rechtskleides - eine OHG, wobei die bisherigen Gesellschafter der A/B -GmbH in demselben Verhältnis Gesellschafter der A/B-OHG werden. Mit Eintragung des Formwechsels ins Handelsregister wird aus dem Vermögen der A/B-GmbH \"auf einen Schlag\" Vermögen der A/B-OHG, ohne dass Vermögen übertragen wird.",
+      "Der Formwechsel unterliegt mangels Rechtsträgerwechsel nicht der Grunderwerbsteuer.",
+      { typ: "titel", text: "2. Übertragung von Teilen des Vermögens nach dem UmwG (Spaltung)" },
+      "Durch die so genannte Spaltung können Teile des Vermögens eines Unternehmens im Wege der Gesamtrechtsnachfolge auf ein anderes Unternehmen gegen Gewährung von Anteilen an dem übernehmenden Rechtsträger übertragen werden (§§ 123 ff., 3 Abs. 1 UmwG).",
+      "Dabei sind zu unterscheiden:",
+      "- Aufspaltung",
+      "- Abspaltung",
+      "- Ausgliederung.",
+      { typ: "titel", text: "a. Aufspaltung" },
+      "Eine Gesellschaft (Kapitalgesellschaft oder Personengesellschaft) kann handelsrechtlich unter Auflösung ohne Abwicklung Teile ihres Vermögens (nicht unbedingt Teilbetriebe im steuerlichen Sinne) auf mindestens zwei andere - bestehende oder neu gegründete - Rechtsträger im Wege der Gesamtrechtsnachfolge übertragen, wobei die übernehmenden Rechtsträger im Gegenzug den Gesellschaftern des übertragenden (untergehenden) Unternehmens neue Anteile gewähren (§ 123 Abs. 1 UmwG).",
+      { typ: "titel", text: "Beispiel" },
+      "Gesellschafter der X-GmbH sind A und B mit je 50%. Das Vermögen der X-GmbH hat einen gemeinen Wert von 600.000.",
+      "Im Rahmen einer Aufspaltung wird Vermögen von 300.000 auf die neu gegründete Y-GmbH und Vermögen von 300.000 auf die neu gegründete Z-OHG übertragen; die X-GmbH erlischt mit Eintragung der Spaltung im Handelsregister. A und B erhalten jeweils 50% Anteile an der Y-GmbH und der Z-OHG.",
+      { typ: "titel", text: "b. Abspaltung" },
+      "Eine Gesellschaft (Kapitalgesellschaft oder Personengesellschaft) kann bei eigenem Fortbestehen Teile ihres Vermögens (nicht unbedingt Teilbetriebe im steuerlichen Sinne) auf andere - bestehende oder neu gegründete - Rechtsträger im Wege der Gesamtrechtsnachfolge übertragen, wobei die Gesellschafter der übertragenden Kapitalgesellschaft oder Personengesellschaft neue Anteile an dem übernehmenden Rechtsträgern erhalten (§ 123 Abs. 2 UmwG).",
+      { typ: "titel", text: "Beispiel" },
+      "Gesellschafter der X-GmbH sind A (mit 75%) und B (mit 25%). Das Vermögen der X-GmbH hat einen gemeinen Wert von 800.000.",
+      "Im Rahmen einer Abspaltung wird Vermögen im Wert von 200.000 auf die neu gegründete Y-GmbH übertragen; die X-GmbH bleibt mit einem Vermögen von 600.000 bestehen.",
+      "1. Alternative: A erhält 75% und B 25% an der Y-GmbH; A und B bleiben auch an der X-GmbH im Verhältnis von 75% (für A) und 25% (für B) beteiligt.",
+      "2. Alternative: B erhält an der Y-GmbH 100% Anteile und verliert alle Anteile an der X-GmbH; mithin sind nach der Abspaltung A mit 100% an der X-GmbH und B mit 100% an der Y-GmbH beteiligt (sog. \"Trennung von Gesellschafterstämmen\").",
+      { typ: "titel", text: "c. Ausgliederung" },
+      "Ein Unternehmen (Kapitalgesellschaft, Personengesellschaft oder Einzelunternehmer) kann Teile seines Vermögens auf einen anderen - bestehenden oder neu gegründeten - Rechtsträger im Wege der Gesamtrechtsnachfolge übertragen, wobei die vom übernehmenden Rechtsträger als Gegenleistung ausgegebenen neuen Anteile der übertragende Rechtsträger erhält und nicht - wie bei der Auf- und Abspaltung - unmittelbar der bzw. die Gesellschafter des übertragenden Rechtsträgers (§ 123 Abs. 3 UmwG).",
+      "Die Ausgliederung ist steuerlich ein Fall des § 20 UmwStG (bei Übertragung auf eine Kapitalgesellschaft gegen neue Anteile an den Übertragenden) oder des § 24 UmwStG (bei Übertragung auf eine Personengesellschaft gegen neue Mitunternehmeranteile an den Übertragenden).",
+      { typ: "titel", text: "Beispiel" },
+      "Die X-GmbH (Gesellschafter sind A und B mit je 50%) hat ein Vermögen von 600.000.",
+      "Im Wege der Ausgliederung wird ein Vermögen von 200.000 auf die neu gegründete Y-GmbH übertragen, wobei die neuen Gesellschaftsanteile an der Y-GmbH nicht A und B erhalten, sondern die X-GmbH. Die X-GmbH wird damit 100%ige Gesellschafterin der Y-GmbH, während A und B mit je 50% Gesellschafter der X-GmbH bleiben.",
+      "Steuerlich liegt ein Fall des § 20 UmwStG vor, wenn auf die Y-GmbH ein „ganzer“ Betrieb, Teilbetrieb oder Mitunternehmeranteil übertragen wird. Würden stattdessen A und B je 50% der neuen Anteile an der Y-GmbH erhalten, so läge eine Abspaltung vor, die unter § 15 UmwStG fällt, falls dessen weitere Voraussetzungen vorliegen.",
+    ],
+  },
+  {
+    id: "umw-ks-2-03",
+    ...TK2,
+    kapitel: "3",
+    title: "III. Einzelrechtsnachfolge",
+    thema: "Einzelrechtsnachfolge, die Anwachsung als Sonderfall und die Merksätze zu Einzel- und Gesamtrechtsnachfolge",
+    rechtsstand: RECHTSSTAND,
+    quelle: "UmwSt Kurz-Skript (Breier) · Teil 2, Abschnitt III",
+    verfasser: VERFASSER,
+    normen: ["§ 398 BGB", "§ 161 Abs. 2 HGB", "§ 1 Abs. 1 GrEStG", "§ 6a GrEStG", "§ 123 UmwG", "§ 123 Abs. 1 UmwG", "§ 123 Abs. 2 UmwG", "§ 123 Abs. 3 UmwG"],
+    themen: ["Einzelrechtsnachfolge", "Anwachsung", "Merke"],
+    bloecke: [
+      { typ: "titel", text: "1. Grundsätze" },
+      "Das gesamte Vermögen oder Teile des Vermögens eines Unternehmens können auch ohne Beachtung der Vorschriften des UmwG auf ein anderes Unternehmen übertragen werden.",
+      "Dann geht das Vermögen nicht – wie bei der Gesamtrechtsnachfolge - \"auf einen Schlag\" bei Eintragung ins Handelsregister über, vielmehr müssen dann alle aktiven und passiven Wirtschaftsgüter einzeln nach den Vorschriften des Zivilrechts übertragen werden (z.B. bewegliche Sachen durch Einigung und Übergabe gem. §§ 929 ff BGB, Grundstücke durch Auflassung und Eintragung ins Grundbuch gem. §§ 873, 925 BGB, Rechte durch Abtretung gem. § 398 BGB und Verbindlichkeiten durch Schuldübernahme unter Zustimmung der Gläubiger gem. §§ 414 ff BGB).",
+      { typ: "titel", text: "2. Anwachsung (Sonderfall der Einzelrechtsnachfolge)" },
+      "Scheidet aus einer Personengesellschaft der vorletzte Gesellschafter aus, so wird aus der Personengesellschaft ohne Liquidation ein Einzelunternehmen, wobei das Gesamthandsvermögen ohne Übertragungsakt sofort Eigentum des verbleibenden Gesellschafters wird; sog. Anwachsung.",
+      { typ: "titel", text: "Beispiel" },
+      "Gesellschafter der A-GmbH & Co. KG sind die A-GmbH als Komplementär und A - der Alleingesellschafter der A-GmbH - als Kommanditist. Laut Gesellschaftsvertrag ist A allein am Vermögen der A-GmbH & Co. KG beteiligt.",
+      "Am 01.05.08 scheidet A als Kommanditist aus der A-GmbH & Co. KG aus mit der Folge, dass das Gesamthandsvermögen nun der A-GmbH als Eigentümerin anwächst (§§ 161 Abs. 2 HGB, 738 BGB).",
+      { typ: "titel", text: "Merke" },
+      "Unterscheide (zivilrechtlich und steuerlich) bei Übertragung von Einzelwirtschaftsgütern und Sachgesamtheiten (Betrieb, Teilbetrieb und Mitunternehmeranteil):",
+      "- Einzelrechtsnachfolge",
+      "- zivilrechtliche Übertragung der WG nach den Regeln des BGB",
+      "- Sonderfall: Anwachsung (Fortführung des Unternehmens durch letzten übrig bleibenden Gesellschafter bei Ausscheiden des vorletzten Gesellschafters aus einer PersGes)",
+      "- Gesamtrechtsnachfolge:",
+      "- Vermögen wird nach Regeln des UmwG übertragen; zivilrechtlicher Eigentumsübergang auf Empfänger (Übernehmer) „auf einen Schlag“ bei Eintragung im Handelsregister",
+      "Fälle der Gesamtrechtsnachfolge sind:",
+      "- Verschmelzung von zwei Rechtsträgern auf einen Rechtsträger (§§ 2 ff. UmwG); bei der gem. § 1 Abs. 1 Nr. 3 GrEStG anfallenden Grunderwerbsteuer prüfe § 6a GrEStG!",
+      "- Formwechsel (§§ 190 ff. UmwG): Der bisherige Rechtsträger wechselt – ohne Übertragung seines Vermögens – nur das Rechtskleid und wird nach Eintragung ins HR in neuer Rechtsform fortgeführt (deshalb keine Grunderwerbsteuer)",
+      "- Spaltung (§ 123 UmwG):",
+      "- Aufspaltung auf zwei andere Rechtsträger (Untergang des übertragenden Rechtsträgers; § 123 Abs. 1 UmwG); die neuen Anteile an den Übernehmern erhalten der/die Gesellschafter des Übertragenden",
+      "- Abspaltung eines Teils des Vermögens (steuerlich immer Teilbetrieb oder Mitunternehmeranteil erforderlich) unter Weiterbestand des übertragenden Rechtsträgers (§ 123 Abs. 2 UmwG); die neuen Anteile an der Übernehmerin erhalten der /die Gesellschafter des Übertragenden",
+      "- Ausgliederung eines Teils des Vermögens auf einen anderen Rechtsträger (steuerlich immer Teilbetrieb oder Mitunternehmeranteil erforderlich) unter Weiterbestand des übertragenden Rechtsträgers (§ 123 Abs. 3 UmwG); die neuen Anteile an der Übernehmerin erhält der Übertragende",
+    ],
+  },
+];
+
+export const umwstKurzskript = kapitelRoh.map((kapitel) => ({
+  ...kapitel,
+  bloecke: kapitel.bloecke.map((block) => (typeof block === "string" ? { text: block } : block)),
+}));
+
+export default umwstKurzskript;
