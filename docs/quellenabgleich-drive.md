@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwSt-Kurz-Skript (Breier), Teil 5 (PDF-Seiten 58 bis 65) – Spaltung von Kapitalgesellschaften
+
+Übernommen: Teil 5 mit den Abschnitten I. bis VI. (Vorbemerkung, Spaltungsarten, übertragende Kapitalgesellschaft mit doppelter Teilbetriebsvoraussetzung und Missbrauchstatbeständen, Übernehmerin, Gesellschafter, Spaltung auf Personenhandelsgesellschaften) samt Merke-Kasten; neue Teil-Konstante TK5. Eine Tabelle (Aufteilung der Anschaffungskosten).
+
+- Gekennzeichnet: Merke – „Ausgabe neuer Anteile der Übernehmerin an Gesellschafter der Übernehmerin“ bei der Abspaltung (gemeint die Gesellschafter der übertragenden KapGes).
+- Stillschweigend berichtigt: ein in der Merke zusammengelaufener Absatz („prüfen Bei der Abspaltung“) getrennt; Silbentrennungen.
+- Nachrechnung (eigene Ergänzung): Teilbetrieb 1 500.000 ./. 300.000 = 200.000; Anschaffungskosten 40.000 je ½ = 20.000 – stimmig.
+
+Prüfung danach: UmwSt-Kurz-Skript (Breier) in Ordnung: 5 Teile, 24 Kapitel, 706 Blöcke, 49 Tabellen.
+
+Weiter mit: Teil 6 „Einlage und Einbringung in die Kapitalgesellschaft“ (PDF-Seiten 66 bis 116).
+
 ### UmwSt-Kurz-Skript (Breier), Teil 4 (PDF-Seiten 40 bis 57) – Verschmelzung von Kapitalgesellschaften
 
 Übernommen: Teil 4 mit den Abschnitten I. bis V. (Vorbemerkungen, übertragende Kapitalgesellschaft, Folgen bei der übernehmenden Kapitalgesellschaft einschließlich Grunderwerbsteuer, Übernahmefolgegewinn, Einlagekonto und Verschmelzung auf eine Organgesellschaft, Besteuerung der Gesellschafter, Rückwirkung) samt Merke-Kasten; neue Teil-Konstante TK4. 18 Tabellen, gegen die gerenderten Seiten 42, 43, 46, 47 und 48 geprüft; Bilanzen mit Buchwert und gemeinem Wert fünfspaltig („Aktivseite | Buchwert | gem. Wert | Passivseite | Betrag“).
