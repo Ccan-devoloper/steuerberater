@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwStR-Skript (Hamacher), Teil I (15 Seiten) – neuer Bestand aus dem zweiten Baum
+
+Übernommen: „Umwandlungssteuerrecht, Teil I: Kurzdarstellung der zivilrechtlichen Umwandlungsarten / Einführung in das UmwStG“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `1ZARZWjR7VDA5_groMb6XgdVxZGoxe0ms`, vollständig heruntergeladen und lokal ausgewertet) als neuer Datensatz `src/data/k3-umwstr-skript-hamacher.js` mit fünf Abschnitten (1.1, 1.2, 1.3–1.5, 2.1, 2.2) und neuem Reiter „Skript (Hamacher)“ im UmwStR-Campus. Fußnoten stehen hochgestellt im Text und am Abschnittsende; die Missbrauchsklauseln und der Aufbau des UmwStG als Tabellen (Seite 15 gerendert).
+
+- Gekennzeichnet: Fußnote 10 „BStBl. II 2023, 995“ für gleichlautende Ländererlasse.
+- Stillschweigend berichtigt: „§ 5 Abs. 4 GmbH“ → „GmbHG“; „Rechträger“; „Aufspaltung zur Annahme“ → „zur Aufnahme“; „zu einer die Änderung“; „dieser gilt Veräußerungspreis“ → „gilt als“; „(ach bei Option“; „BGBI.“; Silbentrennungen des Blocksatzes.
+- Keine Rechenbeispiele.
+
+Prüfung danach: UmwStR-Skript (Hamacher) in Ordnung: 1 Teile, 5 Kapitel, 178 Blöcke, 3 Tabellen.
+
+Weiter mit: UmwStR-Skript Teil II „Einbringung in eine Kapitalgesellschaft §§ 20 – 23, 25 UmwStG“ (`13Co6d7aV8oO1c_hymjVKY0WNOb6LfTyn`).
+
 ### KSt-Kurz-Skript (Breier), Teile 9 bis 11 (PDF-Seiten 184 bis 196) – Skript vollständig
 
 Übernommen: Teil 9 Liquidation (9-01, 9-02 mit Merke), Teil 10 Umwandlung von Rücklagen in Nennkapital und Kapitalherabsetzung (10-01, 10-02 mit Merke) und Teil 11 Erwerb und Veräußerung eigener Anteile (11-01 mit Merke) – mit neuen Teil-Konstanten T9 bis T11. Teil 11 stand in der früheren Fehlliste nicht, weil das Inhaltsverzeichnis nur bis Seite 90 lesbar war.

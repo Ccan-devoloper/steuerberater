@@ -31,6 +31,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Beispiel in Zahlen, Klausurblock, Selbstcheck und Merksatz; Fortschritt via `localStorage`,
   Querverweise auf Module, Prüfschemata, Originalfälle und Hausaufgaben. Details:
   [`docs/k3-lernpfad.md`](docs/k3-lernpfad.md), Prüfung: `npm run check:k3-lernpfad`
+- **UmwStR-Skript (Hamacher)** (Klausur 3, Campus UmwStR → „Skript (Hamacher)“): das
+  Lehrgangsskript von Frank Hamacher (21. Auflage, Januar 2026) im Wortlaut, mit den Fußnoten der
+  Quelle am Ende jedes Abschnitts. Eingepflegt ist **Teil I** (zivilrechtliche Umwandlungsarten
+  nach dem UmwG – Einzel- und Gesamtrechtsnachfolge, Verschmelzung, Auf-/Abspaltung,
+  Ausgliederung, Vermögensübertragung, Formwechsel, Ablauf, Partnerschaftsgesellschaft,
+  grenzüberschreitende Umwandlungen, SE – sowie die Einführung in das UmwStG mit
+  Ansatzwahlrechten, Missbrauchsklauseln und der Aufbautabelle) – 5 Abschnitte, 178 Blöcke,
+  3 Tabellen. Die Teile II bis V folgen. Prüfung: `npm run check:k3-umwstr-skript`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung
@@ -6256,6 +6264,7 @@ src/
     buchungssaetze.js         Lektionen, Kontenplan, Beispiele und Übungen des Reiters „Buchungssätze“
     k3-lernpfad-persg.js      Lernpfad „Schritt für Schritt“ Personengesellschaften (18 Lektionen)
     k3-lernpfad-umwstr.js     Lernpfad „Schritt für Schritt“ Umwandlungssteuerrecht (16 Lektionen)
+    k3-umwstr-skript-hamacher.js  UmwStR-Lehrgangsskript (Hamacher), Teile I bis V
     sources.js                Quellenkatalog und Rechtsstand
     examensprioritaet.js      Regelwerk 🔴/🟠/🟢 aus den Beck-Auswertungen, Fachtabellen
 ```

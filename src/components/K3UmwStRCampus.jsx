@@ -3,10 +3,12 @@ import { laden, sichern } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K3Fachleiste from "./K3Fachleiste";
-import { IconCockpit, IconSchema, IconHausaufgabe, IconPlan } from "./Icons";
+import { IconCockpit, IconSchema, IconHausaufgabe, IconPlan, IconRegister } from "./Icons";
 import K3Lernpfad from "./K3Lernpfad";
 import { umwstrLernpfad, umwstrLernpfadKapitel, umwstrLernpfadGesamtminuten } from "../data/k3-lernpfad-umwstr";
 import { UMWSTR_HA_SEITEN_GESAMT, UMWSTR_HA_FAELLE_GESAMT, umwstrHausaufgaben } from "../data/k3-umwstr-ha-faelle.js";
+import { umwstrSkript, umwstrSkriptQuelle } from "../data/k3-umwstr-skript-hamacher.js";
+import KurzskriptBloecke from "./KurzskriptBloecke";
 
 /* Die Hausaufgaben bringen die Originaltexte samt Schriftinformation mit.
    Sie werden erst geladen, wenn der Reiter geöffnet wird. */
@@ -320,6 +322,9 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
           <button className="rail__link" aria-current={verlauf.ansicht === "hausaufgaben" ? "true" : undefined} onClick={() => ansichtOeffnen("hausaufgaben")}>
             <IconHausaufgabe />Hausaufgaben
           </button>
+          <button className="rail__link" aria-current={verlauf.ansicht === "skript" ? "true" : undefined} onClick={() => ansichtOeffnen("skript")}>
+            <IconRegister />Skript (Hamacher)
+          </button>
         </nav>
         <div className="rail__box">
           <b>Quellenabdeckung</b>
@@ -337,6 +342,21 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
           <Suspense fallback={<p className="hausaufgabe__status" role="status">Hausaufgaben werden geladen …</p>}>
             <K3UmwStRHausaufgaben />
           </Suspense>
+        )}
+        {verlauf.ansicht === "skript" && (
+          <KurzskriptBloecke
+            kicker="Klausur 3 · UmwStR · Lehrgangsskript"
+            titel="Umwandlungssteuerrecht (Hamacher)"
+            lead="Das Lehrgangsskript von Frank Hamacher (21. Auflage, Januar 2026) im Wortlaut. Eingepflegt ist Teil I: die zivilrechtlichen Umwandlungsarten nach dem UmwG und die Einführung in das UmwStG mit Ansatzwahlrechten, Missbrauchsklauseln und dem Aufbau des Gesetzes. Die Teile II bis V (Einbringung, Verschmelzung, Spaltung, Umwandlung auf Personengesellschaften) folgen."
+            quelle={umwstrSkriptQuelle}
+            kapitel={umwstrSkript}
+            karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}
+            gruppeVon={(k) => k.teil}
+            gruppeLabel={(k) => k.teilLabel}
+            gruppeAria="Skriptteile"
+            gruppeAlle="Alle Teile"
+            suchePlatzhalter="Norm, Stichwort oder Umwandlungsart"
+          />
         )}
       </main>
     </div>

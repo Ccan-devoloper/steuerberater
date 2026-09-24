@@ -70,8 +70,8 @@ vorliegt –, wird ausgelassen und am Ende zusammen mit Abschnitt A zur Nachlief
    ~~Ertragsteuer-Prüfungen 2013 bis 2015~~ (erledigt), ~~Bilanz-Prüfungen 2012 Teil III (Lösung)
    und 2013 bis 2015~~ (erledigt).
 2. **Neue Bestände aus dem zweiten Baum**, bisher an keiner Stelle im Campus:
-   - Umwandlungssteuerrecht (Hamacher, 21. Auflage, Januar 2026): Teil I Allgemeines und
-     Umwandlungsarten (`1ZARZWjR7VDA5_groMb6XgdVxZGoxe0ms`), Teil II Einbringung in eine
+   - Umwandlungssteuerrecht (Hamacher, 21. Auflage, Januar 2026): ~~Teil I Allgemeines und
+     Umwandlungsarten (`1ZARZWjR7VDA5_groMb6XgdVxZGoxe0ms`)~~ (erledigt, September 2026), Teil II Einbringung in eine
      Kapitalgesellschaft §§ 20 – 23, 25 UmwStG (`13Co6d7aV8oO1c_hymjVKY0WNOb6LfTyn`), Teil III
      §§ 11 – 13 UmwStG (`1e0kAdsm1mV0EX8i4JiN3PQv8GqOsK17g`), Teil IV § 15 UmwStG
      (`1AgUXSDoN7x76GyC5aGblDWZ7FMuHZ0ZT`), Teil V Umwandlung einer Kapitalgesellschaft auf eine

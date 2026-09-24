@@ -69,6 +69,7 @@
     "check:kst-hausaufgaben": "node tools/pruefen-kst-hausaufgaben.mjs",
     "check:est-hausaufgaben": "node tools/pruefen-est-hausaufgaben.mjs",
     "check:kst-kurzskript": "node tools/pruefen-kst-kurzskript.mjs",
+    "check:k3-umwstr-skript": "node tools/pruefen-k3-umwstr-skript.mjs",
     "check:k3-persg-skript-melzer": "node tools/pruefen-k3-persg-skript-melzer.mjs",
     "check:k1-ao-skript-jacobs": "node tools/pruefen-k1-ao-skript-jacobs.mjs",
     "check:k1-ao-short-skript-jacobs": "node tools/pruefen-k1-ao-short-skript-jacobs.mjs",
