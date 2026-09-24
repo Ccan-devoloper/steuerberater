@@ -29,7 +29,7 @@
       "lang": false,
       "status": "geplant",
       "budgetBlockiert": {
-        "seit": "2026-09-24T17:44:06.527Z",
+        "seit": "2026-09-24T18:43:48.374Z",
         "grund": "reel-faktencheck: 0.0527 $ im Topf „core“ nicht mehr zulässig (frei 0.0365 $ von 0.5260 $) - der Aufruf startet nicht.",
         "topf": "core",
         "art": "AdmissionAbgelehnt"
