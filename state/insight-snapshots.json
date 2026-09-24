@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-24T07:43:54.270Z",
+  "stand": "2026-09-24T08:43:58.395Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -4048,6 +4048,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-09-24T08:43:56.889Z",
+          "alterStunden": 23,
+          "reach": 20,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -4304,6 +4316,23 @@
           "navigation_tap_forward": 21,
           "navigation_tap_exit": 6,
           "navigation_swipe_forward": 5
+        },
+        {
+          "stand": "2026-09-24T08:43:54.465Z",
+          "alterStunden": 21,
+          "reach": 30,
+          "views": 42,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 39,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 23,
+          "navigation_tap_exit": 6,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -4434,6 +4463,20 @@
           "ig_reels_avg_watch_time": 26568,
           "ig_reels_video_view_total_time": 664209,
           "reels_skip_rate": 50
+        },
+        {
+          "stand": "2026-09-24T08:43:56.889Z",
+          "alterStunden": 13.4,
+          "reach": 52,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 75,
+          "ig_reels_avg_watch_time": 13503,
+          "ig_reels_video_view_total_time": 742715,
+          "reels_skip_rate": 65.5
         }
       ]
     },
@@ -4513,6 +4556,34 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        }
+      ]
+    },
+    "18181863364427829": {
+      "art": "story",
+      "datum": "2026-09-24",
+      "titel": "Wegzugsschema: sitzt die Karte?",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-24T06:46:49.708Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-24T08:43:54.465Z",
+          "alterStunden": 2,
+          "reach": 12,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 11,
+          "navigation_tap_forward": 8,
+          "navigation_tap_exit": 2,
+          "navigation_swipe_forward": 1
         }
       ]
     }
@@ -4760,6 +4831,11 @@
     },
     {
       "stand": "2026-09-24T07:43:54.270Z",
+      "follower": 74,
+      "medien": 60
+    },
+    {
+      "stand": "2026-09-24T08:43:58.395Z",
       "follower": 74,
       "medien": 60
     }
