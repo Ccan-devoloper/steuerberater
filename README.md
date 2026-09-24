@@ -1241,10 +1241,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Organschaft, die Einkommensermittlung bei Organgesellschaft und Organträger (Bruttomethode,
   § 7a GewStG), die Ausgleichszahlungen nach § 16 KStG, Minder- und Mehrabführungen nach der
   Einlagelösung, vororganschaftliche Mehrabführungen, § 19 KStG und die Feststellung – Teil 8
-  damit vollständig; zusammen 60 Abschnitte, 2328 Blöcke, 76 Tabellen.
-  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; die Teile 9 und 10
-  werden abschnittsweise nachgetragen
-  (`docs/offene-quellen.md`).
+  damit vollständig; Teil 9 (Liquidation nach § 11 KStG mit Abwicklungsgewinn und Besteuerung
+  des Anteilseigners), Teil 10 (Kapitalerhöhung aus Gesellschaftsmitteln mit Sonderausweis und
+  spätere Kapitalherabsetzung) und Teil 11 (Erwerb und Veräußerung eigener Anteile nach dem
+  BMF-Schreiben vom 27.11.2013). **Das Skript ist damit vollständig** – 11 Teile, 65 Abschnitte,
+  2514 Blöcke, 81 Tabellen.
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):
   die Übungsfälle des Lehrgangs, Teil 1 (Stand 07/2025) mit drei Fällen – Abschlusszahlung zur

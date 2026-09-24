@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teile 9 bis 11 (PDF-Seiten 184 bis 196) – Skript vollständig
+
+Übernommen: Teil 9 Liquidation (9-01, 9-02 mit Merke), Teil 10 Umwandlung von Rücklagen in Nennkapital und Kapitalherabsetzung (10-01, 10-02 mit Merke) und Teil 11 Erwerb und Veräußerung eigener Anteile (11-01 mit Merke) – mit neuen Teil-Konstanten T9 bis T11. Teil 11 stand in der früheren Fehlliste nicht, weil das Inhaltsverzeichnis nur bis Seite 90 lesbar war.
+
+- Gekennzeichnet: zweimal „Betriebsausgabe“ statt Betriebsaufgabe (Teil 9); „§ 4 KapErhStG“ in der Merke (im Text § 3 KapErhStG); in der Teil-11-Merke „wegen Annahme einer Kapitalherabsetzung“ bei den Veräußerungskosten (dort gelten die Grundsätze einer Kapitalerhöhung).
+- Stillschweigend berichtigt: „das Sperrjahres“; „§ 17 Abs. 4 S 1“; doppelte Klammer „((Tz. 13“; „Beteiligungs-höhe“; „mit der Beteiligungsbuchwert“; „vornehmen“ → „vorzunehmen“; „(gesondert festgestellt) Sonderausweis“; „aus den Einlagekonto“; „bis zu Höhe“; „gem. 272 Abs. 2“; zweimal „Kaufpreis von für“; „Gezeichnete Kapital“; „des Stammkapital“; "lau-fender" → „laufender“.
+- Nachrechnung (eigene Ergänzung): Liquidation 140.000 ./. 15.000 = 125.000, 70.000 ./. 30.000 = 40.000, Abwicklungsgewinn 85.000 + 30.000 = 115.000; beim Gesellschafter 160.000 ./. 30.000 = 130.000 Kapitaleinkünfte, § 17: 30.000 ./. 40.000 = ./. 10.000, 60 % = ./. 6.000; Kapitalerhöhung 60.000 Einlagekonto + 40.000 Sonderausweis, AK 180.000 × 1/3 = 60.000 und 2/3 = 120.000; Herabsetzung 50.000 = 40.000 + 10.000; eigene Anteile 35.000 = 20.000 + 15.000, 45.000 = 20.000 + 15.000 + 10.000, 70.000 = 20.000 + 15.000 + 35.000 (Einlagekonto + 50.000) – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 11 Teile, 65 Kapitel, 2514 Blöcke, 81 Tabellen.
+
+Damit ist das KSt-Kurz-Skript (Breier) vollständig eingepflegt. Weiter mit: Abschnitt B der offenen Quellen (neue Bestände im zweiten Drive-Baum).
+
 ### KSt-Kurz-Skript (Breier), Teil 8 VIII bis XI (PDF-Seiten 177 bis 183) – Teil 8 vollständig
 
 Übernommen: VIII. Minder- und Mehrabführungen nach der Einlagelösung (8-08; Seite 178 mit der Steuerbilanz der OT-AG gerendert), IX. vororganschaftliche Mehrabführungen mit Merke (8-09), X. § 19 KStG und XI. Feststellung (8-10).
