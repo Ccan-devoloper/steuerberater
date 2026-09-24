@@ -4591,6 +4591,17 @@
       },
       "insightsStand": "2026-09-24T05:43:36.317Z",
       "insightsAlterStunden": 10.4
+    },
+    {
+      "datum": "2026-09-24",
+      "art": "story",
+      "slot": "s3",
+      "storyArt": "frage",
+      "thema": "bilanz-quiz-k3-16",
+      "fach": "bilanz",
+      "titel": "Über wie viele Jahre wird der Firmenwert steuerlich abgeschrieben?",
+      "medienId": "18408140572088637",
+      "veroeffentlicht": "2026-09-24T05:48:11.673Z"
     }
   ],
   "fachZaehler": {
