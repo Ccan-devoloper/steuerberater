@@ -4474,22 +4474,22 @@
       "medienId": "18479595370113473",
       "veroeffentlicht": "2026-09-23T11:43:47.535Z",
       "insights": {
-        "reach": 30,
-        "views": 42,
+        "reach": 31,
+        "views": 45,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 39,
-        "navigation_tap_back": 5,
-        "navigation_tap_forward": 23,
+        "navigation": 40,
+        "navigation_swipe_forward": 6,
         "navigation_tap_exit": 6,
-        "navigation_swipe_forward": 5
+        "navigation_tap_forward": 23,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-09-24T08:43:54.465Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-09-24T10:44:12.250Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-23",
