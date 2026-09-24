@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: Inhaltsverzeichnis, I. und II.1
+
+Neue Datei src/data/k1-ust-moecker/block12.js, im Skript nach Block 11 eingebunden. Aufbau der Quelle (PDF-Seiten 103 bis 145 der gemeinsamen Datei): Textteil Skript-Seiten 1 bis 27 (PDF-Seiten 103 bis 129, Skript-Seite = PDF-Seite − 102), Arbeitspapiere A 1 bis A 16 (PDF-Seiten 130 bis 145, A n = PDF-Seite 129 + n). Block 12 enthält keine eingebetteten Bilder (geprüft mit PyMuPDF).
+
+Übernommen (PDF-Seiten 103 bis 107): Kapitel ust-m-b12-1 (Inhaltsverzeichnis), ust-m-b12-2 (I Allgemeine Grundsätze mit den vier Voraussetzungen einer Berichtigung) und ust-m-b12-3 (II.1 Berichtigungsobjekte im Überblick, Nr. 1 bis 5).
+
+- Stillschweigend berichtigt: „5 bzw. 10 Jahre“ → „Jahren“; Anführungszeichen „Missbrauchs“ vereinheitlicht; „unschädlich oder schädliche“ → „unschädliche oder schädliche“ (I); „geltenden Grundsätzen“ → „Grundsätze“ (II.1 Nr. 5).
+- Keine Zahlen zum Nachrechnen.
+
+Prüfung danach: 13 Teile, 462 Kapitel, 6385 Blöcke, 352 Tabellen.
+
+Weiter mit: II.2 Berechtigung zum Vorsteuerabzug als Grundvoraussetzung, Skript-Seite 6 (PDF-Seite 108).
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 41 und A 42 – Block 11 vollständig
 
 Übernommen (PDF-Seiten 101 und 102, Seiten gerendert und angesehen): Kapitel ust-m-b11-54 (A 41 nicht abziehbare Vorsteuer nach § 15 Abs. 1a UStG mit Geschenken, A 42 Wegfall der Seeling-Modelle mit den Punkten ❶ bis ❻). Schaubilder als Tabellen wiedergegeben. Block 11 ist damit vollständig (54 Kapitel: Textteil I. bis VIII., Arbeitspapiere A 1 bis A 42); Kopfkommentar, README, Campus-Text und offene-quellen.md entsprechend angepasst.

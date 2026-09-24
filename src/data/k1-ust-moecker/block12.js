@@ -1,0 +1,111 @@
+/* USt-Skript (Moecker), Block 12: Berichtigung des Vorsteuerabzugs (§ 15a UStG).
+   Quelle: „Umsatzsteuer Block 11 - 12 mit Arbeitspapieren“ (gemeinsame Datei, Titelblatt November
+   2025); Block 12 mit Kopfzeilen „Block 12-Vorsteuerberichtigung-§15a-Vers.01.01.2026 / Red. 01.26“,
+   PDF-Seiten 103 bis 145 der gemeinsamen Datei: Textteil Seiten 1 bis 27 (PDF-Seiten 103 bis 129),
+   Arbeitspapiere A 1 bis A 16 (PDF-Seiten 130 bis 145).
+   In Arbeit: eingepflegt bis Abschnitt II.1 (Skript-Seite 5, PDF-Seite 107). */
+
+const VERFASSER = "Udo Moecker";
+const RECHTSSTAND = "Stand 01/2026";
+const TEIL = "Block 12 – Berichtigung des Vorsteuerabzugs (§ 15a UStG)";
+const q = (abschnitt) => `USt-Skript (Moecker), Block 12, Abschnitt ${abschnitt} · Stand 01/2026`;
+
+export const block12 = [
+  {
+    id: "ust-m-b12-1",
+    teil: TEIL,
+    kapitel: "1",
+    abschnittNr: "Inhalt",
+    title: "Block 12: Inhaltsverzeichnis",
+    thema: "Gliederung von Block 12: allgemeine Grundsätze, Berichtigungsobjekte, Vereinfachungsregeln nach § 44 UStDV, Berichtigungszeitraum, Änderung der Verhältnisse, Berichtigung nach § 15a Abs. 1 bis 4, 6 und 7 UStG und Aufzeichnungspflichten",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Inhaltsverzeichnis"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a UStG", "§ 44 UStDV"],
+    themen: ["Vorsteuerberichtigung", "Inhaltsverzeichnis"],
+    bloecke: [
+      { typ: "titel", text: "Block 12 – Berichtigung des Vorsteuerabzugs: Inhaltsverzeichnis" },
+      { typ: "tabelle", spalten: ["Abschnitt", "Seite"], zeilen: [
+        ["I Allgemeine Grundsätze", "3"],
+        ["II Berichtigungsobjekte", "4"],
+        ["II.1 Berichtigungsobjekte im Überblick", "4"],
+        ["II.2 Berechtigung zum Vorsteuerabzug als Grundvoraussetzung", "6"],
+        ["III Vereinfachungsregeln gem. § 44 UStDV", "8"],
+        ["IV Maßgeblicher Berichtigungszeitraum", "11"],
+        ["V Änderung der Verhältnisse", "13"],
+        ["V.1 Allgemeines", "13"],
+        ["V.2 Änderung der Verhältnisse im Überblick", "13"],
+        ["V.3 Änderung der Verhältnisse durch Veräußerung / Entnahme", "14"],
+        ["VI Nicht nur einmalig verwendete WG - § 15a Abs. 1 UStG -", "15"],
+        ["VI.1 Investitionsgüter", "15"],
+        ["VI.2 Besonderheiten beim Berichtigungszeitraum", "16"],
+        ["VI.3 Leerstand bei Gebäuden", "16"],
+        ["VI.4 Berichtigungsverfahren", "18"],
+        ["VII Nur einmalig verwendete WG - § 15a Abs. 2 UStG -", "20"],
+        ["VIII Bestandteile und so. Leistungen an WG - § 15a Abs. 3 UStG -", "21"],
+        ["VIII.1 Eingang von Bestandteilen in ein WG", "21"],
+        ["VIII.2 Sonstige Leistungen an einem WG", "22"],
+        ["VIII.3 Mehrere Maßnahmen zusammen als ein Berichtigungsobjekt", "23"],
+        ["VIII.4 Entnahme eines WG - § 15a Abs. 3 Satz 2 UStG -", "24"],
+        ["IX So. Leistungen nicht an einem WG - § 15a Abs. 4 UStG -", "25"],
+        ["X Nachträgliche AK / HK - § 15a Abs. 6 UStG -", "26"],
+        ["XI Wechselfälle Regelbesteuerung §19/24 - § 15a Abs. 7 UStG -", "26"],
+        ["XII Aufzeichnungspflichten", "27"],
+      ] },
+      { text: "(Kennung in der Quelle: Red: StB56/ Version 01.01.2026 / Red. 01.26)" },
+    ],
+  },
+  {
+    id: "ust-m-b12-2",
+    teil: TEIL,
+    kapitel: "2",
+    abschnittNr: "I",
+    title: "I Allgemeine Grundsätze",
+    thema: "Endgültige Entscheidung über den Vorsteuerabzug bei Leistungsbezug, Korrektur nach § 15a UStG pro rata temporis über 60 bzw. 120 Monate ab erstmaliger tatsächlicher Verwendung, Vergleich der ursprünglichen mit den tatsächlichen Verhältnissen, keine Ergänzungsvorschrift zu § 15 Abs. 1 UStG, Zuordnung als Voraussetzung, die vier Voraussetzungen einer Berichtigung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("I"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a UStG", "§ 15 Abs. 1 bis 4 UStG", "§§ 44, 45 UStDV"],
+    themen: ["Vorsteuerberichtigung", "Berichtigungszeitraum", "Grundsätze"],
+    bloecke: [
+      { typ: "titel", text: "I Allgemeine Grundsätze" },
+      { text: "Vgl. Arbeitspapier A 1" },
+      { text: "Über den Vorsteuerabzug ist sowohl **dem Grunde** (Bezug für das Unternehmen) als auch **der Höhe nach** (Verwendung für steuerpflichtige oder steuerfreie Umsätze beabsichtigt) bereits bei Leistungsbezug abschließend zu entscheiden." },
+      { text: "Korrekturen können - abgesehen von Fällen des „Missbrauchs“ - nach § 15a UStG vorgenommen werden. Die Berichtigung des betreffenden Vorsteuerabzugs wird also nicht durch eine rückwirkende geänderte Steuerfestsetzung nach den abgabenrechtlichen Vorschriften, sondern nach § 15a UStG verteilt auf den –zukünftigen- Berichtigungszeitraum von 5 bzw. 10 Jahren grds. pro rata temporis (60 Monate / 120 Monate) vorgenommen." },
+      { text: "Der Berichtigungszeitraum des § 15a UStG beginnt dabei mit der tatsächlichen erstmaligen Verwendung des Wirtschaftsguts. Damit wird z.B. bei der Absicht einer steuerpflichtigen Nutzung und einer - tatsächlich - im gesamten Berichtigungszeitraum steuerfreien Nutzung der ursprüngliche Vorsteuerabzug im Ergebnis wieder rückgängig gemacht, jedoch verteilt auf 60 bzw. 120 Monate. Verglichen werden die für den ursprünglichen Vorsteuerabzug maßgebenden (meist prognostizierten) Verhältnisse mit den für den Vorsteuerabzug maßgebenden (also den tatsächlichen) Verhältnissen ab dem Zeitpunkt der erstmaligen tatsächlichen Verwendung des WG." },
+      { text: "Die Vorschrift des § 15a UStG soll den auf § 15 Abs. 2 bis 4 UStG beruhenden Vorsteuerabzug (der Höhe nach) so ausgleichen, dass er den Verhältnissen entspricht, die sich für den gesamten im Einzelfall geltenden Berichtigungszeitraum ergeben. Dabei sind die Vorschriften der §§ 44, 45 UStDV zu beachten, die die Berichtigung des Vorsteuerabzugs in steuertechnischer Hinsicht erleichtern sollen." },
+      { text: "**Merke:** **§ 15a UStG ist keine Ergänzungsvorschrift zu § 15 Abs. 1 UStG. Seine Anwendung setzt voraus, dass im Zeitpunkt des Leistungsbezugs des Wirtschaftsguts die Voraussetzungen für den Vorsteuerabzug nach § 15 Abs. 1 UStG gegeben waren.**" },
+      { text: "In diesem Zusammenhang sei auf Block 11 und der Problematik zur Zuordnung von teilunternehmerisch unternehmensfremd genutzten WG hingewiesen. Denn nur dem Unternehmensvermögen zugeordnete Gegenstände als Zuordnungsobjekt berechtigen zum Vorsteuerabzug und können in der Folge auch einer Verwendungsänderung (unschädliche oder schädliche Ausgangsumsätze) unterliegen." },
+      { text: "Eine Berichtigung des Vorsteuerabzuges kann sich sowohl zugunsten wie auch zuungunsten des Unternehmers auswirken." },
+      { text: "Eine Vorsteuerberichtigung nach § 15a UStG hat dann zu erfolgen, wenn:\n• ein sog. Berichtigungsobjekt gem. § 15a Abs. 1 bis 6 UStG vorliegt,\n• für die Anschaffung oder Herstellung des jeweiligen Berichtigungsobjekts insgesamt Vorsteuern nach § 15 Abs. 1 UStG in Höhe von mehr als 1.000 € angefallen sind gem. § 44 Abs. 1 UStDV,\n• innerhalb des Berichtigungszeitraums eine vorsteuerrelevante Nutzungsänderung (Änderung der Verhältnisse) erfolgt ist und\n• die Änderung der Nutzungsverhältnisse gewichtig ist gem. § 44 Abs. 2 UStDV." },
+      { text: "Vgl. Arbeitspapier A 16" },
+    ],
+  },
+  {
+    id: "ust-m-b12-3",
+    teil: TEIL,
+    kapitel: "3",
+    abschnittNr: "II / II.1",
+    title: "II Berichtigungsobjekte – II.1 Berichtigungsobjekte im Überblick",
+    thema: "Die Berichtigungsobjekte nach Abschn. 15a.1 Abs. 2 UStAE: mehrfach und einmalig verwendete Wirtschaftsgüter, eingehende Gegenstände und sonstige Leistungen an einem WG (§ 15a Abs. 3 UStG) mit Zusammenfassung zu einem Berichtigungsobjekt und 1.000-€-Grenze, sonstige Leistungen nach § 15a Abs. 4 UStG mit Aktivierungspflicht, nachträgliche AK/HK nach § 15a Abs. 6 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("II.1"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a Abs. 1 bis 4 und 6 UStG", "§ 44 Abs. 1 UStDV", "Abschn. 15a.1 Abs. 1 und 2 UStAE"],
+    themen: ["Vorsteuerberichtigung", "Berichtigungsobjekt"],
+    bloecke: [
+      { typ: "titel", text: "II Berichtigungsobjekte – II.1 Berichtigungsobjekte im Überblick" },
+      { text: "Die der Vorsteuerberichtigung nach § 15a UStG unterliegenden Leistungsbezüge werden durch den Begriff des ➔ **Berichtigungsobjekts** bezeichnet (✍ lesen Abschn. 15a.1 Abs. 1 S. 2 i.V.m. Abs. 2 UStAE). Hierbei handelt es sich um:" },
+      { text: "**1. Wirtschaftsgüter, die nicht nur einmalig zur Ausführung von Umsätzen verwendet werden** (§ 15a Abs. 1 UStG; Abschn. 15a.1 Abs. 2 Nr. 1 UStAE).\nTypisch Anlagevermögen. Auch wenn sie nicht zu einem Betriebsvermögen gehören, aber als entsprechende Wirtschaftsgüter anzusehen sind." },
+      { text: "**2. Wirtschaftsgüter, die nur einmalig zur Ausführung von Umsätzen verwendet werden** (§ 15a Abs. 2 UStG; Abschn. 15a.1 Abs. 2 Nr. 2 UStAE).\nTypisch: Wirtschaftsgüter, die ertragsteuerrechtlich Umlaufvermögen darstellen, wie z.B. die zum Verkauf oder zur Verarbeitung bestimmten Wirtschaftsgüter." },
+      { text: "**3.1 Nachträglich in ein Wirtschaftsgut eingehende Gegenstände, wenn diese Gegenstände dabei ihre körperliche und wirtschaftliche Eigenart endgültig verlieren** (§ 15a Abs. 3 UStG; Abschn. 15a.1 Abs. 2 Nr. 3 UStAE).\nTypisch: Gegenstände die nicht selbstständig nutzbar sind und mit dem Wirtschaftsgut in einem einheitlichen Nutzungs- und Funktionszusammenhang stehen." },
+      { text: "Gegenstände i.S.d. § 15a Abs. 3 UStG sind beispielsweise:\n• Klimaanlage, fest eingebautes Navigationssystem, Austauschmotor oder leistungsfähigerer Motor in einem Kraftfahrzeug,\n• Fenster, Bodenbeläge, angebaute Balkone oder Aufzüge in einem Gebäude.\nKein Gegenstand i.S.d. § 15a Abs. 3 UStG ist ein Gegenstand, der ein selbstständiges Wirtschaftsgut bleibt (z.B. nachträgliche Ausstattung mit Autoradio und Navi); es handelt sich m.E. dann um ein Objekt i.S.d. § 15a Abs. 1 UStG." },
+      { text: "Werden im Rahmen einer Maßnahme mehrere Gegenstände in ein WG eingefügt bzw. sonstige Leistungen an einem WG ausgeführt, sind diese Leistungen zwingend zu einem Berichtigungsobjekt im Sinne des Absatz 3 zusammenzufassen. Bei der Bestimmung der 1.000 € - Grenze nach § 44 Abs. 1 UStDV ist von den gesamten Vorsteuerbeträgen auszugehen, die auf die Anschaffung oder Herstellung des durch die Zusammenfassung entstandenen Berichtigungsobjekts entfallen." },
+      { text: "**3.2 Sonstige Leistungen an einem WG (§ 15a Abs. 3 UStG), die im Zeitpunkt des Leistungsbezugs noch nicht wirtschaftlich verbraucht sind** (Abschn. 15a.1 Abs. 2 Nr. 4 UStAE)\nDerartige sonstige Leistungen sind beispielsweise:\n• Karosserie- und Lackarbeiten,\n• Renovierungsarbeiten (ohne Materialeinsatz),\n• Fassadenanstrich.\nAuch Maßnahmen, die lediglich der Werterhaltung dienen, fallen demnach unter die Berichtigungspflicht nach § 15a Abs. 3 UStG – **Beachten Sie jedoch den Mindest–VorSt - Betrag in Höhe von 1.000 Euro** -. Nur bei Überschreiten der Grenze liegt ein entsprechendes Berichtigungsobjekt vor." },
+      { text: "**4. Sonstige Leistungen, die nicht unter § 15a Abs. 3 Satz 1 UStG fallen** (§ 15a Abs. 4 UStG; Abschn. 15a.1 Abs. 2 Nr. 5 UStAE).\nDies sind solche sonstigen Leistungen, die nicht an einem Wirtschaftsgut ausgeführt werden. Hierzu gehören u.a.:\n• Beratungsleistungen (z.B. für ein Unternehmenskonzept),\n• Patente, Urheberrechte, Lizenzen oder Gutachten,\n• Spezielle Software oder\n• Anzahlung für längerfristiges Mietleasing\nDer Unternehmer hat die Berichtigung des Vorsteuerabzugs auf solche sonstigen Leistungen zu beschränken, für die in der Steuerbilanz ein Aktivposten gebildet werden müsste." },
+      { text: "**5. Nachträgliche Anschaffungs- oder Herstellungskosten** (§ 15a Abs. 6 UStG; Abschn. 15a.1 Abs. 2 Nr. 6 UStAE).\nEs gelten die für das Einkommensteuerrecht geltenden Grundsätze. Aufwendungen, die ertragsteuerrechtlich Erhaltungsaufwand sind, unterliegen der Vorsteuerberichtigung nach § 15a Abs. 3 UStG." },
+    ],
+  },
+];
+
+export default block12;
