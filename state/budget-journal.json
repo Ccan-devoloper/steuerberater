@@ -16,10 +16,10 @@
       "slot": "stories",
       "reservedUsd": 0.113332,
       "actualUsd": null,
-      "state": "reserved",
+      "state": "sent",
       "createdAt": "2026-09-24T05:44:01.638Z",
-      "updatedAt": "2026-09-24T05:44:01.638Z"
+      "updatedAt": "2026-09-24T05:44:03.104Z"
     }
   ],
-  "stand": "2026-09-24T05:44:01.638Z"
+  "stand": "2026-09-24T05:44:03.104Z"
 }
