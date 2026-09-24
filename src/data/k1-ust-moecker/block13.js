@@ -4,7 +4,7 @@
    PDF-Seiten: Textteil Seiten 1 bis 41 (PDF-Seiten 2 bis 42), Arbeitspapiere A 1 bis A 27 (PDF-Seiten
    43 bis 69).
    In Arbeit: Textteil vollständig (I. bis VI., PDF-Seiten 2 bis 42); Arbeitspapiere eingepflegt bis
-   A 20 (PDF-Seite 62). */
+   A 24 (PDF-Seite 66). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1035,6 +1035,71 @@ export const block13 = [
         ["↓ (Fortsetzung in A 21)", "↓ (Fortsetzung in A 21)"],
       ] },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben; die Sternchen in A 19 stehen so in der Quelle, „(Fortsetzung in A 21)“ ist eigene Ergänzung (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-36",
+    teil: TEIL,
+    kapitel: "36",
+    abschnittNr: "A 21 und A 22",
+    title: "Arbeitspapiere A 21 und A 22: Fahrzeugüberlassung an das Personal – lohnsteuerliche Werte; Übungen zur Entnahme-UWA",
+    thema: "1-%-Methode mit 0,03 % / 0,002 % je Entfernungskilometer ohne 20-%-Abschlag als Bruttowert, Fahrtenbuch- bzw. Schätzungsmethode mit Gesamtkosten als Nettowert, keine Kürzungen bei Elektro- und Hybridfahrzeugen, Fahrradüberlassung an Arbeitnehmer; Übungen: Entnahme-UWA nur aus dem UV (Fahrrad für den Sohn, Kleinunternehmer, gemischt genutzter Computer, Verein)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 21 und A 22"),
+    verfasser: VERFASSER,
+    normen: ["§ 8 Abs. 2 Satz 2 bis 4 EStG", "§ 3 Nr. 37 EStG", "§ 10 Abs. 2 Satz 2 UStG", "§ 3 Abs. 1b Satz 1 Nr. 1 und Satz 2 UStG", "Abschn. 15.24 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Fahrzeug", "Arbeitnehmer", "Übungen"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 21" },
+      { typ: "tabelle", spalten: ["LoSt-licher Pauschalwert § 8 Abs. 2 Satz 2 u. 3 EStG", "Gesamtkosten durch Belege und Fahrtenbuch bzw. Schätzung § 8 Abs. 2 Satz 4 EStG"], zeilen: [
+        ["1% des ¹ Bruttolistenpreises pro Monat (für reine Privatfahrten) zzgl. 0,03 % / 0,002% des Bruttolistenpreises pro Monat pro Entfernungs-km (für Fahrten Wohnung - ASt bzw. Familienheimfahrt)", "Auf die Summe der ² Privatfahrten entfallender Anteil an den ³ Gesamtkosten = Summe Nettoaufwendungen"],
+        ["Kein pauschaler Abschlag i.H.v. 20 %", "Auch Kosten ohne Vorst-Abzugsberechtigung"],
+        ["= Bruttowert abzügl. enthaltener USt = BMG", "= Nettowert = BMG X 19% USt"],
+      ] },
+      { text: "Zu ²: Privat: = Urlaub usw. = Fahrten Whng. - Ast = Familienheimfahrt\nZu ¹: Keine Kürzung für Elektro- Hybridelektro-KFZ\nZu ³: Keine Kürzung um Aufwendungen, die auf das Batteriesystem bei Elektro- Hybridelektro-KFZ entfallen" },
+      { text: "☝ Überlassung eines **Fahrrads an Arbeitnehmer**\nAbschn. 15.24 UStAE = entgeltliche Leistung\nAus Vereinfachungsgründen = BMG gem. § 10 Abs. 2 Satz 2 UStG nach der sog. 1 %-Regelung.\n§ 3 Nr. 37 EStG gilt nicht." },
+      { typ: "titel", text: "Arbeitspapier A 22 – 9. Übungen: 9.1 Entnahme - UWA nur möglich, wenn ➔ aus dem UV" },
+      { typ: "tabelle", spalten: ["Fall", "Lösung"], zeilen: [
+        ["a.) Fahrradhändler kauft Fahrrad für Sohn", "➔ Bezug Fahrrad „sofort“ für nichtuntern. Bereich = Kein UV; keine UWA"],
+        ["b.) Fahrradhändler schenkt Sohn Fahrrad aus Warenbestand", "➔ Fahrrad als Ware zum UV; Entnahme = UWA"],
+        ["c.) Fahrradhändler schenkt Sohn Fahrrad aus Warenbestand; Anschaffung Fahrrad von Kleinunternehmer", "➔ Fahrrad gehört als Ware zum UV. Aber keine Vorst aus AK = keine steuerbare UWA"],
+        ["d.) Fahrradhändler entnimmt „gemischt genutzten“ Computer (60% unternehmerisch / 40% unternehmensfremd)", "➔ Wenn 100% UV = 100% UWA ➔ Wenn 60% UV = 60% UWA ➔ Wenn 0% UV = keine UWA"],
+        ["e.) Verein entnimmt „gemischt genutzten“ Computer (60% unternehmerisch / 40% nichtwirtschaftl. i.e.S.)", "➔ Nur partiell 60 % UV möglich = 60% UWA"],
+      ] },
+      { text: "Die Übersichten sind nach Ansicht der Seiten als Tabellen wiedergegeben; die Sternchen-Verweise der Quelle (*, **, ***) sind als ¹, ² und ³ wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-37",
+    teil: TEIL,
+    kapitel: "37",
+    abschnittNr: "A 23 und A 24",
+    title: "Arbeitspapiere A 23 und A 24: Übungen zur Verwendungs-UWA und zur UWA an Arbeitnehmer",
+    thema: "Verwendungs-UWA nur aus dem UV (Bagger an den Sohn, Kleinunternehmer, gemischt genutzter Computer beim Händler und beim Verein, Billigkeitsberichtigung nach Abschn. 15a.1 Abs. 7 UStAE), keine UWA bei gemieteten Gegenständen; UWA an Arbeitnehmer nur aus dem UV ohne Aufmerksamkeit und betriebliches Interesse und mit Vorsteuer aus den AK (Fahrrad, Schutzschuhe, Bagger)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 23 und A 24"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 9a Nr. 1 UStG", "§ 3 Abs. 1b Satz 1 Nr. 2 und Satz 2 UStG", "§ 15a UStG", "Abschn. 15a.1 Abs. 7 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Übungen", "Arbeitnehmer"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 23 – 9.2 Verwendungs - UWA nur möglich, wenn ➔ aus dem UV" },
+      { text: "**!! Wenn Gegenstand (z.B. PKW) nur gemietet; Problem des anteiligen Vorsteuerabzugs; ➔ Keine UWA**" },
+      { typ: "tabelle", spalten: ["Fall", "Lösung"], zeilen: [
+        ["a.) Bauunternehmer überlässt Bagger an Sohn für EFH", "➔ Bagger gehört zum UV; Nutzung = UWA"],
+        ["b.) Bauunternehmer überlässt Bagger an Sohn für EFH; Anschaffung Bagger von Kleinunternehmer", "➔ Bagger gehört zwar zum UV; aber keine Vorst aus AK = keine steuerbare UWA"],
+        ["c.) Fahrradhändler nutzt „gemischt genutzten“ Computer (60% unternehmerisch / 40% unternehmensfremd)", "➔ Wenn 100% UV = 40 % Verwendungs-UWA ➔ Wenn 60% UV = keine Verwendungs-UWA ➔ Wenn 0% UV = keine Verwendungs-UWA. Beachte: Vorsteuern aus lfd. Ausgaben möglich nach Quote (hier 60%)"],
+        ["d.) Verein nutzt „gemischt genutzten“ Computer (60% unternehmerisch / 40% nichtwirtschaftl i.e.S.)", "➔ Nur partiell 60 % UV möglich = keine UWA ➔ Bei Mehr-nichtwirtschaftlich = insoweit UWA. Hinweis: ➔ Bei mehr-unternehmerisch = aus Vereinfachung (Abschn. 15a.1 Abs. 7 UStAE) ein Fall des § 15a UStG"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 24 – 9.3 UWA an Arbeitnehmer nur möglich, wenn" },
+      { text: "➔ **aus dem UV**\n➔ **Keine Aufmerksamkeit /**\n➔ **Kein überwiegendes betriebliches Interesse**\n➔ **und Vorsteuer aus den AK**" },
+      { typ: "tabelle", spalten: ["Fall", "Lösung"], zeilen: [
+        ["a.) Fahrradhändler kauft Fahrrad für AN zum Geburtstag", "➔ Bezug Fahrrad „sofort“ für nichtuntern. Bereich = Kein UV; keine UWA"],
+        ["b.) Fahrradhändler schenkt AN Fahrrad aus Warenbestand; Anschaffung Fahrrad 100 Euro", "➔ Fahrrad als Ware zum UV; Entnahme = UWA"],
+        ["c.) Fahrradhändler schenkt AN Fahrrad aus Warenbestand; Anschaffung Fahrrad von Kleinunternehmer", "➔ Fahrrad gehört als Ware zum UV. Aber keine Vorst aus AK = keine steuerbare UWA"],
+        ["d.) Bauunternehmer überlässt Schutzschuhe an AN", "➔ Abgabe Schuhe aus betriebl. Interesse = Keine UWA"],
+        ["e.) Bauunternehmer überlässt Bagger an AN für EFH", "➔ Bagger gehört zum UV; Nutzung = UWA"],
+      ] },
+      { text: "Die Übungen sind als Tabellen (Fall / Lösung) wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

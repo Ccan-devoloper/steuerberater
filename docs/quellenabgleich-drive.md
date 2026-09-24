@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: Arbeitspapiere A 21 bis A 24
+
+Übernommen (PDF-Seiten 63 bis 66, Seiten gerendert und angesehen): Kapitel ust-m-b13-36 (A 21 lohnsteuerliche Werte bei Fahrzeugüberlassung an das Personal, A 22 Übungen Entnahme-UWA) und ust-m-b13-37 (A 23 Übungen Verwendungs-UWA, A 24 Übungen UWA an Arbeitnehmer). Übersichten und Übungen als Tabellen wiedergegeben; Sternchen-Verweise als ¹ ² ³.
+
+- Stillschweigend berichtigt: „0.03 %“ → „0,03 %“, „Bzw.“ → „bzw.“ (A 21); „(15a.1 Abs. 7 UStAE)“ → „(Abschn. 15a.1 Abs. 7 UStAE)“ (A 23).
+- Keine Zahlen zum Nachrechnen.
+
+Prüfung danach: 14 Teile, 521 Kapitel, 6979 Blöcke, 420 Tabellen.
+
+Weiter mit: Arbeitspapier A 25, PDF-Seite 67.
+
 ### USt-Skript (Moecker), Block 13: Arbeitspapiere A 17 bis A 20
 
 Übernommen (PDF-Seiten 59 bis 62, Seiten gerendert und angesehen): Kapitel ust-m-b13-34 (A 17 Mindest-BMG mit Kranfall, A 18 Übersicht Leistungen an Arbeitnehmer) und ust-m-b13-35 (A 19 BMG bei Wertabgaben an Arbeitnehmer, A 20 Fahrzeugüberlassung an das Personal). Schaubilder als Tabellen wiedergegeben.
