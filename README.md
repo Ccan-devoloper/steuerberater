@@ -73,8 +73,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   dem Grunde nach), **Kapitel 4** (Bewertung), **Kapitel 5** (abnutzbares Anlagevermögen) und
   **Kapitel 6** (nicht abnutzbares Anlagevermögen), **Kapitel 7** (Umlaufvermögen), **Kapitel 8**
   (Forderungen), **Kapitel 9** (Rechnungsabgrenzung), **Kapitel 10** (Verbindlichkeiten) und
-  **Kapitel 11** (Sonderposten mit Rücklageanteil) und **Kapitel 12** (Rückstellungen) –
-  49 Abschnitte, 2081 Blöcke, 100 Tabellen. Die Kapitel 13 bis 16 folgen. Prüfung: `npm run check:k3-bil-skript-melzer`
+  **Kapitel 11** (Sonderposten mit Rücklageanteil), **Kapitel 12** (Rückstellungen) und die
+  **Kapitel 13 bis 16** (Schuldübernahme, Bewertungseinheiten, latente Steuern, Bilanzberichtigung) –
+  vollständig, 69 Abschnitte, 2342 Blöcke, 119 Tabellen. Prüfung: `npm run check:k3-bil-skript-melzer`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung
@@ -6303,7 +6304,7 @@ src/
     k3-umwstr-skript-hamacher.js  UmwStR-Lehrgangsskript (Hamacher), Teile I bis V (vollständig)
     k3-umwst-kurzskript-breier.js UmwSt-Kurz-Skript (Breier), Teile 1 bis 6 (vollständig)
     k2-istr-skript-gh.js          IStR-Lehrgangsskript (Grümmer/Holzrichter), vollständig
-    k3-bil-skript-melzer.js       Bilanz-Lehrgangsskript Termin 1 (Melzer)
+    k3-bil-skript-melzer.js       Bilanz-Lehrgangsskript Termin 1 (Melzer), vollständig
     sources.js                Quellenkatalog und Rechtsstand
     examensprioritaet.js      Regelwerk 🔴/🟠/🟢 aus den Beck-Auswertungen, Fachtabellen
 ```
