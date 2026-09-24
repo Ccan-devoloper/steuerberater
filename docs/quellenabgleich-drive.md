@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitt 22 (PDF-Seiten 50 bis 54)
+
+Übernommen: 22 „§ 6 b EStG, R 6.6 EStR“ – Verhältnis Handels-/Steuerbilanz, Ersatzbeschaffung nach R 6.6 EStR, Reinvestitionsrücklage nach § 6b EStG (Übertragungsmöglichkeiten, Zeitachse, Auflösung, AfA, EU-/EWR-Betriebsstätten), § 6b Abs. 10 EStG, GmbH & Co KG und Zuschussrücklage nach R 6.5 EStR – 1 Eintrag.
+
+- Schaubilder gerendert und als Tabellen übernommen: Übertragungsmöglichkeiten (Seiten 51 und 53), die beiden Zeitachsen „Möglichkeiten der Übertragung“ (Seiten 51 und 53, Pfeile als Tabelle Jahr/Übertragung; Beschriftung eigene Darstellung), der Pfeil Anteile → Rücklage § 6 b Abs. 10 Satz 5 EStG und das Schaubild Kapitalzuschüsse (Seite 54). In der Tabelle zu R 6.6 EStR ist der Bruch „Stille Reserve x AK Ersatzwirtschaftsgut / Entschädigung“ in einer Zelle wiedergegeben (die Erkennung hatte ihn doppelt erfasst).
+- Gekennzeichnet: „§ 6 Abs. 4 Satz 1 EStG: insbesondere Nr. 2“ und „i.V.m. § 6 Abs. 4 Satz 1 Nr. 2 EStG“ (gemeint jeweils § 6 b Abs. 4 Satz 1 EStG). Nachträglich im Skript (Abschnitt 11.3, Zeitachse): „Gebäude, wenn 2028 mit Herstellung begonnen“ – nach § 6b Abs. 3 Satz 3 EStG genügt der Beginn bis zum Schluss des vierten auf die Bildung folgenden Wirtschaftsjahres, bei Veräußerung 2025 also 2029; so nennen es die Übersichten.
+- Stillschweigend berichtigt: „Sqeez out“ (Squeeze-out); „GmbH& Co KG“; Fortsetzungszeile „Interesse liegenden Zwecks“ angefügt.
+- Nachrechnung: 2025 + 4 = 2029 (Rücklage), + 2 = 2031 (Gebäude); § 6b Abs. 10: 2025 + 2 = 2027, Gebäude + 4 = 2029 – stimmig. Wortabgleich der Seiten 50 bis 54: vollständig (offen nur der berichtigte Schreibfehler und die in der Zeitachse zusammengefasste Jahreszahl 2028).
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 17 Teile, 91 Kapitel, 2710 Blöcke, 213 Tabellen.
+
+Weiter mit: Übersichten, Abschnitte 23 bis 27 (PDF-Seiten 55 bis 68).
+
 ### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 20 und 21 (PDF-Seiten 45 bis 49)
 
 Übernommen: 20 Entstrickung/Verstrickung bei EU und Personengesellschaften (Überführung ins Ausland mit Ausgleichsposten nach § 4g EStG, Rücküberführung, Körperschaften nach § 12 KStG) und 21 Beteiligungen an Kapitalgesellschaften (Bewertung, Gewinnausschüttungen, Veräußerung) – 2 Einträge.
