@@ -80,10 +80,10 @@ vorliegt –, wird ausgelassen und am Ende zusammen mit Abschnitt A zur Nachlief
    - IStR-Skript inkl. Folien (Grümmer-Holzrichter, März 2026, `1J6nyscsq9ATpbQ7biy_5NA5CZXPLqjQ5`, 4,9 MB): ~~Kapitel 1 bis 6, DBA-Texte, Folien~~ (erledigt, September 2026 – vollständig);
    - Bilanz-Skript Termin 1 (Melzer, April 2026, `19z9p0I0WgRUbRMbQfYAMaYzKUJNUsIx3`, 178 PDF-Seiten, 16 Kapitel):
      ~~alle 16 Kapitel~~ (erledigt, September 2026 – vollständig); die
-     Übersichten dazu (`1NtebyaKqbhJBZ_nwF4a55baSVBttWHzM`, 66 Seiten, 27 Abschnitte): ~~alle 27 Abschnitte~~ (erledigt, September 2026 – vollständig); die Fallsammlung Melzer samt Lösungen
+     Übersichten dazu (`1NtebyaKqbhJBZ_nwF4a55baSVBttWHzM`, 66 Seiten, 27 Abschnitte): ~~alle 27 Abschnitte~~ (erledigt, September 2026 – vollständig); ~~die Fallsammlung Melzer samt Lösungen
      V2 (`1VkIpVDdg9th9-O4DMVr2xExhm4dOabt-`, `1Dtvc8BNrLLDRZWMXQc_Lg0aLHAQ32QdW`) gegen die
      90 Fälle der bestehenden Bilanz-Fallsammlung abgleichen, dazu das Änderungsprotokoll
-     Bilanzunterlagen 04/26 (`1zYukX6s21OUD9w1tYb6TGBCqf4L2dDNN`);
+     Bilanzunterlagen 04/26 (`1zYukX6s21OUD9w1tYb6TGBCqf4L2dDNN`)~~ (erledigt, September 2026);
    - ErbSt-Skript „Erbschaftsteuer 2025-2026 Teil 1“ (Schäfer, Mai 2025,
      `1FmGNS4rzz47vCytIoFQzUZbcVQ_5PuFz`) mit Lösung (`1Efj3NzIrOacwIbzJz_RwYsFBrcLkTcTL`) – der
      Teil 2 (Verschonung) steht bereits vollständig im Campus; dazu prüfen, ob die Übungsfälle

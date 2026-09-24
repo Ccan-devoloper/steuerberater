@@ -101,6 +101,29 @@ export default function Falluebersicht({ zugeordneteFaelle, offeneFaelle, module
         <span className="zaehler">{alleFaelle.length} Fälle</span>
       </div>
 
+      {/* Vorbemerkungen der Quelle (Fallsammlung und Lösungen V2, Melzer, April 2026) und das
+          Änderungsprotokoll der Bilanzunterlagen 04/26 im Wortlaut. */}
+      <section className="panel falluebersicht__vorab" aria-label="Vorbemerkungen der Fallsammlung">
+        <p><strong>Vorab (Fallsammlung – Fälle):</strong> Aufgabenstellung in allen Fällen ist ein möglichst hoher Eigenkapitalausweis in der Handelsbilanz (1.Priorität) und in der Steuerbilanz ein möglichst niedriger steuerlicher Gewinn (2.Priorität) soweit nichts anderes angegeben ist.</p>
+        <p><strong>Vorabinformation zur Zitation (Fallsammlung – Lösungen):</strong> Es ist ebenso möglich § 5 Abs. 6 EStG nur zu zitieren, wenn die Bewertung in der Steuerbilanz von der Bewertung in der Handelsbilanz zwingend abweicht. Es ist ebenso möglich § 5 Abs. 1 Satz 1 HS 2 EStG nur zu zitieren, wenn die Ausübung des Wahlrechts in der Steuerbilanz zu einer von der Handelsbilanz abweichenden Bewertung führt.</p>
+        <details>
+          <summary>Protokoll über Aktualisierung der Unterlagen im Fach „Bilanzierung nach Handels- und Steuerrecht“ (Stand April 2026)</summary>
+          <p>Liebe Teilnehmerinnen und Teilnehmer,</p>
+          <p>ich habe in das Skript, die Übersichten, die Fall- und Lösungssammlung die noch für Ihre Prüfung maßgebenden Rechtsänderungen eingearbeitet. Bei dieser Gelegenheit habe ich die Unterlagen auch nochmal verbessert.</p>
+          <p>Die wichtigsten Änderungen:</p>
+          <ul>
+            <li>Es wurde § 5 Abs. 6 EStG aus den Lösungen und den Übersichten herausgenommen, wenn er nicht zwingend erforderlich war. Das spart nochmal Zeit.</li>
+            <li>Der neue Klausurersteller wird wohl die nächsten drei Jahre die Prüfungen erstellen. Letztes Jahr hat er in der Klausur mit drei Buchungskreisen gearbeitet und wird dies mit sehr hoher Wahrscheinlichkeit weiter so handhaben. Ich habe daher die Buchungen in der Fallsammlung und in den Hausaufgaben 6 und 7 ebenfalls auf drei Buchungskreise umgestellt. Bei den Hausaufgaben 6 und 7 habe ich die Aufgabenstellung noch präziser formuliert.</li>
+            <li>Beim Leasingfall (Fall 3, Kapitel 3) Abwandlung habe ich in der Fallsammlung und in der Lösung den Kaufpreis bei Optionsausübung auf 100 € geändert. Mit keiner erheblichen Summe A 3.5 Abs. 5 UStAE ist gemeint 1 % des Verkehrswerts und nicht der Verkehrswert plus 1 %. Kürzlich entschieden für Fotovoltaikanlagen.</li>
+            <li>Es ist mit § 7 Abs. 2a EStG eine neue Abschreibungsmöglichkeit für reine Elektrofahrzeuge hinzugekommen. Ich habe diese im Skript und im Fall 3, Kapitel 4 aufgenommen. Für die Einlagefälle im Kapitel 4 habe ich in der Lösung Hinweise hinzugefügt für andere mögliche Aufgabenstellungen, um alle möglichen Fallgestaltungen im Examen abzudecken.</li>
+            <li>Bei Fall 1, Kapitel 17 ist eine Abschreibung nach dem neuen § 7 Abs. 5a EStG möglich. Ich habe die Lösung dementsprechend angepasst.</li>
+            <li>Bei Fall 2, Kapitel 18 habe ich die Handelsbilanz der Steuerbilanz angepasst. Dies entspricht wie im Hinweis angegeben nicht der Ansicht des Beck´schen Bilanzkommentars. Beide Lösungen sind aber im Examen vertretbar. Daher entscheiden wir uns für die kürzeste vertretbare Lösung.</li>
+            <li>Bei Fall 1, Kapitel 19 hat sich die Abschreibung bei der Wand geändert, die den Raum besser aufteilt. Das BMF Schreiben § 7/5 Beck´sche Steuererlasse wurde Dezember 2025 aufgehoben. Damit gilt die alte Rechtslage und es ist über die tatsächliche Restnutzungsdauer und nicht auf die kürzere Mietdauer bei unbeweglichen Wirtschaftsgütern abzuschreiben. Eine Abschreibung über die kürzere Mietdauer gibt es nur bei einer Abbruchverpflichtung, da die Wand nach dem Abbruch nicht mehr genutzt werden kann.</li>
+          </ul>
+          <p>Viel Erfolg im Examen und viele Grüße, Karsten Melzer</p>
+        </details>
+      </section>
+
       <section className="falluebersicht__steuerung" aria-label="Fallsammlung filtern">
         <label className="falluebersicht__suche">
           <span>Fälle durchsuchen</span>
