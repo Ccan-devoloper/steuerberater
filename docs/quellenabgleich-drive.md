@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 6 A. I bis A. IV (PDF-Seiten 137 bis 142)
+
+Übernommen: Teil 6 „Verluste von Körperschaften“ mit neuer Teil-Konstante T6 – A. I Vorbemerkungen und II. sachlicher Anwendungsbereich (6-01), A. III Untergang von Verlusten bei Anteilsübertragungen (6-02), A. IV Konzernklausel (6-03).
+
+- Gekennzeichnet: „innerhalb von bis zu als 50 %“ (unvollständig); „bis 30.6.07“ (gemeint 30.6.08); „BFH vom 16.7.025“; **Eigene Feststellung:** im BFH-Beispiel 3 wird der Verlustvortrag 31.12.06 mit 300.000 festgestellt, nach der eigenen Rechnung der Quelle (400.000 Verlust ./. 100.000 Rücktrag ./. 100.000 Wegfall) bleiben 200.000.
+- Stillschweigend berichtigt: doppeltes „kann“; fehlender Satzpunkt; „S. 2KStG“; „Mitunternehmrschaft“; „25 %V“; „negativen Einkünfte“; fehlende öffnende Klammern vor „BFH vom“ und „Hinweis in der Klausur“.
+- Nachrechnung (eigene Ergänzung): 40 % + 15 % = 55 % an C; 15 % + 20 % + 20 % an drei Erwerber; 80 % × 50 % = 40 %; 300.000 : 400.000 = 75 %; 200.000 : 800.000 = 25 %; 60 % von 100.000 = 60.000; 100.000 + 50.000 = 150.000; 300.000 ./. 200.000 = 100.000 – im Übrigen stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 6 Teile, 45 Kapitel, 1760 Blöcke, 46 Tabellen.
+
+Weiter mit: Teil 6 A. V „Verschonungsregelung in Höhe der stillen Reserven“ (PDF-Seite 143; Textfassung ab Zeile 8692).
+
 ### KSt-Kurz-Skript (Breier), Teil 5 C. Pensionszusagen (PDF-Seiten 129 bis 136) – Teil 5 vollständig
 
 Übernommen: C. Pensionszusagen an Gesellschafter-Geschäftsführer mit I. § 6a EStG, II. Verhältnis zur vGA, III. gesellschaftsrechtliche Veranlassung (Ernsthaftigkeit, Erdienbarkeit, Abfindung, Weiterbeschäftigung, Rentner-GmbH) und Merke (Abschnitt 5-11).

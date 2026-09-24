@@ -1233,9 +1233,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gesellschafter mit Rückwirkungsverbot und Durchführungsgebot sowie Pensionszusagen an
   Gesellschafter-Geschäftsführer (Überversorgung, Zusagealter, Probe- und Wartezeit,
   Erdienbarkeit, Abfindung, Weiterbeschäftigung, Rentner-GmbH) – Teil 5 damit vollständig;
-  zusammen 42 Abschnitte, 1654 Blöcke, 45 Tabellen.
-  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; die Teile 6 bis 10
-  werden abschnittsweise nachgetragen
+  aus Teil 6 (Verluste von Körperschaften) § 8c KStG mit schädlicher Quote, mittelbaren
+  Übertragungen, Kapitalerhöhung, unterjährigem Erwerb und Konzernklausel – zusammen
+  45 Abschnitte, 1760 Blöcke, 46 Tabellen.
+  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 6
+  und die Teile 7 bis 10 werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):
