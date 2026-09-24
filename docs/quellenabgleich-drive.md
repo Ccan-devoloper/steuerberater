@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: Arbeitspapiere A 9 bis A 12
+
+Übernommen (PDF-Seiten 138 bis 141, Seiten gerendert und angesehen): Kapitel ust-m-b12-22 (A 9 § 15a Abs. 4 UStG mit Mietvorauszahlung, A 10 § 15a Abs. 5 bis 10 UStG mit Halle) und ust-m-b12-23 (A 11 und A 12 Immobilien-Beispiele 5.1 bis 5.4). Zeitstrahl-Schaubilder als Tabellen wiedergegeben.
+
+- Quellenmarkierung: A 12 „Abschn. 15a.3 Abs. S. 1 UStAE“ (Absatzangabe fehlt; gemeint Abs. 2 Satz 1).
+- Nachrechnungen (eigene Ergänzung): A 9 exakt 316,67 € monatlich (Quelle rundet auf 317 € und kommt so auf 2.219 € / 3.487 € statt 2.216,67 € / 3.483,33 €); A 10 106 Monate stimmig; A 12 Enden 30.6.12 / 31.3.13 stimmig, 40 % von 50.000 € = 20.000 €.
+
+Prüfung danach: 13 Teile, 482 Kapitel, 6619 Blöcke, 373 Tabellen.
+
+Weiter mit: Arbeitspapier A 13, PDF-Seite 142.
+
 ### USt-Skript (Moecker), Block 12: Arbeitspapiere A 5 bis A 8
 
 Übernommen (PDF-Seiten 134 bis 137, Seiten gerendert und angesehen): Kapitel ust-m-b12-20 (A 5 § 15a Abs. 2 UStG mit Schiebetür, A 6 § 15a Abs. 3 Satz 1 UStG) und ust-m-b12-21 (A 7 Toranlage, A 8 § 15a Abs. 3 Satz 3 UStG mit Neulackierung). Schaubilder als Tabellen wiedergegeben.

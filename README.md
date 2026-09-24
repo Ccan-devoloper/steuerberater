@@ -2460,7 +2460,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   den Vereinfachungsregeln nach § 44 UStDV, dem maßgeblichen Berichtigungszeitraum, der Änderung der
   Verhältnisse, den Investitionsgütern, dem Leerstand, dem Berichtigungsverfahren, den nur einmalig
   verwendeten WG sowie Bestandteilen und sonstigen Leistungen an WG bis zu den Aufzeichnungspflichten (Textteil
-  vollständig) und den Arbeitspapieren A 1 bis A 8 (21 Kapitel);
+  vollständig) und den Arbeitspapieren A 1 bis A 12 (23 Kapitel);
   Block 13 folgt.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die

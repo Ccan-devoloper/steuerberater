@@ -4,7 +4,7 @@
    PDF-Seiten 103 bis 145 der gemeinsamen Datei: Textteil Seiten 1 bis 27 (PDF-Seiten 103 bis 129),
    Arbeitspapiere A 1 bis A 16 (PDF-Seiten 130 bis 145).
    In Arbeit: Textteil vollständig (I. bis XII., PDF-Seiten 103 bis 129); Arbeitspapiere eingepflegt bis
-   A 8 (PDF-Seite 137). */
+   A 12 (PDF-Seite 141). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -642,6 +642,74 @@ export const block12 = [
       ] },
       { text: "Nachrechnung (eigene Ergänzung): 19 % von 7.500 € = 1.425 €; die Vorsteuer übersteigt 1.000 € (§ 44 Abs. 1 UStDV). Einen Berichtigungsbetrag nennt die Quelle nicht." },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b12-22",
+    teil: TEIL,
+    kapitel: "22",
+    abschnittNr: "A 9 und A 10",
+    title: "Arbeitspapiere A 9 und A 10: § 15a Abs. 4 bis 10 UStG im Überblick",
+    thema: "Sonstige Leistungen nicht an einem WG und Anzahlungen mit Beispiel Mietvorauszahlung, Berichtigungszeitraum nach Abs. 5, nachträgliche AK/HStK nach Abs. 6, Wechsel der Besteuerungsart nach Abs. 7, vorzeitige Lieferung oder Entnahme nach Abs. 8 und 9 mit Beispiel Halle (106/120), Geschäftsveräußerung nach Abs. 10",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 9 und A 10"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a Abs. 4 bis 10 UStG", "§ 1 Abs. 1a UStG", "§ 3 Abs. 1b UStG", "§ 4 Nr. 9a UStG", "§ 24 UStG", "§ 44 Abs. 3 UStDV", "Abschn. 15a.8 und 15a.9 Abs. 5 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerberichtigung", "Mietvorauszahlung", "Veräußerung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 9 – § 15a Abs. 4 (Für andere sonstige Leistungen)" },
+      { text: "⧫ **Gilt für so. Leistungen nicht an einem WG. (Jedoch nur für so. Leist., für die in der Steuerbilanz ein Aktivposten gebildet werden müsste).**\n⧫ **und für Anzahlungen**\nBsp.: ⇨ Lizenzen / Patente / immat. WG (z.B. Spezialsoftware) ⇨ Leasingsonderzahlung - Mietvorauszahlung" },
+      { text: "**Beispiel:** (Zeitstrahl Jahr 01 – Jahr 02)" },
+      { typ: "tabelle", spalten: ["Jahr 01 (1.7.)", "Jahr 02 (1.2.)"], zeilen: [
+        ["=> Mieter leistet Mietvorauszahlung für Bürogebäude USt 19.000 € mit Laufzeit 5 Jahre", "=> Ab 1.2.02 50% Nutzung als Versicherungsvertreter und Bauträgerumsätze"],
+        ["=> Vorst - Abzug bei Leistungsbezug (am 1.7.01) => nach Verwendungsabsicht (für stpfl. Umsätze somit Abzug; kein Ausschluss)", "=> § 15a (4)-Fall: Berichtigung ab 1.2.02 bis Ablauf Beri-Ztr. von 5 Jahren (am 30.6.06)"],
+      ] },
+      { text: "**Berechnung:**\n19.000 / 60 Monate = 317 € x 7 Monate (bis 1.2.02) = 2219 € (bleiben erhalten)\n19.000 / 60 Monate = 317 € x 11 = 3.487 (bis 31.12.02) (muss er zurückzahlen => in Jahreserklärung)" },
+      { text: "Nachrechnung (eigene Ergänzung): 19.000 € : 60 = 316,67 €; × 7 = 2.216,67 €, × 11 = 3.483,33 €. Die Quelle rechnet mit dem gerundeten Monatsbetrag von 317 € (2.219 € / 3.487 €). Die volle Berichtigung setzt voraus, dass beide neuen Nutzungen (Versicherungsvertreter und Bauträger) steuerfrei sind." },
+      { text: "❖ **§ 15a Abs. 5 (Berichtigungs-Ztr. 05 / 10 Jahre)**" },
+      { typ: "titel", text: "Arbeitspapier A 10" },
+      { text: "❖ **§ 15a Abs. 6 (Vorst aus nachtr. AK / HStK)**\nESt = nachträgliche AK / HStK werden zum WG Gebäude hinzugerechnet und hinzuaktiviert\nUSt = Eigener Berichtigungszeitraum / Berichtigungsobjekt. Mehrere Berichtigungszeiträume zu beachten sein (Abschn. 15a.8 UStAE)." },
+      { text: "❖ **§ 15a Abs. 7 (Wechsel der Besteuerungsart)**\nVon Regel ⇔ nach § 24 / Von § 24 ⇔ zur Regel\nBeispiele: (vgl. Abschn. 15a.9 Abs. 5 UStAE)" },
+      { text: "❖ **§ 15a Abs. 8 und 9 (Vorzeitige Lieferung / Entnahme und Berechnung)**\n**Beispiel:**\n**Eine am 01.08.01 in Verwendung genommene Halle wird wie beabsichtigt zur Ausführung eigener steuerpflichtiger Umsätze verwendet. Am 01.10.02 wird die Halle nach § 4 Nr. 9a UStG steuerfrei veräußert**\nWird ein WG während des maßgeblichen Berichtigungszeitraums\n• veräußert oder\n• nach § 3 Abs. 1b UStG geliefert,\nstehen damit die Verhältnisse bis zum Ablauf des Berichtigungszeitraums (hier 31.07.11) fest. Berichtigung (hier 106/120) stets in dem Voranmeldungszeitraum durchzuführen, in dem die Veräußerung oder UWA stattgefunden hat (§ 44 Abs. 3 UStDV)." },
+      { text: "Nachrechnung (eigene Ergänzung): 01.10.02 bis 31.07.11 = 3 Monate (02) + 96 Monate (03 bis 10) + 7 Monate (11) = 106 Monate von 120. Stimmig." },
+      { text: "❖ **§ 15a Abs. 10 (Bei GIG § 1 Abs. 1a UStG)**" },
+      { text: "Das Beispiel in A 9 ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b12-23",
+    teil: TEIL,
+    kapitel: "23",
+    abschnittNr: "A 11 und A 12",
+    title: "Arbeitspapiere A 11 und A 12: Beispiele zu § 15a Abs. 1 UStG am Fall der Immobilie (Abschn. 15a.3 UStAE)",
+    thema: "5.1 Leerstand vor der erstmaligen Verwendung, 5.2 Verwendung mit teilweisem Leerstand (einheitlicher Berichtigungszeitraum), 5.3 Verwendung entsprechend dem Baufortschritt (gesonderte Berichtigungszeiträume), 5.4 Leerstand im Anschluss an Verwendung (BFH V R 58/00) mit Beweisvorsorge",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 11 und A 12"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a Abs. 1 UStG", "Abschn. 15a.3 Abs. 2 und 3 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerberichtigung", "Leerstand", "Immobilien"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 11 – 5. Beispiele zu § 15a Abs. 1 UStG – Abschn. 15a.3 UStAE am Fall der Immobilie" },
+      { text: "**5.1 Leerstand vor der erstmaligen Verwendung**" },
+      { typ: "tabelle", spalten: ["Jahr 01", "Jahr 02", "Jahr 03"], zeilen: [
+        ["Leistungsbezug 50.000 € mit Absicht steuerpflicht. Vermietung ➔ Vorst", "Fertigstellung mit 100% Leerstand ➔ Leerstand ist keine Verwendung Abschn. 15a.3 Abs. 3 UStAE", "Verwendung (Beginn § 15a - Ztr): steuerfreie Vermietung ➔ § 15a -Fall für 50.000 €"],
+      ] },
+      { text: "**5.2 Verwendung mit teilweisem Leerstand**" },
+      { typ: "tabelle", spalten: ["Jahr 01", "Jahr 02 (Beginn 15a – Ztr.)", "Jahr 03"], zeilen: [
+        ["Leistungsbezug 50.000 € mit Absicht steuerpfl. Vermietung ➔ Vorst (100%)", "Fertigstellung mit 60% stpfl. Vermietung (40% Leerstand) ➔ einheitlicher Berichtigungs-Ztr. (Abschn. 15a.3 Abs. 2 S. 4 UStAE); 40% Vorst nach Verwendungsabsicht (wenn stpfl. kein 15a)", "Vermietung restliche 40% steuerfrei ➔ § 15a -Fall für 40% von 50.000 € für restlichen Ztr. bis Ablauf der zehn Jahre (= Jahr 12)"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 12" },
+      { text: "**5.3 Verwendung entsprechend dem Baufortschritt**" },
+      { typ: "tabelle", spalten: ["Jahr 01", "Jahr 02 (Beginn 1. 15a – Ztr.)", "Jahr 03 (Beginn 2. 15a – Ztr.)"], zeilen: [
+        ["Leistungsbezug 50.000 € mit Absicht steuerpfl. Vermietung ➔ Vorst", "Teilweise Fertigstellung 60% steuerpfl. V.u.V. (z.B. 1.7.) ➔ Gesonderter Berichtigungs-Ztr. (Abschn. 15a.3 Abs. S. 1 UStAE (so in der Quelle; gemeint ist Abschn. 15a.3 Abs. 2 Satz 1 UStAE, vgl. Textteil IV)) bis Ablauf Juni 12", "Gesamt – Fertigstellung 40% steuerfrei V.u.V. (z.B. 1.4.) ➔ Gesonderter Berichtigungs-Ztr. bis Ablauf März 13; § 15a -Fall für 40% von 50.000 €"],
+      ] },
+      { text: "Nachrechnung (eigene Ergänzung): Beginn 1.7.02 + 10 Jahre = Ende 30.6.12; Beginn 1.4.03 + 10 Jahre = Ende 31.3.13; 40 % von 50.000 € = 20.000 €, je Jahr also 2.000 € zuungunsten (sofern keine weitere Änderung eintritt)." },
+      { text: "**5.4 Leerstand im Anschluss an Verwendung**\n☞ BFH v. 25.04.2002 – V R 58/00 -\n☞ Abschn. 15a.3 Abs. 3 UStAE" },
+      { typ: "tabelle", spalten: ["04: steuerpflichtige Vermietung", "Umbau, Renovierung (zwischen 04 und 05)", "05/06: steuerfreie Vermietung"], zeilen: [
+        ["", "Vorst aus Reparaturen = nach Verwendungsabsicht im Zeitpunkt des Leistungsbezugs = wenn steuerpfl. 100% Vorst", "Vorst aus ursprünglichen Anschaffungskosten = Verwendungsabsicht bleibt maßgebend. Leerstand ist keine Änderung der Verhältnisse = wenn stpfl => kein § 15a"],
+      ] },
+      { text: "**Beweisvorsorge** für Verwendungsabsicht treffen" },
+      { text: "Die Zeitstrahl-Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];
