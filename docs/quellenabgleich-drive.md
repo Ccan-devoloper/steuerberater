@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2013, Teil I (Einzelunternehmen Henrik Mai)
+
+Übernommen: Prüfung 2013, allgemeine Hinweise und Teil I (PDF-Seiten 90 bis 94 und Anlagevordruck Seite 106), Lösungshinweis mit Punkte- und Notenschema und Anlage (PDF-Seiten 107 bis 117; Seiten 113 und 116 gerendert und angesehen).
+
+- Gekennzeichnet: „zum 31.12.2022 bewertet“ (31.12.2024); Tabellenüberschrift „am 31.12.24“; „April bis Dezember 2024“ (2025); „Restbuchwert … am 31.12.2025 noch 26.500 €“ (gilt für den 31.12.2027); „für das zunächst“ (Wort fehlt).
+- Eigene Feststellungen: AfaA 13.550 € in der Tabelle statt 13.350 € (Stand 5.520 € statt 5.720 €); steuerliches Ergebnis 74.646 € statt nachgerechnet 74.661 €; Randpunkte 28,5 gegen „Punkte SV 1: 35“.
+- Stillschweigend berichtigt: „niedrigst möglicher Gewinns“, „ESrtG“; Fußnotensterne als hochgestellte Ziffern.
+- Nachrechnung (eigene Ergänzung): handelsrechtlicher Jahresüberschuss 116.686 € (stimmt).
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 7 Aufgabenteile, 602 Blöcke, 87 Tabellen, 235 Punkte.
+
+Weiter mit: Bilanz-Prüfung 2013, Teil II (Transport und Fahrzeugbau GmbH; Sachverhalt ab Zeile 7592, Lösung ab Zeile 9383 der Textfassung).
+
 ### Bilanz-Originalklausuren 2012, Teil III (XYZ GmbH & Co. KG) – Prüfung 2012 vollständig
 
 Übernommen aus „Bilanzierung · Steuerberaterprüfungen 2011–2015“ (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, lokal ausgewertet): Prüfung 2012, Teil III, Sachverhalt (PDF-Seiten 52 bis 56) und Lösung mit Anlage (PDF-Seiten 81 bis 89), 33 Punkte.

@@ -2258,7 +2258,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   steuerlich Privatvermögen der Gesellschaft ist; Ausscheiden des insolventen Gesellschafters mit
   Abfindung (163.520 €). Drei Unstimmigkeiten der Anlage (negative Kapitalkonten ohne Vorzeichen,
   302.707 € statt 305.707 €, vertauschte Zinsentnahmen) sind als **eigene Feststellung** vermerkt.
-  Damit ist die **Prüfung 2012 vollständig**; die Prüfungen 2013 bis 2015 folgen.
+  Damit ist die **Prüfung 2012 vollständig**.
+  **Teil I der Prüfung 2013** (Einzelunternehmen Henrik Mai, laut Quelle 35 Punkte): Einlage
+  des selbst bewohnten Hauses mit Abbruchabsicht (Einlagewert und Abbruchkosten als Herstellungskosten
+  der Lagerhalle, Übertragung des steuerpflichtigen Teils einer § 6b-Abs.-10-Rücklage), Unfall-LKW
+  mit außerplanmäßiger Abschreibung handelsrechtlich und AfaA, neuer Regel-AfA und § 7g-Sonder-
+  abschreibung steuerrechtlich, Investitionszuschuss über den Anschaffungskosten (R 6.5 EStR, PRAP
+  für den Überschuss). Handelsrechtlicher Jahresüberschuss 116.686 €; drei Unstimmigkeiten (AfaA
+  13.550 € statt 13.350 €, steuerliches Ergebnis 74.646 € statt nachgerechnet 74.661 €, Randpunkte
+  28,5 gegen genannte 35) sind als **eigene Feststellung** vermerkt. Die übrigen Teile 2013 sowie die
+  Prüfungen 2014 und 2015 folgen.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,
