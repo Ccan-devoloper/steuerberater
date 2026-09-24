@@ -170,6 +170,39 @@
     .errors{margin:0;padding:0;list-style:none;display:grid;gap:7px}
     .errors li{border:1px solid color-mix(in srgb,var(--bad) 18%,var(--line));background:color-mix(in srgb,var(--bad) 5%,var(--panel2));border-radius:10px;padding:9px;color:var(--muted);font-size:11px}
     .empty{border:1px dashed var(--line);border-radius:12px;padding:22px;text-align:center;color:var(--muted)}
+
+    .preprod-panel{margin-bottom:12px;overflow:hidden}
+    .preprod-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    .preprod-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+    .preprod-controls label{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:11px}
+    .preprod-status{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+    .review-badge{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:999px;padding:5px 8px;font-size:10px;color:var(--muted);background:var(--panel2)}
+    .review-badge.ready{color:var(--good);border-color:color-mix(in srgb,var(--good) 28%,var(--line));background:color-mix(in srgb,var(--good) 6%,var(--panel2))}
+    .review-badge.open{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 28%,var(--line));background:color-mix(in srgb,var(--warn) 6%,var(--panel2))}
+    .ig-feed-preview{width:min(560px,100%);margin:16px auto 2px;display:grid;gap:22px}
+    .ig-post{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel);box-shadow:0 10px 34px rgba(0,0,0,.08)}
+    .ig-post-head{display:flex;align-items:center;gap:10px;padding:11px 12px}
+    .ig-avatar{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-size:10px;font-weight:900;background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 78%,#fff),color-mix(in srgb,var(--accent2) 72%,#fff));color:#fff;border:2px solid color-mix(in srgb,var(--accent) 55%,transparent);box-shadow:0 0 0 2px var(--panel)}
+    .ig-post-user{min-width:0;flex:1}
+    .ig-post-user b{display:block;font-size:12px}
+    .ig-post-user span{display:block;color:var(--muted);font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .ig-more{font-size:20px;letter-spacing:2px;line-height:1;color:var(--muted)}
+    .ig-media{position:relative;width:100%;aspect-ratio:4/5;background:#050505;overflow:hidden;display:grid;place-items:center}
+    .ig-media img,.ig-media video{width:100%;height:100%;display:block;object-fit:contain;background:#050505}
+    .ig-carousel-btn{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border:0;border-radius:50%;display:grid;place-items:center;background:rgba(20,20,20,.62);color:#fff;font-size:25px;line-height:1;z-index:3;backdrop-filter:blur(5px)}
+    .ig-carousel-btn.prev{left:9px}.ig-carousel-btn.next{right:9px}
+    .ig-carousel-count,.ig-reel-chip{position:absolute;top:10px;right:10px;z-index:3;border-radius:999px;padding:4px 7px;background:rgba(15,15,15,.68);color:#fff;font-size:10px;font-weight:800;backdrop-filter:blur(5px)}
+    .ig-reel-chip{left:10px;right:auto}
+    .ig-carousel-dots{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:3;padding:5px 7px;border-radius:999px;background:rgba(15,15,15,.48)}
+    .ig-carousel-dot{width:6px;height:6px;border:0;padding:0;border-radius:50%;background:rgba(255,255,255,.46)}
+    .ig-carousel-dot.active{background:#fff;transform:scale(1.18)}
+    .ig-actions{display:flex;align-items:center;gap:13px;padding:10px 12px 6px;font-size:24px;line-height:1}
+    .ig-actions .save{margin-left:auto}
+    .ig-caption{padding:2px 12px 13px;font-size:12px;line-height:1.5;white-space:pre-line}
+    .ig-caption b{font-weight:820;margin-right:5px}
+    .ig-caption .hashtags{color:color-mix(in srgb,var(--accent2) 75%,var(--text))}
+    .ig-meta{padding:0 12px 12px;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.055em}
+    .ig-review-note{margin-top:10px;color:var(--muted);font-size:10px;text-align:center}
     .footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:10px;margin-top:16px}
     .drawer-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.36);z-index:49}
     .drawer{position:fixed;top:0;right:0;bottom:0;width:min(520px,94vw);z-index:50;background:var(--panel);border-left:1px solid var(--line);box-shadow:-24px 0 60px rgba(0,0,0,.24);padding:20px;overflow:auto}
@@ -315,6 +348,22 @@
     </section>
 
     <section class="view" data-view-panel="learnings">
+
+      <article class="panel preprod-panel" id="preproductionPanel">
+        <div class="preprod-toolbar">
+          <div>
+            <div class="eyebrow">Vor Veröffentlichung prüfen</div>
+            <h2>Vorproduktion · Instagram-Feed</h2>
+            <div class="panel-note">Original-Renderings aus dem Asset-Zweig – inklusive Carousel-Slides, Reels, Caption und geplantem Slot.</div>
+          </div>
+          <div class="preprod-controls">
+            <label><span>Review-Tag</span><select class="filter-control" id="preproductionDate" aria-label="Vorproduktions-Tag auswählen"></select></label>
+            <div class="preprod-status" id="preproductionStatus"></div>
+          </div>
+        </div>
+        <div class="help-box compact"><b>Vorschau-Modus:</b> Die Medien werden direkt aus <code>instagram-assets/vorproduktion</code> geladen. Das Dashboard veröffentlicht oder verändert dabei nichts.</div>
+        <div id="preproductionFeed"></div>
+      </article>
       <div class="grid rank-grid">
         <article class="panel"><div class="panel-head"><div><h2>Hooks <span class="info-tip" title="Der Index ist kein Meta-Score. Er kombiniert Follow-, Share-, Save- und Interaktionsraten relativ zum eigenen Account-Schnitt.">?</span></h2><div class="panel-note">Index 100 = Schnitt des gewählten Zeitraums. Über 100 = überdurchschnittliches Aktivierungssignal.</div></div><span class="source-chip derived">berechnet</span></div><div id="hookRanking"></div></article>
         <article class="panel"><div class="panel-head"><div><h2>Formate <span class="info-tip" title="Index 100 entspricht dem Account-Schnitt. Werte deutlich über/unter 100 sind erst zusammen mit n sinnvoll.">?</span></h2><div class="panel-note">Reach, Shares, Saves und Follows gemeinsam betrachtet.</div></div><span class="source-chip derived">berechnet</span></div><div id="formatRanking"></div></article>
@@ -425,7 +474,9 @@
     trendMetric:"reach",
     loading:false,
     content:{search:"",type:"",subject:"",format:"",sort:"reach"},
-    selectedMedia:null
+    selectedMedia:null,
+    reviewDate:localStorage.getItem("igDashReviewDate")||"",
+    preproductionLoading:false
   };
   var $=function(s){return document.querySelector(s);};
   var $$=function(s){return Array.from(document.querySelectorAll(s));};
@@ -575,6 +626,23 @@
       else if(REQUIRED_FILES.indexOf(f)>=0){out[k]=(k==="follower"||k==="fehler")?[]:{};out._errors.push(f+": "+(settled[i].reason&&settled[i].reason.message||"Fehler"));}
       else out[k]={version:1,medien:{},konto:[]};
     });
+    if(key==="herr"){
+      out.vorproduktion={};
+      var preBase="https://raw.githubusercontent.com/"+a.repo+"/instagram-assets/vorproduktion";
+      try{
+        out.vorproduktionIndex=await fetchJson(preBase+"/index.json");
+        var reviewDate=resolvePreproductionDate(out.vorproduktionIndex,store.reviewDate);
+        if(reviewDate){
+          store.reviewDate=reviewDate;
+          localStorage.setItem("igDashReviewDate",reviewDate);
+          try{out.vorproduktion[reviewDate]=await fetchJson(preBase+"/"+reviewDate+".json");}
+          catch(dayErr){out._preproductionError="Review-Tag "+reviewDate+": "+(dayErr&&dayErr.message||"Fehler");}
+        }
+      }catch(preErr){
+        out.vorproduktionIndex={tage:[]};
+        out._preproductionError="Vorproduktion: "+(preErr&&preErr.message||"Fehler");
+      }
+    }
     out._loadedAt=new Date();return out;
   }
   async function loadAll(){
@@ -893,6 +961,118 @@
   function durationKey(e){
     var d=num(e.dauer);if(!d)return null;if(d<45)return "30–45 s";if(d<60)return "45–60 s";if(d<80)return "60–80 s";return "80–105+ s";
   }
+
+  function resolvePreproductionDate(index,requested){
+    var days=(index&&index.tage||[]).map(function(x){return x&&x.datum;}).filter(Boolean).sort();
+    if(requested&&days.indexOf(requested)>=0)return requested;
+    var now=new Date(),today=[now.getFullYear(),String(now.getMonth()+1).padStart(2,"0"),String(now.getDate()).padStart(2,"0")].join("-");
+    return days.find(function(d){return d>=today;})||days[days.length-1]||"";
+  }
+  function preproductionBase(){
+    return "https://raw.githubusercontent.com/"+ACCOUNTS.herr.repo+"/instagram-assets/vorproduktion";
+  }
+  function preproductionSlideUrl(date,slot,n){
+    return preproductionBase()+"/"+date+"/fertig/"+slot+"/"+date+"-"+slot+"-"+String(n).padStart(2,"0")+".jpg";
+  }
+  function preproductionReelUrl(date,slot){
+    return preproductionBase()+"/"+date+"/fertig/"+slot+"/"+date+"-"+slot+".mp4";
+  }
+  function preproductionReelCover(date,slot){
+    return preproductionBase()+"/"+date+"/fertig/"+slot+"/"+date+"-"+slot+"-cover.jpg";
+  }
+  function preproductionDayLabel(date){
+    var d=parseDate(date);
+    return d?d.toLocaleDateString("de-DE",{weekday:"short",day:"2-digit",month:"2-digit",year:"numeric",timeZone:"UTC"}):date;
+  }
+  function preproductionMeta(data,date){
+    return (data.vorproduktionIndex&&data.vorproduktionIndex.tage||[]).find(function(x){return x.datum===date;})||{};
+  }
+  function preproductionMedia(day,date,slot,content){
+    var isReel=content&&((content.format==="reel")||Array.isArray(content.szenen));
+    if(isReel){
+      return '<div class="ig-media"><video controls playsinline preload="metadata" poster="'+esc(preproductionReelCover(date,slot))+'"><source src="'+esc(preproductionReelUrl(date,slot))+'" type="video/mp4"></video><span class="ig-reel-chip">REEL</span></div>';
+    }
+    var count=Math.max(1,(content&&content.folien||[]).length);
+    var dots=Array.from({length:count},function(_,i){return '<button type="button" class="ig-carousel-dot '+(i===0?"active":"")+'" data-slide-to="'+(i+1)+'" aria-label="Folie '+(i+1)+'"></button>';}).join("");
+    return '<div class="ig-media" data-carousel="1" data-date="'+esc(date)+'" data-slot="'+esc(slot)+'" data-count="'+count+'" data-index="1">'+
+      '<img class="ig-media-image" src="'+esc(preproductionSlideUrl(date,slot,1))+'" alt="'+esc((content&&content.kurztitel)||("Vorproduktion "+slot))+'" loading="lazy">'+
+      (count>1?'<button type="button" class="ig-carousel-btn prev" data-slide-dir="-1" aria-label="Vorherige Folie">‹</button><button type="button" class="ig-carousel-btn next" data-slide-dir="1" aria-label="Nächste Folie">›</button><span class="ig-carousel-count">1 / '+count+'</span><div class="ig-carousel-dots">'+dots+'</div>':"")+
+      '</div>';
+  }
+  function preproductionPost(day,date,planItem){
+    var slot=planItem.slot,content=day&&day.inhalte&&day.inhalte[slot]||{},caption=content.caption||"",hashtags=(content.hashtags||[]).join(" ");
+    var title=content.kurztitel||(content.folien&&content.folien[0]&&content.folien[0].titel)||(content.szenen&&content.szenen[0]&&content.szenen[0].titel)||planItem.themaTitel||slot;
+    var type=(content.format==="reel"||Array.isArray(content.szenen))?"Reel":"Carousel";
+    return '<article class="ig-post">'+
+      '<div class="ig-post-head"><div class="ig-avatar">HJ</div><div class="ig-post-user"><b>herrjurist</b><span>Vorproduktion · '+esc(preproductionDayLabel(date))+' · '+esc(planItem.zeit||"ohne Zeit")+' · '+esc(content.fachLabel||planItem.fach||"")+'</span></div><div class="ig-more">•••</div></div>'+
+      preproductionMedia(day,date,slot,content)+
+      '<div class="ig-actions" aria-hidden="true"><span>♡</span><span>○</span><span>⌁</span><span class="save">♧</span></div>'+
+      '<div class="ig-caption"><b>herrjurist</b>'+esc(caption)+(hashtags?'\n<span class="hashtags">'+esc(hashtags)+'</span>':"")+'</div>'+
+      '<div class="ig-meta">'+esc(type)+' · geplant '+esc(preproductionDayLabel(date))+' '+esc(planItem.zeit||"")+' · '+esc(title)+'</div>'+
+      '</article>';
+  }
+  function renderPreproduction(data){
+    var panel=$("#preproductionPanel");
+    if(!panel)return;
+    if(store.account!=="herr"){panel.hidden=true;return;}
+    panel.hidden=false;
+    var index=data.vorproduktionIndex||{tage:[]},days=index.tage||[],select=$("#preproductionDate"),status=$("#preproductionStatus"),feed=$("#preproductionFeed");
+    if(!days.length){
+      select.innerHTML="";
+      status.innerHTML='<span class="review-badge open">keine Vorproduktionsdaten</span>';
+      feed.innerHTML='<div class="empty">'+esc(data._preproductionError||"Der Vorproduktions-Index ist derzeit nicht verfügbar.")+'</div>';
+      return;
+    }
+    var date=resolvePreproductionDate(index,store.reviewDate);
+    store.reviewDate=date;
+    select.innerHTML=days.map(function(x){
+      var suffix=x.freigabeBetreiber?" · Tagesfreigabe":" · Review";
+      return '<option value="'+esc(x.datum)+'">'+esc(preproductionDayLabel(x.datum)+suffix)+'</option>';
+    }).join("");
+    select.value=date;
+    var meta=preproductionMeta(data,date);
+    status.innerHTML='<span class="review-badge '+(meta.freigabeBetreiber?"ready":"open")+'">'+(meta.freigabeBetreiber?"Tagesfreigabe gesetzt":"Review offen")+'</span>'+
+      '<span class="review-badge '+(meta.liveVerknuepft?"ready":"open")+'">'+(meta.liveVerknuepft?"Live-Verknüpfung aktiv":"noch nicht live verknüpft")+'</span>';
+    if(store.preproductionLoading){
+      feed.innerHTML='<div class="empty loading">Vorproduktion wird geladen</div>';
+      return;
+    }
+    var day=data.vorproduktion&&data.vorproduktion[date];
+    if(!day){
+      feed.innerHTML='<div class="empty">'+esc(data._preproductionError||"Dieser Review-Tag konnte noch nicht geladen werden.")+'</div>';
+      return;
+    }
+    var posts=day.plan&&day.plan.beitraege||[];
+    feed.innerHTML=posts.length?'<div class="ig-feed-preview">'+posts.map(function(p){return preproductionPost(day,date,p);}).join("")+'</div><div class="ig-review-note">Feed-Reihenfolge nach geplantem Veröffentlichungszeitpunkt · Medien direkt aus der Vorproduktion</div>':'<div class="empty">Für diesen Tag sind keine Feed-Beiträge in der Vorproduktion hinterlegt.</div>';
+  }
+  async function loadPreproductionDay(date){
+    var data=store.data.herr;
+    if(!data||!date)return;
+    store.reviewDate=date;
+    localStorage.setItem("igDashReviewDate",date);
+    data._preproductionError="";
+    if(data.vorproduktion&&data.vorproduktion[date]){renderPreproduction(data);return;}
+    store.preproductionLoading=true;renderPreproduction(data);
+    try{
+      if(!data.vorproduktion)data.vorproduktion={};
+      data.vorproduktion[date]=await fetchJson(preproductionBase()+"/"+date+".json");
+    }catch(e){
+      data._preproductionError="Review-Tag "+date+": "+(e&&e.message||"Fehler");
+    }finally{
+      store.preproductionLoading=false;renderPreproduction(data);
+    }
+  }
+  function setPreproductionSlide(frame,next){
+    var count=Math.max(1,Number(frame.dataset.count)||1),current=Math.max(1,Number(frame.dataset.index)||1);
+    if(next<1)next=count;if(next>count)next=1;
+    if(next===current)return;
+    frame.dataset.index=String(next);
+    var img=frame.querySelector(".ig-media-image"),counter=frame.querySelector(".ig-carousel-count");
+    if(img)img.src=preproductionSlideUrl(frame.dataset.date,frame.dataset.slot,next);
+    if(counter)counter.textContent=next+" / "+count;
+    frame.querySelectorAll(".ig-carousel-dot").forEach(function(dot,i){dot.classList.toggle("active",i===next-1);});
+  }
+
   function renderLearnings(data){
     var e=entriesFor(data,bounds(data)).filter(function(x){return x.art==="beitrag"&&x.insights;});
     $("#hookRanking").innerHTML=rankList(ranking(e,function(x){return x.hookTyp||x.hookMuster;}));
@@ -998,7 +1178,7 @@
     renderTabs();renderViews();
     var data=store.data[store.account];
     if(!data){setStatus("Für dieses Konto konnten noch keine Daten geladen werden.","warn");return;}
-    renderRange(data);renderOverviewKpis(data);renderProfileBrief(data);renderTrend(data);renderInsights(data);renderTypeCompare(data);renderContent(data);renderLearnings(data);renderStories(data);renderAudience(data);renderSystem(data);renderDrawer(data);
+    renderRange(data);renderOverviewKpis(data);renderProfileBrief(data);renderTrend(data);renderInsights(data);renderTypeCompare(data);renderContent(data);renderPreproduction(data);renderLearnings(data);renderStories(data);renderAudience(data);renderSystem(data);renderDrawer(data);
     var errs=data._errors&&data._errors.length||0,set=validSelectedDay(data);
     setStatus(errs?("Geladen mit "+errs+" fehlenden Datei(en)"):(set?("Tag "+periodLabel(data)+" · Datenstand "+latestDate(data)):("Aktuell · Stand "+latestDate(data))),errs?"warn":"ok");
     $("#footerSource").textContent="Quelle: "+ACCOUNTS[store.account].name+" · Instagram-Analytics-State";
@@ -1019,6 +1199,14 @@
   $("#contentFormat").addEventListener("change",function(e){store.content.format=e.target.value;var data=store.data[store.account];if(data)renderContent(data);});
   $("#contentSort").addEventListener("change",function(e){store.content.sort=e.target.value;var data=store.data[store.account];if(data)renderContent(data);});
   $("#contentTable").addEventListener("click",function(e){var tr=e.target.closest("[data-media]");if(!tr)return;store.selectedMedia=tr.dataset.media;var data=store.data[store.account];if(data)renderDrawer(data);});
+  $("#preproductionDate").addEventListener("change",function(e){if(e.target.value)loadPreproductionDay(e.target.value);});
+  $("#preproductionFeed").addEventListener("click",function(e){
+    var frame=e.target.closest("[data-carousel]");
+    if(!frame)return;
+    var dir=e.target.closest("[data-slide-dir]"),dot=e.target.closest("[data-slide-to]");
+    if(dir)setPreproductionSlide(frame,(Number(frame.dataset.index)||1)+Number(dir.dataset.slideDir||0));
+    else if(dot)setPreproductionSlide(frame,Number(dot.dataset.slideTo||1));
+  });
   $("#drawerBackdrop").addEventListener("click",closeDrawer);
   document.addEventListener("keydown",function(e){if(e.key==="Escape")closeDrawer();});
 
