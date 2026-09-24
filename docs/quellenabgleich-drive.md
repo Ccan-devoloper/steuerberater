@@ -10623,6 +10623,22 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 1 bis 7 (PDF-Seiten 3 bis 20)
+
+Quelle: „Bilanzsteuerrecht – Übersichten“ (Drive-ID `1NtebyaKqbhJBZ_nwF4a55baSVBttWHzM`, 68 PDF-Seiten: Titelblatt, Inhaltsverzeichnis und 66 gezählte Seiten mit 27 Abschnitten). Eingepflegt als Anhang des Bilanz-Skripts (`teil: "uebersichten"`, Konstante `TBU`, Filter „Anhang – Übersichten“), je Abschnitt ein Eintrag (`bil-melzer-ue-NN`).
+
+Übernommen: 1 Klausuraufbau (Ansatz dem Grunde nach, Ansatz- und Bewertungstabellen Handelsbilanz/Steuerbilanz), 2 Immaterielle Vermögensgegenstände/Firmenwert, 3 Rechnungsabgrenzungsposten (Disagio, erhaltene und geleistete Anzahlungen), 4 Kauf nach Miete, Mietkauf, Leasing (Rechtsfolgen, Finanzierungs-Leasing, Zurechnungstabelle, Kurzübersicht § 6/3, Behandlung bei Zurechnung beim Leasing-Geber bzw. -Nehmer), 5 Einlagen/Entnahmen (mit AfA nach Einlage, Fallgruppen 1 bis 4), 6 Anschaffungskosten (Umfang, Einzel-/Gemeinkosten, Umsatzsteuer, Sonderfälle), 7 Herstellungskosten (Tabelle Handels-/Steuerbilanz, Divisions-, Äquivalenzziffern- und Zuschlagsverfahren) – 7 Einträge.
+
+- Viele Tabellen decken sich mit denen des Skripts; sie stehen trotzdem vollständig im Anhang, weil die Übersichten eigenständig formuliert sind (z. B. „Spezialleasing grundsätzlich immer LN“ gegenüber „Spezialleasing immer LN“ im Skript, Abschnitt 1 mit eigener Bewertungstabelle für Verbindlichkeiten und Rückstellungen).
+- Schaubilder gerendert und als Tabellen übernommen: „Das Finanzierungs-Leasing § 6/1“ mit „Einteilung der Leasingverträge“ (Seite 11) und „§ 9 b Abs.1 EStG“ (Seite 17). Nach den Seitenbildern berichtigt: die Zeile „ohne Bedeutung“ der Zurechnungstabelle (verbundene Zelle), die Kurzübersicht § 6/3 (die beiden Fälle der Mehrerlösaufteilung als eigene Zeilen), die gemeinsame Zelle für Begutachtungs- und Besichtigungskosten, die Umsatzsteuerzelle beim Tausch (verbundene Zelle) und die ersten beiden Zeilen der Herstellungskostentabelle (gemeinsame Zellen „Pflicht“).
+- Gekennzeichnet: „soweit Vorsteuerabzug § 15 Abs. 1 Satz 1 Nr. 1 EStG“ (dreimal in Abschnitt 1 und einmal im Skript, Abschnitt 4.1; gemeint UStG); „Die Vorsteuerkorrektur nach § 15 a EStG“ (Abschnitt 6 und nachträglich im Skript, Abschnitt 4.1; gemeint § 15a UStG).
+- Stillschweigend berichtigt: „249 HGB (Gebot)“ und „249 Abs. 1 Satz 1 Alt. 2 HGB“ (Paragrafenzeichen ergänzt); „Umsazsatzsteuer“; „APAP, Auflösung linear“ (ARAP); „grundsätztlich“; „§ 6 Abs. l Nr. 4 Satz l“ (Buchstabe l statt Ziffer 1); „R 5. 6 EStR“; „zu 1 6/19“ (zweimal, „zu 1 § 6/19“); „„Schuldübernahme “EStH“.
+- Nachrechnung: keine Zahlenbeispiele in diesen Abschnitten. Wortabgleich aller Seiten 3 bis 20 gegen die erzeugten Einträge: vollständig (offen nur Silbentrennungen und die berichtigten Schreibfehler).
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 17 Teile, 76 Kapitel, 2480 Blöcke, 157 Tabellen.
+
+Weiter mit: Übersichten, Abschnitte 8 bis 27 (PDF-Seiten 21 bis 68).
+
 ### Bilanz-Skript Termin 1 (Melzer), Kapitel 13 bis 16 (PDF-Seiten 162 bis 178) – Skript vollständig
 
 Übernommen: Kapitel 13 „Schuldübernahme, Schuldbeitritt, Erfüllungsübernahme“ (Begriffe, Folgen beim Veräußerer und Erwerber, § 4f und § 5 Abs. 7 EStG), Kapitel 14 „Bewertungseinheiten“ (§ 254 HGB, effektiver und ineffektiver Teil, § 5 Abs. 1a EStG), Kapitel 15 „Latente Steuern“ (temporäre, quasi-permanente und permanente Differenzen, Übersicht der Wertansätze, Buchungssätze, Bewertung, Gesamtdifferenzbetrachtung mit drei Beispielen, Ausweis) und Kapitel 16 „Bilanzberichtigung und Bilanzänderung“ (Handels- und Steuerbilanz, Fallgruppen, Nachholung von AfA, Bilanzänderung, Mehr- und Weniger-Rechnung nach Bilanzposten- und GuV-Methode, Zusammenstellung, Kapitalanpassungsbuchungen, steuerlicher Ausgleichsposten) – 20 Einträge unter `TB13` bis `TB16`.
