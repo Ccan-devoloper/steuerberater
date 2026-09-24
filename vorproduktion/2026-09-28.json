@@ -29,7 +29,7 @@
         "zeit": "12:00",
         "format": "reel",
         "themaId": "istr-modul-istr-istr3-01",
-        "themaTitel": "Beschränkte Steuerpflicht mit DBA: vor",
+        "themaTitel": "Beschränkte Steuerpflicht mit DBA: EIS vor AAVV",
         "fach": "istr",
         "klausur": 2,
         "lang": false
@@ -223,7 +223,7 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Beschränkte Steuerpflicht mit DBA: vor",
+          "titel": "Beschränkte Steuerpflicht mit DBA: EIS vor AAVV",
           "unter": "Internationales Steuerrecht",
           "text": "§ 1 Abs. 4 EStG, Einkunftsart und konkreten §-49-Inlandsanknüpfungspunkt vor dem DBA prüfen.",
           "norm": "§ 1 Abs. 4 EStG",
@@ -316,14 +316,14 @@
           ]
         }
       ],
-      "caption": "Beschränkte Steuerpflicht mit DBA: vor § 1 Abs. 4 EStG, Einkunftsart und konkreten §-49-Inlandsanknüpfungspunkt vor dem DBA prüfen. Steuerabzug, Veranlagung und Abgeltungswirkung als dritte Stufe bestimmen. Das DBA anschließend nur begrenzend/verteilend einsetzen und danach in das nationale Erhebungsrecht zurückkehren.",
+      "caption": "Beschränkte Steuerpflicht mit DBA: EIS vor AAVV § 1 Abs. 4 EStG, Einkunftsart und konkreten §-49-Inlandsanknüpfungspunkt vor dem DBA prüfen. Steuerabzug, Veranlagung und Abgeltungswirkung als dritte Stufe bestimmen. Das DBA anschließend nur begrenzend/verteilend einsetzen und danach in das nationale Erhebungsrecht zurückkehren.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Beschränkte Steuerpflicht mit DBA: vor",
+      "kurztitel": "Beschränkte Steuerpflicht mit DBA: EIS vor AAVV",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -383,7 +383,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": ""
+      "text": "FIFO ist steuerlich als Verbrauchsfolgeverfahren unzulässig. Steuerlich ist nach § 6 Abs. 1 Nr. 2a EStG LIFO zulässig; die Durchschnittsbewertung ist als Gruppenbewertung gesondert zu prüfen."
     },
     "s5": {
       "slot": "s5",
