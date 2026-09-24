@@ -10633,7 +10633,7 @@ Skriptteile III bis VII.
 
 Prüfung danach: KSt-Kurz-Skript in Ordnung: 4 Teile, 31 Kapitel, 1079 Blöcke, 36 Tabellen.
 
-Weiter mit: Teil 5 „Verdeckte Gewinnausschüttung“ (ab PDF-Seite 97; Textfassung ab Zeile 5836).
+Weiter mit: Teil 5 „Verdeckte Gewinnausschüttung“ (ab PDF-Seite 97; Textfassung ab Zeile 5830).
 
 ### KSt-Kurz-Skript (Breier), Teil 4 A. V. 6 und B. I (PDF-Seiten 81 bis 90)
 
