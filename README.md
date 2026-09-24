@@ -53,9 +53,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **UmwSt-Kurz-Skript (Breier)** (Klausur 3, Campus UmwStR → „Kurz-Skript (Breier)“): das
   Kurz-Skript von Ulrich Breier (Stand 04/2025, ohne § 24 UmwStG) im Wortlaut, mit den
   Merke-Kästen als Merksätzen. Eingepflegt sind **Teil 1** (Überblick, Umwandlungssteuererlass),
-  **Teil 2** (zivilrechtliche Grundlagen) und **Teil 3** (Verschmelzung/Formwechsel einer
-  Kapitalgesellschaft auf ein Personenunternehmen) – 13 Abschnitte, 415 Blöcke, 30 Tabellen. Die
-  Teile 4 bis 6 folgen. Prüfung: `npm run check:k3-umwst-kurzskript`
+  **Teil 2** (zivilrechtliche Grundlagen), **Teil 3** (Verschmelzung/Formwechsel einer
+  Kapitalgesellschaft auf ein Personenunternehmen) und **Teil 4** (Verschmelzung von
+  Kapitalgesellschaften) – 18 Abschnitte, 621 Blöcke, 48 Tabellen. Die Teile 5 und 6 folgen. Prüfung: `npm run check:k3-umwst-kurzskript`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung

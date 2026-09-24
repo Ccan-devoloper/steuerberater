@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwSt-Kurz-Skript (Breier), Teil 4 (PDF-Seiten 40 bis 57) – Verschmelzung von Kapitalgesellschaften
+
+Übernommen: Teil 4 mit den Abschnitten I. bis V. (Vorbemerkungen, übertragende Kapitalgesellschaft, Folgen bei der übernehmenden Kapitalgesellschaft einschließlich Grunderwerbsteuer, Übernahmefolgegewinn, Einlagekonto und Verschmelzung auf eine Organgesellschaft, Besteuerung der Gesellschafter, Rückwirkung) samt Merke-Kasten; neue Teil-Konstante TK4. 18 Tabellen, gegen die gerenderten Seiten 42, 43, 46, 47 und 48 geprüft; Bilanzen mit Buchwert und gemeinem Wert fünfspaltig („Aktivseite | Buchwert | gem. Wert | Passivseite | Betrag“).
+
+- Gekennzeichnet: zweimal „Steuerfrei gem. § 12 Abs. 2 S. 1 KStG“ in den Beispielen 2 und 3 zum Übernahmegewinn (gemeint UmwStG; in Beispiel 1 richtig); in der Merke zweimal „§ 29 Abs. 1 UmwStG“ (gemeint § 29 Abs. 1 KStG) – ebenso nachträglich in der Merke zu Teil 3.
+- Stillschweigend berichtigt: „Duchgangserwerb“; „steuerfrei,doch“; „Kosten des Umwandlung“; „Grundwerbsteuer“ (zweimal); „Beteiligungsverhätnis“; „down-streammerger“; „Der Übernahmeergebnis“; „Abwandlung:‘“; „HSKStG“; „übetragenden“; „Hätte einen“ → „Hätte A einen“; zweimal fehlende schließende Klammer bei „§ 13 Abs. 2 S. 3 UmwStG“; „gem. 17 EStG“; „regelt“ → „geregelt“; „vorschmolzen“; „gestelltt“; Silbentrennungen.
+- Nachrechnung (eigene Ergänzung): Schlussbilanz T-GmbH 220.000, Zwischenwert 140.000 von 200.000 stillen Reserven = 70 % (Firmenwert 70.000, Aktiva 170.000, Bilanzsumme 360.000); Grunderwerbsteuer 6,5 % von 340.000 = 22.100 (25 %/75 % = 5.525/16.575); up-stream 150.000 ./. 100.000 ./. 6.000 = 44.000, 5 % = 2.200, bei 80 % 35.200 und 1.760; down-stream 100.000 ./. 70.000 = 30.000; Übernahmeverlust 30.000 ./. 100.000 ./. 6.000 = ./. 76.000, Bilanz nach Übernahme 450.000; Übernahmefolgegewinn 60.000, Rücklage 50 % = 30.000 (je 10.000); Einlagekonto 20.000 + 50.000 = 70.000, M-GmbH 30.000 + 35.000 = 65.000; Organschaft 400.000 ./. 100.000 + 5.000 + 500.000 = 805.000 bzw. 400.000 ./. 40.000 + 500.000 = 860.000; § 13: 300.000 ./. 70.000 = 230.000, 40 % = 92.000, steuerpflichtig 138.000 – stimmig.
+
+Prüfung danach: UmwSt-Kurz-Skript (Breier) in Ordnung: 4 Teile, 18 Kapitel, 621 Blöcke, 48 Tabellen.
+
+Weiter mit: Teil 5 „Spaltung von Kapitalgesellschaften“ (PDF-Seiten 58 bis 65).
+
 ### UmwSt-Kurz-Skript (Breier), Teil 3 (PDF-Seiten 18 bis 39) – Verschmelzung/Formwechsel einer KapGes auf ein Personenunternehmen
 
 Übernommen: Teil 3 mit den Abschnitten I. bis VI. (Vorbemerkung, übertragende Kapitalgesellschaft, Folgen bei der Übernehmerin, Rückwirkung, Rechtsformwechsel mit Rückoption nach § 1a Abs. 4 KStG, Gewerbesteuer) samt Merke-Kasten; neue Teil-Konstante TK3. 30 Tabellen (Schlussbilanzen vierspaltig mit Summenzeile, Berechnungen des Übernahmeergebnisses je Gesellschafter, Verlustabzug nach § 4 Abs. 6 S. 4 UmwStG dreispaltig), gegen die gerenderten Seiten 33 und 35 und die Textlage aller Seiten geprüft; Tabellenzeilen, die im Textauszug in Fließtext gerutscht waren, zurückgeführt.
