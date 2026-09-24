@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2013, Sachverhalt 5 – Prüfung 2013 vollständig
+
+Übernommen: ESt-Originalklausur 2013 (Klausur E 18), Sachverhalt 5 (P, Gewerbesteuermessbetrag mit Schachtelkürzung, 5 Punkte) – Aufgabe PDF-Seite 82, Lösung PDF-Seiten 99 und 100. Damit ist die Prüfung 2013 vollständig (5 Sachverhalte, Randpunkte 14 + 14 + 12 + 22 + 5 = 67).
+
+- Stillschweigend berichtigt: „i S. d.“ → „i. S. d.“, „i. V m.“ → „i. V. m.“.
+- Nachrechnung (eigene Ergänzung): 240.000 ./. 4.000 + 3.200 = 239.200 €; Kürzung 6.000 ./. 4.800 = 1.200 €; Gewerbeertrag 238.000 €; ./. 24.500 = 213.500 € × 3,5 % = 7.472,50 € → 7.472 €; Randpunkte 3 + 2 = 5. Stimmig.
+- Campus-Einleitung, README und offene-quellen nachgezogen.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 13 Sachverhalte, 501 Blöcke, 50 Tabellen, 192 Punkte.
+
+Weiter mit: Prüfung 2014 (ab Zeile 7577 der Textfassung, drei Sachverhalte; Lösungshinweise ab Zeile 7811).
+
 ### ESt-Originalklausuren 2013, Sachverhalt 4
 
 Übernommen: ESt-Originalklausur 2013 (Klausur E 18), Sachverhalt 4 (U, Veräußerung eines Kommanditanteils, 22 Punkte) – Aufgabe PDF-Seiten 79 bis 81, Lösung PDF-Seiten 92 bis 98.

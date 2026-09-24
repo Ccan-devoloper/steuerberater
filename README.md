@@ -1878,8 +1878,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ErbbauRG und aus dem DBA-Österreich) stehen mit ihren tragenden Vorschriften im Wortlaut
   im Datensatz. Eine Rundungsdifferenz von einem Euro bei der Zerlegung ist als **eigene
   Feststellung** gekennzeichnet.
-  Aus der **Prüfung 2013** (Klausur E 18, fünf Sachverhalte; seit dem zweiten Download-Versuch
-  vollständig verfügbar, in Arbeit): **Sachverhalt 1 (Malermeister U, 14 Punkte)** – Einbringung
+  Aus der **Prüfung 2013** (Klausur E 18, fünf Sachverhalte, 67 Punkte; seit dem zweiten
+  Download-Versuch verfügbar, **vollständig eingepflegt**): **Sachverhalt 1 (Malermeister U, 14 Punkte)** – Einbringung
   zu Buchwerten und Verkauf der Anteile nach 14 Monaten: Einbringungsgewinn I 60.000 € rückwirkend
   im Jahr 10 (ohne die über § 22 Abs. 2 UmwStG laufenden A-GmbH-Anteile), Anschaffungskosten
   220.000 € und daraus ein Verlust nach § 17 EStG von 66.000 €. **Sachverhalt 2 (K, 14 Punkte)** –
@@ -1894,7 +1894,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   mit negativem Kapitalkonto für 0 €: Nachversteuerungsgewinn 70.000 €, verrechnet mit dem laufenden
   Verlust und dem verrechenbaren Verlust nach § 15a EStG; Verluste im Sonderbetriebsvermögen
   (wertlose Bürgschaftsforderung, PKW, anteiliges Darlehen mit „Rest-Sonderbetriebsvermögen“) –
-  Einkünfte ./. 4.025 € (§ 15) und ./. 51.250 € (§ 16).
+  Einkünfte ./. 4.025 € (§ 15) und ./. 51.250 € (§ 16). **Sachverhalt 5 (Abschleppdienst P,
+  5 Punkte)** – Kürzung nach § 9 Nr. 2a GewStG nur für den steuerpflichtigen Teil der Ausschüttung,
+  gemindert um die abziehbaren Finanzierungszinsen: Gewerbeertrag 238.000 €, Messbetrag 7.472 €.
+  Die Prüfungen 2014 und 2015 folgen.
   Prüfung: `npm run check:k2-est-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,
