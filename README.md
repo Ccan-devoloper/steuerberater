@@ -1890,7 +1890,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   London, 12 Punkte)** – eine dreimal jährlich genutzte Düsseldorfer Wohnung begründet einen Wohnsitz
   nach § 8 AO, nach Art. 4 DBA-GB ist A aber nur in Großbritannien ansässig: keine in Deutschland
   steuerpflichtigen Einkünfte (Art. 7 und Art. 21 DBA-GB, steuerfreier Verkauf der selbst genutzten
-  Münchner Wohnung).
+  Münchner Wohnung). **Sachverhalt 4 (Kommanditistin U, 22 Punkte)** – Verkauf eines Kommanditanteils
+  mit negativem Kapitalkonto für 0 €: Nachversteuerungsgewinn 70.000 €, verrechnet mit dem laufenden
+  Verlust und dem verrechenbaren Verlust nach § 15a EStG; Verluste im Sonderbetriebsvermögen
+  (wertlose Bürgschaftsforderung, PKW, anteiliges Darlehen mit „Rest-Sonderbetriebsvermögen“) –
+  Einkünfte ./. 4.025 € (§ 15) und ./. 51.250 € (§ 16).
   Prüfung: `npm run check:k2-est-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,

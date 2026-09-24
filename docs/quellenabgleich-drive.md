@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2013, Sachverhalt 4
+
+Übernommen: ESt-Originalklausur 2013 (Klausur E 18), Sachverhalt 4 (U, Veräußerung eines Kommanditanteils, 22 Punkte) – Aufgabe PDF-Seiten 79 bis 81, Lösung PDF-Seiten 92 bis 98.
+
+- Fehler der Quelle, gekennzeichnet („so in der Quelle“): Kapitalkonto „31.10.11“ statt 31.12.11; Sonderbetriebsvermögen „bis zum 31.12.12“ statt 31.10.12; Wert des Sonderbetriebsvermögens „am 31.10.10“ statt 31.10.12; AfA „25 % v. 20.000 €“ statt 21.000 € (die Beträge von 4.375 € stimmen).
+- Stillschweigend berichtigt: „BStB1 II 1995“ und „BStB1 Il 2003“ → „BStBl II“.
+- Eigene Ergänzung: Hinweis auf § 716 Abs. 1 BGB statt § 110 HGB a. F. seit dem MoPeG (bitte bei Bedarf prüfen).
+- Nachrechnung (eigene Ergänzung): Fortgeführte AK 33.750 €; AfA 4.375 €; Zinsen 1.050 €; Sonderbetriebsausgaben 9.425 €; 2. Stufe laufend ./. 3.925 €; § 16 1. Stufe 0 €, 2. Stufe ./. 51.250 €; nachträglich ./. 100 €; Randpunkte 5 + 5 + 4 + 3 + 3 + 2 = 22. Alle stimmig.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 12 Sachverhalte, 473 Blöcke, 46 Tabellen, 187 Punkte.
+
+Weiter mit: Prüfung 2013, Sachverhalt 5 (Gewerbesteuer; Aufgabe ab PDF-Seite 82, Lösung ab PDF-Seite 99).
+
 ### ESt-Originalklausuren 2013, Sachverhalt 3
 
 Übernommen: ESt-Originalklausur 2013 (Klausur E 18), Sachverhalt 3 (A in London, Wohnsitz und DBA-Großbritannien, 12 Punkte) – Aufgabe PDF-Seite 78, Lösung PDF-Seiten 90 und 91.
