@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 5 A. I und A. II (PDF-Seiten 97 bis 102)
+
+Übernommen: Teil 5 „Verdeckte Gewinnausschüttung“ mit neuer Teil-Konstante T5 – A. I Vorbemerkungen (Abschnitt 5-01) und A. II Definition der vGA mit Besonderheiten bei Darlehen (Abschnitt 5-02).
+
+- Stillschweigend berichtigt: „Dabei ist nicht erforderlich ist“; „Einkommensänderung von 0 vor“; fehlendes schließendes Anführungszeichen nach „Grundstück 100.000“; „anzuweisen“ → „auszuweisen“; „zu 40 % nicht abziehbar (= 16.000) nicht abziehbar“; „des Gelgebers kommt dann nicht in Betracht kommt“; zwei fehlende Satzpunkte.
+- Nachrechnung (eigene Ergänzung): 100.000 ./. 100.000 = 0; 25.000 € und 40.000 € (je 5 %); Teilwertabschreibungen 400.000 € und 700.000 €; 40 % von 40.000 € = 16.000 € – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 5 Teile, 33 Kapitel, 1162 Blöcke, 37 Tabellen.
+
+Weiter mit: Teil 5 A. III „vGA bei überhöhten Anschaffungskosten“ (ab PDF-Seite 103; Textfassung ab Zeile 6193).
+
 ### KSt-Kurz-Skript (Breier), Teil 4 B. II bis IV (PDF-Seiten 91 bis 96) – Teil 4 vollständig
 
 Übernommen: B. II (Ausnahme von der Steuerfreistellung nach früherer steuerwirksamer Teilwertabschreibung) und B. III (Verluste aus Beteiligungen) mit Merke-Übersicht als Abschnitt 4-09, B. IV (Verluste aus Forderungen einer Muttergesellschaft oder nahestehenden Gesellschaft, Nr. 1 bis 5) mit Merke als Abschnitt 4-10.

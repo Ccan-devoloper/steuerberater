@@ -1223,9 +1223,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Mitunternehmerschaft) sowie B. II bis IV (Steuerpflicht nach früherer steuerwirksamer
   Teilwertabschreibung, Verluste aus Beteiligungen, Verluste aus Gesellschafterdarlehen und
   Sicherheiten nach § 8b Abs. 3 S. 4 ff. KStG und § 3c Abs. 2 S. 2 ff. EStG) – Teil 4 damit
-  vollständig; zusammen 31 Abschnitte, 1079 Blöcke, 36 Tabellen.
-  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; die Teile 5 bis 10
-  werden abschnittsweise nachgetragen
+  vollständig; aus Teil 5 (verdeckte Gewinnausschüttung) die Vorbemerkungen und die
+  Definition mit den fünf Merkmalen und den Besonderheiten bei Darlehen – zusammen
+  33 Abschnitte, 1162 Blöcke, 37 Tabellen.
+  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 5 und
+  die Teile 6 bis 10 werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):
