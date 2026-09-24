@@ -20,7 +20,7 @@
    Block 9 (Besondere Umsätze im Binnenmarkt) vollständig, Block 10 (BMG & Änderung /
    Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) vollständig,
    Block 11 (Vorsteuerabzug) vollständig,
-   Block 12 (Berichtigung des Vorsteuerabzugs) begonnen.
+   Block 12 (Berichtigung des Vorsteuerabzugs) vollständig.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien

@@ -88,7 +88,7 @@ vorliegt –, wird ausgelassen und am Ende zusammen mit Abschnitt A zur Nachlief
      „Leibrentenverpflichtung“ (`1tUFPpsjhK8NAGnuXDXjBPeFDDCiSUvU8`, Lösung
      `1Wtg88rxCaffJgK1tcYkGvnVpfsimC2Rj`) und „Jahreswertbesteuerung § 23 ErbStG“
      (`1cqNN23uPB_aIuLzSJHrfDLOy1CRdeJkP`) mit den eingepflegten Hausaufgaben übereinstimmen;
-   - USt-Skript (Moecker), Blöcke 1 bis 13 – Blöcke 1 bis 7 vollständig, Block 8 Teil I und Teil II vollständig, Block 9 vollständig, Block 10 vollständig, Block 11 vollständig, Block 12 begonnen, Block 13 offen, siehe Protokoll.
+   - USt-Skript (Moecker), Blöcke 1 bis 13 – Blöcke 1 bis 7 vollständig, Block 8 Teil I und Teil II vollständig, Block 9 vollständig, Block 10 vollständig, Block 11 vollständig, Block 12 vollständig, Block 13 offen, siehe Protokoll.
 
 
 ### Klausur 2 – Einkommensteuer

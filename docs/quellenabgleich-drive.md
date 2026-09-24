@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: Arbeitspapiere A 13 bis A 16 – Block 12 vollständig
+
+Übernommen (PDF-Seiten 142 bis 145, Seiten gerendert und angesehen): Kapitel ust-m-b12-24 (A 13 und A 14 Berechnung und Vorgehensweise, Schritte 1 bis 3) und ust-m-b12-25 (A 15 Übung Kfz, A 16 Gesamtübersicht). Block 12 ist damit vollständig (25 Kapitel: Textteil I. bis XII., Arbeitspapiere A 1 bis A 16); Kopfkommentar, README, Campus-Text, Skript-Kopf und offene-quellen.md angepasst.
+
+- Quellenmarkierung: A 16 „unter 6.000 € => USt-Jahres-Erklärung / ab 6.000 € => USt-VA“ (nach § 44 Abs. 3 UStDV und A 2 der Quelle: bis 6.000 € Jahreserklärung, über 6.000 € Voranmeldung).
+- Stillschweigend berichtigt: „(A 15a.11 (5) UStAE)“ → „(Abschn. 15a.11 (5) UStAE)“ (A 13); „= 100 stpfl.“ → „= 100 % stpfl.“ (A 14).
+- Nachrechnungen (eigene Ergänzung): A 13 Verteilung stimmig; A 14 genau 97,78 % und 66,67 € (Quelle 97,77 % / 66,60 € durch Rundung), 800 € stimmig; A 15 63,33 € / 760 € / 380 € / 190 € stimmig.
+
+Prüfung danach: 13 Teile, 484 Kapitel, 6642 Blöcke, 378 Tabellen.
+
+Weiter mit: Block 13 (lokale Datei b13, 69 Seiten), neue Datei block13.js.
+
 ### USt-Skript (Moecker), Block 12: Arbeitspapiere A 9 bis A 12
 
 Übernommen (PDF-Seiten 138 bis 141, Seiten gerendert und angesehen): Kapitel ust-m-b12-22 (A 9 § 15a Abs. 4 UStG mit Mietvorauszahlung, A 10 § 15a Abs. 5 bis 10 UStG mit Halle) und ust-m-b12-23 (A 11 und A 12 Immobilien-Beispiele 5.1 bis 5.4). Zeitstrahl-Schaubilder als Tabellen wiedergegeben.

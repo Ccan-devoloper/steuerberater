@@ -2455,12 +2455,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   E-Rechnung, dem Abzug der Einfuhrumsatzsteuer, dem Ausschluss vom Vorsteuerabzug samt
   Ausnahmen, der Vorsteueraufteilung, den nicht abziehbaren Vorsteuern und dem Wegfall des
   Seeling-Modells (Textteil vollständig) und den Arbeitspapieren A 1 bis A 42 (54 Kapitel, vollständig);
-  Block 12 (Berichtigung des Vorsteuerabzugs nach § 15a UStG) begonnen mit Inhaltsverzeichnis,
+  Block 12 (Berichtigung des Vorsteuerabzugs nach § 15a UStG) vollständig mit Inhaltsverzeichnis,
   allgemeinen Grundsätzen, den Berichtigungsobjekten, der Abzugsberechtigung als Grundvoraussetzung und
   den Vereinfachungsregeln nach § 44 UStDV, dem maßgeblichen Berichtigungszeitraum, der Änderung der
   Verhältnisse, den Investitionsgütern, dem Leerstand, dem Berichtigungsverfahren, den nur einmalig
   verwendeten WG sowie Bestandteilen und sonstigen Leistungen an WG bis zu den Aufzeichnungspflichten (Textteil
-  vollständig) und den Arbeitspapieren A 1 bis A 12 (23 Kapitel);
+  vollständig) und den Arbeitspapieren A 1 bis A 16 (25 Kapitel, vollständig);
   Block 13 folgt.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die

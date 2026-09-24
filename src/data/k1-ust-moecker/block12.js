@@ -3,8 +3,8 @@
    2025); Block 12 mit Kopfzeilen „Block 12-Vorsteuerberichtigung-§15a-Vers.01.01.2026 / Red. 01.26“,
    PDF-Seiten 103 bis 145 der gemeinsamen Datei: Textteil Seiten 1 bis 27 (PDF-Seiten 103 bis 129),
    Arbeitspapiere A 1 bis A 16 (PDF-Seiten 130 bis 145).
-   In Arbeit: Textteil vollständig (I. bis XII., PDF-Seiten 103 bis 129); Arbeitspapiere eingepflegt bis
-   A 12 (PDF-Seite 141). */
+   Vollständig: Textteil I. bis XII. (PDF-Seiten 103 bis 129) und Arbeitspapiere A 1 bis A 16 (PDF-Seiten
+   130 bis 145). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -710,6 +710,81 @@ export const block12 = [
       ] },
       { text: "**Beweisvorsorge** für Verwendungsabsicht treffen" },
       { text: "Die Zeitstrahl-Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b12-24",
+    teil: TEIL,
+    kapitel: "24",
+    abschnittNr: "A 13 und A 14",
+    title: "Arbeitspapiere A 13 und A 14: Berechnung und Vorgehensweise (Schritte 1 bis 3)",
+    thema: "Ausgangsfall Gegenstand mit 20.000 € Vorsteuer, ursprüngliche Vorsteuer, Berichtigungszeitraum nach § 15a Abs. 5 UStG und gleichmäßige Verteilung (9/60, 12/60, 3/60), Vergleich Nutzungs- und Investitionsphase für das ganze Kalenderjahr, Änderung in 01 unter der Grenze des § 44 Abs. 2 UStDV, Berichtigung von 800 € ab 02",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 13 und A 14"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a Abs. 5, 8 und 9 UStG", "§ 44 Abs. 2 UStDV", "Abschn. 15a.11 Abs. 5 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerberichtigung", "Berechnung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 13 – 6. Berechnung und Vorgehensweise" },
+      { text: "**Ausgangsfall:**\n**Gegenstand mit Vorst 20.000 €, Anschaffung 1.2.01**\n**Beabsichtigte Nutzung 100% stpfl.**\n**Inbetriebnahme 1.4.01**\n**Tatsächliche Nutzung:**\n**1.04.01 - 30.11.01 = 100% stpfl.**\n**1.12.01 - 31.12.01 = 80% stpfl. / 20 % stfrei (schädlich)**" },
+      { text: "**1. Schritt: Ursprüngliche Vorst**\nVorst insg. in Rechnung gestellt 20.000 €\nursprünglicher Vorsteuerabzug in v.H. 100%" },
+      { text: "**2. Schritt: Berichtigungszeitraum festlegen und gleichmäßige Verteilung der VoSt**\nBerichtigungszeiträume § 15a (5)" },
+      { typ: "tabelle", spalten: ["5 Jahre (60 Monate)", "10 Jahre (120 Monate)", "kürzere ND"], zeilen: [
+        ["➔ gesetzlich typisierter Zeitraum", "➔ gesetzlich typisierter Zeitraum", "➔ kürzere ND ist zu berücksichtigen (z.B. betriebsgewöhnl. ND) ➔ tatsächliche ND bei Untergang (Beri-Betrag in einer Summe im letzten Jahr (Abschn. 15a.11 (5) UStAE))"],
+      ] },
+      { text: "**Verteilung der VorSt im Beispiel:**" },
+      { typ: "tabelle", spalten: ["Zeitraum", "Anteil", "Betrag"], zeilen: [
+        ["1.4.01 - 31.12.01", "09/60 v. 20.000 €", "3.000 €"],
+        ["1.1.02 - 31.12.02", "12/60 v. 20.000 €", "4.000 €"],
+        ["1.1.03 - 31.12.03", "12/60 v. 20.000 €", "4.000 €"],
+        ["1.1.04 - 31.12.04", "12/60 v. 20.000 €", "4.000 €"],
+        ["1.1.05 - 31.12.05", "12/60 v. 20.000 €", "4.000 €"],
+        ["1.1.06 - 31.03.06", "03/60 v. 20.000 €", "1.000 €"],
+        ["Summe", "", "20.000 €"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 14 – 3. Schritt: Vergleich Nutzungsphase ⇔ Investitionsphase" },
+      { text: "**Fragestellung:** ist ab ➔ Verwendung eine Änderung gegenüber den maßgebenden Verhältnissen in ➔ Investitionsphase eingetreten\n- durch Nutzungsänderung\n- durch Veräußerung / Entnahme (Beachte § 15a (8) und (9) UStG)\nMaßgebend sind die Verhältnisse des ganzen KJ der Verwendung" },
+      { text: "➔ **Nutzung in 01**\n**1.04.01 - 30.11.01 = 100 % stpfl.**\n**1.12.01 - 31.12.01 = 80 % stpfl. / 20% stfrei**\n**Lösung:**" },
+      { typ: "tabelle", spalten: ["anteilige Vorst für 01", "abzugsfähig in 01", "urspr. Vorst"], zeilen: [
+        ["3.000 € (= 09/60)", "100% x 8 Monate, 80% x 1 Monat = 880 : 9 = 97,77 %", "= 100 %"],
+        ["", "Änderung zuungunsten", "=> 2,22 %"],
+        ["", "in € somit", "=> 66,60 €"],
+        ["", "(Keine Änderung gem. § 44 (2) UStDV)", ""],
+      ] },
+      { text: "➔ **Nutzung in 02 und ff**\n**1.01.02 - 31.12.02 = 80 % stpfl. / 20% stfrei**\n**Lösung:**" },
+      { typ: "tabelle", spalten: ["anteilige Vorst für 02", "abzugsfähig in 02", "urspr. Vorst"], zeilen: [
+        ["4.000 € (= 12/60)", "80%", "= 100 %"],
+        ["", "Änderung zuungunsten", "=> 20 %"],
+        ["", "in € somit", "=> 800 €"],
+      ] },
+      { text: "Nachrechnung (eigene Ergänzung): Verteilung 3.000 + 4 × 4.000 + 1.000 = 20.000 € stimmig. In 01 genau 880 : 9 = 97,78 %; Änderung 2,22 % (genau 20/900), in € genau 3.000 € × 20/900 = 66,67 € (Quelle: 66,60 € wegen Rechnung mit gerundetem Prozentsatz). Die Änderung liegt unter 10 Prozentpunkten und der Betrag unter 1.000 €, daher keine Berichtigung. In 02: 20 % von 4.000 € = 800 €, Änderung 20 Prozentpunkte – Berichtigung." },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b12-25",
+    teil: TEIL,
+    kapitel: "25",
+    abschnittNr: "A 15 und A 16",
+    title: "Arbeitspapiere A 15 und A 16: Übung Kfz einer Handelsvertretung und Gesamtübersicht zur Prüfung des § 15a UStG",
+    thema: "Übung: Kfz mit 3.800 € Vorsteuer, Berichtigungszeitraum 01.04.04 bis 31.03.09, Verteilung 760 € je Jahr, Punkte-Methode für 05 (50 %) und 06 (75 %) mit Rückzahlung 380 € und 190 €; Gesamtübersicht: Eingangsleistung, Berichtigungsobjekt, Änderung im Überwachungszeitraum, Berichtigungsbetrag und Erklärung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 15 und A 16"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a Abs. 1 bis 4, 6 und 7 UStG", "§ 44 Abs. 1 bis 3 UStDV", "§ 4 Nr. 11 UStG"],
+    themen: ["Arbeitspapier", "Vorsteuerberichtigung", "Übung", "Übersicht"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 15 – Übung" },
+      { text: "**KFZ - Anschaffung am 01.04.04 für Handelsvertretung. AK = 20.000 + 3.800 USt; 100% Vorst.**\n① Berichtigungs-Ztr festlegen: 01.04.04 bis 31.03.09 = 60 Monate (maximal)\n② Verteilung Vorst (pro Monat 63,33 € / Jahr = 760 €)" },
+      { text: "**Ab 01.07.05 = nur Bspk. - Vertreter**\n③ Änderung der Verwendung ?\n01.01. – 30.06.05 = 6 x 100% Vorst = 600 Punkte\n01.07. – 31.12.05 = 6 x 0% Vorst = 0 Punkte\n12 Monate = 600 Punkte\n600 Punkte : 12 = 50 %\nErhalten 100% (760 €) Richtig 50% (380 €)\nRückzahlung (10%-Grenze erreicht) Jahreserkl. = 380 €" },
+      { text: "**Ab 01.01.06 = ¼ Bspk. – Vertreter / ¾ Agentur**\n③ Änderung der Verwendung ?\n01.01. – 31.12.06 = 12 x 75 % Vorst = 900 Punkte\n12 Monate = 900 Punkte\n900 Punkte : 12 = 75 %\nErhalten 100% (760 €) Richtig 75 % (570 €)\nRückzahlung (10%-Grenze erreicht) Jahreserkl. = 190 €" },
+      { text: "Nachrechnung (eigene Ergänzung): 3.800 € : 60 = 63,33 €; × 12 = 760 €; 50 % von 760 € = 380 €; 75 % von 760 € = 570 €, Differenz 190 €. Änderung 50 bzw. 25 Prozentpunkte (mindestens 10), Beträge nicht über 6.000 € – Jahreserklärung. Stimmig." },
+      { typ: "titel", text: "Arbeitspapier A 16 – Gesamtübersicht" },
+      { typ: "tabelle", spalten: ["Eingangsleistung", "pro Berichtigungs-Objekt (A 4 - A 13)", "& Änderung eingetreten bei", "& Berichtigungsbetrag (A 2)"], zeilen: [
+        ["Vorst 1000 Euro – Bagatellbetrag § 44 (1) UStDV", "§ 15a (1) = typisch Anlagevermögen; § 15a (2) = typisch Ware; § 15a (3) Satz 1 = Reparaturen; § 15a (4) = andere so. Leist.; § 15a (6) = nachtr. AK / HK; § 15a (7) = Wechsel 19 / 24 ⇔ Regel", "der Verwendung (Ausgang) im Überwachungszeitraum (A 3) max. - 120 Monate - 60 Monate ab der tatsächlichen Verwendung; zwischen unschädlich ⇕ schädlich z.B. durch Änderung - Nutzung - Veräußerung - Gesetz", "Mindestens § 44 (2) UStDV ⇨ 10% (Jahr) oder ⇨ größer 1.000 € (Jahr)"],
+        ["", "", "", "Welche Erklärung: Berichtigungsbetrag / Jahr § 44 (3) UStDV ⇨ unter 6.000 € => USt-Jahres-Erklärung; ⇨ ab 6.000 € oder Verkauf => USt-VA (so in der Quelle; nach § 44 Abs. 3 UStDV und A 2 der Quelle: bis 6.000 € Jahreserklärung, über 6.000 € Voranmeldung)"],
+      ] },
+      { text: "Die Übersicht ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];
