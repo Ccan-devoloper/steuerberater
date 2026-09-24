@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2015, Teil III (Müller Holzbau GmbH) – Reihe 2011–2015 vollständig
+
+Übernommen: Prüfung 2015, Teil III – Sachverhalt mit Mehr- und Wenigerrechnung und Bp-Bilanzen (PDF-Seiten 176 bis 181; Seiten 178 und 179 gerendert) und Lösung (PDF-Seiten 199 bis 204; Seiten 199 und 204 gerendert). Die „Anlage zu Teil I“ (PDF-Seiten 182 und 205) gehört zu Teil I.
+
+- Gekennzeichnet: Stichtage „31.12.2021 / 31.12.2022“ bei den teilfertigen Arbeiten (2023/2024), „Steuerbilanz zum 31.12.2021“ (31.12.2025), Haben-Betrag 21.000 € bei den passiven latenten Steuern (6.300 €).
+- Stillschweigend berichtigt: neun Schreibversehen (siehe Datensatz).
+- Nachrechnung (eigene Ergänzung): Mehr- und Wenigerrechnung 41.000 € / 69.000 €, Ausgleichsposten 110.000 €, Entstrickung 80.000 €, Auflösung und Mehr-AfA je 16.000 €, Pensionen 12.500 € / 22.500 € / 21.000 €, Latenzen 10.500 € / 6.300 €, Erlöskorrektur 27.060 € – alles stimmig. Randpunkte 33 (mit Teil I 34 und Teil II 34 zusammen 101 statt 100).
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 15 Aufgabenteile, 1228 Blöcke, 227 Tabellen, 500 Punkte.
+
+Damit sind die Drive-Quellen „Ertragsteuern 2011–2015“ und „Bilanzierung 2011–2015“ vollständig eingepflegt. Weiter mit: KSt-Kurzskript (Breier) ab S. 90.
+
 ### Bilanz-Originalklausuren 2015, Teil II (Althaus und Bauermann OHG)
 
 Übernommen: Prüfung 2015, Teil II – Sachverhalt mit Bilanzen 31.12.2024 und 31.12.2025 (PDF-Seiten 172 bis 174; Seiten 173 und 174 gerendert) und Lösung (PDF-Seiten 190 bis 198; Seiten 191 bis 194 und 196 bis 198 gerendert).

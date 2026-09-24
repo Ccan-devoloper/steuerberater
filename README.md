@@ -2309,7 +2309,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Gesamtpunktzahl nennt die Quelle nicht): erfolgswirksame Bilanzberichtigung 2024 (+ 6.000 €),
   Anteilsverkauf B an N mit Veräußerungsgewinn 378.000 € und Gewinnzuschlag 9.600 €, Ergänzungsbilanz
   A (§ 6b-Rücklage 120.000 €) und N (298.000 €, Verlust 2025 10.800 €), Sonderbilanz N (Gewinn
-  19.900 €) – festzustellender Gewinn 696.700 €. Alles nachgerechnet. Teil III 2015 folgt.
+  19.900 €) – festzustellender Gewinn 696.700 €. Alles nachgerechnet.
+  **Teil III der Prüfung 2015** (Müller Holzbau GmbH, 33 Punkte laut Randpunkten): Bp-Anpassung in
+  den Buchungskreisen „Alle Bereiche“, „Nur Steuerrecht“ und „Nur Handelsrecht“ mit Kürzung des
+  Einkommens um 110.000 €, Entstrickung nach § 12 Abs. 1 KStG (Gewinn 80.000 €, § 4g-Auflösung
+  16.000 €, Mehr-AfA Lodz 16.000 €), Pensionsübernahme (HB 145.000 €, StB 110.000 €, Rücklage 14/15
+  = 21.000 €, aktive latente Steuern 10.500 €, passive 6.300 €) und Ratenforderung zum Barwert
+  92.940 € (Erlöskorrektur 27.060 €). In der Quelle steht bei der passiven Latenz im Haben 21.000 €
+  statt 6.300 € – gekennzeichnet. Damit ist die **Reihe 2011–2015 vollständig**.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,
