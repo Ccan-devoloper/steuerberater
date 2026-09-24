@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Skript Termin 1 (Melzer), Kapitel 4 (PDF-Seiten 50 bis 82)
+
+Übernommen: Kapitel 4 „Bewertung“ – 4.1 Bewertungsmaßstäbe (Anschaffungskosten mit Sonderfällen, Herstellungskosten mit Divisions- und Zuschlagsverfahren, Abbruchkosten, nachträgliche und anschaffungsnahe Herstellungskosten, Teilwert mit Subtraktions- und Formelmethode, Zeitwert), 4.2 Einlagen und Entnahmen, 4.3 Sonderfall Kfz (Zuordnung, 1 %-Methode, Elektrofahrzeuge, Fahrtenbuch, Fahrten Wohnung – Betrieb, Umsatzsteuer), 4.4 außerplanmäßige Abschreibung/Teilwertabschreibung und Wertaufholung – 4 Einträge unter `TB4`.
+
+- Schaubilder gerendert und als Tabellen übernommen: „§ 9 b Abs. 1 EStG“ (Seite 51) und die Abbruch-Übersicht „Der Steuerpflichtige hat:“ (Seite 60, mit dem Kasten „Sonderfall: Teilabbruch“); die Variablenliste der Formelmethode (Seite 66) als Tabelle.
+- Gekennzeichnet: im Beispiel zur Fahrtenbuchmethode (Seite 73) die Zeile „2 Fahrten/Tag × 0,50 € × 21 Tage × 10 km … 2.520 €“ (ohne den Faktor 12 Monate) und die Ergebniszeile „abzugsfähige Betriebsausgaben 1.764 €“ (2.520 ./. 756 = 1.764 ist der nicht abziehbare Teil; abzugsfähig bleiben 756 €).
+- Stillschweigend berichtigt: „aufzustel len“; „liegte“; „zuruc̈ kgezahlt“ (zerlegter Umlaut); „Satz 1 HSatz 2 EStG“; „Substraktionsmethode“ (dreimal, sonst in der Quelle „Subtraktionsmethode“); Fortsetzungszeilen der Überschriften 4.3.4.3 und 4.4.5.3 angefügt.
+- Nachrechnung (eigene Ergänzung): Subtraktionsmethode 8.000 ./. 400 ./. 70 % × 9.000 = 1.300; Formelmethode 18.750 : 1,95 = 9.615; Listenpreis 43.000 × 1,19 = 51.170, Rabatt 10 % = 46.053, 1 % von 51.100 = 511, 12 % = 6.132; Fahrten 2 × 0,50 × 21 × 10 × 12 = 2.520, 0,03 % × 40.000 × 10 × 12 = 1.440, Entfernungspauschale 0,30 × 21 × 10 × 12 = 756, 1.440 ./. 756 = 684, 2.520 ./. 684 = 1.836; Umsatzsteuer 1 % × 12 × 80.000 = 9.600, ./. 20 % = 7.680, 50 % × 9.000 = 4.500 – stimmig bis auf die gekennzeichnete Stelle.
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 4 Teile, 16 Kapitel, 949 Blöcke, 57 Tabellen.
+
+Weiter mit: Kapitel 5 „Bilanzierung des abnutzbaren Anlagevermögens“ (PDF-Seiten 83 bis 97).
+
 ### Bilanz-Skript Termin 1 (Melzer), Kapitel 3 (PDF-Seiten 17 bis 49)
 
 Übernommen: Kapitel 3 „Ansatz dem Grunde nach“ – 3.1 Vermögensgegenstand/Wirtschaftsgut (immaterielle Wirtschaftsgüter, Firmenwert, Übersichten), 3.2 Zurechnung (zivilrechtliches und wirtschaftliches Eigentum, Kauf nach Miete, echter und unechter Mietkauf, Leasing mit Voll- und Teilamortisation, Zinsstaffelmethode, Umsatzsteuer), 3.3 Zuordnung (notwendiges und gewillkürtes Betriebsvermögen), 3.4 Themenkomplexe (Betriebsvorrichtungen und Außenanlagen, Gebäudeteile, Mietereinbauten, Gebäude auf fremdem Grund und Boden, Erbbaurecht, Zurechnung von Verbindlichkeiten), 3.5 Anlage- und Umlaufvermögen – 5 Einträge unter `TB3`.
