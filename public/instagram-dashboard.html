@@ -592,7 +592,7 @@
           <div>
             <div class="eyebrow">Vor Veröffentlichung prüfen</div>
             <h2>Vorproduktion · Feed &amp; Stories</h2>
-            <div class="panel-note">Original-Renderings aus dem Asset-Zweig – Carousel-Slides, Reels, Stories, Caption und geplanter Slot.</div>
+            <div class="panel-note" id="preproductionAccountNote">Original-Renderings aus dem Asset-Zweig – Carousel-Slides, Reels, Stories, Caption und geplanter Slot.</div>
           </div>
           <div class="preprod-controls">
             <label><span>Review-Tag</span><select class="filter-control" id="preproductionDate" aria-label="Vorproduktions-Tag auswählen"></select></label>
@@ -753,7 +753,7 @@
     <form class="auth-card" id="tokenForm">
       <div class="eyebrow">Slide-Editor · Schreibzugriff</div>
       <h2 style="font-size:21px">GitHub-Token</h2>
-      <p style="font-size:12px">Fine-grained Personal Access Token für <b>Ccan-devoloper/herrjurist</b> mit Berechtigung <b>Contents: Read &amp; Write</b>. Das Token bleibt ausschließlich in diesem Browser (localStorage) und wird nur an api.github.com gesendet.</p>
+      <p style="font-size:12px">Fine-grained Personal Access Token für <b id="tokenRepoName">das aktive Konto</b> mit Berechtigung <b>Contents: Read &amp; Write</b>. Das Token bleibt ausschließlich in diesem Browser (localStorage) und wird nur an api.github.com gesendet.</p>
       <div class="auth-row">
         <input class="auth-input" id="tokenInput" type="password" autocomplete="off" placeholder="github_pat_…" aria-label="GitHub-Token" />
         <button class="btn" type="submit">Speichern</button>
@@ -771,8 +771,8 @@
   "use strict";
 
   var ACCOUNTS={
-    herr:{name:"HerrJurist",summaryName:"HerrJurist",sub:"@herrjurist",repo:"Ccan-devoloper/herrjurist",accent:"#8f9cff"},
-    steuer:{name:"Steuerberater",summaryName:"Examenscampus",sub:"Examenscampus",repo:"Ccan-devoloper/steuerberater",accent:"#48c78e"}
+    herr:{name:"HerrJurist",summaryName:"HerrJurist",sub:"@herrjurist",repo:"Ccan-devoloper/herrjurist",accent:"#8f9cff",preproduction:true,igUser:"herrjurist",avatar:"HJ",fontPath:"fonts/"},
+    steuer:{name:"Steuerberater",summaryName:"Examenscampus",sub:"Examenscampus",repo:"Ccan-devoloper/steuerberater",accent:"#48c78e",preproduction:true,igUser:"examenscampus",avatar:"EC",fontPath:"social/fonts/"}
   };
   var REQUIRED_FILES=["ledger.json","follower.json","strategie.json","lernschleife.json","fehler.json","kosten.json"];
   var OPTIONAL_FILES=["insight-snapshots.json"];
@@ -950,7 +950,7 @@
       else if(REQUIRED_FILES.indexOf(f)>=0){out[k]=(k==="follower"||k==="fehler")?[]:{};out._errors.push(f+": "+(settled[i].reason&&settled[i].reason.message||"Fehler"));}
       else out[k]={version:1,medien:{},konto:[]};
     });
-    if(key==="herr"){
+    if(a.preproduction){
       out.vorproduktion={};
       var preBase="https://raw.githubusercontent.com/"+a.repo+"/instagram-assets/vorproduktion";
       try{
@@ -986,9 +986,10 @@
     document.documentElement.style.setProperty("--accent",ACCOUNTS[store.account].accent);
   }
   function renderViews(){
-    var preTab=$('[data-view="preproduction"]');
-    if(preTab)preTab.hidden=store.account!=="herr";
-    if(store.account!=="herr"&&store.view==="preproduction"){
+    var preTab=$('[data-view="preproduction"]'),a=ACCOUNTS[store.account];
+    var canPre=!!(a&&a.preproduction);
+    if(preTab)preTab.hidden=!canPre;
+    if(!canPre&&store.view==="preproduction"){
       store.view="content";
       localStorage.setItem("igDashView",store.view);
     }
@@ -1299,8 +1300,14 @@
     var now=new Date(),today=[now.getFullYear(),String(now.getMonth()+1).padStart(2,"0"),String(now.getDate()).padStart(2,"0")].join("-");
     return days.find(function(d){return d>=today;})||days[days.length-1]||"";
   }
+  function preproductionAccountKey(){
+    return (typeof ed!=="undefined"&&ed&&ed.open&&ed.account)||store.account;
+  }
+  function preproductionAccount(){
+    return ACCOUNTS[preproductionAccountKey()]||ACCOUNTS[store.account]||ACCOUNTS.herr;
+  }
   function preproductionBase(){
-    return "https://raw.githubusercontent.com/"+ACCOUNTS.herr.repo+"/instagram-assets/vorproduktion";
+    return "https://raw.githubusercontent.com/"+preproductionAccount().repo+"/instagram-assets/vorproduktion";
   }
   /* Pfade relativ zu instagram-assets/vorproduktion – dieselben Pfade nutzt
      der Slide-Editor für Commits über die GitHub-Contents-API. */
@@ -1310,19 +1317,20 @@
   function preproductionReelRel(date,slot){return date+"/fertig/"+slot+"/"+date+"-"+slot+".mp4";}
   function preproductionReelCoverRel(date,slot){return date+"/fertig/"+slot+"/"+date+"-"+slot+"-cover.jpg";}
   function storyAssetRel(date,s){return date+"/fertig/stories/"+s.slot+"-"+s.art+".jpg";}
+  function preproductionAssetVersionKey(rel){return preproductionAccountKey()+":"+rel;}
   function preproductionAssetUrl(rel){
-    var v=store.assetVersions[rel];
+    var v=store.assetVersions[preproductionAssetVersionKey(rel)];
     return preproductionBase()+"/"+rel.split("/").map(encodeURIComponent).join("/")+(v?"?r="+v:"");
   }
   /* Nach einem Editor-Commit: Cache von raw.githubusercontent.com umgehen,
      damit die bearbeitete Folie sofort in allen Vorschauen erscheint. */
   function bumpAssetVersion(rel){
-    store.assetVersions[rel]=Date.now();
+    store.assetVersions[preproductionAssetVersionKey(rel)]=Date.now();
     var cutoff=Date.now()-48*3600*1000;
     Object.keys(store.assetVersions).forEach(function(k){if(store.assetVersions[k]<cutoff)delete store.assetVersions[k];});
     try{localStorage.setItem("igDashAssetVer",JSON.stringify(store.assetVersions));}catch(e){/* egal */}
-    $$("img[data-asset]").forEach(function(img){if(img.dataset.asset===rel)img.src=preproductionAssetUrl(rel);});
-    $$("[data-asset-poster]").forEach(function(v){if(v.dataset.assetPoster===rel)v.poster=preproductionAssetUrl(rel);});
+    $("img[data-asset]").forEach(function(img){if(img.dataset.asset===rel)img.src=preproductionAssetUrl(rel);});
+    $("[data-asset-poster]").forEach(function(v){if(v.dataset.assetPoster===rel)v.poster=preproductionAssetUrl(rel);});
   }
   var STORY_ART_LABEL={frage:"Frage",antwort:"Antwort",teaser:"Teaser",norm:"Norm des Tages",streitstand:"Streitstand",merksatz:"Merksatz",begriff:"Begriff",zahl:"Zahl des Tages",umfrage:"Umfrage",quiz:"Quiz"};
   function sortedStories(day){
@@ -1354,7 +1362,7 @@
       '</div>';
   }
   function preproductionPost(day,date,planItem){
-    var slot=planItem.slot,content=day&&day.inhalte&&day.inhalte[slot]||{},caption=content.caption||"",hashtags=(content.hashtags||[]).join(" ");
+    var slot=planItem.slot,content=day&&day.inhalte&&day.inhalte[slot]||{},caption=content.caption||"",hashtags=(content.hashtags||[]).join(" "),a=ACCOUNTS[store.account]||{};
     var title=content.kurztitel||(content.folien&&content.folien[0]&&content.folien[0].titel)||(content.szenen&&content.szenen[0]&&content.szenen[0].titel)||planItem.themaTitel||slot;
     var type=(content.format==="reel"||Array.isArray(content.szenen))?"Reel":"Carousel";
     var slides=content.folien||[],thumbs="";
@@ -1365,11 +1373,11 @@
       }).join("")+'</div>';
     }
     return '<article class="ig-post">'+
-      '<div class="ig-post-head"><div class="ig-avatar">HJ</div><div class="ig-post-user"><b>herrjurist</b><span>Vorproduktion · '+esc(preproductionDayLabel(date))+' · '+esc(planItem.zeit||"ohne Zeit")+' · '+esc(content.fachLabel||planItem.fach||"")+'</span></div><div class="ig-more">•••</div></div>'+
+      '<div class="ig-post-head"><div class="ig-avatar">'+esc(a.avatar||"IG")+'</div><div class="ig-post-user"><b>'+esc(a.igUser||a.sub||a.name||"Instagram")+'</b><span>Vorproduktion · '+esc(preproductionDayLabel(date))+' · '+esc(planItem.zeit||"ohne Zeit")+' · '+esc(content.fachLabel||planItem.fach||"")+'</span></div><div class="ig-more">•••</div></div>'+
       preproductionMedia(day,date,slot,content)+
       thumbs+
       '<div class="ig-actions" aria-hidden="true"><span>♡</span><span>○</span><span>⌁</span><span class="save">♧</span></div>'+
-      '<div class="ig-caption"><b>herrjurist</b>'+esc(caption)+(hashtags?'\n<span class="hashtags">'+esc(hashtags)+'</span>':"")+'</div>'+
+      '<div class="ig-caption"><b>'+esc(a.igUser||a.sub||a.name||"Instagram")+'</b>'+esc(caption)+(hashtags?'\n<span class="hashtags">'+esc(hashtags)+'</span>':"")+'</div>'+
       '<div class="ig-meta">'+esc(type)+' · geplant '+esc(preproductionDayLabel(date))+' '+esc(planItem.zeit||"")+' · '+esc(title)+'</div>'+
       '</article>';
   }
@@ -1413,10 +1421,12 @@
     box.innerHTML=chips.join("");
   }
   function renderPreproduction(data){
-    var panel=$("#preproductionPanel");
+    var panel=$("#preproductionPanel"),a=ACCOUNTS[store.account];
     if(!panel)return;
-    if(store.account!=="herr"){panel.hidden=true;return;}
+    if(!a||!a.preproduction){panel.hidden=true;return;}
     panel.hidden=false;
+    var accountNote=$("#preproductionAccountNote");
+    if(accountNote)accountNote.textContent=(a.summaryName||a.name)+" · Original-Renderings aus "+a.repo+"/instagram-assets/vorproduktion";
     var index=data.vorproduktionIndex||{tage:[]},days=index.tage||[],select=$("#preproductionDate"),status=$("#preproductionStatus"),feed=$("#preproductionFeed");
     if(!days.length){
       select.innerHTML="";
@@ -1454,7 +1464,7 @@
     feed.innerHTML=html;
   }
   async function loadPreproductionDay(date){
-    var data=store.data.herr;
+    var data=store.data[store.account];
     if(!data||!date)return;
     store.reviewDate=date;
     localStorage.setItem("igDashReviewDate",date);
@@ -1508,7 +1518,7 @@
   function ghToken(){return localStorage.getItem(GH_TOKEN_KEY)||"";}
   function repoPathFor(rel){return "vorproduktion/"+rel;}
   function ghContentsUrl(rel){
-    return "https://api.github.com/repos/"+ACCOUNTS.herr.repo+"/contents/"+repoPathFor(rel).split("/").map(encodeURIComponent).join("/");
+    return "https://api.github.com/repos/"+preproductionAccount().repo+"/contents/"+repoPathFor(rel).split("/").map(encodeURIComponent).join("/");
   }
   function ghFetch(url,opt){
     opt=opt||{};
@@ -1525,6 +1535,7 @@
   var tokenModalThen=null;
   function openTokenModal(then){
     tokenModalThen=then||null;
+    $("#tokenRepoName").textContent=preproductionAccount().repo;
     $("#tokenModal").hidden=false;$("#tokenError").textContent="";
     $("#tokenInput").value=ghToken();$("#tokenInput").focus();
   }
@@ -1533,11 +1544,11 @@
      Die gerenderte Folie ist die Basisebene; darüber liegen frei bewegliche
      Text- und Abdeck-Elemente. Beim Speichern wird alles zu einem JPEG
      zusammengeführt und die Original-Datei im Asset-Zweig ersetzt. */
-  var ED_FONT_BASE="https://raw.githubusercontent.com/"+ACCOUNTS.herr.repo+"/main/fonts/";
+  function editorFontBase(){var a=preproductionAccount();return "https://raw.githubusercontent.com/"+a.repo+"/main/"+(a.fontPath||"fonts/");}
   var ED_FONTS=[["Anton","Anton.ttf","400"],["Oswald","Oswald.ttf","200 700"],["Space Grotesk","SpaceGrotesk.ttf","300 700"],["Caveat","Caveat.ttf","400 700"],["IBM Plex Sans","IBMPlexSans.ttf","100 700"],["IBM Plex Serif","IBMPlexSerif-SemiBold.ttf","600"],["IBM Plex Serif","IBMPlexSerif-Bold.ttf","700"],["IBM Plex Mono","IBMPlexMono-Medium.ttf","400 500"],["Inter","Inter.ttf","100 900"]];
   var ED_FAMILIES=["IBM Plex Sans","IBM Plex Serif","IBM Plex Mono","Anton","Oswald","Space Grotesk","Caveat","Inter"];
   var ED_SWATCHES=["#0b0b0d","#ffffff","#f6f2e9","#12233f","#141a3a","#d6ff4a","#2d5be3","#ff7a45","#23d98b","#f2c94c","#6b4bd6","#c8102e"];
-  var ed={open:false,pages:[],page:-1,rel:"",label:"",ctx:null,img:null,base:null,baseRel:"",hasSidecar:false,w:0,h:0,scale:1,fit:true,els:[],sel:-1,editing:-1,hist:[],histI:-1,savedAt:0,idSeq:1,pick:false,lastFill:"#f6f2e9",saving:false,panel:"",pexels:{q:"",page:1,photos:[],busy:false,err:"",total:0},dayImages:null};
+  var ed={open:false,account:"",pages:[],page:-1,rel:"",label:"",ctx:null,img:null,base:null,baseRel:"",hasSidecar:false,w:0,h:0,scale:1,fit:true,els:[],sel:-1,editing:-1,hist:[],histI:-1,savedAt:0,idSeq:1,pick:false,lastFill:"#f6f2e9",saving:false,panel:"",pexels:{q:"",page:1,photos:[],busy:false,err:"",total:0},dayImages:null};
   var edImgCache={};
   /* Bilder (Fotos, Icon-SVGs) CORS-sauber vorladen, damit der Canvas-Export
      nicht "tainted" wird. data:-URLs brauchen kein crossOrigin. */
@@ -1568,15 +1579,17 @@
     var d=await crypto.subtle.digest("SHA-256",buf);
     return Array.from(new Uint8Array(d)).map(function(b){return b.toString(16).padStart(2,"0");}).join("");
   }
-  var edFontsPromise=null;
+  var edFontsPromise={};
   function loadEditorFonts(){
-    if(edFontsPromise)return edFontsPromise;
-    edFontsPromise=Promise.allSettled(ED_FONTS.map(function(f){
-      var face=new FontFace(f[0],'url("'+ED_FONT_BASE+f[1]+'")',{weight:f[2]});
+    var key=preproductionAccountKey();
+    if(edFontsPromise[key])return edFontsPromise[key];
+    var base=editorFontBase();
+    edFontsPromise[key]=Promise.allSettled(ED_FONTS.map(function(f){
+      var face=new FontFace(f[0],'url("'+base+f[1]+'")',{weight:f[2]});
       document.fonts.add(face);
       return face.load();
     }));
-    return edFontsPromise;
+    return edFontsPromise[key];
   }
   var edMeas=document.createElement("canvas").getContext("2d");
   function edFont(el){return (el.italic?"italic ":"")+el.weight+" "+el.size+'px "'+el.font+'"';}
@@ -2473,7 +2486,13 @@
     var wrap=$("#edStageWrap");
     return Math.max(0.04,Math.min((wrap.clientWidth-44)/ed.w,(wrap.clientHeight-44)/ed.h,1));
   }
-  function edDraftKey(rel){return "igDashDraft:"+rel;}
+  function edDraftKey(rel){return "igDashDraft:"+(ed.account||store.account)+":"+rel;}
+  function edLegacyDraftKey(rel){return "igDashDraft:"+rel;}
+  function edDraftRead(rel){
+    var raw=localStorage.getItem(edDraftKey(rel));
+    if(!raw&&(ed.account||store.account)==="herr")raw=localStorage.getItem(edLegacyDraftKey(rel));
+    return raw;
+  }
   function edSaveDraft(){
     if(!ed.open||!ed.rel)return;
     try{
@@ -2482,13 +2501,18 @@
       localStorage.setItem(edDraftKey(ed.rel),s);
     }catch(e){/* voll */}
   }
-  function edClearDraft(rel){try{localStorage.removeItem(edDraftKey(rel));}catch(e){/* egal */}}
+  function edClearDraft(rel){
+    try{
+      localStorage.removeItem(edDraftKey(rel));
+      if((ed.account||store.account)==="herr")localStorage.removeItem(edLegacyDraftKey(rel));
+    }catch(e){/* egal */}
+  }
   /* ---------------- Seitenverwaltung: alle Folien eines Beitrags sind im
        Editor untereinander sichtbar (wie Canva-Seiten); genau eine ist aktiv
        und voll editierbar, die anderen zeigen eine Live-Vorschau. ---------- */
   var ED_PAGE_KEYS=["rel","label","ctx","els","hist","histI","savedAt","savedTs","img","w","h","base","layout","usedHits","hasSidecar","baseRel","idSeq","loadWarn"];
   function preproductionDayContent(date,slot){
-    var data=store.data.herr,day=data&&data.vorproduktion&&data.vorproduktion[date];
+    var data=store.data[ed.account||store.account],day=data&&data.vorproduktion&&data.vorproduktion[date];
     return (day&&day.inhalte&&day.inhalte[slot])||null;
   }
   function edPageDirty(p){return !!(p&&p.state&&p.state.histI>=0&&p.state.histI!==p.state.savedAt);}
@@ -2599,6 +2623,7 @@
       edDiscardAllDrafts();
     }
     ed.open=true;
+    ed.account=store.account;
     /* Seitenliste aufbauen: beim Carousel alle Folien des Beitrags,
        bei Stories und Reel-Covern genau eine Seite. */
     ed.pages=[];ed.page=-1;
@@ -2671,7 +2696,7 @@
     if(!ed.open||ed.rel!==rel)return;
     /* Nicht gespeicherter Entwurf aus einer abgebrochenen Sitzung? */
     try{
-      var draft=JSON.parse(localStorage.getItem(edDraftKey(rel))||"null");
+      var draft=JSON.parse(edDraftRead(rel)||"null");
       if(draft&&Array.isArray(draft.els)&&draft.t>(ed.savedTs||0)&&JSON.stringify(draft.els)!==JSON.stringify(ed.els)&&confirm("Für diese Folie liegt ein nicht gespeicherter Entwurf vor – wiederherstellen?")){
         ed.els=draft.els.map(edNormalizeEl);
         draftRestored=true;
@@ -2893,7 +2918,7 @@
   /* Mehrere Dateien in EINEM Commit auf instagram-assets schreiben
      (Git-Data-API: Blobs → Tree → Commit → Ref). */
   async function ghCommitFiles(files,message){
-    var repo="https://api.github.com/repos/"+ACCOUNTS.herr.repo;
+    var repo="https://api.github.com/repos/"+preproductionAccount().repo;
     var blobs=await Promise.all(files.map(function(f){
       return ghGitJson(repo+"/git/blobs",{method:"POST",body:JSON.stringify(f.b64!=null?{content:f.b64,encoding:"base64"}:{content:f.text,encoding:"utf-8"})});
     }));
@@ -3350,11 +3375,11 @@
     var items=[];
     /* 1) Motivarchiv: die freigestellten Motive des Kanals (state/motive) */
     try{
-      var r=await fetch("https://raw.githubusercontent.com/"+ACCOUNTS.herr.repo+"/instagram-assets/state/motive/motive.json?v="+Date.now(),{cache:"no-store"});
+      var r=await fetch("https://raw.githubusercontent.com/"+preproductionAccount().repo+"/instagram-assets/state/motive/motive.json?v="+Date.now(),{cache:"no-store"});
       if(r.ok){
         var mj=await r.json();
         (mj.motive||[]).slice().reverse().forEach(function(m){
-          if(m&&m.datei)items.push({name:m.szene||m.datei,url:"https://raw.githubusercontent.com/"+ACCOUNTS.herr.repo+"/instagram-assets/state/motive/"+encodeURIComponent(m.datei)});
+          if(m&&m.datei)items.push({name:m.szene||m.datei,url:"https://raw.githubusercontent.com/"+preproductionAccount().repo+"/instagram-assets/state/motive/"+encodeURIComponent(m.datei)});
         });
       }
     }catch(e){/* Archiv nicht erreichbar */}
@@ -3362,7 +3387,7 @@
     try{
       var date=ed.rel.split("/")[0];
       var headers=ghToken()?{Authorization:"Bearer "+ghToken()}:{};
-      var r2=await fetch("https://api.github.com/repos/"+ACCOUNTS.herr.repo+"/contents/vorproduktion/"+encodeURIComponent(date)+"/rohbilder?ref=instagram-assets",{headers:headers});
+      var r2=await fetch("https://api.github.com/repos/"+preproductionAccount().repo+"/contents/vorproduktion/"+encodeURIComponent(date)+"/rohbilder?ref=instagram-assets",{headers:headers});
       if(r2.ok){
         var list=await r2.json();
         (Array.isArray(list)?list:[]).filter(function(f){return /\.(png|jpe?g|webp)$/i.test(f.name);})
@@ -3434,7 +3459,7 @@
   }
   function edSourceTexts(){
     var date=ed.rel.split("/")[0],ctx=ed.ctx||{};
-    var day=store.data.herr&&store.data.herr.vorproduktion&&store.data.herr.vorproduktion[date];
+    var data=store.data[ed.account||store.account],day=data&&data.vorproduktion&&data.vorproduktion[date];
     var content=day&&day.inhalte&&ctx.slot?day.inhalte[ctx.slot]:null;
     if(!content)return null;
     var src=ctx.kind==="slide"?((content.folien||[])[(ctx.index||1)-1]||content):content;
@@ -3608,7 +3633,7 @@
     if(!data){setStatus("Für dieses Konto konnten noch keine Daten geladen werden.","warn");return;}
     renderRange(data);renderOverviewKpis(data);renderProfileBrief(data);renderTrend(data);renderInsights(data);renderTypeCompare(data);renderContent(data);renderPreproduction(data);renderLearnings(data);renderStories(data);renderAudience(data);renderSystem(data);renderDrawer(data);
     var errs=data._errors&&data._errors.length||0,set=validSelectedDay(data);
-    if(store.view==="preproduction"&&store.account==="herr"){
+    if(store.view==="preproduction"&&ACCOUNTS[store.account]&&ACCOUNTS[store.account].preproduction){
       var preStand=data.vorproduktionIndex&&data.vorproduktionIndex.stand;
       setStatus(data._preproductionError?data._preproductionError:("Vorproduktion · Review-Stand "+(preStand||"–")),data._preproductionError?"warn":"ok");
     }else{
@@ -3634,7 +3659,7 @@
   $("#contentTable").addEventListener("click",function(e){var tr=e.target.closest("[data-media]");if(!tr)return;store.selectedMedia=tr.dataset.media;var data=store.data[store.account];if(data)renderDrawer(data);});
   $("#preproductionDate").addEventListener("change",function(e){if(e.target.value)loadPreproductionDay(e.target.value);});
   $("#preproductionFeed").addEventListener("click",function(e){
-    var data=store.data.herr,date=store.reviewDate,day=data&&data.vorproduktion&&data.vorproduktion[date];
+    var data=store.data[store.account],date=store.reviewDate,day=data&&data.vorproduktion&&data.vorproduktion[date];
     var edit=e.target.closest("[data-edit]");
     if(edit){
       if(edit.dataset.edit==="slide"){
