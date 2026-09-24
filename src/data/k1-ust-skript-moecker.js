@@ -19,7 +19,7 @@
    Block 8 Teil II (Steuerfreie Umsätze ohne Vorsteuerabzug, § 9 UStG) vollständig,
    Block 9 (Besondere Umsätze im Binnenmarkt) vollständig, Block 10 (BMG & Änderung /
    Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) vollständig,
-   Block 11 (Vorsteuerabzug) begonnen.
+   Block 11 (Vorsteuerabzug) vollständig.
    Der Campus weist den Stand aus.
 
    HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien

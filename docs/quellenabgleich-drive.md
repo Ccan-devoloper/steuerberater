@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 41 und A 42 – Block 11 vollständig
+
+Übernommen (PDF-Seiten 101 und 102, Seiten gerendert und angesehen): Kapitel ust-m-b11-54 (A 41 nicht abziehbare Vorsteuer nach § 15 Abs. 1a UStG mit Geschenken, A 42 Wegfall der Seeling-Modelle mit den Punkten ❶ bis ❻). Schaubilder als Tabellen wiedergegeben. Block 11 ist damit vollständig (54 Kapitel: Textteil I. bis VIII., Arbeitspapiere A 1 bis A 42); Kopfkommentar, README, Campus-Text und offene-quellen.md entsprechend angepasst.
+
+- Hinweis (eigene Ergänzung): A 41 unterscheidet nur „> 50 €“ und „< 50 €“; die 50-€-Grenze ist eine Freigrenze, genau 50 € sind unschädlich.
+- Keine Quellenfehler, keine Zahlen zum Nachrechnen.
+
+Prüfung danach: 12 Teile, 459 Kapitel, 6361 Blöcke, 351 Tabellen.
+
+Weiter mit: Block 12 (Vorsteuerberichtigung nach § 15a UStG), PDF-Seiten 103 bis 145 der gemeinsamen Datei.
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 37 bis A 40
 
 Übernommen (PDF-Seiten 97 bis 100, Seiten gerendert und angesehen, Bildseite 97 in höherer Auflösung): Kapitel ust-m-b11-52 (A 37 Problem 1 Aufteilungsvolumen, A 38 Problem 2 Aufteilungsmethoden mit BFH-Rechtsprechung) und ust-m-b11-53 (A 39 die drei Aufteilungsschlüssel, A 40 Vorsteuer aus nachträglichen AK/HStK mit Dachgeschossausbau und Aufzug). Schaubilder als Tabellen wiedergegeben.

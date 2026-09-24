@@ -4,8 +4,8 @@
    Vers. 01.01.2026 / Stand 11-25“ bzw. „Block 11-Vorst-Vers.01.01.26 - Red.11-25“, PDF-Seiten 2 bis
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
-   In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 40 (PDF-Seite 100). */
+   Vollständig: Textteil I. bis VIII. (PDF-Seiten 2 bis 60) und Arbeitspapiere A 1 bis A 42 (PDF-Seiten
+   61 bis 102). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1714,6 +1714,44 @@ export const block11 = [
       { text: "➔ Gesamtfläche nach Umbau = 55% steuerpflichtig / 45% steuerfrei\n➔ ❶ Ausbau, ❷ Aufzug, = **jeweils** „nachträgliche“ Anschaffungs - / Herstellungskosten\n**Vorst** (keine direkte Zuordnung; Zusammenfassung) **in Höhe von ❶ 2/3 ❷ 55%**" },
       { text: "Das Schaubild ist nach Ansicht der Seite als Tabelle wiedergegeben; in der Skizze stehen über dem Dach zusätzlich zwei Angaben „50%“ mit Pfeilen auf die beiden Teile des Dachgeschosses (eigene Ergänzung zur Darstellung)." },
       { text: "Nachrechnung (eigene Ergänzung): Unter der Annahme gleich großer Geschosse ergibt sich nach dem Umbau ein steuerpflichtiger Anteil von 1/3 (EG) + 1/3 × 2/3 (2.OG) = 5/9 = 55,56 % und ein steuerfreier Anteil von 44,44 %; die Quelle nennt 55 % / 45 %." },
+    ],
+  },
+  {
+    id: "ust-m-b11-54",
+    teil: TEIL,
+    kapitel: "54",
+    abschnittNr: "A 41 und A 42",
+    title: "Arbeitspapiere A 41 und A 42: Nicht abziehbare Vorsteuer (§ 15 Abs. 1a UStG) und Wegfall der sog. Seeling-Modelle",
+    thema: "Ausschluss für Aufwendungen i.S.d. § 4 Abs. 5 Nr. 1 bis 4 und 7 EStG sowie § 12 Nr. 1 EStG, kein Ausschluss für Fahrten Wohnung/Betrieb, Arbeitszimmer und Verpflegung; Geschenke über und unter 50 € mit Folgen für Vorsteuer und unentgeltliche Wertabgabe, § 17 Abs. 2 Nr. 5 UStG; gemischt genutzte Gebäude nach dem 31.12.2010: Zuordnung, Ausschluss nach § 15 Abs. 1b UStG, Aufteilung, keine UWA, Berichtigung nach § 15a Abs. 6a und 8 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 41 und A 42"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1a UStG", "§ 15 Abs. 1b UStG", "§ 15 Abs. 4 UStG", "§ 3 Abs. 1b UStG", "§ 3 Abs. 9a Nr. 1 UStG", "§ 15a Abs. 6a und 8 UStG", "§ 17 Abs. 2 Nr. 5 UStG", "§ 27 Abs. 16 UStG", "§ 4 Abs. 5 EStG", "§ 12 Nr. 1 EStG", "Abschn. 15.2c Abs. 2 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "nicht abziehbare Vorsteuer", "Geschenke", "Seeling-Modell"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 41 – 11. Nicht abziehbare Vorst - § 15 (1a)" },
+      { typ: "tabelle", spalten: ["⇨ i.S.d. § 4 Abs. 5 EStG", "⇨ i.S.d. § 4 Abs. 5 Nr. 7 EStG", "⇨ i.S.d. § 12 Nr. 1 EStG"], zeilen: [
+        ["Nr. 1 ➔ Geschenke; Nr. 2 ➔ unangemessene Bewirtung; Nr. 3 u 4 ➔ Yacht", "➔ unangemessene Aufwendungen", "➔ Repräsentationsaufwand"],
+        ["☝ Beachte: Fahrten Wohnung / Betrieb, Arbeitszimmer, Verpflegungsaufwand ⇨ Kein Ausschluss", "", ""],
+      ] },
+      { text: "**Geschenke**\n**Beispiele:** Weihnachten, Geburtstag, Aufmerksamkeiten ➔ an Kunden, Zulieferer, Geschäftsfreunde usw." },
+      { typ: "tabelle", spalten: ["", "aber AK / HStK > 50 € (netto)", "und AK / HStK < 50 € (netto)"], zeilen: [
+        ["Vorsteuer", "Keine Vorsteuer § 15 (1a) bzw. keine Berechtigung § 15 (1)", "Vorst"],
+        ["Ausgangsseite", "und keine USt § 3 (1b) Satz 2", "und keine USt § 3 (1b) Nr. 3 da geringer Wert"],
+      ] },
+      { text: "☝ Geschenke => Sachgeschenke oder Leistungsgeschenke (Eintrittskarten, Restaurant, Flugreise)\n☝ Bei späterer Verwendung als Geschenk => § 17 (2) 5 UStG" },
+      { text: "Hinweis (eigene Ergänzung): Die Grenze von 50 € ist nach § 4 Abs. 5 Satz 1 Nr. 1 EStG eine Freigrenze; Geschenke mit AK/HStK von genau 50 € (netto) sind danach noch unschädlich. Die Quelle unterscheidet nur „> 50 €“ und „< 50 €“." },
+      { typ: "titel", text: "Arbeitspapier A 42 – 12. Wegfall der sog. „Seeling-Modelle“" },
+      { text: "**In Anschaffungs- (Vertrag) oder Herstellungsfällen (Bauantrag) nach dem 31.12.2010 ➔ § 27 Abs. 16 UStG**" },
+      { typ: "tabelle", spalten: ["Nr.", "Stichwort", "Inhalt"], zeilen: [
+        ["❶", "Zuordnung", "Ab. 15.2c (2) UStAE: Zuordnung 100% zum UV ➔ ausdrücklich zu erklären"],
+        ["❷", "Vorsteuerausschluss", "Gem. § 15 Abs. 1b UStG. Soweit nicht auf untern. Nutzung entfällt. (bezogen auf den unternehmensfremden Teil ➔ Private Nutzung)"],
+        ["❸", "Vorsteueraufteilung", "Gem. § 15 Abs. 4 UStG. Grundsätze des Abs. 4 gelten entsprechend. Damit Aufteilung nach Fläche"],
+        ["❹", "Keine UWA", "§ 3 (9a) Nr. 1"],
+        ["❺", "Vorsteuerberichtigung gem. § 15a Abs. 6a", "➔ bei Nutzungsänderung mehr / weniger ➔ zu Gunsten nur, wenn 100% - Zuordnung UV"],
+        ["❻", "Vorsteuerberichtigung gem. § 15a Abs. 8", "➔ bei Veräußerung / Entnahme möglich"],
+      ] },
+      { text: "Die Skizze zeigt ein Gebäude mit einem unternehmensfremden Teil (➔ Private Nutzung) und einem Teil mit unternehmerischer Nutzung, auf die die Kästen ❶ bis ❻ mit Pfeilen verweisen. Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

@@ -2448,13 +2448,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   dem ermäßigten Steuersatz nach § 12 Abs. 2 UStG, dem Nullsteuersatz für PV-Anlagen und der
   Änderung der BMG nach § 17 UStG und den Durchschnittssätzen nach § 24 UStG (Textteil
   vollständig) sowie Arbeitspapieren A 1 bis A 36 (72 Kapitel, vollständig), Block 11
-  (Vorsteuerabzug) begonnen mit Inhaltsverzeichnis, Aufbau des § 15 UStG, der persönlichen
+  (Vorsteuerabzug) vollständig mit Inhaltsverzeichnis, Aufbau des § 15 UStG, der persönlichen
   Voraussetzung „Unternehmer“, dem Bezug für das Unternehmen und der Zuordnung gemischt
   genutzter Leistungsbezüge, der Gesamttätigkeit, den Immobilien und dem Vorsteuerabzug aus
   Rechnungen samt Sonderfällen, Zeitpunkt, Bauten auf fremdem Grund, Gemeinschaften und der
   E-Rechnung, dem Abzug der Einfuhrumsatzsteuer, dem Ausschluss vom Vorsteuerabzug samt
   Ausnahmen, der Vorsteueraufteilung, den nicht abziehbaren Vorsteuern und dem Wegfall des
-  Seeling-Modells (Textteil vollständig) und den Arbeitspapieren A 1 bis A 40 (53 Kapitel);
+  Seeling-Modells (Textteil vollständig) und den Arbeitspapieren A 1 bis A 42 (54 Kapitel, vollständig);
   Blöcke 12 und 13 folgen.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
