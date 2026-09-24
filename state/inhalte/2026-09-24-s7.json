@@ -4,15 +4,14 @@
   "fach": "kst",
   "klausur": 2,
   "pairId": "kst-modul-kst-8",
-  "titel": "Streubesitzgrenze auf Anteilsveräußerung übertragen",
-  "falsch": "Die 10-%-Streubesitzgrenze für Dividenden wird auch auf den Veräußerungsgewinn angewendet – Freistellung deshalb versagt.",
-  "richtigText": "Bei Anteilsveräußerungen gilt keine Mindestbeteiligungsquote: Freistellung nach § 8b (2) S. 1 KStG immer, 5 % gelten pauschal als nicht abziehbar (§ 8b (3) S. 1 KStG).",
-  "icon": "kurve-runter",
+  "titel": "10-%-Streubesitzgrenze auch bei Veräußerungsgewinnen prüfen",
+  "falsch": "Die 10-%-Grenze aus § 8b (4) KStG wird auch auf den Veräußerungsgewinn angewendet und die Freistellung deshalb verneint.",
+  "richtigText": "§ 8b (4) KStG betrifft nur Dividenden. Veräußerungsgewinne sind nach § 8b (2) S. 1 KStG *unabhängig* von jeder Beteiligungsquote steuerfrei – nur 5 % gelten nach § 8b (3) S. 1 KStG als nicht abziehbar.",
+  "icon": "kurve-hoch",
   "fachLabel": "Körperschaftsteuer",
   "befundeTypisiert": true,
   "beanstandetFachlich": [
-    "[Story s7] – Aussage zur Freistellung nach § 8b (2) S. 1 KStG: Die Aussage, dass bei Anteilsveräußerungen \"Freistellung nach § 8b (2) S. 1 KStG immer\" erfolgt, ist falsch. § 8b Abs. 2 KStG setzt voraus, dass die Beteiligung mindestens 1 % des Nominalkapitals beträgt (§ 8b Abs. 2 S. 1 KStG). Ohne diese Mindestbeteiligung entfällt die Freistellung. Die 10-%-Streubesitzgrenze des § 8b Abs. 4 KStG gilt zwar für Dividenden (§ 8b Abs. 3 KStG), aber auch eine Beteiligung unter 1 % führt nicht zur Freistellung im Sinne des § 8b Abs. 2. → Freistellung nach § 8b Abs. 2 S. 1 KStG setzt eine Beteiligung von mindestens 1 % voraus. Ohne diese Quote entfällt die Freistellung, unabhängig davon, ob die 10-%-Streubesitzgrenze erreicht wird.",
-    "[Story s7] – Markierung von \"falsch=Die 10-%-Streubesitzgrenze...\" als falsch: Der als \"falsch\" markierte Text entspricht tatsächlich der geltenden Rechtslage: Die 10-%-Streubesitzgrenze des § 8b Abs. 4 KStG gilt nur für Dividenden (Einkünfte aus Beteiligungen nach § 8b Abs. 3 KStG), nicht für Veräußerungsgewinne. Für letztere gilt die Freistellung nach § 8b Abs. 2 KStG mit ihrer 1-%-Beteiligungsquote. Daher ist die als \"falsch\" markierte Aussage inhaltlich richtig – sie gehört nicht unter \"falsch\", sondern unter \"richtigText\" oder sie stimmt mit der Kernaussage überein. → Klärung: Die 10-%-Streubesitzgrenze gilt nur für Dividenden. Auf Veräußerungsgewinne findet § 8b Abs. 4 KStG keine Anwendung. Die als \"falsch\" gekennzeichnete Aussage ist fachlich korrekt und darf nicht als falsch markiert sein."
+    "[s7 fehler]: Die als \"richtig\" markierte Antwort enthält eine fehlende Voraussetzung: § 8b (2) S. 1 KStG sieht die Steuerfreiheit von Veräußerungsgewinnen nur vor, wenn die Beteiligungsquote mindestens 1 % beträgt (§ 8b (2) S. 1 KStG: \"soweit auf die Beteiligung ein Betrag von mindestens 1 v. H. des Nennkapitals entfällt\"). Die Aussage, Veräußerungsgewinne seien \"unabhängig von jeder Beteiligungsquote\" steuerfrei, ist daher falsch. → Die korrekte Aussage muss lauten: Veräußerungsgewinne sind nach § 8b (2) S. 1 KStG steuerfrei, sofern eine Beteiligungsquote von mindestens 1 % vorliegt – nicht, wie die 10-%-Grenze aus § 8b (4) KStG, die nur für Dividenden gilt. Hier ist nicht jede Beteiligungsquote ausreichend."
   ],
-  "fachStand": "hybink-432"
+  "fachStand": "1s6b3k8-473"
 }
