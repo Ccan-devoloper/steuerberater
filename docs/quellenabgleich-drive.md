@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: VI.3.4 (Fortsetzung) bis VI.5 – Textteil vollständig
+
+Übernommen (PDF-Seiten 39 bis 42): Kapitel ust-m-b13-23 (Betriebsausflüge und 110-€-Grenze), ust-m-b13-24 (VI.4 Fahrradüberlassung an Arbeitnehmer mit E-Bike-Beispiel und Leasing-Abwandlung) und ust-m-b13-25 (VI.5 BMG mit Kantinenbeispiel). Damit ist der Textteil von Block 13 vollständig.
+
+- Quellenmarkierung: VI.5.2 Sachbezugswert Mittagessen „4,13 €“ (Wert 2024; 2025: 4,40 €).
+- Hinweis zur Prüfung (eigene Ergänzung): Kantinenbeispiel mit 19 % – ab 1.1.2026 ermäßigter Steuersatz für Verpflegungsdienstleistungen nach dem Steueränderungsgesetz 2025 (vgl. III.3.3).
+- Stillschweigend berichtigt: fehlendes Leerzeichen „Nr. 6).Es“ (VI.3.4); „berechtig haben“ → „berechtigt haben“ (VI.4); fehlende öffnende Klammer vor „Abschn. 1.8 Abs. 11 Satz 2“ (VI.5.2); Betragsschreibweise „4,13,- €“ vereinheitlicht.
+- Nachrechnungen (eigene Ergänzung): Betriebsausflug 2.290 € USt, 15.290 €, 117,62 €, 7,62 €; Fahrrad 608 €, 952 € / 900 € / 9 €, 42,02 €, 31,93 €, 53,33 €, 7,98 €; Kantine 0,66 € / 3,47 €. Alle stimmig.
+
+Prüfung danach: 14 Teile, 509 Kapitel, 6874 Blöcke, 389 Tabellen.
+
+Weiter mit: Arbeitspapiere A 1 bis A 27 (PDF-Seiten 43 bis 69), beginnend mit A 1.
+
 ### USt-Skript (Moecker), Block 13: VI.1 bis VI.3
 
 Übernommen (PDF-Seiten 35 bis 38, Schaubild auf PDF-Seite 35 gerendert und angesehen): Kapitel ust-m-b13-21 (VI.1 Übersicht als Tabelle, VI.2 entgeltliche Leistungen) und ust-m-b13-22 (VI.3.1 bis VI.3.4 unentgeltliche Leistungen, Aufmerksamkeiten, betriebliches Interesse mit BFH v. 21.7.1994).
