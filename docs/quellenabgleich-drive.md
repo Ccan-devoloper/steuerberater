@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2015, Sachverhalt 1
+
+Übernommen: ESt-Originalklausur 2015, Sachverhalt 1 (Rudi Sorglos, Vaals, 19 Punkte) – Aufgabe PDF-Seiten 117 und 118, Lösung PDF-Seiten 123 bis 126, Korrekturbogen PDF-Seite 137.
+
+- Gekennzeichnet: „§ 34 EStG“ statt § 34g (Lösung und Korrekturbogen); Korrekturbogen „§ 32b Satz 1 Abs. 1 Nr. 5“; Zeile „abzgl. stpfl. Anteil der Rente (s.o.)“, obwohl der steuerfreie Anteil abgezogen wird.
+- Stillschweigend berichtigt: fehlende Klammer nach „= 0,2%“.
+- Nachrechnung (eigene Ergänzung): § 17 1.500 €; Rente 16.319 €; zvE 11.619 €; Progressionsvorbehalt 7.500 €; Steuerermäßigung 825 €; Punkte 19 (Summenzeile der Quelle leer). Alle stimmig.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 17 Sachverhalte, 718 Blöcke, 81 Tabellen, 272 Punkte.
+
+Weiter mit: Prüfung 2015, Sachverhalt 2 (Aufgabe ab Zeile 9076, Lösung ab Zeile 9683, Korrekturbogen ab Zeile 10529).
+
 ### ESt-Originalklausuren 2014, Sachverhalt 3 – Prüfung 2014 vollständig
 
 Übernommen: ESt-Originalklausur 2014, Sachverhalt 3 (Anton K., DBA-Spanien, 10 Punkte) – Aufgabe PDF-Seiten 103 und 104, Lösungshinweise PDF-Seiten 112 und 113, Korrekturbogen PDF-Seite 116 (Seiten 113 und 116 gerendert und angesehen). Damit ist die Prüfung 2014 vollständig (18 + 33 + 10 = 61 Punkte).

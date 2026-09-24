@@ -1908,8 +1908,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   **Sachverhalt 3 (Anton K., 10 Punkte)** – DBA-Spanien: Arbeitslohn freigestellt mit
   Progressionsvorbehalt (19.000 €), Aufsichtsrat und Ferienhaus mit Anrechnung, Rente 83,5 % und
   Altersentlastungsbetrag 627 €; die in der Quelle fehlende zvE-Berechnung ist als eigene Ergänzung
-  nachgerechnet (22.789 €). Die Prüfung 2014 ist damit **vollständig** (61 Punkte). Die Prüfung 2015
-  folgt.
+  nachgerechnet (22.789 €). Die Prüfung 2014 ist damit **vollständig** (61 Punkte).
+  Aus der **Prüfung 2015** (Teil I: Einkommensteuer, drei Sachverhalte, fortgeschrieben auf den
+  Rechtsstand 31.12.2025; Punkte laut Korrekturbogen, in Arbeit): **Sachverhalt 1 (Rudi Sorglos,
+  19 Punkte)** – Rentner in Vaals mit Antrag nach § 1 Abs. 3 EStG: § 17-Gewinn nur aus dem geerbten
+  Anteil (1.500 €, Besteuerungsrecht Niederlande), Rentenfreibetrag 3.439 €, Parteispende nach § 34g
+  und § 10b Abs. 2 EStG – zvE 11.619 €, Progressionsvorbehalt 7.500 €.
   Prüfung: `npm run check:k2-est-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,
