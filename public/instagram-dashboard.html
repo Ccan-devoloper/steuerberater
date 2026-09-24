@@ -1534,7 +1534,7 @@
      Text- und Abdeck-Elemente. Beim Speichern wird alles zu einem JPEG
      zusammengeführt und die Original-Datei im Asset-Zweig ersetzt. */
   var ED_FONT_BASE="https://raw.githubusercontent.com/"+ACCOUNTS.herr.repo+"/main/fonts/";
-  var ED_FONTS=[["Anton","Anton.ttf","400"],["Oswald","Oswald.ttf","200 700"],["Space Grotesk","SpaceGrotesk.ttf","300 700"],["Caveat","Caveat.ttf","400 700"],["IBM Plex Sans","IBMPlexSans.ttf","100 700"],["IBM Plex Serif","IBMPlexSerif-SemiBold.ttf","600"],["IBM Plex Serif","IBMPlexSerif-Bold.ttf","700"],["IBM Plex Mono","IBMPlexMono-Medium.ttf","400 500"]];
+  var ED_FONTS=[["Anton","Anton.ttf","400"],["Oswald","Oswald.ttf","200 700"],["Space Grotesk","SpaceGrotesk.ttf","300 700"],["Caveat","Caveat.ttf","400 700"],["IBM Plex Sans","IBMPlexSans.ttf","100 700"],["IBM Plex Serif","IBMPlexSerif-SemiBold.ttf","600"],["IBM Plex Serif","IBMPlexSerif-Bold.ttf","700"],["IBM Plex Mono","IBMPlexMono-Medium.ttf","400 500"],["Inter","Inter.ttf","100 900"]];
   var ED_FAMILIES=["IBM Plex Sans","IBM Plex Serif","IBM Plex Mono","Anton","Oswald","Space Grotesk","Caveat","Inter"];
   var ED_SWATCHES=["#0b0b0d","#ffffff","#f6f2e9","#12233f","#141a3a","#d6ff4a","#2d5be3","#ff7a45","#23d98b","#f2c94c","#6b4bd6","#c8102e"];
   var ed={open:false,pages:[],page:-1,rel:"",label:"",ctx:null,img:null,base:null,baseRel:"",hasSidecar:false,w:0,h:0,scale:1,fit:true,els:[],sel:-1,editing:-1,hist:[],histI:-1,savedAt:0,idSeq:1,pick:false,lastFill:"#f6f2e9",saving:false,panel:"",pexels:{q:"",page:1,photos:[],busy:false,err:"",total:0},dayImages:null};
@@ -1717,7 +1717,9 @@
   function edSetStatus(text,cls){var s=$("#editorStatus");s.textContent=text||"";s.className="editor-status "+(cls||"");}
   function edHex(v){return /^#[0-9a-f]{6}$/i.test(v||"")?v:"#000000";}
   function edCommit(){
-    var snap=JSON.stringify(ed.els);
+    /* usedHits gehören mit in den Verlauf: Rückgängig muss angeklickte
+       Folientexte wieder anklickbar machen, nicht nur die Ebenen entfernen. */
+    var snap=JSON.stringify({els:ed.els,hits:ed.usedHits});
     /* Keine Leereinträge: unveränderter Zustand erzeugt keinen History-Schritt */
     if(ed.histI>=0&&ed.hist[ed.histI]===snap){edSyncTools();return;}
     ed.hist=ed.hist.slice(0,ed.histI+1);
@@ -1733,7 +1735,10 @@
   }
   function edRestore(i){
     if(i<0||i>=ed.hist.length)return;
-    ed.histI=i;ed.els=JSON.parse(ed.hist[i]);
+    ed.histI=i;
+    var st=JSON.parse(ed.hist[i]);
+    ed.els=Array.isArray(st)?st:st.els;
+    if(st&&st.hits)ed.usedHits=st.hits;
     if(!edFind(ed.sel))ed.sel=-1;
     ed.editing=-1;edRender();
     if(edIsDirty())edSaveDraft();else edClearDraft(ed.rel);
@@ -1741,7 +1746,9 @@
   function edIsDirty(){return ed.histI>=0&&ed.histI!==ed.savedAt;}
   function edSyncTools(){
     $("#edPick").classList.toggle("active",ed.pick);
-    $("#edUndo").disabled=ed.histI<=0;
+    /* Während des Tippens bleibt Rückgängig aktiv: der Klick beendet das
+       Editieren (Commit) und springt dann einen Schritt zurück. */
+    $("#edUndo").disabled=ed.histI<=0&&ed.editing===-1;
     $("#edRedo").disabled=ed.histI>=ed.hist.length-1;
     /* Wolke mit Haekchen = gespeichert, ohne = ungesicherte Aenderungen. */
     var chk=$("#edSavedCheck");if(chk)chk.style.opacity=edIsDirty()?"0":"1";
@@ -1770,7 +1777,7 @@
       n.style.fontSize=(el.size*s)+"px";n.style.lineHeight=(edLineH(el)*s)+"px";
       n.style.letterSpacing=(edLsp(el)*s)+"px";
       n.style.textAlign=el.align;n.style.padding=(edPad(el)*s)+"px";
-      n.style.background=el.bg?el.bgColor:"";n.style.borderRadius=el.bg?(Math.round(el.size*0.35)*s)+"px":"";
+      n.style.background=el.bg?el.bgColor:"";n.style.borderRadius=el.bg?((el.bgRadius!=null?el.bgRadius:Math.round(el.size*0.35))*s)+"px":"";
       var fx=edFx(el);
       n.style.color=fx.hollow?"transparent":el.color;
       n.style.textShadow=fx.shadows.map(function(sh){return (sh.x*s)+"px "+(sh.y*s)+"px "+(sh.b*s)+"px "+sh.c;}).join(",")||"";
@@ -1866,7 +1873,10 @@
       var s=ed.scale;
       (ed.layout.texte||[]).forEach(function(t,i){
         if(ed.usedHits.texte.indexOf(i)>=0)return;
-        var b=t.pille?t.pille.box:t.box;
+        /* Geteilte Pille (Karte): jede Textzeile bekommt ihre eigene
+           Klickfläche - sonst lägen identische Flächen übereinander und
+           immer nur der oberste Text wäre erreichbar. */
+        var b=t.pille&&!edPilleGeteilt(i)?t.pille.box:t.box;
         var n=document.createElement("div");
         n.className="ed-hit";n.dataset.hit="t:"+i;
         n.title='Klicken, um diesen Text zu bearbeiten';
@@ -1936,7 +1946,7 @@
   /* Interne Zwischenablagen: Elemente und uebertragbare Stile. */
   var edClipboard=null,edStyleClip=null;
   var ED_STYLE_KEYS={
-    text:["font","weight","size","italic","underline","strike","upper","list","color","align","lineH","lsp","bg","bgColor","fx","fxColor","opacity"],
+    text:["font","weight","size","italic","underline","strike","upper","list","color","align","lineH","lsp","bg","bgColor","bgRadius","fx","fxColor","opacity"],
     rect:["fill","radius","strokeW","stroke","opacity"],
     ellipse:["fill","strokeW","stroke","opacity"],
     line:["color","thick","arrow","opacity"],
@@ -2036,6 +2046,19 @@
     if(!m)return null;
     return "#"+[1,2,3].map(function(i){return Number(m[i]).toString(16).padStart(2,"0");}).join("");
   }
+  /* Halbtransparente Pillenfarben (z.B. rgba(255,255,255,.92) auf Pink)
+     exakt so mischen, wie sie gerendert wurden - sonst deckt der Editor
+     mit reinem Weiß ab und die Stelle sticht sichtbar heraus. */
+  function edFarbeUeber(farbe,grund){
+    var m=String(farbe||"").match(/rgba?\(\s*(\d+)[,\s]+(\d+)[,\s]+(\d+)(?:[,\s/]+([\d.]+))?\s*\)/);
+    if(!m)return cssZuHex(farbe);
+    var a=m[4]==null?1:parseFloat(m[4]);
+    if(a>=1||!grund)return cssZuHex(farbe);
+    var g=String(grund).match(/^#([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})/i);
+    if(!g)return cssZuHex(farbe);
+    var mix=function(c,gc){return Math.round(c*a+parseInt(gc,16)*(1-a));};
+    return "#"+[mix(+m[1],g[1]),mix(+m[2],g[2]),mix(+m[3],g[3])].map(function(v){return v.toString(16).padStart(2,"0");}).join("");
+  }
   /* Farbe rund um eine Box aus dem Basisbild mitteln – Ersatz, wenn die
      Layout-Karte keine deckende Hintergrundfarbe kennt (Verläufe). */
   function edSampleAround(box){
@@ -2056,27 +2079,56 @@
     return String([400,500,600,700].reduce(function(a,b){return Math.abs(b-n)<Math.abs(a-n)?b:a;}));
   }
   function edMapAlign(a){return a==="center"?"center":(a==="right"||a==="end")?"right":"left";}
+  /* Teilen sich mehrere gebackene Texte dieselbe Pille (Karte mit
+     Überschrift und Zeilen), darf nie die ganze Karte abgedeckt werden -
+     sonst verschwänden beim Klick auch alle Nachbartexte. */
+  function edPilleGeteilt(i){
+    var t=ed.layout&&ed.layout.texte&&ed.layout.texte[i];
+    if(!t||!t.pille)return false;
+    var a=t.pille.box;
+    return (ed.layout.texte||[]).some(function(o,j){
+      var b=o&&o.pille&&o.pille.box;
+      return j!==i&&b&&Math.abs(b.x-a.x)<2&&Math.abs(b.y-a.y)<2&&Math.abs(b.w-a.w)<2&&Math.abs(b.h-a.h)<2;
+    });
+  }
   /* Klick auf einen gebackenen Text: exakt abdecken und ein identisches,
      sofort editierbares Textfeld an dieselbe Stelle legen. */
   function edReplaceLayoutText(i){
     var t=ed.layout&&ed.layout.texte&&ed.layout.texte[i];
     if(!t)return;
-    var box=t.pille?t.pille.box:{x:t.box.x-6,y:t.box.y-4,w:t.box.w+12,h:t.box.h+8};
-    var fill=cssZuHex(t.hinter)||edSampleAround(box)||"#ffffff";
+    var geteilt=edPilleGeteilt(i);
+    /* innen = Inhaltsbox ohne Padding (z.B. Listen-Strich davor); ältere
+       Layout-Karten kennen das Feld nicht, dann zählt die ganze Box. */
+    var eigen=t.innen||t.box;
+    var box,fill;
+    if(t.pille&&!geteilt){
+      box=t.pille.box;
+      fill=cssZuHex(t.hinter)||edSampleAround(box)||"#ffffff";
+    }else if(geteilt){
+      box={x:eigen.x-2,y:eigen.y-2,w:eigen.w+4,h:eigen.h+4};
+      fill=edFarbeUeber(t.pille.farbe,cssZuHex(t.hinter)||edSampleAround(t.pille.box))||edSampleAround(eigen)||"#ffffff";
+    }else{
+      box={x:t.box.x-6,y:t.box.y-4,w:t.box.w+12,h:t.box.h+8};
+      fill=cssZuHex(t.hinter)||edSampleAround(box)||"#ffffff";
+    }
     var cover={type:"rect",x:Math.round(box.x),y:Math.round(box.y),w:Math.round(box.w),h:Math.round(box.h),fill:fill,opacity:1,radius:0,strokeW:0,stroke:"#0b0b0d",rot:0};
     edNormalizeEl(cover);cover.id=ed.idSeq++;ed.els.push(cover);
     var size=Math.max(10,Math.round(t.groesse));
-    var textEl={type:"text",x:Math.round(box.x),y:Math.round(box.y),w:Math.round(box.w),
+    var eigenePille=!!t.pille&&!geteilt;
+    var pos=eigenePille?box:eigen;
+    var textEl={type:"text",x:Math.round(pos.x),y:Math.round(pos.y),w:Math.round(pos.w),
       text:t.text,font:edMapFont(t.schrift),weight:edMapWeight(t.gewicht),size:size,
       color:cssZuHex(t.farbe)||"#0b0b0d",align:edMapAlign(t.ausrichtung),
-      bg:!!t.pille,bgColor:t.pille?(cssZuHex(t.pille.farbe)||"#ffffff"):"#ffffff",
+      bg:eigenePille,bgColor:t.pille?(edFarbeUeber(t.pille.farbe,cssZuHex(t.hinter)||edSampleAround(t.pille.box))||"#ffffff"):"#ffffff",
       rot:t.rotation||0,opacity:1,
       lineH:Math.max(0.9,Math.min(1.9,t.zeilenhoehe&&t.groesse?t.zeilenhoehe/t.groesse:1.18)),
       lsp:Math.max(0,Math.round(t.lsp||0))};
     edNormalizeEl(textEl);textEl.id=ed.idSeq++;
-    /* Bei Pille: das neue Feld zeichnet die Pille selbst und wächst mit. */
-    if(t.pille){
+    /* Bei eigener Pille: das neue Feld zeichnet die Pille selbst und wächst
+       mit - inklusive des originalen Eckenradius aus der Layout-Karte. */
+    if(eigenePille){
       textEl.y=Math.round(box.y+Math.max(0,(box.h-edH(textEl))/2));
+      if(t.pille.radius!=null)textEl.bgRadius=Math.round(t.pille.radius);
     }
     ed.els.push(textEl);
     ed.usedHits.texte.push(i);
@@ -2740,7 +2792,7 @@
       }
     }else if(el.type==="text"){
       var pad=edPad(el),lh=edLineH(el),lines=edLines(el);
-      if(el.bg){ctx.fillStyle=el.bgColor;edRoundRect(ctx,el.x,el.y,el.w,h,Math.round(el.size*0.35));ctx.fill();}
+      if(el.bg){ctx.fillStyle=el.bgColor;edRoundRect(ctx,el.x,el.y,el.w,h,el.bgRadius!=null?el.bgRadius:Math.round(el.size*0.35));ctx.fill();}
       ctx.font=edFont(el);
       try{ctx.letterSpacing=edLsp(el)+"px";}catch(e2){/* ältere Browser */}
       /* Vertikale Lage wie die CSS-Zeilenbox (Half-Leading über den echten
@@ -3625,8 +3677,13 @@
     if(e.target.id==="lightbox"||e.target.classList.contains("lightbox-stage"))closeLightbox();
   });
   $("#edClose").addEventListener("click",function(){closeSlideEditor();});
-  $("#edUndo").addEventListener("click",function(){edRestore(ed.histI-1);});
-  $("#edRedo").addEventListener("click",function(){edRestore(ed.histI+1);});
+  /* pointerdown abfangen: sonst blurrt der Browser zuerst ein gerade
+     editiertes Textfeld, die Bühne wird neu aufgebaut und der Klick auf den
+     Pfeil ginge verloren. Der Klick selbst beendet das Editieren geordnet. */
+  $("#edUndo").addEventListener("pointerdown",function(e){e.preventDefault();});
+  $("#edRedo").addEventListener("pointerdown",function(e){e.preventDefault();});
+  $("#edUndo").addEventListener("click",function(){if(ed.editing!==-1)edStopEditing();edRestore(ed.histI-1);});
+  $("#edRedo").addEventListener("click",function(){if(ed.editing!==-1)edStopEditing();edRestore(ed.histI+1);});
   $("#edZoomRange").addEventListener("input",function(){
     if(!ed.img)return;
     ed.fit=false;
