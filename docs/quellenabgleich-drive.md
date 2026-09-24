@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: II.6 bis III.2.3
+
+Übernommen (PDF-Seiten 17 Mitte bis 21 oben): Kapitel ust-m-b13-11 (II.6 BMG bei unentgeltlichen Lieferungen mit Vorführwagen), ust-m-b13-12 (III.1 Allgemeines zu § 3 Abs. 9a UStG, Gegenüberstellung als Tabelle) und ust-m-b13-13 (III.2.1 bis III.2.3 Gegenstandsverwendung mit Architekten-PC).
+
+- Stillschweigend berichtigt: ASCII-Anführungszeichen bei „Einkaufspreis zzgl. Nebenkosten …“ und „Selbstkosten“ vereinheitlicht, „nicht … unterscheiden“ → „unterschieden“ (II.6); „wenn folgenden Voraussetzungen“ → „folgende“ (III.2.1); fehlende Klammer nach „ideelle Zwecke eines Vereins“ (III.2.2).
+- Nachrechnung (eigene Ergänzung): Vorführwagen 5.700 € / 4.845 € stimmig.
+
+Prüfung danach: 14 Teile, 497 Kapitel, 6747 Blöcke, 381 Tabellen.
+
+Weiter mit: III.2.4 BMG bei der Gegenstandsverwendung, Skript-Seite 20 (PDF-Seite 21).
+
 ### USt-Skript (Moecker), Block 13: II.3 bis II.5
 
 Übernommen (PDF-Seiten 13 Mitte bis 17 Mitte): Kapitel ust-m-b13-8 (II.3 Zuwendungen an das Personal), ust-m-b13-9 (II.4 andere unentgeltliche Zuwendungen mit Verlosungsbeispiel und Bewirtungen) und ust-m-b13-10 (II.5 Steuerbefreiungen mit Beispielen Basel und Grundstücksentnahme).

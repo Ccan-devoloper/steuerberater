@@ -3,7 +3,7 @@
    „Block 13-UWA-Vers. 1.1.26 / Red. 10/25“, Fußzeile „StB 58 – Vers. 01.01.26 / Stand 10-25“; 69
    PDF-Seiten: Textteil Seiten 1 bis 41 (PDF-Seiten 2 bis 42), Arbeitspapiere A 1 bis A 27 (PDF-Seiten
    43 bis 69).
-   In Arbeit: eingepflegt bis Abschnitt II.5 (Skript-Seite 16, PDF-Seite 17). */
+   In Arbeit: eingepflegt bis Abschnitt III.2.3 (Skript-Seite 20, PDF-Seite 21). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -294,6 +294,80 @@ export const block13 = [
       { text: "**2. Ein Händler aus Berlin betreibt seit 12 Jahren auf eigenem Grundstück einen Handel mit Büroartikeln. Das Grundstück hatte er damals von einem Bauunternehmer steuerpflichtig für 500.000 € zzgl. USt erworben und seinem Unternehmensvermögen zugeordnet. Aus Altersgründen gibt er den Handel auf und entnimmt das Grundstück für private Zwecke.**\nMit der Entnahme des Grundstücks aus seinem Unternehmen für private Zwecke erfüllt der Einzelhändler den Tatbestand der unentgeltlichen Lieferung i.S.d. § 3 Abs. 1b Nr. 1 UStG. Ein Besteuerungsverbot besteht nicht, da er zum vollen Vorsteuerabzug aus der Anschaffung des Grundstücks berechtigt war. Die gem. § 3 Abs. 7 UStG in Berlin ausgeführte gleichgestellte (entgeltlichen) Lieferung ist somit steuerbar nach § 1 Abs. 1 Nr. 1 UStG.\nÜber die Gleichstellungsfiktion des Artikels 16 MwStSystRL sind grundsätzlich auch die Steuerbefreiungsvorschriften auf Entnahmen anwendbar. Für den Fall einer nach § 3 Abs. 1b Satz 1 Nr. 1 und Satz 2 UStG steuerbaren Entnahme eines Grundstücks aus dem Unternehmen bedeutet dies, dass die Steuerbefreiung des § 4 Nr. 9 Buchst. a UStG unabhängig davon Anwendung findet, ob mit der Entnahme ein Rechtsträgerwechsel am Grundstück verbunden ist.\nEine Option gem. § 9 UStG ist bei einer UWA nach Nr. 1 nicht möglich." },
       { text: "Hinweis (eigene Ergänzung): Da der zehnjährige Berichtigungszeitraum nach § 15a UStG nach 12 Jahren abgelaufen ist, führt die steuerfreie Entnahme im Beispiel 2 zu keiner Vorsteuerberichtigung." },
       { text: "**3. Wie Beispiel 2, jedoch hat der Händler das bebaute Grundstück steuerfrei von dem Bauunternehmer erworben.**\nEs handelt sich zwar um eine Entnahme eines Gegenstandes aus dem Unternehmen für außerunternehmerische Zwecke. Der Einzelhändler verwirklicht jedoch nicht den Tatbestand der unentgeltlichen Lieferung durch Entnahme, da der Gegenstand bei der Anschaffung nicht zum Vorsteuerabzug berechtigt hat (§ 3 Abs. 1b Satz 2 UStG). Der Vorgang wird nicht einer Lieferung gegen Entgelt gleichgestellt und ist folglich auch nicht steuerbar." },
+    ],
+  },
+  {
+    id: "ust-m-b13-11",
+    teil: TEIL,
+    kapitel: "11",
+    abschnittNr: "II.6",
+    title: "II.6 Bemessungsgrundlage bei unentgeltlichen Lieferungen",
+    thema: "Einkaufspreis zuzüglich Nebenkosten zum Zeitpunkt der Entnahme (Wiederbeschaffungskosten), subsidiär Selbstkosten, USt nicht Teil der BMG, Beispiel Vorführwagen an den Sohn, Sachspenden an Tafeln (Abschn. 10.6 Abs. 1a UStAE), selbst hergestellte Gegenstände und Strom aus PV-Anlagen",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("II.6"),
+    verfasser: VERFASSER,
+    normen: ["§ 10 Abs. 4 Satz 1 Nr. 1 UStG", "Abschn. 10.6 Abs. 1 und 1a UStAE"],
+    themen: ["Unentgeltliche Wertabgaben", "Bemessungsgrundlage", "Entnahme"],
+    bloecke: [
+      { typ: "titel", text: "II.6 Bemessungsgrundlage bei unentgeltlichen Lieferungen" },
+      { text: "Vorschriften: § 10 Absatz 4 Nr. 1 UStG; Abschnitt 10.6 Absatz 1 UStAE.\nDie Bemessungsgrundlage richtet sich nach dem Einkaufspreis (netto) zuzüglich der Nebenkosten für den Gegenstand beziehungsweise für einen gleichartigen Gegenstand oder mangels eines Einkaufspreises nach den Selbstkosten, jeweils zum Zeitpunkt des Umsatzes.\n☞ Zu den Besonderheiten bei der Ermittlung der BMG in den Fällen der Zuwendungen an das Personal vgl. die ausführlichen Darstellungen unter Punkt VI." },
+      { text: "Der primär vorzunehmende Wertansatz „Einkaufspreis zzgl. Nebenkosten im Zeitpunkt des Umsatzes“ deckt sich im Allgemeinen mit den Wiederbeschaffungskosten (also dem fiktiven Einkaufspreis netto); der subsidiäre Wertansatz „Selbstkosten“ deckt sich im Allgemeinen mit den Wiederherstellungskosten." },
+      { text: "**Merke:** **Es gelten jeweils die Verhältnisse im Zeitpunkt der Entnahme. Anzusetzen sind also nicht die tatsächlichen (historischen) Preise/Kosten, sondern die im Zeitpunkt des Umsatzes (= bei der UWA) maßgebenden aktuellen Preise oder Kosten. Die USt gehört nach § 10 Abs. 4 letzter Satz UStG nicht zur BMG (➔ Nettowerte).**" },
+      { text: "**Beispiel:** (Problem Entnahme eines gebrauchten Gegenstandes)\nDer Pkw-Händler erwirbt beim Hersteller einen PKW für 30.000,- € zzgl. 5.700 € USt. Er nutzt den PKW zunächst als Vorführwagen. Nach 6 Monaten schenkt er den Pkw seinem Sohn. Für den Erwerb eines derartigen (gebrauchten) Gegenstandes müsste der Händler 25.500 € zzgl. 4.845,- € USt aufwenden.\n**Lösung:**\nDer Wert der steuerbaren und steuerpflichtigen gleichgestellten Lieferung bemisst sich nach dem Einkaufspreis - netto - eines gleichartigen Gegenstandes im Zeitpunkt der Entnahme; somit 25.500 €. Die USt beträgt 19 % auf 25.500,- € = 4.845 €. Der Händler darf die ihm vom Hersteller berechnete USt von 5.700,- € als Vorst abziehen." },
+      { text: "Nachrechnung (eigene Ergänzung): 19 % von 30.000 € = 5.700 €; 19 % von 25.500 € = 4.845 €. Stimmig." },
+      { text: "Auch Sachspenden an gemeinnützige Vereine oder sog. Tafeln stellen eine UWA dar, die einer Lieferung gegen Entgelt gleichgestellt ist. Die Umsatzbesteuerung dient der Kompensation des vorangegangenen Vorsteuerabzugs und verhindert einen systemwidrigen unversteuerten Letztverbrauch. Die umsatzsteuerliche Behandlung derartiger Spenden an Bedürftige hatte in der Corona-Zeit und anlässlich von Katastrophen für Schlagzeilen gesorgt. Es stand der Vorwurf im Raum, dass Unternehmer, die Lebensmittel insbesondere an die Tafeln spenden, durch die Umsatzsteuerpflicht dieser Spenden „bestraft“ würden. Das Problem konnte durch Einführung des Abschn. 10.6 Abs. 1a UStAE einer fairen Lösung zugeführt werden." },
+      { text: "Auch bei im eigenen Unternehmen hergestellten Gegenständen ist nach § 10 Abs. 4 Satz 1 Nr. 1 UStG grundsätzlich der (fiktive) Einkaufspreis maßgebend (vgl. Abschn. 10.6 Abs. 1 UStAE). Auf der Stufe der BMG nach § 10 Abs. 4 Nr. 1 UStG wird nicht zwischen Anschaffungs- und Herstellungsvorgängen unterschieden. Insoweit hat die höchstrichterliche Rechtsprechung beim Betrieb von PV-Anlagen entschieden, dass sich die BMG für die Entnahme von Strom nach dem (fiktiven) Einkaufspreis für von dem Vertrags - Energieversorgungsunternehmen vor Ort erzeugten Strom bestimmt.\nDie Selbstkosten sind nur dann mangels eines Einkaufspreises anzusetzen, wenn ein Einkaufspreis für den (entnommenen) Gegenstand oder für einen gleichartigen Gegenstand nicht zu ermitteln ist (Abschn. 10.6 Abs. 1 Satz 4 UStAE).\nMaßgebend ist mithin primär der Einkaufspreis; die Selbstkosten sind nur subsidiär anzusetzen." },
+    ],
+  },
+  {
+    id: "ust-m-b13-12",
+    teil: TEIL,
+    kapitel: "12",
+    abschnittNr: "III / III.1",
+    title: "III. Unentgeltliche sonstige Leistungen (§ 3 Abs. 9a UStG) – III.1 Allgemeines",
+    thema: "Sonstige Leistungen für Zwecke außerhalb des Unternehmens (Abschn. 3.4 Abs. 1 UStAE), die zwei Tatbestände Gegenstandsverwendungs-UWA und Dienstleistungs-UWA, Anwendung auf das Personal, Besteuerung nur bei entstandenen Ausgaben (kein fiktiver Unternehmerlohn)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("III.1"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 9 und 9a UStG", "§ 10 Abs. 4 Nr. 2 und 3 UStG", "Abschn. 3.4 Abs. 1 UStAE"],
+    themen: ["Unentgeltliche Wertabgaben", "unentgeltliche sonstige Leistung"],
+    bloecke: [
+      { typ: "titel", text: "III. Unentgeltliche sonstige Leistungen (§ 3 Abs. 9a UStG) – III.1 Allgemeines" },
+      { text: "Vgl. Arbeitspapier A 10" },
+      { text: "Die unentgeltlichen Wertabgaben im Sinne des § 3 Abs. 9a UStG umfassen alle sonstigen Leistungen, die ein Unternehmer im Rahmen seines Unternehmens für eigene, außerhalb des Unternehmens liegende Zwecke ausführt (Abschn. 3.4 Abs. 1 UStAE).\nDie so genannte „Dienstleistungs-UWA“ erstreckt sich somit auf alles, was seiner Art nach Gegenstand einer sonstigen Leistung im Sinne des § 3 Abs. 9 UStG sein kann.\nIm Hinblick auf die unterschiedlichen BMG (§ 10 Abs. 4 Nr. 2 und 3 UStG) unterscheidet die Vorschrift des § 3 Abs. 9a UStG zwei Tatbestände;" },
+      { typ: "tabelle", spalten: ["§ 3 Abs. 9a Nr. 1 UStG", "§ 3 Abs. 9a Nr. 2 UStG"], zeilen: [
+        ["Die Verwendung eines dem Unternehmen zugeordneten Gegenstandes für unternehmensfremde Zwecke (Gegenstandsverwendungs - UWA) (z.B. PKW, Maschinen, Computer, Telefon, Werkzeuge, Gerätschaften usw.),", "die unentgeltliche Erbringung von (sonstigen) Dienstleistungen aller Art durch den Steuerpflichtigen für unternehmensfremde Zwecke (Dienstleistungs – UWA) (z.B. der Einsatz betrieblicher Arbeitskräfte im Haushalt des Unternehmers, die Dienstleistungen von Handwerkern oder der Freiberufler für private Zwecke, die Einnahme von Mahlzeiten im eigenen Restaurationsbetrieb, Reinigungsleistungen, Werkleistungen usw.)."],
+      ] },
+      { text: "Auch bei unentgeltlicher Abgabe entsprechender sonstiger Leistungen für den privaten Bedarf des Personals kommen die o.g. Tatbestände zur Anwendung. (vgl. hierzu die ausführliche Darstellung unter Punkt VI.)" },
+      { text: "Die Frage, ob ein unter § 3 Abs. 9a zu subsumierender Vorgang einer steuerbaren entgeltlichen sonstigen Leistung gleichgestellt werden kann, entscheidet sich de facto auch aus § 10 Abs. 4 Nr. 2 und Nr. 3 UStG. Mit der Bemessung des Umsatzes nach den entstandenen Ausgaben macht § 10 Abs. 4 Nr. 2 und 3 die Entstehung solcher Ausgaben zur Voraussetzung für die Steuerbarkeit einer unentgeltlichen sonstigen Leistung. Sind im Einzelfall Ausgaben nicht entstanden, entfällt eine Besteuerung." },
+      { text: "**Beispiele:**\nDer Inhaber einer Kfz-Werkstatt führt am PKW seines Sohnes ohne Materialeinsatz Wartungsarbeiten durch; der Friseurmeister schneidet seiner Tochter in der Privatwohnung die Haare. Der Wert der eigenen Arbeitsleistung (fiktiver Unternehmerlohn) gehört nach einhelliger Auffassung nicht zu den Ausgaben/Kosten i.S. des § 10 Abs. 4 Nr. 2 UStG." },
+      { text: "Die Gegenüberstellung der beiden Tatbestände ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-13",
+    teil: TEIL,
+    kapitel: "13",
+    abschnittNr: "III.2.1 bis III.2.3",
+    title: "III.2 Gegenstandsverwendung (§ 3 Abs. 9a Nr. 1) – III.2.1 bis III.2.3",
+    thema: "Voraussetzungen der Gegenstandsverwendungs-UWA, Zugehörigkeit zum Unternehmensvermögen und Vorsteuerabzugsberechtigung aus dem Gegenstand, Besteuerungsverbot (gebrauchter PC eines Architekten), nichtwirtschaftlicher Bereich i.e.S. mit partieller Zuordnung, Nutzungsänderungen und Billigkeitsberichtigung, Ort und Zeitpunkt",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("III.2.1 bis III.2.3"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 9a Nr. 1 UStG", "§ 1 Abs. 1 Nr. 1 UStG", "§ 15 Abs. 1 und 2 UStG", "§ 15a Abs. 1 UStG", "§ 3a Abs. 1 und 3 UStG", "Abschn. 3.4 Abs. 2, 5a und 6 UStAE", "Abschn. 15.2c Abs. 2 UStAE", "Abschn. 15a.1 Abs. 7 UStAE"],
+    themen: ["Unentgeltliche Wertabgaben", "Gegenstandsverwendung", "Besteuerungsverbot"],
+    bloecke: [
+      { typ: "titel", text: "III.2 Gegenstandsverwendung (§ 3 Abs. 9a Nr. 1) – III.2.1 Durch Untern. mit nichtuntern. (unternehmensfremden) Bereich" },
+      { text: "Vgl. Arbeitspapier A 11" },
+      { text: "Eine unentgeltliche sonstige Leistung gem. § 3 Abs. 9a Nr. 1 UStG (so genannte „Gegenstandverwendungs- UWA“) liegt dann vor, wenn folgende Voraussetzungen erfüllt sind:\n1. Verwendung eines Gegenstandes des Unternehmensvermögens,\n2. der zum vollen oder teilweisen Vorsteuerabzug berechtigt hat,\n3. durch einen Unternehmer,\n4. für Zwecke außerhalb des Unternehmens oder für private Zwecke des Personals.\nSind alle o.g. Tatbestandsmerkmale erfüllt, wird die unentgeltliche sonstige Leistung einer sonstigen Leistung gegen Entgelt gleichgestellt. Damit ergibt sich auch für diesen Vorgang - wie bei der normalen sonstigen Leistung gegen Entgelt auch - die Prüfung der Steuerbarkeit aus § 1 Abs. 1 Nr. 1 UStG." },
+      { text: "➔ **Gegenstandsverwendung aus dem Unternehmensvermögen**\nEin Gegenstand, der auch für unternehmensfremde Zwecke genutzt wird, muss dem Unternehmensvermögen zugerechnet worden sein (Abschn. 3.4 Abs. 2 Satz 1 und 2 UStAE). Hinsichtlich der Frage, ob die sowohl unternehmerisch als auch unternehmensfremd genutzten Gegenstände zum Unternehmen gehören, wird auf die Ausführungen zu Punkt II.2.2.2 verwiesen.\nZur Problematik von gemischt genutzten Gegenständen, die dem Unternehmer aufgrund eines Miet-, Pacht- oder ähnlichen Vertrages zur Nutzung überlassen worden sind vgl. die Ausführungen zur privaten Pkw - Nutzung unter Punkt IV. und zur privaten Telefonnutzung unter Punkt III.2.6." },
+      { text: "➔ **Vorsteuerabzugsberechtigung aus dem Gegenstand**\nAus der ursprünglichen Anschaffung bzw. aus der Herstellung des auch teilweise unternehmensfremd genutzten Gegenstandes muss der Unternehmer zum Vorsteuerabzug berechtigt gewesen sein. Bestand keine Vorsteuerabzugsberechtigung, scheidet eine Umsatzbesteuerung gem. § 3 Abs. 9a Nr. 1 UStG mangels tatbestandsmäßiger Erfüllung dieser Vorschrift aus (Abschn. 3.4 Abs. 2 S. 3 UStAE).\nFür Reparaturen, Zubehörteile oder sonstige Erhaltungsaufwendungen bleibt der Unternehmer jedoch grundsätzlich - zumindest hinsichtlich des unternehmerischen Nutzungsanteils - zum Vorsteuerabzug berechtigt. Der hieraus resultierende Vorsteuerabzug bleibt für das Schicksal der Besteuerung der Gegenstandsverwendung ohne Bedeutung." },
+      { text: "**Besteuerungsverbot für die sog. „Gegenstandverwendungs - UWA“ bei fehlender Vorsteuerabzugsberechtigung aus der Anschaffung / Herstellung**\nDie fehlende Vorsteuerabzugsberechtigung kann sich insbesondere daraus ergeben, dass die Voraussetzungen des § 15 Abs. 1 UStG nicht erfüllt sind oder ein Ausschluss vom Vorsteuerabzug gem. § 15 Abs. 2 UStG eingetreten ist (vgl. hierzu die Ausführungen zu Punkt II.2.4.)" },
+      { text: "**Beispiele:**\nEin Architekt aus Bochum hat im März 01 einen gebrauchten PC von einer Privatperson erworben. Er ordnete den PC zutreffend seinem Unternehmensvermögen zu. Der PC wird zu 60 % unternehmerisch und im Übrigen privat genutzt.\n**Lösung:**\nEs handelt sich zwar um die Verwendung eines Gegenstandes aus dem Unternehmen für außerunternehmerische Zwecke. Der Architekt verwirklicht jedoch nicht den Tatbestand der unentgeltlichen sonstigen Leistung gem. § 3 Abs. 9a Nr. 1 UStG, da der Gegenstand bei der Anschaffung - mangels Anschaffung von einem Unternehmer - nicht zum Vorsteuerabzug berechtigt hat. Der Vorgang ist nicht steuerbar. Aus laufenden Unterhaltsaufwendungen ist der Vorsteuerabzug jedoch - zumindest quotal entsprechend der unternehmerischen Nutzung - möglich." },
+      { typ: "titel", text: "III.2.2 Durch Unternehmer mit nichtwirtschaftlichem Bereich i.e.S." },
+      { text: "Vgl. auch Ausführungen zu Punkt II.2.3.\nWird ein Gegenstand für unternehmerische und nichtwirtschaftliche Tätigkeiten i.e.S. verwendet (z.B. für ideelle Zwecke eines Vereins), ist insoweit eine Zuordnung nach § 15 Abs. 1 UStG nicht möglich (Abschnitt 15.2c Abs. 2 Nr. 2 Bu. a) UStAE). Es gilt dann der Grundsatz der partiellen Zuordnung. Der Gegenstand ist insoweit nicht im Unternehmensvermögen und kann folglich auch nicht aus dem Unternehmen heraus genutzt werden.\nÄndern sich bei einem dem unternehmerischen Bereich zugeordneten Gegenstand (partiell zugeordneter Gegenstand z.B. in Höhe von 60%) die Verhältnisse für den Vorsteuerabzug durch Erhöhung der Nutzung für nichtwirtschaftliche Tätigkeiten i.e.S., ist insoweit (z.B. unternehmerische Nutzung nur noch 40%; somit Nutzung 20% zusätzlich für nichtwirtschaftliche Tätigkeiten i.e.S) eine unentgeltliche Wertabgabe (hier der 20% des zu 60% zugeordneten Gegenstandes) nach § 3 Abs. 9a Nr. 1 UStG zu versteuern.\nÄndern sich die Verhältnisse durch Erhöhung der Nutzung für unternehmerische Tätigkeiten (z.B. unternehmerische Nutzung jetzt 90%; somit zusätzlich Nutzung 30%), kann der Unternehmer aus Billigkeitsgründen eine Berichtigung entsprechend § 15a Abs. 1 UStG vornehmen (vgl. Abschnitt 15a.1 Abs. 7 UStAE und ausführliche Darstellung im Block „Vorsteuer“).\nBei einer teilunternehmerischen Nutzung von Grundstücken ist Abschn. 3.4 Abs. 5a und 6 UStAE zu beachten (vgl. auch Punkt III.2.5)." },
+      { typ: "titel", text: "III.2.3 Ort der Gegenstandsverwendung" },
+      { text: "Der Ort bestimmt sich nach den allgemeinen Ortsregeln. Somit grundsätzlich nach § 3a Abs. 1 UStG (Leistungsabgabe nach B2C-Grundsätzen) oder in Einzelfällen nach den Sonderregeln des § 3a Abs. 3 ff UStG.\nDie UWA ist verwirklicht (Zeitpunkt) sobald die jeweilige Verwendung (ggf. nach den Grundsätzen der Teilleistung) beendet ist." },
     ],
   },
 ];
