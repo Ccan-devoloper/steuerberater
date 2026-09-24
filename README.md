@@ -2272,7 +2272,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   entwickelten Anhängevorrichtung nur in der Handelsbilanz (435.000 €, passive latente Steuern
   128.325 €) und ein Grundstück für 1 € vom Alleingesellschafter als verdeckte Einlage (869.999 €,
   Kapitalrücklage) mit privatem Veräußerungsgeschäft beim Gesellschafter. Jahresüberschuss HB
-  385.945 €, steuerlich 86.520 €. Teil III 2013 sowie die Prüfungen 2014 und 2015 folgen.
+  385.945 €, steuerlich 86.520 €.
+  **Teil III der Prüfung 2013** (A B C – OHG, 31 Punkte): Anhänger als Sonderbetriebsvermögen I
+  (AfA, AfaA und Anwaltskosten = Sonderbetriebsverlust 3.838 €), Versicherungsleistung als Ertrag
+  der Gesamthand, Rückstellung für eine Bodensanierung (1.800 €), Drohverlustrückstellung nur
+  handelsrechtlich, kein ARAP für Werbung, Austritt des lästigen Gesellschafters (Aufstockung
+  12.000 €, Lästigkeitszuschlag 45.600 €, Veräußerungsgewinn 57.600 €) und endgültige Steuerbilanz
+  über 1.070.000 €. Damit ist die **Prüfung 2013 vollständig**; die Prüfungen 2014 und 2015 folgen.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,

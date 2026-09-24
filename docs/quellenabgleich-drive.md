@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2013, Teil III (A B C – OHG) – Prüfung 2013 vollständig
+
+Übernommen: Prüfung 2013, Teil III – Sachverhalt (PDF-Seiten 101 bis 105) und Lösung (PDF-Seiten 123 bis 129; Seiten 127 und 129 gerendert und angesehen).
+
+- Gekennzeichnet: „erst im Jahr 2024 erfüllt“ (2026).
+- Eigene Feststellungen: Randpunkte 30 gegen 31 in der Überschrift (Klausur insgesamt laut Überschriften 99 Punkte); die Anwaltsverbindlichkeit von 238 € im Sonderbetriebsvermögen bleibt beim Kapitalkonto des C unberücksichtigt („SBV nicht mehr vorhanden“).
+- Stillschweigend berichtigt: sechs Schreibversehen (siehe redaktioneller Hinweis im Datensatz).
+- Nachrechnung (eigene Ergänzung): Gewinn HB 121.200 €, StB 127.200 €; Lästigkeitszuschlag 45.600 €; Veräußerungsgewinn 57.600 €; Steuerbilanz 1.070.000 € – stimmen.
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 9 Aufgabenteile, 768 Blöcke, 127 Tabellen, 299 Punkte.
+
+Weiter mit: Bilanz-Prüfung 2014, Teil I (Sachverhalt ab Zeile 10388 der Textfassung).
+
 ### Bilanz-Originalklausuren 2013, Teil II (Transport und Fahrzeugbau GmbH)
 
 Übernommen: Prüfung 2013, Teil II – Sachverhalt (PDF-Seiten 95 bis 100) und Lösung (PDF-Seiten 118 bis 122; Seiten 118, 119, 121 und 122 gerendert und angesehen, weil die Textfassung die Buchungssätze zerlegt).
