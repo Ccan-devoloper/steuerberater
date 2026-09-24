@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 8 VIII bis XI (PDF-Seiten 177 bis 183) – Teil 8 vollständig
+
+Übernommen: VIII. Minder- und Mehrabführungen nach der Einlagelösung (8-08; Seite 178 mit der Steuerbilanz der OT-AG gerendert), IX. vororganschaftliche Mehrabführungen mit Merke (8-09), X. § 19 KStG und XI. Feststellung (8-10).
+
+- Gekennzeichnet: im Mehrabführungsbeispiel 2 wird das Einlagekonto „negativ (./. 150.000)“ – nach der Rechnung ./. 400.000 (aus Beispiel 1 übernommen).
+- Stillschweigend berichtigt: „Bei einer Minderabführungen“; „Jahre-süberschuss“; doppeltes „ist“ (zweimal); „Vororganschafliche“; „einsteht“; „aus den Einlagekonto“; „§ 15 AS. 1“; „gem. 14 Abs. 5“.
+- Nachrechnung (eigene Ergänzung): Minderabführung 80.000 + 20.000 = 100.000, Bilanzsumme OT-AG 620.000; Mehrabführung 150.000 ./. 30.000 = 120.000 (5 % = 6.000), 400.000 ./. 30.000 = 370.000 (5 % = 18.500); OT-GmbH 700.000 ./. 100.000 ./. 100.000 + 5.000 = 505.000 + 240.000 = 745.000; KapESt 25 % = 25.000 – im Übrigen stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 8 Teile, 60 Kapitel, 2328 Blöcke, 76 Tabellen.
+
+Weiter mit: Teil 9 „Liquidation von Kapitalgesellschaften“ (PDF-Seite 184; Textfassung ab Zeile 11166).
+
 ### KSt-Kurz-Skript (Breier), Teil 8 V. 2 c bis VII (PDF-Seiten 169 bis 176)
 
 Übernommen: V. 2 c gewerbesteuerliche Hinzurechnungen und Kürzungen und V. 3 Bruttomethode/§ 7a GewStG (8-05), VI. Einkommensermittlung beim Organträger (8-06), VII. Ausgleichszahlungen mit Merke (8-07); Seiten 174 und 176 gerendert.

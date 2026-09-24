@@ -1239,10 +1239,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Stand-alone-Klausel, EBITDA- und Zinsvortrag und § 8a KStG); aus Teil 8 (Organschaft) die
   Voraussetzungen, die finanzielle Eingliederung, der Gewinnabführungsvertrag, die verunglückte
   Organschaft, die Einkommensermittlung bei Organgesellschaft und Organträger (Bruttomethode,
-  § 7a GewStG) und die Ausgleichszahlungen nach § 16 KStG – zusammen 57 Abschnitte,
-  2236 Blöcke, 73 Tabellen.
-  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 8
-  und die Teile 9 und 10 werden abschnittsweise nachgetragen
+  § 7a GewStG), die Ausgleichszahlungen nach § 16 KStG, Minder- und Mehrabführungen nach der
+  Einlagelösung, vororganschaftliche Mehrabführungen, § 19 KStG und die Feststellung – Teil 8
+  damit vollständig; zusammen 60 Abschnitte, 2328 Blöcke, 76 Tabellen.
+  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; die Teile 9 und 10
+  werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):
