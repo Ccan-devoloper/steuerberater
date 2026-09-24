@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwSt-Kurz-Skript (Breier), Teil 6 B. VIII. bis C. V. (PDF-Seiten 91 bis 116) – Skript vollständig
+
+Übernommen: Teil 6 B. VIII. bis B. XI. (übernommene Wirtschaftsgüter, Rückwirkung mit Merke-Kasten zu § 20 UmwStG, Veräußerung innerhalb von 7 Jahren mit Einbringungsgewinn I, Ersatztatbeständen, § 22 Abs. 7 UmwStG und Wertaufstockung nach § 23 Abs. 2 UmwStG, Nachweispflicht mit Merke-Kasten) und C. I. bis C. V. (Anteilstausch nach § 21 UmwStG, Einbringungsgewinn II, Merke-Kasten); die Buchstabengliederung C. als Zwischenüberschrift. 24 Tabellen (Bilanzen mit Buchwert/gemeinem Wert fünfspaltig, Verteilung der Aufstockung, AStG-Berechnung dreispaltig mit Nebenrechnung, Buchung beim Anteilstausch); der Bruch zur Verlagerung der Anschaffungskosten (Seite 102) steht in einer Zeile.
+
+- Gekennzeichnet: „erhöhen sich gem. § 20 Abs. 1 S. 4 UmwStG um 400.000“ (gemeint § 22 Abs. 1 S. 4 UmwStG); „40 % des Gewinns (= 92.000)“ bei einem Veräußerungsgewinn von 220.000 – rechnerisch 88.000.
+- Stillschweigend berichtigt: „Aussehehen“; „S. S. 1“; „berechet“; „bei bei“; „B- GmbH“; zwei in der Merke umbrochene Überschriften („Einbringen-/den“, „bei An-/teilen“) zusammengeführt; „Son derBV“; „neuer neue Anteile“; „Gegenleitung“; „der Gewinns“; „Abs- 2“; „einbrachte“; „Aufdeckug“; „Kapitalgeschaft“; „Ubertragungsstichtag“; „Abschaffungskosten“; „Einlkommen“; „stsuerfreier“; „Teileinkünfte-verfahrens“; „Einbringungsgwinn“; „Teileinkünfteverfahres“; fehlendes schließendes Anführungszeichen; „Gebäude: + + 45.000“; Silbentrennungen.
+- Nachrechnung (eigene Ergänzung): Zwischenwertbeispiel 480.000/880.000, stille Reserven 400.000, 25 % = 12.500/45.000/5.000/37.500, Bilanz 580.000, AfA 6.750/10.500/2.500; Einbringungsgewinn I 7 Mio. × 4/7 = 4 Mio., AK 5 Mio., Gewinn 9 Mio.; Wegzug 700.000 × 4/7 = 400.000, 900.000 ./. 500.000 = 400.000; § 22 Abs. 7: 400.000 : 2 = 200.000, geschenkter Teil 100.000, AK-Verlagerung 100.000 × 100.000 : 300.000 = 33.333, Gewinne 100.000 und 66.667 (zusammen 166.667); Wertaufstockung 2.900.000 ./. 100.000 = 2.800.000, × 4/7 = 1.600.000 (Firmenwert 400.000, Grubo 2 800.000, Grubo 1 400.000), Gewinn 2 Mio. ./. 1,7 Mio. = 300.000; Anteilstausch 250.000; Einbringungsgewinn II 700.000 × 4/7 = 400.000, 850.000 ./. 500.000 = 350.000 (5 % = 17.500); miteingebrachte Beteiligung 140.000 × 4/7 = 80.000, 250.000 ./. 130.000 = 120.000 (5 % = 6.000); Körperschaft 850.000 ./. 100.000 = 750.000 (5 % = 37.500) – im Übrigen stimmig.
+
+Prüfung danach: UmwSt-Kurz-Skript (Breier) in Ordnung: 6 Teile, 43 Kapitel, 1335 Blöcke, 103 Tabellen.
+
+Damit ist das UmwSt-Kurz-Skript (Breier) vollständig eingepflegt. Weiter mit: IStR-Skript (Grümmer-Holzrichter, `1J6nyscsq9ATpbQ7biy_5NA5CZXPLqjQ5`).
+
 ### UmwSt-Kurz-Skript (Breier), Teil 6 A. I. bis B. VII. (PDF-Seiten 66 bis 91) – Einlage und Einbringung, erster Teil
 
 Übernommen: Teil 6 „Einlage und Einbringung in die Kapitalgesellschaft“, Abschnitte A. I. bis A. III. (Fälle außerhalb des § 20 UmwStG mit Merke-Kasten) und B. I. bis B. VII. (Anwendungsbereiche, Überblick, Gegenstand der Einbringung, neue Anteile, Bilanzierung bei der aufnehmenden Kapitalgesellschaft, Besteuerung des Einbringenden, Anschaffungskosten der neuen Anteile); neue Teil-Konstante TK6, die Buchstabengliederung A./B. als Zwischenüberschrift. 30 Tabellen (Eröffnungs- und Schlussbilanzen, Zwischenwertbilanz sechsspaltig „BW | gem. Wert | ZW“, Rechenweg zur schädlichen Gegenleistung in fünf Schritten), gegen die gerenderten Seiten 86, 90 und 91 und die Textlage geprüft.
