@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2013, Teil II (Transport und Fahrzeugbau GmbH)
+
+Übernommen: Prüfung 2013, Teil II – Sachverhalt (PDF-Seiten 95 bis 100) und Lösung (PDF-Seiten 118 bis 122; Seiten 118, 119, 121 und 122 gerendert und angesehen, weil die Textfassung die Buchungssätze zerlegt).
+
+- Gekennzeichnet: „31.12.20223“ (31.12.2024), „Anwendungen“ (Aufwendungen), „Max Meier“ (Müller), „Abschreibung Fertigung 427.750 €“ (Buchwert), „Latenter Steuerertrag“ (Aufwand); die § 23-Tabelle endet ohne Ergebniszeile.
+- Eigene Ergänzung (bitte prüfen): § 23-Gewinn nach den Positionen der Quelle 518.000 €; bei gemeinem Wert ohne fiktive Nebenkosten 448.000 €.
+- Eigene Feststellung: Randpunkte 32 gegen 33 in der Überschrift.
+- Nachrechnung (eigene Ergänzung): JÜ HB 385.945 €, steuerlich 86.520 € – stimmen.
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 8 Aufgabenteile, 680 Blöcke, 105 Tabellen, 268 Punkte.
+
+Weiter mit: Bilanz-Prüfung 2013, Teil III (A B C – OHG; Sachverhalt ab Zeile 8003, Lösung ab Zeile 9871 der Textfassung).
+
 ### Bilanz-Originalklausuren 2013, Teil I (Einzelunternehmen Henrik Mai)
 
 Übernommen: Prüfung 2013, allgemeine Hinweise und Teil I (PDF-Seiten 90 bis 94 und Anlagevordruck Seite 106), Lösungshinweis mit Punkte- und Notenschema und Anlage (PDF-Seiten 107 bis 117; Seiten 113 und 116 gerendert und angesehen).

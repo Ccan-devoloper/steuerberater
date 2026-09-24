@@ -2266,8 +2266,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   abschreibung steuerrechtlich, Investitionszuschuss über den Anschaffungskosten (R 6.5 EStR, PRAP
   für den Überschuss). Handelsrechtlicher Jahresüberschuss 116.686 €; drei Unstimmigkeiten (AfaA
   13.550 € statt 13.350 €, steuerliches Ergebnis 74.646 € statt nachgerechnet 74.661 €, Randpunkte
-  28,5 gegen genannte 35) sind als **eigene Feststellung** vermerkt. Die übrigen Teile 2013 sowie die
-  Prüfungen 2014 und 2015 folgen.
+  28,5 gegen genannte 35) sind als **eigene Feststellung** vermerkt.
+  **Teil II der Prüfung 2013** (Transport und Fahrzeugbau GmbH, 33 Punkte): Anpassung des laufenden
+  Abschlusses an eine Betriebsprüfung über den Gewinnvortrag (6.370 €), Aktivierung einer selbst
+  entwickelten Anhängevorrichtung nur in der Handelsbilanz (435.000 €, passive latente Steuern
+  128.325 €) und ein Grundstück für 1 € vom Alleingesellschafter als verdeckte Einlage (869.999 €,
+  Kapitalrücklage) mit privatem Veräußerungsgeschäft beim Gesellschafter. Jahresüberschuss HB
+  385.945 €, steuerlich 86.520 €. Teil III 2013 sowie die Prüfungen 2014 und 2015 folgen.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,
