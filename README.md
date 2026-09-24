@@ -69,8 +69,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 - **Bilanz-Skript Termin 1 (Melzer)** (Klausur 3, Campus Bilanzen → „Skript (Melzer)“): das
   Lehrgangsskript „Bilanzierung nach Handels- und Steuerrecht“ von Karsten Melzer (April 2026,
   Rechtsstand 2025) im Wortlaut, Übersichten und Schaubilder als Tabellen. Eingepflegt sind
-  **Kapitel 1** (Maßgeblichkeitsgrundsatz) und **Kapitel 2** (Klausuraufbau) – 7 Abschnitte,
-  90 Blöcke, 11 Tabellen. Die Kapitel 3 bis 16 folgen. Prüfung: `npm run check:k3-bil-skript-melzer`
+  **Kapitel 1** (Maßgeblichkeitsgrundsatz), **Kapitel 2** (Klausuraufbau) und **Kapitel 3** (Ansatz
+  dem Grunde nach) – 12 Abschnitte, 540 Blöcke, 33 Tabellen. Die Kapitel 4 bis 16 folgen. Prüfung: `npm run check:k3-bil-skript-melzer`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung

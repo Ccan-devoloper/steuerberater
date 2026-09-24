@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Skript Termin 1 (Melzer), Kapitel 3 (PDF-Seiten 17 bis 49)
+
+Übernommen: Kapitel 3 „Ansatz dem Grunde nach“ – 3.1 Vermögensgegenstand/Wirtschaftsgut (immaterielle Wirtschaftsgüter, Firmenwert, Übersichten), 3.2 Zurechnung (zivilrechtliches und wirtschaftliches Eigentum, Kauf nach Miete, echter und unechter Mietkauf, Leasing mit Voll- und Teilamortisation, Zinsstaffelmethode, Umsatzsteuer), 3.3 Zuordnung (notwendiges und gewillkürtes Betriebsvermögen), 3.4 Themenkomplexe (Betriebsvorrichtungen und Außenanlagen, Gebäudeteile, Mietereinbauten, Gebäude auf fremdem Grund und Boden, Erbbaurecht, Zurechnung von Verbindlichkeiten), 3.5 Anlage- und Umlaufvermögen – 5 Einträge unter `TB3`.
+
+- Schaubilder gerendert und als Tabellen übernommen: „Übersicht über das Finanzierungs-Leasing“ und „Einteilung der Leasingverträge“ (Seite 23), „Man unterscheidet:“ (Seite 29); die Zinsstaffel-Formel (Seite 25) als Textzeile; die Übersicht Gebäudeteile (Seite 36) und die AfA-Übersicht Handels-/Steuerbilanz (Seite 40) nach dem gerenderten Seitenbild neu gegliedert, weil die Tabellenerkennung die Zeilen dort zerlegt hatte.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: im PDF zerlegte Umlaute („Veraü ßerung“, „Mietbetrag̈ e“, „regelmaß̈ ig“, „zuzug̈ lich“, „eingefugte“); „Konstruktionslementen“; „Spiegelsrich“; „Steurrechtlich“; „Wirschaftsgüter“; „augrund“ (zweimal); „steuerrechlichen“; „Mietge- genstand“; über Zeilen- und Kastengrenzen getrennte Sätze zusammengeführt.
+- Nachrechnung (eigene Ergänzung): Zinsstaffel (10 + 9) / (10 × 11 / 2) = 19/55 = 34,5 %, in der Quelle auf 35 % gerundet; 10.000 ./. 8.000 = 2.000, 2.000 × 35 % = 700 – stimmig.
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 3 Teile, 12 Kapitel, 540 Blöcke, 33 Tabellen.
+
+Weiter mit: Kapitel 4 „Bewertung“ (PDF-Seiten 50 bis 82).
+
 ### Bilanz-Skript Termin 1 (Melzer), Kapitel 1 und 2 (PDF-Seiten 8 bis 16) – neuer Bestand aus dem zweiten Baum
 
 Übernommen: „Bilanzierung nach Handels- und Steuerrecht“ (Karsten Melzer, April 2026, Rechtsstand 2025; Drive-ID `19z9p0I0WgRUbRMbQfYAMaYzKUJNUsIx3`, 178 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) als neuer Datensatz `src/data/k3-bil-skript-melzer.js` mit Prüfskript `npm run check:k3-bil-skript-melzer` und dem neuen Reiter „Skript (Melzer)“ im Bilanz-Campus. Diese Runde: Kapitel 1 „Maßgeblichkeitsgrundsatz“ (1.1 bis 1.5) und Kapitel 2 „Klausuraufbau“ (2.1 Ansatz dem Grunde nach mit den Ansatzübersichten, 2.2 Bewertung mit den Bewertungsgrundsätzen des § 252 HGB und den Übersichten Handelsbilanz/Steuerbilanz) – 7 Einträge.
