@@ -149,7 +149,20 @@
       "state": "settled",
       "createdAt": "2026-09-24T05:47:25.330Z",
       "updatedAt": "2026-09-24T05:47:59.547Z"
+    },
+    {
+      "reservationId": "2026-09-24-0012-stories",
+      "date": "2026-09-24",
+      "bucket": "core",
+      "purpose": "stories",
+      "attempt": 1,
+      "slot": "stories",
+      "reservedUsd": 0.106111,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-24T06:43:45.151Z",
+      "updatedAt": "2026-09-24T06:43:45.151Z"
     }
   ],
-  "stand": "2026-09-24T05:48:26.031Z"
+  "stand": "2026-09-24T06:43:45.151Z"
 }
