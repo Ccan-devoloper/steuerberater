@@ -1,0 +1,128 @@
+{
+  "datum": "2026-09-24",
+  "zweck": "stories",
+  "daten": {
+    "stories": [
+      {
+        "slot": "s3",
+        "art": "frage",
+        "ueberzeile": "Prüfungsfrage Bilanzsteuerrecht",
+        "titel": "Über wie viele Jahre wird der Firmenwert steuerlich abgeschrieben?",
+        "text": null,
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": [
+          "5 Jahre",
+          "10 Jahre",
+          "15 Jahre"
+        ],
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s4",
+        "art": "antwort",
+        "ueberzeile": "Richtig ist C",
+        "titel": "15 Jahre – zwingend, unabhängig von der tatsächlichen Nutzungsdauer.",
+        "text": "§ 7 (1) S. 3 EStG schreibt für den derivativen Firmenwert 15 Jahre vor. Handelsrechtlich gilt dagegen die individuelle Nutzungsdauer.",
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": [
+          "5 Jahre",
+          "10 Jahre",
+          "15 Jahre"
+        ],
+        "richtig": 2,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s5",
+        "art": "norm",
+        "ueberzeile": "Norm des Tages",
+        "titel": "Schwellenerwerber und neue Fahrzeuge im Erwerbstatbestand",
+        "text": "Erst normalen Erwerb prüfen, dann die 12.500-€-Schwelle – und neue Fahrzeuge immer gesondert nach § 1b UStG behandeln.",
+        "norm": "§ 1a (3)-(5), § 1b UStG",
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s6",
+        "art": "zahl",
+        "ueberzeile": "Noch",
+        "titel": "Tage bis zur schriftlichen Prüfung",
+        "text": "Heute: ein Prüfschema laut aufsagen, ohne aufs Blatt zu schauen. Das zeigt dir ehrlich, wo noch eine Lücke sitzt.",
+        "norm": null,
+        "formel": null,
+        "zahl": "12",
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s7",
+        "art": "fehler",
+        "ueberzeile": null,
+        "titel": "Streubesitzgrenze auf Veräußerungsgewinne übertragen",
+        "text": null,
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": "Die 10-%-Grenze aus § 8b (4) KStG auch bei Anteilsveräußerungen anwenden und den Gewinn deshalb für steuerpflichtig halten.",
+        "richtigText": "§ 8b (2) KStG stellt Veräußerungsgewinne unabhängig von der Beteiligungshöhe frei – nur 5 % gelten pauschal als nicht abziehbare Ausgaben, § 8b (3) KStG.",
+        "icon": null,
+        "bildSzene": null
+      },
+      {
+        "slot": "s8",
+        "art": "tipp",
+        "ueberzeile": null,
+        "titel": "Grundlagenbescheid-Fristen: erst trennen, dann verknüpfen",
+        "text": "Prüfe Feststellungsfrist und Festsetzungsfrist des Folgebescheids getrennt. Erst danach fragst du, ob § 171 (10) S. 1 AO die Zwei-Jahres-Hemmung erneut auslöst.",
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": "stoppuhr",
+        "bildSzene": "open ring binder on desk"
+      },
+      {
+        "slot": "s9",
+        "art": "zahl",
+        "ueberzeile": null,
+        "titel": "Festsetzungsfrist: Regel, Hinterziehung, leichtfertige Verkürzung",
+        "text": "§ 169 (2) S. 1 Nr. 2 AO: 4 Jahre im Regelfall. § 169 (2) S. 2 AO: 10 Jahre bei Hinterziehung, 5 Jahre bei leichtfertiger Verkürzung.",
+        "norm": null,
+        "formel": null,
+        "zahl": "4-10-5",
+        "optionen": null,
+        "richtig": null,
+        "falsch": null,
+        "richtigText": null,
+        "icon": null,
+        "bildSzene": null
+      }
+    ]
+  }
+}

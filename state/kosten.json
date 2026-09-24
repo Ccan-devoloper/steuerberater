@@ -330,6 +330,18 @@
         "erklaerbild": 0.01
       },
       "stand": "2026-09-23T19:15:14.195Z"
+    },
+    "2026-09-24": {
+      "usd": 0.0606,
+      "antworten": 0,
+      "aufrufe": 1,
+      "zwecke": {
+        "stories": 0.0606
+      },
+      "messungen": {
+        "stories": 0.0606
+      },
+      "stand": "2026-09-24T05:44:30.792Z"
     }
   }
 }
