@@ -755,11 +755,13 @@ function titelBlock(titel, zeilen, ctx) {
 const FOLIEN = {
   titel: (f, ctx, i, n) => {
     const bunt = (ctx.stil.familie || ctx.stil.id) === "bunt";
-    const badge = String(ctx.formatLabel || f.coverBadge || f.prioritaetText || "").trim();
+    const badge = String(f.coverBadge || f.prioritaetText || "").trim();
+    const formatBadge = String(ctx.formatLabel || "").trim();
     return `
     ${kopf(ctx, "")}
     ${titelBlock(f.titel, f.titelZeilen, ctx)}
     ${f.untertitel ? `<p class="unter">${markieren(f.untertitel)}</p>` : ""}
+    ${formatBadge ? `<div class="format-badge">${esc(formatBadge)}</div>` : ""}
     ${badge ? `<div class="cover-badge">${esc(badge)}</div>` : ""}
     ${!bunt && f.pille ? `<div><span class="pille">${esc(f.pille)}</span></div>` : ""}
     ${f.coverBildAuslassen ? "" : (f.bild ? fotoBuehne(f) : bildOderIllu(ctx, f))}
