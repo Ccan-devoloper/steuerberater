@@ -625,7 +625,7 @@ test("Wachstum: Hashtag-Lernschleife gewichtet Tags nach Followern, Auswahl mit 
   assert.equal(new Set(tags).size, tags.length);
 });
 
-test("Reel-Cover zeigt Thema, Fach und Dauer", async () => {
+test("Reel-Cover zeigt Thema und Fach ohne doppelte Dauerzeile", async () => {
   const { coverDaten } = await import("../src/reel.mjs");
   const reel = { fach: "ust", klausur: 1, kurztitel: "Organschaft: Wer schuldet die Umsatzsteuer?", szenen: [{ titel: "Organschaft" }, { titel: "Schritt 1", icon: "kreislauf" }] };
   const daten = coverDaten(reel, { gesamt: 44.6 });
@@ -1639,28 +1639,20 @@ test("Reel-Cover und Karussell-Titelfolie tragen dieselbe Überschriften-Optik",
   /* Und das Cover nimmt die Story-Regel zurück, die einen Grund um das ganze
      h1 legt - sonst läge die Pille in der Pille. */
   assert.ok(/\.story\.cover h1\{[^}]*background:none/.test(cover), "Cover: der Kasten um das ganze h1 ist nicht zurückgenommen");
-  /* Gleiche WIRKUNG, nicht gleiche Zahl: Das Cover ist 1920 hoch, die
-     Titelfolie 1350. Bis zum 14.09. stand auf beiden 100px - im Profilraster
-     wirkte die Reel-Überschrift dadurch ein Drittel kleiner und fiel als die
-     schwächere auf (gemessen: 15,6 % der Kachelhöhe gegen 33,3 %). Die
-     Cover-Größe ist deshalb mit 1920/1350 hochgerechnet. */
-  const buntGroesse = Number(folie.match(/h1\{margin-top:72px;font-size:(\d+)px/)?.[1]);
-  const coverGroesse = Number(cover.match(/\.story\.cover h1\{[^}]*font-size:(\d+)px/)?.[1]);
-  assert.ok(buntGroesse, "Titelfolie: Schriftgröße nicht gefunden");
-  const faktor = 1920 / 1350;
-  assert.ok(Math.abs(coverGroesse / buntGroesse - faktor) < 0.05,
-    `Cover ${coverGroesse}px zu Titelfolie ${buntGroesse}px ergibt ${(coverGroesse / buntGroesse).toFixed(2)}, erwartet ${faktor.toFixed(2)}`);
-  /* Auch die beiden Stufen für lange Titel. Gesucht wird das Paar, das im
-     bunten Stil für die Titelfolie gilt - „.story h1.klein" ist eine andere
-     Regel und darf nicht dazwischenfunken. */
-  const stufen = folie.match(/(?:^|[};\n])h1\.klein\{font-size:(\d+)px\}h1\.winzig\{font-size:(\d+)px\}/);
-  assert.ok(stufen, "Titelfolie: Stufen für lange Titel nicht gefunden");
-  const coverKlein = Number(cover.match(/\.story\.cover h1\.klein\{font-size:(\d+)px\}/)?.[1]);
-  const coverWinzig = Number(cover.match(/\.story\.cover h1\.winzig\{font-size:(\d+)px\}/)?.[1]);
-  for (const [name, gross, klein] of [["klein", Number(stufen[1]), coverKlein], ["winzig", Number(stufen[2]), coverWinzig]]) {
-    assert.ok(klein, `Cover: Stufe ${name} nicht gefunden`);
-    assert.ok(Math.abs(klein / gross - faktor) < 0.05, `Cover-Stufe ${name}: ${klein}px zu ${gross}px`);
-  }
+  /* Cover v2 verwendet in beiden Formaten dieselbe semantische
+     Zeilenpillen-Hierarchie. Die 9:16-Safe-Area wird über Geometrie statt
+     über künstlich hochskalierte Typografie abgesichert. */
+  const folieStack = folie.match(/\.art-titel h1\.titel-stack\{[^}]*font-size:(\d+)px/);
+  const coverStack = cover.match(/\.story\.cover h1\.titel-stack\{[^}]*font-size:(\d+)px/);
+  assert.ok(folieStack, "Titelfolie: Stack-Schriftgröße nicht gefunden");
+  assert.ok(coverStack, "Cover: Stack-Schriftgröße nicht gefunden");
+  assert.equal(Number(coverStack[1]), Number(folieStack[1]));
+
+  const folieKlein = Number(folie.match(/\.art-titel h1\.titel-stack\.klein\{font-size:(\d+)px\}/)?.[1]);
+  const folieWinzig = Number(folie.match(/\.art-titel h1\.titel-stack\.winzig\{font-size:(\d+)px\}/)?.[1]);
+  const coverKlein = Number(cover.match(/\.story\.cover h1\.titel-stack\.klein\{font-size:(\d+)px\}/)?.[1]);
+  const coverWinzig = Number(cover.match(/\.story\.cover h1\.titel-stack\.winzig\{font-size:(\d+)px\}/)?.[1]);
+  assert.deepEqual([coverKlein, coverWinzig], [folieKlein, folieWinzig]);
 });
 
 test("Instagram: „Datei nicht ladbar“ wird nachgefasst, nicht aufgegeben", async () => {
