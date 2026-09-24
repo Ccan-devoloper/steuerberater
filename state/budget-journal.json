@@ -80,11 +80,24 @@
       "attempt": 1,
       "slot": null,
       "reservedUsd": 0.051534,
-      "actualUsd": null,
-      "state": "sent",
+      "actualUsd": 0.024503,
+      "state": "settled",
       "createdAt": "2026-09-24T05:45:27.885Z",
-      "updatedAt": "2026-09-24T05:45:28.980Z"
+      "updatedAt": "2026-09-24T05:45:43.363Z"
+    },
+    {
+      "reservationId": "2026-09-24-0007-autor",
+      "date": "2026-09-24",
+      "bucket": "core",
+      "purpose": "autor",
+      "attempt": 1,
+      "slot": "autor",
+      "reservedUsd": 0.127222,
+      "actualUsd": null,
+      "state": "reserved",
+      "createdAt": "2026-09-24T05:45:43.550Z",
+      "updatedAt": "2026-09-24T05:45:43.550Z"
     }
   ],
-  "stand": "2026-09-24T05:45:28.980Z"
+  "stand": "2026-09-24T05:45:43.550Z"
 }
