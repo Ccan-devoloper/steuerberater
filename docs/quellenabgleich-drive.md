@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 14 bis 19 (PDF-Seiten 37 bis 44)
+
+Übernommen: 14 Gebäude (unselbständige und selbständige Gebäudeteile, Qualifikation und AfA, Gebäudeteile nach R 4.2 Abs. 4 EStR, Grund und Boden, Verbindlichkeiten, Gebäudeabschreibungen), 15 Mietereinbauten (Prüfungsreihenfolge nach § 7/1), 16 Gebäude auf fremdem Grund und Boden, 17 Erbbaurecht, 18 Abbruchkosten (mit Schaubild, Teilabbruch, Abbruchmaterial), 19 Anschaffungsnaher Herstellungsaufwand – 6 Einträge.
+
+- Nach den Seitenbildern neu gegliedert: die Tabelle „Unselbstständige Gebäudebestandteile/Selbständige Gebäudeteile“ (Seite 37; die linke Spalte war zeilenweise zerfallen), die Zeile „Scheinbestandteile“ (Seite 38), die Tabelle zu den Mietereinbauten (Seite 40; die über alle Spalten laufenden Zeilen hatten Wortbruchstücke erzeugt; Scheinbestandteil und Betriebsvorrichtung teilen sich in der Quelle Qualifikation und Folge und stehen daher in einer Zeile) und die Tabelle zum Gebäude auf fremdem Grund und Boden (Seite 41; die drei Voraussetzungen des zivilrechtlichen Eigentums teilen sich die Folge, die in der ersten Zeile steht). Das Schaubild zu den Abbruchkosten (Seite 43) ist als Tabelle übernommen; weil im Schaubild von Nummer 2 kein Pfeil zu einer Folge führt, bleibt die Folgezelle dort leer, mit einem als eigene Ergänzung gekennzeichneten Hinweis auf das Skript.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: „bei Vor. § 7g Abs. 6 EstG“; „R 4. 2 Abs.“ (zweimal); „(nach 30.06 2025“.
+- Nachrechnung: keine Zahlenbeispiele. Wortabgleich der Seiten 37 bis 44: vollständig (offen nur Silbentrennungen und die berichtigten Schreibfehler).
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 17 Teile, 88 Kapitel, 2591 Blöcke, 196 Tabellen.
+
+Weiter mit: Übersichten, Abschnitte 20 bis 27 (PDF-Seiten 45 bis 68).
+
 ### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 8 bis 13 (PDF-Seiten 21 bis 36)
 
 Übernommen: 8 Abschreibung, AfA, außerplanmäßige Abschreibung, Teilwertabschreibung (AfA-Arten nach Wirtschaftsgütern, Grundlagen, Gebäudeabschreibungen, nachträgliche Anschaffungs-/Herstellungskosten, Investitionsabzugsbetrag und Sonderabschreibung § 7g EStG, Teilwertabschreibung im Anlage- und Umlaufvermögen, Altlasten, GWG/Sammelposten), 9 Umlaufvermögen (Inventurformeln, Bewertungsvereinfachungen, Festwert), 10 Forderungen (Einbringlichkeit, Pauschalwertberichtigung), 11 Verbindlichkeiten/Schulden, 12 Fremdwährungsforderungen und -verbindlichkeiten, 13 Bewertungseinheiten – 6 Einträge.
