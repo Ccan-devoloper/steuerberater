@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 8 bis 13 (PDF-Seiten 21 bis 36)
+
+Übernommen: 8 Abschreibung, AfA, außerplanmäßige Abschreibung, Teilwertabschreibung (AfA-Arten nach Wirtschaftsgütern, Grundlagen, Gebäudeabschreibungen, nachträgliche Anschaffungs-/Herstellungskosten, Investitionsabzugsbetrag und Sonderabschreibung § 7g EStG, Teilwertabschreibung im Anlage- und Umlaufvermögen, Altlasten, GWG/Sammelposten), 9 Umlaufvermögen (Inventurformeln, Bewertungsvereinfachungen, Festwert), 10 Forderungen (Einbringlichkeit, Pauschalwertberichtigung), 11 Verbindlichkeiten/Schulden, 12 Fremdwährungsforderungen und -verbindlichkeiten, 13 Bewertungseinheiten – 6 Einträge.
+
+- Nach den Seitenbildern berichtigt: Tabelle „Gebäudeabschreibungen“ (Seite 23) in Handelsbilanz und Steuerbilanz mit Spalten „AfA gem./Voraussetzungen:/AfA“ gegliedert; in der Tabelle zur Teilwertabschreibung im Anlagevermögen (Seite 26) die Zwischenzeilen „Abnutzbares Anlagevermögen“ und „nicht abnutzbares Anlagevermögen“ (verbundene Zellen, dort waren Wortbruchstücke entstanden). Schaubild zur GWG-Wertgrenze (Seite 28) wie im Skript als Tabelle übernommen. Der Fettdruck der „Klausurprobleme“ in Abschnitt 12 ist in einer als eigene Ergänzung gekennzeichneten Anmerkung beschrieben.
+- Gekennzeichnet: „9 b Abs. 2 EStR“ (gemeint R 9b Abs. 2 EStR, wie im Skript); „soweit Vorsteuerabzug § 15 Abs. 1 Satz 1 Nr. 1 EStG“ in Abschnitt 9 (gemeint UStG).
+- Stillschweigend berichtigt: „i. Satz d.“ (viermal) und „i. Satz von“; „§ 7g Abs. 2,Satz 3“; „wiedersprechen“; „bis zu. 50%“; „Vermögengegenstände“; „Verwaltungsakt- mit“ (wie in der dritten Tabellenzeile „Verwaltungsakt, mit“); Fortsetzungszeilen zusammengeführt.
+- Nachrechnung: keine Zahlenbeispiele (die Prozentsätze 3,0 % = 33 1/3 Jahre, 2,5 % = 40 Jahre, 2,0 % = 50 Jahre stimmen). Wortabgleich der Seiten 21 bis 36: vollständig (offen nur Silbentrennungen und die berichtigten Schreibfehler).
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 17 Teile, 82 Kapitel, 2562 Blöcke, 186 Tabellen.
+
+Weiter mit: Übersichten, Abschnitte 14 bis 27 (PDF-Seiten 37 bis 68).
+
 ### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 1 bis 7 (PDF-Seiten 3 bis 20)
 
 Quelle: „Bilanzsteuerrecht – Übersichten“ (Drive-ID `1NtebyaKqbhJBZ_nwF4a55baSVBttWHzM`, 68 PDF-Seiten: Titelblatt, Inhaltsverzeichnis und 66 gezählte Seiten mit 27 Abschnitten). Eingepflegt als Anhang des Bilanz-Skripts (`teil: "uebersichten"`, Konstante `TBU`, Filter „Anhang – Übersichten“), je Abschnitt ein Eintrag (`bil-melzer-ue-NN`).

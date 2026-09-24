@@ -75,8 +75,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (Forderungen), **Kapitel 9** (Rechnungsabgrenzung), **Kapitel 10** (Verbindlichkeiten) und
   **Kapitel 11** (Sonderposten mit Rücklageanteil), **Kapitel 12** (Rückstellungen) und die
   **Kapitel 13 bis 16** (Schuldübernahme, Bewertungseinheiten, latente Steuern, Bilanzberichtigung) –
-  vollständig; dazu als Anhang die **Übersichten** zum Skript, bisher Abschnitte 1 bis 7 (von 27) –
-  zusammen 76 Einträge, 2480 Blöcke, 157 Tabellen. Prüfung: `npm run check:k3-bil-skript-melzer`
+  vollständig; dazu als Anhang die **Übersichten** zum Skript, bisher Abschnitte 1 bis 13 (von 27) –
+  zusammen 82 Einträge, 2562 Blöcke, 186 Tabellen. Prüfung: `npm run check:k3-bil-skript-melzer`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung
