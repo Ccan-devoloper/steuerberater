@@ -26,7 +26,7 @@ dieser Umgebung keine Texterkennung zur Verfügung steht, sowie Lösungen, die i
 
 | Quelle | Was genau fehlt | Grund |
 |---|---|---|
-| **ESt-Kurzskript I** (Engelberth, Stand 07/2026), Drive-ID `1DdIbwtK4vfHU4w15uayCsg_VdaD7Afft` | Seiten 80–162 (auch der zweite Download-Versuch im September 2026 scheiterte: die Drive-Verbindung bricht ab): Tz. 3.6 und Kapitel 4 der gewerblichen Einkünfte sowie die Teile **Betriebsaufspaltung, Gewerblicher Grundstückshandel, Betriebsbeendigung, Einnahmenüberschussrechnung, Einkünfte aus selbständiger Arbeit, Einkünfte aus Kapitalvermögen** | Der Connector gibt das PDF nur bis Seite 79 aus; der Download der 6,6-MB-Datei lässt die Verbindung abbrechen (dreimal versucht). Kein zweites Exemplar im Ordner (Volltextsuche geprüft). |
+| **ESt-Kurzskript I** (Engelberth, Stand 07/2026), Drive-ID `1DdIbwtK4vfHU4w15uayCsg_VdaD7Afft` | Seiten 80–162 (auch die Download-Versuche im September 2026 scheiterten, zuletzt am 24.09.2026 dreimal hintereinander mit „session expired“, während kleinere Dateien derselben Sitzung einwandfrei luden): Tz. 3.6 und Kapitel 4 der gewerblichen Einkünfte sowie die Teile **Betriebsaufspaltung, Gewerblicher Grundstückshandel, Betriebsbeendigung, Einnahmenüberschussrechnung, Einkünfte aus selbständiger Arbeit, Einkünfte aus Kapitalvermögen** | Der Connector gibt das PDF nur bis Seite 79 aus; der Download der 6,6-MB-Datei lässt die Verbindung abbrechen (dreimal versucht). Kein zweites Exemplar im Ordner (Volltextsuche geprüft). |
 | **GewSt-Fallsammlung** (Nöthen) | Der gesamte **Lösungsteil** | Im freigegebenen Ordner liegt nur der Aufgabenteil. Die vier Übungsfälle stehen im Campus ohne Lösung, ausdrücklich gekennzeichnet. |
 | **KSt-Übungsfälle Teil 1 und 2** (Nöthen) | Der gesamte **Lösungsteil** zu allen fünf Fällen | Beide Aufgaben-PDFs enden nach der Aufgabenstellung; im Ordner liegt keine Musterlösung. Die Fälle stehen im Campus ohne Lösung, ausdrücklich gekennzeichnet. |
 | **KSt-Kurz-Skript** (Breier, Mai 2026), Drive-ID `1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0` | **Erledigt (September 2026): vollständig heruntergeladen und eingepflegt – alle elf Teile (bis Seite 196, einschließlich Teil 11 „Erwerb und Veräußerung eigener Anteile“) stehen im Datensatz.** | Der Connector gibt das PDF nur bis etwa Seite 90 aus. Die Teile 1 bis 3 und der Anfang von Teil 4 sind lesbar und eingepflegt; ab der Bruchstelle fehlt auch der Rest von Teil 4. |
@@ -57,7 +57,7 @@ aufgeht, und mit einem Prüfskript.
 
 ### Arbeitsliste nach dem Dublettencheck des zweiten Baums (Reihenfolge der Abarbeitung)
 
-**Zurückgestellt (September 2026, auf Wunsch des Nutzers):** Der Drive-Zugang meldet seit
+**Erledigt (24.09.2026):** Der Drive-Zugang lief wieder; alle zurückgestellten Punkte unter 1 und 2 sind nachgeholt, Abschnitt B ist damit abgearbeitet. Offen bleibt nur, was in Abschnitt A steht. – Ursprünglicher Vermerk: **Zurückgestellt (September 2026, auf Wunsch des Nutzers):** Der Drive-Zugang meldet seit
 vielen Runden „session expired“. Alles, was nur über Drive erreichbar ist – die offenen Reste
 unter Punkt 1 und die neuen Bestände unter Punkt 2 außer dem USt-Skript (Moecker), das lokal
 vorliegt –, wird ausgelassen und am Ende zusammen mit Abschnitt A zur Nachlieferung genannt.
