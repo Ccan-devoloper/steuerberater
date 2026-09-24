@@ -327,16 +327,16 @@
     "profilId": "reel-faktencheck:4b0cb363edb7",
     "familie": "reel-faktencheck / claude-sonnet-5 / medium / d17782",
     "letzteAusgabeTokens": [],
-    "aufrufeGesamt": 18,
+    "aufrufeGesamt": 20,
     "erfolgreicheAufrufe": 0,
     "abschnitte": 2,
     "schemaFehler": 0,
     "anbieterFehler": 0,
-    "sonstigeFehler": 16,
+    "sonstigeFehler": 18,
     "aktuellesCeiling": 3000,
     "ceilingGesetztAm": "2026-09-20T05:46:15.438Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-24T13:43:54.257Z"
+    "zuletzt": "2026-09-24T14:45:06.351Z"
   },
   "stories:09d368fd85fb": {
     "profilId": "stories:09d368fd85fb",
@@ -411,16 +411,16 @@
       292,
       1424
     ],
-    "aufrufeGesamt": 18,
+    "aufrufeGesamt": 19,
     "erfolgreicheAufrufe": 5,
     "abschnitte": 0,
     "schemaFehler": 0,
     "anbieterFehler": 0,
-    "sonstigeFehler": 13,
+    "sonstigeFehler": 14,
     "aktuellesCeiling": 4500,
     "ceilingGesetztAm": "2026-09-22T05:44:57.166Z",
     "unkalibriert": true,
-    "zuletzt": "2026-09-24T13:43:54.041Z"
+    "zuletzt": "2026-09-24T14:45:06.124Z"
   },
   "autor:5ea313db77cc": {
     "profilId": "autor:5ea313db77cc",
