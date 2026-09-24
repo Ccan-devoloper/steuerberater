@@ -4732,22 +4732,22 @@
       "medienId": "18117180511970668",
       "veroeffentlicht": "2026-09-24T09:44:51.796Z",
       "insights": {
-        "reach": 23,
-        "views": 34,
+        "reach": 26,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 30,
-        "navigation_swipe_forward": 1,
+        "navigation": 33,
+        "navigation_swipe_forward": 2,
         "navigation_tap_back": 5,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 20
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 21
       },
-      "insightsStand": "2026-09-24T15:44:00.849Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-09-24T19:44:26.211Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-09-24",
