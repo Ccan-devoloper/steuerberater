@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### IStR-Skript (Grümmer/Holzrichter), Kapitel 1 bis 3 (PDF-Seiten 4 bis 41) – neuer Bestand aus dem zweiten Baum
+
+Übernommen: „Internationales Steuerrecht“ (Dieter Grümmer / Daniela Holzrichter, März 2026, Stand 12/2025, Rechtsstand 2025; Drive-ID `1J6nyscsq9ATpbQ7biy_5NA5CZXPLqjQ5`, 163 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) als neuer Datensatz `src/data/k2-istr-skript-gh.js` mit neuem Reiter „Skript (Grümmer/Holzrichter)“ im IStR-Campus und Prüfskript `npm run check:k2-istr-skript-gh`. Kapitel 1 Einleitung, 2 Definition und Gliederung, 3 Arten der Steuerpflicht (3.1 bis 3.5.6) – 16 Abschnitte.
+
+- Schaubilder: die Pfeil- und Kastendiagramme auf den Seiten 5, 14, 15 und 16 sowie die Folienseiten 30 („Inländische Einkünfte aus Kapitalvermögen“) und 34 („Veranlagung beschränkt Steuerpflichtiger, § 50 EStG“) gerendert und als Zwischenüberschrift „Schaubild: …“ mit Tabelle übertragen (Wortlaut der Kästen, Anordnung als eigene Darstellung); die Übersicht „Inländische Einkünfte § 49 Abs. 1 EStG (Grundfälle)“ (Seite 21) als dreispaltige Tabelle.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: im Blocksatz auseinandergezogene Zeilen („gesellschaften mit Geschäftsleitung im Inland …“, „inländische Einkünfte aus Gewerbebetrieb …“) wieder als Fließtext; umbrochene Abschnittsüberschriften (3.3.1.3, 3.5.3.3.10, 3.5.3.13) zusammengeführt; Silbentrennungen.
+- Nachrechnung (eigene Ergänzung): Arbeitnehmer-Pauschbetrag 20.000 ./. 1.230 = 18.770; Steuerabzug 15 % von 5.000 = 750 bzw. 30 % von 4.000 = 1.200; inländische Einkünfte Becker 25.000 + 10.000 = 35.000 – stimmig.
+
+Prüfung danach: IStR-Skript (Grümmer/Holzrichter) in Ordnung: 3 Teile, 16 Kapitel, 390 Blöcke, 10 Tabellen.
+
+Weiter mit: Kapitel 4 „Entstehung der Doppelbesteuerung und ihre Vermeidung“ (PDF-Seiten 42 bis 97).
+
 ### UmwSt-Kurz-Skript (Breier), Teil 6 B. VIII. bis C. V. (PDF-Seiten 91 bis 116) – Skript vollständig
 
 Übernommen: Teil 6 B. VIII. bis B. XI. (übernommene Wirtschaftsgüter, Rückwirkung mit Merke-Kasten zu § 20 UmwStG, Veräußerung innerhalb von 7 Jahren mit Einbringungsgewinn I, Ersatztatbeständen, § 22 Abs. 7 UmwStG und Wertaufstockung nach § 23 Abs. 2 UmwStG, Nachweispflicht mit Merke-Kasten) und C. I. bis C. V. (Anteilstausch nach § 21 UmwStG, Einbringungsgewinn II, Merke-Kasten); die Buchstabengliederung C. als Zwischenüberschrift. 24 Tabellen (Bilanzen mit Buchwert/gemeinem Wert fünfspaltig, Verteilung der Aufstockung, AStG-Berechnung dreispaltig mit Nebenrechnung, Buchung beim Anteilstausch); der Bruch zur Verlagerung der Anschaffungskosten (Seite 102) steht in einer Zeile.
