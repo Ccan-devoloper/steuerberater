@@ -1,0 +1,19 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "pairId": "bilanz-quiz-k3-16",
+  "ueberzeile": "Richtig ist C",
+  "titel": "15 Jahre – zwingend, unabhängig von der tatsächlichen Nutzungsdauer.",
+  "text": "§ 7 (1) S. 3 EStG schreibt für den derivativen Firmenwert 15 Jahre vor. Handelsrechtlich gilt dagegen die individuelle Nutzungsdauer.",
+  "optionen": [
+    "5 Jahre",
+    "10 Jahre",
+    "15 Jahre"
+  ],
+  "richtig": 2,
+  "fachLabel": "Bilanzsteuerrecht",
+  "befundeTypisiert": true,
+  "fachStand": "56zi8x-344"
+}

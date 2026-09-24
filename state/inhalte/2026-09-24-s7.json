@@ -1,0 +1,16 @@
+{
+  "slot": "s7",
+  "art": "fehler",
+  "fach": "kst",
+  "klausur": 2,
+  "pairId": "kst-modul-kst-8",
+  "titel": "Streubesitzgrenze auf Veräußerungsgewinne übertragen",
+  "falsch": "Die 10-%-Grenze aus § 8b (4) KStG auch bei Anteilsveräußerungen anwenden und den Gewinn deshalb für steuerpflichtig halten.",
+  "richtigText": "§ 8b (2) KStG stellt Veräußerungsgewinne unabhängig von der Beteiligungshöhe frei – nur 5 % gelten pauschal als nicht abziehbare Ausgaben, § 8b (3) KStG.",
+  "fachLabel": "Körperschaftsteuer",
+  "befundeTypisiert": true,
+  "beanstandetFachlich": [
+    "[s7 fehler] – Absatzangabe falsch: Der Text sagt, die 10-%-Grenze aus § 8b (4) KStG sei auf Anteilsveräußerungen anzuwenden. Der zitierte § 8b (4) KStG besteht aber nicht und existiert damit auch nicht als Normadresse. § 8b KStG hat nur Abs. 1–3. → Entweder muss die richtige Normstelle (z. B. § 1 (3) KStG für die 1-%-Grenze bei Wertpapieren oder eine andere einschlägige Norm) zitiert werden, oder die Absatzangabe muss auf die tatsächliche Struktur des Gesetzes überprüft werden. Ein Absatz, der nicht existiert, kann nicht zitiert werden."
+  ],
+  "fachStand": "1ii2lor-421"
+}
