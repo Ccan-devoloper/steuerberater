@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-24T13:43:51.492Z",
+  "stand": "2026-09-24T14:45:03.077Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -4467,6 +4467,23 @@
           "navigation_swipe_forward": 4,
           "navigation_tap_forward": 21,
           "navigation_tap_exit": 9
+        },
+        {
+          "stand": "2026-09-24T14:45:00.159Z",
+          "alterStunden": 23,
+          "reach": 32,
+          "views": 44,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 38,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 23,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_back": 1
         }
       ]
     },
@@ -4530,6 +4547,23 @@
           "navigation_swipe_forward": 3,
           "navigation_tap_back": 3,
           "navigation_tap_forward": 16
+        },
+        {
+          "stand": "2026-09-24T14:45:00.159Z",
+          "alterStunden": 19.4,
+          "reach": 28,
+          "views": 48,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 41,
+          "navigation_tap_exit": 7,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 26
         }
       ]
     },
@@ -4732,6 +4766,18 @@
           "likes": 0,
           "comments": 0,
           "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-09-24T14:45:02.493Z",
+          "alterStunden": 8,
+          "reach": 22,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
           "follows": 0,
           "profile_visits": 1
         }
@@ -5114,6 +5160,11 @@
     },
     {
       "stand": "2026-09-24T13:43:51.492Z",
+      "follower": 74,
+      "medien": 60
+    },
+    {
+      "stand": "2026-09-24T14:45:03.077Z",
       "follower": 74,
       "medien": 60
     }
