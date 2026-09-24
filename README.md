@@ -2463,7 +2463,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   vollständig) und den Arbeitspapieren A 1 bis A 16 (25 Kapitel, vollständig);
   Block 13 (Unentgeltliche Wertabgaben) begonnen mit Inhaltsverzeichnis, Allgemeinem und Ort der
   Wertabgabe, der Übersicht über die Tatbestände des § 3 Abs. 1b UStG und der Gegenstandsentnahme als
-  wirtschaftlichem Vorgang (4 Kapitel).
+  wirtschaftlichem Vorgang, der Entnahme bei Unternehmern mit privatem und mit nichtwirtschaftlichem
+  Bereich (6 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein

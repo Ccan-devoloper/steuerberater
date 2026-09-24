@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: II.2.2 und II.2.3
+
+Übernommen (PDF-Seiten 7 unten bis 10): Kapitel ust-m-b13-5 (II.2.2.1 bis II.2.2.4 mit Bauunternehmer-, PC- und Baumschul-Beispiel) und ust-m-b13-6 (II.2.3 nichtwirtschaftlicher Bereich i.e.S. mit Vereinsbus).
+
+- Stillschweigend berichtigt: „A 15.2c Abs. 2 Nr. 2b“ → „Abschn. 15.2c …“, fehlendes schließendes Anführungszeichen bei „Unternehmer / Unternehmen“ (II.2.2.2); „Bäume und Sträucher (=Gartengestaltung)“ → „Sträuchern“ (II.2.2.4); „steuerpflichtigen wirtschaftlicher Geschäftsbetrieb“ → „steuerpflichtiger …“, „e ines“ → „eines“ (II.2.3).
+- Nachrechnung (eigene Ergänzung): PC-Beispiel 20 % + 20 % = 40 % abziehbar; stimmig.
+
+Prüfung danach: 14 Teile, 490 Kapitel, 6687 Blöcke, 380 Tabellen.
+
+Weiter mit: II.2.4 Besteuerungsverbot bei fehlender Vorsteuerabzugsberechtigung, Skript-Seite 9 unten (PDF-Seite 10 unten / 11).
+
 ### USt-Skript (Moecker), Block 13: Inhaltsverzeichnis, I. bis II.2.1
 
 Neue Datei src/data/k1-ust-moecker/block13.js, im Skript nach Block 12 eingebunden. Aufbau der Quelle (lokale Datei b13, 69 PDF-Seiten, Titelblatt November 2025): Textteil Skript-Seiten 1 bis 41 (PDF-Seiten 2 bis 42, Skript-Seite = PDF-Seite − 1), Arbeitspapiere A 1 bis A 27 (PDF-Seiten 43 bis 69, A n = PDF-Seite 42 + n). Einziges eingebettetes Bild ist das Titelblatt (geprüft mit PyMuPDF); alle Seiten gerendert.
