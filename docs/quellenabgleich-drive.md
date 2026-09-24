@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: III.2 bis IV
+
+Übernommen (PDF-Seiten 111 unten bis 114): Kapitel ust-m-b12-6 (III.2 Änderungsmindestbetrag mit Beispiel über fünf Jahre, III.3 maßgebender Besteuerungszeitraum, III.4 entsprechende Anwendung) und ust-m-b12-7 (IV maßgeblicher Berichtigungszeitraum mit Tieflader, § 45 UStDV und Bürohochhaus).
+
+- Quellenmarkierungen: III.3 „§ 44 Abs. 4 Satz 3 UStDV“ für die Berichtigung bei Veräußerung (Regelung in § 44 Abs. 3 Satz 2 UStDV, so auch das Prüfschema der Quelle); IV „Somit Beginn 1.7.01“ (bei Ende 30.06.16 und fünf Jahren 1.7.11, vgl. das Folgebeispiel „Beginn 1.8.11“).
+- Stillschweigend berichtigt: „zu berichtigende Gegenstände“ → „zu berichtigenden“, „(15a.11 Abs. 4 UStAE)“ → „(Abschn. 15a.11 Abs. 4 UStAE)“ (III); „§ l5a“ → „§ 15a“, Anführungszeichen bei „Verwendungspause“ vereinheitlicht (IV).
+- Nachrechnungen (eigene Ergänzung): III.2 10.000 € je Jahr, 500 € / 900 € / 5.000 € / 10.000 € stimmig, Summe der Berichtigungen 15.000 €; IV Bürohochhaus 01.06.14 bis 31.05.24 stimmig.
+
+Prüfung danach: 13 Teile, 466 Kapitel, 6444 Blöcke, 356 Tabellen.
+
+Weiter mit: V Änderung der Verhältnisse, Skript-Seite 13 (PDF-Seite 115).
+
 ### USt-Skript (Moecker), Block 12: II.2 und III.1
 
 Übernommen (PDF-Seiten 108 bis 111, Prüfschema auf PDF-Seite 110 gerendert und angesehen): Kapitel ust-m-b12-4 (II.2 Berechtigung zum Vorsteuerabzug als Grundvoraussetzung mit PC-Beispiel und Gebäudebeispiel nach Abschn. 15.2c Abs. 19 UStAE) und ust-m-b12-5 (III Prüfschema § 44 UStDV, III.1 Vorsteuermindestbetrag mit Schreibtisch-Beispiel). Prüfschema als Tabellen wiedergegeben.

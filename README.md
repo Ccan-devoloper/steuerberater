@@ -2457,7 +2457,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Seeling-Modells (Textteil vollständig) und den Arbeitspapieren A 1 bis A 42 (54 Kapitel, vollständig);
   Block 12 (Berichtigung des Vorsteuerabzugs nach § 15a UStG) begonnen mit Inhaltsverzeichnis,
   allgemeinen Grundsätzen, den Berichtigungsobjekten, der Abzugsberechtigung als Grundvoraussetzung und
-  dem Vorsteuermindestbetrag nach § 44 Abs. 1 UStDV (5 Kapitel); Block 13 folgt.
+  den Vereinfachungsregeln nach § 44 UStDV und dem maßgeblichen Berichtigungszeitraum (7 Kapitel);
+  Block 13 folgt.
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
