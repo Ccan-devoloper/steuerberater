@@ -4,7 +4,7 @@
    PDF-Seiten: Textteil Seiten 1 bis 41 (PDF-Seiten 2 bis 42), Arbeitspapiere A 1 bis A 27 (PDF-Seiten
    43 bis 69).
    In Arbeit: Textteil vollständig (I. bis VI., PDF-Seiten 2 bis 42); Arbeitspapiere eingepflegt bis
-   A 8 (PDF-Seite 50). */
+   A 12 (PDF-Seite 54). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -850,6 +850,62 @@ export const block13 = [
       ] },
       { text: "☞ Nur bei **Unentgeltlichkeit**:\nBeispiele für **entgeltliche** Lieferungen - Abschn. 3.3 (18) - (20) -\n**Zusatzstücke - Handelsware** (11 entgeltliche Lieferungen zum Preis von 10)\n**Zusatzstücke - mitgelieferter anderer Gegenstand -** (bei 10 TV / 1 Video zusätzlich = insges. 11 entgeltliche Lief.)\n**Zusatzgaben** (Bierdeckel, Aschenbecher, Gläser, Fußmatten, Pflegemittel, usw. => insg. 1 entgeltliche Lief.)" },
       { text: "**Einzelfälle:**\n- **Sachprämien an Neuabonnenten für Zeitungsabo** => 2 entgeltliche Leistungen (Prämie und Zeitung)\n- **Sachprämie an Altkunden für Vermittlung** => 1 Lieferung im Tausch für Vermittlungsleistung" },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-30",
+    teil: TEIL,
+    kapitel: "30",
+    abschnittNr: "A 9 und A 10",
+    title: "Arbeitspapiere A 9 und A 10: Ausnahmen bei Zuwendungen an Andere; gleichgestellte sonstige Leistungen (§ 3 Abs. 9a UStG) – Tatbestände",
+    thema: "Geschenke von geringem Wert und Warenmuster, Besteuerungsverbot bei Geschenken über 50 € wegen § 15 Abs. 1a UStG, verbleibender Anwendungsbereich (Sachpreise, Sachspenden, Gegenstandszuwendungen), kein UV bei Einkauf zum Zweck der UWA; Gegenstandsverwendung und sonstige Dienstleistungen mit Ort nach § 3a UStG und Verweisen auf BMG und Kfz-Nutzung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 9 und A 10"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b Satz 1 Nr. 3 und Satz 2 UStG", "§ 3 Abs. 9a Nr. 1 und 2 UStG", "§ 15 Abs. 1a UStG", "§ 3a Abs. 1 und 3 UStG", "Abschn. 3.3 Abs. 13 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Geschenke", "unentgeltliche sonstige Leistung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 9 – Ausnahmen" },
+      { typ: "tabelle", spalten: ["Geschenke von geringem Wert (< 50 €)", "Warenmuster"], zeilen: [
+        ["(z.B. Kugelschreiber, Feuerzeuge usw.) Bei Geschenken > 50 € Keine Vorst - §15(1a) UStG- => Besteuerungsverbot gem. § 3 (1b) S. 2", "(z.B. Probierpackungen, Ausstellungsmuster, Musterkataloge) (Abschn. 3.3 Abs. 13 UStAE)"],
+      ] },
+      { text: "☝ **Anwendungsbereich somit - da keine Geschenke -**\n- Sachpreise aus Warenbestand* bei Tombola, Preisausschreiben oder Gewinnspielen.\n- Sachspenden (z.B. gebrauchte Computer, Überschuss Ware) an Vereine usw.;\n- Gegenstandszuwendungen zur unternehmerischen Verwendung (z.B. gebrauchte* Arbeitsgeräte)\n**Beachte:*** **Wenn Einkauf schon zum Zwecke einer der Art nach beabsichtigten UWA erfolgt, liegt bereits kein Unternehmensvermögen (damit auch keine Vorst) und folglich auch keine steuerbare UWA vor.**" },
+      { typ: "titel", text: "Arbeitspapier A 10 – 4. Gleichgestellte so. Leistungen (§ 3 Abs. 9a) – 4.1 Tatbestände ➔ Im Hinblick auf die BMG unterscheide" },
+      { typ: "tabelle", spalten: ["Gegenstandsverwendung § 3 (9a) Nr. 1", "sonstige Dienstleistungen § 3 (9a) Nr. 2"], zeilen: [
+        ["❶ Verwendung eines Gegenstandes aus dem Unternehmensvermögen ❷ wenn Berechtigung zum Vorsteuerabzug für Gegenstand selbst (ganz oder teilweise) ☝ (wenn fehlt: => Besteuerungsverbot)", "z.B.: - Restaurant - Reinigung - Freiberufler - Handwerker (Reparatur) ⇨ Kein Zusammenhang mit Vorsteuerabzug"],
+        ["für privat / an AN", "für privat / an AN"],
+        ["Ort gem. § 3a (1) => Unternehmersitz – Prinzip oder § 3a (3) => Ausnahme", "Ort gem. § 3a (1) => Unternehmersitz – Prinzip oder § 3a (3) => Ausnahme"],
+        ["Einzelheiten vgl. ⇨ A 11; BMG vgl. ⇨ A 12; Private KFZ-Nutzung vgl. ⇨ A 13", "BMG vgl. ⇨ A 12"],
+      ] },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben; die in der Quelle mit einem Sternsymbol verknüpften Stellen sind mit * gekennzeichnet (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-31",
+    teil: TEIL,
+    kapitel: "31",
+    abschnittNr: "A 11 und A 12",
+    title: "Arbeitspapiere A 11 und A 12: Gegenstandsverwendung (Nr. 1) mit Telefonnutzung; BMG bei den gleichgestellten sonstigen Leistungen",
+    thema: "Zuordnung bei Privatbereich und partielles Zuordnungsverbot, angemietete und geleaste Gegenstände (quotale Aufteilung oder Praxis-Vereinfachung), Vorsteuerabzug aus dem Gegenstand, private Telefonnutzung bei gemieteten und eigenen Geräten; BMG nach § 10 Abs. 4 Nr. 2 und 3 UStG, Verteilung der AK/HK auf den § 15a-Zeitraum, Sofortansatz unter 500 €",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 11 und A 12"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 9a Nr. 1 und 2 UStG", "§ 10 Abs. 4 Nr. 2 Satz 3 und Nr. 3 Satz 2 UStG", "§ 15a UStG", "Abschn. 3.4 Abs. 4 UStAE", "Abschn. 10.6 Abs. 3 UStAE", "Abschn. 15.2c Abs. 2 Nr. 1 UStAE", "Abschn. 15.23 Abs. 7 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Gegenstandsverwendung", "Bemessungsgrundlage", "Telefon"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 11 – 4.2 Gegenstandsverwendung (Nr. 1)" },
+      { text: "☞ Bei Untern. mit unternehmensfremden (privat) Bereich vgl. Zuordnung zum Unternehmensvermögen vgl. ⇨ A 5\nBei Unternehmern mit nichtwirtschaftl. Bereich i.e.S. beachte partielles Zuordnungsverbot (vgl. ⇨ A 1)\n☞ **Bei angemietet/geleast (z.B. KFZ, PC)**\n➔ Aufteilung der Vorst quotal - Abschn. 15.2c Abs. 2 Nr. 1 UStAE\n➔ Praxis-Vereinfachung: 100% Vorst und freiwillige UWA Besteuerung (vgl. Abschn. 15.23 Abs. 7 UStAE für PKW)\n☞ **Vorsteuerabzugsberechtigung aus Gegenstand selbst**\n➔ ganz / teilweise\n➔ wenn fehlt = Besteuerungsverbot, aber Vorst aus laufenden Kosten möglich (=> diesbezüglich Aufteilung in abziehbaren und nichtabziehbaren Teil)" },
+      { text: "☞ **„Private“ Telefonnutzung** - Abschn. 3.4 Abs. 4 UStAE-" },
+      { typ: "tabelle", spalten: ["Nutzung", "Aufteilung Tel. D1 / D2", "Vorsteuer", "Folge"], zeilen: [
+        ["=> Nutzung gemieteter Geräte / Gesprächsgebühren", "70% unt. / 30% priv.", "70% Vorst", "30% privat"],
+        ["=> Nutzung eigener Geräte (Gebühr vgl. oben)", "70% unt. / 30% priv.", "100% Vorst", "30% UWA; BMG 30% AfA"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 12 – 5. BMG bei den gleichgestellten so. Leistungen (Sog. Leistungs - UWA)" },
+      { typ: "tabelle", spalten: ["Gegenstandsverwendung § 3 (9a) Nr. 1", "sonstige Dienstleistungen § 3 (9a) Nr. 2"], zeilen: [
+        ["BMG gem. § 10 (4) Nr. 2: die auf die UWA entfallenden anteiligen Ausgaben jedoch abzügl. Ausgaben ohne Vorst", "BMG gem. § 10 (4) Nr. 3: die auf die UWA entfallenden Ausgaben – alle Ausgaben"],
+      ] },
+      { text: "➔ **Besonderheit (vgl. Abschn. 10.6 Abs. 3 UStAE) Ausgabenbegriff bei Verwendung eines Gegenstandes**\n**Die hierzu gehörenden anteiligen Anschaffungs- oder Herstellungskosten**\n☝ **sind gleichmäßig zu verteilen auf den nach § 15a UStG maßgeblichen Berichtigungszeitraum (5 oder 10 Jahre bzw. kürzere ND).**\n☝ **Nach Ablauf § 15a-Ztr. entfällt Ansatz für diese Kosten.**\n☝ **Bei AK / HStK kleiner 500 € sofort Kosten** (§ 10 Abs. 4 Nr. 2 S. 3 und Nr. 3 S. 2 UStG)" },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },

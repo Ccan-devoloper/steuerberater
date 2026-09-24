@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: Arbeitspapiere A 9 bis A 12
+
+Übernommen (PDF-Seiten 51 bis 54, Seiten gerendert und angesehen): Kapitel ust-m-b13-30 (A 9 Ausnahmen bei Zuwendungen an Andere, A 10 Tatbestände des § 3 Abs. 9a UStG) und ust-m-b13-31 (A 11 Gegenstandsverwendung mit Telefonnutzung, A 12 BMG). Schaubilder als Tabellen wiedergegeben; Sternsymbole der Quelle als * dargestellt.
+
+- Stillschweigend berichtigt: „Bei Geschenke > 50 €“ → „Geschenken“ (A 9); UStAE-Kurzverweise „Ab. 3.3“, „A 15.2c“, „A 3.4“ ausgeschrieben (A 9, A 11).
+- Keine Zahlen zum Nachrechnen.
+
+Prüfung danach: 14 Teile, 515 Kapitel, 6929 Blöcke, 405 Tabellen.
+
+Weiter mit: Arbeitspapier A 13, PDF-Seite 55.
+
 ### USt-Skript (Moecker), Block 13: Arbeitspapiere A 5 bis A 8
 
 Übernommen (PDF-Seiten 47 bis 50, Seiten gerendert und angesehen): Kapitel ust-m-b13-28 (A 5 Zuordnung bei Privatbereich, A 6 Entnahme eines ohne Vorsteuer erworbenen Gegenstandes) und ust-m-b13-29 (A 7 Pkw-Beispiel, A 8 Zuwendungen an Personal und Andere). Schaubilder als Tabellen wiedergegeben.
