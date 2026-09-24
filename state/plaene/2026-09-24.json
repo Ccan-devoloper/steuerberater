@@ -29,7 +29,7 @@
       "lang": false,
       "status": "geplant",
       "budgetBlockiert": {
-        "seit": "2026-09-24T15:30:37.800Z",
+        "seit": "2026-09-24T15:44:05.668Z",
         "grund": "reel-faktencheck: 0.0527 $ im Topf „core“ nicht mehr zulässig (frei 0.0365 $ von 0.5260 $) - der Aufruf startet nicht.",
         "topf": "core",
         "art": "AdmissionAbgelehnt"
@@ -110,7 +110,9 @@
       "art": "tipp",
       "themaId": "ao-modul-ao-339",
       "beitragSlot": null,
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "medienId": "18084955775313554",
+      "veroeffentlicht": "2026-09-24T15:44:15.638Z"
     },
     {
       "slot": "s9",

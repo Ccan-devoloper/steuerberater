@@ -4776,6 +4776,17 @@
       },
       "insightsStand": "2026-09-24T13:43:46.872Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-24",
+      "art": "story",
+      "slot": "s8",
+      "storyArt": "tipp",
+      "thema": "ao-modul-ao-339",
+      "fach": "ao",
+      "titel": "Grundlagenbescheid-Fristen: erst trennen, dann verknüpfen",
+      "medienId": "18084955775313554",
+      "veroeffentlicht": "2026-09-24T15:44:15.638Z"
     }
   ],
   "fachZaehler": {
