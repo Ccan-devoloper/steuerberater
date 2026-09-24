@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: Arbeitspapiere A 5 bis A 8
+
+Übernommen (PDF-Seiten 134 bis 137, Seiten gerendert und angesehen): Kapitel ust-m-b12-20 (A 5 § 15a Abs. 2 UStG mit Schiebetür, A 6 § 15a Abs. 3 Satz 1 UStG) und ust-m-b12-21 (A 7 Toranlage, A 8 § 15a Abs. 3 Satz 3 UStG mit Neulackierung). Schaubilder als Tabellen wiedergegeben.
+
+- Stillschweigend berichtigt: „bei Leistungsbezugs“ → „bei Leistungsbezug“, „Jedes Bestandteil“ → „Jeder Bestandteil“ (A 6).
+- Nachrechnungen (eigene Ergänzung): A 7 40 € monatlich, 280 € / 440 €, 950 €; A 8 1.425 € = 19 % von 7.500 €. Alle stimmig.
+
+Prüfung danach: 13 Teile, 480 Kapitel, 6592 Blöcke, 368 Tabellen.
+
+Weiter mit: Arbeitspapier A 9, PDF-Seite 138.
+
 ### USt-Skript (Moecker), Block 12: Arbeitspapiere A 1 bis A 4
 
 Übernommen (PDF-Seiten 130 bis 133, Seiten gerendert und angesehen): Kapitel ust-m-b12-18 (A 1 System des Vorsteuerabzugs, A 2 Prüfschema § 44 UStDV) und ust-m-b12-19 (A 3 Problemstellung, A 4 Übersicht Berichtigungsobjekte mit Beispiel). Schaubilder als Tabellen wiedergegeben.

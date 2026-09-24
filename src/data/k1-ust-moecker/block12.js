@@ -4,7 +4,7 @@
    PDF-Seiten 103 bis 145 der gemeinsamen Datei: Textteil Seiten 1 bis 27 (PDF-Seiten 103 bis 129),
    Arbeitspapiere A 1 bis A 16 (PDF-Seiten 130 bis 145).
    In Arbeit: Textteil vollständig (I. bis XII., PDF-Seiten 103 bis 129); Arbeitspapiere eingepflegt bis
-   A 4 (PDF-Seite 133). */
+   A 8 (PDF-Seite 137). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -578,6 +578,70 @@ export const block12 = [
       { text: "**Berechnung:**\n30.000 € / 120 Monate = 250 € mtl. X 8 Monate für 03 = ./. 2.000 €\nBerichtigungsbetrag ./. 2.000 € ist in der USt-Jahres-Erkl. gem. § 44 Abs. 3 UStDV anzumelden." },
       { text: "Nachrechnung (eigene Ergänzung): 30.000 € : 120 = 250 €; Mai bis Dezember 03 = 8 Monate; 8 × 250 € = 2.000 € (nicht über 6.000 €, daher Jahreserklärung). Die Vorsteuer von 10.000 € aus Jahr 02 war nicht abziehbar und bleibt bei unveränderter steuerfreier Verwendung ohne Berichtigung." },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b12-20",
+    teil: TEIL,
+    kapitel: "20",
+    abschnittNr: "A 5 und A 6",
+    title: "Arbeitspapiere A 5 und A 6: § 15a Abs. 2 UStG (einmalig verwendete WG) und § 15a Abs. 3 Satz 1 UStG (Bestandteile und sonstige Leistungen an WG)",
+    thema: "Umlaufvermögen ohne Berichtigungszeitraum mit Beispiel Schiebetür (Baustoffhandel und Bauträgerbereich); eigene Berichtigungsobjekte und -zeiträume für eingehende Gegenstände und sonstige Leistungen an einem WG, wirtschaftlich verbrauchte und nicht verbrauchte Leistungen, Zusammenfassung mehrerer Maßnahmen innerhalb von sechs Monaten",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 5 und A 6"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a Abs. 2 und 3 Satz 1 UStG", "§ 44 UStDV", "Abschn. 15a.5 und 15a.6 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerberichtigung", "Umlaufvermögen", "Bestandteile"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 5 – § 15a Abs. 2 (Für WG, die einmalig Umsätzen dienen)" },
+      { text: "- Typisch WG aus dem Umlaufvermögen\n- Kein Berichtigungszeitraum zu beachten.\n- Berichtigung bei der tatsächlichen Verwendung (auch Jahre später)" },
+      { text: "**Beispiel:** (Zeitstrahl Jahr 01 – Jahr 02)" },
+      { typ: "tabelle", spalten: ["Jahr 01 – Baustoffhandel des A", "Jahr 02 – Bauträgerbereich des A"], zeilen: [
+        ["=> Einkauf Schiebetüre als Ware; ordnungsgem. Rechnung mit USt 2.400 €", "=> Spätere tatsächliche Verwendung für Lieferung bebautes Grundstück (steuerfreie Umsätze)"],
+        ["=> Vorst - Abzug bei Leistungsbezug (in 01) => nach Verwendungsabsicht (steuerpfl. Ums.; Vorst 2.400 €)", "=> § 15a Abs. 2 -Fall: Berichtigung in 02 in Höhe v. 2.400 € (Kein Berichtigungs-Ztr; nur erstmalige Verwendung)"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 6 – § 15a Abs. 3 Satz 1 (Bei Nutzungsänderung)" },
+      { typ: "tabelle", spalten: ["Für Gegenstände, die in anderes WG eingehen", "Für sonstige Leistungen, die an anderem WG ausgeführt werden"], zeilen: [
+        ["Eigenes Berichtigungs-Objekt", "Eigenes Berichtigungs-Objekt"],
+        ["Eigener Berichtigungs-Ztr. 5 / 10 Jahre bzw. kürzere ND (z.B. Motor, Fenster, Dach)", "Eigener Berichtigungs-Ztr. 5 / 10 Jahre bzw. kürzere ND"],
+        ["Grundsatz = Jeder Bestandteil ein Beri-Objekt", "Unbedeutend, ob so Leist. zur Werterhöhung führt. Kein 15a-Fall, wenn bei Leistungsbezug bereits wirtschaftl. verbraucht."],
+      ] },
+      { typ: "tabelle", spalten: ["nicht verbraucht (wenn eigene Werthaltigkeit)", "verbraucht"], zeilen: [
+        ["Fassadenanstrich, Dachglasur", "lfd. Unterhalt, Fensterreinigung, kleinere Rep."],
+      ] },
+      { text: "➔ **Sonderfall:** **Mehrere** Gegenstände / so. Leistungen im Rahmen **einer Maßnahme** (Hiervon soll ausgegangen werden bei Bezug **innerhalb von 6 Monaten**)\n➔ **sind** zu **einem Berichtigungs - Objekt** zusammenzufassen (eigene Bagatellregelung = 1.000 €)" },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b12-21",
+    teil: TEIL,
+    kapitel: "21",
+    abschnittNr: "A 7 und A 8",
+    title: "Arbeitspapiere A 7 und A 8: Beispiel Toranlage (§ 15a Abs. 3 UStG) und § 15a Abs. 3 Satz 3 UStG (Entnahme ohne Besteuerung nach § 3 Abs. 1b UStG)",
+    thema: "Toranlage einer Speditionslagerhalle mit späterer steuerfreier Vermietung, monatliche Berichtigung über zehn Jahre, Abweichung Reparatur unter der 1.000-€-Grenze; Neulackierung eines ohne Vorsteuer angeschafften Pkw und Entnahme als nicht steuerbare UWA, eigenes Berichtigungsobjekt nach § 15a Abs. 3 Satz 3 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 7 und A 8"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a Abs. 3 Satz 1 und 3 UStG", "§ 3 Abs. 1b Satz 2 UStG", "§ 44 Abs. 1 und 3 UStDV"],
+    themen: ["Arbeitspapier", "Vorsteuerberichtigung", "Bestandteile", "Entnahme"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 7 – Beispiel" },
+      { typ: "tabelle", spalten: ["Jahr 01 (1.7.)", "Jahr 02 (1.2.)"], zeilen: [
+        ["=> Bezug Toranlage für eigene Lagerhalle (Spedition) USt 4.800 €", "=> Ab 1.2.02 Vermietung (stfreie Umsätze)"],
+        ["=> Vorst - Abzug bei Leistungsbezug (am 1.7.01) => nach Verwendungsabsicht (für Spedition = stpfl. Ums.; somit Vorst 4.800 €)", "=> § 15a (3)-Fall: Berichtigung ab 1.2.02 bis Ablauf Beri-Ztr. von 10 Jahren (am 30.6.11)"],
+      ] },
+      { text: "**Berechnung:**\n4800 / 120 Monate = 40 € x 7 Monate = 280 € (bis 1.2.02) = behält er\n4800 / 120 Monate = 40 € x 11 Monate = 440 € (bis 31.12.02) = zurückzahlen => in Jahreserklärung)" },
+      { text: "**Abweichung:**\nReparatur Lagerhalle für 5.000 € zzgl. 950 € USt => Da Vorst unter 1.000 € = kein § 15a – Fall" },
+      { text: "Nachrechnung (eigene Ergänzung): 4.800 € : 120 = 40 €; Juli 01 bis Januar 02 = 7 Monate = 280 €; Februar bis Dezember 02 = 11 Monate = 440 € (nicht über 6.000 €, daher Jahreserklärung); 19 % von 5.000 € = 950 €. Stimmig." },
+      { typ: "titel", text: "Arbeitspapier A 8 – § 15a Abs. 3 Satz 3 (Bei Entnahmen) ohne Besteuerung der Entnahme nach § 3 Abs. 1b UStG" },
+      { text: "**Beispiel:**\n**Anschaffung PKW ohne Vorst am 01.07.10 durch Handelsvertreter ND 5 Jahre**\n**Neulackierung am 01.08.10 für 7.500 € zzgl. 1.425 € USt**\n**Entnahme am 31.12.12**" },
+      { typ: "tabelle", spalten: ["Objekt", "Beurteilung"], zeilen: [
+        ["PKW", "Nicht steuerbare UWA gem. § 3 Abs. 1b S. 2 UStG, da aus der Anschaffung des entnommenen WG keine Vorst"],
+        ["Neulackierung", "Kein eigener entnahmefähiger Gegenstand (sog. Bestandteil) im Sinne des § 3 Abs. 1b UStG. Damit bestünde kein Regulativ für die gewährte Vorsteuer über eine Besteuerung der UWA. Hierfür wurde gesetzlich der § 15a Abs. 3 S. 3 – Fall geschaffen. Da Vorst > 1.000 € = eigenes Berichtigungsobjekt gem. § 15a Absatz 3 Satz 3"],
+      ] },
+      { text: "Nachrechnung (eigene Ergänzung): 19 % von 7.500 € = 1.425 €; die Vorsteuer übersteigt 1.000 € (§ 44 Abs. 1 UStDV). Einen Berichtigungsbetrag nennt die Quelle nicht." },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];
