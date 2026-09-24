@@ -2693,8 +2693,8 @@
         "ig_reels_video_view_total_time": 980132,
         "reels_skip_rate": 67.3
       },
-      "insightsStand": "2026-09-24T05:43:55.156Z",
-      "insightsAlterStunden": 140.9
+      "insightsStand": "2026-09-24T07:43:51.450Z",
+      "insightsAlterStunden": 164.9
     },
     {
       "datum": "2026-09-17",
@@ -2814,8 +2814,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-24T05:43:55.399Z",
-      "insightsAlterStunden": 121
+      "insightsStand": "2026-09-24T07:43:51.450Z",
+      "insightsAlterStunden": 145
     },
     {
       "datum": "2026-09-18",
@@ -2885,8 +2885,8 @@
         "ig_reels_video_view_total_time": 1118925,
         "reels_skip_rate": 58.1
       },
-      "insightsStand": "2026-09-24T05:43:56.809Z",
-      "insightsAlterStunden": 116.9
+      "insightsStand": "2026-09-24T07:43:51.450Z",
+      "insightsAlterStunden": 140.9
     },
     {
       "datum": "2026-09-18",
@@ -4418,22 +4418,22 @@
       "medienId": "17964804906192255",
       "veroeffentlicht": "2026-09-23T09:45:39.698Z",
       "insights": {
-        "reach": 28,
-        "views": 37,
+        "reach": 29,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 32,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 22,
+        "navigation": 33,
+        "navigation_tap_back": 3,
         "navigation_swipe_forward": 3,
-        "navigation_tap_back": 3
+        "navigation_tap_forward": 23,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-09-24T05:43:36.317Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-09-24T07:43:46.934Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-09-23",
@@ -4446,22 +4446,22 @@
       "medienId": "18014492765946124",
       "veroeffentlicht": "2026-09-23T09:45:50.127Z",
       "insights": {
-        "reach": 29,
-        "views": 44,
+        "reach": 30,
+        "views": 45,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 33,
-        "navigation_tap_back": 3,
+        "navigation": 43,
+        "navigation_tap_back": 10,
         "navigation_tap_exit": 6,
-        "navigation_tap_forward": 23,
+        "navigation_tap_forward": 26,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-24T05:43:36.317Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-09-24T07:43:46.934Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-09-23",
@@ -4601,7 +4601,23 @@
       "fach": "bilanz",
       "titel": "Über wie viele Jahre wird der Firmenwert steuerlich abgeschrieben?",
       "medienId": "18408140572088637",
-      "veroeffentlicht": "2026-09-24T05:48:11.673Z"
+      "veroeffentlicht": "2026-09-24T05:48:11.673Z",
+      "insights": {
+        "reach": 7,
+        "views": 11,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 8,
+        "navigation_tap_forward": 6,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-09-24T07:43:46.934Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-09-24",
@@ -4612,7 +4628,22 @@
       "fach": "bilanz",
       "titel": "15 Jahre – zwingend, unabhängig von der tatsächlichen Nutzungsdauer.",
       "medienId": "18492130840101586",
-      "veroeffentlicht": "2026-09-24T05:48:24.881Z"
+      "veroeffentlicht": "2026-09-24T05:48:24.881Z",
+      "insights": {
+        "reach": 8,
+        "views": 10,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 6
+      },
+      "insightsStand": "2026-09-24T07:43:46.934Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-09-24",
@@ -4645,7 +4676,19 @@
         "#internationalessteuerrecht"
       ],
       "veroeffentlicht": "2026-09-24T06:46:38.255Z",
-      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-24/2026-09-24-b1-02-muf64i4x.jpg"
+      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-24/2026-09-24-b1-02-muf64i4x.jpg",
+      "insights": {
+        "reach": 7,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-24T07:43:51.450Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-24",
