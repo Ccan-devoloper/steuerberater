@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ErbSt-Übungsfälle „Leibrentenverpflichtung“ und „Jahreswertbesteuerung § 23 ErbStG“ (Schäfer, 08/2025)
+
+Quellen: „B-S25-ErbSt-Leibrentenverpflichtung Uebungsfall 2025-(Schaefer)-0825“ (`1tUFPpsjhK8NAGnuXDXjBPeFDDCiSUvU8`, 1 Seite) mit Lösung (`1Wtg88rxCaffJgK1tcYkGvnVpfsimC2Rj`, 1 Seite) und „B-S25-ErbSt-Jahreswertbesteuerung s 23 ErbStG 2025-(Schaefer)-0825“ (`1cqNN23uPB_aIuLzSJHrfDLOy1CRdeJkP`, 1 Seite, Beispiel mit Lösung).
+
+- Abgleich: Keiner der beiden Fälle stand im Campus – weder in den ErbSt-Hausaufgaben noch in den Fallsammlungen oder Skripten (gesucht nach Möllenberg, Differenzvervielfältiger, Aufzehrungs- und Kürzungsmethode, 16,819). Die Rentenbeispiele des Bewertungsrechts-Skripts (Höchst- und Mindestzeitrenten) und der Originalfall 25 (Mehrpersonenrente) behandeln verwandte Fragen, aber andere Sachverhalte.
+- Eingepflegt im Wortlaut als „Übungsfall 1“ und „Übungsfall 2“ im Reiter „Hausaufgaben ErbSt“ (`src/data/k1-erbst-hausaufgaben.js`, `art: "uebungsfall"`; Filter und Kartenkopf zeigen „Übungsfall“ statt „Hausaufgabe“). Die Rechenwerke stehen als Tabellen. Der § 23-Fall hat in der Quelle keine eigene Aufgabenstellung; das ist im Feld „Aufgabe“ als eigene Ergänzung vermerkt.
+- Gekennzeichnet: nichts. Stillschweigend berichtigt: „gegenüber dem Eheleuten“.
+- Nachrechnung (eigene Ergänzung, im Eintrag vermerkt, alles stimmig): Alter am 08.08.2025 52/55/12 Jahre; 108.000 € x 14,541 = 1.570.428 €, 0,293 x 84.000 € = 24.612 €, 3,317 x 3.600 € = 11.941 €, Summe 1.606.981 €; Laufzeit 362 Monate = 30 Jahre 2 Monate, 14,933 + 2/12 x 0,196 = 14,966; 3,185 x 3.600 € = 11.466 €; Erblasserschuld 1.595.515 €. § 23: 36.000 € x 16,819 = 605.484 €, Sofortsteuer 205.400 € x 11 % = 22.594 €, Jahressteuer 3.960 €, Aufzehrung nach 11 Jahren (Rest 4.000 €, 3.520 € im 12. Jahr), Kürzung 66,06 % → 12.218 € x 11 % = 1.343,98 €. Wortabgleich der drei Seiten: vollständig.
+
+Prüfung danach: ErbSt-Hausaufgaben in Ordnung: 5 Hausaufgaben, 124 Blöcke, 36 Tabellen; Build in Ordnung.
+
+Damit ist der Abschnitt B der offenen Quellen (zweiter Drive-Baum) abgearbeitet; offen bleiben die technisch blockierten Quellen in Abschnitt A.
+
 ### ErbSt-Skript Teil 1 (Schäfer, Mai 2025) mit Lösungshinweisen – vollständig
 
 Quellen: „B-S25-ErbSt-Erbschaftsteuer 2025-2026 Teil 1-(Schaefer)-0525“ (`1FmGNS4rzz47vCytIoFQzUZbcVQ_5PuFz`, 30 Seiten) und „…Teil 1-Loesung-(Schaefer)-0525“ (`1Efj3NzIrOacwIbzJz_RwYsFBrcLkTcTL`, 4 Seiten). Neuer Datensatz `src/data/k1-erbst-skript-teil1.js` (10 Einträge unter den Abschnitten I bis IV), neuer Reiter „Steuerpflicht & Wertermittlung (Schäfer)“ im ErbSt-Campus, Prüfung `npm run check:k1-erbst-skript-teil1`.

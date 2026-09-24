@@ -86,10 +86,10 @@ vorliegt –, wird ausgelassen und am Ende zusammen mit Abschnitt A zur Nachlief
      Bilanzunterlagen 04/26 (`1zYukX6s21OUD9w1tYb6TGBCqf4L2dDNN`)~~ (erledigt, September 2026);
    - ~~ErbSt-Skript „Erbschaftsteuer 2025-2026 Teil 1“ (Schäfer, Mai 2025,
      `1FmGNS4rzz47vCytIoFQzUZbcVQ_5PuFz`) mit Lösung (`1Efj3NzIrOacwIbzJz_RwYsFBrcLkTcTL`)~~ (erledigt,
-     September 2026 – vollständig, Reiter „Steuerpflicht & Wertermittlung (Schäfer)“); noch offen: prüfen, ob die Übungsfälle
+     September 2026 – vollständig, Reiter „Steuerpflicht & Wertermittlung (Schäfer)“); ~~prüfen, ob die Übungsfälle
      „Leibrentenverpflichtung“ (`1tUFPpsjhK8NAGnuXDXjBPeFDDCiSUvU8`, Lösung
      `1Wtg88rxCaffJgK1tcYkGvnVpfsimC2Rj`) und „Jahreswertbesteuerung § 23 ErbStG“
-     (`1cqNN23uPB_aIuLzSJHrfDLOy1CRdeJkP`) mit den eingepflegten Hausaufgaben übereinstimmen;
+     (`1cqNN23uPB_aIuLzSJHrfDLOy1CRdeJkP`) mit den eingepflegten Hausaufgaben übereinstimmen~~ (erledigt, September 2026: beide Übungsfälle fehlten im Campus und stehen jetzt samt Lösung im Reiter „Hausaufgaben ErbSt“);
    - USt-Skript (Moecker), Blöcke 1 bis 13 – Blöcke 1 bis 7 vollständig, Block 8 Teil I und Teil II vollständig, Block 9 vollständig, Block 10 vollständig, Block 11 vollständig, Block 12 vollständig, Block 13 vollständig – alle 13 Blöcke vollständig, siehe Protokoll.
 
 

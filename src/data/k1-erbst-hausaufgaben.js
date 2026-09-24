@@ -1,6 +1,9 @@
 /* ErbSt-Hausaufgaben 2026/2027 (K1, Erbschaftsteuer/Bewertungsrecht).
 
-   Drei Hausaufgaben mit Lösung (Verfasser Martin Schäfer). Sachverhalt,
+   Drei Hausaufgaben mit Lösung (Verfasser Martin Schäfer), dazu die beiden Übungsfälle
+   „Bewertung einer Leibrentenverpflichtung“ (mit Lösungshinweis) und „Jahreswertbesteuerung
+   § 23 ErbStG“ (Schäfer, 08/2025; Drive-IDs 1tUFPpsjhK8NAGnuXDXjBPeFDDCiSUvU8,
+   1Wtg88rxCaffJgK1tcYkGvnVpfsimC2Rj und 1cqNN23uPB_aIuLzSJHrfDLOy1CRdeJkP). Sachverhalt,
    Aufgabenstellung und Lösungshinweise sind wortlautgetreu aus den Quell-PDFs
    übernommen; die Rechenwege der Musterlösung stehen als Tabellen, damit
    Bodenwert, Gebäudeertragswert und Steuerberechnung Zeile für Zeile
@@ -437,6 +440,100 @@ export const erbstHausaufgaben = [
         ["Entlastungsbetrag § 19a Abs. 4 ErbStG", "31.672 €"],
         ["Festzusetzende Erbschaftsteuer (185.550 € ./. 31.672 €)", "153.878 €"],
       ] },
+    ],
+  },
+  {
+    id: "erbst-ue-leibrente",
+    nummer: "Ü1",
+    art: "uebungsfall",
+    title: "Übungsfall – Bewertung einer Leibrentenverpflichtung",
+    thema: "Mehrpersonenrente an Eheleute mit Anschlussrente an den Sohn, Differenzvervielfältiger und Begrenzung durch die Höchstlaufzeit (Anlage 9a zu § 13 Abs. 1 BewG) – Bewertung der Erblasserschuld",
+    rechtsstand: "Stand August 2025",
+    verfasser: "Martin Schäfer",
+    quelle: "Übungsfall „Bewertung einer Leibrentenverpflichtung“ (Schäfer, 08/2025) mit Lösungshinweis",
+    normen: ["§ 10 Abs. 5 Nr. 1 ErbStG", "§ 12 Abs. 1 ErbStG", "§ 14 BewG", "§ 13 Abs. 1 BewG", "Anlage 9a BewG", "§ 7 Abs. 1 BewG", "§ 8 BewG"],
+    themen: ["Leibrente", "Mehrpersonenrente", "Differenzvervielfältiger", "Höchstzeitrente", "Erblasserschuld"],
+    sachverhalt: [
+      { text: "Für einen Grundstückserwerb war der am 08.08.2025 verstorbene Erblasser A. eine Leibrentenverpflichtung gegenüber den Eheleuten Paul und Maria Möllenberg eingegangen, die den Verkaufserlös in dieser Form zur Absicherung ihres Lebensunterhalts verwenden wollten. Die Leibrente sollte sowohl an das Ehepaar Möllenberg als auch an deren Sohn Jens gezahlt werden. Die entsprechende notariell beurkundete Vereinbarung enthält die folgende Regelung:" },
+      { text: "„Der jeweilige Eigentümer des Grundstücks hat an Paul Möllenberg (geb. am 29.05.1973) und dessen Ehefrau Maria (geb. am 26.04.1970) eine Leibrente zu zahlen. Die jeweils am ersten eines jeden Monats fällige Rente beträgt 9.000 € und sinkt nach dem Tode des erstversterbenden Ehegatten auf 7.000 € bis zum Tod des überlebenden Ehegatten. Nach dem Tod des zweiten überlebenden Ehegatten ist an den Sohn Jens (geb. am 13.03.2013) ein monatlicher Betrag von 300 € zu zahlen. Die Rente läuft maximal bis Oktober 2055, d. h., die entsprechende letzte Zahlung ist am 01.10.2055 fällig.“" },
+      { text: "Sowohl Paul als auch Maria Möllenberg und Jens leben noch." },
+    ],
+    aufgabe: [
+      { text: "Die Leibrentenverpflichtung ist auf den Besteuerungszeitpunkt 08.08.2025 zu bewerten. Zur Lösung genügt das mit Stichworten und den maßgebenden Vorschriften versehene Rechenwerk." },
+    ],
+    loesung: [
+      { text: "Die als Erblasserschuld zu berücksichtigende Rentenverpflichtung aus dem Grundstückserwerb (§ 10 Abs. 5 Nr. 1 ErbStG) ist grundsätzlich auflösend befristet. Die Befristung wird über die Bewertung mit dem Kapitalwert für wiederkehrende lebenslängliche Leistungen nach § 12 Abs. 1 ErbStG i. V. m. § 14 BewG berücksichtigt (§ 8, § 7 Abs. 1 BewG; Vervielfältiger aus dem BMF-Schreiben vom 09.12.2024 für Bewertungsstichtage ab dem 01.01.2025):" },
+      { typ: "tabelle", spalten: ["", "Jahreswerte", "Vervielf.", "Betrag"], zeilen: [
+        ["Ehemann 52 Jahre", "108.000 €", "x 14,541", "= 1.570.428 €"],
+        ["Ehefrau 55 Jahre", "", "14,834", ""],
+        ["Differenzvervielfältiger", "84.000 €", "x 0,293", "= 24.612 €"],
+        ["Sohn 12 Jahre", "", "18,151", ""],
+        ["Vervielfältiger Mutter/Ehefrau", "", "14,834", ""],
+        ["Differenzvervielfältiger", "3.600 €", "x 3,317", "= 11.941 €"],
+        ["", "", "", "1.606.981 €"],
+      ] },
+      { text: "Höchstzeitrente max. Laufzeit 01.09.2025 bis 01.10.2055 = 30 Jahre und 2 Monate, Vervielfältiger aus Anlage 9a zu § 13 Abs. 1 BewG:" },
+      { typ: "tabelle", spalten: ["", ""], zeilen: [
+        ["30 Jahre", "14,933"],
+        ["31 Jahre", "15,129"],
+        ["Differenz", "0,196"],
+        ["interpoliert 2/12 von 0,196 = 0,033 + 14,933 =", "14,966"],
+      ] },
+      { text: "Da der Vervielfältiger für die max. Laufzeit kleiner ist als der größte Vervielfältiger für Ehegatten/Sohn (18,151), bedarf es einer entsprechenden Anpassung (Begrenzung) hinsichtlich des Rentenbetrags, der dem Sohn noch zusteht:" },
+      { typ: "tabelle", spalten: ["", ""], zeilen: [
+        ["18,151 ./. 14,966 = 3,185 x 3.600 € =", "./. 11.466 €"],
+        ["Erblasserschuld § 10 Abs. 5 Nr. 1 ErbStG", "1.595.515 €"],
+      ] },
+      { text: "Nachgerechnet (eigene Ergänzung): Jahreswerte 9.000 € x 12 = 108.000 €, 7.000 € x 12 = 84.000 €, 300 € x 12 = 3.600 €; 108.000 € x 14,541 = 1.570.428 €; (14,834 ./. 14,541 =) 0,293 x 84.000 € = 24.612 €; (18,151 ./. 14,834 =) 3,317 x 3.600 € = 11.941 €; Summe 1.606.981 €; 01.09.2025 bis 01.10.2055 = 362 Monatszahlungen = 30 Jahre und 2 Monate; 1.606.981 € ./. 11.466 € = 1.595.515 € – stimmig." },
+    ],
+  },
+  {
+    id: "erbst-ue-jahreswert",
+    nummer: "Ü2",
+    art: "uebungsfall",
+    title: "Übungsfall – Besteuerung von Renten, Nutzungen und Leistungen nach dem Jahreswert (§ 23 Abs. 1 ErbStG)",
+    thema: "Lebenslängliches Rentenvermächtnis: Sofortversteuerung gegenüber Jahresversteuerung nach § 23 ErbStG mit Aufzehrungs- und Kürzungsmethode (H E 23 ErbStH)",
+    rechtsstand: "Stand August 2025",
+    verfasser: "Martin Schäfer",
+    quelle: "„Jahreswertbesteuerung § 23 ErbStG“ (Schäfer, 08/2025)",
+    normen: ["§ 23 Abs. 1 ErbStG", "H E 23 ErbStH", "§ 14 BewG", "§ 16 Abs. 1 Nr. 2 ErbStG", "§ 10 Abs. 1 S. 6 ErbStG", "§ 19 Abs. 1 ErbStG"],
+    themen: ["§ 23 ErbStG", "Jahreswertbesteuerung", "Aufzehrungsmethode", "Kürzungsmethode", "Rentenvermächtnis"],
+    sachverhalt: [
+      { typ: "titel", text: "Besteuerung von Renten, Nutzungen und Leistungen nach dem Jahreswert § 23 Abs. 1 ErbStG (H E 23 ErbStH)" },
+      { typ: "titel", text: "Beispiel:" },
+      { text: "Erblasser E vermacht seinem 36-jährigen Sohn eine lebenslängliche Rente von jährlich 36.000 €. Der Sohn beantragt die Besteuerung nach dem Jahreswert (§ 23 ErbStG)." },
+    ],
+    aufgabe: [
+      { text: "(Die Quelle stellt keine gesonderte Aufgabe; das Beispiel wird unmittelbar gelöst – Hinweis eigene Ergänzung.)" },
+    ],
+    loesung: [
+      { typ: "titel", text: "Wert des gesamten steuerpflichtigen Erwerbs:" },
+      { typ: "tabelle", spalten: ["", ""], zeilen: [
+        ["Kapitalwert der Rente 36.000 € x 16,819 (BMF-Schreiben vom 09.12.2024) =", "605.484 €"],
+        ["Freibetrag § 16 Abs. 1 Nr. 2 ErbStG", "./. 400.000 €"],
+        ["", "205.484 €"],
+        ["abgerundet § 10 Abs. 1 S. 6 ErbStG", "205.400 €"],
+        ["Steuersatz § 19 Abs. 1 ErbStG 11 %", ""],
+        ["Erbschaftsteuer bei Sofortversteuerung", "22.594 €"],
+        ["Jahressteuer § 23 Abs. 1 ErbStG 11 % von 36.000 €", "3.960 €"],
+      ] },
+      { text: "Die Jahressteuer darf hier aber erst erhoben werden, nachdem der dem Sohn zustehende Freibetrag von 400.000 € aufgezehrt ist (sog. Aufzehrungsmethode). Für die ersten 11 Jahre ergibt sich insoweit keine Jahressteuer." },
+      { typ: "tabelle", spalten: ["", ""], zeilen: [
+        ["36.000 € x 11 =", "396.000 €"],
+        ["Restfreibetrag im 12. Jahr", "4.000 €"],
+        ["Jahreswert 36.000 € ./. Restfreibetrag 4.000 €", "32.000 €"],
+        ["Jahressteuer im 12. Jahr 11 % x 32.000 € =", "3.520 €"],
+        ["Jahressteuer in den folgenden Jahren jeweils 11 % x 36.000 € =", "3.960 €"],
+      ] },
+      { text: "Auf Antrag ist die sog. Kürzungsmethode anzuwenden, bei der der Jahreswert in dem Maße gekürzt wird, in dem der Freibetrag den Kapitalwert mindert:" },
+      { typ: "tabelle", spalten: ["", ""], zeilen: [
+        ["Jahreswert", "36.000 €"],
+        ["(400.000 € : 605.484 €) x 100 = 66,06 % x 36.000 €", "./. 23.782 €"],
+        ["zu versteuernder Jahreswert (33,94 %)", "12.218 €"],
+        ["Jahressteuer 12.218 € x 11 %", "1.343,98 €"],
+      ] },
+      { text: "Die Steuer wird in diesen Fällen nach dem Steuersatz erhoben, der sich nach § 19 ErbStG für den gesamten Erwerb einschließlich des Kapitalwerts der Renten oder anderen wiederkehrenden Nutzungen oder Leistungen ergibt (§ 23 Abs. 1 S. 2 ErbStG)." },
+      { text: "Nachgerechnet (eigene Ergänzung): 36.000 € x 16,819 = 605.484 €; ./. 400.000 € = 205.484 €, abgerundet 205.400 € x 11 % = 22.594 €; 36.000 € x 11 % = 3.960 €; 400.000 € ./. 396.000 € = 4.000 €; 32.000 € x 11 % = 3.520 €; 400.000 : 605.484 = 66,06 %; 36.000 € x 66,06 % = 23.782 €; 36.000 € ./. 23.782 € = 12.218 € x 11 % = 1.343,98 € – stimmig." },
     ],
   },
 ];
