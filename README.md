@@ -1901,7 +1901,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   in Arbeit): **Sachverhalt 1 (José S., 18 Punkte)** – Wegzug nach Brasilien mitten im Jahr: Wechsel
   von unbeschränkter zu beschränkter Steuerpflicht, Kapitalerträge vor und nach dem Wegzug
   (36.500 € Abgeltungsteuer, 12.000 € Gesellschafterdarlehen tariflich) und Wegzugsbesteuerung nach
-  § 6 AStG mit 60.000 €. Die Prüfung 2015 folgt.
+  § 6 AStG mit 60.000 €. **Sachverhalt 2 (Carmen M., 33 Punkte einschließlich Zusatzpunkt)** –
+  Dreifamilienhaus aus vorweggenommener Erbfolge gegen Abstandszahlung (zur Hälfte entgeltlich),
+  anschaffungsnahe Herstellungskosten nur beim OG, Betriebsaufspaltung mit der eigenen GmbH,
+  Betriebsveräußerung ohne Freibetrag (192.360 €), verbilligte Vermietung an die Tante (107 €) und ein
+  nicht ausgleichsfähiger Verlust nach § 23 EStG (3.186 €) – Summe der Einkünfte 212.883 €.
+  Die Prüfung 2015 folgt.
   Prüfung: `npm run check:k2-est-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,

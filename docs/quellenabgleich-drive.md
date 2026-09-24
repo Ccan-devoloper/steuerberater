@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2014, Sachverhalt 2
+
+Übernommen: ESt-Originalklausur 2014, Sachverhalt 2 (Carmen M., Dreifamilienhaus, 33 Punkte einschließlich Zusatzpunkt) – Aufgabe PDF-Seiten 102 und 103, Lösungshinweise PDF-Seiten 107 bis 111, Korrekturbogen PDF-Seiten 114 bis 116.
+
+- Fehler der Quelle, gekennzeichnet: Sachverhalt „von DM“ (CM) und „G-GmbH“ (B-GmbH); Lösung „H 15.7 Abs. 4 … EStR“ (EStH); Korrekturbogen: Schuldzinsen „3.200 € (= 40% von 8.000 €)“ statt 2.880 €, „§ 12 Nr. 2“ statt Nr. 3, „§ 4 Abs. 1 Nr. 5“ statt § 6, „§ 3 Nr. 40 Buchst. b“ statt d.
+- Stillschweigend berichtigt: „BStBI“ → „BStBl“; im Korrekturbogen „Anschaffungsnebenkonten“, „K des Gebäudes“, „entgeltlichen erworbenen“, „geltende gemachte“; fehlende Klammer ergänzt.
+- Nachrechnung (eigene Ergänzung): Gewerbe 20.416 €; § 16 192.360 € (Freibetrag entfällt ab 181.000 €); § 21 107 €; § 23 ./. 3.186 €; Summe 212.883 €; Punkte 33 (Summenzeile der Quelle leer). Alle stimmig.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 15 Sachverhalte, 629 Blöcke, 68 Tabellen, 243 Punkte.
+
+Weiter mit: Prüfung 2014, Sachverhalt 3 (Aufgabe ab Zeile 7744, Lösung ab Zeile 8446, Korrekturbogen ab Zeile 8900 der Textfassung).
+
 ### ESt-Originalklausuren 2014, Sachverhalt 1
 
 Übernommen: ESt-Originalklausur 2014 (Teil I: Einkommensteuer), Sachverhalt 1 (José S., Wegzug nach Brasilien, 18 Punkte) – Aufgabe PDF-Seite 101, Lösungshinweise PDF-Seiten 105 bis 107, Korrekturbogen PDF-Seite 114 (gerendert und angesehen). Die Prüfung 2014 weist die Punkte nicht als laufende Summe aus, sondern in einer Randspalte „Pkte“ mit den Punktnummern des Korrekturbogens; beides ist übernommen (Randspalte in eckigen Klammern am Absatzanfang, Korrekturbogen als Tabelle).
