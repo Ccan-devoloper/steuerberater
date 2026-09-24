@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwSt-Kurz-Skript (Breier), Teil 3 (PDF-Seiten 18 bis 39) – Verschmelzung/Formwechsel einer KapGes auf ein Personenunternehmen
+
+Übernommen: Teil 3 mit den Abschnitten I. bis VI. (Vorbemerkung, übertragende Kapitalgesellschaft, Folgen bei der Übernehmerin, Rückwirkung, Rechtsformwechsel mit Rückoption nach § 1a Abs. 4 KStG, Gewerbesteuer) samt Merke-Kasten; neue Teil-Konstante TK3. 30 Tabellen (Schlussbilanzen vierspaltig mit Summenzeile, Berechnungen des Übernahmeergebnisses je Gesellschafter, Verlustabzug nach § 4 Abs. 6 S. 4 UmwStG dreispaltig), gegen die gerenderten Seiten 33 und 35 und die Textlage aller Seiten geprüft; Tabellenzeilen, die im Textauszug in Fließtext gerutscht waren, zurückgeführt.
+
+- Gekennzeichnet: Beispiel Übernahmeverlust – „Die steuerliche Schlussbilanz der A-GmbH“ und „Anteile an der A-GmbH“ (gemeint X-GmbH); Rückoptionsbeispiel – „Erhöhung aufgedeckte st. Reserve: + 35.000“, „Neue AfA-BMG: 235.000“ und „23.500“, obwohl nach der Lösung in den Maschinen 30.000 aufgedeckt werden (rechnerisch 230.000 bzw. 23.000).
+- Stillschweigend berichtigt: „EstG“; „Wirrtschaftsgütern“; „Schlussblanz“; „Drittsaaten“; „UmStG“; „steurliche“; „alsoeinen“; „Azsschüttung“; „übernommens“; „erfasen“; „Ausschüttungfiktion“ (Merke-Überschrift); „betreibnsvermögen“; „vorvorliegt“; „Buchwert Maschinen 31.12.08::“; „Folge: :“; drei unpaarige Anführungszeichen; Silbentrennungen.
+- Nachrechnung (eigene Ergänzung): 290.000 ./. 50.000 ./. 40.000 = 200.000; Bilanz A-GmbH 600.000 (Eigenkapital 155.000, Übernahmegewinn 105.000); X-GmbH 500.000 mit Eigenkapital 260.000 bzw. 250.000, fiktive Ausschüttung je 200.000; A 130.000 ./. 2.000 ./. 25.000 ./. 100.000 = 3.000 (60 % = 1.800, zusammen 61.800); B-GmbH 26.000 ./. 400 ./. 5.000 ./. 20.000 = 600 (5 % = 30, zusammen 1.030); C 104.000 ./. 1.600 ./. 100.000 ./. 80.000 = ./. 77.600; Verlustfälle A (./. 50.000, abziehbar 24.000), B-GmbH (./. 95.000), C (./. 20.000), D (./. 195.000, abziehbar 12.000); Rückoption 300.000/360.000, Ausschüttung 60.000, A 150.000 ./. 120.000 ./. 30.000 = 0; Sonderbilanz 240.000; Gebäude-AfA-BMG 120.000 ./. 10.000 = 110.000; Firmenwert 30.000 : 15 = 2.000; § 18 Abs. 3: 700.000 ./. 50.000 = 650.000 – im Übrigen stimmig.
+
+Prüfung danach: UmwSt-Kurz-Skript (Breier) in Ordnung: 3 Teile, 13 Kapitel, 415 Blöcke, 30 Tabellen.
+
+Weiter mit: Teil 4 „Verschmelzung von Kapitalgesellschaften“ (PDF-Seiten 40 bis 57).
+
 ### UmwSt-Kurz-Skript (Breier), Teile 1 und 2 (PDF-Seiten 6 bis 17) – neuer Bestand aus dem zweiten Baum
 
 Übernommen: „Umwandlungssteuerrecht (ohne § 24 UmwStG), Kurz-Skript“ (Ulrich Breier, Stand 04/2025; Drive-ID `17xQUV4RT0WWL8X6l5UWjPn8O-6Tw1CJt`, 116 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) als neuer Datensatz `src/data/k3-umwst-kurzskript-breier.js` mit neuem Reiter „Kurz-Skript (Breier)“ im UmwStR-Campus und Prüfskript `npm run check:k3-umwst-kurzskript`. Teil 1 „Überblick über das Umwandlungssteuerrecht“ (I. bis IV. mit Merke-Kasten) und Teil 2 „Zivilrechtliche (handelsrechtliche) Grundlagen“ (I. bis III. mit Merke-Kasten) – 7 Abschnitte; Seiten 8, 9, 10 und 14 gerendert.

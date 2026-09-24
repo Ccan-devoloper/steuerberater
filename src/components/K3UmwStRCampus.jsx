@@ -366,7 +366,7 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
           <KurzskriptBloecke
             kicker="Klausur 3 · UmwStR · Kurz-Skript"
             titel="Umwandlungssteuerrecht – Kurz-Skript (Breier)"
-            lead="Das Kurz-Skript von Ulrich Breier (Stand 04/2025, ohne § 24 UmwStG) im Wortlaut. Eingepflegt sind Teil 1 (Überblick über das Umwandlungssteuerrecht mit Umwandlungssteuererlass) und Teil 2 (zivilrechtliche Grundlagen: Verschmelzung, Formwechsel, Spaltung, Einzelrechtsnachfolge und Anwachsung). Die Teile 3 bis 6 (Umwandlung auf Personenunternehmen, Verschmelzung und Spaltung von Kapitalgesellschaften, Einlage und Einbringung) folgen."
+            lead="Das Kurz-Skript von Ulrich Breier (Stand 04/2025, ohne § 24 UmwStG) im Wortlaut. Eingepflegt sind Teil 1 (Überblick über das Umwandlungssteuerrecht mit Umwandlungssteuererlass) Teil 2 (zivilrechtliche Grundlagen: Verschmelzung, Formwechsel, Spaltung, Einzelrechtsnachfolge und Anwachsung) und Teil 3 (Verschmelzung/Formwechsel einer Kapitalgesellschaft auf ein Personenunternehmen mit Übernahmeergebnis, Rückoption nach § 1a KStG und Gewerbesteuer). Die Teile 4 bis 6 (Verschmelzung und Spaltung von Kapitalgesellschaften, Einlage und Einbringung) folgen."
             quelle={umwstKurzskriptQuelle}
             kapitel={umwstKurzskript}
             karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}
