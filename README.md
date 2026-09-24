@@ -1913,7 +1913,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Rechtsstand 31.12.2025; Punkte laut Korrekturbogen, in Arbeit): **Sachverhalt 1 (Rudi Sorglos,
   19 Punkte)** – Rentner in Vaals mit Antrag nach § 1 Abs. 3 EStG: § 17-Gewinn nur aus dem geerbten
   Anteil (1.500 €, Besteuerungsrecht Niederlande), Rentenfreibetrag 3.439 €, Parteispende nach § 34g
-  und § 10b Abs. 2 EStG – zvE 11.619 €, Progressionsvorbehalt 7.500 €.
+  und § 10b Abs. 2 EStG – zvE 11.619 €, Progressionsvorbehalt 7.500 €. **Sachverhalt 2 (Erwin
+  Müller, 22 Punkte + 1 Zusatzpunkt)** – studierender Sohn nach Erstausbildung (Durchschnitt
+  19,70 Wochenstunden), Übertragung der Freibeträge für Kinder, Sammelpunkt statt erster
+  Tätigkeitsstätte (Firmenwagen mit 0,03 %-Zuschlag), Home-Office-Pauschale, Unterhalt nach § 33a
+  EStG für November und Dezember (995 €) – zvE 69.710 €.
   Prüfung: `npm run check:k2-est-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,

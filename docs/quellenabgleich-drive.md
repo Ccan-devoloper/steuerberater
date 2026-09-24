@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2015, Sachverhalt 2
+
+Übernommen: ESt-Originalklausur 2015, Sachverhalt 2 (Erwin Müller, Kinder und Außendienst, 22 Punkte + 1 Zusatzpunkt) – Aufgabe PDF-Seiten 118 und 119, Lösung PDF-Seiten 127 bis 131, Korrekturbogen PDF-Seiten 137 und 138.
+
+- Gekennzeichnet: Lösung „BMF vom 8. Februar 2016 – BStBI S. 1243“ (Korrekturbogen: 7.12.2011); Randpunkt „2 (30)“ statt 28-29; Korrekturbogen „Jul. und Okt. auf 40 Std.“ (Juli/August, 38 Std.) und „Nr. 4a S. 4 i.V.m. Nr. 3“.
+- Eigene Feststellung: 13.115 × 2/12 = 2.185,83 € – die Quelle rundet auf 2.186 € auf, obwohl Cent-Beträge abzurunden sind; mit Abrundung wären 994 € abziehbar und das zvE 69.711 €. Nicht geändert, nur vermerkt.
+- Stillschweigend berichtigt: „BStBI“ → „BStBl“; „Arbeitslosten-“ → „Arbeitslosen-“.
+- Nachrechnung (eigene Ergänzung): Einkünfte 89.885 €; Einkommen 82.510 €; zvE 69.710 €; Punkte 22 + 1 ZP.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 18 Sachverhalte, 776 Blöcke, 88 Tabellen, 295 Punkte.
+
+Weiter mit: Prüfung 2015, Sachverhalt 3 (Aufgabe ab Zeile 9207, Lösung ab Zeile 10094, Korrekturbogen ab Seite 138).
+
 ### ESt-Originalklausuren 2015, Sachverhalt 1
 
 Übernommen: ESt-Originalklausur 2015, Sachverhalt 1 (Rudi Sorglos, Vaals, 19 Punkte) – Aufgabe PDF-Seiten 117 und 118, Lösung PDF-Seiten 123 bis 126, Korrekturbogen PDF-Seite 137.
