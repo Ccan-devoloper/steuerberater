@@ -107,7 +107,13 @@
           "art": "titel",
           "titel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer",
           "coverBadge": "Klausurtechnik",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": true,
+          "titelZeilen": [
+            "Innergemeinschaftlicher",
+            "Erwerb",
+            "Erwerbsteuer",
+            "Vorsteuer"
+          ]
         },
         {
           "art": "text",
@@ -202,7 +208,8 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "kostenPolicy": {}
     },
     "b2": {
       "format": "reel",
