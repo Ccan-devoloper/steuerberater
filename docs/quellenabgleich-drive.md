@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2014, Teil II (InKa-GbR)
+
+Übernommen: Prüfung 2014, Teil II mit Abwandlung – Sachverhalt (PDF-Seiten 135 bis 139; die Bilanzen auf den Seiten 136 und 139 gerendert) und Lösung (PDF-Seiten 156 bis 161; Seiten 159 und 160 gerendert).
+
+- Gekennzeichnet: „21.12.2023“, „seit 2025“, „Juli bis November 2025“, unvollständiger Satz zum BMF-Schreiben vom 22.02.2023, „Eigenkapital Bernd“ (Berthold), „50.0000“.
+- Eigene Feststellung: steuerlicher Gesamthandsgewinn nach den Korrekturbuchungen 197.040 € (./. 400 ./. 180 ./. 2.380), die Quelle weist 197.840 € aus (+ 180 € und Summenfehler); Randpunkte 31 gegen 32.
+- Stillschweigend berichtigt: neun Schreibversehen (siehe Datensatz).
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 11 Aufgabenteile, 930 Blöcke, 157 Tabellen, 366 Punkte.
+
+Weiter mit: Bilanz-Prüfung 2014, Teil III (Elektronikmarkt GmbH; Sachverhalt ab Zeile 11062, Lösung ab Zeile 12950 der Textfassung).
+
 ### Bilanz-Originalklausuren 2014, Teil I (Einzelunternehmen Roland Ritter)
 
 Übernommen: Prüfung 2014, allgemeine Hinweise und Teil I (PDF-Seiten 130 bis 134, Anlagevordruck Seite 147), Lösungshinweis mit Notenschema und Anlage (PDF-Seiten 148 bis 155; Seiten 151, 152 und 155 gerendert und angesehen).

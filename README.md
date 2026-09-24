@@ -2285,7 +2285,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   als notwendiges Privatvermögen mit Aufwandseinlage, ERP-System als einheitliches Wirtschaftsgut
   (300.000 €). Als **eigene Feststellung** vermerkt: Die Anlage setzt die AfA-Korrektur beim PKW
   mit 6.607 € statt der gebuchten 7.054 € an (Jahresüberschuss 272.727 € statt 273.174 €); die
-  Randpunkte ergeben 32,5. Der Rest 2014 und die Prüfung 2015 folgen.
+  Randpunkte ergeben 32,5.
+  **Teil II der Prüfung 2014** (InKa-GbR, 32 Punkte): „GbR“ mit Handelsgewerbe = OHG, Gesellschafter-
+  Computer als Sonderbetriebsvermögen (Einlage 400 €, GWG, Sonderbetriebsgewinn 360 €), Anzahlung
+  netto passiviert, Fremdwährungsverbindlichkeit nach § 256a HGB bzw. höchstens zu Anschaffungskosten;
+  Abwandlung: Eintritt eines Gesellschafters mit positiver und negativen Ergänzungsbilanzen (§ 24
+  UmwStG). Als **eigene Feststellung** vermerkt: Der steuerliche Gesamthandsgewinn beträgt nach den
+  Korrekturbuchungen 197.040 € statt der ausgewiesenen 197.840 € (Vorzeichen- und Summenfehler).
+  Teil III 2014 und die Prüfung 2015 folgen.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,
