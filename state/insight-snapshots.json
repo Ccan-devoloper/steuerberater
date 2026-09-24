@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-24T16:44:11.517Z",
+  "stand": "2026-09-24T17:44:04.118Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -4576,6 +4576,23 @@
           "navigation_swipe_forward": 3,
           "navigation_tap_back": 5,
           "navigation_tap_forward": 26
+        },
+        {
+          "stand": "2026-09-24T17:43:59.702Z",
+          "alterStunden": 22.4,
+          "reach": 30,
+          "views": 49,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 44,
+          "navigation_tap_exit": 7,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 28
         }
       ]
     },
@@ -4976,6 +4993,50 @@
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 3,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-09-24T17:43:59.702Z",
+          "alterStunden": 6,
+          "reach": 23,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 14,
+          "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "18084955775313554": {
+      "art": "story",
+      "datum": "2026-09-24",
+      "titel": "Grundlagenbescheid-Fristen: erst trennen, dann verknüpfen",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-24T15:44:15.638Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-24T17:43:59.702Z",
+          "alterStunden": 2,
+          "reach": 8,
+          "views": 10,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 9,
+          "navigation_tap_forward": 8,
+          "navigation_tap_exit": 1
         }
       ]
     }
@@ -5268,6 +5329,11 @@
     },
     {
       "stand": "2026-09-24T16:44:11.517Z",
+      "follower": 74,
+      "medien": 60
+    },
+    {
+      "stand": "2026-09-24T17:44:04.118Z",
       "follower": 74,
       "medien": 60
     }

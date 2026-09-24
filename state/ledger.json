@@ -4576,22 +4576,22 @@
       "medienId": "18081045608342338",
       "veroeffentlicht": "2026-09-23T19:19:06.485Z",
       "insights": {
-        "reach": 28,
-        "views": 48,
+        "reach": 30,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 41,
+        "navigation": 44,
         "navigation_tap_exit": 7,
-        "navigation_swipe_forward": 3,
+        "navigation_swipe_forward": 4,
         "navigation_tap_back": 5,
-        "navigation_tap_forward": 26
+        "navigation_tap_forward": 28
       },
-      "insightsStand": "2026-09-24T14:45:00.159Z",
-      "insightsAlterStunden": 19.4
+      "insightsStand": "2026-09-24T17:43:59.702Z",
+      "insightsAlterStunden": 22.4
     },
     {
       "datum": "2026-09-24",
@@ -4760,22 +4760,22 @@
       "medienId": "18618190033059977",
       "veroeffentlicht": "2026-09-24T11:44:00.141Z",
       "insights": {
-        "reach": 15,
-        "views": 17,
+        "reach": 23,
+        "views": 25,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 10,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 1
+        "navigation": 24,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 14,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-09-24T13:43:46.872Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-24T17:43:59.702Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-24",
@@ -4786,7 +4786,22 @@
       "fach": "ao",
       "titel": "Grundlagenbescheid-Fristen: erst trennen, dann verknüpfen",
       "medienId": "18084955775313554",
-      "veroeffentlicht": "2026-09-24T15:44:15.638Z"
+      "veroeffentlicht": "2026-09-24T15:44:15.638Z",
+      "insights": {
+        "reach": 8,
+        "views": 10,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_tap_forward": 8,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-09-24T17:43:59.702Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
