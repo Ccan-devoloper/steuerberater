@@ -1886,7 +1886,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   fünf Vorgänge am Jahreswechsel in der Einnahmenüberschussrechnung: Zehn-Tage-Regel nur für die
   Dezembermiete, AfA ab Lieferung des Lieferwagens, Restbuchwert der Maschine im Verkaufsjahr,
   Unfallkosten mit dem Privatwagen ohne merkantilen Minderwert und ein Diebstahl, den R 6.6 Abs. 5
-  EStR ins Folgejahr verschiebt – Gewinn 5.390 € statt 20.000 €.
+  EStR ins Folgejahr verschiebt – Gewinn 5.390 € statt 20.000 €. **Sachverhalt 3 (Rechtsanwalt A in
+  London, 12 Punkte)** – eine dreimal jährlich genutzte Düsseldorfer Wohnung begründet einen Wohnsitz
+  nach § 8 AO, nach Art. 4 DBA-GB ist A aber nur in Großbritannien ansässig: keine in Deutschland
+  steuerpflichtigen Einkünfte (Art. 7 und Art. 21 DBA-GB, steuerfreier Verkauf der selbst genutzten
+  Münchner Wohnung).
   Prüfung: `npm run check:k2-est-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,

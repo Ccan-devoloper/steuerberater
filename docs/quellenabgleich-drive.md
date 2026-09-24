@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2013, Sachverhalt 3
+
+Übernommen: ESt-Originalklausur 2013 (Klausur E 18), Sachverhalt 3 (A in London, Wohnsitz und DBA-Großbritannien, 12 Punkte) – Aufgabe PDF-Seite 78, Lösung PDF-Seiten 90 und 91.
+
+- Stillschweigend berichtigt: „13StBl. II 2007, 812“ und „BStBI. II 2007, 812“ → „BStBl. II 2007, 812“; „A erzielt Einkünfte § 18 …“ → „Einkünfte nach § 18 …“.
+- Nachrechnung (eigene Ergänzung): Veräußerungsgewinn München 400.000 ./. 300.000 ./. 5.000 = 95.000 € (steuerfrei); Randpunkte 7 + 5 = 12. Stimmig.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 11 Sachverhalte, 399 Blöcke, 36 Tabellen, 165 Punkte.
+
+Weiter mit: Prüfung 2013, Sachverhalt 4 (U, S-KG; Aufgabe PDF-Seiten 79 bis 81, Lösung ab PDF-Seite 92).
+
 ### ESt-Originalklausuren 2013, Sachverhalt 2
 
 Übernommen: ESt-Originalklausur 2013 (Klausur E 18), Sachverhalt 2 (K, Gewinnermittlung nach § 4 Abs. 3 EStG, 14 Punkte) – Aufgabe PDF-Seiten 76 und 77, Lösung PDF-Seiten 87 bis 89.
