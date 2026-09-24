@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: III.3.3 und IV
+
+Übernommen (PDF-Seiten 25 unten bis 30): Kapitel ust-m-b13-17 (III.3.3 BMG der Dienstleistungs-UWA mit Beispielen Dr. Pfiffig, Lüsterklemm und Restaurant Athos) und ust-m-b13-18 (IV private Fahrzeugnutzung einschließlich Personalüberlassung und Fahrrad). Ausgabenaufstellung und Methodenübersicht als Tabellen.
+
+- Quellenmarkierungen: III.3.3 Ort „gem. § 3f UStG“ in den Beispielen 1 und 2 (aufgehoben; nach § 3a Abs. 1 UStG gleiches Ergebnis); IV „Bis zu 10% … (Zuordnungsverbot)“ (nach § 15 Abs. 1 Satz 2 UStG: weniger als 10 %).
+- Hinweis zur Prüfung (eigene Ergänzung): Beispiel 4 (Restaurant) rechnet mit 19 %; nach dem Steueränderungsgesetz 2025 gilt ab 1.1.2026 für Speisen in der Gastronomie wieder 7 % (§ 12 Abs. 2 Nr. 15 UStG n.F.). Im Text als „zur Prüfung“ vermerkt – bitte bei Gelegenheit gegen die geltende Fassung abgleichen.
+- Stillschweigend berichtigt: „Für umsatzsteuerliche Zwecke die Sonderregelungen … nicht anzuwenden“ → „… sind … nicht anzuwenden“; „Versicherungs-der“ → „Versicherungs- oder“ (IV).
+- Nachrechnungen (eigene Ergänzung): 900 € / 76 € / 171 €; 2.200 € / 418 €; 9,50 € stimmig.
+
+Prüfung danach: 14 Teile, 502 Kapitel, 6799 Blöcke, 383 Tabellen.
+
+Weiter mit: V Die Mindest-BMG, Skript-Seite 30 (PDF-Seite 31).
+
 ### USt-Skript (Moecker), Block 13: III.2.4 bis III.3.2
 
 Übernommen (PDF-Seiten 21 bis 25 Mitte): Kapitel ust-m-b13-14 (III.2.4 BMG der Gegenstandsverwendung mit PC-Beispielen 1 bis 3), ust-m-b13-15 (III.2.5 teilunternehmerisch genutzte Grundstücke, III.2.6 Telefon) und ust-m-b13-16 (III.3.1 Dienstleistungs-UWA mit Elektriker- und Maler-Beispielen, III.3.2 Steuerbefreiungen).
