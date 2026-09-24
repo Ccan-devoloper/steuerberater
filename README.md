@@ -33,12 +33,16 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   [`docs/k3-lernpfad.md`](docs/k3-lernpfad.md), Prüfung: `npm run check:k3-lernpfad`
 - **UmwStR-Skript (Hamacher)** (Klausur 3, Campus UmwStR → „Skript (Hamacher)“): das
   Lehrgangsskript von Frank Hamacher (21. Auflage, Januar 2026) im Wortlaut, mit den Fußnoten der
-  Quelle am Ende jedes Abschnitts. Eingepflegt ist **Teil I** (zivilrechtliche Umwandlungsarten
+  Quelle am Ende jedes Abschnitts. Eingepflegt sind **Teil I** (zivilrechtliche Umwandlungsarten
   nach dem UmwG – Einzel- und Gesamtrechtsnachfolge, Verschmelzung, Auf-/Abspaltung,
   Ausgliederung, Vermögensübertragung, Formwechsel, Ablauf, Partnerschaftsgesellschaft,
   grenzüberschreitende Umwandlungen, SE – sowie die Einführung in das UmwStG mit
-  Ansatzwahlrechten, Missbrauchsklauseln und der Aufbautabelle) – 5 Abschnitte, 178 Blöcke,
-  3 Tabellen. Die Teile II bis V folgen. Prüfung: `npm run check:k3-umwstr-skript`
+  Ansatzwahlrechten, Missbrauchsklauseln und der Aufbautabelle) und **Teil II** (Einbringung in
+  eine Kapitalgesellschaft nach §§ 20 – 23, 25 UmwStG: Tatbestand, Ansatzwahlrecht und
+  sonstige Gegenleistungen, Einbringungsstichtag und Rückwirkung, Anteilstausch,
+  Einbringungsgewinn I und II mit Ersatzrealisationstatbeständen, Folgen bei der
+  Kapitalgesellschaft, Formwechsel und Option nach § 1a KStG) – zusammen 79 Abschnitte,
+  1864 Blöcke, 54 Tabellen. Die Teile III bis V folgen. Prüfung: `npm run check:k3-umwstr-skript`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung

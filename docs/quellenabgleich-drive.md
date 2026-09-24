@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwStR-Skript (Hamacher), Teil II (147 Seiten) – Einbringung, §§ 20 – 23, 25 UmwStG
+
+Übernommen: „Umwandlungssteuerrecht, Teil II: Einbringung in eine Kapitalgesellschaft §§ 20 – 23, 25 UmwStG“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `13Co6d7aV8oO1c_hymjVKY0WNOb6LfTyn`, vollständig heruntergeladen und lokal ausgewertet) mit neuer Teil-Konstante TII in `src/data/k3-umwstr-skript-hamacher.js`: 74 Abschnitte (Kapitel 1 Allgemeines bis Kapitel 7 Formwechsel/Option nach § 1a KStG; Gliederung bis zur dritten Ebene als eigener Abschnitt, tiefere Ebenen als Zwischenüberschriften), alle 258 Fußnoten der Quelle am jeweiligen Abschnittsende. Die Gliederungsnummer 4.2.2.2 fehlt in der Quelle selbst (auch im Inhaltsverzeichnis); übernommen wie dort. Abschnitt 6.1 (ein einleitender Satz) steht zusammen mit 6.1.1 in einem Eintrag.
+
+- Tabellen: 51 Rechen- und Bilanzblöcke aus dem Textlayout rekonstruiert und gegen die gerenderten Seiten geprüft (u. a. Seiten 20, 23, 42, 76, 91, 96, 116; Übersichtsblätter aller Seiten 7 bis 147). Bilanzbilder stehen als vierspaltige Tabellen „Aktivseite | Betrag | Passivseite | Betrag“, der Buchungssatz auf Seite 42 als „Soll | Betrag | Haben | Betrag“. Schaubilder enthält Teil II nicht.
+- Gekennzeichnet: Einbringungsgewinn-I-Beispiel (Seite 91) „= Gewinn vor TEV: 142.585 €“ und „= Veräußerungsgewinn: 85.442 €“ – rechnerisch 800.000 € ./. 657.142 € = 142.858 € und 142.858 € ./. 57.143 € = 85.715 € (Zahlendreher, Folgefehler).
+- Stillschweigend berichtigt: „an der AGmbH“; „Bareinlageverpfichtung“; „Barleinlage“; „Gesamtsrechtsnachfolge“; „Rechtsaufassung“; „(Weilter-)Einbringung“; „insbeondere“; „7jahresfrist“; „von amtswegen“; fehlendes schließendes Anführungszeichen bei „veräußert“ (5.3.3); Brüche mit hochgestelltem Zähler (1/7, 6/7, 5/7, 1/15, 14/15) als normale Brüche; zusammengezogene Fußnotenzeichen ¹⁰³¹⁰⁴ getrennt; Silbentrennungen des Blocksatzes.
+- Nachrechnung (eigene Ergänzung): alle Tabellen und 36 Klammerrechnungen im Fließtext automatisiert nachgerechnet, u. a. Zwischenwert 13,2 % bzw. 54 % von 150.000 €/70.000 €/280.000 €, Unschädlichkeitsquoten 60 %, 50 %, 75 %, 90 % mit Wertansätzen 6.400.000 €, 5.000.000 €, 700.000 €, 640.000 €, Bilanzsummen aller Bilanzbilder, Einbringungsgewinn I 10.000.000 € ./. 6.400.000 € = 3.600.000 €, Siebtelung 6/7 von 650.000 € = 557.142 € (abgerundet), Anschaffungskosten 100.000 € + 600.000 € + 100.000 € = 800.000 €, Wertaufstockung 1.500.000 € nach stillen Reserven 300/600/100/1.100 von 2.100 (214.286 + 428.571 + 71.428 + 785.715 = 1.500.000; Rundung in der Quelle auf die Summe abgestimmt). Zwei Klammern zeigen statt der Differenz den Endbestand (Aufstockung „um 100.000 € (200.000 € + 100.000 €)“ und „von bisher 700.000 € (800.000 € - 700.000 €) auf nunmehr 100.000 €“) – so gemeint, kein Fehler. Im Übrigen stimmig.
+
+Prüfung danach: UmwStR-Skript (Hamacher) in Ordnung: 2 Teile, 79 Kapitel, 1864 Blöcke, 54 Tabellen.
+
+Weiter mit: UmwStR-Skript Teil III „Verschmelzung von Kapitalgesellschaften §§ 11 – 13 UmwStG“ (`1e0kAdsm1mV0EX8i4JiN3PQv8GqOsK17g`).
+
 ### UmwStR-Skript (Hamacher), Teil I (15 Seiten) – neuer Bestand aus dem zweiten Baum
 
 Übernommen: „Umwandlungssteuerrecht, Teil I: Kurzdarstellung der zivilrechtlichen Umwandlungsarten / Einführung in das UmwStG“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `1ZARZWjR7VDA5_groMb6XgdVxZGoxe0ms`, vollständig heruntergeladen und lokal ausgewertet) als neuer Datensatz `src/data/k3-umwstr-skript-hamacher.js` mit fünf Abschnitten (1.1, 1.2, 1.3–1.5, 2.1, 2.2) und neuem Reiter „Skript (Hamacher)“ im UmwStR-Campus. Fußnoten stehen hochgestellt im Text und am Abschnittsende; die Missbrauchsklauseln und der Aufbau des UmwStG als Tabellen (Seite 15 gerendert).
