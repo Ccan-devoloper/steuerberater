@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Skript Termin 1 (Melzer), Kapitel 10 (PDF-Seiten 122 bis 133)
+
+Übernommen: Kapitel 10 „Verbindlichkeiten/Schulden“ – 10.1 Zuordnung (Veranlassungszusammenhang, Entnahme und Einlage des finanzierten Wirtschaftsguts, Wegfall, Forderungsverzicht, Rangrücktritt nach § 5 Abs. 2a EStG, Forderungsverzicht gegen Besserungsschein), 10.2 Bewertung und Abzinsung, 10.3 Fremdwährungsverbindlichkeiten, 10.4 betrieblicher Schuldzinsenabzug nach § 4 Abs. 4a EStG (Prüfungsschema, Überentnahme, Hinzurechnungsbetrag, Investitionsdarlehen) – 4 Einträge unter `TB10`. Die Rechenschemata stehen als Tabellen ohne Kopfzeile.
+
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: „Passivirung von Verbinlichkeiten“; „Devisakassamittelkurs“; „Grunstück“; „Rangrückritt“; zwei Absätze, an deren Ende die Zwischenüberschrift „Beispiel:“ bzw. „Berechnung des Hinzurechnungsbetrages:“ hing, getrennt.
+- Nachrechnung (eigene Ergänzung): Überentnahme 01: 0 ./. 0 ./. (./. 100.000) = 100.000, ./. Unterentnahme 10.000 = 90.000, Entnahmenüberschuss 75.000 (350.000 ./. 275.000); 02: Unterentnahme 10.000, kumuliert 80.000, begrenzt auf 75.000; Betriebseröffnung: 70.000 ./. 50.000 ./. (./. 50.000) = 70.000, Entnahmenüberschuss 20.000, 20.000 × 6 % = 1.200, Höchstbetrag 15.000 ./. 2.050 = 12.950; ./. 50.000 + 60.000 = 10.000 – stimmig. Wortabgleich der Tabellenflächen: vollständig.
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 10 Teile, 39 Kapitel, 1672 Blöcke, 84 Tabellen.
+
+Weiter mit: Kapitel 11 „Sonderposten mit Rücklageanteil“ (PDF-Seiten 134 bis 141).
+
 ### Bilanz-Skript Termin 1 (Melzer), Kapitel 7 bis 9 (PDF-Seiten 104 bis 121)
 
 Übernommen: Kapitel 7 „Bilanzierung des Umlaufvermögens“ (7.1 bis 7.6: Inventur und Inventurvereinfachungen mit Fortschreibungsformeln, Ansatz und Bewertung, Maßgeblichkeit, Einzel-, Gruppen- und Sammelbewertung, Lifo und Fifo, Festbewertung, Übersicht der Bewertungsmethoden), Kapitel 8 „Forderungen in der Bilanz“ (8.1 bis 8.3: Zurechnung, uneinbringliche, zweifelhafte und normale Forderungen mit Buchungssatz, Pauschalwertberichtigung, unverzinsliche und Fremdwährungsforderungen, halbfertige Bauten, Abschlagszahlungen nach HOAI) und Kapitel 9 „Rechnungsabgrenzungsposten“ (9.1 bis 9.6: aktive und passive RAP, Disagio, § 5 Abs. 5 Satz 2 EStG, Auflösung, Anzahlungen, Zölle und Verbrauchsteuern) – 15 Einträge unter `TB7`, `TB8` und `TB9`.
