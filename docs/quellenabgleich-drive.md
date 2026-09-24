@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: II.3 bis II.5
+
+Übernommen (PDF-Seiten 13 Mitte bis 17 Mitte): Kapitel ust-m-b13-8 (II.3 Zuwendungen an das Personal), ust-m-b13-9 (II.4 andere unentgeltliche Zuwendungen mit Verlosungsbeispiel und Bewirtungen) und ust-m-b13-10 (II.5 Steuerbefreiungen mit Beispielen Basel und Grundstücksentnahme).
+
+- Stillschweigend berichtigt: „betriebt“ → „betreibt“ (II.5 Beispiel 2).
+- Hinweis (eigene Ergänzung): II.5 Beispiel 2 – nach 12 Jahren kein § 15a-Fall mehr.
+- Keine Zahlen zum Nachrechnen.
+
+Prüfung danach: 14 Teile, 494 Kapitel, 6720 Blöcke, 380 Tabellen.
+
+Weiter mit: II.6 Bemessungsgrundlage bei unentgeltlichen Lieferungen, Skript-Seite 16 (PDF-Seite 17 Mitte).
+
 ### USt-Skript (Moecker), Block 13: II.2.4
 
 Übernommen (PDF-Seiten 10 unten bis 13 Mitte, PDF-Seite 10 gerendert und angesehen): Kapitel ust-m-b13-7 (II.2.4 Besteuerungsverbot bei fehlender Vorsteuerabzugsberechtigung mit Beispielen PC von Privatperson, PC mit 5 % Nutzung und Farbdrucker; Bestandteile, Bagatellregelung, BMG).

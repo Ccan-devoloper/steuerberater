@@ -2464,7 +2464,8 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Block 13 (Unentgeltliche Wertabgaben) begonnen mit Inhaltsverzeichnis, Allgemeinem und Ort der
   Wertabgabe, der Übersicht über die Tatbestände des § 3 Abs. 1b UStG und der Gegenstandsentnahme als
   wirtschaftlichem Vorgang, der Entnahme bei Unternehmern mit privatem und mit nichtwirtschaftlichem
-  Bereich und dem Besteuerungsverbot bei fehlender Vorsteuerabzugsberechtigung (7 Kapitel).
+  Bereich dem Besteuerungsverbot bei fehlender Vorsteuerabzugsberechtigung, den Zuwendungen an das Personal,
+  anderen unentgeltlichen Zuwendungen und den Steuerbefreiungen (10 Kapitel).
   Jeder Block ist ein eigener Teil mit eigener Kapitelzählung und eigenem Stand; die Daten liegen je
   Block unter `src/data/k1-ust-moecker/`. Block 1 legt das Gerüst der Prüfung: Die
   Ausgangsumsatzsteuer wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und steuerbar ist ein
