@@ -3,7 +3,7 @@
    „Block 13-UWA-Vers. 1.1.26 / Red. 10/25“, Fußzeile „StB 58 – Vers. 01.01.26 / Stand 10-25“; 69
    PDF-Seiten: Textteil Seiten 1 bis 41 (PDF-Seiten 2 bis 42), Arbeitspapiere A 1 bis A 27 (PDF-Seiten
    43 bis 69).
-   In Arbeit: eingepflegt bis Abschnitt V (Skript-Seite 33, PDF-Seite 34). */
+   In Arbeit: eingepflegt bis Abschnitt VI.3 (Skript-Seite 37, PDF-Seite 38). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -565,6 +565,68 @@ export const block13 = [
       { text: "Bei anderen sonstigen Leistungen, z.B. durch Erbringung einer Dienst- oder Werkleistung, ist für die Mindest - BMG § 10 Abs. 4 Nr. 3 UStG zu beachten. Danach ist Bemessungsgrundlage die bei der Ausführung der Leistung entstandenen Ausgaben. Dabei sind sämtliche Ausgaben, also auch die nicht mit USt belasteten Lohnkosten oder andere Ausgaben ohne Vorsteuerabzugsberechtigung, in die BMG einzubeziehen.\nAuszugehen ist dabei von den bei der ESt zugrunde gelegten Kosten. Der so genannte Unternehmerlohn bzw. Gewinnaufschlag ist nicht zu berücksichtigen, da es sich hierbei nicht um Kosten, sondern um nicht realisierte Gewinne handelt." },
       { text: "**Beispiel**\nEin Unternehmer lässt den Garten des EFH seiner Tochter durch zwei seiner angestellten Arbeiter während deren Arbeitszeit in Ordnung bringen. Die anteiligen Lohnkosten betragen hierfür 500 €. Die Tochter bezahlt lediglich einen Freundschaftspreis i.H.v. 300 €\n**Lösung:**\nBemessungsgrundlage für die gegen Entgelt ausgeführte sonstige Leistung sind hier gem. § 10 Abs. 5 Nr. 1 i.V.m. § 10 Abs. 4 Nr. 3 UStG die durch die Leistung entstandenen Lohnkosten für die Arbeiter. Die Umsatzsteuer beträgt 19 % auf 500 € = 95 €." },
       { text: "Nachrechnung (eigene Ergänzung): 19 % von 500 € = 95 €. Stimmig." },
+    ],
+  },
+  {
+    id: "ust-m-b13-21",
+    teil: TEIL,
+    kapitel: "21",
+    abschnittNr: "VI.1 / VI.2",
+    title: "VI. Leistungen an Arbeitnehmer – VI.1 Grundsätze / Übersicht und VI.2 Entgeltliche Leistungen",
+    thema: "Übersicht entgeltliche und unentgeltliche Leistungen an Arbeitnehmer mit Ausnahmen (Aufmerksamkeiten, überwiegend betriebliches Interesse), Arbeitsleistung als Gegenleistung (tauschähnlicher Umsatz, BMG nach dem Wert der bewirkten Leistung), Zahlung als Gegenleistung mit Mindest-BMG, kein umsatzsteuerlicher Rabattfreibetrag",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("VI.1 und VI.2"),
+    verfasser: VERFASSER,
+    normen: ["§ 1 Abs. 1 Nr. 1 UStG", "§ 3 Abs. 1b Nr. 2 UStG", "§ 3 Abs. 9a Nr. 1 und 2 UStG", "§ 3 Abs. 12 UStG", "§ 10 Abs. 2 Satz 2, Abs. 4 und 5 UStG", "§ 8 Abs. 3 EStG", "Abschn. 1.8 Abs. 1, 3, 4, 6, 8 und 18 UStAE"],
+    themen: ["Unentgeltliche Wertabgaben", "Arbeitnehmer", "Sachzuwendung", "tauschähnlicher Umsatz"],
+    bloecke: [
+      { typ: "titel", text: "VI. Leistungen an Arbeitnehmer – VI.1 Grundsätze / Übersicht" },
+      { text: "Vgl. Arbeitspapier A 18 bis 21" },
+      { typ: "tabelle", spalten: ["Leistungen an Arbeitnehmer", "Entgeltliche Leistungen (also im Leistungsaustausch, § 1 Abs. 1 Nr. 1 UStG, steuerbar)", "Unentgeltliche, freiwillige Leistungen (kein Leistungsaustausch, sog. Sachzuwendung, § 3 Abs. 1b Nr. 2 UStG, § 3 Abs. 9a Nr. 1 und 2 UStG, steuerbar)"], zeilen: [
+        ["Arbeitsleistung ist die Gegenleistung", "z. B. Pkw-Überlassung für private Fahrten (da tauschähnlicher Umsatz, BMG schwierig zu ermitteln; …) (Abschnitt 1.8 Abs. 18 UStAE)", ""],
+        ["Arbeitnehmer zahlt für die Leistung", "z. B. Belegschaftskauf (Somit tatsächliches Entgelt maßgebend; aber Mindest-BMG beachten)", ""],
+        ["wenn Leistung aufgrund des Dienstverhältnisses gewährt wird (Aktive, Azubi, Pensionäre, Angehörige der AN)", "", "z. B. Kantinenessen, Geschenke"],
+        ["Ausnahmen: Aufmerksamkeiten", "", "Abschnitt 1.8 Abs. 3 UStAE; Beispiel: Geschenke < 60 € zu besonderen Anlässen"],
+        ["Ausnahmen: Leistungen im überwiegend betrieblichen Interesse", "", "Abschnitt 1.8 Abs. 4 UStAE; Beispiele: Arbeitskleidung, Parkplatz, Kindergarten, Betriebsveranstaltungen (bis 110 €), Tel. und PC-Überlassung"],
+      ] },
+      { text: "Das Schaubild ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung). Im Textlayer der Quelle steht bei der Pkw-Überlassung zusätzlich „Ermittlung nach BMF vom 27.08.2004“; im Seitenbild ist diese Angabe durch ein leeres Feld verdeckt." },
+      { typ: "titel", text: "VI.2 Entgeltliche Leistungen" },
+      { text: "Die Steuerbarkeit von entgeltlichen Sachzuwendungen an AN folgt bereits aus dem Begriff des LAT gem. § 1 Abs. 1 Nr. 1 UStG. Sachzuwendungen sind entgeltlich, wenn der AN die einzelne Leistung durch eine konkrete Zahlung (z.B. beim so genannten Belegschaftskauf) oder wenn die Zuwendung als Gegenstand der arbeitsvertraglichen Beziehungen eine Vergütung für geleistete Dienste des AN darstellt." },
+      { typ: "titel", text: "VI.2.1 Arbeitsleistung als Gegenleistung" },
+      { text: "Ein besonderes Entgelt kann auch in der Erbringung der Arbeitsleistung bestehen, wenn aufgrund des Arbeitsvertrages ein Teil der Dienstleistung der Leistung des Arbeitgebers gegenübersteht (Abschn. 1.8 Abs. 1 UStAE). Das wird dann der Fall sein, wenn die Lieferung (Sachzuwendung) oder sonstige Leistung als Lohnbestandteil mit dem Ziel der Erlangung eines Teils der Arbeitsleistung bewirkt wird (Kost und Unterkunft für Personal im Hotelgewerbe). Bei Zweifel ist der Arbeitsvertrag heranzuziehen, oder mündliche Absprachen zu erfragen (PKW statt Lohnerhöhung).\nIst die Arbeitsleistung erwartete bzw. erwartbare Gegenleistung für Lieferungen oder sonstige Leistungen des Arbeitgebers, handelt es sich um einen tauschähnlichen Umsatz (§ 3 Abs. 12 UStG). Die Bemessungsgrundlage ist nach § 10 Abs. 2 Satz 2 UStG zu bestimmen. Demnach muss der Wert der Arbeitsleistung, die (anteilig) auf die Leistungen des Arbeitgebers entfällt, ermittelt werden. Da das praktisch unmöglich ist, ermittelt die Finanzverwaltung den Wert der anteiligen Arbeitsleistung gem. § 10 Abs. 4 UStG nach dem Wert der bewirkten Leistung (Abschn. 1.8 Abs. 6 Satz 4 UStR (so in der Quelle; heute Abschn. 1.8 Abs. 6 UStAE))." },
+      { typ: "titel", text: "VI.2.2 Zahlung als Gegenleistung" },
+      { text: "Erfolgen Leistungen des Arbeitgebers an seine Arbeitnehmer gegen besonders berechnetes Entgelt, so sind diese Leistungen wie Leistungen an fremde Dritte zu behandeln. Erfolgen die Leistungen an die Arbeitnehmer oder deren Angehörige zu einem niedrigeren Entgelt als gegenüber fremden Dritten, so ist nach Abschnitt 1.8 Absatz 6 UStAE für die Steuerfestsetzung die Mindestbemessungsgrundlage gemäß § 10 Absatz 5 UStG zu beachten.\nBei entgeltlichen Sachzuwendungen besteuert die Lohnsteuer nur den Vorteil des AN (Differenz zwischen tatsächlicher Zahlung und üblichem Endpreis am Geschäftsort), während die USt die gesamte Leistung des Arbeitgebers erfasst, und zwar mit einem Wert (Anwendung der Mindest-BMG), der auch über die tatsächliche Zahlung des AN hinausgehen kann. Der so genannte Rabattfreibetrag des § 8 Abs. 3 EStG von 1.080 € ist auf die Lohnsteuer beschränkt. Bei der USt gibt es einen ähnlichen Freibetrag nicht (Abschn. 1.8 Abs. 8 UStAE)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-22",
+    teil: TEIL,
+    kapitel: "22",
+    abschnittNr: "VI.3",
+    title: "VI.3 Unentgeltliche Leistungen an Arbeitnehmer (VI.3.1 bis VI.3.4)",
+    thema: "Tatbestände der UWA an das Personal (§ 3 Abs. 1b Nr. 2, § 3 Abs. 9a Nr. 1 und 2 UStG), Dienstverhältnis als Grundlage einschließlich ausgeschiedener Arbeitnehmer und Auszubildender, Aufmerksamkeiten bis 60 € und Freitrunk, Leistungen im überwiegend betrieblichen Interesse mit Beispielen und BFH v. 21.7.1994 (Unterkunft bei Felssicherungsarbeiten), Vorsteuerabzug nach der Gesamttätigkeit",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("VI.3"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b Nr. 2 UStG", "§ 3 Abs. 9a Nr. 1 und 2 UStG", "§ 1 Abs. 1 Nr. 1 UStG", "Abschn. 1.8 Abs. 2, 3, 4 und 4a UStAE"],
+    themen: ["Unentgeltliche Wertabgaben", "Arbeitnehmer", "Aufmerksamkeiten", "betriebliches Interesse"],
+    bloecke: [
+      { typ: "titel", text: "VI.3 Unentgeltliche Leistungen – VI.3.1 Tatbestände" },
+      { text: "Erfolgt die Leistung des Arbeitgebers nicht aufgrund einer arbeitsrechtlichen Verpflichtung als Vergütung für geleistete oder zu leistende Dienste des AN und hat der AN auch keine andere erwartbare Gegenleistung zu erbringen, liegt kein Leistungsaustausch vor. Sachzuwendungen und sonstige Leistungen werden dann unentgeltlich abgegeben, wenn der AN seine Arbeit lediglich für den vereinbarten Barlohn und unabhängig von dem an alle AN gerichteten Angebot oder unabhängig von dem Umfang der gewährten Zuwendungen leistet. Es ergibt sich in diesem Fall trotz fehlendem Leistungsaustausch (und damit fehlendem TBM „gegen Entgelt“) ein steuerbarer Umsatz durch eine unentgeltliche Wertabgabe." },
+      { text: "Einer steuerbaren entgeltlichen Lieferung oder sonstigen Leistung gem. § 1 Abs. 1 Nr. 1 UStG steht gleich, die unentgeltliche Wertabgabe an das Personal für dessen privaten Bedarf in der Form von" },
+      { typ: "tabelle", spalten: ["zugewendeten Gegenständen", "Gegenstandsverwendung", "sonstigen Dienstleistungen"], zeilen: [
+        ["(§ 3 Abs. 1b Nr. 2 UStG)", "(§ 3 Abs. 9a Nr. 1 UStG)", "(§ 3 Abs. 9a Nr. 2 UStG)"],
+      ] },
+      { text: "**Ausnahme:** Es liegen Aufmerksamkeiten vor (Abschnitt 1.8 Abs. 3 UStAE)\n**Voraussetzung:** Gegenstand selbst hat zum vollen oder teilweisen **Vorsteuerabzug** berechtigt" },
+      { typ: "titel", text: "VI.3.2 Dienstverhältnis als Grundlage" },
+      { text: "Die Besteuerung nach § 3 Abs. 1b Nr. 2 bzw. § 3 Abs. 9a Nr. 1 oder 2 UStG setzt Leistungen voraus, die auf der Seite des Arbeitgebers aus betrieblichen Gründen (Grund der Zuwendung ist das Dienstverhältnis) erbracht werden und auf der Seite des Personals (= Arbeitnehmer) der Befriedigung des privaten Bedarfs dienen (Abschn. 1.8 Abs. 2 Satz 2 UStAE).\nSteuerbar sind auch unentgeltliche Leistungen an ausgeschiedene Arbeitnehmer oder an Auszubildende (Abschn. 1.8 Abs. 2 Satz 5 UStAE)\nz.B.: Der pensionierte AN erhält monatlich unentgeltlich Waren im Wert von 100,- €." },
+      { typ: "titel", text: "VI.3.3 Aufmerksamkeiten" },
+      { text: "Wertabgaben im vorgenannten Sinne sind nicht steuerbar, wenn diese Aufmerksamkeiten darstellen.\n**Begriff:** Aufmerksamkeiten sind freiwillige Zuwendungen, die ihrer Art und nach ihrem Wert als Geschenke anzusehen sind, die auch im gesellschaftlichen Verkehr üblicherweise ausgetauscht werden und zu keiner ins Gewicht fallenden Bereicherung des AN führen (Abschn. 1.8 Abs. 3 UStAE). Der Begriff ist deckungsgleich mit dem entsprechenden Begriff bei der Lohnsteuer.\n**Beispiele:**\n• Sachzuwendungen bis zu einem Wert von 60 € (z.B. Blumen Genussmittel), die dem AN oder dessen Angehörigen aus Anlass eines pers. Ereignisses zugewendet werden (z.B. Geburtstag); Abschn. 1.8 Abs. 3 Satz 2 UStAE.\n• Getränke und Genussmittel, die AG zum Verzehr im Betrieb unentgeltlich überlassen (z.B. Freitrunk in Brauereien); Abschn. 1.8 Abs. 3 Satz 3 UStAE.\nZum Vorsteuerabzug und zur Behandlung bei unmittelbarem Eingangsbezug zum Zwecke einer UWA vgl. folgend unter Punkt 3.4" },
+      { typ: "titel", text: "VI.3.4 Leistungen im überwiegend betrieblichem Interesse" },
+      { text: "Nicht steuerbar sind auch Leistungen zur Befriedigung des privaten Bedarfs des AN, wenn die Befriedigung des privaten Bedarfs von dem angestrebten betrieblichen Zweck überlagert wird. Dies ist regelmäßig anzunehmen, wenn die Leistung die dem AG obliegende Gestaltung der Dienstausübung betrifft.\n**Beispiele:** (vgl. Abschn. 1.8 Abs. 4 UStAE)\n• Leistungen zur Verbesserung der Arbeitsbedingungen (z.B. Duschräume)\n• Betriebsärztliche Betreuung\n• Betriebliche Fort- und Weiterbildung\n• Überlassung von Arbeitskleidung\n• Übliche (bis 110 € einschl. USt) Zuwendungen im Rahmen von Betriebsveranstaltungen\n• Zurverfügungstellung von Betriebsparkplätzen.\n• Speisen, die der Arbeitgeber anlässlich und während eines außergewöhnlichen Arbeitseinsatzes abgibt (z.B. Betriebsbesprechung)" },
+      { text: "**Beispiel:** (BFH v. 21.7.1994 in BStBl II S. 881; Abschn. 1.8 Abs. 4 Nr. 8 UStAE)\nEin Unternehmer beschäftigte bei Felssicherungsarbeiten in Süd- und Westdeutschland in Österreich wohnhafte Arbeitnehmer und gewährte ihnen in der Nähe der Arbeitsorte in Hotels und Gasthöfen unentgeltlich Unterkunft. Die Rechnungen für die Übernachtungen sind von dem jeweiligen Hotelier oder dem Inhaber des Gasthofes auf den Unternehmer ausgestellt worden.\n**Lösung:**\nEin Arbeitgeber erbringt keinen steuerbaren Umsatz, wenn er seinen Arbeitnehmern für Arbeiten an weit von deren Heimatorten entfernten Tätigkeitsstätten unberechnet Übernachtungen in gemieteten Zimmern stellt.\n**a.) Keine Leistungen im Leistungsaustausch**\nDie Übernachtungsmöglichkeiten sind keine Sachleistungen die zusammen mit dem Barlohn laut Arbeitsvertrag auf die Arbeitsleistung der AN als Gegenleistung abzielen.\n**b.) Keine steuerbare Wertabgabe**\nDie Steuerbarkeit entfällt nicht, wenn der AG als Unternehmer Lieferungen oder sonstige Leistungen an seine AN aufgrund des Dienstverhältnisses ausführt, für die der Empfänger kein besonderes Entgelt aufwendet. Das gilt jedoch nicht, wenn es sich um bloße Aufmerksamkeiten handelt, oder die Aufwendungen im überwiegenden betrieblichen Interesse des AG bewirkt worden sind. Sachleistungen werden nicht steuerbar zugewendet, wenn sie zwar auch einen privaten Bedarf des AN befriedigen, aber der mit der Zuwendung verfolgte betriebliche Zweck den privaten Bedarf des AN überlagert. Für die Durchführung der Arbeiten war die Übernachtung der AN in der Nähe der Einsatzstellen (wegen der großen Entfernung zu den Wohnungen der AN) notwendig, so dass die Übernachtung durch die unternehmerische Tätigkeit bedingt war." },
+      { text: "Unterbleibt die Wertabgabebesteuerung im Hinblick auf sog. Aufmerksamkeiten oder einem überwiegend betrieblichen Interesse fehlt es an einem direkten und unmittelbaren Zusammenhang mit einem konkreten Ausgangsumsatz (UWA). Bitte beachten Sie, dass dann über den Vorsteuerabzug nach der wirtschaftlichen Gesamttätigkeit des Unternehmers zu entscheiden ist (vgl. Abschn. 1.8 Abs. 4a UStAE)." },
+      { text: "Die Übersicht der Tatbestände ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

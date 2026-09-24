@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: VI.1 bis VI.3
+
+Übernommen (PDF-Seiten 35 bis 38, Schaubild auf PDF-Seite 35 gerendert und angesehen): Kapitel ust-m-b13-21 (VI.1 Übersicht als Tabelle, VI.2 entgeltliche Leistungen) und ust-m-b13-22 (VI.3.1 bis VI.3.4 unentgeltliche Leistungen, Aufmerksamkeiten, betriebliches Interesse mit BFH v. 21.7.1994).
+
+- Befund Bildabgleich: Im Schaubild VI.1 ist die im Textlayer vorhandene Angabe „Ermittlung nach BMF vom 27.08.2004“ im Seitenbild durch ein leeres Feld verdeckt; im Text vermerkt.
+- Quellenmarkierung: VI.2.1 „Abschn. 1.8 Abs. 6 Satz 4 UStR“ (heute UStAE).
+- Stillschweigend berichtigt: „tauschähnlichicher“ → „tauschähnlicher“ (VI.1); ASCII-Anführungszeichen bei „gegen Entgelt“, „die unentgeltliche Wertabgabe das Personal“ → „an das Personal“ (VI.3.1); „Übernachtungen in gemieteten Zimmern gestellt“ → „stellt“ (VI.3.4).
+- Keine Zahlen zum Nachrechnen.
+
+Prüfung danach: 14 Teile, 506 Kapitel, 6850 Blöcke, 387 Tabellen.
+
+Weiter mit: VI.4 Überlassung eines Fahrrads an Arbeitnehmer, Skript-Seite 38 (PDF-Seite 39).
+
 ### USt-Skript (Moecker), Block 13: V (V.1 bis V.4)
 
 Übernommen (PDF-Seiten 31 bis 34, Schaubild auf PDF-Seite 31 gerendert und angesehen): Kapitel ust-m-b13-19 (V.1 Überblick als Tabellen, nahestehende Personen, Dienstverhältnis) und ust-m-b13-20 (V.2 bis V.4 mit Beispielen Lederkoffer, Bagger und Gartenarbeit).
