@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: III.2.4 bis III.3.2
+
+Übernommen (PDF-Seiten 21 bis 25 Mitte): Kapitel ust-m-b13-14 (III.2.4 BMG der Gegenstandsverwendung mit PC-Beispielen 1 bis 3), ust-m-b13-15 (III.2.5 teilunternehmerisch genutzte Grundstücke, III.2.6 Telefon) und ust-m-b13-16 (III.3.1 Dienstleistungs-UWA mit Elektriker- und Maler-Beispielen, III.3.2 Steuerbefreiungen).
+
+- Quellenmarkierungen: III.2.4 Verweis „unter Tz. 5“ (die Leistungen an Arbeitnehmer stehen unter Punkt VI); III.2.6 „Abschn. 3.4 Abs. 4 UStR“ (heute UStAE); III.3.1 Leistungsort „nach dem Unternehmersitz - Prinzip des § 3f UStG“ (nach Punkt I.3 der Quelle seit 18.12.2019 aufgehoben).
+- Stillschweigend berichtigt: „„Änderung“ der Nutzung“ → „„Änderung der Nutzung““, „regelt den Vorsteuerabzugs“ → „Vorsteuerabzug“, „Abschn. 3,4“ → „3.4“ (III.2.5); „für sein Unternehmen bezieht“ → „beziehen“ (III.2.6); „alle anderen unentgeltlichen sonstige Leistung“ → „sonstigen Leistungen“ (III.3.1).
+- Nachrechnung (eigene Ergänzung): III.2.4 1.710 €, 3.000 € je Jahr, 400 € / 76 € und 300 € / 57 € stimmig.
+
+Prüfung danach: 14 Teile, 500 Kapitel, 6770 Blöcke, 381 Tabellen.
+
+Weiter mit: III.3.3 BMG für die anderen sonstigen Leistungen mit Beispiel Dr. Pfiffig, Skript-Seite 24 (PDF-Seite 25 unten / 26).
+
 ### USt-Skript (Moecker), Block 13: II.6 bis III.2.3
 
 Übernommen (PDF-Seiten 17 Mitte bis 21 oben): Kapitel ust-m-b13-11 (II.6 BMG bei unentgeltlichen Lieferungen mit Vorführwagen), ust-m-b13-12 (III.1 Allgemeines zu § 3 Abs. 9a UStG, Gegenüberstellung als Tabelle) und ust-m-b13-13 (III.2.1 bis III.2.3 Gegenstandsverwendung mit Architekten-PC).
