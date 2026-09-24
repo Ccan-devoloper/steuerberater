@@ -672,8 +672,8 @@
       store.view="content";
       localStorage.setItem("igDashView",store.view);
     }
-    $(".nav-tab").forEach(function(b){b.classList.toggle("active",b.dataset.view===store.view);});
-    $(".view").forEach(function(v){v.classList.toggle("active",v.dataset.viewPanel===store.view);});
+    document.querySelectorAll(".nav-tab").forEach(function(b){b.classList.toggle("active",b.dataset.view===store.view);});
+    document.querySelectorAll(".view").forEach(function(v){v.classList.toggle("active",v.dataset.viewPanel===store.view);});
     $(".command-left").hidden=store.view==="preproduction";
   }
   function renderRange(data){
