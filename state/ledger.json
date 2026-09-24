@@ -4716,6 +4716,17 @@
       },
       "insightsStand": "2026-09-24T08:43:54.465Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-24",
+      "art": "story",
+      "slot": "s5",
+      "storyArt": "norm",
+      "thema": "ust-modul-ust-193",
+      "fach": "ust",
+      "titel": "Schwellenerwerber und neue Fahrzeuge im Erwerbstatbestand",
+      "medienId": "18117180511970668",
+      "veroeffentlicht": "2026-09-24T09:44:51.796Z"
     }
   ],
   "fachZaehler": {
