@@ -347,7 +347,7 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
           <KurzskriptBloecke
             kicker="Klausur 3 · UmwStR · Lehrgangsskript"
             titel="Umwandlungssteuerrecht (Hamacher)"
-            lead="Das Lehrgangsskript von Frank Hamacher (21. Auflage, Januar 2026) im Wortlaut. Eingepflegt sind Teil I (zivilrechtliche Umwandlungsarten, Einführung in das UmwStG) und Teil II (Einbringung in eine Kapitalgesellschaft nach §§ 20 – 23, 25 UmwStG mit Anteilstausch, Einbringungsgewinn I und II und Option nach § 1a KStG) Teil III (Verschmelzung von Kapitalgesellschaften nach §§ 11 – 13 UmwStG auf Ebene der Übertragerin, der Übernehmerin und der Anteilseigner) sowie Teil IV (Auf- und Abspaltung nach § 15 UmwStG mit Teilbetriebserfordernis und Missbrauchsklauseln). Teil V (Umwandlung auf Personengesellschaften) folgt."
+            lead="Das Lehrgangsskript von Frank Hamacher (21. Auflage, Januar 2026) im Wortlaut – alle fünf Teile vollständig: Teil I (zivilrechtliche Umwandlungsarten, Einführung in das UmwStG) und Teil II (Einbringung in eine Kapitalgesellschaft nach §§ 20 – 23, 25 UmwStG mit Anteilstausch, Einbringungsgewinn I und II und Option nach § 1a KStG) Teil III (Verschmelzung von Kapitalgesellschaften nach §§ 11 – 13 UmwStG auf Ebene der Übertragerin, der Übernehmerin und der Anteilseigner) Teil IV (Auf- und Abspaltung nach § 15 UmwStG mit Teilbetriebserfordernis und Missbrauchsklauseln) und Teil V (Umwandlung einer Kapitalgesellschaft auf eine Personengesellschaft nach §§ 3 – 10, 18 UmwStG mit fiktiver Ausschüttung, Übernahmeergebnis und Gewerbesteuer)."
             quelle={umwstrSkriptQuelle}
             kapitel={umwstrSkript}
             karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}

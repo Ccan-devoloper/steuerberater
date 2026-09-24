@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwStR-Skript (Hamacher), Teil V (46 Inhaltsseiten) – Umwandlung auf Personengesellschaften, §§ 3 – 10, 18 UmwStG – Skript vollständig
+
+Übernommen: „Umwandlungssteuerrecht, Teil V – Umwandlung einer Kapitalgesellschaft auf eine Personengesellschaft bzw. natürliche Person (§§ 3 – 10, 18 UmwStG)“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `1mklaRDw0X-0fMF2U_ehmwT3jgYML5vE2`, 49 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) mit neuer Teil-Konstante TV: 20 Abschnitte auf der zweiten Gliederungsebene (1.1 bis 6.3), alle 101 Fußnoten am jeweiligen Abschnittsende.
+
+- Tabellen: 17 Rechen- und Bilanzblöcke (Schlussbilanzen mit Summenzeilen 700.000 €/760.000 €, Einlagekonto, Übernahmeergebnis je Gesellschafter, Verlustabzug nach § 4 Abs. 6 Satz 4 UmwStG), gegen die Übersichtsblätter der Seiten 4 bis 49 geprüft; Tabellenzeilen, die im Textauszug in den Fließtext gerutscht waren („Grundstücke: 200.000 €“, „Steuerpfl. Bezüge … 240.000 €“, „Wert des übernommenen BV …“), in die Tabellen zurückgeführt. Schaubilder enthält Teil V nicht.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: „wird zum 31.12.2025 wird auf“; „Schenkungssteuer“; „§ 7 UmwStG:240.000 €“; „40.000€“; zusammengezogene Fußnotenzeichen ⁴⁶⁴⁷ getrennt; Silbentrennungen des Blocksatzes.
+- Nachrechnung (eigene Ergänzung): Aufstockung 10 % = 60.000 €, KSt 9.000 €, Gewinn 51.000 €; Einlagekonto 500.000 € ./. 100.000 € = 400.000 € und 100.000 € + 25.000 € = 125.000 €, fiktive Ausschüttung 300.000 € ./. 125.000 € = 175.000 €; Übernahmeergebnis 250.000 € ./. 300.000 € = ./. 50.000 € und 250.000 € ./. 10.000 € = 240.000 €; 400.000 € davon 40 % steuerfrei = 160.000 €, steuerpflichtig 240.000 €; 70 %/30 % von 270.000 € = 189.000 €/81.000 €, Übernahmeverluste 395.000 € und 55.000 €, abziehbar 60 % von 84.000 € = 50.400 €, per Saldo 72.000 € ./. 50.400 € = 21.600 € – stimmig. Vorzeichen in Klammern („Verlust … 300.000 € (100.000 € - 400.000 €)“) wie in der Quelle.
+
+Prüfung danach: UmwStR-Skript (Hamacher) in Ordnung: 5 Teile, 129 Kapitel, 3427 Blöcke, 101 Tabellen.
+
+Damit ist das UmwStR-Skript (Hamacher) vollständig eingepflegt. Weiter mit: UmwSt-Kurzskript (Breier, `17xQUV4RT0WWL8X6l5UWjPn8O-6Tw1CJt`).
+
 ### UmwStR-Skript (Hamacher), Teil IV (28 Inhaltsseiten) – Spaltung, § 15 UmwStG
 
 Übernommen: „Umwandlungssteuerrecht, Teil IV: § 15 UmwStG“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `1AgUXSDoN7x76GyC5aGblDWZ7FMuHZ0ZT`, 31 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) mit neuer Teil-Konstante TIV: 11 Abschnitte auf der zweiten Gliederungsebene (1.1 bis 3.3), alle 51 Fußnoten am jeweiligen Abschnittsende. Die Kapitelüberschriften 1. und 3. fehlten im Textauszug und sind nach der Seite ergänzt.
