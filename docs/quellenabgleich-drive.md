@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 8 I bis IV. 2 (PDF-Seiten 157 bis 163)
+
+Übernommen: Teil 8 „Organschaft“ mit neuer Teil-Konstante T8 – I. bis III. Überblick, Wirkungen, Organträger und Organgesellschaft (8-01), IV. 1 und 2 finanzielle Eingliederung und Gewinnabführungsvertrag (8-02).
+
+- Gekennzeichnet: „§ 15 Abs. 1 S. 1 Nr. 1 KStG“ (EStG); „§ 14 Abs. 1 S. 1 Nr. 2 S.“ ohne Satzangabe; im Beispiel zur mittelbaren Beteiligung „an der T-GmbH mit 80 %“ (gemeint an der OG-GmbH); „Gewinnvorträge der Organschaft“ (gemeint Organgesellschaft).
+- Stillschweigend berichtigt: „kann gem. Organträger“; „H. 14.3“; fehlende schließende Klammer bei der Optionsgesellschaft; „Mittelbar Beteiligung“; „Dass gilt“; „R.14.4“; fehlende Satzpunkte; „auszugleichen muss“; "ganzen" → „ganzen“; „ab dem erstem“.
+- Nachrechnung (eigene Ergänzung): 50 % + 60 % × 50 % = 80 %; 300.000 ./. 100.000 = 200.000; 200.000 = 20.000 + 180.000; Mindestlaufzeit ab 1.3.04 bis 31.12.09 – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 8 Teile, 52 Kapitel, 2054 Blöcke, 60 Tabellen.
+
+Weiter mit: Teil 8 IV. 3 „Fehler bei Durchführung des Gewinnabführungsvertrages“ (PDF-Seite 163; Textfassung ab Zeile 9880).
+
 ### KSt-Kurz-Skript (Breier), Teil 7 Zinsschranke (PDF-Seiten 151 bis 156) – Teil 7 vollständig
 
 Übernommen: Teil 7 mit neuer Teil-Konstante T7 – I. bis IV. (7-01) und V. bis VI. (7-02); die Schemata zum maßgeblichen Gewinn/Einkommen als einspaltige Tabellen.

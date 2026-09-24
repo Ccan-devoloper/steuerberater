@@ -1236,10 +1236,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Teil 6 (Verluste von Körperschaften) mit § 8c KStG (schädliche Quote, mittelbare
   Übertragungen, Kapitalerhöhung, unterjähriger Erwerb, Konzernklausel, stille Reserven,
   Sanierungsklausel), § 8d KStG und Mindestbesteuerung sowie Teil 7 (Zinsschranke mit
-  Stand-alone-Klausel, EBITDA- und Zinsvortrag und § 8a KStG) – zusammen 50 Abschnitte,
-  1952 Blöcke, 60 Tabellen.
-  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; die Teile 8 bis 10
-  werden abschnittsweise nachgetragen
+  Stand-alone-Klausel, EBITDA- und Zinsvortrag und § 8a KStG); aus Teil 8 (Organschaft) die
+  Voraussetzungen, die finanzielle Eingliederung und der Gewinnabführungsvertrag – zusammen
+  52 Abschnitte, 2054 Blöcke, 60 Tabellen.
+  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 8
+  und die Teile 9 und 10 werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):
