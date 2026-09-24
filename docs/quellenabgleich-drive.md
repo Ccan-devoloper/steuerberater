@@ -10633,7 +10633,7 @@ Skriptteile III bis VII.
 
 Prüfung danach: KSt-Kurz-Skript in Ordnung: 5 Teile, 37 Kapitel, 1256 Blöcke, 41 Tabellen.
 
-Weiter mit: Teil 5 A. IX „Verbrauchstheorie (Fiktionstheorie)“ (PDF-Seite 109; Textfassung ab Zeile 6555).
+Weiter mit: Teil 5 A. IX „Verbrauchstheorie (Fiktionstheorie)“ (PDF-Seite 109; Textfassung ab Zeile 6559).
 
 ### KSt-Kurz-Skript (Breier), Teil 5 A. I und A. II (PDF-Seiten 97 bis 102)
 
