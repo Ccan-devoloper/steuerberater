@@ -1220,9 +1220,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   mit empfangenen Ausschüttungen (§ 8b Abs. 5 KStG, § 3c Abs. 2 EStG) mit der Merke-Übersicht
   und Teil 4 B. I (Veräußerungs- und Zuschreibungsgewinne nach § 8b Abs. 2 und 3 KStG,
   Veräußerungskosten, Earn-out, Einlagekonto, verdeckte Einlage und vGA bei Anteilen,
-  Mitunternehmerschaft) – zusammen 29 Abschnitte, 1014 Blöcke, 36 Tabellen.
-  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 4
-  (ab B. II) und die Teile 5 bis 10 werden abschnittsweise nachgetragen
+  Mitunternehmerschaft) sowie B. II bis IV (Steuerpflicht nach früherer steuerwirksamer
+  Teilwertabschreibung, Verluste aus Beteiligungen, Verluste aus Gesellschafterdarlehen und
+  Sicherheiten nach § 8b Abs. 3 S. 4 ff. KStG und § 3c Abs. 2 S. 2 ff. EStG) – Teil 4 damit
+  vollständig; zusammen 31 Abschnitte, 1079 Blöcke, 36 Tabellen.
+  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; die Teile 5 bis 10
+  werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):

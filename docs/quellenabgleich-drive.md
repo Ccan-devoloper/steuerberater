@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 4 B. II bis IV (PDF-Seiten 91 bis 96) – Teil 4 vollständig
+
+Übernommen: B. II (Ausnahme von der Steuerfreistellung nach früherer steuerwirksamer Teilwertabschreibung) und B. III (Verluste aus Beteiligungen) mit Merke-Übersicht als Abschnitt 4-09, B. IV (Verluste aus Forderungen einer Muttergesellschaft oder nahestehenden Gesellschaft, Nr. 1 bis 5) mit Merke als Abschnitt 4-10.
+
+- Gekennzeichnet: „§ 8b Abs. 3 S. 3 KStG“ für die 5 %-Pauschale (S. 1); „B-Bank“ statt X-Bank; „§ 8b Abs. 4 S. 6, S. 8 und S. 9 KStG“ (jeweils Abs. 3; S. 9 auch in der Merke-Übersicht); der unvollständige Satz zu § 3c Abs. 2 S. 2 ff. EStG.
+- Stillschweigend berichtigt: „gem. gem.“; „Ermittlung des Einkommens)“; fehlender Punkt vor „Es ergibt sich“; „60.%“; „nach 3c Abs. 2“ → „nach § 3c Abs. 2“.
+- Nachrechnung (eigene Ergänzung): 70.000 € / 1.000 €, 25.000 €, 90.000 €, 240.000 € (24 Monate × 10.000 €) und 12.000 € stimmen.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 4 Teile, 31 Kapitel, 1079 Blöcke, 36 Tabellen.
+
+Weiter mit: Teil 5 „Verdeckte Gewinnausschüttung“ (ab PDF-Seite 97; Textfassung ab Zeile 5836).
+
 ### KSt-Kurz-Skript (Breier), Teil 4 A. V. 6 und B. I (PDF-Seiten 81 bis 90)
 
 Übernommen aus dem inzwischen vollständig heruntergeladenen PDF: Betriebsausgaben im Zusammenhang mit empfangenen Ausschüttungen (Körperschaften und natürliche Personen, Merke-Übersicht mit Kapitalertragsteuer und Gewerbesteuer) als Abschnitt 4-07 sowie B. I „Gewinne aus Veräußerungen und Zuschreibungen“ (Nr. 1 bis 8) als Abschnitt 4-08. Seiten 82, 83, 86 und 87 gerendert und angesehen; die verschachtelte Merke-Liste ist je Unterpunkt mit ihrem Oberbegriff wiedergegeben. Der bisherige Block „Ende des lesbaren Textes“ im Abschnitt 4-06 ist entfernt.
