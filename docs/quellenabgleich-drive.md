@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: VII bis VIII.2
+
+Übernommen (PDF-Seiten 122 bis 125 Mitte): Kapitel ust-m-b12-12 (VII nur einmalig verwendete WG mit Türen- und Bauland-Beispiel), ust-m-b12-13 (VIII/VIII.1 Bestandteile mit Fenster-Beispiel) und ust-m-b12-14 (VIII.2 sonstige Leistungen an einem WG mit Fassaden- und Pkw-Beispiel).
+
+- Quellenmarkierung: VIII.1 „Geringfügigkeitsgrenze des § 44 Abs. 2 UStDV (mehr als 10%)“ (nach § 44 Abs. 2 UStDV mindestens 10 Prozentpunkte, so die Quelle selbst unter III.2).
+- Bestätigung: VIII.2 zitiert selbst „§ 44 Abs. 3 Satz 2 in Verbindung mit Abs. 4 UStDV“ für die Berichtigung bei Veräußerung – stützt die Markierungen zu III.3 und V.3.
+- Nachrechnungen (eigene Ergänzung): 19 % von 2.000.000 € = 380.000 €; Fenster 4.800 € : 10 = 480 €; Restzeiträume Fassade 9 Jahre, Pkw 2 Jahre, Lackierung 4 Jahre. Alle stimmig.
+
+Prüfung danach: 13 Teile, 473 Kapitel, 6523 Blöcke, 358 Tabellen.
+
+Weiter mit: VIII.3 Mehrere Maßnahmen zusammen als ein Berichtigungsobjekt, Skript-Seite 23 (PDF-Seite 125 unten).
+
 ### USt-Skript (Moecker), Block 12: VI.3 und VI.4
 
 Übernommen (PDF-Seiten 118 unten bis 121): Kapitel ust-m-b12-10 (VI.3 Leerstand bei Gebäuden mit Cafeteria-Fall BFH v. 27.10.2020 und Insolvenz-Fall BFH V R 58/00) und ust-m-b12-11 (VI.4 Berichtigungsverfahren mit verspäteter Rechnung und sachlich unrichtigem Vorsteuerabzug).
