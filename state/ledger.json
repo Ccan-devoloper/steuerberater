@@ -3933,8 +3933,8 @@
         "ig_reels_video_view_total_time": 468969,
         "reels_skip_rate": 77.8
       },
-      "insightsStand": "2026-09-24T05:43:59.769Z",
-      "insightsAlterStunden": 58.9
+      "insightsStand": "2026-09-24T13:43:48.682Z",
+      "insightsAlterStunden": 66.9
     },
     {
       "datum": "2026-09-21",
@@ -4052,7 +4052,7 @@
       "veroeffentlicht": "2026-09-22T09:45:51.201Z",
       "karteUrl": null,
       "insights": {
-        "reach": 26,
+        "reach": 28,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -4061,8 +4061,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-24T05:43:44.517Z",
-      "insightsAlterStunden": 44
+      "insightsStand": "2026-09-24T13:43:48.682Z",
+      "insightsAlterStunden": 52
     },
     {
       "datum": "2026-09-22",
@@ -4264,19 +4264,19 @@
       "dauer": 72.1,
       "veroeffentlicht": "2026-09-22T19:11:22.569Z",
       "insights": {
-        "reach": 40,
-        "saved": 1,
+        "reach": 41,
+        "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 58,
-        "ig_reels_avg_watch_time": 13882,
-        "ig_reels_video_view_total_time": 638603,
-        "reels_skip_rate": 59
+        "total_interactions": 2,
+        "views": 61,
+        "ig_reels_avg_watch_time": 14614,
+        "ig_reels_video_view_total_time": 716100,
+        "reels_skip_rate": 59.5
       },
-      "insightsStand": "2026-09-24T05:43:44.517Z",
-      "insightsAlterStunden": 34.5
+      "insightsStand": "2026-09-24T13:43:48.682Z",
+      "insightsAlterStunden": 42.5
     },
     {
       "datum": "2026-09-22",
@@ -4758,7 +4758,24 @@
       "fach": "bilanz",
       "titel": "Tage bis zur schriftlichen Prüfung",
       "medienId": "18618190033059977",
-      "veroeffentlicht": "2026-09-24T11:44:00.141Z"
+      "veroeffentlicht": "2026-09-24T11:44:00.141Z",
+      "insights": {
+        "reach": 15,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 10,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-09-24T13:43:46.872Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
