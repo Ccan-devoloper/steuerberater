@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: V bis VI.2
+
+Übernommen (PDF-Seiten 115 bis 118 oben): Kapitel ust-m-b12-8 (V.1 bis V.3 Änderung der Verhältnisse mit Beispielen Halle, Veräußerung im Folgejahr und Bürogebäude) und ust-m-b12-9 (VI.1 Investitionsgüter, VI.2 Besonderheiten beim Berichtigungszeitraum).
+
+- Quellenmarkierungen: V.2 „vgl. Punkt VII“ zur Geschäftsveräußerung (VII behandelt die nur einmalig verwendeten WG); V.3 erneut „§ 44 Abs. 4 Satz 3 UStDV“ (vgl. III.3); VI.1 leerer Aufzählungspunkt „c)“.
+- Stillschweigend berichtigt: „2Wegfall des sog. Seeling-Models“ → „„Wegfall des sog. Seeling-Modells““ (V.2); „dieser Umsatz für anders zu beurteilen“ → „dieser Umsatz anders zu beurteilen“ (V.3); „Berichtigungszeitraums:“ → „Berichtigungszeitraum:“; „§ 15 a“ → „§ 15a“; „Geschäftsveräußerungen“ → „Geschäftsveräußerung“ (VI.1, d); fehlende Klammer nach „Satz 5 & 6 UStAE“ (VI.2).
+- Nachrechnungen (eigene Ergänzung): Halle Ende 31.07.11; 54 Monate, 27.000 €; Bürogebäude 25 %, 30.000 / 10.000 / 10.000 / 70.000 €, Saldo führt auf 60.000 € endgültigen Abzug (03 voll, 04 zur Hälfte). Alle Angaben stimmig.
+
+Prüfung danach: 13 Teile, 468 Kapitel, 6472 Blöcke, 357 Tabellen.
+
+Weiter mit: VI.3 Leerstand bei Gebäuden, Skript-Seite 16 (PDF-Seite 118 unten).
+
 ### USt-Skript (Moecker), Block 12: III.2 bis IV
 
 Übernommen (PDF-Seiten 111 unten bis 114): Kapitel ust-m-b12-6 (III.2 Änderungsmindestbetrag mit Beispiel über fünf Jahre, III.3 maßgebender Besteuerungszeitraum, III.4 entsprechende Anwendung) und ust-m-b12-7 (IV maßgeblicher Berichtigungszeitraum mit Tieflader, § 45 UStDV und Bürohochhaus).
