@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwStR-Skript (Hamacher), Teil IV (28 Inhaltsseiten) – Spaltung, § 15 UmwStG
+
+Übernommen: „Umwandlungssteuerrecht, Teil IV: § 15 UmwStG“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `1AgUXSDoN7x76GyC5aGblDWZ7FMuHZ0ZT`, 31 PDF-Seiten, vollständig heruntergeladen und lokal ausgewertet) mit neuer Teil-Konstante TIV: 11 Abschnitte auf der zweiten Gliederungsebene (1.1 bis 3.3), alle 51 Fußnoten am jeweiligen Abschnittsende. Die Kapitelüberschriften 1. und 3. fehlten im Textauszug und sind nach der Seite ergänzt.
+
+- Tabellen: 11 Rechen- und Bilanzblöcke (Schlussbilanz der A-GmbH mit Teilbetrieb I/II, Entwicklung des Einlagekontos bei Auf- und Abspaltung), gegen das Übersichtsblatt der Seiten 4 bis 31 geprüft. Schaubilder enthält Teil IV nicht.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: Überschrift 2.4.2 „Auswirkungen aus das steuerliche Einlagekonto“; „aus Sicht des Übertrages“; „abgespaltet“; „=Zwischenergebnis“; Silbentrennungen des Blocksatzes.
+- Nachrechnung (eigene Ergänzung): Schlussbilanz 250.000 € je Seite; Einlagekonto 10.000 € + 100.000 € = 110.000 €, Zurechnung 40 % = 44.000 €, 66.000 € ./. 60.000 € = 6.000 €, bei der B-GmbH 44.000 € ./. 40.000 € = 4.000 € – stimmig.
+
+Prüfung danach: UmwStR-Skript (Hamacher) in Ordnung: 4 Teile, 109 Kapitel, 2840 Blöcke, 84 Tabellen.
+
+Weiter mit: UmwStR-Skript Teil V „Umwandlung einer Kapitalgesellschaft auf eine Personengesellschaft §§ 3 – 10, 18 UmwStG“ (`1mklaRDw0X-0fMF2U_ehmwT3jgYML5vE2`).
+
 ### UmwStR-Skript (Hamacher), Teil III (55 Seiten) – Verschmelzung, §§ 11 – 13 UmwStG
 
 Übernommen: „Umwandlungssteuerrecht, Teil III: Verschmelzung von Kapitalgesellschaften (§§ 11 – 13 UmwStG)“ (Frank Hamacher, 21. Auflage, Januar 2026; Drive-ID `1e0kAdsm1mV0EX8i4JiN3PQv8GqOsK17g`, vollständig heruntergeladen und lokal ausgewertet) mit neuer Teil-Konstante TIII: 19 Abschnitte auf der zweiten Gliederungsebene (1.1 bis 5.4; tiefere Ebenen als Zwischenüberschriften), alle 110 Fußnoten am jeweiligen Abschnittsende.
