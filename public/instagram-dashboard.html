@@ -370,7 +370,13 @@
     .cnv-popover .pop-row{display:grid;grid-template-columns:auto 1fr 44px;gap:9px;align-items:center;margin:9px 0;font-size:13px;color:#111827}
     .cnv-popover .pop-row input[type="range"]{width:100%;accent-color:#8b3dff}
     .cnv-popover .pop-row .num{width:44px;height:32px;border:1px solid #d9dce2;border-radius:8px;text-align:center;font-size:12px}
-    .editor-stage-wrap{flex:1;overflow:auto;display:grid;place-items:center;padding:58px 24px 24px;background:#f1f2f5}
+    .editor-stage-wrap{flex:1;overflow:auto;display:flex;flex-direction:column;align-items:center;gap:30px;padding:58px 24px 24px;background:#f1f2f5}
+    .ed-page{flex:none}
+    .ed-page:only-child{margin:auto}
+    .ed-page-head{font-size:12px;color:#6b7178;margin:0 0 7px 2px;font-weight:500}
+    .ed-page.active .ed-page-head{color:#5c22b8;font-weight:700}
+    .ed-page-prev{display:block;border-radius:3px;box-shadow:0 2px 9px rgba(20,22,26,.12);cursor:pointer;background:#fff}
+    .ed-page:not(.active):hover .ed-page-prev{outline:2px solid #c9a8ff}
     .editor-stage{position:relative;box-shadow:0 2px 14px rgba(20,24,30,.10);flex:none;background:#fff}
     .editor-stage img.ed-base{display:block;pointer-events:none;user-select:none}
     .editor-stage.picking{cursor:crosshair}
@@ -1531,7 +1537,7 @@
   var ED_FONTS=[["Anton","Anton.ttf","400"],["Oswald","Oswald.ttf","200 700"],["Space Grotesk","SpaceGrotesk.ttf","300 700"],["Caveat","Caveat.ttf","400 700"],["IBM Plex Sans","IBMPlexSans.ttf","100 700"],["IBM Plex Serif","IBMPlexSerif-SemiBold.ttf","600"],["IBM Plex Serif","IBMPlexSerif-Bold.ttf","700"],["IBM Plex Mono","IBMPlexMono-Medium.ttf","400 500"]];
   var ED_FAMILIES=["IBM Plex Sans","IBM Plex Serif","IBM Plex Mono","Anton","Oswald","Space Grotesk","Caveat","Inter"];
   var ED_SWATCHES=["#0b0b0d","#ffffff","#f6f2e9","#12233f","#141a3a","#d6ff4a","#2d5be3","#ff7a45","#23d98b","#f2c94c","#6b4bd6","#c8102e"];
-  var ed={open:false,rel:"",label:"",ctx:null,img:null,base:null,baseRel:"",hasSidecar:false,w:0,h:0,scale:1,fit:true,els:[],sel:-1,editing:-1,hist:[],histI:-1,savedAt:0,idSeq:1,pick:false,lastFill:"#f6f2e9",saving:false,panel:"",pexels:{q:"",page:1,photos:[],busy:false,err:"",total:0},dayImages:null};
+  var ed={open:false,pages:[],page:-1,rel:"",label:"",ctx:null,img:null,base:null,baseRel:"",hasSidecar:false,w:0,h:0,scale:1,fit:true,els:[],sel:-1,editing:-1,hist:[],histI:-1,savedAt:0,idSeq:1,pick:false,lastFill:"#f6f2e9",saving:false,panel:"",pexels:{q:"",page:1,photos:[],busy:false,err:"",total:0},dayImages:null};
   var edImgCache={};
   /* Bilder (Fotos, Icon-SVGs) CORS-sauber vorladen, damit der Canvas-Export
      nicht "tainted" wird. data:-URLs brauchen kein crossOrigin. */
@@ -1839,6 +1845,7 @@
   }
   function edRender(){
     var st=edStageEl();
+    edSyncPageWidths();
     if(!ed.img){st.innerHTML="";return;}
     st.style.width=Math.round(ed.w*ed.scale)+"px";st.style.height=Math.round(ed.h*ed.scale)+"px";
     st.classList.toggle("picking",ed.pick);
@@ -2424,19 +2431,148 @@
     }catch(e){/* voll */}
   }
   function edClearDraft(rel){try{localStorage.removeItem(edDraftKey(rel));}catch(e){/* egal */}}
-  async function openSlideEditor(rel,label,ctx){
-    if(ed.open&&edIsDirty()){
-      if(!confirm("Ungespeicherte Änderungen verwerfen?"))return;
-      edClearDraft(ed.rel);
+  /* ---------------- Seitenverwaltung: alle Folien eines Beitrags sind im
+       Editor untereinander sichtbar (wie Canva-Seiten); genau eine ist aktiv
+       und voll editierbar, die anderen zeigen eine Live-Vorschau. ---------- */
+  var ED_PAGE_KEYS=["rel","label","ctx","els","hist","histI","savedAt","savedTs","img","w","h","base","layout","usedHits","hasSidecar","baseRel","idSeq","loadWarn"];
+  function preproductionDayContent(date,slot){
+    var data=store.data.herr,day=data&&data.vorproduktion&&data.vorproduktion[date];
+    return (day&&day.inhalte&&day.inhalte[slot])||null;
+  }
+  function edPageDirty(p){return !!(p&&p.state&&p.state.histI>=0&&p.state.histI!==p.state.savedAt);}
+  function edAnyDirty(){
+    if(ed.open&&edIsDirty())return true;
+    return (ed.pages||[]).some(edPageDirty);
+  }
+  function edDiscardAllDrafts(){
+    if(ed.rel)edClearDraft(ed.rel);
+    (ed.pages||[]).forEach(function(p){if(p.state)edClearDraft(p.state.rel);});
+  }
+  function edSuspendPage(){
+    if(ed.page<0||!ed.pages[ed.page])return;
+    if(ed.editing!==-1)edStopEditing();
+    if(ed.cropId)edCropCancel();
+    edClosePopover();
+    ed.sel=-1;
+    var st={};
+    ED_PAGE_KEYS.forEach(function(k){st[k]=ed[k];});
+    ed.pages[ed.page].state=st;
+  }
+  function edRenderPages(){
+    var wrap=$("#edStageWrap"),stage=edStageEl();
+    wrap.appendChild(stage); /* Stage retten, bevor alte Seiten-Wrapper fallen */
+    wrap.querySelectorAll(".ed-page").forEach(function(n){n.remove();});
+    ed.pages.forEach(function(pg,i){
+      var d=document.createElement("div");
+      d.className="ed-page"+(i===ed.page?" active":"");
+      d.dataset.page=i;
+      if(ed.pages.length>1){
+        var h=document.createElement("div");h.className="ed-page-head";
+        h.textContent="Folie "+(i+1)+" / "+ed.pages.length+(i===ed.page?" · in Bearbeitung":"")+(edPageDirty(pg)?" · ungespeichert":"");
+        d.appendChild(h);
+      }
+      if(i===ed.page)d.appendChild(stage);
+      else{
+        var w=Math.round(((pg.state&&pg.state.w)||ed.w||1080)*ed.scale);
+        var prev;
+        if(pg.state&&pg.state.img){
+          /* Live-Vorschau aus dem gemerkten Zustand zeichnen. */
+          prev=document.createElement("canvas");
+          var ps=Math.min(1,700/pg.state.w);
+          prev.width=Math.round(pg.state.w*ps);prev.height=Math.round(pg.state.h*ps);
+          var cx=prev.getContext("2d");
+          cx.scale(ps,ps);
+          cx.drawImage(pg.state.img,0,0,pg.state.w,pg.state.h);
+          pg.state.els.forEach(function(el){
+            cx.globalAlpha=edOpacity(el);
+            try{edDrawEl(cx,el);}catch(e){/* Vorschau ist optional */}
+            cx.globalAlpha=1;
+          });
+        }else{
+          prev=document.createElement("img");
+          prev.src=preproductionAssetUrl(pg.rel);
+          prev.alt="Folie "+(i+1);
+          prev.loading="lazy";
+        }
+        prev.className="ed-page-prev";
+        /* Festes Seitenverhaeltnis: nachladende Vorschauen duerfen die
+           Spalte nicht verschieben (sonst springt die Scroll-Position). */
+        prev.style.aspectRatio=(((pg.state&&pg.state.w)||ed.w||1080))+" / "+(((pg.state&&pg.state.h)||ed.h||1350));
+        prev.style.width=w+"px";
+        prev.title="Klicken, um diese Folie zu bearbeiten";
+        d.appendChild(prev);
+      }
+      wrap.appendChild(d);
+    });
+    if(ed.pages.length>1)stage.style.margin="0";else stage.style.margin="";
+  }
+  function edSyncPageWidths(){
+    if(!ed.pages||ed.pages.length<2)return;
+    var w=Math.round((ed.w||1080)*ed.scale);
+    $("#edStageWrap").querySelectorAll(".ed-page-prev").forEach(function(n){n.style.width=w+"px";});
+  }
+  function edScrollToActive(){
+    var wrap=$("#edStageWrap"),act=wrap.querySelector(".ed-page.active");
+    if(act&&ed.pages.length>1)wrap.scrollTop=Math.max(0,act.offsetTop-64);
+  }
+  async function edActivatePage(i,first){
+    if(!ed.open||!ed.pages[i])return;
+    if(!first){
+      if(i===ed.page)return;
+      edSuspendPage();
     }
-    ed.open=true;ed.rel=rel;ed.label=label||rel;ed.ctx=ctx||null;
+    ed.page=i;
+    var pg=ed.pages[i];
+    $("#editorLabel").textContent=pg.label;
+    $("#editorPath").textContent="instagram-assets/"+repoPathFor(pg.rel);
+    $("#edToolbar").hidden=true;
+    if(pg.state){
+      var st=pg.state;pg.state=null;
+      ED_PAGE_KEYS.forEach(function(k){ed[k]=st[k];});
+      ed.sel=-1;ed.editing=-1;
+      if(ed.fit)ed.scale=edFitScale();
+      edRenderPages();
+      edSetStatus(ed.w+" × "+ed.h+" px"+(ed.layout?" · Direktbearbeitung aktiv – Texte im Bild einfach anklicken":"")+(ed.hasSidecar?" · frühere Bearbeitung geladen":""),ed.layout?"ok":"");
+      edRender();edSyncTools();
+      edScrollToActive();
+    }else{
+      edRenderPages();
+      edScrollToActive();
+      await edLoadSlide(pg.rel,pg.label,pg.ctx);
+    }
+  }
+  async function openSlideEditor(rel,label,ctx){
+    if(ed.open&&edAnyDirty()){
+      if(!confirm("Ungespeicherte Änderungen verwerfen?"))return;
+      edDiscardAllDrafts();
+    }
+    ed.open=true;
+    /* Seitenliste aufbauen: beim Carousel alle Folien des Beitrags,
+       bei Stories und Reel-Covern genau eine Seite. */
+    ed.pages=[];ed.page=-1;
+    var start=0;
+    if(ctx&&ctx.kind==="slide"&&ctx.date&&ctx.slot){
+      var inhalt=preproductionDayContent(ctx.date,ctx.slot);
+      var n=(inhalt&&Array.isArray(inhalt.folien))?inhalt.folien.length:0;
+      if(n>1){
+        for(var i=1;i<=n;i++)ed.pages.push({rel:preproductionSlideRel(ctx.date,ctx.slot,i),label:ctx.date+" · "+ctx.slot+" · Folie "+i,ctx:{date:ctx.date,slot:ctx.slot,index:i,kind:"slide"},state:null});
+        start=Math.max(0,Math.min(n-1,(Number(ctx.index)||1)-1));
+      }
+    }
+    if(!ed.pages.length)ed.pages=[{rel:rel,label:label||rel,ctx:ctx||null,state:null}];
+    $("#slideEditor").hidden=false;
+    ed.panel="";ed.pick=false;ed.cropId=0;ed.cropSnap=null;ed.popKind="";
+    var tb=$("#edToolbar");tb.hidden=true;tb.innerHTML="";tb.__html="";
+    $("#edPanel").hidden=true;edClosePopover();
+    $$("#edRail .rail-tab[data-panel]").forEach(function(b){b.classList.remove("active");});
+    await edActivatePage(start,true);
+  }
+  async function edLoadSlide(rel,label,ctx){
+    ed.rel=rel;ed.label=label||rel;ed.ctx=ctx||null;
     ed.els=[];ed.sel=-1;ed.editing=-1;ed.hist=[];ed.histI=-1;ed.savedAt=0;ed.pick=false;ed.img=null;ed.base=null;ed.saving=false;
     ed.hasSidecar=false;ed.baseRel=rel;ed.dayImages=null;ed.panel="";ed.loadWarn=false;
     ed.layout=null;ed.usedHits={texte:[],bilder:[]};
-    $("#slideEditor").hidden=false;
-    $("#editorLabel").textContent=ed.label;
-    $("#editorPath").textContent="instagram-assets/"+repoPathFor(rel);
-    edStageEl().innerHTML="";$("#edToolbar").hidden=true;$("#edToolbar").innerHTML="";$("#edPanel").hidden=true;ed.cropId=0;ed.cropSnap=null;ed.popKind="";edClosePopover();
+    edStageEl().innerHTML="";
     edSetStatus("Bild wird geladen …","");
     loadEditorFonts();
     /* Sidecar: liegt eine frühere Editor-Sitzung im Repo, wird die Original-
@@ -2499,7 +2635,7 @@
       var c=document.createElement("canvas");c.width=ed.w;c.height=ed.h;
       var cx2=c.getContext("2d",{willReadFrequently:true});cx2.drawImage(img,0,0);ed.base=cx2;
       if(sidecarWarn){ed.loadWarn=true;edSetStatus(ed.w+" × "+ed.h+" px · frühere Bearbeitung war nicht abrufbar (Netz?) – Speichern gesperrt, bitte neu öffnen","err");}
-      else edSetStatus(ed.w+" × "+ed.h+" px"+(ed.layout?" · Direktbearbeitung aktiv – Texte im Bild einfach anklicken":"")+(ed.hasSidecar?" · frühere Bearbeitung geladen":""),ed.layout?"ok":"");
+      else edSetStatus(ed.w+" × "+ed.h+" px"+(ed.layout?" · Direktbearbeitung aktiv – Texte im Bild einfach anklicken":" · keine Klick-Karte für diese Folie (z. B. Cover mit Motiv) – Texte über „Folientexte“ ersetzen")+(ed.hasSidecar?" · frühere Bearbeitung geladen":""),ed.layout?"ok":"");
       ed.scale=edFitScale();ed.fit=true;
       if(draftRestored)ed.savedAt=-2; /* wiederhergestellter Entwurf ist NICHT gespeichert */
       edCommit();
@@ -2507,6 +2643,7 @@
       edSyncTools();
       if(staleNote)edSetStatus(ed.w+" × "+ed.h+" px · Folie wurde seit der letzten Bearbeitung neu gerendert – Start frisch von der aktuellen Version","");
       edRender();
+      edScrollToActive();
     };
     img.onerror=function(){
       if(!ed.open||ed.rel!==rel)return;
@@ -2524,12 +2661,16 @@
   }
   function closeSlideEditor(force){
     if(!ed.open)return;
-    if(!force&&edIsDirty()){
+    if(!force&&edAnyDirty()){
       if(!confirm("Änderungen wurden nicht gespeichert – Editor trotzdem schließen?"))return;
-      edClearDraft(ed.rel);
+      edDiscardAllDrafts();
     }
     ed.open=false;$("#slideEditor").hidden=true;
-    edStageEl().innerHTML="";ed.img=null;ed.base=null;
+    var wrap=$("#edStageWrap"),stage=edStageEl();
+    stage.innerHTML="";ed.img=null;ed.base=null;
+    ed.pages=[];ed.page=-1;
+    wrap.appendChild(stage); /* Stage aus dem Seiten-Wrapper retten */
+    wrap.querySelectorAll(".ed-page").forEach(function(n){n.remove();});
   }
   function edRoundRect(ctx,x,y,w,h,r){
     r=Math.max(0,Math.min(r,w/2,h/2));
@@ -2724,41 +2865,73 @@
   }
   async function edSave(){
     if(!ed.img||ed.saving)return;
-    if(ed.loadWarn){edSetStatus("Frühere Bearbeitung war beim Öffnen nicht abrufbar – Editor bitte neu öffnen (Schutz vor Überschreiben).","err");return;}
     if(!ghToken()){openTokenModal(function(){edSave();});return;}
-    ed.saving=true;$("#edSave").disabled=true;edSetStatus("Wird gespeichert …","");
-    /* Momentaufnahme: Nach jedem await könnte inzwischen eine andere Folie
-       geöffnet sein – Komposition, Sidecar und Zustandsänderungen arbeiten
-       ausschließlich auf diesem Schnappschuss. */
-    var rel=ed.rel,label=ed.label,histI=ed.histI,hadSidecar=ed.hasSidecar,baseSrc=ed.img.src;
-    var snap={img:ed.img,w:ed.w,h:ed.h,els:JSON.parse(JSON.stringify(ed.els))};
+    /* Gespeichert werden alle Seiten mit ungesicherten Aenderungen in EINEM
+       Commit; ist nichts geaendert, die aktive Seite (wie bisher). */
+    var jobs=[],irgendwoDirty=edAnyDirty();
+    ed.pages.forEach(function(p,i){
+      if(i===ed.page){if(edIsDirty()||!irgendwoDirty)jobs.push({live:true,page:p});}
+      else if(edPageDirty(p))jobs.push({live:false,page:p});
+    });
+    var blockiert=jobs.filter(function(j){return j.live?ed.loadWarn:j.page.state.loadWarn;});
+    jobs=jobs.filter(function(j){return !(j.live?ed.loadWarn:j.page.state.loadWarn);});
+    if(!jobs.length){
+      edSetStatus("Frühere Bearbeitung war beim Öffnen nicht abrufbar – Editor bitte neu öffnen (Schutz vor Überschreiben).","err");
+      return;
+    }
+    ed.saving=true;$("#edSave").disabled=true;
+    edSetStatus(jobs.length>1?jobs.length+" Folien werden gespeichert …":"Wird gespeichert …","");
+    /* Momentaufnahmen: Nach jedem await koennte eine andere Seite aktiv
+       sein – alles Weitere arbeitet nur auf diesen Schnappschuessen. */
+    var snaps=jobs.map(function(j){
+      var s=j.live?ed:j.page.state;
+      return {rel:s.rel,label:s.label,img:s.img,w:s.w,h:s.h,
+        els:JSON.parse(JSON.stringify(s.els)),
+        usedHits:{texte:s.usedHits.texte.slice(),bilder:s.usedHits.bilder.slice()},
+        hasSidecar:s.hasSidecar,baseSrc:s.img.src,histI:s.histI};
+    });
     try{
-      var c=await edComposite(snap);
-      var jpgB64=c.toDataURL("image/jpeg",0.92).split(",")[1];
-      var sidecar={v:2,base:editorOriginalRel(rel),savedAt:Date.now(),label:label,flatHash:await sha256HexBuf(b64ToBuf(jpgB64)),usedHits:{texte:ed.usedHits.texte.slice(),bilder:ed.usedHits.bilder.slice()},els:snap.els};
-      var files=[
-        {path:repoPathFor(rel),b64:jpgB64},
-        {path:repoPathFor(editorSidecarRel(rel)),text:JSON.stringify(sidecar,null,1)}
-      ];
-      if(!hadSidecar){
-        /* Erster Editor-Save: unveränderte Basis sichern, damit die Folie
-           auch nach dem Flatten voll editierbar bleibt. */
-        var orig=await fetch(baseSrc,{cache:"force-cache"});
-        if(!orig.ok)orig=await fetch(baseSrc,{cache:"no-store"});
-        if(!orig.ok)throw new Error("Basisbild für die Sicherung nicht ladbar ("+orig.status+")");
-        files.push({path:repoPathFor(editorOriginalRel(rel)),b64:bufToB64(await orig.arrayBuffer())});
+      var files=[],metas=[];
+      for(var si=0;si<snaps.length;si++){
+        var sn=snaps[si];
+        var c=await edComposite({img:sn.img,w:sn.w,h:sn.h,els:sn.els});
+        var jpgB64=c.toDataURL("image/jpeg",0.92).split(",")[1];
+        var sidecar={v:2,base:editorOriginalRel(sn.rel),savedAt:Date.now(),label:sn.label,flatHash:await sha256HexBuf(b64ToBuf(jpgB64)),usedHits:sn.usedHits,els:sn.els};
+        files.push({path:repoPathFor(sn.rel),b64:jpgB64});
+        files.push({path:repoPathFor(editorSidecarRel(sn.rel)),text:JSON.stringify(sidecar,null,1)});
+        if(!sn.hasSidecar){
+          /* Erster Editor-Save dieser Folie: unveraenderte Basis sichern. */
+          var orig=await fetch(sn.baseSrc,{cache:"force-cache"});
+          if(!orig.ok)orig=await fetch(sn.baseSrc,{cache:"no-store"});
+          if(!orig.ok)throw new Error("Basisbild für die Sicherung nicht ladbar ("+orig.status+")");
+          files.push({path:repoPathFor(editorOriginalRel(sn.rel)),b64:bufToB64(await orig.arrayBuffer())});
+        }
+        metas.push({rel:sn.rel,histI:sn.histI,savedTs:sidecar.savedAt});
       }
-      var commit=await ghCommitFiles(files,"Vorproduktion: "+label+" im Dashboard bearbeitet");
-      bumpAssetVersion(rel);
-      edClearDraft(rel);
-      if(ed.open&&ed.rel===rel){
-        ed.hasSidecar=true;ed.baseRel=editorOriginalRel(rel);
-        ed.savedAt=histI;ed.savedTs=sidecar.savedAt;
-        edSetStatus("Gespeichert ✓ Commit "+String(commit&&commit.sha||"").slice(0,7),"ok");
-        edSyncTools();
+      var msg=snaps.length>1
+        ?"Vorproduktion: "+snaps.length+" Folien im Dashboard bearbeitet ("+snaps[0].label.split(" · ").slice(0,2).join(" · ")+")"
+        :"Vorproduktion: "+snaps[0].label+" im Dashboard bearbeitet";
+      var commit=await ghCommitFiles(files,msg);
+      metas.forEach(function(m){
+        bumpAssetVersion(m.rel);
+        edClearDraft(m.rel);
+        if(ed.open&&ed.rel===m.rel){
+          ed.hasSidecar=true;ed.baseRel=editorOriginalRel(m.rel);
+          ed.savedAt=m.histI;ed.savedTs=m.savedTs;
+        }else (ed.pages||[]).forEach(function(p){
+          if(p.state&&p.state.rel===m.rel){
+            p.state.hasSidecar=true;p.state.baseRel=editorOriginalRel(m.rel);
+            p.state.savedAt=m.histI;p.state.savedTs=m.savedTs;
+          }
+        });
+      });
+      if(ed.open){
+        edSetStatus("Gespeichert ✓ Commit "+String(commit&&commit.sha||"").slice(0,7)+(metas.length>1?" · "+metas.length+" Folien":""),"ok");
+        edSyncTools();edRenderPages&&ed.pages.length>1&&edRenderPages();
+        if(blockiert.length)edSetStatus("Gespeichert – aber "+blockiert.length+" Folie(n) übersprungen (frühere Bearbeitung war nicht abrufbar).","err");
       }
     }catch(err){
-      if(ed.open&&ed.rel===rel)edSetStatus((err&&err.message)||"Speichern fehlgeschlagen","err");
+      if(ed.open)edSetStatus((err&&err.message)||"Speichern fehlgeschlagen","err");
     }finally{
       ed.saving=false;$("#edSave").disabled=false;
     }
@@ -2930,6 +3103,11 @@
       return;
     }
     if(typing)return;
+    if(ed.pages&&ed.pages.length>1&&(e.key==="PageDown"||e.key==="PageUp")&&!ed.cropId){
+      e.preventDefault();
+      edActivatePage(Math.max(0,Math.min(ed.pages.length-1,ed.page+(e.key==="PageDown"?1:-1))));
+      return;
+    }
     var strg=e.ctrlKey||e.metaKey,taste=e.key.toLowerCase();
     if(strg&&!e.shiftKey&&!e.altKey&&taste==="z"){e.preventDefault();edRestore(ed.histI-1);return;}
     if(strg&&(taste==="y"||(e.shiftKey&&taste==="z"))){e.preventDefault();edRestore(ed.histI+1);return;}
@@ -3547,6 +3725,10 @@
   });
   $("#edTokenBtn").addEventListener("click",function(){openTokenModal(null);});
   $("#edStage").addEventListener("pointerdown",edPointerDown);
+  $("#edStageWrap").addEventListener("click",function(e){
+    var pg=e.target.closest(".ed-page");
+    if(pg&&!pg.classList.contains("active")&&!e.target.closest("#edStage"))edActivatePage(Number(pg.dataset.page));
+  });
   $("#edStage").addEventListener("dblclick",function(e){
     var node=e.target.closest(".ed-el.ed-text");
     if(node)edStartEditing(Number(node.dataset.id));
@@ -3680,7 +3862,7 @@
   $("#tokenCancel").addEventListener("click",function(){tokenModalThen=null;$("#tokenModal").hidden=true;});
   $("#tokenRemove").addEventListener("click",function(){localStorage.removeItem(GH_TOKEN_KEY);$("#tokenInput").value="";$("#tokenError").textContent="Token entfernt.";});
   window.addEventListener("resize",function(){if(ed.open&&ed.img&&ed.fit){ed.scale=edFitScale();edRender();}});
-  window.addEventListener("beforeunload",function(e){if(ed.open&&edIsDirty()){e.preventDefault();e.returnValue="";}});
+  window.addEventListener("beforeunload",function(e){if(ed.open&&edAnyDirty()){e.preventDefault();e.returnValue="";}});
   $("#drawerBackdrop").addEventListener("click",closeDrawer);
   document.addEventListener("keydown",function(e){
     if(!$("#tokenModal").hidden){
