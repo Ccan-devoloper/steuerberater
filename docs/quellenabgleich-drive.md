@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Skript Termin 1 (Melzer), Kapitel 5 und 6 (PDF-Seiten 83 bis 103)
+
+Übernommen: Kapitel 5 „Bilanzierung des abnutzbaren Anlagevermögens“ (5.1 Abschreibung/AfA mit linearer, degressiver und Leistungs-AfA, § 7 Abs. 2a EStG, Computerhardware und Software, Gebäude-AfA, AfaA, AfA nach Teilwertabschreibung und nach nachträglichen AK/HK, AfA-Bemessungsgrundlage nach Einlage mit vier Fallgruppen, GWG und Sammelposten; 5.2 Investitionsabzugsbetrag und Sonderabschreibung nach § 7g EStG) und Kapitel 6 „Bilanzierung des nicht abnutzbaren Anlagevermögens“ (6.1 Beteiligungen an Personen- und Kapitalgesellschaften, 6.2 Wertpapiere mit Kapitalerhöhungen und Bezugsrechten) – 4 Einträge unter `TB5` und `TB6`.
+
+- Schaubild gerendert und als Tabelle übernommen: Wertgrenzen 250 €/800 €/1.000 € mit Wahlrechten, Vollabzug, „normaler AfA“ und Sammelposten (Seite 94).
+- Gekennzeichnet: in 5.1.1 zweimal „§ 6 Abs. 5 EStG“ als Bewertungsvorbehalt (gemeint § 5 Abs. 6 EStG); die Überschrift des Schaubilds „9 b Abs. 2 EStR“ (gemeint R 9b Abs. 2 EStR).
+- Stillschweigend berichtigt: „Wirtschaftsguẗ er“ (zerlegter Umlaut – der Konverter setzt verrutschte Tremata jetzt allgemein zurück); „feste Staffelschaffen“; „wiedersprechen“; ein leerer Aufzählungspunkt (Seite 94).
+- Nachrechnung (eigene Ergänzung): lineare AfA 80.000 / 8 × 6/12 = 5.000; degressive AfA 80.000 / 8 × 6/12 × 3 = 15.000, höchstens 30 % × 80.000 × 6/12 = 12.000; Leistungs-AfA 44 %/36 %/20 % von 80.000 = 35.200/28.800/16.000 (Summe 80.000); Gebäude 50 Jahre = 2 %; Spiegelbild 200.000 + 100.000 = 300.000 – stimmig.
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 6 Teile, 20 Kapitel, 1255 Blöcke, 68 Tabellen.
+
+Weiter mit: Kapitel 7 „Bilanzierung des Umlaufvermögens“ (PDF-Seiten 104 bis 112).
+
 ### Bilanz-Skript Termin 1 (Melzer), Kapitel 4 (PDF-Seiten 50 bis 82)
 
 Übernommen: Kapitel 4 „Bewertung“ – 4.1 Bewertungsmaßstäbe (Anschaffungskosten mit Sonderfällen, Herstellungskosten mit Divisions- und Zuschlagsverfahren, Abbruchkosten, nachträgliche und anschaffungsnahe Herstellungskosten, Teilwert mit Subtraktions- und Formelmethode, Zeitwert), 4.2 Einlagen und Entnahmen, 4.3 Sonderfall Kfz (Zuordnung, 1 %-Methode, Elektrofahrzeuge, Fahrtenbuch, Fahrten Wohnung – Betrieb, Umsatzsteuer), 4.4 außerplanmäßige Abschreibung/Teilwertabschreibung und Wertaufholung – 4 Einträge unter `TB4`.
