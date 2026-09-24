@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2015, Sachverhalt 3 – alle ESt-Originalklausuren vollständig
+
+Übernommen: ESt-Originalklausur 2015, Sachverhalt 3 (Gerd Dreifuß, Betriebsaufgabe, 19 Punkte) – Aufgabe PDF-Seiten 120 bis 122, Lösung PDF-Seiten 131 bis 136, Korrekturbogen PDF-Seiten 138 und 139. Damit sind die ESt-Originalklausuren 2011 bis 2015 vollständig (19 Sachverhalte); die Quelle „Ertragsteuern · Steuerberaterprüfungen 2011–2015“ ist abgeschlossen.
+
+- Gekennzeichnet: „§ 141 Abs. 1 Satz 1 Nr. 4 EStG“ (AO); Sachverhalt „Einnahmenüberschussrechnung Jahresabschlusses 13“; Hinweis „das für 14 steuerliche Ergebnis“ (ohne „günstigste“); Verweis „Pkte. 41-54“.
+- Stillschweigend berichtigt: „§ 5 Abs. 11 Nr. 9 KStG“ → „Abs. 1“; „Übergabegewinn“ → „Übergangsgewinn“; „BStBI“ → „BStBl“.
+- Nachrechnung (eigene Ergänzung): laufender Gewinn 68.086 €; Übergangsgewinn ./. 1.000 €; Aufgabegewinn 18.000 € (steuerfrei); § 23 60.000 €; Summe 128.086 €; Punkte 19. Alle stimmig.
+- Campus-Einleitung, README und offene-quellen (Zeile „Ertragsteuern“: erledigt) nachgezogen.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 19 Sachverhalte, 831 Blöcke, 95 Tabellen, 314 Punkte.
+
+Weiter mit: Bilanzierung · Steuerberaterprüfungen 2011–2015 – Prüfung 2012, Teil III (Lösung), dann Prüfungen 2013 bis 2015.
+
 ### ESt-Originalklausuren 2015, Sachverhalt 2
 
 Übernommen: ESt-Originalklausur 2015, Sachverhalt 2 (Erwin Müller, Kinder und Außendienst, 22 Punkte + 1 Zusatzpunkt) – Aufgabe PDF-Seiten 118 und 119, Lösung PDF-Seiten 127 bis 131, Korrekturbogen PDF-Seiten 137 und 138.
