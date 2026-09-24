@@ -15,6 +15,7 @@ import{erbstBewertungTeil3,erbstBewertungTeil3Quelle}from"../data/k1-erbst-bewer
 import{erbstBewertungTeil1}from"../data/k1-erbst-bewertung-teil1.js";
 import{erbstBewertungTeil2}from"../data/k1-erbst-bewertung-teil2.js";
 import{erbstVerschonung,erbstVerschonungQuelle}from"../data/k1-erbst-verschonung.js";
+import{erbstSkriptTeil1,erbstSkriptTeil1Quelle}from"../data/k1-erbst-skript-teil1.js";
 const BEWERTUNGSSKRIPT=[...erbstBewertungTeil1,...erbstBewertungTeil2,...erbstBewertungTeil3];
 import KurzskriptBloecke from"./KurzskriptBloecke";
 import{erbstFallsammlungMirbach,erbstFallsammlungMirbachQuelle}from"../data/k1-erbst-fallsammlung-mirbach.js";
@@ -32,7 +33,7 @@ const OBER_BY_ID=new Map(OBER.flatMap(o=>o.module.map(id=>[id,o]))),oberVon=m=>O
 /* Der Erbschaftsteuer-/Bewertungsteil der Übungsklausur AO/USt/ErbSt/BewR 1
    liegt im gemeinsamen Klausurbestand der Übungsklausuren. */
 const ERBST_UEBUNGSKLAUSUR=estKlausuren.filter(eintrag=>eintrag.fach==="erbst");
-const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["fallsammlung-mirbach","Fallsammlung (Mirbach)",IconFaelle],["originalklausuren","Originalklausuren (Prüfung)",IconKlausur],["pruefungsklausuren","Prüfungsklausuren im Original",IconKlausur],["bewertungsskript","Bewertungsrecht (Schäfer)",IconModule],["verschonungsskript","Verschonung & Steuerberechnung (Schäfer)",IconModule],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
+const NAV=[["cockpit","Cockpit",IconCockpit],["module","Erbschaftsteuer",IconModule],["faelle","Originalfälle",IconFaelle],["klausur","Klausurmodus",IconKlausur],["uebungsklausur","Übungsklausuren (Jacobs)",IconTraining],["schema","Prüfschema",IconSchema],["training","Training",IconTraining],["fallsammlung","Fallsammlung",IconFaelle],["fallsammlung-mirbach","Fallsammlung (Mirbach)",IconFaelle],["originalklausuren","Originalklausuren (Prüfung)",IconKlausur],["pruefungsklausuren","Prüfungsklausuren im Original",IconKlausur],["bewertungsskript","Bewertungsrecht (Schäfer)",IconModule],["grundlagenskript","Steuerpflicht & Wertermittlung (Schäfer)",IconModule],["verschonungsskript","Verschonung & Steuerberechnung (Schäfer)",IconModule],["hausaufgaben","Hausaufgaben ErbSt",IconModule]];
 const seitenLabel=(seiten=[])=>{if(!seiten.length)return"–";const s=[...seiten].sort((a,b)=>a-b),out=[];let a=s[0],b=s[0];for(let i=1;i<=s.length;i++){const c=s[i];if(c===b+1){b=c;continue}out.push(a===b?`${a}`:`${a}–${b}`);a=c;b=c}return out.join(", ")};
 const fallLabel=m=>m.caseNo||m.title.match(/Fall\s+(\d+)/i)?.[1]||m.id;
 function Tz({nummer,label,titel,art,children}){return <section className={`tz${art?` tz--${art}`:""}`}><div className="tz__no"><b>Tz. {nummer}</b>{label}</div><div className="tz__body">{titel&&<h2 className="tz__titel">{titel}</h2>}{children}</div></section>}
@@ -60,10 +61,22 @@ export default function K1ErbStCampusV3({onKlausurwechsel,onFachwechsel}){const 
       suchePlatzhalter="Norm, Stichwort oder Betrag"
       einheit="Aufgabenteile"
       einheitEinzahl="Aufgabenteil"
-    />;if(entry.ansicht==="training")return <Training/>;if(entry.ansicht==="klausur")return <Klausurmodus module={INHALTE} oeffnenModul={id=>go({ansicht:"detail",id})} speicherKey="stb-k1-erbst-klausurlauf" modulWort="Fall" sperrtext="Erst selbst nach der ErbSt/BewG-Fahrtroute lösen. Danach den Quellenweg aufdecken und ehrlich bewerten."/>;if(entry.ansicht==="verschonungsskript")return <KurzskriptBloecke
+    />;if(entry.ansicht==="training")return <Training/>;if(entry.ansicht==="klausur")return <Klausurmodus module={INHALTE} oeffnenModul={id=>go({ansicht:"detail",id})} speicherKey="stb-k1-erbst-klausurlauf" modulWort="Fall" sperrtext="Erst selbst nach der ErbSt/BewG-Fahrtroute lösen. Danach den Quellenweg aufdecken und ehrlich bewerten."/>;if(entry.ansicht==="grundlagenskript")return <KurzskriptBloecke
+      kicker="Klausur 1 · Erbschaftsteuer · Skript"
+      titel="Steuerpflicht & Wertermittlung (Schäfer)"
+      lead="Das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer, Teil 1: Persönliche Steuerpflicht, Steuerpflichtige Vorgänge, Wertermittlung“ von Martin Schäfer (Stand Mai 2025) im Wortlaut, vollständig: Wesen und Rechtsgrundlagen; unbeschränkte und beschränkte Steuerpflicht mit Schaubild; Erwerb von Todes wegen (Erbanfall, Vermächtnis, Pflichtteil), Schenkung unter Lebenden (freigebige Zuwendung, gemischte Schenkung, Auflagen), Zugewinnausgleich und Vor- und Nacherbschaft; der steuerpflichtige Erwerb mit Nachlassverbindlichkeiten, Abzugsbeschränkungen nach § 10 Abs. 6 bis 10 ErbStG und der Steuerübernahme; Bewertungsstichtag, Bewertung im Überblick und das Berechnungsschema. Die Lösungen der zugehörigen Lösungsdatei stehen direkt hinter den Beispielen."
+      quelle={erbstSkriptTeil1Quelle}
+      kapitel={erbstSkriptTeil1}
+      karteKicker={(k)=>`${k.teilLabel} · Kapitel ${k.kapitel}`}
+      gruppeVon={(k)=>k.teil}
+      gruppeLabel={(k)=>k.teilLabel}
+      gruppeAria="Abschnitte"
+      gruppeAlle="Alle Abschnitte"
+      suchePlatzhalter="Norm, Stichwort oder Betrag"
+    />;if(entry.ansicht==="verschonungsskript")return <KurzskriptBloecke
       kicker="Klausur 1 · Erbschaftsteuer · Skript"
       titel="Verschonung & Steuerberechnung (Schäfer)"
-      lead="Das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer, Teil 2: Steuerbefreiungen, Verschonungsregelungen, Berechnung der Steuer“ von Martin Schäfer (Stand Dezember 2025) im Wortlaut. Es schließt den größten offenen Posten des ErbSt-Campus – die Übertragung von Betriebsvermögen nach §§ 13a, 13b ErbStG. Eingepflegt ist bisher der Abschnitt I: die sachlichen Steuerbefreiungen des § 13 ErbStG mit den nach Steuerklassen gestaffelten Freibeträgen für Hausrat und andere bewegliche Gegenstände, den Gegenständen im öffentlichen Interesse mit ihrer Zehnjahresfrist, dem Familienheim in den drei Varianten des § 13 Abs. 1 Nr. 4a bis 4c ErbStG samt der 200-qm-Grenze und dem Katalog der sonstigen Befreiungen. Dazu der Einstieg in den Abschnitt II: Regelverschonung von 85 % mit gleitendem Abzugsbetrag, Optionsverschonung zu 100 %, das Wahlrecht bei Großerwerben über 26 Mio. € und das begünstigungsfähige Vermögen der drei Nummern des § 13b Abs. 1 ErbStG bis zur Poolvereinbarung."
+      lead="Das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer, Teil 2: Steuerbefreiungen, Verschonungsregelungen, Berechnung der Steuer“ von Martin Schäfer (Stand Dezember 2025) im Wortlaut. Es schließt den größten offenen Posten des ErbSt-Campus – die Übertragung von Betriebsvermögen nach §§ 13a, 13b ErbStG. Vollständig eingepflegt (Abschnitte I bis VI). Der Abschnitt I behandelt die sachlichen Steuerbefreiungen des § 13 ErbStG mit den nach Steuerklassen gestaffelten Freibeträgen für Hausrat und andere bewegliche Gegenstände, den Gegenständen im öffentlichen Interesse mit ihrer Zehnjahresfrist, dem Familienheim in den drei Varianten des § 13 Abs. 1 Nr. 4a bis 4c ErbStG samt der 200-qm-Grenze und dem Katalog der sonstigen Befreiungen. Der Abschnitt II beginnt mit der Regelverschonung von 85 % mit gleitendem Abzugsbetrag, der Optionsverschonung zu 100 %, dem Wahlrecht bei Großerwerben über 26 Mio. € und dem begünstigungsfähigen Vermögen der drei Nummern des § 13b Abs. 1 ErbStG bis zur Poolvereinbarung; es folgen Verwaltungsvermögen und Finanzmitteltest, Lohnsummen- und Behaltensregelung, Großerwerbe, die Befreiung vermieteter Wohngrundstücke, Steuerberechnung und Steuerfestsetzung."
       quelle={erbstVerschonungQuelle}
       kapitel={erbstVerschonung}
       karteKicker={(k)=>`${k.teilLabel} · Kapitel ${k.kapitel}`}

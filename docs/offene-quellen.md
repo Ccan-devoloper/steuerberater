@@ -84,9 +84,9 @@ vorliegt –, wird ausgelassen und am Ende zusammen mit Abschnitt A zur Nachlief
      V2 (`1VkIpVDdg9th9-O4DMVr2xExhm4dOabt-`, `1Dtvc8BNrLLDRZWMXQc_Lg0aLHAQ32QdW`) gegen die
      90 Fälle der bestehenden Bilanz-Fallsammlung abgleichen, dazu das Änderungsprotokoll
      Bilanzunterlagen 04/26 (`1zYukX6s21OUD9w1tYb6TGBCqf4L2dDNN`)~~ (erledigt, September 2026);
-   - ErbSt-Skript „Erbschaftsteuer 2025-2026 Teil 1“ (Schäfer, Mai 2025,
-     `1FmGNS4rzz47vCytIoFQzUZbcVQ_5PuFz`) mit Lösung (`1Efj3NzIrOacwIbzJz_RwYsFBrcLkTcTL`) – der
-     Teil 2 (Verschonung) steht bereits vollständig im Campus; dazu prüfen, ob die Übungsfälle
+   - ~~ErbSt-Skript „Erbschaftsteuer 2025-2026 Teil 1“ (Schäfer, Mai 2025,
+     `1FmGNS4rzz47vCytIoFQzUZbcVQ_5PuFz`) mit Lösung (`1Efj3NzIrOacwIbzJz_RwYsFBrcLkTcTL`)~~ (erledigt,
+     September 2026 – vollständig, Reiter „Steuerpflicht & Wertermittlung (Schäfer)“); noch offen: prüfen, ob die Übungsfälle
      „Leibrentenverpflichtung“ (`1tUFPpsjhK8NAGnuXDXjBPeFDDCiSUvU8`, Lösung
      `1Wtg88rxCaffJgK1tcYkGvnVpfsimC2Rj`) und „Jahreswertbesteuerung § 23 ErbStG“
      (`1cqNN23uPB_aIuLzSJHrfDLOy1CRdeJkP`) mit den eingepflegten Hausaufgaben übereinstimmen;

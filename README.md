@@ -244,6 +244,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Befreiung gewährt; die **eigene Kontrollrechnung** führt auf 456.152 € und ist im
   Lösungstext ausdrücklich als eigene gekennzeichnet.
   Prüfung: `npm run check:k1-erbst-originalklausuren`
+- **Steuerpflicht & Wertermittlung** (Reiter „Steuerpflicht & Wertermittlung (Schäfer)" im
+  Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer, Teil 1:
+  Persönliche Steuerpflicht, Steuerpflichtige Vorgänge, Wertermittlung" von Martin Schäfer
+  (Stand Mai 2025) **im Wortlaut**, vollständig (Abschnitte I bis IV mit Schaubild und
+  Berechnungsschema); die Lösungen der zugehörigen Lösungsdatei stehen hinter den Beispielen,
+  jede Zwischensumme ist nachgerechnet. 10 Einträge, 278 Blöcke, 17 Tabellen. Daten:
+  `src/data/k1-erbst-skript-teil1.js`. Prüfung: `npm run check:k1-erbst-skript-teil1`
 - **Verschonung & Steuerberechnung** (Reiter „Verschonung & Steuerberechnung (Schäfer)" im
   Campus Erbschaftsteuer): das Unterrichtsmaterial „Erbschaft- und Schenkungsteuer,
   Teil 2: Steuerbefreiungen, Verschonungsregelungen, Berechnung der Steuer" von Martin
