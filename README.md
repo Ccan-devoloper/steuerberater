@@ -2278,7 +2278,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   der Gesamthand, Rückstellung für eine Bodensanierung (1.800 €), Drohverlustrückstellung nur
   handelsrechtlich, kein ARAP für Werbung, Austritt des lästigen Gesellschafters (Aufstockung
   12.000 €, Lästigkeitszuschlag 45.600 €, Veräußerungsgewinn 57.600 €) und endgültige Steuerbilanz
-  über 1.070.000 €. Damit ist die **Prüfung 2013 vollständig**; die Prüfungen 2014 und 2015 folgen.
+  über 1.070.000 €. Damit ist die **Prüfung 2013 vollständig**.
+  **Teil I der Prüfung 2014** (Einzelunternehmen Roland Ritter, 35 Punkte): Grundstück der Ehefrau als
+  nicht einlagefähiges Nutzungsrecht, Abstandszahlung als immaterieller Nutzungsvorteil (7.000 €),
+  Parkplatz auf fremdem Grund als wirtschaftliches Eigentum (5.760 €), PKW mit 5 % Betriebsnutzung
+  als notwendiges Privatvermögen mit Aufwandseinlage, ERP-System als einheitliches Wirtschaftsgut
+  (300.000 €). Als **eigene Feststellung** vermerkt: Die Anlage setzt die AfA-Korrektur beim PKW
+  mit 6.607 € statt der gebuchten 7.054 € an (Jahresüberschuss 272.727 € statt 273.174 €); die
+  Randpunkte ergeben 32,5. Der Rest 2014 und die Prüfung 2015 folgen.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,

@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2014, Teil I (Einzelunternehmen Roland Ritter)
+
+Übernommen: Prüfung 2014, allgemeine Hinweise und Teil I (PDF-Seiten 130 bis 134, Anlagevordruck Seite 147), Lösungshinweis mit Notenschema und Anlage (PDF-Seiten 148 bis 155; Seiten 151, 152 und 155 gerendert und angesehen).
+
+- Gekennzeichnet: „ab Februar 2023“, „November 2023“, „Januar 2025“ (Zahlung), „bis zum 31.12.2025“ (Nutzungsvorteil).
+- Eigene Feststellungen: Anlage SV 2 „AfA + 6.607 €“ statt 7.054 € laut Korrekturbuchung (Jahresüberschuss dann 273.174 € statt 272.727 €); Randpunkte 32,5 gegen 35.
+- Stillschweigend berichtigt: acht Schreibversehen, darunter „§ 255 Abs. 1 EStG“ → HGB (siehe Datensatz).
+- Nachrechnung (eigene Ergänzung): SV 1 + 2.320 €, SV 3 + 16.200 € – stimmen.
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 10 Aufgabenteile, 847 Blöcke, 142 Tabellen, 334 Punkte.
+
+Weiter mit: Bilanz-Prüfung 2014, Teil II (InKa-GbR; Sachverhalt ab Zeile 10771, Lösung ab Zeile 12484 der Textfassung).
+
 ### Bilanz-Originalklausuren 2013, Teil III (A B C – OHG) – Prüfung 2013 vollständig
 
 Übernommen: Prüfung 2013, Teil III – Sachverhalt (PDF-Seiten 101 bis 105) und Lösung (PDF-Seiten 123 bis 129; Seiten 127 und 129 gerendert und angesehen).
