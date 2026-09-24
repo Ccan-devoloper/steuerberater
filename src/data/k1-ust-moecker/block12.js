@@ -3,7 +3,8 @@
    2025); Block 12 mit Kopfzeilen „Block 12-Vorsteuerberichtigung-§15a-Vers.01.01.2026 / Red. 01.26“,
    PDF-Seiten 103 bis 145 der gemeinsamen Datei: Textteil Seiten 1 bis 27 (PDF-Seiten 103 bis 129),
    Arbeitspapiere A 1 bis A 16 (PDF-Seiten 130 bis 145).
-   In Arbeit: Textteil vollständig (I. bis XII., PDF-Seiten 103 bis 129); Arbeitspapiere folgen. */
+   In Arbeit: Textteil vollständig (I. bis XII., PDF-Seiten 103 bis 129); Arbeitspapiere eingepflegt bis
+   A 4 (PDF-Seite 133). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -511,6 +512,72 @@ export const block12 = [
       { text: "Bei Wirtschaftsgütern oder sonstigen Leistungen, die nur einmalig zur Ausführung eines Umsatzes verwendet werden, ist zur Prüfung der Änderung der Verhältnisse auf die im Zeitpunkt der Verwendung gegebene Besteuerungsform im Vergleich zu der bei Leistungsbezug gegebenen Besteuerungsform abzustellen." },
       { typ: "titel", text: "XII Aufzeichnungspflichten" },
       { text: "Nach § 22 Abs. 4 UStG hat der Unternehmer in den Fällen des § 15a UStG die Berechnungsgrundlagen für den Ausgleich aufzuzeichnen, der von ihm in den in Betracht kommenden Kalenderjahren vorzunehmen ist (Abschn. 15a.12 UStAE). Die Aufzeichnungspflichten nach § 22 Abs. 4 UStG sind erfüllt, wenn der Unternehmer die Angaben in Abschn. 15a.12 Abs. 1 Satz 2 Nr. 1 bis 6 UStAE eindeutig und leicht nachprüfbar aufzeichnet:\nDie Aufzeichnungen für das einzelne Berichtigungsobjekt sind von dem Zeitpunkt an zu führen, für den erstmalig der Vorsteuerabzug zu berichtigen ist.\nDie besondere Aufzeichnungspflicht nach § 22 Abs. 4 UStG entfällt insoweit, als sich die erforderlichen Angaben aus den sonstigen Aufzeichnungen oder der Buchführung des Unternehmers eindeutig und leicht nachprüfbar entnehmen lassen." },
+    ],
+  },
+  {
+    id: "ust-m-b12-18",
+    teil: TEIL,
+    kapitel: "18",
+    abschnittNr: "A 1 und A 2",
+    title: "Arbeitspapiere A 1 und A 2: System des Vorsteuerabzugs und Vereinfachungsregeln / maßgebende Erklärung",
+    thema: "Sofortabzug bei Leistungsbezug (EuGH Rs. Schloßstraße), Entscheidung dem Grunde und der Höhe nach, Verwendung in Anschaffungs- und Herstellungsfällen, fiktive Option, Korrektur nur über § 15a UStG, Berichtigungszeitraum ab tatsächlicher Verwendung; Prüfschema § 44 UStDV mit Vorsteuermindestbetrag",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 1 und A 2"),
+    verfasser: VERFASSER,
+    normen: ["§ 15a UStG", "§ 44 Abs. 1 bis 3 UStDV", "Abschn. 15.12 Abs. 2 UStAE", "Abschn. 15a.1 UStAE", "Abschn. 15a.11 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerberichtigung", "Vereinfachungsregel"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 1 – Berichtigung des Vorsteuerabzugs (§ 15a UStG): 1 System des Vorsteuerabzugs (vgl. Abschn. 15a.1 u. 15.12 UStAE)" },
+      { text: "• Recht (zeitlich und auch materiell - rechtlich) zum **sofortigen** Vorsteuerabzug bei **Bezug der Leistungen (EuGH v. 8.6.2000 Rs. Schloßstr.)**\n• Über den Vorsteuerabzug ist somit **dem Grunde nach** (Bezug für das Unternehmen) und **der Höhe nach** (Ausschlussgründe) **im Zeitpunkt des Leistungsbezugs** zu entscheiden (Abschn. 15.12 Abs. 2 UStAE).\n• Maßgebend (typisch)" },
+      { typ: "tabelle", spalten: ["in Anschaffungsfällen", "in Herstellungsfällen"], zeilen: [
+        ["(z.B. Pkw) die tatsächliche Verwendung (ggf. Verwendungsabsicht)", "eines Investitionsgutes (z.B. Gebäude) die Verwendungsabsicht"],
+        ["zum Zeitpunkt des Leistungsbezugs (Abschn. 15.12 Abs. 2 UStAE)", "Fiktive Option möglich bei geplanter Vermietung"],
+      ] },
+      { text: "• **Kein verfahrensmäßiger Vorbehalt. Nicht nur eine vorläufige Zuerkennung. Definitive Entscheidung bereits bei Leistungsbezug.**\n• **Korrektur** bei anderer (als geplanter) späterer Verwendung nur **über § 15a UStG möglich.**\n• § 15a UStG wurde zum 1.1.2002 angepasst. Der Berichtigungs-Ztr beginnt mit tatsächlicher erstmaliger Verwendung (i.S.v. tatsächliche Nutzung)\n➔ Somit Vergleich: Vorst bei Leistungsbezug (ggf. nach Prognose) ⇳ tatsächlicher Nutzung" },
+      { typ: "titel", text: "Arbeitspapier A 2 – 2. Vereinfachungsregeln / Maßgebende Erklärung ⇨ Abschn. 15a.11 UStAE" },
+      { typ: "tabelle", spalten: ["Prüfungsschritt", "nein", "ja"], zeilen: [
+        ["1. Vorsteuer aus AK / HK > 1.000 € ? (§ 44 Abs. 1 UStDV) (AK/HK netto > 5.263,16 €)", "Kein § 15a - Fall", "weiter mit 2."],
+        ["2. Änderung der Verhältnisse mindestens 10% ? (§ 44 Abs. 2 Satz 1 UStDV)", "weiter mit 3.", "Änderung § 15a UStG"],
+        ["3. Berichtigungsbetrag aber > 1.000 € ? (§ 44 Abs. 2 Satz 2 UStDV)", "Kein § 15a - Fall", "Änderung § 15a UStG"],
+      ] },
+      { typ: "tabelle", spalten: ["Änderungsbetrag", "Berichtigung in"], zeilen: [
+        ["bis 6.000 € / Jahr", "➔ Jahreserklärung § 44 Abs. 3 UStDV"],
+        ["über 6.000 € / Jahr oder Veräußerung", "➔ Voranmeldung § 44 Abs. 3 UStDV"],
+      ] },
+      { text: "➔ **Vorsteuermindestbetrag**\nKein § 15a-Fall bei Vorst bis zu 1.000 € (§ 44 (1) UStDV)\n➲ Grenze für jedes einzelne Berichtigungsobjekt prüfen.\n➲ Wenn Grenze nicht erreicht, dann nur Verhältnisse im Zeitpunkt des Leistungsbezugs maßgebend." },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b12-19",
+    teil: TEIL,
+    kapitel: "19",
+    abschnittNr: "A 3 und A 4",
+    title: "Arbeitspapiere A 3 und A 4: Problemstellung und Übersicht Berichtigungsobjekte – § 15a Abs. 1 UStG mit Beispiel",
+    thema: "Eingangs- und Ausgangsebene, Berichtigungsobjekte nach Abschn. 15a.1 Abs. 2 UStAE, Änderung innerhalb von fünf bzw. zehn Jahren ab tatsächlicher Verwendung, Änderungsfälle (nicht: Einlagefälle); Investitionsgüter nach § 15a Abs. 1 UStG mit Beispiel Gebäude: Absicht steuerpflichtiger Vermietung, tatsächlich steuerfreie Vermietung ab 1.5.03",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 3 und A 4"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 1 Nr. 1 bis 5 UStG", "§ 15a Abs. 1 bis 4 und 6 UStG", "§ 19 UStG", "§ 44 Abs. 3 UStDV", "Abschn. 15a.1 Abs. 2 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerberichtigung", "Berichtigungsobjekt"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 3 – 3. Problemstellung" },
+      { typ: "tabelle", spalten: ["Eingangsebene", "Ausgangsebene"], zeilen: [
+        ["Vorsteuer § 15 (1) Nr. 1 bis Nr. 5 ➔ Beri-Objekt *", "z.B. Investitionsgut dient längerfristig dem RdU. Für Vorst waren Verwendungsverhältnisse im Zeitpunkt des Leistungsbezugs entscheidend (Ggf. Verwendungsabsicht)"],
+        ["* = Berichtigungsobjekt: Nr. 1: WG, die nicht nur einmalig verwendet werden (insbes. Anlagevermögen); Nr. 2: WG, die nur einmalig verwendet werden (insbes. Umlaufvermögen); Nr. 3: WG, die nachträglich in ein anderes WG eingehen und so. Leistungen an WG; Nr. 4: So. Leistungen, die nicht in ein WG eingehen; Nr. 6: Nachträgliche AK/HK (vgl. Abschn. 15a.1 Abs. 2 UStAE)", "Bei * Änderung dieser maßgebenden Verhältnisse – innerhalb max. 5 Jahre – innerhalb max. 10 Jahre (bei Grundstücken) ab tatsächlicher Verwendung ➔ Regelung des § 15a (Somit Vergleich Prognose mit tats. Nutzung)"],
+        ["", "* Änderungsfälle: andere Verwendung; Veräußerung / Entnahme; Änderung Rechtsauffassung; Änderung Gesetz; Wechsel Besteuerungsform (z.B. Regel ⇔ zu § 19); Nicht: Einlagefälle"],
+      ] },
+      { text: "Hinweis (eigene Ergänzung): Die Nummerierung der Berichtigungsobjekte steht so in der Quelle. Abschn. 15a.1 Abs. 2 UStAE zählt Nr. 1 bis 6 (Nr. 3 eingehende Gegenstände, Nr. 4 sonstige Leistungen an einem WG, Nr. 5 sonstige Leistungen nach § 15a Abs. 4 UStG, Nr. 6 nachträgliche AK/HK), so auch die Quelle selbst im Textteil unter II.1." },
+      { typ: "titel", text: "Arbeitspapier A 4 – 4. Übersicht Berichtigungsobjekte (Vgl. Abschn. 15a.1 Abs. 2 ff UStAE)" },
+      { text: "❖ **§ 15a Abs. 1 (Für WG, die mehrmalig Umsätzen dienen)** (☝ Beispiele vgl. A 11)\n- Gilt für „Investitionsgüter“; Typisch Anlagevermögen (Gebäude, Maschinelle Anlagen, PKW usw.)\n- Berichtigungs-Ztr. **max.** 5 oder 10 Jahre / bzw. kürzere ND" },
+      { text: "**Beispiel:** (Zeitstrahl Jahr 01 – Jahr 02 – Jahr 03)" },
+      { typ: "tabelle", spalten: ["Jahr 01", "Jahr 02", "Jahr 03"], zeilen: [
+        ["Leistungsbezug 30.000 €; Absicht stpfl. Vermietung ➔ Vorst", "Leistungsbezug 10.000 €; Absicht stfreie Vermietung ➔ Ausschluss Vorst", "1.5.03 Verwendung (Beginn § 15a - Ztr): stfreie Vermietung ➔ § 15a-Fall für 30.000 €"],
+        ["=> Vorst - Abzug entsteht dem Grunde und der Höhe nach bei Leistungsbezug", "=> Mangels tatsächlicher Verwendung ist die (nachweisbare) Verwendungsabsicht für Vorst – Abzug maßgebend", "=> Eine spätere tatsächliche abweichende Verwendung = § 15a-Fall"],
+      ] },
+      { text: "**Berechnung:**\n30.000 € / 120 Monate = 250 € mtl. X 8 Monate für 03 = ./. 2.000 €\nBerichtigungsbetrag ./. 2.000 € ist in der USt-Jahres-Erkl. gem. § 44 Abs. 3 UStDV anzumelden." },
+      { text: "Nachrechnung (eigene Ergänzung): 30.000 € : 120 = 250 €; Mai bis Dezember 03 = 8 Monate; 8 × 250 € = 2.000 € (nicht über 6.000 €, daher Jahreserklärung). Die Vorsteuer von 10.000 € aus Jahr 02 war nicht abziehbar und bleibt bei unveränderter steuerfreier Verwendung ohne Berichtigung." },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },
 ];

@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: Arbeitspapiere A 1 bis A 4
+
+Übernommen (PDF-Seiten 130 bis 133, Seiten gerendert und angesehen): Kapitel ust-m-b12-18 (A 1 System des Vorsteuerabzugs, A 2 Prüfschema § 44 UStDV) und ust-m-b12-19 (A 3 Problemstellung, A 4 Übersicht Berichtigungsobjekte mit Beispiel). Schaubilder als Tabellen wiedergegeben.
+
+- Hinweis (eigene Ergänzung): A 3 nummeriert die Berichtigungsobjekte Nr. 1 bis 4 und 6 abweichend von Abschn. 15a.1 Abs. 2 UStAE (und vom eigenen Textteil II.1); vermerkt.
+- Stillschweigend berichtigt: „dann nur Verhältnisse bei Im Zeitpunkt“ → „dann nur Verhältnisse im Zeitpunkt“ (A 2); zerrissene Wörter der Zeitstrahl-Grafik in A 4 zusammengesetzt.
+- Nachrechnung (eigene Ergänzung): A 4 30.000 € : 120 = 250 €, 8 Monate = 2.000 €; stimmig.
+
+Prüfung danach: 13 Teile, 478 Kapitel, 6573 Blöcke, 363 Tabellen.
+
+Weiter mit: Arbeitspapier A 5, PDF-Seite 134.
+
 ### USt-Skript (Moecker), Block 12: VIII.3 bis XII – Textteil vollständig
 
 Übernommen (PDF-Seiten 125 unten bis 129): Kapitel ust-m-b12-15 (VIII.3 mehrere Maßnahmen als ein Berichtigungsobjekt, VIII.4 Entnahme), ust-m-b12-16 (IX sonstige Leistungen nicht an einem WG mit Leasingsonderzahlung) und ust-m-b12-17 (X nachträgliche AK/HK, XI Wechselfälle mit Ferienwohnungen, XII Aufzeichnungspflichten). Damit ist der Textteil von Block 12 vollständig.
