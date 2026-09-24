@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 23 und 24 (PDF-Seiten 55 bis 59)
+
+Übernommen: 23 Kapitalerhöhung (aus Gesellschaftsmitteln mit Gratisaktien, gegen Einlagen mit Bezugsrecht, Buchwert des Bezugsrechts, Veräußerung und Ausübung) und 24 Bilanzberichtigung (Handels- und Steuerbilanz, Berichtigung an der Fehlerquelle, Bilanzpostenmethode, Korrekturen über mehrere Jahre, GuV-Methode, Kapitalangleichungsbuchungen, steuerlicher Ausgleichsposten) – 2 Einträge.
+
+- Die Schaubilder der PDF-Seiten 56 und 57 (gedruckt 54 und 55) sind Bilder ohne Textebene; ihr Wortlaut ist nach dem Seitenbild übertragen und als Tabellen/Absätze wiedergegeben, die Brüche mit Schrägstrich (eigene Darstellung, im Eintrag vermerkt). Das Schaubild „Man unterscheidet“ (Seite 55) steht als Tabelle; der zweimal abgebildete Stempel „§ 6 b Abs. 10 EStG ?“ ist in eckigen Klammern vermerkt. Die Pfeile der Schaubilder in Abschnitt 24 (Kapital → Betriebsvermögen; Schluss → Anfang des Folgejahres) sind in als eigene Ergänzung gekennzeichneten Sätzen beschrieben; die Rechenschemata stehen als Tabellen.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: die Anführungszeichen in „H 4.4“ Berichtigung einer Bilanz, …“ EStH“; „Passivpostens erhöht/vermindert sich“ (zweimal); Fortsetzungszeile „Vermögensgegenstand. So werden …“ angefügt.
+- Nachrechnung: keine Zahlenbeispiele. Wortabgleich der Seiten 55 bis 59: vollständig (die Bildseiten 56 und 57 haben keine Textebene und sind nach dem Seitenbild geprüft).
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 17 Teile, 93 Kapitel, 2776 Blöcke, 224 Tabellen.
+
+Weiter mit: Übersichten, Abschnitte 25 bis 27 (PDF-Seiten 60 bis 68).
+
 ### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitt 22 (PDF-Seiten 50 bis 54)
 
 Übernommen: 22 „§ 6 b EStG, R 6.6 EStR“ – Verhältnis Handels-/Steuerbilanz, Ersatzbeschaffung nach R 6.6 EStR, Reinvestitionsrücklage nach § 6b EStG (Übertragungsmöglichkeiten, Zeitachse, Auflösung, AfA, EU-/EWR-Betriebsstätten), § 6b Abs. 10 EStG, GmbH & Co KG und Zuschussrücklage nach R 6.5 EStR – 1 Eintrag.
