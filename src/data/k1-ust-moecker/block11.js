@@ -5,7 +5,7 @@
    102 der gemeinsamen Datei: Textteil PDF-Seiten 2 bis 60, Arbeitspapiere A 1 bis A 42 ab PDF-Seite
    61.
    In Arbeit: Textteil vollständig (I. bis VIII., PDF-Seiten 2 bis 60); Arbeitspapiere eingepflegt bis
-   A 36 (PDF-Seite 96). */
+   A 40 (PDF-Seite 100). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -1653,6 +1653,67 @@ export const block11 = [
       ] },
       { text: "Nachrechnung (eigene Ergänzung): 800 qm von 1.200 qm = 66,67 %, 400 qm von 1.200 qm = 33,33 %; die Quelle rundet auf 66 % und 34 %." },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen und Text wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b11-52",
+    teil: TEIL,
+    kapitel: "52",
+    abschnittNr: "A 37 und A 38",
+    title: "Arbeitspapiere A 37 und A 38: Aufteilungsvolumen (Problem 1) und Aufteilungsmethoden (Problem 2) bei gemischt genutzten Gebäuden",
+    thema: "Vorsteuern aus Herstellung und aus Erhaltung (gesamtes Gebäude gegenüber einzelnen Gebäudeteilen), keine direkte Zuordnung für HStK (EuGH C-332/14, BFH XI R 31/09); sachgerechter Aufteilungsschlüssel nach Abschn. 15.17 Abs. 7 Satz 5 UStAE, Flächenschlüssel als Regelfall, objektbezogener Umsatzschlüssel und umbauter Raum bei erheblichen Ausstattungsunterschieden, BFH-Rechtsprechung",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 37 und A 38"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 4 UStG", "Abschn. 15.17 Abs. 5 bis 8 UStAE", "Abschn. 15.17 Abs. 7 Satz 5 Nr. 1 bis 3 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Vorsteueraufteilung", "Immobilien", "Flächenschlüssel"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 37 – Problem 1: Aufteilungs-Volumen" },
+      { typ: "tabelle", spalten: ["Vorsteuern aus Herstellung", "Vorsteuern aus Erhaltung – wenn gesamtes Gebäude betroffen", "Vorsteuern aus Erhaltung – wenn nur bestimmter Gebäude / Nutzungsteile betroffen"], zeilen: [
+        ["Betreffen immer die gesamte Gebäudesubstanz, den gesamten Gegenstand", "(z.B. Fassade; Dach usw.)", "(Anbau, Etage, Raum)"],
+        ["Gesamte Vorst aufteilen gem. § 15 Abs. 4 UStG", "Gesamte Vorst aufteilen gem. § 15 Abs. 4 UStG", "Direkte Zuordnung"],
+        ["Aufteilung grds. nach Flächenschlüssel", "Aufteilung grds. nach Flächenschlüssel", ""],
+      ] },
+      { text: "☞ **Weiterhin keine direkte Zuordnung für HStK**\n**Bestätigende Rechtsprechung:**\n• **EuGH v. 09.06.2016 C-332/14**\n• **& Nachfolgeurteil BFH v. 10.08.2016, XI R 31/09**\n• **& Verwaltung in Abschn. 15.17 Abs. 5 bis 8 UStAE**" },
+      { text: "Seite A 37 ist in der Vorlage teilweise als Bild gesetzt; das Schaubild ist nach Ansicht der Seite als Tabelle wiedergegeben (eigene Ergänzung zur Darstellung)." },
+      { typ: "titel", text: "Arbeitspapier A 38" },
+      { text: "❷ **Umsetzung der Rechtsprechungsgrundsätze (EuGH und BFH-Urteile) zur Aufteilungsmethode**\n• **Vorsteueraufteilung** muss nach einem **sachgerechten Aufteilungsschlüssel** erfolgen.\nIn Betracht kommen z.B.:\n❖ objektbezogener Flächenschlüssel (Abschn. 15.17 Abs. 7 Satz 5 Nr. 1 UStAE)\n❖ ein objektbezogener Umsatzschlüssel (Abschn. 15.17 Abs. 7 Satz 5 Nr. 2 UStAE)\n❖ oder ein Schlüssel nach dem umbauten Raum. (Abschn. 15.17 Abs. 7 Satz 5 Nr. 3 UStAE)" },
+      { text: "**Problem 2: Aufteilungs-Methoden**\nFlächenschlüssel (Regelfall) ↔ objektbezogener Umsatzschlüssel / Umbauter-Raum – Schlüssel (präzisere Methode wenn erhebliche Ausstattungsunterschiede)" },
+      { typ: "tabelle", spalten: ["Flächen-Schlüssel", "Objektbezogener - Umsatzschlüssel"], zeilen: [
+        ["BFH v. 22.08.13 (V R 19/09)", "BFH v. 07.05.14 (V R 1/10); BFH v. 03.07.14 (V R 2/10); BFH v. 11.11.20 (XI R 7/20)"],
+        ["Grundsätzliche Methode der Zurechnung (auch grds. Präzise)", "Präzisere Methode der Zurechnung. Wenn erhebliche ??? (so in der Quelle) Unterschiede in der Ausstattung: ✓ Geschosshöhe (umbauter Raum) ✓ Wanddicke / Deckendicke ✓ besonders aufwändige und teils nur einfache Innenausstattung"],
+      ] },
+      { text: "☞ **Nicht der Unternehmer muss beweisen**, dass im Einzelfall der Umsatzschlüssel präziser ist als der Flächenschlüssel. Vielmehr ist die **Finanzverwaltung** gehalten, den **Flächenschlüssel nur anzuwenden**, wenn dieser eine **präzisere Aufteilung** ermöglicht.\n☞ Für den Unternehmer, der zunächst selbst einen Flächenschlüssel gewählt hat, besteht **keine Bindung an diese Wahl**, wenn der Schlüssel nicht sachgerecht war." },
+    ],
+  },
+  {
+    id: "ust-m-b11-53",
+    teil: TEIL,
+    kapitel: "53",
+    abschnittNr: "A 39 und A 40",
+    title: "Arbeitspapiere A 39 und A 40: Die drei Aufteilungsschlüssel im Einzelnen; Vorsteuer aus nachträglichen AK / HStK",
+    thema: "Flächenschlüssel (Nutzflächen, Gebäudeinnenflächen, Ausnahmen und Hälfte bei Terrassen und Balkonen), objektbezogener Umsatzschlüssel und Gesamtumsatzschlüssel, umbauter Raum; Abgrenzung AK/HStK, nachträgliche AK/HStK und Erhaltung nach EStG ohne § 6 Abs. 1 Nr. 1a EStG, Aufteilung nach der Verwendung des neu entstandenen Gegenstandes (Dachgeschossausbau, Aufzug)",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 39 und A 40"),
+    verfasser: VERFASSER,
+    normen: ["§ 15 Abs. 4 UStG", "§ 6 Abs. 1 Nr. 1a EStG", "Abschn. 15.17 Abs. 7 UStAE"],
+    themen: ["Arbeitspapier", "Vorsteuerabzug", "Vorsteueraufteilung", "Immobilien", "nachträgliche Herstellungskosten"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 39" },
+      { text: "**1. Flächenschlüssel:**\n• Objektbezogener Flächenschlüssel regelmäßig der präzisere Aufteilungsschlüssel.\n• Es sind die tatsächlichen Nutzflächen des Gebäudes zugrunde zu legen.\n• Flächenberechnung nach den Gebäudeinnenflächen vorzunehmen,\n❖ ohne z.B. Außenstellplätze,\n❖ ohne Flächen, die zur Versorgung des Gebäudes verwendet oder nur gemeinsam genutzt werden (z.B. Technikräume, Treppenhaus, Fahrradabstellräume, Waschküchen),\n❖ aber mit voller Grundfläche auch bei Dachschrägen,\n❖ aber Flächen von Terrassen oder Balkonen zur Hälfte" },
+      { text: "**2 Objektbezogener Umsatzschlüssel:**\n• Wenn **Ausstattung** der unterschiedlich genutzten Räume erheblich voneinander abweicht (z. B. wegen der Dicke der Wände und Decken oder in Bezug auf eine teils besonders aufwändige und teils nur einfache Innenausstattung).\n• Objektbezogener Umsatzschlüssel gegenüber einem Gesamtumsatzschlüssel genauer, wenn (wie z.B. in Vermietungsfällen) durch die Nutzung des Objekts ein direkter und unmittelbarer Zusammenhang zu den Ausgangsumsätzen besteht.\n• **Gesamtumsatzschlüssel** bei erheblichen Ausstattungsunterschieden wenn das Objekt (z. B. ein Verwaltungsgebäude) zur Ausführung der Gesamtumsätze des Unternehmens dient." },
+      { text: "**3. Umbauter Raum:**\n• Bei erheblichen Abweichungen in der **Geschosshöhe** (ohne erhebliche Unterschiede in der Ausstattung) anstelle eines Umsatzschlüssels,\n• Gilt dann als präzisere Methode." },
+      { typ: "titel", text: "Arbeitspapier A 40 – Vorst aus nachträglichen AK / HStK" },
+      { text: "➔ **Abgrenzung** = AK / HStK = nachträgliche AK / HStK = Erhaltung ☞ grds. nach Grundsätzen EStG\n! Keine Umqualifizierung nach § 6 Abs. 1 Nr. 1a EStG = anschaffungsnaher Aufwand (damit UStG autonom)\n➔ Vorst-Aufteilung nach Verwendung des jeweils **„neu“ entstandenen Gegenstandes** „nachträgliche AK / HStK“." },
+      { text: "❶ **Dachgeschossausbau** (Tatsächliche **Baukosten** – Türen, Böden usw.)" },
+      { typ: "tabelle", spalten: ["Geschoss", "Nutzung", "Aufzugsschacht"], zeilen: [
+        ["2.OG (Dachgeschossausbau, neu)", "1/3 st-frei; 2/3 st-pflichtig", "❷ Aufzug durch 2.OG, 1.OG und EG"],
+        ["1.OG", "Alt 50% st-frei", ""],
+        ["EG", "Alt 50% st-pfl.", ""],
+      ] },
+      { text: "➔ Gesamtfläche nach Umbau = 55% steuerpflichtig / 45% steuerfrei\n➔ ❶ Ausbau, ❷ Aufzug, = **jeweils** „nachträgliche“ Anschaffungs - / Herstellungskosten\n**Vorst** (keine direkte Zuordnung; Zusammenfassung) **in Höhe von ❶ 2/3 ❷ 55%**" },
+      { text: "Das Schaubild ist nach Ansicht der Seite als Tabelle wiedergegeben; in der Skizze stehen über dem Dach zusätzlich zwei Angaben „50%“ mit Pfeilen auf die beiden Teile des Dachgeschosses (eigene Ergänzung zur Darstellung)." },
+      { text: "Nachrechnung (eigene Ergänzung): Unter der Annahme gleich großer Geschosse ergibt sich nach dem Umbau ein steuerpflichtiger Anteil von 1/3 (EG) + 1/3 × 2/3 (2.OG) = 5/9 = 55,56 % und ein steuerfreier Anteil von 44,44 %; die Quelle nennt 55 % / 45 %." },
     ],
   },
 ];

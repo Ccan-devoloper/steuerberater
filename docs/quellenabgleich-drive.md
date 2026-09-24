@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 11: Arbeitspapiere A 37 bis A 40
+
+Übernommen (PDF-Seiten 97 bis 100, Seiten gerendert und angesehen, Bildseite 97 in höherer Auflösung): Kapitel ust-m-b11-52 (A 37 Problem 1 Aufteilungsvolumen, A 38 Problem 2 Aufteilungsmethoden mit BFH-Rechtsprechung) und ust-m-b11-53 (A 39 die drei Aufteilungsschlüssel, A 40 Vorsteuer aus nachträglichen AK/HStK mit Dachgeschossausbau und Aufzug). Schaubilder als Tabellen wiedergegeben.
+
+- Quellenmarkierung: A 38 „Wenn erhebliche ??? Unterschiede“ (Platzhalter der Quelle).
+- Stillschweigend berichtigt: fehlende schließende Klammer nach „einfache Innenausstattung“ und „mit voller Grundflächen“ → „mit voller Grundfläche“ (A 39); fehlendes schließendes Anführungszeichen bei „nachträgliche AK / HStK“ (A 40).
+- Nachrechnung (eigene Ergänzung): A 40 bei gleich großen Geschossen 5/9 = 55,56 % steuerpflichtig; Quelle 55 % / 45 %. Die Bedeutung der beiden „50%“-Angaben in der Dachskizze bleibt offen und ist beschrieben.
+
+Prüfung danach: 12 Teile, 458 Kapitel, 6351 Blöcke, 348 Tabellen.
+
+Weiter mit: Arbeitspapier A 41, PDF-Seite 101.
+
 ### USt-Skript (Moecker), Block 11: Arbeitspapiere A 33 bis A 36
 
 Übernommen (PDF-Seiten 93 bis 96, Seiten gerendert und angesehen): Kapitel ust-m-b11-50 (A 33 kein Ausschluss nach § 15 Abs. 3 UStG mit Beispiel Maschinenlieferung, A 34 Begriff Verwendung) und ust-m-b11-51 (A 35 Fehlmaßnahmen, A 36 Aufteilung nach § 15 Abs. 4 UStG bei Immobilien, Fall BFH v. 11.11.2020). Schaubilder als Tabellen wiedergegeben.
