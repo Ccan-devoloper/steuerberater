@@ -2250,6 +2250,15 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   abziehbar) und der Abschlussrechnung (1.800 € Geschenke und 342 € Umsatzsteuer
   hinzugerechnet) sowie stehengebliebene Jahresangaben „2022/2023“ in der
   Verlustvortragstabelle.
+  **Teil III der Prüfung 2012** (XYZ GmbH & Co. KG, 33 Punkte; seit dem zweiten Download-Versuch
+  verfügbar): Schenkung eines Kommanditanteils samt selbst geschaffener Marke (funktional
+  wesentliches, nicht bilanzierbares Sonderbetriebsvermögen) unter Zurückbehaltung des unwesentlichen
+  GmbH-Anteils, Nutzungsentnahme für die verbilligte Wohnung der Mutter (20.166 €) und ein
+  Gesellschafterdarlehen, das handelsrechtlich auf die Insolvenzquote abgeschrieben wird und
+  steuerlich Privatvermögen der Gesellschaft ist; Ausscheiden des insolventen Gesellschafters mit
+  Abfindung (163.520 €). Drei Unstimmigkeiten der Anlage (negative Kapitalkonten ohne Vorzeichen,
+  302.707 € statt 305.707 €, vertauschte Zinsentnahmen) sind als **eigene Feststellung** vermerkt.
+  Damit ist die **Prüfung 2012 vollständig**; die Prüfungen 2013 bis 2015 folgen.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,

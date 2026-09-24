@@ -10623,6 +10623,20 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2012, Teil III (XYZ GmbH & Co. KG) – Prüfung 2012 vollständig
+
+Übernommen aus „Bilanzierung · Steuerberaterprüfungen 2011–2015“ (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, lokal ausgewertet): Prüfung 2012, Teil III, Sachverhalt (PDF-Seiten 52 bis 56) und Lösung mit Anlage (PDF-Seiten 81 bis 89), 33 Punkte.
+
+- Gekennzeichnet: Sachverhalt zitiert „§ 131 Abs. 3 Satz 1 Nr. 2 HGB“ (vor MoPeG), die Lösung § 130 Abs. 1 Nr. 3 HGB; „als hätten X und Z“ (X und S); stehengebliebene Jahresangaben 2022/2023 in der Anlage zur Steuerbilanz.
+- Eigene Feststellungen (Rechenkontrolle): Kapitalkonten X/S in der Handelsbilanz negativ (./. 72.960 €, in der Quelle ohne Vorzeichen); Steuerbilanz 302.707 € statt 305.707 €; Entnahmebuchung der Refinanzierungszinsen mit vertauschten Beträgen Y/S.
+- Stillschweigend berichtigt: „Da Stammkapital“, „1. Jeden Monats“, doppeltes „ist“; fehlendes Verb in Klammern ergänzt.
+- Punkte: Einzelsachverhalt 1 = 9, 2 = 6, 3 = 11, Anlage = 7, zusammen 33. Randpunkte, die die Textfassung am Seitenende sammelt, sind in Seitenreihenfolge zugeordnet.
+- App-Einleitung (Bilanzen-Campus), README und offene-quellen nachgezogen.
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 6 Aufgabenteile, 514 Blöcke, 74 Tabellen, 200 Punkte.
+
+Weiter mit: Bilanz-Prüfung 2013, Teil I (Einzelunternehmen Henrik Mai; Sachverhalt ab Zeile 7291 der Textfassung).
+
 ### ESt-Originalklausuren 2015, Sachverhalt 3 – alle ESt-Originalklausuren vollständig
 
 Übernommen: ESt-Originalklausur 2015, Sachverhalt 3 (Gerd Dreifuß, Betriebsaufgabe, 19 Punkte) – Aufgabe PDF-Seiten 120 bis 122, Lösung PDF-Seiten 131 bis 136, Korrekturbogen PDF-Seiten 138 und 139. Damit sind die ESt-Originalklausuren 2011 bis 2015 vollständig (19 Sachverhalte); die Quelle „Ertragsteuern · Steuerberaterprüfungen 2011–2015“ ist abgeschlossen.
