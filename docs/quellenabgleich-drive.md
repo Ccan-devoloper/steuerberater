@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### IStR-Skript (Grümmer/Holzrichter), Kapitel 6 (PDF-Seiten 124 bis 137) – Textteil vollständig
+
+Übernommen: Kapitel 6 „Anlagen“ / 6.1 „Zusätzliche Materialien“ – Wohnsitzwechsel in niedrig besteuernde Gebiete (§§ 2 bis 5 AStG), Beteiligung an ausländischen Zwischengesellschaften (§§ 7 ff. AStG mit Grundtatbestand, aktiven Einkünften, niedriger Besteuerung, Freigrenze, Hinzurechnungsbetrag, Anrechnung, Feststellung, Ausschüttungen, DBA und zwei Fallbeispielen) und Familienstiftungen (§ 15 AStG) – 3 Einträge unter der neuen Kapitel-Konstante `K6`. Die Gliederungsnummern 6.1.2.4.4 und 6.1.2.7 fehlen bereits in der Quelle.
+
+- Schaubild übernommen: Grundtatbestand der Hinzurechnungsbesteuerung (Seite 131, Tatbestand ⇩ Rechtsfolge) als Tabelle; die Kastenliste „Einkünfte aus aktivem Erwerb § 8 Abs. 1 AStG“ (Seite 132) als Zwischenüberschrift mit Aufzählung.
+- Gekennzeichnet: „Einkünften aus Kapitalvermögen nach § 20 Abs. 1 Nr. 1 AStG“ (gemeint EStG); in beiden Fallbeispielen „an die X-GmbH ausgeschüttet“, obwohl die Müller-GmbH bzw. Müller beteiligt ist.
+- Stillschweigend berichtigt: „Anlagen:“ in der Kapitelüberschrift; „dem Ihm“; „Hinzurechungsbesteuerung“ (zweimal); „ausländisch en“; „außer Acht zulassenden“; „in Betracht zuziehende“; Anführungszeichen ”normalen Geschäftsbetriebs” (zweimal); die im Blocksatz auseinandergezogene Zeile „schäfte einen eingerichteten Geschäftsbetrieb unterhalten“; die abgesetzte Zeile „(§ 4 AStG)“ in die Überschrift 6.1.1.6 gezogen.
+- Nachrechnung (eigene Ergänzung): Grundbeispiel 150 ./. 100 = 50 bzw. 120 ./. 100 = 20 – stimmig.
+
+Prüfung danach: IStR-Skript (Grümmer/Holzrichter) in Ordnung: 6 Teile, 72 Kapitel, 1390 Blöcke, 32 Tabellen.
+
+Weiter mit: DBA-Texte (Auszüge DBA Österreich und Türkei, OECD-Musterabkommen 2017; PDF-Seiten 138 bis 151), danach die Folien (Seiten 152 bis 163).
+
 ### IStR-Skript (Grümmer/Holzrichter), Kapitel 5 (PDF-Seiten 98 bis 123)
 
 Übernommen: Kapitel 5 „Sondernormen des Internationalen Steuerrechts“ – 5.1 Berücksichtigung ausländischer Verluste nach § 2a EStG (Überblick, Nr. 1 bis 7, Produktivitätsklauseln, Verlustausgleichsverbot, Übungsfall) und 5.2 Vorschriften des Außensteuergesetzes (Aufbau, Einkünfteberichtigung nach § 1 AStG, Wegzugsbesteuerung nach § 6 AStG mit Ersatztatbeständen, Rückkehr, Exkurs zu § 17 Abs. 2 S. 3 EStG und Stundungsregelung) – 5 Einträge unter der neuen Kapitel-Konstante `K5`.
