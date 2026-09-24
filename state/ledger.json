@@ -4613,6 +4613,39 @@
       "titel": "15 Jahre – zwingend, unabhängig von der tatsächlichen Nutzungsdauer.",
       "medienId": "18492130840101586",
       "veroeffentlicht": "2026-09-24T05:48:24.881Z"
+    },
+    {
+      "datum": "2026-09-24",
+      "art": "beitrag",
+      "slot": "b1",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "spickzettel",
+      "thema": "istr-modul-istr-istr1-06",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Wegzug geprüft, AStG vergessen: die typische Klausurfalle",
+      "hookTyp": "fehler",
+      "medienId": "17936968125380920",
+      "variante": 0,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#stbexamen",
+        "#steuerberater",
+        "#steuerrecht",
+        "#examensvorbereitung",
+        "#klausurvorbereitung",
+        "#steuerberatung",
+        "#ertragsteuern",
+        "#klausurtechnik",
+        "#wegzugsbesteuerung",
+        "#astg",
+        "#progressionsvorbehalt",
+        "#internationalessteuerrecht"
+      ],
+      "veroeffentlicht": "2026-09-24T06:46:38.255Z",
+      "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-24/2026-09-24-b1-02-muf64i4x.jpg"
     }
   ],
   "fachZaehler": {
@@ -4621,7 +4654,7 @@
     "kst": 7,
     "ao": 13,
     "bilanz": 16,
-    "istr": 10,
+    "istr": 11,
     "erbst": 3,
     "mindset": 1
   },
