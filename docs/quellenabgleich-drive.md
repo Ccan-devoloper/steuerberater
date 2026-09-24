@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2014, Sachverhalt 1
+
+Übernommen: ESt-Originalklausur 2014 (Teil I: Einkommensteuer), Sachverhalt 1 (José S., Wegzug nach Brasilien, 18 Punkte) – Aufgabe PDF-Seite 101, Lösungshinweise PDF-Seiten 105 bis 107, Korrekturbogen PDF-Seite 114 (gerendert und angesehen). Die Prüfung 2014 weist die Punkte nicht als laufende Summe aus, sondern in einer Randspalte „Pkte“ mit den Punktnummern des Korrekturbogens; beides ist übernommen (Randspalte in eckigen Klammern am Absatzanfang, Korrekturbogen als Tabelle).
+
+- Fehler der Quelle, gekennzeichnet: „bis zum 15. Juli 14“ statt 13; Korrekturbogen „§ 32d Abs. 2 Nr. 2“ statt Nr. 3 und „§ 17 Abs. 4“ statt Abs. 2.
+- Stillschweigend berichtigt: „Kapitalertag“ → „Kapitalertrag“; fehlende schließende Klammer ergänzt.
+- Eigene Ergänzung: Rechtsstandshinweis zu § 6 AStG n. F. (sieben aus zwölf Jahren, neue Gliederung; bitte prüfen).
+- Nachrechnung (eigene Ergänzung): 13.500 + 24.000 ./. 1.000 = 36.500 € × 25 % = 9.125 €; Zinsen 12.000 €; § 17: 150.000 ./. 90.000 = 60.000 €; Freibetrag entfällt; Punkte 18 (Summenzeile der Quelle leer). Alle stimmig.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 14 Sachverhalte, 554 Blöcke, 56 Tabellen, 210 Punkte.
+
+Weiter mit: Prüfung 2014, Sachverhalt 2 (Aufgabe ab Zeile 7642, Lösung ab Zeile 8014, Korrekturbogen ab Zeile 8680 der Textfassung).
+
 ### ESt-Originalklausuren 2013, Sachverhalt 5 – Prüfung 2013 vollständig
 
 Übernommen: ESt-Originalklausur 2013 (Klausur E 18), Sachverhalt 5 (P, Gewerbesteuermessbetrag mit Schachtelkürzung, 5 Punkte) – Aufgabe PDF-Seite 82, Lösung PDF-Seiten 99 und 100. Damit ist die Prüfung 2013 vollständig (5 Sachverhalte, Randpunkte 14 + 14 + 12 + 22 + 5 = 67).
