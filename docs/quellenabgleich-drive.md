@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 5 A. IX (PDF-Seiten 109 bis 113)
+
+Übernommen: A. IX Verbrauchstheorie (Fiktionstheorie) mit vier Beispielen und der Merke-Übersicht zur vGA (Abschnitt 5-07); Seite 113 gerendert, die verschachtelte Liste ist je Unterpunkt mit ihrem Oberbegriff wiedergegeben.
+
+- Gekennzeichnet: „§ 14 Abs. 2 S. 2 UStG“ (vorher § 14 Abs. 4 S. 2 UStG).
+- Stillschweigend berichtigt: fehlende Klammer bzw. Anführungszeichen in zwei Buchungssätzen; „nur in geregelt in“; „hinzugerechte“; „Vorteilsaugleichs“; „Einkünfte aus Kapitalvermögen“ → „Einkünften“; „§ 11Abs.“; „Einkünftegem.“; „Gesell schafterversammlung“.
+- Nachrechnung (eigene Ergänzung): 18.000 × 19 % = 3.420 ./. 1.900 = 1.520 €; 23.800 ./. 11.900 = 11.900 €; 11.900 ./. 1.520 = 10.380 €; Alternativlösung 11.520 € (Differenz 380 €); 595 €; 1.190 € und AfA 4.760 € – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 5 Teile, 38 Kapitel, 1326 Blöcke, 43 Tabellen.
+
+Weiter mit: Teil 5 A. X „Verdeckte Gewinnausschüttungen bei Schwestergesellschaften“ (PDF-Seite 114; Textfassung ab Zeile 6907).
+
 ### KSt-Kurz-Skript (Breier), Teil 5 A. III bis A. VIII (PDF-Seiten 103 bis 109)
 
 Übernommen: A. III überhöhte Anschaffungskosten (5-03), A. IV Rückgängigmachung und A. V umgekehrte vGA mit Teilbeträgen (5-04), A. VI Bewertung mit Umsatzsteuer und A. VII Beweislast (5-05), A. VIII Vorteilsausgleich (5-06).
