@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### IStR-Skript (Grümmer/Holzrichter), Kapitel 5 (PDF-Seiten 98 bis 123)
+
+Übernommen: Kapitel 5 „Sondernormen des Internationalen Steuerrechts“ – 5.1 Berücksichtigung ausländischer Verluste nach § 2a EStG (Überblick, Nr. 1 bis 7, Produktivitätsklauseln, Verlustausgleichsverbot, Übungsfall) und 5.2 Vorschriften des Außensteuergesetzes (Aufbau, Einkünfteberichtigung nach § 1 AStG, Wegzugsbesteuerung nach § 6 AStG mit Ersatztatbeständen, Rückkehr, Exkurs zu § 17 Abs. 2 S. 3 EStG und Stundungsregelung) – 5 Einträge unter der neuen Kapitel-Konstante `K5`.
+
+- Schaubilder gerendert und als Tabellen übernommen: „Einkunftsquellen mit Verlustausgleichsbeschränkungen nach § 2a EStG“ (Seite 100, Nr. 1 bis 7 mit den Voraussetzungen), „Produktivitätsklausel, § 2a Abs. 2 S. 1 EStG“ (Seite 106; die Farblegende produktiv/unproduktiv als „= produktive Tätigkeit“/„= unproduktive Tätigkeit“ in den Zellen), „Einkünfteberichtigung, § 1 AStG“ (Seite 110); dazu die Tabellen des Übungsfalls zu § 2a EStG (Seite 107) und der Aufbau des AStG (Seite 108).
+- Gekennzeichnet: im Übungsfall zu § 2a EStG für 02 „Betriebstätte Chile, Saldierung … 5.000 €“ (8.000 ./. 2.000 = 6.000; nur mit 6.000 ergibt sich der ausgewiesene Gesamtbetrag von 100.000); im Monaco-Beispiel zu § 6 AStG „entspricht demnach 20 %“ (120.000 sind 60 % von 200.000); die Überschrift „5.2.2.2.1 Geschäftsbeziehungen zum Inland“ (gemeint: zum Ausland, § 1 Abs. 1 AStG).
+- Stillschweigend berichtigt: „Wohnsitzwech- sel“ in der Überschrift 5.2.3; „Hughes de Lasteryrie im lichte“; „der gemeiner Wert“; „das Teileinkünfte anzuwenden“ (Teileinkünfteverfahren); „wird der Lebensmittelpunkt wird wieder“; „Mitgliedssaaten“; „Fremdvergleichpreises“; Anführungszeichen „“altem““; im Blocksatz auseinandergezogene Zeilen („einer in einem Drittstaat belegenen gewerblichen Betriebstätte“, „mögen gehörenden Anteils an einer Drittstaaten-Kapitalgesellschaft“) als Fließtext.
+- Nachrechnung (eigene Ergänzung): Übungsfall § 2a EStG 01: 100.000 + 10.000 + 0 + 0 + (11.000 ./. 10.000) = 111.000; 02: Mehrfamilienhaus 500 ./. 1.000 = verbleibend ./. 500, Spanien 5.000 ./. 6.000 = ./. 1.000; Zinsvorteil 500.000 × 8 % = 40.000; Beispiel Müller: Zinsen 3 % × 100.000 × 2 = 6.000, verdeckte Einlage 106.000, Korrektur nach § 1 AStG (10 % ./. 3 %) × 100.000 = 7.000; Monaco: 60 % × 500.000 = 300.000 ./. 60 % × 300.000 = 180.000 = 120.000; Erbfall und Treu: 60 % × (900.000 ./. 100.000) = 480.000; Paul Meier: 60 % × 100.000 = 60.000 bzw. 60 % × 500.000 = 300.000 – stimmig bis auf die gekennzeichneten Stellen.
+
+Prüfung danach: IStR-Skript (Grümmer/Holzrichter) in Ordnung: 5 Teile, 69 Kapitel, 1204 Blöcke, 31 Tabellen.
+
+Weiter mit: Kapitel 6 „Zusätzliche Materialien“ (Anlagen, PDF-Seiten 124 bis 137).
+
 ### IStR-Skript (Grümmer/Holzrichter), Kapitel 4.6 (PDF-Seiten 85 bis 97) – Kapitel 4 vollständig
 
 Übernommen: Kapitel 4.6 „Steueranrechnung (unilaterale Vermeidung der Doppelbesteuerung)“ – Allgemeines, Steueranrechnung und Abgeltungssteuer, Tatbestandsmerkmale des § 34c Abs. 1 EStG mit dem Katalog des § 34d EStG und der Höchstbetragsberechnung, Steuerabzug nach § 34c Abs. 2 und 3 EStG, § 34c Abs. 5 und 6 EStG sowie § 26 KStG mit dem ausführlichen Beispiel Neureich (Chile, Kolumbien, Niederlande; Anrechnung und Probeberechnung mit Abzug) – 7 Einträge unter `K4`.
