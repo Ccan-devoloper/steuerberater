@@ -4,7 +4,7 @@
    PDF-Seiten: Textteil Seiten 1 bis 41 (PDF-Seiten 2 bis 42), Arbeitspapiere A 1 bis A 27 (PDF-Seiten
    43 bis 69).
    In Arbeit: Textteil vollständig (I. bis VI., PDF-Seiten 2 bis 42); Arbeitspapiere eingepflegt bis
-   A 4 (PDF-Seite 46). */
+   A 8 (PDF-Seite 50). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -776,6 +776,80 @@ export const block13 = [
       { typ: "tabelle", spalten: ["aus Gegenstand selbst", "und aus Bestandteile"], zeilen: [
         ["Anschaffung / Herstellung / Erwerb z.B. - von Nichtunternehmer - von Kleinunternehmer - von Differenzbesteuerer - nach Einlage", "Begriff => Abschn. 3.3 (2 bis 4). Keine Bestandteile: - Erhaltungsaufwand - Betriebskosten => Abschn. 3.3 (2) S. 4. Hinweis: Besteuert wird dann nur der Bestandteil (➔ vgl. A 6)"],
       ] },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-28",
+    teil: TEIL,
+    kapitel: "28",
+    abschnittNr: "A 5 und A 6",
+    title: "Arbeitspapiere A 5 und A 6: Unternehmensvermögen bei Unternehmern mit Privatbereich; Entnahme eines ohne Vorsteuer erworbenen Gegenstandes",
+    thema: "Einheitliche Gegenstände mit Zuordnungswahlrecht (100 % UV, quotale Aufteilung, 100 % unternehmensfremd) und vertretbare Sachen mit Aufteilungsgebot, Folgen für Vorsteuer, UWA und Verkauf; Gegenstand ohne Vorsteuer, Dienstleistungen und Lieferungen daran, Werterhaltung und Bagatellregelung (20 % / 1.000 €), Bestandteile mit dauerhafter Werterhöhung, BMG Restwert",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 5 und A 6"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b Satz 1 Nr. 1 und Satz 2 UStG", "§ 15 Abs. 1 Satz 2 UStG", "§ 15a Abs. 3 Satz 3 UStG", "Abschn. 3.3 Abs. 2 bis 4 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Zuordnung", "Bestandteile"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 5 – 3.2.1 Unternehmensvermögen bei Untern mit „Privatbereich“ ➔ Gegenstände des UV" },
+      { typ: "tabelle", spalten: ["ausschließlich für unternehmerische Tätigkeit", "für teils untern. und unternehmensfremde (private) Zwecke", "ausschließlich für unternehmensfremde (private) Zwecke"], zeilen: [
+        ["", "einheitlicher Gegenstand (mit untern. Mindestnutzung 10% (§15 (1) S. 2)) ➔ Zuordnungswahlrecht des Unternehmers", ""],
+        ["", "vertretbare Sachen ➔ Aufteilungsgebot (UV / unternehmensfremd)", ""],
+      ] },
+      { typ: "tabelle", spalten: ["Zuordnungswahlrecht", "Vorsteuer", "Folge"], zeilen: [
+        ["❶ 100% UV", "Vorsteuerabzug - aus AK und - aus Unterhalt (100%)", "Besteuerung UWA § 3 (1b) Nr. 1; Verkauf stbar."],
+        ["❷ Quotale Aufteilung – Gegenstand A (60%) (zwei separate Gegenstände z.B. 60% UV / 40% PV)", "Vorsteuerabzug - aus AK und - aus Unterhalt (60%)", "Besteuerung UWA § 3 (1b) Nr. 1; Verkauf stbar."],
+        ["❸ Quotale Aufteilung – Gegenstand B (40%)", "Kein Vorsteuerabzug - aus AK - Unterhalt", "Begrifflich keine UWA möglich. Verkauf nicht stbar."],
+        ["❹ 100 % unternehmensfremd", "Kein Vorsteuerabzug - aus AK - Unterhalt (❹ quotal 60 % jedoch aus lfd. Kosten möglich)", "Begrifflich keine UWA möglich. Verkauf nicht stbar."],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 6 – 3.2.2 Entnahme eines ohne Vorst erworbenen Gegenstandes (Abschn. 3.3 Abs. 2 bis 4 UStAE)" },
+      { typ: "tabelle", spalten: ["Gegenstand selbst", "Dienstleistungen", "Lieferungen"], zeilen: [
+        ["= ohne Vorst", "(z.B. Inspektion, Wartung, Rep.) = mit Vorst", "(z.B. neuer Motor, Bremsen, Batterie.) = mit Vorst"],
+        ["Entnahme nicht steuerbar § 3 (1b) Nr. 1", "Keine Bestandteile ➔ keine Entnahme ➔ Vorst-abzug; 🔔 Ggf. § 15a Abs. 3 Satz 3 - Fall", "die in den Gegenstand eingehen (☞ mobiles Navi = eigener Gegenstand)"],
+      ] },
+      { typ: "tabelle", spalten: ["Lieferungen, die lediglich der Werterhaltung dienen oder unter die Bagatellregelung fallen", "Lieferungen mit dauerhafter Werterhöhung"], zeilen: [
+        ["dienen lediglich Werterhaltung Abschn. 3.3. (3) UStAE (Bremsen, Batterie) oder Bagatellregelung Abschn. 3.3 (4) UStAE (20% / 1000 € - Netto - Grenze) ➔ Kein Bestandteil ➔ Keine Entnahme", "mit dauerhafter Werterhöhung (messbarer Wertaufschlag) zum Zeitpunkt der Entnahme (Motor) - Abschn. 3.3 (2) UStAE = Bestandteile ➔ Entnahme (des Motors) ➔ BMG = Restwert der Bestandteile"],
+      ] },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-29",
+    teil: TEIL,
+    kapitel: "29",
+    abschnittNr: "A 7 und A 8",
+    title: "Arbeitspapiere A 7 und A 8: Beispiel Pkw ohne Vorsteuer mit Neulackierung, Inspektion, Navi und Motor; Zuwendungen an das Personal und an Andere",
+    thema: "Entnahme eines ohne Vorsteuer angeschafften Pkw: Motor als Bestandteil steuerbar, mobiles Navi als eigener Gegenstand steuerbar, Inspektion und Neulackierung keine Bestandteile (Neulackierung als § 15a Abs. 3 Satz 3-Fall); Zuwendungen an das Personal (Nr. 2) und an Andere (Nr. 3) mit Abgrenzung entgeltlicher Zusatzstücke, Zusatzgaben und Sachprämien",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 7 und A 8"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 1b Satz 1 Nr. 1 bis 3 und Satz 2 UStG", "§ 15a Abs. 3 Satz 3 UStG", "§ 44 Abs. 1 UStDV", "Abschn. 1.8 UStAE", "Abschn. 3.3 Abs. 8 und 10 bis 20 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Bestandteile", "Zuwendungen"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 7 – Beispiel" },
+      { text: "**Anschaffung PKW 20.000 € (1.7.10) ohne Vorst; ND 5 Jahre**" },
+      { typ: "tabelle", spalten: ["1.8.10 Neulackierung", "1.9.10 Inspektion", "1.11.10 Mob. Navi", "1.12.10 Neuer Motor"], zeilen: [
+        ["7.500 € / 1.425 € USt", "200 € / 38 € USt", "500 € / 95 € USt", "5.000 € / 950 € USt"],
+      ] },
+      { text: "**Entnahme (31.12.12)**" },
+      { typ: "tabelle", spalten: ["Objekt", "Beurteilung"], zeilen: [
+        ["PKW", "Nicht steuerbar § 3 Abs. 1b S. 2 UStG, da keine Vorst aus AK"],
+        ["Motor", "Steuerbar § 3 Abs. 1b und steuerpflichtig. da Bestandteil mit Werterhöhung und Vorst aus Anschaffung"],
+        ["Mobiles Navi", "Steuerbar § 3 Abs. 1b und steuerpflichtig. da eigener Gegenstand"],
+        ["Inspektion", "Nicht steuerbar, da kein Bestandteil § 3 (1b) UStG. Kein § 15a - Fall, da Vorst < 1.000 €"],
+        ["Neulackierung", "Nicht steuerbar, da kein Bestandteil § 3 (1b) UStG. § 15a Abs. 3 Satz 3 - Fall, da Vorst > 1.000 € und werthaltig"],
+      ] },
+      { text: "Nachrechnung (eigene Ergänzung): 19 % von 7.500 € = 1.425 €, von 200 € = 38 €, von 500 € = 95 €, von 5.000 € = 950 €. Der Motor übersteigt mit 5.000 € sowohl 20 % der AK (4.000 €) als auch 1.000 €, fällt also nicht unter die Bagatellregelung. Stimmig." },
+      { typ: "titel", text: "Arbeitspapier A 8 – 3.3 Zuwendung an das Personal (Nr. 2) vgl. A 18" },
+      { text: "vgl. Abschn. 3.3. Abs. 8 und Abschn. 1.8 UStAE" },
+      { typ: "titel", text: "3.4 Zuwendungen an Andere (Nr. 3)" },
+      { text: "vgl. Abschn. 3.3. Abs. 10 bis 20 UStAE" },
+      { typ: "tabelle", spalten: ["☞ Gegenstandszuwendung", "aus unternehmerischen Gründen"], zeilen: [
+        ["Nicht => sonstige Leistung.", "- Geschenke zu Werbe- und Imagezwecke oder zur Verkaufsförderung - Sachspenden an Schulen - Preisausschreiben / Tombola"],
+      ] },
+      { text: "☞ Nur bei **Unentgeltlichkeit**:\nBeispiele für **entgeltliche** Lieferungen - Abschn. 3.3 (18) - (20) -\n**Zusatzstücke - Handelsware** (11 entgeltliche Lieferungen zum Preis von 10)\n**Zusatzstücke - mitgelieferter anderer Gegenstand -** (bei 10 TV / 1 Video zusätzlich = insges. 11 entgeltliche Lief.)\n**Zusatzgaben** (Bierdeckel, Aschenbecher, Gläser, Fußmatten, Pflegemittel, usw. => insg. 1 entgeltliche Lief.)" },
+      { text: "**Einzelfälle:**\n- **Sachprämien an Neuabonnenten für Zeitungsabo** => 2 entgeltliche Leistungen (Prämie und Zeitung)\n- **Sachprämie an Altkunden für Vermittlung** => 1 Lieferung im Tausch für Vermittlungsleistung" },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },

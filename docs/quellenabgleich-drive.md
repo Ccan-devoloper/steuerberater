@@ -10623,6 +10623,17 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: Arbeitspapiere A 5 bis A 8
+
+Übernommen (PDF-Seiten 47 bis 50, Seiten gerendert und angesehen): Kapitel ust-m-b13-28 (A 5 Zuordnung bei Privatbereich, A 6 Entnahme eines ohne Vorsteuer erworbenen Gegenstandes) und ust-m-b13-29 (A 7 Pkw-Beispiel, A 8 Zuwendungen an Personal und Andere). Schaubilder als Tabellen wiedergegeben.
+
+- Stillschweigend berichtigt: „da keine Bestandteil“ → „da kein Bestandteil“ (A 7, zweimal); UStAE-Kurzverweise „A. 3.3“ / „A 3.3“ ausgeschrieben (A 6, A 8).
+- Nachrechnung (eigene Ergänzung): A 7 Steuerbeträge 1.425 / 38 / 95 / 950 € stimmig; Motor über der Bagatellgrenze (20 % von 20.000 € = 4.000 €).
+
+Prüfung danach: 14 Teile, 513 Kapitel, 6915 Blöcke, 401 Tabellen.
+
+Weiter mit: Arbeitspapier A 9, PDF-Seite 51.
+
 ### USt-Skript (Moecker), Block 13: Arbeitspapiere A 1 bis A 4
 
 Übernommen (PDF-Seiten 43 bis 46, Seiten gerendert und angesehen): Kapitel ust-m-b13-26 (A 1 Terminologie, A 2 Systematik der UWA) und ust-m-b13-27 (A 3 Tatbestände des § 3 Abs. 1b UStG, A 4 Entnahme). Schaubilder als Tabellen wiedergegeben.
