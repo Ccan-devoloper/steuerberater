@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 12: VI.3 und VI.4
+
+Übernommen (PDF-Seiten 118 unten bis 121): Kapitel ust-m-b12-10 (VI.3 Leerstand bei Gebäuden mit Cafeteria-Fall BFH v. 27.10.2020 und Insolvenz-Fall BFH V R 58/00) und ust-m-b12-11 (VI.4 Berichtigungsverfahren mit verspäteter Rechnung und sachlich unrichtigem Vorsteuerabzug).
+
+- Quellenmarkierung: VI.3 Beispiel „BFH-Urteil vom 25.04.2001, V R 58/00“ (Urteil vom 25.04.2002, so die Quelle selbst unmittelbar zuvor).
+- Stillschweigend berichtigt: „Alten— und“ → „Alten- und“; Anführungszeichen bei „pro-rata temporis“ vereinheitlicht und überzähliges Anführungszeichen nach „genutzt werden“ entfernt; „bei Leistungsbezugs“ → „bei Leistungsbezug“ (VI.3).
+- Nachrechnungen (eigene Ergänzung): VI.4 5.000 € je Jahr, 2.500 € + 5.000 € = 7.500 €, 42.500 € stimmig; DU-Beispiel 20 Prozentpunkte je Jahr ab 07 (Betrag in der Quelle nicht genannt).
+
+Prüfung danach: 13 Teile, 470 Kapitel, 6490 Blöcke, 357 Tabellen.
+
+Weiter mit: VII Nur einmalig verwendete WG, Skript-Seite 20 (PDF-Seite 122).
+
 ### USt-Skript (Moecker), Block 12: V bis VI.2
 
 Übernommen (PDF-Seiten 115 bis 118 oben): Kapitel ust-m-b12-8 (V.1 bis V.3 Änderung der Verhältnisse mit Beispielen Halle, Veräußerung im Folgejahr und Bürogebäude) und ust-m-b12-9 (VI.1 Investitionsgüter, VI.2 Besonderheiten beim Berichtigungszeitraum).
