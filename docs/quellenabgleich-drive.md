@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Skript Termin 1 (Melzer), Kapitel 12 (PDF-Seiten 142 bis 161)
+
+Übernommen: Kapitel 12 „Rückstellungen“ – 12.1 Begriff, 12.2 Ansatz in Handels- und Steuerbilanz (mit den steuerlichen Regelungsvorbehalten), 12.3 Bewertung in der Handelsbilanz (Erfüllungsbetrag, Gegenrechnung künftiger Vorteile, Abzinsung), 12.4 Bewertung in der Steuerbilanz (§ 6 Abs. 1 Nr. 3a EStG, Abzinsung nach BMF 26.05.2005/2006, Deckelung, Übersicht), 12.5 Rückstellungen im Einzelnen (Abbruch, Rekultivierung, Garantie, Jahresabschlusskosten, Schadensersatz, Prozesskosten, Patentverletzung, Archivierungskosten mit Prüfschema, Altlasten, Pensionsrückstellungen mit Übersicht, Rückdeckungsversicherung, Drohverluste, Instandhaltung), 12.6 Auflösung – 6 Einträge unter `TB12`.
+
+- Schaubilder gerendert und als Tabellen übernommen: Handelsrecht/Steuerrecht (Seite 142) und „Handelsrechtliches Passivierungsgebot führt zu steuerrechtlichem Passivierungsgebot“ (Seite 143, mit den Kästen Maßgeblichkeit/Durchbrechung als dritte Spalte). Einzeilige Tabellen stehen jetzt ohne Kopfzeile (die Prüfung hatte eine Tabelle ohne Zeilen gemeldet).
+- Gekennzeichnet: im Abzinsungsbeispiel „10.000 € x (1,03)⁸ = 12.677 €“ (rechnerisch 12.668 €; der Barwert 8.573 € der Quelle ergibt sich aus 12.668 €); „Pensionsrückstellungen sind gem. § 6 Abs. 3 Satz 3 EStG mit 6 % abzuzinsen“ (gemeint § 6a Abs. 3 Satz 3 EStG).
+- Stillschweigend berichtigt: „Bußgleder“; „Reslaufzeit“ (dreimal); „Vertäge“; „privat- rechtlichen“; „öffentlich- rechtliche“ (dreimal); „Vorraussetzungen“; „i. Satz d.“; die hochgestellten Exponenten im Abzinsungsbeispiel als „⁸“ wiedergegeben; die Fortsetzungszeilen der Überschriften 12.3.2, 12.4.2 und 12.5.1.9 angefügt.
+- Nachrechnung (eigene Ergänzung): 1,03⁸ = 1,26677, × 10.000 = 12.667,70; 1,05⁸ = 1,47746; 12.667,70 / 1,47746 = 8.574 (Quelle 8.573). Wortabgleich der Tabellenflächen: vollständig.
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 12 Teile, 49 Kapitel, 2081 Blöcke, 100 Tabellen.
+
+Weiter mit: Kapitel 13 bis 16 (Schuldübernahme, Bewertungseinheiten, latente Steuern, Bilanzberichtigung; PDF-Seiten 162 bis 178).
+
 ### Bilanz-Skript Termin 1 (Melzer), Kapitel 11 (PDF-Seiten 134 bis 141)
 
 Übernommen: Kapitel 11 „Sonderposten mit Rücklageanteil“ – 11.1 Verhältnis Handelsbilanz/Steuerbilanz, 11.2 Rücklage für Ersatzbeschaffung nach R 6.6 EStR (Voraussetzungen, Übertragung, Sonderposten, Mehrentschädigung, Übersicht), 11.3 § 6b EStG (Veräußerungsgewinn, begünstigte Wirtschaftsgüter, Übertragungsmöglichkeiten, Auflösung, Abschreibung, EU/EWR-Betriebsstätten, § 6b Abs. 10 EStG), 11.4 Zuschüsse für Anlagegüter – 4 Einträge unter `TB11`.
