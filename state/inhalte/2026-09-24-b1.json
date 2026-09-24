@@ -1,0 +1,121 @@
+{
+  "format": "spickzettel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr1-06",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wegzug geprüft, AStG vergessen: die typische Klausurfalle",
+      "icon": "globus",
+      "pille": "Swipen →",
+      "prioritaet": "hoch",
+      "prioritaetText": "Grundbaustein fürs Examen",
+      "hinweis": "Schau rein"
+    },
+    {
+      "art": "karte",
+      "titel": "Die Karte fürs Wegzugsschema",
+      "schritte": [
+        {
+          "titel": "Zeitpunkt des Wegzugs bestimmen",
+          "text": "Wohnsitz/gewöhnlicher Aufenthalt aufgegeben, § 8, § 9 AO"
+        },
+        {
+          "titel": "Jahr in zwei Zeiträume teilen",
+          "text": "Unbeschränkt bis Wegzug, danach beschränkt, § 1 EStG"
+        },
+        {
+          "titel": "Jahresverknüpfung prüfen",
+          "text": "Zusammenrechnung nach § 2 (7) S. 3 EStG"
+        },
+        {
+          "titel": "Progressionsvorbehalt checken",
+          "text": "Auslandseinkünfte nach § 32b (1) S. 1 Nr. 2 EStG"
+        },
+        {
+          "titel": "Anteile nach § 17 EStG abfragen",
+          "text": "Ab 1 % Beteiligung: Wegzugsbesteuerung nach § 6 AStG prüfen"
+        },
+        {
+          "titel": "Fondsanteile gesondert sehen",
+          "text": "Spezialfall nach § 19 (3) InvStG beachten"
+        },
+        {
+          "titel": "Deutsche Einkünfte danach isolieren",
+          "text": "Beschränkte Steuerpflicht über § 49 EStG"
+        }
+      ],
+      "icon": "globus"
+    },
+    {
+      "art": "text",
+      "titel": "Wo die meisten Punkte verloren gehen",
+      "punkte": [
+        "Die *Jahresverknüpfung* wird übersehen: Ohne § 2 (7) S. 3 EStG bleibt der beschränkt steuerpflichtige Zeitraum isoliert und der Progressionsvorbehalt fehlt komplett.",
+        "Die *AStG-Prüfung* wird vergessen oder pauschal angehängt: § 6 AStG setzt konkret Anteile im Sinne des § 17 (1) EStG voraus, ist also kein Automatismus beim Wegzug."
+      ],
+      "icon": "lupe"
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Der Wegzug teilt das Jahr, verbindet die Einkünfte über die Progression – und stellt erst danach die Frage nach dem AStG.",
+      "icon": "kreislauf"
+    },
+    {
+      "art": "cta",
+      "titel": "Diese Karte gehört in jede Lerngruppe.",
+      "punkte": [
+        "Schick das der Person in deiner Lerngruppe, die den Progressionsvorbehalt beim Wegzug immer vergisst",
+        "Speichern für die letzte Wiederholung vor Tag 2",
+        "Welcher Schritt fehlt dir noch – kommentier's!"
+      ],
+      "icon": "globus"
+    }
+  ],
+  "caption": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht: das komplette Schema auf einer Karte. Der Wegzug ist kein einzelner Paragraph, sondern ein Zeitachsenproblem: erst das Jahr trennen, dann über § 2 (7) S. 3 EStG verknüpfen, dann den Progressionsvorbehalt prüfen – und erst danach fragen, ob wegen Anteilen nach § 17 (1) EStG § 6 AStG greift. Schick das deiner Lerngruppe, bevor ihr die nächste Klausur zu Tag 2 übt. Speichern lohnt sich, das ist Dauerbrenner-Stoff. Wo hakt's bei euch: bei der Jahresverknüpfung oder beim AStG?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#stbexamen",
+    "#steuerberater",
+    "#steuerrecht",
+    "#examensvorbereitung",
+    "#klausurvorbereitung",
+    "#steuerberatung",
+    "#ertragsteuern",
+    "#klausurtechnik",
+    "#wegzugsbesteuerung",
+    "#astg",
+    "#progressionsvorbehalt",
+    "#internationalessteuerrecht"
+  ],
+  "kurztitel": "Wegzugsschema: sitzt die Karte?",
+  "bildSzene": "packed suitcase by front door",
+  "bildSzeneAlt": "passport and boarding pass on table",
+  "quellen": [
+    "§ 2 Abs. 7 S. 3 EStG",
+    "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 6 AStG",
+    "§ 17 Abs. 1 EStG",
+    "§ 49 EStG",
+    "§ 19 Abs. 3 InvStG"
+  ],
+  "hookTyp": "fehler",
+  "faktenHinweise": [
+    "Anteile nach § 17 EStG abfragen: Ab 1 % Beteiligung: Wegzugsbesteuerung nach § 6 AStG prüfen: § 6 AStG verlangt neben der Anteilseigenschaft nach § 17 Abs. 1 EStG zusätzlich, dass der Steuerpflichtige innerhalb der letzten 12 Jahre vor dem Wegzug mindestens 7 Jahre unbeschränkt einkommensteuerpflichtig war (§ 6 Abs. 2 AStG). Diese tragende Voraussetzung fehlt im Schema komplett.",
+    "Fondsanteile gesondert sehen: Spezialfall nach § 19 (3) InvStG beachten: Die Zuordnung der Wegzugsbesteuerung von Investmentanteilen zu § 19 Abs. 3 InvStG ist nicht sicher zu verifizieren; die einschlägige Regelung könnte in einem anderen Absatz oder einer anderen Norm des InvStG liegen."
+  ],
+  "faktenFreigabe": {
+    "ok": true,
+    "geprueftAm": "2026-09-24T05:46:15.376Z",
+    "ausgefallen": false,
+    "hinweise": [
+      "Anteile nach § 17 EStG abfragen: Ab 1 % Beteiligung: Wegzugsbesteuerung nach § 6 AStG prüfen: § 6 AStG verlangt neben der Anteilseigenschaft nach § 17 Abs. 1 EStG zusätzlich, dass der Steuerpflichtige innerhalb der letzten 12 Jahre vor dem Wegzug mindestens 7 Jahre unbeschränkt einkommensteuerpflichtig war (§ 6 Abs. 2 AStG). Diese tragende Voraussetzung fehlt im Schema komplett.",
+      "Fondsanteile gesondert sehen: Spezialfall nach § 19 (3) InvStG beachten: Die Zuordnung der Wegzugsbesteuerung von Investmentanteilen zu § 19 Abs. 3 InvStG ist nicht sicher zu verifizieren; die einschlägige Regelung könnte in einem anderen Absatz oder einer anderen Norm des InvStG liegen."
+    ]
+  },
+  "slug": "2026-09-24-b1"
+}
