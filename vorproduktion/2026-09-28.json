@@ -1,0 +1,521 @@
+{
+  "datum": "2026-09-28",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "klausurtechnik",
+        "themaId": "ust-modul-ust-192",
+        "themaTitel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer",
+        "fach": "ust",
+        "klausur": 1
+      },
+      {
+        "slot": "b2",
+        "zeit": "12:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr3-01",
+        "themaTitel": "Beschränkte Steuerpflicht mit DBA: vor",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s3",
+        "zeit": "07:06",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-17"
+      },
+      {
+        "slot": "s4",
+        "zeit": "07:06",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-17"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s5",
+        "zeit": "11:29",
+        "art": "norm",
+        "themaId": "kst-modul-kst-14"
+      },
+      {
+        "slot": "s2",
+        "zeit": "12:00",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "13:31",
+        "art": "countdown",
+        "tageBisExamen": 8
+      },
+      {
+        "slot": "s7",
+        "zeit": "15:36",
+        "art": "merksatz",
+        "themaId": "persg-modul-persg-8"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:23",
+        "art": "begriff",
+        "themaId": "persg-karte-k3-19"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:35",
+        "art": "fehler",
+        "themaId": "ust-modul-ust-177"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "klausurtechnik",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-modul-ust-192",
+      "slug": "2026-09-28-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer",
+          "coverBadge": "Klausurtechnik",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "den Grundtatbestand des § 1a Abs. 1 auswendig strukturiert prüfen",
+            "§ 3d S. 1 und den Sicherungstatbestand des S. 2 unterscheiden",
+            "Steuerentstehung nach § 13 Abs. 1 Nr. 6 zuordnen",
+            "Erwerbsteuer und Vorsteuer nach § 15 Abs. 1 S. 1 Nr. 3 spiegelbildlich erfassen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "§ 1a Abs. 1: Warenbewegung zwischen zwei Mitgliedstaaten, Erwerberstatus und Liefererstatus prüfen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "§ 3d S. 1: Ort am Ende der Beförderung oder Versendung."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Bei fremder USt-IdNr. zusätzlich § 3d S. 2 als Sicherungstatbestand prüfen."
+            },
+            {
+              "titel": "4. Schritt",
+              "text": "Steuerbarkeit nach § 1 Abs. 1 Nr. 5, anschließend BMG und Steuersatz prüfen."
+            },
+            {
+              "titel": "5. Schritt",
+              "text": "Entstehung nach § 13 Abs. 1 Nr. 6 und Steuerschuldner nach § 13a Abs. 1 Nr. 2 bestimmen."
+            }
+          ]
+        },
+        {
+          "art": "text",
+          "titel": "Typischer Fehler",
+          "punkte": [
+            "Den Erwerbsort nach dem Sitz des Erwerbers statt nach dem Ende der Warenbewegung bestimmen.",
+            "Erwerbsteuer und Vorsteuer saldieren, ohne beide Prüfungsschritte auszuweisen."
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Eine EU-Warenbewegung kann beim Lieferer steuerfrei und beim Erwerber zugleich steuerpflichtiger ig. Erwerb sein."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer den Grundtatbestand des § 1a Abs. 1 auswendig strukturiert prüfen § 3d S. 1 und den Sicherungstatbestand des S. 2 unterscheiden Steuerentstehung nach § 13 Abs. 1 Nr. 6 zuordnen § 1a Abs. 1: Warenbewegung zwischen zwei Mitgliedstaaten, Erwerberstatus und Liefererstatus prüfen.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ],
+      "kurztitel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d,…",
+      "coverBadge": "Klausurtechnik",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1a Abs. 1 UStG",
+        "§ 3d S. 1, 2 UStG",
+        "§ 1 Abs. 1 Nr. 5 UStG",
+        "§ 10 Abs. 1 UStG",
+        "§ 12 UStG",
+        "§ 13 Abs. 1 Nr. 6 UStG",
+        "§ 13a Abs. 1 Nr. 2 UStG",
+        "§ 15 Abs. 1 S. 1 Nr. 3 UStG",
+        "§ 15 Abs. 2, 3 UStG",
+        "§ 1a UStG",
+        "Themenpool: ust-modul-ust-192"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr3-01",
+      "slug": "2026-09-28-b2",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Beschränkte Steuerpflicht mit DBA: vor",
+          "unter": "Internationales Steuerrecht",
+          "text": "§ 1 Abs. 4 EStG, Einkunftsart und konkreten §-49-Inlandsanknüpfungspunkt vor dem DBA prüfen.",
+          "norm": "§ 1 Abs. 4 EStG",
+          "icon": null,
+          "sprecher": "Beschränkte Steuerpflicht mit DBA: vor. § 1 Abs. 4 EStG, Einkunftsart und konkreten §-49-Inlandsanknüpfungspunkt vor dem DBA prüfen.",
+          "marken": [
+            "§ 1 Abs. 4 EStG, Einkunftsart und konkreten…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "1. Persönliche Steuerpflicht: kein Wohnsitz/gewöhnlicher…",
+          "text": "§ 1 Abs. 4 EStG, Einkunftsart und konkreten §-49-Inlandsanknüpfungspunkt vor dem DBA prüfen.",
+          "norm": "§ 1 Abs. 4 EStG",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. Persönliche Steuerpflicht: kein Wohnsitz/gewöhnlicher Aufenthalt im Inland → § 1 Abs. 4 EStG..",
+          "marken": [
+            "1. Persönliche Steuerpflicht: kein…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "2. E: Einkunftsart nach §§ 13–24 EStG bestimmen.",
+          "text": "Steuerabzug, Veranlagung und Abgeltungswirkung als dritte Stufe bestimmen.",
+          "norm": "§ 49 EStG",
+          "icon": null,
+          "sprecher": "Schritt 2: 2. E: Einkunftsart nach §§ 13–24 EStG bestimmen..",
+          "marken": [
+            "2. E: Einkunftsart nach §§ 13–24 EStG…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 3,
+          "titel": "3. I: passende Nummer des § 49 Abs. 1 EStG samt…",
+          "text": "Das DBA anschließend nur begrenzend/verteilend einsetzen und danach in das nationale Erhebungsrecht zurückkehren.",
+          "norm": "§ 50 EStG",
+          "icon": null,
+          "sprecher": "Schritt 3: 3. I: passende Nummer des § 49 Abs. 1 EStG samt Inlandsmerkmal prüfen..",
+          "marken": [
+            "3. I: passende Nummer des § 49 Abs. 1 EStG…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 4,
+          "titel": "4. S: Veranlagung oder Steuerabzug (§§ 43 ff./§ 50a) und §…",
+          "text": "Der große Österreich-Fall der Einheit zwingt zur sauberen Trennung von nationalem Steuerzugriff und DBA: Für jede…",
+          "norm": "Art. 1, 2, 4 DBA",
+          "icon": null,
+          "sprecher": "Schritt 4: 4. S: Veranlagung oder Steuerabzug (§§ 43 ff./§ 50a) und § 50-Sonderregeln bestimmen..",
+          "marken": [
+            "4. S: Veranlagung oder Steuerabzug (§§ 43…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 5,
+          "titel": "5. DBA Anwendbarkeit → Ansässigkeit → Verteilung →…",
+          "text": "Die Einkunftsquellen Vermietung, Anteilsveräußerung, Dividende und Aufsichtsratsvergütung werden bewusst…",
+          "norm": "Art. 10/16 DBA",
+          "icon": null,
+          "sprecher": "Schritt 5: 5. DBA Anwendbarkeit → Ansässigkeit → Verteilung → Vermeidung/Quellensteuerbegrenzung..",
+          "marken": [
+            "5. DBA Anwendbarkeit → Ansässigkeit →…"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "begründet den deutschen Zugriff; kann ihn anschließend begrenzen – niemals umgekehrt.",
+          "sprecher": "Merke dir: begründet den deutschen Zugriff; kann ihn anschließend begrenzen – niemals umgekehrt.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "In der Klausur sauber trennen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen getrennt wiederholen.",
+          "sprecher": "Prüfe Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Beschränkte Steuerpflicht mit DBA: vor § 1 Abs. 4 EStG, Einkunftsart und konkreten §-49-Inlandsanknüpfungspunkt vor dem DBA prüfen. Steuerabzug, Veranlagung und Abgeltungswirkung als dritte Stufe bestimmen. Das DBA anschließend nur begrenzend/verteilend einsetzen und danach in das nationale Erhebungsrecht zurückkehren.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Beschränkte Steuerpflicht mit DBA: vor",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1 Abs. 4 EStG",
+        "§ 49 EStG",
+        "§ 50 EStG",
+        "Art. 1, 2, 4 DBA",
+        "Art. 10/16 DBA",
+        "§ 50c EStG",
+        "DBA AAVV",
+        "Themenpool: istr-modul-istr-istr3-01"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-17",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-17"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Welche Verbrauchsfolge ist steuerlich unzulässig?"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-17",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-17"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": ""
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "norm",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-modul-kst-14",
+      "quellen": [
+        "R 8.5 Abs. 1 KStR",
+        "§ 8 Abs. 3 S. 2 KStG",
+        "H 8.9 Nutzungsvorteile KStH",
+        "§ 8b Abs. 1 KStG",
+        "§ 8b Abs. 4 KStG",
+        "§ 8b Abs. 5 KStG",
+        "§ 8 Abs. 3 KStG",
+        "§ 8b KStG",
+        "§ 8b Abs. 4 S. 6 KStG",
+        "Themenpool: kst-modul-kst-14"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "R 8.5 Abs. 1 KStR",
+      "titel": "Gesellschafterdarlehen und Zinsvorteile",
+      "text": "Zinsvorteil und begünstigte Ebene bestimmen verhinderte Vermögensmehrung als vGA erfassen"
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "8",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "merksatz",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-modul-persg-8",
+      "quellen": [
+        "R 4.2 EStR",
+        "H 4.2 EStH",
+        "§ 39 Abs. 2 Nr. 2 S. 1 AO",
+        "§ 15 EStG",
+        "§ 39 Abs. 2 Nr. 2 AO",
+        "Themenpool: persg-modul-persg-8"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Korrespondierende Bilanzierung und Bilanzierungskonkurrenzen",
+      "text": "Bilanzierungskonkurrenz: SBV hat Vorrang."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "begriff",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-karte-k3-19",
+      "quellen": [
+        "Themenpool: persg-karte-k3-19"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Begriff des Tages",
+      "titel": "Was gehört zur Gesamtbilanz der Mitunternehmerschaft?",
+      "text": "Was gehört zur Gesamtbilanz der Mitunternehmerschaft?"
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "fehler",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-177",
+      "quellen": [
+        "§ 13b Abs. 1 UStG",
+        "§ 13b Abs. 2 Nr. 1 UStG",
+        "§ 13b Abs. 2 Nr. 3 UStG",
+        "§ 13b Abs. 2 Nr. 4 UStG",
+        "§ 13b Abs. 2 Nr. 7 UStG",
+        "§ 13b Abs. 2 Nr. 10 UStG",
+        "§ 13b Abs. 2 Nr. 11 UStG",
+        "§ 13b Abs. 5 UStG",
+        "Anlage 3 UStG",
+        "Anlage 4 UStG",
+        "Themenpool: ust-modul-ust-177"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Reverse Charge nach § 13b: Tatbestände, Steuerschuldner und Steuerentstehung",
+      "falsch": "Bei § 13b direkt mit dem Steuerschuldner beginnen und Leistungsort/Steuerbarkeit überspringen.",
+      "richtigText": "§ 13b Abs. 1 und Abs. 2 strukturell unterscheiden"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "datum": "2026-09-27",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "07:30",
+        "format": "wochenrueckblick",
+        "themaId": null,
+        "themaTitel": null,
+        "fach": "wochenrueckblick",
+        "klausur": 4
+      },
+      {
+        "slot": "b2",
+        "zeit": "12:00",
+        "format": "reel",
+        "themaId": "persg-modul-persg-4",
+        "themaTitel": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften",
+        "fach": "persg",
+        "klausur": 3,
+        "lang": true
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s3",
+        "zeit": "07:22",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-19"
+      },
+      {
+        "slot": "s4",
+        "zeit": "07:22",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-19"
+      },
+      {
+        "slot": "s1",
+        "zeit": "07:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s5",
+        "zeit": "11:16",
+        "art": "norm",
+        "themaId": "bilanz-modul-k3-29"
+      },
+      {
+        "slot": "s2",
+        "zeit": "12:00",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "13:13",
+        "art": "countdown",
+        "tageBisExamen": 9
+      },
+      {
+        "slot": "s7",
+        "zeit": "15:39",
+        "art": "formel",
+        "themaId": "bilanz-formel-bewg-vervielfaeltiger"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:46",
+        "art": "merksatz",
+        "themaId": "istr-modul-istr-istr3-09"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:46",
+        "art": "begriff",
+        "themaId": "bilanz-glossar-18"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "wochenrueckblick",
+      "fach": "wochenrueckblick",
+      "klausur": 4,
+      "fachLabel": "Wochenrückblick",
+      "themaId": null,
+      "slug": "2026-09-27-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wochenrückblick: K1 · K2 · K3",
+          "coverBadge": "Wochenrückblick",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Klausur 1 · Verfahrensrecht, USt, ErbSt",
+          "punkte": [
+            "Im Review-Zeitraum noch kein Thema dieser Klausur."
+          ]
+        },
+        {
+          "art": "text",
+          "titel": "Klausur 2 · Ertragsteuern",
+          "punkte": [
+            "Im Review-Zeitraum noch kein Thema dieser Klausur."
+          ]
+        },
+        {
+          "art": "text",
+          "titel": "Klausur 3 · Bilanzen",
+          "punkte": [
+            "Gesamthandsvermögen und Mitunternehmerbilanz: Bestandteile der Gesamtsteuerbilanz benennen"
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Drei Klausuren, eine Wiederholung",
+          "punkte": [
+            "K1: Verfahrensrecht, Umsatzsteuer und Erbschaftsteuer bündeln",
+            "K2: Ertragsteuern mit Norm und Rechenweg wiederholen",
+            "K3: Bilanzposten und Personengesellschaften sauber trennen"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "buch"
+          ]
+        }
+      ],
+      "caption": "Wochenrückblick getrennt nach den drei schriftlichen Klausuren des Steuerberaterexamens.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#examensvorbereitung",
+        "#wochenrückblick"
+      ],
+      "kurztitel": "Wochenrückblick K1 · K2 · K3",
+      "coverBadge": "Wochenrückblick",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "§ 4 Abs. 1 S. 1 EStG",
+        "R 4.2 Abs. 2 EStR",
+        "§ 180 Abs. 1 S. 1 Nr. 2 a) AO",
+        "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
+        "§ 5 EStG",
+        "Themenpool: bilanz-modul-k3-9"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-modul-persg-4",
+      "slug": "2026-09-27-b2",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften",
+          "unter": "Personengesellschaften",
+          "text": "Stufe I Gesellschaft und Stufe II Gesellschafter strikt trennen",
+          "norm": "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 1. HS EStG",
+          "icon": null,
+          "sprecher": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften. Stufe I Gesellschaft und Stufe II Gesellschafter strikt trennen",
+          "marken": [
+            "Stufe I Gesellschaft und Stufe II…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Gesamthandsgewinn laut Bilanz übernehmen und…",
+          "text": "Stufe I Gesellschaft und Stufe II Gesellschafter strikt trennen",
+          "norm": "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 1. HS EStG",
+          "icon": null,
+          "sprecher": "Schritt 1: Gesamthandsgewinn laut Bilanz übernehmen und Vorwegewinne/Gewinnverteilung abbilden..",
+          "marken": [
+            "Gesamthandsgewinn laut Bilanz übernehmen…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Gesellschafterindividuelle Wertkorrekturen der…",
+          "text": "Vorabgewinn, Kapitalverzinsung, Haftungs- und Tätigkeitsvergütungen in der Gewinnverteilung abbilden",
+          "norm": "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 2. HS EStG",
+          "icon": null,
+          "sprecher": "Schritt 2: Gesellschafterindividuelle Wertkorrekturen der Ergänzungsbilanz ergänzen..",
+          "marken": [
+            "Gesellschafterindividuelle Wertkorrekturen…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 3,
+          "titel": "Gewinn laut Sonderbilanz einschließlich Sondervergütungen…",
+          "text": "Ergänzungs- und Sonderbilanzen an der richtigen Stelle ergänzen",
+          "norm": "§ 60 Abs. 2 S. 1 EStDV",
+          "icon": null,
+          "sprecher": "Schritt 3: Gewinn laut Sonderbilanz einschließlich Sondervergütungen und Sonderbetriebsausgaben erfassen..",
+          "marken": [
+            "Gewinn laut Sonderbilanz einschließlich…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 4,
+          "titel": "Außerbilanzielle Korrekturen der Sonderbilanz ergänzen.",
+          "text": "außerbilanzielle Korrekturen der jeweiligen Ebene zuordnen",
+          "norm": "§ 4 Abs. 5 EStG",
+          "icon": null,
+          "sprecher": "Schritt 4: Außerbilanzielle Korrekturen der Sonderbilanz ergänzen..",
+          "marken": [
+            "Außerbilanzielle Korrekturen der…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 5,
+          "titel": "Gewinnanteile der Mitunternehmer und Gesamtgewinn der…",
+          "text": "Die Unterrichtsnotiz stellt die Gewinnermittlung zweistufig dar. Stufe I ist die Gesellschaftsebene mit…",
+          "norm": "§ 79 EStDV",
+          "icon": null,
+          "sprecher": "Schritt 5: Gewinnanteile der Mitunternehmer und Gesamtgewinn der Mitunternehmerschaft zusammenführen..",
+          "marken": [
+            "Gewinnanteile der Mitunternehmer und…"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Stufe I gehört der Gesellschaft, Stufe II den Gesellschaftern – erst die Summe ergibt den steuerlichen Mitunternehmergewinn.",
+          "sprecher": "Merke dir: Stufe I gehört der Gesellschaft, Stufe II den Gesellschaftern – erst die Summe ergibt den steuerlichen Mitunternehmergewinn.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "In der Klausur sauber trennen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen getrennt wiederholen.",
+          "sprecher": "Prüfe Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften Stufe I Gesellschaft und Stufe II Gesellschafter strikt trennen Vorabgewinn, Kapitalverzinsung, Haftungs- und Tätigkeitsvergütungen in der Gewinnverteilung abbilden Ergänzungs- und Sonderbilanzen an der richtigen Stelle ergänzen",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ],
+      "kurztitel": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 1. HS EStG",
+        "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 2. HS EStG",
+        "§ 60 Abs. 2 S. 1 EStDV",
+        "§ 4 Abs. 5 EStG",
+        "§ 79 EStDV",
+        "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG",
+        "§ 60 Abs. 2 EStDV",
+        "Themenpool: persg-modul-persg-4"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-19",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-19"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-19",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-19"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": ""
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-29",
+      "quellen": [
+        "§ 249 Abs. 1 S. 1 HGB",
+        "§ 249 Abs. 1 S. 2 Nr. 1 HGB",
+        "§ 249 Abs. 2 S. 1 HGB",
+        "§ 5 Abs. 3 EStG",
+        "§ 5 Abs. 4 EStG",
+        "§ 5 Abs. 4a S. 1 EStG",
+        "§ 5 Abs. 4b EStG",
+        "§ 6 Abs. 1 Nr. 3a Buchst. a–f EStG",
+        "R 5.7 Abs. 2–13 EStR",
+        "§ 249 HGB",
+        "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB",
+        "Themenpool: bilanz-modul-k3-29"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 249 Abs. 1 S. 1 HGB",
+      "titel": "Rückstellungskatalog für die Klausur",
+      "text": "die gängigen Rückstellungsarten sicher zuordnen steuerliche Ansatzverbote und Sonderregeln kennen"
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "9",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "formel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-formel-bewg-vervielfaeltiger",
+      "quellen": [
+        "§ 12 Abs. 3 BewG",
+        "§ 6 Abs. 1 Nr. 3 EStG",
+        "Themenpool: bilanz-formel-bewg-vervielfaeltiger"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Rechenweg",
+      "titel": "Vervielfältiger nach § 12 Abs. 3 BewG",
+      "formel": "Vervielfältiger nach § 12 Abs. 3 BewG",
+      "text": ""
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "merksatz",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr3-09",
+      "quellen": [
+        "§ 2 Nr. 1 KStG",
+        "§ 7 KStG",
+        "§ 8 KStG",
+        "§ 49 EStG",
+        "§ 8b KStG",
+        "§ 32 KStG",
+        "§§ 7, 8 KStG",
+        "Themenpool: istr-modul-istr-istr3-09"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Beschränkte Körperschaftsteuerpflicht: § 2 Nr. 1 KStG und § 49 EStG",
+      "text": "Bei beschränkter KSt-Pflicht ist § 49 der Türsteher; § 8b und § 32 bestimmen erst danach die steuerliche Behandlung."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "begriff",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-18",
+      "quellen": [
+        "§ 274 Abs. 1 HGB",
+        "Themenpool: bilanz-glossar-18"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Begriff des Tages",
+      "titel": "Permanente Differenz",
+      "text": "Permanente Differenz",
+      "norm": "§ 274 Abs. 1 HGB"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

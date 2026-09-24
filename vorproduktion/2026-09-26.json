@@ -1,0 +1,501 @@
+{
+  "datum": "2026-09-26",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-9",
+        "themaTitel": "Gesamthandsvermögen und Mitunternehmerbilanz",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "12:00",
+        "format": "reel",
+        "themaId": "mindset-1",
+        "themaTitel": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft",
+        "fach": "mindset",
+        "klausur": 0,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s3",
+        "zeit": "07:05",
+        "art": "frage",
+        "themaId": "ust-karte-ust-6"
+      },
+      {
+        "slot": "s4",
+        "zeit": "07:05",
+        "art": "antwort",
+        "themaId": "ust-karte-ust-6"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s5",
+        "zeit": "11:28",
+        "art": "norm",
+        "themaId": "ust-modul-ust-224"
+      },
+      {
+        "slot": "s2",
+        "zeit": "12:00",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "13:22",
+        "art": "countdown",
+        "tageBisExamen": 10
+      },
+      {
+        "slot": "s7",
+        "zeit": "15:23",
+        "art": "zahl",
+        "themaId": "ao-modul-ao-375"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:40",
+        "art": "formel",
+        "themaId": "bilanz-formel-sonder-afa"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:38",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-302"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-9",
+      "slug": "2026-09-26-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Gesamthandsvermögen und Mitunternehmerbilanz",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Bestandteile der Gesamtsteuerbilanz benennen",
+            "Gesamthand, Sonderbereich und Ergänzungsbereich zuordnen",
+            "Gesamtgewinn und Gewinnanteile abstimmen",
+            "Spiegelbildmethode bei Beteiligungen verstehen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Rechtsträger und zivilrechtliches Eigentum feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Wirtschaftsgüter der Gesellschaft in der Gesamthandsbilanz erfassen."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Gesellschaftereigene Wirtschaftsgüter auf SBV prüfen."
+            },
+            {
+              "titel": "4. Schritt",
+              "text": "Gesellschafterbezogene Mehr-/Minderwerte in Ergänzungsbilanzen erfassen."
+            },
+            {
+              "titel": "5. Schritt",
+              "text": "Teilergebnisse zum Gesamtgewinn zusammenführen."
+            }
+          ]
+        },
+        {
+          "art": "text",
+          "titel": "Typischer Fehler",
+          "punkte": [
+            "Nur die Handelsbilanz der Gesellschaft auswerten.",
+            "Sonderbetriebsausgaben als Privatbereich ignorieren.",
+            "Gesamtsteuerbilanz mit einer einzigen Bilanz gleichsetzen."
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Die Mitunternehmerschaft hat drei Bilanzen. Wer nur die Gesamthandsbilanz auswertet, löst höchstens ein Drittel des Falls."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Gesamthandsvermögen und Mitunternehmerbilanz Bestandteile der Gesamtsteuerbilanz benennen Gesamthand, Sonderbereich und Ergänzungsbereich zuordnen Gesamtgewinn und Gewinnanteile abstimmen Rechtsträger und zivilrechtliches Eigentum feststellen.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Gesamthandsvermögen und Mitunternehmerbilanz",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "§ 4 Abs. 1 S. 1 EStG",
+        "R 4.2 Abs. 2 EStR",
+        "§ 180 Abs. 1 S. 1 Nr. 2 a) AO",
+        "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
+        "§ 5 EStG",
+        "Themenpool: bilanz-modul-k3-9"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "mindset",
+      "klausur": 0,
+      "fachLabel": "Kopfsache",
+      "themaId": "mindset-1",
+      "slug": "2026-09-26-b2",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft",
+          "unter": "Kopfsache",
+          "text": "ein konkretes Abendritual",
+          "norm": null,
+          "icon": null,
+          "sprecher": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft. ein konkretes Abendritual",
+          "marken": [
+            "ein konkretes Abendritual"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "ein konkretes Abendritual",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: ein konkretes Abendritual.",
+          "marken": [
+            "ein konkretes Abendritual"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Schlaf vor Wiederholung",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Schlaf vor Wiederholung.",
+          "marken": [
+            "Schlaf vor Wiederholung"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 3,
+          "titel": "Materialien am Vorabend packen",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 3: Materialien am Vorabend packen.",
+          "marken": [
+            "Materialien am Vorabend packen"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 4,
+          "titel": "Angst ist normal und sogar nützlich – solange sie nicht das…",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 4: Angst ist normal und sogar nützlich – solange sie nicht das Denken blockiert..",
+          "marken": [
+            "Angst ist normal und sogar nützlich –…"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Nichts Neues mehr lernen, nur noch Ruhe organisieren.",
+          "sprecher": "Merke dir: Nichts Neues mehr lernen, nur noch Ruhe organisieren.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "In der Klausur sauber trennen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen getrennt wiederholen.",
+          "sprecher": "Prüfe Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft ein konkretes Abendritual Schlaf vor Wiederholung Materialien am Vorabend packen",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#kopfsache"
+      ],
+      "kurztitel": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "Themenpool: mindset-1"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-karte-ust-6",
+      "quellen": [
+        "Themenpool: ust-karte-ust-6"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Mindestbemessungsgrundlage (§ 10 Abs. 5 UStG)"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-karte-ust-6",
+      "quellen": [
+        "Themenpool: ust-karte-ust-6"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": ""
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "norm",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-224",
+      "quellen": [
+        "§ 15 Abs. 1 S. 2 UStG",
+        "§ 15 Abs. 1b UStG",
+        "A 15.2c UStAE",
+        "§ 27 Abs. 16 UStG",
+        "§ 15 Abs. 1 S. 2, Abs. 1b UStG",
+        "A 15.2b/15.2c UStAE",
+        "§ 15a UStG",
+        "BMF 01.04.2026 – III C 2 - S 7316/00022/007/023",
+        "Themenpool: ust-modul-ust-224"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 15 Abs. 1 S. 2 UStG",
+      "titel": "Gemischte Nutzung und Zuordnung zum Unternehmen: Aufteilungsgebot oder Zuordnungswahlrecht",
+      "text": "unternehmensfremde/private Nutzung und nichtwirtschaftliche Tätigkeit i. e. S. auseinanderhalten Zuordnungswahlrecht nur für die dafür vorgesehenen gemischt privat/unternehmerisch genutzten einheitlichen Gegenstände anwenden"
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "10",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "zahl",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-375",
+      "quellen": [
+        "§ 179 Abs. 2 S. 1 AO",
+        "§ 14a Abs. 2 Nr. 2 AO",
+        "§ 14a Abs. 3 Nr. 3 AO",
+        "§ 183 AO",
+        "§ 183a AO",
+        "§ 125 Abs. 4 AO",
+        "§§ 179, 183 und 183a AO",
+        "§ 14a Abs. 2 Nr. 2 und Abs. 3 Nr. 3 AO",
+        "§ 14a Abs. 2–4 AO",
+        "Art. 97 § 39 Abs. 3 EGAO",
+        "Themenpool: ao-modul-ao-375"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "6 Punkte",
+      "zahl": "6",
+      "titel": "Bekanntgabe von GuE-Bescheiden: rechtsfähige und nicht rechtsfähige Personenvereinigungen",
+      "text": "Diese Punkte tragen die sichtbare Prüfungsstruktur."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "formel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-formel-sonder-afa",
+      "quellen": [
+        "§ 7g Abs. 5, Abs. 6 Nr. 1, 2 EStG",
+        "Themenpool: bilanz-formel-sonder-afa"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Rechenweg",
+      "titel": "Sonderabschreibung nach § 7g Abs. 5 EStG",
+      "formel": "Sonderabschreibung nach § 7g Abs. 5 EStG",
+      "text": ""
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-302",
+      "quellen": [
+        "§ 88 AO",
+        "§ 92 AO",
+        "§ 93 AO",
+        "§ 97 AO",
+        "§§ 85 ff. AO",
+        "Themenpool: ao-modul-ao-302"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Ermittlungsverfahren: Untersuchungsgrundsatz, Mitwirkung und Beweismittel",
+      "text": "Untersuchungsgrundsatz bedeutet nicht, dass das Finanzamt ohne Mitwirkung des Steuerpflichtigen ermitteln muss."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}
