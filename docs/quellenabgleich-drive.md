@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Zweiter Download-Versuch (Drive) und ESt-Originalklausuren 2013, Sachverhalt 1
+
+Auf Wunsch erneut versucht: Die Dateien „Ertragsteuern · Steuerberaterprüfungen 2011–2015“ (`1QwClx7BL_66vssgQcF4xq7CIzknvfIcy`, 139 Seiten), „Bilanzierung · Steuerberaterprüfungen 2011–2015“ (`1IXnBjpvc8EiQuhxGNAX6EC3jtSh8wOWZ`, 205 Seiten) und das KSt-Kurzskript (Breier) (`1y8gIRktpHe5VRBSIX8mTTVmQTypNQYY0`, 196 Seiten) ließen sich jetzt vollständig herunterladen und lokal auswerten. Das ESt-Kurzskript I (`1DdIbwtK4vfHU4w15uayCsg_VdaD7Afft`, 6,6 MB) scheitert weiterhin: Die Drive-Verbindung bricht bei jedem Versuch ab (zweimal).
+
+Übernommen: ESt-Originalklausur 2013 (Klausur E 18), Sachverhalt 1 (Malermeister U, Einbringung und § 22 UmwStG, 14 Punkte) – PDF-Seiten 74, 75, 85 und 86.
+
+- Stillschweigend berichtigt: „R 7.1 Satz 1 Abs. 3 Nr. 2 GewStR“ → „R 7.1 Abs. 3 Satz 1 Nr. 2 GewStR“.
+- Nachrechnung (eigene Ergänzung): Einbringungsgewinn I 180.000 ./. 110.000 = 70.000 ./. 1/7 = 60.000 €; AK 220.000 €; § 17 ./. 66.000 €; Randpunkte 7 + 7 = 14. Alle stimmig.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 9 Sachverhalte, 331 Blöcke, 35 Tabellen, 139 Punkte.
+
+Weiter mit: Prüfung 2013, Sachverhalt 2 (K, Einnahmenüberschussrechnung), Aufgabe PDF-Seiten 76/77, Lösung ab PDF-Seite 87.
+
 ### USt-Skript (Moecker), Block 13: Arbeitspapiere A 25 bis A 27 – Block 13 und USt-Skript vollständig
 
 Übernommen (PDF-Seiten 67 bis 69, Seiten gerendert und angesehen): Kapitel ust-m-b13-38 (A 25 Gegenstandszuwendung aus unternehmerischen Gründen, A 26 Übung Aktenkoffer) und ust-m-b13-39 (A 27 Computer-Fälle). Block 13 ist damit vollständig (39 Kapitel). Das USt-Skript (Moecker) liegt mit allen 13 Blöcken (14 Teile einschließlich Block 8 Teil I und II) vollständig vor; Kopfkommentare, README, Campus-Text, Skript-Kopf und offene-quellen.md entsprechend angepasst.

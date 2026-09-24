@@ -1878,6 +1878,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   ErbbauRG und aus dem DBA-Österreich) stehen mit ihren tragenden Vorschriften im Wortlaut
   im Datensatz. Eine Rundungsdifferenz von einem Euro bei der Zerlegung ist als **eigene
   Feststellung** gekennzeichnet.
+  Aus der **Prüfung 2013** (Klausur E 18, fünf Sachverhalte; seit dem zweiten Download-Versuch
+  vollständig verfügbar, in Arbeit): **Sachverhalt 1 (Malermeister U, 14 Punkte)** – Einbringung
+  zu Buchwerten und Verkauf der Anteile nach 14 Monaten: Einbringungsgewinn I 60.000 € rückwirkend
+  im Jahr 10 (ohne die über § 22 Abs. 2 UmwStG laufenden A-GmbH-Anteile), Anschaffungskosten
+  220.000 € und daraus ein Verlust nach § 17 EStG von 66.000 €.
   Prüfung: `npm run check:k2-est-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,
