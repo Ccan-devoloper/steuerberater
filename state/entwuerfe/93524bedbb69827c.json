@@ -1,0 +1,24 @@
+{
+  "datum": "2026-09-24",
+  "zweck": "stories",
+  "daten": {
+    "stories": [
+      {
+        "slot": "s7",
+        "art": "fehler",
+        "ueberzeile": null,
+        "titel": "Streubesitzgrenze auf Anteilsveräußerung übertragen",
+        "text": null,
+        "norm": null,
+        "formel": null,
+        "zahl": null,
+        "optionen": null,
+        "richtig": null,
+        "falsch": "Die 10-%-Streubesitzgrenze für Dividenden wird auch auf den Veräußerungsgewinn angewendet – Freistellung deshalb versagt.",
+        "richtigText": "Bei Anteilsveräußerungen gilt keine Mindestbeteiligungsquote: Freistellung nach § 8b (2) S. 1 KStG immer, 5 % gelten pauschal als nicht abziehbar (§ 8b (3) S. 1 KStG).",
+        "icon": "kurve-runter",
+        "bildSzene": null
+      }
+    ]
+  }
+}
