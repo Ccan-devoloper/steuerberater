@@ -2292,7 +2292,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Abwandlung: Eintritt eines Gesellschafters mit positiver und negativen Ergänzungsbilanzen (§ 24
   UmwStG). Als **eigene Feststellung** vermerkt: Der steuerliche Gesamthandsgewinn beträgt nach den
   Korrekturbuchungen 197.040 € statt der ausgewiesenen 197.840 € (Vorzeichen- und Summenfehler).
-  Teil III 2014 und die Prüfung 2015 folgen.
+  **Teil III der Prüfung 2014** (Elektronikmarkt GmbH, 33 Punkte): Betriebsprüfung in drei Buchungskreisen
+  (Anpassung über den Gewinnvortrag, Steuerrückstellungen 62.400 €), aktive latente Steuern 37.800 € aus
+  Firmenwert und Drohverlustrückstellung, Rangrücktritt nach § 5 Abs. 2a EStG, handelsrechtliche
+  Abschreibung einer Gesellschafterforderung um 240.000 € (steuerlich keine wegen vGA), § 6b-Rücklage
+  150.000 € mit passiven latenten Steuern 45.000 €, Einlagenrückgewähr der Tochter (Buchwertminderung
+  100.000 €, 20.000 € nach § 8b Abs. 2 KStG). Randpunkte 33 – stimmen. Damit ist die **Prüfung 2014
+  vollständig**; die Prüfung 2015 folgt.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,

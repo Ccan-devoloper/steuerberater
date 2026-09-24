@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2014, Teil III (Elektronikmarkt GmbH) – Prüfung 2014 vollständig
+
+Übernommen: Prüfung 2014, Teil III – Sachverhalt mit Mehr- und Wenigerrechnung und Bp-Bilanzen (PDF-Seiten 140 bis 146; Seiten 143 bis 145 gerendert) und Lösung (PDF-Seiten 162 bis 166; Seiten 162 bis 165 gerendert).
+
+- Gekennzeichnet: „mit Wirkung ab Juli 2023“; „Jahresabschluss zum 31.12.2024“ beim Drohverlust (31.12.2025).
+- Stillschweigend berichtigt: sieben Schreibversehen, darunter „Elektromarkt“ und „§ 8 Abs. 3 Satz 2 EStG“ → KStG.
+- Nachrechnung (eigene Ergänzung): Mehr- und Wenigerrechnung, latente Steuern 37.800 €, 900 €, 45.000 €, 1.500 € und die Einlagenrückgewähr stimmen; Randpunkte 33 wie angegeben.
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 12 Aufgabenteile, 1014 Blöcke, 176 Tabellen, 399 Punkte.
+
+Weiter mit: Bilanz-Prüfung 2015, Teil I (Einzelunternehmen Ludwig Lenz; Sachverhalt ab Zeile 13342, Lösung ab Zeile 14425 der Textfassung).
+
 ### Bilanz-Originalklausuren 2014, Teil II (InKa-GbR)
 
 Übernommen: Prüfung 2014, Teil II mit Abwandlung – Sachverhalt (PDF-Seiten 135 bis 139; die Bilanzen auf den Seiten 136 und 139 gerendert) und Lösung (PDF-Seiten 156 bis 161; Seiten 159 und 160 gerendert).
