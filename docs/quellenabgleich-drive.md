@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 5 C. Pensionszusagen (PDF-Seiten 129 bis 136) – Teil 5 vollständig
+
+Übernommen: C. Pensionszusagen an Gesellschafter-Geschäftsführer mit I. § 6a EStG, II. Verhältnis zur vGA, III. gesellschaftsrechtliche Veranlassung (Ernsthaftigkeit, Erdienbarkeit, Abfindung, Weiterbeschäftigung, Rentner-GmbH) und Merke (Abschnitt 5-11).
+
+- Gekennzeichnet: „A ist zu diesem Zeitpunkt bereits 58 Jahre alt“ (gemeint E); Buchung „Pensionsrückstellung 950.000 an Bank 950.000“, obwohl die Rückstellung nur 800.000 beträgt (die Aufgliederung in der Quelle geht von 800.000 aus).
+- Stillschweigend berichtigt: „ein sog. Überversorgung“; „Gesellschaftsrechtlichen Veranlassung“ (Überschrift); „zu 31.12.18“; „versichungsmathematische“; „der zusammengerechnet“ → „da“; „Arbeitsnehmers“; „vom. 30.11.2017“; „Geselschaft“.
+- Nachrechnung (eigene Ergänzung): 75 % von 6.000 = 4.500 €; 240.000 ./. 230.000 = 10.000 €, 270.000 ./. 240.000 = 30.000 €; 40.000 + 4 × 30.000 = 160.000 €; 800.000 ./. 740.000 = 60.000 €, 12 × 7.500 = 90.000 €, 12 × 1.500 = 18.000 €; Rentner-GmbH 150.000 € (1/15 = 10.000 €, Rest 140.000 €), 110.000 € × 14/15 = 102.666,67 € (Quelle 102.666) – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 5 Teile, 42 Kapitel, 1654 Blöcke, 45 Tabellen.
+
+Weiter mit: Teil 6 „Verluste von Körperschaften“ (PDF-Seite 137; Textfassung ab Zeile 8343).
+
 ### KSt-Kurz-Skript (Breier), Teil 5 B. IV und B. V (PDF-Seiten 122 bis 129)
 
 Übernommen: B. IV beherrschende Gesellschafter (Beherrschung, gleichgerichtete Interessen, zivilrechtliche Wirksamkeit, Form und Nachweis) und B. V Rückwirkungsverbot, klare Vereinbarung, Durchführungsgebot und nahestehende Personen mit Merke-Übersicht (Abschnitt 5-10; Seite 128 gerendert).

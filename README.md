@@ -1230,10 +1230,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Vorteilsausgleich sowie die Verbrauchs-/Fiktionstheorie mit der großen Merke-Übersicht, vGA
   bei Schwestergesellschaften und im Dreieck, gesellschaftsrechtliche Veranlassung mit
   Unangemessenheit, unüblichen Vereinbarungen und Risikogeschäften, beherrschende
-  Gesellschafter mit Rückwirkungsverbot und Durchführungsgebot – zusammen 41 Abschnitte,
-  1545 Blöcke, 43 Tabellen.
-  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 5 und
-  die Teile 6 bis 10 werden abschnittsweise nachgetragen
+  Gesellschafter mit Rückwirkungsverbot und Durchführungsgebot sowie Pensionszusagen an
+  Gesellschafter-Geschäftsführer (Überversorgung, Zusagealter, Probe- und Wartezeit,
+  Erdienbarkeit, Abfindung, Weiterbeschäftigung, Rentner-GmbH) – Teil 5 damit vollständig;
+  zusammen 42 Abschnitte, 1654 Blöcke, 45 Tabellen.
+  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; die Teile 6 bis 10
+  werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):
