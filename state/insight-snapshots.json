@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-24T10:44:13.524Z",
+  "stand": "2026-09-24T11:43:47.237Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -4618,6 +4618,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-24T11:43:46.078Z",
+          "alterStunden": 5,
+          "reach": 19,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -4646,6 +4658,35 @@
           "navigation_tap_forward": 8,
           "navigation_tap_exit": 2,
           "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18117180511970668": {
+      "art": "story",
+      "datum": "2026-09-24",
+      "titel": "Schwellenerwerber und neue Fahrzeuge im Erwerbstatbestand",
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-24T09:44:51.796Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-24T11:43:44.242Z",
+          "alterStunden": 2,
+          "reach": 11,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 16,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 5,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 7
         }
       ]
     }
@@ -4908,6 +4949,11 @@
     },
     {
       "stand": "2026-09-24T10:44:13.524Z",
+      "follower": 74,
+      "medien": 60
+    },
+    {
+      "stand": "2026-09-24T11:43:47.237Z",
       "follower": 74,
       "medien": 60
     }

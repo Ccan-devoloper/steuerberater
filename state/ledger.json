@@ -4678,17 +4678,17 @@
       "veroeffentlicht": "2026-09-24T06:46:38.255Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-24/2026-09-24-b1-02-muf64i4x.jpg",
       "insights": {
-        "reach": 17,
-        "saved": 0,
+        "reach": 19,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-09-24T09:44:36.379Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-09-24T11:43:46.078Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-24",
@@ -4726,7 +4726,24 @@
       "fach": "ust",
       "titel": "Schwellenerwerber und neue Fahrzeuge im Erwerbstatbestand",
       "medienId": "18117180511970668",
-      "veroeffentlicht": "2026-09-24T09:44:51.796Z"
+      "veroeffentlicht": "2026-09-24T09:44:51.796Z",
+      "insights": {
+        "reach": 11,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 5,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 7
+      },
+      "insightsStand": "2026-09-24T11:43:44.242Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
