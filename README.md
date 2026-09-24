@@ -2298,7 +2298,13 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Abschreibung einer Gesellschafterforderung um 240.000 € (steuerlich keine wegen vGA), § 6b-Rücklage
   150.000 € mit passiven latenten Steuern 45.000 €, Einlagenrückgewähr der Tochter (Buchwertminderung
   100.000 €, 20.000 € nach § 8b Abs. 2 KStG). Randpunkte 33 – stimmen. Damit ist die **Prüfung 2014
-  vollständig**; die Prüfung 2015 folgt.
+  vollständig**.
+  **Teil I der Prüfung 2015** (Einzelunternehmen Ludwig Lenz, 34 Punkte): Wertaufholung nach
+  Teilwertabschreibung bis zu den um den § 6b-Abzug geminderten fortgeführten Herstellungskosten
+  (+ 239.700 €), Perioden-Lifo (Bilanzansatz 4.108 €), Bewertungseinheit aus SGD-Forderung und
+  Devisentermingeschäft (Drohverlust 233 €) und Teilbetriebsverkauf mit Schuldübernahme nach § 4f
+  EStG (Hinzurechnung 36.400 €) – Einkünfte aus Gewerbebetrieb 474.453 €. Alles nachgerechnet, 34
+  Punkte stimmen. Die Teile II und III 2015 folgen.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,

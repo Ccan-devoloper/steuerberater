@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2015, Teil I (Einzelunternehmen Ludwig Lenz)
+
+Übernommen: Prüfung 2015, allgemeine Hinweise und Teil I (PDF-Seiten 167 bis 171, Anlagevordruck), Lösungshinweis mit Notenschema und Anlage (PDF-Seiten 183 bis 189; Seiten 184, 185 und 187 bis 189 gerendert und angesehen).
+
+- Gekennzeichnet: Mietvertrag „bis zum 31.12.2027“ (nach der Rechnung 2028).
+- Stillschweigend berichtigt: neun Schreibversehen (siehe Datensatz).
+- Nachrechnung (eigene Ergänzung): Zuschreibung 239.700 €, Lifo 4.108 €, Drohverlust 233 €, § 4f 36.400 €, Einkünfte 474.453 € – alles stimmig; Randpunkte 34 wie angegeben.
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 13 Aufgabenteile, 1091 Blöcke, 187 Tabellen, 433 Punkte.
+
+Weiter mit: Bilanz-Prüfung 2015, Teil II (Althaus und Bauermann OHG; Sachverhalt ab Zeile 13603, Lösung ab Zeile 14961 der Textfassung).
+
 ### Bilanz-Originalklausuren 2014, Teil III (Elektronikmarkt GmbH) – Prüfung 2014 vollständig
 
 Übernommen: Prüfung 2014, Teil III – Sachverhalt mit Mehr- und Wenigerrechnung und Bp-Bilanzen (PDF-Seiten 140 bis 146; Seiten 143 bis 145 gerendert) und Lösung (PDF-Seiten 162 bis 166; Seiten 162 bis 165 gerendert).
