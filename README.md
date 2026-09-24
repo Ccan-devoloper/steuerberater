@@ -2304,7 +2304,12 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   (+ 239.700 €), Perioden-Lifo (Bilanzansatz 4.108 €), Bewertungseinheit aus SGD-Forderung und
   Devisentermingeschäft (Drohverlust 233 €) und Teilbetriebsverkauf mit Schuldübernahme nach § 4f
   EStG (Hinzurechnung 36.400 €) – Einkünfte aus Gewerbebetrieb 474.453 €. Alles nachgerechnet, 34
-  Punkte stimmen. Die Teile II und III 2015 folgen.
+  Punkte stimmen.
+  **Teil II der Prüfung 2015** (Althaus und Bauermann OHG, 34 Punkte laut Randpunkten – eine
+  Gesamtpunktzahl nennt die Quelle nicht): erfolgswirksame Bilanzberichtigung 2024 (+ 6.000 €),
+  Anteilsverkauf B an N mit Veräußerungsgewinn 378.000 € und Gewinnzuschlag 9.600 €, Ergänzungsbilanz
+  A (§ 6b-Rücklage 120.000 €) und N (298.000 €, Verlust 2025 10.800 €), Sonderbilanz N (Gewinn
+  19.900 €) – festzustellender Gewinn 696.700 €. Alles nachgerechnet. Teil III 2015 folgt.
   Prüfung: `npm run check:k3-bil-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k3-bil-pruefungsklausuren.js`,

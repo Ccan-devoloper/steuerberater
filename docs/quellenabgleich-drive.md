@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Bilanz-Originalklausuren 2015, Teil II (Althaus und Bauermann OHG)
+
+Übernommen: Prüfung 2015, Teil II – Sachverhalt mit Bilanzen 31.12.2024 und 31.12.2025 (PDF-Seiten 172 bis 174; Seiten 173 und 174 gerendert) und Lösung (PDF-Seiten 190 bis 198; Seiten 191 bis 194 und 196 bis 198 gerendert).
+
+- Gekennzeichnet: Teilwert-Stichtag „31.12.2023 / 01.01.2024“ (verwendet als 01.01.2025), „§ 6b Abs. 2 EStG“ (Abs. 3), „Mehrkapital“ in der Sonderbilanz 31.12.2025.
+- Stillschweigend berichtigt: sechs Schreibversehen (siehe Datensatz).
+- Nachrechnung (eigene Ergänzung): Bilanz 2024 berichtigt 3.903.600 €, § 16-Gewinn 378.000 €, Gewinnzuschlag 9.600 €, stille Reserven 268.000 € + Firmenwert 30.000 €, 13,5 / 19,8 Jahre, Sonderbilanz-Gewinn 19.900 €, Feststellung 696.700 € – alles stimmig. Eine Gesamtpunktzahl nennt die Quelle nicht; die Randpunkte ergeben 34.
+
+Prüfung danach: Bilanz-Originalklausuren in Ordnung: 14 Aufgabenteile, 1157 Blöcke, 208 Tabellen, 467 Punkte.
+
+Weiter mit: Bilanz-Prüfung 2015, Teil III (Müller Holzbau GmbH; Sachverhalt ab Zeile 13922, Lösung ab Zeile 15673 der Textfassung).
+
 ### Bilanz-Originalklausuren 2015, Teil I (Einzelunternehmen Ludwig Lenz)
 
 Übernommen: Prüfung 2015, allgemeine Hinweise und Teil I (PDF-Seiten 167 bis 171, Anlagevordruck), Lösungshinweis mit Notenschema und Anlage (PDF-Seiten 183 bis 189; Seiten 184, 185 und 187 bis 189 gerendert und angesehen).
