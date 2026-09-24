@@ -332,22 +332,24 @@
       "stand": "2026-09-23T19:15:14.195Z"
     },
     "2026-09-24": {
-      "usd": 0.2149,
+      "usd": 0.3006,
       "antworten": 0,
-      "aufrufe": 8,
+      "aufrufe": 9,
       "zwecke": {
         "stories": 0.072,
         "story-faktencheck": 0.0156,
         "autor": 0.0906,
-        "faktencheck": 0.0368
+        "faktencheck": 0.0368,
+        "reel": 0.0857
       },
       "messungen": {
         "stories": 0.0606,
         "story-faktencheck": 0.0085,
         "autor": 0.06,
-        "faktencheck": 0.0245
+        "faktencheck": 0.0245,
+        "reel": 0.0857
       },
-      "stand": "2026-09-24T05:46:15.375Z"
+      "stand": "2026-09-24T05:46:53.813Z"
     }
   }
 }

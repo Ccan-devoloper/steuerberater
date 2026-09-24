@@ -1,0 +1,136 @@
+{
+  "datum": "2026-09-24",
+  "zweck": "reel",
+  "daten": {
+    "szenen": [
+      {
+        "art": "hook",
+        "nummer": null,
+        "titel": "RfE: welche Frist gilt?",
+        "unter": "Rücklage für Ersatzbeschaffung",
+        "text": null,
+        "norm": null,
+        "icon": "feuer",
+        "sprecher": "Eine Lagerhalle brennt ab – wie lange hast du Zeit, die Rücklage für Ersatzbeschaffung in ein neues Gebäude zu stecken?",
+        "marken": [
+          "RfE: *welche* Frist?",
+          "Rücklage für Ersatzbeschaffung"
+        ],
+        "bildSzene": "burned warehouse structure remains",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 1,
+        "titel": "Ausscheiden durch höhere Gewalt",
+        "unter": null,
+        "text": "Brand, Enteignung, Unfall – nicht der freiwillige Verkauf",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Die Rücklage funktioniert nur bei höherer Gewalt oder behördlichem Eingriff. Wer freiwillig verkauft, hat keine stillen Reserven zu retten – das ist ein typischer Aufbaufehler.",
+        "marken": [
+          "Höhere *Gewalt* nötig",
+          "Freiwilliger Verkauf?"
+        ],
+        "bildSzene": "empty factory floor after fire",
+        "kreuz": true
+      },
+      {
+        "art": "schritt",
+        "nummer": 2,
+        "titel": "Ersatzbeschaffung ernsthaft geplant?",
+        "unter": null,
+        "text": "Funktionsgleiches Wirtschaftsgut muss am Jahresende feststehen",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Am Ende des Ausscheidensjahres muss der Steuerpflichtige ernsthaft ein funktionsgleiches Ersatzwirtschaftsgut planen. Ohne diese Absicht gibt es keine Rücklage.",
+        "marken": [
+          "*Absicht* am Bilanzstichtag",
+          "Funktionsgleich, nicht irgendein Gut"
+        ],
+        "bildSzene": "architect sketching replacement building plan",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 3,
+        "titel": "Frist: 1, 4 oder 6 Jahre?",
+        "unter": null,
+        "text": "Beweglich 1 Jahr, § 6b-Gut 4 Jahre, neues Gebäude 6 Jahre",
+        "norm": "R 6.6 (4) EStR",
+        "icon": null,
+        "sprecher": "Nach Verwaltungsauffassung gilt für bewegliche Wirtschaftsgüter grundsätzlich nur ein Jahr, verlängerbar bis vier. Für Wirtschaftsgüter im Sinne des Paragrafen 6b Absatz 1 Satz 1 EStG gelten vier Jahre, für ein neu hergestelltes Gebäude sechs Jahre.",
+        "marken": [
+          "Verwaltung: 1 · 4 · *6* Jahre",
+          "§ 6b EStG"
+        ],
+        "bildSzene": "blueprint rolled beside calendar pages",
+        "kreuz": false
+      },
+      {
+        "art": "schritt",
+        "nummer": 4,
+        "titel": "BFH sieht das anders",
+        "unter": null,
+        "text": "Vier Jahre allgemein, sechs bei neuem Gebäude",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Der Bundesfinanzhof hat im Urteil vom 12. Januar 2012 die Reinvestitionsfrist allgemein mit vier Wirtschaftsjahren beschrieben, bei einem neu hergestellten funktionsgleichen Gebäude mit sechs Jahren. In der Klausur beide Sichtweisen nennen.",
+        "marken": [
+          "BFH: *4* und 6 Jahre",
+          "IV R 4/09"
+        ],
+        "bildSzene": "stack of bound court decisions",
+        "kreuz": false
+      },
+      {
+        "art": "merke",
+        "nummer": null,
+        "titel": "Merksatz",
+        "unter": null,
+        "text": "Verwaltung und Rechtsprechung ticken bei der Frist unterschiedlich – wer das vermischt, verschenkt Punkte.",
+        "norm": "R 6.6 EStR · § 6b EStG",
+        "icon": null,
+        "sprecher": "Verwaltung und Bundesfinanzhof ticken bei der Frist unterschiedlich – wer das vermischt, verschenkt Punkte.",
+        "marken": [
+          "Verwaltung ≠ *BFH*"
+        ],
+        "bildSzene": null,
+        "kreuz": false
+      },
+      {
+        "art": "cta",
+        "nummer": null,
+        "titel": "Ohne Absicht: Auflösung",
+        "unter": null,
+        "text": "Fristablauf oder Aufgabe der Absicht – Rücklage gewinnerhöhend auflösen",
+        "norm": null,
+        "icon": null,
+        "sprecher": "Fällt die Ersatzbeschaffungsabsicht weg oder läuft die Frist ab, wird die Rücklage gewinnerhöhend aufgelöst. Schick das der Person in deiner Lerngruppe, die die Gebäudefrist immer mit vier Jahren verwechselt. Folge für mehr Klausurtechnik.",
+        "marken": [
+          "Schick's deiner *Lerngruppe*"
+        ],
+        "bildSzene": null,
+        "kreuz": false
+      }
+    ],
+    "caption": "Rücklage für Ersatzbeschaffung: welche Frist gilt wirklich?\n\nBei höherer Gewalt oder behördlichem Eingriff darfst du stille Reserven in eine Rücklage packen – aber die Reinvestitionsfrist ist kein Einheitswert. Verwaltung: bewegliches Wirtschaftsgut ein Jahr, verlängerbar bis vier; ein Wirtschaftsgut im Sinne des § 6b EStG vier Jahre; neu hergestelltes Gebäude sechs Jahre. Der BFH sieht das im Urteil IV R 4/09 anders: allgemein vier, bei neuem Gebäude sechs Jahre.\n\nSchick das der Person in deiner Lerngruppe, die die Fristen immer durcheinanderbringt, und speichert es für die letzten Wochen vor der Klausur.\n\nWelche Frist hast du bisher falsch im Kopf gehabt?",
+    "hashtags": [
+      "#steuerberaterexamen",
+      "#steuerberaterprüfung",
+      "#stbexamen",
+      "#bilanzsteuerrecht",
+      "#rücklagefürersatzbeschaffung",
+      "#paragraf6b",
+      "#examensvorbereitung",
+      "#steuerrecht",
+      "#steuerberater",
+      "#klausurtechnik",
+      "#bfh",
+      "#bilanzrecht"
+    ],
+    "kurztitel": "RfE: welche Frist gilt?",
+    "bildSzene": "burned warehouse structure remains",
+    "bildSzeneAlt": "empty factory floor after fire"
+  }
+}
