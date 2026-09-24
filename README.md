@@ -1897,8 +1897,7 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Einkünfte ./. 4.025 € (§ 15) und ./. 51.250 € (§ 16). **Sachverhalt 5 (Abschleppdienst P,
   5 Punkte)** – Kürzung nach § 9 Nr. 2a GewStG nur für den steuerpflichtigen Teil der Ausschüttung,
   gemindert um die abziehbaren Finanzierungszinsen: Gewerbeertrag 238.000 €, Messbetrag 7.472 €.
-  Aus der **Prüfung 2014** (Teil I: Einkommensteuer, drei Sachverhalte; Punkte laut Korrekturbogen,
-  in Arbeit): **Sachverhalt 1 (José S., 18 Punkte)** – Wegzug nach Brasilien mitten im Jahr: Wechsel
+  Aus der **Prüfung 2014** (Teil I: Einkommensteuer, drei Sachverhalte; Punkte laut Korrekturbogen): **Sachverhalt 1 (José S., 18 Punkte)** – Wegzug nach Brasilien mitten im Jahr: Wechsel
   von unbeschränkter zu beschränkter Steuerpflicht, Kapitalerträge vor und nach dem Wegzug
   (36.500 € Abgeltungsteuer, 12.000 € Gesellschafterdarlehen tariflich) und Wegzugsbesteuerung nach
   § 6 AStG mit 60.000 €. **Sachverhalt 2 (Carmen M., 33 Punkte einschließlich Zusatzpunkt)** –
@@ -1906,7 +1905,11 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   anschaffungsnahe Herstellungskosten nur beim OG, Betriebsaufspaltung mit der eigenen GmbH,
   Betriebsveräußerung ohne Freibetrag (192.360 €), verbilligte Vermietung an die Tante (107 €) und ein
   nicht ausgleichsfähiger Verlust nach § 23 EStG (3.186 €) – Summe der Einkünfte 212.883 €.
-  Die Prüfung 2015 folgt.
+  **Sachverhalt 3 (Anton K., 10 Punkte)** – DBA-Spanien: Arbeitslohn freigestellt mit
+  Progressionsvorbehalt (19.000 €), Aufsichtsrat und Ferienhaus mit Anrechnung, Rente 83,5 % und
+  Altersentlastungsbetrag 627 €; die in der Quelle fehlende zvE-Berechnung ist als eigene Ergänzung
+  nachgerechnet (22.789 €). Die Prüfung 2014 ist damit **vollständig** (61 Punkte). Die Prüfung 2015
+  folgt.
   Prüfung: `npm run check:k2-est-originalklausuren`
 
 - **Prüfungsklausuren im Original – ohne Musterlösung** (`src/data/k2-pruefungsklausuren.js`,

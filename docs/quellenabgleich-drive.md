@@ -10623,6 +10623,20 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### ESt-Originalklausuren 2014, Sachverhalt 3 – Prüfung 2014 vollständig
+
+Übernommen: ESt-Originalklausur 2014, Sachverhalt 3 (Anton K., DBA-Spanien, 10 Punkte) – Aufgabe PDF-Seiten 103 und 104, Lösungshinweise PDF-Seiten 112 und 113, Korrekturbogen PDF-Seite 116 (Seiten 113 und 116 gerendert und angesehen). Damit ist die Prüfung 2014 vollständig (18 + 33 + 10 = 61 Punkte).
+
+- Lücke der Quelle: Der Lösungsvorschlag endet mit der Überschrift „zvE-Ermittlung“ (Punkt 60) ohne Berechnung. Die Berechnung ist als **eigene Ergänzung** gekennzeichnet nachgetragen: Summe der Einkünfte 27.416 €, Altersentlastungsbetrag 627 €, Gesamtbetrag der Einkünfte 26.789 €, zvE 22.789 €; Progressionsvorbehalt 19.000 €.
+- Gekennzeichnet: Bruttoarbeitslohn „6.000 €“ ohne „monatlich“ (die Lösung rechnet 6 × 6.000 €).
+- Stillschweigend berichtigt: „A erzielt“ → „AK erzielt“; „Aufsichtsratvergütungen“ → „Aufsichtsratsvergütungen“.
+- Nachrechnung (eigene Ergänzung): 1.000 €; 7.500 €; 19.000 €; Rente 8.916 € (wie Korrekturbogen). Stimmig.
+- Campus-Einleitung, README und offene-quellen nachgezogen.
+
+Prüfung danach: ESt-Originalklausuren in Ordnung: 16 Sachverhalte, 667 Blöcke, 73 Tabellen, 253 Punkte.
+
+Weiter mit: Prüfung 2015 (ab Zeile 9000 der Textfassung, drei Sachverhalte; Lösungen ab Zeile 9368, Korrekturbogen ab Zeile 10426).
+
 ### ESt-Originalklausuren 2014, Sachverhalt 2
 
 Übernommen: ESt-Originalklausur 2014, Sachverhalt 2 (Carmen M., Dreifamilienhaus, 33 Punkte einschließlich Zusatzpunkt) – Aufgabe PDF-Seiten 102 und 103, Lösungshinweise PDF-Seiten 107 bis 111, Korrekturbogen PDF-Seiten 114 bis 116.
