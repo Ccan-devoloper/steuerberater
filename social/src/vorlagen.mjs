@@ -233,7 +233,7 @@ const PFEIL = encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBo
 export function buntCss(ctx) {
   const stil = ctx?.stil;
   if (!stil || (stil.familie || stil.id) !== "bunt") return "";
-  const p = lernPalette(ctx.fach, stil.tagFarben?.[ctx.klausur] || stil.tagFarben?.[3]);
+  const p = stil.tagFarben?.[ctx.klausur] || stil.tagFarben?.[3];
   const pfeil = `url("data:image/svg+xml,${PFEIL.replace("%23111", encodeURIComponent(p.dunkel))}")`;
   return `
 :root{--grund:${p.grund};--text:${p.dunkel};--text-weich:${p.weich || p.dunkel};--akzent:${p.dunkel};--pille:${p.dunkel};--pille-text:#fff;--flaeche:rgba(255,255,255,.92);--linie:rgba(255,255,255,.45);--hell:${p.hell};--lila:${p.lila};--akzent2:${p.akzent2}}
@@ -517,6 +517,7 @@ export function motivBuehne(breite, hoehe, ziel) {
 
 /* Ziele je Format: Die Fläche entspricht etwa 60 % der alten festen Box. */
 export const BUEHNE_BEITRAG = { flaeche: 640 * 620 * 0.62, maxB: 820, maxH: 640 };
+export const BUEHNE_CHARAKTER = { flaeche: 1080 * 960 * 0.98, maxB: 1100, maxH: 1000 };
 export const BUEHNE_STORY = { flaeche: 720 * 820 * 0.62, maxB: 920, maxH: 850 };
 
 function fotoBuehne(folie, ziel = BUEHNE_BEITRAG) {
