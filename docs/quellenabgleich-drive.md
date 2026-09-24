@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 8 IV. 3 bis V. 2 b (PDF-Seiten 163 bis 168)
+
+Übernommen: IV. 3 Fehler bei Durchführung, Heilung und verunglückte Organschaft mit Merke (8-03), V. 1 getrennte Einkommensermittlung mit zwei Bilanz- und Ermittlungsschemata sowie V. 2 a/b vorvertragliche Verluste und vGA an den Organträger (8-04).
+
+- Gekennzeichnet: „§ 14 Abs. 1 S. 1 Nr. 4 S. 4 f. KStG“ bei der Heilung (Nr. 3); „Bei der OT-GmbH“ (gemeint OT-AG).
+- Stillschweigend berichtigt: „Die nachstehenden Darstellung“; „der Jahres 01 – 04“; „vorweggenommen Gewinnabführung“; doppeltes „dürfen“; fehlender Satzpunkt; „Buchwert: 100.00“; Anführungszeichen im Buchungssatz zum „fiktiven“ Zinsaufwand.
+- Nachrechnung (eigene Ergänzung): Bilanzsummen 145.000 und 225.000; Einkommen 160.000, Spenden 20 % = 32.000, Zurechnung 128.000; ./. 100.000 + 5.000 = ./. 95.000; vGA 6.000 und 400.000 – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 8 Teile, 54 Kapitel, 2132 Blöcke, 64 Tabellen.
+
+Weiter mit: Teil 8 V. 2 c „Gewerbesteuerliche Hinzurechnungen und Kürzungen im Organkreis“ (PDF-Seite 169; Textfassung ab Zeile 10219).
+
 ### KSt-Kurz-Skript (Breier), Teil 8 I bis IV. 2 (PDF-Seiten 157 bis 163)
 
 Übernommen: Teil 8 „Organschaft“ mit neuer Teil-Konstante T8 – I. bis III. Überblick, Wirkungen, Organträger und Organgesellschaft (8-01), IV. 1 und 2 finanzielle Eingliederung und Gewinnabführungsvertrag (8-02).
@@ -10633,7 +10645,7 @@ Skriptteile III bis VII.
 
 Prüfung danach: KSt-Kurz-Skript in Ordnung: 8 Teile, 52 Kapitel, 2054 Blöcke, 60 Tabellen.
 
-Weiter mit: Teil 8 IV. 3 „Fehler bei Durchführung des Gewinnabführungsvertrages“ (PDF-Seite 163; Textfassung ab Zeile 9880).
+Weiter mit: Teil 8 IV. 3 „Fehler bei Durchführung des Gewinnabführungsvertrages“ (PDF-Seite 163; Textfassung ab Zeile 9884).
 
 ### KSt-Kurz-Skript (Breier), Teil 7 Zinsschranke (PDF-Seiten 151 bis 156) – Teil 7 vollständig
 

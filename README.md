@@ -1237,8 +1237,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Übertragungen, Kapitalerhöhung, unterjähriger Erwerb, Konzernklausel, stille Reserven,
   Sanierungsklausel), § 8d KStG und Mindestbesteuerung sowie Teil 7 (Zinsschranke mit
   Stand-alone-Klausel, EBITDA- und Zinsvortrag und § 8a KStG); aus Teil 8 (Organschaft) die
-  Voraussetzungen, die finanzielle Eingliederung und der Gewinnabführungsvertrag – zusammen
-  52 Abschnitte, 2054 Blöcke, 60 Tabellen.
+  Voraussetzungen, die finanzielle Eingliederung, der Gewinnabführungsvertrag, die verunglückte
+  Organschaft und die Einkommensermittlung bei der Organgesellschaft – zusammen 54 Abschnitte,
+  2132 Blöcke, 64 Tabellen.
   **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 8
   und die Teile 9 und 10 werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
