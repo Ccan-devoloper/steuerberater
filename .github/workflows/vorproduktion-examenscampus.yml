@@ -1,0 +1,116 @@
+name: Vorproduktion · Examenscampus Review
+
+on:
+  workflow_dispatch:
+    inputs:
+      dates:
+        description: "Review-Tage als Leerzeichenliste (YYYY-MM-DD)"
+        required: true
+        type: string
+      rendern:
+        description: "Nach dem Vorbereiten lokal rendern"
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-bot
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      IG_WISSEN_KEY: ${{ secrets.IG_WISSEN_KEY }}
+      IG_STIL: "bunt"
+      IG_FARBE_JE_KLAUSUR: "true"
+      IG_BILDER: "false"
+      IG_BILD_KI: "false"
+      IG_CHARAKTERE: "false"
+      IG_CHARAKTER_QA: "false"
+      IG_STIMME: "piper"
+      IG_REEL_LAYOUT: "erklaer"
+      OPENAI_API_KEY: ""
+      ANTHROPIC_API_KEY: ""
+      ELEVENLABS_API_KEY: ""
+      PEXELS_API_KEY: ""
+      ELEVENLABS_VOICE_ID: ""
+      GIT_AUTHOR_NAME: instagram-bot
+      GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+      PIPER_VOICES_DIR: /home/runner/.cache/piper-voices
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: social/package-lock.json
+
+      - name: Abhängigkeiten
+        working-directory: social
+        run: npm ci
+
+      - name: Linter
+        working-directory: social
+        run: npm run lint
+
+      - name: ffmpeg
+        run: |
+          sudo apt-get update -qq >/dev/null
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+
+      - name: Chromium
+        working-directory: social
+        run: npx playwright install --with-deps chromium || npx playwright install chromium
+
+      - name: Tests
+        working-directory: social
+        run: npm test
+
+      - name: Piper offline
+        if: ${{ inputs.rendern }}
+        run: |
+          pip install --quiet piper-tts
+          mkdir -p ~/.cache/piper-voices
+          if [ ! -f ~/.cache/piper-voices/de_DE-thorsten-high.onnx ]; then
+            python3 -m piper.download_voices --data-dir ~/.cache/piper-voices de_DE-thorsten-high
+          fi
+
+      - name: Review-Tage providerfrei vorbereiten
+        working-directory: social
+        env:
+          REVIEW_DATES: ${{ inputs.dates }}
+        run: |
+          read -r -a DATES <<< "$REVIEW_DATES"
+          if [ "${#DATES[@]}" -eq 0 ]; then
+            echo "Keine Review-Tage angegeben."
+            exit 1
+          fi
+          node bin/vorproduktion-vorbereiten.mjs "${DATES[@]}"
+
+      - name: Review-Tage lokal rendern
+        if: ${{ inputs.rendern }}
+        working-directory: social
+        env:
+          REVIEW_DATES: ${{ inputs.dates }}
+        run: |
+          read -r -a DATES <<< "$REVIEW_DATES"
+          node bin/vorproduktion-ohne-coverbilder-rendern.mjs "${DATES[@]}"
+
+      - name: Review-Dateien sichern
+        if: ${{ always() && inputs.rendern }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: examenscampus-vorproduktion-${{ github.run_id }}
+          path: .instagram-assets/vorproduktion/**/fertig/**/*
+          if-no-files-found: ignore
+          retention-days: 7

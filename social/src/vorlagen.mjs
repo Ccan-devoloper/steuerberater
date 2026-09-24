@@ -238,33 +238,47 @@ export function buntCss(ctx) {
   return `
 :root{--grund:${p.grund};--text:${p.dunkel};--text-weich:${p.weich || p.dunkel};--akzent:${p.dunkel};--pille:${p.dunkel};--pille-text:#fff;--flaeche:rgba(255,255,255,.92);--linie:rgba(255,255,255,.45);--hell:${p.hell};--lila:${p.lila};--akzent2:${p.akzent2}}
 .folie,.story,.reel{background:${p.grund};color:${p.dunkel}}
+/* Cover v2 nutzt die Breite wie die Golden References aggressiver als die Inhaltsfolien. */
+.art-titel{padding-left:52px;padding-right:52px}
 /* Auf weißen Flächen bleibt Nebentext dunkel - die helle Weichfarbe gilt
    nur direkt auf der Grundfarbe. */
 .text,ul.punkte li,ol.schritte li,.spalte,.rechnung,.cta .liste div,.story .karte,.story .optionen div,.story .norm,.merke,.reel .merkeblock .norm{--text-weich:${p.dunkel}}
 /* Ecke oben links: dunkles Band mit dem Fach; oben rechts der Zähler im weißen Kreis */
 .kopf{position:absolute;left:0;top:0;right:0;height:120px;padding:0}
-.kopf .etikett{position:absolute;left:0;top:0;font-family:"Inter";font-weight:700;font-size:28px;letter-spacing:.02em;text-transform:none;background:${p.dunkel};color:#fff;padding:16px 46px 16px 40px;clip-path:polygon(0 0,100% 0,calc(100% - 26px) 100%,0 100%);flex-direction:row;line-height:1.1}
+/* Fachband auf Titelfolien buendig an die obere linke Bildkante ziehen. */
+.art-titel>.kopf{left:-52px;top:0;right:-52px}
+.kopf .etikett{position:absolute;left:0;top:0;font-family:"Inter";font-weight:700;font-size:28px;letter-spacing:.02em;text-transform:none;background:${p.dunkel};color:#fff;padding:16px 46px 16px 40px;clip-path:polygon(0 0,100% 0,calc(100% - 26px) 100%,0 100%);flex-direction:row;line-height:1.1;white-space:nowrap;box-sizing:border-box}
+.art-titel>.kopf .etikett{padding-left:92px;padding-right:52px}
 .kopf .etikett .punkt{display:none}
-.kopf .zaehler{position:absolute;right:46px;top:40px;width:78px;height:78px;border-radius:50%;background:rgba(255,255,255,.9);color:${p.dunkel};font-family:"Inter";font-weight:700;font-size:26px;display:flex;align-items:center;justify-content:center}
+.kopf .zaehler{position:absolute;right:38px;top:30px;width:68px;height:68px;border-radius:50%;background:${p.dunkel};color:#fff;font-family:"Inter";font-weight:700;font-size:25px;display:flex;align-items:center;justify-content:center}
 .kopf .zaehler:empty{display:none}
 /* Titel als Pillen, Zeile für Zeile. Die erste Folie wird im Feed als
    Vorschaubild von 300 px Breite gesehen – dort entscheidet die Schriftgröße,
    ob jemand den Beitrag überhaupt liest. Deshalb so groß wie möglich; zu
    lange Titel fängt einpassen() ab. */
-h1{margin-top:72px;font-size:100px;line-height:1.5}
-h1.klein{font-size:86px}h1.winzig{font-size:74px}
-h1 .z{background:${p.dunkel};color:#fff;padding:.14em .5em;border-radius:48px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+h1{margin-top:68px;font-size:96px;line-height:1.16}
+h1.klein{font-size:82px}h1.winzig{font-size:70px}
+h1 .z{background:${p.dunkel};color:#fff;padding:.12em .42em;border-radius:34px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+/* Titelfolie: echte Einzelpillen pro Sinneinheit. Weniger Innenabstand und
+   nur 8 px Abstand zwischen den Zeilen erzeugen einen kompakten, auf dem
+   Handy schnell scanbaren Titelblock. */
+.art-titel h1.titel-stack{display:flex;flex-direction:column;align-items:flex-start;gap:5px;width:fit-content;max-width:100%;margin-top:10px;font-size:104px;line-height:.99;letter-spacing:-.025em;text-wrap:initial}
+.art-titel h1.titel-stack.klein{font-size:94px}
+.art-titel h1.titel-stack.winzig{font-size:84px}
+.art-titel h1.titel-stack .titel-zeile{display:block;width:fit-content;max-width:976px;background:${p.dunkel};color:#fff;padding:12px 27px 14px;border-radius:30px;white-space:nowrap}
+.art-titel h1.titel-stack .titel-zeile em{color:${p.akzent2}}
 h1 em{color:${p.akzent2}}
+.cover-badge{margin-top:15px;margin-left:10px;width:fit-content;background:#fff0d6;color:${p.dunkel};padding:10px 26px 11px;border-radius:999px;font-family:"Inter";font-weight:700;font-size:30px;line-height:1.05;position:relative;z-index:4}
 .unter{margin-top:22px;display:inline-block;width:fit-content;background:${p.hell};color:${p.dunkel};padding:12px 30px;border-radius:40px;font-weight:700;font-size:36px;line-height:1.25;margin-left:24px}
 .prio{margin-top:20px;margin-left:24px;width:fit-content;background:${p.lila};color:${p.dunkel};padding:10px 26px;border-radius:40px;text-transform:none;letter-spacing:0;font-size:28px}
 .prio i{display:none}
-.format-badge{margin-top:18px;margin-left:24px;padding:11px 24px;border:0;background:rgba(255,255,255,.92);color:var(--k0);font-size:27px;box-shadow:0 8px 20px rgba(0,0,0,.08)}
 /* Handschrift-Hinweis mit Pfeil statt Pille */
 .art-titel .pille{background:none;color:${p.dunkel};font-family:"Caveat";font-size:58px;font-weight:700;padding:0 0 0 170px;margin-top:40px;margin-left:420px;position:relative;transform:rotate(-4deg);letter-spacing:0}
 .art-titel .pille::before{content:"";position:absolute;left:0;top:-30px;width:150px;height:110px;background:${pfeil} no-repeat center/contain}
 /* Bühne: Blase, großes Icon, §-Badge, Karte, Sterne */
 .art-titel::after{content:"";position:absolute;left:210px;bottom:-140px;width:660px;height:660px;border-radius:50%;background:rgba(255,255,255,.16);pointer-events:none}
-/* Fotokarte: unteres Drittel, gleiche Rundung wie die uebrigen Karten. */
+/* Fotokarte: unteres Drittel, gleiche Rundung wie die uebrigen Karten. Ist ein
+   Foto da, entfaellt die Icon-Buehne samt Kreis und Sternen. */
 /* Inhaltsfolien: der Inhalt steht mittig, die Fusszeile klebt unten.
    Vorher holten sich Inhalt und Fusszeile den freien Platz beide ueber
    margin-top:auto. Bei Folien, die selbst schon auto-Raender mitbringen
@@ -279,12 +293,16 @@ h1 em{color:${p.akzent2}}
 .merke-icon{width:96px;height:96px;border-radius:26px;background:rgba(255,255,255,.85);margin-bottom:24px;display:flex;align-items:center;justify-content:center}
 .folie:not(.art-titel) > .merke-icon + h2{margin-top:0}
 .folie:not(.art-titel) > .cta{margin-top:0;margin-bottom:0}
-.art-titel:has(.foto)::after,.art-titel:has(.frei)::after{display:none}
-/* Freigestelltes Motiv: unten rechts, laeuft ueber den Rand hinaus. */
+.art-titel:has(.foto)::after,.art-titel:has(.frei)::after,.art-titel.cover-ohne-bild::after{display:none}
+/* Freigestelltes Motiv: unten rechts, laeuft ueber den Rand hinaus. Der
+   Schatten setzt es von der Flaeche ab, ohne einen Rahmen zu zeichnen. */
 /* Die Buehne endet unterhalb des Kopfblocks: Seit die Motive zugeschnitten
    werden, fuellen sie den Kasten wirklich aus und wuerden sonst in den Pfeil
-   und das "So geht's!" hineinlaufen. */
-.frei{position:absolute;right:36px;bottom:34px;width:640px;height:620px;z-index:1;pointer-events:none}
+   und das "So geht's!" hineinlaufen.
+   Buendig am rechten Rand statt darueber hinaus: Solange die Motive als
+   Briefmarke in der Ecke sassen, schnitt der Ueberstand nur Luft ab - jetzt
+   wuerde er das Motiv selbst anschneiden. */
+.frei{position:absolute;right:28px;bottom:28px;width:760px;height:700px;z-index:1;pointer-events:none}
 /* Links neben dem Motiv, unterhalb der Pfeilzeile: Der Kasten des Motivs
    beginnt bei x = 440 px, die Pfeilzeile endet auch bei vier Titelzeilen
    oberhalb von y = 860 px - dazwischen ist die Flaeche frei. */
@@ -304,11 +322,22 @@ h1 em{color:${p.akzent2}}
    zwoelf verkettete drop-shadows brachten Chromium zum Stehen. Hier nur
    noch der weiche Schatten, der den Sticker von der Flaeche hebt. */
 .frei img{width:100%;height:100%;object-fit:contain;object-position:right bottom;display:block;filter:drop-shadow(0 26px 40px rgba(0,0,0,.28))}
+.frei.charakter{right:-12px;bottom:-6px;width:1050px;height:980px}
+.frei.charakter img{object-position:center bottom;filter:drop-shadow(0 18px 28px rgba(0,0,0,.20))}
+/* Problematische Action-Freisteller werden mit leichtem Bleed von links nach
+   rechts aufgespannt. Die exakte Breite kommt inline aus dem Renderprofil;
+   overflow bleibt bewusst sichtbar, damit keine "Sticker"-Innenkante entsteht. */
+.frei.charakter.edge-to-edge{max-width:none;overflow:hidden}
+.frei.charakter.edge-to-edge img{object-fit:var(--edge-fit,cover);object-position:var(--edge-x,50%) var(--edge-y,50%)}
+.art-titel h1,.art-titel .prio{position:relative;z-index:3}
+.art-titel .kopf{z-index:3}
+/* Fusszeile traegt das Rechtsgebiet - sie bleibt ueber dem Motiv lesbar. */
 /* Steht ein Motiv auf der Kachel, rueckt der Pfeil samt "So geht's!" nach
    links: der Kasten des Motivs reicht rechts bis in diese Hoehe hinauf. */
-.art-titel:has(.frei) .pille{margin-left:20px;z-index:3}
-.art-titel:has(.frei) .fuss{z-index:3}
-.art-titel:has(.frei) .fuss .klausur{background:var(--grund);padding:6px 18px;border-radius:30px}
+.art-titel:has(.frei) .fuss{position:absolute;left:52px;right:28px;bottom:24px;margin-top:0;z-index:3}
+.art-titel.cover-ohne-bild .fuss{position:absolute;left:52px;right:28px;bottom:24px;margin-top:0;z-index:3}
+.art-titel:has(.frei) .fuss .klausur{background:var(--hell);color:${p.dunkel};padding:7px 20px;border-radius:30px}
+.art-titel.cover-ohne-bild .fuss .klausur{background:var(--hell);color:${p.dunkel};padding:7px 20px;border-radius:30px}
 .foto{position:absolute;left:60px;right:60px;bottom:118px;height:520px;border-radius:44px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.22);z-index:1;background:rgba(255,255,255,.14);padding:18px;box-sizing:border-box}
 .foto img{width:100%;height:100%;object-fit:contain;object-position:center;display:block;border-radius:28px}
 .illu{right:auto;left:330px;bottom:70px;width:420px;height:420px;color:${p.dunkel};opacity:1;z-index:1}
@@ -340,7 +369,7 @@ ol.schritte.karte li::before{width:56px;height:56px;font-size:30px}
 .rechnung .formel{color:${p.dunkel}}
 .rechnung .ergebnis{border-top-color:rgba(0,0,0,.15)}
 .merke{font-size:66px;line-height:1.7}
-.merke::before,.merke::after{color:${p.akzent2}}
+.merke::before,.merke::after{color:${p.zitat || p.akzent2}}
 em{color:${p.akzent2}}
 .text em,ul.punkte em,ol.schritte em,.spalte em{color:${p.dunkel};text-decoration:underline;text-decoration-color:${p.akzent2};text-decoration-thickness:4px;text-underline-offset:6px}
 .cta{margin-top:auto;margin-bottom:auto}
@@ -359,10 +388,18 @@ em{color:${p.akzent2}}
 .story .text{font-size:42px}
 .story .norm{background:var(--flaeche);border-radius:30px;padding:30px 36px;color:${p.dunkel};font-size:54px}
 .story .optionen div{border:0;border-radius:30px;color:#1c1c22;font-size:40px}
+.story .ansichten div{border:0;border-radius:30px;color:#1c1c22}
+.story .ansichten div b{color:${p.dunkel}}
+.story .karte.entscheid{border:0;box-shadow:inset 0 0 0 5px ${p.dunkel}}
+.story .karte.entscheid .t{color:${p.dunkel}}
 .story .optionen div b{color:${p.dunkel}}
 .story .optionen div.richtig{box-shadow:inset 0 0 0 5px ${p.dunkel}}
 .story .zahl{color:#fff;text-shadow:0 12px 40px rgba(0,0,0,.18)}
 .story .zahl-unter{color:${p.dunkel}}
+.story .zahl-punkte{margin-top:34px;display:flex;flex-direction:column;gap:16px}
+.story .zahl-punkte .zp{display:grid;grid-template-columns:54px 1fr;gap:18px;align-items:start;background:var(--flaeche);border-radius:26px;padding:20px 26px;color:${p.dunkel};font-size:34px;line-height:1.28}
+.story .zahl-punkte .zp b{font-family:var(--titel);font-size:36px;line-height:1.15}
+
 .story .merke{font-size:78px}
 .story .karte{background:var(--flaeche);border:0;border-radius:30px;color:#1c1c22}
 .story .karte .t{color:${p.dunkel}}
@@ -378,23 +415,35 @@ em{color:${p.akzent2}}
    zum 13.09. war das Cover der einzige Ort mit dem Kasten - im Profilraster
    standen beide Formate nebeneinander und sahen aus wie zwei Kanaele.
    Die Story-Regel (ein Grund um das ganze h1) wird dafuer zurueckgenommen. */
-/* Das Cover ist 1920 hoch, die Karussellkachel 1350. Dieselbe Schriftgroesse
-   wirkt darauf deshalb ein Drittel kleiner - im Profilraster stehen beide
-   nebeneinander, und das Reel fiel als das schwaechere auf. Gemessen belegte
-   die Ueberschrift dort 15,6 % der Hoehe gegen 33,3 % auf der Kachel. Die
-   Groessen sind mit 1920/1350 = 1,42 hochgerechnet, damit die Wirkung gleich
-   ist statt der Zahl. */
-.story.cover h1{background:none;padding:0;width:auto;font-size:142px;line-height:1.5;margin-top:102px}
-.story.cover h1.klein{font-size:122px}
-.story.cover h1.winzig{font-size:105px}
-.story.cover h1 .z{background:${p.dunkel};color:#fff;padding:.14em .5em;border-radius:48px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.story.cover .unter{margin-top:26px;margin-left:24px;font-size:34px}
-/* Handschrift mit Pfeil, genau wie auf der Titelfolie. */
-.story.cover .dauer{font-family:"Caveat";font-size:56px;font-weight:700;color:${p.dunkel};opacity:1;white-space:nowrap;
-  margin-top:44px;margin-left:300px;padding-left:170px;position:relative;transform:rotate(-4deg);width:fit-content}
-.story.cover .dauer::before{content:"";position:absolute;left:0;top:-30px;width:150px;height:110px;background:${pfeil} no-repeat center/contain}
+/* Im sichtbaren 4:5-Ausschnitt hat das Reel-Cover dieselbe Pixelgeometrie
+   wie eine Karussell-Titelfolie (1080×1350). Deshalb werden Titel und Pillen
+   hier NICHT auf 1920px hochskaliert; genau diese frühere 4/3-Skalierung
+   schob die erste Zeile aus der Feed-Safe-Area. */
+.story.cover .kopf{top:0}
+.story.cover h1{background:none;padding:0;width:auto;font-size:112px;line-height:1.2;margin-top:70px}
+.story.cover h1.klein{font-size:96px}
+.story.cover h1.winzig{font-size:84px}
+.story.cover h1 .z{background:${p.dunkel};color:#fff;padding:.12em .42em;border-radius:34px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.story.cover h1.titel-stack{display:flex;flex-direction:column;align-items:flex-start;gap:5px;width:fit-content;max-width:100%;font-size:104px;line-height:.99;letter-spacing:-.025em}
+.story.cover h1.titel-stack.klein{font-size:94px}
+.story.cover h1.titel-stack.winzig{font-size:84px}
+.story.cover h1.titel-stack .titel-zeile{display:block;width:fit-content;max-width:912px;box-sizing:border-box;background:${p.dunkel};color:#fff;padding:12px 27px 14px;border-radius:30px;white-space:nowrap}
+.story.cover .unter{margin-top:22px;margin-left:24px;font-size:34px}
+/* Das Motiv darf bis an die echte Unterkante des 9:16-Covers laufen.
+   Geschuetzt wird nur der Textblock; die Illustration ist selbst Teil der
+   Komposition und soll nicht 285 px ueber dem unteren Rand schweben. */
+.story.cover .frei.charakter{bottom:0;right:36px}
+.story.cover h1,.story.cover .unter{position:relative;z-index:3}
+.story.cover .kopf{z-index:3}
+.story.cover .cover-badge{margin-top:12px}
+/* Cover-v2 no-arrow: keine automatisch erzeugte Dauer-Handschrift. */
+.story.cover .dauer{display:none}
+.story.cover .dauer::before{display:none}
 .story.cover .buehne::before{background:rgba(255,255,255,.75);opacity:1}
 .story.cover .buehne .icon{color:${p.dunkel}}
+/* Auf Charakter-Reel-Covern ist das Rechtsgebiet bereits oben links genannt.
+   Die zweite Fusszeile lag bisher mit z-index 3 direkt auf Figuren/Portal. */
+.story.cover:has(.frei.charakter) .fuss{display:none}
 /* Reels */
 .reel .fortschritt{background:rgba(255,255,255,.4)}
 .reel .fortschritt i{background:${p.dunkel}}
@@ -468,24 +517,69 @@ export function motivBuehne(breite, hoehe, ziel) {
 
 /* Ziele je Format: Die Fläche entspricht etwa 60 % der alten festen Box. */
 export const BUEHNE_BEITRAG = { flaeche: 640 * 620 * 0.62, maxB: 820, maxH: 640 };
+export const BUEHNE_CHARAKTER = { flaeche: 1080 * 960 * 0.98, maxB: 1100, maxH: 1000 };
 export const BUEHNE_STORY = { flaeche: 720 * 820 * 0.62, maxB: 920, maxH: 850 };
 
 function fotoBuehne(folie, ziel = BUEHNE_BEITRAG) {
   /* Freigestellt: Das Motiv laeuft unten rechts aus der Kachel, ohne Rahmen.
      Nicht freigestellt (Notfall): als abgerundete Karte. */
-  const klasse = folie.bildFrei === false ? "foto" : "frei";
-  /* Der Bildnachweis steht in der Caption, nicht auf der Kachel: Pexels
-     verlangt einen sichtbaren Hinweis, aber nicht an einer bestimmten Stelle -
-     und auf dem Bild stoert er die Gestaltung. */
-  /* Zum Motiv das farbige Zeichen des Themas, gross und leicht gedreht links
-     daneben - Motiv und Zeichen zusammen, wie auf den Vorbildkacheln. Nur die
-     farbige Fassung; die Strichgrafik wuerde neben einem Foto duenn wirken. */
-  /* Cover-Regel: Fotomotiv UND thematisches Icon. Auch ein rechteckiges
-     Notfallfoto darf das Icon nicht verlieren. */
+  const istCharakter = folie.bildTyp === "charakter";
+  const edgeToEdge = istCharakter && folie.coverBildEdgeToEdge === true;
+  const klasse = folie.bildFrei === false ? "foto" : `frei${istCharakter ? " charakter" : ""}${edgeToEdge ? " edge-to-edge" : ""}`;
+  /* Charakter-Szenen sind selbst das Markenzeichen. Neben zwei handelnden
+     Figuren noch ein grosses Themen-Icon zu setzen wuerde die Cover wieder
+     ueberladen; Stock-/Fallbackmotive behalten das Icon wie bisher. */
   const icon = ICONS[folie.icon] ? folie.icon : "paragraf";
-  const zeichen = farbIcon(icon, klasse === "frei" ? 240 : 180);
-  const box = klasse === "frei" ? motivBuehne(folie.bildBreite, folie.bildHoehe, ziel) : null;
-  const stil = box ? ` style="width:${box.breite}px;height:${box.hoehe}px"` : "";
+  const zeichen = istCharakter ? "" : farbIcon(icon, klasse.startsWith("frei") ? 240 : 180);
+  const charakterZiel = istCharakter ? BUEHNE_CHARAKTER : ziel;
+  const box = folie.bildFrei !== false ? motivBuehne(folie.bildBreite, folie.bildHoehe, charakterZiel) : null;
+  const scaleRaw = Number(folie.coverBildScale);
+  const scale = istCharakter && Number.isFinite(scaleRaw) ? Math.max(0.65, Math.min(1.35, scaleRaw)) : 1;
+  const breiteRaw = Number(folie.coverBildBreite);
+  const festeBreite = istCharakter && Number.isFinite(breiteRaw) ? Math.max(720, Math.min(1500, breiteRaw)) : null;
+  const xRaw = Number(folie.coverBildX);
+  const x = istCharakter && Number.isFinite(xRaw) ? Math.max(0.05, Math.min(0.95, xRaw)) : null;
+  const yRaw = Number(folie.coverBildY);
+  const y = istCharakter && Number.isFinite(yRaw) ? Math.max(0.05, Math.min(0.95, yRaw)) : 0.5;
+  const fitRaw = String(folie.coverBildFit || "").toLowerCase();
+  const fit = fitRaw === "contain" ? "contain" : "cover";
+  const topRaw = Number(folie.coverBildTop);
+  const bottomRaw = Number(folie.coverBildBottom);
+  const bleedRaw = Number(folie.coverBildBleed);
+  const style = [];
+
+  if (edgeToEdge) {
+    /* Eine echte Buehne: links/rechts leicht ueber den Rand, oben/unten fest
+       definiert. Das Bild selbst fuellt diese Flaeche per object-fit:cover.
+       Damit gibt es keine Sticker-Luft mehr und trotzdem keinen Wildwuchs
+       ueber den Titelblock. */
+    const bleed = Number.isFinite(bleedRaw) ? Math.max(0, Math.min(80, bleedRaw)) : 0;
+    style.push(`left:-${Math.round(bleed)}px`);
+    style.push(`right:-${Math.round(bleed)}px`);
+    style.push(Number.isFinite(topRaw) ? `top:${Math.round(topRaw)}px` : "top:auto");
+    style.push(Number.isFinite(bottomRaw) ? `bottom:${Math.round(bottomRaw)}px` : "bottom:0");
+    style.push("width:auto");
+    style.push("height:auto");
+    style.push("transform:none");
+    style.push(`--edge-x:${Math.round((x ?? 0.5) * 10000) / 100}%`);
+    style.push(`--edge-y:${Math.round(y * 10000) / 100}%`);
+    style.push(`--edge-fit:${fit}`);
+  } else {
+    if (festeBreite && folie.bildBreite && folie.bildHoehe) {
+      const ratio = folie.bildHoehe / folie.bildBreite;
+      style.push(`width:${Math.round(festeBreite)}px`);
+      style.push(`height:${Math.round(festeBreite * ratio)}px`);
+    } else if (box) {
+      style.push(`width:${Math.round(box.breite * scale)}px`);
+      style.push(`height:${Math.round(box.hoehe * scale)}px`);
+    }
+    if (x != null) {
+      style.push(`left:${Math.round(x * 10000) / 100}%`);
+      style.push("right:auto");
+      style.push("transform:translateX(-50%)");
+    }
+  }
+  const stil = style.length ? ` style="${style.join(";")}"` : "";
   return `<div class="${klasse}"${stil}><img src="${esc(folie.bild)}" alt=""></div>${zeichen ? `<div class="frei-zeichen">${zeichen}</div>` : ""}`;
 }
 
@@ -505,22 +599,175 @@ function zweitIcon(icon) {
   return paare[icon] || "dokument";
 }
 
-function titelKlasse(t) {
-  const l = (t || "").length;
-  return l > 92 ? "winzig" : l > 62 ? "klein" : "";
+function sichtbareLaenge(s) {
+  return String(s || "").replace(/\*/g, "").replace(/\s+/g, " ").trim().length;
+}
+
+function zeilenGreedy(text, max = 17) {
+  const woerter = String(text || "").trim().split(/\s+/).filter(Boolean);
+  const out = [];
+  let aktuell = "";
+  for (const wort of woerter) {
+    const kandidat = aktuell ? `${aktuell} ${wort}` : wort;
+    if (!aktuell || sichtbareLaenge(kandidat) <= max) aktuell = kandidat;
+    else {
+      out.push(aktuell);
+      aktuell = wort;
+    }
+  }
+  if (aktuell) out.push(aktuell);
+  return out;
+}
+
+const NORM_ZITAT = /(?:§{1,2}|Art\.)\s*\d+[a-z]*(?:\s+(?:(?:Abs\.|Satz|S\.|Nr\.|Alt\.|lit\.)\s*)?[0-9IVXLCa-z]+\)?)*\s+(?:BGB|ZPO|StGB|StPO|GVG|VwGO|VwVfG|BauGB|BauNVO|GewO|POG|PolG|GG|HGB|GmbHG|AktG|InsO|ArbGG|BetrVG|KSchG|TzBfG|SGB|FamFG|WEG|ProdHaftG|StVG|StVO|OWiG|JGG|BeurkG|GBO|ErbbauRG|UWG|MarkenG|UrhG|PatG|AO|EStG|UStG|KStG|GewStG|ErbStG|BewG|AStG|UmwStG|EGBGB|AEUV|EUV|GRCh|EMRK)[?!:]?/i;
+
+function haengenderNormbruch(zeilen) {
+  return zeilen.slice(0, -1).some((z) =>
+    /(?:§{1,2}|Art\.|Abs\.|Satz|S\.|Nr\.|Alt\.|lit\.)\s*$/i.test(String(z || "").trim())
+  );
+}
+
+function normZitatBrechen(zitat, max = 19) {
+  const sauber = String(zitat || "").replace(/\s+/g, " ").trim();
+  if (sichtbareLaenge(sauber) <= max + 2) return [sauber];
+  const kandidaten = [" Satz ", " S. ", " Nr. ", " Alt. ", " lit. "]
+    .map((marker) => {
+      const i = sauber.indexOf(marker);
+      if (i <= 0) return null;
+      const links = sauber.slice(0, i).trim();
+      const rechts = sauber.slice(i + 1).trim();
+      return { links, rechts, score: Math.max(sichtbareLaenge(links), sichtbareLaenge(rechts)) };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.score - b.score);
+  return kandidaten.length ? [kandidaten[0].links, kandidaten[0].rechts] : [sauber];
+}
+
+function zeilenMitNormZitat(teil, max = 19) {
+  const text = String(teil || "");
+  const m = NORM_ZITAT.exec(text);
+  if (!m) return null;
+  const davor = text.slice(0, m.index).trim();
+  const norm = m[0].trim();
+  const danach = text.slice(m.index + m[0].length).trim();
+  return [
+    ...zeilenGreedy(davor, max),
+    ...normZitatBrechen(norm, max),
+    ...zeilenGreedy(danach, max),
+  ].filter(Boolean);
+}
+
+/* Explizite KI-Zeilen sind redaktionell wertvoll, aber keine Zeile darf
+   technisch aus ihrer Pille laufen. Wir teilen deshalb nur wirklich zu lange
+   Mehrwort-Zeilen weiter auf. Einzelne lange Fachwoerter bleiben ungeteilt und
+   nutzen die vorhandenen festen Schriftstufen. */
+function expliziteTitelZeilenAnpassen(zeilen, max = 21) {
+  let out = [...zeilen];
+  let guard = 0;
+  while (out.length < 4 && guard++ < 8) {
+    let index = -1;
+    let laenge = max;
+    for (let i = 0; i < out.length; i++) {
+      const z = String(out[i] || "").trim();
+      if (!/\s/.test(z)) continue;
+      const l = sichtbareLaenge(z);
+      if (l > laenge) { laenge = l; index = i; }
+    }
+    if (index < 0) break;
+
+    const original = out[index];
+    const mitNorm = zeilenMitNormZitat(original, Math.min(max, 19));
+    let split = mitNorm && mitNorm.length > 1 ? mitNorm : zeilenGreedy(original, max);
+    if (split.length <= 1 || out.length - 1 + split.length > 4) break;
+    out.splice(index, 1, ...split);
+  }
+  return out;
+}
+
+/* Semantische Zeilen statt Browser-Zufallsumbruch. Jede dunkle Pille ist eine
+   Sinneinheit: Norm, Gegensatz, Reihenfolge oder Ergebnis. Neue Beiträge
+   liefern die Zeilen aus der Hook-Regie; Altbestand bekommt einen
+   deterministischen Fallback. */
+export function titelZeilen(titel, vorgegeben = null) {
+  const sauber = String(titel || "").replace(/\s+/g, " ").trim();
+  const explizit = Array.isArray(vorgegeben)
+    ? vorgegeben.map((x) => String(x || "").replace(/\s+/g, " ").trim()).filter(Boolean).slice(0, 4)
+    : [];
+  if (explizit.length >= 2 && !haengenderNormbruch(explizit)) {
+    const angepasst = expliziteTitelZeilenAnpassen(explizit, 21);
+    const technischPlausibel = angepasst.every((z) => sichtbareLaenge(z) <= 21 || !/\s/.test(z));
+    if (technischPlausibel && angepasst.length <= 4 && !haengenderNormbruch(angepasst)) return angepasst;
+  }
+
+  const relation = sauber.match(/^(.+?)\s+(kommt vor|ist nicht automatisch)\s+(.+)$/i);
+  if (relation) return [relation[1], relation[2], relation[3]];
+
+  const teile = [];
+  const trenner = sauber.match(/^(.+?[?:])\s+(.+)$/);
+  if (trenner) {
+    teile.push(trenner[1]);
+    teile.push(trenner[2]);
+  } else {
+    teile.push(sauber);
+  }
+
+  /* Normzitate sind eine semantische Einheit. Ein Zeilenumbruch zwischen
+     "§ 80 Abs. 5" und "VwGO" ist fachlich und optisch schlechter als eine
+     etwas längere Pille; deshalb bleiben bekannte Gesetzeszitate zusammen. */
+  const istNormEinheit = (teil) => /^(?:§§?|Art\.)\s/i.test(teil)
+    && /\b(?:BGB|ZPO|StGB|StPO|GVG|VwGO|VwVfG|BauGB|BauNVO|GewO|POG|PolG|GG|HGB|GmbHG|AktG|InsO|ArbGG|BetrVG|KSchG|TzBfG|SGB|FamFG|WEG|ProdHaftG|StVG|StVO|OWiG|JGG|BeurkG|GBO|ErbbauRG|UWG|MarkenG|UrhG|PatG|AO|EStG|UStG|KStG|GewStG|ErbStG|BewG|AStG|UmwStG|EGBGB|AEUV|EUV|GRCh|EMRK)[?!:]?$/i.test(teil);
+  const bauen = (max) => teile.flatMap((teil) => {
+    if (istNormEinheit(teil)) return normZitatBrechen(teil, max);
+    return zeilenMitNormZitat(teil, max) || zeilenGreedy(teil, max);
+  });
+  let zeilen = bauen(16);
+  if (zeilen.length > 4) zeilen = bauen(19);
+  if (zeilen.length > 4) zeilen = bauen(22);
+  while (zeilen.length > 4) {
+    const letzte = zeilen.pop();
+    zeilen[zeilen.length - 1] = `${zeilen.at(-1)} ${letzte}`;
+  }
+  return zeilen.filter(Boolean);
+}
+
+function titelKlasse(t, zeilen = null) {
+  const z = titelZeilen(t, zeilen);
+  const max = Math.max(0, ...z.map(sichtbareLaenge));
+  if (max > 22) return "winzig";
+  if (max > 19 || (z.length === 4 && max > 16)) return "klein";
+  return "";
+}
+
+/* Handschriftliche Cover-Zusätze sind deaktiviert. Cover und Reel-Cover
+   tragen nur die feste Marken-Hierarchie aus Fachband, Titel, Badge und Motiv. */
+function coverHinweisHtml() {
+  return "";
+}
+
+function titelBlock(titel, zeilen, ctx) {
+  const klasse = titelKlasse(titel, zeilen);
+  if ((ctx?.stil?.familie || ctx?.stil?.id) === "bunt") {
+    return `<h1 class="${klasse} titel-stack">${titelZeilen(titel, zeilen).map((z) => `<span class="titel-zeile">${markierenTitel(z)}</span>`).join("")}</h1>`;
+  }
+  return `<h1 class="${klasse}"><span class="z">${markierenTitel(titel)}</span></h1>`;
 }
 
 const FOLIEN = {
-  titel: (f, ctx, i, n) => `
+  titel: (f, ctx, i, n) => {
+    const bunt = (ctx.stil.familie || ctx.stil.id) === "bunt";
+    const badge = String(f.coverBadge || f.prioritaetText || "").trim();
+    const formatBadge = String(ctx.formatLabel || "").trim();
+    return `
     ${kopf(ctx, "")}
-    <h1 class="${titelKlasse(f.titel)}"><span class="z">${markierenTitel(f.titel)}</span></h1>
+    ${titelBlock(f.titel, f.titelZeilen, ctx)}
     ${f.untertitel ? `<p class="unter">${markieren(f.untertitel)}</p>` : ""}
-    ${ctx.formatLabel ? `<div class="format-badge">${esc(ctx.formatLabel)}</div>` : ""}
-    ${f.prioritaet ? `<div class="prio ${f.prioritaet}"><i></i>${esc(f.prioritaetText || "")}</div>` : ""}
-    <div><span class="pille">${esc((ctx.stil.familie || ctx.stil.id) === "bunt" ? (f.hinweis || "So geht's!") : (f.pille || "Swipen →"))}</span></div>
-    ${f.bild ? fotoBuehne(f) : bildOderIllu(ctx, f)}
-    ${!f.bild && (ctx.stil.familie || ctx.stil.id) === "bunt" ? `<div class="karte2">${iconSvg(zweitIcon(f.icon), 120)}</div><span class="stern" style="left:150px;top:790px">✦</span><span class="stern" style="left:900px;top:750px;font-size:40px">✦</span><span class="stern" style="left:860px;top:1040px">✦</span>` : ""}
-    ${fuss(ctx)}`,
+    ${formatBadge ? `<div class="format-badge">${esc(formatBadge)}</div>` : ""}
+    ${badge ? `<div class="cover-badge">${esc(badge)}</div>` : ""}
+    ${!bunt && f.pille ? `<div><span class="pille">${esc(f.pille)}</span></div>` : ""}
+    ${f.coverBildAuslassen ? "" : (f.bild ? fotoBuehne(f) : bildOderIllu(ctx, f))}
+    ${!f.coverBildAuslassen && !f.bild && bunt ? `<div class="karte2">${iconSvg(zweitIcon(f.icon), 120)}</div><span class="stern" style="left:150px;top:790px">✦</span><span class="stern" style="left:900px;top:750px;font-size:40px">✦</span><span class="stern" style="left:860px;top:1040px">✦</span>` : ""}
+    ${fuss(ctx)}`;
+  },
   text: (f, ctx, i, n) => `
     ${kopf(ctx, `${i}/${n}`)}
     <h2>${markierenTitel(f.titel)}</h2>
@@ -575,7 +822,7 @@ const FOLIEN = {
 export function folieHtml(folie, ctx, index, anzahl) {
   const render = FOLIEN[folie.art] || FOLIEN.text;
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "beitrag")}${klausurCss(ctx)}${buntCss(ctx)}</style></head>
-<body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="folie art-${esc(folie.art || "text")}">${render(folie, ctx, index, anzahl)}</div></body></html>`;
+<body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="folie art-${esc(folie.art || "text")}${folie.art === "titel" && folie.coverBildAuslassen ? " cover-ohne-bild" : ""}">${render(folie, ctx, index, anzahl)}</div></body></html>`;
 }
 
 const sk = (ctx) => kopf(ctx, "");
@@ -683,13 +930,19 @@ export function storyHtml(story, ctx) {
  * @param {{titel, ueberzeile?, dauerText?, icon?}} daten
  */
 export function coverHtml(daten, ctx) {
+  const bunt = (ctx.stil.familie || ctx.stil.id) === "bunt";
+  const badgeRaw = String(daten.coverBadge || "").trim();
+  /* "Reel" steht bereits als feste Marke oben rechts. Ein zweites "Reel"
+     unter dem Titel wirkt wie ein verrutschtes Label und wird deshalb nicht
+     noch einmal als Cover-Badge gesetzt. Inhaltliche Badges bleiben erhalten. */
+  const badge = /^reel$/i.test(badgeRaw) ? "" : badgeRaw;
   const inhalt = `
     ${kopf(ctx, "")}
     <span class="reelmarke">Reel</span>
-    <h1 class="${titelKlasse(daten.titel)}"><span class="z">${markierenTitel(daten.titel)}</span></h1>
-    <div class="unter">${esc(daten.ueberzeile || "Reel")}</div>
-    ${daten.dauerText ? `<div class="dauer">${esc(daten.dauerText)}</div>` : ""}
-    ${daten.bild ? fotoBuehne(daten, BUEHNE_STORY) : `<div class="buehne">${iconSvg(ICONS[daten.icon] ? daten.icon : "paragraf")}</div>`}
+    ${titelBlock(daten.titel, daten.titelZeilen, ctx)}
+    ${badge ? `<div class="cover-badge">${esc(badge)}</div>` : ""}
+    ${daten.coverBildAuslassen ? "" : (daten.bild ? fotoBuehne(daten, BUEHNE_STORY) : `<div class="buehne">${iconSvg(ICONS[daten.icon] ? daten.icon : "paragraf")}</div>`)}
+    ${bunt && (daten.bild || daten.coverBildAuslassen) ? coverHinweisHtml(daten) : ""}
     ${fuss(ctx)}`;
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}${klausurCss(ctx)}${buntCss(ctx)}</style></head>
 <body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="story cover">${inhalt}</div></body></html>`;

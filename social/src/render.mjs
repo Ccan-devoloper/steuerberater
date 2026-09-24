@@ -4,6 +4,7 @@
    ========================================================================== */
 
 import fs from "node:fs";
+import crypto from "node:crypto";
 import os from "node:os";
 import path from "node:path";
 import { chromium } from "playwright";
@@ -42,24 +43,443 @@ export function kontext(opt = {}) {
   };
 }
 
-async function htmlZuJpeg(html, masse, zielPfad, skala = Number(process.env.IG_RENDER_SKALA || 1)) {
+export async function htmlZuJpeg(html, masse, zielPfad, skala = Number(process.env.IG_RENDER_SKALA || 1), messen = null) {
   const b = await browserStarten();
   const page = await b.newPage({ viewport: { width: masse.breite, height: masse.hoehe }, deviceScaleFactor: skala });
   const tmp = path.join(os.tmpdir(), `ig-${process.pid}-${Math.random().toString(36).slice(2)}.html`);
   fs.writeFileSync(tmp, html);
+  let kasten = null;
   try {
     await page.goto(`file://${tmp}`, { waitUntil: "load" });
     await page.evaluate(() => document.fonts.ready);
+    await page.evaluate(storyTitelEinpassen);
     await page.evaluate(einpassen);
+    await page.evaluate(coverTitelEinpassen);
+    await page.evaluate(coverTitelGeometriePruefen);
+    await page.evaluate(coverHinweisAusPlanPlatzieren);
     await page.waitForTimeout(60);
+    /* NACH dem Einpassen messen: Der Text wird dort verkleinert, bis alles
+       oberhalb der Fußzeile bleibt - vorher gemessen wäre der Kasten falsch. */
+    if (messen) kasten = await page.locator(messen).first().boundingBox().catch(() => null);
     fs.mkdirSync(path.dirname(zielPfad), { recursive: true });
     await page.screenshot({ path: zielPfad, type: "jpeg", quality: skala < 1 ? 80 : 92, fullPage: false });
+    /* Layout-Karte fuer den Dashboard-Editor: Positionen und Stile aller
+       Text- und Bildelemente, damit Folientexte dort direkt anklickbar sind.
+       Ein Fehler hier darf das Rendern niemals scheitern lassen. */
+    try {
+      const layout = await page.evaluate(layoutErfassen);
+      if (layout && (layout.texte.length || layout.bilder.length)) {
+        layout.quellSha256 = crypto.createHash("sha256").update(fs.readFileSync(zielPfad)).digest("hex");
+        fs.writeFileSync(`${zielPfad}.layout.json`, JSON.stringify(layout) + "\n");
+      }
+    } catch { /* Layout ist optional */ }
   } finally {
     await page.close();
     fs.rmSync(tmp, { force: true });
   }
-  return zielPfad;
+  return messen ? { pfad: zielPfad, kasten } : zielPfad;
 }
+
+/* Laeuft im Browser: sammelt nach dem Einpassen die endgueltigen Boxen und
+   Stile aller sichtbaren Text- und Bildelemente relativ zur Kachel. Der
+   Dashboard-Editor macht damit gebackene Texte direkt anklickbar (Abdecken +
+   identisches Textfeld) und Motive direkt greifbar. */
+export function layoutErfassen() {
+  const wurzel = document.querySelector(".folie, .story");
+  if (!wurzel) return null;
+  const root = wurzel.getBoundingClientRect();
+  const rel = (b) => ({
+    x: Math.round((b.left - root.left) * 10) / 10,
+    y: Math.round((b.top - root.top) * 10) / 10,
+    w: Math.round(b.width * 10) / 10,
+    h: Math.round(b.height * 10) / 10,
+  });
+  const transparent = (c) => !c || c === "transparent" || /^rgba\(.*,\s*0\)$/.test(c);
+  /* Erste deckende Hintergrundfarbe aufwaerts – die Farbe, mit der der Editor
+     eine Stelle abdecken kann. Bei Verlaeufen (background-image) null. */
+  const dahinter = (start) => {
+    for (let e = start; e && e !== document.documentElement; e = e.parentElement) {
+      const cs = getComputedStyle(e);
+      if (!transparent(cs.backgroundColor)) return cs.backgroundColor;
+      if (cs.backgroundImage && cs.backgroundImage !== "none") return null;
+    }
+    return null;
+  };
+  const winkel = (cs) => {
+    const m = String(cs.transform || "").match(/matrix\(([-\d.e]+),\s*([-\d.e]+)/);
+    if (!m) return 0;
+    return Math.round(Math.atan2(parseFloat(m[2]), parseFloat(m[1])) * 180 / Math.PI);
+  };
+  const texte = [];
+  for (const el of wurzel.querySelectorAll("h1,h2,h3,h4,p,li,div,span,em,strong,b,i")) {
+    if (texte.length >= 80) break;
+    if (el.closest("svg")) continue;
+    /* Nur Elemente mit eigenem, direktem Text – Container werden ueber ihre
+       Blaetter erfasst, nie doppelt. */
+    if (![...el.childNodes].some((n) => n.nodeType === 3 && n.nodeValue.trim().length > 0)) continue;
+    const b = el.getBoundingClientRect();
+    if (b.width < 8 || b.height < 8) continue;
+    if (b.right < root.left + 2 || b.left > root.right - 2 || b.bottom < root.top + 2 || b.top > root.bottom - 2) continue;
+    const cs = getComputedStyle(el);
+    if (cs.visibility === "hidden" || cs.display === "none" || Number(cs.opacity) === 0) continue;
+    /* Pille: das Element selbst oder der naechste Vorfahr mit Hintergrund. */
+    let pillEl = transparent(cs.backgroundColor) ? null : el;
+    if (!pillEl) {
+      for (let a = el.parentElement; a && a !== wurzel; a = a.parentElement) {
+        const ac = getComputedStyle(a);
+        if (!transparent(ac.backgroundColor)) { pillEl = a; break; }
+        if (ac.backgroundImage && ac.backgroundImage !== "none") break;
+      }
+    }
+    let pille = null;
+    if (pillEl) {
+      const pcs = getComputedStyle(pillEl);
+      pille = {
+        box: rel(pillEl.getBoundingClientRect()),
+        farbe: pcs.backgroundColor,
+        radius: Math.round(parseFloat(pcs.borderTopLeftRadius) || 0),
+      };
+    }
+    let text = String(el.innerText || "").trim();
+    if (!text) continue;
+    if (cs.textTransform === "uppercase") text = text.toUpperCase();
+    /* Inhaltsbox ohne Padding/Rahmen: Listenpunkte (z.B. der "–"-Strich vor
+       .spalte-Zeilen) liegen im Padding. Der Editor deckt mit "innen" nur die
+       echte Textflaeche ab und laesst solche Marker unangetastet stehen. */
+    const padL = parseFloat(cs.paddingLeft) || 0, padR = parseFloat(cs.paddingRight) || 0;
+    const padT = parseFloat(cs.paddingTop) || 0, padB = parseFloat(cs.paddingBottom) || 0;
+    const brdL = parseFloat(cs.borderLeftWidth) || 0, brdR = parseFloat(cs.borderRightWidth) || 0;
+    const brdT = parseFloat(cs.borderTopWidth) || 0, brdB = parseFloat(cs.borderBottomWidth) || 0;
+    const innen = padL + padR + padT + padB + brdL + brdR + brdT + brdB >= 1
+      ? rel({
+        left: b.left + padL + brdL,
+        top: b.top + padT + brdT,
+        width: Math.max(0, b.width - padL - padR - brdL - brdR),
+        height: Math.max(0, b.height - padT - padB - brdT - brdB),
+      })
+      : null;
+    texte.push({
+      text,
+      box: rel(b),
+      ...(innen ? { innen } : {}),
+      schrift: String(cs.fontFamily || "").split(",")[0].replace(/["']/g, "").trim(),
+      groesse: Math.round(parseFloat(cs.fontSize) * 10) / 10,
+      gewicht: cs.fontWeight,
+      farbe: cs.color,
+      ausrichtung: cs.textAlign,
+      zeilenhoehe: Math.round((parseFloat(cs.lineHeight) || 0) * 10) / 10 || null,
+      lsp: Math.round((parseFloat(cs.letterSpacing) || 0) * 10) / 10,
+      rotation: winkel(cs),
+      pille,
+      hinter: dahinter((pillEl || el).parentElement),
+    });
+  }
+  const bilder = [];
+  for (const img of wurzel.querySelectorAll("img")) {
+    const b = img.getBoundingClientRect();
+    if (b.width < 24 || b.height < 24) continue;
+    const cs = getComputedStyle(img);
+    if (cs.visibility === "hidden" || cs.display === "none" || Number(cs.opacity) === 0) continue;
+    const src = String(img.currentSrc || img.src || "");
+    bilder.push({
+      box: rel(b),
+      quelle: src.startsWith("data:") || src.startsWith("file:") ? "eingebettet" : src,
+      natBreite: img.naturalWidth || null,
+      natHoehe: img.naturalHeight || null,
+      hinter: dahinter(img.parentElement || wurzel),
+    });
+  }
+  return { version: 1, breite: Math.round(root.width), hoehe: Math.round(root.height), texte, bilder };
+}
+
+/* Kurze Story-Ueberschriften sollen die verfuegbare Breite nutzen, bevor
+   eine dritte Zeile entsteht. CSS allein reicht bei fit-/max-content und
+   deutschen Komposita nicht verlaesslich: Chromium kann bei 74px trotz voller
+   912px Innenbreite drei Zeilen setzen. Fuer kurze Titel wird deshalb nur so
+   weit verkleinert, bis hoechstens zwei Zeilen erreicht sind. */
+export function storyTitelEinpassen() {
+  const wurzel = document.querySelector(".story:not(.cover)");
+  const titel = wurzel?.querySelector("h1");
+  if (!wurzel || !titel) return;
+
+  const text = String(titel.textContent || "").trim().replace(/\s+/g, " ");
+  if (!text) return;
+  const maxZeilen = text.length <= 44 ? 2 : text.length <= 80 ? 3 : 4;
+
+  titel.style.width = "max-content";
+  titel.style.maxWidth = "100%";
+  titel.style.textWrap = "wrap";
+
+  const zeilen = () => {
+    const cs = getComputedStyle(titel);
+    const lh = parseFloat(cs.lineHeight);
+    const innen = titel.clientHeight
+      - parseFloat(cs.paddingTop || 0)
+      - parseFloat(cs.paddingBottom || 0);
+    return lh > 0 ? Math.max(1, Math.round(innen / lh)) : 1;
+  };
+  const horizontalPasst = () => {
+    const root = wurzel.getBoundingClientRect();
+    const rs = getComputedStyle(wurzel);
+    const links = root.left + parseFloat(rs.paddingLeft || 0);
+    const rechts = root.right - parseFloat(rs.paddingRight || 0);
+    const b = titel.getBoundingClientRect();
+    return titel.scrollWidth <= titel.clientWidth + 1
+      && b.left >= links - 1
+      && b.right <= rechts + 1;
+  };
+
+  let groesse = parseFloat(getComputedStyle(titel).fontSize);
+  const mindest = 50;
+  let n = 0;
+  while ((zeilen() > maxZeilen || !horizontalPasst()) && groesse > mindest + 0.5 && n++ < 24) {
+    groesse = Math.max(mindest, groesse * 0.96);
+    titel.style.fontSize = `${groesse}px`;
+  }
+  titel.dataset.storyAutoFitPx = String(Math.round(groesse * 10) / 10);
+  titel.dataset.storyZeilen = String(zeilen());
+
+  if (zeilen() > maxZeilen || !horizontalPasst()) {
+    throw new Error(`Story-Titel passt trotz Auto-Fit nicht in die Markenpille/Safe-Area: ${text}`);
+  }
+}
+
+/* Cover-Titel haben wenige klar definierte Markengrößen. Für Reel-Cover
+   reichte die Zeichenanzahl allein nicht: breite Buchstabenfolgen liefen trotz
+   plausibler Zeilenlänge rechts aus dem 1080er Canvas. Deshalb messen wir die
+   reale Browser-Geometrie und reduzieren nur den gesamten Titelblock in kleinen
+   Schritten. Unterhalb der Lesbarkeitsgrenze wird hart abgebrochen. */
+function coverTitelEinpassen() {
+  const wurzel = document.querySelector(".folie.art-titel, .story.cover");
+  const titel = wurzel?.querySelector("h1.titel-stack");
+  if (!wurzel || !titel) return;
+
+  const root = wurzel.getBoundingClientRect();
+  const cs = getComputedStyle(wurzel);
+  const rechts = root.right - Math.max(24, parseFloat(cs.paddingRight || 0));
+  const links = root.left + Math.max(24, parseFloat(cs.paddingLeft || 0));
+  /* Ein einzelnes langes juristisches Kompositum darf das Reel-Cover nicht
+     sprengen. 24.–28.09. zeigen die Zieltypografie: lieber den gesamten
+     Titelblock moderat verkleinern als einen Videoframe/Fallback zu nehmen.
+     Unter 72 px brechen wir weiterhin hart ab. */
+  const mindest = wurzel.matches(".story.cover") ? 72 : 78;
+
+  const passt = () => [...titel.querySelectorAll(".titel-zeile")].every((zeile) => {
+    const box = zeile.getBoundingClientRect();
+    return zeile.scrollWidth <= zeile.clientWidth + 1
+      && box.left >= links - 1
+      && box.right <= rechts + 1;
+  });
+
+  let groesse = parseFloat(getComputedStyle(titel).fontSize);
+  let n = 0;
+  while (!passt() && groesse > mindest + 0.5 && n++ < 16) {
+    groesse = Math.max(mindest, groesse * 0.94);
+    titel.style.fontSize = `${groesse}px`;
+  }
+  titel.dataset.autoFitPx = String(Math.round(groesse * 10) / 10);
+}
+
+/* Harte Endkontrolle für BEIDE Covertypen. Früher wurde nur
+   .folie.art-titel geprüft; .story.cover (Reels) konnte deshalb unbemerkt
+   abgeschnitten exportiert werden und bestand sogar den Layout-Preflight. */
+function coverTitelGeometriePruefen() {
+  const wurzel = document.querySelector(".folie.art-titel, .story.cover");
+  const titel = wurzel?.querySelector("h1.titel-stack");
+  if (!wurzel || !titel) return;
+  const root = wurzel.getBoundingClientRect();
+  const cs = getComputedStyle(wurzel);
+  const rechts = root.right - Math.max(24, parseFloat(cs.paddingRight || 0));
+  const links = root.left + Math.max(24, parseFloat(cs.paddingLeft || 0));
+  const fehler = [];
+  for (const zeile of titel.querySelectorAll(".titel-zeile")) {
+    const box = zeile.getBoundingClientRect();
+    if (zeile.scrollWidth > zeile.clientWidth + 1 || box.left < links - 1 || box.right > rechts + 1) {
+      fehler.push(String(zeile.textContent || "").trim());
+    }
+  }
+  if (fehler.length) {
+    const art = wurzel.matches(".story.cover") ? "Reel-Cover" : "Beitrags-Cover";
+    throw new Error(`${art}-Titel passt nicht in die feste Markenpille: ${fehler.join(" | ")}`);
+  }
+}
+
+/* Setzt den handschriftlichen Hinweis nach dem von der visuellen KI-QA
+   gelieferten Plan. Cover-v2 zeichnet bewusst keinen Pfeil mehr. */
+function coverHinweisAusPlanPlatzieren() {
+  const wurzel = document.querySelector(".folie.art-titel, .story.cover");
+  const hinweis = wurzel?.querySelector(".cover-hinweis");
+  const img = wurzel?.querySelector(".frei.charakter img, .frei img");
+  if (!wurzel || !hinweis) return;
+
+  const root = wurzel.getBoundingClientRect();
+  const n = (k, f) => Number.isFinite(Number(hinweis.dataset[k])) ? Number(hinweis.dataset[k]) : f;
+
+  /* Bildlose Review-Cover haben bewusst keinen Motivanker. Die Notiz wird
+     deshalb direkt in der Safe Area des Covers platziert – weiterhin mit
+     derselben Typografie, nur ohne Charakter-/Bildlayer. */
+  if (!img?.complete || !img.naturalWidth || !img.naturalHeight) {
+    const titel = wurzel.querySelector("h1.titel-stack, h1");
+    const badge = wurzel.querySelector(".cover-badge");
+    const fuss = wurzel.querySelector(".fuss");
+    const rotation = Math.max(-12, Math.min(12, n("rotation", -4)));
+    const minTop = Math.max(titel?.getBoundingClientRect().bottom || root.top, badge?.getBoundingClientRect().bottom || root.top) + 30;
+    const maxBottom = (fuss?.getBoundingClientRect().top || root.bottom - 40) - 24;
+    const minLeft = root.left + 48;
+    const maxRight = root.right - 48;
+    const geplantX = root.left + n("noteX", 0.18) * root.width;
+    const geplantY = root.top + n("noteY", 0.72) * root.height;
+
+    hinweis.style.left = `${geplantX - root.left}px`;
+    hinweis.style.top = `${geplantY - root.top}px`;
+    hinweis.style.transform = `translate(-50%,-50%) rotate(${rotation}deg)`;
+    const hr = hinweis.getBoundingClientRect();
+    const x = Math.max(minLeft + hr.width / 2, Math.min(maxRight - hr.width / 2, geplantX));
+    const y = Math.max(minTop + hr.height / 2, Math.min(maxBottom - hr.height / 2, geplantY));
+    hinweis.style.left = `${x - root.left}px`;
+    hinweis.style.top = `${y - root.top}px`;
+    hinweis.dataset.freeScore = "0";
+    return;
+  }
+
+  const ir = img.getBoundingClientRect();
+  const scale = Math.min(ir.width / img.naturalWidth, ir.height / img.naturalHeight);
+  const dw = img.naturalWidth * scale;
+  const dh = img.naturalHeight * scale;
+  const cs = getComputedStyle(img);
+  const pos = String(cs.objectPosition || "50% 50%").toLowerCase().split(/\s+/);
+  const faktor = (wert, achse) => {
+    if (wert === "left" || wert === "top") return 0;
+    if (wert === "right" || wert === "bottom") return 1;
+    if (wert === "center") return 0.5;
+    if (/%$/.test(wert)) return Math.max(0, Math.min(1, parseFloat(wert) / 100));
+    const n = parseFloat(wert);
+    return Number.isFinite(n) ? Math.max(0, Math.min(1, n / Math.max(1, achse))) : 0.5;
+  };
+  const ox = ir.left + (ir.width - dw) * faktor(pos[0] || "50%", ir.width);
+  const oy = ir.top + (ir.height - dh) * faktor(pos[1] || pos[0] || "50%", ir.height);
+
+  const geplantX = ox + n("noteX", 0.25) * dw;
+  const geplantY = oy + n("noteY", 0.28) * dh;
+  const tx = ox + n("targetX", 0.5) * dw;
+  const ty = oy + n("targetY", 0.55) * dh;
+  const rotation = Math.max(-12, Math.min(12, n("rotation", -4)));
+
+  const titel = wurzel.querySelector("h1.titel-stack, h1");
+  const badge = wurzel.querySelector(".cover-badge");
+  const fuss = wurzel.querySelector(".fuss");
+  const minTop = Math.max(titel?.getBoundingClientRect().bottom || root.top, badge?.getBoundingClientRect().bottom || root.top) + 14;
+  const maxBottom = (fuss?.getBoundingClientRect().top || root.bottom - 18) - 12;
+  const minLeft = root.left + 24;
+  const maxRight = root.right - 24;
+
+  /* Transparenzmaske des tatsaechlichen KI-Motivs. Data-URI/PNG-Motive koennen
+     direkt gelesen werden. Falls ein Browser das Canvas wegen der Bildquelle
+     sperrt, bleibt die Platzierung geometrisch sicher und faellt auf die
+     KI-Wunschposition zurueck. */
+  let alpha = null;
+  let alphaBreite = 0;
+  let alphaHoehe = 0;
+  try {
+    const canvas = document.createElement("canvas");
+    alphaBreite = img.naturalWidth;
+    alphaHoehe = img.naturalHeight;
+    canvas.width = alphaBreite;
+    canvas.height = alphaHoehe;
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
+    ctx.drawImage(img, 0, 0);
+    alpha = ctx.getImageData(0, 0, alphaBreite, alphaHoehe).data;
+  } catch {
+    alpha = null;
+  }
+
+  const alphaAn = (px, py) => {
+    if (!alpha) return 0;
+    if (px < ox || px > ox + dw || py < oy || py > oy + dh) return 0;
+    const ix = Math.max(0, Math.min(alphaBreite - 1, Math.round((px - ox) / Math.max(1, dw) * (alphaBreite - 1))));
+    const iy = Math.max(0, Math.min(alphaHoehe - 1, Math.round((py - oy) / Math.max(1, dh) * (alphaHoehe - 1))));
+    return alpha[(iy * alphaBreite + ix) * 4 + 3] / 255;
+  };
+
+  const belegungRechteck = (cx, cy, breite, hoehe) => {
+    if (!alpha) return 0;
+    const randX = 16, randY = 12;
+    const l = cx - breite / 2 - randX;
+    const r = cx + breite / 2 + randX;
+    const o = cy - hoehe / 2 - randY;
+    const u = cy + hoehe / 2 + randY;
+    let belegt = 0, gesamt = 0;
+    const spalten = 13, zeilen = 7;
+    for (let yy = 0; yy < zeilen; yy++) {
+      const py = o + (u - o) * (yy + 0.5) / zeilen;
+      for (let xx = 0; xx < spalten; xx++) {
+        const px = l + (r - l) * (xx + 0.5) / spalten;
+        gesamt++;
+        if (alphaAn(px, py) > 0.12) belegt++;
+      }
+    }
+    return gesamt ? belegt / gesamt : 0;
+  };
+
+  /* Zuerst nur zur Groessenmessung an der KI-Wunschposition rendern. Danach
+     wird die naechste wirklich freie Flaeche gesucht. */
+  hinweis.style.left = `${geplantX - root.left}px`;
+  hinweis.style.top = `${geplantY - root.top}px`;
+  hinweis.style.transform = `translate(-50%,-50%) rotate(${rotation}deg)`;
+  let hr = hinweis.getBoundingClientRect();
+  const noteW = Math.max(80, hr.width);
+  const noteH = Math.max(42, hr.height);
+
+  const passtTechnisch = (cx, cy) =>
+    cx - noteW / 2 >= minLeft
+    && cx + noteW / 2 <= maxRight
+    && cy - noteH / 2 >= minTop
+    && cy + noteH / 2 <= maxBottom;
+
+  const kandidatScore = (cx, cy) => {
+    if (!passtTechnisch(cx, cy)) return Infinity;
+    const belegung = belegungRechteck(cx, cy, noteW, noteH);
+    const abstandPlan = Math.hypot(cx - geplantX, cy - geplantY);
+    const abstandZiel = Math.hypot(cx - tx, cy - ty);
+    /* Belegung dominiert deutlich. Distanz ist nur Tie-Breaker, damit der
+       Hinweis moeglichst nahe an der KI-Idee und der Handlung bleibt. */
+    return belegung * 100000 + abstandPlan * 0.34 + abstandZiel * 0.08;
+  };
+
+  let x = geplantX;
+  let y = geplantY;
+  let besterScore = kandidatScore(x, y);
+
+  if (alpha) {
+    const schrittX = 34;
+    const schrittY = 30;
+    const startX = minLeft + noteW / 2;
+    const endeX = maxRight - noteW / 2;
+    const startY = minTop + noteH / 2;
+    const endeY = maxBottom - noteH / 2;
+    for (let cy = startY; cy <= endeY; cy += schrittY) {
+      for (let cx = startX; cx <= endeX; cx += schrittX) {
+        const score = kandidatScore(cx, cy);
+        if (score < besterScore) {
+          besterScore = score;
+          x = cx;
+          y = cy;
+        }
+      }
+    }
+  }
+
+  /* Letzte technische Korrektur an der Safe Area; keine kreative Zonenlogik. */
+  x = Math.max(minLeft + noteW / 2, Math.min(maxRight - noteW / 2, x));
+  y = Math.max(minTop + noteH / 2, Math.min(maxBottom - noteH / 2, y));
+  hinweis.style.left = `${x - root.left}px`;
+  hinweis.style.top = `${y - root.top}px`;
+  hinweis.style.transform = `translate(-50%,-50%) rotate(${rotation}deg)`;
+  hr = hinweis.getBoundingClientRect();
+
+  hinweis.dataset.freeScore = String(Number(besterScore.toFixed(2)));
+}
+
 
 /* Läuft im Browser: verkleinert Text, bis nichts mehr über den rechten Rand
    hinausragt und der Inhalt oberhalb der Fußzeile bleibt. */
@@ -97,7 +517,7 @@ function einpassen() {
     }
     return breit;
   };
-  for (const el of wurzel.querySelectorAll("h1,h2,h3,.merke,.norm,.zahl-unter,.karte .t,.pille,.ueberzeile,.formel,.zeile")) {
+  for (const el of wurzel.querySelectorAll("h1:not(.titel-stack),h2,h3,.merke,.norm,.zahl-unter,.karte .t,.pille,.ueberzeile,.formel,.zeile")) {
     let n = 0;
     const passtNicht = () => el.scrollWidth > el.clientWidth + 1
       || el.getBoundingClientRect().right > innenRechts + 1
@@ -110,16 +530,17 @@ function einpassen() {
   const fuss = wurzel.querySelector(".fuss");
   const foto = wurzel.querySelector(".foto");
   const frei = wurzel.querySelector(".frei");
+  /* Beim freigestellten Motiv darf der Text bis zu dessen Oberkante laufen –
+     es ist transparent, ein bisschen Ueberlappung oben schadet nicht. */
   const grenze = foto ? foto.getBoundingClientRect().top - 16
-    : frei ? frei.getBoundingClientRect().top + 120
     : wurzel.getBoundingClientRect().bottom - 24;
-  const textElemente = [...wurzel.querySelectorAll("h1,h2,h3,p,li,.text,.merke,.norm,.zahl,.zahl-unter,.karte,.optionen div,.rechnung,.spalte,.unter,.hinweis,.pfeil")];
+  const textElemente = [...wurzel.querySelectorAll("h1:not(.titel-stack),h2,h3,p,li,.text,.merke,.norm,.zahl,.zahl-unter,.karte,.optionen div,.rechnung,.spalte,.unter,.hinweis,.pfeil")];
   let n = 0;
   /* Absolut gesetzte Buehnenelemente zaehlen nicht als Inhalt: Das farbige
      Zeichen neben dem Motiv (frei-zeichen) steht bewusst unterhalb der
      Textgrenze - wuerde es mitgezaehlt, schrumpfte der Titel 14 Runden lang
      bis auf die Untergrenze, obwohl er laengst passt. */
-  const ausser = (c) => ["geist", "illu", "foto", "frei", "frei-zeichen", "bildquelle", "fuss"].some((k) => c.classList.contains(k));
+  const ausser = (c) => ["geist", "illu", "foto", "frei", "frei-zeichen", "bildquelle", "cover-hinweis", "cover-hinweis-pfeil", "fuss"].some((k) => c.classList.contains(k));
   const passt = () => {
     const unten = Math.max(...textElemente.map((e) => e.getBoundingClientRect().bottom));
     const kinderUnten = Math.max(...[...wurzel.children].filter((c) => !ausser(c)).map((c) => c.getBoundingClientRect().bottom));
@@ -134,11 +555,33 @@ function einpassen() {
    Bild auf eine innere Lernfolie schleusen. */
 export function carouselBildregeln(beitrag) {
   if (!beitrag?.folien?.length) return beitrag;
-  const bildFelder = ["bild", "bildQuelle", "bildFrei", "bildBreite", "bildHoehe", "bildTyp"];
+  const bildFelder = ["bild", "bildQuelle", "bildFrei", "bildBreite", "bildHoehe", "bildTyp", "coverHinweisPlan"];
   for (let i = 1; i < beitrag.folien.length; i++) {
     for (const feld of bildFelder) delete beitrag.folien[i][feld];
   }
   return beitrag;
+}
+async function freigegebenesBeitragsCoverLaden(beitrag, ziel) {
+  const u = new URL(String(beitrag?.coverFinalUrl || ""));
+  if (u.protocol !== "https:" || u.hostname !== "raw.githubusercontent.com") {
+    throw new Error("Freigegebenes Beitrags-Cover muss von raw.githubusercontent.com stammen.");
+  }
+  const erwartet = String(beitrag?.coverFinalSha256 || "").toLowerCase();
+  if (!/^[a-f0-9]{64}$/.test(erwartet)) {
+    throw new Error("Freigegebenes Beitrags-Cover braucht coverFinalSha256.");
+  }
+  const r = await fetch(u);
+  if (!r.ok) throw new Error(`Freigegebenes Beitrags-Cover nicht ladbar: HTTP ${r.status}`);
+  const daten = Buffer.from(await r.arrayBuffer());
+  const jpeg = daten.length > 10_000 && daten[0] === 0xff && daten[1] === 0xd8;
+  if (!jpeg) throw new Error("Freigegebenes Beitrags-Cover ist keine plausible JPEG-Datei.");
+  const ist = crypto.createHash("sha256").update(daten).digest("hex");
+  if (ist !== erwartet) {
+    throw new Error(`Freigegebenes Beitrags-Cover hat falschen SHA-256: erwartet ${erwartet}, erhalten ${ist}`);
+  }
+  fs.mkdirSync(path.dirname(ziel), { recursive: true });
+  fs.writeFileSync(ziel, daten);
+  return ziel;
 }
 
 /* Rendert alle Folien eines Beitrags → Liste der JPEG-Pfade. */
@@ -169,6 +612,19 @@ export async function beitragRendern(beitrag, zielVerzeichnis, opt = {}) {
 export async function storyRendern(story, zielPfad, opt = {}) {
   const ctx = kontext({ ...opt, fach: story.fach, klausur: story.klausur, fachLabel: story.fachLabel, variante: opt.variante ?? story.variante });
   return htmlZuJpeg(storyHtml(story, ctx), MASSE.story, zielPfad);
+}
+
+/* Interaktive Fassung einer Story: rendert wie storyRendern und misst
+   zusätzlich den freigehaltenen Streifen für den Umfrage-Sticker. Bewusst eine
+   eigene Funktion statt eines weiteren Rückgabewerts von storyRendern - die
+   Zusage "gibt einen Pfad zurück" haben dort schon mehrere Aufrufer. */
+export async function storyRendernInteraktiv(story, zielPfad, opt = {}) {
+  const ctx = kontext({ ...opt, fach: story.fach, klausur: story.klausur, fachLabel: story.fachLabel, variante: opt.variante ?? story.variante });
+  const { pfad, kasten } = await htmlZuJpeg(
+    storyHtml({ ...story, interaktiv: true }, ctx), MASSE.story, zielPfad,
+    Number(process.env.IG_RENDER_SKALA || 1), ".umfrageplatz",
+  );
+  return { pfad, platz: kasten, masse: MASSE.story };
 }
 
 /* Cover eines Reels (Standbild für Feed und Profilraster). */
