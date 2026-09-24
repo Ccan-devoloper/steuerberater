@@ -69,9 +69,8 @@ jobs:
             python3 -m piper.download_voices --data-dir ~/.cache/piper-voices de_DE-thorsten-high
           fi
 
-      - name: Providerfreie Vorproduktion vorbereiten
-        working-directory: social
-        run: node bin/vorproduktion-vorbereiten.mjs 2026-09-26 2026-09-27 2026-09-28
+      - name: Vorproduktion bereits vorbereitet
+        run: echo "Nutze die vorhandenen Review-JSONs aus instagram-assets; kein erneutes Planen."
 
       - name: Ohne Coverbilder rendern
         working-directory: social
