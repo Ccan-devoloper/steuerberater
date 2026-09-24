@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 25 bis 27 (PDF-Seiten 60 bis 68) – Übersichten vollständig
+
+Übernommen: 25 Rückstellungen (Schaubild Handels-/Steuerrecht, steuerrechtliche Regelungsvorbehalte, Verbindlichkeitsrückstellungen, Bewertung, Jahresabschlusskosten, Schadensersatz, Prozesskosten, Schutzrechtsverletzung, Prüfschema Aufbewahrungsrückstellung, Pensionsrückstellungen, Rückdeckungsversicherung), 26 Latente Steuern (Ansatz, aktive/passive latente Steuern, Berechnung, Buchungssätze) und 27 Schuldübernahme, Erfüllungsübernahme, Schuldbeitritt (§ 4f und § 5 Abs. 7 EStG) – 3 Einträge.
+
+- Schaubilder gerendert und als Tabellen übernommen: „Rückstellungen in der Handels- und Steuerbilanz“ (Seite 60, die Kästen mit Maßgeblichkeit und Durchbrechung in der mittleren Spalte) und „Übertragende Person § 4 f EStG → Übernehmende Person § 5 Abs. 7 EStG“ (Seite 67). In der Tabelle § 4f EStG (Seite 67) läuft die Grundsatzzeile über beide Spalten; die dort entstandenen Wortbruchstücke sind entfernt. Tabellen, deren erste Zeile keine Kopfzeile ist (Verbindlichkeitsrückstellungen, Prozesskosten, latente Steuern), stehen ohne Kopfzeile.
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: „H 5. 7“ (zweimal) und „R 5. 7“; „rechtbegründend“; „§ 4 f Abs. 1 Satz 4 ESG“; „Drohverlustrückstelltung“; die hochgestellten Exponenten „( x 1,0p)ⁿ“ und „1/(1,0z)ⁿ“; Fortsetzungszeile „Rückstellungen zulässig für:“ angefügt.
+- Nachrechnung: Prüfschema Archivkosten (Jahresaufwand ./. 20 % × 4,5 + Einmalaufwand) und die Quoten 14/15 bzw. 15 Jahre ohne Zahlenbeispiel. Wortabgleich der Seiten 60 bis 68: vollständig (offen nur Silbentrennungen und die berichtigten Schreibfehler).
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 17 Teile, 96 Kapitel, 2832 Blöcke, 237 Tabellen.
+
+Damit sind die Übersichten zum Bilanz-Skript Termin 1 vollständig eingepflegt (27 Einträge). Weiter mit: Abgleich der Fallsammlung Melzer V2 (`1VkIpVDdg9th9-O4DMVr2xExhm4dOabt-`, Lösungen `1Dtvc8BNrLLDRZWMXQc_Lg0aLHAQ32QdW`) mit den 90 Fällen der Bilanz-Fallsammlung und dem Änderungsprotokoll 04/26 (`1zYukX6s21OUD9w1tYb6TGBCqf4L2dDNN`).
+
 ### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 23 und 24 (PDF-Seiten 55 bis 59)
 
 Übernommen: 23 Kapitalerhöhung (aus Gesellschaftsmitteln mit Gratisaktien, gegen Einlagen mit Bezugsrecht, Buchwert des Bezugsrechts, Veräußerung und Ausübung) und 24 Bilanzberichtigung (Handels- und Steuerbilanz, Berichtigung an der Fehlerquelle, Bilanzpostenmethode, Korrekturen über mehrere Jahre, GuV-Methode, Kapitalangleichungsbuchungen, steuerlicher Ausgleichsposten) – 2 Einträge.
