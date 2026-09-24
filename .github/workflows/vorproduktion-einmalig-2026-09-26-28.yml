@@ -1,4 +1,4 @@
-name: Vorproduktion · Examenscampus · 26–28 Sep 2026
+name: Vorproduktion · Examenscampus · 25 Sep 2026
 
 on:
   push:
@@ -69,18 +69,19 @@ jobs:
             python3 -m piper.download_voices --data-dir ~/.cache/piper-voices de_DE-thorsten-high
           fi
 
-      - name: Vorproduktion bereits vorbereitet
-        run: echo "Nutze die vorhandenen Review-JSONs aus instagram-assets; kein erneutes Planen."
+      - name: Providerfreie Vorproduktion vorbereiten
+        working-directory: social
+        run: node bin/vorproduktion-vorbereiten.mjs 2026-09-25
 
       - name: Ohne Coverbilder rendern
         working-directory: social
-        run: node bin/vorproduktion-ohne-coverbilder-rendern.mjs 2026-09-26 2026-09-27 2026-09-28
+        run: node bin/vorproduktion-ohne-coverbilder-rendern.mjs 2026-09-25
 
       - name: Review-Dateien sichern
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
-          name: examenscampus-vorproduktion-2026-09-26-28
-          path: .instagram-assets/vorproduktion/**/fertig/**/*
+          name: examenscampus-vorproduktion-2026-09-25
+          path: .instagram-assets/vorproduktion/2026-09-25/fertig/**/*
           if-no-files-found: ignore
           retention-days: 7
