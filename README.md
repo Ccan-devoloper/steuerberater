@@ -1235,9 +1235,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Erdienbarkeit, Abfindung, Weiterbeschäftigung, Rentner-GmbH) – Teil 5 damit vollständig;
   Teil 6 (Verluste von Körperschaften) mit § 8c KStG (schädliche Quote, mittelbare
   Übertragungen, Kapitalerhöhung, unterjähriger Erwerb, Konzernklausel, stille Reserven,
-  Sanierungsklausel), § 8d KStG und Mindestbesteuerung – zusammen 48 Abschnitte, 1876 Blöcke,
-  53 Tabellen.
-  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; die Teile 7 bis 10
+  Sanierungsklausel), § 8d KStG und Mindestbesteuerung sowie Teil 7 (Zinsschranke mit
+  Stand-alone-Klausel, EBITDA- und Zinsvortrag und § 8a KStG) – zusammen 50 Abschnitte,
+  1952 Blöcke, 60 Tabellen.
+  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; die Teile 8 bis 10
   werden abschnittsweise nachgetragen
   (`docs/offene-quellen.md`).
   Prüfung: `npm run check:kst-kurzskript`

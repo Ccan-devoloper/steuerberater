@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 7 Zinsschranke (PDF-Seiten 151 bis 156) – Teil 7 vollständig
+
+Übernommen: Teil 7 mit neuer Teil-Konstante T7 – I. bis IV. (7-01) und V. bis VI. (7-02); die Schemata zum maßgeblichen Gewinn/Einkommen als einspaltige Tabellen.
+
+- Gekennzeichnet: „mehr als 2.999.000 €“; „Az. des BVerfG: BvL 1/16“ (2 BvL 1/16); „EBITDA 09“ im Beispiel für 06; „Sammelposten gem. § 6a Abs. 2 EStG“ (§ 6 Abs. 2a EStG) in der Aufwandsliste.
+- Stillschweigend berichtigt: „Zinnsaldo“; „iVm. mit“; „Geamtkonzerns“; „KSG“; „gem. 4h“; „Vortrages des“; „EBITA“; überzählige Klammer; „nahe stehende Personen“ → „Person“.
+- Nachrechnung (eigene Ergänzung): 8 ./. 2 = 6 Mio., 30 % von 5 Mio. = 1,5 Mio., nicht abziehbar 4,5 Mio.; EBITDA-Vortrag 2 Mio., 09: 5 ./. 1 ./. 2 = 2 Mio.; Zinsvortrag 06: 9 ./. 8 = 1 Mio.; EBITDA 3.810.000, 30 % = 1.143.000, Zinsvortrag 1.857.000, GewSt-Hinzurechnungsbasis 943.000; 320.000 : 3.000.000 = 10,7 % > 10 % – stimmig.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 7 Teile, 50 Kapitel, 1952 Blöcke, 60 Tabellen.
+
+Weiter mit: Teil 8 „Organschaft“ (PDF-Seite 157; Textfassung ab Zeile 9498).
+
 ### KSt-Kurz-Skript (Breier), Teil 6 A. V bis B (PDF-Seiten 143 bis 150) – Teil 6 vollständig
 
 Übernommen: A. V Verschonungsregelung und A. VI Sanierungsklausel mit Merke (6-04; Seite 143 gerendert), § 8d KStG mit Merke (6-05), B. Mindestbesteuerung (6-06).
