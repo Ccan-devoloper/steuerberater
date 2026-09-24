@@ -4,7 +4,7 @@
    PDF-Seiten: Textteil Seiten 1 bis 41 (PDF-Seiten 2 bis 42), Arbeitspapiere A 1 bis A 27 (PDF-Seiten
    43 bis 69).
    In Arbeit: Textteil vollständig (I. bis VI., PDF-Seiten 2 bis 42); Arbeitspapiere eingepflegt bis
-   A 12 (PDF-Seite 54). */
+   A 16 (PDF-Seite 58). */
 
 const VERFASSER = "Udo Moecker";
 const RECHTSSTAND = "Stand 01/2026";
@@ -906,6 +906,65 @@ export const block13 = [
         ["BMG gem. § 10 (4) Nr. 2: die auf die UWA entfallenden anteiligen Ausgaben jedoch abzügl. Ausgaben ohne Vorst", "BMG gem. § 10 (4) Nr. 3: die auf die UWA entfallenden Ausgaben – alle Ausgaben"],
       ] },
       { text: "➔ **Besonderheit (vgl. Abschn. 10.6 Abs. 3 UStAE) Ausgabenbegriff bei Verwendung eines Gegenstandes**\n**Die hierzu gehörenden anteiligen Anschaffungs- oder Herstellungskosten**\n☝ **sind gleichmäßig zu verteilen auf den nach § 15a UStG maßgeblichen Berichtigungszeitraum (5 oder 10 Jahre bzw. kürzere ND).**\n☝ **Nach Ablauf § 15a-Ztr. entfällt Ansatz für diese Kosten.**\n☝ **Bei AK / HStK kleiner 500 € sofort Kosten** (§ 10 Abs. 4 Nr. 2 S. 3 und Nr. 3 S. 2 UStG)" },
+      { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-32",
+    teil: TEIL,
+    kapitel: "32",
+    abschnittNr: "A 13 und A 14",
+    title: "Arbeitspapiere A 13 und A 14: Unternehmensfremde Fahrzeugnutzung – Ermittlungsarten der BMG und Anschaffungsfälle",
+    thema: "Methodenwahl nach betrieblicher Nutzung über oder unter 50 %, 1-%-Methode mit 20 % Abschlag ohne Elektro-Kürzung, Fahrtenbuchmethode mit Verteilung der AK auf den § 15a-Zeitraum, Schätzungsmethode mit mindestens 50 % Privatanteil; Anschaffungsfälle mit 10-%-Mindestnutzung nach Kilometern, Beweislast, unternehmerische Fahrten, Vermutung unter 10 %, keine Grenze bei Miet- und Leasingfahrzeugen, Folgen",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 13 und A 14"),
+    verfasser: VERFASSER,
+    normen: ["§ 3 Abs. 9a Nr. 1 UStG", "§ 10 Abs. 4 Nr. 2 UStG", "§ 15 Abs. 1 Satz 2 UStG", "§ 15a UStG", "§ 6 Abs. 1 Nr. 4 Satz 2 und 3 EStG", "Abschn. 15.23 Abs. 2 und 5 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Fahrzeug", "Privatnutzung"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 13 – 6. Unternehmensfremde Fahrzeugnutzung: 6.1 Ermittlungsarten BMG – Abschn. 15.23 Abs. 5 UStAE" },
+      { typ: "tabelle", spalten: ["Fahrzeug wird zu mehr als 50 % betrieblich genutzt:", "Fahrzeug wird zu weniger als 50 % betrieblich genutzt:"], zeilen: [
+        ["Wird ein ordnungsgemäßes Fahrtenbuch geführt: Fahrtenbuchmethode, oder 1 % - Regelung, oder Schätzungsmethode", "Wird ein ordnungsgemäßes Fahrtenbuch geführt: Fahrtenbuchmethode oder Schätzungsmethode"],
+      ] },
+      { typ: "tabelle", spalten: ["1 % - Methode", "Fahrtenbuchmethode", "Schätzungsmethode"], zeilen: [
+        ["Freiwillige Anwendung der 1%-Regelung gem. § 6 (1) Nr. 4 S. 2 EStG (= bei > 50% betriebl. Nutzung); pro Monat vom Bruttolistenpreis abzüglich 20% Abschlag = Nettowert x 19 %; Jedoch keine pauschale Kürzung für Elektrofahrzeuge:", "Grundsatz (auch § 6 (1) Nr. 4 S. 3 EStG); Belegführung und Nachweis der Nutzung durch Fahrtenbuch; Anteilige tatsächliche Ausgaben als BMG", "Schätzung des priv. Nutzungsanteils anhand geeigneter Unterlagen. Wenn keine geeigneten Unterlagen vorhanden ➔ Privatanteil mind. 50% ➔ Ggf. + oder ./. (Unschärfen gehen zu Lasten des Untern.)"],
+        ["", "Fahrtenbuch- und Schätzungsmethode: Ausgaben ohne Vorst sind aus der BMG auszuscheiden. ☝ AK/HStK des Fhz. sind gleichmäßig auf den § 15a-Ztr. zu verteilen (entgegen EStG). Jedoch keine Kürzung um Aufwendungen des Batteriesystems bei Elektrofahrzeugen. Nach Ablauf § 15a –Ztr. nur noch lfd. Kosten", ""],
+      ] },
+      { text: "Hinweis (eigene Ergänzung zur Darstellung): Im unteren Teil der Seite überlagern sich in der Vorlage die Spalten „Fahrtenbuchmethode“ und „Schätzungsmethode“; die Sätze zu den Ausgaben ohne Vorsteuer, zur Verteilung der AK/HStK und zum Batteriesystem sind nach Ansicht der Seite zusammengesetzt." },
+      { typ: "titel", text: "Arbeitspapier A 14 – 6.2 Anschaffungsfälle" },
+      { text: "➔ **Mindestnutzung 10% (§ 15 Abs. 1 S. 2 UStG) beachten**\n☞ **10% - Grenze** nach dem Verhältnis der Km unternehmerischer Fahrten zu den Jahres – Km (Abschn. 15.23 Abs. 2 UStAE)\n☞ Jahr = KJ des Leistungsbezugs. Auch weniger als 12 Monate. Nichtnutzung zählt jedoch nicht -Wertaufhellung-\n☞ Unternehmer trifft Beweislast; in Zweifelsfällen Aufzeichnungen erforderlich\n☞ Unternehmerische Fahrten sind\n- Dienstfahrten durch AN\n- Geschäftsfahrten durch Unternehmer (=> auch steuerfreien Umsätzen dienend)\n- Fahrten Wohnung - Betrieb\n☞ Vermutung < 10% (jedoch widerlegbar)\n- Zweit- oder Drittfahrzeuge von Einzeluntern.\n- Alleinfahrzeuge bei einer nebenberuflichen Tätigkeit\n- Bei Personenges., wenn G’ter mehr als 1 Kfz privat nutzt.\n☞ 10% - Grenze gilt nicht bei Miet - oder Leasingfahrzeugen\n☞ **Folgen** bei Nutzung < 10%\n• Keine Vorst aus AK\n• Fahrzeug => außerunternehmerisches Vermögen\n• Vorst aus lfd. Kosten nicht zulässig" },
+      { text: "➔ **Zwingend Vorst** und Besteuerung der UWA nach der 1%-Methode, Fahrtenbuchmethode oder Schätzungsmethode" },
+      { text: "Die Übersicht in A 13 ist nach Ansicht der Seite als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
+    ],
+  },
+  {
+    id: "ust-m-b13-33",
+    teil: TEIL,
+    kapitel: "33",
+    abschnittNr: "A 15 und A 16",
+    title: "Arbeitspapiere A 15 und A 16: Anmietung mit Vorsteuer (Abschn. 15.23 Abs. 7 UStAE); Mindest-BMG",
+    thema: "Monatlicher Leistungsbezug bei gemieteten Fahrzeugen, Aufteilung nach Nutzung (100 % / 70 %) ohne Privatnutzungsbesteuerung oder Vereinfachung mit 100 % Vorsteuer und Besteuerung nach den drei BMG-Methoden; Übersicht Mindest-BMG nach § 10 Abs. 5 UStG",
+    rechtsstand: RECHTSSTAND,
+    quelle: q("Arbeitspapiere A 15 und A 16"),
+    verfasser: VERFASSER,
+    normen: ["§ 10 Abs. 4 Nr. 1 bis 3 und Abs. 5 UStG", "§ 15 UStG", "Abschn. 10.7 Abs. 1 und 2 UStAE", "Abschn. 15.23 Abs. 7 UStAE"],
+    themen: ["Arbeitspapier", "Unentgeltliche Wertabgaben", "Fahrzeug", "Mindestbemessungsgrundlage"],
+    bloecke: [
+      { typ: "titel", text: "Arbeitspapier A 15 – 6.3 Anmietung mit Vorst (Abschn. 15.23 Abs. 7 UStAE)" },
+      { text: "➔ monatlicher Leistungsbezug (Teilleistungen)\n➔ Verwendung in den einzelnen Leistungsabschnitten (grds. mtl.) maßgebend" },
+      { typ: "tabelle", spalten: ["Variante", "100% - geschäftlich", "70% - geschäftlich", "Folge"], zeilen: [
+        ["Grundsatz", "⇨ 100 % Vorst - aus Miete - aus Betriebskosten - aus Mietsonderzahlung", "⇨ 70% Vorst - aus Miete - aus Betriebskosten - aus Mietsonderzahlung", "Besteuerung der Privatnutzung entfällt."],
+        ["➔ Vereinfachung", "⇨ 100 % Vorst - aus Miete - aus Betriebskosten - aus Mietsonderzahlung", "⇨ 100% Vorst - aus Miete - aus Betriebskosten - aus Mietsonderzahlung", "Besteuerung der Privatnutzung nach den 3 – BMG-Methoden"],
+      ] },
+      { typ: "titel", text: "Arbeitspapier A 16 – 7. Mindest - BMG" },
+      { text: "**Lieferungen und sonstigen Leistungen im LAT:**" },
+      { typ: "tabelle", spalten: ["von Personenvereinigungen und Gemeinschaften", "von Einzelunternehmen", "von Arbeitgeber"], zeilen: [
+        ["an Anteilseigner, Gesellschafter und Teilhaber oder diesen nahestehenden Personen", "an nahestehende Personen - rechtlich - wirtschaftlich - persönliche Beziehung - Abschn. 10.7 (1) S. 2 -", "an Arbeitnehmer oder deren Angehörige - Abschn. 10.7 (2) -"],
+      ] },
+      { text: "====> **wenn** <====" },
+      { typ: "tabelle", spalten: ["das Entgelt für die Lieferung", "das Entgelt im Falle einer sonstigen Leistung (durch Gegenstandsüberlassung / durch andere sonstige Leistungen)"], zeilen: [
+        ["niedriger ist als der Wert nach § 10(4)1 (= fiktiver Einkaufspreis; Wiederbeschaffungskosten) Im Zeitpunkt der Entnahme", "niedriger ist als die bei der Ausführung entstandenen Ausgaben § 10 (4) Nr. 2 oder Nr. 3 soweit sie (bei Nr. 2) zum vollen oder teilweisen Vorst-abzug berechtigt haben"],
+      ] },
       { text: "Die Schaubilder sind nach Ansicht der Seiten als Tabellen wiedergegeben (eigene Ergänzung zur Darstellung)." },
     ],
   },

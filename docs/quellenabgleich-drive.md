@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### USt-Skript (Moecker), Block 13: Arbeitspapiere A 13 bis A 16
+
+Übernommen (PDF-Seiten 55 bis 58, Seiten gerendert und angesehen): Kapitel ust-m-b13-32 (A 13 Ermittlungsarten der BMG bei Fahrzeugnutzung, A 14 Anschaffungsfälle) und ust-m-b13-33 (A 15 Anmietung mit Vorsteuer, A 16 Mindest-BMG). Schaubilder als Tabellen wiedergegeben.
+
+- Befund Bildabgleich: In A 13 überlagern sich im unteren Seitenteil die Spalten; die Sätze zu Ausgaben ohne Vorsteuer, AK/HStK-Verteilung und Batteriesystem sind nach Ansicht der Seite zusammengesetzt und als solche vermerkt.
+- Stillschweigend berichtigt: „des Batteriesystem bei Elektrofahrzeuge“ → „des Batteriesystems bei Elektrofahrzeugen“ (A 13); „100 - geschäftlich“ → „100% - geschäftlich“ (A 15); UStAE-Kurzverweise „A. 10.7“ / „A 10.7“ ausgeschrieben (A 16).
+- Keine Zahlen zum Nachrechnen.
+
+Prüfung danach: 14 Teile, 517 Kapitel, 6946 Blöcke, 410 Tabellen.
+
+Weiter mit: Arbeitspapier A 17, PDF-Seite 59.
+
 ### USt-Skript (Moecker), Block 13: Arbeitspapiere A 9 bis A 12
 
 Übernommen (PDF-Seiten 51 bis 54, Seiten gerendert und angesehen): Kapitel ust-m-b13-30 (A 9 Ausnahmen bei Zuwendungen an Andere, A 10 Tatbestände des § 3 Abs. 9a UStG) und ust-m-b13-31 (A 11 Gegenstandsverwendung mit Telefonnutzung, A 12 BMG). Schaubilder als Tabellen wiedergegeben; Sternsymbole der Quelle als * dargestellt.
