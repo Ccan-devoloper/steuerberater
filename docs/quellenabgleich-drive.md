@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### UmwSt-Kurz-Skript (Breier), Teil 6 A. I. bis B. VII. (PDF-Seiten 66 bis 91) – Einlage und Einbringung, erster Teil
+
+Übernommen: Teil 6 „Einlage und Einbringung in die Kapitalgesellschaft“, Abschnitte A. I. bis A. III. (Fälle außerhalb des § 20 UmwStG mit Merke-Kasten) und B. I. bis B. VII. (Anwendungsbereiche, Überblick, Gegenstand der Einbringung, neue Anteile, Bilanzierung bei der aufnehmenden Kapitalgesellschaft, Besteuerung des Einbringenden, Anschaffungskosten der neuen Anteile); neue Teil-Konstante TK6, die Buchstabengliederung A./B. als Zwischenüberschrift. 30 Tabellen (Eröffnungs- und Schlussbilanzen, Zwischenwertbilanz sechsspaltig „BW | gem. Wert | ZW“, Rechenweg zur schädlichen Gegenleistung in fünf Schritten), gegen die gerenderten Seiten 86, 90 und 91 und die Textlage geprüft.
+
+- Gekennzeichnet: nichts.
+- Stillschweigend berichtigt: doppelt abgedruckter Absatz „Im steuerlichen Rückwirkungszeitraum vom 1.1.08 bis 31.7.08 …“ (Seite 89) einmal übernommen; „Übertragen den“; „Einbringungsgenstand“; „musss“; „(A: 120.000) und B: 180.000)“; „angewachsen Vermögen“; „operierenden“ → „optierenden“ Gesellschaft; „einbrachten“; „700.00“; „Kapirtalgesellschaft“; „Verbindlicheiten“; „übetragen“; „Übernahegewinn“; „Mitunternehmanteil“; unpaarige Anführungszeichen („fiktive“ GmbH“, „steuerlich …, fehlendes öffnendes Zeichen beim Zitat aus § 20 Abs. 2 S. 5 UmwStG); als Aufzählung missverstandene Fortsetzungszeilen („– anders als …“, „2. Alt. EStG“) wieder angehängt; Silbentrennungen.
+- Nachrechnung (eigene Ergänzung): Trennungstheorie 250.000 ./. 50.000 = 200.000 je Hälfte; Eröffnungsbilanzen 125.000, 300.000/350.000 (Einlagekonto 250.000), 200.000 in drei Varianten; stille Reserven 120.000 ./. 40.000 = 80.000 und 180.000 ./. 60.000 = 120.000; negatives Kapital: 100.000 von 400.000 = 25 %, Zwischenwertbilanz 225.000; schädliche Gegenleistung 700.000 ./. 500.000 = 200.000, 1.800.000 : 2.000.000 = 90 %, 720.000 + 200.000 = 920.000, Gewinn 120.000, AK 220.000, Bilanz 1.020.000, 10 % von 1.200.000 = 120.000; Rückwirkungsfall 30.000 ./. 70.000 = ./. 40.000, Zwischenwert 70.000, Bilanz 100.000, AK 0, 40.000 von 80.000 = 50 % – stimmig.
+
+Prüfung danach: UmwSt-Kurz-Skript (Breier) in Ordnung: 6 Teile, 34 Kapitel, 1032 Blöcke, 79 Tabellen.
+
+Weiter mit: Teil 6 B. VIII. „Steuerliche Behandlung der übernommenen Wirtschaftsgüter“ bis C. V. (PDF-Seiten 91 bis 116).
+
 ### UmwSt-Kurz-Skript (Breier), Teil 5 (PDF-Seiten 58 bis 65) – Spaltung von Kapitalgesellschaften
 
 Übernommen: Teil 5 mit den Abschnitten I. bis VI. (Vorbemerkung, Spaltungsarten, übertragende Kapitalgesellschaft mit doppelter Teilbetriebsvoraussetzung und Missbrauchstatbeständen, Übernehmerin, Gesellschafter, Spaltung auf Personenhandelsgesellschaften) samt Merke-Kasten; neue Teil-Konstante TK5. Eine Tabelle (Aufteilung der Anschaffungskosten).

@@ -55,8 +55,9 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Merke-Kästen als Merksätzen. Eingepflegt sind **Teil 1** (Überblick, Umwandlungssteuererlass),
   **Teil 2** (zivilrechtliche Grundlagen), **Teil 3** (Verschmelzung/Formwechsel einer
   Kapitalgesellschaft auf ein Personenunternehmen), **Teil 4** (Verschmelzung von
-  Kapitalgesellschaften) und **Teil 5** (Spaltung von Kapitalgesellschaften) – 24 Abschnitte,
-  706 Blöcke, 49 Tabellen. Teil 6 (Einlage und Einbringung) folgt. Prüfung: `npm run check:k3-umwst-kurzskript`
+  Kapitalgesellschaften), **Teil 5** (Spaltung von Kapitalgesellschaften) sowie aus **Teil 6**
+  (Einlage und Einbringung) die Abschnitte A. I. bis B. VII. – 34 Abschnitte, 1032 Blöcke,
+  79 Tabellen. Teil 6 ab B. VIII. folgt. Prüfung: `npm run check:k3-umwst-kurzskript`
 - **Hausaufgaben PersG** (Reiter im Campus Personengesellschaften): die Hausaufgaben des
   Tageslehrgangs zu den Fachterminen 1 und 3 (XY OHG – Kurzklausur I, 30 Punkte; AB OHG –
   Gesellschafterwechsel und Ergänzungsbilanz, 20 Punkte) mit Sachverhalt, Aufgabenstellung
