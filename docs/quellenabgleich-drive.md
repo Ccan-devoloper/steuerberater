@@ -10623,6 +10623,19 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 20 und 21 (PDF-Seiten 45 bis 49)
+
+Übernommen: 20 Entstrickung/Verstrickung bei EU und Personengesellschaften (Überführung ins Ausland mit Ausgleichsposten nach § 4g EStG, Rücküberführung, Körperschaften nach § 12 KStG) und 21 Beteiligungen an Kapitalgesellschaften (Bewertung, Gewinnausschüttungen, Veräußerung) – 2 Einträge.
+
+- Die Seiten 45 bis 47 bestehen aus vier Pfeilschaubildern („Überführung Wirtschaftsgut“ von … nach …) mit Textkästen. Die Pfeile stehen als kleine Tabellen von/Überführung/nach (Anordnung eigene Darstellung), die Kästen als Absätze in Lesereihenfolge; die zeilenweise zerfallene Erkennung ist durch den Wortlaut nach den Seitenbildern ersetzt.
+- Gekennzeichnet: „§ 12 Abs 1 Satz 3 EStG“ (zweimal, Seite 47; gemeint wohl § 12 KStG); „Beachte: § 8 b Abs. 4 Satz 6 EStG“ (gemeint KStG).
+- Stillschweigend berichtigt: „Restnutlzungsdauer“.
+- Nachrechnung: keine Zahlenbeispiele (40 %/60 % Teileinkünfteverfahren, 5 % nach § 8b Abs. 3 und 5 KStG stimmen mit dem Gesetz überein). Wortabgleich der Seiten 45 bis 49: vollständig (offen nur Silbentrennungen und der berichtigte Schreibfehler).
+
+Prüfung danach: Bilanz-Skript (Melzer) in Ordnung: 17 Teile, 90 Kapitel, 2649 Blöcke, 203 Tabellen.
+
+Weiter mit: Übersichten, Abschnitte 22 bis 27 (PDF-Seiten 50 bis 68).
+
 ### Übersichten zum Bilanz-Skript Termin 1 (Melzer), Abschnitte 14 bis 19 (PDF-Seiten 37 bis 44)
 
 Übernommen: 14 Gebäude (unselbständige und selbständige Gebäudeteile, Qualifikation und AfA, Gebäudeteile nach R 4.2 Abs. 4 EStR, Grund und Boden, Verbindlichkeiten, Gebäudeabschreibungen), 15 Mietereinbauten (Prüfungsreihenfolge nach § 7/1), 16 Gebäude auf fremdem Grund und Boden, 17 Erbbaurecht, 18 Abbruchkosten (mit Schaubild, Teilabbruch, Abbruchmaterial), 19 Anschaffungsnaher Herstellungsaufwand – 6 Einträge.
