@@ -1216,11 +1216,14 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
   Kapitalgesellschaft als Anteilseigner mit § 8b Abs. 1, 4 und 5 KStG, Streubesitzdividenden
   samt der umstrittenen Auffassung der OFD Frankfurt, die Beteiligung über eine
   Mitunternehmerschaft, § 7 S. 4 GewStG bei Personengesellschaften sowie das materielle und
-  formelle Korrespondenzprinzip mit § 32a KStG) – zusammen 27 Abschnitte, 881 Absätze,
-  33 Tabellen.
-  **Noch unvollständig:** Der Drive-Connector gibt das PDF nur bis etwa Seite 90 von 196 aus.
-  Übernommen ist alles, was er ausgibt; der Rest von Teil 4 und die Teile 5 bis 10 sind
-  darüber nicht erreichbar und stehen in `docs/offene-quellen.md`.
+  formelle Korrespondenzprinzip mit § 32a KStG), dazu die Betriebsausgaben im Zusammenhang
+  mit empfangenen Ausschüttungen (§ 8b Abs. 5 KStG, § 3c Abs. 2 EStG) mit der Merke-Übersicht
+  und Teil 4 B. I (Veräußerungs- und Zuschreibungsgewinne nach § 8b Abs. 2 und 3 KStG,
+  Veräußerungskosten, Earn-out, Einlagekonto, verdeckte Einlage und vGA bei Anteilen,
+  Mitunternehmerschaft) – zusammen 29 Abschnitte, 1014 Blöcke, 36 Tabellen.
+  **Noch unvollständig:** Das vollständige PDF liegt inzwischen vor; der Rest von Teil 4
+  (ab B. II) und die Teile 5 bis 10 werden abschnittsweise nachgetragen
+  (`docs/offene-quellen.md`).
   Prüfung: `npm run check:kst-kurzskript`
 - **KSt-Übungsfälle (Nöthen)** (Klausur 2, Reiter Körperschaftsteuer → „Übungsfälle (Nöthen)“):
   die Übungsfälle des Lehrgangs, Teil 1 (Stand 07/2025) mit drei Fällen – Abschlusszahlung zur

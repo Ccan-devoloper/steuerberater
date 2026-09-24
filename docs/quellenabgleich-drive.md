@@ -10623,6 +10623,18 @@ füllen.
 **Noch offen nach dieser Runde:** aus Teil II die Abschnitte ab 4.2.3; ganz offen sind die
 Skriptteile III bis VII.
 
+### KSt-Kurz-Skript (Breier), Teil 4 A. V. 6 und B. I (PDF-Seiten 81 bis 90)
+
+Übernommen aus dem inzwischen vollständig heruntergeladenen PDF: Betriebsausgaben im Zusammenhang mit empfangenen Ausschüttungen (Körperschaften und natürliche Personen, Merke-Übersicht mit Kapitalertragsteuer und Gewerbesteuer) als Abschnitt 4-07 sowie B. I „Gewinne aus Veräußerungen und Zuschreibungen“ (Nr. 1 bis 8) als Abschnitt 4-08. Seiten 82, 83, 86 und 87 gerendert und angesehen; die verschachtelte Merke-Liste ist je Unterpunkt mit ihrem Oberbegriff wiedergegeben. Der bisherige Block „Ende des lesbaren Textes“ im Abschnitt 4-06 ist entfernt.
+
+- Gekennzeichnet: „Gutachten von Gutachten“; „Einkommen 05: ./. 540.000“ (gemeint der steuerfreie Veräußerungsgewinn).
+- Stillschweigend berichtigt: „im Zusammenhang empfangenen“ → „im Zusammenhang mit empfangenen“; „Natürlichen Personen als Anteilseignern“; „u. S. 43a“ → „u. § 43a“; „wird klargestellt werden“; „Die brasilianischen B-Ltda“; „nichtabziehbar Betriebsausgabe“; „höher ist als“; „gem. 27 Abs. 3“ → „§ 27 Abs. 3“.
+- Nachrechnung (eigene Ergänzung): 7.500 €, 3.200 €, 85.000 €, 1.500 €, 4.300 €, 27.000 €, 12.000 €, 10.000 € und 25.000 € stimmen.
+
+Prüfung danach: KSt-Kurz-Skript in Ordnung: 4 Teile, 29 Kapitel, 1014 Blöcke, 36 Tabellen.
+
+Weiter mit: Teil 4 B. II bis IV (ab PDF-Seite 91; Textfassung ab Zeile 5500).
+
 ### Bilanz-Originalklausuren 2015, Teil III (Müller Holzbau GmbH) – Reihe 2011–2015 vollständig
 
 Übernommen: Prüfung 2015, Teil III – Sachverhalt mit Mehr- und Wenigerrechnung und Bp-Bilanzen (PDF-Seiten 176 bis 181; Seiten 178 und 179 gerendert) und Lösung (PDF-Seiten 199 bis 204; Seiten 199 und 204 gerendert). Die „Anlage zu Teil I“ (PDF-Seiten 182 und 205) gehört zu Teil I.
