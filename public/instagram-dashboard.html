@@ -4339,6 +4339,7 @@
   if(ACCOUNTS[qs.get("konto")])store.account=qs.get("konto");
   if(["0","1","7","14","30"].indexOf(qs.get("tage"))>=0)store.days=Number(qs.get("tage"));
   if(/^\d{4}-\d{2}-\d{2}$/.test(qs.get("datum")||"")){store.days=30;store.date=qs.get("datum");}
+  if(/^\d{4}-\d{2}-\d{2}$/.test(qs.get("review")||""))store.reviewDate=qs.get("review");
   if(["overview","content","preproduction","newsletter","learnings","stories","audience","system"].indexOf(qs.get("view"))>=0)store.view=qs.get("view");
   renderTabs();renderViews();
   if(Number(localStorage.getItem(AUTH_KEY)||0)>Date.now())unlockDashboard();else $("#authPassword").focus();
