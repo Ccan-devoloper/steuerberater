@@ -427,7 +427,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?"
+      "titel": "§ 8b KStG: Welche 5 % kommen hinzu?"
     },
     "s5": {
       "slot": "s5",
@@ -478,7 +478,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 122 Abs. 2 Nr. 1 AO",
-      "titel": "Zeitpunkt der Bekanntgabe: einfacher Brief, E-Mail, förmliche Zustellung und § 122a AO",
+      "titel": "Wann ist der Bescheid bekanntgegeben?",
       "text": "Drei-/Vier-Tages-Fiktion nach Jahr unterscheiden Postaufgabe statt Bescheiddatum verwenden"
     },
     "s7": {
@@ -507,7 +507,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "§ 175 Abs. 1 Nr. 2 AO: rückwirkendes Ereignis, punktuelle Frist und eDaten-Pärchen",
+      "titel": "§ 175 AO: Rückwirkendes Ereignis?",
       "text": "Ereignis nach Bescheid + steuerliche Rückwirkung = § 175 Abs. 1 Nr. 2; für dieses Ereignis Fristbeginn nach § 175 Abs. 1 S. 2 separat untersuchen."
     },
     "s8": {
@@ -556,7 +556,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
+      "titel": "§ 351 AO: Einspruch noch möglich?",
       "falsch": "§ 351 Abs. 1 AO auch ohne Änderungsbescheid anwenden.",
       "richtigText": "Anwendungsbereich des § 351 Abs. 1 AO erkennen"
     }

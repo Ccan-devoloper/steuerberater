@@ -430,7 +430,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wer schuldet die Steuer bei einer Bauleistung unter § 13b UStG?"
+      "titel": "Bauleistung: Wer schuldet die USt?"
     },
     "s5": {
       "slot": "s5",
@@ -478,7 +478,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 3 Abs. 6a S. 1–6 UStG",
-      "titel": "Reihengeschäft nach § 3 Abs. 6a: bewegte und ruhende Lieferung",
+      "titel": "Reihengeschäft: Welche Lieferung bewegt?",
       "text": "Tatbestand und Rechtsfolge des § 3 Abs. 6a trennen Transport durch ersten Lieferer, letzten Abnehmer und Zwischenhändler unterscheiden"
     },
     "s7": {
@@ -533,7 +533,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Bemessungsgrundlage: Entgelt, durchlaufende Posten, Tausch und tauschähnlicher Umsatz",
+      "titel": "Tausch: Was zählt zum Entgelt?",
       "text": "Gesamte Gegenleistung des Leistungsempfängers aufnehmen."
     },
     "s9": {

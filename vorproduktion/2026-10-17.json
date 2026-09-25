@@ -430,7 +430,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie lange läuft die Sperrfrist des § 16 Abs. 3 S. 3 EStG?"
+      "titel": "§ 16 EStG: Wie lang ist die Sperrfrist?"
     },
     "s5": {
       "slot": "s5",
@@ -481,7 +481,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 177 Abs. 1 AO",
-      "titel": "§ 177 AO: Plan C – Saldierung, materieller Fehler und Ober-/Untergrenze",
+      "titel": "§ 177 AO: Wie weit darf saldiert werden?",
       "text": "anderweitige Änderungsbefugnis als Türöffner für § 177 AO erkennen materiellen Fehler nach der Legaldefinition des § 177 Abs. 3 AO bestimmen"
     },
     "s7": {
@@ -508,7 +508,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
+      "titel": "Vermietetes Haus: 10 % frei?",
       "text": "Begünstigtes bebautes Grundstück/Grundstücksteil bestimmen."
     },
     "s8": {
@@ -559,7 +559,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+      "titel": "Unbebaut: Welcher Bodenrichtwert?",
       "text": "Unbebaut i.S.d. § 178 BewG?"
     }
   },

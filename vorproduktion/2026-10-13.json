@@ -475,7 +475,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 13 Abs. 1 BewG",
-      "titel": "Vervielfältiger nach § 13 / § 14 BewG: bestimmte, unbestimmte und lebenslängliche Dauer",
+      "titel": "BewG: Welcher Vervielfältiger?",
       "text": "bestimmte Dauer nach § 13 von lebenslänglicher Dauer nach § 14 BewG trennen für § 14 die zum Bewertungsstichtag geltende BMF-Tabelle verwenden"
     },
     "s7": {
@@ -505,7 +505,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Ablauf des Besteuerungsverfahrens: von der Steuerentstehung bis zur Festsetzungsverjährung",
+      "titel": "Steuerverfahren: Welche Stufe zuerst?",
       "text": "Steuerentstehung nach § 38 AO i.V.m. dem Einzelsteuergesetz bestimmen."
     },
     "s8": {
@@ -536,7 +536,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
+      "titel": "Steuerbescheid oder sonstiger VA?",
       "text": "Nach § 118 AO zuerst VA bejahen."
     },
     "s9": {
@@ -566,7 +566,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Erbschaftsteuer-Klausur: die Vorfragen vor der ersten Bewertung",
+      "titel": "Erbschaftsteuer: Erst die Vorfragen!",
       "text": "1. § 7 ErbStG (Schenkung unter Lebenden; markiert ist insbesondere § 7 Abs. 1 Nr. 1) verzweigt."
     }
   },

@@ -418,7 +418,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Welche Phase wird im Übungsfall nicht der späteren GmbH zugerechnet?"
+      "titel": "Vorgründung: Wer trägt den Aufwand?"
     },
     "s5": {
       "slot": "s5",
@@ -465,7 +465,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-      "titel": "Mitunternehmerschaft: Grundtatbestand des § 15 EStG",
+      "titel": "Mitunternehmer: § 15 EStG?",
       "text": "den Tatbestand des § 15 Abs. 1 S. 1 Nr. 2 EStG in drei Schritten aufbauen OHG und KG als klausurtypische Personengesellschaften erkennen"
     },
     "s7": {
@@ -493,7 +493,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "§ 8 Abs. 1 AStG: Aktivkatalog und die Vermietung von Grundbesitz",
+      "titel": "AStG: Ist Vermietung aktiv?",
       "text": "1. Einkünfte der ausländischen Gesellschaft der Art nach bestimmen."
     },
     "s8": {
@@ -520,7 +520,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "Sonderbetriebsvermögen I und II: Definition, Buchung und Sonderbilanz",
+      "titel": "SBV I oder II: Wohin mit dem Gut?",
       "text": "Komplementär-GmbH-Anteile sind nicht ab 10 % automatisch SBV II. Entscheidend sind Funktion, Einfluss und Veranlassung; unter 10 % greift im gesetzlichen Mehrheitsregelfall regelmäßig die BFH-Negativregel."
     },
     "s9": {

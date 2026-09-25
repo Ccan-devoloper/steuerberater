@@ -427,7 +427,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie hoch ist das zvE der CS-GmbH in der hochgeladenen Lösung?"
+      "titel": "Wie hoch ist das zvE der GmbH?"
     },
     "s5": {
       "slot": "s5",
@@ -471,7 +471,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§§ 169–171 AO",
-      "titel": "Plan B und Korrekturformel: Fehler, Korrekturvorschrift, Festsetzungsfrist und Schlüssel-Schrank-Schema",
+      "titel": "Fehler im Bescheid: Welcher Plan B?",
       "text": "Fehler und passende Korrekturvorschrift paarweise zuweisen Festsetzungsfrist als zusätzliche Grenze untersuchen"
     },
     "s7": {
@@ -499,7 +499,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "§ 173 AO vertieft: Ermittlungsfehler, grobes Verschulden und Zusammenhangsklausel",
+      "titel": "§ 173 AO: Neue Tatsache oder Fehler?",
       "falsch": "Jedes Vergessen automatisch als grobes Verschulden behandeln.",
       "richtigText": "den Ermittlungsfehler des Finanzamts nach der Quellenformel untersuchen"
     },
@@ -524,7 +524,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "§ 171 Abs. 10 S. 1 AO: Hemmung durch wirksamen Grundlagen-/Feststellungsbescheid",
+      "titel": "Grundlagenbescheid: Hemmt § 171 AO?",
       "text": "1. Erlass, Aufhebung oder Änderung eines Grundlagenbescheids feststellen."
     },
     "s9": {
@@ -553,7 +553,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Ordnungsgemäße Bekanntgabe: Zugang im Machtbereich des richtigen Empfängers",
+      "titel": "Bescheid im Machtbereich: Zugegangen?",
       "text": "Ordnungsgemäße Bekanntgabe nach § 122 Abs. 1 AO untersuchen."
     }
   },

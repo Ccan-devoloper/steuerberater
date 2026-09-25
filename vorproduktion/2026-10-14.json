@@ -472,7 +472,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 12 ErbStG",
-      "titel": "Steuerpflichtiger Erwerb: Bewertung, sachliche Befreiungen und zuordenbare Belastungen",
+      "titel": "Erwerb: Welche Lasten kürzen?",
       "text": "für jedes Wirtschaftsgut Bewertung und sachliche Steuerbefreiung getrennt untersuchen § 12 ErbStG als Sprungnorm in das BewG verwenden"
     },
     "s7": {
@@ -497,7 +497,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Bereicherung, gemischte Schenkung und Schenkung unter Auflage",
+      "titel": "Gemischte Schenkung oder Auflage?",
       "text": "§ 10 Abs. 1 S. 1 ErbStG: steuerpflichtiger Erwerb = Bereicherung des Erwerbers, soweit nicht steuerfrei."
     },
     "s8": {
@@ -521,7 +521,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Abfärbung und gewerblich geprägte Personengesellschaft",
+      "titel": "Personengesellschaft: Abfärbung?",
       "text": "zuerst klären: Eine Gesellschaft mit zwei Tätigkeiten oder Ober-/Untergesellschaft?"
     },
     "s9": {
@@ -546,7 +546,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "§ 8 Abs. 2 bis 4 AStG: Motivtest nur für EU-/EWR-Gesellschaften",
+      "titel": "AStG-Motivtest: Nur EU/EWR?",
       "text": "Der Motivtest rettet nur EU-/EWR-Gesellschaften: § 8 Abs. 3 AStG schließt jede Drittstaatengesellschaft aus – auch eine substanzstarke."
     }
   },
