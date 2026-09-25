@@ -4830,6 +4830,18 @@
       },
       "insightsStand": "2026-09-24T19:31:47.347Z",
       "insightsAlterStunden": 1.8
+    },
+    {
+      "datum": "2026-09-25",
+      "slot": "s3",
+      "medienId": "17908889271516200",
+      "veroeffentlicht": "2026-09-25T05:44:10.378Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "persg-quiz-k3-25",
+      "fach": "persg",
+      "titel": "Was geschieht mit einem verrechenbaren Verlust nach § 15a Abs. 2 EStG?"
     }
   ],
   "fachZaehler": {
