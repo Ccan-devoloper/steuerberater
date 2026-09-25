@@ -596,7 +596,8 @@
     "freigabeBetreiber": false,
     "wartetLive": [],
     "visuellGeprueft": true,
-    "visuellGeprueftAm": "2026-09-25"
+    "visuellGeprueftAm": "2026-09-25",
+    "coverIcons": true
   },
   "liveRegel": {
     "veroeffentlichen": true,
@@ -620,5 +621,6 @@
   "coverPolicy": {
     "modus": "lokales-icon-wenn-bildlos",
     "providerKostenUsd": 0
-  }
+  },
+  "bildStatus": "icon-statt-bild"
 }
