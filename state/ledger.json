@@ -4854,11 +4854,33 @@
       "thema": "persg-quiz-k3-25",
       "fach": "persg",
       "titel": "Kern der Antwort"
+    },
+    {
+      "datum": "2026-09-25",
+      "slot": "b1",
+      "medienId": "18078653189376669",
+      "veroeffentlicht": "2026-09-25T06:45:19.139Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "klausurtechnik",
+      "thema": "ust-modul-ust-164",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Vorsteuerabzug und § 14c: gesetzlich geschuldete Steuer statt bloß ausgewiesener Steuer",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 6,
-    "ust": 6,
+    "ust": 7,
     "kst": 7,
     "ao": 13,
     "bilanz": 16,
