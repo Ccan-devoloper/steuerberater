@@ -108,6 +108,22 @@
     .insight-card{border:1px solid var(--line);background:var(--panel2);border-radius:13px;padding:12px}
     .insight-card b{display:block;margin-bottom:4px}
     .insight-card p{margin:0;color:var(--muted);font-size:12px}
+    .newsletter-teaser{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:12px;border-left:4px solid #f4e500;background:linear-gradient(100deg,color-mix(in srgb,#f4e500 7%,var(--panel)),var(--panel))}
+    .newsletter-teaser-logo{width:190px;max-width:50%;height:auto;display:block;margin-bottom:2px}
+    .newsletter-teaser-title{font-size:20px;font-weight:850;line-height:1.15;margin:7px 0 5px}
+    .newsletter-teaser-meta{font-size:12px;color:var(--muted)}
+    .newsletter-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap;margin-bottom:18px}
+    .newsletter-head h2{font-size:24px;line-height:1.15;margin:4px 0 6px}
+    .newsletter-issues{display:flex;gap:9px;flex-wrap:wrap;margin:0 0 16px}
+    .newsletter-issue{border:1px solid var(--line);border-radius:12px;padding:11px 13px;background:var(--panel2);min-width:210px;text-align:left}
+    .newsletter-issue.active{border-color:#f4e500;box-shadow:inset 0 0 0 1px #f4e500}
+    .newsletter-issue strong,.newsletter-issue span{display:block}
+    .newsletter-issue span{color:var(--muted);font-size:11px;margin-top:3px}
+    .newsletter-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+    .newsletter-frame-wrap{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#f5f7fa}
+    .newsletter-frame{display:block;width:100%;height:min(78vh,1100px);min-height:520px;border:0;background:#fff}
+    .newsletter-frame-note{color:var(--muted);font-size:11px;margin-top:10px}
+    @media(max-width:590px){.newsletter-teaser{align-items:flex-start;flex-direction:column}.newsletter-teaser-logo{max-width:190px}.newsletter-issue{width:100%}.newsletter-frame{min-height:450px;height:75vh}}
     .profile-brief{margin-bottom:12px;overflow:hidden;position:relative}
     .profile-brief:before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:linear-gradient(var(--accent),var(--accent2))}
     .profile-brief-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:11px}
@@ -504,6 +520,7 @@
           <button class="nav-tab active" data-view="overview">Übersicht</button>
           <button class="nav-tab" data-view="content">Inhalte</button>
           <button class="nav-tab" data-view="preproduction">Vorproduktion</button>
+          <button class="nav-tab" data-view="newsletter">Newsletter</button>
           <button class="nav-tab" data-view="learnings">Learnings</button>
           <button class="nav-tab" data-view="stories">Stories</button>
           <button class="nav-tab" data-view="audience">Audience</button>
@@ -538,6 +555,15 @@
         <b>So liest du die Übersicht:</b> Reach und Views sind summierte Werte der gespeicherten Inhalte im gewählten Zeitraum. Dadurch kann dieselbe Person bei mehreren Posts mehrfach in der Summe vorkommen. „Follow-Conversion“ = einem Inhalt zugerechnete neue Follows ÷ Reach dieses Inhalts. Prozent-Deltas vergleichen mit der direkt vorherigen, gleich langen Periode.
       </div>
       <article class="panel profile-brief" id="profileBrief"></article>
+      <article class="panel newsletter-teaser" id="newsletterTeaser" hidden>
+        <div>
+          <img class="newsletter-teaser-logo" src="https://raw.githubusercontent.com/Ccan-devoloper/herrjurist/instagram-assets/newsletter/lexverse-portal-v1.png" alt="LexVerse" loading="lazy">
+          <div class="eyebrow">by herrjurist · Newsletter-Vorproduktion</div>
+          <div class="newsletter-teaser-title" id="newsletterTeaserTitle">Entwürfe werden geladen …</div>
+          <div class="newsletter-teaser-meta" id="newsletterTeaserMeta">Vor dem Versand ansehen</div>
+        </div>
+        <button class="btn" id="newsletterOpen" type="button">Vorschau ansehen →</button>
+      </article>
       <div class="grid overview-main">
         <article class="panel hero">
           <div class="panel-head">
@@ -607,6 +633,28 @@
         <div class="preprod-summary" id="preproductionSummary"></div>
         <div class="help-box compact"><b>Review &amp; Bearbeiten:</b> Die Medien kommen direkt aus <code>instagram-assets/vorproduktion</code>. Klick auf ein Bild öffnet die Großansicht, <b>✎</b> öffnet den Slide-Editor im Canva-Stil: Texte (auch die gerenderten Folientexte per „ersetzen“), Formen, Icons, eigene Bilder, Tagesbilder und Pexels-Fotos – mit Ebenen, Ausrichten, Effekten und Filtern. Speichern committet die Folie samt Bearbeitungsebenen in den Asset-Zweig; gespeicherte Slides bleiben dadurch später voll editierbar und werden beim Veröffentlichen verwendet.</div>
         <div id="preproductionFeed"></div>
+      </article>
+    </section>
+
+    <section class="view" data-view-panel="newsletter">
+      <article class="panel">
+        <div class="newsletter-head">
+          <div>
+            <div class="eyebrow">LexVerse · by herrjurist</div>
+            <h2>Newsletter vor dem Versand</h2>
+            <div class="panel-note">Entwürfe der Wochenbriefe in der E-Mail-Ansicht prüfen. Dieser Bereich versendet und veröffentlicht nichts.</div>
+          </div>
+          <span class="badge" id="newsletterCount">–</span>
+        </div>
+        <div class="newsletter-issues" id="newsletterIssues"></div>
+        <div class="newsletter-toolbar">
+          <div class="status" id="newsletterStatus" role="status" aria-live="polite">Voransichten werden geladen …</div>
+          <a class="btn" id="newsletterEdit" href="#" target="_blank" rel="noopener noreferrer" hidden>Entwurf in Kit bearbeiten ↗</a>
+        </div>
+        <div class="newsletter-frame-wrap" id="newsletterFrameWrap" hidden>
+          <iframe class="newsletter-frame" id="newsletterFrame" title="Newsletter-Vorschau" sandbox="" referrerpolicy="no-referrer"></iframe>
+        </div>
+        <div class="newsletter-frame-note">Die Vorschau entspricht der im Vorproduktionszweig gespeicherten E-Mail-Fassung. Änderungen direkt in Kit erscheinen hier nach Abgleich des Entwurfs.</div>
       </article>
     </section>
 
@@ -808,7 +856,8 @@
     selectedMedia:null,
     reviewDate:localStorage.getItem("igDashReviewDate")||"",
     preproductionLoading:false,
-    assetVersions:{}
+    assetVersions:{},
+    newsletter:{issues:[],selected:"",html:"",loading:false,error:""}
   };
   try{store.assetVersions=JSON.parse(localStorage.getItem("igDashAssetVer")||"{}")||{};}catch(e){store.assetVersions={};}
   /* Alte Editor-Entwürfe (>7 Tage) räumen, bevor die localStorage-Quota kippt */
@@ -995,6 +1044,7 @@
       var keys=Object.keys(ACCOUNTS),results=await Promise.allSettled(keys.map(loadAccount));
       results.forEach(function(r,i){if(r.status==="fulfilled")store.data[keys[i]]=r.value;});
       render();
+      await loadNewsletters();
     }finally{store.loading=false;$("#refreshBtn").disabled=false;$("#refreshBtn").classList.remove("loading");}
   }
   function setStatus(text,type){$("#statusText").textContent=text;$("#statusDot").className="dot "+(type||"ok");}
@@ -1006,7 +1056,9 @@
     document.documentElement.style.setProperty("--accent",ACCOUNTS[store.account].accent);
   }
   function renderViews(){
-    var preTab=$('[data-view="preproduction"]'),a=ACCOUNTS[store.account];
+    var preTab=$('[data-view="preproduction"]'),newsTab=$('[data-view="newsletter"]'),a=ACCOUNTS[store.account];
+    if(newsTab)newsTab.hidden=store.account!=="herr";
+    if(store.account!=="herr"&&store.view==="newsletter"){store.view="overview";localStorage.setItem("igDashView",store.view);}
     var canPre=!!(a&&a.preproduction);
     if(preTab)preTab.hidden=!canPre;
     if(!canPre&&store.view==="preproduction"){
@@ -1015,7 +1067,7 @@
     }
     document.querySelectorAll(".nav-tab").forEach(function(b){b.classList.toggle("active",b.dataset.view===store.view);});
     document.querySelectorAll(".view").forEach(function(v){v.classList.toggle("active",v.dataset.viewPanel===store.view);});
-    $(".command-left").hidden=store.view==="preproduction";
+    $(".command-left").hidden=store.view==="preproduction"||store.view==="newsletter";
   }
   function renderRange(data){
     $$("#rangeSeg button").forEach(function(b){b.classList.toggle("active",Number(b.dataset.days)===store.days);});
@@ -1425,6 +1477,66 @@
     var content=day&&day.inhalte&&day.inhalte[slot]||{},count=Math.max(1,(content.folien||[]).length),out=[];
     for(var i=1;i<=count;i++)out.push({rel:preproductionSlideRel(date,slot,i),label:date+" · "+slot+" · Folie "+i,ctx:{date:date,slot:slot,index:i,kind:"slide"}});
     return out;
+  }
+  var NEWSLETTER_BASE="https://raw.githubusercontent.com/Ccan-devoloper/herrjurist/instagram-assets/newsletter";
+  function newsletterDate(iso){
+    var d=parseDate(iso);
+    return d?d.toLocaleDateString("de-DE",{day:"2-digit",month:"long",year:"numeric",timeZone:"UTC"}):"Datum offen";
+  }
+  function sortedNewsletterIssues(issues){
+    var today=new Date().toISOString().slice(0,10);
+    return issues.filter(function(x){
+      return x&&x.status==="draft"&&/^\d+$/.test(String(x.kit_id))&&/^wochenbrief-\d{4}-\d{2}-\d{2}\.html$/.test(x.file||"");
+    }).sort(function(a,b){
+      var ak=a.planned_for&&a.planned_for>=today?a.planned_for:"9999-12-31";
+      var bk=b.planned_for&&b.planned_for>=today?b.planned_for:"9999-12-31";
+      return ak.localeCompare(bk)||String(b.updated_at||"").localeCompare(String(a.updated_at||""));
+    });
+  }
+  function renderNewsletter(){
+    var n=store.newsletter,visible=store.account==="herr",teaser=$("#newsletterTeaser");
+    teaser.hidden=!visible;
+    if(!visible)return;
+    $("#newsletterCount").textContent=n.issues.length+" Entwurf"+(n.issues.length===1?"":"e");
+    var selected=n.issues.find(function(x){return String(x.kit_id)===n.selected;})||n.issues[0];
+    $("#newsletterTeaserTitle").textContent=selected?selected.subject:"Noch kein Entwurf hinterlegt";
+    $("#newsletterTeaserMeta").textContent=selected?(newsletterDate(selected.issue_date)+" · Entwurf · "+n.issues.length+" Vorschau"+(n.issues.length===1?"":"en")):(n.error||"Neue Entwürfe erscheinen nach dem Vorproduktionsabgleich.");
+    $("#newsletterOpen").disabled=!selected;
+    $("#newsletterIssues").innerHTML=n.issues.map(function(x){
+      return '<button class="newsletter-issue '+(String(x.kit_id)===n.selected?"active":"")+'" type="button" data-newsletter-id="'+esc(x.kit_id)+'" aria-pressed="'+(String(x.kit_id)===n.selected)+'"><strong>'+esc(x.subject||"Wochenbrief")+'</strong><span>'+esc(newsletterDate(x.issue_date))+' · Entwurf'+(x.label?" · "+esc(x.label):"")+'</span></button>';
+    }).join("");
+    var edit=$("#newsletterEdit");
+    edit.hidden=!selected;
+    if(selected)edit.href="https://app.kit.com/campaigns/"+selected.kit_id+"/draft";
+    var status=$("#newsletterStatus");
+    status.textContent=n.loading?"E-Mail-Ansicht wird geladen …":n.error?(n.error):(selected?"Entwurf · "+newsletterDate(selected.issue_date)+" · kein Versand":"Noch keine Newsletter-Vorschau hinterlegt.");
+    $("#newsletterFrameWrap").hidden=!selected||!n.html||!!n.error;
+  }
+  async function loadNewsletterPreview(issue){
+    var n=store.newsletter;
+    if(!issue){n.html="";n.loading=false;renderNewsletter();return;}
+    n.selected=String(issue.kit_id);n.html="";n.error="";n.loading=true;renderNewsletter();
+    var id=n.selected;
+    try{
+      var r=await fetch(NEWSLETTER_BASE+"/"+issue.file+"?v="+Date.now(),{cache:"no-store"});
+      if(!r.ok)throw new Error("HTTP "+r.status);
+      var html=await r.text();
+      if(n.selected!==id)return;
+      if(!html.includes("LÖSUNGSSKIZZE"))throw new Error("Vorschau ist unvollständig");
+      n.html=html;
+      $("#newsletterFrame").srcdoc=html;
+    }catch(e){if(n.selected===id)n.error="Vorschau konnte nicht geladen werden: "+(e&&e.message||"Fehler");}
+    finally{if(n.selected===id){n.loading=false;renderNewsletter();}}
+  }
+  async function loadNewsletters(){
+    var n=store.newsletter;
+    try{
+      var index=await fetchJson(NEWSLETTER_BASE+"/index.json");
+      n.issues=sortedNewsletterIssues(Array.isArray(index.issues)?index.issues:[]);
+      n.error="";
+      var selected=n.issues.find(function(x){return String(x.kit_id)===n.selected;})||n.issues[0];
+      await loadNewsletterPreview(selected);
+    }catch(e){n.issues=[];n.html="";n.loading=false;n.error="Newsletter-Index nicht verfügbar: "+(e&&e.message||"Fehler");renderNewsletter();}
   }
   function renderPreproductionSummary(day,meta){
     var box=$("#preproductionSummary");
@@ -3739,7 +3851,7 @@
     renderTabs();renderViews();
     var data=store.data[store.account];
     if(!data){setStatus("Für dieses Konto konnten noch keine Daten geladen werden.","warn");return;}
-    renderRange(data);renderOverviewKpis(data);renderProfileBrief(data);renderTrend(data);renderInsights(data);renderTypeCompare(data);renderContent(data);renderPreproduction(data);renderLearnings(data);renderStories(data);renderAudience(data);renderSystem(data);renderDrawer(data);
+    renderRange(data);renderOverviewKpis(data);renderProfileBrief(data);renderTrend(data);renderInsights(data);renderTypeCompare(data);renderContent(data);renderPreproduction(data);renderNewsletter();renderLearnings(data);renderStories(data);renderAudience(data);renderSystem(data);renderDrawer(data);
     var errs=data._errors&&data._errors.length||0,set=validSelectedDay(data);
     if(store.view==="preproduction"&&ACCOUNTS[store.account]&&ACCOUNTS[store.account].preproduction){
       var preStand=data.vorproduktionIndex&&data.vorproduktionIndex.stand;
@@ -3753,6 +3865,13 @@
   }
 
   $("#refreshBtn").addEventListener("click",loadAll);
+  $("#newsletterOpen").addEventListener("click",function(){if(!store.newsletter.issues.length)return;store.view="newsletter";localStorage.setItem("igDashView",store.view);render();});
+  $("#newsletterIssues").addEventListener("click",function(e){
+    var b=e.target.closest("[data-newsletter-id]");
+    if(!b)return;
+    var issue=store.newsletter.issues.find(function(x){return String(x.kit_id)===b.dataset.newsletterId;});
+    if(issue)loadNewsletterPreview(issue);
+  });
   $("#accountTabs").addEventListener("click",function(e){var b=e.target.closest("[data-account]");if(!b)return;store.account=b.dataset.account;localStorage.setItem("igDashAccount",store.account);closeDrawer();render();});
   $("#viewTabs").addEventListener("click",function(e){var b=e.target.closest("[data-view]");if(!b)return;store.view=b.dataset.view;localStorage.setItem("igDashView",store.view);closeDrawer();render();});
   $("#rangeSeg").addEventListener("click",function(e){var b=e.target.closest("[data-days]");if(!b)return;store.days=Number(b.dataset.days);store.date="";localStorage.setItem("igDashDays",String(store.days));localStorage.removeItem("igDashDate");closeDrawer();render();});
@@ -4086,7 +4205,7 @@
   if(ACCOUNTS[qs.get("konto")])store.account=qs.get("konto");
   if(["0","1","7","14","30"].indexOf(qs.get("tage"))>=0)store.days=Number(qs.get("tage"));
   if(/^\d{4}-\d{2}-\d{2}$/.test(qs.get("datum")||"")){store.days=30;store.date=qs.get("datum");}
-  if(["overview","content","preproduction","learnings","stories","audience","system"].indexOf(qs.get("view"))>=0)store.view=qs.get("view");
+  if(["overview","content","preproduction","newsletter","learnings","stories","audience","system"].indexOf(qs.get("view"))>=0)store.view=qs.get("view");
   renderTabs();renderViews();
   if(Number(localStorage.getItem(AUTH_KEY)||0)>Date.now())unlockDashboard();else $("#authPassword").focus();
   setInterval(function(){if(!$("#dashboardApp").hidden)loadAll();},5*60*1000);
