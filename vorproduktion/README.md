@@ -4,7 +4,7 @@ Dieser Ordner ist die Steuerstelle für die Review-Vorproduktion des Examenscamp
 
 ## Verbindliche Trennung
 
-**Vom Herrjurist übernommen werden die Layout-Regeln:** Feed 1080×1350 (4:5), Stories und Reel-Cover 1080×1920 (9:16), dieselbe Cover-Hierarchie, dieselben sicheren Innenzonen, dieselben Einpass-/Geometrie-Gates und dieselben Layout-Karten für den Dashboard-Editor. Bildlose Review-Cover bekommen keine handschriftliche Ersatznotiz. Reel-Cover bleiben echte 9:16-Kompositionen; die wichtigen Informationen liegen zusätzlich in der 4:5-Profil-Safe-Area.
+**Vom Herrjurist übernommen werden die Layout-Regeln:** Feed 1080×1350 (4:5), Stories und Reel-Cover 1080×1920 (9:16), dieselbe Cover-Hierarchie, dieselben sicheren Innenzonen, dieselben Einpass-/Geometrie-Gates und dieselben Layout-Karten für den Dashboard-Editor. Bildlose Review-Cover bekommen keine handschriftliche Ersatznotiz, sondern ein thematisch passendes Icon aus dem lokal installierten Iconify-Satz. Reel-Cover bleiben echte 9:16-Kompositionen; die wichtigen Informationen liegen zusätzlich in der 4:5-Profil-Safe-Area.
 
 **Nicht übernommen werden Farben oder fachliche Kategorien.** Maßgeblich bleiben ausschließlich:
 
@@ -36,6 +36,12 @@ Die Mengen werden **nicht** aus Herrjurist kopiert. Es gilt immer der aktuelle E
 
 Lösungsskizzen am Prüfungsabend sind absichtlich nicht vorproduzierbar. Sie hängen von den tatsächlich berichteten Klausurthemen ab. Solche Slots werden als `wartet-auf-live-recherche` markiert und weder erfunden noch mit Platzhalter-Fachinhalt gerendert.
 
+## Live-Vorrang ab 25.09.2026
+
+Seit dem Betreiberauftrag vom 25.09.2026 gilt im stündlichen Instagram-Lauf ein einfacher Tages-Gate: Existiert im Asset-Zweig eine Datei `vorproduktion/YYYY-MM-DD.json`, übernimmt ausschließlich die Vorproduktion dieses Datums. Der normale Veröffentlichungs- und Content-Lauf bleibt für diesen Tag vollständig aus. Am ersten Datum ohne Vorproduktionsdatei läuft die bisherige Normalpipeline automatisch wieder weiter.
+
+Live verwendet dabei nur die bereits vorproduzierten Texte, Stories und Reel-Videos. Fehlende Coverbilder werden lokal durch passende Icons ersetzt; vorhandene Bilder bleiben erhalten. Es werden keine Text-KI-, Faktencheck-, Bild-, Pexels- oder ElevenLabs-Aufrufe gestartet. Notwendig bleibt ausschließlich die Instagram Graph API zum eigentlichen Veröffentlichen; dafür fallen keine Providerkosten an.
+
 ## Kosten- und Freigaberegel
 
-Der Review-Lauf verweigert OpenAI-, Anthropic-, ElevenLabs- und Pexels-Secrets, deaktiviert Bild-KI/Charaktere und nutzt für Reels ausschließlich Piper offline. Neue Review-Tage starten immer mit `freigabeBetreiber: false`. Vorproduktion ist keine Veröffentlichung.
+Der Review-Lauf verweigert OpenAI-, Anthropic-, ElevenLabs- und Pexels-Secrets, deaktiviert Bild-KI/Charaktere und nutzt für Reels ausschließlich Piper offline. Neue Review-Tage starten weiterhin als Review. Die Live-Freigabe wird durch den oben beschriebenen Tages-Gate erteilt, sobald für das Datum eine fertige Vorproduktionsdatei vorhanden ist.
