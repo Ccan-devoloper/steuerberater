@@ -573,7 +573,9 @@
     "layoutQuelle": "herrjurist",
     "semantikQuelle": "examenscampus",
     "freigabeBetreiber": false,
-    "wartetLive": []
+    "wartetLive": [],
+    "visuellGeprueft": true,
+    "visuellGeprueftAm": "2026-09-25"
   },
   "liveRegel": {
     "veroeffentlichen": false,
@@ -581,8 +583,14 @@
   },
   "qa": {
     "inhalt": "manuell-validiert",
-    "visuell": "Neurender erforderlich",
+    "visuell": "pixel-validiert",
     "publikationsregeln": "validiert",
-    "stand": "2026-09-25"
+    "stand": "2026-09-25",
+    "pixelcheck": {
+      "status": "bestanden",
+      "stills": "alle Feed-, Cover- und Story-JPGs geprüft",
+      "reels": "Cover plus drei Szenenframes je Reel geprüft; Safe-Area gegen HerrJurist-Logik verifiziert",
+      "geprueftAm": "2026-09-25"
+    }
   }
 }
