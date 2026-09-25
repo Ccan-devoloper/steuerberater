@@ -13,6 +13,11 @@ jobs:
   qa:
     runs-on: ubuntu-latest
     steps:
+      - name: Main auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
       - name: Instagram-Assets auschecken
         uses: actions/checkout@v4
         with:
