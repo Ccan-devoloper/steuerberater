@@ -55,13 +55,13 @@
         "slot": "s4",
         "zeit": "07:19",
         "art": "frage",
-        "themaId": "kst-quiz-kst-13"
+        "themaId": "ust-quiz-ust-2"
       },
       {
         "slot": "s5",
         "zeit": "07:19",
         "art": "antwort",
-        "themaId": "kst-quiz-kst-13"
+        "themaId": "ust-quiz-ust-2"
       },
       {
         "slot": "s6",
@@ -418,12 +418,13 @@
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-13",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-quiz-ust-2",
       "quellen": [
-        "Themenpool: kst-quiz-kst-13"
+        "§ 1a Abs. 3 und 5 UStG",
+        "Themenpool: ust-quiz-ust-2"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -433,17 +434,18 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie hoch ist das zvE der GmbH?"
+      "titel": "Wann greift die 12.500-Euro-Schwelle?"
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-13",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-quiz-ust-2",
       "quellen": [
-        "Themenpool: kst-quiz-kst-13"
+        "§ 1a Abs. 3 und 5 UStG",
+        "Themenpool: ust-quiz-ust-2"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -453,8 +455,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
-      "text": "Richtig: 5.150 €. Die Schlussrechnung der Lösung endet bei 5.150 €."
+      "titel": "Die Antwort",
+      "text": "Für die in § 1a Abs. 3 UStG genannten Erwerber gilt die Schwelle von 12.500 Euro im Vorjahr und im laufenden Jahr. Neue Fahrzeuge und verbrauchsteuerpflichtige Waren sind ausgenommen."
     },
     "s6": {
       "slot": "s6",
@@ -615,7 +617,7 @@
     }
   },
   "renderVorschau": {
-    "status": "fertig",
+    "status": "ausstehend",
     "erzeugtAm": "2026-09-25T22:38:23.029Z",
     "pfad": "vorproduktion/2026-10-12/fertig",
     "providerKostenUsd": 0,

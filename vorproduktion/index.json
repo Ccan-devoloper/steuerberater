@@ -274,8 +274,8 @@
       "reviewPfad": "vorproduktion/2026-10-11/fertig",
       "coverbilder": false,
       "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
+      "bilderStatus": "ausstehend",
+      "renderStatus": "ausstehend",
       "coverIcons": true
     },
     {
@@ -291,8 +291,8 @@
       "reviewPfad": "vorproduktion/2026-10-12/fertig",
       "coverbilder": false,
       "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
+      "bilderStatus": "ausstehend",
+      "renderStatus": "ausstehend",
       "coverIcons": true
     },
     {
@@ -393,8 +393,8 @@
       "reviewPfad": "vorproduktion/2026-10-18/fertig",
       "coverbilder": false,
       "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
+      "bilderStatus": "ausstehend",
+      "renderStatus": "ausstehend",
       "coverIcons": true
     },
     {
