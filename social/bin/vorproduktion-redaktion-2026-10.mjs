@@ -151,6 +151,29 @@ const carouselAntworten = {
   "2026-10-28:b1": "Ist ein Übertragungstatbestand des § 6 Abs. 5 EStG erfüllt, ordnet die Norm grundsätzlich die Fortführung des Buchwerts an.",
   "2026-10-28:b2": "Bei einem bebauten Grundstück bestimmt die Grundstücksart nach § 181 BewG, welche Methode nach § 182 BewG greift.",
 };
+// Story-Überschriften müssen in die Markenpille des 1080×1920-Layouts passen.
+// Die fachliche Aussage bleibt im Story-Text; hier steht die kurze Kernfrage.
+const storyHooks = {
+  "2026-10-10": { s4: "§ 8b KStG: Welche 5 % kommen hinzu?", s6: "Wann ist der Bescheid bekanntgegeben?", s7: "§ 175 AO: Rückwirkendes Ereignis?", s9: "§ 351 AO: Einspruch noch möglich?" },
+  "2026-10-11": { s6: "Grundlagenbescheid: Folgeänderung?", s7: "Außenprüfung: Frist gehemmt?", s9: "Wann hilft der Ergänzungsbescheid?" },
+  "2026-10-12": { s4: "Wie hoch ist das zvE der GmbH?", s6: "Fehler im Bescheid: Welcher Plan B?", s7: "§ 173 AO: Neue Tatsache oder Fehler?", s8: "Grundlagenbescheid: Hemmt § 171 AO?", s9: "Bescheid im Machtbereich: Zugegangen?" },
+  "2026-10-13": { s6: "BewG: Welcher Vervielfältiger?", s7: "Steuerverfahren: Welche Stufe zuerst?", s8: "Steuerbescheid oder sonstiger VA?", s9: "Erbschaftsteuer: Erst die Vorfragen!" },
+  "2026-10-14": { s6: "Erwerb: Welche Lasten kürzen?", s7: "Gemischte Schenkung oder Auflage?", s8: "Personengesellschaft: Abfärbung?", s9: "AStG-Motivtest: Nur EU/EWR?" },
+  "2026-10-15": { s4: "Vorgründung: Wer trägt den Aufwand?", s6: "Mitunternehmer: § 15 EStG?", s7: "AStG: Ist Vermietung aktiv?", s8: "SBV I oder II: Wohin mit dem Gut?" },
+  "2026-10-16": { s4: "Realteilung: Buchwert als Wahlrecht?" },
+  "2026-10-17": { s4: "§ 16 EStG: Wie lang ist die Sperrfrist?", s6: "§ 177 AO: Wie weit darf saldiert werden?", s7: "Vermietetes Haus: 10 % frei?", s9: "Unbebaut: Welcher Bodenrichtwert?" },
+  "2026-10-18": { s4: "Bauleistung: Wer schuldet die USt?", s6: "Reihengeschäft: Welche Lieferung bewegt?", s8: "Tausch: Was zählt zum Entgelt?" },
+  "2026-10-19": { s6: "Grundstück: Befreiung oder Option?", s8: "§ 15a UStG: Wann berichtigen?" },
+  "2026-10-20": { s4: "Forschung oder Entwicklung aktivieren?", s9: "Vorsteuer: Abzug oder Aufteilung?" },
+  "2026-10-21": { s8: "§ 17 UStG: Entgelt geändert?" },
+  "2026-10-22": { s4: "§ 15a UStG: Wie lang bei Immobilien?", s7: "Pkw-Überlassung: Entnahme oder Lohn?" },
+  "2026-10-23": { s8: "§ 74 AO: Haftet der Eigentümer?", s9: "§ 370 AO: Ist der Taterfolg da?" },
+  "2026-10-24": { s7: "Vollstreckung: Sind die Hürden erfüllt?", s8: "§ 69 AO: Haftet die Geschäftsführung?", s9: "§ 165 AO: Vorläufigkeit noch offen?" },
+  "2026-10-25": { s4: "PWB: Welche Forderungen als Basis?", s7: "Unentgeltliche Lieferung: § 3 UStG?", s8: "§ 165 AO: Was ist vorläufig?", s9: "Steuerhinterziehung: Vorsatz?" },
+  "2026-10-26": { s4: "Verbindlichkeit: Noch 5,5 % abzinsen?", s7: "Gesellschafter: Leistung oder Entgelt?", s9: "Organschaft: Drei Eingliederungen?" },
+  "2026-10-27": { s8: "Selbstanzeige: Sperrgrund nach § 371 AO?" },
+  "2026-10-28": { s4: "Realteilung: Spitzenausgleich?", s9: "Kleinunternehmer: Welche Grenze 2025?" },
+};
 const neuSatz = (s) => /[.!?]$/.test(s) ? s : s + ".";
 const sauber = (s) => String(s || "").replace(/\s+/g, " ").trim();
 const eigeneWorte = (s) => sauber(s)
@@ -295,6 +318,10 @@ for (const [datum, titel] of Object.entries(hooks)) {
     storyNeu("s5", id, {
       text: "Nein. § 6 Abs. 1 Nr. 3 EStG verweist für Verbindlichkeiten auf Nr. 2. Die Abzinsung zu 5,5 % betrifft nach Nr. 3a Buchst. e weiterhin bestimmte Rückstellungen.",
     });
+  }
+  for (const [slot, hook] of Object.entries(storyHooks[datum] || {})) {
+    if (!tag.inhalte[slot]) throw new Error(datum + " " + slot + ": Story fehlt");
+    tag.inhalte[slot].titel = hook;
   }
   try { examenscampusRegelnPruefen(tag); }
   catch (error) { probleme.push(datum + ": " + error.message); }
