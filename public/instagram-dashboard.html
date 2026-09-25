@@ -119,6 +119,10 @@
     .newsletter-issue.active{border-color:#f4e500;box-shadow:inset 0 0 0 1px #f4e500}
     .newsletter-issue strong,.newsletter-issue span{display:block}
     .newsletter-issue span{color:var(--muted);font-size:11px;margin-top:3px}
+    .newsletter-key{border:1px solid color-mix(in srgb,#f4e500 40%,var(--line));background:color-mix(in srgb,#f4e500 7%,var(--panel2));border-radius:12px;padding:16px;margin:10px 0 18px}
+    .newsletter-key strong{display:block;margin-bottom:5px}
+    .newsletter-key p{margin:0 0 10px;color:var(--muted);font-size:12px}
+    .newsletter-key input{max-width:100%;font-size:12px}
     .newsletter-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
     .newsletter-frame-wrap{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#f5f7fa}
     .newsletter-frame{display:block;width:100%;height:min(78vh,1100px);min-height:520px;border:0;background:#fff}
@@ -646,15 +650,23 @@
           </div>
           <span class="badge" id="newsletterCount">–</span>
         </div>
+        <div class="newsletter-key" id="newsletterKeyPrompt" hidden>
+          <strong>Privaten Vorschau-Schlüssel auswählen</strong>
+          <p>Der Entwurf liegt verschlüsselt im Asset-Zweig. Wähle deine LexVerse-Schlüsseldatei (.pem) einmal auf diesem Gerät. Die Datei wird nur hier im Browser gelesen und nicht hochgeladen.</p>
+          <input id="newsletterKeyFile" type="file" accept=".pem,text/plain" aria-label="Privaten LexVerse-Vorschau-Schlüssel auswählen">
+        </div>
         <div class="newsletter-issues" id="newsletterIssues"></div>
         <div class="newsletter-toolbar">
           <div class="status" id="newsletterStatus" role="status" aria-live="polite">Voransichten werden geladen …</div>
-          <a class="btn" id="newsletterEdit" href="#" target="_blank" rel="noopener noreferrer" hidden>Entwurf in Kit bearbeiten ↗</a>
+          <div class="inline-actions">
+            <button class="btn" id="newsletterForget" type="button" hidden>Schlüssel auf diesem Gerät entfernen</button>
+            <a class="btn" id="newsletterEdit" href="#" target="_blank" rel="noopener noreferrer" hidden>Entwurf in Kit bearbeiten ↗</a>
+          </div>
         </div>
         <div class="newsletter-frame-wrap" id="newsletterFrameWrap" hidden>
           <iframe class="newsletter-frame" id="newsletterFrame" title="Newsletter-Vorschau" sandbox="" referrerpolicy="no-referrer"></iframe>
         </div>
-        <div class="newsletter-frame-note">Die Vorschau entspricht der im Vorproduktionszweig gespeicherten E-Mail-Fassung. Änderungen direkt in Kit erscheinen hier nach Abgleich des Entwurfs.</div>
+        <div class="newsletter-frame-note">Die E-Mail wird erst nach dem Entschlüsseln auf diesem Gerät angezeigt. Änderungen in Kit erscheinen nach dem erneuten verschlüsselten Vorproduktionsabgleich.</div>
       </article>
     </section>
 
@@ -857,7 +869,7 @@
     reviewDate:localStorage.getItem("igDashReviewDate")||"",
     preproductionLoading:false,
     assetVersions:{},
-    newsletter:{issues:[],selected:"",html:"",loading:false,error:""}
+    newsletter:{issues:[],selected:"",html:"",loading:false,error:"",key:null}
   };
   try{store.assetVersions=JSON.parse(localStorage.getItem("igDashAssetVer")||"{}")||{};}catch(e){store.assetVersions={};}
   /* Alte Editor-Entwürfe (>7 Tage) räumen, bevor die localStorage-Quota kippt */
@@ -1483,10 +1495,61 @@
     var d=parseDate(iso);
     return d?d.toLocaleDateString("de-DE",{day:"2-digit",month:"long",year:"numeric",timeZone:"UTC"}):"Datum offen";
   }
+  function newsletterKeyDb(){
+    return new Promise(function(resolve,reject){
+      var request=indexedDB.open("lexverse-preview-keys",1);
+      request.onupgradeneeded=function(){request.result.createObjectStore("keys");};
+      request.onsuccess=function(){resolve(request.result);};
+      request.onerror=function(){reject(request.error);};
+    });
+  }
+  async function readNewsletterKey(){
+    var db=await newsletterKeyDb();
+    return new Promise(function(resolve,reject){
+      var tx=db.transaction("keys","readonly"),r=tx.objectStore("keys").get("lexverse-v1");
+      r.onsuccess=function(){db.close();resolve(r.result||null);};
+      r.onerror=function(){db.close();reject(r.error);};
+    });
+  }
+  async function saveNewsletterKey(key){
+    var db=await newsletterKeyDb();
+    return new Promise(function(resolve,reject){
+      var tx=db.transaction("keys","readwrite");
+      tx.objectStore("keys").put(key,"lexverse-v1");
+      tx.oncomplete=function(){db.close();resolve();};
+      tx.onerror=function(){db.close();reject(tx.error);};
+    });
+  }
+  async function removeNewsletterKey(){
+    var db=await newsletterKeyDb();
+    return new Promise(function(resolve,reject){
+      var tx=db.transaction("keys","readwrite");
+      tx.objectStore("keys").delete("lexverse-v1");
+      tx.oncomplete=function(){db.close();resolve();};
+      tx.onerror=function(){db.close();reject(tx.error);};
+    });
+  }
+  function newsletterBytes(base64){
+    var binary=atob(base64),bytes=new Uint8Array(binary.length);
+    for(var i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);
+    return bytes;
+  }
+  async function importNewsletterKey(pem){
+    var match=pem.match(/-----BEGIN PRIVATE KEY-----([\s\S]*?)-----END PRIVATE KEY-----/);
+    if(!match)throw new Error("Die Datei enthält keinen PKCS#8-Privatschlüssel.");
+    return crypto.subtle.importKey("pkcs8",newsletterBytes(match[1].replace(/\s/g,"")),{name:"RSA-OAEP",hash:"SHA-256"},false,["decrypt"]);
+  }
+  async function decryptNewsletter(envelope,key){
+    if(envelope.version!==1||envelope.algorithm!=="RSA-OAEP-256+A256GCM")throw new Error("Unbekanntes Verschlüsselungsformat.");
+    var raw=await crypto.subtle.decrypt({name:"RSA-OAEP"},key,newsletterBytes(envelope.key));
+    var aes=await crypto.subtle.importKey("raw",raw,{name:"AES-GCM"},false,["decrypt"]);
+    var clear=await crypto.subtle.decrypt({name:"AES-GCM",iv:newsletterBytes(envelope.iv)},aes,newsletterBytes(envelope.ciphertext));
+    return JSON.parse(new TextDecoder().decode(clear));
+  }
   function sortedNewsletterIssues(issues){
     var today=new Date().toISOString().slice(0,10);
     return issues.filter(function(x){
-      return x&&x.status==="draft"&&/^\d+$/.test(String(x.kit_id))&&/^wochenbrief-\d{4}-\d{2}-\d{2}\.html$/.test(x.file||"");
+      return x&&x.status==="draft"&&/^\d+$/.test(String(x.kit_id))&&typeof x.html==="string";
     }).sort(function(a,b){
       var ak=a.planned_for&&a.planned_for>=today?a.planned_for:"9999-12-31";
       var bk=b.planned_for&&b.planned_for>=today?b.planned_for:"9999-12-31";
@@ -1497,46 +1560,48 @@
     var n=store.newsletter,visible=store.account==="herr",teaser=$("#newsletterTeaser");
     teaser.hidden=!visible;
     if(!visible)return;
-    $("#newsletterCount").textContent=n.issues.length+" Entwurf"+(n.issues.length===1?"":"e");
     var selected=n.issues.find(function(x){return String(x.kit_id)===n.selected;})||n.issues[0];
-    $("#newsletterTeaserTitle").textContent=selected?selected.subject:"Noch kein Entwurf hinterlegt";
-    $("#newsletterTeaserMeta").textContent=selected?(newsletterDate(selected.issue_date)+" · Entwurf · "+n.issues.length+" Vorschau"+(n.issues.length===1?"":"en")):(n.error||"Neue Entwürfe erscheinen nach dem Vorproduktionsabgleich.");
-    $("#newsletterOpen").disabled=!selected;
+    $("#newsletterCount").textContent=n.key?n.issues.length+" Entwurf"+(n.issues.length===1?"":"e"):"Verschlüsselt";
+    $("#newsletterTeaserTitle").textContent=selected?selected.subject:"Newsletter-Vorschau verschlüsselt";
+    $("#newsletterTeaserMeta").textContent=selected?(newsletterDate(selected.issue_date)+" · Entwurf · "+n.issues.length+" Vorschau"+(n.issues.length===1?"":"en")):"Nur mit deinem privaten Vorschau-Schlüssel";
+    $("#newsletterOpen").disabled=false;
+    $("#newsletterKeyPrompt").hidden=!!n.key&&!!n.issues.length;
+    $("#newsletterForget").hidden=!n.key;
     $("#newsletterIssues").innerHTML=n.issues.map(function(x){
       return '<button class="newsletter-issue '+(String(x.kit_id)===n.selected?"active":"")+'" type="button" data-newsletter-id="'+esc(x.kit_id)+'" aria-pressed="'+(String(x.kit_id)===n.selected)+'"><strong>'+esc(x.subject||"Wochenbrief")+'</strong><span>'+esc(newsletterDate(x.issue_date))+' · Entwurf'+(x.label?" · "+esc(x.label):"")+'</span></button>';
     }).join("");
     var edit=$("#newsletterEdit");
     edit.hidden=!selected;
     if(selected)edit.href="https://app.kit.com/campaigns/"+selected.kit_id+"/draft";
-    var status=$("#newsletterStatus");
-    status.textContent=n.loading?"E-Mail-Ansicht wird geladen …":n.error?(n.error):(selected?"Entwurf · "+newsletterDate(selected.issue_date)+" · kein Versand":"Noch keine Newsletter-Vorschau hinterlegt.");
+    $("#newsletterStatus").textContent=n.loading?"Verschlüsselte Voransichten werden geladen …":n.error?n.error:(selected?"Entwurf · "+newsletterDate(selected.issue_date)+" · kein Versand":"Wähle deinen privaten Schlüssel, um die Vorschau zu sehen.");
     $("#newsletterFrameWrap").hidden=!selected||!n.html||!!n.error;
   }
-  async function loadNewsletterPreview(issue){
+  function loadNewsletterPreview(issue){
     var n=store.newsletter;
-    if(!issue){n.html="";n.loading=false;renderNewsletter();return;}
-    n.selected=String(issue.kit_id);n.html="";n.error="";n.loading=true;renderNewsletter();
-    var id=n.selected;
-    try{
-      var r=await fetch(NEWSLETTER_BASE+"/"+issue.file+"?v="+Date.now(),{cache:"no-store"});
-      if(!r.ok)throw new Error("HTTP "+r.status);
-      var html=await r.text();
-      if(n.selected!==id)return;
-      if(!html.includes("LÖSUNGSSKIZZE"))throw new Error("Vorschau ist unvollständig");
-      n.html=html;
-      $("#newsletterFrame").srcdoc=html;
-    }catch(e){if(n.selected===id)n.error="Vorschau konnte nicht geladen werden: "+(e&&e.message||"Fehler");}
-    finally{if(n.selected===id){n.loading=false;renderNewsletter();}}
+    n.selected=issue?String(issue.kit_id):"";
+    n.html=issue?issue.html:"";
+    $("#newsletterFrame").srcdoc=n.html;
+    renderNewsletter();
   }
   async function loadNewsletters(){
     var n=store.newsletter;
+    n.loading=true;n.error="";renderNewsletter();
     try{
+      if(!n.key)n.key=await readNewsletterKey();
+      if(!n.key){n.issues=[];loadNewsletterPreview(null);return;}
       var index=await fetchJson(NEWSLETTER_BASE+"/index.json");
-      n.issues=sortedNewsletterIssues(Array.isArray(index.issues)?index.issues:[]);
-      n.error="";
+      var refs=(Array.isArray(index.issues)?index.issues:[]).filter(function(x){return x&&/^wochenbrief-\d{4}-\d{2}-\d{2}\.enc\.json$/.test(x.file||"");});
+      var issues=await Promise.all(refs.map(async function(x){
+        var envelope=await fetchJson(NEWSLETTER_BASE+"/"+x.file);
+        return decryptNewsletter(envelope,n.key);
+      }));
+      n.issues=sortedNewsletterIssues(issues);
       var selected=n.issues.find(function(x){return String(x.kit_id)===n.selected;})||n.issues[0];
-      await loadNewsletterPreview(selected);
-    }catch(e){n.issues=[];n.html="";n.loading=false;n.error="Newsletter-Index nicht verfügbar: "+(e&&e.message||"Fehler");renderNewsletter();}
+      n.error="";loadNewsletterPreview(selected);
+    }catch(e){
+      n.issues=[];n.html="";$("#newsletterFrame").srcdoc="";
+      n.error=e&&e.name==="OperationError"?"Der private Schlüssel passt nicht zu diesen Entwürfen.":"Voransichten konnten nicht geladen werden: "+(e&&e.message||"Fehler");
+    }finally{n.loading=false;renderNewsletter();}
   }
   function renderPreproductionSummary(day,meta){
     var box=$("#preproductionSummary");
@@ -3865,6 +3930,23 @@
   }
 
   $("#refreshBtn").addEventListener("click",loadAll);
+  $("#newsletterKeyFile").addEventListener("change",async function(e){
+    var file=e.target.files&&e.target.files[0];
+    if(!file)return;
+    var n=store.newsletter;
+    try{
+      n.key=await importNewsletterKey(await file.text());
+      await loadNewsletters();
+      if(n.error||!n.issues.length){n.key=null;renderNewsletter();return;}
+      await saveNewsletterKey(n.key);
+    }catch(err){n.key=null;n.error="Schlüssel konnte nicht übernommen werden: "+(err&&err.message||"Fehler");renderNewsletter();}
+    finally{e.target.value="";}
+  });
+  $("#newsletterForget").addEventListener("click",async function(){
+    await removeNewsletterKey();
+    store.newsletter.key=null;store.newsletter.issues=[];store.newsletter.error="";
+    loadNewsletterPreview(null);
+  });
   $("#newsletterOpen").addEventListener("click",function(){if(!store.newsletter.issues.length)return;store.view="newsletter";localStorage.setItem("igDashView",store.view);render();});
   $("#newsletterIssues").addEventListener("click",function(e){
     var b=e.target.closest("[data-newsletter-id]");
