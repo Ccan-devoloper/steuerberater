@@ -13,6 +13,7 @@ import path from "node:path";
 import {
   examenscampusRegelnPruefen,
   providerfreieVorproduktionPruefen,
+  coverIconEinsetzen,
 } from "../src/vorproduktion.mjs";
 
 providerfreieVorproduktionPruefen();
@@ -34,7 +35,7 @@ const temp = fs.mkdtempSync(path.join(os.tmpdir(), "examenscampus-vorproduktion-
 const manifest = {
   version: 1,
   erzeugtAm: new Date().toISOString(),
-  modus: "lokal-ohne-provider-und-ohne-coverbilder",
+  modus: "lokal-ohne-provider-mit-icon-cover",
   layoutQuelle: "herrjurist",
   semantikQuelle: "examenscampus",
   providerKostenUsd: 0,
@@ -42,6 +43,7 @@ const manifest = {
   faktencheckProviderKostenUsd: 0,
   bildgenerierungKostenUsd: 0,
   coverbilder: false,
+  coverIcons: true,
   tage: [],
 };
 
@@ -141,20 +143,15 @@ try {
         continue;
       }
 
-      beitrag.coverBildAuslassen = true;
-      beitrag.bild = null;
-      beitrag.bildQuelle = null;
-      beitrag.bildCharaktere = [];
+      /* Vorhandene Coverbilder bleiben erhalten. Fehlt eines, wird lokal ein
+         thematisch passendes Icon eingesetzt – ohne Bild-API oder Netzwerk. */
+      const coverIcon = coverIconEinsetzen(beitrag);
 
       const ziel = path.join(out, slot);
       fs.mkdirSync(ziel, { recursive: true });
 
       if (Array.isArray(beitrag.folien)) {
         const titel = beitrag.folien.find((f) => f.art === "titel") || beitrag.folien[0];
-        titel.coverBildAuslassen = true;
-        titel.bild = null;
-        titel.bildQuelle = null;
-        titel.bildCharaktere = [];
         const dateien = await beitragRendern(beitrag, ziel, { variante: 0 });
         mTag.feed.push({
           slot,
@@ -162,7 +159,8 @@ try {
           titel: titelVon(beitrag),
           klausur: beitrag.klausur,
           fach: beitrag.fach,
-          coverBild: false,
+          coverBild: Boolean(titel.bild),
+          coverIcon: titel.bild ? null : coverIcon,
           dateien: dateien.map((p) => path.basename(p)),
         });
       } else if (Array.isArray(beitrag.szenen)) {
@@ -178,7 +176,8 @@ try {
           titel: titelVon(beitrag),
           klausur: beitrag.klausur,
           fach: beitrag.fach,
-          coverBild: false,
+          coverBild: Boolean(beitrag.bild),
+          coverIcon: beitrag.bild ? null : coverIcon,
           dateien: [path.basename(reel.cover), path.basename(reel.video)],
           reel: {
             dauer: reel.dauer,
@@ -251,6 +250,7 @@ try {
       faktencheckProviderKostenUsd: 0,
       bildgenerierungKostenUsd: 0,
       coverbilder: false,
+      coverIcons: true,
       reelStimme: "piper-offline",
       layoutQuelle: "herrjurist",
       semantikQuelle: "examenscampus",
@@ -265,7 +265,7 @@ try {
       bildgenerierungErlaubt: false,
       bildkostenUsd: 0,
       providerKostenUsd: 0,
-      bilderStatus: "bewusst-ausgelassen",
+      bilderStatus: "icon-statt-providerbild",
     };
 
     const ziel = path.join(hosting.dir, "vorproduktion", datum, "fertig");
@@ -296,5 +296,6 @@ console.log(JSON.stringify({
   providerKostenUsd: 0,
   bildgenerierungKostenUsd: 0,
   coverbilder: false,
+  coverIcons: true,
   ziel: tage.map((d) => "vorproduktion/" + d + "/fertig"),
 }, null, 2));
