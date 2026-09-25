@@ -148,6 +148,38 @@ for (const [datum, titel] of Object.entries(hooks)) {
   if (datum === "2026-09-29" && antwort?.text) {
     antwort.text = "Die Wahl reicht vom Buchwert über den Zwischenwert bis zum gemeinen Wert. Für den Buchwert ist ein Antrag nötig; ohne Wahl bleibt es beim gemeinen Wert.";
   }
+  const storyNeu = (slot, id, felder) => {
+    const thema = pool.get(id), plan = tag.plan.stories.find((s) => s.slot === slot), inhalt = tag.inhalte[slot];
+    if (!thema || !plan || !inhalt) throw new Error(datum + " " + slot + ": Story-Thema fehlt");
+    plan.themaId = thema.id;
+    Object.assign(inhalt, {
+      fach: thema.fach,
+      klausur: thema.klausur,
+      fachLabel: "Bilanzsteuerrecht",
+      pairId: thema.id,
+      quellen: quellText(thema),
+      ...felder,
+    });
+  };
+  if (datum === "2026-10-16") storyNeu("s9", "bilanz-modul-k3-44", {
+    titel: "Bewertungseinheit ohne Wirksamkeitsnachweis?",
+    falsch: "Grundgeschäft und Sicherungsinstrument allein wegen gegenläufiger Werte zusammenfassen.",
+    richtigText: "Nur der wirksame Risikoausgleich fällt unter § 254 HGB; Sicherungszusammenhang und Wirksamkeit nachweisen.",
+  });
+  if (datum === "2026-10-20") {
+    const id = "bilanz-karte-k3-5";
+    storyNeu("s4", id, { titel: "Forschung oder Entwicklung: Was darf aktiviert werden?" });
+    storyNeu("s5", id, {
+      text: "Handelsrechtlich können Entwicklungskosten aktiviert werden (§ 255 Abs. 2a HGB). Forschung bleibt Aufwand; sind die Phasen nicht trennbar, entfällt die Aktivierung.",
+    });
+  }
+  if (datum === "2026-10-26") {
+    const id = "bilanz-karte-k3-17";
+    storyNeu("s4", id, { titel: "Unverzinsliche Verbindlichkeit: Noch 5,5 % abzinsen?" });
+    storyNeu("s5", id, {
+      text: "Nein. § 6 Abs. 1 Nr. 3 EStG verweist für Verbindlichkeiten auf Nr. 2. Die Abzinsung zu 5,5 % betrifft nach Nr. 3a Buchst. e weiterhin bestimmte Rückstellungen.",
+    });
+  }
   try { examenscampusRegelnPruefen(tag); }
   catch (error) { probleme.push(datum + ": " + error.message); }
   fs.writeFileSync(datei, JSON.stringify(tag, null, 2) + "\n");
