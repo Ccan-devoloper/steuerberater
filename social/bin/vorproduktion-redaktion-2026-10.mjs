@@ -89,6 +89,68 @@ const reelAntworten = {
   "2026-10-27": "Die Steuerbefreiung eines gemeinnützigen Vereins nach § 5 Abs. 1 Nr. 9 KStG erfasst einen steuerpflichtigen wirtschaftlichen Geschäftsbetrieb grundsätzlich nicht.",
   "2026-10-28": "Ein Abzugsverbot wie § 10 KStG führt bei bereits gewinnminderndem Aufwand zur außerbilanziellen Hinzurechnung; dieselbe Position nicht doppelt korrigieren.",
 };
+const carouselAntworten = {
+  "2026-09-29:b1": "Prüfe die betriebliche Nutzung der Maschine: Gesamthandseigentum allein macht sie noch nicht zum Betriebsvermögen.",
+  "2026-09-29:b2": "Zuerst klären, welche Ablaufhemmung die Festsetzungsfrist offen hält. Erst danach die passende Korrekturvorschrift prüfen.",
+  "2026-09-30:b1": "Für die Bewertung zählt die Lage am Stichtag. Später bekannt gewordene Hinweise darauf zählen, erst später entstandene Wertverluste nicht.",
+  "2026-09-30:b2": "Ein rechtswidriger Bescheid kann wirksam sein. Nichtigkeit nach § 125 AO erfordert einen besonders schweren und offenkundigen Mangel.",
+  "2026-10-01:b1": "Dient das Wirtschaftsgut dem Betrieb, kommt Sonderbetriebsvermögen I in Betracht; stärkt es die Beteiligung, prüfe Sonderbetriebsvermögen II.",
+  "2026-10-01:b2": "Eine bloß angekündigte Prüfung hemmt die Frist nicht. Nach tatsächlichem Beginn kann eine sofortige längere Unterbrechung die Hemmung entfallen lassen.",
+  "2026-10-02:b1": "Handelsrechtlich ist beim Umlaufvermögen der niedrigere Stichtagswert maßgeblich. Steuerlich setzt der niedrigere Teilwert eine dauernde Wertminderung voraus.",
+  "2026-10-02:b2": "Ob der Zugang beim Berater die Frist auslöst, hängt insbesondere von dessen Empfangsvollmacht und der Bekanntgabe nach § 122 AO ab.",
+  "2026-10-03:b1": "Eine verdeckte Einlage braucht einen bilanzierbaren Vermögensvorteil. Eine bloße Nutzung ohne Entgelt reicht dafür nicht.",
+  "2026-10-03:b2": "Ermittle Steuerentstehung und Anlaufhemmung nach § 170 AO, dann Dauer und Endtag der Frist; zuletzt mögliche Ablaufhemmungen.",
+  "2026-10-04:b1": "Ein objektiv falscher Ansatz wird berichtigt. Für den Wechsel zwischen zwei zulässigen Ansätzen gelten die engeren Voraussetzungen des § 4 Abs. 2 EStG.",
+  "2026-10-04:b2": "Prüfe erst, ob der Einspruch gegen diesen Verwaltungsakt eröffnet ist. Die Bezeichnung des Schreibens ist weniger wichtig als sein erkennbares Begehren.",
+  "2026-10-05:b1": "Für den Investitionsabzugsbetrag zählt die steuerliche Gewinngrenze von 200.000 Euro ohne den Abzug; Handelsbilanz und Sonderabschreibung getrennt halten.",
+  "2026-10-05:b2": "Wiedereinsetzung nach § 110 AO verlangt unverschuldete Fristversäumung, rechtzeitigen Antrag und die nachgeholte Handlung.",
+  "2026-10-06:b1": "Beim Erwerb gegen Rente ist deren Barwert Teil der Anschaffungskosten. Den Bodenanteil getrennt behandeln, weil er nicht abgeschrieben wird.",
+  "2026-10-06:b2": "Fällt das berechnete Fristende auf einen Sonntag, verschiebt § 108 Abs. 3 AO es regelmäßig auf den nächsten Werktag.",
+  "2026-10-07:b1": "Stelle tatsächliche und richtige Buchung gegenüber. Die Differenz bestimmt die Korrekturbuchung und ihre Gewinnauswirkung.",
+  "2026-10-07:b2": "Ein mechanischer Fehler des Steuerpflichtigen bei der Erklärung führt zu § 173a AO; bei einem Versehen des Amts prüfe § 129 AO.",
+  "2026-10-08:b1": "Beim Anteilsverkauf einer Körperschaft prüfe § 8b Abs. 2 und 3 KStG; die 10-Prozent-Grenze betrifft dagegen Dividenden nach Abs. 4.",
+  "2026-10-08:b2": "Ein Verwaltungsakt braucht Bekanntgabewillen und wirksame Bekanntgabe. Die bloße Kenntnisnahme ersetzt die Prüfung des Adressaten nicht.",
+  "2026-10-09:b1": "Der Kaufpreis über dem übernommenen Kapitalkonto wird für den Erwerber in einer Ergänzungsbilanz den Wirtschaftsgütern zugeordnet.",
+  "2026-10-09:b2": "Bei einer rechtsfähigen Personengesellschaft führt grundsätzlich sie selbst den Einspruch gegen ihren Feststellungsbescheid; die Vertretung handelt für sie.",
+  "2026-10-10:b1": "Der Gewinn entsteht bei erfüllter Leistung und Übergang der wesentlichen Risiken, nicht erst mit Ausstellung der Rechnung.",
+  "2026-10-10:b2": "Nach Ablauf der regulären Frist braucht eine Änderung sowohl eine Ablaufhemmung (§ 171 AO) als auch eine Korrekturvorschrift.",
+  "2026-10-11:b1": "Eine Ersatzbeschaffung muss am Bilanzstichtag ernstlich geplant und zu erwarten sein; Ursache des Ausscheidens und Frist gesondert prüfen.",
+  "2026-10-11:b2": "Der Antrag auf schlichte Änderung richtet sich auf konkrete Punkte und kann formfrei gestellt werden. Beim Einspruch wird der Bescheid breiter überprüft.",
+  "2026-10-12:b1": "Das Grundbuch begründet die zivilrechtliche Zuordnung. Für § 39 Abs. 2 AO kann aber entscheidend sein, wer den Eigentümer wirtschaftlich ausschließt.",
+  "2026-10-12:b2": "Eine neue Tatsache im Sinne des § 173 AO muss schon bei Erlass des Bescheids bestanden haben und dem Finanzamt erst später bekannt werden.",
+  "2026-10-13:b1": "In der Bilanzklausur zuerst Zurechnung, dann Ansatz und Bewertung klären. Jede Buchung dem richtigen Buchungskreis zuweisen.",
+  "2026-10-13:b2": "Bestimme den Jahreswert der Nutzung oder Leistung. Der passende Vervielfältiger richtet sich anschließend nach ihrer Dauer.",
+  "2026-10-14:b1": "Eine gesellschaftlich veranlasste Vermögensminderung kann eine vGA sein. Soweit sie den Gewinn gesenkt hat, wird sie außerbilanziell korrigiert.",
+  "2026-10-14:b2": "Bei Nachlassschulden sind der Bezug zu steuerbefreitem Vermögen und die Kürzung nach § 10 Abs. 6a ErbStG gesondert zu prüfen.",
+  "2026-10-15:b1": "Leistungen an Anteilseigner mindern zunächst den ausschüttbaren Gewinn. Erst der darüber hinausgehende Betrag kann das steuerliche Einlagekonto nutzen.",
+  "2026-10-15:b2": "Nach Steuerklasse und Höhe des Erwerbs gilt die Tarifstufe des § 19 Abs. 1 ErbStG. An der Grenze den Härteausgleich des Absatzes 3 prüfen.",
+  "2026-10-16:b1": "Die Miete ist beim Mitunternehmer Sonderbetriebseinnahme und bei der Gesellschaft Aufwand. Gesamthand und Sonderbereich sind abzustimmen.",
+  "2026-10-16:b2": "Bei immerwährenden Leistungen gilt das 18,6fache des Jahreswerts, bei unbestimmter Dauer grundsätzlich das 9,3fache (§ 13 Abs. 2 BewG).",
+  "2026-10-17:b1": "Einlagen sind grundsätzlich mit dem Teilwert zu bewerten. Bei Anschaffung innerhalb der letzten drei Jahre begrenzt § 6 Abs. 1 Nr. 5 EStG den Ansatz.",
+  "2026-10-17:b2": "Solange der Vorbehalt wirksam ist, kann der Bescheid nach § 164 Abs. 2 AO ohne besondere neue Tatsache geändert werden; Fristen bleiben zu prüfen.",
+  "2026-10-18:b1": "Übersteigen Instandsetzungs- und Modernisierungskosten binnen drei Jahren 15 Prozent der Gebäude-AK, greift regelmäßig § 6 Abs. 1 Nr. 1a EStG.",
+  "2026-10-18:b2": "§ 129 AO erfasst offenbare mechanische Versehen der Behörde, keine nachträgliche Neubewertung von Tatsachen oder Recht.",
+  "2026-10-19:b1": "Bei Fahrten zwischen Wohnung und Betriebsstätte die 0,03-Prozent-Berechnung und den Abzug der Entfernungspauschale getrennt ermitteln.",
+  "2026-10-19:b2": "Ein niedrigerer gemeiner Wert verdrängt den Regelwert nur, wenn er nach § 198 BewG nachgewiesen ist.",
+  "2026-10-20:b1": "Beim Tausch zählt auch der Wert des hingegebenen Gegenstands zur Gegenleistung. Die Umsatzsteuer und einen Zuschuss getrennt behandeln.",
+  "2026-10-20:b2": "Vor einem Auskunftsersuchen an Dritte ist grundsätzlich zu prüfen, ob die Befragung des Steuerpflichtigen genügt (§ 93 Abs. 1 Satz 3 AO).",
+  "2026-10-21:b1": "Realteilung kann auch beim Ausscheiden eines Partners vorliegen, wenn Wirtschaftsgüter in einem Betriebsvermögen fortgeführt werden.",
+  "2026-10-21:b2": "Hausrat und andere bewegliche Gegenstände getrennt erfassen; die Freibeträge des § 13 Abs. 1 Nr. 1 ErbStG hängen von der Steuerklasse ab.",
+  "2026-10-22:b1": "Sofortabzug und Sammelposten folgen verschiedenen Wertgrenzen. Für den Sammelposten gilt das Wahlrecht einheitlich im Wirtschaftsjahr.",
+  "2026-10-22:b2": "Der Grundbesitzwert wird nach §§ 151, 157 BewG gesondert festgestellt und nach § 12 Abs. 3 ErbStG für die Erbschaftsteuer übernommen.",
+  "2026-10-23:b1": "Erworbene eigene Anteile werden nach § 272 Abs. 1a HGB mit ihrem Nennbetrag offen vom gezeichneten Kapital abgesetzt.",
+  "2026-10-23:b2": "War der sonstige Verwaltungsakt schon bei Erlass rechtswidrig, prüfe § 130 AO. Für den rechtmäßigen Akt ist § 131 AO einschlägig.",
+  "2026-10-24:b1": "Der entgeltlich erworbene Firmenwert ist der Überschuss des Kaufpreises über die einzeln bewerteten Nettovermögenswerte.",
+  "2026-10-24:b2": "Beim Ertragswertverfahren addierst du Bodenwert und kapitalisierten Gebäudeertrag nach Abzug von Bewirtschaftungskosten und Bodenverzinsung.",
+  "2026-10-25:b1": "Der Nennbetrag erhöht das gezeichnete Kapital; ein darüber gezahltes Agio gehört in die Kapitalrücklage (§ 272 Abs. 2 Nr. 1 HGB).",
+  "2026-10-25:b2": "Zuerst Grundstücksart nach § 181 BewG bestimmen. Danach weist § 182 BewG das Bewertungsverfahren zu.",
+  "2026-10-26:b1": "§ 16 Abs. 4 EStG setzt für den Freibetrag unter anderem Alter oder dauernde Berufsunfähigkeit voraus. Die Fünftelregelung gesondert prüfen.",
+  "2026-10-26:b2": "Grund und Boden, Gebäude und weitere Bestandteile gehören zum Grundvermögen; Ausnahmen des § 176 BewG vor der Bewertung ausscheiden.",
+  "2026-10-27:b1": "Ein PRAP entsteht bei Einnahmen vor dem Stichtag, soweit sie Ertrag für eine bestimmte Zeit danach sind (§ 250 Abs. 2 HGB).",
+  "2026-10-27:b2": "Eine Geschäftsveräußerung im Ganzen setzt einen übertragbaren Betrieb oder Teilbetrieb voraus, den der Erwerber fortführt (§ 1 Abs. 1a UStG).",
+  "2026-10-28:b1": "Ist ein Übertragungstatbestand des § 6 Abs. 5 EStG erfüllt, ordnet die Norm grundsätzlich die Fortführung des Buchwerts an.",
+  "2026-10-28:b2": "Bei einem bebauten Grundstück bestimmt die Grundstücksart nach § 181 BewG, welche Methode nach § 182 BewG greift.",
+};
 const neuSatz = (s) => /[.!?]$/.test(s) ? s : s + ".";
 const sauber = (s) => String(s || "").replace(/\s+/g, " ").trim();
 const eigeneWorte = (s) => sauber(s)
@@ -157,8 +219,12 @@ for (const [datum, titel] of Object.entries(hooks)) {
       for (const punkt of schritt?.schritte || []) {
         punkt.text = punkt.text.replace(/^\d+\.\s*/, "").replace(/^./, (c) => c.toUpperCase());
       }
-      // Der pauschale Merksatz wiederholt bei allen Themen dieselbe Floskel.
+      // Die Schlussfolie beantwortet den Hook mit einer Aussage aus dem
+      // Themenpool. Beschädigte oder missverständliche Quellsätze sind ersetzt.
       beitrag.folien = beitrag.folien.filter((f) => f.art !== "merke" && f.titel !== "Typischer Fehler");
+      const antwort = carouselAntworten[datum + ":" + slot];
+      if (!antwort) throw new Error(datum + " " + slot + ": Antwort zum Karussell-Hook fehlt");
+      beitrag.folien.splice(-1, 0, { art: "merke", titel: "Die Antwort", text: antwort });
     } else {
       const s = beitrag.szenen;
       s[0].titel = hook;
