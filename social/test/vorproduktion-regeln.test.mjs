@@ -85,12 +85,55 @@ test("IStR-Socialpool entfernt dozenteneigene Merkhilfen vollständig", () => {
   assert.doesNotMatch(text, /Unterrichtsnotiz|Originalfall|der Einheit/i);
 });
 
-test("Vorproduktion blockiert Dozentenbegriffe und inhaltliche Platzhalter", () => {
-  const tag = (story) => ({
+function gueltigerFeed(extraInhalte = {}) {
+  return {
+    plan: {
+      beitraege: [
+        { slot: "b1", format: "pruefungsfrage", fach: "ao", klausur: 1 },
+        { slot: "b2", format: "reel", fach: "est", klausur: 2 },
+        { slot: "b3", format: "schema", fach: "bilanz", klausur: 3 },
+      ],
+    },
+    inhalte: {
+      b1: { format: "pruefungsfrage", fach: "ao", klausur: 1, kurztitel: "AO", folien: [{ art: "titel", titel: "AO" }] },
+      b2: { format: "reel", fach: "est", klausur: 2, kurztitel: "ESt", szenen: [{ art: "hook", titel: "ESt", text: "Sauber prüfen.", sprecher: "Sauber prüfen." }] },
+      b3: { format: "schema", fach: "bilanz", klausur: 3, kurztitel: "Bilanz", folien: [{ art: "titel", titel: "Bilanz" }] },
+      ...extraInhalte,
+    },
+  };
+}
+
+test("Vorproduktion erzwingt drei Feedbeiträge mit K1, K2, K3 und genau einem Reel", () => {
+  const basis = gueltigerFeed();
+  assert.equal(examenscampusRegelnPruefen({
     datum: "2026-09-25",
-    plan: { beitraege: [], stories: [{ slot: "s1", art: story.art }] },
-    inhalte: { s1: story },
-  });
+    plan: { ...basis.plan, stories: [] },
+    inhalte: basis.inhalte,
+  }), true);
+
+  assert.throws(() => examenscampusRegelnPruefen({
+    datum: "2026-09-25",
+    plan: { beitraege: basis.plan.beitraege.slice(0, 2), stories: [] },
+    inhalte: basis.inhalte,
+  }), /genau 3 Feed-Beiträge/);
+
+  const zweiReels = structuredClone(basis);
+  zweiReels.plan.beitraege[2].format = "reel";
+  zweiReels.inhalte.b3 = { format: "reel", fach: "bilanz", klausur: 3, kurztitel: "Bilanz", szenen: [{ art: "hook", titel: "Bilanz", text: "Sauber prüfen.", sprecher: "Sauber prüfen." }] };
+  assert.throws(() => examenscampusRegelnPruefen({
+    datum: "2026-09-25", plan: { ...zweiReels.plan, stories: [] }, inhalte: zweiReels.inhalte,
+  }), /genau 1 Reel/);
+});
+
+test("Vorproduktion blockiert Dozentenbegriffe und inhaltliche Platzhalter", () => {
+  const tag = (story) => {
+    const basis = gueltigerFeed({ s1: story });
+    return {
+      datum: "2026-09-25",
+      plan: { ...basis.plan, stories: [{ slot: "s1", art: story.art }] },
+      inhalte: basis.inhalte,
+    };
+  };
 
   assert.throws(() => examenscampusRegelnPruefen(tag({
     art: "merksatz", fach: "istr", klausur: 2,
@@ -115,18 +158,13 @@ test("Vorproduktion blockiert Dozentenbegriffe und inhaltliche Platzhalter", () 
 });
 
 test("Vorproduktion blockiert sichtbar abgeschnittene Reel-Texte", () => {
-  const day = {
+  const basis = gueltigerFeed();
+  basis.inhalte.b2.szenen[0].titel = "Einkommensteuer sauber prüfen…";
+  assert.throws(() => examenscampusRegelnPruefen({
     datum: "2026-09-25",
-    plan: { beitraege: [{ slot: "b1", format: "reel", fach: "mindset", klausur: 0 }], stories: [] },
-    inhalte: {
-      b1: {
-        format: "reel", fach: "mindset", klausur: 0,
-        kurztitel: "Prüfungsabend",
-        szenen: [{ art: "hook", titel: "Prüfungsangst am Abend…", text: "Ruhe organisieren.", sprecher: "Ruhe organisieren." }],
-      },
-    },
-  };
-  assert.throws(() => examenscampusRegelnPruefen(day), /künstlich mit … abgeschnitten/);
+    plan: { ...basis.plan, stories: [] },
+    inhalte: basis.inhalte,
+  }), /künstlich mit … abgeschnitten/);
 });
 
 test("Reel-Cover nutzt die aktuelle HerrJurist-Safe-Area ohne Farbübernahme", () => {
