@@ -35,7 +35,7 @@
         "zeit": "12:00",
         "format": "reel",
         "themaId": "persg-modul-persg-4",
-        "themaTitel": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften",
+        "themaTitel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
         "fach": "persg",
         "klausur": 3,
         "lang": true
@@ -119,21 +119,21 @@
           "art": "text",
           "titel": "Klausur 1 · Verfahrensrecht, USt, ErbSt",
           "punkte": [
-            "Im Review-Zeitraum noch kein Thema dieser Klausur."
+            "Vorsteuerabzug und § 14c: gesetzlich geschuldete Steuer von bloß ausgewiesener Steuer trennen."
           ]
         },
         {
           "art": "text",
           "titel": "Klausur 2 · Ertragsteuern",
           "punkte": [
-            "Im Review-Zeitraum noch kein Thema dieser Klausur."
+            "§ 49 EStG: bei beschränkter Steuerpflicht den inländischen Anknüpfungspunkt vor einem DBA prüfen."
           ]
         },
         {
           "art": "text",
           "titel": "Klausur 3 · Bilanzen",
           "punkte": [
-            "Gesamthandsvermögen und Mitunternehmerbilanz: Bestandteile der Gesamtsteuerbilanz benennen"
+            "Mitunternehmerschaft: Gesamthands-, Ergänzungs- und Sonderbilanzen getrennt erfassen und zusammenführen."
           ]
         },
         {
@@ -151,7 +151,7 @@
           ]
         }
       ],
-      "caption": "Wochenrückblick getrennt nach den drei schriftlichen Klausuren des Steuerberaterexamens.",
+      "caption": "Wochenrückblick der bereits vorproduzierten Feedthemen: K1 mit Vorsteuerabzug und § 14c, K2 mit § 49 EStG bei beschränkter Steuerpflicht und K3 mit der steuerlichen Gesamtbilanz einer Mitunternehmerschaft.",
       "hashtags": [
         "#steuerberaterexamen",
         "#examensvorbereitung",
@@ -171,12 +171,17 @@
         "Themenpool: bilanz-modul-k3-9"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "b2": {
       "format": "reel",
@@ -190,107 +195,105 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften",
+          "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
           "unter": "Personengesellschaften",
-          "text": "Stufe I Gesellschaft und Stufe II Gesellschafter strikt trennen",
-          "norm": "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 1. HS EStG",
+          "text": "Gesellschaftsebene und Gesellschafterebene getrennt rechnen.",
+          "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
           "icon": null,
-          "sprecher": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften. Stufe I Gesellschaft und Stufe II Gesellschafter strikt trennen",
+          "sprecher": "Bei Mitunternehmerschaften rechnest du Gesellschaftsebene und gesellschafterbezogene Ebene getrennt und führst sie erst am Ende zusammen.",
           "marken": [
-            "Stufe I Gesellschaft und Stufe II…"
+            "Ebenen getrennt rechnen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Gesamthandsgewinn laut Bilanz übernehmen und…",
-          "text": "Stufe I Gesellschaft und Stufe II Gesellschafter strikt trennen",
-          "norm": "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 1. HS EStG",
+          "titel": "Gesamthandsgewinn erfassen",
+          "text": "Ausgangspunkt ist das Ergebnis der Gesellschaft einschließlich der Gewinnverteilung.",
+          "norm": null,
           "icon": null,
-          "sprecher": "Schritt 1: Gesamthandsgewinn laut Bilanz übernehmen und Vorwegewinne/Gewinnverteilung abbilden..",
+          "sprecher": "Schritt 1: Erfasse den Gesamthandsgewinn und die gesellschaftsbezogene Gewinnverteilung.",
           "marken": [
-            "Gesamthandsgewinn laut Bilanz übernehmen…"
+            "Gesamthandsgewinn"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Gesellschafterindividuelle Wertkorrekturen der…",
-          "text": "Vorabgewinn, Kapitalverzinsung, Haftungs- und Tätigkeitsvergütungen in der Gewinnverteilung abbilden",
-          "norm": "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 2. HS EStG",
+          "titel": "Ergänzungsbilanzen berücksichtigen",
+          "text": "Gesellschafterbezogene Mehr- oder Minderwerte separat einbeziehen.",
+          "norm": null,
           "icon": null,
-          "sprecher": "Schritt 2: Gesellschafterindividuelle Wertkorrekturen der Ergänzungsbilanz ergänzen..",
+          "sprecher": "Schritt 2: Berücksichtige gesellschafterbezogene Mehr- oder Minderwerte aus Ergänzungsbilanzen.",
           "marken": [
-            "Gesellschafterindividuelle Wertkorrekturen…"
+            "Ergänzungsbilanzen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 3,
-          "titel": "Gewinn laut Sonderbilanz einschließlich Sondervergütungen…",
-          "text": "Ergänzungs- und Sonderbilanzen an der richtigen Stelle ergänzen",
-          "norm": "§ 60 Abs. 2 S. 1 EStDV",
+          "titel": "Sonderbereich einbeziehen",
+          "text": "Sonderbilanz sowie Sondervergütungen und Sonderbetriebsausgaben dem jeweiligen Gesellschafter zuordnen.",
+          "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
           "icon": null,
-          "sprecher": "Schritt 3: Gewinn laut Sonderbilanz einschließlich Sondervergütungen und Sonderbetriebsausgaben erfassen..",
+          "sprecher": "Schritt 3: Ordne Sonderbilanz, Sondervergütungen und Sonderbetriebsausgaben dem jeweiligen Gesellschafter zu.",
           "marken": [
-            "Gewinn laut Sonderbilanz einschließlich…"
+            "Sonderbereich zuordnen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 4,
-          "titel": "Außerbilanzielle Korrekturen der Sonderbilanz ergänzen.",
-          "text": "außerbilanzielle Korrekturen der jeweiligen Ebene zuordnen",
-          "norm": "§ 4 Abs. 5 EStG",
+          "titel": "Korrekturen der richtigen Ebene zuweisen",
+          "text": "Außerbilanzielle Korrekturen dort erfassen, wo die zugehörige Besteuerungsgrundlage entsteht.",
+          "norm": null,
           "icon": null,
-          "sprecher": "Schritt 4: Außerbilanzielle Korrekturen der Sonderbilanz ergänzen..",
+          "sprecher": "Schritt 4: Weise außerbilanzielle Korrekturen der richtigen Ebene zu.",
           "marken": [
-            "Außerbilanzielle Korrekturen der…"
+            "Korrekturen zuordnen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 5,
-          "titel": "Gewinnanteile der Mitunternehmer und Gesamtgewinn der…",
-          "text": "Die Unterrichtsnotiz stellt die Gewinnermittlung zweistufig dar. Stufe I ist die Gesellschaftsebene mit…",
-          "norm": "§ 79 EStDV",
+          "titel": "Gesamtgewinn abstimmen",
+          "text": "Die einzelnen Gewinnanteile und den steuerlichen Gesamtgewinn abschließend zusammenführen.",
+          "norm": null,
           "icon": null,
-          "sprecher": "Schritt 5: Gewinnanteile der Mitunternehmer und Gesamtgewinn der Mitunternehmerschaft zusammenführen..",
+          "sprecher": "Schritt 5: Stimme die Gewinnanteile mit dem steuerlichen Gesamtgewinn ab.",
           "marken": [
-            "Gewinnanteile der Mitunternehmer und…"
+            "Gesamtgewinn abstimmen"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Stufe I gehört der Gesellschaft, Stufe II den Gesellschaftern – erst die Summe ergibt den steuerlichen Mitunternehmergewinn.",
-          "sprecher": "Merke dir: Stufe I gehört der Gesellschaft, Stufe II den Gesellschaftern – erst die Summe ergibt den steuerlichen Mitunternehmergewinn.",
+          "text": "Gesellschaftsebene und gesellschafterbezogene Ebene getrennt rechnen; erst zusammen ergibt sich der steuerliche Gesamtgewinn.",
+          "sprecher": "Merke dir: Erst getrennt rechnen, dann zum steuerlichen Gesamtgewinn zusammenführen.",
           "marken": [
-            "Merksatz"
+            "Erst trennen, dann summieren"
           ]
         },
         {
           "art": "cta",
           "nummer": null,
-          "titel": "In der Klausur sauber trennen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen getrennt wiederholen.",
-          "sprecher": "Prüfe Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "titel": "Prüfungsschritte festigen",
+          "text": "Gesamthand, Ergänzungsbilanz, Sonderbereich und Abstimmung einmal ohne Unterlagen ordnen.",
+          "sprecher": "Ordne die vier Bausteine einmal ohne Unterlagen: Gesamthand, Ergänzungsbilanz, Sonderbereich und Abstimmung.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Vier Bausteine ordnen"
           ]
         }
       ],
-      "caption": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften Stufe I Gesellschaft und Stufe II Gesellschafter strikt trennen Vorabgewinn, Kapitalverzinsung, Haftungs- und Tätigkeitsvergütungen in der Gewinnverteilung abbilden Ergänzungs- und Sonderbilanzen an der richtigen Stelle ergänzen",
+      "caption": "Bei Mitunternehmerschaften zuerst die Gesellschaftsebene erfassen und danach gesellschafterbezogene Korrekturen ergänzen. Ergänzungs- und Sonderbilanzen gehören an die richtige Stelle; erst die Abstimmung aller Ebenen führt zum steuerlichen Gesamtgewinn.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
       ],
-      "kurztitel": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften",
+      "kurztitel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -304,12 +307,17 @@
         "Themenpool: persg-modul-persg-4"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s3": {
       "slot": "s3",
@@ -322,14 +330,19 @@
         "Themenpool: bilanz-quiz-k3-19"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?"
+      "titel": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s4": {
       "slot": "s4",
@@ -342,15 +355,20 @@
         "Themenpool: bilanz-quiz-k3-19"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Rechtsstand 2026",
-      "text": "Verbindlichkeiten werden steuerlich für nach dem 31.12.2022 endende Wirtschaftsjahre nicht mehr allgemein abgezinst. Die 5,5-%-Abzinsung nach § 6 Abs. 1 Nr. 3a Buchst. e EStG betrifft weiterhin abzuzinsende Rückstellungen."
+      "titel": "Kern der Antwort",
+      "text": "Die 15-%-Grenze wird netto auf die Anschaffungskosten des Gebäudes bezogen und über drei Jahre kumuliert (§ 6 Abs. 1 Nr. 1a EStG).",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s5": {
       "slot": "s5",
@@ -374,7 +392,7 @@
         "Themenpool: bilanz-modul-k3-29"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
@@ -383,7 +401,12 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 249 Abs. 1 S. 1 HGB",
       "titel": "Rückstellungskatalog für die Klausur",
-      "text": "die gängigen Rückstellungsarten sicher zuordnen steuerliche Ansatzverbote und Sonderregeln kennen"
+      "text": "Zuerst prüfen, ob handelsrechtlich eine Rückstellung anzusetzen ist; anschließend steuerliche Ansatzverbote und Sonderregeln getrennt prüfen.",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s6": {
       "slot": "s6",
@@ -400,7 +423,13 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "manuellGeprueft": true,
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s7": {
       "slot": "s7",
@@ -415,7 +444,7 @@
         "Themenpool: bilanz-formel-bewg-vervielfaeltiger"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
@@ -423,8 +452,13 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Rechenweg",
       "titel": "Vervielfältiger nach § 12 Abs. 3 BewG",
-      "formel": "Vervielfältiger nach § 12 Abs. 3 BewG",
-      "text": ""
+      "formel": "Barwert = Nennbetrag × Vervielfältiger",
+      "text": "Den Vervielfältiger für unverzinsliche Forderungen oder Schulden mit bestimmter Laufzeit aus Anlage 2 zu § 12 Abs. 3 BewG entnehmen; bei Zwischenlaufzeiten interpolieren.",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s8": {
       "slot": "s8",
@@ -444,7 +478,7 @@
         "Themenpool: istr-modul-istr-istr3-09"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
@@ -452,7 +486,12 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Beschränkte Körperschaftsteuerpflicht: § 2 Nr. 1 KStG und § 49 EStG",
-      "text": "Bei beschränkter KSt-Pflicht ist § 49 der Türsteher; § 8b und § 32 bestimmen erst danach die steuerliche Behandlung."
+      "text": "Bei beschränkter Körperschaftsteuerpflicht zuerst den inländischen Anknüpfungstatbestand des § 49 EStG prüfen; erst danach folgt die weitere steuerliche Behandlung.",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s9": {
       "slot": "s9",
@@ -466,7 +505,7 @@
         "Themenpool: bilanz-glossar-18"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
@@ -474,8 +513,13 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Permanente Differenz",
-      "text": "Permanente Differenz",
-      "norm": "§ 274 Abs. 1 HGB"
+      "text": "Eine permanente Differenz zwischen Handels- und Steuerrecht gleicht sich später nicht wieder aus. Sie führt deshalb nicht zu latenten Steuern nach § 274 HGB.",
+      "norm": "§ 274 Abs. 1 HGB",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s1": {
       "slot": "s1",
@@ -492,7 +536,13 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "manuellGeprueft": true,
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s2": {
       "slot": "s2",
@@ -509,7 +559,13 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "manuellGeprueft": true,
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     }
   },
   "renderVorschau": {
@@ -530,5 +586,11 @@
   "liveRegel": {
     "veroeffentlichen": false,
     "freigabeErforderlich": true
+  },
+  "qa": {
+    "inhalt": "manuell-validiert",
+    "visuell": "Neurender erforderlich",
+    "publikationsregeln": "validiert",
+    "stand": "2026-09-25"
   }
 }
