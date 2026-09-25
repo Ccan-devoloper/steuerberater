@@ -1,9 +1,9 @@
 {
   "datum": "2026-09-27",
   "status": "vorproduziert",
-  "freigabeBetreiber": false,
+  "freigabeBetreiber": true,
   "liveVerknuepft": false,
-  "vorproduktionStatus": "review",
+  "vorproduktionStatus": "live-freigegeben",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
@@ -113,7 +113,8 @@
           "art": "titel",
           "titel": "Wochenrückblick: K1 · K2 · K3",
           "coverBadge": "Wochenrückblick",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "kalender"
         },
         {
           "art": "text",
@@ -175,8 +176,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -202,7 +203,7 @@
           "unter": "Personengesellschaften",
           "text": "Gesellschaftsebene und Gesellschafterebene getrennt rechnen.",
           "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-          "icon": null,
+          "icon": "personen",
           "sprecher": "Bei Mitunternehmerschaften rechnest du Gesellschaftsebene und gesellschafterbezogene Ebene getrennt und führst sie erst am Ende zusammen.",
           "marken": [
             "Ebenen getrennt rechnen"
@@ -298,7 +299,7 @@
       ],
       "kurztitel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 1. HS EStG",
         "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 2. HS EStG",
@@ -311,8 +312,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -320,7 +321,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "icon": "personen"
     },
     "s3": {
       "slot": "s3",
@@ -577,8 +579,10 @@
     "visuellGeprueftAm": "2026-09-25"
   },
   "liveRegel": {
-    "veroeffentlichen": false,
-    "freigabeErforderlich": true
+    "veroeffentlichen": true,
+    "freigabeErforderlich": false,
+    "freigabeQuelle": "Betreiberauftrag Chat 2026-09-25",
+    "providerKostenUsd": 0
   },
   "qa": {
     "inhalt": "manuell-validiert",
@@ -591,5 +595,10 @@
       "reels": "Cover plus drei Szenenframes je Reel geprüft; Safe-Area gegen HerrJurist-Logik verifiziert",
       "geprueftAm": "2026-09-25"
     }
+  },
+  "freigabeQuelle": "Betreiberauftrag Chat 2026-09-25",
+  "coverPolicy": {
+    "modus": "lokales-icon-wenn-bildlos",
+    "providerKostenUsd": 0
   }
 }
