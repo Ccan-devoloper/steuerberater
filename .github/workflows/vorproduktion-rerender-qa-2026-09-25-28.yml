@@ -1,4 +1,4 @@
-name: QA · Vorproduktion 25–28 Sep 2026 neu rendern · Lauf 2
+name: QA · Vorproduktion 25–28 Sep 2026 Pixelcheck
 
 on:
   push:
@@ -7,81 +7,26 @@ on:
       - ".github/workflows/vorproduktion-rerender-qa-2026-09-25-28.yml"
 
 permissions:
-  contents: write
-
-concurrency:
-  group: instagram-bot
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  render:
+  paket:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
-    env:
-      GITHUB_TOKEN: ${{ github.token }}
-      IG_WISSEN_KEY: ${{ secrets.IG_WISSEN_KEY }}
-      IG_STIL: "bunt"
-      IG_FARBE_JE_KLAUSUR: "true"
-      IG_BILDER: "false"
-      IG_BILD_KI: "false"
-      IG_CHARAKTERE: "false"
-      IG_CHARAKTER_QA: "false"
-      IG_STIMME: "piper"
-      IG_REEL_LAYOUT: "erklaer"
-      OPENAI_API_KEY: ""
-      ANTHROPIC_API_KEY: ""
-      ELEVENLABS_API_KEY: ""
-      PEXELS_API_KEY: ""
-      ELEVENLABS_VOICE_ID: ""
-      GIT_AUTHOR_NAME: instagram-bot
-      GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
-      PIPER_VOICES_DIR: /home/runner/.cache/piper-voices
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Instagram-Assets auschecken
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: instagram-assets
+          path: assets
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: social/package-lock.json
-
-      - name: Abhängigkeiten
-        working-directory: social
-        run: npm ci
-
-      - name: ffmpeg
-        run: |
-          sudo apt-get update -qq >/dev/null
-          sudo apt-get install -y -qq ffmpeg >/dev/null
-
-      - name: Chromium
-        working-directory: social
-        run: npx playwright install --with-deps chromium || npx playwright install chromium
-
-      - name: Piper offline
-        run: |
-          pip install --quiet piper-tts
-          mkdir -p ~/.cache/piper-voices
-          if [ ! -f ~/.cache/piper-voices/de_DE-thorsten-high.onnx ]; then
-            python3 -m piper.download_voices --data-dir ~/.cache/piper-voices de_DE-thorsten-high
-          fi
-
-      - name: Validierte Reviewtage ohne Coverbilder neu rendern
-        working-directory: social
-        run: node bin/vorproduktion-ohne-coverbilder-rendern.mjs 2026-09-25 2026-09-26 2026-09-27 2026-09-28
-
-      - name: Renderings für Pixel-QA sichern
-        if: ${{ always() }}
+      - name: Neu gerenderte Reviewtage packen
         uses: actions/upload-artifact@v4
         with:
-          name: examenscampus-vorproduktion-rerender-2026-09-25-28
+          name: examenscampus-vorproduktion-pixelcheck-2026-09-25-28
           path: |
-            .instagram-assets/vorproduktion/2026-09-25/fertig
-            .instagram-assets/vorproduktion/2026-09-26/fertig
-            .instagram-assets/vorproduktion/2026-09-27/fertig
-            .instagram-assets/vorproduktion/2026-09-28/fertig
-          if-no-files-found: ignore
+            assets/vorproduktion/2026-09-25/fertig
+            assets/vorproduktion/2026-09-26/fertig
+            assets/vorproduktion/2026-09-27/fertig
+            assets/vorproduktion/2026-09-28/fertig
+          if-no-files-found: error
           retention-days: 1
