@@ -56,6 +56,8 @@ export async function htmlZuJpeg(html, masse, zielPfad, skala = Number(process.e
     await page.evaluate(einpassen);
     await page.evaluate(coverTitelEinpassen);
     await page.evaluate(coverTitelGeometriePruefen);
+    await page.evaluate(coverMotivEinpassen);
+    await page.evaluate(coverMotivGeometriePruefen);
     await page.evaluate(coverHinweisAusPlanPlatzieren);
     await page.waitForTimeout(60);
     /* NACH dem Einpassen messen: Der Text wird dort verkleinert, bis alles
@@ -301,6 +303,244 @@ function coverTitelGeometriePruefen() {
   if (fehler.length) {
     const art = wurzel.matches(".story.cover") ? "Reel-Cover" : "Beitrags-Cover";
     throw new Error(`${art}-Titel passt nicht in die feste Markenpille: ${fehler.join(" | ")}`);
+  }
+}
+
+/* Nach dem finalen Titelumbruch wird ein unprofiliertes Karussell-Motiv
+   wirklich an den vorhandenen Platz angepasst. "Kante an Kante" ist keine
+   pauschale Regel: Die sichtbaren Pillen begrenzen pro Cover die Buehne.
+   Transparente Bereiche des Freistellers duerfen an Text vorbeilaufen; nur
+   sichtbare Motivpixel muessen Abstand halten. Reel-Cover mit fit-width werden
+   dagegen bewusst vollbreit und unten verankert. */
+function coverMotivEinpassen() {
+  const wurzel = document.querySelector(".folie.art-titel, .story.cover");
+  const motiv = wurzel?.querySelector(".frei.charakter");
+  const img = motiv?.querySelector("img");
+  if (!wurzel || !motiv || !img?.complete || !img.naturalWidth || !img.naturalHeight) return;
+
+  const root = wurzel.getBoundingClientRect();
+
+  if (wurzel.matches(".story.cover")) {
+    if (!motiv.classList.contains("edge-to-edge") || !motiv.classList.contains("fit-width")) return;
+    motiv.style.left = "0px";
+    motiv.style.right = "0px";
+    motiv.style.bottom = "0px";
+    motiv.style.width = "auto";
+    motiv.style.height = "auto";
+    motiv.style.transform = "none";
+    motiv.style.overflow = "visible";
+    img.style.position = "absolute";
+    img.style.left = "0px";
+    img.style.bottom = "0px";
+    img.style.width = "100%";
+    img.style.height = "auto";
+    img.style.objectFit = "contain";
+    img.style.objectPosition = "center bottom";
+    motiv.dataset.autoLayout = "reel-width";
+    return;
+  }
+
+  if (!motiv.classList.contains("auto-layout")) return;
+
+  /* Nicht eine horizontale safeTop-Linie verkleinert das Motiv. Stattdessen
+     werden alle echten Markenpillen einzeln geschuetzt. Das Motiv startet in
+     maximaler Groesse und darf seitlich an einer Titelzeile vorbeiwachsen. */
+  const GAP = 12;
+  const schutzSelektor = [
+    "h1.titel-stack .titel-zeile",
+    "h1:not(.titel-stack)",
+    ".cover-badge",
+    ".format-badge",
+    ".unter",
+    ".pille",
+    ".kopf .etikett",
+    ".fuss .klausur",
+  ].join(",");
+  const schutz = [...wurzel.querySelectorAll(schutzSelektor)]
+    .filter((el) => {
+      const cs = getComputedStyle(el);
+      const b = el.getBoundingClientRect();
+      return cs.display !== "none" && cs.visibility !== "hidden" && Number(cs.opacity) > 0
+        && b.width > 4 && b.height > 4;
+    })
+    .map((el) => {
+      const b = el.getBoundingClientRect();
+      return {
+        left: Math.max(root.left, b.left - GAP),
+        top: Math.max(root.top, b.top - GAP),
+        right: Math.min(root.right, b.right + GAP),
+        bottom: Math.min(root.bottom, b.bottom + GAP),
+      };
+    });
+
+  /* Kleine Alpha-Maske plus Integralbild: So kann die Suche tausende
+     Groessen-/Positionskandidaten testen, ohne nur die rechteckige PNG-Box
+     als Kollision zu behandeln. */
+  const maskMax = 320;
+  const faktor = Math.min(1, maskMax / Math.max(img.naturalWidth, img.naturalHeight));
+  const maskW = Math.max(1, Math.round(img.naturalWidth * faktor));
+  const maskH = Math.max(1, Math.round(img.naturalHeight * faktor));
+  const canvas = document.createElement("canvas");
+  canvas.width = maskW;
+  canvas.height = maskH;
+  const ctx = canvas.getContext("2d", { willReadFrequently: true });
+  ctx.drawImage(img, 0, 0, maskW, maskH);
+  const alpha = ctx.getImageData(0, 0, maskW, maskH).data;
+  const stride = maskW + 1;
+  const integral = new Uint32Array((maskH + 1) * stride);
+  for (let y = 0; y < maskH; y++) {
+    let zeile = 0;
+    for (let x = 0; x < maskW; x++) {
+      if (alpha[(y * maskW + x) * 4 + 3] > 28) zeile++;
+      integral[(y + 1) * stride + x + 1] = integral[y * stride + x + 1] + zeile;
+    }
+  }
+  const summe = (x0, y0, x1, y1) => {
+    x0 = Math.max(0, Math.min(maskW, Math.floor(x0)));
+    x1 = Math.max(0, Math.min(maskW, Math.ceil(x1)));
+    y0 = Math.max(0, Math.min(maskH, Math.floor(y0)));
+    y1 = Math.max(0, Math.min(maskH, Math.ceil(y1)));
+    if (x1 <= x0 || y1 <= y0) return 0;
+    return integral[y1 * stride + x1]
+      - integral[y0 * stride + x1]
+      - integral[y1 * stride + x0]
+      + integral[y0 * stride + x0];
+  };
+  const kollidiert = (box) => schutz.some((r) => {
+    const l = Math.max(box.left, r.left);
+    const t = Math.max(box.top, r.top);
+    const rr = Math.min(box.right, r.right);
+    const bb = Math.min(box.bottom, r.bottom);
+    if (rr <= l || bb <= t) return false;
+    const sx0 = (l - box.left) / box.width * maskW;
+    const sx1 = (rr - box.left) / box.width * maskW;
+    const sy0 = (t - box.top) / box.height * maskH;
+    const sy1 = (bb - box.top) / box.height * maskH;
+    return summe(sx0, sy0, sx1, sy1) > 0;
+  });
+
+  const rand = 4;
+  const maxScale = Math.min(
+    (root.width - rand * 2) / img.naturalWidth,
+    (root.height - rand) / img.naturalHeight,
+  );
+  const minScale = maxScale * 0.34;
+  let bester = null;
+
+  /* Groesste kollisionsfreie Darstellung gewinnt. Je Groesse erst optische
+     Mitte, danach kleine Schritte nach links/rechts. Die Unterkante bleibt
+     verankert: Das Motiv waechst damit bis maximal nah an die naechste Pille. */
+  for (let scale = maxScale, runde = 0; scale >= minScale && runde < 90; scale *= 0.975, runde++) {
+    const breite = img.naturalWidth * scale;
+    const hoehe = img.naturalHeight * scale;
+    const minLeft = root.left + rand;
+    const maxLeft = root.right - rand - breite;
+    if (maxLeft < minLeft) continue;
+
+    const mitte = (minLeft + maxLeft) / 2;
+    const schritt = Math.max(10, Math.min(22, (maxLeft - minLeft) / 16 || 10));
+    const links = [mitte];
+    for (let d = schritt; d <= (maxLeft - minLeft) / 2 + schritt; d += schritt) {
+      links.push(mitte - d, mitte + d);
+    }
+    links.push(minLeft, maxLeft);
+
+    for (const leftRaw of links) {
+      const left = Math.max(minLeft, Math.min(maxLeft, leftRaw));
+      const box = {
+        left,
+        top: root.bottom - hoehe,
+        right: left + breite,
+        bottom: root.bottom,
+        width: breite,
+        height: hoehe,
+      };
+      if (kollidiert(box)) continue;
+      bester = box;
+      break;
+    }
+    if (bester) break;
+  }
+
+  /* Ungewoehnliche Freisteller behalten einen geometrisch sicheren Fallback.
+     Kann selbst der nicht kollisionsfrei sein, faengt die harte QA das ab. */
+  if (!bester) {
+    const titel = wurzel.querySelector("h1.titel-stack, h1");
+    const badge = wurzel.querySelector(".cover-badge");
+    const formatBadge = wurzel.querySelector(".format-badge");
+    const unter = wurzel.querySelector(".unter");
+    const pille = wurzel.querySelector(".pille");
+    const textUnten = Math.max(
+      titel?.getBoundingClientRect().bottom || root.top,
+      badge?.getBoundingClientRect().bottom || root.top,
+      formatBadge?.getBoundingClientRect().bottom || root.top,
+      unter?.getBoundingClientRect().bottom || root.top,
+      pille?.getBoundingClientRect().bottom || root.top,
+    );
+    const safeTop = Math.min(root.bottom - 260, textUnten + GAP);
+    const ratio = img.naturalWidth / img.naturalHeight;
+    const maxH = Math.max(260, root.bottom - safeTop);
+    const breite = Math.min(root.width - 24, maxH * ratio);
+    const hoehe = breite / ratio;
+    bester = {
+      left: root.left + (root.width - breite) / 2,
+      top: root.bottom - hoehe,
+      right: root.left + (root.width + breite) / 2,
+      bottom: root.bottom,
+      width: breite,
+      height: hoehe,
+    };
+  }
+
+  motiv.style.left = `${Math.round(bester.left - root.left)}px`;
+  motiv.style.right = "auto";
+  motiv.style.top = `${Math.round(bester.top - root.top)}px`;
+  motiv.style.bottom = "auto";
+  motiv.style.width = `${Math.round(bester.width)}px`;
+  motiv.style.height = `${Math.round(bester.height)}px`;
+  motiv.style.transform = "none";
+  motiv.style.overflow = "visible";
+  img.style.width = "100%";
+  img.style.height = "100%";
+  img.style.objectFit = "contain";
+  img.style.objectPosition = "center bottom";
+  motiv.dataset.autoLayout = "carousel-collision";
+  motiv.dataset.collisionFree = kollidiert(bester) ? "0" : "1";
+  motiv.dataset.protectedPills = String(schutz.length);
+  motiv.dataset.gap = String(GAP);
+}
+
+/* Harte Geometrie-QA: Reel-Motive muessen nahezu die volle Breite erreichen;
+   automatisch gesetzte Karussell-Motive duerfen keine geschuetzte Pille
+   ueberdecken und duerfen nicht wieder zur Briefmarke schrumpfen. */
+function coverMotivGeometriePruefen() {
+  const wurzel = document.querySelector(".folie.art-titel, .story.cover");
+  const motiv = wurzel?.querySelector(".frei.charakter");
+  const img = motiv?.querySelector("img");
+  if (!wurzel || !motiv || !img) return;
+  const root = wurzel.getBoundingClientRect();
+  const bild = img.getBoundingClientRect();
+
+  if (motiv.dataset.autoLayout === "reel-width") {
+    if (bild.width < root.width * 0.96 || bild.left > root.left + 22 || bild.right < root.right - 22) {
+      throw new Error(`Reel-Cover-Motiv ist nicht kante-an-kante: ${Math.round(bild.width)}px von ${Math.round(root.width)}px`);
+    }
+    if (Math.abs(bild.bottom - root.bottom) > 6) {
+      throw new Error("Reel-Cover-Motiv ist nicht an der Unterkante verankert.");
+    }
+    return;
+  }
+
+  if (motiv.dataset.autoLayout === "carousel-collision") {
+    if (motiv.dataset.collisionFree !== "1") {
+      throw new Error("Karussell-Cover-Motiv kollidiert mit einer geschuetzten Pille.");
+    }
+    if (bild.left < root.left - 1 || bild.right > root.right + 1 || bild.bottom > root.bottom + 1) {
+      throw new Error("Karussell-Cover-Motiv liegt ausserhalb der Coverflaeche.");
+    }
+    if (bild.width < root.width * 0.34 && bild.height < root.height * 0.34) {
+      throw new Error("Karussell-Cover-Motiv blieb trotz Kollisionssuche unerwartet klein.");
+    }
   }
 }
 
