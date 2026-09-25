@@ -540,13 +540,7 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "manuellGeprueft": true,
-      "qa": {
-        "inhalt": "geprueft",
-        "publikationsregeln": "geprueft",
-        "stand": "2026-09-25"
-      }
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s2": {
       "slot": "s2",
@@ -554,7 +548,7 @@
       "fach": "mindset",
       "klausur": 0,
       "fachLabel": "Kopfsache",
-      "titel": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft",
+      "titel": "Prüfungsangst am Abend vor Tag 1",
       "text": "Der vollständige Beitrag ist jetzt im Feed.",
       "pille": "Jetzt im Feed",
       "beitragSlot": "b2",
@@ -563,18 +557,12 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "manuellGeprueft": true,
-      "qa": {
-        "inhalt": "geprueft",
-        "publikationsregeln": "geprueft",
-        "stand": "2026-09-25"
-      }
+      "bildStatus": "bewusst-ausgelassen"
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-24T23:52:56.161Z",
+    "erzeugtAm": "2026-09-25T00:58:51.823Z",
     "pfad": "vorproduktion/2026-09-26/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,

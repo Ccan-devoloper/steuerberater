@@ -539,13 +539,7 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "manuellGeprueft": true,
-      "qa": {
-        "inhalt": "geprueft",
-        "publikationsregeln": "geprueft",
-        "stand": "2026-09-25"
-      }
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s2": {
       "slot": "s2",
@@ -553,7 +547,7 @@
       "fach": "persg",
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
-      "titel": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften",
+      "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
       "text": "Der vollständige Beitrag ist jetzt im Feed.",
       "pille": "Jetzt im Feed",
       "beitragSlot": "b2",
@@ -562,18 +556,12 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "manuellGeprueft": true,
-      "qa": {
-        "inhalt": "geprueft",
-        "publikationsregeln": "geprueft",
-        "stand": "2026-09-25"
-      }
+      "bildStatus": "bewusst-ausgelassen"
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-24T23:54:32.656Z",
+    "erzeugtAm": "2026-09-25T01:00:29.283Z",
     "pfad": "vorproduktion/2026-09-27/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
