@@ -2,10 +2,10 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import { feedKategorie, FEED_KATEGORIEN } from "../src/feedfarben.mjs";
-import { fachInfo } from "../src/inhalte.mjs";
-import { folieHtml, titelZeilen, MASSE } from "../src/vorlagen.mjs";
+import { fachInfo, themenpool } from "../src/inhalte.mjs";
+import { folieHtml, coverHtml, titelZeilen, MASSE } from "../src/vorlagen.mjs";
 import { kontext } from "../src/render.mjs";
-import { VORPRODUKTION_LAYOUT, layoutVertrag } from "../src/vorproduktion.mjs";
+import { VORPRODUKTION_LAYOUT, layoutVertrag, examenscampusRegelnPruefen } from "../src/vorproduktion.mjs";
 
 test("Vorproduktion behält die Examenscampus-Klausurzuordnung", () => {
   for (const fach of ["ao", "ust", "erbst"]) {
@@ -71,4 +71,69 @@ test("Vorproduktionslayout entspricht Herrjurist, Kategorien bleiben Examenscamp
   assert.equal(vertrag.feedKategorien[2], FEED_KATEGORIEN[2]);
   assert.equal(vertrag.feedKategorien[3], FEED_KATEGORIEN[3]);
   assert.equal(vertrag.farbenAusSchwesterkanalUebernehmen, false);
+});
+
+
+test("IStR-Socialpool entfernt dozenteneigene Merkhilfen vollständig", () => {
+  const thema = themenpool().find((t) => t.id === "istr-modul-istr-istr3-01");
+  assert.ok(thema, "IStR-Modul muss im Socialpool vorhanden sein");
+  const text = JSON.stringify(thema);
+  assert.equal(thema.titel, "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA");
+  for (const kuerzel of ["EIS", "AAVV", "ABBA", "WSV", "NNAS"]) {
+    assert.doesNotMatch(text, new RegExp("\\b" + kuerzel + "\\b"));
+  }
+  assert.doesNotMatch(text, /Unterrichtsnotiz|Originalfall|der Einheit/i);
+});
+
+test("Vorproduktion blockiert Dozentenbegriffe und inhaltliche Platzhalter", () => {
+  const tag = (story) => ({
+    datum: "2026-09-25",
+    plan: { beitraege: [], stories: [{ slot: "s1", art: story.art }] },
+    inhalte: { s1: story },
+  });
+
+  assert.throws(() => examenscampusRegelnPruefen(tag({
+    art: "merksatz", fach: "istr", klausur: 2,
+    titel: "DBA-Prüfung", text: "Danach folgt AAVV.",
+  })), /Veröffentlichungsregel|Merkhilfe/);
+
+  assert.throws(() => examenscampusRegelnPruefen(tag({
+    art: "formel", fach: "bilanz", klausur: 3,
+    titel: "Barwert", formel: "Barwert", text: "Bewertung prüfen.",
+  })), /echte Formel/);
+
+  assert.throws(() => examenscampusRegelnPruefen(tag({
+    art: "begriff", fach: "bilanz", klausur: 3,
+    titel: "Permanente Differenz", text: "Permanente Differenz",
+  })), /echte Definition/);
+
+  assert.throws(() => examenscampusRegelnPruefen(tag({
+    art: "zahl", fach: "ao", klausur: 1,
+    titel: "Feststellungsbescheid", zahl: "5",
+    text: "Diese Punkte tragen die sichtbare Prüfungsstruktur.",
+  })), /darf nicht.*erfunden/i);
+});
+
+test("Vorproduktion blockiert sichtbar abgeschnittene Reel-Texte", () => {
+  const day = {
+    datum: "2026-09-25",
+    plan: { beitraege: [{ slot: "b1", format: "reel", fach: "mindset", klausur: 0 }], stories: [] },
+    inhalte: {
+      b1: {
+        format: "reel", fach: "mindset", klausur: 0,
+        kurztitel: "Prüfungsabend",
+        szenen: [{ art: "hook", titel: "Prüfungsangst am Abend…", text: "Ruhe organisieren.", sprecher: "Ruhe organisieren." }],
+      },
+    },
+  };
+  assert.throws(() => examenscampusRegelnPruefen(day), /künstlich mit … abgeschnitten/);
+});
+
+test("Reel-Cover nutzt die aktuelle HerrJurist-Safe-Area ohne Farbübernahme", () => {
+  const ctx = kontext({ stil: "bunt", fach: "ust", klausur: 1, fachLabel: "Umsatzsteuer" });
+  const html = coverHtml({ titel: "Innergemeinschaftlicher Erwerb", coverBildAuslassen: true }, ctx);
+  assert.match(html, /story cover/);
+  assert.match(html, /padding-top:150px;padding-bottom:130px/);
+  assert.match(html, /margin:auto auto 0;width:460px;height:460px/);
+  assert.equal(VORPRODUKTION_LAYOUT.farbenAusSchwesterkanalUebernehmen, false);
 });

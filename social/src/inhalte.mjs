@@ -115,6 +115,7 @@ const TITEL_ERSATZ = {
   "Schritt 2: NNAS - nicht direkt zuordenbare Schulden/Lasten proportional verteilen": "Nicht direkt zuordenbare Schulden und Lasten anteilig verteilen",
   "Schritt 3: Bereicherung, persönliche Freibeträge und Abrundung zum steuerpflichtigen Erwerb": "Bereicherung, persönliche Freibeträge und Abrundung zum steuerpflichtigen Erwerb",
   "IV. Steuerberechnung: § 19 ErbStG und Härteausgleich": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
+  "Beschränkte Steuerpflicht mit DBA: EIS vor AAVV": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
 };
 function titelBereinigen(titel) {
   const roh = String(titel || "").trim();
@@ -140,6 +141,35 @@ function kuerzelTilgen(wert, kuerzel) {
   if (Array.isArray(wert)) return wert.map((v) => kuerzelTilgen(v, kuerzel));
   if (wert && typeof wert === "object") { for (const k of Object.keys(wert)) wert[k] = kuerzelTilgen(wert[k], kuerzel); return wert; }
   return wert;
+}
+
+/* Die IStR-Unterlagen verwenden an dieser Stelle eine dozenteneigene
+   Buchstaben-/Merkstruktur. Für Social wird ausschließlich der fachliche
+   Prüfungsablauf übernommen und in neutrale Fachsprache übersetzt. */
+function neutralisiereDozentenstruktur(t) {
+  if (t?.id !== "istr-modul-istr-istr3-01") return t;
+  t.titel = "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA";
+  t.normen = (t.normen || []).filter((n) => !/\b(?:EIS|AAVV|ABBA|WSV|NNAS)\b/.test(String(n)));
+  t.kern = {
+    ...t.kern,
+    lernziele: [
+      "Zuerst den deutschen Steuerzugriff nach § 1 Abs. 4 und § 49 EStG prüfen",
+      "Erhebungsweg und mögliche Steuerabzugsregeln anschließend bestimmen",
+      "Ein DBA erst danach als Begrenzung oder Verteilung des Besteuerungsrechts anwenden",
+    ],
+    pruefschritte: [
+      "Persönliche Steuerpflicht nach § 1 Abs. 4 EStG prüfen.",
+      "Einkunftsart nach §§ 13–24 EStG bestimmen.",
+      "Den passenden inländischen Anknüpfungspunkt nach § 49 Abs. 1 EStG prüfen.",
+      "Erhebungsweg nach § 50 EStG beziehungsweise einen einschlägigen Steuerabzug bestimmen.",
+      "Erst danach das DBA prüfen: Anwendbarkeit, Ansässigkeit, Verteilungsnorm und Begrenzung oder Vermeidung der Doppelbesteuerung.",
+    ],
+    merksatz: "Das nationale Recht begründet den deutschen Steuerzugriff; ein DBA kann ihn anschließend begrenzen, aber nicht erweitern.",
+    einordnung: [
+      "Bei beschränkter Steuerpflicht steht das nationale Recht vor der DBA-Prüfung.",
+    ],
+  };
+  return t;
 }
 
 function modulThema(fach, m, quelle) {
@@ -284,6 +314,7 @@ export function themenpool() {
 
   const kuerzel = eigenbegriffKuerzel();
   if (kuerzel.length) for (const t of pool) { t.titel = kuerzelTilgen(t.titel, kuerzel); if (t.kern) t.kern = kuerzelTilgen(t.kern, kuerzel); }
+  for (const t of pool) neutralisiereDozentenstruktur(t);
   /* Themen ohne Substanz aussortieren (z. B. reine Arbeitsmittel-Einführungen). */
   return pool.filter((t) => {
     if (t.typ === "modul") return (t.kern.pruefschritte.length + t.kern.lernziele.length) >= 3 && !/Arbeitsmittel|Kurslogik|Lernlogik|Einführung|Überblick|Recap|Einheit\s*\d|Seitenplan|Fahrtroute|Handbuch|Reiter|Markierung|Lineal|Farbcode|Navigation|Beck-Text|Gesetzessammlung/i.test(t.titel) && t.titel.length > 8;

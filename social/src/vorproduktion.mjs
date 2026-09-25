@@ -8,6 +8,7 @@
 
 import { CONFIG } from "./config.mjs";
 import { fachInfo, KLAUSUREN, FEED_KATEGORIEN, feedKategorie } from "./inhalte.mjs";
+import { pruefeBeitrag } from "./pruefung.mjs";
 
 export const VORPRODUKTION_LAYOUT = Object.freeze({
   feed: Object.freeze({ breite: 1080, hoehe: 1350, verhaeltnis: "4:5" }),
@@ -80,6 +81,54 @@ function sichtbareKategorie(planEintrag, inhalt) {
   });
 }
 
+const QUELLENSPRACHE = /\b(?:Unterrichtsnotiz|Originalfall|Musterlösung|Hausaufgabe|laut (?:Skript|Unterlage|Mitschrift)|aus (?:dem|der) (?:Skript|Unterlage|Mitschrift)|der Einheit|im Kurs)\b/i;
+const GENERISCHE_ZAHL = /Diese Punkte tragen die sichtbare Prüfungsstruktur/i;
+
+function publikationsregelnPruefen(inhalt, label) {
+  const lokal = pruefeBeitrag(inhalt);
+  if (!lokal.ok) {
+    throw new Error(label + ": Veröffentlichungsregel verletzt: " + lokal.fehler.join(" | "));
+  }
+  const roh = JSON.stringify(inhalt);
+  if (QUELLENSPRACHE.test(roh)) {
+    throw new Error(label + ": Kurs-/Dozentensprache darf nicht in Social-Inhalte gelangen.");
+  }
+  if (Array.isArray(inhalt?.szenen)) {
+    for (const [i, s] of inhalt.szenen.entries()) {
+      for (const [feld, wert] of [["titel", s.titel], ["text", s.text], ["marken", (s.marken || []).join(" ")]]) {
+        if (String(wert || "").includes("…")) {
+          throw new Error(label + " Szene " + (i + 1) + ": sichtbarer " + feld + "-Text ist künstlich mit … abgeschnitten.");
+        }
+      }
+    }
+  }
+}
+
+function storySemantikPruefen(story, label) {
+  publikationsregelnPruefen({ stories: [story] }, label);
+  if (story.art === "antwort" && !String(story.text || "").trim()) {
+    throw new Error(label + ": Auflösung ohne Antworttext.");
+  }
+  if (story.art === "formel") {
+    const formel = String(story.formel || "").trim();
+    if (!formel || formel.toLowerCase() === String(story.titel || "").trim().toLowerCase()) {
+      throw new Error(label + ": Rechenweg braucht eine echte Formel und darf nicht nur den Titel wiederholen.");
+    }
+  }
+  if (story.art === "begriff") {
+    const text = String(story.text || "").trim();
+    if (!text || text.toLowerCase() === String(story.titel || "").trim().toLowerCase()) {
+      throw new Error(label + ": Begriff braucht eine echte Definition.");
+    }
+  }
+  if (story.art === "zahl" && GENERISCHE_ZAHL.test(String(story.text || ""))) {
+    throw new Error(label + ": Zahl des Tages darf nicht aus der Anzahl generischer Stichpunkte erfunden werden.");
+  }
+  if (story.art === "fehler" && (!String(story.falsch || "").trim() || !String(story.richtigText || "").trim())) {
+    throw new Error(label + ": Fehler-Story braucht Fehler und konkrete Korrektur.");
+  }
+}
+
 export function examenscampusRegelnPruefen(tag) {
   if (!tag?.plan || !tag?.inhalte) throw new Error("Vorproduktion: Plan oder Inhalte fehlen.");
 
@@ -106,7 +155,15 @@ export function examenscampusRegelnPruefen(tag) {
     if (vorher != null && vorher === kategorie) {
       throw new Error(tag.datum + " " + b.slot + ": Feed-Kategorie " + kategorie + " folgt direkt auf sich selbst.");
     }
+    publikationsregelnPruefen(inhalt, tag.datum + " " + b.slot);
     vorher = kategorie;
+  }
+
+  for (const s of tag.plan.stories || []) {
+    if (s.art === "teaser") continue;
+    const story = tag.inhalte[s.slot];
+    if (!story) throw new Error(tag.datum + " " + s.slot + ": Story-Inhalt fehlt.");
+    storySemantikPruefen(story, tag.datum + " " + s.slot);
   }
 
   return true;
