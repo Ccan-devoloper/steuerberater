@@ -1,0 +1,50 @@
+name: QA · 3-Feed-Kandidaten 25–28 Sep 2026
+
+on:
+  push:
+    branches: [fix/vorproduktion-drei-feed-k1-k2-k3]
+    paths:
+      - ".github/workflows/tmp-vorproduktion-3feed-kandidaten.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  kandidaten:
+    runs-on: ubuntu-latest
+    env:
+      IG_NO_PUSH: "true"
+      IG_BILDER: "false"
+      IG_BILD_KI: "false"
+      IG_CHARAKTERE: "false"
+      IG_CHARAKTER_QA: "false"
+      IG_STIMME: "piper"
+      OPENAI_API_KEY: ""
+      ANTHROPIC_API_KEY: ""
+      ELEVENLABS_API_KEY: ""
+      PEXELS_API_KEY: ""
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/vorproduktion-drei-feed-k1-k2-k3
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: social/package-lock.json
+      - working-directory: social
+        run: npm ci
+      - name: Kandidaten providerfrei vorbereiten, nicht pushen
+        working-directory: social
+        run: node bin/vorproduktion-vorbereiten.mjs 2026-09-25 2026-09-26 2026-09-27 2026-09-28
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vorproduktion-3feed-kandidaten
+          path: |
+            .instagram-assets/vorproduktion/2026-09-25.json
+            .instagram-assets/vorproduktion/2026-09-26.json
+            .instagram-assets/vorproduktion/2026-09-27.json
+            .instagram-assets/vorproduktion/2026-09-28.json
+          if-no-files-found: error
+          retention-days: 1
