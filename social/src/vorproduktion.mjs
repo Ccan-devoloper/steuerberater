@@ -203,6 +203,25 @@ function storySemantikPruefen(story, label) {
 export function examenscampusRegelnPruefen(tag) {
   if (!tag?.plan || !tag?.inhalte) throw new Error("Vorproduktion: Plan oder Inhalte fehlen.");
 
+  /* Die Monats-Vorproduktion nutzt drei Feed-Slots. Sobald ein Review-Tag
+     dieses Schema verwendet, sind K3 → K1 → K2 sowie genau zwei Karussells
+     und ein Reel verbindlich. Ältere Zwei-Feed-Reviewtage bleiben gültig. */
+  const feed = tag.plan.beitraege || [];
+  if (feed.length === 3) {
+    const klausurfolge = feed.map((b) => Number(b.klausur));
+    if (klausurfolge.join(",") !== "3,1,2") {
+      throw new Error(tag.datum + ": Drei-Feed-Vorproduktion verlangt die Klausurfolge K3 → K1 → K2.");
+    }
+    const reels = feed.filter((b) => b.format === "reel");
+    if (reels.length !== 1) {
+      throw new Error(tag.datum + ": Drei-Feed-Vorproduktion verlangt genau 1 Reel.");
+    }
+    const karussells = feed.filter((b) => b.format !== "reel");
+    if (karussells.length !== 2 || karussells.some((b) => !Array.isArray(tag.inhalte[b.slot]?.folien))) {
+      throw new Error(tag.datum + ": Drei-Feed-Vorproduktion verlangt genau 2 gerenderte Karussells.");
+    }
+  }
+
   let vorher = null;
   for (const b of tag.plan.beitraege || []) {
     const inhalt = tag.inhalte[b.slot];

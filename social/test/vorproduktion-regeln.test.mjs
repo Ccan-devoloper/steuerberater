@@ -105,6 +105,50 @@ test("Vorproduktionslayout entspricht Herrjurist, Kategorien bleiben Examenscamp
 });
 
 
+function dreiFeedTag() {
+  return {
+    datum: "2026-09-29",
+    plan: {
+      beitraege: [
+        { slot: "b1", format: "spickzettel", fach: "bilanz", klausur: 3 },
+        { slot: "b2", format: "schema", fach: "ao", klausur: 1 },
+        { slot: "b3", format: "reel", fach: "istr", klausur: 2 },
+      ],
+      stories: [],
+    },
+    inhalte: {
+      b1: { format: "spickzettel", fach: "bilanz", klausur: 3, rendern: false, folien: [{ art: "titel", titel: "Bilanz" }] },
+      b2: { format: "schema", fach: "ao", klausur: 1, rendern: false, folien: [{ art: "titel", titel: "AO" }] },
+      b3: {
+        format: "reel", fach: "istr", klausur: 2, rendern: false,
+        szenen: [{ art: "hook", titel: "IStR", text: "Normbezug klären.", sprecher: "Normbezug klären." }],
+      },
+    },
+  };
+}
+
+test("Drei-Feed-Vorproduktion erzwingt K3 → K1 → K2, zwei Karussells und ein Reel", () => {
+  assert.equal(examenscampusRegelnPruefen(dreiFeedTag()), true);
+
+  const falscheFolge = structuredClone(dreiFeedTag());
+  [falscheFolge.plan.beitraege[0], falscheFolge.plan.beitraege[1]] =
+    [falscheFolge.plan.beitraege[1], falscheFolge.plan.beitraege[0]];
+  assert.throws(() => examenscampusRegelnPruefen(falscheFolge), /Klausurfolge K3/);
+
+  const zweiReels = structuredClone(dreiFeedTag());
+  zweiReels.plan.beitraege[1].format = "reel";
+  zweiReels.inhalte.b2 = {
+    format: "reel", fach: "ao", klausur: 1, rendern: false,
+    szenen: [{ art: "hook", titel: "AO", text: "Frist prüfen.", sprecher: "Frist prüfen." }],
+  };
+  assert.throws(() => examenscampusRegelnPruefen(zweiReels), /genau 1 Reel/);
+
+  const ohneFolien = structuredClone(dreiFeedTag());
+  delete ohneFolien.inhalte.b1.folien;
+  assert.throws(() => examenscampusRegelnPruefen(ohneFolien), /genau 2 gerenderte Karussells/);
+});
+
+
 test("IStR-Socialpool entfernt dozenteneigene Merkhilfen vollständig", () => {
   const thema = themenpool().find((t) => t.id === "istr-modul-istr-istr3-01");
   assert.ok(thema, "IStR-Modul muss im Socialpool vorhanden sein");

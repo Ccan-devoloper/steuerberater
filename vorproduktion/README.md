@@ -62,10 +62,14 @@ Lösungsskizzen am Prüfungsabend sind absichtlich nicht vorproduzierbar. Sie h�
 
 ## Live-Vorrang ab 25.09.2026
 
-Seit dem Betreiberauftrag vom 25.09.2026 gilt im stündlichen Instagram-Lauf ein einfacher Tages-Gate: Existiert im Asset-Zweig eine Datei `vorproduktion/YYYY-MM-DD.json`, übernimmt ausschließlich die Vorproduktion dieses Datums. Der normale Veröffentlichungs- und Content-Lauf bleibt für diesen Tag vollständig aus. Am ersten Datum ohne Vorproduktionsdatei läuft die bisherige Normalpipeline automatisch wieder weiter.
+Im stündlichen Instagram-Lauf gilt ein ausdrückliches Tages-Gate: Eine Review-Datei im Asset-Zweig allein reicht **nicht** für die Veröffentlichung und blockiert den Normalbetrieb nicht. Erst wenn der betreffende Tag mit `freigabeBetreiber: true` freigegeben ist und `liveRegel.veroeffentlichen` nicht auf `false` steht, übernimmt ausschließlich die Vorproduktion dieses Datums. Ohne diese Tagesfreigabe läuft die bisherige Normalpipeline weiter.
 
 Live verwendet dabei nur die bereits vorproduzierten Texte, Stories und Reel-Videos. Fehlende Coverbilder werden lokal durch passende Icons ersetzt; vorhandene Bilder bleiben erhalten. Es werden keine Text-KI-, Faktencheck-, Bild-, Pexels- oder ElevenLabs-Aufrufe gestartet. Notwendig bleibt ausschließlich die Instagram Graph API zum eigentlichen Veröffentlichen; dafür fallen keine Providerkosten an.
 
 ## Kosten- und Freigaberegel
 
-Der Review-Lauf verweigert OpenAI-, Anthropic-, ElevenLabs- und Pexels-Secrets, deaktiviert Bild-KI/Charaktere und nutzt für Reels ausschließlich Piper offline. Neue Review-Tage starten weiterhin als Review. Die Live-Freigabe wird durch den oben beschriebenen Tages-Gate erteilt, sobald für das Datum eine fertige Vorproduktionsdatei vorhanden ist.
+Der Review-Lauf verweigert OpenAI-, Anthropic-, ElevenLabs- und Pexels-Secrets, deaktiviert Bild-KI/Charaktere und nutzt für Reels ausschließlich Piper offline. Neue Review-Tage starten weiterhin als Review. Eine fertige Vorproduktionsdatei ist deshalb nur **reviewbereit**, nicht automatisch live-freigegeben; die Freigabe muss ausdrücklich pro Tag gesetzt werden.
+
+## Stand der 30-Tage-Serie · 26.09.2026
+
+Der Zeitraum **29.09.–28.10.2026** ist vollständig vorbereitet und gerendert: 30 Tage, 90 Feed-Inhalte (60 Karussells + 30 Reels), 90 abgeleitete Feed-Teaser und 162 eigenständige Story-Slots. Die Prüfungstage 06.–08.10. enthalten planmäßig keine zusätzlichen eigenständigen Stories. Alle Renderings sind providerfrei erstellt und bleiben bis zur ausdrücklichen Betreiberfreigabe im Review-Status.
