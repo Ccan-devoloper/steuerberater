@@ -79,9 +79,9 @@ test("Karussell-Cover: Alpha-Motiv wächst maximal bis an die nächste Pille", a
     assert.equal(layout.bilder.length, 1);
     const box = layout.bilder[0].box;
     /* Alte feste Bühne + Number(null)-Fehler ergab hier etwa 650px.
-       Die neue Kollisionssuche darf wegen der transparenten linken Bildhälfte
-       nahezu die gesamte Canvasbreite nutzen. */
-    assert.ok(box.w >= 1060, `Karussell-Motiv blieb zu klein: ${box.w}px`);
+       Die neue Kollisionssuche muss deutlich groesser werden, darf aber die
+       Rechtsgebiets-Pille unten rechts ebenfalls nicht ueberdecken. */
+    assert.ok(box.w >= 820, `Karussell-Motiv blieb zu klein: ${box.w}px`);
     assert.ok(Math.abs(box.y + box.h - 1350) <= 3, "Karussell-Motiv muss unten verankert bleiben");
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
