@@ -16,6 +16,7 @@ import { Hosting } from "../src/hosting.mjs";
 import { CONFIG } from "../src/config.mjs";
 import { tagesplan, FORMAT_QUELLEN } from "../src/planer.mjs";
 import { themenpool, fachInfo, KLAUSUREN, FEED_KATEGORIEN } from "../src/inhalte.mjs";
+import { pruefeBeitrag } from "../src/pruefung.mjs";
 import {
   examenscampusRegelnPruefen,
   fachMeta,
@@ -686,6 +687,52 @@ function livePlatzhalter(datum, slot, b) {
   };
 }
 
+function feedInhaltBauen(datum, b) {
+  if (b.format === "reel") return reel(datum, b.slot, b.thema);
+  return carousel(datum, b.slot, b.format, b.thema);
+}
+
+function feedInhaltSicherBauen(datum, b, used) {
+  if (!b.thema) throw new Error(datum + " " + b.slot + ": Pflichtbeitrag ohne Thema.");
+  let inhalt = feedInhaltBauen(datum, b);
+  let check = pruefeBeitrag(inhalt);
+  if (check.ok) return inhalt;
+
+  /* Providerfrei gibt es kein Modell, das einen zu quellennahen Entwurf
+     umformulieren kann. Statt die Veröffentlichungsprüfung zu lockern, wird
+     deshalb ein anderes Thema derselben Klausur und desselben Formats gewählt.
+     So bleibt die 0-$-Vorproduktion fail-closed und übernimmt niemals 1:1. */
+  const gesperrt = new Set(used);
+  gesperrt.add(b.thema.id);
+  const ursprung = b.thema.id;
+  for (let versuch = 1; versuch <= 24; versuch++) {
+    let ersatz;
+    try {
+      ersatz = pick(datum, {
+        klausur: b.klausur,
+        types: FORMAT_QUELLEN[b.format],
+        used: gesperrt,
+        seed: "publikationssicher-" + b.slot + "-" + versuch,
+      });
+    } catch {
+      break;
+    }
+    gesperrt.add(ersatz.id);
+    b.thema = ersatz;
+    inhalt = feedInhaltBauen(datum, b);
+    check = pruefeBeitrag(inhalt);
+    if (check.ok) {
+      used.add(ersatz.id);
+      console.warn("  ! " + datum + " " + b.slot + ": quellennahes Thema " + ursprung + " durch " + ersatz.id + " ersetzt.");
+      return inhalt;
+    }
+  }
+  throw new Error(
+    datum + " " + b.slot + ": kein providerfrei publikationssicheres Thema für K"
+    + b.klausur + "/" + b.format + ". Letzter Befund: " + check.fehler.join(" | ")
+  );
+}
+
 function addLedger(datum, p, inhalte) {
   for (const b of p.beitraege || []) {
     const id = b.thema?.id;
@@ -736,16 +783,7 @@ for (const datum of dates) {
 
   const inhalte = {};
   for (const b of p.beitraege) {
-    if (b.format === "wochenrueckblick") inhalte[b.slot] = recap(datum, b.slot);
-    else if (b.format === "anlass") inhalte[b.slot] = anlassBeitrag(datum, b.slot, b);
-    else if (b.format === "loesungsskizze") inhalte[b.slot] = livePlatzhalter(datum, b.slot, b);
-    else if (b.format === "reel") {
-      if (!b.thema) throw new Error(datum + " " + b.slot + ": Reel ohne Thema.");
-      inhalte[b.slot] = reel(datum, b.slot, b.thema);
-    } else {
-      if (!b.thema) throw new Error(datum + " " + b.slot + ": Beitrag ohne Thema.");
-      inhalte[b.slot] = carousel(datum, b.slot, b.format, b.thema);
-    }
+    inhalte[b.slot] = feedInhaltSicherBauen(datum, b, used);
   }
 
   const storyUsed = new Set(used);
