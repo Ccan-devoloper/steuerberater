@@ -49,13 +49,13 @@
         "slot": "s4",
         "zeit": "07:20",
         "art": "frage",
-        "themaId": "bilanz-karte-k3-13"
+        "themaId": "bilanz-karte-k3-5"
       },
       {
         "slot": "s5",
         "zeit": "07:20",
         "art": "antwort",
-        "themaId": "bilanz-karte-k3-13"
+        "themaId": "bilanz-karte-k3-5"
       },
       {
         "slot": "s6",
@@ -410,9 +410,9 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-karte-k3-13",
+      "pairId": "bilanz-karte-k3-5",
       "quellen": [
-        "Themenpool: bilanz-karte-k3-13"
+        "Themenpool: bilanz-karte-k3-5"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -422,7 +422,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wann entsteht die Umsatzsteuer bei einer erhaltenen Anzahlung?"
+      "titel": "Forschung oder Entwicklung: Was darf aktiviert werden?"
     },
     "s5": {
       "slot": "s5",
@@ -430,9 +430,9 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-karte-k3-13",
+      "pairId": "bilanz-karte-k3-5",
       "quellen": [
-        "Themenpool: bilanz-karte-k3-13"
+        "Themenpool: bilanz-karte-k3-5"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -443,7 +443,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Bereits mit der Vereinnahmung – § 13 Abs. 1 Nr. 1 a) S. 4 UStG. Die Verbindlichkeit 'erhaltene Anzahlungen' ist deshalb netto auszuweisen (§ 266 Abs. 3 C. 3 HGB)."
+      "text": "Handelsrechtlich können Entwicklungskosten aktiviert werden (§ 255 Abs. 2a HGB). Forschung bleibt Aufwand; sind die Phasen nicht trennbar, entfällt die Aktivierung."
     },
     "s6": {
       "slot": "s6",

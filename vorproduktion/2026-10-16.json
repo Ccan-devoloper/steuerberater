@@ -93,7 +93,7 @@
         "slot": "s9",
         "zeit": "19:29",
         "art": "fehler",
-        "themaId": "kst-modul-kst-3"
+        "themaId": "bilanz-modul-k3-44"
       },
       {
         "slot": "s3",
@@ -521,19 +521,22 @@
     "s9": {
       "slot": "s9",
       "art": "fehler",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-modul-kst-3",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-44",
       "quellen": [
-        "§ 8 Abs. 1 KStG",
-        "§ 10 Nr. 2 KStG",
-        "§ 4 Abs. 5 EStG",
-        "§ 4 Abs. 6 EStG",
-        "§ 4 Abs. 7 EStG",
-        "§ 10 KStG",
-        "§ 4 Abs. 5–7 EStG",
-        "Themenpool: kst-modul-kst-3"
+        "§ 254 S. 1 HGB",
+        "§ 254 S. 2 HGB",
+        "§ 249 Abs. 1 S. 1 HGB",
+        "§ 252 Abs. 1 Nr. 3 HGB",
+        "§ 252 Abs. 1 Nr. 4 HGB",
+        "§ 253 Abs. 1 S. 1 HGB",
+        "§ 285 Nr. 23 HGB",
+        "§ 5 Abs. 1a S. 2 EStG",
+        "§ 5 Abs. 4a S. 1 EStG",
+        "§ 254 HGB",
+        "Themenpool: bilanz-modul-k3-44"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -543,9 +546,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Nichtabziehbare Aufwendungen und Spenden",
-      "falsch": "Bruttobetrag und Nettobetrag vermischen",
-      "richtigText": "typische nichtabziehbare Aufwendungen erkennen"
+      "titel": "Bewertungseinheit ohne Wirksamkeitsnachweis?",
+      "falsch": "Grundgeschäft und Sicherungsinstrument allein wegen gegenläufiger Werte zusammenfassen.",
+      "richtigText": "Nur der wirksame Risikoausgleich fällt unter § 254 HGB; Sicherungszusammenhang und Wirksamkeit nachweisen."
     }
   },
   "renderVorschau": {

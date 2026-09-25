@@ -49,13 +49,13 @@
         "slot": "s4",
         "zeit": "07:18",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-11"
+        "themaId": "bilanz-karte-k3-17"
       },
       {
         "slot": "s5",
         "zeit": "07:18",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-11"
+        "themaId": "bilanz-karte-k3-17"
       },
       {
         "slot": "s6",
@@ -401,9 +401,9 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-11",
+      "pairId": "bilanz-karte-k3-17",
       "quellen": [
-        "Themenpool: bilanz-quiz-k3-11"
+        "Themenpool: bilanz-karte-k3-17"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -413,7 +413,7 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wann entsteht die Umsatzsteuer bei einer erhaltenen Anzahlung?"
+      "titel": "Unverzinsliche Verbindlichkeit: Noch 5,5 % abzinsen?"
     },
     "s5": {
       "slot": "s5",
@@ -421,9 +421,9 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-11",
+      "pairId": "bilanz-karte-k3-17",
       "quellen": [
-        "Themenpool: bilanz-quiz-k3-11"
+        "Themenpool: bilanz-karte-k3-17"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -434,7 +434,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Richtig: mit Vereinnahmung. § 13 Abs. 1 Nr. 1 a) S. 4 UStG: bereits mit Vereinnahmung der Anzahlung."
+      "text": "Nein. § 6 Abs. 1 Nr. 3 EStG verweist für Verbindlichkeiten auf Nr. 2. Die Abzinsung zu 5,5 % betrifft nach Nr. 3a Buchst. e weiterhin bestimmte Rückstellungen."
     },
     "s6": {
       "slot": "s6",
