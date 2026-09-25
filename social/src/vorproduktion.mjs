@@ -200,37 +200,6 @@ function storySemantikPruefen(story, label) {
   }
 }
 
-/* Frage- und Antwort-Story erscheinen immer als Quiz: 2–4 Optionen, eine
-   richtig, in beiden Stories identisch. Ohne die Felder zeichnet die Vorlage
-   nur die nackte Frage – so sind die Vorproduktionstage ab 25.09.2026
-   unbemerkt ohne Quiz entstanden. */
-export function quizIndex(optionen, richtig) {
-  if (!Array.isArray(optionen)) return null;
-  const norm = (x) => String(x ?? "").replace(/\s+/g, " ").trim().toLowerCase();
-  let i = null;
-  if (Number.isInteger(richtig)) i = richtig;
-  else if (typeof richtig === "string" && /^\d+$/.test(richtig.trim())) i = Number(richtig.trim());
-  else if (typeof richtig === "string" && /^[A-D]$/i.test(richtig.trim())) i = richtig.trim().toUpperCase().charCodeAt(0) - 65;
-  else if (typeof richtig === "string" && richtig.trim()) i = optionen.findIndex((o) => norm(o) === norm(richtig));
-  return i != null && i >= 0 && i < optionen.length ? i : null;
-}
-
-export function quizPaarPruefen(tag) {
-  const paar = (tag?.plan?.stories || []).filter((s) => s.art === "frage" || s.art === "antwort");
-  for (const s of paar) {
-    const x = tag.inhalte?.[s.slot];
-    const ok = Array.isArray(x?.optionen) && x.optionen.length >= 2 && x.optionen.length <= 4
-      && x.optionen.every((o) => typeof o === "string" && o.trim())
-      && Number.isInteger(x.richtig) && quizIndex(x.optionen, x.richtig) === x.richtig;
-    if (!ok) throw new Error(tag.datum + " " + s.slot + ": " + s.art + "-Story braucht Quiz-Optionen und „richtig“.");
-  }
-  const [a, b] = paar.map((s) => tag.inhalte[s.slot]);
-  if (a && b && (JSON.stringify(a.optionen) !== JSON.stringify(b.optionen) || a.richtig !== b.richtig)) {
-    throw new Error(tag.datum + ": Frage und Antwort haben unterschiedliche Quiz-Optionen.");
-  }
-  return true;
-}
-
 export function examenscampusRegelnPruefen(tag) {
   if (!tag?.plan || !tag?.inhalte) throw new Error("Vorproduktion: Plan oder Inhalte fehlen.");
 
@@ -267,7 +236,6 @@ export function examenscampusRegelnPruefen(tag) {
     if (!story) throw new Error(tag.datum + " " + s.slot + ": Story-Inhalt fehlt.");
     storySemantikPruefen(story, tag.datum + " " + s.slot);
   }
-  quizPaarPruefen(tag);
 
   return true;
 }

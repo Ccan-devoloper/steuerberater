@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "purpose": "Golden character identity references for Examenscampus Instagram covers",
+  "sourceDimensions": { "width": 1672, "height": 941 },
+  "repoCopies": { "format": "JPEG", "width": 1200, "note": "Compact copies of the nine supplied character sheets" },
+  "characters": [
+    { "id": "holger", "name": "Holger Kranz", "file": "01-holger-kranz.jpg", "traits": ["chaotisch", "optimistisch", "bequem"] },
+    { "id": "vera", "name": "Vera Kranz", "file": "02-vera-kranz.jpg", "traits": ["organisiert", "trocken", "fürsorglich"] },
+    { "id": "mia", "name": "Mia Kranz", "file": "03-mia-kranz.jpg", "traits": ["schlagfertig", "kreativ", "misstrauisch"] },
+    { "id": "timo", "name": "Timo Kranz", "file": "04-timo-kranz.jpg", "traits": ["nerdig", "loyal", "überdreht"] },
+    { "id": "fritz", "name": "Fritz Kranz", "file": "05-fritz-kranz.jpg", "traits": ["genial", "neugierig", "frech"] },
+    { "id": "kalle", "name": "Kalle", "file": "06-kalle.jpg", "traits": ["sarkastisch", "faul", "loyal"] },
+    { "id": "dario", "name": "Dario Costa", "file": "07-dario-costa.jpg", "traits": ["charmant", "gestriegelt", "egozentrisch"] },
+    { "id": "nila", "name": "Nila Öztürk", "file": "08-nila-oeztuerk.jpg", "traits": ["rational", "hartnäckig", "beschützend"] },
+    { "id": "erwin", "name": "Erwin Kranz", "file": "09-erwin-kranz.jpg", "traits": ["grantig", "zäh", "listig"] }
+  ],
+  "rule": "Character identity is stable; choose poses, cast, props, action and visual metaphor per contribution. No text in cutout cover art."
+}

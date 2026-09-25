@@ -21,7 +21,6 @@ import {
   fachMeta,
   providerfreieVorproduktionPruefen,
   reviewStatus,
-  quizIndex,
 } from "../src/vorproduktion.mjs";
 
 providerfreieVorproduktionPruefen();
@@ -149,11 +148,6 @@ function anzeigeKurz(text, max = 74) {
 function satz(text) {
   const s = clean(text).replace(/[.]{2,}$/g, ".").replace(/\s+([,.;:!?])/g, "$1");
   return /[.!?]$/.test(s) ? s : s + ".";
-}
-
-function hatQuiz(t) {
-  const k = kern(t);
-  return k.optionen.length >= 2 && k.optionen.length <= 4 && quizIndex(k.optionen, k.richtig) != null;
 }
 
 function quizAntwort(k) {
@@ -424,16 +418,12 @@ function story(datum, planStory, t, used) {
     ...reviewStatus(),
   };
 
-  const quiz = quizIndex(k.optionen, k.richtig) != null && k.optionen.length >= 2 && k.optionen.length <= 4
-    ? { optionen: k.optionen, richtig: quizIndex(k.optionen, k.richtig) }
-    : {};
   if (art === "frage") {
-    return { ...basis, ueberzeile: "Prüfungsfrage", titel: t.titel, ...quiz };
+    return { ...basis, ueberzeile: "Prüfungsfrage", titel: t.titel };
   }
   if (art === "antwort") {
     return {
       ...basis,
-      ...quiz,
       ueberzeile: "Auflösung",
       titel: "Kern der Antwort",
       text: quizAntwort(k) || k.antwort || (k.lern.length ? k.lern : k.schritte).slice(0, 3).map(satz).join(" "),
@@ -691,21 +681,11 @@ for (const datum of dates) {
   }
 
   const storyUsed = new Set(used);
-  let quizErsatz = null;
   for (const s of p.stories || []) {
     if (s.beitragSlot) continue;
     let thema = s.thema || null;
     if (!thema && s.art !== "countdown") {
       thema = pick(datum, { art: "story", used: storyUsed, seed: s.slot });
-    }
-    /* Frage/Antwort erscheinen als Quiz: Ein Thema ohne geprüfte Optionen
-       wird für das ganze Paar durch ein Quiz-Thema ersetzt. */
-    if (s.art === "frage" || s.art === "antwort") {
-      if (s.art === "frage" && !hatQuiz(thema)) {
-        quizErsatz = { von: thema?.id || null, zu: pick(datum, { art: "story", klausur: thema?.klausur ?? null, filter: hatQuiz, used: storyUsed, seed: s.slot + "-quiz" }) };
-      }
-      if (quizErsatz && (s.art === "frage" || thema?.id === quizErsatz.von || !hatQuiz(thema))) thema = quizErsatz.zu;
-      s.thema = thema;
     }
     inhalte[s.slot] = story(datum, s, thema, storyUsed);
   }
