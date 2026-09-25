@@ -1,9 +1,9 @@
 {
   "datum": "2026-09-28",
   "status": "vorproduziert",
-  "freigabeBetreiber": false,
+  "freigabeBetreiber": true,
   "liveVerknuepft": false,
-  "vorproduktionStatus": "review",
+  "vorproduktionStatus": "live-freigegeben",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
@@ -113,13 +113,14 @@
           "art": "titel",
           "titel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer",
           "coverBadge": null,
-          "coverBildAuslassen": true,
+          "coverBildAuslassen": false,
           "titelZeilen": [
             "Innergemeinschaftlicher",
             "Erwerb",
             "Erwerbsteuer",
             "Vorsteuer"
-          ]
+          ],
+          "icon": "lkw"
         },
         {
           "art": "text",
@@ -210,8 +211,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -238,7 +239,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Zuerst nationalen Steuerzugriff feststellen, dann das DBA prüfen.",
           "norm": "§ 1 Abs. 4, § 49 EStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Bei beschränkter Steuerpflicht stellst du zuerst den deutschen Steuerzugriff nach Paragraf 1 Absatz 4 und Paragraf 49 EStG fest. Erst danach prüfst du ein DBA.",
           "marken": [
             "Nationales Recht zuerst",
@@ -335,7 +336,7 @@
       ],
       "kurztitel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 1 Abs. 4 EStG",
         "§ 49 EStG",
@@ -347,8 +348,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -356,7 +357,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "icon": "globus"
     },
     "s3": {
       "slot": "s3",
@@ -615,8 +617,10 @@
     "visuellGeprueftAm": "2026-09-25"
   },
   "liveRegel": {
-    "veroeffentlichen": false,
-    "freigabeErforderlich": true
+    "veroeffentlichen": true,
+    "freigabeErforderlich": false,
+    "freigabeQuelle": "Betreiberauftrag Chat 2026-09-25",
+    "providerKostenUsd": 0
   },
   "qa": {
     "inhalt": "manuell-validiert",
@@ -629,5 +633,10 @@
       "reels": "Cover plus drei Szenenframes je Reel geprüft; Safe-Area gegen HerrJurist-Logik verifiziert",
       "geprueftAm": "2026-09-25"
     }
+  },
+  "freigabeQuelle": "Betreiberauftrag Chat 2026-09-25",
+  "coverPolicy": {
+    "modus": "lokales-icon-wenn-bildlos",
+    "providerKostenUsd": 0
   }
 }
