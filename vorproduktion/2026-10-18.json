@@ -194,6 +194,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-18-b1-bilanz-modul-k3-23-cover.png",
         "status": "Bild ausstehend"
@@ -287,6 +288,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-18-b2-ao-modul-ao-352-cover.png",
         "status": "Bild ausstehend"
@@ -326,11 +328,11 @@
           "nummer": 1,
           "titel": "§ 10 Abs. 1 AStG: Die nach § 7 Abs. 1 AStG steuerpflichtigen Einkünfte sind der Hinzurechnungsbetrag.",
           "text": null,
-          "norm": null,
+          "norm": "§ 10 Abs. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: § 10 Abs. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Prüfe § 10 Abs. 1 AStG im Zusammenhang mit § 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG.",
           "marken": [
-            "§ 10 Abs."
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -338,11 +340,11 @@
           "nummer": 2,
           "titel": "§ 10 Abs. 2 S. 1 AStG: Der Hinzurechnungsbetrag gehört zu den Einkünften i.S.d. § 20 Abs. 1 Nr. 1 EStG.",
           "text": null,
-          "norm": null,
+          "norm": "§ 10 Abs. 2 S. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: § 10 Abs. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 10 Abs. 2 S. 1 AStG im Zusammenhang mit § 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG.",
           "marken": [
-            "§ 10 Abs."
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -397,6 +399,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-18-b3-istr-modul-istr-istr4-07-cover.png",
         "status": "Bild ausstehend"

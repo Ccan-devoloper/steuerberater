@@ -189,6 +189,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-04-b1-bilanz-modul-k3-31-cover.png",
         "status": "Bild ausstehend"
@@ -281,6 +282,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-04-b2-ao-modul-ao-318-cover.png",
         "status": "Bild ausstehend"
@@ -320,11 +322,11 @@
           "nummer": 1,
           "titel": "Steuerpflicht nach § 1 EStG.",
           "text": null,
-          "norm": null,
+          "norm": "§ 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Steuerpflicht nach § 1 EStG. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Steuerpflicht nach § 1 EStG.",
           "marken": [
-            "Steuerpflicht nach § 1 EStG."
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -332,11 +334,11 @@
           "nummer": 2,
           "titel": "Einkunftsart und bei beschränkter Steuerpflicht § 49 EStG.",
           "text": null,
-          "norm": null,
+          "norm": "§ 49 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Einkunftsart und bei beschränkter Steuerpflicht § 49. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Einkunftsart und bei beschränkter Steuerpflicht § 49 EStG.",
           "marken": [
-            "Einkunftsart und bei beschränkter"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -389,6 +391,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-04-b3-istr-modul-istr-istr2-09-cover.png",
         "status": "Bild ausstehend"

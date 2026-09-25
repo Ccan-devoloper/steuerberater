@@ -189,6 +189,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-24-b1-bilanz-modul-k3-24-cover.png",
         "status": "Bild ausstehend"
@@ -282,6 +283,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-24-b2-erbst-modul-erbst-548-cover.png",
         "status": "Bild ausstehend"
@@ -321,11 +323,11 @@
           "nummer": 1,
           "titel": "Mehr als 50 % unmittelbarer oder mittelbarer Erwerb innerhalb von fünf Jahren?",
           "text": null,
-          "norm": null,
+          "norm": "§ 8c Abs. 1 S. 1, 3 KStG",
           "icon": null,
-          "sprecher": "Schritt 1: Mehr als 50 % unmittelbarer oder mittelbarer Erwerb. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Prüfe § 8c Abs. 1 S. 1, 3 KStG im Zusammenhang mit Schädlicher Beteiligungserwerb und fortführungsgebundener Verlust.",
           "marken": [
-            "Mehr als 50 % unmittelbarer oder"
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -333,11 +335,11 @@
           "nummer": 2,
           "titel": "Zeitpunkt des Übergangs des wirtschaftlichen Eigentums bestimmen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 8c Abs. 1 S. 4 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Zeitpunkt des Übergangs des wirtschaftlichen Eigentums. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Zeitpunkt des Übergangs des wirtschaftlichen Eigentums bestimmen.",
           "marken": [
-            "Zeitpunkt des Übergangs des"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -392,6 +394,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-24-b3-kst-modul-kst-10-cover.png",
         "status": "Bild ausstehend"

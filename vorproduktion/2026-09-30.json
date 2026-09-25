@@ -189,6 +189,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Ein Gegenstand schrumpft sichtbar entlang einer Zeitbahn; eine Figur stoppt am Stichtag, die andere kontrolliert den Wert.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-09-30-b1-bilanz-modul-k3-5-cover.png",
         "status": "Bild ausstehend"
@@ -284,6 +285,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-09-30-b2-ao-modul-ao-306-cover.png",
         "status": "Bild ausstehend"
@@ -323,11 +325,11 @@
           "nummer": 1,
           "titel": "Ergebnis der Verteilungsnorm festhalten.",
           "text": null,
-          "norm": null,
+          "norm": "Art. 23 DBA",
           "icon": null,
-          "sprecher": "Schritt 1: Ergebnis der Verteilungsnorm festhalten. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Ergebnis der Verteilungsnorm festhalten.",
           "marken": [
-            "Ergebnis der Verteilungsnorm festhalten."
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -335,11 +337,11 @@
           "nummer": 2,
           "titel": "Methodenartikel des Ansässigkeitsstaats: Freistellung oder Anrechnung.",
           "text": null,
-          "norm": null,
+          "norm": "§ 32b Abs. 1 S. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Methodenartikel des Ansässigkeitsstaats. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 32b Abs. 1 S. 1 Nr. 3 EStG im Zusammenhang mit Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt.",
           "marken": [
-            "Methodenartikel des Ansässigkeitsstaats"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -389,6 +391,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-09-30-b3-istr-modul-istr-istr2-08-cover.png",
         "status": "Bild ausstehend"

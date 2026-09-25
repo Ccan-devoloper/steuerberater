@@ -193,6 +193,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-26-b1-bilanz-modul-k3-47-cover.png",
         "status": "Bild ausstehend"
@@ -286,6 +287,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-26-b2-erbst-modul-erbst-541-cover.png",
         "status": "Bild ausstehend"
@@ -325,23 +327,23 @@
           "nummer": 1,
           "titel": "Betriebsvermögens-Wirtschaftsgut und bisherige Zuordnung zur deutschen Besteuerung feststellen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 4 Abs. 1 S. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Betriebsvermögens-Wirtschaftsgut und bisherige. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Prüfe § 4 Abs. 1 S. 3 EStG im Zusammenhang mit Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG.",
           "marken": [
-            "Betriebsvermögens-Wirtschaftsgut und"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Zuordnung/Überführung zur ausländischen Betriebsstätte",
+          "titel": "Prüfpunkt 2: § 6 Abs. 1 Nr. 4 EStG",
           "text": null,
-          "norm": null,
+          "norm": "§ 6 Abs. 1 Nr. 4 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Zuordnung/Überführung zur ausländischen Betriebsstätte. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 6 Abs. 1 Nr. 4 EStG im Zusammenhang mit Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG.",
           "marken": [
-            "Zuordnung/Überführung zur ausländischen"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -390,6 +392,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-26-b3-istr-modul-istr-istr3-13-cover.png",
         "status": "Bild ausstehend"

@@ -190,6 +190,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-22-b1-bilanz-modul-k3-22-cover.png",
         "status": "Bild ausstehend"
@@ -284,6 +285,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-22-b2-erbst-modul-erbst-540-cover.png",
         "status": "Bild ausstehend"
@@ -323,11 +325,11 @@
           "nummer": 1,
           "titel": "Steuerbilanzgewinn bzw. steuerliches Ergebnis des KSt-Zeitraums als Ausgangsgröße übernehmen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 8 Abs. 1 KStG",
           "icon": null,
-          "sprecher": "Schritt 1: Steuerbilanzgewinn bzw. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Prüfe § 8 Abs. 1 KStG im Zusammenhang mit Vom Steuerbilanzgewinn zum zu versteuernden Einkommen.",
           "marken": [
-            "Steuerbilanzgewinn bzw."
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -335,11 +337,11 @@
           "nummer": 2,
           "titel": "Fehler der Bilanz oder Gewinnermittlung innerbilanziell korrigieren.",
           "text": null,
-          "norm": null,
+          "norm": "§ 8 Abs. 2 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Fehler der Bilanz oder Gewinnermittlung innerbilanziell. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 8 Abs. 2 KStG im Zusammenhang mit Vom Steuerbilanzgewinn zum zu versteuernden Einkommen.",
           "marken": [
-            "Fehler der Bilanz oder Gewinnermittlung"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -395,6 +397,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-22-b3-kst-modul-kst-2-cover.png",
         "status": "Bild ausstehend"

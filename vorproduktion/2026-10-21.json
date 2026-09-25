@@ -194,6 +194,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-21-b1-bilanz-modul-k3-48-cover.png",
         "status": "Bild ausstehend"
@@ -288,6 +289,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-21-b2-erbst-modul-erbst-509-cover.png",
         "status": "Bild ausstehend"
@@ -327,23 +329,23 @@
           "nummer": 1,
           "titel": "Gesamte Einkünfte der ausländischen Gesellschaft ermitteln.",
           "text": null,
-          "norm": null,
+          "norm": "§ 9 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: Gesamte Einkünfte der ausländischen Gesellschaft. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Gesamte Einkünfte der ausländischen Gesellschaft ermitteln.",
           "marken": [
-            "Gesamte Einkünfte der ausländischen"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Zwischeneinkünfte, für die die Gesellschaft Zwischengesellschaft ist, ins Verhältnis zu den gesamten",
+          "titel": "Prüfpunkt 2: § 7 AStG",
           "text": null,
-          "norm": null,
+          "norm": "§ 7 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: Zwischeneinkünfte, für die die Gesellschaft. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 7 AStG im Zusammenhang mit § 9 AStG: relative und absolute Freigrenze.",
           "marken": [
-            "Zwischeneinkünfte, für die die"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -392,6 +394,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-21-b3-istr-modul-istr-istr4-06-cover.png",
         "status": "Bild ausstehend"

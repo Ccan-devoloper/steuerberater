@@ -189,6 +189,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-11-b1-bilanz-modul-k3-26-cover.png",
         "status": "Bild ausstehend"
@@ -289,6 +290,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-11-b2-ao-modul-ao-360-cover.png",
         "status": "Bild ausstehend"
@@ -328,11 +330,11 @@
           "nummer": 1,
           "titel": "§ 20 EStG: Dividende qualifizieren.",
           "text": null,
-          "norm": null,
+          "norm": "§ 20 Abs. 1 Nr. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: § 20 EStG: Dividende qualifizieren. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: § 20 EStG: Dividende qualifizieren.",
           "marken": [
-            "§ 20 EStG: Dividende qualifizieren."
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -340,11 +342,11 @@
           "nummer": 2,
           "titel": "§ 49 Abs. 1 Nr. 5 EStG: inländischer Schuldner/Gesellschaft als Inlandsanknüpfung.",
           "text": null,
-          "norm": null,
+          "norm": "§ 49 Abs. 1 Nr. 5 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: § 49 Abs. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 49 Abs. 1 Nr. 5 EStG im Zusammenhang mit Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA.",
           "marken": [
-            "§ 49 Abs."
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -400,6 +402,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-11-b3-istr-modul-istr-istr3-02-cover.png",
         "status": "Bild ausstehend"

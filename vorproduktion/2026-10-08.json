@@ -156,6 +156,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-08-b1-bilanz-modul-k3-50-cover.png",
         "status": "Bild ausstehend"
@@ -248,6 +249,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-08-b2-ao-modul-ao-312-cover.png",
         "status": "Bild ausstehend"
@@ -287,11 +289,11 @@
           "nummer": 1,
           "titel": "Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff. oder § 50a).",
           "text": null,
-          "norm": null,
+          "norm": "§ 50b EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff. oder § 50a).",
           "marken": [
-            "Innerstaatlichen Steuerabzug bestimmen (§§"
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -299,11 +301,11 @@
           "nummer": 2,
           "titel": "untersuchen, ob DBA, § 43b, § 50g oder eine andere Entlastungsnorm den deutschen Anspruch reduziert.",
           "text": null,
-          "norm": null,
+          "norm": "§ 50c EStG",
           "icon": null,
-          "sprecher": "Schritt 2: untersuchen, ob DBA, § 43b, § 50g oder eine andere. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 50c EStG im Zusammenhang mit § 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug.",
           "marken": [
-            "untersuchen, ob DBA, § 43b, § 50g oder"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -355,6 +357,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-08-b3-istr-modul-istr-istr3-03-cover.png",
         "status": "Bild ausstehend"

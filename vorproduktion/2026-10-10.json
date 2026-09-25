@@ -189,6 +189,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-10-b1-bilanz-modul-k3-21-cover.png",
         "status": "Bild ausstehend"
@@ -286,6 +287,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-10-b2-ao-modul-ao-332-cover.png",
         "status": "Bild ausstehend"
@@ -325,11 +327,11 @@
           "nummer": 1,
           "titel": "Einkunftsart: § 18 Abs. 1 Nr. 3 EStG.",
           "text": null,
-          "norm": null,
+          "norm": "§ 18 Abs. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Einkunftsart: § 18 Abs. 1 Nr. 3 EStG. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Einkunftsart: § 18 Abs. 1 Nr. 3 EStG.",
           "marken": [
-            "Einkunftsart: § 18 Abs. 1 Nr. 3 EStG."
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -337,11 +339,11 @@
           "nummer": 2,
           "titel": "Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tätigkeit/Vergütung aus deutschem Aufsichtsrat.",
           "text": null,
-          "norm": null,
+          "norm": "§ 49 Abs. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Inlandsanknüpfung: § 49 Abs. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 49 Abs. 1 Nr. 3 EStG im Zusammenhang mit Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA.",
           "marken": [
-            "Inlandsanknüpfung: § 49 Abs."
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -394,6 +396,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-10-b3-istr-modul-istr-istr3-04-cover.png",
         "status": "Bild ausstehend"

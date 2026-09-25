@@ -189,6 +189,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-15-b1-bilanz-modul-k3-16-cover.png",
         "status": "Bild ausstehend"
@@ -279,6 +280,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-15-b2-erbst-modul-erbst-507-cover.png",
         "status": "Bild ausstehend"
@@ -318,11 +320,11 @@
           "nummer": 1,
           "titel": "Einkünfte der ausländischen Gesellschaft nach § 10 Abs. 3 AStG nach deutschem Steuerrecht ermitteln.",
           "text": null,
-          "norm": null,
+          "norm": "§ 8 Abs. 5 S. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: Einkünfte der ausländischen Gesellschaft nach § 10 Abs. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Prüfe § 8 Abs. 5 S. 1 AStG im Zusammenhang mit § 8 Abs. 5 AStG: niedrige Besteuerung unter 15 %.",
           "marken": [
-            "Einkünfte der ausländischen Gesellschaft"
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -330,11 +332,11 @@
           "nummer": 2,
           "titel": "Tatsächliche Ertragsteuerbelastung dieser Einkünfte bestimmen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 8 Abs. 5 S. 2 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: Tatsächliche Ertragsteuerbelastung dieser Einkünfte. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Tatsächliche Ertragsteuerbelastung dieser Einkünfte bestimmen.",
           "marken": [
-            "Tatsächliche Ertragsteuerbelastung dieser"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -385,6 +387,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-15-b3-istr-modul-istr-istr4-03-cover.png",
         "status": "Bild ausstehend"

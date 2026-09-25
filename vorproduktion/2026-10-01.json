@@ -187,6 +187,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Die Figuren tragen getrennte Kisten aus Gemeinschafts- und Privatbereich zu einem gemeinsamen Ergebnis, ohne sie vorher zu vermischen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-01-b1-bilanz-modul-k3-10-cover.png",
         "status": "Bild ausstehend"
@@ -281,6 +282,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-01-b2-ao-modul-ao-336-cover.png",
         "status": "Bild ausstehend"
@@ -320,23 +322,23 @@
           "nummer": 1,
           "titel": "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 17 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Anteil i.S.d. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Prüfe § 17 EStG im Zusammenhang mit § 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen.",
           "marken": [
-            "Anteil i.S.d."
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "§ 6 Abs.",
+          "titel": "Prüfpunkt 2: § 6 Abs. 1 AStG",
           "text": null,
-          "norm": null,
+          "norm": "§ 6 Abs. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: § 6 Abs. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 6 Abs. 1 AStG im Zusammenhang mit § 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen.",
           "marken": [
-            "§ 6 Abs."
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -389,6 +391,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-01-b3-istr-modul-istr-istr3-08-cover.png",
         "status": "Bild ausstehend"

@@ -189,6 +189,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-03-b1-bilanz-modul-k3-18-cover.png",
         "status": "Bild ausstehend"
@@ -283,6 +284,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-03-b2-ao-modul-ao-329-cover.png",
         "status": "Bild ausstehend"
@@ -322,11 +324,11 @@
           "nummer": 1,
           "titel": "Ansässigkeitsstaat und Tätigkeitsstaat bestimmen.",
           "text": null,
-          "norm": null,
+          "norm": "Art. 15 DBA",
           "icon": null,
-          "sprecher": "Schritt 1: Ansässigkeitsstaat und Tätigkeitsstaat bestimmen. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Ansässigkeitsstaat und Tätigkeitsstaat bestimmen.",
           "marken": [
-            "Ansässigkeitsstaat und Tätigkeitsstaat"
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -334,11 +336,11 @@
           "nummer": 2,
           "titel": "Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats.",
           "text": null,
-          "norm": null,
+          "norm": "Art. 23 DBA",
           "icon": null,
-          "sprecher": "Schritt 2: Art. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats.",
           "marken": [
-            "Art."
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -387,6 +389,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-03-b3-istr-modul-istr-istr2-07-cover.png",
         "status": "Bild ausstehend"

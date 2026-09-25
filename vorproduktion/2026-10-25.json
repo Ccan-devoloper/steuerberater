@@ -189,6 +189,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-25-b1-bilanz-modul-k3-14-cover.png",
         "status": "Bild ausstehend"
@@ -286,6 +287,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-25-b2-erbst-modul-erbst-543-cover.png",
         "status": "Bild ausstehend"
@@ -325,11 +327,11 @@
           "nummer": 1,
           "titel": "Taugliche Organgesellschaft nach § 14 Abs. 1 S. 1 KStG feststellen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 14 Abs. 1 S. 1 KStG",
           "icon": null,
-          "sprecher": "Schritt 1: Taugliche Organgesellschaft nach § 14 Abs. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Prüfe § 14 Abs. 1 S. 1 KStG im Zusammenhang mit Ertragsteuerliche Organschaft.",
           "marken": [
-            "Taugliche Organgesellschaft nach § 14 Abs."
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -337,11 +339,11 @@
           "nummer": 2,
           "titel": "Tauglichen Organträger und gewerbliche Tätigkeit untersuchen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Tauglichen Organträger und gewerbliche Tätigkeit. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Tauglichen Organträger und gewerbliche Tätigkeit untersuchen.",
           "marken": [
-            "Tauglichen Organträger und gewerbliche"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -395,6 +397,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-25-b3-kst-modul-kst-11-cover.png",
         "status": "Bild ausstehend"

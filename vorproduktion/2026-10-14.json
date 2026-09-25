@@ -188,6 +188,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-14-b1-bilanz-modul-k3-17-cover.png",
         "status": "Bild ausstehend"
@@ -280,6 +281,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-14-b2-erbst-modul-erbst-515-cover.png",
         "status": "Bild ausstehend"
@@ -319,23 +321,23 @@
           "nummer": 1,
           "titel": "Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 EStG bzw. § 1 KStG feststellen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 7 Abs. 1 S. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: Unbeschränkt Steuerpflichtiger nach § 1 Abs. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Prüfe § 7 Abs. 1 S. 1 AStG im Zusammenhang mit § 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft.",
           "marken": [
-            "Unbeschränkt Steuerpflichtiger nach § 1"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Ausländische Gesellschaft: Körperschaft/Personenvereinigung/Vermögensmasse i.S.d.",
+          "titel": "Prüfpunkt 2: § 7 Abs. 1 S. 2 AStG",
           "text": null,
-          "norm": null,
+          "norm": "§ 7 Abs. 1 S. 2 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: Ausländische Gesellschaft. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 7 Abs. 1 S. 2 AStG im Zusammenhang mit § 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft.",
           "marken": [
-            "Ausländische Gesellschaft"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -390,6 +392,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-14-b3-istr-modul-istr-istr4-02-cover.png",
         "status": "Bild ausstehend"

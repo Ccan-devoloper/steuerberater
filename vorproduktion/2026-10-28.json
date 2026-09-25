@@ -188,6 +188,7 @@
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
         "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-28-b1-bilanz-modul-k3-13-cover.png",
         "status": "Bild ausstehend"
@@ -280,6 +281,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-28-b2-erbst-modul-erbst-545-cover.png",
         "status": "Bild ausstehend"
@@ -319,11 +321,11 @@
           "nummer": 1,
           "titel": "Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 5 Abs. 1 Nr. 9",
           "icon": null,
-          "sprecher": "Schritt 1: Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
           "marken": [
-            "Steuerpflicht nach § 1 Abs."
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -331,11 +333,11 @@
           "nummer": 2,
           "titel": "Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und Rückausnahme untersuchen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 24 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Steuerbefreiung nach § 5 Abs. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 24 KStG im Zusammenhang mit Vereinsbesteuerung.",
           "marken": [
-            "Steuerbefreiung nach § 5 Abs."
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -385,6 +387,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-28-b3-kst-schema-6-cover.png",
         "status": "Bild ausstehend"

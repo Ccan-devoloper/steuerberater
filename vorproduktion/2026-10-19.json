@@ -185,6 +185,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-19-b1-bilanz-modul-k3-36-cover.png",
         "status": "Bild ausstehend"
@@ -278,6 +279,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-19-b2-erbst-modul-erbst-542-cover.png",
         "status": "Bild ausstehend"
@@ -317,11 +319,11 @@
           "nummer": 1,
           "titel": "Drittstaatenbezug und negative Einkünfte feststellen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 2a Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Drittstaatenbezug und negative Einkünfte feststellen. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Drittstaatenbezug und negative Einkünfte feststellen.",
           "marken": [
-            "Drittstaatenbezug und negative Einkünfte"
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -329,11 +331,11 @@
           "nummer": 2,
           "titel": "Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 2a Abs. 2 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
           "marken": [
-            "Katalogtatbestand des § 2a Abs."
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -384,6 +386,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-19-b3-istr-modul-istr-istr1-03-cover.png",
         "status": "Bild ausstehend"

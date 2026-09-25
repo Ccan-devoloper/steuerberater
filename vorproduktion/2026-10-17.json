@@ -194,6 +194,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-17-b1-bilanz-modul-k3-41-cover.png",
         "status": "Bild ausstehend"
@@ -287,6 +288,7 @@
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-17-b2-ao-modul-ao-346-cover.png",
         "status": "Bild ausstehend"
@@ -326,23 +328,23 @@
           "nummer": 1,
           "titel": "Vorgründungsphase bis zur notariellen Beurkundung unterscheiden.",
           "text": null,
-          "norm": null,
+          "norm": "§ 1 Abs. 1 Nr. 1 KStG",
           "icon": null,
-          "sprecher": "Schritt 1: Vorgründungsphase bis zur notariellen Beurkundung. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Vorgründungsphase bis zur notariellen Beurkundung unterscheiden.",
           "marken": [
-            "Vorgründungsphase bis zur notariellen"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Ab notarieller Beurkundung untersuchen",
+          "titel": "Prüfpunkt 2: § 1 Abs. 1 Nr. 4 KStG",
           "text": null,
-          "norm": null,
+          "norm": "§ 1 Abs. 1 Nr. 4 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Ab notarieller Beurkundung untersuchen. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 1 Abs. 1 Nr. 4 KStG im Zusammenhang mit Steuerpflicht und Beginn der Körperschaft.",
           "marken": [
-            "Ab notarieller Beurkundung untersuchen"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -397,6 +399,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-17-b3-kst-modul-kst-1-cover.png",
         "status": "Bild ausstehend"

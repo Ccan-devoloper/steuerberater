@@ -185,6 +185,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-16-b1-bilanz-modul-k3-11-cover.png",
         "status": "Bild ausstehend"
@@ -276,6 +277,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-16-b2-erbst-modul-erbst-539-cover.png",
         "status": "Bild ausstehend"
@@ -315,23 +317,23 @@
           "nummer": 1,
           "titel": "Natürliche Person und deutsche Staatsangehörigkeit feststellen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 2 Abs. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: Natürliche Person und deutsche Staatsangehörigkeit. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Natürliche Person und deutsche Staatsangehörigkeit feststellen.",
           "marken": [
-            "Natürliche Person und deutsche"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "untersuchen, ob in den letzten zehn Jahren vor Ende der unbeschränkten Steuerpflicht insgesamt mindestens fünf",
+          "titel": "Prüfpunkt 2: § 2 Abs. 2 AStG",
           "text": null,
-          "norm": null,
+          "norm": "§ 2 Abs. 2 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: untersuchen, ob in den letzten zehn Jahren vor Ende der. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe § 2 Abs. 2 AStG im Zusammenhang mit § 2 AStG: erweiterte beschränkte Steuerpflicht.",
           "marken": [
-            "untersuchen, ob in den letzten zehn Jahren"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -381,6 +383,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-16-b3-istr-modul-istr-istr3-07-cover.png",
         "status": "Bild ausstehend"

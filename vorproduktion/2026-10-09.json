@@ -187,6 +187,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-09-b1-bilanz-modul-k3-12-cover.png",
         "status": "Bild ausstehend"
@@ -280,6 +281,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-09-b2-ao-modul-ao-376-cover.png",
         "status": "Bild ausstehend"
@@ -319,11 +321,11 @@
           "nummer": 1,
           "titel": "Unternehmensgewinn – Art. 7 DBA als Verteilungsnorm identifizieren.",
           "text": null,
-          "norm": null,
+          "norm": "Art. 5 DBA",
           "icon": null,
-          "sprecher": "Schritt 1: Unternehmensgewinn – Art. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Prüfe Art. 5 DBA im Zusammenhang mit Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA.",
           "marken": [
-            "Unternehmensgewinn – Art."
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -331,11 +333,11 @@
           "nummer": 2,
           "titel": "Betriebsstätte nach Art. 5 untersuchen: feste Geschäftseinrichtung + Beispielsfälle.",
           "text": null,
-          "norm": null,
+          "norm": "Art. 7 DBA",
           "icon": null,
-          "sprecher": "Schritt 2: Betriebsstätte nach Art. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Prüfe Art. 7 DBA im Zusammenhang mit Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA.",
           "marken": [
-            "Betriebsstätte nach Art."
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -385,6 +387,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-09-b3-istr-modul-istr-istr2-06-cover.png",
         "status": "Bild ausstehend"

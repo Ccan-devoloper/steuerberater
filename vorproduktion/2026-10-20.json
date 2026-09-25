@@ -191,6 +191,7 @@
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-20-b1-bilanz-modul-k3-37-cover.png",
         "status": "Bild ausstehend"
@@ -292,6 +293,7 @@
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-20-b2-ao-modul-ao-303-cover.png",
         "status": "Bild ausstehend"
@@ -331,11 +333,11 @@
           "nummer": 1,
           "titel": "Leistende, begünstigte und beteiligte Person identifizieren.",
           "text": null,
-          "norm": null,
+          "norm": "§ 8 Abs. 3 S. 2 KStG",
           "icon": null,
-          "sprecher": "Schritt 1: Leistende, begünstigte und beteiligte Person. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 1: Leistende, begünstigte und beteiligte Person identifizieren.",
           "marken": [
-            "Leistende, begünstigte und beteiligte"
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -343,11 +345,11 @@
           "nummer": 2,
           "titel": "Erste Vorteilsbewegung als vGA oder vE untersuchen.",
           "text": null,
-          "norm": null,
+          "norm": "§ 8 Abs. 3 S. 3–5 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Erste Vorteilsbewegung als vGA oder vE untersuchen. Danach folgt der nächste Prüfpunkt.",
+          "sprecher": "Schritt 2: Erste Vorteilsbewegung als vGA oder vE untersuchen.",
           "marken": [
-            "Erste Vorteilsbewegung als vGA oder vE"
+            "Prüfpunkt 2"
           ]
         },
         {
@@ -399,6 +401,7 @@
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-20-b3-kst-modul-kst-6-cover.png",
         "status": "Bild ausstehend"
