@@ -5,7 +5,7 @@ import { feedKategorie, FEED_KATEGORIEN } from "../src/feedfarben.mjs";
 import { fachInfo, themenpool } from "../src/inhalte.mjs";
 import { folieHtml, coverHtml, titelZeilen, MASSE } from "../src/vorlagen.mjs";
 import { kontext } from "../src/render.mjs";
-import { VORPRODUKTION_LAYOUT, layoutVertrag, examenscampusRegelnPruefen } from "../src/vorproduktion.mjs";
+import { VORPRODUKTION_LAYOUT, layoutVertrag, examenscampusRegelnPruefen, passendesCoverIcon, coverIconEinsetzen } from "../src/vorproduktion.mjs";
 
 test("Vorproduktion behält die Examenscampus-Klausurzuordnung", () => {
   for (const fach of ["ao", "ust", "erbst"]) {
@@ -49,6 +49,37 @@ test("Bildloses Review-Cover nutzt Cover-v2 ohne Handschrift oder Ersatzmotiv", 
   assert.doesNotMatch(html, /class="pille"/);
   assert.doesNotMatch(html, /class="karte2"/);
   assert.doesNotMatch(html, /class="illu"/);
+});
+
+test("Bildlose Vorproduktionscover bekommen passende lokale Icons", () => {
+  const ust = {
+    format: "klausurtechnik",
+    fach: "ust",
+    folien: [{ art: "titel", titel: "Vorsteuerabzug und § 14c", coverBildAuslassen: true }],
+  };
+  assert.equal(passendesCoverIcon(ust), "quittung");
+  assert.equal(coverIconEinsetzen(ust), "quittung");
+  assert.equal(ust.folien[0].icon, "quittung");
+  assert.equal(ust.folien[0].coverBildAuslassen, false);
+
+  const istr = {
+    format: "reel",
+    fach: "istr",
+    kurztitel: "Beschränkte Steuerpflicht mit DBA",
+    coverBildAuslassen: true,
+    szenen: [{ art: "hook", titel: "Nationales Recht vor DBA", icon: null }],
+  };
+  assert.equal(coverIconEinsetzen(istr), "globus");
+  assert.equal(istr.szenen[0].icon, "globus");
+  assert.equal(istr.coverBildAuslassen, false);
+
+  const mitBild = {
+    fach: "bilanz",
+    folien: [{ art: "titel", titel: "Bilanz", bild: "/tmp/cover.png", coverBildAuslassen: true }],
+  };
+  coverIconEinsetzen(mitBild);
+  assert.equal(mitBild.folien[0].bild, "/tmp/cover.png");
+  assert.equal(mitBild.folien[0].coverBildAuslassen, false);
 });
 
 test("Titelzeilen bleiben kompakt und kennen Steuerrechtsnormen", () => {
