@@ -115,6 +115,7 @@ const TITEL_ERSATZ = {
   "Schritt 2: NNAS - nicht direkt zuordenbare Schulden/Lasten proportional verteilen": "Nicht direkt zuordenbare Schulden und Lasten anteilig verteilen",
   "Schritt 3: Bereicherung, persönliche Freibeträge und Abrundung zum steuerpflichtigen Erwerb": "Bereicherung, persönliche Freibeträge und Abrundung zum steuerpflichtigen Erwerb",
   "IV. Steuerberechnung: § 19 ErbStG und Härteausgleich": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
+  "Beschränkte Steuerpflicht mit DBA: EIS vor AAVV": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
 };
 function titelBereinigen(titel) {
   const roh = String(titel || "").trim();
@@ -284,6 +285,7 @@ export function themenpool() {
 
   const kuerzel = eigenbegriffKuerzel();
   if (kuerzel.length) for (const t of pool) { t.titel = kuerzelTilgen(t.titel, kuerzel); if (t.kern) t.kern = kuerzelTilgen(t.kern, kuerzel); }
+  for (const t of pool) neutralisiereDozentenstruktur(t);
   /* Themen ohne Substanz aussortieren (z. B. reine Arbeitsmittel-Einführungen). */
   return pool.filter((t) => {
     if (t.typ === "modul") return (t.kern.pruefschritte.length + t.kern.lernziele.length) >= 3 && !/Arbeitsmittel|Kurslogik|Lernlogik|Einführung|Überblick|Recap|Einheit\s*\d|Seitenplan|Fahrtroute|Handbuch|Reiter|Markierung|Lineal|Farbcode|Navigation|Beck-Text|Gesetzessammlung/i.test(t.titel) && t.titel.length > 8;
