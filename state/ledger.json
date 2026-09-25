@@ -4876,6 +4876,18 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-09-25",
+      "slot": "s1",
+      "medienId": "18076968713420670",
+      "veroeffentlicht": "2026-09-25T06:45:32.174Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": "Vorsteuerabzug: § 14c richtig abgrenzen"
     }
   ],
   "fachZaehler": {
