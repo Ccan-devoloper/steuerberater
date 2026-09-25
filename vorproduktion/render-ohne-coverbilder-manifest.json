@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "erzeugtAm": "2026-09-25T21:50:56.169Z",
+  "erzeugtAm": "2026-09-25T22:02:43.156Z",
   "modus": "lokal-ohne-provider-mit-icon-cover",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
@@ -11,6 +11,129 @@
   "coverbilder": false,
   "coverIcons": true,
   "tage": [
+    {
+      "datum": "2026-09-29",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Drei Vermögen: Wo landet die Maschine?",
+          "klausur": 3,
+          "fach": "persg",
+          "coverBild": false,
+          "coverIcon": "personen",
+          "dateien": [
+            "2026-09-29-b1-01.jpg",
+            "2026-09-29-b1-02.jpg",
+            "2026-09-29-b1-03.jpg",
+            "2026-09-29-b1-04.jpg",
+            "2026-09-29-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-09-29-b2-01.jpg",
+            "2026-09-29-b2-02.jpg",
+            "2026-09-29-b2-03.jpg",
+            "2026-09-29-b2-04.jpg",
+            "2026-09-29-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-09-29-b3-cover.jpg",
+            "2026-09-29-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 30.46,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "countdown",
+          "klausur": 0,
+          "fach": null,
+          "datei": "s7-countdown.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "begriff",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s8-begriff.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "fehler",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s9-fehler.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-09-29/fertig"
+    },
     {
       "datum": "2026-09-30",
       "feed": [
@@ -26,7 +149,8 @@
             "2026-09-30-b1-01.jpg",
             "2026-09-30-b1-02.jpg",
             "2026-09-30-b1-03.jpg",
-            "2026-09-30-b1-04.jpg"
+            "2026-09-30-b1-04.jpg",
+            "2026-09-30-b1-05.jpg"
           ]
         },
         {
@@ -41,7 +165,8 @@
             "2026-09-30-b2-01.jpg",
             "2026-09-30-b2-02.jpg",
             "2026-09-30-b2-03.jpg",
-            "2026-09-30-b2-04.jpg"
+            "2026-09-30-b2-04.jpg",
+            "2026-09-30-b2-05.jpg"
           ]
         },
         {
@@ -57,7 +182,7 @@
             "2026-09-30-b3.mp4"
           ],
           "reel": {
-            "dauer": 28.649999999999995,
+            "dauer": 30.869999999999997,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -147,7 +272,8 @@
             "2026-10-01-b1-01.jpg",
             "2026-10-01-b1-02.jpg",
             "2026-10-01-b1-03.jpg",
-            "2026-10-01-b1-04.jpg"
+            "2026-10-01-b1-04.jpg",
+            "2026-10-01-b1-05.jpg"
           ]
         },
         {
@@ -162,7 +288,8 @@
             "2026-10-01-b2-01.jpg",
             "2026-10-01-b2-02.jpg",
             "2026-10-01-b2-03.jpg",
-            "2026-10-01-b2-04.jpg"
+            "2026-10-01-b2-04.jpg",
+            "2026-10-01-b2-05.jpg"
           ]
         },
         {
@@ -178,7 +305,7 @@
             "2026-10-01-b3.mp4"
           ],
           "reel": {
-            "dauer": 39.160000000000004,
+            "dauer": 44.25000000000001,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -268,7 +395,8 @@
             "2026-10-02-b1-01.jpg",
             "2026-10-02-b1-02.jpg",
             "2026-10-02-b1-03.jpg",
-            "2026-10-02-b1-04.jpg"
+            "2026-10-02-b1-04.jpg",
+            "2026-10-02-b1-05.jpg"
           ]
         },
         {
@@ -283,7 +411,8 @@
             "2026-10-02-b2-01.jpg",
             "2026-10-02-b2-02.jpg",
             "2026-10-02-b2-03.jpg",
-            "2026-10-02-b2-04.jpg"
+            "2026-10-02-b2-04.jpg",
+            "2026-10-02-b2-05.jpg"
           ]
         },
         {
@@ -299,7 +428,7 @@
             "2026-10-02-b3.mp4"
           ],
           "reel": {
-            "dauer": 39.59,
+            "dauer": 44.92,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -389,7 +518,8 @@
             "2026-10-03-b1-01.jpg",
             "2026-10-03-b1-02.jpg",
             "2026-10-03-b1-03.jpg",
-            "2026-10-03-b1-04.jpg"
+            "2026-10-03-b1-04.jpg",
+            "2026-10-03-b1-05.jpg"
           ]
         },
         {
@@ -404,7 +534,8 @@
             "2026-10-03-b2-01.jpg",
             "2026-10-03-b2-02.jpg",
             "2026-10-03-b2-03.jpg",
-            "2026-10-03-b2-04.jpg"
+            "2026-10-03-b2-04.jpg",
+            "2026-10-03-b2-05.jpg"
           ]
         },
         {
@@ -420,7 +551,7 @@
             "2026-10-03-b3.mp4"
           ],
           "reel": {
-            "dauer": 31.25,
+            "dauer": 34.07,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -510,7 +641,8 @@
             "2026-10-04-b1-01.jpg",
             "2026-10-04-b1-02.jpg",
             "2026-10-04-b1-03.jpg",
-            "2026-10-04-b1-04.jpg"
+            "2026-10-04-b1-04.jpg",
+            "2026-10-04-b1-05.jpg"
           ]
         },
         {
@@ -525,7 +657,8 @@
             "2026-10-04-b2-01.jpg",
             "2026-10-04-b2-02.jpg",
             "2026-10-04-b2-03.jpg",
-            "2026-10-04-b2-04.jpg"
+            "2026-10-04-b2-04.jpg",
+            "2026-10-04-b2-05.jpg"
           ]
         },
         {
@@ -541,7 +674,7 @@
             "2026-10-04-b3.mp4"
           ],
           "reel": {
-            "dauer": 30.39,
+            "dauer": 32.82,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -631,7 +764,8 @@
             "2026-10-05-b1-01.jpg",
             "2026-10-05-b1-02.jpg",
             "2026-10-05-b1-03.jpg",
-            "2026-10-05-b1-04.jpg"
+            "2026-10-05-b1-04.jpg",
+            "2026-10-05-b1-05.jpg"
           ]
         },
         {
@@ -646,7 +780,8 @@
             "2026-10-05-b2-01.jpg",
             "2026-10-05-b2-02.jpg",
             "2026-10-05-b2-03.jpg",
-            "2026-10-05-b2-04.jpg"
+            "2026-10-05-b2-04.jpg",
+            "2026-10-05-b2-05.jpg"
           ]
         },
         {
@@ -662,7 +797,7 @@
             "2026-10-05-b3.mp4"
           ],
           "reel": {
-            "dauer": 30.54,
+            "dauer": 35.28,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -752,7 +887,8 @@
             "2026-10-06-b1-01.jpg",
             "2026-10-06-b1-02.jpg",
             "2026-10-06-b1-03.jpg",
-            "2026-10-06-b1-04.jpg"
+            "2026-10-06-b1-04.jpg",
+            "2026-10-06-b1-05.jpg"
           ]
         },
         {
@@ -767,7 +903,8 @@
             "2026-10-06-b2-01.jpg",
             "2026-10-06-b2-02.jpg",
             "2026-10-06-b2-03.jpg",
-            "2026-10-06-b2-04.jpg"
+            "2026-10-06-b2-04.jpg",
+            "2026-10-06-b2-05.jpg"
           ]
         },
         {
@@ -783,7 +920,7 @@
             "2026-10-06-b3.mp4"
           ],
           "reel": {
-            "dauer": 32.120000000000005,
+            "dauer": 37.24,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -831,7 +968,8 @@
             "2026-10-07-b1-01.jpg",
             "2026-10-07-b1-02.jpg",
             "2026-10-07-b1-03.jpg",
-            "2026-10-07-b1-04.jpg"
+            "2026-10-07-b1-04.jpg",
+            "2026-10-07-b1-05.jpg"
           ]
         },
         {
@@ -846,7 +984,8 @@
             "2026-10-07-b2-01.jpg",
             "2026-10-07-b2-02.jpg",
             "2026-10-07-b2-03.jpg",
-            "2026-10-07-b2-04.jpg"
+            "2026-10-07-b2-04.jpg",
+            "2026-10-07-b2-05.jpg"
           ]
         },
         {
@@ -862,7 +1001,7 @@
             "2026-10-07-b3.mp4"
           ],
           "reel": {
-            "dauer": 35.68000000000001,
+            "dauer": 41.17000000000001,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -910,7 +1049,8 @@
             "2026-10-08-b1-01.jpg",
             "2026-10-08-b1-02.jpg",
             "2026-10-08-b1-03.jpg",
-            "2026-10-08-b1-04.jpg"
+            "2026-10-08-b1-04.jpg",
+            "2026-10-08-b1-05.jpg"
           ]
         },
         {
@@ -925,7 +1065,8 @@
             "2026-10-08-b2-01.jpg",
             "2026-10-08-b2-02.jpg",
             "2026-10-08-b2-03.jpg",
-            "2026-10-08-b2-04.jpg"
+            "2026-10-08-b2-04.jpg",
+            "2026-10-08-b2-05.jpg"
           ]
         },
         {
@@ -941,7 +1082,7 @@
             "2026-10-08-b3.mp4"
           ],
           "reel": {
-            "dauer": 35.480000000000004,
+            "dauer": 39.59,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -989,7 +1130,8 @@
             "2026-10-09-b1-01.jpg",
             "2026-10-09-b1-02.jpg",
             "2026-10-09-b1-03.jpg",
-            "2026-10-09-b1-04.jpg"
+            "2026-10-09-b1-04.jpg",
+            "2026-10-09-b1-05.jpg"
           ]
         },
         {
@@ -1004,7 +1146,8 @@
             "2026-10-09-b2-01.jpg",
             "2026-10-09-b2-02.jpg",
             "2026-10-09-b2-03.jpg",
-            "2026-10-09-b2-04.jpg"
+            "2026-10-09-b2-04.jpg",
+            "2026-10-09-b2-05.jpg"
           ]
         },
         {
@@ -1020,7 +1163,7 @@
             "2026-10-09-b3.mp4"
           ],
           "reel": {
-            "dauer": 32.35,
+            "dauer": 34.33,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
