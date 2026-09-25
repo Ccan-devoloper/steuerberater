@@ -395,6 +395,7 @@ function story(datum, planStory, t, used) {
       fach: null,
       klausur: 0,
       fachLabel: "Steuerberaterexamen",
+      footerLabel: "Examensphase",
       ueberzeile: "Noch",
       zahl: String(Math.max(0, Number(planStory.tageBisExamen ?? 0))),
       titel: "Tage bis zum Examen",
