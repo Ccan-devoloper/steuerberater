@@ -462,6 +462,7 @@ function klangbettFilter(dauer) {
    ein zusätzlicher KI-Aufruf ist dafür nicht nötig. */
 export function coverDaten(reel, plan) {
   const sekunden = Math.round(plan?.gesamt || 0);
+  const charakterMotiv = reel.bildTyp === "charakter" && !!reel.bild;
   return {
     /* Auf dem Cover steht der Kurztitel: Er fasst das ganze Reel zusammen und
        darf deshalb vom ersten gesprochenen Satz abweichen. Der Aufhaenger
@@ -473,6 +474,19 @@ export function coverDaten(reel, plan) {
     /* Freigestelltes Motiv (bilder.mjs) statt Icon-Bühne, wenn eines da ist. */
     bild: reel.bild || null, bildFrei: reel.bildFrei !== false, bildQuelle: reel.bildQuelle || null,
     bildBreite: reel.bildBreite || null, bildHoehe: reel.bildHoehe || null,
+    bildTyp: reel.bildTyp || null,
+    coverBildScale: reel.coverBildScale ?? null,
+    coverBildBreite: reel.coverBildBreite ?? null,
+    coverBildX: reel.coverBildX ?? null,
+    coverBildY: reel.coverBildY ?? null,
+    /* Charakter-Reel-Cover sind standardmaessig eine vollbreite untere
+       Buehne. "width" skaliert den Freisteller auf Canvasbreite ohne Crop.
+       Explizite Profile duerfen diese Defaults weiterhin ueberschreiben. */
+    coverBildFit: reel.coverBildFit ?? (charakterMotiv ? "width" : null),
+    coverBildTop: reel.coverBildTop ?? (charakterMotiv ? 620 : null),
+    coverBildBottom: reel.coverBildBottom ?? (charakterMotiv ? 0 : null),
+    coverBildBleed: reel.coverBildBleed ?? (charakterMotiv ? 0 : null),
+    coverBildEdgeToEdge: charakterMotiv ? reel.coverBildEdgeToEdge !== false : reel.coverBildEdgeToEdge === true,
     fach: reel.fach,
     klausur: reel.klausur,
     fachLabel: FAECHER[reel.fach]?.label,
