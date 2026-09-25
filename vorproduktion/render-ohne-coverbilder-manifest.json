@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "erzeugtAm": "2026-09-25T00:55:56.702Z",
-  "modus": "lokal-ohne-provider-und-ohne-coverbilder",
+  "erzeugtAm": "2026-09-25T21:47:38.609Z",
+  "modus": "lokal-ohne-provider-mit-icon-cover",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "providerKostenUsd": 0,
@@ -9,429 +9,128 @@
   "faktencheckProviderKostenUsd": 0,
   "bildgenerierungKostenUsd": 0,
   "coverbilder": false,
+  "coverIcons": true,
   "tage": [
     {
-      "datum": "2026-09-25",
-      "feed": [
-        {
-          "slot": "b1",
-          "format": "klausurtechnik",
-          "titel": "Vorsteuerabzug: § 14c richtig abgrenzen",
-          "klausur": 1,
-          "fach": "ust",
-          "coverBild": false,
-          "dateien": [
-            "2026-09-25-b1-01.jpg",
-            "2026-09-25-b1-02.jpg",
-            "2026-09-25-b1-03.jpg",
-            "2026-09-25-b1-04.jpg",
-            "2026-09-25-b1-05.jpg",
-            "2026-09-25-b1-06.jpg"
-          ]
-        },
-        {
-          "slot": "b2",
-          "format": "reel",
-          "titel": "§ 49 EStG bei beschränkter Steuerpflicht",
-          "klausur": 2,
-          "fach": "istr",
-          "coverBild": false,
-          "dateien": [
-            "2026-09-25-b2-cover.jpg",
-            "2026-09-25-b2.mp4"
-          ],
-          "reel": {
-            "dauer": 55.629999999999995,
-            "stimme": "piper",
-            "layout": "erklaer",
-            "szenen": 7
-          }
-        }
-      ],
-      "stories": [
-        {
-          "slot": "s3",
-          "art": "frage",
-          "klausur": 3,
-          "fach": "persg",
-          "datei": "s3-frage.jpg"
-        },
-        {
-          "slot": "s4",
-          "art": "antwort",
-          "klausur": 3,
-          "fach": "persg",
-          "datei": "s4-antwort.jpg"
-        },
-        {
-          "slot": "s1",
-          "art": "teaser",
-          "klausur": 1,
-          "fach": "ust",
-          "datei": "s1-teaser.jpg"
-        },
-        {
-          "slot": "s5",
-          "art": "norm",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s5-norm.jpg"
-        },
-        {
-          "slot": "s2",
-          "art": "teaser",
-          "klausur": 2,
-          "fach": "istr",
-          "datei": "s2-teaser.jpg"
-        },
-        {
-          "slot": "s6",
-          "art": "countdown",
-          "klausur": 0,
-          "fach": null,
-          "datei": "s6-countdown.jpg"
-        },
-        {
-          "slot": "s7",
-          "art": "tipp",
-          "klausur": 1,
-          "fach": "ao",
-          "datei": "s7-tipp.jpg"
-        },
-        {
-          "slot": "s8",
-          "art": "zahl",
-          "klausur": 1,
-          "fach": "ao",
-          "datei": "s8-zahl.jpg"
-        },
-        {
-          "slot": "s9",
-          "art": "formel",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s9-formel.jpg"
-        }
-      ],
-      "wartetLive": [],
-      "pfad": "vorproduktion/2026-09-25/fertig"
-    },
-    {
-      "datum": "2026-09-26",
+      "datum": "2026-09-29",
       "feed": [
         {
           "slot": "b1",
           "format": "spickzettel",
-          "titel": "Gesamthandsvermögen und Mitunternehmerbilanz",
+          "titel": "Drei Vermögen: Wo landet die Maschine?",
           "klausur": 3,
-          "fach": "bilanz",
+          "fach": "persg",
           "coverBild": false,
+          "coverIcon": "personen",
           "dateien": [
-            "2026-09-26-b1-01.jpg",
-            "2026-09-26-b1-02.jpg",
-            "2026-09-26-b1-03.jpg",
-            "2026-09-26-b1-04.jpg",
-            "2026-09-26-b1-05.jpg",
-            "2026-09-26-b1-06.jpg"
+            "2026-09-29-b1-01.jpg",
+            "2026-09-29-b1-02.jpg",
+            "2026-09-29-b1-03.jpg",
+            "2026-09-29-b1-04.jpg"
           ]
         },
         {
           "slot": "b2",
-          "format": "reel",
-          "titel": "Prüfungsangst am Abend vor Tag 1",
-          "klausur": 0,
-          "fach": "mindset",
-          "coverBild": false,
-          "dateien": [
-            "2026-09-26-b2-cover.jpg",
-            "2026-09-26-b2.mp4"
-          ],
-          "reel": {
-            "dauer": 31.52,
-            "stimme": "piper",
-            "layout": "erklaer",
-            "szenen": 6
-          }
-        }
-      ],
-      "stories": [
-        {
-          "slot": "s3",
-          "art": "frage",
-          "klausur": 1,
-          "fach": "ust",
-          "datei": "s3-frage.jpg"
-        },
-        {
-          "slot": "s4",
-          "art": "antwort",
-          "klausur": 1,
-          "fach": "ust",
-          "datei": "s4-antwort.jpg"
-        },
-        {
-          "slot": "s1",
-          "art": "teaser",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s1-teaser.jpg"
-        },
-        {
-          "slot": "s5",
-          "art": "norm",
-          "klausur": 1,
-          "fach": "ust",
-          "datei": "s5-norm.jpg"
-        },
-        {
-          "slot": "s2",
-          "art": "teaser",
-          "klausur": 0,
-          "fach": "mindset",
-          "datei": "s2-teaser.jpg"
-        },
-        {
-          "slot": "s6",
-          "art": "countdown",
-          "klausur": 0,
-          "fach": null,
-          "datei": "s6-countdown.jpg"
-        },
-        {
-          "slot": "s7",
-          "art": "zahl",
+          "format": "spickzettel",
+          "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
           "klausur": 1,
           "fach": "ao",
-          "datei": "s7-zahl.jpg"
-        },
-        {
-          "slot": "s8",
-          "art": "formel",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s8-formel.jpg"
-        },
-        {
-          "slot": "s9",
-          "art": "merksatz",
-          "klausur": 1,
-          "fach": "ao",
-          "datei": "s9-merksatz.jpg"
-        }
-      ],
-      "wartetLive": [],
-      "pfad": "vorproduktion/2026-09-26/fertig"
-    },
-    {
-      "datum": "2026-09-27",
-      "feed": [
-        {
-          "slot": "b1",
-          "format": "wochenrueckblick",
-          "titel": "Wochenrückblick K1 · K2 · K3",
-          "klausur": 4,
-          "fach": "wochenrueckblick",
           "coverBild": false,
+          "coverIcon": "dokument",
           "dateien": [
-            "2026-09-27-b1-01.jpg",
-            "2026-09-27-b1-02.jpg",
-            "2026-09-27-b1-03.jpg",
-            "2026-09-27-b1-04.jpg",
-            "2026-09-27-b1-05.jpg"
+            "2026-09-29-b2-01.jpg",
+            "2026-09-29-b2-02.jpg",
+            "2026-09-29-b2-03.jpg",
+            "2026-09-29-b2-04.jpg"
           ]
         },
         {
-          "slot": "b2",
+          "slot": "b3",
           "format": "reel",
-          "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
-          "klausur": 3,
-          "fach": "persg",
+          "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
+          "klausur": 2,
+          "fach": "istr",
           "coverBild": false,
+          "coverIcon": "globus",
           "dateien": [
-            "2026-09-27-b2-cover.jpg",
-            "2026-09-27-b2.mp4"
+            "2026-09-29-b3-cover.jpg",
+            "2026-09-29-b3.mp4"
           ],
           "reel": {
-            "dauer": 50.620000000000005,
+            "dauer": 28.479999999999997,
             "stimme": "piper",
             "layout": "erklaer",
-            "szenen": 8
+            "szenen": 5
           }
         }
       ],
       "stories": [
         {
-          "slot": "s3",
+          "slot": "s4",
           "art": "frage",
           "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s3-frage.jpg"
+          "fach": "persg",
+          "datei": "s4-frage.jpg"
         },
         {
-          "slot": "s4",
+          "slot": "s5",
           "art": "antwort",
           "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s4-antwort.jpg"
+          "fach": "persg",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s6-norm.jpg"
         },
         {
           "slot": "s1",
           "art": "teaser",
-          "klausur": 4,
-          "fach": "wochenrueckblick",
+          "klausur": 3,
+          "fach": "persg",
           "datei": "s1-teaser.jpg"
         },
         {
-          "slot": "s5",
-          "art": "norm",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s5-norm.jpg"
-        },
-        {
-          "slot": "s2",
-          "art": "teaser",
-          "klausur": 3,
-          "fach": "persg",
-          "datei": "s2-teaser.jpg"
-        },
-        {
-          "slot": "s6",
+          "slot": "s7",
           "art": "countdown",
           "klausur": 0,
           "fach": null,
-          "datei": "s6-countdown.jpg"
-        },
-        {
-          "slot": "s7",
-          "art": "formel",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s7-formel.jpg"
-        },
-        {
-          "slot": "s8",
-          "art": "merksatz",
-          "klausur": 2,
-          "fach": "istr",
-          "datei": "s8-merksatz.jpg"
-        },
-        {
-          "slot": "s9",
-          "art": "begriff",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s9-begriff.jpg"
-        }
-      ],
-      "wartetLive": [],
-      "pfad": "vorproduktion/2026-09-27/fertig"
-    },
-    {
-      "datum": "2026-09-28",
-      "feed": [
-        {
-          "slot": "b1",
-          "format": "klausurtechnik",
-          "titel": "Innergemeinschaftlicher Erwerb: § 1a und § 3d",
-          "klausur": 1,
-          "fach": "ust",
-          "coverBild": false,
-          "dateien": [
-            "2026-09-28-b1-01.jpg",
-            "2026-09-28-b1-02.jpg",
-            "2026-09-28-b1-03.jpg",
-            "2026-09-28-b1-04.jpg",
-            "2026-09-28-b1-05.jpg",
-            "2026-09-28-b1-06.jpg"
-          ]
-        },
-        {
-          "slot": "b2",
-          "format": "reel",
-          "titel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
-          "klausur": 2,
-          "fach": "istr",
-          "coverBild": false,
-          "dateien": [
-            "2026-09-28-b2-cover.jpg",
-            "2026-09-28-b2.mp4"
-          ],
-          "reel": {
-            "dauer": 60.64,
-            "stimme": "piper",
-            "layout": "erklaer",
-            "szenen": 8
-          }
-        }
-      ],
-      "stories": [
-        {
-          "slot": "s3",
-          "art": "frage",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s3-frage.jpg"
-        },
-        {
-          "slot": "s4",
-          "art": "antwort",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s4-antwort.jpg"
-        },
-        {
-          "slot": "s1",
-          "art": "teaser",
-          "klausur": 1,
-          "fach": "ust",
-          "datei": "s1-teaser.jpg"
-        },
-        {
-          "slot": "s5",
-          "art": "norm",
-          "klausur": 2,
-          "fach": "kst",
-          "datei": "s5-norm.jpg"
-        },
-        {
-          "slot": "s2",
-          "art": "teaser",
-          "klausur": 2,
-          "fach": "istr",
-          "datei": "s2-teaser.jpg"
-        },
-        {
-          "slot": "s6",
-          "art": "countdown",
-          "klausur": 0,
-          "fach": null,
-          "datei": "s6-countdown.jpg"
-        },
-        {
-          "slot": "s7",
-          "art": "merksatz",
-          "klausur": 3,
-          "fach": "persg",
-          "datei": "s7-merksatz.jpg"
+          "datei": "s7-countdown.jpg"
         },
         {
           "slot": "s8",
           "art": "begriff",
           "klausur": 3,
-          "fach": "persg",
+          "fach": "bilanz",
           "datei": "s8-begriff.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
         },
         {
           "slot": "s9",
           "art": "fehler",
-          "klausur": 1,
-          "fach": "ust",
+          "klausur": 2,
+          "fach": "istr",
           "datei": "s9-fehler.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
         }
       ],
       "wartetLive": [],
-      "pfad": "vorproduktion/2026-09-28/fertig"
+      "pfad": "vorproduktion/2026-09-29/fertig"
     }
   ]
 }
