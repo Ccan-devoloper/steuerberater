@@ -114,7 +114,50 @@ function kern(t) {
     schritte: (k.pruefschritte || []).map(clean).filter(Boolean),
     fehler: (k.fehler || []).map(clean).filter(Boolean),
     merksatz: clean(k.merksatz),
+    frage: clean(k.frage),
+    antwort: clean(k.antwort),
+    optionen: (k.optionen || []).map(clean).filter(Boolean),
+    richtig: k.richtig,
+    erklaerung: clean(k.erklaerung),
+    ausdruck: clean(k.ausdruck),
+    definition: clean(k.definition),
   };
+}
+
+function ohneNummer(text) {
+  return clean(text).replace(/^\d+\.\s*/, "").replace(/^Schritt\s+\d+\s*[:–-]\s*/i, "").trim();
+}
+
+function anzeigeKurz(text, max = 74) {
+  const s = ohneNummer(text);
+  if (s.length <= max) return s;
+  const ersterSatz = s.split(/(?<=[.!?])\s+/)[0];
+  if (ersterSatz.length <= max) return ersterSatz;
+  const teile = s.split(/\s+[–—]\s+|;\s+|:\s+|,\s+/).map((x) => x.trim()).filter(Boolean);
+  if (teile[0] && teile[0].length >= 18 && teile[0].length <= max) return teile[0];
+  const woerter = s.split(/\s+/);
+  let out = "";
+  for (const w of woerter) {
+    const neu = out ? out + " " + w : w;
+    if (neu.length > max) break;
+    out = neu;
+  }
+  return out || s;
+}
+
+function satz(text) {
+  const s = clean(text).replace(/[.]{2,}$/g, ".").replace(/\s+([,.;:!?])/g, "$1");
+  return /[.!?]$/.test(s) ? s : s + ".";
+}
+
+function quizAntwort(k) {
+  let option = "";
+  if (typeof k.richtig === "number" && k.optionen[k.richtig] != null) option = k.optionen[k.richtig];
+  else if (typeof k.richtig === "string") {
+    if (/^\d+$/.test(k.richtig) && k.optionen[Number(k.richtig)] != null) option = k.optionen[Number(k.richtig)];
+    else option = k.richtig;
+  }
+  return [option ? "Richtig: " + satz(option) : "", k.erklaerung].filter(Boolean).join(" ");
 }
 
 function quellen(t) {
@@ -177,7 +220,7 @@ function carousel(datum, slot, format, t) {
     {
       art: "titel",
       titel: t.titel,
-      coverBadge: badge(format),
+      coverBadge: format === "klausurtechnik" ? null : badge(format),
       coverBildAuslassen: true,
     },
     {
@@ -226,7 +269,7 @@ function carousel(datum, slot, format, t) {
     caption: [t.titel, ...k.lern.slice(0, 3), ...k.schritte.slice(0, 1)].join(" "),
     hashtags: hashtags(t),
     kurztitel: cut(t.titel.replace(/[?]$/, ""), 56),
-    coverBadge: badge(format),
+    coverBadge: format === "klausurtechnik" ? null : badge(format),
     coverBildAuslassen: true,
     quellen: quellen(t),
     regelGeprueft: true,
@@ -239,45 +282,61 @@ function reel(datum, slot, t) {
   const k = kern(t);
   const punkte = (k.schritte.length ? k.schritte : k.lern).slice(0, 5);
   const basis = punkte.length ? punkte : [t.titel];
+  const hookText = anzeigeKurz(k.lern[0] || basis[0], 66);
   const szenen = [{
     art: "hook",
     nummer: null,
     titel: t.titel,
     unter: fachLabel(t),
-    text: cut(k.lern[0] || basis[0], 120),
+    text: hookText,
     norm: t.normen?.[0] || null,
     icon: null,
-    sprecher: t.titel + ". " + (k.lern[0] || basis[0]),
-    marken: [cut(k.lern[0] || basis[0], 46)],
+    sprecher: satz(t.titel) + " " + satz(k.lern[0] || basis[0]),
+    marken: [anzeigeKurz(k.lern[0] || basis[0], 42)],
   }];
 
-  basis.forEach((x, i) => szenen.push({
-    art: "schritt",
-    nummer: i + 1,
-    titel: cut(x, 62),
-    text: k.lern[i] && k.lern[i] !== x ? cut(k.lern[i], 120) : null,
-    norm: t.normen?.[i] || null,
-    icon: null,
-    sprecher: "Schritt " + String(i + 1) + ": " + x + ".",
-    marken: [cut(x, 44)],
-  }));
+  basis.forEach((roh, i) => {
+    const x = ohneNummer(roh);
+    szenen.push({
+      art: "schritt",
+      nummer: i + 1,
+      titel: anzeigeKurz(x, 72),
+      text: k.lern[i] && k.lern[i] !== roh ? anzeigeKurz(k.lern[i], 92) : null,
+      norm: null,
+      icon: null,
+      sprecher: "Schritt " + String(i + 1) + ": " + satz(x),
+      marken: [anzeigeKurz(x, 42)],
+    });
+  });
 
   szenen.push({
     art: "merke",
     nummer: null,
     titel: "Merksatz",
-    text: cut(k.merksatz || k.lern[0] || basis[0], 130),
-    sprecher: "Merke dir: " + (k.merksatz || k.lern[0] || basis[0]),
+    text: anzeigeKurz(k.merksatz || k.lern[0] || basis[0], 110),
+    sprecher: "Merke dir: " + satz(k.merksatz || k.lern[0] || basis[0]),
     marken: ["Merksatz"],
   });
-  szenen.push({
-    art: "cta",
-    nummer: null,
-    titel: "In der Klausur sauber trennen",
-    text: "Kernfrage, Reihenfolge und tragende Normen getrennt wiederholen.",
-    sprecher: "Prüfe Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-    marken: ["Kernfrage", "Reihenfolge", "Normen"],
-  });
+
+  if (t.fach === "mindset") {
+    szenen.push({
+      art: "cta",
+      nummer: null,
+      titel: "Für heute Abend",
+      text: "Material packen, Schlaf priorisieren und nichts Neues mehr erzwingen.",
+      sprecher: "Für heute Abend: Material packen, Schlaf priorisieren und nichts Neues mehr erzwingen.",
+      marken: ["Material packen", "Schlaf priorisieren", "Nichts Neues"],
+    });
+  } else {
+    szenen.push({
+      art: "cta",
+      nummer: null,
+      titel: "Prüfungsschritte festigen",
+      text: "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+      sprecher: "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+      marken: ["Kernfrage", "Reihenfolge", "Normen"],
+    });
+  }
 
   return {
     format: "reel",
@@ -286,9 +345,9 @@ function reel(datum, slot, t) {
     themaId: t.id,
     slug: datum + "-" + slot,
     szenen,
-    caption: [t.titel, ...k.lern.slice(0, 3)].join(" "),
+    caption: [t.titel, ...k.lern.slice(0, 3)].map(satz).join(" "),
     hashtags: hashtags(t),
-    kurztitel: cut(t.titel, 56),
+    kurztitel: t.titel,
     coverBadge: "Reel",
     coverBildAuslassen: true,
     quellen: quellen(t),
@@ -297,7 +356,6 @@ function reel(datum, slot, t) {
     ...reviewStatus(),
   };
 }
-
 function recent(id, art, datum) {
   const letztes = (ledger.veroeffentlicht || [])
     .filter((e) => e.art === art && e.thema === id)
@@ -368,7 +426,7 @@ function story(datum, planStory, t, used) {
       ...basis,
       ueberzeile: "Auflösung",
       titel: "Kern der Antwort",
-      text: (k.lern.length ? k.lern : k.schritte).slice(0, 3).join(" "),
+      text: quizAntwort(k) || k.antwort || (k.lern.length ? k.lern : k.schritte).slice(0, 3).map(satz).join(" "),
     };
   }
   if (art === "norm") {
@@ -384,11 +442,12 @@ function story(datum, planStory, t, used) {
     return { ...basis, ueberzeile: "Merksatz", titel: t.titel, text: k.merksatz || k.lern[0] || k.schritte[0] };
   }
   if (art === "begriff") {
-    return {
+    if (!k.definition) planStory.art = "tipp";
+    else return {
       ...basis,
       ueberzeile: "Begriff des Tages",
       titel: t.titel,
-      text: k.lern.slice(0, 2).join(" ") || k.schritte[0] || t.titel,
+      text: k.definition,
       norm: t.normen?.[0] || undefined,
     };
   }
@@ -403,30 +462,27 @@ function story(datum, planStory, t, used) {
     };
   }
   if (art === "formel") {
-    return {
+    if (!k.ausdruck) planStory.art = "tipp";
+    else return {
       ...basis,
       ueberzeile: "Rechenweg",
       titel: t.titel,
-      formel: k.schritte[0] || k.lern[0] || t.titel,
-      text: k.lern[1] || k.merksatz || "",
+      formel: k.ausdruck,
+      text: k.erklaerung || k.lern[0] || k.merksatz || "",
     };
   }
   if (art === "zahl") {
-    const punkte = (k.schritte.length >= 2 ? k.schritte : k.lern).slice(0, 6);
-    return {
-      ...basis,
-      ueberzeile: String(Math.max(2, punkte.length)) + " Punkte",
-      zahl: String(Math.max(2, punkte.length)),
-      titel: t.titel,
-      text: "Diese Punkte tragen die sichtbare Prüfungsstruktur.",
-    };
+    /* Providerfrei niemals eine scheinbare Fachzahl aus der Anzahl von
+       Stichpunkten erfinden. Ohne explizit strukturierten Zahlenfakt wird aus
+       dem Slot ein normaler Klausurtipp. */
+    planStory.art = "tipp";
   }
   return {
     ...basis,
     art: "tipp",
     ueberzeile: "Klausurtipp",
     titel: t.titel,
-    text: k.schritte[0] || k.merksatz || k.lern[0] || t.titel,
+    text: satz(k.schritte[0] || k.merksatz || k.lern[0] || t.titel),
   };
 }
 
@@ -442,16 +498,15 @@ function recap(datum, slot) {
     }
   }
 
-  if (!rows.length) {
-    for (const e of ledger.veroeffentlicht || []) {
-      if (e.art !== "beitrag" || e.datum < start || e.datum > datum || !e.thema) continue;
-      const t = byId.get(e.thema);
-      if (t) rows.push(t);
-    }
+  for (const e of ledger.veroeffentlicht || []) {
+    if (e.art !== "beitrag" || e.datum < start || e.datum > datum || !e.thema) continue;
+    const t = byId.get(e.thema);
+    if (t) rows.push(t);
   }
 
+  const eindeutig = [...new Map(rows.map((t) => [t.id, t])).values()];
   const gruppen = { 1: [], 2: [], 3: [] };
-  for (const t of rows) if (gruppen[t.klausur]) gruppen[t.klausur].push(t);
+  for (const t of eindeutig) if (gruppen[t.klausur]) gruppen[t.klausur].push(t);
 
   const slides = [{
     art: "titel",
@@ -495,7 +550,7 @@ function recap(datum, slot) {
     kurztitel: "Wochenrückblick K1 · K2 · K3",
     coverBadge: "Wochenrückblick",
     coverBildAuslassen: true,
-    quellen: [...new Set(rows.flatMap(quellen))],
+    quellen: [...new Set(eindeutig.flatMap(quellen))],
     regelGeprueft: true,
     manuellGeprueft: false,
     ...reviewStatus(),
