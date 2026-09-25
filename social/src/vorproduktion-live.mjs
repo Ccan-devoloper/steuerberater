@@ -222,14 +222,11 @@ export async function vorproduktionLiveAusfuehren({ hosting, datum, trocken = fa
   const tag = tagLaden(hosting, datum);
   if (!tag) return { aktiv: false, grund: "keine Vorproduktion für diesen Tag" };
 
-  // Review-Dateien liegen ebenfalls im Asset-Zweig, damit das Dashboard sie
-  // anzeigen kann. Erst eine ausdrückliche Tagesfreigabe darf den laufenden
-  // Veröffentlichungspfad ersetzen; Entwürfe blockieren ihn nicht.
-  if (tag.freigabeBetreiber !== true || tag.liveRegel?.veroeffentlichen === false) {
-    log(`Vorproduktion ${datum}: Review ohne Tagesfreigabe; Normalbetrieb läuft weiter.`);
-    return { aktiv: false, grund: "vorproduktion-review-ohne-freigabe" };
-  }
-
+  /* Harte Kostenregel: Die Existenz der Tagesdatei allein schaltet den
+     Normalbetrieb für dieses Datum ab. Freigabe-Metadaten älterer Reviewtage
+     sind nur noch Anzeige-/Historienfelder und dürfen keinen kostenpflichtigen
+     Fallback auslösen. Nur wenn überhaupt keine Vorproduktionsdatei existiert,
+     darf der normale Lauf starten. */
   log(`Vorproduktion hat Vorrang · ${datum} · Providerkosten 0 $ · normaler Veröffentlichungslauf pausiert.`);
   if (tag.renderVorschau?.status && tag.renderVorschau.status !== "fertig") {
     log(`  ⏸ Vorproduktion ist noch nicht fertig gerendert (Status: ${tag.renderVorschau.status}). Normalbetrieb bleibt trotzdem pausiert.`);
